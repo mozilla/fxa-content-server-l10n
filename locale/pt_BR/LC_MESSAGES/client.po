@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-19 21:13+0000\n"
-"PO-Revision-Date: 2014-03-07 18:01+0000\n"
+"PO-Revision-Date: 2014-03-11 21:24+0000\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1394215291.0\n"
+"X-POOTLE-MTIME: 1394573096.0\n"
 
 #: app/scripts/templates/sign_up.mustache:11
 msgid "1991"
@@ -205,7 +205,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:56
 msgid "Client has sent too many requests"
-msgstr ""
+msgstr "Cliente enviou muitas solicitações"
 
 #: app/scripts/lib/auth-errors.js:57
 msgid "Service unavailable"
@@ -217,35 +217,35 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:20
 msgid "Invalid password"
-msgstr ""
+msgstr "Senha inválida"
 
 #: app/scripts/lib/strings.js:21
 msgid "Invalid email and password"
-msgstr ""
+msgstr "E-mail e senha inválidos"
 
 #: app/scripts/lib/strings.js:22
 msgid "Invalid email or password"
-msgstr ""
+msgstr "E-mail e senha inválidos"
 
 #: app/scripts/lib/strings.js:26
 msgid "Old password invalid"
-msgstr ""
+msgstr "Senha antiga inválida"
 
 #: app/scripts/lib/strings.js:27
 msgid "New password invalid"
-msgstr ""
+msgstr "Senha nova inválida"
 
 #: app/scripts/lib/strings.js:28
 msgid "Passwords don't match"
-msgstr ""
+msgstr "Senhas não coincidem"
 
 #: app/scripts/lib/strings.js:29
 msgid "Please enter an email"
-msgstr ""
+msgstr "Por favor, indique um e-mail"
 
 #: app/scripts/lib/strings.js:30
 msgid "Cannot connect to the internet"
-msgstr ""
+msgstr "Não é possível conectar-se à Internet"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 #: app/scripts/templates/change_password.mustache:1
@@ -262,19 +262,21 @@ msgstr ""
 #: app/scripts/templates/sign_up.mustache:1
 #: app/scripts/templates/tos.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Firefox Accounts"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
 msgid "Cannot create account"
-msgstr ""
+msgstr "Não foi possível criar conta"
 
 #: app/scripts/templates/cannot_create_account.mustache:3
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr ""
+"Você deve atender a certos requisitos de idade para criar uma conta do "
+"Firefox."
 
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
-msgstr ""
+msgstr "Saiba mais."
 
 #: app/scripts/templates/change_password.mustache:2
 #: app/scripts/templates/settings.mustache:5
@@ -424,7 +426,7 @@ msgstr "Digite seu e-mail para redefinir a senha da conta."
 
 #: app/scripts/templates/reset_password_complete.mustache:2
 msgid "Password reset"
-msgstr ""
+msgstr "Redefinir senha"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "Manage account"
