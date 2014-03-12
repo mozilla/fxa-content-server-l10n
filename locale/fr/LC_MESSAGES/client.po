@@ -1,83 +1,83 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-02-19 21:13+0000\n"
+"POT-Creation-Date: 2014-03-12 19:50+0000\n"
 "PO-Revision-Date: 2014-02-26 16:41+0000\n"
 "Last-Translator: Benoit <benoit.leseul@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1393432868.0\n"
 
-#: app/scripts/templates/sign_up.mustache:11
+#: app/scripts/templates/sign_up.mustache:10
 msgid "1991"
 msgstr "1991"
 
-#: app/scripts/templates/sign_up.mustache:12
+#: app/scripts/templates/sign_up.mustache:11
 msgid "1992"
 msgstr "1992"
 
-#: app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/sign_up.mustache:12
 msgid "1993"
 msgstr "1993"
 
-#: app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/sign_up.mustache:13
 msgid "1994"
 msgstr "1994"
 
-#: app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/sign_up.mustache:14
 msgid "1995"
 msgstr "1995"
 
-#: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/sign_up.mustache:15
 msgid "1996"
 msgstr "1996"
 
-#: app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/sign_up.mustache:16
 msgid "1997"
 msgstr "1997"
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:17
 msgid "1998"
 msgstr "1998"
 
-#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/sign_up.mustache:18
 msgid "1999"
 msgstr "1999"
 
-#: app/scripts/templates/sign_up.mustache:20
+#: app/scripts/templates/sign_up.mustache:19
 msgid "2000"
 msgstr "2000"
 
-#: app/scripts/templates/sign_up.mustache:21
+#: app/scripts/templates/sign_up.mustache:20
 msgid "2001"
 msgstr "2001"
 
-#: app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/sign_up.mustache:21
 msgid "2002"
 msgstr "2002"
 
-#: app/scripts/templates/sign_up.mustache:23
+#: app/scripts/templates/sign_up.mustache:22
 msgid "2003"
 msgstr "2003"
 
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:23
 msgid "2004"
 msgstr "2004"
 
-#: app/scripts/templates/sign_up.mustache:25
+#: app/scripts/templates/sign_up.mustache:24
 msgid "2005"
 msgstr "2005"
 
-#: app/scripts/templates/sign_up.mustache:26
+#: app/scripts/templates/sign_up.mustache:25
 msgid "2006"
 msgstr "2006"
 
-#: app/scripts/templates/sign_up.mustache:27
+#: app/scripts/templates/sign_up.mustache:26
 msgid "2007"
 msgstr "2007"
 
@@ -85,51 +85,55 @@ msgstr "2007"
 msgid "old and new passwords must be different"
 msgstr "le mot de passe ne peut pas être identique à votre mot de passe actuel"
 
-#: app/scripts/views/complete_reset_password.js:37
+#: app/scripts/views/complete_reset_password.js:38
 msgid "no token specified"
 msgstr "aucun jeton spécifié"
 
-#: app/scripts/views/complete_reset_password.js:42
-#: app/scripts/views/complete_sign_up.js:47
+#: app/scripts/views/complete_reset_password.js:43
+#: app/scripts/views/complete_sign_up.js:30
 msgid "no code specified"
 msgstr "aucun code spécifié"
 
-#: app/scripts/views/complete_reset_password.js:47
+#: app/scripts/views/complete_reset_password.js:48
 msgid "no email specified"
 msgstr "aucun courriel spécifié"
 
-#: app/scripts/views/complete_reset_password.js:60
+#: app/scripts/views/complete_reset_password.js:61
 msgid "passwords do not match"
 msgstr "les mots de passe ne correspondent pas"
 
-#: app/scripts/views/complete_sign_up.js:42
+#: app/scripts/views/complete_sign_up.js:25
 msgid "no uid specified"
 msgstr "aucun uid spécifié"
 
-#: app/scripts/views/form.js:187 app/scripts/lib/strings.js:18
+#: app/scripts/views/form.js:226 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "Adresse électronique valide requise"
 
-#: app/scripts/views/form.js:193 app/scripts/lib/strings.js:23
-#: app/scripts/templates/change_password.mustache:10
-#: app/scripts/templates/complete_reset_password.mustache:9
-#: app/scripts/templates/sign_up.mustache:8
+#: app/scripts/views/form.js:232 app/scripts/lib/strings.js:23
+#: app/scripts/templates/change_password.mustache:9
+#: app/scripts/templates/complete_reset_password.mustache:8
+#: app/scripts/templates/sign_up.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "Doit être long d'au moins 8 caractères"
 
-#: app/scripts/views/form.js:194 app/scripts/lib/strings.js:19
+#: app/scripts/views/form.js:233 app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr "Mot de passe valide requis"
 
-#: app/scripts/views/sign_in.js:90
+#: app/scripts/views/sign_in.js:51
+msgid "/force_auth requires an email"
+msgstr ""
+
+#: app/scripts/views/sign_in.js:96
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Compte inconnu. <a href=\"/signup\">Enregistrement</a>"
 
-#: app/scripts/views/sign_up.js:71 app/scripts/lib/strings.js:24
+#: app/scripts/views/sign_up.js:78 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "Année de naissance requise"
 
-#: app/scripts/views/sign_up.js:131
+#: app/scripts/views/sign_up.js:138
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Ce compte existe déjà. <a href=\"/signin\">Connexion</a>"
 
@@ -242,247 +246,243 @@ msgid "Cannot connect to the internet"
 msgstr "Connexion à Internet impossible"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
-#: app/scripts/templates/change_password.mustache:1
-#: app/scripts/templates/complete_reset_password.mustache:1
-#: app/scripts/templates/complete_sign_up.mustache:1
-#: app/scripts/templates/confirm.mustache:1
-#: app/scripts/templates/confirm_reset_password.mustache:1
-#: app/scripts/templates/delete_account.mustache:1
-#: app/scripts/templates/pp.mustache:1
-#: app/scripts/templates/reset_password.mustache:1
-#: app/scripts/templates/reset_password_complete.mustache:1
-#: app/scripts/templates/settings.mustache:1
-#: app/scripts/templates/sign_in.mustache:1
-#: app/scripts/templates/sign_up.mustache:1
-#: app/scripts/templates/tos.mustache:1
-msgid "Firefox Accounts"
-msgstr "Comptes Firefox"
-
-#: app/scripts/templates/cannot_create_account.mustache:2
 msgid "Cannot create account"
 msgstr "Création de compte impossible"
 
-#: app/scripts/templates/cannot_create_account.mustache:3
+#: app/scripts/templates/cannot_create_account.mustache:2
 msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr ""
 "Vous devez avoir atteint l’âge requis pour pouvoir créer un compte Firefox."
 
-#: app/scripts/templates/cannot_create_account.mustache:4
+#: app/scripts/templates/cannot_create_account.mustache:3
 msgid "Learn more."
 msgstr "En savoir plus."
 
-#: app/scripts/templates/change_password.mustache:2
-#: app/scripts/templates/settings.mustache:5
+#: app/scripts/templates/change_password.mustache:1
+#: app/scripts/templates/settings.mustache:4
 msgid "Change password"
 msgstr "Modifier le mot de passe"
 
-#: app/scripts/templates/change_password.mustache:3
+#: app/scripts/templates/change_password.mustache:2
 msgid "Password changed"
 msgstr "Mot de passe modifié"
 
-#: app/scripts/templates/change_password.mustache:4
+#: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
 msgstr "Ancien mot de passe"
 
-#: app/scripts/templates/change_password.mustache:6
-#: app/scripts/templates/change_password.mustache:9
-#: app/scripts/templates/complete_reset_password.mustache:5
-#: app/scripts/templates/complete_reset_password.mustache:8
-#: app/scripts/templates/delete_account.mustache:7
-#: app/scripts/templates/sign_in.mustache:11
-#: app/scripts/templates/sign_up.mustache:7
+#: app/scripts/templates/change_password.mustache:5
+#: app/scripts/templates/change_password.mustache:8
+#: app/scripts/templates/complete_reset_password.mustache:4
+#: app/scripts/templates/complete_reset_password.mustache:7
+#: app/scripts/templates/delete_account.mustache:6
+#: app/scripts/templates/sign_in.mustache:10
+#: app/scripts/templates/sign_up.mustache:6
 msgid "Show"
 msgstr "Afficher"
 
-#: app/scripts/templates/change_password.mustache:7
+#: app/scripts/templates/change_password.mustache:6
 msgid "New password"
 msgstr "Nouveau mot de passe"
 
-#: app/scripts/templates/change_password.mustache:11
+#: app/scripts/templates/change_password.mustache:10
 msgid "Change Password"
 msgstr "Modifier le mot de passe"
 
-#: app/scripts/templates/change_password.mustache:12
-#: app/scripts/templates/delete_account.mustache:9
-#: app/scripts/templates/pp.mustache:4
-#: app/scripts/templates/reset_password.mustache:6
-#: app/scripts/templates/reset_password.mustache:8
-#: app/scripts/templates/tos.mustache:4
+#: app/scripts/templates/change_password.mustache:11
+#: app/scripts/templates/delete_account.mustache:8
+#: app/scripts/templates/pp.mustache:3
+#: app/scripts/templates/reset_password.mustache:5
+#: app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Retour"
 
-#: app/scripts/templates/complete_reset_password.mustache:2
-#: app/scripts/templates/reset_password.mustache:2
+#: app/scripts/templates/complete_reset_password.mustache:1
+#: app/scripts/templates/reset_password.mustache:1
 msgid "Reset password"
 msgstr "Réinitialiser le mot de passe"
 
-#: app/scripts/templates/complete_reset_password.mustache:3
-#: app/scripts/templates/delete_account.mustache:5
-#: app/scripts/templates/sign_in.mustache:8
-#: app/scripts/templates/sign_up.mustache:4
+#: app/scripts/templates/complete_reset_password.mustache:2
+#: app/scripts/templates/delete_account.mustache:4
+#: app/scripts/templates/sign_in.mustache:7
+#: app/scripts/templates/sign_up.mustache:3
 msgid "Password"
 msgstr "Mot de passe"
 
-#: app/scripts/templates/complete_reset_password.mustache:6
+#: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Repeat Password"
 msgstr "Répéter le mot de passe"
 
-#: app/scripts/templates/complete_reset_password.mustache:10
-#: app/scripts/templates/reset_password.mustache:5
-#: app/scripts/templates/sign_up.mustache:29
+#: app/scripts/templates/complete_reset_password.mustache:9
+#: app/scripts/templates/reset_password.mustache:4
+#: app/scripts/templates/sign_up.mustache:28
 msgid "Next"
 msgstr "Suivant"
 
-#: app/scripts/templates/complete_sign_up.mustache:2
-msgid "Account verified"
-msgstr "Compte vérifié"
+#: app/scripts/templates/complete_sign_up.mustache:1
+msgid "Completing sign up"
+msgstr ""
 
-#: app/scripts/templates/complete_sign_up.mustache:3
-#: app/scripts/templates/reset_password_complete.mustache:3
-msgid "Success"
-msgstr "Succès"
-
-#: app/scripts/templates/complete_sign_up.mustache:4
-#: app/scripts/templates/reset_password_complete.mustache:4
-msgid "You are now ready to use %(service)s."
-msgstr "Vous êtes maintenant prêt à utiliser %(service)s."
-
-#: app/scripts/templates/complete_sign_up.mustache:6
-#: app/scripts/templates/reset_password_complete.mustache:6
-msgid "Your account is ready!"
-msgstr "Votre compte est prêt&nbsp;!"
-
-#: app/scripts/templates/confirm.mustache:2
+#: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
 msgstr "Confirmez votre compte"
 
-#: app/scripts/templates/confirm.mustache:3
-#: app/scripts/templates/confirm_reset_password.mustache:3
+#: app/scripts/templates/confirm.mustache:2
+#: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email Sent"
 msgstr "Courriel envoyé"
 
-#: app/scripts/templates/confirm.mustache:4
+#: app/scripts/templates/confirm.mustache:3
 msgid "A verification link has been sent&nbsp;to: %(email)s"
 msgstr "Un lien de vérification a été envoyé à&nbsp;: %(email)s"
 
-#: app/scripts/templates/confirm.mustache:5
-#: app/scripts/templates/confirm_reset_password.mustache:5
+#: app/scripts/templates/confirm.mustache:4
+#: app/scripts/templates/confirm_reset_password.mustache:4
 msgid "Resend email"
 msgstr "Renvoyer le courriel"
 
-#: app/scripts/templates/confirm.mustache:6
-#: app/scripts/templates/confirm_reset_password.mustache:6
+#: app/scripts/templates/confirm.mustache:5
+#: app/scripts/templates/confirm_reset_password.mustache:5
 msgid "Email resent"
 msgstr "Courriel renvoyé"
 
-#: app/scripts/templates/confirm_reset_password.mustache:2
+#: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
 msgstr "Courriel de réinitialisation envoyé"
 
-#: app/scripts/templates/confirm_reset_password.mustache:4
+#: app/scripts/templates/confirm_reset_password.mustache:3
 msgid "A reset link has been sent to %(email)s"
 msgstr "Un lien de réinitialisation a été envoyé à %(email)s"
 
-#: app/scripts/templates/delete_account.mustache:2
+#: app/scripts/templates/delete_account.mustache:1
 msgid "Delete account"
 msgstr "Supprimer le compte"
 
-#: app/scripts/templates/delete_account.mustache:3
+#: app/scripts/templates/delete_account.mustache:2
 msgid ""
 "Are you sure you want to delete your account? This action cannot be undone."
 msgstr ""
 "Voulez-vous vraiment supprimer votre compte&nbsp;? Cette action est "
 "définitive."
 
-#: app/scripts/templates/delete_account.mustache:4
-#: app/scripts/templates/reset_password.mustache:4
-#: app/scripts/templates/sign_in.mustache:6
-#: app/scripts/templates/sign_up.mustache:3
+#: app/scripts/templates/delete_account.mustache:3
+#: app/scripts/templates/reset_password.mustache:3
+#: app/scripts/templates/sign_in.mustache:5
+#: app/scripts/templates/sign_up.mustache:2
 msgid "Email"
 msgstr "Adresse électronique"
 
-#: app/scripts/templates/delete_account.mustache:8
+#: app/scripts/templates/delete_account.mustache:7
 msgid "Delete Account"
 msgstr "Supprimer le compte"
 
-#: app/scripts/templates/pp.mustache:2 app/scripts/templates/tos.mustache:2
+#: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
+#: app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
 msgstr "Services en ligne de Firefox"
 
-#: app/scripts/templates/pp.mustache:3
+#: app/scripts/templates/legal.mustache:2
+msgid "Legal"
+msgstr ""
+
+#: app/scripts/templates/legal.mustache:3 app/scripts/templates/tos.mustache:2
+msgid "Terms of Service"
+msgstr "Conditions d'utilisation"
+
+#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
 msgid "Privacy Notice"
 msgstr "Politique de confidentialité"
 
-#: app/scripts/templates/reset_password.mustache:3
-msgid "Enter your email to reset&nbsp;the account password."
-msgstr "Saisissez votre adresse pour réinitialiser le mot de passe du compte."
+#: app/scripts/templates/ready.mustache:1
+msgid "Signed in successfully"
+msgstr ""
 
-#: app/scripts/templates/reset_password_complete.mustache:2
+#: app/scripts/templates/ready.mustache:3
+msgid "Account verified"
+msgstr "Compte vérifié"
+
+#: app/scripts/templates/ready.mustache:5
 msgid "Password reset"
 msgstr "Mot de passe réinitialisé"
 
-#: app/scripts/templates/settings.mustache:2
+#: app/scripts/templates/ready.mustache:7
+msgid "Success"
+msgstr "Succès"
+
+#: app/scripts/templates/ready.mustache:8
+msgid "You are now ready to use %(service)s."
+msgstr "Vous êtes maintenant prêt à utiliser %(service)s."
+
+#: app/scripts/templates/ready.mustache:10
+msgid "Your account is ready!"
+msgstr "Votre compte est prêt&nbsp;!"
+
+#: app/scripts/templates/reset_password.mustache:2
+msgid "Enter your email to reset&nbsp;the account password."
+msgstr "Saisissez votre adresse pour réinitialiser le mot de passe du compte."
+
+#: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
 msgstr "Gérer le compte"
 
-#: app/scripts/templates/settings.mustache:3
+#: app/scripts/templates/settings.mustache:2
 msgid "You are signed in as: %(email)s"
 msgstr "Vous êtes connecté en tant que&nbsp;: %(email)s"
 
-#: app/scripts/templates/settings.mustache:4
+#: app/scripts/templates/settings.mustache:3
 msgid "Sign out"
 msgstr "Déconnexion"
 
-#: app/scripts/templates/sign_in.mustache:2
-#: app/scripts/templates/sign_in.mustache:12
+#: app/scripts/templates/sign_in.mustache:1
+#: app/scripts/templates/sign_in.mustache:11
 msgid "Sign in"
 msgstr "Connexion"
 
-#: app/scripts/templates/sign_in.mustache:3
+#: app/scripts/templates/sign_in.mustache:2
 msgid "Sign in to continue"
 msgstr "Connectez-vous pour continuer"
 
-#: app/scripts/templates/sign_in.mustache:13
-#: app/scripts/templates/sign_in.mustache:15
+#: app/scripts/templates/sign_in.mustache:12
+#: app/scripts/templates/sign_in.mustache:14
 msgid "Forgot password?"
 msgstr "Mot de passe oublié&nbsp;?"
 
-#: app/scripts/templates/sign_in.mustache:14
+#: app/scripts/templates/sign_in.mustache:13
 msgid "Create an account"
 msgstr "Créer un compte"
 
-#: app/scripts/templates/sign_in.mustache:17
-#: app/scripts/templates/sign_up.mustache:28
+#: app/scripts/templates/sign_in.mustache:16
+#: app/scripts/templates/sign_up.mustache:27
 msgid ""
 "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
 "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
 "a> of Firefox cloud services."
 msgstr ""
-"En continuant, j’accepte les <a id=\"fxa-tos\" href=\"/legal/terms\">conditions "
-"d’utilisation</a> et la <a id=\"fxa-pp\" href=\"/legal/privacy\">politique de "
-"confidentialité</a> des services en ligne de Firefox."
+"En continuant, j’accepte les <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">conditions d’utilisation</a> et la <a id=\"fxa-pp\" href=\"/legal/privacy"
+"\">politique de confidentialité</a> des services en ligne de Firefox."
 
-#: app/scripts/templates/sign_up.mustache:2
-msgid "Create a Firefox account"
+#: app/scripts/templates/sign_up.mustache:1
+#, fuzzy
+msgid "Create a Firefox Account"
 msgstr "Créer un compte Firefox"
 
-#: app/scripts/templates/sign_up.mustache:9
+#: app/scripts/templates/sign_up.mustache:8
 msgid "Year of birth"
 msgstr "Année de naissance"
 
-#: app/scripts/templates/sign_up.mustache:10
+#: app/scripts/templates/sign_up.mustache:9
 msgid "1990 or earlier"
 msgstr "1990 ou antérieur"
 
-#: app/scripts/templates/sign_up.mustache:30
+#: app/scripts/templates/sign_up.mustache:29
 msgid "Choose what to sync"
 msgstr "Choisir que synchroniser"
 
-#: app/scripts/templates/sign_up.mustache:32
+#: app/scripts/templates/sign_up.mustache:31
 msgid "Already have an account? Sign in."
 msgstr "Vous possédez déjà un compte ? Connectez-vous."
 
-#: app/scripts/templates/tos.mustache:3
-msgid "Terms of Service"
-msgstr "Conditions d'utilisation"
+#~ msgid "Firefox Accounts"
+#~ msgstr "Comptes Firefox"
