@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-02-19 21:13+0000\n"
-"PO-Revision-Date: 2014-03-04 20:53+0000\n"
+"PO-Revision-Date: 2014-03-12 15:55+0000\n"
 "Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1393966405.0\n"
+"X-POOTLE-MTIME: 1394639742.0\n"
 
 #: app/scripts/templates/sign_up.mustache:11
 msgid "1991"
@@ -135,7 +135,7 @@ msgstr "Questo account esiste già. <a href=\"/signin\">Accedi</a>"
 
 #: app/scripts/lib/auth-errors.js:40
 msgid "Unexpected error"
-msgstr "Errore non atteso"
+msgstr "Si è verificato un errore non atteso"
 
 #: app/scripts/lib/auth-errors.js:41
 msgid "Invalid authentication token in request signature"
@@ -147,7 +147,7 @@ msgstr "Timestamp non valido nella firma della richiesta"
 
 #: app/scripts/lib/auth-errors.js:43
 msgid "Invalid nonce in request signature"
-msgstr "Nonce non valido nella firma della richiesta"
+msgstr "Numero nonce non valido nella firma della richiesta"
 
 #: app/scripts/lib/auth-errors.js:44 app/scripts/lib/strings.js:25
 msgid "Account already exists"
@@ -344,7 +344,7 @@ msgstr "L'account è stato verificato"
 #: app/scripts/templates/complete_sign_up.mustache:3
 #: app/scripts/templates/reset_password_complete.mustache:3
 msgid "Success"
-msgstr "Evviva"
+msgstr "L’operazione è stata completata con successo"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
 #: app/scripts/templates/reset_password_complete.mustache:4
@@ -354,7 +354,7 @@ msgstr "Ora puoi utilizzare %(service)s."
 #: app/scripts/templates/complete_sign_up.mustache:6
 #: app/scripts/templates/reset_password_complete.mustache:6
 msgid "Your account is ready!"
-msgstr "Il tuo account è pronto!"
+msgstr "Ora l’account è pronto."
 
 #: app/scripts/templates/confirm.mustache:2
 msgid "Confirm your account"
@@ -396,9 +396,7 @@ msgstr "Elimina account"
 #: app/scripts/templates/delete_account.mustache:3
 msgid ""
 "Are you sure you want to delete your account? This action cannot be undone."
-msgstr ""
-"Sei sicuro di voler eliminare questo account? Questa operazione non può "
-"essere annullata."
+msgstr "Eliminare questo account? Questa operazione non può essere annullata."
 
 #: app/scripts/templates/delete_account.mustache:4
 #: app/scripts/templates/reset_password.mustache:4
@@ -485,7 +483,7 @@ msgstr "prima del 1990"
 
 #: app/scripts/templates/sign_up.mustache:30
 msgid "Choose what to sync"
-msgstr "Scegli cosa sincronizzare"
+msgstr "Scegli che cosa sincronizzare"
 
 #: app/scripts/templates/sign_up.mustache:32
 msgid "Already have an account? Sign in."
