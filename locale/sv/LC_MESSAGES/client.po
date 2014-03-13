@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: 2014-02-28 18:10+0000\n"
+"PO-Revision-Date: 2014-03-13 18:32+0000\n"
 "Last-Translator: Hasse <hasse@jasajudeju.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1393611057.0\n"
+"X-POOTLE-MTIME: 1394735535.0\n"
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "1991"
@@ -124,7 +124,7 @@ msgstr "Giltigt lösenord krävs"
 
 #: app/scripts/views/sign_in.js:51
 msgid "/force_auth requires an email"
-msgstr ""
+msgstr "/force_auth kräver en e-postadress"
 
 #: app/scripts/views/sign_in.js:96
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -322,7 +322,7 @@ msgstr "Nästa"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Completing sign up"
-msgstr ""
+msgstr "Färdigställer kontot"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -383,7 +383,7 @@ msgstr "Firefox molntjänster"
 
 #: app/scripts/templates/legal.mustache:2
 msgid "Legal"
-msgstr ""
+msgstr "Juridik"
 
 #: app/scripts/templates/legal.mustache:3 app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
@@ -395,7 +395,7 @@ msgstr "Integritetsinfo"
 
 #: app/scripts/templates/ready.mustache:1
 msgid "Signed in successfully"
-msgstr ""
+msgstr "Inloggningen lyckades"
 
 #: app/scripts/templates/ready.mustache:3
 msgid "Account verified"
@@ -463,7 +463,6 @@ msgstr ""
 "\">integritetspolicyn</a> för Firefox molntjänster."
 
 #: app/scripts/templates/sign_up.mustache:1
-#, fuzzy
 msgid "Create a Firefox Account"
 msgstr "Skapa ett Firefox-konto"
 
