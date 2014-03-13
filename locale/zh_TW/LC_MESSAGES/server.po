@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: 2014-02-25 15:11+0000\n"
+"PO-Revision-Date: 2014-03-13 08:41+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1393341064.0\n"
+"X-POOTLE-MTIME: 1394700087.0\n"
 
 #: server/templates/pages/src/404.html:1
 #: server/templates/pages/src/index.html:1
@@ -27,25 +27,24 @@ msgstr "Firefox 帳號"
 #: server/templates/pages/src/404.html:2
 #: server/templates/pages/dist/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "找不到頁面"
 
 #: server/templates/pages/src/404.html:3
 #: server/templates/pages/dist/404.html:3
 msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
-msgstr ""
+msgstr "找不到您想開啟的頁面。我們已經通知開發團隊來檢查網頁。"
 
 #: server/templates/pages/src/404.html:4
 #: server/templates/pages/dist/404.html:4
 msgid "Home"
-msgstr ""
+msgstr "首頁"
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/dist/index.html:2
-#, fuzzy
 msgid "Firefox Accounts requires JavaScript."
-msgstr "Firefox 帳號"
+msgstr "需要開啟 JavaScript 才能使用 Firefox Accounts。"
 
 #: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
 msgid "A request to reset the password for %(email)s has been made."

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: 2014-02-25 15:12+0000\n"
+"PO-Revision-Date: 2014-03-13 08:40+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1393341123.0\n"
+"X-POOTLE-MTIME: 1394700026.0\n"
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "1991"
@@ -124,7 +124,7 @@ msgstr "必須輸入有效的密碼"
 
 #: app/scripts/views/sign_in.js:51
 msgid "/force_auth requires an email"
-msgstr ""
+msgstr "/force_auth 需要 email 帳號"
 
 #: app/scripts/views/sign_in.js:96
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -322,7 +322,7 @@ msgstr "下一步"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Completing sign up"
-msgstr ""
+msgstr "正在完成註冊"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -382,7 +382,7 @@ msgstr "Firefox 雲端服務"
 
 #: app/scripts/templates/legal.mustache:2
 msgid "Legal"
-msgstr ""
+msgstr "法律資訊"
 
 #: app/scripts/templates/legal.mustache:3 app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
@@ -394,7 +394,7 @@ msgstr "隱私權保護政策"
 
 #: app/scripts/templates/ready.mustache:1
 msgid "Signed in successfully"
-msgstr ""
+msgstr "已成功登入"
 
 #: app/scripts/templates/ready.mustache:3
 msgid "Account verified"
@@ -457,12 +457,10 @@ msgid ""
 "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
 "a> of Firefox cloud services."
 msgstr ""
-"繼續註冊，代表我同意 Firefox 雲端服務的 <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">服務條款</a> 及 <a id=\"fxa-pp\" href=\"/legal/privacy\">隱私權保護政策</"
-"a>。"
+"若繼續，代表您同意 Firefox 雲端服務的 <a id=\"fxa-tos\" href=\"/legal/terms\">服務條款</a> 及 <a id"
+"=\"fxa-pp\" href=\"/legal/privacy\">隱私權保護政策</a>。"
 
 #: app/scripts/templates/sign_up.mustache:1
-#, fuzzy
 msgid "Create a Firefox Account"
 msgstr "註冊 Firefox 帳號"
 
