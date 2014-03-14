@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: 2014-02-25 15:33+0000\n"
+"PO-Revision-Date: 2014-03-14 00:58+0000\n"
 "Last-Translator: Shen <steekid@icloud.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1393342433.0\n"
+"X-POOTLE-MTIME: 1394758712.0\n"
 
 #: server/templates/pages/src/404.html:1
 #: server/templates/pages/src/index.html:1
@@ -27,25 +27,24 @@ msgstr "Firefox 账号"
 #: server/templates/pages/src/404.html:2
 #: server/templates/pages/dist/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "页面未找到"
 
 #: server/templates/pages/src/404.html:3
 #: server/templates/pages/dist/404.html:3
 msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
-msgstr ""
+msgstr "找不到您要打开的页面，我们已收到此通知并会修复出现故障的链接。"
 
 #: server/templates/pages/src/404.html:4
 #: server/templates/pages/dist/404.html:4
 msgid "Home"
-msgstr ""
+msgstr "首页"
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/dist/index.html:2
-#, fuzzy
 msgid "Firefox Accounts requires JavaScript."
-msgstr "Firefox 账号"
+msgstr "启用 JavaScript 后才能使用 Firefox 账号。"
 
 #: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
 msgid "A request to reset the password for %(email)s has been made."

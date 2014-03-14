@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: 2014-02-25 15:44+0000\n"
+"PO-Revision-Date: 2014-03-14 00:54+0000\n"
 "Last-Translator: Shen <steekid@icloud.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1393343081.0\n"
+"X-POOTLE-MTIME: 1394758494.0\n"
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "1991"
@@ -124,7 +124,7 @@ msgstr "需要有效的密码"
 
 #: app/scripts/views/sign_in.js:51
 msgid "/force_auth requires an email"
-msgstr ""
+msgstr "/force_auth 需要电子邮件地址"
 
 #: app/scripts/views/sign_in.js:96
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -322,7 +322,7 @@ msgstr "下一步"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Completing sign up"
-msgstr ""
+msgstr "正在完成注册"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -382,7 +382,7 @@ msgstr "Firefox 云服务"
 
 #: app/scripts/templates/legal.mustache:2
 msgid "Legal"
-msgstr ""
+msgstr "法律信息"
 
 #: app/scripts/templates/legal.mustache:3 app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
@@ -394,7 +394,7 @@ msgstr "隐私权政策"
 
 #: app/scripts/templates/ready.mustache:1
 msgid "Signed in successfully"
-msgstr ""
+msgstr "已登录成功"
 
 #: app/scripts/templates/ready.mustache:3
 msgid "Account verified"
@@ -461,7 +461,6 @@ msgstr ""
 "\">服务条款</a> 及 <a id=\"fxa-pp\" href=\"/legal/privacy\">隐私权政策</a>。"
 
 #: app/scripts/templates/sign_up.mustache:1
-#, fuzzy
 msgid "Create a Firefox Account"
 msgstr "创建 Firefox 账号"
 
