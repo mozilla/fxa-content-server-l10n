@@ -2,120 +2,124 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2014-03-14 17:19+0000\n"
+"Last-Translator: Vlado <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1394817591.0\n"
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "1991"
-msgstr ""
+msgstr "1991"
 
 #: app/scripts/templates/sign_up.mustache:11
 msgid "1992"
-msgstr ""
+msgstr "1992"
 
 #: app/scripts/templates/sign_up.mustache:12
 msgid "1993"
-msgstr ""
+msgstr "1993"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1994"
-msgstr ""
+msgstr "1994"
 
 #: app/scripts/templates/sign_up.mustache:14
 msgid "1995"
-msgstr ""
+msgstr "1995"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1996"
-msgstr ""
+msgstr "1996"
 
 #: app/scripts/templates/sign_up.mustache:16
 msgid "1997"
-msgstr ""
+msgstr "1997"
 
 #: app/scripts/templates/sign_up.mustache:17
 msgid "1998"
-msgstr ""
+msgstr "1998"
 
 #: app/scripts/templates/sign_up.mustache:18
 msgid "1999"
-msgstr ""
+msgstr "1999"
 
 #: app/scripts/templates/sign_up.mustache:19
 msgid "2000"
-msgstr ""
+msgstr "2000"
 
 #: app/scripts/templates/sign_up.mustache:20
 msgid "2001"
-msgstr ""
+msgstr "2001"
 
 #: app/scripts/templates/sign_up.mustache:21
 msgid "2002"
-msgstr ""
+msgstr "2002"
 
 #: app/scripts/templates/sign_up.mustache:22
 msgid "2003"
-msgstr ""
+msgstr "2003"
 
 #: app/scripts/templates/sign_up.mustache:23
 msgid "2004"
-msgstr ""
+msgstr "2004"
 
 #: app/scripts/templates/sign_up.mustache:24
 msgid "2005"
-msgstr ""
+msgstr "2005"
 
 #: app/scripts/templates/sign_up.mustache:25
 msgid "2006"
-msgstr ""
+msgstr "2006"
 
 #: app/scripts/templates/sign_up.mustache:26
 msgid "2007"
-msgstr ""
+msgstr "2007"
 
 #: app/scripts/views/change_password.js:45
 msgid "old and new passwords must be different"
-msgstr ""
+msgstr "staré a nové heslo sa musia líšiť"
 
 #: app/scripts/views/complete_reset_password.js:38
 msgid "no token specified"
-msgstr ""
+msgstr "nebol zadaný token"
 
 #: app/scripts/views/complete_reset_password.js:43
 #: app/scripts/views/complete_sign_up.js:30
 msgid "no code specified"
-msgstr ""
+msgstr "nebol zadaný kód"
 
 #: app/scripts/views/complete_reset_password.js:48
 msgid "no email specified"
-msgstr ""
+msgstr "nebola zadaná e-mailová adresa"
 
 #: app/scripts/views/complete_reset_password.js:61
 msgid "passwords do not match"
-msgstr ""
+msgstr "heslá sa nezhodujú"
 
 #: app/scripts/views/complete_sign_up.js:25
 msgid "no uid specified"
-msgstr ""
+msgstr "nebol zadaný uid"
 
 #: app/scripts/views/form.js:226 app/scripts/lib/strings.js:18
 msgid "Valid email required"
-msgstr ""
+msgstr "Vyžaduje sa platná e-mailová adresa"
 
 #: app/scripts/views/form.js:232 app/scripts/lib/strings.js:23
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/complete_reset_password.mustache:8
 #: app/scripts/templates/sign_up.mustache:7
 msgid "Must be at least 8 characters"
-msgstr ""
+msgstr "Minimálny počet znakov: 8"
 
 #: app/scripts/views/form.js:233 app/scripts/lib/strings.js:19
 msgid "Valid password required"
-msgstr ""
+msgstr "Vyžaduje sa zadanie platného hesla"
 
 #: app/scripts/views/sign_in.js:51
 msgid "/force_auth requires an email"
@@ -127,15 +131,15 @@ msgstr ""
 
 #: app/scripts/views/sign_up.js:78 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
-msgstr ""
+msgstr "Vyžaduje sa zadanie roku narodenia"
 
 #: app/scripts/views/sign_up.js:138
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr ""
+msgstr "Účet už existuje. <a href=\"/signin\">Prihláste sa</a>"
 
 #: app/scripts/lib/auth-errors.js:40
 msgid "Unexpected error"
-msgstr ""
+msgstr "Neočakávaná chyba"
 
 #: app/scripts/lib/auth-errors.js:41
 msgid "Invalid authentication token in request signature"
@@ -151,11 +155,11 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:44 app/scripts/lib/strings.js:25
 msgid "Account already exists"
-msgstr ""
+msgstr "Účet už existuje"
 
 #: app/scripts/lib/auth-errors.js:45
 msgid "Unknown account"
-msgstr ""
+msgstr "Neznámy účet"
 
 #: app/scripts/lib/auth-errors.js:46
 msgid "Incorrect email case"
@@ -211,31 +215,31 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:20
 msgid "Invalid password"
-msgstr ""
+msgstr "Neplatné heslo"
 
 #: app/scripts/lib/strings.js:21
 msgid "Invalid email and password"
-msgstr ""
+msgstr "Neplatná e-mailová adresa a heslo"
 
 #: app/scripts/lib/strings.js:22
 msgid "Invalid email or password"
-msgstr ""
+msgstr "Neplatná e-mailová adresa alebo heslo"
 
 #: app/scripts/lib/strings.js:26
 msgid "Old password invalid"
-msgstr ""
+msgstr "Staré heslo nie je platné"
 
 #: app/scripts/lib/strings.js:27
 msgid "New password invalid"
-msgstr ""
+msgstr "Nové heslo nie je platné"
 
 #: app/scripts/lib/strings.js:28
 msgid "Passwords don't match"
-msgstr ""
+msgstr "Heslá sa nezhodujú"
 
 #: app/scripts/lib/strings.js:29
 msgid "Please enter an email"
-msgstr ""
+msgstr "Zadajte, prosím, e-mailovú adresu"
 
 #: app/scripts/lib/strings.js:30
 msgid "Cannot connect to the internet"
@@ -257,15 +261,15 @@ msgstr ""
 #: app/scripts/templates/change_password.mustache:1
 #: app/scripts/templates/settings.mustache:4
 msgid "Change password"
-msgstr ""
+msgstr "Zmeniť heslo"
 
 #: app/scripts/templates/change_password.mustache:2
 msgid "Password changed"
-msgstr ""
+msgstr "Heslo zmenené"
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
-msgstr ""
+msgstr "Staré heslo"
 
 #: app/scripts/templates/change_password.mustache:5
 #: app/scripts/templates/change_password.mustache:8
@@ -275,15 +279,15 @@ msgstr ""
 #: app/scripts/templates/sign_in.mustache:10
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Show"
-msgstr ""
+msgstr "Zobraziť"
 
 #: app/scripts/templates/change_password.mustache:6
 msgid "New password"
-msgstr ""
+msgstr "Nové heslo"
 
 #: app/scripts/templates/change_password.mustache:10
 msgid "Change Password"
-msgstr ""
+msgstr "Zmeniť heslo"
 
 #: app/scripts/templates/change_password.mustache:11
 #: app/scripts/templates/delete_account.mustache:8
@@ -291,37 +295,37 @@ msgstr ""
 #: app/scripts/templates/reset_password.mustache:5
 #: app/scripts/templates/tos.mustache:3
 msgid "Back"
-msgstr ""
+msgstr "Naspäť"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 #: app/scripts/templates/reset_password.mustache:1
 msgid "Reset password"
-msgstr ""
+msgstr "Obnoviť heslo"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/delete_account.mustache:4
 #: app/scripts/templates/sign_in.mustache:7
 #: app/scripts/templates/sign_up.mustache:3
 msgid "Password"
-msgstr ""
+msgstr "Heslo"
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Repeat Password"
-msgstr ""
+msgstr "Zopakujte heslo"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:4
 #: app/scripts/templates/sign_up.mustache:28
 msgid "Next"
-msgstr ""
+msgstr "Ďalej"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Completing sign up"
-msgstr ""
+msgstr "Dokončuje sa prihlásenie"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
-msgstr ""
+msgstr "Potvrďte svoj účet"
 
 #: app/scripts/templates/confirm.mustache:2
 #: app/scripts/templates/confirm_reset_password.mustache:2
@@ -364,16 +368,16 @@ msgstr ""
 #: app/scripts/templates/sign_in.mustache:5
 #: app/scripts/templates/sign_up.mustache:2
 msgid "Email"
-msgstr ""
+msgstr "E-mailová adresa"
 
 #: app/scripts/templates/delete_account.mustache:7
 msgid "Delete Account"
-msgstr ""
+msgstr "Odstrániť účet"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "Cloudové služby Firefoxu"
 
 #: app/scripts/templates/legal.mustache:2
 msgid "Legal"
@@ -381,19 +385,19 @@ msgstr ""
 
 #: app/scripts/templates/legal.mustache:3 app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
-msgstr ""
+msgstr "Podmienky používania služby"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Zásady ochrany osobných údajov"
 
 #: app/scripts/templates/ready.mustache:1
 msgid "Signed in successfully"
-msgstr ""
+msgstr "Prihlásenie prebehlo úspešne"
 
 #: app/scripts/templates/ready.mustache:3
 msgid "Account verified"
-msgstr ""
+msgstr "Účet bol overený"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Password reset"
@@ -430,7 +434,7 @@ msgstr ""
 #: app/scripts/templates/sign_in.mustache:1
 #: app/scripts/templates/sign_in.mustache:11
 msgid "Sign in"
-msgstr ""
+msgstr "Prihlásiť sa"
 
 #: app/scripts/templates/sign_in.mustache:2
 msgid "Sign in to continue"
@@ -439,11 +443,11 @@ msgstr ""
 #: app/scripts/templates/sign_in.mustache:12
 #: app/scripts/templates/sign_in.mustache:14
 msgid "Forgot password?"
-msgstr ""
+msgstr "Zabudli ste heslo?"
 
 #: app/scripts/templates/sign_in.mustache:13
 msgid "Create an account"
-msgstr ""
+msgstr "Vytvoriť účet"
 
 #: app/scripts/templates/sign_in.mustache:16
 #: app/scripts/templates/sign_up.mustache:27
@@ -452,18 +456,21 @@ msgid ""
 "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
 "a> of Firefox cloud services."
 msgstr ""
+"Pokračovaním súhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmienkami "
+"používania služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Zásadami "
+"ochrany súkromia</a> cloudových služieb Firefoxu."
 
 #: app/scripts/templates/sign_up.mustache:1
 msgid "Create a Firefox Account"
-msgstr ""
+msgstr "Vytvorenie účtu Firefox Account"
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Year of birth"
-msgstr ""
+msgstr "Rok narodenia"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1990 or earlier"
-msgstr ""
+msgstr "1990 alebo skôr"
 
 #: app/scripts/templates/sign_up.mustache:29
 msgid "Choose what to sync"
@@ -471,4 +478,4 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:31
 msgid "Already have an account? Sign in."
-msgstr ""
+msgstr "Už máte účet? Prihláste sa."
