@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: 2014-03-13 09:09+0000\n"
+"PO-Revision-Date: 2014-03-14 16:17+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1394701779.0\n"
+"X-POOTLE-MTIME: 1394813836.0\n"
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "1991"
@@ -83,7 +83,7 @@ msgstr "2007"
 
 #: app/scripts/views/change_password.js:45
 msgid "old and new passwords must be different"
-msgstr "Altes und neues Passwort müssen verschieden sein."
+msgstr "Altes und neues Passwort müssen verschieden sein"
 
 #: app/scripts/views/complete_reset_password.js:38
 msgid "no token specified"
@@ -336,7 +336,7 @@ msgstr "E-Mail gesendet"
 
 #: app/scripts/templates/confirm.mustache:3
 msgid "A verification link has been sent&nbsp;to: %(email)s"
-msgstr "Ein Bestätigungslink wurde an %(email)s versandt."
+msgstr "Ein Bestätigungslink wurde an %(email)s versandt"
 
 #: app/scripts/templates/confirm.mustache:4
 #: app/scripts/templates/confirm_reset_password.mustache:4
