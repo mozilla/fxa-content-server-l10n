@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: 2014-02-28 07:26+0000\n"
+"PO-Revision-Date: 2014-03-14 17:23+0000\n"
 "Last-Translator: Vanja <tumbas93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1393572367.0\n"
+"X-POOTLE-MTIME: 1394817828.0\n"
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "1991"
@@ -124,7 +124,7 @@ msgstr "Потребна је исправна лозинка"
 
 #: app/scripts/views/sign_in.js:51
 msgid "/force_auth requires an email"
-msgstr ""
+msgstr "/force_auth захтева е-пошту"
 
 #: app/scripts/views/sign_in.js:96
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -324,7 +324,7 @@ msgstr "Следеће"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Completing sign up"
-msgstr ""
+msgstr "Завршавам пријављивање"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -386,7 +386,7 @@ msgstr "Firefox cloud usluge"
 
 #: app/scripts/templates/legal.mustache:2
 msgid "Legal"
-msgstr ""
+msgstr "Права"
 
 #: app/scripts/templates/legal.mustache:3 app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
@@ -398,7 +398,7 @@ msgstr "Обавештење о сигурности"
 
 #: app/scripts/templates/ready.mustache:1
 msgid "Signed in successfully"
-msgstr ""
+msgstr "Пријављивање је успешно"
 
 #: app/scripts/templates/ready.mustache:3
 msgid "Account verified"
@@ -466,7 +466,6 @@ msgstr ""
 "приватности</a> Firefox cloud сервиса."
 
 #: app/scripts/templates/sign_up.mustache:1
-#, fuzzy
 msgid "Create a Firefox Account"
 msgstr "Направи Firefox налог"
 
