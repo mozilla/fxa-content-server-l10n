@@ -2,270 +2,274 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2014-03-14 19:16+0000\n"
+"Last-Translator: rozwel <rozwel72@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1394824564.0\n"
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "1991"
-msgstr ""
+msgstr "1991"
 
 #: app/scripts/templates/sign_up.mustache:11
 msgid "1992"
-msgstr ""
+msgstr "1992"
 
 #: app/scripts/templates/sign_up.mustache:12
 msgid "1993"
-msgstr ""
+msgstr "1993"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1994"
-msgstr ""
+msgstr "1994"
 
 #: app/scripts/templates/sign_up.mustache:14
 msgid "1995"
-msgstr ""
+msgstr "1995"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1996"
-msgstr ""
+msgstr "1996"
 
 #: app/scripts/templates/sign_up.mustache:16
 msgid "1997"
-msgstr ""
+msgstr "1997"
 
 #: app/scripts/templates/sign_up.mustache:17
 msgid "1998"
-msgstr ""
+msgstr "1998"
 
 #: app/scripts/templates/sign_up.mustache:18
 msgid "1999"
-msgstr ""
+msgstr "1999"
 
 #: app/scripts/templates/sign_up.mustache:19
 msgid "2000"
-msgstr ""
+msgstr "2000"
 
 #: app/scripts/templates/sign_up.mustache:20
 msgid "2001"
-msgstr ""
+msgstr "2001"
 
 #: app/scripts/templates/sign_up.mustache:21
 msgid "2002"
-msgstr ""
+msgstr "2002"
 
 #: app/scripts/templates/sign_up.mustache:22
 msgid "2003"
-msgstr ""
+msgstr "2003"
 
 #: app/scripts/templates/sign_up.mustache:23
 msgid "2004"
-msgstr ""
+msgstr "2004"
 
 #: app/scripts/templates/sign_up.mustache:24
 msgid "2005"
-msgstr ""
+msgstr "2005"
 
 #: app/scripts/templates/sign_up.mustache:25
 msgid "2006"
-msgstr ""
+msgstr "2006"
 
 #: app/scripts/templates/sign_up.mustache:26
 msgid "2007"
-msgstr ""
+msgstr "2007"
 
 #: app/scripts/views/change_password.js:45
 msgid "old and new passwords must be different"
-msgstr ""
+msgstr "이전과 새 암호는 달라야함"
 
 #: app/scripts/views/complete_reset_password.js:38
 msgid "no token specified"
-msgstr ""
+msgstr "토큰을 입력하지 않음"
 
 #: app/scripts/views/complete_reset_password.js:43
 #: app/scripts/views/complete_sign_up.js:30
 msgid "no code specified"
-msgstr ""
+msgstr "코드를 입력하지 않음"
 
 #: app/scripts/views/complete_reset_password.js:48
 msgid "no email specified"
-msgstr ""
+msgstr "이메일을 입력하지 않음"
 
 #: app/scripts/views/complete_reset_password.js:61
 msgid "passwords do not match"
-msgstr ""
+msgstr "암호가 일치하지 않음"
 
 #: app/scripts/views/complete_sign_up.js:25
 msgid "no uid specified"
-msgstr ""
+msgstr "uid가 입력되지 않음"
 
 #: app/scripts/views/form.js:226 app/scripts/lib/strings.js:18
 msgid "Valid email required"
-msgstr ""
+msgstr "올바른 이메일을 입력이 필요함"
 
 #: app/scripts/views/form.js:232 app/scripts/lib/strings.js:23
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/complete_reset_password.mustache:8
 #: app/scripts/templates/sign_up.mustache:7
 msgid "Must be at least 8 characters"
-msgstr ""
+msgstr "8글자 이상이 필요함"
 
 #: app/scripts/views/form.js:233 app/scripts/lib/strings.js:19
 msgid "Valid password required"
-msgstr ""
+msgstr "올바른 암호 입력이 필요함"
 
 #: app/scripts/views/sign_in.js:51
 msgid "/force_auth requires an email"
-msgstr ""
+msgstr "/force_auth는 이메일이 필요함"
 
 #: app/scripts/views/sign_in.js:96
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "잘못된 계정 <a href=\"/signup\">회원가입</a>"
 
 #: app/scripts/views/sign_up.js:78 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
-msgstr ""
+msgstr "생년월일이 필요함"
 
 #: app/scripts/views/sign_up.js:138
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr ""
+msgstr "존재하고 있는 계정입니다. <a href=\"/signin\">회원가입</a>"
 
 #: app/scripts/lib/auth-errors.js:40
 msgid "Unexpected error"
-msgstr ""
+msgstr "알수없는 에러"
 
 #: app/scripts/lib/auth-errors.js:41
 msgid "Invalid authentication token in request signature"
-msgstr ""
+msgstr "요청 서명에 잘못된 인증 토큰"
 
 #: app/scripts/lib/auth-errors.js:42
 msgid "Invalid timestamp in request signature"
-msgstr ""
+msgstr "요청 서명에 잘못된 타임스탬프"
 
 #: app/scripts/lib/auth-errors.js:43
 msgid "Invalid nonce in request signature"
-msgstr ""
+msgstr "요청 서명이 유효하지 않음"
 
 #: app/scripts/lib/auth-errors.js:44 app/scripts/lib/strings.js:25
 msgid "Account already exists"
-msgstr ""
+msgstr "계정이 이미 존재함"
 
 #: app/scripts/lib/auth-errors.js:45
 msgid "Unknown account"
-msgstr ""
+msgstr "알 수 없는 계정"
 
 #: app/scripts/lib/auth-errors.js:46
 msgid "Incorrect email case"
-msgstr ""
+msgstr "맞지 않은 이메일"
 
 #: app/scripts/lib/auth-errors.js:47
 msgid "Incorrect password"
-msgstr ""
+msgstr "맞지 않는 암호"
 
 #: app/scripts/lib/auth-errors.js:48
 msgid "Unverified account"
-msgstr ""
+msgstr "확인되지 않은 계정"
 
 #: app/scripts/lib/auth-errors.js:49
 msgid "Invalid verification code"
-msgstr ""
+msgstr "잘못된 인증 코드"
 
 #: app/scripts/lib/auth-errors.js:50
 msgid "Invalid JSON in request body"
-msgstr ""
+msgstr "요청 본문에 잘못된 JSON"
 
 #: app/scripts/lib/auth-errors.js:51
 msgid "Invalid parameter in request body: %(param)s"
-msgstr ""
+msgstr "요청 본문에 잘못된 파라미터: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:52
 msgid "Missing parameter in request body: %(param)s"
-msgstr ""
+msgstr "요청 본문에 누락한 파라미터: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:53
 msgid "Invalid request signature"
-msgstr ""
+msgstr "잘못된 요청 서명"
 
 #: app/scripts/lib/auth-errors.js:54
 msgid "Missing content-length header"
-msgstr ""
+msgstr "누락된 content-length 헤더"
 
 #: app/scripts/lib/auth-errors.js:55
 msgid "Request body too large"
-msgstr ""
+msgstr "요청 본문이 너무 큼"
 
 #: app/scripts/lib/auth-errors.js:56
 msgid "Client has sent too many requests"
-msgstr ""
+msgstr "클라이언트가 너무 많은 요청을 보냄"
 
 #: app/scripts/lib/auth-errors.js:57
 msgid "Service unavailable"
-msgstr ""
+msgstr "서비스 사용불가"
 
 #: app/scripts/lib/auth-errors.js:58
 msgid "This endpoint is no longer supported"
-msgstr ""
+msgstr "더 이상 지원하지 않음"
 
 #: app/scripts/lib/strings.js:20
 msgid "Invalid password"
-msgstr ""
+msgstr "잘못된 암호"
 
 #: app/scripts/lib/strings.js:21
 msgid "Invalid email and password"
-msgstr ""
+msgstr "잘못된 이메일과 암호"
 
 #: app/scripts/lib/strings.js:22
 msgid "Invalid email or password"
-msgstr ""
+msgstr "잘못된 이메일 또는 암호"
 
 #: app/scripts/lib/strings.js:26
 msgid "Old password invalid"
-msgstr ""
+msgstr "이전 암호 불일치"
 
 #: app/scripts/lib/strings.js:27
 msgid "New password invalid"
-msgstr ""
+msgstr "새 암호 불일치"
 
 #: app/scripts/lib/strings.js:28
 msgid "Passwords don't match"
-msgstr ""
+msgstr "암호가 일치하지 않음"
 
 #: app/scripts/lib/strings.js:29
 msgid "Please enter an email"
-msgstr ""
+msgstr "이메일을 입력"
 
 #: app/scripts/lib/strings.js:30
 msgid "Cannot connect to the internet"
-msgstr ""
+msgstr "인터넷에 접근할 수 없음"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
-msgstr ""
+msgstr "계정을 만들 수 없음"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
 msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr ""
+msgstr "Firefox&nbsp;계정을 만들기 위해서는 나이 조건을 충족해야합니다."
 
 #: app/scripts/templates/cannot_create_account.mustache:3
 msgid "Learn more."
-msgstr ""
+msgstr "자세히 보기."
 
 #: app/scripts/templates/change_password.mustache:1
 #: app/scripts/templates/settings.mustache:4
 msgid "Change password"
-msgstr ""
+msgstr "암호 변경"
 
 #: app/scripts/templates/change_password.mustache:2
 msgid "Password changed"
-msgstr ""
+msgstr "암호 변경됨"
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
-msgstr ""
+msgstr "이전 암호"
 
 #: app/scripts/templates/change_password.mustache:5
 #: app/scripts/templates/change_password.mustache:8
@@ -275,15 +279,15 @@ msgstr ""
 #: app/scripts/templates/sign_in.mustache:10
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Show"
-msgstr ""
+msgstr "보이기"
 
 #: app/scripts/templates/change_password.mustache:6
 msgid "New password"
-msgstr ""
+msgstr "새 암호"
 
 #: app/scripts/templates/change_password.mustache:10
 msgid "Change Password"
-msgstr ""
+msgstr "암호 변경"
 
 #: app/scripts/templates/change_password.mustache:11
 #: app/scripts/templates/delete_account.mustache:8
@@ -291,159 +295,159 @@ msgstr ""
 #: app/scripts/templates/reset_password.mustache:5
 #: app/scripts/templates/tos.mustache:3
 msgid "Back"
-msgstr ""
+msgstr "뒤로"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 #: app/scripts/templates/reset_password.mustache:1
 msgid "Reset password"
-msgstr ""
+msgstr "암호 초기화"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/delete_account.mustache:4
 #: app/scripts/templates/sign_in.mustache:7
 #: app/scripts/templates/sign_up.mustache:3
 msgid "Password"
-msgstr ""
+msgstr "암호"
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Repeat Password"
-msgstr ""
+msgstr "암호 재입력"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:4
 #: app/scripts/templates/sign_up.mustache:28
 msgid "Next"
-msgstr ""
+msgstr "다음"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Completing sign up"
-msgstr ""
+msgstr "회원가입 완료"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
-msgstr ""
+msgstr "계정 확인"
 
 #: app/scripts/templates/confirm.mustache:2
 #: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email Sent"
-msgstr ""
+msgstr "이메일 전송"
 
 #: app/scripts/templates/confirm.mustache:3
 msgid "A verification link has been sent&nbsp;to: %(email)s"
-msgstr ""
+msgstr "확인 링크를 보냄:&nbsp %(email)s"
 
 #: app/scripts/templates/confirm.mustache:4
 #: app/scripts/templates/confirm_reset_password.mustache:4
 msgid "Resend email"
-msgstr ""
+msgstr "이메일 재전송"
 
 #: app/scripts/templates/confirm.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:5
 msgid "Email resent"
-msgstr ""
+msgstr "이메일 재전송"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr ""
+msgstr "이메일 전송 재설정"
 
 #: app/scripts/templates/confirm_reset_password.mustache:3
 msgid "A reset link has been sent to %(email)s"
-msgstr ""
+msgstr "재설정된 링크로 보냄 %(email)s"
 
 #: app/scripts/templates/delete_account.mustache:1
 msgid "Delete account"
-msgstr ""
+msgstr "계정 삭제"
 
 #: app/scripts/templates/delete_account.mustache:2
 msgid ""
 "Are you sure you want to delete your account? This action cannot be undone."
-msgstr ""
+msgstr "계정을 삭제하겠습니까? 이 작업은 취소할 수 없습니다."
 
 #: app/scripts/templates/delete_account.mustache:3
 #: app/scripts/templates/reset_password.mustache:3
 #: app/scripts/templates/sign_in.mustache:5
 #: app/scripts/templates/sign_up.mustache:2
 msgid "Email"
-msgstr ""
+msgstr "이메일"
 
 #: app/scripts/templates/delete_account.mustache:7
 msgid "Delete Account"
-msgstr ""
+msgstr "계정 삭제"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "Firefox 클라우드 서비스"
 
 #: app/scripts/templates/legal.mustache:2
 msgid "Legal"
-msgstr ""
+msgstr "법적 고지"
 
 #: app/scripts/templates/legal.mustache:3 app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
-msgstr ""
+msgstr "서비스 약관"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
 msgid "Privacy Notice"
-msgstr ""
+msgstr "개인 정보 보호 정책"
 
 #: app/scripts/templates/ready.mustache:1
 msgid "Signed in successfully"
-msgstr ""
+msgstr "가입 완료"
 
 #: app/scripts/templates/ready.mustache:3
 msgid "Account verified"
-msgstr ""
+msgstr "계정 확인"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Password reset"
-msgstr ""
+msgstr "암호 재설정"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Success"
-msgstr ""
+msgstr "성공"
 
 #: app/scripts/templates/ready.mustache:8
 msgid "You are now ready to use %(service)s."
-msgstr ""
+msgstr "%(service)s 지금부터 사용할 수 있습니다."
 
 #: app/scripts/templates/ready.mustache:10
 msgid "Your account is ready!"
-msgstr ""
+msgstr "계정이 준비되어 있습니다!"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
-msgstr ""
+msgstr "암호 재설정할 이메일을 입력합니다."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
-msgstr ""
+msgstr "계정 관리"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "You are signed in as: %(email)s"
-msgstr ""
+msgstr "이메일로 가입: %(email)s"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"
-msgstr ""
+msgstr "로그 아웃"
 
 #: app/scripts/templates/sign_in.mustache:1
 #: app/scripts/templates/sign_in.mustache:11
 msgid "Sign in"
-msgstr ""
+msgstr "로그인"
 
 #: app/scripts/templates/sign_in.mustache:2
 msgid "Sign in to continue"
-msgstr ""
+msgstr "계속하려면 로그인"
 
 #: app/scripts/templates/sign_in.mustache:12
 #: app/scripts/templates/sign_in.mustache:14
 msgid "Forgot password?"
-msgstr ""
+msgstr "암호 분실?"
 
 #: app/scripts/templates/sign_in.mustache:13
 msgid "Create an account"
-msgstr ""
+msgstr "계정 생성"
 
 #: app/scripts/templates/sign_in.mustache:16
 #: app/scripts/templates/sign_up.mustache:27
@@ -452,23 +456,25 @@ msgid ""
 "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
 "a> of Firefox cloud services."
 msgstr ""
+"Firefox cloud services의 <a id=\"fxa-tos\" href=\"/legal/terms\">서비스 약관</a>과 <a "
+"id=\"fxa-pp\" href=\"/legal/privacy\">개인 정보 보호 정책</a>에 동의한다."
 
 #: app/scripts/templates/sign_up.mustache:1
 msgid "Create a Firefox Account"
-msgstr ""
+msgstr "Firefox 계정 생성"
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Year of birth"
-msgstr ""
+msgstr "생년월일"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1990 or earlier"
-msgstr ""
+msgstr "1990년 이전"
 
 #: app/scripts/templates/sign_up.mustache:29
 msgid "Choose what to sync"
-msgstr ""
+msgstr "동기화할 대상 선택"
 
 #: app/scripts/templates/sign_up.mustache:31
 msgid "Already have an account? Sign in."
-msgstr ""
+msgstr "이미 계정이 있나요? 로그인하세요."
