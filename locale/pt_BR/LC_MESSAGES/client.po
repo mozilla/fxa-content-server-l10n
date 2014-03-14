@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: 2014-03-11 21:24+0000\n"
+"PO-Revision-Date: 2014-03-14 21:32+0000\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1394573096.0\n"
+"X-POOTLE-MTIME: 1394832721.0\n"
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "1991"
@@ -124,7 +124,7 @@ msgstr "É exigido uma senha válida"
 
 #: app/scripts/views/sign_in.js:51
 msgid "/force_auth requires an email"
-msgstr ""
+msgstr "/force_auth necessita de um email"
 
 #: app/scripts/views/sign_in.js:96
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -152,7 +152,7 @@ msgstr "Timestamp inválido na assinatura do pedido"
 
 #: app/scripts/lib/auth-errors.js:43
 msgid "Invalid nonce in request signature"
-msgstr ""
+msgstr "Valor de segurança inválido na assinatura do pedido"
 
 #: app/scripts/lib/auth-errors.js:44 app/scripts/lib/strings.js:25
 msgid "Account already exists"
@@ -164,7 +164,7 @@ msgstr "Conta desconhecida"
 
 #: app/scripts/lib/auth-errors.js:46
 msgid "Incorrect email case"
-msgstr ""
+msgstr "Endereço de e-mail incorreto"
 
 #: app/scripts/lib/auth-errors.js:47
 msgid "Incorrect password"
@@ -196,11 +196,11 @@ msgstr "Assinatura do pedido inválida"
 
 #: app/scripts/lib/auth-errors.js:54
 msgid "Missing content-length header"
-msgstr ""
+msgstr "Faltando content-length header"
 
 #: app/scripts/lib/auth-errors.js:55
 msgid "Request body too large"
-msgstr ""
+msgstr "Corpo do pedido muito extenso"
 
 #: app/scripts/lib/auth-errors.js:56
 msgid "Client has sent too many requests"
@@ -212,7 +212,7 @@ msgstr "Serviço não disponível"
 
 #: app/scripts/lib/auth-errors.js:58
 msgid "This endpoint is no longer supported"
-msgstr ""
+msgstr "Este endpoint não é mais suportado"
 
 #: app/scripts/lib/strings.js:20
 msgid "Invalid password"
@@ -324,7 +324,7 @@ msgstr "Próximo"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Completing sign up"
-msgstr ""
+msgstr "Completando registro"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -386,7 +386,7 @@ msgstr "Serviços na nuvem do Firefox"
 
 #: app/scripts/templates/legal.mustache:2
 msgid "Legal"
-msgstr ""
+msgstr "Legal"
 
 #: app/scripts/templates/legal.mustache:3 app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
@@ -398,7 +398,7 @@ msgstr "Política de Privacidade"
 
 #: app/scripts/templates/ready.mustache:1
 msgid "Signed in successfully"
-msgstr ""
+msgstr "Registrado com sucesso"
 
 #: app/scripts/templates/ready.mustache:3
 msgid "Account verified"
@@ -466,9 +466,8 @@ msgstr ""
 "de Privacidade</a> dos serviços em nuvem do Firefox."
 
 #: app/scripts/templates/sign_up.mustache:1
-#, fuzzy
 msgid "Create a Firefox Account"
-msgstr "Crie uma conta Firefox"
+msgstr "Criar uma conta Firefox"
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Year of birth"

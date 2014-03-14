@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: 2014-02-28 00:48+0000\n"
+"PO-Revision-Date: 2014-03-14 21:29+0000\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1393548518.0\n"
+"X-POOTLE-MTIME: 1394832566.0\n"
 
 #: server/templates/pages/src/404.html:1
 #: server/templates/pages/src/index.html:1
@@ -27,7 +27,7 @@ msgstr "Contas do Firefox"
 #: server/templates/pages/src/404.html:2
 #: server/templates/pages/dist/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "Página não encontrada"
 
 #: server/templates/pages/src/404.html:3
 #: server/templates/pages/dist/404.html:3
@@ -35,17 +35,18 @@ msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
+"A página solicitada não foi encontrada. Fomos notificados e iremos corrigir "
+"todos os links que podem está quebrados."
 
 #: server/templates/pages/src/404.html:4
 #: server/templates/pages/dist/404.html:4
 msgid "Home"
-msgstr ""
+msgstr "Inicio"
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/dist/index.html:2
-#, fuzzy
 msgid "Firefox Accounts requires JavaScript."
-msgstr "Contas do Firefox"
+msgstr "Contas Firefox necessitam JavaScript."
 
 #: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
 msgid "A request to reset the password for %(email)s has been made."
