@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: 2014-03-14 17:19+0000\n"
+"PO-Revision-Date: 2014-03-15 18:59+0000\n"
 "Last-Translator: Vlado <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1394817591.0\n"
+"X-POOTLE-MTIME: 1394909968.0\n"
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "1991"
@@ -123,11 +123,11 @@ msgstr "Vyžaduje sa zadanie platného hesla"
 
 #: app/scripts/views/sign_in.js:51
 msgid "/force_auth requires an email"
-msgstr ""
+msgstr "/force_auth vyžaduje e-mailovú adresu"
 
 #: app/scripts/views/sign_in.js:96
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "Neznámy účet. <a href=\"/signup\">Zaregistrujte sa</a>"
 
 #: app/scripts/views/sign_up.js:78 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
@@ -167,31 +167,31 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:47
 msgid "Incorrect password"
-msgstr ""
+msgstr "Neplatné heslo"
 
 #: app/scripts/lib/auth-errors.js:48
 msgid "Unverified account"
-msgstr ""
+msgstr "Neoverený účet"
 
 #: app/scripts/lib/auth-errors.js:49
 msgid "Invalid verification code"
-msgstr ""
+msgstr "Neplatný overovací kód"
 
 #: app/scripts/lib/auth-errors.js:50
 msgid "Invalid JSON in request body"
-msgstr ""
+msgstr "Neplatný kód JSON v tele požiadavky"
 
 #: app/scripts/lib/auth-errors.js:51
 msgid "Invalid parameter in request body: %(param)s"
-msgstr ""
+msgstr "Neplatný parameter v tele požiadavky: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:52
 msgid "Missing parameter in request body: %(param)s"
-msgstr ""
+msgstr "Chýbajúci parameter v tele požiadavky: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:53
 msgid "Invalid request signature"
-msgstr ""
+msgstr "Neplatný podpis požiadavky"
 
 #: app/scripts/lib/auth-errors.js:54
 msgid "Missing content-length header"
@@ -207,7 +207,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:57
 msgid "Service unavailable"
-msgstr ""
+msgstr "Služba nie je dostupná"
 
 #: app/scripts/lib/auth-errors.js:58
 msgid "This endpoint is no longer supported"
@@ -261,11 +261,11 @@ msgstr ""
 #: app/scripts/templates/change_password.mustache:1
 #: app/scripts/templates/settings.mustache:4
 msgid "Change password"
-msgstr "Zmeniť heslo"
+msgstr "Zmena hesla"
 
 #: app/scripts/templates/change_password.mustache:2
 msgid "Password changed"
-msgstr "Heslo zmenené"
+msgstr "Heslo bolo zmenené"
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -330,21 +330,21 @@ msgstr "Potvrďte svoj účet"
 #: app/scripts/templates/confirm.mustache:2
 #: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email Sent"
-msgstr ""
+msgstr "E-mailová správa bola odoslaná"
 
 #: app/scripts/templates/confirm.mustache:3
 msgid "A verification link has been sent&nbsp;to: %(email)s"
-msgstr ""
+msgstr "Overovací odkaz bol odoslaný na&nbsp;adresu: %(email)s"
 
 #: app/scripts/templates/confirm.mustache:4
 #: app/scripts/templates/confirm_reset_password.mustache:4
 msgid "Resend email"
-msgstr ""
+msgstr "Znova odoslať"
 
 #: app/scripts/templates/confirm.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:5
 msgid "Email resent"
-msgstr ""
+msgstr "E-mailová správa bola opätovne odoslaná"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -356,12 +356,12 @@ msgstr ""
 
 #: app/scripts/templates/delete_account.mustache:1
 msgid "Delete account"
-msgstr ""
+msgstr "Odstránenie účtu"
 
 #: app/scripts/templates/delete_account.mustache:2
 msgid ""
 "Are you sure you want to delete your account? This action cannot be undone."
-msgstr ""
+msgstr "Naozaj chcete odstrániť svoj účet? Akciu nie je možné vrátiť späť."
 
 #: app/scripts/templates/delete_account.mustache:3
 #: app/scripts/templates/reset_password.mustache:3
@@ -413,7 +413,7 @@ msgstr ""
 
 #: app/scripts/templates/ready.mustache:10
 msgid "Your account is ready!"
-msgstr ""
+msgstr "Váš účet je pripravený."
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
@@ -421,15 +421,15 @@ msgstr ""
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
-msgstr ""
+msgstr "Správa účtu"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "You are signed in as: %(email)s"
-msgstr ""
+msgstr "Ste prihlásený ako: %(email)s"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"
-msgstr ""
+msgstr "Odhlásiť sa"
 
 #: app/scripts/templates/sign_in.mustache:1
 #: app/scripts/templates/sign_in.mustache:11
