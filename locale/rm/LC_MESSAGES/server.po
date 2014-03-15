@@ -2,12 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2014-03-15 17:35+0000\n"
+"Last-Translator: Gion-Andri <gion-andri@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: rm\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1394904945.0\n"
 
 #: server/templates/pages/src/404.html:1
 #: server/templates/pages/src/index.html:1
@@ -17,12 +21,12 @@ msgstr ""
 #: server/templates/email/reset.txt:1 server/templates/email/verify.html:1
 #: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Contos da Firefox"
 
 #: server/templates/pages/src/404.html:2
 #: server/templates/pages/dist/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "Betg chattà la pagina"
 
 #: server/templates/pages/src/404.html:3
 #: server/templates/pages/dist/404.html:3
@@ -30,52 +34,57 @@ msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
+"La pagina che ti has dumandà n'è betg vegnida chattada. Nus avain retschavì "
+"in messadi ed empruvain da curreger eventualas colliaziuns faussas."
 
 #: server/templates/pages/src/404.html:4
 #: server/templates/pages/dist/404.html:4
 msgid "Home"
-msgstr ""
+msgstr "Chasa"
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/dist/index.html:2
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "Ils contos da Firefox basegnan JavaScript."
 
 #: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
 msgid "A request to reset the password for %(email)s has been made."
-msgstr ""
+msgstr "Ina dumonda per redefinir il pled-clav da %(email)s è vegnida tramessa."
 
 #: server/templates/email/reset.html:4
 msgid "Reset password"
-msgstr ""
+msgstr "Redefinir il pled-clav"
 
 #: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
 #: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
 msgid "If you received this email in error, no action is required."
 msgstr ""
+"Sche ti has retschavì per errur quest e-mail n'è nagina acziun necessaria."
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
-msgstr ""
+msgstr "Redefinir il pled-clav:"
 
 #: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
 msgid ""
 "Congratulations! %(email)s, you are seconds away from verifying your Firefox "
 "Account."
 msgstr ""
+"Gratulaziun! %(email)s, i cuzza be pli intginas secundas per verifitgar tes "
+"conto da Firefox."
 
 #: server/templates/email/verify.html:4
 msgid "Verify"
-msgstr ""
+msgstr "Verifitgar"
 
 #: server/templates/email/verify.txt:3
 msgid "Verify:"
-msgstr ""
+msgstr "Verifitgar:"
 
 #: server/lib/templates.js:35
 msgid "Confirm Your Account"
-msgstr ""
+msgstr "Verifitgar tes conto"
 
 #: server/lib/templates.js:40
 msgid "Reset Password Request"
-msgstr ""
+msgstr "Dumona per redefinir il pled-clav"
