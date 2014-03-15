@@ -2,12 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2014-03-15 13:54+0000\n"
+"Last-Translator: Rhoslyn <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: cy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != "
+"11) ? 2 : 3 ;\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1394891686.0\n"
 
 #: server/templates/pages/src/404.html:1
 #: server/templates/pages/src/index.html:1
@@ -17,12 +22,12 @@ msgstr ""
 #: server/templates/email/reset.txt:1 server/templates/email/verify.html:1
 #: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Cyfrifon Firefox"
 
 #: server/templates/pages/src/404.html:2
 #: server/templates/pages/dist/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "Heb ganfod y dudalen"
 
 #: server/templates/pages/src/404.html:3
 #: server/templates/pages/dist/404.html:3
@@ -30,52 +35,56 @@ msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
+"Nid oedd modd canfod y dudalen gofynwyd amdani. Rydym wedi ein hysbysu a "
+"byddwn yn trwsio unrhyw ddolen sydd o bosib wedi torri."
 
 #: server/templates/pages/src/404.html:4
 #: server/templates/pages/dist/404.html:4
 msgid "Home"
-msgstr ""
+msgstr "Cartref"
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/dist/index.html:2
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "Mae Cyfrifon Firefox angen JavaScrit"
 
 #: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
 msgid "A request to reset the password for %(email)s has been made."
-msgstr ""
+msgstr "Mae cais i ailosod y cyfrinair ar gyfer %(email)s wedi ei wneud."
 
 #: server/templates/email/reset.html:4
 msgid "Reset password"
-msgstr ""
+msgstr "Ailosod y cyfrinair"
 
 #: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
 #: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
 msgid "If you received this email in error, no action is required."
-msgstr ""
+msgstr "Os ydych wedi derbyn yr e-bost hwn ar gam, nid oes angen gweithredu."
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
-msgstr ""
+msgstr "Ailsod y cyfrinair:"
 
 #: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
 msgid ""
 "Congratulations! %(email)s, you are seconds away from verifying your Firefox "
 "Account."
 msgstr ""
+"Llongyfarchiadau! %(email)s, rydych eiliadau i ffwrdd o ddilysu eich Cyfrif "
+"Firefox."
 
 #: server/templates/email/verify.html:4
 msgid "Verify"
-msgstr ""
+msgstr "Dilysu"
 
 #: server/templates/email/verify.txt:3
 msgid "Verify:"
-msgstr ""
+msgstr "Dilysu:"
 
 #: server/lib/templates.js:35
 msgid "Confirm Your Account"
-msgstr ""
+msgstr "Cadarnhau eich Cyfrif"
 
 #: server/lib/templates.js:40
 msgid "Reset Password Request"
-msgstr ""
+msgstr "Ailosod y Cais am Gyfrinair"
