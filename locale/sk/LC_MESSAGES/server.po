@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: 2014-03-15 18:53+0000\n"
+"PO-Revision-Date: 2014-03-16 14:33+0000\n"
 "Last-Translator: Vlado <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1394909631.0\n"
+"X-POOTLE-MTIME: 1394980439.0\n"
 
 #: server/templates/pages/src/404.html:1
 #: server/templates/pages/src/index.html:1
@@ -45,15 +45,15 @@ msgstr "Domov"
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/dist/index.html:2
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "Služba Firefox Account vyžaduje povolený JavaScript."
 
 #: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
 msgid "A request to reset the password for %(email)s has been made."
-msgstr ""
+msgstr "Bola zadaná požiadavka na obnovenie hesla pre %(email)s."
 
 #: server/templates/email/reset.html:4
 msgid "Reset password"
-msgstr ""
+msgstr "Obnoviť heslo"
 
 #: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
 #: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
@@ -62,7 +62,7 @@ msgstr "Ak ste si túto správu nevyžiadali, môžete ju ignorovať."
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
-msgstr ""
+msgstr "Obnoviť heslo:"
 
 #: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
 msgid ""
@@ -78,7 +78,7 @@ msgstr "Overiť"
 
 #: server/templates/email/verify.txt:3
 msgid "Verify:"
-msgstr ""
+msgstr "Overenie:"
 
 #: server/lib/templates.js:35
 msgid "Confirm Your Account"
@@ -86,4 +86,4 @@ msgstr "Potvrdenie Vášho účtu"
 
 #: server/lib/templates.js:40
 msgid "Reset Password Request"
-msgstr ""
+msgstr "Požiadavka na obnovenie hesla"
