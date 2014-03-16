@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: 2014-03-14 19:33+0000\n"
+"PO-Revision-Date: 2014-03-16 16:39+0000\n"
 "Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1394825602.0\n"
+"X-POOTLE-MTIME: 1394987988.0\n"
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "1991"
@@ -465,7 +465,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:1
 msgid "Create a Firefox Account"
-msgstr "Crear una cuenta Firefox"
+msgstr "Crear una cuenta de Firefox"
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Year of birth"
