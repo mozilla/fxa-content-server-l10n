@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: 2014-03-14 19:16+0000\n"
+"PO-Revision-Date: 2014-03-17 21:02+0000\n"
 "Last-Translator: rozwel <rozwel72@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1394824564.0\n"
+"X-POOTLE-MTIME: 1395090176.0\n"
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "1991"
@@ -115,7 +115,7 @@ msgstr "올바른 이메일을 입력이 필요함"
 #: app/scripts/templates/complete_reset_password.mustache:8
 #: app/scripts/templates/sign_up.mustache:7
 msgid "Must be at least 8 characters"
-msgstr "8글자 이상이 필요함"
+msgstr "적어도 8글자 이상이 필요함"
 
 #: app/scripts/views/form.js:233 app/scripts/lib/strings.js:19
 msgid "Valid password required"
@@ -163,7 +163,7 @@ msgstr "알 수 없는 계정"
 
 #: app/scripts/lib/auth-errors.js:46
 msgid "Incorrect email case"
-msgstr "맞지 않은 이메일"
+msgstr "잘못된 이메일"
 
 #: app/scripts/lib/auth-errors.js:47
 msgid "Incorrect password"
