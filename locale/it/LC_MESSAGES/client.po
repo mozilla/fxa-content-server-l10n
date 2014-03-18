@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: 2014-03-14 13:29+0000\n"
+"PO-Revision-Date: 2014-03-15 15:20+0000\n"
 "Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1394803774.0\n"
+"X-POOTLE-MTIME: 1394896833.0\n"
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "1991"
@@ -423,7 +423,7 @@ msgstr "Ora l’account è pronto."
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
 msgstr ""
-"Inserisci il indirizzo email associato a questo account per "
+"Inserisci l’indirizzo email associato a questo account per "
 "reimpostarne&nbsp;la password."
 
 #: app/scripts/templates/settings.mustache:1
@@ -432,7 +432,7 @@ msgstr "Gestione account"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "You are signed in as: %(email)s"
-msgstr "Sei identificato come %(email)s"
+msgstr "Identificato come: %(email)s"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"
@@ -470,7 +470,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:1
 msgid "Create a Firefox Account"
-msgstr "Crea un account con Firefox Account"
+msgstr "Crea un nuovo Firefox Account"
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Year of birth"
@@ -478,7 +478,7 @@ msgstr "Anno di nascita"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1990 or earlier"
-msgstr "1990 o precedenti"
+msgstr "1990 o precedente"
 
 #: app/scripts/templates/sign_up.mustache:29
 msgid "Choose what to sync"
