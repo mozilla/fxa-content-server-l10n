@@ -1,271 +1,282 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2014-03-18 15:51+0000\n"
+"Last-Translator: A S <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1395157885.0\n"
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "1991"
-msgstr ""
+msgstr "1991"
 
 #: app/scripts/templates/sign_up.mustache:11
 msgid "1992"
-msgstr ""
+msgstr "1992"
 
 #: app/scripts/templates/sign_up.mustache:12
 msgid "1993"
-msgstr ""
+msgstr "1993"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1994"
-msgstr ""
+msgstr "1994"
 
 #: app/scripts/templates/sign_up.mustache:14
 msgid "1995"
-msgstr ""
+msgstr "1995"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1996"
-msgstr ""
+msgstr "1996"
 
 #: app/scripts/templates/sign_up.mustache:16
 msgid "1997"
-msgstr ""
+msgstr "1997"
 
 #: app/scripts/templates/sign_up.mustache:17
 msgid "1998"
-msgstr ""
+msgstr "1998"
 
 #: app/scripts/templates/sign_up.mustache:18
 msgid "1999"
-msgstr ""
+msgstr "1999"
 
 #: app/scripts/templates/sign_up.mustache:19
 msgid "2000"
-msgstr ""
+msgstr "2000"
 
 #: app/scripts/templates/sign_up.mustache:20
 msgid "2001"
-msgstr ""
+msgstr "2001"
 
 #: app/scripts/templates/sign_up.mustache:21
 msgid "2002"
-msgstr ""
+msgstr "2002"
 
 #: app/scripts/templates/sign_up.mustache:22
 msgid "2003"
-msgstr ""
+msgstr "2003"
 
 #: app/scripts/templates/sign_up.mustache:23
 msgid "2004"
-msgstr ""
+msgstr "2004"
 
 #: app/scripts/templates/sign_up.mustache:24
 msgid "2005"
-msgstr ""
+msgstr "2005"
 
 #: app/scripts/templates/sign_up.mustache:25
 msgid "2006"
-msgstr ""
+msgstr "2006"
 
 #: app/scripts/templates/sign_up.mustache:26
 msgid "2007"
-msgstr ""
+msgstr "2007"
 
 #: app/scripts/views/change_password.js:45
 msgid "old and new passwords must be different"
-msgstr ""
+msgstr "ਪੁਰਾਣਾ ਅਤੇ ਨਵਾਂ ਪਾਸਵਰਡ ਵੱਖ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ"
 
 #: app/scripts/views/complete_reset_password.js:38
 msgid "no token specified"
-msgstr ""
+msgstr "ਕੋਈ ਟੋਕਨ ਨਹੀਂ ਦਿੱਤਾ"
 
 #: app/scripts/views/complete_reset_password.js:43
 #: app/scripts/views/complete_sign_up.js:30
 msgid "no code specified"
-msgstr ""
+msgstr "ਕੋਈ ਕੋਡ ਨਹੀਂ ਦਿੱਤਾ"
 
 #: app/scripts/views/complete_reset_password.js:48
 msgid "no email specified"
-msgstr ""
+msgstr "ਕੋਈ ਈਮੇਲ ਨਹੀਂ ਦਿੱਤੀ"
 
 #: app/scripts/views/complete_reset_password.js:61
 msgid "passwords do not match"
-msgstr ""
+msgstr "ਪਾਸਵਰਡ ਮਿਲਦਾ ਨਹੀਂ ਹੈ"
 
 #: app/scripts/views/complete_sign_up.js:25
 msgid "no uid specified"
-msgstr ""
+msgstr "uid ਨਹੀਂ ਦਿੱਤਾ"
 
-#: app/scripts/views/form.js:226 app/scripts/lib/strings.js:18
+#: app/scripts/views/form.js:226
+#: app/scripts/lib/strings.js:18
 msgid "Valid email required"
-msgstr ""
+msgstr "ਠੀਕ ਈਮੇਲ ਚਾਹੀਦਾ ਹੈ"
 
-#: app/scripts/views/form.js:232 app/scripts/lib/strings.js:23
+#: app/scripts/views/form.js:232
+#: app/scripts/lib/strings.js:23
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/complete_reset_password.mustache:8
 #: app/scripts/templates/sign_up.mustache:7
 msgid "Must be at least 8 characters"
-msgstr ""
+msgstr "ਘੱਟੋ-ਘੱਟ 8 ਅੱਖਰ ਲੰਮਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ"
 
-#: app/scripts/views/form.js:233 app/scripts/lib/strings.js:19
+#: app/scripts/views/form.js:233
+#: app/scripts/lib/strings.js:19
 msgid "Valid password required"
-msgstr ""
+msgstr "ਠੀਕ ਪਾਸਵਰਡ ਚਾਹੀਦਾ ਹੈ"
 
 #: app/scripts/views/sign_in.js:51
 msgid "/force_auth requires an email"
-msgstr ""
+msgstr "/force_auth ਇੱਕ ਈਮੇਲ ਦੀ ਲੋੜ ਹੈ"
 
 #: app/scripts/views/sign_in.js:96
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "ਅਣਜਾਣ ਅਕਾਊਂਟ।<a href=\"/signup\">ਸਾਇਨ ਅੱਪ ਕਰੋ</a>"
 
-#: app/scripts/views/sign_up.js:78 app/scripts/lib/strings.js:24
+#: app/scripts/views/sign_up.js:78
+#: app/scripts/lib/strings.js:24
 msgid "Year of birth required"
-msgstr ""
+msgstr "ਜਨਮ ਦੇ ਸਾਲ ਦੀ ਲੋੜ ਹੈ"
 
 #: app/scripts/views/sign_up.js:138
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr ""
+msgstr "ਅਕਾਊਂਟ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ। <a href=\"/signin\">ਸਾਇਨ ਇਨ</a>"
 
 #: app/scripts/lib/auth-errors.js:40
 msgid "Unexpected error"
-msgstr ""
+msgstr "ਅਣਜਾਣ ਗਲਤੀ"
 
 #: app/scripts/lib/auth-errors.js:41
 msgid "Invalid authentication token in request signature"
-msgstr ""
+msgstr "ਬੇਨਤੀ ਦਸਤਖਤ ਵਿੱਚ ਗਲਤ ਤਸਦੀਕ ਟੋਕਨ"
 
 #: app/scripts/lib/auth-errors.js:42
 msgid "Invalid timestamp in request signature"
-msgstr ""
+msgstr "ਬੇਨਤੀ ਦਸਤਖਤ ਵਿੱਚ ਗਲਤ ਸਮਾਂ-ਮੋਹਰ"
 
 #: app/scripts/lib/auth-errors.js:43
 msgid "Invalid nonce in request signature"
-msgstr ""
+msgstr "ਬੇਨਤੀ ਦਸਤਖਤ ਵਿੱਚ ਗਲਤ ਵਰਤਮਾਨ"
 
-#: app/scripts/lib/auth-errors.js:44 app/scripts/lib/strings.js:25
+#: app/scripts/lib/auth-errors.js:44
+#: app/scripts/lib/strings.js:25
 msgid "Account already exists"
-msgstr ""
+msgstr "ਅਕਾਊਂਟ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ"
 
 #: app/scripts/lib/auth-errors.js:45
 msgid "Unknown account"
-msgstr ""
+msgstr "ਨਾਂ-ਜਾਚਿਆ ਖਾਤਾ"
 
 #: app/scripts/lib/auth-errors.js:46
 msgid "Incorrect email case"
-msgstr ""
+msgstr "ਗਲਤ ਈਮੇਲ ਕੇਸ"
 
 #: app/scripts/lib/auth-errors.js:47
 msgid "Incorrect password"
-msgstr ""
+msgstr "ਗਲਤ ਪਾਸਵਰਡ"
 
 #: app/scripts/lib/auth-errors.js:48
 msgid "Unverified account"
-msgstr ""
+msgstr "ਨਾ-ਜਾਂਚਿਆ ਖਾਤਾ"
 
 #: app/scripts/lib/auth-errors.js:49
 msgid "Invalid verification code"
-msgstr ""
+msgstr "ਗਲਤ ਜਾਂਚ ਕੋਡ"
 
 #: app/scripts/lib/auth-errors.js:50
 msgid "Invalid JSON in request body"
-msgstr ""
+msgstr "JSON ਗਲਤ ਬੇਨਤੀ ਭਾਗ ਵਿੱਚ"
 
 #: app/scripts/lib/auth-errors.js:51
 msgid "Invalid parameter in request body: %(param)s"
-msgstr ""
+msgstr "ਮੰਗ ਭਾਗ ਵਿੱਚ ਪੈਰਾਮੀਟਰ ਗਲਤ ਹੈ: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:52
 msgid "Missing parameter in request body: %(param)s"
-msgstr ""
+msgstr "ਮੰਗ ਭਾਗ ਵਿੱਚ ਪੈਰਾਮੀਟਰ ਮੌਜੂਦ ਨਹੀਂ: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:53
 msgid "Invalid request signature"
-msgstr ""
+msgstr "ਗਲਤ ਬੇਨਤੀ ਦਸਤਖਤ"
 
 #: app/scripts/lib/auth-errors.js:54
 msgid "Missing content-length header"
-msgstr ""
+msgstr "ਗੁੰਮ ਸਮੱਗਰੀ-ਲੰਬਾਈ ਸਿਰਲੇਖ"
 
 #: app/scripts/lib/auth-errors.js:55
 msgid "Request body too large"
-msgstr ""
+msgstr "ਬੇਨਤੀ ਭਾਗ ਜਿਆਦਾ ਵੱਡਾ"
 
 #: app/scripts/lib/auth-errors.js:56
 msgid "Client has sent too many requests"
-msgstr ""
+msgstr "ਕਲਾਂਇਟ ਨੇ ਬਹੁਤ ਸਾਰੀਆਂ ਬੇਨਤੀਆਂ ਭੇਜੀਆਂ"
 
 #: app/scripts/lib/auth-errors.js:57
 msgid "Service unavailable"
-msgstr ""
+msgstr "ਸੇਵਾ ਉਪਲੱਬਧ ਨਹੀਂ"
 
 #: app/scripts/lib/auth-errors.js:58
 msgid "This endpoint is no longer supported"
-msgstr ""
+msgstr "ਇਹ ਅੰਤ ਬਿੰਦੂ ਹੁੱਣ ਸਹਾਇਕ ਨਹੀਂ ਰਿਹਾ"
 
 #: app/scripts/lib/strings.js:20
 msgid "Invalid password"
-msgstr ""
+msgstr "ਗਲਤ ਪਾਸਵਰਡ"
 
 #: app/scripts/lib/strings.js:21
 msgid "Invalid email and password"
-msgstr ""
+msgstr "ਗਲਤ ਈਮੇਲ ਅਤੇ ਪਾਸਵਰਡ"
 
 #: app/scripts/lib/strings.js:22
 msgid "Invalid email or password"
-msgstr ""
+msgstr "ਗਲਤ ਈਮੇਲ ਜਾਂ ਪਾਸਵਰਡ"
 
 #: app/scripts/lib/strings.js:26
 msgid "Old password invalid"
-msgstr ""
+msgstr "ਪੁਰਾਣਾ ਪਾਸਵਰਡ ਗਲਤ"
 
 #: app/scripts/lib/strings.js:27
 msgid "New password invalid"
-msgstr ""
+msgstr "ਨਵਾਂ ਪਾਸਵਰਡ ਅਢੁੱਕਵਾਂ ਹੈ"
 
 #: app/scripts/lib/strings.js:28
 msgid "Passwords don't match"
-msgstr ""
+msgstr "ਪਾਸਵਰਡ ਨਹੀਂ ਮਿਲਦਾ"
 
 #: app/scripts/lib/strings.js:29
 msgid "Please enter an email"
-msgstr ""
+msgstr "ਇੱਕ ਈਮੇਲ ਦਿਉ ਜੀ"
 
 #: app/scripts/lib/strings.js:30
 msgid "Cannot connect to the internet"
-msgstr ""
+msgstr "ਇੰਟਰਨੈੱਟ ਨਾਲ ਜੁੜ ਨਹੀਂ ਸਕਦਾ ਹੈ"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
-msgstr ""
+msgstr "ਅਕਾਊਂਟ ਬਣਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
-msgid ""
-"You must meet certain age requirements to create a Firefox&nbsp;Account."
+msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr ""
+"ਤੁਹਾਨੂੰ ਇੱਕ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਬਣਾਉਣ ਲਈ ਕੁਝ ਖਾਸ ਉਮਰ ਦੀ ਲੋੜ ਨੂੰ ਪੂਰਾ ਕਰਨਾ ਚਾਹੀਦਾ "
+"ਹੈ।"
 
 #: app/scripts/templates/cannot_create_account.mustache:3
 msgid "Learn more."
-msgstr ""
+msgstr "ਹੋਰ ਜਾਣੋ"
 
 #: app/scripts/templates/change_password.mustache:1
 #: app/scripts/templates/settings.mustache:4
 msgid "Change password"
-msgstr ""
+msgstr "ਪਾਸਵਰਡ ਬਦਲੋ"
 
 #: app/scripts/templates/change_password.mustache:2
 msgid "Password changed"
-msgstr ""
+msgstr "ਪਾਸਵਰਡ ਬਦਲ ਗਿਆ"
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
-msgstr ""
+msgstr "ਪੁਰਾਣਾ ਪਾਸਵਰਡ"
 
 #: app/scripts/templates/change_password.mustache:5
 #: app/scripts/templates/change_password.mustache:8
@@ -275,15 +286,15 @@ msgstr ""
 #: app/scripts/templates/sign_in.mustache:10
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Show"
-msgstr ""
+msgstr "ਵੇਖਾਓ"
 
 #: app/scripts/templates/change_password.mustache:6
 msgid "New password"
-msgstr ""
+msgstr "ਨਵਾਂ ਪਾਸਵਰਡ"
 
 #: app/scripts/templates/change_password.mustache:10
 msgid "Change Password"
-msgstr ""
+msgstr "ਪਾਸਵਰਡ ਬਦਲੋ"
 
 #: app/scripts/templates/change_password.mustache:11
 #: app/scripts/templates/delete_account.mustache:8
@@ -291,184 +302,191 @@ msgstr ""
 #: app/scripts/templates/reset_password.mustache:5
 #: app/scripts/templates/tos.mustache:3
 msgid "Back"
-msgstr ""
+msgstr "ਪਿੱਛੇ"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 #: app/scripts/templates/reset_password.mustache:1
 msgid "Reset password"
-msgstr ""
+msgstr "ਪਾਸਵਰਡ ਰੀਸੈੱਟ"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/delete_account.mustache:4
 #: app/scripts/templates/sign_in.mustache:7
 #: app/scripts/templates/sign_up.mustache:3
 msgid "Password"
-msgstr ""
+msgstr "ਪਾਸਵਰਡ"
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Repeat Password"
-msgstr ""
+msgstr "ਪਾਸਵਰਡ ਦੁਬਾਰਾ"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:4
 #: app/scripts/templates/sign_up.mustache:28
 msgid "Next"
-msgstr ""
+msgstr "ਅਗਲਾ"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Completing sign up"
-msgstr ""
+msgstr "ਸਾਈਨ ਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰੋ"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
-msgstr ""
+msgstr "ਤੁਹਾਡੇ ਖਾਤੇ ਦੀ ਪੁਸਟੀ"
 
 #: app/scripts/templates/confirm.mustache:2
 #: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email Sent"
-msgstr ""
+msgstr "ਈਮੇਲ ਭੇਜੋ"
 
 #: app/scripts/templates/confirm.mustache:3
 msgid "A verification link has been sent&nbsp;to: %(email)s"
-msgstr ""
+msgstr "ਜਾਂਚ ਲਿੰਕ &nbsp;: %(email)s ਨੂੰ ਭੇਜਿਆ ਜਾ ਚੁੱਕਾ ਹੈ"
 
 #: app/scripts/templates/confirm.mustache:4
 #: app/scripts/templates/confirm_reset_password.mustache:4
 msgid "Resend email"
-msgstr ""
+msgstr "ਈਮੇਲ ਦੁਬਾਰਾ ਭੇਜੋ"
 
 #: app/scripts/templates/confirm.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:5
 msgid "Email resent"
-msgstr ""
+msgstr "ਈਮੇਲ ਮੁੜ-ਭੇਜੀ"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr ""
+msgstr "ਮੁੜ-ਸੈੱਟ ਈਮੇਲ ਭੇਜੀ ਗਈ"
 
 #: app/scripts/templates/confirm_reset_password.mustache:3
 msgid "A reset link has been sent to %(email)s"
-msgstr ""
+msgstr "%(email)s ਨੂੰ ਇੱਕ ਰੀਸੈੱਟ ਲਿੰਕ ਭੇਜਿਆ ਗਿਆ"
 
 #: app/scripts/templates/delete_account.mustache:1
 msgid "Delete account"
-msgstr ""
+msgstr "ਅਕਾਊਂਟ ਹਟਾਓ"
 
 #: app/scripts/templates/delete_account.mustache:2
-msgid ""
-"Are you sure you want to delete your account? This action cannot be undone."
+msgid "Are you sure you want to delete your account? This action cannot be undone."
 msgstr ""
+"ਕੀ ਤੁਸੀਂ ਸੱਚਮੁੱਚ ਆਪਣਾ ਅਕਾਊਂਟ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ ? ਇਹ ਕਾਰਵਾਈ ਦੁਬਾਰਾ ਨਹੀਂ ਕੀਤੀ "
+"ਜਾ ਸਕਦੀ।"
 
 #: app/scripts/templates/delete_account.mustache:3
 #: app/scripts/templates/reset_password.mustache:3
 #: app/scripts/templates/sign_in.mustache:5
 #: app/scripts/templates/sign_up.mustache:2
 msgid "Email"
-msgstr ""
+msgstr "ਈਮੇਲ"
 
 #: app/scripts/templates/delete_account.mustache:7
 msgid "Delete Account"
-msgstr ""
+msgstr "ਖਾਤਾ ਹਟਾਓ"
 
-#: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
+#: app/scripts/templates/legal.mustache:1
+#: app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "ਫਇਰਫਾਕਸ ਕਲੌਡ ਸੇਵਾਵਾਂ"
 
 #: app/scripts/templates/legal.mustache:2
 msgid "Legal"
-msgstr ""
+msgstr "ਕਾਨੂੰਨੀ "
 
-#: app/scripts/templates/legal.mustache:3 app/scripts/templates/tos.mustache:2
+#: app/scripts/templates/legal.mustache:3
+#: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
-msgstr ""
+msgstr "ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ"
 
-#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
+#: app/scripts/templates/legal.mustache:4
+#: app/scripts/templates/pp.mustache:2
 msgid "Privacy Notice"
-msgstr ""
+msgstr "ਪਰਾਏਵੇਸੀ ਨੋਟਿਸ"
 
 #: app/scripts/templates/ready.mustache:1
 msgid "Signed in successfully"
-msgstr ""
+msgstr "ਸਫਲਤਾਪੂਰਵਕ ਸਾਇਨ ਕੀਤਾ"
 
 #: app/scripts/templates/ready.mustache:3
 msgid "Account verified"
-msgstr ""
+msgstr "ਅਕਾਊਂਟ ਜਾਂਚ ਹੋਈ"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Password reset"
-msgstr ""
+msgstr "ਪਾਸਵਰਡ ਰੀਸੈੱਟ"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Success"
-msgstr ""
+msgstr "ਕਾਮਯਾਬ"
 
 #: app/scripts/templates/ready.mustache:8
 msgid "You are now ready to use %(service)s."
-msgstr ""
+msgstr "ਤੁਸੀਂ ਹੁਣ %(service)s ਵਰਤਣ ਲਈ ਤਿਆਰ ਹੋ।"
 
 #: app/scripts/templates/ready.mustache:10
 msgid "Your account is ready!"
-msgstr ""
+msgstr "ਤੁਹਾਡਾ ਅਕਾਊਂਟ ਤਿਆਰ ਹੈ!"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
-msgstr ""
+msgstr "ਅਕਾਊਂਟ ਦਾ ਪਾਸਵਰਡ ਦੁਬਾਰਾ ਸੈੱਟ ਕਰਨ ਲਈ ਈਮੇਲ ਦਾਖਲ ਕਰੋ।"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
-msgstr ""
+msgstr "ਅਕਾਊਂਟ ਪ੍ਰਬੰਧ"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "You are signed in as: %(email)s"
-msgstr ""
+msgstr "ਤੁਸੀਂ ਵਜੋਂ ਸਾਇਨ ਕੀਤਾ: %(email)s"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"
-msgstr ""
+msgstr "ਸਾਈਨ ਆਉਟ"
 
 #: app/scripts/templates/sign_in.mustache:1
 #: app/scripts/templates/sign_in.mustache:11
 msgid "Sign in"
-msgstr ""
+msgstr "ਸਾਈਨ ਇਨ"
 
 #: app/scripts/templates/sign_in.mustache:2
 msgid "Sign in to continue"
-msgstr ""
+msgstr "ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਈਨ ਇਨ"
 
 #: app/scripts/templates/sign_in.mustache:12
 #: app/scripts/templates/sign_in.mustache:14
 msgid "Forgot password?"
-msgstr ""
+msgstr "ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ ?"
 
 #: app/scripts/templates/sign_in.mustache:13
 msgid "Create an account"
-msgstr ""
+msgstr "ਅਕਾਊਂਟ ਬਣਾਓ"
 
 #: app/scripts/templates/sign_in.mustache:16
 #: app/scripts/templates/sign_up.mustache:27
 msgid ""
 "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-"of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
-"a> of Firefox cloud services."
+"of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
+"ਅੱਗੇ ਜਾਣ ਨਾਲ, ਮੈਂ ਫਾਇਰਫਾਕਸ ਕਲਾਊਡ ਸੇਵਾਵਾਂ ਦੀਆਂ <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</a> ਅਤੇ <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">ਪਰਾਈਵੇਸੀ ਨੀਤੀ</a> ਨਾਲ ਸਹਿਮਤ ਹਾਂ।"
 
 #: app/scripts/templates/sign_up.mustache:1
 msgid "Create a Firefox Account"
-msgstr ""
+msgstr "ਫਾਇਰਫਾਕਸ ਅਕਾਊਂਟ ਬਣਾਓ"
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Year of birth"
-msgstr ""
+msgstr "ਜਨਮ ਦਾ ਸਾਲ"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1990 or earlier"
-msgstr ""
+msgstr "1990 ਜਾਂ ਪਿਛਲਾ"
 
 #: app/scripts/templates/sign_up.mustache:29
 msgid "Choose what to sync"
-msgstr ""
+msgstr "ਚੁਣੋ ਕਿ ਕੀ ਸਿੰਕ ਕਰਨਾ ਹੈ"
 
 #: app/scripts/templates/sign_up.mustache:31
 msgid "Already have an account? Sign in."
-msgstr ""
+msgstr "ਖਾਤਾ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ? ਸਾਈਨ ਇਨ ਕਰੋ।"
