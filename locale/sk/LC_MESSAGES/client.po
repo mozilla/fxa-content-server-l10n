@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: 2014-03-16 14:33+0000\n"
+"PO-Revision-Date: 2014-03-18 18:28+0000\n"
 "Last-Translator: Vlado <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1394980439.0\n"
+"X-POOTLE-MTIME: 1395167295.0\n"
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "1991"
@@ -262,7 +262,7 @@ msgstr "Ďalšie informácie"
 #: app/scripts/templates/change_password.mustache:1
 #: app/scripts/templates/settings.mustache:4
 msgid "Change password"
-msgstr "Zmena hesla"
+msgstr "Zmeniť heslo"
 
 #: app/scripts/templates/change_password.mustache:2
 msgid "Password changed"
@@ -357,7 +357,7 @@ msgstr "Odkaz na obnovu hesla bol odoslaný na adresu: %(email)s"
 
 #: app/scripts/templates/delete_account.mustache:1
 msgid "Delete account"
-msgstr "Odstránenie účtu"
+msgstr "Odstrániť účet"
 
 #: app/scripts/templates/delete_account.mustache:2
 msgid ""
