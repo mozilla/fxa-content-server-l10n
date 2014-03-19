@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: 2014-03-16 16:39+0000\n"
+"PO-Revision-Date: 2014-03-19 12:31+0000\n"
 "Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1394987988.0\n"
+"X-POOTLE-MTIME: 1395232306.0\n"
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "1991"
@@ -328,7 +328,7 @@ msgstr "Completando registro"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
-msgstr "Confirma tu cuenta"
+msgstr "Confirmar tu cuenta"
 
 #: app/scripts/templates/confirm.mustache:2
 #: app/scripts/templates/confirm_reset_password.mustache:2
@@ -351,7 +351,7 @@ msgstr "Se ha reenviado el correo electrónico"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr "Restablecer el correo electrónico enviado"
+msgstr "Correo de restablecimiento enviado"
 
 #: app/scripts/templates/confirm_reset_password.mustache:3
 msgid "A reset link has been sent to %(email)s"
@@ -420,7 +420,7 @@ msgstr "¡Tu cuenta ya está lista!"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
-msgstr "Escribe tu dirección de correo para restablecer&nbsp;la contraseña. "
+msgstr "Escribe tu dirección de correo para restablecer&nbsp;la contraseña."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
