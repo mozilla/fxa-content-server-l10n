@@ -2,12 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2014-03-16 14:58+0000\n"
+"Last-Translator: Eduard <edu@eduard-gamonal.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1394981915.0\n"
 
 #: server/templates/pages/src/404.html:1
 #: server/templates/pages/src/index.html:1
@@ -17,12 +21,12 @@ msgstr ""
 #: server/templates/email/reset.txt:1 server/templates/email/verify.html:1
 #: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Comptes del Firefox"
 
 #: server/templates/pages/src/404.html:2
 #: server/templates/pages/dist/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "No s'ha trobat la pàgina"
 
 #: server/templates/pages/src/404.html:3
 #: server/templates/pages/dist/404.html:3
@@ -30,52 +34,55 @@ msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
+"No s'ha trobat la pàgina que heu sol·licitat. Se'ns ha notificat i repararem "
+"qualsevol enllaç que pugui estar trencat."
 
 #: server/templates/pages/src/404.html:4
 #: server/templates/pages/dist/404.html:4
 msgid "Home"
-msgstr ""
+msgstr "Inici"
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/dist/index.html:2
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "Els comptes del Firefox necessiten JavaScript."
 
 #: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
 msgid "A request to reset the password for %(email)s has been made."
-msgstr ""
+msgstr "S'ha fet una sol·licitud per a reiniciar la contrasenya de %(email)s"
 
 #: server/templates/email/reset.html:4
 msgid "Reset password"
-msgstr ""
+msgstr "Reinicia la contrasenya"
 
 #: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
 #: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
 msgid "If you received this email in error, no action is required."
-msgstr ""
+msgstr "Si heu rebut aquest missatge per error, no cal que feu res."
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
-msgstr ""
+msgstr "Reinicia la contrasenya:"
 
 #: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
 msgid ""
 "Congratulations! %(email)s, you are seconds away from verifying your Firefox "
 "Account."
 msgstr ""
+"Felicitats!%(email)s, sou a punt de verificar el vostre compte del Firefox."
 
 #: server/templates/email/verify.html:4
 msgid "Verify"
-msgstr ""
+msgstr "Verifica"
 
 #: server/templates/email/verify.txt:3
 msgid "Verify:"
-msgstr ""
+msgstr "Verifica:"
 
 #: server/lib/templates.js:35
 msgid "Confirm Your Account"
-msgstr ""
+msgstr "Confirmeu el vostre compte"
 
 #: server/lib/templates.js:40
 msgid "Reset Password Request"
-msgstr ""
+msgstr "Reinicia la sol·licitud de contrasenya"
