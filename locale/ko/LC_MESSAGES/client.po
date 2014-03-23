@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: 2014-03-17 21:02+0000\n"
-"Last-Translator: rozwel <rozwel72@gmail.com>\n"
+"PO-Revision-Date: 2014-03-23 19:27+0000\n"
+"Last-Translator: Channy <channy@mozilla.or.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1395090176.0\n"
+"X-POOTLE-MTIME: 1395602838.0\n"
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "1991"
@@ -425,7 +425,7 @@ msgstr "계정 관리"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "You are signed in as: %(email)s"
-msgstr "이메일로 가입: %(email)s"
+msgstr "로그인 중: %(email)s"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"
