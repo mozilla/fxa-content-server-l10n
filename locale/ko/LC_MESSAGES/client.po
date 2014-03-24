@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: 2014-03-23 19:27+0000\n"
+"PO-Revision-Date: 2014-03-24 18:41+0000\n"
 "Last-Translator: Channy <channy@mozilla.or.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1395602838.0\n"
+"X-POOTLE-MTIME: 1395686489.0\n"
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "1991"
@@ -434,7 +434,7 @@ msgstr "로그 아웃"
 #: app/scripts/templates/sign_in.mustache:1
 #: app/scripts/templates/sign_in.mustache:11
 msgid "Sign in"
-msgstr "로그인"
+msgstr "Firefox 계정 로그인"
 
 #: app/scripts/templates/sign_in.mustache:2
 msgid "Sign in to continue"
