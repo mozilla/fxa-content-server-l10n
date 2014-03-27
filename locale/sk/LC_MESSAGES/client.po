@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: 2014-03-18 18:28+0000\n"
+"PO-Revision-Date: 2014-03-27 09:57+0000\n"
 "Last-Translator: Vlado <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1395167295.0\n"
+"X-POOTLE-MTIME: 1395914242.0\n"
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "1991"
@@ -479,4 +479,4 @@ msgstr "Zvoľte obsah synchronizácie"
 
 #: app/scripts/templates/sign_up.mustache:31
 msgid "Already have an account? Sign in."
-msgstr "Už máte účet? Prihláste sa."
+msgstr "Už máte účet? Prihláste sa"
