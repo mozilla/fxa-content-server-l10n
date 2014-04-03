@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: 2014-03-20 09:53+0000\n"
+"PO-Revision-Date: 2014-04-03 07:40+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1395309230.0\n"
+"X-POOTLE-MTIME: 1396510827.0\n"
 
 #: server/templates/pages/src/404.html:1
 #: server/templates/pages/src/index.html:1
@@ -34,6 +34,8 @@ msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
+"İstediğiniz sayfa bulunamadı. Kırık olabilecek bağlantıları düzeltmeleri "
+"için durumu site yöneticilerimize bildirdik."
 
 #: server/templates/pages/src/404.html:4
 #: server/templates/pages/dist/404.html:4

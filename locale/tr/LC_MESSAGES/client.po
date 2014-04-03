@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: 2014-03-20 09:53+0000\n"
+"PO-Revision-Date: 2014-04-03 07:39+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1395309230.0\n"
+"X-POOTLE-MTIME: 1396510793.0\n"
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "1991"
@@ -151,7 +151,7 @@ msgstr "İstek imzasında geçersiz zaman damgası"
 
 #: app/scripts/lib/auth-errors.js:43
 msgid "Invalid nonce in request signature"
-msgstr ""
+msgstr "İstek imzasında geçersiz karma kod"
 
 #: app/scripts/lib/auth-errors.js:44 app/scripts/lib/strings.js:25
 msgid "Account already exists"
@@ -163,7 +163,7 @@ msgstr "Bilinmeyen hesap"
 
 #: app/scripts/lib/auth-errors.js:46
 msgid "Incorrect email case"
-msgstr ""
+msgstr "Hatalı e-posta yazımı"
 
 #: app/scripts/lib/auth-errors.js:47
 msgid "Incorrect password"
@@ -243,7 +243,7 @@ msgstr "Lütfen bir e-posta girin"
 
 #: app/scripts/lib/strings.js:30
 msgid "Cannot connect to the internet"
-msgstr ""
+msgstr "İnternete bağlanılamıyor"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -322,7 +322,7 @@ msgstr "İleri"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Completing sign up"
-msgstr ""
+msgstr "Kayıt tamamlanıyor"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -382,7 +382,7 @@ msgstr "Firefox bulut hizmetleri"
 
 #: app/scripts/templates/legal.mustache:2
 msgid "Legal"
-msgstr ""
+msgstr "Yasal uyarılar"
 
 #: app/scripts/templates/legal.mustache:3 app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
@@ -457,6 +457,9 @@ msgid ""
 "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
 "a> of Firefox cloud services."
 msgstr ""
+"Devam ederek, Firefox bulut servislerinin <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Hizmet Koşullarını</a> ve <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Gizlilik Bildirimini</a> kabul ettiğimi onaylıyorum."
 
 #: app/scripts/templates/sign_up.mustache:1
 msgid "Create a Firefox Account"
