@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: 2014-03-18 15:52+0000\n"
+"PO-Revision-Date: 2014-04-04 02:42+0000\n"
 "Last-Translator: A S <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1395157949.0\n"
+"X-POOTLE-MTIME: 1396579370.0\n"
 
 #: server/templates/pages/src/404.html:1
 #: server/templates/pages/src/index.html:1
@@ -49,16 +49,16 @@ msgstr "ਮੁੱਖ ਸਫ਼ਾ"
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/dist/index.html:2
 msgid "Firefox Accounts requires JavaScript."
-msgstr "ਫਾਇਰਫਾਕਸ ਅਕਾਊਂਟ ਲਈ ਜਾਵਾ ਸਕਰਿਪਟ ਦੀ ਲੋੜ ਹੈ।"
+msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਲਈ ਜਾਵਾ-ਸਕ੍ਰਿਪਟ ਦੀ ਲੋੜ ਹੈ।"
 
 #: server/templates/email/reset.html:3
 #: server/templates/email/reset.txt:2
 msgid "A request to reset the password for %(email)s has been made."
-msgstr "ਪਾਸਵਰਡ ਰੀਸੈੱਟ ਕਰਨ ਦੀ ਮੰਗ ਲਈ % (ਈਮੇਲ)s ਨੂੰ ਬਣਾਇਆ ਗਿਆ ਹੈ"
+msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਦੀ ਮੰਗ ਲਈ % (email)s ਨੂੰ ਬਣਾਇਆ ਗਿਆ ਹੈ।"
 
 #: server/templates/email/reset.html:4
 msgid "Reset password"
-msgstr "ਰੀਸੈੱਟ ਪਾਸਵਰਡ"
+msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ"
 
 #: server/templates/email/reset.html:5
 #: server/templates/email/reset.txt:4
@@ -66,12 +66,11 @@ msgstr "ਰੀਸੈੱਟ ਪਾਸਵਰਡ"
 #: server/templates/email/verify.txt:4
 msgid "If you received this email in error, no action is required."
 msgstr ""
-"ਤੁਹਾਨੂੰ ਗਲਤੀ ਵਿੱਚ ਇਸ ਈਮੇਲ ਪ੍ਰਾਪਤ ਕੀਤਾ ਹੈ, ਕੋਈ ਵੀ ਕਾਰਵਾਈ ਕਰਨ ਦੀ ਲੋੜ ਨਹੀ ਹੈ।"
+"ਤੁਹਾਨੂੰ ਗਲਤੀ ਨਾਲ ਇਸ ਈਮੇਲ ਪ੍ਰਾਪਤ ਕੀਤਾ ਹੈ, ਕੋਈ ਵੀ ਕਾਰਵਾਈ ਕਰਨ ਦੀ ਲੋੜ ਨਹੀ ਹੈ।"
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
-msgstr ""
-"ਵਧਾਈਆਂ! %(email)s, ਤੁਸੀਂ ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸ ਅਕਾਊਂਟ ਤੋਂ ਕੁਝ ਕੁ ਸਕਿੰਟ ਤੋਂ ਦੂਰ ਹੋ।"
+msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ:"
 
 #: server/templates/email/verify.html:3
 #: server/templates/email/verify.txt:2
@@ -83,16 +82,16 @@ msgstr ""
 
 #: server/templates/email/verify.html:4
 msgid "Verify"
-msgstr "ਤਸਦੀਕ"
+msgstr "ਪੁਸ਼ਟੀ"
 
 #: server/templates/email/verify.txt:3
 msgid "Verify:"
-msgstr "ਤਸਦੀਕ"
+msgstr "ਪੁਸ਼ਟੀ:"
 
 #: server/lib/templates.js:35
 msgid "Confirm Your Account"
-msgstr "ਤੁਹਾਡੇ ਅਕਾਊਂਟ ਦੀ ਪੁਸ਼ਟੀ"
+msgstr "ਤੁਹਾਡੇ ਅਕਾਊਂਟ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ"
 
 #: server/lib/templates.js:40
 msgid "Reset Password Request"
-msgstr "ਪਾਸਵਰਡ ਬੇਨਤੀ ਦੁਬਾਰਾ ਸੈੱਟ"
+msgstr "ਪਾਸਵਰਡ ਬੇਨਤੀ ਮੁੜ-ਸੈੱਟ"
