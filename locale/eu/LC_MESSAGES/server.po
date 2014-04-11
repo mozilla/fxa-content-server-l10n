@@ -2,12 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2014-04-11 09:55+0000\n"
+"Last-Translator: Julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1397210138.0\n"
 
 #: server/templates/pages/src/404.html:1
 #: server/templates/pages/src/index.html:1
@@ -17,12 +21,12 @@ msgstr ""
 #: server/templates/email/reset.txt:1 server/templates/email/verify.html:1
 #: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Firefoxeko kontuak"
 
 #: server/templates/pages/src/404.html:2
 #: server/templates/pages/dist/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "Ez da orria aurkitu"
 
 #: server/templates/pages/src/404.html:3
 #: server/templates/pages/dist/404.html:3
@@ -30,52 +34,54 @@ msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
+"Eskatu duzun orria ez dago. Abisua jaso dugu eta hautsita egon daitezkeen "
+"estekak konponduko ditugu."
 
 #: server/templates/pages/src/404.html:4
 #: server/templates/pages/dist/404.html:4
 msgid "Home"
-msgstr ""
+msgstr "Hasiera"
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/dist/index.html:2
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "Firefoxeko kontuek JavaScript behar dute."
 
 #: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
 msgid "A request to reset the password for %(email)s has been made."
-msgstr ""
+msgstr "%(email)s kontuaren pasahitza berrezartzeko eskaera egin da."
 
 #: server/templates/email/reset.html:4
 msgid "Reset password"
-msgstr ""
+msgstr "Berrezarri pasahitza"
 
 #: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
 #: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
 msgid "If you received this email in error, no action is required."
-msgstr ""
+msgstr "Mezu hau errorez jaso baduzu, ez duzu ekintzarik burutu behar."
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
-msgstr ""
+msgstr "Berrezarri pasahitza:"
 
 #: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
 msgid ""
 "Congratulations! %(email)s, you are seconds away from verifying your Firefox "
 "Account."
-msgstr ""
+msgstr "Zorionak! %(email)s, zure Firefoxeko kontua berresteko zorian zaude."
 
 #: server/templates/email/verify.html:4
 msgid "Verify"
-msgstr ""
+msgstr "Egiaztatu"
 
 #: server/templates/email/verify.txt:3
 msgid "Verify:"
-msgstr ""
+msgstr "Egiaztatu:"
 
 #: server/lib/templates.js:35
 msgid "Confirm Your Account"
-msgstr ""
+msgstr "Berretsi zure kontua"
 
 #: server/lib/templates.js:40
 msgid "Reset Password Request"
-msgstr ""
+msgstr "Pasahitza berrezartzeko eskaera"
