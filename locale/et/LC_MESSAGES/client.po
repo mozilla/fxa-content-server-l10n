@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: 2014-04-12 10:19+0000\n"
+"PO-Revision-Date: 2014-04-12 12:21+0000\n"
 "Last-Translator: Sander <sander.lepik@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397297963.0\n"
+"X-POOTLE-MTIME: 1397305316.0\n"
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "1991"
@@ -104,7 +104,7 @@ msgstr "paroolid ei ühti"
 
 #: app/scripts/views/complete_sign_up.js:25
 msgid "no uid specified"
-msgstr "uid'd pole määratud"
+msgstr "uid pole määratud"
 
 #: app/scripts/views/form.js:226 app/scripts/lib/strings.js:18
 msgid "Valid email required"
@@ -235,41 +235,41 @@ msgstr "Uus parool on vigane"
 
 #: app/scripts/lib/strings.js:28
 msgid "Passwords don't match"
-msgstr ""
+msgstr "Paroolid ei ühti"
 
 #: app/scripts/lib/strings.js:29
 msgid "Please enter an email"
-msgstr ""
+msgstr "Palun sisesta e-posti aadress"
 
 #: app/scripts/lib/strings.js:30
 msgid "Cannot connect to the internet"
-msgstr ""
+msgstr "Pole võimalik internetti ühenduda"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
-msgstr ""
+msgstr "Konto loomine pole võimalik"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
 msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr ""
+msgstr "Firefoxi&nbsp;konto loomiseks pead olema teatud vanuses."
 
 #: app/scripts/templates/cannot_create_account.mustache:3
 msgid "Learn more."
-msgstr ""
+msgstr "Rohkem teavet."
 
 #: app/scripts/templates/change_password.mustache:1
 #: app/scripts/templates/settings.mustache:4
 msgid "Change password"
-msgstr ""
+msgstr "Muuda parool"
 
 #: app/scripts/templates/change_password.mustache:2
 msgid "Password changed"
-msgstr ""
+msgstr "Parool on muudetud"
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
-msgstr ""
+msgstr "Vana parool"
 
 #: app/scripts/templates/change_password.mustache:5
 #: app/scripts/templates/change_password.mustache:8
@@ -279,7 +279,7 @@ msgstr ""
 #: app/scripts/templates/sign_in.mustache:10
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Show"
-msgstr ""
+msgstr "Kuva"
 
 #: app/scripts/templates/change_password.mustache:6
 msgid "New password"
@@ -287,7 +287,7 @@ msgstr "Uus parool"
 
 #: app/scripts/templates/change_password.mustache:10
 msgid "Change Password"
-msgstr "Muuda parooli"
+msgstr "Parooli muutmine"
 
 #: app/scripts/templates/change_password.mustache:11
 #: app/scripts/templates/delete_account.mustache:8
@@ -300,7 +300,7 @@ msgstr "Tagasi"
 #: app/scripts/templates/complete_reset_password.mustache:1
 #: app/scripts/templates/reset_password.mustache:1
 msgid "Reset password"
-msgstr "Lähtesta parool"
+msgstr "Parooli lähtestamine"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/delete_account.mustache:4
@@ -330,45 +330,47 @@ msgstr "Konto kinnitamine"
 #: app/scripts/templates/confirm.mustache:2
 #: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email Sent"
-msgstr ""
+msgstr "E-kiri on saadetud"
 
 #: app/scripts/templates/confirm.mustache:3
 msgid "A verification link has been sent&nbsp;to: %(email)s"
-msgstr ""
+msgstr "Kinnitamise link on saadetud aadressile %(email)s"
 
 #: app/scripts/templates/confirm.mustache:4
 #: app/scripts/templates/confirm_reset_password.mustache:4
 msgid "Resend email"
-msgstr ""
+msgstr "Saada e-kiri uuesti"
 
 #: app/scripts/templates/confirm.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:5
 msgid "Email resent"
-msgstr ""
+msgstr "E-kiri on uuesti saadetud"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr ""
+msgstr "Lähtestamise e-kiri on saadetud"
 
 #: app/scripts/templates/confirm_reset_password.mustache:3
 msgid "A reset link has been sent to %(email)s"
-msgstr ""
+msgstr "Lähtestamise link saadeti aadressile %(email)s"
 
 #: app/scripts/templates/delete_account.mustache:1
 msgid "Delete account"
-msgstr ""
+msgstr "Konto kustutamine"
 
 #: app/scripts/templates/delete_account.mustache:2
 msgid ""
 "Are you sure you want to delete your account? This action cannot be undone."
 msgstr ""
+"Kas oled kindel, et soovid konto kustutada? Seda tegevust ei saa tagasi "
+"võtta."
 
 #: app/scripts/templates/delete_account.mustache:3
 #: app/scripts/templates/reset_password.mustache:3
 #: app/scripts/templates/sign_in.mustache:5
 #: app/scripts/templates/sign_up.mustache:2
 msgid "Email"
-msgstr ""
+msgstr "E-post"
 
 #: app/scripts/templates/delete_account.mustache:7
 msgid "Delete Account"
@@ -409,41 +411,41 @@ msgstr "Õnnestus"
 
 #: app/scripts/templates/ready.mustache:8
 msgid "You are now ready to use %(service)s."
-msgstr ""
+msgstr "%(service)s on kasutamiseks valmis."
 
 #: app/scripts/templates/ready.mustache:10
 msgid "Your account is ready!"
-msgstr ""
+msgstr "Sinu konto on valmis!"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
-msgstr ""
+msgstr "Konto parooli lähtestamiseks sisesta e-posti aadress."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
-msgstr ""
+msgstr "Konto haldamine"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "You are signed in as: %(email)s"
-msgstr ""
+msgstr "Oled sisselogitud kasutajana %(email)s"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"
-msgstr ""
+msgstr "Logi välja"
 
 #: app/scripts/templates/sign_in.mustache:1
 #: app/scripts/templates/sign_in.mustache:11
 msgid "Sign in"
-msgstr ""
+msgstr "Logi sisse"
 
 #: app/scripts/templates/sign_in.mustache:2
 msgid "Sign in to continue"
-msgstr ""
+msgstr "Jätkamiseks logi sisse"
 
 #: app/scripts/templates/sign_in.mustache:12
 #: app/scripts/templates/sign_in.mustache:14
 msgid "Forgot password?"
-msgstr ""
+msgstr "Unustasid parooli?"
 
 #: app/scripts/templates/sign_in.mustache:13
 msgid "Create an account"
@@ -474,8 +476,8 @@ msgstr "1990 või varem"
 
 #: app/scripts/templates/sign_up.mustache:29
 msgid "Choose what to sync"
-msgstr ""
+msgstr "Sünkroniseeritavate asjade valik"
 
 #: app/scripts/templates/sign_up.mustache:31
 msgid "Already have an account? Sign in."
-msgstr ""
+msgstr "Konto juba olemas? Logi sisse."
