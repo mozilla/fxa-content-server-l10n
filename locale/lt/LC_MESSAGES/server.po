@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-03-12 19:50+0000\n"
-"PO-Revision-Date: 2014-03-16 15:56+0000\n"
-"Last-Translator: MariusG <marius.gricius@gmx.com>\n"
+"PO-Revision-Date: 2014-04-13 13:12+0000\n"
+"Last-Translator: Rimas <rq@akl.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
 "100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1394985397.0\n"
+"X-POOTLE-MTIME: 1397394761.0\n"
 
 #: server/templates/pages/src/404.html:1
 #: server/templates/pages/src/index.html:1
@@ -83,7 +83,7 @@ msgstr "Patvirtinkite:"
 
 #: server/lib/templates.js:35
 msgid "Confirm Your Account"
-msgstr "Patvirtinti Jūsų paskyrą"
+msgstr "Patvirtinkite savo paskyrą"
 
 #: server/lib/templates.js:40
 msgid "Reset Password Request"
