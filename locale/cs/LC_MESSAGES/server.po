@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-07 20:13+0000\n"
-"PO-Revision-Date: 2014-04-15 17:02+0000\n"
+"PO-Revision-Date: 2014-04-15 17:05+0000\n"
 "Last-Translator: Michal <michal.stanke@mikk.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397581325.0\n"
+"X-POOTLE-MTIME: 1397581520.0\n"
 
 #: server/templates/pages/src/404.html:1
 #: server/templates/pages/src/index.html:1
@@ -62,14 +62,14 @@ msgstr ""
 #: server/templates/pages/dist/terms.html:3
 #, fuzzy
 msgid "Firefox cloud services"
-msgstr "Firefox Accounts"
+msgstr "Firefox cloud services"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:4
 #: server/templates/pages/dist/terms.html:2
 #: server/templates/pages/dist/terms.html:4
 msgid "Terms of Service"
-msgstr ""
+msgstr "Podmínky využívání služby"
 
 #: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
 msgid "Are you sure?"
@@ -85,19 +85,20 @@ msgstr "Potvrďte prosím obnovení hesla pro %(email)s ."
 
 #: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
 #: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
-#, fuzzy
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
-msgstr "Pokud jste si tento e-mail nevyžádali, můžete jej ignorovat."
+msgstr ""
+"Tento e-mail byl zaslán automaticky. Pokud jste si jej nevyžádali, můžete "
+"jej ignorovat."
 
 #: server/templates/email/reset.html:6 server/templates/email/verify.html:6
 msgid ""
 "For more information, please visit <a href='https://support.mozilla."
 "org'>Mozilla Support</a>"
 msgstr ""
-"Pro více informací prosím navštivte <a "
-"href='https://support.mozilla.org'>Podporu Mozilly</a>"
+"Tento e-mail byl zaslán automaticky. Pokud jste si jej nevyžádali, nemusíte "
+"nic dělat."
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
