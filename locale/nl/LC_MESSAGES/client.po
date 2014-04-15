@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-07 20:13+0000\n"
-"PO-Revision-Date: 2014-04-15 08:27+0000\n"
-"Last-Translator: Mark <markh@babelzilla.org>\n"
+"PO-Revision-Date: 2014-04-15 20:43+0000\n"
+"Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397550464.0\n"
+"X-POOTLE-MTIME: 1397594604.0\n"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1991"
@@ -211,7 +211,7 @@ msgstr "Aanvraagtekst te lang"
 
 #: app/scripts/lib/auth-errors.js:57
 msgid "Attempt limit exceeded. Try again later."
-msgstr "Toegestaan aantal pogingen bereikt. Probeer het later nog eens."
+msgstr "Toegestane aantal pogingen bereikt. Probeer het later nog eens."
 
 #: app/scripts/lib/auth-errors.js:58
 msgid "Service unavailable"
