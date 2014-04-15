@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-03-12 19:50+0000\n"
+"POT-Creation-Date: 2014-04-07 20:13+0000\n"
 "PO-Revision-Date: 2014-04-03 07:40+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,11 +15,13 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:1
 #: server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1
+#: server/templates/pages/src/terms.html:1
 #: server/templates/pages/dist/404.html:1
 #: server/templates/pages/dist/index.html:1
-#: server/templates/email/reset.html:1 server/templates/email/reset.html:2
-#: server/templates/email/reset.txt:1 server/templates/email/verify.html:1
-#: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
+#: server/templates/pages/dist/privacy.html:1
+#: server/templates/pages/dist/terms.html:1
+#: server/templates/email/reset.html:1 server/templates/email/verify.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Hesapları"
 
@@ -47,8 +49,35 @@ msgstr "Ana sayfa"
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Firefox Hesapları'nı kullanmak için JavaScript açık olmalıdır."
 
+#: server/templates/pages/src/privacy.html:2
+#: server/templates/pages/src/privacy.html:4
+#: server/templates/pages/dist/privacy.html:2
+#: server/templates/pages/dist/privacy.html:4
+msgid "Privacy Notice"
+msgstr ""
+
+#: server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/terms.html:3
+#: server/templates/pages/dist/privacy.html:3
+#: server/templates/pages/dist/terms.html:3
+#, fuzzy
+msgid "Firefox cloud services"
+msgstr "Firefox Hesapları"
+
+#: server/templates/pages/src/terms.html:2
+#: server/templates/pages/src/terms.html:4
+#: server/templates/pages/dist/terms.html:2
+#: server/templates/pages/dist/terms.html:4
+msgid "Terms of Service"
+msgstr ""
+
+#: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
+msgid "Are you sure?"
+msgstr ""
+
 #: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
-msgid "A request to reset the password for %(email)s has been made."
+#, fuzzy
+msgid "Please confirm that you'd like to reset the password for %(email)s."
 msgstr "%(email)s parolasını sıfırlama isteği aldık."
 
 #: server/templates/email/reset.html:4
@@ -57,20 +86,37 @@ msgstr "Parolanızı sıfırlayın"
 
 #: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
 #: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
-msgid "If you received this email in error, no action is required."
+#, fuzzy
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
 msgstr ""
 "Bu e-postayı hatalı olarak aldığınız düşünüyorsanız bir şey yapmanıza gerek "
 "yoktur."
+
+#: server/templates/email/reset.html:6 server/templates/email/verify.html:6
+msgid ""
+"For more information, please visit <a href='https://support.mozilla."
+"org'>Mozilla Support</a>"
+msgstr ""
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
 msgstr "Parolanızı sıfırlayın:"
 
+#: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
+msgid "For more information, please visit https://support.mozilla.org"
+msgstr ""
+
+#: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
+msgid "Congratulations!"
+msgstr ""
+
 #: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
-msgid ""
-"Congratulations! %(email)s, you are seconds away from verifying your Firefox "
-"Account."
-msgstr "Tebrikler! %(email)s, Firefox hesabınızı doğrulamanıza saniyeler kaldı."
+#, fuzzy
+msgid "%(email)s, you're one click away from verifying your Firefox Account."
+msgstr ""
+"Tebrikler! %(email)s, Firefox hesabınızı doğrulamanıza saniyeler kaldı."
 
 #: server/templates/email/verify.html:4
 msgid "Verify"
@@ -81,9 +127,14 @@ msgid "Verify:"
 msgstr "Doğrula:"
 
 #: server/lib/templates.js:35
-msgid "Confirm Your Account"
+#, fuzzy
+msgid "Verify your account"
 msgstr "Hesabınızı onaylayın"
 
 #: server/lib/templates.js:40
-msgid "Reset Password Request"
-msgstr "Parola sıfırlama isteği"
+#, fuzzy
+msgid "Reset your password"
+msgstr "Parolanızı sıfırlayın"
+
+#~ msgid "Reset Password Request"
+#~ msgstr "Parola sıfırlama isteği"
