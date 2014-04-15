@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-12 19:50+0000\n"
+"POT-Creation-Date: 2014-04-07 20:13+0000\n"
 "PO-Revision-Date: 2014-03-13 08:40+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,203 +14,219 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1394700026.0\n"
 
-#: app/scripts/templates/sign_up.mustache:10
+#: app/scripts/templates/sign_up.mustache:9
 msgid "1991"
 msgstr "1991"
 
-#: app/scripts/templates/sign_up.mustache:11
+#: app/scripts/templates/sign_up.mustache:10
 msgid "1992"
 msgstr "1992"
 
-#: app/scripts/templates/sign_up.mustache:12
+#: app/scripts/templates/sign_up.mustache:11
 msgid "1993"
 msgstr "1993"
 
-#: app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/sign_up.mustache:12
 msgid "1994"
 msgstr "1994"
 
-#: app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/sign_up.mustache:13
 msgid "1995"
 msgstr "1995"
 
-#: app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/sign_up.mustache:14
 msgid "1996"
 msgstr "1996"
 
-#: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/sign_up.mustache:15
 msgid "1997"
 msgstr "1997"
 
-#: app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/sign_up.mustache:16
 msgid "1998"
 msgstr "1998"
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:17
 msgid "1999"
 msgstr "1999"
 
-#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/sign_up.mustache:18
 msgid "2000"
 msgstr "2000"
 
-#: app/scripts/templates/sign_up.mustache:20
+#: app/scripts/templates/sign_up.mustache:19
 msgid "2001"
 msgstr "2001"
 
-#: app/scripts/templates/sign_up.mustache:21
+#: app/scripts/templates/sign_up.mustache:20
 msgid "2002"
 msgstr "2002"
 
-#: app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/sign_up.mustache:21
 msgid "2003"
 msgstr "2003"
 
-#: app/scripts/templates/sign_up.mustache:23
+#: app/scripts/templates/sign_up.mustache:22
 msgid "2004"
 msgstr "2004"
 
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:23
 msgid "2005"
 msgstr "2005"
 
-#: app/scripts/templates/sign_up.mustache:25
+#: app/scripts/templates/sign_up.mustache:24
 msgid "2006"
 msgstr "2006"
 
-#: app/scripts/templates/sign_up.mustache:26
+#: app/scripts/templates/sign_up.mustache:25
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/change_password.js:45
-msgid "old and new passwords must be different"
+#: app/scripts/views/change_password.js:44
+#, fuzzy
+msgid "Your new password must be different"
 msgstr "新密碼不得與舊密碼相同"
 
-#: app/scripts/views/complete_reset_password.js:38
-msgid "no token specified"
+#: app/scripts/views/complete_reset_password.js:37
+#, fuzzy
+msgid "No token specified"
 msgstr "未指定 token"
 
-#: app/scripts/views/complete_reset_password.js:43
-#: app/scripts/views/complete_sign_up.js:30
-msgid "no code specified"
+#: app/scripts/views/complete_reset_password.js:42
+#: app/scripts/views/complete_sign_up.js:40
+#, fuzzy
+msgid "No code specified"
 msgstr "未指定代碼"
 
-#: app/scripts/views/complete_reset_password.js:48
-msgid "no email specified"
+#: app/scripts/views/complete_reset_password.js:47
+#, fuzzy
+msgid "No email specified"
 msgstr "未指定電子郵件信箱"
 
-#: app/scripts/views/complete_reset_password.js:61
-msgid "passwords do not match"
+#: app/scripts/views/complete_reset_password.js:60
+#, fuzzy
+msgid "Passwords do not match"
 msgstr "密碼不符合"
 
-#: app/scripts/views/complete_sign_up.js:25
-msgid "no uid specified"
+#: app/scripts/views/complete_sign_up.js:34
+#, fuzzy
+msgid "No uid specified"
 msgstr "未指定 uid"
 
-#: app/scripts/views/form.js:226 app/scripts/lib/strings.js:18
+#: app/scripts/views/form.js:302 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "必須輸入有效的電子郵件地址"
 
-#: app/scripts/views/form.js:232 app/scripts/lib/strings.js:23
-#: app/scripts/templates/change_password.mustache:9
-#: app/scripts/templates/complete_reset_password.mustache:8
-#: app/scripts/templates/sign_up.mustache:7
+#: app/scripts/views/form.js:308 app/scripts/lib/strings.js:23
+#: app/scripts/templates/change_password.mustache:7
+#: app/scripts/templates/complete_reset_password.mustache:6
+#: app/scripts/templates/sign_up.mustache:6
 msgid "Must be at least 8 characters"
 msgstr "至少要 8 個字元長"
 
-#: app/scripts/views/form.js:233 app/scripts/lib/strings.js:19
+#: app/scripts/views/form.js:309 app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr "必須輸入有效的密碼"
+
+#: app/scripts/views/pp.js:41
+#, fuzzy
+msgid "Could not get Privacy Notice"
+msgstr "隱私權保護政策"
 
 #: app/scripts/views/sign_in.js:51
 msgid "/force_auth requires an email"
 msgstr "/force_auth 需要 email 帳號"
 
-#: app/scripts/views/sign_in.js:96
+#: app/scripts/views/sign_in.js:95
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "未知的帳號。<a href=\"/signup\">註冊</a>"
 
-#: app/scripts/views/sign_up.js:78 app/scripts/lib/strings.js:24
+#: app/scripts/views/sign_up.js:77 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "必須輸入出生年"
 
-#: app/scripts/views/sign_up.js:138
+#: app/scripts/views/sign_up.js:136
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "帳號已存在。<a href=\"/signin\">登入</a>"
 
-#: app/scripts/lib/auth-errors.js:40
+#: app/scripts/views/tos.js:41
+#, fuzzy
+msgid "Could not get Terms of Service"
+msgstr "服務條款"
+
+#: app/scripts/lib/auth-errors.js:41
 msgid "Unexpected error"
 msgstr "未預期的錯誤"
 
-#: app/scripts/lib/auth-errors.js:41
+#: app/scripts/lib/auth-errors.js:42
 msgid "Invalid authentication token in request signature"
 msgstr "請求簽章中的驗證 token 無效"
 
-#: app/scripts/lib/auth-errors.js:42
+#: app/scripts/lib/auth-errors.js:43
 msgid "Invalid timestamp in request signature"
 msgstr "請求簽章中的時間戳記無效"
 
-#: app/scripts/lib/auth-errors.js:43
+#: app/scripts/lib/auth-errors.js:44
 msgid "Invalid nonce in request signature"
 msgstr "請求簽章中的隨機數無效"
 
-#: app/scripts/lib/auth-errors.js:44 app/scripts/lib/strings.js:25
+#: app/scripts/lib/auth-errors.js:45 app/scripts/lib/strings.js:25
 msgid "Account already exists"
 msgstr "帳號已存在"
 
-#: app/scripts/lib/auth-errors.js:45
+#: app/scripts/lib/auth-errors.js:46
 msgid "Unknown account"
 msgstr "未知帳號"
 
-#: app/scripts/lib/auth-errors.js:46
+#: app/scripts/lib/auth-errors.js:47
 msgid "Incorrect email case"
 msgstr "電子信箱大小寫錯誤"
 
-#: app/scripts/lib/auth-errors.js:47
+#: app/scripts/lib/auth-errors.js:48
 msgid "Incorrect password"
 msgstr "密碼錯誤"
 
-#: app/scripts/lib/auth-errors.js:48
+#: app/scripts/lib/auth-errors.js:49
 msgid "Unverified account"
 msgstr "帳號未驗證"
 
-#: app/scripts/lib/auth-errors.js:49
+#: app/scripts/lib/auth-errors.js:50
 msgid "Invalid verification code"
 msgstr "驗證代碼無效"
 
-#: app/scripts/lib/auth-errors.js:50
+#: app/scripts/lib/auth-errors.js:51
 msgid "Invalid JSON in request body"
 msgstr "請求內容的 JSON 無效"
 
-#: app/scripts/lib/auth-errors.js:51
+#: app/scripts/lib/auth-errors.js:52
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "請求內容中的參數無效: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:52
+#: app/scripts/lib/auth-errors.js:53
 msgid "Missing parameter in request body: %(param)s"
 msgstr "請求內容中缺少參數: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:53
+#: app/scripts/lib/auth-errors.js:54
 msgid "Invalid request signature"
 msgstr "請求簽章無效"
 
-#: app/scripts/lib/auth-errors.js:54
+#: app/scripts/lib/auth-errors.js:55
 msgid "Missing content-length header"
 msgstr "缺少 content-length 檔頭"
 
-#: app/scripts/lib/auth-errors.js:55
+#: app/scripts/lib/auth-errors.js:56
 msgid "Request body too large"
 msgstr "請求內容太大"
 
-#: app/scripts/lib/auth-errors.js:56
-msgid "Client has sent too many requests"
-msgstr "客戶端傳送了太多請求"
-
 #: app/scripts/lib/auth-errors.js:57
+msgid "Attempt limit exceeded. Try again later."
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:58
 msgid "Service unavailable"
 msgstr "服務無法使用"
 
-#: app/scripts/lib/auth-errors.js:58
+#: app/scripts/lib/auth-errors.js:59
 msgid "This endpoint is no longer supported"
 msgstr "不再支援此端點"
 
@@ -260,7 +276,7 @@ msgid "Learn more."
 msgstr "了解更多資訊。"
 
 #: app/scripts/templates/change_password.mustache:1
-#: app/scripts/templates/settings.mustache:4
+#: app/scripts/templates/settings.mustache:5
 msgid "Change password"
 msgstr "修改密碼"
 
@@ -272,26 +288,27 @@ msgstr "已變更密碼"
 msgid "Old password"
 msgstr "舊密碼"
 
-#: app/scripts/templates/change_password.mustache:5
-#: app/scripts/templates/change_password.mustache:8
-#: app/scripts/templates/complete_reset_password.mustache:4
-#: app/scripts/templates/complete_reset_password.mustache:7
-#: app/scripts/templates/delete_account.mustache:6
-#: app/scripts/templates/sign_in.mustache:10
-#: app/scripts/templates/sign_up.mustache:6
+#: app/scripts/templates/change_password.mustache:4
+#: app/scripts/templates/change_password.mustache:6
+#: app/scripts/templates/complete_reset_password.mustache:3
+#: app/scripts/templates/complete_reset_password.mustache:5
+#: app/scripts/templates/delete_account.mustache:4
+#: app/scripts/templates/sign_in.mustache:9
+#: app/scripts/templates/sign_up.mustache:5
 msgid "Show"
 msgstr "顯示"
 
-#: app/scripts/templates/change_password.mustache:6
+#: app/scripts/templates/change_password.mustache:5
+#: app/scripts/templates/complete_reset_password.mustache:2
 msgid "New password"
 msgstr "新密碼"
 
-#: app/scripts/templates/change_password.mustache:10
+#: app/scripts/templates/change_password.mustache:8
 msgid "Change Password"
 msgstr "變更密碼"
 
-#: app/scripts/templates/change_password.mustache:11
-#: app/scripts/templates/delete_account.mustache:8
+#: app/scripts/templates/change_password.mustache:9
+#: app/scripts/templates/delete_account.mustache:6
 #: app/scripts/templates/pp.mustache:3
 #: app/scripts/templates/reset_password.mustache:5
 #: app/scripts/templates/tos.mustache:3
@@ -303,20 +320,14 @@ msgstr "上一步"
 msgid "Reset password"
 msgstr "重設密碼"
 
-#: app/scripts/templates/complete_reset_password.mustache:2
-#: app/scripts/templates/delete_account.mustache:4
-#: app/scripts/templates/sign_in.mustache:7
-#: app/scripts/templates/sign_up.mustache:3
-msgid "Password"
-msgstr "密碼"
-
-#: app/scripts/templates/complete_reset_password.mustache:5
-msgid "Repeat Password"
+#: app/scripts/templates/complete_reset_password.mustache:4
+#, fuzzy
+msgid "Repeat password"
 msgstr "重複輸入密碼"
 
-#: app/scripts/templates/complete_reset_password.mustache:9
+#: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/reset_password.mustache:4
-#: app/scripts/templates/sign_up.mustache:28
+#: app/scripts/templates/sign_up.mustache:27
 msgid "Next"
 msgstr "下一步"
 
@@ -330,32 +341,41 @@ msgstr "確認您的帳號"
 
 #: app/scripts/templates/confirm.mustache:2
 #: app/scripts/templates/confirm_reset_password.mustache:2
+msgid "Email resent"
+msgstr "郵件已重寄"
+
+#: app/scripts/templates/confirm.mustache:3
+#: app/scripts/templates/confirm_reset_password.mustache:3
 msgid "Email Sent"
 msgstr "郵件已寄出"
 
-#: app/scripts/templates/confirm.mustache:3
-msgid "A verification link has been sent&nbsp;to: %(email)s"
+#: app/scripts/templates/confirm.mustache:4
+#, fuzzy
+msgid "A verification link has been sent&nbsp;to %(email)s"
 msgstr "已將確認鏈結寄送至: %(email)s"
 
-#: app/scripts/templates/confirm.mustache:4
-#: app/scripts/templates/confirm_reset_password.mustache:4
+#: app/scripts/templates/confirm.mustache:5
+#: app/scripts/templates/confirm_reset_password.mustache:6
 msgid "Resend email"
 msgstr "重寄郵件"
-
-#: app/scripts/templates/confirm.mustache:5
-#: app/scripts/templates/confirm_reset_password.mustache:5
-msgid "Email resent"
-msgstr "郵件已重寄"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
 msgstr "已寄出重設郵件"
 
-#: app/scripts/templates/confirm_reset_password.mustache:3
+#: app/scripts/templates/confirm_reset_password.mustache:4
 msgid "A reset link has been sent to %(email)s"
 msgstr "已將重設鏈結傳送至 %(email)s"
 
+#: app/scripts/templates/confirm_reset_password.mustache:5
+#: app/scripts/templates/sign_in.mustache:1
+#: app/scripts/templates/sign_in.mustache:10
+msgid "Sign in"
+msgstr "登入"
+
 #: app/scripts/templates/delete_account.mustache:1
+#: app/scripts/templates/delete_account.mustache:5
+#: app/scripts/templates/settings.mustache:6
 msgid "Delete account"
 msgstr "刪除帳號"
 
@@ -365,15 +385,10 @@ msgid ""
 msgstr "您確定要刪除帳號嗎？將無法復原此操作。"
 
 #: app/scripts/templates/delete_account.mustache:3
-#: app/scripts/templates/reset_password.mustache:3
-#: app/scripts/templates/sign_in.mustache:5
-#: app/scripts/templates/sign_up.mustache:2
-msgid "Email"
-msgstr "電子郵件地址"
-
-#: app/scripts/templates/delete_account.mustache:7
-msgid "Delete Account"
-msgstr "刪除帳號"
+#: app/scripts/templates/sign_in.mustache:7
+#: app/scripts/templates/sign_up.mustache:3
+msgid "Password"
+msgstr "密碼"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -420,6 +435,12 @@ msgstr "您的帳號準備好了！"
 msgid "Enter your email to reset&nbsp;the account password."
 msgstr "請輸入您的電子郵件信箱以重設密碼。"
 
+#: app/scripts/templates/reset_password.mustache:3
+#: app/scripts/templates/sign_in.mustache:5
+#: app/scripts/templates/sign_up.mustache:2
+msgid "Email"
+msgstr "電子郵件地址"
+
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
 msgstr "管理帳號"
@@ -432,53 +453,55 @@ msgstr "您已登入為: %(email)s"
 msgid "Sign out"
 msgstr "登出"
 
-#: app/scripts/templates/sign_in.mustache:1
-#: app/scripts/templates/sign_in.mustache:11
-msgid "Sign in"
-msgstr "登入"
-
 #: app/scripts/templates/sign_in.mustache:2
 msgid "Sign in to continue"
 msgstr "登入以繼續"
 
-#: app/scripts/templates/sign_in.mustache:12
-#: app/scripts/templates/sign_in.mustache:14
+#: app/scripts/templates/sign_in.mustache:11
+#: app/scripts/templates/sign_in.mustache:13
 msgid "Forgot password?"
 msgstr "忘記密碼？"
 
-#: app/scripts/templates/sign_in.mustache:13
+#: app/scripts/templates/sign_in.mustache:12
 msgid "Create an account"
 msgstr "註冊帳號"
 
-#: app/scripts/templates/sign_in.mustache:16
-#: app/scripts/templates/sign_up.mustache:27
+#: app/scripts/templates/sign_in.mustache:15
+#: app/scripts/templates/sign_up.mustache:26
 msgid ""
 "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
 "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
 "a> of Firefox cloud services."
 msgstr ""
-"若繼續，代表您同意 Firefox 雲端服務的 <a id=\"fxa-tos\" href=\"/legal/terms\">服務條款</a> 及 <a id"
-"=\"fxa-pp\" href=\"/legal/privacy\">隱私權保護政策</a>。"
+"若繼續，代表您同意 Firefox 雲端服務的 <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">服務條款</a> 及 <a id=\"fxa-pp\" href=\"/legal/privacy\">隱私權保護政策</"
+"a>。"
 
 #: app/scripts/templates/sign_up.mustache:1
 msgid "Create a Firefox Account"
 msgstr "註冊 Firefox 帳號"
 
-#: app/scripts/templates/sign_up.mustache:8
+#: app/scripts/templates/sign_up.mustache:7
 msgid "Year of birth"
 msgstr "出生年"
 
-#: app/scripts/templates/sign_up.mustache:9
+#: app/scripts/templates/sign_up.mustache:8
 msgid "1990 or earlier"
 msgstr "1990 或更早"
 
-#: app/scripts/templates/sign_up.mustache:29
+#: app/scripts/templates/sign_up.mustache:28
 msgid "Choose what to sync"
 msgstr "選擇要同步的內容"
 
-#: app/scripts/templates/sign_up.mustache:31
+#: app/scripts/templates/sign_up.mustache:30
 msgid "Already have an account? Sign in."
 msgstr "已經有帳號了？請登入。"
+
+#~ msgid "Client has sent too many requests"
+#~ msgstr "客戶端傳送了太多請求"
+
+#~ msgid "Delete Account"
+#~ msgstr "刪除帳號"
 
 #~ msgid "Firefox Accounts"
 #~ msgstr "Firefox 帳號"
