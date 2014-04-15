@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-07 20:13+0000\n"
-"PO-Revision-Date: 2014-03-14 12:48+0000\n"
+"PO-Revision-Date: 2014-04-15 13:31+0000\n"
 "Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1394801299.0\n"
+"X-POOTLE-MTIME: 1397568687.0\n"
 
 #: server/templates/pages/src/404.html:1
 #: server/templates/pages/src/index.html:1
@@ -55,31 +55,29 @@ msgstr "Per poter utilizzare Firefox Account è necessario attivare JavaScript."
 #: server/templates/pages/dist/privacy.html:2
 #: server/templates/pages/dist/privacy.html:4
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Informativa sulla privacy"
 
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
 #: server/templates/pages/dist/privacy.html:3
 #: server/templates/pages/dist/terms.html:3
-#, fuzzy
 msgid "Firefox cloud services"
-msgstr "Firefox Account"
+msgstr "Servizi cloud di Firefox"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:4
 #: server/templates/pages/dist/terms.html:2
 #: server/templates/pages/dist/terms.html:4
 msgid "Terms of Service"
-msgstr ""
+msgstr "Termini di servizio"
 
 #: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
 msgid "Are you sure?"
-msgstr ""
+msgstr "Procedere con l’operazione?"
 
 #: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
-#, fuzzy
 msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "È stato richiesto di reimpostare la password per %(email)s."
+msgstr "È necessaria una conferma per reimpostare la password per %(email)s."
 
 #: server/templates/email/reset.html:4
 msgid "Reset password"
@@ -87,18 +85,20 @@ msgstr "Reimposta la password"
 
 #: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
 #: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
-#, fuzzy
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
-"Se hai ricevuto questa e-mail per errore, puoi semplicemente ignorarla."
+"Questa email è stata inviata da un servizio automatico. Se hai ricevuto "
+"questa e-mail per errore, puoi semplicemente ignorarla."
 
 #: server/templates/email/reset.html:6 server/templates/email/verify.html:6
 msgid ""
 "For more information, please visit <a href='https://support.mozilla."
 "org'>Mozilla Support</a>"
 msgstr ""
+"Per ulteriori informazioni visita il <a "
+"href='https://support.mozilla.org'>sito di supporto Mozilla</a>"
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
@@ -106,18 +106,16 @@ msgstr "Reimposta la password:"
 
 #: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
-msgstr ""
+msgstr "Per ulteriori informazioni visita https://support.mozilla.org"
 
 #: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
 msgid "Congratulations!"
-msgstr ""
+msgstr "Complimenti!"
 
 #: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
-#, fuzzy
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
 msgstr ""
-"Complimenti, %(email)s. Tra pochi secondi questo account Firefox Account "
-"sarà confermato."
+"%(email)s, tra pochi secondi questo account Firefox Account sarà confermato."
 
 #: server/templates/email/verify.html:4
 msgid "Verify"
@@ -128,14 +126,12 @@ msgid "Verify:"
 msgstr "Conferma:"
 
 #: server/lib/templates.js:35
-#, fuzzy
 msgid "Verify your account"
 msgstr "Conferma l’account"
 
 #: server/lib/templates.js:40
-#, fuzzy
 msgid "Reset your password"
-msgstr "Reimposta la password"
+msgstr "Reimposta password"
 
 #~ msgid "Reset Password Request"
 #~ msgstr "Richiesta di reimpostazione della password"
