@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-07 20:13+0000\n"
-"PO-Revision-Date: 2014-04-11 09:55+0000\n"
+"PO-Revision-Date: 2014-04-15 07:22+0000\n"
 "Last-Translator: Julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397210138.0\n"
+"X-POOTLE-MTIME: 1397546560.0\n"
 
 #: server/templates/pages/src/404.html:1
 #: server/templates/pages/src/index.html:1
@@ -54,31 +54,29 @@ msgstr "Firefoxeko kontuek JavaScript behar dute."
 #: server/templates/pages/dist/privacy.html:2
 #: server/templates/pages/dist/privacy.html:4
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Pribatutasun-oharra"
 
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
 #: server/templates/pages/dist/privacy.html:3
 #: server/templates/pages/dist/terms.html:3
-#, fuzzy
 msgid "Firefox cloud services"
-msgstr "Firefoxeko kontuak"
+msgstr "Firefoxen hodeieko zerbitzuak"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:4
 #: server/templates/pages/dist/terms.html:2
 #: server/templates/pages/dist/terms.html:4
 msgid "Terms of Service"
-msgstr ""
+msgstr "Zerbitzuaren baldintzak"
 
 #: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
 msgid "Are you sure?"
-msgstr ""
+msgstr "Ziur zaude?"
 
 #: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
-#, fuzzy
 msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "%(email)s kontuaren pasahitza berrezartzeko eskaera egin da."
+msgstr "Berretsi mesedez %(email)s kontuaren pasahitza berrezarri nahi duzula."
 
 #: server/templates/email/reset.html:4
 msgid "Reset password"
@@ -86,17 +84,20 @@ msgstr "Berrezarri pasahitza"
 
 #: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
 #: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
-#, fuzzy
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
-msgstr "Mezu hau errorez jaso baduzu, ez duzu ekintzarik burutu behar."
+msgstr ""
+"Mezu hau automatikoa da; errorez jaso baduzu, ez duzu ekintzarik burutu "
+"behar."
 
 #: server/templates/email/reset.html:6 server/templates/email/verify.html:6
 msgid ""
 "For more information, please visit <a href='https://support.mozilla."
 "org'>Mozilla Support</a>"
 msgstr ""
+"Informazio gehiagorako bisitatu <a "
+"href='https://support.mozilla.org'>Mozillaren laguntza</a>"
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
@@ -104,16 +105,15 @@ msgstr "Berrezarri pasahitza:"
 
 #: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
-msgstr ""
+msgstr "Informazio gehiagorako bisitatu https://support.mozilla.org"
 
 #: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
 msgid "Congratulations!"
-msgstr ""
+msgstr "Zorionak!"
 
 #: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
-#, fuzzy
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr "Zorionak! %(email)s, zure Firefoxeko kontua berresteko zorian zaude."
+msgstr "%(email)s, zure Firefoxeko kontua egiaztatzear zaude."
 
 #: server/templates/email/verify.html:4
 msgid "Verify"
@@ -124,12 +124,10 @@ msgid "Verify:"
 msgstr "Egiaztatu:"
 
 #: server/lib/templates.js:35
-#, fuzzy
 msgid "Verify your account"
-msgstr "Berretsi zure kontua"
+msgstr "Egiaztatu zure kontua"
 
 #: server/lib/templates.js:40
-#, fuzzy
 msgid "Reset your password"
 msgstr "Berrezarri pasahitza"
 
