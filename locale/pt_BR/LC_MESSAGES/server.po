@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-07 20:13+0000\n"
-"PO-Revision-Date: 2014-03-14 21:29+0000\n"
+"PO-Revision-Date: 2014-04-15 16:52+0000\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1394832566.0\n"
+"X-POOTLE-MTIME: 1397580763.0\n"
 
 #: server/templates/pages/src/404.html:1
 #: server/templates/pages/src/index.html:1
@@ -55,31 +55,29 @@ msgstr "Contas Firefox necessitam JavaScript."
 #: server/templates/pages/dist/privacy.html:2
 #: server/templates/pages/dist/privacy.html:4
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Política de Privacidade"
 
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
 #: server/templates/pages/dist/privacy.html:3
 #: server/templates/pages/dist/terms.html:3
-#, fuzzy
 msgid "Firefox cloud services"
-msgstr "Contas do Firefox"
+msgstr "Serviços na nuvem do Firefox"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:4
 #: server/templates/pages/dist/terms.html:2
 #: server/templates/pages/dist/terms.html:4
 msgid "Terms of Service"
-msgstr ""
+msgstr "Termos de serviço"
 
 #: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
 msgid "Are you sure?"
-msgstr ""
+msgstr "Você tem certeza?"
 
 #: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
-#, fuzzy
 msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "A solicitação para redefinir a senha para %(email)s foi concluída."
+msgstr "Por favor, confirme que você deseja redefinir a senha para %(email)s."
 
 #: server/templates/email/reset.html:4
 msgid "Reset password"
@@ -87,17 +85,20 @@ msgstr "Redefinir senha"
 
 #: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
 #: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
-#, fuzzy
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
-msgstr "Se você recebeu esta mensagem por engano, nenhuma ação é exigida."
+msgstr ""
+"Este é um e-mail automático; Se você recebeu por engano, nenhuma ação é "
+"necessária."
 
 #: server/templates/email/reset.html:6 server/templates/email/verify.html:6
 msgid ""
 "For more information, please visit <a href='https://support.mozilla."
 "org'>Mozilla Support</a>"
 msgstr ""
+"Para mais informações, visite o <a "
+"href='https://support.mozilla.org'>Suporte Mozilla</a>"
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
@@ -105,18 +106,17 @@ msgstr "Redefinir de senha:"
 
 #: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
-msgstr ""
+msgstr "Para mais informações, visite https://support.mozilla.org"
 
 #: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
 msgid "Congratulations!"
-msgstr ""
+msgstr "Parabéns!"
 
 #: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
-#, fuzzy
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
 msgstr ""
-"Parabéns! %(E-mail)s, você está a segundos de distância de verificar sua "
-"conta do Firefox."
+"%(email)s, você está a um clique de distância de verificar sua conta "
+"Firefox."
 
 #: server/templates/email/verify.html:4
 msgid "Verify"
@@ -127,14 +127,12 @@ msgid "Verify:"
 msgstr "Verificar:"
 
 #: server/lib/templates.js:35
-#, fuzzy
 msgid "Verify your account"
-msgstr "Confirme sua conta"
+msgstr "Verifique a sua conta"
 
 #: server/lib/templates.js:40
-#, fuzzy
 msgid "Reset your password"
-msgstr "Redefinir senha"
+msgstr "Redefina a sua senha"
 
 #~ msgid "Reset Password Request"
 #~ msgstr "Solicitação de redefinição de senha "
