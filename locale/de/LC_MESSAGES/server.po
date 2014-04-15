@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-07 20:13+0000\n"
-"PO-Revision-Date: 2014-03-13 09:10+0000\n"
+"PO-Revision-Date: 2014-04-15 07:20+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1394701816.0\n"
+"X-POOTLE-MTIME: 1397546447.0\n"
 
 #: server/templates/pages/src/404.html:1
 #: server/templates/pages/src/index.html:1
@@ -54,32 +54,31 @@ msgstr "Firefox Accounts benötigt JavaScript."
 #: server/templates/pages/dist/privacy.html:2
 #: server/templates/pages/dist/privacy.html:4
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Datenschutzerklärung"
 
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
 #: server/templates/pages/dist/privacy.html:3
 #: server/templates/pages/dist/terms.html:3
-#, fuzzy
 msgid "Firefox cloud services"
-msgstr "Firefox Accounts"
+msgstr "Firefox-Cloud-Dienste"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:4
 #: server/templates/pages/dist/terms.html:2
 #: server/templates/pages/dist/terms.html:4
 msgid "Terms of Service"
-msgstr ""
+msgstr "Nutzungsbedingungen"
 
 #: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
 msgid "Are you sure?"
-msgstr ""
+msgstr "Sind Sie sicher?"
 
 #: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
-#, fuzzy
 msgid "Please confirm that you'd like to reset the password for %(email)s."
 msgstr ""
-"Eine Anforderung zum Zurücksetzen des Passworts für %(email)s wurde gestellt."
+"Bitte bestätigen Sie, dass Sie das Passwort für %(email)s zurücksetzen "
+"möchten."
 
 #: server/templates/email/reset.html:4
 msgid "Reset password"
@@ -87,19 +86,20 @@ msgstr "Passwort zurücksetzen"
 
 #: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
 #: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
-#, fuzzy
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
-"Wenn Sie diese E-Mail fälschlicherweise erhalten haben, müssen Sie nichts "
-"tun."
+"Dies ist eine automatisierte E-Mail; wenn Sie sie fälschlicherweise erhalten "
+"haben, müssen Sie nichts tun."
 
 #: server/templates/email/reset.html:6 server/templates/email/verify.html:6
 msgid ""
 "For more information, please visit <a href='https://support.mozilla."
 "org'>Mozilla Support</a>"
 msgstr ""
+"Weitere Informationen finden Sie in der <a href='https://support.mozilla.org"
+"'>Mozilla-Hilfe</a>"
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
@@ -107,18 +107,17 @@ msgstr "Passwort zurücksetzen:"
 
 #: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
-msgstr ""
+msgstr "Weitere Informationen finden Sie unter https://support.mozilla.org"
 
 #: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
 msgid "Congratulations!"
-msgstr ""
+msgstr "Herzlichen Glückwunsch!"
 
 #: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
-#, fuzzy
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
 msgstr ""
-"Herzlichen Glückwunsch! %(email)s, Sie sind nur noch Sekunden von der "
-"Verifizierung Ihres Firefox Accounts entfernt."
+"%(email)s, Sie sind nur noch Sekunden von der Verifizierung Ihres Firefox "
+"Accounts entfernt."
 
 #: server/templates/email/verify.html:4
 msgid "Verify"
@@ -129,14 +128,12 @@ msgid "Verify:"
 msgstr "Bestätigen:"
 
 #: server/lib/templates.js:35
-#, fuzzy
 msgid "Verify your account"
 msgstr "Bestätigen Sie Ihr Konto"
 
 #: server/lib/templates.js:40
-#, fuzzy
 msgid "Reset your password"
-msgstr "Passwort zurücksetzen"
+msgstr "Setzen Sie Ihr Passwort zurück"
 
 #~ msgid "Reset Password Request"
 #~ msgstr "Zurücksetzen des Passworts anfordern"
