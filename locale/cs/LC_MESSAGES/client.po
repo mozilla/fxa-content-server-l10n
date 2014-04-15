@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-07 20:13+0000\n"
-"PO-Revision-Date: 2014-03-14 20:43+0000\n"
+"PO-Revision-Date: 2014-04-15 16:57+0000\n"
 "Last-Translator: Michal <michal.stanke@mikk.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1394829807.0\n"
+"X-POOTLE-MTIME: 1397581078.0\n"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1991"
@@ -82,35 +82,29 @@ msgid "2007"
 msgstr "2007"
 
 #: app/scripts/views/change_password.js:44
-#, fuzzy
 msgid "Your new password must be different"
-msgstr "staré a nové heslo se musí lišit"
+msgstr "Vaše staré a nové heslo nesmí být stejné"
 
 #: app/scripts/views/complete_reset_password.js:37
-#, fuzzy
 msgid "No token specified"
-msgstr "nespecifikovaný token"
+msgstr "Nespecifikovaný token"
 
 #: app/scripts/views/complete_reset_password.js:42
 #: app/scripts/views/complete_sign_up.js:40
-#, fuzzy
 msgid "No code specified"
-msgstr "nespecifikovaný kód"
+msgstr "Nespecifikovaný kód"
 
 #: app/scripts/views/complete_reset_password.js:47
-#, fuzzy
 msgid "No email specified"
-msgstr "nespecifikovaný e-mail"
+msgstr "Nezadaný e-mail"
 
 #: app/scripts/views/complete_reset_password.js:60
-#, fuzzy
 msgid "Passwords do not match"
-msgstr "hesla se neshodují"
+msgstr "Hesla se neshodují"
 
 #: app/scripts/views/complete_sign_up.js:34
-#, fuzzy
 msgid "No uid specified"
-msgstr "nespecifikováno uid"
+msgstr "Nespecifikováno uid"
 
 #: app/scripts/views/form.js:302 app/scripts/lib/strings.js:18
 msgid "Valid email required"
@@ -219,7 +213,7 @@ msgstr "Tělo požadavku je příliš velké"
 
 #: app/scripts/lib/auth-errors.js:57
 msgid "Attempt limit exceeded. Try again later."
-msgstr ""
+msgstr "Byl překročen počet pokusů. Zkuste to prosím později znovu."
 
 #: app/scripts/lib/auth-errors.js:58
 msgid "Service unavailable"
@@ -320,7 +314,6 @@ msgid "Reset password"
 msgstr "Obnovit heslo"
 
 #: app/scripts/templates/complete_reset_password.mustache:4
-#, fuzzy
 msgid "Repeat password"
 msgstr "Zopakujte heslo"
 
@@ -349,9 +342,8 @@ msgid "Email Sent"
 msgstr "E-mail odeslán"
 
 #: app/scripts/templates/confirm.mustache:4
-#, fuzzy
 msgid "A verification link has been sent&nbsp;to %(email)s"
-msgstr "Odkaz pro ověření byl odeslán na e-mail: %(email)s"
+msgstr "Odkaz pro ověření byl odeslán na e-mail %(email)s"
 
 #: app/scripts/templates/confirm.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:6
