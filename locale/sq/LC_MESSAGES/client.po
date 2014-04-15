@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-07 20:13+0000\n"
-"PO-Revision-Date: 2014-03-15 12:23+0200\n"
+"PO-Revision-Date: 2014-04-15 11:47+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -82,55 +82,51 @@ msgid "2007"
 msgstr "Përzgjidhni tërë kartelat në këtë dritare"
 
 #: app/scripts/views/change_password.js:44
-#, fuzzy
 msgid "Your new password must be different"
-msgstr "fjalëkalimi i vjetër dhe ai i ri duhet të jenë të ndryshëm"
+msgstr "Fjalëkalimi juaj i ri duhet të jetë i ndryshëm"
 
 #: app/scripts/views/complete_reset_password.js:37
-#, fuzzy
 msgid "No token specified"
-msgstr "nuk është përcaktuar token"
+msgstr "Nuk është përcaktuar token"
 
 #: app/scripts/views/complete_reset_password.js:42
 #: app/scripts/views/complete_sign_up.js:40
-#, fuzzy
 msgid "No code specified"
-msgstr "nuk është pëcaktuar kod"
+msgstr "Nuk është pëcaktuar kod"
 
 #: app/scripts/views/complete_reset_password.js:47
-#, fuzzy
 msgid "No email specified"
-msgstr "nuk është përcaktuar email"
+msgstr "Nuk është përcaktuar email"
 
 #: app/scripts/views/complete_reset_password.js:60
-#, fuzzy
 msgid "Passwords do not match"
-msgstr "fjalëkalimet nuk përputhen"
+msgstr "Fjalëkalimet nuk përputhen"
 
 #: app/scripts/views/complete_sign_up.js:34
-#, fuzzy
 msgid "No uid specified"
-msgstr "nuk është përcaktuar uid"
+msgstr "Nuk është përcaktuar uid"
 
-#: app/scripts/views/form.js:302 app/scripts/lib/strings.js:18
+#: app/scripts/views/form.js:302
+#: app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "Lypset email i vlefshëm"
 
-#: app/scripts/views/form.js:308 app/scripts/lib/strings.js:23
+#: app/scripts/views/form.js:308
+#: app/scripts/lib/strings.js:23
 #: app/scripts/templates/change_password.mustache:7
 #: app/scripts/templates/complete_reset_password.mustache:6
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Must be at least 8 characters"
 msgstr "Duhet të jetë të paktën 8 shenja"
 
-#: app/scripts/views/form.js:309 app/scripts/lib/strings.js:19
+#: app/scripts/views/form.js:309
+#: app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr "Lyp fjalëkalim të vlefshëm"
 
 #: app/scripts/views/pp.js:41
-#, fuzzy
 msgid "Could not get Privacy Notice"
-msgstr "Shënim Privatësie"
+msgstr "Nuk u mor dot Shënim mbi Privatësinë"
 
 #: app/scripts/views/sign_in.js:51
 msgid "/force_auth requires an email"
@@ -140,7 +136,8 @@ msgstr "/force_auth lyp një email"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Llogari e panjohur. <a href=\"/signup\">Regjistrohuni</a>"
 
-#: app/scripts/views/sign_up.js:77 app/scripts/lib/strings.js:24
+#: app/scripts/views/sign_up.js:77
+#: app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "Viti i lindjes është i domosdoshëm"
 
@@ -149,9 +146,8 @@ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Ka tashmë një llogari të tillë. <a href=\"/signin\">Hyni</a>"
 
 #: app/scripts/views/tos.js:41
-#, fuzzy
 msgid "Could not get Terms of Service"
-msgstr "Kushte Shërbimi"
+msgstr "Nuk u morën dot Kushtet e Shërbimit"
 
 #: app/scripts/lib/auth-errors.js:41
 msgid "Unexpected error"
@@ -169,7 +165,8 @@ msgstr "Vulë e pavlefshme kohore te nënshkrim kërkese"
 msgid "Invalid nonce in request signature"
 msgstr "Varg i pavlefshëm në nënshkrimin e kërkesës"
 
-#: app/scripts/lib/auth-errors.js:45 app/scripts/lib/strings.js:25
+#: app/scripts/lib/auth-errors.js:45
+#: app/scripts/lib/strings.js:25
 msgid "Account already exists"
 msgstr "Ka tashmë një llogari të tillë"
 
@@ -219,7 +216,7 @@ msgstr "Lëndë shumë e madhe për kërkesa"
 
 #: app/scripts/lib/auth-errors.js:57
 msgid "Attempt limit exceeded. Try again later."
-msgstr ""
+msgstr "U tejkalua kufi provash. Riprovoni më vonë."
 
 #: app/scripts/lib/auth-errors.js:58
 msgid "Service unavailable"
@@ -266,11 +263,8 @@ msgid "Cannot create account"
 msgstr "S'krijohet dot llogaria"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
-msgid ""
-"You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr ""
-"Duhet të plotësoni disa domosdoshmëri lidhur me moshën, që të mundeni të "
-"krijoni një Llogari&nbsp;Firefox-i."
+msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
+msgstr "Duhet të plotësoni disa domosdoshmëri lidhur me moshën, që të mundeni të krijoni një Llogari&nbsp;Firefox-i."
 
 #: app/scripts/templates/cannot_create_account.mustache:3
 msgid "Learn more."
@@ -322,9 +316,8 @@ msgid "Reset password"
 msgstr "Ricaktoni fjalëkalimin"
 
 #: app/scripts/templates/complete_reset_password.mustache:4
-#, fuzzy
 msgid "Repeat password"
-msgstr "Rijepeni Fjalëkalimin"
+msgstr "Rijepeni fjalëkalimin"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/reset_password.mustache:4
@@ -351,9 +344,8 @@ msgid "Email Sent"
 msgstr "Email-i u Dërgua"
 
 #: app/scripts/templates/confirm.mustache:4
-#, fuzzy
 msgid "A verification link has been sent&nbsp;to %(email)s"
-msgstr "Një lidhje verifikimi sapo u dërgua&nbsp;te: %(email)s"
+msgstr "Një lidhje verifikimi sapo u dërgua&nbsp;te %(email)s"
 
 #: app/scripts/templates/confirm.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:6
@@ -381,11 +373,8 @@ msgid "Delete account"
 msgstr "Fshije llogarinë"
 
 #: app/scripts/templates/delete_account.mustache:2
-msgid ""
-"Are you sure you want to delete your account? This action cannot be undone."
-msgstr ""
-"Jeni i sigurt se doni të fshihet llogaria juaj? Ky veprim nuk mund të "
-"zhbëhet."
+msgid "Are you sure you want to delete your account? This action cannot be undone."
+msgstr "Jeni i sigurt se doni të fshihet llogaria juaj? Ky veprim nuk mund të zhbëhet."
 
 #: app/scripts/templates/delete_account.mustache:3
 #: app/scripts/templates/sign_in.mustache:7
@@ -393,7 +382,8 @@ msgstr ""
 msgid "Password"
 msgstr "Fjalëkalim"
 
-#: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
+#: app/scripts/templates/legal.mustache:1
+#: app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
 msgstr "Shërbime reje nga Firefox-i"
@@ -402,13 +392,15 @@ msgstr "Shërbime reje nga Firefox-i"
 msgid "Legal"
 msgstr "Ligjore"
 
-#: app/scripts/templates/legal.mustache:3 app/scripts/templates/tos.mustache:2
+#: app/scripts/templates/legal.mustache:3
+#: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "Kushte Shërbimi"
 
-#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
+#: app/scripts/templates/legal.mustache:4
+#: app/scripts/templates/pp.mustache:2
 msgid "Privacy Notice"
-msgstr "Shënim Privatësie"
+msgstr "Shënim mbi Privatësinë"
 
 #: app/scripts/templates/ready.mustache:1
 msgid "Signed in successfully"
@@ -471,14 +463,8 @@ msgstr "Krijoni një llogari"
 
 #: app/scripts/templates/sign_in.mustache:15
 #: app/scripts/templates/sign_up.mustache:26
-msgid ""
-"By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-"of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
-"a> of Firefox cloud services."
-msgstr ""
-"Duke vazhduar më tej, pajtohem me <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Kushtet e Shërbimit</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy"
-"\">Shënimet mbi Privatësinë</a> të shërbimeve Firefox për re."
+msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+msgstr "Duke vazhduar më tej, pajtohem me <a id=\"fxa-tos\" href=\"/legal/terms\">Kushtet e Shërbimit</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy\">Shënimet mbi Privatësinë</a> të shërbimeve Firefox për re."
 
 #: app/scripts/templates/sign_up.mustache:1
 msgid "Create a Firefox Account"
