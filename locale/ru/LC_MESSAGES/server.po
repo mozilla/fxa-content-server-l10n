@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-07 20:13+0000\n"
-"PO-Revision-Date: 2014-03-15 18:00+0000\n"
-"Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
+"PO-Revision-Date: 2014-04-17 19:32+0000\n"
+"Last-Translator: vladikoff <vlad@vladikoff.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1394906449.0\n"
+"X-POOTLE-MTIME: 1397763143.0\n"
 
 #: server/templates/pages/src/404.html:1
 #: server/templates/pages/src/index.html:1
@@ -43,7 +43,7 @@ msgstr ""
 #: server/templates/pages/src/404.html:4
 #: server/templates/pages/dist/404.html:4
 msgid "Home"
-msgstr "Дом"
+msgstr "Домой"
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/dist/index.html:2
@@ -55,31 +55,29 @@ msgstr "Для Firefox Аккаунтов необходим JavaScript."
 #: server/templates/pages/dist/privacy.html:2
 #: server/templates/pages/dist/privacy.html:4
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Уведомление о приватности"
 
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
 #: server/templates/pages/dist/privacy.html:3
 #: server/templates/pages/dist/terms.html:3
-#, fuzzy
 msgid "Firefox cloud services"
-msgstr "Firefox Аккаунты"
+msgstr "Облачные службы Firefox"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:4
 #: server/templates/pages/dist/terms.html:2
 #: server/templates/pages/dist/terms.html:4
 msgid "Terms of Service"
-msgstr ""
+msgstr "Условия службы"
 
 #: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
 msgid "Are you sure?"
-msgstr ""
+msgstr "Вы уверены?"
 
 #: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
-#, fuzzy
 msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Был отправлен запрос на восстановление пароля для %(email)s."
+msgstr "Подтвердите, что вы хотите восстановить пароль для %(email)s."
 
 #: server/templates/email/reset.html:4
 msgid "Reset password"
@@ -87,17 +85,20 @@ msgstr "Восстановить пароль"
 
 #: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
 #: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
-#, fuzzy
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
-msgstr "Если вы получили это письмо по ошибке, не требуется никаких действий."
+msgstr ""
+"Это автоматическое сообщение; если вы получили его по ошибке, не требуется "
+"никаких действий."
 
 #: server/templates/email/reset.html:6 server/templates/email/verify.html:6
 msgid ""
 "For more information, please visit <a href='https://support.mozilla."
 "org'>Mozilla Support</a>"
 msgstr ""
+"Для получения большей информации, посетите <a "
+"href='https://support.mozilla.org'>Сайт поддержки Mozilla</a>"
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
@@ -105,18 +106,15 @@ msgstr "Восстановить пароль:"
 
 #: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
-msgstr ""
+msgstr "Для получения большей информации, посетите https://support.mozilla.org"
 
 #: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
 msgid "Congratulations!"
-msgstr ""
+msgstr "Поздравляем!"
 
 #: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
-#, fuzzy
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr ""
-"Поздравляем! %(email)s, вы в нескольких шагах от верификации вашего Firefox "
-"Аккаунта."
+msgstr "%(email)s, вы в одном шаге от верификации вашего Firefox Аккаунта."
 
 #: server/templates/email/verify.html:4
 msgid "Verify"
@@ -127,14 +125,12 @@ msgid "Verify:"
 msgstr "Подтвердите:"
 
 #: server/lib/templates.js:35
-#, fuzzy
 msgid "Verify your account"
-msgstr "Подтвердить Ваш Аккаунт"
+msgstr "Подтвердить ваш аккаунт"
 
 #: server/lib/templates.js:40
-#, fuzzy
 msgid "Reset your password"
-msgstr "Восстановить пароль"
+msgstr "Восстановить ваш пароль"
 
 #~ msgid "Reset Password Request"
 #~ msgstr "Запрос Восстановления Пароля"
