@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-07 20:13+0000\n"
-"PO-Revision-Date: 2014-04-12 12:20+0000\n"
+"PO-Revision-Date: 2014-04-18 19:21+0000\n"
 "Last-Translator: Sander <sander.lepik@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397305256.0\n"
+"X-POOTLE-MTIME: 1397848906.0\n"
 
 #: server/templates/pages/src/404.html:1
 #: server/templates/pages/src/index.html:1
@@ -54,31 +54,29 @@ msgstr "Firefoxi kontod nõuavad, et JavaScript oleks lubatud."
 #: server/templates/pages/dist/privacy.html:2
 #: server/templates/pages/dist/privacy.html:4
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Privaatsusreeglid"
 
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
 #: server/templates/pages/dist/privacy.html:3
 #: server/templates/pages/dist/terms.html:3
-#, fuzzy
 msgid "Firefox cloud services"
-msgstr "Firefoxi kontod"
+msgstr "Firefoxi pilveteenused"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:4
 #: server/templates/pages/dist/terms.html:2
 #: server/templates/pages/dist/terms.html:4
 msgid "Terms of Service"
-msgstr ""
+msgstr "Teenuste tingimused"
 
 #: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
 msgid "Are you sure?"
-msgstr ""
+msgstr "Kas oled ikka kindel?"
 
 #: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
-#, fuzzy
 msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Sooviti lähtestada konto %(email)s parool."
+msgstr "Palun kinnita, et soovid lähtestada konto %(email)s parooli."
 
 #: server/templates/email/reset.html:4
 msgid "Reset password"
@@ -86,17 +84,20 @@ msgstr "Lähtesta parool"
 
 #: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
 #: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
-#, fuzzy
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
-msgstr "Kui sa ei tellinud seda e-kirja, siis ei ole sul vaja midagi teha."
+msgstr ""
+"See e-kiri on saadetud automaatselt. Kui sa ei tellinud seda, siis ei ole "
+"sul vaja midagi teha."
 
 #: server/templates/email/reset.html:6 server/templates/email/verify.html:6
 msgid ""
 "For more information, please visit <a href='https://support.mozilla."
 "org'>Mozilla Support</a>"
 msgstr ""
+"Rohkema teabe saamiseks külasta <a "
+"href='https://support.mozilla.org'>Mozilla tugiveebi</a>"
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
@@ -104,18 +105,15 @@ msgstr "Parooli lähtestamiseks klõpsa järgneval lingil:"
 
 #: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
-msgstr ""
+msgstr "Rohkema teabe saamiseks külasta https://support.mozilla.org"
 
 #: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
 msgid "Congratulations!"
-msgstr ""
+msgstr "Õnnitleme!"
 
 #: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
-#, fuzzy
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr ""
-"Õnnitleme! %(email)s, oled sekundite kaugusel oma Firefoxi konto "
-"kinnitamisest."
+msgstr "%(email)s, oled ühe klõpsu kaugusel oma Firefoxi konto kinnitamisest."
 
 #: server/templates/email/verify.html:4
 msgid "Verify"
@@ -126,12 +124,10 @@ msgid "Verify:"
 msgstr "Kinnitamiseks klõpsa järgneval lingil:"
 
 #: server/lib/templates.js:35
-#, fuzzy
 msgid "Verify your account"
 msgstr "Konto kinnitamine"
 
 #: server/lib/templates.js:40
-#, fuzzy
 msgid "Reset your password"
 msgstr "Lähtesta parool"
 
