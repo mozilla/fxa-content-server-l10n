@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-07 20:13+0000\n"
-"PO-Revision-Date: 2014-04-04 02:41+0000\n"
-"Last-Translator: A S <amanpreet.alam@gmail.com>\n"
+"PO-Revision-Date: 2014-04-22 03:25+0000\n"
+"Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1396579271.0\n"
+"X-POOTLE-MTIME: 1398137154.0\n"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1991"
@@ -83,55 +83,51 @@ msgid "2007"
 msgstr "2007"
 
 #: app/scripts/views/change_password.js:44
-#, fuzzy
 msgid "Your new password must be different"
-msgstr "ਪੁਰਾਣਾ ਅਤੇ ਨਵਾਂ ਪਾਸਵਰਡ ਵੱਖ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ"
+msgstr "ਤੁਹਾਡਾ ਨਵਾਂ ਪਾਸਵਰਡ ਵੱਖਰਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ"
 
 #: app/scripts/views/complete_reset_password.js:37
-#, fuzzy
 msgid "No token specified"
 msgstr "ਕੋਈ ਟੋਕਨ ਨਹੀਂ ਦਿੱਤਾ"
 
 #: app/scripts/views/complete_reset_password.js:42
 #: app/scripts/views/complete_sign_up.js:40
-#, fuzzy
 msgid "No code specified"
 msgstr "ਕੋਈ ਕੋਡ ਨਹੀਂ ਦਿੱਤਾ"
 
 #: app/scripts/views/complete_reset_password.js:47
-#, fuzzy
 msgid "No email specified"
 msgstr "ਕੋਈ ਈਮੇਲ ਨਹੀਂ ਦਿੱਤੀ"
 
 #: app/scripts/views/complete_reset_password.js:60
-#, fuzzy
 msgid "Passwords do not match"
-msgstr "ਪਾਸਵਰਡ ਮਿਲਦਾ ਨਹੀਂ ਹੈ"
+msgstr "ਪਾਸਵਰਡ ਮਿਲਦੇ ਨਹੀਂ ਹਨ"
 
 #: app/scripts/views/complete_sign_up.js:34
-#, fuzzy
 msgid "No uid specified"
 msgstr "uid ਨਹੀਂ ਦਿੱਤਾ"
 
-#: app/scripts/views/form.js:302 app/scripts/lib/strings.js:18
+#: app/scripts/views/form.js:302
+#: app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "ਠੀਕ ਈਮੇਲ ਚਾਹੀਦਾ ਹੈ"
 
-#: app/scripts/views/form.js:308 app/scripts/lib/strings.js:23
+#: app/scripts/views/form.js:308
+#: app/scripts/lib/strings.js:23
 #: app/scripts/templates/change_password.mustache:7
 #: app/scripts/templates/complete_reset_password.mustache:6
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Must be at least 8 characters"
 msgstr "ਘੱਟੋ-ਘੱਟ 8 ਅੱਖਰ ਲੰਮਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ"
 
-#: app/scripts/views/form.js:309 app/scripts/lib/strings.js:19
+#: app/scripts/views/form.js:309
+#: app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr "ਠੀਕ ਪਾਸਵਰਡ ਚਾਹੀਦਾ ਹੈ"
 
 #: app/scripts/views/pp.js:41
-#, fuzzy
 msgid "Could not get Privacy Notice"
-msgstr "ਪਰਾਈਵੇਸੀ ਸੂਚਨਾ"
+msgstr "ਪਰਾਈਵੇਸੀ ਸੂਚਨਾ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ"
 
 #: app/scripts/views/sign_in.js:51
 msgid "/force_auth requires an email"
@@ -141,7 +137,8 @@ msgstr "/force_auth ਇੱਕ ਈਮੇਲ ਦੀ ਲੋੜ ਹੈ"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "ਅਣਜਾਣ ਖਾਤਾ। <a href=\"/signup\">ਮੈਂਬਰ ਬਣੋ</a>"
 
-#: app/scripts/views/sign_up.js:77 app/scripts/lib/strings.js:24
+#: app/scripts/views/sign_up.js:77
+#: app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "ਜਨਮ ਦੇ ਸਾਲ ਦੀ ਲੋੜ ਹੈ"
 
@@ -150,9 +147,8 @@ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "ਖਾਤਾ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ। <a href=\"/signin\">ਸਾਇਨ ਇਨ</a>"
 
 #: app/scripts/views/tos.js:41
-#, fuzzy
 msgid "Could not get Terms of Service"
-msgstr "ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ"
+msgstr "ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕੀਤੀਆਂ ਜਾ ਸਕੀਆਂ"
 
 #: app/scripts/lib/auth-errors.js:41
 msgid "Unexpected error"
@@ -170,7 +166,8 @@ msgstr "ਬੇਨਤੀ ਦਸਤਖਤ ਵਿੱਚ ਗਲਤ ਸਮਾਂ-ਮ�
 msgid "Invalid nonce in request signature"
 msgstr "ਬੇਨਤੀ ਦਸਤਖਤ ਵਿੱਚ ਗਲਤ ਵਰਤਮਾਨ"
 
-#: app/scripts/lib/auth-errors.js:45 app/scripts/lib/strings.js:25
+#: app/scripts/lib/auth-errors.js:45
+#: app/scripts/lib/strings.js:25
 msgid "Account already exists"
 msgstr "ਖਾਤਾ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ"
 
@@ -220,7 +217,7 @@ msgstr "ਬੇਨਤੀ ਭਾਗ ਜਿਆਦਾ ਵੱਡਾ"
 
 #: app/scripts/lib/auth-errors.js:57
 msgid "Attempt limit exceeded. Try again later."
-msgstr ""
+msgstr "ਹੱਦ ਸੀਮਾਂ ਟੱਪੀ। ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
 
 #: app/scripts/lib/auth-errors.js:58
 msgid "Service unavailable"
@@ -267,9 +264,10 @@ msgid "Cannot create account"
 msgstr "ਖਾਤਾ ਬਣਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
-msgid ""
-"You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr "ਤੁਹਾਨੂੰ ਇੱਕ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਬਣਾਉਣ ਲਈ ਕੁਝ ਖਾਸ ਉਮਰ ਦੀ ਲੋੜ ਨੂੰ ਪੂਰਾ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।"
+msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
+msgstr ""
+"ਤੁਹਾਨੂੰ ਇੱਕ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਬਣਾਉਣ ਲਈ ਕੁਝ ਖਾਸ ਉਮਰ ਦੀ ਲੋੜ ਨੂੰ ਪੂਰਾ ਕਰਨਾ ਚਾਹੀਦਾ "
+"ਹੈ।"
 
 #: app/scripts/templates/cannot_create_account.mustache:3
 msgid "Learn more."
@@ -321,7 +319,6 @@ msgid "Reset password"
 msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ"
 
 #: app/scripts/templates/complete_reset_password.mustache:4
-#, fuzzy
 msgid "Repeat password"
 msgstr "ਪਾਸਵਰਡ ਦੁਹਰਾਉ"
 
@@ -350,7 +347,6 @@ msgid "Email Sent"
 msgstr "ਈਮੇਲ ਭੇਜੋ"
 
 #: app/scripts/templates/confirm.mustache:4
-#, fuzzy
 msgid "A verification link has been sent&nbsp;to %(email)s"
 msgstr "ਜਾਂਚ ਲਿੰਕ &nbsp; %(email)s ਨੂੰ ਭੇਜਿਆ ਜਾ ਚੁੱਕਾ ਹੈ"
 
@@ -380,9 +376,10 @@ msgid "Delete account"
 msgstr "ਖਾਤਾ ਹਟਾਓ"
 
 #: app/scripts/templates/delete_account.mustache:2
-msgid ""
-"Are you sure you want to delete your account? This action cannot be undone."
-msgstr "ਕੀ ਤੁਸੀਂ ਸੱਚਮੁੱਚ ਆਪਣਾ ਖਾਤਾ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ? ਇਹ ਕਾਰਵਾਈ ਵਾਪਿਸ ਨਹੀਂ ਲਈ ਜਾ ਸਕਦੀ ਹੈ।"
+msgid "Are you sure you want to delete your account? This action cannot be undone."
+msgstr ""
+"ਕੀ ਤੁਸੀਂ ਸੱਚਮੁੱਚ ਆਪਣਾ ਖਾਤਾ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ? ਇਹ ਕਾਰਵਾਈ ਵਾਪਿਸ ਨਹੀਂ ਲਈ ਜਾ "
+"ਸਕਦੀ ਹੈ।"
 
 #: app/scripts/templates/delete_account.mustache:3
 #: app/scripts/templates/sign_in.mustache:7
@@ -390,7 +387,8 @@ msgstr "ਕੀ ਤੁਸੀਂ ਸੱਚਮੁੱਚ ਆਪਣਾ ਖਾਤਾ �
 msgid "Password"
 msgstr "ਪਾਸਵਰਡ"
 
-#: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
+#: app/scripts/templates/legal.mustache:1
+#: app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
 msgstr "ਫਇਰਫਾਕਸ ਕਲੌਡ ਸੇਵਾਵਾਂ"
@@ -399,11 +397,13 @@ msgstr "ਫਇਰਫਾਕਸ ਕਲੌਡ ਸੇਵਾਵਾਂ"
 msgid "Legal"
 msgstr "ਕਾਨੂੰਨੀ"
 
-#: app/scripts/templates/legal.mustache:3 app/scripts/templates/tos.mustache:2
+#: app/scripts/templates/legal.mustache:3
+#: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ"
 
-#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
+#: app/scripts/templates/legal.mustache:4
+#: app/scripts/templates/pp.mustache:2
 msgid "Privacy Notice"
 msgstr "ਪਰਾਈਵੇਸੀ ਸੂਚਨਾ"
 
@@ -470,12 +470,12 @@ msgstr "ਖਾਤਾ ਬਣਾਓ"
 #: app/scripts/templates/sign_up.mustache:26
 msgid ""
 "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-"of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
-"a> of Firefox cloud services."
+"of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
-"ਅੱਗੇ ਜਾਣ ਨਾਲ, ਮੈਂ ਫਾਇਰਫਾਕਸ ਕਲਾਊਡ ਸੇਵਾਵਾਂ ਦੀਆਂ <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</a> ਅਤੇ <a id=\"fxa-pp\" href=\"/legal/privacy\">ਪਰਾਈਵੇਸੀ "
-"ਸੂਚਨਾ</a> ਨਾਲ ਸਹਿਮਤ ਹਾਂ।"
+"ਅੱਗੇ ਜਾਣ ਨਾਲ, ਮੈਂ ਫਾਇਰਫਾਕਸ ਕਲਾਊਡ ਸੇਵਾਵਾਂ ਦੀਆਂ <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</a> ਅਤੇ <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">ਪਰਾਈਵੇਸੀ ਸੂਚਨਾ</a> ਨਾਲ ਸਹਿਮਤ ਹਾਂ।"
 
 #: app/scripts/templates/sign_up.mustache:1
 msgid "Create a Firefox Account"
