@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-07 20:13+0000\n"
-"PO-Revision-Date: 2014-04-15 08:50+0000\n"
+"PO-Revision-Date: 2014-04-22 16:02+0000\n"
 "Last-Translator: Jørgen   <joergenr@stofanet.dk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: da\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397551851.0\n"
+"X-POOTLE-MTIME: 1398182578.0\n"
 
 #: server/templates/pages/src/404.html:1
 #: server/templates/pages/src/index.html:1
@@ -23,7 +23,7 @@ msgstr ""
 #: server/templates/pages/dist/terms.html:1
 #: server/templates/email/reset.html:1 server/templates/email/verify.html:1
 msgid "Firefox Accounts"
-msgstr "Firefox Accounts"
+msgstr "Firefox-konti"
 
 #: server/templates/pages/src/404.html:2
 #: server/templates/pages/dist/404.html:2
@@ -47,7 +47,7 @@ msgstr "Start"
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/dist/index.html:2
 msgid "Firefox Accounts requires JavaScript."
-msgstr "Firefox Accounts kræver JavaScript."
+msgstr "Firefox-konti kræver JavaScript."
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:4
