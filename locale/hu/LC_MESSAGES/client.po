@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-07 20:13+0000\n"
-"PO-Revision-Date: 2014-04-18 21:51+0000\n"
+"PO-Revision-Date: 2014-04-23 10:59+0000\n"
 "Last-Translator: Gábor <kelemeng@ubuntu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n !=1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397857866.0\n"
+"X-POOTLE-MTIME: 1398250755.0\n"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1991"
@@ -481,7 +481,7 @@ msgstr "1990 vagy korábbi"
 
 #: app/scripts/templates/sign_up.mustache:28
 msgid "Choose what to sync"
-msgstr "Válassza ki, mit szeretne szinkronizálni"
+msgstr "Kiválasztom, mit szeretnék szinkronizálni"
 
 #: app/scripts/templates/sign_up.mustache:30
 msgid "Already have an account? Sign in."
