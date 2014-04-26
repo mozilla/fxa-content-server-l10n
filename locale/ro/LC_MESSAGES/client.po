@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-07 20:13+0000\n"
-"PO-Revision-Date: 2014-03-31 19:54+0000\n"
+"PO-Revision-Date: 2014-04-26 13:35+0000\n"
 "Last-Translator: Raul <raul.malea@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2);;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1396295686.0\n"
+"X-POOTLE-MTIME: 1398519304.0\n"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1991"
@@ -83,35 +83,29 @@ msgid "2007"
 msgstr "2007"
 
 #: app/scripts/views/change_password.js:44
-#, fuzzy
 msgid "Your new password must be different"
-msgstr "vechea și noua parolă trebuie să fie diferite"
+msgstr "Parola dumneavoastră nouă trebuie să fie diferită"
 
 #: app/scripts/views/complete_reset_password.js:37
-#, fuzzy
 msgid "No token specified"
-msgstr "token nespecificat"
+msgstr "Simbol nespecificat"
 
 #: app/scripts/views/complete_reset_password.js:42
 #: app/scripts/views/complete_sign_up.js:40
-#, fuzzy
 msgid "No code specified"
-msgstr "cod nespecificat"
+msgstr "Cod nespecificat"
 
 #: app/scripts/views/complete_reset_password.js:47
-#, fuzzy
 msgid "No email specified"
-msgstr "email nespecificat"
+msgstr "Email nespecificat"
 
 #: app/scripts/views/complete_reset_password.js:60
-#, fuzzy
 msgid "Passwords do not match"
-msgstr "parolele nu sunt identice"
+msgstr "Parolele nu sunt identice"
 
 #: app/scripts/views/complete_sign_up.js:34
-#, fuzzy
 msgid "No uid specified"
-msgstr "uid nespecificat"
+msgstr "Uid nespecificat"
 
 #: app/scripts/views/form.js:302 app/scripts/lib/strings.js:18
 msgid "Valid email required"
@@ -319,9 +313,8 @@ msgid "Reset password"
 msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:4
-#, fuzzy
 msgid "Repeat password"
-msgstr "Parolă nouă"
+msgstr "Repetă parola"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/reset_password.mustache:4
