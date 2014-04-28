@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-07 20:13+0000\n"
-"PO-Revision-Date: 2014-04-22 03:25+0000\n"
+"PO-Revision-Date: 2014-04-28 13:57+0000\n"
 "Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1398137154.0\n"
+"X-POOTLE-MTIME: 1398693465.0\n"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1991"
@@ -131,7 +131,7 @@ msgstr "ਪਰਾਈਵੇਸੀ ਸੂਚਨਾ ਪ੍ਰਾਪਤ ਨਹੀਂ
 
 #: app/scripts/views/sign_in.js:51
 msgid "/force_auth requires an email"
-msgstr "/force_auth ਇੱਕ ਈਮੇਲ ਦੀ ਲੋੜ ਹੈ"
+msgstr "/force_auth ਨੂੰ ਈਮੇਲ ਦੀ ਲੋੜ ਹੈ"
 
 #: app/scripts/views/sign_in.js:95
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -164,7 +164,7 @@ msgstr "ਬੇਨਤੀ ਦਸਤਖਤ ਵਿੱਚ ਗਲਤ ਸਮਾਂ-ਮ�
 
 #: app/scripts/lib/auth-errors.js:44
 msgid "Invalid nonce in request signature"
-msgstr "ਬੇਨਤੀ ਦਸਤਖਤ ਵਿੱਚ ਗਲਤ ਵਰਤਮਾਨ"
+msgstr "ਬੇਨਤੀ ਦਸਤਖਤ ਵਿੱਚ ਗਲਤ ਵਰਤਮਾਨ ਸਮਾਂ"
 
 #: app/scripts/lib/auth-errors.js:45
 #: app/scripts/lib/strings.js:25
@@ -391,7 +391,7 @@ msgstr "ਪਾਸਵਰਡ"
 #: app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
-msgstr "ਫਇਰਫਾਕਸ ਕਲੌਡ ਸੇਵਾਵਾਂ"
+msgstr "ਫਾਇਰਫਾਕਸ ਕਲਾਉਡ ਸੇਵਾਵਾਂ"
 
 #: app/scripts/templates/legal.mustache:2
 msgid "Legal"
@@ -405,7 +405,7 @@ msgstr "ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ"
 #: app/scripts/templates/legal.mustache:4
 #: app/scripts/templates/pp.mustache:2
 msgid "Privacy Notice"
-msgstr "ਪਰਾਈਵੇਸੀ ਸੂਚਨਾ"
+msgstr "ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ"
 
 #: app/scripts/templates/ready.mustache:1
 msgid "Signed in successfully"
@@ -443,11 +443,11 @@ msgstr "ਈਮੇਲ"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
-msgstr "ਖਾਤਾ ਪ੍ਰਬੰਧ"
+msgstr "ਤੁਸੀਂ ਸਾਇਨ ਇਨ ਹੋਏ ਹੋ: %(email)s"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "You are signed in as: %(email)s"
-msgstr "ਤੁਸੀਂ ਦਾਖਲ ਹੋਏ: %(email)s"
+msgstr "ਤੁਸੀਂ ਸਾਇਨ ਇਨ ਹੋਏ ਹੋ:: %(email)s"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"
@@ -455,7 +455,7 @@ msgstr "ਸਾਈਨ ਆਉਟ"
 
 #: app/scripts/templates/sign_in.mustache:2
 msgid "Sign in to continue"
-msgstr "ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਈਨ ਇਨ"
+msgstr "ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਇਨ ਇਨ ਕਰੋ"
 
 #: app/scripts/templates/sign_in.mustache:11
 #: app/scripts/templates/sign_in.mustache:13
@@ -473,9 +473,9 @@ msgid ""
 "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
 "Notice</a> of Firefox cloud services."
 msgstr ""
-"ਅੱਗੇ ਜਾਣ ਨਾਲ, ਮੈਂ ਫਾਇਰਫਾਕਸ ਕਲਾਊਡ ਸੇਵਾਵਾਂ ਦੀਆਂ <a id=\"fxa-tos\" "
+"ਅੱਗੇ ਜਾਣ ਨਾਲ, ਮੈਂ ਫਾਇਰਫਾਕਸ ਕਲਾਉਡ ਸੇਵਾਵਾਂ ਦੀਆਂ <a id=\"fxa-tos\" "
 "href=\"/legal/terms\">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</a> ਅਤੇ <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">ਪਰਾਈਵੇਸੀ ਸੂਚਨਾ</a> ਨਾਲ ਸਹਿਮਤ ਹਾਂ।"
+"href=\"/legal/privacy\">ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ</a> ਨਾਲ ਸਹਿਮਤ ਹਾਂ।"
 
 #: app/scripts/templates/sign_up.mustache:1
 msgid "Create a Firefox Account"
@@ -487,7 +487,7 @@ msgstr "ਜਨਮ ਦਾ ਸਾਲ"
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "1990 or earlier"
-msgstr "1990 ਜਾਂ ਪਿਛਲਾ"
+msgstr "1990 ਜਾਂ ਪੁਰਾਣਾ"
 
 #: app/scripts/templates/sign_up.mustache:28
 msgid "Choose what to sync"

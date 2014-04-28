@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-07 20:13+0000\n"
-"PO-Revision-Date: 2014-04-22 03:33+0000\n"
+"PO-Revision-Date: 2014-04-28 14:24+0000\n"
 "Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1398137603.0\n"
+"X-POOTLE-MTIME: 1398695044.0\n"
 
 #: server/templates/pages/src/404.html:1
 #: server/templates/pages/src/index.html:1
@@ -25,7 +25,7 @@ msgstr ""
 #: server/templates/email/reset.html:1
 #: server/templates/email/verify.html:1
 msgid "Firefox Accounts"
-msgstr "ਫਾਇਰਫਾਕਸ ਅਕਾਊਂਟ"
+msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤਾ"
 
 #: server/templates/pages/src/404.html:2
 #: server/templates/pages/dist/404.html:2
@@ -49,14 +49,14 @@ msgstr "ਮੁੱਖ ਸਫ਼ਾ"
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/dist/index.html:2
 msgid "Firefox Accounts requires JavaScript."
-msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਲਈ ਜਾਵਾ-ਸਕ੍ਰਿਪਟ ਦੀ ਲੋੜ ਹੈ।"
+msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਲਈ ਜਾਵਾ-ਸਕ੍ਰਿਪਟ ਦੀ ਲੋੜ ਹੈ।"
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:4
 #: server/templates/pages/dist/privacy.html:2
 #: server/templates/pages/dist/privacy.html:4
 msgid "Privacy Notice"
-msgstr "ਨਿੱਜੀ ਨੋਟਿਸ"
+msgstr "ਪਰਦੇਦਾਰੀ  ਸੂਚਨਾ"
 
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
@@ -70,12 +70,12 @@ msgstr "ਫਾਇਰਫਾਕਸ ਕਲਾਉਡ ਸੇਵਾਵਾਂ"
 #: server/templates/pages/dist/terms.html:2
 #: server/templates/pages/dist/terms.html:4
 msgid "Terms of Service"
-msgstr "ਸੇਵਾਵਾਂ ਦੇ ਅਧਾਰ"
+msgstr "ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ"
 
 #: server/templates/email/reset.html:2
 #: server/templates/email/reset.txt:1
 msgid "Are you sure?"
-msgstr "ਕੀ ਤੁਹਾਨੂੰ ਯਕੀਨ ਹੈ?"
+msgstr "ਕੀ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ?"
 
 #: server/templates/email/reset.html:3
 #: server/templates/email/reset.txt:2
@@ -118,7 +118,7 @@ msgstr "ਹੋਰ ਜਿਆਦਾ ਜਾਣਕਾਰੀ ਲਈ, ਵੇਖੋ ਜ
 #: server/templates/email/verify.html:2
 #: server/templates/email/verify.txt:1
 msgid "Congratulations!"
-msgstr "ਮੁਬਾਰਕਾਂ!"
+msgstr "ਵਧਾਈਆਂ ਜੀ!"
 
 #: server/templates/email/verify.html:3
 #: server/templates/email/verify.txt:2
@@ -135,11 +135,11 @@ msgstr "ਪੁਸ਼ਟੀ:"
 
 #: server/lib/templates.js:35
 msgid "Verify your account"
-msgstr "ਤੁਹਾਡੇ ਅਕਾਊਂਟ ਦੀ ਜਾਂਚ ਕਰੋ"
+msgstr "ਤੁਹਾਡੇ ਖਾਤੇ ਦੀ ਜਾਂਚ ਕਰੋ"
 
 #: server/lib/templates.js:40
 msgid "Reset your password"
-msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ"
+msgstr "ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ"
 
 #~ msgid "Reset Password Request"
 #~ msgstr "ਪਾਸਵਰਡ ਬੇਨਤੀ ਮੁੜ-ਸੈੱਟ"
