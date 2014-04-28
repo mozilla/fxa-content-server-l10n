@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-07 20:13+0000\n"
-"PO-Revision-Date: 2014-04-26 16:31+0000\n"
+"PO-Revision-Date: 2014-04-28 08:37+0000\n"
 "Last-Translator: Eduard <edu@eduard-gamonal.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1398529865.0\n"
+"X-POOTLE-MTIME: 1398674276.0\n"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1991"
@@ -357,7 +357,7 @@ msgstr "Reenvia el missatge"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr "Reinicia el missatge que s'ha enviat"
+msgstr "El missatge de reinicialització s'ha enviat"
 
 #: app/scripts/templates/confirm_reset_password.mustache:4
 msgid "A reset link has been sent to %(email)s"
