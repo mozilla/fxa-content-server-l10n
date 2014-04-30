@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-04-07 20:13+0000\n"
+"POT-Creation-Date: 2014-04-29 00:10+0000\n"
 "PO-Revision-Date: 2014-04-15 19:24+0000\n"
 "Last-Translator: Gion-Andri <gion-andri@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,11 +13,14 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1397589840.0\n"
 
-#: server/templates/pages/src/404.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
 #: server/templates/pages/src/terms.html:1
 #: server/templates/pages/dist/404.html:1
+#: server/templates/pages/dist/500.html:1
+#: server/templates/pages/dist/503.html:1
 #: server/templates/pages/dist/index.html:1
 #: server/templates/pages/dist/privacy.html:1
 #: server/templates/pages/dist/terms.html:1
@@ -39,34 +42,73 @@ msgstr ""
 "La pagina che ti has dumandà n'è betg vegnida chattada. Nus avain retschavì "
 "in messadi ed empruvain da curreger eventualas colliaziuns faussas."
 
-#: server/templates/pages/src/404.html:4
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
+#: server/templates/pages/src/503.html:4
 #: server/templates/pages/dist/404.html:4
+#: server/templates/pages/dist/500.html:4
+#: server/templates/pages/dist/503.html:4
 msgid "Home"
 msgstr "Chasa"
 
+#: server/templates/pages/src/500.html:2
+#: server/templates/pages/dist/500.html:2 server/lib/500.js:21
+#: server/lib/500.js:24
+msgid "System unavailable, try again soon"
+msgstr ""
+
+#: server/templates/pages/src/500.html:3
+#: server/templates/pages/dist/500.html:3
+msgid ""
+"We are currently performing some maintenance on the system, and will return "
+"momentarily."
+msgstr ""
+
+#: server/templates/pages/src/503.html:2
+#: server/templates/pages/dist/503.html:2
+msgid "Server busy, try again soon"
+msgstr ""
+
+#: server/templates/pages/src/503.html:3
+#: server/templates/pages/dist/503.html:3
+msgid ""
+"We are currently under heavy strain and are working to return the system to "
+"normal as soon as possible."
+msgstr ""
+
 #: server/templates/pages/src/index.html:2
+#: server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/terms.html:3
 #: server/templates/pages/dist/index.html:2
+#: server/templates/pages/dist/privacy.html:3
+#: server/templates/pages/dist/terms.html:3
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+
+#: server/templates/pages/src/index.html:3
+#: server/templates/pages/dist/index.html:3
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Ils contos da Firefox basegnan JavaScript."
 
 #: server/templates/pages/src/privacy.html:2
-#: server/templates/pages/src/privacy.html:4
+#: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/dist/privacy.html:2
-#: server/templates/pages/dist/privacy.html:4
+#: server/templates/pages/dist/privacy.html:5
 msgid "Privacy Notice"
 msgstr "Decleraziun da protecziun da datas"
 
-#: server/templates/pages/src/privacy.html:3
-#: server/templates/pages/src/terms.html:3
-#: server/templates/pages/dist/privacy.html:3
-#: server/templates/pages/dist/terms.html:3
+#: server/templates/pages/src/privacy.html:4
+#: server/templates/pages/src/terms.html:4
+#: server/templates/pages/dist/privacy.html:4
+#: server/templates/pages/dist/terms.html:4
 msgid "Firefox cloud services"
 msgstr "Servetschs cloud da Firefox"
 
 #: server/templates/pages/src/terms.html:2
-#: server/templates/pages/src/terms.html:4
+#: server/templates/pages/src/terms.html:5
 #: server/templates/pages/dist/terms.html:2
-#: server/templates/pages/dist/terms.html:4
+#: server/templates/pages/dist/terms.html:5
 msgid "Terms of Service"
 msgstr "Cundiziuns dal servetsch"
 

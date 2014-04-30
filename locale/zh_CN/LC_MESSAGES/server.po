@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-07 20:13+0000\n"
+"POT-Creation-Date: 2014-04-29 00:10+0000\n"
 "PO-Revision-Date: 2014-04-16 14:58+0000\n"
 "Last-Translator: Shen <steekid@icloud.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,11 +14,14 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1397660322.0\n"
 
-#: server/templates/pages/src/404.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
 #: server/templates/pages/src/terms.html:1
 #: server/templates/pages/dist/404.html:1
+#: server/templates/pages/dist/500.html:1
+#: server/templates/pages/dist/503.html:1
 #: server/templates/pages/dist/index.html:1
 #: server/templates/pages/dist/privacy.html:1
 #: server/templates/pages/dist/terms.html:1
@@ -38,34 +41,73 @@ msgid ""
 "links that may be broken."
 msgstr "找不到您要打开的页面，我们已收到此通知并会修复出现故障的链接。"
 
-#: server/templates/pages/src/404.html:4
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
+#: server/templates/pages/src/503.html:4
 #: server/templates/pages/dist/404.html:4
+#: server/templates/pages/dist/500.html:4
+#: server/templates/pages/dist/503.html:4
 msgid "Home"
 msgstr "首页"
 
+#: server/templates/pages/src/500.html:2
+#: server/templates/pages/dist/500.html:2 server/lib/500.js:21
+#: server/lib/500.js:24
+msgid "System unavailable, try again soon"
+msgstr ""
+
+#: server/templates/pages/src/500.html:3
+#: server/templates/pages/dist/500.html:3
+msgid ""
+"We are currently performing some maintenance on the system, and will return "
+"momentarily."
+msgstr ""
+
+#: server/templates/pages/src/503.html:2
+#: server/templates/pages/dist/503.html:2
+msgid "Server busy, try again soon"
+msgstr ""
+
+#: server/templates/pages/src/503.html:3
+#: server/templates/pages/dist/503.html:3
+msgid ""
+"We are currently under heavy strain and are working to return the system to "
+"normal as soon as possible."
+msgstr ""
+
 #: server/templates/pages/src/index.html:2
+#: server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/terms.html:3
 #: server/templates/pages/dist/index.html:2
+#: server/templates/pages/dist/privacy.html:3
+#: server/templates/pages/dist/terms.html:3
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+
+#: server/templates/pages/src/index.html:3
+#: server/templates/pages/dist/index.html:3
 msgid "Firefox Accounts requires JavaScript."
 msgstr "启用 JavaScript 后才能使用 Firefox 账号。"
 
 #: server/templates/pages/src/privacy.html:2
-#: server/templates/pages/src/privacy.html:4
+#: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/dist/privacy.html:2
-#: server/templates/pages/dist/privacy.html:4
+#: server/templates/pages/dist/privacy.html:5
 msgid "Privacy Notice"
 msgstr "隐私政策"
 
-#: server/templates/pages/src/privacy.html:3
-#: server/templates/pages/src/terms.html:3
-#: server/templates/pages/dist/privacy.html:3
-#: server/templates/pages/dist/terms.html:3
+#: server/templates/pages/src/privacy.html:4
+#: server/templates/pages/src/terms.html:4
+#: server/templates/pages/dist/privacy.html:4
+#: server/templates/pages/dist/terms.html:4
 msgid "Firefox cloud services"
 msgstr "Firefox 云服务"
 
 #: server/templates/pages/src/terms.html:2
-#: server/templates/pages/src/terms.html:4
+#: server/templates/pages/src/terms.html:5
 #: server/templates/pages/dist/terms.html:2
-#: server/templates/pages/dist/terms.html:4
+#: server/templates/pages/dist/terms.html:5
 msgid "Terms of Service"
 msgstr "服务条款"
 
@@ -86,13 +128,17 @@ msgstr "重置密码"
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
-msgstr "这是一封自动发送的邮件；如果您没有要求重置密码而收到此信，不需要进行任何操作。"
+msgstr ""
+"这是一封自动发送的邮件；如果您没有要求重置密码而收到此信，不需要进行任何操"
+"作。"
 
 #: server/templates/email/reset.html:6 server/templates/email/verify.html:6
 msgid ""
 "For more information, please visit <a href='https://support.mozilla."
 "org'>Mozilla Support</a>"
-msgstr "要了解更多信息，请访问<a href='https://support.mozilla.org'>Mozilla 技术支持</a>"
+msgstr ""
+"要了解更多信息，请访问<a href='https://support.mozilla.org'>Mozilla 技术支持"
+"</a>"
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
