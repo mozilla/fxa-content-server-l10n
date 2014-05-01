@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-04-07 20:13+0000\n"
+"POT-Creation-Date: 2014-04-29 00:10+0000\n"
 "PO-Revision-Date: 2014-04-26 13:22+0000\n"
 "Last-Translator: Rhoslyn <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,43 +82,69 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/change_password.js:44
+#: app/scripts/views/base.js:63
+#, fuzzy
+msgid "Session expired. Sign in to continue."
+msgstr "Mewngofnodi i barhau"
+
+#: app/scripts/views/base.js:403
+msgid "missing search parameter: %(itemName)s"
+msgstr ""
+
+#: app/scripts/views/change_password.js:50
 msgid "Your new password must be different"
 msgstr "Rhaid i gyfrinair newydd fod yn wahanol"
 
-#: app/scripts/views/complete_reset_password.js:37
-msgid "No token specified"
-msgstr "Heb bennu tocyn"
+#: app/scripts/views/change_password.js:59
+msgid "Password changed"
+msgstr "Cyfrinair wedi newid"
 
-#: app/scripts/views/complete_reset_password.js:42
-#: app/scripts/views/complete_sign_up.js:40
-msgid "No code specified"
-msgstr "Heb bennu cod"
+#: app/scripts/views/change_password.js:63
+msgid ""
+"Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
+"a>."
+msgstr ""
 
-#: app/scripts/views/complete_reset_password.js:47
-msgid "No email specified"
-msgstr "Heb bennu e-bost"
-
-#: app/scripts/views/complete_reset_password.js:60
+#: app/scripts/views/complete_reset_password.js:85
 msgid "Passwords do not match"
 msgstr "Nid yw'r cyfrineiriau'n cydweddu"
 
-#: app/scripts/views/complete_sign_up.js:34
-msgid "No uid specified"
-msgstr "Heb bennu uid"
+#: app/scripts/views/confirm.js:46
+#: app/scripts/views/confirm_reset_password.js:76
+#, fuzzy
+msgid "Invalid token"
+msgstr "Cyfrinair annilys"
 
-#: app/scripts/views/form.js:302 app/scripts/lib/strings.js:18
+#: app/scripts/views/confirm_reset_password.js:52
+#, fuzzy
+msgid "Password reset. Sign in to continue."
+msgstr "Mewngofnodi i barhau"
+
+#: app/scripts/views/cookies_disabled.js:34
+msgid "Cookies are still disabled"
+msgstr ""
+
+#: app/scripts/views/delete_account.js:45
+#, fuzzy
+msgid "Account deleted successfully"
+msgstr "Wedi mewngofnodi'n llwyddiannus"
+
+#: app/scripts/views/force_auth.js:42
+msgid "/force_auth requires an email"
+msgstr "Mae /force_auth angen e-bost"
+
+#: app/scripts/views/form.js:358 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "Mae angen e-bost dilys"
 
-#: app/scripts/views/form.js:308 app/scripts/lib/strings.js:23
-#: app/scripts/templates/change_password.mustache:7
-#: app/scripts/templates/complete_reset_password.mustache:6
+#: app/scripts/views/form.js:364 app/scripts/lib/strings.js:23
+#: app/scripts/templates/change_password.mustache:6
+#: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Must be at least 8 characters"
 msgstr "Rhaid bod o leiaf 8 nod"
 
-#: app/scripts/views/form.js:309 app/scripts/lib/strings.js:19
+#: app/scripts/views/form.js:365 app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr "Rhaid darparu cyfrinair dilys"
 
@@ -126,19 +152,20 @@ msgstr "Rhaid darparu cyfrinair dilys"
 msgid "Could not get Privacy Notice"
 msgstr "Methu estyn Hysbysiad Preifatrwydd"
 
-#: app/scripts/views/sign_in.js:51
-msgid "/force_auth requires an email"
-msgstr "Mae /force_auth angen e-bost"
+#: app/scripts/views/settings.js:42
+#, fuzzy
+msgid "Signed out"
+msgstr "Allgofnodi"
 
-#: app/scripts/views/sign_in.js:95
+#: app/scripts/views/sign_in.js:73
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Cyfrif anhysbys. <a href=\"/signup\">Ymunwch</a>"
 
-#: app/scripts/views/sign_up.js:77 app/scripts/lib/strings.js:24
+#: app/scripts/views/sign_up.js:75 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "Mae angen blwyddyn geni"
 
-#: app/scripts/views/sign_up.js:136
+#: app/scripts/views/sign_up.js:134
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Mae cyfrif yn bodoli'n barod. <a href=\"/signin\">Mewngofnodwch</a>"
 
@@ -146,81 +173,90 @@ msgstr "Mae cyfrif yn bodoli'n barod. <a href=\"/signin\">Mewngofnodwch</a>"
 msgid "Could not get Terms of Service"
 msgstr "Methu estyn yr Amodau Gwasanaeth"
 
-#: app/scripts/lib/auth-errors.js:41
+#: app/scripts/lib/auth-errors.js:44
 msgid "Unexpected error"
 msgstr "Gwall anysbys"
 
-#: app/scripts/lib/auth-errors.js:42
+#: app/scripts/lib/auth-errors.js:45
 msgid "Invalid authentication token in request signature"
 msgstr "Tocyn dilysu annilys yn y llofnod cais"
 
-#: app/scripts/lib/auth-errors.js:43
+#: app/scripts/lib/auth-errors.js:46
 msgid "Invalid timestamp in request signature"
 msgstr "Stamp amser annilys yn y llofnod cais"
 
-#: app/scripts/lib/auth-errors.js:44
+#: app/scripts/lib/auth-errors.js:47
 msgid "Invalid nonce in request signature"
 msgstr "Nonce annilys yn y llofnod cais"
 
-#: app/scripts/lib/auth-errors.js:45 app/scripts/lib/strings.js:25
+#: app/scripts/lib/auth-errors.js:48 app/scripts/lib/strings.js:25
 msgid "Account already exists"
 msgstr "Mae'r cyfrif yn bodoli'n barod"
 
-#: app/scripts/lib/auth-errors.js:46
+#: app/scripts/lib/auth-errors.js:49
 msgid "Unknown account"
 msgstr "Cyfrif anhysbys"
 
-#: app/scripts/lib/auth-errors.js:47
+#: app/scripts/lib/auth-errors.js:50
 msgid "Incorrect email case"
 msgstr "Maint nodau e-bost anghywir"
 
-#: app/scripts/lib/auth-errors.js:48
+#: app/scripts/lib/auth-errors.js:51
 msgid "Incorrect password"
 msgstr "Cyfrinair anghywir"
 
-#: app/scripts/lib/auth-errors.js:49
+#: app/scripts/lib/auth-errors.js:52
 msgid "Unverified account"
 msgstr "Cyfrif heb ei ddilysu"
 
-#: app/scripts/lib/auth-errors.js:50
+#: app/scripts/lib/auth-errors.js:53
 msgid "Invalid verification code"
 msgstr "Cod dilysu annilys"
 
-#: app/scripts/lib/auth-errors.js:51
+#: app/scripts/lib/auth-errors.js:54
 msgid "Invalid JSON in request body"
 msgstr "Cais JSON annilys yn y corff"
 
-#: app/scripts/lib/auth-errors.js:52
+#: app/scripts/lib/auth-errors.js:55
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Paramedr annilys yn y corff gofyn: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:53
+#: app/scripts/lib/auth-errors.js:56
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Paramedr coll yn y corff gofyn: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:54
+#: app/scripts/lib/auth-errors.js:57
 msgid "Invalid request signature"
 msgstr "Llofnod cais annilys"
 
-#: app/scripts/lib/auth-errors.js:55
+#: app/scripts/lib/auth-errors.js:58
 msgid "Missing content-length header"
 msgstr "Pennyn hyd cynnwys coll"
 
-#: app/scripts/lib/auth-errors.js:56
+#: app/scripts/lib/auth-errors.js:59
 msgid "Request body too large"
 msgstr "Corff gofyn yn rhy fawr"
 
-#: app/scripts/lib/auth-errors.js:57
-msgid "Attempt limit exceeded. Try again later."
+#: app/scripts/lib/auth-errors.js:60
+#, fuzzy
+msgid "Attempt limit exceeded."
 msgstr "Wedi gorestyn y terfyn. Ceisiwch eto."
 
-#: app/scripts/lib/auth-errors.js:58
-msgid "Service unavailable"
-msgstr "Nid yw'r gwasanaeth ar gael"
+#: app/scripts/lib/auth-errors.js:61
+msgid "System unavailable, try again soon"
+msgstr ""
 
-#: app/scripts/lib/auth-errors.js:59
+#: app/scripts/lib/auth-errors.js:62
+msgid "Server busy, try again soon"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:63
 msgid "This endpoint is no longer supported"
 msgstr "Nid yw'r pwynt diwedd yn cael ei gynnal bellach"
+
+#: app/scripts/lib/service-name.js:16
+msgid "Firefox Sync"
+msgstr ""
 
 #: app/scripts/lib/strings.js:20
 msgid "Invalid password"
@@ -273,33 +309,30 @@ msgid "Change password"
 msgstr "Newid cyfrinair"
 
 #: app/scripts/templates/change_password.mustache:2
-msgid "Password changed"
-msgstr "Cyfrinair wedi newid"
-
-#: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
 msgstr "Hen gyfrinair"
 
-#: app/scripts/templates/change_password.mustache:4
-#: app/scripts/templates/change_password.mustache:6
-#: app/scripts/templates/complete_reset_password.mustache:3
-#: app/scripts/templates/complete_reset_password.mustache:5
+#: app/scripts/templates/change_password.mustache:3
+#: app/scripts/templates/change_password.mustache:5
+#: app/scripts/templates/complete_reset_password.mustache:11
+#: app/scripts/templates/complete_reset_password.mustache:13
 #: app/scripts/templates/delete_account.mustache:4
-#: app/scripts/templates/sign_in.mustache:9
+#: app/scripts/templates/force_auth.mustache:5
+#: app/scripts/templates/sign_in.mustache:5
 #: app/scripts/templates/sign_up.mustache:5
 msgid "Show"
 msgstr "Dangos"
 
-#: app/scripts/templates/change_password.mustache:5
-#: app/scripts/templates/complete_reset_password.mustache:2
+#: app/scripts/templates/change_password.mustache:4
+#: app/scripts/templates/complete_reset_password.mustache:10
 msgid "New password"
 msgstr "Cyfrinair newydd"
 
-#: app/scripts/templates/change_password.mustache:8
+#: app/scripts/templates/change_password.mustache:7
 msgid "Change Password"
 msgstr "Newid Cyfrinair"
 
-#: app/scripts/templates/change_password.mustache:9
+#: app/scripts/templates/change_password.mustache:8
 #: app/scripts/templates/delete_account.mustache:6
 #: app/scripts/templates/pp.mustache:3
 #: app/scripts/templates/reset_password.mustache:5
@@ -308,32 +341,58 @@ msgid "Back"
 msgstr "Nôl"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
+msgid "Verification link expired"
+msgstr ""
+
+#: app/scripts/templates/complete_reset_password.mustache:2
+#: app/scripts/templates/confirm.mustache:2
+#: app/scripts/templates/confirm_reset_password.mustache:2
+msgid "Email resent"
+msgstr "Ailanfonwyd yr e-bost"
+
+#: app/scripts/templates/complete_reset_password.mustache:3
+msgid "The link you clicked to reset your password is expired."
+msgstr ""
+
+#: app/scripts/templates/complete_reset_password.mustache:4
+msgid "Click here to receive a new reset link"
+msgstr ""
+
+#: app/scripts/templates/complete_reset_password.mustache:6
+#: app/scripts/templates/complete_sign_up.mustache:1
+msgid "Verification link damaged"
+msgstr ""
+
+#: app/scripts/templates/complete_reset_password.mustache:7
+#: app/scripts/templates/complete_sign_up.mustache:2
+msgid ""
+"The link you clicked was missing characters, and may have been broken by "
+"your email client. Copy the address carefully, and try again."
+msgstr ""
+
+#: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
 msgid "Reset password"
 msgstr "Ailosod y cyfrinair"
 
-#: app/scripts/templates/complete_reset_password.mustache:4
+#: app/scripts/templates/complete_reset_password.mustache:12
 msgid "Repeat password"
 msgstr "Ailadrodd y cyfrinair"
 
-#: app/scripts/templates/complete_reset_password.mustache:7
+#: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/reset_password.mustache:4
 #: app/scripts/templates/sign_up.mustache:27
 msgid "Next"
 msgstr "Nesaf"
 
-#: app/scripts/templates/complete_sign_up.mustache:1
-msgid "Completing sign up"
-msgstr "Cwblhau'r cofrestru"
+#: app/scripts/templates/complete_sign_up.mustache:4
+#, fuzzy
+msgid "Verification error"
+msgstr "Cod dilysu annilys"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
 msgstr "Cadarnhau eich cyfrif"
-
-#: app/scripts/templates/confirm.mustache:2
-#: app/scripts/templates/confirm_reset_password.mustache:2
-msgid "Email resent"
-msgstr "Ailanfonwyd yr e-bost"
 
 #: app/scripts/templates/confirm.mustache:3
 #: app/scripts/templates/confirm_reset_password.mustache:3
@@ -358,10 +417,31 @@ msgid "A reset link has been sent to %(email)s"
 msgstr "Mae dolen ailosod wedi ei anfon at %(email)s"
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
+#: app/scripts/templates/force_auth.mustache:6
 #: app/scripts/templates/sign_in.mustache:1
-#: app/scripts/templates/sign_in.mustache:10
+#: app/scripts/templates/sign_in.mustache:6
 msgid "Sign in"
 msgstr "Mewngofnodi"
+
+#: app/scripts/templates/cookies_disabled.mustache:1
+msgid "Cookies Required"
+msgstr ""
+
+#: app/scripts/templates/cookies_disabled.mustache:2
+msgid ""
+"Please enable cookies in your browser which are required by Firefox "
+"Accounts. Cookies are small pieces of data stored in your browser that "
+"provide functionality such as remembering you between sessions."
+msgstr ""
+
+#: app/scripts/templates/cookies_disabled.mustache:3
+#, fuzzy
+msgid "Learn more"
+msgstr "Dysgu rhagor."
+
+#: app/scripts/templates/cookies_disabled.mustache:4
+msgid "Try again"
+msgstr ""
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
@@ -377,10 +457,32 @@ msgstr ""
 "hyn."
 
 #: app/scripts/templates/delete_account.mustache:3
-#: app/scripts/templates/sign_in.mustache:7
+#: app/scripts/templates/force_auth.mustache:3
+#: app/scripts/templates/sign_in.mustache:3
 #: app/scripts/templates/sign_up.mustache:3
 msgid "Password"
 msgstr "Cyfrinair"
+
+#: app/scripts/templates/force_auth.mustache:1
+msgid "Sign in to continue"
+msgstr "Mewngofnodi i barhau"
+
+#: app/scripts/templates/force_auth.mustache:7
+#: app/scripts/templates/sign_in.mustache:7
+msgid "Forgot password?"
+msgstr "Wedi anghofio'r cyfrinair?"
+
+#: app/scripts/templates/force_auth.mustache:8
+#: app/scripts/templates/sign_in.mustache:9
+#: app/scripts/templates/sign_up.mustache:26
+msgid ""
+"By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
+"of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
+"a> of Firefox cloud services."
+msgstr ""
+"Drwy barhau, rwy'n cytuno i <a id=\"fxa-tos\" href=\"/legal/terms\">Amodau'r "
+"Gwasanaeth</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad "
+"Preifatrwydd</a> gwasanaethau cwmwl Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -416,19 +518,28 @@ msgid "Success"
 msgstr "Llwyddiant"
 
 #: app/scripts/templates/ready.mustache:8
-msgid "You are now ready to use %(service)s."
-msgstr "Rydych nawr yn barod i ddefnyddio %(service)s."
+#, fuzzy
+msgid "You are now ready to use %(serviceName)s."
+msgstr "Rydych nawr yn barod i ddefnyddio %(serviceName)s."
 
 #: app/scripts/templates/ready.mustache:10
 msgid "Your account is ready!"
 msgstr "Mae eich gwasanaeth yn barod!"
+
+#: app/scripts/templates/ready.mustache:11
+msgid "Stay in sync on the go:"
+msgstr ""
+
+#: app/scripts/templates/ready.mustache:12
+msgid "Get Firefox for Android"
+msgstr ""
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
 msgstr "Rhowch eich cyfrinair er mwyn ailosod&nbsp;cyfrinair y cyfrif."
 
 #: app/scripts/templates/reset_password.mustache:3
-#: app/scripts/templates/sign_in.mustache:5
+#: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
 msgid "Email"
 msgstr "E-bost"
@@ -438,36 +549,17 @@ msgid "Manage account"
 msgstr "Rheoli'r cyfrif"
 
 #: app/scripts/templates/settings.mustache:2
-msgid "You are signed in as: %(email)s"
+#, fuzzy
+msgid "You are signed in as"
 msgstr "Rydych wedi mewngofnodi fel: %(email)s"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"
 msgstr "Allgofnodi"
 
-#: app/scripts/templates/sign_in.mustache:2
-msgid "Sign in to continue"
-msgstr "Mewngofnodi i barhau"
-
-#: app/scripts/templates/sign_in.mustache:11
-#: app/scripts/templates/sign_in.mustache:13
-msgid "Forgot password?"
-msgstr "Wedi anghofio'r cyfrinair?"
-
-#: app/scripts/templates/sign_in.mustache:12
+#: app/scripts/templates/sign_in.mustache:8
 msgid "Create an account"
 msgstr "Creu cyfrif"
-
-#: app/scripts/templates/sign_in.mustache:15
-#: app/scripts/templates/sign_up.mustache:26
-msgid ""
-"By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-"of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
-"a> of Firefox cloud services."
-msgstr ""
-"Drwy barhau, rwy'n cytuno i <a id=\"fxa-tos\" href=\"/legal/terms\">Amodau'r "
-"Gwasanaeth</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad "
-"Preifatrwydd</a> gwasanaethau cwmwl Firefox."
 
 #: app/scripts/templates/sign_up.mustache:1
 msgid "Create a Firefox Account"
@@ -488,6 +580,24 @@ msgstr "Dewis beth i gydweddu"
 #: app/scripts/templates/sign_up.mustache:30
 msgid "Already have an account? Sign in."
 msgstr "Oes gennych gyfrif eisoes? Mewngofnodwch."
+
+#~ msgid "No token specified"
+#~ msgstr "Heb bennu tocyn"
+
+#~ msgid "No code specified"
+#~ msgstr "Heb bennu cod"
+
+#~ msgid "No email specified"
+#~ msgstr "Heb bennu e-bost"
+
+#~ msgid "No uid specified"
+#~ msgstr "Heb bennu uid"
+
+#~ msgid "Service unavailable"
+#~ msgstr "Nid yw'r gwasanaeth ar gael"
+
+#~ msgid "Completing sign up"
+#~ msgstr "Cwblhau'r cofrestru"
 
 #~ msgid "Client has sent too many requests"
 #~ msgstr "Cleient wedi anfon gormod o geisiadau"

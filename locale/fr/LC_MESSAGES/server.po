@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-07 20:13+0000\n"
+"POT-Creation-Date: 2014-04-29 00:10+0000\n"
 "PO-Revision-Date: 2014-04-17 22:16+0000\n"
 "Last-Translator: Théo <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,11 +14,14 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1397772978.0\n"
 
-#: server/templates/pages/src/404.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
 #: server/templates/pages/src/terms.html:1
 #: server/templates/pages/dist/404.html:1
+#: server/templates/pages/dist/500.html:1
+#: server/templates/pages/dist/503.html:1
 #: server/templates/pages/dist/index.html:1
 #: server/templates/pages/dist/privacy.html:1
 #: server/templates/pages/dist/terms.html:1
@@ -40,34 +43,73 @@ msgstr ""
 "La page demandée est introuvable. Nous en avons été informés et nous "
 "rétablirons les liens éventuellement cassés."
 
-#: server/templates/pages/src/404.html:4
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
+#: server/templates/pages/src/503.html:4
 #: server/templates/pages/dist/404.html:4
+#: server/templates/pages/dist/500.html:4
+#: server/templates/pages/dist/503.html:4
 msgid "Home"
 msgstr "Accueil"
 
+#: server/templates/pages/src/500.html:2
+#: server/templates/pages/dist/500.html:2 server/lib/500.js:21
+#: server/lib/500.js:24
+msgid "System unavailable, try again soon"
+msgstr ""
+
+#: server/templates/pages/src/500.html:3
+#: server/templates/pages/dist/500.html:3
+msgid ""
+"We are currently performing some maintenance on the system, and will return "
+"momentarily."
+msgstr ""
+
+#: server/templates/pages/src/503.html:2
+#: server/templates/pages/dist/503.html:2
+msgid "Server busy, try again soon"
+msgstr ""
+
+#: server/templates/pages/src/503.html:3
+#: server/templates/pages/dist/503.html:3
+msgid ""
+"We are currently under heavy strain and are working to return the system to "
+"normal as soon as possible."
+msgstr ""
+
 #: server/templates/pages/src/index.html:2
+#: server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/terms.html:3
 #: server/templates/pages/dist/index.html:2
+#: server/templates/pages/dist/privacy.html:3
+#: server/templates/pages/dist/terms.html:3
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+
+#: server/templates/pages/src/index.html:3
+#: server/templates/pages/dist/index.html:3
 msgid "Firefox Accounts requires JavaScript."
 msgstr "JavaScript est nécessaire pour utiliser les comptes Firefox."
 
 #: server/templates/pages/src/privacy.html:2
-#: server/templates/pages/src/privacy.html:4
+#: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/dist/privacy.html:2
-#: server/templates/pages/dist/privacy.html:4
+#: server/templates/pages/dist/privacy.html:5
 msgid "Privacy Notice"
 msgstr "Politique de confidentialité"
 
-#: server/templates/pages/src/privacy.html:3
-#: server/templates/pages/src/terms.html:3
-#: server/templates/pages/dist/privacy.html:3
-#: server/templates/pages/dist/terms.html:3
+#: server/templates/pages/src/privacy.html:4
+#: server/templates/pages/src/terms.html:4
+#: server/templates/pages/dist/privacy.html:4
+#: server/templates/pages/dist/terms.html:4
 msgid "Firefox cloud services"
 msgstr "Services en ligne de Firefox"
 
 #: server/templates/pages/src/terms.html:2
-#: server/templates/pages/src/terms.html:4
+#: server/templates/pages/src/terms.html:5
 #: server/templates/pages/dist/terms.html:2
-#: server/templates/pages/dist/terms.html:4
+#: server/templates/pages/dist/terms.html:5
 msgid "Terms of Service"
 msgstr "Conditions d'utilisation"
 
@@ -97,8 +139,8 @@ msgid ""
 "For more information, please visit <a href='https://support.mozilla."
 "org'>Mozilla Support</a>"
 msgstr ""
-"Pour davantage d'informations, veuillez consulter <a "
-"href='https://support.mozilla.org'>l'assistance de Mozilla</a>"
+"Pour davantage d'informations, veuillez consulter <a href='https://support."
+"mozilla.org'>l'assistance de Mozilla</a>"
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
@@ -107,8 +149,7 @@ msgstr "Réinitialiser le mot de passe&nbsp;:"
 #: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
 msgstr ""
-"Pour davantage d'informations, veuillez consulter "
-"https://support.mozilla.org"
+"Pour davantage d'informations, veuillez consulter https://support.mozilla.org"
 
 #: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
 msgid "Congratulations!"

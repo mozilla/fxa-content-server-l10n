@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-04-07 20:13+0000\n"
+"POT-Creation-Date: 2014-04-29 00:10+0000\n"
 "PO-Revision-Date: 2014-04-15 21:43+0000\n"
 "Last-Translator: Vlado <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,43 +81,69 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/change_password.js:44
+#: app/scripts/views/base.js:63
+#, fuzzy
+msgid "Session expired. Sign in to continue."
+msgstr "Ak chcete pokračovať, prihláste sa."
+
+#: app/scripts/views/base.js:403
+msgid "missing search parameter: %(itemName)s"
+msgstr ""
+
+#: app/scripts/views/change_password.js:50
 msgid "Your new password must be different"
 msgstr "Staré a nové heslo sa musia líšiť"
 
-#: app/scripts/views/complete_reset_password.js:37
-msgid "No token specified"
-msgstr "Nebol zadaný token"
+#: app/scripts/views/change_password.js:59
+msgid "Password changed"
+msgstr "Heslo bolo zmenené"
 
-#: app/scripts/views/complete_reset_password.js:42
-#: app/scripts/views/complete_sign_up.js:40
-msgid "No code specified"
-msgstr "Nebol zadaný kód"
+#: app/scripts/views/change_password.js:63
+msgid ""
+"Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
+"a>."
+msgstr ""
 
-#: app/scripts/views/complete_reset_password.js:47
-msgid "No email specified"
-msgstr "Nebola zadaná e-mailová adresa"
-
-#: app/scripts/views/complete_reset_password.js:60
+#: app/scripts/views/complete_reset_password.js:85
 msgid "Passwords do not match"
 msgstr "Heslá sa nezhodujú"
 
-#: app/scripts/views/complete_sign_up.js:34
-msgid "No uid specified"
-msgstr "Nebol zadaný uid"
+#: app/scripts/views/confirm.js:46
+#: app/scripts/views/confirm_reset_password.js:76
+#, fuzzy
+msgid "Invalid token"
+msgstr "Neplatné heslo"
 
-#: app/scripts/views/form.js:302 app/scripts/lib/strings.js:18
+#: app/scripts/views/confirm_reset_password.js:52
+#, fuzzy
+msgid "Password reset. Sign in to continue."
+msgstr "Ak chcete pokračovať, prihláste sa."
+
+#: app/scripts/views/cookies_disabled.js:34
+msgid "Cookies are still disabled"
+msgstr ""
+
+#: app/scripts/views/delete_account.js:45
+#, fuzzy
+msgid "Account deleted successfully"
+msgstr "Prihlásenie prebehlo úspešne"
+
+#: app/scripts/views/force_auth.js:42
+msgid "/force_auth requires an email"
+msgstr "/force_auth vyžaduje e-mailovú adresu"
+
+#: app/scripts/views/form.js:358 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "Vyžaduje sa platná e-mailová adresa"
 
-#: app/scripts/views/form.js:308 app/scripts/lib/strings.js:23
-#: app/scripts/templates/change_password.mustache:7
-#: app/scripts/templates/complete_reset_password.mustache:6
+#: app/scripts/views/form.js:364 app/scripts/lib/strings.js:23
+#: app/scripts/templates/change_password.mustache:6
+#: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Must be at least 8 characters"
 msgstr "Minimálny počet znakov: 8"
 
-#: app/scripts/views/form.js:309 app/scripts/lib/strings.js:19
+#: app/scripts/views/form.js:365 app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr "Vyžaduje sa zadanie platného hesla"
 
@@ -125,19 +151,20 @@ msgstr "Vyžaduje sa zadanie platného hesla"
 msgid "Could not get Privacy Notice"
 msgstr "Nebolo možné získať Zásady ochrany osobných údajov"
 
-#: app/scripts/views/sign_in.js:51
-msgid "/force_auth requires an email"
-msgstr "/force_auth vyžaduje e-mailovú adresu"
+#: app/scripts/views/settings.js:42
+#, fuzzy
+msgid "Signed out"
+msgstr "Odhlásiť sa"
 
-#: app/scripts/views/sign_in.js:95
+#: app/scripts/views/sign_in.js:73
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Neznámy účet. <a href=\"/signup\">Zaregistrujte sa</a>"
 
-#: app/scripts/views/sign_up.js:77 app/scripts/lib/strings.js:24
+#: app/scripts/views/sign_up.js:75 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "Vyžaduje sa zadanie roku narodenia"
 
-#: app/scripts/views/sign_up.js:136
+#: app/scripts/views/sign_up.js:134
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Účet už existuje. <a href=\"/signin\">Prihláste sa</a>"
 
@@ -145,81 +172,90 @@ msgstr "Účet už existuje. <a href=\"/signin\">Prihláste sa</a>"
 msgid "Could not get Terms of Service"
 msgstr "Nebolo možné získať Podmienky používania služby"
 
-#: app/scripts/lib/auth-errors.js:41
+#: app/scripts/lib/auth-errors.js:44
 msgid "Unexpected error"
 msgstr "Neočakávaná chyba"
 
-#: app/scripts/lib/auth-errors.js:42
+#: app/scripts/lib/auth-errors.js:45
 msgid "Invalid authentication token in request signature"
 msgstr "Neplatný overovací token v podpise požiadavky"
 
-#: app/scripts/lib/auth-errors.js:43
+#: app/scripts/lib/auth-errors.js:46
 msgid "Invalid timestamp in request signature"
 msgstr "Neplatná časová známka v podpise požiadavky"
 
-#: app/scripts/lib/auth-errors.js:44
+#: app/scripts/lib/auth-errors.js:47
 msgid "Invalid nonce in request signature"
 msgstr "Neplatné číslo nonce v podpise požiadavky"
 
-#: app/scripts/lib/auth-errors.js:45 app/scripts/lib/strings.js:25
+#: app/scripts/lib/auth-errors.js:48 app/scripts/lib/strings.js:25
 msgid "Account already exists"
 msgstr "Účet už existuje"
 
-#: app/scripts/lib/auth-errors.js:46
+#: app/scripts/lib/auth-errors.js:49
 msgid "Unknown account"
 msgstr "Neznámy účet"
 
-#: app/scripts/lib/auth-errors.js:47
+#: app/scripts/lib/auth-errors.js:50
 msgid "Incorrect email case"
 msgstr "Neplatný tvar e-mailovej adresy"
 
-#: app/scripts/lib/auth-errors.js:48
+#: app/scripts/lib/auth-errors.js:51
 msgid "Incorrect password"
 msgstr "Neplatné heslo"
 
-#: app/scripts/lib/auth-errors.js:49
+#: app/scripts/lib/auth-errors.js:52
 msgid "Unverified account"
 msgstr "Neoverený účet"
 
-#: app/scripts/lib/auth-errors.js:50
+#: app/scripts/lib/auth-errors.js:53
 msgid "Invalid verification code"
 msgstr "Neplatný overovací kód"
 
-#: app/scripts/lib/auth-errors.js:51
+#: app/scripts/lib/auth-errors.js:54
 msgid "Invalid JSON in request body"
 msgstr "Neplatný kód JSON v tele požiadavky"
 
-#: app/scripts/lib/auth-errors.js:52
+#: app/scripts/lib/auth-errors.js:55
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Neplatný parameter v tele požiadavky: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:53
+#: app/scripts/lib/auth-errors.js:56
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Chýbajúci parameter v tele požiadavky: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:54
+#: app/scripts/lib/auth-errors.js:57
 msgid "Invalid request signature"
 msgstr "Neplatný podpis požiadavky"
 
-#: app/scripts/lib/auth-errors.js:55
+#: app/scripts/lib/auth-errors.js:58
 msgid "Missing content-length header"
 msgstr "Chýbajúca hlavička content-length"
 
-#: app/scripts/lib/auth-errors.js:56
+#: app/scripts/lib/auth-errors.js:59
 msgid "Request body too large"
 msgstr "Telo požiadavky je príliš veľké"
 
-#: app/scripts/lib/auth-errors.js:57
-msgid "Attempt limit exceeded. Try again later."
+#: app/scripts/lib/auth-errors.js:60
+#, fuzzy
+msgid "Attempt limit exceeded."
 msgstr "Bol prekročený počet možných pokusov. Skúste to znova neskôr."
 
-#: app/scripts/lib/auth-errors.js:58
-msgid "Service unavailable"
-msgstr "Služba nie je dostupná"
+#: app/scripts/lib/auth-errors.js:61
+msgid "System unavailable, try again soon"
+msgstr ""
 
-#: app/scripts/lib/auth-errors.js:59
+#: app/scripts/lib/auth-errors.js:62
+msgid "Server busy, try again soon"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:63
 msgid "This endpoint is no longer supported"
 msgstr "Tento koncový bod už nie je podporovaný"
+
+#: app/scripts/lib/service-name.js:16
+msgid "Firefox Sync"
+msgstr ""
 
 #: app/scripts/lib/strings.js:20
 msgid "Invalid password"
@@ -273,33 +309,30 @@ msgid "Change password"
 msgstr "Zmeniť heslo"
 
 #: app/scripts/templates/change_password.mustache:2
-msgid "Password changed"
-msgstr "Heslo bolo zmenené"
-
-#: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
 msgstr "Staré heslo"
 
-#: app/scripts/templates/change_password.mustache:4
-#: app/scripts/templates/change_password.mustache:6
-#: app/scripts/templates/complete_reset_password.mustache:3
-#: app/scripts/templates/complete_reset_password.mustache:5
+#: app/scripts/templates/change_password.mustache:3
+#: app/scripts/templates/change_password.mustache:5
+#: app/scripts/templates/complete_reset_password.mustache:11
+#: app/scripts/templates/complete_reset_password.mustache:13
 #: app/scripts/templates/delete_account.mustache:4
-#: app/scripts/templates/sign_in.mustache:9
+#: app/scripts/templates/force_auth.mustache:5
+#: app/scripts/templates/sign_in.mustache:5
 #: app/scripts/templates/sign_up.mustache:5
 msgid "Show"
 msgstr "Zobraziť"
 
-#: app/scripts/templates/change_password.mustache:5
-#: app/scripts/templates/complete_reset_password.mustache:2
+#: app/scripts/templates/change_password.mustache:4
+#: app/scripts/templates/complete_reset_password.mustache:10
 msgid "New password"
 msgstr "Nové heslo"
 
-#: app/scripts/templates/change_password.mustache:8
+#: app/scripts/templates/change_password.mustache:7
 msgid "Change Password"
 msgstr "Zmeniť heslo"
 
-#: app/scripts/templates/change_password.mustache:9
+#: app/scripts/templates/change_password.mustache:8
 #: app/scripts/templates/delete_account.mustache:6
 #: app/scripts/templates/pp.mustache:3
 #: app/scripts/templates/reset_password.mustache:5
@@ -308,32 +341,58 @@ msgid "Back"
 msgstr "Naspäť"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
+msgid "Verification link expired"
+msgstr ""
+
+#: app/scripts/templates/complete_reset_password.mustache:2
+#: app/scripts/templates/confirm.mustache:2
+#: app/scripts/templates/confirm_reset_password.mustache:2
+msgid "Email resent"
+msgstr "E-mailová správa bola opätovne odoslaná"
+
+#: app/scripts/templates/complete_reset_password.mustache:3
+msgid "The link you clicked to reset your password is expired."
+msgstr ""
+
+#: app/scripts/templates/complete_reset_password.mustache:4
+msgid "Click here to receive a new reset link"
+msgstr ""
+
+#: app/scripts/templates/complete_reset_password.mustache:6
+#: app/scripts/templates/complete_sign_up.mustache:1
+msgid "Verification link damaged"
+msgstr ""
+
+#: app/scripts/templates/complete_reset_password.mustache:7
+#: app/scripts/templates/complete_sign_up.mustache:2
+msgid ""
+"The link you clicked was missing characters, and may have been broken by "
+"your email client. Copy the address carefully, and try again."
+msgstr ""
+
+#: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
 msgid "Reset password"
 msgstr "Obnoviť heslo"
 
-#: app/scripts/templates/complete_reset_password.mustache:4
+#: app/scripts/templates/complete_reset_password.mustache:12
 msgid "Repeat password"
 msgstr "Zopakujte heslo"
 
-#: app/scripts/templates/complete_reset_password.mustache:7
+#: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/reset_password.mustache:4
 #: app/scripts/templates/sign_up.mustache:27
 msgid "Next"
 msgstr "Ďalej"
 
-#: app/scripts/templates/complete_sign_up.mustache:1
-msgid "Completing sign up"
-msgstr "Dokončuje sa prihlásenie"
+#: app/scripts/templates/complete_sign_up.mustache:4
+#, fuzzy
+msgid "Verification error"
+msgstr "Neplatný overovací kód"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
 msgstr "Potvrďte svoj účet"
-
-#: app/scripts/templates/confirm.mustache:2
-#: app/scripts/templates/confirm_reset_password.mustache:2
-msgid "Email resent"
-msgstr "E-mailová správa bola opätovne odoslaná"
 
 #: app/scripts/templates/confirm.mustache:3
 #: app/scripts/templates/confirm_reset_password.mustache:3
@@ -358,10 +417,31 @@ msgid "A reset link has been sent to %(email)s"
 msgstr "Odkaz na obnovu hesla bol odoslaný na adresu: %(email)s"
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
+#: app/scripts/templates/force_auth.mustache:6
 #: app/scripts/templates/sign_in.mustache:1
-#: app/scripts/templates/sign_in.mustache:10
+#: app/scripts/templates/sign_in.mustache:6
 msgid "Sign in"
 msgstr "Prihlásiť sa"
+
+#: app/scripts/templates/cookies_disabled.mustache:1
+msgid "Cookies Required"
+msgstr ""
+
+#: app/scripts/templates/cookies_disabled.mustache:2
+msgid ""
+"Please enable cookies in your browser which are required by Firefox "
+"Accounts. Cookies are small pieces of data stored in your browser that "
+"provide functionality such as remembering you between sessions."
+msgstr ""
+
+#: app/scripts/templates/cookies_disabled.mustache:3
+#, fuzzy
+msgid "Learn more"
+msgstr "Ďalšie informácie"
+
+#: app/scripts/templates/cookies_disabled.mustache:4
+msgid "Try again"
+msgstr ""
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
@@ -375,10 +455,32 @@ msgid ""
 msgstr "Naozaj chcete odstrániť svoj účet? Akciu nie je možné vrátiť späť."
 
 #: app/scripts/templates/delete_account.mustache:3
-#: app/scripts/templates/sign_in.mustache:7
+#: app/scripts/templates/force_auth.mustache:3
+#: app/scripts/templates/sign_in.mustache:3
 #: app/scripts/templates/sign_up.mustache:3
 msgid "Password"
 msgstr "Heslo"
+
+#: app/scripts/templates/force_auth.mustache:1
+msgid "Sign in to continue"
+msgstr "Ak chcete pokračovať, prihláste sa."
+
+#: app/scripts/templates/force_auth.mustache:7
+#: app/scripts/templates/sign_in.mustache:7
+msgid "Forgot password?"
+msgstr "Zabudli ste heslo?"
+
+#: app/scripts/templates/force_auth.mustache:8
+#: app/scripts/templates/sign_in.mustache:9
+#: app/scripts/templates/sign_up.mustache:26
+msgid ""
+"By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
+"of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
+"a> of Firefox cloud services."
+msgstr ""
+"Pokračovaním súhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmienkami "
+"používania služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Zásadami "
+"ochrany súkromia</a> cloudových služieb Firefoxu."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -414,19 +516,28 @@ msgid "Success"
 msgstr "Úspešné"
 
 #: app/scripts/templates/ready.mustache:8
-msgid "You are now ready to use %(service)s."
-msgstr "Odteraz môžete využívať služby %(service)s."
+#, fuzzy
+msgid "You are now ready to use %(serviceName)s."
+msgstr "Odteraz môžete využívať služby %(serviceName)s."
 
 #: app/scripts/templates/ready.mustache:10
 msgid "Your account is ready!"
 msgstr "Váš účet je pripravený."
+
+#: app/scripts/templates/ready.mustache:11
+msgid "Stay in sync on the go:"
+msgstr ""
+
+#: app/scripts/templates/ready.mustache:12
+msgid "Get Firefox for Android"
+msgstr ""
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
 msgstr "Ak chcete obnoviť heslo účtu, zadajte svoju e-mailovú adresu."
 
 #: app/scripts/templates/reset_password.mustache:3
-#: app/scripts/templates/sign_in.mustache:5
+#: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
 msgid "Email"
 msgstr "E-mailová adresa"
@@ -436,36 +547,17 @@ msgid "Manage account"
 msgstr "Správa účtu"
 
 #: app/scripts/templates/settings.mustache:2
-msgid "You are signed in as: %(email)s"
+#, fuzzy
+msgid "You are signed in as"
 msgstr "Ste prihlásený ako: %(email)s"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"
 msgstr "Odhlásiť sa"
 
-#: app/scripts/templates/sign_in.mustache:2
-msgid "Sign in to continue"
-msgstr "Ak chcete pokračovať, prihláste sa."
-
-#: app/scripts/templates/sign_in.mustache:11
-#: app/scripts/templates/sign_in.mustache:13
-msgid "Forgot password?"
-msgstr "Zabudli ste heslo?"
-
-#: app/scripts/templates/sign_in.mustache:12
+#: app/scripts/templates/sign_in.mustache:8
 msgid "Create an account"
 msgstr "Vytvoriť účet"
-
-#: app/scripts/templates/sign_in.mustache:15
-#: app/scripts/templates/sign_up.mustache:26
-msgid ""
-"By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-"of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
-"a> of Firefox cloud services."
-msgstr ""
-"Pokračovaním súhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmienkami "
-"používania služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Zásadami "
-"ochrany súkromia</a> cloudových služieb Firefoxu."
 
 #: app/scripts/templates/sign_up.mustache:1
 msgid "Create a Firefox Account"
@@ -486,6 +578,24 @@ msgstr "Zvoľte obsah synchronizácie"
 #: app/scripts/templates/sign_up.mustache:30
 msgid "Already have an account? Sign in."
 msgstr "Už máte účet? Prihláste sa."
+
+#~ msgid "No token specified"
+#~ msgstr "Nebol zadaný token"
+
+#~ msgid "No code specified"
+#~ msgstr "Nebol zadaný kód"
+
+#~ msgid "No email specified"
+#~ msgstr "Nebola zadaná e-mailová adresa"
+
+#~ msgid "No uid specified"
+#~ msgstr "Nebol zadaný uid"
+
+#~ msgid "Service unavailable"
+#~ msgstr "Služba nie je dostupná"
+
+#~ msgid "Completing sign up"
+#~ msgstr "Dokončuje sa prihlásenie"
 
 #~ msgid "Client has sent too many requests"
 #~ msgstr "Klient odoslal príliš veľa požiadaviek"
