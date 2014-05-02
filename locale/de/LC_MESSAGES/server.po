@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-04-16 19:48+0000\n"
+"PO-Revision-Date: 2014-05-02 11:11+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397677711.0\n"
+"X-POOTLE-MTIME: 1399029087.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -54,7 +54,7 @@ msgstr "Startseite"
 #: server/templates/pages/dist/500.html:2 server/lib/500.js:21
 #: server/lib/500.js:24
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "System nicht verfügbar, versuchen Sie es in Kürze erneut"
 
 #: server/templates/pages/src/500.html:3
 #: server/templates/pages/dist/500.html:3
@@ -62,11 +62,13 @@ msgid ""
 "We are currently performing some maintenance on the system, and will return "
 "momentarily."
 msgstr ""
+"Wir führen derzeit Wartungsarbeiten am System durch und sind in Kürze wieder "
+"erreichbar."
 
 #: server/templates/pages/src/503.html:2
 #: server/templates/pages/dist/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Server beschäftigt, versuchen Sie es in Kürze erneut"
 
 #: server/templates/pages/src/503.html:3
 #: server/templates/pages/dist/503.html:3
@@ -74,6 +76,8 @@ msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
+"Wir stehen derzeit unter hoher Belastung und arbeiten daran, das System "
+"baldmöglichst wie gewohnt zur Verfügung zu stellen."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
@@ -85,6 +89,9 @@ msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
+"Sie verwenden einen <strong>veralteten</strong> Browser. Bitte <a "
+"href=\"http://browsehappy.com/\">aktualisieren Sie Ihren Browser</a>, um Ihr "
+"Erlebnis zu verbessern."
 
 #: server/templates/pages/src/index.html:3
 #: server/templates/pages/dist/index.html:3
