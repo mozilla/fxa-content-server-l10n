@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-05-01 15:39+0000\n"
+"PO-Revision-Date: 2014-05-02 20:55+0000\n"
 "Last-Translator: Gion-Andri <gion-andri@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1398958789.0\n"
+"X-POOTLE-MTIME: 1399064151.0\n"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1991"
@@ -82,13 +82,12 @@ msgid "2007"
 msgstr "2007"
 
 #: app/scripts/views/base.js:63
-#, fuzzy
 msgid "Session expired. Sign in to continue."
-msgstr "S'annunziar per cuntinuar"
+msgstr "La sessiun è scrudada. S'annunzia per cuntinuar."
 
 #: app/scripts/views/base.js:403
 msgid "missing search parameter: %(itemName)s"
-msgstr ""
+msgstr "parameter da tschertgar mancant: %(itemName)s"
 
 #: app/scripts/views/change_password.js:50
 msgid "Your new password must be different"
@@ -103,6 +102,8 @@ msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
 msgstr ""
+"Conto betg verifitgà. <a href=\"#\" id=\"resend\">Trametter danovamain l'e-mail "
+"da verificaziun</a>."
 
 #: app/scripts/views/complete_reset_password.js:85
 msgid "Passwords do not match"
@@ -110,23 +111,20 @@ msgstr "Ils pleds-clav na correspundan betg"
 
 #: app/scripts/views/confirm.js:46
 #: app/scripts/views/confirm_reset_password.js:76
-#, fuzzy
 msgid "Invalid token"
-msgstr "Pled-clav nunvalid"
+msgstr "Token nunvalid"
 
 #: app/scripts/views/confirm_reset_password.js:52
-#, fuzzy
 msgid "Password reset. Sign in to continue."
-msgstr "S'annunziar per cuntinuar"
+msgstr "Redefinì il pled-clav. S'annunzia per cuntinuar."
 
 #: app/scripts/views/cookies_disabled.js:34
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Ils cookies èn anc adina deactivads"
 
 #: app/scripts/views/delete_account.js:45
-#, fuzzy
 msgid "Account deleted successfully"
-msgstr "S'annunzià cun success"
+msgstr "Stizzà cun success il conto"
 
 #: app/scripts/views/force_auth.js:42
 msgid "/force_auth requires an email"
@@ -152,9 +150,8 @@ msgid "Could not get Privacy Notice"
 msgstr "Betg chattà la decleraziun da protecziun da datas"
 
 #: app/scripts/views/settings.js:42
-#, fuzzy
 msgid "Signed out"
-msgstr "Sortir"
+msgstr "Sortì"
 
 #: app/scripts/views/sign_in.js:73
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -237,17 +234,16 @@ msgid "Request body too large"
 msgstr "Il corp da la dumonda è memia grond"
 
 #: app/scripts/lib/auth-errors.js:60
-#, fuzzy
 msgid "Attempt limit exceeded."
-msgstr "Surpassà la limita dad emprovas. Emprova pli tard anc ina giada."
+msgstr "Surpassà la limita dad emprovas."
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Sistem betg disponibel, emprova bainprest anc ina giada"
 
 #: app/scripts/lib/auth-errors.js:62
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Il server è surchargià, emprova bainprest anc ina giada"
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "This endpoint is no longer supported"
@@ -255,7 +251,7 @@ msgstr "Quest punct da finiziun na vegn betg pli sustegnì"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:20
 msgid "Invalid password"
@@ -341,7 +337,7 @@ msgstr "Enavos"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Verification link expired"
-msgstr ""
+msgstr "Colliaziun da verificaziun scrudada"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/confirm.mustache:2
@@ -351,16 +347,17 @@ msgstr "Tramess danovamain l'e-mail"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
-msgstr ""
+msgstr "La colliaziun che ti has cliccà per redefinir tes pled-clav è scrudada."
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
 msgstr ""
+"Clicca qua per retschaiver ina nova colliaziun per redefinir il pled-clav"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Errur en la colliaziun da verificaziun"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:2
