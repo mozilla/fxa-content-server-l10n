@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-05-02 20:55+0000\n"
+"PO-Revision-Date: 2014-05-03 05:53+0000\n"
 "Last-Translator: Gion-Andri <gion-andri@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1399064151.0\n"
+"X-POOTLE-MTIME: 1399096431.0\n"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1991"
@@ -365,6 +365,9 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
+"La colliaziun che ti has cliccà n'era betg cumpletta ed è eventualmain "
+"vegnida interpretada fauss da tes program dad e-mail. Copiescha precautamain "
+"l'entira adressa ed emprova anc ina giada."
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
@@ -382,9 +385,8 @@ msgid "Next"
 msgstr "Enavant"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Verification error"
-msgstr "Code da verificaziun nunvalid"
+msgstr "Errur da verificaziun"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -421,7 +423,7 @@ msgstr "S'annunziar"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies Required"
-msgstr ""
+msgstr "Cookies necessaris"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -429,15 +431,17 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
+"Per utilisar in conto da Firefox stos ti activar ils cookies en tes "
+"navigatur. Cookies èn pitschnsa parts da datas memorisadas en tes navigatur "
+"che porschan funcziunalidad sco reconuscher tai tar tia proxima visita."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
-#, fuzzy
 msgid "Learn more"
-msgstr "Dapli infurmaziuns."
+msgstr "Dapli infurmaziuns"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "Emprova anc ina giada"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
@@ -515,7 +519,6 @@ msgid "Success"
 msgstr "Success"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s."
 msgstr "Ti es ussa pront dad utilisar %(serviceName)s."
 
@@ -525,11 +528,11 @@ msgstr "Tes conto è pront!"
 
 #: app/scripts/templates/ready.mustache:11
 msgid "Stay in sync on the go:"
-msgstr ""
+msgstr "Resta sincronisà era sin viadi:"
 
 #: app/scripts/templates/ready.mustache:12
 msgid "Get Firefox for Android"
-msgstr ""
+msgstr "Telechargiar Firefox per Android"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
@@ -547,9 +550,8 @@ msgid "Manage account"
 msgstr "Administrar il conto"
 
 #: app/scripts/templates/settings.mustache:2
-#, fuzzy
 msgid "You are signed in as"
-msgstr "Ti es s'annunzià sco: %(email)s"
+msgstr "Ti es t'annunzià sco"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"

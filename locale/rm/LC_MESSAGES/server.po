@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-04-15 19:24+0000\n"
+"PO-Revision-Date: 2014-05-03 05:58+0000\n"
 "Last-Translator: Gion-Andri <gion-andri@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397589840.0\n"
+"X-POOTLE-MTIME: 1399096699.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -54,7 +54,7 @@ msgstr "Chasa"
 #: server/templates/pages/dist/500.html:2 server/lib/500.js:21
 #: server/lib/500.js:24
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Il sistem n'è betg disponibel, emprova bainprest anc ina giada"
 
 #: server/templates/pages/src/500.html:3
 #: server/templates/pages/dist/500.html:3
@@ -62,11 +62,13 @@ msgid ""
 "We are currently performing some maintenance on the system, and will return "
 "momentarily."
 msgstr ""
+"Nus exequin gist lavurs da mantegniment sin il sistem ed essan bainprest "
+"puspè online."
 
 #: server/templates/pages/src/503.html:2
 #: server/templates/pages/dist/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Il server è surchargià, emprova bainprest anc ina giada"
 
 #: server/templates/pages/src/503.html:3
 #: server/templates/pages/dist/503.html:3
@@ -74,6 +76,8 @@ msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
+"Actualmain è il sistem surchargià. Nus lavurain londervi ch'il sistem "
+"stettia bainprest puspè a disposiziun sco usità."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
@@ -85,6 +89,9 @@ msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
+"Ti utiliseschas in navigatur <strong>antiquà</strong>. <a "
+"href=\"http://browsehappy.com/\">Actualisescha tes navigatur</a> per "
+"retschaiver dapli segirezza."
 
 #: server/templates/pages/src/index.html:3
 #: server/templates/pages/dist/index.html:3
