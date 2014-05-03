@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-04-18 10:07+0000\n"
-"Last-Translator: Channy <channy@mozilla.or.kr>\n"
+"PO-Revision-Date: 2014-05-03 12:48+0000\n"
+"Last-Translator: Hyeonseok <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397815676.0\n"
+"X-POOTLE-MTIME: 1399121298.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -52,26 +52,26 @@ msgstr "첫화면"
 #: server/templates/pages/dist/500.html:2 server/lib/500.js:21
 #: server/lib/500.js:24
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "시스템 오류입니다, 잠시 후에 다시 시도해 주세요."
 
 #: server/templates/pages/src/500.html:3
 #: server/templates/pages/dist/500.html:3
 msgid ""
 "We are currently performing some maintenance on the system, and will return "
 "momentarily."
-msgstr ""
+msgstr "시스템 유지 운용 작업 중입니다, 잠시 후에 사용할 수 있습니다."
 
 #: server/templates/pages/src/503.html:2
 #: server/templates/pages/dist/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "서버가 응답하지 않습니다, 잠시 후에 다시 시도해 주세요."
 
 #: server/templates/pages/src/503.html:3
 #: server/templates/pages/dist/503.html:3
 msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
-msgstr ""
+msgstr "현재 접속자가 많습니다. 최대한 빨리 정상화 하도록 하겠습니다."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
@@ -83,6 +83,8 @@ msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
+"<strong>오래되</strong> 브라우저를 사용하고 있습니다. <a "
+"href=\"http://browsehappy.com/\">브라우저를 업그레이드</a>해 주세요."
 
 #: server/templates/pages/src/index.html:3
 #: server/templates/pages/dist/index.html:3

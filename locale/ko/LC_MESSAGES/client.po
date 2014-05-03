@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-04-18 10:04+0000\n"
-"Last-Translator: Channy <channy@mozilla.or.kr>\n"
+"PO-Revision-Date: 2014-05-03 12:48+0000\n"
+"Last-Translator: Hyeonseok <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397815471.0\n"
+"X-POOTLE-MTIME: 1399121321.0\n"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1991"
@@ -82,13 +82,12 @@ msgid "2007"
 msgstr "2007"
 
 #: app/scripts/views/base.js:63
-#, fuzzy
 msgid "Session expired. Sign in to continue."
-msgstr "계속하려면 로그인"
+msgstr "세션이 만료되었습니다. 계속하려면 로그인해 주세요."
 
 #: app/scripts/views/base.js:403
 msgid "missing search parameter: %(itemName)s"
-msgstr ""
+msgstr "검색 파라메터 없음: %(itemName)s"
 
 #: app/scripts/views/change_password.js:50
 msgid "Your new password must be different"
@@ -102,7 +101,7 @@ msgstr "암호 변경됨"
 msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
-msgstr ""
+msgstr "확인되지 않은 계정입니다. <a href=\"#\" id=\"resend\">확인 이메일 다시 보내기</a>."
 
 #: app/scripts/views/complete_reset_password.js:85
 msgid "Passwords do not match"
@@ -110,23 +109,20 @@ msgstr "암호가 일치하지 않음"
 
 #: app/scripts/views/confirm.js:46
 #: app/scripts/views/confirm_reset_password.js:76
-#, fuzzy
 msgid "Invalid token"
-msgstr "잘못된 암호"
+msgstr "잘못된 토큰"
 
 #: app/scripts/views/confirm_reset_password.js:52
-#, fuzzy
 msgid "Password reset. Sign in to continue."
-msgstr "계속하려면 로그인"
+msgstr "비밀번호가 초기화 되었습니다. 계속하려면 로그인해 주세요."
 
 #: app/scripts/views/cookies_disabled.js:34
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "쿠키가 여전히 꺼져있음"
 
 #: app/scripts/views/delete_account.js:45
-#, fuzzy
 msgid "Account deleted successfully"
-msgstr "가입 완료"
+msgstr "계정이 성공적으로 삭제됨"
 
 #: app/scripts/views/force_auth.js:42
 msgid "/force_auth requires an email"
@@ -152,7 +148,6 @@ msgid "Could not get Privacy Notice"
 msgstr "개인 정보 보호 정책 없음"
 
 #: app/scripts/views/settings.js:42
-#, fuzzy
 msgid "Signed out"
 msgstr "로그 아웃"
 
@@ -237,17 +232,16 @@ msgid "Request body too large"
 msgstr "요청 본문이 너무 큼"
 
 #: app/scripts/lib/auth-errors.js:60
-#, fuzzy
 msgid "Attempt limit exceeded."
-msgstr "횟수 초과되었습니다. 재시도하십시오."
+msgstr "재시도 횟수가 초과되었습니다."
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "시스템 오류입니다, 잠시 후에 다시 시도해 주세요."
 
 #: app/scripts/lib/auth-errors.js:62
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "서버가 응답하지 않습니다, 잠시 후에 다시 시도해 주세요."
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "This endpoint is no longer supported"
@@ -255,7 +249,7 @@ msgstr "더 이상 지원하지 않음"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox 동기화"
 
 #: app/scripts/lib/strings.js:20
 msgid "Invalid password"
@@ -341,7 +335,7 @@ msgstr "뒤로"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Verification link expired"
-msgstr ""
+msgstr "확인 링크가 만료됨"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/confirm.mustache:2
@@ -351,23 +345,23 @@ msgstr "이메일 재전송"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
-msgstr ""
+msgstr "비밀번호를 초기화하기 위한 링크가 만료되었습니다."
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr ""
+msgstr "새로운 초기화 링크 생성"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link damaged"
-msgstr ""
+msgstr "확인 링크가 손상됨"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:2
 msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
-msgstr ""
+msgstr "클릭한 링크에 빠진 글자가 있습니다, 메일 클라이언트가 링크를 손상시켰을 수 있습니다. 주소를 다시 복사해서 시도해 주세요."
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
@@ -385,9 +379,8 @@ msgid "Next"
 msgstr "다음"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Verification error"
-msgstr "잘못된 인증 코드"
+msgstr "확인 오류"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -424,7 +417,7 @@ msgstr "Firefox 계정 로그인"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies Required"
-msgstr ""
+msgstr "쿠키가 필요함"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -432,15 +425,16 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
+"Firefox Accounts를 사용하기 위해서 브라우저의 쿠키 기능을 활성화 해 주세요. 쿠키는 세션간의 사용자를 정장하는 등의 기능을 "
+"하는 브라우저에 저장된 자료입니다."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
-#, fuzzy
 msgid "Learn more"
-msgstr "자세히 보기."
+msgstr "자세히 보기"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "다시 시도"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
@@ -515,9 +509,8 @@ msgid "Success"
 msgstr "성공"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s."
-msgstr "%(serviceName)s 지금부터 사용할 수 있습니다."
+msgstr "%(serviceName)s를지금부터 사용할 수 있습니다."
 
 #: app/scripts/templates/ready.mustache:10
 msgid "Your account is ready!"
@@ -525,11 +518,11 @@ msgstr "계정이 준비되어 있습니다!"
 
 #: app/scripts/templates/ready.mustache:11
 msgid "Stay in sync on the go:"
-msgstr ""
+msgstr "동가화 상태 계속 유지:"
 
 #: app/scripts/templates/ready.mustache:12
 msgid "Get Firefox for Android"
-msgstr ""
+msgstr "안드로이드용 Firefox 다운로드"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
@@ -546,7 +539,6 @@ msgid "Manage account"
 msgstr "계정 관리"
 
 #: app/scripts/templates/settings.mustache:2
-#, fuzzy
 msgid "You are signed in as"
 msgstr "로그인 중: %(email)s"
 
