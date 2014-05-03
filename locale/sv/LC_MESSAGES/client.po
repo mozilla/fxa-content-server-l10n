@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-03-13 18:32+0000\n"
+"PO-Revision-Date: 2014-05-03 14:28+0000\n"
 "Last-Translator: Hasse <hasse@jasajudeju.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1394735535.0\n"
+"X-POOTLE-MTIME: 1399127301.0\n"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1991"
@@ -83,18 +83,16 @@ msgid "2007"
 msgstr "2007"
 
 #: app/scripts/views/base.js:63
-#, fuzzy
 msgid "Session expired. Sign in to continue."
-msgstr "Logga in för att fortsätta"
+msgstr "Sessionen har förfallit. Logga in för att fortsätta."
 
 #: app/scripts/views/base.js:403
 msgid "missing search parameter: %(itemName)s"
-msgstr ""
+msgstr "saknade sökparametrar: %(itemName)s"
 
 #: app/scripts/views/change_password.js:50
-#, fuzzy
 msgid "Your new password must be different"
-msgstr "gamla och nya lösenordet får inte vara samma"
+msgstr "Det måste vara ett nytt lösenord"
 
 #: app/scripts/views/change_password.js:59
 msgid "Password changed"
@@ -105,31 +103,29 @@ msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
 msgstr ""
+"Obekräftat konto. <a href=\"#\" id=\"resend\">Skicka ett bekräftelsemejl "
+"igen</a>."
 
 #: app/scripts/views/complete_reset_password.js:85
-#, fuzzy
 msgid "Passwords do not match"
-msgstr "lösenorden överensstämmer inte"
+msgstr "Lösenorden överensstämmer inte"
 
 #: app/scripts/views/confirm.js:46
 #: app/scripts/views/confirm_reset_password.js:76
-#, fuzzy
 msgid "Invalid token"
-msgstr "Ogiltigt lösenord"
+msgstr "Ogiltig token"
 
 #: app/scripts/views/confirm_reset_password.js:52
-#, fuzzy
 msgid "Password reset. Sign in to continue."
-msgstr "Logga in för att fortsätta"
+msgstr "Lösenordet har nollställts. Logga in för att fortsätta"
 
 #: app/scripts/views/cookies_disabled.js:34
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Kakor är fortfarande inaktiverade"
 
 #: app/scripts/views/delete_account.js:45
-#, fuzzy
 msgid "Account deleted successfully"
-msgstr "Inloggningen lyckades"
+msgstr "Kontot har tagits bort"
 
 #: app/scripts/views/force_auth.js:42
 msgid "/force_auth requires an email"
@@ -151,14 +147,12 @@ msgid "Valid password required"
 msgstr "Giltigt lösenord krävs"
 
 #: app/scripts/views/pp.js:41
-#, fuzzy
 msgid "Could not get Privacy Notice"
-msgstr "Integritetsinfo"
+msgstr "Kunde inte hämta integritetsinfo"
 
 #: app/scripts/views/settings.js:42
-#, fuzzy
 msgid "Signed out"
-msgstr "Logga ut"
+msgstr "Utloggad"
 
 #: app/scripts/views/sign_in.js:73
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -173,9 +167,8 @@ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Kontot finns redan. <a href=\"/signin\">Logga in</a>"
 
 #: app/scripts/views/tos.js:41
-#, fuzzy
 msgid "Could not get Terms of Service"
-msgstr "Tjänstevillkor"
+msgstr "Kunde inte hämta tjänstevillkoren"
 
 #: app/scripts/lib/auth-errors.js:44
 msgid "Unexpected error"
@@ -243,24 +236,23 @@ msgstr "Förfrågan är för stor"
 
 #: app/scripts/lib/auth-errors.js:60
 msgid "Attempt limit exceeded."
-msgstr ""
+msgstr "Antalet försök överskreds."
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Systemet är inte tillgängligt, försök igen senare"
 
 #: app/scripts/lib/auth-errors.js:62
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Servern upptagen, försök igen senare"
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "This endpoint is no longer supported"
 msgstr "Den här slutpunkten stöds inte längre"
 
 #: app/scripts/lib/service-name.js:16
-#, fuzzy
 msgid "Firefox Sync"
-msgstr "Firefox-konton"
+msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:20
 msgid "Invalid password"
@@ -346,7 +338,7 @@ msgstr "Bakåt"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Verification link expired"
-msgstr ""
+msgstr "Bekräftelselänken har förfallit"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/confirm.mustache:2
@@ -356,16 +348,16 @@ msgstr "E-post har skickats"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
-msgstr ""
+msgstr "Länken du klickade på för att nollställa lösenordet har förfallit."
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr ""
+msgstr "Klicka här för att få en ny bekräftelselänk"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Bekräftelselänken är trasig"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -373,6 +365,8 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
+"Länken du klickade på saknade vissa tecken och kan ha förvrängts av ditt "
+"e-postprogram. Kopiera adressen noggrant och försök igen."
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
@@ -380,7 +374,6 @@ msgid "Reset password"
 msgstr "Nollställ lösenordet"
 
 #: app/scripts/templates/complete_reset_password.mustache:12
-#, fuzzy
 msgid "Repeat password"
 msgstr "Upprepa lösenordet"
 
@@ -391,9 +384,8 @@ msgid "Next"
 msgstr "Nästa"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Verification error"
-msgstr "Ogiltig verifieringskod"
+msgstr "Ogiltig bekräftelse"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -405,9 +397,8 @@ msgid "Email Sent"
 msgstr "E-post har skickats"
 
 #: app/scripts/templates/confirm.mustache:4
-#, fuzzy
 msgid "A verification link has been sent&nbsp;to %(email)s"
-msgstr "En bekräftelselänk har skickats&nbsp;till: %(email)s"
+msgstr "En bekräftelselänk har skickats&nbsp;till %(email)s"
 
 #: app/scripts/templates/confirm.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:6
@@ -431,7 +422,7 @@ msgstr "Logga in"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies Required"
-msgstr ""
+msgstr "Kakor krävs"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -439,15 +430,17 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
+"Du måste aktivera kakor i webbläsaren som behövs för Firefox-konton. Kakor "
+"är små bitar av data som lagras i webbläsaren och som bland annat gör det "
+"möjligt att komma ihåg dig från gång till gång."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
-#, fuzzy
 msgid "Learn more"
-msgstr "Läs mer."
+msgstr "Läs mer"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "Försök igen"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
@@ -523,7 +516,6 @@ msgid "Success"
 msgstr "Klart"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s."
 msgstr "Du kan nu börja använda %(serviceName)s."
 
@@ -533,11 +525,11 @@ msgstr "Ditt konto är klart!"
 
 #: app/scripts/templates/ready.mustache:11
 msgid "Stay in sync on the go:"
-msgstr ""
+msgstr "Var synkad, hela tiden:"
 
 #: app/scripts/templates/ready.mustache:12
 msgid "Get Firefox for Android"
-msgstr ""
+msgstr "Hämta Firefox för Android"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
@@ -554,9 +546,8 @@ msgid "Manage account"
 msgstr "Hantera konto"
 
 #: app/scripts/templates/settings.mustache:2
-#, fuzzy
 msgid "You are signed in as"
-msgstr "Du är inloggad som: %(email)s"
+msgstr "Du är inloggad som"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"
