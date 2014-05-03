@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-04-15 07:22+0000\n"
+"PO-Revision-Date: 2014-05-03 11:05+0000\n"
 "Last-Translator: Julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397546577.0\n"
+"X-POOTLE-MTIME: 1399115143.0\n"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1991"
@@ -82,13 +82,12 @@ msgid "2007"
 msgstr "2007"
 
 #: app/scripts/views/base.js:63
-#, fuzzy
 msgid "Session expired. Sign in to continue."
-msgstr "Hasi saioa jarraitzeko"
+msgstr "Saioa iraungita. Hasi saioa jarraitzeko."
 
 #: app/scripts/views/base.js:403
 msgid "missing search parameter: %(itemName)s"
-msgstr ""
+msgstr "bilaketa-parametroa falta da: %(itemName)s"
 
 #: app/scripts/views/change_password.js:50
 msgid "Your new password must be different"
@@ -103,6 +102,8 @@ msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
 msgstr ""
+"Egiaztatu gabeko kontua. <a href=\"#\" id=\"resend\">Birbidali egiaztapen-"
+"mezua</a>."
 
 #: app/scripts/views/complete_reset_password.js:85
 msgid "Passwords do not match"
@@ -110,23 +111,20 @@ msgstr "Pasahitzak ez datoz bat"
 
 #: app/scripts/views/confirm.js:46
 #: app/scripts/views/confirm_reset_password.js:76
-#, fuzzy
 msgid "Invalid token"
-msgstr "Pasahitz baliogabea"
+msgstr "Token baliogabea"
 
 #: app/scripts/views/confirm_reset_password.js:52
-#, fuzzy
 msgid "Password reset. Sign in to continue."
-msgstr "Hasi saioa jarraitzeko"
+msgstr "Pasahitza berrezarrita. Hasi saioa jarraitzeko."
 
 #: app/scripts/views/cookies_disabled.js:34
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Cookieak desgaituta daude oraindik"
 
 #: app/scripts/views/delete_account.js:45
-#, fuzzy
 msgid "Account deleted successfully"
-msgstr "Saioa ondo hasi da"
+msgstr "Saioa ondo ezabatu da"
 
 #: app/scripts/views/force_auth.js:42
 msgid "/force_auth requires an email"
@@ -152,9 +150,8 @@ msgid "Could not get Privacy Notice"
 msgstr "Ezin da pribatutasun-abisua eskuratu"
 
 #: app/scripts/views/settings.js:42
-#, fuzzy
 msgid "Signed out"
-msgstr "Amaitu saioa"
+msgstr "Saioa amaituta"
 
 #: app/scripts/views/sign_in.js:73
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -237,17 +234,16 @@ msgid "Request body too large"
 msgstr "Eskaeraren gorputza handiegia da"
 
 #: app/scripts/lib/auth-errors.js:60
-#, fuzzy
 msgid "Attempt limit exceeded."
-msgstr "Saiakeren muga gaindituta. Saiatu berriro beranduago."
+msgstr "Saiakeren muga gaindituta."
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Sistema ez dago erabilgarri, saiatu berrio beranduago"
 
 #: app/scripts/lib/auth-errors.js:62
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Zerbitzaria lanpetuta dago,  saiatu berriro beranduago"
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "This endpoint is no longer supported"
@@ -255,7 +251,7 @@ msgstr "Mutur hau ez da onartzen"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:20
 msgid "Invalid password"
@@ -341,7 +337,7 @@ msgstr "Atzera"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Verification link expired"
-msgstr ""
+msgstr "Egiaztapen-lotura iraungita"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/confirm.mustache:2
@@ -351,16 +347,16 @@ msgstr "Mezua berriro bidali da"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
-msgstr ""
+msgstr "Pasahitza berrezartzeko klik egin duzun lotura iraungita dago."
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr ""
+msgstr "Egin klik hemen berrezartzeko lotura berri bat jasotzeko"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Egiaztapen-lotura hondatuta"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -368,6 +364,8 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
+"Klik egin duzun loturak karaktereak falta ditu; agian zure posta-bezeroak "
+"hondatu du. Kopiatu helbidea kontuz eta saiatu berriro."
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
@@ -385,9 +383,8 @@ msgid "Next"
 msgstr "Hurrengoa"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Verification error"
-msgstr "Egiaztatze-kode baliogabea"
+msgstr "Egiaztatze-errorea"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -424,7 +421,7 @@ msgstr "Hasi saioa"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies Required"
-msgstr ""
+msgstr "Cookieak behar dira"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -432,15 +429,17 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
+"Mesedez gaitu cookieak zure nabigatzailean; Firefoxeko kontuek behar "
+"dituzte. Nabigatzailean gordetzen diren datu puska txikiak dira cookieak eta "
+"saioen artean zu gogoratzea ahalbidetzen dute, adibidez."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
-#, fuzzy
 msgid "Learn more"
-msgstr "Argibide gehiago."
+msgstr "Argibide gehiago"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "Saiatu berriro"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
@@ -516,7 +515,6 @@ msgid "Success"
 msgstr "Dena ondo"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s."
 msgstr "Dena prest dago %(serviceName)s erabiltzen hasteko."
 
@@ -526,11 +524,11 @@ msgstr "Zure kontua prest dago!"
 
 #: app/scripts/templates/ready.mustache:11
 msgid "Stay in sync on the go:"
-msgstr ""
+msgstr "Mantendu sinkronizatuta:"
 
 #: app/scripts/templates/ready.mustache:12
 msgid "Get Firefox for Android"
-msgstr ""
+msgstr "Eskuratu Androiderako Firefox"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
@@ -547,9 +545,8 @@ msgid "Manage account"
 msgstr "Kudeatu kontua"
 
 #: app/scripts/templates/settings.mustache:2
-#, fuzzy
 msgid "You are signed in as"
-msgstr "Honela hasi duzu saioa: %(email)s"
+msgstr "Honela hasi duzu saioa:"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"
