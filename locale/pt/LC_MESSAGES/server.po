@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-04-26 01:24+0000\n"
+"PO-Revision-Date: 2014-05-03 03:12+0000\n"
 "Last-Translator: Cláudio <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1398475490.0\n"
+"X-POOTLE-MTIME: 1399086734.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -55,7 +55,7 @@ msgstr "Início"
 #: server/templates/pages/dist/500.html:2 server/lib/500.js:21
 #: server/lib/500.js:24
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Sistema não disponível, tente novamente em breve"
 
 #: server/templates/pages/src/500.html:3
 #: server/templates/pages/dist/500.html:3
@@ -63,11 +63,13 @@ msgid ""
 "We are currently performing some maintenance on the system, and will return "
 "momentarily."
 msgstr ""
+"Estamos atualmente a executar algumas tarefas de manutenção no sistema e "
+"este será reposto em breve."
 
 #: server/templates/pages/src/503.html:2
 #: server/templates/pages/dist/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Servidor ocupado, tente novamente em breve"
 
 #: server/templates/pages/src/503.html:3
 #: server/templates/pages/dist/503.html:3
@@ -75,6 +77,8 @@ msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
+"Estamos neste momento sobre grande pressão e a trabalhar para repor o "
+"sistema ao seu estado normal o mais brevemente possível."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
@@ -86,6 +90,9 @@ msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
+"Está a utilizar um navegador <strong>desatualizado</strong>. Por favor <a "
+"href=\"http://browsehappy.com/\">atualize o seu navegador</a> para melhorar a "
+"sua experiência."
 
 #: server/templates/pages/src/index.html:3
 #: server/templates/pages/dist/index.html:3
@@ -144,7 +151,7 @@ msgstr ""
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
-msgstr "Repor senha"
+msgstr "Repor senha:"
 
 #: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
