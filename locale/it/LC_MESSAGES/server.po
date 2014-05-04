@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-04-15 13:31+0000\n"
+"PO-Revision-Date: 2014-05-04 11:31+0000\n"
 "Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397568687.0\n"
+"X-POOTLE-MTIME: 1399203103.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -55,7 +55,7 @@ msgstr "Pagina principale"
 #: server/templates/pages/dist/500.html:2 server/lib/500.js:21
 #: server/lib/500.js:24
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Il sistema non è disponibile, riprova più tardi"
 
 #: server/templates/pages/src/500.html:3
 #: server/templates/pages/dist/500.html:3
@@ -63,11 +63,13 @@ msgid ""
 "We are currently performing some maintenance on the system, and will return "
 "momentarily."
 msgstr ""
+"È in corso un intervento di manutenzione al sistema che sarà nuovamente "
+"disponibile a momenti."
 
 #: server/templates/pages/src/503.html:2
 #: server/templates/pages/dist/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Il server è occupato, riprova più tardi"
 
 #: server/templates/pages/src/503.html:3
 #: server/templates/pages/dist/503.html:3
@@ -75,6 +77,8 @@ msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
+"Attualmente il sistema è sottoposto a un forte carico e stiamo lavorando per "
+"riportarlo alla normalità il più presto possibile."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
@@ -86,6 +90,9 @@ msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
+"Il browser in uso <strong>non è aggiornato</strong>. <a "
+"href=\"http://browsehappy.com/\">Aggiornalo ora</a> per migliorare la "
+"fruizione di questo sito."
 
 #: server/templates/pages/src/index.html:3
 #: server/templates/pages/dist/index.html:3
@@ -131,7 +138,7 @@ msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
-"Questa email è stata inviata da un servizio automatico. Se hai ricevuto "
+"Questa email è stata inviata da un servizio automatico, se hai ricevuto "
 "questa e-mail per errore, puoi semplicemente ignorarla."
 
 #: server/templates/email/reset.html:6 server/templates/email/verify.html:6

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-04-15 13:41+0000\n"
+"PO-Revision-Date: 2014-05-04 11:31+0000\n"
 "Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397569280.0\n"
+"X-POOTLE-MTIME: 1399203066.0\n"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1991"
@@ -82,13 +82,12 @@ msgid "2007"
 msgstr "2007"
 
 #: app/scripts/views/base.js:63
-#, fuzzy
 msgid "Session expired. Sign in to continue."
-msgstr "Accedi per continuare"
+msgstr "La sessione è scaduta. Accedi per continuare."
 
 #: app/scripts/views/base.js:403
 msgid "missing search parameter: %(itemName)s"
-msgstr ""
+msgstr "parametro di ricerca mancante: %(itemName)s"
 
 #: app/scripts/views/change_password.js:50
 msgid "Your new password must be different"
@@ -103,6 +102,8 @@ msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
 msgstr ""
+"Account non verificato. <a href=\"#\" id=\"resend\">Invia nuovamente l’email di "
+"verifica</a>."
 
 #: app/scripts/views/complete_reset_password.js:85
 msgid "Passwords do not match"
@@ -110,23 +111,20 @@ msgstr "Le password non corrispondono"
 
 #: app/scripts/views/confirm.js:46
 #: app/scripts/views/confirm_reset_password.js:76
-#, fuzzy
 msgid "Invalid token"
-msgstr "Password non valida"
+msgstr "Token non valido"
 
 #: app/scripts/views/confirm_reset_password.js:52
-#, fuzzy
 msgid "Password reset. Sign in to continue."
-msgstr "Accedi per continuare"
+msgstr "Password reimpostata. Accedi per continuare."
 
 #: app/scripts/views/cookies_disabled.js:34
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "I cookie sono ancora disattivati"
 
 #: app/scripts/views/delete_account.js:45
-#, fuzzy
 msgid "Account deleted successfully"
-msgstr "Accesso effettuato con successo"
+msgstr "L’account è stato correttamente eliminato"
 
 #: app/scripts/views/force_auth.js:42
 msgid "/force_auth requires an email"
@@ -152,9 +150,8 @@ msgid "Could not get Privacy Notice"
 msgstr "Impossibile accedere all’Informativa sulla privacy"
 
 #: app/scripts/views/settings.js:42
-#, fuzzy
 msgid "Signed out"
-msgstr "Esci"
+msgstr "Disconnessione effettuata"
 
 #: app/scripts/views/sign_in.js:73
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -239,26 +236,24 @@ msgid "Request body too large"
 msgstr "Testo della richiesta troppo lungo"
 
 #: app/scripts/lib/auth-errors.js:60
-#, fuzzy
 msgid "Attempt limit exceeded."
-msgstr "È stato superato il numero di tentativi consentiti. Riprova più tardi."
+msgstr "È stato superato il numero di tentativi consentiti."
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Il sistema non è disponibile, riprova tra qualche secondo"
 
 #: app/scripts/lib/auth-errors.js:62
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Il server è occupato, riprova tra qualche secondo"
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "This endpoint is no longer supported"
 msgstr "Questo endpoint non è più supportato"
 
 #: app/scripts/lib/service-name.js:16
-#, fuzzy
 msgid "Firefox Sync"
-msgstr "Firefox Accounts"
+msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:20
 msgid "Invalid password"
@@ -346,7 +341,7 @@ msgstr "Indietro"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Verification link expired"
-msgstr ""
+msgstr "Il link di verifica è scaduto"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/confirm.mustache:2
@@ -356,16 +351,16 @@ msgstr "È stata inviata un’altra email"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
-msgstr ""
+msgstr "Il link per la reimpostazione della password è scaduto."
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr ""
+msgstr "Fai clic qui per ricevere un nuovo link per reimpostare la password"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Il link di verifica è danneggiato"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -373,6 +368,9 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
+"Al link che hai cliccato mancano alcuni caratteri, probabilmente ciò dipende "
+"dal client di posta elettronica. Riprova assicurandoti di copiare con cura "
+"il link."
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
@@ -390,9 +388,8 @@ msgid "Next"
 msgstr "Avanti"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Verification error"
-msgstr "Codice di verifica non valido"
+msgstr "Errore durante la verifica"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -430,7 +427,7 @@ msgstr "Accedi"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies Required"
-msgstr ""
+msgstr "È necessario attivare i cookie"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -438,15 +435,18 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
+"Assicurati di attivare i cookie che sono necessari per il corretto "
+"funzionamento di Firefox Accounts. I cookie sono dei dati di modesta entità "
+"memorizzati nel browser che consentono alcune operazioni come tener traccia "
+"degli utenti autenticati in sessioni distinte."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
-#, fuzzy
 msgid "Learn more"
-msgstr "Ulteriori informazioni."
+msgstr "Ulteriori informazioni"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "Riprova"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
@@ -521,7 +521,6 @@ msgid "Success"
 msgstr "L’operazione è stata completata con successo"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s."
 msgstr "Ora puoi utilizzare %(serviceName)s."
 
@@ -531,11 +530,11 @@ msgstr "Ora l’account è pronto."
 
 #: app/scripts/templates/ready.mustache:11
 msgid "Stay in sync on the go:"
-msgstr ""
+msgstr "Rimani sincronizzato in movimento:"
 
 #: app/scripts/templates/ready.mustache:12
 msgid "Get Firefox for Android"
-msgstr ""
+msgstr "Scarica Firefox per Android"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
@@ -554,9 +553,8 @@ msgid "Manage account"
 msgstr "Gestione account"
 
 #: app/scripts/templates/settings.mustache:2
-#, fuzzy
 msgid "You are signed in as"
-msgstr "Accesso effettuato come: %(email)s"
+msgstr "Accesso effettuato come"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"
