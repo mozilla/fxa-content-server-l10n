@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-03-14 17:24+0000\n"
-"Last-Translator: Vanja <tumbas93@gmail.com>\n"
+"PO-Revision-Date: 2014-05-04 10:49+0000\n"
+"Last-Translator: Aleksandra <auzelac91@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1394817852.0\n"
+"X-POOTLE-MTIME: 1399200591.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -55,19 +55,19 @@ msgstr "Početna"
 #: server/templates/pages/dist/500.html:2 server/lib/500.js:21
 #: server/lib/500.js:24
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Sistem nedostupan, pokušajte ponovo za par minuta"
 
 #: server/templates/pages/src/500.html:3
 #: server/templates/pages/dist/500.html:3
 msgid ""
 "We are currently performing some maintenance on the system, and will return "
 "momentarily."
-msgstr ""
+msgstr "Trenutno radimo održavanje sistema, vratićemo se za nekoliko momenata."
 
 #: server/templates/pages/src/503.html:2
 #: server/templates/pages/dist/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Server zauzet, pokušajte ponovo za par minuta"
 
 #: server/templates/pages/src/503.html:3
 #: server/templates/pages/dist/503.html:3
@@ -75,6 +75,8 @@ msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
+"Trenutno smo pod jakim naporom i trudimo se da vratimo sistem u normalu što "
+"je pre moguće."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
@@ -86,6 +88,9 @@ msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
+"Koristite <strong>zastareo</strong> pregledač. Molimo Vas <a "
+"href=\"http://browsehappy.com/\">dogradite Vaš pregledač</a> da biste "
+"poboljšali Vaše iskustvo."
 
 #: server/templates/pages/src/index.html:3
 #: server/templates/pages/dist/index.html:3
@@ -97,31 +102,29 @@ msgstr "Firefox nalozi zahtevaju JavaScript."
 #: server/templates/pages/dist/privacy.html:2
 #: server/templates/pages/dist/privacy.html:5
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Obaveštenje o privatnosti"
 
 #: server/templates/pages/src/privacy.html:4
 #: server/templates/pages/src/terms.html:4
 #: server/templates/pages/dist/privacy.html:4
 #: server/templates/pages/dist/terms.html:4
-#, fuzzy
 msgid "Firefox cloud services"
-msgstr "Firefox nalozi"
+msgstr "Firefox cloud nalozi"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:5
 #: server/templates/pages/dist/terms.html:2
 #: server/templates/pages/dist/terms.html:5
 msgid "Terms of Service"
-msgstr ""
+msgstr "Uslovi usluge"
 
 #: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
 msgid "Are you sure?"
-msgstr ""
+msgstr "Da li ste sigurni?"
 
 #: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
-#, fuzzy
 msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Zahtev za resetovanje lozinke za %(email)s je napravljen."
+msgstr "Molimo Vas potvrdite da želite obnoviti lozinku za %(email)s."
 
 #: server/templates/email/reset.html:4
 msgid "Reset password"
@@ -129,17 +132,20 @@ msgstr "Resetuj lozinku"
 
 #: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
 #: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
-#, fuzzy
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
-msgstr "Ako ste ovu e-poštu dobili greškom, ni jedna akcija nije potrebna."
+msgstr ""
+"Ovo je automatska poruka; ako ste je greškom primili, ni jedna radnja nije "
+"potrebna."
 
 #: server/templates/email/reset.html:6 server/templates/email/verify.html:6
 msgid ""
 "For more information, please visit <a href='https://support.mozilla."
 "org'>Mozilla Support</a>"
 msgstr ""
+"Za više informacija, molimo Vas posetite <a href='https://support.mozilla."
+"org'>Mozilla podršku</a>"
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
@@ -147,17 +153,15 @@ msgstr "Resetuj lozinku:"
 
 #: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
-msgstr ""
+msgstr "Za više informacija, molimo Vas posetite https://support.mozilla.org"
 
 #: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
 msgid "Congratulations!"
-msgstr ""
+msgstr "Čestitamo!"
 
 #: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
-#, fuzzy
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr ""
-"Čestitamo! %(email)s, sekunde Vas dele od verifikacije Vašeg Firefox naloga."
+msgstr "%(email)s, sekunde Vas dele od verifikacije Vašeg Firefox naloga."
 
 #: server/templates/email/verify.html:4
 msgid "Verify"
@@ -168,12 +172,10 @@ msgid "Verify:"
 msgstr "Verifikuj:"
 
 #: server/lib/templates.js:35
-#, fuzzy
 msgid "Verify your account"
 msgstr "Potvrdite Vaš nalog"
 
 #: server/lib/templates.js:40
-#, fuzzy
 msgid "Reset your password"
 msgstr "Resetuj lozinku"
 
