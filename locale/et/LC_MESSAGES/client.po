@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-04-18 19:16+0000\n"
+"PO-Revision-Date: 2014-05-05 09:56+0000\n"
 "Last-Translator: Sander <sander.lepik@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397848571.0\n"
+"X-POOTLE-MTIME: 1399283774.0\n"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1991"
@@ -82,13 +82,12 @@ msgid "2007"
 msgstr "2007"
 
 #: app/scripts/views/base.js:63
-#, fuzzy
 msgid "Session expired. Sign in to continue."
-msgstr "Jätkamiseks logi sisse"
+msgstr "Seanss aegus. Jätkamiseks logi sisse."
 
 #: app/scripts/views/base.js:403
 msgid "missing search parameter: %(itemName)s"
-msgstr ""
+msgstr "puuduv otsingu parameeter: %(itemName)s"
 
 #: app/scripts/views/change_password.js:50
 msgid "Your new password must be different"
@@ -103,6 +102,8 @@ msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
 msgstr ""
+"Kinnitamata konto. <a href=\"#\" id=\"resend\">Saada kinnitamise e-kiri "
+"uuesti</a>."
 
 #: app/scripts/views/complete_reset_password.js:85
 msgid "Passwords do not match"
@@ -110,23 +111,20 @@ msgstr "Paroolid ei ühti"
 
 #: app/scripts/views/confirm.js:46
 #: app/scripts/views/confirm_reset_password.js:76
-#, fuzzy
 msgid "Invalid token"
-msgstr "Vigane parool"
+msgstr "Vigane turvatõend"
 
 #: app/scripts/views/confirm_reset_password.js:52
-#, fuzzy
 msgid "Password reset. Sign in to continue."
-msgstr "Jätkamiseks logi sisse"
+msgstr "Parool lähtestatud. Jätkamiseks logi sisse."
 
 #: app/scripts/views/cookies_disabled.js:34
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Küpsised on endiselt keelatud"
 
 #: app/scripts/views/delete_account.js:45
-#, fuzzy
 msgid "Account deleted successfully"
-msgstr "Edukalt sisse logitud"
+msgstr "Konto on edukalt kustutatud"
 
 #: app/scripts/views/force_auth.js:42
 msgid "/force_auth requires an email"
@@ -152,9 +150,8 @@ msgid "Could not get Privacy Notice"
 msgstr "Privaatsusreeglite hankimine ebaõnnestus"
 
 #: app/scripts/views/settings.js:42
-#, fuzzy
 msgid "Signed out"
-msgstr "Logi välja"
+msgstr "Välja logitud"
 
 #: app/scripts/views/sign_in.js:73
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -237,17 +234,16 @@ msgid "Request body too large"
 msgstr "Päringu keha liiga suur"
 
 #: app/scripts/lib/auth-errors.js:60
-#, fuzzy
 msgid "Attempt limit exceeded."
-msgstr "Katsete limiit ületatud. Proovi hiljem uuesti."
+msgstr "Katsete limiit ületatud."
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Süsteem pole kättesaadav, proovi mõne aja pärast uuesti"
 
 #: app/scripts/lib/auth-errors.js:62
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Server on hõivatud, proovi mõne aja pärast uuesti"
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "This endpoint is no longer supported"
@@ -255,7 +251,7 @@ msgstr "See lõpppunkt pole enam toetatud"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:20
 msgid "Invalid password"
@@ -341,7 +337,7 @@ msgstr "Tagasi"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Verification link expired"
-msgstr ""
+msgstr "Kinnitamise link aegus"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/confirm.mustache:2
@@ -351,16 +347,16 @@ msgstr "E-kiri on uuesti saadetud"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
-msgstr ""
+msgstr "Link, millel klõpsasid parooli lähtestamiseks, on aegunud."
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr ""
+msgstr "Uue lähtestamise lingi saamiseks klõpsa siia"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Kinnitamise link on vigane"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -368,6 +364,8 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
+"Kasutatud lingis olid osad tähemärgid puudu (põhjuseks võib olla e-posti "
+"klient, mis tegi lingi katki). Kopeeri aadress hoolikalt ja proovi uuesti."
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
@@ -385,9 +383,8 @@ msgid "Next"
 msgstr "Edasi"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Verification error"
-msgstr "Vigane kinnituskood"
+msgstr "Viga kinnitamisel"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -424,7 +421,7 @@ msgstr "Logi sisse"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies Required"
-msgstr ""
+msgstr "Küpsised on nõutud"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -432,15 +429,17 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
+"Palun luba oma brauseris küpsised, sest Firefoxi kontod nõuavad neid. "
+"Küpsised hoiavad väikseid koguseid andmeid sinu brauseris ning võimaldavad "
+"näiteks pidada sind meeles erinevate külastuste vahel."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
-#, fuzzy
 msgid "Learn more"
-msgstr "Rohkem teavet."
+msgstr "Rohkem teavet"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "Proovi uuesti"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
@@ -517,7 +516,6 @@ msgid "Success"
 msgstr "Õnnestus"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s."
 msgstr "%(serviceName)s on kasutamiseks valmis."
 
@@ -527,11 +525,11 @@ msgstr "Sinu konto on valmis!"
 
 #: app/scripts/templates/ready.mustache:11
 msgid "Stay in sync on the go:"
-msgstr ""
+msgstr "Püsi sünkroonis ka liikvel olles:"
 
 #: app/scripts/templates/ready.mustache:12
 msgid "Get Firefox for Android"
-msgstr ""
+msgstr "hangi Firefox Androidile"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
@@ -548,9 +546,8 @@ msgid "Manage account"
 msgstr "Konto haldamine"
 
 #: app/scripts/templates/settings.mustache:2
-#, fuzzy
 msgid "You are signed in as"
-msgstr "Oled sisselogitud kasutajana %(email)s"
+msgstr "Oled sisselogitud kasutajana"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"
