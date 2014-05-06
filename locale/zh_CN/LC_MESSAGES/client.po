@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-04-16 14:54+0000\n"
+"PO-Revision-Date: 2014-05-06 15:13+0000\n"
 "Last-Translator: Shen <steekid@icloud.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397660091.0\n"
+"X-POOTLE-MTIME: 1399389215.0\n"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1991"
@@ -83,13 +83,12 @@ msgid "2007"
 msgstr "2007"
 
 #: app/scripts/views/base.js:63
-#, fuzzy
 msgid "Session expired. Sign in to continue."
-msgstr "登录以继续"
+msgstr "会话已过期，登录后才能继续。"
 
 #: app/scripts/views/base.js:403
 msgid "missing search parameter: %(itemName)s"
-msgstr ""
+msgstr "缺少搜索参数：%(itemName)s"
 
 #: app/scripts/views/change_password.js:50
 msgid "Your new password must be different"
@@ -103,7 +102,7 @@ msgstr "密码已更改"
 msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
-msgstr ""
+msgstr "尚未验证的账户。<a href=\"#\" id=\"resend\">重新发送验证邮件</a>。"
 
 #: app/scripts/views/complete_reset_password.js:85
 msgid "Passwords do not match"
@@ -111,23 +110,20 @@ msgstr "密码不匹配"
 
 #: app/scripts/views/confirm.js:46
 #: app/scripts/views/confirm_reset_password.js:76
-#, fuzzy
 msgid "Invalid token"
-msgstr "无效密码"
+msgstr "无效令牌"
 
 #: app/scripts/views/confirm_reset_password.js:52
-#, fuzzy
 msgid "Password reset. Sign in to continue."
-msgstr "登录以继续"
+msgstr "密码已重置，登录后继续。"
 
 #: app/scripts/views/cookies_disabled.js:34
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "cookie 仍被停用"
 
 #: app/scripts/views/delete_account.js:45
-#, fuzzy
 msgid "Account deleted successfully"
-msgstr "已登录成功"
+msgstr "账户已成功删除"
 
 #: app/scripts/views/force_auth.js:42
 msgid "/force_auth requires an email"
@@ -153,9 +149,8 @@ msgid "Could not get Privacy Notice"
 msgstr "无法获取隐私政策"
 
 #: app/scripts/views/settings.js:42
-#, fuzzy
 msgid "Signed out"
-msgstr "退出"
+msgstr "已退出"
 
 #: app/scripts/views/sign_in.js:73
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -238,26 +233,24 @@ msgid "Request body too large"
 msgstr "请求内容太大"
 
 #: app/scripts/lib/auth-errors.js:60
-#, fuzzy
 msgid "Attempt limit exceeded."
-msgstr "超过尝试次数限制，请稍后再试。"
+msgstr "超过尝试次数限制"
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "系统不可用，请稍后再试"
 
 #: app/scripts/lib/auth-errors.js:62
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "系统繁忙，请稍后再试"
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "This endpoint is no longer supported"
 msgstr "不再支持这个端点"
 
 #: app/scripts/lib/service-name.js:16
-#, fuzzy
 msgid "Firefox Sync"
-msgstr "Firefox 账号"
+msgstr "Firefox 同步"
 
 #: app/scripts/lib/strings.js:20
 msgid "Invalid password"
@@ -343,7 +336,7 @@ msgstr "返回"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Verification link expired"
-msgstr ""
+msgstr "验证链接已过期"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/confirm.mustache:2
@@ -353,23 +346,23 @@ msgstr "邮件已重发"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
-msgstr ""
+msgstr "您点击的重置密码链接已过期。"
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr ""
+msgstr "点击这里接收一个新的重置链接"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link damaged"
-msgstr ""
+msgstr "验证链接损坏"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:2
 msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
-msgstr ""
+msgstr "您点击的链接缺少字符，可能由于您的邮件客户端的原因损坏了。请确保复制了完整的网址，然后再试一次。"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
@@ -387,9 +380,8 @@ msgid "Next"
 msgstr "下一步"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Verification error"
-msgstr "无效的验证码"
+msgstr "验证错误"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -426,7 +418,7 @@ msgstr "登录"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies Required"
-msgstr ""
+msgstr "需要启用 cookie"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -434,15 +426,15 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
+"为了使用 Firefox 账户请启用您的浏览器的 cookie 功能。cookie 是保存在您的浏览器众的小数据片段，提供在会话间记住您的状态等功能。"
 
 #: app/scripts/templates/cookies_disabled.mustache:3
-#, fuzzy
 msgid "Learn more"
 msgstr "详细了解。"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "再试一次"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
@@ -516,7 +508,6 @@ msgid "Success"
 msgstr "成功"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s."
 msgstr "您已经准备好使用 %(serviceName)s 了。"
 
@@ -526,11 +517,11 @@ msgstr "您的账号已经准备好！"
 
 #: app/scripts/templates/ready.mustache:11
 msgid "Stay in sync on the go:"
-msgstr ""
+msgstr "在移动环境下保持同步："
 
 #: app/scripts/templates/ready.mustache:12
 msgid "Get Firefox for Android"
-msgstr ""
+msgstr "下载 Android 版 Firefox"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
@@ -547,9 +538,8 @@ msgid "Manage account"
 msgstr "管理账号"
 
 #: app/scripts/templates/settings.mustache:2
-#, fuzzy
 msgid "You are signed in as"
-msgstr "您已登录为：%(email)s"
+msgstr "您已登录为"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"

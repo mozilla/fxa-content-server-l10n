@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-04-16 14:58+0000\n"
+"PO-Revision-Date: 2014-05-06 15:13+0000\n"
 "Last-Translator: Shen <steekid@icloud.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397660322.0\n"
+"X-POOTLE-MTIME: 1399389208.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -53,26 +53,26 @@ msgstr "首页"
 #: server/templates/pages/dist/500.html:2 server/lib/500.js:21
 #: server/lib/500.js:24
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "系统不可用，请稍后再试"
 
 #: server/templates/pages/src/500.html:3
 #: server/templates/pages/dist/500.html:3
 msgid ""
 "We are currently performing some maintenance on the system, and will return "
 "momentarily."
-msgstr ""
+msgstr "我们正在进行系统维护，很快就会恢复正常。"
 
 #: server/templates/pages/src/503.html:2
 #: server/templates/pages/dist/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "服务器繁忙，请稍后再试"
 
 #: server/templates/pages/src/503.html:3
 #: server/templates/pages/dist/503.html:3
 msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
-msgstr ""
+msgstr "我们目前有大量用户正在访问中，会尽快恢复系统的正常运转。"
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
@@ -84,6 +84,8 @@ msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
+"您正在使用<strong>过时的</strong>浏览器。请<a "
+"href=\"http://browsehappy.com/\">升级浏览器</a>改进网络体验。"
 
 #: server/templates/pages/src/index.html:3
 #: server/templates/pages/dist/index.html:3
