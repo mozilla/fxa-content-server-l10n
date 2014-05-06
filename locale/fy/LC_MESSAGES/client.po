@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-04-15 12:07+0000\n"
+"PO-Revision-Date: 2014-05-06 09:05+0000\n"
 "Last-Translator: Wim <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397563639.0\n"
+"X-POOTLE-MTIME: 1399367131.0\n"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1991"
@@ -82,13 +82,12 @@ msgid "2007"
 msgstr "2007"
 
 #: app/scripts/views/base.js:63
-#, fuzzy
 msgid "Session expired. Sign in to continue."
-msgstr "Meld jo oan om troch te gean"
+msgstr "Sesje ferrûn. Meld jo oan om troch te gean."
 
 #: app/scripts/views/base.js:403
 msgid "missing search parameter: %(itemName)s"
-msgstr ""
+msgstr "sykparameter ûntbrekt: %(itemName)s"
 
 #: app/scripts/views/change_password.js:50
 msgid "Your new password must be different"
@@ -103,6 +102,8 @@ msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
 msgstr ""
+"Net-ferifiearre account. <a href=\"#\" id=\"resend\">Ferifikaasje-e-mail opnij "
+"ferstjoere</a>."
 
 #: app/scripts/views/complete_reset_password.js:85
 msgid "Passwords do not match"
@@ -110,23 +111,20 @@ msgstr "Wachtwurden komme net oerien"
 
 #: app/scripts/views/confirm.js:46
 #: app/scripts/views/confirm_reset_password.js:76
-#, fuzzy
 msgid "Invalid token"
-msgstr "Unjildich wachtwurd"
+msgstr "Unjildich token"
 
 #: app/scripts/views/confirm_reset_password.js:52
-#, fuzzy
 msgid "Password reset. Sign in to continue."
-msgstr "Meld jo oan om troch te gean"
+msgstr "Wachtwurd opnij ynsteld. Meld jo oan om troch te gean."
 
 #: app/scripts/views/cookies_disabled.js:34
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Cookies binne noch útskeakele"
 
 #: app/scripts/views/delete_account.js:45
-#, fuzzy
 msgid "Account deleted successfully"
-msgstr "Mei sukses oanmeld"
+msgstr "Account mei sukses fuortsmiten"
 
 #: app/scripts/views/force_auth.js:42
 msgid "/force_auth requires an email"
@@ -152,9 +150,8 @@ msgid "Could not get Privacy Notice"
 msgstr "Kin privacybetingsten net ophelje"
 
 #: app/scripts/views/settings.js:42
-#, fuzzy
 msgid "Signed out"
-msgstr "Ofmelde"
+msgstr "Ofmelden"
 
 #: app/scripts/views/sign_in.js:73
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -237,26 +234,24 @@ msgid "Request body too large"
 msgstr "Oanfraachtekst te lang"
 
 #: app/scripts/lib/auth-errors.js:60
-#, fuzzy
 msgid "Attempt limit exceeded."
-msgstr "Tastiene oantal mooglikheden berikt. Probearje it letter nochris."
+msgstr "Tastiene oantal mooglikheden berikt."
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Systeem net beskikber, probearje it letter opnij"
 
 #: app/scripts/lib/auth-errors.js:62
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Server beset, probearje it letter opnij"
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "This endpoint is no longer supported"
 msgstr "Dit einpunt wurdt net mear stipe"
 
 #: app/scripts/lib/service-name.js:16
-#, fuzzy
 msgid "Firefox Sync"
-msgstr "Firefox-accounts"
+msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:20
 msgid "Invalid password"
@@ -344,7 +339,7 @@ msgstr "Tebek"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Verification link expired"
-msgstr ""
+msgstr "Ferifikaasjekeppeling ferrûn"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/confirm.mustache:2
@@ -355,15 +350,17 @@ msgstr "E-mailberjocht opnij ferstjoerd"
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
 msgstr ""
+"De keppeling wêrop jo klikt hawwe foar it opnij ynstellen fan jo wachtwurd "
+"is ferrûn."
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr ""
+msgstr "Klik hjir om in nije werinisjalisaasjekeppeling te ûntfangen"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Ferifikaasjekeppeling skansearre"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -371,6 +368,9 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
+"De keppeling wêrop jo klikt hawwe miste tekens en is mooglik defekt rekke "
+"troch jo e-mailclient. Kopiearje foarsichtich it adres en probearje it "
+"opnij."
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
@@ -388,9 +388,8 @@ msgid "Next"
 msgstr "Folgjende"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Verification error"
-msgstr "Unjildige ferifikaasjekoade"
+msgstr "Ferifikaasjeflater"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -427,7 +426,7 @@ msgstr "Oanmelde"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies Required"
-msgstr ""
+msgstr "Cookies fereaske"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -435,15 +434,17 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
+"Skeakel cookies yn jo browser yn; dizze binne fereaske troch Firefox "
+"Accounts. Cookies binne lytse stikjes gegevens dy't yn jo browser bewarre "
+"wurde en funksjonaliteiten biede, lykas it ûnthâlden fan jo tusken sesjes."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
-#, fuzzy
 msgid "Learn more"
-msgstr "Mear lâze."
+msgstr "Mear ynfo"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "Opnij probearje"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
@@ -520,7 +521,6 @@ msgid "Success"
 msgstr "Slagge"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s."
 msgstr "Jo kinne %(serviceName)s no brûke."
 
@@ -530,11 +530,11 @@ msgstr "Jo account is ree!"
 
 #: app/scripts/templates/ready.mustache:11
 msgid "Stay in sync on the go:"
-msgstr ""
+msgstr "Bliuw ûnderweis syngroan:"
 
 #: app/scripts/templates/ready.mustache:12
 msgid "Get Firefox for Android"
-msgstr ""
+msgstr "Download Firefox foar Android"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
@@ -552,9 +552,8 @@ msgid "Manage account"
 msgstr "Account beheare"
 
 #: app/scripts/templates/settings.mustache:2
-#, fuzzy
 msgid "You are signed in as"
-msgstr "Jo binne oanmeld as: %(email)s"
+msgstr "Jo binne oanmeld as"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"
