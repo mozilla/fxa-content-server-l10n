@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-04-15 12:26+0000\n"
+"PO-Revision-Date: 2014-05-06 08:47+0000\n"
 "Last-Translator: Wim <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397564791.0\n"
+"X-POOTLE-MTIME: 1399366028.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -55,7 +55,7 @@ msgstr "Start"
 #: server/templates/pages/dist/500.html:2 server/lib/500.js:21
 #: server/lib/500.js:24
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Systeem net beskikber, probearje it letter opnij"
 
 #: server/templates/pages/src/500.html:3
 #: server/templates/pages/dist/500.html:3
@@ -63,11 +63,13 @@ msgid ""
 "We are currently performing some maintenance on the system, and will return "
 "momentarily."
 msgstr ""
+"Der wurdt op dit stuit wat ûnderhâld oan it systeem útfierd en wy binne "
+"ynkoarten wer beskikber."
 
 #: server/templates/pages/src/503.html:2
 #: server/templates/pages/dist/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Server beset, probearje it letter opnij"
 
 #: server/templates/pages/src/503.html:3
 #: server/templates/pages/dist/503.html:3
@@ -75,6 +77,8 @@ msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
+"Wy stean op dit stuit ûnder hege druk en wurkje oan in sa gau mooglik "
+"werstel fan it systeem."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
@@ -86,11 +90,14 @@ msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
+"Jo brûke in <strong>ferâldere</strong> browser. <a "
+"href=\"http://browsehappy.com/\">Fernij jo browser</a> om jo ûnderfining te "
+"ferbetterjen."
 
 #: server/templates/pages/src/index.html:3
 #: server/templates/pages/dist/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr "Firefox-accounts fereasket JavaScript"
+msgstr "Firefox-accounts fereasket JavaScript."
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:5
