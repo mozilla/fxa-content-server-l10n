@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-05-03 21:09+0000\n"
+"PO-Revision-Date: 2014-05-07 08:20+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1399151357.0\n"
+"X-POOTLE-MTIME: 1399450834.0\n"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1991"
@@ -150,7 +150,6 @@ msgid "Could not get Privacy Notice"
 msgstr "Gizlilik Bildirimi alınamadı"
 
 #: app/scripts/views/settings.js:42
-#, fuzzy
 msgid "Signed out"
 msgstr "Oturum kapatıldı"
 
@@ -366,6 +365,8 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
+"Tıkladığınız linkte bazı karakterler eksikti. Link, e-posta istemciniz "
+"tarafından bozulmuş olabilir. Adresi dikkatle kopyalayıp tekrar deneyin."
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
@@ -383,9 +384,8 @@ msgid "Next"
 msgstr "İleri"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Verification error"
-msgstr "Geçersiz doğrulama kodu"
+msgstr "Doğrulama hatası"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -422,7 +422,7 @@ msgstr "Oturum aç"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies Required"
-msgstr ""
+msgstr "Çerezler gerekli"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -430,15 +430,17 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
+"Firefox Hesapları'nı kullanabilmek için lütfen tarayıcınızda çerezleri "
+"etkinleştirin. Çerezler, oturumlar arasında sizi hatırlamak gibi işlevler "
+"sunmak üzere tarayıcınızda depolanan küçük veri parçalarıdır."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
-#, fuzzy
 msgid "Learn more"
-msgstr "Daha fazla bilgi edinin."
+msgstr "Daha fazla bilgi alın"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "Tekrar dene"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
@@ -513,7 +515,6 @@ msgid "Success"
 msgstr "Başarılı"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s."
 msgstr "%(serviceName)s artık kullanıma hazır."
 
@@ -523,11 +524,11 @@ msgstr "Hesabınız hazır!"
 
 #: app/scripts/templates/ready.mustache:11
 msgid "Stay in sync on the go:"
-msgstr ""
+msgstr "Yolda da senkronize olun:"
 
 #: app/scripts/templates/ready.mustache:12
 msgid "Get Firefox for Android"
-msgstr ""
+msgstr "Android için Firefox'u edinin"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
@@ -544,9 +545,8 @@ msgid "Manage account"
 msgstr "Hesabı yönet"
 
 #: app/scripts/templates/settings.mustache:2
-#, fuzzy
 msgid "You are signed in as"
-msgstr "%(email)s adresiyle oturum açtınız"
+msgstr "Oturum açtığınız adres:"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"
