@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-04-22 16:02+0000\n"
+"PO-Revision-Date: 2014-05-07 15:10+0000\n"
 "Last-Translator: Jørgen   <joergenr@stofanet.dk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: da\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1398182578.0\n"
+"X-POOTLE-MTIME: 1399475424.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -54,19 +54,19 @@ msgstr "Start"
 #: server/templates/pages/dist/500.html:2 server/lib/500.js:21
 #: server/lib/500.js:24
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Systemet er ikke tilgængeligt, prøv igen om lidt"
 
 #: server/templates/pages/src/500.html:3
 #: server/templates/pages/dist/500.html:3
 msgid ""
 "We are currently performing some maintenance on the system, and will return "
 "momentarily."
-msgstr ""
+msgstr "Vi udfører i øjeblikket vedligeholdelse på systemet, prøv igen om lidt."
 
 #: server/templates/pages/src/503.html:2
 #: server/templates/pages/dist/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Serveren er optaget, prøv igen om lidt"
 
 #: server/templates/pages/src/503.html:3
 #: server/templates/pages/dist/503.html:3
@@ -74,6 +74,8 @@ msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
+"Systemet er i øjeblikket under stor belastning. Vi arbejder på, at få det "
+"tilbage til normal tilstand så hurtigt som muligt."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
@@ -85,6 +87,9 @@ msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
+"Du bruger en <strong>forældet</strong> browser. <a "
+"href=\"http://browsehappy.com/\">Opdater din browser</a> for at få en bedre "
+"oplevelse."
 
 #: server/templates/pages/src/index.html:3
 #: server/templates/pages/dist/index.html:3

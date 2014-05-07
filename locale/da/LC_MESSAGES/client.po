@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-04-15 08:57+0000\n"
+"PO-Revision-Date: 2014-05-07 15:08+0000\n"
 "Last-Translator: Jørgen   <joergenr@stofanet.dk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: da\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397552263.0\n"
+"X-POOTLE-MTIME: 1399475336.0\n"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1991"
@@ -82,13 +82,12 @@ msgid "2007"
 msgstr "2007"
 
 #: app/scripts/views/base.js:63
-#, fuzzy
 msgid "Session expired. Sign in to continue."
-msgstr "Log ind for at fortsætte"
+msgstr "Sessionen udløb. Log ind for at fortsætte."
 
 #: app/scripts/views/base.js:403
 msgid "missing search parameter: %(itemName)s"
-msgstr ""
+msgstr "manglende søgeparameter: %(itemName)s"
 
 #: app/scripts/views/change_password.js:50
 msgid "Your new password must be different"
@@ -103,6 +102,7 @@ msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
 msgstr ""
+"Ubekræftet konto. <a href=\"#\" id=\"resend\">Send bekræftelsesmail igen</a>."
 
 #: app/scripts/views/complete_reset_password.js:85
 msgid "Passwords do not match"
@@ -110,23 +110,20 @@ msgstr "Adgangskoderne matcher ikke"
 
 #: app/scripts/views/confirm.js:46
 #: app/scripts/views/confirm_reset_password.js:76
-#, fuzzy
 msgid "Invalid token"
-msgstr "Ugyldig adgangskode"
+msgstr "Ugyldig token"
 
 #: app/scripts/views/confirm_reset_password.js:52
-#, fuzzy
 msgid "Password reset. Sign in to continue."
-msgstr "Log ind for at fortsætte"
+msgstr "Adgangskode nulstillet. Log ind for at fortsætte."
 
 #: app/scripts/views/cookies_disabled.js:34
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Cookies er stadig deaktiveret"
 
 #: app/scripts/views/delete_account.js:45
-#, fuzzy
 msgid "Account deleted successfully"
-msgstr "Logget ind korrekt"
+msgstr "Konto slettet korrekt"
 
 #: app/scripts/views/force_auth.js:42
 msgid "/force_auth requires an email"
@@ -152,9 +149,8 @@ msgid "Could not get Privacy Notice"
 msgstr "Kunne ikke hente Privatlivspolitik"
 
 #: app/scripts/views/settings.js:42
-#, fuzzy
 msgid "Signed out"
-msgstr "Log ud"
+msgstr "Logget ud"
 
 #: app/scripts/views/sign_in.js:73
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -237,17 +233,16 @@ msgid "Request body too large"
 msgstr "Request body er for stor"
 
 #: app/scripts/lib/auth-errors.js:60
-#, fuzzy
 msgid "Attempt limit exceeded."
-msgstr "Forsøgsgrænse overskredet. Prøv igen senere."
+msgstr "Forsøgsgrænse overskredet."
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Systemet er ikke tilgængeligt, prøv igen om lidt"
 
 #: app/scripts/lib/auth-errors.js:62
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Serveren er optaget, prøv igen om lidt"
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "This endpoint is no longer supported"
@@ -255,7 +250,7 @@ msgstr "Dette endpoint understøttes ikke længere"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:20
 msgid "Invalid password"
@@ -341,7 +336,7 @@ msgstr "Tilbage"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Verification link expired"
-msgstr ""
+msgstr "Bekræftelseslink er forældet"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/confirm.mustache:2
@@ -351,16 +346,16 @@ msgstr "Mail sendt igen"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
-msgstr ""
+msgstr "Linket du klikkede på for at nulstille din adgangskode er udløbet."
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr ""
+msgstr "Klik her for at modtage et nyt link til nulstilling"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Bekræftelseslink beskadiget"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -368,6 +363,8 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
+"Linket du klikkede på manglede tegn, og kan være blevet ødelagt af dit "
+"mailprogram. Kopier adressen, og prøv igen."
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
@@ -385,9 +382,8 @@ msgid "Next"
 msgstr "Næste"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Verification error"
-msgstr "Ugyldig bekræftelseskode"
+msgstr "Bekræftelsesfejl"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -424,7 +420,7 @@ msgstr "Log ind"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies Required"
-msgstr ""
+msgstr "Cookies påkrævet"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -432,15 +428,17 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
+"For at bruge Firefox-konti skal du aktivere cookies i din browser. Cookies "
+"er små tekstfiler, der opbevares i din browser. De gør det muligt at huske "
+"dig mellem sessioner."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
-#, fuzzy
 msgid "Learn more"
-msgstr "Læs mere."
+msgstr "Læs mere"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "Prøv igen"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
@@ -515,7 +513,6 @@ msgid "Success"
 msgstr "Lykkedes"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s."
 msgstr "Du er nu klar til at bruge %(serviceName)s."
 
@@ -525,11 +522,11 @@ msgstr "Din konto er klar!"
 
 #: app/scripts/templates/ready.mustache:11
 msgid "Stay in sync on the go:"
-msgstr ""
+msgstr "Hold dig synkroniseret på farten:"
 
 #: app/scripts/templates/ready.mustache:12
 msgid "Get Firefox for Android"
-msgstr ""
+msgstr "Hent Firefox til Android"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
@@ -547,9 +544,8 @@ msgid "Manage account"
 msgstr "Håndter konto"
 
 #: app/scripts/templates/settings.mustache:2
-#, fuzzy
 msgid "You are signed in as"
-msgstr "Du er logget ind som: %(email)s"
+msgstr "Du er logget ind som"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"
