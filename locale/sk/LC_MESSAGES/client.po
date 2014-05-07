@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-04-15 21:43+0000\n"
+"PO-Revision-Date: 2014-05-07 14:37+0000\n"
 "Last-Translator: Vlado <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397598222.0\n"
+"X-POOTLE-MTIME: 1399473446.0\n"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1991"
@@ -82,13 +82,12 @@ msgid "2007"
 msgstr "2007"
 
 #: app/scripts/views/base.js:63
-#, fuzzy
 msgid "Session expired. Sign in to continue."
-msgstr "Ak chcete pokračovať, prihláste sa."
+msgstr "Čas relácie vypršal. Ak chcete pokračovať, prihláste sa."
 
 #: app/scripts/views/base.js:403
 msgid "missing search parameter: %(itemName)s"
-msgstr ""
+msgstr "chýbajúci parameter vyhľadávania: %(itemName)s"
 
 #: app/scripts/views/change_password.js:50
 msgid "Your new password must be different"
@@ -103,6 +102,8 @@ msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
 msgstr ""
+"Neoverený účet. <a href=\"#\" id=\"resend\">Znova zaslať overovaciu e-mailovú "
+"správu</a>."
 
 #: app/scripts/views/complete_reset_password.js:85
 msgid "Passwords do not match"
@@ -110,23 +111,20 @@ msgstr "Heslá sa nezhodujú"
 
 #: app/scripts/views/confirm.js:46
 #: app/scripts/views/confirm_reset_password.js:76
-#, fuzzy
 msgid "Invalid token"
-msgstr "Neplatné heslo"
+msgstr "Neplatný token"
 
 #: app/scripts/views/confirm_reset_password.js:52
-#, fuzzy
 msgid "Password reset. Sign in to continue."
-msgstr "Ak chcete pokračovať, prihláste sa."
+msgstr "Obnovenie hesla. Ak chcete pokračovať, prihláste sa."
 
 #: app/scripts/views/cookies_disabled.js:34
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Cookies sú stále zakázané"
 
 #: app/scripts/views/delete_account.js:45
-#, fuzzy
 msgid "Account deleted successfully"
-msgstr "Prihlásenie prebehlo úspešne"
+msgstr "Účet bol úspešne odstránený"
 
 #: app/scripts/views/force_auth.js:42
 msgid "/force_auth requires an email"
@@ -152,9 +150,8 @@ msgid "Could not get Privacy Notice"
 msgstr "Nebolo možné získať Zásady ochrany osobných údajov"
 
 #: app/scripts/views/settings.js:42
-#, fuzzy
 msgid "Signed out"
-msgstr "Odhlásiť sa"
+msgstr "Odhlásený"
 
 #: app/scripts/views/sign_in.js:73
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -237,17 +234,16 @@ msgid "Request body too large"
 msgstr "Telo požiadavky je príliš veľké"
 
 #: app/scripts/lib/auth-errors.js:60
-#, fuzzy
 msgid "Attempt limit exceeded."
-msgstr "Bol prekročený počet možných pokusov. Skúste to znova neskôr."
+msgstr "Bol prekročený počet možných pokusov."
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Systém nie je dostupný, skúste to znova neskôr."
 
 #: app/scripts/lib/auth-errors.js:62
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Server je zaneprázdnený, skúste to znova neskôr."
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "This endpoint is no longer supported"
@@ -255,7 +251,7 @@ msgstr "Tento koncový bod už nie je podporovaný"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Služba Firefox Sync"
 
 #: app/scripts/lib/strings.js:20
 msgid "Invalid password"
@@ -342,7 +338,7 @@ msgstr "Naspäť"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Verification link expired"
-msgstr ""
+msgstr "Platnosť overovacieho odkazu vypršala"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/confirm.mustache:2
@@ -353,15 +349,16 @@ msgstr "E-mailová správa bola opätovne odoslaná"
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
 msgstr ""
+"Platnosť odkazu, na ktorý ste klikli s cieľom obnoviť heslo, už vypršala."
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr ""
+msgstr "Po kliknutí sem Vám zašleme nový odkaz."
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Overovací odkaz je poškodený"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -369,6 +366,9 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
+"Odkaz, na ktorý ste klikli, neobsahuje všetky potrebné znaky. Je možné, že "
+"nebol korektne spracovaný vašim e-mailovým klientom. Skopírujte adresu do "
+"prehliadača a skúste to znova."
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
@@ -386,9 +386,8 @@ msgid "Next"
 msgstr "Ďalej"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Verification error"
-msgstr "Neplatný overovací kód"
+msgstr "Chyba overenia"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -425,7 +424,7 @@ msgstr "Prihlásiť sa"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies Required"
-msgstr ""
+msgstr "Vyžadujú sa cookies"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -433,15 +432,17 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
+"Služba Firefox Accounts vyžaduje povolené cookies v vašom prehliadači. "
+"Cookies sú malé kúsky a údajmi uložené v prehliadači, ktoré poskytujú "
+"funkcionalitu, ako napr. zapamätanie si prihlásenia medzi reláciami."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
-#, fuzzy
 msgid "Learn more"
 msgstr "Ďalšie informácie"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "Skúsiť znova"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
@@ -516,7 +517,6 @@ msgid "Success"
 msgstr "Úspešné"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s."
 msgstr "Odteraz môžete využívať služby %(serviceName)s."
 
@@ -526,11 +526,11 @@ msgstr "Váš účet je pripravený."
 
 #: app/scripts/templates/ready.mustache:11
 msgid "Stay in sync on the go:"
-msgstr ""
+msgstr "Zostaňte synchronizovaný aj na cestách:"
 
 #: app/scripts/templates/ready.mustache:12
 msgid "Get Firefox for Android"
-msgstr ""
+msgstr "Nainštalujte si Firefox pre Android"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
@@ -547,9 +547,8 @@ msgid "Manage account"
 msgstr "Správa účtu"
 
 #: app/scripts/templates/settings.mustache:2
-#, fuzzy
 msgid "You are signed in as"
-msgstr "Ste prihlásený ako: %(email)s"
+msgstr "Ste prihlásený ako"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"
