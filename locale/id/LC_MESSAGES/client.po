@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-04-15 08:40+0000\n"
+"PO-Revision-Date: 2014-05-07 21:33+0000\n"
 "Last-Translator: Romi <romihardiyanto@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397551240.0\n"
+"X-POOTLE-MTIME: 1399498407.0\n"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1991"
@@ -82,13 +82,12 @@ msgid "2007"
 msgstr "2007"
 
 #: app/scripts/views/base.js:63
-#, fuzzy
 msgid "Session expired. Sign in to continue."
-msgstr "Masuk untuk melanjutkan"
+msgstr "Sesi kedaluwarsa. Masuk untuk melanjutkan."
 
 #: app/scripts/views/base.js:403
 msgid "missing search parameter: %(itemName)s"
-msgstr ""
+msgstr "parameter pencarian tidak tersedia: %(itemName)s"
 
 #: app/scripts/views/change_password.js:50
 msgid "Your new password must be different"
@@ -103,6 +102,8 @@ msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
 msgstr ""
+"Akun belum diverifikasi. <a href=\"#\" id=\"resend\">Kirim ulang email "
+"verifikasi</a>."
 
 #: app/scripts/views/complete_reset_password.js:85
 msgid "Passwords do not match"
@@ -110,23 +111,20 @@ msgstr "Sandi tidak sama"
 
 #: app/scripts/views/confirm.js:46
 #: app/scripts/views/confirm_reset_password.js:76
-#, fuzzy
 msgid "Invalid token"
-msgstr "Sandi tidak valid"
+msgstr "Token tidak valid"
 
 #: app/scripts/views/confirm_reset_password.js:52
-#, fuzzy
 msgid "Password reset. Sign in to continue."
-msgstr "Masuk untuk melanjutkan"
+msgstr "Sandi disetel ulang. Masuk untuk melanjutkan."
 
 #: app/scripts/views/cookies_disabled.js:34
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Kuki masih dinonaktifkan"
 
 #: app/scripts/views/delete_account.js:45
-#, fuzzy
 msgid "Account deleted successfully"
-msgstr "Berhasil masuk"
+msgstr "Akun berhasil dihapus"
 
 #: app/scripts/views/force_auth.js:42
 msgid "/force_auth requires an email"
@@ -152,7 +150,6 @@ msgid "Could not get Privacy Notice"
 msgstr "Tidak dapat mengambil Kebijakan Privasi"
 
 #: app/scripts/views/settings.js:42
-#, fuzzy
 msgid "Signed out"
 msgstr "Keluar"
 
@@ -237,17 +234,16 @@ msgid "Request body too large"
 msgstr "Isi permintaan terlalu besar"
 
 #: app/scripts/lib/auth-errors.js:60
-#, fuzzy
 msgid "Attempt limit exceeded."
-msgstr "Anda telah mencapai batas maksimum percobaan. Coba lagi nanti."
+msgstr "Batas maksimum percobaan terlampaui."
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Sistem tidak tersedia, coba lagi nanti"
 
 #: app/scripts/lib/auth-errors.js:62
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Server sibuk, coba lagi nanti"
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "This endpoint is no longer supported"
@@ -255,7 +251,7 @@ msgstr "Titik-akhir tidak lagi didukung"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:20
 msgid "Invalid password"
@@ -342,7 +338,7 @@ msgstr "Kembali"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Verification link expired"
-msgstr ""
+msgstr "Tautan verifikasi kedaluwarsa"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/confirm.mustache:2
@@ -352,16 +348,16 @@ msgstr "Email dikirimkan ulang"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
-msgstr ""
+msgstr "Tautan yang Anda klik untuk menyetel sandi telah kedaluwarsa."
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr ""
+msgstr "Klik di sini untuk mendapatkan tautan penyetelan ulang sandi yang baru"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Tautan verifikasi rusak"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -369,6 +365,8 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
+"Ada karakter yang hilang pada tautan yang Anda klik dan mungkin disebabkan "
+"oleh aplikasi email Anda. Salin alamatnya dengan benar, lalu coba lagi."
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
@@ -386,9 +384,8 @@ msgid "Next"
 msgstr "Lanjut"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Verification error"
-msgstr "Kode verifikasi tidak valid"
+msgstr "Kesalahan verifikasi"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -425,7 +422,7 @@ msgstr "Masuk"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies Required"
-msgstr ""
+msgstr "Dibutuhkan Kuki"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -433,15 +430,17 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
+"Aktifkan kuki pada peramban Anda karena dibutuhkan oleh Akun Firefox. Kuki "
+"merupakan data kecil yang disimpan pada peramban Anda, untuk menyediakan "
+"fungsionalitas misalnya mengingat Anda antar sesi."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
-#, fuzzy
 msgid "Learn more"
-msgstr "Pelajari selengkapnya."
+msgstr "Pelajari selengkapnya"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "Coba lagi"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
@@ -516,7 +515,6 @@ msgid "Success"
 msgstr "Sukses"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s."
 msgstr "Kini Anda siap menggunakan %(serviceName)s."
 
@@ -526,11 +524,11 @@ msgstr "Akun Anda siap!"
 
 #: app/scripts/templates/ready.mustache:11
 msgid "Stay in sync on the go:"
-msgstr ""
+msgstr "Sinkronkan selalu, kapan saja:"
 
 #: app/scripts/templates/ready.mustache:12
 msgid "Get Firefox for Android"
-msgstr ""
+msgstr "Dapatkan Firefox untuk Android"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
@@ -547,9 +545,8 @@ msgid "Manage account"
 msgstr "Kelola akun"
 
 #: app/scripts/templates/settings.mustache:2
-#, fuzzy
 msgid "You are signed in as"
-msgstr "Anda masuk sebagai: %(email)s"
+msgstr "Anda masuk sebagai"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"
