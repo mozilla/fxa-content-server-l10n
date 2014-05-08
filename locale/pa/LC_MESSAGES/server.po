@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-04-28 14:24+0000\n"
+"PO-Revision-Date: 2014-05-08 04:14+0000\n"
 "Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa\n"
@@ -12,9 +12,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1398695044.0\n"
+"X-POOTLE-MTIME: 1399522480.0\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
@@ -25,7 +26,8 @@ msgstr ""
 #: server/templates/pages/dist/index.html:1
 #: server/templates/pages/dist/privacy.html:1
 #: server/templates/pages/dist/terms.html:1
-#: server/templates/email/reset.html:1 server/templates/email/verify.html:1
+#: server/templates/email/reset.html:1
+#: server/templates/email/verify.html:1
 msgid "Firefox Accounts"
 msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤਾ"
 
@@ -40,10 +42,11 @@ msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
-"ਤੁਹਾਡੇ ਵਲੋਂ ਮੰਗਿਆ ਸਫ਼ਾ ਨਹੀਂ ਲੱਭਿਆ। ਸਾਨੂੰ ਜਾਣਕਾਰੀ ਮਿਲ ਗਈ ਹੈ ਅਤੇ ਖ਼ਰਾਬ ਹੋਏ ਕਿਸੇ ਵੀ ਲਿੰਕ ਨੂੰ ਅਸੀਂ "
-"ਠੀਕ ਕਰਾਂਗੇ।"
+"ਤੁਹਾਡੇ ਵਲੋਂ ਮੰਗਿਆ ਸਫ਼ਾ ਨਹੀਂ ਲੱਭਿਆ। ਸਾਨੂੰ ਜਾਣਕਾਰੀ ਮਿਲ ਗਈ ਹੈ ਅਤੇ ਖ਼ਰਾਬ ਹੋਏ "
+"ਕਿਸੇ ਵੀ ਲਿੰਕ ਨੂੰ ਅਸੀਂ ਠੀਕ ਕਰਾਂਗੇ।"
 
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
+#: server/templates/pages/src/404.html:4
+#: server/templates/pages/src/500.html:4
 #: server/templates/pages/src/503.html:4
 #: server/templates/pages/dist/404.html:4
 #: server/templates/pages/dist/500.html:4
@@ -52,10 +55,11 @@ msgid "Home"
 msgstr "ਮੁੱਖ ਸਫ਼ਾ"
 
 #: server/templates/pages/src/500.html:2
-#: server/templates/pages/dist/500.html:2 server/lib/500.js:21
+#: server/templates/pages/dist/500.html:2
+#: server/lib/500.js:21
 #: server/lib/500.js:24
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "ਸਿਸਟਮ ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ, ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।"
 
 #: server/templates/pages/src/500.html:3
 #: server/templates/pages/dist/500.html:3
@@ -83,8 +87,9 @@ msgstr ""
 #: server/templates/pages/dist/privacy.html:3
 #: server/templates/pages/dist/terms.html:3
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+"You are using an <strong>outdated</strong> browser. Please <a "
+"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+"experience."
 msgstr ""
 
 #: server/templates/pages/src/index.html:3
@@ -113,11 +118,13 @@ msgstr "ਫਾਇਰਫਾਕਸ ਕਲਾਉਡ ਸੇਵਾਵਾਂ"
 msgid "Terms of Service"
 msgstr "ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ"
 
-#: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
+#: server/templates/email/reset.html:2
+#: server/templates/email/reset.txt:1
 msgid "Are you sure?"
 msgstr "ਕੀ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
+#: server/templates/email/reset.html:3
+#: server/templates/email/reset.txt:2
 msgid "Please confirm that you'd like to reset the password for %(email)s."
 msgstr "ਪੁਸ਼ਟੀ ਕਰੋ ਜੀ ਕਿ ਤੁਸੀਂ %(email)s ਲਈ ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ।"
 
@@ -125,34 +132,42 @@ msgstr "ਪੁਸ਼ਟੀ ਕਰੋ ਜੀ ਕਿ ਤੁਸੀਂ %(email)s ਲਈ
 msgid "Reset password"
 msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ"
 
-#: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
-#: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
+#: server/templates/email/reset.html:5
+#: server/templates/email/reset.txt:4
+#: server/templates/email/verify.html:5
+#: server/templates/email/verify.txt:4
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
-"ਇਹ ਆਟੋਮੈਟਿਕ ਈਮੇਲ ਹੈ, ਜੇ ਤੁਹਾਨੂੰ ਇਹ ਗਲਤੀ ਨਾਲ ਮਿਲੀ ਹੈ ਤਾਂ ਕੋਈ ਵੀ ਕਾਰਵਾਈ ਕਰਨ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ।"
+"ਇਹ ਆਟੋਮੈਟਿਕ ਈਮੇਲ ਹੈ, ਜੇ ਤੁਹਾਨੂੰ ਇਹ ਗਲਤੀ ਨਾਲ ਮਿਲੀ ਹੈ ਤਾਂ ਕੋਈ ਵੀ ਕਾਰਵਾਈ ਕਰਨ ਦੀ "
+"ਲੋੜ ਨਹੀਂ ਹੈ।"
 
-#: server/templates/email/reset.html:6 server/templates/email/verify.html:6
+#: server/templates/email/reset.html:6
+#: server/templates/email/verify.html:6
 msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
+"For more information, please visit <a "
+"href='https://support.mozilla.org'>Mozilla Support</a>"
 msgstr ""
-"ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ <a href='https://support.mozilla.org'>Mozilla Support</a> ਵੇਖੋ ਜੀ"
+"ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ <a href='https://support.mozilla.org'>Mozilla Support</a> "
+"ਵੇਖੋ ਜੀ"
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
 msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ:"
 
-#: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
+#: server/templates/email/reset.txt:5
+#: server/templates/email/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
 msgstr "ਹੋਰ ਜਿਆਦਾ ਜਾਣਕਾਰੀ ਲਈ, ਵੇਖੋ ਜੀ https://support.mozilla.org"
 
-#: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
+#: server/templates/email/verify.html:2
+#: server/templates/email/verify.txt:1
 msgid "Congratulations!"
 msgstr "ਵਧਾਈਆਂ ਜੀ!"
 
-#: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
+#: server/templates/email/verify.html:3
+#: server/templates/email/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
 msgstr "%(email)s, ਤੁਸੀਂ ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਦੀ ਜਾਂਚ ਤੋਂ ਇੱਕ ਕਲਿੱਕ ਦੂਰ ਹੋ।"
 
