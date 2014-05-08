@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-05-03 15:37+0000\n"
-"Last-Translator: Michal <michal.stanke@mikk.cz>\n"
+"PO-Revision-Date: 2014-05-08 07:50+0000\n"
+"Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1399131433.0\n"
+"X-POOTLE-MTIME: 1399535450.0\n"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1991"
@@ -149,7 +149,6 @@ msgid "Could not get Privacy Notice"
 msgstr "Nepodařilo se získat zásady o ochraně osobních údajů"
 
 #: app/scripts/views/settings.js:42
-#, fuzzy
 msgid "Signed out"
 msgstr "Odhlášení"
 
@@ -234,9 +233,8 @@ msgid "Request body too large"
 msgstr "Tělo požadavku je příliš velké"
 
 #: app/scripts/lib/auth-errors.js:60
-#, fuzzy
 msgid "Attempt limit exceeded."
-msgstr "Byl překročen počet pokusů. Zkuste to prosím později znovu."
+msgstr "Překročili jste počet pokusů"
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "System unavailable, try again soon"
@@ -348,11 +346,11 @@ msgstr "E-mail znovu odeslán"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
-msgstr ""
+msgstr "Platnost odkazu pro obnovení hesla již vypršela."
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr ""
+msgstr "Klepněte zde pro zaslání nového odkazu pro obnovení                "
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 #: app/scripts/templates/complete_sign_up.mustache:1
@@ -365,6 +363,9 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
+"Adresa odkazu, na který jste klikli, nebyla kompletní. Mohla být poškozena "
+"například vaším e-mailovým klientem. Zkopírujte pečlivě celou adresu a "
+"zkuste to znovu."
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
@@ -420,7 +421,7 @@ msgstr "Přihlášení"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies Required"
-msgstr ""
+msgstr "Jsou vyžadovány povolené cookies"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -428,15 +429,18 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
+"Povolte prosím ukládání cookies ve vašem prohlížeči pro používání Firefox "
+"Accounts. Cookies jsou velmi malá data uložená ve vašem prohlížeči, která "
+"umožňují například zapamatování si vás jako uživatele mezi jednotlivými "
+"relacemi."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
-#, fuzzy
 msgid "Learn more"
-msgstr "Zjistit více."
+msgstr "Zjistit více"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "Zkuste to znovu"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
@@ -511,7 +515,6 @@ msgid "Success"
 msgstr "Úspěch"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s."
 msgstr "Nyní můžete využívat %(serviceName)s."
 
@@ -521,7 +524,7 @@ msgstr "Váš účet je dokončen!"
 
 #: app/scripts/templates/ready.mustache:11
 msgid "Stay in sync on the go:"
-msgstr ""
+msgstr "Buďte synchronizovaní i na cestách:"
 
 #: app/scripts/templates/ready.mustache:12
 msgid "Get Firefox for Android"
@@ -542,9 +545,8 @@ msgid "Manage account"
 msgstr "Spravovat účet"
 
 #: app/scripts/templates/settings.mustache:2
-#, fuzzy
 msgid "You are signed in as"
-msgstr "Jste přihlášení jako: %(email)s"
+msgstr "Jste přihlášen(a) jako"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"
