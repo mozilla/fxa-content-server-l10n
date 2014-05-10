@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-05-05 09:25+0000\n"
-"Last-Translator: Sander <sander.lepik@eesti.ee>\n"
+"PO-Revision-Date: 2014-05-10 09:21+0000\n"
+"Last-Translator: Merike <merike.sell@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1399281941.0\n"
+"X-POOTLE-MTIME: 1399713716.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -74,7 +74,7 @@ msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
-"Süsteem on hetkel suure koormuse all ja me töötame selle kallal, et taastata "
+"Süsteem on hetkel suure koormuse all ja me töötame selle kallal, et taastada "
 "normaalne olukord võimalikult ruttu."
 
 #: server/templates/pages/src/index.html:2
