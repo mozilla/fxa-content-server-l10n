@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-04-25 10:03+0000\n"
-"Last-Translator: OHZEKI <saneyuki.s.snyk@gmail.com>\n"
+"PO-Revision-Date: 2014-05-07 09:13+0000\n"
+"Last-Translator: Tomoya <dynamis@mozilla-japan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1398420239.0\n"
+"X-POOTLE-MTIME: 1399453998.0\n"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1991"
@@ -82,17 +82,16 @@ msgid "2007"
 msgstr "2007"
 
 #: app/scripts/views/base.js:63
-#, fuzzy
 msgid "Session expired. Sign in to continue."
-msgstr "サインインして続ける"
+msgstr "セッションの期限が切れました。続けるにはサインインしてください。"
 
 #: app/scripts/views/base.js:403
 msgid "missing search parameter: %(itemName)s"
-msgstr ""
+msgstr "検索パラメータが足りません: %(itemName)s"
 
 #: app/scripts/views/change_password.js:50
 msgid "Your new password must be different"
-msgstr "新しいパスワードは、古いパスワードと違うものにしてください。"
+msgstr "新しいパスワードは、古いパスワードと違うものにしてください"
 
 #: app/scripts/views/change_password.js:59
 msgid "Password changed"
@@ -102,7 +101,7 @@ msgstr "パスワードが変更されました"
 msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
-msgstr ""
+msgstr "未認証のアカウントです。<a href=\"#\" id=\"resend\">認証用のメールを再送信してください</a>。"
 
 #: app/scripts/views/complete_reset_password.js:85
 msgid "Passwords do not match"
@@ -110,23 +109,20 @@ msgstr "パスワードが一致しません"
 
 #: app/scripts/views/confirm.js:46
 #: app/scripts/views/confirm_reset_password.js:76
-#, fuzzy
 msgid "Invalid token"
-msgstr "パスワードが正しくありません"
+msgstr "トークンが正しくありません"
 
 #: app/scripts/views/confirm_reset_password.js:52
-#, fuzzy
 msgid "Password reset. Sign in to continue."
-msgstr "サインインして続ける"
+msgstr "パスワードをリセットしました。続けるにはサインインしてください。"
 
 #: app/scripts/views/cookies_disabled.js:34
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Cookie が無効化されています"
 
 #: app/scripts/views/delete_account.js:45
-#, fuzzy
 msgid "Account deleted successfully"
-msgstr "サインインしました"
+msgstr "アカウントの削除が完了しました"
 
 #: app/scripts/views/force_auth.js:42
 msgid "/force_auth requires an email"
@@ -152,17 +148,17 @@ msgid "Could not get Privacy Notice"
 msgstr "プライバシー規約を取得できません"
 
 #: app/scripts/views/settings.js:42
-#, fuzzy
 msgid "Signed out"
-msgstr "サインアウト"
+msgstr "サインアウトしました"
 
 #: app/scripts/views/sign_in.js:73
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "不明なアカウントです。<a href=\"/signup\">サインアップ</a>"
 
+# Android での UI に合わせる
 #: app/scripts/views/sign_up.js:75 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
-msgstr "生年を入力してください (必須)"
+msgstr "誕生年を入力してください (必須)"
 
 #: app/scripts/views/sign_up.js:134
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
@@ -237,17 +233,16 @@ msgid "Request body too large"
 msgstr "リクエストボディが大きすぎます"
 
 #: app/scripts/lib/auth-errors.js:60
-#, fuzzy
 msgid "Attempt limit exceeded."
-msgstr "連続試行回数を超過しています。しばらくしてから再度試してください。"
+msgstr "連続試行回数の制限に達しました。"
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "ただいまシステムが利用できません。しばらく後で再度お試しください。"
 
 #: app/scripts/lib/auth-errors.js:62
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "ただいまサーバ負荷が高すぎます。しばらく後で再度お試しください。"
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "This endpoint is no longer supported"
@@ -255,7 +250,7 @@ msgstr "このエンドポイントはサポートされなくなりました"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:20
 msgid "Invalid password"
@@ -342,7 +337,7 @@ msgstr "戻る"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Verification link expired"
-msgstr ""
+msgstr "認証リンクの有効期限が切れています。"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/confirm.mustache:2
@@ -352,16 +347,16 @@ msgstr "メールが再送されました"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
-msgstr ""
+msgstr "パスワードをリセットするリンクの有効期限が過ぎています。"
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr ""
+msgstr "クリックするとパスワードをリセットするリンクを再発行できます。"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link damaged"
-msgstr ""
+msgstr "認証リンクが正しくありません。"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -369,6 +364,8 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
+"認証リンク URL の長さが足りません。受信したメールクライアントによりリンクが途中で切れている可能性もあります。URL "
+"を注意してコピーして再度お試しください。"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
@@ -386,9 +383,8 @@ msgid "Next"
 msgstr "次へ"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Verification error"
-msgstr "検証コードが不正です"
+msgstr "検証エラー"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -425,7 +421,7 @@ msgstr "サインイン"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies Required"
-msgstr ""
+msgstr "Cookie が送信されていません"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -433,15 +429,17 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
+"Firefox Accout をご利用頂くには、ブラウザで Cookie を有効化してください。Cookie "
+"とはブラウザセッション中にあなたを識別できるようにするためブラウザに保存される小さなデータです。"
 
+# リンク先などは未確認だが多分 Cookie の説明？
 #: app/scripts/templates/cookies_disabled.mustache:3
-#, fuzzy
 msgid "Learn more"
-msgstr "詳細。"
+msgstr "詳細を確認"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "再度試す"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
@@ -517,7 +515,6 @@ msgid "Success"
 msgstr "成功"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s."
 msgstr "%(serviceName)s を利用できるようになりました。"
 
@@ -527,11 +524,11 @@ msgstr "アカウントの準備が整いました！"
 
 #: app/scripts/templates/ready.mustache:11
 msgid "Stay in sync on the go:"
-msgstr ""
+msgstr "モバイルでも同期しよう:"
 
 #: app/scripts/templates/ready.mustache:12
 msgid "Get Firefox for Android"
-msgstr ""
+msgstr "Android 版 Firefox を入手"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
@@ -549,9 +546,8 @@ msgid "Manage account"
 msgstr "アカウント管理"
 
 #: app/scripts/templates/settings.mustache:2
-#, fuzzy
 msgid "You are signed in as"
-msgstr "サインイン中: %(email)s"
+msgstr "サインイン中:"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"
@@ -561,13 +557,15 @@ msgstr "サインアウト"
 msgid "Create an account"
 msgstr "アカウントを作成する"
 
+# タイトルなので文章ではなく体言止め
 #: app/scripts/templates/sign_up.mustache:1
 msgid "Create a Firefox Account"
-msgstr "Firefox アカウントを作成します"
+msgstr "Firefox アカウントの作成"
 
+# Android の UI に合わせる
 #: app/scripts/templates/sign_up.mustache:7
 msgid "Year of birth"
-msgstr "生年"
+msgstr "誕生年"
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "1990 or earlier"
