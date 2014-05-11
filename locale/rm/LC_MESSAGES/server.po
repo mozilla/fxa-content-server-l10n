@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-05-03 05:58+0000\n"
+"PO-Revision-Date: 2014-05-11 15:40+0000\n"
 "Last-Translator: Gion-Andri <gion-andri@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1399096699.0\n"
+"X-POOTLE-MTIME: 1399822814.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -121,11 +121,11 @@ msgstr "Cundiziuns dal servetsch"
 
 #: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
 msgid "Are you sure?"
-msgstr "Es ti segirs?"
+msgstr "Es ti segir?"
 
 #: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
 msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Conferma p.pl. che ti vuls redefinri il pled-clav per %(email)s."
+msgstr "Conferma p.pl. che ti vuls redefinir il pled-clav per %(email)s."
 
 #: server/templates/email/reset.html:4
 msgid "Reset password"
@@ -137,8 +137,8 @@ msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
-"Quai è in e-mail automatic. Sche ti has retschavì per errur quest e-mail è "
-"nagina acziun necessaria."
+"Quai è in e-mail automatic. Sche ti has retschavì per sbagl quest e-mail na "
+"stos ti far nagut."
 
 #: server/templates/email/reset.html:6 server/templates/email/verify.html:6
 msgid ""
@@ -146,7 +146,7 @@ msgid ""
 "org'>Mozilla Support</a>"
 msgstr ""
 "Visita il <a href='https://support.mozilla.org'>Support da Mozilla</a> per "
-"retschaiver ulteriuras infurmaziuns"
+"ulteriuras infurmaziuns."
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
