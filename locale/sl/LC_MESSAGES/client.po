@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-04-23 08:14+0000\n"
+"PO-Revision-Date: 2014-05-12 07:46+0000\n"
 "Last-Translator: Matjaž <m@owca.info>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1398240884.0\n"
+"X-POOTLE-MTIME: 1399880786.0\n"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1991"
@@ -84,13 +84,12 @@ msgid "2007"
 msgstr "2007"
 
 #: app/scripts/views/base.js:63
-#, fuzzy
 msgid "Session expired. Sign in to continue."
-msgstr "Prijavite se za nadaljevanje"
+msgstr "Seja je potekla. Prijavite se za nadaljevanje."
 
 #: app/scripts/views/base.js:403
 msgid "missing search parameter: %(itemName)s"
-msgstr ""
+msgstr "manjka parameter za iskanje: %(itemName)s"
 
 #: app/scripts/views/change_password.js:50
 msgid "Your new password must be different"
@@ -105,6 +104,8 @@ msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
 msgstr ""
+"Nepotrjen račun. <a href=\"#\" id=\"resend\">Ponovno pošlji potrditveno "
+"e-pošto</a>."
 
 #: app/scripts/views/complete_reset_password.js:85
 msgid "Passwords do not match"
@@ -112,23 +113,20 @@ msgstr "Gesli se ne ujemata"
 
 #: app/scripts/views/confirm.js:46
 #: app/scripts/views/confirm_reset_password.js:76
-#, fuzzy
 msgid "Invalid token"
-msgstr "Neveljavno geslo"
+msgstr "Neveljaven žeton"
 
 #: app/scripts/views/confirm_reset_password.js:52
-#, fuzzy
 msgid "Password reset. Sign in to continue."
-msgstr "Prijavite se za nadaljevanje"
+msgstr "Geslo ponastavljeno. Prijavite se za nadaljevanje."
 
 #: app/scripts/views/cookies_disabled.js:34
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Piškotki so še vedno onemogočeni"
 
 #: app/scripts/views/delete_account.js:45
-#, fuzzy
 msgid "Account deleted successfully"
-msgstr "Prijava je uspela"
+msgstr "Vaš račun je bil uspešno izbrisan"
 
 #: app/scripts/views/force_auth.js:42
 msgid "/force_auth requires an email"
@@ -154,9 +152,8 @@ msgid "Could not get Privacy Notice"
 msgstr "Ni bilo mogoče naložiti Obvestila o zasebnosti"
 
 #: app/scripts/views/settings.js:42
-#, fuzzy
 msgid "Signed out"
-msgstr "Odjava"
+msgstr "Odjavili ste se"
 
 #: app/scripts/views/sign_in.js:73
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -239,17 +236,16 @@ msgid "Request body too large"
 msgstr "Telo zahteve je preveliko"
 
 #: app/scripts/lib/auth-errors.js:60
-#, fuzzy
 msgid "Attempt limit exceeded."
-msgstr "Število poskusov preseženo. Poskusite znova pozneje."
+msgstr "Število poskusov preseženo."
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Sistem ni dosegljiv, poskusite znova pozneje"
 
 #: app/scripts/lib/auth-errors.js:62
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Strežnik je zaseden, poskusite znova pozneje"
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "This endpoint is no longer supported"
@@ -257,7 +253,7 @@ msgstr "Končna točka ni več podprta"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:20
 msgid "Invalid password"
@@ -344,7 +340,7 @@ msgstr "Nazaj"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Verification link expired"
-msgstr ""
+msgstr "Potrditvena povezava je potekla"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/confirm.mustache:2
@@ -354,16 +350,16 @@ msgstr "E-pošta ponovno poslana"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
-msgstr ""
+msgstr "Povezava za ponastavitev gesla je pretekla."
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr ""
+msgstr "Kliknite tukaj za novo ponastavitveno povezavo"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Potrditvena povezava je poškodovana"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -371,6 +367,9 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
+"Povezavi, ki ste jo kliknili, so manjkali nekateri znaki. Morda jo je "
+"pokvaril vaš poštni odjemalec. Bodite previdni pri kopiranju in poskusite "
+"znova."
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
@@ -388,9 +387,8 @@ msgid "Next"
 msgstr "Naprej"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Verification error"
-msgstr "Neveljavna potrditvena koda"
+msgstr "Napaka pri potrditvi"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -427,7 +425,7 @@ msgstr "Prijava"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies Required"
-msgstr ""
+msgstr "Zahtevani so piškotki"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -435,15 +433,17 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
+"Prosimo, omogočite piškotke v brskalniku, saj so zahtevani za Firefox "
+"Račune. Piškotki so majhni delci datotek, ki se shranjujejo v brskalniku in "
+"med drugim omogočajo, da si vas zapomni med sejami."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
-#, fuzzy
 msgid "Learn more"
-msgstr "Več o tem."
+msgstr "Več o tem"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "Poskusite znova"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
@@ -520,7 +520,6 @@ msgid "Success"
 msgstr "Uspeh"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s."
 msgstr "Zdaj ste pripravljeni za uporabo storitve %(serviceName)s."
 
@@ -530,11 +529,11 @@ msgstr "Vaš račun je pripravljen!"
 
 #: app/scripts/templates/ready.mustache:11
 msgid "Stay in sync on the go:"
-msgstr ""
+msgstr "Ostanite sinhronizirani na poti:"
 
 #: app/scripts/templates/ready.mustache:12
 msgid "Get Firefox for Android"
-msgstr ""
+msgstr "Prenesite Firefox za Android"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
@@ -551,9 +550,8 @@ msgid "Manage account"
 msgstr "Upravljanje računa"
 
 #: app/scripts/templates/settings.mustache:2
-#, fuzzy
 msgid "You are signed in as"
-msgstr "Prijavljeni ste kot: %(email)s"
+msgstr "Prijavljeni ste kot"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"
@@ -565,7 +563,7 @@ msgstr "Ustvari račun"
 
 #: app/scripts/templates/sign_up.mustache:1
 msgid "Create a Firefox Account"
-msgstr "Ustvari Firefox Račun"
+msgstr "Ustvarite Firefox Račun"
 
 #: app/scripts/templates/sign_up.mustache:7
 msgid "Year of birth"

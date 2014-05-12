@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-04-23 08:14+0000\n"
+"PO-Revision-Date: 2014-05-12 07:52+0000\n"
 "Last-Translator: Matjaž <m@owca.info>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1398240898.0\n"
+"X-POOTLE-MTIME: 1399881139.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -56,19 +56,19 @@ msgstr "Domov"
 #: server/templates/pages/dist/500.html:2 server/lib/500.js:21
 #: server/lib/500.js:24
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Sistem ni dosegljiv, poskusite znova pozneje"
 
 #: server/templates/pages/src/500.html:3
 #: server/templates/pages/dist/500.html:3
 msgid ""
 "We are currently performing some maintenance on the system, and will return "
 "momentarily."
-msgstr ""
+msgstr "Trenutno potekajo vzdrževalna dela na sistemu. Kmalu bomo nazaj."
 
 #: server/templates/pages/src/503.html:2
 #: server/templates/pages/dist/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Strežnik ni dosegljiv, poskusite znova pozneje"
 
 #: server/templates/pages/src/503.html:3
 #: server/templates/pages/dist/503.html:3
@@ -76,6 +76,8 @@ msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
+"Trenutno smo pod veliko obremenitvijo. V najkrajšem možnem času bomo sistem "
+"povrnili v običajno stanje."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
@@ -87,6 +89,9 @@ msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
+"Uporabljate <strong>zastarel</strong> brskalnik. <a "
+"href=\"http://browsehappy.com/\">Nadgradite ga</a> za boljšo uporabniško "
+"izkušnjo."
 
 #: server/templates/pages/src/index.html:3
 #: server/templates/pages/dist/index.html:3
