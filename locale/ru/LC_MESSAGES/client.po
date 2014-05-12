@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-05-03 12:15+0000\n"
+"PO-Revision-Date: 2014-05-12 16:34+0000\n"
 "Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ru\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1399119311.0\n"
+"X-POOTLE-MTIME: 1399912498.0\n"
 
 #: app/scripts/templates/sign_up.mustache:9
 msgid "1991"
@@ -103,8 +103,8 @@ msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
 msgstr ""
-"Неверифицированный аккаунт. <a href=\"#\" id=\"resend\">Снова послать письмо для "
-"верификации</a>."
+"Неподтверждённый аккаунт. <a href=\"#\" id=\"resend\">Снова послать письмо для "
+"подтверждения</a>."
 
 #: app/scripts/views/complete_reset_password.js:85
 msgid "Passwords do not match"
@@ -208,7 +208,7 @@ msgstr "Неподтвержденный аккаунт"
 
 #: app/scripts/lib/auth-errors.js:53
 msgid "Invalid verification code"
-msgstr "Неверный код верификации"
+msgstr "Неверный код подтверждения"
 
 #: app/scripts/lib/auth-errors.js:54
 msgid "Invalid JSON in request body"
@@ -340,7 +340,7 @@ msgstr "Назад"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Verification link expired"
-msgstr "Срок жизни ссылки верификации истёк"
+msgstr "Срок жизни ссылки для подтверждения истёк"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/confirm.mustache:2
@@ -360,7 +360,7 @@ msgstr "Щёлкните здесь, чтобы получить новую сс
 #: app/scripts/templates/complete_reset_password.mustache:6
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link damaged"
-msgstr "Ссылка для верификации повреждена"
+msgstr "Ссылка для подтверждения повреждена"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -389,7 +389,7 @@ msgstr "Далее"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification error"
-msgstr "Ошибка верификации"
+msgstr "Ошибка подтверждения"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -402,7 +402,7 @@ msgstr "Письмо отправлено"
 
 #: app/scripts/templates/confirm.mustache:4
 msgid "A verification link has been sent&nbsp;to %(email)s"
-msgstr "Ссылка для верификации была отправлена на %(email)s"
+msgstr "Ссылка для подтверждения была отправлена на %(email)s"
 
 #: app/scripts/templates/confirm.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:6

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-05-03 12:20+0000\n"
+"PO-Revision-Date: 2014-05-12 16:35+0000\n"
 "Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ru\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1399119636.0\n"
+"X-POOTLE-MTIME: 1399912510.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -162,7 +162,7 @@ msgstr "Поздравляем!"
 
 #: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr "%(email)s, вы в одном шаге от верификации вашего Firefox Аккаунта."
+msgstr "%(email)s, вы в одном шаге от подтверждения вашего Firefox Аккаунта."
 
 #: server/templates/email/verify.html:4
 msgid "Verify"
