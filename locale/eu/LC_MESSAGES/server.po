@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-04-29 00:10+0000\n"
+"POT-Creation-Date: 2014-05-13 05:41+0000\n"
 "PO-Revision-Date: 2014-05-03 11:05+0000\n"
 "Last-Translator: Julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,40 +81,37 @@ msgstr ""
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
-#: server/templates/pages/dist/index.html:2
-#: server/templates/pages/dist/privacy.html:3
-#: server/templates/pages/dist/terms.html:3
 msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
-"Nabigatzaile <strong>zaharra</strong> ari zara erabiltzen. Mesedez <a "
-"href=\"http://browsehappy.com/\">bertsio-berritu nabigatzailea</a> zure "
+"Nabigatzaile <strong>zaharra</strong> ari zara erabiltzen. Mesedez <a href="
+"\"http://browsehappy.com/\">bertsio-berritu nabigatzailea</a> zure "
 "esperientzia hobetzeko."
 
 #: server/templates/pages/src/index.html:3
-#: server/templates/pages/dist/index.html:3
+#: server/templates/pages/dist/index.html:2
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Firefoxeko kontuek JavaScript behar dute."
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/dist/privacy.html:2
-#: server/templates/pages/dist/privacy.html:5
+#: server/templates/pages/dist/privacy.html:4
 msgid "Privacy Notice"
 msgstr "Pribatutasun-oharra"
 
 #: server/templates/pages/src/privacy.html:4
 #: server/templates/pages/src/terms.html:4
-#: server/templates/pages/dist/privacy.html:4
-#: server/templates/pages/dist/terms.html:4
+#: server/templates/pages/dist/privacy.html:3
+#: server/templates/pages/dist/terms.html:3
 msgid "Firefox cloud services"
 msgstr "Firefoxen hodeieko zerbitzuak"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:5
 #: server/templates/pages/dist/terms.html:2
-#: server/templates/pages/dist/terms.html:5
+#: server/templates/pages/dist/terms.html:4
 msgid "Terms of Service"
 msgstr "Zerbitzuaren baldintzak"
 

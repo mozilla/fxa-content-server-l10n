@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-29 00:10+0000\n"
+"POT-Creation-Date: 2014-05-13 05:41+0000\n"
 "PO-Revision-Date: 2014-05-07 20:30+0000\n"
 "Last-Translator: Marcelo <mlcaraldi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,7 +62,8 @@ msgstr "Sistema indisponível, por favor, tente novamente em breve"
 msgid ""
 "We are currently performing some maintenance on the system, and will return "
 "momentarily."
-msgstr "O sistema está em manutenção, mas estará disponível em alguns momentos."
+msgstr ""
+"O sistema está em manutenção, mas estará disponível em alguns momentos."
 
 #: server/templates/pages/src/503.html:2
 #: server/templates/pages/dist/503.html:2
@@ -81,40 +82,37 @@ msgstr ""
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
-#: server/templates/pages/dist/index.html:2
-#: server/templates/pages/dist/privacy.html:3
-#: server/templates/pages/dist/terms.html:3
 msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
-"Você está usando um navegador<strong> antigo </strong>. Por favor, <a "
-"href=\"http://browsehappy.com/\">atualize seu navegador</a> para melhorar sua "
+"Você está usando um navegador<strong> antigo </strong>. Por favor, <a href="
+"\"http://browsehappy.com/\">atualize seu navegador</a> para melhorar sua "
 "experiência."
 
 #: server/templates/pages/src/index.html:3
-#: server/templates/pages/dist/index.html:3
+#: server/templates/pages/dist/index.html:2
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Contas Firefox necessitam JavaScript."
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/dist/privacy.html:2
-#: server/templates/pages/dist/privacy.html:5
+#: server/templates/pages/dist/privacy.html:4
 msgid "Privacy Notice"
 msgstr "Política de Privacidade"
 
 #: server/templates/pages/src/privacy.html:4
 #: server/templates/pages/src/terms.html:4
-#: server/templates/pages/dist/privacy.html:4
-#: server/templates/pages/dist/terms.html:4
+#: server/templates/pages/dist/privacy.html:3
+#: server/templates/pages/dist/terms.html:3
 msgid "Firefox cloud services"
 msgstr "Serviços na nuvem do Firefox"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:5
 #: server/templates/pages/dist/terms.html:2
-#: server/templates/pages/dist/terms.html:5
+#: server/templates/pages/dist/terms.html:4
 msgid "Terms of Service"
 msgstr "Termos de serviço"
 

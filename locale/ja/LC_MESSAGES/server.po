@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-04-29 00:10+0000\n"
+"POT-Creation-Date: 2014-05-13 05:41+0000\n"
 "PO-Revision-Date: 2014-05-07 09:17+0000\n"
 "Last-Translator: Tomoya <dynamis@mozilla-japan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,7 +60,9 @@ msgstr "システムが利用できません。しばらく後で再度お試し
 msgid ""
 "We are currently performing some maintenance on the system, and will return "
 "momentarily."
-msgstr "ただいまシステムのメンテナンスを行っています。まもなくサービスを再開するのでしばらくお待ちください。"
+msgstr ""
+"ただいまシステムのメンテナンスを行っています。まもなくサービスを再開するので"
+"しばらくお待ちください。"
 
 #: server/templates/pages/src/503.html:2
 #: server/templates/pages/dist/503.html:2
@@ -72,23 +74,23 @@ msgstr "サーバの負荷が高すぎます。しばらく後で再度お試し
 msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
-msgstr "一時的にサーバの負荷が高くなっており、可能な限り速やかに通常動作に戻るようシステム復旧に努めております。"
+msgstr ""
+"一時的にサーバの負荷が高くなっており、可能な限り速やかに通常動作に戻るようシ"
+"ステム復旧に努めております。"
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
-#: server/templates/pages/dist/index.html:2
-#: server/templates/pages/dist/privacy.html:3
-#: server/templates/pages/dist/terms.html:3
 msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
-"ご利用のブラウザは <strong>サポートを終了しています</strong>。より快適にインターネットをご利用頂けるよう<a "
-"href=\"http://browsehappy.com/\">新しいブラウザにアップグレード</a>してください。"
+"ご利用のブラウザは <strong>サポートを終了しています</strong>。より快適にイン"
+"ターネットをご利用頂けるよう<a href=\"http://browsehappy.com/\">新しいブラウ"
+"ザにアップグレード</a>してください。"
 
 #: server/templates/pages/src/index.html:3
-#: server/templates/pages/dist/index.html:3
+#: server/templates/pages/dist/index.html:2
 msgid "Firefox Accounts requires JavaScript."
 msgstr ""
 "Firefox アカウントを利用するには JavaScript を有効にする必要があります。"
@@ -96,21 +98,21 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/dist/privacy.html:2
-#: server/templates/pages/dist/privacy.html:5
+#: server/templates/pages/dist/privacy.html:4
 msgid "Privacy Notice"
 msgstr "プライバシーに関する注意"
 
 #: server/templates/pages/src/privacy.html:4
 #: server/templates/pages/src/terms.html:4
-#: server/templates/pages/dist/privacy.html:4
-#: server/templates/pages/dist/terms.html:4
+#: server/templates/pages/dist/privacy.html:3
+#: server/templates/pages/dist/terms.html:3
 msgid "Firefox cloud services"
 msgstr "Firefox クラウドサービス"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:5
 #: server/templates/pages/dist/terms.html:2
-#: server/templates/pages/dist/terms.html:5
+#: server/templates/pages/dist/terms.html:4
 msgid "Terms of Service"
 msgstr "利用規約"
 
@@ -139,7 +141,9 @@ msgstr ""
 msgid ""
 "For more information, please visit <a href='https://support.mozilla."
 "org'>Mozilla Support</a>"
-msgstr "詳しい情報は、<a href='https://support.mozilla.org'>Mozilla サポート</a> をご覧ください"
+msgstr ""
+"詳しい情報は、<a href='https://support.mozilla.org'>Mozilla サポート</a> をご"
+"覧ください"
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
