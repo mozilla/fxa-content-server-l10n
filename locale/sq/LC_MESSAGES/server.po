@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-29 00:10+0000\n"
+"POT-Creation-Date: 2014-05-13 05:41+0000\n"
 "PO-Revision-Date: 2014-05-03 15:28+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,8 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.10.0-rc1\n"
 
-#: server/templates/pages/src/404.html:1
-#: server/templates/pages/src/500.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
@@ -24,8 +23,7 @@ msgstr ""
 #: server/templates/pages/dist/index.html:1
 #: server/templates/pages/dist/privacy.html:1
 #: server/templates/pages/dist/terms.html:1
-#: server/templates/email/reset.html:1
-#: server/templates/email/verify.html:1
+#: server/templates/email/reset.html:1 server/templates/email/verify.html:1
 msgid "Firefox Accounts"
 msgstr "LLogari Firefox-i"
 
@@ -36,11 +34,14 @@ msgstr "Faqja nuk u gjet"
 
 #: server/templates/pages/src/404.html:3
 #: server/templates/pages/dist/404.html:3
-msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
-msgstr "Faqja që kërkuat nuk u gjet. E kemi mbajtur shënim dhe do të ndreqim çfarëdo lidhje që mund të jetë e dëmtuar."
+msgid ""
+"The page you requested is not found. We've been notified and will fix any "
+"links that may be broken."
+msgstr ""
+"Faqja që kërkuat nuk u gjet. E kemi mbajtur shënim dhe do të ndreqim çfarëdo "
+"lidhje që mund të jetë e dëmtuar."
 
-#: server/templates/pages/src/404.html:4
-#: server/templates/pages/src/500.html:4
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/503.html:4
 #: server/templates/pages/dist/404.html:4
 #: server/templates/pages/dist/500.html:4
@@ -49,16 +50,19 @@ msgid "Home"
 msgstr "Kreu"
 
 #: server/templates/pages/src/500.html:2
-#: server/templates/pages/dist/500.html:2
-#: server/lib/500.js:21
+#: server/templates/pages/dist/500.html:2 server/lib/500.js:21
 #: server/lib/500.js:24
 msgid "System unavailable, try again soon"
 msgstr "Sistemi s'është në punë, riprovoni së shpejti"
 
 #: server/templates/pages/src/500.html:3
 #: server/templates/pages/dist/500.html:3
-msgid "We are currently performing some maintenance on the system, and will return momentarily."
-msgstr "Po kryejmë pak veprime mirëmbajtjeje në sistem, dhe do t'jua rikthejmë në çast."
+msgid ""
+"We are currently performing some maintenance on the system, and will return "
+"momentarily."
+msgstr ""
+"Po kryejmë pak veprime mirëmbajtjeje në sistem, dhe do t'jua rikthejmë në "
+"çast."
 
 #: server/templates/pages/src/503.html:2
 #: server/templates/pages/dist/503.html:2
@@ -67,88 +71,96 @@ msgstr "Shërbyesi është i zënë, riprovoni së shpejti"
 
 #: server/templates/pages/src/503.html:3
 #: server/templates/pages/dist/503.html:3
-msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
-msgstr "Hëpërhë jemi nën ngarkesë shumë të madhe dhe po punojmë për ta kthyer sa më shpejt sistemin në gjendje normale."
+msgid ""
+"We are currently under heavy strain and are working to return the system to "
+"normal as soon as possible."
+msgstr ""
+"Hëpërhë jemi nën ngarkesë shumë të madhe dhe po punojmë për ta kthyer sa më "
+"shpejt sistemin në gjendje normale."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
-#: server/templates/pages/dist/index.html:2
-#: server/templates/pages/dist/privacy.html:3
-#: server/templates/pages/dist/terms.html:3
-msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr "Po përdorni një shfletues <strong>të vjetruar</strong>. Ju lutemi, <a href=\"http://browsehappy.com/\">përmirësoni shfletuesin tuaj</a> që të përmirësohet punimi juaj."
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+"Po përdorni një shfletues <strong>të vjetruar</strong>. Ju lutemi, <a href="
+"\"http://browsehappy.com/\">përmirësoni shfletuesin tuaj</a> që të "
+"përmirësohet punimi juaj."
 
 #: server/templates/pages/src/index.html:3
-#: server/templates/pages/dist/index.html:3
+#: server/templates/pages/dist/index.html:2
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Firefox Accounts lyp JavaScript."
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/dist/privacy.html:2
-#: server/templates/pages/dist/privacy.html:5
+#: server/templates/pages/dist/privacy.html:4
 msgid "Privacy Notice"
 msgstr "Shënim mbi Privatësinë"
 
 #: server/templates/pages/src/privacy.html:4
 #: server/templates/pages/src/terms.html:4
-#: server/templates/pages/dist/privacy.html:4
-#: server/templates/pages/dist/terms.html:4
+#: server/templates/pages/dist/privacy.html:3
+#: server/templates/pages/dist/terms.html:3
 msgid "Firefox cloud services"
 msgstr "Shërbime reje Firefox"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:5
 #: server/templates/pages/dist/terms.html:2
-#: server/templates/pages/dist/terms.html:5
+#: server/templates/pages/dist/terms.html:4
 msgid "Terms of Service"
 msgstr "Kushte Shërbimi"
 
-#: server/templates/email/reset.html:2
-#: server/templates/email/reset.txt:1
+#: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
 msgid "Are you sure?"
 msgstr "Jeni i sigurt?"
 
-#: server/templates/email/reset.html:3
-#: server/templates/email/reset.txt:2
+#: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
 msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Ju lutemi, ripohoni se do të donit të ricaktohej fjalëkalimi për %(email)s."
+msgstr ""
+"Ju lutemi, ripohoni se do të donit të ricaktohej fjalëkalimi për %(email)s."
 
 #: server/templates/email/reset.html:4
 msgid "Reset password"
 msgstr "Ricaktoni fjalëkalimin"
 
-#: server/templates/email/reset.html:5
-#: server/templates/email/reset.txt:4
-#: server/templates/email/verify.html:5
-#: server/templates/email/verify.txt:4
-msgid "This is an automated email; if you received it in error, no action is required."
-msgstr "Ky është një mesazh i automatizuar; nëse erdhi gabimisht, nuk lypset ndonjë veprim."
+#: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
+#: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"Ky është një mesazh i automatizuar; nëse erdhi gabimisht, nuk lypset ndonjë "
+"veprim."
 
-#: server/templates/email/reset.html:6
-#: server/templates/email/verify.html:6
-msgid "For more information, please visit <a href='https://support.mozilla.org'>Mozilla Support</a>"
-msgstr "Për më tepër të dhëna, ju lutemi, vizitoni <a href='https://support.mozilla.org'>Asistencën e Mozilla-s</a>"
+#: server/templates/email/reset.html:6 server/templates/email/verify.html:6
+msgid ""
+"For more information, please visit <a href='https://support.mozilla."
+"org'>Mozilla Support</a>"
+msgstr ""
+"Për më tepër të dhëna, ju lutemi, vizitoni <a href='https://support.mozilla."
+"org'>Asistencën e Mozilla-s</a>"
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
 msgstr "Ricaktim Fjalëkalimi:"
 
-#: server/templates/email/reset.txt:5
-#: server/templates/email/verify.txt:5
+#: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
 msgstr "Për më tepër të dhëna, ju lutemi vizitoni https://support.mozilla.org"
 
-#: server/templates/email/verify.html:2
-#: server/templates/email/verify.txt:1
+#: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
 msgid "Congratulations!"
 msgstr "Përgëzime!"
 
-#: server/templates/email/verify.html:3
-#: server/templates/email/verify.txt:2
+#: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr "%(email)s, ju ndan vetëm një klik nga verifikimi i Llogarisë suaj Firefox."
+msgstr ""
+"%(email)s, ju ndan vetëm një klik nga verifikimi i Llogarisë suaj Firefox."
 
 #: server/templates/email/verify.html:4
 msgid "Verify"

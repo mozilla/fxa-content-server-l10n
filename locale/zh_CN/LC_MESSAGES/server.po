@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-29 00:10+0000\n"
+"POT-Creation-Date: 2014-05-13 05:41+0000\n"
 "PO-Revision-Date: 2014-05-06 15:13+0000\n"
 "Last-Translator: Shen <steekid@icloud.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,39 +77,36 @@ msgstr "我们目前有大量用户正在访问中，会尽快恢复系统的正
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
-#: server/templates/pages/dist/index.html:2
-#: server/templates/pages/dist/privacy.html:3
-#: server/templates/pages/dist/terms.html:3
 msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
-"您正在使用<strong>过时的</strong>浏览器。请<a "
-"href=\"http://browsehappy.com/\">升级浏览器</a>改进网络体验。"
+"您正在使用<strong>过时的</strong>浏览器。请<a href=\"http://browsehappy.com/"
+"\">升级浏览器</a>改进网络体验。"
 
 #: server/templates/pages/src/index.html:3
-#: server/templates/pages/dist/index.html:3
+#: server/templates/pages/dist/index.html:2
 msgid "Firefox Accounts requires JavaScript."
 msgstr "启用 JavaScript 后才能使用 Firefox 账号。"
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/dist/privacy.html:2
-#: server/templates/pages/dist/privacy.html:5
+#: server/templates/pages/dist/privacy.html:4
 msgid "Privacy Notice"
 msgstr "隐私政策"
 
 #: server/templates/pages/src/privacy.html:4
 #: server/templates/pages/src/terms.html:4
-#: server/templates/pages/dist/privacy.html:4
-#: server/templates/pages/dist/terms.html:4
+#: server/templates/pages/dist/privacy.html:3
+#: server/templates/pages/dist/terms.html:3
 msgid "Firefox cloud services"
 msgstr "Firefox 云服务"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:5
 #: server/templates/pages/dist/terms.html:2
-#: server/templates/pages/dist/terms.html:5
+#: server/templates/pages/dist/terms.html:4
 msgid "Terms of Service"
 msgstr "服务条款"
 

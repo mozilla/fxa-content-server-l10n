@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-04-29 00:10+0000\n"
+"POT-Creation-Date: 2014-05-13 05:41+0000\n"
 "PO-Revision-Date: 2014-05-12 18:33+0000\n"
 "Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,79 +13,79 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1399919634.0\n"
 
-#: app/scripts/templates/sign_up.mustache:9
+#: app/scripts/templates/sign_up.mustache:11
 msgid "1991"
 msgstr "1991"
 
-#: app/scripts/templates/sign_up.mustache:10
+#: app/scripts/templates/sign_up.mustache:12
 msgid "1992"
 msgstr "1992"
 
-#: app/scripts/templates/sign_up.mustache:11
+#: app/scripts/templates/sign_up.mustache:13
 msgid "1993"
 msgstr "1993"
 
-#: app/scripts/templates/sign_up.mustache:12
+#: app/scripts/templates/sign_up.mustache:14
 msgid "1994"
 msgstr "1994"
 
-#: app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/sign_up.mustache:15
 msgid "1995"
 msgstr "1995"
 
-#: app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/sign_up.mustache:16
 msgid "1996"
 msgstr "1996"
 
-#: app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/sign_up.mustache:17
 msgid "1997"
 msgstr "1997"
 
-#: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/sign_up.mustache:18
 msgid "1998"
 msgstr "1998"
 
-#: app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/sign_up.mustache:19
 msgid "1999"
 msgstr "1999"
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:20
 msgid "2000"
 msgstr "2000"
 
-#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/sign_up.mustache:21
 msgid "2001"
 msgstr "2001"
 
-#: app/scripts/templates/sign_up.mustache:20
+#: app/scripts/templates/sign_up.mustache:22
 msgid "2002"
 msgstr "2002"
 
-#: app/scripts/templates/sign_up.mustache:21
+#: app/scripts/templates/sign_up.mustache:23
 msgid "2003"
 msgstr "2003"
 
-#: app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/sign_up.mustache:24
 msgid "2004"
 msgstr "2004"
 
-#: app/scripts/templates/sign_up.mustache:23
+#: app/scripts/templates/sign_up.mustache:25
 msgid "2005"
 msgstr "2005"
 
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:26
 msgid "2006"
 msgstr "2006"
 
-#: app/scripts/templates/sign_up.mustache:25
+#: app/scripts/templates/sign_up.mustache:27
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/base.js:63
+#: app/scripts/views/base.js:64
 msgid "Session expired. Sign in to continue."
 msgstr "La sesión ha caducado. Identifícate para continuar."
 
-#: app/scripts/views/base.js:403
+#: app/scripts/views/base.js:433
 msgid "missing search parameter: %(itemName)s"
 msgstr "falta el parámetro de búsqueda %(itemName)s"
 
@@ -102,19 +102,19 @@ msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
 msgstr ""
-"No se ha podido validar la cuenta. <a href=\"#\" id=\"resend\">Reenviar correo "
-"de verificación</a>."
+"No se ha podido validar la cuenta. <a href=\"#\" id=\"resend\">Reenviar "
+"correo de verificación</a>."
 
 #: app/scripts/views/complete_reset_password.js:85
 msgid "Passwords do not match"
 msgstr "Las contraseñas no coinciden"
 
-#: app/scripts/views/confirm.js:46
-#: app/scripts/views/confirm_reset_password.js:76
+#: app/scripts/views/confirm.js:101
+#: app/scripts/views/confirm_reset_password.js:87
 msgid "Invalid token"
 msgstr "Identificador no válido"
 
-#: app/scripts/views/confirm_reset_password.js:52
+#: app/scripts/views/confirm_reset_password.js:63
 msgid "Password reset. Sign in to continue."
 msgstr "Contraseña restablecida. Identifícate para continuar."
 
@@ -130,18 +130,18 @@ msgstr "Se ha eliminado correctamente la cuenta"
 msgid "/force_auth requires an email"
 msgstr "/force_auth necesita un correo electrónico"
 
-#: app/scripts/views/form.js:358 app/scripts/lib/strings.js:18
+#: app/scripts/views/form.js:406 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "Se necesita una dirección de correo electrónico válida"
 
-#: app/scripts/views/form.js:364 app/scripts/lib/strings.js:23
+#: app/scripts/views/form.js:412 app/scripts/lib/strings.js:23
 #: app/scripts/templates/change_password.mustache:6
 #: app/scripts/templates/complete_reset_password.mustache:14
-#: app/scripts/templates/sign_up.mustache:6
+#: app/scripts/templates/sign_up.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "Debe contener al menos 8 caracteres"
 
-#: app/scripts/views/form.js:365 app/scripts/lib/strings.js:19
+#: app/scripts/views/form.js:413 app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr "Se necesita una contraseña válida"
 
@@ -149,19 +149,19 @@ msgstr "Se necesita una contraseña válida"
 msgid "Could not get Privacy Notice"
 msgstr "No se pudo acceder al Aviso sobre privacidad"
 
+#: app/scripts/views/reset_password.js:69 app/scripts/views/sign_in.js:88
+msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
+msgstr "Cuenta desconocida. <a href=\"/signup\">Regístrate</a>"
+
 #: app/scripts/views/settings.js:42
 msgid "Signed out"
 msgstr "Salir"
 
-#: app/scripts/views/sign_in.js:73
-msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr "Cuenta desconocida. <a href=\"/signup\">Regístrate</a>"
-
-#: app/scripts/views/sign_up.js:75 app/scripts/lib/strings.js:24
+#: app/scripts/views/sign_up.js:92 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "Se necesita la fecha de nacimiento"
 
-#: app/scripts/views/sign_up.js:134
+#: app/scripts/views/sign_up.js:157
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "La cuenta ya existe. <a href=\"/signin\">Identificarse</a>"
 
@@ -286,6 +286,10 @@ msgstr "Por favor, introduce una dirección de correo electrónico"
 msgid "Cannot connect to the internet"
 msgstr "No se puede conectar a Internet"
 
+#: app/scripts/lib/strings.js:34
+msgid "Subscribe to Firefox news and tips"
+msgstr ""
+
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
 msgstr "No se puede crear una cuenta"
@@ -317,7 +321,7 @@ msgstr "Contraseña antigua"
 #: app/scripts/templates/delete_account.mustache:4
 #: app/scripts/templates/force_auth.mustache:5
 #: app/scripts/templates/sign_in.mustache:5
-#: app/scripts/templates/sign_up.mustache:5
+#: app/scripts/templates/sign_up.mustache:6
 msgid "Show"
 msgstr "Mostrar"
 
@@ -382,7 +386,7 @@ msgstr "Repetir contraseña"
 
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/reset_password.mustache:4
-#: app/scripts/templates/sign_up.mustache:27
+#: app/scripts/templates/sign_up.mustache:29
 msgid "Next"
 msgstr "Siguiente"
 
@@ -404,7 +408,7 @@ msgid "A verification link has been sent&nbsp;to %(email)s"
 msgstr "Se ha enviado un enlace de verificación&nbsp;a: %(email)s"
 
 #: app/scripts/templates/confirm.mustache:5
-#: app/scripts/templates/confirm_reset_password.mustache:6
+#: app/scripts/templates/confirm_reset_password.mustache:8
 msgid "Resend email"
 msgstr "Reenviar correo electrónico"
 
@@ -417,6 +421,7 @@ msgid "A reset link has been sent to %(email)s"
 msgstr "Se ha enviado un enlace de restablecimiento a %(email)s"
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
+#: app/scripts/templates/confirm_reset_password.mustache:7
 #: app/scripts/templates/force_auth.mustache:6
 #: app/scripts/templates/sign_in.mustache:1
 #: app/scripts/templates/sign_in.mustache:6
@@ -460,7 +465,7 @@ msgstr "¿Seguro que quieres eliminar tu cuenta? No podrás volver atrás."
 #: app/scripts/templates/delete_account.mustache:3
 #: app/scripts/templates/force_auth.mustache:3
 #: app/scripts/templates/sign_in.mustache:3
-#: app/scripts/templates/sign_up.mustache:3
+#: app/scripts/templates/sign_up.mustache:4
 msgid "Password"
 msgstr "Contraseña"
 
@@ -475,7 +480,7 @@ msgstr "¿Olvidaste la contraseña?"
 
 #: app/scripts/templates/force_auth.mustache:8
 #: app/scripts/templates/sign_in.mustache:9
-#: app/scripts/templates/sign_up.mustache:26
+#: app/scripts/templates/sign_up.mustache:28
 msgid ""
 "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
 "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
@@ -564,19 +569,19 @@ msgstr "Crear una cuenta"
 msgid "Create a Firefox Account"
 msgstr "Crear una cuenta de Firefox"
 
-#: app/scripts/templates/sign_up.mustache:7
+#: app/scripts/templates/sign_up.mustache:9
 msgid "Year of birth"
 msgstr "Año de nacimiento"
 
-#: app/scripts/templates/sign_up.mustache:8
+#: app/scripts/templates/sign_up.mustache:10
 msgid "1990 or earlier"
 msgstr "1990 o antes"
 
-#: app/scripts/templates/sign_up.mustache:28
+#: app/scripts/templates/sign_up.mustache:30
 msgid "Choose what to sync"
 msgstr "Elige qué quieres sincronizar"
 
-#: app/scripts/templates/sign_up.mustache:30
+#: app/scripts/templates/sign_up.mustache:32
 msgid "Already have an account? Sign in."
 msgstr "¿Ya tienes una cuenta? Identifícate."
 
