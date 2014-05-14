@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-05-13 05:41+0000\n"
-"PO-Revision-Date: 2014-05-06 09:05+0000\n"
+"PO-Revision-Date: 2014-05-14 08:06+0000\n"
 "Last-Translator: Wim <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1399367131.0\n"
+"X-POOTLE-MTIME: 1400054783.0\n"
 
 #: app/scripts/templates/sign_up.mustache:11
 msgid "1991"
@@ -287,7 +287,7 @@ msgstr "Kin gjin ferbining meitjse mei it ynternet"
 
 #: app/scripts/lib/strings.js:34
 msgid "Subscribe to Firefox news and tips"
-msgstr ""
+msgstr "Meld jo oan foar Firefox-nijs en tips"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
