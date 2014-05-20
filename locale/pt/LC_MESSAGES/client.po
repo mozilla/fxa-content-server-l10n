@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-13 05:41+0000\n"
-"PO-Revision-Date: 2014-05-18 01:29+0000\n"
+"PO-Revision-Date: 2014-05-20 22:04+0000\n"
 "Last-Translator: Cláudio <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1400376576.0\n"
+"X-POOTLE-MTIME: 1400623444.0\n"
 
 #: app/scripts/templates/sign_up.mustache:11
 msgid "1991"
@@ -532,7 +532,7 @@ msgstr "Sua conta está pronta!"
 
 #: app/scripts/templates/ready.mustache:11
 msgid "Stay in sync on the go:"
-msgstr "Mantenha-se sincronização:"
+msgstr "Mantenha-se sincronizado:"
 
 #: app/scripts/templates/ready.mustache:12
 msgid "Get Firefox for Android"
