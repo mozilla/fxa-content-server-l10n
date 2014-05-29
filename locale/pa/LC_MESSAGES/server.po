@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-13 05:41+0000\n"
-"PO-Revision-Date: 2014-05-08 04:14+0000\n"
+"PO-Revision-Date: 2014-05-29 19:38+0000\n"
 "Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1399522480.0\n"
+"X-POOTLE-MTIME: 1401392329.0\n"
 
 #: server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1
@@ -66,12 +66,12 @@ msgstr "ਸਿਸਟਮ ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ, ਫੇਰ ਕੋ
 msgid ""
 "We are currently performing some maintenance on the system, and will return "
 "momentarily."
-msgstr ""
+msgstr "ਅਸੀਂ ਸਿਸਟਮ ਉੱਤੇ ਕੁਝ ਦੇਖਭਾਲ ਦਾ ਕੰਮ ਕਰ ਰਹੇ ਹਾਂ ਅਤੇ ਛੇਤੀ ਹੀ ਉਪਲੱਬਧ ਹੋਵੇਗੇ।"
 
 #: server/templates/pages/src/503.html:2
 #: server/templates/pages/dist/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "ਸਰਵਰ ਰੁਝਿਆ ਹੈ, ਜਲਦੀ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
 
 #: server/templates/pages/src/503.html:3
 #: server/templates/pages/dist/503.html:3
@@ -79,6 +79,8 @@ msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
+"ਅਸੀਂ ਇਸ ਸਮੇਂ ਦਬਾਅ ਅਧੀਨ ਹਾਂ ਅਤੇ ਸਿਸਟਮ ਨੂੰ ਛੇਤੀ ਤੋਂ ਛੇਤੀ ਆਮ ਰੂਪ ਵਿੱਚ ਵਾਪਿਸ "
+"ਲਿਆਉਣ ਲਈ ਕੰਮ ਕਰ ਰਹੇ ਹਾਂ।"
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
@@ -88,6 +90,8 @@ msgid ""
 "href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
 "experience."
 msgstr ""
+"ਅਸੀਂ <strong>ਪੁਰਾਣਾ</strong> ਬਰਾਊਜ਼ਰ ਵਰਤ ਰਹੇ ਹੋ। ਆਪਣੇ ਅਨੁਭਵ ਨੂੰ ਵਧੀਆ ਬਣਾਉਣ ਥਈ "
+"<a href=\"http://browsehappy.com/\">ਆਪਣੇ ਬਰਾਊਜ਼ਰ ਨੂੰ ਅੱਪਗਰੇਡ</a> ਕਰੋ ਜੀ।"
 
 #: server/templates/pages/src/index.html:3
 #: server/templates/pages/dist/index.html:2
