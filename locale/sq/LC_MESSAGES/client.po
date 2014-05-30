@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-13 05:41+0000\n"
-"PO-Revision-Date: 2014-05-14 14:58+0200\n"
+"PO-Revision-Date: 2014-05-30 13:02+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -100,7 +100,7 @@ msgstr "Fjalëkalimi u ndryshua"
 
 #: app/scripts/views/change_password.js:63
 msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
-msgstr "Llogari e paverifikuar. <a href=\"#\" id=\"resend\">Ridërgoni email verifikimi</a>."
+msgstr "Llogari e paverifikuar. <a href=\"#\" id=\"resend\">Rikërkoni email verifikimi</a>."
 
 #: app/scripts/views/complete_reset_password.js:85
 msgid "Passwords do not match"
@@ -320,7 +320,7 @@ msgstr "Ndryshoni fjalëkalimin"
 
 #: app/scripts/templates/change_password.mustache:2
 msgid "Old password"
-msgstr "Fjalëkalim i vjetër"
+msgstr "Fjalëkalimi i vjetër"
 
 #: app/scripts/templates/change_password.mustache:3
 #: app/scripts/templates/change_password.mustache:5
@@ -420,7 +420,7 @@ msgstr "Email-i u Dërgua"
 
 #: app/scripts/templates/confirm.mustache:4
 msgid "A verification link has been sent&nbsp;to %(email)s"
-msgstr "Një lidhje verifikimi sapo u dërgua&nbsp;te %(email)s"
+msgstr "Sapo u dërgua një lidhje verifikimi&nbsp;te %(email)s"
 
 #: app/scripts/templates/confirm.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:8
@@ -449,7 +449,7 @@ msgstr "Cookies Janë të Domosdoshme"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between sessions."
-msgstr "Ju lutemi, aktivizoni te shfletuesi juaj cookie-t, të cilat janë të domosdoshme për Llogaritë Firefox. Cookie-t janë copëza të vogla të dhënash, të depozituara në shfletuesin tuaj, që bëjnë të mundur funksione të tillë si mbajtja mend e sesioneve tuaj nga njëri në tjetrin."
+msgstr "Ju lutemi, aktivizoni cookie-t te shfletuesi juaj, të cilat janë të domosdoshme për Firefox Accounts. Cookie-t janë copëza të vogla të dhënash, të depozituara në shfletuesin tuaj, që bëjnë të mundur funksione të tillë si mbajtja mend e sesioneve tuaj nga njëri në tjetrin."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -463,7 +463,7 @@ msgstr "Riprovoni"
 #: app/scripts/templates/delete_account.mustache:5
 #: app/scripts/templates/settings.mustache:6
 msgid "Delete account"
-msgstr "Fshije llogarinë"
+msgstr "Fshijeni llogarinë"
 
 #: app/scripts/templates/delete_account.mustache:2
 msgid "Are you sure you want to delete your account? This action cannot be undone."
