@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-05-13 05:41+0000\n"
+"POT-Creation-Date: 2014-06-03 15:19+0000\n"
 "PO-Revision-Date: 2014-05-16 01:09+0200\n"
 "Last-Translator: Ibrahima SARR <ibrahima.sarr@pulaagu.com>\n"
 "Language-Team: FULAH LOCALIZATION\n"
@@ -16,24 +16,16 @@ msgstr ""
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
-#: server/templates/pages/dist/404.html:1
-#: server/templates/pages/dist/500.html:1
-#: server/templates/pages/dist/503.html:1
-#: server/templates/pages/dist/index.html:1
-#: server/templates/pages/dist/privacy.html:1
-#: server/templates/pages/dist/terms.html:1
-#: server/templates/email/reset.html:1 server/templates/email/verify.html:1
+#: server/templates/pages/src/terms.html:1 server/templates/email/reset.html:1
+#: server/templates/email/verify.html:1
 msgid "Firefox Accounts"
 msgstr "Konte Firefox"
 
 #: server/templates/pages/src/404.html:2
-#: server/templates/pages/dist/404.html:2
 msgid "Page not found"
 msgstr "Hello yiytaaka"
 
 #: server/templates/pages/src/404.html:3
-#: server/templates/pages/dist/404.html:3
 msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
@@ -43,20 +35,15 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/503.html:4
-#: server/templates/pages/dist/404.html:4
-#: server/templates/pages/dist/500.html:4
-#: server/templates/pages/dist/503.html:4
 msgid "Home"
 msgstr "Jaɓɓorgo"
 
-#: server/templates/pages/src/500.html:2
-#: server/templates/pages/dist/500.html:2 server/lib/500.js:21
+#: server/templates/pages/src/500.html:2 server/lib/500.js:21
 #: server/lib/500.js:24
 msgid "System unavailable, try again soon"
 msgstr "Yuɓɓo heɓotaako, eto ɗoo e yeeso"
 
 #: server/templates/pages/src/500.html:3
-#: server/templates/pages/dist/500.html:3
 msgid ""
 "We are currently performing some maintenance on the system, and will return "
 "momentarily."
@@ -64,12 +51,10 @@ msgstr ""
 "Min ngoni oo sahaa ko e feewnitde yuɓɓo ngoo, ma min ngartu ko leelaani."
 
 #: server/templates/pages/src/503.html:2
-#: server/templates/pages/dist/503.html:2
 msgid "Server busy, try again soon"
 msgstr "Sarworde ena halji, eto ɗoo e yeeso"
 
 #: server/templates/pages/src/503.html:3
-#: server/templates/pages/dist/503.html:3
 msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
@@ -84,33 +69,26 @@ msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
-"Wanngorde kuutorto-ɗaa ndee ko <strong>nayeere</strong>. Tiiɗno <a "
-"href=\"http://browsehappy.com/\">hesɗitin wanngorde maa</a> ngam ɓeydude "
-"moƴƴinde banngagol maa."
+"Wanngorde kuutorto-ɗaa ndee ko <strong>nayeere</strong>. Tiiɗno <a href="
+"\"http://browsehappy.com/\">hesɗitin wanngorde maa</a> ngam ɓeydude moƴƴinde "
+"banngagol maa."
 
 #: server/templates/pages/src/index.html:3
-#: server/templates/pages/dist/index.html:2
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Konte Firefox ena naamnii JavaScript."
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:5
-#: server/templates/pages/dist/privacy.html:2
-#: server/templates/pages/dist/privacy.html:4
 msgid "Privacy Notice"
 msgstr "Tintinol Suturo"
 
 #: server/templates/pages/src/privacy.html:4
 #: server/templates/pages/src/terms.html:4
-#: server/templates/pages/dist/privacy.html:3
-#: server/templates/pages/dist/terms.html:3
 msgid "Firefox cloud services"
 msgstr "Carwe ruulde Firefox"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:5
-#: server/templates/pages/dist/terms.html:2
-#: server/templates/pages/dist/terms.html:4
 msgid "Terms of Service"
 msgstr "Sarɗiiji Carwe"
 
@@ -132,16 +110,15 @@ msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
-"Ɗuum ko iimeel jaajo; so a heɓiimo e juumre, alaa ko pot-ɗaa waɗde hay "
-"baɗte."
+"Ɗuum ko iimeel jaajo; so a heɓiimo e juumre, alaa ko pot-ɗaa waɗde hay baɗte."
 
 #: server/templates/email/reset.html:6 server/templates/email/verify.html:6
 msgid ""
 "For more information, please visit <a href='https://support.mozilla."
 "org'>Mozilla Support</a>"
 msgstr ""
-"Ngam ɓeydude humpito, tiiɗno yillo <a "
-"href='https://support.mozilla.org'>Wallitorde Mozilla</a>"
+"Ngam ɓeydude humpito, tiiɗno yillo <a href='https://support.mozilla."
+"org'>Wallitorde Mozilla</a>"
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
@@ -167,10 +144,10 @@ msgstr "Ƴeewto"
 msgid "Verify:"
 msgstr "Ƴeewto:"
 
-#: server/lib/templates.js:35
+#: server/lib/templates.js:63
 msgid "Verify your account"
 msgstr "Ƴeewto konte maa"
 
-#: server/lib/templates.js:40
+#: server/lib/templates.js:68
 msgid "Reset your password"
 msgstr "Firlit finnde maa"

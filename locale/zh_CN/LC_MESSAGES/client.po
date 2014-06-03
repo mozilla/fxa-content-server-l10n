@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-13 05:41+0000\n"
+"POT-Creation-Date: 2014-06-03 15:19+0000\n"
 "PO-Revision-Date: 2014-05-17 04:06+0000\n"
 "Last-Translator: Shen <steekid@icloud.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,79 +14,75 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1400299563.0\n"
 
-#: app/scripts/templates/sign_up.mustache:11
+#: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
 msgstr "1991"
 
-#: app/scripts/templates/sign_up.mustache:12
+#: app/scripts/templates/sign_up.mustache:14
 msgid "1992"
 msgstr "1992"
 
-#: app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/sign_up.mustache:15
 msgid "1993"
 msgstr "1993"
 
-#: app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/sign_up.mustache:16
 msgid "1994"
 msgstr "1994"
 
-#: app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/sign_up.mustache:17
 msgid "1995"
 msgstr "1995"
 
-#: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/sign_up.mustache:18
 msgid "1996"
 msgstr "1996"
 
-#: app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/sign_up.mustache:19
 msgid "1997"
 msgstr "1997"
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:20
 msgid "1998"
 msgstr "1998"
 
-#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/sign_up.mustache:21
 msgid "1999"
 msgstr "1999"
 
-#: app/scripts/templates/sign_up.mustache:20
+#: app/scripts/templates/sign_up.mustache:22
 msgid "2000"
 msgstr "2000"
 
-#: app/scripts/templates/sign_up.mustache:21
+#: app/scripts/templates/sign_up.mustache:23
 msgid "2001"
 msgstr "2001"
 
-#: app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/sign_up.mustache:24
 msgid "2002"
 msgstr "2002"
 
-#: app/scripts/templates/sign_up.mustache:23
+#: app/scripts/templates/sign_up.mustache:25
 msgid "2003"
 msgstr "2003"
 
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:26
 msgid "2004"
 msgstr "2004"
 
-#: app/scripts/templates/sign_up.mustache:25
+#: app/scripts/templates/sign_up.mustache:27
 msgid "2005"
 msgstr "2005"
 
-#: app/scripts/templates/sign_up.mustache:26
+#: app/scripts/templates/sign_up.mustache:28
 msgid "2006"
 msgstr "2006"
 
-#: app/scripts/templates/sign_up.mustache:27
+#: app/scripts/templates/sign_up.mustache:29
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/base.js:64
-msgid "Session expired. Sign in to continue."
-msgstr "会话已过期，登录后才能继续。"
-
-#: app/scripts/views/base.js:433
+#: app/scripts/views/base.js:487
 msgid "missing search parameter: %(itemName)s"
 msgstr "缺少搜索参数：%(itemName)s"
 
@@ -104,14 +100,9 @@ msgid ""
 "a>."
 msgstr "尚未验证的账户。<a href=\"#\" id=\"resend\">重新发送验证邮件</a>。"
 
-#: app/scripts/views/complete_reset_password.js:85
+#: app/scripts/views/complete_reset_password.js:93
 msgid "Passwords do not match"
 msgstr "密码不匹配"
-
-#: app/scripts/views/confirm.js:101
-#: app/scripts/views/confirm_reset_password.js:87
-msgid "Invalid token"
-msgstr "无效令牌"
 
 #: app/scripts/views/confirm_reset_password.js:63
 msgid "Password reset. Sign in to continue."
@@ -129,18 +120,18 @@ msgstr "账户已成功删除"
 msgid "/force_auth requires an email"
 msgstr "/force_auth 需要电子邮件地址"
 
-#: app/scripts/views/form.js:406 app/scripts/lib/strings.js:18
+#: app/scripts/views/form.js:407 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "需要有效的电子邮件地址"
 
-#: app/scripts/views/form.js:412 app/scripts/lib/strings.js:23
+#: app/scripts/views/form.js:449 app/scripts/lib/strings.js:23
 #: app/scripts/templates/change_password.mustache:6
 #: app/scripts/templates/complete_reset_password.mustache:14
-#: app/scripts/templates/sign_up.mustache:7
+#: app/scripts/templates/sign_up.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "至少8个字符"
 
-#: app/scripts/views/form.js:413 app/scripts/lib/strings.js:19
+#: app/scripts/views/form.js:450 app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr "需要有效的密码"
 
@@ -148,7 +139,7 @@ msgstr "需要有效的密码"
 msgid "Could not get Privacy Notice"
 msgstr "无法获取隐私政策"
 
-#: app/scripts/views/reset_password.js:69 app/scripts/views/sign_in.js:88
+#: app/scripts/views/reset_password.js:69 app/scripts/views/sign_in.js:105
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "未知账号。<a href=\"/signup\">注册</a>"
 
@@ -156,11 +147,11 @@ msgstr "未知账号。<a href=\"/signup\">注册</a>"
 msgid "Signed out"
 msgstr "已退出"
 
-#: app/scripts/views/sign_up.js:92 app/scripts/lib/strings.js:24
+#: app/scripts/views/sign_up.js:104 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "必须输入出生年份"
 
-#: app/scripts/views/sign_up.js:157
+#: app/scripts/views/sign_up.js:178
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "账号已存在。<a href=\"/signin\">登录</a>"
 
@@ -168,85 +159,105 @@ msgstr "账号已存在。<a href=\"/signin\">登录</a>"
 msgid "Could not get Terms of Service"
 msgstr "无法获取服务条款"
 
-#: app/scripts/lib/auth-errors.js:44
+#: app/scripts/lib/auth-errors.js:47 app/scripts/lib/oauth-errors.js:27
 msgid "Unexpected error"
 msgstr "意外错误"
 
-#: app/scripts/lib/auth-errors.js:45
-msgid "Invalid authentication token in request signature"
-msgstr "请求签名中的验证令牌无效"
+#: app/scripts/lib/auth-errors.js:48
+msgid "Invalid token"
+msgstr "无效令牌"
 
-#: app/scripts/lib/auth-errors.js:46
+#: app/scripts/lib/auth-errors.js:49
 msgid "Invalid timestamp in request signature"
 msgstr "请求签名中的时间戳无效"
 
-#: app/scripts/lib/auth-errors.js:47
+#: app/scripts/lib/auth-errors.js:50
 msgid "Invalid nonce in request signature"
 msgstr "请求签名中的随机数无效"
 
-#: app/scripts/lib/auth-errors.js:48 app/scripts/lib/strings.js:25
+#: app/scripts/lib/auth-errors.js:51 app/scripts/lib/strings.js:25
 msgid "Account already exists"
 msgstr "账号已经存在"
 
-#: app/scripts/lib/auth-errors.js:49
+#: app/scripts/lib/auth-errors.js:52
 msgid "Unknown account"
 msgstr "未知账号"
 
-#: app/scripts/lib/auth-errors.js:50
+#: app/scripts/lib/auth-errors.js:53
 msgid "Incorrect email case"
 msgstr "邮件地址大小写错误"
 
-#: app/scripts/lib/auth-errors.js:51
+#: app/scripts/lib/auth-errors.js:54
 msgid "Incorrect password"
 msgstr "密码错误"
 
-#: app/scripts/lib/auth-errors.js:52
+#: app/scripts/lib/auth-errors.js:55
 msgid "Unverified account"
 msgstr "未验证的账号"
 
-#: app/scripts/lib/auth-errors.js:53
+#: app/scripts/lib/auth-errors.js:56
 msgid "Invalid verification code"
 msgstr "无效的验证码"
 
-#: app/scripts/lib/auth-errors.js:54
+#: app/scripts/lib/auth-errors.js:57
 msgid "Invalid JSON in request body"
 msgstr "请求内容中 JSON 无效"
 
-#: app/scripts/lib/auth-errors.js:55
+#: app/scripts/lib/auth-errors.js:58 app/scripts/lib/oauth-errors.js:31
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "请求内容中的参数无效：%(param)s"
 
-#: app/scripts/lib/auth-errors.js:56
+#: app/scripts/lib/auth-errors.js:59
 msgid "Missing parameter in request body: %(param)s"
 msgstr "请求内容中缺少参数：%(param)s"
 
-#: app/scripts/lib/auth-errors.js:57
+#: app/scripts/lib/auth-errors.js:60 app/scripts/lib/oauth-errors.js:32
 msgid "Invalid request signature"
 msgstr "无效的请求签名"
 
-#: app/scripts/lib/auth-errors.js:58
+#: app/scripts/lib/auth-errors.js:61
 msgid "Missing content-length header"
 msgstr "缺少 content-length 头信息"
 
-#: app/scripts/lib/auth-errors.js:59
+#: app/scripts/lib/auth-errors.js:62
 msgid "Request body too large"
 msgstr "请求内容太大"
 
-#: app/scripts/lib/auth-errors.js:60
-msgid "Attempt limit exceeded."
+#: app/scripts/lib/auth-errors.js:63
+#, fuzzy
+msgid "Attempt limit exceeded"
 msgstr "超过尝试次数限制"
 
-#: app/scripts/lib/auth-errors.js:61
+#: app/scripts/lib/auth-errors.js:64
 msgid "System unavailable, try again soon"
 msgstr "系统不可用，请稍后再试"
 
-#: app/scripts/lib/auth-errors.js:62
+#: app/scripts/lib/auth-errors.js:65
 msgid "Server busy, try again soon"
 msgstr "系统繁忙，请稍后再试"
 
-#: app/scripts/lib/auth-errors.js:63
+#: app/scripts/lib/auth-errors.js:66
 msgid "This endpoint is no longer supported"
 msgstr "不再支持这个端点"
+
+#: app/scripts/lib/auth-errors.js:69
+msgid "Session expired. Sign in to continue."
+msgstr "会话已过期，登录后才能继续。"
+
+#: app/scripts/lib/oauth-errors.js:28
+#, fuzzy
+msgid "Unknown client"
+msgstr "未知账号"
+
+#: app/scripts/lib/oauth-errors.js:29
+#, fuzzy
+msgid "Incorrect redirect_uri"
+msgstr "邮件地址大小写错误"
+
+#: app/scripts/lib/oauth-errors.js:30
+#, fuzzy
+msgid "Invalid assertion"
+msgstr "无效令牌"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -316,8 +327,8 @@ msgstr "旧密码"
 #: app/scripts/templates/complete_reset_password.mustache:13
 #: app/scripts/templates/delete_account.mustache:4
 #: app/scripts/templates/force_auth.mustache:5
-#: app/scripts/templates/sign_in.mustache:5
-#: app/scripts/templates/sign_up.mustache:6
+#: app/scripts/templates/sign_in.mustache:7
+#: app/scripts/templates/sign_up.mustache:8
 msgid "Show"
 msgstr "显示"
 
@@ -381,7 +392,7 @@ msgstr "再次输入密码"
 
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/reset_password.mustache:4
-#: app/scripts/templates/sign_up.mustache:29
+#: app/scripts/templates/sign_up.mustache:31
 msgid "Next"
 msgstr "下一步"
 
@@ -418,13 +429,14 @@ msgstr "重置链接已发送到 %(email)s"
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
 #: app/scripts/templates/force_auth.mustache:6
-#: app/scripts/templates/sign_in.mustache:1
-#: app/scripts/templates/sign_in.mustache:6
+#: app/scripts/templates/sign_in.mustache:3
+#: app/scripts/templates/sign_in.mustache:8
 msgid "Sign in"
 msgstr "登录"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies Required"
+#, fuzzy
+msgid "Cookies required"
 msgstr "需要启用 cookie"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
@@ -457,8 +469,8 @@ msgstr "您确认要删除自己的账号？这个操作无法撤销。"
 
 #: app/scripts/templates/delete_account.mustache:3
 #: app/scripts/templates/force_auth.mustache:3
-#: app/scripts/templates/sign_in.mustache:3
-#: app/scripts/templates/sign_up.mustache:4
+#: app/scripts/templates/sign_in.mustache:5
+#: app/scripts/templates/sign_up.mustache:6
 msgid "Password"
 msgstr "密码"
 
@@ -467,13 +479,13 @@ msgid "Sign in to continue"
 msgstr "登录以继续"
 
 #: app/scripts/templates/force_auth.mustache:7
-#: app/scripts/templates/sign_in.mustache:7
+#: app/scripts/templates/sign_in.mustache:9
 msgid "Forgot password?"
 msgstr "忘记密码？"
 
 #: app/scripts/templates/force_auth.mustache:8
-#: app/scripts/templates/sign_in.mustache:9
-#: app/scripts/templates/sign_up.mustache:28
+#: app/scripts/templates/sign_in.mustache:11
+#: app/scripts/templates/sign_up.mustache:30
 msgid ""
 "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
 "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
@@ -516,7 +528,8 @@ msgid "Success"
 msgstr "成功"
 
 #: app/scripts/templates/ready.mustache:8
-msgid "You are now ready to use %(serviceName)s."
+#, fuzzy
+msgid "You are now ready to use %(serviceName)s"
 msgstr "您已经准备好使用 %(serviceName)s 了。"
 
 #: app/scripts/templates/ready.mustache:10
@@ -536,8 +549,8 @@ msgid "Enter your email to reset&nbsp;the account password."
 msgstr "输入您的电子邮件地址重置账号密码。"
 
 #: app/scripts/templates/reset_password.mustache:3
-#: app/scripts/templates/sign_in.mustache:2
-#: app/scripts/templates/sign_up.mustache:2
+#: app/scripts/templates/sign_in.mustache:4
+#: app/scripts/templates/sign_up.mustache:4
 msgid "Email"
 msgstr "电子邮件地址"
 
@@ -553,29 +566,42 @@ msgstr "您已登录为"
 msgid "Sign out"
 msgstr "退出"
 
-#: app/scripts/templates/sign_in.mustache:8
+#: app/scripts/templates/sign_in.mustache:1
+#, fuzzy
+msgid "Sign in to %(serviceName)s"
+msgstr "您已经准备好使用 %(serviceName)s 了。"
+
+#: app/scripts/templates/sign_in.mustache:10
 msgid "Create an account"
 msgstr "创建账号"
 
 #: app/scripts/templates/sign_up.mustache:1
+#, fuzzy
+msgid "Create a Firefox Account for %(serviceName)s"
+msgstr "创建 Firefox 账号"
+
+#: app/scripts/templates/sign_up.mustache:3
 msgid "Create a Firefox Account"
 msgstr "创建 Firefox 账号"
 
-#: app/scripts/templates/sign_up.mustache:9
+#: app/scripts/templates/sign_up.mustache:11
 msgid "Year of birth"
 msgstr "出生年份"
 
-#: app/scripts/templates/sign_up.mustache:10
+#: app/scripts/templates/sign_up.mustache:12
 msgid "1990 or earlier"
 msgstr "1990年或更早"
 
-#: app/scripts/templates/sign_up.mustache:30
+#: app/scripts/templates/sign_up.mustache:32
 msgid "Choose what to sync"
 msgstr "选择要同步的内容"
 
-#: app/scripts/templates/sign_up.mustache:32
+#: app/scripts/templates/sign_up.mustache:34
 msgid "Already have an account? Sign in."
 msgstr "已有账号？登录。"
+
+#~ msgid "Invalid authentication token in request signature"
+#~ msgstr "请求签名中的验证令牌无效"
 
 #~ msgid "No token specified"
 #~ msgstr "未指定令牌"
