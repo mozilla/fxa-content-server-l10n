@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-06-03 15:19+0000\n"
-"PO-Revision-Date: 2014-05-17 17:45+0000\n"
+"PO-Revision-Date: 2014-06-03 19:51+0000\n"
 "Last-Translator: Vlado <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1400348734.0\n"
+"X-POOTLE-MTIME: 1401825083.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -225,9 +225,8 @@ msgid "Request body too large"
 msgstr "Telo požiadavky je príliš veľké"
 
 #: app/scripts/lib/auth-errors.js:63
-#, fuzzy
 msgid "Attempt limit exceeded"
-msgstr "Bol prekročený počet možných pokusov."
+msgstr "Bol prekročený počet možných pokusov"
 
 #: app/scripts/lib/auth-errors.js:64
 msgid "System unavailable, try again soon"
@@ -246,19 +245,16 @@ msgid "Session expired. Sign in to continue."
 msgstr "Čas relácie vypršal. Ak chcete pokračovať, prihláste sa."
 
 #: app/scripts/lib/oauth-errors.js:28
-#, fuzzy
 msgid "Unknown client"
-msgstr "Neznámy účet"
+msgstr "Neznámy klient"
 
 #: app/scripts/lib/oauth-errors.js:29
-#, fuzzy
 msgid "Incorrect redirect_uri"
-msgstr "Neplatný tvar e-mailovej adresy"
+msgstr "Neplatný tvar redirect_uri"
 
 #: app/scripts/lib/oauth-errors.js:30
-#, fuzzy
 msgid "Invalid assertion"
-msgstr "Neplatný token"
+msgstr "Neplatný výraz"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -439,7 +435,6 @@ msgid "Sign in"
 msgstr "Prihlásiť sa"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-#, fuzzy
 msgid "Cookies required"
 msgstr "Vyžadujú sa cookies"
 
@@ -534,9 +529,8 @@ msgid "Success"
 msgstr "Úspešné"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s"
-msgstr "Odteraz môžete využívať služby %(serviceName)s."
+msgstr "Odteraz môžete využívať služby %(serviceName)s"
 
 #: app/scripts/templates/ready.mustache:10
 msgid "Your account is ready!"
@@ -573,18 +567,16 @@ msgid "Sign out"
 msgstr "Odhlásiť sa"
 
 #: app/scripts/templates/sign_in.mustache:1
-#, fuzzy
 msgid "Sign in to %(serviceName)s"
-msgstr "Odteraz môžete využívať služby %(serviceName)s."
+msgstr "Prihlásiť sa k %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:10
 msgid "Create an account"
 msgstr "Vytvoriť účet"
 
 #: app/scripts/templates/sign_up.mustache:1
-#, fuzzy
 msgid "Create a Firefox Account for %(serviceName)s"
-msgstr "Vytvorenie účtu Firefox Account"
+msgstr "Vytvorenie účtu Firefox Account pre %(serviceName)s"
 
 #: app/scripts/templates/sign_up.mustache:3
 msgid "Create a Firefox Account"
