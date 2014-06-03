@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-05-13 05:41+0000\n"
+"POT-Creation-Date: 2014-06-03 15:19+0000\n"
 "PO-Revision-Date: 2014-05-07 21:33+0000\n"
 "Last-Translator: Romi <romihardiyanto@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,79 +13,75 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1399498407.0\n"
 
-#: app/scripts/templates/sign_up.mustache:11
+#: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
 msgstr "1991"
 
-#: app/scripts/templates/sign_up.mustache:12
+#: app/scripts/templates/sign_up.mustache:14
 msgid "1992"
 msgstr "1992"
 
-#: app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/sign_up.mustache:15
 msgid "1993"
 msgstr "1993"
 
-#: app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/sign_up.mustache:16
 msgid "1994"
 msgstr "1994"
 
-#: app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/sign_up.mustache:17
 msgid "1995"
 msgstr "1995"
 
-#: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/sign_up.mustache:18
 msgid "1996"
 msgstr "1996"
 
-#: app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/sign_up.mustache:19
 msgid "1997"
 msgstr "1997"
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:20
 msgid "1998"
 msgstr "1998"
 
-#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/sign_up.mustache:21
 msgid "1999"
 msgstr "1999"
 
-#: app/scripts/templates/sign_up.mustache:20
+#: app/scripts/templates/sign_up.mustache:22
 msgid "2000"
 msgstr "2000"
 
-#: app/scripts/templates/sign_up.mustache:21
+#: app/scripts/templates/sign_up.mustache:23
 msgid "2001"
 msgstr "2001"
 
-#: app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/sign_up.mustache:24
 msgid "2002"
 msgstr "2002"
 
-#: app/scripts/templates/sign_up.mustache:23
+#: app/scripts/templates/sign_up.mustache:25
 msgid "2003"
 msgstr "2003"
 
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:26
 msgid "2004"
 msgstr "2004"
 
-#: app/scripts/templates/sign_up.mustache:25
+#: app/scripts/templates/sign_up.mustache:27
 msgid "2005"
 msgstr "2005"
 
-#: app/scripts/templates/sign_up.mustache:26
+#: app/scripts/templates/sign_up.mustache:28
 msgid "2006"
 msgstr "2006"
 
-#: app/scripts/templates/sign_up.mustache:27
+#: app/scripts/templates/sign_up.mustache:29
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/base.js:64
-msgid "Session expired. Sign in to continue."
-msgstr "Sesi kedaluwarsa. Masuk untuk melanjutkan."
-
-#: app/scripts/views/base.js:433
+#: app/scripts/views/base.js:487
 msgid "missing search parameter: %(itemName)s"
 msgstr "parameter pencarian tidak tersedia: %(itemName)s"
 
@@ -105,14 +101,9 @@ msgstr ""
 "Akun belum diverifikasi. <a href=\"#\" id=\"resend\">Kirim ulang email "
 "verifikasi</a>."
 
-#: app/scripts/views/complete_reset_password.js:85
+#: app/scripts/views/complete_reset_password.js:93
 msgid "Passwords do not match"
 msgstr "Sandi tidak sama"
-
-#: app/scripts/views/confirm.js:101
-#: app/scripts/views/confirm_reset_password.js:87
-msgid "Invalid token"
-msgstr "Token tidak valid"
 
 #: app/scripts/views/confirm_reset_password.js:63
 msgid "Password reset. Sign in to continue."
@@ -130,18 +121,18 @@ msgstr "Akun berhasil dihapus"
 msgid "/force_auth requires an email"
 msgstr "/force_auth membutuhkan email"
 
-#: app/scripts/views/form.js:406 app/scripts/lib/strings.js:18
+#: app/scripts/views/form.js:407 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "Email harus valid"
 
-#: app/scripts/views/form.js:412 app/scripts/lib/strings.js:23
+#: app/scripts/views/form.js:449 app/scripts/lib/strings.js:23
 #: app/scripts/templates/change_password.mustache:6
 #: app/scripts/templates/complete_reset_password.mustache:14
-#: app/scripts/templates/sign_up.mustache:7
+#: app/scripts/templates/sign_up.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "Paling sedikit 8 karakter"
 
-#: app/scripts/views/form.js:413 app/scripts/lib/strings.js:19
+#: app/scripts/views/form.js:450 app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr "Sandi harus valid"
 
@@ -149,7 +140,7 @@ msgstr "Sandi harus valid"
 msgid "Could not get Privacy Notice"
 msgstr "Tidak dapat mengambil Kebijakan Privasi"
 
-#: app/scripts/views/reset_password.js:69 app/scripts/views/sign_in.js:88
+#: app/scripts/views/reset_password.js:69 app/scripts/views/sign_in.js:105
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Akun tidak dikenal. <a href=\"/signup\">Daftar</a>"
 
@@ -157,11 +148,11 @@ msgstr "Akun tidak dikenal. <a href=\"/signup\">Daftar</a>"
 msgid "Signed out"
 msgstr "Keluar"
 
-#: app/scripts/views/sign_up.js:92 app/scripts/lib/strings.js:24
+#: app/scripts/views/sign_up.js:104 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "Tahun lahir dibutuhkan"
 
-#: app/scripts/views/sign_up.js:157
+#: app/scripts/views/sign_up.js:178
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Akun sudah ada. <a href=\"/signin\">Masuk</a>"
 
@@ -169,85 +160,105 @@ msgstr "Akun sudah ada. <a href=\"/signin\">Masuk</a>"
 msgid "Could not get Terms of Service"
 msgstr "Tidak dapat mengambil Ketentuan Layanan"
 
-#: app/scripts/lib/auth-errors.js:44
+#: app/scripts/lib/auth-errors.js:47 app/scripts/lib/oauth-errors.js:27
 msgid "Unexpected error"
 msgstr "Galat tidak diharapkan"
 
-#: app/scripts/lib/auth-errors.js:45
-msgid "Invalid authentication token in request signature"
-msgstr "Token autentikasi pada kode permintaan tidak valid"
+#: app/scripts/lib/auth-errors.js:48
+msgid "Invalid token"
+msgstr "Token tidak valid"
 
-#: app/scripts/lib/auth-errors.js:46
+#: app/scripts/lib/auth-errors.js:49
 msgid "Invalid timestamp in request signature"
 msgstr "Stempel waktu pada kode permintaan tidak valid"
 
-#: app/scripts/lib/auth-errors.js:47
+#: app/scripts/lib/auth-errors.js:50
 msgid "Invalid nonce in request signature"
 msgstr "Nonce pada kode permintaan tidak valid"
 
-#: app/scripts/lib/auth-errors.js:48 app/scripts/lib/strings.js:25
+#: app/scripts/lib/auth-errors.js:51 app/scripts/lib/strings.js:25
 msgid "Account already exists"
 msgstr "Akun sudah ada"
 
-#: app/scripts/lib/auth-errors.js:49
+#: app/scripts/lib/auth-errors.js:52
 msgid "Unknown account"
 msgstr "Akun tidak dikenal"
 
-#: app/scripts/lib/auth-errors.js:50
+#: app/scripts/lib/auth-errors.js:53
 msgid "Incorrect email case"
 msgstr "Email salah"
 
-#: app/scripts/lib/auth-errors.js:51
+#: app/scripts/lib/auth-errors.js:54
 msgid "Incorrect password"
 msgstr "Sandi salah"
 
-#: app/scripts/lib/auth-errors.js:52
+#: app/scripts/lib/auth-errors.js:55
 msgid "Unverified account"
 msgstr "Akun belum diverifikasi"
 
-#: app/scripts/lib/auth-errors.js:53
+#: app/scripts/lib/auth-errors.js:56
 msgid "Invalid verification code"
 msgstr "Kode verifikasi tidak valid"
 
-#: app/scripts/lib/auth-errors.js:54
+#: app/scripts/lib/auth-errors.js:57
 msgid "Invalid JSON in request body"
 msgstr "Kode JSON pada isi permintaan tidak valid"
 
-#: app/scripts/lib/auth-errors.js:55
+#: app/scripts/lib/auth-errors.js:58 app/scripts/lib/oauth-errors.js:31
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Parameter pada isi permintaan tidak valid: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:56
+#: app/scripts/lib/auth-errors.js:59
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Parameter pada isi permintaan tidak ada: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:57
+#: app/scripts/lib/auth-errors.js:60 app/scripts/lib/oauth-errors.js:32
 msgid "Invalid request signature"
 msgstr "Kode permintaan tidak valid"
 
-#: app/scripts/lib/auth-errors.js:58
+#: app/scripts/lib/auth-errors.js:61
 msgid "Missing content-length header"
 msgstr "Header content-length tidak ada"
 
-#: app/scripts/lib/auth-errors.js:59
+#: app/scripts/lib/auth-errors.js:62
 msgid "Request body too large"
 msgstr "Isi permintaan terlalu besar"
 
-#: app/scripts/lib/auth-errors.js:60
-msgid "Attempt limit exceeded."
+#: app/scripts/lib/auth-errors.js:63
+#, fuzzy
+msgid "Attempt limit exceeded"
 msgstr "Batas maksimum percobaan terlampaui."
 
-#: app/scripts/lib/auth-errors.js:61
+#: app/scripts/lib/auth-errors.js:64
 msgid "System unavailable, try again soon"
 msgstr "Sistem tidak tersedia, coba lagi nanti"
 
-#: app/scripts/lib/auth-errors.js:62
+#: app/scripts/lib/auth-errors.js:65
 msgid "Server busy, try again soon"
 msgstr "Server sibuk, coba lagi nanti"
 
-#: app/scripts/lib/auth-errors.js:63
+#: app/scripts/lib/auth-errors.js:66
 msgid "This endpoint is no longer supported"
 msgstr "Titik-akhir tidak lagi didukung"
+
+#: app/scripts/lib/auth-errors.js:69
+msgid "Session expired. Sign in to continue."
+msgstr "Sesi kedaluwarsa. Masuk untuk melanjutkan."
+
+#: app/scripts/lib/oauth-errors.js:28
+#, fuzzy
+msgid "Unknown client"
+msgstr "Akun tidak dikenal"
+
+#: app/scripts/lib/oauth-errors.js:29
+#, fuzzy
+msgid "Incorrect redirect_uri"
+msgstr "Email salah"
+
+#: app/scripts/lib/oauth-errors.js:30
+#, fuzzy
+msgid "Invalid assertion"
+msgstr "Token tidak valid"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -318,8 +329,8 @@ msgstr "Sandi lawas"
 #: app/scripts/templates/complete_reset_password.mustache:13
 #: app/scripts/templates/delete_account.mustache:4
 #: app/scripts/templates/force_auth.mustache:5
-#: app/scripts/templates/sign_in.mustache:5
-#: app/scripts/templates/sign_up.mustache:6
+#: app/scripts/templates/sign_in.mustache:7
+#: app/scripts/templates/sign_up.mustache:8
 msgid "Show"
 msgstr "Tampilkan"
 
@@ -383,7 +394,7 @@ msgstr "Ulangi sandi"
 
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/reset_password.mustache:4
-#: app/scripts/templates/sign_up.mustache:29
+#: app/scripts/templates/sign_up.mustache:31
 msgid "Next"
 msgstr "Lanjut"
 
@@ -420,13 +431,14 @@ msgstr "Tautan penyetelan ulang telah dikirim ke %(email)s"
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
 #: app/scripts/templates/force_auth.mustache:6
-#: app/scripts/templates/sign_in.mustache:1
-#: app/scripts/templates/sign_in.mustache:6
+#: app/scripts/templates/sign_in.mustache:3
+#: app/scripts/templates/sign_in.mustache:8
 msgid "Sign in"
 msgstr "Masuk"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies Required"
+#, fuzzy
+msgid "Cookies required"
 msgstr "Dibutuhkan Kuki"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
@@ -460,8 +472,8 @@ msgstr "Yakin akan menghapus akun Anda? Aksi ini tidak dapat diurungkan."
 
 #: app/scripts/templates/delete_account.mustache:3
 #: app/scripts/templates/force_auth.mustache:3
-#: app/scripts/templates/sign_in.mustache:3
-#: app/scripts/templates/sign_up.mustache:4
+#: app/scripts/templates/sign_in.mustache:5
+#: app/scripts/templates/sign_up.mustache:6
 msgid "Password"
 msgstr "Sandi"
 
@@ -470,13 +482,13 @@ msgid "Sign in to continue"
 msgstr "Masuk untuk melanjutkan"
 
 #: app/scripts/templates/force_auth.mustache:7
-#: app/scripts/templates/sign_in.mustache:7
+#: app/scripts/templates/sign_in.mustache:9
 msgid "Forgot password?"
 msgstr "Lupa sandi?"
 
 #: app/scripts/templates/force_auth.mustache:8
-#: app/scripts/templates/sign_in.mustache:9
-#: app/scripts/templates/sign_up.mustache:28
+#: app/scripts/templates/sign_in.mustache:11
+#: app/scripts/templates/sign_up.mustache:30
 msgid ""
 "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
 "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
@@ -520,7 +532,8 @@ msgid "Success"
 msgstr "Sukses"
 
 #: app/scripts/templates/ready.mustache:8
-msgid "You are now ready to use %(serviceName)s."
+#, fuzzy
+msgid "You are now ready to use %(serviceName)s"
 msgstr "Kini Anda siap menggunakan %(serviceName)s."
 
 #: app/scripts/templates/ready.mustache:10
@@ -540,8 +553,8 @@ msgid "Enter your email to reset&nbsp;the account password."
 msgstr "Masukkan email Anda untuk menyetel ulang sandi akun."
 
 #: app/scripts/templates/reset_password.mustache:3
-#: app/scripts/templates/sign_in.mustache:2
-#: app/scripts/templates/sign_up.mustache:2
+#: app/scripts/templates/sign_in.mustache:4
+#: app/scripts/templates/sign_up.mustache:4
 msgid "Email"
 msgstr "Email"
 
@@ -557,29 +570,42 @@ msgstr "Anda masuk sebagai"
 msgid "Sign out"
 msgstr "Keluar"
 
-#: app/scripts/templates/sign_in.mustache:8
+#: app/scripts/templates/sign_in.mustache:1
+#, fuzzy
+msgid "Sign in to %(serviceName)s"
+msgstr "Kini Anda siap menggunakan %(serviceName)s."
+
+#: app/scripts/templates/sign_in.mustache:10
 msgid "Create an account"
 msgstr "Buat akun"
 
 #: app/scripts/templates/sign_up.mustache:1
+#, fuzzy
+msgid "Create a Firefox Account for %(serviceName)s"
+msgstr "Buat Akun Firefox"
+
+#: app/scripts/templates/sign_up.mustache:3
 msgid "Create a Firefox Account"
 msgstr "Buat Akun Firefox"
 
-#: app/scripts/templates/sign_up.mustache:9
+#: app/scripts/templates/sign_up.mustache:11
 msgid "Year of birth"
 msgstr "Tahun lahir"
 
-#: app/scripts/templates/sign_up.mustache:10
+#: app/scripts/templates/sign_up.mustache:12
 msgid "1990 or earlier"
 msgstr "1990 atau sebelumnya"
 
-#: app/scripts/templates/sign_up.mustache:30
+#: app/scripts/templates/sign_up.mustache:32
 msgid "Choose what to sync"
 msgstr "Pilih yang ingin disinkronkan"
 
-#: app/scripts/templates/sign_up.mustache:32
+#: app/scripts/templates/sign_up.mustache:34
 msgid "Already have an account? Sign in."
 msgstr "Sudah punya akun? Masuk."
+
+#~ msgid "Invalid authentication token in request signature"
+#~ msgstr "Token autentikasi pada kode permintaan tidak valid"
 
 #~ msgid "No token specified"
 #~ msgstr "Tidak ada token yang diberikan"

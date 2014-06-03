@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-05-13 05:41+0000\n"
+"POT-Creation-Date: 2014-06-03 15:19+0000\n"
 "PO-Revision-Date: 2014-05-03 12:48+0000\n"
 "Last-Translator: Hyeonseok <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,24 +17,16 @@ msgstr ""
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
-#: server/templates/pages/dist/404.html:1
-#: server/templates/pages/dist/500.html:1
-#: server/templates/pages/dist/503.html:1
-#: server/templates/pages/dist/index.html:1
-#: server/templates/pages/dist/privacy.html:1
-#: server/templates/pages/dist/terms.html:1
-#: server/templates/email/reset.html:1 server/templates/email/verify.html:1
+#: server/templates/pages/src/terms.html:1 server/templates/email/reset.html:1
+#: server/templates/email/verify.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox 계정"
 
 #: server/templates/pages/src/404.html:2
-#: server/templates/pages/dist/404.html:2
 msgid "Page not found"
 msgstr "페이지를 찾을 수 없음"
 
 #: server/templates/pages/src/404.html:3
-#: server/templates/pages/dist/404.html:3
 msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
@@ -42,32 +34,25 @@ msgstr "요청하신 페이지를 찾을 수 없습니다. 잘못된 링크를 �
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/503.html:4
-#: server/templates/pages/dist/404.html:4
-#: server/templates/pages/dist/500.html:4
-#: server/templates/pages/dist/503.html:4
 msgid "Home"
 msgstr "첫화면"
 
-#: server/templates/pages/src/500.html:2
-#: server/templates/pages/dist/500.html:2 server/lib/500.js:21
+#: server/templates/pages/src/500.html:2 server/lib/500.js:21
 #: server/lib/500.js:24
 msgid "System unavailable, try again soon"
 msgstr "시스템 오류입니다, 잠시 후에 다시 시도해 주세요."
 
 #: server/templates/pages/src/500.html:3
-#: server/templates/pages/dist/500.html:3
 msgid ""
 "We are currently performing some maintenance on the system, and will return "
 "momentarily."
 msgstr "시스템 유지 운용 작업 중입니다, 잠시 후에 사용할 수 있습니다."
 
 #: server/templates/pages/src/503.html:2
-#: server/templates/pages/dist/503.html:2
 msgid "Server busy, try again soon"
 msgstr "서버가 응답하지 않습니다, 잠시 후에 다시 시도해 주세요."
 
 #: server/templates/pages/src/503.html:3
-#: server/templates/pages/dist/503.html:3
 msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
@@ -84,28 +69,21 @@ msgstr ""
 "browsehappy.com/\">브라우저를 업그레이드</a>해 주세요."
 
 #: server/templates/pages/src/index.html:3
-#: server/templates/pages/dist/index.html:2
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Firefox 계정은 자바스트립트를 필요로 합니다."
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:5
-#: server/templates/pages/dist/privacy.html:2
-#: server/templates/pages/dist/privacy.html:4
 msgid "Privacy Notice"
 msgstr "개인 정보 고지"
 
 #: server/templates/pages/src/privacy.html:4
 #: server/templates/pages/src/terms.html:4
-#: server/templates/pages/dist/privacy.html:3
-#: server/templates/pages/dist/terms.html:3
 msgid "Firefox cloud services"
 msgstr "Firefox 클라우드 서비스"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:5
-#: server/templates/pages/dist/terms.html:2
-#: server/templates/pages/dist/terms.html:4
 msgid "Terms of Service"
 msgstr "서비스 약관"
 
@@ -161,11 +139,11 @@ msgstr "계정 확인"
 msgid "Verify:"
 msgstr "계정 확인:"
 
-#: server/lib/templates.js:35
+#: server/lib/templates.js:63
 msgid "Verify your account"
 msgstr "계정 확인"
 
-#: server/lib/templates.js:40
+#: server/lib/templates.js:68
 msgid "Reset your password"
 msgstr "암호 재설정"
 

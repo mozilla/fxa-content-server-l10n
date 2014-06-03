@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-05-13 05:41+0000\n"
+"POT-Creation-Date: 2014-06-03 15:19+0000\n"
 "PO-Revision-Date: 2014-05-07 15:10+0000\n"
 "Last-Translator: Jørgen   <joergenr@stofanet.dk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,24 +17,16 @@ msgstr ""
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
-#: server/templates/pages/dist/404.html:1
-#: server/templates/pages/dist/500.html:1
-#: server/templates/pages/dist/503.html:1
-#: server/templates/pages/dist/index.html:1
-#: server/templates/pages/dist/privacy.html:1
-#: server/templates/pages/dist/terms.html:1
-#: server/templates/email/reset.html:1 server/templates/email/verify.html:1
+#: server/templates/pages/src/terms.html:1 server/templates/email/reset.html:1
+#: server/templates/email/verify.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox-konti"
 
 #: server/templates/pages/src/404.html:2
-#: server/templates/pages/dist/404.html:2
 msgid "Page not found"
 msgstr "Side ikke fundet"
 
 #: server/templates/pages/src/404.html:3
-#: server/templates/pages/dist/404.html:3
 msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
@@ -44,20 +36,15 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/503.html:4
-#: server/templates/pages/dist/404.html:4
-#: server/templates/pages/dist/500.html:4
-#: server/templates/pages/dist/503.html:4
 msgid "Home"
 msgstr "Start"
 
-#: server/templates/pages/src/500.html:2
-#: server/templates/pages/dist/500.html:2 server/lib/500.js:21
+#: server/templates/pages/src/500.html:2 server/lib/500.js:21
 #: server/lib/500.js:24
 msgid "System unavailable, try again soon"
 msgstr "Systemet er ikke tilgængeligt, prøv igen om lidt"
 
 #: server/templates/pages/src/500.html:3
-#: server/templates/pages/dist/500.html:3
 msgid ""
 "We are currently performing some maintenance on the system, and will return "
 "momentarily."
@@ -65,12 +52,10 @@ msgstr ""
 "Vi udfører i øjeblikket vedligeholdelse på systemet, prøv igen om lidt."
 
 #: server/templates/pages/src/503.html:2
-#: server/templates/pages/dist/503.html:2
 msgid "Server busy, try again soon"
 msgstr "Serveren er optaget, prøv igen om lidt"
 
 #: server/templates/pages/src/503.html:3
-#: server/templates/pages/dist/503.html:3
 msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
@@ -89,28 +74,21 @@ msgstr ""
 "com/\">Opdater din browser</a> for at få en bedre oplevelse."
 
 #: server/templates/pages/src/index.html:3
-#: server/templates/pages/dist/index.html:2
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Firefox-konti kræver JavaScript."
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:5
-#: server/templates/pages/dist/privacy.html:2
-#: server/templates/pages/dist/privacy.html:4
 msgid "Privacy Notice"
 msgstr "Privatlivspolitik"
 
 #: server/templates/pages/src/privacy.html:4
 #: server/templates/pages/src/terms.html:4
-#: server/templates/pages/dist/privacy.html:3
-#: server/templates/pages/dist/terms.html:3
 msgid "Firefox cloud services"
 msgstr "Firefox online-tjenester"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:5
-#: server/templates/pages/dist/terms.html:2
-#: server/templates/pages/dist/terms.html:4
 msgid "Terms of Service"
 msgstr "Tjenestevilkår"
 
@@ -167,11 +145,11 @@ msgstr "Bekræft"
 msgid "Verify:"
 msgstr "Bekræft:"
 
-#: server/lib/templates.js:35
+#: server/lib/templates.js:63
 msgid "Verify your account"
 msgstr "Bekræft din konto"
 
-#: server/lib/templates.js:40
+#: server/lib/templates.js:68
 msgid "Reset your password"
 msgstr "Nulstil din adgangskode"
 

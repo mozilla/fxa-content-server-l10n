@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-05-13 05:41+0000\n"
+"POT-Creation-Date: 2014-06-03 15:19+0000\n"
 "PO-Revision-Date: 2014-05-16 20:59+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,79 +13,75 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1400273969.0\n"
 
-#: app/scripts/templates/sign_up.mustache:11
+#: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
 msgstr "1991"
 
-#: app/scripts/templates/sign_up.mustache:12
+#: app/scripts/templates/sign_up.mustache:14
 msgid "1992"
 msgstr "1992"
 
-#: app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/sign_up.mustache:15
 msgid "1993"
 msgstr "1993"
 
-#: app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/sign_up.mustache:16
 msgid "1994"
 msgstr "1994"
 
-#: app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/sign_up.mustache:17
 msgid "1995"
 msgstr "1995"
 
-#: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/sign_up.mustache:18
 msgid "1996"
 msgstr "1996"
 
-#: app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/sign_up.mustache:19
 msgid "1997"
 msgstr "1997"
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:20
 msgid "1998"
 msgstr "1998"
 
-#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/sign_up.mustache:21
 msgid "1999"
 msgstr "1999"
 
-#: app/scripts/templates/sign_up.mustache:20
+#: app/scripts/templates/sign_up.mustache:22
 msgid "2000"
 msgstr "2000"
 
-#: app/scripts/templates/sign_up.mustache:21
+#: app/scripts/templates/sign_up.mustache:23
 msgid "2001"
 msgstr "2001"
 
-#: app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/sign_up.mustache:24
 msgid "2002"
 msgstr "2002"
 
-#: app/scripts/templates/sign_up.mustache:23
+#: app/scripts/templates/sign_up.mustache:25
 msgid "2003"
 msgstr "2003"
 
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:26
 msgid "2004"
 msgstr "2004"
 
-#: app/scripts/templates/sign_up.mustache:25
+#: app/scripts/templates/sign_up.mustache:27
 msgid "2005"
 msgstr "2005"
 
-#: app/scripts/templates/sign_up.mustache:26
+#: app/scripts/templates/sign_up.mustache:28
 msgid "2006"
 msgstr "2006"
 
-#: app/scripts/templates/sign_up.mustache:27
+#: app/scripts/templates/sign_up.mustache:29
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/base.js:64
-msgid "Session expired. Sign in to continue."
-msgstr "Sessie verlopen. Meld u aan om door te gaan."
-
-#: app/scripts/views/base.js:433
+#: app/scripts/views/base.js:487
 msgid "missing search parameter: %(itemName)s"
 msgstr "zoekparameter ontbreekt: %(itemName)s"
 
@@ -105,14 +101,9 @@ msgstr ""
 "Niet-geverifieerde account. <a href=\"#\" id=\"resend\">Verificatie-e-mail "
 "opnieuw verzenden</a>."
 
-#: app/scripts/views/complete_reset_password.js:85
+#: app/scripts/views/complete_reset_password.js:93
 msgid "Passwords do not match"
 msgstr "Wachtwoorden komen niet overeen"
-
-#: app/scripts/views/confirm.js:101
-#: app/scripts/views/confirm_reset_password.js:87
-msgid "Invalid token"
-msgstr "Ongeldige token"
 
 #: app/scripts/views/confirm_reset_password.js:63
 msgid "Password reset. Sign in to continue."
@@ -130,18 +121,18 @@ msgstr "Account met succes verwijderd"
 msgid "/force_auth requires an email"
 msgstr "/force_auth vereist een e-mailadres"
 
-#: app/scripts/views/form.js:406 app/scripts/lib/strings.js:18
+#: app/scripts/views/form.js:407 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "Geldig e-mailadres vereist"
 
-#: app/scripts/views/form.js:412 app/scripts/lib/strings.js:23
+#: app/scripts/views/form.js:449 app/scripts/lib/strings.js:23
 #: app/scripts/templates/change_password.mustache:6
 #: app/scripts/templates/complete_reset_password.mustache:14
-#: app/scripts/templates/sign_up.mustache:7
+#: app/scripts/templates/sign_up.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "Moet minstens 8 tekens bevatten"
 
-#: app/scripts/views/form.js:413 app/scripts/lib/strings.js:19
+#: app/scripts/views/form.js:450 app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr "Geldig wachtwoord vereist"
 
@@ -149,7 +140,7 @@ msgstr "Geldig wachtwoord vereist"
 msgid "Could not get Privacy Notice"
 msgstr "Kan privacyverklaring niet ophalen"
 
-#: app/scripts/views/reset_password.js:69 app/scripts/views/sign_in.js:88
+#: app/scripts/views/reset_password.js:69 app/scripts/views/sign_in.js:105
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Onbekende account. <a href=\"/signup\">Registreren</a>"
 
@@ -157,11 +148,11 @@ msgstr "Onbekende account. <a href=\"/signup\">Registreren</a>"
 msgid "Signed out"
 msgstr "Afgemeld"
 
-#: app/scripts/views/sign_up.js:92 app/scripts/lib/strings.js:24
+#: app/scripts/views/sign_up.js:104 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "Geboortejaar vereist"
 
-#: app/scripts/views/sign_up.js:157
+#: app/scripts/views/sign_up.js:178
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Account bestaat al. <a href=\"/signin\">Aanmelden</a>"
 
@@ -169,85 +160,105 @@ msgstr "Account bestaat al. <a href=\"/signin\">Aanmelden</a>"
 msgid "Could not get Terms of Service"
 msgstr "Kan servicevoorwaarden niet ophalen"
 
-#: app/scripts/lib/auth-errors.js:44
+#: app/scripts/lib/auth-errors.js:47 app/scripts/lib/oauth-errors.js:27
 msgid "Unexpected error"
 msgstr "Onverwachte fout"
 
-#: app/scripts/lib/auth-errors.js:45
-msgid "Invalid authentication token in request signature"
-msgstr "Ongeldig verificatietoken in aanvraaghandtekening"
+#: app/scripts/lib/auth-errors.js:48
+msgid "Invalid token"
+msgstr "Ongeldige token"
 
-#: app/scripts/lib/auth-errors.js:46
+#: app/scripts/lib/auth-errors.js:49
 msgid "Invalid timestamp in request signature"
 msgstr "Ongeldige tijdstempel in aanvraaghandtekening"
 
-#: app/scripts/lib/auth-errors.js:47
+#: app/scripts/lib/auth-errors.js:50
 msgid "Invalid nonce in request signature"
 msgstr "Ongeldige nonce in aanvraaghandtekening"
 
-#: app/scripts/lib/auth-errors.js:48 app/scripts/lib/strings.js:25
+#: app/scripts/lib/auth-errors.js:51 app/scripts/lib/strings.js:25
 msgid "Account already exists"
 msgstr "Account bestaat al"
 
-#: app/scripts/lib/auth-errors.js:49
+#: app/scripts/lib/auth-errors.js:52
 msgid "Unknown account"
 msgstr "Onbekende account"
 
-#: app/scripts/lib/auth-errors.js:50
+#: app/scripts/lib/auth-errors.js:53
 msgid "Incorrect email case"
 msgstr "Onjuiste letters in e-mailadres"
 
-#: app/scripts/lib/auth-errors.js:51
+#: app/scripts/lib/auth-errors.js:54
 msgid "Incorrect password"
 msgstr "Onjuist wachtwoord"
 
-#: app/scripts/lib/auth-errors.js:52
+#: app/scripts/lib/auth-errors.js:55
 msgid "Unverified account"
 msgstr "Niet-geverifieerde account"
 
-#: app/scripts/lib/auth-errors.js:53
+#: app/scripts/lib/auth-errors.js:56
 msgid "Invalid verification code"
 msgstr "Ongeldige verificatiecode"
 
-#: app/scripts/lib/auth-errors.js:54
+#: app/scripts/lib/auth-errors.js:57
 msgid "Invalid JSON in request body"
 msgstr "Ongeldige JSON in aanvraagtekst"
 
-#: app/scripts/lib/auth-errors.js:55
+#: app/scripts/lib/auth-errors.js:58 app/scripts/lib/oauth-errors.js:31
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Ongeldige parameter in aanvraagtekst: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:56
+#: app/scripts/lib/auth-errors.js:59
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Ontbrekende parameter in aanvraagtekst: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:57
+#: app/scripts/lib/auth-errors.js:60 app/scripts/lib/oauth-errors.js:32
 msgid "Invalid request signature"
 msgstr "Ongeldige aanvraaghandtekening"
 
-#: app/scripts/lib/auth-errors.js:58
+#: app/scripts/lib/auth-errors.js:61
 msgid "Missing content-length header"
 msgstr "Header content-length ontbreekt"
 
-#: app/scripts/lib/auth-errors.js:59
+#: app/scripts/lib/auth-errors.js:62
 msgid "Request body too large"
 msgstr "Aanvraagtekst te lang"
 
-#: app/scripts/lib/auth-errors.js:60
-msgid "Attempt limit exceeded."
+#: app/scripts/lib/auth-errors.js:63
+#, fuzzy
+msgid "Attempt limit exceeded"
 msgstr "Maximumaantal pogingen overschreden."
 
-#: app/scripts/lib/auth-errors.js:61
+#: app/scripts/lib/auth-errors.js:64
 msgid "System unavailable, try again soon"
 msgstr "Systeem niet beschikbaar, probeer het later opnieuw"
 
-#: app/scripts/lib/auth-errors.js:62
+#: app/scripts/lib/auth-errors.js:65
 msgid "Server busy, try again soon"
 msgstr "Server bezet, probeer het later opnieuw"
 
-#: app/scripts/lib/auth-errors.js:63
+#: app/scripts/lib/auth-errors.js:66
 msgid "This endpoint is no longer supported"
 msgstr "Dit eindpunt wordt niet meer ondersteund"
+
+#: app/scripts/lib/auth-errors.js:69
+msgid "Session expired. Sign in to continue."
+msgstr "Sessie verlopen. Meld u aan om door te gaan."
+
+#: app/scripts/lib/oauth-errors.js:28
+#, fuzzy
+msgid "Unknown client"
+msgstr "Onbekende account"
+
+#: app/scripts/lib/oauth-errors.js:29
+#, fuzzy
+msgid "Incorrect redirect_uri"
+msgstr "Onjuiste letters in e-mailadres"
+
+#: app/scripts/lib/oauth-errors.js:30
+#, fuzzy
+msgid "Invalid assertion"
+msgstr "Ongeldige token"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -319,8 +330,8 @@ msgstr "Oude wachtwoord"
 #: app/scripts/templates/complete_reset_password.mustache:13
 #: app/scripts/templates/delete_account.mustache:4
 #: app/scripts/templates/force_auth.mustache:5
-#: app/scripts/templates/sign_in.mustache:5
-#: app/scripts/templates/sign_up.mustache:6
+#: app/scripts/templates/sign_in.mustache:7
+#: app/scripts/templates/sign_up.mustache:8
 msgid "Show"
 msgstr "Tonen"
 
@@ -387,7 +398,7 @@ msgstr "Herhaal wachtwoord"
 
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/reset_password.mustache:4
-#: app/scripts/templates/sign_up.mustache:29
+#: app/scripts/templates/sign_up.mustache:31
 msgid "Next"
 msgstr "Volgende"
 
@@ -424,13 +435,14 @@ msgstr "Er is een herinitialisatiekoppeling verzonden naar %(email)s"
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
 #: app/scripts/templates/force_auth.mustache:6
-#: app/scripts/templates/sign_in.mustache:1
-#: app/scripts/templates/sign_in.mustache:6
+#: app/scripts/templates/sign_in.mustache:3
+#: app/scripts/templates/sign_in.mustache:8
 msgid "Sign in"
 msgstr "Aanmelden"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies Required"
+#, fuzzy
+msgid "Cookies required"
 msgstr "Cookies vereist"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
@@ -466,8 +478,8 @@ msgstr ""
 
 #: app/scripts/templates/delete_account.mustache:3
 #: app/scripts/templates/force_auth.mustache:3
-#: app/scripts/templates/sign_in.mustache:3
-#: app/scripts/templates/sign_up.mustache:4
+#: app/scripts/templates/sign_in.mustache:5
+#: app/scripts/templates/sign_up.mustache:6
 msgid "Password"
 msgstr "Wachtwoord"
 
@@ -476,13 +488,13 @@ msgid "Sign in to continue"
 msgstr "Meld u aan om door te gaan"
 
 #: app/scripts/templates/force_auth.mustache:7
-#: app/scripts/templates/sign_in.mustache:7
+#: app/scripts/templates/sign_in.mustache:9
 msgid "Forgot password?"
 msgstr "Wachtwoord vergeten?"
 
 #: app/scripts/templates/force_auth.mustache:8
-#: app/scripts/templates/sign_in.mustache:9
-#: app/scripts/templates/sign_up.mustache:28
+#: app/scripts/templates/sign_in.mustache:11
+#: app/scripts/templates/sign_up.mustache:30
 msgid ""
 "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
 "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
@@ -526,7 +538,8 @@ msgid "Success"
 msgstr "Geslaagd"
 
 #: app/scripts/templates/ready.mustache:8
-msgid "You are now ready to use %(serviceName)s."
+#, fuzzy
+msgid "You are now ready to use %(serviceName)s"
 msgstr "U kunt %(serviceName)s nu gebruiken."
 
 #: app/scripts/templates/ready.mustache:10
@@ -547,8 +560,8 @@ msgstr ""
 "Voer uw e-mailadres in om het&nbsp;accountwachtwoord te herinitialiseren."
 
 #: app/scripts/templates/reset_password.mustache:3
-#: app/scripts/templates/sign_in.mustache:2
-#: app/scripts/templates/sign_up.mustache:2
+#: app/scripts/templates/sign_in.mustache:4
+#: app/scripts/templates/sign_up.mustache:4
 msgid "Email"
 msgstr "E-mailadres"
 
@@ -564,29 +577,42 @@ msgstr "U bent aangemeld als"
 msgid "Sign out"
 msgstr "Afmelden"
 
-#: app/scripts/templates/sign_in.mustache:8
+#: app/scripts/templates/sign_in.mustache:1
+#, fuzzy
+msgid "Sign in to %(serviceName)s"
+msgstr "U kunt %(serviceName)s nu gebruiken."
+
+#: app/scripts/templates/sign_in.mustache:10
 msgid "Create an account"
 msgstr "Een account aanmaken"
 
 #: app/scripts/templates/sign_up.mustache:1
+#, fuzzy
+msgid "Create a Firefox Account for %(serviceName)s"
+msgstr "Een Firefox-account aanmaken"
+
+#: app/scripts/templates/sign_up.mustache:3
 msgid "Create a Firefox Account"
 msgstr "Een Firefox-account aanmaken"
 
-#: app/scripts/templates/sign_up.mustache:9
+#: app/scripts/templates/sign_up.mustache:11
 msgid "Year of birth"
 msgstr "Geboortejaar"
 
-#: app/scripts/templates/sign_up.mustache:10
+#: app/scripts/templates/sign_up.mustache:12
 msgid "1990 or earlier"
 msgstr "1990 of eerder"
 
-#: app/scripts/templates/sign_up.mustache:30
+#: app/scripts/templates/sign_up.mustache:32
 msgid "Choose what to sync"
 msgstr "Kies wat u wilt synchroniseren"
 
-#: app/scripts/templates/sign_up.mustache:32
+#: app/scripts/templates/sign_up.mustache:34
 msgid "Already have an account? Sign in."
 msgstr "Hebt u al een account? Meld u aan."
+
+#~ msgid "Invalid authentication token in request signature"
+#~ msgstr "Ongeldig verificatietoken in aanvraaghandtekening"
 
 #~ msgid "No token specified"
 #~ msgstr "Geen token opgegeven"

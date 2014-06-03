@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-05-13 05:41+0000\n"
+"POT-Creation-Date: 2014-06-03 15:19+0000\n"
 "PO-Revision-Date: 2014-05-20 18:51+0000\n"
 "Last-Translator: Tomoya <dynamis@mozilla-japan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,79 +13,75 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1400611888.0\n"
 
-#: app/scripts/templates/sign_up.mustache:11
+#: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
 msgstr "1991"
 
-#: app/scripts/templates/sign_up.mustache:12
+#: app/scripts/templates/sign_up.mustache:14
 msgid "1992"
 msgstr "1992"
 
-#: app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/sign_up.mustache:15
 msgid "1993"
 msgstr "1993"
 
-#: app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/sign_up.mustache:16
 msgid "1994"
 msgstr "1994"
 
-#: app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/sign_up.mustache:17
 msgid "1995"
 msgstr "1995"
 
-#: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/sign_up.mustache:18
 msgid "1996"
 msgstr "1996"
 
-#: app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/sign_up.mustache:19
 msgid "1997"
 msgstr "1997"
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:20
 msgid "1998"
 msgstr "1998"
 
-#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/sign_up.mustache:21
 msgid "1999"
 msgstr "1999"
 
-#: app/scripts/templates/sign_up.mustache:20
+#: app/scripts/templates/sign_up.mustache:22
 msgid "2000"
 msgstr "2000"
 
-#: app/scripts/templates/sign_up.mustache:21
+#: app/scripts/templates/sign_up.mustache:23
 msgid "2001"
 msgstr "2001"
 
-#: app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/sign_up.mustache:24
 msgid "2002"
 msgstr "2002"
 
-#: app/scripts/templates/sign_up.mustache:23
+#: app/scripts/templates/sign_up.mustache:25
 msgid "2003"
 msgstr "2003"
 
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:26
 msgid "2004"
 msgstr "2004"
 
-#: app/scripts/templates/sign_up.mustache:25
+#: app/scripts/templates/sign_up.mustache:27
 msgid "2005"
 msgstr "2005"
 
-#: app/scripts/templates/sign_up.mustache:26
+#: app/scripts/templates/sign_up.mustache:28
 msgid "2006"
 msgstr "2006"
 
-#: app/scripts/templates/sign_up.mustache:27
+#: app/scripts/templates/sign_up.mustache:29
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/base.js:64
-msgid "Session expired. Sign in to continue."
-msgstr "セッションの期限が切れました。続けるにはサインインしてください。"
-
-#: app/scripts/views/base.js:433
+#: app/scripts/views/base.js:487
 msgid "missing search parameter: %(itemName)s"
 msgstr "検索パラメータが足りません: %(itemName)s"
 
@@ -105,14 +101,9 @@ msgstr ""
 "未認証のアカウントです。<a href=\"#\" id=\"resend\">認証用のメールを再送信し"
 "てください</a>。"
 
-#: app/scripts/views/complete_reset_password.js:85
+#: app/scripts/views/complete_reset_password.js:93
 msgid "Passwords do not match"
 msgstr "パスワードが一致しません"
-
-#: app/scripts/views/confirm.js:101
-#: app/scripts/views/confirm_reset_password.js:87
-msgid "Invalid token"
-msgstr "トークンが正しくありません"
 
 #: app/scripts/views/confirm_reset_password.js:63
 msgid "Password reset. Sign in to continue."
@@ -130,18 +121,18 @@ msgstr "アカウントの削除が完了しました"
 msgid "/force_auth requires an email"
 msgstr "/force_auth はメールアドレスが必要です"
 
-#: app/scripts/views/form.js:406 app/scripts/lib/strings.js:18
+#: app/scripts/views/form.js:407 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "UIDが入力されていません"
 
-#: app/scripts/views/form.js:412 app/scripts/lib/strings.js:23
+#: app/scripts/views/form.js:449 app/scripts/lib/strings.js:23
 #: app/scripts/templates/change_password.mustache:6
 #: app/scripts/templates/complete_reset_password.mustache:14
-#: app/scripts/templates/sign_up.mustache:7
+#: app/scripts/templates/sign_up.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "少なくとも 8 文字以上でなくてはいけません"
 
-#: app/scripts/views/form.js:413 app/scripts/lib/strings.js:19
+#: app/scripts/views/form.js:450 app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr "正しいパスワードを入力してください (必須)"
 
@@ -149,7 +140,7 @@ msgstr "正しいパスワードを入力してください (必須)"
 msgid "Could not get Privacy Notice"
 msgstr "プライバシー規約を取得できません"
 
-#: app/scripts/views/reset_password.js:69 app/scripts/views/sign_in.js:88
+#: app/scripts/views/reset_password.js:69 app/scripts/views/sign_in.js:105
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "不明なアカウントです。<a href=\"/signup\">サインアップ</a>"
 
@@ -158,11 +149,11 @@ msgid "Signed out"
 msgstr "サインアウトしました"
 
 # Android での UI に合わせる
-#: app/scripts/views/sign_up.js:92 app/scripts/lib/strings.js:24
+#: app/scripts/views/sign_up.js:104 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "誕生年を入力してください (必須)"
 
-#: app/scripts/views/sign_up.js:157
+#: app/scripts/views/sign_up.js:178
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "このアカウントは既に存在します。<a href=\"/signin\">サインイン</a>"
 
@@ -170,85 +161,105 @@ msgstr "このアカウントは既に存在します。<a href=\"/signin\">サ�
 msgid "Could not get Terms of Service"
 msgstr "サービス利用規約を取得できません"
 
-#: app/scripts/lib/auth-errors.js:44
+#: app/scripts/lib/auth-errors.js:47 app/scripts/lib/oauth-errors.js:27
 msgid "Unexpected error"
 msgstr "予期しないエラー"
 
-#: app/scripts/lib/auth-errors.js:45
-msgid "Invalid authentication token in request signature"
-msgstr "リクエスト署名の認証トークンが不正です"
+#: app/scripts/lib/auth-errors.js:48
+msgid "Invalid token"
+msgstr "トークンが正しくありません"
 
-#: app/scripts/lib/auth-errors.js:46
+#: app/scripts/lib/auth-errors.js:49
 msgid "Invalid timestamp in request signature"
 msgstr "リクエスト署名のタイムスタンプが不正です"
 
-#: app/scripts/lib/auth-errors.js:47
+#: app/scripts/lib/auth-errors.js:50
 msgid "Invalid nonce in request signature"
 msgstr "リクエスト中の乱数が不正です"
 
-#: app/scripts/lib/auth-errors.js:48 app/scripts/lib/strings.js:25
+#: app/scripts/lib/auth-errors.js:51 app/scripts/lib/strings.js:25
 msgid "Account already exists"
 msgstr "アカウントが既に存在します"
 
-#: app/scripts/lib/auth-errors.js:49
+#: app/scripts/lib/auth-errors.js:52
 msgid "Unknown account"
 msgstr "不明なアカウントです"
 
-#: app/scripts/lib/auth-errors.js:50
+#: app/scripts/lib/auth-errors.js:53
 msgid "Incorrect email case"
 msgstr "メールアドレスの形式が正しくありません"
 
-#: app/scripts/lib/auth-errors.js:51
+#: app/scripts/lib/auth-errors.js:54
 msgid "Incorrect password"
 msgstr "パスワードが正しくありません"
 
-#: app/scripts/lib/auth-errors.js:52
+#: app/scripts/lib/auth-errors.js:55
 msgid "Unverified account"
 msgstr "未検証のアカウントです"
 
-#: app/scripts/lib/auth-errors.js:53
+#: app/scripts/lib/auth-errors.js:56
 msgid "Invalid verification code"
 msgstr "検証コードが不正です"
 
-#: app/scripts/lib/auth-errors.js:54
+#: app/scripts/lib/auth-errors.js:57
 msgid "Invalid JSON in request body"
 msgstr "リクエストボディの JSON が不正です"
 
-#: app/scripts/lib/auth-errors.js:55
+#: app/scripts/lib/auth-errors.js:58 app/scripts/lib/oauth-errors.js:31
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "リクエストボディのパラメータが不正です: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:56
+#: app/scripts/lib/auth-errors.js:59
 msgid "Missing parameter in request body: %(param)s"
 msgstr "リクエストボディのパラメータが足りません: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:57
+#: app/scripts/lib/auth-errors.js:60 app/scripts/lib/oauth-errors.js:32
 msgid "Invalid request signature"
 msgstr "リクエスト署名が不正です"
 
-#: app/scripts/lib/auth-errors.js:58
+#: app/scripts/lib/auth-errors.js:61
 msgid "Missing content-length header"
 msgstr "content-length ヘッダがありません"
 
-#: app/scripts/lib/auth-errors.js:59
+#: app/scripts/lib/auth-errors.js:62
 msgid "Request body too large"
 msgstr "リクエストボディが大きすぎます"
 
-#: app/scripts/lib/auth-errors.js:60
-msgid "Attempt limit exceeded."
+#: app/scripts/lib/auth-errors.js:63
+#, fuzzy
+msgid "Attempt limit exceeded"
 msgstr "連続試行回数の制限に達しました。"
 
-#: app/scripts/lib/auth-errors.js:61
+#: app/scripts/lib/auth-errors.js:64
 msgid "System unavailable, try again soon"
 msgstr "ただいまシステムが利用できません。しばらく後で再度お試しください。"
 
-#: app/scripts/lib/auth-errors.js:62
+#: app/scripts/lib/auth-errors.js:65
 msgid "Server busy, try again soon"
 msgstr "ただいまサーバ負荷が高すぎます。しばらく後で再度お試しください。"
 
-#: app/scripts/lib/auth-errors.js:63
+#: app/scripts/lib/auth-errors.js:66
 msgid "This endpoint is no longer supported"
 msgstr "このエンドポイントはサポートされなくなりました"
+
+#: app/scripts/lib/auth-errors.js:69
+msgid "Session expired. Sign in to continue."
+msgstr "セッションの期限が切れました。続けるにはサインインしてください。"
+
+#: app/scripts/lib/oauth-errors.js:28
+#, fuzzy
+msgid "Unknown client"
+msgstr "不明なアカウントです"
+
+#: app/scripts/lib/oauth-errors.js:29
+#, fuzzy
+msgid "Incorrect redirect_uri"
+msgstr "メールアドレスの形式が正しくありません"
+
+#: app/scripts/lib/oauth-errors.js:30
+#, fuzzy
+msgid "Invalid assertion"
+msgstr "トークンが正しくありません"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -319,8 +330,8 @@ msgstr "旧パスワード"
 #: app/scripts/templates/complete_reset_password.mustache:13
 #: app/scripts/templates/delete_account.mustache:4
 #: app/scripts/templates/force_auth.mustache:5
-#: app/scripts/templates/sign_in.mustache:5
-#: app/scripts/templates/sign_up.mustache:6
+#: app/scripts/templates/sign_in.mustache:7
+#: app/scripts/templates/sign_up.mustache:8
 msgid "Show"
 msgstr "表示"
 
@@ -384,7 +395,7 @@ msgstr "パスワードを再入力してください"
 
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/reset_password.mustache:4
-#: app/scripts/templates/sign_up.mustache:29
+#: app/scripts/templates/sign_up.mustache:31
 msgid "Next"
 msgstr "次へ"
 
@@ -421,13 +432,14 @@ msgstr "リセット用のリンクが %(email)s に送信されました"
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
 #: app/scripts/templates/force_auth.mustache:6
-#: app/scripts/templates/sign_in.mustache:1
-#: app/scripts/templates/sign_in.mustache:6
+#: app/scripts/templates/sign_in.mustache:3
+#: app/scripts/templates/sign_in.mustache:8
 msgid "Sign in"
 msgstr "サインイン"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies Required"
+#, fuzzy
+msgid "Cookies required"
 msgstr "Cookie が送信されていません"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
@@ -463,8 +475,8 @@ msgstr ""
 
 #: app/scripts/templates/delete_account.mustache:3
 #: app/scripts/templates/force_auth.mustache:3
-#: app/scripts/templates/sign_in.mustache:3
-#: app/scripts/templates/sign_up.mustache:4
+#: app/scripts/templates/sign_in.mustache:5
+#: app/scripts/templates/sign_up.mustache:6
 msgid "Password"
 msgstr "パスワード"
 
@@ -473,13 +485,13 @@ msgid "Sign in to continue"
 msgstr "サインインして続ける"
 
 #: app/scripts/templates/force_auth.mustache:7
-#: app/scripts/templates/sign_in.mustache:7
+#: app/scripts/templates/sign_in.mustache:9
 msgid "Forgot password?"
 msgstr "パスワードをお忘れですか？"
 
 #: app/scripts/templates/force_auth.mustache:8
-#: app/scripts/templates/sign_in.mustache:9
-#: app/scripts/templates/sign_up.mustache:28
+#: app/scripts/templates/sign_in.mustache:11
+#: app/scripts/templates/sign_up.mustache:30
 msgid ""
 "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
 "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
@@ -524,7 +536,8 @@ msgstr "成功"
 
 # %(serviceName)s を利用できるようになりました。だと「た。」だけ2行目になって残念だったので短めに
 #: app/scripts/templates/ready.mustache:8
-msgid "You are now ready to use %(serviceName)s."
+#, fuzzy
+msgid "You are now ready to use %(serviceName)s"
 msgstr "%(serviceName)s が使えるようになりました。"
 
 #: app/scripts/templates/ready.mustache:10
@@ -545,8 +558,8 @@ msgstr ""
 "アカウントのパスワードをリセットするため、メールアドレスを入力してください。"
 
 #: app/scripts/templates/reset_password.mustache:3
-#: app/scripts/templates/sign_in.mustache:2
-#: app/scripts/templates/sign_up.mustache:2
+#: app/scripts/templates/sign_in.mustache:4
+#: app/scripts/templates/sign_up.mustache:4
 msgid "Email"
 msgstr "メールアドレス"
 
@@ -562,32 +575,47 @@ msgstr "サインイン中:"
 msgid "Sign out"
 msgstr "サインアウト"
 
-#: app/scripts/templates/sign_in.mustache:8
+# %(serviceName)s を利用できるようになりました。だと「た。」だけ2行目になって残念だったので短めに
+#: app/scripts/templates/sign_in.mustache:1
+#, fuzzy
+msgid "Sign in to %(serviceName)s"
+msgstr "%(serviceName)s が使えるようになりました。"
+
+#: app/scripts/templates/sign_in.mustache:10
 msgid "Create an account"
 msgstr "アカウントを作成する"
 
 # タイトルなので文章ではなく体言止め
 #: app/scripts/templates/sign_up.mustache:1
+#, fuzzy
+msgid "Create a Firefox Account for %(serviceName)s"
+msgstr "Firefox アカウントの作成"
+
+# タイトルなので文章ではなく体言止め
+#: app/scripts/templates/sign_up.mustache:3
 msgid "Create a Firefox Account"
 msgstr "Firefox アカウントの作成"
 
 # Android の UI に合わせる
-#: app/scripts/templates/sign_up.mustache:9
+#: app/scripts/templates/sign_up.mustache:11
 msgid "Year of birth"
 msgstr "誕生年"
 
-#: app/scripts/templates/sign_up.mustache:10
+#: app/scripts/templates/sign_up.mustache:12
 msgid "1990 or earlier"
 msgstr "1990 年以前"
 
 # アカウント作成後に同期対象を選択する画面を出すかどうかのチェックボックスです
-#: app/scripts/templates/sign_up.mustache:30
+#: app/scripts/templates/sign_up.mustache:32
 msgid "Choose what to sync"
 msgstr "同期するデータを選択する"
 
-#: app/scripts/templates/sign_up.mustache:32
+#: app/scripts/templates/sign_up.mustache:34
 msgid "Already have an account? Sign in."
 msgstr "アカウントを既にお持の方はサインインしてください。"
+
+#~ msgid "Invalid authentication token in request signature"
+#~ msgstr "リクエスト署名の認証トークンが不正です"
 
 #~ msgid "No token specified"
 #~ msgstr "トークンが指定されていません"

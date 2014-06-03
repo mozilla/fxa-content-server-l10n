@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-05-13 05:41+0000\n"
+"POT-Creation-Date: 2014-06-03 15:19+0000\n"
 "PO-Revision-Date: 2014-05-16 13:54+0000\n"
 "Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,79 +13,75 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1400248491.0\n"
 
-#: app/scripts/templates/sign_up.mustache:11
+#: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
 msgstr "1991"
 
-#: app/scripts/templates/sign_up.mustache:12
+#: app/scripts/templates/sign_up.mustache:14
 msgid "1992"
 msgstr "1992"
 
-#: app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/sign_up.mustache:15
 msgid "1993"
 msgstr "1993"
 
-#: app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/sign_up.mustache:16
 msgid "1994"
 msgstr "1994"
 
-#: app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/sign_up.mustache:17
 msgid "1995"
 msgstr "1995"
 
-#: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/sign_up.mustache:18
 msgid "1996"
 msgstr "1996"
 
-#: app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/sign_up.mustache:19
 msgid "1997"
 msgstr "1997"
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:20
 msgid "1998"
 msgstr "1998"
 
-#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/sign_up.mustache:21
 msgid "1999"
 msgstr "1999"
 
-#: app/scripts/templates/sign_up.mustache:20
+#: app/scripts/templates/sign_up.mustache:22
 msgid "2000"
 msgstr "2000"
 
-#: app/scripts/templates/sign_up.mustache:21
+#: app/scripts/templates/sign_up.mustache:23
 msgid "2001"
 msgstr "2001"
 
-#: app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/sign_up.mustache:24
 msgid "2002"
 msgstr "2002"
 
-#: app/scripts/templates/sign_up.mustache:23
+#: app/scripts/templates/sign_up.mustache:25
 msgid "2003"
 msgstr "2003"
 
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:26
 msgid "2004"
 msgstr "2004"
 
-#: app/scripts/templates/sign_up.mustache:25
+#: app/scripts/templates/sign_up.mustache:27
 msgid "2005"
 msgstr "2005"
 
-#: app/scripts/templates/sign_up.mustache:26
+#: app/scripts/templates/sign_up.mustache:28
 msgid "2006"
 msgstr "2006"
 
-#: app/scripts/templates/sign_up.mustache:27
+#: app/scripts/templates/sign_up.mustache:29
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/base.js:64
-msgid "Session expired. Sign in to continue."
-msgstr "La sessione è scaduta. Accedi per continuare."
-
-#: app/scripts/views/base.js:433
+#: app/scripts/views/base.js:487
 msgid "missing search parameter: %(itemName)s"
 msgstr "parametro di ricerca mancante: %(itemName)s"
 
@@ -105,14 +101,9 @@ msgstr ""
 "Account non verificato. <a href=\"#\" id=\"resend\">Invia nuovamente l’email "
 "di verifica</a>."
 
-#: app/scripts/views/complete_reset_password.js:85
+#: app/scripts/views/complete_reset_password.js:93
 msgid "Passwords do not match"
 msgstr "Le password non corrispondono"
-
-#: app/scripts/views/confirm.js:101
-#: app/scripts/views/confirm_reset_password.js:87
-msgid "Invalid token"
-msgstr "Token non valido"
 
 #: app/scripts/views/confirm_reset_password.js:63
 msgid "Password reset. Sign in to continue."
@@ -130,18 +121,18 @@ msgstr "L’account è stato correttamente eliminato"
 msgid "/force_auth requires an email"
 msgstr "/force_auth richiede un indirizzo email"
 
-#: app/scripts/views/form.js:406 app/scripts/lib/strings.js:18
+#: app/scripts/views/form.js:407 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "È necessario inserire un indirizzo email valido"
 
-#: app/scripts/views/form.js:412 app/scripts/lib/strings.js:23
+#: app/scripts/views/form.js:449 app/scripts/lib/strings.js:23
 #: app/scripts/templates/change_password.mustache:6
 #: app/scripts/templates/complete_reset_password.mustache:14
-#: app/scripts/templates/sign_up.mustache:7
+#: app/scripts/templates/sign_up.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "Deve essere di almeno 8 caratteri"
 
-#: app/scripts/views/form.js:413 app/scripts/lib/strings.js:19
+#: app/scripts/views/form.js:450 app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr "È necessario inserire una password valida"
 
@@ -149,7 +140,7 @@ msgstr "È necessario inserire una password valida"
 msgid "Could not get Privacy Notice"
 msgstr "Impossibile accedere all’Informativa sulla privacy"
 
-#: app/scripts/views/reset_password.js:69 app/scripts/views/sign_in.js:88
+#: app/scripts/views/reset_password.js:69 app/scripts/views/sign_in.js:105
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Questo account non esiste. <a href=\"/signup\">Registrati</a>"
 
@@ -157,11 +148,11 @@ msgstr "Questo account non esiste. <a href=\"/signup\">Registrati</a>"
 msgid "Signed out"
 msgstr "Disconnessione effettuata"
 
-#: app/scripts/views/sign_up.js:92 app/scripts/lib/strings.js:24
+#: app/scripts/views/sign_up.js:104 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "È necessario inserire l’anno di nascita"
 
-#: app/scripts/views/sign_up.js:157
+#: app/scripts/views/sign_up.js:178
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Questo account esiste già. <a href=\"/signin\">Accedi</a>"
 
@@ -169,87 +160,109 @@ msgstr "Questo account esiste già. <a href=\"/signin\">Accedi</a>"
 msgid "Could not get Terms of Service"
 msgstr "Impossibile accedere ai Termini di servizio"
 
-#: app/scripts/lib/auth-errors.js:44
+#: app/scripts/lib/auth-errors.js:47 app/scripts/lib/oauth-errors.js:27
 msgid "Unexpected error"
 msgstr "Si è verificato un errore inatteso"
 
-#: app/scripts/lib/auth-errors.js:45
-msgid "Invalid authentication token in request signature"
-msgstr "Token di autenticazione non valido nella firma della richiesta"
+#: app/scripts/lib/auth-errors.js:48
+msgid "Invalid token"
+msgstr "Token non valido"
 
-#: app/scripts/lib/auth-errors.js:46
+#: app/scripts/lib/auth-errors.js:49
 msgid "Invalid timestamp in request signature"
 msgstr "Data e ora non valide nella firma della richiesta"
 
-#: app/scripts/lib/auth-errors.js:47
+#: app/scripts/lib/auth-errors.js:50
 msgid "Invalid nonce in request signature"
 msgstr "Numero nonce non valido nella firma della richiesta"
 
-#: app/scripts/lib/auth-errors.js:48 app/scripts/lib/strings.js:25
+#: app/scripts/lib/auth-errors.js:51 app/scripts/lib/strings.js:25
 msgid "Account already exists"
 msgstr "Questo account esiste già"
 
-#: app/scripts/lib/auth-errors.js:49
+#: app/scripts/lib/auth-errors.js:52
 msgid "Unknown account"
 msgstr "Questo account non esiste"
 
-#: app/scripts/lib/auth-errors.js:50
+#: app/scripts/lib/auth-errors.js:53
 msgid "Incorrect email case"
 msgstr ""
 "Utilizzo non corretto di maiuscole e minuscole durante la digitazione "
 "dell’indirizzo email"
 
-#: app/scripts/lib/auth-errors.js:51
+#: app/scripts/lib/auth-errors.js:54
 msgid "Incorrect password"
 msgstr "Password errata"
 
-#: app/scripts/lib/auth-errors.js:52
+#: app/scripts/lib/auth-errors.js:55
 msgid "Unverified account"
 msgstr "Questo account non è stato verificato"
 
-#: app/scripts/lib/auth-errors.js:53
+#: app/scripts/lib/auth-errors.js:56
 msgid "Invalid verification code"
 msgstr "Codice di verifica non valido"
 
-#: app/scripts/lib/auth-errors.js:54
+#: app/scripts/lib/auth-errors.js:57
 msgid "Invalid JSON in request body"
 msgstr "Oggetto JSON non valido nel testo della richiesta"
 
-#: app/scripts/lib/auth-errors.js:55
+#: app/scripts/lib/auth-errors.js:58 app/scripts/lib/oauth-errors.js:31
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Parametro non valido nel testo della richiesta: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:56
+#: app/scripts/lib/auth-errors.js:59
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Parametro mancante nel testo della richiesta: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:57
+#: app/scripts/lib/auth-errors.js:60 app/scripts/lib/oauth-errors.js:32
 msgid "Invalid request signature"
 msgstr "Firma della richiesta non valida"
 
-#: app/scripts/lib/auth-errors.js:58
+#: app/scripts/lib/auth-errors.js:61
 msgid "Missing content-length header"
 msgstr "Header ‘content-length ’ mancante"
 
-#: app/scripts/lib/auth-errors.js:59
+#: app/scripts/lib/auth-errors.js:62
 msgid "Request body too large"
 msgstr "Testo della richiesta troppo lungo"
 
-#: app/scripts/lib/auth-errors.js:60
-msgid "Attempt limit exceeded."
+#: app/scripts/lib/auth-errors.js:63
+#, fuzzy
+msgid "Attempt limit exceeded"
 msgstr "È stato superato il numero di tentativi consentiti."
 
-#: app/scripts/lib/auth-errors.js:61
+#: app/scripts/lib/auth-errors.js:64
 msgid "System unavailable, try again soon"
 msgstr "Il sistema non è disponibile, riprova tra qualche secondo"
 
-#: app/scripts/lib/auth-errors.js:62
+#: app/scripts/lib/auth-errors.js:65
 msgid "Server busy, try again soon"
 msgstr "Il server è occupato, riprova tra qualche secondo"
 
-#: app/scripts/lib/auth-errors.js:63
+#: app/scripts/lib/auth-errors.js:66
 msgid "This endpoint is no longer supported"
 msgstr "Questo endpoint non è più supportato"
+
+#: app/scripts/lib/auth-errors.js:69
+msgid "Session expired. Sign in to continue."
+msgstr "La sessione è scaduta. Accedi per continuare."
+
+#: app/scripts/lib/oauth-errors.js:28
+#, fuzzy
+msgid "Unknown client"
+msgstr "Questo account non esiste"
+
+#: app/scripts/lib/oauth-errors.js:29
+#, fuzzy
+msgid "Incorrect redirect_uri"
+msgstr ""
+"Utilizzo non corretto di maiuscole e minuscole durante la digitazione "
+"dell’indirizzo email"
+
+#: app/scripts/lib/oauth-errors.js:30
+#, fuzzy
+msgid "Invalid assertion"
+msgstr "Token non valido"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -321,8 +334,8 @@ msgstr "Vecchia password"
 #: app/scripts/templates/complete_reset_password.mustache:13
 #: app/scripts/templates/delete_account.mustache:4
 #: app/scripts/templates/force_auth.mustache:5
-#: app/scripts/templates/sign_in.mustache:5
-#: app/scripts/templates/sign_up.mustache:6
+#: app/scripts/templates/sign_in.mustache:7
+#: app/scripts/templates/sign_up.mustache:8
 msgid "Show"
 msgstr "Mostra"
 
@@ -387,7 +400,7 @@ msgstr "Ripeti password"
 
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/reset_password.mustache:4
-#: app/scripts/templates/sign_up.mustache:29
+#: app/scripts/templates/sign_up.mustache:31
 msgid "Next"
 msgstr "Avanti"
 
@@ -425,13 +438,14 @@ msgstr ""
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
 #: app/scripts/templates/force_auth.mustache:6
-#: app/scripts/templates/sign_in.mustache:1
-#: app/scripts/templates/sign_in.mustache:6
+#: app/scripts/templates/sign_in.mustache:3
+#: app/scripts/templates/sign_in.mustache:8
 msgid "Sign in"
 msgstr "Accedi"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies Required"
+#, fuzzy
+msgid "Cookies required"
 msgstr "È necessario attivare i cookie"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
@@ -466,8 +480,8 @@ msgstr "Eliminare questo account? Questa operazione non può essere annullata."
 
 #: app/scripts/templates/delete_account.mustache:3
 #: app/scripts/templates/force_auth.mustache:3
-#: app/scripts/templates/sign_in.mustache:3
-#: app/scripts/templates/sign_up.mustache:4
+#: app/scripts/templates/sign_in.mustache:5
+#: app/scripts/templates/sign_up.mustache:6
 msgid "Password"
 msgstr "Password"
 
@@ -476,13 +490,13 @@ msgid "Sign in to continue"
 msgstr "Accedi per continuare"
 
 #: app/scripts/templates/force_auth.mustache:7
-#: app/scripts/templates/sign_in.mustache:7
+#: app/scripts/templates/sign_in.mustache:9
 msgid "Forgot password?"
 msgstr "Password dimenticata?"
 
 #: app/scripts/templates/force_auth.mustache:8
-#: app/scripts/templates/sign_in.mustache:9
-#: app/scripts/templates/sign_up.mustache:28
+#: app/scripts/templates/sign_in.mustache:11
+#: app/scripts/templates/sign_up.mustache:30
 msgid ""
 "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
 "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
@@ -526,7 +540,8 @@ msgid "Success"
 msgstr "L’operazione è stata completata con successo"
 
 #: app/scripts/templates/ready.mustache:8
-msgid "You are now ready to use %(serviceName)s."
+#, fuzzy
+msgid "You are now ready to use %(serviceName)s"
 msgstr "Ora puoi utilizzare %(serviceName)s."
 
 #: app/scripts/templates/ready.mustache:10
@@ -548,8 +563,8 @@ msgstr ""
 "la password."
 
 #: app/scripts/templates/reset_password.mustache:3
-#: app/scripts/templates/sign_in.mustache:2
-#: app/scripts/templates/sign_up.mustache:2
+#: app/scripts/templates/sign_in.mustache:4
+#: app/scripts/templates/sign_up.mustache:4
 msgid "Email"
 msgstr "Email"
 
@@ -565,29 +580,42 @@ msgstr "Accesso effettuato come"
 msgid "Sign out"
 msgstr "Esci"
 
-#: app/scripts/templates/sign_in.mustache:8
+#: app/scripts/templates/sign_in.mustache:1
+#, fuzzy
+msgid "Sign in to %(serviceName)s"
+msgstr "Ora puoi utilizzare %(serviceName)s."
+
+#: app/scripts/templates/sign_in.mustache:10
 msgid "Create an account"
 msgstr "Crea un account"
 
 #: app/scripts/templates/sign_up.mustache:1
+#, fuzzy
+msgid "Create a Firefox Account for %(serviceName)s"
+msgstr "Crea un nuovo Firefox Account"
+
+#: app/scripts/templates/sign_up.mustache:3
 msgid "Create a Firefox Account"
 msgstr "Crea un nuovo Firefox Account"
 
-#: app/scripts/templates/sign_up.mustache:9
+#: app/scripts/templates/sign_up.mustache:11
 msgid "Year of birth"
 msgstr "Anno di nascita"
 
-#: app/scripts/templates/sign_up.mustache:10
+#: app/scripts/templates/sign_up.mustache:12
 msgid "1990 or earlier"
 msgstr "1990 o precedente"
 
-#: app/scripts/templates/sign_up.mustache:30
+#: app/scripts/templates/sign_up.mustache:32
 msgid "Choose what to sync"
 msgstr "Scegli che cosa sincronizzare"
 
-#: app/scripts/templates/sign_up.mustache:32
+#: app/scripts/templates/sign_up.mustache:34
 msgid "Already have an account? Sign in."
 msgstr "Hai già un account? Accedi."
+
+#~ msgid "Invalid authentication token in request signature"
+#~ msgstr "Token di autenticazione non valido nella firma della richiesta"
 
 #~ msgid "No token specified"
 #~ msgstr "Non è stato specificato alcun token"
