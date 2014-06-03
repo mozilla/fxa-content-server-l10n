@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-06-03 15:19+0000\n"
-"PO-Revision-Date: 2014-05-14 07:59+0000\n"
+"PO-Revision-Date: 2014-06-03 21:39+0000\n"
 "Last-Translator: Julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1400054340.0\n"
+"X-POOTLE-MTIME: 1401831555.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -225,9 +225,8 @@ msgid "Request body too large"
 msgstr "Eskaeraren gorputza handiegia da"
 
 #: app/scripts/lib/auth-errors.js:63
-#, fuzzy
 msgid "Attempt limit exceeded"
-msgstr "Saiakeren muga gaindituta."
+msgstr "Saiakeren muga gaindituta"
 
 #: app/scripts/lib/auth-errors.js:64
 msgid "System unavailable, try again soon"
@@ -246,19 +245,16 @@ msgid "Session expired. Sign in to continue."
 msgstr "Saioa iraungita. Hasi saioa jarraitzeko."
 
 #: app/scripts/lib/oauth-errors.js:28
-#, fuzzy
 msgid "Unknown client"
-msgstr "Kontu ezezaguna"
+msgstr "Bezero ezezaguna"
 
 #: app/scripts/lib/oauth-errors.js:29
-#, fuzzy
 msgid "Incorrect redirect_uri"
-msgstr "Helbide elektronikoaren formatu okerra"
+msgstr "redirect_uri okerra"
 
 #: app/scripts/lib/oauth-errors.js:30
-#, fuzzy
 msgid "Invalid assertion"
-msgstr "Token baliogabea"
+msgstr "Baieztapen baliogabea"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -436,7 +432,6 @@ msgid "Sign in"
 msgstr "Hasi saioa"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-#, fuzzy
 msgid "Cookies required"
 msgstr "Cookieak behar dira"
 
@@ -532,9 +527,8 @@ msgid "Success"
 msgstr "Dena ondo"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s"
-msgstr "Dena prest dago %(serviceName)s erabiltzen hasteko."
+msgstr "Dena prest dago %(serviceName)s erabiltzen hasteko"
 
 #: app/scripts/templates/ready.mustache:10
 msgid "Your account is ready!"
@@ -571,18 +565,16 @@ msgid "Sign out"
 msgstr "Amaitu saioa"
 
 #: app/scripts/templates/sign_in.mustache:1
-#, fuzzy
 msgid "Sign in to %(serviceName)s"
-msgstr "Dena prest dago %(serviceName)s erabiltzen hasteko."
+msgstr "Hasi saioa %(serviceName)s zerbitzuan"
 
 #: app/scripts/templates/sign_in.mustache:10
 msgid "Create an account"
 msgstr "Sortu kontua"
 
 #: app/scripts/templates/sign_up.mustache:1
-#, fuzzy
 msgid "Create a Firefox Account for %(serviceName)s"
-msgstr "Sortu Firefoxen kontua"
+msgstr "Sortu %(serviceName)s zerbitzurako Firefoxen kontua"
 
 #: app/scripts/templates/sign_up.mustache:3
 msgid "Create a Firefox Account"
