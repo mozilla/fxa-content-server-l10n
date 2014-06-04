@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-06-03 15:19+0000\n"
-"PO-Revision-Date: 2014-05-29 07:41+0000\n"
+"PO-Revision-Date: 2014-06-04 09:38+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1401349270.0\n"
+"X-POOTLE-MTIME: 1401874720.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -225,9 +225,8 @@ msgid "Request body too large"
 msgstr "İstek gövdesi fazla büyük"
 
 #: app/scripts/lib/auth-errors.js:63
-#, fuzzy
 msgid "Attempt limit exceeded"
-msgstr "Deneme sınırı aşıldı."
+msgstr "Deneme sınırı aşıldı"
 
 #: app/scripts/lib/auth-errors.js:64
 msgid "System unavailable, try again soon"
@@ -246,19 +245,16 @@ msgid "Session expired. Sign in to continue."
 msgstr "Oturum zaman aşımına uğradı. Devam etmek için oturum açın."
 
 #: app/scripts/lib/oauth-errors.js:28
-#, fuzzy
 msgid "Unknown client"
-msgstr "Bilinmeyen hesap"
+msgstr "Bilinmeyen istemci"
 
 #: app/scripts/lib/oauth-errors.js:29
-#, fuzzy
 msgid "Incorrect redirect_uri"
-msgstr "Hatalı e-posta yazımı"
+msgstr "Hatalı redirect_uri"
 
 #: app/scripts/lib/oauth-errors.js:30
-#, fuzzy
 msgid "Invalid assertion"
-msgstr "Geçersiz jeton"
+msgstr "Geçersiz ifade"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -437,7 +433,6 @@ msgid "Sign in"
 msgstr "Oturum aç"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-#, fuzzy
 msgid "Cookies required"
 msgstr "Çerezler gerekli"
 
@@ -532,9 +527,8 @@ msgid "Success"
 msgstr "Başarılı"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s"
-msgstr "%(serviceName)s artık kullanıma hazır."
+msgstr "%(serviceName)s artık kullanıma hazır"
 
 #: app/scripts/templates/ready.mustache:10
 msgid "Your account is ready!"
@@ -571,18 +565,16 @@ msgid "Sign out"
 msgstr "Oturumu kapat"
 
 #: app/scripts/templates/sign_in.mustache:1
-#, fuzzy
 msgid "Sign in to %(serviceName)s"
-msgstr "%(serviceName)s artık kullanıma hazır."
+msgstr "%(serviceName)s oturumu aç"
 
 #: app/scripts/templates/sign_in.mustache:10
 msgid "Create an account"
 msgstr "Hesap oluştur"
 
 #: app/scripts/templates/sign_up.mustache:1
-#, fuzzy
 msgid "Create a Firefox Account for %(serviceName)s"
-msgstr "Firefox Hesabı Oluştur"
+msgstr "%(serviceName)s için Firefox Hesabı oluştur"
 
 #: app/scripts/templates/sign_up.mustache:3
 msgid "Create a Firefox Account"
