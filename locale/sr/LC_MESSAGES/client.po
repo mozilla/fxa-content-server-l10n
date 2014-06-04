@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-06-03 15:19+0000\n"
-"PO-Revision-Date: 2014-05-17 12:44+0000\n"
+"PO-Revision-Date: 2014-06-04 12:02+0000\n"
 "Last-Translator: Aleksandra <auzelac91@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1400330688.0\n"
+"X-POOTLE-MTIME: 1401883370.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -226,9 +226,8 @@ msgid "Request body too large"
 msgstr "Тело захтева је превелико"
 
 #: app/scripts/lib/auth-errors.js:63
-#, fuzzy
 msgid "Attempt limit exceeded"
-msgstr "Број покушаја прекорачен."
+msgstr "Број покушаја прекорачен"
 
 #: app/scripts/lib/auth-errors.js:64
 msgid "System unavailable, try again soon"
@@ -247,19 +246,16 @@ msgid "Session expired. Sign in to continue."
 msgstr "Сесија је истекла. Пријавите се да бисте наставили."
 
 #: app/scripts/lib/oauth-errors.js:28
-#, fuzzy
 msgid "Unknown client"
 msgstr "Непознат налог"
 
 #: app/scripts/lib/oauth-errors.js:29
-#, fuzzy
 msgid "Incorrect redirect_uri"
-msgstr "Погрешна е-пошта"
+msgstr "Погрешан redirect_uri"
 
 #: app/scripts/lib/oauth-errors.js:30
-#, fuzzy
 msgid "Invalid assertion"
-msgstr "Неважећи бон"
+msgstr "Неважећа тврдња"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -439,7 +435,6 @@ msgid "Sign in"
 msgstr "Пријави се"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-#, fuzzy
 msgid "Cookies required"
 msgstr "Колачићи су неопходни"
 
@@ -537,9 +532,8 @@ msgid "Success"
 msgstr "Успешно"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s"
-msgstr "Сада сте спремни да користите %(serviceName)s."
+msgstr "Сада сте спремни да користите %(serviceName)s"
 
 #: app/scripts/templates/ready.mustache:10
 msgid "Your account is ready!"
@@ -576,18 +570,16 @@ msgid "Sign out"
 msgstr "Одјави се"
 
 #: app/scripts/templates/sign_in.mustache:1
-#, fuzzy
 msgid "Sign in to %(serviceName)s"
-msgstr "Сада сте спремни да користите %(serviceName)s."
+msgstr "Пријавите се на %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:10
 msgid "Create an account"
 msgstr "Направите налог"
 
 #: app/scripts/templates/sign_up.mustache:1
-#, fuzzy
 msgid "Create a Firefox Account for %(serviceName)s"
-msgstr "Направи Firefox налог"
+msgstr "Направите Firefox налог за %(serviceName)s"
 
 #: app/scripts/templates/sign_up.mustache:3
 msgid "Create a Firefox Account"
