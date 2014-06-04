@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-03 15:19+0000\n"
-"PO-Revision-Date: 2014-05-15 11:35+0000\n"
+"PO-Revision-Date: 2014-06-04 04:14+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1400153726.0\n"
+"X-POOTLE-MTIME: 1401855248.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -224,9 +224,8 @@ msgid "Request body too large"
 msgstr "請求內容太大"
 
 #: app/scripts/lib/auth-errors.js:63
-#, fuzzy
 msgid "Attempt limit exceeded"
-msgstr "嘗試次數已達限制。"
+msgstr "嘗試次數已達限制"
 
 #: app/scripts/lib/auth-errors.js:64
 msgid "System unavailable, try again soon"
@@ -245,19 +244,16 @@ msgid "Session expired. Sign in to continue."
 msgstr "登入階段已結束，請登入以繼續。"
 
 #: app/scripts/lib/oauth-errors.js:28
-#, fuzzy
 msgid "Unknown client"
-msgstr "未知帳號"
+msgstr "未知客戶端"
 
 #: app/scripts/lib/oauth-errors.js:29
-#, fuzzy
 msgid "Incorrect redirect_uri"
-msgstr "電子信箱大小寫錯誤"
+msgstr "redirect_uri 不正確"
 
 #: app/scripts/lib/oauth-errors.js:30
-#, fuzzy
 msgid "Invalid assertion"
-msgstr "token 無效"
+msgstr "assertion 無效"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -435,7 +431,6 @@ msgid "Sign in"
 msgstr "登入"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-#, fuzzy
 msgid "Cookies required"
 msgstr "需要 Cookie"
 
@@ -529,9 +524,8 @@ msgid "Success"
 msgstr "成功"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s"
-msgstr "您可以使用 %(serviceName)s 了。"
+msgstr "您可以使用 %(serviceName)s 了"
 
 #: app/scripts/templates/ready.mustache:10
 msgid "Your account is ready!"
@@ -568,18 +562,16 @@ msgid "Sign out"
 msgstr "登出"
 
 #: app/scripts/templates/sign_in.mustache:1
-#, fuzzy
 msgid "Sign in to %(serviceName)s"
-msgstr "您可以使用 %(serviceName)s 了。"
+msgstr "登入 %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:10
 msgid "Create an account"
 msgstr "註冊帳號"
 
 #: app/scripts/templates/sign_up.mustache:1
-#, fuzzy
 msgid "Create a Firefox Account for %(serviceName)s"
-msgstr "註冊 Firefox 帳號"
+msgstr "為 %(serviceName)s 註冊 Firefox 帳號"
 
 #: app/scripts/templates/sign_up.mustache:3
 msgid "Create a Firefox Account"
