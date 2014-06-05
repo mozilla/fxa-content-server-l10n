@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-06-03 15:19+0000\n"
-"PO-Revision-Date: 2014-05-14 18:52+0000\n"
+"PO-Revision-Date: 2014-06-05 12:22+0000\n"
 "Last-Translator: Jørgen   <joergenr@stofanet.dk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: da\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1400093554.0\n"
+"X-POOTLE-MTIME: 1401970939.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -224,9 +224,8 @@ msgid "Request body too large"
 msgstr "Request body er for stor"
 
 #: app/scripts/lib/auth-errors.js:63
-#, fuzzy
 msgid "Attempt limit exceeded"
-msgstr "Forsøgsgrænse overskredet."
+msgstr "Forsøgsgrænse overskredet"
 
 #: app/scripts/lib/auth-errors.js:64
 msgid "System unavailable, try again soon"
@@ -245,19 +244,16 @@ msgid "Session expired. Sign in to continue."
 msgstr "Sessionen udløb. Log ind for at fortsætte."
 
 #: app/scripts/lib/oauth-errors.js:28
-#, fuzzy
 msgid "Unknown client"
-msgstr "Ukendt konto"
+msgstr "Ukendt klient"
 
 #: app/scripts/lib/oauth-errors.js:29
-#, fuzzy
 msgid "Incorrect redirect_uri"
-msgstr "Forkert. Versalfølsom mailadresse"
+msgstr "Forkert redirect_uri"
 
 #: app/scripts/lib/oauth-errors.js:30
-#, fuzzy
 msgid "Invalid assertion"
-msgstr "Ugyldig token"
+msgstr "Ugyldig assertion"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -435,7 +431,6 @@ msgid "Sign in"
 msgstr "Log ind"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-#, fuzzy
 msgid "Cookies required"
 msgstr "Cookies påkrævet"
 
@@ -530,9 +525,8 @@ msgid "Success"
 msgstr "Lykkedes"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s"
-msgstr "Du er nu klar til at bruge %(serviceName)s."
+msgstr "Du er nu klar til at bruge %(serviceName)s"
 
 #: app/scripts/templates/ready.mustache:10
 msgid "Your account is ready!"
@@ -570,18 +564,16 @@ msgid "Sign out"
 msgstr "Log ud"
 
 #: app/scripts/templates/sign_in.mustache:1
-#, fuzzy
 msgid "Sign in to %(serviceName)s"
-msgstr "Du er nu klar til at bruge %(serviceName)s."
+msgstr "Log ind på %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:10
 msgid "Create an account"
 msgstr "Opret en konto"
 
 #: app/scripts/templates/sign_up.mustache:1
-#, fuzzy
 msgid "Create a Firefox Account for %(serviceName)s"
-msgstr "Opret en Firefox-konto"
+msgstr "Opret en Firefox-konto til %(serviceName)s"
 
 #: app/scripts/templates/sign_up.mustache:3
 msgid "Create a Firefox Account"
