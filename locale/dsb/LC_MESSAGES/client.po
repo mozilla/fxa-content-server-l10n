@@ -3,317 +3,323 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-03 15:19+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2014-06-05 07:24+0000\n"
+"Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.10.0-rc1\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1401953077.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
-msgstr ""
+msgstr "1991"
 
 #: app/scripts/templates/sign_up.mustache:14
 msgid "1992"
-msgstr ""
+msgstr "1992"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1993"
-msgstr ""
+msgstr "1993"
 
 #: app/scripts/templates/sign_up.mustache:16
 msgid "1994"
-msgstr ""
+msgstr "1994"
 
 #: app/scripts/templates/sign_up.mustache:17
 msgid "1995"
-msgstr ""
+msgstr "1995"
 
 #: app/scripts/templates/sign_up.mustache:18
 msgid "1996"
-msgstr ""
+msgstr "1996"
 
 #: app/scripts/templates/sign_up.mustache:19
 msgid "1997"
-msgstr ""
+msgstr "1997"
 
 #: app/scripts/templates/sign_up.mustache:20
 msgid "1998"
-msgstr ""
+msgstr "1998"
 
 #: app/scripts/templates/sign_up.mustache:21
 msgid "1999"
-msgstr ""
+msgstr "1999"
 
 #: app/scripts/templates/sign_up.mustache:22
 msgid "2000"
-msgstr ""
+msgstr "2000"
 
 #: app/scripts/templates/sign_up.mustache:23
 msgid "2001"
-msgstr ""
+msgstr "2001"
 
 #: app/scripts/templates/sign_up.mustache:24
 msgid "2002"
-msgstr ""
+msgstr "2002"
 
 #: app/scripts/templates/sign_up.mustache:25
 msgid "2003"
-msgstr ""
+msgstr "2003"
 
 #: app/scripts/templates/sign_up.mustache:26
 msgid "2004"
-msgstr ""
+msgstr "2004"
 
 #: app/scripts/templates/sign_up.mustache:27
 msgid "2005"
-msgstr ""
+msgstr "2005"
 
 #: app/scripts/templates/sign_up.mustache:28
 msgid "2006"
-msgstr ""
+msgstr "2006"
 
 #: app/scripts/templates/sign_up.mustache:29
 msgid "2007"
-msgstr ""
+msgstr "2007"
 
 #: app/scripts/views/base.js:487
 msgid "missing search parameter: %(itemName)s"
-msgstr ""
+msgstr "felujucy pytański parameter: %(itemName)s"
 
 #: app/scripts/views/change_password.js:50
 msgid "Your new password must be different"
-msgstr ""
+msgstr "Wašo nowe gronidło musy druge byś"
 
 #: app/scripts/views/change_password.js:59
 msgid "Password changed"
-msgstr ""
+msgstr "Gronidło změnjone"
 
 #: app/scripts/views/change_password.js:63
 msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
 msgstr ""
+"Njewobkšuśone konto. <a href=\"#\" id=\"resend\">Wobkšuśeńsku mailku znowego "
+"pósłaś</a>."
 
 #: app/scripts/views/complete_reset_password.js:93
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Gronidle njejstej jadnakej"
 
 #: app/scripts/views/confirm_reset_password.js:63
 msgid "Password reset. Sign in to continue."
-msgstr ""
+msgstr "Gronidło jo slědk stajone. Pśizjawśo se, aby pókšacował."
 
 #: app/scripts/views/cookies_disabled.js:34
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Cookieje su hyšći znjemóžnjone"
 
 #: app/scripts/views/delete_account.js:45
 msgid "Account deleted successfully"
-msgstr ""
+msgstr "Konto jo se wuspěšnje wulašowało"
 
 #: app/scripts/views/force_auth.js:42
 msgid "/force_auth requires an email"
-msgstr ""
+msgstr "/force_auth trjeba e-mailowu adresu"
 
 #: app/scripts/views/form.js:407 app/scripts/lib/strings.js:18
 msgid "Valid email required"
-msgstr ""
+msgstr "Płaśiwa e-mailowa adresa trěbna"
 
 #: app/scripts/views/form.js:449 app/scripts/lib/strings.js:23
 #: app/scripts/templates/change_password.mustache:6
 #: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/sign_up.mustache:9
 msgid "Must be at least 8 characters"
-msgstr ""
+msgstr "Musy nanejmjenjej 8 znamuškow dłujke byś"
 
 #: app/scripts/views/form.js:450 app/scripts/lib/strings.js:19
 msgid "Valid password required"
-msgstr ""
+msgstr "Płaśiwe gronidło trěbne"
 
 #: app/scripts/views/pp.js:41
 msgid "Could not get Privacy Notice"
-msgstr ""
+msgstr "Wuzjawjenje priwatnosći njejo se namakało"
 
 #: app/scripts/views/reset_password.js:69 app/scripts/views/sign_in.js:105
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "Njeznate konto. <a href=\"/signup\">Registrěrowaś</a>"
 
 #: app/scripts/views/settings.js:42
 msgid "Signed out"
-msgstr ""
+msgstr "Wótzjawjony"
 
 #: app/scripts/views/sign_up.js:104 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
-msgstr ""
+msgstr "Lěto naroźenja trěbne"
 
 #: app/scripts/views/sign_up.js:178
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr ""
+msgstr "Konto južo eksistěrujo. <a href=\"/signin\">Pśizjawiś</a>"
 
 #: app/scripts/views/tos.js:41
 msgid "Could not get Terms of Service"
-msgstr ""
+msgstr "Wužywańske wuměnjenja njejsu se namakali"
 
 #: app/scripts/lib/auth-errors.js:47 app/scripts/lib/oauth-errors.js:27
 msgid "Unexpected error"
-msgstr ""
+msgstr "Njewótcakowana zmólka"
 
 #: app/scripts/lib/auth-errors.js:48
 msgid "Invalid token"
-msgstr ""
+msgstr "Njepłaśiwy token"
 
 #: app/scripts/lib/auth-errors.js:49
 msgid "Invalid timestamp in request signature"
-msgstr ""
+msgstr "Njepłaśiwy casowy kołk w napšašowańskej signaturje"
 
 #: app/scripts/lib/auth-errors.js:50
 msgid "Invalid nonce in request signature"
-msgstr ""
+msgstr "Njepłaśiwy nonce w napšašowańskej signaturje"
 
 #: app/scripts/lib/auth-errors.js:51 app/scripts/lib/strings.js:25
 msgid "Account already exists"
-msgstr ""
+msgstr "Konto južo eksistěrujo"
 
 #: app/scripts/lib/auth-errors.js:52
 msgid "Unknown account"
-msgstr ""
+msgstr "Njeznate konto"
 
 #: app/scripts/lib/auth-errors.js:53
 msgid "Incorrect email case"
-msgstr ""
+msgstr "Njekorektna e-mailowa adresa"
 
 #: app/scripts/lib/auth-errors.js:54
 msgid "Incorrect password"
-msgstr ""
+msgstr "Njekorektne gronidło"
 
 #: app/scripts/lib/auth-errors.js:55
 msgid "Unverified account"
-msgstr ""
+msgstr "Njewobkšuśone konto"
 
 #: app/scripts/lib/auth-errors.js:56
 msgid "Invalid verification code"
-msgstr ""
+msgstr "Njepłaśiwy wobkšuśeński kode"
 
 #: app/scripts/lib/auth-errors.js:57
 msgid "Invalid JSON in request body"
-msgstr ""
+msgstr "Njepłaśiwy JSON w napšašowańskem korpusu"
 
 #: app/scripts/lib/auth-errors.js:58 app/scripts/lib/oauth-errors.js:31
 msgid "Invalid parameter in request body: %(param)s"
-msgstr ""
+msgstr "Njepłaśiwy parameter w napšašowańskem korpusu: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:59
 msgid "Missing parameter in request body: %(param)s"
-msgstr ""
+msgstr "Felujucy parameter w napšašowańskem korpusu: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:60 app/scripts/lib/oauth-errors.js:32
 msgid "Invalid request signature"
-msgstr ""
+msgstr "Njepłaśiwa napšašowańska signatura"
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "Missing content-length header"
-msgstr ""
+msgstr "Felujuca głowowa smužka content-length"
 
 #: app/scripts/lib/auth-errors.js:62
 msgid "Request body too large"
-msgstr ""
+msgstr "Napšašowański korpus jo pśedłujki"
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "Attempt limit exceeded"
-msgstr ""
+msgstr "Maksimalna licba wopytow jo se pšekšocyła"
 
 #: app/scripts/lib/auth-errors.js:64
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "System njestoj k dispoziciji, wopytajśo za krotki cas hyšći raz"
 
 #: app/scripts/lib/auth-errors.js:65
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Serwer jo póśěźony, wopytajśo za krotki cas hyšći raz"
 
 #: app/scripts/lib/auth-errors.js:66
 msgid "This endpoint is no longer supported"
-msgstr ""
+msgstr "Toś ten kóńcny dypk se wěcej njepódpěra"
 
 #: app/scripts/lib/auth-errors.js:69
 msgid "Session expired. Sign in to continue."
-msgstr ""
+msgstr "Pósejźenje jo wótběgnuło. Pśizjawśo se, aby pókšacował."
 
 #: app/scripts/lib/oauth-errors.js:28
 msgid "Unknown client"
-msgstr ""
+msgstr "Njeznaty klient"
 
 #: app/scripts/lib/oauth-errors.js:29
 msgid "Incorrect redirect_uri"
-msgstr ""
+msgstr "Njekorektny redirect_url"
 
 #: app/scripts/lib/oauth-errors.js:30
 msgid "Invalid assertion"
-msgstr ""
+msgstr "Njepłaśiwe twarźenje"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:20
 msgid "Invalid password"
-msgstr ""
+msgstr "Njepłaśiwe gronidło"
 
 #: app/scripts/lib/strings.js:21
 msgid "Invalid email and password"
-msgstr ""
+msgstr "Njepłaśiwa e-mailowa adresa a njepłaśiwe gronidło"
 
 #: app/scripts/lib/strings.js:22
 msgid "Invalid email or password"
-msgstr ""
+msgstr "Njepłaśiwa e-mailowa adresa abo njepłaśiwe gronidło"
 
 #: app/scripts/lib/strings.js:26
 msgid "Old password invalid"
-msgstr ""
+msgstr "Stare gronidło jo njepłaśiwe"
 
 #: app/scripts/lib/strings.js:27
 msgid "New password invalid"
-msgstr ""
+msgstr "Nowe gronidło jo njepłaśiwe"
 
 #: app/scripts/lib/strings.js:28
 msgid "Passwords don't match"
-msgstr ""
+msgstr "Gronidle njejstej jadnakej"
 
 #: app/scripts/lib/strings.js:29
 msgid "Please enter an email"
-msgstr ""
+msgstr "Pšosym zapódajśo e-mailowu adresu"
 
 #: app/scripts/lib/strings.js:30
 msgid "Cannot connect to the internet"
-msgstr ""
+msgstr "Zwisk z internetom njejo móžno"
 
 #: app/scripts/lib/strings.js:34
 msgid "Subscribe to Firefox news and tips"
-msgstr ""
+msgstr "Nowosći a pokazki za Firefox aboněrowaś"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
-msgstr ""
+msgstr "Konto njedajo se napóraś"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
 msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr ""
+"Musyśo wěste starstwowe pominanja docyniś, aby konto&nbsp;Firefox załožył."
 
 #: app/scripts/templates/cannot_create_account.mustache:3
 msgid "Learn more."
-msgstr ""
+msgstr "Dalšne informacije."
 
 #: app/scripts/templates/change_password.mustache:1
 #: app/scripts/templates/settings.mustache:5
 msgid "Change password"
-msgstr ""
+msgstr "Gronidło změniś"
 
 #: app/scripts/templates/change_password.mustache:2
 msgid "Old password"
-msgstr ""
+msgstr "Stare gronidło"
 
 #: app/scripts/templates/change_password.mustache:3
 #: app/scripts/templates/change_password.mustache:5
@@ -324,16 +330,16 @@ msgstr ""
 #: app/scripts/templates/sign_in.mustache:7
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Show"
-msgstr ""
+msgstr "Pokazaś"
 
 #: app/scripts/templates/change_password.mustache:4
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid "New password"
-msgstr ""
+msgstr "Nowe gronidło"
 
 #: app/scripts/templates/change_password.mustache:7
 msgid "Change Password"
-msgstr ""
+msgstr "Gronidło změniś"
 
 #: app/scripts/templates/change_password.mustache:8
 #: app/scripts/templates/delete_account.mustache:6
@@ -341,30 +347,32 @@ msgstr ""
 #: app/scripts/templates/reset_password.mustache:5
 #: app/scripts/templates/tos.mustache:3
 msgid "Back"
-msgstr ""
+msgstr "Slědk"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Verification link expired"
-msgstr ""
+msgstr "Wobkšuśeński wótkaz jo pśepadnuł"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/confirm.mustache:2
 #: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email resent"
-msgstr ""
+msgstr "Mailka jo se znowego pósłała"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
 msgstr ""
+"Wótkaz, na kótaryž sćo kliknuł, aby swójo gronidło slědk stajił, jo "
+"pśepadnuł."
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr ""
+msgstr "Klikniśo sem, aby nowy wótkaz za slědkstajenje dostał"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Wobkšuśeński wótkaz wobškóźony"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -372,51 +380,54 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
+"Wótkazoju, na kótaryž sćo kliknuł, znamuška feluju, a jo snaź pśez waš "
+"e-mailowy program wobškóźony. Kopěrujśo adresu kradosćiwje a wopytajśo hyšći "
+"raz."
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
 msgid "Reset password"
-msgstr ""
+msgstr "Gronidło slědk stajiś"
 
 #: app/scripts/templates/complete_reset_password.mustache:12
 msgid "Repeat password"
-msgstr ""
+msgstr "Gronidło wóspjetowaś"
 
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/reset_password.mustache:4
 #: app/scripts/templates/sign_up.mustache:31
 msgid "Next"
-msgstr ""
+msgstr "Dalej"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification error"
-msgstr ""
+msgstr "Wobkšuśeńska zmólka"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
-msgstr ""
+msgstr "Wubkšuśćo swójo konto"
 
 #: app/scripts/templates/confirm.mustache:3
 #: app/scripts/templates/confirm_reset_password.mustache:3
 msgid "Email Sent"
-msgstr ""
+msgstr "Mailka jo se pósłała"
 
 #: app/scripts/templates/confirm.mustache:4
 msgid "A verification link has been sent&nbsp;to %(email)s"
-msgstr ""
+msgstr "Wobkšuśeński wótkaz jo se&nbsp;na %(email)s pósłał"
 
 #: app/scripts/templates/confirm.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:8
 msgid "Resend email"
-msgstr ""
+msgstr "Mailku znowego pósłaś"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr ""
+msgstr "Mailka za slědkstajenje jo se pósłała"
 
 #: app/scripts/templates/confirm_reset_password.mustache:4
 msgid "A reset link has been sent to %(email)s"
-msgstr ""
+msgstr "Wótkaz za slědkstajenje jo se na %(email)s pósłał"
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
@@ -424,11 +435,11 @@ msgstr ""
 #: app/scripts/templates/sign_in.mustache:3
 #: app/scripts/templates/sign_in.mustache:8
 msgid "Sign in"
-msgstr ""
+msgstr "Pśizjawiś"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies required"
-msgstr ""
+msgstr "Cookieje trěbne"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -436,41 +447,45 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
+"Pšosym zmóžniśo cookieje w swójom wobglědowaku, kótarež su trěbne za Firefox "
+"Accounts. Cookieje su małe datowe elementy, kótarež składuju se we wašom "
+"wobglědowaku, ab wěstu funkcionalnosć zmóžnili, ako na pśikład "
+"zasejspóznawanje w nowem pósejźenju."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
-msgstr ""
+msgstr "Dalšne informacije"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "Wopytajśo hyšći raz"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
 #: app/scripts/templates/settings.mustache:6
 msgid "Delete account"
-msgstr ""
+msgstr "Konto wulašowaś"
 
 #: app/scripts/templates/delete_account.mustache:2
 msgid ""
 "Are you sure you want to delete your account? This action cannot be undone."
-msgstr ""
+msgstr "Cośo napšawdu swójo konto lašowaś? Toś ta akcija njedajo se anulěrowaś."
 
 #: app/scripts/templates/delete_account.mustache:3
 #: app/scripts/templates/force_auth.mustache:3
 #: app/scripts/templates/sign_in.mustache:5
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Password"
-msgstr ""
+msgstr "Gronidło"
 
 #: app/scripts/templates/force_auth.mustache:1
 msgid "Sign in to continue"
-msgstr ""
+msgstr "Pśizjawśo se, aby pókšacował"
 
 #: app/scripts/templates/force_auth.mustache:7
 #: app/scripts/templates/sign_in.mustache:9
 msgid "Forgot password?"
-msgstr ""
+msgstr "Sćo gronidło zabył?"
 
 #: app/scripts/templates/force_auth.mustache:8
 #: app/scripts/templates/sign_in.mustache:11
@@ -480,106 +495,110 @@ msgid ""
 "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
 "a> of Firefox cloud services."
 msgstr ""
+"Jolic z tym pókšacujośo, zwólijośo do <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">wužywańskich wuměnjenjow</a> a <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">wuzjawjenja priwatnosći </a> mrokowsłužbow Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "Mrokowsłužby Firefox"
 
 #: app/scripts/templates/legal.mustache:2
 msgid "Legal"
-msgstr ""
+msgstr "Pšawniske wěcy"
 
 #: app/scripts/templates/legal.mustache:3 app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
-msgstr ""
+msgstr "Wužywańske wuměnjenja"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Wuzjawjenje priwatnosći"
 
 #: app/scripts/templates/ready.mustache:1
 msgid "Signed in successfully"
-msgstr ""
+msgstr "Wuspěšnje pśizjawjony"
 
 #: app/scripts/templates/ready.mustache:3
 msgid "Account verified"
-msgstr ""
+msgstr "Konto jo wobkšuśone"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Password reset"
-msgstr ""
+msgstr "Gronidło jo se slědk stajiło"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Success"
-msgstr ""
+msgstr "Wuspěch"
 
 #: app/scripts/templates/ready.mustache:8
 msgid "You are now ready to use %(serviceName)s"
-msgstr ""
+msgstr "Móžośo něnto %(serviceName)s wužywaś"
 
 #: app/scripts/templates/ready.mustache:10
 msgid "Your account is ready!"
-msgstr ""
+msgstr "Wašo konto jo gótowo!"
 
 #: app/scripts/templates/ready.mustache:11
 msgid "Stay in sync on the go:"
-msgstr ""
+msgstr "Wóstańśo synchrony ducy:"
 
 #: app/scripts/templates/ready.mustache:12
 msgid "Get Firefox for Android"
-msgstr ""
+msgstr "Wobstarajśo se Firefox za Android"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
 msgstr ""
+"Zapódajśo swóju e-mailowu adresu, aby&nbsp;kontowe gronidło slědk stajił."
 
 #: app/scripts/templates/reset_password.mustache:3
 #: app/scripts/templates/sign_in.mustache:4
 #: app/scripts/templates/sign_up.mustache:4
 msgid "Email"
-msgstr ""
+msgstr "E-mailowa adresa"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
-msgstr ""
+msgstr "Konto zastojaś"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "You are signed in as"
-msgstr ""
+msgstr "Sće pśizjawjony ako"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"
-msgstr ""
+msgstr "Wótzjawiś"
 
 #: app/scripts/templates/sign_in.mustache:1
 msgid "Sign in to %(serviceName)s"
-msgstr ""
+msgstr "Pśizjawśo se pla %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:10
 msgid "Create an account"
-msgstr ""
+msgstr "Konto załožyś"
 
 #: app/scripts/templates/sign_up.mustache:1
 msgid "Create a Firefox Account for %(serviceName)s"
-msgstr ""
+msgstr "Załožćo konto Firefox za %(serviceName)s"
 
 #: app/scripts/templates/sign_up.mustache:3
 msgid "Create a Firefox Account"
-msgstr ""
+msgstr "Konto Firefox załožyś"
 
 #: app/scripts/templates/sign_up.mustache:11
 msgid "Year of birth"
-msgstr ""
+msgstr "Lěto naroźenja"
 
 #: app/scripts/templates/sign_up.mustache:12
 msgid "1990 or earlier"
-msgstr ""
+msgstr "1990 abo do togo"
 
 #: app/scripts/templates/sign_up.mustache:32
 msgid "Choose what to sync"
-msgstr ""
+msgstr "Wubjeŕśo, což ma se synchronizěrowaś"
 
 #: app/scripts/templates/sign_up.mustache:34
 msgid "Already have an account? Sign in."
-msgstr ""
+msgstr "Maśo južo konto? Pśizjawśo se."
