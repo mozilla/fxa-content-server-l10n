@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-06-03 15:19+0000\n"
-"PO-Revision-Date: 2014-05-14 08:53+0000\n"
-"Last-Translator: Sander <sander.lepik@eesti.ee>\n"
+"PO-Revision-Date: 2014-06-07 10:17+0000\n"
+"Last-Translator: Merike <merike.sell@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1400057585.0\n"
+"X-POOTLE-MTIME: 1402136277.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -225,7 +225,6 @@ msgid "Request body too large"
 msgstr "Päringu keha liiga suur"
 
 #: app/scripts/lib/auth-errors.js:63
-#, fuzzy
 msgid "Attempt limit exceeded"
 msgstr "Katsete limiit ületatud."
 
@@ -246,19 +245,16 @@ msgid "Session expired. Sign in to continue."
 msgstr "Seanss aegus. Jätkamiseks logi sisse."
 
 #: app/scripts/lib/oauth-errors.js:28
-#, fuzzy
 msgid "Unknown client"
-msgstr "Tundmatu konto"
+msgstr "Tundmatu klient"
 
 #: app/scripts/lib/oauth-errors.js:29
-#, fuzzy
 msgid "Incorrect redirect_uri"
-msgstr "Vigane e-posti aadress"
+msgstr "Vigane redirect_uri"
 
 #: app/scripts/lib/oauth-errors.js:30
-#, fuzzy
 msgid "Invalid assertion"
-msgstr "Vigane turvatõend"
+msgstr "Vigane tõend"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -436,7 +432,6 @@ msgid "Sign in"
 msgstr "Logi sisse"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-#, fuzzy
 msgid "Cookies required"
 msgstr "Küpsised on nõutud"
 
@@ -533,7 +528,6 @@ msgid "Success"
 msgstr "Õnnestus"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s"
 msgstr "%(serviceName)s on kasutamiseks valmis."
 
@@ -547,7 +541,7 @@ msgstr "Püsi sünkroonis ka liikvel olles:"
 
 #: app/scripts/templates/ready.mustache:12
 msgid "Get Firefox for Android"
-msgstr "hangi Firefox Androidile"
+msgstr "Hangi Firefox Androidile"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
@@ -572,18 +566,16 @@ msgid "Sign out"
 msgstr "Logi välja"
 
 #: app/scripts/templates/sign_in.mustache:1
-#, fuzzy
 msgid "Sign in to %(serviceName)s"
-msgstr "%(serviceName)s on kasutamiseks valmis."
+msgstr "Logi %(serviceName)s teenusesse sisse."
 
 #: app/scripts/templates/sign_in.mustache:10
 msgid "Create an account"
 msgstr "Loo konto"
 
 #: app/scripts/templates/sign_up.mustache:1
-#, fuzzy
 msgid "Create a Firefox Account for %(serviceName)s"
-msgstr "Firefoxi konto loomine"
+msgstr "Firefoxi konto loomine teenusele %(serviceName)s"
 
 #: app/scripts/templates/sign_up.mustache:3
 msgid "Create a Firefox Account"
