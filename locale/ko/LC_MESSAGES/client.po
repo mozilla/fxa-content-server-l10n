@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-06-03 15:19+0000\n"
-"PO-Revision-Date: 2014-06-03 06:36+0000\n"
-"Last-Translator: Channy <channy@mozilla.or.kr>\n"
+"PO-Revision-Date: 2014-06-07 09:42+0000\n"
+"Last-Translator: Hyeonseok <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1401777419.0\n"
+"X-POOTLE-MTIME: 1402134135.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -142,7 +142,7 @@ msgstr "개인 정보 보호 정책 없음"
 
 #: app/scripts/views/reset_password.js:69 app/scripts/views/sign_in.js:105
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr "잘못된 계정 <a href=\"/signup\">회원가입</a>"
+msgstr "잘못된 계정입니다. <a href=\"/signup\">회원가입</a>"
 
 #: app/scripts/views/settings.js:42
 msgid "Signed out"
@@ -225,9 +225,8 @@ msgid "Request body too large"
 msgstr "요청 본문이 너무 큼"
 
 #: app/scripts/lib/auth-errors.js:63
-#, fuzzy
 msgid "Attempt limit exceeded"
-msgstr "재시도 횟수가 초과되었습니다."
+msgstr "재시도 횟수 초과"
 
 #: app/scripts/lib/auth-errors.js:64
 msgid "System unavailable, try again soon"
@@ -246,19 +245,16 @@ msgid "Session expired. Sign in to continue."
 msgstr "세션이 만료되었습니다. 계속하려면 로그인해 주세요."
 
 #: app/scripts/lib/oauth-errors.js:28
-#, fuzzy
 msgid "Unknown client"
-msgstr "알 수 없는 계정"
+msgstr "알 수 없는 클라이언트"
 
 #: app/scripts/lib/oauth-errors.js:29
-#, fuzzy
 msgid "Incorrect redirect_uri"
-msgstr "잘못된 이메일"
+msgstr "잘못된 redirect_uri"
 
 #: app/scripts/lib/oauth-errors.js:30
-#, fuzzy
 msgid "Invalid assertion"
-msgstr "잘못된 토큰"
+msgstr "잘못된 검증 조건"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -436,7 +432,6 @@ msgid "Sign in"
 msgstr "Firefox 계정 로그인"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-#, fuzzy
 msgid "Cookies required"
 msgstr "쿠키가 필요함"
 
@@ -531,9 +526,8 @@ msgid "Success"
 msgstr "성공"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s"
-msgstr "%(serviceName)s를지금부터 사용할 수 있습니다."
+msgstr "%(serviceName)s를 지금부터 사용할 수 있습니다."
 
 #: app/scripts/templates/ready.mustache:10
 msgid "Your account is ready!"
@@ -570,18 +564,16 @@ msgid "Sign out"
 msgstr "로그 아웃"
 
 #: app/scripts/templates/sign_in.mustache:1
-#, fuzzy
 msgid "Sign in to %(serviceName)s"
-msgstr "%(serviceName)s를지금부터 사용할 수 있습니다."
+msgstr "%(serviceName)s에 로그인"
 
 #: app/scripts/templates/sign_in.mustache:10
 msgid "Create an account"
 msgstr "계정 생성"
 
 #: app/scripts/templates/sign_up.mustache:1
-#, fuzzy
 msgid "Create a Firefox Account for %(serviceName)s"
-msgstr "Firefox 계정 생성"
+msgstr "%(serviceName)s 용 Firefox 계정 생성"
 
 #: app/scripts/templates/sign_up.mustache:3
 msgid "Create a Firefox Account"

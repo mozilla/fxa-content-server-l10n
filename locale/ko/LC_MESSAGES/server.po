@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-06-03 15:19+0000\n"
-"PO-Revision-Date: 2014-05-03 12:48+0000\n"
+"PO-Revision-Date: 2014-06-07 09:40+0000\n"
 "Last-Translator: Hyeonseok <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1399121298.0\n"
+"X-POOTLE-MTIME: 1402134026.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -30,7 +30,7 @@ msgstr "페이지를 찾을 수 없음"
 msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
-msgstr "요청하신 페이지를 찾을 수 없습니다. 잘못된 링크를 고치고  있습니다."
+msgstr "요청하신 페이지를 찾을 수 없습니다. 잘못된 링크를 고치고 있습니다."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/503.html:4
