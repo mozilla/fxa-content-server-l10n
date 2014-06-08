@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-03 15:19+0000\n"
-"PO-Revision-Date: 2014-05-09 04:35+0000\n"
+"PO-Revision-Date: 2014-06-08 04:44+0000\n"
 "Last-Translator: Théo <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1399610157.0\n"
+"X-POOTLE-MTIME: 1402202678.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -226,9 +226,8 @@ msgid "Request body too large"
 msgstr "Contenu de la requête trop grand"
 
 #: app/scripts/lib/auth-errors.js:63
-#, fuzzy
 msgid "Attempt limit exceeded"
-msgstr "Nombre maximum de tentatives atteint."
+msgstr "Nombre maximum de tentatives atteint"
 
 #: app/scripts/lib/auth-errors.js:64
 msgid "System unavailable, try again soon"
@@ -247,19 +246,16 @@ msgid "Session expired. Sign in to continue."
 msgstr "Votre session a expirée. Connectez-vous pour continuer."
 
 #: app/scripts/lib/oauth-errors.js:28
-#, fuzzy
 msgid "Unknown client"
-msgstr "Compte inconnu"
+msgstr "Client inconnu"
 
 #: app/scripts/lib/oauth-errors.js:29
-#, fuzzy
 msgid "Incorrect redirect_uri"
-msgstr "Casse de l'adresse incorrecte"
+msgstr "redirect_uri incorrecte"
 
 #: app/scripts/lib/oauth-errors.js:30
-#, fuzzy
 msgid "Invalid assertion"
-msgstr "Jeton non valide"
+msgstr "Assertion non valide"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -299,7 +295,7 @@ msgstr "Connexion à Internet impossible"
 
 #: app/scripts/lib/strings.js:34
 msgid "Subscribe to Firefox news and tips"
-msgstr ""
+msgstr "Recevez les dernières nouvelles et les astuces pour Firefox"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -439,7 +435,6 @@ msgid "Sign in"
 msgstr "Connexion"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-#, fuzzy
 msgid "Cookies required"
 msgstr "Cookies obligatoires"
 
@@ -537,9 +532,8 @@ msgid "Success"
 msgstr "Succès"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s"
-msgstr "Vous êtes maintenant prêt à utiliser %(serviceName)s."
+msgstr "Vous êtes maintenant prêt à utiliser %(serviceName)s"
 
 #: app/scripts/templates/ready.mustache:10
 msgid "Your account is ready!"
@@ -576,18 +570,16 @@ msgid "Sign out"
 msgstr "Déconnexion"
 
 #: app/scripts/templates/sign_in.mustache:1
-#, fuzzy
 msgid "Sign in to %(serviceName)s"
-msgstr "Vous êtes maintenant prêt à utiliser %(serviceName)s."
+msgstr "Se connecter à %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:10
 msgid "Create an account"
 msgstr "Créer un compte"
 
 #: app/scripts/templates/sign_up.mustache:1
-#, fuzzy
 msgid "Create a Firefox Account for %(serviceName)s"
-msgstr "Créer un compte Firefox"
+msgstr "Créer un compte Firefox pour %(serviceName)s"
 
 #: app/scripts/templates/sign_up.mustache:3
 msgid "Create a Firefox Account"
