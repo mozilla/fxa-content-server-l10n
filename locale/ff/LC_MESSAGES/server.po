@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-06-03 15:19+0000\n"
+"POT-Creation-Date: 2014-06-10 21:45+0000\n"
 "PO-Revision-Date: 2014-05-16 01:09+0200\n"
 "Last-Translator: Ibrahima SARR <ibrahima.sarr@pulaagu.com>\n"
 "Language-Team: FULAH LOCALIZATION\n"
@@ -38,8 +38,7 @@ msgstr ""
 msgid "Home"
 msgstr "Jaɓɓorgo"
 
-#: server/templates/pages/src/500.html:2 server/lib/500.js:21
-#: server/lib/500.js:24
+#: server/templates/pages/src/500.html:2
 msgid "System unavailable, try again soon"
 msgstr "Yuɓɓo heɓotaako, eto ɗoo e yeeso"
 

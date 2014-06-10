@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-06-03 15:19+0000\n"
+"POT-Creation-Date: 2014-06-10 21:45+0000\n"
 "PO-Revision-Date: 2014-06-07 09:40+0000\n"
 "Last-Translator: Hyeonseok <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,8 +37,7 @@ msgstr "요청하신 페이지를 찾을 수 없습니다. 잘못된 링크를 �
 msgid "Home"
 msgstr "첫화면"
 
-#: server/templates/pages/src/500.html:2 server/lib/500.js:21
-#: server/lib/500.js:24
+#: server/templates/pages/src/500.html:2
 msgid "System unavailable, try again soon"
 msgstr "시스템 오류입니다, 잠시 후에 다시 시도해 주세요."
 

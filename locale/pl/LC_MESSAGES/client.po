@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-06-03 15:19+0000\n"
+"POT-Creation-Date: 2014-06-10 21:45+0000\n"
 "PO-Revision-Date: 2014-03-01 19:41+0000\n"
 "Last-Translator: Bartosz <bpiec@aviary.pl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,12 +101,12 @@ msgid ""
 "a>."
 msgstr ""
 
-#: app/scripts/views/complete_reset_password.js:93
+#: app/scripts/views/complete_reset_password.js:94
 #, fuzzy
 msgid "Passwords do not match"
 msgstr "hasła nie zgadzają się"
 
-#: app/scripts/views/confirm_reset_password.js:63
+#: app/scripts/views/confirm_reset_password.js:75
 #, fuzzy
 msgid "Password reset. Sign in to continue."
 msgstr "Zaloguj się, aby kontynuować"
@@ -124,18 +124,22 @@ msgstr "Takie konto już istnieje"
 msgid "/force_auth requires an email"
 msgstr ""
 
-#: app/scripts/views/form.js:407 app/scripts/lib/strings.js:18
+#: app/scripts/views/form.js:122
+msgid "Working…"
+msgstr ""
+
+#: app/scripts/views/form.js:443 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "Wymagany jest poprawny adres e-mail"
 
-#: app/scripts/views/form.js:449 app/scripts/lib/strings.js:23
-#: app/scripts/templates/change_password.mustache:6
+#: app/scripts/views/form.js:485 app/scripts/lib/strings.js:23
+#: app/scripts/templates/change_password.mustache:7
 #: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/sign_up.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "Musi być przynajmniej 8-znakowe"
 
-#: app/scripts/views/form.js:450 app/scripts/lib/strings.js:19
+#: app/scripts/views/form.js:486 app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr "Wymagane poprawne hasło"
 
@@ -144,7 +148,7 @@ msgstr "Wymagane poprawne hasło"
 msgid "Could not get Privacy Notice"
 msgstr "Informacje o prywatności"
 
-#: app/scripts/views/reset_password.js:69 app/scripts/views/sign_in.js:105
+#: app/scripts/views/reset_password.js:76 app/scripts/views/sign_in.js:110
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Nieznane konto. <a href=\"/signup\">Zarejestruj się</a>"
 
@@ -153,11 +157,11 @@ msgstr "Nieznane konto. <a href=\"/signup\">Zarejestruj się</a>"
 msgid "Signed out"
 msgstr "Wyloguj"
 
-#: app/scripts/views/sign_up.js:104 app/scripts/lib/strings.js:24
+#: app/scripts/views/sign_up.js:111 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "Wymagana data urodzenia"
 
-#: app/scripts/views/sign_up.js:178
+#: app/scripts/views/sign_up.js:185
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Takie konto już istnieje. <a href=\"/signin\">Zaloguj się</a>"
 
@@ -328,11 +332,16 @@ msgid "Change password"
 msgstr "Zmień hasło"
 
 #: app/scripts/templates/change_password.mustache:2
+msgid ""
+"Once you're ﬁnished, use your new password to sign in on all of your devices."
+msgstr ""
+
+#: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
 msgstr "Stare hasło"
 
-#: app/scripts/templates/change_password.mustache:3
-#: app/scripts/templates/change_password.mustache:5
+#: app/scripts/templates/change_password.mustache:4
+#: app/scripts/templates/change_password.mustache:6
 #: app/scripts/templates/complete_reset_password.mustache:11
 #: app/scripts/templates/complete_reset_password.mustache:13
 #: app/scripts/templates/delete_account.mustache:4
@@ -342,19 +351,19 @@ msgstr "Stare hasło"
 msgid "Show"
 msgstr "Pokaż"
 
-#: app/scripts/templates/change_password.mustache:4
+#: app/scripts/templates/change_password.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid "New password"
 msgstr "Nowe hasło"
 
-#: app/scripts/templates/change_password.mustache:7
-msgid "Change Password"
-msgstr "Zmień hasło"
-
 #: app/scripts/templates/change_password.mustache:8
+msgid "Confirm"
+msgstr ""
+
+#: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/delete_account.mustache:6
 #: app/scripts/templates/pp.mustache:3
-#: app/scripts/templates/reset_password.mustache:5
+#: app/scripts/templates/reset_password.mustache:6
 #: app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Wstecz"
@@ -400,7 +409,7 @@ msgid "Repeat password"
 msgstr "Powtórz hasło"
 
 #: app/scripts/templates/complete_reset_password.mustache:15
-#: app/scripts/templates/reset_password.mustache:4
+#: app/scripts/templates/reset_password.mustache:5
 #: app/scripts/templates/sign_up.mustache:31
 msgid "Next"
 msgstr "Dalej"
@@ -565,6 +574,12 @@ msgstr "Wpisz adres e-mail, aby zmienić hasło."
 msgid "Email"
 msgstr "E-mail"
 
+#: app/scripts/templates/reset_password.mustache:4
+msgid ""
+"For security reasons, resetting your password will erase your Sync data from "
+"our servers. A new Sync backup will be created from your local browsing data."
+msgstr ""
+
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
 msgstr "Zarządzaj kontem"
@@ -612,6 +627,9 @@ msgstr "Wybierz, co powinno być synchronizowane"
 #: app/scripts/templates/sign_up.mustache:34
 msgid "Already have an account? Sign in."
 msgstr "Masz już konto? Zaloguj się."
+
+#~ msgid "Change Password"
+#~ msgstr "Zmień hasło"
 
 #~ msgid "Invalid authentication token in request signature"
 #~ msgstr "Niepoprawny token uwierzytelniający w sygnaturze żądania"

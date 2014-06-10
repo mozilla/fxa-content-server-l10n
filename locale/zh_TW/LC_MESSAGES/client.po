@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-03 15:19+0000\n"
+"POT-Creation-Date: 2014-06-10 21:45+0000\n"
 "PO-Revision-Date: 2014-06-04 04:14+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -100,11 +100,11 @@ msgid ""
 "a>."
 msgstr "未確認的帳號。<a href=\"#\" id=\"resend\">重發驗證信</a>。"
 
-#: app/scripts/views/complete_reset_password.js:93
+#: app/scripts/views/complete_reset_password.js:94
 msgid "Passwords do not match"
 msgstr "密碼不符合"
 
-#: app/scripts/views/confirm_reset_password.js:63
+#: app/scripts/views/confirm_reset_password.js:75
 msgid "Password reset. Sign in to continue."
 msgstr "密碼已重設，請登入以繼續。"
 
@@ -120,18 +120,22 @@ msgstr "已成功刪除帳號"
 msgid "/force_auth requires an email"
 msgstr "/force_auth 需要 email 帳號"
 
-#: app/scripts/views/form.js:407 app/scripts/lib/strings.js:18
+#: app/scripts/views/form.js:122
+msgid "Working…"
+msgstr ""
+
+#: app/scripts/views/form.js:443 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "必須輸入有效的電子郵件地址"
 
-#: app/scripts/views/form.js:449 app/scripts/lib/strings.js:23
-#: app/scripts/templates/change_password.mustache:6
+#: app/scripts/views/form.js:485 app/scripts/lib/strings.js:23
+#: app/scripts/templates/change_password.mustache:7
 #: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/sign_up.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "至少要 8 個字元長"
 
-#: app/scripts/views/form.js:450 app/scripts/lib/strings.js:19
+#: app/scripts/views/form.js:486 app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr "必須輸入有效的密碼"
 
@@ -139,7 +143,7 @@ msgstr "必須輸入有效的密碼"
 msgid "Could not get Privacy Notice"
 msgstr "無法取得隱私權保護政策"
 
-#: app/scripts/views/reset_password.js:69 app/scripts/views/sign_in.js:105
+#: app/scripts/views/reset_password.js:76 app/scripts/views/sign_in.js:110
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "未知的帳號。<a href=\"/signup\">註冊</a>"
 
@@ -147,11 +151,11 @@ msgstr "未知的帳號。<a href=\"/signup\">註冊</a>"
 msgid "Signed out"
 msgstr "已登出"
 
-#: app/scripts/views/sign_up.js:104 app/scripts/lib/strings.js:24
+#: app/scripts/views/sign_up.js:111 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "必須輸入出生年"
 
-#: app/scripts/views/sign_up.js:178
+#: app/scripts/views/sign_up.js:185
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "帳號已存在。<a href=\"/signin\">登入</a>"
 
@@ -314,11 +318,16 @@ msgid "Change password"
 msgstr "修改密碼"
 
 #: app/scripts/templates/change_password.mustache:2
+msgid ""
+"Once you're ﬁnished, use your new password to sign in on all of your devices."
+msgstr ""
+
+#: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
 msgstr "舊密碼"
 
-#: app/scripts/templates/change_password.mustache:3
-#: app/scripts/templates/change_password.mustache:5
+#: app/scripts/templates/change_password.mustache:4
+#: app/scripts/templates/change_password.mustache:6
 #: app/scripts/templates/complete_reset_password.mustache:11
 #: app/scripts/templates/complete_reset_password.mustache:13
 #: app/scripts/templates/delete_account.mustache:4
@@ -328,19 +337,19 @@ msgstr "舊密碼"
 msgid "Show"
 msgstr "顯示"
 
-#: app/scripts/templates/change_password.mustache:4
+#: app/scripts/templates/change_password.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid "New password"
 msgstr "新密碼"
 
-#: app/scripts/templates/change_password.mustache:7
-msgid "Change Password"
-msgstr "變更密碼"
-
 #: app/scripts/templates/change_password.mustache:8
+msgid "Confirm"
+msgstr ""
+
+#: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/delete_account.mustache:6
 #: app/scripts/templates/pp.mustache:3
-#: app/scripts/templates/reset_password.mustache:5
+#: app/scripts/templates/reset_password.mustache:6
 #: app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "上一步"
@@ -387,7 +396,7 @@ msgid "Repeat password"
 msgstr "重複輸入密碼"
 
 #: app/scripts/templates/complete_reset_password.mustache:15
-#: app/scripts/templates/reset_password.mustache:4
+#: app/scripts/templates/reset_password.mustache:5
 #: app/scripts/templates/sign_up.mustache:31
 msgid "Next"
 msgstr "下一步"
@@ -549,6 +558,12 @@ msgstr "請輸入您的電子郵件信箱以重設密碼。"
 msgid "Email"
 msgstr "電子郵件地址"
 
+#: app/scripts/templates/reset_password.mustache:4
+msgid ""
+"For security reasons, resetting your password will erase your Sync data from "
+"our servers. A new Sync backup will be created from your local browsing data."
+msgstr ""
+
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
 msgstr "管理帳號"
@@ -592,6 +607,9 @@ msgstr "選擇要同步的內容"
 #: app/scripts/templates/sign_up.mustache:34
 msgid "Already have an account? Sign in."
 msgstr "已經有帳號了？請登入。"
+
+#~ msgid "Change Password"
+#~ msgstr "變更密碼"
 
 #~ msgid "Invalid authentication token in request signature"
 #~ msgstr "請求簽章中的驗證 token 無效"

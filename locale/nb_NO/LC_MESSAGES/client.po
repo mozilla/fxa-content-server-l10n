@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-03 15:19+0000\n"
+"POT-Creation-Date: 2014-06-10 21:45+0000\n"
 "PO-Revision-Date: 2014-02-27 11:35+0000\n"
 "Last-Translator: Håvar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,12 +101,12 @@ msgid ""
 "a>."
 msgstr ""
 
-#: app/scripts/views/complete_reset_password.js:93
+#: app/scripts/views/complete_reset_password.js:94
 #, fuzzy
 msgid "Passwords do not match"
 msgstr "Passordene er ikke like"
 
-#: app/scripts/views/confirm_reset_password.js:63
+#: app/scripts/views/confirm_reset_password.js:75
 #, fuzzy
 msgid "Password reset. Sign in to continue."
 msgstr "Logg inn for å fortsette"
@@ -124,18 +124,22 @@ msgstr "Kontoen finnes allerede"
 msgid "/force_auth requires an email"
 msgstr ""
 
-#: app/scripts/views/form.js:407 app/scripts/lib/strings.js:18
+#: app/scripts/views/form.js:122
+msgid "Working…"
+msgstr ""
+
+#: app/scripts/views/form.js:443 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "Gyldig e-post er nødvendig"
 
-#: app/scripts/views/form.js:449 app/scripts/lib/strings.js:23
-#: app/scripts/templates/change_password.mustache:6
+#: app/scripts/views/form.js:485 app/scripts/lib/strings.js:23
+#: app/scripts/templates/change_password.mustache:7
 #: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/sign_up.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "Må være på minst 8 tegn"
 
-#: app/scripts/views/form.js:450 app/scripts/lib/strings.js:19
+#: app/scripts/views/form.js:486 app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr "Gyldig passord er nødvendig"
 
@@ -144,7 +148,7 @@ msgstr "Gyldig passord er nødvendig"
 msgid "Could not get Privacy Notice"
 msgstr "Personvernserklæring"
 
-#: app/scripts/views/reset_password.js:69 app/scripts/views/sign_in.js:105
+#: app/scripts/views/reset_password.js:76 app/scripts/views/sign_in.js:110
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Ukjent konto. <a href=\"/signup\">Regsitrer deg</a>"
 
@@ -153,11 +157,11 @@ msgstr "Ukjent konto. <a href=\"/signup\">Regsitrer deg</a>"
 msgid "Signed out"
 msgstr "Logg ut"
 
-#: app/scripts/views/sign_up.js:104 app/scripts/lib/strings.js:24
+#: app/scripts/views/sign_up.js:111 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "Fødselsår påkrevd"
 
-#: app/scripts/views/sign_up.js:178
+#: app/scripts/views/sign_up.js:185
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Kontoen finnes allerede. <a href=\"/signin\">Logg inn</a>"
 
@@ -329,11 +333,16 @@ msgid "Change password"
 msgstr "Bytt passord"
 
 #: app/scripts/templates/change_password.mustache:2
+msgid ""
+"Once you're ﬁnished, use your new password to sign in on all of your devices."
+msgstr ""
+
+#: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
 msgstr "Gammelt passord"
 
-#: app/scripts/templates/change_password.mustache:3
-#: app/scripts/templates/change_password.mustache:5
+#: app/scripts/templates/change_password.mustache:4
+#: app/scripts/templates/change_password.mustache:6
 #: app/scripts/templates/complete_reset_password.mustache:11
 #: app/scripts/templates/complete_reset_password.mustache:13
 #: app/scripts/templates/delete_account.mustache:4
@@ -343,19 +352,19 @@ msgstr "Gammelt passord"
 msgid "Show"
 msgstr "Vis"
 
-#: app/scripts/templates/change_password.mustache:4
+#: app/scripts/templates/change_password.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid "New password"
 msgstr "Nytt passord"
 
-#: app/scripts/templates/change_password.mustache:7
-msgid "Change Password"
-msgstr "Bytt passord"
-
 #: app/scripts/templates/change_password.mustache:8
+msgid "Confirm"
+msgstr ""
+
+#: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/delete_account.mustache:6
 #: app/scripts/templates/pp.mustache:3
-#: app/scripts/templates/reset_password.mustache:5
+#: app/scripts/templates/reset_password.mustache:6
 #: app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Tilbake"
@@ -401,7 +410,7 @@ msgid "Repeat password"
 msgstr "Gjenta passord"
 
 #: app/scripts/templates/complete_reset_password.mustache:15
-#: app/scripts/templates/reset_password.mustache:4
+#: app/scripts/templates/reset_password.mustache:5
 #: app/scripts/templates/sign_up.mustache:31
 msgid "Next"
 msgstr "Neste"
@@ -568,6 +577,12 @@ msgstr "Skriv inn din e-postadresse for å tilbakestille kontopassordet."
 msgid "Email"
 msgstr "E-post"
 
+#: app/scripts/templates/reset_password.mustache:4
+msgid ""
+"For security reasons, resetting your password will erase your Sync data from "
+"our servers. A new Sync backup will be created from your local browsing data."
+msgstr ""
+
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
 msgstr "Behandle konto"
@@ -615,6 +630,9 @@ msgstr "Velg hva som skal synkroniseres"
 #: app/scripts/templates/sign_up.mustache:34
 msgid "Already have an account? Sign in."
 msgstr "Har du allerede en konto? Logg inn."
+
+#~ msgid "Change Password"
+#~ msgstr "Bytt passord"
 
 #~ msgid "Invalid authentication token in request signature"
 #~ msgstr "Ugyldig autentiseringssymbol i signaturen til forespørselen"
