@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-06-03 15:19+0000\n"
+"POT-Creation-Date: 2014-06-10 21:45+0000\n"
 "PO-Revision-Date: 2014-06-07 13:49+0000\n"
 "Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1402148981.0\n"
 
@@ -102,11 +102,11 @@ msgstr ""
 "Неподтверждённый аккаунт. <a href=\"#\" id=\"resend\">Снова послать письмо "
 "для подтверждения</a>."
 
-#: app/scripts/views/complete_reset_password.js:93
+#: app/scripts/views/complete_reset_password.js:94
 msgid "Passwords do not match"
 msgstr "Пароли не совпадают"
 
-#: app/scripts/views/confirm_reset_password.js:63
+#: app/scripts/views/confirm_reset_password.js:75
 msgid "Password reset. Sign in to continue."
 msgstr "Пароль восстановлен. Войдите, чтобы продолжить."
 
@@ -122,18 +122,22 @@ msgstr "Аккаунт успешно удалён"
 msgid "/force_auth requires an email"
 msgstr "/force_auth требует эл. почты"
 
-#: app/scripts/views/form.js:407 app/scripts/lib/strings.js:18
+#: app/scripts/views/form.js:122
+msgid "Working…"
+msgstr ""
+
+#: app/scripts/views/form.js:443 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "Введите действующий адрес электронной почты"
 
-#: app/scripts/views/form.js:449 app/scripts/lib/strings.js:23
-#: app/scripts/templates/change_password.mustache:6
+#: app/scripts/views/form.js:485 app/scripts/lib/strings.js:23
+#: app/scripts/templates/change_password.mustache:7
 #: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/sign_up.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "Должен быть не менее 8 символов"
 
-#: app/scripts/views/form.js:450 app/scripts/lib/strings.js:19
+#: app/scripts/views/form.js:486 app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr "Введите правильный пароль"
 
@@ -141,7 +145,7 @@ msgstr "Введите правильный пароль"
 msgid "Could not get Privacy Notice"
 msgstr "Не удалось получить Уведомление о приватности"
 
-#: app/scripts/views/reset_password.js:69 app/scripts/views/sign_in.js:105
+#: app/scripts/views/reset_password.js:76 app/scripts/views/sign_in.js:110
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Неизвестный аккаунт. <a href=\"/signup\">Зарегистрироваться</a>"
 
@@ -149,11 +153,11 @@ msgstr "Неизвестный аккаунт. <a href=\"/signup\">Зареги�
 msgid "Signed out"
 msgstr "Выход произведён"
 
-#: app/scripts/views/sign_up.js:104 app/scripts/lib/strings.js:24
+#: app/scripts/views/sign_up.js:111 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "Требуется год рождения"
 
-#: app/scripts/views/sign_up.js:178
+#: app/scripts/views/sign_up.js:185
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Аккаунт уже существует. <a href=\"/signin\">Войти</a>"
 
@@ -318,11 +322,16 @@ msgid "Change password"
 msgstr "Сменить пароль"
 
 #: app/scripts/templates/change_password.mustache:2
+msgid ""
+"Once you're ﬁnished, use your new password to sign in on all of your devices."
+msgstr ""
+
+#: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
 msgstr "Старый пароль"
 
-#: app/scripts/templates/change_password.mustache:3
-#: app/scripts/templates/change_password.mustache:5
+#: app/scripts/templates/change_password.mustache:4
+#: app/scripts/templates/change_password.mustache:6
 #: app/scripts/templates/complete_reset_password.mustache:11
 #: app/scripts/templates/complete_reset_password.mustache:13
 #: app/scripts/templates/delete_account.mustache:4
@@ -332,19 +341,19 @@ msgstr "Старый пароль"
 msgid "Show"
 msgstr "Показать"
 
-#: app/scripts/templates/change_password.mustache:4
+#: app/scripts/templates/change_password.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid "New password"
 msgstr "Новый пароль"
 
-#: app/scripts/templates/change_password.mustache:7
-msgid "Change Password"
-msgstr "Сменить пароль"
-
 #: app/scripts/templates/change_password.mustache:8
+msgid "Confirm"
+msgstr ""
+
+#: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/delete_account.mustache:6
 #: app/scripts/templates/pp.mustache:3
-#: app/scripts/templates/reset_password.mustache:5
+#: app/scripts/templates/reset_password.mustache:6
 #: app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Назад"
@@ -393,7 +402,7 @@ msgid "Repeat password"
 msgstr "Повторите пароль"
 
 #: app/scripts/templates/complete_reset_password.mustache:15
-#: app/scripts/templates/reset_password.mustache:4
+#: app/scripts/templates/reset_password.mustache:5
 #: app/scripts/templates/sign_up.mustache:31
 msgid "Next"
 msgstr "Далее"
@@ -558,6 +567,12 @@ msgstr "Укажите ваш адрес электронной почты дл�
 msgid "Email"
 msgstr "Электронная почта"
 
+#: app/scripts/templates/reset_password.mustache:4
+msgid ""
+"For security reasons, resetting your password will erase your Sync data from "
+"our servers. A new Sync backup will be created from your local browsing data."
+msgstr ""
+
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
 msgstr "Управление аккаунтом"
@@ -601,6 +616,9 @@ msgstr "Выбрать что синхронизировать"
 #: app/scripts/templates/sign_up.mustache:34
 msgid "Already have an account? Sign in."
 msgstr "Уже есть аккаунт? Войти."
+
+#~ msgid "Change Password"
+#~ msgstr "Сменить пароль"
 
 #~ msgid "Invalid authentication token in request signature"
 #~ msgstr "Неверный аутентификационный токен в подписи запроса"

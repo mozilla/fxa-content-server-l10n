@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-03 15:19+0000\n"
+"POT-Creation-Date: 2014-06-10 21:45+0000\n"
 "PO-Revision-Date: 2014-05-03 18:37+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,8 +38,7 @@ msgstr "找不到您想開啟的頁面。我們已經通知開發團隊來檢查
 msgid "Home"
 msgstr "首頁"
 
-#: server/templates/pages/src/500.html:2 server/lib/500.js:21
-#: server/lib/500.js:24
+#: server/templates/pages/src/500.html:2
 msgid "System unavailable, try again soon"
 msgstr "系統無法使用，請稍後再試一次"
 

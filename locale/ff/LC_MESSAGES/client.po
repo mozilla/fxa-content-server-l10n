@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-06-03 15:19+0000\n"
+"POT-Creation-Date: 2014-06-10 21:45+0000\n"
 "PO-Revision-Date: 2014-05-16 00:57+0200\n"
 "Last-Translator: Ibrahima SARR <ibrahima.sarr@pulaagu.com>\n"
 "Language-Team: FULAH LOCALIZATION\n"
@@ -99,11 +99,11 @@ msgid ""
 msgstr ""
 "Konte ƴeewtaaka. <a href=\"#\" id=\"resend\">Neltir iimeel ƴeewtagol</a>."
 
-#: app/scripts/views/complete_reset_password.js:93
+#: app/scripts/views/complete_reset_password.js:94
 msgid "Passwords do not match"
 msgstr "Finndeeji nanndaani"
 
-#: app/scripts/views/confirm_reset_password.js:63
+#: app/scripts/views/confirm_reset_password.js:75
 msgid "Password reset. Sign in to continue."
 msgstr "Finnde firlitaama. Seŋo ngam jokkude."
 
@@ -119,18 +119,22 @@ msgstr "Konte momtiraama no haanirta"
 msgid "/force_auth requires an email"
 msgstr "/force_auth ena naamnii iimeel"
 
-#: app/scripts/views/form.js:407 app/scripts/lib/strings.js:18
+#: app/scripts/views/form.js:122
+msgid "Working…"
+msgstr ""
+
+#: app/scripts/views/form.js:443 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "Iimeel moƴƴo ena waɗɗii"
 
-#: app/scripts/views/form.js:449 app/scripts/lib/strings.js:23
-#: app/scripts/templates/change_password.mustache:6
+#: app/scripts/views/form.js:485 app/scripts/lib/strings.js:23
+#: app/scripts/templates/change_password.mustache:7
 #: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/sign_up.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "Ena foti waɗde alkule 8 so famɗii"
 
-#: app/scripts/views/form.js:450 app/scripts/lib/strings.js:19
+#: app/scripts/views/form.js:486 app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr "Finnde moƴƴere ena waɗɗii"
 
@@ -138,7 +142,7 @@ msgstr "Finnde moƴƴere ena waɗɗii"
 msgid "Could not get Privacy Notice"
 msgstr "Horiima heɓde Tintinol Suturo"
 
-#: app/scripts/views/reset_password.js:69 app/scripts/views/sign_in.js:105
+#: app/scripts/views/reset_password.js:76 app/scripts/views/sign_in.js:110
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Konte anndaaka. <a href=\"/signup\">Winndito</a>"
 
@@ -146,11 +150,11 @@ msgstr "Konte anndaaka. <a href=\"/signup\">Winndito</a>"
 msgid "Signed out"
 msgstr "Seŋtiima"
 
-#: app/scripts/views/sign_up.js:104 app/scripts/lib/strings.js:24
+#: app/scripts/views/sign_up.js:111 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "Hitaande jibinannde ena waɗɗii"
 
-#: app/scripts/views/sign_up.js:178
+#: app/scripts/views/sign_up.js:185
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Konte ena ngoodi kisa. <a href=\"/signin\">Seŋo</a>"
 
@@ -317,11 +321,16 @@ msgid "Change password"
 msgstr "Waylu finnde"
 
 #: app/scripts/templates/change_password.mustache:2
+msgid ""
+"Once you're ﬁnished, use your new password to sign in on all of your devices."
+msgstr ""
+
+#: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
 msgstr "Finnde ɓooynde"
 
-#: app/scripts/templates/change_password.mustache:3
-#: app/scripts/templates/change_password.mustache:5
+#: app/scripts/templates/change_password.mustache:4
+#: app/scripts/templates/change_password.mustache:6
 #: app/scripts/templates/complete_reset_password.mustache:11
 #: app/scripts/templates/complete_reset_password.mustache:13
 #: app/scripts/templates/delete_account.mustache:4
@@ -331,19 +340,19 @@ msgstr "Finnde ɓooynde"
 msgid "Show"
 msgstr "Hollu"
 
-#: app/scripts/templates/change_password.mustache:4
+#: app/scripts/templates/change_password.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid "New password"
 msgstr "Finnde hesere"
 
-#: app/scripts/templates/change_password.mustache:7
-msgid "Change Password"
-msgstr "Waylu Finnde"
-
 #: app/scripts/templates/change_password.mustache:8
+msgid "Confirm"
+msgstr ""
+
+#: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/delete_account.mustache:6
 #: app/scripts/templates/pp.mustache:3
-#: app/scripts/templates/reset_password.mustache:5
+#: app/scripts/templates/reset_password.mustache:6
 #: app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Caggal"
@@ -390,7 +399,7 @@ msgid "Repeat password"
 msgstr "Naattin finnde"
 
 #: app/scripts/templates/complete_reset_password.mustache:15
-#: app/scripts/templates/reset_password.mustache:4
+#: app/scripts/templates/reset_password.mustache:5
 #: app/scripts/templates/sign_up.mustache:31
 msgid "Next"
 msgstr "Yeeso"
@@ -555,6 +564,12 @@ msgstr "Naatnu iimeel maa ngam firlitde &nbsp;finnde konte ɗee."
 msgid "Email"
 msgstr "Iimeel"
 
+#: app/scripts/templates/reset_password.mustache:4
+msgid ""
+"For security reasons, resetting your password will erase your Sync data from "
+"our servers. A new Sync backup will be created from your local browsing data."
+msgstr ""
+
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
 msgstr "Toppito konte"
@@ -600,6 +615,9 @@ msgstr "Suɓo ko sanngoɗintee"
 #: app/scripts/templates/sign_up.mustache:34
 msgid "Already have an account? Sign in."
 msgstr "Aɗa jogii konnte kisa? Seŋo."
+
+#~ msgid "Change Password"
+#~ msgstr "Waylu Finnde"
 
 #~ msgid "Invalid authentication token in request signature"
 #~ msgstr "Tokkunde goongɗitinal e siifannde ɗaɓɓitannde moƴƴaani"

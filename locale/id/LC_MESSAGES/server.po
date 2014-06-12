@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-06-03 15:19+0000\n"
+"POT-Creation-Date: 2014-06-10 21:45+0000\n"
 "PO-Revision-Date: 2014-05-07 21:30+0000\n"
 "Last-Translator: Romi <romihardiyanto@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,8 +39,7 @@ msgstr ""
 msgid "Home"
 msgstr "Beranda"
 
-#: server/templates/pages/src/500.html:2 server/lib/500.js:21
-#: server/lib/500.js:24
+#: server/templates/pages/src/500.html:2
 msgid "System unavailable, try again soon"
 msgstr "Sistem tidak tersedia, coba lagi nanti"
 

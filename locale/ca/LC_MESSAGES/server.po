@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-03 15:19+0000\n"
+"POT-Creation-Date: 2014-06-10 21:45+0000\n"
 "PO-Revision-Date: 2014-04-28 08:41+0000\n"
 "Last-Translator: Eduard <edu@eduard-gamonal.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,8 +40,7 @@ msgstr ""
 msgid "Home"
 msgstr "Inici"
 
-#: server/templates/pages/src/500.html:2 server/lib/500.js:21
-#: server/lib/500.js:24
+#: server/templates/pages/src/500.html:2
 msgid "System unavailable, try again soon"
 msgstr ""
 
