@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-10 21:45+0000\n"
-"PO-Revision-Date: 2014-06-06 10:03+0000\n"
+"PO-Revision-Date: 2014-06-12 23:53+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1402049001.0\n"
+"X-POOTLE-MTIME: 1402617230.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -122,7 +122,7 @@ msgstr "/force_auth 需要电子邮件地址"
 
 #: app/scripts/views/form.js:122
 msgid "Working…"
-msgstr ""
+msgstr "处理中…"
 
 #: app/scripts/views/form.js:443 app/scripts/lib/strings.js:18
 msgid "Valid email required"
@@ -315,12 +315,12 @@ msgstr "详细了解。"
 #: app/scripts/templates/change_password.mustache:1
 #: app/scripts/templates/settings.mustache:5
 msgid "Change password"
-msgstr "修改密码"
+msgstr "更改密码"
 
 #: app/scripts/templates/change_password.mustache:2
 msgid ""
 "Once you're ﬁnished, use your new password to sign in on all of your devices."
-msgstr ""
+msgstr "在您完成后，使用您的新密码登录您的所有设备。"
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -344,7 +344,7 @@ msgstr "新密码"
 
 #: app/scripts/templates/change_password.mustache:8
 msgid "Confirm"
-msgstr ""
+msgstr "确认"
 
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/delete_account.mustache:6
@@ -561,7 +561,7 @@ msgstr "电子邮件地址"
 msgid ""
 "For security reasons, resetting your password will erase your Sync data from "
 "our servers. A new Sync backup will be created from your local browsing data."
-msgstr ""
+msgstr "出于安全原因，重置您的密码将使我们清除在我们服务器上的您的“同步”数据。新的“同步”备份将根据您的本地浏览数据而创建。"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
