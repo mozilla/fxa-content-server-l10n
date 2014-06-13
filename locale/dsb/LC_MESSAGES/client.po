@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-10 21:45+0000\n"
-"PO-Revision-Date: 2014-06-05 07:24+0000\n"
+"PO-Revision-Date: 2014-06-13 20:41+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1401953077.0\n"
+"X-POOTLE-MTIME: 1402692117.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -125,7 +125,7 @@ msgstr "/force_auth trjeba e-mailowu adresu"
 
 #: app/scripts/views/form.js:122
 msgid "Working…"
-msgstr ""
+msgstr "Jo hyšći w źěle…"
 
 #: app/scripts/views/form.js:443 app/scripts/lib/strings.js:18
 msgid "Valid email required"
@@ -325,6 +325,8 @@ msgstr "Gronidło změniś"
 msgid ""
 "Once you're ﬁnished, use your new password to sign in on all of your devices."
 msgstr ""
+"Gaž sćo gótowy, wužyjśo swójo nowe gronidło, aby se na wšych swójich rědach "
+"pśizjawił."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -348,7 +350,7 @@ msgstr "Nowe gronidło"
 
 #: app/scripts/templates/change_password.mustache:8
 msgid "Confirm"
-msgstr ""
+msgstr "Wobkšuśiś"
 
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/delete_account.mustache:6
@@ -574,6 +576,8 @@ msgid ""
 "For security reasons, resetting your password will erase your Sync data from "
 "our servers. A new Sync backup will be created from your local browsing data."
 msgstr ""
+"Z wěstotnych pśicynow budu se wšykne waše synchronizaciske daty z našych "
+"serwerow lašowaś, gaž stajaśo swóje gronidło slědk."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
