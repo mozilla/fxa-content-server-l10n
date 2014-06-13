@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-10 21:45+0000\n"
-"PO-Revision-Date: 2014-06-05 01:47+0000\n"
+"PO-Revision-Date: 2014-06-13 03:40+0000\n"
 "Last-Translator: Cláudio <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1401932842.0\n"
+"X-POOTLE-MTIME: 1402630816.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -124,7 +124,7 @@ msgstr "/force_auth necessita de um email"
 
 #: app/scripts/views/form.js:122
 msgid "Working…"
-msgstr ""
+msgstr "A trabalhar…"
 
 #: app/scripts/views/form.js:443 app/scripts/lib/strings.js:18
 msgid "Valid email required"
@@ -323,6 +323,8 @@ msgstr "Alterar senha"
 msgid ""
 "Once you're ﬁnished, use your new password to sign in on all of your devices."
 msgstr ""
+"Quando terminar, utilize a sua nova senha para iniciar sessão em todos os "
+"seus dispositivos."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -346,7 +348,7 @@ msgstr "Nova senha"
 
 #: app/scripts/templates/change_password.mustache:8
 msgid "Confirm"
-msgstr ""
+msgstr "Confirmar"
 
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/delete_account.mustache:6
@@ -569,6 +571,9 @@ msgid ""
 "For security reasons, resetting your password will erase your Sync data from "
 "our servers. A new Sync backup will be created from your local browsing data."
 msgstr ""
+"Por questões de segurança, repor a sua senha irá eliminar os dados "
+"sincronizados dos nossos servidores. Uma nova cópia de segurança será criada "
+"a partir dos seus dados de navegação locais."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
