@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-06-10 21:45+0000\n"
-"PO-Revision-Date: 2014-06-03 22:46+0000\n"
+"PO-Revision-Date: 2014-06-15 04:11+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1401835590.0\n"
+"X-POOTLE-MTIME: 1402805477.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -123,7 +123,7 @@ msgstr "/force_auth vereist een e-mailadres"
 
 #: app/scripts/views/form.js:122
 msgid "Working…"
-msgstr ""
+msgstr "Bezig…"
 
 #: app/scripts/views/form.js:443 app/scripts/lib/strings.js:18
 msgid "Valid email required"
@@ -324,6 +324,8 @@ msgstr "Wachtwoord wijzigen"
 msgid ""
 "Once you're ﬁnished, use your new password to sign in on all of your devices."
 msgstr ""
+"Gebruik uw nieuwe wachtwoord voor het aanmelden op al uw apparaten zodra u "
+"klaar bent."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -347,7 +349,7 @@ msgstr "Nieuwe wachtwoord"
 
 #: app/scripts/templates/change_password.mustache:8
 msgid "Confirm"
-msgstr ""
+msgstr "Bevestigen"
 
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/delete_account.mustache:6
@@ -573,6 +575,9 @@ msgid ""
 "For security reasons, resetting your password will erase your Sync data from "
 "our servers. A new Sync backup will be created from your local browsing data."
 msgstr ""
+"Om beveiligingsredenen zal herinitialiseren van uw wachtwoord uw Sync-"
+"gegevens van onze servers wissen. Er zal een nieuwe Sync-reservekopie van uw "
+"lokale navigatiegegevens worden gemaakt."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
