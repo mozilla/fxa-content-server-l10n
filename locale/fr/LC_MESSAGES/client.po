@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-10 21:45+0000\n"
-"PO-Revision-Date: 2014-06-08 04:44+0000\n"
+"PO-Revision-Date: 2014-06-17 01:44+0000\n"
 "Last-Translator: Théo <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1402202678.0\n"
+"X-POOTLE-MTIME: 1402969469.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -324,6 +324,8 @@ msgstr "Modifier le mot de passe"
 msgid ""
 "Once you're ﬁnished, use your new password to sign in on all of your devices."
 msgstr ""
+"Une fois terminé, utilisez votre nouveau mot de passe pour vous connecter à "
+"tous vos appareils."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -347,7 +349,7 @@ msgstr "Nouveau mot de passe"
 
 #: app/scripts/templates/change_password.mustache:8
 msgid "Confirm"
-msgstr ""
+msgstr "Confirmer"
 
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/delete_account.mustache:6
@@ -571,6 +573,9 @@ msgid ""
 "For security reasons, resetting your password will erase your Sync data from "
 "our servers. A new Sync backup will be created from your local browsing data."
 msgstr ""
+"Pour des raisons de sécurité, réinitialiser votre mot de passe effacera vos "
+"données Sync de nos serveurs. Une nouvelle sauvegarde Sync sera créée depuis "
+"vos données de navigation locales."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
