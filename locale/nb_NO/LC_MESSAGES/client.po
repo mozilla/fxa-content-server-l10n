@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-10 21:45+0000\n"
-"PO-Revision-Date: 2014-06-19 23:10+0000\n"
+"PO-Revision-Date: 2014-06-20 10:48+0000\n"
 "Last-Translator: Håvar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1403219403.0\n"
+"X-POOTLE-MTIME: 1403261299.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -259,14 +259,12 @@ msgid "Incorrect redirect_uri"
 msgstr "Ugyldig redirect_uri"
 
 #: app/scripts/lib/oauth-errors.js:30
-#, fuzzy
 msgid "Invalid assertion"
-msgstr "Ugyldig passord"
+msgstr "Ugyldig påstand"
 
 #: app/scripts/lib/service-name.js:16
-#, fuzzy
 msgid "Firefox Sync"
-msgstr "Firefox-kontoer"
+msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:20
 msgid "Invalid password"
@@ -302,7 +300,7 @@ msgstr "Kan ikke koble til internett"
 
 #: app/scripts/lib/strings.js:34
 msgid "Subscribe to Firefox news and tips"
-msgstr ""
+msgstr "Abonner på nyheter og tips om Firefox"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -315,7 +313,7 @@ msgstr "Du må oppfylle visse alderskrav for å opprette en Firefox-konto."
 
 #: app/scripts/templates/cannot_create_account.mustache:3
 msgid "Learn more."
-msgstr "Lær mer."
+msgstr "Les mer."
 
 #: app/scripts/templates/change_password.mustache:1
 #: app/scripts/templates/settings.mustache:5
@@ -326,6 +324,8 @@ msgstr "Bytt passord"
 msgid ""
 "Once you're ﬁnished, use your new password to sign in on all of your devices."
 msgstr ""
+"Når du er ferdig, kan du bruke ditt nye passord for å logge på alle enhetene "
+"dine."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -349,7 +349,7 @@ msgstr "Nytt passord"
 
 #: app/scripts/templates/change_password.mustache:8
 msgid "Confirm"
-msgstr ""
+msgstr "Bekreft"
 
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/delete_account.mustache:6
@@ -361,7 +361,7 @@ msgstr "Tilbake"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Verification link expired"
-msgstr ""
+msgstr "Verifiseringslenken er utløpt"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/confirm.mustache:2
@@ -371,16 +371,16 @@ msgstr "E-post sendt på nytt"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
-msgstr ""
+msgstr "Linken du klikket på for å tilbakestille passordet ditt er utløpt."
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr ""
+msgstr "Klikk her for å motta en ny lenke for tilbakestilling"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Verifiseringslenken er skadet"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -388,6 +388,8 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
+"Linken du klikket på mangler noen tegn, og kan ha blitt skadet av "
+"e-postklienten. Kopier adressen nøye, og prøv igjen."
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
@@ -395,7 +397,6 @@ msgid "Reset password"
 msgstr "Tilbakestill passord"
 
 #: app/scripts/templates/complete_reset_password.mustache:12
-#, fuzzy
 msgid "Repeat password"
 msgstr "Gjenta passord"
 
@@ -406,9 +407,8 @@ msgid "Next"
 msgstr "Neste"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Verification error"
-msgstr "Ugyldig bekreftelseskode"
+msgstr "Bekreftelsesfeil"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -420,7 +420,6 @@ msgid "Email Sent"
 msgstr "E-post sent"
 
 #: app/scripts/templates/confirm.mustache:4
-#, fuzzy
 msgid "A verification link has been sent&nbsp;to %(email)s"
 msgstr "En bekreftelseslenke har blitt sendt&nbsp;til: %(email)s"
 
@@ -446,9 +445,8 @@ msgid "Sign in"
 msgstr "Logg inn"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-#, fuzzy
 msgid "Cookies required"
-msgstr "Gyldig e-post er nødvendig"
+msgstr "Cookies er nødvendig"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -456,15 +454,17 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
+"For å bruke Firefox-kontoer må du aktiver cookies i nettleseren din. Cookies "
+"er små biter av data som er lagret i nettleseren din, som gir "
+"funksjonalitet som å huske deg mellom øktene."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
-#, fuzzy
 msgid "Learn more"
-msgstr "Lær mer."
+msgstr "Les mer"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "Prøv igjen"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
@@ -514,7 +514,7 @@ msgstr "Firefox skytjenester"
 
 #: app/scripts/templates/legal.mustache:2
 msgid "Legal"
-msgstr ""
+msgstr "Juridisk"
 
 #: app/scripts/templates/legal.mustache:3 app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
@@ -526,7 +526,7 @@ msgstr "Personvernserklæring"
 
 #: app/scripts/templates/ready.mustache:1
 msgid "Signed in successfully"
-msgstr ""
+msgstr "Innloggingen var vellykket"
 
 #: app/scripts/templates/ready.mustache:3
 msgid "Account verified"
@@ -541,9 +541,8 @@ msgid "Success"
 msgstr "Suksess"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s"
-msgstr "Du er nå klar til å bruke %(serviceName)s."
+msgstr "Du er nå klar til å bruke %(serviceName)s"
 
 #: app/scripts/templates/ready.mustache:10
 msgid "Your account is ready!"
@@ -551,11 +550,11 @@ msgstr "Kontoen er klar!"
 
 #: app/scripts/templates/ready.mustache:11
 msgid "Stay in sync on the go:"
-msgstr ""
+msgstr "Hold deg synkronisert på farten:"
 
 #: app/scripts/templates/ready.mustache:12
 msgid "Get Firefox for Android"
-msgstr ""
+msgstr "Hent Firefox for Android"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
@@ -572,36 +571,35 @@ msgid ""
 "For security reasons, resetting your password will erase your Sync data from "
 "our servers. A new Sync backup will be created from your local browsing data."
 msgstr ""
+"Av sikkerhetsmessige grunner, vil tilbakestilling av passordet ditt slette "
+"dine Sync-data fra våre servere. En ny Sync-backup vil bli opprettet fra "
+"dine lokale nettleserdata."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
 msgstr "Behandle konto"
 
 #: app/scripts/templates/settings.mustache:2
-#, fuzzy
 msgid "You are signed in as"
-msgstr "Du er logget inn som: %(email)s"
+msgstr "Du er logget inn som"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"
 msgstr "Logg ut"
 
 #: app/scripts/templates/sign_in.mustache:1
-#, fuzzy
 msgid "Sign in to %(serviceName)s"
-msgstr "Du er nå klar til å bruke %(serviceName)s."
+msgstr "Logg inn på %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:10
 msgid "Create an account"
 msgstr "Opprett en konto"
 
 #: app/scripts/templates/sign_up.mustache:1
-#, fuzzy
 msgid "Create a Firefox Account for %(serviceName)s"
-msgstr "Opprett en Firefox-konto"
+msgstr "Opprett en Firefox-konto for %(serviceName)s"
 
 #: app/scripts/templates/sign_up.mustache:3
-#, fuzzy
 msgid "Create a Firefox Account"
 msgstr "Opprett en Firefox-konto"
 

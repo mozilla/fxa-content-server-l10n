@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-10 21:45+0000\n"
-"PO-Revision-Date: 2014-02-27 08:51+0000\n"
+"PO-Revision-Date: 2014-06-20 10:47+0000\n"
 "Last-Translator: Håvar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1393491081.0\n"
+"X-POOTLE-MTIME: 1403261248.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -25,38 +25,43 @@ msgstr "Firefox-kontoer"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "Siden ble ikke funnet"
 
 #: server/templates/pages/src/404.html:3
 msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
+"Den forespurte siden ble ikke funnet. Vi har blitt varslet, og vil fikse de "
+"lenker som ikke virker."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/503.html:4
 msgid "Home"
-msgstr ""
+msgstr "Hjem"
 
 #: server/templates/pages/src/500.html:2
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Systemet er utilgjengelig, prøv igjen senere"
 
 #: server/templates/pages/src/500.html:3
 msgid ""
 "We are currently performing some maintenance on the system, and will return "
 "momentarily."
 msgstr ""
+"Vi holder på å utføre noe vedlikehold på systemet, og kommer snart tilbake."
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Server opptatt, prøv igjen senere"
 
 #: server/templates/pages/src/503.html:3
 msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
+"Vi er for tiden under stor belastning og arbeider for at systemet så snart "
+"som mulig skal fungere normalt igjen."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
@@ -65,36 +70,36 @@ msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
+"Du bruker en <strong>utdatert</strong> nettleser. Prøv å <a "
+"href=\"http://browsehappy.com/\">oppgraderer nettleseren din</a> for å "
+"forbedre opplevelsen."
 
 #: server/templates/pages/src/index.html:3
-#, fuzzy
 msgid "Firefox Accounts requires JavaScript."
-msgstr "Firefox-kontoer"
+msgstr "Firefox-kontoer krever JavaScript."
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:5
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Personvernspolicy"
 
 #: server/templates/pages/src/privacy.html:4
 #: server/templates/pages/src/terms.html:4
-#, fuzzy
 msgid "Firefox cloud services"
-msgstr "Firefox-kontoer"
+msgstr "Firefox skytjenester"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:5
 msgid "Terms of Service"
-msgstr ""
+msgstr "Tjenestevilkår"
 
 #: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
 msgid "Are you sure?"
-msgstr ""
+msgstr "Er du sikker?"
 
 #: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
-#, fuzzy
 msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "En forespørsel om å tilbakestille passordet for %(email)s er foretatt."
+msgstr "Bekreft at du ønsker å tilbakestille passordet for %(email)s."
 
 #: server/templates/email/reset.html:4
 msgid "Reset password"
@@ -102,18 +107,20 @@ msgstr "Tilbakestill passord"
 
 #: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
 #: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
-#, fuzzy
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
-"Hvis du har mottatt denne e-posten ved en feil,  trenger du ikke å gjøre noe."
+"Dette er en automatisert e-postmelding; hvis du har mottatt denne e-posten "
+"ved en feil,  trenger du ikke å gjøre noe."
 
 #: server/templates/email/reset.html:6 server/templates/email/verify.html:6
 msgid ""
 "For more information, please visit <a href='https://support.mozilla."
 "org'>Mozilla Support</a>"
 msgstr ""
+"For mer informasjon, besøk <a href='https://support.mozilla.org'>Mozilla "
+"Support</a>"
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
@@ -121,17 +128,15 @@ msgstr "Tilbakestill passord:"
 
 #: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
-msgstr ""
+msgstr "For mer informasjon, besøk https://support.mozilla.org"
 
 #: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
 msgid "Congratulations!"
-msgstr ""
+msgstr "Gratulerer!"
 
 #: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
-#, fuzzy
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr ""
-"Gratulerer! %(email)s, du er sekunder unna å bekrefte din Firefox-konto."
+msgstr "%(email)s, du er et klikk unna fra å bekrefte din Firefox-konto."
 
 #: server/templates/email/verify.html:4
 msgid "Verify"
@@ -142,12 +147,10 @@ msgid "Verify:"
 msgstr "Bekreft:"
 
 #: server/lib/templates.js:63
-#, fuzzy
 msgid "Verify your account"
 msgstr "Bekreft din konto"
 
 #: server/lib/templates.js:68
-#, fuzzy
 msgid "Reset your password"
 msgstr "Tilbakestill passord"
 
