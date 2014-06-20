@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-10 21:45+0000\n"
-"PO-Revision-Date: 2014-06-20 10:48+0000\n"
+"PO-Revision-Date: 2014-06-20 10:50+0000\n"
 "Last-Translator: Håvar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1403261299.0\n"
+"X-POOTLE-MTIME: 1403261426.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -361,7 +361,7 @@ msgstr "Tilbake"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Verification link expired"
-msgstr "Verifiseringslenken er utløpt"
+msgstr "Bekreftelseslenken er utløpt"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/confirm.mustache:2
@@ -380,7 +380,7 @@ msgstr "Klikk her for å motta en ny lenke for tilbakestilling"
 #: app/scripts/templates/complete_reset_password.mustache:6
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link damaged"
-msgstr "Verifiseringslenken er skadet"
+msgstr "Bekreftelseslenken er skadet"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:2
