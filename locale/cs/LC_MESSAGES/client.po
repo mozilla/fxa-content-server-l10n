@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-06-10 21:45+0000\n"
-"PO-Revision-Date: 2014-05-14 07:57+0000\n"
+"PO-Revision-Date: 2014-06-22 10:56+0000\n"
 "Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1400054240.0\n"
+"X-POOTLE-MTIME: 1403434590.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -123,7 +123,7 @@ msgstr "/force_auth vyžaduje e-mail"
 
 #: app/scripts/views/form.js:122
 msgid "Working…"
-msgstr ""
+msgstr "Probíhá..."
 
 #: app/scripts/views/form.js:443 app/scripts/lib/strings.js:18
 msgid "Valid email required"
@@ -229,9 +229,8 @@ msgid "Request body too large"
 msgstr "Tělo požadavku je příliš velké"
 
 #: app/scripts/lib/auth-errors.js:63
-#, fuzzy
 msgid "Attempt limit exceeded"
-msgstr "Překročili jste počet pokusů"
+msgstr "Počet pokusů překročen"
 
 #: app/scripts/lib/auth-errors.js:64
 msgid "System unavailable, try again soon"
@@ -250,19 +249,16 @@ msgid "Session expired. Sign in to continue."
 msgstr "Relace vypršela. Pro pokračování se přihlaste."
 
 #: app/scripts/lib/oauth-errors.js:28
-#, fuzzy
 msgid "Unknown client"
-msgstr "Neznámý účet"
+msgstr "Neznámý klient"
 
 #: app/scripts/lib/oauth-errors.js:29
-#, fuzzy
 msgid "Incorrect redirect_uri"
-msgstr "Neplatný tvar e-mailu"
+msgstr "Chybné redirect_uri"
 
 #: app/scripts/lib/oauth-errors.js:30
-#, fuzzy
 msgid "Invalid assertion"
-msgstr "Neplatný token"
+msgstr "Chybné assertion"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -326,6 +322,8 @@ msgstr "Změnit heslo"
 msgid ""
 "Once you're ﬁnished, use your new password to sign in on all of your devices."
 msgstr ""
+"Jakmile budete hotovi, použijte své nové heslo pro přihlášení na všech svých "
+"zařízeních."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -349,7 +347,7 @@ msgstr "Nové heslo"
 
 #: app/scripts/templates/change_password.mustache:8
 msgid "Confirm"
-msgstr ""
+msgstr "Potvrzení"
 
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/delete_account.mustache:6
@@ -446,9 +444,8 @@ msgid "Sign in"
 msgstr "Přihlášení"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-#, fuzzy
 msgid "Cookies required"
-msgstr "Jsou vyžadovány povolené cookies"
+msgstr "Jsou vyžadovány cookies"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -542,9 +539,8 @@ msgid "Success"
 msgstr "Úspěch"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s"
-msgstr "Nyní můžete využívat %(serviceName)s."
+msgstr "Nyní můžete používat %(serviceName)s."
 
 #: app/scripts/templates/ready.mustache:10
 msgid "Your account is ready!"
@@ -573,6 +569,9 @@ msgid ""
 "For security reasons, resetting your password will erase your Sync data from "
 "our servers. A new Sync backup will be created from your local browsing data."
 msgstr ""
+"Z bezpečnostních důvodů obnovení hesla vymaže data synchronizace z našich "
+"serverů. Bude vytvořena nová záloha Sync na základě vašich lokálních dat o "
+"prohlížení."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
@@ -587,18 +586,16 @@ msgid "Sign out"
 msgstr "Odhlášení"
 
 #: app/scripts/templates/sign_in.mustache:1
-#, fuzzy
 msgid "Sign in to %(serviceName)s"
-msgstr "Nyní můžete využívat %(serviceName)s."
+msgstr "Přihlášení k %(serviceName)s."
 
 #: app/scripts/templates/sign_in.mustache:10
 msgid "Create an account"
 msgstr "Vytvořit účet"
 
 #: app/scripts/templates/sign_up.mustache:1
-#, fuzzy
 msgid "Create a Firefox Account for %(serviceName)s"
-msgstr "Vytvořit Firefox Account"
+msgstr "Vytvoření Firefox Account pro %(serviceName)s"
 
 #: app/scripts/templates/sign_up.mustache:3
 msgid "Create a Firefox Account"
