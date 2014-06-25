@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-10 21:45+0000\n"
+"POT-Creation-Date: 2014-06-25 01:36+0000\n"
 "PO-Revision-Date: 2014-04-28 08:37+0000\n"
 "Last-Translator: Eduard <edu@eduard-gamonal.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,70 +82,50 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/base.js:487
+#: app/scripts/views/base.js:494
 msgid "missing search parameter: %(itemName)s"
 msgstr ""
 
-#: app/scripts/views/change_password.js:50
-msgid "Your new password must be different"
-msgstr "La contrasenya nova ha de ser diferent"
-
-#: app/scripts/views/change_password.js:59
+#: app/scripts/views/change_password.js:66
 msgid "Password changed"
 msgstr "Contrasenya canviada."
 
-#: app/scripts/views/change_password.js:63
+#: app/scripts/views/change_password.js:70
 msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
 msgstr ""
 
-#: app/scripts/views/complete_reset_password.js:94
-msgid "Passwords do not match"
-msgstr "Les contrasenyes no coincideixen"
-
-#: app/scripts/views/confirm_reset_password.js:75
+#: app/scripts/views/confirm_reset_password.js:68
 #, fuzzy
 msgid "Password reset. Sign in to continue."
 msgstr "Inicieu la sessió per a continuar"
-
-#: app/scripts/views/cookies_disabled.js:34
-msgid "Cookies are still disabled"
-msgstr ""
 
 #: app/scripts/views/delete_account.js:45
 #, fuzzy
 msgid "Account deleted successfully"
 msgstr "S'ha iniciat la sessió correctament"
 
-#: app/scripts/views/force_auth.js:42
+#: app/scripts/views/force_auth.js:45
 msgid "/force_auth requires an email"
 msgstr "/force_auth necessita una adreça electrònica"
 
-#: app/scripts/views/form.js:122
-msgid "Working…"
-msgstr ""
-
-#: app/scripts/views/form.js:443 app/scripts/lib/strings.js:18
+#: app/scripts/views/form.js:433 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "El camp d'adreça electrònica és obligatori"
 
-#: app/scripts/views/form.js:485 app/scripts/lib/strings.js:23
+#: app/scripts/views/form.js:475 app/scripts/lib/strings.js:23
 #: app/scripts/templates/change_password.mustache:7
 #: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/sign_up.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "Ha de tenir com a mínim 8 caràcters"
 
-#: app/scripts/views/form.js:486 app/scripts/lib/strings.js:19
+#: app/scripts/views/form.js:476 app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr "El camp de contrasenya és obligatori"
 
-#: app/scripts/views/pp.js:41
-msgid "Could not get Privacy Notice"
-msgstr "No s'ha pogut obtenir l'avís de privadesa"
-
-#: app/scripts/views/reset_password.js:76 app/scripts/views/sign_in.js:110
+#: app/scripts/views/reset_password.js:77 app/scripts/views/sign_in.js:109
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "El compte és desconegut: <a href=\"/signup\">Registreu-vos</a>"
 
@@ -154,105 +134,125 @@ msgstr "El compte és desconegut: <a href=\"/signup\">Registreu-vos</a>"
 msgid "Signed out"
 msgstr "Finalitza la sessió"
 
-#: app/scripts/views/sign_up.js:111 app/scripts/lib/strings.js:24
+#: app/scripts/views/sign_up.js:121 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "El camp de l'any de naixement és obligatori"
 
-#: app/scripts/views/sign_up.js:185
+#: app/scripts/views/sign_up.js:195
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Ja existeix el compte. <a href=\"/signin\">Inicia la sessió</a>"
 
-#: app/scripts/views/tos.js:41
-msgid "Could not get Terms of Service"
-msgstr "No s'han pogut obtenir les condicions del servei"
-
-#: app/scripts/lib/auth-errors.js:47 app/scripts/lib/oauth-errors.js:27
+#: app/scripts/lib/auth-errors.js:54 app/scripts/lib/oauth-errors.js:27
 msgid "Unexpected error"
 msgstr "Error inesperat."
 
-#: app/scripts/lib/auth-errors.js:48
+#: app/scripts/lib/auth-errors.js:55
 #, fuzzy
 msgid "Invalid token"
 msgstr "La contrasenya no és vàlida."
 
-#: app/scripts/lib/auth-errors.js:49
+#: app/scripts/lib/auth-errors.js:56
 msgid "Invalid timestamp in request signature"
 msgstr "La marca horària no és vàlida en la signatura de la sol·licitud"
 
-#: app/scripts/lib/auth-errors.js:50
+#: app/scripts/lib/auth-errors.js:57
 msgid "Invalid nonce in request signature"
 msgstr ""
 "El valor de seguretat «nonce» no és vàlid en la signatura de la sol·licitud"
 
-#: app/scripts/lib/auth-errors.js:51 app/scripts/lib/strings.js:25
+#: app/scripts/lib/auth-errors.js:58 app/scripts/lib/strings.js:25
 msgid "Account already exists"
 msgstr "Aquest compte ja existeix."
 
-#: app/scripts/lib/auth-errors.js:52
+#: app/scripts/lib/auth-errors.js:59
 msgid "Unknown account"
 msgstr "El compte és desconegut"
 
-#: app/scripts/lib/auth-errors.js:53
+#: app/scripts/lib/auth-errors.js:60
 msgid "Incorrect email case"
 msgstr "El format de l'adreça electrònica és incorrecte"
 
-#: app/scripts/lib/auth-errors.js:54
+#: app/scripts/lib/auth-errors.js:61
 msgid "Incorrect password"
 msgstr "Contrasenya incorrecta"
 
-#: app/scripts/lib/auth-errors.js:55
+#: app/scripts/lib/auth-errors.js:62
 msgid "Unverified account"
 msgstr "El compte no està verificat"
 
-#: app/scripts/lib/auth-errors.js:56
+#: app/scripts/lib/auth-errors.js:63
 msgid "Invalid verification code"
 msgstr "El codi de verificació no és vàlid"
 
-#: app/scripts/lib/auth-errors.js:57
+#: app/scripts/lib/auth-errors.js:64
 msgid "Invalid JSON in request body"
 msgstr "El JSON en el cos de la sol·licitud no és vàlid"
 
-#: app/scripts/lib/auth-errors.js:58 app/scripts/lib/oauth-errors.js:31
+#: app/scripts/lib/auth-errors.js:65 app/scripts/lib/oauth-errors.js:31
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "El paràmetre no és vàlid en el cos de la sol·licitud: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:59
+#: app/scripts/lib/auth-errors.js:66
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Falta un paràmetre en el cos de la sol·licitud: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:60 app/scripts/lib/oauth-errors.js:32
+#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:32
 msgid "Invalid request signature"
 msgstr "La signatura de la sol·licitud no és vàlida"
 
-#: app/scripts/lib/auth-errors.js:61
+#: app/scripts/lib/auth-errors.js:68
 msgid "Missing content-length header"
 msgstr "Falta la capçalera «content-length»"
 
-#: app/scripts/lib/auth-errors.js:62
+#: app/scripts/lib/auth-errors.js:69
 msgid "Request body too large"
 msgstr "El cos de la sol·licitud és massa gran"
 
-#: app/scripts/lib/auth-errors.js:63
+#: app/scripts/lib/auth-errors.js:70
 #, fuzzy
 msgid "Attempt limit exceeded"
 msgstr "S'ha excedit el límit d'intents. Proveu-ho de nou més tard."
 
-#: app/scripts/lib/auth-errors.js:64
+#: app/scripts/lib/auth-errors.js:71
 msgid "System unavailable, try again soon"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:65
+#: app/scripts/lib/auth-errors.js:72
 msgid "Server busy, try again soon"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:66
+#: app/scripts/lib/auth-errors.js:73
 msgid "This endpoint is no longer supported"
 msgstr "Aquest extrem ja no s'admet"
 
-#: app/scripts/lib/auth-errors.js:69
+#: app/scripts/lib/auth-errors.js:76
 #, fuzzy
 msgid "Session expired. Sign in to continue."
 msgstr "Inicieu la sessió per a continuar"
+
+#: app/scripts/lib/auth-errors.js:77
+msgid "Cookies are still disabled"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:78
+msgid "Passwords do not match"
+msgstr "Les contrasenyes no coincideixen"
+
+#: app/scripts/lib/auth-errors.js:79
+msgid "Working…"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:80
+msgid "Could not get Privacy Notice"
+msgstr "No s'ha pogut obtenir l'avís de privadesa"
+
+#: app/scripts/lib/auth-errors.js:81
+msgid "Could not get Terms of Service"
+msgstr "No s'han pogut obtenir les condicions del servei"
+
+#: app/scripts/lib/auth-errors.js:82
+msgid "Your new password must be different"
+msgstr "La contrasenya nova ha de ser diferent"
 
 #: app/scripts/lib/oauth-errors.js:28
 #, fuzzy
@@ -366,10 +366,12 @@ msgid "Back"
 msgstr "Enrere"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
-msgid "Verification link expired"
-msgstr ""
+#, fuzzy
+msgid "Reset password link expired"
+msgstr "Reinicia la contrasenya"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
+#: app/scripts/templates/complete_sign_up.mustache:2
 #: app/scripts/templates/confirm.mustache:2
 #: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email resent"
@@ -384,12 +386,12 @@ msgid "Click here to receive a new reset link"
 msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:6
-#: app/scripts/templates/complete_sign_up.mustache:1
-msgid "Verification link damaged"
-msgstr ""
+#, fuzzy
+msgid "Reset password link damaged"
+msgstr "Reinicia la contrasenya"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
-#: app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/templates/complete_sign_up.mustache:8
 msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
@@ -410,7 +412,23 @@ msgstr "Repetiu la contrasenya"
 msgid "Next"
 msgstr "Següent"
 
+#: app/scripts/templates/complete_sign_up.mustache:1
+msgid "Verification link expired"
+msgstr ""
+
+#: app/scripts/templates/complete_sign_up.mustache:3
+msgid "The link you clicked to verify your email is expired."
+msgstr ""
+
 #: app/scripts/templates/complete_sign_up.mustache:4
+msgid "Click here to receive a new verification link"
+msgstr ""
+
+#: app/scripts/templates/complete_sign_up.mustache:7
+msgid "Verification link damaged"
+msgstr ""
+
+#: app/scripts/templates/complete_sign_up.mustache:10
 #, fuzzy
 msgid "Verification error"
 msgstr "El codi de verificació no és vàlid"

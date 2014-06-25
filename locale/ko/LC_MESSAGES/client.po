@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-06-10 21:45+0000\n"
+"POT-Creation-Date: 2014-06-25 01:36+0000\n"
 "PO-Revision-Date: 2014-06-07 09:42+0000\n"
 "Last-Translator: Hyeonseok <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,19 +81,15 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/base.js:487
+#: app/scripts/views/base.js:494
 msgid "missing search parameter: %(itemName)s"
 msgstr "검색 파라메터 없음: %(itemName)s"
 
-#: app/scripts/views/change_password.js:50
-msgid "Your new password must be different"
-msgstr "새 암호는 이전 것과 달라야 함"
-
-#: app/scripts/views/change_password.js:59
+#: app/scripts/views/change_password.js:66
 msgid "Password changed"
 msgstr "암호 변경됨"
 
-#: app/scripts/views/change_password.js:63
+#: app/scripts/views/change_password.js:70
 msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
@@ -101,50 +97,34 @@ msgstr ""
 "확인되지 않은 계정입니다. <a href=\"#\" id=\"resend\">확인 이메일 다시 보내기"
 "</a>."
 
-#: app/scripts/views/complete_reset_password.js:94
-msgid "Passwords do not match"
-msgstr "암호가 일치하지 않음"
-
-#: app/scripts/views/confirm_reset_password.js:75
+#: app/scripts/views/confirm_reset_password.js:68
 msgid "Password reset. Sign in to continue."
 msgstr "비밀번호가 초기화 되었습니다. 계속하려면 로그인해 주세요."
-
-#: app/scripts/views/cookies_disabled.js:34
-msgid "Cookies are still disabled"
-msgstr "쿠키가 여전히 꺼져있음"
 
 #: app/scripts/views/delete_account.js:45
 msgid "Account deleted successfully"
 msgstr "계정이 성공적으로 삭제됨"
 
-#: app/scripts/views/force_auth.js:42
+#: app/scripts/views/force_auth.js:45
 msgid "/force_auth requires an email"
 msgstr "/force_auth는 이메일이 필요함"
 
-#: app/scripts/views/form.js:122
-msgid "Working…"
-msgstr ""
-
-#: app/scripts/views/form.js:443 app/scripts/lib/strings.js:18
+#: app/scripts/views/form.js:433 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "올바른 이메일을 입력이 필요함"
 
-#: app/scripts/views/form.js:485 app/scripts/lib/strings.js:23
+#: app/scripts/views/form.js:475 app/scripts/lib/strings.js:23
 #: app/scripts/templates/change_password.mustache:7
 #: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/sign_up.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "적어도 8글자 이상이 필요함"
 
-#: app/scripts/views/form.js:486 app/scripts/lib/strings.js:19
+#: app/scripts/views/form.js:476 app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr "올바른 암호 입력이 필요함"
 
-#: app/scripts/views/pp.js:41
-msgid "Could not get Privacy Notice"
-msgstr "개인 정보 보호 정책 없음"
-
-#: app/scripts/views/reset_password.js:76 app/scripts/views/sign_in.js:110
+#: app/scripts/views/reset_password.js:77 app/scripts/views/sign_in.js:109
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "잘못된 계정입니다. <a href=\"/signup\">회원가입</a>"
 
@@ -152,101 +132,121 @@ msgstr "잘못된 계정입니다. <a href=\"/signup\">회원가입</a>"
 msgid "Signed out"
 msgstr "로그 아웃"
 
-#: app/scripts/views/sign_up.js:111 app/scripts/lib/strings.js:24
+#: app/scripts/views/sign_up.js:121 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "생년월일이 필요함"
 
-#: app/scripts/views/sign_up.js:185
+#: app/scripts/views/sign_up.js:195
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "존재하고 있는 계정입니다. <a href=\"/signin\">회원가입</a>"
 
-#: app/scripts/views/tos.js:41
-msgid "Could not get Terms of Service"
-msgstr "서비스 약관 없음"
-
-#: app/scripts/lib/auth-errors.js:47 app/scripts/lib/oauth-errors.js:27
+#: app/scripts/lib/auth-errors.js:54 app/scripts/lib/oauth-errors.js:27
 msgid "Unexpected error"
 msgstr "알수없는 에러"
 
-#: app/scripts/lib/auth-errors.js:48
+#: app/scripts/lib/auth-errors.js:55
 msgid "Invalid token"
 msgstr "잘못된 토큰"
 
-#: app/scripts/lib/auth-errors.js:49
+#: app/scripts/lib/auth-errors.js:56
 msgid "Invalid timestamp in request signature"
 msgstr "요청 서명에 잘못된 타임스탬프"
 
-#: app/scripts/lib/auth-errors.js:50
+#: app/scripts/lib/auth-errors.js:57
 msgid "Invalid nonce in request signature"
 msgstr "요청 서명이 유효하지 않음"
 
-#: app/scripts/lib/auth-errors.js:51 app/scripts/lib/strings.js:25
+#: app/scripts/lib/auth-errors.js:58 app/scripts/lib/strings.js:25
 msgid "Account already exists"
 msgstr "계정이 이미 존재함"
 
-#: app/scripts/lib/auth-errors.js:52
+#: app/scripts/lib/auth-errors.js:59
 msgid "Unknown account"
 msgstr "알 수 없는 계정"
 
-#: app/scripts/lib/auth-errors.js:53
+#: app/scripts/lib/auth-errors.js:60
 msgid "Incorrect email case"
 msgstr "잘못된 이메일"
 
-#: app/scripts/lib/auth-errors.js:54
+#: app/scripts/lib/auth-errors.js:61
 msgid "Incorrect password"
 msgstr "맞지 않는 암호"
 
-#: app/scripts/lib/auth-errors.js:55
+#: app/scripts/lib/auth-errors.js:62
 msgid "Unverified account"
 msgstr "확인되지 않은 계정"
 
-#: app/scripts/lib/auth-errors.js:56
+#: app/scripts/lib/auth-errors.js:63
 msgid "Invalid verification code"
 msgstr "잘못된 인증 코드"
 
-#: app/scripts/lib/auth-errors.js:57
+#: app/scripts/lib/auth-errors.js:64
 msgid "Invalid JSON in request body"
 msgstr "요청 본문에 잘못된 JSON"
 
-#: app/scripts/lib/auth-errors.js:58 app/scripts/lib/oauth-errors.js:31
+#: app/scripts/lib/auth-errors.js:65 app/scripts/lib/oauth-errors.js:31
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "요청 본문에 잘못된 파라미터: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:59
+#: app/scripts/lib/auth-errors.js:66
 msgid "Missing parameter in request body: %(param)s"
 msgstr "요청 본문에 누락한 파라미터: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:60 app/scripts/lib/oauth-errors.js:32
+#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:32
 msgid "Invalid request signature"
 msgstr "잘못된 요청 서명"
 
-#: app/scripts/lib/auth-errors.js:61
+#: app/scripts/lib/auth-errors.js:68
 msgid "Missing content-length header"
 msgstr "누락된 content-length 헤더"
 
-#: app/scripts/lib/auth-errors.js:62
+#: app/scripts/lib/auth-errors.js:69
 msgid "Request body too large"
 msgstr "요청 본문이 너무 큼"
 
-#: app/scripts/lib/auth-errors.js:63
+#: app/scripts/lib/auth-errors.js:70
 msgid "Attempt limit exceeded"
 msgstr "재시도 횟수 초과"
 
-#: app/scripts/lib/auth-errors.js:64
+#: app/scripts/lib/auth-errors.js:71
 msgid "System unavailable, try again soon"
 msgstr "시스템 오류입니다, 잠시 후에 다시 시도해 주세요."
 
-#: app/scripts/lib/auth-errors.js:65
+#: app/scripts/lib/auth-errors.js:72
 msgid "Server busy, try again soon"
 msgstr "서버가 응답하지 않습니다, 잠시 후에 다시 시도해 주세요."
 
-#: app/scripts/lib/auth-errors.js:66
+#: app/scripts/lib/auth-errors.js:73
 msgid "This endpoint is no longer supported"
 msgstr "더 이상 지원하지 않음"
 
-#: app/scripts/lib/auth-errors.js:69
+#: app/scripts/lib/auth-errors.js:76
 msgid "Session expired. Sign in to continue."
 msgstr "세션이 만료되었습니다. 계속하려면 로그인해 주세요."
+
+#: app/scripts/lib/auth-errors.js:77
+msgid "Cookies are still disabled"
+msgstr "쿠키가 여전히 꺼져있음"
+
+#: app/scripts/lib/auth-errors.js:78
+msgid "Passwords do not match"
+msgstr "암호가 일치하지 않음"
+
+#: app/scripts/lib/auth-errors.js:79
+msgid "Working…"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:80
+msgid "Could not get Privacy Notice"
+msgstr "개인 정보 보호 정책 없음"
+
+#: app/scripts/lib/auth-errors.js:81
+msgid "Could not get Terms of Service"
+msgstr "서비스 약관 없음"
+
+#: app/scripts/lib/auth-errors.js:82
+msgid "Your new password must be different"
+msgstr "새 암호는 이전 것과 달라야 함"
 
 #: app/scripts/lib/oauth-errors.js:28
 msgid "Unknown client"
@@ -356,10 +356,12 @@ msgid "Back"
 msgstr "뒤로"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
-msgid "Verification link expired"
-msgstr "확인 링크가 만료됨"
+#, fuzzy
+msgid "Reset password link expired"
+msgstr "암호 초기화"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
+#: app/scripts/templates/complete_sign_up.mustache:2
 #: app/scripts/templates/confirm.mustache:2
 #: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email resent"
@@ -374,12 +376,12 @@ msgid "Click here to receive a new reset link"
 msgstr "새로운 초기화 링크 생성"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
-#: app/scripts/templates/complete_sign_up.mustache:1
-msgid "Verification link damaged"
-msgstr "확인 링크가 손상됨"
+#, fuzzy
+msgid "Reset password link damaged"
+msgstr "암호 초기화"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
-#: app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/templates/complete_sign_up.mustache:8
 msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
@@ -402,7 +404,25 @@ msgstr "암호 재입력"
 msgid "Next"
 msgstr "다음"
 
+#: app/scripts/templates/complete_sign_up.mustache:1
+msgid "Verification link expired"
+msgstr "확인 링크가 만료됨"
+
+#: app/scripts/templates/complete_sign_up.mustache:3
+#, fuzzy
+msgid "The link you clicked to verify your email is expired."
+msgstr "비밀번호를 초기화하기 위한 링크가 만료되었습니다."
+
 #: app/scripts/templates/complete_sign_up.mustache:4
+#, fuzzy
+msgid "Click here to receive a new verification link"
+msgstr "새로운 초기화 링크 생성"
+
+#: app/scripts/templates/complete_sign_up.mustache:7
+msgid "Verification link damaged"
+msgstr "확인 링크가 손상됨"
+
+#: app/scripts/templates/complete_sign_up.mustache:10
 msgid "Verification error"
 msgstr "확인 오류"
 
