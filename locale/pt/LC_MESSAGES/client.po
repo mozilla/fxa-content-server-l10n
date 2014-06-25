@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-10 21:45+0000\n"
+"POT-Creation-Date: 2014-06-25 01:36+0000\n"
 "PO-Revision-Date: 2014-06-13 03:40+0000\n"
 "Last-Translator: Cláudio <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,19 +82,15 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/base.js:487
+#: app/scripts/views/base.js:494
 msgid "missing search parameter: %(itemName)s"
 msgstr "parâmetro de pesquisa em falta: %(itemName)s"
 
-#: app/scripts/views/change_password.js:50
-msgid "Your new password must be different"
-msgstr "A sua nova senha deve ser diferente"
-
-#: app/scripts/views/change_password.js:59
+#: app/scripts/views/change_password.js:66
 msgid "Password changed"
 msgstr "Senha alterada"
 
-#: app/scripts/views/change_password.js:63
+#: app/scripts/views/change_password.js:70
 msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
@@ -102,50 +98,34 @@ msgstr ""
 "Conta não verificada. <a href=\"#\" id=\"resend\">Reenviar email de "
 "verificação</a>."
 
-#: app/scripts/views/complete_reset_password.js:94
-msgid "Passwords do not match"
-msgstr "A senhas não coincidem"
-
-#: app/scripts/views/confirm_reset_password.js:75
+#: app/scripts/views/confirm_reset_password.js:68
 msgid "Password reset. Sign in to continue."
 msgstr "Reposição de senha. Inicie sessão para continuar."
-
-#: app/scripts/views/cookies_disabled.js:34
-msgid "Cookies are still disabled"
-msgstr "As cookies ainda estão desativadas"
 
 #: app/scripts/views/delete_account.js:45
 msgid "Account deleted successfully"
 msgstr "Conta eliminada com sucesso"
 
-#: app/scripts/views/force_auth.js:42
+#: app/scripts/views/force_auth.js:45
 msgid "/force_auth requires an email"
 msgstr "/force_auth necessita de um email"
 
-#: app/scripts/views/form.js:122
-msgid "Working…"
-msgstr "A trabalhar…"
-
-#: app/scripts/views/form.js:443 app/scripts/lib/strings.js:18
+#: app/scripts/views/form.js:433 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "É necessário um endereço de email válido"
 
-#: app/scripts/views/form.js:485 app/scripts/lib/strings.js:23
+#: app/scripts/views/form.js:475 app/scripts/lib/strings.js:23
 #: app/scripts/templates/change_password.mustache:7
 #: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/sign_up.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "Deve ter pelo menos 8 caracteres"
 
-#: app/scripts/views/form.js:486 app/scripts/lib/strings.js:19
+#: app/scripts/views/form.js:476 app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr "É necessário uma senha válida"
 
-#: app/scripts/views/pp.js:41
-msgid "Could not get Privacy Notice"
-msgstr "Não foi possível obter a Política de Privacidade"
-
-#: app/scripts/views/reset_password.js:76 app/scripts/views/sign_in.js:110
+#: app/scripts/views/reset_password.js:77 app/scripts/views/sign_in.js:109
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Conta desconhecida. <a href=\"/signup\">Registrar</a>"
 
@@ -153,101 +133,121 @@ msgstr "Conta desconhecida. <a href=\"/signup\">Registrar</a>"
 msgid "Signed out"
 msgstr "Sessão terminada"
 
-#: app/scripts/views/sign_up.js:111 app/scripts/lib/strings.js:24
+#: app/scripts/views/sign_up.js:121 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "É necessário o ano de nascimento"
 
-#: app/scripts/views/sign_up.js:185
+#: app/scripts/views/sign_up.js:195
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "A conta já existe. <a href=\"/signin\">Entrar</a>"
 
-#: app/scripts/views/tos.js:41
-msgid "Could not get Terms of Service"
-msgstr "Não foi possível obter os Termos do Serviço"
-
-#: app/scripts/lib/auth-errors.js:47 app/scripts/lib/oauth-errors.js:27
+#: app/scripts/lib/auth-errors.js:54 app/scripts/lib/oauth-errors.js:27
 msgid "Unexpected error"
 msgstr "Erro inesperado"
 
-#: app/scripts/lib/auth-errors.js:48
+#: app/scripts/lib/auth-errors.js:55
 msgid "Invalid token"
 msgstr "Token inválido"
 
-#: app/scripts/lib/auth-errors.js:49
+#: app/scripts/lib/auth-errors.js:56
 msgid "Invalid timestamp in request signature"
 msgstr "Timestamp inválido na assinatura do pedido"
 
-#: app/scripts/lib/auth-errors.js:50
+#: app/scripts/lib/auth-errors.js:57
 msgid "Invalid nonce in request signature"
 msgstr "Valor de segurança inválido na assinatura do pedido"
 
-#: app/scripts/lib/auth-errors.js:51 app/scripts/lib/strings.js:25
+#: app/scripts/lib/auth-errors.js:58 app/scripts/lib/strings.js:25
 msgid "Account already exists"
 msgstr "A conta já existe"
 
-#: app/scripts/lib/auth-errors.js:52
+#: app/scripts/lib/auth-errors.js:59
 msgid "Unknown account"
 msgstr "Conta desconhecida"
 
-#: app/scripts/lib/auth-errors.js:53
+#: app/scripts/lib/auth-errors.js:60
 msgid "Incorrect email case"
 msgstr "Endereço de correio incorreto"
 
-#: app/scripts/lib/auth-errors.js:54
+#: app/scripts/lib/auth-errors.js:61
 msgid "Incorrect password"
 msgstr "Senha incorreta"
 
-#: app/scripts/lib/auth-errors.js:55
+#: app/scripts/lib/auth-errors.js:62
 msgid "Unverified account"
 msgstr "Conta não verificada"
 
-#: app/scripts/lib/auth-errors.js:56
+#: app/scripts/lib/auth-errors.js:63
 msgid "Invalid verification code"
 msgstr "Código de verificação inválido"
 
-#: app/scripts/lib/auth-errors.js:57
+#: app/scripts/lib/auth-errors.js:64
 msgid "Invalid JSON in request body"
 msgstr "JSON inválido no corpo do pedido"
 
-#: app/scripts/lib/auth-errors.js:58 app/scripts/lib/oauth-errors.js:31
+#: app/scripts/lib/auth-errors.js:65 app/scripts/lib/oauth-errors.js:31
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Parâmetro inválido no corpo do pedido: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:59
+#: app/scripts/lib/auth-errors.js:66
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Parâmetro em falta no corpo do pedido: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:60 app/scripts/lib/oauth-errors.js:32
+#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:32
 msgid "Invalid request signature"
 msgstr "Assinatura do pedido inválida"
 
-#: app/scripts/lib/auth-errors.js:61
+#: app/scripts/lib/auth-errors.js:68
 msgid "Missing content-length header"
 msgstr "Cabeçalho content-length em falta"
 
-#: app/scripts/lib/auth-errors.js:62
+#: app/scripts/lib/auth-errors.js:69
 msgid "Request body too large"
 msgstr "Corpo do pedido muito extenso"
 
-#: app/scripts/lib/auth-errors.js:63
+#: app/scripts/lib/auth-errors.js:70
 msgid "Attempt limit exceeded"
 msgstr "Limite de tentativas excedido"
 
-#: app/scripts/lib/auth-errors.js:64
+#: app/scripts/lib/auth-errors.js:71
 msgid "System unavailable, try again soon"
 msgstr "Sistema não disponível, tente novamente em breve"
 
-#: app/scripts/lib/auth-errors.js:65
+#: app/scripts/lib/auth-errors.js:72
 msgid "Server busy, try again soon"
 msgstr "Servidor ocupado, tente novamente em breve"
 
-#: app/scripts/lib/auth-errors.js:66
+#: app/scripts/lib/auth-errors.js:73
 msgid "This endpoint is no longer supported"
 msgstr "Este endpoint não é mais suportado"
 
-#: app/scripts/lib/auth-errors.js:69
+#: app/scripts/lib/auth-errors.js:76
 msgid "Session expired. Sign in to continue."
 msgstr "A sessão expirou. Inicie sessão para continuar."
+
+#: app/scripts/lib/auth-errors.js:77
+msgid "Cookies are still disabled"
+msgstr "As cookies ainda estão desativadas"
+
+#: app/scripts/lib/auth-errors.js:78
+msgid "Passwords do not match"
+msgstr "A senhas não coincidem"
+
+#: app/scripts/lib/auth-errors.js:79
+msgid "Working…"
+msgstr "A trabalhar…"
+
+#: app/scripts/lib/auth-errors.js:80
+msgid "Could not get Privacy Notice"
+msgstr "Não foi possível obter a Política de Privacidade"
+
+#: app/scripts/lib/auth-errors.js:81
+msgid "Could not get Terms of Service"
+msgstr "Não foi possível obter os Termos do Serviço"
+
+#: app/scripts/lib/auth-errors.js:82
+msgid "Your new password must be different"
+msgstr "A sua nova senha deve ser diferente"
 
 #: app/scripts/lib/oauth-errors.js:28
 msgid "Unknown client"
@@ -359,10 +359,12 @@ msgid "Back"
 msgstr "Voltar"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
-msgid "Verification link expired"
-msgstr "A ligação de verificação expirou"
+#, fuzzy
+msgid "Reset password link expired"
+msgstr "Repor senha"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
+#: app/scripts/templates/complete_sign_up.mustache:2
 #: app/scripts/templates/confirm.mustache:2
 #: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email resent"
@@ -377,12 +379,12 @@ msgid "Click here to receive a new reset link"
 msgstr "Clique aqui para receber uma nova ligação de reposição"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
-#: app/scripts/templates/complete_sign_up.mustache:1
-msgid "Verification link damaged"
-msgstr "Ligação de verificação danificada"
+#, fuzzy
+msgid "Reset password link damaged"
+msgstr "Repor senha"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
-#: app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/templates/complete_sign_up.mustache:8
 msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
@@ -405,7 +407,25 @@ msgstr "Repetir senha"
 msgid "Next"
 msgstr "Próximo"
 
+#: app/scripts/templates/complete_sign_up.mustache:1
+msgid "Verification link expired"
+msgstr "A ligação de verificação expirou"
+
+#: app/scripts/templates/complete_sign_up.mustache:3
+#, fuzzy
+msgid "The link you clicked to verify your email is expired."
+msgstr "A ligação que clicou para repor a sua senha expirou."
+
 #: app/scripts/templates/complete_sign_up.mustache:4
+#, fuzzy
+msgid "Click here to receive a new verification link"
+msgstr "Clique aqui para receber uma nova ligação de reposição"
+
+#: app/scripts/templates/complete_sign_up.mustache:7
+msgid "Verification link damaged"
+msgstr "Ligação de verificação danificada"
+
+#: app/scripts/templates/complete_sign_up.mustache:10
 msgid "Verification error"
 msgstr "Erro de verificação"
 
