@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-25 01:36+0000\n"
-"PO-Revision-Date: 2014-06-15 11:45+0000\n"
+"PO-Revision-Date: 2014-06-26 16:44+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1402832715.0\n"
+"X-POOTLE-MTIME: 1403801074.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -355,9 +355,8 @@ msgid "Back"
 msgstr "上一步"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
-#, fuzzy
 msgid "Reset password link expired"
-msgstr "重設密碼"
+msgstr "重設密碼鏈結已過期"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -375,9 +374,8 @@ msgid "Click here to receive a new reset link"
 msgstr "點擊此處以取得新的密碼重設鏈結"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
-#, fuzzy
 msgid "Reset password link damaged"
-msgstr "重設密碼"
+msgstr "重設密碼鏈結已毀損"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:8
@@ -408,14 +406,12 @@ msgid "Verification link expired"
 msgstr "驗證鏈結已逾時"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
-#, fuzzy
 msgid "The link you clicked to verify your email is expired."
-msgstr "您點擊的密碼重設鏈結已逾時。"
+msgstr "您點擊的密碼重設驗證鏈結已過期。"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Click here to receive a new verification link"
-msgstr "點擊此處以取得新的密碼重設鏈結"
+msgstr "點擊此處以取得新的確認鏈結"
 
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
