@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-06-25 01:36+0000\n"
-"PO-Revision-Date: 2014-06-22 10:56+0000\n"
-"Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
+"PO-Revision-Date: 2014-06-27 09:18+0000\n"
+"Last-Translator: Michal <michal.stanke@mikk.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1403434590.0\n"
+"X-POOTLE-MTIME: 1403860705.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -358,9 +358,8 @@ msgid "Back"
 msgstr "Zpět"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
-#, fuzzy
 msgid "Reset password link expired"
-msgstr "Obnovit heslo"
+msgstr "Platnost odkazu pro obnovení hesla vypršela"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -378,9 +377,8 @@ msgid "Click here to receive a new reset link"
 msgstr "Klepněte zde pro zaslání nového odkazu pro obnovení                "
 
 #: app/scripts/templates/complete_reset_password.mustache:6
-#, fuzzy
 msgid "Reset password link damaged"
-msgstr "Obnovit heslo"
+msgstr "Odkaz pro obnovení je poškozen"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:8
@@ -412,14 +410,12 @@ msgid "Verification link expired"
 msgstr "Platnost odkazu pro ověření vypršela"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
-#, fuzzy
 msgid "The link you clicked to verify your email is expired."
-msgstr "Platnost odkazu pro obnovení hesla již vypršela."
+msgstr "Platnost tohoto odkazu pro ověření vaší e-mailové adresy již vypršela."
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Click here to receive a new verification link"
-msgstr "Klepněte zde pro zaslání nového odkazu pro obnovení                "
+msgstr "Klepněte zde pro zaslání nového ověřovacího odkazu"
 
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
