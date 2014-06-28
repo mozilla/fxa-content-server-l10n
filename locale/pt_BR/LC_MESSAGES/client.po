@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-25 01:36+0000\n"
-"PO-Revision-Date: 2014-06-17 12:49+0000\n"
-"Last-Translator: Samuel <samuel@samuelmoraes.com>\n"
+"PO-Revision-Date: 2014-06-28 18:10+0000\n"
+"Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1403009352.0\n"
+"X-POOTLE-MTIME: 1403979015.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -361,9 +361,8 @@ msgid "Back"
 msgstr "Voltar"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
-#, fuzzy
 msgid "Reset password link expired"
-msgstr "Redefinir senha"
+msgstr "Link para redefinir senha expirado"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -381,9 +380,8 @@ msgid "Click here to receive a new reset link"
 msgstr "Clique aqui para receber um novo link de redefinição"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
-#, fuzzy
 msgid "Reset password link damaged"
-msgstr "Redefinir senha"
+msgstr "Link para redefinir senha danificado"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:8
@@ -414,14 +412,12 @@ msgid "Verification link expired"
 msgstr "Link de verificação expirado"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
-#, fuzzy
 msgid "The link you clicked to verify your email is expired."
-msgstr "O link que você clicou para redefinir sua senha expirou."
+msgstr "O link que você clicou para verificar seu e-mail expirou."
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Click here to receive a new verification link"
-msgstr "Clique aqui para receber um novo link de redefinição"
+msgstr "Clique aqui para receber um novo link de verificação"
 
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
