@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-25 01:36+0000\n"
-"PO-Revision-Date: 2014-06-18 17:54+0000\n"
+"PO-Revision-Date: 2014-06-28 21:23+0000\n"
 "Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1403114049.0\n"
+"X-POOTLE-MTIME: 1403990624.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -376,8 +376,9 @@ msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ"
 #: app/scripts/templates/complete_sign_up.mustache:2
 #: app/scripts/templates/confirm.mustache:2
 #: app/scripts/templates/confirm_reset_password.mustache:2
+#, fuzzy
 msgid "Email resent"
-msgstr "ਈਮੇਲ ਮੁੜ-ਭੇਜੀ ਗਈ"
+msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
@@ -390,9 +391,8 @@ msgid "Click here to receive a new reset link"
 msgstr "ਨਵਾਂ ਮੁੜ-ਸੈੱਟ ਲਿੰਕ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਇੱਥੇ ਕਲਿੱਕ ਕਰੋ"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
-#, fuzzy
 msgid "Reset password link damaged"
-msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ"
+msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਲਿੰਕ ਖ਼ਰਾਬ ਹੋ ਗਿਆ"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:8
