@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-06-25 01:36+0000\n"
-"PO-Revision-Date: 2014-06-21 20:08+0000\n"
+"PO-Revision-Date: 2014-06-29 19:29+0000\n"
 "Last-Translator: Ricardo <rpmdisguise-otros@yahoo.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1403381330.0\n"
+"X-POOTLE-MTIME: 1404070187.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -360,9 +360,8 @@ msgid "Back"
 msgstr "Atrás"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
-#, fuzzy
 msgid "Reset password link expired"
-msgstr "Restablecer contraseña"
+msgstr "El enlace de restablecimiento de la contraseña ha caducado"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -380,9 +379,8 @@ msgid "Click here to receive a new reset link"
 msgstr "Haz clic aquí para recibir un nuevo enlace de restablecimiento"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
-#, fuzzy
 msgid "Reset password link damaged"
-msgstr "Restablecer contraseña"
+msgstr "El enlace para restablecer la contraseña está dañado"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:8
@@ -414,14 +412,13 @@ msgid "Verification link expired"
 msgstr "Ha caducado el enlace de verificación"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
-#, fuzzy
 msgid "The link you clicked to verify your email is expired."
-msgstr "El enlace al que accediste para restablecer la contraseña ha caducado."
+msgstr ""
+"El enlace al que accediste para confirmar tu correo electrónico ha caducado."
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Click here to receive a new verification link"
-msgstr "Haz clic aquí para recibir un nuevo enlace de restablecimiento"
+msgstr "Haz clic aquí para recibir un nuevo enlace de confirmación"
 
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
