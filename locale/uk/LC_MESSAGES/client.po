@@ -2,324 +2,335 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-06-25 01:36+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2014-07-01 18:50+0000\n"
+"Last-Translator: Artem <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1404240657.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
-msgstr ""
+msgstr "1991"
 
 #: app/scripts/templates/sign_up.mustache:14
 msgid "1992"
-msgstr ""
+msgstr "1992"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1993"
-msgstr ""
+msgstr "1993"
 
 #: app/scripts/templates/sign_up.mustache:16
 msgid "1994"
-msgstr ""
+msgstr "1994"
 
 #: app/scripts/templates/sign_up.mustache:17
 msgid "1995"
-msgstr ""
+msgstr "1995"
 
 #: app/scripts/templates/sign_up.mustache:18
 msgid "1996"
-msgstr ""
+msgstr "1996"
 
 #: app/scripts/templates/sign_up.mustache:19
 msgid "1997"
-msgstr ""
+msgstr "1997"
 
 #: app/scripts/templates/sign_up.mustache:20
 msgid "1998"
-msgstr ""
+msgstr "1998"
 
 #: app/scripts/templates/sign_up.mustache:21
 msgid "1999"
-msgstr ""
+msgstr "1999"
 
 #: app/scripts/templates/sign_up.mustache:22
 msgid "2000"
-msgstr ""
+msgstr "2000"
 
 #: app/scripts/templates/sign_up.mustache:23
 msgid "2001"
-msgstr ""
+msgstr "2001"
 
 #: app/scripts/templates/sign_up.mustache:24
 msgid "2002"
-msgstr ""
+msgstr "2002"
 
 #: app/scripts/templates/sign_up.mustache:25
 msgid "2003"
-msgstr ""
+msgstr "2003"
 
 #: app/scripts/templates/sign_up.mustache:26
 msgid "2004"
-msgstr ""
+msgstr "2004"
 
 #: app/scripts/templates/sign_up.mustache:27
 msgid "2005"
-msgstr ""
+msgstr "2005"
 
 #: app/scripts/templates/sign_up.mustache:28
 msgid "2006"
-msgstr ""
+msgstr "2006"
 
 #: app/scripts/templates/sign_up.mustache:29
 msgid "2007"
-msgstr ""
+msgstr "2007"
 
 #: app/scripts/views/base.js:494
 msgid "missing search parameter: %(itemName)s"
-msgstr ""
+msgstr "відсутній параметр пошуку: %(itemName)s"
 
 #: app/scripts/views/change_password.js:66
 msgid "Password changed"
-msgstr ""
+msgstr "Пароль змінено"
 
 #: app/scripts/views/change_password.js:70
 msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
 msgstr ""
+"Не підтверджений обліковий запис. <a href=\"#\" id=\"resend\">Відправити "
+"повідомлення для підтвердження ще раз</a>."
 
 #: app/scripts/views/confirm_reset_password.js:68
 msgid "Password reset. Sign in to continue."
-msgstr ""
+msgstr "Відновлення паролю. Увійдіть для продовження."
 
 #: app/scripts/views/delete_account.js:45
 msgid "Account deleted successfully"
-msgstr ""
+msgstr "Обліковий запис успішно видалено"
 
 #: app/scripts/views/force_auth.js:45
 msgid "/force_auth requires an email"
-msgstr ""
+msgstr "/force_auth потребує ел. пошту"
 
 #: app/scripts/views/form.js:433 app/scripts/lib/strings.js:18
 msgid "Valid email required"
-msgstr ""
+msgstr "Необхідна дійсна адреса електронної пошти"
 
 #: app/scripts/views/form.js:475 app/scripts/lib/strings.js:23
 #: app/scripts/templates/change_password.mustache:7
 #: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/sign_up.mustache:9
 msgid "Must be at least 8 characters"
-msgstr ""
+msgstr "Необхідно щонайменше 8 символів"
 
 #: app/scripts/views/form.js:476 app/scripts/lib/strings.js:19
 msgid "Valid password required"
-msgstr ""
+msgstr "Необхідний дійсний пароль"
 
 #: app/scripts/views/reset_password.js:77 app/scripts/views/sign_in.js:109
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "Невідомий обліковий запис. <a href=\"/signup\">Зареєструватись</a>"
 
 #: app/scripts/views/settings.js:42
 msgid "Signed out"
-msgstr ""
+msgstr "Ви вийшли"
 
 #: app/scripts/views/sign_up.js:121 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
-msgstr ""
+msgstr "Необхідно ввести рік народження"
 
 #: app/scripts/views/sign_up.js:195
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr ""
+msgstr "Обліковий запис вже існує. <a href=\"/signin\">Увійти</a>"
 
 #: app/scripts/lib/auth-errors.js:54 app/scripts/lib/oauth-errors.js:27
 msgid "Unexpected error"
-msgstr ""
+msgstr "Непередбачувана помилка"
 
 #: app/scripts/lib/auth-errors.js:55
 msgid "Invalid token"
-msgstr ""
+msgstr "Неправильний токен"
 
 #: app/scripts/lib/auth-errors.js:56
 msgid "Invalid timestamp in request signature"
-msgstr ""
+msgstr "Недійсний відбиток часу у підписі запиту"
 
 #: app/scripts/lib/auth-errors.js:57
 msgid "Invalid nonce in request signature"
-msgstr ""
+msgstr "Недійсний випадковий код у підписі запиту"
 
 #: app/scripts/lib/auth-errors.js:58 app/scripts/lib/strings.js:25
 msgid "Account already exists"
-msgstr ""
+msgstr "Обліковий запис вже існує"
 
 #: app/scripts/lib/auth-errors.js:59
 msgid "Unknown account"
-msgstr ""
+msgstr "Невідомий обліковий запис"
 
 #: app/scripts/lib/auth-errors.js:60
 msgid "Incorrect email case"
-msgstr ""
+msgstr "Неправильний формат адреси електронної пошти"
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "Incorrect password"
-msgstr ""
+msgstr "Неправильний пароль"
 
 #: app/scripts/lib/auth-errors.js:62
 msgid "Unverified account"
-msgstr ""
+msgstr "Непідтверджений обліковий запис"
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "Invalid verification code"
-msgstr ""
+msgstr "Недійсний код підтвердження"
 
 #: app/scripts/lib/auth-errors.js:64
 msgid "Invalid JSON in request body"
-msgstr ""
+msgstr "Недійсний JSON у запиті"
 
 #: app/scripts/lib/auth-errors.js:65 app/scripts/lib/oauth-errors.js:31
 msgid "Invalid parameter in request body: %(param)s"
-msgstr ""
+msgstr "Недійсний параметр у запиті: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:66
 msgid "Missing parameter in request body: %(param)s"
-msgstr ""
+msgstr "Втрачено параметр у запиті: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:32
 msgid "Invalid request signature"
-msgstr ""
+msgstr "Недійсний підпис запиту."
 
 #: app/scripts/lib/auth-errors.js:68
 msgid "Missing content-length header"
-msgstr ""
+msgstr "Відсутній заголовок content-length"
 
 #: app/scripts/lib/auth-errors.js:69
 msgid "Request body too large"
-msgstr ""
+msgstr "Запит надто великий."
 
 #: app/scripts/lib/auth-errors.js:70
 msgid "Attempt limit exceeded"
-msgstr ""
+msgstr "Перевищено обмеження спроб"
 
 #: app/scripts/lib/auth-errors.js:71
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Система недоступна. Спробуйте знову пізніше."
 
 #: app/scripts/lib/auth-errors.js:72
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Сервер зайнятий. Спробуйте знову пізніше"
 
 #: app/scripts/lib/auth-errors.js:73
 msgid "This endpoint is no longer supported"
-msgstr ""
+msgstr "Ця адреса запиту більше не підтримується"
 
 #: app/scripts/lib/auth-errors.js:76
 msgid "Session expired. Sign in to continue."
-msgstr ""
+msgstr "Сеанс завершено. Увійдіть для продовження."
 
 #: app/scripts/lib/auth-errors.js:77
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Куки досі не увімкнено"
 
 #: app/scripts/lib/auth-errors.js:78
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Паролі не співпадають"
 
 #: app/scripts/lib/auth-errors.js:79
 msgid "Working…"
-msgstr ""
+msgstr "Обробка..."
 
 #: app/scripts/lib/auth-errors.js:80
 msgid "Could not get Privacy Notice"
-msgstr ""
+msgstr "Не вдалося отримати повідомлення про конфіденційність"
 
 #: app/scripts/lib/auth-errors.js:81
 msgid "Could not get Terms of Service"
-msgstr ""
+msgstr "Не вдалося отримати умови користування"
 
 #: app/scripts/lib/auth-errors.js:82
 msgid "Your new password must be different"
-msgstr ""
+msgstr "Ваш новий пароль повинен бути іншим"
 
 #: app/scripts/lib/oauth-errors.js:28
 msgid "Unknown client"
-msgstr ""
+msgstr "Невідомий клієнт"
 
 #: app/scripts/lib/oauth-errors.js:29
 msgid "Incorrect redirect_uri"
-msgstr ""
+msgstr "Некоректний redirect_uri"
 
 #: app/scripts/lib/oauth-errors.js:30
 msgid "Invalid assertion"
-msgstr ""
+msgstr "Невірне твердження"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:20
 msgid "Invalid password"
-msgstr ""
+msgstr "Неправильний пароль"
 
 #: app/scripts/lib/strings.js:21
 msgid "Invalid email and password"
-msgstr ""
+msgstr "Неправильні адреса електронної пошти та пароль"
 
 #: app/scripts/lib/strings.js:22
 msgid "Invalid email or password"
-msgstr ""
+msgstr "Неправильна адреса електронної пошти чи пароль"
 
 #: app/scripts/lib/strings.js:26
 msgid "Old password invalid"
-msgstr ""
+msgstr "Неправильний старий пароль"
 
 #: app/scripts/lib/strings.js:27
 msgid "New password invalid"
-msgstr ""
+msgstr "Неправильний новий пароль"
 
 #: app/scripts/lib/strings.js:28
 msgid "Passwords don't match"
-msgstr ""
+msgstr "Паролі не співпадають"
 
 #: app/scripts/lib/strings.js:29
 msgid "Please enter an email"
-msgstr ""
+msgstr "Введіть адресу електронної пошти"
 
 #: app/scripts/lib/strings.js:30
 msgid "Cannot connect to the internet"
-msgstr ""
+msgstr "Неможливо підключитись до інтернету"
 
 #: app/scripts/lib/strings.js:34
 msgid "Subscribe to Firefox news and tips"
-msgstr ""
+msgstr "Підписатись на новини та поради від Firefox"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
-msgstr ""
+msgstr "Неможливо створити обліковий запис"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
 msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr ""
+"Ви повинні відповідати віковим вимогам для створення облікового запису "
+"Firefox&nbsp;."
 
 #: app/scripts/templates/cannot_create_account.mustache:3
 msgid "Learn more."
-msgstr ""
+msgstr "Дізнатись більше."
 
 #: app/scripts/templates/change_password.mustache:1
 #: app/scripts/templates/settings.mustache:5
 msgid "Change password"
-msgstr ""
+msgstr "Змінити пароль"
 
 #: app/scripts/templates/change_password.mustache:2
 msgid ""
 "Once you're ﬁnished, use your new password to sign in on all of your devices."
 msgstr ""
+"Як тільки ви закінчите, використовуйте ваш новий пароль для входу на всіх "
+"ваших пристроях."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
-msgstr ""
+msgstr "Старий пароль"
 
 #: app/scripts/templates/change_password.mustache:4
 #: app/scripts/templates/change_password.mustache:6
@@ -330,16 +341,16 @@ msgstr ""
 #: app/scripts/templates/sign_in.mustache:7
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Show"
-msgstr ""
+msgstr "Показати"
 
 #: app/scripts/templates/change_password.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid "New password"
-msgstr ""
+msgstr "Новий пароль"
 
 #: app/scripts/templates/change_password.mustache:8
 msgid "Confirm"
-msgstr ""
+msgstr "Підтвердити"
 
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/delete_account.mustache:6
@@ -347,30 +358,30 @@ msgstr ""
 #: app/scripts/templates/reset_password.mustache:6
 #: app/scripts/templates/tos.mustache:3
 msgid "Back"
-msgstr ""
+msgstr "Назад"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
-msgstr ""
+msgstr "Посилання для відновлення паролю недійсне"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
 #: app/scripts/templates/confirm.mustache:2
 #: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email resent"
-msgstr ""
+msgstr "Повідомлення повторно надіслане"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
-msgstr ""
+msgstr "Посилання для скидання паролю за яким ви перейшли недійсне."
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr ""
+msgstr "Клацніть тут для отримання нового посилання для скидання"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 msgid "Reset password link damaged"
-msgstr ""
+msgstr "Посилання для відновлення паролю пошкоджене"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:8
@@ -378,67 +389,70 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
+"Посилання за яким ви перейшли має втрачені символи та, можливо, було "
+"пошкоджене вашим поштовим клієнтом. Обережно скопіюйте адресу та спробуйте "
+"знову."
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
 msgid "Reset password"
-msgstr ""
+msgstr "Відновити пароль"
 
 #: app/scripts/templates/complete_reset_password.mustache:12
 msgid "Repeat password"
-msgstr ""
+msgstr "Повторити пароль"
 
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/reset_password.mustache:5
 #: app/scripts/templates/sign_up.mustache:31
 msgid "Next"
-msgstr ""
+msgstr "Далі"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
-msgstr ""
+msgstr "Посилання для підтвердження недійсне"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
-msgstr ""
+msgstr "Посилання за яким ви перейшли для підтвердження ел. пошти недійсне."
 
 #: app/scripts/templates/complete_sign_up.mustache:4
 msgid "Click here to receive a new verification link"
-msgstr ""
+msgstr "Клацніть тут щоб отримати нове посилання для підтвердження"
 
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Посилання для перевірки пошкоджене"
 
 #: app/scripts/templates/complete_sign_up.mustache:10
 msgid "Verification error"
-msgstr ""
+msgstr "Помилка підтвердження"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
-msgstr ""
+msgstr "Підтвердити свій обліковий запис"
 
 #: app/scripts/templates/confirm.mustache:3
 #: app/scripts/templates/confirm_reset_password.mustache:3
 msgid "Email Sent"
-msgstr ""
+msgstr "Повідомлення надіслано"
 
 #: app/scripts/templates/confirm.mustache:4
 msgid "A verification link has been sent&nbsp;to %(email)s"
-msgstr ""
+msgstr "Посилання для підтвердження було надіслане&nbsp;на %(email)s"
 
 #: app/scripts/templates/confirm.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:8
 msgid "Resend email"
-msgstr ""
+msgstr "Надіслати повідомлення ще раз"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr ""
+msgstr "Повідомлення для скидання надіслано"
 
 #: app/scripts/templates/confirm_reset_password.mustache:4
 msgid "A reset link has been sent to %(email)s"
-msgstr ""
+msgstr "Посилання для скидання було надіслане на %(email)s"
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
@@ -446,11 +460,11 @@ msgstr ""
 #: app/scripts/templates/sign_in.mustache:3
 #: app/scripts/templates/sign_in.mustache:8
 msgid "Sign in"
-msgstr ""
+msgstr "Увійти"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies required"
-msgstr ""
+msgstr "Вимагаються куки"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -458,41 +472,46 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
+"Увімкніть будь ласка куки у вашому браузері на вимогу Firefox Accounts. Куки "
+"- це маленькі частини даних, які зберігаються у вашому переглядачі та дають "
+"можливість пам'ятати вас між сеансами."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
-msgstr ""
+msgstr "Дізнатись більше"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "Спробувати знову"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
 #: app/scripts/templates/settings.mustache:6
 msgid "Delete account"
-msgstr ""
+msgstr "Видалити обліковий запис"
 
 #: app/scripts/templates/delete_account.mustache:2
 msgid ""
 "Are you sure you want to delete your account? This action cannot be undone."
 msgstr ""
+"Ви впевнені, що хочете видалити свій обліковий запис? Цю дію неможливо "
+"відмінити."
 
 #: app/scripts/templates/delete_account.mustache:3
 #: app/scripts/templates/force_auth.mustache:3
 #: app/scripts/templates/sign_in.mustache:5
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Password"
-msgstr ""
+msgstr "Пароль"
 
 #: app/scripts/templates/force_auth.mustache:1
 msgid "Sign in to continue"
-msgstr ""
+msgstr "Увійти для продовження"
 
 #: app/scripts/templates/force_auth.mustache:7
 #: app/scripts/templates/sign_in.mustache:9
 msgid "Forgot password?"
-msgstr ""
+msgstr "Забули пароль?"
 
 #: app/scripts/templates/force_auth.mustache:8
 #: app/scripts/templates/sign_in.mustache:11
@@ -502,112 +521,118 @@ msgid ""
 "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
 "a> of Firefox cloud services."
 msgstr ""
+"Продовжуючи, я погоджуюсь із <a id=\"fxa-tos\" href=\"/legal/terms\">Умовами "
+"надання послуг</a> та <a id=\"fxa-pp\" href=\"/legal/privacy\">повідомленням про "
+"приватність</a> хмарних сервісів Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "Хмарні сервіси Firefox"
 
 #: app/scripts/templates/legal.mustache:2
 msgid "Legal"
-msgstr ""
+msgstr "Право"
 
 #: app/scripts/templates/legal.mustache:3 app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
-msgstr ""
+msgstr "Умови надання послуг"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Повідомлення про приватність"
 
 #: app/scripts/templates/ready.mustache:1
 msgid "Signed in successfully"
-msgstr ""
+msgstr "Вхід успішний"
 
 #: app/scripts/templates/ready.mustache:3
 msgid "Account verified"
-msgstr ""
+msgstr "Обліковий запис перевірено"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Password reset"
-msgstr ""
+msgstr "Відновлення пароля"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Success"
-msgstr ""
+msgstr "Успішно"
 
 #: app/scripts/templates/ready.mustache:8
 msgid "You are now ready to use %(serviceName)s"
-msgstr ""
+msgstr "Ви вже готові для користування %(serviceName)s"
 
 #: app/scripts/templates/ready.mustache:10
 msgid "Your account is ready!"
-msgstr ""
+msgstr "Ваш обліковий запис готовий!"
 
 #: app/scripts/templates/ready.mustache:11
 msgid "Stay in sync on the go:"
-msgstr ""
+msgstr "Залишайтесь синхронізованим де б ви не були:"
 
 #: app/scripts/templates/ready.mustache:12
 msgid "Get Firefox for Android"
-msgstr ""
+msgstr "Отримати Firefox для Android"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
-msgstr ""
+msgstr "Введіть вашу адресу електронної пошти для скидання&nbsp;паролю."
 
 #: app/scripts/templates/reset_password.mustache:3
 #: app/scripts/templates/sign_in.mustache:4
 #: app/scripts/templates/sign_up.mustache:4
 msgid "Email"
-msgstr ""
+msgstr "Електронна пошта"
 
 #: app/scripts/templates/reset_password.mustache:4
 msgid ""
 "For security reasons, resetting your password will erase your Sync data from "
 "our servers. A new Sync backup will be created from your local browsing data."
 msgstr ""
+"З міркувань безпеки, відновлення вашого паролю призведе до стирання "
+"синхронізованих даних на наших серверах. Нову резервну копію для "
+"синхронізації буде створено з локальних даних вашого браузера."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
-msgstr ""
+msgstr "Керувати обліковим записом"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "You are signed in as"
-msgstr ""
+msgstr "Ви увійшли як"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "Sign out"
-msgstr ""
+msgstr "Вийти"
 
 #: app/scripts/templates/sign_in.mustache:1
 msgid "Sign in to %(serviceName)s"
-msgstr ""
+msgstr "Увійти до %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:10
 msgid "Create an account"
-msgstr ""
+msgstr "Створити обліковий запис"
 
 #: app/scripts/templates/sign_up.mustache:1
 msgid "Create a Firefox Account for %(serviceName)s"
-msgstr ""
+msgstr "Створити обліковий запис Firefox для %(serviceName)s"
 
 #: app/scripts/templates/sign_up.mustache:3
 msgid "Create a Firefox Account"
-msgstr ""
+msgstr "Створити обліковий запис Firefox"
 
 #: app/scripts/templates/sign_up.mustache:11
 msgid "Year of birth"
-msgstr ""
+msgstr "Рік народження"
 
 #: app/scripts/templates/sign_up.mustache:12
 msgid "1990 or earlier"
-msgstr ""
+msgstr "1990, чи раніше"
 
 #: app/scripts/templates/sign_up.mustache:32
 msgid "Choose what to sync"
-msgstr ""
+msgstr "Виберіть що синхронізувати"
 
 #: app/scripts/templates/sign_up.mustache:34
 msgid "Already have an account? Sign in."
-msgstr ""
+msgstr "Вже маєте обліковий запис? Увійти."

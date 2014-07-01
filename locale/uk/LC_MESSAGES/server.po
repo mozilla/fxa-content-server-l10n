@@ -2,12 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-06-25 01:37+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2014-06-26 08:00+0000\n"
+"Last-Translator: Artem <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1403769605.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -16,42 +21,46 @@ msgstr ""
 #: server/templates/pages/src/terms.html:1 server/templates/email/reset.html:1
 #: server/templates/email/verify.html:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Облікові записи Firefox"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "Сторінку не знайдено"
 
 #: server/templates/pages/src/404.html:3
 msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
+"Запитану вами сторінку не знайдено. Ми отримали сповіщення і будемо "
+"виправляти будь-які посилання, які можуть бути пошкоджені."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/503.html:4
 msgid "Home"
-msgstr ""
+msgstr "Домівка"
 
 #: server/templates/pages/src/500.html:2
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Система недоступна. Спробуйте знову пізніше"
 
 #: server/templates/pages/src/500.html:3
 msgid ""
 "We are currently performing some maintenance on the system, and will return "
 "momentarily."
-msgstr ""
+msgstr "Ми вже виконуємо обслуговування системи і незабаром все повернемо."
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Сервер зайнятий. Спробуйте знову пізніше"
 
 #: server/templates/pages/src/503.html:3
 msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
+"Зараз ми знаходимось під великим навантаженням і працюємо щоб якнайшвидше "
+"повернути систему  до нормального стану."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
@@ -60,37 +69,40 @@ msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
+"Ви використовуєте <strong>застарілий</strong> переглядач. Будь ласка, <a "
+"href=\"http://browsehappy.com/\">оновіть свій переглядач</a> щоб покращити "
+"роботу."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "Для облікових записів Firefox необхідний JavaScript."
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:5
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Повідомлення про приватність"
 
 #: server/templates/pages/src/privacy.html:4
 #: server/templates/pages/src/terms.html:4
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "Хмарні сервіси Firefox"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:5
 msgid "Terms of Service"
-msgstr ""
+msgstr "Умови надання послуг"
 
 #: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
 msgid "Are you sure?"
-msgstr ""
+msgstr "Ви впевнені?"
 
 #: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
 msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr ""
+msgstr "Підтвердіть, що ви бажаєте відновити пароль для %(email)s."
 
 #: server/templates/email/reset.html:4
 msgid "Reset password"
-msgstr ""
+msgstr "Відновити пароль"
 
 #: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
 #: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
@@ -98,41 +110,47 @@ msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
+"Це автоматичне повідомлення. Якщо ви отримали його помилково, не реагуйте на "
+"нього."
 
 #: server/templates/email/reset.html:6 server/templates/email/verify.html:6
 msgid ""
 "For more information, please visit <a href='https://support.mozilla."
 "org'>Mozilla Support</a>"
 msgstr ""
+"Щоб отримати більше інформації, відвідайте <a "
+"href='https://support.mozilla.org'>Підтримку Mozilla</a>"
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
-msgstr ""
+msgstr "Відновити пароль:"
 
 #: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
-msgstr ""
+msgstr "Щоб отримати більше інформації, відвідайте https://support.mozilla.org"
 
 #: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
 msgid "Congratulations!"
-msgstr ""
+msgstr "Вітаємо!"
 
 #: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
 msgstr ""
+"%(email)s, залишився один крок до підтвердження вашого облікового запису "
+"Firefox."
 
 #: server/templates/email/verify.html:4
 msgid "Verify"
-msgstr ""
+msgstr "Підтвердити"
 
 #: server/templates/email/verify.txt:3
 msgid "Verify:"
-msgstr ""
+msgstr "Підтвердити:"
 
 #: server/lib/templates.js:63
 msgid "Verify your account"
-msgstr ""
+msgstr "Підтвердити свій обліковий запис"
 
 #: server/lib/templates.js:68
 msgid "Reset your password"
-msgstr ""
+msgstr "Відновити свій пароль"
