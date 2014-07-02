@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-06-25 01:36+0000\n"
-"PO-Revision-Date: 2014-07-01 18:50+0000\n"
+"PO-Revision-Date: 2014-07-02 11:43+0000\n"
 "Last-Translator: Artem <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1404240657.0\n"
+"X-POOTLE-MTIME: 1404301436.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -195,7 +195,7 @@ msgstr "Втрачено параметр у запиті: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:32
 msgid "Invalid request signature"
-msgstr "Недійсний підпис запиту."
+msgstr "Недійсний підпис запиту"
 
 #: app/scripts/lib/auth-errors.js:68
 msgid "Missing content-length header"
@@ -203,7 +203,7 @@ msgstr "Відсутній заголовок content-length"
 
 #: app/scripts/lib/auth-errors.js:69
 msgid "Request body too large"
-msgstr "Запит надто великий."
+msgstr "Запит надто великий"
 
 #: app/scripts/lib/auth-errors.js:70
 msgid "Attempt limit exceeded"
@@ -211,11 +211,11 @@ msgstr "Перевищено обмеження спроб"
 
 #: app/scripts/lib/auth-errors.js:71
 msgid "System unavailable, try again soon"
-msgstr "Система недоступна. Спробуйте знову пізніше."
+msgstr "Система недоступна, спробуйте знову пізніше"
 
 #: app/scripts/lib/auth-errors.js:72
 msgid "Server busy, try again soon"
-msgstr "Сервер зайнятий. Спробуйте знову пізніше"
+msgstr "Сервер зайнятий, спробуйте знову пізніше"
 
 #: app/scripts/lib/auth-errors.js:73
 msgid "This endpoint is no longer supported"
@@ -235,7 +235,7 @@ msgstr "Паролі не співпадають"
 
 #: app/scripts/lib/auth-errors.js:79
 msgid "Working…"
-msgstr "Обробка..."
+msgstr "Обробка…"
 
 #: app/scripts/lib/auth-errors.js:80
 msgid "Could not get Privacy Notice"
