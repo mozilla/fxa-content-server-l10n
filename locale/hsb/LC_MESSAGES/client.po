@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-25 01:36+0000\n"
-"PO-Revision-Date: 2014-06-13 19:51+0000\n"
+"PO-Revision-Date: 2014-07-03 15:18+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1402689066.0\n"
+"X-POOTLE-MTIME: 1404400718.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -361,9 +361,8 @@ msgid "Back"
 msgstr "Wróćo"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
-#, fuzzy
 msgid "Reset password link expired"
-msgstr "Hesło wróćo stajić"
+msgstr "Wotkaz k wróćostajenju hesła spadnjony"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -383,9 +382,8 @@ msgid "Click here to receive a new reset link"
 msgstr "Klikńće sem, zo byšće nowy wotkaz za wróćostajenje dóstał"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
-#, fuzzy
 msgid "Reset password link damaged"
-msgstr "Hesło wróćo stajić"
+msgstr "Wotkaz k wróćostajenju hesła wobškodźeny"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:8
@@ -417,16 +415,14 @@ msgid "Verification link expired"
 msgstr "Wobkrućenski wotkaz spadnjeny"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
-#, fuzzy
 msgid "The link you clicked to verify your email is expired."
 msgstr ""
-"Wotkaz, na kotryž sće kliknył, zo byšće swoje hesło wróćo stajił, je "
-"spadnjeny."
+"Wotkaz, na kotryž sće kliknył, zo byšće swoju e-mejlowu adresu přepruwował, "
+"je spadnjeny."
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Click here to receive a new verification link"
-msgstr "Klikńće sem, zo byšće nowy wotkaz za wróćostajenje dóstał"
+msgstr "Klikńće sem, zo byšće nowy wotkaz za wobkrućenje dóstał"
 
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
