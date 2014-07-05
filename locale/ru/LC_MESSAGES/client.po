@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-06-25 01:36+0000\n"
-"PO-Revision-Date: 2014-06-07 13:49+0000\n"
+"PO-Revision-Date: 2014-07-05 15:46+0000\n"
 "Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1402148981.0\n"
+"X-POOTLE-MTIME: 1404575207.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -235,7 +235,7 @@ msgstr "Пароли не совпадают"
 
 #: app/scripts/lib/auth-errors.js:79
 msgid "Working…"
-msgstr ""
+msgstr "Работаю…"
 
 #: app/scripts/lib/auth-errors.js:80
 msgid "Could not get Privacy Notice"
@@ -325,6 +325,8 @@ msgstr "Сменить пароль"
 msgid ""
 "Once you're ﬁnished, use your new password to sign in on all of your devices."
 msgstr ""
+"Как только вы закончите, используйте новый пароль для входа на все ваши "
+"устройства."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -348,7 +350,7 @@ msgstr "Новый пароль"
 
 #: app/scripts/templates/change_password.mustache:8
 msgid "Confirm"
-msgstr ""
+msgstr "Подтвердить"
 
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/delete_account.mustache:6
@@ -359,9 +361,8 @@ msgid "Back"
 msgstr "Назад"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
-#, fuzzy
 msgid "Reset password link expired"
-msgstr "Восстановить пароль"
+msgstr "Срок жизни ссылки для восстановления пароля истёк"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -380,9 +381,8 @@ msgid "Click here to receive a new reset link"
 msgstr "Щёлкните здесь, чтобы получить новую ссылку для восстановления"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
-#, fuzzy
 msgid "Reset password link damaged"
-msgstr "Восстановить пароль"
+msgstr "Ссылка для восстановления пароля повреждена"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:8
@@ -414,15 +414,14 @@ msgid "Verification link expired"
 msgstr "Срок жизни ссылки для подтверждения истёк"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
-#, fuzzy
 msgid "The link you clicked to verify your email is expired."
 msgstr ""
-"Срок жизни ссылки, по которой вы щёлкаете, чтобы восстановить пароль, истёк."
+"Срок жизни ссылки, по которой вы щёлкаете, чтобы подтвердить вашу почту, "
+"истёк."
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Click here to receive a new verification link"
-msgstr "Щёлкните здесь, чтобы получить новую ссылку для восстановления"
+msgstr "Щёлкните здесь, чтобы получить новую ссылку для подтверждения"
 
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
@@ -593,6 +592,9 @@ msgid ""
 "For security reasons, resetting your password will erase your Sync data from "
 "our servers. A new Sync backup will be created from your local browsing data."
 msgstr ""
+"По соображениям безопасности, восстановление вашего пароля сотрёт ваши "
+"данные Синхронизации с наших серверов. Новая резервная копия Синхронизации "
+"будет создана на основе ваших локальных данных веб-сёрфинга."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
