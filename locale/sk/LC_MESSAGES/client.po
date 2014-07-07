@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-06-25 01:36+0000\n"
-"PO-Revision-Date: 2014-06-03 19:51+0000\n"
+"PO-Revision-Date: 2014-07-07 20:21+0000\n"
 "Last-Translator: Vlado <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1401825083.0\n"
+"X-POOTLE-MTIME: 1404764511.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -234,7 +234,7 @@ msgstr "Heslá sa nezhodujú"
 
 #: app/scripts/lib/auth-errors.js:79
 msgid "Working…"
-msgstr ""
+msgstr "Prebieha…"
 
 #: app/scripts/lib/auth-errors.js:80
 msgid "Could not get Privacy Notice"
@@ -323,6 +323,8 @@ msgstr "Zmeniť heslo"
 msgid ""
 "Once you're ﬁnished, use your new password to sign in on all of your devices."
 msgstr ""
+"Keď budete hotový, použite nové heslo na prihlásenie sa zo všetkých svojich "
+"zariadení."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -346,7 +348,7 @@ msgstr "Nové heslo"
 
 #: app/scripts/templates/change_password.mustache:8
 msgid "Confirm"
-msgstr ""
+msgstr "Potvrdenie"
 
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/delete_account.mustache:6
@@ -357,9 +359,8 @@ msgid "Back"
 msgstr "Naspäť"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
-#, fuzzy
 msgid "Reset password link expired"
-msgstr "Obnoviť heslo"
+msgstr "Platnosť odkazu na obnovenie hesla vypršala"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -378,9 +379,8 @@ msgid "Click here to receive a new reset link"
 msgstr "Po kliknutí sem Vám zašleme nový odkaz."
 
 #: app/scripts/templates/complete_reset_password.mustache:6
-#, fuzzy
 msgid "Reset password link damaged"
-msgstr "Obnoviť heslo"
+msgstr "Odkaz na obnovenie hesla je poškodený"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:8
@@ -412,15 +412,13 @@ msgid "Verification link expired"
 msgstr "Platnosť overovacieho odkazu vypršala"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
-#, fuzzy
 msgid "The link you clicked to verify your email is expired."
 msgstr ""
 "Platnosť odkazu, na ktorý ste klikli s cieľom obnoviť heslo, už vypršala."
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Click here to receive a new verification link"
-msgstr "Po kliknutí sem Vám zašleme nový odkaz."
+msgstr "Po kliknutí sem Vám zašleme nový odkaz"
 
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
@@ -589,6 +587,9 @@ msgid ""
 "For security reasons, resetting your password will erase your Sync data from "
 "our servers. A new Sync backup will be created from your local browsing data."
 msgstr ""
+"Z bezpečnostných dôvodov budú pri obnovení hesla vymazané údaje služby Sync "
+"na našich serveroch. Zároveň bude vytvorená nová záloha použitím vašich "
+"údajov uložených vo vašom zariadení."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
