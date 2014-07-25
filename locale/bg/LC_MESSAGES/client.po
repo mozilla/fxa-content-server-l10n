@@ -1,15 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-<<<<<<< HEAD
-"POT-Creation-Date: 2014-06-25 01:36+0000\n"
-"PO-Revision-Date: 2014-04-18 10:29+0000\n"
-"Last-Translator: Ognyan <ogi@tower.3.bg>\n"
-=======
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-25 07:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
->>>>>>> 46ca4dbb5c78b9427068398a79a84c91c95fea86
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
@@ -113,7 +107,6 @@ msgstr ""
 msgid "/force_auth requires an email"
 msgstr "/force_auth изисква мейл"
 
-<<<<<<< HEAD
 #: app/scripts/views/form.js:433 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "Изисква се валиден мейл"
@@ -130,9 +123,6 @@ msgid "Valid password required"
 msgstr "Изисква се валидна парола"
 
 #: app/scripts/views/reset_password.js:77 app/scripts/views/sign_in.js:109
-=======
-#: app/scripts/views/reset_password.js:76 app/scripts/views/sign_in.js:127
->>>>>>> 46ca4dbb5c78b9427068398a79a84c91c95fea86
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Неизвестен акаунт. <a href=\"/signup\">Вписване</a>"
 
@@ -140,15 +130,11 @@ msgstr "Неизвестен акаунт. <a href=\"/signup\">Вписване<
 msgid "Signed out"
 msgstr ""
 
-<<<<<<< HEAD
 #: app/scripts/views/sign_up.js:121 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "Изисква се година на раждане"
 
 #: app/scripts/views/sign_up.js:195
-=======
-#: app/scripts/views/sign_up.js:214
->>>>>>> 46ca4dbb5c78b9427068398a79a84c91c95fea86
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Акаунтът вече съществува. <a href=\"/signin\">Вписване</a>"
 
@@ -567,16 +553,6 @@ msgstr "Условия на услугата"
 msgid "Privacy Notice"
 msgstr "Политика за личните данни"
 
-<<<<<<< HEAD
-#: app/scripts/templates/ready.mustache:1
-msgid "Signed in successfully"
-msgstr "Успешно вписване"
-=======
-#: app/scripts/templates/marketing_snippet.mustache:1
-msgid "Stay in sync on the go:"
-msgstr ""
->>>>>>> 46ca4dbb5c78b9427068398a79a84c91c95fea86
-
 #: app/scripts/templates/marketing_snippet.mustache:2
 msgid "Get Firefox for Android"
 msgstr ""
@@ -657,12 +633,8 @@ msgstr "Избор какво да се синхронизира"
 
 #: app/scripts/templates/sign_up.mustache:36
 msgid "Already have an account? Sign in."
-<<<<<<< HEAD
-msgstr "Вече имате акаунт? Впишете се."
-=======
 msgstr ""
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
 msgstr ""
->>>>>>> 46ca4dbb5c78b9427068398a79a84c91c95fea86

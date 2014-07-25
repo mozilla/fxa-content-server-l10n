@@ -1,14 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-<<<<<<< HEAD
-"POT-Creation-Date: 2014-06-25 01:36+0000\n"
-"PO-Revision-Date: 2014-07-01 18:47+0000\n"
-=======
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-25 07:29+0000\n"
 "PO-Revision-Date: 2014-06-06 09:51+0000\n"
->>>>>>> 46ca4dbb5c78b9427068398a79a84c91c95fea86
 "Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"

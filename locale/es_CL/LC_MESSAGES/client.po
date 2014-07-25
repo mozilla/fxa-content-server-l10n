@@ -2,13 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-"POT-Creation-Date: 2014-06-25 01:36+0000\n"
-"PO-Revision-Date: 2014-06-28 22:33+0000\n"
-=======
 "POT-Creation-Date: 2014-07-25 07:29+0000\n"
 "PO-Revision-Date: 2014-05-03 16:06+0000\n"
->>>>>>> 46ca4dbb5c78b9427068398a79a84c91c95fea86
 "Last-Translator: Richard <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_CL\n"
@@ -192,12 +187,8 @@ msgstr "Falta cabecera de longitud del contenido"
 msgid "Request body too large"
 msgstr "Solicitud de cuerpo demasiado grande"
 
-<<<<<<< HEAD
-#: app/scripts/lib/auth-errors.js:70
-=======
 #: app/scripts/lib/auth-errors.js:72
 #, fuzzy
->>>>>>> 46ca4dbb5c78b9427068398a79a84c91c95fea86
 msgid "Attempt limit exceeded"
 msgstr "Límite de intentos excedido"
 
@@ -241,9 +232,6 @@ msgstr "No se pudieron obtener los Términos del servicio"
 msgid "Your new password must be different"
 msgstr "Tu nueva conraseña debe ser diferente"
 
-<<<<<<< HEAD
-#: app/scripts/lib/oauth-errors.js:28
-=======
 #: app/scripts/lib/auth-errors.js:85 app/scripts/lib/strings.js:23
 #: app/scripts/templates/change_password.mustache:7
 #: app/scripts/templates/complete_reset_password.mustache:14
@@ -265,25 +253,16 @@ msgstr "Se requiere el año de nacimiento"
 
 #: app/scripts/lib/oauth-errors.js:32
 #, fuzzy
->>>>>>> 46ca4dbb5c78b9427068398a79a84c91c95fea86
 msgid "Unknown client"
 msgstr "Cliente desconocido"
 
-<<<<<<< HEAD
-#: app/scripts/lib/oauth-errors.js:29
-=======
 #: app/scripts/lib/oauth-errors.js:33
 #, fuzzy
->>>>>>> 46ca4dbb5c78b9427068398a79a84c91c95fea86
 msgid "Incorrect redirect_uri"
 msgstr "redirect_uri incorrecto"
 
-<<<<<<< HEAD
-#: app/scripts/lib/oauth-errors.js:30
-=======
 #: app/scripts/lib/oauth-errors.js:34
 #, fuzzy
->>>>>>> 46ca4dbb5c78b9427068398a79a84c91c95fea86
 msgid "Invalid assertion"
 msgstr "Aserción inválida"
 
@@ -589,12 +568,8 @@ msgstr "Reiniciar contraseña"
 msgid "Success"
 msgstr "Éxito"
 
-<<<<<<< HEAD
-#: app/scripts/templates/ready.mustache:8
-=======
 #: app/scripts/templates/ready.mustache:6
 #, fuzzy
->>>>>>> 46ca4dbb5c78b9427068398a79a84c91c95fea86
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Ahora estás listo para usar %(serviceName)s"
 
@@ -633,31 +608,18 @@ msgstr "Estas conectado como"
 msgid "Sign out"
 msgstr "Salir"
 
-<<<<<<< HEAD
-#: app/scripts/templates/sign_in.mustache:1
-msgid "Sign in to %(serviceName)s"
-msgstr "Conéctate a %(serviceName)s"
-=======
 #: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
 #, fuzzy
 msgid "Continue to %(serviceName)s"
 msgstr "Ahora estás listo para usar %(serviceName)s."
->>>>>>> 46ca4dbb5c78b9427068398a79a84c91c95fea86
 
 #: app/scripts/templates/sign_in.mustache:12
 msgid "Create an account"
 msgstr "Crear una cuenta"
 
 #: app/scripts/templates/sign_up.mustache:1
-<<<<<<< HEAD
-msgid "Create a Firefox Account for %(serviceName)s"
-msgstr "Crea una cuenta de Firefox para %(serviceName)s"
-
-#: app/scripts/templates/sign_up.mustache:3
-=======
 #: app/scripts/templates/sign_up.mustache:4
->>>>>>> 46ca4dbb5c78b9427068398a79a84c91c95fea86
 msgid "Create a Firefox Account"
 msgstr "Crear una cuenta de Firefox"
 

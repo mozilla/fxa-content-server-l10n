@@ -1,15 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-<<<<<<< HEAD
-"POT-Creation-Date: 2014-06-25 01:36+0000\n"
-"PO-Revision-Date: 2014-05-14 05:33+0000\n"
-"Last-Translator: Arun <arunprakash.pts@gmail.com>\n"
-=======
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-25 07:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
->>>>>>> 46ca4dbb5c78b9427068398a79a84c91c95fea86
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
@@ -115,7 +109,6 @@ msgstr "கணக்கு வெற்றிகரமாக அழிக்க�
 msgid "/force_auth requires an email"
 msgstr "/force_auth க்கு ஒரு மின்னஞ்சல் தேவைபடுகிறது"
 
-<<<<<<< HEAD
 #: app/scripts/views/form.js:433 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "செல்லக்கூடிய மின்னஞ்சல் தேவைபடுகிறது"
@@ -132,9 +125,6 @@ msgid "Valid password required"
 msgstr "செல்லக்கூடிய கடவுச்சொல் தேவைப்படுகிறது"
 
 #: app/scripts/views/reset_password.js:77 app/scripts/views/sign_in.js:109
-=======
-#: app/scripts/views/reset_password.js:76 app/scripts/views/sign_in.js:127
->>>>>>> 46ca4dbb5c78b9427068398a79a84c91c95fea86
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "அறியப்படாத கணக்கு. <a href=\"/signup\">பதிவு செய்</a>"
 
@@ -142,15 +132,11 @@ msgstr "அறியப்படாத கணக்கு. <a href=\"/signup\">�
 msgid "Signed out"
 msgstr ""
 
-<<<<<<< HEAD
 #: app/scripts/views/sign_up.js:121 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "பிறந்த வருடம் தேவைப்படுகிறது"
 
 #: app/scripts/views/sign_up.js:195
-=======
-#: app/scripts/views/sign_up.js:214
->>>>>>> 46ca4dbb5c78b9427068398a79a84c91c95fea86
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "கணக்கு ஏற்கனவே உள்ளது. <a href=\"/signin\">உள்நுழை</a>"
 

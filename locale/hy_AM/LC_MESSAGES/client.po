@@ -2,15 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-"POT-Creation-Date: 2014-06-25 01:36+0000\n"
-"PO-Revision-Date: 2014-07-17 10:54+0000\n"
-"Last-Translator: Hrant <hrantohan@gmail.com>\n"
-=======
 "POT-Creation-Date: 2014-07-25 07:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
->>>>>>> 46ca4dbb5c78b9427068398a79a84c91c95fea86
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy_AM\n"
 "MIME-Version: 1.0\n"
@@ -113,7 +107,6 @@ msgstr "Հաշիվը հեռացվել է"
 msgid "/force_auth requires an email"
 msgstr "/force_auth գաղտնաբառ է պահանջում"
 
-<<<<<<< HEAD
 #: app/scripts/views/form.js:433 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "Նշեք էլ. փոստի ճիշտ հասցե"
@@ -130,9 +123,6 @@ msgid "Valid password required"
 msgstr "Պահանջվում է ճիշտ գաղտնաբառ"
 
 #: app/scripts/views/reset_password.js:77 app/scripts/views/sign_in.js:109
-=======
-#: app/scripts/views/reset_password.js:76 app/scripts/views/sign_in.js:127
->>>>>>> 46ca4dbb5c78b9427068398a79a84c91c95fea86
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Անհայտ հաշիվ: <a href=\"/signup\">Մուտք գործել</a>"
 
@@ -140,15 +130,11 @@ msgstr "Անհայտ հաշիվ: <a href=\"/signup\">Մուտք գործել</a>
 msgid "Signed out"
 msgstr "Ելք"
 
-<<<<<<< HEAD
 #: app/scripts/views/sign_up.js:121 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "Նշեք Ձեր ծննդյան ամսաթիվը"
 
 #: app/scripts/views/sign_up.js:195
-=======
-#: app/scripts/views/sign_up.js:214
->>>>>>> 46ca4dbb5c78b9427068398a79a84c91c95fea86
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Հաշիվը արդեն գոյություն ունի: <a href=\"/signin\">Մուտք գործել</a>"
 
