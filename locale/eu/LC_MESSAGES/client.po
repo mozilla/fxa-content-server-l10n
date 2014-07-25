@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-06-25 01:36+0000\n"
-"PO-Revision-Date: 2014-06-03 21:39+0000\n"
+"PO-Revision-Date: 2014-07-20 08:44+0000\n"
 "Last-Translator: Julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1401831555.0\n"
+"X-POOTLE-MTIME: 1405845898.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -234,7 +234,7 @@ msgstr "Pasahitzak ez datoz bat"
 
 #: app/scripts/lib/auth-errors.js:79
 msgid "Working…"
-msgstr ""
+msgstr "Lanean…"
 
 #: app/scripts/lib/auth-errors.js:80
 msgid "Could not get Privacy Notice"
@@ -322,6 +322,7 @@ msgstr "Aldatu pasahitza"
 msgid ""
 "Once you're ﬁnished, use your new password to sign in on all of your devices."
 msgstr ""
+"Amaitu ondoren, erabili pasahitz berria zure gailu guztietan saioa hasteko."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -345,7 +346,7 @@ msgstr "Pasahitz berria"
 
 #: app/scripts/templates/change_password.mustache:8
 msgid "Confirm"
-msgstr ""
+msgstr "Berretsi"
 
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/delete_account.mustache:6
@@ -356,9 +357,8 @@ msgid "Back"
 msgstr "Atzera"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
-#, fuzzy
 msgid "Reset password link expired"
-msgstr "Berrezarri pasahitza"
+msgstr "Pasahitza berrezartzeko lotura iraungita"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -376,9 +376,8 @@ msgid "Click here to receive a new reset link"
 msgstr "Egin klik hemen berrezartzeko lotura berri bat jasotzeko"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
-#, fuzzy
 msgid "Reset password link damaged"
-msgstr "Berrezarri pasahitza"
+msgstr "Pasahitza berrezartzeko lotura hondatuta"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:8
@@ -409,14 +408,13 @@ msgid "Verification link expired"
 msgstr "Egiaztapen-lotura iraungita"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
-#, fuzzy
 msgid "The link you clicked to verify your email is expired."
-msgstr "Pasahitza berrezartzeko klik egin duzun lotura iraungita dago."
+msgstr ""
+"Helbide elektronikoa egiaztatzeko klik egin duzun lotura iraungita dago."
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Click here to receive a new verification link"
-msgstr "Egin klik hemen berrezartzeko lotura berri bat jasotzeko"
+msgstr "Egin klik hemen egiaztatzeko lotura berri bat jasotzeko"
 
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
@@ -586,6 +584,9 @@ msgid ""
 "For security reasons, resetting your password will erase your Sync data from "
 "our servers. A new Sync backup will be created from your local browsing data."
 msgstr ""
+"Segurtasun-arrazoiengatik, pasahitza berrezartzean zure sinkronizatutako "
+"datuak gure zerbitzarietatik ezabatu egingo dira. Babeskopia berri bat "
+"egingo da zure nabigatze-datu lokaletatik."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
