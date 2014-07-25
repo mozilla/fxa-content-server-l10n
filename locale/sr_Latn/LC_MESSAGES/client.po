@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-06-25 01:36+0000\n"
-"PO-Revision-Date: 2014-06-04 12:02+0000\n"
+"PO-Revision-Date: 2014-06-26 09:26+0000\n"
 "Last-Translator: Aleksandra <auzelac91@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1401883370.0\n"
+"X-POOTLE-MTIME: 1403774785.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -235,7 +235,7 @@ msgstr "Lozinke se ne poklapaju"
 
 #: app/scripts/lib/auth-errors.js:79
 msgid "Working…"
-msgstr ""
+msgstr "Radim..."
 
 #: app/scripts/lib/auth-errors.js:80
 msgid "Could not get Privacy Notice"
@@ -325,6 +325,8 @@ msgstr "Promeni lozinku"
 msgid ""
 "Once you're ﬁnished, use your new password to sign in on all of your devices."
 msgstr ""
+"Kada ste završili, koristite novu lozinku da se prijavite na svim Vašim "
+"uređajima."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -348,7 +350,7 @@ msgstr "Nova lozinka"
 
 #: app/scripts/templates/change_password.mustache:8
 msgid "Confirm"
-msgstr ""
+msgstr "Potvrdi"
 
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/delete_account.mustache:6
@@ -359,9 +361,8 @@ msgid "Back"
 msgstr "Nazad"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
-#, fuzzy
 msgid "Reset password link expired"
-msgstr "Resetuj lozinku"
+msgstr "Veza za resetovanje lozinke je istekla"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -379,9 +380,8 @@ msgid "Click here to receive a new reset link"
 msgstr "Kliknite ovde da biste primili novu vezu za obnavljanje"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
-#, fuzzy
 msgid "Reset password link damaged"
-msgstr "Resetuj lozinku"
+msgstr "Veza za resetovanje lozinke je oštećena"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:8
@@ -412,14 +412,12 @@ msgid "Verification link expired"
 msgstr "Verifikaciona veza je istekla"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
-#, fuzzy
 msgid "The link you clicked to verify your email is expired."
-msgstr "Vezu koju ste kliknuli za obnavljanje lozinke je istekla."
+msgstr "Veza koju ste kliknuli za potvrdu Vaše e-pošte je istekla."
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Click here to receive a new verification link"
-msgstr "Kliknite ovde da biste primili novu vezu za obnavljanje"
+msgstr "Kliknite ovde da biste primili novu vezu za potvrdu"
 
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
@@ -475,8 +473,8 @@ msgid ""
 msgstr ""
 "Molimo Vas da omogućite kolačiće u Vašem pregledaču, neophodni su za "
 "korištećenje Firefox naloga. Kolačići su delići podataka čuvani u Vašem "
-"pregledaču koji pružaju funkcionalnost kao npr. pamćenje Vašeg "
-"prijavljivanja između sesija."
+"pregledaču koji pružaju funkcionalnost kao npr. pamćenje Vašeg prijavljivanja "
+"između sesija."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -591,6 +589,9 @@ msgid ""
 "For security reasons, resetting your password will erase your Sync data from "
 "our servers. A new Sync backup will be created from your local browsing data."
 msgstr ""
+"Iz bezbednosnih razloga, resetovanje lozinke će izbrisati sve sinhronizovane "
+"podatke sa naših servera. Stvoriće se nova rezerva sinhronizovanih podataka "
+"iz Vaših lokalnih podataka pregledanja."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
