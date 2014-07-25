@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-06-25 01:36+0000\n"
-"PO-Revision-Date: 2014-06-06 09:51+0000\n"
+"PO-Revision-Date: 2014-07-01 18:47+0000\n"
 "Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1402048299.0\n"
+"X-POOTLE-MTIME: 1404240474.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -236,7 +236,7 @@ msgstr "Le password non corrispondono"
 
 #: app/scripts/lib/auth-errors.js:79
 msgid "Working…"
-msgstr ""
+msgstr "Elaborazione in corso…"
 
 #: app/scripts/lib/auth-errors.js:80
 msgid "Could not get Privacy Notice"
@@ -323,9 +323,12 @@ msgid "Change password"
 msgstr "Modifica la password"
 
 #: app/scripts/templates/change_password.mustache:2
+#, fuzzy
 msgid ""
 "Once you're ﬁnished, use your new password to sign in on all of your devices."
 msgstr ""
+"Terminata l’operazione, accedi all’account su tutti i tuoi dispositivi "
+"utilizzando la nuova password."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -349,7 +352,7 @@ msgstr "Nuova password"
 
 #: app/scripts/templates/change_password.mustache:8
 msgid "Confirm"
-msgstr ""
+msgstr "Conferma"
 
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/delete_account.mustache:6
@@ -360,9 +363,8 @@ msgid "Back"
 msgstr "Indietro"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
-#, fuzzy
 msgid "Reset password link expired"
-msgstr "Reimposta la password"
+msgstr "Questo link per reimpostare la password è scaduto."
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -380,9 +382,8 @@ msgid "Click here to receive a new reset link"
 msgstr "Fai clic qui per ricevere un nuovo link per reimpostare la password"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
-#, fuzzy
 msgid "Reset password link damaged"
-msgstr "Reimposta la password"
+msgstr "Questo link per reimpostare la password non è valido."
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:8
@@ -414,14 +415,13 @@ msgid "Verification link expired"
 msgstr "Il link di verifica è scaduto"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
-#, fuzzy
 msgid "The link you clicked to verify your email is expired."
-msgstr "Il link per la reimpostazione della password è scaduto."
+msgstr ""
+"Questo link per la verifica dell’account di posta elettronica è scaduto."
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Click here to receive a new verification link"
-msgstr "Fai clic qui per ricevere un nuovo link per reimpostare la password"
+msgstr "Fai clic qui per ricevere un nuovo link di verifica"
 
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
@@ -590,10 +590,14 @@ msgid "Email"
 msgstr "Email"
 
 #: app/scripts/templates/reset_password.mustache:4
+#, fuzzy
 msgid ""
 "For security reasons, resetting your password will erase your Sync data from "
 "our servers. A new Sync backup will be created from your local browsing data."
 msgstr ""
+"Per ragioni di sicurezza reimpostando la password verranno eliminati dai "
+"nostri server tutti i dati dell'account di Sync. Un nuovo backup di Sync "
+"verrà creato dai dati di navigazione locali."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
