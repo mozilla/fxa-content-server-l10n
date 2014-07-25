@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-25 01:36+0000\n"
-"PO-Revision-Date: 2014-05-03 16:06+0000\n"
+"PO-Revision-Date: 2014-06-28 22:33+0000\n"
 "Last-Translator: Richard <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_CL\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1399133209.0\n"
+"X-POOTLE-MTIME: 1403994783.0\n"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "1991"
@@ -206,9 +206,8 @@ msgid "Request body too large"
 msgstr "Solicitud de cuerpo demasiado grande"
 
 #: app/scripts/lib/auth-errors.js:70
-#, fuzzy
 msgid "Attempt limit exceeded"
-msgstr "Límite de intentos excedido."
+msgstr "Límite de intentos excedido"
 
 #: app/scripts/lib/auth-errors.js:71
 msgid "System unavailable, try again soon"
@@ -236,7 +235,7 @@ msgstr "Las contraseñas no coinciden"
 
 #: app/scripts/lib/auth-errors.js:79
 msgid "Working…"
-msgstr ""
+msgstr "Trabajando…"
 
 #: app/scripts/lib/auth-errors.js:80
 msgid "Could not get Privacy Notice"
@@ -251,19 +250,16 @@ msgid "Your new password must be different"
 msgstr "Tu nueva conraseña debe ser diferente"
 
 #: app/scripts/lib/oauth-errors.js:28
-#, fuzzy
 msgid "Unknown client"
-msgstr "Cuenta desconocida"
+msgstr "Cliente desconocido"
 
 #: app/scripts/lib/oauth-errors.js:29
-#, fuzzy
 msgid "Incorrect redirect_uri"
-msgstr "Escritura incorrecta del correo"
+msgstr "redirect_uri incorrecto"
 
 #: app/scripts/lib/oauth-errors.js:30
-#, fuzzy
 msgid "Invalid assertion"
-msgstr "Llave inválida"
+msgstr "Aserción inválida"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -303,7 +299,7 @@ msgstr "No se puede conectar a internet"
 
 #: app/scripts/lib/strings.js:34
 msgid "Subscribe to Firefox news and tips"
-msgstr ""
+msgstr "Suscríete a noticias y consejos de Firefox"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -328,6 +324,8 @@ msgstr "Cambiar contraseña"
 msgid ""
 "Once you're ﬁnished, use your new password to sign in on all of your devices."
 msgstr ""
+"Una vez que hayas terminado, utiliza tu nueva contraseña para conectarte en "
+"todos tus dispositivos."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -351,7 +349,7 @@ msgstr "Nueva contraseña"
 
 #: app/scripts/templates/change_password.mustache:8
 msgid "Confirm"
-msgstr ""
+msgstr "Confirmar"
 
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/delete_account.mustache:6
@@ -362,9 +360,8 @@ msgid "Back"
 msgstr "Atrás"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
-#, fuzzy
 msgid "Reset password link expired"
-msgstr "Reiniciar contraseña"
+msgstr "Enlace de reinicio de contraseña expirado"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -382,9 +379,8 @@ msgid "Click here to receive a new reset link"
 msgstr "Cliquea aquí para recibir un nuevo enlace de reinicio"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
-#, fuzzy
 msgid "Reset password link damaged"
-msgstr "Reiniciar contraseña"
+msgstr "Enlace de reinicio de contraseña dañado"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:8
@@ -416,14 +412,13 @@ msgid "Verification link expired"
 msgstr "Enlace de verificación expirado"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
-#, fuzzy
 msgid "The link you clicked to verify your email is expired."
-msgstr "El enlace que cliqueaste para reiniciar tu contraseña está expirado."
+msgstr ""
+"El enlace que apretaste para verificar tu correo electrónico está expirado."
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Click here to receive a new verification link"
-msgstr "Cliquea aquí para recibir un nuevo enlace de reinicio"
+msgstr "Aprieta aquí para recibir un nuevo enlace de verificación"
 
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
@@ -468,7 +463,6 @@ msgid "Sign in"
 msgstr "Conectarse"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-#, fuzzy
 msgid "Cookies required"
 msgstr "Se requiren cookies"
 
@@ -565,9 +559,8 @@ msgid "Success"
 msgstr "Éxito"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s"
-msgstr "Ahora estás listo para usar %(serviceName)s."
+msgstr "Ahora estás listo para usar %(serviceName)s"
 
 #: app/scripts/templates/ready.mustache:10
 msgid "Your account is ready!"
@@ -596,6 +589,9 @@ msgid ""
 "For security reasons, resetting your password will erase your Sync data from "
 "our servers. A new Sync backup will be created from your local browsing data."
 msgstr ""
+"Por razones de seguridad, restablecer tu contraseña borrará tus datos de "
+"Sync de nuestros servidores. Un nuevo respaldo de Sync será creado a partir "
+"de tus datos de navegación locales."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
@@ -610,18 +606,16 @@ msgid "Sign out"
 msgstr "Salir"
 
 #: app/scripts/templates/sign_in.mustache:1
-#, fuzzy
 msgid "Sign in to %(serviceName)s"
-msgstr "Ahora estás listo para usar %(serviceName)s."
+msgstr "Conéctate a %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:10
 msgid "Create an account"
 msgstr "Crear una cuenta"
 
 #: app/scripts/templates/sign_up.mustache:1
-#, fuzzy
 msgid "Create a Firefox Account for %(serviceName)s"
-msgstr "Crear una cuenta de Firefox"
+msgstr "Crea una cuenta de Firefox para %(serviceName)s"
 
 #: app/scripts/templates/sign_up.mustache:3
 msgid "Create a Firefox Account"
