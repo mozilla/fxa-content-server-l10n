@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-25 07:29+0000\n"
-"PO-Revision-Date: 2014-06-26 19:35+0000\n"
+"PO-Revision-Date: 2014-07-26 12:20+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1403811340.0\n"
+"X-POOTLE-MTIME: 1406377215.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -610,9 +610,8 @@ msgstr "Afmelden"
 
 #: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
-#, fuzzy
 msgid "Continue to %(serviceName)s"
-msgstr "Meld u aan om %(serviceName)s te gebruiken"
+msgstr "Doorgaan naar %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:12
 msgid "Create an account"
@@ -641,7 +640,7 @@ msgstr "Hebt u al een account? Meld u aan."
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
-msgstr ""
+msgstr "Startpagina"
 
 #~ msgid "Signed in successfully"
 #~ msgstr "Met succes aangemeld"
