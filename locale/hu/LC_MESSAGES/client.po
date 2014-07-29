@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-25 07:29+0000\n"
-"PO-Revision-Date: 2014-05-14 11:42+0000\n"
+"PO-Revision-Date: 2014-07-29 12:57+0000\n"
 "Last-Translator: Gábor <kelemeng@ubuntu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n !=1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1400067779.0\n"
+"X-POOTLE-MTIME: 1406638678.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -188,9 +188,8 @@ msgid "Request body too large"
 msgstr "A kérés törzse túl nagy"
 
 #: app/scripts/lib/auth-errors.js:72
-#, fuzzy
 msgid "Attempt limit exceeded"
-msgstr "A kísérletek korlátja túllépve."
+msgstr "A kísérletek korlátja túllépve"
 
 #: app/scripts/lib/auth-errors.js:73
 msgid "Server busy, try again soon"
@@ -218,7 +217,7 @@ msgstr "A jelszavak nem egyeznek"
 
 #: app/scripts/lib/auth-errors.js:81
 msgid "Working…"
-msgstr ""
+msgstr "Dolgozunk…"
 
 #: app/scripts/lib/auth-errors.js:82
 msgid "Could not get Privacy Notice"
@@ -252,19 +251,16 @@ msgid "Year of birth required"
 msgstr "A születési év szükséges"
 
 #: app/scripts/lib/oauth-errors.js:32
-#, fuzzy
 msgid "Unknown client"
-msgstr "Ismeretlen fiók"
+msgstr "Ismeretlen kliens"
 
 #: app/scripts/lib/oauth-errors.js:33
-#, fuzzy
 msgid "Incorrect redirect_uri"
-msgstr "Az e-mail kis- és nagybetűi helytelenek"
+msgstr "Helytelen redirect_uri"
 
 #: app/scripts/lib/oauth-errors.js:34
-#, fuzzy
 msgid "Invalid assertion"
-msgstr "Érvénytelen jelsor"
+msgstr "Érvényesítési hiba"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -329,6 +325,7 @@ msgstr "Jelszó megváltoztatása"
 msgid ""
 "Once you're ﬁnished, use your new password to sign in on all of your devices."
 msgstr ""
+"Befejezés után használja új jelszavát a bejelentkezésre minden készülékén."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -352,7 +349,7 @@ msgstr "Új jelszó"
 
 #: app/scripts/templates/change_password.mustache:8
 msgid "Confirm"
-msgstr ""
+msgstr "Megerősítés"
 
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/delete_account.mustache:6
@@ -363,9 +360,8 @@ msgid "Back"
 msgstr "Vissza"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
-#, fuzzy
 msgid "Reset password link expired"
-msgstr "Jelszó visszaállítása"
+msgstr "A jelszó-visszaállítási hivatkozás lejárt"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -383,9 +379,8 @@ msgid "Click here to receive a new reset link"
 msgstr "Kattintson ide új hivatkozás kéréséhez"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
-#, fuzzy
 msgid "Reset password link damaged"
-msgstr "Jelszó visszaállítása"
+msgstr "A jelszó-visszaállítási hivatkozás sérült"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:8
@@ -416,14 +411,12 @@ msgid "Verification link expired"
 msgstr "Az ellenőrzési hivatkozás lejárt"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
-#, fuzzy
 msgid "The link you clicked to verify your email is expired."
-msgstr "A jelszó visszaállításához használt hivatkozás lejárt."
+msgstr "Az e-mail cím ellenőrzéséhez használt hivatkozás lejárt."
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Click here to receive a new verification link"
-msgstr "Kattintson ide új hivatkozás kéréséhez"
+msgstr "Kattintson ide új ellenőrzési hivatkozás kéréséhez"
 
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
@@ -469,7 +462,6 @@ msgid "Sign in"
 msgstr "Bejelentkezés"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-#, fuzzy
 msgid "Cookies required"
 msgstr "Sütik szükségesek"
 
@@ -569,9 +561,8 @@ msgid "Success"
 msgstr "Sikerült"
 
 #: app/scripts/templates/ready.mustache:6
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s"
-msgstr "Most már készen áll a %(serviceName)s használatára."
+msgstr "Most már készen áll a %(serviceName)s használatára"
 
 #: app/scripts/templates/ready.mustache:8
 msgid "Your account is ready!"
@@ -592,6 +583,9 @@ msgid ""
 "For security reasons, resetting your password will erase your Sync data from "
 "our servers. A new Sync backup will be created from your local browsing data."
 msgstr ""
+"Biztonsági okból a jelszó visszaállítása törölni fogja a Sync adatait a "
+"szervereinkről. Egy új Sync mentés kerül létrehozásra a helyi böngészési "
+"adatokból."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
@@ -607,9 +601,8 @@ msgstr "Kijelentkezés"
 
 #: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
-#, fuzzy
 msgid "Continue to %(serviceName)s"
-msgstr "Most már készen áll a %(serviceName)s használatára."
+msgstr "Tovább a %(serviceName)sra"
 
 #: app/scripts/templates/sign_in.mustache:12
 msgid "Create an account"
@@ -638,7 +631,7 @@ msgstr "Van felhasználói fiókja? Jelentkezzen be."
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
-msgstr ""
+msgstr "Kezdőoldal"
 
 #~ msgid "Signed in successfully"
 #~ msgstr "Sikeres bejelentkezés"
