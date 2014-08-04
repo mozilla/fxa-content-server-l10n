@@ -4,6 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-25 07:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
@@ -91,8 +92,8 @@ msgstr "Паролата е променена"
 
 #: app/scripts/views/change_password.js:71
 msgid ""
-"Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
-"a>."
+"Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
+"email</a>."
 msgstr ""
 
 #: app/scripts/views/confirm_reset_password.js:68
@@ -107,22 +108,8 @@ msgstr ""
 msgid "/force_auth requires an email"
 msgstr "/force_auth изисква мейл"
 
-#: app/scripts/views/form.js:433 app/scripts/lib/strings.js:18
-msgid "Valid email required"
-msgstr "Изисква се валиден мейл"
-
-#: app/scripts/views/form.js:475 app/scripts/lib/strings.js:23
-#: app/scripts/templates/change_password.mustache:7
-#: app/scripts/templates/complete_reset_password.mustache:14
-#: app/scripts/templates/sign_up.mustache:9
-msgid "Must be at least 8 characters"
-msgstr "Трябва да бъде поне 8 знака"
-
-#: app/scripts/views/form.js:476 app/scripts/lib/strings.js:19
-msgid "Valid password required"
-msgstr "Изисква се валидна парола"
-
-#: app/scripts/views/reset_password.js:77 app/scripts/views/sign_in.js:109
+#: app/scripts/views/reset_password.js:76
+#: app/scripts/views/sign_in.js:127
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Неизвестен акаунт. <a href=\"/signup\">Вписване</a>"
 
@@ -130,15 +117,12 @@ msgstr "Неизвестен акаунт. <a href=\"/signup\">Вписване<
 msgid "Signed out"
 msgstr ""
 
-#: app/scripts/views/sign_up.js:121 app/scripts/lib/strings.js:24
-msgid "Year of birth required"
-msgstr "Изисква се година на раждане"
-
-#: app/scripts/views/sign_up.js:195
+#: app/scripts/views/sign_up.js:214
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Акаунтът вече съществува. <a href=\"/signin\">Вписване</a>"
 
-#: app/scripts/lib/auth-errors.js:56 app/scripts/lib/oauth-errors.js:40
+#: app/scripts/lib/auth-errors.js:56
+#: app/scripts/lib/oauth-errors.js:40
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Неочаквана грешка"
@@ -155,7 +139,8 @@ msgstr "Невалиден момент от време в подписа на �
 msgid "Invalid nonce in request signature"
 msgstr "Невалиден „nonce“ в подписа на заявката"
 
-#: app/scripts/lib/auth-errors.js:60 app/scripts/lib/strings.js:25
+#: app/scripts/lib/auth-errors.js:60
+#: app/scripts/lib/strings.js:25
 msgid "Account already exists"
 msgstr "Този акаунт вече съществува"
 
@@ -183,7 +168,8 @@ msgstr "Невалиден проверяващ код"
 msgid "Invalid JSON in request body"
 msgstr "Невалиден JSON в тялото на заявката"
 
-#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:35
+#: app/scripts/lib/auth-errors.js:67
+#: app/scripts/lib/oauth-errors.js:35
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Невалиден параметър в тялото на заявката: %(param)s"
 
@@ -191,7 +177,8 @@ msgstr "Невалиден параметър в тялото на заявка�
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Липсващ параметър в тялото на заявката: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:69 app/scripts/lib/oauth-errors.js:36
+#: app/scripts/lib/auth-errors.js:69
+#: app/scripts/lib/oauth-errors.js:36
 msgid "Invalid request signature"
 msgstr "Невалиден подпис на заявката"
 
@@ -215,7 +202,8 @@ msgstr ""
 msgid "This endpoint is no longer supported"
 msgstr "Тази крайна точка вече не се поддържа"
 
-#: app/scripts/lib/auth-errors.js:77 app/scripts/lib/oauth-errors.js:39
+#: app/scripts/lib/auth-errors.js:77
+#: app/scripts/lib/oauth-errors.js:39
 msgid "System unavailable, try again soon"
 msgstr ""
 
@@ -247,22 +235,26 @@ msgstr "Не можаха да се вземат условията на усл�
 msgid "Your new password must be different"
 msgstr "Вашата нова парола трябва да е различна"
 
-#: app/scripts/lib/auth-errors.js:85 app/scripts/lib/strings.js:23
+#: app/scripts/lib/auth-errors.js:85
+#: app/scripts/lib/strings.js:23
 #: app/scripts/templates/change_password.mustache:7
 #: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/sign_up.mustache:11
 msgid "Must be at least 8 characters"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:86 app/scripts/lib/strings.js:19
+#: app/scripts/lib/auth-errors.js:86
+#: app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:87 app/scripts/lib/strings.js:18
+#: app/scripts/lib/auth-errors.js:87
+#: app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:88 app/scripts/lib/strings.js:24
+#: app/scripts/lib/auth-errors.js:88
+#: app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr ""
 
@@ -323,8 +315,7 @@ msgid "Cannot create account"
 msgstr "Не може да се създаде акаунт"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
-msgid ""
-"You must meet certain age requirements to create a Firefox&nbsp;Account."
+msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr ""
 "Трябва да отговаряте на определени възрастови изисквания, за да създадете "
 "Firefox&nbsp;Account."
@@ -340,7 +331,8 @@ msgstr "Промяна на паролата"
 
 #: app/scripts/templates/change_password.mustache:2
 msgid ""
-"Once you're ﬁnished, use your new password to sign in on all of your devices."
+"Once you're ﬁnished, use your new password to sign in on all of your "
+"devices."
 msgstr ""
 
 #: app/scripts/templates/change_password.mustache:3
@@ -501,8 +493,7 @@ msgid "Delete account"
 msgstr "Изтриване на акаунт"
 
 #: app/scripts/templates/delete_account.mustache:2
-msgid ""
-"Are you sure you want to delete your account? This action cannot be undone."
+msgid "Are you sure you want to delete your account? This action cannot be undone."
 msgstr ""
 "Сигурни ли сте, че искате да изтриете вашия акаунт? Това действие не може да "
 "бъде отменено по-късно."
@@ -528,15 +519,16 @@ msgstr "Забравили сте паролата?"
 #: app/scripts/templates/sign_up.mustache:32
 msgid ""
 "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-"of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
-"a> of Firefox cloud services."
+"of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
 "Продължавайки, се съгласявате с <a id=\"fxa-tos\" "
 "href=\"/legal/terms\">условията на услугата</a> и<a id=\"fxa-pp\" "
 "href=\"/legal/privacy\">политиката за лични данни</a> на облачните услуги на "
 "Firefox."
 
-#: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
+#: app/scripts/templates/legal.mustache:1
+#: app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
 msgstr "Облачни услуги на Firefox"
@@ -545,13 +537,19 @@ msgstr "Облачни услуги на Firefox"
 msgid "Legal"
 msgstr "Правни"
 
-#: app/scripts/templates/legal.mustache:3 app/scripts/templates/tos.mustache:2
+#: app/scripts/templates/legal.mustache:3
+#: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "Условия на услугата"
 
-#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
+#: app/scripts/templates/legal.mustache:4
+#: app/scripts/templates/pp.mustache:2
 msgid "Privacy Notice"
 msgstr "Политика за личните данни"
+
+#: app/scripts/templates/marketing_snippet.mustache:1
+msgid "Stay in sync on the go:"
+msgstr ""
 
 #: app/scripts/templates/marketing_snippet.mustache:2
 msgid "Get Firefox for Android"
@@ -589,8 +587,9 @@ msgstr "Мейл"
 
 #: app/scripts/templates/reset_password.mustache:4
 msgid ""
-"For security reasons, resetting your password will erase your Sync data from "
-"our servers. A new Sync backup will be created from your local browsing data."
+"For security reasons, resetting your password will erase your Sync data "
+"from our servers. A new Sync backup will be created from your local "
+"browsing data."
 msgstr ""
 
 #: app/scripts/templates/settings.mustache:1
