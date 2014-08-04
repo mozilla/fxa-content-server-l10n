@@ -4,150 +4,130 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-25 07:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1400045595.0\n"
+"X-Generator: Translate Toolkit 1.10.0-rc1\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
-msgstr "1991"
+msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:16
 msgid "1992"
-msgstr "1992"
+msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:17
 msgid "1993"
-msgstr "1993"
+msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:18
 msgid "1994"
-msgstr "1994"
+msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:19
 msgid "1995"
-msgstr "1995"
+msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:20
 msgid "1996"
-msgstr "1996"
+msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:21
 msgid "1997"
-msgstr "1997"
+msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:22
 msgid "1998"
-msgstr "1998"
+msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:23
 msgid "1999"
-msgstr "1999"
+msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:24
 msgid "2000"
-msgstr "2000"
+msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:25
 msgid "2001"
-msgstr "2001"
+msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:26
 msgid "2002"
-msgstr "2002"
+msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:27
 msgid "2003"
-msgstr "2003"
+msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:28
 msgid "2004"
-msgstr "2004"
+msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:29
 msgid "2005"
-msgstr "2005"
+msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:30
 msgid "2006"
-msgstr "2006"
+msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:31
 msgid "2007"
-msgstr "2007"
+msgstr ""
 
 #: app/scripts/views/base.js:508
 msgid "missing search parameter: %(itemName)s"
-msgstr "தேடல் காரணி குறிப்பிடப்படவில்லை: %(itemName)"
+msgstr ""
 
 #: app/scripts/views/change_password.js:67
 msgid "Password changed"
-msgstr "கடவுச்சொல் மாற்றப்பட்டது"
+msgstr ""
 
 #: app/scripts/views/change_password.js:71
 msgid ""
-"Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
-"a>."
+"Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
+"email</a>."
 msgstr ""
-"உறுதிபடுத்தப்படாத கணக்கு . <a href=\"#\" id=\"resend\">உறுதிபடுத்தல் மின்னஞ்சலை "
-"திரும்ப அனுப்பு</a>."
 
 #: app/scripts/views/confirm_reset_password.js:68
 msgid "Password reset. Sign in to continue."
-msgstr "கடவுச்சொல் மாற்றியமைக்கப்பட்டது. மேலும் தொடர உள்நுழையவும்."
+msgstr ""
 
 #: app/scripts/views/delete_account.js:46
 msgid "Account deleted successfully"
-msgstr "கணக்கு வெற்றிகரமாக அழிக்கப்பட்டது"
+msgstr ""
 
 #: app/scripts/views/force_auth.js:44
 msgid "/force_auth requires an email"
-msgstr "/force_auth க்கு ஒரு மின்னஞ்சல் தேவைபடுகிறது"
+msgstr ""
 
-#: app/scripts/views/form.js:433 app/scripts/lib/strings.js:18
-msgid "Valid email required"
-msgstr "செல்லக்கூடிய மின்னஞ்சல் தேவைபடுகிறது"
-
-#: app/scripts/views/form.js:475 app/scripts/lib/strings.js:23
-#: app/scripts/templates/change_password.mustache:7
-#: app/scripts/templates/complete_reset_password.mustache:14
-#: app/scripts/templates/sign_up.mustache:9
-msgid "Must be at least 8 characters"
-msgstr "குறைந்தபட்சம் 8 எழுத்துகள் இருத்தல் வேண்டும்"
-
-#: app/scripts/views/form.js:476 app/scripts/lib/strings.js:19
-msgid "Valid password required"
-msgstr "செல்லக்கூடிய கடவுச்சொல் தேவைப்படுகிறது"
-
-#: app/scripts/views/reset_password.js:77 app/scripts/views/sign_in.js:109
+#: app/scripts/views/reset_password.js:76
+#: app/scripts/views/sign_in.js:127
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr "அறியப்படாத கணக்கு. <a href=\"/signup\">பதிவு செய்</a>"
+msgstr ""
 
 #: app/scripts/views/settings.js:42
 msgid "Signed out"
 msgstr ""
 
-#: app/scripts/views/sign_up.js:121 app/scripts/lib/strings.js:24
-msgid "Year of birth required"
-msgstr "பிறந்த வருடம் தேவைப்படுகிறது"
-
-#: app/scripts/views/sign_up.js:195
+#: app/scripts/views/sign_up.js:214
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr "கணக்கு ஏற்கனவே உள்ளது. <a href=\"/signin\">உள்நுழை</a>"
+msgstr ""
 
-#: app/scripts/lib/auth-errors.js:56 app/scripts/lib/oauth-errors.js:40
+#: app/scripts/lib/auth-errors.js:56
+#: app/scripts/lib/oauth-errors.js:40
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
-msgstr "எதிர்பார்க்கப்படாத பிழை"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:57
 msgid "Invalid token"
-msgstr "செல்லாத குறியீடு"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:58
 msgid "Invalid timestamp in request signature"
@@ -157,13 +137,14 @@ msgstr ""
 msgid "Invalid nonce in request signature"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:60 app/scripts/lib/strings.js:25
+#: app/scripts/lib/auth-errors.js:60
+#: app/scripts/lib/strings.js:25
 msgid "Account already exists"
-msgstr "கணக்கு ஏற்கனவே உள்ளது"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "Unknown account"
-msgstr "அறியபடாத கணக்கு"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:62
 msgid "Incorrect email case"
@@ -185,7 +166,8 @@ msgstr ""
 msgid "Invalid JSON in request body"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:35
+#: app/scripts/lib/auth-errors.js:67
+#: app/scripts/lib/oauth-errors.js:35
 msgid "Invalid parameter in request body: %(param)s"
 msgstr ""
 
@@ -193,7 +175,8 @@ msgstr ""
 msgid "Missing parameter in request body: %(param)s"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:69 app/scripts/lib/oauth-errors.js:36
+#: app/scripts/lib/auth-errors.js:69
+#: app/scripts/lib/oauth-errors.js:36
 msgid "Invalid request signature"
 msgstr ""
 
@@ -217,21 +200,22 @@ msgstr ""
 msgid "This endpoint is no longer supported"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:77 app/scripts/lib/oauth-errors.js:39
+#: app/scripts/lib/auth-errors.js:77
+#: app/scripts/lib/oauth-errors.js:39
 msgid "System unavailable, try again soon"
 msgstr ""
 
 #: app/scripts/lib/auth-errors.js:78
 msgid "Session expired. Sign in to continue."
-msgstr "அமர்வு முடிவடைந்தது. மேலும் தொடர உள்நுழையவும்."
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:79
 msgid "Cookies are still disabled"
-msgstr "குக்கிகள் இன்னும் முடக்கப்பட்டுதான் உள்ளது"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:80
 msgid "Passwords do not match"
-msgstr "கடவுச்சொற்கள் பொருந்தவில்லை"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:81
 msgid "Working…"
@@ -239,32 +223,36 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:82
 msgid "Could not get Privacy Notice"
-msgstr "தனியுரிமை அறிவிப்பை பெறமுடியவில்லை"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:83
 msgid "Could not get Terms of Service"
-msgstr "பணிநிபந்தனைகளை பெறமுடியவில்லை"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:84
 msgid "Your new password must be different"
-msgstr "உங்கள் புதிய கடவுச்சொல் வேறாக இருக்கவேண்டும்"
+msgstr ""
 
-#: app/scripts/lib/auth-errors.js:85 app/scripts/lib/strings.js:23
+#: app/scripts/lib/auth-errors.js:85
+#: app/scripts/lib/strings.js:23
 #: app/scripts/templates/change_password.mustache:7
 #: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/sign_up.mustache:11
 msgid "Must be at least 8 characters"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:86 app/scripts/lib/strings.js:19
+#: app/scripts/lib/auth-errors.js:86
+#: app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:87 app/scripts/lib/strings.js:18
+#: app/scripts/lib/auth-errors.js:87
+#: app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:88 app/scripts/lib/strings.js:24
+#: app/scripts/lib/auth-errors.js:88
+#: app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr ""
 
@@ -282,19 +270,19 @@ msgstr ""
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
-msgstr "பையர்பாக்ஸ் ஒத்திசைவு"
+msgstr ""
 
 #: app/scripts/lib/strings.js:20
 msgid "Invalid password"
-msgstr "செல்லாத கடவுச்சொல்"
+msgstr ""
 
 #: app/scripts/lib/strings.js:21
 msgid "Invalid email and password"
-msgstr "செல்லாத மின்னஞ்சல் மற்றும் கடவுச்சொல்"
+msgstr ""
 
 #: app/scripts/lib/strings.js:22
 msgid "Invalid email or password"
-msgstr "செல்லாத மின்னஞ்சல் அல்லது கடவுச்சொல்"
+msgstr ""
 
 #: app/scripts/lib/strings.js:26
 msgid "Old password invalid"
@@ -322,30 +310,30 @@ msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
-msgstr "கணக்கை உருவாக்க முடியாது"
+msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:2
-msgid ""
-"You must meet certain age requirements to create a Firefox&nbsp;Account."
+msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:3
 msgid "Learn more."
-msgstr "மேலும் படிக்க."
+msgstr ""
 
 #: app/scripts/templates/change_password.mustache:1
 #: app/scripts/templates/settings.mustache:5
 msgid "Change password"
-msgstr "கடவுச்சொல்லை மாற்று"
+msgstr ""
 
 #: app/scripts/templates/change_password.mustache:2
 msgid ""
-"Once you're ﬁnished, use your new password to sign in on all of your devices."
+"Once you're ﬁnished, use your new password to sign in on all of your "
+"devices."
 msgstr ""
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
-msgstr "பழைய கடவுச்சொல்"
+msgstr ""
 
 #: app/scripts/templates/change_password.mustache:4
 #: app/scripts/templates/change_password.mustache:6
@@ -356,12 +344,12 @@ msgstr "பழைய கடவுச்சொல்"
 #: app/scripts/templates/sign_in.mustache:9
 #: app/scripts/templates/sign_up.mustache:10
 msgid "Show"
-msgstr "காண்பி"
+msgstr ""
 
 #: app/scripts/templates/change_password.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid "New password"
-msgstr "புதிய கடவுச்சொல்"
+msgstr ""
 
 #: app/scripts/templates/change_password.mustache:8
 msgid "Confirm"
@@ -373,7 +361,7 @@ msgstr ""
 #: app/scripts/templates/reset_password.mustache:6
 #: app/scripts/templates/tos.mustache:3
 msgid "Back"
-msgstr "பின்"
+msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -408,7 +396,7 @@ msgstr ""
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
 msgid "Reset password"
-msgstr "கடவுச்சொல்லை மாற்றியமை"
+msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:12
 msgid "Repeat password"
@@ -418,7 +406,7 @@ msgstr ""
 #: app/scripts/templates/reset_password.mustache:5
 #: app/scripts/templates/sign_up.mustache:33
 msgid "Next"
-msgstr "அடுத்து"
+msgstr ""
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
@@ -438,26 +426,25 @@ msgstr ""
 
 #: app/scripts/templates/complete_sign_up.mustache:10
 msgid "Verification error"
-msgstr "உறுதிசெய்வதில் பிழை"
+msgstr ""
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
-msgstr "உங்கள் கணக்கை உறுதிசெய்யவும்"
+msgstr ""
 
 #: app/scripts/templates/confirm.mustache:3
 #: app/scripts/templates/confirm_reset_password.mustache:3
 msgid "Email Sent"
-msgstr "மின்னஞ்சல் அனுப்பப்பட்டது"
+msgstr ""
 
 #: app/scripts/templates/confirm.mustache:4
 msgid "A verification link has been sent&nbsp;to %(email)s"
 msgstr ""
-"ஒரு சரிபார்ப்பு இணைப்பு &nbsp; %(email) என்ற மின்னஞ்சலுக்கு அனுப்பபட்டுள்ளது"
 
 #: app/scripts/templates/confirm.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:8
 msgid "Resend email"
-msgstr "மின்னஞ்சலை திரும்ப அனுப்பு"
+msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -499,11 +486,10 @@ msgstr ""
 #: app/scripts/templates/delete_account.mustache:5
 #: app/scripts/templates/settings.mustache:6
 msgid "Delete account"
-msgstr "கணக்கை அழிக்கவும்"
+msgstr ""
 
 #: app/scripts/templates/delete_account.mustache:2
-msgid ""
-"Are you sure you want to delete your account? This action cannot be undone."
+msgid "Are you sure you want to delete your account? This action cannot be undone."
 msgstr ""
 
 #: app/scripts/templates/delete_account.mustache:3
@@ -511,7 +497,7 @@ msgstr ""
 #: app/scripts/templates/sign_in.mustache:7
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Password"
-msgstr "கடவுச்சொல்"
+msgstr ""
 
 #: app/scripts/templates/force_auth.mustache:1
 msgid "Sign in to continue"
@@ -527,11 +513,12 @@ msgstr ""
 #: app/scripts/templates/sign_up.mustache:32
 msgid ""
 "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-"of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
-"a> of Firefox cloud services."
+"of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
 
-#: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
+#: app/scripts/templates/legal.mustache:1
+#: app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
 msgstr ""
@@ -540,11 +527,13 @@ msgstr ""
 msgid "Legal"
 msgstr ""
 
-#: app/scripts/templates/legal.mustache:3 app/scripts/templates/tos.mustache:2
+#: app/scripts/templates/legal.mustache:3
+#: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr ""
 
-#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
+#: app/scripts/templates/legal.mustache:4
+#: app/scripts/templates/pp.mustache:2
 msgid "Privacy Notice"
 msgstr ""
 
@@ -588,8 +577,9 @@ msgstr ""
 
 #: app/scripts/templates/reset_password.mustache:4
 msgid ""
-"For security reasons, resetting your password will erase your Sync data from "
-"our servers. A new Sync backup will be created from your local browsing data."
+"For security reasons, resetting your password will erase your Sync data "
+"from our servers. A new Sync backup will be created from your local "
+"browsing data."
 msgstr ""
 
 #: app/scripts/templates/settings.mustache:1
