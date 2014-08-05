@@ -14,11 +14,13 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1399203103.0\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1 server/templates/email/reset.html:1
+#: server/templates/pages/src/terms.html:1
+#: server/templates/email/reset.html:1
 #: server/templates/email/verify.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Account"
@@ -36,7 +38,8 @@ msgstr ""
 "segnalazione del problema e cercheremo di sistemare qualsiasi collegamento "
 "non funzionante."
 
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
+#: server/templates/pages/src/404.html:4
+#: server/templates/pages/src/500.html:4
 #: server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "Pagina principale"
@@ -69,12 +72,13 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+"You are using an <strong>outdated</strong> browser. Please <a "
+"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+"experience."
 msgstr ""
-"Il browser in uso <strong>non è aggiornato</strong>. <a href=\"http://"
-"browsehappy.com/\">Aggiornalo ora</a> per migliorare la fruizione di questo "
-"sito."
+"Il browser in uso <strong>non è aggiornato</strong>. <a "
+"href=\"http://browsehappy.com/\">Aggiornalo ora</a> per migliorare la "
+"fruizione di questo sito."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -95,11 +99,13 @@ msgstr "Servizi cloud di Firefox"
 msgid "Terms of Service"
 msgstr "Termini di servizio"
 
-#: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
+#: server/templates/email/reset.html:2
+#: server/templates/email/reset.txt:1
 msgid "Are you sure?"
 msgstr "Procedere con l’operazione?"
 
-#: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
+#: server/templates/email/reset.html:3
+#: server/templates/email/reset.txt:2
 msgid "Please confirm that you'd like to reset the password for %(email)s."
 msgstr "È necessaria una conferma per reimpostare la password per %(email)s."
 
@@ -107,8 +113,10 @@ msgstr "È necessaria una conferma per reimpostare la password per %(email)s."
 msgid "Reset password"
 msgstr "Reimposta la password"
 
-#: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
-#: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
+#: server/templates/email/reset.html:5
+#: server/templates/email/reset.txt:4
+#: server/templates/email/verify.html:5
+#: server/templates/email/verify.txt:4
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
@@ -116,27 +124,31 @@ msgstr ""
 "Questa email è stata inviata da un servizio automatico, se hai ricevuto "
 "questa e-mail per errore, puoi semplicemente ignorarla."
 
-#: server/templates/email/reset.html:6 server/templates/email/verify.html:6
+#: server/templates/email/reset.html:6
+#: server/templates/email/verify.html:6
 msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
+"For more information, please visit <a "
+"href='https://support.mozilla.org'>Mozilla Support</a>"
 msgstr ""
-"Per ulteriori informazioni visita il <a href='https://support.mozilla."
-"org'>sito di supporto Mozilla</a>"
+"Per ulteriori informazioni visita il <a "
+"href='https://support.mozilla.org'>sito di supporto Mozilla</a>"
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
 msgstr "Reimposta la password:"
 
-#: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
+#: server/templates/email/reset.txt:5
+#: server/templates/email/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
 msgstr "Per ulteriori informazioni visita https://support.mozilla.org"
 
-#: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
+#: server/templates/email/verify.html:2
+#: server/templates/email/verify.txt:1
 msgid "Congratulations!"
 msgstr "Complimenti!"
 
-#: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
+#: server/templates/email/verify.html:3
+#: server/templates/email/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
 msgstr ""
 "%(email)s, tra pochi secondi questo account Firefox Account sarà confermato."
