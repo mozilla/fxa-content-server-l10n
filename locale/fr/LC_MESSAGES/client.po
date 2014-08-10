@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-25 07:29+0000\n"
-"PO-Revision-Date: 2014-08-02 13:32+0000\n"
+"PO-Revision-Date: 2014-08-10 22:28+0000\n"
 "Last-Translator: SphinxKnight <sphinx_knight@hotmail.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1406986348.0\n"
+"X-POOTLE-MTIME: 1407709708.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -607,9 +607,8 @@ msgstr "Déconnexion"
 
 #: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
-#, fuzzy
 msgid "Continue to %(serviceName)s"
-msgstr "Se connecter à %(serviceName)s"
+msgstr "Continuer vers %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:12
 msgid "Create an account"
@@ -638,7 +637,7 @@ msgstr "Vous possédez déjà un compte ? Connectez-vous."
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
-msgstr ""
+msgstr "Accueil"
 
 #~ msgid "Signed in successfully"
 #~ msgstr "Connexion réussie"
