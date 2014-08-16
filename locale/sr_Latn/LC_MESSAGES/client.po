@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-25 07:29+0000\n"
-"PO-Revision-Date: 2014-06-26 09:26+0000\n"
-"Last-Translator: Aleksandra <auzelac91@gmail.com>\n"
+"PO-Revision-Date: 2014-07-26 12:52+0000\n"
+"Last-Translator: Vanja <tumbas93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1403774785.0\n"
+"X-POOTLE-MTIME: 1406379120.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -476,8 +476,8 @@ msgid ""
 msgstr ""
 "Molimo Vas da omogućite kolačiće u Vašem pregledaču, neophodni su za "
 "korištećenje Firefox naloga. Kolačići su delići podataka čuvani u Vašem "
-"pregledaču koji pružaju funkcionalnost kao npr. pamćenje Vašeg "
-"prijavljivanja između sesija."
+"pregledaču koji pružaju funkcionalnost kao npr. pamćenje Vašeg prijavljivanja "
+"između sesija."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -606,9 +606,8 @@ msgstr "Odjavi se"
 
 #: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
-#, fuzzy
 msgid "Continue to %(serviceName)s"
-msgstr "Prijavite se na %(serviceName)s"
+msgstr "Nastavite na %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:12
 msgid "Create an account"
@@ -637,7 +636,7 @@ msgstr "Već imate nalog? Prijavite se."
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
-msgstr ""
+msgstr "Početna"
 
 #~ msgid "Signed in successfully"
 #~ msgstr "Prijavljivanje je uspešno"
