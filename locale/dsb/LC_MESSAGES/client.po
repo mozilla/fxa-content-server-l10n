@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-25 07:29+0000\n"
+"POT-Creation-Date: 2014-08-19 20:39+0000\n"
 "PO-Revision-Date: 2014-07-26 14:33+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,8 +10,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1406385232.0\n"
 
@@ -83,7 +83,7 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/base.js:508
+#: app/scripts/views/base.js:531
 msgid "missing search parameter: %(itemName)s"
 msgstr "felujucy pytański parameter: %(itemName)s"
 
@@ -123,145 +123,173 @@ msgstr "Wótzjawjony"
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Konto južo eksistěrujo. <a href=\"/signin\">Pśizjawiś</a>"
 
-#: app/scripts/lib/auth-errors.js:56 app/scripts/lib/oauth-errors.js:40
+#: app/scripts/views/settings/avatar_gravatar.js:58
+msgid "No Gravatar found"
+msgstr ""
+
+#: app/scripts/views/settings/avatar_gravatar.js:78
+msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:59 app/scripts/lib/oauth-errors.js:41
+#: app/scripts/lib/profile-client.js:76 app/scripts/lib/profile-client.js:80
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Njewótcakowana zmólka"
 
-#: app/scripts/lib/auth-errors.js:57
+#: app/scripts/lib/auth-errors.js:60
 msgid "Invalid token"
 msgstr "Njepłaśiwy token"
 
-#: app/scripts/lib/auth-errors.js:58
+#: app/scripts/lib/auth-errors.js:61
 msgid "Invalid timestamp in request signature"
 msgstr "Njepłaśiwy casowy kołk w napšašowańskej signaturje"
 
-#: app/scripts/lib/auth-errors.js:59
+#: app/scripts/lib/auth-errors.js:62
 msgid "Invalid nonce in request signature"
 msgstr "Njepłaśiwy nonce w napšašowańskej signaturje"
 
-#: app/scripts/lib/auth-errors.js:60 app/scripts/lib/strings.js:25
+#: app/scripts/lib/auth-errors.js:63 app/scripts/lib/strings.js:25
 msgid "Account already exists"
 msgstr "Konto južo eksistěrujo"
 
-#: app/scripts/lib/auth-errors.js:61
+#: app/scripts/lib/auth-errors.js:64
 msgid "Unknown account"
 msgstr "Njeznate konto"
 
-#: app/scripts/lib/auth-errors.js:62
+#: app/scripts/lib/auth-errors.js:65
 msgid "Incorrect email case"
 msgstr "Njekorektna e-mailowa adresa"
 
-#: app/scripts/lib/auth-errors.js:63
+#: app/scripts/lib/auth-errors.js:66
 msgid "Incorrect password"
 msgstr "Njekorektne gronidło"
 
-#: app/scripts/lib/auth-errors.js:64
+#: app/scripts/lib/auth-errors.js:67
 msgid "Unverified account"
 msgstr "Njewobkšuśone konto"
 
-#: app/scripts/lib/auth-errors.js:65
+#: app/scripts/lib/auth-errors.js:68
 msgid "Invalid verification code"
 msgstr "Njepłaśiwy wobkšuśeński kode"
 
-#: app/scripts/lib/auth-errors.js:66
+#: app/scripts/lib/auth-errors.js:69
 msgid "Invalid JSON in request body"
 msgstr "Njepłaśiwy JSON w napšašowańskem korpusu"
 
-#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:35
+#: app/scripts/lib/auth-errors.js:70 app/scripts/lib/oauth-errors.js:36
+#: app/scripts/lib/profile-client.js:77
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Njepłaśiwy parameter w napšašowańskem korpusu: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:68
+#: app/scripts/lib/auth-errors.js:71
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Felujucy parameter w napšašowańskem korpusu: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:69 app/scripts/lib/oauth-errors.js:36
+#: app/scripts/lib/auth-errors.js:72 app/scripts/lib/oauth-errors.js:37
 msgid "Invalid request signature"
 msgstr "Njepłaśiwa napšašowańska signatura"
 
-#: app/scripts/lib/auth-errors.js:70
+#: app/scripts/lib/auth-errors.js:73
 msgid "Missing content-length header"
 msgstr "Felujuca głowowa smužka content-length"
 
-#: app/scripts/lib/auth-errors.js:71
+#: app/scripts/lib/auth-errors.js:74
 msgid "Request body too large"
 msgstr "Napšašowański korpus jo pśedłujki"
 
-#: app/scripts/lib/auth-errors.js:72
+#: app/scripts/lib/auth-errors.js:75
 msgid "Attempt limit exceeded"
 msgstr "Maksimalna licba wopytow jo se pšekšocyła"
 
-#: app/scripts/lib/auth-errors.js:73
+#: app/scripts/lib/auth-errors.js:76
 msgid "Server busy, try again soon"
 msgstr "Serwer jo póśěźony, wopytajśo za krotki cas hyšći raz"
 
-#: app/scripts/lib/auth-errors.js:74
+#: app/scripts/lib/auth-errors.js:77
 msgid "This endpoint is no longer supported"
 msgstr "Toś ten kóńcny dypk se wěcej njepódpěra"
 
-#: app/scripts/lib/auth-errors.js:77 app/scripts/lib/oauth-errors.js:39
+#: app/scripts/lib/auth-errors.js:80 app/scripts/lib/oauth-errors.js:40
+#: app/scripts/lib/profile-client.js:79
 msgid "System unavailable, try again soon"
 msgstr "System njestoj k dispoziciji, wopytajśo za krotki cas hyšći raz"
 
-#: app/scripts/lib/auth-errors.js:78
+#: app/scripts/lib/auth-errors.js:81
 msgid "Session expired. Sign in to continue."
 msgstr "Pósejźenje jo wótběgnuło. Pśizjawśo se, aby pókšacował."
 
-#: app/scripts/lib/auth-errors.js:79
+#: app/scripts/lib/auth-errors.js:82
 msgid "Cookies are still disabled"
 msgstr "Cookieje su hyšći znjemóžnjone"
 
-#: app/scripts/lib/auth-errors.js:80
+#: app/scripts/lib/auth-errors.js:83
 msgid "Passwords do not match"
 msgstr "Gronidle njejstej jadnakej"
 
-#: app/scripts/lib/auth-errors.js:81
+#: app/scripts/lib/auth-errors.js:84
 msgid "Working…"
 msgstr "Jo hyšći w źěle…"
 
-#: app/scripts/lib/auth-errors.js:82
+#: app/scripts/lib/auth-errors.js:85
 msgid "Could not get Privacy Notice"
 msgstr "Wuzjawjenje priwatnosći njejo se namakało"
 
-#: app/scripts/lib/auth-errors.js:83
+#: app/scripts/lib/auth-errors.js:86
 msgid "Could not get Terms of Service"
 msgstr "Wužywańske wuměnjenja njejsu se namakali"
 
-#: app/scripts/lib/auth-errors.js:84
+#: app/scripts/lib/auth-errors.js:87
 msgid "Your new password must be different"
 msgstr "Wašo nowe gronidło musy druge byś"
 
-#: app/scripts/lib/auth-errors.js:85 app/scripts/lib/strings.js:23
+#: app/scripts/lib/auth-errors.js:88 app/scripts/lib/strings.js:23
 #: app/scripts/templates/change_password.mustache:7
 #: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/sign_up.mustache:11
 msgid "Must be at least 8 characters"
 msgstr "Musy nanejmjenjej 8 znamuškow dłujke byś"
 
-#: app/scripts/lib/auth-errors.js:86 app/scripts/lib/strings.js:19
+#: app/scripts/lib/auth-errors.js:89 app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr "Płaśiwe gronidło trěbne"
 
-#: app/scripts/lib/auth-errors.js:87 app/scripts/lib/strings.js:18
+#: app/scripts/lib/auth-errors.js:90 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "Płaśiwa e-mailowa adresa trěbna"
 
-#: app/scripts/lib/auth-errors.js:88 app/scripts/lib/strings.js:24
+#: app/scripts/lib/auth-errors.js:91 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "Lěto naroźenja trěbne"
 
-#: app/scripts/lib/oauth-errors.js:32
+#: app/scripts/lib/auth-errors.js:92
+msgid "A usable image was not found"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:93
+msgid "Could not initialize camera"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:94
+#, fuzzy
+msgid "Valid URL required"
+msgstr "Płaśiwa e-mailowa adresa trěbna"
+
+#: app/scripts/lib/oauth-errors.js:33
 msgid "Unknown client"
 msgstr "Njeznaty klient"
 
-#: app/scripts/lib/oauth-errors.js:33
+#: app/scripts/lib/oauth-errors.js:34
 msgid "Incorrect redirect_uri"
 msgstr "Njekorektny redirect_url"
 
-#: app/scripts/lib/oauth-errors.js:34
+#: app/scripts/lib/oauth-errors.js:35
 msgid "Invalid assertion"
 msgstr "Njepłaśiwe twarźenje"
+
+#: app/scripts/lib/oauth-errors.js:42
+msgid "Something went wrong. Please close this tab and try again."
+msgstr ""
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -408,6 +436,7 @@ msgstr "Gronidło wóspjetowaś"
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/reset_password.mustache:5
 #: app/scripts/templates/sign_up.mustache:33
+#: app/scripts/templates/settings/avatar_url.mustache:5
 msgid "Next"
 msgstr "Dalej"
 
@@ -540,11 +569,14 @@ msgstr "Mrokowsłužby Firefox"
 msgid "Legal"
 msgstr "Pšawniske wěcy"
 
-#: app/scripts/templates/legal.mustache:3 app/scripts/templates/tos.mustache:2
+#: app/scripts/templates/legal.mustache:3
+#: app/scripts/templates/settings.mustache:7
+#: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "Wužywańske wuměnjenja"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
+#: app/scripts/templates/settings.mustache:8
 msgid "Privacy Notice"
 msgstr "Wuzjawjenje priwatnosći"
 
@@ -596,6 +628,12 @@ msgstr ""
 "serwerow lašowaś, gaž stajaśo swóje gronidło slědk."
 
 #: app/scripts/templates/settings.mustache:1
+#: app/scripts/templates/settings/avatar.mustache:1
+#: app/scripts/templates/settings/avatar_camera.mustache:1
+#: app/scripts/templates/settings/avatar_change.mustache:1
+#: app/scripts/templates/settings/avatar_crop.mustache:1
+#: app/scripts/templates/settings/avatar_gravatar.mustache:1
+#: app/scripts/templates/settings/avatar_url.mustache:1
 msgid "Manage account"
 msgstr "Konto zastojaś"
 
@@ -640,6 +678,60 @@ msgstr "Maśo južo konto? Pśizjawśo se."
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
 msgstr "Startowy bok"
+
+#: app/scripts/templates/settings/avatar.mustache:2
+#: app/scripts/templates/settings/avatar_camera.mustache:2
+#: app/scripts/templates/settings/avatar_change.mustache:2
+#: app/scripts/templates/settings/avatar_crop.mustache:2
+#: app/scripts/templates/settings/avatar_gravatar.mustache:2
+#: app/scripts/templates/settings/avatar_url.mustache:2
+#, fuzzy
+msgid "Account picture"
+msgstr "Konto jo wobkšuśone"
+
+#: app/scripts/templates/settings/avatar.mustache:4
+msgid "Change"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_camera.mustache:4
+msgid "Take picture"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_camera.mustache:5
+#: app/scripts/templates/settings/avatar_crop.mustache:5
+#: app/scripts/templates/settings/avatar_gravatar.mustache:5
+#: app/scripts/templates/settings/avatar_url.mustache:6
+msgid "Cancel"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_change.mustache:4
+msgid "Upload"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_change.mustache:5
+msgid "URL"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_change.mustache:6
+msgid "Camera"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_change.mustache:7
+msgid "Gravatar"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_crop.mustache:3
+msgid "Position and rotate your picture as needed"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_crop.mustache:4
+#: app/scripts/templates/settings/avatar_gravatar.mustache:4
+msgid "Save"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_url.mustache:4
+msgid "Paste image URL"
+msgstr ""
 
 #~ msgid "Signed in successfully"
 #~ msgstr "Wuspěšnje pśizjawjony"

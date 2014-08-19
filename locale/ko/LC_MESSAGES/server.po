@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-25 07:29+0000\n"
+"POT-Creation-Date: 2014-08-19 20:39+0000\n"
 "PO-Revision-Date: 2014-06-07 09:40+0000\n"
 "Last-Translator: Hyeonseok <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,6 +35,8 @@ msgstr "요청하신 페이지를 찾을 수 없습니다. 잘못된 링크를 �
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/503.html:4
+#: server/templates/pages/src/privacy.html:6
+#: server/templates/pages/src/terms.html:6
 msgid "Home"
 msgstr "첫화면"
 

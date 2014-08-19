@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-25 07:29+0000\n"
+"POT-Creation-Date: 2014-08-19 20:39+0000\n"
 "PO-Revision-Date: 2014-05-14 08:06+0000\n"
 "Last-Translator: Wim <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
@@ -82,7 +82,7 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/base.js:508
+#: app/scripts/views/base.js:531
 msgid "missing search parameter: %(itemName)s"
 msgstr "sykparameter ûntbrekt: %(itemName)s"
 
@@ -122,149 +122,177 @@ msgstr "Ofmelden"
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Account bestiet al. <a href=\"/signin\">Oanmelde</a>"
 
-#: app/scripts/lib/auth-errors.js:56 app/scripts/lib/oauth-errors.js:40
+#: app/scripts/views/settings/avatar_gravatar.js:58
+msgid "No Gravatar found"
+msgstr ""
+
+#: app/scripts/views/settings/avatar_gravatar.js:78
+msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:59 app/scripts/lib/oauth-errors.js:41
+#: app/scripts/lib/profile-client.js:76 app/scripts/lib/profile-client.js:80
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Unferwachte flater"
 
-#: app/scripts/lib/auth-errors.js:57
+#: app/scripts/lib/auth-errors.js:60
 msgid "Invalid token"
 msgstr "Unjildich token"
 
-#: app/scripts/lib/auth-errors.js:58
+#: app/scripts/lib/auth-errors.js:61
 msgid "Invalid timestamp in request signature"
 msgstr "Unjildige tiidstimpel yn oanfraachhântekening"
 
-#: app/scripts/lib/auth-errors.js:59
+#: app/scripts/lib/auth-errors.js:62
 msgid "Invalid nonce in request signature"
 msgstr "Unjildige nonce yn oanfraachhântekening"
 
-#: app/scripts/lib/auth-errors.js:60 app/scripts/lib/strings.js:25
+#: app/scripts/lib/auth-errors.js:63 app/scripts/lib/strings.js:25
 msgid "Account already exists"
 msgstr "Account bestiet al"
 
-#: app/scripts/lib/auth-errors.js:61
+#: app/scripts/lib/auth-errors.js:64
 msgid "Unknown account"
 msgstr "Unbekende account"
 
-#: app/scripts/lib/auth-errors.js:62
+#: app/scripts/lib/auth-errors.js:65
 msgid "Incorrect email case"
 msgstr "Ferkearde letters yn e-mailadres"
 
-#: app/scripts/lib/auth-errors.js:63
+#: app/scripts/lib/auth-errors.js:66
 msgid "Incorrect password"
 msgstr "Ferkeard wachtwurd"
 
-#: app/scripts/lib/auth-errors.js:64
+#: app/scripts/lib/auth-errors.js:67
 msgid "Unverified account"
 msgstr "Net-ferifiearre account"
 
-#: app/scripts/lib/auth-errors.js:65
+#: app/scripts/lib/auth-errors.js:68
 msgid "Invalid verification code"
 msgstr "Unjildige ferifikaasjekoade"
 
-#: app/scripts/lib/auth-errors.js:66
+#: app/scripts/lib/auth-errors.js:69
 msgid "Invalid JSON in request body"
 msgstr "Unjildige JSON yn oanfraachtekst"
 
-#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:35
+#: app/scripts/lib/auth-errors.js:70 app/scripts/lib/oauth-errors.js:36
+#: app/scripts/lib/profile-client.js:77
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Unjildige parameter yn oanfraachtekst: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:68
+#: app/scripts/lib/auth-errors.js:71
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Untbrekkende parameter yn oanfraachtekst: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:69 app/scripts/lib/oauth-errors.js:36
+#: app/scripts/lib/auth-errors.js:72 app/scripts/lib/oauth-errors.js:37
 msgid "Invalid request signature"
 msgstr "Unjildige oanfraachhântekening"
 
-#: app/scripts/lib/auth-errors.js:70
+#: app/scripts/lib/auth-errors.js:73
 msgid "Missing content-length header"
 msgstr "Header content-length ûntbrekt"
 
-#: app/scripts/lib/auth-errors.js:71
+#: app/scripts/lib/auth-errors.js:74
 msgid "Request body too large"
 msgstr "Oanfraachtekst te lang"
 
-#: app/scripts/lib/auth-errors.js:72
+#: app/scripts/lib/auth-errors.js:75
 #, fuzzy
 msgid "Attempt limit exceeded"
 msgstr "Tastiene oantal mooglikheden berikt."
 
-#: app/scripts/lib/auth-errors.js:73
+#: app/scripts/lib/auth-errors.js:76
 msgid "Server busy, try again soon"
 msgstr "Server beset, probearje it letter opnij"
 
-#: app/scripts/lib/auth-errors.js:74
+#: app/scripts/lib/auth-errors.js:77
 msgid "This endpoint is no longer supported"
 msgstr "Dit einpunt wurdt net mear stipe"
 
-#: app/scripts/lib/auth-errors.js:77 app/scripts/lib/oauth-errors.js:39
+#: app/scripts/lib/auth-errors.js:80 app/scripts/lib/oauth-errors.js:40
+#: app/scripts/lib/profile-client.js:79
 msgid "System unavailable, try again soon"
 msgstr "Systeem net beskikber, probearje it letter opnij"
 
-#: app/scripts/lib/auth-errors.js:78
+#: app/scripts/lib/auth-errors.js:81
 msgid "Session expired. Sign in to continue."
 msgstr "Sesje ferrûn. Meld jo oan om troch te gean."
 
-#: app/scripts/lib/auth-errors.js:79
+#: app/scripts/lib/auth-errors.js:82
 msgid "Cookies are still disabled"
 msgstr "Cookies binne noch útskeakele"
 
-#: app/scripts/lib/auth-errors.js:80
+#: app/scripts/lib/auth-errors.js:83
 msgid "Passwords do not match"
 msgstr "Wachtwurden komme net oerien"
 
-#: app/scripts/lib/auth-errors.js:81
+#: app/scripts/lib/auth-errors.js:84
 msgid "Working…"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:82
+#: app/scripts/lib/auth-errors.js:85
 msgid "Could not get Privacy Notice"
 msgstr "Kin privacybetingsten net ophelje"
 
-#: app/scripts/lib/auth-errors.js:83
+#: app/scripts/lib/auth-errors.js:86
 msgid "Could not get Terms of Service"
 msgstr "Kin servicebetingsten net ophelje"
 
-#: app/scripts/lib/auth-errors.js:84
+#: app/scripts/lib/auth-errors.js:87
 msgid "Your new password must be different"
 msgstr "Jo nije wachtwurd moat ferskille"
 
-#: app/scripts/lib/auth-errors.js:85 app/scripts/lib/strings.js:23
+#: app/scripts/lib/auth-errors.js:88 app/scripts/lib/strings.js:23
 #: app/scripts/templates/change_password.mustache:7
 #: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/sign_up.mustache:11
 msgid "Must be at least 8 characters"
 msgstr "Moat op syn minst 8 tekens befetsje"
 
-#: app/scripts/lib/auth-errors.js:86 app/scripts/lib/strings.js:19
+#: app/scripts/lib/auth-errors.js:89 app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr "Jildich wachtwurd fereaske"
 
-#: app/scripts/lib/auth-errors.js:87 app/scripts/lib/strings.js:18
+#: app/scripts/lib/auth-errors.js:90 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "Jildich e-mailadres fereaske"
 
-#: app/scripts/lib/auth-errors.js:88 app/scripts/lib/strings.js:24
+#: app/scripts/lib/auth-errors.js:91 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "Bertejier fereaske"
 
-#: app/scripts/lib/oauth-errors.js:32
+#: app/scripts/lib/auth-errors.js:92
+msgid "A usable image was not found"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:93
+msgid "Could not initialize camera"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:94
+#, fuzzy
+msgid "Valid URL required"
+msgstr "Jildich e-mailadres fereaske"
+
+#: app/scripts/lib/oauth-errors.js:33
 #, fuzzy
 msgid "Unknown client"
 msgstr "Unbekende account"
 
-#: app/scripts/lib/oauth-errors.js:33
+#: app/scripts/lib/oauth-errors.js:34
 #, fuzzy
 msgid "Incorrect redirect_uri"
 msgstr "Ferkearde letters yn e-mailadres"
 
-#: app/scripts/lib/oauth-errors.js:34
+#: app/scripts/lib/oauth-errors.js:35
 #, fuzzy
 msgid "Invalid assertion"
 msgstr "Unjildich token"
+
+#: app/scripts/lib/oauth-errors.js:42
+msgid "Something went wrong. Please close this tab and try again."
+msgstr ""
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -411,6 +439,7 @@ msgstr "Werhelje wachtwurd"
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/reset_password.mustache:5
 #: app/scripts/templates/sign_up.mustache:33
+#: app/scripts/templates/settings/avatar_url.mustache:5
 msgid "Next"
 msgstr "Folgjende"
 
@@ -546,11 +575,14 @@ msgstr "Firefox-cloudservices"
 msgid "Legal"
 msgstr "Juridysk"
 
-#: app/scripts/templates/legal.mustache:3 app/scripts/templates/tos.mustache:2
+#: app/scripts/templates/legal.mustache:3
+#: app/scripts/templates/settings.mustache:7
+#: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "Servicebetingsten"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
+#: app/scripts/templates/settings.mustache:8
 msgid "Privacy Notice"
 msgstr "Privacybetingsten"
 
@@ -601,6 +633,12 @@ msgid ""
 msgstr ""
 
 #: app/scripts/templates/settings.mustache:1
+#: app/scripts/templates/settings/avatar.mustache:1
+#: app/scripts/templates/settings/avatar_camera.mustache:1
+#: app/scripts/templates/settings/avatar_change.mustache:1
+#: app/scripts/templates/settings/avatar_crop.mustache:1
+#: app/scripts/templates/settings/avatar_gravatar.mustache:1
+#: app/scripts/templates/settings/avatar_url.mustache:1
 msgid "Manage account"
 msgstr "Account beheare"
 
@@ -645,6 +683,60 @@ msgstr "Hawwe jo al in account? Meld jo oan."
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar.mustache:2
+#: app/scripts/templates/settings/avatar_camera.mustache:2
+#: app/scripts/templates/settings/avatar_change.mustache:2
+#: app/scripts/templates/settings/avatar_crop.mustache:2
+#: app/scripts/templates/settings/avatar_gravatar.mustache:2
+#: app/scripts/templates/settings/avatar_url.mustache:2
+#, fuzzy
+msgid "Account picture"
+msgstr "Account ferifiearre"
+
+#: app/scripts/templates/settings/avatar.mustache:4
+msgid "Change"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_camera.mustache:4
+msgid "Take picture"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_camera.mustache:5
+#: app/scripts/templates/settings/avatar_crop.mustache:5
+#: app/scripts/templates/settings/avatar_gravatar.mustache:5
+#: app/scripts/templates/settings/avatar_url.mustache:6
+msgid "Cancel"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_change.mustache:4
+msgid "Upload"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_change.mustache:5
+msgid "URL"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_change.mustache:6
+msgid "Camera"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_change.mustache:7
+msgid "Gravatar"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_crop.mustache:3
+msgid "Position and rotate your picture as needed"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_crop.mustache:4
+#: app/scripts/templates/settings/avatar_gravatar.mustache:4
+msgid "Save"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_url.mustache:4
+msgid "Paste image URL"
 msgstr ""
 
 #~ msgid "Signed in successfully"
