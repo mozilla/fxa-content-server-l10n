@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-25 07:29+0000\n"
+"POT-Creation-Date: 2014-08-19 20:39+0000\n"
 "PO-Revision-Date: 2014-06-07 10:17+0000\n"
 "Last-Translator: Merike <merike.sell@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,7 +82,7 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/base.js:508
+#: app/scripts/views/base.js:531
 msgid "missing search parameter: %(itemName)s"
 msgstr "puuduv otsingu parameeter: %(itemName)s"
 
@@ -122,145 +122,173 @@ msgstr "Välja logitud"
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Konto on juba olemas. <a href=\"/signin\">Logi sisse</a>"
 
-#: app/scripts/lib/auth-errors.js:56 app/scripts/lib/oauth-errors.js:40
+#: app/scripts/views/settings/avatar_gravatar.js:58
+msgid "No Gravatar found"
+msgstr ""
+
+#: app/scripts/views/settings/avatar_gravatar.js:78
+msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:59 app/scripts/lib/oauth-errors.js:41
+#: app/scripts/lib/profile-client.js:76 app/scripts/lib/profile-client.js:80
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Ootamatu viga"
 
-#: app/scripts/lib/auth-errors.js:57
+#: app/scripts/lib/auth-errors.js:60
 msgid "Invalid token"
 msgstr "Vigane turvatõend"
 
-#: app/scripts/lib/auth-errors.js:58
+#: app/scripts/lib/auth-errors.js:61
 msgid "Invalid timestamp in request signature"
 msgstr "Vigane ajatempel päringu signatuuris"
 
-#: app/scripts/lib/auth-errors.js:59
+#: app/scripts/lib/auth-errors.js:62
 msgid "Invalid nonce in request signature"
 msgstr "Vigane nonss päringu signatuuris"
 
-#: app/scripts/lib/auth-errors.js:60 app/scripts/lib/strings.js:25
+#: app/scripts/lib/auth-errors.js:63 app/scripts/lib/strings.js:25
 msgid "Account already exists"
 msgstr "Konto on juba olemas"
 
-#: app/scripts/lib/auth-errors.js:61
+#: app/scripts/lib/auth-errors.js:64
 msgid "Unknown account"
 msgstr "Tundmatu konto"
 
-#: app/scripts/lib/auth-errors.js:62
+#: app/scripts/lib/auth-errors.js:65
 msgid "Incorrect email case"
 msgstr "Vigane e-posti aadress"
 
-#: app/scripts/lib/auth-errors.js:63
+#: app/scripts/lib/auth-errors.js:66
 msgid "Incorrect password"
 msgstr "Vigane parool"
 
-#: app/scripts/lib/auth-errors.js:64
+#: app/scripts/lib/auth-errors.js:67
 msgid "Unverified account"
 msgstr "Kinnitamata konto"
 
-#: app/scripts/lib/auth-errors.js:65
+#: app/scripts/lib/auth-errors.js:68
 msgid "Invalid verification code"
 msgstr "Vigane kinnituskood"
 
-#: app/scripts/lib/auth-errors.js:66
+#: app/scripts/lib/auth-errors.js:69
 msgid "Invalid JSON in request body"
 msgstr "Vigane JSON päringu kehas"
 
-#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:35
+#: app/scripts/lib/auth-errors.js:70 app/scripts/lib/oauth-errors.js:36
+#: app/scripts/lib/profile-client.js:77
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Vigane parameeter päringu kehas: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:68
+#: app/scripts/lib/auth-errors.js:71
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Puuduv parameeter päringu kehas: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:69 app/scripts/lib/oauth-errors.js:36
+#: app/scripts/lib/auth-errors.js:72 app/scripts/lib/oauth-errors.js:37
 msgid "Invalid request signature"
 msgstr "Vigane päringu signatuur"
 
-#: app/scripts/lib/auth-errors.js:70
+#: app/scripts/lib/auth-errors.js:73
 msgid "Missing content-length header"
 msgstr "Puudub päis content-length"
 
-#: app/scripts/lib/auth-errors.js:71
+#: app/scripts/lib/auth-errors.js:74
 msgid "Request body too large"
 msgstr "Päringu keha liiga suur"
 
-#: app/scripts/lib/auth-errors.js:72
+#: app/scripts/lib/auth-errors.js:75
 msgid "Attempt limit exceeded"
 msgstr "Katsete limiit ületatud."
 
-#: app/scripts/lib/auth-errors.js:73
+#: app/scripts/lib/auth-errors.js:76
 msgid "Server busy, try again soon"
 msgstr "Server on hõivatud, proovi mõne aja pärast uuesti"
 
-#: app/scripts/lib/auth-errors.js:74
+#: app/scripts/lib/auth-errors.js:77
 msgid "This endpoint is no longer supported"
 msgstr "See lõpppunkt pole enam toetatud"
 
-#: app/scripts/lib/auth-errors.js:77 app/scripts/lib/oauth-errors.js:39
+#: app/scripts/lib/auth-errors.js:80 app/scripts/lib/oauth-errors.js:40
+#: app/scripts/lib/profile-client.js:79
 msgid "System unavailable, try again soon"
 msgstr "Süsteem pole kättesaadav, proovi mõne aja pärast uuesti"
 
-#: app/scripts/lib/auth-errors.js:78
+#: app/scripts/lib/auth-errors.js:81
 msgid "Session expired. Sign in to continue."
 msgstr "Seanss aegus. Jätkamiseks logi sisse."
 
-#: app/scripts/lib/auth-errors.js:79
+#: app/scripts/lib/auth-errors.js:82
 msgid "Cookies are still disabled"
 msgstr "Küpsised on endiselt keelatud"
 
-#: app/scripts/lib/auth-errors.js:80
+#: app/scripts/lib/auth-errors.js:83
 msgid "Passwords do not match"
 msgstr "Paroolid ei ühti"
 
-#: app/scripts/lib/auth-errors.js:81
+#: app/scripts/lib/auth-errors.js:84
 msgid "Working…"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:82
+#: app/scripts/lib/auth-errors.js:85
 msgid "Could not get Privacy Notice"
 msgstr "Privaatsusreeglite hankimine ebaõnnestus"
 
-#: app/scripts/lib/auth-errors.js:83
+#: app/scripts/lib/auth-errors.js:86
 msgid "Could not get Terms of Service"
 msgstr "Teenuste tingimuste hankimine ebaõnnestus"
 
-#: app/scripts/lib/auth-errors.js:84
+#: app/scripts/lib/auth-errors.js:87
 msgid "Your new password must be different"
 msgstr "Vana ja uus parool peavad erinema"
 
-#: app/scripts/lib/auth-errors.js:85 app/scripts/lib/strings.js:23
+#: app/scripts/lib/auth-errors.js:88 app/scripts/lib/strings.js:23
 #: app/scripts/templates/change_password.mustache:7
 #: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/sign_up.mustache:11
 msgid "Must be at least 8 characters"
 msgstr "Peab olema vähemalt 8 tähemärgi pikkune"
 
-#: app/scripts/lib/auth-errors.js:86 app/scripts/lib/strings.js:19
+#: app/scripts/lib/auth-errors.js:89 app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr "Parool peab olema korrektne"
 
-#: app/scripts/lib/auth-errors.js:87 app/scripts/lib/strings.js:18
+#: app/scripts/lib/auth-errors.js:90 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "E-posti aadress peab olema korrektne"
 
-#: app/scripts/lib/auth-errors.js:88 app/scripts/lib/strings.js:24
+#: app/scripts/lib/auth-errors.js:91 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "Sünniaasta on nõutud"
 
-#: app/scripts/lib/oauth-errors.js:32
+#: app/scripts/lib/auth-errors.js:92
+msgid "A usable image was not found"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:93
+msgid "Could not initialize camera"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:94
+#, fuzzy
+msgid "Valid URL required"
+msgstr "E-posti aadress peab olema korrektne"
+
+#: app/scripts/lib/oauth-errors.js:33
 msgid "Unknown client"
 msgstr "Tundmatu klient"
 
-#: app/scripts/lib/oauth-errors.js:33
+#: app/scripts/lib/oauth-errors.js:34
 msgid "Incorrect redirect_uri"
 msgstr "Vigane redirect_uri"
 
-#: app/scripts/lib/oauth-errors.js:34
+#: app/scripts/lib/oauth-errors.js:35
 msgid "Invalid assertion"
 msgstr "Vigane tõend"
+
+#: app/scripts/lib/oauth-errors.js:42
+msgid "Something went wrong. Please close this tab and try again."
+msgstr ""
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -403,6 +431,7 @@ msgstr "Korda parooli"
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/reset_password.mustache:5
 #: app/scripts/templates/sign_up.mustache:33
+#: app/scripts/templates/settings/avatar_url.mustache:5
 msgid "Next"
 msgstr "Edasi"
 
@@ -535,11 +564,14 @@ msgstr "Firefoxi pilveteenused"
 msgid "Legal"
 msgstr "Õiguslik teave"
 
-#: app/scripts/templates/legal.mustache:3 app/scripts/templates/tos.mustache:2
+#: app/scripts/templates/legal.mustache:3
+#: app/scripts/templates/settings.mustache:7
+#: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "Teenuse tingimused"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
+#: app/scripts/templates/settings.mustache:8
 msgid "Privacy Notice"
 msgstr "Privaatsusreeglid"
 
@@ -588,6 +620,12 @@ msgid ""
 msgstr ""
 
 #: app/scripts/templates/settings.mustache:1
+#: app/scripts/templates/settings/avatar.mustache:1
+#: app/scripts/templates/settings/avatar_camera.mustache:1
+#: app/scripts/templates/settings/avatar_change.mustache:1
+#: app/scripts/templates/settings/avatar_crop.mustache:1
+#: app/scripts/templates/settings/avatar_gravatar.mustache:1
+#: app/scripts/templates/settings/avatar_url.mustache:1
 msgid "Manage account"
 msgstr "Konto haldamine"
 
@@ -632,6 +670,60 @@ msgstr "Konto juba olemas? Logi sisse."
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar.mustache:2
+#: app/scripts/templates/settings/avatar_camera.mustache:2
+#: app/scripts/templates/settings/avatar_change.mustache:2
+#: app/scripts/templates/settings/avatar_crop.mustache:2
+#: app/scripts/templates/settings/avatar_gravatar.mustache:2
+#: app/scripts/templates/settings/avatar_url.mustache:2
+#, fuzzy
+msgid "Account picture"
+msgstr "Konto on kinnitatud"
+
+#: app/scripts/templates/settings/avatar.mustache:4
+msgid "Change"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_camera.mustache:4
+msgid "Take picture"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_camera.mustache:5
+#: app/scripts/templates/settings/avatar_crop.mustache:5
+#: app/scripts/templates/settings/avatar_gravatar.mustache:5
+#: app/scripts/templates/settings/avatar_url.mustache:6
+msgid "Cancel"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_change.mustache:4
+msgid "Upload"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_change.mustache:5
+msgid "URL"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_change.mustache:6
+msgid "Camera"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_change.mustache:7
+msgid "Gravatar"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_crop.mustache:3
+msgid "Position and rotate your picture as needed"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_crop.mustache:4
+#: app/scripts/templates/settings/avatar_gravatar.mustache:4
+msgid "Save"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_url.mustache:4
+msgid "Paste image URL"
 msgstr ""
 
 #~ msgid "Signed in successfully"
