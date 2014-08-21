@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-19 20:39+0000\n"
-"PO-Revision-Date: 2014-06-28 15:10+0000\n"
+"PO-Revision-Date: 2014-08-21 12:24+0000\n"
 "Last-Translator: Jørgen   <joergenr@stofanet.dk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: da\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1403968209.0\n"
+"X-POOTLE-MTIME: 1408623854.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -123,11 +123,11 @@ msgstr "Kontoen findes allerede. <a href=\"/signin\">Log ind</a>"
 
 #: app/scripts/views/settings/avatar_gravatar.js:58
 msgid "No Gravatar found"
-msgstr ""
+msgstr "Ingen gravatar fundet"
 
 #: app/scripts/views/settings/avatar_gravatar.js:78
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr ""
+msgstr "Leveret af <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
 #: app/scripts/lib/auth-errors.js:59 app/scripts/lib/oauth-errors.js:41
 #: app/scripts/lib/profile-client.js:76 app/scripts/lib/profile-client.js:80
@@ -262,16 +262,15 @@ msgstr "Fødselsår er påkrævet"
 
 #: app/scripts/lib/auth-errors.js:92
 msgid "A usable image was not found"
-msgstr ""
+msgstr "Et brugbart billede blev ikke fundet"
 
 #: app/scripts/lib/auth-errors.js:93
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "Kunne ikke initialisere kamera"
 
 #: app/scripts/lib/auth-errors.js:94
-#, fuzzy
 msgid "Valid URL required"
-msgstr "Gyldig mailadresse påkrævet"
+msgstr "Gyldig URL påkrævet"
 
 #: app/scripts/lib/oauth-errors.js:33
 msgid "Unknown client"
@@ -287,7 +286,7 @@ msgstr "Ugyldig assertion"
 
 #: app/scripts/lib/oauth-errors.js:42
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "Noget gik galt. Luk dette faneblad og prøv igen."
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -638,9 +637,8 @@ msgstr "Log ud"
 
 #: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
-#, fuzzy
 msgid "Continue to %(serviceName)s"
-msgstr "Log ind på %(serviceName)s"
+msgstr "Fortsæt til %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:12
 msgid "Create an account"
@@ -669,7 +667,7 @@ msgstr "Har du allerede en konto? Log ind."
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
-msgstr ""
+msgstr "Start"
 
 #: app/scripts/templates/settings/avatar.mustache:2
 #: app/scripts/templates/settings/avatar_camera.mustache:2
@@ -677,53 +675,52 @@ msgstr ""
 #: app/scripts/templates/settings/avatar_crop.mustache:2
 #: app/scripts/templates/settings/avatar_gravatar.mustache:2
 #: app/scripts/templates/settings/avatar_url.mustache:2
-#, fuzzy
 msgid "Account picture"
-msgstr "Konto bekræftet"
+msgstr "Kontobillede"
 
 #: app/scripts/templates/settings/avatar.mustache:4
 msgid "Change"
-msgstr ""
+msgstr "Skift"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:4
 msgid "Take picture"
-msgstr ""
+msgstr "Tag billede"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:5
 #: app/scripts/templates/settings/avatar_crop.mustache:5
 #: app/scripts/templates/settings/avatar_gravatar.mustache:5
 #: app/scripts/templates/settings/avatar_url.mustache:6
 msgid "Cancel"
-msgstr ""
+msgstr "Annuller"
 
 #: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Upload"
-msgstr ""
+msgstr "Upload"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: app/scripts/templates/settings/avatar_change.mustache:6
 msgid "Camera"
-msgstr ""
+msgstr "Kamera"
 
 #: app/scripts/templates/settings/avatar_change.mustache:7
 msgid "Gravatar"
-msgstr ""
+msgstr "Gravatar"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:3
 msgid "Position and rotate your picture as needed"
-msgstr ""
+msgstr "Placer og drej dit billede efter behov"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:4
 #: app/scripts/templates/settings/avatar_gravatar.mustache:4
 msgid "Save"
-msgstr ""
+msgstr "Gem"
 
 #: app/scripts/templates/settings/avatar_url.mustache:4
 msgid "Paste image URL"
-msgstr ""
+msgstr "Indsæt billed-URL"
 
 #~ msgid "Signed in successfully"
 #~ msgstr "Logget ind korrekt"
