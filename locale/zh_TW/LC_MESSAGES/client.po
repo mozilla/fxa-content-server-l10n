@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-19 20:39+0000\n"
-"PO-Revision-Date: 2014-07-29 11:55+0000\n"
+"PO-Revision-Date: 2014-08-21 17:34+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1406634932.0\n"
+"X-POOTLE-MTIME: 1408642468.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -122,11 +122,11 @@ msgstr "帳號已存在。<a href=\"/signin\">登入</a>"
 
 #: app/scripts/views/settings/avatar_gravatar.js:58
 msgid "No Gravatar found"
-msgstr ""
+msgstr "找不到 Gravatar"
 
 #: app/scripts/views/settings/avatar_gravatar.js:78
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr ""
+msgstr "感謝 <a href=\"https://www.gravatar.com\">Gravatar</a> 提供"
 
 #: app/scripts/lib/auth-errors.js:59 app/scripts/lib/oauth-errors.js:41
 #: app/scripts/lib/profile-client.js:76 app/scripts/lib/profile-client.js:80
@@ -261,16 +261,15 @@ msgstr "必須輸入出生年"
 
 #: app/scripts/lib/auth-errors.js:92
 msgid "A usable image was not found"
-msgstr ""
+msgstr "找不到可用的圖片"
 
 #: app/scripts/lib/auth-errors.js:93
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "無法初始化攝影機"
 
 #: app/scripts/lib/auth-errors.js:94
-#, fuzzy
 msgid "Valid URL required"
-msgstr "必須輸入有效的電子郵件地址"
+msgstr "必須輸入有效的網址"
 
 #: app/scripts/lib/oauth-errors.js:33
 msgid "Unknown client"
@@ -286,7 +285,7 @@ msgstr "assertion 無效"
 
 #: app/scripts/lib/oauth-errors.js:42
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "有些東西不對勁，請關閉此分頁再試一次。"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -670,53 +669,52 @@ msgstr "首頁"
 #: app/scripts/templates/settings/avatar_crop.mustache:2
 #: app/scripts/templates/settings/avatar_gravatar.mustache:2
 #: app/scripts/templates/settings/avatar_url.mustache:2
-#, fuzzy
 msgid "Account picture"
-msgstr "帳號已驗證"
+msgstr "帳號圖片"
 
 #: app/scripts/templates/settings/avatar.mustache:4
 msgid "Change"
-msgstr ""
+msgstr "變更"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:4
 msgid "Take picture"
-msgstr ""
+msgstr "拍照"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:5
 #: app/scripts/templates/settings/avatar_crop.mustache:5
 #: app/scripts/templates/settings/avatar_gravatar.mustache:5
 #: app/scripts/templates/settings/avatar_url.mustache:6
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Upload"
-msgstr ""
+msgstr "上傳"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5
 msgid "URL"
-msgstr ""
+msgstr "網址"
 
 #: app/scripts/templates/settings/avatar_change.mustache:6
 msgid "Camera"
-msgstr ""
+msgstr "攝影機"
 
 #: app/scripts/templates/settings/avatar_change.mustache:7
 msgid "Gravatar"
-msgstr ""
+msgstr "Gravatar"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:3
 msgid "Position and rotate your picture as needed"
-msgstr ""
+msgstr "請依照您的喜好調整或旋轉照片"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:4
 #: app/scripts/templates/settings/avatar_gravatar.mustache:4
 msgid "Save"
-msgstr ""
+msgstr "儲存"
 
 #: app/scripts/templates/settings/avatar_url.mustache:4
 msgid "Paste image URL"
-msgstr ""
+msgstr "貼上圖片網址"
 
 #~ msgid "Signed in successfully"
 #~ msgstr "已成功登入"
