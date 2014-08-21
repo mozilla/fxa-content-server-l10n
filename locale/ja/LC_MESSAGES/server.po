@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-19 20:39+0000\n"
-"PO-Revision-Date: 2014-05-07 09:17+0000\n"
-"Last-Translator: Tomoya <dynamis@mozilla-japan.org>\n"
+"PO-Revision-Date: 2014-08-21 02:21+0000\n"
+"Last-Translator: Masahiko <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1399454239.0\n"
+"X-POOTLE-MTIME: 1408587699.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -43,27 +43,23 @@ msgstr "ホーム"
 
 #: server/templates/pages/src/500.html:2
 msgid "System unavailable, try again soon"
-msgstr "システムが利用できません。しばらく後で再度お試しください"
+msgstr "システムが利用できません。しばらくしてから再度お試しください"
 
 #: server/templates/pages/src/500.html:3
 msgid ""
 "We are currently performing some maintenance on the system, and will return "
 "momentarily."
-msgstr ""
-"ただいまシステムのメンテナンスを行っています。まもなくサービスを再開するので"
-"しばらくお待ちください。"
+msgstr "ただいまシステムのメンテナンスを行っています。まもなくサービスを再開しますのでしばらくお待ちください。"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr "サーバの負荷が高すぎます。しばらく後で再度お試しください"
+msgstr "サーバの負荷が高すぎます。しばらくしてから再度お試しください"
 
 #: server/templates/pages/src/503.html:3
 msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
-msgstr ""
-"一時的にサーバの負荷が高くなっており、可能な限り速やかに通常動作に戻るようシ"
-"ステム復旧に努めております。"
+msgstr "一時的にサーバの負荷が高くなっています。可能な限り速やかに通常動作に戻るようシステム復旧に努めております。"
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
@@ -139,20 +135,19 @@ msgstr "おめでとうございます！"
 
 #: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr ""
-"あと 1 回クリックするだけで %(email)s を Firefox アカウントに認証できます。"
+msgstr "クリックすると %(email)s を Firefox アカウントとして認証できます。"
 
 #: server/templates/email/verify.html:4
 msgid "Verify"
-msgstr "確認"
+msgstr "認証"
 
 #: server/templates/email/verify.txt:3
 msgid "Verify:"
-msgstr "確認:"
+msgstr "認証:"
 
 #: server/lib/templates.js:63
 msgid "Verify your account"
-msgstr "アカウントを確認する"
+msgstr "アカウントを認証する"
 
 #: server/lib/templates.js:68
 msgid "Reset your password"
