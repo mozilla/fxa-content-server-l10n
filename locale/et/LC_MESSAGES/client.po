@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-19 20:39+0000\n"
-"PO-Revision-Date: 2014-06-07 10:17+0000\n"
-"Last-Translator: Merike <merike.sell@eesti.ee>\n"
+"PO-Revision-Date: 2014-08-23 15:32+0000\n"
+"Last-Translator: Sander <sander.lepik@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1402136277.0\n"
+"X-POOTLE-MTIME: 1408807930.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -124,11 +124,11 @@ msgstr "Konto on juba olemas. <a href=\"/signin\">Logi sisse</a>"
 
 #: app/scripts/views/settings/avatar_gravatar.js:58
 msgid "No Gravatar found"
-msgstr ""
+msgstr "Gravatari ei leitud"
 
 #: app/scripts/views/settings/avatar_gravatar.js:78
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr ""
+msgstr "<a href=\"https://www.gravatar.com\">Gravatari</a> kaudu"
 
 #: app/scripts/lib/auth-errors.js:59 app/scripts/lib/oauth-errors.js:41
 #: app/scripts/lib/profile-client.js:76 app/scripts/lib/profile-client.js:80
@@ -228,7 +228,7 @@ msgstr "Paroolid ei ühti"
 
 #: app/scripts/lib/auth-errors.js:84
 msgid "Working…"
-msgstr ""
+msgstr "Töötlemine…"
 
 #: app/scripts/lib/auth-errors.js:85
 msgid "Could not get Privacy Notice"
@@ -263,16 +263,15 @@ msgstr "Sünniaasta on nõutud"
 
 #: app/scripts/lib/auth-errors.js:92
 msgid "A usable image was not found"
-msgstr ""
+msgstr "Kasutatavat pilti ei leitud"
 
 #: app/scripts/lib/auth-errors.js:93
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "Kaamera kasutamine polnud võimalik"
 
 #: app/scripts/lib/auth-errors.js:94
-#, fuzzy
 msgid "Valid URL required"
-msgstr "E-posti aadress peab olema korrektne"
+msgstr "URL peab olema korrektne"
 
 #: app/scripts/lib/oauth-errors.js:33
 msgid "Unknown client"
@@ -288,7 +287,7 @@ msgstr "Vigane tõend"
 
 #: app/scripts/lib/oauth-errors.js:42
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "Midagi läks valesti. Palun sulge see kaart ja proovi uuesti."
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -352,6 +351,8 @@ msgstr "Muuda parool"
 msgid ""
 "Once you're ﬁnished, use your new password to sign in on all of your devices."
 msgstr ""
+"Kui oled lõpetanud, siis kasuta oma uut parooli, et logida sisse kõigis oma "
+"seadmetes."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -375,7 +376,7 @@ msgstr "Uus parool"
 
 #: app/scripts/templates/change_password.mustache:8
 msgid "Confirm"
-msgstr ""
+msgstr "Kinnita"
 
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/delete_account.mustache:6
@@ -386,9 +387,8 @@ msgid "Back"
 msgstr "Tagasi"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
-#, fuzzy
 msgid "Reset password link expired"
-msgstr "Parooli lähtestamine"
+msgstr "Parooli lähtestamise link aegus"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -406,9 +406,8 @@ msgid "Click here to receive a new reset link"
 msgstr "Uue lähtestamise lingi saamiseks klõpsa siia"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
-#, fuzzy
 msgid "Reset password link damaged"
-msgstr "Parooli lähtestamine"
+msgstr "Parooli lähtestamise link on vigane"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:8
@@ -440,14 +439,12 @@ msgid "Verification link expired"
 msgstr "Kinnitamise link aegus"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
-#, fuzzy
 msgid "The link you clicked to verify your email is expired."
-msgstr "Link, millel klõpsasid parooli lähtestamiseks, on aegunud."
+msgstr "Link, millel klõpsasid oma e-posti aadressi kinnitamiseks, on aegunud."
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Click here to receive a new verification link"
-msgstr "Uue lähtestamise lingi saamiseks klõpsa siia"
+msgstr "Uue kinnitamise lingi saamiseks klõpsa siia"
 
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
@@ -618,6 +615,9 @@ msgid ""
 "For security reasons, resetting your password will erase your Sync data from "
 "our servers. A new Sync backup will be created from your local browsing data."
 msgstr ""
+"Turvalisuse kaalutlustel kustutatakse parooli lähtestamisel sinu Synci "
+"andmed meie serveritest. Uus Synci varukoopia luuakse sinu kohalike andmete "
+"põhjal."
 
 #: app/scripts/templates/settings.mustache:1
 #: app/scripts/templates/settings/avatar.mustache:1
@@ -639,9 +639,8 @@ msgstr "Logi välja"
 
 #: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
-#, fuzzy
 msgid "Continue to %(serviceName)s"
-msgstr "Logi %(serviceName)s teenusesse sisse."
+msgstr "Logi %(serviceName)s teenusesse sisse"
 
 #: app/scripts/templates/sign_in.mustache:12
 msgid "Create an account"
@@ -670,7 +669,7 @@ msgstr "Konto juba olemas? Logi sisse."
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
-msgstr ""
+msgstr "Avaleht"
 
 #: app/scripts/templates/settings/avatar.mustache:2
 #: app/scripts/templates/settings/avatar_camera.mustache:2
@@ -678,53 +677,52 @@ msgstr ""
 #: app/scripts/templates/settings/avatar_crop.mustache:2
 #: app/scripts/templates/settings/avatar_gravatar.mustache:2
 #: app/scripts/templates/settings/avatar_url.mustache:2
-#, fuzzy
 msgid "Account picture"
-msgstr "Konto on kinnitatud"
+msgstr "Konto pilt"
 
 #: app/scripts/templates/settings/avatar.mustache:4
 msgid "Change"
-msgstr ""
+msgstr "Muuda"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:4
 msgid "Take picture"
-msgstr ""
+msgstr "Pildista"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:5
 #: app/scripts/templates/settings/avatar_crop.mustache:5
 #: app/scripts/templates/settings/avatar_gravatar.mustache:5
 #: app/scripts/templates/settings/avatar_url.mustache:6
 msgid "Cancel"
-msgstr ""
+msgstr "Loobu"
 
 #: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Upload"
-msgstr ""
+msgstr "Laadi üles"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: app/scripts/templates/settings/avatar_change.mustache:6
 msgid "Camera"
-msgstr ""
+msgstr "Kaamerast"
 
 #: app/scripts/templates/settings/avatar_change.mustache:7
 msgid "Gravatar"
-msgstr ""
+msgstr "Gravatar"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:3
 msgid "Position and rotate your picture as needed"
-msgstr ""
+msgstr "Muuda asendit ja pööra pilti vastavalt vajadusele"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:4
 #: app/scripts/templates/settings/avatar_gravatar.mustache:4
 msgid "Save"
-msgstr ""
+msgstr "Salvesta"
 
 #: app/scripts/templates/settings/avatar_url.mustache:4
 msgid "Paste image URL"
-msgstr ""
+msgstr "Aseta pildi URL"
 
 #~ msgid "Signed in successfully"
 #~ msgstr "Edukalt sisse logitud"
