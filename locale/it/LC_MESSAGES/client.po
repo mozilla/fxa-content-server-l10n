@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-19 20:39+0000\n"
-"PO-Revision-Date: 2014-08-05 11:14+0000\n"
+"PO-Revision-Date: 2014-08-29 15:53+0000\n"
 "Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1407237257.0\n"
+"X-POOTLE-MTIME: 1409327596.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -124,11 +124,11 @@ msgstr "Questo account esiste già. <a href=\"/signin\">Accedi</a>"
 
 #: app/scripts/views/settings/avatar_gravatar.js:58
 msgid "No Gravatar found"
-msgstr ""
+msgstr "Non è statorilevato alcun gravatar per questo account"
 
 #: app/scripts/views/settings/avatar_gravatar.js:78
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr ""
+msgstr "Gentilmente offerto da <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
 #: app/scripts/lib/auth-errors.js:59 app/scripts/lib/oauth-errors.js:41
 #: app/scripts/lib/profile-client.js:76 app/scripts/lib/profile-client.js:80
@@ -201,7 +201,7 @@ msgstr "Testo della richiesta troppo lungo"
 
 #: app/scripts/lib/auth-errors.js:75
 msgid "Attempt limit exceeded"
-msgstr "È stato superato il numero di tentativi consentiti."
+msgstr "È stato superato il numero di tentativi consentiti"
 
 #: app/scripts/lib/auth-errors.js:76
 msgid "Server busy, try again soon"
@@ -265,16 +265,15 @@ msgstr "È necessario inserire l’anno di nascita"
 
 #: app/scripts/lib/auth-errors.js:92
 msgid "A usable image was not found"
-msgstr ""
+msgstr "Non è stata rilevata alcuna immagine utile per questo account"
 
 #: app/scripts/lib/auth-errors.js:93
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "Impossibile inizializzare la fotocamera"
 
 #: app/scripts/lib/auth-errors.js:94
-#, fuzzy
 msgid "Valid URL required"
-msgstr "È necessario inserire un indirizzo email valido"
+msgstr "È necessario fornire un URL valido"
 
 #: app/scripts/lib/oauth-errors.js:33
 msgid "Unknown client"
@@ -290,7 +289,7 @@ msgstr "Asserzione non valida"
 
 #: app/scripts/lib/oauth-errors.js:42
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "Qualcosa è andato storto. Chiudi questa scheda e riprova."
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -393,7 +392,7 @@ msgstr "Indietro"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
-msgstr "Questo link per reimpostare la password è scaduto."
+msgstr "Questo link per reimpostare la password è scaduto"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -412,7 +411,7 @@ msgstr "Fai clic qui per ricevere un nuovo link per reimpostare la password"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 msgid "Reset password link damaged"
-msgstr "Questo link per reimpostare la password non è valido."
+msgstr "Questo link per reimpostare la password non è valido"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:8
@@ -601,7 +600,7 @@ msgstr "L’operazione è stata completata con successo"
 
 #: app/scripts/templates/ready.mustache:6
 msgid "You are now ready to use %(serviceName)s"
-msgstr "Ora puoi utilizzare %(serviceName)s."
+msgstr "Ora puoi utilizzare %(serviceName)s"
 
 #: app/scripts/templates/ready.mustache:8
 msgid "Your account is ready!"
@@ -687,53 +686,52 @@ msgstr "Pagina principale"
 #: app/scripts/templates/settings/avatar_crop.mustache:2
 #: app/scripts/templates/settings/avatar_gravatar.mustache:2
 #: app/scripts/templates/settings/avatar_url.mustache:2
-#, fuzzy
 msgid "Account picture"
-msgstr "L’account è stato verificato"
+msgstr "Immagine per questo account"
 
 #: app/scripts/templates/settings/avatar.mustache:4
 msgid "Change"
-msgstr ""
+msgstr "Modifica"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:4
 msgid "Take picture"
-msgstr ""
+msgstr "Scatta foto"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:5
 #: app/scripts/templates/settings/avatar_crop.mustache:5
 #: app/scripts/templates/settings/avatar_gravatar.mustache:5
 #: app/scripts/templates/settings/avatar_url.mustache:6
 msgid "Cancel"
-msgstr ""
+msgstr "Annulla"
 
 #: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Upload"
-msgstr ""
+msgstr "Carica"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: app/scripts/templates/settings/avatar_change.mustache:6
 msgid "Camera"
-msgstr ""
+msgstr "Fotocamera"
 
 #: app/scripts/templates/settings/avatar_change.mustache:7
 msgid "Gravatar"
-msgstr ""
+msgstr "Gravatar"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:3
 msgid "Position and rotate your picture as needed"
-msgstr ""
+msgstr "Se necessario, posiziona e ruota l’immagine"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:4
 #: app/scripts/templates/settings/avatar_gravatar.mustache:4
 msgid "Save"
-msgstr ""
+msgstr "Salva"
 
 #: app/scripts/templates/settings/avatar_url.mustache:4
 msgid "Paste image URL"
-msgstr ""
+msgstr "Incolla l’URL dell’immagine"
 
 #~ msgid "Signed in successfully"
 #~ msgstr "Accesso effettuato con successo"
