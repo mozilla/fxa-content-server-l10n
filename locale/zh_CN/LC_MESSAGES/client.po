@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-19 20:39+0000\n"
-"PO-Revision-Date: 2014-08-20 12:20+0000\n"
+"PO-Revision-Date: 2014-09-05 11:53+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1408537210.0\n"
+"X-POOTLE-MTIME: 1409918029.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -541,8 +541,8 @@ msgid ""
 "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
 "a> of Firefox cloud services."
 msgstr ""
-"继续注册，表示我接受 Firefox 云服务的 <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">服务条款</a> 及 <a id=\"fxa-pp\" href=\"/legal/privacy\">隐私权政策</a>。"
+"继续操作则代表我接受 Firefox 云服务的 <a id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a> 及 <a id"
+"=\"fxa-pp\" href=\"/legal/privacy\">隐私权政策</a>。"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
