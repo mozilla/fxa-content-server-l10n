@@ -224,7 +224,7 @@ msgstr "Kjo pikë mbarimi nuk mbulohet më"
 #: app/scripts/lib/oauth-errors.js:40
 #: app/scripts/lib/profile-client.js:79
 msgid "System unavailable, try again soon"
-msgstr "Sistemi s'është në punë, riprovoni së shpejti"
+msgstr "Sistemi s’është në punë, riprovoni së shpejti"
 
 #: app/scripts/lib/auth-errors.js:81
 msgid "Session expired. Sign in to continue."
@@ -331,7 +331,7 @@ msgstr "Fjalëkalim i ri i pavlefshëm"
 
 #: app/scripts/lib/strings.js:28
 msgid "Passwords don't match"
-msgstr "Fjalëkalimet s'përputhen"
+msgstr "Fjalëkalimet s’përputhen"
 
 #: app/scripts/lib/strings.js:29
 msgid "Please enter an email"
@@ -339,7 +339,7 @@ msgstr "Ju lutemi, jepni një email"
 
 #: app/scripts/lib/strings.js:30
 msgid "Cannot connect to the internet"
-msgstr "S'lidhet dot në internet"
+msgstr "S’lidhet dot në internet"
 
 #: app/scripts/lib/strings.js:34
 msgid "Subscribe to Firefox news and tips"
@@ -347,7 +347,7 @@ msgstr "Pajtohuni te lajmet dhe ndihmëzat mbi Firefox-in"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
-msgstr "S'krijohet dot llogaria"
+msgstr "S’krijohet dot llogaria"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
