@@ -44,21 +44,21 @@ msgstr "Kreu"
 
 #: server/templates/pages/src/500.html:2
 msgid "System unavailable, try again soon"
-msgstr "Sistemi s'është në punë, riprovoni së shpejti"
+msgstr "Sistemi s’është në punë, riprovoni së shpejti"
 
 #: server/templates/pages/src/500.html:3
 msgid ""
 "We are currently performing some maintenance on the system, and will return "
 "momentarily."
 msgstr ""
-"Po kryejmë pak veprime mirëmbajtjeje në sistem, dhe do t'jua rikthejmë në "
+"Po kryejmë pak veprime mirëmbajtjeje në sistem, dhe do t’jua rikthejmë në "
 "çast."
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
 msgstr "Shërbyesi është i zënë, riprovoni së shpejti"
 
-# Ngarkesa dhe trysni janë dy gjëra të ndryshme. Një rrobaqepës ka ngarkesë kur ka 100 kostume për të qepur, por nuk ka ndonjë rrethanë tjetër që ia rëndon punën. Ndërkohë që, po ky, do të ishte nën trysni të madhe nëse ka vetëm një jakë për të qepur, por që është jaka e mbretit - rrethanë që e vë rrobaqepësin në një trysni të paparë, sepse mundet edhe t'i heqin qafën e vet, për jakën e mbretit, po nuk i pëlqeu Naltmadhënisë...
+# Ngarkesa dhe trysni janë dy gjëra të ndryshme. Një rrobaqepës ka ngarkesë kur ka 100 kostume për të qepur, por nuk #ka ndonjë rrethanë tjetër që ia rëndon punën. Ndërkohë që, po ky, do të ishte nën trysni të madhe nëse ka vetëm një #jakë për të qepur, por që është jaka e mbretit - rrethanë që e vë rrobaqepësin në një trysni të paparë, sepse #mundet edhe t'i heqin qafën e vet, për jakën e mbretit, po nuk i pëlqeu Naltmadhënisë...
 #
 # Pajtohem, ndërkohë, që sistemi rri më mirë aty ku është vendosur te propozimi.
 #: server/templates/pages/src/503.html:3
