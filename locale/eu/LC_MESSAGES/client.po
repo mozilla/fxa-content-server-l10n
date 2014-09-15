@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-19 20:39+0000\n"
-"PO-Revision-Date: 2014-06-03 21:39+0000\n"
+"PO-Revision-Date: 2014-09-15 08:17+0000\n"
 "Last-Translator: Julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1405845898.0\n"
+"X-POOTLE-MTIME: 1410769047.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -124,11 +124,11 @@ msgstr "Kontua badago lehendik ere. <a href=\"/signin\">Hasi saioa</a>"
 
 #: app/scripts/views/settings/avatar_gravatar.js:58
 msgid "No Gravatar found"
-msgstr ""
+msgstr "Ez da Gravatar-ik aurkitu"
 
 #: app/scripts/views/settings/avatar_gravatar.js:78
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr ""
+msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a>-en eskutik"
 
 #: app/scripts/lib/auth-errors.js:59 app/scripts/lib/oauth-errors.js:41
 #: app/scripts/lib/profile-client.js:76 app/scripts/lib/profile-client.js:80
@@ -263,16 +263,15 @@ msgstr "Jaiotze-urtea behar da"
 
 #: app/scripts/lib/auth-errors.js:92
 msgid "A usable image was not found"
-msgstr ""
+msgstr "Ez da irudi erabilgarririk aurkitu"
 
 #: app/scripts/lib/auth-errors.js:93
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "Ezin da kamera hasieratu"
 
 #: app/scripts/lib/auth-errors.js:94
-#, fuzzy
 msgid "Valid URL required"
-msgstr "Baliozko helbide elektronikoa behar da"
+msgstr "Baliozko URLa behar da"
 
 #: app/scripts/lib/oauth-errors.js:33
 msgid "Unknown client"
@@ -288,7 +287,7 @@ msgstr "Baieztapen baliogabea"
 
 #: app/scripts/lib/oauth-errors.js:42
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "Zerbait gaizki joan da. Itxi fitxa hau eta saiatu berriro."
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -639,9 +638,8 @@ msgstr "Amaitu saioa"
 
 #: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
-#, fuzzy
 msgid "Continue to %(serviceName)s"
-msgstr "Hasi saioa %(serviceName)s zerbitzuan"
+msgstr "Jarraitu %(serviceName)s zerbitzura"
 
 #: app/scripts/templates/sign_in.mustache:12
 msgid "Create an account"
@@ -670,7 +668,7 @@ msgstr "Kontua baduzu? Hasi saioa."
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
-msgstr ""
+msgstr "Hasiera-orria"
 
 #: app/scripts/templates/settings/avatar.mustache:2
 #: app/scripts/templates/settings/avatar_camera.mustache:2
@@ -678,53 +676,52 @@ msgstr ""
 #: app/scripts/templates/settings/avatar_crop.mustache:2
 #: app/scripts/templates/settings/avatar_gravatar.mustache:2
 #: app/scripts/templates/settings/avatar_url.mustache:2
-#, fuzzy
 msgid "Account picture"
-msgstr "Kontua egiaztatuta"
+msgstr "Kontuaren argazkia"
 
 #: app/scripts/templates/settings/avatar.mustache:4
 msgid "Change"
-msgstr ""
+msgstr "Aldatu"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:4
 msgid "Take picture"
-msgstr ""
+msgstr "Hartu argazkia"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:5
 #: app/scripts/templates/settings/avatar_crop.mustache:5
 #: app/scripts/templates/settings/avatar_gravatar.mustache:5
 #: app/scripts/templates/settings/avatar_url.mustache:6
 msgid "Cancel"
-msgstr ""
+msgstr "Utzi"
 
 #: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Upload"
-msgstr ""
+msgstr "Igo"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5
 msgid "URL"
-msgstr ""
+msgstr "URLa"
 
 #: app/scripts/templates/settings/avatar_change.mustache:6
 msgid "Camera"
-msgstr ""
+msgstr "Kamera"
 
 #: app/scripts/templates/settings/avatar_change.mustache:7
 msgid "Gravatar"
-msgstr ""
+msgstr "Gravatar-a"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:3
 msgid "Position and rotate your picture as needed"
-msgstr ""
+msgstr "Kokatu eta biratu zure argazkia zure beharren arabera"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:4
 #: app/scripts/templates/settings/avatar_gravatar.mustache:4
 msgid "Save"
-msgstr ""
+msgstr "Gorde"
 
 #: app/scripts/templates/settings/avatar_url.mustache:4
 msgid "Paste image URL"
-msgstr ""
+msgstr "Itsatsi irudiaren URLa"
 
 #~ msgid "Signed in successfully"
 #~ msgstr "Saioa ondo hasi da"
