@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-19 20:39+0000\n"
-"PO-Revision-Date: 2014-09-28 13:57+0000\n"
+"PO-Revision-Date: 2014-09-28 21:31+0000\n"
 "Last-Translator: Gábor <kelemeng@ubuntu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n !=1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1411912662.0\n"
+"X-POOTLE-MTIME: 1411939897.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -432,7 +432,7 @@ msgstr "Jelszó megismétlése"
 #: app/scripts/templates/sign_up.mustache:33
 #: app/scripts/templates/settings/avatar_url.mustache:5
 msgid "Next"
-msgstr "Következő"
+msgstr "Tovább"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
