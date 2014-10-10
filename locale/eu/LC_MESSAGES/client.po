@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-19 20:39+0000\n"
+"POT-Creation-Date: 2014-10-10 00:13+0000\n"
 "PO-Revision-Date: 2014-09-15 08:17+0000\n"
 "Last-Translator: Julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,15 +82,15 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/base.js:531
+#: app/scripts/views/base.js:551
 msgid "missing search parameter: %(itemName)s"
 msgstr "bilaketa-parametroa falta da: %(itemName)s"
 
-#: app/scripts/views/change_password.js:67
+#: app/scripts/views/change_password.js:61
 msgid "Password changed"
 msgstr "Pasahitza aldatuta"
 
-#: app/scripts/views/change_password.js:71
+#: app/scripts/views/change_password.js:65
 msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
@@ -98,11 +98,16 @@ msgstr ""
 "Egiaztatu gabeko kontua. <a href=\"#\" id=\"resend\">Birbidali egiaztapen-"
 "mezua</a>."
 
-#: app/scripts/views/confirm_reset_password.js:68
+#: app/scripts/views/confirm_reset_password.js:166
+#: app/scripts/templates/ready.mustache:3
+msgid "Password reset"
+msgstr "Pasahitza berrezarrita"
+
+#: app/scripts/views/confirm_reset_password.js:182
 msgid "Password reset. Sign in to continue."
 msgstr "Pasahitza berrezarrita. Hasi saioa jarraitzeko."
 
-#: app/scripts/views/delete_account.js:46
+#: app/scripts/views/delete_account.js:45
 msgid "Account deleted successfully"
 msgstr "Saioa ondo ezabatu da"
 
@@ -110,168 +115,173 @@ msgstr "Saioa ondo ezabatu da"
 msgid "/force_auth requires an email"
 msgstr "/force_auth deiak helbide elektronikoa behar du"
 
-#: app/scripts/views/reset_password.js:76 app/scripts/views/sign_in.js:127
+#: app/scripts/views/reset_password.js:76 app/scripts/views/sign_in.js:145
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Kontu ezezaguna. <a href=\"/signup\">Erregistratu</a>"
 
-#: app/scripts/views/settings.js:42
+#: app/scripts/views/settings.js:43
 msgid "Signed out"
 msgstr "Saioa amaituta"
 
-#: app/scripts/views/sign_up.js:214
+#: app/scripts/views/sign_up.js:325
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Kontua badago lehendik ere. <a href=\"/signin\">Hasi saioa</a>"
 
-#: app/scripts/views/settings/avatar_gravatar.js:58
+#: app/scripts/views/settings/avatar_gravatar.js:65
 msgid "No Gravatar found"
 msgstr "Ez da Gravatar-ik aurkitu"
 
-#: app/scripts/views/settings/avatar_gravatar.js:78
+#: app/scripts/views/settings/avatar_gravatar.js:92
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a>-en eskutik"
 
-#: app/scripts/lib/auth-errors.js:59 app/scripts/lib/oauth-errors.js:41
-#: app/scripts/lib/profile-client.js:76 app/scripts/lib/profile-client.js:80
+#: app/scripts/lib/auth-errors.js:61 app/scripts/lib/auth-errors.js:98
+#: app/scripts/lib/oauth-errors.js:41 app/scripts/lib/profile-client.js:121
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Espero gabeko errorea"
 
-#: app/scripts/lib/auth-errors.js:60
+#: app/scripts/lib/auth-errors.js:62
 msgid "Invalid token"
 msgstr "Token baliogabea"
 
-#: app/scripts/lib/auth-errors.js:61
+#: app/scripts/lib/auth-errors.js:63
 msgid "Invalid timestamp in request signature"
 msgstr "Denbora-marka baliogabea eskaeraren sinaduran"
 
-#: app/scripts/lib/auth-errors.js:62
+#: app/scripts/lib/auth-errors.js:64
 msgid "Invalid nonce in request signature"
 msgstr "Nonce baliogabea eskaeraren sinaduran"
 
-#: app/scripts/lib/auth-errors.js:63 app/scripts/lib/strings.js:25
+#: app/scripts/lib/auth-errors.js:65 app/scripts/lib/strings.js:25
 msgid "Account already exists"
 msgstr "Kontua badago lehendik"
 
-#: app/scripts/lib/auth-errors.js:64
+#: app/scripts/lib/auth-errors.js:66
 msgid "Unknown account"
 msgstr "Kontu ezezaguna"
 
-#: app/scripts/lib/auth-errors.js:65
+#: app/scripts/lib/auth-errors.js:67
 msgid "Incorrect email case"
 msgstr "Helbide elektronikoaren formatu okerra"
 
-#: app/scripts/lib/auth-errors.js:66
+#: app/scripts/lib/auth-errors.js:68
 msgid "Incorrect password"
 msgstr "Pasahitz okerra"
 
-#: app/scripts/lib/auth-errors.js:67
+#: app/scripts/lib/auth-errors.js:69
 msgid "Unverified account"
 msgstr "Egiaztatu gabeko kontua"
 
-#: app/scripts/lib/auth-errors.js:68
+#: app/scripts/lib/auth-errors.js:70
 msgid "Invalid verification code"
 msgstr "Egiaztatze-kode baliogabea"
 
-#: app/scripts/lib/auth-errors.js:69
+#: app/scripts/lib/auth-errors.js:71
 msgid "Invalid JSON in request body"
 msgstr "JSON baliogabea eskaeraren gorputzean"
 
-#: app/scripts/lib/auth-errors.js:70 app/scripts/lib/oauth-errors.js:36
-#: app/scripts/lib/profile-client.js:77
+#: app/scripts/lib/auth-errors.js:72 app/scripts/lib/oauth-errors.js:36
+#: app/scripts/lib/profile-client.js:115
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Parametro baliogabea eskaeraren gorputzean: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:71
+#: app/scripts/lib/auth-errors.js:73
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Parametroa falta da eskaeraren gorputzean: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:72 app/scripts/lib/oauth-errors.js:37
+#: app/scripts/lib/auth-errors.js:74 app/scripts/lib/oauth-errors.js:37
 msgid "Invalid request signature"
 msgstr "Eskaeraren sinadura baliogabea"
 
-#: app/scripts/lib/auth-errors.js:73
+#: app/scripts/lib/auth-errors.js:75
 msgid "Missing content-length header"
 msgstr "'Content-length' goiburua falta da"
 
-#: app/scripts/lib/auth-errors.js:74
+#: app/scripts/lib/auth-errors.js:76
 msgid "Request body too large"
 msgstr "Eskaeraren gorputza handiegia da"
 
-#: app/scripts/lib/auth-errors.js:75
+#: app/scripts/lib/auth-errors.js:77
 msgid "Attempt limit exceeded"
 msgstr "Saiakeren muga gaindituta"
 
-#: app/scripts/lib/auth-errors.js:76
+#: app/scripts/lib/auth-errors.js:78
 msgid "Server busy, try again soon"
 msgstr "Zerbitzaria lanpetuta dago,  saiatu berriro beranduago"
 
-#: app/scripts/lib/auth-errors.js:77
+#: app/scripts/lib/auth-errors.js:79
 msgid "This endpoint is no longer supported"
 msgstr "Mutur hau ez da onartzen"
 
-#: app/scripts/lib/auth-errors.js:80 app/scripts/lib/oauth-errors.js:40
-#: app/scripts/lib/profile-client.js:79
+#: app/scripts/lib/auth-errors.js:82 app/scripts/lib/oauth-errors.js:40
+#: app/scripts/lib/profile-client.js:120
 msgid "System unavailable, try again soon"
 msgstr "Sistema ez dago erabilgarri, saiatu berrio beranduago"
 
-#: app/scripts/lib/auth-errors.js:81
+#: app/scripts/lib/auth-errors.js:83
 msgid "Session expired. Sign in to continue."
 msgstr "Saioa iraungita. Hasi saioa jarraitzeko."
 
-#: app/scripts/lib/auth-errors.js:82
+#: app/scripts/lib/auth-errors.js:84
 msgid "Cookies are still disabled"
 msgstr "Cookieak desgaituta daude oraindik"
 
-#: app/scripts/lib/auth-errors.js:83
+#: app/scripts/lib/auth-errors.js:85
 msgid "Passwords do not match"
 msgstr "Pasahitzak ez datoz bat"
 
-#: app/scripts/lib/auth-errors.js:84
+#: app/scripts/lib/auth-errors.js:86
 msgid "Working…"
 msgstr "Lanean…"
 
-#: app/scripts/lib/auth-errors.js:85
+#: app/scripts/lib/auth-errors.js:87
 msgid "Could not get Privacy Notice"
 msgstr "Ezin da pribatutasun-abisua eskuratu"
 
-#: app/scripts/lib/auth-errors.js:86
+#: app/scripts/lib/auth-errors.js:88
 msgid "Could not get Terms of Service"
 msgstr "Ezin dira zerbitzuaren baldintzak eskuratu"
 
-#: app/scripts/lib/auth-errors.js:87
+#: app/scripts/lib/auth-errors.js:89
 msgid "Your new password must be different"
 msgstr "Pasahitz berriak desberdina izan behar du"
 
-#: app/scripts/lib/auth-errors.js:88 app/scripts/lib/strings.js:23
+#: app/scripts/lib/auth-errors.js:90 app/scripts/lib/strings.js:23
 #: app/scripts/templates/change_password.mustache:7
 #: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/sign_up.mustache:11
 msgid "Must be at least 8 characters"
 msgstr "Gutxienez 8 karaktere izan behar ditu"
 
-#: app/scripts/lib/auth-errors.js:89 app/scripts/lib/strings.js:19
+#: app/scripts/lib/auth-errors.js:91 app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr "Baliozko pasahitza behar da"
 
-#: app/scripts/lib/auth-errors.js:90 app/scripts/lib/strings.js:18
+#: app/scripts/lib/auth-errors.js:92 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "Baliozko helbide elektronikoa behar da"
 
-#: app/scripts/lib/auth-errors.js:91 app/scripts/lib/strings.js:24
+#: app/scripts/lib/auth-errors.js:93 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "Jaiotze-urtea behar da"
 
-#: app/scripts/lib/auth-errors.js:92
+#: app/scripts/lib/auth-errors.js:94
 msgid "A usable image was not found"
 msgstr "Ez da irudi erabilgarririk aurkitu"
 
-#: app/scripts/lib/auth-errors.js:93
+#: app/scripts/lib/auth-errors.js:95
 msgid "Could not initialize camera"
 msgstr "Ezin da kamera hasieratu"
 
-#: app/scripts/lib/auth-errors.js:94
+#: app/scripts/lib/auth-errors.js:96
 msgid "Valid URL required"
 msgstr "Baliozko URLa behar da"
+
+#: app/scripts/lib/auth-errors.js:97
+#, fuzzy
+msgid "Valid birthday required"
+msgstr "Baliozko helbide elektronikoa behar da"
 
 #: app/scripts/lib/oauth-errors.js:33
 msgid "Unknown client"
@@ -288,6 +298,18 @@ msgstr "Baieztapen baliogabea"
 #: app/scripts/lib/oauth-errors.js:42
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Zerbait gaizki joan da. Itxi fitxa hau eta saiatu berriro."
+
+#: app/scripts/lib/profile-client.js:114
+msgid "Unauthorized"
+msgstr ""
+
+#: app/scripts/lib/profile-client.js:116
+msgid "Unsupported image provider"
+msgstr ""
+
+#: app/scripts/lib/profile-client.js:117
+msgid "Image processing error"
+msgstr ""
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -343,7 +365,7 @@ msgid "Learn more."
 msgstr "Argibide gehiago."
 
 #: app/scripts/templates/change_password.mustache:1
-#: app/scripts/templates/settings.mustache:5
+#: app/scripts/templates/settings.mustache:4
 msgid "Change password"
 msgstr "Aldatu pasahitza"
 
@@ -362,8 +384,9 @@ msgstr "Pasahitz zaharra"
 #: app/scripts/templates/complete_reset_password.mustache:11
 #: app/scripts/templates/complete_reset_password.mustache:13
 #: app/scripts/templates/delete_account.mustache:4
-#: app/scripts/templates/force_auth.mustache:5
-#: app/scripts/templates/sign_in.mustache:9
+#: app/scripts/templates/force_auth.mustache:6
+#: app/scripts/templates/sign_in.mustache:8
+#: app/scripts/templates/sign_in.mustache:20
 #: app/scripts/templates/sign_up.mustache:10
 msgid "Show"
 msgstr "Erakutsi"
@@ -428,7 +451,6 @@ msgstr "Errepikatu pasahitza"
 
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/reset_password.mustache:5
-#: app/scripts/templates/sign_up.mustache:33
 #: app/scripts/templates/settings/avatar_url.mustache:5
 msgid "Next"
 msgstr "Hurrengoa"
@@ -482,10 +504,12 @@ msgstr "Berrezartze-esteka bidali da hona: %(email)s"
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
-#: app/scripts/templates/force_auth.mustache:6
+#: app/scripts/templates/force_auth.mustache:7
 #: app/scripts/templates/sign_in.mustache:1
 #: app/scripts/templates/sign_in.mustache:4
-#: app/scripts/templates/sign_in.mustache:10
+#: app/scripts/templates/sign_in.mustache:9
+#: app/scripts/templates/sign_in.mustache:13
+#: app/scripts/templates/sign_in.mustache:21
 msgid "Sign in"
 msgstr "Hasi saioa"
 
@@ -513,7 +537,7 @@ msgstr "Saiatu berriro"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
-#: app/scripts/templates/settings.mustache:6
+#: app/scripts/templates/settings.mustache:5
 msgid "Delete account"
 msgstr "Ezabatu kontua"
 
@@ -524,8 +548,9 @@ msgstr ""
 "Ziur zaude zure kontua ezabatu nahi duzula? Ekintza hau ezin da desegin."
 
 #: app/scripts/templates/delete_account.mustache:3
-#: app/scripts/templates/force_auth.mustache:3
+#: app/scripts/templates/force_auth.mustache:4
 #: app/scripts/templates/sign_in.mustache:7
+#: app/scripts/templates/sign_in.mustache:18
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Password"
 msgstr "Pasahitza"
@@ -534,14 +559,15 @@ msgstr "Pasahitza"
 msgid "Sign in to continue"
 msgstr "Hasi saioa jarraitzeko"
 
-#: app/scripts/templates/force_auth.mustache:7
-#: app/scripts/templates/sign_in.mustache:11
+#: app/scripts/templates/force_auth.mustache:8
+#: app/scripts/templates/sign_in.mustache:10
+#: app/scripts/templates/sign_in.mustache:22
 msgid "Forgot password?"
 msgstr "Pasahitza ahaztuta?"
 
-#: app/scripts/templates/force_auth.mustache:8
-#: app/scripts/templates/sign_in.mustache:13
-#: app/scripts/templates/sign_up.mustache:32
+#: app/scripts/templates/force_auth.mustache:9
+#: app/scripts/templates/sign_in.mustache:24
+#: app/scripts/templates/sign_up.mustache:46
 msgid ""
 "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
 "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
@@ -561,13 +587,13 @@ msgid "Legal"
 msgstr "Legala"
 
 #: app/scripts/templates/legal.mustache:3
-#: app/scripts/templates/settings.mustache:7
+#: app/scripts/templates/settings.mustache:8
 #: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "Zerbitzuaren baldintzak"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
-#: app/scripts/templates/settings.mustache:8
+#: app/scripts/templates/settings.mustache:9
 msgid "Privacy Notice"
 msgstr "Pribatutasun-abisua"
 
@@ -582,10 +608,6 @@ msgstr "Eskuratu Androiderako Firefox"
 #: app/scripts/templates/ready.mustache:1
 msgid "Account verified"
 msgstr "Kontua egiaztatuta"
-
-#: app/scripts/templates/ready.mustache:3
-msgid "Password reset"
-msgstr "Pasahitza berrezarrita"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Success"
@@ -604,7 +626,7 @@ msgid "Enter your email to reset&nbsp;the account password."
 msgstr "Idatzi zure helbide elektronikoa kontuaren pasahitza berrezartzeko."
 
 #: app/scripts/templates/reset_password.mustache:3
-#: app/scripts/templates/sign_in.mustache:6
+#: app/scripts/templates/sign_in.mustache:17
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Email"
 msgstr "Helbide elektronikoa"
@@ -628,11 +650,11 @@ msgstr ""
 msgid "Manage account"
 msgstr "Kudeatu kontua"
 
-#: app/scripts/templates/settings.mustache:2
+#: app/scripts/templates/settings.mustache:3
 msgid "You are signed in as"
 msgstr "Honela hasi duzu saioa:"
 
-#: app/scripts/templates/settings.mustache:3
+#: app/scripts/templates/settings.mustache:6
 msgid "Sign out"
 msgstr "Amaitu saioa"
 
@@ -641,7 +663,13 @@ msgstr "Amaitu saioa"
 msgid "Continue to %(serviceName)s"
 msgstr "Jarraitu %(serviceName)s zerbitzura"
 
-#: app/scripts/templates/sign_in.mustache:12
+#: app/scripts/templates/sign_in.mustache:11
+#: app/scripts/templates/sign_in.mustache:14
+#, fuzzy
+msgid "Use a different account"
+msgstr "Egiaztatu gabeko kontua"
+
+#: app/scripts/templates/sign_in.mustache:23
 msgid "Create an account"
 msgstr "Sortu kontua"
 
@@ -658,11 +686,72 @@ msgstr "Jaiotze-urtea"
 msgid "1990 or earlier"
 msgstr "1990 edo lehenago"
 
+#: app/scripts/templates/sign_up.mustache:32
+msgid "Month"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:33
+msgid "January"
+msgstr ""
+
 #: app/scripts/templates/sign_up.mustache:34
+msgid "February"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:35
+msgid "March"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:36
+msgid "April"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:37
+msgid "May"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:38
+msgid "June"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:39
+msgid "July"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:40
+msgid "August"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:41
+msgid "September"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:42
+msgid "October"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:43
+msgid "November"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:44
+msgid "December"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:45
+msgid "Day"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:47
+#, fuzzy
+msgid "Sign up"
+msgstr "Amaitu saioa"
+
+#: app/scripts/templates/sign_up.mustache:48
 msgid "Choose what to sync"
 msgstr "Aukeratu zer sinkronizatu"
 
-#: app/scripts/templates/sign_up.mustache:36
+#: app/scripts/templates/sign_up.mustache:50
 msgid "Already have an account? Sign in."
 msgstr "Kontua baduzu? Hasi saioa."
 
@@ -699,14 +788,10 @@ msgid "Upload"
 msgstr "Igo"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5
-msgid "URL"
-msgstr "URLa"
-
-#: app/scripts/templates/settings/avatar_change.mustache:6
 msgid "Camera"
 msgstr "Kamera"
 
-#: app/scripts/templates/settings/avatar_change.mustache:7
+#: app/scripts/templates/settings/avatar_change.mustache:6
 msgid "Gravatar"
 msgstr "Gravatar-a"
 
@@ -722,6 +807,9 @@ msgstr "Gorde"
 #: app/scripts/templates/settings/avatar_url.mustache:4
 msgid "Paste image URL"
 msgstr "Itsatsi irudiaren URLa"
+
+#~ msgid "URL"
+#~ msgstr "URLa"
 
 #~ msgid "Signed in successfully"
 #~ msgstr "Saioa ondo hasi da"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-19 20:39+0000\n"
+"POT-Creation-Date: 2014-10-10 00:13+0000\n"
 "PO-Revision-Date: 2014-06-13 20:38+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,22 +38,18 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/503.html:4
-#: server/templates/pages/src/privacy.html:6
-#: server/templates/pages/src/terms.html:6
 msgid "Home"
 msgstr "Startowy bok"
 
 #: server/templates/pages/src/500.html:2
-msgid "System unavailable, try again soon"
-msgstr "System njestoj k dispoziciji, wopytajśo za krotki cas hyšći raz"
+msgid "500 Error"
+msgstr ""
 
 #: server/templates/pages/src/500.html:3
 msgid ""
-"We are currently performing some maintenance on the system, and will return "
-"momentarily."
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
 msgstr ""
-"Pśewjeźomy tuchylu wótwardowańske źěła na systemje a buźomy skóro zasej k "
-"dostaśeju."
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -159,3 +155,13 @@ msgstr "Wobkšuśćo swójo konto"
 #: server/lib/templates.js:68
 msgid "Reset your password"
 msgstr "Stajśo swójo gronidło slědk"
+
+#~ msgid "System unavailable, try again soon"
+#~ msgstr "System njestoj k dispoziciji, wopytajśo za krotki cas hyšći raz"
+
+#~ msgid ""
+#~ "We are currently performing some maintenance on the system, and will "
+#~ "return momentarily."
+#~ msgstr ""
+#~ "Pśewjeźomy tuchylu wótwardowańske źěła na systemje a buźomy skóro zasej k "
+#~ "dostaśeju."

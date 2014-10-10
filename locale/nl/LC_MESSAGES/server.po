@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-19 20:39+0000\n"
+"POT-Creation-Date: 2014-10-10 00:13+0000\n"
 "PO-Revision-Date: 2014-05-04 12:37+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,22 +37,18 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/503.html:4
-#: server/templates/pages/src/privacy.html:6
-#: server/templates/pages/src/terms.html:6
 msgid "Home"
 msgstr "Start"
 
 #: server/templates/pages/src/500.html:2
-msgid "System unavailable, try again soon"
-msgstr "Systeem niet beschikbaar, probeer het later opnieuw"
+msgid "500 Error"
+msgstr ""
 
 #: server/templates/pages/src/500.html:3
 msgid ""
-"We are currently performing some maintenance on the system, and will return "
-"momentarily."
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
 msgstr ""
-"Er wordt momenteel wat onderhoud aan het systeem uitgevoerd, en we zijn "
-"binnenkort weer beschikbaar."
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -157,6 +153,16 @@ msgstr "Verifieer uw account"
 #: server/lib/templates.js:68
 msgid "Reset your password"
 msgstr "Wachtwoord herinitialiseren"
+
+#~ msgid "System unavailable, try again soon"
+#~ msgstr "Systeem niet beschikbaar, probeer het later opnieuw"
+
+#~ msgid ""
+#~ "We are currently performing some maintenance on the system, and will "
+#~ "return momentarily."
+#~ msgstr ""
+#~ "Er wordt momenteel wat onderhoud aan het systeem uitgevoerd, en we zijn "
+#~ "binnenkort weer beschikbaar."
 
 #~ msgid "Reset Password Request"
 #~ msgstr "Aanvraag voor wachtwoordherinitialisatie"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-19 20:39+0000\n"
+"POT-Creation-Date: 2014-10-10 00:13+0000\n"
 "PO-Revision-Date: 2014-07-21 14:29+0000\n"
 "Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,20 +37,18 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/503.html:4
-#: server/templates/pages/src/privacy.html:6
-#: server/templates/pages/src/terms.html:6
 msgid "Home"
 msgstr "Domů"
 
 #: server/templates/pages/src/500.html:2
-msgid "System unavailable, try again soon"
-msgstr "Systém je nedostupný, zkuste to znovu později."
+msgid "500 Error"
+msgstr ""
 
 #: server/templates/pages/src/500.html:3
 msgid ""
-"We are currently performing some maintenance on the system, and will return "
-"momentarily."
-msgstr "Systém aktuálně prochází údržbou, za okamžik bude opět dostupný."
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
+msgstr ""
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -154,6 +152,14 @@ msgstr "Ověřte svůj účet"
 #: server/lib/templates.js:68
 msgid "Reset your password"
 msgstr "Obnovit heslo"
+
+#~ msgid "System unavailable, try again soon"
+#~ msgstr "Systém je nedostupný, zkuste to znovu později."
+
+#~ msgid ""
+#~ "We are currently performing some maintenance on the system, and will "
+#~ "return momentarily."
+#~ msgstr "Systém aktuálně prochází údržbou, za okamžik bude opět dostupný."
 
 #~ msgid "Reset Password Request"
 #~ msgstr "Požadavek na obnovení hesla"

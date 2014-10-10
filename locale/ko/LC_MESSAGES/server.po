@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-19 20:39+0000\n"
+"POT-Creation-Date: 2014-10-10 00:13+0000\n"
 "PO-Revision-Date: 2014-06-07 09:40+0000\n"
 "Last-Translator: Hyeonseok <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,20 +35,18 @@ msgstr "요청하신 페이지를 찾을 수 없습니다. 잘못된 링크를 �
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/503.html:4
-#: server/templates/pages/src/privacy.html:6
-#: server/templates/pages/src/terms.html:6
 msgid "Home"
 msgstr "첫화면"
 
 #: server/templates/pages/src/500.html:2
-msgid "System unavailable, try again soon"
-msgstr "시스템 오류입니다, 잠시 후에 다시 시도해 주세요."
+msgid "500 Error"
+msgstr ""
 
 #: server/templates/pages/src/500.html:3
 msgid ""
-"We are currently performing some maintenance on the system, and will return "
-"momentarily."
-msgstr "시스템 유지 운용 작업 중입니다, 잠시 후에 사용할 수 있습니다."
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
+msgstr ""
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -148,6 +146,14 @@ msgstr "계정 확인"
 #: server/lib/templates.js:68
 msgid "Reset your password"
 msgstr "암호 재설정"
+
+#~ msgid "System unavailable, try again soon"
+#~ msgstr "시스템 오류입니다, 잠시 후에 다시 시도해 주세요."
+
+#~ msgid ""
+#~ "We are currently performing some maintenance on the system, and will "
+#~ "return momentarily."
+#~ msgstr "시스템 유지 운용 작업 중입니다, 잠시 후에 사용할 수 있습니다."
 
 #~ msgid "Reset Password Request"
 #~ msgstr "요청 암호 재설정"

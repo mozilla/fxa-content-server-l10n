@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-19 20:39+0000\n"
+"POT-Creation-Date: 2014-10-10 00:13+0000\n"
 "PO-Revision-Date: 2014-05-04 11:31+0000\n"
 "Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,22 +38,18 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/503.html:4
-#: server/templates/pages/src/privacy.html:6
-#: server/templates/pages/src/terms.html:6
 msgid "Home"
 msgstr "Pagina principale"
 
 #: server/templates/pages/src/500.html:2
-msgid "System unavailable, try again soon"
-msgstr "Il sistema non è disponibile, riprova più tardi"
+msgid "500 Error"
+msgstr ""
 
 #: server/templates/pages/src/500.html:3
 msgid ""
-"We are currently performing some maintenance on the system, and will return "
-"momentarily."
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
 msgstr ""
-"È in corso un intervento di manutenzione al sistema che sarà nuovamente "
-"disponibile a momenti."
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -158,6 +154,16 @@ msgstr "Conferma l’account"
 #: server/lib/templates.js:68
 msgid "Reset your password"
 msgstr "Reimposta password"
+
+#~ msgid "System unavailable, try again soon"
+#~ msgstr "Il sistema non è disponibile, riprova più tardi"
+
+#~ msgid ""
+#~ "We are currently performing some maintenance on the system, and will "
+#~ "return momentarily."
+#~ msgstr ""
+#~ "È in corso un intervento di manutenzione al sistema che sarà nuovamente "
+#~ "disponibile a momenti."
 
 #~ msgid "Reset Password Request"
 #~ msgstr "Richiesta di reimpostazione della password"

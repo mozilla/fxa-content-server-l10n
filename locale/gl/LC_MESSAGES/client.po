@@ -1,7 +1,8 @@
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\n"
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-19 20:39+0000\n"
+"POT-Creation-Date: 2014-10-10 00:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -77,25 +78,32 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/base.js:531
+#: app/scripts/views/base.js:551
 msgid "missing search parameter: %(itemName)s"
 msgstr "falta o parámetro da busca: %(itemName)s"
 
-#: app/scripts/views/change_password.js:67
+#: app/scripts/views/change_password.js:61
 msgid "Password changed"
 msgstr "Cambiouse o contrasinal"
 
-#: app/scripts/views/change_password.js:71
+#: app/scripts/views/change_password.js:65
 msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
-msgstr "Conta sen comprobar. <a href=\"#\" id=\"resend\">Reenviar correo de comprobación</a>."
+msgstr ""
+"Conta sen comprobar. <a href=\"#\" id=\"resend\">Reenviar correo de "
+"comprobación</a>."
 
-#: app/scripts/views/confirm_reset_password.js:68
+#: app/scripts/views/confirm_reset_password.js:166
+#: app/scripts/templates/ready.mustache:3
+msgid "Password reset"
+msgstr "Restabeleceuse o contrasinal"
+
+#: app/scripts/views/confirm_reset_password.js:182
 msgid "Password reset. Sign in to continue."
 msgstr "Restabeleceuse o contrasinal. Identificarse para continuar."
 
-#: app/scripts/views/delete_account.js:46
+#: app/scripts/views/delete_account.js:45
 msgid "Account deleted successfully"
 msgstr "Eliminouse a conta correctamente"
 
@@ -103,168 +111,173 @@ msgstr "Eliminouse a conta correctamente"
 msgid "/force_auth requires an email"
 msgstr "/force_auth require un correo"
 
-#: app/scripts/views/reset_password.js:76 app/scripts/views/sign_in.js:127
+#: app/scripts/views/reset_password.js:76 app/scripts/views/sign_in.js:145
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Conta descoñecida. <a href=\"/signup\">Crear conta</a>"
 
-#: app/scripts/views/settings.js:42
+#: app/scripts/views/settings.js:43
 msgid "Signed out"
 msgstr "Saíu da conta"
 
-#: app/scripts/views/sign_up.js:214
+#: app/scripts/views/sign_up.js:325
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "A conta xa existe. <a href=\"/signin\">Identificarse</a>"
 
-#: app/scripts/views/settings/avatar_gravatar.js:58
+#: app/scripts/views/settings/avatar_gravatar.js:65
 msgid "No Gravatar found"
 msgstr ""
 
-#: app/scripts/views/settings/avatar_gravatar.js:78
+#: app/scripts/views/settings/avatar_gravatar.js:92
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:59 app/scripts/lib/oauth-errors.js:41
-#: app/scripts/lib/profile-client.js:76 app/scripts/lib/profile-client.js:80
+#: app/scripts/lib/auth-errors.js:61 app/scripts/lib/auth-errors.js:98
+#: app/scripts/lib/oauth-errors.js:41 app/scripts/lib/profile-client.js:121
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Erro inesperado"
 
-#: app/scripts/lib/auth-errors.js:60
+#: app/scripts/lib/auth-errors.js:62
 msgid "Invalid token"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:61
+#: app/scripts/lib/auth-errors.js:63
 msgid "Invalid timestamp in request signature"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:62
+#: app/scripts/lib/auth-errors.js:64
 msgid "Invalid nonce in request signature"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:63 app/scripts/lib/strings.js:25
+#: app/scripts/lib/auth-errors.js:65 app/scripts/lib/strings.js:25
 msgid "Account already exists"
 msgstr "A conta xa existe"
 
-#: app/scripts/lib/auth-errors.js:64
+#: app/scripts/lib/auth-errors.js:66
 msgid "Unknown account"
 msgstr "Conta descoñecida"
 
-#: app/scripts/lib/auth-errors.js:65
+#: app/scripts/lib/auth-errors.js:67
 msgid "Incorrect email case"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:66
+#: app/scripts/lib/auth-errors.js:68
 msgid "Incorrect password"
 msgstr "Contrasinal incorrecto"
 
-#: app/scripts/lib/auth-errors.js:67
+#: app/scripts/lib/auth-errors.js:69
 msgid "Unverified account"
 msgstr "Conta sen comprobar"
 
-#: app/scripts/lib/auth-errors.js:68
+#: app/scripts/lib/auth-errors.js:70
 msgid "Invalid verification code"
 msgstr "Código de comprobación incorrecto"
 
-#: app/scripts/lib/auth-errors.js:69
+#: app/scripts/lib/auth-errors.js:71
 msgid "Invalid JSON in request body"
 msgstr "JSON incorrecto no corpo da solicitude"
 
-#: app/scripts/lib/auth-errors.js:70 app/scripts/lib/oauth-errors.js:36
-#: app/scripts/lib/profile-client.js:77
+#: app/scripts/lib/auth-errors.js:72 app/scripts/lib/oauth-errors.js:36
+#: app/scripts/lib/profile-client.js:115
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Parámetro incorrecto no corpo da solicitude: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:71
+#: app/scripts/lib/auth-errors.js:73
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Falta un parámetro no corpo da solicitude: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:72 app/scripts/lib/oauth-errors.js:37
+#: app/scripts/lib/auth-errors.js:74 app/scripts/lib/oauth-errors.js:37
 msgid "Invalid request signature"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:73
+#: app/scripts/lib/auth-errors.js:75
 msgid "Missing content-length header"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:74
+#: app/scripts/lib/auth-errors.js:76
 msgid "Request body too large"
 msgstr "Corpo da solicitude demasiado grande"
 
-#: app/scripts/lib/auth-errors.js:75
+#: app/scripts/lib/auth-errors.js:77
 msgid "Attempt limit exceeded"
 msgstr "Excedeuse o límite de intentos"
 
-#: app/scripts/lib/auth-errors.js:76
+#: app/scripts/lib/auth-errors.js:78
 msgid "Server busy, try again soon"
 msgstr "Servido ocupado, tente de novo pronto"
 
-#: app/scripts/lib/auth-errors.js:77
+#: app/scripts/lib/auth-errors.js:79
 msgid "This endpoint is no longer supported"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:80 app/scripts/lib/oauth-errors.js:40
-#: app/scripts/lib/profile-client.js:79
+#: app/scripts/lib/auth-errors.js:82 app/scripts/lib/oauth-errors.js:40
+#: app/scripts/lib/profile-client.js:120
 msgid "System unavailable, try again soon"
 msgstr "O sistema non está dispoñíbel, tente de novo pronto"
 
-#: app/scripts/lib/auth-errors.js:81
+#: app/scripts/lib/auth-errors.js:83
 msgid "Session expired. Sign in to continue."
 msgstr "Caducou a sesión. Identifíquese para continuar."
 
-#: app/scripts/lib/auth-errors.js:82
+#: app/scripts/lib/auth-errors.js:84
 msgid "Cookies are still disabled"
 msgstr "As cookies aínda están desactivadas"
 
-#: app/scripts/lib/auth-errors.js:83
+#: app/scripts/lib/auth-errors.js:85
 msgid "Passwords do not match"
 msgstr "Non coinciden os contrasinais"
 
-#: app/scripts/lib/auth-errors.js:84
+#: app/scripts/lib/auth-errors.js:86
 msgid "Working…"
 msgstr "Traballando…"
 
-#: app/scripts/lib/auth-errors.js:85
+#: app/scripts/lib/auth-errors.js:87
 msgid "Could not get Privacy Notice"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:86
+#: app/scripts/lib/auth-errors.js:88
 msgid "Could not get Terms of Service"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:87
+#: app/scripts/lib/auth-errors.js:89
 msgid "Your new password must be different"
 msgstr "O novo contrasinal debe ser diferente"
 
-#: app/scripts/lib/auth-errors.js:88 app/scripts/lib/strings.js:23
+#: app/scripts/lib/auth-errors.js:90 app/scripts/lib/strings.js:23
 #: app/scripts/templates/change_password.mustache:7
 #: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/sign_up.mustache:11
 msgid "Must be at least 8 characters"
 msgstr "Debe ter polo mínimo 8 caracteres"
 
-#: app/scripts/lib/auth-errors.js:89 app/scripts/lib/strings.js:19
+#: app/scripts/lib/auth-errors.js:91 app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:90 app/scripts/lib/strings.js:18
+#: app/scripts/lib/auth-errors.js:92 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:91 app/scripts/lib/strings.js:24
+#: app/scripts/lib/auth-errors.js:93 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "Requírese o ano de nacemento"
 
-#: app/scripts/lib/auth-errors.js:92
+#: app/scripts/lib/auth-errors.js:94
 msgid "A usable image was not found"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:93
+#: app/scripts/lib/auth-errors.js:95
 msgid "Could not initialize camera"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:94
+#: app/scripts/lib/auth-errors.js:96
 msgid "Valid URL required"
 msgstr ""
+
+#: app/scripts/lib/auth-errors.js:97
+#, fuzzy
+msgid "Valid birthday required"
+msgstr "Requírese o ano de nacemento"
 
 #: app/scripts/lib/oauth-errors.js:33
 msgid "Unknown client"
@@ -280,6 +293,18 @@ msgstr ""
 
 #: app/scripts/lib/oauth-errors.js:42
 msgid "Something went wrong. Please close this tab and try again."
+msgstr ""
+
+#: app/scripts/lib/profile-client.js:114
+msgid "Unauthorized"
+msgstr ""
+
+#: app/scripts/lib/profile-client.js:116
+msgid "Unsupported image provider"
+msgstr ""
+
+#: app/scripts/lib/profile-client.js:117
+msgid "Image processing error"
 msgstr ""
 
 #: app/scripts/lib/service-name.js:16
@@ -336,14 +361,16 @@ msgid "Learn more."
 msgstr "Máis información."
 
 #: app/scripts/templates/change_password.mustache:1
-#: app/scripts/templates/settings.mustache:5
+#: app/scripts/templates/settings.mustache:4
 msgid "Change password"
 msgstr "Cambiar contrasinal"
 
 #: app/scripts/templates/change_password.mustache:2
 msgid ""
 "Once you're ﬁnished, use your new password to sign in on all of your devices."
-msgstr "Unha vez que rematou, use o seu novo contrasinal para identificarse en todos os dispositivos."
+msgstr ""
+"Unha vez que rematou, use o seu novo contrasinal para identificarse en todos "
+"os dispositivos."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -354,8 +381,9 @@ msgstr "Contrasinal actual"
 #: app/scripts/templates/complete_reset_password.mustache:11
 #: app/scripts/templates/complete_reset_password.mustache:13
 #: app/scripts/templates/delete_account.mustache:4
-#: app/scripts/templates/force_auth.mustache:5
-#: app/scripts/templates/sign_in.mustache:9
+#: app/scripts/templates/force_auth.mustache:6
+#: app/scripts/templates/sign_in.mustache:8
+#: app/scripts/templates/sign_in.mustache:20
 #: app/scripts/templates/sign_up.mustache:10
 msgid "Show"
 msgstr "Amosar"
@@ -390,7 +418,8 @@ msgstr "Reenviouse o correo"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
-msgstr "A ligazón que premeu para restabelecer o seu contrasinal está caducada."
+msgstr ""
+"A ligazón que premeu para restabelecer o seu contrasinal está caducada."
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
@@ -418,7 +447,6 @@ msgstr "Repetir contrasinal"
 
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/reset_password.mustache:5
-#: app/scripts/templates/sign_up.mustache:33
 #: app/scripts/templates/settings/avatar_url.mustache:5
 msgid "Next"
 msgstr "Seguinte"
@@ -471,10 +499,12 @@ msgstr "Enviouse unha ligazón de restabelecemento a %(email)s"
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
-#: app/scripts/templates/force_auth.mustache:6
+#: app/scripts/templates/force_auth.mustache:7
 #: app/scripts/templates/sign_in.mustache:1
 #: app/scripts/templates/sign_in.mustache:4
-#: app/scripts/templates/sign_in.mustache:10
+#: app/scripts/templates/sign_in.mustache:9
+#: app/scripts/templates/sign_in.mustache:13
+#: app/scripts/templates/sign_in.mustache:21
 msgid "Sign in"
 msgstr "Identificarse"
 
@@ -499,18 +529,20 @@ msgstr "Tentar de novo"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
-#: app/scripts/templates/settings.mustache:6
+#: app/scripts/templates/settings.mustache:5
 msgid "Delete account"
 msgstr "Eliminar conta"
 
 #: app/scripts/templates/delete_account.mustache:2
 msgid ""
 "Are you sure you want to delete your account? This action cannot be undone."
-msgstr "Confirma que quere eliminar a súa conta? Non é posíbel desfacer esta acción."
+msgstr ""
+"Confirma que quere eliminar a súa conta? Non é posíbel desfacer esta acción."
 
 #: app/scripts/templates/delete_account.mustache:3
-#: app/scripts/templates/force_auth.mustache:3
+#: app/scripts/templates/force_auth.mustache:4
 #: app/scripts/templates/sign_in.mustache:7
+#: app/scripts/templates/sign_in.mustache:18
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Password"
 msgstr "Contrasinal"
@@ -519,19 +551,23 @@ msgstr "Contrasinal"
 msgid "Sign in to continue"
 msgstr "Identifíquese para continuar"
 
-#: app/scripts/templates/force_auth.mustache:7
-#: app/scripts/templates/sign_in.mustache:11
+#: app/scripts/templates/force_auth.mustache:8
+#: app/scripts/templates/sign_in.mustache:10
+#: app/scripts/templates/sign_in.mustache:22
 msgid "Forgot password?"
 msgstr "Esqueceu o contrasinal?"
 
-#: app/scripts/templates/force_auth.mustache:8
-#: app/scripts/templates/sign_in.mustache:13
-#: app/scripts/templates/sign_up.mustache:32
+#: app/scripts/templates/force_auth.mustache:9
+#: app/scripts/templates/sign_in.mustache:24
+#: app/scripts/templates/sign_up.mustache:46
 msgid ""
 "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
 "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
 "a> of Firefox cloud services."
-msgstr "Ao continuar, eu acepto os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do servizo</a> e a <a id=\"fxa-pp\" href=\"/legal/privacy\">Política de privacidade</a> dos servizos na nube de Firefox."
+msgstr ""
+"Ao continuar, eu acepto os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do "
+"servizo</a> e a <a id=\"fxa-pp\" href=\"/legal/privacy\">Política de "
+"privacidade</a> dos servizos na nube de Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -543,13 +579,13 @@ msgid "Legal"
 msgstr "Legal"
 
 #: app/scripts/templates/legal.mustache:3
-#: app/scripts/templates/settings.mustache:7
+#: app/scripts/templates/settings.mustache:8
 #: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "Termos do servizo"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
-#: app/scripts/templates/settings.mustache:8
+#: app/scripts/templates/settings.mustache:9
 msgid "Privacy Notice"
 msgstr "Política de privacidade"
 
@@ -565,10 +601,6 @@ msgstr "Obter o Firefox para Android"
 msgid "Account verified"
 msgstr "Comprobouse a conta"
 
-#: app/scripts/templates/ready.mustache:3
-msgid "Password reset"
-msgstr "Restabeleceuse o contrasinal"
-
 #: app/scripts/templates/ready.mustache:5
 msgid "Success"
 msgstr "Correctamente"
@@ -583,10 +615,12 @@ msgstr "A súa conta está preparada!"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
-msgstr "Escriba o seu enderezo de correo para restabelecer&nbsp;o contrasinal da conta."
+msgstr ""
+"Escriba o seu enderezo de correo para restabelecer&nbsp;o contrasinal da "
+"conta."
 
 #: app/scripts/templates/reset_password.mustache:3
-#: app/scripts/templates/sign_in.mustache:6
+#: app/scripts/templates/sign_in.mustache:17
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Email"
 msgstr "Correo"
@@ -595,7 +629,10 @@ msgstr "Correo"
 msgid ""
 "For security reasons, resetting your password will erase your Sync data from "
 "our servers. A new Sync backup will be created from your local browsing data."
-msgstr "Por motivos de seguranza, ao restabelecer o seu contrasinal borraranse os seus datos de Sync dos nosos servidores. Crearase unha nova copia de seguranza de Sync dende os seus datos de navegación locais."
+msgstr ""
+"Por motivos de seguranza, ao restabelecer o seu contrasinal borraranse os "
+"seus datos de Sync dos nosos servidores. Crearase unha nova copia de "
+"seguranza de Sync dende os seus datos de navegación locais."
 
 #: app/scripts/templates/settings.mustache:1
 #: app/scripts/templates/settings/avatar.mustache:1
@@ -607,11 +644,11 @@ msgstr "Por motivos de seguranza, ao restabelecer o seu contrasinal borraranse o
 msgid "Manage account"
 msgstr "Xestionar conta"
 
-#: app/scripts/templates/settings.mustache:2
+#: app/scripts/templates/settings.mustache:3
 msgid "You are signed in as"
 msgstr "Está identificado como"
 
-#: app/scripts/templates/settings.mustache:3
+#: app/scripts/templates/settings.mustache:6
 msgid "Sign out"
 msgstr "Saír"
 
@@ -620,7 +657,13 @@ msgstr "Saír"
 msgid "Continue to %(serviceName)s"
 msgstr ""
 
-#: app/scripts/templates/sign_in.mustache:12
+#: app/scripts/templates/sign_in.mustache:11
+#: app/scripts/templates/sign_in.mustache:14
+#, fuzzy
+msgid "Use a different account"
+msgstr "Conta sen comprobar"
+
+#: app/scripts/templates/sign_in.mustache:23
 msgid "Create an account"
 msgstr "Crear unha conta"
 
@@ -637,11 +680,72 @@ msgstr "Ano de nacemento"
 msgid "1990 or earlier"
 msgstr "1990 ou anteriores"
 
+#: app/scripts/templates/sign_up.mustache:32
+msgid "Month"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:33
+msgid "January"
+msgstr ""
+
 #: app/scripts/templates/sign_up.mustache:34
+msgid "February"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:35
+msgid "March"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:36
+msgid "April"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:37
+msgid "May"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:38
+msgid "June"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:39
+msgid "July"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:40
+msgid "August"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:41
+msgid "September"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:42
+msgid "October"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:43
+msgid "November"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:44
+msgid "December"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:45
+msgid "Day"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:47
+#, fuzzy
+msgid "Sign up"
+msgstr "Saír"
+
+#: app/scripts/templates/sign_up.mustache:48
 msgid "Choose what to sync"
 msgstr "Escolla que sincronizar"
 
-#: app/scripts/templates/sign_up.mustache:36
+#: app/scripts/templates/sign_up.mustache:50
 msgid "Already have an account? Sign in."
 msgstr "Xa ten unha conta? Identifíquese."
 
@@ -678,14 +782,10 @@ msgid "Upload"
 msgstr "Subir"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5
-msgid "URL"
-msgstr "URL"
-
-#: app/scripts/templates/settings/avatar_change.mustache:6
 msgid "Camera"
 msgstr "Cámara"
 
-#: app/scripts/templates/settings/avatar_change.mustache:7
+#: app/scripts/templates/settings/avatar_change.mustache:6
 msgid "Gravatar"
 msgstr ""
 
@@ -701,3 +801,6 @@ msgstr "Gardar"
 #: app/scripts/templates/settings/avatar_url.mustache:4
 msgid "Paste image URL"
 msgstr "Pegar URL da imaxe"
+
+#~ msgid "URL"
+#~ msgstr "URL"
