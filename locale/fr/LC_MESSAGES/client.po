@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-10 00:13+0000\n"
-"PO-Revision-Date: 2014-10-10 20:06+0000\n"
+"PO-Revision-Date: 2014-10-10 20:35+0000\n"
 "Last-Translator: Théo <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1412971585.0\n"
+"X-POOTLE-MTIME: 1412973322.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -121,11 +121,11 @@ msgstr "Compte inconnu. <a href=\"/signup\">Créer un compte</a>"
 
 #: app/scripts/views/settings.js:43
 msgid "Signed out"
-msgstr "Déconnexion"
+msgstr "Déconnecté"
 
 #: app/scripts/views/sign_up.js:325
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr "Ce compte existe déjà. <a href=\"/signin\">Connexion</a>"
+msgstr "Ce compte existe déjà. <a href=\"/signin\">Se connecter</a>"
 
 #: app/scripts/views/settings/avatar_gravatar.js:65
 msgid "No Gravatar found"
