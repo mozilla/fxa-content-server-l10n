@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-19 20:39+0000\n"
+"POT-Creation-Date: 2014-10-10 00:13+0000\n"
 "PO-Revision-Date: 2014-05-02 11:11+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,22 +37,18 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/503.html:4
-#: server/templates/pages/src/privacy.html:6
-#: server/templates/pages/src/terms.html:6
 msgid "Home"
 msgstr "Startseite"
 
 #: server/templates/pages/src/500.html:2
-msgid "System unavailable, try again soon"
-msgstr "System nicht verfügbar, versuchen Sie es in Kürze erneut"
+msgid "500 Error"
+msgstr ""
 
 #: server/templates/pages/src/500.html:3
 msgid ""
-"We are currently performing some maintenance on the system, and will return "
-"momentarily."
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
 msgstr ""
-"Wir führen derzeit Wartungsarbeiten am System durch und sind in Kürze wieder "
-"erreichbar."
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -160,6 +156,16 @@ msgstr "Bestätigen Sie Ihr Konto"
 #: server/lib/templates.js:68
 msgid "Reset your password"
 msgstr "Setzen Sie Ihr Passwort zurück"
+
+#~ msgid "System unavailable, try again soon"
+#~ msgstr "System nicht verfügbar, versuchen Sie es in Kürze erneut"
+
+#~ msgid ""
+#~ "We are currently performing some maintenance on the system, and will "
+#~ "return momentarily."
+#~ msgstr ""
+#~ "Wir führen derzeit Wartungsarbeiten am System durch und sind in Kürze "
+#~ "wieder erreichbar."
 
 #~ msgid "Reset Password Request"
 #~ msgstr "Zurücksetzen des Passworts anfordern"

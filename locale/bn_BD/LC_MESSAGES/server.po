@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-19 20:39+0000\n"
+"POT-Creation-Date: 2014-10-10 00:13+0000\n"
 "PO-Revision-Date: 2014-09-26 18:46+0000\n"
 "Last-Translator: Avijit <mail@avijitroy.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,27 +32,23 @@ msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
-"                  আপনি যে পাতাটি খুঁজছেন, তা পাওয়া যায়নি। আমরা এটি জেনেছই "
-"এবং কোন ত্রুটিপূর্ণ লিঙ্ক থাকলে তা আমরা ঠিক করব।                "
+"                  আপনি যে পাতাটি খুঁজছেন, তা পাওয়া যায়নি। আমরা এটি জেনেছই এবং "
+"কোন ত্রুটিপূর্ণ লিঙ্ক থাকলে তা আমরা ঠিক করব।                "
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/503.html:4
-#: server/templates/pages/src/privacy.html:6
-#: server/templates/pages/src/terms.html:6
 msgid "Home"
 msgstr "প্রথম পাতা"
 
 #: server/templates/pages/src/500.html:2
-msgid "System unavailable, try again soon"
-msgstr "সিস্টেমের সাথে যোগাযোগ করা যাচ্ছে না, একটু পর চেষ্টা করুন"
+msgid "500 Error"
+msgstr ""
 
 #: server/templates/pages/src/500.html:3
 msgid ""
-"We are currently performing some maintenance on the system, and will return "
-"momentarily."
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
 msgstr ""
-"                  বর্তমানে আমরা সিস্টেমে রক্ষানাবেক্ষনের কাজ করছি এবং দ্রুত "
-"ফিরে আসছি।                "
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -63,8 +59,8 @@ msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
-"এই মুহুর্তে আমরা অনেক ছাপের মাঝে আছি এবং যত তাড়াতাড়ি সম্ভব স্বাভাবিক "
-"সিস্টেমে ফিরে যেতে কাজ করছি। "
+"এই মুহুর্তে আমরা অনেক ছাপের মাঝে আছি এবং যত তাড়াতাড়ি সম্ভব স্বাভাবিক সিস্টেমে ফিরে "
+"যেতে কাজ করছি। "
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
@@ -74,8 +70,8 @@ msgid ""
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
 "আপনি একটি <strong>পুরাতন</strong> ব্রাউজার ব্যবহার করছেন। আপনার ব্রাউজিং আরও "
-"স্বাচ্ছন্দ্যময় করতে অনুগ্রহ করে <a href=\"http://browsehappy.com/\">আপনার "
-"ব্রাউজার হালনাগাদ করুন।</a>"
+"স্বাচ্ছন্দ্যময় করতে অনুগ্রহ করে <a href=\"http://browsehappy.com/\">আপনার ব্রাউজার "
+"হালনাগাদ করুন।</a>"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -102,8 +98,7 @@ msgstr "আপনি নিশ্চিত?"
 
 #: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
 msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr ""
-"অনুগ্রহ করে নিশ্চিত করুন যে আপনি %(email)s এর জন্য পাসওয়ার্ড রিসেট করতে চান।"
+msgstr "অনুগ্রহ করে নিশ্চিত করুন যে আপনি %(email)s এর জন্য পাসওয়ার্ড রিসেট করতে চান।"
 
 #: server/templates/email/reset.html:4
 msgid "Reset password"
@@ -115,16 +110,16 @@ msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
-"                  এটি একটি স্বয়ংক্রিয় ইমেইল; যদি কোন ত্রুটির কারনে আপনি এটি "
-"পেয়ে থাকেন, কিছু করার প্রয়োজন নেই।                "
+"                  এটি একটি স্বয়ংক্রিয় ইমেইল; যদি কোন ত্রুটির কারনে আপনি এটি পেয়ে "
+"থাকেন, কিছু করার প্রয়োজন নেই।                "
 
 #: server/templates/email/reset.html:6 server/templates/email/verify.html:6
 msgid ""
 "For more information, please visit <a href='https://support.mozilla."
 "org'>Mozilla Support</a>"
 msgstr ""
-"আরও তথ্যের জন্য অনুগ্রহ করে <a href='https://support.mozilla.org'>মজিলা "
-"সহায়তা সাইট</a> ভিজিট করুন।"
+"আরও তথ্যের জন্য অনুগ্রহ করে <a href='https://support.mozilla.org'>মজিলা সহায়তা "
+"সাইট</a> ভিজিট করুন।"
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
@@ -141,8 +136,7 @@ msgstr "অভিনন্দন!"
 #: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
 msgstr ""
-"%(email)s, আপনি আপনার ফায়ারফক্স অ্যাকাউন্ট নিশ্চিত করা থেকে একটি ক্লিক দূরে "
-"আছেন।"
+"%(email)s, আপনি আপনার ফায়ারফক্স অ্যাকাউন্ট নিশ্চিত করা থেকে একটি ক্লিক দূরে আছেন।"
 
 #: server/templates/email/verify.html:4
 msgid "Verify"
@@ -159,3 +153,13 @@ msgstr "আপনার অ্যাকাউন্ট নিশ্চিত ক
 #: server/lib/templates.js:68
 msgid "Reset your password"
 msgstr "আপনার পাসওয়ার্ড রিসেট করুন"
+
+#~ msgid "System unavailable, try again soon"
+#~ msgstr "সিস্টেমের সাথে যোগাযোগ করা যাচ্ছে না, একটু পর চেষ্টা করুন"
+
+#~ msgid ""
+#~ "We are currently performing some maintenance on the system, and will "
+#~ "return momentarily."
+#~ msgstr ""
+#~ "                  বর্তমানে আমরা সিস্টেমে রক্ষানাবেক্ষনের কাজ করছি এবং দ্রুত "
+#~ "ফিরে আসছি।                "

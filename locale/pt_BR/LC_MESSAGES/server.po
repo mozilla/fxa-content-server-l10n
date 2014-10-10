@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-19 20:39+0000\n"
+"POT-Creation-Date: 2014-10-10 00:13+0000\n"
 "PO-Revision-Date: 2014-05-07 20:30+0000\n"
 "Last-Translator: Marcelo <mlcaraldi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,21 +37,18 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/503.html:4
-#: server/templates/pages/src/privacy.html:6
-#: server/templates/pages/src/terms.html:6
 msgid "Home"
 msgstr "Inicio"
 
 #: server/templates/pages/src/500.html:2
-msgid "System unavailable, try again soon"
-msgstr "Sistema indisponível, por favor, tente novamente em breve"
+msgid "500 Error"
+msgstr ""
 
 #: server/templates/pages/src/500.html:3
 msgid ""
-"We are currently performing some maintenance on the system, and will return "
-"momentarily."
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
 msgstr ""
-"O sistema está em manutenção, mas estará disponível em alguns momentos."
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -156,6 +153,15 @@ msgstr "Verifique a sua conta"
 #: server/lib/templates.js:68
 msgid "Reset your password"
 msgstr "Redefina a sua senha"
+
+#~ msgid "System unavailable, try again soon"
+#~ msgstr "Sistema indisponível, por favor, tente novamente em breve"
+
+#~ msgid ""
+#~ "We are currently performing some maintenance on the system, and will "
+#~ "return momentarily."
+#~ msgstr ""
+#~ "O sistema está em manutenção, mas estará disponível em alguns momentos."
 
 #~ msgid "Reset Password Request"
 #~ msgstr "Solicitação de redefinição de senha "

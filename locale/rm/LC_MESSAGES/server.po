@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-19 20:39+0000\n"
+"POT-Creation-Date: 2014-10-10 00:13+0000\n"
 "PO-Revision-Date: 2014-05-11 15:40+0000\n"
 "Last-Translator: Gion-Andri <gion-andri@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,22 +37,18 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/503.html:4
-#: server/templates/pages/src/privacy.html:6
-#: server/templates/pages/src/terms.html:6
 msgid "Home"
 msgstr "Chasa"
 
 #: server/templates/pages/src/500.html:2
-msgid "System unavailable, try again soon"
-msgstr "Il sistem n'è betg disponibel, emprova bainprest anc ina giada"
+msgid "500 Error"
+msgstr ""
 
 #: server/templates/pages/src/500.html:3
 msgid ""
-"We are currently performing some maintenance on the system, and will return "
-"momentarily."
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
 msgstr ""
-"Nus exequin gist lavurs da mantegniment sin il sistem ed essan bainprest "
-"puspè online."
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -158,6 +154,16 @@ msgstr "Verifitgar tes conto"
 #: server/lib/templates.js:68
 msgid "Reset your password"
 msgstr "Redefinir tes pled-clav"
+
+#~ msgid "System unavailable, try again soon"
+#~ msgstr "Il sistem n'è betg disponibel, emprova bainprest anc ina giada"
+
+#~ msgid ""
+#~ "We are currently performing some maintenance on the system, and will "
+#~ "return momentarily."
+#~ msgstr ""
+#~ "Nus exequin gist lavurs da mantegniment sin il sistem ed essan bainprest "
+#~ "puspè online."
 
 #~ msgid "Reset Password Request"
 #~ msgstr "Dumona per redefinir il pled-clav"

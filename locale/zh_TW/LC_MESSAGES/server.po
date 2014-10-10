@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-19 20:39+0000\n"
+"POT-Creation-Date: 2014-10-10 00:13+0000\n"
 "PO-Revision-Date: 2014-05-03 18:37+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,20 +35,18 @@ msgstr "找不到您想開啟的頁面。我們已經通知開發團隊來檢查
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/503.html:4
-#: server/templates/pages/src/privacy.html:6
-#: server/templates/pages/src/terms.html:6
 msgid "Home"
 msgstr "首頁"
 
 #: server/templates/pages/src/500.html:2
-msgid "System unavailable, try again soon"
-msgstr "系統無法使用，請稍後再試一次"
+msgid "500 Error"
+msgstr ""
 
 #: server/templates/pages/src/500.html:3
 msgid ""
-"We are currently performing some maintenance on the system, and will return "
-"momentarily."
-msgstr "我們正進行系統維護，稍後就會恢復正常"
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
+msgstr ""
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -151,6 +149,14 @@ msgstr "驗證您的帳號"
 #: server/lib/templates.js:68
 msgid "Reset your password"
 msgstr "重設您的密碼"
+
+#~ msgid "System unavailable, try again soon"
+#~ msgstr "系統無法使用，請稍後再試一次"
+
+#~ msgid ""
+#~ "We are currently performing some maintenance on the system, and will "
+#~ "return momentarily."
+#~ msgstr "我們正進行系統維護，稍後就會恢復正常"
 
 #~ msgid "Reset Password Request"
 #~ msgstr "重設密碼請求"

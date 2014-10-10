@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-19 20:39+0000\n"
+"POT-Creation-Date: 2014-10-10 00:13+0000\n"
 "PO-Revision-Date: 2014-08-19 21:36+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,15 +82,15 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/base.js:531
+#: app/scripts/views/base.js:551
 msgid "missing search parameter: %(itemName)s"
 msgstr "Fehlender Suchparameter: %(itemName)s"
 
-#: app/scripts/views/change_password.js:67
+#: app/scripts/views/change_password.js:61
 msgid "Password changed"
 msgstr "Passwort geändert"
 
-#: app/scripts/views/change_password.js:71
+#: app/scripts/views/change_password.js:65
 msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
@@ -98,11 +98,16 @@ msgstr ""
 "Nicht bestätigtes Konto. <a href=\"#\" id=\"resend\">Bestätigungs-E-Mail "
 "erneut senden</a>."
 
-#: app/scripts/views/confirm_reset_password.js:68
+#: app/scripts/views/confirm_reset_password.js:166
+#: app/scripts/templates/ready.mustache:3
+msgid "Password reset"
+msgstr "Passwort zurückgesetzt"
+
+#: app/scripts/views/confirm_reset_password.js:182
 msgid "Password reset. Sign in to continue."
 msgstr "Passwort zurückgesetzt. Melden Sie sich an, um fortzufahren."
 
-#: app/scripts/views/delete_account.js:46
+#: app/scripts/views/delete_account.js:45
 msgid "Account deleted successfully"
 msgstr "Konto erfolgreich gelöscht"
 
@@ -110,169 +115,174 @@ msgstr "Konto erfolgreich gelöscht"
 msgid "/force_auth requires an email"
 msgstr "/force_auth benötigt eine E-Mail-Adresse"
 
-#: app/scripts/views/reset_password.js:76 app/scripts/views/sign_in.js:127
+#: app/scripts/views/reset_password.js:76 app/scripts/views/sign_in.js:145
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Unbekanntes Konto. <a href=\"/signup\">Registrieren</a>"
 
-#: app/scripts/views/settings.js:42
+#: app/scripts/views/settings.js:43
 msgid "Signed out"
 msgstr "Abgemeldet"
 
-#: app/scripts/views/sign_up.js:214
+#: app/scripts/views/sign_up.js:325
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Konto existiert bereits. <a href=\"/signin\">Anmelden</a>"
 
-#: app/scripts/views/settings/avatar_gravatar.js:58
+#: app/scripts/views/settings/avatar_gravatar.js:65
 msgid "No Gravatar found"
 msgstr "Kein Gravatar gefunden"
 
-#: app/scripts/views/settings/avatar_gravatar.js:78
+#: app/scripts/views/settings/avatar_gravatar.js:92
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr ""
 "Zur Verfügung gestellt von <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
-#: app/scripts/lib/auth-errors.js:59 app/scripts/lib/oauth-errors.js:41
-#: app/scripts/lib/profile-client.js:76 app/scripts/lib/profile-client.js:80
+#: app/scripts/lib/auth-errors.js:61 app/scripts/lib/auth-errors.js:98
+#: app/scripts/lib/oauth-errors.js:41 app/scripts/lib/profile-client.js:121
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Unerwarteter Fehler"
 
-#: app/scripts/lib/auth-errors.js:60
+#: app/scripts/lib/auth-errors.js:62
 msgid "Invalid token"
 msgstr "Ungültiger Schlüssel"
 
-#: app/scripts/lib/auth-errors.js:61
+#: app/scripts/lib/auth-errors.js:63
 msgid "Invalid timestamp in request signature"
 msgstr "Ungültiger Zeitstempel in Anfragesignatur"
 
-#: app/scripts/lib/auth-errors.js:62
+#: app/scripts/lib/auth-errors.js:64
 msgid "Invalid nonce in request signature"
 msgstr "Ungültige Nonce in Anfragesignatur"
 
-#: app/scripts/lib/auth-errors.js:63 app/scripts/lib/strings.js:25
+#: app/scripts/lib/auth-errors.js:65 app/scripts/lib/strings.js:25
 msgid "Account already exists"
 msgstr "Konto existiert bereits"
 
-#: app/scripts/lib/auth-errors.js:64
+#: app/scripts/lib/auth-errors.js:66
 msgid "Unknown account"
 msgstr "Unbekanntes Konto"
 
-#: app/scripts/lib/auth-errors.js:65
+#: app/scripts/lib/auth-errors.js:67
 msgid "Incorrect email case"
 msgstr "Ungültige Schreibung der E-Mail-Adresse"
 
-#: app/scripts/lib/auth-errors.js:66
+#: app/scripts/lib/auth-errors.js:68
 msgid "Incorrect password"
 msgstr "Ungültiges Passwort"
 
-#: app/scripts/lib/auth-errors.js:67
+#: app/scripts/lib/auth-errors.js:69
 msgid "Unverified account"
 msgstr "Nicht verifiziertes Konto"
 
-#: app/scripts/lib/auth-errors.js:68
+#: app/scripts/lib/auth-errors.js:70
 msgid "Invalid verification code"
 msgstr "Ungültiger Verifizierungscode"
 
-#: app/scripts/lib/auth-errors.js:69
+#: app/scripts/lib/auth-errors.js:71
 msgid "Invalid JSON in request body"
 msgstr "Ungültiges JSON in Anfragekörper"
 
-#: app/scripts/lib/auth-errors.js:70 app/scripts/lib/oauth-errors.js:36
-#: app/scripts/lib/profile-client.js:77
+#: app/scripts/lib/auth-errors.js:72 app/scripts/lib/oauth-errors.js:36
+#: app/scripts/lib/profile-client.js:115
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Ungültiger Parameter in Anfragekörper: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:71
+#: app/scripts/lib/auth-errors.js:73
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Fehlender Parameter in Anfragekörper: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:72 app/scripts/lib/oauth-errors.js:37
+#: app/scripts/lib/auth-errors.js:74 app/scripts/lib/oauth-errors.js:37
 msgid "Invalid request signature"
 msgstr "Ungültige Anfragesignatur"
 
-#: app/scripts/lib/auth-errors.js:73
+#: app/scripts/lib/auth-errors.js:75
 msgid "Missing content-length header"
 msgstr "Fehlende Kopfzeile „content-length“"
 
-#: app/scripts/lib/auth-errors.js:74
+#: app/scripts/lib/auth-errors.js:76
 msgid "Request body too large"
 msgstr "Anfragekörper zu groß"
 
-#: app/scripts/lib/auth-errors.js:75
+#: app/scripts/lib/auth-errors.js:77
 msgid "Attempt limit exceeded"
 msgstr "Maximale Zahl der Versuche überschritten"
 
-#: app/scripts/lib/auth-errors.js:76
+#: app/scripts/lib/auth-errors.js:78
 msgid "Server busy, try again soon"
 msgstr "Server beschäftigt, versuchen Sie es in Kürze erneut"
 
-#: app/scripts/lib/auth-errors.js:77
+#: app/scripts/lib/auth-errors.js:79
 msgid "This endpoint is no longer supported"
 msgstr "Dieser Endpunkt wird nicht mehr unterstützt"
 
-#: app/scripts/lib/auth-errors.js:80 app/scripts/lib/oauth-errors.js:40
-#: app/scripts/lib/profile-client.js:79
+#: app/scripts/lib/auth-errors.js:82 app/scripts/lib/oauth-errors.js:40
+#: app/scripts/lib/profile-client.js:120
 msgid "System unavailable, try again soon"
 msgstr "System nicht verfügbar, versuchen Sie es in Kürze erneut"
 
-#: app/scripts/lib/auth-errors.js:81
+#: app/scripts/lib/auth-errors.js:83
 msgid "Session expired. Sign in to continue."
 msgstr "Sitzung abgelaufen. Melden Sie sich an, um fortzufahren."
 
-#: app/scripts/lib/auth-errors.js:82
+#: app/scripts/lib/auth-errors.js:84
 msgid "Cookies are still disabled"
 msgstr "Cookies sind weiterhin deaktiviert"
 
-#: app/scripts/lib/auth-errors.js:83
+#: app/scripts/lib/auth-errors.js:85
 msgid "Passwords do not match"
 msgstr "Passwörter stimmen nicht überein"
 
-#: app/scripts/lib/auth-errors.js:84
+#: app/scripts/lib/auth-errors.js:86
 msgid "Working…"
 msgstr "In Arbeit…"
 
-#: app/scripts/lib/auth-errors.js:85
+#: app/scripts/lib/auth-errors.js:87
 msgid "Could not get Privacy Notice"
 msgstr "Datenschutzerklärung wurde nicht gefunden"
 
-#: app/scripts/lib/auth-errors.js:86
+#: app/scripts/lib/auth-errors.js:88
 msgid "Could not get Terms of Service"
 msgstr "Nutzungsbedingungen wurden nicht gefunden"
 
-#: app/scripts/lib/auth-errors.js:87
+#: app/scripts/lib/auth-errors.js:89
 msgid "Your new password must be different"
 msgstr "Ihr neues Passwort muss ein anderes sein"
 
-#: app/scripts/lib/auth-errors.js:88 app/scripts/lib/strings.js:23
+#: app/scripts/lib/auth-errors.js:90 app/scripts/lib/strings.js:23
 #: app/scripts/templates/change_password.mustache:7
 #: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/sign_up.mustache:11
 msgid "Must be at least 8 characters"
 msgstr "Muss mindestens 8 Zeichen lang sein"
 
-#: app/scripts/lib/auth-errors.js:89 app/scripts/lib/strings.js:19
+#: app/scripts/lib/auth-errors.js:91 app/scripts/lib/strings.js:19
 msgid "Valid password required"
 msgstr "Gültiges Passwort erforderlich"
 
-#: app/scripts/lib/auth-errors.js:90 app/scripts/lib/strings.js:18
+#: app/scripts/lib/auth-errors.js:92 app/scripts/lib/strings.js:18
 msgid "Valid email required"
 msgstr "Gültige E-Mail-Adresse erforderlich"
 
-#: app/scripts/lib/auth-errors.js:91 app/scripts/lib/strings.js:24
+#: app/scripts/lib/auth-errors.js:93 app/scripts/lib/strings.js:24
 msgid "Year of birth required"
 msgstr "Geburtsjahr erforderlich"
 
-#: app/scripts/lib/auth-errors.js:92
+#: app/scripts/lib/auth-errors.js:94
 msgid "A usable image was not found"
 msgstr "Keine verwendbare Grafik gefunden"
 
-#: app/scripts/lib/auth-errors.js:93
+#: app/scripts/lib/auth-errors.js:95
 msgid "Could not initialize camera"
 msgstr "Kamera konnte nicht initialisiert werden"
 
-#: app/scripts/lib/auth-errors.js:94
+#: app/scripts/lib/auth-errors.js:96
 msgid "Valid URL required"
 msgstr "Gültige URL erforderlich"
+
+#: app/scripts/lib/auth-errors.js:97
+#, fuzzy
+msgid "Valid birthday required"
+msgstr "Gültige E-Mail-Adresse erforderlich"
 
 #: app/scripts/lib/oauth-errors.js:33
 msgid "Unknown client"
@@ -291,6 +301,18 @@ msgid "Something went wrong. Please close this tab and try again."
 msgstr ""
 "Etwas ist schiefgegangen. Bitte schließen Sie diesen Tab und versuchen Sie "
 "es erneut."
+
+#: app/scripts/lib/profile-client.js:114
+msgid "Unauthorized"
+msgstr ""
+
+#: app/scripts/lib/profile-client.js:116
+msgid "Unsupported image provider"
+msgstr ""
+
+#: app/scripts/lib/profile-client.js:117
+msgid "Image processing error"
+msgstr ""
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -348,7 +370,7 @@ msgid "Learn more."
 msgstr "Mehr erfahren."
 
 #: app/scripts/templates/change_password.mustache:1
-#: app/scripts/templates/settings.mustache:5
+#: app/scripts/templates/settings.mustache:4
 msgid "Change password"
 msgstr "Passwort ändern"
 
@@ -368,8 +390,9 @@ msgstr "Altes Passwort"
 #: app/scripts/templates/complete_reset_password.mustache:11
 #: app/scripts/templates/complete_reset_password.mustache:13
 #: app/scripts/templates/delete_account.mustache:4
-#: app/scripts/templates/force_auth.mustache:5
-#: app/scripts/templates/sign_in.mustache:9
+#: app/scripts/templates/force_auth.mustache:6
+#: app/scripts/templates/sign_in.mustache:8
+#: app/scripts/templates/sign_in.mustache:20
 #: app/scripts/templates/sign_up.mustache:10
 msgid "Show"
 msgstr "Anzeigen"
@@ -437,7 +460,6 @@ msgstr "Passwort wiederholen"
 
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/reset_password.mustache:5
-#: app/scripts/templates/sign_up.mustache:33
 #: app/scripts/templates/settings/avatar_url.mustache:5
 msgid "Next"
 msgstr "Weiter"
@@ -492,10 +514,12 @@ msgstr "Ein Link zum Zurücksetzen wurde an %(email)s gesendet"
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
-#: app/scripts/templates/force_auth.mustache:6
+#: app/scripts/templates/force_auth.mustache:7
 #: app/scripts/templates/sign_in.mustache:1
 #: app/scripts/templates/sign_in.mustache:4
-#: app/scripts/templates/sign_in.mustache:10
+#: app/scripts/templates/sign_in.mustache:9
+#: app/scripts/templates/sign_in.mustache:13
+#: app/scripts/templates/sign_in.mustache:21
 msgid "Sign in"
 msgstr "Anmelden"
 
@@ -524,7 +548,7 @@ msgstr "Versuchen Sie es erneut"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
-#: app/scripts/templates/settings.mustache:6
+#: app/scripts/templates/settings.mustache:5
 msgid "Delete account"
 msgstr "Konto löschen"
 
@@ -536,8 +560,9 @@ msgstr ""
 "rückgängig gemacht werden."
 
 #: app/scripts/templates/delete_account.mustache:3
-#: app/scripts/templates/force_auth.mustache:3
+#: app/scripts/templates/force_auth.mustache:4
 #: app/scripts/templates/sign_in.mustache:7
+#: app/scripts/templates/sign_in.mustache:18
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Password"
 msgstr "Passwort"
@@ -546,14 +571,15 @@ msgstr "Passwort"
 msgid "Sign in to continue"
 msgstr "Zum Fortfahren anmelden"
 
-#: app/scripts/templates/force_auth.mustache:7
-#: app/scripts/templates/sign_in.mustache:11
+#: app/scripts/templates/force_auth.mustache:8
+#: app/scripts/templates/sign_in.mustache:10
+#: app/scripts/templates/sign_in.mustache:22
 msgid "Forgot password?"
 msgstr "Passwort vergessen?"
 
-#: app/scripts/templates/force_auth.mustache:8
-#: app/scripts/templates/sign_in.mustache:13
-#: app/scripts/templates/sign_up.mustache:32
+#: app/scripts/templates/force_auth.mustache:9
+#: app/scripts/templates/sign_in.mustache:24
+#: app/scripts/templates/sign_up.mustache:46
 msgid ""
 "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
 "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
@@ -573,13 +599,13 @@ msgid "Legal"
 msgstr "Rechtliches"
 
 #: app/scripts/templates/legal.mustache:3
-#: app/scripts/templates/settings.mustache:7
+#: app/scripts/templates/settings.mustache:8
 #: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "Nutzungsbedingungen"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
-#: app/scripts/templates/settings.mustache:8
+#: app/scripts/templates/settings.mustache:9
 msgid "Privacy Notice"
 msgstr "Datenschutzerklärung"
 
@@ -594,10 +620,6 @@ msgstr "Holen Sie sich Firefox für Android"
 #: app/scripts/templates/ready.mustache:1
 msgid "Account verified"
 msgstr "Konto bestätigt"
-
-#: app/scripts/templates/ready.mustache:3
-msgid "Password reset"
-msgstr "Passwort zurückgesetzt"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Success"
@@ -616,7 +638,7 @@ msgid "Enter your email to reset&nbsp;the account password."
 msgstr "Geben Sie Ihre E-Mail-Adresse ein um das Kontopasswort zurückzusetzen."
 
 #: app/scripts/templates/reset_password.mustache:3
-#: app/scripts/templates/sign_in.mustache:6
+#: app/scripts/templates/sign_in.mustache:17
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Email"
 msgstr "E-Mail-Adresse"
@@ -640,11 +662,11 @@ msgstr ""
 msgid "Manage account"
 msgstr "Konto verwalten"
 
-#: app/scripts/templates/settings.mustache:2
+#: app/scripts/templates/settings.mustache:3
 msgid "You are signed in as"
 msgstr "Sie sind angemeldet als"
 
-#: app/scripts/templates/settings.mustache:3
+#: app/scripts/templates/settings.mustache:6
 msgid "Sign out"
 msgstr "Abmelden"
 
@@ -653,7 +675,13 @@ msgstr "Abmelden"
 msgid "Continue to %(serviceName)s"
 msgstr "Weiter zu %(serviceName)s"
 
-#: app/scripts/templates/sign_in.mustache:12
+#: app/scripts/templates/sign_in.mustache:11
+#: app/scripts/templates/sign_in.mustache:14
+#, fuzzy
+msgid "Use a different account"
+msgstr "Nicht verifiziertes Konto"
+
+#: app/scripts/templates/sign_in.mustache:23
 msgid "Create an account"
 msgstr "Konto erstellen"
 
@@ -670,11 +698,72 @@ msgstr "Geburtsjahr"
 msgid "1990 or earlier"
 msgstr "1990 oder früher"
 
+#: app/scripts/templates/sign_up.mustache:32
+msgid "Month"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:33
+msgid "January"
+msgstr ""
+
 #: app/scripts/templates/sign_up.mustache:34
+msgid "February"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:35
+msgid "March"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:36
+msgid "April"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:37
+msgid "May"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:38
+msgid "June"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:39
+msgid "July"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:40
+msgid "August"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:41
+msgid "September"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:42
+msgid "October"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:43
+msgid "November"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:44
+msgid "December"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:45
+msgid "Day"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:47
+#, fuzzy
+msgid "Sign up"
+msgstr "Abmelden"
+
+#: app/scripts/templates/sign_up.mustache:48
 msgid "Choose what to sync"
 msgstr "Auswählen, was synchronisiert werden soll"
 
-#: app/scripts/templates/sign_up.mustache:36
+#: app/scripts/templates/sign_up.mustache:50
 msgid "Already have an account? Sign in."
 msgstr "Haben Sie schon ein Konto? Melden Sie sich an."
 
@@ -711,14 +800,10 @@ msgid "Upload"
 msgstr "Hochladen"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5
-msgid "URL"
-msgstr "URL"
-
-#: app/scripts/templates/settings/avatar_change.mustache:6
 msgid "Camera"
 msgstr "Kamera"
 
-#: app/scripts/templates/settings/avatar_change.mustache:7
+#: app/scripts/templates/settings/avatar_change.mustache:6
 msgid "Gravatar"
 msgstr "Gravatar"
 
@@ -734,6 +819,9 @@ msgstr "Speichern"
 #: app/scripts/templates/settings/avatar_url.mustache:4
 msgid "Paste image URL"
 msgstr "Grafik-URL einfügen"
+
+#~ msgid "URL"
+#~ msgstr "URL"
 
 #~ msgid "Signed in successfully"
 #~ msgstr "Erfolgreich angemeldet"

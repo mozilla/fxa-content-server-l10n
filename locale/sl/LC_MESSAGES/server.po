@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-19 20:39+0000\n"
+"POT-Creation-Date: 2014-10-10 00:13+0000\n"
 "PO-Revision-Date: 2014-05-12 07:52+0000\n"
 "Last-Translator: Matjaž <m@owca.info>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,20 +38,18 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/503.html:4
-#: server/templates/pages/src/privacy.html:6
-#: server/templates/pages/src/terms.html:6
 msgid "Home"
 msgstr "Domov"
 
 #: server/templates/pages/src/500.html:2
-msgid "System unavailable, try again soon"
-msgstr "Sistem ni dosegljiv, poskusite znova pozneje"
+msgid "500 Error"
+msgstr ""
 
 #: server/templates/pages/src/500.html:3
 msgid ""
-"We are currently performing some maintenance on the system, and will return "
-"momentarily."
-msgstr "Trenutno potekajo vzdrževalna dela na sistemu. Kmalu bomo nazaj."
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
+msgstr ""
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -154,3 +152,11 @@ msgstr "Potrdite svoj račun"
 #: server/lib/templates.js:68
 msgid "Reset your password"
 msgstr "Ponastavite vaše geslo"
+
+#~ msgid "System unavailable, try again soon"
+#~ msgstr "Sistem ni dosegljiv, poskusite znova pozneje"
+
+#~ msgid ""
+#~ "We are currently performing some maintenance on the system, and will "
+#~ "return momentarily."
+#~ msgstr "Trenutno potekajo vzdrževalna dela na sistemu. Kmalu bomo nazaj."

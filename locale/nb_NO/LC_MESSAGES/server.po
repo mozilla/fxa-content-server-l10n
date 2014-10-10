@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-19 20:39+0000\n"
+"POT-Creation-Date: 2014-10-10 00:13+0000\n"
 "PO-Revision-Date: 2014-06-20 10:47+0000\n"
 "Last-Translator: Håvar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,21 +37,18 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/503.html:4
-#: server/templates/pages/src/privacy.html:6
-#: server/templates/pages/src/terms.html:6
 msgid "Home"
 msgstr "Hjem"
 
 #: server/templates/pages/src/500.html:2
-msgid "System unavailable, try again soon"
-msgstr "Systemet er utilgjengelig, prøv igjen senere"
+msgid "500 Error"
+msgstr ""
 
 #: server/templates/pages/src/500.html:3
 msgid ""
-"We are currently performing some maintenance on the system, and will return "
-"momentarily."
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
 msgstr ""
-"Vi holder på å utføre noe vedlikehold på systemet, og kommer snart tilbake."
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -155,6 +152,16 @@ msgstr "Bekreft din konto"
 #: server/lib/templates.js:68
 msgid "Reset your password"
 msgstr "Tilbakestill passord"
+
+#~ msgid "System unavailable, try again soon"
+#~ msgstr "Systemet er utilgjengelig, prøv igjen senere"
+
+#~ msgid ""
+#~ "We are currently performing some maintenance on the system, and will "
+#~ "return momentarily."
+#~ msgstr ""
+#~ "Vi holder på å utføre noe vedlikehold på systemet, og kommer snart "
+#~ "tilbake."
 
 #~ msgid "Reset Password Request"
 #~ msgstr "Passordtilbakestillingsforespørsel"
