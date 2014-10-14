@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-10 00:13+0000\n"
-"PO-Revision-Date: 2014-10-13 09:23+0000\n"
+"PO-Revision-Date: 2014-10-14 18:58+0000\n"
 "Last-Translator: Branislav <rozbora@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1413192226.0\n"
+"X-POOTLE-MTIME: 1413313121.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -48,7 +48,7 @@ msgstr "Chyba 500"
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
-msgstr ""
+msgstr "Ups, niečo sa pokazilo. Boli sme upozornení a pracujeme na oprave."
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
