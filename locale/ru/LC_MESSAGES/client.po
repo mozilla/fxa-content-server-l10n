@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-10 00:13+0000\n"
-"PO-Revision-Date: 2014-09-06 23:08+0400\n"
+"PO-Revision-Date: 2014-10-16 21:55+0400\n"
 "Last-Translator: Alexander L. Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
 "Language: ru\n"
@@ -278,12 +278,11 @@ msgstr "Не удалось инициализировать камеру"
 
 #: app/scripts/lib/auth-errors.js:96
 msgid "Valid URL required"
-msgstr "Введите действующий URL"
+msgstr "Введите корректный URL"
 
 #: app/scripts/lib/auth-errors.js:97
-#, fuzzy
 msgid "Valid birthday required"
-msgstr "Введите действующий адрес электронной почты"
+msgstr "Введите корректный день рождения"
 
 #: app/scripts/lib/oauth-errors.js:33
 msgid "Unknown client"
@@ -304,15 +303,15 @@ msgstr ""
 
 #: app/scripts/lib/profile-client.js:114
 msgid "Unauthorized"
-msgstr ""
+msgstr "Не авторизован"
 
 #: app/scripts/lib/profile-client.js:116
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "Неподдерживаемый провайдер изображений"
 
 #: app/scripts/lib/profile-client.js:117
 msgid "Image processing error"
-msgstr ""
+msgstr "Ошибка обработки изображения"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -675,9 +674,8 @@ msgstr "Продолжить в %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:11
 #: app/scripts/templates/sign_in.mustache:14
-#, fuzzy
 msgid "Use a different account"
-msgstr "Неподтвержденный аккаунт"
+msgstr "Использовать другой аккаунт"
 
 #: app/scripts/templates/sign_in.mustache:23
 msgid "Create an account"
@@ -698,64 +696,63 @@ msgstr "1990 или ранее"
 
 #: app/scripts/templates/sign_up.mustache:32
 msgid "Month"
-msgstr ""
+msgstr "Месяц"
 
 #: app/scripts/templates/sign_up.mustache:33
 msgid "January"
-msgstr ""
+msgstr "Январь"
 
 #: app/scripts/templates/sign_up.mustache:34
 msgid "February"
-msgstr ""
+msgstr "Февраль"
 
 #: app/scripts/templates/sign_up.mustache:35
 msgid "March"
-msgstr ""
+msgstr "Март"
 
 #: app/scripts/templates/sign_up.mustache:36
 msgid "April"
-msgstr ""
+msgstr "Апрель"
 
 #: app/scripts/templates/sign_up.mustache:37
 msgid "May"
-msgstr ""
+msgstr "Май"
 
 #: app/scripts/templates/sign_up.mustache:38
 msgid "June"
-msgstr ""
+msgstr "Июнь"
 
 #: app/scripts/templates/sign_up.mustache:39
 msgid "July"
-msgstr ""
+msgstr "Июль"
 
 #: app/scripts/templates/sign_up.mustache:40
 msgid "August"
-msgstr ""
+msgstr "Август"
 
 #: app/scripts/templates/sign_up.mustache:41
 msgid "September"
-msgstr ""
+msgstr "Сентябрь"
 
 #: app/scripts/templates/sign_up.mustache:42
 msgid "October"
-msgstr ""
+msgstr "Октябрь"
 
 #: app/scripts/templates/sign_up.mustache:43
 msgid "November"
-msgstr ""
+msgstr "Ноябрь"
 
 #: app/scripts/templates/sign_up.mustache:44
 msgid "December"
-msgstr ""
+msgstr "Декабрь"
 
 #: app/scripts/templates/sign_up.mustache:45
 msgid "Day"
-msgstr ""
+msgstr "День"
 
 #: app/scripts/templates/sign_up.mustache:47
-#, fuzzy
 msgid "Sign up"
-msgstr "Выйти"
+msgstr "Регистрация"
 
 #: app/scripts/templates/sign_up.mustache:48
 msgid "Choose what to sync"

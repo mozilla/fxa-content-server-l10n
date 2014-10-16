@@ -1,18 +1,18 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-10 00:13+0000\n"
-"PO-Revision-Date: 2014-05-12 16:35+0000\n"
-"Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2014-10-16 21:58+0400\n"
+"Last-Translator: Alexander L. Slovesnik <unghost@mozilla-russia.org>\n"
+"Language-Team: Mozilla Russia <LL@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Poedit 1.6.9\n"
 "X-POOTLE-MTIME: 1399912510.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
@@ -43,13 +43,15 @@ msgstr "Домой"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr ""
+msgstr "Ошибка 500"
 
 #: server/templates/pages/src/500.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr ""
+"О боже мой, что-то там пошло не так. Мы уведомлены об этом и начнём работу "
+"над исправлением."
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
