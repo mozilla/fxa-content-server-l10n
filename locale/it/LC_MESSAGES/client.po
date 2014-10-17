@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-10 00:13+0000\n"
-"PO-Revision-Date: 2014-08-29 15:53+0000\n"
+"PO-Revision-Date: 2014-10-17 19:46+0000\n"
 "Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1409327596.0\n"
+"X-POOTLE-MTIME: 1413575194.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -282,9 +282,8 @@ msgid "Valid URL required"
 msgstr "È necessario fornire un URL valido"
 
 #: app/scripts/lib/auth-errors.js:97
-#, fuzzy
 msgid "Valid birthday required"
-msgstr "È necessario inserire un indirizzo email valido"
+msgstr "È necessario inserire una data di nascita valida"
 
 #: app/scripts/lib/oauth-errors.js:33
 msgid "Unknown client"
@@ -304,15 +303,15 @@ msgstr "Qualcosa è andato storto. Chiudi questa scheda e riprova."
 
 #: app/scripts/lib/profile-client.js:114
 msgid "Unauthorized"
-msgstr ""
+msgstr "Non autorizzato"
 
 #: app/scripts/lib/profile-client.js:116
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "Provider di immagini non supportato"
 
 #: app/scripts/lib/profile-client.js:117
 msgid "Image processing error"
-msgstr ""
+msgstr "Errore durante l’elaborazione dell’immagine"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -647,7 +646,7 @@ msgid ""
 "our servers. A new Sync backup will be created from your local browsing data."
 msgstr ""
 "Per ragioni di sicurezza la reimpostazione della password comporta "
-"l’eliminazione di tutti i dati dell'account Sync presenti sui nostri server. "
+"l’eliminazione di tutti i dati dell’account Sync presenti sui nostri server. "
 "Un nuovo backup di Sync verrà creato utilizzando i dati di navigazione "
 "locali."
 
@@ -676,9 +675,8 @@ msgstr "Accedi a %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:11
 #: app/scripts/templates/sign_in.mustache:14
-#, fuzzy
 msgid "Use a different account"
-msgstr "Questo account non è stato verificato"
+msgstr "Utilizza un altro account"
 
 #: app/scripts/templates/sign_in.mustache:23
 msgid "Create an account"
@@ -699,64 +697,63 @@ msgstr "1990 o precedente"
 
 #: app/scripts/templates/sign_up.mustache:32
 msgid "Month"
-msgstr ""
+msgstr "Mese"
 
 #: app/scripts/templates/sign_up.mustache:33
 msgid "January"
-msgstr ""
+msgstr "Gennaio"
 
 #: app/scripts/templates/sign_up.mustache:34
 msgid "February"
-msgstr ""
+msgstr "Febbraio"
 
 #: app/scripts/templates/sign_up.mustache:35
 msgid "March"
-msgstr ""
+msgstr "Marzo"
 
 #: app/scripts/templates/sign_up.mustache:36
 msgid "April"
-msgstr ""
+msgstr "Aprile"
 
 #: app/scripts/templates/sign_up.mustache:37
 msgid "May"
-msgstr ""
+msgstr "Maggio"
 
 #: app/scripts/templates/sign_up.mustache:38
 msgid "June"
-msgstr ""
+msgstr "Giugno"
 
 #: app/scripts/templates/sign_up.mustache:39
 msgid "July"
-msgstr ""
+msgstr "Luglio"
 
 #: app/scripts/templates/sign_up.mustache:40
 msgid "August"
-msgstr ""
+msgstr "Agosto"
 
 #: app/scripts/templates/sign_up.mustache:41
 msgid "September"
-msgstr ""
+msgstr "Settembre"
 
 #: app/scripts/templates/sign_up.mustache:42
 msgid "October"
-msgstr ""
+msgstr "Ottobre"
 
 #: app/scripts/templates/sign_up.mustache:43
 msgid "November"
-msgstr ""
+msgstr "Novembre"
 
 #: app/scripts/templates/sign_up.mustache:44
 msgid "December"
-msgstr ""
+msgstr "Dicembre"
 
 #: app/scripts/templates/sign_up.mustache:45
 msgid "Day"
-msgstr ""
+msgstr "Giorno"
 
 #: app/scripts/templates/sign_up.mustache:47
-#, fuzzy
 msgid "Sign up"
-msgstr "Esci"
+msgstr "Registrati"
 
 #: app/scripts/templates/sign_up.mustache:48
 msgid "Choose what to sync"
