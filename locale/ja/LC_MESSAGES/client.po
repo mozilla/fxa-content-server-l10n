@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-10 00:13+0000\n"
-"PO-Revision-Date: 2014-08-21 02:21+0000\n"
+"PO-Revision-Date: 2014-10-21 13:40+0000\n"
 "Last-Translator: Masahiko <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1408587699.0\n"
+"X-POOTLE-MTIME: 1413898858.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -94,9 +94,7 @@ msgstr "パスワードが変更されました"
 msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
-msgstr ""
-"未認証のアカウントです。<a href=\"#\" id=\"resend\">認証用のメールを再送信し"
-"てください</a>。"
+msgstr "未認証のアカウントです。<a href=\"#\" id=\"resend\">認証用のメールを再送信する</a>。"
 
 #: app/scripts/views/confirm_reset_password.js:166
 #: app/scripts/templates/ready.mustache:3
@@ -233,7 +231,7 @@ msgstr "パスワードが一致しません"
 
 #: app/scripts/lib/auth-errors.js:86
 msgid "Working…"
-msgstr "処理中です..."
+msgstr "処理中です…"
 
 #: app/scripts/lib/auth-errors.js:87
 msgid "Could not get Privacy Notice"
@@ -280,9 +278,8 @@ msgid "Valid URL required"
 msgstr "正しい URL を入力してください"
 
 #: app/scripts/lib/auth-errors.js:97
-#, fuzzy
 msgid "Valid birthday required"
-msgstr "有効なメールアドレスが必要です"
+msgstr "有効な誕生日が必要です"
 
 #: app/scripts/lib/oauth-errors.js:33
 msgid "Unknown client"
@@ -302,15 +299,15 @@ msgstr "エラーが発生しました。このタブを閉じて再度試して
 
 #: app/scripts/lib/profile-client.js:114
 msgid "Unauthorized"
-msgstr ""
+msgstr "未承認"
 
 #: app/scripts/lib/profile-client.js:116
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "未対応の画像プロバイダ"
 
 #: app/scripts/lib/profile-client.js:117
 msgid "Image processing error"
-msgstr ""
+msgstr "画像処理エラー"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -670,9 +667,8 @@ msgstr "%(serviceName)s の利用を続ける"
 
 #: app/scripts/templates/sign_in.mustache:11
 #: app/scripts/templates/sign_in.mustache:14
-#, fuzzy
 msgid "Use a different account"
-msgstr "未検証のアカウントです"
+msgstr "別のアカウントを使用してください"
 
 #: app/scripts/templates/sign_in.mustache:23
 msgid "Create an account"
@@ -695,64 +691,63 @@ msgstr "1990 年以前"
 
 #: app/scripts/templates/sign_up.mustache:32
 msgid "Month"
-msgstr ""
+msgstr "月"
 
 #: app/scripts/templates/sign_up.mustache:33
 msgid "January"
-msgstr ""
+msgstr "1月"
 
 #: app/scripts/templates/sign_up.mustache:34
 msgid "February"
-msgstr ""
+msgstr "2月"
 
 #: app/scripts/templates/sign_up.mustache:35
 msgid "March"
-msgstr ""
+msgstr "3月"
 
 #: app/scripts/templates/sign_up.mustache:36
 msgid "April"
-msgstr ""
+msgstr "4月"
 
 #: app/scripts/templates/sign_up.mustache:37
 msgid "May"
-msgstr ""
+msgstr "5月"
 
 #: app/scripts/templates/sign_up.mustache:38
 msgid "June"
-msgstr ""
+msgstr "6月"
 
 #: app/scripts/templates/sign_up.mustache:39
 msgid "July"
-msgstr ""
+msgstr "7月"
 
 #: app/scripts/templates/sign_up.mustache:40
 msgid "August"
-msgstr ""
+msgstr "8月"
 
 #: app/scripts/templates/sign_up.mustache:41
 msgid "September"
-msgstr ""
+msgstr "9月"
 
 #: app/scripts/templates/sign_up.mustache:42
 msgid "October"
-msgstr ""
+msgstr "10月"
 
 #: app/scripts/templates/sign_up.mustache:43
 msgid "November"
-msgstr ""
+msgstr "11月"
 
 #: app/scripts/templates/sign_up.mustache:44
 msgid "December"
-msgstr ""
+msgstr "12月"
 
 #: app/scripts/templates/sign_up.mustache:45
 msgid "Day"
-msgstr ""
+msgstr "日"
 
 #: app/scripts/templates/sign_up.mustache:47
-#, fuzzy
 msgid "Sign up"
-msgstr "サインアウト"
+msgstr "アカウント登録"
 
 # アカウント作成後に同期対象を選択する画面を出すかどうかのチェックボックスです
 #: app/scripts/templates/sign_up.mustache:48
