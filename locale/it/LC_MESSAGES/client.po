@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-10 00:13+0000\n"
-"PO-Revision-Date: 2014-10-17 19:46+0000\n"
+"PO-Revision-Date: 2014-10-18 14:27+0000\n"
 "Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1413575194.0\n"
+"X-POOTLE-MTIME: 1413642443.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -101,7 +101,7 @@ msgstr ""
 #: app/scripts/views/confirm_reset_password.js:166
 #: app/scripts/templates/ready.mustache:3
 msgid "Password reset"
-msgstr "Reimposta la password"
+msgstr "Reimpostazione della password"
 
 #: app/scripts/views/confirm_reset_password.js:182
 msgid "Password reset. Sign in to continue."
@@ -129,7 +129,7 @@ msgstr "Questo account esiste già. <a href=\"/signin\">Accedi</a>"
 
 #: app/scripts/views/settings/avatar_gravatar.js:65
 msgid "No Gravatar found"
-msgstr "Non è statorilevato alcun gravatar per questo account"
+msgstr "Non è stato rilevato alcun gravatar per questo account"
 
 #: app/scripts/views/settings/avatar_gravatar.js:92
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
@@ -199,7 +199,7 @@ msgstr "Firma della richiesta non valida"
 
 #: app/scripts/lib/auth-errors.js:75
 msgid "Missing content-length header"
-msgstr "Header ‘content-length ’ mancante"
+msgstr "Header ‘content-length’ mancante"
 
 #: app/scripts/lib/auth-errors.js:76
 msgid "Request body too large"
@@ -255,7 +255,7 @@ msgstr "La nuova password deve essere diversa"
 #: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/sign_up.mustache:11
 msgid "Must be at least 8 characters"
-msgstr "Deve essere di almeno 8 caratteri"
+msgstr "Deve contenere almeno 8 caratteri"
 
 #: app/scripts/lib/auth-errors.js:91 app/scripts/lib/strings.js:19
 msgid "Valid password required"
@@ -271,7 +271,7 @@ msgstr "È necessario inserire l’anno di nascita"
 
 #: app/scripts/lib/auth-errors.js:94
 msgid "A usable image was not found"
-msgstr "Non è stata rilevata alcuna immagine utile per questo account"
+msgstr "Non è stata rilevata alcuna immagine utilizzabile per questo account"
 
 #: app/scripts/lib/auth-errors.js:95
 msgid "Could not initialize camera"
@@ -323,7 +323,7 @@ msgstr "Password non valida"
 
 #: app/scripts/lib/strings.js:21
 msgid "Invalid email and password"
-msgstr "Email e password non valide"
+msgstr "Indirizzo email e/o password non validi"
 
 #: app/scripts/lib/strings.js:22
 msgid "Invalid email or password"
@@ -434,7 +434,7 @@ msgstr "Fai clic qui per ricevere un nuovo link per reimpostare la password"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 msgid "Reset password link damaged"
-msgstr "Questo link per reimpostare la password non è valido"
+msgstr "Questo link per reimpostare la password è danneggiato"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:8
@@ -449,7 +449,7 @@ msgstr ""
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
 msgid "Reset password"
-msgstr "Reimposta la password"
+msgstr "Reimpostazione della password"
 
 #: app/scripts/templates/complete_reset_password.mustache:12
 msgid "Repeat password"

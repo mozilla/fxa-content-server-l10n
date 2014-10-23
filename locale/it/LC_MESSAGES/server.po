@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-10 00:13+0000\n"
-"PO-Revision-Date: 2014-10-17 19:11+0000\n"
+"PO-Revision-Date: 2014-10-18 14:30+0000\n"
 "Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1413573090.0\n"
+"X-POOTLE-MTIME: 1413642606.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -114,7 +114,7 @@ msgid ""
 "required."
 msgstr ""
 "Questa email è stata inviata da un servizio automatico, se hai ricevuto "
-"questa e-mail per errore, puoi semplicemente ignorarla."
+"questa email per errore, puoi semplicemente ignorarla."
 
 #: server/templates/email/reset.html:6 server/templates/email/verify.html:6
 msgid ""
@@ -155,7 +155,7 @@ msgstr "Conferma l’account"
 
 #: server/lib/templates.js:68
 msgid "Reset your password"
-msgstr "Reimposta password"
+msgstr "Reimpostazione della password di Firefox Account"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "Il sistema non è disponibile, riprova più tardi"
