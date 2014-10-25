@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-10 00:13+0000\n"
-"PO-Revision-Date: 2014-04-13 13:12+0000\n"
-"Last-Translator: Rimas <rq@akl.lt>\n"
+"PO-Revision-Date: 2014-10-10 16:40+0000\n"
+"Last-Translator: MariusG <marius.gricius@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
-"%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
+"100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397394761.0\n"
+"X-POOTLE-MTIME: 1412959218.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -42,24 +42,29 @@ msgid "Home"
 msgstr "Pradžia"
 
 #: server/templates/pages/src/500.html:2
+#, fuzzy
 msgid "500 Error"
-msgstr ""
+msgstr "Klaida „500 Internal Server Error“"
 
 #: server/templates/pages/src/500.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr ""
+"Kažkas čia negerai. Mus apie tai jau informavo, todėl netrukus problemą "
+"išspręsime."
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Serveris užimtas, todėl bandykite vėliau"
 
 #: server/templates/pages/src/503.html:3
 msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
+"Serveris šiuo metu labai apkrautas, todėl mes stengiamės kuo greičiau "
+"sistemą grąžinti į normalią būseną."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
@@ -68,6 +73,9 @@ msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
+"Jūs naudojate <strong>pasenusią</strong> naršyklę. Labai prašome <a "
+"href=\"http://browsehappy.com/\">ją atnaujinti</a> ir internetas taps jums "
+"draugiškesnis."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -76,27 +84,25 @@ msgstr "„Firefox“ paskyroms reikia „Javascript“."
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:5
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Privatumo pastaba"
 
 #: server/templates/pages/src/privacy.html:4
 #: server/templates/pages/src/terms.html:4
-#, fuzzy
 msgid "Firefox cloud services"
-msgstr "„Firefox“ paskyros"
+msgstr "„Firefox“ debesijos paslaugos"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:5
 msgid "Terms of Service"
-msgstr ""
+msgstr "Paslaugos teikimo nuostatai"
 
 #: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
 msgid "Are you sure?"
-msgstr ""
+msgstr "Ar esate įsitikinę?"
 
 #: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
-#, fuzzy
 msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Išsiųsta užklausa atkurti %(email)s slaptažodį."
+msgstr "Patvirtinkite, kad tikrai ketinate atkurti %(email)s slaptažodį."
 
 #: server/templates/email/reset.html:4
 msgid "Reset password"
@@ -104,17 +110,20 @@ msgstr "Atkurti slaptažodį"
 
 #: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
 #: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
-#, fuzzy
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
-msgstr "Jei gavote šį laišką per klaidą, nieko daryti nereikia."
+msgstr ""
+"Tai automatiškai sugeneruotas laiškas, todėl jei gavote šį laišką per "
+"klaidą, nieko daryti nereikia."
 
 #: server/templates/email/reset.html:6 server/templates/email/verify.html:6
 msgid ""
 "For more information, please visit <a href='https://support.mozilla."
 "org'>Mozilla Support</a>"
 msgstr ""
+"Daugiau informacijos rasite <a href='https://support.mozilla.org'>„Mozilla“ "
+"pagalbos puslapyje</a>"
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
@@ -122,17 +131,16 @@ msgstr "Atkurti slaptažodį:"
 
 #: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
-msgstr ""
+msgstr "Daugiau informacijos rasite adresu https://support.mozilla.org"
 
 #: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
 msgid "Congratulations!"
-msgstr ""
+msgstr "Sveikiname!"
 
 #: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
-#, fuzzy
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
 msgstr ""
-"Sveikiname! %(email)s, jūs esate tik per žingsnį nuo savo „Firefox“ paskyros "
+"%(email)s, jūs esate tik per žingsnį nuo savo „Firefox“ paskyros "
 "patvirtinimo."
 
 #: server/templates/email/verify.html:4
@@ -144,12 +152,10 @@ msgid "Verify:"
 msgstr "Patvirtinkite:"
 
 #: server/lib/templates.js:63
-#, fuzzy
 msgid "Verify your account"
 msgstr "Patvirtinkite savo paskyrą"
 
 #: server/lib/templates.js:68
-#, fuzzy
 msgid "Reset your password"
 msgstr "Atkurti slaptažodį"
 
