@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-10 00:13+0000\n"
-"PO-Revision-Date: 2014-08-21 12:25+0000\n"
+"PO-Revision-Date: 2014-10-26 18:51+0000\n"
 "Last-Translator: Jørgen   <joergenr@stofanet.dk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: da\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1408623912.0\n"
+"X-POOTLE-MTIME: 1414349485.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -278,9 +278,8 @@ msgid "Valid URL required"
 msgstr "Gyldig URL påkrævet"
 
 #: app/scripts/lib/auth-errors.js:97
-#, fuzzy
 msgid "Valid birthday required"
-msgstr "Gyldig mailadresse påkrævet"
+msgstr "Gyldig fødselsdato påkrævet"
 
 #: app/scripts/lib/oauth-errors.js:33
 msgid "Unknown client"
@@ -300,15 +299,15 @@ msgstr "Noget gik galt. Luk dette faneblad og prøv igen."
 
 #: app/scripts/lib/profile-client.js:114
 msgid "Unauthorized"
-msgstr ""
+msgstr "Ikke godkendt"
 
 #: app/scripts/lib/profile-client.js:116
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "Billedleverandør ikke godkendt"
 
 #: app/scripts/lib/profile-client.js:117
 msgid "Image processing error"
-msgstr ""
+msgstr "Billedbehandlingsfejl"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -664,9 +663,8 @@ msgstr "Fortsæt til %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:11
 #: app/scripts/templates/sign_in.mustache:14
-#, fuzzy
 msgid "Use a different account"
-msgstr "Ubekræftet konto"
+msgstr "Brug en anden konto"
 
 #: app/scripts/templates/sign_in.mustache:23
 msgid "Create an account"
@@ -687,64 +685,63 @@ msgstr "1990 eller tidligere"
 
 #: app/scripts/templates/sign_up.mustache:32
 msgid "Month"
-msgstr ""
+msgstr "Måned"
 
 #: app/scripts/templates/sign_up.mustache:33
 msgid "January"
-msgstr ""
+msgstr "Januar"
 
 #: app/scripts/templates/sign_up.mustache:34
 msgid "February"
-msgstr ""
+msgstr "Februar"
 
 #: app/scripts/templates/sign_up.mustache:35
 msgid "March"
-msgstr ""
+msgstr "Marts"
 
 #: app/scripts/templates/sign_up.mustache:36
 msgid "April"
-msgstr ""
+msgstr "April"
 
 #: app/scripts/templates/sign_up.mustache:37
 msgid "May"
-msgstr ""
+msgstr "Maj"
 
 #: app/scripts/templates/sign_up.mustache:38
 msgid "June"
-msgstr ""
+msgstr "Juni"
 
 #: app/scripts/templates/sign_up.mustache:39
 msgid "July"
-msgstr ""
+msgstr "Juli"
 
 #: app/scripts/templates/sign_up.mustache:40
 msgid "August"
-msgstr ""
+msgstr "August"
 
 #: app/scripts/templates/sign_up.mustache:41
 msgid "September"
-msgstr ""
+msgstr "September"
 
 #: app/scripts/templates/sign_up.mustache:42
 msgid "October"
-msgstr ""
+msgstr "Oktober"
 
 #: app/scripts/templates/sign_up.mustache:43
 msgid "November"
-msgstr ""
+msgstr "November"
 
 #: app/scripts/templates/sign_up.mustache:44
 msgid "December"
-msgstr ""
+msgstr "December"
 
 #: app/scripts/templates/sign_up.mustache:45
 msgid "Day"
-msgstr ""
+msgstr "Dag"
 
 #: app/scripts/templates/sign_up.mustache:47
-#, fuzzy
 msgid "Sign up"
-msgstr "Log ud"
+msgstr "Tilmeld dig"
 
 #: app/scripts/templates/sign_up.mustache:48
 msgid "Choose what to sync"
