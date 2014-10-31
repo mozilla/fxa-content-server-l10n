@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-10 00:13+0000\n"
-"PO-Revision-Date: 2014-06-03 19:59+0000\n"
+"PO-Revision-Date: 2014-10-31 18:33+0000\n"
 "Last-Translator: Gion-Andri <gion-andri@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1401825558.0\n"
+"X-POOTLE-MTIME: 1414780387.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -129,11 +129,11 @@ msgstr "Conto exista gia. <a href=\"/signin\">S'annunziar</a>"
 
 #: app/scripts/views/settings/avatar_gravatar.js:65
 msgid "No Gravatar found"
-msgstr ""
+msgstr "Chattà nagin Gravatar"
 
 #: app/scripts/views/settings/avatar_gravatar.js:92
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr ""
+msgstr "Furnì da <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
 #: app/scripts/lib/auth-errors.js:61 app/scripts/lib/auth-errors.js:98
 #: app/scripts/lib/oauth-errors.js:41 app/scripts/lib/profile-client.js:121
@@ -233,7 +233,7 @@ msgstr "Ils pleds-clav na correspundan betg"
 
 #: app/scripts/lib/auth-errors.js:86
 msgid "Working…"
-msgstr ""
+msgstr "En lavur…"
 
 #: app/scripts/lib/auth-errors.js:87
 msgid "Could not get Privacy Notice"
@@ -268,21 +268,19 @@ msgstr "L'onn da naschientscha è necessari"
 
 #: app/scripts/lib/auth-errors.js:94
 msgid "A usable image was not found"
-msgstr ""
+msgstr "Chattà nagin maletg utilisabel"
 
 #: app/scripts/lib/auth-errors.js:95
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "Impussibel dad inizialisar la camera"
 
 #: app/scripts/lib/auth-errors.js:96
-#, fuzzy
 msgid "Valid URL required"
-msgstr "Necessari dad inditgar ina adressa dad e-mail valida"
+msgstr "Necessari dad inditgar ina URL valida"
 
 #: app/scripts/lib/auth-errors.js:97
-#, fuzzy
 msgid "Valid birthday required"
-msgstr "Necessari dad inditgar ina adressa dad e-mail valida"
+msgstr "Necessari dad inditgar di da naschientscha valid"
 
 #: app/scripts/lib/oauth-errors.js:33
 msgid "Unknown client"
@@ -293,25 +291,26 @@ msgid "Incorrect redirect_uri"
 msgstr "redirect_uri nuncorrecta"
 
 #: app/scripts/lib/oauth-errors.js:35
-#, fuzzy
 msgid "Invalid assertion"
-msgstr "Token nunvalid"
+msgstr "Affirmaziun nunvalida"
 
 #: app/scripts/lib/oauth-errors.js:42
 msgid "Something went wrong. Please close this tab and try again."
 msgstr ""
+"Insatge n'ha betg funcziunà. Serra p. pl. quest tab ed emprova anc ina "
+"giada."
 
 #: app/scripts/lib/profile-client.js:114
 msgid "Unauthorized"
-msgstr ""
+msgstr "Betg autorisà"
 
 #: app/scripts/lib/profile-client.js:116
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "Purschider da maletgs betg sustegnì"
 
 #: app/scripts/lib/profile-client.js:117
 msgid "Image processing error"
-msgstr ""
+msgstr "Errur cun elavurar il maletg"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -375,6 +374,8 @@ msgstr "Midar il pled-clav"
 msgid ""
 "Once you're ﬁnished, use your new password to sign in on all of your devices."
 msgstr ""
+"Utilisescha tes nov pled-clav per s'annunziar sin tut ils apparats "
+"uschespert che ti es pronts."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -399,7 +400,7 @@ msgstr "Pled-clav nov"
 
 #: app/scripts/templates/change_password.mustache:8
 msgid "Confirm"
-msgstr ""
+msgstr "Confermar"
 
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/delete_account.mustache:6
@@ -410,9 +411,8 @@ msgid "Back"
 msgstr "Enavos"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
-#, fuzzy
 msgid "Reset password link expired"
-msgstr "Redefinir il pled-clav"
+msgstr "La colliaziun per redefinir il pled-clav è scrudada"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -432,9 +432,8 @@ msgstr ""
 "Clicca qua per retschaiver ina nova colliaziun per redefinir il pled-clav"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
-#, fuzzy
 msgid "Reset password link damaged"
-msgstr "Redefinir il pled-clav"
+msgstr "La colliaziun per redefinir il pled-clav è donnegiada"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:8
