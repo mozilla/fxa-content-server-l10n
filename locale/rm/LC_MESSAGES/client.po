@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-10 00:13+0000\n"
-"PO-Revision-Date: 2014-10-31 18:33+0000\n"
+"PO-Revision-Date: 2014-10-31 18:43+0000\n"
 "Last-Translator: Gion-Andri <gion-andri@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1414780387.0\n"
+"X-POOTLE-MTIME: 1414781004.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -465,16 +465,14 @@ msgid "Verification link expired"
 msgstr "Colliaziun da verificaziun scrudada"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
-#, fuzzy
 msgid "The link you clicked to verify your email is expired."
 msgstr ""
-"La colliaziun che ti has cliccà per redefinir tes pled-clav è scrudada."
+"La colliaziun che ti has cliccà per confermar tia adressa dad e-mail è "
+"scrudada."
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Click here to receive a new verification link"
-msgstr ""
-"Clicca qua per retschaiver ina nova colliaziun per redefinir il pled-clav"
+msgstr "Clicca qua per retschaiver ina nova colliaziun da verificaziun"
 
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
@@ -647,6 +645,9 @@ msgid ""
 "For security reasons, resetting your password will erase your Sync data from "
 "our servers. A new Sync backup will be created from your local browsing data."
 msgstr ""
+"Per motivs da segirezza vegan tias datas da Sync stizzadas da noss servers "
+"sche ti redefineschas tes pled-clav. In nov backup da Sync vegn creà da tias "
+"datas localas."
 
 #: app/scripts/templates/settings.mustache:1
 #: app/scripts/templates/settings/avatar.mustache:1
@@ -668,15 +669,13 @@ msgstr "Sortir"
 
 #: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
-#, fuzzy
 msgid "Continue to %(serviceName)s"
-msgstr "S'annunziar tar %(serviceName)s"
+msgstr "Cuntinuar a %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:11
 #: app/scripts/templates/sign_in.mustache:14
-#, fuzzy
 msgid "Use a different account"
-msgstr "Conto betg verifitgà"
+msgstr "Utilisar in auter conto"
 
 #: app/scripts/templates/sign_in.mustache:23
 msgid "Create an account"
@@ -697,64 +696,63 @@ msgstr "1990 u pli baud"
 
 #: app/scripts/templates/sign_up.mustache:32
 msgid "Month"
-msgstr ""
+msgstr "Mais"
 
 #: app/scripts/templates/sign_up.mustache:33
 msgid "January"
-msgstr ""
+msgstr "Schaner"
 
 #: app/scripts/templates/sign_up.mustache:34
 msgid "February"
-msgstr ""
+msgstr "Favrer"
 
 #: app/scripts/templates/sign_up.mustache:35
 msgid "March"
-msgstr ""
+msgstr "Mars"
 
 #: app/scripts/templates/sign_up.mustache:36
 msgid "April"
-msgstr ""
+msgstr "Avril"
 
 #: app/scripts/templates/sign_up.mustache:37
 msgid "May"
-msgstr ""
+msgstr "Matg"
 
 #: app/scripts/templates/sign_up.mustache:38
 msgid "June"
-msgstr ""
+msgstr "Zercladur"
 
 #: app/scripts/templates/sign_up.mustache:39
 msgid "July"
-msgstr ""
+msgstr "Fanadur"
 
 #: app/scripts/templates/sign_up.mustache:40
 msgid "August"
-msgstr ""
+msgstr "Avust"
 
 #: app/scripts/templates/sign_up.mustache:41
 msgid "September"
-msgstr ""
+msgstr "Settember"
 
 #: app/scripts/templates/sign_up.mustache:42
 msgid "October"
-msgstr ""
+msgstr "October"
 
 #: app/scripts/templates/sign_up.mustache:43
 msgid "November"
-msgstr ""
+msgstr "November"
 
 #: app/scripts/templates/sign_up.mustache:44
 msgid "December"
-msgstr ""
+msgstr "December"
 
 #: app/scripts/templates/sign_up.mustache:45
 msgid "Day"
-msgstr ""
+msgstr "Di"
 
 #: app/scripts/templates/sign_up.mustache:47
-#, fuzzy
 msgid "Sign up"
-msgstr "Sortir"
+msgstr "Sa registrar"
 
 #: app/scripts/templates/sign_up.mustache:48
 msgid "Choose what to sync"
@@ -766,7 +764,7 @@ msgstr "Has gia in conto? S'annunzia."
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
-msgstr ""
+msgstr "Pagina da partenza"
 
 #: app/scripts/templates/settings/avatar.mustache:2
 #: app/scripts/templates/settings/avatar_camera.mustache:2
@@ -774,49 +772,48 @@ msgstr ""
 #: app/scripts/templates/settings/avatar_crop.mustache:2
 #: app/scripts/templates/settings/avatar_gravatar.mustache:2
 #: app/scripts/templates/settings/avatar_url.mustache:2
-#, fuzzy
 msgid "Account picture"
-msgstr "Verifitgà il conto"
+msgstr "Maletg da conto"
 
 #: app/scripts/templates/settings/avatar.mustache:4
 msgid "Change"
-msgstr ""
+msgstr "Midar"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:4
 msgid "Take picture"
-msgstr ""
+msgstr "Far ina fotografia"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:5
 #: app/scripts/templates/settings/avatar_crop.mustache:5
 #: app/scripts/templates/settings/avatar_gravatar.mustache:5
 #: app/scripts/templates/settings/avatar_url.mustache:6
 msgid "Cancel"
-msgstr ""
+msgstr "Interrumper"
 
 #: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Upload"
-msgstr ""
+msgstr "Interrumper"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5
 msgid "Camera"
-msgstr ""
+msgstr "Camera"
 
 #: app/scripts/templates/settings/avatar_change.mustache:6
 msgid "Gravatar"
-msgstr ""
+msgstr "Gravatar"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:3
 msgid "Position and rotate your picture as needed"
-msgstr ""
+msgstr "Posiziunescha e rotescha tes maletg sco giavischà"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:4
 #: app/scripts/templates/settings/avatar_gravatar.mustache:4
 msgid "Save"
-msgstr ""
+msgstr "Memorisar"
 
 #: app/scripts/templates/settings/avatar_url.mustache:4
 msgid "Paste image URL"
-msgstr ""
+msgstr "Encollar ina URL al maletg"
 
 #~ msgid "Signed in successfully"
 #~ msgstr "S'annunzià cun success"
