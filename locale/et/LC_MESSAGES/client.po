@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-10 00:13+0000\n"
-"PO-Revision-Date: 2014-08-23 15:32+0000\n"
-"Last-Translator: Sander <sander.lepik@eesti.ee>\n"
+"PO-Revision-Date: 2014-11-04 21:01+0000\n"
+"Last-Translator: Merike <merike.sell@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1408807930.0\n"
+"X-POOTLE-MTIME: 1415134875.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -279,9 +279,8 @@ msgid "Valid URL required"
 msgstr "URL peab olema korrektne"
 
 #: app/scripts/lib/auth-errors.js:97
-#, fuzzy
 msgid "Valid birthday required"
-msgstr "E-posti aadress peab olema korrektne"
+msgstr "Sünnikuupäev peab olema korrektne"
 
 #: app/scripts/lib/oauth-errors.js:33
 msgid "Unknown client"
@@ -301,15 +300,15 @@ msgstr "Midagi läks valesti. Palun sulge see kaart ja proovi uuesti."
 
 #: app/scripts/lib/profile-client.js:114
 msgid "Unauthorized"
-msgstr ""
+msgstr "Autoriseerimata"
 
 #: app/scripts/lib/profile-client.js:116
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "Toetamata piltide pakkuja"
 
 #: app/scripts/lib/profile-client.js:117
 msgid "Image processing error"
-msgstr ""
+msgstr "Pildi töötlemisel tekkis viga"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -666,9 +665,8 @@ msgstr "Logi %(serviceName)s teenusesse sisse"
 
 #: app/scripts/templates/sign_in.mustache:11
 #: app/scripts/templates/sign_in.mustache:14
-#, fuzzy
 msgid "Use a different account"
-msgstr "Kinnitamata konto"
+msgstr "Kasuta teist kontot"
 
 #: app/scripts/templates/sign_in.mustache:23
 msgid "Create an account"
@@ -689,64 +687,63 @@ msgstr "1990 või varem"
 
 #: app/scripts/templates/sign_up.mustache:32
 msgid "Month"
-msgstr ""
+msgstr "Kuu"
 
 #: app/scripts/templates/sign_up.mustache:33
 msgid "January"
-msgstr ""
+msgstr "jaanuar"
 
 #: app/scripts/templates/sign_up.mustache:34
 msgid "February"
-msgstr ""
+msgstr "veebruar"
 
 #: app/scripts/templates/sign_up.mustache:35
 msgid "March"
-msgstr ""
+msgstr "märts"
 
 #: app/scripts/templates/sign_up.mustache:36
 msgid "April"
-msgstr ""
+msgstr "aprill"
 
 #: app/scripts/templates/sign_up.mustache:37
 msgid "May"
-msgstr ""
+msgstr "mai"
 
 #: app/scripts/templates/sign_up.mustache:38
 msgid "June"
-msgstr ""
+msgstr "juuni"
 
 #: app/scripts/templates/sign_up.mustache:39
 msgid "July"
-msgstr ""
+msgstr "juuli"
 
 #: app/scripts/templates/sign_up.mustache:40
 msgid "August"
-msgstr ""
+msgstr "august"
 
 #: app/scripts/templates/sign_up.mustache:41
 msgid "September"
-msgstr ""
+msgstr "september"
 
 #: app/scripts/templates/sign_up.mustache:42
 msgid "October"
-msgstr ""
+msgstr "oktoober"
 
 #: app/scripts/templates/sign_up.mustache:43
 msgid "November"
-msgstr ""
+msgstr "november"
 
 #: app/scripts/templates/sign_up.mustache:44
 msgid "December"
-msgstr ""
+msgstr "detsember"
 
 #: app/scripts/templates/sign_up.mustache:45
 msgid "Day"
-msgstr ""
+msgstr "Päev"
 
 #: app/scripts/templates/sign_up.mustache:47
-#, fuzzy
 msgid "Sign up"
-msgstr "Logi välja"
+msgstr "Registreeru"
 
 #: app/scripts/templates/sign_up.mustache:48
 msgid "Choose what to sync"
