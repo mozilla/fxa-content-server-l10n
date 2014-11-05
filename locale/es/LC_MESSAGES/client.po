@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-10 00:13+0000\n"
-"PO-Revision-Date: 2014-10-17 12:19+0000\n"
+"PO-Revision-Date: 2014-11-05 15:59+0000\n"
 "Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1413548355.0\n"
+"X-POOTLE-MTIME: 1415203162.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -746,7 +746,7 @@ msgstr "Día"
 
 #: app/scripts/templates/sign_up.mustache:47
 msgid "Sign up"
-msgstr "Salir"
+msgstr "Registrarse"
 
 #: app/scripts/templates/sign_up.mustache:48
 msgid "Choose what to sync"
