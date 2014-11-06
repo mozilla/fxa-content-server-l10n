@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-10 00:13+0000\n"
-"PO-Revision-Date: 2014-11-05 15:59+0000\n"
+"PO-Revision-Date: 2014-11-06 10:48+0000\n"
 "Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1415203162.0\n"
+"X-POOTLE-MTIME: 1415270897.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -121,11 +121,11 @@ msgstr "Cuenta desconocida. <a href=\"/signup\">Regístrate</a>"
 
 #: app/scripts/views/settings.js:43
 msgid "Signed out"
-msgstr "Salir"
+msgstr "Desconectado"
 
 #: app/scripts/views/sign_up.js:325
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr "La cuenta ya existe. <a href=\"/signin\">Identificarse</a>"
+msgstr "La cuenta ya existe. <a href=\"/signin\">Identifícate</a>"
 
 #: app/scripts/views/settings/avatar_gravatar.js:65
 msgid "No Gravatar found"
@@ -374,7 +374,7 @@ msgstr "Cambiar contraseña"
 msgid ""
 "Once you're ﬁnished, use your new password to sign in on all of your devices."
 msgstr ""
-"Cuando hayas terminado, utiliza tu nueva contraseña para iniciar sesión en "
+"Cuando hayas terminado, utiliza tu nueva contraseña para identificarte en "
 "todos tus dispositivos."
 
 #: app/scripts/templates/change_password.mustache:3
@@ -659,7 +659,7 @@ msgstr "Te has identificado como"
 
 #: app/scripts/templates/settings.mustache:6
 msgid "Sign out"
-msgstr "Salir"
+msgstr "Desconectar"
 
 #: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
