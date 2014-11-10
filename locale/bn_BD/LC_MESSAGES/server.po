@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-10 00:13+0000\n"
-"PO-Revision-Date: 2014-09-26 18:46+0000\n"
-"Last-Translator: Avijit <mail@avijitroy.com>\n"
+"PO-Revision-Date: 2014-10-22 04:46+0000\n"
+"Last-Translator: Tapu <tapu_afrad@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_BD\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1411757166.0\n"
+"X-POOTLE-MTIME: 1413953192.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -32,8 +32,8 @@ msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
-"                  আপনি যে পাতাটি খুঁজছেন, তা পাওয়া যায়নি। আমরা এটি জেনেছই এবং "
-"কোন ত্রুটিপূর্ণ লিঙ্ক থাকলে তা আমরা ঠিক করব।                "
+"আপনি যে পাতাটি খুঁজছেন, তা পাওয়া যায়নি। আমরা এটি জেনেছই এবং কোন ত্রুটিপূর্ণ "
+"লিঙ্ক থাকলে তা আমরা ঠিক করব।"
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/503.html:4
@@ -42,17 +42,19 @@ msgstr "প্রথম পাতা"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr ""
+msgstr "500 Error"
 
 #: server/templates/pages/src/500.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr ""
+"আহা, কিছু একটা সমস্যা হয়ে গেছে। আমাদের অবহিত করা হয়েছে এবং এটি সমাধান করতে "
+"আমরা কাজ করবো।"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr "                  সার্ভার ব্যস্ত, একটু পর চেষ্টা করুন                "
+msgstr "সার্ভার ব্যস্ত, একটু পর চেষ্টা করুন"
 
 #: server/templates/pages/src/503.html:3
 msgid ""
@@ -110,8 +112,8 @@ msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
-"                  এটি একটি স্বয়ংক্রিয় ইমেইল; যদি কোন ত্রুটির কারনে আপনি এটি পেয়ে "
-"থাকেন, কিছু করার প্রয়োজন নেই।                "
+"এটি একটি স্বয়ংক্রিয় ইমেইল; যদি কোন ত্রুটির কারনে আপনি এটি পেয়ে থাকেন, কিছু "
+"করার প্রয়োজন নেই।"
 
 #: server/templates/email/reset.html:6 server/templates/email/verify.html:6
 msgid ""
@@ -123,7 +125,7 @@ msgstr ""
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
-msgstr "পাসওয়ার্ড রিসেটঃ"
+msgstr "পাসওয়ার্ড রিসেট:"
 
 #: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
@@ -144,7 +146,7 @@ msgstr "নিশ্চিত"
 
 #: server/templates/email/verify.txt:3
 msgid "Verify:"
-msgstr "নিশ্চিতঃ"
+msgstr "নিশ্চিত:"
 
 #: server/lib/templates.js:63
 msgid "Verify your account"

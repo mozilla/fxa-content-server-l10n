@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-10 00:13+0000\n"
-"PO-Revision-Date: 2014-09-26 18:46+0000\n"
-"Last-Translator: Avijit <mail@avijitroy.com>\n"
+"PO-Revision-Date: 2014-10-22 04:50+0000\n"
+"Last-Translator: Tapu <tapu_afrad@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_BD\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1411757181.0\n"
+"X-POOTLE-MTIME: 1413953457.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -76,7 +76,7 @@ msgstr "২০০৫"
 
 #: app/scripts/templates/sign_up.mustache:30
 msgid "2006"
-msgstr "                  ২০০৬                "
+msgstr "২০০৬"
 
 #: app/scripts/templates/sign_up.mustache:31
 msgid "2007"
@@ -188,7 +188,7 @@ msgstr "রিকোয়েস্ট বডিতে %(param)টি প্যা�
 
 #: app/scripts/lib/auth-errors.js:73
 msgid "Missing parameter in request body: %(param)s"
-msgstr "রিকোয়েস্ট বডিতে %(param)টি প্যারামিটারটি পাওয়া যায়নি"
+msgstr "রিকোয়েস্ট বডিতে %(param)s প্যারামিটারটি পাওয়া যায়নি"
 
 #: app/scripts/lib/auth-errors.js:74 app/scripts/lib/oauth-errors.js:37
 msgid "Invalid request signature"
@@ -241,7 +241,7 @@ msgstr "গোপনীয়তা বিজ্ঞপ্তি পাবেন 
 
 #: app/scripts/lib/auth-errors.js:88
 msgid "Could not get Terms of Service"
-msgstr "সেবা শর্ত বিজ্ঞপ্তি পাওয়া যায় না।"
+msgstr "সেবা শর্ত বিজ্ঞপ্তি পাওয়া যায় না"
 
 #: app/scripts/lib/auth-errors.js:89
 msgid "Your new password must be different"
@@ -252,7 +252,7 @@ msgstr "আপনার নতুন পাসওয়ার্ডটিকে অ
 #: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/sign_up.mustache:11
 msgid "Must be at least 8 characters"
-msgstr "অবশ্যই কমপক্ষে ৮ অক্ষরের হতে হবে।"
+msgstr "অবশ্যই কমপক্ষে ৮ অক্ষরের হতে হবে"
 
 #: app/scripts/lib/auth-errors.js:91 app/scripts/lib/strings.js:19
 msgid "Valid password required"
@@ -279,9 +279,8 @@ msgid "Valid URL required"
 msgstr "কার্যকর URL প্রয়োজন"
 
 #: app/scripts/lib/auth-errors.js:97
-#, fuzzy
 msgid "Valid birthday required"
-msgstr "কার্যকর ইমেইল আবশ্যক"
+msgstr "বৈধ জন্ম তারিখ আবশ্যক"
 
 #: app/scripts/lib/oauth-errors.js:33
 msgid "Unknown client"
@@ -301,15 +300,15 @@ msgstr "কিছু একটা ভুল হয়েছে। দয়াকর�
 
 #: app/scripts/lib/profile-client.js:114
 msgid "Unauthorized"
-msgstr ""
+msgstr "অননুমোদিত"
 
 #: app/scripts/lib/profile-client.js:116
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "ছবি প্রদানকারী অসমর্থিত"
 
 #: app/scripts/lib/profile-client.js:117
 msgid "Image processing error"
-msgstr ""
+msgstr "ইমেজ প্রসেসিং এ ত্রুটি"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -378,7 +377,7 @@ msgstr ""
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
-msgstr "পুরাতন পাসওয়ার্ড "
+msgstr "পুরাতন পাসওয়ার্ড"
 
 #: app/scripts/templates/change_password.mustache:4
 #: app/scripts/templates/change_password.mustache:6
@@ -501,7 +500,7 @@ msgstr "রিসেট করার ইমেইল পাঠানো হয়�
 
 #: app/scripts/templates/confirm_reset_password.mustache:4
 msgid "A reset link has been sent to %(email)s"
-msgstr "%(email)-এই ইমেইল এ রিসেট করার একটি লিঙ্ক পাঠানো হয়েছে"
+msgstr "%(email)s এই ইমেইল এ রিসেট করার একটি লিঙ্ক পাঠানো হয়েছে"
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
@@ -524,8 +523,9 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
-"দয়া করে ব্রাউজারের কুকিজ সক্রিয় করুন। এটি ফায়ারফক্স একাউন্টের জন্য প্রয়োজন। কুকিজ হল "
-"কিছু ক্ষুদ্র ডাটা যা ব্রাউজ করার সময় বিভিন্ন সেশনে আপনাকে মনে রাখার সুবিধা দেয়। "
+"দয়া করে ব্রাউজারের কুকিজ সক্রিয় করুন। এটি ফায়ারফক্স একাউন্টের জন্য প্রয়োজন। "
+"কুকিজ হল কিছু ক্ষুদ্র ডাটা যা ব্রাউজ করার সময় বিভিন্ন সেশনে আপনাকে মনে রাখার "
+"সুবিধা দেয়।"
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -572,9 +572,9 @@ msgid ""
 "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
 "a> of Firefox cloud services."
 msgstr ""
-"অগ্রসর হবার মাধ্যমে আমি ফায়ারফক্স ক্লাউড সেবার সেবা শর্ত <a id=\"fxa-tos\" href="
-"\"/legal/terms\"> এবং <a id=\"fxa-pp\" href=\"/legal/privacy\"> গোপনীয়তা "
-"নীতিমালায় সম্মতি দিচ্ছি। "
+"অগ্রসর হবার মাধ্যমে আমি ফায়ারফক্স ক্লাউড সেবার <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">সেবা শর্ত</a> এবং <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">গোপনীয়তা নীতিমালায়</a> সম্মতি দিচ্ছি।"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -598,7 +598,7 @@ msgstr "গোপনীয়তা নীতি"
 
 #: app/scripts/templates/marketing_snippet.mustache:1
 msgid "Stay in sync on the go:"
-msgstr "চলার পথে সিঙ্ক এ থাকুনঃ"
+msgstr "চলার পথে সিঙ্ক এ থাকুন:"
 
 #: app/scripts/templates/marketing_snippet.mustache:2
 msgid "Get Firefox for Android"
@@ -610,7 +610,7 @@ msgstr "যাচাইকৃত একাউন্ট"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Success"
-msgstr "সফল "
+msgstr "সফল"
 
 #: app/scripts/templates/ready.mustache:6
 msgid "You are now ready to use %(serviceName)s"
@@ -635,8 +635,9 @@ msgid ""
 "For security reasons, resetting your password will erase your Sync data from "
 "our servers. A new Sync backup will be created from your local browsing data."
 msgstr ""
-"আপনার নিরাপত্তার স্বার্থে পাসওয়ার্ড রিসেট করলে আমাদের সেবা থেকে সিঙ্ক করা তথ্য মুছে "
-"যাবে। আপনার লোকাল ব্রাউজিং তথ্য থেকে নতুন সিঙ্ক ব্যাকআপ তৈরী করা হবে। "
+"আপনার নিরাপত্তার স্বার্থে পাসওয়ার্ড রিসেট করলে আমাদের সেবা থেকে সিঙ্ক করা "
+"তথ্য মুছে যাবে। আপনার লোকাল ব্রাউজিং তথ্য থেকে নতুন সিঙ্ক ব্যাকআপ তৈরী করা "
+"হবে।"
 
 #: app/scripts/templates/settings.mustache:1
 #: app/scripts/templates/settings/avatar.mustache:1
@@ -663,9 +664,8 @@ msgstr "%(serviceName)তে চালিয়ে যান"
 
 #: app/scripts/templates/sign_in.mustache:11
 #: app/scripts/templates/sign_in.mustache:14
-#, fuzzy
 msgid "Use a different account"
-msgstr "অযাচাইকৃত অ্যাকাউন্ট"
+msgstr "ভিন্ন একটি অ্যাকাউন্ট ব্যবহার করুন"
 
 #: app/scripts/templates/sign_in.mustache:23
 msgid "Create an account"
@@ -686,64 +686,63 @@ msgstr "১৯৯০ বা তার পূর্বে"
 
 #: app/scripts/templates/sign_up.mustache:32
 msgid "Month"
-msgstr ""
+msgstr "মাস"
 
 #: app/scripts/templates/sign_up.mustache:33
 msgid "January"
-msgstr ""
+msgstr "জানুয়ারী"
 
 #: app/scripts/templates/sign_up.mustache:34
 msgid "February"
-msgstr ""
+msgstr "ফেব্রুয়ারী"
 
 #: app/scripts/templates/sign_up.mustache:35
 msgid "March"
-msgstr ""
+msgstr "মার্চ"
 
 #: app/scripts/templates/sign_up.mustache:36
 msgid "April"
-msgstr ""
+msgstr "এপ্রিল"
 
 #: app/scripts/templates/sign_up.mustache:37
 msgid "May"
-msgstr ""
+msgstr "মে"
 
 #: app/scripts/templates/sign_up.mustache:38
 msgid "June"
-msgstr ""
+msgstr "জুন"
 
 #: app/scripts/templates/sign_up.mustache:39
 msgid "July"
-msgstr ""
+msgstr "জুলাই"
 
 #: app/scripts/templates/sign_up.mustache:40
 msgid "August"
-msgstr ""
+msgstr "আগস্ট"
 
 #: app/scripts/templates/sign_up.mustache:41
 msgid "September"
-msgstr ""
+msgstr "সেপ্টেম্বর"
 
 #: app/scripts/templates/sign_up.mustache:42
 msgid "October"
-msgstr ""
+msgstr "অক্টোবর"
 
 #: app/scripts/templates/sign_up.mustache:43
 msgid "November"
-msgstr ""
+msgstr "নভেম্বর"
 
 #: app/scripts/templates/sign_up.mustache:44
 msgid "December"
-msgstr ""
+msgstr "ডিসেম্বর"
 
 #: app/scripts/templates/sign_up.mustache:45
 msgid "Day"
-msgstr ""
+msgstr "দিন"
 
 #: app/scripts/templates/sign_up.mustache:47
-#, fuzzy
 msgid "Sign up"
-msgstr "সাইন আউট"
+msgstr "সাইন আপ"
 
 #: app/scripts/templates/sign_up.mustache:48
 msgid "Choose what to sync"
@@ -783,7 +782,7 @@ msgstr "বাতিল"
 
 #: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Upload"
-msgstr "আপলোড "
+msgstr "আপলোড"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5
 msgid "Camera"
