@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-10 00:13+0000\n"
-"PO-Revision-Date: 2014-04-26 13:35+0000\n"
+"PO-Revision-Date: 2014-10-17 12:42+0000\n"
 "Last-Translator: Raul <raul.malea@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2);;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1400068386.0\n"
+"X-POOTLE-MTIME: 1413549745.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -102,14 +102,13 @@ msgstr ""
 #: app/scripts/views/confirm_reset_password.js:166
 #: app/scripts/templates/ready.mustache:3
 msgid "Password reset"
-msgstr ""
+msgstr "Resetare parolă"
 
 #: app/scripts/views/confirm_reset_password.js:182
 msgid "Password reset. Sign in to continue."
 msgstr "Parolă resetată. Autentificați-vă pentru a continua."
 
 #: app/scripts/views/delete_account.js:45
-#, fuzzy
 msgid "Account deleted successfully"
 msgstr "Contul a fost șters cu succes"
 
@@ -131,7 +130,7 @@ msgstr "Cont deja existent. <a href=\"/signin\">Autentificare</a>"
 
 #: app/scripts/views/settings/avatar_gravatar.js:65
 msgid "No Gravatar found"
-msgstr ""
+msgstr "Gravatar negăsit"
 
 #: app/scripts/views/settings/avatar_gravatar.js:92
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
@@ -277,19 +276,16 @@ msgid "Could not initialize camera"
 msgstr ""
 
 #: app/scripts/lib/auth-errors.js:96
-#, fuzzy
 msgid "Valid URL required"
-msgstr "Adresă validă de email necesară"
+msgstr "Adresă URL validă necesară"
 
 #: app/scripts/lib/auth-errors.js:97
-#, fuzzy
 msgid "Valid birthday required"
-msgstr "Adresă validă de email necesară"
+msgstr "Data nașterii validă necesară"
 
 #: app/scripts/lib/oauth-errors.js:33
-#, fuzzy
 msgid "Unknown client"
-msgstr "Cont necunoscut"
+msgstr "Client necunoscut"
 
 #: app/scripts/lib/oauth-errors.js:34
 #, fuzzy
@@ -307,7 +303,7 @@ msgstr ""
 
 #: app/scripts/lib/profile-client.js:114
 msgid "Unauthorized"
-msgstr ""
+msgstr "Neautorizat"
 
 #: app/scripts/lib/profile-client.js:116
 msgid "Unsupported image provider"
@@ -323,7 +319,7 @@ msgstr "Sincronizare Firefox"
 
 #: app/scripts/lib/strings.js:20
 msgid "Invalid password"
-msgstr ""
+msgstr "Parolă invalidă"
 
 #: app/scripts/lib/strings.js:21
 msgid "Invalid email and password"
@@ -373,7 +369,7 @@ msgstr "Aflați mai multe."
 #: app/scripts/templates/change_password.mustache:1
 #: app/scripts/templates/settings.mustache:4
 msgid "Change password"
-msgstr ""
+msgstr "Schimbare parolă"
 
 #: app/scripts/templates/change_password.mustache:2
 msgid ""
@@ -403,7 +399,7 @@ msgstr "Parolă nouă"
 
 #: app/scripts/templates/change_password.mustache:8
 msgid "Confirm"
-msgstr ""
+msgstr "Confirmare"
 
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/delete_account.mustache:6
@@ -458,7 +454,7 @@ msgstr "Repetă parola"
 #: app/scripts/templates/reset_password.mustache:5
 #: app/scripts/templates/settings/avatar_url.mustache:5
 msgid "Next"
-msgstr ""
+msgstr "Următor"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
@@ -496,7 +492,7 @@ msgstr ""
 #: app/scripts/templates/confirm.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:8
 msgid "Resend email"
-msgstr ""
+msgstr "Retrimite email"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -518,9 +514,8 @@ msgid "Sign in"
 msgstr "Autentificare"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-#, fuzzy
 msgid "Cookies required"
-msgstr "Adresă validă de email necesară"
+msgstr "Cookie-uri necesare"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -541,7 +536,7 @@ msgstr "Încearcă din nou"
 #: app/scripts/templates/delete_account.mustache:5
 #: app/scripts/templates/settings.mustache:5
 msgid "Delete account"
-msgstr ""
+msgstr "Ștergere cont"
 
 #: app/scripts/templates/delete_account.mustache:2
 msgid ""
@@ -564,7 +559,7 @@ msgstr ""
 #: app/scripts/templates/sign_in.mustache:10
 #: app/scripts/templates/sign_in.mustache:22
 msgid "Forgot password?"
-msgstr ""
+msgstr "Parolă pierdută?"
 
 #: app/scripts/templates/force_auth.mustache:9
 #: app/scripts/templates/sign_in.mustache:24
@@ -601,7 +596,7 @@ msgstr ""
 
 #: app/scripts/templates/marketing_snippet.mustache:2
 msgid "Get Firefox for Android"
-msgstr ""
+msgstr "Obține Firefox pentru Android"
 
 #: app/scripts/templates/ready.mustache:1
 msgid "Account verified"
@@ -687,43 +682,43 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:33
 msgid "January"
-msgstr ""
+msgstr "Ianuarie"
 
 #: app/scripts/templates/sign_up.mustache:34
 msgid "February"
-msgstr ""
+msgstr "Februarie"
 
 #: app/scripts/templates/sign_up.mustache:35
 msgid "March"
-msgstr ""
+msgstr "Martie"
 
 #: app/scripts/templates/sign_up.mustache:36
 msgid "April"
-msgstr ""
+msgstr "Aprilie"
 
 #: app/scripts/templates/sign_up.mustache:37
 msgid "May"
-msgstr ""
+msgstr "Mai"
 
 #: app/scripts/templates/sign_up.mustache:38
 msgid "June"
-msgstr ""
+msgstr "Iunie"
 
 #: app/scripts/templates/sign_up.mustache:39
 msgid "July"
-msgstr ""
+msgstr "Iulie"
 
 #: app/scripts/templates/sign_up.mustache:40
 msgid "August"
-msgstr ""
+msgstr "August"
 
 #: app/scripts/templates/sign_up.mustache:41
 msgid "September"
-msgstr ""
+msgstr "Septembrie"
 
 #: app/scripts/templates/sign_up.mustache:42
 msgid "October"
-msgstr ""
+msgstr "Octombrie"
 
 #: app/scripts/templates/sign_up.mustache:43
 msgid "November"
@@ -735,10 +730,9 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:45
 msgid "Day"
-msgstr ""
+msgstr "Zi"
 
 #: app/scripts/templates/sign_up.mustache:47
-#, fuzzy
 msgid "Sign up"
 msgstr "Autentificare"
 
@@ -752,7 +746,7 @@ msgstr "Aveți deja un cont? Autentificați-vă."
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
-msgstr ""
+msgstr "Acasă"
 
 #: app/scripts/templates/settings/avatar.mustache:2
 #: app/scripts/templates/settings/avatar_camera.mustache:2
@@ -766,7 +760,7 @@ msgstr "Cont verificat"
 
 #: app/scripts/templates/settings/avatar.mustache:4
 msgid "Change"
-msgstr ""
+msgstr "Schimbă"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:4
 msgid "Take picture"
@@ -777,19 +771,19 @@ msgstr ""
 #: app/scripts/templates/settings/avatar_gravatar.mustache:5
 #: app/scripts/templates/settings/avatar_url.mustache:6
 msgid "Cancel"
-msgstr ""
+msgstr "Anulează"
 
 #: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Upload"
-msgstr ""
+msgstr "Încarcă"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5
 msgid "Camera"
-msgstr ""
+msgstr "Camera"
 
 #: app/scripts/templates/settings/avatar_change.mustache:6
 msgid "Gravatar"
-msgstr ""
+msgstr "Gravatar"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:3
 msgid "Position and rotate your picture as needed"
