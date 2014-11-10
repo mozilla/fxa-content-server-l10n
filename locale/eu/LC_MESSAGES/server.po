@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-10 00:13+0000\n"
-"PO-Revision-Date: 2014-05-03 11:05+0000\n"
-"Last-Translator: Julen <julenx@gmail.com>\n"
+"PO-Revision-Date: 2014-10-25 17:01+0000\n"
+"Last-Translator: asiersar <asier.sarasua@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1399115137.0\n"
+"X-POOTLE-MTIME: 1414256497.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -42,13 +42,15 @@ msgstr "Hasiera"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr ""
+msgstr "500 errorea"
 
 #: server/templates/pages/src/500.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr ""
+"Ai ene, zerbait gaizki joan da. Jaso dugu abisua eta arazoa konpontzen "
+"saiatuko gara."
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
