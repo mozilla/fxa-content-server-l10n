@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-10 00:13+0000\n"
-"PO-Revision-Date: 2014-10-25 17:01+0000\n"
-"Last-Translator: asiersar <asier.sarasua@gmail.com>\n"
+"PO-Revision-Date: 2014-11-11 20:42+0000\n"
+"Last-Translator: Julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1414256462.0\n"
+"X-POOTLE-MTIME: 1415738574.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -109,7 +109,7 @@ msgstr "Pasahitza berrezarrita. Hasi saioa jarraitzeko."
 
 #: app/scripts/views/delete_account.js:45
 msgid "Account deleted successfully"
-msgstr "Saioa ondo ezabatu da"
+msgstr "Kontua ondo ezabatu da"
 
 #: app/scripts/views/force_auth.js:44
 msgid "/force_auth requires an email"
@@ -738,7 +738,7 @@ msgstr "Abendua"
 
 #: app/scripts/templates/sign_up.mustache:45
 msgid "Day"
-msgstr ""
+msgstr "Eguna"
 
 #: app/scripts/templates/sign_up.mustache:47
 msgid "Sign up"
