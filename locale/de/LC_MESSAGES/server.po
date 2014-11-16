@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-10 00:13+0000\n"
-"PO-Revision-Date: 2014-10-10 17:38+0000\n"
+"PO-Revision-Date: 2014-11-16 12:53+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1412962683.0\n"
+"X-POOTLE-MTIME: 1416142400.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -21,7 +21,7 @@ msgstr ""
 #: server/templates/pages/src/terms.html:1 server/templates/email/reset.html:1
 #: server/templates/email/verify.html:1
 msgid "Firefox Accounts"
-msgstr "Firefox Accounts"
+msgstr "Firefox-Konten"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -77,7 +77,7 @@ msgstr ""
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr "Firefox Accounts benötigt JavaScript."
+msgstr "Firefox-Konten benötigen JavaScript."
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:5
@@ -140,8 +140,8 @@ msgstr "Herzlichen Glückwunsch!"
 #: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
 msgstr ""
-"%(email)s, Sie sind nur noch Sekunden von der Verifizierung Ihres Firefox "
-"Accounts entfernt."
+"%(email)s, Sie sind nur noch Sekunden von der Verifizierung Ihres Firefox-"
+"Kontos entfernt."
 
 #: server/templates/email/verify.html:4
 msgid "Verify"
