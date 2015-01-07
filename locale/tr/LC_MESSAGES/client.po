@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-10 00:13+0000\n"
+"POT-Creation-Date: 2014-11-10 18:39+0000\n"
 "PO-Revision-Date: 2014-10-31 10:39+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,15 +82,15 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/base.js:551
+#: app/scripts/views/base.js:568
 msgid "missing search parameter: %(itemName)s"
 msgstr "eksik arama parametresi: %(itemName)s"
 
-#: app/scripts/views/change_password.js:61
+#: app/scripts/views/change_password.js:72
 msgid "Password changed"
 msgstr "Parola değiştirildi"
 
-#: app/scripts/views/change_password.js:65
+#: app/scripts/views/change_password.js:76
 msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
@@ -98,12 +98,12 @@ msgstr ""
 "Hesap doğrulanmamış. <a href=\"#\" id=\"resend\">Doğrulama e-postasını "
 "yeniden gönder</a>."
 
-#: app/scripts/views/confirm_reset_password.js:166
+#: app/scripts/views/confirm_reset_password.js:157
 #: app/scripts/templates/ready.mustache:3
 msgid "Password reset"
 msgstr "Parola sıfırlama"
 
-#: app/scripts/views/confirm_reset_password.js:182
+#: app/scripts/views/confirm_reset_password.js:176
 msgid "Password reset. Sign in to continue."
 msgstr "Parola sıfırlandı. Devam etmek için oturum açın."
 
@@ -111,11 +111,11 @@ msgstr "Parola sıfırlandı. Devam etmek için oturum açın."
 msgid "Account deleted successfully"
 msgstr "Hesap başarıyla silindi"
 
-#: app/scripts/views/force_auth.js:44
+#: app/scripts/views/force_auth.js:37
 msgid "/force_auth requires an email"
 msgstr "/force_auth için e-posta gereklidir"
 
-#: app/scripts/views/reset_password.js:76 app/scripts/views/sign_in.js:145
+#: app/scripts/views/reset_password.js:76 app/scripts/views/sign_in.js:142
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Bilinmeyen hesap. <a href=\"/signup\">Kaydolun</a>"
 
@@ -123,7 +123,7 @@ msgstr "Bilinmeyen hesap. <a href=\"/signup\">Kaydolun</a>"
 msgid "Signed out"
 msgstr "Oturum kapatıldı"
 
-#: app/scripts/views/sign_up.js:325
+#: app/scripts/views/sign_up.js:339
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Hesap zaten var. <a href=\"/signin\">Oturum açın</a>"
 
@@ -136,7 +136,9 @@ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> katkılarıyla"
 
 #: app/scripts/lib/auth-errors.js:61 app/scripts/lib/auth-errors.js:98
-#: app/scripts/lib/oauth-errors.js:41 app/scripts/lib/profile-client.js:121
+#: app/scripts/lib/oauth-errors.js:44 app/scripts/lib/oauth-errors.js:46
+#: app/scripts/lib/oauth-errors.js:47 app/scripts/lib/oauth-errors.js:48
+#: app/scripts/lib/profile-client.js:120
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Beklenmeyen hata"
@@ -153,7 +155,7 @@ msgstr "İstek imzasında geçersiz zaman damgası"
 msgid "Invalid nonce in request signature"
 msgstr "İstek imzasında geçersiz karma kod"
 
-#: app/scripts/lib/auth-errors.js:65 app/scripts/lib/strings.js:25
+#: app/scripts/lib/auth-errors.js:65
 msgid "Account already exists"
 msgstr "Hesap zaten var"
 
@@ -181,8 +183,8 @@ msgstr "Geçersiz doğrulama kodu"
 msgid "Invalid JSON in request body"
 msgstr "İstek gövdesinde geçersiz JSON"
 
-#: app/scripts/lib/auth-errors.js:72 app/scripts/lib/oauth-errors.js:36
-#: app/scripts/lib/profile-client.js:115
+#: app/scripts/lib/auth-errors.js:72 app/scripts/lib/oauth-errors.js:39
+#: app/scripts/lib/profile-client.js:114
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "İstek gövdesinde geçersiz parametre: %(param)s"
 
@@ -190,7 +192,7 @@ msgstr "İstek gövdesinde geçersiz parametre: %(param)s"
 msgid "Missing parameter in request body: %(param)s"
 msgstr "İstek gövdesinde eksik parametre: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:74 app/scripts/lib/oauth-errors.js:37
+#: app/scripts/lib/auth-errors.js:74 app/scripts/lib/oauth-errors.js:40
 msgid "Invalid request signature"
 msgstr "Geçersiz istek imzası"
 
@@ -214,8 +216,8 @@ msgstr "Sistem meşgul, daha sonra tekrar deneyin"
 msgid "This endpoint is no longer supported"
 msgstr "Bu uç nokta artık desteklenmiyor"
 
-#: app/scripts/lib/auth-errors.js:82 app/scripts/lib/oauth-errors.js:40
-#: app/scripts/lib/profile-client.js:120
+#: app/scripts/lib/auth-errors.js:82 app/scripts/lib/oauth-errors.js:43
+#: app/scripts/lib/profile-client.js:119
 msgid "System unavailable, try again soon"
 msgstr "Sistem şu an kullanılamıyor, daha sonra tekrar deneyin"
 
@@ -247,22 +249,22 @@ msgstr "Hizmet Koşulları alınamadı"
 msgid "Your new password must be different"
 msgstr "Yeni parolanız farklı olmalıdır"
 
-#: app/scripts/lib/auth-errors.js:90 app/scripts/lib/strings.js:23
+#: app/scripts/lib/auth-errors.js:90
 #: app/scripts/templates/change_password.mustache:7
 #: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/sign_up.mustache:11
 msgid "Must be at least 8 characters"
 msgstr "En az 8 karakter olmalı"
 
-#: app/scripts/lib/auth-errors.js:91 app/scripts/lib/strings.js:19
+#: app/scripts/lib/auth-errors.js:91
 msgid "Valid password required"
 msgstr "Geçerli parola gerekli"
 
-#: app/scripts/lib/auth-errors.js:92 app/scripts/lib/strings.js:18
+#: app/scripts/lib/auth-errors.js:92
 msgid "Valid email required"
 msgstr "Geçerli e-posta gerekli"
 
-#: app/scripts/lib/auth-errors.js:93 app/scripts/lib/strings.js:24
+#: app/scripts/lib/auth-errors.js:93
 msgid "Year of birth required"
 msgstr "Doğum yılı gerekli"
 
@@ -282,31 +284,31 @@ msgstr "Geçerli bir adres gerekli"
 msgid "Valid birthday required"
 msgstr "Geçerli doğum günü gerekli"
 
-#: app/scripts/lib/oauth-errors.js:33
+#: app/scripts/lib/oauth-errors.js:36
 msgid "Unknown client"
 msgstr "Bilinmeyen istemci"
 
-#: app/scripts/lib/oauth-errors.js:34
+#: app/scripts/lib/oauth-errors.js:37
 msgid "Incorrect redirect_uri"
 msgstr "Hatalı redirect_uri"
 
-#: app/scripts/lib/oauth-errors.js:35
+#: app/scripts/lib/oauth-errors.js:38
 msgid "Invalid assertion"
 msgstr "Geçersiz ifade"
 
-#: app/scripts/lib/oauth-errors.js:42
+#: app/scripts/lib/oauth-errors.js:45
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Bir şeyler yanlış gitti. Lütfen bu sekmeyi kapatıp tekrar deneyin."
 
-#: app/scripts/lib/profile-client.js:114
+#: app/scripts/lib/profile-client.js:113
 msgid "Unauthorized"
 msgstr "Yetkilendirilmemiş"
 
-#: app/scripts/lib/profile-client.js:116
+#: app/scripts/lib/profile-client.js:115
 msgid "Unsupported image provider"
 msgstr "Desteklenmeyen resim sağlayıcı"
 
-#: app/scripts/lib/profile-client.js:117
+#: app/scripts/lib/profile-client.js:116
 msgid "Image processing error"
 msgstr "Resim işleme hatası"
 
@@ -314,39 +316,13 @@ msgstr "Resim işleme hatası"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: app/scripts/lib/strings.js:20
-msgid "Invalid password"
-msgstr "Geçersiz parola"
+#: app/scripts/lib/strings.js:17
+msgid ""
+"Your verification email was just returned. Mistyped email? <a href=\"/signup"
+"\">Start over.</a>"
+msgstr ""
 
 #: app/scripts/lib/strings.js:21
-msgid "Invalid email and password"
-msgstr "Geçersiz e-posta ve parola"
-
-#: app/scripts/lib/strings.js:22
-msgid "Invalid email or password"
-msgstr "Geçersiz e-posta veya parola"
-
-#: app/scripts/lib/strings.js:26
-msgid "Old password invalid"
-msgstr "Eski parola geçersiz"
-
-#: app/scripts/lib/strings.js:27
-msgid "New password invalid"
-msgstr "Yeni parola geçersiz"
-
-#: app/scripts/lib/strings.js:28
-msgid "Passwords don't match"
-msgstr "Parolalar eşleşmiyor"
-
-#: app/scripts/lib/strings.js:29
-msgid "Please enter an email"
-msgstr "Lütfen bir e-posta girin"
-
-#: app/scripts/lib/strings.js:30
-msgid "Cannot connect to the internet"
-msgstr "İnternete bağlanılamıyor"
-
-#: app/scripts/lib/strings.js:34
 msgid "Subscribe to Firefox news and tips"
 msgstr "Firefox haberlerine ve ipuçlarına abone olun"
 
@@ -360,7 +336,7 @@ msgid ""
 msgstr ""
 "Firefox&nbsp;Hesabı oluşturmak için yaş gereksinimlerini karşılamalısınız."
 
-#: app/scripts/templates/cannot_create_account.mustache:3
+#: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
 msgstr "Daha fazla bilgi edinin."
 
@@ -804,6 +780,30 @@ msgstr "Kaydet"
 #: app/scripts/templates/settings/avatar_url.mustache:4
 msgid "Paste image URL"
 msgstr "Resim adresini yapıştır"
+
+#~ msgid "Invalid password"
+#~ msgstr "Geçersiz parola"
+
+#~ msgid "Invalid email and password"
+#~ msgstr "Geçersiz e-posta ve parola"
+
+#~ msgid "Invalid email or password"
+#~ msgstr "Geçersiz e-posta veya parola"
+
+#~ msgid "Old password invalid"
+#~ msgstr "Eski parola geçersiz"
+
+#~ msgid "New password invalid"
+#~ msgstr "Yeni parola geçersiz"
+
+#~ msgid "Passwords don't match"
+#~ msgstr "Parolalar eşleşmiyor"
+
+#~ msgid "Please enter an email"
+#~ msgstr "Lütfen bir e-posta girin"
+
+#~ msgid "Cannot connect to the internet"
+#~ msgstr "İnternete bağlanılamıyor"
 
 #~ msgid "URL"
 #~ msgstr "Adres"
