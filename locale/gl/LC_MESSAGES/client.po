@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-10 00:13+0000\n"
+"POT-Creation-Date: 2014-11-10 18:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -78,15 +78,15 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/base.js:551
+#: app/scripts/views/base.js:568
 msgid "missing search parameter: %(itemName)s"
 msgstr "falta o parámetro da busca: %(itemName)s"
 
-#: app/scripts/views/change_password.js:61
+#: app/scripts/views/change_password.js:72
 msgid "Password changed"
 msgstr "Cambiouse o contrasinal"
 
-#: app/scripts/views/change_password.js:65
+#: app/scripts/views/change_password.js:76
 msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
@@ -94,12 +94,12 @@ msgstr ""
 "Conta sen comprobar. <a href=\"#\" id=\"resend\">Reenviar correo de "
 "comprobación</a>."
 
-#: app/scripts/views/confirm_reset_password.js:166
+#: app/scripts/views/confirm_reset_password.js:157
 #: app/scripts/templates/ready.mustache:3
 msgid "Password reset"
 msgstr "Restabeleceuse o contrasinal"
 
-#: app/scripts/views/confirm_reset_password.js:182
+#: app/scripts/views/confirm_reset_password.js:176
 msgid "Password reset. Sign in to continue."
 msgstr "Restabeleceuse o contrasinal. Identificarse para continuar."
 
@@ -107,11 +107,11 @@ msgstr "Restabeleceuse o contrasinal. Identificarse para continuar."
 msgid "Account deleted successfully"
 msgstr "Eliminouse a conta correctamente"
 
-#: app/scripts/views/force_auth.js:44
+#: app/scripts/views/force_auth.js:37
 msgid "/force_auth requires an email"
 msgstr "/force_auth require un correo"
 
-#: app/scripts/views/reset_password.js:76 app/scripts/views/sign_in.js:145
+#: app/scripts/views/reset_password.js:76 app/scripts/views/sign_in.js:142
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Conta descoñecida. <a href=\"/signup\">Crear conta</a>"
 
@@ -119,7 +119,7 @@ msgstr "Conta descoñecida. <a href=\"/signup\">Crear conta</a>"
 msgid "Signed out"
 msgstr "Saíu da conta"
 
-#: app/scripts/views/sign_up.js:325
+#: app/scripts/views/sign_up.js:339
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "A conta xa existe. <a href=\"/signin\">Identificarse</a>"
 
@@ -132,7 +132,9 @@ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr ""
 
 #: app/scripts/lib/auth-errors.js:61 app/scripts/lib/auth-errors.js:98
-#: app/scripts/lib/oauth-errors.js:41 app/scripts/lib/profile-client.js:121
+#: app/scripts/lib/oauth-errors.js:44 app/scripts/lib/oauth-errors.js:46
+#: app/scripts/lib/oauth-errors.js:47 app/scripts/lib/oauth-errors.js:48
+#: app/scripts/lib/profile-client.js:120
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Erro inesperado"
@@ -149,7 +151,7 @@ msgstr ""
 msgid "Invalid nonce in request signature"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:65 app/scripts/lib/strings.js:25
+#: app/scripts/lib/auth-errors.js:65
 msgid "Account already exists"
 msgstr "A conta xa existe"
 
@@ -177,8 +179,8 @@ msgstr "Código de comprobación incorrecto"
 msgid "Invalid JSON in request body"
 msgstr "JSON incorrecto no corpo da solicitude"
 
-#: app/scripts/lib/auth-errors.js:72 app/scripts/lib/oauth-errors.js:36
-#: app/scripts/lib/profile-client.js:115
+#: app/scripts/lib/auth-errors.js:72 app/scripts/lib/oauth-errors.js:39
+#: app/scripts/lib/profile-client.js:114
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Parámetro incorrecto no corpo da solicitude: %(param)s"
 
@@ -186,7 +188,7 @@ msgstr "Parámetro incorrecto no corpo da solicitude: %(param)s"
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Falta un parámetro no corpo da solicitude: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:74 app/scripts/lib/oauth-errors.js:37
+#: app/scripts/lib/auth-errors.js:74 app/scripts/lib/oauth-errors.js:40
 msgid "Invalid request signature"
 msgstr ""
 
@@ -210,8 +212,8 @@ msgstr "Servido ocupado, tente de novo pronto"
 msgid "This endpoint is no longer supported"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:82 app/scripts/lib/oauth-errors.js:40
-#: app/scripts/lib/profile-client.js:120
+#: app/scripts/lib/auth-errors.js:82 app/scripts/lib/oauth-errors.js:43
+#: app/scripts/lib/profile-client.js:119
 msgid "System unavailable, try again soon"
 msgstr "O sistema non está dispoñíbel, tente de novo pronto"
 
@@ -243,22 +245,22 @@ msgstr ""
 msgid "Your new password must be different"
 msgstr "O novo contrasinal debe ser diferente"
 
-#: app/scripts/lib/auth-errors.js:90 app/scripts/lib/strings.js:23
+#: app/scripts/lib/auth-errors.js:90
 #: app/scripts/templates/change_password.mustache:7
 #: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/sign_up.mustache:11
 msgid "Must be at least 8 characters"
 msgstr "Debe ter polo mínimo 8 caracteres"
 
-#: app/scripts/lib/auth-errors.js:91 app/scripts/lib/strings.js:19
+#: app/scripts/lib/auth-errors.js:91
 msgid "Valid password required"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:92 app/scripts/lib/strings.js:18
+#: app/scripts/lib/auth-errors.js:92
 msgid "Valid email required"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:93 app/scripts/lib/strings.js:24
+#: app/scripts/lib/auth-errors.js:93
 msgid "Year of birth required"
 msgstr "Requírese o ano de nacemento"
 
@@ -279,31 +281,31 @@ msgstr ""
 msgid "Valid birthday required"
 msgstr "Requírese o ano de nacemento"
 
-#: app/scripts/lib/oauth-errors.js:33
+#: app/scripts/lib/oauth-errors.js:36
 msgid "Unknown client"
 msgstr "Cliente descoñecido"
 
-#: app/scripts/lib/oauth-errors.js:34
+#: app/scripts/lib/oauth-errors.js:37
 msgid "Incorrect redirect_uri"
 msgstr "redirect_uri incorrecto"
 
-#: app/scripts/lib/oauth-errors.js:35
+#: app/scripts/lib/oauth-errors.js:38
 msgid "Invalid assertion"
 msgstr ""
 
-#: app/scripts/lib/oauth-errors.js:42
+#: app/scripts/lib/oauth-errors.js:45
 msgid "Something went wrong. Please close this tab and try again."
 msgstr ""
 
-#: app/scripts/lib/profile-client.js:114
+#: app/scripts/lib/profile-client.js:113
 msgid "Unauthorized"
 msgstr ""
 
-#: app/scripts/lib/profile-client.js:116
+#: app/scripts/lib/profile-client.js:115
 msgid "Unsupported image provider"
 msgstr ""
 
-#: app/scripts/lib/profile-client.js:117
+#: app/scripts/lib/profile-client.js:116
 msgid "Image processing error"
 msgstr ""
 
@@ -311,39 +313,13 @@ msgstr ""
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: app/scripts/lib/strings.js:20
-msgid "Invalid password"
-msgstr "Contrasinal incorrecto"
+#: app/scripts/lib/strings.js:17
+msgid ""
+"Your verification email was just returned. Mistyped email? <a href=\"/signup"
+"\">Start over.</a>"
+msgstr ""
 
 #: app/scripts/lib/strings.js:21
-msgid "Invalid email and password"
-msgstr "Correo e contrasinal incorrectos"
-
-#: app/scripts/lib/strings.js:22
-msgid "Invalid email or password"
-msgstr "Correo ou contrasinal incorrectos"
-
-#: app/scripts/lib/strings.js:26
-msgid "Old password invalid"
-msgstr "Contrasinal actual incorrecto"
-
-#: app/scripts/lib/strings.js:27
-msgid "New password invalid"
-msgstr "Novo contrasinal incorrecto"
-
-#: app/scripts/lib/strings.js:28
-msgid "Passwords don't match"
-msgstr "Non coinciden os contrasinais"
-
-#: app/scripts/lib/strings.js:29
-msgid "Please enter an email"
-msgstr "Escriba un correo"
-
-#: app/scripts/lib/strings.js:30
-msgid "Cannot connect to the internet"
-msgstr "Non é posíbel conectarse á Internet"
-
-#: app/scripts/lib/strings.js:34
 msgid "Subscribe to Firefox news and tips"
 msgstr "Subscribirse aos consellos e novas do Firefox"
 
@@ -356,7 +332,7 @@ msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr ""
 
-#: app/scripts/templates/cannot_create_account.mustache:3
+#: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
 msgstr "Máis información."
 
@@ -801,6 +777,30 @@ msgstr "Gardar"
 #: app/scripts/templates/settings/avatar_url.mustache:4
 msgid "Paste image URL"
 msgstr "Pegar URL da imaxe"
+
+#~ msgid "Invalid password"
+#~ msgstr "Contrasinal incorrecto"
+
+#~ msgid "Invalid email and password"
+#~ msgstr "Correo e contrasinal incorrectos"
+
+#~ msgid "Invalid email or password"
+#~ msgstr "Correo ou contrasinal incorrectos"
+
+#~ msgid "Old password invalid"
+#~ msgstr "Contrasinal actual incorrecto"
+
+#~ msgid "New password invalid"
+#~ msgstr "Novo contrasinal incorrecto"
+
+#~ msgid "Passwords don't match"
+#~ msgstr "Non coinciden os contrasinais"
+
+#~ msgid "Please enter an email"
+#~ msgstr "Escriba un correo"
+
+#~ msgid "Cannot connect to the internet"
+#~ msgstr "Non é posíbel conectarse á Internet"
 
 #~ msgid "URL"
 #~ msgstr "URL"
