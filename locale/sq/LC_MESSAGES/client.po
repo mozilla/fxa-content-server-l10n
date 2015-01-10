@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-10 18:39+0000\n"
-"PO-Revision-Date: 2014-11-03 11:15+0200\n"
-"Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
+"PO-Revision-Date: 2015-01-10 16:51+0000\n"
+"Last-Translator: Besnik <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1400067823.0\n"
+"X-POOTLE-MTIME: 1420908702.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -327,10 +327,13 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:17
+#, fuzzy
 msgid ""
 "Your verification email was just returned. Mistyped email? <a href=\"/signup"
 "\">Start over.</a>"
 msgstr ""
+"Email-i juaj i verifikimit sapo u kthye mbrapsht. Adresë e shkruar gabim? <a "
+"href=\"/signup\">Fillojani nga e para.</a>"
 
 #: app/scripts/lib/strings.js:21
 msgid "Subscribe to Firefox news and tips"
