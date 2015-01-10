@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-10 18:39+0000\n"
-"PO-Revision-Date: 2015-01-10 14:32+0000\n"
+"PO-Revision-Date: 2015-01-10 14:38+0000\n"
 "Last-Translator: Ville <ville.pohjanheimo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1420900354.0\n"
+"X-POOTLE-MTIME: 1420900703.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -84,7 +84,7 @@ msgstr "2007"
 
 #: app/scripts/views/base.js:568
 msgid "missing search parameter: %(itemName)s"
-msgstr "puuttuva hakuparametri: %(itemName)s"
+msgstr "puuttuva hakuvalitsin: %(itemName)s"
 
 #: app/scripts/views/change_password.js:72
 msgid "Password changed"
@@ -191,24 +191,24 @@ msgstr "Virheellistä JSON-koodia pyyntörungossa"
 #: app/scripts/lib/oauth-errors.js:39
 #: app/scripts/lib/profile-client.js:114
 msgid "Invalid parameter in request body: %(param)s"
-msgstr ""
+msgstr "Puuttuva valitsin pyyntörungossa: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:73
 msgid "Missing parameter in request body: %(param)s"
-msgstr ""
+msgstr "Puuttuva valitsin pyyntörungossa: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:74
 #: app/scripts/lib/oauth-errors.js:40
 msgid "Invalid request signature"
-msgstr ""
+msgstr "Virheellinen pyynnön allekirjoitus"
 
 #: app/scripts/lib/auth-errors.js:75
 msgid "Missing content-length header"
-msgstr ""
+msgstr "Puuttuva content-length -otsake"
 
 #: app/scripts/lib/auth-errors.js:76
 msgid "Request body too large"
-msgstr ""
+msgstr "Pyyntörunko liian suuri"
 
 #: app/scripts/lib/auth-errors.js:77
 msgid "Attempt limit exceeded"
@@ -220,7 +220,7 @@ msgstr "Palvelin on ruuhkautunut, yritä myöhemmin uudelleen"
 
 #: app/scripts/lib/auth-errors.js:79
 msgid "This endpoint is no longer supported"
-msgstr ""
+msgstr "Tämä endpoint ei ole enää tuettu"
 
 #: app/scripts/lib/auth-errors.js:82
 #: app/scripts/lib/oauth-errors.js:43
@@ -246,11 +246,11 @@ msgstr "Käsitellään…"
 
 #: app/scripts/lib/auth-errors.js:87
 msgid "Could not get Privacy Notice"
-msgstr ""
+msgstr "Ei löytynyt tietosuojakäytäntöä"
 
 #: app/scripts/lib/auth-errors.js:88
 msgid "Could not get Terms of Service"
-msgstr ""
+msgstr "Ei löytynyt käyttöehtoja"
 
 #: app/scripts/lib/auth-errors.js:89
 msgid "Your new password must be different"
@@ -297,11 +297,11 @@ msgstr "Tuntematon asiakas"
 
 #: app/scripts/lib/oauth-errors.js:37
 msgid "Incorrect redirect_uri"
-msgstr ""
+msgstr "Virheellinen redirect_uri"
 
 #: app/scripts/lib/oauth-errors.js:38
 msgid "Invalid assertion"
-msgstr ""
+msgstr "Virheellinen lause"
 
 #: app/scripts/lib/oauth-errors.js:45
 msgid "Something went wrong. Please close this tab and try again."
