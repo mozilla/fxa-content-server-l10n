@@ -3,137 +3,166 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-10 18:39+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2015-01-10 14:17+0000\n"
+"Last-Translator: Ville <ville.pohjanheimo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1420899476.0\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1 server/templates/email/reset.html:1
+#: server/templates/pages/src/terms.html:1
+#: server/templates/email/reset.html:1
 #: server/templates/email/verify.html:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Firefox-tilit"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "Sivua ei löydy"
 
 #: server/templates/pages/src/404.html:3
 msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
+"Pyytämääsi sivua ei löytynyt. Olemme saaneet tästä tiedon ja tulemme "
+"korjaamaan rikkinäiset linkit."
 
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
+#: server/templates/pages/src/404.html:4
+#: server/templates/pages/src/500.html:4
 #: server/templates/pages/src/503.html:4
 msgid "Home"
-msgstr ""
+msgstr "Etusivu"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr ""
+msgstr "500 Virhe"
 
 #: server/templates/pages/src/500.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr ""
+"Oho, jokin meni pieleen! Olemme saaneet tästä tiedon ja ryhdymme korjaamaan "
+"virhettä."
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Palvelin on ruuhkautunut, yritä myöhemmin uudelleen"
 
 #: server/templates/pages/src/503.html:3
 msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
+"Järjestelmä on tällä hetkellä ylikuormittunut. Teemme parhaamme "
+"palauttaaksemme sen normaalitilaan niin pian kuin mahdollista."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+"You are using an <strong>outdated</strong> browser. Please <a "
+"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+"experience."
 msgstr ""
+"Käytät <strong>vanhaa</strong> versiota selaimestasi. Paranna "
+"käyttökokemustasi <a href=\"http://browsehappy.com/\">päivittämällä "
+"selaimesi</a>."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "Firefox-tili -palvelu edellyttää JavaScriptin olevan päällä."
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:5
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Tietosuojakäytäntö"
 
 #: server/templates/pages/src/privacy.html:4
 #: server/templates/pages/src/terms.html:4
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "Firefox pilvipalvelut"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:5
 msgid "Terms of Service"
-msgstr ""
+msgstr "Käyttöehdot"
 
-#: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
+#: server/templates/email/reset.html:2
+#: server/templates/email/reset.txt:1
 msgid "Are you sure?"
-msgstr ""
+msgstr "Oletko varma?"
 
-#: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
+#: server/templates/email/reset.html:3
+#: server/templates/email/reset.txt:2
 msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr ""
+msgstr "Nollataanko varmasti salasana tilille %(email)s?"
 
 #: server/templates/email/reset.html:4
 msgid "Reset password"
-msgstr ""
+msgstr "Nollaa salasana"
 
-#: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
-#: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
+#: server/templates/email/reset.html:5
+#: server/templates/email/reset.txt:4
+#: server/templates/email/verify.html:5
+#: server/templates/email/verify.txt:4
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
+"Tämä on automaattisesti lähetetty viesti. Jos sait sen vahingossa, ei sinun "
+"tarvitse tehdä mitään."
 
-#: server/templates/email/reset.html:6 server/templates/email/verify.html:6
+#: server/templates/email/reset.html:6
+#: server/templates/email/verify.html:6
 msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
+"For more information, please visit <a "
+"href='https://support.mozilla.org'>Mozilla Support</a>"
 msgstr ""
+"Lisätietoja saat <a href='https://support.mozilla.org'>Mozillan "
+"tukisivustolta</a>"
 
 #: server/templates/email/reset.txt:3
 msgid "Reset password:"
-msgstr ""
+msgstr "Nollaa salasana:"
 
-#: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
+#: server/templates/email/reset.txt:5
+#: server/templates/email/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
-msgstr ""
+msgstr "Lisätietoa saat osoitteesta https://support.mozilla.org"
 
-#: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
+#: server/templates/email/verify.html:2
+#: server/templates/email/verify.txt:1
 msgid "Congratulations!"
-msgstr ""
+msgstr "Onneksi olkoon!"
 
-#: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
+#: server/templates/email/verify.html:3
+#: server/templates/email/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr ""
+msgstr "%(email)s napsauta vielä kerran ja olet vahvistanut Firefox-tilisi."
 
 #: server/templates/email/verify.html:4
 msgid "Verify"
-msgstr ""
+msgstr "Vahvista"
 
 #: server/templates/email/verify.txt:3
 msgid "Verify:"
-msgstr ""
+msgstr "Vahvista:"
 
 #: server/lib/templates.js:63
 msgid "Verify your account"
-msgstr ""
+msgstr "Vahvista tilisi"
 
 #: server/lib/templates.js:68
 msgid "Reset your password"
-msgstr ""
+msgstr "Nollaa salasanasi"
