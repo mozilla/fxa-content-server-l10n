@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-10 18:39+0000\n"
-"PO-Revision-Date: 2014-07-02 09:15+0000\n"
+"PO-Revision-Date: 2015-01-24 18:46+0000\n"
 "Last-Translator: Håvar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1404292541.0\n"
+"X-POOTLE-MTIME: 1422125175.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -129,11 +129,11 @@ msgstr "Kontoen finnes allerede. <a href=\"/signin\">Logg inn</a>"
 
 #: app/scripts/views/settings/avatar_gravatar.js:65
 msgid "No Gravatar found"
-msgstr ""
+msgstr "Ingen Gravatar funnet"
 
 #: app/scripts/views/settings/avatar_gravatar.js:92
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr ""
+msgstr "Levert av <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
 #: app/scripts/lib/auth-errors.js:61 app/scripts/lib/auth-errors.js:98
 #: app/scripts/lib/oauth-errors.js:44 app/scripts/lib/oauth-errors.js:46
@@ -271,21 +271,19 @@ msgstr "Fødselsår påkrevd"
 
 #: app/scripts/lib/auth-errors.js:94
 msgid "A usable image was not found"
-msgstr ""
+msgstr "Et brukbart bilde ble ikke funnet"
 
 #: app/scripts/lib/auth-errors.js:95
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "Kunne ikke starte kameraet"
 
 #: app/scripts/lib/auth-errors.js:96
-#, fuzzy
 msgid "Valid URL required"
-msgstr "Gyldig e-post er nødvendig"
+msgstr "Gyldig URL er nødvendig"
 
 #: app/scripts/lib/auth-errors.js:97
-#, fuzzy
 msgid "Valid birthday required"
-msgstr "Gyldig e-post er nødvendig"
+msgstr "Gyldig fødselsdato er nødvendig"
 
 #: app/scripts/lib/oauth-errors.js:36
 msgid "Unknown client"
@@ -302,19 +300,19 @@ msgstr "Ugyldig påstand"
 
 #: app/scripts/lib/oauth-errors.js:45
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "Noe gikk galt. Lukk denne fanen og prøv igjen."
 
 #: app/scripts/lib/profile-client.js:113
 msgid "Unauthorized"
-msgstr ""
+msgstr "Uautorisert"
 
 #: app/scripts/lib/profile-client.js:115
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "Ustøttet bildeleverandør"
 
 #: app/scripts/lib/profile-client.js:116
 msgid "Image processing error"
-msgstr ""
+msgstr "Bildebehandlingsfeil"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -325,6 +323,8 @@ msgid ""
 "Your verification email was just returned. Mistyped email? <a href=\"/signup"
 "\">Start over.</a>"
 msgstr ""
+"Din e-postbekreftelsesmelding ble nettopp returnert. Oppgitt feil "
+"e-postadresse? <a href=\"/signup\">Start på nytt.</a>"
 
 #: app/scripts/lib/strings.js:21
 msgid "Subscribe to Firefox news and tips"
@@ -640,15 +640,13 @@ msgstr "Logg ut"
 
 #: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
-#, fuzzy
 msgid "Continue to %(serviceName)s"
-msgstr "Logg inn på %(serviceName)s"
+msgstr "Fortsett til %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:11
 #: app/scripts/templates/sign_in.mustache:14
-#, fuzzy
 msgid "Use a different account"
-msgstr "Ubekreftet konto"
+msgstr "Bruk en annen konto"
 
 #: app/scripts/templates/sign_in.mustache:23
 msgid "Create an account"
@@ -669,64 +667,63 @@ msgstr "1990 eller tidligere"
 
 #: app/scripts/templates/sign_up.mustache:32
 msgid "Month"
-msgstr ""
+msgstr "Måned"
 
 #: app/scripts/templates/sign_up.mustache:33
 msgid "January"
-msgstr ""
+msgstr "Januar"
 
 #: app/scripts/templates/sign_up.mustache:34
 msgid "February"
-msgstr ""
+msgstr "Februar"
 
 #: app/scripts/templates/sign_up.mustache:35
 msgid "March"
-msgstr ""
+msgstr "Mars"
 
 #: app/scripts/templates/sign_up.mustache:36
 msgid "April"
-msgstr ""
+msgstr "April"
 
 #: app/scripts/templates/sign_up.mustache:37
 msgid "May"
-msgstr ""
+msgstr "Mai"
 
 #: app/scripts/templates/sign_up.mustache:38
 msgid "June"
-msgstr ""
+msgstr "Juni"
 
 #: app/scripts/templates/sign_up.mustache:39
 msgid "July"
-msgstr ""
+msgstr "Juli"
 
 #: app/scripts/templates/sign_up.mustache:40
 msgid "August"
-msgstr ""
+msgstr "August"
 
 #: app/scripts/templates/sign_up.mustache:41
 msgid "September"
-msgstr ""
+msgstr "September"
 
 #: app/scripts/templates/sign_up.mustache:42
 msgid "October"
-msgstr ""
+msgstr "Oktober"
 
 #: app/scripts/templates/sign_up.mustache:43
 msgid "November"
-msgstr ""
+msgstr "November"
 
 #: app/scripts/templates/sign_up.mustache:44
 msgid "December"
-msgstr ""
+msgstr "Desember"
 
 #: app/scripts/templates/sign_up.mustache:45
 msgid "Day"
-msgstr ""
+msgstr "Dag"
 
 #: app/scripts/templates/sign_up.mustache:47
-#, fuzzy
 msgid "Sign up"
-msgstr "Logg ut"
+msgstr "Registrer deg"
 
 #: app/scripts/templates/sign_up.mustache:48
 msgid "Choose what to sync"
@@ -738,7 +735,7 @@ msgstr "Har du allerede en konto? Logg inn."
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
-msgstr ""
+msgstr "Hjem"
 
 #: app/scripts/templates/settings/avatar.mustache:2
 #: app/scripts/templates/settings/avatar_camera.mustache:2
@@ -746,49 +743,48 @@ msgstr ""
 #: app/scripts/templates/settings/avatar_crop.mustache:2
 #: app/scripts/templates/settings/avatar_gravatar.mustache:2
 #: app/scripts/templates/settings/avatar_url.mustache:2
-#, fuzzy
 msgid "Account picture"
-msgstr "Konto verifisert"
+msgstr "Kontobilde"
 
 #: app/scripts/templates/settings/avatar.mustache:4
 msgid "Change"
-msgstr ""
+msgstr "Bytt"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:4
 msgid "Take picture"
-msgstr ""
+msgstr "Ta bilde"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:5
 #: app/scripts/templates/settings/avatar_crop.mustache:5
 #: app/scripts/templates/settings/avatar_gravatar.mustache:5
 #: app/scripts/templates/settings/avatar_url.mustache:6
 msgid "Cancel"
-msgstr ""
+msgstr "Avbryt"
 
 #: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Upload"
-msgstr ""
+msgstr "Last opp"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5
 msgid "Camera"
-msgstr ""
+msgstr "Kamera"
 
 #: app/scripts/templates/settings/avatar_change.mustache:6
 msgid "Gravatar"
-msgstr ""
+msgstr "Gravatar"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:3
 msgid "Position and rotate your picture as needed"
-msgstr ""
+msgstr "Plasser og roter bildet etter behov"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:4
 #: app/scripts/templates/settings/avatar_gravatar.mustache:4
 msgid "Save"
-msgstr ""
+msgstr "Lagre"
 
 #: app/scripts/templates/settings/avatar_url.mustache:4
 msgid "Paste image URL"
-msgstr ""
+msgstr "Lim inn bilde-URL"
 
 #~ msgid "Invalid password"
 #~ msgstr "Ugyldig passord"
