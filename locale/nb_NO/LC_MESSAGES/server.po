@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-10 18:39+0000\n"
-"PO-Revision-Date: 2015-01-24 18:47+0000\n"
+"PO-Revision-Date: 2015-01-24 23:00+0000\n"
 "Last-Translator: Håvar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1422125257.0\n"
+"X-POOTLE-MTIME: 1422140409.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -21,7 +21,7 @@ msgstr ""
 #: server/templates/pages/src/terms.html:1 server/templates/email/reset.html:1
 #: server/templates/email/verify.html:1
 msgid "Firefox Accounts"
-msgstr "Firefox-kontoer"
+msgstr "Firefox-konti"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -77,7 +77,7 @@ msgstr ""
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr "Firefox-kontoer krever JavaScript."
+msgstr "Firefox-konti krever JavaScript."
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:5
