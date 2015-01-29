@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-10 18:39+0000\n"
-"PO-Revision-Date: 2014-10-30 15:32+0000\n"
+"PO-Revision-Date: 2015-01-29 20:53+0000\n"
 "Last-Translator: Andreas <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv_SE\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1414683173.0\n"
+"X-POOTLE-MTIME: 1422564820.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -136,19 +136,19 @@ msgstr "Grattis!"
 
 #: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr "%(email)s, du är nu sekunder ifrån att bekräfta ditt Firefox-konto."
+msgstr "%(email)s, du är ett klick ifrån att verifiera ditt Firefox-konto."
 
 #: server/templates/email/verify.html:4
 msgid "Verify"
-msgstr "Bekräfta"
+msgstr "Verifiera"
 
 #: server/templates/email/verify.txt:3
 msgid "Verify:"
-msgstr "Bekräfta:"
+msgstr "Verifiera:"
 
 #: server/lib/templates.js:63
 msgid "Verify your account"
-msgstr "Bekräfta ditt konto"
+msgstr "Verifiera ditt konto"
 
 #: server/lib/templates.js:68
 msgid "Reset your password"

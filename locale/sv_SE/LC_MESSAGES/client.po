@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-10 18:39+0000\n"
-"PO-Revision-Date: 2015-01-08 22:53+0000\n"
+"PO-Revision-Date: 2015-01-29 20:50+0000\n"
 "Last-Translator: Andreas <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1420757590.0\n"
+"X-POOTLE-MTIME: 1422564602.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -88,15 +88,15 @@ msgstr "saknade sökparametrar: %(itemName)s"
 
 #: app/scripts/views/change_password.js:72
 msgid "Password changed"
-msgstr "Lösenordet ändrades"
+msgstr "Lösenord ändrat"
 
 #: app/scripts/views/change_password.js:76
 msgid ""
 "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
 "a>."
 msgstr ""
-"Obekräftat konto. <a href=\"#\" id=\"resend\">Skicka ett bekräftelsemejl "
-"igen</a>."
+"Overifierat konto. <a href=\"#\" id=\"resend\">Skicka nytt "
+"verifieringsmeddelande</a>."
 
 #: app/scripts/views/confirm_reset_password.js:157
 #: app/scripts/templates/ready.mustache:3
@@ -282,7 +282,7 @@ msgstr "Giltig URL krävs"
 
 #: app/scripts/lib/auth-errors.js:97
 msgid "Valid birthday required"
-msgstr "Valid födelsedag krävs"
+msgstr "Giltig födelsedag krävs"
 
 #: app/scripts/lib/oauth-errors.js:36
 msgid "Unknown client"
@@ -306,7 +306,7 @@ msgstr "Obehörig"
 
 #: app/scripts/lib/profile-client.js:115
 msgid "Unsupported image provider"
-msgstr "Obehörig"
+msgstr "Bildleverantören stöds inte"
 
 #: app/scripts/lib/profile-client.js:116
 msgid "Image processing error"
@@ -330,7 +330,7 @@ msgstr "Prenumerera på Firefox nyheter och tips"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
-msgstr "Kan inte skapa kontot"
+msgstr "Kan inte skapa konto"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
 msgid ""
@@ -355,7 +355,7 @@ msgstr ""
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
-msgstr "Gamla lösenordet"
+msgstr "Gammalt lösenord"
 
 #: app/scripts/templates/change_password.mustache:4
 #: app/scripts/templates/change_password.mustache:6
@@ -372,7 +372,7 @@ msgstr "Visa"
 #: app/scripts/templates/change_password.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid "New password"
-msgstr "Nya lösenordet"
+msgstr "Nytt lösenord"
 
 #: app/scripts/templates/change_password.mustache:8
 msgid "Confirm"
@@ -403,7 +403,7 @@ msgstr "Länken du klickade på för att återställa lösenordet har förfallit
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr "Klicka här för att få en ny bekräftelselänk"
+msgstr "Klicka här för att få en ny återställningslänk"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 msgid "Reset password link damaged"
@@ -435,7 +435,7 @@ msgstr "Nästa"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
-msgstr "Bekräftelselänken har förfallit"
+msgstr "Verifieringslänk har förfallit"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
@@ -449,11 +449,11 @@ msgstr "Klicka här för att få en ny verifieringslänk"
 
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
-msgstr "Bekräftelselänken är trasig"
+msgstr "Verifieringslänk är trasig"
 
 #: app/scripts/templates/complete_sign_up.mustache:10
 msgid "Verification error"
-msgstr "Ogiltig bekräftelse"
+msgstr "Verifieringsfel"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -466,7 +466,7 @@ msgstr "E-post har skickats"
 
 #: app/scripts/templates/confirm.mustache:4
 msgid "A verification link has been sent&nbsp;to %(email)s"
-msgstr "En bekräftelselänk har skickats&nbsp;till %(email)s"
+msgstr "En verifieringslänk har skickats&nbsp;till %(email)s"
 
 #: app/scripts/templates/confirm.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:8
