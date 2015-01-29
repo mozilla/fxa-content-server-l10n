@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-10 18:39+0000\n"
-"PO-Revision-Date: 2014-05-14 08:06+0000\n"
+"PO-Revision-Date: 2015-01-29 07:43+0000\n"
 "Last-Translator: Wim <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1400054783.0\n"
+"X-POOTLE-MTIME: 1422517392.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -129,11 +129,11 @@ msgstr "Account bestiet al. <a href=\"/signin\">Oanmelde</a>"
 
 #: app/scripts/views/settings/avatar_gravatar.js:65
 msgid "No Gravatar found"
-msgstr ""
+msgstr "Gjin Gravatar fûn"
 
 #: app/scripts/views/settings/avatar_gravatar.js:92
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr ""
+msgstr "Mei tank oan <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
 #: app/scripts/lib/auth-errors.js:61 app/scripts/lib/auth-errors.js:98
 #: app/scripts/lib/oauth-errors.js:44 app/scripts/lib/oauth-errors.js:46
@@ -205,9 +205,8 @@ msgid "Request body too large"
 msgstr "Oanfraachtekst te lang"
 
 #: app/scripts/lib/auth-errors.js:77
-#, fuzzy
 msgid "Attempt limit exceeded"
-msgstr "Tastiene oantal mooglikheden berikt."
+msgstr "Maksimaal oantal mooglikheden berikt"
 
 #: app/scripts/lib/auth-errors.js:78
 msgid "Server busy, try again soon"
@@ -236,7 +235,7 @@ msgstr "Wachtwurden komme net oerien"
 
 #: app/scripts/lib/auth-errors.js:86
 msgid "Working…"
-msgstr ""
+msgstr "Dwaande…"
 
 #: app/scripts/lib/auth-errors.js:87
 msgid "Could not get Privacy Notice"
@@ -271,52 +270,47 @@ msgstr "Bertejier fereaske"
 
 #: app/scripts/lib/auth-errors.js:94
 msgid "A usable image was not found"
-msgstr ""
+msgstr "Der is gjin brûkbere ôfbylding fûn"
 
 #: app/scripts/lib/auth-errors.js:95
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "Koe kamera net inisjalisearje"
 
 #: app/scripts/lib/auth-errors.js:96
-#, fuzzy
 msgid "Valid URL required"
-msgstr "Jildich e-mailadres fereaske"
+msgstr "Jildige URL fereaske"
 
 #: app/scripts/lib/auth-errors.js:97
-#, fuzzy
 msgid "Valid birthday required"
-msgstr "Jildich e-mailadres fereaske"
+msgstr "Jildige bertedei fereaske"
 
 #: app/scripts/lib/oauth-errors.js:36
-#, fuzzy
 msgid "Unknown client"
-msgstr "Unbekende account"
+msgstr "Unbekende client"
 
 #: app/scripts/lib/oauth-errors.js:37
-#, fuzzy
 msgid "Incorrect redirect_uri"
-msgstr "Ferkearde letters yn e-mailadres"
+msgstr "Ferkearde redirect_uri"
 
 #: app/scripts/lib/oauth-errors.js:38
-#, fuzzy
 msgid "Invalid assertion"
-msgstr "Unjildich token"
+msgstr "Unjildige befêstiging"
 
 #: app/scripts/lib/oauth-errors.js:45
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "Der is wat misgien. Slút dit ljepblêd en probearje it opnij."
 
 #: app/scripts/lib/profile-client.js:113
 msgid "Unauthorized"
-msgstr ""
+msgstr "Net autorisearre"
 
 #: app/scripts/lib/profile-client.js:115
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "Net-stipe ôfbyldingsprovider"
 
 #: app/scripts/lib/profile-client.js:116
 msgid "Image processing error"
-msgstr ""
+msgstr "Flater by ferwurkjen fan ôfbylding"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -327,6 +321,8 @@ msgid ""
 "Your verification email was just returned. Mistyped email? <a href=\"/signup"
 "\">Start over.</a>"
 msgstr ""
+"Jo ferifikaasje-e-mail is sakrekt weromkaam. Typflater yn e-mailadres? <a "
+"href=\"/signup\">Begjin opnij.</a>"
 
 #: app/scripts/lib/strings.js:21
 msgid "Subscribe to Firefox news and tips"
@@ -356,6 +352,8 @@ msgstr "Wachtwurd wizigje"
 msgid ""
 "Once you're ﬁnished, use your new password to sign in on all of your devices."
 msgstr ""
+"Gebrûk jo nije wachtwurd foar it oanmelden op al jo apparaten sa gau jo "
+"klear binne."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -380,7 +378,7 @@ msgstr "Nije wachtwurd"
 
 #: app/scripts/templates/change_password.mustache:8
 msgid "Confirm"
-msgstr ""
+msgstr "Befêstigje"
 
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/delete_account.mustache:6
@@ -391,9 +389,8 @@ msgid "Back"
 msgstr "Tebek"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
-#, fuzzy
 msgid "Reset password link expired"
-msgstr "Wachtwurd opnij ynstelle"
+msgstr "Werinisjalisaasjekeppeling ferrûn"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -413,9 +410,8 @@ msgid "Click here to receive a new reset link"
 msgstr "Klik hjir om in nije werinisjalisaasjekeppeling te ûntfangen"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
-#, fuzzy
 msgid "Reset password link damaged"
-msgstr "Wachtwurd opnij ynstelle"
+msgstr "Werinisjalisaasjekeppeling skansearre"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:8
@@ -446,16 +442,14 @@ msgid "Verification link expired"
 msgstr "Ferifikaasjekeppeling ferrûn"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
-#, fuzzy
 msgid "The link you clicked to verify your email is expired."
 msgstr ""
-"De keppeling wêrop jo klikt hawwe foar it opnij ynstellen fan jo wachtwurd "
-"is ferrûn."
+"De keppeling wêrop jo klikt hawwe om jo e-mailadres te ferifiearjen is "
+"ferrûn."
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Click here to receive a new verification link"
-msgstr "Klik hjir om in nije werinisjalisaasjekeppeling te ûntfangen"
+msgstr "Klik hjir om in nije ferifikaasjekeppeling te ûntfangen"
 
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
@@ -503,7 +497,6 @@ msgid "Sign in"
 msgstr "Oanmelde"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-#, fuzzy
 msgid "Cookies required"
 msgstr "Cookies fereaske"
 
@@ -605,9 +598,8 @@ msgid "Success"
 msgstr "Slagge"
 
 #: app/scripts/templates/ready.mustache:6
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s"
-msgstr "Jo kinne %(serviceName)s no brûke."
+msgstr "Jo kinne %(serviceName)s no brûke"
 
 #: app/scripts/templates/ready.mustache:8
 msgid "Your account is ready!"
@@ -629,6 +621,9 @@ msgid ""
 "For security reasons, resetting your password will erase your Sync data from "
 "our servers. A new Sync backup will be created from your local browsing data."
 msgstr ""
+"Om befeiligingsredenen sil werinisjalisearjen fan jo wachtwurd jo Sync-"
+"gegevens fan ús tsjinners wiskje. Der sil in nije Sync-reservekopy fan jo "
+"lokale navigaasjegegevens makke wurde."
 
 #: app/scripts/templates/settings.mustache:1
 #: app/scripts/templates/settings/avatar.mustache:1
@@ -650,15 +645,13 @@ msgstr "Ofmelde"
 
 #: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
-#, fuzzy
 msgid "Continue to %(serviceName)s"
-msgstr "Jo kinne %(serviceName)s no brûke."
+msgstr "Trochgean nei %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:11
 #: app/scripts/templates/sign_in.mustache:14
-#, fuzzy
 msgid "Use a different account"
-msgstr "Net-ferifiearre account"
+msgstr "In oar account brûke"
 
 #: app/scripts/templates/sign_in.mustache:23
 msgid "Create an account"
@@ -679,64 +672,63 @@ msgstr "1990 of earder"
 
 #: app/scripts/templates/sign_up.mustache:32
 msgid "Month"
-msgstr ""
+msgstr "Moanne"
 
 #: app/scripts/templates/sign_up.mustache:33
 msgid "January"
-msgstr ""
+msgstr "jannewaris"
 
 #: app/scripts/templates/sign_up.mustache:34
 msgid "February"
-msgstr ""
+msgstr "febrewaris"
 
 #: app/scripts/templates/sign_up.mustache:35
 msgid "March"
-msgstr ""
+msgstr "maart"
 
 #: app/scripts/templates/sign_up.mustache:36
 msgid "April"
-msgstr ""
+msgstr "april"
 
 #: app/scripts/templates/sign_up.mustache:37
 msgid "May"
-msgstr ""
+msgstr "maaie"
 
 #: app/scripts/templates/sign_up.mustache:38
 msgid "June"
-msgstr ""
+msgstr "juny"
 
 #: app/scripts/templates/sign_up.mustache:39
 msgid "July"
-msgstr ""
+msgstr "july"
 
 #: app/scripts/templates/sign_up.mustache:40
 msgid "August"
-msgstr ""
+msgstr "augustus"
 
 #: app/scripts/templates/sign_up.mustache:41
 msgid "September"
-msgstr ""
+msgstr "septimber"
 
 #: app/scripts/templates/sign_up.mustache:42
 msgid "October"
-msgstr ""
+msgstr "oktober"
 
 #: app/scripts/templates/sign_up.mustache:43
 msgid "November"
-msgstr ""
+msgstr "novimber"
 
 #: app/scripts/templates/sign_up.mustache:44
 msgid "December"
-msgstr ""
+msgstr "desimber"
 
 #: app/scripts/templates/sign_up.mustache:45
 msgid "Day"
-msgstr ""
+msgstr "Dei"
 
 #: app/scripts/templates/sign_up.mustache:47
-#, fuzzy
 msgid "Sign up"
-msgstr "Ofmelde"
+msgstr "Registrearje"
 
 #: app/scripts/templates/sign_up.mustache:48
 msgid "Choose what to sync"
@@ -748,7 +740,7 @@ msgstr "Hawwe jo al in account? Meld jo oan."
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
-msgstr ""
+msgstr "Startside"
 
 #: app/scripts/templates/settings/avatar.mustache:2
 #: app/scripts/templates/settings/avatar_camera.mustache:2
@@ -756,49 +748,48 @@ msgstr ""
 #: app/scripts/templates/settings/avatar_crop.mustache:2
 #: app/scripts/templates/settings/avatar_gravatar.mustache:2
 #: app/scripts/templates/settings/avatar_url.mustache:2
-#, fuzzy
 msgid "Account picture"
-msgstr "Account ferifiearre"
+msgstr "Accountôfbylding"
 
 #: app/scripts/templates/settings/avatar.mustache:4
 msgid "Change"
-msgstr ""
+msgstr "Wizigje"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:4
 msgid "Take picture"
-msgstr ""
+msgstr "Foto meitsje"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:5
 #: app/scripts/templates/settings/avatar_crop.mustache:5
 #: app/scripts/templates/settings/avatar_gravatar.mustache:5
 #: app/scripts/templates/settings/avatar_url.mustache:6
 msgid "Cancel"
-msgstr ""
+msgstr "Annulearje"
 
 #: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Upload"
-msgstr ""
+msgstr "Oplade"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5
 msgid "Camera"
-msgstr ""
+msgstr "Kamera"
 
 #: app/scripts/templates/settings/avatar_change.mustache:6
 msgid "Gravatar"
-msgstr ""
+msgstr "Gravatar"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:3
 msgid "Position and rotate your picture as needed"
-msgstr ""
+msgstr "Pleats en draai sa nedich jo foto"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:4
 #: app/scripts/templates/settings/avatar_gravatar.mustache:4
 msgid "Save"
-msgstr ""
+msgstr "Bewarje"
 
 #: app/scripts/templates/settings/avatar_url.mustache:4
 msgid "Paste image URL"
-msgstr ""
+msgstr "Ofbyldings-URL plakke"
 
 #~ msgid "Invalid password"
 #~ msgstr "Unjildich wachtwurd"
