@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-10 18:39+0000\n"
-"PO-Revision-Date: 2014-10-21 13:42+0000\n"
-"Last-Translator: Masahiko <chimantaea_mirabilis@yahoo.co.jp>\n"
+"PO-Revision-Date: 2015-02-05 07:17+0000\n"
+"Last-Translator: kaz <kaz_ic@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1413898955.0\n"
+"X-POOTLE-MTIME: 1423120631.0\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
@@ -127,11 +127,11 @@ msgstr "パスワードをリセットする:"
 
 #: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
-msgstr "詳しい情報は、https://support.mozilla.org を訪問してください。"
+msgstr "詳しい情報は、 https://support.mozilla.org をご覧ください。"
 
 #: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
 msgid "Congratulations!"
-msgstr "おめでとうございます！"
+msgstr "おめでとうございます"
 
 #: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
