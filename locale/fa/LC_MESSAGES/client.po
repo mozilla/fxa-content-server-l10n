@@ -3,12 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-10 18:39+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2015-02-09 13:57+0000\n"
+"Last-Translator: PicaKing <PicaKing@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1423490224.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -95,15 +99,15 @@ msgstr ""
 #: app/scripts/views/confirm_reset_password.js:157
 #: app/scripts/templates/ready.mustache:3
 msgid "Password reset"
-msgstr ""
+msgstr "بازنشانی گذرواژه"
 
 #: app/scripts/views/confirm_reset_password.js:176
 msgid "Password reset. Sign in to continue."
-msgstr ""
+msgstr "بازنشانی گذرواژه. ورود برای ادامه."
 
 #: app/scripts/views/delete_account.js:45
 msgid "Account deleted successfully"
-msgstr ""
+msgstr "حساب با موفقیت حذف شد"
 
 #: app/scripts/views/force_auth.js:37
 msgid "/force_auth requires an email"
@@ -115,11 +119,11 @@ msgstr ""
 
 #: app/scripts/views/settings.js:43
 msgid "Signed out"
-msgstr ""
+msgstr "خارج شد"
 
 #: app/scripts/views/sign_up.js:339
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr ""
+msgstr "حساب از پیش وجود داشته <a href=\"/signin\">وارد شوید</a>"
 
 #: app/scripts/views/settings/avatar_gravatar.js:65
 msgid "No Gravatar found"
@@ -151,11 +155,11 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:65
 msgid "Account already exists"
-msgstr ""
+msgstr "حساب از پیش وجود داشته"
 
 #: app/scripts/lib/auth-errors.js:66
 msgid "Unknown account"
-msgstr ""
+msgstr "حساب ناشناخته"
 
 #: app/scripts/lib/auth-errors.js:67
 msgid "Incorrect email case"
@@ -256,11 +260,11 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:92
 msgid "Valid email required"
-msgstr ""
+msgstr "ایمیل معتبر مورد نیاز است"
 
 #: app/scripts/lib/auth-errors.js:93
 msgid "Year of birth required"
-msgstr ""
+msgstr "سال تولد مورد نیاز است"
 
 #: app/scripts/lib/auth-errors.js:94
 msgid "A usable image was not found"
@@ -345,7 +349,7 @@ msgstr ""
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
-msgstr ""
+msgstr "گذرواژه پیشین"
 
 #: app/scripts/templates/change_password.mustache:4
 #: app/scripts/templates/change_password.mustache:6
@@ -362,7 +366,7 @@ msgstr ""
 #: app/scripts/templates/change_password.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid "New password"
-msgstr ""
+msgstr "گذرواژه جدید"
 
 #: app/scripts/templates/change_password.mustache:8
 msgid "Confirm"
@@ -378,14 +382,14 @@ msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
-msgstr ""
+msgstr "لینک بازنشانی گذوراژه منقضی شده است"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
 #: app/scripts/templates/confirm.mustache:2
 #: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email resent"
-msgstr ""
+msgstr "ایمیل مجدد ارسال شد"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
@@ -448,7 +452,7 @@ msgstr ""
 #: app/scripts/templates/confirm.mustache:3
 #: app/scripts/templates/confirm_reset_password.mustache:3
 msgid "Email Sent"
-msgstr ""
+msgstr "ایمیل ارسال شد"
 
 #: app/scripts/templates/confirm.mustache:4
 msgid "A verification link has been sent&nbsp;to %(email)s"
@@ -457,15 +461,15 @@ msgstr ""
 #: app/scripts/templates/confirm.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:8
 msgid "Resend email"
-msgstr ""
+msgstr "ارسال دوباره ایمیل"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr ""
+msgstr "ایمیل بازنشانی ارسال شد"
 
 #: app/scripts/templates/confirm_reset_password.mustache:4
 msgid "A reset link has been sent to %(email)s"
-msgstr ""
+msgstr "یک لینک بازنشانی به %(email)s ارسال شد"
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
@@ -514,7 +518,7 @@ msgstr ""
 #: app/scripts/templates/sign_in.mustache:18
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Password"
-msgstr ""
+msgstr "گذرواژه"
 
 #: app/scripts/templates/force_auth.mustache:1
 msgid "Sign in to continue"
@@ -524,7 +528,7 @@ msgstr ""
 #: app/scripts/templates/sign_in.mustache:10
 #: app/scripts/templates/sign_in.mustache:22
 msgid "Forgot password?"
-msgstr ""
+msgstr "گذرواژه را فراموش کرده اید؟"
 
 #: app/scripts/templates/force_auth.mustache:9
 #: app/scripts/templates/sign_in.mustache:24
@@ -587,7 +591,7 @@ msgstr ""
 #: app/scripts/templates/sign_in.mustache:17
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Email"
-msgstr ""
+msgstr "پست الکترونیکی"
 
 #: app/scripts/templates/reset_password.mustache:4
 msgid ""
@@ -625,20 +629,20 @@ msgstr ""
 
 #: app/scripts/templates/sign_in.mustache:23
 msgid "Create an account"
-msgstr ""
+msgstr "ایجاد یک حساب"
 
 #: app/scripts/templates/sign_up.mustache:1
 #: app/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
-msgstr ""
+msgstr "ایجاد یک حساب فایرفاکس"
 
 #: app/scripts/templates/sign_up.mustache:13
 msgid "Year of birth"
-msgstr ""
+msgstr "سال تولد"
 
 #: app/scripts/templates/sign_up.mustache:14
 msgid "1990 or earlier"
-msgstr ""
+msgstr "1990 یا پایینتر"
 
 #: app/scripts/templates/sign_up.mustache:32
 msgid "Month"
