@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-10 18:39+0000\n"
-"PO-Revision-Date: 2015-01-11 20:39+0000\n"
+"PO-Revision-Date: 2015-02-10 21:57+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1421008770.0\n"
+"X-POOTLE-MTIME: 1423605466.0\n"
 
 #: app/scripts/templates/sign_up.mustache:15
 msgid "1991"
@@ -115,7 +115,9 @@ msgstr "/force_auth 需要电子邮件地址"
 
 #: app/scripts/views/reset_password.js:76 app/scripts/views/sign_in.js:142
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr "未知账号。<a href=\"/signup\">注册</a>"
+msgstr ""
+"未知账号（<a href=\"http://firefox.com.cn/help/accounts/unknown/\">中国区帮助</a>）。<a "
+"href=\"/signup\">注册</a>"
 
 #: app/scripts/views/settings.js:43
 msgid "Signed out"
