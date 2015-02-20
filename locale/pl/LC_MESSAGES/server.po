@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-10 18:39+0000\n"
+"POT-Creation-Date: 2015-02-20 19:15+0000\n"
 "PO-Revision-Date: 2014-03-01 19:41+0000\n"
 "Last-Translator: Bartosz <bpiec@aviary.pl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,14 +15,18 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1393702892.0\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1 server/templates/email/reset.html:1
-#: server/templates/email/verify.html:1
+#: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Konto Firefox"
+
+#: server/templates/pages/src/400.html:2
+msgid "Bad Request"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -35,7 +39,7 @@ msgid ""
 msgstr ""
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/503.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr ""
 
@@ -43,10 +47,14 @@ msgstr ""
 msgid "500 Error"
 msgstr ""
 
-#: server/templates/pages/src/500.html:3
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
+msgstr ""
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
 msgstr ""
 
 #: server/templates/pages/src/503.html:2
@@ -88,69 +96,42 @@ msgstr "Konto Firefox"
 msgid "Terms of Service"
 msgstr ""
 
-#: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
-msgid "Are you sure?"
-msgstr ""
-
-#: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
 #, fuzzy
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Żądanie zmiany hasła zostało wysłane na adres %(email)s."
+#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
+#~ msgstr "Żądanie zmiany hasła zostało wysłane na adres %(email)s."
 
-#: server/templates/email/reset.html:4
-msgid "Reset password"
-msgstr "Zmiana hasła"
+#~ msgid "Reset password"
+#~ msgstr "Zmiana hasła"
 
-#: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
-#: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
 #, fuzzy
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr "Jeżeli otrzymałeś tego e-maila przez pomyłkę, nic nie musisz robić."
+#~ msgid ""
+#~ "This is an automated email; if you received it in error, no action is "
+#~ "required."
+#~ msgstr "Jeżeli otrzymałeś tego e-maila przez pomyłkę, nic nie musisz robić."
 
-#: server/templates/email/reset.html:6 server/templates/email/verify.html:6
-msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
-msgstr ""
+#~ msgid "Reset password:"
+#~ msgstr "Zmień hasło:"
 
-#: server/templates/email/reset.txt:3
-msgid "Reset password:"
-msgstr "Zmień hasło:"
-
-#: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr ""
-
-#: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
-msgid "Congratulations!"
-msgstr ""
-
-#: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
 #, fuzzy
-msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr ""
-"Gratulacje! %(email)s, tylko chwila dzieli Cię od zweryfikowania Twojego "
-"Konta Firefox."
+#~ msgid ""
+#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgstr ""
+#~ "Gratulacje! %(email)s, tylko chwila dzieli Cię od zweryfikowania Twojego "
+#~ "Konta Firefox."
 
-#: server/templates/email/verify.html:4
-msgid "Verify"
-msgstr "Potwierdź"
+#~ msgid "Verify"
+#~ msgstr "Potwierdź"
 
-#: server/templates/email/verify.txt:3
-msgid "Verify:"
-msgstr "Potwierdź:"
+#~ msgid "Verify:"
+#~ msgstr "Potwierdź:"
 
-#: server/lib/templates.js:63
 #, fuzzy
-msgid "Verify your account"
-msgstr "Zweryfikuj swoje konto"
+#~ msgid "Verify your account"
+#~ msgstr "Zweryfikuj swoje konto"
 
-#: server/lib/templates.js:68
 #, fuzzy
-msgid "Reset your password"
-msgstr "Zmiana hasła"
+#~ msgid "Reset your password"
+#~ msgstr "Zmiana hasła"
 
 #~ msgid "Reset Password Request"
 #~ msgstr "Żądanie zmiany hasła"

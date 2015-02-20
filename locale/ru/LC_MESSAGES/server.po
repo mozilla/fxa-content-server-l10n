@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-10 18:39+0000\n"
+"POT-Creation-Date: 2015-02-20 19:15+0000\n"
 "PO-Revision-Date: 2014-10-16 21:58+0400\n"
 "Last-Translator: Alexander L. Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
@@ -15,14 +15,18 @@ msgstr ""
 "X-Generator: Poedit 1.6.9\n"
 "X-POOTLE-MTIME: 1399912510.0\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1 server/templates/email/reset.html:1
-#: server/templates/email/verify.html:1
+#: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Аккаунты"
+
+#: server/templates/pages/src/400.html:2
+msgid "Bad Request"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -37,7 +41,7 @@ msgstr ""
 "ссылки, которые могут сломаны."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/503.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "Домой"
 
@@ -45,13 +49,17 @@ msgstr "Домой"
 msgid "500 Error"
 msgstr "Ошибка 500"
 
-#: server/templates/pages/src/500.html:3
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr ""
 "О боже мой, что-то там пошло не так. Мы уведомлены об этом и начнём работу "
 "над исправлением."
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr ""
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -95,66 +103,55 @@ msgstr "Облачные службы Firefox"
 msgid "Terms of Service"
 msgstr "Условия службы"
 
-#: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
-msgid "Are you sure?"
-msgstr "Вы уверены?"
+#~ msgid "Are you sure?"
+#~ msgstr "Вы уверены?"
 
-#: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Подтвердите, что вы хотите восстановить пароль для %(email)s."
+#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
+#~ msgstr "Подтвердите, что вы хотите восстановить пароль для %(email)s."
 
-#: server/templates/email/reset.html:4
-msgid "Reset password"
-msgstr "Восстановить пароль"
+#~ msgid "Reset password"
+#~ msgstr "Восстановить пароль"
 
-#: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
-#: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"Это автоматическое сообщение; если вы получили его по ошибке, не требуется "
-"никаких действий."
+#~ msgid ""
+#~ "This is an automated email; if you received it in error, no action is "
+#~ "required."
+#~ msgstr ""
+#~ "Это автоматическое сообщение; если вы получили его по ошибке, не "
+#~ "требуется никаких действий."
 
-#: server/templates/email/reset.html:6 server/templates/email/verify.html:6
-msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
-msgstr ""
-"Для получения большей информации, посетите <a href='https://support.mozilla."
-"org'>Сайт поддержки Mozilla</a>"
+#~ msgid ""
+#~ "For more information, please visit <a href='https://support.mozilla."
+#~ "org'>Mozilla Support</a>"
+#~ msgstr ""
+#~ "Для получения большей информации, посетите <a href='https://support."
+#~ "mozilla.org'>Сайт поддержки Mozilla</a>"
 
-#: server/templates/email/reset.txt:3
-msgid "Reset password:"
-msgstr "Восстановить пароль:"
+#~ msgid "Reset password:"
+#~ msgstr "Восстановить пароль:"
 
-#: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr "Для получения большей информации, посетите https://support.mozilla.org"
+#~ msgid "For more information, please visit https://support.mozilla.org"
+#~ msgstr ""
+#~ "Для получения большей информации, посетите https://support.mozilla.org"
 
-#: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
-msgid "Congratulations!"
-msgstr "Поздравляем!"
+#~ msgid "Congratulations!"
+#~ msgstr "Поздравляем!"
 
-#: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
-msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr "%(email)s, вы в одном шаге от подтверждения вашего Firefox Аккаунта."
+#~ msgid ""
+#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgstr ""
+#~ "%(email)s, вы в одном шаге от подтверждения вашего Firefox Аккаунта."
 
-#: server/templates/email/verify.html:4
-msgid "Verify"
-msgstr "Подтвердите"
+#~ msgid "Verify"
+#~ msgstr "Подтвердите"
 
-#: server/templates/email/verify.txt:3
-msgid "Verify:"
-msgstr "Подтвердите:"
+#~ msgid "Verify:"
+#~ msgstr "Подтвердите:"
 
-#: server/lib/templates.js:63
-msgid "Verify your account"
-msgstr "Подтвердить ваш аккаунт"
+#~ msgid "Verify your account"
+#~ msgstr "Подтвердить ваш аккаунт"
 
-#: server/lib/templates.js:68
-msgid "Reset your password"
-msgstr "Восстановить ваш пароль"
+#~ msgid "Reset your password"
+#~ msgstr "Восстановить ваш пароль"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "Система недоступна, подождите и повторите попытку"

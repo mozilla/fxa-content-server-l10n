@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-10 18:39+0000\n"
+"POT-Creation-Date: 2015-02-20 19:15+0000\n"
 "PO-Revision-Date: 2014-11-04 21:01+0000\n"
 "Last-Translator: Merike <merike.sell@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,14 +14,18 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1415134875.0\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1 server/templates/email/reset.html:1
-#: server/templates/email/verify.html:1
+#: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Firefoxi kontod"
+
+#: server/templates/pages/src/400.html:2
+msgid "Bad Request"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -36,7 +40,7 @@ msgstr ""
 "võimalikud vigased lingid."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/503.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "Avalehele"
 
@@ -44,13 +48,17 @@ msgstr "Avalehele"
 msgid "500 Error"
 msgstr "Viga 500"
 
-#: server/templates/pages/src/500.html:3
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr ""
 "Heldeke! Midagi läks nüüd küll valesti. Oleme juhtunust teadlikud ja "
 "parandame vea ära."
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr ""
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -93,66 +101,54 @@ msgstr "Firefoxi pilveteenused"
 msgid "Terms of Service"
 msgstr "Teenuste tingimused"
 
-#: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
-msgid "Are you sure?"
-msgstr "Kas oled ikka kindel?"
+#~ msgid "Are you sure?"
+#~ msgstr "Kas oled ikka kindel?"
 
-#: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Palun kinnita, et soovid lähtestada konto %(email)s parooli."
+#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
+#~ msgstr "Palun kinnita, et soovid lähtestada konto %(email)s parooli."
 
-#: server/templates/email/reset.html:4
-msgid "Reset password"
-msgstr "Lähtesta parool"
+#~ msgid "Reset password"
+#~ msgstr "Lähtesta parool"
 
-#: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
-#: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"See e-kiri on saadetud automaatselt. Kui sa ei tellinud seda, siis ei ole "
-"sul vaja midagi teha."
+#~ msgid ""
+#~ "This is an automated email; if you received it in error, no action is "
+#~ "required."
+#~ msgstr ""
+#~ "See e-kiri on saadetud automaatselt. Kui sa ei tellinud seda, siis ei ole "
+#~ "sul vaja midagi teha."
 
-#: server/templates/email/reset.html:6 server/templates/email/verify.html:6
-msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
-msgstr ""
-"Rohkema teabe saamiseks külasta <a href='https://support.mozilla."
-"org'>Mozilla tugiveebi</a>"
+#~ msgid ""
+#~ "For more information, please visit <a href='https://support.mozilla."
+#~ "org'>Mozilla Support</a>"
+#~ msgstr ""
+#~ "Rohkema teabe saamiseks külasta <a href='https://support.mozilla."
+#~ "org'>Mozilla tugiveebi</a>"
 
-#: server/templates/email/reset.txt:3
-msgid "Reset password:"
-msgstr "Parooli lähtestamiseks klõpsa järgneval lingil:"
+#~ msgid "Reset password:"
+#~ msgstr "Parooli lähtestamiseks klõpsa järgneval lingil:"
 
-#: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr "Rohkema teabe saamiseks külasta https://support.mozilla.org"
+#~ msgid "For more information, please visit https://support.mozilla.org"
+#~ msgstr "Rohkema teabe saamiseks külasta https://support.mozilla.org"
 
-#: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
-msgid "Congratulations!"
-msgstr "Õnnitleme!"
+#~ msgid "Congratulations!"
+#~ msgstr "Õnnitleme!"
 
-#: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
-msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr "%(email)s, oled ühe klõpsu kaugusel oma Firefoxi konto kinnitamisest."
+#~ msgid ""
+#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgstr ""
+#~ "%(email)s, oled ühe klõpsu kaugusel oma Firefoxi konto kinnitamisest."
 
-#: server/templates/email/verify.html:4
-msgid "Verify"
-msgstr "Kinnita"
+#~ msgid "Verify"
+#~ msgstr "Kinnita"
 
-#: server/templates/email/verify.txt:3
-msgid "Verify:"
-msgstr "Kinnitamiseks klõpsa järgneval lingil:"
+#~ msgid "Verify:"
+#~ msgstr "Kinnitamiseks klõpsa järgneval lingil:"
 
-#: server/lib/templates.js:63
-msgid "Verify your account"
-msgstr "Konto kinnitamine"
+#~ msgid "Verify your account"
+#~ msgstr "Konto kinnitamine"
 
-#: server/lib/templates.js:68
-msgid "Reset your password"
-msgstr "Lähtesta parool"
+#~ msgid "Reset your password"
+#~ msgstr "Lähtesta parool"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "Süsteem pole kättesaadav, proovi mõne aja pärast uuesti"

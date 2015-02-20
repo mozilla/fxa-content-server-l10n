@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-10 18:39+0000\n"
+"POT-Creation-Date: 2015-02-20 19:15+0000\n"
 "PO-Revision-Date: 2014-10-13 08:16+0000\n"
 "Last-Translator: Gábor <kelemeng@ubuntu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,14 +14,18 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1413188195.0\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1 server/templates/email/reset.html:1
-#: server/templates/email/verify.html:1
+#: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox fiókok"
+
+#: server/templates/pages/src/400.html:2
+msgid "Bad Request"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -36,7 +40,7 @@ msgstr ""
 "esetleg hibás hivatkozást."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/503.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "Kezdőlap"
 
@@ -44,13 +48,17 @@ msgstr "Kezdőlap"
 msgid "500 Error"
 msgstr "500-as hiba"
 
-#: server/templates/pages/src/500.html:3
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr ""
 "Ó jaj, valami hiba történt. Értesítést kaptunk, és elkezdünk a javításon "
 "dolgozni."
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr ""
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -93,67 +101,54 @@ msgstr "Firefox felhő szolgáltatások"
 msgid "Terms of Service"
 msgstr "Felhasználási feltételek"
 
-#: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
-msgid "Are you sure?"
-msgstr "Biztos benne?"
+#~ msgid "Are you sure?"
+#~ msgstr "Biztos benne?"
 
-#: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Erősítse meg, hogy szeretné visszaállítani %(email)s jelszavát."
+#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
+#~ msgstr "Erősítse meg, hogy szeretné visszaállítani %(email)s jelszavát."
 
-#: server/templates/email/reset.html:4
-msgid "Reset password"
-msgstr "Jelszó visszaállítása"
+#~ msgid "Reset password"
+#~ msgstr "Jelszó visszaállítása"
 
-#: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
-#: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"Ez egy automatikus üzenet, ha úgy véli tévedésből kapta, akkor nincs "
-"teendője."
+#~ msgid ""
+#~ "This is an automated email; if you received it in error, no action is "
+#~ "required."
+#~ msgstr ""
+#~ "Ez egy automatikus üzenet, ha úgy véli tévedésből kapta, akkor nincs "
+#~ "teendője."
 
-#: server/templates/email/reset.html:6 server/templates/email/verify.html:6
-msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
-msgstr ""
-"További információkért keresse fel a <a href='https://support.mozilla."
-"org'>Mozilla támogatást</a>"
+#~ msgid ""
+#~ "For more information, please visit <a href='https://support.mozilla."
+#~ "org'>Mozilla Support</a>"
+#~ msgstr ""
+#~ "További információkért keresse fel a <a href='https://support.mozilla."
+#~ "org'>Mozilla támogatást</a>"
 
-#: server/templates/email/reset.txt:3
-msgid "Reset password:"
-msgstr "Jelszó visszaállítása:"
+#~ msgid "Reset password:"
+#~ msgstr "Jelszó visszaállítása:"
 
-#: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr ""
-"További információkért keresse fel a https://support.mozilla.org oldalt"
+#~ msgid "For more information, please visit https://support.mozilla.org"
+#~ msgstr ""
+#~ "További információkért keresse fel a https://support.mozilla.org oldalt"
 
-#: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
-msgid "Congratulations!"
-msgstr "Gratulálunk!"
+#~ msgid "Congratulations!"
+#~ msgstr "Gratulálunk!"
 
-#: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
-msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr "%(email)s, Ön egy kattintásra van Firefox fiókjának ellenőrzésétől."
+#~ msgid ""
+#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgstr "%(email)s, Ön egy kattintásra van Firefox fiókjának ellenőrzésétől."
 
-#: server/templates/email/verify.html:4
-msgid "Verify"
-msgstr "Ellenőrzés"
+#~ msgid "Verify"
+#~ msgstr "Ellenőrzés"
 
-#: server/templates/email/verify.txt:3
-msgid "Verify:"
-msgstr "Ellenőrzés:"
+#~ msgid "Verify:"
+#~ msgstr "Ellenőrzés:"
 
-#: server/lib/templates.js:63
-msgid "Verify your account"
-msgstr "Fiók ellenőrzése"
+#~ msgid "Verify your account"
+#~ msgstr "Fiók ellenőrzése"
 
-#: server/lib/templates.js:68
-msgid "Reset your password"
-msgstr "Jelszó visszaállítása"
+#~ msgid "Reset your password"
+#~ msgstr "Jelszó visszaállítása"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "A rendszer nem érhető el, próbálja újra később"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-10 18:39+0000\n"
+"POT-Creation-Date: 2015-02-20 19:15+0000\n"
 "PO-Revision-Date: 2014-11-09 18:57+0000\n"
 "Last-Translator: Marius <marius.gricius@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,14 +15,18 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1415559449.0\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1 server/templates/email/reset.html:1
-#: server/templates/email/verify.html:1
+#: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "„Firefox“ paskyros"
+
+#: server/templates/pages/src/400.html:2
+msgid "Bad Request"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -37,7 +41,7 @@ msgstr ""
 "sutvarkysime visus neteisingus saitus."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/503.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "Pradžia"
 
@@ -45,13 +49,17 @@ msgstr "Pradžia"
 msgid "500 Error"
 msgstr "Klaida „500 Internal Server Error“"
 
-#: server/templates/pages/src/500.html:3
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr ""
 "Kažkas čia negerai. Mus apie tai jau informavo, todėl netrukus problemą "
 "išspręsime."
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr ""
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -95,68 +103,55 @@ msgstr "„Firefox“ debesijos paslaugos"
 msgid "Terms of Service"
 msgstr "Paslaugos teikimo nuostatai"
 
-#: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
-msgid "Are you sure?"
-msgstr "Ar esate įsitikinę?"
+#~ msgid "Are you sure?"
+#~ msgstr "Ar esate įsitikinę?"
 
-#: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Patvirtinkite, kad tikrai ketinate atkurti %(email)s slaptažodį."
+#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
+#~ msgstr "Patvirtinkite, kad tikrai ketinate atkurti %(email)s slaptažodį."
 
-#: server/templates/email/reset.html:4
-msgid "Reset password"
-msgstr "Atkurti slaptažodį"
+#~ msgid "Reset password"
+#~ msgstr "Atkurti slaptažodį"
 
-#: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
-#: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"Tai automatiškai sugeneruotas laiškas, todėl jei gavote šį laišką per "
-"klaidą, nieko daryti nereikia."
+#~ msgid ""
+#~ "This is an automated email; if you received it in error, no action is "
+#~ "required."
+#~ msgstr ""
+#~ "Tai automatiškai sugeneruotas laiškas, todėl jei gavote šį laišką per "
+#~ "klaidą, nieko daryti nereikia."
 
-#: server/templates/email/reset.html:6 server/templates/email/verify.html:6
-msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
-msgstr ""
-"Daugiau informacijos rasite <a href='https://support.mozilla.org'>„Mozilla“ "
-"pagalbos puslapyje</a>"
+#~ msgid ""
+#~ "For more information, please visit <a href='https://support.mozilla."
+#~ "org'>Mozilla Support</a>"
+#~ msgstr ""
+#~ "Daugiau informacijos rasite <a href='https://support.mozilla.org'>"
+#~ "„Mozilla“ pagalbos puslapyje</a>"
 
-#: server/templates/email/reset.txt:3
-msgid "Reset password:"
-msgstr "Atkurti slaptažodį:"
+#~ msgid "Reset password:"
+#~ msgstr "Atkurti slaptažodį:"
 
-#: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr "Daugiau informacijos rasite adresu https://support.mozilla.org"
+#~ msgid "For more information, please visit https://support.mozilla.org"
+#~ msgstr "Daugiau informacijos rasite adresu https://support.mozilla.org"
 
-#: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
-msgid "Congratulations!"
-msgstr "Sveikiname!"
+#~ msgid "Congratulations!"
+#~ msgstr "Sveikiname!"
 
-#: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
-msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr ""
-"%(email)s, jūs esate tik per žingsnį nuo savo „Firefox“ paskyros "
-"patvirtinimo."
+#~ msgid ""
+#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgstr ""
+#~ "%(email)s, jūs esate tik per žingsnį nuo savo „Firefox“ paskyros "
+#~ "patvirtinimo."
 
-#: server/templates/email/verify.html:4
-msgid "Verify"
-msgstr "Patvirtinkite"
+#~ msgid "Verify"
+#~ msgstr "Patvirtinkite"
 
-#: server/templates/email/verify.txt:3
-msgid "Verify:"
-msgstr "Patvirtinkite:"
+#~ msgid "Verify:"
+#~ msgstr "Patvirtinkite:"
 
-#: server/lib/templates.js:63
-msgid "Verify your account"
-msgstr "Patvirtinkite savo paskyrą"
+#~ msgid "Verify your account"
+#~ msgstr "Patvirtinkite savo paskyrą"
 
-#: server/lib/templates.js:68
-msgid "Reset your password"
-msgstr "Atkurti slaptažodį"
+#~ msgid "Reset your password"
+#~ msgstr "Atkurti slaptažodį"
 
 #~ msgid "Reset Password Request"
 #~ msgstr "Slaptažodžio atkūrimo užklausa"
