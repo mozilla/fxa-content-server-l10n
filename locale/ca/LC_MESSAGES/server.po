@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-10 18:39+0000\n"
+"POT-Creation-Date: 2015-02-20 19:15+0000\n"
 "PO-Revision-Date: 2014-04-28 08:41+0000\n"
 "Last-Translator: Eduard <edu@eduard-gamonal.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,14 +14,18 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1398674485.0\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1 server/templates/email/reset.html:1
-#: server/templates/email/verify.html:1
+#: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Comptes del Firefox"
+
+#: server/templates/pages/src/400.html:2
+msgid "Bad Request"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -36,7 +40,7 @@ msgstr ""
 "qualsevol enllaç que pugui estar trencat."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/503.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "Inici"
 
@@ -44,10 +48,14 @@ msgstr "Inici"
 msgid "500 Error"
 msgstr ""
 
-#: server/templates/pages/src/500.html:3
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
+msgstr ""
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
 msgstr ""
 
 #: server/templates/pages/src/503.html:2
@@ -87,64 +95,51 @@ msgstr "Serveis del Firefox al núvol"
 msgid "Terms of Service"
 msgstr "Condicions del servei"
 
-#: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
-msgid "Are you sure?"
-msgstr "Esteu segur?"
+#~ msgid "Are you sure?"
+#~ msgstr "Esteu segur?"
 
-#: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Confirmeu que voleu reiniciar la contrasenya de %(email)s"
+#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
+#~ msgstr "Confirmeu que voleu reiniciar la contrasenya de %(email)s"
 
-#: server/templates/email/reset.html:4
-msgid "Reset password"
-msgstr "Reinicia la contrasenya"
+#~ msgid "Reset password"
+#~ msgstr "Reinicia la contrasenya"
 
-#: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
-#: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr "Aquest missatge és automàtic; no cal que feu res."
+#~ msgid ""
+#~ "This is an automated email; if you received it in error, no action is "
+#~ "required."
+#~ msgstr "Aquest missatge és automàtic; no cal que feu res."
 
-#: server/templates/email/reset.html:6 server/templates/email/verify.html:6
-msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
-msgstr ""
-"Per a més informació, visiteu l'<a href='https://support.mozilla.org'>ajuda "
-"de Mozilla</a>"
+#~ msgid ""
+#~ "For more information, please visit <a href='https://support.mozilla."
+#~ "org'>Mozilla Support</a>"
+#~ msgstr ""
+#~ "Per a més informació, visiteu l'<a href='https://support.mozilla."
+#~ "org'>ajuda de Mozilla</a>"
 
-#: server/templates/email/reset.txt:3
-msgid "Reset password:"
-msgstr "Reinicia la contrasenya:"
+#~ msgid "Reset password:"
+#~ msgstr "Reinicia la contrasenya:"
 
-#: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr "Per a més informació, visiteu https://support.mozilla.org"
+#~ msgid "For more information, please visit https://support.mozilla.org"
+#~ msgstr "Per a més informació, visiteu https://support.mozilla.org"
 
-#: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
-msgid "Congratulations!"
-msgstr "Felicitats!"
+#~ msgid "Congratulations!"
+#~ msgstr "Felicitats!"
 
-#: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
-msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr "%(email)s, sou a punt de verificar el vostre compte del Firefox."
+#~ msgid ""
+#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgstr "%(email)s, sou a punt de verificar el vostre compte del Firefox."
 
-#: server/templates/email/verify.html:4
-msgid "Verify"
-msgstr "Verifica"
+#~ msgid "Verify"
+#~ msgstr "Verifica"
 
-#: server/templates/email/verify.txt:3
-msgid "Verify:"
-msgstr "Verifica:"
+#~ msgid "Verify:"
+#~ msgstr "Verifica:"
 
-#: server/lib/templates.js:63
-msgid "Verify your account"
-msgstr "Verifiqueu el vostre compte"
+#~ msgid "Verify your account"
+#~ msgstr "Verifiqueu el vostre compte"
 
-#: server/lib/templates.js:68
-msgid "Reset your password"
-msgstr "Reinicia la contrasenya"
+#~ msgid "Reset your password"
+#~ msgstr "Reinicia la contrasenya"
 
 #~ msgid "Reset Password Request"
 #~ msgstr "Reinicia la sol·licitud de contrasenya"

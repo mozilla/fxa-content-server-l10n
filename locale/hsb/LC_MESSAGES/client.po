@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-10 18:39+0000\n"
+"POT-Creation-Date: 2015-02-20 19:15+0000\n"
 "PO-Revision-Date: 2015-01-08 19:52+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,308 +10,328 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1420746753.0\n"
 
-#: app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/sign_up.mustache:16
 msgid "1991"
 msgstr "1991"
 
-#: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/sign_up.mustache:17
 msgid "1992"
 msgstr "1992"
 
-#: app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/sign_up.mustache:18
 msgid "1993"
 msgstr "1993"
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:19
 msgid "1994"
 msgstr "1994"
 
-#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/sign_up.mustache:20
 msgid "1995"
 msgstr "1995"
 
-#: app/scripts/templates/sign_up.mustache:20
+#: app/scripts/templates/sign_up.mustache:21
 msgid "1996"
 msgstr "1996"
 
-#: app/scripts/templates/sign_up.mustache:21
+#: app/scripts/templates/sign_up.mustache:22
 msgid "1997"
 msgstr "1997"
 
-#: app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/sign_up.mustache:23
 msgid "1998"
 msgstr "1998"
 
-#: app/scripts/templates/sign_up.mustache:23
+#: app/scripts/templates/sign_up.mustache:24
 msgid "1999"
 msgstr "1999"
 
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:25
 msgid "2000"
 msgstr "2000"
 
-#: app/scripts/templates/sign_up.mustache:25
+#: app/scripts/templates/sign_up.mustache:26
 msgid "2001"
 msgstr "2001"
 
-#: app/scripts/templates/sign_up.mustache:26
+#: app/scripts/templates/sign_up.mustache:27
 msgid "2002"
 msgstr "2002"
 
-#: app/scripts/templates/sign_up.mustache:27
+#: app/scripts/templates/sign_up.mustache:28
 msgid "2003"
 msgstr "2003"
 
-#: app/scripts/templates/sign_up.mustache:28
+#: app/scripts/templates/sign_up.mustache:29
 msgid "2004"
 msgstr "2004"
 
-#: app/scripts/templates/sign_up.mustache:29
+#: app/scripts/templates/sign_up.mustache:30
 msgid "2005"
 msgstr "2005"
 
-#: app/scripts/templates/sign_up.mustache:30
+#: app/scripts/templates/sign_up.mustache:31
 msgid "2006"
 msgstr "2006"
 
-#: app/scripts/templates/sign_up.mustache:31
+#: app/scripts/templates/sign_up.mustache:32
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/base.js:568
+#: app/scripts/views/base.js:665
 msgid "missing search parameter: %(itemName)s"
 msgstr "falowacy pytanski parameter: %(itemName)s"
 
-#: app/scripts/views/change_password.js:72
-msgid "Password changed"
-msgstr "Hesło změnjene"
-
-#: app/scripts/views/change_password.js:76
-msgid ""
-"Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
-"a>."
+#: app/scripts/views/change_password.js:80
+msgid "Password changed successfully"
 msgstr ""
-"Njewobkrućene konto. <a href=\"#\" id=\"resend\">Wobkrućensku e-mejlku znowa "
-"pósłać</a>."
 
-#: app/scripts/views/confirm_reset_password.js:157
+#: app/scripts/views/complete_reset_password.js:143
+#: app/scripts/views/complete_sign_up.js:84 app/scripts/views/confirm.js:92
+#: app/scripts/views/confirm_reset_password.js:176
+msgid "Account verified successfully"
+msgstr ""
+
+#: app/scripts/views/confirm_reset_password.js:164
 #: app/scripts/templates/ready.mustache:3
 msgid "Password reset"
 msgstr "Hesło je so wróćo stajiło"
 
-#: app/scripts/views/confirm_reset_password.js:176
-msgid "Password reset. Sign in to continue."
-msgstr "Hesło je wróćo stajene. Přizjewće so, zo byšće pokročował."
+#: app/scripts/views/confirm_reset_password.js:193
+msgid "Password reset successfully. Sign in to continue."
+msgstr ""
 
-#: app/scripts/views/delete_account.js:45
+#: app/scripts/views/delete_account.js:49
 msgid "Account deleted successfully"
 msgstr "Konto je so wuspěšnje zhašało"
 
-#: app/scripts/views/force_auth.js:37
-msgid "/force_auth requires an email"
-msgstr "/force_auth trjeba e-mejlowu adresu"
-
-#: app/scripts/views/reset_password.js:76 app/scripts/views/sign_in.js:142
+#: app/scripts/views/reset_password.js:67 app/scripts/views/sign_in.js:189
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Njeznate konto. <a href=\"/signup\">Registrować</a>"
 
-#: app/scripts/views/settings.js:43
-msgid "Signed out"
-msgstr "Wotzjewjeny"
+#: app/scripts/views/settings.js:51
+msgid "Signed out successfully"
+msgstr ""
 
-#: app/scripts/views/sign_up.js:339
+#: app/scripts/views/sign_up.js:399
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Konto hižo eksistuje. <a href=\"/signin\">Přizjewić</a>"
 
-#: app/scripts/views/settings/avatar_gravatar.js:65
+#: app/scripts/views/settings/avatar_gravatar.js:57
 msgid "No Gravatar found"
 msgstr "Žadyn gravatar namakany"
 
-#: app/scripts/views/settings/avatar_gravatar.js:92
+#: app/scripts/views/settings/avatar_gravatar.js:86
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr ""
 "K dispoziciji stajeny wot <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
-#: app/scripts/lib/auth-errors.js:61 app/scripts/lib/auth-errors.js:98
-#: app/scripts/lib/oauth-errors.js:44 app/scripts/lib/oauth-errors.js:46
-#: app/scripts/lib/oauth-errors.js:47 app/scripts/lib/oauth-errors.js:48
-#: app/scripts/lib/profile-client.js:120
+#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/auth-errors.js:165
+#: app/scripts/lib/auth-errors.js:181 app/scripts/lib/oauth-errors.js:45
+#: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:57
+#: app/scripts/lib/oauth-errors.js:61 app/scripts/lib/profile-errors.js:38
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Njewočakowany zmylk"
 
-#: app/scripts/lib/auth-errors.js:62
+#: app/scripts/lib/auth-errors.js:25
 msgid "Invalid token"
 msgstr "Njepłaćiwy token"
 
-#: app/scripts/lib/auth-errors.js:63
+#: app/scripts/lib/auth-errors.js:29
 msgid "Invalid timestamp in request signature"
 msgstr "Njepłaćiwy časowy kołk w naprašowanskej signaturje"
 
-#: app/scripts/lib/auth-errors.js:64
+#: app/scripts/lib/auth-errors.js:33
 msgid "Invalid nonce in request signature"
 msgstr "Njepłaćiwy nonce w naprašowanskej signaturje"
 
-#: app/scripts/lib/auth-errors.js:65
+#: app/scripts/lib/auth-errors.js:37
 msgid "Account already exists"
 msgstr "Konto hižo eksistuje"
 
-#: app/scripts/lib/auth-errors.js:66
+#: app/scripts/lib/auth-errors.js:41
 msgid "Unknown account"
 msgstr "Njeznate konto"
 
-#: app/scripts/lib/auth-errors.js:67
+#: app/scripts/lib/auth-errors.js:45
 msgid "Incorrect email case"
 msgstr "Njekorektna e-mejlowa adresa"
 
-#: app/scripts/lib/auth-errors.js:68
+#: app/scripts/lib/auth-errors.js:49
 msgid "Incorrect password"
 msgstr "Njekorektne hesło"
 
-#: app/scripts/lib/auth-errors.js:69
+#: app/scripts/lib/auth-errors.js:53
 msgid "Unverified account"
 msgstr "Njewobkrućene konto"
 
-#: app/scripts/lib/auth-errors.js:70
-msgid "Invalid verification code"
-msgstr "Njepłaćiwy wobkrućenski kod"
+#: app/scripts/lib/auth-errors.js:57
+msgid "Invalid verification errno"
+msgstr ""
 
-#: app/scripts/lib/auth-errors.js:71
+#: app/scripts/lib/auth-errors.js:61
 msgid "Invalid JSON in request body"
 msgstr "Njepłaćiwy JSON w naprašowanskim ćělesu"
 
-#: app/scripts/lib/auth-errors.js:72 app/scripts/lib/oauth-errors.js:39
-#: app/scripts/lib/profile-client.js:114
+#: app/scripts/lib/auth-errors.js:65 app/scripts/lib/oauth-errors.js:33
+#: app/scripts/lib/profile-errors.js:22
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Njepłaćiwy parameter w naprašowanskim ćělesu: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:73
+#: app/scripts/lib/auth-errors.js:69
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Falowacy parameter w naprašowanskim ćělesu: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:74 app/scripts/lib/oauth-errors.js:40
+#: app/scripts/lib/auth-errors.js:73 app/scripts/lib/oauth-errors.js:37
 msgid "Invalid request signature"
 msgstr "Njepłaćiwa naprašowanska signatura"
 
-#: app/scripts/lib/auth-errors.js:75
+#: app/scripts/lib/auth-errors.js:77
 msgid "Missing content-length header"
 msgstr "Falowaca hłowowa linka content-length"
 
-#: app/scripts/lib/auth-errors.js:76
+#: app/scripts/lib/auth-errors.js:81
 msgid "Request body too large"
 msgstr "Naprašowanske ćěleso je předołhe"
 
-#: app/scripts/lib/auth-errors.js:77
+#: app/scripts/lib/auth-errors.js:85
 msgid "Attempt limit exceeded"
 msgstr "Maksimalna ličba pospytow je so překročiła"
 
-#: app/scripts/lib/auth-errors.js:78
+#: app/scripts/lib/auth-errors.js:89
 msgid "Server busy, try again soon"
 msgstr "Serwer je přećeženy, spytajće za krótki čas hišće raz"
 
-#: app/scripts/lib/auth-errors.js:79
+#: app/scripts/lib/auth-errors.js:93
 msgid "This endpoint is no longer supported"
 msgstr "Tutón kónčny dypk so hižo njepodpěruje"
 
-#: app/scripts/lib/auth-errors.js:82 app/scripts/lib/oauth-errors.js:43
-#: app/scripts/lib/profile-client.js:119
+#: app/scripts/lib/auth-errors.js:97 app/scripts/lib/oauth-errors.js:41
+#: app/scripts/lib/profile-errors.js:34
 msgid "System unavailable, try again soon"
 msgstr "System k dispoziciji njesteji, spytajće za krótki čas hišće raz"
 
-#: app/scripts/lib/auth-errors.js:83
+#: app/scripts/lib/auth-errors.js:101 app/scripts/lib/oauth-errors.js:65
+msgid "no message"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:105
 msgid "Session expired. Sign in to continue."
 msgstr "Posedźenje jo wotběžało. Přizjewće so, zo byšće pokročował."
 
-#: app/scripts/lib/auth-errors.js:84
+#: app/scripts/lib/auth-errors.js:109
 msgid "Cookies are still disabled"
 msgstr "Placki su hišće znjemóžnjene"
 
-#: app/scripts/lib/auth-errors.js:85
+#: app/scripts/lib/auth-errors.js:113
 msgid "Passwords do not match"
 msgstr "Hesle jenakej njejstej"
 
-#: app/scripts/lib/auth-errors.js:86
+#: app/scripts/lib/auth-errors.js:117
 msgid "Working…"
 msgstr "Je hišće w dźěle…"
 
-#: app/scripts/lib/auth-errors.js:87
+#: app/scripts/lib/auth-errors.js:121
 msgid "Could not get Privacy Notice"
 msgstr "Zdźělenka priwatnosće njeje so namakała"
 
-#: app/scripts/lib/auth-errors.js:88
+#: app/scripts/lib/auth-errors.js:125
 msgid "Could not get Terms of Service"
 msgstr "Wužiwanske wuměnjenja njejsu so namakali"
 
-#: app/scripts/lib/auth-errors.js:89
+#: app/scripts/lib/auth-errors.js:129
 msgid "Your new password must be different"
 msgstr "Waše nowe hesło dyrbi druhe być"
 
-#: app/scripts/lib/auth-errors.js:90
-#: app/scripts/templates/change_password.mustache:7
-#: app/scripts/templates/complete_reset_password.mustache:14
-#: app/scripts/templates/sign_up.mustache:11
+#: app/scripts/lib/auth-errors.js:133
+#: app/scripts/templates/change_password.mustache:9
+#: app/scripts/templates/complete_reset_password.mustache:16
+#: app/scripts/templates/sign_up.mustache:12
 msgid "Must be at least 8 characters"
 msgstr "Dyrbi znajmjeńša 8 znamješkow dołhe być"
 
-#: app/scripts/lib/auth-errors.js:91
+#: app/scripts/lib/auth-errors.js:137
 msgid "Valid password required"
 msgstr "Płaćiwe hesło trěbne"
 
-#: app/scripts/lib/auth-errors.js:92
+#: app/scripts/lib/auth-errors.js:141 app/scripts/lib/auth-errors.js:173
+#: app/scripts/lib/auth-errors.js:189
 msgid "Valid email required"
 msgstr "Płaćiwa e-mejlowa adresa trěbna"
 
-#: app/scripts/lib/auth-errors.js:93
+#: app/scripts/lib/auth-errors.js:145
 msgid "Year of birth required"
 msgstr "Lěto narodźenja trěbne"
 
-#: app/scripts/lib/auth-errors.js:94
+#: app/scripts/lib/auth-errors.js:149
 msgid "A usable image was not found"
 msgstr "Wužiwajomny wobraz njeje so namakał"
 
-#: app/scripts/lib/auth-errors.js:95
+#: app/scripts/lib/auth-errors.js:153
 msgid "Could not initialize camera"
 msgstr "Kamera njeda so inicializować"
 
-#: app/scripts/lib/auth-errors.js:96
+#: app/scripts/lib/auth-errors.js:157
 msgid "Valid URL required"
 msgstr "Płaćiwy URL trěbny"
 
-#: app/scripts/lib/auth-errors.js:97
+#: app/scripts/lib/auth-errors.js:161
 msgid "Valid birthday required"
 msgstr "Płaćiwe narodniny trěbne"
 
-#: app/scripts/lib/oauth-errors.js:36
+#: app/scripts/lib/auth-errors.js:169
+msgid "Your verification email was just returned. Mistyped email?"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:177
+msgid "Enter a valid email address. firefox.com does not offer email."
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:185
+#: app/scripts/templates/illegal_iframe.mustache:2
+msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:193
+msgid "/force_auth requires an email"
+msgstr "/force_auth trjeba e-mejlowu adresu"
+
+#: app/scripts/lib/oauth-errors.js:21
 msgid "Unknown client"
 msgstr "Njeznaty klient"
 
-#: app/scripts/lib/oauth-errors.js:37
+#: app/scripts/lib/oauth-errors.js:25
 msgid "Incorrect redirect_uri"
 msgstr "Njekorektny redirect_url"
 
-#: app/scripts/lib/oauth-errors.js:38
+#: app/scripts/lib/oauth-errors.js:29
 msgid "Invalid assertion"
 msgstr "Njepłaćiwe twjerdźenje"
 
-#: app/scripts/lib/oauth-errors.js:45
+#: app/scripts/lib/oauth-errors.js:49
 msgid "Something went wrong. Please close this tab and try again."
 msgstr ""
 "Něšto je so nimokuliło. Prošu začińće tutón rajtark a spytajće hišće raz."
 
-#: app/scripts/lib/profile-client.js:113
+#: app/scripts/lib/oauth-errors.js:69
+msgid "Missing OAuth parameter: %(param)s"
+msgstr ""
+
+#: app/scripts/lib/profile-errors.js:18
 msgid "Unauthorized"
 msgstr "Njeawtorizowany"
 
-#: app/scripts/lib/profile-client.js:115
+#: app/scripts/lib/profile-errors.js:26
 msgid "Unsupported image provider"
 msgstr "Njepodpěrany poskićowar wobrazow"
 
-#: app/scripts/lib/profile-client.js:116
+#: app/scripts/lib/profile-errors.js:30
 msgid "Image processing error"
 msgstr "Zmylk při předźěłowanju wobraza"
 
@@ -319,15 +339,7 @@ msgstr "Zmylk při předźěłowanju wobraza"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: app/scripts/lib/strings.js:17
-msgid ""
-"Your verification email was just returned. Mistyped email? <a href=\"/signup"
-"\">Start over.</a>"
-msgstr ""
-"Waša wobkrućenska e-mejlka je so wróćiła. Je e-mejlowa adresa wopak "
-"napisana? <a href=\"/signup\">Znowa započeć.</a>"
-
-#: app/scripts/lib/strings.js:21
+#: app/scripts/lib/strings.js:19
 msgid "Subscribe to Firefox news and tips"
 msgstr "Nowinki a pokiwy za Firefox abonować"
 
@@ -346,7 +358,7 @@ msgid "Learn more."
 msgstr "Dalše informacije."
 
 #: app/scripts/templates/change_password.mustache:1
-#: app/scripts/templates/settings.mustache:4
+#: app/scripts/templates/settings.mustache:5
 msgid "Change password"
 msgstr "Hesło změnić"
 
@@ -361,28 +373,28 @@ msgstr ""
 msgid "Old password"
 msgstr "Stare hesło"
 
-#: app/scripts/templates/change_password.mustache:4
-#: app/scripts/templates/change_password.mustache:6
-#: app/scripts/templates/complete_reset_password.mustache:11
-#: app/scripts/templates/complete_reset_password.mustache:13
+#: app/scripts/templates/change_password.mustache:5
+#: app/scripts/templates/change_password.mustache:8
+#: app/scripts/templates/complete_reset_password.mustache:12
+#: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/delete_account.mustache:4
 #: app/scripts/templates/force_auth.mustache:6
 #: app/scripts/templates/sign_in.mustache:8
-#: app/scripts/templates/sign_in.mustache:20
-#: app/scripts/templates/sign_up.mustache:10
+#: app/scripts/templates/sign_in.mustache:21
+#: app/scripts/templates/sign_up.mustache:11
 msgid "Show"
 msgstr "Pokazać"
 
-#: app/scripts/templates/change_password.mustache:5
+#: app/scripts/templates/change_password.mustache:6
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid "New password"
 msgstr "Nowe hesło"
 
-#: app/scripts/templates/change_password.mustache:8
+#: app/scripts/templates/change_password.mustache:10
 msgid "Confirm"
 msgstr "Wobkrućić"
 
-#: app/scripts/templates/change_password.mustache:9
+#: app/scripts/templates/change_password.mustache:11
 #: app/scripts/templates/delete_account.mustache:6
 #: app/scripts/templates/pp.mustache:3
 #: app/scripts/templates/reset_password.mustache:6
@@ -430,13 +442,12 @@ msgstr ""
 msgid "Reset password"
 msgstr "Hesło wróćo stajić"
 
-#: app/scripts/templates/complete_reset_password.mustache:12
+#: app/scripts/templates/complete_reset_password.mustache:13
 msgid "Repeat password"
 msgstr "Hesło wospjetować"
 
-#: app/scripts/templates/complete_reset_password.mustache:15
+#: app/scripts/templates/complete_reset_password.mustache:17
 #: app/scripts/templates/reset_password.mustache:5
-#: app/scripts/templates/settings/avatar_url.mustache:5
 msgid "Next"
 msgstr "Dale"
 
@@ -495,7 +506,7 @@ msgstr "Wotkaz za wróćostajenje je so na %(email)s pósłał"
 #: app/scripts/templates/sign_in.mustache:4
 #: app/scripts/templates/sign_in.mustache:9
 #: app/scripts/templates/sign_in.mustache:13
-#: app/scripts/templates/sign_in.mustache:21
+#: app/scripts/templates/sign_in.mustache:22
 msgid "Sign in"
 msgstr "Přizjewić"
 
@@ -524,7 +535,7 @@ msgstr "Spytajće hišće raz"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
-#: app/scripts/templates/settings.mustache:5
+#: app/scripts/templates/settings.mustache:6
 msgid "Delete account"
 msgstr "Konto zhašeć"
 
@@ -534,8 +545,8 @@ msgid ""
 msgstr "Chceće woprawdźe swoje konto zhašeć? Tuta akcija njeda so anulować."
 
 #: app/scripts/templates/delete_account.mustache:3
-#: app/scripts/templates/force_auth.mustache:4
-#: app/scripts/templates/sign_in.mustache:7
+#: app/scripts/templates/force_auth.mustache:3
+#: app/scripts/templates/sign_in.mustache:6
 #: app/scripts/templates/sign_in.mustache:18
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Password"
@@ -547,13 +558,13 @@ msgstr "Přizjewće so, zo byšće pokročował"
 
 #: app/scripts/templates/force_auth.mustache:8
 #: app/scripts/templates/sign_in.mustache:10
-#: app/scripts/templates/sign_in.mustache:22
+#: app/scripts/templates/sign_in.mustache:23
 msgid "Forgot password?"
 msgstr "Sće hesło zabył?"
 
 #: app/scripts/templates/force_auth.mustache:9
-#: app/scripts/templates/sign_in.mustache:24
-#: app/scripts/templates/sign_up.mustache:46
+#: app/scripts/templates/sign_in.mustache:25
+#: app/scripts/templates/sign_up.mustache:47
 msgid ""
 "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
 "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
@@ -562,6 +573,10 @@ msgstr ""
 "Jeli z tym pokročujeće, zwoliće do <a id=\"fxa-tos\" href=\"/legal/terms"
 "\">wužiwanskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy"
 "\">zdźělenki priwatnosće </a> mróčelowych słužbow Firefox."
+
+#: app/scripts/templates/illegal_iframe.mustache:1
+msgid "Illegal iframe"
+msgstr ""
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -573,13 +588,13 @@ msgid "Legal"
 msgstr "Prawniske wěcy"
 
 #: app/scripts/templates/legal.mustache:3
-#: app/scripts/templates/settings.mustache:8
+#: app/scripts/templates/settings.mustache:9
 #: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "Wužiwanske wuměnjenja"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
-#: app/scripts/templates/settings.mustache:9
+#: app/scripts/templates/settings.mustache:10
 msgid "Privacy Notice"
 msgstr "Zdźělenka priwatnosće"
 
@@ -628,20 +643,19 @@ msgstr ""
 "zawěsćenje wutwori so z wašich lokalnych přehladowanskich datow."
 
 #: app/scripts/templates/settings.mustache:1
-#: app/scripts/templates/settings/avatar.mustache:1
-#: app/scripts/templates/settings/avatar_camera.mustache:1
-#: app/scripts/templates/settings/avatar_change.mustache:1
-#: app/scripts/templates/settings/avatar_crop.mustache:1
-#: app/scripts/templates/settings/avatar_gravatar.mustache:1
-#: app/scripts/templates/settings/avatar_url.mustache:1
 msgid "Manage account"
 msgstr "Konto zrjadować"
 
-#: app/scripts/templates/settings.mustache:3
+#: app/scripts/templates/settings.mustache:2
+#: app/scripts/templates/settings/avatar.mustache:2
+msgid "Change"
+msgstr "Změnić"
+
+#: app/scripts/templates/settings.mustache:4
 msgid "You are signed in as"
 msgstr "Sće přizjewjeny jako"
 
-#: app/scripts/templates/settings.mustache:6
+#: app/scripts/templates/settings.mustache:7
 msgid "Sign out"
 msgstr "Wotzjewić"
 
@@ -655,7 +669,7 @@ msgstr "Dale k %(serviceName)s"
 msgid "Use a different account"
 msgstr "Wužiwajće druhe konto"
 
-#: app/scripts/templates/sign_in.mustache:23
+#: app/scripts/templates/sign_in.mustache:24
 msgid "Create an account"
 msgstr "Konto załožić"
 
@@ -664,134 +678,154 @@ msgstr "Konto załožić"
 msgid "Create a Firefox Account"
 msgstr "Konto Firefox załožić"
 
-#: app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/sign_up.mustache:14
 msgid "Year of birth"
 msgstr "Lěto narodźenja"
 
-#: app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/sign_up.mustache:15
 msgid "1990 or earlier"
 msgstr "1990 abo do toho"
 
-#: app/scripts/templates/sign_up.mustache:32
+#: app/scripts/templates/sign_up.mustache:33
 msgid "Month"
 msgstr "Měsac"
 
-#: app/scripts/templates/sign_up.mustache:33
+#: app/scripts/templates/sign_up.mustache:34
 msgid "January"
 msgstr "Januar"
 
-#: app/scripts/templates/sign_up.mustache:34
+#: app/scripts/templates/sign_up.mustache:35
 msgid "February"
 msgstr "Februar"
 
-#: app/scripts/templates/sign_up.mustache:35
+#: app/scripts/templates/sign_up.mustache:36
 msgid "March"
 msgstr "Měrc"
 
-#: app/scripts/templates/sign_up.mustache:36
+#: app/scripts/templates/sign_up.mustache:37
 msgid "April"
 msgstr "Apryl"
 
-#: app/scripts/templates/sign_up.mustache:37
+#: app/scripts/templates/sign_up.mustache:38
 msgid "May"
 msgstr "Meja"
 
-#: app/scripts/templates/sign_up.mustache:38
+#: app/scripts/templates/sign_up.mustache:39
 msgid "June"
 msgstr "Junij"
 
-#: app/scripts/templates/sign_up.mustache:39
+#: app/scripts/templates/sign_up.mustache:40
 msgid "July"
 msgstr "Julij"
 
-#: app/scripts/templates/sign_up.mustache:40
+#: app/scripts/templates/sign_up.mustache:41
 msgid "August"
 msgstr "Awgust"
 
-#: app/scripts/templates/sign_up.mustache:41
+#: app/scripts/templates/sign_up.mustache:42
 msgid "September"
 msgstr "September"
 
-#: app/scripts/templates/sign_up.mustache:42
+#: app/scripts/templates/sign_up.mustache:43
 msgid "October"
 msgstr "Oktober"
 
-#: app/scripts/templates/sign_up.mustache:43
+#: app/scripts/templates/sign_up.mustache:44
 msgid "November"
 msgstr "Nowember"
 
-#: app/scripts/templates/sign_up.mustache:44
+#: app/scripts/templates/sign_up.mustache:45
 msgid "December"
 msgstr "December"
 
-#: app/scripts/templates/sign_up.mustache:45
+#: app/scripts/templates/sign_up.mustache:46
 msgid "Day"
 msgstr "Dźeń"
 
-#: app/scripts/templates/sign_up.mustache:47
+#: app/scripts/templates/sign_up.mustache:48
 msgid "Sign up"
 msgstr "Registrować"
 
-#: app/scripts/templates/sign_up.mustache:48
+#: app/scripts/templates/sign_up.mustache:50
 msgid "Choose what to sync"
 msgstr "Wubjerće, štož ma so synchronizować"
 
-#: app/scripts/templates/sign_up.mustache:50
+#: app/scripts/templates/sign_up.mustache:52
 msgid "Already have an account? Sign in."
 msgstr "Maće hižo konto? Přizjewće so."
 
 #: app/scripts/templates/unexpected_error.mustache:2
+#: app/scripts/templates/settings/avatar_change.mustache:6
 msgid "Home"
 msgstr "Startowa strona"
 
-#: app/scripts/templates/settings/avatar.mustache:2
-#: app/scripts/templates/settings/avatar_camera.mustache:2
-#: app/scripts/templates/settings/avatar_change.mustache:2
-#: app/scripts/templates/settings/avatar_crop.mustache:2
-#: app/scripts/templates/settings/avatar_gravatar.mustache:2
-#: app/scripts/templates/settings/avatar_url.mustache:2
+#: app/scripts/templates/settings/avatar.mustache:1
+#: app/scripts/templates/settings/avatar_camera.mustache:1
+#: app/scripts/templates/settings/avatar_change.mustache:1
+#: app/scripts/templates/settings/avatar_crop.mustache:1
+#: app/scripts/templates/settings/avatar_gravatar.mustache:1
 msgid "Account picture"
 msgstr "Kontowy wobraz"
 
-#: app/scripts/templates/settings/avatar.mustache:4
-msgid "Change"
-msgstr "Změnić"
-
-#: app/scripts/templates/settings/avatar_camera.mustache:4
+#: app/scripts/templates/settings/avatar_camera.mustache:2
 msgid "Take picture"
 msgstr "Fotografować"
 
-#: app/scripts/templates/settings/avatar_camera.mustache:5
-#: app/scripts/templates/settings/avatar_crop.mustache:5
-#: app/scripts/templates/settings/avatar_gravatar.mustache:5
-#: app/scripts/templates/settings/avatar_url.mustache:6
+#: app/scripts/templates/settings/avatar_camera.mustache:3
+#: app/scripts/templates/settings/avatar_crop.mustache:4
+#: app/scripts/templates/settings/avatar_gravatar.mustache:4
 msgid "Cancel"
 msgstr "Přetorhnyć"
 
-#: app/scripts/templates/settings/avatar_change.mustache:4
+#: app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Upload"
 msgstr "Nahrać"
 
-#: app/scripts/templates/settings/avatar_change.mustache:5
+#: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Camera"
 msgstr "Kamera"
 
-#: app/scripts/templates/settings/avatar_change.mustache:6
+#: app/scripts/templates/settings/avatar_change.mustache:5
 msgid "Gravatar"
 msgstr "Gravatar"
 
-#: app/scripts/templates/settings/avatar_crop.mustache:3
+#: app/scripts/templates/settings/avatar_crop.mustache:2
 msgid "Position and rotate your picture as needed"
 msgstr "Zaměstńće a wjerćće swój wobraz po swojim dobrozdaću"
 
-#: app/scripts/templates/settings/avatar_crop.mustache:4
-#: app/scripts/templates/settings/avatar_gravatar.mustache:4
+#: app/scripts/templates/settings/avatar_crop.mustache:3
+#: app/scripts/templates/settings/avatar_gravatar.mustache:3
 msgid "Save"
 msgstr "Składować"
 
-#: app/scripts/templates/settings/avatar_url.mustache:4
-msgid "Paste image URL"
-msgstr "URL wobraza zasadźić"
+#~ msgid "Password changed"
+#~ msgstr "Hesło změnjene"
+
+#~ msgid ""
+#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
+#~ "email</a>."
+#~ msgstr ""
+#~ "Njewobkrućene konto. <a href=\"#\" id=\"resend\">Wobkrućensku e-mejlku "
+#~ "znowa pósłać</a>."
+
+#~ msgid "Password reset. Sign in to continue."
+#~ msgstr "Hesło je wróćo stajene. Přizjewće so, zo byšće pokročował."
+
+#~ msgid "Signed out"
+#~ msgstr "Wotzjewjeny"
+
+#~ msgid "Invalid verification code"
+#~ msgstr "Njepłaćiwy wobkrućenski kod"
+
+#~ msgid ""
+#~ "Your verification email was just returned. Mistyped email? <a href=\"/"
+#~ "signup\">Start over.</a>"
+#~ msgstr ""
+#~ "Waša wobkrućenska e-mejlka je so wróćiła. Je e-mejlowa adresa wopak "
+#~ "napisana? <a href=\"/signup\">Znowa započeć.</a>"
+
+#~ msgid "Paste image URL"
+#~ msgstr "URL wobraza zasadźić"
 
 #~ msgid "Invalid password"
 #~ msgstr "Njepłaćiwe hesło"

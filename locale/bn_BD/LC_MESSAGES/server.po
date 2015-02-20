@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-10 18:39+0000\n"
+"POT-Creation-Date: 2015-02-20 19:15+0000\n"
 "PO-Revision-Date: 2014-10-22 04:46+0000\n"
 "Last-Translator: Tapu <tapu_afrad@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,14 +14,18 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1413953192.0\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1 server/templates/email/reset.html:1
-#: server/templates/email/verify.html:1
+#: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "ফায়ারফক্স অ্যাকাউন্টস"
+
+#: server/templates/pages/src/400.html:2
+msgid "Bad Request"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -36,7 +40,7 @@ msgstr ""
 "থাকলে তা আমরা ঠিক করব।"
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/503.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "প্রথম পাতা"
 
@@ -44,13 +48,17 @@ msgstr "প্রথম পাতা"
 msgid "500 Error"
 msgstr "500 Error"
 
-#: server/templates/pages/src/500.html:3
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr ""
 "আহা, কিছু একটা সমস্যা হয়ে গেছে। আমাদের অবহিত করা হয়েছে এবং এটি সমাধান করতে "
 "আমরা কাজ করবো।"
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr ""
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -94,67 +102,56 @@ msgstr "ফায়ারফক্স ক্লাউড সেবা সমূহ
 msgid "Terms of Service"
 msgstr "সেবার শর্ত সমূহ"
 
-#: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
-msgid "Are you sure?"
-msgstr "আপনি নিশ্চিত?"
+#~ msgid "Are you sure?"
+#~ msgstr "আপনি নিশ্চিত?"
 
-#: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "অনুগ্রহ করে নিশ্চিত করুন যে আপনি %(email)s এর জন্য পাসওয়ার্ড রিসেট করতে চান।"
+#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
+#~ msgstr ""
+#~ "অনুগ্রহ করে নিশ্চিত করুন যে আপনি %(email)s এর জন্য পাসওয়ার্ড রিসেট করতে চান।"
 
-#: server/templates/email/reset.html:4
-msgid "Reset password"
-msgstr "রিসেট পাসওয়ার্ড"
+#~ msgid "Reset password"
+#~ msgstr "রিসেট পাসওয়ার্ড"
 
-#: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
-#: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"এটি একটি স্বয়ংক্রিয় ইমেইল; যদি কোন ত্রুটির কারনে আপনি এটি পেয়ে থাকেন, কিছু করার "
-"প্রয়োজন নেই।"
+#~ msgid ""
+#~ "This is an automated email; if you received it in error, no action is "
+#~ "required."
+#~ msgstr ""
+#~ "এটি একটি স্বয়ংক্রিয় ইমেইল; যদি কোন ত্রুটির কারনে আপনি এটি পেয়ে থাকেন, কিছু "
+#~ "করার প্রয়োজন নেই।"
 
-#: server/templates/email/reset.html:6 server/templates/email/verify.html:6
-msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
-msgstr ""
-"আরও তথ্যের জন্য অনুগ্রহ করে <a href='https://support.mozilla.org'>মজিলা সহায়তা "
-"সাইট</a> ভিজিট করুন।"
+#~ msgid ""
+#~ "For more information, please visit <a href='https://support.mozilla."
+#~ "org'>Mozilla Support</a>"
+#~ msgstr ""
+#~ "আরও তথ্যের জন্য অনুগ্রহ করে <a href='https://support.mozilla.org'>মজিলা "
+#~ "সহায়তা সাইট</a> ভিজিট করুন।"
 
-#: server/templates/email/reset.txt:3
-msgid "Reset password:"
-msgstr "পাসওয়ার্ড রিসেট:"
+#~ msgid "Reset password:"
+#~ msgstr "পাসওয়ার্ড রিসেট:"
 
-#: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr "আরও তথ্যের জন্য অনুগ্রহ করে https://support.mozilla.org ভিজিট করুন"
+#~ msgid "For more information, please visit https://support.mozilla.org"
+#~ msgstr "আরও তথ্যের জন্য অনুগ্রহ করে https://support.mozilla.org ভিজিট করুন"
 
-#: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
-msgid "Congratulations!"
-msgstr "অভিনন্দন!"
+#~ msgid "Congratulations!"
+#~ msgstr "অভিনন্দন!"
 
-#: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
-msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr ""
-"%(email)s, আপনি আপনার ফায়ারফক্স অ্যাকাউন্ট নিশ্চিত করা থেকে একটি ক্লিক দূরে আছেন।"
+#~ msgid ""
+#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgstr ""
+#~ "%(email)s, আপনি আপনার ফায়ারফক্স অ্যাকাউন্ট নিশ্চিত করা থেকে একটি ক্লিক দূরে "
+#~ "আছেন।"
 
-#: server/templates/email/verify.html:4
-msgid "Verify"
-msgstr "নিশ্চিত"
+#~ msgid "Verify"
+#~ msgstr "নিশ্চিত"
 
-#: server/templates/email/verify.txt:3
-msgid "Verify:"
-msgstr "নিশ্চিত:"
+#~ msgid "Verify:"
+#~ msgstr "নিশ্চিত:"
 
-#: server/lib/templates.js:63
-msgid "Verify your account"
-msgstr "আপনার অ্যাকাউন্ট নিশ্চিত করুন"
+#~ msgid "Verify your account"
+#~ msgstr "আপনার অ্যাকাউন্ট নিশ্চিত করুন"
 
-#: server/lib/templates.js:68
-msgid "Reset your password"
-msgstr "আপনার পাসওয়ার্ড রিসেট করুন"
+#~ msgid "Reset your password"
+#~ msgstr "আপনার পাসওয়ার্ড রিসেট করুন"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "সিস্টেমের সাথে যোগাযোগ করা যাচ্ছে না, একটু পর চেষ্টা করুন"

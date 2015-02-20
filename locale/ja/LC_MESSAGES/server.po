@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-10 18:39+0000\n"
+"POT-Creation-Date: 2015-02-20 19:15+0000\n"
 "PO-Revision-Date: 2015-02-05 07:17+0000\n"
 "Last-Translator: kaz <kaz_ic@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,14 +14,18 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1423120631.0\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1 server/templates/email/reset.html:1
-#: server/templates/email/verify.html:1
+#: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox アカウント"
+
+#: server/templates/pages/src/400.html:2
+msgid "Bad Request"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -35,7 +39,7 @@ msgstr ""
 "リクエストしたページは存在しません。このリンク切れ情報を受け付けました。"
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/503.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "ホーム"
 
@@ -43,11 +47,15 @@ msgstr "ホーム"
 msgid "500 Error"
 msgstr "500 エラー"
 
-#: server/templates/pages/src/500.html:3
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr "エラーが発生しました。エラー通知を受け取りしだい修正に努めます。"
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr ""
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -92,66 +100,54 @@ msgstr "Firefox クラウドサービス"
 msgid "Terms of Service"
 msgstr "利用規約"
 
-#: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
-msgid "Are you sure?"
-msgstr "リセットしますか？"
+#~ msgid "Are you sure?"
+#~ msgstr "リセットしますか？"
 
-#: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "%(email)s に送信されたメールでパスワードのリセットを確認してください。"
+#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
+#~ msgstr ""
+#~ "%(email)s に送信されたメールでパスワードのリセットを確認してください。"
 
-#: server/templates/email/reset.html:4
-msgid "Reset password"
-msgstr "パスワードをリセットする"
+#~ msgid "Reset password"
+#~ msgstr "パスワードをリセットする"
 
-#: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
-#: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"これは自動で配信されたメールです。心当たりがない場合は、何も行わないでくださ"
-"い。"
+#~ msgid ""
+#~ "This is an automated email; if you received it in error, no action is "
+#~ "required."
+#~ msgstr ""
+#~ "これは自動で配信されたメールです。心当たりがない場合は、何も行わないでくだ"
+#~ "さい。"
 
-#: server/templates/email/reset.html:6 server/templates/email/verify.html:6
-msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
-msgstr ""
-"詳しい情報は、<a href='https://support.mozilla.org'>Mozilla サポート</a> をご"
-"覧ください"
+#~ msgid ""
+#~ "For more information, please visit <a href='https://support.mozilla."
+#~ "org'>Mozilla Support</a>"
+#~ msgstr ""
+#~ "詳しい情報は、<a href='https://support.mozilla.org'>Mozilla サポート</a> "
+#~ "をご覧ください"
 
-#: server/templates/email/reset.txt:3
-msgid "Reset password:"
-msgstr "パスワードをリセットする:"
+#~ msgid "Reset password:"
+#~ msgstr "パスワードをリセットする:"
 
-#: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr "詳しい情報は、 https://support.mozilla.org をご覧ください。"
+#~ msgid "For more information, please visit https://support.mozilla.org"
+#~ msgstr "詳しい情報は、 https://support.mozilla.org をご覧ください。"
 
-#: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
-msgid "Congratulations!"
-msgstr "おめでとうございます"
+#~ msgid "Congratulations!"
+#~ msgstr "おめでとうございます"
 
-#: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
-msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr "クリックすると %(email)s を Firefox アカウントとして認証できます。"
+#~ msgid ""
+#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgstr "クリックすると %(email)s を Firefox アカウントとして認証できます。"
 
-#: server/templates/email/verify.html:4
-msgid "Verify"
-msgstr "認証"
+#~ msgid "Verify"
+#~ msgstr "認証"
 
-#: server/templates/email/verify.txt:3
-msgid "Verify:"
-msgstr "認証:"
+#~ msgid "Verify:"
+#~ msgstr "認証:"
 
-#: server/lib/templates.js:63
-msgid "Verify your account"
-msgstr "アカウントを認証する"
+#~ msgid "Verify your account"
+#~ msgstr "アカウントを認証する"
 
-#: server/lib/templates.js:68
-msgid "Reset your password"
-msgstr "パスワードをリセットする"
+#~ msgid "Reset your password"
+#~ msgstr "パスワードをリセットする"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "システムが利用できません。しばらくしてから再度お試しください"

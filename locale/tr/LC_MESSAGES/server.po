@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-10 18:39+0000\n"
+"POT-Creation-Date: 2015-02-20 19:15+0000\n"
 "PO-Revision-Date: 2014-10-31 10:40+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,14 +14,18 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1414752020.0\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1 server/templates/email/reset.html:1
-#: server/templates/email/verify.html:1
+#: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Hesapları"
+
+#: server/templates/pages/src/400.html:2
+msgid "Bad Request"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -36,7 +40,7 @@ msgstr ""
 "için durumu site yöneticilerimize bildirdik."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/503.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "Ana sayfa"
 
@@ -44,13 +48,17 @@ msgstr "Ana sayfa"
 msgid "500 Error"
 msgstr "500 hatası"
 
-#: server/templates/pages/src/500.html:3
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr ""
 "Ters giden bir şeyler var. Kendi kendimize haber verdik ve sorunu "
 "düzelteceğiz."
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr ""
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -94,69 +102,56 @@ msgstr "Firefox bulut servisleri"
 msgid "Terms of Service"
 msgstr "Hizmet Koşulları"
 
-#: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
-msgid "Are you sure?"
-msgstr "Emin misiniz?"
+#~ msgid "Are you sure?"
+#~ msgstr "Emin misiniz?"
 
-#: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr ""
-"Lütfen %(email)s adresinin parolasını sıfırlamak istediğiniz onaylayın."
+#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
+#~ msgstr ""
+#~ "Lütfen %(email)s adresinin parolasını sıfırlamak istediğiniz onaylayın."
 
-#: server/templates/email/reset.html:4
-msgid "Reset password"
-msgstr "Parolanızı sıfırlayın"
+#~ msgid "Reset password"
+#~ msgstr "Parolanızı sıfırlayın"
 
-#: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
-#: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"Bu e-posta otomatik olarak gönderilmiştir. Hatalı olduğunu düşünüyorsanız "
-"bir şey yapmanıza gerek yoktur."
+#~ msgid ""
+#~ "This is an automated email; if you received it in error, no action is "
+#~ "required."
+#~ msgstr ""
+#~ "Bu e-posta otomatik olarak gönderilmiştir. Hatalı olduğunu düşünüyorsanız "
+#~ "bir şey yapmanıza gerek yoktur."
 
-#: server/templates/email/reset.html:6 server/templates/email/verify.html:6
-msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
-msgstr ""
-"Daha fazla bilgi için lütfen <a href='https://support.mozilla.org'>Mozilla "
-"Destek</a>'i ziyaret edin"
+#~ msgid ""
+#~ "For more information, please visit <a href='https://support.mozilla."
+#~ "org'>Mozilla Support</a>"
+#~ msgstr ""
+#~ "Daha fazla bilgi için lütfen <a href='https://support.mozilla."
+#~ "org'>Mozilla Destek</a>'i ziyaret edin"
 
-#: server/templates/email/reset.txt:3
-msgid "Reset password:"
-msgstr "Parolanızı sıfırlayın:"
+#~ msgid "Reset password:"
+#~ msgstr "Parolanızı sıfırlayın:"
 
-#: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr ""
-"Daha fazla bilgi için lütfen https://support.mozilla.org adresini ziyaret "
-"edin"
+#~ msgid "For more information, please visit https://support.mozilla.org"
+#~ msgstr ""
+#~ "Daha fazla bilgi için lütfen https://support.mozilla.org adresini ziyaret "
+#~ "edin"
 
-#: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
-msgid "Congratulations!"
-msgstr "Tebrikler!"
+#~ msgid "Congratulations!"
+#~ msgstr "Tebrikler!"
 
-#: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
-msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr "%(email)s, Firefox hesabınızı doğrulamanıza bir tıklama kaldı."
+#~ msgid ""
+#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgstr "%(email)s, Firefox hesabınızı doğrulamanıza bir tıklama kaldı."
 
-#: server/templates/email/verify.html:4
-msgid "Verify"
-msgstr "Doğrula"
+#~ msgid "Verify"
+#~ msgstr "Doğrula"
 
-#: server/templates/email/verify.txt:3
-msgid "Verify:"
-msgstr "Doğrula:"
+#~ msgid "Verify:"
+#~ msgstr "Doğrula:"
 
-#: server/lib/templates.js:63
-msgid "Verify your account"
-msgstr "Hesabınızı doğrulayın"
+#~ msgid "Verify your account"
+#~ msgstr "Hesabınızı doğrulayın"
 
-#: server/lib/templates.js:68
-msgid "Reset your password"
-msgstr "Parolanızı sıfırlayın"
+#~ msgid "Reset your password"
+#~ msgstr "Parolanızı sıfırlayın"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "Sistem kullanılamıyor, daha sonra tekrar deneyin"

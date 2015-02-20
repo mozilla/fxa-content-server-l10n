@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-10 18:39+0000\n"
+"POT-Creation-Date: 2015-02-20 19:15+0000\n"
 "PO-Revision-Date: 2014-10-26 18:50+0000\n"
 "Last-Translator: Jørgen   <joergenr@stofanet.dk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,14 +14,18 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1414349457.0\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1 server/templates/email/reset.html:1
-#: server/templates/email/verify.html:1
+#: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox-konti"
+
+#: server/templates/pages/src/400.html:2
+msgid "Bad Request"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -36,7 +40,7 @@ msgstr ""
 "der ikke virker."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/503.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "Start"
 
@@ -44,13 +48,17 @@ msgstr "Start"
 msgid "500 Error"
 msgstr "Fejl 500"
 
-#: server/templates/pages/src/500.html:3
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr ""
 "Åh nej, noget gik galt. Vi har fået besked og vil gå i gang med at finde en "
 "løsning."
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr ""
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -93,66 +101,53 @@ msgstr "Firefox online-tjenester"
 msgid "Terms of Service"
 msgstr "Tjenestevilkår"
 
-#: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
-msgid "Are you sure?"
-msgstr "Er du sikker?"
+#~ msgid "Are you sure?"
+#~ msgstr "Er du sikker?"
 
-#: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Bekræft, at du vil nulstille adgangskoden til %(email)s."
+#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
+#~ msgstr "Bekræft, at du vil nulstille adgangskoden til %(email)s."
 
-#: server/templates/email/reset.html:4
-msgid "Reset password"
-msgstr "Nulstil adgangskode"
+#~ msgid "Reset password"
+#~ msgstr "Nulstil adgangskode"
 
-#: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
-#: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"Dette er en automatiseret mail; hvis du har modtaget denne mail ved en fejl, "
-"behøver du ikke foretage dig noget."
+#~ msgid ""
+#~ "This is an automated email; if you received it in error, no action is "
+#~ "required."
+#~ msgstr ""
+#~ "Dette er en automatiseret mail; hvis du har modtaget denne mail ved en "
+#~ "fejl, behøver du ikke foretage dig noget."
 
-#: server/templates/email/reset.html:6 server/templates/email/verify.html:6
-msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
-msgstr ""
-"For yderligere information, besøg <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
+#~ msgid ""
+#~ "For more information, please visit <a href='https://support.mozilla."
+#~ "org'>Mozilla Support</a>"
+#~ msgstr ""
+#~ "For yderligere information, besøg <a href='https://support.mozilla."
+#~ "org'>Mozilla Support</a>"
 
-#: server/templates/email/reset.txt:3
-msgid "Reset password:"
-msgstr "Nulstil adgangskode:"
+#~ msgid "Reset password:"
+#~ msgstr "Nulstil adgangskode:"
 
-#: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr "For mere information, besøg https://support.mozilla.org"
+#~ msgid "For more information, please visit https://support.mozilla.org"
+#~ msgstr "For mere information, besøg https://support.mozilla.org"
 
-#: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
-msgid "Congratulations!"
-msgstr "Tillykke!"
+#~ msgid "Congratulations!"
+#~ msgstr "Tillykke!"
 
-#: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
-msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr "%(email)s, du er et klik fra at bekræfte din Firefox-konto."
+#~ msgid ""
+#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgstr "%(email)s, du er et klik fra at bekræfte din Firefox-konto."
 
-#: server/templates/email/verify.html:4
-msgid "Verify"
-msgstr "Bekræft"
+#~ msgid "Verify"
+#~ msgstr "Bekræft"
 
-#: server/templates/email/verify.txt:3
-msgid "Verify:"
-msgstr "Bekræft:"
+#~ msgid "Verify:"
+#~ msgstr "Bekræft:"
 
-#: server/lib/templates.js:63
-msgid "Verify your account"
-msgstr "Bekræft din konto"
+#~ msgid "Verify your account"
+#~ msgstr "Bekræft din konto"
 
-#: server/lib/templates.js:68
-msgid "Reset your password"
-msgstr "Nulstil din adgangskode"
+#~ msgid "Reset your password"
+#~ msgstr "Nulstil din adgangskode"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "Systemet er ikke tilgængeligt, prøv igen om lidt"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-10 18:39+0000\n"
+"POT-Creation-Date: 2015-02-20 19:15+0000\n"
 "PO-Revision-Date: 2015-01-07 10:11+0000\n"
 "Last-Translator: Zachary <zcarter@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,301 +14,321 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1420625507.0\n"
 
-#: app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/sign_up.mustache:16
 msgid "1991"
 msgstr "১৯৯১"
 
-#: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/sign_up.mustache:17
 msgid "1992"
 msgstr "১৯৯২"
 
-#: app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/sign_up.mustache:18
 msgid "1993"
 msgstr "১৯৯৩"
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:19
 msgid "1994"
 msgstr "১৯৯৪"
 
-#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/sign_up.mustache:20
 msgid "1995"
 msgstr "১৯৯৫"
 
-#: app/scripts/templates/sign_up.mustache:20
+#: app/scripts/templates/sign_up.mustache:21
 msgid "1996"
 msgstr "১৯৯৬"
 
-#: app/scripts/templates/sign_up.mustache:21
+#: app/scripts/templates/sign_up.mustache:22
 msgid "1997"
 msgstr "১৯৯৭"
 
-#: app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/sign_up.mustache:23
 msgid "1998"
 msgstr "১৯৯৮"
 
-#: app/scripts/templates/sign_up.mustache:23
+#: app/scripts/templates/sign_up.mustache:24
 msgid "1999"
 msgstr "১৯৯৯"
 
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:25
 msgid "2000"
 msgstr "২০০০"
 
-#: app/scripts/templates/sign_up.mustache:25
+#: app/scripts/templates/sign_up.mustache:26
 msgid "2001"
 msgstr "২০০১"
 
-#: app/scripts/templates/sign_up.mustache:26
+#: app/scripts/templates/sign_up.mustache:27
 msgid "2002"
 msgstr "২০০২"
 
-#: app/scripts/templates/sign_up.mustache:27
+#: app/scripts/templates/sign_up.mustache:28
 msgid "2003"
 msgstr "২০০৩"
 
-#: app/scripts/templates/sign_up.mustache:28
+#: app/scripts/templates/sign_up.mustache:29
 msgid "2004"
 msgstr "২০০৪"
 
-#: app/scripts/templates/sign_up.mustache:29
+#: app/scripts/templates/sign_up.mustache:30
 msgid "2005"
 msgstr "২০০৫"
 
-#: app/scripts/templates/sign_up.mustache:30
+#: app/scripts/templates/sign_up.mustache:31
 msgid "2006"
 msgstr "২০০৬"
 
-#: app/scripts/templates/sign_up.mustache:31
+#: app/scripts/templates/sign_up.mustache:32
 msgid "2007"
 msgstr "২০০৭"
 
-#: app/scripts/views/base.js:568
+#: app/scripts/views/base.js:665
 msgid "missing search parameter: %(itemName)s"
 msgstr "অনুপস্থিত অনুসন্ধান প্যারামিটার: %(itemName)s"
 
-#: app/scripts/views/change_password.js:72
-msgid "Password changed"
-msgstr "পাসওয়ার্ড পরিবর্তন হয়েছে"
-
-#: app/scripts/views/change_password.js:76
-msgid ""
-"Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</"
-"a>."
+#: app/scripts/views/change_password.js:80
+msgid "Password changed successfully"
 msgstr ""
-"অযাচাইকৃত অ্যাকাউন্ট। <a href=\"#\" id=\"resend\"> পুনরায় যাচাইকরণ ইমেইল পাঠান</"
-"a>।"
 
-#: app/scripts/views/confirm_reset_password.js:157
+#: app/scripts/views/complete_reset_password.js:143
+#: app/scripts/views/complete_sign_up.js:84 app/scripts/views/confirm.js:92
+#: app/scripts/views/confirm_reset_password.js:176
+msgid "Account verified successfully"
+msgstr ""
+
+#: app/scripts/views/confirm_reset_password.js:164
 #: app/scripts/templates/ready.mustache:3
 msgid "Password reset"
 msgstr "পাসওয়ার্ড রিসেট"
 
-#: app/scripts/views/confirm_reset_password.js:176
-msgid "Password reset. Sign in to continue."
-msgstr "পাসওয়ার্ড রিসেট। অবিরত সাইন ইন করুন।"
+#: app/scripts/views/confirm_reset_password.js:193
+msgid "Password reset successfully. Sign in to continue."
+msgstr ""
 
-#: app/scripts/views/delete_account.js:45
+#: app/scripts/views/delete_account.js:49
 msgid "Account deleted successfully"
 msgstr "অ্যাকাউন্ট সফলভাবে মুছে ফেলা হয়েছে"
 
-#: app/scripts/views/force_auth.js:37
-msgid "/force_auth requires an email"
-msgstr "/force_auth এর জন্য ইমেইল প্রয়োজন"
-
-#: app/scripts/views/reset_password.js:76 app/scripts/views/sign_in.js:142
+#: app/scripts/views/reset_password.js:67 app/scripts/views/sign_in.js:189
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "অচেনা অ্যাকাউন্ট। <a href=\"/signup\">সাইন আপ</a> "
 
-#: app/scripts/views/settings.js:43
-msgid "Signed out"
-msgstr "সাইন আউট করা হয়েছে"
+#: app/scripts/views/settings.js:51
+msgid "Signed out successfully"
+msgstr ""
 
-#: app/scripts/views/sign_up.js:339
+#: app/scripts/views/sign_up.js:399
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "অ্যাকাউন্ট আগেই আছে। <a href=\"/signin\">সাইন ইন</a>"
 
-#: app/scripts/views/settings/avatar_gravatar.js:65
+#: app/scripts/views/settings/avatar_gravatar.js:57
 msgid "No Gravatar found"
 msgstr "কোন গ্রাভাটার পাওয়া যায় নি"
 
-#: app/scripts/views/settings/avatar_gravatar.js:92
+#: app/scripts/views/settings/avatar_gravatar.js:86
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "<a href=\"https://www.gravatar.com\">গ্রাভাটার</a> এর সৌজন্যে"
 
-#: app/scripts/lib/auth-errors.js:61 app/scripts/lib/auth-errors.js:98
-#: app/scripts/lib/oauth-errors.js:44 app/scripts/lib/oauth-errors.js:46
-#: app/scripts/lib/oauth-errors.js:47 app/scripts/lib/oauth-errors.js:48
-#: app/scripts/lib/profile-client.js:120
+#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/auth-errors.js:165
+#: app/scripts/lib/auth-errors.js:181 app/scripts/lib/oauth-errors.js:45
+#: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:57
+#: app/scripts/lib/oauth-errors.js:61 app/scripts/lib/profile-errors.js:38
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "অপ্রত্যাশিত ত্রুটি"
 
-#: app/scripts/lib/auth-errors.js:62
+#: app/scripts/lib/auth-errors.js:25
 msgid "Invalid token"
 msgstr "অকার্যকর টোকেন"
 
-#: app/scripts/lib/auth-errors.js:63
+#: app/scripts/lib/auth-errors.js:29
 msgid "Invalid timestamp in request signature"
 msgstr "সাক্ষর অনুরোধে অকার্যকর টাইমস্ট্যাম্প"
 
-#: app/scripts/lib/auth-errors.js:64
+#: app/scripts/lib/auth-errors.js:33
 msgid "Invalid nonce in request signature"
 msgstr "স্বাক্ষর অনুরোধে এইবারের মতো অকার্যকর"
 
-#: app/scripts/lib/auth-errors.js:65
+#: app/scripts/lib/auth-errors.js:37
 msgid "Account already exists"
 msgstr "অ্যাকাউন্টটি ইতিমধ্যেই রয়েছে।"
 
-#: app/scripts/lib/auth-errors.js:66
+#: app/scripts/lib/auth-errors.js:41
 msgid "Unknown account"
 msgstr "অজানা অ্যাকাউন্ট"
 
-#: app/scripts/lib/auth-errors.js:67
+#: app/scripts/lib/auth-errors.js:45
 msgid "Incorrect email case"
 msgstr "ভুল ইমেইল কেস"
 
-#: app/scripts/lib/auth-errors.js:68
+#: app/scripts/lib/auth-errors.js:49
 msgid "Incorrect password"
 msgstr "ভুল পাসওয়ার্ড"
 
-#: app/scripts/lib/auth-errors.js:69
+#: app/scripts/lib/auth-errors.js:53
 msgid "Unverified account"
 msgstr "অযাচাইকৃত অ্যাকাউন্ট"
 
-#: app/scripts/lib/auth-errors.js:70
-msgid "Invalid verification code"
-msgstr "অকার্যকর যাচাইকরণ কোড"
+#: app/scripts/lib/auth-errors.js:57
+msgid "Invalid verification errno"
+msgstr ""
 
-#: app/scripts/lib/auth-errors.js:71
+#: app/scripts/lib/auth-errors.js:61
 msgid "Invalid JSON in request body"
 msgstr "অনুরোধ বডিতে JSON টি অচেনা"
 
-#: app/scripts/lib/auth-errors.js:72 app/scripts/lib/oauth-errors.js:39
-#: app/scripts/lib/profile-client.js:114
+#: app/scripts/lib/auth-errors.js:65 app/scripts/lib/oauth-errors.js:33
+#: app/scripts/lib/profile-errors.js:22
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "রিকোয়েস্ট বডিতে %(param)sটি প্যারামিটারটি অবৈধ"
 
-#: app/scripts/lib/auth-errors.js:73
+#: app/scripts/lib/auth-errors.js:69
 msgid "Missing parameter in request body: %(param)s"
 msgstr "রিকোয়েস্ট বডিতে %(param)s প্যারামিটারটি পাওয়া যায়নি"
 
-#: app/scripts/lib/auth-errors.js:74 app/scripts/lib/oauth-errors.js:40
+#: app/scripts/lib/auth-errors.js:73 app/scripts/lib/oauth-errors.js:37
 msgid "Invalid request signature"
 msgstr "স্বাক্ষরের অনুরোধটি অবৈধ"
 
-#: app/scripts/lib/auth-errors.js:75
+#: app/scripts/lib/auth-errors.js:77
 msgid "Missing content-length header"
 msgstr "হেডারে বিষয়বস্তুর দৈর্ঘ্য খুঁজে পাওয়া যায়নি"
 
-#: app/scripts/lib/auth-errors.js:76
+#: app/scripts/lib/auth-errors.js:81
 msgid "Request body too large"
 msgstr "অনুরোধের লেখা অনেক বড়"
 
-#: app/scripts/lib/auth-errors.js:77
+#: app/scripts/lib/auth-errors.js:85
 msgid "Attempt limit exceeded"
 msgstr "প্রচেষ্টা সীমা অতিক্রম করেছে"
 
-#: app/scripts/lib/auth-errors.js:78
+#: app/scripts/lib/auth-errors.js:89
 msgid "Server busy, try again soon"
 msgstr "সার্ভার ব্যস্ত, শীঘ্রই আবার চেষ্টা করুন"
 
-#: app/scripts/lib/auth-errors.js:79
+#: app/scripts/lib/auth-errors.js:93
 msgid "This endpoint is no longer supported"
 msgstr "এই শেষবিন্দু আর সমর্থিত নয়"
 
-#: app/scripts/lib/auth-errors.js:82 app/scripts/lib/oauth-errors.js:43
-#: app/scripts/lib/profile-client.js:119
+#: app/scripts/lib/auth-errors.js:97 app/scripts/lib/oauth-errors.js:41
+#: app/scripts/lib/profile-errors.js:34
 msgid "System unavailable, try again soon"
 msgstr "সিস্টেম উপলব্ধ নয়, শীঘ্রই আবার চেষ্টা করুন"
 
-#: app/scripts/lib/auth-errors.js:83
+#: app/scripts/lib/auth-errors.js:101 app/scripts/lib/oauth-errors.js:65
+msgid "no message"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:105
 msgid "Session expired. Sign in to continue."
 msgstr "সেশনের মেয়াদ শেষ। চালিয়ে যেতে সাইন ইন করুন।"
 
-#: app/scripts/lib/auth-errors.js:84
+#: app/scripts/lib/auth-errors.js:109
 msgid "Cookies are still disabled"
 msgstr "কুকিজ এখনও নিষ্ক্রিয় করা হয় নি"
 
-#: app/scripts/lib/auth-errors.js:85
+#: app/scripts/lib/auth-errors.js:113
 msgid "Passwords do not match"
 msgstr "পাসওয়ার্ড মিলছে না"
 
-#: app/scripts/lib/auth-errors.js:86
+#: app/scripts/lib/auth-errors.js:117
 msgid "Working…"
 msgstr "প্রক্রিয়া চলছে…"
 
-#: app/scripts/lib/auth-errors.js:87
+#: app/scripts/lib/auth-errors.js:121
 msgid "Could not get Privacy Notice"
 msgstr "গোপনীয়তা বিজ্ঞপ্তি পাবেন না"
 
-#: app/scripts/lib/auth-errors.js:88
+#: app/scripts/lib/auth-errors.js:125
 msgid "Could not get Terms of Service"
 msgstr "সেবা শর্ত বিজ্ঞপ্তি পাওয়া যায় না"
 
-#: app/scripts/lib/auth-errors.js:89
+#: app/scripts/lib/auth-errors.js:129
 msgid "Your new password must be different"
 msgstr "আপনার নতুন পাসওয়ার্ডটিকে অবশ্যই ভিন্ন হতে হবে"
 
-#: app/scripts/lib/auth-errors.js:90
-#: app/scripts/templates/change_password.mustache:7
-#: app/scripts/templates/complete_reset_password.mustache:14
-#: app/scripts/templates/sign_up.mustache:11
+#: app/scripts/lib/auth-errors.js:133
+#: app/scripts/templates/change_password.mustache:9
+#: app/scripts/templates/complete_reset_password.mustache:16
+#: app/scripts/templates/sign_up.mustache:12
 msgid "Must be at least 8 characters"
 msgstr "অবশ্যই কমপক্ষে ৮ অক্ষরের হতে হবে"
 
-#: app/scripts/lib/auth-errors.js:91
+#: app/scripts/lib/auth-errors.js:137
 msgid "Valid password required"
 msgstr "কার্যকর পাসওয়ার্ড আবশ্যক"
 
-#: app/scripts/lib/auth-errors.js:92
+#: app/scripts/lib/auth-errors.js:141 app/scripts/lib/auth-errors.js:173
+#: app/scripts/lib/auth-errors.js:189
 msgid "Valid email required"
 msgstr "কার্যকর ইমেইল আবশ্যক"
 
-#: app/scripts/lib/auth-errors.js:93
+#: app/scripts/lib/auth-errors.js:145
 msgid "Year of birth required"
 msgstr "জন্মসাল আবশ্যক"
 
-#: app/scripts/lib/auth-errors.js:94
+#: app/scripts/lib/auth-errors.js:149
 msgid "A usable image was not found"
 msgstr "ব্যবহার করার মত ছবি পাওয়া যায়নি"
 
-#: app/scripts/lib/auth-errors.js:95
+#: app/scripts/lib/auth-errors.js:153
 msgid "Could not initialize camera"
 msgstr "ক্যামেরা আরম্ভ করা যায়নি"
 
-#: app/scripts/lib/auth-errors.js:96
+#: app/scripts/lib/auth-errors.js:157
 msgid "Valid URL required"
 msgstr "কার্যকর URL প্রয়োজন"
 
-#: app/scripts/lib/auth-errors.js:97
+#: app/scripts/lib/auth-errors.js:161
 msgid "Valid birthday required"
 msgstr "বৈধ জন্ম তারিখ আবশ্যক"
 
-#: app/scripts/lib/oauth-errors.js:36
+#: app/scripts/lib/auth-errors.js:169
+msgid "Your verification email was just returned. Mistyped email?"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:177
+msgid "Enter a valid email address. firefox.com does not offer email."
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:185
+#: app/scripts/templates/illegal_iframe.mustache:2
+msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:193
+msgid "/force_auth requires an email"
+msgstr "/force_auth এর জন্য ইমেইল প্রয়োজন"
+
+#: app/scripts/lib/oauth-errors.js:21
 msgid "Unknown client"
 msgstr "অজানা ক্লায়েন্ট"
 
-#: app/scripts/lib/oauth-errors.js:37
+#: app/scripts/lib/oauth-errors.js:25
 msgid "Incorrect redirect_uri"
 msgstr "ভুল redirect_uri"
 
-#: app/scripts/lib/oauth-errors.js:38
+#: app/scripts/lib/oauth-errors.js:29
 msgid "Invalid assertion"
 msgstr "অকার্যকর বিবৃতি"
 
-#: app/scripts/lib/oauth-errors.js:45
+#: app/scripts/lib/oauth-errors.js:49
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "কিছু একটা ভুল হয়েছে। দয়াকরে এই ট্যাবটি বন্ধ করে পুনরায় চেষ্টা করুন।"
 
-#: app/scripts/lib/profile-client.js:113
+#: app/scripts/lib/oauth-errors.js:69
+msgid "Missing OAuth parameter: %(param)s"
+msgstr ""
+
+#: app/scripts/lib/profile-errors.js:18
 msgid "Unauthorized"
 msgstr "অননুমোদিত"
 
-#: app/scripts/lib/profile-client.js:115
+#: app/scripts/lib/profile-errors.js:26
 msgid "Unsupported image provider"
 msgstr "ছবি প্রদানকারী অসমর্থিত"
 
-#: app/scripts/lib/profile-client.js:116
+#: app/scripts/lib/profile-errors.js:30
 msgid "Image processing error"
 msgstr "ইমেজ প্রসেসিং এ ত্রুটি"
 
@@ -316,13 +336,7 @@ msgstr "ইমেজ প্রসেসিং এ ত্রুটি"
 msgid "Firefox Sync"
 msgstr "ফায়ারফক্স সিঙ্ক"
 
-#: app/scripts/lib/strings.js:17
-msgid ""
-"Your verification email was just returned. Mistyped email? <a href=\"/signup"
-"\">Start over.</a>"
-msgstr ""
-
-#: app/scripts/lib/strings.js:21
+#: app/scripts/lib/strings.js:19
 msgid "Subscribe to Firefox news and tips"
 msgstr "ফায়ারফক্স এর খবর ও টিপস-এ সাবস্ক্রাইভ করুন"
 
@@ -340,7 +354,7 @@ msgid "Learn more."
 msgstr "আরো জানুন।"
 
 #: app/scripts/templates/change_password.mustache:1
-#: app/scripts/templates/settings.mustache:4
+#: app/scripts/templates/settings.mustache:5
 msgid "Change password"
 msgstr "পাসওয়ার্ড পরিবর্তন"
 
@@ -355,28 +369,28 @@ msgstr ""
 msgid "Old password"
 msgstr "পুরাতন পাসওয়ার্ড"
 
-#: app/scripts/templates/change_password.mustache:4
-#: app/scripts/templates/change_password.mustache:6
-#: app/scripts/templates/complete_reset_password.mustache:11
-#: app/scripts/templates/complete_reset_password.mustache:13
+#: app/scripts/templates/change_password.mustache:5
+#: app/scripts/templates/change_password.mustache:8
+#: app/scripts/templates/complete_reset_password.mustache:12
+#: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/delete_account.mustache:4
 #: app/scripts/templates/force_auth.mustache:6
 #: app/scripts/templates/sign_in.mustache:8
-#: app/scripts/templates/sign_in.mustache:20
-#: app/scripts/templates/sign_up.mustache:10
+#: app/scripts/templates/sign_in.mustache:21
+#: app/scripts/templates/sign_up.mustache:11
 msgid "Show"
 msgstr "প্রদর্শন"
 
-#: app/scripts/templates/change_password.mustache:5
+#: app/scripts/templates/change_password.mustache:6
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid "New password"
 msgstr "নতুন পাসওয়ার্ড"
 
-#: app/scripts/templates/change_password.mustache:8
+#: app/scripts/templates/change_password.mustache:10
 msgid "Confirm"
 msgstr "নিশ্চিত"
 
-#: app/scripts/templates/change_password.mustache:9
+#: app/scripts/templates/change_password.mustache:11
 #: app/scripts/templates/delete_account.mustache:6
 #: app/scripts/templates/pp.mustache:3
 #: app/scripts/templates/reset_password.mustache:6
@@ -422,13 +436,12 @@ msgstr ""
 msgid "Reset password"
 msgstr "পাসওয়ার্ড রিসেট করুন"
 
-#: app/scripts/templates/complete_reset_password.mustache:12
+#: app/scripts/templates/complete_reset_password.mustache:13
 msgid "Repeat password"
 msgstr "পুনরায় পাসওয়ার্ড দিন"
 
-#: app/scripts/templates/complete_reset_password.mustache:15
+#: app/scripts/templates/complete_reset_password.mustache:17
 #: app/scripts/templates/reset_password.mustache:5
-#: app/scripts/templates/settings/avatar_url.mustache:5
 msgid "Next"
 msgstr "পরবর্তী"
 
@@ -485,7 +498,7 @@ msgstr "%(email)s এই ইমেইল এ রিসেট করার এক
 #: app/scripts/templates/sign_in.mustache:4
 #: app/scripts/templates/sign_in.mustache:9
 #: app/scripts/templates/sign_in.mustache:13
-#: app/scripts/templates/sign_in.mustache:21
+#: app/scripts/templates/sign_in.mustache:22
 msgid "Sign in"
 msgstr "সাইন ইন"
 
@@ -512,7 +525,7 @@ msgstr "আবার চেষ্টা করুন"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
-#: app/scripts/templates/settings.mustache:5
+#: app/scripts/templates/settings.mustache:6
 msgid "Delete account"
 msgstr "একাউন্ট মুছে ফেলুন"
 
@@ -522,8 +535,8 @@ msgid ""
 msgstr "আপনি কি একাউন্ট মুছে ফেলার ব্যাপারে নিশ্চিত? এটি পুনরায় ফেরত আনা যাবে না।"
 
 #: app/scripts/templates/delete_account.mustache:3
-#: app/scripts/templates/force_auth.mustache:4
-#: app/scripts/templates/sign_in.mustache:7
+#: app/scripts/templates/force_auth.mustache:3
+#: app/scripts/templates/sign_in.mustache:6
 #: app/scripts/templates/sign_in.mustache:18
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Password"
@@ -535,13 +548,13 @@ msgstr "চালিয়ে যেতে সাইন ইন করুন"
 
 #: app/scripts/templates/force_auth.mustache:8
 #: app/scripts/templates/sign_in.mustache:10
-#: app/scripts/templates/sign_in.mustache:22
+#: app/scripts/templates/sign_in.mustache:23
 msgid "Forgot password?"
 msgstr "পাসওয়ার্ড ভুলে গেছেন?"
 
 #: app/scripts/templates/force_auth.mustache:9
-#: app/scripts/templates/sign_in.mustache:24
-#: app/scripts/templates/sign_up.mustache:46
+#: app/scripts/templates/sign_in.mustache:25
+#: app/scripts/templates/sign_up.mustache:47
 msgid ""
 "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
 "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
@@ -550,6 +563,10 @@ msgstr ""
 "অগ্রসর হবার মাধ্যমে আমি ফায়ারফক্স ক্লাউড সেবার <a id=\"fxa-tos\" href=\"/legal/"
 "terms\">সেবা শর্ত</a> এবং <a id=\"fxa-pp\" href=\"/legal/privacy\">গোপনীয়তা "
 "নীতিমালায়</a> সম্মতি দিচ্ছি।"
+
+#: app/scripts/templates/illegal_iframe.mustache:1
+msgid "Illegal iframe"
+msgstr ""
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -561,13 +578,13 @@ msgid "Legal"
 msgstr "আইন"
 
 #: app/scripts/templates/legal.mustache:3
-#: app/scripts/templates/settings.mustache:8
+#: app/scripts/templates/settings.mustache:9
 #: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "সেবার শর্তাবলী"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
-#: app/scripts/templates/settings.mustache:9
+#: app/scripts/templates/settings.mustache:10
 msgid "Privacy Notice"
 msgstr "গোপনীয়তা নীতি"
 
@@ -614,20 +631,19 @@ msgstr ""
 "যাবে। আপনার লোকাল ব্রাউজিং তথ্য থেকে নতুন সিঙ্ক ব্যাকআপ তৈরী করা হবে।"
 
 #: app/scripts/templates/settings.mustache:1
-#: app/scripts/templates/settings/avatar.mustache:1
-#: app/scripts/templates/settings/avatar_camera.mustache:1
-#: app/scripts/templates/settings/avatar_change.mustache:1
-#: app/scripts/templates/settings/avatar_crop.mustache:1
-#: app/scripts/templates/settings/avatar_gravatar.mustache:1
-#: app/scripts/templates/settings/avatar_url.mustache:1
 msgid "Manage account"
 msgstr "একাউন্ট ব্যবস্থাপনা"
 
-#: app/scripts/templates/settings.mustache:3
+#: app/scripts/templates/settings.mustache:2
+#: app/scripts/templates/settings/avatar.mustache:2
+msgid "Change"
+msgstr "পরিবর্তন"
+
+#: app/scripts/templates/settings.mustache:4
 msgid "You are signed in as"
 msgstr "আপনি যে নামে সাইন ইন করে আছেন"
 
-#: app/scripts/templates/settings.mustache:6
+#: app/scripts/templates/settings.mustache:7
 msgid "Sign out"
 msgstr "সাইন আউট"
 
@@ -641,7 +657,7 @@ msgstr "%(serviceName)sতে চালিয়ে যান"
 msgid "Use a different account"
 msgstr "ভিন্ন একটি অ্যাকাউন্ট ব্যবহার করুন"
 
-#: app/scripts/templates/sign_in.mustache:23
+#: app/scripts/templates/sign_in.mustache:24
 msgid "Create an account"
 msgstr "একটি একাউন্ট খুলুন"
 
@@ -650,134 +666,147 @@ msgstr "একটি একাউন্ট খুলুন"
 msgid "Create a Firefox Account"
 msgstr "একটি ফায়ারফক্স একাউন্ট খুলুন"
 
-#: app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/sign_up.mustache:14
 msgid "Year of birth"
 msgstr "জন্মসাল"
 
-#: app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/sign_up.mustache:15
 msgid "1990 or earlier"
 msgstr "১৯৯০ বা তার পূর্বে"
 
-#: app/scripts/templates/sign_up.mustache:32
+#: app/scripts/templates/sign_up.mustache:33
 msgid "Month"
 msgstr "মাস"
 
-#: app/scripts/templates/sign_up.mustache:33
+#: app/scripts/templates/sign_up.mustache:34
 msgid "January"
 msgstr "জানুয়ারী"
 
-#: app/scripts/templates/sign_up.mustache:34
+#: app/scripts/templates/sign_up.mustache:35
 msgid "February"
 msgstr "ফেব্রুয়ারী"
 
-#: app/scripts/templates/sign_up.mustache:35
+#: app/scripts/templates/sign_up.mustache:36
 msgid "March"
 msgstr "মার্চ"
 
-#: app/scripts/templates/sign_up.mustache:36
+#: app/scripts/templates/sign_up.mustache:37
 msgid "April"
 msgstr "এপ্রিল"
 
-#: app/scripts/templates/sign_up.mustache:37
+#: app/scripts/templates/sign_up.mustache:38
 msgid "May"
 msgstr "মে"
 
-#: app/scripts/templates/sign_up.mustache:38
+#: app/scripts/templates/sign_up.mustache:39
 msgid "June"
 msgstr "জুন"
 
-#: app/scripts/templates/sign_up.mustache:39
+#: app/scripts/templates/sign_up.mustache:40
 msgid "July"
 msgstr "জুলাই"
 
-#: app/scripts/templates/sign_up.mustache:40
+#: app/scripts/templates/sign_up.mustache:41
 msgid "August"
 msgstr "আগস্ট"
 
-#: app/scripts/templates/sign_up.mustache:41
+#: app/scripts/templates/sign_up.mustache:42
 msgid "September"
 msgstr "সেপ্টেম্বর"
 
-#: app/scripts/templates/sign_up.mustache:42
+#: app/scripts/templates/sign_up.mustache:43
 msgid "October"
 msgstr "অক্টোবর"
 
-#: app/scripts/templates/sign_up.mustache:43
+#: app/scripts/templates/sign_up.mustache:44
 msgid "November"
 msgstr "নভেম্বর"
 
-#: app/scripts/templates/sign_up.mustache:44
+#: app/scripts/templates/sign_up.mustache:45
 msgid "December"
 msgstr "ডিসেম্বর"
 
-#: app/scripts/templates/sign_up.mustache:45
+#: app/scripts/templates/sign_up.mustache:46
 msgid "Day"
 msgstr "দিন"
 
-#: app/scripts/templates/sign_up.mustache:47
+#: app/scripts/templates/sign_up.mustache:48
 msgid "Sign up"
 msgstr "সাইন আপ"
 
-#: app/scripts/templates/sign_up.mustache:48
+#: app/scripts/templates/sign_up.mustache:50
 msgid "Choose what to sync"
 msgstr "কি সিঙ্ক করতে হবে তা পছন্দ করুন"
 
-#: app/scripts/templates/sign_up.mustache:50
+#: app/scripts/templates/sign_up.mustache:52
 msgid "Already have an account? Sign in."
 msgstr "ইতিমধ্যেই একটি একাউন্ট আছে? সাইন ইন"
 
 #: app/scripts/templates/unexpected_error.mustache:2
+#: app/scripts/templates/settings/avatar_change.mustache:6
 msgid "Home"
 msgstr "হোম"
 
-#: app/scripts/templates/settings/avatar.mustache:2
-#: app/scripts/templates/settings/avatar_camera.mustache:2
-#: app/scripts/templates/settings/avatar_change.mustache:2
-#: app/scripts/templates/settings/avatar_crop.mustache:2
-#: app/scripts/templates/settings/avatar_gravatar.mustache:2
-#: app/scripts/templates/settings/avatar_url.mustache:2
+#: app/scripts/templates/settings/avatar.mustache:1
+#: app/scripts/templates/settings/avatar_camera.mustache:1
+#: app/scripts/templates/settings/avatar_change.mustache:1
+#: app/scripts/templates/settings/avatar_crop.mustache:1
+#: app/scripts/templates/settings/avatar_gravatar.mustache:1
 msgid "Account picture"
 msgstr "একাউন্ট ছবি"
 
-#: app/scripts/templates/settings/avatar.mustache:4
-msgid "Change"
-msgstr "পরিবর্তন"
-
-#: app/scripts/templates/settings/avatar_camera.mustache:4
+#: app/scripts/templates/settings/avatar_camera.mustache:2
 msgid "Take picture"
 msgstr "ছবি তুলুন"
 
-#: app/scripts/templates/settings/avatar_camera.mustache:5
-#: app/scripts/templates/settings/avatar_crop.mustache:5
-#: app/scripts/templates/settings/avatar_gravatar.mustache:5
-#: app/scripts/templates/settings/avatar_url.mustache:6
+#: app/scripts/templates/settings/avatar_camera.mustache:3
+#: app/scripts/templates/settings/avatar_crop.mustache:4
+#: app/scripts/templates/settings/avatar_gravatar.mustache:4
 msgid "Cancel"
 msgstr "বাতিল"
 
-#: app/scripts/templates/settings/avatar_change.mustache:4
+#: app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Upload"
 msgstr "আপলোড"
 
-#: app/scripts/templates/settings/avatar_change.mustache:5
+#: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Camera"
 msgstr "ক্যামেরা"
 
-#: app/scripts/templates/settings/avatar_change.mustache:6
+#: app/scripts/templates/settings/avatar_change.mustache:5
 msgid "Gravatar"
 msgstr "গ্রাভাটার"
 
-#: app/scripts/templates/settings/avatar_crop.mustache:3
+#: app/scripts/templates/settings/avatar_crop.mustache:2
 msgid "Position and rotate your picture as needed"
 msgstr "প্রয়োজন মত অবস্থান এবং দিক ঠিক করুন"
 
-#: app/scripts/templates/settings/avatar_crop.mustache:4
-#: app/scripts/templates/settings/avatar_gravatar.mustache:4
+#: app/scripts/templates/settings/avatar_crop.mustache:3
+#: app/scripts/templates/settings/avatar_gravatar.mustache:3
 msgid "Save"
 msgstr "সংরক্ষণ"
 
-#: app/scripts/templates/settings/avatar_url.mustache:4
-msgid "Paste image URL"
-msgstr "ছবির ইউআরএল পেস্ট করুন"
+#~ msgid "Password changed"
+#~ msgstr "পাসওয়ার্ড পরিবর্তন হয়েছে"
+
+#~ msgid ""
+#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
+#~ "email</a>."
+#~ msgstr ""
+#~ "অযাচাইকৃত অ্যাকাউন্ট। <a href=\"#\" id=\"resend\"> পুনরায় যাচাইকরণ ইমেইল "
+#~ "পাঠান</a>।"
+
+#~ msgid "Password reset. Sign in to continue."
+#~ msgstr "পাসওয়ার্ড রিসেট। অবিরত সাইন ইন করুন।"
+
+#~ msgid "Signed out"
+#~ msgstr "সাইন আউট করা হয়েছে"
+
+#~ msgid "Invalid verification code"
+#~ msgstr "অকার্যকর যাচাইকরণ কোড"
+
+#~ msgid "Paste image URL"
+#~ msgstr "ছবির ইউআরএল পেস্ট করুন"
 
 #~ msgid "Invalid password"
 #~ msgstr "কার্যকর পাসওয়ার্ড"

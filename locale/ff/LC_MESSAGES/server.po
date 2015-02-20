@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-10 18:39+0000\n"
+"POT-Creation-Date: 2015-02-20 19:15+0000\n"
 "PO-Revision-Date: 2014-05-16 01:09+0200\n"
 "Last-Translator: Ibrahima SARR <ibrahima.sarr@pulaagu.com>\n"
 "Language-Team: FULAH LOCALIZATION\n"
@@ -13,14 +13,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Virtaal 0.7.1\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1 server/templates/email/reset.html:1
-#: server/templates/email/verify.html:1
+#: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Konte Firefox"
+
+#: server/templates/pages/src/400.html:2
+msgid "Bad Request"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -35,7 +39,7 @@ msgstr ""
 "jokkol baawngol taƴde."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/503.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "Jaɓɓorgo"
 
@@ -43,10 +47,14 @@ msgstr "Jaɓɓorgo"
 msgid "500 Error"
 msgstr ""
 
-#: server/templates/pages/src/500.html:3
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
+msgstr ""
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
 msgstr ""
 
 #: server/templates/pages/src/503.html:2
@@ -91,65 +99,53 @@ msgstr "Carwe ruulde Firefox"
 msgid "Terms of Service"
 msgstr "Sarɗiiji Carwe"
 
-#: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
-msgid "Are you sure?"
-msgstr "Aɗa yenanaa?"
+#~ msgid "Are you sure?"
+#~ msgstr "Aɗa yenanaa?"
 
-#: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Tiiɗno teeŋtin wonde aɗa yiɗi firlitde finnde maa e %(email)s."
+#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
+#~ msgstr "Tiiɗno teeŋtin wonde aɗa yiɗi firlitde finnde maa e %(email)s."
 
-#: server/templates/email/reset.html:4
-msgid "Reset password"
-msgstr "Firlit finnde"
+#~ msgid "Reset password"
+#~ msgstr "Firlit finnde"
 
-#: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
-#: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"Ɗuum ko iimeel jaajo; so a heɓiimo e juumre, alaa ko pot-ɗaa waɗde hay baɗte."
+#~ msgid ""
+#~ "This is an automated email; if you received it in error, no action is "
+#~ "required."
+#~ msgstr ""
+#~ "Ɗuum ko iimeel jaajo; so a heɓiimo e juumre, alaa ko pot-ɗaa waɗde hay "
+#~ "baɗte."
 
-#: server/templates/email/reset.html:6 server/templates/email/verify.html:6
-msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
-msgstr ""
-"Ngam ɓeydude humpito, tiiɗno yillo <a href='https://support.mozilla."
-"org'>Wallitorde Mozilla</a>"
+#~ msgid ""
+#~ "For more information, please visit <a href='https://support.mozilla."
+#~ "org'>Mozilla Support</a>"
+#~ msgstr ""
+#~ "Ngam ɓeydude humpito, tiiɗno yillo <a href='https://support.mozilla."
+#~ "org'>Wallitorde Mozilla</a>"
 
-#: server/templates/email/reset.txt:3
-msgid "Reset password:"
-msgstr "Firlit finnde:"
+#~ msgid "Reset password:"
+#~ msgstr "Firlit finnde:"
 
-#: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr "Ngam ɓeydude humpito, tiiɗno yillo https://support.mozilla.org"
+#~ msgid "For more information, please visit https://support.mozilla.org"
+#~ msgstr "Ngam ɓeydude humpito, tiiɗno yillo https://support.mozilla.org"
 
-#: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
-msgid "Congratulations!"
-msgstr "Woyyoo maa!"
+#~ msgid "Congratulations!"
+#~ msgstr "Woyyoo maa!"
 
-#: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
-msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr "%(email)s, heddii tan ko dobannde ngam ƴeewtagol Konte Firefox maa."
+#~ msgid ""
+#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgstr "%(email)s, heddii tan ko dobannde ngam ƴeewtagol Konte Firefox maa."
 
-#: server/templates/email/verify.html:4
-msgid "Verify"
-msgstr "Ƴeewto"
+#~ msgid "Verify"
+#~ msgstr "Ƴeewto"
 
-#: server/templates/email/verify.txt:3
-msgid "Verify:"
-msgstr "Ƴeewto:"
+#~ msgid "Verify:"
+#~ msgstr "Ƴeewto:"
 
-#: server/lib/templates.js:63
-msgid "Verify your account"
-msgstr "Ƴeewto konte maa"
+#~ msgid "Verify your account"
+#~ msgstr "Ƴeewto konte maa"
 
-#: server/lib/templates.js:68
-msgid "Reset your password"
-msgstr "Firlit finnde maa"
+#~ msgid "Reset your password"
+#~ msgstr "Firlit finnde maa"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "Yuɓɓo heɓotaako, eto ɗoo e yeeso"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-10 18:39+0000\n"
+"POT-Creation-Date: 2015-02-20 19:15+0000\n"
 "PO-Revision-Date: 2014-10-11 19:55+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,14 +14,18 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1413057333.0\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1 server/templates/email/reset.html:1
-#: server/templates/email/verify.html:1
+#: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox 帳號"
+
+#: server/templates/pages/src/400.html:2
+msgid "Bad Request"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -34,7 +38,7 @@ msgid ""
 msgstr "找不到您想開啟的頁面。我們已經通知開發團隊來檢查網頁。"
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/503.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "首頁"
 
@@ -42,11 +46,15 @@ msgstr "首頁"
 msgid "500 Error"
 msgstr "錯誤 500"
 
-#: server/templates/pages/src/500.html:3
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr "抱歉，有些東西怪怪的，我們已經記錄下來，並將會進行修復。"
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr ""
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -89,66 +97,53 @@ msgstr "Firefox 雲端服務"
 msgid "Terms of Service"
 msgstr "服務條款"
 
-#: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
-msgid "Are you sure?"
-msgstr "您確定嗎？"
+#~ msgid "Are you sure?"
+#~ msgstr "您確定嗎？"
 
-#: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "請確認您要重設帳號 %(email)s 的密碼。"
+#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
+#~ msgstr "請確認您要重設帳號 %(email)s 的密碼。"
 
-#: server/templates/email/reset.html:4
-msgid "Reset password"
-msgstr "重設密碼"
+#~ msgid "Reset password"
+#~ msgstr "重設密碼"
 
-#: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
-#: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"這是電腦自動發送的郵件，若您並未要求重設密碼而突然收到這封信，不需要做任何"
-"事。"
+#~ msgid ""
+#~ "This is an automated email; if you received it in error, no action is "
+#~ "required."
+#~ msgstr ""
+#~ "這是電腦自動發送的郵件，若您並未要求重設密碼而突然收到這封信，不需要做任何"
+#~ "事。"
 
-#: server/templates/email/reset.html:6 server/templates/email/verify.html:6
-msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
-msgstr ""
-"若需更多資訊，請參考 <a href='https://support.mozilla.org'>Mozilla 技術支援站"
-"</a>"
+#~ msgid ""
+#~ "For more information, please visit <a href='https://support.mozilla."
+#~ "org'>Mozilla Support</a>"
+#~ msgstr ""
+#~ "若需更多資訊，請參考 <a href='https://support.mozilla.org'>Mozilla 技術支"
+#~ "援站</a>"
 
-#: server/templates/email/reset.txt:3
-msgid "Reset password:"
-msgstr "重設密碼:"
+#~ msgid "Reset password:"
+#~ msgstr "重設密碼:"
 
-#: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr "若需更多資訊，請參考 https://support.mozilla.org"
+#~ msgid "For more information, please visit https://support.mozilla.org"
+#~ msgstr "若需更多資訊，請參考 https://support.mozilla.org"
 
-#: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
-msgid "Congratulations!"
-msgstr "恭喜！"
+#~ msgid "Congratulations!"
+#~ msgstr "恭喜！"
 
-#: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
-msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr "%(email)s，您只需要再花幾秒鐘就能將您的 Firefox 帳號驗證完成。"
+#~ msgid ""
+#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgstr "%(email)s，您只需要再花幾秒鐘就能將您的 Firefox 帳號驗證完成。"
 
-#: server/templates/email/verify.html:4
-msgid "Verify"
-msgstr "驗證"
+#~ msgid "Verify"
+#~ msgstr "驗證"
 
-#: server/templates/email/verify.txt:3
-msgid "Verify:"
-msgstr "驗證:"
+#~ msgid "Verify:"
+#~ msgstr "驗證:"
 
-#: server/lib/templates.js:63
-msgid "Verify your account"
-msgstr "驗證您的帳號"
+#~ msgid "Verify your account"
+#~ msgstr "驗證您的帳號"
 
-#: server/lib/templates.js:68
-msgid "Reset your password"
-msgstr "重設您的密碼"
+#~ msgid "Reset your password"
+#~ msgstr "重設您的密碼"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "系統無法使用，請稍後再試一次"
