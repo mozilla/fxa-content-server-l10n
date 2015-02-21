@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:15+0000\n"
-"PO-Revision-Date: 2015-01-09 08:21+0000\n"
+"PO-Revision-Date: 2015-02-21 19:00+0000\n"
 "Last-Translator: Artem <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1420791700.0\n"
+"X-POOTLE-MTIME: 1424545229.0\n"
 
 #: app/scripts/templates/sign_up.mustache:16
 msgid "1991"
@@ -89,13 +89,13 @@ msgstr "відсутній параметр пошуку: %(itemName)s"
 
 #: app/scripts/views/change_password.js:80
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Пароль успішно змінено"
 
 #: app/scripts/views/complete_reset_password.js:143
 #: app/scripts/views/complete_sign_up.js:84 app/scripts/views/confirm.js:92
 #: app/scripts/views/confirm_reset_password.js:176
 msgid "Account verified successfully"
-msgstr ""
+msgstr "Обліковий запис успішно перевірено"
 
 #: app/scripts/views/confirm_reset_password.js:164
 #: app/scripts/templates/ready.mustache:3
@@ -104,7 +104,7 @@ msgstr "Відновлення пароля"
 
 #: app/scripts/views/confirm_reset_password.js:193
 msgid "Password reset successfully. Sign in to continue."
-msgstr ""
+msgstr "Пароль успішно скинуто. Увійдіть для продовження."
 
 #: app/scripts/views/delete_account.js:49
 msgid "Account deleted successfully"
@@ -116,7 +116,7 @@ msgstr "Невідомий обліковий запис. <a href=\"/signup\">З
 
 #: app/scripts/views/settings.js:51
 msgid "Signed out successfully"
-msgstr ""
+msgstr "Вихід успішно виконано"
 
 #: app/scripts/views/sign_up.js:399
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
@@ -172,7 +172,7 @@ msgstr "Непідтверджений обліковий запис"
 
 #: app/scripts/lib/auth-errors.js:57
 msgid "Invalid verification errno"
-msgstr ""
+msgstr "Неправильний перевірочний errno"
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "Invalid JSON in request body"
@@ -218,7 +218,7 @@ msgstr "Система недоступна, спробуйте знову пі�
 
 #: app/scripts/lib/auth-errors.js:101 app/scripts/lib/oauth-errors.js:65
 msgid "no message"
-msgstr ""
+msgstr "немає повідомлення"
 
 #: app/scripts/lib/auth-errors.js:105
 msgid "Session expired. Sign in to continue."
@@ -286,16 +286,19 @@ msgstr "Необхідна дійсна дата"
 
 #: app/scripts/lib/auth-errors.js:169
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Ваш електронний лист було повернено. Помилилися з написанням?"
 
 #: app/scripts/lib/auth-errors.js:177
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr ""
+"Введіть правильну адресу електронної пошти. firefox.com не пропонує "
+"електронну пошту."
 
 #: app/scripts/lib/auth-errors.js:185
 #: app/scripts/templates/illegal_iframe.mustache:2
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
+"Облікові записи Firefox можуть бути вставлені лише в IFRAME схвалених сайтів"
 
 #: app/scripts/lib/auth-errors.js:193
 msgid "/force_auth requires an email"
@@ -319,7 +322,7 @@ msgstr "Щось пішло не так. Закрийте цю вкладку і
 
 #: app/scripts/lib/oauth-errors.js:69
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Втрачений параметр OAuth: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:18
 msgid "Unauthorized"
@@ -572,7 +575,7 @@ msgstr ""
 
 #: app/scripts/templates/illegal_iframe.mustache:1
 msgid "Illegal iframe"
-msgstr ""
+msgstr "Не дозволений iframe"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
