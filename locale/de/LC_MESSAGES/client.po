@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:15+0000\n"
-"PO-Revision-Date: 2015-01-08 21:35+0000\n"
+"PO-Revision-Date: 2015-02-21 09:15+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1420752938.0\n"
+"X-POOTLE-MTIME: 1424510137.0\n"
 
 #: app/scripts/templates/sign_up.mustache:16
 msgid "1991"
@@ -88,13 +88,13 @@ msgstr "Fehlender Suchparameter: %(itemName)s"
 
 #: app/scripts/views/change_password.js:80
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Passwort erfolgreich geändert"
 
 #: app/scripts/views/complete_reset_password.js:143
 #: app/scripts/views/complete_sign_up.js:84 app/scripts/views/confirm.js:92
 #: app/scripts/views/confirm_reset_password.js:176
 msgid "Account verified successfully"
-msgstr ""
+msgstr "Konto erfolgreich verifiziert"
 
 #: app/scripts/views/confirm_reset_password.js:164
 #: app/scripts/templates/ready.mustache:3
@@ -104,6 +104,7 @@ msgstr "Passwort zurückgesetzt"
 #: app/scripts/views/confirm_reset_password.js:193
 msgid "Password reset successfully. Sign in to continue."
 msgstr ""
+"Passwort erfolgreich zurückgesetzt. Melden Sie sich an, um fortzufahren."
 
 #: app/scripts/views/delete_account.js:49
 msgid "Account deleted successfully"
@@ -115,7 +116,7 @@ msgstr "Unbekanntes Konto. <a href=\"/signup\">Registrieren</a>"
 
 #: app/scripts/views/settings.js:51
 msgid "Signed out successfully"
-msgstr ""
+msgstr "Abmeldung erfolgreich"
 
 #: app/scripts/views/sign_up.js:399
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
@@ -172,7 +173,7 @@ msgstr "Nicht verifiziertes Konto"
 
 #: app/scripts/lib/auth-errors.js:57
 msgid "Invalid verification errno"
-msgstr ""
+msgstr "Ungültiges Verfizierungs-Errno"
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "Invalid JSON in request body"
@@ -218,7 +219,7 @@ msgstr "System nicht verfügbar, versuchen Sie es in Kürze erneut"
 
 #: app/scripts/lib/auth-errors.js:101 app/scripts/lib/oauth-errors.js:65
 msgid "no message"
-msgstr ""
+msgstr "Keine Nachricht"
 
 #: app/scripts/lib/auth-errors.js:105
 msgid "Session expired. Sign in to continue."
@@ -286,16 +287,20 @@ msgstr "Gültiges Geburtsdatum erforderlich"
 
 #: app/scripts/lib/auth-errors.js:169
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Ihre Bestätigungs-E-Mail kam gerade zurück. Stimmt Ihre E-Mail-Adresse?"
 
 #: app/scripts/lib/auth-errors.js:177
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr ""
+"Geben Sie eine gültige E-Mail-Adresse ein. firefox.com bietet keine E-Mail-"
+"Adressen an."
 
 #: app/scripts/lib/auth-errors.js:185
 #: app/scripts/templates/illegal_iframe.mustache:2
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
+"Firefox Accounts kann nur in einem IFRAME auf freigeschalteten Websites "
+"platziert werden"
 
 #: app/scripts/lib/auth-errors.js:193
 msgid "/force_auth requires an email"
@@ -321,7 +326,7 @@ msgstr ""
 
 #: app/scripts/lib/oauth-errors.js:69
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Fehlender OAuth-Parameter: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:18
 msgid "Unauthorized"
@@ -579,7 +584,7 @@ msgstr ""
 
 #: app/scripts/templates/illegal_iframe.mustache:1
 msgid "Illegal iframe"
-msgstr ""
+msgstr "Illegaler iframe"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1

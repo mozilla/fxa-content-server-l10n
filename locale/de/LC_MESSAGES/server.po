@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:15+0000\n"
-"PO-Revision-Date: 2014-11-16 19:33+0000\n"
+"PO-Revision-Date: 2015-02-21 09:15+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1416166435.0\n"
+"X-POOTLE-MTIME: 1424510151.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -25,7 +25,7 @@ msgstr "Firefox-Konten"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
-msgstr ""
+msgstr "Fehlerhafte Anfrage"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -58,7 +58,7 @@ msgstr ""
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "Fehler 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
