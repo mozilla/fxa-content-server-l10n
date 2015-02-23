@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:15+0000\n"
+"POT-Creation-Date: 2014-11-10 18:39+0000\n"
 "PO-Revision-Date: 2015-01-08 19:45+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,23 +10,19 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1420746356.0\n"
 
-#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
-#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/terms.html:1 server/templates/email/reset.html:1
+#: server/templates/email/verify.html:1
 msgid "Firefox Accounts"
 msgstr "Konta Firefox"
-
-#: server/templates/pages/src/400.html:2
-msgid "Bad Request"
-msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -41,7 +37,7 @@ msgstr ""
 "njepłaśiwe wótkaze."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+#: server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "Startowy bok"
 
@@ -49,17 +45,13 @@ msgstr "Startowy bok"
 msgid "500 Error"
 msgstr "Zmólka 500"
 
-#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+#: server/templates/pages/src/500.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr ""
 "Mój Bog, něco jo kśiwje šło. Smy se informěrowali a dajomy se do "
 "wótwónoźowanja problema."
-
-#: server/templates/pages/src/502.html:2
-msgid "502 Error"
-msgstr ""
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -103,56 +95,68 @@ msgstr "Mrokowsłužby Firefox"
 msgid "Terms of Service"
 msgstr "Wužywańske wuměnenja"
 
-#~ msgid "Are you sure?"
-#~ msgstr "Sćo se wěsty?"
+#: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
+msgid "Are you sure?"
+msgstr "Sćo se wěsty?"
 
-#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
-#~ msgstr "Pšosym wobkšuśćo, až cośo gronidło za %(email)s slědk stajiś."
+#: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
+msgid "Please confirm that you'd like to reset the password for %(email)s."
+msgstr "Pšosym wobkšuśćo, až cośo gronidło za %(email)s slědk stajiś."
 
-#~ msgid "Reset password"
-#~ msgstr "Gronidło slědk stajiś"
+#: server/templates/email/reset.html:4
+msgid "Reset password"
+msgstr "Gronidło slědk stajiś"
 
-#~ msgid ""
-#~ "This is an automated email; if you received it in error, no action is "
-#~ "required."
-#~ msgstr ""
-#~ "To jo awtomatizěrowana mailka; joli sćo ju zamólnje dostał, njetrjebaśo "
-#~ "nic cyniś."
+#: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
+#: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"To jo awtomatizěrowana mailka; joli sćo ju zamólnje dostał, njetrjebaśo nic "
+"cyniś."
 
-#~ msgid ""
-#~ "For more information, please visit <a href='https://support.mozilla."
-#~ "org'>Mozilla Support</a>"
-#~ msgstr ""
-#~ "Za dalšne informacije woglědajśo se pšosym <a href='https://support."
-#~ "mozilla.org'>pomoc Mozilla</a>"
+#: server/templates/email/reset.html:6 server/templates/email/verify.html:6
+msgid ""
+"For more information, please visit <a href='https://support.mozilla."
+"org'>Mozilla Support</a>"
+msgstr ""
+"Za dalšne informacije woglědajśo se pšosym <a href='https://support.mozilla."
+"org'>pomoc Mozilla</a>"
 
-#~ msgid "Reset password:"
-#~ msgstr "Gronidło slědk stajiś:"
+#: server/templates/email/reset.txt:3
+msgid "Reset password:"
+msgstr "Gronidło slědk stajiś:"
 
-#~ msgid "For more information, please visit https://support.mozilla.org"
-#~ msgstr ""
-#~ "Za dalšne informacije woglědajśo se pšosym https://support.mozilla.org"
+#: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
+msgid "For more information, please visit https://support.mozilla.org"
+msgstr "Za dalšne informacije woglědajśo se pšosym https://support.mozilla.org"
 
-#~ msgid "Congratulations!"
-#~ msgstr "Glukužycenje!"
+#: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
+msgid "Congratulations!"
+msgstr "Glukužycenje!"
 
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
-#~ msgstr ""
-#~ "%(email)s, sćo jano jadno kliknjenje wót wobkšuśenja swójogo konta "
-#~ "Firefox zdalony."
+#: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
+msgid "%(email)s, you're one click away from verifying your Firefox Account."
+msgstr ""
+"%(email)s, sćo jano jadno kliknjenje wót wobkšuśenja swójogo konta Firefox "
+"zdalony."
 
-#~ msgid "Verify"
-#~ msgstr "Wobkšuśiś"
+#: server/templates/email/verify.html:4
+msgid "Verify"
+msgstr "Wobkšuśiś"
 
-#~ msgid "Verify:"
-#~ msgstr "Wobkšuśiś:"
+#: server/templates/email/verify.txt:3
+msgid "Verify:"
+msgstr "Wobkšuśiś:"
 
-#~ msgid "Verify your account"
-#~ msgstr "Wobkšuśćo swójo konto"
+#: server/lib/templates.js:63
+msgid "Verify your account"
+msgstr "Wobkšuśćo swójo konto"
 
-#~ msgid "Reset your password"
-#~ msgstr "Stajśo swójo gronidło slědk"
+#: server/lib/templates.js:68
+msgid "Reset your password"
+msgstr "Stajśo swójo gronidło slědk"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "System njestoj k dispoziciji, wopytajśo za krotki cas hyšći raz"
