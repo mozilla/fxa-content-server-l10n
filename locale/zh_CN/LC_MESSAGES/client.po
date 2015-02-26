@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:15+0000\n"
-"PO-Revision-Date: 2015-02-26 05:07+0000\n"
+"PO-Revision-Date: 2015-02-26 23:46+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1424927232.0\n"
+"X-POOTLE-MTIME: 1424994413.0\n"
 
 #: app/scripts/templates/sign_up.mustache:16
 msgid "1991"
@@ -88,13 +88,13 @@ msgstr "缺少搜索参数：%(itemName)s"
 
 #: app/scripts/views/change_password.js:80
 msgid "Password changed successfully"
-msgstr ""
+msgstr "密码更改成功"
 
 #: app/scripts/views/complete_reset_password.js:143
 #: app/scripts/views/complete_sign_up.js:84 app/scripts/views/confirm.js:92
 #: app/scripts/views/confirm_reset_password.js:176
 msgid "Account verified successfully"
-msgstr ""
+msgstr "账号验证成功"
 
 #: app/scripts/views/confirm_reset_password.js:164
 #: app/scripts/templates/ready.mustache:3
@@ -103,7 +103,7 @@ msgstr "密码已重置"
 
 #: app/scripts/views/confirm_reset_password.js:193
 msgid "Password reset successfully. Sign in to continue."
-msgstr ""
+msgstr "密码重置成功。请登录以继续。"
 
 #: app/scripts/views/delete_account.js:49
 msgid "Account deleted successfully"
@@ -118,7 +118,7 @@ msgstr ""
 
 #: app/scripts/views/settings.js:51
 msgid "Signed out successfully"
-msgstr ""
+msgstr "退出成功"
 
 #: app/scripts/views/sign_up.js:399
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
@@ -174,7 +174,7 @@ msgstr "未验证的账号"
 
 #: app/scripts/lib/auth-errors.js:57
 msgid "Invalid verification errno"
-msgstr ""
+msgstr "无效的验证码"
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "Invalid JSON in request body"
@@ -220,7 +220,7 @@ msgstr "系统不可用，请稍后再试"
 
 #: app/scripts/lib/auth-errors.js:101 app/scripts/lib/oauth-errors.js:65
 msgid "no message"
-msgstr ""
+msgstr "无消息"
 
 #: app/scripts/lib/auth-errors.js:105
 msgid "Session expired. Sign in to continue."
@@ -288,16 +288,16 @@ msgstr "需要有效的出生日期"
 
 #: app/scripts/lib/auth-errors.js:169
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "您的验证邮件刚被退回了。邮件地址输错了吗？"
 
 #: app/scripts/lib/auth-errors.js:177
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "请输入一个有效的电子邮件地址。firefox.com 不提供电子邮件服务。"
 
 #: app/scripts/lib/auth-errors.js:185
 #: app/scripts/templates/illegal_iframe.mustache:2
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Firefox 账号网站只允许在经过授权的网站上被放入 IFRAME"
 
 #: app/scripts/lib/auth-errors.js:193
 msgid "/force_auth requires an email"
@@ -321,7 +321,7 @@ msgstr "出问题了。请关闭本标签页然后再试一次。"
 
 #: app/scripts/lib/oauth-errors.js:69
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "缺少 OAuth 参数：%(param)s"
 
 #: app/scripts/lib/profile-errors.js:18
 msgid "Unauthorized"
@@ -565,7 +565,7 @@ msgstr ""
 
 #: app/scripts/templates/illegal_iframe.mustache:1
 msgid "Illegal iframe"
-msgstr ""
+msgstr "非法 iframe"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
