@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:15+0000\n"
+"POT-Creation-Date: 2015-02-25 18:58+0000\n"
 "PO-Revision-Date: 2014-10-31 10:40+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,8 @@ msgstr ""
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/terms.html:1 templates/reset.html:1
+#: templates/unlock.html:1 templates/verify.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Hesapları"
 
@@ -102,50 +103,79 @@ msgstr "Firefox bulut servisleri"
 msgid "Terms of Service"
 msgstr "Hizmet Koşulları"
 
-#~ msgid "Are you sure?"
-#~ msgstr "Emin misiniz?"
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Are you sure?"
+msgstr "Emin misiniz?"
 
-#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
-#~ msgstr ""
-#~ "Lütfen %(email)s adresinin parolasını sıfırlamak istediğiniz onaylayın."
+#: templates/reset.html:3 templates/reset.txt:2
+msgid "Please confirm that you'd like to reset the password for %(email)s."
+msgstr ""
+"Lütfen %(email)s adresinin parolasını sıfırlamak istediğiniz onaylayın."
 
-#~ msgid "Reset password"
-#~ msgstr "Parolanızı sıfırlayın"
+#: templates/reset.html:4
+msgid "Reset password"
+msgstr "Parolanızı sıfırlayın"
 
-#~ msgid ""
-#~ "This is an automated email; if you received it in error, no action is "
-#~ "required."
-#~ msgstr ""
-#~ "Bu e-posta otomatik olarak gönderilmiştir. Hatalı olduğunu düşünüyorsanız "
-#~ "bir şey yapmanıza gerek yoktur."
+#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
+#: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"Bu e-posta otomatik olarak gönderilmiştir. Hatalı olduğunu düşünüyorsanız "
+"bir şey yapmanıza gerek yoktur."
 
-#~ msgid ""
-#~ "For more information, please visit <a href='https://support.mozilla."
-#~ "org'>Mozilla Support</a>"
-#~ msgstr ""
-#~ "Daha fazla bilgi için lütfen <a href='https://support.mozilla."
-#~ "org'>Mozilla Destek</a>'i ziyaret edin"
+#: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
+msgid ""
+"For more information, please visit <a href='https://support.mozilla."
+"org'>Mozilla Support</a>"
+msgstr ""
+"Daha fazla bilgi için lütfen <a href='https://support.mozilla.org'>Mozilla "
+"Destek</a>'i ziyaret edin"
 
-#~ msgid "Reset password:"
-#~ msgstr "Parolanızı sıfırlayın:"
+#: templates/reset.txt:3
+msgid "Reset password:"
+msgstr "Parolanızı sıfırlayın:"
 
-#~ msgid "For more information, please visit https://support.mozilla.org"
-#~ msgstr ""
-#~ "Daha fazla bilgi için lütfen https://support.mozilla.org adresini ziyaret "
-#~ "edin"
+#: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
+msgid "For more information, please visit https://support.mozilla.org"
+msgstr ""
+"Daha fazla bilgi için lütfen https://support.mozilla.org adresini ziyaret "
+"edin"
+
+#: templates/unlock.html:2 templates/unlock.txt:1
+msgid ""
+"For security reasons your Firefox Account was put on lockdown. To perform "
+"account-level activities, please click the link to re-verify your account "
+"now."
+msgstr ""
+
+#: templates/unlock.html:3
+msgid "Verify account"
+msgstr ""
+
+#: templates/unlock.txt:2
+msgid "Verify account:"
+msgstr ""
+
+#: templates/verify.html:2 templates/verify.txt:1
+msgid "Almost there"
+msgstr ""
+
+#: templates/verify.html:3 templates/verify.txt:2
+msgid "%(email)s, you're one click away from verifying your Firefox Account."
+msgstr "%(email)s, Firefox hesabınızı doğrulamanıza bir tıklama kaldı."
+
+#: templates/verify.html:4
+msgid "Verify"
+msgstr "Doğrula"
+
+#: templates/verify.txt:3
+msgid "Verify:"
+msgstr "Doğrula:"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Tebrikler!"
-
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
-#~ msgstr "%(email)s, Firefox hesabınızı doğrulamanıza bir tıklama kaldı."
-
-#~ msgid "Verify"
-#~ msgstr "Doğrula"
-
-#~ msgid "Verify:"
-#~ msgstr "Doğrula:"
 
 #~ msgid "Verify your account"
 #~ msgstr "Hesabınızı doğrulayın"

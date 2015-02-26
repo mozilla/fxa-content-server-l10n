@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:15+0000\n"
+"POT-Creation-Date: 2015-02-25 18:58+0000\n"
 "PO-Revision-Date: 2014-05-07 21:30+0000\n"
 "Last-Translator: Romi <romihardiyanto@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,8 @@ msgstr ""
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/terms.html:1 templates/reset.html:1
+#: templates/unlock.html:1 templates/verify.html:1
 msgid "Firefox Accounts"
 msgstr "Akun Firefox"
 
@@ -100,49 +101,78 @@ msgstr "Layanan awan Firefox"
 msgid "Terms of Service"
 msgstr "Ketentuan Layanan"
 
-#~ msgid "Are you sure?"
-#~ msgstr "Yakin?"
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Are you sure?"
+msgstr "Yakin?"
 
-#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
-#~ msgstr ""
-#~ "Mohon konfirmasi bahwa Anda telah meminta penyetelan ulang sandi untuk "
-#~ "%(email)s."
+#: templates/reset.html:3 templates/reset.txt:2
+msgid "Please confirm that you'd like to reset the password for %(email)s."
+msgstr ""
+"Mohon konfirmasi bahwa Anda telah meminta penyetelan ulang sandi untuk "
+"%(email)s."
 
-#~ msgid "Reset password"
-#~ msgstr "Setel ulang sandi"
+#: templates/reset.html:4
+msgid "Reset password"
+msgstr "Setel ulang sandi"
 
-#~ msgid ""
-#~ "This is an automated email; if you received it in error, no action is "
-#~ "required."
-#~ msgstr ""
-#~ "Email ini bersifat otomatis; jika menurut Anda email ini salah alamat, "
-#~ "tidak ada tindakan yang harus dilakukan."
+#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
+#: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"Email ini bersifat otomatis; jika menurut Anda email ini salah alamat, tidak "
+"ada tindakan yang harus dilakukan."
 
-#~ msgid ""
-#~ "For more information, please visit <a href='https://support.mozilla."
-#~ "org'>Mozilla Support</a>"
-#~ msgstr ""
-#~ "Untuk informasi lebih lanjut, kunjungi <a href='https://support.mozilla."
-#~ "org'>Dukungan Mozilla</a>"
+#: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
+msgid ""
+"For more information, please visit <a href='https://support.mozilla."
+"org'>Mozilla Support</a>"
+msgstr ""
+"Untuk informasi lebih lanjut, kunjungi <a href='https://support.mozilla."
+"org'>Dukungan Mozilla</a>"
 
-#~ msgid "Reset password:"
-#~ msgstr "Setel ulang sandi:"
+#: templates/reset.txt:3
+msgid "Reset password:"
+msgstr "Setel ulang sandi:"
 
-#~ msgid "For more information, please visit https://support.mozilla.org"
-#~ msgstr "Untuk informasi selengkapnya, kunjungi https://support.mozilla.org"
+#: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
+msgid "For more information, please visit https://support.mozilla.org"
+msgstr "Untuk informasi selengkapnya, kunjungi https://support.mozilla.org"
+
+#: templates/unlock.html:2 templates/unlock.txt:1
+msgid ""
+"For security reasons your Firefox Account was put on lockdown. To perform "
+"account-level activities, please click the link to re-verify your account "
+"now."
+msgstr ""
+
+#: templates/unlock.html:3
+msgid "Verify account"
+msgstr ""
+
+#: templates/unlock.txt:2
+msgid "Verify account:"
+msgstr ""
+
+#: templates/verify.html:2 templates/verify.txt:1
+msgid "Almost there"
+msgstr ""
+
+#: templates/verify.html:3 templates/verify.txt:2
+msgid "%(email)s, you're one click away from verifying your Firefox Account."
+msgstr "Selamat! Hanya perlu verifikasi %(email)s untuk Akun Firefox Anda."
+
+#: templates/verify.html:4
+msgid "Verify"
+msgstr "Verifikasikan"
+
+#: templates/verify.txt:3
+msgid "Verify:"
+msgstr "Verifikasikan:"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Selamat!"
-
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
-#~ msgstr "Selamat! Hanya perlu verifikasi %(email)s untuk Akun Firefox Anda."
-
-#~ msgid "Verify"
-#~ msgstr "Verifikasikan"
-
-#~ msgid "Verify:"
-#~ msgstr "Verifikasikan:"
 
 #~ msgid "Verify your account"
 #~ msgstr "Konfirmasikan akun Anda"

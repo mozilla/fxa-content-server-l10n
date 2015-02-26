@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:15+0000\n"
+"POT-Creation-Date: 2015-02-25 18:58+0000\n"
 "PO-Revision-Date: 2015-02-21 10:09+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,8 @@ msgstr ""
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/terms.html:1 templates/reset.html:1
+#: templates/unlock.html:1 templates/verify.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
@@ -101,50 +102,78 @@ msgstr "Firefox-cloudservices"
 msgid "Terms of Service"
 msgstr "Servicevoorwaarden"
 
-#~ msgid "Are you sure?"
-#~ msgstr "Weet u het zeker?"
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Are you sure?"
+msgstr "Weet u het zeker?"
 
-#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
-#~ msgstr ""
-#~ "Bevestig dat u het wachtwoord voor %(email)s opnieuw wilt instellen."
+#: templates/reset.html:3 templates/reset.txt:2
+msgid "Please confirm that you'd like to reset the password for %(email)s."
+msgstr "Bevestig dat u het wachtwoord voor %(email)s opnieuw wilt instellen."
 
-#~ msgid "Reset password"
-#~ msgstr "Wachtwoord herinitialiseren"
+#: templates/reset.html:4
+msgid "Reset password"
+msgstr "Wachtwoord herinitialiseren"
 
-#~ msgid ""
-#~ "This is an automated email; if you received it in error, no action is "
-#~ "required."
-#~ msgstr ""
-#~ "Dit is een automatisch e-mailbericht; als u het per abuis hebt ontvangen, "
-#~ "hoeft u niets te doen."
+#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
+#: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"Dit is een automatisch e-mailbericht; als u het per abuis hebt ontvangen, "
+"hoeft u niets te doen."
 
-#~ msgid ""
-#~ "For more information, please visit <a href='https://support.mozilla."
-#~ "org'>Mozilla Support</a>"
-#~ msgstr ""
-#~ "Bezoek voor meer informatie <a href='https://support.mozilla.org'>Mozilla "
-#~ "Support</a>"
+#: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
+msgid ""
+"For more information, please visit <a href='https://support.mozilla."
+"org'>Mozilla Support</a>"
+msgstr ""
+"Bezoek voor meer informatie <a href='https://support.mozilla.org'>Mozilla "
+"Support</a>"
 
-#~ msgid "Reset password:"
-#~ msgstr "Wachtwoord herinitialiseren:"
+#: templates/reset.txt:3
+msgid "Reset password:"
+msgstr "Wachtwoord herinitialiseren:"
 
-#~ msgid "For more information, please visit https://support.mozilla.org"
-#~ msgstr "Bezoek voor meer informatie https://support.mozilla.org"
+#: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
+msgid "For more information, please visit https://support.mozilla.org"
+msgstr "Bezoek voor meer informatie https://support.mozilla.org"
+
+#: templates/unlock.html:2 templates/unlock.txt:1
+msgid ""
+"For security reasons your Firefox Account was put on lockdown. To perform "
+"account-level activities, please click the link to re-verify your account "
+"now."
+msgstr ""
+
+#: templates/unlock.html:3
+msgid "Verify account"
+msgstr ""
+
+#: templates/unlock.txt:2
+msgid "Verify account:"
+msgstr ""
+
+#: templates/verify.html:2 templates/verify.txt:1
+msgid "Almost there"
+msgstr ""
+
+#: templates/verify.html:3 templates/verify.txt:2
+msgid "%(email)s, you're one click away from verifying your Firefox Account."
+msgstr ""
+"%(email)s, u bent nog één muisklik verwijderd van verificatie van uw Firefox-"
+"account."
+
+#: templates/verify.html:4
+msgid "Verify"
+msgstr "Verifiëren"
+
+#: templates/verify.txt:3
+msgid "Verify:"
+msgstr "Verifiëren:"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Gefeliciteerd!"
-
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
-#~ msgstr ""
-#~ "%(email)s, u bent nog één muisklik verwijderd van verificatie van uw "
-#~ "Firefox-account."
-
-#~ msgid "Verify"
-#~ msgstr "Verifiëren"
-
-#~ msgid "Verify:"
-#~ msgstr "Verifiëren:"
 
 #~ msgid "Verify your account"
 #~ msgstr "Verifieer uw account"

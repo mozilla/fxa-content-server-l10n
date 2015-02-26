@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:15+0000\n"
+"POT-Creation-Date: 2015-02-25 18:58+0000\n"
 "PO-Revision-Date: 2014-10-11 19:55+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,8 @@ msgstr ""
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/terms.html:1 templates/reset.html:1
+#: templates/unlock.html:1 templates/verify.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox 帳號"
 
@@ -97,47 +98,76 @@ msgstr "Firefox 雲端服務"
 msgid "Terms of Service"
 msgstr "服務條款"
 
-#~ msgid "Are you sure?"
-#~ msgstr "您確定嗎？"
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Are you sure?"
+msgstr "您確定嗎？"
 
-#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
-#~ msgstr "請確認您要重設帳號 %(email)s 的密碼。"
+#: templates/reset.html:3 templates/reset.txt:2
+msgid "Please confirm that you'd like to reset the password for %(email)s."
+msgstr "請確認您要重設帳號 %(email)s 的密碼。"
 
-#~ msgid "Reset password"
-#~ msgstr "重設密碼"
+#: templates/reset.html:4
+msgid "Reset password"
+msgstr "重設密碼"
 
-#~ msgid ""
-#~ "This is an automated email; if you received it in error, no action is "
-#~ "required."
-#~ msgstr ""
-#~ "這是電腦自動發送的郵件，若您並未要求重設密碼而突然收到這封信，不需要做任何"
-#~ "事。"
+#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
+#: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"這是電腦自動發送的郵件，若您並未要求重設密碼而突然收到這封信，不需要做任何"
+"事。"
 
-#~ msgid ""
-#~ "For more information, please visit <a href='https://support.mozilla."
-#~ "org'>Mozilla Support</a>"
-#~ msgstr ""
-#~ "若需更多資訊，請參考 <a href='https://support.mozilla.org'>Mozilla 技術支"
-#~ "援站</a>"
+#: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
+msgid ""
+"For more information, please visit <a href='https://support.mozilla."
+"org'>Mozilla Support</a>"
+msgstr ""
+"若需更多資訊，請參考 <a href='https://support.mozilla.org'>Mozilla 技術支援站"
+"</a>"
 
-#~ msgid "Reset password:"
-#~ msgstr "重設密碼:"
+#: templates/reset.txt:3
+msgid "Reset password:"
+msgstr "重設密碼:"
 
-#~ msgid "For more information, please visit https://support.mozilla.org"
-#~ msgstr "若需更多資訊，請參考 https://support.mozilla.org"
+#: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
+msgid "For more information, please visit https://support.mozilla.org"
+msgstr "若需更多資訊，請參考 https://support.mozilla.org"
+
+#: templates/unlock.html:2 templates/unlock.txt:1
+msgid ""
+"For security reasons your Firefox Account was put on lockdown. To perform "
+"account-level activities, please click the link to re-verify your account "
+"now."
+msgstr ""
+
+#: templates/unlock.html:3
+msgid "Verify account"
+msgstr ""
+
+#: templates/unlock.txt:2
+msgid "Verify account:"
+msgstr ""
+
+#: templates/verify.html:2 templates/verify.txt:1
+msgid "Almost there"
+msgstr ""
+
+#: templates/verify.html:3 templates/verify.txt:2
+msgid "%(email)s, you're one click away from verifying your Firefox Account."
+msgstr "%(email)s，您只需要再花幾秒鐘就能將您的 Firefox 帳號驗證完成。"
+
+#: templates/verify.html:4
+msgid "Verify"
+msgstr "驗證"
+
+#: templates/verify.txt:3
+msgid "Verify:"
+msgstr "驗證:"
 
 #~ msgid "Congratulations!"
 #~ msgstr "恭喜！"
-
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
-#~ msgstr "%(email)s，您只需要再花幾秒鐘就能將您的 Firefox 帳號驗證完成。"
-
-#~ msgid "Verify"
-#~ msgstr "驗證"
-
-#~ msgid "Verify:"
-#~ msgstr "驗證:"
 
 #~ msgid "Verify your account"
 #~ msgstr "驗證您的帳號"

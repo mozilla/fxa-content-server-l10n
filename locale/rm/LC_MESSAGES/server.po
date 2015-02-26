@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:15+0000\n"
+"POT-Creation-Date: 2015-02-25 18:58+0000\n"
 "PO-Revision-Date: 2014-10-31 18:42+0000\n"
 "Last-Translator: Gion-Andri <gion-andri@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,8 @@ msgstr ""
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/terms.html:1 templates/reset.html:1
+#: templates/unlock.html:1 templates/verify.html:1
 msgid "Firefox Accounts"
 msgstr "Contos da Firefox"
 
@@ -102,49 +103,78 @@ msgstr "Servetschs cloud da Firefox"
 msgid "Terms of Service"
 msgstr "Cundiziuns dal servetsch"
 
-#~ msgid "Are you sure?"
-#~ msgstr "Es ti segir?"
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Are you sure?"
+msgstr "Es ti segir?"
 
-#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
-#~ msgstr "Conferma p.pl. che ti vuls redefinir il pled-clav per %(email)s."
+#: templates/reset.html:3 templates/reset.txt:2
+msgid "Please confirm that you'd like to reset the password for %(email)s."
+msgstr "Conferma p.pl. che ti vuls redefinir il pled-clav per %(email)s."
 
-#~ msgid "Reset password"
-#~ msgstr "Redefinir il pled-clav"
+#: templates/reset.html:4
+msgid "Reset password"
+msgstr "Redefinir il pled-clav"
 
-#~ msgid ""
-#~ "This is an automated email; if you received it in error, no action is "
-#~ "required."
-#~ msgstr ""
-#~ "Quai è in e-mail automatic. Sche ti has retschavì per sbagl quest e-mail "
-#~ "na stos ti far nagut."
+#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
+#: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"Quai è in e-mail automatic. Sche ti has retschavì per sbagl quest e-mail na "
+"stos ti far nagut."
 
-#~ msgid ""
-#~ "For more information, please visit <a href='https://support.mozilla."
-#~ "org'>Mozilla Support</a>"
-#~ msgstr ""
-#~ "Visita il <a href='https://support.mozilla.org'>Support da Mozilla</a> "
-#~ "per ulteriuras infurmaziuns."
+#: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
+msgid ""
+"For more information, please visit <a href='https://support.mozilla."
+"org'>Mozilla Support</a>"
+msgstr ""
+"Visita il <a href='https://support.mozilla.org'>Support da Mozilla</a> per "
+"ulteriuras infurmaziuns."
 
-#~ msgid "Reset password:"
-#~ msgstr "Redefinir il pled-clav:"
+#: templates/reset.txt:3
+msgid "Reset password:"
+msgstr "Redefinir il pled-clav:"
 
-#~ msgid "For more information, please visit https://support.mozilla.org"
-#~ msgstr "Per dapli infurmaziuns: https://support.mozilla.org"
+#: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
+msgid "For more information, please visit https://support.mozilla.org"
+msgstr "Per dapli infurmaziuns: https://support.mozilla.org"
+
+#: templates/unlock.html:2 templates/unlock.txt:1
+msgid ""
+"For security reasons your Firefox Account was put on lockdown. To perform "
+"account-level activities, please click the link to re-verify your account "
+"now."
+msgstr ""
+
+#: templates/unlock.html:3
+msgid "Verify account"
+msgstr ""
+
+#: templates/unlock.txt:2
+msgid "Verify account:"
+msgstr ""
+
+#: templates/verify.html:2 templates/verify.txt:1
+msgid "Almost there"
+msgstr ""
+
+#: templates/verify.html:3 templates/verify.txt:2
+msgid "%(email)s, you're one click away from verifying your Firefox Account."
+msgstr ""
+"%(email)s, i cuzza be pli intginas secundas per verifitgar tes conto da "
+"Firefox."
+
+#: templates/verify.html:4
+msgid "Verify"
+msgstr "Verifitgar"
+
+#: templates/verify.txt:3
+msgid "Verify:"
+msgstr "Verifitgar:"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Gratulaziun!"
-
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
-#~ msgstr ""
-#~ "%(email)s, i cuzza be pli intginas secundas per verifitgar tes conto da "
-#~ "Firefox."
-
-#~ msgid "Verify"
-#~ msgstr "Verifitgar"
-
-#~ msgid "Verify:"
-#~ msgstr "Verifitgar:"
 
 #~ msgid "Verify your account"
 #~ msgstr "Verifitgar tes conto"
