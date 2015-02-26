@@ -287,7 +287,8 @@ msgstr "Gültiges Geburtsdatum erforderlich"
 
 #: app/scripts/lib/auth-errors.js:169
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr "Ihre Bestätigungs-E-Mail kam gerade zurück. Stimmt Ihre E-Mail-Adresse?"
+msgstr ""
+"Ihre Bestätigungs-E-Mail kam gerade zurück. Stimmt Ihre E-Mail-Adresse?"
 
 #: app/scripts/lib/auth-errors.js:177
 msgid "Enter a valid email address. firefox.com does not offer email."
