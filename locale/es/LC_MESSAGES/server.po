@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:15+0000\n"
+"POT-Creation-Date: 2015-02-25 18:58+0000\n"
 "PO-Revision-Date: 2014-10-17 12:22+0000\n"
 "Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,8 @@ msgstr ""
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/terms.html:1 templates/reset.html:1
+#: templates/unlock.html:1 templates/verify.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
@@ -101,47 +102,76 @@ msgstr "Servicios en la nube de Firefox"
 msgid "Terms of Service"
 msgstr "Términos del servicio"
 
-#~ msgid "Are you sure?"
-#~ msgstr "¿Seguro?"
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Are you sure?"
+msgstr "¿Seguro?"
 
-#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
-#~ msgstr "Confirma que deseas restablecer la contraseña de %(email)s."
+#: templates/reset.html:3 templates/reset.txt:2
+msgid "Please confirm that you'd like to reset the password for %(email)s."
+msgstr "Confirma que deseas restablecer la contraseña de %(email)s."
 
-#~ msgid "Reset password"
-#~ msgstr "Restablecer contraseña"
+#: templates/reset.html:4
+msgid "Reset password"
+msgstr "Restablecer contraseña"
 
-#~ msgid ""
-#~ "This is an automated email; if you received it in error, no action is "
-#~ "required."
-#~ msgstr ""
-#~ "Es un correo automatizado. Si recibiste este correo por error, no es "
-#~ "necesario que hagas nada."
+#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
+#: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"Es un correo automatizado. Si recibiste este correo por error, no es "
+"necesario que hagas nada."
 
-#~ msgid ""
-#~ "For more information, please visit <a href='https://support.mozilla."
-#~ "org'>Mozilla Support</a>"
-#~ msgstr ""
-#~ "Si quieres informarte, visita la <a href='https://support.mozilla."
-#~ "org'>Ayuda de Mozilla</a>"
+#: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
+msgid ""
+"For more information, please visit <a href='https://support.mozilla."
+"org'>Mozilla Support</a>"
+msgstr ""
+"Si quieres informarte, visita la <a href='https://support.mozilla.org'>Ayuda "
+"de Mozilla</a>"
 
-#~ msgid "Reset password:"
-#~ msgstr "Restablecer contraseña:"
+#: templates/reset.txt:3
+msgid "Reset password:"
+msgstr "Restablecer contraseña:"
 
-#~ msgid "For more information, please visit https://support.mozilla.org"
-#~ msgstr "Si quieres informarte, visita https://support.mozilla.org"
+#: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
+msgid "For more information, please visit https://support.mozilla.org"
+msgstr "Si quieres informarte, visita https://support.mozilla.org"
+
+#: templates/unlock.html:2 templates/unlock.txt:1
+msgid ""
+"For security reasons your Firefox Account was put on lockdown. To perform "
+"account-level activities, please click the link to re-verify your account "
+"now."
+msgstr ""
+
+#: templates/unlock.html:3
+msgid "Verify account"
+msgstr ""
+
+#: templates/unlock.txt:2
+msgid "Verify account:"
+msgstr ""
+
+#: templates/verify.html:2 templates/verify.txt:1
+msgid "Almost there"
+msgstr ""
+
+#: templates/verify.html:3 templates/verify.txt:2
+msgid "%(email)s, you're one click away from verifying your Firefox Account."
+msgstr "%(email)s, estás a nada de verificar tu cuenta de Firefox."
+
+#: templates/verify.html:4
+msgid "Verify"
+msgstr "Verificar"
+
+#: templates/verify.txt:3
+msgid "Verify:"
+msgstr "Verificar:"
 
 #~ msgid "Congratulations!"
 #~ msgstr "¡Felicidades!"
-
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
-#~ msgstr "%(email)s, estás a nada de verificar tu cuenta de Firefox."
-
-#~ msgid "Verify"
-#~ msgstr "Verificar"
-
-#~ msgid "Verify:"
-#~ msgstr "Verificar:"
 
 #~ msgid "Verify your account"
 #~ msgstr "Verifica tu cuenta"

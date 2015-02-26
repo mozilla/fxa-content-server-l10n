@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:15+0000\n"
+"POT-Creation-Date: 2015-02-25 18:58+0000\n"
 "PO-Revision-Date: 2014-05-16 01:09+0200\n"
 "Last-Translator: Ibrahima SARR <ibrahima.sarr@pulaagu.com>\n"
 "Language-Team: FULAH LOCALIZATION\n"
@@ -18,7 +18,8 @@ msgstr ""
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/terms.html:1 templates/reset.html:1
+#: templates/unlock.html:1 templates/verify.html:1
 msgid "Firefox Accounts"
 msgstr "Konte Firefox"
 
@@ -99,47 +100,75 @@ msgstr "Carwe ruulde Firefox"
 msgid "Terms of Service"
 msgstr "Sarɗiiji Carwe"
 
-#~ msgid "Are you sure?"
-#~ msgstr "Aɗa yenanaa?"
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Are you sure?"
+msgstr "Aɗa yenanaa?"
 
-#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
-#~ msgstr "Tiiɗno teeŋtin wonde aɗa yiɗi firlitde finnde maa e %(email)s."
+#: templates/reset.html:3 templates/reset.txt:2
+msgid "Please confirm that you'd like to reset the password for %(email)s."
+msgstr "Tiiɗno teeŋtin wonde aɗa yiɗi firlitde finnde maa e %(email)s."
 
-#~ msgid "Reset password"
-#~ msgstr "Firlit finnde"
+#: templates/reset.html:4
+msgid "Reset password"
+msgstr "Firlit finnde"
 
-#~ msgid ""
-#~ "This is an automated email; if you received it in error, no action is "
-#~ "required."
-#~ msgstr ""
-#~ "Ɗuum ko iimeel jaajo; so a heɓiimo e juumre, alaa ko pot-ɗaa waɗde hay "
-#~ "baɗte."
+#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
+#: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"Ɗuum ko iimeel jaajo; so a heɓiimo e juumre, alaa ko pot-ɗaa waɗde hay baɗte."
 
-#~ msgid ""
-#~ "For more information, please visit <a href='https://support.mozilla."
-#~ "org'>Mozilla Support</a>"
-#~ msgstr ""
-#~ "Ngam ɓeydude humpito, tiiɗno yillo <a href='https://support.mozilla."
-#~ "org'>Wallitorde Mozilla</a>"
+#: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
+msgid ""
+"For more information, please visit <a href='https://support.mozilla."
+"org'>Mozilla Support</a>"
+msgstr ""
+"Ngam ɓeydude humpito, tiiɗno yillo <a href='https://support.mozilla."
+"org'>Wallitorde Mozilla</a>"
 
-#~ msgid "Reset password:"
-#~ msgstr "Firlit finnde:"
+#: templates/reset.txt:3
+msgid "Reset password:"
+msgstr "Firlit finnde:"
 
-#~ msgid "For more information, please visit https://support.mozilla.org"
-#~ msgstr "Ngam ɓeydude humpito, tiiɗno yillo https://support.mozilla.org"
+#: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
+msgid "For more information, please visit https://support.mozilla.org"
+msgstr "Ngam ɓeydude humpito, tiiɗno yillo https://support.mozilla.org"
+
+#: templates/unlock.html:2 templates/unlock.txt:1
+msgid ""
+"For security reasons your Firefox Account was put on lockdown. To perform "
+"account-level activities, please click the link to re-verify your account "
+"now."
+msgstr ""
+
+#: templates/unlock.html:3
+msgid "Verify account"
+msgstr ""
+
+#: templates/unlock.txt:2
+msgid "Verify account:"
+msgstr ""
+
+#: templates/verify.html:2 templates/verify.txt:1
+msgid "Almost there"
+msgstr ""
+
+#: templates/verify.html:3 templates/verify.txt:2
+msgid "%(email)s, you're one click away from verifying your Firefox Account."
+msgstr "%(email)s, heddii tan ko dobannde ngam ƴeewtagol Konte Firefox maa."
+
+#: templates/verify.html:4
+msgid "Verify"
+msgstr "Ƴeewto"
+
+#: templates/verify.txt:3
+msgid "Verify:"
+msgstr "Ƴeewto:"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Woyyoo maa!"
-
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
-#~ msgstr "%(email)s, heddii tan ko dobannde ngam ƴeewtagol Konte Firefox maa."
-
-#~ msgid "Verify"
-#~ msgstr "Ƴeewto"
-
-#~ msgid "Verify:"
-#~ msgstr "Ƴeewto:"
 
 #~ msgid "Verify your account"
 #~ msgstr "Ƴeewto konte maa"

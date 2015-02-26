@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:15+0000\n"
+"POT-Creation-Date: 2015-02-25 18:58+0000\n"
 "PO-Revision-Date: 2015-02-25 16:14+0000\n"
 "Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,8 @@ msgstr ""
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/terms.html:1 templates/reset.html:1
+#: templates/unlock.html:1 templates/verify.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Account"
 
@@ -103,50 +104,77 @@ msgstr "Servizi cloud di Firefox"
 msgid "Terms of Service"
 msgstr "Termini di servizio"
 
-#~ msgid "Are you sure?"
-#~ msgstr "Procedere con l’operazione?"
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Are you sure?"
+msgstr "Procedere con l’operazione?"
 
-#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
-#~ msgstr ""
-#~ "È necessaria una conferma per reimpostare la password per %(email)s."
+#: templates/reset.html:3 templates/reset.txt:2
+msgid "Please confirm that you'd like to reset the password for %(email)s."
+msgstr "È necessaria una conferma per reimpostare la password per %(email)s."
 
-#~ msgid "Reset password"
-#~ msgstr "Reimposta la password"
+#: templates/reset.html:4
+msgid "Reset password"
+msgstr "Reimposta la password"
 
-#~ msgid ""
-#~ "This is an automated email; if you received it in error, no action is "
-#~ "required."
-#~ msgstr ""
-#~ "Questa email è stata inviata da un servizio automatico, se hai ricevuto "
-#~ "questa email per errore, puoi semplicemente ignorarla."
+#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
+#: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"Questa email è stata inviata da un servizio automatico, se hai ricevuto "
+"questa email per errore, puoi semplicemente ignorarla."
 
-#~ msgid ""
-#~ "For more information, please visit <a href='https://support.mozilla."
-#~ "org'>Mozilla Support</a>"
-#~ msgstr ""
-#~ "Per ulteriori informazioni visita il <a href='https://support.mozilla."
-#~ "org'>sito di supporto Mozilla</a>"
+#: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
+msgid ""
+"For more information, please visit <a href='https://support.mozilla."
+"org'>Mozilla Support</a>"
+msgstr ""
+"Per ulteriori informazioni visita il <a href='https://support.mozilla."
+"org'>sito di supporto Mozilla</a>"
 
-#~ msgid "Reset password:"
-#~ msgstr "Reimposta la password:"
+#: templates/reset.txt:3
+msgid "Reset password:"
+msgstr "Reimposta la password:"
 
-#~ msgid "For more information, please visit https://support.mozilla.org"
-#~ msgstr "Per ulteriori informazioni visita https://support.mozilla.org"
+#: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
+msgid "For more information, please visit https://support.mozilla.org"
+msgstr "Per ulteriori informazioni visita https://support.mozilla.org"
+
+#: templates/unlock.html:2 templates/unlock.txt:1
+msgid ""
+"For security reasons your Firefox Account was put on lockdown. To perform "
+"account-level activities, please click the link to re-verify your account "
+"now."
+msgstr ""
+
+#: templates/unlock.html:3
+msgid "Verify account"
+msgstr ""
+
+#: templates/unlock.txt:2
+msgid "Verify account:"
+msgstr ""
+
+#: templates/verify.html:2 templates/verify.txt:1
+msgid "Almost there"
+msgstr ""
+
+#: templates/verify.html:3 templates/verify.txt:2
+msgid "%(email)s, you're one click away from verifying your Firefox Account."
+msgstr ""
+"%(email)s, tra pochi secondi questo account Firefox Account sarà confermato."
+
+#: templates/verify.html:4
+msgid "Verify"
+msgstr "Conferma"
+
+#: templates/verify.txt:3
+msgid "Verify:"
+msgstr "Conferma:"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Complimenti!"
-
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
-#~ msgstr ""
-#~ "%(email)s, tra pochi secondi questo account Firefox Account sarà "
-#~ "confermato."
-
-#~ msgid "Verify"
-#~ msgstr "Conferma"
-
-#~ msgid "Verify:"
-#~ msgstr "Conferma:"
 
 #~ msgid "Verify your account"
 #~ msgstr "Conferma l’account"

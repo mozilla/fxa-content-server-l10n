@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:15+0000\n"
+"POT-Creation-Date: 2015-02-25 18:58+0000\n"
 "PO-Revision-Date: 2014-03-13 13:05+0000\n"
 "Last-Translator: Tomer <tomer@gmx.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,8 @@ msgstr ""
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/terms.html:1 templates/reset.html:1
+#: templates/unlock.html:1 templates/verify.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
@@ -95,34 +96,74 @@ msgstr "Firefox Accounts"
 msgid "Terms of Service"
 msgstr ""
 
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Are you sure?"
+msgstr ""
+
+#: templates/reset.html:3 templates/reset.txt:2
 #, fuzzy
-#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
-#~ msgstr "התקבלה בקשה לאפס ססמה עבור %(email)s."
+msgid "Please confirm that you'd like to reset the password for %(email)s."
+msgstr "התקבלה בקשה לאפס ססמה עבור %(email)s."
 
-#~ msgid "Reset password"
-#~ msgstr "איפוס ססמה"
+#: templates/reset.html:4
+msgid "Reset password"
+msgstr "איפוס ססמה"
 
+#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
+#: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
 #, fuzzy
-#~ msgid ""
-#~ "This is an automated email; if you received it in error, no action is "
-#~ "required."
-#~ msgstr "אם הודעה זו הגיעה אליך בטעות, אין צורך בשום פעולה מצידך. "
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr "אם הודעה זו הגיעה אליך בטעות, אין צורך בשום פעולה מצידך. "
 
-#~ msgid "Reset password:"
-#~ msgstr "איפוס ססמה:"
+#: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
+msgid ""
+"For more information, please visit <a href='https://support.mozilla."
+"org'>Mozilla Support</a>"
+msgstr ""
 
+#: templates/reset.txt:3
+msgid "Reset password:"
+msgstr "איפוס ססמה:"
+
+#: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
+msgid "For more information, please visit https://support.mozilla.org"
+msgstr ""
+
+#: templates/unlock.html:2 templates/unlock.txt:1
+msgid ""
+"For security reasons your Firefox Account was put on lockdown. To perform "
+"account-level activities, please click the link to re-verify your account "
+"now."
+msgstr ""
+
+#: templates/unlock.html:3
+msgid "Verify account"
+msgstr ""
+
+#: templates/unlock.txt:2
+msgid "Verify account:"
+msgstr ""
+
+#: templates/verify.html:2 templates/verify.txt:1
+msgid "Almost there"
+msgstr ""
+
+#: templates/verify.html:3 templates/verify.txt:2
 #, fuzzy
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
-#~ msgstr ""
-#~ "ברכותינו! %(email)s, הנך במרחק של שניות ספורות מאימות החשבון שלך ב־"
-#~ "Firefox Account."
+msgid "%(email)s, you're one click away from verifying your Firefox Account."
+msgstr ""
+"ברכותינו! %(email)s, הנך במרחק של שניות ספורות מאימות החשבון שלך ב־Firefox "
+"Account."
 
-#~ msgid "Verify"
-#~ msgstr "אימות"
+#: templates/verify.html:4
+msgid "Verify"
+msgstr "אימות"
 
-#~ msgid "Verify:"
-#~ msgstr "אימות:"
+#: templates/verify.txt:3
+msgid "Verify:"
+msgstr "אימות:"
 
 #, fuzzy
 #~ msgid "Verify your account"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-10 18:39+0000\n"
+"POT-Creation-Date: 2015-02-25 18:58+0000\n"
 "PO-Revision-Date: 2014-10-11 23:16+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,14 +14,19 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1413069388.0\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1 server/templates/email/reset.html:1
-#: server/templates/email/verify.html:1
+#: server/templates/pages/src/terms.html:1 templates/reset.html:1
+#: templates/unlock.html:1 templates/verify.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox 账号"
+
+#: server/templates/pages/src/400.html:2
+msgid "Bad Request"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -34,7 +39,7 @@ msgid ""
 msgstr "找不到您要打开的页面，我们已收到此通知并会修复出现故障的链接。"
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/503.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "首页"
 
@@ -42,11 +47,15 @@ msgstr "首页"
 msgid "500 Error"
 msgstr "500 错误"
 
-#: server/templates/pages/src/500.html:3
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr "噢抱歉，出了点问题。我们已经记录下来并将进行修复。"
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr ""
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -87,20 +96,20 @@ msgstr "Firefox 云服务"
 msgid "Terms of Service"
 msgstr "服务条款"
 
-#: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
+#: templates/reset.html:2 templates/reset.txt:1
 msgid "Are you sure?"
 msgstr "您确定？"
 
-#: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
+#: templates/reset.html:3 templates/reset.txt:2
 msgid "Please confirm that you'd like to reset the password for %(email)s."
 msgstr "请确认您希望重置 %(email)s 的密码。"
 
-#: server/templates/email/reset.html:4
+#: templates/reset.html:4
 msgid "Reset password"
 msgstr "重置密码"
 
-#: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
-#: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
+#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
+#: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
@@ -108,7 +117,7 @@ msgstr ""
 "这是一封自动发送的邮件；如果您没有要求重置密码而收到此信，不需要进行任何操"
 "作。"
 
-#: server/templates/email/reset.html:6 server/templates/email/verify.html:6
+#: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
 msgid ""
 "For more information, please visit <a href='https://support.mozilla."
 "org'>Mozilla Support</a>"
@@ -116,37 +125,53 @@ msgstr ""
 "要了解更多信息，请访问<a href='https://support.mozilla.org'>Mozilla 技术支持"
 "</a>"
 
-#: server/templates/email/reset.txt:3
+#: templates/reset.txt:3
 msgid "Reset password:"
 msgstr "重置密码："
 
-#: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
+#: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
 msgstr "要了解更多信息，请访问 https://support.mozilla.org"
 
-#: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
-msgid "Congratulations!"
-msgstr "恭喜！"
+#: templates/unlock.html:2 templates/unlock.txt:1
+msgid ""
+"For security reasons your Firefox Account was put on lockdown. To perform "
+"account-level activities, please click the link to re-verify your account "
+"now."
+msgstr ""
 
-#: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
+#: templates/unlock.html:3
+msgid "Verify account"
+msgstr ""
+
+#: templates/unlock.txt:2
+msgid "Verify account:"
+msgstr ""
+
+#: templates/verify.html:2 templates/verify.txt:1
+msgid "Almost there"
+msgstr ""
+
+#: templates/verify.html:3 templates/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
 msgstr "%(email)s, 只要再用几秒钟的时间就可以验证您的 Firefox 账号了。"
 
-#: server/templates/email/verify.html:4
+#: templates/verify.html:4
 msgid "Verify"
 msgstr "验证"
 
-#: server/templates/email/verify.txt:3
+#: templates/verify.txt:3
 msgid "Verify:"
 msgstr "验证："
 
-#: server/lib/templates.js:63
-msgid "Verify your account"
-msgstr "验证您的账号"
+#~ msgid "Congratulations!"
+#~ msgstr "恭喜！"
 
-#: server/lib/templates.js:68
-msgid "Reset your password"
-msgstr "重置密码"
+#~ msgid "Verify your account"
+#~ msgstr "验证您的账号"
+
+#~ msgid "Reset your password"
+#~ msgstr "重置密码"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "系统不可用，请稍后再试"

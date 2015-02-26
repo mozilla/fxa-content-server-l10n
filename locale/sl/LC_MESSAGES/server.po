@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:15+0000\n"
+"POT-Creation-Date: 2015-02-25 18:58+0000\n"
 "PO-Revision-Date: 2014-10-11 06:42+0000\n"
 "Last-Translator: Matjaž <m@owca.info>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,8 @@ msgstr ""
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/terms.html:1 templates/reset.html:1
+#: templates/unlock.html:1 templates/verify.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Računi"
 
@@ -100,47 +101,76 @@ msgstr "Storitve Firefox v oblaku"
 msgid "Terms of Service"
 msgstr "Pogoji uporabe"
 
-#~ msgid "Are you sure?"
-#~ msgstr "Ste prepričani?"
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Are you sure?"
+msgstr "Ste prepričani?"
 
-#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
-#~ msgstr "Potrdite, da želite ponastaviti geslo za %(email)s."
+#: templates/reset.html:3 templates/reset.txt:2
+msgid "Please confirm that you'd like to reset the password for %(email)s."
+msgstr "Potrdite, da želite ponastaviti geslo za %(email)s."
 
-#~ msgid "Reset password"
-#~ msgstr "Ponastavi geslo"
+#: templates/reset.html:4
+msgid "Reset password"
+msgstr "Ponastavi geslo"
 
-#~ msgid ""
-#~ "This is an automated email; if you received it in error, no action is "
-#~ "required."
-#~ msgstr ""
-#~ "Sporočilo je bilo poslano samodejno. Če ste ga prejeli po pomoti, vam ni "
-#~ "potrebno storiti ničesar."
+#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
+#: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"Sporočilo je bilo poslano samodejno. Če ste ga prejeli po pomoti, vam ni "
+"potrebno storiti ničesar."
 
-#~ msgid ""
-#~ "For more information, please visit <a href='https://support.mozilla."
-#~ "org'>Mozilla Support</a>"
-#~ msgstr ""
-#~ "Za več informacij obiščite <a href='https://support.mozilla.org'>strani s "
-#~ "podporo</a>"
+#: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
+msgid ""
+"For more information, please visit <a href='https://support.mozilla."
+"org'>Mozilla Support</a>"
+msgstr ""
+"Za več informacij obiščite <a href='https://support.mozilla.org'>strani s "
+"podporo</a>"
 
-#~ msgid "Reset password:"
-#~ msgstr "Ponastavi geslo:"
+#: templates/reset.txt:3
+msgid "Reset password:"
+msgstr "Ponastavi geslo:"
 
-#~ msgid "For more information, please visit https://support.mozilla.org"
-#~ msgstr "Za več informacij obiščite https://support.mozilla.org"
+#: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
+msgid "For more information, please visit https://support.mozilla.org"
+msgstr "Za več informacij obiščite https://support.mozilla.org"
+
+#: templates/unlock.html:2 templates/unlock.txt:1
+msgid ""
+"For security reasons your Firefox Account was put on lockdown. To perform "
+"account-level activities, please click the link to re-verify your account "
+"now."
+msgstr ""
+
+#: templates/unlock.html:3
+msgid "Verify account"
+msgstr ""
+
+#: templates/unlock.txt:2
+msgid "Verify account:"
+msgstr ""
+
+#: templates/verify.html:2 templates/verify.txt:1
+msgid "Almost there"
+msgstr ""
+
+#: templates/verify.html:3 templates/verify.txt:2
+msgid "%(email)s, you're one click away from verifying your Firefox Account."
+msgstr "%(email)s, samo še klik ste oddaljeni od potrditve Firefox Računa."
+
+#: templates/verify.html:4
+msgid "Verify"
+msgstr "Potrdi"
+
+#: templates/verify.txt:3
+msgid "Verify:"
+msgstr "Potrditev:"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Čestitke!"
-
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
-#~ msgstr "%(email)s, samo še klik ste oddaljeni od potrditve Firefox Računa."
-
-#~ msgid "Verify"
-#~ msgstr "Potrdi"
-
-#~ msgid "Verify:"
-#~ msgstr "Potrditev:"
 
 #~ msgid "Verify your account"
 #~ msgstr "Potrdite svoj račun"
