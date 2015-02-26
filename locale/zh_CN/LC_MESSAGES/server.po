@@ -138,7 +138,9 @@ msgid ""
 "For security reasons your Firefox Account was put on lockdown. To perform "
 "account-level activities, please click the link to re-verify your account "
 "now."
-msgstr "出于安全原因，您的 Firefox 账号已被锁定。若要执行账号层面的操作，请点击链接重新验证您的账号。"
+msgstr ""
+"出于安全原因，您的 Firefox 账号已被锁定。若要执行账号层面的操作，请点击链接重"
+"新验证您的账号。"
 
 #: templates/unlock.html:3
 msgid "Verify account"

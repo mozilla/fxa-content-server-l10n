@@ -10,22 +10,18 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1413131578.0\n"
 
-#: server/templates/pages/src/400.html:1
-#: server/templates/pages/src/404.html:1
-#: server/templates/pages/src/500.html:1
-#: server/templates/pages/src/502.html:1
+#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
-#: templates/reset.html:1
-#: templates/unlock.html:1
-#: templates/verify.html:1
+#: server/templates/pages/src/terms.html:1 templates/reset.html:1
+#: templates/unlock.html:1 templates/verify.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
@@ -45,10 +41,8 @@ msgstr ""
 "Strona, kotruž sće požadał, njeje so namakała. Smy powěsć dóstali a "
 "porjedźimy skóncowane wotkazy."
 
-#: server/templates/pages/src/404.html:4
-#: server/templates/pages/src/500.html:4
-#: server/templates/pages/src/502.html:4
-#: server/templates/pages/src/503.html:4
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "Startowa strona"
 
@@ -56,8 +50,7 @@ msgstr "Startowa strona"
 msgid "500 Error"
 msgstr "Zmylk 500"
 
-#: server/templates/pages/src/500.html:3
-#: server/templates/pages/src/502.html:3
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
@@ -85,13 +78,12 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a "
-"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
-"experience."
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
-"Wužiwaće <strong>zestarjeny</strong> wobhladowak. Prošu <a "
-"href=\"http://browsehappy.com/\">zaktualizujće swój wobhladowak</a>, zo byšće "
-"swoje dožiwjenje polěpšił."
+"Wužiwaće <strong>zestarjeny</strong> wobhladowak. Prošu <a href=\"http://"
+"browsehappy.com/\">zaktualizujće swój wobhladowak</a>, zo byšće swoje "
+"dožiwjenje polěpšił."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -112,13 +104,11 @@ msgstr "Mróčelowe słužby Firefox"
 msgid "Terms of Service"
 msgstr "Wužiwanske wuměnenja"
 
-#: templates/reset.html:2
-#: templates/reset.txt:1
+#: templates/reset.html:2 templates/reset.txt:1
 msgid "Are you sure?"
 msgstr "Sće sej wěsty?"
 
-#: templates/reset.html:3
-#: templates/reset.txt:2
+#: templates/reset.html:3 templates/reset.txt:2
 msgid "Please confirm that you'd like to reset the password for %(email)s."
 msgstr "Prošu wubkrućće, zo chceće hesło za %(email)s wróćo stajić."
 
@@ -126,12 +116,8 @@ msgstr "Prošu wubkrućće, zo chceće hesło za %(email)s wróćo stajić."
 msgid "Reset password"
 msgstr "Hesło wróćo stajić"
 
-#: templates/reset.html:5
-#: templates/reset.txt:4
-#: templates/unlock.html:4
-#: templates/unlock.txt:3
-#: templates/verify.html:5
-#: templates/verify.txt:4
+#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
+#: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
@@ -139,28 +125,23 @@ msgstr ""
 "To je awtomatizowana e-mejlka; jeli sće ju zmylnje dóstał, njetrjebaće ničo "
 "činić."
 
-#: templates/reset.html:6
-#: templates/unlock.html:5
-#: templates/verify.html:6
+#: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
 msgid ""
-"For more information, please visit <a "
-"href='https://support.mozilla.org'>Mozilla Support</a>"
+"For more information, please visit <a href='https://support.mozilla."
+"org'>Mozilla Support</a>"
 msgstr ""
-"Za dalše informacije wopytajće prošu <a "
-"href='https://support.mozilla.org'>Pomoc Mozilla</a>"
+"Za dalše informacije wopytajće prošu <a href='https://support.mozilla."
+"org'>Pomoc Mozilla</a>"
 
 #: templates/reset.txt:3
 msgid "Reset password:"
 msgstr "Hesło wróćo stajić:"
 
-#: templates/reset.txt:5
-#: templates/unlock.txt:4
-#: templates/verify.txt:5
+#: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
 msgstr "Za dalše informacije wopytajće prošu https://support.mozilla.org"
 
-#: templates/unlock.html:2
-#: templates/unlock.txt:1
+#: templates/unlock.html:2 templates/unlock.txt:1
 msgid ""
 "For security reasons your Firefox Account was put on lockdown. To perform "
 "account-level activities, please click the link to re-verify your account "
@@ -175,13 +156,11 @@ msgstr ""
 msgid "Verify account:"
 msgstr ""
 
-#: templates/verify.html:2
-#: templates/verify.txt:1
+#: templates/verify.html:2 templates/verify.txt:1
 msgid "Almost there"
 msgstr ""
 
-#: templates/verify.html:3
-#: templates/verify.txt:2
+#: templates/verify.html:3 templates/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
 msgstr ""
 "%(email)s, sće jenož jedne kliknjenje wot wobkrućenja swojeho konta Firefox "
