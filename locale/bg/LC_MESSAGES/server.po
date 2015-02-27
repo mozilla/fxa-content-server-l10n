@@ -3,14 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-25 18:58+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2015-02-27 08:53+0000\n"
+"Last-Translator: Стоян <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.10.0-rc1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1425027181.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -20,50 +22,54 @@ msgstr ""
 #: server/templates/pages/src/terms.html:1 templates/reset.html:1
 #: templates/unlock.html:1 templates/verify.html:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Firefox Accounts"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
-msgstr ""
+msgstr "Грешна заявка"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "Страницата не е намерена"
 
 #: server/templates/pages/src/404.html:3
 msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
+"Страницата, която търсите я няма. Уведомени сме и ще поправим всички счупени "
+"връзки."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
-msgstr ""
+msgstr "Начало"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr ""
+msgstr "Грешка 500"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
-msgstr ""
+msgstr "О Боже, нещо там се обърка. Уведомени сме и ще поработим над проблема."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "Грешка 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Сървърът е зает, опитайте по-късно"
 
 #: server/templates/pages/src/503.html:3
 msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
+"В момента сме силно натоварени, но работим, за да овладеем ситуацията "
+"възможно най-скоро."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
@@ -72,37 +78,40 @@ msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
+"Вие използвате <strong>остарял</strong> браузър. Моля, <a "
+"href=\"http://browsehappy.com/\">надстройте браузъра си</a> за подобряване на "
+"възможностите."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "Firefox Accounts изисква JavaScript."
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:5
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Неприкосновеност"
 
 #: server/templates/pages/src/privacy.html:4
 #: server/templates/pages/src/terms.html:4
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "Облачни услуги от Firefox"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:5
 msgid "Terms of Service"
-msgstr ""
+msgstr "Условия на услугата"
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Are you sure?"
-msgstr ""
+msgstr "Сигурни ли сте?"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr ""
+msgstr "Моля, потвърдете че искате да нулиране паролата на %(email)s."
 
 #: templates/reset.html:4
 msgid "Reset password"
-msgstr ""
+msgstr "Нулиране на парола"
 
 #: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
 #: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
@@ -110,20 +119,24 @@ msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
+"Това писмо е изпратено автоматично; ако мислите, че е грешка не "
+"предприемайте действията."
 
 #: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
 msgid ""
 "For more information, please visit <a href='https://support.mozilla."
 "org'>Mozilla Support</a>"
 msgstr ""
+"За повече информация, моля, посетете <a "
+"href='https://support.mozilla.org'>Mozilla поддръжка</a>"
 
 #: templates/reset.txt:3
 msgid "Reset password:"
-msgstr ""
+msgstr "Нулиране на парола:"
 
 #: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
-msgstr ""
+msgstr "За повече информация, моля, посетете https://support.mozilla.org"
 
 #: templates/unlock.html:2 templates/unlock.txt:1
 msgid ""
@@ -131,27 +144,32 @@ msgid ""
 "account-level activities, please click the link to re-verify your account "
 "now."
 msgstr ""
+"От съображения за сигурност вашият Firefox Account беше заключен. За да "
+"извършвате действия на ниво профил, моля посетете връзката за повторно "
+"потвърждение сега."
 
 #: templates/unlock.html:3
 msgid "Verify account"
-msgstr ""
+msgstr "Потвърждаване на профил"
 
 #: templates/unlock.txt:2
 msgid "Verify account:"
-msgstr ""
+msgstr "Потвърждаване на профил:"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Almost there"
-msgstr ""
+msgstr "На финалната права"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
 msgstr ""
+"%(email)s, натискането на бутон ви дели от потвърждаване на вашия Firefox "
+"Account."
 
 #: templates/verify.html:4
 msgid "Verify"
-msgstr ""
+msgstr "Потвърждаване"
 
 #: templates/verify.txt:3
 msgid "Verify:"
-msgstr ""
+msgstr "Потвърждаване"
