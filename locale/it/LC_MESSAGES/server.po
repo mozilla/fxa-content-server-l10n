@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-25 18:58+0000\n"
-"PO-Revision-Date: 2015-02-25 16:14+0000\n"
-"Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
+"PO-Revision-Date: 2015-02-28 07:11+0000\n"
+"Last-Translator: Francesco <francesco.lodolo@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1424880853.0\n"
+"X-POOTLE-MTIME: 1425107505.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -147,18 +147,21 @@ msgid ""
 "account-level activities, please click the link to re-verify your account "
 "now."
 msgstr ""
+"Il tuo account Firefox Account è stato bloccato per motivi di sicurezza. Per "
+"effettuare modifiche relative alle impostazioni dell’account fai clic sul "
+"link per ripetere la verifica dell’account."
 
 #: templates/unlock.html:3
 msgid "Verify account"
-msgstr ""
+msgstr "Verifica account"
 
 #: templates/unlock.txt:2
 msgid "Verify account:"
-msgstr ""
+msgstr "Verifica dell’account:"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Almost there"
-msgstr ""
+msgstr "Manca poco…"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
