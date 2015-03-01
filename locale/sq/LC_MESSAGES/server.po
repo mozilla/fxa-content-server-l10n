@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-25 18:58+0000\n"
-"PO-Revision-Date: 2015-01-10 18:54+0000\n"
-"Last-Translator: Besnik <besnik@programeshqip.org>\n"
+"PO-Revision-Date: 2015-03-01 18:29+0200\n"
+"Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
@@ -14,70 +14,69 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1420916056.0\n"
 
-#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
-#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
+#: server/templates/pages/src/400.html:1
+#: server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1
+#: server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1 templates/reset.html:1
-#: templates/unlock.html:1 templates/verify.html:1
+#: server/templates/pages/src/terms.html:1
+#: templates/reset.html:1
+#: templates/unlock.html:1
+#: templates/verify.html:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "LLogari Firefox-i"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
-msgstr ""
+msgstr "Kërkesë e Gabuar"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "Faqja nuk u gjet"
 
 #: server/templates/pages/src/404.html:3
-msgid ""
-"The page you requested is not found. We've been notified and will fix any "
-"links that may be broken."
-msgstr ""
+msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
+msgstr "Faqja që kërkuat nuk u gjet. E kemi mbajtur shënim dhe do të ndreqim çfarëdo lidhje që mund të jetë e dëmtuar."
 
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+#: server/templates/pages/src/404.html:4
+#: server/templates/pages/src/500.html:4
+#: server/templates/pages/src/502.html:4
+#: server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "Kreu"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr ""
+msgstr "Gabim 500"
 
-#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
-msgid ""
-"Oh dear, something went wrong there. We've been notified and will get "
-"working on a fix."
-msgstr ""
+#: server/templates/pages/src/500.html:3
+#: server/templates/pages/src/502.html:3
+msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+msgstr "Oh, diç shkoi keq këtu. E morëm njoftimin dhe do të zëmë të punojmë për ta ndrequr."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "Gabim 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
 msgstr "Shërbyesi është i zënë, riprovoni së shpejti"
 
 #: server/templates/pages/src/503.html:3
-msgid ""
-"We are currently under heavy strain and are working to return the system to "
-"normal as soon as possible."
-msgstr ""
+msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
+msgstr "Hëpërhë jemi nën ngarkesë shumë të madhe dhe po punojmë për ta kthyer sistemin sa më shpejt në gjendje normale."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
-msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr ""
+msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr "Po përdorni një shfletues <strong>të vjetruar</strong>. Ju lutemi, <a href=\"http://browsehappy.com/\">përmirësoni shfletuesin</a> që të përmirësohet punimi juaj."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "Llogaritë Firefox lypin JavaScript."
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:5
@@ -94,70 +93,76 @@ msgstr "Shërbime reje nga Firefox-i"
 msgid "Terms of Service"
 msgstr "Kushte Shërbimi"
 
-#: templates/reset.html:2 templates/reset.txt:1
+#: templates/reset.html:2
+#: templates/reset.txt:1
 msgid "Are you sure?"
-msgstr ""
+msgstr "Jeni i sigurt?"
 
-#: templates/reset.html:3 templates/reset.txt:2
+#: templates/reset.html:3
+#: templates/reset.txt:2
 msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr ""
+msgstr "Ju lutemi, ripohoni se doni të ricaktoni fjalëkalimin për %(email)s."
 
 # Një kërkim i shpejtë te http://fjalori.shkenca.org/ për termin "rivendos" "rivendosje" do të heqë çdo mëdyshje për propozimin e këtushëm.
 #: templates/reset.html:4
 msgid "Reset password"
 msgstr "Ricaktoni fjalëkalimin"
 
-#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
-#: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
+#: templates/reset.html:5
+#: templates/reset.txt:4
+#: templates/unlock.html:4
+#: templates/unlock.txt:3
+#: templates/verify.html:5
+#: templates/verify.txt:4
+msgid "This is an automated email; if you received it in error, no action is required."
+msgstr "Ky është një email i automatizuar; nëse e morët gabimisht, nuk ka nevojë të bëni gjë."
 
-#: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
-msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
-msgstr ""
+#: templates/reset.html:6
+#: templates/unlock.html:5
+#: templates/verify.html:6
+msgid "For more information, please visit <a href='https://support.mozilla.org'>Mozilla Support</a>"
+msgstr "Për më tepër të dhëna, ju lutemi, vizitoni <a href='https://support.mozilla.org'>Asistencën e Mozilla-s</a>"
 
 #: templates/reset.txt:3
 msgid "Reset password:"
-msgstr ""
+msgstr "Ricaktoni fjalëkalimin:"
 
-#: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
+#: templates/reset.txt:5
+#: templates/unlock.txt:4
+#: templates/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
-msgstr ""
+msgstr "Për më tepër të dhëna, ju lutemi, vizitoni https://support.mozilla.org"
 
-#: templates/unlock.html:2 templates/unlock.txt:1
-msgid ""
-"For security reasons your Firefox Account was put on lockdown. To perform "
-"account-level activities, please click the link to re-verify your account "
-"now."
-msgstr ""
+#: templates/unlock.html:2
+#: templates/unlock.txt:1
+msgid "For security reasons your Firefox Account was put on lockdown. To perform account-level activities, please click the link to re-verify your account now."
+msgstr "Për arsye sigurie Llogaria juaj Firefox u kyç. Që të kryeni veprime në nivel llogarie, ju lutemi klikoni lidhjen që të riverifikoni tani llogarinë tuaj."
 
 #: templates/unlock.html:3
 msgid "Verify account"
-msgstr ""
+msgstr "Verifikoni llogari"
 
 #: templates/unlock.txt:2
 msgid "Verify account:"
-msgstr ""
+msgstr "Verifikoni llogarinë:"
 
-#: templates/verify.html:2 templates/verify.txt:1
+#: templates/verify.html:2
+#: templates/verify.txt:1
 msgid "Almost there"
-msgstr ""
+msgstr "Thuajse arritët"
 
-#: templates/verify.html:3 templates/verify.txt:2
+#: templates/verify.html:3
+#: templates/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr ""
+msgstr "%(email)s, ju ndan një hap nga verifikimi i Llogarisë suaj Firefox."
 
 #: templates/verify.html:4
 msgid "Verify"
-msgstr ""
+msgstr "Verifikoni"
 
 #: templates/verify.txt:3
 msgid "Verify:"
-msgstr ""
+msgstr "Verifikoje:"
 
 #~ msgid "1991"
 #~ msgstr "1991"
@@ -299,462 +304,3 @@ msgstr ""
 
 #~ msgid "Request body too large"
 #~ msgstr "Lëndë shumë e madhe për kërkesa"
-
-# ORVATJE f.
-#     Përpjekje me të gjitha forcat për të arritur a për të bërë diçka, mundim.
-#
-# Nuk besoj se konteksti këtu, dhe në të gjitha rastet në kompjutera, përfshin elemente mundimi. Përveç kësaj, në Shqipen e derisotme (të Shqipërisë) "prova" është e mirëngulitur. Ndaj nuk gjej arsye përse duhet zëvendësuar me orvatje. Gabim qofsha!
-#~ msgid "Attempt limit exceeded"
-#~ msgstr "U tejkalua kufiri i provave"
-
-#~ msgid "This endpoint is no longer supported"
-#~ msgstr "Kjo pikë mbarimi nuk mbulohet më"
-
-# riprovoni
-# ndaj përpiquni sërish
-#
-# Siç mund të shihet, edhe sikur nga ana e domethënies të ishte i përshtatshëm, përkthimi "përpiquni sërish" thuajse dyfishon "riprovoni". Nga pikëpamja e ekonomisë në përkthim, kjo nuk përligjet.
-# Nga ana e domethënies "përpiquni sërish" e zgjeron fokusin e veprimeve të mundshme pas dështimit. Kurse "riprovoni" do të thotë të bësh edhe një provë tjetër, të po atij veprimi që kishe bërë më parë.
-#~ msgid "System unavailable, try again soon"
-#~ msgstr "Sistemi s’është në punë, riprovoni së shpejti"
-
-#~ msgid "Session expired. Sign in to continue."
-#~ msgstr "Sesioni skadoi. Që të vazhdohet, bëni hyrjen."
-
-#~ msgid "Cookies are still disabled"
-#~ msgstr "Cookie-t janë ende të çaktivizuara"
-
-#~ msgid "Passwords do not match"
-#~ msgstr "Fjalëkalimet nuk përputhen"
-
-#~ msgid "Working…"
-#~ msgstr "Po punohet…"
-
-#~ msgid "Could not get Privacy Notice"
-#~ msgstr "Nuk u mor dot Shënim mbi Privatësinë"
-
-#~ msgid "Could not get Terms of Service"
-#~ msgstr "Nuk u morën dot Kushtet e Shërbimit"
-
-#~ msgid "Your new password must be different"
-#~ msgstr "Fjalëkalimi juaj i ri duhet të jetë i ndryshëm"
-
-#~ msgid "Must be at least 8 characters"
-#~ msgstr "Duhet të jetë të paktën 8 shenja"
-
-#~ msgid "Valid password required"
-#~ msgstr "Lyp fjalëkalim të vlefshëm"
-
-#~ msgid "Valid email required"
-#~ msgstr "Lypset email i vlefshëm"
-
-#~ msgid "Year of birth required"
-#~ msgstr "Viti i lindjes është i domosdoshëm"
-
-#~ msgid "A usable image was not found"
-#~ msgstr "Nuk u gjet një figurë e përdorshme"
-
-#~ msgid "Could not initialize camera"
-#~ msgstr "Nuk u gatit dot kamera"
-
-#~ msgid "Valid URL required"
-#~ msgstr "Lypset URL e vlefshme"
-
-#~ msgid "Valid birthday required"
-#~ msgstr "Lypset datëlindje e vlefshme"
-
-#~ msgid "Unknown client"
-#~ msgstr "Klient i panjohur"
-
-#~ msgid "Incorrect redirect_uri"
-#~ msgstr "redirect_uri e pasaktë"
-
-#~ msgid "Something went wrong. Please close this tab and try again."
-#~ msgstr "Diç shkoi ters. Ju lutemi, mbylleni këtë skedë dhe riprovoni."
-
-#~ msgid "Unauthorized"
-#~ msgstr "I paautorizuar"
-
-#~ msgid "Unsupported image provider"
-#~ msgstr "Mundësues i pambuluar figurash"
-
-#~ msgid "Image processing error"
-#~ msgstr "Gabim në përpunimin e figurës"
-
-#~ msgid "Firefox Sync"
-#~ msgstr "Firefox Sync"
-
-#~ msgid ""
-#~ "Your verification email was just returned. Mistyped email? <a href=\"/"
-#~ "signup\">Start over.</a>"
-#~ msgstr ""
-#~ "Email-i juaj i verifikimit sapo u kthye mbrapsht. Adresë e shkruar gabim? "
-#~ "<a href=\"/signup\">Fillojani nga e para.</a>"
-
-#~ msgid "Subscribe to Firefox news and tips"
-#~ msgstr "Pajtohuni te lajmet dhe ndihmëzat mbi Firefox-in"
-
-#~ msgid "Cannot create account"
-#~ msgstr "S’krijohet dot llogaria"
-
-#~ msgid ""
-#~ "You must meet certain age requirements to create a Firefox&nbsp;Account."
-#~ msgstr ""
-#~ "Duhet të plotësoni disa domosdoshmëri lidhur me moshën, që të mundeni të "
-#~ "krijoni një Firefox&nbsp;Account."
-
-#~ msgid "Learn more."
-#~ msgstr "Mësoni më tepër."
-
-#~ msgid "Change password"
-#~ msgstr "Ndryshoni fjalëkalimin"
-
-#~ msgid ""
-#~ "Once you're ﬁnished, use your new password to sign in on all of your "
-#~ "devices."
-#~ msgstr ""
-#~ "Pasi të keni mbaruar, përdoreni fjalëkalimin tuaj të ri për hyrje në "
-#~ "krejt pajisjet tuaja."
-
-#~ msgid "Old password"
-#~ msgstr "Fjalëkalimi i vjetër"
-
-#~ msgid "Show"
-#~ msgstr "Shfaqe"
-
-#~ msgid "New password"
-#~ msgstr "Fjalëkalimi i ri"
-
-#~ msgid "Confirm"
-#~ msgstr "Ripohojeni"
-
-#~ msgid "Back"
-#~ msgstr "Mbrapsht"
-
-# Një kërkim i shpejtë te http://fjalori.shkenca.org/ për termin "rivendos" "rivendosje" do të heqë çdo mëdyshje për propozimin e këtushëm.
-#~ msgid "Reset password link expired"
-#~ msgstr "Lidhja e ricaktimit të fjalëkalimit skadoi"
-
-#~ msgid "Email resent"
-#~ msgstr "Email-i u ridërgua"
-
-#~ msgid "The link you clicked to reset your password is expired."
-#~ msgstr "Lidhja që klikuat për ricaktimin e fjalëkalimit tuaj ka skaduar."
-
-#~ msgid "Click here to receive a new reset link"
-#~ msgstr "Klikoni këtu që të merrni një lidhje të re ricaktimi"
-
-# Një kërkim i shpejtë te http://fjalori.shkenca.org/ për termin "rivendos" "rivendosje" do të heqë çdo mëdyshje për propozimin e këtushëm.
-#~ msgid "Reset password link damaged"
-#~ msgstr "Lidhja e ricaktimit të fjalëkalimit është e dëmtuar"
-
-# Përkthimi fjalë për fjalë i "characters" në "karaktere" kur bëhet fjalë për shkronja dhe numra dhe simbole të tjera të shkruara është dëshmi e formimit të çalë të shumë prej atyre që i bien shkurt nga Anglishtja në Shqip, vetëm pse fjala në Anglisht ka një grafemë edhe në Shqip. Puna është që kuptimet që "karakteri" ka në Shqip janë tmerrësisht larg atij që po i vishet "character"-it të Anglishtes:
-#
-# KARAKTER m.
-#     1. Tërësia e veçorive psikike më kryesore, që shfaqen në veprimtarinë e në sjelljen e njeriut në shoqëri dhe që e shquajnë personalitetin e tij; njeri me veçori psikike e morale të caktuara. Me karakter të butë (të fortë). Me karakter të mbyllur. Tiparet e karakterit. Formohet karakteri. Nuk u puqen karakteret.
-#     2. Këmbëngulje e madhe, vendosmëri për t'ia arritur një qëllimi, vullnet i fortë, qëndresë e burrëri. Njeri me karakter. Dobësi (mungesë) karakteri.
-#     3. Ajo që e shquan diçka nga të tjerat, veti dalluese e diçkaje. Me karakter objektiv (subjektiv). Me karakter të përgjithshëm (të veçantë). Ka karakter klasor (politik, ideologjik). Karakter shkencor (artistik, pedagogjik). Ka karakter shoqëror (kombëtar, përparimtar).
-#     4. art., let. Personazh që mishëron përmes tipareve individuale disa anë e veçori thelbësore të përfaqësuesve tipikë të një klase a shtrese shoqërore ose të një grupi a mjedisi shoqëror në një epokë të caktuar historike; tip. Karakter letrar. Karakter i plotë (i gjallë). Karakter dramatik (tragjik). Karakter në letërsi (në art). Karakteret në prozën e Migjenit. Krijoi (dha) një karakter të ri.
-#
-# Mjerisht, shumë shpesh, gomarllëqe të tilla nga të paditur të patëkeq lihen të kalojnë me një syleshllëk të çuditshëm...
-#
-# P.S. Se kush e përdori i pari si "karaktere", nuk dihet.
-#~ msgid ""
-#~ "The link you clicked was missing characters, and may have been broken by "
-#~ "your email client. Copy the address carefully, and try again."
-#~ msgstr ""
-#~ "Lidhjes që klikuat i mungonin shenja, dhe mund të jetë dëmtuar nga "
-#~ "klienti juaj email. Kopjojeni adresën me kujdes, dhe riprovoni."
-
-#~ msgid "Repeat password"
-#~ msgstr "Rijepeni fjalëkalimin"
-
-#~ msgid "Next"
-#~ msgstr "Pasuesi"
-
-#~ msgid "Verification link expired"
-#~ msgstr "Lidhja për verifikimin skadoi"
-
-#~ msgid "The link you clicked to verify your email is expired."
-#~ msgstr "Lidhja që klikuat për verifikimin e email-it tuaj ka skaduar."
-
-#~ msgid "Click here to receive a new verification link"
-#~ msgstr "Klikoni këtu që të merrni një lidhje të re verifikimi"
-
-#~ msgid "Verification link damaged"
-#~ msgstr "Lidhja për verifikimin është e dëmtuar"
-
-#~ msgid "Verification error"
-#~ msgstr "Gabim verifikimi"
-
-#~ msgid "Confirm your account"
-#~ msgstr "Ripohoni llogarinë tuaj"
-
-#~ msgid "Email Sent"
-#~ msgstr "Email-i u Dërgua"
-
-#~ msgid "A verification link has been sent&nbsp;to %(email)s"
-#~ msgstr "Sapo u dërgua një lidhje verifikimi&nbsp;te %(email)s"
-
-#~ msgid "Resend email"
-#~ msgstr "Ridërgoje email-in"
-
-#~ msgid "Reset email sent"
-#~ msgstr "Email-i për ricaktim u dërgua"
-
-#~ msgid "A reset link has been sent to %(email)s"
-#~ msgstr "Te %(email)s u dërgua një lidhje ricaktimi"
-
-#~ msgid "Sign in"
-#~ msgstr "Hyni"
-
-#~ msgid "Cookies required"
-#~ msgstr "Cookie-t janë të domosdoshme"
-
-#~ msgid ""
-#~ "Please enable cookies in your browser which are required by Firefox "
-#~ "Accounts. Cookies are small pieces of data stored in your browser that "
-#~ "provide functionality such as remembering you between sessions."
-#~ msgstr ""
-#~ "Ju lutemi, aktivizoni cookie-t te shfletuesi juaj, të cilat janë të "
-#~ "domosdoshme për Llogari Firefox. Cookie-t janë copëza të vogla të "
-#~ "dhënash, të depozituara në shfletuesin tuaj, që bëjnë të mundur funksione "
-#~ "të tillë si mbajtja mend e sesioneve tuaj nga njëri në tjetrin."
-
-#~ msgid "Learn more"
-#~ msgstr "Mësoni më tepër"
-
-#~ msgid "Try again"
-#~ msgstr "Riprovoni"
-
-#~ msgid "Delete account"
-#~ msgstr "Fshijeni llogarinë"
-
-#~ msgid ""
-#~ "Are you sure you want to delete your account? This action cannot be "
-#~ "undone."
-#~ msgstr ""
-#~ "Jeni i sigurt se doni të fshihet llogaria juaj? Ky veprim nuk mund të "
-#~ "zhbëhet."
-
-#~ msgid "Password"
-#~ msgstr "Fjalëkalimi"
-
-#~ msgid "Sign in to continue"
-#~ msgstr "Bëni hyrjen që të vazhdohet"
-
-#~ msgid "Forgot password?"
-#~ msgstr "Harruat  fjalëkalimin?"
-
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "Duke vazhduar më tej, pajtohem me <a id=\"fxa-tos\" href=\"/legal/terms"
-#~ "\">Kushtet e Shërbimit</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">Shënimet mbi Privatësinë</a> të shërbimeve Firefox për re."
-
-#~ msgid "Legal"
-#~ msgstr "Ligjore"
-
-#~ msgid "Stay in sync on the go:"
-#~ msgstr "Jini i njëkohësuar kudo:"
-
-#~ msgid "Get Firefox for Android"
-#~ msgstr "Merrni Firefox-in për Android"
-
-#~ msgid "Account verified"
-#~ msgstr "Llogaria u verifikua"
-
-#~ msgid "Success"
-#~ msgstr "Sukses"
-
-#~ msgid "You are now ready to use %(serviceName)s"
-#~ msgstr "Tani jeni gati të përdorni %(serviceName)s"
-
-#~ msgid "Your account is ready!"
-#~ msgstr "Llogaria juaj është gati!"
-
-#~ msgid "Enter your email to reset&nbsp;the account password."
-#~ msgstr "Jepni email-in tuaj që të ricaktoni&nbsp;fjalëkalimin e llogarisë."
-
-#~ msgid "Email"
-#~ msgstr "Email"
-
-#~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data "
-#~ "from our servers. A new Sync backup will be created from your local "
-#~ "browsing data."
-#~ msgstr ""
-#~ "Për arsye sigurie, ricaktimi i fjalëkalimit tuaj do të fshijë nga "
-#~ "shërbyesit tanë të dhënat tuaja Sync. Nga të dhënat tuaja vendore të "
-#~ "shfletimit do të krijohet një kopjeruajtje e re Sync-u."
-
-#~ msgid "Manage account"
-#~ msgstr "Administroni llogarinë"
-
-#~ msgid "You are signed in as"
-#~ msgstr "Keni hyrë si"
-
-#~ msgid "Sign out"
-#~ msgstr "Dilni"
-
-#~ msgid "Continue to %(serviceName)s"
-#~ msgstr "Vazhdoni te %(serviceName)s"
-
-#~ msgid "Use a different account"
-#~ msgstr "Përdorni një llogari tjetër"
-
-#~ msgid "Create an account"
-#~ msgstr "Krijoni një llogari"
-
-#~ msgid "Create a Firefox Account"
-#~ msgstr "Krijoni një llogari Firefox Account"
-
-#~ msgid "Year of birth"
-#~ msgstr "Viti i lindjes"
-
-#~ msgid "1990 or earlier"
-#~ msgstr "1990 ose më herët"
-
-#~ msgid "Month"
-#~ msgstr "Muaj"
-
-#~ msgid "January"
-#~ msgstr "Janar"
-
-#~ msgid "February"
-#~ msgstr "Shkurt"
-
-#~ msgid "March"
-#~ msgstr "Mars"
-
-#~ msgid "April"
-#~ msgstr "Prill"
-
-#~ msgid "May"
-#~ msgstr "Maj"
-
-#~ msgid "June"
-#~ msgstr "Qershor"
-
-#~ msgid "July"
-#~ msgstr "Korrik"
-
-#~ msgid "August"
-#~ msgstr "Gusht"
-
-#~ msgid "September"
-#~ msgstr "Shtator"
-
-#~ msgid "October"
-#~ msgstr "Tetor"
-
-#~ msgid "November"
-#~ msgstr "Nëntor"
-
-#~ msgid "December"
-#~ msgstr "Dhjetor"
-
-#~ msgid "Day"
-#~ msgstr "Ditë"
-
-#~ msgid "Sign up"
-#~ msgstr "Regjistroje"
-
-#~ msgid "Choose what to sync"
-#~ msgstr "Zgjidhni çfarë të njëkohësohet"
-
-#~ msgid "Already have an account? Sign in."
-#~ msgstr "Keni tashmë një llogari? Hyni."
-
-#~ msgid "Account picture"
-#~ msgstr "Foto llogarie"
-
-#~ msgid "Change"
-#~ msgstr "Ndryshoje"
-
-#~ msgid "Take picture"
-#~ msgstr "Bëni një foto"
-
-#~ msgid "Cancel"
-#~ msgstr "Anuloje"
-
-#~ msgid "Upload"
-#~ msgstr "Ngarkoje"
-
-#~ msgid "Camera"
-#~ msgstr "Kamerë"
-
-#~ msgid "Gravatar"
-#~ msgstr "Gravatar"
-
-#~ msgid "Position and rotate your picture as needed"
-#~ msgstr "Vendoseni dhe rrotullojeni foton tuaj sipas nevojës"
-
-#~ msgid "Save"
-#~ msgstr "Ruaje"
-
-#~ msgid "Paste image URL"
-#~ msgstr "Hidhni URL-në e figurës"
-
-#~ msgid "Invalid password"
-#~ msgstr "Fjalëkalim i pavlefshëm"
-
-#~ msgid "Invalid email and password"
-#~ msgstr "Email ose fjalëkalim i pavlefshëm"
-
-#~ msgid "Invalid email or password"
-#~ msgstr "Fjalëkalim ose Email i pavlefshëm"
-
-#~ msgid "Old password invalid"
-#~ msgstr "Fjalëkalim i vjetër i pavlefshëm"
-
-#~ msgid "New password invalid"
-#~ msgstr "Fjalëkalim i ri i pavlefshëm"
-
-#~ msgid "Passwords don't match"
-#~ msgstr "Fjalëkalimet s’përputhen"
-
-#~ msgid "Please enter an email"
-#~ msgstr "Ju lutemi, jepni një email"
-
-#~ msgid "Cannot connect to the internet"
-#~ msgstr "S’lidhet dot në internet"
-
-#~ msgid "Signed in successfully"
-#~ msgstr "Hytë me sukses"
-
-#~ msgid "Create a Firefox Account for %(serviceName)s"
-#~ msgstr "Krijoni një llogari Firefox Account për %(serviceName)s"
-
-#~ msgid "Change Password"
-#~ msgstr "Ndryshoni Fjalëkalimin"
-
-#~ msgid "Invalid authentication token in request signature"
-#~ msgstr "Token i pavlefshëm mirëfilltësimi te nënshkrim kërkese"
-
-#~ msgid "No token specified"
-#~ msgstr "Nuk është përcaktuar token"
-
-#~ msgid "No code specified"
-#~ msgstr "Nuk është pëcaktuar kod"
-
-#~ msgid "No email specified"
-#~ msgstr "Nuk është përcaktuar email"
-
-#~ msgid "No uid specified"
-#~ msgstr "Nuk është përcaktuar uid"
-
-#~ msgid "Service unavailable"
-#~ msgstr "Shërbimi nuk po punon"
-
-#~ msgid "Completing sign up"
-#~ msgstr "Po plotësohet regjistrimi"
-
-#~ msgid "Client has sent too many requests"
-#~ msgstr "Klienti ka dërguar shumë kërkesa"
-
-#~ msgid "Delete Account"
-#~ msgstr "Fshini Llogari"
