@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-25 18:58+0000\n"
-"PO-Revision-Date: 2014-10-11 19:55+0000\n"
+"PO-Revision-Date: 2015-03-01 07:36+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1413057333.0\n"
+"X-POOTLE-MTIME: 1425195362.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -26,7 +26,7 @@ msgstr "Firefox 帳號"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
-msgstr ""
+msgstr "請求錯誤"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -55,7 +55,7 @@ msgstr "抱歉，有些東西怪怪的，我們已經記錄下來，並將會進
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "502 錯誤"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -140,19 +140,19 @@ msgid ""
 "For security reasons your Firefox Account was put on lockdown. To perform "
 "account-level activities, please click the link to re-verify your account "
 "now."
-msgstr ""
+msgstr "由於安全性因素，您的 Firefox 帳號已被暫時鎖定。若要進行帳號相關操作，請點擊以下連結重新確認您的帳號。"
 
 #: templates/unlock.html:3
 msgid "Verify account"
-msgstr ""
+msgstr "確認帳號"
 
 #: templates/unlock.txt:2
 msgid "Verify account:"
-msgstr ""
+msgstr "確認帳號:"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Almost there"
-msgstr ""
+msgstr "快好了"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
