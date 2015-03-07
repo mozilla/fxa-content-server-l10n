@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:15+0000\n"
-"PO-Revision-Date: 2015-01-09 00:06+0300\n"
-"Last-Translator: Alexander L. Slovesnik <unghost@mozilla-russia.org>\n"
+"PO-Revision-Date: 2015-03-07 19:40+0000\n"
+"Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.7.1\n"
-"X-POOTLE-MTIME: 1406462242.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1425757220.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: app/scripts/templates/sign_up.mustache:16
@@ -90,13 +90,13 @@ msgstr "отсутствует параметр поиска: %(itemName)s"
 
 #: app/scripts/views/change_password.js:80
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Пароль успешно изменён"
 
 #: app/scripts/views/complete_reset_password.js:143
 #: app/scripts/views/complete_sign_up.js:84 app/scripts/views/confirm.js:92
 #: app/scripts/views/confirm_reset_password.js:176
 msgid "Account verified successfully"
-msgstr ""
+msgstr "Аккаунт успешно подтверждён"
 
 #: app/scripts/views/confirm_reset_password.js:164
 #: app/scripts/templates/ready.mustache:3
@@ -105,7 +105,7 @@ msgstr "Пароль восстановлен"
 
 #: app/scripts/views/confirm_reset_password.js:193
 msgid "Password reset successfully. Sign in to continue."
-msgstr ""
+msgstr "Пароль успешно сброшен. Войти, чтобы продолжить."
 
 #: app/scripts/views/delete_account.js:49
 msgid "Account deleted successfully"
@@ -117,7 +117,7 @@ msgstr "Неизвестный аккаунт. <a href=\"/signup\">Зареги�
 
 #: app/scripts/views/settings.js:51
 msgid "Signed out successfully"
-msgstr ""
+msgstr "Выход успешно произведён"
 
 #: app/scripts/views/sign_up.js:399
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
@@ -173,7 +173,7 @@ msgstr "Неподтвержденный аккаунт"
 
 #: app/scripts/lib/auth-errors.js:57
 msgid "Invalid verification errno"
-msgstr ""
+msgstr "Некорректное подтверждение с errno"
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "Invalid JSON in request body"
@@ -219,7 +219,7 @@ msgstr "Система недоступна, подождите и повтор�
 
 #: app/scripts/lib/auth-errors.js:101 app/scripts/lib/oauth-errors.js:65
 msgid "no message"
-msgstr ""
+msgstr "нет сообщения"
 
 #: app/scripts/lib/auth-errors.js:105
 msgid "Session expired. Sign in to continue."
@@ -288,15 +288,21 @@ msgstr "Введите корректный день рождения"
 #: app/scripts/lib/auth-errors.js:169
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr ""
+"Ваше письмо с подтверждением только что вернулось. Опечатка в электронной "
+"почте?"
 
 #: app/scripts/lib/auth-errors.js:177
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr ""
+"Введите корректный адрес электронной почты. firefox.com не предлагает службу "
+"электронной почты."
 
 #: app/scripts/lib/auth-errors.js:185
 #: app/scripts/templates/illegal_iframe.mustache:2
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
+"Аккаунты Firefox могут быть помещены внутри IFRAME только на одобренных "
+"сайтах"
 
 #: app/scripts/lib/auth-errors.js:193
 msgid "/force_auth requires an email"
@@ -321,7 +327,7 @@ msgstr ""
 
 #: app/scripts/lib/oauth-errors.js:69
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Отсутствует параметр OAuth: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:18
 msgid "Unauthorized"
@@ -577,7 +583,7 @@ msgstr ""
 
 #: app/scripts/templates/illegal_iframe.mustache:1
 msgid "Illegal iframe"
-msgstr ""
+msgstr "Нелегальный iframe"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
