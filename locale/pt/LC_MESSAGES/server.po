@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-25 18:58+0000\n"
-"PO-Revision-Date: 2014-10-11 02:38+0000\n"
+"PO-Revision-Date: 2015-03-08 05:01+0000\n"
 "Last-Translator: Cláudio <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1412995107.0\n"
+"X-POOTLE-MTIME: 1425790876.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -26,7 +26,7 @@ msgstr "Contas do Firefox"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
-msgstr ""
+msgstr "Pedido inválido"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -59,7 +59,7 @@ msgstr ""
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "Erro 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -146,18 +146,21 @@ msgid ""
 "account-level activities, please click the link to re-verify your account "
 "now."
 msgstr ""
+"Por questões de segurança, a sua conta Firefox foi bloqueada. Para executar "
+"atividades ao nível da conta, por favor clique na ligação para confirmar "
+"novamente a sua conta."
 
 #: templates/unlock.html:3
 msgid "Verify account"
-msgstr ""
+msgstr "Confirmar conta"
 
 #: templates/unlock.txt:2
 msgid "Verify account:"
-msgstr ""
+msgstr "Confirmar conta:"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Almost there"
-msgstr ""
+msgstr "Está quase"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
