@@ -4,14 +4,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-25 18:58+0000\n"
-"PO-Revision-Date: 2014-05-16 01:09+0200\n"
-"Last-Translator: Ibrahima SARR <ibrahima.sarr@pulaagu.com>\n"
+"PO-Revision-Date: 2015-03-07 12:55+0000\n"
+"Last-Translator: Anonymous Pootle User\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Virtaal 0.7.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1425732953.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -25,7 +27,7 @@ msgstr "Konte Firefox"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
-msgstr ""
+msgstr "Ɗaɓɓitannde moƴƴaani"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -46,17 +48,19 @@ msgstr "Jaɓɓorgo"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr ""
+msgstr "Juumre 500"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr ""
+"Ee'bo, won caɗeele mbaɗi. Min tintinaama tee ma min ƴeew ñawndude ɗum ko "
+"yaawi."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "Juumre 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -142,18 +146,20 @@ msgid ""
 "account-level activities, please click the link to re-verify your account "
 "now."
 msgstr ""
+"Ngam kisal maa, Konte Firefox maa cokaama. Ngam huutoraade fannuuji konte "
+"ɗee, tiiɗno ƴeewto iimeel maa kadi jooni."
 
 #: templates/unlock.html:3
 msgid "Verify account"
-msgstr ""
+msgstr "Ƴeewti iimeel"
 
 #: templates/unlock.txt:2
 msgid "Verify account:"
-msgstr ""
+msgstr "Ƴeewto iimeel:"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Almost there"
-msgstr ""
+msgstr "Seeɗa heddii"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."

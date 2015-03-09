@@ -4,14 +4,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:15+0000\n"
-"PO-Revision-Date: 2014-05-16 00:57+0200\n"
-"Last-Translator: Ibrahima SARR <ibrahima.sarr@pulaagu.com>\n"
+"PO-Revision-Date: 2015-03-09 21:16+0000\n"
+"Last-Translator: Anonymous Pootle User\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Virtaal 0.7.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1425935773.0\n"
 
 #: app/scripts/templates/sign_up.mustache:16
 msgid "1991"
@@ -87,13 +89,13 @@ msgstr "ena ŋakki teeltol njiilaw: %(itemName)s"
 
 #: app/scripts/views/change_password.js:80
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Finnde wayliraama no haaniri"
 
 #: app/scripts/views/complete_reset_password.js:143
 #: app/scripts/views/complete_sign_up.js:84 app/scripts/views/confirm.js:92
 #: app/scripts/views/confirm_reset_password.js:176
 msgid "Account verified successfully"
-msgstr ""
+msgstr "Konte ƴeewtoraama no haaniri"
 
 #: app/scripts/views/confirm_reset_password.js:164
 #: app/scripts/templates/ready.mustache:3
@@ -102,7 +104,7 @@ msgstr "Finnde firlitaama"
 
 #: app/scripts/views/confirm_reset_password.js:193
 msgid "Password reset successfully. Sign in to continue."
-msgstr ""
+msgstr "Finnde firlitaama no haanirta. Seŋo ngam jokkude."
 
 #: app/scripts/views/delete_account.js:49
 msgid "Account deleted successfully"
@@ -114,7 +116,7 @@ msgstr "Konte anndaaka. <a href=\"/signup\">Winndito</a>"
 
 #: app/scripts/views/settings.js:51
 msgid "Signed out successfully"
-msgstr ""
+msgstr "Seŋtiima no haanirta"
 
 #: app/scripts/views/sign_up.js:399
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
@@ -122,11 +124,11 @@ msgstr "Konte ena ngoodi kisa. <a href=\"/signin\">Seŋo</a>"
 
 #: app/scripts/views/settings/avatar_gravatar.js:57
 msgid "No Gravatar found"
-msgstr ""
+msgstr "Alaa Gravatar yiytaa"
 
 #: app/scripts/views/settings/avatar_gravatar.js:86
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr ""
+msgstr "E wnume <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
 #: app/scripts/lib/auth-errors.js:21 app/scripts/lib/auth-errors.js:165
 #: app/scripts/lib/auth-errors.js:181 app/scripts/lib/oauth-errors.js:45
@@ -170,7 +172,7 @@ msgstr "Konte ƴeewtaaka"
 
 #: app/scripts/lib/auth-errors.js:57
 msgid "Invalid verification errno"
-msgstr ""
+msgstr "Ƴeewtagol feewaani"
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "Invalid JSON in request body"
@@ -198,9 +200,8 @@ msgid "Request body too large"
 msgstr "Jimme ɗaɓɓitannde ena mawni haa ɓurti"
 
 #: app/scripts/lib/auth-errors.js:85
-#, fuzzy
 msgid "Attempt limit exceeded"
-msgstr "Etaali ɓurtii ko yamiraa."
+msgstr "Etaali ɓurtii ko yamiraa"
 
 #: app/scripts/lib/auth-errors.js:89
 msgid "Server busy, try again soon"
@@ -217,7 +218,7 @@ msgstr "Yuɓɓo heɓotaako, eto ɗoo e yeeso"
 
 #: app/scripts/lib/auth-errors.js:101 app/scripts/lib/oauth-errors.js:65
 msgid "no message"
-msgstr ""
+msgstr "alaa ɓatakuru"
 
 #: app/scripts/lib/auth-errors.js:105
 msgid "Session expired. Sign in to continue."
@@ -233,7 +234,7 @@ msgstr "Finndeeji nanndaani"
 
 #: app/scripts/lib/auth-errors.js:117
 msgid "Working…"
-msgstr ""
+msgstr "Nana golla…"
 
 #: app/scripts/lib/auth-errors.js:121
 msgid "Could not get Privacy Notice"
@@ -269,73 +270,68 @@ msgstr "Hitaande jibinannde ena waɗɗii"
 
 #: app/scripts/lib/auth-errors.js:149
 msgid "A usable image was not found"
-msgstr ""
+msgstr "Natal baawngal huutoreede yiyaaka"
 
 #: app/scripts/lib/auth-errors.js:153
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "Horiima heblitaade kamaraa"
 
 #: app/scripts/lib/auth-errors.js:157
-#, fuzzy
 msgid "Valid URL required"
-msgstr "Iimeel moƴƴo ena waɗɗii"
+msgstr "URL moƴƴo ena waɗɗii"
 
 #: app/scripts/lib/auth-errors.js:161
-#, fuzzy
 msgid "Valid birthday required"
-msgstr "Iimeel moƴƴo ena waɗɗii"
+msgstr "Maanditaare moƴƴere ena waɗɗii"
 
 #: app/scripts/lib/auth-errors.js:169
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Iimeel ƴeewtoɗo oo ruttinaama. Juumre binndol?"
 
 #: app/scripts/lib/auth-errors.js:177
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "Naatnu ñiiɓirde iimeel moƴƴere. firefox.com hokkataa ñiiɓirɗe."
 
 #: app/scripts/lib/auth-errors.js:185
 #: app/scripts/templates/illegal_iframe.mustache:2
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Konte Firefox mbaawi wonde tan ko e IFRAME e lowe jamiraaɗe"
 
 #: app/scripts/lib/auth-errors.js:193
 msgid "/force_auth requires an email"
 msgstr "/force_auth ena naamnii iimeel"
 
 #: app/scripts/lib/oauth-errors.js:21
-#, fuzzy
 msgid "Unknown client"
-msgstr "Konte nganndaaka"
+msgstr "Kiliyaan nganndaaka"
 
 #: app/scripts/lib/oauth-errors.js:25
-#, fuzzy
 msgid "Incorrect redirect_uri"
-msgstr "Darnde iimeel feewaani"
+msgstr "redirect_uri feewaani"
 
 #: app/scripts/lib/oauth-errors.js:29
-#, fuzzy
 msgid "Invalid assertion"
 msgstr "Tokkunde moƴƴaani"
 
 #: app/scripts/lib/oauth-errors.js:49
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "Won caɗeele mbaɗi. Tiiɗno uddu ndee tabbere kisa puɗɗito-ɗaa."
 
 #: app/scripts/lib/oauth-errors.js:69
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Ena ŋakki OAuth parameter: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:18
 msgid "Unauthorized"
-msgstr ""
+msgstr "Yamiraaka"
 
 #: app/scripts/lib/profile-errors.js:26
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "Carwinoowo nate jaaɓaaka"
 
 #: app/scripts/lib/profile-errors.js:30
 msgid "Image processing error"
-msgstr ""
+msgstr "Juumre lijjitgol natal"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -367,6 +363,7 @@ msgstr "Waylu finnde"
 msgid ""
 "Once you're ﬁnished, use your new password to sign in on all of your devices."
 msgstr ""
+"Tuma ngasnu-ɗaa, huutoro finnde maa hesere ngam seŋaade e kaɓirɗi maa kala."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -391,7 +388,7 @@ msgstr "Finnde hesere"
 
 #: app/scripts/templates/change_password.mustache:10
 msgid "Confirm"
-msgstr ""
+msgstr "Teeŋtin"
 
 #: app/scripts/templates/change_password.mustache:11
 #: app/scripts/templates/delete_account.mustache:6
@@ -402,9 +399,8 @@ msgid "Back"
 msgstr "Caggal"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
-#, fuzzy
 msgid "Reset password link expired"
-msgstr "Firlit finnde"
+msgstr "Jokkol pirlitgol finnde hiiɗtii"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -422,9 +418,8 @@ msgid "Click here to receive a new reset link"
 msgstr "Dobo ɗoo ngam heɓde jokkol kesol"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
-#, fuzzy
 msgid "Reset password link damaged"
-msgstr "Firlit finnde"
+msgstr "Jokkol pirlitgol finnde moƴƴaani"
 
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:8
@@ -454,14 +449,12 @@ msgid "Verification link expired"
 msgstr "Jokkol ƴeewtagol hiiɗtii"
 
 #: app/scripts/templates/complete_sign_up.mustache:3
-#, fuzzy
 msgid "The link you clicked to verify your email is expired."
-msgstr "Jokkol ndobi-ɗaa ngam firlitde finnde maa ngol hiiɗtii."
+msgstr "Jokkol ndobi-ɗaa ngam ƴeewtaade finnde maa ngol hiiɗtii."
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Click here to receive a new verification link"
-msgstr "Dobo ɗoo ngam heɓde jokkol kesol"
+msgstr "Dobo ɗoo ngam heɓde jokkol ƴeewtagol kesol"
 
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
@@ -509,9 +502,8 @@ msgid "Sign in"
 msgstr "Seŋo"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-#, fuzzy
 msgid "Cookies required"
-msgstr "Kukiije ena Mbaɗɗii"
+msgstr "Kukiije ena mbaɗɗii"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -574,7 +566,7 @@ msgstr ""
 
 #: app/scripts/templates/illegal_iframe.mustache:1
 msgid "Illegal iframe"
-msgstr ""
+msgstr "Iframe yamiraaka"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -613,9 +605,8 @@ msgid "Success"
 msgstr "Moƴƴii"
 
 #: app/scripts/templates/ready.mustache:6
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s"
-msgstr "A hebiima haŋkadi huutoraade %(serviceName)s."
+msgstr "A hebiima haŋkadi huutoraade %(serviceName)s"
 
 #: app/scripts/templates/ready.mustache:8
 msgid "Your account is ready!"
@@ -636,6 +627,8 @@ msgid ""
 "For security reasons, resetting your password will erase your Sync data from "
 "our servers. A new Sync backup will be created from your local browsing data."
 msgstr ""
+"Ngam suturo maa, firlitde finnde maa momtu keɓe Sync kala e carworɗe amen. "
+"Maa dannditol Sync kesol sose tugnaade e keɓe nokkuure wanngorde maa."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
@@ -644,11 +637,11 @@ msgstr "Toppito konte"
 #: app/scripts/templates/settings.mustache:2
 #: app/scripts/templates/settings/avatar.mustache:2
 msgid "Change"
-msgstr ""
+msgstr "Waylu"
 
 #: app/scripts/templates/settings.mustache:4
 msgid "You are signed in as"
-msgstr "Ƴeŋori-ɗaa ko innde"
+msgstr "Ceŋori-ɗaa ko innde"
 
 #: app/scripts/templates/settings.mustache:7
 msgid "Sign out"
@@ -656,15 +649,13 @@ msgstr "Seŋto"
 
 #: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
-#, fuzzy
 msgid "Continue to %(serviceName)s"
-msgstr "A hebiima haŋkadi huutoraade %(serviceName)s."
+msgstr "Jokku to %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:11
 #: app/scripts/templates/sign_in.mustache:14
-#, fuzzy
 msgid "Use a different account"
-msgstr "Konte ƴeewtaaka"
+msgstr "Huutoro konte goɗɗe"
 
 #: app/scripts/templates/sign_in.mustache:24
 msgid "Create an account"
@@ -685,64 +676,63 @@ msgstr "1990 walla ko adii"
 
 #: app/scripts/templates/sign_up.mustache:33
 msgid "Month"
-msgstr ""
+msgstr "Lewru"
 
 #: app/scripts/templates/sign_up.mustache:34
 msgid "January"
-msgstr ""
+msgstr "Siilo"
 
 #: app/scripts/templates/sign_up.mustache:35
 msgid "February"
-msgstr ""
+msgstr "Colte"
 
 #: app/scripts/templates/sign_up.mustache:36
 msgid "March"
-msgstr ""
+msgstr "Mbooy"
 
 #: app/scripts/templates/sign_up.mustache:37
 msgid "April"
-msgstr ""
+msgstr "Seeɗto"
 
 #: app/scripts/templates/sign_up.mustache:38
 msgid "May"
-msgstr ""
+msgstr "Duujal"
 
 #: app/scripts/templates/sign_up.mustache:39
 msgid "June"
-msgstr ""
+msgstr "Korse"
 
 #: app/scripts/templates/sign_up.mustache:40
 msgid "July"
-msgstr ""
+msgstr "Morso"
 
 #: app/scripts/templates/sign_up.mustache:41
 msgid "August"
-msgstr ""
+msgstr "Juko"
 
 #: app/scripts/templates/sign_up.mustache:42
 msgid "September"
-msgstr ""
+msgstr "Siilto"
 
 #: app/scripts/templates/sign_up.mustache:43
 msgid "October"
-msgstr ""
+msgstr "Yarkomaa"
 
 #: app/scripts/templates/sign_up.mustache:44
 msgid "November"
-msgstr ""
+msgstr "Jolal"
 
 #: app/scripts/templates/sign_up.mustache:45
 msgid "December"
-msgstr ""
+msgstr "Bowte"
 
 #: app/scripts/templates/sign_up.mustache:46
 msgid "Day"
-msgstr ""
+msgstr "Ñalawma"
 
 #: app/scripts/templates/sign_up.mustache:48
-#, fuzzy
 msgid "Sign up"
-msgstr "Seŋto"
+msgstr "Winndito"
 
 #: app/scripts/templates/sign_up.mustache:50
 msgid "Choose what to sync"
@@ -755,47 +745,46 @@ msgstr "Aɗa jogii konnte kisa? Seŋo."
 #: app/scripts/templates/unexpected_error.mustache:2
 #: app/scripts/templates/settings/avatar_change.mustache:6
 msgid "Home"
-msgstr ""
+msgstr "Jaɓɓorgo"
 
 #: app/scripts/templates/settings/avatar.mustache:1
 #: app/scripts/templates/settings/avatar_camera.mustache:1
 #: app/scripts/templates/settings/avatar_change.mustache:1
 #: app/scripts/templates/settings/avatar_crop.mustache:1
 #: app/scripts/templates/settings/avatar_gravatar.mustache:1
-#, fuzzy
 msgid "Account picture"
-msgstr "Konte ƴeewtaama"
+msgstr "Natal konte"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:2
 msgid "Take picture"
-msgstr ""
+msgstr "Ɓam natal"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:3
 #: app/scripts/templates/settings/avatar_crop.mustache:4
 #: app/scripts/templates/settings/avatar_gravatar.mustache:4
 msgid "Cancel"
-msgstr ""
+msgstr "Haaytu"
 
 #: app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Upload"
-msgstr ""
+msgstr "Yollu"
 
 #: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Camera"
-msgstr ""
+msgstr "Kameraa"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5
 msgid "Gravatar"
-msgstr ""
+msgstr "Gravatar"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:2
 msgid "Position and rotate your picture as needed"
-msgstr ""
+msgstr "Dirtin njilltaa natal no njiɗir-ɗaa"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3
 msgid "Save"
-msgstr ""
+msgstr "Danndu"
 
 #~ msgid "Password changed"
 #~ msgstr "Finnde waylaama"
