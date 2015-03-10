@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:15+0000\n"
+"POT-Creation-Date: 2015-03-10 06:38+0000\n"
 "PO-Revision-Date: 2014-10-12 14:36+0000\n"
 "Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,34 +82,34 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/base.js:665
+#: app/scripts/views/base.js:650
 msgid "missing search parameter: %(itemName)s"
 msgstr "ਖੋਜ ਮੁੱਲ ਮੌਜੂਦ ਨਹੀਂ ਹੈ: %(itemName)s"
 
-#: app/scripts/views/change_password.js:80
+#: app/scripts/views/change_password.js:75
 msgid "Password changed successfully"
 msgstr ""
 
-#: app/scripts/views/complete_reset_password.js:143
+#: app/scripts/views/complete_reset_password.js:144
 #: app/scripts/views/complete_sign_up.js:84 app/scripts/views/confirm.js:92
-#: app/scripts/views/confirm_reset_password.js:176
+#: app/scripts/views/confirm_reset_password.js:174
 msgid "Account verified successfully"
 msgstr ""
 
-#: app/scripts/views/confirm_reset_password.js:164
+#: app/scripts/views/confirm_reset_password.js:162
 #: app/scripts/templates/ready.mustache:3
 msgid "Password reset"
 msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ"
 
-#: app/scripts/views/confirm_reset_password.js:193
+#: app/scripts/views/confirm_reset_password.js:190
 msgid "Password reset successfully. Sign in to continue."
 msgstr ""
 
-#: app/scripts/views/delete_account.js:49
+#: app/scripts/views/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "ਖਾਤਾ ਠੀਕ ਤਰ੍ਹਾਂ ਹਟਾਇਆ ਗਿਆ"
 
-#: app/scripts/views/reset_password.js:67 app/scripts/views/sign_in.js:189
+#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:195
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "ਅਣਜਾਣ ਖਾਤਾ। <a href=\"/signup\">ਮੈਂਬਰ ਬਣੋ</a>"
 
@@ -117,7 +117,7 @@ msgstr "ਅਣਜਾਣ ਖਾਤਾ। <a href=\"/signup\">ਮੈਂਬਰ ਬ�
 msgid "Signed out successfully"
 msgstr ""
 
-#: app/scripts/views/sign_up.js:399
+#: app/scripts/views/sign_up.js:427
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "ਖਾਤਾ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ। <a href=\"/signin\">ਸਾਇਨ ਇਨ</a>"
 
@@ -170,8 +170,8 @@ msgid "Unverified account"
 msgstr "ਨਾ-ਜਾਂਚਿਆ ਖਾਤਾ"
 
 #: app/scripts/lib/auth-errors.js:57
-msgid "Invalid verification errno"
-msgstr ""
+msgid "Invalid verification code"
+msgstr "ਗਲਤ ਜਾਂਚ ਕੋਡ"
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "Invalid JSON in request body"
@@ -299,6 +299,10 @@ msgstr ""
 #: app/scripts/lib/auth-errors.js:193
 msgid "/force_auth requires an email"
 msgstr "/force_auth ਨੂੰ ਈਮੇਲ ਦੀ ਲੋੜ ਹੈ"
+
+#: app/scripts/lib/mailcheck.js:63
+msgid "Did you mean <span>%(domain)s</span>?"
+msgstr ""
 
 #: app/scripts/lib/oauth-errors.js:21
 msgid "Unknown client"
@@ -797,9 +801,6 @@ msgstr "ਸੰਭਾਲੋ"
 
 #~ msgid "Signed out"
 #~ msgstr "ਸਾਈਨ ਆਉਟ"
-
-#~ msgid "Invalid verification code"
-#~ msgstr "ਗਲਤ ਜਾਂਚ ਕੋਡ"
 
 #~ msgid "Paste image URL"
 #~ msgstr "ਚਿੱਤਰ URLਚੇਪੋ"
