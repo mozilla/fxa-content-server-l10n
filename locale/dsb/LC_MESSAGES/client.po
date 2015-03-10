@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-10 06:38+0000\n"
-"PO-Revision-Date: 2015-03-10 16:55+0000\n"
+"PO-Revision-Date: 2015-03-10 16:57+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1426006513.0\n"
+"X-POOTLE-MTIME: 1426006644.0\n"
 
 #: app/scripts/templates/sign_up.mustache:16
 msgid "1991"
@@ -307,7 +307,7 @@ msgstr "/force_auth trjeba e-mailowu adresu"
 
 #: app/scripts/lib/mailcheck.js:63
 msgid "Did you mean <span>%(domain)s</span>?"
-msgstr "Měnješće <span>%(domain)s</span>?"
+msgstr "Sćo <span>%(domain)s</span> měnił?"
 
 #: app/scripts/lib/oauth-errors.js:21
 msgid "Unknown client"
