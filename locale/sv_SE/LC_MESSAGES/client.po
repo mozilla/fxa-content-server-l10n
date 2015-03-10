@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:15+0000\n"
+"POT-Creation-Date: 2015-03-10 06:38+0000\n"
 "PO-Revision-Date: 2015-02-28 08:06+0000\n"
 "Last-Translator: Andreas <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
@@ -82,34 +82,34 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/base.js:665
+#: app/scripts/views/base.js:650
 msgid "missing search parameter: %(itemName)s"
 msgstr "saknade sökparametrar: %(itemName)s"
 
-#: app/scripts/views/change_password.js:80
+#: app/scripts/views/change_password.js:75
 msgid "Password changed successfully"
 msgstr "Lösenordet ändrades"
 
-#: app/scripts/views/complete_reset_password.js:143
+#: app/scripts/views/complete_reset_password.js:144
 #: app/scripts/views/complete_sign_up.js:84 app/scripts/views/confirm.js:92
-#: app/scripts/views/confirm_reset_password.js:176
+#: app/scripts/views/confirm_reset_password.js:174
 msgid "Account verified successfully"
 msgstr "Konto verifierat"
 
-#: app/scripts/views/confirm_reset_password.js:164
+#: app/scripts/views/confirm_reset_password.js:162
 #: app/scripts/templates/ready.mustache:3
 msgid "Password reset"
 msgstr "Lösenordet återställdes"
 
-#: app/scripts/views/confirm_reset_password.js:193
+#: app/scripts/views/confirm_reset_password.js:190
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Lösenordet återställt. Logga in för att fortsätta."
 
-#: app/scripts/views/delete_account.js:49
+#: app/scripts/views/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "Kontot har tagits bort"
 
-#: app/scripts/views/reset_password.js:67 app/scripts/views/sign_in.js:189
+#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:195
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Okänt konto. <a href=\"/signup\">Registrera dig</a>"
 
@@ -117,7 +117,7 @@ msgstr "Okänt konto. <a href=\"/signup\">Registrera dig</a>"
 msgid "Signed out successfully"
 msgstr "Utloggad"
 
-#: app/scripts/views/sign_up.js:399
+#: app/scripts/views/sign_up.js:427
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Kontot finns redan. <a href=\"/signin\">Logga in</a>"
 
@@ -170,8 +170,8 @@ msgid "Unverified account"
 msgstr "Overifierat konto"
 
 #: app/scripts/lib/auth-errors.js:57
-msgid "Invalid verification errno"
-msgstr "Ogiltigt verifierings-errno"
+msgid "Invalid verification code"
+msgstr "Ogiltig verifieringskod"
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "Invalid JSON in request body"
@@ -299,6 +299,10 @@ msgstr "Firefox-konton kan endast placeras i en IFRAME på godkända webbplatser
 #: app/scripts/lib/auth-errors.js:193
 msgid "/force_auth requires an email"
 msgstr "/force_auth kräver en e-postadress"
+
+#: app/scripts/lib/mailcheck.js:63
+msgid "Did you mean <span>%(domain)s</span>?"
+msgstr ""
 
 #: app/scripts/lib/oauth-errors.js:21
 msgid "Unknown client"
@@ -790,6 +794,9 @@ msgstr "Placera och rotera bilden efter behov"
 msgid "Save"
 msgstr "Spara"
 
+#~ msgid "Invalid verification errno"
+#~ msgstr "Ogiltigt verifierings-errno"
+
 #~ msgid "Password changed"
 #~ msgstr "Lösenord ändrat"
 
@@ -805,9 +812,6 @@ msgstr "Spara"
 
 #~ msgid "Signed out"
 #~ msgstr "Utloggad"
-
-#~ msgid "Invalid verification code"
-#~ msgstr "Ogiltig verifieringskod"
 
 #~ msgid ""
 #~ "Your verification email was just returned. Mistyped email? <a href=\"/"

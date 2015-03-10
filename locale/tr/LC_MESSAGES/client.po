@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:15+0000\n"
+"POT-Creation-Date: 2015-03-10 06:38+0000\n"
 "PO-Revision-Date: 2015-03-08 18:21+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,34 +82,34 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/base.js:665
+#: app/scripts/views/base.js:650
 msgid "missing search parameter: %(itemName)s"
 msgstr "eksik arama parametresi: %(itemName)s"
 
-#: app/scripts/views/change_password.js:80
+#: app/scripts/views/change_password.js:75
 msgid "Password changed successfully"
 msgstr "Parola başarıyla değiştirildi"
 
-#: app/scripts/views/complete_reset_password.js:143
+#: app/scripts/views/complete_reset_password.js:144
 #: app/scripts/views/complete_sign_up.js:84 app/scripts/views/confirm.js:92
-#: app/scripts/views/confirm_reset_password.js:176
+#: app/scripts/views/confirm_reset_password.js:174
 msgid "Account verified successfully"
 msgstr "Hesap başarıyla doğrulandı"
 
-#: app/scripts/views/confirm_reset_password.js:164
+#: app/scripts/views/confirm_reset_password.js:162
 #: app/scripts/templates/ready.mustache:3
 msgid "Password reset"
 msgstr "Parola sıfırlama"
 
-#: app/scripts/views/confirm_reset_password.js:193
+#: app/scripts/views/confirm_reset_password.js:190
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Parola başarıyla sıfırlandı. Devam etmek için giriş yapın."
 
-#: app/scripts/views/delete_account.js:49
+#: app/scripts/views/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "Hesap başarıyla silindi"
 
-#: app/scripts/views/reset_password.js:67 app/scripts/views/sign_in.js:189
+#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:195
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Bilinmeyen hesap. <a href=\"/signup\">Kaydolun</a>"
 
@@ -117,7 +117,7 @@ msgstr "Bilinmeyen hesap. <a href=\"/signup\">Kaydolun</a>"
 msgid "Signed out successfully"
 msgstr "Başarıyla çıkış yapıldı"
 
-#: app/scripts/views/sign_up.js:399
+#: app/scripts/views/sign_up.js:427
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Hesap zaten var. <a href=\"/signin\">Oturum açın</a>"
 
@@ -170,8 +170,8 @@ msgid "Unverified account"
 msgstr "Doğrulanmamış hesap"
 
 #: app/scripts/lib/auth-errors.js:57
-msgid "Invalid verification errno"
-msgstr "Geçersiz doğrulama errno'su"
+msgid "Invalid verification code"
+msgstr "Geçersiz doğrulama kodu"
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "Invalid JSON in request body"
@@ -302,6 +302,10 @@ msgstr ""
 #: app/scripts/lib/auth-errors.js:193
 msgid "/force_auth requires an email"
 msgstr "/force_auth için e-posta gereklidir"
+
+#: app/scripts/lib/mailcheck.js:63
+msgid "Did you mean <span>%(domain)s</span>?"
+msgstr ""
 
 #: app/scripts/lib/oauth-errors.js:21
 msgid "Unknown client"
@@ -791,6 +795,9 @@ msgstr "Fotoğrafınızı istediğiniz gibi konumlandırın ve döndürün"
 msgid "Save"
 msgstr "Kaydet"
 
+#~ msgid "Invalid verification errno"
+#~ msgstr "Geçersiz doğrulama errno'su"
+
 #~ msgid "Password changed"
 #~ msgstr "Parola değiştirildi"
 
@@ -806,9 +813,6 @@ msgstr "Kaydet"
 
 #~ msgid "Signed out"
 #~ msgstr "Oturum kapatıldı"
-
-#~ msgid "Invalid verification code"
-#~ msgstr "Geçersiz doğrulama kodu"
 
 #~ msgid "Paste image URL"
 #~ msgstr "Resim adresini yapıştır"

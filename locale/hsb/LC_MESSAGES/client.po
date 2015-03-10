@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:15+0000\n"
+"POT-Creation-Date: 2015-03-10 06:38+0000\n"
 "PO-Revision-Date: 2015-03-01 17:21+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,8 +10,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1425230505.0\n"
 
@@ -83,34 +83,35 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/base.js:665
+#: app/scripts/views/base.js:650
 msgid "missing search parameter: %(itemName)s"
 msgstr "falowacy pytanski parameter: %(itemName)s"
 
-#: app/scripts/views/change_password.js:80
+#: app/scripts/views/change_password.js:75
 msgid "Password changed successfully"
 msgstr "Hesło je so wuspěšnje změniło"
 
-#: app/scripts/views/complete_reset_password.js:143
+#: app/scripts/views/complete_reset_password.js:144
 #: app/scripts/views/complete_sign_up.js:84 app/scripts/views/confirm.js:92
-#: app/scripts/views/confirm_reset_password.js:176
+#: app/scripts/views/confirm_reset_password.js:174
 msgid "Account verified successfully"
 msgstr "Konto je so wuspěšnje přepruwowało"
 
-#: app/scripts/views/confirm_reset_password.js:164
+#: app/scripts/views/confirm_reset_password.js:162
 #: app/scripts/templates/ready.mustache:3
 msgid "Password reset"
 msgstr "Hesło je so wróćo stajiło"
 
-#: app/scripts/views/confirm_reset_password.js:193
+#: app/scripts/views/confirm_reset_password.js:190
 msgid "Password reset successfully. Sign in to continue."
-msgstr "Hesło je so wuspěšnje wróćo stajiło. Přizjewće so, zo byšće pokročował."
+msgstr ""
+"Hesło je so wuspěšnje wróćo stajiło. Přizjewće so, zo byšće pokročował."
 
-#: app/scripts/views/delete_account.js:49
+#: app/scripts/views/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "Konto je so wuspěšnje zhašało"
 
-#: app/scripts/views/reset_password.js:67 app/scripts/views/sign_in.js:189
+#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:195
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Njeznate konto. <a href=\"/signup\">Registrować</a>"
 
@@ -118,7 +119,7 @@ msgstr "Njeznate konto. <a href=\"/signup\">Registrować</a>"
 msgid "Signed out successfully"
 msgstr "Wuspěšnje wotzjewjeny"
 
-#: app/scripts/views/sign_up.js:399
+#: app/scripts/views/sign_up.js:427
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Konto hižo eksistuje. <a href=\"/signin\">Přizjewić</a>"
 
@@ -172,8 +173,8 @@ msgid "Unverified account"
 msgstr "Njepłaćiwe přepruwowanske zmylkowe čisło"
 
 #: app/scripts/lib/auth-errors.js:57
-msgid "Invalid verification errno"
-msgstr "Njepłaćiwe přepruwowanske čisło"
+msgid "Invalid verification code"
+msgstr "Njepłaćiwy wobkrućenski kod"
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "Invalid JSON in request body"
@@ -303,6 +304,10 @@ msgstr "Firefox Accounts da so jenož na schwalenych sydłach do IFRAME stajić.
 #: app/scripts/lib/auth-errors.js:193
 msgid "/force_auth requires an email"
 msgstr "/force_auth trjeba e-mejlowu adresu"
+
+#: app/scripts/lib/mailcheck.js:63
+msgid "Did you mean <span>%(domain)s</span>?"
+msgstr ""
 
 #: app/scripts/lib/oauth-errors.js:21
 msgid "Unknown client"
@@ -800,6 +805,9 @@ msgstr "Zaměstńće a wjerćće swój wobraz po swojim dobrozdaću"
 msgid "Save"
 msgstr "Składować"
 
+#~ msgid "Invalid verification errno"
+#~ msgstr "Njepłaćiwe přepruwowanske čisło"
+
 #~ msgid "Password changed"
 #~ msgstr "Hesło změnjene"
 
@@ -815,9 +823,6 @@ msgstr "Składować"
 
 #~ msgid "Signed out"
 #~ msgstr "Wotzjewjeny"
-
-#~ msgid "Invalid verification code"
-#~ msgstr "Njepłaćiwy wobkrućenski kod"
 
 #~ msgid ""
 #~ "Your verification email was just returned. Mistyped email? <a href=\"/"
