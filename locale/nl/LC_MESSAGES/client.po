@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-10 06:38+0000\n"
-"PO-Revision-Date: 2015-02-21 10:14+0000\n"
+"PO-Revision-Date: 2015-03-10 16:06+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1424513687.0\n"
+"X-POOTLE-MTIME: 1426003601.0\n"
 
 #: app/scripts/templates/sign_up.mustache:16
 msgid "1991"
@@ -305,7 +305,7 @@ msgstr "/force_auth vereist een e-mailadres"
 
 #: app/scripts/lib/mailcheck.js:63
 msgid "Did you mean <span>%(domain)s</span>?"
-msgstr ""
+msgstr "Bedoelde u <span>%(domain)s</span>?"
 
 #: app/scripts/lib/oauth-errors.js:21
 msgid "Unknown client"
