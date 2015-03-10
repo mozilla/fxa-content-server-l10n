@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-10 06:38+0000\n"
-"PO-Revision-Date: 2015-02-28 08:06+0000\n"
+"PO-Revision-Date: 2015-03-10 17:22+0000\n"
 "Last-Translator: Andreas <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1425110795.0\n"
+"X-POOTLE-MTIME: 1426008164.0\n"
 
 #: app/scripts/templates/sign_up.mustache:16
 msgid "1991"
@@ -302,7 +302,7 @@ msgstr "/force_auth kräver en e-postadress"
 
 #: app/scripts/lib/mailcheck.js:63
 msgid "Did you mean <span>%(domain)s</span>?"
-msgstr ""
+msgstr "Menade du <span>%(domain)s</span>?"
 
 #: app/scripts/lib/oauth-errors.js:21
 msgid "Unknown client"
