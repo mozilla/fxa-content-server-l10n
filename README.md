@@ -22,7 +22,7 @@ The process to extract strings:
 > cd <fxa-content-server root>
 > grunt l10n-extract
 > cp -r ./locale/templates/ <fxa-content-server-l10n root>/locales/templates
-> cd <fxa-content-server root>
+> cd <fxa-content-server-l10n root>
 > git checkout -b merge-train-<train number>-strings
 > ./scripts/merge_po.sh ./locale
 > git add .
