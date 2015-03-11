@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-10 06:38+0000\n"
-"PO-Revision-Date: 2015-03-01 07:16+0000\n"
+"PO-Revision-Date: 2015-03-11 14:00+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1425194165.0\n"
+"X-POOTLE-MTIME: 1426082417.0\n"
 
 #: app/scripts/templates/sign_up.mustache:16
 msgid "1991"
@@ -302,7 +302,7 @@ msgstr "/force_auth 需要 email 帳號"
 
 #: app/scripts/lib/mailcheck.js:63
 msgid "Did you mean <span>%(domain)s</span>?"
-msgstr ""
+msgstr "您指的是 <span>%(domain)s</span> 嗎？"
 
 #: app/scripts/lib/oauth-errors.js:21
 msgid "Unknown client"
