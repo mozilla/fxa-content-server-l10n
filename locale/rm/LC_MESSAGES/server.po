@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:39+0000\n"
+"POT-Creation-Date: 2015-03-11 16:26+0000\n"
 "PO-Revision-Date: 2015-03-04 20:40+0000\n"
 "Last-Translator: Gion-Andri <gion-andri@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -176,14 +176,20 @@ msgstr "Verifitgar"
 msgid "Verify:"
 msgstr "Verifitgar:"
 
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "Verifitgar tes conto"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "Redefinir tes pled-clav"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr ""
+
 #~ msgid "Congratulations!"
 #~ msgstr "Gratulaziun!"
-
-#~ msgid "Verify your account"
-#~ msgstr "Verifitgar tes conto"
-
-#~ msgid "Reset your password"
-#~ msgstr "Redefinir tes pled-clav"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "Il sistem n'è betg disponibel, emprova bainprest anc ina giada"

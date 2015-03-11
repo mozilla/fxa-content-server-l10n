@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:39+0000\n"
+"POT-Creation-Date: 2015-03-11 16:26+0000\n"
 "PO-Revision-Date: 2015-03-01 15:24+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -177,14 +177,20 @@ msgstr "Wobkrućić"
 msgid "Verify:"
 msgstr "Wobkrućić:"
 
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "Wobkrućće swoje konto"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "Stajće swoje hesło wróćo"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr ""
+
 #~ msgid "Congratulations!"
 #~ msgstr "Zbožopřeće!"
-
-#~ msgid "Verify your account"
-#~ msgstr "Wobkrućće swoje konto"
-
-#~ msgid "Reset your password"
-#~ msgstr "Stajće swoje hesło wróćo"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "System k dispoziciji njesteji, spytajće za krótki čas hišće raz"

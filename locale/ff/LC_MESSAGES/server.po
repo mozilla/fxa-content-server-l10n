@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:39+0000\n"
+"POT-Creation-Date: 2015-03-11 16:26+0000\n"
 "PO-Revision-Date: 2015-03-07 12:55+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: FULAH LOCALIZATION\n"
@@ -173,14 +173,20 @@ msgstr "Ƴeewto"
 msgid "Verify:"
 msgstr "Ƴeewto:"
 
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "Ƴeewto konte maa"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "Firlit finnde maa"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr ""
+
 #~ msgid "Congratulations!"
 #~ msgstr "Woyyoo maa!"
-
-#~ msgid "Verify your account"
-#~ msgstr "Ƴeewto konte maa"
-
-#~ msgid "Reset your password"
-#~ msgstr "Firlit finnde maa"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "Yuɓɓo heɓotaako, eto ɗoo e yeeso"

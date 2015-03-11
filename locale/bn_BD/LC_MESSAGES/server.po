@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:39+0000\n"
+"POT-Creation-Date: 2015-03-11 16:26+0000\n"
 "PO-Revision-Date: 2014-10-22 04:46+0000\n"
 "Last-Translator: Tapu <tapu_afrad@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -172,14 +172,20 @@ msgstr "নিশ্চিত"
 msgid "Verify:"
 msgstr "নিশ্চিত:"
 
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "আপনার অ্যাকাউন্ট নিশ্চিত করুন"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "আপনার পাসওয়ার্ড রিসেট করুন"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr ""
+
 #~ msgid "Congratulations!"
 #~ msgstr "অভিনন্দন!"
-
-#~ msgid "Verify your account"
-#~ msgstr "আপনার অ্যাকাউন্ট নিশ্চিত করুন"
-
-#~ msgid "Reset your password"
-#~ msgstr "আপনার পাসওয়ার্ড রিসেট করুন"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "সিস্টেমের সাথে যোগাযোগ করা যাচ্ছে না, একটু পর চেষ্টা করুন"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:39+0000\n"
+"POT-Creation-Date: 2015-03-11 16:26+0000\n"
 "PO-Revision-Date: 2014-03-13 13:05+0000\n"
 "Last-Translator: Tomer <tomer@gmx.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -165,13 +165,19 @@ msgstr "אימות"
 msgid "Verify:"
 msgstr "אימות:"
 
+#: mailer.js:73
 #, fuzzy
-#~ msgid "Verify your account"
-#~ msgstr "אימות החשבון שלך"
+msgid "Verify your account"
+msgstr "אימות החשבון שלך"
 
+#: mailer.js:112
 #, fuzzy
-#~ msgid "Reset your password"
-#~ msgstr "איפוס ססמה"
+msgid "Reset your password"
+msgstr "איפוס ססמה"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr ""
 
 #~ msgid "Reset Password Request"
 #~ msgstr "בקשה לאיפוס ססמה"

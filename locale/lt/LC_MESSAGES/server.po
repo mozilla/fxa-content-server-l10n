@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:39+0000\n"
+"POT-Creation-Date: 2015-03-11 16:26+0000\n"
 "PO-Revision-Date: 2014-11-09 18:57+0000\n"
 "Last-Translator: Marius <marius.gricius@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -174,14 +174,20 @@ msgstr "Patvirtinkite"
 msgid "Verify:"
 msgstr "Patvirtinkite:"
 
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "Patvirtinkite savo paskyrą"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "Atkurti slaptažodį"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr ""
+
 #~ msgid "Congratulations!"
 #~ msgstr "Sveikiname!"
-
-#~ msgid "Verify your account"
-#~ msgstr "Patvirtinkite savo paskyrą"
-
-#~ msgid "Reset your password"
-#~ msgstr "Atkurti slaptažodį"
 
 #~ msgid "Reset Password Request"
 #~ msgstr "Slaptažodžio atkūrimo užklausa"

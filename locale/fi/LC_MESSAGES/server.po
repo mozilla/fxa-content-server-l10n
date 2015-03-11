@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:39+0000\n"
+"POT-Creation-Date: 2015-03-11 16:26+0000\n"
 "PO-Revision-Date: 2015-01-10 14:17+0000\n"
 "Last-Translator: Ville <ville.pohjanheimo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -171,11 +171,17 @@ msgstr "Vahvista"
 msgid "Verify:"
 msgstr "Vahvista:"
 
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "Vahvista tilisi"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "Nollaa salasanasi"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr ""
+
 #~ msgid "Congratulations!"
 #~ msgstr "Onneksi olkoon!"
-
-#~ msgid "Verify your account"
-#~ msgstr "Vahvista tilisi"
-
-#~ msgid "Reset your password"
-#~ msgstr "Nollaa salasanasi"

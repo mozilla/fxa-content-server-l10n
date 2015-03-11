@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:39+0000\n"
+"POT-Creation-Date: 2015-03-11 16:26+0000\n"
 "PO-Revision-Date: 2015-02-28 08:09+0000\n"
 "Last-Translator: Andreas <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -172,14 +172,20 @@ msgstr "Verifiera"
 msgid "Verify:"
 msgstr "Verifiera:"
 
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "Verifiera ditt konto"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "Återställ lösenordet"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr ""
+
 #~ msgid "Congratulations!"
 #~ msgstr "Grattis!"
-
-#~ msgid "Verify your account"
-#~ msgstr "Verifiera ditt konto"
-
-#~ msgid "Reset your password"
-#~ msgstr "Återställ lösenordet"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "Systemet är inte tillgängligt, försök igen senare"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:39+0000\n"
+"POT-Creation-Date: 2015-03-11 16:26+0000\n"
 "PO-Revision-Date: 2015-01-24 23:00+0000\n"
 "Last-Translator: Håvar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -171,14 +171,20 @@ msgstr "Bekreft"
 msgid "Verify:"
 msgstr "Bekreft:"
 
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "Bekreft din konto"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "Tilbakestill passord"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr ""
+
 #~ msgid "Congratulations!"
 #~ msgstr "Gratulerer!"
-
-#~ msgid "Verify your account"
-#~ msgstr "Bekreft din konto"
-
-#~ msgid "Reset your password"
-#~ msgstr "Tilbakestill passord"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "Systemet er utilgjengelig, prøv igjen senere"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:39+0000\n"
+"POT-Creation-Date: 2015-03-11 16:26+0000\n"
 "PO-Revision-Date: 2015-03-01 14:49+0000\n"
 "Last-Translator: Artem <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -177,14 +177,20 @@ msgstr "Підтвердити"
 msgid "Verify:"
 msgstr "Підтвердити:"
 
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "Підтвердити свій обліковий запис"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "Відновити свій пароль"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr ""
+
 #~ msgid "Congratulations!"
 #~ msgstr "Вітаємо!"
-
-#~ msgid "Verify your account"
-#~ msgstr "Підтвердити свій обліковий запис"
-
-#~ msgid "Reset your password"
-#~ msgstr "Відновити свій пароль"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "Система недоступна, спробуйте знову пізніше"

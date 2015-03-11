@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:39+0000\n"
+"POT-Creation-Date: 2015-03-11 16:26+0000\n"
 "PO-Revision-Date: 2015-02-28 07:11+0000\n"
 "Last-Translator: Francesco <francesco.lodolo@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -176,14 +176,20 @@ msgstr "Conferma"
 msgid "Verify:"
 msgstr "Conferma:"
 
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "Conferma l’account"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "Reimpostazione della password di Firefox Account"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr ""
+
 #~ msgid "Congratulations!"
 #~ msgstr "Complimenti!"
-
-#~ msgid "Verify your account"
-#~ msgstr "Conferma l’account"
-
-#~ msgid "Reset your password"
-#~ msgstr "Reimpostazione della password di Firefox Account"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "Il sistema non è disponibile, riprova più tardi"
