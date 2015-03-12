@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-11 16:26+0000\n"
-"PO-Revision-Date: 2015-02-27 18:27+0000\n"
+"PO-Revision-Date: 2015-03-12 18:10+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1425061648.0\n"
+"X-POOTLE-MTIME: 1426183810.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -185,7 +185,7 @@ msgstr "Wachtwoord herinitialiseren"
 
 #: mailer.js:146
 msgid "Re-verify your account"
-msgstr ""
+msgstr "Verifieer uw account opnieuw"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Gefeliciteerd!"
