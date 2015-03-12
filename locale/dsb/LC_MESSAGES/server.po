@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-11 16:26+0000\n"
-"PO-Revision-Date: 2015-03-12 14:57+0000\n"
+"PO-Revision-Date: 2015-03-12 14:58+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1426172245.0\n"
+"X-POOTLE-MTIME: 1426172306.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -187,7 +187,7 @@ msgstr "Stajśo swójo gronidło slědk"
 
 #: mailer.js:146
 msgid "Re-verify your account"
-msgstr "Wobkrućće swoje konto hišće raz"
+msgstr "Wobkšuśćo swójo konto hyšći raz"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Glukužycenje!"
