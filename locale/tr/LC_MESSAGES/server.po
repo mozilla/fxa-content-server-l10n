@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-11 16:26+0000\n"
-"PO-Revision-Date: 2015-03-08 18:20+0000\n"
+"PO-Revision-Date: 2015-03-12 14:37+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1425838841.0\n"
+"X-POOTLE-MTIME: 1426171021.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -187,7 +187,7 @@ msgstr "Parolanızı sıfırlayın"
 
 #: mailer.js:146
 msgid "Re-verify your account"
-msgstr ""
+msgstr "Hesabınızı yeniden doğrulayın"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Tebrikler!"

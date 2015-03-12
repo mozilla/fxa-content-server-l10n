@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-10 06:38+0000\n"
-"PO-Revision-Date: 2015-03-08 18:21+0000\n"
+"PO-Revision-Date: 2015-03-12 14:36+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1425838862.0\n"
+"X-POOTLE-MTIME: 1426171015.0\n"
 
 #: app/scripts/templates/sign_up.mustache:16
 msgid "1991"
@@ -305,7 +305,7 @@ msgstr "/force_auth için e-posta gereklidir"
 
 #: app/scripts/lib/mailcheck.js:63
 msgid "Did you mean <span>%(domain)s</span>?"
-msgstr ""
+msgstr "<span>%(domain)s</span> yazmak mı istediniz?"
 
 #: app/scripts/lib/oauth-errors.js:21
 msgid "Unknown client"
