@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-11 16:26+0000\n"
-"PO-Revision-Date: 2015-03-10 08:38+0000\n"
-"Last-Translator: upwinxp <upwinxp@gmail.com>\n"
+"PO-Revision-Date: 2015-03-12 09:20+0000\n"
+"Last-Translator: Matjaž <m@owca.info>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1425976739.0\n"
+"X-POOTLE-MTIME: 1426152018.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -181,7 +181,7 @@ msgstr "Ponastavite vaše geslo"
 
 #: mailer.js:146
 msgid "Re-verify your account"
-msgstr ""
+msgstr "Ponovno potrdite račun"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Čestitke!"
