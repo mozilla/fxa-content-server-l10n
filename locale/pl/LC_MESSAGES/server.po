@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:39+0000\n"
+"POT-Creation-Date: 2015-03-11 16:26+0000\n"
 "PO-Revision-Date: 2014-03-01 19:41+0000\n"
 "Last-Translator: Bartosz <bpiec@aviary.pl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -166,13 +166,19 @@ msgstr "Potwierdź"
 msgid "Verify:"
 msgstr "Potwierdź:"
 
+#: mailer.js:73
 #, fuzzy
-#~ msgid "Verify your account"
-#~ msgstr "Zweryfikuj swoje konto"
+msgid "Verify your account"
+msgstr "Zweryfikuj swoje konto"
 
+#: mailer.js:112
 #, fuzzy
-#~ msgid "Reset your password"
-#~ msgstr "Zmiana hasła"
+msgid "Reset your password"
+msgstr "Zmiana hasła"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr ""
 
 #~ msgid "Reset Password Request"
 #~ msgstr "Żądanie zmiany hasła"

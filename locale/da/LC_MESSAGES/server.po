@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:39+0000\n"
+"POT-Creation-Date: 2015-03-11 16:26+0000\n"
 "PO-Revision-Date: 2015-02-28 14:26+0000\n"
 "Last-Translator: Jørgen   <joergenr@stofanet.dk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -172,14 +172,20 @@ msgstr "Bekræft"
 msgid "Verify:"
 msgstr "Bekræft:"
 
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "Bekræft din konto"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "Nulstil din adgangskode"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr ""
+
 #~ msgid "Congratulations!"
 #~ msgstr "Tillykke!"
-
-#~ msgid "Verify your account"
-#~ msgstr "Bekræft din konto"
-
-#~ msgid "Reset your password"
-#~ msgstr "Nulstil din adgangskode"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "Systemet er ikke tilgængeligt, prøv igen om lidt"

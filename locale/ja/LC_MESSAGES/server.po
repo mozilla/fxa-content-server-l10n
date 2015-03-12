@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:39+0000\n"
+"POT-Creation-Date: 2015-03-11 16:26+0000\n"
 "PO-Revision-Date: 2015-02-05 07:17+0000\n"
 "Last-Translator: kaz <kaz_ic@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -169,14 +169,20 @@ msgstr "認証"
 msgid "Verify:"
 msgstr "認証:"
 
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "アカウントを認証する"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "パスワードをリセットする"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr ""
+
 #~ msgid "Congratulations!"
 #~ msgstr "おめでとうございます"
-
-#~ msgid "Verify your account"
-#~ msgstr "アカウントを認証する"
-
-#~ msgid "Reset your password"
-#~ msgstr "パスワードをリセットする"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "システムが利用できません。しばらくしてから再度お試しください"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:39+0000\n"
+"POT-Creation-Date: 2015-03-11 16:26+0000\n"
 "PO-Revision-Date: 2015-03-01 18:29+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -173,6 +173,18 @@ msgstr "Verifikoni"
 #: templates/verify.txt:3
 msgid "Verify:"
 msgstr "Verifikoje:"
+
+#: mailer.js:73
+msgid "Verify your account"
+msgstr ""
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr ""
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr ""
 
 #~ msgid "1991"
 #~ msgstr "1991"

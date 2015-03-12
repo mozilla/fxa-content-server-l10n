@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:39+0000\n"
+"POT-Creation-Date: 2015-03-11 16:26+0000\n"
 "PO-Revision-Date: 2015-01-29 07:25+0000\n"
 "Last-Translator: Wim <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -172,14 +172,20 @@ msgstr "Ferifiearje"
 msgid "Verify:"
 msgstr "Ferifiearje:"
 
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "Ferifiearje jo account"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "Wachtwurd werinisjalisearje"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr ""
+
 #~ msgid "Congratulations!"
 #~ msgstr "Lokwinske!"
-
-#~ msgid "Verify your account"
-#~ msgstr "Ferifiearje jo account"
-
-#~ msgid "Reset your password"
-#~ msgstr "Wachtwurd werinisjalisearje"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "Systeem net beskikber, probearje it letter opnij"

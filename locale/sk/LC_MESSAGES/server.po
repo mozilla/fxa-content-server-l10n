@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:39+0000\n"
+"POT-Creation-Date: 2015-03-11 16:26+0000\n"
 "PO-Revision-Date: 2014-10-14 18:58+0000\n"
 "Last-Translator: Branislav <rozbora@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -170,14 +170,20 @@ msgstr "Overiť"
 msgid "Verify:"
 msgstr "Overenie:"
 
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "Overiť váš účet"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "Obnoviť heslo"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr ""
+
 #~ msgid "Congratulations!"
 #~ msgstr "Gratulujeme!"
-
-#~ msgid "Verify your account"
-#~ msgstr "Overiť váš účet"
-
-#~ msgid "Reset your password"
-#~ msgstr "Obnoviť heslo"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "Systém nie je dostupný, skúste to znova."

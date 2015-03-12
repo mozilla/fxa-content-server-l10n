@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:39+0000\n"
+"POT-Creation-Date: 2015-03-11 16:26+0000\n"
 "PO-Revision-Date: 2015-03-07 19:43+0000\n"
 "Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
@@ -175,14 +175,20 @@ msgstr "Подтвердите"
 msgid "Verify:"
 msgstr "Подтвердите:"
 
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "Подтвердить ваш аккаунт"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "Восстановить ваш пароль"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr ""
+
 #~ msgid "Congratulations!"
 #~ msgstr "Поздравляем!"
-
-#~ msgid "Verify your account"
-#~ msgstr "Подтвердить ваш аккаунт"
-
-#~ msgid "Reset your password"
-#~ msgstr "Восстановить ваш пароль"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "Система недоступна, подождите и повторите попытку"

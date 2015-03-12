@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:39+0000\n"
+"POT-Creation-Date: 2015-03-11 16:26+0000\n"
 "PO-Revision-Date: 2015-03-01 07:36+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -168,14 +168,20 @@ msgstr "驗證"
 msgid "Verify:"
 msgstr "驗證:"
 
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "驗證您的帳號"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "重設您的密碼"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr ""
+
 #~ msgid "Congratulations!"
 #~ msgstr "恭喜！"
-
-#~ msgid "Verify your account"
-#~ msgstr "驗證您的帳號"
-
-#~ msgid "Reset your password"
-#~ msgstr "重設您的密碼"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "系統無法使用，請稍後再試一次"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:39+0000\n"
+"POT-Creation-Date: 2015-03-11 16:26+0000\n"
 "PO-Revision-Date: 2014-04-28 08:41+0000\n"
 "Last-Translator: Eduard <edu@eduard-gamonal.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -162,14 +162,20 @@ msgstr "Verifica"
 msgid "Verify:"
 msgstr "Verifica:"
 
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "Verifiqueu el vostre compte"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "Reinicia la contrasenya"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr ""
+
 #~ msgid "Congratulations!"
 #~ msgstr "Felicitats!"
-
-#~ msgid "Verify your account"
-#~ msgstr "Verifiqueu el vostre compte"
-
-#~ msgid "Reset your password"
-#~ msgstr "Reinicia la contrasenya"
 
 #~ msgid "Reset Password Request"
 #~ msgstr "Reinicia la sol·licitud de contrasenya"

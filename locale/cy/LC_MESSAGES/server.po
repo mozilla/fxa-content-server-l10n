@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:39+0000\n"
+"POT-Creation-Date: 2015-03-11 16:26+0000\n"
 "PO-Revision-Date: 2015-02-26 14:42+0000\n"
 "Last-Translator: Rhoslyn <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -172,14 +172,20 @@ msgstr "Dilysu"
 msgid "Verify:"
 msgstr "Dilysu:"
 
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "Cadarnhau eich cyfrif"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "Ailosod eich cyfrinair"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr ""
+
 #~ msgid "Congratulations!"
 #~ msgstr "Llongyfarchiadau!"
-
-#~ msgid "Verify your account"
-#~ msgstr "Cadarnhau eich cyfrif"
-
-#~ msgid "Reset your password"
-#~ msgstr "Ailosod eich cyfrinair"
 
 #~ msgid "Reset Password Request"
 #~ msgstr "Ailosod y Cais am Gyfrinair"

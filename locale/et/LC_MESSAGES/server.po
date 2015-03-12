@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:39+0000\n"
+"POT-Creation-Date: 2015-03-11 16:26+0000\n"
 "PO-Revision-Date: 2014-11-04 21:01+0000\n"
 "Last-Translator: Merike <merike.sell@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -170,14 +170,20 @@ msgstr "Kinnita"
 msgid "Verify:"
 msgstr "Kinnitamiseks klõpsa järgneval lingil:"
 
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "Konto kinnitamine"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "Lähtesta parool"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr ""
+
 #~ msgid "Congratulations!"
 #~ msgstr "Õnnitleme!"
-
-#~ msgid "Verify your account"
-#~ msgstr "Konto kinnitamine"
-
-#~ msgid "Reset your password"
-#~ msgstr "Lähtesta parool"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "Süsteem pole kättesaadav, proovi mõne aja pärast uuesti"

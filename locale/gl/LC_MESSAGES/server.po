@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:39+0000\n"
+"POT-Creation-Date: 2015-03-11 16:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -156,14 +156,20 @@ msgstr "Comprobar"
 msgid "Verify:"
 msgstr "Comprobar:"
 
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "Comprobar a súa conta"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "Restabelecer o contrasinal"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr ""
+
 #~ msgid "Congratulations!"
 #~ msgstr "Parabéns!"
-
-#~ msgid "Verify your account"
-#~ msgstr "Comprobar a súa conta"
-
-#~ msgid "Reset your password"
-#~ msgstr "Restabelecer o contrasinal"
 
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "O sistema non está dispoñíbel, tente de novo pronto"
