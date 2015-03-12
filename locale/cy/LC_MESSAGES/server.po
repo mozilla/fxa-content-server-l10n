@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-11 16:26+0000\n"
-"PO-Revision-Date: 2015-02-26 14:42+0000\n"
+"PO-Revision-Date: 2015-03-12 20:57+0000\n"
 "Last-Translator: Rhoslyn <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != "
 "11) ? 2 : 3 ;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1424961752.0\n"
+"X-POOTLE-MTIME: 1426193839.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -147,18 +147,20 @@ msgid ""
 "account-level activities, please click the link to re-verify your account "
 "now."
 msgstr ""
+"Am resymau diogelwch mae eich Cyfrif Firefox wedi ei gloi. I ddefnyddio eich "
+"cyfrif, cliciwch y ddolen i ail ddilysu eich cyfrif."
 
 #: templates/unlock.html:3
 msgid "Verify account"
-msgstr ""
+msgstr "Dilysu'r cyfrif"
 
 #: templates/unlock.txt:2
 msgid "Verify account:"
-msgstr ""
+msgstr "Dilysu cyfrif:"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Almost there"
-msgstr ""
+msgstr "Bron yna"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
@@ -182,7 +184,7 @@ msgstr "Ailosod eich cyfrinair"
 
 #: mailer.js:146
 msgid "Re-verify your account"
-msgstr ""
+msgstr "Ail ddilysu eich cyfrif"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Llongyfarchiadau!"
