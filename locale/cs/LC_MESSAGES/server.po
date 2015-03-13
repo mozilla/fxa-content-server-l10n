@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-11 16:26+0000\n"
-"PO-Revision-Date: 2014-10-13 21:47+0000\n"
-"Last-Translator: Michal <michal.stanke@mikk.cz>\n"
+"PO-Revision-Date: 2015-03-13 10:52+0000\n"
+"Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1413236842.0\n"
+"X-POOTLE-MTIME: 1426243921.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -26,7 +26,7 @@ msgstr "Firefox Accounts"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
-msgstr ""
+msgstr "Špatný požadavek"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -57,7 +57,7 @@ msgstr "Jejda, něco se stalo špatně. Byli jsme upozorněni a pracujeme na tom
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "Chyba 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -144,18 +144,20 @@ msgid ""
 "account-level activities, please click the link to re-verify your account "
 "now."
 msgstr ""
+"Z bezpečnostních důvodů byl váš Účet Firefox uzamčen. Chcete-li znovu "
+"aktivovat účet, klepněte na odkaz níže a účet znovu ověřte."
 
 #: templates/unlock.html:3
 msgid "Verify account"
-msgstr ""
+msgstr "Ověření účtu"
 
 #: templates/unlock.txt:2
 msgid "Verify account:"
-msgstr ""
+msgstr "Ověření účtu: "
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Almost there"
-msgstr ""
+msgstr "Téměř hotovo"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
@@ -179,7 +181,7 @@ msgstr "Obnovit heslo"
 
 #: mailer.js:146
 msgid "Re-verify your account"
-msgstr ""
+msgstr "Opětovné ověření vašeho účtu"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Gratulujeme!"
