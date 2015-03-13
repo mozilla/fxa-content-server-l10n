@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-10 06:38+0000\n"
-"PO-Revision-Date: 2015-03-11 07:06+0000\n"
-"Last-Translator: Стоян <stoyan@gmx.com>\n"
+"PO-Revision-Date: 2015-03-13 06:13+0000\n"
+"Last-Translator: Anonymous Pootle User\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1426057613.0\n"
+"X-POOTLE-MTIME: 1426227223.0\n"
 
 #: app/scripts/templates/sign_up.mustache:16
 msgid "1991"
@@ -790,7 +790,7 @@ msgstr "Gravatar"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:2
 msgid "Position and rotate your picture as needed"
-msgstr "Ако е необходимо наместете и завътете снимката си"
+msgstr "Ако е необходимо наместете и завъртете снимката си"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3
