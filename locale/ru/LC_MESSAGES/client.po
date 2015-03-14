@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-10 06:38+0000\n"
-"PO-Revision-Date: 2015-03-07 19:40+0000\n"
+"PO-Revision-Date: 2015-03-14 13:59+0000\n"
 "Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1425757220.0\n"
+"X-POOTLE-MTIME: 1426341585.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: app/scripts/templates/sign_up.mustache:16
@@ -310,7 +310,7 @@ msgstr "/force_auth требует эл. почты"
 
 #: app/scripts/lib/mailcheck.js:63
 msgid "Did you mean <span>%(domain)s</span>?"
-msgstr ""
+msgstr "Вы имели в виду <span>%(domain)s</span>?"
 
 #: app/scripts/lib/oauth-errors.js:21
 msgid "Unknown client"
