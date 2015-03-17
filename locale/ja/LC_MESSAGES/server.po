@@ -3,9 +3,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-11 16:26+0000\n"
-"PO-Revision-Date: 2015-02-05 07:17+0000\n"
-"Last-Translator: kaz <kaz_ic@me.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-03-17 05:58-0400\n"
+"Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
+"Language-Team: Japanese\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,7 +26,7 @@ msgstr "Firefox アカウント"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
-msgstr ""
+msgstr "不正なリクエスト"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -56,7 +56,7 @@ msgstr "エラーが発生しました。エラー通知を受け取りしだい
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "502 エラー"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -144,18 +144,20 @@ msgid ""
 "account-level activities, please click the link to re-verify your account "
 "now."
 msgstr ""
+"セキュリティ上の理由から、あなたの Firefox アカウントは停止されています。アカウント"
+"レベルの活動を行うには、今すぐアカウントの再認証リンクをクリックしてください。"
 
 #: templates/unlock.html:3
 msgid "Verify account"
-msgstr ""
+msgstr "アカウントを認証"
 
 #: templates/unlock.txt:2
 msgid "Verify account:"
-msgstr ""
+msgstr "アカウントを認証:"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Almost there"
-msgstr ""
+msgstr "あと少しです"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
@@ -179,17 +181,4 @@ msgstr "パスワードをリセットする"
 
 #: mailer.js:146
 msgid "Re-verify your account"
-msgstr ""
-
-#~ msgid "Congratulations!"
-#~ msgstr "おめでとうございます"
-
-#~ msgid "System unavailable, try again soon"
-#~ msgstr "システムが利用できません。しばらくしてから再度お試しください"
-
-#~ msgid ""
-#~ "We are currently performing some maintenance on the system, and will "
-#~ "return momentarily."
-#~ msgstr ""
-#~ "ただいまシステムのメンテナンスを行っています。まもなくサービスを再開します"
-#~ "のでしばらくお待ちください。"
+msgstr "アカウントを再認証"
