@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-19 16:28+0000\n"
-"PO-Revision-Date: 2015-03-10 17:22+0000\n"
+"PO-Revision-Date: 2015-03-19 22:57+0000\n"
 "Last-Translator: Andreas <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1426008164.0\n"
+"X-POOTLE-MTIME: 1426805829.0\n"
 
 #: app/scripts/templates/sign_up.mustache:16
 msgid "1991"
@@ -98,7 +98,7 @@ msgstr "Konto verifierat"
 
 #: app/scripts/views/confirm_account_unlock.js:106
 msgid "Account unlocked, please try again"
-msgstr ""
+msgstr "Konto upplåst, försök igen"
 
 #: app/scripts/views/confirm_reset_password.js:162
 #: app/scripts/templates/ready.mustache:3
@@ -137,6 +137,7 @@ msgstr "Tillhandahålls av <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
+"Konto låst. <a href=\"/confirm_account_unlock\">Skicka upplåsningsmejl</a>"
 
 #: app/scripts/lib/auth-errors.js:18 app/scripts/lib/oauth-errors.js:45
 #: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:57
@@ -212,7 +213,7 @@ msgstr "Försöksgräns överskriden"
 
 #: app/scripts/lib/auth-errors.js:91
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "Ditt konto har låsts av säkerhetsskäl"
 
 #: app/scripts/lib/auth-errors.js:99
 msgid "Server busy, try again soon"
@@ -430,11 +431,11 @@ msgstr "Bakåt"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
-msgstr ""
+msgstr "Upplåsningslänk har upphört"
 
 #: app/scripts/templates/complete_account_unlock.mustache:4
 msgid "Unlock link damaged"
-msgstr ""
+msgstr "Upplåsningslänk är skadad"
 
 #: app/scripts/templates/complete_account_unlock.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:7
@@ -448,7 +449,7 @@ msgstr ""
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
-msgstr ""
+msgstr "Upplåsningsfel"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -522,7 +523,7 @@ msgstr "Skicka igen"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:1
 msgid "Unlock email sent"
-msgstr ""
+msgstr "Upplåsningsmejl har skickats"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
@@ -530,6 +531,9 @@ msgid ""
 "level activities, please re-verify your account by clicking the verification "
 "link sent to %(email)s"
 msgstr ""
+"Av säkerhetsskäl har kontot satts på låsning. För att utföra aktiviteter på "
+"kontonivå, var god kontrollera ditt konto genom att klicka på "
+"verifieringslänken som skickas till %(email)s"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -652,7 +656,7 @@ msgstr "Konto verifierat"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account unlocked"
-msgstr ""
+msgstr "Konto upplåst"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Success"
