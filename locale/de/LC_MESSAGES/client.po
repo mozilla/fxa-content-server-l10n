@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-19 16:28+0000\n"
-"PO-Revision-Date: 2015-03-10 08:46+0000\n"
+"PO-Revision-Date: 2015-03-19 21:29+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1425977192.0\n"
+"X-POOTLE-MTIME: 1426800582.0\n"
 
 #: app/scripts/templates/sign_up.mustache:16
 msgid "1991"
@@ -98,7 +98,7 @@ msgstr "Konto erfolgreich verifiziert"
 
 #: app/scripts/views/confirm_account_unlock.js:106
 msgid "Account unlocked, please try again"
-msgstr ""
+msgstr "Konto freigegeben, bitte versuchen Sie es erneut"
 
 #: app/scripts/views/confirm_reset_password.js:162
 #: app/scripts/templates/ready.mustache:3
@@ -139,6 +139,8 @@ msgstr ""
 msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
+"Konto gesperrt. <a href=\"/confirm_account_unlock\">E-Mail zum Freigeben "
+"senden</a>"
 
 #: app/scripts/lib/auth-errors.js:18 app/scripts/lib/oauth-errors.js:45
 #: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:57
@@ -214,7 +216,7 @@ msgstr "Maximale Zahl der Versuche überschritten"
 
 #: app/scripts/lib/auth-errors.js:91
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "Ihr Konto wurde aus Sicherheitsgründen gesperrt"
 
 #: app/scripts/lib/auth-errors.js:99
 msgid "Server busy, try again soon"
@@ -441,11 +443,11 @@ msgstr "Zurück"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
-msgstr ""
+msgstr "Freigabelink abgelaufen"
 
 #: app/scripts/templates/complete_account_unlock.mustache:4
 msgid "Unlock link damaged"
-msgstr ""
+msgstr "Freigabelink beschädigt"
 
 #: app/scripts/templates/complete_account_unlock.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:7
@@ -460,7 +462,7 @@ msgstr ""
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
-msgstr ""
+msgstr "Freigabefehler"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -536,7 +538,7 @@ msgstr "E-Mail erneut senden"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:1
 msgid "Unlock email sent"
-msgstr ""
+msgstr "Freigabe-E-Mail gesendet"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
@@ -544,6 +546,9 @@ msgid ""
 "level activities, please re-verify your account by clicking the verification "
 "link sent to %(email)s"
 msgstr ""
+"Aus Sicherheitsgründen wurde Ihr Konto gesperrt. Um wieder Aktivitäten mit "
+"Ihrem Konto durchzuführen, bestätigen Sie Ihr Konto bitte erneut, indem Sie "
+"auf den Bestätigungslink klicken, der an %(email)s gesendet wurde."
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -668,7 +673,7 @@ msgstr "Konto bestätigt"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account unlocked"
-msgstr ""
+msgstr "Konto freigegeben"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Success"
