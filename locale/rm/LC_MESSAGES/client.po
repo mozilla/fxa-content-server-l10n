@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:38+0000\n"
+"POT-Creation-Date: 2015-03-19 16:28+0000\n"
 "PO-Revision-Date: 2015-03-04 20:38+0000\n"
 "Last-Translator: Gion-Andri <gion-andri@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,7 +86,7 @@ msgstr "2007"
 msgid "missing search parameter: %(itemName)s"
 msgstr "parameter da tschertgar mancant: %(itemName)s"
 
-#: app/scripts/views/change_password.js:75
+#: app/scripts/views/change_password.js:76
 msgid "Password changed successfully"
 msgstr "Midà il pled-clav cun success"
 
@@ -95,6 +95,10 @@ msgstr "Midà il pled-clav cun success"
 #: app/scripts/views/confirm_reset_password.js:174
 msgid "Account verified successfully"
 msgstr "Verifitgà il conto cun success"
+
+#: app/scripts/views/confirm_account_unlock.js:106
+msgid "Account unlocked, please try again"
+msgstr ""
 
 #: app/scripts/views/confirm_reset_password.js:162
 #: app/scripts/templates/ready.mustache:3
@@ -105,15 +109,15 @@ msgstr "Redefinì il pled-clav"
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Redefinì cun success il pled-clav. S'annunzia per cuntinuar. "
 
-#: app/scripts/views/delete_account.js:44
+#: app/scripts/views/delete_account.js:47
 msgid "Account deleted successfully"
 msgstr "Stizzà cun success il conto"
 
-#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:195
+#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:203
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Conto nunenconuschent. <a href=\"/signup\">S'annunziar</a>"
 
-#: app/scripts/views/settings.js:51
+#: app/scripts/views/settings.js:57
 msgid "Signed out successfully"
 msgstr "Sortì cun success"
 
@@ -129,182 +133,203 @@ msgstr "Chattà nagin Gravatar"
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "Furnì da <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
-#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/auth-errors.js:165
-#: app/scripts/lib/auth-errors.js:181 app/scripts/lib/oauth-errors.js:45
+#: app/scripts/views/mixins/account-locked-mixin.js:28
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:18 app/scripts/lib/oauth-errors.js:45
 #: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:57
 #: app/scripts/lib/oauth-errors.js:61 app/scripts/lib/profile-errors.js:38
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Errur nunspitgada"
 
-#: app/scripts/lib/auth-errors.js:25
+#: app/scripts/lib/auth-errors.js:27
 msgid "Invalid token"
 msgstr "Token nunvalid"
 
-#: app/scripts/lib/auth-errors.js:29
+#: app/scripts/lib/auth-errors.js:31
 msgid "Invalid timestamp in request signature"
 msgstr "Temp nunvalid en la signatura da la dumonda"
 
-#: app/scripts/lib/auth-errors.js:33
+#: app/scripts/lib/auth-errors.js:35
 msgid "Invalid nonce in request signature"
 msgstr "Nonce nunvalid en la signatura da la dumonda"
 
-#: app/scripts/lib/auth-errors.js:37
+#: app/scripts/lib/auth-errors.js:39
 msgid "Account already exists"
 msgstr "Conto exista gia"
 
-#: app/scripts/lib/auth-errors.js:41
+#: app/scripts/lib/auth-errors.js:43
 msgid "Unknown account"
 msgstr "Conto nunenconuschent"
 
-#: app/scripts/lib/auth-errors.js:45
+#: app/scripts/lib/auth-errors.js:47
 msgid "Incorrect email case"
 msgstr "Scripziun nunvalida da l'adressa dad e-mail"
 
-#: app/scripts/lib/auth-errors.js:49
+#: app/scripts/lib/auth-errors.js:51
 msgid "Incorrect password"
 msgstr "Pled-clav nuncorrect"
 
-#: app/scripts/lib/auth-errors.js:53
+#: app/scripts/lib/auth-errors.js:55
 msgid "Unverified account"
 msgstr "Conto betg verifitgà"
 
-#: app/scripts/lib/auth-errors.js:57
+#: app/scripts/lib/auth-errors.js:59
 msgid "Invalid verification code"
 msgstr "Code da verificaziun nunvalid"
 
-#: app/scripts/lib/auth-errors.js:61
+#: app/scripts/lib/auth-errors.js:63
 msgid "Invalid JSON in request body"
 msgstr "JSON nunvalid en il corp da la dumonda"
 
-#: app/scripts/lib/auth-errors.js:65 app/scripts/lib/oauth-errors.js:33
+#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:33
 #: app/scripts/lib/profile-errors.js:22
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Parameter nunvalid en il corp da la dumonda: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:69
+#: app/scripts/lib/auth-errors.js:71
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Parameter mancant en il corp da la dumonda: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:73 app/scripts/lib/oauth-errors.js:37
+#: app/scripts/lib/auth-errors.js:75 app/scripts/lib/oauth-errors.js:37
 msgid "Invalid request signature"
 msgstr "Signatura da dumonda nunvalida"
 
-#: app/scripts/lib/auth-errors.js:77
+#: app/scripts/lib/auth-errors.js:79
 msgid "Missing content-length header"
 msgstr "Header 'content-length' manca"
 
-#: app/scripts/lib/auth-errors.js:81
+#: app/scripts/lib/auth-errors.js:83
 msgid "Request body too large"
 msgstr "Il corp da la dumonda è memia grond"
 
-#: app/scripts/lib/auth-errors.js:85
+#: app/scripts/lib/auth-errors.js:87
 msgid "Attempt limit exceeded"
 msgstr "Surpassà la limita dad emprovas"
 
-#: app/scripts/lib/auth-errors.js:89
+#: app/scripts/lib/auth-errors.js:91
+msgid "Your account has been locked for security reasons"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:99
 msgid "Server busy, try again soon"
 msgstr "Il server è surchargià, emprova bainprest anc ina giada"
 
-#: app/scripts/lib/auth-errors.js:93
+#: app/scripts/lib/auth-errors.js:103
 msgid "This endpoint is no longer supported"
 msgstr "Quest punct da finiziun na vegn betg pli sustegnì"
 
-#: app/scripts/lib/auth-errors.js:97 app/scripts/lib/oauth-errors.js:41
+#: app/scripts/lib/auth-errors.js:107 app/scripts/lib/oauth-errors.js:41
 #: app/scripts/lib/profile-errors.js:34
 msgid "System unavailable, try again soon"
 msgstr "Sistem betg disponibel, emprova bainprest anc ina giada"
 
-#: app/scripts/lib/auth-errors.js:101 app/scripts/lib/oauth-errors.js:65
+#: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:65
 msgid "no message"
 msgstr "nagin messadi"
 
-#: app/scripts/lib/auth-errors.js:105
+#: app/scripts/lib/auth-errors.js:115
 msgid "Session expired. Sign in to continue."
 msgstr "La sessiun è scrudada. S'annunzia per cuntinuar."
 
-#: app/scripts/lib/auth-errors.js:109
+#: app/scripts/lib/auth-errors.js:119
 msgid "Cookies are still disabled"
 msgstr "Ils cookies èn anc adina deactivads"
 
-#: app/scripts/lib/auth-errors.js:113
+#: app/scripts/lib/auth-errors.js:123
 msgid "Passwords do not match"
 msgstr "Ils pleds-clav na correspundan betg"
 
-#: app/scripts/lib/auth-errors.js:117
+#: app/scripts/lib/auth-errors.js:127
 msgid "Working…"
 msgstr "En lavur…"
 
-#: app/scripts/lib/auth-errors.js:121
+#: app/scripts/lib/auth-errors.js:131
 msgid "Could not get Privacy Notice"
 msgstr "Betg chattà la decleraziun da protecziun da datas"
 
-#: app/scripts/lib/auth-errors.js:125
+#: app/scripts/lib/auth-errors.js:135
 msgid "Could not get Terms of Service"
 msgstr "Betg chattà las cundiziuns dal servetsch"
 
-#: app/scripts/lib/auth-errors.js:129
+#: app/scripts/lib/auth-errors.js:139
 msgid "Your new password must be different"
 msgstr "Il pled-clav nov sto esser different"
 
-#: app/scripts/lib/auth-errors.js:133
+#: app/scripts/lib/auth-errors.js:143
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/complete_reset_password.mustache:16
 #: app/scripts/templates/sign_up.mustache:12
 msgid "Must be at least 8 characters"
 msgstr "Sto cuntegnair almain 8 caracters"
 
-#: app/scripts/lib/auth-errors.js:137
+#: app/scripts/lib/auth-errors.js:147
 msgid "Valid password required"
 msgstr "In pled-clav valid è necessari"
 
-#: app/scripts/lib/auth-errors.js:141 app/scripts/lib/auth-errors.js:173
-#: app/scripts/lib/auth-errors.js:189
+#: app/scripts/lib/auth-errors.js:151 app/scripts/lib/auth-errors.js:183
+#: app/scripts/lib/auth-errors.js:199
 msgid "Valid email required"
 msgstr "Necessari dad inditgar ina adressa dad e-mail valida"
 
-#: app/scripts/lib/auth-errors.js:145
+#: app/scripts/lib/auth-errors.js:155
 msgid "Year of birth required"
 msgstr "L'onn da naschientscha è necessari"
 
-#: app/scripts/lib/auth-errors.js:149
+#: app/scripts/lib/auth-errors.js:159
 msgid "A usable image was not found"
 msgstr "Chattà nagin maletg utilisabel"
 
-#: app/scripts/lib/auth-errors.js:153
+#: app/scripts/lib/auth-errors.js:163
 msgid "Could not initialize camera"
 msgstr "Impussibel dad inizialisar la camera"
 
-#: app/scripts/lib/auth-errors.js:157
+#: app/scripts/lib/auth-errors.js:167
 msgid "Valid URL required"
 msgstr "Necessari dad inditgar ina URL valida"
 
-#: app/scripts/lib/auth-errors.js:161
+#: app/scripts/lib/auth-errors.js:171
 msgid "Valid birthday required"
 msgstr "Necessari dad inditgar di da naschientscha valid"
 
-#: app/scripts/lib/auth-errors.js:169
+#: app/scripts/lib/auth-errors.js:179
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr ""
 "Tes e-mail da verificaziun è gist returnà. Has ti tippa fauss l'adressa dad "
 "e-mail?"
 
-#: app/scripts/lib/auth-errors.js:177
+#: app/scripts/lib/auth-errors.js:187
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr ""
 "Endatescha ina adressa dad e-mail valida. firefox.com na porscha naginas "
 "adressas dad e-mail."
 
-#: app/scripts/lib/auth-errors.js:185
+#: app/scripts/lib/auth-errors.js:195
 #: app/scripts/templates/illegal_iframe.mustache:2
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 "La pagina dal conto da Firefox po be vegnir plazzada en iframes sin paginas "
 "approvadas"
 
-#: app/scripts/lib/auth-errors.js:193
+#: app/scripts/lib/auth-errors.js:203
 msgid "/force_auth requires an email"
 msgstr "/force_auth basegna ina adressa dad e-mail"
+
+#: app/scripts/lib/auth-errors.js:207
+#: app/scripts/templates/complete_account_unlock.mustache:2
+#: app/scripts/templates/complete_sign_up.mustache:3
+msgid "The link you clicked to verify your email is expired."
+msgstr ""
+"La colliaziun che ti has cliccà per confermar tia adressa dad e-mail è "
+"scrudada."
+
+#: app/scripts/lib/auth-errors.js:211
+#: app/scripts/templates/complete_sign_up.mustache:7
+msgid "Verification link damaged"
+msgstr "Errur en la colliaziun da verificaziun"
 
 #: app/scripts/lib/mailcheck.js:63
 msgid "Did you mean <span>%(domain)s</span>?"
@@ -402,12 +427,36 @@ msgid "Confirm"
 msgstr "Confermar"
 
 #: app/scripts/templates/change_password.mustache:11
+#: app/scripts/templates/confirm_account_unlock.mustache:5
 #: app/scripts/templates/delete_account.mustache:6
 #: app/scripts/templates/pp.mustache:3
 #: app/scripts/templates/reset_password.mustache:6
 #: app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Enavos"
+
+#: app/scripts/templates/complete_account_unlock.mustache:1
+msgid "Unlock link expired"
+msgstr ""
+
+#: app/scripts/templates/complete_account_unlock.mustache:4
+msgid "Unlock link damaged"
+msgstr ""
+
+#: app/scripts/templates/complete_account_unlock.mustache:5
+#: app/scripts/templates/complete_reset_password.mustache:7
+#: app/scripts/templates/complete_sign_up.mustache:8
+msgid ""
+"The link you clicked was missing characters, and may have been broken by "
+"your email client. Copy the address carefully, and try again."
+msgstr ""
+"La colliaziun che ti has cliccà n'era betg cumpletta ed è eventualmain "
+"vegnida interpretada fauss da tes program dad e-mail. Copiescha precautamain "
+"l'entira adressa ed emprova anc ina giada."
+
+#: app/scripts/templates/complete_account_unlock.mustache:7
+msgid "Unlock error"
+msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -416,6 +465,7 @@ msgstr "La colliaziun per redefinir il pled-clav è scrudada"
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
 #: app/scripts/templates/confirm.mustache:2
+#: app/scripts/templates/confirm_account_unlock.mustache:2
 #: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email resent"
 msgstr "Tramess danovamain l'e-mail"
@@ -433,16 +483,6 @@ msgstr ""
 #: app/scripts/templates/complete_reset_password.mustache:6
 msgid "Reset password link damaged"
 msgstr "La colliaziun per redefinir il pled-clav è donnegiada"
-
-#: app/scripts/templates/complete_reset_password.mustache:7
-#: app/scripts/templates/complete_sign_up.mustache:8
-msgid ""
-"The link you clicked was missing characters, and may have been broken by "
-"your email client. Copy the address carefully, and try again."
-msgstr ""
-"La colliaziun che ti has cliccà n'era betg cumpletta ed è eventualmain "
-"vegnida interpretada fauss da tes program dad e-mail. Copiescha precautamain "
-"l'entira adressa ed emprova anc ina giada."
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
@@ -462,19 +502,9 @@ msgstr "Enavant"
 msgid "Verification link expired"
 msgstr "Colliaziun da verificaziun scrudada"
 
-#: app/scripts/templates/complete_sign_up.mustache:3
-msgid "The link you clicked to verify your email is expired."
-msgstr ""
-"La colliaziun che ti has cliccà per confermar tia adressa dad e-mail è "
-"scrudada."
-
 #: app/scripts/templates/complete_sign_up.mustache:4
 msgid "Click here to receive a new verification link"
 msgstr "Clicca qua per retschaiver ina nova colliaziun da verificaziun"
-
-#: app/scripts/templates/complete_sign_up.mustache:7
-msgid "Verification link damaged"
-msgstr "Errur en la colliaziun da verificaziun"
 
 #: app/scripts/templates/complete_sign_up.mustache:10
 msgid "Verification error"
@@ -485,6 +515,7 @@ msgid "Confirm your account"
 msgstr "Conferma tes conto"
 
 #: app/scripts/templates/confirm.mustache:3
+#: app/scripts/templates/confirm_account_unlock.mustache:3
 #: app/scripts/templates/confirm_reset_password.mustache:3
 msgid "Email Sent"
 msgstr "Tramess l'e-mail"
@@ -494,9 +525,21 @@ msgid "A verification link has been sent&nbsp;to %(email)s"
 msgstr "Ina colliaziun da verificaziun è vegnida tramessa&nbsp;a: %(email)s"
 
 #: app/scripts/templates/confirm.mustache:5
+#: app/scripts/templates/confirm_account_unlock.mustache:6
 #: app/scripts/templates/confirm_reset_password.mustache:8
 msgid "Resend email"
 msgstr "Trametter danovamain l'e-mail"
+
+#: app/scripts/templates/confirm_account_unlock.mustache:1
+msgid "Unlock email sent"
+msgstr ""
+
+#: app/scripts/templates/confirm_account_unlock.mustache:4
+msgid ""
+"For security reasons your account was put on lockdown. To perform account-"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
+msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -620,14 +663,18 @@ msgid "Account verified"
 msgstr "Verifitgà il conto"
 
 #: app/scripts/templates/ready.mustache:5
+msgid "Account unlocked"
+msgstr ""
+
+#: app/scripts/templates/ready.mustache:7
 msgid "Success"
 msgstr "Success"
 
-#: app/scripts/templates/ready.mustache:6
+#: app/scripts/templates/ready.mustache:8
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Ti es ussa pront dad utilisar %(serviceName)s"
 
-#: app/scripts/templates/ready.mustache:8
+#: app/scripts/templates/ready.mustache:10
 msgid "Your account is ready!"
 msgstr "Tes conto è pront!"
 

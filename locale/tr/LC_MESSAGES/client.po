@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:38+0000\n"
+"POT-Creation-Date: 2015-03-19 16:28+0000\n"
 "PO-Revision-Date: 2015-03-12 14:36+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,7 +86,7 @@ msgstr "2007"
 msgid "missing search parameter: %(itemName)s"
 msgstr "eksik arama parametresi: %(itemName)s"
 
-#: app/scripts/views/change_password.js:75
+#: app/scripts/views/change_password.js:76
 msgid "Password changed successfully"
 msgstr "Parola başarıyla değiştirildi"
 
@@ -95,6 +95,10 @@ msgstr "Parola başarıyla değiştirildi"
 #: app/scripts/views/confirm_reset_password.js:174
 msgid "Account verified successfully"
 msgstr "Hesap başarıyla doğrulandı"
+
+#: app/scripts/views/confirm_account_unlock.js:106
+msgid "Account unlocked, please try again"
+msgstr ""
 
 #: app/scripts/views/confirm_reset_password.js:162
 #: app/scripts/templates/ready.mustache:3
@@ -105,15 +109,15 @@ msgstr "Parola sıfırlama"
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Parola başarıyla sıfırlandı. Devam etmek için giriş yapın."
 
-#: app/scripts/views/delete_account.js:44
+#: app/scripts/views/delete_account.js:47
 msgid "Account deleted successfully"
 msgstr "Hesap başarıyla silindi"
 
-#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:195
+#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:203
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Bilinmeyen hesap. <a href=\"/signup\">Kaydolun</a>"
 
-#: app/scripts/views/settings.js:51
+#: app/scripts/views/settings.js:57
 msgid "Signed out successfully"
 msgstr "Başarıyla çıkış yapıldı"
 
@@ -129,179 +133,198 @@ msgstr "Gravatar bulunamadı"
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> katkılarıyla"
 
-#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/auth-errors.js:165
-#: app/scripts/lib/auth-errors.js:181 app/scripts/lib/oauth-errors.js:45
+#: app/scripts/views/mixins/account-locked-mixin.js:28
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:18 app/scripts/lib/oauth-errors.js:45
 #: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:57
 #: app/scripts/lib/oauth-errors.js:61 app/scripts/lib/profile-errors.js:38
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Beklenmeyen hata"
 
-#: app/scripts/lib/auth-errors.js:25
+#: app/scripts/lib/auth-errors.js:27
 msgid "Invalid token"
 msgstr "Geçersiz jeton"
 
-#: app/scripts/lib/auth-errors.js:29
+#: app/scripts/lib/auth-errors.js:31
 msgid "Invalid timestamp in request signature"
 msgstr "İstek imzasında geçersiz zaman damgası"
 
-#: app/scripts/lib/auth-errors.js:33
+#: app/scripts/lib/auth-errors.js:35
 msgid "Invalid nonce in request signature"
 msgstr "İstek imzasında geçersiz karma kod"
 
-#: app/scripts/lib/auth-errors.js:37
+#: app/scripts/lib/auth-errors.js:39
 msgid "Account already exists"
 msgstr "Hesap zaten var"
 
-#: app/scripts/lib/auth-errors.js:41
+#: app/scripts/lib/auth-errors.js:43
 msgid "Unknown account"
 msgstr "Bilinmeyen hesap"
 
-#: app/scripts/lib/auth-errors.js:45
+#: app/scripts/lib/auth-errors.js:47
 msgid "Incorrect email case"
 msgstr "Hatalı e-posta yazımı"
 
-#: app/scripts/lib/auth-errors.js:49
+#: app/scripts/lib/auth-errors.js:51
 msgid "Incorrect password"
 msgstr "Parola yanlış"
 
-#: app/scripts/lib/auth-errors.js:53
+#: app/scripts/lib/auth-errors.js:55
 msgid "Unverified account"
 msgstr "Doğrulanmamış hesap"
 
-#: app/scripts/lib/auth-errors.js:57
+#: app/scripts/lib/auth-errors.js:59
 msgid "Invalid verification code"
 msgstr "Geçersiz doğrulama kodu"
 
-#: app/scripts/lib/auth-errors.js:61
+#: app/scripts/lib/auth-errors.js:63
 msgid "Invalid JSON in request body"
 msgstr "İstek gövdesinde geçersiz JSON"
 
-#: app/scripts/lib/auth-errors.js:65 app/scripts/lib/oauth-errors.js:33
+#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:33
 #: app/scripts/lib/profile-errors.js:22
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "İstek gövdesinde geçersiz parametre: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:69
+#: app/scripts/lib/auth-errors.js:71
 msgid "Missing parameter in request body: %(param)s"
 msgstr "İstek gövdesinde eksik parametre: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:73 app/scripts/lib/oauth-errors.js:37
+#: app/scripts/lib/auth-errors.js:75 app/scripts/lib/oauth-errors.js:37
 msgid "Invalid request signature"
 msgstr "Geçersiz istek imzası"
 
-#: app/scripts/lib/auth-errors.js:77
+#: app/scripts/lib/auth-errors.js:79
 msgid "Missing content-length header"
 msgstr "Eksik content-length üstbilgisi"
 
-#: app/scripts/lib/auth-errors.js:81
+#: app/scripts/lib/auth-errors.js:83
 msgid "Request body too large"
 msgstr "İstek gövdesi fazla büyük"
 
-#: app/scripts/lib/auth-errors.js:85
+#: app/scripts/lib/auth-errors.js:87
 msgid "Attempt limit exceeded"
 msgstr "Deneme sınırı aşıldı"
 
-#: app/scripts/lib/auth-errors.js:89
+#: app/scripts/lib/auth-errors.js:91
+msgid "Your account has been locked for security reasons"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:99
 msgid "Server busy, try again soon"
 msgstr "Sistem meşgul, daha sonra tekrar deneyin"
 
-#: app/scripts/lib/auth-errors.js:93
+#: app/scripts/lib/auth-errors.js:103
 msgid "This endpoint is no longer supported"
 msgstr "Bu uç nokta artık desteklenmiyor"
 
-#: app/scripts/lib/auth-errors.js:97 app/scripts/lib/oauth-errors.js:41
+#: app/scripts/lib/auth-errors.js:107 app/scripts/lib/oauth-errors.js:41
 #: app/scripts/lib/profile-errors.js:34
 msgid "System unavailable, try again soon"
 msgstr "Sistem şu an kullanılamıyor, daha sonra tekrar deneyin"
 
-#: app/scripts/lib/auth-errors.js:101 app/scripts/lib/oauth-errors.js:65
+#: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:65
 msgid "no message"
 msgstr "mesaj yok"
 
-#: app/scripts/lib/auth-errors.js:105
+#: app/scripts/lib/auth-errors.js:115
 msgid "Session expired. Sign in to continue."
 msgstr "Oturum zaman aşımına uğradı. Devam etmek için oturum açın."
 
-#: app/scripts/lib/auth-errors.js:109
+#: app/scripts/lib/auth-errors.js:119
 msgid "Cookies are still disabled"
 msgstr "Çerezler hâlâ devre dışı"
 
-#: app/scripts/lib/auth-errors.js:113
+#: app/scripts/lib/auth-errors.js:123
 msgid "Passwords do not match"
 msgstr "Parolalar uyuşmuyor"
 
-#: app/scripts/lib/auth-errors.js:117
+#: app/scripts/lib/auth-errors.js:127
 msgid "Working…"
 msgstr "Çalışıyor…"
 
-#: app/scripts/lib/auth-errors.js:121
+#: app/scripts/lib/auth-errors.js:131
 msgid "Could not get Privacy Notice"
 msgstr "Gizlilik Bildirimi alınamadı"
 
-#: app/scripts/lib/auth-errors.js:125
+#: app/scripts/lib/auth-errors.js:135
 msgid "Could not get Terms of Service"
 msgstr "Hizmet Koşulları alınamadı"
 
-#: app/scripts/lib/auth-errors.js:129
+#: app/scripts/lib/auth-errors.js:139
 msgid "Your new password must be different"
 msgstr "Yeni parolanız farklı olmalıdır"
 
-#: app/scripts/lib/auth-errors.js:133
+#: app/scripts/lib/auth-errors.js:143
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/complete_reset_password.mustache:16
 #: app/scripts/templates/sign_up.mustache:12
 msgid "Must be at least 8 characters"
 msgstr "En az 8 karakter olmalı"
 
-#: app/scripts/lib/auth-errors.js:137
+#: app/scripts/lib/auth-errors.js:147
 msgid "Valid password required"
 msgstr "Geçerli parola gerekli"
 
-#: app/scripts/lib/auth-errors.js:141 app/scripts/lib/auth-errors.js:173
-#: app/scripts/lib/auth-errors.js:189
+#: app/scripts/lib/auth-errors.js:151 app/scripts/lib/auth-errors.js:183
+#: app/scripts/lib/auth-errors.js:199
 msgid "Valid email required"
 msgstr "Geçerli e-posta gerekli"
 
-#: app/scripts/lib/auth-errors.js:145
+#: app/scripts/lib/auth-errors.js:155
 msgid "Year of birth required"
 msgstr "Doğum yılı gerekli"
 
-#: app/scripts/lib/auth-errors.js:149
+#: app/scripts/lib/auth-errors.js:159
 msgid "A usable image was not found"
 msgstr "Kullanılabilir bir resim bulunamadı"
 
-#: app/scripts/lib/auth-errors.js:153
+#: app/scripts/lib/auth-errors.js:163
 msgid "Could not initialize camera"
 msgstr "Kamera başlatılamadı"
 
-#: app/scripts/lib/auth-errors.js:157
+#: app/scripts/lib/auth-errors.js:167
 msgid "Valid URL required"
 msgstr "Geçerli bir adres gerekli"
 
-#: app/scripts/lib/auth-errors.js:161
+#: app/scripts/lib/auth-errors.js:171
 msgid "Valid birthday required"
 msgstr "Geçerli doğum günü gerekli"
 
-#: app/scripts/lib/auth-errors.js:169
+#: app/scripts/lib/auth-errors.js:179
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr ""
 "Doğrulama e-postanız geri döndü. Adresinizi yanlış yazmış olabilir misiniz?"
 
-#: app/scripts/lib/auth-errors.js:177
+#: app/scripts/lib/auth-errors.js:187
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Geçerli bir e-posta adresi girin. firefox.com e-posta hizmeti sunmaz."
 
-#: app/scripts/lib/auth-errors.js:185
+#: app/scripts/lib/auth-errors.js:195
 #: app/scripts/templates/illegal_iframe.mustache:2
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 "Firefox Hesapları yalnızca onaylanmış sitelerde IFRAME içine "
 "yerleştirilebilir"
 
-#: app/scripts/lib/auth-errors.js:193
+#: app/scripts/lib/auth-errors.js:203
 msgid "/force_auth requires an email"
 msgstr "/force_auth için e-posta gereklidir"
+
+#: app/scripts/lib/auth-errors.js:207
+#: app/scripts/templates/complete_account_unlock.mustache:2
+#: app/scripts/templates/complete_sign_up.mustache:3
+msgid "The link you clicked to verify your email is expired."
+msgstr "E-postanızı doğrulamak için tıkladığınız link zaman aşımına uğramış."
+
+#: app/scripts/lib/auth-errors.js:211
+#: app/scripts/templates/complete_sign_up.mustache:7
+msgid "Verification link damaged"
+msgstr "Doğrulama linki zarar görmüş"
 
 #: app/scripts/lib/mailcheck.js:63
 msgid "Did you mean <span>%(domain)s</span>?"
@@ -399,12 +422,35 @@ msgid "Confirm"
 msgstr "Onaylayın"
 
 #: app/scripts/templates/change_password.mustache:11
+#: app/scripts/templates/confirm_account_unlock.mustache:5
 #: app/scripts/templates/delete_account.mustache:6
 #: app/scripts/templates/pp.mustache:3
 #: app/scripts/templates/reset_password.mustache:6
 #: app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Geri"
+
+#: app/scripts/templates/complete_account_unlock.mustache:1
+msgid "Unlock link expired"
+msgstr ""
+
+#: app/scripts/templates/complete_account_unlock.mustache:4
+msgid "Unlock link damaged"
+msgstr ""
+
+#: app/scripts/templates/complete_account_unlock.mustache:5
+#: app/scripts/templates/complete_reset_password.mustache:7
+#: app/scripts/templates/complete_sign_up.mustache:8
+msgid ""
+"The link you clicked was missing characters, and may have been broken by "
+"your email client. Copy the address carefully, and try again."
+msgstr ""
+"Tıkladığınız linkte bazı karakterler eksikti. Link, e-posta istemciniz "
+"tarafından bozulmuş olabilir. Adresi dikkatle kopyalayıp tekrar deneyin."
+
+#: app/scripts/templates/complete_account_unlock.mustache:7
+msgid "Unlock error"
+msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -413,6 +459,7 @@ msgstr "Parolayı sıfırlama bağlantısı zaman aşımına uğradı"
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
 #: app/scripts/templates/confirm.mustache:2
+#: app/scripts/templates/confirm_account_unlock.mustache:2
 #: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email resent"
 msgstr "E-posta tekrar gönderildi"
@@ -428,15 +475,6 @@ msgstr "Yeni bir sıfırlama linki almak için buraya tıklayın"
 #: app/scripts/templates/complete_reset_password.mustache:6
 msgid "Reset password link damaged"
 msgstr "Parolayı sıfırlama bağlantısı hasarlı"
-
-#: app/scripts/templates/complete_reset_password.mustache:7
-#: app/scripts/templates/complete_sign_up.mustache:8
-msgid ""
-"The link you clicked was missing characters, and may have been broken by "
-"your email client. Copy the address carefully, and try again."
-msgstr ""
-"Tıkladığınız linkte bazı karakterler eksikti. Link, e-posta istemciniz "
-"tarafından bozulmuş olabilir. Adresi dikkatle kopyalayıp tekrar deneyin."
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
@@ -456,17 +494,9 @@ msgstr "İleri"
 msgid "Verification link expired"
 msgstr "Doğrulama linki zaman aşımına uğramış"
 
-#: app/scripts/templates/complete_sign_up.mustache:3
-msgid "The link you clicked to verify your email is expired."
-msgstr "E-postanızı doğrulamak için tıkladığınız link zaman aşımına uğramış."
-
 #: app/scripts/templates/complete_sign_up.mustache:4
 msgid "Click here to receive a new verification link"
 msgstr "Yeni bir doğrulama linki almak için buraya tıklayın"
-
-#: app/scripts/templates/complete_sign_up.mustache:7
-msgid "Verification link damaged"
-msgstr "Doğrulama linki zarar görmüş"
 
 #: app/scripts/templates/complete_sign_up.mustache:10
 msgid "Verification error"
@@ -477,6 +507,7 @@ msgid "Confirm your account"
 msgstr "Hesabınızı onaylayın"
 
 #: app/scripts/templates/confirm.mustache:3
+#: app/scripts/templates/confirm_account_unlock.mustache:3
 #: app/scripts/templates/confirm_reset_password.mustache:3
 msgid "Email Sent"
 msgstr "E-posta gönderildi"
@@ -486,9 +517,21 @@ msgid "A verification link has been sent&nbsp;to %(email)s"
 msgstr "%(email)s adresine bir doğrulama bağlantısı gönderildi"
 
 #: app/scripts/templates/confirm.mustache:5
+#: app/scripts/templates/confirm_account_unlock.mustache:6
 #: app/scripts/templates/confirm_reset_password.mustache:8
 msgid "Resend email"
 msgstr "E-postayı tekrar gönder"
+
+#: app/scripts/templates/confirm_account_unlock.mustache:1
+msgid "Unlock email sent"
+msgstr ""
+
+#: app/scripts/templates/confirm_account_unlock.mustache:4
+msgid ""
+"For security reasons your account was put on lockdown. To perform account-"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
+msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -609,14 +652,18 @@ msgid "Account verified"
 msgstr "Hesap doğrulandı"
 
 #: app/scripts/templates/ready.mustache:5
+msgid "Account unlocked"
+msgstr ""
+
+#: app/scripts/templates/ready.mustache:7
 msgid "Success"
 msgstr "Başarılı"
 
-#: app/scripts/templates/ready.mustache:6
+#: app/scripts/templates/ready.mustache:8
 msgid "You are now ready to use %(serviceName)s"
 msgstr "%(serviceName)s artık kullanıma hazır"
 
-#: app/scripts/templates/ready.mustache:8
+#: app/scripts/templates/ready.mustache:10
 msgid "Your account is ready!"
 msgstr "Hesabınız hazır!"
 

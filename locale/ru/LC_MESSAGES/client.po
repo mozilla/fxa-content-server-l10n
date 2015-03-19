@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:38+0000\n"
+"POT-Creation-Date: 2015-03-19 16:28+0000\n"
 "PO-Revision-Date: 2015-03-14 13:59+0000\n"
 "Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
@@ -10,8 +10,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1426341585.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -88,7 +88,7 @@ msgstr "2007"
 msgid "missing search parameter: %(itemName)s"
 msgstr "отсутствует параметр поиска: %(itemName)s"
 
-#: app/scripts/views/change_password.js:75
+#: app/scripts/views/change_password.js:76
 msgid "Password changed successfully"
 msgstr "Пароль успешно изменён"
 
@@ -97,6 +97,10 @@ msgstr "Пароль успешно изменён"
 #: app/scripts/views/confirm_reset_password.js:174
 msgid "Account verified successfully"
 msgstr "Аккаунт успешно подтверждён"
+
+#: app/scripts/views/confirm_account_unlock.js:106
+msgid "Account unlocked, please try again"
+msgstr ""
 
 #: app/scripts/views/confirm_reset_password.js:162
 #: app/scripts/templates/ready.mustache:3
@@ -107,15 +111,15 @@ msgstr "Пароль восстановлен"
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Пароль успешно сброшен. Войти, чтобы продолжить."
 
-#: app/scripts/views/delete_account.js:44
+#: app/scripts/views/delete_account.js:47
 msgid "Account deleted successfully"
 msgstr "Аккаунт успешно удалён"
 
-#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:195
+#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:203
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Неизвестный аккаунт. <a href=\"/signup\">Зарегистрироваться</a>"
 
-#: app/scripts/views/settings.js:51
+#: app/scripts/views/settings.js:57
 msgid "Signed out successfully"
 msgstr "Выход успешно произведён"
 
@@ -131,182 +135,203 @@ msgstr "Gravatar не найден"
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "Предоставлено <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
-#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/auth-errors.js:165
-#: app/scripts/lib/auth-errors.js:181 app/scripts/lib/oauth-errors.js:45
+#: app/scripts/views/mixins/account-locked-mixin.js:28
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:18 app/scripts/lib/oauth-errors.js:45
 #: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:57
 #: app/scripts/lib/oauth-errors.js:61 app/scripts/lib/profile-errors.js:38
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Непредвиденная ошибка"
 
-#: app/scripts/lib/auth-errors.js:25
+#: app/scripts/lib/auth-errors.js:27
 msgid "Invalid token"
 msgstr "Неправильный токен"
 
-#: app/scripts/lib/auth-errors.js:29
+#: app/scripts/lib/auth-errors.js:31
 msgid "Invalid timestamp in request signature"
 msgstr "Неверная временная марка в подписи запроса"
 
-#: app/scripts/lib/auth-errors.js:33
+#: app/scripts/lib/auth-errors.js:35
 msgid "Invalid nonce in request signature"
 msgstr "Неверный случайный код в подписи запроса"
 
-#: app/scripts/lib/auth-errors.js:37
+#: app/scripts/lib/auth-errors.js:39
 msgid "Account already exists"
 msgstr "Аккаунт уже существует"
 
-#: app/scripts/lib/auth-errors.js:41
+#: app/scripts/lib/auth-errors.js:43
 msgid "Unknown account"
 msgstr "Неизвестный аккаунт"
 
-#: app/scripts/lib/auth-errors.js:45
+#: app/scripts/lib/auth-errors.js:47
 msgid "Incorrect email case"
 msgstr "Неправильный регистр букв электронной почты"
 
-#: app/scripts/lib/auth-errors.js:49
+#: app/scripts/lib/auth-errors.js:51
 msgid "Incorrect password"
 msgstr "Неправильный пароль"
 
-#: app/scripts/lib/auth-errors.js:53
+#: app/scripts/lib/auth-errors.js:55
 msgid "Unverified account"
 msgstr "Неподтвержденный аккаунт"
 
-#: app/scripts/lib/auth-errors.js:57
+#: app/scripts/lib/auth-errors.js:59
 msgid "Invalid verification code"
 msgstr "Неверный код подтверждения"
 
-#: app/scripts/lib/auth-errors.js:61
+#: app/scripts/lib/auth-errors.js:63
 msgid "Invalid JSON in request body"
 msgstr "Поврежденный JSON в теле запроса"
 
-#: app/scripts/lib/auth-errors.js:65 app/scripts/lib/oauth-errors.js:33
+#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:33
 #: app/scripts/lib/profile-errors.js:22
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Недопустимый параметр в теле запроса: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:69
+#: app/scripts/lib/auth-errors.js:71
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Недостающий параметр в теле запроса: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:73 app/scripts/lib/oauth-errors.js:37
+#: app/scripts/lib/auth-errors.js:75 app/scripts/lib/oauth-errors.js:37
 msgid "Invalid request signature"
 msgstr "Неверная подпись запроса"
 
-#: app/scripts/lib/auth-errors.js:77
+#: app/scripts/lib/auth-errors.js:79
 msgid "Missing content-length header"
 msgstr "Заголовок content-length отсутствует"
 
-#: app/scripts/lib/auth-errors.js:81
+#: app/scripts/lib/auth-errors.js:83
 msgid "Request body too large"
 msgstr "Слишком большое тело запроса"
 
-#: app/scripts/lib/auth-errors.js:85
+#: app/scripts/lib/auth-errors.js:87
 msgid "Attempt limit exceeded"
 msgstr "Лимит попыток превышен"
 
-#: app/scripts/lib/auth-errors.js:89
+#: app/scripts/lib/auth-errors.js:91
+msgid "Your account has been locked for security reasons"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:99
 msgid "Server busy, try again soon"
 msgstr "Сервер занят, подождите и повторите попытку"
 
-#: app/scripts/lib/auth-errors.js:93
+#: app/scripts/lib/auth-errors.js:103
 msgid "This endpoint is no longer supported"
 msgstr "Этот адрес запроса больше не поддерживается"
 
-#: app/scripts/lib/auth-errors.js:97 app/scripts/lib/oauth-errors.js:41
+#: app/scripts/lib/auth-errors.js:107 app/scripts/lib/oauth-errors.js:41
 #: app/scripts/lib/profile-errors.js:34
 msgid "System unavailable, try again soon"
 msgstr "Система недоступна, подождите и повторите попытку"
 
-#: app/scripts/lib/auth-errors.js:101 app/scripts/lib/oauth-errors.js:65
+#: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:65
 msgid "no message"
 msgstr "нет сообщения"
 
-#: app/scripts/lib/auth-errors.js:105
+#: app/scripts/lib/auth-errors.js:115
 msgid "Session expired. Sign in to continue."
 msgstr "Время сессии истекло. Войдите, чтобы продолжить."
 
-#: app/scripts/lib/auth-errors.js:109
+#: app/scripts/lib/auth-errors.js:119
 msgid "Cookies are still disabled"
 msgstr "Куки все ещё отключены"
 
-#: app/scripts/lib/auth-errors.js:113
+#: app/scripts/lib/auth-errors.js:123
 msgid "Passwords do not match"
 msgstr "Пароли не совпадают"
 
-#: app/scripts/lib/auth-errors.js:117
+#: app/scripts/lib/auth-errors.js:127
 msgid "Working…"
 msgstr "Работаю…"
 
-#: app/scripts/lib/auth-errors.js:121
+#: app/scripts/lib/auth-errors.js:131
 msgid "Could not get Privacy Notice"
 msgstr "Не удалось получить Уведомление о приватности"
 
-#: app/scripts/lib/auth-errors.js:125
+#: app/scripts/lib/auth-errors.js:135
 msgid "Could not get Terms of Service"
 msgstr "Не удалось получить Условия службы"
 
-#: app/scripts/lib/auth-errors.js:129
+#: app/scripts/lib/auth-errors.js:139
 msgid "Your new password must be different"
 msgstr "Ваш новый пароль должен быть другим"
 
-#: app/scripts/lib/auth-errors.js:133
+#: app/scripts/lib/auth-errors.js:143
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/complete_reset_password.mustache:16
 #: app/scripts/templates/sign_up.mustache:12
 msgid "Must be at least 8 characters"
 msgstr "Должен быть не менее 8 символов"
 
-#: app/scripts/lib/auth-errors.js:137
+#: app/scripts/lib/auth-errors.js:147
 msgid "Valid password required"
 msgstr "Введите правильный пароль"
 
-#: app/scripts/lib/auth-errors.js:141 app/scripts/lib/auth-errors.js:173
-#: app/scripts/lib/auth-errors.js:189
+#: app/scripts/lib/auth-errors.js:151 app/scripts/lib/auth-errors.js:183
+#: app/scripts/lib/auth-errors.js:199
 msgid "Valid email required"
 msgstr "Введите действующий адрес электронной почты"
 
-#: app/scripts/lib/auth-errors.js:145
+#: app/scripts/lib/auth-errors.js:155
 msgid "Year of birth required"
 msgstr "Введите год рождения"
 
-#: app/scripts/lib/auth-errors.js:149
+#: app/scripts/lib/auth-errors.js:159
 msgid "A usable image was not found"
 msgstr "Нужное изображение не найдено"
 
-#: app/scripts/lib/auth-errors.js:153
+#: app/scripts/lib/auth-errors.js:163
 msgid "Could not initialize camera"
 msgstr "Не удалось инициализировать камеру"
 
-#: app/scripts/lib/auth-errors.js:157
+#: app/scripts/lib/auth-errors.js:167
 msgid "Valid URL required"
 msgstr "Введите корректный URL"
 
-#: app/scripts/lib/auth-errors.js:161
+#: app/scripts/lib/auth-errors.js:171
 msgid "Valid birthday required"
 msgstr "Введите корректный день рождения"
 
-#: app/scripts/lib/auth-errors.js:169
+#: app/scripts/lib/auth-errors.js:179
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr ""
 "Ваше письмо с подтверждением только что вернулось. Опечатка в электронной "
 "почте?"
 
-#: app/scripts/lib/auth-errors.js:177
+#: app/scripts/lib/auth-errors.js:187
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr ""
 "Введите корректный адрес электронной почты. firefox.com не предлагает службу "
 "электронной почты."
 
-#: app/scripts/lib/auth-errors.js:185
+#: app/scripts/lib/auth-errors.js:195
 #: app/scripts/templates/illegal_iframe.mustache:2
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 "Аккаунты Firefox могут быть помещены внутри IFRAME только на одобренных "
 "сайтах"
 
-#: app/scripts/lib/auth-errors.js:193
+#: app/scripts/lib/auth-errors.js:203
 msgid "/force_auth requires an email"
 msgstr "/force_auth требует эл. почты"
+
+#: app/scripts/lib/auth-errors.js:207
+#: app/scripts/templates/complete_account_unlock.mustache:2
+#: app/scripts/templates/complete_sign_up.mustache:3
+msgid "The link you clicked to verify your email is expired."
+msgstr ""
+"Срок жизни ссылки, по которой вы щёлкаете, чтобы подтвердить вашу почту, "
+"истёк."
+
+#: app/scripts/lib/auth-errors.js:211
+#: app/scripts/templates/complete_sign_up.mustache:7
+msgid "Verification link damaged"
+msgstr "Ссылка для подтверждения повреждена"
 
 #: app/scripts/lib/mailcheck.js:63
 msgid "Did you mean <span>%(domain)s</span>?"
@@ -406,12 +431,36 @@ msgid "Confirm"
 msgstr "Подтвердить"
 
 #: app/scripts/templates/change_password.mustache:11
+#: app/scripts/templates/confirm_account_unlock.mustache:5
 #: app/scripts/templates/delete_account.mustache:6
 #: app/scripts/templates/pp.mustache:3
 #: app/scripts/templates/reset_password.mustache:6
 #: app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Назад"
+
+#: app/scripts/templates/complete_account_unlock.mustache:1
+msgid "Unlock link expired"
+msgstr ""
+
+#: app/scripts/templates/complete_account_unlock.mustache:4
+msgid "Unlock link damaged"
+msgstr ""
+
+#: app/scripts/templates/complete_account_unlock.mustache:5
+#: app/scripts/templates/complete_reset_password.mustache:7
+#: app/scripts/templates/complete_sign_up.mustache:8
+msgid ""
+"The link you clicked was missing characters, and may have been broken by "
+"your email client. Copy the address carefully, and try again."
+msgstr ""
+"В ссылке, по которой вы щёлкнули, отсутствуют символы, и возможно она была "
+"повреждена вашим почтовым клиентом. Внимательно скопируйте адрес и "
+"попробуйте ещё раз."
+
+#: app/scripts/templates/complete_account_unlock.mustache:7
+msgid "Unlock error"
+msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -420,6 +469,7 @@ msgstr "Срок жизни ссылки для восстановления п�
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
 #: app/scripts/templates/confirm.mustache:2
+#: app/scripts/templates/confirm_account_unlock.mustache:2
 #: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email resent"
 msgstr "Письмо повторно отправлено"
@@ -436,16 +486,6 @@ msgstr "Щёлкните здесь, чтобы получить новую сс
 #: app/scripts/templates/complete_reset_password.mustache:6
 msgid "Reset password link damaged"
 msgstr "Ссылка для восстановления пароля повреждена"
-
-#: app/scripts/templates/complete_reset_password.mustache:7
-#: app/scripts/templates/complete_sign_up.mustache:8
-msgid ""
-"The link you clicked was missing characters, and may have been broken by "
-"your email client. Copy the address carefully, and try again."
-msgstr ""
-"В ссылке, по которой вы щёлкнули, отсутствуют символы, и возможно она была "
-"повреждена вашим почтовым клиентом. Внимательно скопируйте адрес и "
-"попробуйте ещё раз."
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
@@ -465,19 +505,9 @@ msgstr "Далее"
 msgid "Verification link expired"
 msgstr "Срок жизни ссылки для подтверждения истёк"
 
-#: app/scripts/templates/complete_sign_up.mustache:3
-msgid "The link you clicked to verify your email is expired."
-msgstr ""
-"Срок жизни ссылки, по которой вы щёлкаете, чтобы подтвердить вашу почту, "
-"истёк."
-
 #: app/scripts/templates/complete_sign_up.mustache:4
 msgid "Click here to receive a new verification link"
 msgstr "Щёлкните здесь, чтобы получить новую ссылку для подтверждения"
-
-#: app/scripts/templates/complete_sign_up.mustache:7
-msgid "Verification link damaged"
-msgstr "Ссылка для подтверждения повреждена"
 
 #: app/scripts/templates/complete_sign_up.mustache:10
 msgid "Verification error"
@@ -488,6 +518,7 @@ msgid "Confirm your account"
 msgstr "Подтвердите ваш аккаунт"
 
 #: app/scripts/templates/confirm.mustache:3
+#: app/scripts/templates/confirm_account_unlock.mustache:3
 #: app/scripts/templates/confirm_reset_password.mustache:3
 msgid "Email Sent"
 msgstr "Письмо отправлено"
@@ -497,9 +528,21 @@ msgid "A verification link has been sent&nbsp;to %(email)s"
 msgstr "Ссылка для подтверждения была отправлена на %(email)s"
 
 #: app/scripts/templates/confirm.mustache:5
+#: app/scripts/templates/confirm_account_unlock.mustache:6
 #: app/scripts/templates/confirm_reset_password.mustache:8
 msgid "Resend email"
 msgstr "Повторно отправить письмо"
+
+#: app/scripts/templates/confirm_account_unlock.mustache:1
+msgid "Unlock email sent"
+msgstr ""
+
+#: app/scripts/templates/confirm_account_unlock.mustache:4
+msgid ""
+"For security reasons your account was put on lockdown. To perform account-"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
+msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -622,14 +665,18 @@ msgid "Account verified"
 msgstr "Аккаунт подтверждён"
 
 #: app/scripts/templates/ready.mustache:5
+msgid "Account unlocked"
+msgstr ""
+
+#: app/scripts/templates/ready.mustache:7
 msgid "Success"
 msgstr "Сделано"
 
-#: app/scripts/templates/ready.mustache:6
+#: app/scripts/templates/ready.mustache:8
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Теперь вы готовы использовать %(serviceName)s"
 
-#: app/scripts/templates/ready.mustache:8
+#: app/scripts/templates/ready.mustache:10
 msgid "Your account is ready!"
 msgstr "Ваш аккаунт готов!"
 

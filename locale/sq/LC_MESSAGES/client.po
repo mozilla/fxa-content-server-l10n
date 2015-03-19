@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-10 06:38+0000\n"
+"POT-Creation-Date: 2015-03-19 16:28+0000\n"
 "PO-Revision-Date: 2015-03-01 18:21+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,7 +86,7 @@ msgstr "2007"
 msgid "missing search parameter: %(itemName)s"
 msgstr "mungon parametri i kërkimit: %(itemName)s"
 
-#: app/scripts/views/change_password.js:75
+#: app/scripts/views/change_password.js:76
 msgid "Password changed successfully"
 msgstr "Fjalëkalimi u ndryshua me sukses"
 
@@ -95,6 +95,10 @@ msgstr "Fjalëkalimi u ndryshua me sukses"
 #: app/scripts/views/confirm_reset_password.js:174
 msgid "Account verified successfully"
 msgstr "Llogaria u verifikua me sukses"
+
+#: app/scripts/views/confirm_account_unlock.js:106
+msgid "Account unlocked, please try again"
+msgstr ""
 
 #: app/scripts/views/confirm_reset_password.js:162
 #: app/scripts/templates/ready.mustache:3
@@ -105,15 +109,15 @@ msgstr "Ricaktim fjalëkalimi"
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Fjalëkalimi u ricaktua me sukses. Hyni që të vazhdoni."
 
-#: app/scripts/views/delete_account.js:44
+#: app/scripts/views/delete_account.js:47
 msgid "Account deleted successfully"
 msgstr "Llogaria u fshi me sukses"
 
-#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:195
+#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:203
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Llogari e panjohur. <a href=\"/signup\">Regjistrohuni</a>"
 
-#: app/scripts/views/settings.js:51
+#: app/scripts/views/settings.js:57
 msgid "Signed out successfully"
 msgstr "Dolët me sukses"
 
@@ -130,72 +134,76 @@ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr ""
 "Me lejen dashamirëse të <a href=\"https://www.gravatar.com\">Gravatar</a>-it"
 
-#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/auth-errors.js:165
-#: app/scripts/lib/auth-errors.js:181 app/scripts/lib/oauth-errors.js:45
+#: app/scripts/views/mixins/account-locked-mixin.js:28
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:18 app/scripts/lib/oauth-errors.js:45
 #: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:57
 #: app/scripts/lib/oauth-errors.js:61 app/scripts/lib/profile-errors.js:38
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Gabim i papritur"
 
-#: app/scripts/lib/auth-errors.js:25
+#: app/scripts/lib/auth-errors.js:27
 msgid "Invalid token"
 msgstr "Token i pavlefshëm"
 
-#: app/scripts/lib/auth-errors.js:29
+#: app/scripts/lib/auth-errors.js:31
 msgid "Invalid timestamp in request signature"
 msgstr "Vulë e pavlefshme kohore te nënshkrimi i kërkesës"
 
-#: app/scripts/lib/auth-errors.js:33
+#: app/scripts/lib/auth-errors.js:35
 msgid "Invalid nonce in request signature"
 msgstr "Varg i pavlefshëm te nënshkrimi i kërkesës"
 
-#: app/scripts/lib/auth-errors.js:37
+#: app/scripts/lib/auth-errors.js:39
 msgid "Account already exists"
 msgstr "Ka tashmë një llogari të tillë"
 
-#: app/scripts/lib/auth-errors.js:41
+#: app/scripts/lib/auth-errors.js:43
 msgid "Unknown account"
 msgstr "Llogari e panjohur"
 
-#: app/scripts/lib/auth-errors.js:45
+#: app/scripts/lib/auth-errors.js:47
 msgid "Incorrect email case"
 msgstr "Ngatërresë shkronjash të mëdha me të vogla te email-i"
 
-#: app/scripts/lib/auth-errors.js:49
+#: app/scripts/lib/auth-errors.js:51
 msgid "Incorrect password"
 msgstr "Fjalëkalim i pasaktë"
 
-#: app/scripts/lib/auth-errors.js:53
+#: app/scripts/lib/auth-errors.js:55
 msgid "Unverified account"
 msgstr "Llogari e paverifikuar"
 
-#: app/scripts/lib/auth-errors.js:57
+#: app/scripts/lib/auth-errors.js:59
 msgid "Invalid verification code"
 msgstr "Kod verifikimi i pavlefshëm"
 
-#: app/scripts/lib/auth-errors.js:61
+#: app/scripts/lib/auth-errors.js:63
 msgid "Invalid JSON in request body"
 msgstr "JSON i pavlefshëm te lënda e kërkesës"
 
-#: app/scripts/lib/auth-errors.js:65 app/scripts/lib/oauth-errors.js:33
+#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:33
 #: app/scripts/lib/profile-errors.js:22
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Parametër i pavlefshëm te lënda e kërkesës: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:69
+#: app/scripts/lib/auth-errors.js:71
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Mungon parametër te lënda e kërkesës: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:73 app/scripts/lib/oauth-errors.js:37
+#: app/scripts/lib/auth-errors.js:75 app/scripts/lib/oauth-errors.js:37
 msgid "Invalid request signature"
 msgstr "Nënshkrim i pavlefshëm kërkese"
 
-#: app/scripts/lib/auth-errors.js:77
+#: app/scripts/lib/auth-errors.js:79
 msgid "Missing content-length header"
 msgstr "Mungon krye gjatësie lënde"
 
-#: app/scripts/lib/auth-errors.js:81
+#: app/scripts/lib/auth-errors.js:83
 msgid "Request body too large"
 msgstr "Lëndë shumë e madhe për kërkesa"
 
@@ -203,15 +211,19 @@ msgstr "Lëndë shumë e madhe për kërkesa"
 #     Përpjekje me të gjitha forcat për të arritur a për të bërë diçka, mundim.
 #
 # Nuk besoj se konteksti këtu, dhe në të gjitha rastet në kompjutera, përfshin elemente mundimi. Përveç kësaj, në Shqipen e derisotme (të Shqipërisë) "prova" është e mirëngulitur. Ndaj nuk gjej arsye përse duhet zëvendësuar me orvatje. Gabim qofsha!
-#: app/scripts/lib/auth-errors.js:85
+#: app/scripts/lib/auth-errors.js:87
 msgid "Attempt limit exceeded"
 msgstr "U tejkalua kufiri i provave"
 
-#: app/scripts/lib/auth-errors.js:89
+#: app/scripts/lib/auth-errors.js:91
+msgid "Your account has been locked for security reasons"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:99
 msgid "Server busy, try again soon"
 msgstr "Shërbyesi është i zënë, riprovoni së shpejti"
 
-#: app/scripts/lib/auth-errors.js:93
+#: app/scripts/lib/auth-errors.js:103
 msgid "This endpoint is no longer supported"
 msgstr "Kjo pikë mbarimi nuk mbulohet më"
 
@@ -220,98 +232,109 @@ msgstr "Kjo pikë mbarimi nuk mbulohet më"
 #
 # Siç mund të shihet, edhe sikur nga ana e domethënies të ishte i përshtatshëm, përkthimi "përpiquni sërish" thuajse dyfishon "riprovoni". Nga pikëpamja e ekonomisë në përkthim, kjo nuk përligjet.
 # Nga ana e domethënies "përpiquni sërish" e zgjeron fokusin e veprimeve të mundshme pas dështimit. Kurse "riprovoni" do të thotë të bësh edhe një provë tjetër, të po atij veprimi që kishe bërë më parë.
-#: app/scripts/lib/auth-errors.js:97 app/scripts/lib/oauth-errors.js:41
+#: app/scripts/lib/auth-errors.js:107 app/scripts/lib/oauth-errors.js:41
 #: app/scripts/lib/profile-errors.js:34
 msgid "System unavailable, try again soon"
 msgstr "Sistemi s’është në punë, riprovoni së shpejti"
 
-#: app/scripts/lib/auth-errors.js:101 app/scripts/lib/oauth-errors.js:65
+#: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:65
 msgid "no message"
 msgstr "pa mesazh"
 
-#: app/scripts/lib/auth-errors.js:105
+#: app/scripts/lib/auth-errors.js:115
 msgid "Session expired. Sign in to continue."
 msgstr "Sesioni skadoi. Që të vazhdohet, bëni hyrjen."
 
-#: app/scripts/lib/auth-errors.js:109
+#: app/scripts/lib/auth-errors.js:119
 msgid "Cookies are still disabled"
 msgstr "Cookie-t janë ende të çaktivizuara"
 
-#: app/scripts/lib/auth-errors.js:113
+#: app/scripts/lib/auth-errors.js:123
 msgid "Passwords do not match"
 msgstr "Fjalëkalimet nuk përputhen"
 
-#: app/scripts/lib/auth-errors.js:117
+#: app/scripts/lib/auth-errors.js:127
 msgid "Working…"
 msgstr "Po punohet…"
 
-#: app/scripts/lib/auth-errors.js:121
+#: app/scripts/lib/auth-errors.js:131
 msgid "Could not get Privacy Notice"
 msgstr "Nuk u mor dot Shënim mbi Privatësinë"
 
-#: app/scripts/lib/auth-errors.js:125
+#: app/scripts/lib/auth-errors.js:135
 msgid "Could not get Terms of Service"
 msgstr "Nuk u morën dot Kushtet e Shërbimit"
 
-#: app/scripts/lib/auth-errors.js:129
+#: app/scripts/lib/auth-errors.js:139
 msgid "Your new password must be different"
 msgstr "Fjalëkalimi juaj i ri duhet të jetë i ndryshëm"
 
-#: app/scripts/lib/auth-errors.js:133
+#: app/scripts/lib/auth-errors.js:143
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/complete_reset_password.mustache:16
 #: app/scripts/templates/sign_up.mustache:12
 msgid "Must be at least 8 characters"
 msgstr "Duhet të jetë të paktën 8 shenja"
 
-#: app/scripts/lib/auth-errors.js:137
+#: app/scripts/lib/auth-errors.js:147
 msgid "Valid password required"
 msgstr "Lyp fjalëkalim të vlefshëm"
 
-#: app/scripts/lib/auth-errors.js:141 app/scripts/lib/auth-errors.js:173
-#: app/scripts/lib/auth-errors.js:189
+#: app/scripts/lib/auth-errors.js:151 app/scripts/lib/auth-errors.js:183
+#: app/scripts/lib/auth-errors.js:199
 msgid "Valid email required"
 msgstr "Lypset email i vlefshëm"
 
-#: app/scripts/lib/auth-errors.js:145
+#: app/scripts/lib/auth-errors.js:155
 msgid "Year of birth required"
 msgstr "Viti i lindjes është i domosdoshëm"
 
-#: app/scripts/lib/auth-errors.js:149
+#: app/scripts/lib/auth-errors.js:159
 msgid "A usable image was not found"
 msgstr "Nuk u gjet një figurë e përdorshme"
 
-#: app/scripts/lib/auth-errors.js:153
+#: app/scripts/lib/auth-errors.js:163
 msgid "Could not initialize camera"
 msgstr "Nuk u gatit dot kamera"
 
-#: app/scripts/lib/auth-errors.js:157
+#: app/scripts/lib/auth-errors.js:167
 msgid "Valid URL required"
 msgstr "Lypset URL e vlefshme"
 
-#: app/scripts/lib/auth-errors.js:161
+#: app/scripts/lib/auth-errors.js:171
 msgid "Valid birthday required"
 msgstr "Lypset datëlindje e vlefshme"
 
-#: app/scripts/lib/auth-errors.js:169
+#: app/scripts/lib/auth-errors.js:179
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr ""
 "Email-i juaj i verifikimit sapo u kthye mbrapsht. E shkruat keq email-in?"
 
-#: app/scripts/lib/auth-errors.js:177
+#: app/scripts/lib/auth-errors.js:187
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Jepni një adresë email të vlefshme. firefox.com nuk ofron email."
 
-#: app/scripts/lib/auth-errors.js:185
+#: app/scripts/lib/auth-errors.js:195
 #: app/scripts/templates/illegal_iframe.mustache:2
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 "LLogaritë Firefox mund të vendosen vetëm brenda një IFRAME në sajte të "
 "miratuar"
 
-#: app/scripts/lib/auth-errors.js:193
+#: app/scripts/lib/auth-errors.js:203
 msgid "/force_auth requires an email"
 msgstr "/force_auth lyp një email"
+
+#: app/scripts/lib/auth-errors.js:207
+#: app/scripts/templates/complete_account_unlock.mustache:2
+#: app/scripts/templates/complete_sign_up.mustache:3
+msgid "The link you clicked to verify your email is expired."
+msgstr "Lidhja që klikuat për verifikimin e email-it tuaj ka skaduar."
+
+#: app/scripts/lib/auth-errors.js:211
+#: app/scripts/templates/complete_sign_up.mustache:7
+msgid "Verification link damaged"
+msgstr "Lidhja për verifikimin është e dëmtuar"
 
 #: app/scripts/lib/mailcheck.js:63
 msgid "Did you mean <span>%(domain)s</span>?"
@@ -410,12 +433,46 @@ msgid "Confirm"
 msgstr "Ripohojeni"
 
 #: app/scripts/templates/change_password.mustache:11
+#: app/scripts/templates/confirm_account_unlock.mustache:5
 #: app/scripts/templates/delete_account.mustache:6
 #: app/scripts/templates/pp.mustache:3
 #: app/scripts/templates/reset_password.mustache:6
 #: app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Mbrapsht"
+
+#: app/scripts/templates/complete_account_unlock.mustache:1
+msgid "Unlock link expired"
+msgstr ""
+
+#: app/scripts/templates/complete_account_unlock.mustache:4
+msgid "Unlock link damaged"
+msgstr ""
+
+# Përkthimi fjalë për fjalë i "characters" në "karaktere" kur bëhet fjalë për shkronja dhe numra dhe simbole të tjera të shkruara është dëshmi e formimit të çalë të shumë prej atyre që i bien shkurt nga Anglishtja në Shqip, vetëm pse fjala në Anglisht ka një grafemë edhe në Shqip. Puna është që kuptimet që "karakteri" ka në Shqip janë tmerrësisht larg atij që po i vishet "character"-it të Anglishtes:
+#
+# KARAKTER m.
+#     1. Tërësia e veçorive psikike më kryesore, që shfaqen në veprimtarinë e në sjelljen e njeriut në shoqëri dhe që e shquajnë personalitetin e tij; njeri me veçori psikike e morale të caktuara. Me karakter të butë (të fortë). Me karakter të mbyllur. Tiparet e karakterit. Formohet karakteri. Nuk u puqen karakteret.
+#     2. Këmbëngulje e madhe, vendosmëri për t'ia arritur një qëllimi, vullnet i fortë, qëndresë e burrëri. Njeri me karakter. Dobësi (mungesë) karakteri.
+#     3. Ajo që e shquan diçka nga të tjerat, veti dalluese e diçkaje. Me karakter objektiv (subjektiv). Me karakter të përgjithshëm (të veçantë). Ka karakter klasor (politik, ideologjik). Karakter shkencor (artistik, pedagogjik). Ka karakter shoqëror (kombëtar, përparimtar).
+#     4. art., let. Personazh që mishëron përmes tipareve individuale disa anë e veçori thelbësore të përfaqësuesve tipikë të një klase a shtrese shoqërore ose të një grupi a mjedisi shoqëror në një epokë të caktuar historike; tip. Karakter letrar. Karakter i plotë (i gjallë). Karakter dramatik (tragjik). Karakter në letërsi (në art). Karakteret në prozën e Migjenit. Krijoi (dha) një karakter të ri.
+#
+# Mjerisht, shumë shpesh, gomarllëqe të tilla nga të paditur të patëkeq lihen të kalojnë me një syleshllëk të çuditshëm...
+#
+# P.S. Se kush e përdori i pari si "karaktere", nuk dihet.
+#: app/scripts/templates/complete_account_unlock.mustache:5
+#: app/scripts/templates/complete_reset_password.mustache:7
+#: app/scripts/templates/complete_sign_up.mustache:8
+msgid ""
+"The link you clicked was missing characters, and may have been broken by "
+"your email client. Copy the address carefully, and try again."
+msgstr ""
+"Lidhjes që klikuat i mungonin shenja, dhe mund të jetë dëmtuar nga klienti "
+"juaj email. Kopjojeni adresën me kujdes, dhe riprovoni."
+
+#: app/scripts/templates/complete_account_unlock.mustache:7
+msgid "Unlock error"
+msgstr ""
 
 # Një kërkim i shpejtë te http://fjalori.shkenca.org/ për termin "rivendos" "rivendosje" do të heqë çdo mëdyshje për propozimin e këtushëm.
 #: app/scripts/templates/complete_reset_password.mustache:1
@@ -425,6 +482,7 @@ msgstr "Lidhja e ricaktimit të fjalëkalimit skadoi"
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
 #: app/scripts/templates/confirm.mustache:2
+#: app/scripts/templates/confirm_account_unlock.mustache:2
 #: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email resent"
 msgstr "Email-i u ridërgua"
@@ -441,26 +499,6 @@ msgstr "Klikoni këtu që të merrni një lidhje të re ricaktimi"
 #: app/scripts/templates/complete_reset_password.mustache:6
 msgid "Reset password link damaged"
 msgstr "Lidhja e ricaktimit të fjalëkalimit është e dëmtuar"
-
-# Përkthimi fjalë për fjalë i "characters" në "karaktere" kur bëhet fjalë për shkronja dhe numra dhe simbole të tjera të shkruara është dëshmi e formimit të çalë të shumë prej atyre që i bien shkurt nga Anglishtja në Shqip, vetëm pse fjala në Anglisht ka një grafemë edhe në Shqip. Puna është që kuptimet që "karakteri" ka në Shqip janë tmerrësisht larg atij që po i vishet "character"-it të Anglishtes:
-#
-# KARAKTER m.
-#     1. Tërësia e veçorive psikike më kryesore, që shfaqen në veprimtarinë e në sjelljen e njeriut në shoqëri dhe që e shquajnë personalitetin e tij; njeri me veçori psikike e morale të caktuara. Me karakter të butë (të fortë). Me karakter të mbyllur. Tiparet e karakterit. Formohet karakteri. Nuk u puqen karakteret.
-#     2. Këmbëngulje e madhe, vendosmëri për t'ia arritur një qëllimi, vullnet i fortë, qëndresë e burrëri. Njeri me karakter. Dobësi (mungesë) karakteri.
-#     3. Ajo që e shquan diçka nga të tjerat, veti dalluese e diçkaje. Me karakter objektiv (subjektiv). Me karakter të përgjithshëm (të veçantë). Ka karakter klasor (politik, ideologjik). Karakter shkencor (artistik, pedagogjik). Ka karakter shoqëror (kombëtar, përparimtar).
-#     4. art., let. Personazh që mishëron përmes tipareve individuale disa anë e veçori thelbësore të përfaqësuesve tipikë të një klase a shtrese shoqërore ose të një grupi a mjedisi shoqëror në një epokë të caktuar historike; tip. Karakter letrar. Karakter i plotë (i gjallë). Karakter dramatik (tragjik). Karakter në letërsi (në art). Karakteret në prozën e Migjenit. Krijoi (dha) një karakter të ri.
-#
-# Mjerisht, shumë shpesh, gomarllëqe të tilla nga të paditur të patëkeq lihen të kalojnë me një syleshllëk të çuditshëm...
-#
-# P.S. Se kush e përdori i pari si "karaktere", nuk dihet.
-#: app/scripts/templates/complete_reset_password.mustache:7
-#: app/scripts/templates/complete_sign_up.mustache:8
-msgid ""
-"The link you clicked was missing characters, and may have been broken by "
-"your email client. Copy the address carefully, and try again."
-msgstr ""
-"Lidhjes që klikuat i mungonin shenja, dhe mund të jetë dëmtuar nga klienti "
-"juaj email. Kopjojeni adresën me kujdes, dhe riprovoni."
 
 # Një kërkim i shpejtë te http://fjalori.shkenca.org/ për termin "rivendos" "rivendosje" do të heqë çdo mëdyshje për propozimin e këtushëm.
 #: app/scripts/templates/complete_reset_password.mustache:9
@@ -481,17 +519,9 @@ msgstr "Pasuesi"
 msgid "Verification link expired"
 msgstr "Lidhja për verifikimin skadoi"
 
-#: app/scripts/templates/complete_sign_up.mustache:3
-msgid "The link you clicked to verify your email is expired."
-msgstr "Lidhja që klikuat për verifikimin e email-it tuaj ka skaduar."
-
 #: app/scripts/templates/complete_sign_up.mustache:4
 msgid "Click here to receive a new verification link"
 msgstr "Klikoni këtu që të merrni një lidhje të re verifikimi"
-
-#: app/scripts/templates/complete_sign_up.mustache:7
-msgid "Verification link damaged"
-msgstr "Lidhja për verifikimin është e dëmtuar"
 
 #: app/scripts/templates/complete_sign_up.mustache:10
 msgid "Verification error"
@@ -502,6 +532,7 @@ msgid "Confirm your account"
 msgstr "Ripohoni llogarinë tuaj"
 
 #: app/scripts/templates/confirm.mustache:3
+#: app/scripts/templates/confirm_account_unlock.mustache:3
 #: app/scripts/templates/confirm_reset_password.mustache:3
 msgid "Email Sent"
 msgstr "Email-i u Dërgua"
@@ -511,9 +542,21 @@ msgid "A verification link has been sent&nbsp;to %(email)s"
 msgstr "Sapo u dërgua një lidhje verifikimi&nbsp;te %(email)s"
 
 #: app/scripts/templates/confirm.mustache:5
+#: app/scripts/templates/confirm_account_unlock.mustache:6
 #: app/scripts/templates/confirm_reset_password.mustache:8
 msgid "Resend email"
 msgstr "Ridërgoje email-in"
+
+#: app/scripts/templates/confirm_account_unlock.mustache:1
+msgid "Unlock email sent"
+msgstr ""
+
+#: app/scripts/templates/confirm_account_unlock.mustache:4
+msgid ""
+"For security reasons your account was put on lockdown. To perform account-"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
+msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -637,14 +680,18 @@ msgid "Account verified"
 msgstr "Llogaria u verifikua"
 
 #: app/scripts/templates/ready.mustache:5
+msgid "Account unlocked"
+msgstr ""
+
+#: app/scripts/templates/ready.mustache:7
 msgid "Success"
 msgstr "Sukses"
 
-#: app/scripts/templates/ready.mustache:6
+#: app/scripts/templates/ready.mustache:8
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Tani jeni gati të përdorni %(serviceName)s"
 
-#: app/scripts/templates/ready.mustache:8
+#: app/scripts/templates/ready.mustache:10
 msgid "Your account is ready!"
 msgstr "Llogaria juaj është gati!"
 
