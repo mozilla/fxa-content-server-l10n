@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-19 16:28+0000\n"
-"PO-Revision-Date: 2015-03-12 12:05+0000\n"
+"PO-Revision-Date: 2015-03-20 08:04+0000\n"
 "Last-Translator: Artem <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1426161934.0\n"
+"X-POOTLE-MTIME: 1426838667.0\n"
 
 #: app/scripts/templates/sign_up.mustache:16
 msgid "1991"
@@ -99,7 +99,7 @@ msgstr "Обліковий запис успішно перевірено"
 
 #: app/scripts/views/confirm_account_unlock.js:106
 msgid "Account unlocked, please try again"
-msgstr ""
+msgstr "Обліковий запис розблоковано, спробуйте знову"
 
 #: app/scripts/views/confirm_reset_password.js:162
 #: app/scripts/templates/ready.mustache:3
@@ -138,6 +138,8 @@ msgstr "Правила <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
+"Обліковий запис заблоковано. <a href=\"/confirm_account_unlock\">Надіслати "
+"електронний лист для розблокування</a>"
 
 #: app/scripts/lib/auth-errors.js:18 app/scripts/lib/oauth-errors.js:45
 #: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:57
@@ -213,7 +215,7 @@ msgstr "Перевищено обмеження спроб"
 
 #: app/scripts/lib/auth-errors.js:91
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "З міркувань безпеки, ваш обліковий запис було заблоковано"
 
 #: app/scripts/lib/auth-errors.js:99
 msgid "Server busy, try again soon"
@@ -434,11 +436,11 @@ msgstr "Назад"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
-msgstr ""
+msgstr "Термін дії посилання для розблокування завершився"
 
 #: app/scripts/templates/complete_account_unlock.mustache:4
 msgid "Unlock link damaged"
-msgstr ""
+msgstr "Посилання для розблокування пошкоджене"
 
 #: app/scripts/templates/complete_account_unlock.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:7
@@ -453,7 +455,7 @@ msgstr ""
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
-msgstr ""
+msgstr "Помилка розблокування"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -527,7 +529,7 @@ msgstr "Надіслати повідомлення ще раз"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:1
 msgid "Unlock email sent"
-msgstr ""
+msgstr "Повідомлення для розблокування надіслане"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
@@ -535,6 +537,10 @@ msgid ""
 "level activities, please re-verify your account by clicking the verification "
 "link sent to %(email)s"
 msgstr ""
+"З міркувань безпеки, ваш обліковий запис було заблоковано. Для виконання дій "
+"на рівні облікового запису, будь ласка, виконайте повторне підтвердження "
+"свого облікового запису, перейшовши за посиланням, яке надіслане на %"
+"(email)s"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -658,7 +664,7 @@ msgstr "Обліковий запис перевірено"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account unlocked"
-msgstr ""
+msgstr "Обліковий запис розблоковано"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Success"
