@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-19 16:28+0000\n"
-"PO-Revision-Date: 2015-03-10 13:14+0000\n"
+"PO-Revision-Date: 2015-03-20 06:59+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1425993264.0\n"
+"X-POOTLE-MTIME: 1426834761.0\n"
 
 #: app/scripts/templates/sign_up.mustache:16
 msgid "1991"
@@ -98,7 +98,7 @@ msgstr "账号验证成功"
 
 #: app/scripts/views/confirm_account_unlock.js:106
 msgid "Account unlocked, please try again"
-msgstr ""
+msgstr "账号已解锁，请稍后重试"
 
 #: app/scripts/views/confirm_reset_password.js:162
 #: app/scripts/templates/ready.mustache:3
@@ -139,7 +139,7 @@ msgstr "感谢 <a href=\"https://www.gravatar.com\">Gravatar</a> 提供"
 #: app/scripts/views/mixins/account-locked-mixin.js:28
 msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
-msgstr ""
+msgstr "账号已锁定。<a href=\"/confirm_account_unlock\">发送解锁邮件</a>"
 
 #: app/scripts/lib/auth-errors.js:18 app/scripts/lib/oauth-errors.js:45
 #: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:57
@@ -215,7 +215,7 @@ msgstr "已超过尝试次数"
 
 #: app/scripts/lib/auth-errors.js:91
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "您的账号已因安全原因被锁定"
 
 #: app/scripts/lib/auth-errors.js:99
 msgid "Server busy, try again soon"
@@ -429,11 +429,11 @@ msgstr "返回"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
-msgstr ""
+msgstr "解锁链接已过期"
 
 #: app/scripts/templates/complete_account_unlock.mustache:4
 msgid "Unlock link damaged"
-msgstr ""
+msgstr "解锁链接已损坏"
 
 #: app/scripts/templates/complete_account_unlock.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:7
@@ -447,7 +447,7 @@ msgstr ""
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
-msgstr ""
+msgstr "解锁出错"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -521,14 +521,14 @@ msgstr "重新发送邮件"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:1
 msgid "Unlock email sent"
-msgstr ""
+msgstr "解锁邮件已发送"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
 "level activities, please re-verify your account by clicking the verification "
 "link sent to %(email)s"
-msgstr ""
+msgstr "由于安全原因，您的账号已被锁定。要执行账号层面的操作，请点击验证链接以重新发送验证邮件至 %(email)s 验证您的账号。"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -648,7 +648,7 @@ msgstr "账号已验证"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account unlocked"
-msgstr ""
+msgstr "账号已解锁"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Success"
