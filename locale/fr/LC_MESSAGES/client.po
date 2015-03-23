@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-19 16:28+0000\n"
-"PO-Revision-Date: 2015-02-17 10:17+0000\n"
-"Last-Translator: Benoit <benoit.leseul@gmail.com>\n"
+"PO-Revision-Date: 2015-03-23 00:06+0000\n"
+"Last-Translator: Théo <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1424168266.0\n"
+"X-POOTLE-MTIME: 1427069175.0\n"
 
 #: app/scripts/templates/sign_up.mustache:16
 msgid "1991"
@@ -88,17 +88,17 @@ msgstr "paramètre de recherche manquant&nbsp;: %(itemName)s"
 
 #: app/scripts/views/change_password.js:76
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Changement de mot de passe réussi"
 
 #: app/scripts/views/complete_reset_password.js:144
 #: app/scripts/views/complete_sign_up.js:84 app/scripts/views/confirm.js:92
 #: app/scripts/views/confirm_reset_password.js:174
 msgid "Account verified successfully"
-msgstr ""
+msgstr "Vérification du compte réussie"
 
 #: app/scripts/views/confirm_account_unlock.js:106
 msgid "Account unlocked, please try again"
-msgstr ""
+msgstr "Compte déverrouillé, veuillez réessayer"
 
 #: app/scripts/views/confirm_reset_password.js:162
 #: app/scripts/templates/ready.mustache:3
@@ -107,7 +107,7 @@ msgstr "Mot de passe réinitialisé"
 
 #: app/scripts/views/confirm_reset_password.js:190
 msgid "Password reset successfully. Sign in to continue."
-msgstr ""
+msgstr "Mot de passe réinitialisé. Connectez-vous pour continuer."
 
 #: app/scripts/views/delete_account.js:47
 msgid "Account deleted successfully"
@@ -119,7 +119,7 @@ msgstr "Compte inconnu. <a href=\"/signup\">Créer un compte</a>"
 
 #: app/scripts/views/settings.js:57
 msgid "Signed out successfully"
-msgstr ""
+msgstr "Déconnexion réussie"
 
 #: app/scripts/views/sign_up.js:427
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
@@ -137,6 +137,8 @@ msgstr "Fourni par <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
+"Compte verrouillé. <a href=\"/confirm_account_unlock\">Envoyer le message "
+"électronique de déverrouillage</a>"
 
 #: app/scripts/lib/auth-errors.js:18 app/scripts/lib/oauth-errors.js:45
 #: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:57
@@ -212,7 +214,7 @@ msgstr "Nombre maximum de tentatives atteint"
 
 #: app/scripts/lib/auth-errors.js:91
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "Votre compte a été verrouillé pour des raisons de sécurité "
 
 #: app/scripts/lib/auth-errors.js:99
 msgid "Server busy, try again soon"
@@ -229,7 +231,7 @@ msgstr "Système indisponible, veuillez réessayer plus tard"
 
 #: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:65
 msgid "no message"
-msgstr ""
+msgstr "pas de message"
 
 #: app/scripts/lib/auth-errors.js:115
 msgid "Session expired. Sign in to continue."
@@ -298,15 +300,21 @@ msgstr "Date de naissance valide requise"
 #: app/scripts/lib/auth-errors.js:179
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr ""
+"Votre message de vérification nous a été renvoyé. Vérifiez que votre adresse "
+"électronique est correcte."
 
 #: app/scripts/lib/auth-errors.js:187
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr ""
+"Veuillez saisir une adresse électronique valide. firefox.com ne fournit pas "
+"d'adresses électroniques."
 
 #: app/scripts/lib/auth-errors.js:195
 #: app/scripts/templates/illegal_iframe.mustache:2
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
+"Firefox Accounts ne peut être placé dans un IFRAME que sur les sites "
+"approuvés"
 
 #: app/scripts/lib/auth-errors.js:203
 msgid "/force_auth requires an email"
@@ -327,7 +335,7 @@ msgstr "Lien de vérification altéré"
 
 #: app/scripts/lib/mailcheck.js:63
 msgid "Did you mean <span>%(domain)s</span>?"
-msgstr ""
+msgstr "Vouliez-vous dire <span>%(domain)s</span>&nbsp;?"
 
 #: app/scripts/lib/oauth-errors.js:21
 msgid "Unknown client"
@@ -347,7 +355,7 @@ msgstr "Une erreur s'est produite. Veuillez fermer cet onglet et réessayer."
 
 #: app/scripts/lib/oauth-errors.js:69
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Paramètre OAuth manquant : %(param)s"
 
 #: app/scripts/lib/profile-errors.js:18
 msgid "Unauthorized"
@@ -431,11 +439,11 @@ msgstr "Retour"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
-msgstr ""
+msgstr "Le lien de déverrouillage a expiré"
 
 #: app/scripts/templates/complete_account_unlock.mustache:4
 msgid "Unlock link damaged"
-msgstr ""
+msgstr "Le lien de déverrouillage est endommagé"
 
 #: app/scripts/templates/complete_account_unlock.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:7
@@ -450,7 +458,7 @@ msgstr ""
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
-msgstr ""
+msgstr "Erreur lors du déverrouillage"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -524,7 +532,7 @@ msgstr "Renvoyer le courriel"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:1
 msgid "Unlock email sent"
-msgstr ""
+msgstr "Message électronique de déverrouillage envoyé"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
@@ -532,6 +540,9 @@ msgid ""
 "level activities, please re-verify your account by clicking the verification "
 "link sent to %(email)s"
 msgstr ""
+"Pour des raisons de sécurité, votre compte a été verrouillé. Afin "
+"d'effectuer des actions liées à votre compte, veuillez le vérifier à nouveau "
+"en cliquant sur le lien de confirmation envoyé à %(email)s"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -620,7 +631,7 @@ msgstr ""
 
 #: app/scripts/templates/illegal_iframe.mustache:1
 msgid "Illegal iframe"
-msgstr ""
+msgstr "iframe illégal"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -656,7 +667,7 @@ msgstr "Compte vérifié"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account unlocked"
-msgstr ""
+msgstr "Compte déverrouillé"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Success"
