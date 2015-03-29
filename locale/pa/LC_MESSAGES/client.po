@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-19 16:28+0000\n"
-"PO-Revision-Date: 2014-10-12 14:36+0000\n"
+"PO-Revision-Date: 2015-03-29 02:23+0000\n"
 "Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1413124598.0\n"
+"X-POOTLE-MTIME: 1427595819.0\n"
 
 #: app/scripts/templates/sign_up.mustache:16
 msgid "1991"
@@ -88,17 +88,17 @@ msgstr "ਖੋਜ ਮੁੱਲ ਮੌਜੂਦ ਨਹੀਂ ਹੈ: %(itemName)s
 
 #: app/scripts/views/change_password.js:76
 msgid "Password changed successfully"
-msgstr ""
+msgstr "ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ"
 
 #: app/scripts/views/complete_reset_password.js:144
 #: app/scripts/views/complete_sign_up.js:84 app/scripts/views/confirm.js:92
 #: app/scripts/views/confirm_reset_password.js:174
 msgid "Account verified successfully"
-msgstr ""
+msgstr "ਖਾਤਾ ਕਾਮਯਾਬੀ ਨਾਲ ਜਾਂਚਿਆ"
 
 #: app/scripts/views/confirm_account_unlock.js:106
 msgid "Account unlocked, please try again"
-msgstr ""
+msgstr "ਖਾਤਾ ਅਣ-ਲਾਕ ਹੈ, ਬਾਅਦ 'ਚ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
 
 #: app/scripts/views/confirm_reset_password.js:162
 #: app/scripts/templates/ready.mustache:3
@@ -107,7 +107,7 @@ msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ"
 
 #: app/scripts/views/confirm_reset_password.js:190
 msgid "Password reset successfully. Sign in to continue."
-msgstr ""
+msgstr "ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਮੁੜ-ਸੈਟ ਕੀਤਾ। ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਇਨ ਇਨ ਕਰੋ।"
 
 #: app/scripts/views/delete_account.js:47
 msgid "Account deleted successfully"
@@ -119,7 +119,7 @@ msgstr "ਅਣਜਾਣ ਖਾਤਾ। <a href=\"/signup\">ਮੈਂਬਰ ਬ�
 
 #: app/scripts/views/settings.js:57
 msgid "Signed out successfully"
-msgstr ""
+msgstr "ਕਾਮਯਾਬੀ ਨਾਲ ਸਾਇਨ ਆਉਟ ਕਰੋ"
 
 #: app/scripts/views/sign_up.js:427
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
@@ -136,7 +136,7 @@ msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> ਦੇ ਸਹਿਯੋ
 #: app/scripts/views/mixins/account-locked-mixin.js:28
 msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
-msgstr ""
+msgstr "ਖਾਤਾ ਲਾਕ ਕੀਤਾ। <a href=\"/confirm_account_unlock\">ਅਣ-ਲਾਕ ਈਮੇਲ ਭੇਜੋ</a>"
 
 #: app/scripts/lib/auth-errors.js:18 app/scripts/lib/oauth-errors.js:45
 #: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:57
@@ -212,7 +212,7 @@ msgstr "ਕੋਸ਼ਿਸ਼ਾਂ ਦੀ ਹੱਦ ਖਤਮ ਹੋ ਗਈ"
 
 #: app/scripts/lib/auth-errors.js:91
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "ਸੁਰੱਖਿਆ ਕਾਰਨਾਂ ਕਰਕੇ ਤੁਹਾਡਾ ਖਾਤਾ ਲਾਕ ਕੀਤਾ ਗਿਆ ਹੈ"
 
 #: app/scripts/lib/auth-errors.js:99
 msgid "Server busy, try again soon"
@@ -229,7 +229,7 @@ msgstr "ਸਿਸਟਮ ਉਪਲੱਬਧ ਨਹੀਂ, ਛੇਤੀ ਹੀ ਫ
 
 #: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:65
 msgid "no message"
-msgstr ""
+msgstr "ਕੋਈ ਸੁਨੇਹਾ ਨਹੀਂ"
 
 #: app/scripts/lib/auth-errors.js:115
 msgid "Session expired. Sign in to continue."
@@ -297,11 +297,11 @@ msgstr "ਜਾਇਜ਼ ਜਨਮਦਿਨ ਚਾਹੀਦਾ ਹੈ"
 
 #: app/scripts/lib/auth-errors.js:179
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "ਤੁਹਾਡੀ ਤਸਦੀਕ ਈਮੇਲ ਵਾਪਿਸ ਪਰਤ ਆਈ ਹੈ। ਕੀ ਈਮੇਲ ਗਲਤ ਲਿਖਿਆ ਸੀ?"
 
 #: app/scripts/lib/auth-errors.js:187
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "ਠੀਕ ਈਮੇਲ ਐਡਰੈਸ ਦਿਉ। firefox.com ਈਮੇਲ ਨਹੀਂ ਦਿੰਦਾ ਹੈ।"
 
 #: app/scripts/lib/auth-errors.js:195
 #: app/scripts/templates/illegal_iframe.mustache:2
@@ -427,7 +427,7 @@ msgstr "ਪਿੱਛੇ"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
-msgstr ""
+msgstr "ਅਣ-ਲਾਕ ਲਿੰਕ ਦੀ ਮਿਆਦ ਪੁੱਗੀ"
 
 #: app/scripts/templates/complete_account_unlock.mustache:4
 msgid "Unlock link damaged"
