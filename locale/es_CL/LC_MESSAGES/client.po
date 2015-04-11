@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-19 16:28+0000\n"
-"PO-Revision-Date: 2014-10-24 22:43+0000\n"
+"PO-Revision-Date: 2015-04-09 17:26+0000\n"
 "Last-Translator: Richard <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_CL\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1414190598.0\n"
+"X-POOTLE-MTIME: 1428600373.0\n"
 
 #: app/scripts/templates/sign_up.mustache:16
 msgid "1991"
@@ -88,17 +88,17 @@ msgstr "falta un parámetro de búsqueda: %(itemName)s"
 
 #: app/scripts/views/change_password.js:76
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Contraseña cambiada exitosamente"
 
 #: app/scripts/views/complete_reset_password.js:144
 #: app/scripts/views/complete_sign_up.js:84 app/scripts/views/confirm.js:92
 #: app/scripts/views/confirm_reset_password.js:174
 msgid "Account verified successfully"
-msgstr ""
+msgstr "Cuenta verificada exitosamente"
 
 #: app/scripts/views/confirm_account_unlock.js:106
 msgid "Account unlocked, please try again"
-msgstr ""
+msgstr "Cuenta desbloqueda, por favor vuelve a intentarlo"
 
 #: app/scripts/views/confirm_reset_password.js:162
 #: app/scripts/templates/ready.mustache:3
@@ -107,7 +107,7 @@ msgstr "Reiniciar contraseña"
 
 #: app/scripts/views/confirm_reset_password.js:190
 msgid "Password reset successfully. Sign in to continue."
-msgstr ""
+msgstr "Contraseña reiniciada exitosamente. Conéctate para continuar."
 
 #: app/scripts/views/delete_account.js:47
 msgid "Account deleted successfully"
@@ -119,7 +119,7 @@ msgstr "Cuenta desconocida. <a href=\"/signup\">Registrarse</a>"
 
 #: app/scripts/views/settings.js:57
 msgid "Signed out successfully"
-msgstr ""
+msgstr "Desconectado"
 
 #: app/scripts/views/sign_up.js:427
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
@@ -137,6 +137,8 @@ msgstr "Cortesía de <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
+"Cuenta bloqueada. <a href=\"/confirm_account_unlock\">Enviar correo de "
+"desbloqueo</a>"
 
 #: app/scripts/lib/auth-errors.js:18 app/scripts/lib/oauth-errors.js:45
 #: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:57
@@ -212,7 +214,7 @@ msgstr "Límite de intentos excedido"
 
 #: app/scripts/lib/auth-errors.js:91
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "Tu cuenta ha sido bloqueada por razones de seguridad"
 
 #: app/scripts/lib/auth-errors.js:99
 msgid "Server busy, try again soon"
@@ -229,7 +231,7 @@ msgstr "Sistema no disponible, vuelve a intentarlo más tarde"
 
 #: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:65
 msgid "no message"
-msgstr ""
+msgstr "sin mensaje"
 
 #: app/scripts/lib/auth-errors.js:115
 msgid "Session expired. Sign in to continue."
@@ -297,16 +299,19 @@ msgstr "Se requiere una fecha de nacimiento válida"
 
 #: app/scripts/lib/auth-errors.js:179
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Tu correo de verificación rebotó. ¿Escribiste bien tu dirección?"
 
 #: app/scripts/lib/auth-errors.js:187
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr ""
+"Ingresa una dirección de correo válida. firefox.com no ofrece servicio de "
+"correo."
 
 #: app/scripts/lib/auth-errors.js:195
 #: app/scripts/templates/illegal_iframe.mustache:2
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
+"Furefox Accounts solo puede ser incluido en un IFRAME en sitios aprovados"
 
 #: app/scripts/lib/auth-errors.js:203
 msgid "/force_auth requires an email"
@@ -326,7 +331,7 @@ msgstr "Enlace de verificación dañado"
 
 #: app/scripts/lib/mailcheck.js:63
 msgid "Did you mean <span>%(domain)s</span>?"
-msgstr ""
+msgstr "¿Quisiste decir <span>%(domain)s</span>?"
 
 #: app/scripts/lib/oauth-errors.js:21
 msgid "Unknown client"
@@ -348,7 +353,7 @@ msgstr ""
 
 #: app/scripts/lib/oauth-errors.js:69
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Falta parámetro OAuth: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:18
 msgid "Unauthorized"
@@ -432,11 +437,11 @@ msgstr "Atrás"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
-msgstr ""
+msgstr "Enlace de desbloqueo expirado"
 
 #: app/scripts/templates/complete_account_unlock.mustache:4
 msgid "Unlock link damaged"
-msgstr ""
+msgstr "Enlace de desbloqueo dañado"
 
 #: app/scripts/templates/complete_account_unlock.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:7
@@ -451,7 +456,7 @@ msgstr ""
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
-msgstr ""
+msgstr "Error de desbloqueo"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -525,7 +530,7 @@ msgstr "Reenviar correo"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:1
 msgid "Unlock email sent"
-msgstr ""
+msgstr "Correo de desbloqueo enviado"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
@@ -533,6 +538,9 @@ msgid ""
 "level activities, please re-verify your account by clicking the verification "
 "link sent to %(email)s"
 msgstr ""
+"Por razones de seguridad, tu cuenta ha sido bloqueada. Para realizar "
+"actividades con la cuenta, por favor vuelve a verificarla apretando en el "
+"enlace de verificación enviado a %(email)s"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -620,7 +628,7 @@ msgstr ""
 
 #: app/scripts/templates/illegal_iframe.mustache:1
 msgid "Illegal iframe"
-msgstr ""
+msgstr "Iframe ilegal"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -656,7 +664,7 @@ msgstr "Cuenta verificada"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account unlocked"
-msgstr ""
+msgstr "Cuenta desbloqueada"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Success"
