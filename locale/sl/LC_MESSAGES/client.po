@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-19 16:28+0000\n"
-"PO-Revision-Date: 2015-03-10 08:39+0000\n"
+"PO-Revision-Date: 2015-04-14 08:06+0000\n"
 "Last-Translator: upwinxp <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1425976760.0\n"
+"X-POOTLE-MTIME: 1428998792.0\n"
 
 #: app/scripts/templates/sign_up.mustache:16
 msgid "1991"
@@ -99,7 +99,7 @@ msgstr "Račun uspešno potrjen"
 
 #: app/scripts/views/confirm_account_unlock.js:106
 msgid "Account unlocked, please try again"
-msgstr ""
+msgstr "Račun odklenjen, poskusite znova"
 
 #: app/scripts/views/confirm_reset_password.js:162
 #: app/scripts/templates/ready.mustache:3
@@ -138,6 +138,8 @@ msgstr "Priskrbel <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
+"Račun zaklenjen. <a href=\"/confirm_account_unlock\">Pošlji e-pošto za "
+"odklep</a>"
 
 #: app/scripts/lib/auth-errors.js:18 app/scripts/lib/oauth-errors.js:45
 #: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:57
@@ -213,7 +215,7 @@ msgstr "Število poskusov preseženo"
 
 #: app/scripts/lib/auth-errors.js:91
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "Vaš račun je bil iz varnostnih razlogov zaklenjen"
 
 #: app/scripts/lib/auth-errors.js:99
 msgid "Server busy, try again soon"
@@ -430,11 +432,11 @@ msgstr "Nazaj"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
-msgstr ""
+msgstr "Povezava za odklep je potekla"
 
 #: app/scripts/templates/complete_account_unlock.mustache:4
 msgid "Unlock link damaged"
-msgstr ""
+msgstr "Povezava za odklep je poškodovana"
 
 #: app/scripts/templates/complete_account_unlock.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:7
@@ -449,7 +451,7 @@ msgstr ""
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
-msgstr ""
+msgstr "Napaka pri odklepanju"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -523,7 +525,7 @@ msgstr "Ponovno pošlji e-pošto"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:1
 msgid "Unlock email sent"
-msgstr ""
+msgstr "E-pošta za odklep je poslana"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
@@ -531,6 +533,9 @@ msgid ""
 "level activities, please re-verify your account by clicking the verification "
 "link sent to %(email)s"
 msgstr ""
+"Iz varnostnih razlogov smo zaklenili vaš račun. Za nadaljnjo uporabo računa "
+"ga ponovno potrdite, tako da kliknete potrditveno povezavo, ki smo jo "
+"poslali na %(email)s"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -654,7 +659,7 @@ msgstr "Račun potrjen"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account unlocked"
-msgstr ""
+msgstr "Račun odklenjen"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Success"
