@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-19 16:28+0000\n"
-"PO-Revision-Date: 2015-04-14 10:47+0000\n"
+"PO-Revision-Date: 2015-04-14 10:49+0000\n"
 "Last-Translator: Wim <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1429008462.0\n"
+"X-POOTLE-MTIME: 1429008548.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -22,7 +22,7 @@ msgstr ""
 #: server/templates/pages/src/terms.html:1 templates/reset.html:1
 #: templates/unlock.html:1 templates/verify.html:1
 msgid "Firefox Accounts"
-msgstr "Firefox-accounts"
+msgstr "Firefox Accounts"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
