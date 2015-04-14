@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-19 16:28+0000\n"
-"PO-Revision-Date: 2015-01-29 07:46+0000\n"
+"PO-Revision-Date: 2015-04-14 10:44+0000\n"
 "Last-Translator: Wim <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1422517591.0\n"
+"X-POOTLE-MTIME: 1429008295.0\n"
 
 #: app/scripts/templates/sign_up.mustache:16
 msgid "1991"
@@ -88,17 +88,17 @@ msgstr "sykparameter ûntbrekt: %(itemName)s"
 
 #: app/scripts/views/change_password.js:76
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Wachtwurd mei sukses wizige"
 
 #: app/scripts/views/complete_reset_password.js:144
 #: app/scripts/views/complete_sign_up.js:84 app/scripts/views/confirm.js:92
 #: app/scripts/views/confirm_reset_password.js:174
 msgid "Account verified successfully"
-msgstr ""
+msgstr "Account mei sukses ferifiearre"
 
 #: app/scripts/views/confirm_account_unlock.js:106
 msgid "Account unlocked, please try again"
-msgstr ""
+msgstr "Account ûntskoattele, probearje it opnij"
 
 #: app/scripts/views/confirm_reset_password.js:162
 #: app/scripts/templates/ready.mustache:3
@@ -107,7 +107,7 @@ msgstr "Wachtwurd opnij ynsteld"
 
 #: app/scripts/views/confirm_reset_password.js:190
 msgid "Password reset successfully. Sign in to continue."
-msgstr ""
+msgstr "Wachtwurd is opnij ynsteld. Meld jo oan om troch te gean."
 
 #: app/scripts/views/delete_account.js:47
 msgid "Account deleted successfully"
@@ -119,7 +119,7 @@ msgstr "Unbekende account. <a href=\"/signup\">Registrearje</a>"
 
 #: app/scripts/views/settings.js:57
 msgid "Signed out successfully"
-msgstr ""
+msgstr "Jo binne ôfmeld"
 
 #: app/scripts/views/sign_up.js:427
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
@@ -137,6 +137,8 @@ msgstr "Mei tank oan <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
+"Account beskoattele. <a href=\"/confirm_account_unlock\">E-mail foar "
+"ûntskoatteling ferstjoere</a>"
 
 #: app/scripts/lib/auth-errors.js:18 app/scripts/lib/oauth-errors.js:45
 #: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:57
@@ -212,7 +214,7 @@ msgstr "Maksimaal oantal mooglikheden berikt"
 
 #: app/scripts/lib/auth-errors.js:91
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "Jo account is om feilichheidsredenen beskoattele"
 
 #: app/scripts/lib/auth-errors.js:99
 msgid "Server busy, try again soon"
@@ -229,7 +231,7 @@ msgstr "Systeem net beskikber, probearje it letter opnij"
 
 #: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:65
 msgid "no message"
-msgstr ""
+msgstr "gjin melding"
 
 #: app/scripts/lib/auth-errors.js:115
 msgid "Session expired. Sign in to continue."
@@ -297,16 +299,18 @@ msgstr "Jildige bertedei fereaske"
 
 #: app/scripts/lib/auth-errors.js:179
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Jo ferifikaasje-e-mail is sakrekt werom kaam. Typflater yn e-mailadres?"
 
 #: app/scripts/lib/auth-errors.js:187
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "Fier in jildich e-mailadres yn. firefox.com biedt gjin e-mail."
 
 #: app/scripts/lib/auth-errors.js:195
 #: app/scripts/templates/illegal_iframe.mustache:2
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
+"Firefox-accounts kinne allinnich yn in IFRAME op goedkarde websites pleatst "
+"wurde"
 
 #: app/scripts/lib/auth-errors.js:203
 msgid "/force_auth requires an email"
@@ -327,7 +331,7 @@ msgstr "Ferifikaasjekeppeling skansearre"
 
 #: app/scripts/lib/mailcheck.js:63
 msgid "Did you mean <span>%(domain)s</span>?"
-msgstr ""
+msgstr "Bedoele jo <span>%(domain)s</span>?"
 
 #: app/scripts/lib/oauth-errors.js:21
 msgid "Unknown client"
@@ -347,7 +351,7 @@ msgstr "Der is wat misgien. Slút dit ljepblêd en probearje it opnij."
 
 #: app/scripts/lib/oauth-errors.js:69
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "OAuth-parameter ûntbrekt: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:18
 msgid "Unauthorized"
@@ -432,11 +436,11 @@ msgstr "Tebek"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
-msgstr ""
+msgstr "Untskoattelingskeppeling ferrûn"
 
 #: app/scripts/templates/complete_account_unlock.mustache:4
 msgid "Unlock link damaged"
-msgstr ""
+msgstr "Untskoattelingskeppeling skansearre"
 
 #: app/scripts/templates/complete_account_unlock.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:7
@@ -450,7 +454,7 @@ msgstr ""
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
-msgstr ""
+msgstr "Flater by ûntskoatteljen"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -526,7 +530,7 @@ msgstr "E-mailbericht opnij ferstjoere"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:1
 msgid "Unlock email sent"
-msgstr ""
+msgstr "E-mail foar ûntskoatteling ferstjoerd"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
@@ -534,6 +538,9 @@ msgid ""
 "level activities, please re-verify your account by clicking the verification "
 "link sent to %(email)s"
 msgstr ""
+"Om feilichheidsredenen is jo account beskoattele. Foar it útfieren fan "
+"aktiviteiten op accountniveau ferifiearje jo jo account opnij troch op de "
+"ferifikaasjekeppeling te klikken dy't nei %(email)s ferstjoerd is"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -621,7 +628,7 @@ msgstr ""
 
 #: app/scripts/templates/illegal_iframe.mustache:1
 msgid "Illegal iframe"
-msgstr ""
+msgstr "Unjildich iframe"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -657,7 +664,7 @@ msgstr "Account ferifiearre"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account unlocked"
-msgstr ""
+msgstr "Account ûnskoattele"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Success"
