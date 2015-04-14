@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-19 16:28+0000\n"
+"POT-Creation-Date: 2015-04-10 18:05+0000\n"
 "PO-Revision-Date: 2015-04-06 15:28+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,85 +14,80 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1422478993.0\n"
 
-#: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
 msgstr "1991"
 
-#: app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/partial/coppa-date-picker.mustache:5
 msgid "1992"
 msgstr "1992"
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/partial/coppa-date-picker.mustache:6
 msgid "1993"
 msgstr "1993"
 
-#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/partial/coppa-date-picker.mustache:7
 msgid "1994"
 msgstr "1994"
 
-#: app/scripts/templates/sign_up.mustache:20
+#: app/scripts/templates/partial/coppa-date-picker.mustache:8
 msgid "1995"
 msgstr "1995"
 
-#: app/scripts/templates/sign_up.mustache:21
+#: app/scripts/templates/partial/coppa-date-picker.mustache:9
 msgid "1996"
 msgstr "1996"
 
-#: app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/partial/coppa-date-picker.mustache:10
 msgid "1997"
 msgstr "1997"
 
-#: app/scripts/templates/sign_up.mustache:23
+#: app/scripts/templates/partial/coppa-date-picker.mustache:11
 msgid "1998"
 msgstr "1998"
 
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/partial/coppa-date-picker.mustache:12
 msgid "1999"
 msgstr "1999"
 
-#: app/scripts/templates/sign_up.mustache:25
+#: app/scripts/templates/partial/coppa-date-picker.mustache:13
 msgid "2000"
 msgstr "2000"
 
-#: app/scripts/templates/sign_up.mustache:26
+#: app/scripts/templates/partial/coppa-date-picker.mustache:14
 msgid "2001"
 msgstr "2001"
 
-#: app/scripts/templates/sign_up.mustache:27
+#: app/scripts/templates/partial/coppa-date-picker.mustache:15
 msgid "2002"
 msgstr "2002"
 
-#: app/scripts/templates/sign_up.mustache:28
+#: app/scripts/templates/partial/coppa-date-picker.mustache:16
 msgid "2003"
 msgstr "2003"
 
-#: app/scripts/templates/sign_up.mustache:29
+#: app/scripts/templates/partial/coppa-date-picker.mustache:17
 msgid "2004"
 msgstr "2004"
 
-#: app/scripts/templates/sign_up.mustache:30
+#: app/scripts/templates/partial/coppa-date-picker.mustache:18
 msgid "2005"
 msgstr "2005"
 
-#: app/scripts/templates/sign_up.mustache:31
+#: app/scripts/templates/partial/coppa-date-picker.mustache:19
 msgid "2006"
 msgstr "2006"
 
-#: app/scripts/templates/sign_up.mustache:32
+#: app/scripts/templates/partial/coppa-date-picker.mustache:20
 msgid "2007"
 msgstr "2007"
-
-#: app/scripts/views/base.js:650
-msgid "missing search parameter: %(itemName)s"
-msgstr "mungon parametri i kërkimit: %(itemName)s"
 
 #: app/scripts/views/change_password.js:76
 msgid "Password changed successfully"
 msgstr "Fjalëkalimi u ndryshua me sukses"
 
-#: app/scripts/views/complete_reset_password.js:144
-#: app/scripts/views/complete_sign_up.js:84
-#: app/scripts/views/confirm.js:92
+#: app/scripts/views/complete_reset_password.js:133
+#: app/scripts/views/complete_sign_up.js:81 app/scripts/views/confirm.js:91
 #: app/scripts/views/confirm_reset_password.js:174
 msgid "Account verified successfully"
 msgstr "Llogaria u verifikua me sukses"
@@ -114,8 +109,7 @@ msgstr "Fjalëkalimi u ricaktua me sukses. Hyni që të vazhdoni."
 msgid "Account deleted successfully"
 msgstr "Llogaria u fshi me sukses"
 
-#: app/scripts/views/reset_password.js:75
-#: app/scripts/views/sign_in.js:203
+#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:203
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Llogari e panjohur. <a href=\"/signup\">Regjistrohuni</a>"
 
@@ -123,28 +117,30 @@ msgstr "Llogari e panjohur. <a href=\"/signup\">Regjistrohuni</a>"
 msgid "Signed out successfully"
 msgstr "Dolët me sukses"
 
-#: app/scripts/views/sign_up.js:427
+#: app/scripts/views/sign_up.js:303
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Ka tashmë një llogari të tillë. <a href=\"/signin\">Hyni</a>"
 
-#: app/scripts/views/settings/avatar_gravatar.js:57
+#: app/scripts/views/settings/avatar_gravatar.js:58
 msgid "No Gravatar found"
 msgstr "Nuk u gjet Gravatar"
 
-#: app/scripts/views/settings/avatar_gravatar.js:86
+#: app/scripts/views/settings/avatar_gravatar.js:87
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr "Me lejen dashamirëse të <a href=\"https://www.gravatar.com\">Gravatar</a>-it"
+msgstr ""
+"Me lejen dashamirëse të <a href=\"https://www.gravatar.com\">Gravatar</a>-it"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:28
-msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
-msgstr "Llogari e kyçur. <a href=\"/confirm_account_unlock\">Dërgoni email shkyçjeje</a>"
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgstr ""
+"Llogari e kyçur. <a href=\"/confirm_account_unlock\">Dërgoni email "
+"shkyçjeje</a>"
 
-#: app/scripts/lib/auth-errors.js:18
-#: app/scripts/lib/oauth-errors.js:45
-#: app/scripts/lib/oauth-errors.js:53
-#: app/scripts/lib/oauth-errors.js:57
-#: app/scripts/lib/oauth-errors.js:61
-#: app/scripts/lib/profile-errors.js:38
+#: app/scripts/lib/auth-errors.js:18 app/scripts/lib/oauth-errors.js:45
+#: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:57
+#: app/scripts/lib/oauth-errors.js:61 app/scripts/lib/profile-errors.js:34
+#: app/scripts/lib/profile-errors.js:42
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Gabim i papritur"
@@ -189,8 +185,7 @@ msgstr "Kod verifikimi i pavlefshëm"
 msgid "Invalid JSON in request body"
 msgstr "JSON i pavlefshëm te lënda e kërkesës"
 
-#: app/scripts/lib/auth-errors.js:67
-#: app/scripts/lib/oauth-errors.js:33
+#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:33
 #: app/scripts/lib/profile-errors.js:22
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Parametër i pavlefshëm te lënda e kërkesës: %(param)s"
@@ -199,8 +194,7 @@ msgstr "Parametër i pavlefshëm te lënda e kërkesës: %(param)s"
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Mungon parametër te lënda e kërkesës: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:75
-#: app/scripts/lib/oauth-errors.js:37
+#: app/scripts/lib/auth-errors.js:75 app/scripts/lib/oauth-errors.js:37
 msgid "Invalid request signature"
 msgstr "Nënshkrim i pavlefshëm kërkese"
 
@@ -237,14 +231,12 @@ msgstr "Kjo pikë mbarimi nuk mbulohet më"
 #
 # Siç mund të shihet, edhe sikur nga ana e domethënies të ishte i përshtatshëm, përkthimi "përpiquni sërish" thuajse dyfishon "riprovoni". Nga pikëpamja e ekonomisë në përkthim, kjo nuk përligjet.
 # Nga ana e domethënies "përpiquni sërish" e zgjeron fokusin e veprimeve të mundshme pas dështimit. Kurse "riprovoni" do të thotë të bësh edhe një provë tjetër, të po atij veprimi që kishe bërë më parë.
-#: app/scripts/lib/auth-errors.js:107
-#: app/scripts/lib/oauth-errors.js:41
-#: app/scripts/lib/profile-errors.js:34
+#: app/scripts/lib/auth-errors.js:107 app/scripts/lib/oauth-errors.js:41
+#: app/scripts/lib/profile-errors.js:38
 msgid "System unavailable, try again soon"
 msgstr "Sistemi s’është në punë, riprovoni së shpejti"
 
-#: app/scripts/lib/auth-errors.js:111
-#: app/scripts/lib/oauth-errors.js:65
+#: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:65
 msgid "no message"
 msgstr "pa mesazh"
 
@@ -287,8 +279,7 @@ msgstr "Duhet të jetë të paktën 8 shenja"
 msgid "Valid password required"
 msgstr "Lyp fjalëkalim të vlefshëm"
 
-#: app/scripts/lib/auth-errors.js:151
-#: app/scripts/lib/auth-errors.js:183
+#: app/scripts/lib/auth-errors.js:151 app/scripts/lib/auth-errors.js:183
 #: app/scripts/lib/auth-errors.js:199
 msgid "Valid email required"
 msgstr "Lypset email i vlefshëm"
@@ -315,16 +306,18 @@ msgstr "Lypset datëlindje e vlefshme"
 
 #: app/scripts/lib/auth-errors.js:179
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr "Email-i juaj i verifikimit sapo u kthye mbrapsht. E shkruat keq email-in?"
+msgstr ""
+"Email-i juaj i verifikimit sapo u kthye mbrapsht. E shkruat keq email-in?"
 
 #: app/scripts/lib/auth-errors.js:187
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Jepni një adresë email të vlefshme. firefox.com nuk ofron email."
 
 #: app/scripts/lib/auth-errors.js:195
-#: app/scripts/templates/illegal_iframe.mustache:2
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "LLogaritë Firefox mund të vendosen vetëm brenda një IFRAME në sajte të miratuar"
+msgstr ""
+"LLogaritë Firefox mund të vendosen vetëm brenda një IFRAME në sajte të "
+"miratuar"
 
 #: app/scripts/lib/auth-errors.js:203
 msgid "/force_auth requires an email"
@@ -390,8 +383,11 @@ msgid "Cannot create account"
 msgstr "S’krijohet dot llogaria"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr "Duhet të plotësoni disa domosdoshmëri lidhur me moshën, që të mundeni të krijoni një Firefox&nbsp;Account."
+msgid ""
+"You must meet certain age requirements to create a Firefox&nbsp;Account."
+msgstr ""
+"Duhet të plotësoni disa domosdoshmëri lidhur me moshën, që të mundeni të "
+"krijoni një Firefox&nbsp;Account."
 
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
@@ -403,8 +399,10 @@ msgid "Change password"
 msgstr "Ndryshoni fjalëkalimin"
 
 #: app/scripts/templates/change_password.mustache:2
-msgid "Once you're ﬁnished, use your new password to sign in on all of your devices."
-msgstr "Pasi të keni mbaruar, përdoreni fjalëkalimin tuaj të ri për hyrje në krejt pajisjet tuaja."
+msgid ""
+"Once you're finished, use your new password to sign in on all of your "
+"devices."
+msgstr ""
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -462,8 +460,12 @@ msgstr "Lidhja për shkyçje është e dëmtuar"
 #: app/scripts/templates/complete_account_unlock.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:8
-msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "Lidhjes që klikuat i mungonin shenja, dhe mund të jetë dëmtuar nga klienti juaj email. Kopjojeni adresën me kujdes, dhe riprovoni."
+msgid ""
+"The link you clicked was missing characters, and may have been broken by "
+"your email client. Copy the address carefully, and try again."
+msgstr ""
+"Lidhjes që klikuat i mungonin shenja, dhe mund të jetë dëmtuar nga klienti "
+"juaj email. Kopjojeni adresën me kujdes, dhe riprovoni."
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
@@ -547,8 +549,14 @@ msgid "Unlock email sent"
 msgstr "Email-i për shkyçje u dërgua"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:4
-msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
-msgstr "Për arsye sigurie llogaria juaj u kyç. Për të kryer veprime llogarie, ju lutemi, riverifikoni llogarinë tuaj duke klikuar mbi lidhjen e verifikimit të dërguar te %(email)s"
+msgid ""
+"For security reasons your account was put on lockdown. To perform account-"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
+msgstr ""
+"Për arsye sigurie llogaria juaj u kyç. Për të kryer veprime llogarie, ju "
+"lutemi, riverifikoni llogarinë tuaj duke klikuar mbi lidhjen e verifikimit "
+"të dërguar te %(email)s"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -574,8 +582,15 @@ msgid "Cookies required"
 msgstr "Cookie-t janë të domosdoshme"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
-msgid "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between sessions."
-msgstr "Ju lutemi, aktivizoni cookie-t te shfletuesi juaj, të cilat janë të domosdoshme për Llogari Firefox. Cookie-t janë copëza të vogla të dhënash, të depozituara në shfletuesin tuaj, që bëjnë të mundur funksione të tillë si mbajtja mend e sesioneve tuaj nga njëri në tjetrin."
+msgid ""
+"Please enable cookies in your browser which are required by Firefox "
+"Accounts. Cookies are small pieces of data stored in your browser that "
+"provide functionality such as remembering you between sessions."
+msgstr ""
+"Ju lutemi, aktivizoni cookie-t te shfletuesi juaj, të cilat janë të "
+"domosdoshme për Llogari Firefox. Cookie-t janë copëza të vogla të dhënash, "
+"të depozituara në shfletuesin tuaj, që bëjnë të mundur funksione të tillë si "
+"mbajtja mend e sesioneve tuaj nga njëri në tjetrin."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -592,8 +607,11 @@ msgid "Delete account"
 msgstr "Fshijeni llogarinë"
 
 #: app/scripts/templates/delete_account.mustache:2
-msgid "Are you sure you want to delete your account? This action cannot be undone."
-msgstr "Jeni i sigurt se doni të fshihet llogaria juaj? Ky veprim nuk mund të zhbëhet."
+msgid ""
+"Are you sure you want to delete your account? This action cannot be undone."
+msgstr ""
+"Jeni i sigurt se doni të fshihet llogaria juaj? Ky veprim nuk mund të "
+"zhbëhet."
 
 #: app/scripts/templates/delete_account.mustache:3
 #: app/scripts/templates/force_auth.mustache:3
@@ -615,16 +633,17 @@ msgstr "Harruat  fjalëkalimin?"
 
 #: app/scripts/templates/force_auth.mustache:9
 #: app/scripts/templates/sign_in.mustache:25
-#: app/scripts/templates/sign_up.mustache:47
-msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Duke vazhduar më tej, pajtohem me <a id=\"fxa-tos\" href=\"/legal/terms\">Kushtet e Shërbimit</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy\">Shënimet mbi Privatësinë</a> të shërbimeve Firefox për re."
+#: app/scripts/templates/sign_up.mustache:13
+msgid ""
+"By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
+"of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
+"a> of Firefox cloud services."
+msgstr ""
+"Duke vazhduar më tej, pajtohem me <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Kushtet e Shërbimit</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy"
+"\">Shënimet mbi Privatësinë</a> të shërbimeve Firefox për re."
 
-#: app/scripts/templates/illegal_iframe.mustache:1
-msgid "Illegal iframe"
-msgstr "iframe e paligjshme"
-
-#: app/scripts/templates/legal.mustache:1
-#: app/scripts/templates/pp.mustache:1
+#: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
 msgstr "Shërbime reje nga Firefox-i"
@@ -639,8 +658,7 @@ msgstr "Ligjore"
 msgid "Terms of Service"
 msgstr "Kushte Shërbimi"
 
-#: app/scripts/templates/legal.mustache:4
-#: app/scripts/templates/pp.mustache:2
+#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
 #: app/scripts/templates/settings.mustache:10
 msgid "Privacy Notice"
 msgstr "Shënim mbi Privatësinë"
@@ -684,8 +702,13 @@ msgid "Email"
 msgstr "Email"
 
 #: app/scripts/templates/reset_password.mustache:4
-msgid "For security reasons, resetting your password will erase your Sync data from our servers. A new Sync backup will be created from your local browsing data."
-msgstr "Për arsye sigurie, ricaktimi i fjalëkalimit tuaj do të fshijë nga shërbyesit tanë të dhënat tuaja Sync. Nga të dhënat tuaja vendore të shfletimit do të krijohet një kopjeruajtje e re Sync-u."
+msgid ""
+"For security reasons, resetting your password will erase your Sync data from "
+"our servers. A new Sync backup will be created from your local browsing data."
+msgstr ""
+"Për arsye sigurie, ricaktimi i fjalëkalimit tuaj do të fshijë nga shërbyesit "
+"tanë të dhënat tuaja Sync. Nga të dhënat tuaja vendore të shfletimit do të "
+"krijohet një kopjeruajtje e re Sync-u."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
@@ -724,83 +747,19 @@ msgid "Create a Firefox Account"
 msgstr "Krijoni një llogari Firefox Account"
 
 #: app/scripts/templates/sign_up.mustache:14
-msgid "Year of birth"
-msgstr "Viti i lindjes"
-
-#: app/scripts/templates/sign_up.mustache:15
-msgid "1990 or earlier"
-msgstr "1990 ose më herët"
-
-#: app/scripts/templates/sign_up.mustache:33
-msgid "Month"
-msgstr "Muaj"
-
-#: app/scripts/templates/sign_up.mustache:34
-msgid "January"
-msgstr "Janar"
-
-#: app/scripts/templates/sign_up.mustache:35
-msgid "February"
-msgstr "Shkurt"
-
-#: app/scripts/templates/sign_up.mustache:36
-msgid "March"
-msgstr "Mars"
-
-#: app/scripts/templates/sign_up.mustache:37
-msgid "April"
-msgstr "Prill"
-
-#: app/scripts/templates/sign_up.mustache:38
-msgid "May"
-msgstr "Maj"
-
-#: app/scripts/templates/sign_up.mustache:39
-msgid "June"
-msgstr "Qershor"
-
-#: app/scripts/templates/sign_up.mustache:40
-msgid "July"
-msgstr "Korrik"
-
-#: app/scripts/templates/sign_up.mustache:41
-msgid "August"
-msgstr "Gusht"
-
-#: app/scripts/templates/sign_up.mustache:42
-msgid "September"
-msgstr "Shtator"
-
-#: app/scripts/templates/sign_up.mustache:43
-msgid "October"
-msgstr "Tetor"
-
-#: app/scripts/templates/sign_up.mustache:44
-msgid "November"
-msgstr "Nëntor"
-
-#: app/scripts/templates/sign_up.mustache:45
-msgid "December"
-msgstr "Dhjetor"
-
-#: app/scripts/templates/sign_up.mustache:46
-msgid "Day"
-msgstr "Ditë"
-
-#: app/scripts/templates/sign_up.mustache:48
 msgid "Sign up"
 msgstr "Regjistroje"
 
-#: app/scripts/templates/sign_up.mustache:50
+#: app/scripts/templates/sign_up.mustache:16
 msgid "Choose what to sync"
 msgstr "Zgjidhni çfarë të njëkohësohet"
 
-#: app/scripts/templates/sign_up.mustache:52
+#: app/scripts/templates/sign_up.mustache:18
 msgid "Already have an account? Sign in."
 msgstr "Keni tashmë një llogari? Hyni."
 
 #: app/scripts/templates/unexpected_error.mustache:2
-#: app/scripts/templates/settings/avatar_change.mustache:6
+#: app/scripts/templates/settings/avatar_change.mustache:5
 msgid "Home"
 msgstr "Kreu"
 
@@ -822,15 +781,15 @@ msgstr "Bëni një foto"
 msgid "Cancel"
 msgstr "Anuloje"
 
-#: app/scripts/templates/settings/avatar_change.mustache:3
+#: app/scripts/templates/settings/avatar_change.mustache:2
 msgid "Upload"
 msgstr "Ngarkoje"
 
-#: app/scripts/templates/settings/avatar_change.mustache:4
+#: app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Camera"
 msgstr "Kamerë"
 
-#: app/scripts/templates/settings/avatar_change.mustache:5
+#: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Gravatar"
 msgstr "Gravatar"
 
@@ -842,6 +801,83 @@ msgstr "Vendoseni dhe rrotullojeni foton tuaj sipas nevojës"
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3
 msgid "Save"
 msgstr "Ruaje"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:2
+msgid "Year of birth"
+msgstr "Viti i lindjes"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:3
+msgid "1990 or earlier"
+msgstr "1990 ose më herët"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:21
+msgid "Month"
+msgstr "Muaj"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:22
+msgid "January"
+msgstr "Janar"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:23
+msgid "February"
+msgstr "Shkurt"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:24
+msgid "March"
+msgstr "Mars"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:25
+msgid "April"
+msgstr "Prill"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:26
+msgid "May"
+msgstr "Maj"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:27
+msgid "June"
+msgstr "Qershor"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:28
+msgid "July"
+msgstr "Korrik"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:29
+msgid "August"
+msgstr "Gusht"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:30
+msgid "September"
+msgstr "Shtator"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:31
+msgid "October"
+msgstr "Tetor"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:32
+msgid "November"
+msgstr "Nëntor"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:33
+msgid "December"
+msgstr "Dhjetor"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:34
+msgid "Day"
+msgstr "Ditë"
+
+#~ msgid "missing search parameter: %(itemName)s"
+#~ msgstr "mungon parametri i kërkimit: %(itemName)s"
+
+#~ msgid ""
+#~ "Once you're ﬁnished, use your new password to sign in on all of your "
+#~ "devices."
+#~ msgstr ""
+#~ "Pasi të keni mbaruar, përdoreni fjalëkalimin tuaj të ri për hyrje në "
+#~ "krejt pajisjet tuaja."
+
+#~ msgid "Illegal iframe"
+#~ msgstr "iframe e paligjshme"
 
 #~ msgid "Invalid verification errno"
 #~ msgstr "Errno verifikimi të pavlefshëm"
