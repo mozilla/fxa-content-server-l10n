@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-19 16:28+0000\n"
+"POT-Creation-Date: 2015-04-10 18:05+0000\n"
 "PO-Revision-Date: 2015-03-13 19:08+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,6 +72,8 @@ msgstr ""
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
+#: server/templates/pages/src/privacy.html:5
+#: server/templates/pages/src/terms.html:5
 msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
@@ -85,16 +87,20 @@ msgstr "需要開啟 JavaScript 才能使用 Firefox Accounts。"
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:5
+#: server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
 msgstr "隱私權保護政策"
 
 #: server/templates/pages/src/privacy.html:4
 #: server/templates/pages/src/terms.html:4
+#: server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
 msgstr "Firefox 雲端服務"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:5
+#: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "服務條款"
 

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-19 16:28+0000\n"
+"POT-Creation-Date: 2015-04-10 18:05+0000\n"
 "PO-Revision-Date: 2015-03-21 17:03+0000\n"
 "Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
@@ -10,90 +10,86 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1426957430.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
 msgstr "1991"
 
-#: app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/partial/coppa-date-picker.mustache:5
 msgid "1992"
 msgstr "1992"
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/partial/coppa-date-picker.mustache:6
 msgid "1993"
 msgstr "1993"
 
-#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/partial/coppa-date-picker.mustache:7
 msgid "1994"
 msgstr "1994"
 
-#: app/scripts/templates/sign_up.mustache:20
+#: app/scripts/templates/partial/coppa-date-picker.mustache:8
 msgid "1995"
 msgstr "1995"
 
-#: app/scripts/templates/sign_up.mustache:21
+#: app/scripts/templates/partial/coppa-date-picker.mustache:9
 msgid "1996"
 msgstr "1996"
 
-#: app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/partial/coppa-date-picker.mustache:10
 msgid "1997"
 msgstr "1997"
 
-#: app/scripts/templates/sign_up.mustache:23
+#: app/scripts/templates/partial/coppa-date-picker.mustache:11
 msgid "1998"
 msgstr "1998"
 
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/partial/coppa-date-picker.mustache:12
 msgid "1999"
 msgstr "1999"
 
-#: app/scripts/templates/sign_up.mustache:25
+#: app/scripts/templates/partial/coppa-date-picker.mustache:13
 msgid "2000"
 msgstr "2000"
 
-#: app/scripts/templates/sign_up.mustache:26
+#: app/scripts/templates/partial/coppa-date-picker.mustache:14
 msgid "2001"
 msgstr "2001"
 
-#: app/scripts/templates/sign_up.mustache:27
+#: app/scripts/templates/partial/coppa-date-picker.mustache:15
 msgid "2002"
 msgstr "2002"
 
-#: app/scripts/templates/sign_up.mustache:28
+#: app/scripts/templates/partial/coppa-date-picker.mustache:16
 msgid "2003"
 msgstr "2003"
 
-#: app/scripts/templates/sign_up.mustache:29
+#: app/scripts/templates/partial/coppa-date-picker.mustache:17
 msgid "2004"
 msgstr "2004"
 
-#: app/scripts/templates/sign_up.mustache:30
+#: app/scripts/templates/partial/coppa-date-picker.mustache:18
 msgid "2005"
 msgstr "2005"
 
-#: app/scripts/templates/sign_up.mustache:31
+#: app/scripts/templates/partial/coppa-date-picker.mustache:19
 msgid "2006"
 msgstr "2006"
 
-#: app/scripts/templates/sign_up.mustache:32
+#: app/scripts/templates/partial/coppa-date-picker.mustache:20
 msgid "2007"
 msgstr "2007"
-
-#: app/scripts/views/base.js:650
-msgid "missing search parameter: %(itemName)s"
-msgstr "отсутствует параметр поиска: %(itemName)s"
 
 #: app/scripts/views/change_password.js:76
 msgid "Password changed successfully"
 msgstr "Пароль успешно изменён"
 
-#: app/scripts/views/complete_reset_password.js:144
-#: app/scripts/views/complete_sign_up.js:84 app/scripts/views/confirm.js:92
+#: app/scripts/views/complete_reset_password.js:133
+#: app/scripts/views/complete_sign_up.js:81 app/scripts/views/confirm.js:91
 #: app/scripts/views/confirm_reset_password.js:174
 msgid "Account verified successfully"
 msgstr "Аккаунт успешно подтверждён"
@@ -123,15 +119,15 @@ msgstr "Неизвестный аккаунт. <a href=\"/signup\">Зареги�
 msgid "Signed out successfully"
 msgstr "Выход успешно произведён"
 
-#: app/scripts/views/sign_up.js:427
+#: app/scripts/views/sign_up.js:303
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Аккаунт уже существует. <a href=\"/signin\">Войти</a>"
 
-#: app/scripts/views/settings/avatar_gravatar.js:57
+#: app/scripts/views/settings/avatar_gravatar.js:58
 msgid "No Gravatar found"
 msgstr "Gravatar не найден"
 
-#: app/scripts/views/settings/avatar_gravatar.js:86
+#: app/scripts/views/settings/avatar_gravatar.js:87
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "Предоставлено <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
@@ -139,12 +135,13 @@ msgstr "Предоставлено <a href=\"https://www.gravatar.com\">Gravatar
 msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
-"Аккаунт заблокирован. <a href=\"/confirm_account_unlock\">Отправьте письмо для "
-"разблокировки</a>"
+"Аккаунт заблокирован. <a href=\"/confirm_account_unlock\">Отправьте письмо "
+"для разблокировки</a>"
 
 #: app/scripts/lib/auth-errors.js:18 app/scripts/lib/oauth-errors.js:45
 #: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:57
-#: app/scripts/lib/oauth-errors.js:61 app/scripts/lib/profile-errors.js:38
+#: app/scripts/lib/oauth-errors.js:61 app/scripts/lib/profile-errors.js:34
+#: app/scripts/lib/profile-errors.js:42
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Непредвиденная ошибка"
@@ -227,7 +224,7 @@ msgid "This endpoint is no longer supported"
 msgstr "Этот адрес запроса больше не поддерживается"
 
 #: app/scripts/lib/auth-errors.js:107 app/scripts/lib/oauth-errors.js:41
-#: app/scripts/lib/profile-errors.js:34
+#: app/scripts/lib/profile-errors.js:38
 msgid "System unavailable, try again soon"
 msgstr "Система недоступна, подождите и повторите попытку"
 
@@ -312,7 +309,6 @@ msgstr ""
 "электронной почты."
 
 #: app/scripts/lib/auth-errors.js:195
-#: app/scripts/templates/illegal_iframe.mustache:2
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 "Аккаунты Firefox могут быть помещены внутри IFRAME только на одобренных "
@@ -402,10 +398,9 @@ msgstr "Сменить пароль"
 
 #: app/scripts/templates/change_password.mustache:2
 msgid ""
-"Once you're ﬁnished, use your new password to sign in on all of your devices."
+"Once you're finished, use your new password to sign in on all of your "
+"devices."
 msgstr ""
-"Как только вы закончите, используйте новый пароль для входа на все ваши "
-"устройства."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -623,7 +618,7 @@ msgstr "Забыли пароль?"
 
 #: app/scripts/templates/force_auth.mustache:9
 #: app/scripts/templates/sign_in.mustache:25
-#: app/scripts/templates/sign_up.mustache:47
+#: app/scripts/templates/sign_up.mustache:13
 msgid ""
 "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
 "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
@@ -632,10 +627,6 @@ msgstr ""
 "Продолжая, я согласен с <a id=\"fxa-tos\" href=\"/legal/terms\">Условиями "
 "Службы</a> и <a id=\"fxa-pp\" href=\"/legal/privacy\">Уведомлением о "
 "приватности</a> Интернет-сервисов Firefox."
-
-#: app/scripts/templates/illegal_iframe.mustache:1
-msgid "Illegal iframe"
-msgstr "Нелегальный iframe"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -741,83 +732,19 @@ msgid "Create a Firefox Account"
 msgstr "Создать Firefox Аккаунт"
 
 #: app/scripts/templates/sign_up.mustache:14
-msgid "Year of birth"
-msgstr "Год рождения"
-
-#: app/scripts/templates/sign_up.mustache:15
-msgid "1990 or earlier"
-msgstr "1990 или ранее"
-
-#: app/scripts/templates/sign_up.mustache:33
-msgid "Month"
-msgstr "Месяц"
-
-#: app/scripts/templates/sign_up.mustache:34
-msgid "January"
-msgstr "Январь"
-
-#: app/scripts/templates/sign_up.mustache:35
-msgid "February"
-msgstr "Февраль"
-
-#: app/scripts/templates/sign_up.mustache:36
-msgid "March"
-msgstr "Март"
-
-#: app/scripts/templates/sign_up.mustache:37
-msgid "April"
-msgstr "Апрель"
-
-#: app/scripts/templates/sign_up.mustache:38
-msgid "May"
-msgstr "Май"
-
-#: app/scripts/templates/sign_up.mustache:39
-msgid "June"
-msgstr "Июнь"
-
-#: app/scripts/templates/sign_up.mustache:40
-msgid "July"
-msgstr "Июль"
-
-#: app/scripts/templates/sign_up.mustache:41
-msgid "August"
-msgstr "Август"
-
-#: app/scripts/templates/sign_up.mustache:42
-msgid "September"
-msgstr "Сентябрь"
-
-#: app/scripts/templates/sign_up.mustache:43
-msgid "October"
-msgstr "Октябрь"
-
-#: app/scripts/templates/sign_up.mustache:44
-msgid "November"
-msgstr "Ноябрь"
-
-#: app/scripts/templates/sign_up.mustache:45
-msgid "December"
-msgstr "Декабрь"
-
-#: app/scripts/templates/sign_up.mustache:46
-msgid "Day"
-msgstr "День"
-
-#: app/scripts/templates/sign_up.mustache:48
 msgid "Sign up"
 msgstr "Регистрация"
 
-#: app/scripts/templates/sign_up.mustache:50
+#: app/scripts/templates/sign_up.mustache:16
 msgid "Choose what to sync"
 msgstr "Выбрать что синхронизировать"
 
-#: app/scripts/templates/sign_up.mustache:52
+#: app/scripts/templates/sign_up.mustache:18
 msgid "Already have an account? Sign in."
 msgstr "Уже есть аккаунт? Войти."
 
 #: app/scripts/templates/unexpected_error.mustache:2
-#: app/scripts/templates/settings/avatar_change.mustache:6
+#: app/scripts/templates/settings/avatar_change.mustache:5
 msgid "Home"
 msgstr "Дом"
 
@@ -839,15 +766,15 @@ msgstr "Сделать фото"
 msgid "Cancel"
 msgstr "Отмена"
 
-#: app/scripts/templates/settings/avatar_change.mustache:3
+#: app/scripts/templates/settings/avatar_change.mustache:2
 msgid "Upload"
 msgstr "Выгрузить"
 
-#: app/scripts/templates/settings/avatar_change.mustache:4
+#: app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Camera"
 msgstr "Камера"
 
-#: app/scripts/templates/settings/avatar_change.mustache:5
+#: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Gravatar"
 msgstr "Gravatar"
 
@@ -859,6 +786,83 @@ msgstr "Переместите и поверните свое фото, если
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3
 msgid "Save"
 msgstr "Сохранить"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:2
+msgid "Year of birth"
+msgstr "Год рождения"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:3
+msgid "1990 or earlier"
+msgstr "1990 или ранее"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:21
+msgid "Month"
+msgstr "Месяц"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:22
+msgid "January"
+msgstr "Январь"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:23
+msgid "February"
+msgstr "Февраль"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:24
+msgid "March"
+msgstr "Март"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:25
+msgid "April"
+msgstr "Апрель"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:26
+msgid "May"
+msgstr "Май"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:27
+msgid "June"
+msgstr "Июнь"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:28
+msgid "July"
+msgstr "Июль"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:29
+msgid "August"
+msgstr "Август"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:30
+msgid "September"
+msgstr "Сентябрь"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:31
+msgid "October"
+msgstr "Октябрь"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:32
+msgid "November"
+msgstr "Ноябрь"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:33
+msgid "December"
+msgstr "Декабрь"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:34
+msgid "Day"
+msgstr "День"
+
+#~ msgid "missing search parameter: %(itemName)s"
+#~ msgstr "отсутствует параметр поиска: %(itemName)s"
+
+#~ msgid ""
+#~ "Once you're ﬁnished, use your new password to sign in on all of your "
+#~ "devices."
+#~ msgstr ""
+#~ "Как только вы закончите, используйте новый пароль для входа на все ваши "
+#~ "устройства."
+
+#~ msgid "Illegal iframe"
+#~ msgstr "Нелегальный iframe"
 
 #~ msgid "Invalid verification errno"
 #~ msgstr "Некорректное подтверждение с errno"

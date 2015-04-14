@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-19 16:28+0000\n"
+"POT-Creation-Date: 2015-04-10 18:05+0000\n"
 "PO-Revision-Date: 2015-02-23 02:21+0000\n"
 "Last-Translator: Lawrence <ultimate1352@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,6 +70,8 @@ msgstr "현재 접속자가 많습니다. 최대한 빨리 정상화 하도록 �
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
+#: server/templates/pages/src/privacy.html:5
+#: server/templates/pages/src/terms.html:5
 msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
@@ -83,16 +85,20 @@ msgstr "Firefox 계정은 자바스트립트를 필요로 합니다."
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:5
+#: server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
 msgstr "개인 정보 고지"
 
 #: server/templates/pages/src/privacy.html:4
 #: server/templates/pages/src/terms.html:4
+#: server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
 msgstr "Firefox 클라우드 서비스"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:5
+#: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "서비스 약관"
 
