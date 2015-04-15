@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-10 18:05+0000\n"
-"PO-Revision-Date: 2015-03-20 07:37+0000\n"
-"Last-Translator: Marco Aurélio <ouesten@me.com>\n"
+"PO-Revision-Date: 2015-04-15 07:28+0000\n"
+"Last-Translator: Anonymous Pootle User\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1426837070.0\n"
+"X-POOTLE-MTIME: 1429082902.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -107,7 +107,7 @@ msgstr "Senha redefinida com sucesso. Entre para continuar."
 
 #: app/scripts/views/delete_account.js:47
 msgid "Account deleted successfully"
-msgstr "Conta apagada com sucesso"
+msgstr "A conta foi excluída com sucesso"
 
 #: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:203
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -390,6 +390,8 @@ msgid ""
 "Once you're finished, use your new password to sign in on all of your "
 "devices."
 msgstr ""
+"Após ter terminado, use a sua nova senha para entrar em todos os seus "
+"dispositivos."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -577,13 +579,13 @@ msgstr "Tentar novamente"
 #: app/scripts/templates/delete_account.mustache:5
 #: app/scripts/templates/settings.mustache:6
 msgid "Delete account"
-msgstr "Apagar conta"
+msgstr "Excluir conta"
 
 #: app/scripts/templates/delete_account.mustache:2
 msgid ""
 "Are you sure you want to delete your account? This action cannot be undone."
 msgstr ""
-"Tem certeza de que deseja apagar a sua conta? Essa ação não pode ser "
+"Tem certeza de que deseja excluir a sua conta? Esta ação não pode ser "
 "desfeita."
 
 #: app/scripts/templates/delete_account.mustache:3
