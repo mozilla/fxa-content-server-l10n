@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-10 18:05+0000\n"
-"PO-Revision-Date: 2015-03-23 00:07+0000\n"
+"PO-Revision-Date: 2015-04-15 01:38+0000\n"
 "Last-Translator: Théo <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1427069264.0\n"
+"X-POOTLE-MTIME: 1429061896.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -153,18 +153,21 @@ msgid ""
 "account-level activities, please click the link to re-verify your account "
 "now."
 msgstr ""
+"Pour des raisons de sécurité, votre compte a été verrouillé. Afin "
+"d'effectuer des actions liées à votre compte, veuillez le vérifier à nouveau "
+"en cliquant sur le lien de confirmation."
 
 #: templates/unlock.html:3
 msgid "Verify account"
-msgstr ""
+msgstr "Vérifier le compte"
 
 #: templates/unlock.txt:2
 msgid "Verify account:"
-msgstr ""
+msgstr "Vérifier le compte :"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Almost there"
-msgstr ""
+msgstr "C'est presque terminé"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
@@ -188,7 +191,7 @@ msgstr "Réinitialiser le mot de passe"
 
 #: mailer.js:146
 msgid "Re-verify your account"
-msgstr ""
+msgstr "Vérifiez à nouveau votre compte"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Félicitations !"
