@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-10 18:05+0000\n"
-"PO-Revision-Date: 2015-04-14 10:44+0000\n"
+"PO-Revision-Date: 2015-04-22 10:55+0000\n"
 "Last-Translator: Wim <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1429008295.0\n"
+"X-POOTLE-MTIME: 1429700115.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -150,7 +150,7 @@ msgstr "Unjildich token"
 
 #: app/scripts/lib/auth-errors.js:31
 msgid "Invalid timestamp in request signature"
-msgstr "Unjildige tiidstimpel yn oanfraachhântekening"
+msgstr "Unjildich tiidstimpel yn oanfraachhântekening"
 
 #: app/scripts/lib/auth-errors.js:35
 msgid "Invalid nonce in request signature"
@@ -395,6 +395,8 @@ msgid ""
 "Once you're finished, use your new password to sign in on all of your "
 "devices."
 msgstr ""
+"Brûk jo nije wachtwurd foar it oanmelden op al jo apparaten sa gau as jo "
+"klear binne."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -540,7 +542,7 @@ msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr "Herinitialisatiebericht verzonden"
+msgstr "Werinisjalisaasjeberjocht ferstjoerd"
 
 #: app/scripts/templates/confirm_reset_password.mustache:4
 msgid "A reset link has been sent to %(email)s"
