@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-24 00:11+0000\n"
-"PO-Revision-Date: 2015-04-14 19:41+0000\n"
+"PO-Revision-Date: 2015-04-24 20:19+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1429040470.0\n"
+"X-POOTLE-MTIME: 1429906797.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -375,19 +375,19 @@ msgstr "Nowinki a pokiwy za Firefox abonować"
 
 #: app/scripts/lib/strings.js:23
 msgid "Get the full Sync experience."
-msgstr ""
+msgstr "Wobstarajće sej cyłe Sync-dožiwjenje."
 
 #: app/scripts/lib/strings.js:24
 msgid "Download Firefox for iOS."
-msgstr ""
+msgstr "Sćehńće Firefox za iOS."
 
 #: app/scripts/lib/strings.js:25
 msgid "Download Firefox for Android."
-msgstr ""
+msgstr "Sćehńće Firefox za Android."
 
 #: app/scripts/lib/strings.js:26
 msgid "Download Firefox for your mobile devices."
-msgstr ""
+msgstr "Sćehńće Firefox za swoje mobilne graty."
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
