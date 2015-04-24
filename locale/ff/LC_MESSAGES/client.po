@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-10 18:05+0000\n"
+"POT-Creation-Date: 2015-04-24 00:11+0000\n"
 "PO-Revision-Date: 2015-03-11 16:47+0000\n"
 "Last-Translator: Ibrahima <ibrahima.sarr@pulaagu.com>\n"
 "Language-Team: FULAH LOCALIZATION\n"
@@ -83,7 +83,7 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/change_password.js:76
+#: app/scripts/views/change_password.js:79
 msgid "Password changed successfully"
 msgstr "Finnde wayliraama no haaniri"
 
@@ -106,7 +106,7 @@ msgstr "Finnde firlitaama"
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Finnde firlitaama no haanirta. Seŋo ngam jokkude."
 
-#: app/scripts/views/delete_account.js:47
+#: app/scripts/views/delete_account.js:50
 msgid "Account deleted successfully"
 msgstr "Konte momtiraama no haanirta"
 
@@ -114,7 +114,7 @@ msgstr "Konte momtiraama no haanirta"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Konte anndaaka. <a href=\"/signup\">Winndito</a>"
 
-#: app/scripts/views/settings.js:57
+#: app/scripts/views/settings.js:64
 msgid "Signed out successfully"
 msgstr "Seŋtiima no haanirta"
 
@@ -363,6 +363,22 @@ msgstr "Firefox Sync"
 #: app/scripts/lib/strings.js:19
 msgid "Subscribe to Firefox news and tips"
 msgstr "Lulno e kabaruuji e tinndinooje Firefox"
+
+#: app/scripts/lib/strings.js:23
+msgid "Get the full Sync experience."
+msgstr ""
+
+#: app/scripts/lib/strings.js:24
+msgid "Download Firefox for iOS."
+msgstr ""
+
+#: app/scripts/lib/strings.js:25
+msgid "Download Firefox for Android."
+msgstr ""
+
+#: app/scripts/lib/strings.js:26
+msgid "Download Firefox for your mobile devices."
+msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
