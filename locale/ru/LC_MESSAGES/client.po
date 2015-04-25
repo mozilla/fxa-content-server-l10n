@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-24 00:11+0000\n"
-"PO-Revision-Date: 2015-03-21 17:03+0000\n"
+"PO-Revision-Date: 2015-04-25 21:57+0000\n"
 "Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1426957430.0\n"
+"X-POOTLE-MTIME: 1429999056.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
@@ -378,19 +378,19 @@ msgstr "Подписаться на новости и советы по Firefox"
 
 #: app/scripts/lib/strings.js:23
 msgid "Get the full Sync experience."
-msgstr ""
+msgstr "Используйте синхронизацию по полной."
 
 #: app/scripts/lib/strings.js:24
 msgid "Download Firefox for iOS."
-msgstr ""
+msgstr "Загрузите Firefox для iOS."
 
 #: app/scripts/lib/strings.js:25
 msgid "Download Firefox for Android."
-msgstr ""
+msgstr "Загрузите Firefox для Android."
 
 #: app/scripts/lib/strings.js:26
 msgid "Download Firefox for your mobile devices."
-msgstr ""
+msgstr "Загрузите Firefox для ваших мобильных устройств."
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -417,6 +417,8 @@ msgid ""
 "Once you're finished, use your new password to sign in on all of your "
 "devices."
 msgstr ""
+"После того, как вы закончите, используйте новый пароль для входа на всех "
+"ваших устройствах."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
