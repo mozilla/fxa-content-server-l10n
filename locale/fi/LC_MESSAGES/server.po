@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-24 00:11+0000\n"
-"PO-Revision-Date: 2015-01-10 14:17+0000\n"
+"PO-Revision-Date: 2015-04-26 09:48+0000\n"
 "Last-Translator: Ville <ville.pohjanheimo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -12,21 +12,25 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1420899476.0\n"
+"X-POOTLE-MTIME: 1430041708.0\n"
 
-#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
-#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
+#: server/templates/pages/src/400.html:1
+#: server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1
+#: server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1 templates/reset.html:1
-#: templates/unlock.html:1 templates/verify.html:1
+#: server/templates/pages/src/terms.html:1
+#: templates/reset.html:1
+#: templates/unlock.html:1
+#: templates/verify.html:1
 msgid "Firefox Accounts"
-msgstr "Firefox-tilit"
+msgstr "Firefox Accounts"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
-msgstr ""
+msgstr "Virheellinen pyyntö"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -40,8 +44,10 @@ msgstr ""
 "Pyytämääsi sivua ei löytynyt. Olemme saaneet tästä tiedon ja tulemme "
 "korjaamaan rikkinäiset linkit."
 
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+#: server/templates/pages/src/404.html:4
+#: server/templates/pages/src/500.html:4
+#: server/templates/pages/src/502.html:4
+#: server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "Etusivu"
 
@@ -49,7 +55,8 @@ msgstr "Etusivu"
 msgid "500 Error"
 msgstr "500 Virhe"
 
-#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+#: server/templates/pages/src/500.html:3
+#: server/templates/pages/src/502.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
@@ -59,7 +66,7 @@ msgstr ""
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "502 virhe"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -79,8 +86,9 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+"You are using an <strong>outdated</strong> browser. Please <a "
+"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+"experience."
 msgstr ""
 "Käytät <strong>vanhaa</strong> versiota selaimestasi. Paranna "
 "käyttökokemustasi <a href=\"http://browsehappy.com/\">päivittämällä "
@@ -109,11 +117,13 @@ msgstr "Firefox pilvipalvelut"
 msgid "Terms of Service"
 msgstr "Käyttöehdot"
 
-#: templates/reset.html:2 templates/reset.txt:1
+#: templates/reset.html:2
+#: templates/reset.txt:1
 msgid "Are you sure?"
 msgstr "Oletko varma?"
 
-#: templates/reset.html:3 templates/reset.txt:2
+#: templates/reset.html:3
+#: templates/reset.txt:2
 msgid "Please confirm that you'd like to reset the password for %(email)s."
 msgstr "Nollataanko varmasti salasana tilille %(email)s?"
 
@@ -121,19 +131,25 @@ msgstr "Nollataanko varmasti salasana tilille %(email)s?"
 msgid "Reset password"
 msgstr "Nollaa salasana"
 
-#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
-#: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
+#: templates/reset.html:5
+#: templates/reset.txt:4
+#: templates/unlock.html:4
+#: templates/unlock.txt:3
+#: templates/verify.html:5
+#: templates/verify.txt:4
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
-"Tämä on automaattisesti lähetetty viesti. Jos sait sen vahingossa, ei sinun "
+"Tämä on automaattisesti lähetetty viesti. Jos sait sen vahingossa, sinun ei "
 "tarvitse tehdä mitään."
 
-#: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
+#: templates/reset.html:6
+#: templates/unlock.html:5
+#: templates/verify.html:6
 msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
+"For more information, please visit <a "
+"href='https://support.mozilla.org'>Mozilla Support</a>"
 msgstr ""
 "Lisätietoja saat <a href='https://support.mozilla.org'>Mozillan "
 "tukisivustolta</a>"
@@ -142,30 +158,37 @@ msgstr ""
 msgid "Reset password:"
 msgstr "Nollaa salasana:"
 
-#: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
+#: templates/reset.txt:5
+#: templates/unlock.txt:4
+#: templates/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
 msgstr "Lisätietoa saat osoitteesta https://support.mozilla.org"
 
-#: templates/unlock.html:2 templates/unlock.txt:1
+#: templates/unlock.html:2
+#: templates/unlock.txt:1
 msgid ""
 "For security reasons your Firefox Account was put on lockdown. To perform "
 "account-level activities, please click the link to re-verify your account "
 "now."
 msgstr ""
+"Firefox tilisi on lukittu turvallisuussyistä. Jatka tilin käyttöä "
+"todentamalla se uudestaan todentamislinkistä."
 
 #: templates/unlock.html:3
 msgid "Verify account"
-msgstr ""
+msgstr "Todenna tilisi"
 
 #: templates/unlock.txt:2
 msgid "Verify account:"
-msgstr ""
+msgstr "Todenna tili:"
 
-#: templates/verify.html:2 templates/verify.txt:1
+#: templates/verify.html:2
+#: templates/verify.txt:1
 msgid "Almost there"
-msgstr ""
+msgstr "Melkein valmis"
 
-#: templates/verify.html:3 templates/verify.txt:2
+#: templates/verify.html:3
+#: templates/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
 msgstr "%(email)s napsauta vielä kerran ja olet vahvistanut Firefox-tilisi."
 
@@ -187,7 +210,7 @@ msgstr "Nollaa salasanasi"
 
 #: mailer.js:146
 msgid "Re-verify your account"
-msgstr ""
+msgstr "Todenna tilisi uudestaan"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Onneksi olkoon!"
