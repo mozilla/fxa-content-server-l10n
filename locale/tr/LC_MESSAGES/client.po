@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-24 00:11+0000\n"
-"PO-Revision-Date: 2015-03-12 14:36+0000\n"
+"PO-Revision-Date: 2015-04-30 07:23+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1426171015.0\n"
+"X-POOTLE-MTIME: 1430378589.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -94,7 +94,7 @@ msgstr "Hesap başarıyla doğrulandı"
 
 #: app/scripts/views/confirm_account_unlock.js:106
 msgid "Account unlocked, please try again"
-msgstr ""
+msgstr "Hesabın kilidi açıldı. Lütfen yeniden deneyin"
 
 #: app/scripts/views/confirm_reset_password.js:162
 #: app/scripts/templates/ready.mustache:3
@@ -133,6 +133,8 @@ msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> katkılarıyla"
 msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
+"Hesap kilitlendi. <a href=\"/confirm_account_unlock\">Kilit açma e-postası "
+"gönder</a>"
 
 #: app/scripts/lib/auth-errors.js:18 app/scripts/lib/oauth-errors.js:45
 #: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:57
@@ -209,7 +211,7 @@ msgstr "Deneme sınırı aşıldı"
 
 #: app/scripts/lib/auth-errors.js:91
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "Hesabınız güvenlik nedeniyle kilitlenmiştir"
 
 #: app/scripts/lib/auth-errors.js:99
 msgid "Server busy, try again soon"
@@ -368,19 +370,19 @@ msgstr "Firefox haberlerine ve ipuçlarına abone olun"
 
 #: app/scripts/lib/strings.js:23
 msgid "Get the full Sync experience."
-msgstr ""
+msgstr "Tam Sync deneyimini edinin."
 
 #: app/scripts/lib/strings.js:24
 msgid "Download Firefox for iOS."
-msgstr ""
+msgstr "iOS için Firefox'u indirin."
 
 #: app/scripts/lib/strings.js:25
 msgid "Download Firefox for Android."
-msgstr ""
+msgstr "Android için Firefox'u indirin."
 
 #: app/scripts/lib/strings.js:26
 msgid "Download Firefox for your mobile devices."
-msgstr ""
+msgstr "Mobil cihazlarınız için Firefox'u indirin."
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -406,6 +408,8 @@ msgid ""
 "Once you're finished, use your new password to sign in on all of your "
 "devices."
 msgstr ""
+"Bitirdikten sonra tüm cihazlarınızda oturum açmak için yeni parolanızı "
+"kullanın."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -443,11 +447,11 @@ msgstr "Geri"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
-msgstr ""
+msgstr "Kilit açma bağlantısının süresi doldu"
 
 #: app/scripts/templates/complete_account_unlock.mustache:4
 msgid "Unlock link damaged"
-msgstr ""
+msgstr "Kilit açma bağlantısı hasarlı"
 
 #: app/scripts/templates/complete_account_unlock.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:7
@@ -461,7 +465,7 @@ msgstr ""
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
-msgstr ""
+msgstr "Kilit açma hatası"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -535,7 +539,7 @@ msgstr "E-postayı tekrar gönder"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:1
 msgid "Unlock email sent"
-msgstr ""
+msgstr "Kilit açma e-postası gönderildi"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
@@ -543,6 +547,9 @@ msgid ""
 "level activities, please re-verify your account by clicking the verification "
 "link sent to %(email)s"
 msgstr ""
+"Güvenlik nedeniyle hesabınız kilitlendi. Hesap üzerinde işlem yapmak için "
+"lütfen %(email)s adresine gönderilen doğrulama bağlantısına tıklayarak "
+"hesabınızı yeniden doğrulayın"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -660,7 +667,7 @@ msgstr "Hesap doğrulandı"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account unlocked"
-msgstr ""
+msgstr "Hesap kilitlendi"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Success"
