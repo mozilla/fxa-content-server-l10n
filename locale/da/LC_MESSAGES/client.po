@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-24 00:11+0000\n"
-"PO-Revision-Date: 2015-04-16 10:55+0000\n"
+"PO-Revision-Date: 2015-05-01 12:56+0000\n"
 "Last-Translator: Jørgen   <joergenr@stofanet.dk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: da\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1429181740.0\n"
+"X-POOTLE-MTIME: 1430485008.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -367,19 +367,19 @@ msgstr "Abonner på nyheder og tips om Firefox"
 
 #: app/scripts/lib/strings.js:23
 msgid "Get the full Sync experience."
-msgstr ""
+msgstr "Få den fulde Sync-oplevelse."
 
 #: app/scripts/lib/strings.js:24
 msgid "Download Firefox for iOS."
-msgstr ""
+msgstr "Hent Firefox til iOS."
 
 #: app/scripts/lib/strings.js:25
 msgid "Download Firefox for Android."
-msgstr ""
+msgstr "Hent Firefox til Android."
 
 #: app/scripts/lib/strings.js:26
 msgid "Download Firefox for your mobile devices."
-msgstr ""
+msgstr "Hent Firefox til dine mobile enheder."
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
