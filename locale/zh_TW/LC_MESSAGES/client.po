@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-07 16:09+0000\n"
-"PO-Revision-Date: 2015-04-28 03:39+0000\n"
+"PO-Revision-Date: 2015-05-08 05:14+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1430192399.0\n"
+"X-POOTLE-MTIME: 1431062057.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -365,7 +365,7 @@ msgstr "訂閱 Firefox 電子報與使用小撇步"
 
 #: app/scripts/lib/strings.js:22
 msgid "%(serviceName)s would like to know…"
-msgstr ""
+msgstr "%(serviceName)s 想知道…"
 
 #: app/scripts/lib/strings.js:23
 msgid ""
@@ -373,10 +373,12 @@ msgid ""
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
+"若繼續，代表我同意 %(serviceName)s（%(serviceUri)s）的 <a id=\"service-tos\" href=\"%"
+"(termsUri)s\">服務條款</a> 及 <a id=\"service-pp\" href=\"%(privacyUri)s\">隱私權公告</a>。"
 
 #: app/scripts/lib/strings.js:25
 msgid "Proceed"
-msgstr ""
+msgstr "繼續"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -659,12 +661,12 @@ msgstr "取得完整的 Sync 體驗。"
 #: app/scripts/templates/marketing_snippet_ios.mustache:2
 #: app/scripts/templates/marketing_snippet_ios.mustache:12
 msgid "Firefox is coming soon to iOS!"
-msgstr ""
+msgstr "Firefox 即將推出 iOS 版本！"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:3
 #: app/scripts/templates/marketing_snippet_ios.mustache:13
 msgid "Sign up to learn more"
-msgstr ""
+msgstr "快訂閱電子報，取得最新消息"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:6
 #: app/scripts/templates/marketing_snippet_ios.mustache:7
@@ -674,7 +676,7 @@ msgstr "下載 Firefox for Android。"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr ""
+msgstr "下載 Firefox 行動版。"
 
 #: app/scripts/templates/ready.mustache:1
 msgid "Account verified"
