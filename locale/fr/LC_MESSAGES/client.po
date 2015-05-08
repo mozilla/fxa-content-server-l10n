@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-07 16:09+0000\n"
-"PO-Revision-Date: 2015-04-27 07:08+0000\n"
+"PO-Revision-Date: 2015-05-08 13:15+0000\n"
 "Last-Translator: Théo <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1430118486.0\n"
+"X-POOTLE-MTIME: 1431090933.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -375,7 +375,7 @@ msgstr "Recevez les dernières nouvelles et les astuces pour Firefox"
 
 #: app/scripts/lib/strings.js:22
 msgid "%(serviceName)s would like to know…"
-msgstr ""
+msgstr "%(serviceName)s souhaiterais savoir…"
 
 #: app/scripts/lib/strings.js:23
 msgid ""
@@ -383,10 +383,14 @@ msgid ""
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
+"En continuant, j'accepte les <a id=\"service-tos\" href=\"%"
+"(termsUri)s\">conditions d'utilisation</a> et la <a id=\"service-pp\" href=\"%"
+"(privacyUri)s\">politique de confidentialité</a> de %(serviceName)s (%"
+"(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:25
 msgid "Proceed"
-msgstr ""
+msgstr "Continuer"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -678,12 +682,12 @@ msgstr "Tirez le meilleur parti de Sync."
 #: app/scripts/templates/marketing_snippet_ios.mustache:2
 #: app/scripts/templates/marketing_snippet_ios.mustache:12
 msgid "Firefox is coming soon to iOS!"
-msgstr ""
+msgstr "Firefox sera bientôt disponible sur iOS !"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:3
 #: app/scripts/templates/marketing_snippet_ios.mustache:13
 msgid "Sign up to learn more"
-msgstr ""
+msgstr "Inscrivez-vous pour en savoir plus"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:6
 #: app/scripts/templates/marketing_snippet_ios.mustache:7
@@ -693,7 +697,7 @@ msgstr "Téléchargez Firefox pour Android."
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr ""
+msgstr "Téléchargez Firefox pour appareils mobiles."
 
 #: app/scripts/templates/ready.mustache:1
 msgid "Account verified"
