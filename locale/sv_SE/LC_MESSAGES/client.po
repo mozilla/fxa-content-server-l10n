@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-07 16:09+0000\n"
-"PO-Revision-Date: 2015-04-26 15:31+0000\n"
+"PO-Revision-Date: 2015-05-09 15:43+0000\n"
 "Last-Translator: Andreas <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1430062272.0\n"
+"X-POOTLE-MTIME: 1431186234.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -247,7 +247,7 @@ msgstr "Arbetar…"
 
 #: app/scripts/lib/auth-errors.js:131
 msgid "Could not get Privacy Notice"
-msgstr "Kunde inte hämta integritetsinfo"
+msgstr "Kunde inte hämta sekretesspolicy"
 
 #: app/scripts/lib/auth-errors.js:135
 msgid "Could not get Terms of Service"
@@ -368,7 +368,7 @@ msgstr "Prenumerera på Firefox nyheter och tips"
 
 #: app/scripts/lib/strings.js:22
 msgid "%(serviceName)s would like to know…"
-msgstr ""
+msgstr "%(serviceName)s skulle vilja veta…"
 
 #: app/scripts/lib/strings.js:23
 msgid ""
@@ -376,10 +376,13 @@ msgid ""
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
+"Genom att fortsätta, godkänner jag <a id=\"service-tos\" href=\"%"
+"(termsUri)s\">användarvillkoren</a> och <a id=\"service-pp\" href=\"%"
+"(privacyUri)s\">sekretesspolicyn</a> för %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:25
 msgid "Proceed"
-msgstr ""
+msgstr "Fortsätt"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -626,9 +629,9 @@ msgid ""
 "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
 "a> of Firefox cloud services."
 msgstr ""
-"Genom att fortsätta godkänner du <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">tjänstevillkoren</a> och <a id=\"fxa-pp\" href=\"/legal/privacy"
-"\">integritetspolicyn</a> för Firefox molntjänster."
+"Genom att fortsätta, godkänner jag <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">användarvillkoren</a> och <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">sekretesspolicyn</a> för Firefox molntjänster."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -648,7 +651,7 @@ msgstr "Tjänstevillkor"
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
 #: app/scripts/templates/settings.mustache:10
 msgid "Privacy Notice"
-msgstr "Integritetsinfo"
+msgstr "Sekretesspolicy"
 
 #: app/scripts/templates/marketing_snippet.mustache:1
 msgid "Stay in sync on the go:"
@@ -667,12 +670,12 @@ msgstr "Få den fulla Sync upplevelsen."
 #: app/scripts/templates/marketing_snippet_ios.mustache:2
 #: app/scripts/templates/marketing_snippet_ios.mustache:12
 msgid "Firefox is coming soon to iOS!"
-msgstr ""
+msgstr "Firefox kommer snart till iOS!"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:3
 #: app/scripts/templates/marketing_snippet_ios.mustache:13
 msgid "Sign up to learn more"
-msgstr ""
+msgstr "Registrera dig för att lära dig mer"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:6
 #: app/scripts/templates/marketing_snippet_ios.mustache:7
@@ -682,7 +685,7 @@ msgstr "Ladda ner Firefox för Android."
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr ""
+msgstr "Ladda ner Firefox för mobila enheter."
 
 #: app/scripts/templates/ready.mustache:1
 msgid "Account verified"
