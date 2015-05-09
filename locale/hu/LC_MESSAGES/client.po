@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-07 16:09+0000\n"
-"PO-Revision-Date: 2015-05-03 11:00+0000\n"
+"PO-Revision-Date: 2015-05-09 08:31+0000\n"
 "Last-Translator: Gábor <kelemeng@ubuntu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n !=1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1430650825.0\n"
+"X-POOTLE-MTIME: 1431160304.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -370,7 +370,7 @@ msgstr "Iratkozzon fel a Firefox hírekre és tippekre"
 
 #: app/scripts/lib/strings.js:22
 msgid "%(serviceName)s would like to know…"
-msgstr ""
+msgstr "A(z) %(serviceName)s szeretné tudni…"
 
 #: app/scripts/lib/strings.js:23
 msgid ""
@@ -378,10 +378,13 @@ msgid ""
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
+"A folytatással elfogadom a(z)  %(serviceName)s (%(serviceUri)s) <a id"
+"=\"service-tos\" href=\"%(termsUri)s\">Felhasználási feltételeit</a> és az <a id"
+"=\"service-pp\" href=\"%(privacyUri)s\">Adatvédelmi irányelveit</a>."
 
 #: app/scripts/lib/strings.js:25
 msgid "Proceed"
-msgstr ""
+msgstr "Folytatás"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -668,12 +671,12 @@ msgstr "Érje el a teljes Sync funkcionalitást."
 #: app/scripts/templates/marketing_snippet_ios.mustache:2
 #: app/scripts/templates/marketing_snippet_ios.mustache:12
 msgid "Firefox is coming soon to iOS!"
-msgstr ""
+msgstr "A Firefox hamarosan érkezik iOS-re!"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:3
 #: app/scripts/templates/marketing_snippet_ios.mustache:13
 msgid "Sign up to learn more"
-msgstr ""
+msgstr "Iratkozzon fel további információkért"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:6
 #: app/scripts/templates/marketing_snippet_ios.mustache:7
@@ -683,7 +686,7 @@ msgstr "Töltse le a Firefox for Androidot."
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr ""
+msgstr "A Firefox letöltése mobil eszközökre."
 
 #: app/scripts/templates/ready.mustache:1
 msgid "Account verified"
