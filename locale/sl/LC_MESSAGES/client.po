@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-07 16:09+0000\n"
-"PO-Revision-Date: 2015-04-24 19:15+0000\n"
+"PO-Revision-Date: 2015-05-15 13:13+0000\n"
 "Last-Translator: Matjaž <m@owca.info>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1429902957.0\n"
+"X-POOTLE-MTIME: 1431695598.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -370,7 +370,7 @@ msgstr "Naročite se na novice in nasvete o Firefoxu"
 
 #: app/scripts/lib/strings.js:22
 msgid "%(serviceName)s would like to know…"
-msgstr ""
+msgstr "%(serviceName)s želi vedeti …"
 
 #: app/scripts/lib/strings.js:23
 msgid ""
@@ -378,10 +378,13 @@ msgid ""
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
+"Z nadaljevanjem sprejemam <a id=\"service-tos\" href=\"%(termsUri)s\">Pogoje "
+"uporabe</a> in <a id=\"service-pp\" href=\"%(privacyUri)s\">Obvestilo o "
+"zasebnosti</a> storitve %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:25
 msgid "Proceed"
-msgstr ""
+msgstr "Nadaljuj"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -670,12 +673,12 @@ msgstr "V celoti izkoristite Sync."
 #: app/scripts/templates/marketing_snippet_ios.mustache:2
 #: app/scripts/templates/marketing_snippet_ios.mustache:12
 msgid "Firefox is coming soon to iOS!"
-msgstr ""
+msgstr "Firefox kmalu prihaja na iOS!"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:3
 #: app/scripts/templates/marketing_snippet_ios.mustache:13
 msgid "Sign up to learn more"
-msgstr ""
+msgstr "Za podrobnosti se prijavite"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:6
 #: app/scripts/templates/marketing_snippet_ios.mustache:7
@@ -685,7 +688,7 @@ msgstr "Prenesite Firefox za Android."
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr ""
+msgstr "Prenesite Firefox za mobilne naprave."
 
 #: app/scripts/templates/ready.mustache:1
 msgid "Account verified"
