@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-07 16:09+0000\n"
+"POT-Creation-Date: 2015-05-21 18:48+0000\n"
 "PO-Revision-Date: 2015-05-08 08:18+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,11 +82,11 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/change_password.js:79
+#: app/scripts/views/change_password.js:85
 msgid "Password changed successfully"
 msgstr "Wachtwoord met succes gewijzigd"
 
-#: app/scripts/views/complete_reset_password.js:133
+#: app/scripts/views/complete_reset_password.js:140
 #: app/scripts/views/complete_sign_up.js:81 app/scripts/views/confirm.js:91
 #: app/scripts/views/confirm_reset_password.js:174
 msgid "Account verified successfully"
@@ -105,19 +105,19 @@ msgstr "Wachtwoord opnieuw ingesteld"
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Wachtwoord is opnieuw ingesteld. Meld u aan om door te gaan."
 
-#: app/scripts/views/delete_account.js:50
+#: app/scripts/views/delete_account.js:53
 msgid "Account deleted successfully"
 msgstr "Account met succes verwijderd"
 
-#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:203
+#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:178
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Onbekende account. <a href=\"/signup\">Registreren</a>"
 
-#: app/scripts/views/settings.js:64
+#: app/scripts/views/settings.js:68
 msgid "Signed out successfully"
 msgstr "U bent afgemeld"
 
-#: app/scripts/views/sign_up.js:303
+#: app/scripts/views/sign_up.js:311
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Account bestaat al. <a href=\"/signin\">Aanmelden</a>"
 
@@ -136,10 +136,8 @@ msgstr ""
 "Account vergrendeld. <a href=\"/confirm_account_unlock\">E-mail voor "
 "ontgrendeling verzenden</a>"
 
-#: app/scripts/lib/auth-errors.js:18 app/scripts/lib/oauth-errors.js:45
-#: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:57
-#: app/scripts/lib/oauth-errors.js:61 app/scripts/lib/profile-errors.js:34
-#: app/scripts/lib/profile-errors.js:42
+#: app/scripts/lib/auth-errors.js:18 app/scripts/lib/oauth-errors.js:19
+#: app/scripts/lib/profile-errors.js:34 app/scripts/lib/profile-errors.js:42
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Onverwachte fout"
@@ -184,7 +182,7 @@ msgstr "Ongeldige verificatiecode"
 msgid "Invalid JSON in request body"
 msgstr "Ongeldige JSON in aanvraagtekst"
 
-#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:33
+#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:48
 #: app/scripts/lib/profile-errors.js:22
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Ongeldige parameter in aanvraagtekst: %(param)s"
@@ -193,7 +191,7 @@ msgstr "Ongeldige parameter in aanvraagtekst: %(param)s"
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Ontbrekende parameter in aanvraagtekst: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:75 app/scripts/lib/oauth-errors.js:37
+#: app/scripts/lib/auth-errors.js:75 app/scripts/lib/oauth-errors.js:52
 msgid "Invalid request signature"
 msgstr "Ongeldige aanvraaghandtekening"
 
@@ -221,12 +219,12 @@ msgstr "Server bezet, probeer het later opnieuw"
 msgid "This endpoint is no longer supported"
 msgstr "Dit eindpunt wordt niet meer ondersteund"
 
-#: app/scripts/lib/auth-errors.js:107 app/scripts/lib/oauth-errors.js:41
+#: app/scripts/lib/auth-errors.js:107 app/scripts/lib/oauth-errors.js:78
 #: app/scripts/lib/profile-errors.js:38
 msgid "System unavailable, try again soon"
 msgstr "Systeem niet beschikbaar, probeer het later opnieuw"
 
-#: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:65
+#: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:102
 msgid "no message"
 msgstr "geen melding"
 
@@ -330,29 +328,49 @@ msgstr "Verificatiekoppeling beschadigd"
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr "Bedoelde u <span tabindex=\"1\">%(domain)s</span>?"
 
-#: app/scripts/lib/oauth-errors.js:21
+#: app/scripts/lib/oauth-errors.js:24
 msgid "Unknown client"
 msgstr "Onbekende client"
 
-#: app/scripts/lib/oauth-errors.js:25
+#: app/scripts/lib/oauth-errors.js:28
 msgid "Incorrect redirect_uri"
 msgstr "Onjuiste redirect_uri"
 
-#: app/scripts/lib/oauth-errors.js:29
+#: app/scripts/lib/oauth-errors.js:32
 msgid "Invalid assertion"
 msgstr "Ongeldige bevestiging"
 
-#: app/scripts/lib/oauth-errors.js:49
+#: app/scripts/lib/oauth-errors.js:36
+msgid "Unknown code"
+msgstr ""
+
+#: app/scripts/lib/oauth-errors.js:40
+msgid "Incorrect code"
+msgstr ""
+
+#: app/scripts/lib/oauth-errors.js:44
+msgid "Expired code"
+msgstr ""
+
+#: app/scripts/lib/oauth-errors.js:60 app/scripts/lib/profile-errors.js:18
+msgid "Unauthorized"
+msgstr "Niet geautoriseerd"
+
+#: app/scripts/lib/oauth-errors.js:64
+msgid "Forbidden"
+msgstr ""
+
+#: app/scripts/lib/oauth-errors.js:74
+msgid "Invalid OAuth parameter: %(param)s"
+msgstr ""
+
+#: app/scripts/lib/oauth-errors.js:86
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Er is iets misgegaan. Sluit dit tabblad en probeer het opnieuw."
 
-#: app/scripts/lib/oauth-errors.js:69
+#: app/scripts/lib/oauth-errors.js:106
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "OAuth-parameter ontbreekt: %(param)s"
-
-#: app/scripts/lib/profile-errors.js:18
-msgid "Unauthorized"
-msgstr "Niet geautoriseerd"
 
 #: app/scripts/lib/profile-errors.js:26
 msgid "Unsupported image provider"
@@ -367,26 +385,34 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:19
-msgid "Subscribe to Firefox news and tips"
-msgstr "Abonneren op Firefox-nieuws en -tips"
-
-#: app/scripts/lib/strings.js:22
-msgid "%(serviceName)s would like to know…"
-msgstr "%(serviceName)s wil graag weten…"
-
-#: app/scripts/lib/strings.js:23
 msgid ""
 "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Door verder te gaan ga ik akkoord met de <a id=\"service-tos\" href=\"%"
-"(termsUri)s\">Servicevoorwaarden</a> en het <a id=\"service-pp\" href=\"%"
-"(privacyUri)s\">Privacybeleid</a> van %(serviceName)s (%(serviceUri)s)."
+"Door verder te gaan ga ik akkoord met de <a id=\"service-tos\" href="
+"\"%(termsUri)s\">Servicevoorwaarden</a> en het <a id=\"service-pp\" href="
+"\"%(privacyUri)s\">Privacybeleid</a> van %(serviceName)s (%(serviceUri)s)."
+
+#: app/scripts/lib/strings.js:23
+msgid "Get the latest news about Mozilla and Firefox."
+msgstr ""
+
+#: app/scripts/lib/strings.js:24
+msgid "Communication preferences"
+msgstr ""
 
 #: app/scripts/lib/strings.js:25
-msgid "Proceed"
-msgstr "Verdergaan"
+msgid "Email preferences"
+msgstr ""
+
+#: app/scripts/lib/strings.js:28
+msgid "Edit profile"
+msgstr ""
+
+#: app/scripts/lib/strings.js:29
+msgid "Name"
+msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -697,6 +723,32 @@ msgstr "Download Firefox voor Android."
 msgid "Download Firefox for mobile devices."
 msgstr "Download Firefox voor mobiele apparaten."
 
+#: app/scripts/templates/permissions.mustache:1
+msgid "Request for permission"
+msgstr ""
+
+#: app/scripts/templates/permissions.mustache:2
+msgid "%(serviceName)s wants the following information from your account:"
+msgstr ""
+
+#: app/scripts/templates/permissions.mustache:3
+#: app/scripts/templates/reset_password.mustache:3
+#: app/scripts/templates/sign_in.mustache:17
+#: app/scripts/templates/sign_up.mustache:6
+msgid "Email"
+msgstr "E-mailadres"
+
+#: app/scripts/templates/permissions.mustache:4
+msgid "Accept"
+msgstr ""
+
+#: app/scripts/templates/permissions.mustache:5
+#: app/scripts/templates/settings/avatar_camera.mustache:3
+#: app/scripts/templates/settings/avatar_crop.mustache:4
+#: app/scripts/templates/settings/avatar_gravatar.mustache:4
+msgid "Cancel"
+msgstr "Annuleren"
+
 #: app/scripts/templates/ready.mustache:1
 msgid "Account verified"
 msgstr "Account geverifieerd"
@@ -713,7 +765,11 @@ msgstr "Geslaagd"
 msgid "You are now ready to use %(serviceName)s"
 msgstr "U kunt %(serviceName)s nu gebruiken"
 
-#: app/scripts/templates/ready.mustache:10
+#: app/scripts/templates/ready.mustache:9
+msgid "Proceed"
+msgstr "Verdergaan"
+
+#: app/scripts/templates/ready.mustache:12
 msgid "Your account is ready!"
 msgstr "Uw account is gereed!"
 
@@ -721,12 +777,6 @@ msgstr "Uw account is gereed!"
 msgid "Enter your email to reset&nbsp;the account password."
 msgstr ""
 "Voer uw e-mailadres in om het&nbsp;accountwachtwoord te herinitialiseren."
-
-#: app/scripts/templates/reset_password.mustache:3
-#: app/scripts/templates/sign_in.mustache:17
-#: app/scripts/templates/sign_up.mustache:6
-msgid "Email"
-msgstr "E-mailadres"
 
 #: app/scripts/templates/reset_password.mustache:4
 msgid ""
@@ -801,12 +851,6 @@ msgstr "Accountafbeelding"
 #: app/scripts/templates/settings/avatar_camera.mustache:2
 msgid "Take picture"
 msgstr "Foto maken"
-
-#: app/scripts/templates/settings/avatar_camera.mustache:3
-#: app/scripts/templates/settings/avatar_crop.mustache:4
-#: app/scripts/templates/settings/avatar_gravatar.mustache:4
-msgid "Cancel"
-msgstr "Annuleren"
 
 #: app/scripts/templates/settings/avatar_change.mustache:2
 msgid "Upload"
@@ -892,6 +936,12 @@ msgstr "december"
 #: app/scripts/templates/partial/coppa-date-picker.mustache:34
 msgid "Day"
 msgstr "Dag"
+
+#~ msgid "Subscribe to Firefox news and tips"
+#~ msgstr "Abonneren op Firefox-nieuws en -tips"
+
+#~ msgid "%(serviceName)s would like to know…"
+#~ msgstr "%(serviceName)s wil graag weten…"
 
 #~ msgid "Download Firefox for iOS."
 #~ msgstr "Download Firefox voor iOS."

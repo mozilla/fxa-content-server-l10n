@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-07 16:09+0000\n"
+"POT-Creation-Date: 2015-05-21 18:48+0000\n"
 "PO-Revision-Date: 2015-01-07 10:11+0000\n"
 "Last-Translator: Zachary <zcarter@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,11 +82,11 @@ msgstr "২০০৬"
 msgid "2007"
 msgstr "২০০৭"
 
-#: app/scripts/views/change_password.js:79
+#: app/scripts/views/change_password.js:85
 msgid "Password changed successfully"
 msgstr ""
 
-#: app/scripts/views/complete_reset_password.js:133
+#: app/scripts/views/complete_reset_password.js:140
 #: app/scripts/views/complete_sign_up.js:81 app/scripts/views/confirm.js:91
 #: app/scripts/views/confirm_reset_password.js:174
 msgid "Account verified successfully"
@@ -105,19 +105,19 @@ msgstr "পাসওয়ার্ড রিসেট"
 msgid "Password reset successfully. Sign in to continue."
 msgstr ""
 
-#: app/scripts/views/delete_account.js:50
+#: app/scripts/views/delete_account.js:53
 msgid "Account deleted successfully"
 msgstr "অ্যাকাউন্ট সফলভাবে মুছে ফেলা হয়েছে"
 
-#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:203
+#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:178
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "অচেনা অ্যাকাউন্ট। <a href=\"/signup\">সাইন আপ</a> "
 
-#: app/scripts/views/settings.js:64
+#: app/scripts/views/settings.js:68
 msgid "Signed out successfully"
 msgstr ""
 
-#: app/scripts/views/sign_up.js:303
+#: app/scripts/views/sign_up.js:311
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "অ্যাকাউন্ট আগেই আছে। <a href=\"/signin\">সাইন ইন</a>"
 
@@ -134,10 +134,8 @@ msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:18 app/scripts/lib/oauth-errors.js:45
-#: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:57
-#: app/scripts/lib/oauth-errors.js:61 app/scripts/lib/profile-errors.js:34
-#: app/scripts/lib/profile-errors.js:42
+#: app/scripts/lib/auth-errors.js:18 app/scripts/lib/oauth-errors.js:19
+#: app/scripts/lib/profile-errors.js:34 app/scripts/lib/profile-errors.js:42
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "অপ্রত্যাশিত ত্রুটি"
@@ -182,7 +180,7 @@ msgstr "অকার্যকর যাচাইকরণ কোড"
 msgid "Invalid JSON in request body"
 msgstr "অনুরোধ বডিতে JSON টি অচেনা"
 
-#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:33
+#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:48
 #: app/scripts/lib/profile-errors.js:22
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "রিকোয়েস্ট বডিতে %(param)sটি প্যারামিটারটি অবৈধ"
@@ -191,7 +189,7 @@ msgstr "রিকোয়েস্ট বডিতে %(param)sটি প্যা
 msgid "Missing parameter in request body: %(param)s"
 msgstr "রিকোয়েস্ট বডিতে %(param)s প্যারামিটারটি পাওয়া যায়নি"
 
-#: app/scripts/lib/auth-errors.js:75 app/scripts/lib/oauth-errors.js:37
+#: app/scripts/lib/auth-errors.js:75 app/scripts/lib/oauth-errors.js:52
 msgid "Invalid request signature"
 msgstr "স্বাক্ষরের অনুরোধটি অবৈধ"
 
@@ -219,12 +217,12 @@ msgstr "সার্ভার ব্যস্ত, শীঘ্রই আবা�
 msgid "This endpoint is no longer supported"
 msgstr "এই শেষবিন্দু আর সমর্থিত নয়"
 
-#: app/scripts/lib/auth-errors.js:107 app/scripts/lib/oauth-errors.js:41
+#: app/scripts/lib/auth-errors.js:107 app/scripts/lib/oauth-errors.js:78
 #: app/scripts/lib/profile-errors.js:38
 msgid "System unavailable, try again soon"
 msgstr "সিস্টেম উপলব্ধ নয়, শীঘ্রই আবার চেষ্টা করুন"
 
-#: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:65
+#: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:102
 msgid "no message"
 msgstr ""
 
@@ -323,29 +321,49 @@ msgstr "যাচাইকরণ লিঙ্কটি ক্ষতিগ্র�
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr ""
 
-#: app/scripts/lib/oauth-errors.js:21
+#: app/scripts/lib/oauth-errors.js:24
 msgid "Unknown client"
 msgstr "অজানা ক্লায়েন্ট"
 
-#: app/scripts/lib/oauth-errors.js:25
+#: app/scripts/lib/oauth-errors.js:28
 msgid "Incorrect redirect_uri"
 msgstr "ভুল redirect_uri"
 
-#: app/scripts/lib/oauth-errors.js:29
+#: app/scripts/lib/oauth-errors.js:32
 msgid "Invalid assertion"
 msgstr "অকার্যকর বিবৃতি"
 
-#: app/scripts/lib/oauth-errors.js:49
+#: app/scripts/lib/oauth-errors.js:36
+msgid "Unknown code"
+msgstr ""
+
+#: app/scripts/lib/oauth-errors.js:40
+msgid "Incorrect code"
+msgstr ""
+
+#: app/scripts/lib/oauth-errors.js:44
+msgid "Expired code"
+msgstr ""
+
+#: app/scripts/lib/oauth-errors.js:60 app/scripts/lib/profile-errors.js:18
+msgid "Unauthorized"
+msgstr "অননুমোদিত"
+
+#: app/scripts/lib/oauth-errors.js:64
+msgid "Forbidden"
+msgstr ""
+
+#: app/scripts/lib/oauth-errors.js:74
+msgid "Invalid OAuth parameter: %(param)s"
+msgstr ""
+
+#: app/scripts/lib/oauth-errors.js:86
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "কিছু একটা ভুল হয়েছে। দয়াকরে এই ট্যাবটি বন্ধ করে পুনরায় চেষ্টা করুন।"
 
-#: app/scripts/lib/oauth-errors.js:69
+#: app/scripts/lib/oauth-errors.js:106
 msgid "Missing OAuth parameter: %(param)s"
 msgstr ""
-
-#: app/scripts/lib/profile-errors.js:18
-msgid "Unauthorized"
-msgstr "অননুমোদিত"
 
 #: app/scripts/lib/profile-errors.js:26
 msgid "Unsupported image provider"
@@ -360,22 +378,30 @@ msgid "Firefox Sync"
 msgstr "ফায়ারফক্স সিঙ্ক"
 
 #: app/scripts/lib/strings.js:19
-msgid "Subscribe to Firefox news and tips"
-msgstr "ফায়ারফক্স এর খবর ও টিপস-এ সাবস্ক্রাইভ করুন"
-
-#: app/scripts/lib/strings.js:22
-msgid "%(serviceName)s would like to know…"
-msgstr ""
-
-#: app/scripts/lib/strings.js:23
 msgid ""
 "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
+#: app/scripts/lib/strings.js:23
+msgid "Get the latest news about Mozilla and Firefox."
+msgstr ""
+
+#: app/scripts/lib/strings.js:24
+msgid "Communication preferences"
+msgstr ""
+
 #: app/scripts/lib/strings.js:25
-msgid "Proceed"
+msgid "Email preferences"
+msgstr ""
+
+#: app/scripts/lib/strings.js:28
+msgid "Edit profile"
+msgstr ""
+
+#: app/scripts/lib/strings.js:29
+msgid "Name"
 msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
@@ -675,6 +701,32 @@ msgstr ""
 msgid "Download Firefox for mobile devices."
 msgstr ""
 
+#: app/scripts/templates/permissions.mustache:1
+msgid "Request for permission"
+msgstr ""
+
+#: app/scripts/templates/permissions.mustache:2
+msgid "%(serviceName)s wants the following information from your account:"
+msgstr ""
+
+#: app/scripts/templates/permissions.mustache:3
+#: app/scripts/templates/reset_password.mustache:3
+#: app/scripts/templates/sign_in.mustache:17
+#: app/scripts/templates/sign_up.mustache:6
+msgid "Email"
+msgstr "ইমেইল"
+
+#: app/scripts/templates/permissions.mustache:4
+msgid "Accept"
+msgstr ""
+
+#: app/scripts/templates/permissions.mustache:5
+#: app/scripts/templates/settings/avatar_camera.mustache:3
+#: app/scripts/templates/settings/avatar_crop.mustache:4
+#: app/scripts/templates/settings/avatar_gravatar.mustache:4
+msgid "Cancel"
+msgstr "বাতিল"
+
 #: app/scripts/templates/ready.mustache:1
 msgid "Account verified"
 msgstr "যাচাইকৃত একাউন্ট"
@@ -691,19 +743,17 @@ msgstr "সফল"
 msgid "You are now ready to use %(serviceName)s"
 msgstr "%(serviceName)sটি ব্যবহার করতে আপনি এখন প্রস্তুত"
 
-#: app/scripts/templates/ready.mustache:10
+#: app/scripts/templates/ready.mustache:9
+msgid "Proceed"
+msgstr ""
+
+#: app/scripts/templates/ready.mustache:12
 msgid "Your account is ready!"
 msgstr "আপনার একাউন্ট প্রস্তুত!"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
 msgstr "একাউন্টের পাসওয়ার্ড রিসেটের জন্য আপনার ইমেইল প্রবেশ করান"
-
-#: app/scripts/templates/reset_password.mustache:3
-#: app/scripts/templates/sign_in.mustache:17
-#: app/scripts/templates/sign_up.mustache:6
-msgid "Email"
-msgstr "ইমেইল"
 
 #: app/scripts/templates/reset_password.mustache:4
 msgid ""
@@ -777,12 +827,6 @@ msgstr "একাউন্ট ছবি"
 #: app/scripts/templates/settings/avatar_camera.mustache:2
 msgid "Take picture"
 msgstr "ছবি তুলুন"
-
-#: app/scripts/templates/settings/avatar_camera.mustache:3
-#: app/scripts/templates/settings/avatar_crop.mustache:4
-#: app/scripts/templates/settings/avatar_gravatar.mustache:4
-msgid "Cancel"
-msgstr "বাতিল"
 
 #: app/scripts/templates/settings/avatar_change.mustache:2
 msgid "Upload"
@@ -868,6 +912,9 @@ msgstr "ডিসেম্বর"
 #: app/scripts/templates/partial/coppa-date-picker.mustache:34
 msgid "Day"
 msgstr "দিন"
+
+#~ msgid "Subscribe to Firefox news and tips"
+#~ msgstr "ফায়ারফক্স এর খবর ও টিপস-এ সাবস্ক্রাইভ করুন"
 
 #~ msgid "missing search parameter: %(itemName)s"
 #~ msgstr "অনুপস্থিত অনুসন্ধান প্যারামিটার: %(itemName)s"
