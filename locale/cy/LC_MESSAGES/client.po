@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-07 16:09+0000\n"
+"POT-Creation-Date: 2015-05-21 18:48+0000\n"
 "PO-Revision-Date: 2015-03-12 20:53+0000\n"
 "Last-Translator: Rhoslyn <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,11 +83,11 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/change_password.js:79
+#: app/scripts/views/change_password.js:85
 msgid "Password changed successfully"
 msgstr "Newidiwyd y cyfrinair yn llwyddiannus"
 
-#: app/scripts/views/complete_reset_password.js:133
+#: app/scripts/views/complete_reset_password.js:140
 #: app/scripts/views/complete_sign_up.js:81 app/scripts/views/confirm.js:91
 #: app/scripts/views/confirm_reset_password.js:174
 msgid "Account verified successfully"
@@ -106,19 +106,19 @@ msgstr "Ailosod cyfrinair"
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Ailosodwyd y cyfrinair yn llwyddiannus. Mewngofnodwch i barhau."
 
-#: app/scripts/views/delete_account.js:50
+#: app/scripts/views/delete_account.js:53
 msgid "Account deleted successfully"
 msgstr "Cyfrif wedi ei ddileu'n llwyddiannus"
 
-#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:203
+#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:178
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Cyfrif anhysbys. <a href=\"/signup\">Ymunwch</a>"
 
-#: app/scripts/views/settings.js:64
+#: app/scripts/views/settings.js:68
 msgid "Signed out successfully"
 msgstr "Allgofnodwyd yn llwyddiannus"
 
-#: app/scripts/views/sign_up.js:303
+#: app/scripts/views/sign_up.js:311
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Mae cyfrif yn bodoli'n barod. <a href=\"/signin\">Mewngofnodwch</a>"
 
@@ -135,10 +135,8 @@ msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:18 app/scripts/lib/oauth-errors.js:45
-#: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:57
-#: app/scripts/lib/oauth-errors.js:61 app/scripts/lib/profile-errors.js:34
-#: app/scripts/lib/profile-errors.js:42
+#: app/scripts/lib/auth-errors.js:18 app/scripts/lib/oauth-errors.js:19
+#: app/scripts/lib/profile-errors.js:34 app/scripts/lib/profile-errors.js:42
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Gwall anysbys"
@@ -183,7 +181,7 @@ msgstr "Cod dilysu annilys"
 msgid "Invalid JSON in request body"
 msgstr "Cais JSON annilys yn y corff"
 
-#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:33
+#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:48
 #: app/scripts/lib/profile-errors.js:22
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Paramedr annilys yn y corff gofyn: %(param)s"
@@ -192,7 +190,7 @@ msgstr "Paramedr annilys yn y corff gofyn: %(param)s"
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Paramedr coll yn y corff gofyn: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:75 app/scripts/lib/oauth-errors.js:37
+#: app/scripts/lib/auth-errors.js:75 app/scripts/lib/oauth-errors.js:52
 msgid "Invalid request signature"
 msgstr "Llofnod cais annilys"
 
@@ -220,12 +218,12 @@ msgstr "Gweinydd yn brysur, ceisiwch eto"
 msgid "This endpoint is no longer supported"
 msgstr "Nid yw'r pwynt diwedd yn cael ei gynnal bellach"
 
-#: app/scripts/lib/auth-errors.js:107 app/scripts/lib/oauth-errors.js:41
+#: app/scripts/lib/auth-errors.js:107 app/scripts/lib/oauth-errors.js:78
 #: app/scripts/lib/profile-errors.js:38
 msgid "System unavailable, try again soon"
 msgstr "Nid yw'r system ar gael, ceisiwch eto cyn bo hir."
 
-#: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:65
+#: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:102
 msgid "no message"
 msgstr "dim neges"
 
@@ -326,29 +324,49 @@ msgstr "Mae'r ddolen dilysu wedi ei difrodi"
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr "Ydych chi'n meddwl <span tabindex=\"1\">%(domain)s</span>?"
 
-#: app/scripts/lib/oauth-errors.js:21
+#: app/scripts/lib/oauth-errors.js:24
 msgid "Unknown client"
 msgstr "Cleient anhysbys"
 
-#: app/scripts/lib/oauth-errors.js:25
+#: app/scripts/lib/oauth-errors.js:28
 msgid "Incorrect redirect_uri"
 msgstr "redirect_uri anghywir"
 
-#: app/scripts/lib/oauth-errors.js:29
+#: app/scripts/lib/oauth-errors.js:32
 msgid "Invalid assertion"
 msgstr "Honiad annilys"
 
-#: app/scripts/lib/oauth-errors.js:49
+#: app/scripts/lib/oauth-errors.js:36
+msgid "Unknown code"
+msgstr ""
+
+#: app/scripts/lib/oauth-errors.js:40
+msgid "Incorrect code"
+msgstr ""
+
+#: app/scripts/lib/oauth-errors.js:44
+msgid "Expired code"
+msgstr ""
+
+#: app/scripts/lib/oauth-errors.js:60 app/scripts/lib/profile-errors.js:18
+msgid "Unauthorized"
+msgstr "Heb awdurdod"
+
+#: app/scripts/lib/oauth-errors.js:64
+msgid "Forbidden"
+msgstr ""
+
+#: app/scripts/lib/oauth-errors.js:74
+msgid "Invalid OAuth parameter: %(param)s"
+msgstr ""
+
+#: app/scripts/lib/oauth-errors.js:86
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Aeth rhywbeth o'i le. Caewch y tab hwn a cheisio eto."
 
-#: app/scripts/lib/oauth-errors.js:69
+#: app/scripts/lib/oauth-errors.js:106
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Paramedr OAuth coll: %(param)s"
-
-#: app/scripts/lib/profile-errors.js:18
-msgid "Unauthorized"
-msgstr "Heb awdurdod"
 
 #: app/scripts/lib/profile-errors.js:26
 msgid "Unsupported image provider"
@@ -363,22 +381,30 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:19
-msgid "Subscribe to Firefox news and tips"
-msgstr "Tanysgrifiwch i newyddion a chynghorion Firefox"
-
-#: app/scripts/lib/strings.js:22
-msgid "%(serviceName)s would like to know…"
-msgstr ""
-
-#: app/scripts/lib/strings.js:23
 msgid ""
 "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
+#: app/scripts/lib/strings.js:23
+msgid "Get the latest news about Mozilla and Firefox."
+msgstr ""
+
+#: app/scripts/lib/strings.js:24
+msgid "Communication preferences"
+msgstr ""
+
 #: app/scripts/lib/strings.js:25
-msgid "Proceed"
+msgid "Email preferences"
+msgstr ""
+
+#: app/scripts/lib/strings.js:28
+msgid "Edit profile"
+msgstr ""
+
+#: app/scripts/lib/strings.js:29
+msgid "Name"
 msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
@@ -681,6 +707,32 @@ msgstr ""
 msgid "Download Firefox for mobile devices."
 msgstr ""
 
+#: app/scripts/templates/permissions.mustache:1
+msgid "Request for permission"
+msgstr ""
+
+#: app/scripts/templates/permissions.mustache:2
+msgid "%(serviceName)s wants the following information from your account:"
+msgstr ""
+
+#: app/scripts/templates/permissions.mustache:3
+#: app/scripts/templates/reset_password.mustache:3
+#: app/scripts/templates/sign_in.mustache:17
+#: app/scripts/templates/sign_up.mustache:6
+msgid "Email"
+msgstr "E-bost"
+
+#: app/scripts/templates/permissions.mustache:4
+msgid "Accept"
+msgstr ""
+
+#: app/scripts/templates/permissions.mustache:5
+#: app/scripts/templates/settings/avatar_camera.mustache:3
+#: app/scripts/templates/settings/avatar_crop.mustache:4
+#: app/scripts/templates/settings/avatar_gravatar.mustache:4
+msgid "Cancel"
+msgstr "Diddymu"
+
 #: app/scripts/templates/ready.mustache:1
 msgid "Account verified"
 msgstr "Cyfrif wedi ei ddilysu"
@@ -697,19 +749,17 @@ msgstr "Llwyddiant"
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Rydych nawr yn barod i ddefnyddio %(serviceName)s"
 
-#: app/scripts/templates/ready.mustache:10
+#: app/scripts/templates/ready.mustache:9
+msgid "Proceed"
+msgstr ""
+
+#: app/scripts/templates/ready.mustache:12
 msgid "Your account is ready!"
 msgstr "Mae eich gwasanaeth yn barod!"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
 msgstr "Rhowch eich cyfrinair er mwyn ailosod&nbsp;cyfrinair y cyfrif."
-
-#: app/scripts/templates/reset_password.mustache:3
-#: app/scripts/templates/sign_in.mustache:17
-#: app/scripts/templates/sign_up.mustache:6
-msgid "Email"
-msgstr "E-bost"
 
 #: app/scripts/templates/reset_password.mustache:4
 msgid ""
@@ -784,12 +834,6 @@ msgstr "Llun cyfrif"
 #: app/scripts/templates/settings/avatar_camera.mustache:2
 msgid "Take picture"
 msgstr "Cymryd llun"
-
-#: app/scripts/templates/settings/avatar_camera.mustache:3
-#: app/scripts/templates/settings/avatar_crop.mustache:4
-#: app/scripts/templates/settings/avatar_gravatar.mustache:4
-msgid "Cancel"
-msgstr "Diddymu"
 
 #: app/scripts/templates/settings/avatar_change.mustache:2
 msgid "Upload"
@@ -875,6 +919,9 @@ msgstr "Rhagfyr"
 #: app/scripts/templates/partial/coppa-date-picker.mustache:34
 msgid "Day"
 msgstr "Diwrnod"
+
+#~ msgid "Subscribe to Firefox news and tips"
+#~ msgstr "Tanysgrifiwch i newyddion a chynghorion Firefox"
 
 #~ msgid "missing search parameter: %(itemName)s"
 #~ msgstr "Paramedr chwilio coll: %(itemName)s"
