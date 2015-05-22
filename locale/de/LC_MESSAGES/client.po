@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-21 18:48+0000\n"
-"PO-Revision-Date: 2015-05-07 17:48+0000\n"
+"PO-Revision-Date: 2015-05-22 08:04+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1431020921.0\n"
+"X-POOTLE-MTIME: 1432281842.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -346,15 +346,15 @@ msgstr "Ungültige Zusicherung"
 
 #: app/scripts/lib/oauth-errors.js:36
 msgid "Unknown code"
-msgstr ""
+msgstr "Unbekannter Code"
 
 #: app/scripts/lib/oauth-errors.js:40
 msgid "Incorrect code"
-msgstr ""
+msgstr "Fehlerhafter Code"
 
 #: app/scripts/lib/oauth-errors.js:44
 msgid "Expired code"
-msgstr ""
+msgstr "Abgelaufener Code"
 
 #: app/scripts/lib/oauth-errors.js:60 app/scripts/lib/profile-errors.js:18
 msgid "Unauthorized"
@@ -362,11 +362,11 @@ msgstr "Nicht autorisiert"
 
 #: app/scripts/lib/oauth-errors.js:64
 msgid "Forbidden"
-msgstr ""
+msgstr "Verboten"
 
 #: app/scripts/lib/oauth-errors.js:74
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Ungültiger OAuth-Parameter: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:86
 msgid "Something went wrong. Please close this tab and try again."
@@ -402,23 +402,23 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:23
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Erhalten Sie die neuesten Nachrichten über Mozilla und Firefox."
 
 #: app/scripts/lib/strings.js:24
 msgid "Communication preferences"
-msgstr ""
+msgstr "Einstellungen zur Kommunikation"
 
 #: app/scripts/lib/strings.js:25
 msgid "Email preferences"
-msgstr ""
+msgstr "Einstellungen zu E-Mails"
 
 #: app/scripts/lib/strings.js:28
 msgid "Edit profile"
-msgstr ""
+msgstr "Profil bearbeiten"
 
 #: app/scripts/lib/strings.js:29
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -732,11 +732,12 @@ msgstr "Laden Sie Firefox für Mobilgeräte herunter."
 
 #: app/scripts/templates/permissions.mustache:1
 msgid "Request for permission"
-msgstr ""
+msgstr "Genehmigungsanfrage"
 
 #: app/scripts/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
 msgstr ""
+"%(serviceName)s möchte die folgenden Informationen von Ihrem Konto haben:"
 
 #: app/scripts/templates/permissions.mustache:3
 #: app/scripts/templates/reset_password.mustache:3
@@ -747,7 +748,7 @@ msgstr "E-Mail-Adresse"
 
 #: app/scripts/templates/permissions.mustache:4
 msgid "Accept"
-msgstr ""
+msgstr "Akzeptieren"
 
 #: app/scripts/templates/permissions.mustache:5
 #: app/scripts/templates/settings/avatar_camera.mustache:3
