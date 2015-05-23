@@ -9,8 +9,8 @@
     "type": "git",
     "url": "git://github.com/mozilla/fxa-content-server-l10n.git"
   },
-  "author": "",
-  "license": "MPL 2",
+  "author": "Mozilla (https://mozilla.org/)",
+  "license": "MPL-2.0",
   "bugs": {
     "url": "https://github.com/mozilla/fxa-content-server-l10n/issues"
   }
