@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-21 18:48+0000\n"
-"PO-Revision-Date: 2015-05-09 08:31+0000\n"
+"PO-Revision-Date: 2015-05-26 09:53+0000\n"
 "Last-Translator: Gábor <kelemeng@ubuntu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n !=1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1431160304.0\n"
+"X-POOTLE-MTIME: 1432633993.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -340,15 +340,15 @@ msgstr "Érvényesítési hiba"
 
 #: app/scripts/lib/oauth-errors.js:36
 msgid "Unknown code"
-msgstr ""
+msgstr "Ismeretlen kód"
 
 #: app/scripts/lib/oauth-errors.js:40
 msgid "Incorrect code"
-msgstr ""
+msgstr "Helytelen kód"
 
 #: app/scripts/lib/oauth-errors.js:44
 msgid "Expired code"
-msgstr ""
+msgstr "Lejárt kód"
 
 #: app/scripts/lib/oauth-errors.js:60 app/scripts/lib/profile-errors.js:18
 msgid "Unauthorized"
@@ -356,11 +356,11 @@ msgstr "Nincs felhatalmazva"
 
 #: app/scripts/lib/oauth-errors.js:64
 msgid "Forbidden"
-msgstr ""
+msgstr "Tiltott"
 
 #: app/scripts/lib/oauth-errors.js:74
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Érvénytelen OAuth paraméter: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:86
 msgid "Something went wrong. Please close this tab and try again."
@@ -388,29 +388,29 @@ msgid ""
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"A folytatással elfogadom a(z)  %(serviceName)s (%(serviceUri)s) <a id="
-"\"service-tos\" href=\"%(termsUri)s\">Felhasználási feltételeit</a> és az <a "
-"id=\"service-pp\" href=\"%(privacyUri)s\">Adatvédelmi irányelveit</a>."
+"A folytatással elfogadom a(z) %(serviceName)s (%(serviceUri)s) <a id"
+"=\"service-tos\" href=\"%(termsUri)s\">Felhasználási feltételeit</a> és az <a id"
+"=\"service-pp\" href=\"%(privacyUri)s\">Adatvédelmi irányelveit</a>."
 
 #: app/scripts/lib/strings.js:23
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Iratkozzon fel a legfrissebb Mozilla és Firefox hírekre."
 
 #: app/scripts/lib/strings.js:24
 msgid "Communication preferences"
-msgstr ""
+msgstr "Kommunikációs beállítások"
 
 #: app/scripts/lib/strings.js:25
 msgid "Email preferences"
-msgstr ""
+msgstr "E-mail beállítások"
 
 #: app/scripts/lib/strings.js:28
 msgid "Edit profile"
-msgstr ""
+msgstr "Profil szerkesztése"
 
 #: app/scripts/lib/strings.js:29
 msgid "Name"
-msgstr ""
+msgstr "Név"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -716,11 +716,11 @@ msgstr "A Firefox letöltése mobil eszközökre."
 
 #: app/scripts/templates/permissions.mustache:1
 msgid "Request for permission"
-msgstr ""
+msgstr "Engedélykérés"
 
 #: app/scripts/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr ""
+msgstr "%(serviceName)s a következő információkat kéri a fiókjáról:"
 
 #: app/scripts/templates/permissions.mustache:3
 #: app/scripts/templates/reset_password.mustache:3
@@ -731,7 +731,7 @@ msgstr "E-mail"
 
 #: app/scripts/templates/permissions.mustache:4
 msgid "Accept"
-msgstr ""
+msgstr "Elfogadás"
 
 #: app/scripts/templates/permissions.mustache:5
 #: app/scripts/templates/settings/avatar_camera.mustache:3
