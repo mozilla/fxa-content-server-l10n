@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-21 18:48+0000\n"
-"PO-Revision-Date: 2014-10-25 17:01+0000\n"
-"Last-Translator: asiersar <asier.sarasua@gmail.com>\n"
+"PO-Revision-Date: 2015-06-02 20:46+0000\n"
+"Last-Translator: Julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1414256497.0\n"
+"X-POOTLE-MTIME: 1433278005.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -26,7 +26,7 @@ msgstr "Firefoxeko kontuak"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
-msgstr ""
+msgstr "Eskaera okerra"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -59,7 +59,7 @@ msgstr ""
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "502 errorea"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -152,18 +152,21 @@ msgid ""
 "account-level activities, please click the link to re-verify your account "
 "now."
 msgstr ""
+"Segurtasun arrazoiengatik, zure Firefoxeko kontua blokeatu egin da. Kontu "
+"mailako jarduerak egiteko, egin klik loturan zure kontua berriro "
+"egiaztatzeko."
 
 #: templates/unlock.html:3
 msgid "Verify account"
-msgstr ""
+msgstr "Egiaztatu kontua"
 
 #: templates/unlock.txt:2
 msgid "Verify account:"
-msgstr ""
+msgstr "Egiaztatu kontua:"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Almost there"
-msgstr ""
+msgstr "Kasik amaitu dugu"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
@@ -187,7 +190,7 @@ msgstr "Berrezarri pasahitza"
 
 #: mailer.js:146
 msgid "Re-verify your account"
-msgstr ""
+msgstr "Egiaztatu berriro zure kontua"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Zorionak!"
