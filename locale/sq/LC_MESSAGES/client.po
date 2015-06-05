@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-21 18:48+0000\n"
+"POT-Creation-Date: 2015-06-05 18:11+0000\n"
 "PO-Revision-Date: 2015-05-01 19:41+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,9 +86,9 @@ msgstr "2007"
 msgid "Password changed successfully"
 msgstr "Fjalëkalimi u ndryshua me sukses"
 
-#: app/scripts/views/complete_reset_password.js:140
-#: app/scripts/views/complete_sign_up.js:81 app/scripts/views/confirm.js:91
-#: app/scripts/views/confirm_reset_password.js:174
+#: app/scripts/views/complete_reset_password.js:139
+#: app/scripts/views/complete_sign_up.js:94 app/scripts/views/confirm.js:90
+#: app/scripts/views/confirm_reset_password.js:172
 msgid "Account verified successfully"
 msgstr "Llogaria u verifikua me sukses"
 
@@ -96,12 +96,12 @@ msgstr "Llogaria u verifikua me sukses"
 msgid "Account unlocked, please try again"
 msgstr "Llogai e shkyçur, ju lutemi, riprovoni"
 
-#: app/scripts/views/confirm_reset_password.js:162
+#: app/scripts/views/confirm_reset_password.js:160
 #: app/scripts/templates/ready.mustache:3
 msgid "Password reset"
 msgstr "Ricaktim fjalëkalimi"
 
-#: app/scripts/views/confirm_reset_password.js:190
+#: app/scripts/views/confirm_reset_password.js:188
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Fjalëkalimi u ricaktua me sukses. Hyni që të vazhdoni."
 
@@ -109,15 +109,15 @@ msgstr "Fjalëkalimi u ricaktua me sukses. Hyni që të vazhdoni."
 msgid "Account deleted successfully"
 msgstr "Llogaria u fshi me sukses"
 
-#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:178
+#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:176
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Llogari e panjohur. <a href=\"/signup\">Regjistrohuni</a>"
 
-#: app/scripts/views/settings.js:68
+#: app/scripts/views/settings.js:76
 msgid "Signed out successfully"
 msgstr "Dolët me sukses"
 
-#: app/scripts/views/sign_up.js:311
+#: app/scripts/views/sign_up.js:317
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Ka tashmë një llogari të tillë. <a href=\"/signin\">Hyni</a>"
 
@@ -130,6 +130,14 @@ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr ""
 "Me lejen dashamirëse të <a href=\"https://www.gravatar.com\">Gravatar</a>-it"
 
+#: app/scripts/views/settings/communication_preferences.js:91
+msgid "Subscribed successfully"
+msgstr ""
+
+#: app/scripts/views/settings/communication_preferences.js:92
+msgid "Unsubscribed successfully"
+msgstr ""
+
 #: app/scripts/views/mixins/account-locked-mixin.js:28
 msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
@@ -137,8 +145,10 @@ msgstr ""
 "Llogari e kyçur. <a href=\"/confirm_account_unlock\">Dërgoni email "
 "shkyçjeje</a>"
 
-#: app/scripts/lib/auth-errors.js:18 app/scripts/lib/oauth-errors.js:19
-#: app/scripts/lib/profile-errors.js:34 app/scripts/lib/profile-errors.js:42
+#: app/scripts/lib/auth-errors.js:18
+#: app/scripts/lib/marketing-email-errors.js:18
+#: app/scripts/lib/oauth-errors.js:19 app/scripts/lib/profile-errors.js:34
+#: app/scripts/lib/profile-errors.js:42
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Gabim i papritur"
@@ -229,8 +239,9 @@ msgstr "Kjo pikë mbarimi nuk mbulohet më"
 #
 # Siç mund të shihet, edhe sikur nga ana e domethënies të ishte i përshtatshëm, përkthimi "përpiquni sërish" thuajse dyfishon "riprovoni". Nga pikëpamja e ekonomisë në përkthim, kjo nuk përligjet.
 # Nga ana e domethënies "përpiquni sërish" e zgjeron fokusin e veprimeve të mundshme pas dështimit. Kurse "riprovoni" do të thotë të bësh edhe një provë tjetër, të po atij veprimi që kishe bërë më parë.
-#: app/scripts/lib/auth-errors.js:107 app/scripts/lib/oauth-errors.js:78
-#: app/scripts/lib/profile-errors.js:38
+#: app/scripts/lib/auth-errors.js:107
+#: app/scripts/lib/marketing-email-errors.js:79
+#: app/scripts/lib/oauth-errors.js:78 app/scripts/lib/profile-errors.js:38
 msgid "System unavailable, try again soon"
 msgstr "Sistemi s’është në punë, riprovoni së shpejti"
 
@@ -332,7 +343,7 @@ msgstr "Lidhja që klikuat për verifikimin e email-it tuaj ka skaduar."
 msgid "Verification link damaged"
 msgstr "Lidhja për verifikimin është e dëmtuar"
 
-#: app/scripts/lib/mailcheck.js:66
+#: app/scripts/lib/mailcheck.js:67
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr "E kishit fjalën për <span tabindex=\"1\">%(domain)s</span>?"
 
@@ -394,20 +405,23 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:19
 msgid ""
-"By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
-#: app/scripts/lib/strings.js:23
+#: app/scripts/lib/strings.js:23 app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/settings/communication_preferences.mustache:2
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr ""
 
-#: app/scripts/lib/strings.js:24
+#: app/scripts/lib/strings.js:24 app/scripts/templates/settings.mustache:5
+#: app/scripts/templates/settings/communication_preferences.mustache:1
 msgid "Communication preferences"
 msgstr ""
 
 #: app/scripts/lib/strings.js:25
+#: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Email preferences"
 msgstr ""
 
@@ -435,7 +449,7 @@ msgid "Learn more."
 msgstr "Mësoni më tepër."
 
 #: app/scripts/templates/change_password.mustache:1
-#: app/scripts/templates/settings.mustache:5
+#: app/scripts/templates/settings.mustache:7
 msgid "Change password"
 msgstr "Ndryshoni fjalëkalimin"
 
@@ -478,6 +492,8 @@ msgstr "Ripohojeni"
 #: app/scripts/templates/pp.mustache:3
 #: app/scripts/templates/reset_password.mustache:6
 #: app/scripts/templates/tos.mustache:3
+#: app/scripts/templates/settings/communication_preferences.mustache:6
+#: app/scripts/templates/settings/communication_preferences.mustache:9
 msgid "Back"
 msgstr "Mbrapsht"
 
@@ -645,7 +661,7 @@ msgstr "Riprovoni"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
-#: app/scripts/templates/settings.mustache:6
+#: app/scripts/templates/settings.mustache:8
 msgid "Delete account"
 msgstr "Fshijeni llogarinë"
 
@@ -678,13 +694,10 @@ msgstr "Harruat  fjalëkalimin?"
 #: app/scripts/templates/sign_in.mustache:25
 #: app/scripts/templates/sign_up.mustache:13
 msgid ""
-"By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-"of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
-"a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
-"Duke vazhduar më tej, pajtohem me <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Kushtet e Shërbimit</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy"
-"\">Shënimet mbi Privatësinë</a> të shërbimeve Firefox për re."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -696,13 +709,13 @@ msgid "Legal"
 msgstr "Ligjore"
 
 #: app/scripts/templates/legal.mustache:3
-#: app/scripts/templates/settings.mustache:9
+#: app/scripts/templates/settings.mustache:11
 #: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "Kushte Shërbimi"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
-#: app/scripts/templates/settings.mustache:10
+#: app/scripts/templates/settings.mustache:12
 msgid "Privacy Notice"
 msgstr "Shënim mbi Privatësinë"
 
@@ -816,7 +829,7 @@ msgstr "Ndryshoje"
 msgid "You are signed in as"
 msgstr "Keni hyrë si"
 
-#: app/scripts/templates/settings.mustache:7
+#: app/scripts/templates/settings.mustache:9
 msgid "Sign out"
 msgstr "Dilni"
 
@@ -839,15 +852,15 @@ msgstr "Krijoni një llogari"
 msgid "Create a Firefox Account"
 msgstr "Krijoni një llogari Firefox Account"
 
-#: app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/sign_up.mustache:16
 msgid "Sign up"
 msgstr "Regjistroje"
 
-#: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/sign_up.mustache:18
 msgid "Choose what to sync"
 msgstr "Zgjidhni çfarë të njëkohësohet"
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:20
 msgid "Already have an account? Sign in."
 msgstr "Keni tashmë një llogari? Hyni."
 
@@ -888,6 +901,14 @@ msgstr "Vendoseni dhe rrotullojeni foton tuaj sipas nevojës"
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3
 msgid "Save"
 msgstr "Ruaje"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:3
+msgid "Unsubscribe"
+msgstr ""
+
+#: app/scripts/templates/settings/communication_preferences.mustache:5
+msgid "Subscribe"
+msgstr ""
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2
 msgid "Year of birth"
@@ -952,6 +973,15 @@ msgstr "Dhjetor"
 #: app/scripts/templates/partial/coppa-date-picker.mustache:34
 msgid "Day"
 msgstr "Ditë"
+
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr ""
+#~ "Duke vazhduar më tej, pajtohem me <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Kushtet e Shërbimit</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Shënimet mbi Privatësinë</a> të shërbimeve Firefox për re."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Pajtohuni te lajmet dhe ndihmëzat mbi Firefox-in"

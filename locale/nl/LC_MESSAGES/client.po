@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-21 18:48+0000\n"
+"POT-Creation-Date: 2015-06-05 18:11+0000\n"
 "PO-Revision-Date: 2015-05-22 09:14+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,9 +86,9 @@ msgstr "2007"
 msgid "Password changed successfully"
 msgstr "Wachtwoord met succes gewijzigd"
 
-#: app/scripts/views/complete_reset_password.js:140
-#: app/scripts/views/complete_sign_up.js:81 app/scripts/views/confirm.js:91
-#: app/scripts/views/confirm_reset_password.js:174
+#: app/scripts/views/complete_reset_password.js:139
+#: app/scripts/views/complete_sign_up.js:94 app/scripts/views/confirm.js:90
+#: app/scripts/views/confirm_reset_password.js:172
 msgid "Account verified successfully"
 msgstr "Account met succes geverifieerd"
 
@@ -96,12 +96,12 @@ msgstr "Account met succes geverifieerd"
 msgid "Account unlocked, please try again"
 msgstr "Account ontgrendeld, probeer het opnieuw"
 
-#: app/scripts/views/confirm_reset_password.js:162
+#: app/scripts/views/confirm_reset_password.js:160
 #: app/scripts/templates/ready.mustache:3
 msgid "Password reset"
 msgstr "Wachtwoord opnieuw ingesteld"
 
-#: app/scripts/views/confirm_reset_password.js:190
+#: app/scripts/views/confirm_reset_password.js:188
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Wachtwoord is opnieuw ingesteld. Meld u aan om door te gaan."
 
@@ -109,15 +109,15 @@ msgstr "Wachtwoord is opnieuw ingesteld. Meld u aan om door te gaan."
 msgid "Account deleted successfully"
 msgstr "Account met succes verwijderd"
 
-#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:178
+#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:176
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Onbekende account. <a href=\"/signup\">Registreren</a>"
 
-#: app/scripts/views/settings.js:68
+#: app/scripts/views/settings.js:76
 msgid "Signed out successfully"
 msgstr "U bent afgemeld"
 
-#: app/scripts/views/sign_up.js:311
+#: app/scripts/views/sign_up.js:317
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Account bestaat al. <a href=\"/signin\">Aanmelden</a>"
 
@@ -129,6 +129,14 @@ msgstr "Geen Gravatar gevonden"
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "Met dank aan <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
+#: app/scripts/views/settings/communication_preferences.js:91
+msgid "Subscribed successfully"
+msgstr ""
+
+#: app/scripts/views/settings/communication_preferences.js:92
+msgid "Unsubscribed successfully"
+msgstr ""
+
 #: app/scripts/views/mixins/account-locked-mixin.js:28
 msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
@@ -136,8 +144,10 @@ msgstr ""
 "Account vergrendeld. <a href=\"/confirm_account_unlock\">E-mail voor "
 "ontgrendeling verzenden</a>"
 
-#: app/scripts/lib/auth-errors.js:18 app/scripts/lib/oauth-errors.js:19
-#: app/scripts/lib/profile-errors.js:34 app/scripts/lib/profile-errors.js:42
+#: app/scripts/lib/auth-errors.js:18
+#: app/scripts/lib/marketing-email-errors.js:18
+#: app/scripts/lib/oauth-errors.js:19 app/scripts/lib/profile-errors.js:34
+#: app/scripts/lib/profile-errors.js:42
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Onverwachte fout"
@@ -219,8 +229,9 @@ msgstr "Server bezet, probeer het later opnieuw"
 msgid "This endpoint is no longer supported"
 msgstr "Dit eindpunt wordt niet meer ondersteund"
 
-#: app/scripts/lib/auth-errors.js:107 app/scripts/lib/oauth-errors.js:78
-#: app/scripts/lib/profile-errors.js:38
+#: app/scripts/lib/auth-errors.js:107
+#: app/scripts/lib/marketing-email-errors.js:79
+#: app/scripts/lib/oauth-errors.js:78 app/scripts/lib/profile-errors.js:38
 msgid "System unavailable, try again soon"
 msgstr "Systeem niet beschikbaar, probeer het later opnieuw"
 
@@ -324,7 +335,7 @@ msgstr ""
 msgid "Verification link damaged"
 msgstr "Verificatiekoppeling beschadigd"
 
-#: app/scripts/lib/mailcheck.js:66
+#: app/scripts/lib/mailcheck.js:67
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr "Bedoelde u <span tabindex=\"1\">%(domain)s</span>?"
 
@@ -386,23 +397,23 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:19
 msgid ""
-"By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Door verder te gaan ga ik akkoord met de <a id=\"service-tos\" href="
-"\"%(termsUri)s\">Servicevoorwaarden</a> en het <a id=\"service-pp\" href="
-"\"%(privacyUri)s\">Privacybeleid</a> van %(serviceName)s (%(serviceUri)s)."
 
-#: app/scripts/lib/strings.js:23
+#: app/scripts/lib/strings.js:23 app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/settings/communication_preferences.mustache:2
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Ontvang het laatste nieuws over Mozilla en Firefox."
 
-#: app/scripts/lib/strings.js:24
+#: app/scripts/lib/strings.js:24 app/scripts/templates/settings.mustache:5
+#: app/scripts/templates/settings/communication_preferences.mustache:1
 msgid "Communication preferences"
 msgstr "Communicatievoorkeuren"
 
 #: app/scripts/lib/strings.js:25
+#: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Email preferences"
 msgstr "E-mailvoorkeuren"
 
@@ -430,7 +441,7 @@ msgid "Learn more."
 msgstr "Meer lezen."
 
 #: app/scripts/templates/change_password.mustache:1
-#: app/scripts/templates/settings.mustache:5
+#: app/scripts/templates/settings.mustache:7
 msgid "Change password"
 msgstr "Wachtwoord wijzigen"
 
@@ -473,6 +484,8 @@ msgstr "Bevestigen"
 #: app/scripts/templates/pp.mustache:3
 #: app/scripts/templates/reset_password.mustache:6
 #: app/scripts/templates/tos.mustache:3
+#: app/scripts/templates/settings/communication_preferences.mustache:6
+#: app/scripts/templates/settings/communication_preferences.mustache:9
 msgid "Back"
 msgstr "Terug"
 
@@ -628,7 +641,7 @@ msgstr "Opnieuw proberen"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
-#: app/scripts/templates/settings.mustache:6
+#: app/scripts/templates/settings.mustache:8
 msgid "Delete account"
 msgstr "Account verwijderen"
 
@@ -661,13 +674,10 @@ msgstr "Wachtwoord vergeten?"
 #: app/scripts/templates/sign_in.mustache:25
 #: app/scripts/templates/sign_up.mustache:13
 msgid ""
-"By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-"of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
-"a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
-"Door verder te gaan ga ik akkoord met de <a id=\"fxa-tos\" href=\"/legal/"
-"terms\">Servicevoorwaarden</a> en <a id=\"fxa-pp\" href=\"/legal/privacy"
-"\">Privacyverklaring</a> van Firefox-cloudservices."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -679,13 +689,13 @@ msgid "Legal"
 msgstr "Juridisch"
 
 #: app/scripts/templates/legal.mustache:3
-#: app/scripts/templates/settings.mustache:9
+#: app/scripts/templates/settings.mustache:11
 #: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "Servicevoorwaarden"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
-#: app/scripts/templates/settings.mustache:10
+#: app/scripts/templates/settings.mustache:12
 msgid "Privacy Notice"
 msgstr "Privacyverklaring"
 
@@ -801,7 +811,7 @@ msgstr "Wijzigen"
 msgid "You are signed in as"
 msgstr "U bent aangemeld als"
 
-#: app/scripts/templates/settings.mustache:7
+#: app/scripts/templates/settings.mustache:9
 msgid "Sign out"
 msgstr "Afmelden"
 
@@ -824,15 +834,15 @@ msgstr "Een account aanmaken"
 msgid "Create a Firefox Account"
 msgstr "Een Firefox-account aanmaken"
 
-#: app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/sign_up.mustache:16
 msgid "Sign up"
 msgstr "Registreren"
 
-#: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/sign_up.mustache:18
 msgid "Choose what to sync"
 msgstr "Kies wat u wilt synchroniseren"
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:20
 msgid "Already have an account? Sign in."
 msgstr "Hebt u al een account? Meld u aan."
 
@@ -873,6 +883,14 @@ msgstr "Plaats en draai zo nodig uw foto"
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3
 msgid "Save"
 msgstr "Opslaan"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:3
+msgid "Unsubscribe"
+msgstr ""
+
+#: app/scripts/templates/settings/communication_preferences.mustache:5
+msgid "Subscribe"
+msgstr ""
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2
 msgid "Year of birth"
@@ -937,6 +955,24 @@ msgstr "december"
 #: app/scripts/templates/partial/coppa-date-picker.mustache:34
 msgid "Day"
 msgstr "Dag"
+
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+#~ "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+#~ "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgstr ""
+#~ "Door verder te gaan ga ik akkoord met de <a id=\"service-tos\" href="
+#~ "\"%(termsUri)s\">Servicevoorwaarden</a> en het <a id=\"service-pp\" href="
+#~ "\"%(privacyUri)s\">Privacybeleid</a> van %(serviceName)s (%(serviceUri)s)."
+
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr ""
+#~ "Door verder te gaan ga ik akkoord met de <a id=\"fxa-tos\" href=\"/legal/"
+#~ "terms\">Servicevoorwaarden</a> en <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Privacyverklaring</a> van Firefox-cloudservices."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Abonneren op Firefox-nieuws en -tips"

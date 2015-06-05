@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-21 18:48+0000\n"
+"POT-Creation-Date: 2015-06-05 18:11+0000\n"
 "PO-Revision-Date: 2015-03-12 20:53+0000\n"
 "Last-Translator: Rhoslyn <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,9 +87,9 @@ msgstr "2007"
 msgid "Password changed successfully"
 msgstr "Newidiwyd y cyfrinair yn llwyddiannus"
 
-#: app/scripts/views/complete_reset_password.js:140
-#: app/scripts/views/complete_sign_up.js:81 app/scripts/views/confirm.js:91
-#: app/scripts/views/confirm_reset_password.js:174
+#: app/scripts/views/complete_reset_password.js:139
+#: app/scripts/views/complete_sign_up.js:94 app/scripts/views/confirm.js:90
+#: app/scripts/views/confirm_reset_password.js:172
 msgid "Account verified successfully"
 msgstr "Dilyswyd y cyfrif yn llwyddiannus"
 
@@ -97,12 +97,12 @@ msgstr "Dilyswyd y cyfrif yn llwyddiannus"
 msgid "Account unlocked, please try again"
 msgstr ""
 
-#: app/scripts/views/confirm_reset_password.js:162
+#: app/scripts/views/confirm_reset_password.js:160
 #: app/scripts/templates/ready.mustache:3
 msgid "Password reset"
 msgstr "Ailosod cyfrinair"
 
-#: app/scripts/views/confirm_reset_password.js:190
+#: app/scripts/views/confirm_reset_password.js:188
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Ailosodwyd y cyfrinair yn llwyddiannus. Mewngofnodwch i barhau."
 
@@ -110,15 +110,15 @@ msgstr "Ailosodwyd y cyfrinair yn llwyddiannus. Mewngofnodwch i barhau."
 msgid "Account deleted successfully"
 msgstr "Cyfrif wedi ei ddileu'n llwyddiannus"
 
-#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:178
+#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:176
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Cyfrif anhysbys. <a href=\"/signup\">Ymunwch</a>"
 
-#: app/scripts/views/settings.js:68
+#: app/scripts/views/settings.js:76
 msgid "Signed out successfully"
 msgstr "Allgofnodwyd yn llwyddiannus"
 
-#: app/scripts/views/sign_up.js:311
+#: app/scripts/views/sign_up.js:317
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Mae cyfrif yn bodoli'n barod. <a href=\"/signin\">Mewngofnodwch</a>"
 
@@ -130,13 +130,23 @@ msgstr "Heb ganfod grafatar"
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "Trwy garedigrwydd <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
+#: app/scripts/views/settings/communication_preferences.js:91
+msgid "Subscribed successfully"
+msgstr ""
+
+#: app/scripts/views/settings/communication_preferences.js:92
+msgid "Unsubscribed successfully"
+msgstr ""
+
 #: app/scripts/views/mixins/account-locked-mixin.js:28
 msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:18 app/scripts/lib/oauth-errors.js:19
-#: app/scripts/lib/profile-errors.js:34 app/scripts/lib/profile-errors.js:42
+#: app/scripts/lib/auth-errors.js:18
+#: app/scripts/lib/marketing-email-errors.js:18
+#: app/scripts/lib/oauth-errors.js:19 app/scripts/lib/profile-errors.js:34
+#: app/scripts/lib/profile-errors.js:42
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Gwall anysbys"
@@ -218,8 +228,9 @@ msgstr "Gweinydd yn brysur, ceisiwch eto"
 msgid "This endpoint is no longer supported"
 msgstr "Nid yw'r pwynt diwedd yn cael ei gynnal bellach"
 
-#: app/scripts/lib/auth-errors.js:107 app/scripts/lib/oauth-errors.js:78
-#: app/scripts/lib/profile-errors.js:38
+#: app/scripts/lib/auth-errors.js:107
+#: app/scripts/lib/marketing-email-errors.js:79
+#: app/scripts/lib/oauth-errors.js:78 app/scripts/lib/profile-errors.js:38
 msgid "System unavailable, try again soon"
 msgstr "Nid yw'r system ar gael, ceisiwch eto cyn bo hir."
 
@@ -320,7 +331,7 @@ msgstr ""
 msgid "Verification link damaged"
 msgstr "Mae'r ddolen dilysu wedi ei difrodi"
 
-#: app/scripts/lib/mailcheck.js:66
+#: app/scripts/lib/mailcheck.js:67
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr "Ydych chi'n meddwl <span tabindex=\"1\">%(domain)s</span>?"
 
@@ -382,20 +393,23 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:19
 msgid ""
-"By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
-#: app/scripts/lib/strings.js:23
+#: app/scripts/lib/strings.js:23 app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/settings/communication_preferences.mustache:2
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr ""
 
-#: app/scripts/lib/strings.js:24
+#: app/scripts/lib/strings.js:24 app/scripts/templates/settings.mustache:5
+#: app/scripts/templates/settings/communication_preferences.mustache:1
 msgid "Communication preferences"
 msgstr ""
 
 #: app/scripts/lib/strings.js:25
+#: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Email preferences"
 msgstr ""
 
@@ -421,7 +435,7 @@ msgid "Learn more."
 msgstr "Dysgu rhagor."
 
 #: app/scripts/templates/change_password.mustache:1
-#: app/scripts/templates/settings.mustache:5
+#: app/scripts/templates/settings.mustache:7
 msgid "Change password"
 msgstr "Newid cyfrinair"
 
@@ -462,6 +476,8 @@ msgstr "Cadarnhau"
 #: app/scripts/templates/pp.mustache:3
 #: app/scripts/templates/reset_password.mustache:6
 #: app/scripts/templates/tos.mustache:3
+#: app/scripts/templates/settings/communication_preferences.mustache:6
+#: app/scripts/templates/settings/communication_preferences.mustache:9
 msgid "Back"
 msgstr "Nôl"
 
@@ -612,7 +628,7 @@ msgstr "Ceisiwch eto"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
-#: app/scripts/templates/settings.mustache:6
+#: app/scripts/templates/settings.mustache:8
 msgid "Delete account"
 msgstr "Dileu'r cyfrif"
 
@@ -645,13 +661,10 @@ msgstr "Wedi anghofio'r cyfrinair?"
 #: app/scripts/templates/sign_in.mustache:25
 #: app/scripts/templates/sign_up.mustache:13
 msgid ""
-"By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-"of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</"
-"a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
-"Drwy barhau, rwy'n cytuno i <a id=\"fxa-tos\" href=\"/legal/terms\">Amodau'r "
-"Gwasanaeth</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad "
-"Preifatrwydd</a> gwasanaethau cwmwl Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -663,13 +676,13 @@ msgid "Legal"
 msgstr "Cyfreithiol"
 
 #: app/scripts/templates/legal.mustache:3
-#: app/scripts/templates/settings.mustache:9
+#: app/scripts/templates/settings.mustache:11
 #: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "Amdau'r Gwasanaeth"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
-#: app/scripts/templates/settings.mustache:10
+#: app/scripts/templates/settings.mustache:12
 msgid "Privacy Notice"
 msgstr "Hysbysiad Preifatrwydd"
 
@@ -783,7 +796,7 @@ msgstr "Newid"
 msgid "You are signed in as"
 msgstr "Rydych wedi mewngofnodi fel"
 
-#: app/scripts/templates/settings.mustache:7
+#: app/scripts/templates/settings.mustache:9
 msgid "Sign out"
 msgstr "Allgofnodi"
 
@@ -806,15 +819,15 @@ msgstr "Creu cyfrif"
 msgid "Create a Firefox Account"
 msgstr "Creu Cyfrif Firefox"
 
-#: app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/sign_up.mustache:16
 msgid "Sign up"
 msgstr "Ymuno"
 
-#: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/sign_up.mustache:18
 msgid "Choose what to sync"
 msgstr "Dewis beth i gydweddu"
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:20
 msgid "Already have an account? Sign in."
 msgstr "Oes gennych gyfrif eisoes? Mewngofnodwch."
 
@@ -855,6 +868,14 @@ msgstr "Gosodwch a throi eich llun yn ôl y galw"
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3
 msgid "Save"
 msgstr "Cadw"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:3
+msgid "Unsubscribe"
+msgstr ""
+
+#: app/scripts/templates/settings/communication_preferences.mustache:5
+msgid "Subscribe"
+msgstr ""
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2
 msgid "Year of birth"
@@ -919,6 +940,15 @@ msgstr "Rhagfyr"
 #: app/scripts/templates/partial/coppa-date-picker.mustache:34
 msgid "Day"
 msgstr "Diwrnod"
+
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr ""
+#~ "Drwy barhau, rwy'n cytuno i <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Amodau'r Gwasanaeth</a> a <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Hysbysiad Preifatrwydd</a> gwasanaethau cwmwl Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Tanysgrifiwch i newyddion a chynghorion Firefox"
