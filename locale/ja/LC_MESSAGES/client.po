@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-05 18:11+0000\n"
-"PO-Revision-Date: 2015-05-22 10:06-0400\n"
+"PO-Revision-Date: 2015-06-06 10:17-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -131,11 +131,11 @@ msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> による提供"
 
 #: app/scripts/views/settings/communication_preferences.js:91
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "購読を開始しました"
 
 #: app/scripts/views/settings/communication_preferences.js:92
 msgid "Unsubscribed successfully"
-msgstr ""
+msgstr "購読を解除しました"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:28
 msgid ""
@@ -399,6 +399,9 @@ msgid ""
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
+"続けることで、%(serviceName)s (%(serviceUri)s) の <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">利用規約</a> と <a id=\"service-pp\" href="
+"\"%(privacyUri)s\">プライバシー通知</a> に同意したものとみなされます。"
 
 #: app/scripts/lib/strings.js:23 app/scripts/templates/sign_up.mustache:14
 #: app/scripts/templates/settings/communication_preferences.mustache:2
@@ -673,6 +676,9 @@ msgid ""
 "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
 "Notice</a> of Firefox cloud services."
 msgstr ""
+"続けることで、Firefox クラウドサービスの <a id=\"fxa-tos\" href=\"/legal/terms\">"
+"利用規約</a> と <a id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー通知</a> に"
+"同意したものとみなされます。"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -883,11 +889,11 @@ msgstr "保存"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Unsubscribe"
-msgstr ""
+msgstr "購読解除"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:5
 msgid "Subscribe"
-msgstr ""
+msgstr "購読開始"
 
 # Android の UI に合わせる
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2
@@ -953,21 +959,3 @@ msgstr "12月"
 #: app/scripts/templates/partial/coppa-date-picker.mustache:34
 msgid "Day"
 msgstr "日"
-
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-#~ "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-#~ "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-#~ msgstr ""
-#~ "続けることで、%(serviceName)s (%(serviceUri)s) の <a id=\"service-tos\" "
-#~ "href=\"%(termsUri)s\">利用規約</a> と <a id=\"service-pp\" href="
-#~ "\"%(privacyUri)s\">プライバシー通知</a> に同意したことになります。"
-
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "次へ進むと、Firefox クラウドサービスの <a id=\"fxa-tos\" href=\"/legal/"
-#~ "terms\">サービス利用規約</a> および <a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">プライバシー通知</a> に同意したものとみなされます。"
