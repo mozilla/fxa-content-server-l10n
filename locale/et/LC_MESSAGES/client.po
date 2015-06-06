@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-05 18:11+0000\n"
-"PO-Revision-Date: 2015-05-31 09:28+0000\n"
+"PO-Revision-Date: 2015-06-06 11:36+0000\n"
 "Last-Translator: Merike <merike.sell@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1433064509.0\n"
+"X-POOTLE-MTIME: 1433590562.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -131,11 +131,11 @@ msgstr "<a href=\"https://www.gravatar.com\">Gravatari</a> kaudu"
 
 #: app/scripts/views/settings/communication_preferences.js:91
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "Tellimine õnnestus"
 
 #: app/scripts/views/settings/communication_preferences.js:92
 msgid "Unsubscribed successfully"
-msgstr ""
+msgstr "Tellimise lõpetamine õnnestus"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:28
 msgid ""
@@ -397,6 +397,10 @@ msgid ""
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
+"Jätkates nõustud <a id=\"service-tos\" href=\"%"
+"(termsUri)s\">Teenusetingimuste</a> ja teenuse %(serviceName)s (%"
+"(serviceUri)s) <a id=\"service-pp\" href=\"%"
+"(privacyUri)s\">Privaatsuspoliitikaga</a>."
 
 #: app/scripts/lib/strings.js:23 app/scripts/templates/sign_up.mustache:14
 #: app/scripts/templates/settings/communication_preferences.mustache:2
@@ -668,6 +672,9 @@ msgid ""
 "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
 "Notice</a> of Firefox cloud services."
 msgstr ""
+"Jätkates nõustud <a id=\"fxa-tos\" href=\"/legal/terms\">Teenusetingimuste</a> "
+"ja Firefoxi pilveteenuste <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privaatsuspoliitikaga</a>."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -874,11 +881,11 @@ msgstr "Salvesta"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Lõpeta tellimine"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:5
 msgid "Subscribe"
-msgstr ""
+msgstr "Telli"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2
 msgid "Year of birth"
