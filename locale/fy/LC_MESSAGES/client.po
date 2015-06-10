@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-05 18:11+0000\n"
-"PO-Revision-Date: 2015-06-01 09:06+0000\n"
+"PO-Revision-Date: 2015-06-10 12:38+0000\n"
 "Last-Translator: Wim <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1433149571.0\n"
+"X-POOTLE-MTIME: 1433939916.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -131,11 +131,11 @@ msgstr "Mei tank oan <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
 #: app/scripts/views/settings/communication_preferences.js:91
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "Ynskriuwen slagge"
 
 #: app/scripts/views/settings/communication_preferences.js:92
 msgid "Unsubscribed successfully"
-msgstr ""
+msgstr "Utskriuwen slagge"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:28
 msgid ""
@@ -401,6 +401,10 @@ msgid ""
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
+"Troch fierder te gean gean jo akkoard me de <a id=\"service-tos\" href=\"%"
+"(termsUri)s\">Servicebetingsten</a> en <a id=\"service-pp\" href=\"%"
+"(privacyUri)s\">Privacyferklearring</a> fan de (%(serviceUri)s) fan %"
+"(serviceName)."
 
 #: app/scripts/lib/strings.js:23 app/scripts/templates/sign_up.mustache:14
 #: app/scripts/templates/settings/communication_preferences.mustache:2
@@ -677,6 +681,9 @@ msgid ""
 "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
 "Notice</a> of Firefox cloud services."
 msgstr ""
+"Troch fierder te gean gean jo akkoard mei de <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Servicebetingsten</a> en <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacyferklearring</a> fan Firefox-cloudtsjinten."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -884,11 +891,11 @@ msgstr "Bewarje"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Utskriuwe"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:5
 msgid "Subscribe"
-msgstr ""
+msgstr "Ynskriuwe"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2
 msgid "Year of birth"
