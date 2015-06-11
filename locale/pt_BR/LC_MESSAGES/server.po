@@ -1,3 +1,4 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -6,12 +7,12 @@ msgstr ""
 "PO-Revision-Date: 2015-04-18 14:10+0000\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: pt_BR\n"
+"Language: pt-BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1429366227.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
@@ -54,8 +55,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr ""
-"Infelizmente, algo deu errado.  Fomos notificados e já começamos a trabalhar "
-"na solução"
+"Infelizmente, algo deu errado.  Fomos notificados e já começamos a trabalhar"
+" na solução"
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -79,8 +80,9 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+"You are using an <strong>outdated</strong> browser. Please <a "
+"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+"experience."
 msgstr ""
 "Você está usando um navegador <strong>desatualizado</strong>. Por favor, <a "
 "href=\"http://browsehappy.com/\">atualize seu navegador</a> para melhorar "
@@ -132,11 +134,11 @@ msgstr ""
 
 #: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
 msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
+"For more information, please visit <a "
+"href='https://support.mozilla.org'>Mozilla Support</a>"
 msgstr ""
-"Para mais informações, visite o <a href='https://support.mozilla."
-"org'>Suporte Mozilla</a>"
+"Para mais informações, visite o <a "
+"href='https://support.mozilla.org'>Suporte Mozilla</a>"
 
 #: templates/reset.txt:3
 msgid "Reset password:"
@@ -153,8 +155,8 @@ msgid ""
 "now."
 msgstr ""
 "Por razões de segurança a sua Conta Firefox foi bloqueada. Para realizar as "
-"atividades no nível da conta, por favor, clique agora no link para verificar "
-"novamente a sua conta."
+"atividades no nível da conta, por favor, clique agora no link para verificar"
+" novamente a sua conta."
 
 #: templates/unlock.html:3
 msgid "Verify account"
@@ -171,7 +173,8 @@ msgstr "Quase lá"
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
 msgstr ""
-"%(email)s, você está a um clique de distância de verificar sua conta Firefox."
+"%(email)s, você está a um clique de distância de verificar sua conta "
+"Firefox."
 
 #: templates/verify.html:4
 msgid "Verify"
@@ -200,8 +203,8 @@ msgstr "Verifique a sua conta novamente"
 #~ msgstr "Sistema indisponível, por favor, tente novamente em breve"
 
 #~ msgid ""
-#~ "We are currently performing some maintenance on the system, and will "
-#~ "return momentarily."
+#~ "We are currently performing some maintenance on the system, and will return "
+#~ "momentarily."
 #~ msgstr ""
 #~ "O sistema está em manutenção, mas estará disponível em alguns momentos."
 
