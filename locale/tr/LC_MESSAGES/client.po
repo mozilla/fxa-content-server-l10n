@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-05 18:11+0000\n"
-"PO-Revision-Date: 2015-06-01 13:34+0000\n"
+"PO-Revision-Date: 2015-06-17 08:46+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1433165695.0\n"
+"X-POOTLE-MTIME: 1434530788.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -131,11 +131,11 @@ msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> katkılarıyla"
 
 #: app/scripts/views/settings/communication_preferences.js:91
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "Başarıyla abone olundu"
 
 #: app/scripts/views/settings/communication_preferences.js:92
 msgid "Unsubscribed successfully"
-msgstr ""
+msgstr "Abonelik iptal edildi"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:28
 msgid ""
@@ -399,6 +399,9 @@ msgid ""
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
+"Devam ederek %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%"
+"(termsUri)s\">Hizmet Koşullarını</a> ve <a id=\"service-pp\" href=\"%"
+"(privacyUri)s\">Gizlilik Bildirimini</a> kabul etmiş oluyorsunuz."
 
 #: app/scripts/lib/strings.js:23 app/scripts/templates/sign_up.mustache:14
 #: app/scripts/templates/settings/communication_preferences.mustache:2
@@ -670,6 +673,9 @@ msgid ""
 "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
 "Notice</a> of Firefox cloud services."
 msgstr ""
+"Devam ederek Firefox bulut hizmetlerinin <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Hizmet Koşullarını</a> ve <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Gizlilik Bildirimini</a> kabul etmiş oluyorsunuz."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -876,11 +882,11 @@ msgstr "Kaydet"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Abonelikten ayrıl"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:5
 msgid "Subscribe"
-msgstr ""
+msgstr "Abone ol"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2
 msgid "Year of birth"
