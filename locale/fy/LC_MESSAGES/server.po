@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-05 18:11+0000\n"
+"POT-Creation-Date: 2015-06-17 22:35+0000\n"
 "PO-Revision-Date: 2015-04-14 10:49+0000\n"
 "Last-Translator: Wim <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,6 +21,8 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:1
 #: server/templates/pages/src/terms.html:1 templates/reset.html:1
 #: templates/unlock.html:1 templates/verify.html:1
+#: templates/new_sync_device.html:1 templates/password_changed.html:1
+#: templates/password_reset.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
@@ -130,6 +132,8 @@ msgstr ""
 "hoege jo neat te dwaan."
 
 #: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
+#: templates/new_sync_device.html:5 templates/password_changed.html:5
+#: templates/password_reset.html:5
 msgid ""
 "For more information, please visit <a href='https://support.mozilla."
 "org'>Mozilla Support</a>"
@@ -142,6 +146,8 @@ msgid "Reset password:"
 msgstr "Wachtwurd werinisjalisearje:"
 
 #: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
+#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
+#: templates/password_reset.txt:4
 msgid "For more information, please visit https://support.mozilla.org"
 msgstr "Besykje foar mear ynformaasje https://support.mozilla.org"
 
@@ -192,6 +198,95 @@ msgstr "Wachtwurd werinisjalisearje"
 #: mailer.js:146
 msgid "Re-verify your account"
 msgstr "Ferifiearje jo account opnij"
+
+#: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
+msgid "Account activity notice"
+msgstr ""
+
+#: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
+msgid ""
+"A new device is now syncing with all of the devices connected to your "
+"Firefox Account."
+msgstr ""
+
+#: templates/new_sync_device.html:4
+msgid ""
+"This is an automated email; if you didn't add a new device to your Firefox "
+"Account, you should change your password immediately at <a href='%(resetLink)"
+"s'>%(resetLink)s</a>."
+msgstr ""
+
+#: templates/new_sync_device.txt:3
+msgid ""
+"This is an automated email; if you didn't add a new device to your Firefox "
+"Account, you should change your password immediately at %(resetLink)s."
+msgstr ""
+
+#: templates/password_changed.html:2 templates/password_changed.txt:1
+msgid "Password changed successfully"
+msgstr ""
+
+#: templates/password_changed.html:3 templates/password_changed.txt:2
+msgid "Your Firefox Account password has been successfully changed."
+msgstr ""
+
+#: templates/password_changed.html:4
+msgid ""
+"This is an automated email; if you didn't change the password to your "
+"Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
+"%(resetLink)s</a>."
+msgstr ""
+
+#: templates/password_changed.txt:3
+msgid ""
+"This is an automated email; if you didn’t change the password to your "
+"Firefox Account, you should reset it immediately at %(resetLink)s."
+msgstr ""
+
+#: templates/password_reset.html:2 templates/password_reset.txt:1
+msgid "Password reset successfully"
+msgstr ""
+
+#: templates/password_reset.html:3 templates/password_reset.txt:2
+msgid "Your Firefox Account password has been successfully reset."
+msgstr ""
+
+#: templates/password_reset.html:4
+msgid ""
+"This is an automated email; if you didn't reset the password to your Firefox "
+"Account, you should reset it immediately at <a href='%(resetLink)s'>"
+"%(resetLink)s</a>."
+msgstr ""
+
+#: templates/password_reset.txt:3
+msgid ""
+"This is an automated email; if you didn’t reset the password to your Firefox "
+"Account, you should reset it immediately at %(resetLink)s."
+msgstr ""
+
+#: mailer.js:82
+msgid "Verify your Firefox Account"
+msgstr ""
+
+#: mailer.js:121
+msgid "Reset your Firefox Account password"
+msgstr ""
+
+#: mailer.js:155
+msgid "Re-verify your Firefox Account"
+msgstr ""
+
+#: mailer.js:185
+msgid "Your Firefox Account password has been changed"
+msgstr ""
+
+#: mailer.js:212
+msgid "Your Firefox Account password has been reset"
+msgstr ""
+
+#: mailer.js:239
+msgid "A new device is now syncing to your Firefox Account"
+msgstr ""
 
 #~ msgid "Congratulations!"
 #~ msgstr "Lokwinske!"
