@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-05 18:11+0000\n"
+"POT-Creation-Date: 2015-06-17 22:35+0000\n"
 "PO-Revision-Date: 2015-03-12 09:20+0000\n"
 "Last-Translator: Matjaž <m@owca.info>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,7 +11,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1426152018.0\n"
 
@@ -22,6 +23,8 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:1
 #: server/templates/pages/src/terms.html:1 templates/reset.html:1
 #: templates/unlock.html:1 templates/verify.html:1
+#: templates/new_sync_device.html:1 templates/password_changed.html:1
+#: templates/password_reset.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Računi"
 
@@ -38,8 +41,8 @@ msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
-"Zahtevane strani ni bilo mogoče najti. O tem smo obvestili skrbnike, ki bodo"
-" odpravili morebitne nedelujoče povezave."
+"Zahtevane strani ni bilo mogoče najti. O tem smo obvestili skrbnike, ki bodo "
+"odpravili morebitne nedelujoče povezave."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
@@ -78,13 +81,11 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a "
-"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
-"experience."
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
-"Uporabljate <strong>zastarel</strong> brskalnik. <a "
-"href=\"http://browsehappy.com/\">Nadgradite ga</a> za boljšo uporabniško "
-"izkušnjo."
+"Uporabljate <strong>zastarel</strong> brskalnik. <a href=\"http://"
+"browsehappy.com/\">Nadgradite ga</a> za boljšo uporabniško izkušnjo."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -131,9 +132,11 @@ msgstr ""
 "potrebno storiti ničesar."
 
 #: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
+#: templates/new_sync_device.html:5 templates/password_changed.html:5
+#: templates/password_reset.html:5
 msgid ""
-"For more information, please visit <a "
-"href='https://support.mozilla.org'>Mozilla Support</a>"
+"For more information, please visit <a href='https://support.mozilla."
+"org'>Mozilla Support</a>"
 msgstr ""
 "Za več informacij obiščite <a href='https://support.mozilla.org'>strani s "
 "podporo</a>"
@@ -143,6 +146,8 @@ msgid "Reset password:"
 msgstr "Ponastavi geslo:"
 
 #: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
+#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
+#: templates/password_reset.txt:4
 msgid "For more information, please visit https://support.mozilla.org"
 msgstr "Za več informacij obiščite https://support.mozilla.org"
 
@@ -191,6 +196,95 @@ msgstr "Ponastavite vaše geslo"
 msgid "Re-verify your account"
 msgstr "Ponovno potrdite račun"
 
+#: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
+msgid "Account activity notice"
+msgstr ""
+
+#: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
+msgid ""
+"A new device is now syncing with all of the devices connected to your "
+"Firefox Account."
+msgstr ""
+
+#: templates/new_sync_device.html:4
+msgid ""
+"This is an automated email; if you didn't add a new device to your Firefox "
+"Account, you should change your password immediately at <a href='%(resetLink)"
+"s'>%(resetLink)s</a>."
+msgstr ""
+
+#: templates/new_sync_device.txt:3
+msgid ""
+"This is an automated email; if you didn't add a new device to your Firefox "
+"Account, you should change your password immediately at %(resetLink)s."
+msgstr ""
+
+#: templates/password_changed.html:2 templates/password_changed.txt:1
+msgid "Password changed successfully"
+msgstr ""
+
+#: templates/password_changed.html:3 templates/password_changed.txt:2
+msgid "Your Firefox Account password has been successfully changed."
+msgstr ""
+
+#: templates/password_changed.html:4
+msgid ""
+"This is an automated email; if you didn't change the password to your "
+"Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
+"%(resetLink)s</a>."
+msgstr ""
+
+#: templates/password_changed.txt:3
+msgid ""
+"This is an automated email; if you didn’t change the password to your "
+"Firefox Account, you should reset it immediately at %(resetLink)s."
+msgstr ""
+
+#: templates/password_reset.html:2 templates/password_reset.txt:1
+msgid "Password reset successfully"
+msgstr ""
+
+#: templates/password_reset.html:3 templates/password_reset.txt:2
+msgid "Your Firefox Account password has been successfully reset."
+msgstr ""
+
+#: templates/password_reset.html:4
+msgid ""
+"This is an automated email; if you didn't reset the password to your Firefox "
+"Account, you should reset it immediately at <a href='%(resetLink)s'>"
+"%(resetLink)s</a>."
+msgstr ""
+
+#: templates/password_reset.txt:3
+msgid ""
+"This is an automated email; if you didn’t reset the password to your Firefox "
+"Account, you should reset it immediately at %(resetLink)s."
+msgstr ""
+
+#: mailer.js:82
+msgid "Verify your Firefox Account"
+msgstr ""
+
+#: mailer.js:121
+msgid "Reset your Firefox Account password"
+msgstr ""
+
+#: mailer.js:155
+msgid "Re-verify your Firefox Account"
+msgstr ""
+
+#: mailer.js:185
+msgid "Your Firefox Account password has been changed"
+msgstr ""
+
+#: mailer.js:212
+msgid "Your Firefox Account password has been reset"
+msgstr ""
+
+#: mailer.js:239
+msgid "A new device is now syncing to your Firefox Account"
+msgstr ""
+
 #~ msgid "Congratulations!"
 #~ msgstr "Čestitke!"
 
@@ -198,6 +292,6 @@ msgstr "Ponovno potrdite račun"
 #~ msgstr "Sistem ni dosegljiv, poskusite znova pozneje"
 
 #~ msgid ""
-#~ "We are currently performing some maintenance on the system, and will return "
-#~ "momentarily."
+#~ "We are currently performing some maintenance on the system, and will "
+#~ "return momentarily."
 #~ msgstr "Trenutno potekajo vzdrževalna dela na sistemu. Kmalu bomo nazaj."

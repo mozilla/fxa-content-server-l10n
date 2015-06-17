@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-05 18:11+0000\n"
+"POT-Creation-Date: 2015-06-17 22:35+0000\n"
 "PO-Revision-Date: 2015-06-05 19:28+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,58 +82,58 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/change_password.js:85
+#: app/scripts/views/change_password.js:58
 msgid "Password changed successfully"
 msgstr "Wachtwoord met succes gewijzigd"
 
-#: app/scripts/views/complete_reset_password.js:139
-#: app/scripts/views/complete_sign_up.js:94 app/scripts/views/confirm.js:90
-#: app/scripts/views/confirm_reset_password.js:172
+#: app/scripts/views/complete_reset_password.js:132
+#: app/scripts/views/complete_sign_up.js:100 app/scripts/views/confirm.js:89
+#: app/scripts/views/confirm_reset_password.js:171
 msgid "Account verified successfully"
 msgstr "Account met succes geverifieerd"
 
-#: app/scripts/views/confirm_account_unlock.js:106
+#: app/scripts/views/confirm_account_unlock.js:105
 msgid "Account unlocked, please try again"
 msgstr "Account ontgrendeld, probeer het opnieuw"
 
-#: app/scripts/views/confirm_reset_password.js:160
+#: app/scripts/views/confirm_reset_password.js:159
 #: app/scripts/templates/ready.mustache:3
 msgid "Password reset"
 msgstr "Wachtwoord opnieuw ingesteld"
 
-#: app/scripts/views/confirm_reset_password.js:188
+#: app/scripts/views/confirm_reset_password.js:187
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Wachtwoord is opnieuw ingesteld. Meld u aan om door te gaan."
 
-#: app/scripts/views/delete_account.js:53
+#: app/scripts/views/delete_account.js:52
 msgid "Account deleted successfully"
 msgstr "Account met succes verwijderd"
 
-#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:176
+#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:175
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Onbekende account. <a href=\"/signup\">Registreren</a>"
 
-#: app/scripts/views/settings.js:76
+#: app/scripts/views/settings.js:74
 msgid "Signed out successfully"
 msgstr "U bent afgemeld"
 
-#: app/scripts/views/sign_up.js:317
+#: app/scripts/views/sign_up.js:316
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Account bestaat al. <a href=\"/signin\">Aanmelden</a>"
 
-#: app/scripts/views/settings/avatar_gravatar.js:58
+#: app/scripts/views/settings/avatar_gravatar.js:57
 msgid "No Gravatar found"
 msgstr "Geen Gravatar gevonden"
 
-#: app/scripts/views/settings/avatar_gravatar.js:87
+#: app/scripts/views/settings/avatar_gravatar.js:89
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "Met dank aan <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
-#: app/scripts/views/settings/communication_preferences.js:91
+#: app/scripts/views/settings/communication_preferences.js:90
 msgid "Subscribed successfully"
 msgstr "Inschrijven gelukt"
 
-#: app/scripts/views/settings/communication_preferences.js:92
+#: app/scripts/views/settings/communication_preferences.js:91
 msgid "Unsubscribed successfully"
 msgstr "Uitschrijven gelukt"
 
@@ -144,185 +144,185 @@ msgstr ""
 "Account vergrendeld. <a href=\"/confirm_account_unlock\">E-mail voor "
 "ontgrendeling verzenden</a>"
 
-#: app/scripts/lib/auth-errors.js:18
-#: app/scripts/lib/marketing-email-errors.js:18
-#: app/scripts/lib/oauth-errors.js:19 app/scripts/lib/profile-errors.js:34
-#: app/scripts/lib/profile-errors.js:42
+#: app/scripts/lib/auth-errors.js:17
+#: app/scripts/lib/marketing-email-errors.js:17
+#: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:33
+#: app/scripts/lib/profile-errors.js:41
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Onverwachte fout"
 
-#: app/scripts/lib/auth-errors.js:27
+#: app/scripts/lib/auth-errors.js:26
 msgid "Invalid token"
 msgstr "Ongeldige token"
 
-#: app/scripts/lib/auth-errors.js:31
+#: app/scripts/lib/auth-errors.js:30
 msgid "Invalid timestamp in request signature"
 msgstr "Ongeldige tijdstempel in aanvraaghandtekening"
 
-#: app/scripts/lib/auth-errors.js:35
+#: app/scripts/lib/auth-errors.js:34
 msgid "Invalid nonce in request signature"
 msgstr "Ongeldige nonce in aanvraaghandtekening"
 
-#: app/scripts/lib/auth-errors.js:39
+#: app/scripts/lib/auth-errors.js:38
 msgid "Account already exists"
 msgstr "Account bestaat al"
 
-#: app/scripts/lib/auth-errors.js:43
+#: app/scripts/lib/auth-errors.js:42
 msgid "Unknown account"
 msgstr "Onbekende account"
 
-#: app/scripts/lib/auth-errors.js:47
+#: app/scripts/lib/auth-errors.js:46
 msgid "Incorrect email case"
 msgstr "Onjuiste letters in e-mailadres"
 
-#: app/scripts/lib/auth-errors.js:51
+#: app/scripts/lib/auth-errors.js:50
 msgid "Incorrect password"
 msgstr "Onjuist wachtwoord"
 
-#: app/scripts/lib/auth-errors.js:55
+#: app/scripts/lib/auth-errors.js:54
 msgid "Unverified account"
 msgstr "Niet-geverifieerde account"
 
-#: app/scripts/lib/auth-errors.js:59
+#: app/scripts/lib/auth-errors.js:58
 msgid "Invalid verification code"
 msgstr "Ongeldige verificatiecode"
 
-#: app/scripts/lib/auth-errors.js:63
+#: app/scripts/lib/auth-errors.js:62
 msgid "Invalid JSON in request body"
 msgstr "Ongeldige JSON in aanvraagtekst"
 
-#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:48
-#: app/scripts/lib/profile-errors.js:22
+#: app/scripts/lib/auth-errors.js:66 app/scripts/lib/oauth-errors.js:47
+#: app/scripts/lib/profile-errors.js:21
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Ongeldige parameter in aanvraagtekst: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:71
+#: app/scripts/lib/auth-errors.js:70
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Ontbrekende parameter in aanvraagtekst: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:75 app/scripts/lib/oauth-errors.js:52
+#: app/scripts/lib/auth-errors.js:74 app/scripts/lib/oauth-errors.js:51
 msgid "Invalid request signature"
 msgstr "Ongeldige aanvraaghandtekening"
 
-#: app/scripts/lib/auth-errors.js:79
+#: app/scripts/lib/auth-errors.js:78
 msgid "Missing content-length header"
 msgstr "Header content-length ontbreekt"
 
-#: app/scripts/lib/auth-errors.js:83
+#: app/scripts/lib/auth-errors.js:82
 msgid "Request body too large"
 msgstr "Aanvraagtekst te lang"
 
-#: app/scripts/lib/auth-errors.js:87
+#: app/scripts/lib/auth-errors.js:86
 msgid "Attempt limit exceeded"
 msgstr "Maximumaantal pogingen overschreden"
 
-#: app/scripts/lib/auth-errors.js:91
+#: app/scripts/lib/auth-errors.js:90
 msgid "Your account has been locked for security reasons"
 msgstr "Uw account is om veiligheidsredenen vergrendeld"
 
-#: app/scripts/lib/auth-errors.js:99
+#: app/scripts/lib/auth-errors.js:98
 msgid "Server busy, try again soon"
 msgstr "Server bezet, probeer het later opnieuw"
 
-#: app/scripts/lib/auth-errors.js:103
+#: app/scripts/lib/auth-errors.js:102
 msgid "This endpoint is no longer supported"
 msgstr "Dit eindpunt wordt niet meer ondersteund"
 
-#: app/scripts/lib/auth-errors.js:107
-#: app/scripts/lib/marketing-email-errors.js:79
-#: app/scripts/lib/oauth-errors.js:78 app/scripts/lib/profile-errors.js:38
+#: app/scripts/lib/auth-errors.js:106
+#: app/scripts/lib/marketing-email-errors.js:78
+#: app/scripts/lib/oauth-errors.js:77 app/scripts/lib/profile-errors.js:37
 msgid "System unavailable, try again soon"
 msgstr "Systeem niet beschikbaar, probeer het later opnieuw"
 
-#: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:102
+#: app/scripts/lib/auth-errors.js:110 app/scripts/lib/oauth-errors.js:101
 msgid "no message"
 msgstr "geen melding"
 
-#: app/scripts/lib/auth-errors.js:115
+#: app/scripts/lib/auth-errors.js:114
 msgid "Session expired. Sign in to continue."
 msgstr "Sessie verlopen. Meld u aan om door te gaan."
 
-#: app/scripts/lib/auth-errors.js:119
+#: app/scripts/lib/auth-errors.js:118
 msgid "Cookies are still disabled"
 msgstr "Cookies zijn nog uitgeschakeld"
 
-#: app/scripts/lib/auth-errors.js:123
+#: app/scripts/lib/auth-errors.js:122
 msgid "Passwords do not match"
 msgstr "Wachtwoorden komen niet overeen"
 
-#: app/scripts/lib/auth-errors.js:127
+#: app/scripts/lib/auth-errors.js:126
 msgid "Working…"
 msgstr "Bezig…"
 
-#: app/scripts/lib/auth-errors.js:131
+#: app/scripts/lib/auth-errors.js:130
 msgid "Could not get Privacy Notice"
 msgstr "Kan privacyverklaring niet ophalen"
 
-#: app/scripts/lib/auth-errors.js:135
+#: app/scripts/lib/auth-errors.js:134
 msgid "Could not get Terms of Service"
 msgstr "Kan servicevoorwaarden niet ophalen"
 
-#: app/scripts/lib/auth-errors.js:139
+#: app/scripts/lib/auth-errors.js:138
 msgid "Your new password must be different"
 msgstr "Uw oude en nieuwe wachtwoord moeten verschillen"
 
-#: app/scripts/lib/auth-errors.js:143
+#: app/scripts/lib/auth-errors.js:142
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/complete_reset_password.mustache:16
 #: app/scripts/templates/sign_up.mustache:12
 msgid "Must be at least 8 characters"
 msgstr "Moet minstens 8 tekens bevatten"
 
-#: app/scripts/lib/auth-errors.js:147
+#: app/scripts/lib/auth-errors.js:146
 msgid "Valid password required"
 msgstr "Geldig wachtwoord vereist"
 
-#: app/scripts/lib/auth-errors.js:151 app/scripts/lib/auth-errors.js:183
-#: app/scripts/lib/auth-errors.js:199
+#: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:182
+#: app/scripts/lib/auth-errors.js:198
 msgid "Valid email required"
 msgstr "Geldig e-mailadres vereist"
 
-#: app/scripts/lib/auth-errors.js:155
+#: app/scripts/lib/auth-errors.js:154
 msgid "Year of birth required"
 msgstr "Geboortejaar vereist"
 
-#: app/scripts/lib/auth-errors.js:159
+#: app/scripts/lib/auth-errors.js:158
 msgid "A usable image was not found"
 msgstr "Er is geen bruikbare afbeelding gevonden"
 
-#: app/scripts/lib/auth-errors.js:163
+#: app/scripts/lib/auth-errors.js:162
 msgid "Could not initialize camera"
 msgstr "Kon camera niet initialiseren"
 
-#: app/scripts/lib/auth-errors.js:167
+#: app/scripts/lib/auth-errors.js:166
 msgid "Valid URL required"
 msgstr "Geldige URL vereist"
 
-#: app/scripts/lib/auth-errors.js:171
+#: app/scripts/lib/auth-errors.js:170
 msgid "Valid birthday required"
 msgstr "Geldige verjaardag vereist"
 
-#: app/scripts/lib/auth-errors.js:179
+#: app/scripts/lib/auth-errors.js:178
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr ""
 "Uw verificatie-e-mail is zojuist geretourneerd. Typefout in e-mailadres?"
 
-#: app/scripts/lib/auth-errors.js:187
+#: app/scripts/lib/auth-errors.js:186
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Voer een geldig e-mailadres in. firefox.com biedt geen e-mail."
 
-#: app/scripts/lib/auth-errors.js:195
+#: app/scripts/lib/auth-errors.js:194
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 "Firefox-accounts kunnen alleen in een IFRAME op goedgekeurde websites worden "
 "geplaatst"
 
-#: app/scripts/lib/auth-errors.js:203
+#: app/scripts/lib/auth-errors.js:202
 msgid "/force_auth requires an email"
 msgstr "/force_auth vereist een e-mailadres"
 
-#: app/scripts/lib/auth-errors.js:207
+#: app/scripts/lib/auth-errors.js:206
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
@@ -330,7 +330,7 @@ msgstr ""
 "De koppeling waarop u hebt geklikt om uw e-mailadres te verifiëren is "
 "verlopen."
 
-#: app/scripts/lib/auth-errors.js:211
+#: app/scripts/lib/auth-errors.js:210
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "Verificatiekoppeling beschadigd"
@@ -339,55 +339,55 @@ msgstr "Verificatiekoppeling beschadigd"
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr "Bedoelde u <span tabindex=\"1\">%(domain)s</span>?"
 
-#: app/scripts/lib/oauth-errors.js:24
+#: app/scripts/lib/oauth-errors.js:23
 msgid "Unknown client"
 msgstr "Onbekende client"
 
-#: app/scripts/lib/oauth-errors.js:28
+#: app/scripts/lib/oauth-errors.js:27
 msgid "Incorrect redirect_uri"
 msgstr "Onjuiste redirect_uri"
 
-#: app/scripts/lib/oauth-errors.js:32
+#: app/scripts/lib/oauth-errors.js:31
 msgid "Invalid assertion"
 msgstr "Ongeldige bevestiging"
 
-#: app/scripts/lib/oauth-errors.js:36
+#: app/scripts/lib/oauth-errors.js:35
 msgid "Unknown code"
 msgstr "Onbekende code"
 
-#: app/scripts/lib/oauth-errors.js:40
+#: app/scripts/lib/oauth-errors.js:39
 msgid "Incorrect code"
 msgstr "Onjuiste code"
 
-#: app/scripts/lib/oauth-errors.js:44
+#: app/scripts/lib/oauth-errors.js:43
 msgid "Expired code"
 msgstr "Verlopen code"
 
-#: app/scripts/lib/oauth-errors.js:60 app/scripts/lib/profile-errors.js:18
+#: app/scripts/lib/oauth-errors.js:59 app/scripts/lib/profile-errors.js:17
 msgid "Unauthorized"
 msgstr "Niet geautoriseerd"
 
-#: app/scripts/lib/oauth-errors.js:64
+#: app/scripts/lib/oauth-errors.js:63
 msgid "Forbidden"
 msgstr "Niet toegestaan"
 
-#: app/scripts/lib/oauth-errors.js:74
+#: app/scripts/lib/oauth-errors.js:73
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "Ongeldige OAuth-parameter: %(param)s"
 
-#: app/scripts/lib/oauth-errors.js:86
+#: app/scripts/lib/oauth-errors.js:85
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Er is iets misgegaan. Sluit dit tabblad en probeer het opnieuw."
 
-#: app/scripts/lib/oauth-errors.js:106
+#: app/scripts/lib/oauth-errors.js:105
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "OAuth-parameter ontbreekt: %(param)s"
 
-#: app/scripts/lib/profile-errors.js:26
+#: app/scripts/lib/profile-errors.js:25
 msgid "Unsupported image provider"
 msgstr "Niet-ondersteunde afbeeldingsprovider"
 
-#: app/scripts/lib/profile-errors.js:30
+#: app/scripts/lib/profile-errors.js:29
 msgid "Image processing error"
 msgstr "Fout bij verwerken van afbeelding"
 
@@ -395,36 +395,37 @@ msgstr "Fout bij verwerken van afbeelding"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: app/scripts/lib/strings.js:19
+#: app/scripts/lib/strings.js:18
 msgid ""
 "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Door verder te gaan gaat u akkoord met de <a id=\"service-tos\" href=\"%"
-"(termsUri)s\">Servicevoorwaarden</a> en <a id=\"service-pp\" href=\"%"
-"(privacyUri)s\">Privacyverklaring</a> van %(serviceName)s (%(serviceUri)s)."
+"Door verder te gaan gaat u akkoord met de <a id=\"service-tos\" href="
+"\"%(termsUri)s\">Servicevoorwaarden</a> en <a id=\"service-pp\" href="
+"\"%(privacyUri)s\">Privacyverklaring</a> van %(serviceName)s (%(serviceUri)"
+"s)."
 
-#: app/scripts/lib/strings.js:23 app/scripts/templates/sign_up.mustache:14
+#: app/scripts/lib/strings.js:22 app/scripts/templates/sign_up.mustache:14
 #: app/scripts/templates/settings/communication_preferences.mustache:2
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Ontvang het laatste nieuws over Mozilla en Firefox."
 
-#: app/scripts/lib/strings.js:24 app/scripts/templates/settings.mustache:5
+#: app/scripts/lib/strings.js:23 app/scripts/templates/settings.mustache:4
 #: app/scripts/templates/settings/communication_preferences.mustache:1
 msgid "Communication preferences"
 msgstr "Communicatievoorkeuren"
 
-#: app/scripts/lib/strings.js:25
+#: app/scripts/lib/strings.js:24
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Email preferences"
 msgstr "E-mailvoorkeuren"
 
-#: app/scripts/lib/strings.js:28
+#: app/scripts/lib/strings.js:27
 msgid "Edit profile"
 msgstr "Profiel bewerken"
 
-#: app/scripts/lib/strings.js:29
+#: app/scripts/lib/strings.js:28
 msgid "Name"
 msgstr "Naam"
 
@@ -444,7 +445,7 @@ msgid "Learn more."
 msgstr "Meer lezen."
 
 #: app/scripts/templates/change_password.mustache:1
-#: app/scripts/templates/settings.mustache:7
+#: app/scripts/templates/settings.mustache:6
 msgid "Change password"
 msgstr "Wachtwoord wijzigen"
 
@@ -644,7 +645,7 @@ msgstr "Opnieuw proberen"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
-#: app/scripts/templates/settings.mustache:8
+#: app/scripts/templates/settings.mustache:7
 msgid "Delete account"
 msgstr "Account verwijderen"
 
@@ -681,9 +682,9 @@ msgid ""
 "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
 "Notice</a> of Firefox cloud services."
 msgstr ""
-"Door verder te gaan gaat u akkoord met de <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Servicevoorwaarden</a> en <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Privacyverklaring</a> van Firefox-cloudservices."
+"Door verder te gaan gaat u akkoord met de <a id=\"fxa-tos\" href=\"/legal/"
+"terms\">Servicevoorwaarden</a> en <a id=\"fxa-pp\" href=\"/legal/privacy"
+"\">Privacyverklaring</a> van Firefox-cloudservices."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -695,13 +696,13 @@ msgid "Legal"
 msgstr "Juridisch"
 
 #: app/scripts/templates/legal.mustache:3
-#: app/scripts/templates/settings.mustache:11
+#: app/scripts/templates/settings.mustache:10
 #: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "Servicevoorwaarden"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
-#: app/scripts/templates/settings.mustache:12
+#: app/scripts/templates/settings.mustache:11
 msgid "Privacy Notice"
 msgstr "Privacyverklaring"
 
@@ -813,11 +814,11 @@ msgstr "Account beheren"
 msgid "Change"
 msgstr "Wijzigen"
 
-#: app/scripts/templates/settings.mustache:4
+#: app/scripts/templates/settings.mustache:3
 msgid "You are signed in as"
 msgstr "U bent aangemeld als"
 
-#: app/scripts/templates/settings.mustache:9
+#: app/scripts/templates/settings.mustache:8
 msgid "Sign out"
 msgstr "Afmelden"
 
@@ -853,7 +854,7 @@ msgid "Already have an account? Sign in."
 msgstr "Hebt u al een account? Meld u aan."
 
 #: app/scripts/templates/unexpected_error.mustache:2
-#: app/scripts/templates/settings/avatar_change.mustache:5
+#: app/scripts/templates/settings/avatar_change.mustache:6
 msgid "Home"
 msgstr "Startpagina"
 

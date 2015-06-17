@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-05 18:11+0000\n"
+"POT-Creation-Date: 2015-06-17 22:35+0000\n"
 "PO-Revision-Date: 2015-06-06 10:17-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -82,58 +82,58 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/change_password.js:85
+#: app/scripts/views/change_password.js:58
 msgid "Password changed successfully"
 msgstr "パスワードの変更が完了しました"
 
-#: app/scripts/views/complete_reset_password.js:139
-#: app/scripts/views/complete_sign_up.js:94 app/scripts/views/confirm.js:90
-#: app/scripts/views/confirm_reset_password.js:172
+#: app/scripts/views/complete_reset_password.js:132
+#: app/scripts/views/complete_sign_up.js:100 app/scripts/views/confirm.js:89
+#: app/scripts/views/confirm_reset_password.js:171
 msgid "Account verified successfully"
 msgstr "アカウントの確認が完了しました"
 
-#: app/scripts/views/confirm_account_unlock.js:106
+#: app/scripts/views/confirm_account_unlock.js:105
 msgid "Account unlocked, please try again"
 msgstr "アカウントのロックが解除されました。再度試してください"
 
-#: app/scripts/views/confirm_reset_password.js:160
+#: app/scripts/views/confirm_reset_password.js:159
 #: app/scripts/templates/ready.mustache:3
 msgid "Password reset"
 msgstr "パスワードをリセットする"
 
-#: app/scripts/views/confirm_reset_password.js:188
+#: app/scripts/views/confirm_reset_password.js:187
 msgid "Password reset successfully. Sign in to continue."
 msgstr "パスワードのリセットが完了しました。続けるにはログインしてください。"
 
-#: app/scripts/views/delete_account.js:53
+#: app/scripts/views/delete_account.js:52
 msgid "Account deleted successfully"
 msgstr "アカウントの削除が完了しました"
 
-#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:176
+#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:175
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "不明なアカウントです。<a href=\"/signup\">サインアップ</a>"
 
-#: app/scripts/views/settings.js:76
+#: app/scripts/views/settings.js:74
 msgid "Signed out successfully"
 msgstr "ログアウトが完了しました"
 
-#: app/scripts/views/sign_up.js:317
+#: app/scripts/views/sign_up.js:316
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "このアカウントは既に存在します。<a href=\"/signin\">サインイン</a>"
 
-#: app/scripts/views/settings/avatar_gravatar.js:58
+#: app/scripts/views/settings/avatar_gravatar.js:57
 msgid "No Gravatar found"
 msgstr "Gravatar が見つかりませんでした"
 
-#: app/scripts/views/settings/avatar_gravatar.js:87
+#: app/scripts/views/settings/avatar_gravatar.js:89
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> による提供"
 
-#: app/scripts/views/settings/communication_preferences.js:91
+#: app/scripts/views/settings/communication_preferences.js:90
 msgid "Subscribed successfully"
 msgstr "購読を開始しました"
 
-#: app/scripts/views/settings/communication_preferences.js:92
+#: app/scripts/views/settings/communication_preferences.js:91
 msgid "Unsubscribed successfully"
 msgstr "購読を解除しました"
 
@@ -144,191 +144,191 @@ msgstr ""
 "アカウントはロックされています。<a href=\"/confirm_account_unlock\">ロック解"
 "除メールを送信</a>"
 
-#: app/scripts/lib/auth-errors.js:18
-#: app/scripts/lib/marketing-email-errors.js:18
-#: app/scripts/lib/oauth-errors.js:19 app/scripts/lib/profile-errors.js:34
-#: app/scripts/lib/profile-errors.js:42
+#: app/scripts/lib/auth-errors.js:17
+#: app/scripts/lib/marketing-email-errors.js:17
+#: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:33
+#: app/scripts/lib/profile-errors.js:41
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "予期しないエラー"
 
-#: app/scripts/lib/auth-errors.js:27
+#: app/scripts/lib/auth-errors.js:26
 msgid "Invalid token"
 msgstr "トークンが正しくありません"
 
-#: app/scripts/lib/auth-errors.js:31
+#: app/scripts/lib/auth-errors.js:30
 msgid "Invalid timestamp in request signature"
 msgstr "リクエスト署名のタイムスタンプが正しくありません"
 
-#: app/scripts/lib/auth-errors.js:35
+#: app/scripts/lib/auth-errors.js:34
 msgid "Invalid nonce in request signature"
 msgstr "リクエスト署名の乱数が正しくありません"
 
-#: app/scripts/lib/auth-errors.js:39
+#: app/scripts/lib/auth-errors.js:38
 msgid "Account already exists"
 msgstr "このアカウントは既に存在します"
 
-#: app/scripts/lib/auth-errors.js:43
+#: app/scripts/lib/auth-errors.js:42
 msgid "Unknown account"
 msgstr "不明なアカウントです"
 
-#: app/scripts/lib/auth-errors.js:47
+#: app/scripts/lib/auth-errors.js:46
 msgid "Incorrect email case"
 msgstr "メールアドレスの形式が正しくありません"
 
-#: app/scripts/lib/auth-errors.js:51
+#: app/scripts/lib/auth-errors.js:50
 msgid "Incorrect password"
 msgstr "パスワードが正しくありません"
 
-#: app/scripts/lib/auth-errors.js:55
+#: app/scripts/lib/auth-errors.js:54
 msgid "Unverified account"
 msgstr "未認証のアカウントです"
 
-#: app/scripts/lib/auth-errors.js:59
+#: app/scripts/lib/auth-errors.js:58
 msgid "Invalid verification code"
 msgstr "認証コードが正しくありません"
 
-#: app/scripts/lib/auth-errors.js:63
+#: app/scripts/lib/auth-errors.js:62
 msgid "Invalid JSON in request body"
 msgstr "リクエストボディの JSON が正しくありません"
 
-#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:48
-#: app/scripts/lib/profile-errors.js:22
+#: app/scripts/lib/auth-errors.js:66 app/scripts/lib/oauth-errors.js:47
+#: app/scripts/lib/profile-errors.js:21
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "リクエストボディのパラメータが正しくありません: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:71
+#: app/scripts/lib/auth-errors.js:70
 msgid "Missing parameter in request body: %(param)s"
 msgstr "リクエストボディのパラメータが足りません: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:75 app/scripts/lib/oauth-errors.js:52
+#: app/scripts/lib/auth-errors.js:74 app/scripts/lib/oauth-errors.js:51
 msgid "Invalid request signature"
 msgstr "リクエスト署名が正しくありません"
 
-#: app/scripts/lib/auth-errors.js:79
+#: app/scripts/lib/auth-errors.js:78
 msgid "Missing content-length header"
 msgstr "content-length ヘッダがありません"
 
-#: app/scripts/lib/auth-errors.js:83
+#: app/scripts/lib/auth-errors.js:82
 msgid "Request body too large"
 msgstr "リクエストボディが大きすぎます"
 
-#: app/scripts/lib/auth-errors.js:87
+#: app/scripts/lib/auth-errors.js:86
 msgid "Attempt limit exceeded"
 msgstr "連続試行回数の上限に達しました"
 
-#: app/scripts/lib/auth-errors.js:91
+#: app/scripts/lib/auth-errors.js:90
 msgid "Your account has been locked for security reasons"
 msgstr "あなたのアカウントはセキュリティ上の理由からロックされています"
 
-#: app/scripts/lib/auth-errors.js:99
+#: app/scripts/lib/auth-errors.js:98
 msgid "Server busy, try again soon"
 msgstr "現在サーバ負荷が高すぎます。しばらくしてから再度お試しください"
 
-#: app/scripts/lib/auth-errors.js:103
+#: app/scripts/lib/auth-errors.js:102
 msgid "This endpoint is no longer supported"
 msgstr "このエンドポイントはサポートされなくなりました"
 
-#: app/scripts/lib/auth-errors.js:107
-#: app/scripts/lib/marketing-email-errors.js:79
-#: app/scripts/lib/oauth-errors.js:78 app/scripts/lib/profile-errors.js:38
+#: app/scripts/lib/auth-errors.js:106
+#: app/scripts/lib/marketing-email-errors.js:78
+#: app/scripts/lib/oauth-errors.js:77 app/scripts/lib/profile-errors.js:37
 msgid "System unavailable, try again soon"
 msgstr "現在システムが利用できません。しばらくしてから再度お試しください"
 
-#: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:102
+#: app/scripts/lib/auth-errors.js:110 app/scripts/lib/oauth-errors.js:101
 msgid "no message"
 msgstr "メッセージはありません"
 
-#: app/scripts/lib/auth-errors.js:115
+#: app/scripts/lib/auth-errors.js:114
 msgid "Session expired. Sign in to continue."
 msgstr "セッションの期限が切れました。続けるにはサインインしてください。"
 
-#: app/scripts/lib/auth-errors.js:119
+#: app/scripts/lib/auth-errors.js:118
 msgid "Cookies are still disabled"
 msgstr "Cookie が無効化されています"
 
-#: app/scripts/lib/auth-errors.js:123
+#: app/scripts/lib/auth-errors.js:122
 msgid "Passwords do not match"
 msgstr "パスワードが一致しません"
 
-#: app/scripts/lib/auth-errors.js:127
+#: app/scripts/lib/auth-errors.js:126
 msgid "Working…"
 msgstr "処理中です…"
 
-#: app/scripts/lib/auth-errors.js:131
+#: app/scripts/lib/auth-errors.js:130
 msgid "Could not get Privacy Notice"
 msgstr "プライバシー規約を取得できません"
 
-#: app/scripts/lib/auth-errors.js:135
+#: app/scripts/lib/auth-errors.js:134
 msgid "Could not get Terms of Service"
 msgstr "サービス利用規約を取得できません"
 
-#: app/scripts/lib/auth-errors.js:139
+#: app/scripts/lib/auth-errors.js:138
 msgid "Your new password must be different"
 msgstr "新しいパスワードは、古いパスワードと違うものにしてください"
 
-#: app/scripts/lib/auth-errors.js:143
+#: app/scripts/lib/auth-errors.js:142
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/complete_reset_password.mustache:16
 #: app/scripts/templates/sign_up.mustache:12
 msgid "Must be at least 8 characters"
 msgstr "少なくとも 8 文字以上でなくてはいけません"
 
-#: app/scripts/lib/auth-errors.js:147
+#: app/scripts/lib/auth-errors.js:146
 msgid "Valid password required"
 msgstr "正しいパスワードを入力してください (必須)"
 
-#: app/scripts/lib/auth-errors.js:151 app/scripts/lib/auth-errors.js:183
-#: app/scripts/lib/auth-errors.js:199
+#: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:182
+#: app/scripts/lib/auth-errors.js:198
 msgid "Valid email required"
 msgstr "有効なメールアドレスが必要です"
 
 # Android での UI に合わせる
-#: app/scripts/lib/auth-errors.js:155
+#: app/scripts/lib/auth-errors.js:154
 msgid "Year of birth required"
 msgstr "誕生年を入力してください (必須)"
 
-#: app/scripts/lib/auth-errors.js:159
+#: app/scripts/lib/auth-errors.js:158
 msgid "A usable image was not found"
 msgstr "使用可能な画像が見つかりませんでした"
 
-#: app/scripts/lib/auth-errors.js:163
+#: app/scripts/lib/auth-errors.js:162
 msgid "Could not initialize camera"
 msgstr "カメラを初期化できませんでした"
 
-#: app/scripts/lib/auth-errors.js:167
+#: app/scripts/lib/auth-errors.js:166
 msgid "Valid URL required"
 msgstr "正しい URL を入力してください"
 
-#: app/scripts/lib/auth-errors.js:171
+#: app/scripts/lib/auth-errors.js:170
 msgid "Valid birthday required"
 msgstr "有効な誕生日が必要です"
 
-#: app/scripts/lib/auth-errors.js:179
+#: app/scripts/lib/auth-errors.js:178
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "確認メールが宛先不明で戻ってきました。アドレスを間違えていませんか？"
 
-#: app/scripts/lib/auth-errors.js:187
+#: app/scripts/lib/auth-errors.js:186
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr ""
 "正しいメールアドレスを入力してください。firefox.com はメールを提供していませ"
 "ん。"
 
-#: app/scripts/lib/auth-errors.js:195
+#: app/scripts/lib/auth-errors.js:194
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox アカウントは承認済みサイトの IFRAME 内にのみ設置できます。"
 
-#: app/scripts/lib/auth-errors.js:203
+#: app/scripts/lib/auth-errors.js:202
 msgid "/force_auth requires an email"
 msgstr "/force_auth はメールアドレスが必要です"
 
-#: app/scripts/lib/auth-errors.js:207
+#: app/scripts/lib/auth-errors.js:206
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
 msgstr "クリックされたメールアドレス認証リンクの有効期限が切れています。"
 
-#: app/scripts/lib/auth-errors.js:211
+#: app/scripts/lib/auth-errors.js:210
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "認証リンクが壊れています"
@@ -337,55 +337,55 @@ msgstr "認証リンクが壊れています"
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr "もしかして <span tabindex=\"1\">%(domain)s</span> ですか？"
 
-#: app/scripts/lib/oauth-errors.js:24
+#: app/scripts/lib/oauth-errors.js:23
 msgid "Unknown client"
 msgstr "不明なクライアントです"
 
-#: app/scripts/lib/oauth-errors.js:28
+#: app/scripts/lib/oauth-errors.js:27
 msgid "Incorrect redirect_uri"
 msgstr "redirect_uri が正しくありません"
 
-#: app/scripts/lib/oauth-errors.js:32
+#: app/scripts/lib/oauth-errors.js:31
 msgid "Invalid assertion"
 msgstr "assertion が正しくありません"
 
-#: app/scripts/lib/oauth-errors.js:36
+#: app/scripts/lib/oauth-errors.js:35
 msgid "Unknown code"
 msgstr "不明なコード"
 
-#: app/scripts/lib/oauth-errors.js:40
+#: app/scripts/lib/oauth-errors.js:39
 msgid "Incorrect code"
 msgstr "間違ったコード"
 
-#: app/scripts/lib/oauth-errors.js:44
+#: app/scripts/lib/oauth-errors.js:43
 msgid "Expired code"
 msgstr "期限切れのコード"
 
-#: app/scripts/lib/oauth-errors.js:60 app/scripts/lib/profile-errors.js:18
+#: app/scripts/lib/oauth-errors.js:59 app/scripts/lib/profile-errors.js:17
 msgid "Unauthorized"
 msgstr "未承認"
 
-#: app/scripts/lib/oauth-errors.js:64
+#: app/scripts/lib/oauth-errors.js:63
 msgid "Forbidden"
 msgstr "許可されていません"
 
-#: app/scripts/lib/oauth-errors.js:74
+#: app/scripts/lib/oauth-errors.js:73
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "不正な OAuth 引数: %(param)s"
 
-#: app/scripts/lib/oauth-errors.js:86
+#: app/scripts/lib/oauth-errors.js:85
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "エラーが発生しました。このタブを閉じて再度試してください。"
 
-#: app/scripts/lib/oauth-errors.js:106
+#: app/scripts/lib/oauth-errors.js:105
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "不足している OAuth 引数: %(param)s"
 
-#: app/scripts/lib/profile-errors.js:26
+#: app/scripts/lib/profile-errors.js:25
 msgid "Unsupported image provider"
 msgstr "未対応の画像プロバイダ"
 
-#: app/scripts/lib/profile-errors.js:30
+#: app/scripts/lib/profile-errors.js:29
 msgid "Image processing error"
 msgstr "画像処理エラー"
 
@@ -393,36 +393,36 @@ msgstr "画像処理エラー"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: app/scripts/lib/strings.js:19
+#: app/scripts/lib/strings.js:18
 msgid ""
 "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"続けることで、%(serviceName)s (%(serviceUri)s) の <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">利用規約</a> と <a id=\"service-pp\" href="
-"\"%(privacyUri)s\">プライバシー通知</a> に同意したものとみなされます。"
+"続けることで、%(serviceName)s (%(serviceUri)s) の <a id=\"service-tos\" href="
+"\"%(termsUri)s\">利用規約</a> と <a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">プライバシー通知</a> に同意したものとみなされます。"
 
-#: app/scripts/lib/strings.js:23 app/scripts/templates/sign_up.mustache:14
+#: app/scripts/lib/strings.js:22 app/scripts/templates/sign_up.mustache:14
 #: app/scripts/templates/settings/communication_preferences.mustache:2
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Mozilla と Firefox に関する最新情報を入手しましょう。"
 
-#: app/scripts/lib/strings.js:24 app/scripts/templates/settings.mustache:5
+#: app/scripts/lib/strings.js:23 app/scripts/templates/settings.mustache:4
 #: app/scripts/templates/settings/communication_preferences.mustache:1
 msgid "Communication preferences"
 msgstr "コミュニケーション設定"
 
-#: app/scripts/lib/strings.js:25
+#: app/scripts/lib/strings.js:24
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Email preferences"
 msgstr "メール設定"
 
-#: app/scripts/lib/strings.js:28
+#: app/scripts/lib/strings.js:27
 msgid "Edit profile"
 msgstr "プロフィールを編集"
 
-#: app/scripts/lib/strings.js:29
+#: app/scripts/lib/strings.js:28
 msgid "Name"
 msgstr "名前"
 
@@ -441,7 +441,7 @@ msgid "Learn more."
 msgstr "詳細を確認。"
 
 #: app/scripts/templates/change_password.mustache:1
-#: app/scripts/templates/settings.mustache:7
+#: app/scripts/templates/settings.mustache:6
 msgid "Change password"
 msgstr "パスワードの変更"
 
@@ -640,7 +640,7 @@ msgstr "再度試す"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
-#: app/scripts/templates/settings.mustache:8
+#: app/scripts/templates/settings.mustache:7
 msgid "Delete account"
 msgstr "アカウントを削除"
 
@@ -676,9 +676,9 @@ msgid ""
 "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
 "Notice</a> of Firefox cloud services."
 msgstr ""
-"続けることで、Firefox クラウドサービスの <a id=\"fxa-tos\" href=\"/legal/terms\">"
-"利用規約</a> と <a id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー通知</a> に"
-"同意したものとみなされます。"
+"続けることで、Firefox クラウドサービスの <a id=\"fxa-tos\" href=\"/legal/"
+"terms\">利用規約</a> と <a id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー"
+"通知</a> に同意したものとみなされます。"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -690,13 +690,13 @@ msgid "Legal"
 msgstr "法的事項"
 
 #: app/scripts/templates/legal.mustache:3
-#: app/scripts/templates/settings.mustache:11
+#: app/scripts/templates/settings.mustache:10
 #: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "利用規約"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
-#: app/scripts/templates/settings.mustache:12
+#: app/scripts/templates/settings.mustache:11
 msgid "Privacy Notice"
 msgstr "プライバシーに関する注意"
 
@@ -807,11 +807,11 @@ msgstr "アカウント管理"
 msgid "Change"
 msgstr "変更"
 
-#: app/scripts/templates/settings.mustache:4
+#: app/scripts/templates/settings.mustache:3
 msgid "You are signed in as"
 msgstr "サインイン中:"
 
-#: app/scripts/templates/settings.mustache:9
+#: app/scripts/templates/settings.mustache:8
 msgid "Sign out"
 msgstr "サインアウト"
 
@@ -850,7 +850,7 @@ msgid "Already have an account? Sign in."
 msgstr "アカウントを既にお持の方はサインインしてください。"
 
 #: app/scripts/templates/unexpected_error.mustache:2
-#: app/scripts/templates/settings/avatar_change.mustache:5
+#: app/scripts/templates/settings/avatar_change.mustache:6
 msgid "Home"
 msgstr "ホーム"
 

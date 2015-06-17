@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-05 18:11+0000\n"
+"POT-Creation-Date: 2015-06-17 22:35+0000\n"
 "PO-Revision-Date: 2015-03-11 16:47+0000\n"
 "Last-Translator: Ibrahima <ibrahima.sarr@pulaagu.com>\n"
 "Language-Team: FULAH LOCALIZATION\n"
@@ -83,58 +83,58 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/change_password.js:85
+#: app/scripts/views/change_password.js:58
 msgid "Password changed successfully"
 msgstr "Finnde wayliraama no haaniri"
 
-#: app/scripts/views/complete_reset_password.js:139
-#: app/scripts/views/complete_sign_up.js:94 app/scripts/views/confirm.js:90
-#: app/scripts/views/confirm_reset_password.js:172
+#: app/scripts/views/complete_reset_password.js:132
+#: app/scripts/views/complete_sign_up.js:100 app/scripts/views/confirm.js:89
+#: app/scripts/views/confirm_reset_password.js:171
 msgid "Account verified successfully"
 msgstr "Konte ƴeewtoraama no haaniri"
 
-#: app/scripts/views/confirm_account_unlock.js:106
+#: app/scripts/views/confirm_account_unlock.js:105
 msgid "Account unlocked, please try again"
 msgstr ""
 
-#: app/scripts/views/confirm_reset_password.js:160
+#: app/scripts/views/confirm_reset_password.js:159
 #: app/scripts/templates/ready.mustache:3
 msgid "Password reset"
 msgstr "Finnde firlitaama"
 
-#: app/scripts/views/confirm_reset_password.js:188
+#: app/scripts/views/confirm_reset_password.js:187
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Finnde firlitaama no haanirta. Seŋo ngam jokkude."
 
-#: app/scripts/views/delete_account.js:53
+#: app/scripts/views/delete_account.js:52
 msgid "Account deleted successfully"
 msgstr "Konte momtiraama no haanirta"
 
-#: app/scripts/views/reset_password.js:75 app/scripts/views/sign_in.js:176
+#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:175
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Konte anndaaka. <a href=\"/signup\">Winndito</a>"
 
-#: app/scripts/views/settings.js:76
+#: app/scripts/views/settings.js:74
 msgid "Signed out successfully"
 msgstr "Seŋtiima no haanirta"
 
-#: app/scripts/views/sign_up.js:317
+#: app/scripts/views/sign_up.js:316
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Konte ena ngoodi kisa. <a href=\"/signin\">Seŋo</a>"
 
-#: app/scripts/views/settings/avatar_gravatar.js:58
+#: app/scripts/views/settings/avatar_gravatar.js:57
 msgid "No Gravatar found"
 msgstr "Alaa Gravatar yiytaa"
 
-#: app/scripts/views/settings/avatar_gravatar.js:87
+#: app/scripts/views/settings/avatar_gravatar.js:89
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "E wnume <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
-#: app/scripts/views/settings/communication_preferences.js:91
+#: app/scripts/views/settings/communication_preferences.js:90
 msgid "Subscribed successfully"
 msgstr ""
 
-#: app/scripts/views/settings/communication_preferences.js:92
+#: app/scripts/views/settings/communication_preferences.js:91
 msgid "Unsubscribed successfully"
 msgstr ""
 
@@ -143,188 +143,188 @@ msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:18
-#: app/scripts/lib/marketing-email-errors.js:18
-#: app/scripts/lib/oauth-errors.js:19 app/scripts/lib/profile-errors.js:34
-#: app/scripts/lib/profile-errors.js:42
+#: app/scripts/lib/auth-errors.js:17
+#: app/scripts/lib/marketing-email-errors.js:17
+#: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:33
+#: app/scripts/lib/profile-errors.js:41
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Juumre nde heftinaaka"
 
-#: app/scripts/lib/auth-errors.js:27
+#: app/scripts/lib/auth-errors.js:26
 msgid "Invalid token"
 msgstr "Tokkunde moƴƴaani"
 
-#: app/scripts/lib/auth-errors.js:31
+#: app/scripts/lib/auth-errors.js:30
 msgid "Invalid timestamp in request signature"
 msgstr "Temmbere sahaa e siifannde ɗaɓɓitannde feewaani"
 
-#: app/scripts/lib/auth-errors.js:35
+#: app/scripts/lib/auth-errors.js:34
 msgid "Invalid nonce in request signature"
 msgstr "Nonsere e siifannde ɗaɓɓitannde feewaani"
 
-#: app/scripts/lib/auth-errors.js:39
+#: app/scripts/lib/auth-errors.js:38
 msgid "Account already exists"
 msgstr "Ɗee konte ena ngoodi kisa"
 
-#: app/scripts/lib/auth-errors.js:43
+#: app/scripts/lib/auth-errors.js:42
 msgid "Unknown account"
 msgstr "Konte nganndaaka"
 
-#: app/scripts/lib/auth-errors.js:47
+#: app/scripts/lib/auth-errors.js:46
 msgid "Incorrect email case"
 msgstr "Darnde iimeel feewaani"
 
-#: app/scripts/lib/auth-errors.js:51
+#: app/scripts/lib/auth-errors.js:50
 msgid "Incorrect password"
 msgstr "Finnde ndee moƴƴaani"
 
-#: app/scripts/lib/auth-errors.js:55
+#: app/scripts/lib/auth-errors.js:54
 msgid "Unverified account"
 msgstr "Konte ƴeewtaaka"
 
-#: app/scripts/lib/auth-errors.js:59
+#: app/scripts/lib/auth-errors.js:58
 msgid "Invalid verification code"
 msgstr "Kod ƴeewtagol moƴƴaani"
 
-#: app/scripts/lib/auth-errors.js:63
+#: app/scripts/lib/auth-errors.js:62
 msgid "Invalid JSON in request body"
 msgstr "JSON e jimme ɗaɓɓitannde moƴƴaani"
 
-#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:48
-#: app/scripts/lib/profile-errors.js:22
+#: app/scripts/lib/auth-errors.js:66 app/scripts/lib/oauth-errors.js:47
+#: app/scripts/lib/profile-errors.js:21
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Teeltol e jimme ɗaɓɓitannde moƴƴaani: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:71
+#: app/scripts/lib/auth-errors.js:70
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Teeltol e jimme ɗaɓɓitannde ena ŋakki: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:75 app/scripts/lib/oauth-errors.js:52
+#: app/scripts/lib/auth-errors.js:74 app/scripts/lib/oauth-errors.js:51
 msgid "Invalid request signature"
 msgstr "Siifannde ɗaɓɓitannde feewaani"
 
-#: app/scripts/lib/auth-errors.js:79
+#: app/scripts/lib/auth-errors.js:78
 msgid "Missing content-length header"
 msgstr "Tiitoore njuuteendi-loowdi ena ŋakki"
 
-#: app/scripts/lib/auth-errors.js:83
+#: app/scripts/lib/auth-errors.js:82
 msgid "Request body too large"
 msgstr "Jimme ɗaɓɓitannde ena mawni haa ɓurti"
 
-#: app/scripts/lib/auth-errors.js:87
+#: app/scripts/lib/auth-errors.js:86
 msgid "Attempt limit exceeded"
 msgstr "Etaali ɓurtii ko yamiraa"
 
-#: app/scripts/lib/auth-errors.js:91
+#: app/scripts/lib/auth-errors.js:90
 msgid "Your account has been locked for security reasons"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:99
+#: app/scripts/lib/auth-errors.js:98
 msgid "Server busy, try again soon"
 msgstr "Sarworde ena halji, eto ɗoo e yeeso"
 
-#: app/scripts/lib/auth-errors.js:103
+#: app/scripts/lib/auth-errors.js:102
 msgid "This endpoint is no longer supported"
 msgstr "Ndeen toɓɓere wattan nattii tammbiteede"
 
-#: app/scripts/lib/auth-errors.js:107
-#: app/scripts/lib/marketing-email-errors.js:79
-#: app/scripts/lib/oauth-errors.js:78 app/scripts/lib/profile-errors.js:38
+#: app/scripts/lib/auth-errors.js:106
+#: app/scripts/lib/marketing-email-errors.js:78
+#: app/scripts/lib/oauth-errors.js:77 app/scripts/lib/profile-errors.js:37
 msgid "System unavailable, try again soon"
 msgstr "Yuɓɓo heɓotaako, eto ɗoo e yeeso"
 
-#: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:102
+#: app/scripts/lib/auth-errors.js:110 app/scripts/lib/oauth-errors.js:101
 msgid "no message"
 msgstr "alaa ɓatakuru"
 
-#: app/scripts/lib/auth-errors.js:115
+#: app/scripts/lib/auth-errors.js:114
 msgid "Session expired. Sign in to continue."
 msgstr "Naatannde hiiɗtii. Seŋo ngam jokkude."
 
-#: app/scripts/lib/auth-errors.js:119
+#: app/scripts/lib/auth-errors.js:118
 msgid "Cookies are still disabled"
 msgstr "Kukiije ko daaƴaaɗe tawo"
 
-#: app/scripts/lib/auth-errors.js:123
+#: app/scripts/lib/auth-errors.js:122
 msgid "Passwords do not match"
 msgstr "Finndeeji nanndaani"
 
-#: app/scripts/lib/auth-errors.js:127
+#: app/scripts/lib/auth-errors.js:126
 msgid "Working…"
 msgstr "Nana golla…"
 
-#: app/scripts/lib/auth-errors.js:131
+#: app/scripts/lib/auth-errors.js:130
 msgid "Could not get Privacy Notice"
 msgstr "Horiima heɓde Tintinol Suturo"
 
-#: app/scripts/lib/auth-errors.js:135
+#: app/scripts/lib/auth-errors.js:134
 msgid "Could not get Terms of Service"
 msgstr "Horiima heɓde Sarɗiiji Carwe"
 
-#: app/scripts/lib/auth-errors.js:139
+#: app/scripts/lib/auth-errors.js:138
 msgid "Your new password must be different"
 msgstr "Finnde maa hesere ndee ena foti seertude"
 
-#: app/scripts/lib/auth-errors.js:143
+#: app/scripts/lib/auth-errors.js:142
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/complete_reset_password.mustache:16
 #: app/scripts/templates/sign_up.mustache:12
 msgid "Must be at least 8 characters"
 msgstr "Ena foti waɗde alkule 8 so famɗii"
 
-#: app/scripts/lib/auth-errors.js:147
+#: app/scripts/lib/auth-errors.js:146
 msgid "Valid password required"
 msgstr "Finnde moƴƴere ena waɗɗii"
 
-#: app/scripts/lib/auth-errors.js:151 app/scripts/lib/auth-errors.js:183
-#: app/scripts/lib/auth-errors.js:199
+#: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:182
+#: app/scripts/lib/auth-errors.js:198
 msgid "Valid email required"
 msgstr "Iimeel moƴƴo ena waɗɗii"
 
-#: app/scripts/lib/auth-errors.js:155
+#: app/scripts/lib/auth-errors.js:154
 msgid "Year of birth required"
 msgstr "Hitaande jibinannde ena waɗɗii"
 
-#: app/scripts/lib/auth-errors.js:159
+#: app/scripts/lib/auth-errors.js:158
 msgid "A usable image was not found"
 msgstr "Natal baawngal huutoreede yiyaaka"
 
-#: app/scripts/lib/auth-errors.js:163
+#: app/scripts/lib/auth-errors.js:162
 msgid "Could not initialize camera"
 msgstr "Horiima heblitaade kamaraa"
 
-#: app/scripts/lib/auth-errors.js:167
+#: app/scripts/lib/auth-errors.js:166
 msgid "Valid URL required"
 msgstr "URL moƴƴo ena waɗɗii"
 
-#: app/scripts/lib/auth-errors.js:171
+#: app/scripts/lib/auth-errors.js:170
 msgid "Valid birthday required"
 msgstr "Maanditaare moƴƴere ena waɗɗii"
 
-#: app/scripts/lib/auth-errors.js:179
+#: app/scripts/lib/auth-errors.js:178
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Iimeel ƴeewtoɗo oo ruttinaama. Juumre binndol?"
 
-#: app/scripts/lib/auth-errors.js:187
+#: app/scripts/lib/auth-errors.js:186
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Naatnu ñiiɓirde iimeel moƴƴere. firefox.com hokkataa ñiiɓirɗe."
 
-#: app/scripts/lib/auth-errors.js:195
+#: app/scripts/lib/auth-errors.js:194
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Konte Firefox mbaawi wonde tan ko e IFRAME e lowe jamiraaɗe"
 
-#: app/scripts/lib/auth-errors.js:203
+#: app/scripts/lib/auth-errors.js:202
 msgid "/force_auth requires an email"
 msgstr "/force_auth ena naamnii iimeel"
 
-#: app/scripts/lib/auth-errors.js:207
+#: app/scripts/lib/auth-errors.js:206
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
 msgstr "Jokkol ndobi-ɗaa ngam ƴeewtaade finnde maa ngol hiiɗtii."
 
-#: app/scripts/lib/auth-errors.js:211
+#: app/scripts/lib/auth-errors.js:210
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "Jokkol ƴeewtagol koko boni"
@@ -333,55 +333,55 @@ msgstr "Jokkol ƴeewtagol koko boni"
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr "Njiɗno-ɗaa wiyde ko <span tabindex=\"1\">%(domain)s</span>?"
 
-#: app/scripts/lib/oauth-errors.js:24
+#: app/scripts/lib/oauth-errors.js:23
 msgid "Unknown client"
 msgstr "Kiliyaan nganndaaka"
 
-#: app/scripts/lib/oauth-errors.js:28
+#: app/scripts/lib/oauth-errors.js:27
 msgid "Incorrect redirect_uri"
 msgstr "redirect_uri feewaani"
 
-#: app/scripts/lib/oauth-errors.js:32
+#: app/scripts/lib/oauth-errors.js:31
 msgid "Invalid assertion"
 msgstr "Tokkunde moƴƴaani"
 
-#: app/scripts/lib/oauth-errors.js:36
+#: app/scripts/lib/oauth-errors.js:35
 msgid "Unknown code"
 msgstr ""
 
-#: app/scripts/lib/oauth-errors.js:40
+#: app/scripts/lib/oauth-errors.js:39
 msgid "Incorrect code"
 msgstr ""
 
-#: app/scripts/lib/oauth-errors.js:44
+#: app/scripts/lib/oauth-errors.js:43
 msgid "Expired code"
 msgstr ""
 
-#: app/scripts/lib/oauth-errors.js:60 app/scripts/lib/profile-errors.js:18
+#: app/scripts/lib/oauth-errors.js:59 app/scripts/lib/profile-errors.js:17
 msgid "Unauthorized"
 msgstr "Yamiraaka"
 
-#: app/scripts/lib/oauth-errors.js:64
+#: app/scripts/lib/oauth-errors.js:63
 msgid "Forbidden"
 msgstr ""
 
-#: app/scripts/lib/oauth-errors.js:74
+#: app/scripts/lib/oauth-errors.js:73
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr ""
 
-#: app/scripts/lib/oauth-errors.js:86
+#: app/scripts/lib/oauth-errors.js:85
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Won caɗeele mbaɗi. Tiiɗno uddu ndee tabbere kisa puɗɗito-ɗaa."
 
-#: app/scripts/lib/oauth-errors.js:106
+#: app/scripts/lib/oauth-errors.js:105
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Ena ŋakki OAuth parameter: %(param)s"
 
-#: app/scripts/lib/profile-errors.js:26
+#: app/scripts/lib/profile-errors.js:25
 msgid "Unsupported image provider"
 msgstr "Carwinoowo nate jaaɓaaka"
 
-#: app/scripts/lib/profile-errors.js:30
+#: app/scripts/lib/profile-errors.js:29
 msgid "Image processing error"
 msgstr "Juumre lijjitgol natal"
 
@@ -389,33 +389,33 @@ msgstr "Juumre lijjitgol natal"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: app/scripts/lib/strings.js:19
+#: app/scripts/lib/strings.js:18
 msgid ""
 "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
-#: app/scripts/lib/strings.js:23 app/scripts/templates/sign_up.mustache:14
+#: app/scripts/lib/strings.js:22 app/scripts/templates/sign_up.mustache:14
 #: app/scripts/templates/settings/communication_preferences.mustache:2
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr ""
 
-#: app/scripts/lib/strings.js:24 app/scripts/templates/settings.mustache:5
+#: app/scripts/lib/strings.js:23 app/scripts/templates/settings.mustache:4
 #: app/scripts/templates/settings/communication_preferences.mustache:1
 msgid "Communication preferences"
 msgstr ""
 
-#: app/scripts/lib/strings.js:25
+#: app/scripts/lib/strings.js:24
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Email preferences"
 msgstr ""
 
-#: app/scripts/lib/strings.js:28
+#: app/scripts/lib/strings.js:27
 msgid "Edit profile"
 msgstr ""
 
-#: app/scripts/lib/strings.js:29
+#: app/scripts/lib/strings.js:28
 msgid "Name"
 msgstr ""
 
@@ -433,7 +433,7 @@ msgid "Learn more."
 msgstr "Ɓeydu humpito."
 
 #: app/scripts/templates/change_password.mustache:1
-#: app/scripts/templates/settings.mustache:7
+#: app/scripts/templates/settings.mustache:6
 msgid "Change password"
 msgstr "Waylu finnde"
 
@@ -625,7 +625,7 @@ msgstr "Fuɗɗito"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
-#: app/scripts/templates/settings.mustache:8
+#: app/scripts/templates/settings.mustache:7
 msgid "Delete account"
 msgstr "Momtu konte"
 
@@ -671,13 +671,13 @@ msgid "Legal"
 msgstr "Laawol"
 
 #: app/scripts/templates/legal.mustache:3
-#: app/scripts/templates/settings.mustache:11
+#: app/scripts/templates/settings.mustache:10
 #: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "Sarɗiiji Carwe"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
-#: app/scripts/templates/settings.mustache:12
+#: app/scripts/templates/settings.mustache:11
 msgid "Privacy Notice"
 msgstr "Tintinol Suturo"
 
@@ -786,11 +786,11 @@ msgstr "Toppito konte"
 msgid "Change"
 msgstr "Waylu"
 
-#: app/scripts/templates/settings.mustache:4
+#: app/scripts/templates/settings.mustache:3
 msgid "You are signed in as"
 msgstr "Ceŋori-ɗaa ko innde"
 
-#: app/scripts/templates/settings.mustache:9
+#: app/scripts/templates/settings.mustache:8
 msgid "Sign out"
 msgstr "Seŋto"
 
@@ -826,7 +826,7 @@ msgid "Already have an account? Sign in."
 msgstr "Aɗa jogii konnte kisa? Seŋo."
 
 #: app/scripts/templates/unexpected_error.mustache:2
-#: app/scripts/templates/settings/avatar_change.mustache:5
+#: app/scripts/templates/settings/avatar_change.mustache:6
 msgid "Home"
 msgstr "Jaɓɓorgo"
 
