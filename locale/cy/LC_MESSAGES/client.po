@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-05 18:11+0000\n"
-"PO-Revision-Date: 2015-03-12 20:53+0000\n"
+"PO-Revision-Date: 2015-05-29 14:57+0000\n"
 "Last-Translator: Rhoslyn <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != "
 "11) ? 2 : 3 ;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1426193638.0\n"
+"X-POOTLE-MTIME: 1432911472.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -95,7 +95,7 @@ msgstr "Dilyswyd y cyfrif yn llwyddiannus"
 
 #: app/scripts/views/confirm_account_unlock.js:106
 msgid "Account unlocked, please try again"
-msgstr ""
+msgstr "Cyfrif wedi ei ddatgloi, ceisiwch eto"
 
 #: app/scripts/views/confirm_reset_password.js:160
 #: app/scripts/templates/ready.mustache:3
@@ -142,6 +142,8 @@ msgstr ""
 msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
+"Cyfrif wedi ei gloi. <a href=\"/confirm_account_unlock\">Anfon e-bost "
+"datgloi</a>"
 
 #: app/scripts/lib/auth-errors.js:18
 #: app/scripts/lib/marketing-email-errors.js:18
@@ -218,7 +220,7 @@ msgstr "Wedi croesi'r terfyn ceisio"
 
 #: app/scripts/lib/auth-errors.js:91
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "Mae eich cyfrif wedi ei gloi am resymau diogelwch"
 
 #: app/scripts/lib/auth-errors.js:99
 msgid "Server busy, try again soon"
@@ -349,15 +351,15 @@ msgstr "Honiad annilys"
 
 #: app/scripts/lib/oauth-errors.js:36
 msgid "Unknown code"
-msgstr ""
+msgstr "Cod anhysbys"
 
 #: app/scripts/lib/oauth-errors.js:40
 msgid "Incorrect code"
-msgstr ""
+msgstr "Cod anghywir"
 
 #: app/scripts/lib/oauth-errors.js:44
 msgid "Expired code"
-msgstr ""
+msgstr "Cod wedi dod i ben"
 
 #: app/scripts/lib/oauth-errors.js:60 app/scripts/lib/profile-errors.js:18
 msgid "Unauthorized"
@@ -365,11 +367,11 @@ msgstr "Heb awdurdod"
 
 #: app/scripts/lib/oauth-errors.js:64
 msgid "Forbidden"
-msgstr ""
+msgstr "Gwaharddedig"
 
 #: app/scripts/lib/oauth-errors.js:74
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Paramedrau OAuth annilys: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:86
 msgid "Something went wrong. Please close this tab and try again."
@@ -401,25 +403,25 @@ msgstr ""
 #: app/scripts/lib/strings.js:23 app/scripts/templates/sign_up.mustache:14
 #: app/scripts/templates/settings/communication_preferences.mustache:2
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Derbyniwch y newyddion diweddaraf am Mozilla a Firefox."
 
 #: app/scripts/lib/strings.js:24 app/scripts/templates/settings.mustache:5
 #: app/scripts/templates/settings/communication_preferences.mustache:1
 msgid "Communication preferences"
-msgstr ""
+msgstr "Dewisiadau cyfathrebu"
 
 #: app/scripts/lib/strings.js:25
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Email preferences"
-msgstr ""
+msgstr "Dewisiadau e-bost"
 
 #: app/scripts/lib/strings.js:28
 msgid "Edit profile"
-msgstr ""
+msgstr "Golygu eich proffil"
 
 #: app/scripts/lib/strings.js:29
 msgid "Name"
-msgstr ""
+msgstr "Enw"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -444,6 +446,8 @@ msgid ""
 "Once you're finished, use your new password to sign in on all of your "
 "devices."
 msgstr ""
+"Unwaith i chi orffen, defnyddiwch eich cyfrinair newydd i fewngofnodi i'ch "
+"holl ddyfeisiau."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -483,11 +487,11 @@ msgstr "Nôl"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
-msgstr ""
+msgstr "Dolen datgloi wedi dod i ben"
 
 #: app/scripts/templates/complete_account_unlock.mustache:4
 msgid "Unlock link damaged"
-msgstr ""
+msgstr "Dolen datgloi wedi ei difrodi"
 
 #: app/scripts/templates/complete_account_unlock.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:7
@@ -501,7 +505,7 @@ msgstr ""
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
-msgstr ""
+msgstr "Gwall datgloi"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -576,7 +580,7 @@ msgstr "Ailanfon e-bost"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:1
 msgid "Unlock email sent"
-msgstr ""
+msgstr "Anfonwyd yr e-bost datgloi"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
@@ -584,6 +588,9 @@ msgid ""
 "level activities, please re-verify your account by clicking the verification "
 "link sent to %(email)s"
 msgstr ""
+"Am resymau diogelwch mae eich cyfrif wedi ei gloi. Er mwyn gwneud cael "
+"mynediad at eich cyfrif, ail ddilyswch eich cyfrif drwy glicio'r ddolen "
+"dilysu anfonwyd at %(email)s"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -698,35 +705,35 @@ msgstr "Estynnwch Firefox Android"
 #: app/scripts/templates/marketing_snippet_ios.mustache:5
 #: app/scripts/templates/marketing_snippet_ios.mustache:9
 msgid "Get the full Sync experience."
-msgstr ""
+msgstr "Derbyn y profiad Sync llawn."
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:2
 #: app/scripts/templates/marketing_snippet_ios.mustache:12
 msgid "Firefox is coming soon to iOS!"
-msgstr ""
+msgstr "Mae Firefox yn dod i iOS cyn bo hir!"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:3
 #: app/scripts/templates/marketing_snippet_ios.mustache:13
 msgid "Sign up to learn more"
-msgstr ""
+msgstr "Cofrestrwch i gael gwybod rhagor"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:6
 #: app/scripts/templates/marketing_snippet_ios.mustache:7
 #: app/scripts/templates/marketing_snippet_ios.mustache:11
 msgid "Download Firefox for Android."
-msgstr ""
+msgstr "Llwytho Firefox Android i lawr"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr ""
+msgstr "Llwytho Firefox ar gyfer dyfeisiau symudol i lawr"
 
 #: app/scripts/templates/permissions.mustache:1
 msgid "Request for permission"
-msgstr ""
+msgstr "Cais am ganiatâd"
 
 #: app/scripts/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr ""
+msgstr "Mae %(serviceName)s eisiau'r wybodaeth ganlynol o'ch cyfrif:"
 
 #: app/scripts/templates/permissions.mustache:3
 #: app/scripts/templates/reset_password.mustache:3
@@ -737,7 +744,7 @@ msgstr "E-bost"
 
 #: app/scripts/templates/permissions.mustache:4
 msgid "Accept"
-msgstr ""
+msgstr "Derbyn"
 
 #: app/scripts/templates/permissions.mustache:5
 #: app/scripts/templates/settings/avatar_camera.mustache:3
@@ -752,7 +759,7 @@ msgstr "Cyfrif wedi ei ddilysu"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account unlocked"
-msgstr ""
+msgstr "Datglowyd eich cyfrif"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Success"
@@ -764,7 +771,7 @@ msgstr "Rydych nawr yn barod i ddefnyddio %(serviceName)s"
 
 #: app/scripts/templates/ready.mustache:9
 msgid "Proceed"
-msgstr ""
+msgstr "Parhau"
 
 #: app/scripts/templates/ready.mustache:12
 msgid "Your account is ready!"
