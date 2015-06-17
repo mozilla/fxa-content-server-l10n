@@ -3,12 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-05 18:11+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2015-06-10 12:34+0000\n"
+"Last-Translator: Kristján Bjarni <kristjanbjarni@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1433939697.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -18,50 +22,56 @@ msgstr ""
 #: server/templates/pages/src/terms.html:1 templates/reset.html:1
 #: templates/unlock.html:1 templates/verify.html:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Firefox reikningar"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
-msgstr ""
+msgstr "Röng beiðni"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "Síða fannst ekki"
 
 #: server/templates/pages/src/404.html:3
 msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
+"Síðan sem beðið var um fannst ekki. Búið er að láta okkur vita og við munum "
+"laga alla þá tengla sem eru vitlausir."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
-msgstr ""
+msgstr "Heim"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr ""
+msgstr "500 villa"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr ""
+"Ó nei, eitthvað fór úrskeiðis. Búið er að láta okkur vita og við munum "
+"lagfæra þetta."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "502 villa"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Netþjónn er upptekinn, reyndu aftur seinna"
 
 #: server/templates/pages/src/503.html:3
 msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
+"Við erum undir miklu álagi eins og er en erum að vinna að því að laga kerfið "
+"eins fljótt og hægt er."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
@@ -72,41 +82,44 @@ msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
+"Þú ert að nota <strong>úreltan</strong> vafra. <a "
+"href=\"http://browsehappy.com/\">Uppfærðu vafrann</a> til að betrumbæta "
+"notkunina."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "Firefox reikningur þarfnast JavaScript."
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Tilkynning um friðhelgi"
 
 #: server/templates/pages/src/privacy.html:4
 #: server/templates/pages/src/terms.html:4
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "Firefox skýjaþjónustur"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:5
 #: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
-msgstr ""
+msgstr "Skilmálar"
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Are you sure?"
-msgstr ""
+msgstr "Ertu alveg viss?"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr ""
+msgstr "Staðfestu að þú viljir endurstilla lykilorðið fyrir %(email)s."
 
 #: templates/reset.html:4
 msgid "Reset password"
-msgstr ""
+msgstr "Endurstilla lykilorð"
 
 #: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
 #: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
@@ -114,20 +127,24 @@ msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
+"Þetta er sjálfvirkur tölvupóstur; ef þú fékkst hann óvart sendan, þarftu "
+"ekkert að gera."
 
 #: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
 msgid ""
 "For more information, please visit <a href='https://support.mozilla."
 "org'>Mozilla Support</a>"
 msgstr ""
+"Fyrir meiri upplýsingar, kíktu á <a "
+"href='https://support.mozilla.org'>Mozilla hjálpina</a>"
 
 #: templates/reset.txt:3
 msgid "Reset password:"
-msgstr ""
+msgstr "Endurstilla lykilorð:"
 
 #: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
-msgstr ""
+msgstr "Fyrir meiri upplýsingar, kíktu á https://support.mozilla.org"
 
 #: templates/unlock.html:2 templates/unlock.txt:1
 msgid ""
@@ -135,39 +152,43 @@ msgid ""
 "account-level activities, please click the link to re-verify your account "
 "now."
 msgstr ""
+"Vegna öryggisástæðna er búið að loka Firefox reikningnum þínum. Til að "
+"breyta reikningi, smelltu á tengilinn til að staðfesta reikninginn þinn."
 
 #: templates/unlock.html:3
 msgid "Verify account"
-msgstr ""
+msgstr "Staðfesta reikning"
 
 #: templates/unlock.txt:2
 msgid "Verify account:"
-msgstr ""
+msgstr "Staðfesta reikning:"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Almost there"
-msgstr ""
+msgstr "Næstum því komið"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
 msgstr ""
+"%(email)s, þú þarft bara að smella einu sinni í viðbót til að staðfesta "
+"Firefox reikning"
 
 #: templates/verify.html:4
 msgid "Verify"
-msgstr ""
+msgstr "Staðfesta"
 
 #: templates/verify.txt:3
 msgid "Verify:"
-msgstr ""
+msgstr "Staðfesta:"
 
 #: mailer.js:73
 msgid "Verify your account"
-msgstr ""
+msgstr "Staðfesta reikning"
 
 #: mailer.js:112
 msgid "Reset your password"
-msgstr ""
+msgstr "Endurstilla lykilorð"
 
 #: mailer.js:146
 msgid "Re-verify your account"
-msgstr ""
+msgstr "Endurstaðfestu reikninginn"
