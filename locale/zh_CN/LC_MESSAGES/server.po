@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-05-20 19:37+0000\n"
+"PO-Revision-Date: 2015-06-18 08:56+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1432150637.0\n"
+"X-POOTLE-MTIME: 1434617798.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -191,13 +191,13 @@ msgstr "重新验证您的账号"
 
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
 msgid "Account activity notice"
-msgstr ""
+msgstr "账号活动通知"
 
 #: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
 msgid ""
 "A new device is now syncing with all of the devices connected to your "
 "Firefox Account."
-msgstr ""
+msgstr "一个新设备现在与您的 Firefox 账号已连接的所有设备保持同步。"
 
 #: templates/new_sync_device.html:4
 msgid ""
@@ -205,20 +205,22 @@ msgid ""
 "Account, you should change your password immediately at <a href='%(resetLink)"
 "s'>%(resetLink)s</a>."
 msgstr ""
+"这是一封自动发送的邮件。如果您并未将一个新设备添加到您的 Firefox 账号，您应该立即在 <a href='%(resetLink)s'>%"
+"(resetLink)s</a> 更改您的密码。"
 
 #: templates/new_sync_device.txt:3
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
 "Account, you should change your password immediately at %(resetLink)s."
-msgstr ""
+msgstr "这是一封自动发送的邮件。如果您并未将一个新设备添加到您的 Firefox 账号，您应该立即在 %(resetLink)s 更改您的密码。"
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "密码更改成功"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr ""
+msgstr "您的 Firefox 账号密码更改成功。"
 
 #: templates/password_changed.html:4
 msgid ""
@@ -226,20 +228,22 @@ msgid ""
 "Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"这是一封自动发送的邮件。如果您并未更改您的 Firefox 账号密码，您应该立即在 <a href='%(resetLink)s'>%"
+"(resetLink)s</a> 更改您的密码。"
 
 #: templates/password_changed.txt:3
 msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
-msgstr ""
+msgstr "这是一封自动发送的邮件。如果您并未更改您的 Firefox 账号密码，您应该立即在 %(resetLink)s 更改您的密码。"
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "密码重置成功"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr ""
+msgstr "您的 Firefox 账号密码重置成功。"
 
 #: templates/password_reset.html:4
 msgid ""
@@ -247,36 +251,38 @@ msgid ""
 "Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"这是一封自动发送的邮件。如果您并未重置您的 Firefox 账号密码，您应该立即在 <a href='%(resetLink)s'>%"
+"(resetLink)s</a> 更改您的密码。"
 
 #: templates/password_reset.txt:3
 msgid ""
 "This is an automated email; if you didn’t reset the password to your Firefox "
 "Account, you should reset it immediately at %(resetLink)s."
-msgstr ""
+msgstr "这是一封自动发送的邮件。如果您并未重置您的 Firefox 账号密码，您应该立即在 %(resetLink)s 更改您的密码。"
 
 #: mailer.js:82
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "验证您的 Firefox 账号"
 
 #: mailer.js:121
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "重置您的 Firefox 账号密码"
 
 #: mailer.js:155
 msgid "Re-verify your Firefox Account"
-msgstr ""
+msgstr "重新验证您的 Firefox 账号"
 
 #: mailer.js:185
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "您的 Firefox 账号密码已被更改"
 
 #: mailer.js:212
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "您的 Firefox 账号密码已被重置"
 
 #: mailer.js:239
 msgid "A new device is now syncing to your Firefox Account"
-msgstr ""
+msgstr "一个新设备现在与您的 Firefox 账号同步"
 
 #~ msgid "Congratulations!"
 #~ msgstr "恭喜！"
