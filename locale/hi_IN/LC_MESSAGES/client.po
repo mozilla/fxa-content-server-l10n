@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-06-14 15:05+0000\n"
-"Last-Translator: Umesh <umesh.agarwal1@gmail.com>\n"
+"PO-Revision-Date: 2015-06-18 14:34+0000\n"
+"Last-Translator: BhuvneshDogra <bhuvnesh.dogra@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1434294349.0\n"
+"X-POOTLE-MTIME: 1434638051.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -32,27 +32,27 @@ msgstr "1994"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:8
 msgid "1995"
-msgstr ""
+msgstr "1995"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:9
 msgid "1996"
-msgstr ""
+msgstr "1996"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:10
 msgid "1997"
-msgstr ""
+msgstr "1997"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:11
 msgid "1998"
-msgstr ""
+msgstr "1998"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:12
 msgid "1999"
-msgstr ""
+msgstr "1999"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:13
 msgid "2000"
-msgstr ""
+msgstr "2000"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:14
 msgid "2001"
@@ -84,26 +84,26 @@ msgstr ""
 
 #: app/scripts/views/change_password.js:58
 msgid "Password changed successfully"
-msgstr ""
+msgstr "कूटशब्द सफलतापूर्वक बदला गया"
 
 #: app/scripts/views/complete_reset_password.js:132
 #: app/scripts/views/complete_sign_up.js:100 app/scripts/views/confirm.js:89
 #: app/scripts/views/confirm_reset_password.js:171
 msgid "Account verified successfully"
-msgstr ""
+msgstr "खाता सफलतापूर्वक सत्यापित"
 
 #: app/scripts/views/confirm_account_unlock.js:105
 msgid "Account unlocked, please try again"
-msgstr ""
+msgstr "खता खुल गया है, पुनः प्रयास करें"
 
 #: app/scripts/views/confirm_reset_password.js:159
 #: app/scripts/templates/ready.mustache:3
 msgid "Password reset"
-msgstr ""
+msgstr "कूटशब्द पुनः तैयार करें"
 
 #: app/scripts/views/confirm_reset_password.js:187
 msgid "Password reset successfully. Sign in to continue."
-msgstr ""
+msgstr "कूटशब्द सफलतापूर्वक बदला गया. जारी रखने के लिए साइन इन करें."
 
 #: app/scripts/views/delete_account.js:52
 msgid "Account deleted successfully"
@@ -131,16 +131,16 @@ msgstr ""
 
 #: app/scripts/views/settings/communication_preferences.js:90
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "सफलतापूर्वक अभिदत्त किया गया"
 
 #: app/scripts/views/settings/communication_preferences.js:91
 msgid "Unsubscribed successfully"
-msgstr ""
+msgstr "सफलतापूर्वक अभिदत्तता समाप्त की गयी"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:28
 msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
-msgstr ""
+msgstr "खाता बंद. <a href=\"/confirm_account_unlock\">खोलने हेतु ईमेल भेजें</a>"
 
 #: app/scripts/lib/auth-errors.js:17
 #: app/scripts/lib/marketing-email-errors.js:17
@@ -148,27 +148,27 @@ msgstr ""
 #: app/scripts/lib/profile-errors.js:41
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
-msgstr ""
+msgstr "अप्रत्याशित त्रुटि"
 
 #: app/scripts/lib/auth-errors.js:26
 msgid "Invalid token"
-msgstr ""
+msgstr "अमान्य टोकन"
 
 #: app/scripts/lib/auth-errors.js:30
 msgid "Invalid timestamp in request signature"
-msgstr ""
+msgstr "अनुरोध हस्ताक्षर में अवैध समयपंजीकरण"
 
 #: app/scripts/lib/auth-errors.js:34
 msgid "Invalid nonce in request signature"
-msgstr ""
+msgstr "अनुरोध हस्ताक्षर में अवैध अवसर"
 
 #: app/scripts/lib/auth-errors.js:38
 msgid "Account already exists"
-msgstr ""
+msgstr "खाता पहले से मौजूद है"
 
 #: app/scripts/lib/auth-errors.js:42
 msgid "Unknown account"
-msgstr ""
+msgstr "अज्ञात खाता"
 
 #: app/scripts/lib/auth-errors.js:46
 msgid "Incorrect email case"
