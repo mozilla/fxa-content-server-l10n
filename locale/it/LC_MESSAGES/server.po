@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-03-12 16:14+0000\n"
+"PO-Revision-Date: 2015-06-18 21:30+0000\n"
 "Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1426176885.0\n"
+"X-POOTLE-MTIME: 1434663023.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -202,13 +202,15 @@ msgstr "Verifica nuovamente l’account"
 
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
 msgid "Account activity notice"
-msgstr ""
+msgstr "Notifica attività account"
 
 #: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
 msgid ""
 "A new device is now syncing with all of the devices connected to your "
 "Firefox Account."
 msgstr ""
+"È in corso la sincronizzazione di un nuovo dispositivo con quelli già "
+"collegati a Firefox Account."
 
 #: templates/new_sync_device.html:4
 msgid ""
@@ -216,20 +218,26 @@ msgid ""
 "Account, you should change your password immediately at <a href='%(resetLink)"
 "s'>%(resetLink)s</a>."
 msgstr ""
+"Questo messaggio è stato inviato automaticamente. Se non hai aggiunto tu un "
+"nuovo dispositivo a Firefox Account, modifica immediatamente la password "
+"visitando questa pagina: <a href='%(resetLink)s'> %(resetLink)s</a>."
 
 #: templates/new_sync_device.txt:3
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
 "Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
+"Questo messaggio è stato inviato automaticamente. Se non hai aggiunto tu un "
+"nuovo dispositivo a Firefox Account, modifica immediatamente la password "
+"visitando questa pagina: %(resetLink)s."
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Password modificata correttamente"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr ""
+msgstr "La password di Firefox Account è stata modificata correttamente."
 
 #: templates/password_changed.html:4
 msgid ""
@@ -237,20 +245,26 @@ msgid ""
 "Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"Questo messaggio è stato inviato automaticamente. Se non hai modificato tu "
+"la password di Firefox Account, reimpostala immediatamente visitando questa "
+"pagina: <a href='%(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/password_changed.txt:3
 msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"Questo messaggio è stato inviato automaticamente. Se non hai modificato tu "
+"la password di Firefox Account, reimpostala immediatamente visitando questa "
+"pagina: %(resetLink)s."
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Password reimpostata correttamente"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr ""
+msgstr "La password di Firefox Account è stata reimpostata correttamente."
 
 #: templates/password_reset.html:4
 msgid ""
@@ -258,36 +272,43 @@ msgid ""
 "Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"Questo messaggio è stato inviato automaticamente. Se non hai reimpostato tu "
+"la password di Firefox Account, reimpostala immediatamente visitando questa "
+"pagina: <a href='%(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/password_reset.txt:3
 msgid ""
 "This is an automated email; if you didn’t reset the password to your Firefox "
 "Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"Questo messaggio è stato inviato automaticamente. Se non hai reimpostato tu "
+"la password di Firefox Account, reimpostala immediatamente visitando questa "
+"pagina: %(resetLink)s."
 
 #: mailer.js:82
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "Verifica il tuo Firefox Account"
 
 #: mailer.js:121
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "Reimposta la password di Firefox Account"
 
 #: mailer.js:155
 msgid "Re-verify your Firefox Account"
-msgstr ""
+msgstr "Effettua nuovamente la verifica del tuo Firefox Account"
 
 #: mailer.js:185
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "La password di Firefox Account è stata modificata"
 
 #: mailer.js:212
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "La password di Firefox Account è stata reimpostata"
 
 #: mailer.js:239
 msgid "A new device is now syncing to your Firefox Account"
 msgstr ""
+"È in corso la sincronizzazione di un nuovo dispositivo con Firefox Account"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Complimenti!"
