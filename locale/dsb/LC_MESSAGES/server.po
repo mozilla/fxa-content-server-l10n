@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-03-12 14:58+0000\n"
+"PO-Revision-Date: 2015-06-19 10:15+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1426172306.0\n"
+"X-POOTLE-MTIME: 1434708931.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -203,13 +203,15 @@ msgstr "Wobkšuśćo swójo konto hyšći raz"
 
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
 msgid "Account activity notice"
-msgstr ""
+msgstr "Pokaz ku kontowej aktiwiśe"
 
 #: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
 msgid ""
 "A new device is now syncing with all of the devices connected to your "
 "Firefox Account."
 msgstr ""
+"Nowy rěd synchronizěrujo se něnto ze wšymi rědami, kótarež su z wašym kontom "
+"Firefox zwězane."
 
 #: templates/new_sync_device.html:4
 msgid ""
@@ -217,20 +219,26 @@ msgid ""
 "Account, you should change your password immediately at <a href='%(resetLink)"
 "s'>%(resetLink)s</a>."
 msgstr ""
+"To jo awtomatiska mejlka; jolic njejsćo swójomu kontoju Firefox nowy rěd "
+"pśidał, by wy měł ned swójo gronidło na <a href='%(resetLink)s'>%"
+"(resetLink)s</a> změniś."
 
 #: templates/new_sync_device.txt:3
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
 "Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
+"To jo awtomatiska mejlka; jolic njejsćo swójomu kontoju Firefox nowy rěd "
+"pśidał, by wy měł ned swójo gronidło na <a href='%(resetLink)s'>%"
+"(resetLink)s</a> změniś."
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Gronidło jo se wuspěšnje změniło"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr ""
+msgstr "Gronidło wašogo konta Firefox jo se wuspěšnje změniło."
 
 #: templates/password_changed.html:4
 msgid ""
@@ -238,20 +246,25 @@ msgid ""
 "Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"To jo awtomatiska mejlka; jolic njejsćo gronidło wašogo konta Firefox "
+"změnił, by wy měł jo ned na <a href='%(resetLink)s'>%(resetLink)s</a> slědk "
+"stajiś."
 
 #: templates/password_changed.txt:3
 msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"To jo awtomatiska mejlka; jolic njejsćo gronidło wašogo konta Firefox "
+"změnił, by wy měł jo ned na %(resetLink)s slědk stajiś."
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Gronidło jo se wuspěšnje slědk stajiło"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr ""
+msgstr "Gronidło wašogo konta Firefox jo se wuspěšnje slědk stajiło."
 
 #: templates/password_reset.html:4
 msgid ""
@@ -259,36 +272,41 @@ msgid ""
 "Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"To jo awtomatiska mejlka; jolic njejsćo gronidło wašogo konta Firefox slědk "
+"stajił, by wy měł jo ned na <a href='%(resetLink)s'>%(resetLink)s</a> slědk "
+"stajiś."
 
 #: templates/password_reset.txt:3
 msgid ""
 "This is an automated email; if you didn’t reset the password to your Firefox "
 "Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"To jo awtomatiska mejlka; jolic njejsćo gronidło wašogo konta Firefox slědk "
+"stajił, by wy měł jo ned na %(resetLink)s slědk stajiś."
 
 #: mailer.js:82
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "Wobkšuśćo swójo konto Firefox"
 
 #: mailer.js:121
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "Stajśo gronidło swójogo konta Firefox slědk"
 
 #: mailer.js:155
 msgid "Re-verify your Firefox Account"
-msgstr ""
+msgstr "Wobkšuśćo swójo konto Firefox hyšći raz"
 
 #: mailer.js:185
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "Gronidło wašogo konta Firefox jo se změniło"
 
 #: mailer.js:212
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "Gronidło wašogo konta Firefox jo se slědk stajiło"
 
 #: mailer.js:239
 msgid "A new device is now syncing to your Firefox Account"
-msgstr ""
+msgstr "Nowy rěd synchronizěrujo se něnto z wašym kontom Firefox"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Glukužycenje!"
