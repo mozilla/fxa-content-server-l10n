@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-04-18 14:10+0000\n"
+"PO-Revision-Date: 2015-06-18 18:15:02\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -204,13 +204,15 @@ msgstr "Verifique a sua conta novamente"
 
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
 msgid "Account activity notice"
-msgstr ""
+msgstr "Atividade da conta"
 
 #: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
 msgid ""
 "A new device is now syncing with all of the devices connected to your "
 "Firefox Account."
 msgstr ""
+"Um novo dispositivo está sincronizando com todos os dispositivos conectados "
+"à sua conta Firefox."
 
 #: templates/new_sync_device.html:4
 msgid ""
@@ -218,6 +220,9 @@ msgid ""
 "Account, you should change your password immediately at <a "
 "href='%(resetLink)s'>%(resetLink)s</a>."
 msgstr ""
+"Este é um e-mail automático; se você não adicionou um novo dispositivo a sua"
+" conta Firefox, você deve mudar sua senha imediatamente em <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/new_sync_device.txt:3
 msgid ""
@@ -227,11 +232,11 @@ msgstr ""
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Senha alterada com sucesso"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr ""
+msgstr "Sua senha da conta Firefox foi alterada com sucesso."
 
 #: templates/password_changed.html:4
 msgid ""
