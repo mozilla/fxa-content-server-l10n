@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-03-13 06:13+0000\n"
+"PO-Revision-Date: 2015-06-19 19:02+0000\n"
 "Last-Translator: Artem <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1426227199.0\n"
+"X-POOTLE-MTIME: 1434740560.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -204,13 +204,15 @@ msgstr "Повторно підтвердити свій обліковий за
 
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
 msgid "Account activity notice"
-msgstr ""
+msgstr "Сповіщення про активність облікового запису"
 
 #: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
 msgid ""
 "A new device is now syncing with all of the devices connected to your "
 "Firefox Account."
 msgstr ""
+"Новий пристрій тепер синхронізується з усіма пристроями, з'єднаними з вашим "
+"обліковим записом Firefox."
 
 #: templates/new_sync_device.html:4
 msgid ""
@@ -218,20 +220,26 @@ msgid ""
 "Account, you should change your password immediately at <a href='%(resetLink)"
 "s'>%(resetLink)s</a>."
 msgstr ""
+"Це автоматичний електронний лист; якщо ви не додавали новий пристрій до "
+"свого облікового запису Firefox, вам необхідно негайно змінити свій пароль "
+"на <a href='%(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/new_sync_device.txt:3
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
 "Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
+"Це автоматичний електронний лист; якщо ви не додавали новий пристрій до "
+"свого облікового запису Firefox, вам необхідно негайно змінити свій пароль "
+"на %(resetLink)s."
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Пароль успішно змінено"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr ""
+msgstr "Пароль вашого облікового запису Firefox був успішно змінений."
 
 #: templates/password_changed.html:4
 msgid ""
@@ -239,20 +247,26 @@ msgid ""
 "Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"Це автоматичний електронний лист; якщо ви не змінювали пароль свого "
+"облікового запису Firefox, вам необхідно негайно відновити його на <a href='"
+"%(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/password_changed.txt:3
 msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"Це автоматичний електронний лист; якщо ви не змінювали пароль свого "
+"облікового запису Firefox, вам необхідно негайно відновити його на %"
+"(resetLink)s."
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Пароль успішно відновлено"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr ""
+msgstr "Пароль вашого облікового запису Firefox був успішно відновлений."
 
 #: templates/password_reset.html:4
 msgid ""
@@ -260,36 +274,42 @@ msgid ""
 "Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"Це автоматичний електронний лист; якщо ви не відновлювали пароль свого "
+"облікового запису Firefox, вам необхідно негайно відновити його на <a href='"
+"%(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/password_reset.txt:3
 msgid ""
 "This is an automated email; if you didn’t reset the password to your Firefox "
 "Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"Це автоматичний електронний лист; якщо ви не відновлювали пароль свого "
+"облікового запису Firefox, вам необхідно негайно відновити його на %"
+"(resetLink)s."
 
 #: mailer.js:82
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "Підтвердити свій обліковий запис Firefox"
 
 #: mailer.js:121
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "Відновити пароль свого облікового запису Firefox"
 
 #: mailer.js:155
 msgid "Re-verify your Firefox Account"
-msgstr ""
+msgstr "Повторно підтвердити свій обліковий запис Firefox"
 
 #: mailer.js:185
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "Пароль вашого облікового запису Firefox був змінений"
 
 #: mailer.js:212
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "Пароль вашого облікового запису Firefox був відновлений"
 
 #: mailer.js:239
 msgid "A new device is now syncing to your Firefox Account"
-msgstr ""
+msgstr "Новий пристрій тепер синхронізується з вашим обліковим записом Firefox"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Вітаємо!"
