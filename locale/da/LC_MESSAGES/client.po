@@ -1,18 +1,18 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-06-06 17:59+0000\n"
-"Last-Translator: Jørgen   <joergenr@stofanet.dk>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-06-19 23:51+0100\n"
+"Last-Translator: Jørgen Rasmussen <joergenr@stofanet.dk>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Poedit 1.8.1\n"
 "X-POOTLE-MTIME: 1433613572.0\n"
+"Language-Team: MozillaDanmark\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -94,7 +94,7 @@ msgstr "Konto bekræftet"
 
 #: app/scripts/views/confirm_account_unlock.js:105
 msgid "Account unlocked, please try again"
-msgstr "Konto låst op, prøv igen"
+msgstr "Kontoen er låst op, prøv igen"
 
 #: app/scripts/views/confirm_reset_password.js:159
 #: app/scripts/templates/ready.mustache:3
@@ -141,7 +141,7 @@ msgstr "Abonnement stoppet"
 msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
-"Konto låst. <a href=\"/confirm_account_unlock\">Send en mail til at låse op</"
+"Konto låst. <a href=\"/confirm_account_unlock\">Send en mail for at låse op</"
 "a>"
 
 #: app/scripts/lib/auth-errors.js:17
@@ -154,11 +154,11 @@ msgstr "Uventet fejl"
 
 #: app/scripts/lib/auth-errors.js:26
 msgid "Invalid token"
-msgstr "Ugyldig token"
+msgstr "Ugyldigt token"
 
 #: app/scripts/lib/auth-errors.js:30
 msgid "Invalid timestamp in request signature"
-msgstr "Ugyldig tidsstempel i request signature"
+msgstr "Ugyldigt tidsstempel i request signature"
 
 #: app/scripts/lib/auth-errors.js:34
 msgid "Invalid nonce in request signature"
@@ -174,7 +174,7 @@ msgstr "Ukendt konto"
 
 #: app/scripts/lib/auth-errors.js:46
 msgid "Incorrect email case"
-msgstr "Forkert. Versalfølsom mailadresse"
+msgstr "Fejl. Mailadressen er versalfølsom"
 
 #: app/scripts/lib/auth-errors.js:50
 msgid "Incorrect password"
@@ -323,7 +323,7 @@ msgstr "/force_auth kræver en mailadresse"
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
-msgstr "Linket du klikkede på for at bekræfte din mailadresse er udløbet."
+msgstr "Linket, du klikkede på for at bekræfte din mailadresse, er udløbet."
 
 #: app/scripts/lib/auth-errors.js:210
 #: app/scripts/templates/complete_sign_up.mustache:7
@@ -487,11 +487,11 @@ msgstr "Tilbage"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
-msgstr "Link til at låse op med er udløbet"
+msgstr "Linket til at låse op med er udløbet"
 
 #: app/scripts/templates/complete_account_unlock.mustache:4
 msgid "Unlock link damaged"
-msgstr "Link til at låse op med er beskadiget"
+msgstr "Linket til at låse op med er beskadiget"
 
 #: app/scripts/templates/complete_account_unlock.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:7
@@ -509,7 +509,7 @@ msgstr "Oplåsningsfejl"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
-msgstr "Link til nulstilling af adgangskode udløb"
+msgstr "Linket til nulstilling af adgangskode udløb"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -521,7 +521,7 @@ msgstr "Mail sendt igen"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
-msgstr "Linket du klikkede på for at nulstille din adgangskode er udløbet."
+msgstr "Linket, du klikkede på for at nulstille din adgangskode, er udløbet."
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
@@ -588,7 +588,7 @@ msgid ""
 "link sent to %(email)s"
 msgstr ""
 "Din konto blev af sikkerhedsmæssige årsager låst. For at udføre "
-"kontoaktiviteter, bekræft din konto igen ved at klikke på det "
+"kontoaktiviteter skal du bekræfte din konto igen ved at klikke på det "
 "bekræftelseslink, der er sendt til %(email)s"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
@@ -671,7 +671,7 @@ msgid ""
 msgstr ""
 "Fortsætter du, accepterer du <a id=\"fxa-tos\" href=\"/legal/terms"
 "\">tjenestens vilkår</a> og <a id=\"fxa-pp\" href=\"/legal/privacy"
-"\">privatlivspolitik/a> for Firefox online-tjenester."
+"\">privatlivspolitik</a> for Firefox online-tjenester."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -788,7 +788,7 @@ msgid ""
 "our servers. A new Sync backup will be created from your local browsing data."
 msgstr ""
 "Af sikkerhedsgrunde vil nulstilling af din adgangskode slette dine Sync-data "
-"fra vores servere. En ny Sync-backup vil blive oprettet fra dine lokale "
+"fra vores servere. En ny Sync-backup vil blive oprettet med dine lokale "
 "browserdata."
 
 #: app/scripts/templates/settings.mustache:1
@@ -833,7 +833,7 @@ msgstr "Tilmeld dig"
 
 #: app/scripts/templates/sign_up.mustache:18
 msgid "Choose what to sync"
-msgstr "Vælg hvad der skal synkroniseres"
+msgstr "Vælg, hvad der skal synkroniseres"
 
 #: app/scripts/templates/sign_up.mustache:20
 msgid "Already have an account? Sign in."
@@ -870,7 +870,7 @@ msgstr "Gravatar"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:2
 msgid "Position and rotate your picture as needed"
-msgstr "Placer og drej dit billede efter behov"
+msgstr "Placér, og drej dit billede efter behov"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3

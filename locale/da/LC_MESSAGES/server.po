@@ -1,18 +1,18 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-03-12 23:40+0000\n"
-"Last-Translator: Jørgen   <joergenr@stofanet.dk>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-06-19 23:06+0100\n"
+"Last-Translator: Kim Ludvigsen <ludvigs@kimludvigsen.dk>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-POOTLE-MTIME: 1426203620.0\n"
+"Language-Team: MozillaDanmark\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -39,8 +39,8 @@ msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
-"Den ønskede side blev ikke fundet. Vi har fået besked, og vil rette de links "
-"der ikke virker."
+"Den ønskede side blev ikke fundet. Vi har fået besked, og vil rette ikke-"
+"virkende links."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
@@ -56,7 +56,7 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr ""
-"Åh nej, noget gik galt. Vi har fået besked og vil gå i gang med at finde en "
+"Åh nej, noget gik galt. Vi har fået besked, og vil gå i gang med at finde en "
 "løsning."
 
 #: server/templates/pages/src/502.html:2
@@ -72,7 +72,7 @@ msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
-"Systemet er i øjeblikket under stor belastning. Vi arbejder på, at få det "
+"Systemet er i øjeblikket under stor belastning. Vi arbejder på at få det "
 "tilbage til normal tilstand så hurtigt som muligt."
 
 #: server/templates/pages/src/index.html:2
@@ -85,7 +85,7 @@ msgid ""
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
 "Du bruger en <strong>forældet</strong> browser. <a href=\"http://browsehappy."
-"com/\">Opdater din browser</a> for at få en bedre oplevelse."
+"com/\">Opdatér din browser</a> for at få en bedre oplevelse."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -158,7 +158,8 @@ msgid ""
 "now."
 msgstr ""
 "Af sikkerhedsmæssige årsager er din Firefox-konto blevet lukket ned. For at "
-"udføre aktiviteter på kontoen, klik på linket for at genbekræfte din konto."
+"udføre aktiviteter på kontoen skal du klikke på linket for at genbekræfte "
+"din konto."
 
 #: templates/unlock.html:3
 msgid "Verify account"
@@ -198,34 +199,41 @@ msgstr "Genbekræft din konto"
 
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
 msgid "Account activity notice"
-msgstr ""
+msgstr "Meddelelse om kontoaktivitet"
 
 #: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
 msgid ""
 "A new device is now syncing with all of the devices connected to your "
 "Firefox Account."
 msgstr ""
+"En ny enhed synkroniserer nu med alle enhederne, der er forbundet med din "
+"Firefox-konto."
 
 #: templates/new_sync_device.html:4
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
-"Account, you should change your password immediately at <a href='%(resetLink)"
-"s'>%(resetLink)s</a>."
+"Account, you should change your password immediately at <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
 msgstr ""
+"Denne mail er sendt automatisk; hvis du ikke tilføjede en ny enhed til din "
+"Firefox-konto, bør du ændre din adgangskode med det samme på <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/new_sync_device.txt:3
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
 "Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
+"Denne mail er sendt automatisk; hvis du ikke tilføjede en ny enhed til din "
+"Firefox-konto, bør du ændre din adgangskode med det samme på %(resetLink)s."
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Adgangskoden blev ændret"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr ""
+msgstr "Adgangskoden til din Firefox-konto er blevet ændret."
 
 #: templates/password_changed.html:4
 msgid ""
@@ -233,20 +241,25 @@ msgid ""
 "Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"Denne mail er sendt automatisk; hvis du ikke har ændret adgangskoden til din "
+"Firefox-konto, bør du nulstille den med det samme på <a href='%(resetLink)s'>"
+"%(resetLink)s</a>."
 
 #: templates/password_changed.txt:3
 msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"Denne mail er sendt automatisk; hvis du ikke har ændret adgangskoden til din "
+"Firefox-konto, bør du nulstille den med det samme på %(resetLink)s."
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Adgangskoden er blevet nulstillet"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr ""
+msgstr "Adgangskoden til din Firefox-konto er blevet nulstillet."
 
 #: templates/password_reset.html:4
 msgid ""
@@ -254,36 +267,41 @@ msgid ""
 "Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"Denne mail er sendt automatisk; hvis du ikke har nulstillet adgangskoden til "
+"din Firefox-konto, bør du nulstille den med det samme på <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/password_reset.txt:3
 msgid ""
 "This is an automated email; if you didn’t reset the password to your Firefox "
 "Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"Denne mail er sendt automatisk; hvis du ikke har nulstillet adgangskoden til "
+"din Firefox-konto, bør du nulstille den med det samme på %(resetLink)s."
 
 #: mailer.js:82
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "Bekræft din Firefox-konto"
 
 #: mailer.js:121
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "Nulstil adgangskoden til din Firefox-konto"
 
 #: mailer.js:155
 msgid "Re-verify your Firefox Account"
-msgstr ""
+msgstr "Genbekræft din Firefox-konto"
 
 #: mailer.js:185
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "Adgangskoden til din Firefox-konto er blevet ændret"
 
 #: mailer.js:212
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "Adgangskoden til din Firefox-konto er blevet nulstillet"
 
 #: mailer.js:239
 msgid "A new device is now syncing to your Firefox Account"
-msgstr ""
+msgstr "En ny enhed synkroniserer nu til din Firefox-konto"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Tillykke!"
