@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-05-22 21:20+0000\n"
-"Last-Translator: Théo <theo.chevalier11@gmail.com>\n"
+"PO-Revision-Date: 2015-06-20 23:09+0000\n"
+"Last-Translator: Banban <yblaizeau@hotmail.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1432329635.0\n"
+"X-POOTLE-MTIME: 1434841751.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -131,11 +131,11 @@ msgstr "Fourni par <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
 #: app/scripts/views/settings/communication_preferences.js:90
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "Inscription réussie"
 
 #: app/scripts/views/settings/communication_preferences.js:91
 msgid "Unsubscribed successfully"
-msgstr ""
+msgstr "Désinscription réussie"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:28
 msgid ""
@@ -404,6 +404,10 @@ msgid ""
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
+"En continuant, vous acceptez les <a id=\"service-tos\" href=\"%"
+"(termsUri)s\">conditions d'utilisation</a> et la <a id=\"service-pp\" href=\"%"
+"(privacyUri)s\">politique de confidentialité</a> de %(serviceName)s (%"
+"(serviceUri)s).                "
 
 #: app/scripts/lib/strings.js:22 app/scripts/templates/sign_up.mustache:14
 #: app/scripts/templates/settings/communication_preferences.mustache:2
@@ -679,6 +683,10 @@ msgid ""
 "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
 "Notice</a> of Firefox cloud services."
 msgstr ""
+"En continuant, vous acceptez les <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">conditions d'utilisation</a> et la <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">politique de confidentialité</a> des services en ligne "
+"de Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -886,11 +894,11 @@ msgstr "Enregistrer"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Se désinscrire"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:5
 msgid "Subscribe"
-msgstr ""
+msgstr "S'inscrire"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2
 msgid "Year of birth"
