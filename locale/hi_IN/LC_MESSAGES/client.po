@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-06-20 18:07+0000\n"
+"PO-Revision-Date: 2015-06-21 08:55+0000\n"
 "Last-Translator: Priyank <priyank01agarwal@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1434823640.0\n"
+"X-POOTLE-MTIME: 1434876925.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -291,7 +291,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:162
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "कैमरे को प्रारंभ नहीं किया जा सका"
 
 #: app/scripts/lib/auth-errors.js:166
 msgid "Valid URL required"
@@ -307,7 +307,7 @@ msgstr "आपका सत्यापन ईमेल वापस लौट�
 
 #: app/scripts/lib/auth-errors.js:186
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "एक वैध ईमेल प्रविष्ट करें. firefox.com ईमेल प्रदान नही करता."
 
 #: app/scripts/lib/auth-errors.js:194
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
@@ -352,31 +352,31 @@ msgstr "अज्ञात कूटभाषा"
 
 #: app/scripts/lib/oauth-errors.js:39
 msgid "Incorrect code"
-msgstr ""
+msgstr "अनुचित कूटभाषा"
 
 #: app/scripts/lib/oauth-errors.js:43
 msgid "Expired code"
-msgstr ""
+msgstr "गतावधिक कूटभाषा"
 
 #: app/scripts/lib/oauth-errors.js:59 app/scripts/lib/profile-errors.js:17
 msgid "Unauthorized"
-msgstr ""
+msgstr "अनधिकृत"
 
 #: app/scripts/lib/oauth-errors.js:63
 msgid "Forbidden"
-msgstr ""
+msgstr "निषिद्ध"
 
 #: app/scripts/lib/oauth-errors.js:73
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr ""
+msgstr "अमान्य OAuth मापदण्ड: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:85
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "कुछ गलती हुई. कृपया इस टैब को बंद कर पुनः प्रयास करें."
 
 #: app/scripts/lib/oauth-errors.js:105
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "अनुपस्थित OAuth मापदण्ड: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:25
 msgid "Unsupported image provider"
@@ -458,12 +458,12 @@ msgstr "पुराना कूटशब्द"
 #: app/scripts/templates/sign_in.mustache:21
 #: app/scripts/templates/sign_up.mustache:11
 msgid "Show"
-msgstr ""
+msgstr "दिखाएं"
 
 #: app/scripts/templates/change_password.mustache:6
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid "New password"
-msgstr ""
+msgstr "नया कूटशब्द"
 
 #: app/scripts/templates/change_password.mustache:10
 msgid "Confirm"
@@ -616,17 +616,17 @@ msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
-msgstr ""
+msgstr "अधिक जानें"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "पुनः प्रयास करें"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
 #: app/scripts/templates/settings.mustache:7
 msgid "Delete account"
-msgstr ""
+msgstr "खाता नष्ट करें"
 
 #: app/scripts/templates/delete_account.mustache:2
 msgid ""
@@ -776,12 +776,12 @@ msgstr ""
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
-msgstr ""
+msgstr "खाता संभालें"
 
 #: app/scripts/templates/settings.mustache:2
 #: app/scripts/templates/settings/avatar.mustache:2
 msgid "Change"
-msgstr ""
+msgstr "बदली करें"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "You are signed in as"
@@ -862,7 +862,7 @@ msgstr "सुरक्षित करें"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Unsubscribe"
-msgstr ""
+msgstr "ग्राहकी बंद करें"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:5
 msgid "Subscribe"
@@ -870,7 +870,7 @@ msgstr ""
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2
 msgid "Year of birth"
-msgstr ""
+msgstr "जन्मवर्ष"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:3
 msgid "1990 or earlier"

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-06-20 18:08+0000\n"
+"PO-Revision-Date: 2015-06-21 08:55+0000\n"
 "Last-Translator: Priyank <priyank01agarwal@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1434823726.0\n"
+"X-POOTLE-MTIME: 1434876946.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -118,10 +118,11 @@ msgstr ""
 #: templates/reset.html:3 templates/reset.txt:2
 msgid "Please confirm that you'd like to reset the password for %(email)s."
 msgstr ""
+"कृपया पुष्टि करें की आप %(email)s के लिए कूटशब्द पुनः तैयार करना चाहते हैं."
 
 #: templates/reset.html:4
 msgid "Reset password"
-msgstr ""
+msgstr "कूटशब्द पुनः तैयार करें"
 
 #: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
 #: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
@@ -129,6 +130,8 @@ msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
+"यह एक स्वाचालित ईमेल है; यदि आपने इसको किसी त्रुटि के तहत प्राप्त किया है, "
+"कोई क्रिया आवश्यक नहीं."
 
 #: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
@@ -182,7 +185,7 @@ msgstr "सत्यापित"
 
 #: templates/verify.txt:3
 msgid "Verify:"
-msgstr ""
+msgstr "सत्यापित:"
 
 #: mailer.js:73
 msgid "Verify your account"
