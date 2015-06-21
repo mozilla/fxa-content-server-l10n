@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-06-21 08:55+0000\n"
+"PO-Revision-Date: 2015-06-21 17:53+0000\n"
 "Last-Translator: Priyank <priyank01agarwal@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1434876946.0\n"
+"X-POOTLE-MTIME: 1434909203.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -109,11 +109,11 @@ msgstr "फ़ायरफ़ॉक्स क्लॉउड सेवाएँ"
 #: server/templates/pages/src/terms.html:5
 #: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
-msgstr ""
+msgstr "सेवा की शर्तें"
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Are you sure?"
-msgstr ""
+msgstr "क्या आप विश्वस्त हैं?"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid "Please confirm that you'd like to reset the password for %(email)s."
@@ -201,13 +201,15 @@ msgstr "अपना खाता पुनः सत्यापित कर�
 
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
 msgid "Account activity notice"
-msgstr ""
+msgstr "खाता गतिविधि सूचना"
 
 #: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
 msgid ""
 "A new device is now syncing with all of the devices connected to your "
 "Firefox Account."
 msgstr ""
+"आपके फ़ायरफ़ॉक्स खाते से संयोजित समस्त यंत्रों के साथ एक नया यंत्र समकालिक हो "
+"गया है."
 
 #: templates/new_sync_device.html:4
 msgid ""
@@ -215,20 +217,26 @@ msgid ""
 "Account, you should change your password immediately at <a href='%(resetLink)"
 "s'>%(resetLink)s</a>."
 msgstr ""
+"यह एक स्वाचालित ईमेल है; यदि आपने अपने किसी नए यंत्र को अपने फ़ायरफ़ॉक्स खाते "
+"से नही जोड़ा है, तो आपको तत्काल ही यहाँ जाकर अपना कूटशब्द परिवर्तित करना "
+"चाहिए <a href='%(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/new_sync_device.txt:3
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
 "Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
+"यह एक स्वाचालित ईमेल है; यदि आपने अपने किसी नए यंत्र को अपने फ़ायरफ़ॉक्स खाते "
+"से नही जोड़ा है, तो आपको तत्काल ही यहाँ जाकर अपना कूटशब्द परिवर्तित करना "
+"चाहिए %(resetLink)s."
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "कूटशब्द सफलतापूर्वक परिवर्तित"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr ""
+msgstr "आपके फ़ायरफ़ॉक्स खाते का कूटशब्द सफलतापूर्वक परिवर्तित कर दिया गया है."
 
 #: templates/password_changed.html:4
 msgid ""
@@ -236,20 +244,26 @@ msgid ""
 "Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"यह एक स्वाचालित ईमेल है; यदि आपने अपने फ़ायरफ़ॉक्स खाते का कूटशब्द पुनः तैयार "
+"नहीं किया है, तो आपको तत्काल ही उसे यहाँ जाकर पुनः तैयार करना चाहिए <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/password_changed.txt:3
 msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"यह एक स्वाचालित ईमेल है; यदि आपने अपने फ़ायरफ़ॉक्स खाते का कूटशब्द पुनः तैयार "
+"नहीं किया है, तो आपको तत्काल ही उसे यहाँ जाकर पुनः तैयार करना चाहिए %"
+"(resetLink)s."
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "कूटशब्द सफलतापूर्वक पुनः तैयार"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr ""
+msgstr "आपके फ़ायरफ़ॉक्स खाते का कूटशब्द सफलतापूर्वक पुनः तैयार कर दिया गया है."
 
 #: templates/password_reset.html:4
 msgid ""
@@ -257,32 +271,38 @@ msgid ""
 "Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"यह एक स्वाचालित ईमेल है; यदि आपने अपने फ़ायरफ़ॉक्स खाते का कूटशब्द पुनः तैयार "
+"नहीं किया है, तो आपको तत्काल ही उसे यहाँ जाकर पुनः तैयार करना चाहिए <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/password_reset.txt:3
 msgid ""
 "This is an automated email; if you didn’t reset the password to your Firefox "
 "Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"यह एक स्वाचालित ईमेल है; यदि आपने अपने फ़ायरफ़ॉक्स खाते का कूटशब्द पुनः तैयार "
+"नहीं किया है, तो आपको तत्काल ही उसे यहाँ जाकर पुनः तैयार करना चाहिए %"
+"(resetLink)s."
 
 #: mailer.js:82
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "अपना फ़ायरफ़ॉक्स खाता सत्यापित करें"
 
 #: mailer.js:121
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "अपने फ़ायरफ़ॉक्स खाते का कूटशब्द पुनः तैयार करें"
 
 #: mailer.js:155
 msgid "Re-verify your Firefox Account"
-msgstr ""
+msgstr "अपना फ़ायरफ़ॉक्स खाता पुनः सत्यापित करें"
 
 #: mailer.js:185
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "आपके फ़ायरफ़ॉक्स खाते का कूटशब्द परिवर्तित कर दिया गया है"
 
 #: mailer.js:212
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "आपके फ़ायरफ़ॉक्स खाते का कूटशब्द पुनः तैयार कर दिया गया है"
 
 #: mailer.js:239
 msgid "A new device is now syncing to your Firefox Account"
