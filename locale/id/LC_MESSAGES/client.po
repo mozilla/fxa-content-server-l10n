@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2014-05-07 21:33+0000\n"
+"PO-Revision-Date: 2015-06-21 12:37+0000\n"
 "Last-Translator: Romi <romihardiyanto@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1399498407.0\n"
+"X-POOTLE-MTIME: 1434890279.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -826,9 +826,8 @@ msgid "Create a Firefox Account"
 msgstr "Buat Akun Firefox"
 
 #: app/scripts/templates/sign_up.mustache:16
-#, fuzzy
 msgid "Sign up"
-msgstr "Keluar"
+msgstr "Daftar"
 
 #: app/scripts/templates/sign_up.mustache:18
 msgid "Choose what to sync"
