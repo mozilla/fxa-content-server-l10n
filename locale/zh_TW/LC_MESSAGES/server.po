@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-03-13 19:08+0000\n"
+"PO-Revision-Date: 2015-06-24 22:47+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1426273684.0\n"
+"X-POOTLE-MTIME: 1435186037.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -194,13 +194,13 @@ msgstr "重新驗證您的帳號"
 
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
 msgid "Account activity notice"
-msgstr ""
+msgstr "帳號活動通知"
 
 #: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
 msgid ""
 "A new device is now syncing with all of the devices connected to your "
 "Firefox Account."
-msgstr ""
+msgstr "有一台新裝置正與您其他連結到 Firefox 帳號的的裝置進行同步。"
 
 #: templates/new_sync_device.html:4
 msgid ""
@@ -208,20 +208,22 @@ msgid ""
 "Account, you should change your password immediately at <a href='%(resetLink)"
 "s'>%(resetLink)s</a>."
 msgstr ""
+"這是一封自動寄出的郵件，若您沒有新增裝置到 Firefox 帳號，您應該立刻到 <a href='%(resetLink)s'>%"
+"(resetLink)s</a> 修改密碼。"
 
 #: templates/new_sync_device.txt:3
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
 "Account, you should change your password immediately at %(resetLink)s."
-msgstr ""
+msgstr "這是一封自動寄出的郵件，若您沒有新增裝置到 Firefox 帳號，您應該立刻到 %(resetLink)s 修改密碼。"
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "已成功修改密碼"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr ""
+msgstr "已成功修改您的 Firefox 帳號密碼。"
 
 #: templates/password_changed.html:4
 msgid ""
@@ -229,20 +231,22 @@ msgid ""
 "Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"這是一封自動寄出的郵件，若您沒有修改 Firefox 帳號的密碼，您應該立刻到 <a href='%(resetLink)s'>%"
+"(resetLink)s</a> 重設。"
 
 #: templates/password_changed.txt:3
 msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
-msgstr ""
+msgstr "這是一封自動寄出的郵件，若您沒有修改 Firefox 帳號的密碼，您應該立刻到 %(resetLink)s 重設。"
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "成功重設密碼"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr ""
+msgstr "已成功重設您的 Firefox 帳號密碼。"
 
 #: templates/password_reset.html:4
 msgid ""
@@ -250,36 +254,38 @@ msgid ""
 "Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"這是一封自動寄出的郵件，若您沒有重設 Firefox 帳號的密碼，您應該立刻到 <a href='%(resetLink)s'>%"
+"(resetLink)s</a> 重設。"
 
 #: templates/password_reset.txt:3
 msgid ""
 "This is an automated email; if you didn’t reset the password to your Firefox "
 "Account, you should reset it immediately at %(resetLink)s."
-msgstr ""
+msgstr "這是一封自動寄出的郵件，若您沒有重設 Firefox 帳號的密碼，您應該立刻到 %(resetLink)s 重設。"
 
 #: mailer.js:82
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "驗證您的 Firefox 帳號"
 
 #: mailer.js:121
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "重設您的 Firefox 帳號密碼"
 
 #: mailer.js:155
 msgid "Re-verify your Firefox Account"
-msgstr ""
+msgstr "重新驗證您的 Firefox 帳號"
 
 #: mailer.js:185
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "已修改您的 Firefox 帳號密碼"
 
 #: mailer.js:212
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "已重設您的 Firefox 帳號密碼"
 
 #: mailer.js:239
 msgid "A new device is now syncing to your Firefox Account"
-msgstr ""
+msgstr "有一部新裝置正與您的 Firefox 帳號同步"
 
 #~ msgid "Congratulations!"
 #~ msgstr "恭喜！"
