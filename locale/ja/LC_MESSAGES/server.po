@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-03-17 05:58-0400\n"
+"PO-Revision-Date: 2015-06-24 17:26-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -198,13 +198,15 @@ msgstr "アカウントを再認証"
 
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
 msgid "Account activity notice"
-msgstr ""
+msgstr "アカウントアクティビティ通知" 
 
 #: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
 msgid ""
 "A new device is now syncing with all of the devices connected to your "
 "Firefox Account."
 msgstr ""
+"新たな端末があなたの Firefox アカウントに関連付けられたすべての端末と同期を"
+"開始しました。"
 
 #: templates/new_sync_device.html:4
 msgid ""
@@ -212,20 +214,25 @@ msgid ""
 "Account, you should change your password immediately at <a href='%(resetLink)"
 "s'>%(resetLink)s</a>."
 msgstr ""
+"これは自動通知メールです。もしあなたが新たな端末を Firefox アカウントに追加していない"
+"場合は、今すぐ <a href='%(resetLink)s'>%(resetLink)s</a> でパスワードを変更してくだ"
+"さい。"
 
 #: templates/new_sync_device.txt:3
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
 "Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
+"これは自動通知メールです。もしあなたが新たな端末を Firefox アカウントに追加していない"
+"場合は、今すぐ %(resetLink)s でパスワードを変更してください。"
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "パスワード変更完了"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr ""
+msgstr "あなたの Firefox アカウントのパスワードの変更が完了しました。"
 
 #: templates/password_changed.html:4
 msgid ""
@@ -233,20 +240,25 @@ msgid ""
 "Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"これは自動通知メールです。もしあなたが Firefox アカウントのパスワードを変更していない"
+"場合は、今すぐ <a href='%(resetLink)s'>%(resetLink)s</a> でパスワードを変更してくだ"
+"さい。"
 
 #: templates/password_changed.txt:3
 msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"これは自動通知メールです。もしあなたが Firefox アカウントのパスワードを変更していない"
+"場合は、今すぐ %(resetLink)s でパスワードを変更してください。"
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "パスワードリセット完了"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr ""
+msgstr "Firefox アカウントのパスワード変更が完了しました。"
 
 #: templates/password_reset.html:4
 msgid ""
@@ -254,33 +266,38 @@ msgid ""
 "Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"これは自動通知メールです。もしあなたが Firefox アカウントのパスワードをリセットして"
+"いない場合は、今すぐ <a href='%(resetLink)s'>%(resetLink)s</a> でパスワードを変更"
+"してください。"
 
 #: templates/password_reset.txt:3
 msgid ""
 "This is an automated email; if you didn’t reset the password to your Firefox "
 "Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"これは自動通知メールです。もしあなたが Firefox アカウントのパスワードをリセットして"
+"いない場合は、今すぐ %(resetLink)s でパスワードを変更してください。"
 
 #: mailer.js:82
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "Firefox アカウントを認証"
 
 #: mailer.js:121
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "Firefox アカウントのパスワードをリセット"
 
 #: mailer.js:155
 msgid "Re-verify your Firefox Account"
-msgstr ""
+msgstr "Firefox アカウントを再認証"
 
 #: mailer.js:185
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "Firefox アカウントのパスワードが変更されました"
 
 #: mailer.js:212
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "Firefox アカウントのパスワードがリセットされました"
 
 #: mailer.js:239
 msgid "A new device is now syncing to your Firefox Account"
-msgstr ""
+msgstr "新たな端末があなたの Firefox アカウントと同期を開始しました"
