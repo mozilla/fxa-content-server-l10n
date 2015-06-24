@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-05-02 20:38+0000\n"
+"PO-Revision-Date: 2015-06-24 15:21+0000\n"
 "Last-Translator: Merike <merike.sell@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1430599117.0\n"
+"X-POOTLE-MTIME: 1435159290.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -198,13 +198,13 @@ msgstr "Kinnita oma konto uuesti"
 
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
 msgid "Account activity notice"
-msgstr ""
+msgstr "Kontotegevuse teavitus"
 
 #: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
 msgid ""
 "A new device is now syncing with all of the devices connected to your "
 "Firefox Account."
-msgstr ""
+msgstr "Uus seade sünkroonib nüüd teiste Firefoxi kontoga ühendatud seadmetega."
 
 #: templates/new_sync_device.html:4
 msgid ""
@@ -212,20 +212,25 @@ msgid ""
 "Account, you should change your password immediately at <a href='%(resetLink)"
 "s'>%(resetLink)s</a>."
 msgstr ""
+"See on automaatne e-kiri. Kui sa ei lisanud Firefoxi kontole uut seadet, "
+"peaksid viivitamata aadressil <a href='%(resetLink)s'>%(resetLink)s</a> "
+"parooli ära vahetama."
 
 #: templates/new_sync_device.txt:3
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
 "Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
+"See on automaatne e-kiri. Kui sa ei lisanud Firefoxi kontole uut seadet, "
+"peaksid viivitamata aadressil %(resetLink)s parooli ära vahetama."
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Parooli muutmine õnnestus"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr ""
+msgstr "Sinu Firefoxi konto parool on muudetud."
 
 #: templates/password_changed.html:4
 msgid ""
@@ -233,20 +238,25 @@ msgid ""
 "Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"See on automaatne e-kiri. Kui sa ei muutnud Firefoxi konto parooli, peaksid "
+"viivitamata aadressil <a href='%(resetLink)s'>%(resetLink)s</a> parooli "
+"lähtestama."
 
 #: templates/password_changed.txt:3
 msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"See on automaatne e-kiri. Kui sa ei muutnud Firefoxi konto parooli, peaksid "
+"viivitamata aadressil %(resetLink)s parooli lähtestama."
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Parooli lähtestamine õnnestus"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr ""
+msgstr "Sinu Firefoxi konto parool on lähtestatud."
 
 #: templates/password_reset.html:4
 msgid ""
@@ -254,36 +264,41 @@ msgid ""
 "Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"See on automaatne e-kiri. Kui sa ei lähtestanud Firefoxi konto parooli, "
+"peaksid viivitamata aadressil <a href='%(resetLink)s'>%(resetLink)s</a> "
+"parooli lähtestama."
 
 #: templates/password_reset.txt:3
 msgid ""
 "This is an automated email; if you didn’t reset the password to your Firefox "
 "Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"See on automaatne e-kiri. Kui sa ei lähtestanud Firefoxi konto parooli, "
+"peaksid viivitamata aadressil %(resetLink)s parooli lähtestama."
 
 #: mailer.js:82
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "Firefoxi konto kinnitamine"
 
 #: mailer.js:121
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "Firefoxi konto parooli lähtestamine"
 
 #: mailer.js:155
 msgid "Re-verify your Firefox Account"
-msgstr ""
+msgstr "Firefoxi konto uuesti kinnitamine"
 
 #: mailer.js:185
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "Sinu Firefoxi konto parooli on muudetud."
 
 #: mailer.js:212
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "Sinu Firefoxi konto parool on lähtestatud."
 
 #: mailer.js:239
 msgid "A new device is now syncing to your Firefox Account"
-msgstr ""
+msgstr "Sinu Firefoxi kontoga sünkroonib uus seade."
 
 #~ msgid "Congratulations!"
 #~ msgstr "Õnnitleme!"
