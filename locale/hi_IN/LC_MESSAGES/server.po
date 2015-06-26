@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-06-21 17:53+0000\n"
+"PO-Revision-Date: 2015-06-26 15:13+0000\n"
 "Last-Translator: Priyank <priyank01agarwal@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1434909203.0\n"
+"X-POOTLE-MTIME: 1435331631.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -306,4 +306,4 @@ msgstr "आपके फ़ायरफ़ॉक्स खाते का कूट�
 
 #: mailer.js:239
 msgid "A new device is now syncing to your Firefox Account"
-msgstr ""
+msgstr "एक नया यंत्र अब आपके फ़ायरफ़ॉक्स खाते के साथ समकालिक हो रहा है"

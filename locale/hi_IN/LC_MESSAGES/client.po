@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-06-21 17:47+0000\n"
+"PO-Revision-Date: 2015-06-26 15:14+0000\n"
 "Last-Translator: Priyank <priyank01agarwal@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1434908841.0\n"
+"X-POOTLE-MTIME: 1435331645.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -396,6 +396,9 @@ msgid ""
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
+"कार्यवाही आगे बढ़ा के, आप स्वीकृत करते हैं <a id=\"service-tos\" href=\"%"
+"(termsUri)s\">सेवा की शर्तें</a> and<a id=\"service-pp\" href=\"%"
+"(privacyUri)s\">निजी सूचना</a> of %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:22 app/scripts/templates/sign_up.mustache:14
 #: app/scripts/templates/settings/communication_preferences.mustache:2
@@ -428,6 +431,8 @@ msgstr "खाता नहीं बना सका"
 msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr ""
+"अनिवार्य है की आप एक उचित आयु माँग को पूरी करें यदि आप बनाना चाहते हैं एक "
+"Firefox&nbsp;खाता."
 
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
@@ -497,6 +502,8 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
+"जिस लिंक पर आपने क्लिक किया है उसमें अक्षर अनुपस्थित हैं, एवं शायद आपके ईमेल "
+"यजमान द्वारा तोड़ दिया गया. ध्यानपूर्वक पता कॉपी करें, एवं पुनः प्रयास करें."
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
@@ -517,10 +524,12 @@ msgstr "ईमेल फिर से प्रेषित"
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
 msgstr ""
+"जिस लिंक पर आपने अपना कूटशब्द पुनः तैयार करने के लिए क्लिक किया है उसकी "
+"वैधता समाप्त हो चुकी है."
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr ""
+msgstr "एक नया पुनः तैयार करने का लिंक प्राप्त करने के लिए यहाँ क्लिक करें"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 msgid "Reset password link damaged"
@@ -588,11 +597,11 @@ msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr ""
+msgstr "पुनः तैयार करने का ईमेल भेजा गया"
 
 #: app/scripts/templates/confirm_reset_password.mustache:4
 msgid "A reset link has been sent to %(email)s"
-msgstr ""
+msgstr "एक पुनः तैयार करने का लिंक भेजा गया %(email)s पर"
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
@@ -615,6 +624,9 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
+"कृपया फ़ायरफ़ॉक्स खातों के लिए आवश्यक कुकीज़ को अपने ब्राउज़र में अधिकार दें. "
+"कुकीज़ आपके ब्राउज़र में संग्रहित विवरण के छोटे टुकड़े होते हैं जोकि आपको "
+"फ़ायरफ़ॉक्स सत्रों के बीच में याद रखने जैसी कार्यात्मकता प्रदान करते हैं."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -634,6 +646,8 @@ msgstr "खाता नष्ट करें"
 msgid ""
 "Are you sure you want to delete your account? This action cannot be undone."
 msgstr ""
+"क्या आप निश्चित हैं की आप अपना खाता नष्ट करना चाहते हैं? यह क्रिया वापस नहीं "
+"हो सकती."
 
 #: app/scripts/templates/delete_account.mustache:3
 #: app/scripts/templates/force_auth.mustache:3
@@ -661,6 +675,9 @@ msgid ""
 "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
 "Notice</a> of Firefox cloud services."
 msgstr ""
+"कार्यवाही आगे बढ़ा के, आप स्वीकृत करते हैं <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">सेवा की शर्तें</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">निजी सूचना</a> फ़ायरफ़ॉक्स क्लाउड सेवाओं की."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -680,11 +697,11 @@ msgstr "सेवा की शर्तें"
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
 #: app/scripts/templates/settings.mustache:11
 msgid "Privacy Notice"
-msgstr ""
+msgstr "निजी सूचना"
 
 #: app/scripts/templates/marketing_snippet.mustache:1
 msgid "Stay in sync on the go:"
-msgstr ""
+msgstr "सिंक ऑन गो में रहें:"
 
 #: app/scripts/templates/marketing_snippet.mustache:2
 msgid "Get Firefox for Android"
@@ -694,7 +711,7 @@ msgstr "एंड्रॉयड हेतु फ़ायरफ़ॉक्स ले
 #: app/scripts/templates/marketing_snippet_ios.mustache:5
 #: app/scripts/templates/marketing_snippet_ios.mustache:9
 msgid "Get the full Sync experience."
-msgstr ""
+msgstr "पाएं साथ करने का सम्पूर्ण अनुभव."
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:2
 #: app/scripts/templates/marketing_snippet_ios.mustache:12
@@ -718,11 +735,11 @@ msgstr "अस्थिर यंत्रों के लिए फ़ायर�
 
 #: app/scripts/templates/permissions.mustache:1
 msgid "Request for permission"
-msgstr ""
+msgstr "अनुमति की विनती"
 
 #: app/scripts/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr ""
+msgstr "%(serviceName)s आपके खाते से निम्न जानकारी प्राप्त करना चाहता है:"
 
 #: app/scripts/templates/permissions.mustache:3
 #: app/scripts/templates/reset_password.mustache:3
@@ -768,13 +785,16 @@ msgstr "आपका खाता तैयार है!"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Enter your email to reset&nbsp;the account password."
-msgstr ""
+msgstr "अपना ईमेल प्रविष्ट करें reset&nbsp;करने के लिए अपने खाता कूटशब्द."
 
 #: app/scripts/templates/reset_password.mustache:4
 msgid ""
 "For security reasons, resetting your password will erase your Sync data from "
 "our servers. A new Sync backup will be created from your local browsing data."
 msgstr ""
+"सुरक्षा कारणों से, अपना कूटशब्द पुनः तैयार करने पर आपका साथ किया हुआ डेटा "
+"हमारे सर्वेरों से मिटा दिया जाएगा. आपके स्थानीय ब्राउज़िंग डेटा से एक नया "
+"साथ किया हुआ बैकअप का निर्माण कर दिया जाएगा."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
@@ -787,7 +807,7 @@ msgstr "बदली करें"
 
 #: app/scripts/templates/settings.mustache:3
 msgid "You are signed in as"
-msgstr ""
+msgstr "आप निम्न के रूप में साइन इन हैं"
 
 #: app/scripts/templates/settings.mustache:8
 msgid "Sign out"
@@ -818,7 +838,7 @@ msgstr "साइन अप"
 
 #: app/scripts/templates/sign_up.mustache:18
 msgid "Choose what to sync"
-msgstr ""
+msgstr "चुनें क्या साथ करना है"
 
 #: app/scripts/templates/sign_up.mustache:20
 msgid "Already have an account? Sign in."
