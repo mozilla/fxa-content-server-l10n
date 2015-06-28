@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-05-23 23:52+0000\n"
-"Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
+"PO-Revision-Date: 2015-06-28 12:47+0300\n"
+"Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Poedit 1.8.1\n"
 "X-POOTLE-MTIME: 1432425178.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
@@ -133,11 +133,11 @@ msgstr "Предоставлено <a href=\"https://www.gravatar.com\">Gravatar
 
 #: app/scripts/views/settings/communication_preferences.js:90
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "Вы были успешно подписаны"
 
 #: app/scripts/views/settings/communication_preferences.js:91
 msgid "Unsubscribed successfully"
-msgstr ""
+msgstr "Вы были успешно отписаны"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:28
 msgid ""
@@ -407,6 +407,9 @@ msgid ""
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
+"Продолжив, вы принимаете <a id=\"service-tos\" href=\"%(termsUri)s\">Условия "
+"службы</a> и <a id=\"service-pp\" href=\"%(privacyUri)s\">Уведомление о "
+"конфиденциальности</a> %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:22 app/scripts/templates/sign_up.mustache:14
 #: app/scripts/templates/settings/communication_preferences.mustache:2
@@ -683,11 +686,14 @@ msgid ""
 "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
 "Notice</a> of Firefox cloud services."
 msgstr ""
+"Продолжив, вы принимаете <a id=\"fxa-tos\" href=\"/legal/terms\">Условия "
+"службы</a> и <a id=\"fxa-pp\" href=\"/legal/privacy\">Уведомление о "
+"конфиденциальности</a> облачных сервисов Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
-msgstr "Интернет-сервисы Firefox"
+msgstr "Облачные сервисы Firefox"
 
 #: app/scripts/templates/legal.mustache:2
 msgid "Legal"
@@ -697,12 +703,12 @@ msgstr "Право"
 #: app/scripts/templates/settings.mustache:10
 #: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
-msgstr "Условия Службы"
+msgstr "Условия службы"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
 #: app/scripts/templates/settings.mustache:11
 msgid "Privacy Notice"
-msgstr "Уведомление о приватности"
+msgstr "Уведомление о конфиденциальности"
 
 #: app/scripts/templates/marketing_snippet.mustache:1
 msgid "Stay in sync on the go:"
@@ -890,11 +896,11 @@ msgstr "Сохранить"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Отписаться"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:5
 msgid "Subscribe"
-msgstr ""
+msgstr "Подписаться"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2
 msgid "Year of birth"
