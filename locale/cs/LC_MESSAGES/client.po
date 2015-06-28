@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-05-09 12:48+0000\n"
+"PO-Revision-Date: 2015-06-28 11:43+0000\n"
 "Last-Translator: Michal <michal.stanke@mikk.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1431175688.0\n"
+"X-POOTLE-MTIME: 1435491810.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -349,15 +349,15 @@ msgstr "Chybné assertion"
 
 #: app/scripts/lib/oauth-errors.js:35
 msgid "Unknown code"
-msgstr ""
+msgstr "Neznámý kód"
 
 #: app/scripts/lib/oauth-errors.js:39
 msgid "Incorrect code"
-msgstr ""
+msgstr "Nesprávný kód"
 
 #: app/scripts/lib/oauth-errors.js:43
 msgid "Expired code"
-msgstr ""
+msgstr "Neplatný kód"
 
 #: app/scripts/lib/oauth-errors.js:59 app/scripts/lib/profile-errors.js:17
 msgid "Unauthorized"
@@ -365,11 +365,11 @@ msgstr "Neautorizováno"
 
 #: app/scripts/lib/oauth-errors.js:63
 msgid "Forbidden"
-msgstr ""
+msgstr "Nepovoleno"
 
 #: app/scripts/lib/oauth-errors.js:73
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Neplatný OAuth parametr: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:85
 msgid "Something went wrong. Please close this tab and try again."
@@ -398,11 +398,14 @@ msgid ""
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
+"Pokračování souhlasíte s <a id=\"service-tos\" href=\"%(termsUri)s\">Podmínkami "
+"využívání služby</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">Zásadami o "
+"ochraně osobních údajů</a> %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:22 app/scripts/templates/sign_up.mustache:14
 #: app/scripts/templates/settings/communication_preferences.mustache:2
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Získejte nejčerstvější novinky o Mozille a Firefoxu."
 
 #: app/scripts/lib/strings.js:23 app/scripts/templates/settings.mustache:4
 #: app/scripts/templates/settings/communication_preferences.mustache:1
@@ -412,15 +415,15 @@ msgstr ""
 #: app/scripts/lib/strings.js:24
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Email preferences"
-msgstr ""
+msgstr "Předvolby e-mailu"
 
 #: app/scripts/lib/strings.js:27
 msgid "Edit profile"
-msgstr ""
+msgstr "Upravit profil"
 
 #: app/scripts/lib/strings.js:28
 msgid "Name"
-msgstr ""
+msgstr "Jméno"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -874,7 +877,7 @@ msgstr "Uložit"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Odhlásit"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:5
 msgid "Subscribe"
