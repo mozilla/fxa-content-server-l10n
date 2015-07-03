@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-06-19 21:54+0000\n"
-"Last-Translator: Isabel <zupeiza@gmail.com>\n"
+"PO-Revision-Date: 2015-07-03 07:01+0000\n"
+"Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1434750886.0\n"
+"X-POOTLE-MTIME: 1435906899.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -131,11 +131,11 @@ msgstr "Cortesía de <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
 #: app/scripts/views/settings/communication_preferences.js:90
 msgid "Subscribed successfully"
-msgstr "Suscrito con éxito"
+msgstr "Suscrito correctamente"
 
 #: app/scripts/views/settings/communication_preferences.js:91
 msgid "Unsubscribed successfully"
-msgstr "Dado de baja con éxito"
+msgstr "Dado de baja correctamente"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:28
 msgid ""
