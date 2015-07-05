@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-07-05 15:54+0000\n"
+"PO-Revision-Date: 2015-07-05 15:58+0000\n"
 "Last-Translator: Gion-Andri <gion-andri@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1436111690.0\n"
+"X-POOTLE-MTIME: 1436111924.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -245,12 +245,17 @@ msgid ""
 "Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"Quai è in e-mail automatic. Sche ti n'has betg midà il pled-clav da tes "
+"conto da Firefox duessas ti immediat redefinir el qua: <a href='%"
+"(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/password_changed.txt:3
 msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"Quai è in e-mail automatic. Sche ti n'has betg midà il pled-clav da tes "
+"conto da Firefox duessas ti immediat redefinir el qua: %(resetLink)s."
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
 msgid "Password reset successfully"
@@ -266,12 +271,17 @@ msgid ""
 "Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"Quai è in e-mail automatic. Sche ti n'has betg redefinì il pled-clav da tes "
+"conto da Firefox duessas ti immediat redefinir el qua: <a href='%"
+"(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/password_reset.txt:3
 msgid ""
 "This is an automated email; if you didn’t reset the password to your Firefox "
 "Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"Quai è in e-mail automatic. Sche ti n'has betg redefinì il pled-clav da tes "
+"conto da Firefox duessas ti immediat redefinir el qua: %(resetLink)s."
 
 #: mailer.js:82
 msgid "Verify your Firefox Account"
