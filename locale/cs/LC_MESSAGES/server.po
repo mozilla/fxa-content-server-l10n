@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-07-03 18:04+0000\n"
+"PO-Revision-Date: 2015-07-05 13:43+0000\n"
 "Last-Translator: Michal <michal.stanke@mikk.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1435946679.0\n"
+"X-POOTLE-MTIME: 1436103812.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -127,8 +127,8 @@ msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
-"Tento e-mail byl zaslán automaticky. Pokud jste si jej nevyžádali, můžete "
-"jej ignorovat."
+"Toto je automaticky zaslaný e-mail. Pokud jste si jej nevyžádali, můžete jej "
+"ignorovat."
 
 #: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
@@ -156,8 +156,8 @@ msgid ""
 "account-level activities, please click the link to re-verify your account "
 "now."
 msgstr ""
-"Z bezpečnostních důvodů byl váš Účet Firefox uzamčen. Chcete-li znovu "
-"aktivovat účet, klepněte na odkaz níže a účet znovu ověřte."
+"Z bezpečnostních důvodů byl váš účet Firefox Account uzamčen. Chcete-li "
+"znovu aktivovat účet, klepněte na odkaz níže a účet znovu ověřte."
 
 #: templates/unlock.html:3
 msgid "Verify account"
@@ -197,13 +197,15 @@ msgstr "Opětovné ověření vašeho účtu"
 
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
 msgid "Account activity notice"
-msgstr ""
+msgstr "Poznámka o aktivitě účtu"
 
 #: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
 msgid ""
 "A new device is now syncing with all of the devices connected to your "
 "Firefox Account."
 msgstr ""
+"Nové zařízení je nyní synchronizováno se všemi ostatními zařízeními "
+"připojenými k vašemu účtu Firefox Account."
 
 #: templates/new_sync_device.html:4
 msgid ""
@@ -211,20 +213,26 @@ msgid ""
 "Account, you should change your password immediately at <a href='%(resetLink)"
 "s'>%(resetLink)s</a>."
 msgstr ""
+"Toto je automaticky zaslaný e-mail. Pokud jste ke svému účtu Firefox Account "
+"nepřidávali žádné zařízení, měli byste okamžitě změnit své heslo na <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/new_sync_device.txt:3
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
 "Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
+"Toto je automaticky zaslaný e-mail. Pokud jste ke svému účtu Firefox Account "
+"nepřidávali žádné zařízení, měli byste okamžitě změnit své heslo na %"
+"(resetLink)s."
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Heslo bylo úspěšně změněno"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr ""
+msgstr "Heslo vašeho účtu Firefox Account bylo úspěšně změněno."
 
 #: templates/password_changed.html:4
 msgid ""
@@ -232,20 +240,25 @@ msgid ""
 "Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"Toto je automaticky zaslaný e-mail. Pokud jste heslo ke svému účtu Firefox "
+"Account neměnili, měli byste okamžitě jej okamžitě obnovit na <a href='%"
+"(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/password_changed.txt:3
 msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"Toto je automaticky zaslaný e-mail. Pokud jste heslo ke svému účtu Firefox "
+"Account neměnili, měli byste okamžitě jej okamžitě obnovit na %(resetLink)s."
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Heslo bylo úspěšně obnoveno"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr ""
+msgstr "Heslo vašeho účtu Firefox Account bylo úspěšně obnoveno."
 
 #: templates/password_reset.html:4
 msgid ""
@@ -253,36 +266,41 @@ msgid ""
 "Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"Toto je automaticky zaslaný e-mail. Pokud jste heslo ke svému účtu Firefox "
+"Account neobnovovali, měli byste jej okamžitě obnovit na <a href='%"
+"(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/password_reset.txt:3
 msgid ""
 "This is an automated email; if you didn’t reset the password to your Firefox "
 "Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"Toto je automaticky zaslaný e-mail. Pokud jste heslo ke svému účtu Firefox "
+"Account neobnovovali, měli byste jej okamžitě obnovit na %(resetLink)s."
 
 #: mailer.js:82
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "Ověřit váš účet Firefox Account"
 
 #: mailer.js:121
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "Obnovit heslo vašeho účtu Firefox Account"
 
 #: mailer.js:155
 msgid "Re-verify your Firefox Account"
-msgstr ""
+msgstr "Znovu věřit váš účet Firefox Account"
 
 #: mailer.js:185
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "Heslo vašeho účtu Firefox Account bylo změněno"
 
 #: mailer.js:212
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "Heslo vašeho účtu Firefox Account bylo obnoveno"
 
 #: mailer.js:239
 msgid "A new device is now syncing to your Firefox Account"
-msgstr ""
+msgstr "Nové zařízení se nyní synchronizuje s vaším účtem Firefox Account"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Gratulujeme!"
