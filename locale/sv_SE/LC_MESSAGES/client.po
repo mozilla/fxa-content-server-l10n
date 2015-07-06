@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-05-24 20:53+0000\n"
+"PO-Revision-Date: 2015-07-06 14:28+0000\n"
 "Last-Translator: Andreas <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1432500824.0\n"
+"X-POOTLE-MTIME: 1436192927.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -131,11 +131,11 @@ msgstr "Tillhandahålls av <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
 #: app/scripts/views/settings/communication_preferences.js:90
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "Prenumeration startad"
 
 #: app/scripts/views/settings/communication_preferences.js:91
 msgid "Unsubscribed successfully"
-msgstr ""
+msgstr "Prenumeration avslutad"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:28
 msgid ""
@@ -397,6 +397,9 @@ msgid ""
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
+"Genom att fortsätta godkänner du <a id=\"service-tos\" href=\"%"
+"(termsUri)s\">användarvillkoren</a> och <a id=\"service-pp\" href=\"%"
+"(privacyUri)s\">sekretesspolicy</a> för %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:22 app/scripts/templates/sign_up.mustache:14
 #: app/scripts/templates/settings/communication_preferences.mustache:2
@@ -668,6 +671,9 @@ msgid ""
 "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
 "Notice</a> of Firefox cloud services."
 msgstr ""
+"Genom att fortsätta godkänner du <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">användarvillkoren</a> och <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">sekretesspolicy</a> för Firefox molntjänster."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -874,11 +880,11 @@ msgstr "Spara"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Avsluta prenumeration"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:5
 msgid "Subscribe"
-msgstr ""
+msgstr "Prenumerera"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2
 msgid "Year of birth"
