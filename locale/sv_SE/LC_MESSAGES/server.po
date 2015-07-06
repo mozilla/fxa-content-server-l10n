@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-05-09 15:43+0000\n"
+"PO-Revision-Date: 2015-07-06 14:44+0000\n"
 "Last-Translator: Andreas <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv_SE\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1431186214.0\n"
+"X-POOTLE-MTIME: 1436193865.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -198,13 +198,15 @@ msgstr "Återverifiera ditt konto"
 
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
 msgid "Account activity notice"
-msgstr ""
+msgstr "Kontoaktivitetsmeddelande"
 
 #: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
 msgid ""
 "A new device is now syncing with all of the devices connected to your "
 "Firefox Account."
 msgstr ""
+"En ny enhet kan nu synkronisera med alla enheter som är anslutna till ditt "
+"Firefox-konto."
 
 #: templates/new_sync_device.html:4
 msgid ""
@@ -212,20 +214,26 @@ msgid ""
 "Account, you should change your password immediately at <a href='%(resetLink)"
 "s'>%(resetLink)s</a>."
 msgstr ""
+"Detta är ett automatiskt e-postmeddelande; om du inte la till en ny enhet "
+"till ditt Firefox-konto, bör du ändra ditt lösenord omedelbart <a href='%"
+"(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/new_sync_device.txt:3
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
 "Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
+"Detta är ett automatiskt e-postmeddelande; om du inte la till en ny enhet "
+"till ditt Firefox-konto, bör du ändra ditt lösenord omedelbart på %"
+"(resetLink)s."
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Lösenord har ändrats"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr ""
+msgstr "Lösenordet till ditt Firefox-konto har ändrats."
 
 #: templates/password_changed.html:4
 msgid ""
@@ -233,20 +241,25 @@ msgid ""
 "Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"Detta är ett automatiskt e-postmeddelande; om du inte ändrade lösenordet "
+"till ditt Firefox-konto, bör du återställa det omedelbart <a href='%"
+"(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/password_changed.txt:3
 msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"Detta är ett automatiskt e-postmeddelande; om du inte ändrade lösenordet "
+"till ditt Firefox-konto, bör du återställa det omedelbart på %(resetLink)s."
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Lösenordet har återställts"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr ""
+msgstr "Lösenordet till ditt Firefox-konto har återställts."
 
 #: templates/password_reset.html:4
 msgid ""
@@ -254,36 +267,41 @@ msgid ""
 "Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"Detta är ett automatiskt e-postmeddelande; om du inte återställde lösenordet "
+"till ditt Firefox-konto, bör du återställa det omedelbart <a href='%"
+"(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/password_reset.txt:3
 msgid ""
 "This is an automated email; if you didn’t reset the password to your Firefox "
 "Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"Detta är ett automatiskt e-postmeddelande; om du inte återställde lösenordet "
+"till ditt Firefox-konto, bör du återställa det omedelbart på %(resetLink)s."
 
 #: mailer.js:82
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "Verifiera ditt Firefox-konto"
 
 #: mailer.js:121
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "Återställ lösenordet för ditt Firefox-konto"
 
 #: mailer.js:155
 msgid "Re-verify your Firefox Account"
-msgstr ""
+msgstr "Återverifiera ditt Firefox-konto"
 
 #: mailer.js:185
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "Lösenordet till ditt Firefox-konto har ändrats"
 
 #: mailer.js:212
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "Lösenordet till ditt Firefox-konto har återställts"
 
 #: mailer.js:239
 msgid "A new device is now syncing to your Firefox Account"
-msgstr ""
+msgstr "En ny enhet kan nu synkroniseras till ditt Firefox-konto"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Grattis!"
