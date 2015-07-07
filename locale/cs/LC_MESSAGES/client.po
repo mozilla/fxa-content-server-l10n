@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-07-05 13:22+0000\n"
+"PO-Revision-Date: 2015-07-07 18:45+0000\n"
 "Last-Translator: Michal <michal.stanke@mikk.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1436102551.0\n"
+"X-POOTLE-MTIME: 1436294723.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -673,6 +673,9 @@ msgid ""
 "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
 "Notice</a> of Firefox cloud services."
 msgstr ""
+"Pokračování souhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmínkami "
+"služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Podmínkami ochrany "
+"osobních údajů</a> cloudových služeb Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -730,7 +733,7 @@ msgstr "Stáhnout Firefox pro mobilní zařízení."
 
 #: app/scripts/templates/permissions.mustache:1
 msgid "Request for permission"
-msgstr ""
+msgstr "Požadavek na povolení"
 
 #: app/scripts/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
