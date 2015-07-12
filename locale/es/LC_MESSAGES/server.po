@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-06-19 21:54+0000\n"
-"Last-Translator: Isabel <zupeiza@gmail.com>\n"
+"PO-Revision-Date: 2015-07-12 11:09+0000\n"
+"Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1434750847.0\n"
+"X-POOTLE-MTIME: 1436699364.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -199,7 +199,7 @@ msgstr "Verifica de nuevo tu cuenta"
 
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
 msgid "Account activity notice"
-msgstr "Aviso de actividad de cuenta"
+msgstr "Aviso de actividad en cuenta"
 
 #: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
 msgid ""
