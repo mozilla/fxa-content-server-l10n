@@ -85,3 +85,6 @@ echo
 echo "Everything seems to be in order. Please check the extraction went okay then you can push the new branch with:"
 echo "cd $L10N_DIR"
 echo "git push <remote> merge-train-$TRAIN_NUMBER-strings"
+echo
+echo "When the strings have been merged, send an email to the l10n list by running:"
+echo "./scripts/email-l10n-dev.sh"
