@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-17 22:35+0000\n"
-"PO-Revision-Date: 2015-07-17 20:20+0000\n"
+"PO-Revision-Date: 2015-07-17 20:22+0000\n"
 "Last-Translator: Matjaž <m@owca.info>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1437164410.0\n"
+"X-POOTLE-MTIME: 1437164538.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -112,7 +112,7 @@ msgstr "账号删除已成功"
 # see https://bugzilla.mozilla.org/show_bug.cgi?id=1131472
 #: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:175
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr "未知账号 <a href=\\\"/signup\\\">注册</a>"
+msgstr "未知账号. <a href=\\\"/signup\\\">注册</a>"
 
 #: app/scripts/views/settings.js:74
 msgid "Signed out successfully"
