@@ -74,7 +74,7 @@ cp -r $CONTENT_DIR/locale/templates/ $L10N_DIR/locale/templates
 
 cd $L10N_DIR
 git checkout -b merge-train-$TRAIN_NUMBER-strings
-./scripts/merge_po.sh ./locale
+./scripts/merge_po.sh L10N_DIR/locale
 git add .
 git commit -m "merge strings for train $TRAIN_NUMBER"
 
