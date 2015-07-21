@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-17 22:35+0000\n"
+"POT-Creation-Date: 2015-07-21 22:38+0000\n"
 "PO-Revision-Date: 2015-01-07 10:11+0000\n"
 "Last-Translator: Zachary <zcarter@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,42 +82,42 @@ msgstr "২০০৬"
 msgid "2007"
 msgstr "২০০৭"
 
-#: app/scripts/views/change_password.js:58
+#: app/scripts/views/change_password.js:59
 msgid "Password changed successfully"
 msgstr ""
 
-#: app/scripts/views/complete_reset_password.js:132
-#: app/scripts/views/complete_sign_up.js:100 app/scripts/views/confirm.js:89
-#: app/scripts/views/confirm_reset_password.js:171
+#: app/scripts/views/complete_reset_password.js:135
+#: app/scripts/views/complete_sign_up.js:102 app/scripts/views/confirm.js:91
+#: app/scripts/views/confirm_reset_password.js:173
 msgid "Account verified successfully"
 msgstr ""
 
-#: app/scripts/views/confirm_account_unlock.js:105
+#: app/scripts/views/confirm_account_unlock.js:107
 msgid "Account unlocked, please try again"
 msgstr ""
 
-#: app/scripts/views/confirm_reset_password.js:159
+#: app/scripts/views/confirm_reset_password.js:161
 #: app/scripts/templates/ready.mustache:3
 msgid "Password reset"
 msgstr "পাসওয়ার্ড রিসেট"
 
-#: app/scripts/views/confirm_reset_password.js:187
+#: app/scripts/views/confirm_reset_password.js:189
 msgid "Password reset successfully. Sign in to continue."
 msgstr ""
 
-#: app/scripts/views/delete_account.js:52
+#: app/scripts/views/delete_account.js:53
 msgid "Account deleted successfully"
 msgstr "অ্যাকাউন্ট সফলভাবে মুছে ফেলা হয়েছে"
 
-#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:175
+#: app/scripts/views/reset_password.js:82 app/scripts/views/sign_in.js:180
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "অচেনা অ্যাকাউন্ট। <a href=\"/signup\">সাইন আপ</a> "
 
-#: app/scripts/views/settings.js:74
+#: app/scripts/views/settings.js:75
 msgid "Signed out successfully"
 msgstr ""
 
-#: app/scripts/views/sign_up.js:316
+#: app/scripts/views/sign_up.js:331
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "অ্যাকাউন্ট আগেই আছে। <a href=\"/signin\">সাইন ইন</a>"
 
@@ -129,258 +129,262 @@ msgstr "কোন গ্রাভাটার পাওয়া যায় ন�
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "<a href=\"https://www.gravatar.com\">গ্রাভাটার</a> এর সৌজন্যে"
 
-#: app/scripts/views/settings/communication_preferences.js:90
+#: app/scripts/views/settings/communication_preferences.js:96
 msgid "Subscribed successfully"
 msgstr ""
 
-#: app/scripts/views/settings/communication_preferences.js:91
+#: app/scripts/views/settings/communication_preferences.js:97
 msgid "Unsubscribed successfully"
 msgstr ""
 
-#: app/scripts/views/mixins/account-locked-mixin.js:28
+#: app/scripts/views/mixins/account-locked-mixin.js:31
 msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:17
-#: app/scripts/lib/marketing-email-errors.js:17
-#: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:33
-#: app/scripts/lib/profile-errors.js:41
+#: app/scripts/lib/auth-errors.js:18
+#: app/scripts/lib/marketing-email-errors.js:18
+#: app/scripts/lib/oauth-errors.js:19 app/scripts/lib/profile-errors.js:34
+#: app/scripts/lib/profile-errors.js:42
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "অপ্রত্যাশিত ত্রুটি"
 
-#: app/scripts/lib/auth-errors.js:26
+#: app/scripts/lib/auth-errors.js:27
 msgid "Invalid token"
 msgstr "অকার্যকর টোকেন"
 
-#: app/scripts/lib/auth-errors.js:30
+#: app/scripts/lib/auth-errors.js:31
 msgid "Invalid timestamp in request signature"
 msgstr "সাক্ষর অনুরোধে অকার্যকর টাইমস্ট্যাম্প"
 
-#: app/scripts/lib/auth-errors.js:34
+#: app/scripts/lib/auth-errors.js:35
 msgid "Invalid nonce in request signature"
 msgstr "স্বাক্ষর অনুরোধে এইবারের মতো অকার্যকর"
 
-#: app/scripts/lib/auth-errors.js:38
+#: app/scripts/lib/auth-errors.js:39
 msgid "Account already exists"
 msgstr "অ্যাকাউন্টটি ইতিমধ্যেই রয়েছে।"
 
-#: app/scripts/lib/auth-errors.js:42
+#: app/scripts/lib/auth-errors.js:43
 msgid "Unknown account"
 msgstr "অজানা অ্যাকাউন্ট"
 
-#: app/scripts/lib/auth-errors.js:46
+#: app/scripts/lib/auth-errors.js:47
 msgid "Incorrect email case"
 msgstr "ভুল ইমেইল কেস"
 
-#: app/scripts/lib/auth-errors.js:50
+#: app/scripts/lib/auth-errors.js:51
 msgid "Incorrect password"
 msgstr "ভুল পাসওয়ার্ড"
 
-#: app/scripts/lib/auth-errors.js:54
+#: app/scripts/lib/auth-errors.js:55
 msgid "Unverified account"
 msgstr "অযাচাইকৃত অ্যাকাউন্ট"
 
-#: app/scripts/lib/auth-errors.js:58
+#: app/scripts/lib/auth-errors.js:59
 msgid "Invalid verification code"
 msgstr "অকার্যকর যাচাইকরণ কোড"
 
-#: app/scripts/lib/auth-errors.js:62
+#: app/scripts/lib/auth-errors.js:63
 msgid "Invalid JSON in request body"
 msgstr "অনুরোধ বডিতে JSON টি অচেনা"
 
-#: app/scripts/lib/auth-errors.js:66 app/scripts/lib/oauth-errors.js:47
-#: app/scripts/lib/profile-errors.js:21
+#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:48
+#: app/scripts/lib/profile-errors.js:22
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "রিকোয়েস্ট বডিতে %(param)sটি প্যারামিটারটি অবৈধ"
 
-#: app/scripts/lib/auth-errors.js:70
+#: app/scripts/lib/auth-errors.js:71
 msgid "Missing parameter in request body: %(param)s"
 msgstr "রিকোয়েস্ট বডিতে %(param)s প্যারামিটারটি পাওয়া যায়নি"
 
-#: app/scripts/lib/auth-errors.js:74 app/scripts/lib/oauth-errors.js:51
+#: app/scripts/lib/auth-errors.js:75 app/scripts/lib/oauth-errors.js:52
 msgid "Invalid request signature"
 msgstr "স্বাক্ষরের অনুরোধটি অবৈধ"
 
-#: app/scripts/lib/auth-errors.js:78
+#: app/scripts/lib/auth-errors.js:79
 msgid "Missing content-length header"
 msgstr "হেডারে বিষয়বস্তুর দৈর্ঘ্য খুঁজে পাওয়া যায়নি"
 
-#: app/scripts/lib/auth-errors.js:82
+#: app/scripts/lib/auth-errors.js:83
 msgid "Request body too large"
 msgstr "অনুরোধের লেখা অনেক বড়"
 
-#: app/scripts/lib/auth-errors.js:86
+#: app/scripts/lib/auth-errors.js:87
 msgid "Attempt limit exceeded"
 msgstr "প্রচেষ্টা সীমা অতিক্রম করেছে"
 
-#: app/scripts/lib/auth-errors.js:90
+#: app/scripts/lib/auth-errors.js:91
 msgid "Your account has been locked for security reasons"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:98
+#: app/scripts/lib/auth-errors.js:99
 msgid "Server busy, try again soon"
 msgstr "সার্ভার ব্যস্ত, শীঘ্রই আবার চেষ্টা করুন"
 
-#: app/scripts/lib/auth-errors.js:102
+#: app/scripts/lib/auth-errors.js:103
 msgid "This endpoint is no longer supported"
 msgstr "এই শেষবিন্দু আর সমর্থিত নয়"
 
-#: app/scripts/lib/auth-errors.js:106
-#: app/scripts/lib/marketing-email-errors.js:78
-#: app/scripts/lib/oauth-errors.js:77 app/scripts/lib/profile-errors.js:37
+#: app/scripts/lib/auth-errors.js:107
+#: app/scripts/lib/marketing-email-errors.js:79
+#: app/scripts/lib/oauth-errors.js:78 app/scripts/lib/profile-errors.js:38
 msgid "System unavailable, try again soon"
 msgstr "সিস্টেম উপলব্ধ নয়, শীঘ্রই আবার চেষ্টা করুন"
 
-#: app/scripts/lib/auth-errors.js:110 app/scripts/lib/oauth-errors.js:101
+#: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:102
 msgid "no message"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:114
+#: app/scripts/lib/auth-errors.js:115
 msgid "Session expired. Sign in to continue."
 msgstr "সেশনের মেয়াদ শেষ। চালিয়ে যেতে সাইন ইন করুন।"
 
-#: app/scripts/lib/auth-errors.js:118
+#: app/scripts/lib/auth-errors.js:119
 msgid "Cookies are still disabled"
 msgstr "কুকিজ এখনও নিষ্ক্রিয় করা হয় নি"
 
-#: app/scripts/lib/auth-errors.js:122
+#: app/scripts/lib/auth-errors.js:123
 msgid "Passwords do not match"
 msgstr "পাসওয়ার্ড মিলছে না"
 
-#: app/scripts/lib/auth-errors.js:126
+#: app/scripts/lib/auth-errors.js:127
 msgid "Working…"
 msgstr "প্রক্রিয়া চলছে…"
 
-#: app/scripts/lib/auth-errors.js:130
+#: app/scripts/lib/auth-errors.js:131
 msgid "Could not get Privacy Notice"
 msgstr "গোপনীয়তা বিজ্ঞপ্তি পাবেন না"
 
-#: app/scripts/lib/auth-errors.js:134
+#: app/scripts/lib/auth-errors.js:135
 msgid "Could not get Terms of Service"
 msgstr "সেবা শর্ত বিজ্ঞপ্তি পাওয়া যায় না"
 
-#: app/scripts/lib/auth-errors.js:138
+#: app/scripts/lib/auth-errors.js:139
 msgid "Your new password must be different"
 msgstr "আপনার নতুন পাসওয়ার্ডটিকে অবশ্যই ভিন্ন হতে হবে"
 
-#: app/scripts/lib/auth-errors.js:142
+#: app/scripts/lib/auth-errors.js:143
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/complete_reset_password.mustache:16
 #: app/scripts/templates/sign_up.mustache:12
 msgid "Must be at least 8 characters"
 msgstr "অবশ্যই কমপক্ষে ৮ অক্ষরের হতে হবে"
 
-#: app/scripts/lib/auth-errors.js:146
+#: app/scripts/lib/auth-errors.js:147
 msgid "Valid password required"
 msgstr "কার্যকর পাসওয়ার্ড আবশ্যক"
 
-#: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:182
-#: app/scripts/lib/auth-errors.js:198
+#: app/scripts/lib/auth-errors.js:151 app/scripts/lib/auth-errors.js:183
+#: app/scripts/lib/auth-errors.js:199
 msgid "Valid email required"
 msgstr "কার্যকর ইমেইল আবশ্যক"
 
-#: app/scripts/lib/auth-errors.js:154
+#: app/scripts/lib/auth-errors.js:155
 msgid "Year of birth required"
 msgstr "জন্মসাল আবশ্যক"
 
-#: app/scripts/lib/auth-errors.js:158
+#: app/scripts/lib/auth-errors.js:159
 msgid "A usable image was not found"
 msgstr "ব্যবহার করার মত ছবি পাওয়া যায়নি"
 
-#: app/scripts/lib/auth-errors.js:162
+#: app/scripts/lib/auth-errors.js:163
 msgid "Could not initialize camera"
 msgstr "ক্যামেরা আরম্ভ করা যায়নি"
 
-#: app/scripts/lib/auth-errors.js:166
+#: app/scripts/lib/auth-errors.js:167
 msgid "Valid URL required"
 msgstr "কার্যকর URL প্রয়োজন"
 
-#: app/scripts/lib/auth-errors.js:170
+#: app/scripts/lib/auth-errors.js:171
 msgid "Valid birthday required"
 msgstr "বৈধ জন্ম তারিখ আবশ্যক"
 
-#: app/scripts/lib/auth-errors.js:178
+#: app/scripts/lib/auth-errors.js:179
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:186
+#: app/scripts/lib/auth-errors.js:187
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:194
+#: app/scripts/lib/auth-errors.js:195
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:202
+#: app/scripts/lib/auth-errors.js:203
 msgid "/force_auth requires an email"
 msgstr "/force_auth এর জন্য ইমেইল প্রয়োজন"
 
-#: app/scripts/lib/auth-errors.js:206
+#: app/scripts/lib/auth-errors.js:207
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
 msgstr "আপনার ক্লিক করা ইমেইল যাচাই করার লিঙ্কটি মেয়াদ উত্তীর্ণ"
 
-#: app/scripts/lib/auth-errors.js:210
+#: app/scripts/lib/auth-errors.js:211
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "যাচাইকরণ লিঙ্কটি ক্ষতিগ্রস্থ"
 
-#: app/scripts/lib/mailcheck.js:67
+#: app/scripts/lib/auth-errors.js:219
+msgid "The image dimensions must be at least 100x100px"
+msgstr ""
+
+#: app/scripts/lib/mailcheck.js:57
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr ""
 
-#: app/scripts/lib/oauth-errors.js:23
+#: app/scripts/lib/oauth-errors.js:24
 msgid "Unknown client"
 msgstr "অজানা ক্লায়েন্ট"
 
-#: app/scripts/lib/oauth-errors.js:27
+#: app/scripts/lib/oauth-errors.js:28
 msgid "Incorrect redirect_uri"
 msgstr "ভুল redirect_uri"
 
-#: app/scripts/lib/oauth-errors.js:31
+#: app/scripts/lib/oauth-errors.js:32
 msgid "Invalid assertion"
 msgstr "অকার্যকর বিবৃতি"
 
-#: app/scripts/lib/oauth-errors.js:35
+#: app/scripts/lib/oauth-errors.js:36
 msgid "Unknown code"
 msgstr ""
 
-#: app/scripts/lib/oauth-errors.js:39
+#: app/scripts/lib/oauth-errors.js:40
 msgid "Incorrect code"
 msgstr ""
 
-#: app/scripts/lib/oauth-errors.js:43
+#: app/scripts/lib/oauth-errors.js:44
 msgid "Expired code"
 msgstr ""
 
-#: app/scripts/lib/oauth-errors.js:59 app/scripts/lib/profile-errors.js:17
+#: app/scripts/lib/oauth-errors.js:60 app/scripts/lib/profile-errors.js:18
 msgid "Unauthorized"
 msgstr "অননুমোদিত"
 
-#: app/scripts/lib/oauth-errors.js:63
+#: app/scripts/lib/oauth-errors.js:64
 msgid "Forbidden"
 msgstr ""
 
-#: app/scripts/lib/oauth-errors.js:73
+#: app/scripts/lib/oauth-errors.js:74
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr ""
 
-#: app/scripts/lib/oauth-errors.js:85
+#: app/scripts/lib/oauth-errors.js:86
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "কিছু একটা ভুল হয়েছে। দয়াকরে এই ট্যাবটি বন্ধ করে পুনরায় চেষ্টা করুন।"
 
-#: app/scripts/lib/oauth-errors.js:105
+#: app/scripts/lib/oauth-errors.js:106
 msgid "Missing OAuth parameter: %(param)s"
 msgstr ""
 
-#: app/scripts/lib/profile-errors.js:25
+#: app/scripts/lib/profile-errors.js:26
 msgid "Unsupported image provider"
 msgstr "ছবি প্রদানকারী অসমর্থিত"
 
-#: app/scripts/lib/profile-errors.js:29
+#: app/scripts/lib/profile-errors.js:30
 msgid "Image processing error"
 msgstr "ইমেজ প্রসেসিং এ ত্রুটি"
 
@@ -388,33 +392,33 @@ msgstr "ইমেজ প্রসেসিং এ ত্রুটি"
 msgid "Firefox Sync"
 msgstr "ফায়ারফক্স সিঙ্ক"
 
-#: app/scripts/lib/strings.js:18
+#: app/scripts/lib/strings.js:19
 msgid ""
 "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
-#: app/scripts/lib/strings.js:22 app/scripts/templates/sign_up.mustache:14
-#: app/scripts/templates/settings/communication_preferences.mustache:2
+#: app/scripts/lib/strings.js:23 app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/settings/communication_preferences.mustache:4
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr ""
 
-#: app/scripts/lib/strings.js:23 app/scripts/templates/settings.mustache:4
+#: app/scripts/lib/strings.js:24 app/scripts/templates/settings.mustache:4
 #: app/scripts/templates/settings/communication_preferences.mustache:1
 msgid "Communication preferences"
 msgstr ""
 
-#: app/scripts/lib/strings.js:24
-#: app/scripts/templates/settings/communication_preferences.mustache:7
+#: app/scripts/lib/strings.js:25
+#: app/scripts/templates/settings/communication_preferences.mustache:9
 msgid "Email preferences"
 msgstr ""
 
-#: app/scripts/lib/strings.js:27
+#: app/scripts/lib/strings.js:28
 msgid "Edit profile"
 msgstr ""
 
-#: app/scripts/lib/strings.js:28
+#: app/scripts/lib/strings.js:29
 msgid "Name"
 msgstr ""
 
@@ -473,8 +477,10 @@ msgstr "নিশ্চিত"
 #: app/scripts/templates/pp.mustache:3
 #: app/scripts/templates/reset_password.mustache:6
 #: app/scripts/templates/tos.mustache:3
-#: app/scripts/templates/settings/communication_preferences.mustache:6
-#: app/scripts/templates/settings/communication_preferences.mustache:9
+#: app/scripts/templates/settings/avatar_change.mustache:5
+#: app/scripts/templates/settings/communication_preferences.mustache:2
+#: app/scripts/templates/settings/communication_preferences.mustache:8
+#: app/scripts/templates/settings/communication_preferences.mustache:11
 msgid "Back"
 msgstr "পেছনে"
 
@@ -715,10 +721,12 @@ msgid "Download Firefox for mobile devices."
 msgstr ""
 
 #: app/scripts/templates/permissions.mustache:1
+#: app/scripts/templates/settings/gravatar_permissions.mustache:1
 msgid "Request for permission"
 msgstr ""
 
 #: app/scripts/templates/permissions.mustache:2
+#: app/scripts/templates/settings/gravatar_permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
 msgstr ""
 
@@ -726,10 +734,12 @@ msgstr ""
 #: app/scripts/templates/reset_password.mustache:3
 #: app/scripts/templates/sign_in.mustache:17
 #: app/scripts/templates/sign_up.mustache:6
+#: app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "ইমেইল"
 
 #: app/scripts/templates/permissions.mustache:4
+#: app/scripts/templates/settings/gravatar_permissions.mustache:4
 msgid "Accept"
 msgstr ""
 
@@ -737,6 +747,7 @@ msgstr ""
 #: app/scripts/templates/settings/avatar_camera.mustache:3
 #: app/scripts/templates/settings/avatar_crop.mustache:4
 #: app/scripts/templates/settings/avatar_gravatar.mustache:4
+#: app/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
 msgstr "বাতিল"
 
@@ -825,7 +836,6 @@ msgid "Already have an account? Sign in."
 msgstr "ইতিমধ্যেই একটি একাউন্ট আছে? সাইন ইন"
 
 #: app/scripts/templates/unexpected_error.mustache:2
-#: app/scripts/templates/settings/avatar_change.mustache:6
 msgid "Home"
 msgstr "হোম"
 
@@ -862,11 +872,11 @@ msgstr "প্রয়োজন মত অবস্থান এবং দিক �
 msgid "Save"
 msgstr "সংরক্ষণ"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:3
+#: app/scripts/templates/settings/communication_preferences.mustache:5
 msgid "Unsubscribe"
 msgstr ""
 
-#: app/scripts/templates/settings/communication_preferences.mustache:5
+#: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Subscribe"
 msgstr ""
 

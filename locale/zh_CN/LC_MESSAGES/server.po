@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-17 22:35+0000\n"
+"POT-Creation-Date: 2015-07-21 22:38+0000\n"
 "PO-Revision-Date: 2015-06-18 08:56+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,17 +14,212 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1434617798.0\n"
 
-#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
-#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
-#: server/templates/pages/src/503.html:1
+#: templates/new_sync_device.html:1 templates/password_changed.html:1
+#: templates/password_reset.html:1 templates/reset.html:1
+#: templates/unlock.html:1 server/templates/pages/src/400.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1 templates/reset.html:1
-#: templates/unlock.html:1 templates/verify.html:1
-#: templates/new_sync_device.html:1 templates/password_changed.html:1
-#: templates/password_reset.html:1
+#: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox 账号"
+
+#: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
+msgid "Account activity notice"
+msgstr "账号活动通知"
+
+#: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
+msgid ""
+"A new device is now syncing with all of the devices connected to your "
+"Firefox Account."
+msgstr "一个新设备现在与您的 Firefox 账号已连接的所有设备保持同步。"
+
+#: templates/new_sync_device.html:4
+msgid ""
+"This is an automated email; if you didn't add a new device to your Firefox "
+"Account, you should change your password immediately at <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
+msgstr ""
+"这是一封自动发送的邮件。如果您并未将一个新设备添加到您的 Firefox 账号，您应该"
+"立即在 <a href='%(resetLink)s'>%(resetLink)s</a> 更改您的密码。"
+
+#: templates/new_sync_device.html:5 templates/password_changed.html:5
+#: templates/password_reset.html:5 templates/reset.html:6
+#: templates/unlock.html:5
+msgid ""
+"For more information, please visit <a href='https://support.mozilla."
+"org'>Mozilla Support</a>"
+msgstr ""
+"要了解更多信息，请访问 <a href='https://support.mozilla.org'>Mozilla 技术支持"
+"</a>"
+
+#: templates/new_sync_device.txt:3
+msgid ""
+"This is an automated email; if you didn't add a new device to your Firefox "
+"Account, you should change your password immediately at %(resetLink)s."
+msgstr ""
+"这是一封自动发送的邮件。如果您并未将一个新设备添加到您的 Firefox 账号，您应该"
+"立即在 %(resetLink)s 更改您的密码。"
+
+#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
+#: templates/password_reset.txt:4 templates/reset.txt:5 templates/unlock.txt:4
+#: templates/verify.txt:5
+msgid "For more information, please visit https://support.mozilla.org"
+msgstr "要了解更多信息，请访问 https://support.mozilla.org"
+
+#: templates/password_changed.html:2 templates/password_changed.txt:1
+msgid "Password changed successfully"
+msgstr "密码更改成功"
+
+#: templates/password_changed.html:3 templates/password_changed.txt:2
+msgid "Your Firefox Account password has been successfully changed."
+msgstr "您的 Firefox 账号密码更改成功。"
+
+#: templates/password_changed.html:4
+msgid ""
+"This is an automated email; if you didn't change the password to your "
+"Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
+"%(resetLink)s</a>."
+msgstr ""
+"这是一封自动发送的邮件。如果您并未更改您的 Firefox 账号密码，您应该立即在 <a "
+"href='%(resetLink)s'>%(resetLink)s</a> 更改您的密码。"
+
+#: templates/password_changed.txt:3
+msgid ""
+"This is an automated email; if you didn’t change the password to your "
+"Firefox Account, you should reset it immediately at %(resetLink)s."
+msgstr ""
+"这是一封自动发送的邮件。如果您并未更改您的 Firefox 账号密码，您应该立即在 "
+"%(resetLink)s 更改您的密码。"
+
+#: templates/password_reset.html:2 templates/password_reset.txt:1
+msgid "Password reset successfully"
+msgstr "密码重置成功"
+
+#: templates/password_reset.html:3 templates/password_reset.txt:2
+msgid "Your Firefox Account password has been successfully reset."
+msgstr "您的 Firefox 账号密码重置成功。"
+
+#: templates/password_reset.html:4
+msgid ""
+"This is an automated email; if you didn't reset the password to your Firefox "
+"Account, you should reset it immediately at <a href='%(resetLink)s'>"
+"%(resetLink)s</a>."
+msgstr ""
+"这是一封自动发送的邮件。如果您并未重置您的 Firefox 账号密码，您应该立即在 <a "
+"href='%(resetLink)s'>%(resetLink)s</a> 更改您的密码。"
+
+#: templates/password_reset.txt:3
+msgid ""
+"This is an automated email; if you didn’t reset the password to your Firefox "
+"Account, you should reset it immediately at %(resetLink)s."
+msgstr ""
+"这是一封自动发送的邮件。如果您并未重置您的 Firefox 账号密码，您应该立即在 "
+"%(resetLink)s 更改您的密码。"
+
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Are you sure?"
+msgstr "您确定？"
+
+#: templates/reset.html:3 templates/reset.txt:2
+msgid "Please confirm that you'd like to reset the password for %(email)s."
+msgstr "请确认您希望重置 %(email)s 的密码。"
+
+#: templates/reset.html:4
+msgid "Reset password now"
+msgstr ""
+
+#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
+#: templates/unlock.txt:3 templates/verify.html:6 templates/verify.txt:4
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"这是一封自动发送的邮件；如果您并未要求但收到这封信件，您不需要进行任何操作。"
+
+#: templates/reset.txt:3
+msgid "Reset password now:"
+msgstr ""
+
+#: templates/unlock.html:2 templates/unlock.txt:1
+msgid ""
+"For security reasons your Firefox Account was put on lockdown. To perform "
+"account-level activities, please click the link to re-verify your account "
+"now."
+msgstr ""
+"出于安全原因，您的 Firefox 账号已被锁定。若要执行账号层面的操作，请点击链接重"
+"新验证您的账号。"
+
+#: templates/unlock.html:3
+msgid "Verify account"
+msgstr "验证账号"
+
+#: templates/unlock.txt:2
+msgid "Verify account:"
+msgstr "验证账号："
+
+#: templates/verify.html:1
+msgid "Firefox Account Activation"
+msgstr ""
+
+#: templates/verify.html:2 templates/verify.txt:1
+msgid "Welcome!"
+msgstr ""
+
+#: templates/verify.html:3 templates/verify.txt:2
+msgid "Please activate your account by confirming this email address."
+msgstr ""
+
+#: templates/verify.html:4
+msgid "Activate now"
+msgstr ""
+
+#: templates/verify.html:5
+msgid "Alternatively:"
+msgstr ""
+
+#: templates/verify.html:7
+msgid ""
+"For more information, please visit <a href='https://support.mozilla.org' "
+"style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
+msgstr ""
+
+#: templates/verify.html:8
+msgid "Verify Email"
+msgstr ""
+
+#: templates/verify.html:9
+msgid "Verify your email to finish your Firefox Account registration"
+msgstr ""
+
+#: templates/verify.txt:3
+msgid "Activate now:"
+msgstr ""
+
+#: mailer.js:115
+msgid "Verify your Firefox Account"
+msgstr "验证您的 Firefox 账号"
+
+#: mailer.js:145
+msgid "Reset your Firefox Account password"
+msgstr "重置您的 Firefox 账号密码"
+
+#: mailer.js:176
+msgid "Re-verify your Firefox Account"
+msgstr "重新验证您的 Firefox 账号"
+
+#: mailer.js:199
+msgid "Your Firefox Account password has been changed"
+msgstr "您的 Firefox 账号密码已被更改"
+
+#: mailer.js:218
+msgid "Your Firefox Account password has been reset"
+msgstr "您的 Firefox 账号密码已被重置"
+
+#: mailer.js:240
+msgid "A new device is now syncing to your Firefox Account"
+msgstr "一个新设备现在与您的 Firefox 账号同步"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
@@ -70,8 +265,6 @@ msgid ""
 msgstr "我们目前有大量用户正在访问中，会尽快恢复系统的正常运转。"
 
 #: server/templates/pages/src/index.html:2
-#: server/templates/pages/src/privacy.html:3
-#: server/templates/pages/src/terms.html:3
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
@@ -86,203 +279,47 @@ msgid "Firefox Accounts requires JavaScript."
 msgstr "启用 JavaScript 后才能使用 Firefox 账号。"
 
 #: server/templates/pages/src/privacy.html:2
-#: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
 msgstr "隐私政策"
 
-#: server/templates/pages/src/privacy.html:4
-#: server/templates/pages/src/terms.html:4
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
 msgstr "Firefox 云服务"
 
 #: server/templates/pages/src/terms.html:2
-#: server/templates/pages/src/terms.html:5
 #: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "服务条款"
 
-#: templates/reset.html:2 templates/reset.txt:1
-msgid "Are you sure?"
-msgstr "您确定？"
+#~ msgid "Reset password"
+#~ msgstr "重置密码"
 
-#: templates/reset.html:3 templates/reset.txt:2
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "请确认您希望重置 %(email)s 的密码。"
+#~ msgid "Reset password:"
+#~ msgstr "重置密码："
 
-#: templates/reset.html:4
-msgid "Reset password"
-msgstr "重置密码"
+#~ msgid "Almost there"
+#~ msgstr "几近完成"
 
-#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
-#: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"这是一封自动发送的邮件；如果您并未要求但收到这封信件，您不需要进行任何操作。"
+#~ msgid ""
+#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgstr "%(email)s，只需再花几秒钟就可以验证您的 Firefox 账号了。"
 
-#: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
-#: templates/new_sync_device.html:5 templates/password_changed.html:5
-#: templates/password_reset.html:5
-msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
-msgstr ""
-"要了解更多信息，请访问 <a href='https://support.mozilla.org'>Mozilla 技术支持"
-"</a>"
+#~ msgid "Verify"
+#~ msgstr "验证"
 
-#: templates/reset.txt:3
-msgid "Reset password:"
-msgstr "重置密码："
+#~ msgid "Verify:"
+#~ msgstr "验证："
 
-#: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
-#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
-#: templates/password_reset.txt:4
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr "要了解更多信息，请访问 https://support.mozilla.org"
+#~ msgid "Verify your account"
+#~ msgstr "验证您的账号"
 
-#: templates/unlock.html:2 templates/unlock.txt:1
-msgid ""
-"For security reasons your Firefox Account was put on lockdown. To perform "
-"account-level activities, please click the link to re-verify your account "
-"now."
-msgstr ""
-"出于安全原因，您的 Firefox 账号已被锁定。若要执行账号层面的操作，请点击链接重"
-"新验证您的账号。"
+#~ msgid "Reset your password"
+#~ msgstr "重置密码"
 
-#: templates/unlock.html:3
-msgid "Verify account"
-msgstr "验证账号"
-
-#: templates/unlock.txt:2
-msgid "Verify account:"
-msgstr "验证账号："
-
-#: templates/verify.html:2 templates/verify.txt:1
-msgid "Almost there"
-msgstr "几近完成"
-
-#: templates/verify.html:3 templates/verify.txt:2
-msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr "%(email)s，只需再花几秒钟就可以验证您的 Firefox 账号了。"
-
-#: templates/verify.html:4
-msgid "Verify"
-msgstr "验证"
-
-#: templates/verify.txt:3
-msgid "Verify:"
-msgstr "验证："
-
-#: mailer.js:73
-msgid "Verify your account"
-msgstr "验证您的账号"
-
-#: mailer.js:112
-msgid "Reset your password"
-msgstr "重置密码"
-
-#: mailer.js:146
-msgid "Re-verify your account"
-msgstr "重新验证您的账号"
-
-#: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
-msgid "Account activity notice"
-msgstr "账号活动通知"
-
-#: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
-msgid ""
-"A new device is now syncing with all of the devices connected to your "
-"Firefox Account."
-msgstr "一个新设备现在与您的 Firefox 账号已连接的所有设备保持同步。"
-
-#: templates/new_sync_device.html:4
-msgid ""
-"This is an automated email; if you didn't add a new device to your Firefox "
-"Account, you should change your password immediately at <a href='%(resetLink)"
-"s'>%(resetLink)s</a>."
-msgstr ""
-"这是一封自动发送的邮件。如果您并未将一个新设备添加到您的 Firefox 账号，您应该立即在 <a href='%(resetLink)s'>%"
-"(resetLink)s</a> 更改您的密码。"
-
-#: templates/new_sync_device.txt:3
-msgid ""
-"This is an automated email; if you didn't add a new device to your Firefox "
-"Account, you should change your password immediately at %(resetLink)s."
-msgstr "这是一封自动发送的邮件。如果您并未将一个新设备添加到您的 Firefox 账号，您应该立即在 %(resetLink)s 更改您的密码。"
-
-#: templates/password_changed.html:2 templates/password_changed.txt:1
-msgid "Password changed successfully"
-msgstr "密码更改成功"
-
-#: templates/password_changed.html:3 templates/password_changed.txt:2
-msgid "Your Firefox Account password has been successfully changed."
-msgstr "您的 Firefox 账号密码更改成功。"
-
-#: templates/password_changed.html:4
-msgid ""
-"This is an automated email; if you didn't change the password to your "
-"Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
-"%(resetLink)s</a>."
-msgstr ""
-"这是一封自动发送的邮件。如果您并未更改您的 Firefox 账号密码，您应该立即在 <a href='%(resetLink)s'>%"
-"(resetLink)s</a> 更改您的密码。"
-
-#: templates/password_changed.txt:3
-msgid ""
-"This is an automated email; if you didn’t change the password to your "
-"Firefox Account, you should reset it immediately at %(resetLink)s."
-msgstr "这是一封自动发送的邮件。如果您并未更改您的 Firefox 账号密码，您应该立即在 %(resetLink)s 更改您的密码。"
-
-#: templates/password_reset.html:2 templates/password_reset.txt:1
-msgid "Password reset successfully"
-msgstr "密码重置成功"
-
-#: templates/password_reset.html:3 templates/password_reset.txt:2
-msgid "Your Firefox Account password has been successfully reset."
-msgstr "您的 Firefox 账号密码重置成功。"
-
-#: templates/password_reset.html:4
-msgid ""
-"This is an automated email; if you didn't reset the password to your Firefox "
-"Account, you should reset it immediately at <a href='%(resetLink)s'>"
-"%(resetLink)s</a>."
-msgstr ""
-"这是一封自动发送的邮件。如果您并未重置您的 Firefox 账号密码，您应该立即在 <a href='%(resetLink)s'>%"
-"(resetLink)s</a> 更改您的密码。"
-
-#: templates/password_reset.txt:3
-msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
-msgstr "这是一封自动发送的邮件。如果您并未重置您的 Firefox 账号密码，您应该立即在 %(resetLink)s 更改您的密码。"
-
-#: mailer.js:82
-msgid "Verify your Firefox Account"
-msgstr "验证您的 Firefox 账号"
-
-#: mailer.js:121
-msgid "Reset your Firefox Account password"
-msgstr "重置您的 Firefox 账号密码"
-
-#: mailer.js:155
-msgid "Re-verify your Firefox Account"
-msgstr "重新验证您的 Firefox 账号"
-
-#: mailer.js:185
-msgid "Your Firefox Account password has been changed"
-msgstr "您的 Firefox 账号密码已被更改"
-
-#: mailer.js:212
-msgid "Your Firefox Account password has been reset"
-msgstr "您的 Firefox 账号密码已被重置"
-
-#: mailer.js:239
-msgid "A new device is now syncing to your Firefox Account"
-msgstr "一个新设备现在与您的 Firefox 账号同步"
+#~ msgid "Re-verify your account"
+#~ msgstr "重新验证您的账号"
 
 #~ msgid "Congratulations!"
 #~ msgstr "恭喜！"
