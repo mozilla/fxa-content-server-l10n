@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-21 22:38+0000\n"
-"PO-Revision-Date: 2015-06-05 19:28+0000\n"
+"PO-Revision-Date: 2015-07-22 16:12+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1433532513.0\n"
+"X-POOTLE-MTIME: 1437581555.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -337,7 +337,7 @@ msgstr "Verificatiekoppeling beschadigd"
 
 #: app/scripts/lib/auth-errors.js:219
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "De afmetingen van de afbeelding moeten minstens 100x100px zijn"
 
 #: app/scripts/lib/mailcheck.js:57
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
