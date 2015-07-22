@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -47,11 +47,11 @@ msgstr ""
 #: templates/password_reset.html:5 templates/reset.html:6
 #: templates/unlock.html:5
 msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
+"For more information, please visit <a "
+"href='https://support.mozilla.org'>Mozilla Support</a>"
 msgstr ""
-"Para recibir más información, visitá la <a href='https://support.mozilla."
-"org'>Ayuda de Mozilla</a>                "
+"Para recibir más información, visitá la <a "
+"href='https://support.mozilla.org'>Ayuda de Mozilla</a>                "
 
 #: templates/new_sync_device.txt:3
 msgid ""
@@ -76,8 +76,8 @@ msgstr ""
 #: templates/password_changed.html:4
 msgid ""
 "This is an automated email; if you didn't change the password to your "
-"Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
-"%(resetLink)s</a>."
+"Firefox Account, you should reset it immediately at <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
 msgstr ""
 
 #: templates/password_changed.txt:3
@@ -96,15 +96,15 @@ msgstr ""
 
 #: templates/password_reset.html:4
 msgid ""
-"This is an automated email; if you didn't reset the password to your Firefox "
-"Account, you should reset it immediately at <a href='%(resetLink)s'>"
-"%(resetLink)s</a>."
+"This is an automated email; if you didn't reset the password to your Firefox"
+" Account, you should reset it immediately at <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
 msgstr ""
 
 #: templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox"
+" Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 
 #: templates/reset.html:2 templates/reset.txt:1
@@ -260,8 +260,9 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+"You are using an <strong>outdated</strong> browser. Please <a "
+"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+"experience."
 msgstr ""
 "Estás usando una versión <strong>desactualizada</strong> del navegador. Por "
 "favor <a href=\"http://browsehappy.com/\">actualizá tu navegador</a> para "
@@ -292,8 +293,7 @@ msgstr "Términos de servicio"
 #~ msgid "Reset password:"
 #~ msgstr "Restablecer contraseña:"
 
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
 #~ msgstr "%(email)s, estás a un clic de verificar tu cuenta de Firefox."
 
 #~ msgid "Verify"
@@ -315,8 +315,8 @@ msgstr "Términos de servicio"
 #~ msgstr "Sistema no disponible, intentá nuevamente luego"
 
 #~ msgid ""
-#~ "We are currently performing some maintenance on the system, and will "
-#~ "return momentarily."
+#~ "We are currently performing some maintenance on the system, and will return "
+#~ "momentarily."
 #~ msgstr ""
 #~ "Estamos realizando mantenimiento en el sistema, y retornará en unos "
 #~ "momentos."
