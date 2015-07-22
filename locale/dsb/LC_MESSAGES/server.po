@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-21 22:38+0000\n"
-"PO-Revision-Date: 2015-06-19 10:15+0000\n"
+"PO-Revision-Date: 2015-07-22 11:57+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1434708931.0\n"
+"X-POOTLE-MTIME: 1437566263.0\n"
 
 #: templates/new_sync_device.html:1 templates/password_changed.html:1
 #: templates/password_reset.html:1 templates/reset.html:1
@@ -135,7 +135,7 @@ msgstr "Pšosym wobkšuśćo, až cośo gronidło za %(email)s slědk stajiś."
 
 #: templates/reset.html:4
 msgid "Reset password now"
-msgstr ""
+msgstr "Gronidło něnto slědk stajiś"
 
 #: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
 #: templates/unlock.txt:3 templates/verify.html:6 templates/verify.txt:4
@@ -148,7 +148,7 @@ msgstr ""
 
 #: templates/reset.txt:3
 msgid "Reset password now:"
-msgstr ""
+msgstr "Gronidło něnto slědk stajiś:"
 
 #: templates/unlock.html:2 templates/unlock.txt:1
 msgid ""
@@ -170,41 +170,46 @@ msgstr "Konto pśespytaś:"
 
 #: templates/verify.html:1
 msgid "Firefox Account Activation"
-msgstr ""
+msgstr "Aktiwěrowanje konta Firefox"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
-msgstr ""
+msgstr "Witajśo!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "Pšosym aktiwěrujśo swójo konto, aby toś tu e-mailowu adresu wobkšuśił."
 
 #: templates/verify.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "Něnto aktiwěrowaś"
 
 #: templates/verify.html:5
 msgid "Alternatively:"
-msgstr ""
+msgstr "Alternatiwje:"
 
 #: templates/verify.html:7
 msgid ""
 "For more information, please visit <a href='https://support.mozilla.org' "
 "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
 msgstr ""
+"Za dalšne informacije, woglědajśo se pšosym k <a "
+"href='https://support.mozilla.org' style='color: #0095dd; text-decoration: "
+"none;'>Pomocy Mozilla</a>"
 
 #: templates/verify.html:8
 msgid "Verify Email"
-msgstr ""
+msgstr "E-mailowu adresu wobkšuśiś"
 
 #: templates/verify.html:9
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr ""
+"Wobkšuśćo swóju e-mailowu adresu, aby registrěrowanje swójogo konta Firefox "
+"dokóńcył"
 
 #: templates/verify.txt:3
 msgid "Activate now:"
-msgstr ""
+msgstr "Něnto aktiwěrowaś"
 
 #: mailer.js:115
 msgid "Verify your Firefox Account"
