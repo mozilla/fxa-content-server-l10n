@@ -14,22 +14,29 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1437581922.0\n"
 
-#: templates/new_sync_device.html:1 templates/password_changed.html:1
-#: templates/password_reset.html:1 templates/reset.html:1
-#: templates/unlock.html:1 server/templates/pages/src/400.html:1
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
-#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
+#: templates/new_sync_device.html:1
+#: templates/password_changed.html:1
+#: templates/password_reset.html:1
+#: templates/reset.html:1
+#: templates/unlock.html:1
+#: server/templates/pages/src/400.html:1
+#: server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1
+#: server/templates/pages/src/502.html:1
+#: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
 #: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
-#: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
+#: templates/new_sync_device.html:2
+#: templates/new_sync_device.txt:1
 msgid "Account activity notice"
 msgstr "Melding van accountactiviteit"
 
-#: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
+#: templates/new_sync_device.html:3
+#: templates/new_sync_device.txt:2
 msgid ""
 "A new device is now syncing with all of the devices connected to your "
 "Firefox Account."
@@ -47,12 +54,14 @@ msgstr ""
 "Firefox-account hebt toegevoegd, dient u direct uw wachtwoord te wijzigen op "
 "<a href='%(resetLink)s'>%(resetLink)s</a>."
 
-#: templates/new_sync_device.html:5 templates/password_changed.html:5
-#: templates/password_reset.html:5 templates/reset.html:6
+#: templates/new_sync_device.html:5
+#: templates/password_changed.html:5
+#: templates/password_reset.html:5
+#: templates/reset.html:6
 #: templates/unlock.html:5
 msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
+"For more information, please visit <a "
+"href='https://support.mozilla.org'>Mozilla Support</a>"
 msgstr ""
 "Bezoek voor meer informatie <a href='https://support.mozilla.org'>Mozilla "
 "Support</a>"
@@ -66,25 +75,30 @@ msgstr ""
 "Firefox-account hebt toegevoegd, dient u direct uw wachtwoord te wijzigen op "
 "%(resetLink)s."
 
-#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
-#: templates/password_reset.txt:4 templates/reset.txt:5 templates/unlock.txt:4
+#: templates/new_sync_device.txt:4
+#: templates/password_changed.txt:4
+#: templates/password_reset.txt:4
+#: templates/reset.txt:5
+#: templates/unlock.txt:4
 #: templates/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
 msgstr "Bezoek voor meer informatie https://support.mozilla.org"
 
-#: templates/password_changed.html:2 templates/password_changed.txt:1
+#: templates/password_changed.html:2
+#: templates/password_changed.txt:1
 msgid "Password changed successfully"
 msgstr "Wachtwoord met succes gewijzigd"
 
-#: templates/password_changed.html:3 templates/password_changed.txt:2
+#: templates/password_changed.html:3
+#: templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
 msgstr "Uw Firefox-accountwachtwoord is met succes gewijzigd."
 
 #: templates/password_changed.html:4
 msgid ""
 "This is an automated email; if you didn't change the password to your "
-"Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
-"%(resetLink)s</a>."
+"Firefox Account, you should reset it immediately at <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
 msgstr ""
 "Dit is een geautomatiseerd e-mailbericht; als u het wachtwoord voor uw "
 "Firefox-account niet hebt gewijzigd, dient u het direct opnieuw in te "
@@ -99,19 +113,21 @@ msgstr ""
 "Firefox-account niet hebt gewijzigd, dient u het direct opnieuw in te "
 "stellen op %(resetLink)s."
 
-#: templates/password_reset.html:2 templates/password_reset.txt:1
+#: templates/password_reset.html:2
+#: templates/password_reset.txt:1
 msgid "Password reset successfully"
 msgstr "Wachtwoord met succes opnieuw ingesteld"
 
-#: templates/password_reset.html:3 templates/password_reset.txt:2
+#: templates/password_reset.html:3
+#: templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
 msgstr "Uw Firefox-accountwachtwoord is met succes opnieuw ingesteld."
 
 #: templates/password_reset.html:4
 msgid ""
-"This is an automated email; if you didn't reset the password to your Firefox "
-"Account, you should reset it immediately at <a href='%(resetLink)s'>"
-"%(resetLink)s</a>."
+"This is an automated email; if you didn't reset the password to your "
+"Firefox Account, you should reset it immediately at <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
 msgstr ""
 "Dit is een geautomatiseerd e-mailbericht; als u het wachtwoord voor uw "
 "Firefox-account niet opnieuw hebt ingesteld, dient u het direct opnieuw in "
@@ -119,18 +135,20 @@ msgstr ""
 
 #: templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your "
+"Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 "Dit is een geautomatiseerd e-mailbericht; als u het wachtwoord voor uw "
 "Firefox-account niet opnieuw hebt ingesteld, dient u het direct opnieuw in "
 "te stellen op %(resetLink)s."
 
-#: templates/reset.html:2 templates/reset.txt:1
+#: templates/reset.html:2
+#: templates/reset.txt:1
 msgid "Are you sure?"
 msgstr "Weet u het zeker?"
 
-#: templates/reset.html:3 templates/reset.txt:2
+#: templates/reset.html:3
+#: templates/reset.txt:2
 msgid "Please confirm that you'd like to reset the password for %(email)s."
 msgstr "Bevestig dat u het wachtwoord voor %(email)s opnieuw wilt instellen."
 
@@ -138,8 +156,12 @@ msgstr "Bevestig dat u het wachtwoord voor %(email)s opnieuw wilt instellen."
 msgid "Reset password now"
 msgstr "Wachtwoord nu opnieuw instellen"
 
-#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
-#: templates/unlock.txt:3 templates/verify.html:6 templates/verify.txt:4
+#: templates/reset.html:5
+#: templates/reset.txt:4
+#: templates/unlock.html:4
+#: templates/unlock.txt:3
+#: templates/verify.html:6
+#: templates/verify.txt:4
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
@@ -151,7 +173,8 @@ msgstr ""
 msgid "Reset password now:"
 msgstr "Wachtwoord nu opnieuw instellen:"
 
-#: templates/unlock.html:2 templates/unlock.txt:1
+#: templates/unlock.html:2
+#: templates/unlock.txt:1
 msgid ""
 "For security reasons your Firefox Account was put on lockdown. To perform "
 "account-level activities, please click the link to re-verify your account "
@@ -173,11 +196,13 @@ msgstr "Account verifiëren:"
 msgid "Firefox Account Activation"
 msgstr "Firefox-accountactivering"
 
-#: templates/verify.html:2 templates/verify.txt:1
+#: templates/verify.html:2
+#: templates/verify.txt:1
 msgid "Welcome!"
 msgstr "Welkom!"
 
-#: templates/verify.html:3 templates/verify.txt:2
+#: templates/verify.html:3
+#: templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
 msgstr "Activeer uw account door dit e-mailadres te bevestigen."
 
@@ -249,8 +274,10 @@ msgstr ""
 "De opgevraagde pagina is niet gevonden. We zijn op de hoogte en zullen "
 "koppelingen die mogelijk niet werken herstellen."
 
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+#: server/templates/pages/src/404.html:4
+#: server/templates/pages/src/500.html:4
+#: server/templates/pages/src/502.html:4
+#: server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "Start"
 
@@ -258,7 +285,8 @@ msgstr "Start"
 msgid "500 Error"
 msgstr "Fout 500"
 
-#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+#: server/templates/pages/src/500.html:3
+#: server/templates/pages/src/502.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
@@ -286,11 +314,13 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+"You are using an <strong>outdated</strong> browser. Please <a "
+"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+"experience."
 msgstr ""
-"U gebruikt een <strong>verouderde</strong> browser. <a href=\"http://"
-"browsehappy.com/\">Upgrade uw browser</a> om uw ervaring te verbeteren."
+"U gebruikt een <strong>verouderde</strong> browser. <a "
+"href=\"http://browsehappy.com/\">Upgrade uw browser</a> om uw ervaring te "
+"verbeteren."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."

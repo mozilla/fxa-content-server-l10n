@@ -87,7 +87,8 @@ msgid "Password changed successfully"
 msgstr "Wachtwoord met succes gewijzigd"
 
 #: app/scripts/views/complete_reset_password.js:135
-#: app/scripts/views/complete_sign_up.js:102 app/scripts/views/confirm.js:91
+#: app/scripts/views/complete_sign_up.js:102
+#: app/scripts/views/confirm.js:91
 #: app/scripts/views/confirm_reset_password.js:173
 msgid "Account verified successfully"
 msgstr "Account met succes geverifieerd"
@@ -109,7 +110,8 @@ msgstr "Wachtwoord is opnieuw ingesteld. Meld u aan om door te gaan."
 msgid "Account deleted successfully"
 msgstr "Account met succes verwijderd"
 
-#: app/scripts/views/reset_password.js:82 app/scripts/views/sign_in.js:180
+#: app/scripts/views/reset_password.js:82
+#: app/scripts/views/sign_in.js:180
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Onbekende account. <a href=\"/signup\">Registreren</a>"
 
@@ -138,15 +140,15 @@ msgid "Unsubscribed successfully"
 msgstr "Uitschrijven gelukt"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "Account vergrendeld. <a href=\"/confirm_account_unlock\">E-mail voor "
 "ontgrendeling verzenden</a>"
 
 #: app/scripts/lib/auth-errors.js:18
 #: app/scripts/lib/marketing-email-errors.js:18
-#: app/scripts/lib/oauth-errors.js:19 app/scripts/lib/profile-errors.js:34
+#: app/scripts/lib/oauth-errors.js:19
+#: app/scripts/lib/profile-errors.js:34
 #: app/scripts/lib/profile-errors.js:42
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
@@ -192,7 +194,8 @@ msgstr "Ongeldige verificatiecode"
 msgid "Invalid JSON in request body"
 msgstr "Ongeldige JSON in aanvraagtekst"
 
-#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:48
+#: app/scripts/lib/auth-errors.js:67
+#: app/scripts/lib/oauth-errors.js:48
 #: app/scripts/lib/profile-errors.js:22
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Ongeldige parameter in aanvraagtekst: %(param)s"
@@ -201,7 +204,8 @@ msgstr "Ongeldige parameter in aanvraagtekst: %(param)s"
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Ontbrekende parameter in aanvraagtekst: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:75 app/scripts/lib/oauth-errors.js:52
+#: app/scripts/lib/auth-errors.js:75
+#: app/scripts/lib/oauth-errors.js:52
 msgid "Invalid request signature"
 msgstr "Ongeldige aanvraaghandtekening"
 
@@ -231,11 +235,13 @@ msgstr "Dit eindpunt wordt niet meer ondersteund"
 
 #: app/scripts/lib/auth-errors.js:107
 #: app/scripts/lib/marketing-email-errors.js:79
-#: app/scripts/lib/oauth-errors.js:78 app/scripts/lib/profile-errors.js:38
+#: app/scripts/lib/oauth-errors.js:78
+#: app/scripts/lib/profile-errors.js:38
 msgid "System unavailable, try again soon"
 msgstr "Systeem niet beschikbaar, probeer het later opnieuw"
 
-#: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:102
+#: app/scripts/lib/auth-errors.js:111
+#: app/scripts/lib/oauth-errors.js:102
 msgid "no message"
 msgstr "geen melding"
 
@@ -278,7 +284,8 @@ msgstr "Moet minstens 8 tekens bevatten"
 msgid "Valid password required"
 msgstr "Geldig wachtwoord vereist"
 
-#: app/scripts/lib/auth-errors.js:151 app/scripts/lib/auth-errors.js:183
+#: app/scripts/lib/auth-errors.js:151
+#: app/scripts/lib/auth-errors.js:183
 #: app/scripts/lib/auth-errors.js:199
 msgid "Valid email required"
 msgstr "Geldig e-mailadres vereist"
@@ -367,7 +374,8 @@ msgstr "Onjuiste code"
 msgid "Expired code"
 msgstr "Verlopen code"
 
-#: app/scripts/lib/oauth-errors.js:60 app/scripts/lib/profile-errors.js:18
+#: app/scripts/lib/oauth-errors.js:60
+#: app/scripts/lib/profile-errors.js:18
 msgid "Unauthorized"
 msgstr "Niet geautoriseerd"
 
@@ -401,21 +409,23 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:19
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr ""
-"Door verder te gaan gaat u akkoord met de <a id=\"service-tos\" href="
-"\"%(termsUri)s\">Servicevoorwaarden</a> en <a id=\"service-pp\" href="
-"\"%(privacyUri)s\">Privacyverklaring</a> van %(serviceName)s "
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
 "(%(serviceUri)s)."
+msgstr ""
+"Door verder te gaan gaat u akkoord met de <a id=\"service-tos\" href=\"%"
+"(termsUri)s\">Servicevoorwaarden</a> en <a id=\"service-pp\" href=\"%"
+"(privacyUri)s\">Privacyverklaring</a> van %(serviceName)s (%(serviceUri)s)."
 
-#: app/scripts/lib/strings.js:23 app/scripts/templates/sign_up.mustache:14
+#: app/scripts/lib/strings.js:23
+#: app/scripts/templates/sign_up.mustache:14
 #: app/scripts/templates/settings/communication_preferences.mustache:4
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Ontvang het laatste nieuws over Mozilla en Firefox."
 
-#: app/scripts/lib/strings.js:24 app/scripts/templates/settings.mustache:4
+#: app/scripts/lib/strings.js:24
+#: app/scripts/templates/settings.mustache:4
 #: app/scripts/templates/settings/communication_preferences.mustache:1
 msgid "Communication preferences"
 msgstr "Communicatievoorkeuren"
@@ -438,8 +448,7 @@ msgid "Cannot create account"
 msgstr "Kan geen account aanmaken"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
-msgid ""
-"You must meet certain age requirements to create a Firefox&nbsp;Account."
+msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr ""
 "U moet aan bepaalde leeftijdscriteria voldoen om een Firefox-account aan te "
 "maken."
@@ -600,9 +609,9 @@ msgstr "E-mail voor ontgrendeling verzonden"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
-"For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
+"For security reasons your account was put on lockdown. To perform "
+"account-level activities, please re-verify your account by clicking the "
+"verification link sent to %(email)s"
 msgstr ""
 "Om veiligheidsredenen is uw account vergrendeld. Voor het uitvoeren van "
 "activiteiten op accountniveau verifieert u uw account opnieuw door op de "
@@ -656,8 +665,7 @@ msgid "Delete account"
 msgstr "Account verwijderen"
 
 #: app/scripts/templates/delete_account.mustache:2
-msgid ""
-"Are you sure you want to delete your account? This action cannot be undone."
+msgid "Are you sure you want to delete your account? This action cannot be undone."
 msgstr ""
 "Weet u zeker dat u uw account wilt verwijderen? Deze actie kan niet ongedaan "
 "worden gemaakt."
@@ -684,15 +692,16 @@ msgstr "Wachtwoord vergeten?"
 #: app/scripts/templates/sign_in.mustache:25
 #: app/scripts/templates/sign_up.mustache:13
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
-"Door verder te gaan gaat u akkoord met de <a id=\"fxa-tos\" href=\"/legal/"
-"terms\">Servicevoorwaarden</a> en <a id=\"fxa-pp\" href=\"/legal/privacy"
-"\">Privacyverklaring</a> van Firefox-cloudservices."
+"Door verder te gaan gaat u akkoord met de <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Servicevoorwaarden</a> en <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacyverklaring</a> van Firefox-cloudservices."
 
-#: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
+#: app/scripts/templates/legal.mustache:1
+#: app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
 msgstr "Firefox-cloudservices"
@@ -707,7 +716,8 @@ msgstr "Juridisch"
 msgid "Terms of Service"
 msgstr "Servicevoorwaarden"
 
-#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
+#: app/scripts/templates/legal.mustache:4
+#: app/scripts/templates/pp.mustache:2
 #: app/scripts/templates/settings.mustache:11
 msgid "Privacy Notice"
 msgstr "Privacyverklaring"
@@ -809,8 +819,9 @@ msgstr ""
 
 #: app/scripts/templates/reset_password.mustache:4
 msgid ""
-"For security reasons, resetting your password will erase your Sync data from "
-"our servers. A new Sync backup will be created from your local browsing data."
+"For security reasons, resetting your password will erase your Sync data "
+"from our servers. A new Sync backup will be created from your local "
+"browsing data."
 msgstr ""
 "Om beveiligingsredenen zal herinitialiseren van uw wachtwoord uw Sync-"
 "gegevens van onze servers wissen. Er zal een nieuwe Sync-reservekopie van uw "
