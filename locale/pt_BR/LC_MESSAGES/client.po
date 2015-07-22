@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-21 22:38+0000\n"
-"PO-Revision-Date: 2015-06-06 21:08+0000\n"
+"PO-Revision-Date: 2015-07-22 06:48:14.936109\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -332,7 +332,7 @@ msgstr "Link de verificação danificado"
 
 #: app/scripts/lib/auth-errors.js:219
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "As dimensões da imagem devem ser de pelo menos 100x100px"
 
 #: app/scripts/lib/mailcheck.js:57
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"

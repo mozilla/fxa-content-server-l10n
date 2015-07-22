@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-21 22:38+0000\n"
-"PO-Revision-Date: 2015-06-19 02:56:31\n"
+"PO-Revision-Date: 2015-07-22 06:51:50.617412\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -134,7 +134,7 @@ msgstr "Por favor, confirme que deseja redefinir a senha para %(email)s."
 
 #: templates/reset.html:4
 msgid "Reset password now"
-msgstr ""
+msgstr "Redefinir senha agora"
 
 #: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
 #: templates/unlock.txt:3 templates/verify.html:6 templates/verify.txt:4
@@ -147,7 +147,7 @@ msgstr ""
 
 #: templates/reset.txt:3
 msgid "Reset password now:"
-msgstr ""
+msgstr "Redefinir senha agora:"
 
 #: templates/unlock.html:2 templates/unlock.txt:1
 msgid ""
@@ -169,41 +169,43 @@ msgstr "Verificar conta"
 
 #: templates/verify.html:1
 msgid "Firefox Account Activation"
-msgstr ""
+msgstr "Ativação da conta Firefox"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
-msgstr ""
+msgstr "Bem-vindo!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "Por favor ative sua conta, confirmando este endereço de e-mail."
 
 #: templates/verify.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "Ativar agora"
 
 #: templates/verify.html:5
 msgid "Alternatively:"
-msgstr ""
+msgstr "Alternativamente:"
 
 #: templates/verify.html:7
 msgid ""
 "For more information, please visit <a href='https://support.mozilla.org' "
 "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
 msgstr ""
+"Para mais informações, visite o <a href='https://support.mozilla.org' "
+"style='color: #0095dd; text-decoration: none;'>Suporte Mozilla</a>"
 
 #: templates/verify.html:8
 msgid "Verify Email"
-msgstr ""
+msgstr "Verificar e-mail"
 
 #: templates/verify.html:9
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
+msgstr "Verifique seu e-mail para concluir seu registro da conta Firefox"
 
 #: templates/verify.txt:3
 msgid "Activate now:"
-msgstr ""
+msgstr "Ativar agora:"
 
 #: mailer.js:115
 msgid "Verify your Firefox Account"
