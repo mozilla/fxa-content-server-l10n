@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-21 22:38+0000\n"
-"PO-Revision-Date: 2015-03-17 14:11+0000\n"
+"PO-Revision-Date: 2015-07-22 13:49+0000\n"
 "Last-Translator: Gábor <kelemeng@ubuntu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n !=1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1426601519.0\n"
+"X-POOTLE-MTIME: 1437572964.0\n"
 
 #: templates/new_sync_device.html:1 templates/password_changed.html:1
 #: templates/password_reset.html:1 templates/reset.html:1
@@ -27,13 +27,15 @@ msgstr "Firefox fiókok"
 
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
 msgid "Account activity notice"
-msgstr ""
+msgstr "Fiókaktivitási figyelmeztetés"
 
 #: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
 msgid ""
 "A new device is now syncing with all of the devices connected to your "
 "Firefox Account."
 msgstr ""
+"Mostantól egy új eszköz szinkronizál a Firefox fiókjához csatlakozó összes "
+"eszközzel."
 
 #: templates/new_sync_device.html:4
 msgid ""
@@ -41,6 +43,9 @@ msgid ""
 "Account, you should change your password immediately at <a "
 "href='%(resetLink)s'>%(resetLink)s</a>."
 msgstr ""
+"Ez egy automatikus e-mail, ha nem adott új eszközt a Firefox fiókjához, "
+"akkor azonnal változtassa meg jelszavát itt: <a href='%(resetLink)s'>%"
+"(resetLink)s</a>."
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/reset.html:6
@@ -57,6 +62,8 @@ msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
 "Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
+"Ez egy automatikus e-mail, ha nem adott új eszközt a Firefox fiókjához, "
+"akkor azonnal változtassa meg jelszavát itt: %(resetLink)s."
 
 #: templates/new_sync_device.txt:4 templates/password_changed.txt:4
 #: templates/password_reset.txt:4 templates/reset.txt:5 templates/unlock.txt:4
@@ -67,11 +74,11 @@ msgstr ""
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Jelszó sikeresen módosítva"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr ""
+msgstr "Firefox fiókja jelszavát sikerült megváltoztatni."
 
 #: templates/password_changed.html:4
 msgid ""
@@ -79,20 +86,25 @@ msgid ""
 "Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"Ez egy automatikus e-mail, ha nem módosította a Firefox fiókjának jelszavát, "
+"akkor azonnal állítsa vissza itt: <a href='%(resetLink)s'>%"
+"(resetLink)s</a>."
 
 #: templates/password_changed.txt:3
 msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"Ez egy automatikus e-mail, ha nem módosította a Firefox fiókjának jelszavát, "
+"akkor azonnal állítsa vissza itt: %(resetLink)s."
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Jelszó sikeresen visszaállítva"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr ""
+msgstr "Firefox fiókja jelszavát sikerült visszaállítani."
 
 #: templates/password_reset.html:4
 msgid ""
@@ -100,12 +112,17 @@ msgid ""
 "Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"Ez egy automatikus e-mail, ha nem állította vissza a Firefox fiókjának "
+"jelszavát, akkor azonnal állítsa vissza itt: <a href='%(resetLink)s'>%"
+"(resetLink)s</a>."
 
 #: templates/password_reset.txt:3
 msgid ""
 "This is an automated email; if you didn’t reset the password to your Firefox "
 "Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"Ez egy automatikus e-mail, ha nem állította vissza a Firefox fiókjának "
+"jelszavát, akkor azonnal állítsa vissza itt: %(resetLink)s."
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Are you sure?"
@@ -117,7 +134,7 @@ msgstr "Erősítse meg, hogy szeretné visszaállítani %(email)s jelszavát."
 
 #: templates/reset.html:4
 msgid "Reset password now"
-msgstr ""
+msgstr "Jelszó visszaállítása most"
 
 #: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
 #: templates/unlock.txt:3 templates/verify.html:6 templates/verify.txt:4
@@ -130,7 +147,7 @@ msgstr ""
 
 #: templates/reset.txt:3
 msgid "Reset password now:"
-msgstr ""
+msgstr "Jelszó visszaállítása most:"
 
 #: templates/unlock.html:2 templates/unlock.txt:1
 msgid ""
@@ -151,65 +168,67 @@ msgstr "Fiók ellenőrzése"
 
 #: templates/verify.html:1
 msgid "Firefox Account Activation"
-msgstr ""
+msgstr "Firefox fiók aktiválása"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
-msgstr ""
+msgstr "Üdvözöljük!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "Aktiválja fiókját ezen e-mail cím megerősítésével."
 
 #: templates/verify.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "Aktiválás most"
 
 #: templates/verify.html:5
 msgid "Alternatively:"
-msgstr ""
+msgstr "Ennek alternatívájaként:"
 
 #: templates/verify.html:7
 msgid ""
 "For more information, please visit <a href='https://support.mozilla.org' "
 "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
 msgstr ""
+"További információkért keresse fel a <a href='https://support.mozilla.org' "
+"style='color: #0095dd; text-decoration: none;'>Mozilla támogatást</a>"
 
 #: templates/verify.html:8
 msgid "Verify Email"
-msgstr ""
+msgstr "E-mail cím megerősítése"
 
 #: templates/verify.html:9
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
+msgstr "Erősítse meg e-mail címét a Firefox fiók regisztrálásának befejezéséhez"
 
 #: templates/verify.txt:3
 msgid "Activate now:"
-msgstr ""
+msgstr "Aktiválás most:"
 
 #: mailer.js:115
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "Ellenőrizze Firefox fiókját"
 
 #: mailer.js:145
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "Állítsa vissza Firefox fiókjának jelszavát"
 
 #: mailer.js:176
 msgid "Re-verify your Firefox Account"
-msgstr ""
+msgstr "Ellenőrizze újra Firefox fiókját"
 
 #: mailer.js:199
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "A Firefox fiókjának jelszava módosítva"
 
 #: mailer.js:218
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "A Firefox fiókjának jelszava visszaállítva"
 
 #: mailer.js:240
 msgid "A new device is now syncing to your Firefox Account"
-msgstr ""
+msgstr "Mostantól egy új eszköz szinkronizál a Firefox fiókjával"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
