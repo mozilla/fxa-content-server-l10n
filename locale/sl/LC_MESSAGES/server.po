@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-21 22:38+0000\n"
-"PO-Revision-Date: 2015-06-17 20:49:01\n"
+"PO-Revision-Date: 2015-07-21 23:55:22.480746\n"
 "Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -131,7 +131,7 @@ msgstr "Potrdite, da želite ponastaviti geslo za %(email)s."
 
 #: templates/reset.html:4
 msgid "Reset password now"
-msgstr ""
+msgstr "Ponastavi geslo zdaj"
 
 #: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
 #: templates/unlock.txt:3 templates/verify.html:6 templates/verify.txt:4
@@ -144,7 +144,7 @@ msgstr ""
 
 #: templates/reset.txt:3
 msgid "Reset password now:"
-msgstr ""
+msgstr "Ponastavi geslo zdaj:"
 
 #: templates/unlock.html:2 templates/unlock.txt:1
 msgid ""
@@ -165,41 +165,43 @@ msgstr "Potrditev računa"
 
 #: templates/verify.html:1
 msgid "Firefox Account Activation"
-msgstr ""
+msgstr "Aktivacija Firefox Računa"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
-msgstr ""
+msgstr "Pozdravljeni!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "Aktivirajte svoj račun s potrditvijo tega e-poštnega naslova."
 
 #: templates/verify.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "Aktiviraj zdaj"
 
 #: templates/verify.html:5
 msgid "Alternatively:"
-msgstr ""
+msgstr "Ali pa:"
 
 #: templates/verify.html:7
 msgid ""
 "For more information, please visit <a href='https://support.mozilla.org' "
 "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
 msgstr ""
+"Za več informacij obiščite <a href='https://support.mozilla.org' "
+"style='color: #0095dd; text-decoration: none;'>Podporo Mozille</a>"
 
 #: templates/verify.html:8
 msgid "Verify Email"
-msgstr ""
+msgstr "Potrdi e-poštni naslov"
 
 #: templates/verify.html:9
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
+msgstr "Potrdite e-poštni naslov za dokončanje registracije Firefox Računa"
 
 #: templates/verify.txt:3
 msgid "Activate now:"
-msgstr ""
+msgstr "Aktiviraj zdaj:"
 
 #: mailer.js:115
 msgid "Verify your Firefox Account"
