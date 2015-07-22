@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-21 22:38+0000\n"
-"PO-Revision-Date: 2015-06-05 19:59+0000\n"
+"PO-Revision-Date: 2015-07-22 11:48+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1433534362.0\n"
+"X-POOTLE-MTIME: 1437565708.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -318,7 +318,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:195
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "Firefox Accounts da so jenož na schwalenych sydłach do IFRAME stajić."
+msgstr "Firefox Accounts da so jenož na schwalenych sydłach do IFRAME stajić"
 
 #: app/scripts/lib/auth-errors.js:203
 msgid "/force_auth requires an email"
@@ -339,7 +339,7 @@ msgstr "Wobkrućenski wotkaz wobškodźeny"
 
 #: app/scripts/lib/auth-errors.js:219
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "Wotměraj wobraza dyrbitaj znajmjeńša 100x100px być"
 
 #: app/scripts/lib/mailcheck.js:57
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
