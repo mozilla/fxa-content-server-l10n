@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-21 22:38+0000\n"
-"PO-Revision-Date: 2015-06-24 17:26-0400\n"
+"PO-Revision-Date: 2015-07-23 15:27-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -133,7 +133,7 @@ msgstr "%(email)s に送信されたメールでパスワードのリセット�
 
 #: templates/reset.html:4
 msgid "Reset password now"
-msgstr ""
+msgstr "今すぐパスワードをリセット"
 
 #: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
 #: templates/unlock.txt:3 templates/verify.html:6 templates/verify.txt:4
@@ -146,7 +146,7 @@ msgstr ""
 
 #: templates/reset.txt:3
 msgid "Reset password now:"
-msgstr ""
+msgstr "今すぐパスワードをリセット;"
 
 #: templates/unlock.html:2 templates/unlock.txt:1
 msgid ""
@@ -168,41 +168,43 @@ msgstr "アカウントを認証:"
 
 #: templates/verify.html:1
 msgid "Firefox Account Activation"
-msgstr ""
+msgstr "Firefox アカウント有効化"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
-msgstr ""
+msgstr "ようこそ！"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "このメールアドレスを確認して、あなたのアカウントを有効化してください。"
 
 #: templates/verify.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "今すぐ有効化"
 
 #: templates/verify.html:5
 msgid "Alternatively:"
-msgstr ""
+msgstr "または:"
 
 #: templates/verify.html:7
 msgid ""
 "For more information, please visit <a href='https://support.mozilla.org' "
 "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
 msgstr ""
+"詳しくは <a href='https://support.mozilla.org' style='color: #0095dd; "
+"text-decoration: none;'>Mozilla サポート</a> を訪れてください。"
 
 #: templates/verify.html:8
 msgid "Verify Email"
-msgstr ""
+msgstr "メールドレスを認証"
 
 #: templates/verify.html:9
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
+msgstr "メールアドレスを認証して Firefox アカウントの登録を完了してください"
 
 #: templates/verify.txt:3
 msgid "Activate now:"
-msgstr ""
+msgstr "今すぐ有効化:"
 
 #: mailer.js:115
 msgid "Verify your Firefox Account"
@@ -304,31 +306,3 @@ msgstr "Firefox クラウドサービス"
 #: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "利用規約"
-
-#~ msgid "Reset password"
-#~ msgstr "パスワードをリセットする"
-
-#~ msgid "Reset password:"
-#~ msgstr "パスワードをリセットする:"
-
-#~ msgid "Almost there"
-#~ msgstr "あと少しです"
-
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
-#~ msgstr "クリックすると %(email)s を Firefox アカウントとして認証できます。"
-
-#~ msgid "Verify"
-#~ msgstr "認証"
-
-#~ msgid "Verify:"
-#~ msgstr "認証:"
-
-#~ msgid "Verify your account"
-#~ msgstr "アカウントを認証する"
-
-#~ msgid "Reset your password"
-#~ msgstr "パスワードをリセットする"
-
-#~ msgid "Re-verify your account"
-#~ msgstr "アカウントを再認証"
