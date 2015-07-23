@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-21 22:38+0000\n"
-"PO-Revision-Date: 2015-06-20 23:22+0000\n"
+"PO-Revision-Date: 2015-07-23 19:27+0000\n"
 "Last-Translator: Théo <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1434842555.0\n"
+"X-POOTLE-MTIME: 1437679631.0\n"
 
 #: templates/new_sync_device.html:1 templates/password_changed.html:1
 #: templates/password_reset.html:1 templates/reset.html:1
@@ -138,7 +138,7 @@ msgstr "Veuillez confirmer la réinitialisation du mot de passe pour %(email)s."
 
 #: templates/reset.html:4
 msgid "Reset password now"
-msgstr ""
+msgstr "Réinitialiser le mot de passe"
 
 #: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
 #: templates/unlock.txt:3 templates/verify.html:6 templates/verify.txt:4
@@ -151,7 +151,7 @@ msgstr ""
 
 #: templates/reset.txt:3
 msgid "Reset password now:"
-msgstr ""
+msgstr "Réinitialiser le mot de passe :"
 
 #: templates/unlock.html:2 templates/unlock.txt:1
 msgid ""
@@ -173,41 +173,46 @@ msgstr "Vérifier le compte :"
 
 #: templates/verify.html:1
 msgid "Firefox Account Activation"
-msgstr ""
+msgstr "Activation de compte Firefox"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
-msgstr ""
+msgstr "Bienvenue !"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "Veuillez activer votre compte en confirmant cette adresse électronique."
 
 #: templates/verify.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "Activer maintenant"
 
 #: templates/verify.html:5
 msgid "Alternatively:"
-msgstr ""
+msgstr "Solution alternative :"
 
 #: templates/verify.html:7
 msgid ""
 "For more information, please visit <a href='https://support.mozilla.org' "
 "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
 msgstr ""
+"Pour davantage d'informations, veuillez consulter <a "
+"href='https://support.mozilla.org' style='color: #0095dd; text-decoration: "
+"none;'>l'assistance de Mozilla</a>"
 
 #: templates/verify.html:8
 msgid "Verify Email"
-msgstr ""
+msgstr "Confirmer l'adresse électronique"
 
 #: templates/verify.html:9
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr ""
+"Confirmez votre adresse électronique afin de terminer l'enregistrement de "
+"votre compte Firefox"
 
 #: templates/verify.txt:3
 msgid "Activate now:"
-msgstr ""
+msgstr "Activation :"
 
 #: mailer.js:115
 msgid "Verify your Firefox Account"
