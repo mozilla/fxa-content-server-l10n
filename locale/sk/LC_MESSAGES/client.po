@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-21 22:38+0000\n"
-"PO-Revision-Date: 2015-06-01 11:36+0000\n"
+"PO-Revision-Date: 2015-07-24 11:46+0000\n"
 "Last-Translator: Branislav <rozbora@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1433158588.0\n"
+"X-POOTLE-MTIME: 1437738373.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -131,11 +131,11 @@ msgstr "So súhlasom <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
 #: app/scripts/views/settings/communication_preferences.js:96
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "Prihlásenie bolo úspešné"
 
 #: app/scripts/views/settings/communication_preferences.js:97
 msgid "Unsubscribed successfully"
-msgstr ""
+msgstr "Odhlásenie bolo úspešné"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
 msgid ""
@@ -335,7 +335,7 @@ msgstr "Overovací odkaz je poškodený"
 
 #: app/scripts/lib/auth-errors.js:219
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "Rozmery obrázka musia byť minimálne 100x100px"
 
 #: app/scripts/lib/mailcheck.js:57
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -371,11 +371,11 @@ msgstr "Neoprávnený"
 
 #: app/scripts/lib/oauth-errors.js:64
 msgid "Forbidden"
-msgstr ""
+msgstr "Nedovolené"
 
 #: app/scripts/lib/oauth-errors.js:74
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Neplatný parameter OAuth: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:86
 msgid "Something went wrong. Please close this tab and try again."
@@ -403,29 +403,32 @@ msgid ""
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
+"Pokračovaním súhlasíte s <a id=\"service-tos\" href=\"%(termsUri)s\">Podmienkami "
+"využívania služby</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">Zásadami o "
+"ochrane osobných údajov</a> %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:23 app/scripts/templates/sign_up.mustache:14
 #: app/scripts/templates/settings/communication_preferences.mustache:4
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Získajte najčerstvejšie novinky o Mozille a Firefoxe."
 
 #: app/scripts/lib/strings.js:24 app/scripts/templates/settings.mustache:4
 #: app/scripts/templates/settings/communication_preferences.mustache:1
 msgid "Communication preferences"
-msgstr ""
+msgstr "Predvoľby komunikácie"
 
 #: app/scripts/lib/strings.js:25
 #: app/scripts/templates/settings/communication_preferences.mustache:9
 msgid "Email preferences"
-msgstr ""
+msgstr "Predvoľby e-mailov"
 
 #: app/scripts/lib/strings.js:28
 msgid "Edit profile"
-msgstr ""
+msgstr "Upraviť profil"
 
 #: app/scripts/lib/strings.js:29
 msgid "Name"
-msgstr ""
+msgstr "Meno"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -676,6 +679,9 @@ msgid ""
 "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
 "Notice</a> of Firefox cloud services."
 msgstr ""
+"Pokračovaním súhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmienkami "
+"služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Podmienkami ochrany "
+"osobných údajov</a> cloudových služieb Firefoxu."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -734,12 +740,12 @@ msgstr "Prevziať Firefox pre mobilné zariadenia."
 #: app/scripts/templates/permissions.mustache:1
 #: app/scripts/templates/settings/gravatar_permissions.mustache:1
 msgid "Request for permission"
-msgstr ""
+msgstr "Požiadavka na povolenie"
 
 #: app/scripts/templates/permissions.mustache:2
 #: app/scripts/templates/settings/gravatar_permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr ""
+msgstr "%(serviceName)s chce použiť nasledujúce informácie z vášho účtu:"
 
 #: app/scripts/templates/permissions.mustache:3
 #: app/scripts/templates/reset_password.mustache:3
@@ -752,7 +758,7 @@ msgstr "E-mailová adresa"
 #: app/scripts/templates/permissions.mustache:4
 #: app/scripts/templates/settings/gravatar_permissions.mustache:4
 msgid "Accept"
-msgstr ""
+msgstr "Povoliť"
 
 #: app/scripts/templates/permissions.mustache:5
 #: app/scripts/templates/settings/avatar_camera.mustache:3
@@ -886,11 +892,11 @@ msgstr "Uložiť"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:5
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Odhlásiť"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Subscribe"
-msgstr ""
+msgstr "Prihlásiť"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2
 msgid "Year of birth"

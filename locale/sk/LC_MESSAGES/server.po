@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-21 22:38+0000\n"
-"PO-Revision-Date: 2015-03-17 13:55+0000\n"
+"PO-Revision-Date: 2015-07-24 11:56+0000\n"
 "Last-Translator: Branislav <rozbora@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1426600526.0\n"
+"X-POOTLE-MTIME: 1437738967.0\n"
 
 #: templates/new_sync_device.html:1 templates/password_changed.html:1
 #: templates/password_reset.html:1 templates/reset.html:1
@@ -27,13 +27,15 @@ msgstr "Účty Firefox Account"
 
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
 msgid "Account activity notice"
-msgstr ""
+msgstr "Poznámka o aktivite účtu"
 
 #: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
 msgid ""
 "A new device is now syncing with all of the devices connected to your "
 "Firefox Account."
 msgstr ""
+"Nové zariadenie je teraz synchronizované s všetkými ostatnými zariadeniami "
+"pripojenými k vášmu účtu Firefox Account."
 
 #: templates/new_sync_device.html:4
 msgid ""
@@ -41,6 +43,9 @@ msgid ""
 "Account, you should change your password immediately at <a "
 "href='%(resetLink)s'>%(resetLink)s</a>."
 msgstr ""
+"Toto je automatický e-mail. Ak ste k svojmu účtu Firefox Account nepridávali "
+"žiadne zariadenie, mali by ste okamžite zmeniť svoje heslo na <a href='%"
+"(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/reset.html:6
@@ -57,6 +62,9 @@ msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
 "Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
+"Toto je automatický e-mail. Ak ste k svojmu účtu Firefox Account nepridávali "
+"žiadne zariadenie, mali by ste okamžite zmeniť svoje heslo na %"
+"(resetLink)s."
 
 #: templates/new_sync_device.txt:4 templates/password_changed.txt:4
 #: templates/password_reset.txt:4 templates/reset.txt:5 templates/unlock.txt:4
@@ -66,11 +74,11 @@ msgstr "Ďalšie informácie získate na stránkach https://support.mozilla.org"
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Heslo bolo úspešne zmenené"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr ""
+msgstr "Heslo vášho účtu Firefox Account bolo úspešne zmenené."
 
 #: templates/password_changed.html:4
 msgid ""
@@ -78,20 +86,25 @@ msgid ""
 "Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"Toto je automatický e-mail. Ak ste heslo k svojmu účtu Firefox Account "
+"nemenili, mali by ste ho okamžite obnoviť na <a href='%(resetLink)s'>%"
+"(resetLink)s</a>."
 
 #: templates/password_changed.txt:3
 msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"Toto je automatický e-mail. Ak ste heslo k svojmu účtu Firefox Account "
+"nemenili, mali by ste ho okamžite obnoviť na %(resetLink)s."
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Heslo bolo úspešne obnovené"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr ""
+msgstr "Heslo vášho účtu Firefox Account bolo úspešne obnovené."
 
 #: templates/password_reset.html:4
 msgid ""
@@ -99,12 +112,17 @@ msgid ""
 "Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
+"Toto je automatický e-mail. Ak ste heslo k svojmu účtu Firefox Account "
+"neobnovovali, mali by ste ho okamžite obnoviť na <a href='%(resetLink)s'>%"
+"(resetLink)s</a>."
 
 #: templates/password_reset.txt:3
 msgid ""
 "This is an automated email; if you didn’t reset the password to your Firefox "
 "Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"Toto je automatický e-mail. Ak ste heslo k svojmu účtu Firefox Account "
+"neobnovovali, mali by ste ho okamžite obnoviť na %(resetLink)s."
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Are you sure?"
