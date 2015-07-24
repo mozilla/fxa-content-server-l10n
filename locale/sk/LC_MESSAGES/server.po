@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-21 22:38+0000\n"
-"PO-Revision-Date: 2015-07-24 11:56+0000\n"
+"PO-Revision-Date: 2015-07-24 12:01+0000\n"
 "Last-Translator: Branislav <rozbora@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1437738967.0\n"
+"X-POOTLE-MTIME: 1437739300.0\n"
 
 #: templates/new_sync_device.html:1 templates/password_changed.html:1
 #: templates/password_reset.html:1 templates/reset.html:1
@@ -134,7 +134,7 @@ msgstr "Naozaj chcete obnoviť heslo pre %(email)s?"
 
 #: templates/reset.html:4
 msgid "Reset password now"
-msgstr ""
+msgstr "Obnoviť heslo"
 
 #: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
 #: templates/unlock.txt:3 templates/verify.html:6 templates/verify.txt:4
@@ -147,7 +147,7 @@ msgstr ""
 
 #: templates/reset.txt:3
 msgid "Reset password now:"
-msgstr ""
+msgstr "Obnoviť heslo:"
 
 #: templates/unlock.html:2 templates/unlock.txt:1
 msgid ""
@@ -168,19 +168,19 @@ msgstr "Overenie účtu:"
 
 #: templates/verify.html:1
 msgid "Firefox Account Activation"
-msgstr ""
+msgstr "Aktivácia konta Firefox Account"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
-msgstr ""
+msgstr "Vitajte!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "Prosím aktivujte vaše konto potvrdením nasledovnej e-mailovej adresy."
 
 #: templates/verify.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "Aktivovať"
 
 #: templates/verify.html:5
 msgid "Alternatively:"
@@ -210,23 +210,23 @@ msgstr ""
 
 #: mailer.js:145
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "Obnoviť heslo vášho účtu Firefox Account"
 
 #: mailer.js:176
 msgid "Re-verify your Firefox Account"
-msgstr ""
+msgstr "Znovu overiť váš účet Firefox Account"
 
 #: mailer.js:199
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "Heslo vášho účtu Firefox Account bolo zmenené"
 
 #: mailer.js:218
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "Heslo vášho účtu Firefox Account bolo obnovené"
 
 #: mailer.js:240
 msgid "A new device is now syncing to your Firefox Account"
-msgstr ""
+msgstr "Nové zariadenie sa teraz synchronizuje s vašim účtom Firefox Account"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
