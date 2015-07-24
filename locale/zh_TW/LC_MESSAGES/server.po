@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-21 22:38+0000\n"
-"PO-Revision-Date: 2015-06-24 22:47+0000\n"
+"PO-Revision-Date: 2015-07-24 02:54+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1435186037.0\n"
+"X-POOTLE-MTIME: 1437706475.0\n"
 
 #: templates/new_sync_device.html:1 templates/password_changed.html:1
 #: templates/password_reset.html:1 templates/reset.html:1
@@ -128,7 +128,7 @@ msgstr "請確認您要重設帳號 %(email)s 的密碼。"
 
 #: templates/reset.html:4
 msgid "Reset password now"
-msgstr ""
+msgstr "立刻重設密碼"
 
 #: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
 #: templates/unlock.txt:3 templates/verify.html:6 templates/verify.txt:4
@@ -141,7 +141,7 @@ msgstr ""
 
 #: templates/reset.txt:3
 msgid "Reset password now:"
-msgstr ""
+msgstr "立刻重設密碼:"
 
 #: templates/unlock.html:2 templates/unlock.txt:1
 msgid ""
@@ -162,41 +162,43 @@ msgstr "確認帳號:"
 
 #: templates/verify.html:1
 msgid "Firefox Account Activation"
-msgstr ""
+msgstr "啟用 Firefox Account"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
-msgstr ""
+msgstr "歡迎！"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "請確認此電子郵件地址為您所有，以啟用帳號。"
 
 #: templates/verify.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "立刻啟用"
 
 #: templates/verify.html:5
 msgid "Alternatively:"
-msgstr ""
+msgstr "或是:"
 
 #: templates/verify.html:7
 msgid ""
 "For more information, please visit <a href='https://support.mozilla.org' "
 "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
 msgstr ""
+"若需更多資訊，請前往 <a href='https://support.mozilla.org' style='color: #0095dd; "
+"text-decoration: none;'>Mozilla 技術支援站</a>"
 
 #: templates/verify.html:8
 msgid "Verify Email"
-msgstr ""
+msgstr "驗證電子郵件地址"
 
 #: templates/verify.html:9
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
+msgstr "驗證您的電子郵件地址以完成 Firefox 帳號註冊"
 
 #: templates/verify.txt:3
 msgid "Activate now:"
-msgstr ""
+msgstr "立刻啟用:"
 
 #: mailer.js:115
 msgid "Verify your Firefox Account"
