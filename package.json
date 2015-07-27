@@ -13,5 +13,12 @@
   "license": "MPL-2.0",
   "bugs": {
     "url": "https://github.com/mozilla/fxa-content-server-l10n/issues"
+  },
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-po2json": "git://github.com/shane-tomlinson/grunt-po2json.git#aa276503e",
+    "i18n-abide": "0.0.23",
+    "load-grunt-tasks": "3.2.0",
+    "time-grunt": "1.2.1"
   }
 }
