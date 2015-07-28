@@ -19,6 +19,7 @@
     "grunt-po2json": "git://github.com/shane-tomlinson/grunt-po2json.git#aa276503e",
     "i18n-abide": "0.0.23",
     "load-grunt-tasks": "3.2.0",
-    "time-grunt": "1.2.1"
+    "time-grunt": "1.2.1",
+    "xss": "0.2.7"
   }
 }

@@ -61,12 +61,12 @@ module.exports = function (grunt) {
       }
     },
     all: {
-      src: ['locale/**/**/*.po'],
-      dest: '.tmp/l10n/'
+      src: ['<%= config.strings_src %>/**/**/*.po'],
+      dest: '<%= config.tmp %>/l10n/'
     },
     template: {
-      src: ['locale/templates/**/*.pot'],
-      dest: '.tmp/l10n'
+      src: ['<%= config.strings_src %>/templates/**/*.pot'],
+      dest: '<%= config.tmp %>/l10n'
     }
   });
 };
