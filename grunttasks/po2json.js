@@ -61,12 +61,12 @@ module.exports = function (grunt) {
       }
     },
     all: {
-      src: ['locale/**/**/*.po'],
-      dest: '.tmp/l10n/'
+      src: ['<%= yeoman.strings_src %>/**/**/*.po'],
+      dest: '<%= yeoman.tmp %>/l10n/'
     },
     template: {
-      src: ['locale/templates/**/*.pot'],
-      dest: '.tmp/l10n'
+      src: ['<%= yeoman.strings_src %>/templates/**/*.pot'],
+      dest: '<%= yeoman.tmp %>/l10n'
     }
   });
 };
