@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-21 22:38+0000\n"
-"PO-Revision-Date: 2015-06-26 15:13+0000\n"
-"Last-Translator: Priyank <priyank01agarwal@gmail.com>\n"
+"PO-Revision-Date: 2015-08-02 18:21+0000\n"
+"Last-Translator: umesh <umeshsnwl@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1435331631.0\n"
+"X-POOTLE-MTIME: 1438539709.0\n"
 
 #: templates/new_sync_device.html:1 templates/password_changed.html:1
 #: templates/password_reset.html:1 templates/reset.html:1
@@ -131,7 +131,7 @@ msgstr "कृपया पुष्टि करें की आप %(email)s 
 
 #: templates/reset.html:4
 msgid "Reset password now"
-msgstr ""
+msgstr "अब पासवर्ड रीसेट कीजिए"
 
 #: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
 #: templates/unlock.txt:3 templates/verify.html:6 templates/verify.txt:4
@@ -144,7 +144,7 @@ msgstr ""
 
 #: templates/reset.txt:3
 msgid "Reset password now:"
-msgstr ""
+msgstr "अब पासवर्ड रीसेट कीजिए:"
 
 #: templates/unlock.html:2 templates/unlock.txt:1
 msgid ""
@@ -165,41 +165,44 @@ msgstr "खाता सत्यापन:"
 
 #: templates/verify.html:1
 msgid "Firefox Account Activation"
-msgstr ""
+msgstr "फ़ायरफ़ॉक्स खाता सक्रियण"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
-msgstr ""
+msgstr "स्वागत है!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "इस ईमेल के पते की पुष्टि करके अपने खाते को सक्रिय करें."
 
 #: templates/verify.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "अब सक्रिय करें"
 
 #: templates/verify.html:5
 msgid "Alternatively:"
-msgstr ""
+msgstr "वैकल्पिक रूप से:"
 
 #: templates/verify.html:7
 msgid ""
 "For more information, please visit <a href='https://support.mozilla.org' "
 "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
 msgstr ""
+"और अधिक जानकारी के लिए कृपया<a href='https://support.mozilla.org' "
+"style='color: #0095dd; text-decoration: none;'>मोज़िल्ला सपोर्ट को विजिट "
+"करें</a>"
 
 #: templates/verify.html:8
 msgid "Verify Email"
-msgstr ""
+msgstr "ईमेल सत्यापित करें"
 
 #: templates/verify.html:9
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
+msgstr "अपना Firefox खाता पंजीकरण समाप्त करने के लिए अपना ईमेल सत्यापित करें"
 
 #: templates/verify.txt:3
 msgid "Activate now:"
-msgstr ""
+msgstr "अभी सक्रिय करें:"
 
 #: mailer.js:115
 msgid "Verify your Firefox Account"
