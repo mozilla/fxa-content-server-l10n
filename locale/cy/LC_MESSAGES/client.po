@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-21 22:38+0000\n"
+"POT-Creation-Date: 2015-08-05 21:25+0000\n"
 "PO-Revision-Date: 2015-05-29 14:57+0000\n"
 "Last-Translator: Rhoslyn <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -110,7 +110,7 @@ msgstr "Ailosodwyd y cyfrinair yn llwyddiannus. Mewngofnodwch i barhau."
 msgid "Account deleted successfully"
 msgstr "Cyfrif wedi ei ddileu'n llwyddiannus"
 
-#: app/scripts/views/reset_password.js:82 app/scripts/views/sign_in.js:180
+#: app/scripts/views/reset_password.js:82 app/scripts/views/sign_in.js:190
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Cyfrif anhysbys. <a href=\"/signup\">Ymunwch</a>"
 
@@ -118,7 +118,7 @@ msgstr "Cyfrif anhysbys. <a href=\"/signup\">Ymunwch</a>"
 msgid "Signed out successfully"
 msgstr "Allgofnodwyd yn llwyddiannus"
 
-#: app/scripts/views/sign_up.js:331
+#: app/scripts/views/sign_up.js:351
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Mae cyfrif yn bodoli'n barod. <a href=\"/signin\">Mewngofnodwch</a>"
 
@@ -153,7 +153,7 @@ msgstr ""
 msgid "Unexpected error"
 msgstr "Gwall anysbys"
 
-#: app/scripts/lib/auth-errors.js:27
+#: app/scripts/lib/auth-errors.js:27 app/scripts/lib/oauth-errors.js:48
 msgid "Invalid token"
 msgstr "Tocyn annilys"
 
@@ -193,8 +193,7 @@ msgstr "Cod dilysu annilys"
 msgid "Invalid JSON in request body"
 msgstr "Cais JSON annilys yn y corff"
 
-#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:48
-#: app/scripts/lib/profile-errors.js:22
+#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/profile-errors.js:22
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Paramedr annilys yn y corff gofyn: %(param)s"
 
@@ -202,7 +201,7 @@ msgstr "Paramedr annilys yn y corff gofyn: %(param)s"
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Paramedr coll yn y corff gofyn: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:75 app/scripts/lib/oauth-errors.js:52
+#: app/scripts/lib/auth-errors.js:75
 msgid "Invalid request signature"
 msgstr "Llofnod cais annilys"
 
@@ -271,7 +270,7 @@ msgstr "Rhaid i gyfrinair newydd fod yn wahanol"
 #: app/scripts/lib/auth-errors.js:143
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/complete_reset_password.mustache:16
-#: app/scripts/templates/sign_up.mustache:12
+#: app/scripts/templates/sign_up.mustache:14
 msgid "Must be at least 8 characters"
 msgstr "Rhaid bod o leiaf 8 nod"
 
@@ -337,6 +336,14 @@ msgstr "Mae'r ddolen dilysu wedi ei difrodi"
 msgid "The image dimensions must be at least 100x100px"
 msgstr ""
 
+#: app/scripts/lib/auth-errors.js:223
+msgid "Signup is coming soon to Firefox for iOS"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:227
+msgid "Signup has been disabled"
+msgstr ""
+
 #: app/scripts/lib/mailcheck.js:57
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr "Ydych chi'n meddwl <span tabindex=\"1\">%(domain)s</span>?"
@@ -365,6 +372,10 @@ msgstr "Cod anghywir"
 msgid "Expired code"
 msgstr "Cod wedi dod i ben"
 
+#: app/scripts/lib/oauth-errors.js:52 app/scripts/lib/oauth-errors.js:74
+msgid "Invalid OAuth parameter: %(param)s"
+msgstr "Paramedrau OAuth annilys: %(param)s"
+
 #: app/scripts/lib/oauth-errors.js:60 app/scripts/lib/profile-errors.js:18
 msgid "Unauthorized"
 msgstr "Heb awdurdod"
@@ -372,10 +383,6 @@ msgstr "Heb awdurdod"
 #: app/scripts/lib/oauth-errors.js:64
 msgid "Forbidden"
 msgstr "Gwaharddedig"
-
-#: app/scripts/lib/oauth-errors.js:74
-msgid "Invalid OAuth parameter: %(param)s"
-msgstr "Paramedrau OAuth annilys: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:86
 msgid "Something went wrong. Please close this tab and try again."
@@ -404,28 +411,37 @@ msgid ""
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
-#: app/scripts/lib/strings.js:23 app/scripts/templates/sign_up.mustache:14
-#: app/scripts/templates/settings/communication_preferences.mustache:4
-msgid "Get the latest news about Mozilla and Firefox."
-msgstr "Derbyniwch y newyddion diweddaraf am Mozilla a Firefox."
-
-#: app/scripts/lib/strings.js:24 app/scripts/templates/settings.mustache:4
-#: app/scripts/templates/settings/communication_preferences.mustache:1
-msgid "Communication preferences"
-msgstr "Dewisiadau cyfathrebu"
-
-#: app/scripts/lib/strings.js:25
-#: app/scripts/templates/settings/communication_preferences.mustache:9
-msgid "Email preferences"
-msgstr "Dewisiadau e-bost"
-
-#: app/scripts/lib/strings.js:28
+#: app/scripts/lib/strings.js:23
 msgid "Edit profile"
 msgstr "Golygu eich proffil"
 
-#: app/scripts/lib/strings.js:29
+#: app/scripts/lib/strings.js:24
 msgid "Name"
 msgstr "Enw"
+
+#: app/scripts/lib/strings.js:27
+msgid "Bookmarks"
+msgstr ""
+
+#: app/scripts/lib/strings.js:28
+msgid "History"
+msgstr ""
+
+#: app/scripts/lib/strings.js:29
+msgid "Tabs"
+msgstr ""
+
+#: app/scripts/lib/strings.js:30
+msgid "Passwords"
+msgstr ""
+
+#: app/scripts/lib/strings.js:31
+msgid "Desktop Add-ons"
+msgstr ""
+
+#: app/scripts/lib/strings.js:32
+msgid "Desktop Preferences"
+msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -463,9 +479,9 @@ msgstr "Hen gyfrinair"
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/delete_account.mustache:4
 #: app/scripts/templates/force_auth.mustache:6
-#: app/scripts/templates/sign_in.mustache:8
-#: app/scripts/templates/sign_in.mustache:21
-#: app/scripts/templates/sign_up.mustache:11
+#: app/scripts/templates/sign_in.mustache:10
+#: app/scripts/templates/sign_in.mustache:23
+#: app/scripts/templates/sign_up.mustache:13
 msgid "Show"
 msgstr "Dangos"
 
@@ -611,9 +627,9 @@ msgstr "Mae dolen ailosod wedi ei anfon at %(email)s"
 #: app/scripts/templates/force_auth.mustache:7
 #: app/scripts/templates/sign_in.mustache:1
 #: app/scripts/templates/sign_in.mustache:4
-#: app/scripts/templates/sign_in.mustache:9
-#: app/scripts/templates/sign_in.mustache:13
-#: app/scripts/templates/sign_in.mustache:22
+#: app/scripts/templates/sign_in.mustache:11
+#: app/scripts/templates/sign_in.mustache:15
+#: app/scripts/templates/sign_in.mustache:24
 msgid "Sign in"
 msgstr "Mewngofnodi"
 
@@ -654,9 +670,9 @@ msgstr ""
 
 #: app/scripts/templates/delete_account.mustache:3
 #: app/scripts/templates/force_auth.mustache:3
-#: app/scripts/templates/sign_in.mustache:6
-#: app/scripts/templates/sign_in.mustache:18
-#: app/scripts/templates/sign_up.mustache:8
+#: app/scripts/templates/sign_in.mustache:8
+#: app/scripts/templates/sign_in.mustache:20
+#: app/scripts/templates/sign_up.mustache:10
 msgid "Password"
 msgstr "Cyfrinair"
 
@@ -665,14 +681,15 @@ msgid "Sign in to continue"
 msgstr "Mewngofnodi i barhau"
 
 #: app/scripts/templates/force_auth.mustache:8
-#: app/scripts/templates/sign_in.mustache:10
-#: app/scripts/templates/sign_in.mustache:23
+#: app/scripts/templates/sign_in.mustache:12
+#: app/scripts/templates/sign_in.mustache:25
+#: app/scripts/templates/sign_in.mustache:27
 msgid "Forgot password?"
 msgstr "Wedi anghofio'r cyfrinair?"
 
 #: app/scripts/templates/force_auth.mustache:9
-#: app/scripts/templates/sign_in.mustache:25
-#: app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/sign_in.mustache:29
+#: app/scripts/templates/sign_up.mustache:15
 msgid ""
 "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
 "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
@@ -745,8 +762,8 @@ msgstr "Mae %(serviceName)s eisiau'r wybodaeth ganlynol o'ch cyfrif:"
 
 #: app/scripts/templates/permissions.mustache:3
 #: app/scripts/templates/reset_password.mustache:3
-#: app/scripts/templates/sign_in.mustache:17
-#: app/scripts/templates/sign_up.mustache:6
+#: app/scripts/templates/sign_in.mustache:19
+#: app/scripts/templates/sign_up.mustache:8
 #: app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "E-bost"
@@ -814,6 +831,11 @@ msgstr "Newid"
 msgid "You are signed in as"
 msgstr "Rydych wedi mewngofnodi fel"
 
+#: app/scripts/templates/settings.mustache:4
+#: app/scripts/templates/settings/communication_preferences.mustache:1
+msgid "Communication preferences"
+msgstr "Dewisiadau cyfathrebu"
+
 #: app/scripts/templates/settings.mustache:8
 msgid "Sign out"
 msgstr "Allgofnodi"
@@ -823,12 +845,16 @@ msgstr "Allgofnodi"
 msgid "Continue to %(serviceName)s"
 msgstr "Parhewch i %(serviceName)s."
 
-#: app/scripts/templates/sign_in.mustache:11
-#: app/scripts/templates/sign_in.mustache:14
+#: app/scripts/templates/sign_in.mustache:6
+msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
+msgstr ""
+
+#: app/scripts/templates/sign_in.mustache:13
+#: app/scripts/templates/sign_in.mustache:16
 msgid "Use a different account"
 msgstr "Defnyddiwch gyfrif gwahanol"
 
-#: app/scripts/templates/sign_in.mustache:24
+#: app/scripts/templates/sign_in.mustache:28
 msgid "Create an account"
 msgstr "Creu cyfrif"
 
@@ -837,15 +863,24 @@ msgstr "Creu cyfrif"
 msgid "Create a Firefox Account"
 msgstr "Creu Cyfrif Firefox"
 
+#: app/scripts/templates/sign_up.mustache:6
+msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
+msgstr ""
+
 #: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/settings/communication_preferences.mustache:4
+msgid "Get the latest news about Mozilla and Firefox."
+msgstr "Derbyniwch y newyddion diweddaraf am Mozilla a Firefox."
+
+#: app/scripts/templates/sign_up.mustache:18
 msgid "Sign up"
 msgstr "Ymuno"
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:20
 msgid "Choose what to sync"
 msgstr "Dewis beth i gydweddu"
 
-#: app/scripts/templates/sign_up.mustache:20
+#: app/scripts/templates/sign_up.mustache:22
 msgid "Already have an account? Sign in."
 msgstr "Oes gennych gyfrif eisoes? Mewngofnodwch."
 
@@ -893,6 +928,10 @@ msgstr ""
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Subscribe"
 msgstr ""
+
+#: app/scripts/templates/settings/communication_preferences.mustache:9
+msgid "Email preferences"
+msgstr "Dewisiadau e-bost"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2
 msgid "Year of birth"

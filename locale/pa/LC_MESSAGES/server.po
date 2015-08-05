@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-21 22:38+0000\n"
+"POT-Creation-Date: 2015-08-05 21:25+0000\n"
 "PO-Revision-Date: 2015-08-01 21:26+0000\n"
 "Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,199 +14,17 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1438464364.0\n"
 
-#: templates/new_sync_device.html:1 templates/password_changed.html:1
-#: templates/password_reset.html:1 templates/reset.html:1
-#: templates/unlock.html:1 server/templates/pages/src/400.html:1
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
-#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
+#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
+#: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/terms.html:1 templates/reset.html:1
+#: templates/unlock.html:1 templates/verify.html:1
+#: templates/new_sync_device.html:1 templates/password_changed.html:1
+#: templates/password_reset.html:1
 msgid "Firefox Accounts"
 msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤਾ"
-
-#: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
-msgid "Account activity notice"
-msgstr "ਖਾਤਾ ਸਰਗਰਮੀ ਸੂਚਨਾ"
-
-#: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
-msgid ""
-"A new device is now syncing with all of the devices connected to your "
-"Firefox Account."
-msgstr ""
-
-#: templates/new_sync_device.html:4
-msgid ""
-"This is an automated email; if you didn't add a new device to your Firefox "
-"Account, you should change your password immediately at <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
-msgstr ""
-
-#: templates/new_sync_device.html:5 templates/password_changed.html:5
-#: templates/password_reset.html:5 templates/reset.html:6
-#: templates/unlock.html:5
-msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
-msgstr ""
-"ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ <a href='https://support.mozilla.org'>Mozilla Support</a> ਵੇਖੋ ਜੀ"
-
-#: templates/new_sync_device.txt:3
-msgid ""
-"This is an automated email; if you didn't add a new device to your Firefox "
-"Account, you should change your password immediately at %(resetLink)s."
-msgstr ""
-
-#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
-#: templates/password_reset.txt:4 templates/reset.txt:5 templates/unlock.txt:4
-#: templates/verify.txt:5
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr "ਹੋਰ ਜਿਆਦਾ ਜਾਣਕਾਰੀ ਲਈ, ਵੇਖੋ ਜੀ https://support.mozilla.org"
-
-#: templates/password_changed.html:2 templates/password_changed.txt:1
-msgid "Password changed successfully"
-msgstr "ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ"
-
-#: templates/password_changed.html:3 templates/password_changed.txt:2
-msgid "Your Firefox Account password has been successfully changed."
-msgstr "ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ ਗਿਆ ਹੈ।"
-
-#: templates/password_changed.html:4
-msgid ""
-"This is an automated email; if you didn't change the password to your "
-"Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
-"%(resetLink)s</a>."
-msgstr ""
-
-#: templates/password_changed.txt:3
-msgid ""
-"This is an automated email; if you didn’t change the password to your "
-"Firefox Account, you should reset it immediately at %(resetLink)s."
-msgstr ""
-
-#: templates/password_reset.html:2 templates/password_reset.txt:1
-msgid "Password reset successfully"
-msgstr "ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਮੁੜ-ਸੈਟ ਕੀਤਾ ਗਿਆ"
-
-#: templates/password_reset.html:3 templates/password_reset.txt:2
-msgid "Your Firefox Account password has been successfully reset."
-msgstr "ਤੁਹਾਡਾ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਕਾਮਯਾਬੀ ਨਾਲ ਮੁੜ-ਸੈਟ ਹੋ ਗਿਆ ਹੈ।"
-
-#: templates/password_reset.html:4
-msgid ""
-"This is an automated email; if you didn't reset the password to your Firefox "
-"Account, you should reset it immediately at <a href='%(resetLink)s'>"
-"%(resetLink)s</a>."
-msgstr ""
-
-#: templates/password_reset.txt:3
-msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
-msgstr ""
-
-#: templates/reset.html:2 templates/reset.txt:1
-msgid "Are you sure?"
-msgstr "ਕੀ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ?"
-
-#: templates/reset.html:3 templates/reset.txt:2
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "ਪੁਸ਼ਟੀ ਕਰੋ ਜੀ ਕਿ ਤੁਸੀਂ %(email)s ਲਈ ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ।"
-
-#: templates/reset.html:4
-msgid "Reset password now"
-msgstr "ਪਾਸਵਰਡ ਹੁਣੇ ਮੁੜ-ਸੈਟ ਕਰੋ"
-
-#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
-#: templates/unlock.txt:3 templates/verify.html:6 templates/verify.txt:4
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"ਇਹ ਆਟੋਮੈਟਿਕ ਈਮੇਲ ਹੈ, ਜੇ ਤੁਹਾਨੂੰ ਇਹ ਗਲਤੀ ਨਾਲ ਮਿਲੀ ਹੈ ਤਾਂ ਕੋਈ ਵੀ ਕਾਰਵਾਈ ਕਰਨ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ।"
-
-#: templates/reset.txt:3
-msgid "Reset password now:"
-msgstr "ਪਾਸਵਰਡ ਹੁਣੇ ਮੁੜ-ਸੈਟ ਕਰੋ:"
-
-#: templates/unlock.html:2 templates/unlock.txt:1
-msgid ""
-"For security reasons your Firefox Account was put on lockdown. To perform "
-"account-level activities, please click the link to re-verify your account "
-"now."
-msgstr ""
-"ਸੁਰੱਖਿਆ ਕਾਰਨ ਦੇ ਕਰਕੇ ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਲਾਕ ਕੀਤਾ ਗਿਆ ਸੀ। ਖਾਤਾ-ਪੱਧਰੀ ਕਾਰਵਾਈ ਕਰਨ "
-"ਲਈ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਮੁੜ-ਤਸਦੀਕ ਕਰਨ ਲਈ ਲਿੰਕ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।"
-
-#: templates/unlock.html:3
-msgid "Verify account"
-msgstr "ਖਾਤਾ ਤਸਦੀਕ ਕਰੋ"
-
-#: templates/unlock.txt:2
-msgid "Verify account:"
-msgstr "ਖਾਤਾ ਤਸਦੀਕ ਕਰੋ:"
-
-#: templates/verify.html:1
-msgid "Firefox Account Activation"
-msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਸਰਗਰਮ"
-
-#: templates/verify.html:2 templates/verify.txt:1
-msgid "Welcome!"
-msgstr "ਜੀ ਆਇਆਂ ਨੂੰ!"
-
-#: templates/verify.html:3 templates/verify.txt:2
-msgid "Please activate your account by confirming this email address."
-msgstr "ਇਹ ਈਮੇਲ ਸਿਰਨਾਵੇਂ ਦੀ ਤਸਦੀਕ ਕਰਕੇ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਸਰਗਰਮ ਕਰੋ।"
-
-#: templates/verify.html:4
-msgid "Activate now"
-msgstr "ਹੁਣੇ ਸਰਗਰਮ ਕਰੋ"
-
-#: templates/verify.html:5
-msgid "Alternatively:"
-msgstr "ਬਦਲਵਾਂ:"
-
-#: templates/verify.html:7
-msgid ""
-"For more information, please visit <a href='https://support.mozilla.org' "
-"style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
-msgstr ""
-
-#: templates/verify.html:8
-msgid "Verify Email"
-msgstr "ਈਮੇਸ ਤਸਦੀਕ ਕਰੋ"
-
-#: templates/verify.html:9
-msgid "Verify your email to finish your Firefox Account registration"
-msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਰਜਿਸਟਰੇਸ਼ਨ ਨੂੰ ਸਰਗਰਮ ਕਰਨ ਲਈ ਆਪਣੀ ਈਮੇਲ ਦੀ ਤਸਦੀਕ ਕਰੋ"
-
-#: templates/verify.txt:3
-msgid "Activate now:"
-msgstr "ਹੁਣੇ ਸਰਗਰਮ ਕਰੋ:"
-
-#: mailer.js:115
-msgid "Verify your Firefox Account"
-msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰੋ"
-
-#: mailer.js:145
-msgid "Reset your Firefox Account password"
-msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈਟ ਕਰੋ"
-
-#: mailer.js:176
-msgid "Re-verify your Firefox Account"
-msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਮੁੜ-ਤਸਦੀਕ ਕਰੋ"
-
-#: mailer.js:199
-msgid "Your Firefox Account password has been changed"
-msgstr "ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਪਾਸਵਰਡ ਨੂੰ ਬਦਲਿਆ ਗਿਆ"
-
-#: mailer.js:218
-msgid "Your Firefox Account password has been reset"
-msgstr "ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸਾ ਖਾਤਾ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈਟ ਕੀਤਾ ਗਿਆ"
-
-#: mailer.js:240
-msgid "A new device is now syncing to your Firefox Account"
-msgstr "ਨਵਾਂ ਡਿਵਾਇਸ ਹੁਣ ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨਾਲ ਸਿੰਕ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
@@ -256,6 +74,8 @@ msgstr ""
 "ਰਹੇ ਹਾਂ।"
 
 #: server/templates/pages/src/index.html:2
+#: server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/terms.html:3
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
@@ -270,47 +90,226 @@ msgid "Firefox Accounts requires JavaScript."
 msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਲਈ ਜਾਵਾ-ਸਕ੍ਰਿਪਟ ਦੀ ਲੋੜ ਹੈ।"
 
 #: server/templates/pages/src/privacy.html:2
+#: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
 msgstr "ਪਰਦੇਦਾਰੀ  ਸੂਚਨਾ"
 
+#: server/templates/pages/src/privacy.html:4
+#: server/templates/pages/src/terms.html:4
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
 msgstr "ਫਾਇਰਫਾਕਸ ਕਲਾਉਡ ਸੇਵਾਵਾਂ"
 
 #: server/templates/pages/src/terms.html:2
+#: server/templates/pages/src/terms.html:5
 #: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ"
 
-#~ msgid "Reset password"
-#~ msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ"
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Are you sure?"
+msgstr "ਕੀ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#~ msgid "Reset password:"
-#~ msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ:"
+#: templates/reset.html:3 templates/reset.txt:2
+msgid "Please confirm that you'd like to reset the password for %(email)s."
+msgstr "ਪੁਸ਼ਟੀ ਕਰੋ ਜੀ ਕਿ ਤੁਸੀਂ %(email)s ਲਈ ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ।"
 
-#~ msgid "Almost there"
-#~ msgstr "ਲਗਭਗ ਹੋ ਗਿਆ"
+#: templates/reset.html:4
+msgid "Reset password"
+msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ"
 
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
-#~ msgstr "%(email)s, ਤੁਸੀਂ ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਦੀ ਜਾਂਚ ਤੋਂ ਇੱਕ ਕਲਿੱਕ ਦੂਰ ਹੋ।"
+#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
+#: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"ਇਹ ਆਟੋਮੈਟਿਕ ਈਮੇਲ ਹੈ, ਜੇ ਤੁਹਾਨੂੰ ਇਹ ਗਲਤੀ ਨਾਲ ਮਿਲੀ ਹੈ ਤਾਂ ਕੋਈ ਵੀ ਕਾਰਵਾਈ ਕਰਨ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ।"
 
-#~ msgid "Verify"
-#~ msgstr "ਪੁਸ਼ਟੀ"
+#: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
+#: templates/new_sync_device.html:5 templates/password_changed.html:5
+#: templates/password_reset.html:5
+msgid ""
+"For more information, please visit <a href='https://support.mozilla."
+"org'>Mozilla Support</a>"
+msgstr ""
+"ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ <a href='https://support.mozilla.org'>Mozilla Support</a> ਵੇਖੋ ਜੀ"
 
-#~ msgid "Verify:"
-#~ msgstr "ਪੁਸ਼ਟੀ:"
+#: templates/reset.txt:3
+msgid "Reset password:"
+msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ:"
 
-#~ msgid "Verify your account"
-#~ msgstr "ਤੁਹਾਡੇ ਖਾਤੇ ਦੀ ਜਾਂਚ ਕਰੋ"
+#: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
+#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
+#: templates/password_reset.txt:4
+msgid "For more information, please visit https://support.mozilla.org"
+msgstr "ਹੋਰ ਜਿਆਦਾ ਜਾਣਕਾਰੀ ਲਈ, ਵੇਖੋ ਜੀ https://support.mozilla.org"
 
-#~ msgid "Reset your password"
-#~ msgstr "ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ"
+#: templates/unlock.html:2 templates/unlock.txt:1
+msgid ""
+"For security reasons your Firefox Account was put on lockdown. To perform "
+"account-level activities, please click the link to re-verify your account "
+"now."
+msgstr ""
+"ਸੁਰੱਖਿਆ ਕਾਰਨ ਦੇ ਕਰਕੇ ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਲਾਕ ਕੀਤਾ ਗਿਆ ਸੀ। ਖਾਤਾ-ਪੱਧਰੀ ਕਾਰਵਾਈ ਕਰਨ "
+"ਲਈ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਮੁੜ-ਤਸਦੀਕ ਕਰਨ ਲਈ ਲਿੰਕ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।"
 
-#~ msgid "Re-verify your account"
-#~ msgstr "ਤੁਹਾਡੇ ਖਾਤੇ ਦੀ ਜਾਂਚ ਕਰੋ"
+#: templates/unlock.html:3
+msgid "Verify account"
+msgstr "ਖਾਤਾ ਤਸਦੀਕ ਕਰੋ"
+
+#: templates/unlock.txt:2
+msgid "Verify account:"
+msgstr "ਖਾਤਾ ਤਸਦੀਕ ਕਰੋ:"
+
+#: templates/verify.html:2 templates/verify.txt:1
+msgid "Almost there"
+msgstr "ਲਗਭਗ ਹੋ ਗਿਆ"
+
+#: templates/verify.html:3 templates/verify.txt:2
+msgid "%(email)s, you're one click away from verifying your Firefox Account."
+msgstr "%(email)s, ਤੁਸੀਂ ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਦੀ ਜਾਂਚ ਤੋਂ ਇੱਕ ਕਲਿੱਕ ਦੂਰ ਹੋ।"
+
+#: templates/verify.html:4
+msgid "Verify"
+msgstr "ਪੁਸ਼ਟੀ"
+
+#: templates/verify.txt:3
+msgid "Verify:"
+msgstr "ਪੁਸ਼ਟੀ:"
+
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "ਤੁਹਾਡੇ ਖਾਤੇ ਦੀ ਜਾਂਚ ਕਰੋ"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr "ਤੁਹਾਡੇ ਖਾਤੇ ਦੀ ਜਾਂਚ ਕਰੋ"
+
+#: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
+msgid "Account activity notice"
+msgstr "ਖਾਤਾ ਸਰਗਰਮੀ ਸੂਚਨਾ"
+
+#: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
+msgid ""
+"A new device is now syncing with all of the devices connected to your "
+"Firefox Account."
+msgstr ""
+
+#: templates/new_sync_device.html:4
+msgid ""
+"This is an automated email; if you didn't add a new device to your Firefox "
+"Account, you should change your password immediately at <a href='%(resetLink)"
+"s'>%(resetLink)s</a>."
+msgstr ""
+
+#: templates/new_sync_device.txt:3
+msgid ""
+"This is an automated email; if you didn't add a new device to your Firefox "
+"Account, you should change your password immediately at %(resetLink)s."
+msgstr ""
+
+#: templates/password_changed.html:2 templates/password_changed.txt:1
+msgid "Password changed successfully"
+msgstr "ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ"
+
+#: templates/password_changed.html:3 templates/password_changed.txt:2
+msgid "Your Firefox Account password has been successfully changed."
+msgstr "ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ ਗਿਆ ਹੈ।"
+
+#: templates/password_changed.html:4
+msgid ""
+"This is an automated email; if you didn't change the password to your "
+"Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
+"%(resetLink)s</a>."
+msgstr ""
+
+#: templates/password_changed.txt:3
+msgid ""
+"This is an automated email; if you didn’t change the password to your "
+"Firefox Account, you should reset it immediately at %(resetLink)s."
+msgstr ""
+
+#: templates/password_reset.html:2 templates/password_reset.txt:1
+msgid "Password reset successfully"
+msgstr "ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਮੁੜ-ਸੈਟ ਕੀਤਾ ਗਿਆ"
+
+#: templates/password_reset.html:3 templates/password_reset.txt:2
+msgid "Your Firefox Account password has been successfully reset."
+msgstr "ਤੁਹਾਡਾ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਕਾਮਯਾਬੀ ਨਾਲ ਮੁੜ-ਸੈਟ ਹੋ ਗਿਆ ਹੈ।"
+
+#: templates/password_reset.html:4
+msgid ""
+"This is an automated email; if you didn't reset the password to your Firefox "
+"Account, you should reset it immediately at <a href='%(resetLink)s'>"
+"%(resetLink)s</a>."
+msgstr ""
+
+#: templates/password_reset.txt:3
+msgid ""
+"This is an automated email; if you didn’t reset the password to your Firefox "
+"Account, you should reset it immediately at %(resetLink)s."
+msgstr ""
+
+#: mailer.js:82
+msgid "Verify your Firefox Account"
+msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰੋ"
+
+#: mailer.js:121
+msgid "Reset your Firefox Account password"
+msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈਟ ਕਰੋ"
+
+#: mailer.js:155
+msgid "Re-verify your Firefox Account"
+msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਮੁੜ-ਤਸਦੀਕ ਕਰੋ"
+
+#: mailer.js:185
+msgid "Your Firefox Account password has been changed"
+msgstr "ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਪਾਸਵਰਡ ਨੂੰ ਬਦਲਿਆ ਗਿਆ"
+
+#: mailer.js:212
+msgid "Your Firefox Account password has been reset"
+msgstr "ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸਾ ਖਾਤਾ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈਟ ਕੀਤਾ ਗਿਆ"
+
+#: mailer.js:239
+msgid "A new device is now syncing to your Firefox Account"
+msgstr "ਨਵਾਂ ਡਿਵਾਇਸ ਹੁਣ ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨਾਲ ਸਿੰਕ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
+
+#~ msgid "Reset password now"
+#~ msgstr "ਪਾਸਵਰਡ ਹੁਣੇ ਮੁੜ-ਸੈਟ ਕਰੋ"
+
+#~ msgid "Reset password now:"
+#~ msgstr "ਪਾਸਵਰਡ ਹੁਣੇ ਮੁੜ-ਸੈਟ ਕਰੋ:"
+
+#~ msgid "Firefox Account Activation"
+#~ msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਸਰਗਰਮ"
+
+#~ msgid "Welcome!"
+#~ msgstr "ਜੀ ਆਇਆਂ ਨੂੰ!"
+
+#~ msgid "Please activate your account by confirming this email address."
+#~ msgstr "ਇਹ ਈਮੇਲ ਸਿਰਨਾਵੇਂ ਦੀ ਤਸਦੀਕ ਕਰਕੇ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਸਰਗਰਮ ਕਰੋ।"
+
+#~ msgid "Activate now"
+#~ msgstr "ਹੁਣੇ ਸਰਗਰਮ ਕਰੋ"
+
+#~ msgid "Alternatively:"
+#~ msgstr "ਬਦਲਵਾਂ:"
+
+#~ msgid "Verify Email"
+#~ msgstr "ਈਮੇਸ ਤਸਦੀਕ ਕਰੋ"
+
+#~ msgid "Verify your email to finish your Firefox Account registration"
+#~ msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਰਜਿਸਟਰੇਸ਼ਨ ਨੂੰ ਸਰਗਰਮ ਕਰਨ ਲਈ ਆਪਣੀ ਈਮੇਲ ਦੀ ਤਸਦੀਕ ਕਰੋ"
+
+#~ msgid "Activate now:"
+#~ msgstr "ਹੁਣੇ ਸਰਗਰਮ ਕਰੋ:"
 
 #~ msgid "Congratulations!"
 #~ msgstr "ਵਧਾਈਆਂ ਜੀ!"

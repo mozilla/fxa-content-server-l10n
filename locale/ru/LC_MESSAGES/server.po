@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-21 22:38+0000\n"
+"POT-Creation-Date: 2015-08-05 21:25+0000\n"
 "PO-Revision-Date: 2015-07-11 13:54+0000\n"
 "Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
@@ -15,16 +15,189 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1436622854.0\n"
 
-#: templates/new_sync_device.html:1 templates/password_changed.html:1
-#: templates/password_reset.html:1 templates/reset.html:1
-#: templates/unlock.html:1 server/templates/pages/src/400.html:1
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
-#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
+#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
+#: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/terms.html:1 templates/reset.html:1
+#: templates/unlock.html:1 templates/verify.html:1
+#: templates/new_sync_device.html:1 templates/password_changed.html:1
+#: templates/password_reset.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Аккаунты"
+
+#: server/templates/pages/src/400.html:2
+msgid "Bad Request"
+msgstr "Ошибочный запрос"
+
+#: server/templates/pages/src/404.html:2
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+#: server/templates/pages/src/404.html:3
+msgid ""
+"The page you requested is not found. We've been notified and will fix any "
+"links that may be broken."
+msgstr ""
+"Запрошенная вами страница не найдена. Мы уведомлены об этом и исправим все "
+"ссылки, которые могут сломаны."
+
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+msgid "Home"
+msgstr "Домой"
+
+#: server/templates/pages/src/500.html:2
+msgid "500 Error"
+msgstr "Ошибка 500"
+
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+msgid ""
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
+msgstr ""
+"О Боже мой, что-то там пошло не так. Мы уведомлены об этом и начнём работу "
+"над исправлением."
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr "Ошибка 502"
+
+#: server/templates/pages/src/503.html:2
+msgid "Server busy, try again soon"
+msgstr "Сервер занят, подождите и повторите попытку"
+
+#: server/templates/pages/src/503.html:3
+msgid ""
+"We are currently under heavy strain and are working to return the system to "
+"normal as soon as possible."
+msgstr ""
+"В настоящее время мы испытываем сильную нагрузку, и работаем над тем, чтобы "
+"как можно скорее вернуть систему в нормальное состояние."
+
+#: server/templates/pages/src/index.html:2
+#: server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/terms.html:3
+#: server/templates/pages/src/privacy.html:5
+#: server/templates/pages/src/terms.html:5
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+"Вы используете <strong>устаревший</strong> браузер. Пожалуйста, <a href="
+"\"http://browsehappy.com/\">обновите ваш браузер</a>, чтобы улучшить свою "
+"работу."
+
+#: server/templates/pages/src/index.html:3
+msgid "Firefox Accounts requires JavaScript."
+msgstr "Для Firefox Аккаунтов необходим JavaScript."
+
+#: server/templates/pages/src/privacy.html:2
+#: server/templates/pages/src/privacy.html:5
+#: server/templates/pages/src/privacy.html:4
+msgid "Privacy Notice"
+msgstr "Уведомление о приватности"
+
+#: server/templates/pages/src/privacy.html:4
+#: server/templates/pages/src/terms.html:4
+#: server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/terms.html:3
+msgid "Firefox cloud services"
+msgstr "Облачные службы Firefox"
+
+#: server/templates/pages/src/terms.html:2
+#: server/templates/pages/src/terms.html:5
+#: server/templates/pages/src/terms.html:4
+msgid "Terms of Service"
+msgstr "Условия службы"
+
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+#: templates/reset.html:3 templates/reset.txt:2
+msgid "Please confirm that you'd like to reset the password for %(email)s."
+msgstr "Подтвердите, что вы хотите восстановить пароль для %(email)s."
+
+#: templates/reset.html:4
+msgid "Reset password"
+msgstr "Восстановить пароль"
+
+#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
+#: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"Это автоматическое сообщение; если вы получили его по ошибке, не требуется "
+"никаких действий."
+
+#: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
+#: templates/new_sync_device.html:5 templates/password_changed.html:5
+#: templates/password_reset.html:5
+msgid ""
+"For more information, please visit <a href='https://support.mozilla."
+"org'>Mozilla Support</a>"
+msgstr ""
+"Для получения большей информации, посетите <a href='https://support.mozilla."
+"org'>Сайт поддержки Mozilla</a>"
+
+#: templates/reset.txt:3
+msgid "Reset password:"
+msgstr "Восстановить пароль:"
+
+#: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
+#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
+#: templates/password_reset.txt:4
+msgid "For more information, please visit https://support.mozilla.org"
+msgstr "Для получения большей информации, посетите https://support.mozilla.org"
+
+#: templates/unlock.html:2 templates/unlock.txt:1
+msgid ""
+"For security reasons your Firefox Account was put on lockdown. To perform "
+"account-level activities, please click the link to re-verify your account "
+"now."
+msgstr ""
+"По соображениям безопасности ваш Аккаунт Firefox был поставлен на "
+"блокировку. Для выполнения действий на уровне аккаунта, пожалуйста, щёлкните "
+"по ссылке, чтобы вновь подтвердить свой аккаунт."
+
+#: templates/unlock.html:3
+msgid "Verify account"
+msgstr "Подтвердить аккаунт"
+
+#: templates/unlock.txt:2
+msgid "Verify account:"
+msgstr "Подтвердить аккаунт:"
+
+#: templates/verify.html:2 templates/verify.txt:1
+msgid "Almost there"
+msgstr "Почти закончили"
+
+#: templates/verify.html:3 templates/verify.txt:2
+msgid "%(email)s, you're one click away from verifying your Firefox Account."
+msgstr "%(email)s, вы в одном шаге от подтверждения вашего Firefox Аккаунта."
+
+#: templates/verify.html:4
+msgid "Verify"
+msgstr "Подтвердите"
+
+#: templates/verify.txt:3
+msgid "Verify:"
+msgstr "Подтвердите:"
+
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "Подтвердить ваш аккаунт"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "Восстановить ваш пароль"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr "Повторите подтверждение вашего аккаунта"
 
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
 msgid "Account activity notice"
@@ -41,22 +214,12 @@ msgstr ""
 #: templates/new_sync_device.html:4
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
-"Account, you should change your password immediately at <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
+"Account, you should change your password immediately at <a href='%(resetLink)"
+"s'>%(resetLink)s</a>."
 msgstr ""
 "Это автоматическое сообщение; если вы не добавляли новое устройство в ваш "
 "Аккаунт Firefox, вы должны немедленно сменить свой пароль через <a "
 "href='%(resetLink)s'>%(resetLink)s</a>."
-
-#: templates/new_sync_device.html:5 templates/password_changed.html:5
-#: templates/password_reset.html:5 templates/reset.html:6
-#: templates/unlock.html:5
-msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
-msgstr ""
-"Для получения большей информации, посетите <a href='https://support.mozilla."
-"org'>Сайт поддержки Mozilla</a>"
 
 #: templates/new_sync_device.txt:3
 msgid ""
@@ -64,14 +227,8 @@ msgid ""
 "Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
 "Это автоматическое сообщение; если вы не добавляли новое устройство в ваш "
-"Аккаунт Firefox, вы должны немедленно сменить свой пароль через "
-"%(resetLink)s."
-
-#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
-#: templates/password_reset.txt:4 templates/reset.txt:5 templates/unlock.txt:4
-#: templates/verify.txt:5
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr "Для получения большей информации, посетите https://support.mozilla.org"
+"Аккаунт Firefox, вы должны немедленно сменить свой пароль через %(resetLink)"
+"s."
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
@@ -125,218 +282,29 @@ msgstr ""
 "Это автоматическое сообщение; если вы не восстанавливали пароль на ваш "
 "Аккаунт Firefox, вы должны немедленно восстановить его через %(resetLink)s."
 
-#: templates/reset.html:2 templates/reset.txt:1
-msgid "Are you sure?"
-msgstr "Вы уверены?"
-
-#: templates/reset.html:3 templates/reset.txt:2
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Подтвердите, что вы хотите восстановить пароль для %(email)s."
-
-#: templates/reset.html:4
-msgid "Reset password now"
-msgstr ""
-
-#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
-#: templates/unlock.txt:3 templates/verify.html:6 templates/verify.txt:4
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"Это автоматическое сообщение; если вы получили его по ошибке, не требуется "
-"никаких действий."
-
-#: templates/reset.txt:3
-msgid "Reset password now:"
-msgstr ""
-
-#: templates/unlock.html:2 templates/unlock.txt:1
-msgid ""
-"For security reasons your Firefox Account was put on lockdown. To perform "
-"account-level activities, please click the link to re-verify your account "
-"now."
-msgstr ""
-"По соображениям безопасности ваш Аккаунт Firefox был поставлен на "
-"блокировку. Для выполнения действий на уровне аккаунта, пожалуйста, щёлкните "
-"по ссылке, чтобы вновь подтвердить свой аккаунт."
-
-#: templates/unlock.html:3
-msgid "Verify account"
-msgstr "Подтвердить аккаунт"
-
-#: templates/unlock.txt:2
-msgid "Verify account:"
-msgstr "Подтвердить аккаунт:"
-
-#: templates/verify.html:1
-msgid "Firefox Account Activation"
-msgstr ""
-
-#: templates/verify.html:2 templates/verify.txt:1
-msgid "Welcome!"
-msgstr ""
-
-#: templates/verify.html:3 templates/verify.txt:2
-msgid "Please activate your account by confirming this email address."
-msgstr ""
-
-#: templates/verify.html:4
-msgid "Activate now"
-msgstr ""
-
-#: templates/verify.html:5
-msgid "Alternatively:"
-msgstr ""
-
-#: templates/verify.html:7
-msgid ""
-"For more information, please visit <a href='https://support.mozilla.org' "
-"style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
-msgstr ""
-
-#: templates/verify.html:8
-msgid "Verify Email"
-msgstr ""
-
-#: templates/verify.html:9
-msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
-
-#: templates/verify.txt:3
-msgid "Activate now:"
-msgstr ""
-
-#: mailer.js:115
+#: mailer.js:82
 msgid "Verify your Firefox Account"
 msgstr "Подтвердить ваш Аккаунт Firefox"
 
-#: mailer.js:145
+#: mailer.js:121
 msgid "Reset your Firefox Account password"
 msgstr "Восстановить пароль вашего Аккаунта Firefox"
 
-#: mailer.js:176
+#: mailer.js:155
 msgid "Re-verify your Firefox Account"
 msgstr "Повторно подтвердить ваш Аккаунт Firefox"
 
-#: mailer.js:199
+#: mailer.js:185
 msgid "Your Firefox Account password has been changed"
 msgstr "Пароль вашего Аккаунта Firefox был изменён"
 
-#: mailer.js:218
+#: mailer.js:212
 msgid "Your Firefox Account password has been reset"
 msgstr "Пароль вашего Аккаунта Firefox был восстановлен"
 
-#: mailer.js:240
+#: mailer.js:239
 msgid "A new device is now syncing to your Firefox Account"
 msgstr "С вашим Аккаунтом Firefox сейчас синхронизируется новое устройство"
-
-#: server/templates/pages/src/400.html:2
-msgid "Bad Request"
-msgstr "Ошибочный запрос"
-
-#: server/templates/pages/src/404.html:2
-msgid "Page not found"
-msgstr "Страница не найдена"
-
-#: server/templates/pages/src/404.html:3
-msgid ""
-"The page you requested is not found. We've been notified and will fix any "
-"links that may be broken."
-msgstr ""
-"Запрошенная вами страница не найдена. Мы уведомлены об этом и исправим все "
-"ссылки, которые могут сломаны."
-
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
-msgid "Home"
-msgstr "Домой"
-
-#: server/templates/pages/src/500.html:2
-msgid "500 Error"
-msgstr "Ошибка 500"
-
-#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
-msgid ""
-"Oh dear, something went wrong there. We've been notified and will get "
-"working on a fix."
-msgstr ""
-"О Боже мой, что-то там пошло не так. Мы уведомлены об этом и начнём работу "
-"над исправлением."
-
-#: server/templates/pages/src/502.html:2
-msgid "502 Error"
-msgstr "Ошибка 502"
-
-#: server/templates/pages/src/503.html:2
-msgid "Server busy, try again soon"
-msgstr "Сервер занят, подождите и повторите попытку"
-
-#: server/templates/pages/src/503.html:3
-msgid ""
-"We are currently under heavy strain and are working to return the system to "
-"normal as soon as possible."
-msgstr ""
-"В настоящее время мы испытываем сильную нагрузку, и работаем над тем, чтобы "
-"как можно скорее вернуть систему в нормальное состояние."
-
-#: server/templates/pages/src/index.html:2
-#: server/templates/pages/src/privacy.html:5
-#: server/templates/pages/src/terms.html:5
-msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr ""
-"Вы используете <strong>устаревший</strong> браузер. Пожалуйста, <a href="
-"\"http://browsehappy.com/\">обновите ваш браузер</a>, чтобы улучшить свою "
-"работу."
-
-#: server/templates/pages/src/index.html:3
-msgid "Firefox Accounts requires JavaScript."
-msgstr "Для Firefox Аккаунтов необходим JavaScript."
-
-#: server/templates/pages/src/privacy.html:2
-#: server/templates/pages/src/privacy.html:4
-msgid "Privacy Notice"
-msgstr "Уведомление о приватности"
-
-#: server/templates/pages/src/privacy.html:3
-#: server/templates/pages/src/terms.html:3
-msgid "Firefox cloud services"
-msgstr "Облачные службы Firefox"
-
-#: server/templates/pages/src/terms.html:2
-#: server/templates/pages/src/terms.html:4
-msgid "Terms of Service"
-msgstr "Условия службы"
-
-#~ msgid "Reset password"
-#~ msgstr "Восстановить пароль"
-
-#~ msgid "Reset password:"
-#~ msgstr "Восстановить пароль:"
-
-#~ msgid "Almost there"
-#~ msgstr "Почти закончили"
-
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
-#~ msgstr ""
-#~ "%(email)s, вы в одном шаге от подтверждения вашего Firefox Аккаунта."
-
-#~ msgid "Verify"
-#~ msgstr "Подтвердите"
-
-#~ msgid "Verify:"
-#~ msgstr "Подтвердите:"
-
-#~ msgid "Verify your account"
-#~ msgstr "Подтвердить ваш аккаунт"
-
-#~ msgid "Reset your password"
-#~ msgstr "Восстановить ваш пароль"
-
-#~ msgid "Re-verify your account"
-#~ msgstr "Повторите подтверждение вашего аккаунта"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Поздравляем!"
