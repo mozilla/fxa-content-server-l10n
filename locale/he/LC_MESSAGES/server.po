@@ -1,17 +1,18 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-21 22:38+0000\n"
-"PO-Revision-Date: 2014-03-13 13:05+0000\n"
-"Last-Translator: Tomer <tomer@gmx.net>\n"
+"PO-Revision-Date: 2014-03-13 13:05:09\n"
+"Last-Translator: Tomer Cohen <tomer.mozilla@tomercohen.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1394715909.0\n"
 
 #: templates/new_sync_device.html:1 templates/password_changed.html:1
@@ -46,8 +47,8 @@ msgstr ""
 #: templates/password_reset.html:5 templates/reset.html:6
 #: templates/unlock.html:5
 msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
+"For more information, please visit <a "
+"href='https://support.mozilla.org'>Mozilla Support</a>"
 msgstr ""
 
 #: templates/new_sync_device.txt:3
@@ -73,8 +74,8 @@ msgstr ""
 #: templates/password_changed.html:4
 msgid ""
 "This is an automated email; if you didn't change the password to your "
-"Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
-"%(resetLink)s</a>."
+"Firefox Account, you should reset it immediately at <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
 msgstr ""
 
 #: templates/password_changed.txt:3
@@ -93,15 +94,15 @@ msgstr ""
 
 #: templates/password_reset.html:4
 msgid ""
-"This is an automated email; if you didn't reset the password to your Firefox "
-"Account, you should reset it immediately at <a href='%(resetLink)s'>"
-"%(resetLink)s</a>."
+"This is an automated email; if you didn't reset the password to your Firefox"
+" Account, you should reset it immediately at <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
 msgstr ""
 
 #: templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox"
+" Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 
 #: templates/reset.html:2 templates/reset.txt:1
@@ -254,8 +255,9 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+"You are using an <strong>outdated</strong> browser. Please <a "
+"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+"experience."
 msgstr ""
 
 #: server/templates/pages/src/index.html:3
@@ -284,12 +286,10 @@ msgstr ""
 #~ msgid "Reset password:"
 #~ msgstr "איפוס ססמה:"
 
-#, fuzzy
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
 #~ msgstr ""
-#~ "ברכותינו! %(email)s, הנך במרחק של שניות ספורות מאימות החשבון שלך ב־"
-#~ "Firefox Account."
+#~ "ברכותינו! %(email)s, הנך במרחק של שניות ספורות מאימות החשבון שלך ב־Firefox "
+#~ "Account."
 
 #~ msgid "Verify"
 #~ msgstr "אימות"
@@ -297,11 +297,9 @@ msgstr ""
 #~ msgid "Verify:"
 #~ msgstr "אימות:"
 
-#, fuzzy
 #~ msgid "Verify your account"
 #~ msgstr "אימות החשבון שלך"
 
-#, fuzzy
 #~ msgid "Reset your password"
 #~ msgstr "איפוס ססמה"
 
