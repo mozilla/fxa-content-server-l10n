@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-05 21:25+0000\n"
-"PO-Revision-Date: 2015-07-31 14:13:05.942743\n"
+"PO-Revision-Date: 2015-08-05 15:35:41.418855\n"
 "Last-Translator: Ian Neal <iann_bugzilla@blueyonder.co.uk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en_GB\n"
@@ -122,7 +122,7 @@ msgstr "Please confirm that you'd like to reset the password for %(email)s."
 
 #: templates/reset.html:4
 msgid "Reset password"
-msgstr ""
+msgstr "Reset password"
 
 #: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
 #: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
@@ -145,7 +145,7 @@ msgstr ""
 
 #: templates/reset.txt:3
 msgid "Reset password:"
-msgstr ""
+msgstr "Reset password:"
 
 #: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
 #: templates/new_sync_device.txt:4 templates/password_changed.txt:4
@@ -173,31 +173,31 @@ msgstr "Verify account:"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Almost there"
-msgstr ""
+msgstr "Almost there"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr ""
+msgstr "%(email)s, you're one click away from verifying your Firefox Account."
 
 #: templates/verify.html:4
 msgid "Verify"
-msgstr ""
+msgstr "Verify"
 
 #: templates/verify.txt:3
 msgid "Verify:"
-msgstr ""
+msgstr "Verify:"
 
 #: mailer.js:73
 msgid "Verify your account"
-msgstr ""
+msgstr "Verify your account"
 
 #: mailer.js:112
 msgid "Reset your password"
-msgstr ""
+msgstr "Reset your password"
 
 #: mailer.js:146
 msgid "Re-verify your account"
-msgstr ""
+msgstr "Re-verify your account"
 
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
 msgid "Account activity notice"

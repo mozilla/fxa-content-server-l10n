@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-05 21:25+0000\n"
-"PO-Revision-Date: 2015-08-03 14:56:53.908502\n"
+"PO-Revision-Date: 2015-08-05 15:35:02.383290\n"
 "Last-Translator: Ian Neal <iann_bugzilla@blueyonder.co.uk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en_GB\n"
@@ -332,11 +332,11 @@ msgstr "The image dimensions must be at least 100x100px"
 
 #: app/scripts/lib/auth-errors.js:223
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "Signup is coming soon to Firefox for iOS"
 
 #: app/scripts/lib/auth-errors.js:227
 msgid "Signup has been disabled"
-msgstr ""
+msgstr "Signup has been disabled"
 
 #: app/scripts/lib/mailcheck.js:57
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -420,27 +420,27 @@ msgstr "Name"
 
 #: app/scripts/lib/strings.js:27
 msgid "Bookmarks"
-msgstr ""
+msgstr "Bookmarks"
 
 #: app/scripts/lib/strings.js:28
 msgid "History"
-msgstr ""
+msgstr "History"
 
 #: app/scripts/lib/strings.js:29
 msgid "Tabs"
-msgstr ""
+msgstr "Tabs"
 
 #: app/scripts/lib/strings.js:30
 msgid "Passwords"
-msgstr ""
+msgstr "Passwords"
 
 #: app/scripts/lib/strings.js:31
 msgid "Desktop Add-ons"
-msgstr ""
+msgstr "Desktop Add-ons"
 
 #: app/scripts/lib/strings.js:32
 msgid "Desktop Preferences"
-msgstr ""
+msgstr "Desktop Preferences"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -849,7 +849,7 @@ msgstr "Continue to %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr ""
+msgstr "Migrate your Sync data by signing in to your Firefox&nbsp;Account."
 
 #: app/scripts/templates/sign_in.mustache:13
 #: app/scripts/templates/sign_in.mustache:16
@@ -867,7 +867,7 @@ msgstr "Create a Firefox Account"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr ""
+msgstr "Migrate your Sync data by creating a new Firefox&nbsp;Account."
 
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/communication_preferences.mustache:4
