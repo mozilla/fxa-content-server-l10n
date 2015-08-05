@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-21 22:38+0000\n"
+"POT-Creation-Date: 2015-08-05 21:25+0000\n"
 "PO-Revision-Date: 2015-07-28 05:07:45\n"
 "Last-Translator: Vanja Tumbas <tumbas93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,224 +11,22 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1438060065.0\n"
 
-#: templates/new_sync_device.html:1 templates/password_changed.html:1
-#: templates/password_reset.html:1 templates/reset.html:1
-#: templates/unlock.html:1 server/templates/pages/src/400.html:1
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
-#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
+#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
+#: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/terms.html:1 templates/reset.html:1
+#: templates/unlock.html:1 templates/verify.html:1
+#: templates/new_sync_device.html:1 templates/password_changed.html:1
+#: templates/password_reset.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox налози"
-
-#: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
-msgid "Account activity notice"
-msgstr "Обавештење о активности налога"
-
-#: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
-msgid ""
-"A new device is now syncing with all of the devices connected to your "
-"Firefox Account."
-msgstr ""
-"Нови уређај се сада синхронизује са свим уређајима који су повезани на "
-"Firefox налог."
-
-#: templates/new_sync_device.html:4
-msgid ""
-"This is an automated email; if you didn't add a new device to your Firefox "
-"Account, you should change your password immediately at <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
-msgstr ""
-"Ово је аутоматска порука; ако нисте додали нови уређај на Ваш Firefox налог,"
-" треба одмах да промените лозинку на <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
-
-#: templates/new_sync_device.html:5 templates/password_changed.html:5
-#: templates/password_reset.html:5 templates/reset.html:6
-#: templates/unlock.html:5
-msgid ""
-"For more information, please visit <a "
-"href='https://support.mozilla.org'>Mozilla Support</a>"
-msgstr ""
-"За више информација, молимо Вас посетите <a "
-"href='https://support.mozilla.org'>Mozilla подршку</a>"
-
-#: templates/new_sync_device.txt:3
-msgid ""
-"This is an automated email; if you didn't add a new device to your Firefox "
-"Account, you should change your password immediately at %(resetLink)s."
-msgstr ""
-"Ово је аутоматска порука; ако нисте додали нови уређај на Ваш Firefox налог,"
-" треба одмах да промените лозинку на %(resetLink)s."
-
-#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
-#: templates/password_reset.txt:4 templates/reset.txt:5 templates/unlock.txt:4
-#: templates/verify.txt:5
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr "За више информација, молимо Вас посетите https://support.mozilla.org"
-
-#: templates/password_changed.html:2 templates/password_changed.txt:1
-msgid "Password changed successfully"
-msgstr "Промена лозинке је успешна"
-
-#: templates/password_changed.html:3 templates/password_changed.txt:2
-msgid "Your Firefox Account password has been successfully changed."
-msgstr "Лозинка Firefox налога је успешно промењена."
-
-#: templates/password_changed.html:4
-msgid ""
-"This is an automated email; if you didn't change the password to your "
-"Firefox Account, you should reset it immediately at <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
-msgstr ""
-"Ово је аутоматска порука; ако нисте променили лозинку Вашег Firefox налога, "
-"треба одмах да је ресетујете <a href='%(resetLink)s'>%(resetLink)s</a>."
-
-#: templates/password_changed.txt:3
-msgid ""
-"This is an automated email; if you didn’t change the password to your "
-"Firefox Account, you should reset it immediately at %(resetLink)s."
-msgstr ""
-"Ово је аутоматска порука; ако нисте променили лозинку Вашег Firefox налога, "
-"треба одмах да је ресетујете %(resetLink)s."
-
-#: templates/password_reset.html:2 templates/password_reset.txt:1
-msgid "Password reset successfully"
-msgstr "Успешно ресетовање лозинке"
-
-#: templates/password_reset.html:3 templates/password_reset.txt:2
-msgid "Your Firefox Account password has been successfully reset."
-msgstr "Лозинка Firefox налога је успешно ресетована."
-
-#: templates/password_reset.html:4
-msgid ""
-"This is an automated email; if you didn't reset the password to your Firefox"
-" Account, you should reset it immediately at <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
-msgstr ""
-"Ово је аутоматска порука; ако нисте ресетовали Ваш Firefox налог, треба "
-"одмах да га ресетујете <a href='%(resetLink)s'>%(resetLink)s</a>."
-
-#: templates/password_reset.txt:3
-msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox"
-" Account, you should reset it immediately at %(resetLink)s."
-msgstr ""
-"Ово је аутоматска порука; ако нисте ресетовали Ваш Firefox налог, треба "
-"одмах да га ресетујете %(resetLink)s."
-
-#: templates/reset.html:2 templates/reset.txt:1
-msgid "Are you sure?"
-msgstr "Да ли сте сигурни?"
-
-#: templates/reset.html:3 templates/reset.txt:2
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Молимо Вас потврдите да желите обновити лозинку за %(email)s."
-
-#: templates/reset.html:4
-msgid "Reset password now"
-msgstr "Ресетуј лозинку сада"
-
-#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
-#: templates/unlock.txt:3 templates/verify.html:6 templates/verify.txt:4
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"Ово је аутоматска порука; ако сте је грешком примили, ни једна радња није "
-"потребна."
-
-#: templates/reset.txt:3
-msgid "Reset password now:"
-msgstr "Ресетуј лозинку сада:"
-
-#: templates/unlock.html:2 templates/unlock.txt:1
-msgid ""
-"For security reasons your Firefox Account was put on lockdown. To perform "
-"account-level activities, please click the link to re-verify your account "
-"now."
-msgstr ""
-"Из безбедносних разлога Ваш Firefox налог је закључан. Да бисте обавили "
-"активности са налога, молимо Вас кликните на везу да бисте поново "
-"верификовали Ваш налог."
-
-#: templates/unlock.html:3
-msgid "Verify account"
-msgstr "Верификујте налог"
-
-#: templates/unlock.txt:2
-msgid "Verify account:"
-msgstr "Верификујте налог:"
-
-#: templates/verify.html:1
-msgid "Firefox Account Activation"
-msgstr "Активација Firefox налога"
-
-#: templates/verify.html:2 templates/verify.txt:1
-msgid "Welcome!"
-msgstr "Добродошли!"
-
-#: templates/verify.html:3 templates/verify.txt:2
-msgid "Please activate your account by confirming this email address."
-msgstr ""
-"Молимо активирајте Ваш налог тако што ћете потврдити ову адресу е-поште."
-
-#: templates/verify.html:4
-msgid "Activate now"
-msgstr "Активирај сада"
-
-#: templates/verify.html:5
-msgid "Alternatively:"
-msgstr "Алтернативно:"
-
-#: templates/verify.html:7
-msgid ""
-"For more information, please visit <a href='https://support.mozilla.org' "
-"style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
-msgstr ""
-"За више информација, посетите <a href='https://support.mozilla.org' "
-"style='color: #0095dd; text-decoration: none;'>Mozilla подршку</a>"
-
-#: templates/verify.html:8
-msgid "Verify Email"
-msgstr "Потврди е-пошту"
-
-#: templates/verify.html:9
-msgid "Verify your email to finish your Firefox Account registration"
-msgstr "Потврдите Вашу е-пошту да завршите регистрацију налога"
-
-#: templates/verify.txt:3
-msgid "Activate now:"
-msgstr "Активирај сада:"
-
-#: mailer.js:115
-msgid "Verify your Firefox Account"
-msgstr "Потврдите Ваш Firefox налог"
-
-#: mailer.js:145
-msgid "Reset your Firefox Account password"
-msgstr "Ресетујте лозинку Firefox налога"
-
-#: mailer.js:176
-msgid "Re-verify your Firefox Account"
-msgstr "Поново потврдите Firefox налог"
-
-#: mailer.js:199
-msgid "Your Firefox Account password has been changed"
-msgstr "Лозинка Firefox налога је промењена"
-
-#: mailer.js:218
-msgid "Your Firefox Account password has been reset"
-msgstr "Лозинка Firefox налога је ресетована"
-
-#: mailer.js:240
-msgid "A new device is now syncing to your Firefox Account"
-msgstr "Нови уређај се сада синхронизује са Вашим Firefox налогом"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
@@ -279,62 +77,269 @@ msgstr ""
 "је пре могуће."
 
 #: server/templates/pages/src/index.html:2
+#: server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/terms.html:3
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a "
-"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
-"experience."
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
-"Користите <strong>застарео</strong> прегледач. Молимо Вас <a "
-"href=\"http://browsehappy.com/\">надоградите Ваш прегледач</a> да бисте "
-"побољшали Ваше искуство."
+"Користите <strong>застарео</strong> прегледач. Молимо Вас <a href=\"http://"
+"browsehappy.com/\">надоградите Ваш прегледач</a> да бисте побољшали Ваше "
+"искуство."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Firefox налози захтевају JavaScript."
 
 #: server/templates/pages/src/privacy.html:2
+#: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
 msgstr "Обавештење о приватности"
 
+#: server/templates/pages/src/privacy.html:4
+#: server/templates/pages/src/terms.html:4
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
 msgstr "Firefox cloud сервиси"
 
 #: server/templates/pages/src/terms.html:2
+#: server/templates/pages/src/terms.html:5
 #: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Услови коришћења"
 
-#~ msgid "Reset password"
-#~ msgstr "Ресетуј лозинку"
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Are you sure?"
+msgstr "Да ли сте сигурни?"
 
-#~ msgid "Reset password:"
-#~ msgstr "Ресетуј лозинку:"
+#: templates/reset.html:3 templates/reset.txt:2
+msgid "Please confirm that you'd like to reset the password for %(email)s."
+msgstr "Молимо Вас потврдите да желите обновити лозинку за %(email)s."
 
-#~ msgid "Almost there"
-#~ msgstr "Још мало па сте тамо"
+#: templates/reset.html:4
+msgid "Reset password"
+msgstr "Ресетуј лозинку"
 
-#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
-#~ msgstr "%(email)s, секунде Вас деле од верификације Вашег Firefox налога."
+#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
+#: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"Ово је аутоматска порука; ако сте је грешком примили, ни једна радња није "
+"потребна."
 
-#~ msgid "Verify"
-#~ msgstr "Верификуј"
+#: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
+#: templates/new_sync_device.html:5 templates/password_changed.html:5
+#: templates/password_reset.html:5
+msgid ""
+"For more information, please visit <a href='https://support.mozilla."
+"org'>Mozilla Support</a>"
+msgstr ""
+"За више информација, молимо Вас посетите <a href='https://support.mozilla."
+"org'>Mozilla подршку</a>"
 
-#~ msgid "Verify:"
-#~ msgstr "Верификуј:"
+#: templates/reset.txt:3
+msgid "Reset password:"
+msgstr "Ресетуј лозинку:"
 
-#~ msgid "Verify your account"
-#~ msgstr "Потврдите Ваш налог"
+#: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
+#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
+#: templates/password_reset.txt:4
+msgid "For more information, please visit https://support.mozilla.org"
+msgstr "За више информација, молимо Вас посетите https://support.mozilla.org"
 
-#~ msgid "Reset your password"
-#~ msgstr "Ресетуј лозинку"
+#: templates/unlock.html:2 templates/unlock.txt:1
+msgid ""
+"For security reasons your Firefox Account was put on lockdown. To perform "
+"account-level activities, please click the link to re-verify your account "
+"now."
+msgstr ""
+"Из безбедносних разлога Ваш Firefox налог је закључан. Да бисте обавили "
+"активности са налога, молимо Вас кликните на везу да бисте поново "
+"верификовали Ваш налог."
 
-#~ msgid "Re-verify your account"
-#~ msgstr "Поново верификујте Ваш налог"
+#: templates/unlock.html:3
+msgid "Verify account"
+msgstr "Верификујте налог"
+
+#: templates/unlock.txt:2
+msgid "Verify account:"
+msgstr "Верификујте налог:"
+
+#: templates/verify.html:2 templates/verify.txt:1
+msgid "Almost there"
+msgstr "Још мало па сте тамо"
+
+#: templates/verify.html:3 templates/verify.txt:2
+msgid "%(email)s, you're one click away from verifying your Firefox Account."
+msgstr "%(email)s, секунде Вас деле од верификације Вашег Firefox налога."
+
+#: templates/verify.html:4
+msgid "Verify"
+msgstr "Верификуј"
+
+#: templates/verify.txt:3
+msgid "Verify:"
+msgstr "Верификуј:"
+
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "Потврдите Ваш налог"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "Ресетуј лозинку"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr "Поново верификујте Ваш налог"
+
+#: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
+msgid "Account activity notice"
+msgstr "Обавештење о активности налога"
+
+#: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
+msgid ""
+"A new device is now syncing with all of the devices connected to your "
+"Firefox Account."
+msgstr ""
+"Нови уређај се сада синхронизује са свим уређајима који су повезани на "
+"Firefox налог."
+
+#: templates/new_sync_device.html:4
+msgid ""
+"This is an automated email; if you didn't add a new device to your Firefox "
+"Account, you should change your password immediately at <a href='%(resetLink)"
+"s'>%(resetLink)s</a>."
+msgstr ""
+"Ово је аутоматска порука; ако нисте додали нови уређај на Ваш Firefox налог, "
+"треба одмах да промените лозинку на <a href='%(resetLink)s'>%(resetLink)s</"
+"a>."
+
+#: templates/new_sync_device.txt:3
+msgid ""
+"This is an automated email; if you didn't add a new device to your Firefox "
+"Account, you should change your password immediately at %(resetLink)s."
+msgstr ""
+"Ово је аутоматска порука; ако нисте додали нови уређај на Ваш Firefox налог, "
+"треба одмах да промените лозинку на %(resetLink)s."
+
+#: templates/password_changed.html:2 templates/password_changed.txt:1
+msgid "Password changed successfully"
+msgstr "Промена лозинке је успешна"
+
+#: templates/password_changed.html:3 templates/password_changed.txt:2
+msgid "Your Firefox Account password has been successfully changed."
+msgstr "Лозинка Firefox налога је успешно промењена."
+
+#: templates/password_changed.html:4
+msgid ""
+"This is an automated email; if you didn't change the password to your "
+"Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
+"%(resetLink)s</a>."
+msgstr ""
+"Ово је аутоматска порука; ако нисте променили лозинку Вашег Firefox налога, "
+"треба одмах да је ресетујете <a href='%(resetLink)s'>%(resetLink)s</a>."
+
+#: templates/password_changed.txt:3
+msgid ""
+"This is an automated email; if you didn’t change the password to your "
+"Firefox Account, you should reset it immediately at %(resetLink)s."
+msgstr ""
+"Ово је аутоматска порука; ако нисте променили лозинку Вашег Firefox налога, "
+"треба одмах да је ресетујете %(resetLink)s."
+
+#: templates/password_reset.html:2 templates/password_reset.txt:1
+msgid "Password reset successfully"
+msgstr "Успешно ресетовање лозинке"
+
+#: templates/password_reset.html:3 templates/password_reset.txt:2
+msgid "Your Firefox Account password has been successfully reset."
+msgstr "Лозинка Firefox налога је успешно ресетована."
+
+#: templates/password_reset.html:4
+msgid ""
+"This is an automated email; if you didn't reset the password to your Firefox "
+"Account, you should reset it immediately at <a href='%(resetLink)s'>"
+"%(resetLink)s</a>."
+msgstr ""
+"Ово је аутоматска порука; ако нисте ресетовали Ваш Firefox налог, треба "
+"одмах да га ресетујете <a href='%(resetLink)s'>%(resetLink)s</a>."
+
+#: templates/password_reset.txt:3
+msgid ""
+"This is an automated email; if you didn’t reset the password to your Firefox "
+"Account, you should reset it immediately at %(resetLink)s."
+msgstr ""
+"Ово је аутоматска порука; ако нисте ресетовали Ваш Firefox налог, треба "
+"одмах да га ресетујете %(resetLink)s."
+
+#: mailer.js:82
+msgid "Verify your Firefox Account"
+msgstr "Потврдите Ваш Firefox налог"
+
+#: mailer.js:121
+msgid "Reset your Firefox Account password"
+msgstr "Ресетујте лозинку Firefox налога"
+
+#: mailer.js:155
+msgid "Re-verify your Firefox Account"
+msgstr "Поново потврдите Firefox налог"
+
+#: mailer.js:185
+msgid "Your Firefox Account password has been changed"
+msgstr "Лозинка Firefox налога је промењена"
+
+#: mailer.js:212
+msgid "Your Firefox Account password has been reset"
+msgstr "Лозинка Firefox налога је ресетована"
+
+#: mailer.js:239
+msgid "A new device is now syncing to your Firefox Account"
+msgstr "Нови уређај се сада синхронизује са Вашим Firefox налогом"
+
+#~ msgid "Reset password now"
+#~ msgstr "Ресетуј лозинку сада"
+
+#~ msgid "Reset password now:"
+#~ msgstr "Ресетуј лозинку сада:"
+
+#~ msgid "Firefox Account Activation"
+#~ msgstr "Активација Firefox налога"
+
+#~ msgid "Welcome!"
+#~ msgstr "Добродошли!"
+
+#~ msgid "Please activate your account by confirming this email address."
+#~ msgstr ""
+#~ "Молимо активирајте Ваш налог тако што ћете потврдити ову адресу е-поште."
+
+#~ msgid "Activate now"
+#~ msgstr "Активирај сада"
+
+#~ msgid "Alternatively:"
+#~ msgstr "Алтернативно:"
+
+#~ msgid ""
+#~ "For more information, please visit <a href='https://support.mozilla.org' "
+#~ "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
+#~ msgstr ""
+#~ "За више информација, посетите <a href='https://support.mozilla.org' "
+#~ "style='color: #0095dd; text-decoration: none;'>Mozilla подршку</a>"
+
+#~ msgid "Verify Email"
+#~ msgstr "Потврди е-пошту"
+
+#~ msgid "Verify your email to finish your Firefox Account registration"
+#~ msgstr "Потврдите Вашу е-пошту да завршите регистрацију налога"
+
+#~ msgid "Activate now:"
+#~ msgstr "Активирај сада:"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Честитамо!"
@@ -343,9 +348,10 @@ msgstr "Услови коришћења"
 #~ msgstr "Систем недоступан, покушајте поново за пар минута"
 
 #~ msgid ""
-#~ "We are currently performing some maintenance on the system, and will return "
-#~ "momentarily."
-#~ msgstr "Тренутно радимо одржавање система, вратићемо се за неколико момената."
+#~ "We are currently performing some maintenance on the system, and will "
+#~ "return momentarily."
+#~ msgstr ""
+#~ "Тренутно радимо одржавање система, вратићемо се за неколико момената."
 
 #~ msgid "Reset Password Request"
 #~ msgstr "Захтев за ресетовање лозинке"

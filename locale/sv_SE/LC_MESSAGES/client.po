@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-21 22:38+0000\n"
+"POT-Creation-Date: 2015-08-05 21:25+0000\n"
 "PO-Revision-Date: 2015-07-22 13:38+0000\n"
 "Last-Translator: Andreas <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
@@ -109,7 +109,7 @@ msgstr "Lösenordet återställt. Logga in för att fortsätta."
 msgid "Account deleted successfully"
 msgstr "Kontot har tagits bort"
 
-#: app/scripts/views/reset_password.js:82 app/scripts/views/sign_in.js:180
+#: app/scripts/views/reset_password.js:82 app/scripts/views/sign_in.js:190
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Okänt konto. <a href=\"/signup\">Registrera dig</a>"
 
@@ -117,7 +117,7 @@ msgstr "Okänt konto. <a href=\"/signup\">Registrera dig</a>"
 msgid "Signed out successfully"
 msgstr "Utloggad"
 
-#: app/scripts/views/sign_up.js:331
+#: app/scripts/views/sign_up.js:351
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Kontot finns redan. <a href=\"/signin\">Logga in</a>"
 
@@ -151,7 +151,7 @@ msgstr ""
 msgid "Unexpected error"
 msgstr "Oväntat fel"
 
-#: app/scripts/lib/auth-errors.js:27
+#: app/scripts/lib/auth-errors.js:27 app/scripts/lib/oauth-errors.js:48
 msgid "Invalid token"
 msgstr "Ogiltig token"
 
@@ -191,8 +191,7 @@ msgstr "Ogiltig verifieringskod"
 msgid "Invalid JSON in request body"
 msgstr "Ogiltig JSON i förfrågan"
 
-#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:48
-#: app/scripts/lib/profile-errors.js:22
+#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/profile-errors.js:22
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Ogiltig parameter i förfrågan: %(param)s"
 
@@ -200,7 +199,7 @@ msgstr "Ogiltig parameter i förfrågan: %(param)s"
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Saknad parameter i förfrågan: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:75 app/scripts/lib/oauth-errors.js:52
+#: app/scripts/lib/auth-errors.js:75
 msgid "Invalid request signature"
 msgstr "Ogiltig förfrågansignatur"
 
@@ -269,7 +268,7 @@ msgstr "Det måste vara ett nytt lösenord"
 #: app/scripts/lib/auth-errors.js:143
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/complete_reset_password.mustache:16
-#: app/scripts/templates/sign_up.mustache:12
+#: app/scripts/templates/sign_up.mustache:14
 msgid "Must be at least 8 characters"
 msgstr "Måste vara minst 8 tecken"
 
@@ -335,6 +334,14 @@ msgstr "Verifieringslänk är trasig"
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Bildens dimensioner måste minst vara 100x100px"
 
+#: app/scripts/lib/auth-errors.js:223
+msgid "Signup is coming soon to Firefox for iOS"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:227
+msgid "Signup has been disabled"
+msgstr ""
+
 #: app/scripts/lib/mailcheck.js:57
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr "Menade du <span tabindex=\"1\">%(domain)s</span>?"
@@ -363,6 +370,10 @@ msgstr "Felaktig kod"
 msgid "Expired code"
 msgstr "Upphörd kod"
 
+#: app/scripts/lib/oauth-errors.js:52 app/scripts/lib/oauth-errors.js:74
+msgid "Invalid OAuth parameter: %(param)s"
+msgstr "Ogiltig OAuth-parameter: %(param)s"
+
 #: app/scripts/lib/oauth-errors.js:60 app/scripts/lib/profile-errors.js:18
 msgid "Unauthorized"
 msgstr "Obehörig"
@@ -370,10 +381,6 @@ msgstr "Obehörig"
 #: app/scripts/lib/oauth-errors.js:64
 msgid "Forbidden"
 msgstr "Förbjuden"
-
-#: app/scripts/lib/oauth-errors.js:74
-msgid "Invalid OAuth parameter: %(param)s"
-msgstr "Ogiltig OAuth-parameter: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:86
 msgid "Something went wrong. Please close this tab and try again."
@@ -405,28 +412,37 @@ msgstr ""
 "\">användarvillkoren</a> och <a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">sekretesspolicy</a> för %(serviceName)s (%(serviceUri)s)."
 
-#: app/scripts/lib/strings.js:23 app/scripts/templates/sign_up.mustache:14
-#: app/scripts/templates/settings/communication_preferences.mustache:4
-msgid "Get the latest news about Mozilla and Firefox."
-msgstr "Få de senaste nyheterna om Mozilla och Firefox."
-
-#: app/scripts/lib/strings.js:24 app/scripts/templates/settings.mustache:4
-#: app/scripts/templates/settings/communication_preferences.mustache:1
-msgid "Communication preferences"
-msgstr "Kommunikationsinställningar"
-
-#: app/scripts/lib/strings.js:25
-#: app/scripts/templates/settings/communication_preferences.mustache:9
-msgid "Email preferences"
-msgstr "E-postinställningar"
-
-#: app/scripts/lib/strings.js:28
+#: app/scripts/lib/strings.js:23
 msgid "Edit profile"
 msgstr "Redigera profil"
 
-#: app/scripts/lib/strings.js:29
+#: app/scripts/lib/strings.js:24
 msgid "Name"
 msgstr "Namn"
+
+#: app/scripts/lib/strings.js:27
+msgid "Bookmarks"
+msgstr ""
+
+#: app/scripts/lib/strings.js:28
+msgid "History"
+msgstr ""
+
+#: app/scripts/lib/strings.js:29
+msgid "Tabs"
+msgstr ""
+
+#: app/scripts/lib/strings.js:30
+msgid "Passwords"
+msgstr ""
+
+#: app/scripts/lib/strings.js:31
+msgid "Desktop Add-ons"
+msgstr ""
+
+#: app/scripts/lib/strings.js:32
+msgid "Desktop Preferences"
+msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -464,9 +480,9 @@ msgstr "Gammalt lösenord"
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/delete_account.mustache:4
 #: app/scripts/templates/force_auth.mustache:6
-#: app/scripts/templates/sign_in.mustache:8
-#: app/scripts/templates/sign_in.mustache:21
-#: app/scripts/templates/sign_up.mustache:11
+#: app/scripts/templates/sign_in.mustache:10
+#: app/scripts/templates/sign_in.mustache:23
+#: app/scripts/templates/sign_up.mustache:13
 msgid "Show"
 msgstr "Visa"
 
@@ -611,9 +627,9 @@ msgstr "En återställningslänk har skickats till %(email)s"
 #: app/scripts/templates/force_auth.mustache:7
 #: app/scripts/templates/sign_in.mustache:1
 #: app/scripts/templates/sign_in.mustache:4
-#: app/scripts/templates/sign_in.mustache:9
-#: app/scripts/templates/sign_in.mustache:13
-#: app/scripts/templates/sign_in.mustache:22
+#: app/scripts/templates/sign_in.mustache:11
+#: app/scripts/templates/sign_in.mustache:15
+#: app/scripts/templates/sign_in.mustache:24
 msgid "Sign in"
 msgstr "Logga in"
 
@@ -653,9 +669,9 @@ msgstr ""
 
 #: app/scripts/templates/delete_account.mustache:3
 #: app/scripts/templates/force_auth.mustache:3
-#: app/scripts/templates/sign_in.mustache:6
-#: app/scripts/templates/sign_in.mustache:18
-#: app/scripts/templates/sign_up.mustache:8
+#: app/scripts/templates/sign_in.mustache:8
+#: app/scripts/templates/sign_in.mustache:20
+#: app/scripts/templates/sign_up.mustache:10
 msgid "Password"
 msgstr "Lösenord"
 
@@ -664,14 +680,15 @@ msgid "Sign in to continue"
 msgstr "Logga in för att fortsätta"
 
 #: app/scripts/templates/force_auth.mustache:8
-#: app/scripts/templates/sign_in.mustache:10
-#: app/scripts/templates/sign_in.mustache:23
+#: app/scripts/templates/sign_in.mustache:12
+#: app/scripts/templates/sign_in.mustache:25
+#: app/scripts/templates/sign_in.mustache:27
 msgid "Forgot password?"
 msgstr "Glömt lösenordet?"
 
 #: app/scripts/templates/force_auth.mustache:9
-#: app/scripts/templates/sign_in.mustache:25
-#: app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/sign_in.mustache:29
+#: app/scripts/templates/sign_up.mustache:15
 msgid ""
 "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
 "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
@@ -747,8 +764,8 @@ msgstr "%(serviceName)s vill ha följande information från ditt konto:"
 
 #: app/scripts/templates/permissions.mustache:3
 #: app/scripts/templates/reset_password.mustache:3
-#: app/scripts/templates/sign_in.mustache:17
-#: app/scripts/templates/sign_up.mustache:6
+#: app/scripts/templates/sign_in.mustache:19
+#: app/scripts/templates/sign_up.mustache:8
 #: app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "E-post"
@@ -816,6 +833,11 @@ msgstr "Ändra"
 msgid "You are signed in as"
 msgstr "Du är inloggad som"
 
+#: app/scripts/templates/settings.mustache:4
+#: app/scripts/templates/settings/communication_preferences.mustache:1
+msgid "Communication preferences"
+msgstr "Kommunikationsinställningar"
+
 #: app/scripts/templates/settings.mustache:8
 msgid "Sign out"
 msgstr "Logga ut"
@@ -825,12 +847,16 @@ msgstr "Logga ut"
 msgid "Continue to %(serviceName)s"
 msgstr "Fortsätt till %(serviceName)s"
 
-#: app/scripts/templates/sign_in.mustache:11
-#: app/scripts/templates/sign_in.mustache:14
+#: app/scripts/templates/sign_in.mustache:6
+msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
+msgstr ""
+
+#: app/scripts/templates/sign_in.mustache:13
+#: app/scripts/templates/sign_in.mustache:16
 msgid "Use a different account"
 msgstr "Använd ett annat konto"
 
-#: app/scripts/templates/sign_in.mustache:24
+#: app/scripts/templates/sign_in.mustache:28
 msgid "Create an account"
 msgstr "Skapa ett konto"
 
@@ -839,15 +865,24 @@ msgstr "Skapa ett konto"
 msgid "Create a Firefox Account"
 msgstr "Skapa ett Firefox-konto"
 
+#: app/scripts/templates/sign_up.mustache:6
+msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
+msgstr ""
+
 #: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/settings/communication_preferences.mustache:4
+msgid "Get the latest news about Mozilla and Firefox."
+msgstr "Få de senaste nyheterna om Mozilla och Firefox."
+
+#: app/scripts/templates/sign_up.mustache:18
 msgid "Sign up"
 msgstr "Registrera dig"
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:20
 msgid "Choose what to sync"
 msgstr "Välj vad som ska synkas"
 
-#: app/scripts/templates/sign_up.mustache:20
+#: app/scripts/templates/sign_up.mustache:22
 msgid "Already have an account? Sign in."
 msgstr "Har du redan ett konto? Logga in."
 
@@ -895,6 +930,10 @@ msgstr "Avsluta prenumeration"
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Subscribe"
 msgstr "Prenumerera"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:9
+msgid "Email preferences"
+msgstr "E-postinställningar"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2
 msgid "Year of birth"
@@ -967,8 +1006,8 @@ msgstr "Dag"
 #~ msgstr ""
 #~ "Genom att fortsätta, godkänner jag <a id=\"service-tos\" href="
 #~ "\"%(termsUri)s\">användarvillkoren</a> och <a id=\"service-pp\" href="
-#~ "\"%(privacyUri)s\">sekretesspolicyn</a> för %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ "\"%(privacyUri)s\">sekretesspolicyn</a> för %(serviceName)s (%(serviceUri)"
+#~ "s)."
 
 #~ msgid ""
 #~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"

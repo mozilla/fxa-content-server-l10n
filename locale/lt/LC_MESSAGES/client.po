@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-21 22:38+0000\n"
+"POT-Creation-Date: 2015-08-05 21:25+0000\n"
 "PO-Revision-Date: 2015-06-06 12:58+0000\n"
 "Last-Translator: Marius <marius.gricius@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -110,7 +110,7 @@ msgstr "Slaptažodis atkurtas sėkmingai. Norėdami tęsti, prisijunkite."
 msgid "Account deleted successfully"
 msgstr "Paskyra pašalinta sėkmingai"
 
-#: app/scripts/views/reset_password.js:82 app/scripts/views/sign_in.js:180
+#: app/scripts/views/reset_password.js:82 app/scripts/views/sign_in.js:190
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Paskyra nežinoma. <a href=\"/signup\">Registruotis</a>"
 
@@ -118,7 +118,7 @@ msgstr "Paskyra nežinoma. <a href=\"/signup\">Registruotis</a>"
 msgid "Signed out successfully"
 msgstr "Atsijungėte sėkmingai"
 
-#: app/scripts/views/sign_up.js:331
+#: app/scripts/views/sign_up.js:351
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Paskyra jau egzistuoja. <a href=\"/signin\">Prisijungti</a>"
 
@@ -153,7 +153,7 @@ msgstr ""
 msgid "Unexpected error"
 msgstr "Netikėta klaida"
 
-#: app/scripts/lib/auth-errors.js:27
+#: app/scripts/lib/auth-errors.js:27 app/scripts/lib/oauth-errors.js:48
 msgid "Invalid token"
 msgstr "Neteisingas prieigos raktas"
 
@@ -193,8 +193,7 @@ msgstr "Neteisingas patvirtinimo kodas"
 msgid "Invalid JSON in request body"
 msgstr "Neteisingas „JSON“ užklausos turinyje"
 
-#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:48
-#: app/scripts/lib/profile-errors.js:22
+#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/profile-errors.js:22
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Neteisingas parametras užklausos turinyje: %(param)s"
 
@@ -202,7 +201,7 @@ msgstr "Neteisingas parametras užklausos turinyje: %(param)s"
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Trūksta parametro užklausos turinyje: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:75 app/scripts/lib/oauth-errors.js:52
+#: app/scripts/lib/auth-errors.js:75
 msgid "Invalid request signature"
 msgstr "Netinkamas užklausos parašas"
 
@@ -272,7 +271,7 @@ msgstr "Senas ir naujas slaptažodžiai turi skirtis"
 #: app/scripts/lib/auth-errors.js:143
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/complete_reset_password.mustache:16
-#: app/scripts/templates/sign_up.mustache:12
+#: app/scripts/templates/sign_up.mustache:14
 msgid "Must be at least 8 characters"
 msgstr "Turi būti bent 8 simbolių ilgio"
 
@@ -340,6 +339,14 @@ msgstr "Patvirtinimo saitas sugadintas"
 msgid "The image dimensions must be at least 100x100px"
 msgstr ""
 
+#: app/scripts/lib/auth-errors.js:223
+msgid "Signup is coming soon to Firefox for iOS"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:227
+msgid "Signup has been disabled"
+msgstr ""
+
 #: app/scripts/lib/mailcheck.js:57
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr "Ar turėjote galvoje <span tabindex=\"1\">%(domain)s</span>?"
@@ -368,6 +375,10 @@ msgstr "Neteisingas kodas"
 msgid "Expired code"
 msgstr "Nebegaliojantis kodas"
 
+#: app/scripts/lib/oauth-errors.js:52 app/scripts/lib/oauth-errors.js:74
+msgid "Invalid OAuth parameter: %(param)s"
+msgstr "Neteisingas OAuth parametras: %(param)s"
+
 #: app/scripts/lib/oauth-errors.js:60 app/scripts/lib/profile-errors.js:18
 msgid "Unauthorized"
 msgstr "Nenustatyta tapatybė"
@@ -375,10 +386,6 @@ msgstr "Nenustatyta tapatybė"
 #: app/scripts/lib/oauth-errors.js:64
 msgid "Forbidden"
 msgstr "Draudžiama"
-
-#: app/scripts/lib/oauth-errors.js:74
-msgid "Invalid OAuth parameter: %(param)s"
-msgstr "Neteisingas OAuth parametras: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:86
 msgid "Something went wrong. Please close this tab and try again."
@@ -410,28 +417,37 @@ msgstr ""
 "\">Paslaugų sąlygomis</a> ir %(serviceName)s (%(serviceUri)s) <a id="
 "\"service-pp\" href=\"%(privacyUri)s\">Privatumo nuostatomis</a>."
 
-#: app/scripts/lib/strings.js:23 app/scripts/templates/sign_up.mustache:14
-#: app/scripts/templates/settings/communication_preferences.mustache:4
-msgid "Get the latest news about Mozilla and Firefox."
-msgstr "Gaukite naujausią informaciją apie „Mozilla“ ir „Firefox“."
-
-#: app/scripts/lib/strings.js:24 app/scripts/templates/settings.mustache:4
-#: app/scripts/templates/settings/communication_preferences.mustache:1
-msgid "Communication preferences"
-msgstr "Bendravimo parinktys"
-
-#: app/scripts/lib/strings.js:25
-#: app/scripts/templates/settings/communication_preferences.mustache:9
-msgid "Email preferences"
-msgstr "El. pašto parinktys"
-
-#: app/scripts/lib/strings.js:28
+#: app/scripts/lib/strings.js:23
 msgid "Edit profile"
 msgstr "Keisti profilį"
 
-#: app/scripts/lib/strings.js:29
+#: app/scripts/lib/strings.js:24
 msgid "Name"
 msgstr "Vardas"
+
+#: app/scripts/lib/strings.js:27
+msgid "Bookmarks"
+msgstr ""
+
+#: app/scripts/lib/strings.js:28
+msgid "History"
+msgstr ""
+
+#: app/scripts/lib/strings.js:29
+msgid "Tabs"
+msgstr ""
+
+#: app/scripts/lib/strings.js:30
+msgid "Passwords"
+msgstr ""
+
+#: app/scripts/lib/strings.js:31
+msgid "Desktop Add-ons"
+msgstr ""
+
+#: app/scripts/lib/strings.js:32
+msgid "Desktop Preferences"
+msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -470,9 +486,9 @@ msgstr "Senas slaptažodis"
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/delete_account.mustache:4
 #: app/scripts/templates/force_auth.mustache:6
-#: app/scripts/templates/sign_in.mustache:8
-#: app/scripts/templates/sign_in.mustache:21
-#: app/scripts/templates/sign_up.mustache:11
+#: app/scripts/templates/sign_in.mustache:10
+#: app/scripts/templates/sign_in.mustache:23
+#: app/scripts/templates/sign_up.mustache:13
 msgid "Show"
 msgstr "Rodyti"
 
@@ -617,9 +633,9 @@ msgstr "Atkūrimo saitas išsiųstas adresu: %(email)s"
 #: app/scripts/templates/force_auth.mustache:7
 #: app/scripts/templates/sign_in.mustache:1
 #: app/scripts/templates/sign_in.mustache:4
-#: app/scripts/templates/sign_in.mustache:9
-#: app/scripts/templates/sign_in.mustache:13
-#: app/scripts/templates/sign_in.mustache:22
+#: app/scripts/templates/sign_in.mustache:11
+#: app/scripts/templates/sign_in.mustache:15
+#: app/scripts/templates/sign_in.mustache:24
 msgid "Sign in"
 msgstr "Prisijungti"
 
@@ -659,9 +675,9 @@ msgstr "Ar tikrai norite pašalinti savo paskyrą? Šis veiksmas negrįžtamas."
 
 #: app/scripts/templates/delete_account.mustache:3
 #: app/scripts/templates/force_auth.mustache:3
-#: app/scripts/templates/sign_in.mustache:6
-#: app/scripts/templates/sign_in.mustache:18
-#: app/scripts/templates/sign_up.mustache:8
+#: app/scripts/templates/sign_in.mustache:8
+#: app/scripts/templates/sign_in.mustache:20
+#: app/scripts/templates/sign_up.mustache:10
 msgid "Password"
 msgstr "Slaptažodis"
 
@@ -670,14 +686,15 @@ msgid "Sign in to continue"
 msgstr "Norėdami tęsti, prisijunkite"
 
 #: app/scripts/templates/force_auth.mustache:8
-#: app/scripts/templates/sign_in.mustache:10
-#: app/scripts/templates/sign_in.mustache:23
+#: app/scripts/templates/sign_in.mustache:12
+#: app/scripts/templates/sign_in.mustache:25
+#: app/scripts/templates/sign_in.mustache:27
 msgid "Forgot password?"
 msgstr "Pamiršote slaptažodį?"
 
 #: app/scripts/templates/force_auth.mustache:9
-#: app/scripts/templates/sign_in.mustache:25
-#: app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/sign_in.mustache:29
+#: app/scripts/templates/sign_up.mustache:15
 msgid ""
 "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
 "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
@@ -753,8 +770,8 @@ msgstr "%(serviceName)s nori gauti šią informaciją iš jūsų paskyros:"
 
 #: app/scripts/templates/permissions.mustache:3
 #: app/scripts/templates/reset_password.mustache:3
-#: app/scripts/templates/sign_in.mustache:17
-#: app/scripts/templates/sign_up.mustache:6
+#: app/scripts/templates/sign_in.mustache:19
+#: app/scripts/templates/sign_up.mustache:8
 #: app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "El. paštas"
@@ -823,6 +840,11 @@ msgstr "Keisti"
 msgid "You are signed in as"
 msgstr "Jūs esate prisijungę kaip"
 
+#: app/scripts/templates/settings.mustache:4
+#: app/scripts/templates/settings/communication_preferences.mustache:1
+msgid "Communication preferences"
+msgstr "Bendravimo parinktys"
+
 #: app/scripts/templates/settings.mustache:8
 msgid "Sign out"
 msgstr "Atsijungti"
@@ -832,12 +854,16 @@ msgstr "Atsijungti"
 msgid "Continue to %(serviceName)s"
 msgstr "Tęsti į %(serviceName)s"
 
-#: app/scripts/templates/sign_in.mustache:11
-#: app/scripts/templates/sign_in.mustache:14
+#: app/scripts/templates/sign_in.mustache:6
+msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
+msgstr ""
+
+#: app/scripts/templates/sign_in.mustache:13
+#: app/scripts/templates/sign_in.mustache:16
 msgid "Use a different account"
 msgstr "Naudoti kitą paskyrą"
 
-#: app/scripts/templates/sign_in.mustache:24
+#: app/scripts/templates/sign_in.mustache:28
 msgid "Create an account"
 msgstr "Sukurti paskyrą"
 
@@ -846,15 +872,24 @@ msgstr "Sukurti paskyrą"
 msgid "Create a Firefox Account"
 msgstr "Sukurti „Firefox“ paskyrą"
 
+#: app/scripts/templates/sign_up.mustache:6
+msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
+msgstr ""
+
 #: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/settings/communication_preferences.mustache:4
+msgid "Get the latest news about Mozilla and Firefox."
+msgstr "Gaukite naujausią informaciją apie „Mozilla“ ir „Firefox“."
+
+#: app/scripts/templates/sign_up.mustache:18
 msgid "Sign up"
 msgstr "Registruotis"
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:20
 msgid "Choose what to sync"
 msgstr "Pasirinkite, ką sinchronizuosite"
 
-#: app/scripts/templates/sign_up.mustache:20
+#: app/scripts/templates/sign_up.mustache:22
 msgid "Already have an account? Sign in."
 msgstr "Jau turite paskyrą? Prisijunkite."
 
@@ -903,6 +938,10 @@ msgstr "Nebeprenumeruoti"
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Subscribe"
 msgstr "Prenumeruoti"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:9
+msgid "Email preferences"
+msgstr "El. pašto parinktys"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2
 msgid "Year of birth"

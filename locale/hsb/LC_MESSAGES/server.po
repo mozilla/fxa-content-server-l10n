@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-21 22:38+0000\n"
+"POT-Creation-Date: 2015-08-05 21:25+0000\n"
 "PO-Revision-Date: 2015-07-22 11:47+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,21 +10,196 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1437565679.0\n"
 
-#: templates/new_sync_device.html:1 templates/password_changed.html:1
-#: templates/password_reset.html:1 templates/reset.html:1
-#: templates/unlock.html:1 server/templates/pages/src/400.html:1
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
-#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
+#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
+#: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/terms.html:1 templates/reset.html:1
+#: templates/unlock.html:1 templates/verify.html:1
+#: templates/new_sync_device.html:1 templates/password_changed.html:1
+#: templates/password_reset.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
+
+#: server/templates/pages/src/400.html:2
+msgid "Bad Request"
+msgstr "Špatne naprašowanje"
+
+#: server/templates/pages/src/404.html:2
+msgid "Page not found"
+msgstr "Strona njeje so namakała"
+
+#: server/templates/pages/src/404.html:3
+msgid ""
+"The page you requested is not found. We've been notified and will fix any "
+"links that may be broken."
+msgstr ""
+"Strona, kotruž sće požadał, njeje so namakała. Smy powěsć dóstali a "
+"porjedźimy skóncowane wotkazy."
+
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+msgid "Home"
+msgstr "Startowa strona"
+
+#: server/templates/pages/src/500.html:2
+msgid "500 Error"
+msgstr "Zmylk 500"
+
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+msgid ""
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
+msgstr ""
+"Božo mój, něšto je so nimokuliło. Smy so informowali a damy so do "
+"wotstronjenja problema."
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr "Zmylk 502"
+
+#: server/templates/pages/src/503.html:2
+msgid "Server busy, try again soon"
+msgstr "Serwer je přećeženy, spytajće za krótki čas hišće raz"
+
+#: server/templates/pages/src/503.html:3
+msgid ""
+"We are currently under heavy strain and are working to return the system to "
+"normal as soon as possible."
+msgstr ""
+"Smy tuchwilu pod wysokim poćeženjom a dźěłamy na tym, system tak bórze kaž "
+"móžno normalny k dispoziciji stajić."
+
+#: server/templates/pages/src/index.html:2
+#: server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/terms.html:3
+#: server/templates/pages/src/privacy.html:5
+#: server/templates/pages/src/terms.html:5
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+"Wužiwaće <strong>zestarjeny</strong> wobhladowak. Prošu <a href=\"http://"
+"browsehappy.com/\">zaktualizujće swój wobhladowak</a>, zo byšće swoje "
+"dožiwjenje polěpšił."
+
+#: server/templates/pages/src/index.html:3
+msgid "Firefox Accounts requires JavaScript."
+msgstr "Firefox Accounts wužaduje sej JavaScript."
+
+#: server/templates/pages/src/privacy.html:2
+#: server/templates/pages/src/privacy.html:5
+#: server/templates/pages/src/privacy.html:4
+msgid "Privacy Notice"
+msgstr "Zdźělenka priwatnosće"
+
+#: server/templates/pages/src/privacy.html:4
+#: server/templates/pages/src/terms.html:4
+#: server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/terms.html:3
+msgid "Firefox cloud services"
+msgstr "Mróčelowe słužby Firefox"
+
+#: server/templates/pages/src/terms.html:2
+#: server/templates/pages/src/terms.html:5
+#: server/templates/pages/src/terms.html:4
+msgid "Terms of Service"
+msgstr "Wužiwanske wuměnenja"
+
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Are you sure?"
+msgstr "Sće sej wěsty?"
+
+#: templates/reset.html:3 templates/reset.txt:2
+msgid "Please confirm that you'd like to reset the password for %(email)s."
+msgstr "Prošu wubkrućće, zo chceće hesło za %(email)s wróćo stajić."
+
+#: templates/reset.html:4
+msgid "Reset password"
+msgstr "Hesło wróćo stajić"
+
+#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
+#: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"To je awtomatizowana e-mejlka; jeli sće ju zmylnje dóstał, njetrjebaće ničo "
+"činić."
+
+#: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
+#: templates/new_sync_device.html:5 templates/password_changed.html:5
+#: templates/password_reset.html:5
+msgid ""
+"For more information, please visit <a href='https://support.mozilla."
+"org'>Mozilla Support</a>"
+msgstr ""
+"Za dalše informacije wopytajće prošu <a href='https://support.mozilla."
+"org'>Pomoc Mozilla</a>"
+
+#: templates/reset.txt:3
+msgid "Reset password:"
+msgstr "Hesło wróćo stajić:"
+
+#: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
+#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
+#: templates/password_reset.txt:4
+msgid "For more information, please visit https://support.mozilla.org"
+msgstr "Za dalše informacije wopytajće prošu https://support.mozilla.org"
+
+#: templates/unlock.html:2 templates/unlock.txt:1
+msgid ""
+"For security reasons your Firefox Account was put on lockdown. To perform "
+"account-level activities, please click the link to re-verify your account "
+"now."
+msgstr ""
+"Z přičinow wěstoty je so waše konto Firefox zawrěło. Zo byšće aktiwity na "
+"kontowej runinje wuwjedł, klikńće prošu na wotkaz, zo by swoje konto nětko "
+"znowa přepruwował."
+
+#: templates/unlock.html:3
+msgid "Verify account"
+msgstr "Konto přepruwować"
+
+#: templates/unlock.txt:2
+msgid "Verify account:"
+msgstr "Konto přepruwować:"
+
+#: templates/verify.html:2 templates/verify.txt:1
+msgid "Almost there"
+msgstr "Nimale dokonjany"
+
+#: templates/verify.html:3 templates/verify.txt:2
+msgid "%(email)s, you're one click away from verifying your Firefox Account."
+msgstr ""
+"%(email)s, sće jenož jedne kliknjenje wot wobkrućenja swojeho konta Firefox "
+"zdaleny."
+
+#: templates/verify.html:4
+msgid "Verify"
+msgstr "Wobkrućić"
+
+#: templates/verify.txt:3
+msgid "Verify:"
+msgstr "Wobkrućić:"
+
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "Wobkrućće swoje konto"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "Stajće swoje hesło wróćo"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr "Wobkrućće swoje konto hišće raz"
 
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
 msgid "Account activity notice"
@@ -41,22 +216,12 @@ msgstr ""
 #: templates/new_sync_device.html:4
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
-"Account, you should change your password immediately at <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
+"Account, you should change your password immediately at <a href='%(resetLink)"
+"s'>%(resetLink)s</a>."
 msgstr ""
 "To je awtomatiska e-mejlka; jeli njejsće swojemu kontu Firefox nowy grat "
 "přidał, měł wy hnydom swoje hesło na <a href='%(resetLink)s'>%(resetLink)s</"
 "a> změnić."
-
-#: templates/new_sync_device.html:5 templates/password_changed.html:5
-#: templates/password_reset.html:5 templates/reset.html:6
-#: templates/unlock.html:5
-msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
-msgstr ""
-"Za dalše informacije wopytajće prošu <a href='https://support.mozilla."
-"org'>Pomoc Mozilla</a>"
 
 #: templates/new_sync_device.txt:3
 msgid ""
@@ -65,12 +230,6 @@ msgid ""
 msgstr ""
 "To je awtomatiska e-mejlka; jeli njejsće swojemu kontu Firefox nowy grat "
 "přidał, měł wy hnydom swoje hesło na %(resetLink)s změnić."
-
-#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
-#: templates/password_reset.txt:4 templates/reset.txt:5 templates/unlock.txt:4
-#: templates/verify.txt:5
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr "Za dalše informacije wopytajće prošu https://support.mozilla.org"
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
@@ -123,224 +282,69 @@ msgstr ""
 "To je awtomatiska e-mejlka; jeli njejsće hesło swojeho konta Firefox wróćo "
 "stajił, měł wy jo hnydom na %(resetLink)s wróćo stajić."
 
-#: templates/reset.html:2 templates/reset.txt:1
-msgid "Are you sure?"
-msgstr "Sće sej wěsty?"
-
-#: templates/reset.html:3 templates/reset.txt:2
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Prošu wubkrućće, zo chceće hesło za %(email)s wróćo stajić."
-
-#: templates/reset.html:4
-msgid "Reset password now"
-msgstr "Hesło nětko wróćo stajić"
-
-#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
-#: templates/unlock.txt:3 templates/verify.html:6 templates/verify.txt:4
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"To je awtomatizowana e-mejlka; jeli sće ju zmylnje dóstał, njetrjebaće ničo "
-"činić."
-
-#: templates/reset.txt:3
-msgid "Reset password now:"
-msgstr "Hesło nětko wróćo stajić:"
-
-#: templates/unlock.html:2 templates/unlock.txt:1
-msgid ""
-"For security reasons your Firefox Account was put on lockdown. To perform "
-"account-level activities, please click the link to re-verify your account "
-"now."
-msgstr ""
-"Z přičinow wěstoty je so waše konto Firefox zawrěło. Zo byšće aktiwity na "
-"kontowej runinje wuwjedł, klikńće prošu na wotkaz, zo by swoje konto nětko "
-"znowa přepruwował."
-
-#: templates/unlock.html:3
-msgid "Verify account"
-msgstr "Konto přepruwować"
-
-#: templates/unlock.txt:2
-msgid "Verify account:"
-msgstr "Konto přepruwować:"
-
-#: templates/verify.html:1
-msgid "Firefox Account Activation"
-msgstr "Aktiwizowanje konta Firefox"
-
-#: templates/verify.html:2 templates/verify.txt:1
-msgid "Welcome!"
-msgstr "Witajće!"
-
-#: templates/verify.html:3 templates/verify.txt:2
-msgid "Please activate your account by confirming this email address."
-msgstr ""
-"Prošu aktiwizujće swoje konto, zo byšće tutu e-mejlowu adresu wobkrućił."
-
-#: templates/verify.html:4
-msgid "Activate now"
-msgstr "Nětko aktiwizować"
-
-#: templates/verify.html:5
-msgid "Alternatively:"
-msgstr "Alternatiwje:"
-
-#: templates/verify.html:7
-msgid ""
-"For more information, please visit <a href='https://support.mozilla.org' "
-"style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
-msgstr ""
-"Za dalše informacije, wopytajće prošu <a href='https://support.mozilla.org' "
-"style='color: #0095dd; text-decoration: none;'>Pomoc Mozilla</a>"
-
-#: templates/verify.html:8
-msgid "Verify Email"
-msgstr "E-mejlowu adresu wobkrućić"
-
-#: templates/verify.html:9
-msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
-"Wobkrućće swoju e-mejlowu adresu, zo byšće registrowanje swojeho konta "
-"Firefox dokónčił"
-
-#: templates/verify.txt:3
-msgid "Activate now:"
-msgstr "Nětko aktiwizować:"
-
-#: mailer.js:115
+#: mailer.js:82
 msgid "Verify your Firefox Account"
 msgstr "Wobkrućće swoje konto Firefox"
 
-#: mailer.js:145
+#: mailer.js:121
 msgid "Reset your Firefox Account password"
 msgstr "Stajće hesło swojeho konta Firefox wróćo"
 
-#: mailer.js:176
+#: mailer.js:155
 msgid "Re-verify your Firefox Account"
 msgstr "Wobkrućće swoje konto Firefox hišće raz"
 
-#: mailer.js:199
+#: mailer.js:185
 msgid "Your Firefox Account password has been changed"
 msgstr "Hesło wašeho konta Firefox je so změniło"
 
-#: mailer.js:218
+#: mailer.js:212
 msgid "Your Firefox Account password has been reset"
 msgstr "Hesło wašeho konta Firefox je so wróćo stajiło"
 
-#: mailer.js:240
+#: mailer.js:239
 msgid "A new device is now syncing to your Firefox Account"
 msgstr "Nowy grat so nětko z wašim kontom Firefox synchronizuje"
 
-#: server/templates/pages/src/400.html:2
-msgid "Bad Request"
-msgstr "Špatne naprašowanje"
+#~ msgid "Reset password now"
+#~ msgstr "Hesło nětko wróćo stajić"
 
-#: server/templates/pages/src/404.html:2
-msgid "Page not found"
-msgstr "Strona njeje so namakała"
+#~ msgid "Reset password now:"
+#~ msgstr "Hesło nětko wróćo stajić:"
 
-#: server/templates/pages/src/404.html:3
-msgid ""
-"The page you requested is not found. We've been notified and will fix any "
-"links that may be broken."
-msgstr ""
-"Strona, kotruž sće požadał, njeje so namakała. Smy powěsć dóstali a "
-"porjedźimy skóncowane wotkazy."
+#~ msgid "Firefox Account Activation"
+#~ msgstr "Aktiwizowanje konta Firefox"
 
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
-msgid "Home"
-msgstr "Startowa strona"
+#~ msgid "Welcome!"
+#~ msgstr "Witajće!"
 
-#: server/templates/pages/src/500.html:2
-msgid "500 Error"
-msgstr "Zmylk 500"
+#~ msgid "Please activate your account by confirming this email address."
+#~ msgstr ""
+#~ "Prošu aktiwizujće swoje konto, zo byšće tutu e-mejlowu adresu wobkrućił."
 
-#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
-msgid ""
-"Oh dear, something went wrong there. We've been notified and will get "
-"working on a fix."
-msgstr ""
-"Božo mój, něšto je so nimokuliło. Smy so informowali a damy so do "
-"wotstronjenja problema."
+#~ msgid "Activate now"
+#~ msgstr "Nětko aktiwizować"
 
-#: server/templates/pages/src/502.html:2
-msgid "502 Error"
-msgstr "Zmylk 502"
-
-#: server/templates/pages/src/503.html:2
-msgid "Server busy, try again soon"
-msgstr "Serwer je přećeženy, spytajće za krótki čas hišće raz"
-
-#: server/templates/pages/src/503.html:3
-msgid ""
-"We are currently under heavy strain and are working to return the system to "
-"normal as soon as possible."
-msgstr ""
-"Smy tuchwilu pod wysokim poćeženjom a dźěłamy na tym, system tak bórze kaž "
-"móžno normalny k dispoziciji stajić."
-
-#: server/templates/pages/src/index.html:2
-#: server/templates/pages/src/privacy.html:5
-#: server/templates/pages/src/terms.html:5
-msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr ""
-"Wužiwaće <strong>zestarjeny</strong> wobhladowak. Prošu <a href=\"http://"
-"browsehappy.com/\">zaktualizujće swój wobhladowak</a>, zo byšće swoje "
-"dožiwjenje polěpšił."
-
-#: server/templates/pages/src/index.html:3
-msgid "Firefox Accounts requires JavaScript."
-msgstr "Firefox Accounts wužaduje sej JavaScript."
-
-#: server/templates/pages/src/privacy.html:2
-#: server/templates/pages/src/privacy.html:4
-msgid "Privacy Notice"
-msgstr "Zdźělenka priwatnosće"
-
-#: server/templates/pages/src/privacy.html:3
-#: server/templates/pages/src/terms.html:3
-msgid "Firefox cloud services"
-msgstr "Mróčelowe słužby Firefox"
-
-#: server/templates/pages/src/terms.html:2
-#: server/templates/pages/src/terms.html:4
-msgid "Terms of Service"
-msgstr "Wužiwanske wuměnenja"
-
-#~ msgid "Reset password"
-#~ msgstr "Hesło wróćo stajić"
-
-#~ msgid "Reset password:"
-#~ msgstr "Hesło wróćo stajić:"
-
-#~ msgid "Almost there"
-#~ msgstr "Nimale dokonjany"
+#~ msgid "Alternatively:"
+#~ msgstr "Alternatiwje:"
 
 #~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ "For more information, please visit <a href='https://support.mozilla.org' "
+#~ "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
 #~ msgstr ""
-#~ "%(email)s, sće jenož jedne kliknjenje wot wobkrućenja swojeho konta "
-#~ "Firefox zdaleny."
+#~ "Za dalše informacije, wopytajće prošu <a href='https://support.mozilla."
+#~ "org' style='color: #0095dd; text-decoration: none;'>Pomoc Mozilla</a>"
 
-#~ msgid "Verify"
-#~ msgstr "Wobkrućić"
+#~ msgid "Verify Email"
+#~ msgstr "E-mejlowu adresu wobkrućić"
 
-#~ msgid "Verify:"
-#~ msgstr "Wobkrućić:"
+#~ msgid "Verify your email to finish your Firefox Account registration"
+#~ msgstr ""
+#~ "Wobkrućće swoju e-mejlowu adresu, zo byšće registrowanje swojeho konta "
+#~ "Firefox dokónčił"
 
-#~ msgid "Verify your account"
-#~ msgstr "Wobkrućće swoje konto"
-
-#~ msgid "Reset your password"
-#~ msgstr "Stajće swoje hesło wróćo"
-
-#~ msgid "Re-verify your account"
-#~ msgstr "Wobkrućće swoje konto hišće raz"
+#~ msgid "Activate now:"
+#~ msgstr "Nětko aktiwizować:"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Zbožopřeće!"
