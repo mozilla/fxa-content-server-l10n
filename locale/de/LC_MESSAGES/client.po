@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-05 21:25+0000\n"
-"PO-Revision-Date: 2015-08-06 06:54+0000\n"
+"PO-Revision-Date: 2015-08-06 06:56+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1438844085.0\n"
+"X-POOTLE-MTIME: 1438844207.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -318,7 +318,7 @@ msgstr ""
 #: app/scripts/lib/auth-errors.js:195
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
-"Firefox Accounts kann nur in einem IFRAME auf freigeschalteten Websites "
+"Firefox-Konten können nur in einem IFRAME auf freigeschalteten Websites "
 "platziert werden"
 
 #: app/scripts/lib/auth-errors.js:203
