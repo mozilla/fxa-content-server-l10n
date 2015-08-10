@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-05 21:25+0000\n"
-"PO-Revision-Date: 2015-07-22 09:05+0000\n"
+"PO-Revision-Date: 2015-08-10 08:31+0000\n"
 "Last-Translator: Gábor <kelemeng@ubuntu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n !=1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1437555941.0\n"
+"X-POOTLE-MTIME: 1439195485.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -338,11 +338,11 @@ msgstr "A kép méreteinek legalább 100x100 képpontnak kell lenniük."
 
 #: app/scripts/lib/auth-errors.js:223
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "A regisztráció hamarosan érkezik a Firefox for iOS-re"
 
 #: app/scripts/lib/auth-errors.js:227
 msgid "Signup has been disabled"
-msgstr ""
+msgstr "A regisztráció le lett tiltva"
 
 #: app/scripts/lib/mailcheck.js:57
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -424,27 +424,27 @@ msgstr "Név"
 
 #: app/scripts/lib/strings.js:27
 msgid "Bookmarks"
-msgstr ""
+msgstr "Könyvjelzők"
 
 #: app/scripts/lib/strings.js:28
 msgid "History"
-msgstr ""
+msgstr "Előzmények"
 
 #: app/scripts/lib/strings.js:29
 msgid "Tabs"
-msgstr ""
+msgstr "Lapok"
 
 #: app/scripts/lib/strings.js:30
 msgid "Passwords"
-msgstr ""
+msgstr "Jelszavak"
 
 #: app/scripts/lib/strings.js:31
 msgid "Desktop Add-ons"
-msgstr ""
+msgstr "Asztali kiegészítők"
 
 #: app/scripts/lib/strings.js:32
 msgid "Desktop Preferences"
-msgstr ""
+msgstr "Asztali beállítások"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -850,7 +850,7 @@ msgstr "Tovább erre: %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr ""
+msgstr "Migrálja szinkronizálási adatait a Firefox fiókjába való belépéssel."
 
 #: app/scripts/templates/sign_in.mustache:13
 #: app/scripts/templates/sign_in.mustache:16
@@ -868,7 +868,7 @@ msgstr "Firefox fiók létrehozása"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr ""
+msgstr "Migrálja szinkronizálási adatait új Firefox fiók létrehozásával."
 
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/communication_preferences.mustache:4
