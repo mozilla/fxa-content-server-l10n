@@ -4,11 +4,15 @@
 
 module.exports = function (grunt) {
   'use strict';
-  grunt.registerTask('scan-email-translations', 'Scan the generated emails for invalid style tags', [
-    'generate-valid-styles',
-    'po2json',
-    'verify-styles'
-    ]
-  );
 
+  grunt.config('l10n-lint', {
+    dist: {
+      options: {
+        untranslated: ['locale/templates/**/*.pot']
+      },
+      files: [{
+        src: 'locale/**/*.po'
+      }]
+    }
+  });
 };
