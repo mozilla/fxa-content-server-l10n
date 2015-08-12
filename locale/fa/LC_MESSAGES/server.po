@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-05 21:25+0000\n"
-"PO-Revision-Date: 2015-02-09 13:57+0000\n"
-"Last-Translator: Amir <amir_farsi@ymail.com>\n"
+"PO-Revision-Date: 2015-08-11 14:26:26.496282\n"
+"Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -122,6 +122,8 @@ msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
+"این ایمیل به صورت خودکار ارسال شده؛ اگر اشتباها آن را دریافت کرده‌اید، نیاز "
+"به انجام کار خاصی نیست."
 
 #: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
@@ -130,6 +132,8 @@ msgid ""
 "For more information, please visit <a "
 "href='https://support.mozilla.org'>Mozilla Support</a>"
 msgstr ""
+"برای اطلاعات بیشتر، لطفا از <a href='https://support.mozilla.org'>پشتیبانی "
+"موزیلا</a> دیدن کنید"
 
 #: templates/reset.txt:3
 msgid "Reset password:"
@@ -139,7 +143,7 @@ msgstr "بازنشانی گذرواژه:"
 #: templates/new_sync_device.txt:4 templates/password_changed.txt:4
 #: templates/password_reset.txt:4
 msgid "For more information, please visit https://support.mozilla.org"
-msgstr ""
+msgstr "برای اطلاعات بیشتر، لطفا از https://support.mozilla.org دیدن کنید"
 
 #: templates/unlock.html:2 templates/unlock.txt:1
 msgid ""
@@ -147,6 +151,8 @@ msgid ""
 "account-level activities, please click the link to re-verify your account "
 "now."
 msgstr ""
+"بدلیل مسائل امنیتی حساب فایرفاکس شما قفل شده است. برای انجام فعالیت‌ها در "
+"سطح حساب، لطفا برای تایید دوباره حساب خود روی پیوند کلیک کنید."
 
 #: templates/unlock.html:3
 msgid "Verify account"
@@ -163,6 +169,7 @@ msgstr ""
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
 msgstr ""
+"%(email)s، شما تنها چند کلیک تا پایانِ تایید حساب فایرفاکس خود فاصله دارید."
 
 #: templates/verify.html:4
 msgid "Verify"
@@ -193,6 +200,8 @@ msgid ""
 "A new device is now syncing with all of the devices connected to your "
 "Firefox Account."
 msgstr ""
+"هم‌اکنون یک دستگاه جدید با تمام دستگاه‌های متصل به حساب فایرفاکس در حال "
+"بهنگام‌سازی است."
 
 #: templates/new_sync_device.html:4
 msgid ""
@@ -200,20 +209,25 @@ msgid ""
 "Account, you should change your password immediately at <a "
 "href='%(resetLink)s'>%(resetLink)s</a>."
 msgstr ""
+"این ایمیل بصورت خودکار ارسال شده؛ اگر شما یک دستگاه جدید به حساب فایرفاکس "
+"خود اضافه نکرده‌اید، باید گذرواژه‌ی خود را سریعا در <a "
+"href='%(resetLink)s'>%(resetLink)s</a> سریعا تغییر دهید."
 
 #: templates/new_sync_device.txt:3
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
 "Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
+"این ایمیل بصورت خودکار ارسال شده؛ اگر شما یک دستگاه جدید به حساب فایرفاکس "
+"خود اضافه نکرده‌ای، باید سریعا گذرواژه خود را در %(resetLink)s تغییر دهید."
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "گذرواژه با موفقیت تغییر کرد"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr ""
+msgstr "گذرواژه حساب فایرفاکس شما با موفقیت تغییر کرد."
 
 #: templates/password_changed.html:4
 msgid ""
@@ -221,12 +235,17 @@ msgid ""
 "Firefox Account, you should reset it immediately at <a "
 "href='%(resetLink)s'>%(resetLink)s</a>."
 msgstr ""
+"این ایمیل بصورت خودکار ارسال شده است؛ اگر شما گذرواژه خود را در حساب "
+"فایرفاکس تغییر نداده‌اید، باید سریعا آن را در <a "
+"href='%(resetLink)s'>%(resetLink)s</a> تغییر دهید."
 
 #: templates/password_changed.txt:3
 msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"این ایمیل بصورت خودکار ارسال شده است؛ اگر شما گذرواژه حساب فایرفاکس خود را "
+"تغییر نداده‌اید، با سریعا آن را در %(resetLink)s تغییر دهید."
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
 msgid "Password reset successfully"
@@ -234,7 +253,7 @@ msgstr ""
 
 #: templates/password_reset.html:3 templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr ""
+msgstr "حساب فایرفاکس شما با موفقیت بازنشانی شد."
 
 #: templates/password_reset.html:4
 msgid ""
@@ -242,12 +261,17 @@ msgid ""
 " Account, you should reset it immediately at <a "
 "href='%(resetLink)s'>%(resetLink)s</a>."
 msgstr ""
+"این ایمیل بصورت خودکار ارسال شده است؛ اگر شما گذرواژه حساب فایرفاکس خود را "
+"تغییر نداده‌اید، باید سریعا آن را در <a "
+"href='%(resetLink)s'>%(resetLink)s</a> تغییر دهید."
 
 #: templates/password_reset.txt:3
 msgid ""
 "This is an automated email; if you didn’t reset the password to your Firefox"
 " Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"این ایمیل بصورت خودکار ارسال شده است؛ اگر شما گذرواژه حساب خود را تغییر "
+"نداده‌اید، باید آن را سریعا در %(resetLink)s تغییر دهید."
 
 #: mailer.js:82
 msgid "Verify your Firefox Account"
