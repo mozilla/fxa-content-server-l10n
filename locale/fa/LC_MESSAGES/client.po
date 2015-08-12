@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-05 21:25+0000\n"
-"PO-Revision-Date: 2015-08-11 15:49:36.078221\n"
+"PO-Revision-Date: 2015-08-12 12:51:46.608377\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
@@ -288,118 +288,120 @@ msgstr "سال تولد مورد نیاز است"
 
 #: app/scripts/lib/auth-errors.js:159
 msgid "A usable image was not found"
-msgstr ""
+msgstr "تصویر قابل استفاده‌ای پیدا نشد"
 
 #: app/scripts/lib/auth-errors.js:163
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "نمی‌توان دوربین را راه‌اندازی کرد"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Valid URL required"
-msgstr ""
+msgstr "آدرس اینترنتی معتبر لازم است"
 
 #: app/scripts/lib/auth-errors.js:171
 msgid "Valid birthday required"
-msgstr ""
+msgstr "تاریخ تولد معتبر لازم است"
 
 #: app/scripts/lib/auth-errors.js:179
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "ایمیل تایید شما هم‌اکنون مرجوع شد. ایمیل خود را اشتباه تایپ کردید؟"
 
 #: app/scripts/lib/auth-errors.js:187
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "یک ایمیل معتبر وارد کنید. firefox.com سرویس ایمیل ارائه نمی‌کند."
 
 #: app/scripts/lib/auth-errors.js:195
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
+"حساب‌های فایرفاکس تنها می‌توانند در یک IFRAME در سایت‌های تایید شده قرار "
+"بگیرند"
 
 #: app/scripts/lib/auth-errors.js:203
 msgid "/force_auth requires an email"
-msgstr ""
+msgstr "/force_auth نیاز به یک ایمیل دارد"
 
 #: app/scripts/lib/auth-errors.js:207
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
-msgstr ""
+msgstr "پیوندی که برای تایید ایمیل خود روی آن کلیک کردید منقضی شده است."
 
 #: app/scripts/lib/auth-errors.js:211
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
-msgstr ""
+msgstr "پیوندِ تایید معیوب است"
 
 #: app/scripts/lib/auth-errors.js:219
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "ابعاد تصویر باید حداقل ۱۰۰×۱۰۰ پیکسل باشد"
 
 #: app/scripts/lib/auth-errors.js:223
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "ثبت‌نام به زودی برای فایرفاکس iOS خواهد آمد"
 
 #: app/scripts/lib/auth-errors.js:227
 msgid "Signup has been disabled"
-msgstr ""
+msgstr "ثبت‌نام غیرفعال شده است"
 
 #: app/scripts/lib/mailcheck.js:57
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
-msgstr ""
+msgstr "آیا منظور شما <span tabindex=\"1\">%(domain)s</span> بود؟"
 
 #: app/scripts/lib/oauth-errors.js:24
 msgid "Unknown client"
-msgstr ""
+msgstr "کارگیر ناشناس"
 
 #: app/scripts/lib/oauth-errors.js:28
 msgid "Incorrect redirect_uri"
-msgstr ""
+msgstr "redirect_uri نامعتبر"
 
 #: app/scripts/lib/oauth-errors.js:32
 msgid "Invalid assertion"
-msgstr ""
+msgstr "اعلان نامعتبر"
 
 #: app/scripts/lib/oauth-errors.js:36
 msgid "Unknown code"
-msgstr ""
+msgstr "کد نامعتبر"
 
 #: app/scripts/lib/oauth-errors.js:40
 msgid "Incorrect code"
-msgstr ""
+msgstr "کد نادرست"
 
 #: app/scripts/lib/oauth-errors.js:44
 msgid "Expired code"
-msgstr ""
+msgstr "کد منقضی شده"
 
 #: app/scripts/lib/oauth-errors.js:52 app/scripts/lib/oauth-errors.js:74
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr ""
+msgstr "پارامتر OAuth نامعتبر: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:60 app/scripts/lib/profile-errors.js:18
 msgid "Unauthorized"
-msgstr ""
+msgstr "دسترسی مجاز نیست"
 
 #: app/scripts/lib/oauth-errors.js:64
 msgid "Forbidden"
-msgstr ""
+msgstr "ممنوع"
 
 #: app/scripts/lib/oauth-errors.js:86
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "خطایی پیش آمد. لطفا این زبانه را ببندید و دوباره تلاش کنید."
 
 #: app/scripts/lib/oauth-errors.js:106
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "پارامتر OAuth ناموجود: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:26
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "این ارائه‌دهنده‌ی تصویر پشتیبانی نمی‌شود"
 
 #: app/scripts/lib/profile-errors.js:30
 msgid "Image processing error"
-msgstr ""
+msgstr "خطای پردازش تصویر"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
-msgstr ""
+msgstr "بهنگام‌سازی فایرفاکس"
 
 #: app/scripts/lib/strings.js:19
 msgid ""
@@ -408,62 +410,67 @@ msgid ""
 "href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
 "(%(serviceUri)s)."
 msgstr ""
+"با ادامه دادن شما <a id=\"service-tos\" href=\"%(termsUri)s\">شرایط استفاده "
+"از سرویس</a> و <a id=\"service-pp\" href=\"%(privacyUri)s\">اطلاعیه‌ی "
+"حریم‌خصوصی</a> مربوط به %(serviceName)s (%(serviceUri)s) را می‌پذیرید."
 
 #: app/scripts/lib/strings.js:23
 msgid "Edit profile"
-msgstr ""
+msgstr "ویرایش نمایه"
 
 #: app/scripts/lib/strings.js:24
 msgid "Name"
-msgstr ""
+msgstr "نام"
 
 #: app/scripts/lib/strings.js:27
 msgid "Bookmarks"
-msgstr ""
+msgstr "نشانک‌ها"
 
 #: app/scripts/lib/strings.js:28
 msgid "History"
-msgstr ""
+msgstr "تاریخچه"
 
 #: app/scripts/lib/strings.js:29
 msgid "Tabs"
-msgstr ""
+msgstr "زبانه‌ها"
 
 #: app/scripts/lib/strings.js:30
 msgid "Passwords"
-msgstr ""
+msgstr "گذرواژه‌ها"
 
 #: app/scripts/lib/strings.js:31
 msgid "Desktop Add-ons"
-msgstr ""
+msgstr "افزونه‌های رومیزی"
 
 #: app/scripts/lib/strings.js:32
 msgid "Desktop Preferences"
-msgstr ""
+msgstr "ترجیحات رومیزی"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
-msgstr ""
+msgstr "نمی‌توان حساب ایجاد کرد"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
 msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr ""
+msgstr "برای ساخت حساب فایرفاکس باید به سن مشخصی&nbsp;رسیده باشید."
 
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
-msgstr ""
+msgstr "اطلاعات بیشتر."
 
 #: app/scripts/templates/change_password.mustache:1
 #: app/scripts/templates/settings.mustache:6
 msgid "Change password"
-msgstr ""
+msgstr "تغییر گذرواژه"
 
 #: app/scripts/templates/change_password.mustache:2
 msgid ""
 "Once you're finished, use your new password to sign in on all of your "
 "devices."
 msgstr ""
+"هنگامی که کار شما پایان یافت، از گذرواژه‌ی جدید برای ورود به تمام "
+"دستگاه‌هایتان استفاده کنید."
 
 #: app/scripts/templates/change_password.mustache:3
 msgid "Old password"
@@ -479,7 +486,7 @@ msgstr "گذرواژه پیشین"
 #: app/scripts/templates/sign_in.mustache:23
 #: app/scripts/templates/sign_up.mustache:13
 msgid "Show"
-msgstr ""
+msgstr "نمایش"
 
 #: app/scripts/templates/change_password.mustache:6
 #: app/scripts/templates/complete_reset_password.mustache:10
@@ -488,7 +495,7 @@ msgstr "گذرواژه جدید"
 
 #: app/scripts/templates/change_password.mustache:10
 msgid "Confirm"
-msgstr ""
+msgstr "تایید"
 
 #: app/scripts/templates/change_password.mustache:11
 #: app/scripts/templates/confirm_account_unlock.mustache:5
@@ -501,15 +508,15 @@ msgstr ""
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 #: app/scripts/templates/settings/communication_preferences.mustache:11
 msgid "Back"
-msgstr ""
+msgstr "بازگشت"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
-msgstr ""
+msgstr "پیوندِ بازکردن منقضی شده است"
 
 #: app/scripts/templates/complete_account_unlock.mustache:4
 msgid "Unlock link damaged"
-msgstr ""
+msgstr "پیوندِ بازکردن معیوب است"
 
 #: app/scripts/templates/complete_account_unlock.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:7
@@ -518,10 +525,13 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
+"تعدادی از حروف پیوندی که بر روی آن کلیک کردید حذف شده‌اند، و ممکن است توسط "
+"کارگیر ایمیل شما خراب شده باشند. با دقت از آدرس رونوشت بگیرید، و مجددا تلاش "
+"کنید."
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
-msgstr ""
+msgstr "خطا در بازکردن"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -537,45 +547,45 @@ msgstr "ایمیل مجدد ارسال شد"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
-msgstr ""
+msgstr "پیوندی که برای بازنشانی گذرواژه بر روی آن کلیک کردید منقضی شده است."
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr ""
+msgstr "برای دریافت پیوند جدید بازنشانی اینجا را کلیک کنید"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 msgid "Reset password link damaged"
-msgstr ""
+msgstr "بازنشانی گذرواژه"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
 msgid "Reset password"
-msgstr ""
+msgstr "بازنشانی گذرواژه"
 
 #: app/scripts/templates/complete_reset_password.mustache:13
 msgid "Repeat password"
-msgstr ""
+msgstr "تکرار گذرواژه"
 
 #: app/scripts/templates/complete_reset_password.mustache:17
 #: app/scripts/templates/reset_password.mustache:5
 msgid "Next"
-msgstr ""
+msgstr "بعدی"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
-msgstr ""
+msgstr "پیوندِ تایید منقضی شده است"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
 msgid "Click here to receive a new verification link"
-msgstr ""
+msgstr "برای دریافت یک ایمیلِ جدیدِ تایید اینجا را کلیک کنید"
 
 #: app/scripts/templates/complete_sign_up.mustache:10
 msgid "Verification error"
-msgstr ""
+msgstr "خطای تایید"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
-msgstr ""
+msgstr "حساب خود را تایید کنید"
 
 #: app/scripts/templates/confirm.mustache:3
 #: app/scripts/templates/confirm_account_unlock.mustache:3
@@ -585,7 +595,7 @@ msgstr "ایمیل ارسال شد"
 
 #: app/scripts/templates/confirm.mustache:4
 msgid "A verification link has been sent&nbsp;to %(email)s"
-msgstr ""
+msgstr "یک ایمیل حاوی پیوند تایید به آدرس %(email)s ارسال شده است"
 
 #: app/scripts/templates/confirm.mustache:5
 #: app/scripts/templates/confirm_account_unlock.mustache:6
@@ -595,7 +605,7 @@ msgstr "ارسال دوباره ایمیل"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:1
 msgid "Unlock email sent"
-msgstr ""
+msgstr "ایمیل بازکردن ارسال شد"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
@@ -603,6 +613,8 @@ msgid ""
 "level activities, please re-verify your account by clicking the verification"
 " link sent to %(email)s"
 msgstr ""
+"به دلایل امنیتی حساب شما قفل شده است. برای انجام فعالیت‌ها در سطح حساب، لطفا"
+" مجددا حساب خود را از طریق پیوند ارسال شده به %(email)s تایید کنید"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -621,11 +633,11 @@ msgstr "یک لینک بازنشانی به %(email)s ارسال شد"
 #: app/scripts/templates/sign_in.mustache:15
 #: app/scripts/templates/sign_in.mustache:24
 msgid "Sign in"
-msgstr ""
+msgstr "ورود"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies required"
-msgstr ""
+msgstr "کوکی‌ها لازم هستند"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -633,25 +645,29 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
+"لطفا کوکی‌ها، که توسط حساب‌های فایرفاکس مورد نیاز می‌باشند را در مرورگر خود "
+"فعال کنید. کوکی‌ها داده‌های کوچکی هستند که بر روی مرورگر شما ذخیره می‌شوند و"
+" امکاناتی نظیر به خاطر سپردن شما بین نشست‌های مختلف را فراهم می‌کنند."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
-msgstr ""
+msgstr "اطلاعات بیشتر"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "تلاش دوباره"
 
 #: app/scripts/templates/delete_account.mustache:1
 #: app/scripts/templates/delete_account.mustache:5
 #: app/scripts/templates/settings.mustache:7
 msgid "Delete account"
-msgstr ""
+msgstr "حذف حساب"
 
 #: app/scripts/templates/delete_account.mustache:2
 msgid ""
 "Are you sure you want to delete your account? This action cannot be undone."
 msgstr ""
+"آیا مطمئن هستید که می‌خواهید حساب خود را حذف کنید؟ این عمل قابل برگشت نیست."
 
 #: app/scripts/templates/delete_account.mustache:3
 #: app/scripts/templates/force_auth.mustache:3
@@ -663,7 +679,7 @@ msgstr "گذرواژه"
 
 #: app/scripts/templates/force_auth.mustache:1
 msgid "Sign in to continue"
-msgstr ""
+msgstr "برای ادامه وارد شوید"
 
 #: app/scripts/templates/force_auth.mustache:8
 #: app/scripts/templates/sign_in.mustache:12
@@ -680,6 +696,9 @@ msgid ""
 "href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
 "href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
+"با ادامه دادن، شما با <a id=\"fxa-tos\" href=\"/legal/terms\">قوانین استفاده"
+" از سرویس</a> و <a id=\"fxa-pp\" href=\"/legal/privacy\">اطلاعیه "
+"حریم‌خصوصی</a> سرویس‌های ابری فایرفاکس را می‌پذیرید."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -688,62 +707,62 @@ msgstr "سرویس‌های ابری فایرفاکس"
 
 #: app/scripts/templates/legal.mustache:2
 msgid "Legal"
-msgstr ""
+msgstr "حقوقی"
 
 #: app/scripts/templates/legal.mustache:3
 #: app/scripts/templates/settings.mustache:10
 #: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
-msgstr ""
+msgstr "قوانین استفاده از سرویس"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
 #: app/scripts/templates/settings.mustache:11
 msgid "Privacy Notice"
-msgstr ""
+msgstr "اطلاعیه حریم‌شخصی"
 
 #: app/scripts/templates/marketing_snippet.mustache:1
 msgid "Stay in sync on the go:"
-msgstr ""
+msgstr "همواره بهنگام باشید:"
 
 #: app/scripts/templates/marketing_snippet.mustache:2
 msgid "Get Firefox for Android"
-msgstr ""
+msgstr "فایرفاکس برای اندروید را دریافت کنید"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:1
 #: app/scripts/templates/marketing_snippet_ios.mustache:5
 #: app/scripts/templates/marketing_snippet_ios.mustache:9
 msgid "Get the full Sync experience."
-msgstr ""
+msgstr "تجربه بهنگام‌سازی کامل را داشته باشید."
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:2
 #: app/scripts/templates/marketing_snippet_ios.mustache:12
 msgid "Firefox is coming soon to iOS!"
-msgstr ""
+msgstr "فایرفاکس بزودی برای iOS عرضه می‌شود!"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:3
 #: app/scripts/templates/marketing_snippet_ios.mustache:13
 msgid "Sign up to learn more"
-msgstr ""
+msgstr "برای اطلاعات بیشتر ثبت‌نام کنید"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:6
 #: app/scripts/templates/marketing_snippet_ios.mustache:7
 #: app/scripts/templates/marketing_snippet_ios.mustache:11
 msgid "Download Firefox for Android."
-msgstr ""
+msgstr "بارگیری فایرفاکس برای اندروید."
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr ""
+msgstr "دریافت فایرفاکس برای دستگاه‌های همراه."
 
 #: app/scripts/templates/permissions.mustache:1
 #: app/scripts/templates/settings/gravatar_permissions.mustache:1
 msgid "Request for permission"
-msgstr ""
+msgstr "درخواست برای مجوز"
 
 #: app/scripts/templates/permissions.mustache:2
 #: app/scripts/templates/settings/gravatar_permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr ""
+msgstr "%(serviceName)s اطلاعات مقابل را از حساب شما می‌خواهد:"
 
 #: app/scripts/templates/permissions.mustache:3
 #: app/scripts/templates/reset_password.mustache:3
@@ -865,7 +884,7 @@ msgstr "ورود"
 
 #: app/scripts/templates/sign_up.mustache:20
 msgid "Choose what to sync"
-msgstr ""
+msgstr "انتخاب کنید که چه چیزهایی همگام‌ شوند"
 
 #: app/scripts/templates/sign_up.mustache:22
 msgid "Already have an account? Sign in."
