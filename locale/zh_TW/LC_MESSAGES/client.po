@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-05 21:25+0000\n"
-"PO-Revision-Date: 2015-07-24 02:52+0000\n"
+"PO-Revision-Date: 2015-08-12 02:26+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1437706372.0\n"
+"X-POOTLE-MTIME: 1439346394.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -333,11 +333,11 @@ msgstr "圖片尺寸需大於 100x100 像素"
 
 #: app/scripts/lib/auth-errors.js:223
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "即將可在 Firefox for iOS 上註冊"
 
 #: app/scripts/lib/auth-errors.js:227
 msgid "Signup has been disabled"
-msgstr ""
+msgstr "已停用註冊"
 
 #: app/scripts/lib/mailcheck.js:57
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -419,27 +419,27 @@ msgstr "名稱"
 
 #: app/scripts/lib/strings.js:27
 msgid "Bookmarks"
-msgstr ""
+msgstr "書籤"
 
 #: app/scripts/lib/strings.js:28
 msgid "History"
-msgstr ""
+msgstr "紀錄"
 
 #: app/scripts/lib/strings.js:29
 msgid "Tabs"
-msgstr ""
+msgstr "分頁"
 
 #: app/scripts/lib/strings.js:30
 msgid "Passwords"
-msgstr ""
+msgstr "密碼"
 
 #: app/scripts/lib/strings.js:31
 msgid "Desktop Add-ons"
-msgstr ""
+msgstr "桌面版附加元件"
 
 #: app/scripts/lib/strings.js:32
 msgid "Desktop Preferences"
-msgstr ""
+msgstr "桌面版偏好設定"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -839,7 +839,7 @@ msgstr "繼續前往 %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr ""
+msgstr "登入到您的 Firefox 帳號來轉移您的同步資料。"
 
 #: app/scripts/templates/sign_in.mustache:13
 #: app/scripts/templates/sign_in.mustache:16
@@ -857,7 +857,7 @@ msgstr "註冊 Firefox 帳號"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr ""
+msgstr "註冊新的 Firefox 帳號來轉移您的同步資料。"
 
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/communication_preferences.mustache:4
