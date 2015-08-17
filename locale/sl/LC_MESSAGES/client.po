@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-05 21:25+0000\n"
-"PO-Revision-Date: 2015-08-06 04:00:25.145288\n"
-"Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
+"PO-Revision-Date: 2015-08-13 00:09:07.950481\n"
+"Last-Translator: Marko <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -914,7 +914,7 @@ msgstr "Slikaj"
 
 #: app/scripts/templates/settings/avatar_change.mustache:2
 msgid "Upload"
-msgstr "Pošlji"
+msgstr "Naloži"
 
 #: app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Camera"
