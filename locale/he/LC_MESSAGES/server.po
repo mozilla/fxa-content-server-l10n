@@ -96,7 +96,6 @@ msgstr ""
 #: server/templates/pages/src/terms.html:4
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
-#, fuzzy
 msgid "Firefox cloud services"
 msgstr "Firefox Accounts"
 
@@ -111,7 +110,6 @@ msgid "Are you sure?"
 msgstr ""
 
 #: templates/reset.html:3 templates/reset.txt:2
-#, fuzzy
 msgid "Please confirm that you'd like to reset the password for %(email)s."
 msgstr "התקבלה בקשה לאפס ססמה עבור %(email)s."
 
@@ -121,7 +119,6 @@ msgstr "איפוס ססמה"
 
 #: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
 #: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
-#, fuzzy
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
