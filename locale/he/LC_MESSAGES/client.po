@@ -107,6 +107,7 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr ""
 
 #: app/scripts/views/delete_account.js:53
+#, fuzzy
 msgid "Account deleted successfully"
 msgstr "כניסה בוצעה בהצלחה"
 
@@ -151,6 +152,7 @@ msgid "Unexpected error"
 msgstr "תקלה לא צפויה"
 
 #: app/scripts/lib/auth-errors.js:27 app/scripts/lib/oauth-errors.js:48
+#, fuzzy
 msgid "Invalid token"
 msgstr "ססמה שגויה"
 
@@ -237,6 +239,7 @@ msgid "no message"
 msgstr ""
 
 #: app/scripts/lib/auth-errors.js:115
+#, fuzzy
 msgid "Session expired. Sign in to continue."
 msgstr "נא להתחבר כדי להמשיך"
 
@@ -245,6 +248,7 @@ msgid "Cookies are still disabled"
 msgstr ""
 
 #: app/scripts/lib/auth-errors.js:123
+#, fuzzy
 msgid "Passwords do not match"
 msgstr "הססמאות אינן תואמות"
 
@@ -253,14 +257,17 @@ msgid "Working…"
 msgstr ""
 
 #: app/scripts/lib/auth-errors.js:131
+#, fuzzy
 msgid "Could not get Privacy Notice"
 msgstr "הצהרת פרטיות"
 
 #: app/scripts/lib/auth-errors.js:135
+#, fuzzy
 msgid "Could not get Terms of Service"
 msgstr "תנאי שירות"
 
 #: app/scripts/lib/auth-errors.js:139
+#, fuzzy
 msgid "Your new password must be different"
 msgstr "הססמה החדשה אינה יכולה להיות זהה לססמה הישנה"
 
@@ -293,10 +300,12 @@ msgid "Could not initialize camera"
 msgstr ""
 
 #: app/scripts/lib/auth-errors.js:167
+#, fuzzy
 msgid "Valid URL required"
 msgstr "נדרשת כתובת דואר אלקטרוני חוקית"
 
 #: app/scripts/lib/auth-errors.js:171
+#, fuzzy
 msgid "Valid birthday required"
 msgstr "נדרשת כתובת דואר אלקטרוני חוקית"
 
@@ -344,14 +353,17 @@ msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr ""
 
 #: app/scripts/lib/oauth-errors.js:24
+#, fuzzy
 msgid "Unknown client"
 msgstr "חשבון לא מוכר"
 
 #: app/scripts/lib/oauth-errors.js:28
+#, fuzzy
 msgid "Incorrect redirect_uri"
 msgstr "ססמה שגויה "
 
 #: app/scripts/lib/oauth-errors.js:32
+#, fuzzy
 msgid "Invalid assertion"
 msgstr "ססמה שגויה"
 
@@ -396,6 +408,7 @@ msgid "Image processing error"
 msgstr ""
 
 #: app/scripts/lib/service-name.js:16
+#, fuzzy
 msgid "Firefox Sync"
 msgstr "Firefox Accounts"
 
@@ -522,6 +535,7 @@ msgid "Unlock error"
 msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:1
+#, fuzzy
 msgid "Reset password link expired"
 msgstr "איפוס ססמה"
 
@@ -542,6 +556,7 @@ msgid "Click here to receive a new reset link"
 msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:6
+#, fuzzy
 msgid "Reset password link damaged"
 msgstr "איפוס ססמה"
 
@@ -551,6 +566,7 @@ msgid "Reset password"
 msgstr "איפוס ססמה"
 
 #: app/scripts/templates/complete_reset_password.mustache:13
+#, fuzzy
 msgid "Repeat password"
 msgstr "חזרה על הססמה"
 
@@ -568,6 +584,7 @@ msgid "Click here to receive a new verification link"
 msgstr ""
 
 #: app/scripts/templates/complete_sign_up.mustache:10
+#, fuzzy
 msgid "Verification error"
 msgstr "קוד אימות שגוי"
 
@@ -582,6 +599,7 @@ msgid "Email Sent"
 msgstr "הודעת דואר אלקטרוני נשלחה"
 
 #: app/scripts/templates/confirm.mustache:4
+#, fuzzy
 msgid "A verification link has been sent&nbsp;to %(email)s"
 msgstr "קישור לאימות נשלח אל %(email)s"
 
@@ -622,6 +640,7 @@ msgid "Sign in"
 msgstr "התחברות"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
+#, fuzzy
 msgid "Cookies required"
 msgstr "נדרשת כתובת דואר אלקטרוני חוקית"
 
@@ -633,6 +652,7 @@ msgid ""
 msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:3
+#, fuzzy
 msgid "Learn more"
 msgstr "מידע נוסף"
 
@@ -777,6 +797,7 @@ msgid "Success"
 msgstr "הצלחה"
 
 #: app/scripts/templates/ready.mustache:8
+#, fuzzy
 msgid "You are now ready to use %(serviceName)s"
 msgstr "כעת ניתן להשתמש ב־%(serviceName)s."
 
@@ -809,6 +830,7 @@ msgid "Change"
 msgstr ""
 
 #: app/scripts/templates/settings.mustache:3
+#, fuzzy
 msgid "You are signed in as"
 msgstr "מחובר כעת בתור  %(email)s"
 
@@ -823,6 +845,7 @@ msgstr "התנתקות"
 
 #: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
+#, fuzzy
 msgid "Continue to %(serviceName)s"
 msgstr "כעת ניתן להשתמש ב־%(serviceName)s."
 
@@ -832,6 +855,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_in.mustache:13
 #: app/scripts/templates/sign_in.mustache:16
+#, fuzzy
 msgid "Use a different account"
 msgstr "חשבון לא מאומת"
 
@@ -854,6 +878,7 @@ msgid "Get the latest news about Mozilla and Firefox."
 msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:18
+#, fuzzy
 msgid "Sign up"
 msgstr "התנתקות"
 
@@ -874,6 +899,7 @@ msgstr ""
 #: app/scripts/templates/settings/avatar_change.mustache:1
 #: app/scripts/templates/settings/avatar_crop.mustache:1
 #: app/scripts/templates/settings/avatar_gravatar.mustache:1
+#, fuzzy
 msgid "Account picture"
 msgstr "החשבון אומת"
 
