@@ -1,19 +1,19 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-05 21:25+0000\n"
-"PO-Revision-Date: 2015-03-14 18:53+0000\n"
-"Last-Translator: Marko <marko.andrejic93@gmail.com>\n"
+"PO-Revision-Date: 2015-07-28 05:07:45\n"
+"Last-Translator: Vanja Tumbas <tumbas93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1426359229.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pontoon\n"
+"X-POOTLE-MTIME: 1438060065.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -81,12 +81,13 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+"You are using an <strong>outdated</strong> browser. Please <a "
+"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+"experience."
 msgstr ""
-"Koristite <strong>zastareo</strong> pregledač. Molimo Vas <a href=\"http://"
-"browsehappy.com/\">nadogradite Vaš pregledač</a> da biste poboljšali Vaše "
-"iskustvo."
+"Koristite <strong>zastareo</strong> pregledač. Molimo Vas <a "
+"href=\"http://browsehappy.com/\">nadogradite Vaš pregledač</a> da biste "
+"poboljšali Vaše iskustvo."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -136,11 +137,11 @@ msgstr ""
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5
 msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
+"For more information, please visit <a "
+"href='https://support.mozilla.org'>Mozilla Support</a>"
 msgstr ""
-"Za više informacija, molimo Vas posetite <a href='https://support.mozilla."
-"org'>Mozilla podršku</a>"
+"Za više informacija, molimo Vas posetite <a "
+"href='https://support.mozilla.org'>Mozilla podršku</a>"
 
 #: templates/reset.txt:3
 msgid "Reset password:"
@@ -200,92 +201,145 @@ msgstr "Ponovo verifikujte Vaš nalog"
 
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
 msgid "Account activity notice"
-msgstr ""
+msgstr "Obaveštenje o aktivnosti naloga"
 
 #: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
 msgid ""
 "A new device is now syncing with all of the devices connected to your "
 "Firefox Account."
 msgstr ""
+"Novi uređaj se sada sinhronizuje sa svim uređajima koji su povezani na "
+"Firefox nalog."
 
 #: templates/new_sync_device.html:4
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
-"Account, you should change your password immediately at <a href='%(resetLink)"
-"s'>%(resetLink)s</a>."
+"Account, you should change your password immediately at <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
 msgstr ""
+"Ovo je automatska poruka; ako niste dodali novi uređaj na Vaš Firefox nalog,"
+" treba odmah da promenite lozinku na <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/new_sync_device.txt:3
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
 "Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
+"Ovo je automatska poruka; ako niste dodali novi uređaj na Vaš Firefox nalog,"
+" treba odmah da promenite lozinku na %(resetLink)s."
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Promena lozinke je uspešna"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr ""
+msgstr "Lozinka Firefox naloga je uspešno promenjena."
 
 #: templates/password_changed.html:4
 msgid ""
 "This is an automated email; if you didn't change the password to your "
-"Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
-"%(resetLink)s</a>."
+"Firefox Account, you should reset it immediately at <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
 msgstr ""
+"Ovo je automatska poruka; ako niste promenili lozinku Vašeg Firefox naloga, "
+"treba odmah da je resetujete <a href='%(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/password_changed.txt:3
 msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"Ovo je automatska poruka; ako niste promenili lozinku Vašeg Firefox naloga, "
+"treba odmah da je resetujete %(resetLink)s."
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Uspešno resetovanje lozinke"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr ""
+msgstr "Lozinka Firefox naloga je uspešno resetovana."
 
 #: templates/password_reset.html:4
 msgid ""
-"This is an automated email; if you didn't reset the password to your Firefox "
-"Account, you should reset it immediately at <a href='%(resetLink)s'>"
-"%(resetLink)s</a>."
+"This is an automated email; if you didn't reset the password to your Firefox"
+" Account, you should reset it immediately at <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
 msgstr ""
+"Ovo je automatska poruka; ako niste resetovali Vaš Firefox nalog, treba "
+"odmah da ga resetujete <a href='%(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox"
+" Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"Ovo je automatska poruka; ako niste resetovali Vaš Firefox nalog, treba "
+"odmah da ga resetujete %(resetLink)s."
 
 #: mailer.js:82
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "Potvrdite Vaš Firefox nalog"
 
 #: mailer.js:121
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "Resetujte lozinku Firefox naloga"
 
 #: mailer.js:155
 msgid "Re-verify your Firefox Account"
-msgstr ""
+msgstr "Ponovo potvrdite Firefox nalog"
 
 #: mailer.js:185
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "Lozinka Firefox naloga je promenjena"
 
 #: mailer.js:212
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "Lozinka Firefox naloga je resetovana"
 
 #: mailer.js:239
 msgid "A new device is now syncing to your Firefox Account"
-msgstr ""
+msgstr "Novi uređaj se sada sinhronizuje sa Vašim Firefox nalogom"
+
+#~ msgid "Reset password now"
+#~ msgstr "Resetuj lozinku sada"
+
+#~ msgid "Reset password now:"
+#~ msgstr "Resetuj lozinku sada:"
+
+#~ msgid "Firefox Account Activation"
+#~ msgstr "Aktivacija Firefox naloga"
+
+#~ msgid "Welcome!"
+#~ msgstr "Dobrodošli!"
+
+#~ msgid "Please activate your account by confirming this email address."
+#~ msgstr ""
+#~ "Molimo aktivirajte Vaš nalog tako što ćete potvrditi ovu adresu e-pošte."
+
+#~ msgid "Activate now"
+#~ msgstr "Aktiviraj sada"
+
+#~ msgid "Alternatively:"
+#~ msgstr "Alternativno:"
+
+#~ msgid ""
+#~ "For more information, please visit <a href='https://support.mozilla.org' "
+#~ "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
+#~ msgstr ""
+#~ "Za više informacija, posetite <a href='https://support.mozilla.org' "
+#~ "style='color: #0095dd; text-decoration: none;'>Mozilla podršku</a>"
+
+#~ msgid "Verify Email"
+#~ msgstr "Potvrdi e-poštu"
+
+#~ msgid "Verify your email to finish your Firefox Account registration"
+#~ msgstr "Potvrdite Vašu e-poštu da završite registraciju naloga"
+
+#~ msgid "Activate now:"
+#~ msgstr "Aktiviraj sada:"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Čestitamo!"
@@ -294,10 +348,9 @@ msgstr ""
 #~ msgstr "Sistem nedostupan, pokušajte ponovo za par minuta"
 
 #~ msgid ""
-#~ "We are currently performing some maintenance on the system, and will "
-#~ "return momentarily."
-#~ msgstr ""
-#~ "Trenutno radimo održavanje sistema, vratićemo se za nekoliko momenata."
+#~ "We are currently performing some maintenance on the system, and will return "
+#~ "momentarily."
+#~ msgstr "Trenutno radimo održavanje sistema, vratićemo se za nekoliko momenata."
 
 #~ msgid "Reset Password Request"
 #~ msgstr "Zahtev za resetovanje lozinke"
