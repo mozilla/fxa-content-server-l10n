@@ -211,7 +211,6 @@ msgid "Request body too large"
 msgstr "El cuerpo de la solicitud es muy largo"
 
 #: app/scripts/lib/auth-errors.js:87
-#, fuzzy
 msgid "Attempt limit exceeded"
 msgstr "Superaste el límite de intentos."
 
@@ -294,12 +293,10 @@ msgid "Could not initialize camera"
 msgstr ""
 
 #: app/scripts/lib/auth-errors.js:167
-#, fuzzy
 msgid "Valid URL required"
 msgstr "Se requiere una dirección de correo electrónico válida"
 
 #: app/scripts/lib/auth-errors.js:171
-#, fuzzy
 msgid "Valid birthday required"
 msgstr "Se requiere una dirección de correo electrónico válida"
 
@@ -322,7 +319,6 @@ msgstr "/force_auth requiere un correo electrónico"
 #: app/scripts/lib/auth-errors.js:207
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
-#, fuzzy
 msgid "The link you clicked to verify your email is expired."
 msgstr "El enlace en que hiciste clic para restablecer tu contraseña expiró"
 
@@ -348,17 +344,14 @@ msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr ""
 
 #: app/scripts/lib/oauth-errors.js:24
-#, fuzzy
 msgid "Unknown client"
 msgstr "Cuenta desconocida"
 
 #: app/scripts/lib/oauth-errors.js:28
-#, fuzzy
 msgid "Incorrect redirect_uri"
 msgstr "Cuenta incorrecta de correo electrónico"
 
 #: app/scripts/lib/oauth-errors.js:32
-#, fuzzy
 msgid "Invalid assertion"
 msgstr "Identificador no válido"
 
@@ -534,7 +527,6 @@ msgid "Unlock error"
 msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:1
-#, fuzzy
 msgid "Reset password link expired"
 msgstr "Reiniciar contraseña"
 
@@ -555,7 +547,6 @@ msgid "Click here to receive a new reset link"
 msgstr "Hacé clic aquí para recibir un nuevo enlace para restablecer"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
-#, fuzzy
 msgid "Reset password link damaged"
 msgstr "Reiniciar contraseña"
 
@@ -578,7 +569,6 @@ msgid "Verification link expired"
 msgstr "El enlace de verificación ha expirado"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
-#, fuzzy
 msgid "Click here to receive a new verification link"
 msgstr "Hacé clic aquí para recibir un nuevo enlace para restablecer"
 
@@ -637,7 +627,6 @@ msgid "Sign in"
 msgstr "Ingresar"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-#, fuzzy
 msgid "Cookies required"
 msgstr "Se requiere tener habilitadas las cookies"
 
@@ -799,7 +788,6 @@ msgid "Success"
 msgstr "Éxito"
 
 #: app/scripts/templates/ready.mustache:8
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Ya estás listo para usar %(serviceName)s."
 
@@ -848,7 +836,6 @@ msgstr "Salir"
 
 #: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
-#, fuzzy
 msgid "Continue to %(serviceName)s"
 msgstr "Ya estás listo para usar %(serviceName)s."
 
@@ -858,7 +845,6 @@ msgstr ""
 
 #: app/scripts/templates/sign_in.mustache:13
 #: app/scripts/templates/sign_in.mustache:16
-#, fuzzy
 msgid "Use a different account"
 msgstr "Cuenta no verificada"
 
@@ -881,7 +867,6 @@ msgid "Get the latest news about Mozilla and Firefox."
 msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:18
-#, fuzzy
 msgid "Sign up"
 msgstr "Salir"
 
@@ -902,7 +887,6 @@ msgstr ""
 #: app/scripts/templates/settings/avatar_change.mustache:1
 #: app/scripts/templates/settings/avatar_crop.mustache:1
 #: app/scripts/templates/settings/avatar_gravatar.mustache:1
-#, fuzzy
 msgid "Account picture"
 msgstr "Cuenta verificada"
 
