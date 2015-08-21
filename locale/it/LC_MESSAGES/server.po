@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-05 21:25+0000\n"
-"PO-Revision-Date: 2015-07-24 16:12+0000\n"
+"PO-Revision-Date: 2015-08-21 17:25+0000\n"
 "Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1437754357.0\n"
+"X-POOTLE-MTIME: 1440177946.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -24,7 +24,7 @@ msgstr ""
 #: templates/new_sync_device.html:1 templates/password_changed.html:1
 #: templates/password_reset.html:1
 msgid "Firefox Accounts"
-msgstr "Firefox Account"
+msgstr "Account Firefox"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
@@ -91,7 +91,7 @@ msgstr ""
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr "Per poter utilizzare Firefox Account è necessario attivare JavaScript."
+msgstr "Per poter utilizzare Account Firefox è necessario attivare JavaScript."
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:5
@@ -159,9 +159,9 @@ msgid ""
 "account-level activities, please click the link to re-verify your account "
 "now."
 msgstr ""
-"Il tuo account Firefox Account è stato bloccato per motivi di sicurezza. Per "
-"effettuare modifiche relative alle impostazioni dell’account fai clic sul "
-"link per ripetere la verifica dell’account."
+"L’account Firefox è stato bloccato per motivi di sicurezza. Per effettuare "
+"modifiche relative alle impostazioni dell’account fai clic sul link e "
+"verificalo nuovamente."
 
 #: templates/unlock.html:3
 msgid "Verify account"
@@ -177,24 +177,23 @@ msgstr "Manca poco…"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr ""
-"%(email)s, tra pochi secondi questo account Firefox Account sarà confermato."
+msgstr "%(email)s, tra pochi secondi questo account Firefox sarà verificato."
 
 #: templates/verify.html:4
 msgid "Verify"
-msgstr "Conferma"
+msgstr "Verifica"
 
 #: templates/verify.txt:3
 msgid "Verify:"
-msgstr "Conferma:"
+msgstr "Verifica:"
 
 #: mailer.js:73
 msgid "Verify your account"
-msgstr "Conferma l’account"
+msgstr "Verifica l’account"
 
 #: mailer.js:112
 msgid "Reset your password"
-msgstr "Reimpostazione della password di Firefox Account"
+msgstr "Reimpostazione della password dell’account Firefox"
 
 #: mailer.js:146
 msgid "Re-verify your account"
@@ -210,7 +209,7 @@ msgid ""
 "Firefox Account."
 msgstr ""
 "È in corso la sincronizzazione di un nuovo dispositivo con quelli già "
-"collegati a Firefox Account."
+"collegati all’account Firefox."
 
 #: templates/new_sync_device.html:4
 msgid ""
@@ -219,7 +218,7 @@ msgid ""
 "s'>%(resetLink)s</a>."
 msgstr ""
 "Questo messaggio è stato inviato automaticamente. Se non hai aggiunto tu un "
-"nuovo dispositivo a Firefox Account, modifica immediatamente la password "
+"nuovo dispositivo all’account Firefox, modifica immediatamente la password "
 "visitando questa pagina: <a href='%(resetLink)s'> %(resetLink)s</a>."
 
 #: templates/new_sync_device.txt:3
@@ -228,7 +227,7 @@ msgid ""
 "Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
 "Questo messaggio è stato inviato automaticamente. Se non hai aggiunto tu un "
-"nuovo dispositivo a Firefox Account, modifica immediatamente la password "
+"nuovo dispositivo all’account Firefox, modifica immediatamente la password "
 "visitando questa pagina: %(resetLink)s."
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
@@ -237,7 +236,7 @@ msgstr "Password modificata correttamente"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr "La password di Firefox Account è stata modificata correttamente."
+msgstr "La password dell’account Firefox è stata modificata correttamente."
 
 #: templates/password_changed.html:4
 msgid ""
@@ -246,8 +245,8 @@ msgid ""
 "%(resetLink)s</a>."
 msgstr ""
 "Questo messaggio è stato inviato automaticamente. Se non hai modificato tu "
-"la password di Firefox Account, reimpostala immediatamente visitando questa "
-"pagina: <a href='%(resetLink)s'>%(resetLink)s</a>."
+"la password dell’account Firefox, reimpostala immediatamente visitando "
+"questa pagina: <a href='%(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/password_changed.txt:3
 msgid ""
@@ -255,8 +254,8 @@ msgid ""
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 "Questo messaggio è stato inviato automaticamente. Se non hai modificato tu "
-"la password di Firefox Account, reimpostala immediatamente visitando questa "
-"pagina: %(resetLink)s."
+"la password dell’account Firefox, reimpostala immediatamente visitando "
+"questa pagina: %(resetLink)s."
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
 msgid "Password reset successfully"
@@ -264,7 +263,7 @@ msgstr "Password reimpostata correttamente"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr "La password di Firefox Account è stata reimpostata correttamente."
+msgstr "La password dell’account Firefox è stata reimpostata correttamente."
 
 #: templates/password_reset.html:4
 msgid ""
@@ -273,8 +272,8 @@ msgid ""
 "%(resetLink)s</a>."
 msgstr ""
 "Questo messaggio è stato inviato automaticamente. Se non hai reimpostato tu "
-"la password di Firefox Account, reimpostala immediatamente visitando questa "
-"pagina: <a href='%(resetLink)s'>%(resetLink)s</a>."
+"la password dell’account Firefox, reimpostala immediatamente visitando "
+"questa pagina: <a href='%(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/password_reset.txt:3
 msgid ""
@@ -282,33 +281,33 @@ msgid ""
 "Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 "Questo messaggio è stato inviato automaticamente. Se non hai reimpostato tu "
-"la password di Firefox Account, reimpostala immediatamente visitando questa "
-"pagina: %(resetLink)s."
+"la password dell’account Firefox, reimpostala immediatamente visitando "
+"questa pagina: %(resetLink)s."
 
 #: mailer.js:82
 msgid "Verify your Firefox Account"
-msgstr "Verifica Firefox Account"
+msgstr "Verifica l’account Firefox"
 
 #: mailer.js:121
 msgid "Reset your Firefox Account password"
-msgstr "Reimpostazione della password di Firefox Account"
+msgstr "Reimpostazione della password dell’account Firefox"
 
 #: mailer.js:155
 msgid "Re-verify your Firefox Account"
-msgstr "Effettua nuovamente la verifica del tuo Firefox Account"
+msgstr "Effettua nuovamente la verifica dell’account Firefox"
 
 #: mailer.js:185
 msgid "Your Firefox Account password has been changed"
-msgstr "La password di Firefox Account è stata modificata"
+msgstr "La password dell’account Firefox è stata modificata"
 
 #: mailer.js:212
 msgid "Your Firefox Account password has been reset"
-msgstr "La password di Firefox Account è stata reimpostata"
+msgstr "La password dell’account Firefox è stata reimpostata"
 
 #: mailer.js:239
 msgid "A new device is now syncing to your Firefox Account"
 msgstr ""
-"È in corso la sincronizzazione di un nuovo dispositivo con Firefox Account"
+"È in corso la sincronizzazione di un nuovo dispositivo con l’account Firefox"
 
 #~ msgid "Reset password now"
 #~ msgstr "Reimposta ora la password"
