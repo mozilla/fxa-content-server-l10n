@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-05 21:25+0000\n"
-"PO-Revision-Date: 2015-08-18 20:07\n"
+"PO-Revision-Date: 2015-08-24 09:37\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -335,7 +335,7 @@ msgstr "As dimensões da imagem devem ser de pelo menos 100x100px"
 
 #: app/scripts/lib/auth-errors.js:223
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "Contas Firefox estão chegando para o Firefox para iOS"
 
 #: app/scripts/lib/auth-errors.js:227
 msgid "Signup has been disabled"
@@ -853,7 +853,7 @@ msgstr "Continue para %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr ""
+msgstr "Migre os dados do sync entrando na sua conta Firefox."
 
 #: app/scripts/templates/sign_in.mustache:13
 #: app/scripts/templates/sign_in.mustache:16
@@ -871,7 +871,7 @@ msgstr "Criar uma conta Firefox"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr ""
+msgstr "Migre os dados do sync criando uma nova conta Firefox."
 
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/communication_preferences.mustache:4
