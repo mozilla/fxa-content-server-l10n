@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-21 22:38+0000\n"
-"PO-Revision-Date: 2015-07-27 12:27+0000\n"
+"POT-Creation-Date: 2015-08-05 21:25+0000\n"
+"PO-Revision-Date: 2015-08-19 14:40+0000\n"
 "Last-Translator: Wim <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1438000046.0\n"
+"X-POOTLE-MTIME: 1439995211.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -109,7 +109,7 @@ msgstr "Wachtwurd is opnij ynsteld. Meld jo oan om troch te gean."
 msgid "Account deleted successfully"
 msgstr "Account mei sukses fuortsmiten"
 
-#: app/scripts/views/reset_password.js:82 app/scripts/views/sign_in.js:180
+#: app/scripts/views/reset_password.js:82 app/scripts/views/sign_in.js:190
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Unbekende account. <a href=\"/signup\">Registrearje</a>"
 
@@ -117,7 +117,7 @@ msgstr "Unbekende account. <a href=\"/signup\">Registrearje</a>"
 msgid "Signed out successfully"
 msgstr "Jo binne ôfmeld"
 
-#: app/scripts/views/sign_up.js:331
+#: app/scripts/views/sign_up.js:351
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Account bestiet al. <a href=\"/signin\">Oanmelde</a>"
 
@@ -152,7 +152,7 @@ msgstr ""
 msgid "Unexpected error"
 msgstr "Unferwachte flater"
 
-#: app/scripts/lib/auth-errors.js:27
+#: app/scripts/lib/auth-errors.js:27 app/scripts/lib/oauth-errors.js:48
 msgid "Invalid token"
 msgstr "Unjildich token"
 
@@ -192,8 +192,7 @@ msgstr "Unjildige ferifikaasjekoade"
 msgid "Invalid JSON in request body"
 msgstr "Unjildige JSON yn oanfraachtekst"
 
-#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:48
-#: app/scripts/lib/profile-errors.js:22
+#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/profile-errors.js:22
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Unjildige parameter yn oanfraachtekst: %(param)s"
 
@@ -201,7 +200,7 @@ msgstr "Unjildige parameter yn oanfraachtekst: %(param)s"
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Untbrekkende parameter yn oanfraachtekst: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:75 app/scripts/lib/oauth-errors.js:52
+#: app/scripts/lib/auth-errors.js:75
 msgid "Invalid request signature"
 msgstr "Unjildige oanfraachhântekening"
 
@@ -270,7 +269,7 @@ msgstr "Jo nije wachtwurd moat ferskille"
 #: app/scripts/lib/auth-errors.js:143
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/complete_reset_password.mustache:16
-#: app/scripts/templates/sign_up.mustache:12
+#: app/scripts/templates/sign_up.mustache:14
 msgid "Must be at least 8 characters"
 msgstr "Moat op syn minst 8 tekens befetsje"
 
@@ -339,6 +338,14 @@ msgstr "Ferifikaasjekeppeling skansearre"
 msgid "The image dimensions must be at least 100x100px"
 msgstr "De ôfmjittingen fan de ôfbylding moatte op syn minst 100x100px wêze"
 
+#: app/scripts/lib/auth-errors.js:223
+msgid "Signup is coming soon to Firefox for iOS"
+msgstr "Ynkoarten komt registraasje nei Firefox foar iOS"
+
+#: app/scripts/lib/auth-errors.js:227
+msgid "Signup has been disabled"
+msgstr "Registraasje is útskeakele"
+
 #: app/scripts/lib/mailcheck.js:57
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr "Bedoele jo <span tabindex=\"1\">%(domain)s</span>?"
@@ -367,6 +374,10 @@ msgstr "Net korrekte koade"
 msgid "Expired code"
 msgstr "Ferrûne koade"
 
+#: app/scripts/lib/oauth-errors.js:52 app/scripts/lib/oauth-errors.js:74
+msgid "Invalid OAuth parameter: %(param)s"
+msgstr "Net jildige OAuth-parameter: %(param)s"
+
 #: app/scripts/lib/oauth-errors.js:60 app/scripts/lib/profile-errors.js:18
 msgid "Unauthorized"
 msgstr "Net autorisearre"
@@ -374,10 +385,6 @@ msgstr "Net autorisearre"
 #: app/scripts/lib/oauth-errors.js:64
 msgid "Forbidden"
 msgstr "Net tastien"
-
-#: app/scripts/lib/oauth-errors.js:74
-msgid "Invalid OAuth parameter: %(param)s"
-msgstr "Net jildige OAuth-parameter: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:86
 msgid "Something went wrong. Please close this tab and try again."
@@ -410,28 +417,37 @@ msgstr ""
 "\"%(privacyUri)s\">Privacyferklearring</a> fan de (%(serviceUri)s) fan "
 "%(serviceName)."
 
-#: app/scripts/lib/strings.js:23 app/scripts/templates/sign_up.mustache:14
-#: app/scripts/templates/settings/communication_preferences.mustache:4
-msgid "Get the latest news about Mozilla and Firefox."
-msgstr "Untfang it lêste nijs oer Mozilla en Firefox."
-
-#: app/scripts/lib/strings.js:24 app/scripts/templates/settings.mustache:4
-#: app/scripts/templates/settings/communication_preferences.mustache:1
-msgid "Communication preferences"
-msgstr "Kommunikaasjefoarkarren"
-
-#: app/scripts/lib/strings.js:25
-#: app/scripts/templates/settings/communication_preferences.mustache:9
-msgid "Email preferences"
-msgstr "E-mailfoarkarren"
-
-#: app/scripts/lib/strings.js:28
+#: app/scripts/lib/strings.js:23
 msgid "Edit profile"
 msgstr "Profyl bewurkje"
 
-#: app/scripts/lib/strings.js:29
+#: app/scripts/lib/strings.js:24
 msgid "Name"
 msgstr "Namme"
+
+#: app/scripts/lib/strings.js:27
+msgid "Bookmarks"
+msgstr "Blêdwizers"
+
+#: app/scripts/lib/strings.js:28
+msgid "History"
+msgstr "Skiednis"
+
+#: app/scripts/lib/strings.js:29
+msgid "Tabs"
+msgstr "Ljepblêden"
+
+#: app/scripts/lib/strings.js:30
+msgid "Passwords"
+msgstr "Wachtwurden"
+
+#: app/scripts/lib/strings.js:31
+msgid "Desktop Add-ons"
+msgstr "Desktop-add-ons"
+
+#: app/scripts/lib/strings.js:32
+msgid "Desktop Preferences"
+msgstr "Desktopfoarkarren"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -471,9 +487,9 @@ msgstr "Alde wachtwurd"
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/delete_account.mustache:4
 #: app/scripts/templates/force_auth.mustache:6
-#: app/scripts/templates/sign_in.mustache:8
-#: app/scripts/templates/sign_in.mustache:21
-#: app/scripts/templates/sign_up.mustache:11
+#: app/scripts/templates/sign_in.mustache:10
+#: app/scripts/templates/sign_in.mustache:23
+#: app/scripts/templates/sign_up.mustache:13
 msgid "Show"
 msgstr "Toane"
 
@@ -620,9 +636,9 @@ msgstr "Der is in werinisjalisaasjekeppeling ferstjoerd nei %(email)s"
 #: app/scripts/templates/force_auth.mustache:7
 #: app/scripts/templates/sign_in.mustache:1
 #: app/scripts/templates/sign_in.mustache:4
-#: app/scripts/templates/sign_in.mustache:9
-#: app/scripts/templates/sign_in.mustache:13
-#: app/scripts/templates/sign_in.mustache:22
+#: app/scripts/templates/sign_in.mustache:11
+#: app/scripts/templates/sign_in.mustache:15
+#: app/scripts/templates/sign_in.mustache:24
 msgid "Sign in"
 msgstr "Oanmelde"
 
@@ -663,9 +679,9 @@ msgstr ""
 
 #: app/scripts/templates/delete_account.mustache:3
 #: app/scripts/templates/force_auth.mustache:3
-#: app/scripts/templates/sign_in.mustache:6
-#: app/scripts/templates/sign_in.mustache:18
-#: app/scripts/templates/sign_up.mustache:8
+#: app/scripts/templates/sign_in.mustache:8
+#: app/scripts/templates/sign_in.mustache:20
+#: app/scripts/templates/sign_up.mustache:10
 msgid "Password"
 msgstr "Wachtwurd"
 
@@ -674,14 +690,15 @@ msgid "Sign in to continue"
 msgstr "Meld jo oan om troch te gean"
 
 #: app/scripts/templates/force_auth.mustache:8
-#: app/scripts/templates/sign_in.mustache:10
-#: app/scripts/templates/sign_in.mustache:23
+#: app/scripts/templates/sign_in.mustache:12
+#: app/scripts/templates/sign_in.mustache:25
+#: app/scripts/templates/sign_in.mustache:27
 msgid "Forgot password?"
 msgstr "Wachtwurd ferjitten?"
 
 #: app/scripts/templates/force_auth.mustache:9
-#: app/scripts/templates/sign_in.mustache:25
-#: app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/sign_in.mustache:29
+#: app/scripts/templates/sign_up.mustache:15
 msgid ""
 "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
 "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
@@ -757,8 +774,8 @@ msgstr "%(serviceName)s freget om de folgjende ynformaasje fan jo account:"
 
 #: app/scripts/templates/permissions.mustache:3
 #: app/scripts/templates/reset_password.mustache:3
-#: app/scripts/templates/sign_in.mustache:17
-#: app/scripts/templates/sign_up.mustache:6
+#: app/scripts/templates/sign_in.mustache:19
+#: app/scripts/templates/sign_up.mustache:8
 #: app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "E-mailadres"
@@ -827,6 +844,11 @@ msgstr "Wizigje"
 msgid "You are signed in as"
 msgstr "Jo binne oanmeld as"
 
+#: app/scripts/templates/settings.mustache:4
+#: app/scripts/templates/settings/communication_preferences.mustache:1
+msgid "Communication preferences"
+msgstr "Kommunikaasjefoarkarren"
+
 #: app/scripts/templates/settings.mustache:8
 msgid "Sign out"
 msgstr "Ofmelde"
@@ -836,12 +858,17 @@ msgstr "Ofmelde"
 msgid "Continue to %(serviceName)s"
 msgstr "Trochgean nei %(serviceName)s"
 
-#: app/scripts/templates/sign_in.mustache:11
-#: app/scripts/templates/sign_in.mustache:14
+#: app/scripts/templates/sign_in.mustache:6
+msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
+msgstr ""
+"Migrearje jo Sync-gegevens troch jo oan te melden by jo Firefox-account."
+
+#: app/scripts/templates/sign_in.mustache:13
+#: app/scripts/templates/sign_in.mustache:16
 msgid "Use a different account"
 msgstr "In oar account brûke"
 
-#: app/scripts/templates/sign_in.mustache:24
+#: app/scripts/templates/sign_in.mustache:28
 msgid "Create an account"
 msgstr "In account oanmeitsje"
 
@@ -850,15 +877,25 @@ msgstr "In account oanmeitsje"
 msgid "Create a Firefox Account"
 msgstr "In Firefox-account oanmeitsje"
 
+#: app/scripts/templates/sign_up.mustache:6
+msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
+msgstr ""
+"Migrearje jo Sync-gegevens troch in nij Firefox-account oan te meitsjen."
+
 #: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/settings/communication_preferences.mustache:4
+msgid "Get the latest news about Mozilla and Firefox."
+msgstr "Untfang it lêste nijs oer Mozilla en Firefox."
+
+#: app/scripts/templates/sign_up.mustache:18
 msgid "Sign up"
 msgstr "Registrearje"
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:20
 msgid "Choose what to sync"
 msgstr "Kies wat jo syngronisearje wolle"
 
-#: app/scripts/templates/sign_up.mustache:20
+#: app/scripts/templates/sign_up.mustache:22
 msgid "Already have an account? Sign in."
 msgstr "Hawwe jo al in account? Meld jo oan."
 
@@ -906,6 +943,10 @@ msgstr "Utskriuwe"
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Subscribe"
 msgstr "Ynskriuwe"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:9
+msgid "Email preferences"
+msgstr "E-mailfoarkarren"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2
 msgid "Year of birth"

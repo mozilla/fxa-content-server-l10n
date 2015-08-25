@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-21 22:38+0000\n"
-"PO-Revision-Date: 2015-07-22 11:52+0000\n"
+"POT-Creation-Date: 2015-08-05 21:25+0000\n"
+"PO-Revision-Date: 2015-08-05 23:19+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1437565949.0\n"
+"X-POOTLE-MTIME: 1438816791.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -111,7 +111,7 @@ msgstr ""
 msgid "Account deleted successfully"
 msgstr "Konto je so wuspěšnje zhašało"
 
-#: app/scripts/views/reset_password.js:82 app/scripts/views/sign_in.js:180
+#: app/scripts/views/reset_password.js:82 app/scripts/views/sign_in.js:190
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Njeznate konto. <a href=\"/signup\">Registrować</a>"
 
@@ -119,7 +119,7 @@ msgstr "Njeznate konto. <a href=\"/signup\">Registrować</a>"
 msgid "Signed out successfully"
 msgstr "Wuspěšnje wotzjewjeny"
 
-#: app/scripts/views/sign_up.js:331
+#: app/scripts/views/sign_up.js:351
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Konto hižo eksistuje. <a href=\"/signin\">Přizjewić</a>"
 
@@ -155,7 +155,7 @@ msgstr ""
 msgid "Unexpected error"
 msgstr "Njewočakowany zmylk"
 
-#: app/scripts/lib/auth-errors.js:27
+#: app/scripts/lib/auth-errors.js:27 app/scripts/lib/oauth-errors.js:48
 msgid "Invalid token"
 msgstr "Njepłaćiwy token"
 
@@ -195,8 +195,7 @@ msgstr "Njepłaćiwy wobkrućenski kod"
 msgid "Invalid JSON in request body"
 msgstr "Njepłaćiwy JSON w naprašowanskim ćělesu"
 
-#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/oauth-errors.js:48
-#: app/scripts/lib/profile-errors.js:22
+#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/profile-errors.js:22
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Njepłaćiwy parameter w naprašowanskim ćělesu: %(param)s"
 
@@ -204,7 +203,7 @@ msgstr "Njepłaćiwy parameter w naprašowanskim ćělesu: %(param)s"
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Falowacy parameter w naprašowanskim ćělesu: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:75 app/scripts/lib/oauth-errors.js:52
+#: app/scripts/lib/auth-errors.js:75
 msgid "Invalid request signature"
 msgstr "Njepłaćiwa naprašowanska signatura"
 
@@ -273,7 +272,7 @@ msgstr "Waše nowe hesło dyrbi druhe być"
 #: app/scripts/lib/auth-errors.js:143
 #: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/complete_reset_password.mustache:16
-#: app/scripts/templates/sign_up.mustache:12
+#: app/scripts/templates/sign_up.mustache:14
 msgid "Must be at least 8 characters"
 msgstr "Dyrbi znajmjeńša 8 znamješkow dołhe być"
 
@@ -341,6 +340,14 @@ msgstr "Wobkrućenski wotkaz wobškodźeny"
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Wotměraj wobraza dyrbitej znajmjeńša 100x100px być"
 
+#: app/scripts/lib/auth-errors.js:223
+msgid "Signup is coming soon to Firefox for iOS"
+msgstr "Bórze registrowanje za Firefox za iOS přińdźe."
+
+#: app/scripts/lib/auth-errors.js:227
+msgid "Signup has been disabled"
+msgstr "Registrowanje je so znjemóžniło"
+
 #: app/scripts/lib/mailcheck.js:57
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr "Měnješće <span tabindex=\"1\">%(domain)s</span>?"
@@ -369,6 +376,10 @@ msgstr "Wopačny kod"
 msgid "Expired code"
 msgstr "Spadnjeny kod"
 
+#: app/scripts/lib/oauth-errors.js:52 app/scripts/lib/oauth-errors.js:74
+msgid "Invalid OAuth parameter: %(param)s"
+msgstr "Njepłaćiwy OAuth-parameter: %(param)s"
+
 #: app/scripts/lib/oauth-errors.js:60 app/scripts/lib/profile-errors.js:18
 msgid "Unauthorized"
 msgstr "Njeawtorizowany"
@@ -376,10 +387,6 @@ msgstr "Njeawtorizowany"
 #: app/scripts/lib/oauth-errors.js:64
 msgid "Forbidden"
 msgstr "Zakazany"
-
-#: app/scripts/lib/oauth-errors.js:74
-msgid "Invalid OAuth parameter: %(param)s"
-msgstr "Njepłaćiwy OAuth-parameter: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:86
 msgid "Something went wrong. Please close this tab and try again."
@@ -412,28 +419,37 @@ msgstr ""
 "\">wužiwanskich wuměnjenjow</a> a <a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">prawidłow priwatnosće</a> %(serviceName)s (%(serviceUri)s)."
 
-#: app/scripts/lib/strings.js:23 app/scripts/templates/sign_up.mustache:14
-#: app/scripts/templates/settings/communication_preferences.mustache:4
-msgid "Get the latest news about Mozilla and Firefox."
-msgstr "Wobstarajće sej najnowše nowinki wo Mozilla a Firefox."
-
-#: app/scripts/lib/strings.js:24 app/scripts/templates/settings.mustache:4
-#: app/scripts/templates/settings/communication_preferences.mustache:1
-msgid "Communication preferences"
-msgstr "Komunikaciske nastajenja"
-
-#: app/scripts/lib/strings.js:25
-#: app/scripts/templates/settings/communication_preferences.mustache:9
-msgid "Email preferences"
-msgstr "E-mejlowe nastajenja"
-
-#: app/scripts/lib/strings.js:28
+#: app/scripts/lib/strings.js:23
 msgid "Edit profile"
 msgstr "Profil wobdźěłać"
 
-#: app/scripts/lib/strings.js:29
+#: app/scripts/lib/strings.js:24
 msgid "Name"
 msgstr "Mjeno"
+
+#: app/scripts/lib/strings.js:27
+msgid "Bookmarks"
+msgstr "Zapołožki"
+
+#: app/scripts/lib/strings.js:28
+msgid "History"
+msgstr "Historija"
+
+#: app/scripts/lib/strings.js:29
+msgid "Tabs"
+msgstr "Rajtarki"
+
+#: app/scripts/lib/strings.js:30
+msgid "Passwords"
+msgstr "Hesła"
+
+#: app/scripts/lib/strings.js:31
+msgid "Desktop Add-ons"
+msgstr "Desktopowe přidatki"
+
+#: app/scripts/lib/strings.js:32
+msgid "Desktop Preferences"
+msgstr "Desktopowe nastajenja"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -472,9 +488,9 @@ msgstr "Stare hesło"
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/delete_account.mustache:4
 #: app/scripts/templates/force_auth.mustache:6
-#: app/scripts/templates/sign_in.mustache:8
-#: app/scripts/templates/sign_in.mustache:21
-#: app/scripts/templates/sign_up.mustache:11
+#: app/scripts/templates/sign_in.mustache:10
+#: app/scripts/templates/sign_in.mustache:23
+#: app/scripts/templates/sign_up.mustache:13
 msgid "Show"
 msgstr "Pokazać"
 
@@ -622,9 +638,9 @@ msgstr "Wotkaz za wróćostajenje je so na %(email)s pósłał"
 #: app/scripts/templates/force_auth.mustache:7
 #: app/scripts/templates/sign_in.mustache:1
 #: app/scripts/templates/sign_in.mustache:4
-#: app/scripts/templates/sign_in.mustache:9
-#: app/scripts/templates/sign_in.mustache:13
-#: app/scripts/templates/sign_in.mustache:22
+#: app/scripts/templates/sign_in.mustache:11
+#: app/scripts/templates/sign_in.mustache:15
+#: app/scripts/templates/sign_in.mustache:24
 msgid "Sign in"
 msgstr "Přizjewić"
 
@@ -664,9 +680,9 @@ msgstr "Chceće woprawdźe swoje konto zhašeć? Tuta akcija njeda so anulować.
 
 #: app/scripts/templates/delete_account.mustache:3
 #: app/scripts/templates/force_auth.mustache:3
-#: app/scripts/templates/sign_in.mustache:6
-#: app/scripts/templates/sign_in.mustache:18
-#: app/scripts/templates/sign_up.mustache:8
+#: app/scripts/templates/sign_in.mustache:8
+#: app/scripts/templates/sign_in.mustache:20
+#: app/scripts/templates/sign_up.mustache:10
 msgid "Password"
 msgstr "Hesło"
 
@@ -675,14 +691,15 @@ msgid "Sign in to continue"
 msgstr "Přizjewće so, zo byšće pokročował"
 
 #: app/scripts/templates/force_auth.mustache:8
-#: app/scripts/templates/sign_in.mustache:10
-#: app/scripts/templates/sign_in.mustache:23
+#: app/scripts/templates/sign_in.mustache:12
+#: app/scripts/templates/sign_in.mustache:25
+#: app/scripts/templates/sign_in.mustache:27
 msgid "Forgot password?"
 msgstr "Sće hesło zabył?"
 
 #: app/scripts/templates/force_auth.mustache:9
-#: app/scripts/templates/sign_in.mustache:25
-#: app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/sign_in.mustache:29
+#: app/scripts/templates/sign_up.mustache:15
 msgid ""
 "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
 "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
@@ -758,8 +775,8 @@ msgstr "%(serviceName)s chce slědowace informacije z wašeho konta:"
 
 #: app/scripts/templates/permissions.mustache:3
 #: app/scripts/templates/reset_password.mustache:3
-#: app/scripts/templates/sign_in.mustache:17
-#: app/scripts/templates/sign_up.mustache:6
+#: app/scripts/templates/sign_in.mustache:19
+#: app/scripts/templates/sign_up.mustache:8
 #: app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "E-mejlowa adresa"
@@ -828,6 +845,11 @@ msgstr "Změnić"
 msgid "You are signed in as"
 msgstr "Sće přizjewjeny jako"
 
+#: app/scripts/templates/settings.mustache:4
+#: app/scripts/templates/settings/communication_preferences.mustache:1
+msgid "Communication preferences"
+msgstr "Komunikaciske nastajenja"
+
 #: app/scripts/templates/settings.mustache:8
 msgid "Sign out"
 msgstr "Wotzjewić"
@@ -837,12 +859,18 @@ msgstr "Wotzjewić"
 msgid "Continue to %(serviceName)s"
 msgstr "Dale k %(serviceName)s"
 
-#: app/scripts/templates/sign_in.mustache:11
-#: app/scripts/templates/sign_in.mustache:14
+#: app/scripts/templates/sign_in.mustache:6
+msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
+msgstr ""
+"Přenošujće swoje synchronizaciske daty přizjewjejo so pola swojeho "
+"konta&nbsp;Firefox."
+
+#: app/scripts/templates/sign_in.mustache:13
+#: app/scripts/templates/sign_in.mustache:16
 msgid "Use a different account"
 msgstr "Wužiwajće druhe konto"
 
-#: app/scripts/templates/sign_in.mustache:24
+#: app/scripts/templates/sign_in.mustache:28
 msgid "Create an account"
 msgstr "Konto załožić"
 
@@ -851,15 +879,25 @@ msgstr "Konto załožić"
 msgid "Create a Firefox Account"
 msgstr "Konto Firefox załožić"
 
+#: app/scripts/templates/sign_up.mustache:6
+msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
+msgstr ""
+"Přenošujće swoje synchronizaciske daty wutworjejo nowe konto &nbsp;Firefox."
+
 #: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/settings/communication_preferences.mustache:4
+msgid "Get the latest news about Mozilla and Firefox."
+msgstr "Wobstarajće sej najnowše nowinki wo Mozilla a Firefox."
+
+#: app/scripts/templates/sign_up.mustache:18
 msgid "Sign up"
 msgstr "Registrować"
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:20
 msgid "Choose what to sync"
 msgstr "Wubjerće, štož ma so synchronizować"
 
-#: app/scripts/templates/sign_up.mustache:20
+#: app/scripts/templates/sign_up.mustache:22
 msgid "Already have an account? Sign in."
 msgstr "Maće hižo konto? Přizjewće so."
 
@@ -907,6 +945,10 @@ msgstr "Wotskazać"
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Subscribe"
 msgstr "Abonować"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:9
+msgid "Email preferences"
+msgstr "E-mejlowe nastajenja"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2
 msgid "Year of birth"
@@ -978,9 +1020,8 @@ msgstr "Dźeń"
 #~ "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
 #~ "Pokročujo přihłosuju <a id=\"service-tos\" href=\"%(termsUri)s"
-#~ "\">wužiwanskim wuměnjenjam</a> a <a id=\"service-pp\" href="
-#~ "\"%(privacyUri)s\">prawidłam priwatnosće</a> słužby %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ "\">wužiwanskim wuměnjenjam</a> a <a id=\"service-pp\" href=\"%(privacyUri)"
+#~ "s\">prawidłam priwatnosće</a> słužby %(serviceName)s (%(serviceUri)s)."
 
 #~ msgid ""
 #~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"

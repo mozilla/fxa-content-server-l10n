@@ -1,29 +1,203 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-21 22:38+0000\n"
-"PO-Revision-Date: 2015-07-22 13:41+0000\n"
-"Last-Translator: Andreas <az@kth.se>\n"
+"POT-Creation-Date: 2015-08-05 21:25+0000\n"
+"PO-Revision-Date: 2015-07-06 14:44\n"
+"Last-Translator: az@kth.se <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1437572463.0\n"
 
-#: templates/new_sync_device.html:1 templates/password_changed.html:1
-#: templates/password_reset.html:1 templates/reset.html:1
-#: templates/unlock.html:1 server/templates/pages/src/400.html:1
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
-#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
+#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
+#: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/terms.html:1 templates/reset.html:1
+#: templates/unlock.html:1 templates/verify.html:1
+#: templates/new_sync_device.html:1 templates/password_changed.html:1
+#: templates/password_reset.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox-konton"
+
+#: server/templates/pages/src/400.html:2
+msgid "Bad Request"
+msgstr "Felaktig begäran"
+
+#: server/templates/pages/src/404.html:2
+msgid "Page not found"
+msgstr "Sidan hittades inte"
+
+#: server/templates/pages/src/404.html:3
+msgid ""
+"The page you requested is not found. We've been notified and will fix any "
+"links that may be broken."
+msgstr ""
+"Sidan du efterfrågade hittades inte. Vi har underrättats och kommer att laga"
+" eventuellt felaktiga länkar."
+
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+msgid "Home"
+msgstr "Hem"
+
+#: server/templates/pages/src/500.html:2
+msgid "500 Error"
+msgstr "500 Fel"
+
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+msgid ""
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
+msgstr ""
+"Oj, något gick snett. Vi har blivit underrättade och försöker lösa "
+"problemet."
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr "502 Fel"
+
+#: server/templates/pages/src/503.html:2
+msgid "Server busy, try again soon"
+msgstr "Servern är upptagen, försök igen senare"
+
+#: server/templates/pages/src/503.html:3
+msgid ""
+"We are currently under heavy strain and are working to return the system to "
+"normal as soon as possible."
+msgstr ""
+"Vi är för närvarande under stort tryck och arbetar för att systemet så snart"
+" som möjligt ska fungera normalt igen."
+
+#: server/templates/pages/src/index.html:2
+#: server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/terms.html:3
+#: server/templates/pages/src/privacy.html:5
+#: server/templates/pages/src/terms.html:5
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a "
+"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+"experience."
+msgstr ""
+"Du använder en <strong>gammal</strong> webbläsare. Försök att <a "
+"href=\"http://browsehappy.com/\">uppgradera din webbläsare</a> för att "
+"förbättra upplevelsen."
+
+#: server/templates/pages/src/index.html:3
+msgid "Firefox Accounts requires JavaScript."
+msgstr "Firefox-konton kräver JavaScript."
+
+#: server/templates/pages/src/privacy.html:2
+#: server/templates/pages/src/privacy.html:5
+#: server/templates/pages/src/privacy.html:4
+msgid "Privacy Notice"
+msgstr "Sekretesspolicy"
+
+#: server/templates/pages/src/privacy.html:4
+#: server/templates/pages/src/terms.html:4
+#: server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/terms.html:3
+msgid "Firefox cloud services"
+msgstr "Firefox molntjänster"
+
+#: server/templates/pages/src/terms.html:2
+#: server/templates/pages/src/terms.html:5
+#: server/templates/pages/src/terms.html:4
+msgid "Terms of Service"
+msgstr "Tjänstevillkor"
+
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Are you sure?"
+msgstr "Är du säker?"
+
+#: templates/reset.html:3 templates/reset.txt:2
+msgid "Please confirm that you'd like to reset the password for %(email)s."
+msgstr "Bekräfta att du vill återställa lösenordet för %(email)s."
+
+#: templates/reset.html:4
+msgid "Reset password"
+msgstr "Återställ lösenordet"
+
+#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
+#: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"Det här är ett automatiskt e-postmeddelande; om du felaktigt har fått det "
+"behöver du inte göra något."
+
+#: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
+#: templates/new_sync_device.html:5 templates/password_changed.html:5
+#: templates/password_reset.html:5
+msgid ""
+"For more information, please visit <a "
+"href='https://support.mozilla.org'>Mozilla Support</a>"
+msgstr ""
+"För mer information, besök <a href='https://support.mozilla.org'>Mozilla "
+"Support</a>"
+
+#: templates/reset.txt:3
+msgid "Reset password:"
+msgstr "Återställ lösenordet:"
+
+#: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
+#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
+#: templates/password_reset.txt:4
+msgid "For more information, please visit https://support.mozilla.org"
+msgstr "För mer information, besök https://support.mozilla.org"
+
+#: templates/unlock.html:2 templates/unlock.txt:1
+msgid ""
+"For security reasons your Firefox Account was put on lockdown. To perform "
+"account-level activities, please click the link to re-verify your account "
+"now."
+msgstr ""
+"Av säkerhetsskäl har ditt Firefox-konto låsts. För att utföra aktiviteter på"
+" kontonivå, klicka på länken för att återverifiera ditt konto."
+
+#: templates/unlock.html:3
+msgid "Verify account"
+msgstr "Verifiera konto"
+
+#: templates/unlock.txt:2
+msgid "Verify account:"
+msgstr "Verifiera konto:"
+
+#: templates/verify.html:2 templates/verify.txt:1
+msgid "Almost there"
+msgstr "Nästan där"
+
+#: templates/verify.html:3 templates/verify.txt:2
+msgid "%(email)s, you're one click away from verifying your Firefox Account."
+msgstr "%(email)s, du är ett klick ifrån att verifiera ditt Firefox-konto."
+
+#: templates/verify.html:4
+msgid "Verify"
+msgstr "Verifiera"
+
+#: templates/verify.txt:3
+msgid "Verify:"
+msgstr "Verifiera:"
+
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "Verifiera ditt konto"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "Återställ lösenordet"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr "Återverifiera ditt konto"
 
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
 msgid "Account activity notice"
@@ -47,16 +221,6 @@ msgstr ""
 "till ditt Firefox-konto, bör du ändra ditt lösenord omedelbart <a "
 "href='%(resetLink)s'>%(resetLink)s</a>."
 
-#: templates/new_sync_device.html:5 templates/password_changed.html:5
-#: templates/password_reset.html:5 templates/reset.html:6
-#: templates/unlock.html:5
-msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
-msgstr ""
-"För mer information, besök <a href='https://support.mozilla.org'>Mozilla "
-"Support</a>"
-
 #: templates/new_sync_device.txt:3
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
@@ -65,12 +229,6 @@ msgstr ""
 "Detta är ett automatiskt e-postmeddelande; om du inte la till en ny enhet "
 "till ditt Firefox-konto, bör du ändra ditt lösenord omedelbart på "
 "%(resetLink)s."
-
-#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
-#: templates/password_reset.txt:4 templates/reset.txt:5 templates/unlock.txt:4
-#: templates/verify.txt:5
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr "För mer information, besök https://support.mozilla.org"
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
@@ -83,8 +241,8 @@ msgstr "Lösenordet till ditt Firefox-konto har ändrats."
 #: templates/password_changed.html:4
 msgid ""
 "This is an automated email; if you didn't change the password to your "
-"Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
-"%(resetLink)s</a>."
+"Firefox Account, you should reset it immediately at <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
 msgstr ""
 "Detta är ett automatiskt e-postmeddelande; om du inte ändrade lösenordet "
 "till ditt Firefox-konto, bör du återställa det omedelbart <a "
@@ -108,234 +266,83 @@ msgstr "Lösenordet till ditt Firefox-konto har återställts."
 
 #: templates/password_reset.html:4
 msgid ""
-"This is an automated email; if you didn't reset the password to your Firefox "
-"Account, you should reset it immediately at <a href='%(resetLink)s'>"
-"%(resetLink)s</a>."
+"This is an automated email; if you didn't reset the password to your Firefox"
+" Account, you should reset it immediately at <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
 msgstr ""
-"Detta är ett automatiskt e-postmeddelande; om du inte återställde lösenordet "
-"till ditt Firefox-konto, bör du återställa det omedelbart <a "
+"Detta är ett automatiskt e-postmeddelande; om du inte återställde lösenordet"
+" till ditt Firefox-konto, bör du återställa det omedelbart <a "
 "href='%(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox"
+" Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
-"Detta är ett automatiskt e-postmeddelande; om du inte återställde lösenordet "
-"till ditt Firefox-konto, bör du återställa det omedelbart på %(resetLink)s."
+"Detta är ett automatiskt e-postmeddelande; om du inte återställde lösenordet"
+" till ditt Firefox-konto, bör du återställa det omedelbart på %(resetLink)s."
 
-#: templates/reset.html:2 templates/reset.txt:1
-msgid "Are you sure?"
-msgstr "Är du säker?"
-
-#: templates/reset.html:3 templates/reset.txt:2
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Bekräfta att du vill återställa lösenordet för %(email)s."
-
-#: templates/reset.html:4
-msgid "Reset password now"
-msgstr "Återställ lösenord nu"
-
-#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
-#: templates/unlock.txt:3 templates/verify.html:6 templates/verify.txt:4
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"Det här är ett automatiskt e-postmeddelande; om du felaktigt har fått det "
-"behöver du inte göra något."
-
-#: templates/reset.txt:3
-msgid "Reset password now:"
-msgstr "Återställ lösenord nu:"
-
-#: templates/unlock.html:2 templates/unlock.txt:1
-msgid ""
-"For security reasons your Firefox Account was put on lockdown. To perform "
-"account-level activities, please click the link to re-verify your account "
-"now."
-msgstr ""
-"Av säkerhetsskäl har ditt Firefox-konto låsts. För att utföra aktiviteter på "
-"kontonivå, klicka på länken för att återverifiera ditt konto."
-
-#: templates/unlock.html:3
-msgid "Verify account"
-msgstr "Verifiera konto"
-
-#: templates/unlock.txt:2
-msgid "Verify account:"
-msgstr "Verifiera konto:"
-
-#: templates/verify.html:1
-msgid "Firefox Account Activation"
-msgstr "Aktivering Firefox-konto"
-
-#: templates/verify.html:2 templates/verify.txt:1
-msgid "Welcome!"
-msgstr "Välkommen!"
-
-#: templates/verify.html:3 templates/verify.txt:2
-msgid "Please activate your account by confirming this email address."
-msgstr "Aktivera ditt konto genom att bekräfta denna e-postadress."
-
-#: templates/verify.html:4
-msgid "Activate now"
-msgstr "Aktivera nu"
-
-#: templates/verify.html:5
-msgid "Alternatively:"
-msgstr "Alternativt:"
-
-#: templates/verify.html:7
-msgid ""
-"For more information, please visit <a href='https://support.mozilla.org' "
-"style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
-msgstr ""
-"För mer information, besök <a href='https://support.mozilla.org' "
-"style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
-
-#: templates/verify.html:8
-msgid "Verify Email"
-msgstr "Verifiera e-postadress"
-
-#: templates/verify.html:9
-msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
-"Verifiera din e-postadress för att avsluta din registrering av Firefox-konto"
-
-#: templates/verify.txt:3
-msgid "Activate now:"
-msgstr "Aktivera nu:"
-
-#: mailer.js:115
+#: mailer.js:82
 msgid "Verify your Firefox Account"
 msgstr "Verifiera ditt Firefox-konto"
 
-#: mailer.js:145
+#: mailer.js:121
 msgid "Reset your Firefox Account password"
 msgstr "Återställ lösenordet för ditt Firefox-konto"
 
-#: mailer.js:176
+#: mailer.js:155
 msgid "Re-verify your Firefox Account"
 msgstr "Återverifiera ditt Firefox-konto"
 
-#: mailer.js:199
+#: mailer.js:185
 msgid "Your Firefox Account password has been changed"
 msgstr "Lösenordet till ditt Firefox-konto har ändrats"
 
-#: mailer.js:218
+#: mailer.js:212
 msgid "Your Firefox Account password has been reset"
 msgstr "Lösenordet till ditt Firefox-konto har återställts"
 
-#: mailer.js:240
+#: mailer.js:239
 msgid "A new device is now syncing to your Firefox Account"
 msgstr "En ny enhet kan nu synkroniseras till ditt Firefox-konto"
 
-#: server/templates/pages/src/400.html:2
-msgid "Bad Request"
-msgstr "Felaktig begäran"
+#~ msgid "Reset password now"
+#~ msgstr "Återställ lösenord nu"
 
-#: server/templates/pages/src/404.html:2
-msgid "Page not found"
-msgstr "Sidan hittades inte"
+#~ msgid "Reset password now:"
+#~ msgstr "Återställ lösenord nu:"
 
-#: server/templates/pages/src/404.html:3
-msgid ""
-"The page you requested is not found. We've been notified and will fix any "
-"links that may be broken."
-msgstr ""
-"Sidan du efterfrågade hittades inte. Vi har underrättats och kommer att laga "
-"eventuellt felaktiga länkar."
+#~ msgid "Firefox Account Activation"
+#~ msgstr "Aktivering Firefox-konto"
 
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
-msgid "Home"
-msgstr "Hem"
+#~ msgid "Welcome!"
+#~ msgstr "Välkommen!"
 
-#: server/templates/pages/src/500.html:2
-msgid "500 Error"
-msgstr "500 Fel"
+#~ msgid "Please activate your account by confirming this email address."
+#~ msgstr "Aktivera ditt konto genom att bekräfta denna e-postadress."
 
-#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
-msgid ""
-"Oh dear, something went wrong there. We've been notified and will get "
-"working on a fix."
-msgstr ""
-"Oj, något gick snett. Vi har blivit underrättade och försöker lösa problemet."
+#~ msgid "Activate now"
+#~ msgstr "Aktivera nu"
 
-#: server/templates/pages/src/502.html:2
-msgid "502 Error"
-msgstr "502 Fel"
-
-#: server/templates/pages/src/503.html:2
-msgid "Server busy, try again soon"
-msgstr "Servern är upptagen, försök igen senare"
-
-#: server/templates/pages/src/503.html:3
-msgid ""
-"We are currently under heavy strain and are working to return the system to "
-"normal as soon as possible."
-msgstr ""
-"Vi är för närvarande under stort tryck och arbetar för att systemet så snart "
-"som möjligt ska fungera normalt igen."
-
-#: server/templates/pages/src/index.html:2
-#: server/templates/pages/src/privacy.html:5
-#: server/templates/pages/src/terms.html:5
-msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr ""
-"Du använder en <strong>gammal</strong> webbläsare. Försök att <a href="
-"\"http://browsehappy.com/\">uppgradera din webbläsare</a> för att förbättra "
-"upplevelsen."
-
-#: server/templates/pages/src/index.html:3
-msgid "Firefox Accounts requires JavaScript."
-msgstr "Firefox-konton kräver JavaScript."
-
-#: server/templates/pages/src/privacy.html:2
-#: server/templates/pages/src/privacy.html:4
-msgid "Privacy Notice"
-msgstr "Sekretesspolicy"
-
-#: server/templates/pages/src/privacy.html:3
-#: server/templates/pages/src/terms.html:3
-msgid "Firefox cloud services"
-msgstr "Firefox molntjänster"
-
-#: server/templates/pages/src/terms.html:2
-#: server/templates/pages/src/terms.html:4
-msgid "Terms of Service"
-msgstr "Tjänstevillkor"
-
-#~ msgid "Reset password"
-#~ msgstr "Återställ lösenordet"
-
-#~ msgid "Reset password:"
-#~ msgstr "Återställ lösenordet:"
-
-#~ msgid "Almost there"
-#~ msgstr "Nästan där"
+#~ msgid "Alternatively:"
+#~ msgstr "Alternativt:"
 
 #~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
-#~ msgstr "%(email)s, du är ett klick ifrån att verifiera ditt Firefox-konto."
+#~ "For more information, please visit <a href='https://support.mozilla.org' "
+#~ "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
+#~ msgstr ""
+#~ "För mer information, besök <a href='https://support.mozilla.org' "
+#~ "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
 
-#~ msgid "Verify"
-#~ msgstr "Verifiera"
+#~ msgid "Verify Email"
+#~ msgstr "Verifiera e-postadress"
 
-#~ msgid "Verify:"
-#~ msgstr "Verifiera:"
+#~ msgid "Verify your email to finish your Firefox Account registration"
+#~ msgstr ""
+#~ "Verifiera din e-postadress för att avsluta din registrering av Firefox-konto"
 
-#~ msgid "Verify your account"
-#~ msgstr "Verifiera ditt konto"
-
-#~ msgid "Reset your password"
-#~ msgstr "Återställ lösenordet"
-
-#~ msgid "Re-verify your account"
-#~ msgstr "Återverifiera ditt konto"
+#~ msgid "Activate now:"
+#~ msgstr "Aktivera nu:"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Grattis!"
@@ -344,7 +351,7 @@ msgstr "Tjänstevillkor"
 #~ msgstr "Systemet är inte tillgängligt, försök igen senare"
 
 #~ msgid ""
-#~ "We are currently performing some maintenance on the system, and will "
-#~ "return momentarily."
+#~ "We are currently performing some maintenance on the system, and will return "
+#~ "momentarily."
 #~ msgstr ""
 #~ "Vi utför för närvarande visst systemunderhåll och kommer snart tillbaka."
