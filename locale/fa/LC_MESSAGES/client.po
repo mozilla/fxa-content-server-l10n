@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -139,8 +139,7 @@ msgid "Display name updated"
 msgstr ""
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "حساب قفل شده است. <a href=\"/confirm_account_unlock\">ارسال ایمیل جهت باز "
 "کردن حساب</a>"
@@ -318,7 +317,8 @@ msgstr "یک ایمیل معتبر وارد کنید. firefox.com سرویس ا�
 #: app/scripts/lib/auth-errors.js:195
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
-"حساب‌های فایرفاکس تنها می‌توانند در یک IFRAME در سایت‌های تایید شده قرار بگیرند"
+"حساب‌های فایرفاکس تنها می‌توانند در یک IFRAME در سایت‌های تایید شده قرار "
+"بگیرند"
 
 #: app/scripts/lib/auth-errors.js:203
 msgid "/force_auth requires an email"
@@ -417,9 +417,10 @@ msgstr "بهنگام‌سازی فایرفاکس"
 
 #: app/scripts/lib/strings.js:19
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "با ادامه دادن شما <a id=\"service-tos\" href=\"%(termsUri)s\">شرایط استفاده "
 "از سرویس</a> و <a id=\"service-pp\" href=\"%(privacyUri)s\">اطلاعیه‌ی "
@@ -591,11 +592,11 @@ msgstr "ایمیل بازکردن ارسال شد"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification"
+" link sent to %(email)s"
 msgstr ""
-"به دلایل امنیتی حساب شما قفل شده است. برای انجام فعالیت‌ها در سطح حساب، لطفا "
-"مجددا حساب خود را از طریق پیوند ارسال شده به %(email)s تایید کنید"
+"به دلایل امنیتی حساب شما قفل شده است. برای انجام فعالیت‌ها در سطح حساب، لطفا"
+" مجددا حساب خود را از طریق پیوند ارسال شده به %(email)s تایید کنید"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:5
 #: app/scripts/templates/pp.mustache:3
@@ -634,8 +635,8 @@ msgid ""
 "provide functionality such as remembering you between sessions."
 msgstr ""
 "لطفا کوکی‌ها، که توسط حساب‌های فایرفاکس مورد نیاز می‌باشند را در مرورگر خود "
-"فعال کنید. کوکی‌ها داده‌های کوچکی هستند که بر روی مرورگر شما ذخیره می‌شوند و "
-"امکاناتی نظیر به خاطر سپردن شما بین نشست‌های مختلف را فراهم می‌کنند."
+"فعال کنید. کوکی‌ها داده‌های کوچکی هستند که بر روی مرورگر شما ذخیره می‌شوند و"
+" امکاناتی نظیر به خاطر سپردن شما بین نشست‌های مختلف را فراهم می‌کنند."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -669,13 +670,13 @@ msgstr "گذرواژه را فراموش کرده اید؟"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:15
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
-"با ادامه دادن، شما با <a id=\"fxa-tos\" href=\"/legal/terms\">قوانین استفاده "
-"از سرویس</a> و <a id=\"fxa-pp\" href=\"/legal/privacy\">اطلاعیه حریم‌خصوصی</"
-"a> سرویس‌های ابری فایرفاکس را می‌پذیرید."
+"با ادامه دادن، شما با <a id=\"fxa-tos\" href=\"/legal/terms\">قوانین استفاده"
+" از سرویس</a> و <a id=\"fxa-pp\" href=\"/legal/privacy\">اطلاعیه "
+"حریم‌خصوصی</a> سرویس‌های ابری فایرفاکس را می‌پذیرید."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -1045,13 +1046,13 @@ msgstr "روز"
 #~ msgstr "برای بازنشانی گذرواژه حساب&nbsp;ایمیل خود را وارد کنید."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data "
-#~ "from our servers. A new Sync backup will be created from your local "
-#~ "browsing data."
+#~ "For security reasons, resetting your password will erase your Sync data from"
+#~ " our servers. A new Sync backup will be created from your local browsing "
+#~ "data."
 #~ msgstr ""
 #~ "به دلایل امنیتی، بازنشانی گذرواژه باعث حذف اطلاعات بهنگام‌سازی شما از "
-#~ "سرورهای ما خواهد شد. یک پشتیبانِ بهنگام‌سازی جدید از اطلاعات مرورگر محلی "
-#~ "شما ساخته خواهد شد."
+#~ "سرورهای ما خواهد شد. یک پشتیبانِ بهنگام‌سازی جدید از اطلاعات مرورگر محلی شما"
+#~ " ساخته خواهد شد."
 
 #~ msgid "You are signed in as"
 #~ msgstr "شما وارد شده‌اید به عنوانِ"
