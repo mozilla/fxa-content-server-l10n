@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-05 21:25+0000\n"
+"POT-Creation-Date: 2015-08-26 18:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -78,10 +78,6 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/change_password.js:59
-msgid "Password changed successfully"
-msgstr ""
-
 #: app/scripts/views/complete_reset_password.js:135
 #: app/scripts/views/complete_sign_up.js:102 app/scripts/views/confirm.js:91
 #: app/scripts/views/confirm_reset_password.js:173
@@ -101,28 +97,24 @@ msgstr "Restabeleceuse o contrasinal"
 msgid "Password reset successfully. Sign in to continue."
 msgstr ""
 
-#: app/scripts/views/delete_account.js:53
-msgid "Account deleted successfully"
-msgstr "Eliminouse a conta correctamente"
-
 #: app/scripts/views/reset_password.js:82 app/scripts/views/sign_in.js:190
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Conta descoñecida. <a href=\"/signup\">Crear conta</a>"
 
-#: app/scripts/views/settings.js:75
+#: app/scripts/views/settings.js:194
 msgid "Signed out successfully"
 msgstr ""
 
-#: app/scripts/views/sign_up.js:351
+#: app/scripts/views/sign_up.js:384
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "A conta xa existe. <a href=\"/signin\">Identificarse</a>"
 
-#: app/scripts/views/settings/avatar_gravatar.js:57
-msgid "No Gravatar found"
+#: app/scripts/views/settings/avatar_gravatar.js:91
+msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr ""
 
-#: app/scripts/views/settings/avatar_gravatar.js:89
-msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
+#: app/scripts/views/settings/change_password.js:61
+msgid "Password changed successfully"
 msgstr ""
 
 #: app/scripts/views/settings/communication_preferences.js:96
@@ -133,15 +125,27 @@ msgstr ""
 msgid "Unsubscribed successfully"
 msgstr ""
 
+#: app/scripts/views/settings/delete_account.js:59
+msgid "Account deleted successfully"
+msgstr "Eliminouse a conta correctamente"
+
+#: app/scripts/views/settings/display_name.js:53
+msgid "Display name updated"
+msgstr ""
+
 #: app/scripts/views/mixins/account-locked-mixin.js:31
 msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:18
+#: app/scripts/lib/auth-errors.js:18 app/scripts/lib/config-loader.js:82
 #: app/scripts/lib/marketing-email-errors.js:18
 #: app/scripts/lib/oauth-errors.js:19 app/scripts/lib/profile-errors.js:34
 #: app/scripts/lib/profile-errors.js:42
+#: app/scripts/lib/require-on-demand.js:32
+#: app/scripts/lib/require-on-demand.js:36
+#: app/scripts/lib/require-on-demand.js:40
+#: app/scripts/lib/require-on-demand.js:44
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Erro inesperado"
@@ -222,7 +226,7 @@ msgstr "Servido ocupado, tente de novo pronto"
 msgid "This endpoint is no longer supported"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:107
+#: app/scripts/lib/auth-errors.js:107 app/scripts/lib/config-loader.js:78
 #: app/scripts/lib/marketing-email-errors.js:79
 #: app/scripts/lib/oauth-errors.js:78 app/scripts/lib/profile-errors.js:38
 msgid "System unavailable, try again soon"
@@ -261,9 +265,9 @@ msgid "Your new password must be different"
 msgstr "O novo contrasinal debe ser diferente"
 
 #: app/scripts/lib/auth-errors.js:143
-#: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/complete_reset_password.mustache:16
 #: app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/settings/change_password.mustache:10
 msgid "Must be at least 8 characters"
 msgstr "Debe ter polo mínimo 8 caracteres"
 
@@ -334,6 +338,14 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:227
 msgid "Signup has been disabled"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:231 app/scripts/lib/strings.js:36
+msgid "Age is required"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:235
+msgid "No Gravatar found"
 msgstr ""
 
 #: app/scripts/lib/mailcheck.js:57
@@ -435,6 +447,11 @@ msgstr ""
 msgid "Desktop Preferences"
 msgstr ""
 
+#: app/scripts/lib/strings.js:35
+#: app/scripts/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you?"
+msgstr ""
+
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
 msgstr "Non é posíbel crear a conta"
@@ -447,55 +464,6 @@ msgstr ""
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
 msgstr "Máis información."
-
-#: app/scripts/templates/change_password.mustache:1
-#: app/scripts/templates/settings.mustache:6
-msgid "Change password"
-msgstr "Cambiar contrasinal"
-
-#: app/scripts/templates/change_password.mustache:2
-msgid ""
-"Once you're finished, use your new password to sign in on all of your "
-"devices."
-msgstr ""
-
-#: app/scripts/templates/change_password.mustache:3
-msgid "Old password"
-msgstr "Contrasinal actual"
-
-#: app/scripts/templates/change_password.mustache:5
-#: app/scripts/templates/change_password.mustache:8
-#: app/scripts/templates/complete_reset_password.mustache:12
-#: app/scripts/templates/complete_reset_password.mustache:15
-#: app/scripts/templates/delete_account.mustache:4
-#: app/scripts/templates/force_auth.mustache:6
-#: app/scripts/templates/sign_in.mustache:10
-#: app/scripts/templates/sign_in.mustache:23
-#: app/scripts/templates/sign_up.mustache:13
-msgid "Show"
-msgstr "Amosar"
-
-#: app/scripts/templates/change_password.mustache:6
-#: app/scripts/templates/complete_reset_password.mustache:10
-msgid "New password"
-msgstr "Novo contrasinal"
-
-#: app/scripts/templates/change_password.mustache:10
-msgid "Confirm"
-msgstr "Confirmar"
-
-#: app/scripts/templates/change_password.mustache:11
-#: app/scripts/templates/confirm_account_unlock.mustache:5
-#: app/scripts/templates/delete_account.mustache:6
-#: app/scripts/templates/pp.mustache:3
-#: app/scripts/templates/reset_password.mustache:6
-#: app/scripts/templates/tos.mustache:3
-#: app/scripts/templates/settings/avatar_change.mustache:5
-#: app/scripts/templates/settings/communication_preferences.mustache:2
-#: app/scripts/templates/settings/communication_preferences.mustache:8
-#: app/scripts/templates/settings/communication_preferences.mustache:11
-msgid "Back"
-msgstr "Atrás"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
@@ -547,12 +515,28 @@ msgstr "Danouse a ligazón de restabelecer o contrasinal"
 msgid "Reset password"
 msgstr "Restabelecer contrasinal"
 
+#: app/scripts/templates/complete_reset_password.mustache:10
+#: app/scripts/templates/settings/change_password.mustache:7
+msgid "New password"
+msgstr "Novo contrasinal"
+
+#: app/scripts/templates/complete_reset_password.mustache:12
+#: app/scripts/templates/complete_reset_password.mustache:15
+#: app/scripts/templates/force_auth.mustache:6
+#: app/scripts/templates/sign_in.mustache:10
+#: app/scripts/templates/sign_in.mustache:23
+#: app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/settings/change_password.mustache:6
+#: app/scripts/templates/settings/change_password.mustache:9
+#: app/scripts/templates/settings/delete_account.mustache:5
+msgid "Show"
+msgstr "Amosar"
+
 #: app/scripts/templates/complete_reset_password.mustache:13
 msgid "Repeat password"
 msgstr "Repetir contrasinal"
 
 #: app/scripts/templates/complete_reset_password.mustache:17
-#: app/scripts/templates/reset_password.mustache:5
 msgid "Next"
 msgstr "Seguinte"
 
@@ -599,6 +583,13 @@ msgid ""
 "link sent to %(email)s"
 msgstr ""
 
+#: app/scripts/templates/confirm_account_unlock.mustache:5
+#: app/scripts/templates/pp.mustache:3
+#: app/scripts/templates/reset_password.mustache:6
+#: app/scripts/templates/tos.mustache:3
+msgid "Back"
+msgstr "Atrás"
+
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
 msgstr "Enviouse un correo de restabelecemento"
@@ -637,29 +628,18 @@ msgstr "Máis información"
 msgid "Try again"
 msgstr "Tentar de novo"
 
-#: app/scripts/templates/delete_account.mustache:1
-#: app/scripts/templates/delete_account.mustache:5
-#: app/scripts/templates/settings.mustache:7
-msgid "Delete account"
-msgstr "Eliminar conta"
+#: app/scripts/templates/force_auth.mustache:1
+msgid "Sign in to continue"
+msgstr "Identifíquese para continuar"
 
-#: app/scripts/templates/delete_account.mustache:2
-msgid ""
-"Are you sure you want to delete your account? This action cannot be undone."
-msgstr ""
-"Confirma que quere eliminar a súa conta? Non é posíbel desfacer esta acción."
-
-#: app/scripts/templates/delete_account.mustache:3
 #: app/scripts/templates/force_auth.mustache:3
 #: app/scripts/templates/sign_in.mustache:8
 #: app/scripts/templates/sign_in.mustache:20
 #: app/scripts/templates/sign_up.mustache:10
+#: app/scripts/templates/settings/change_password.mustache:1
+#: app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Contrasinal"
-
-#: app/scripts/templates/force_auth.mustache:1
-msgid "Sign in to continue"
-msgstr "Identifíquese para continuar"
 
 #: app/scripts/templates/force_auth.mustache:8
 #: app/scripts/templates/sign_in.mustache:12
@@ -687,13 +667,13 @@ msgid "Legal"
 msgstr "Legal"
 
 #: app/scripts/templates/legal.mustache:3
-#: app/scripts/templates/settings.mustache:10
+#: app/scripts/templates/settings.mustache:5
 #: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "Termos do servizo"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
-#: app/scripts/templates/settings.mustache:11
+#: app/scripts/templates/settings.mustache:6
 msgid "Privacy Notice"
 msgstr "Política de privacidade"
 
@@ -742,7 +722,7 @@ msgid "%(serviceName)s wants the following information from your account:"
 msgstr ""
 
 #: app/scripts/templates/permissions.mustache:3
-#: app/scripts/templates/reset_password.mustache:3
+#: app/scripts/templates/reset_password.mustache:4
 #: app/scripts/templates/sign_in.mustache:19
 #: app/scripts/templates/sign_up.mustache:8
 #: app/scripts/templates/settings/gravatar_permissions.mustache:3
@@ -755,9 +735,14 @@ msgid "Accept"
 msgstr ""
 
 #: app/scripts/templates/permissions.mustache:5
-#: app/scripts/templates/settings/avatar_camera.mustache:3
-#: app/scripts/templates/settings/avatar_crop.mustache:4
-#: app/scripts/templates/settings/avatar_gravatar.mustache:4
+#: app/scripts/templates/settings/avatar_camera.mustache:2
+#: app/scripts/templates/settings/avatar_crop.mustache:3
+#: app/scripts/templates/settings/avatar_gravatar.mustache:3
+#: app/scripts/templates/settings/change_password.mustache:12
+#: app/scripts/templates/settings/communication_preferences.mustache:3
+#: app/scripts/templates/settings/communication_preferences.mustache:11
+#: app/scripts/templates/settings/delete_account.mustache:7
+#: app/scripts/templates/settings/display_name.mustache:7
 #: app/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
 msgstr "Cancelar"
@@ -787,41 +772,31 @@ msgid "Your account is ready!"
 msgstr "A súa conta está preparada!"
 
 #: app/scripts/templates/reset_password.mustache:2
-msgid "Enter your email to reset&nbsp;the account password."
+msgid "Are you sure you want to reset your account password?"
 msgstr ""
-"Escriba o seu enderezo de correo para restabelecer&nbsp;o contrasinal da "
-"conta."
 
-#: app/scripts/templates/reset_password.mustache:4
+#: app/scripts/templates/reset_password.mustache:3
 msgid ""
-"For security reasons, resetting your password will erase your Sync data from "
-"our servers. A new Sync backup will be created from your local browsing data."
+"Resetting your password will erase your browsing data from our servers. Any "
+"data on your devices will remain untouched. Begin the reset process by "
+"entering your email below."
 msgstr ""
-"Por motivos de seguranza, ao restabelecer o seu contrasinal borraranse os "
-"seus datos de Sync dos nosos servidores. Crearase unha nova copia de "
-"seguranza de Sync dende os seus datos de navegación locais."
+
+#: app/scripts/templates/reset_password.mustache:5
+msgid "Begin reset"
+msgstr ""
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
 msgstr "Xestionar conta"
 
 #: app/scripts/templates/settings.mustache:2
-#: app/scripts/templates/settings/avatar.mustache:2
-msgid "Change"
-msgstr "Cambiar"
-
-#: app/scripts/templates/settings.mustache:3
-msgid "You are signed in as"
-msgstr "Está identificado como"
-
-#: app/scripts/templates/settings.mustache:4
-#: app/scripts/templates/settings/communication_preferences.mustache:1
-msgid "Communication preferences"
-msgstr ""
-
-#: app/scripts/templates/settings.mustache:8
 msgid "Sign out"
 msgstr "Saír"
+
+#: app/scripts/templates/settings.mustache:4
+msgid "Hello, <span>%(username)s</span>"
+msgstr ""
 
 #: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
@@ -852,7 +827,7 @@ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:16
-#: app/scripts/templates/settings/communication_preferences.mustache:4
+#: app/scripts/templates/settings/communication_preferences.mustache:5
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr ""
 
@@ -866,56 +841,113 @@ msgid "Choose what to sync"
 msgstr "Escolla que sincronizar"
 
 #: app/scripts/templates/sign_up.mustache:22
-msgid "Already have an account? Sign in."
-msgstr "Xa ten unha conta? Identifíquese."
+msgid "Have an account? Sign in."
+msgstr ""
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
 msgstr "Inicio"
 
 #: app/scripts/templates/settings/avatar.mustache:1
-#: app/scripts/templates/settings/avatar_camera.mustache:1
-#: app/scripts/templates/settings/avatar_change.mustache:1
-#: app/scripts/templates/settings/avatar_crop.mustache:1
-#: app/scripts/templates/settings/avatar_gravatar.mustache:1
 msgid "Account picture"
 msgstr "Imaxe da conta"
 
-#: app/scripts/templates/settings/avatar_camera.mustache:2
+#: app/scripts/templates/settings/avatar.mustache:2
+#: app/scripts/templates/settings/avatar_crop.mustache:2
+#: app/scripts/templates/settings/change_password.mustache:2
+#: app/scripts/templates/settings/change_password.mustache:11
+#: app/scripts/templates/settings/communication_preferences.mustache:2
+#: app/scripts/templates/settings/display_name.mustache:3
+#: app/scripts/templates/settings/display_name.mustache:6
+msgid "Change"
+msgstr "Cambiar"
+
+#: app/scripts/templates/settings/avatar.mustache:4
+msgid "Add"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
 msgstr ""
 
-#: app/scripts/templates/settings/avatar_change.mustache:2
+#: app/scripts/templates/settings/avatar_change.mustache:1
 msgid "Upload"
 msgstr "Subir"
 
-#: app/scripts/templates/settings/avatar_change.mustache:3
+#: app/scripts/templates/settings/avatar_change.mustache:2
 msgid "Camera"
 msgstr "Cámara"
 
-#: app/scripts/templates/settings/avatar_change.mustache:4
+#: app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Gravatar"
 msgstr ""
 
-#: app/scripts/templates/settings/avatar_crop.mustache:2
+#: app/scripts/templates/settings/avatar_change.mustache:4
+msgid "Clear"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_change.mustache:5
+msgid "Done"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
 msgstr ""
 
-#: app/scripts/templates/settings/avatar_crop.mustache:3
-#: app/scripts/templates/settings/avatar_gravatar.mustache:3
+#: app/scripts/templates/settings/avatar_gravatar.mustache:2
 msgid "Save"
 msgstr "Gardar"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:5
+#: app/scripts/templates/settings/change_password.mustache:3
+msgid ""
+"Once you're finished, use your new password to sign in on all of your "
+"devices."
+msgstr ""
+
+#: app/scripts/templates/settings/change_password.mustache:4
+msgid "Old password"
+msgstr "Contrasinal actual"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:1
+msgid "Communication preferences"
+msgstr ""
+
+#: app/scripts/templates/settings/communication_preferences.mustache:6
+msgid "Email preferences"
+msgstr ""
+
+#: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Unsubscribe"
 msgstr ""
 
-#: app/scripts/templates/settings/communication_preferences.mustache:7
+#: app/scripts/templates/settings/communication_preferences.mustache:10
 msgid "Subscribe"
 msgstr ""
 
-#: app/scripts/templates/settings/communication_preferences.mustache:9
-msgid "Email preferences"
+#: app/scripts/templates/settings/delete_account.mustache:1
+#: app/scripts/templates/settings/delete_account.mustache:6
+msgid "Delete account"
+msgstr "Eliminar conta"
+
+#: app/scripts/templates/settings/delete_account.mustache:2
+msgid "Delete"
+msgstr ""
+
+#: app/scripts/templates/settings/delete_account.mustache:3
+msgid ""
+"Are you sure you want to delete your account? This action cannot be undone."
+msgstr ""
+"Confirma que quere eliminar a súa conta? Non é posíbel desfacer esta acción."
+
+#: app/scripts/templates/settings/display_name.mustache:1
+#: app/scripts/templates/settings/display_name.mustache:5
+msgid "Display name"
+msgstr ""
+
+#: app/scripts/templates/settings/display_name.mustache:4
+msgid ""
+"Choose the name you would like to appear in Firefox and when managing your "
+"account."
 msgstr ""
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2
@@ -981,6 +1013,32 @@ msgstr ""
 #: app/scripts/templates/partial/coppa-date-picker.mustache:34
 msgid "Day"
 msgstr ""
+
+#~ msgid "Change password"
+#~ msgstr "Cambiar contrasinal"
+
+#~ msgid "Confirm"
+#~ msgstr "Confirmar"
+
+#~ msgid "Enter your email to reset&nbsp;the account password."
+#~ msgstr ""
+#~ "Escriba o seu enderezo de correo para restabelecer&nbsp;o contrasinal da "
+#~ "conta."
+
+#~ msgid ""
+#~ "For security reasons, resetting your password will erase your Sync data "
+#~ "from our servers. A new Sync backup will be created from your local "
+#~ "browsing data."
+#~ msgstr ""
+#~ "Por motivos de seguranza, ao restabelecer o seu contrasinal borraranse os "
+#~ "seus datos de Sync dos nosos servidores. Crearase unha nova copia de "
+#~ "seguranza de Sync dende os seus datos de navegación locais."
+
+#~ msgid "You are signed in as"
+#~ msgstr "Está identificado como"
+
+#~ msgid "Already have an account? Sign in."
+#~ msgstr "Xa ten unha conta? Identifíquese."
 
 #~ msgid ""
 #~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"

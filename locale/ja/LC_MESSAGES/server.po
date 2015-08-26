@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-05 21:25+0000\n"
+"POT-Creation-Date: 2015-08-26 18:54+0000\n"
 "PO-Revision-Date: 2015-08-07 16:52-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -174,7 +174,8 @@ msgstr "あと少しです"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr "%(email)s さん、あと 1 クリックで Firefox アカウントの認証が完了します。"
+msgstr ""
+"%(email)s さん、あと 1 クリックで Firefox アカウントの認証が完了します。"
 
 #: templates/verify.html:4
 msgid "Verify"

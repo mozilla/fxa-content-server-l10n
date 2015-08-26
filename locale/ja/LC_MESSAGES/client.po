@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-05 21:25+0000\n"
+"POT-Creation-Date: 2015-08-26 18:54+0000\n"
 "PO-Revision-Date: 2015-08-07 16:58-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -82,10 +82,6 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/change_password.js:59
-msgid "Password changed successfully"
-msgstr "パスワードの変更が完了しました"
-
 #: app/scripts/views/complete_reset_password.js:135
 #: app/scripts/views/complete_sign_up.js:102 app/scripts/views/confirm.js:91
 #: app/scripts/views/confirm_reset_password.js:173
@@ -105,29 +101,25 @@ msgstr "パスワードをリセットする"
 msgid "Password reset successfully. Sign in to continue."
 msgstr "パスワードのリセットが完了しました。続けるにはログインしてください。"
 
-#: app/scripts/views/delete_account.js:53
-msgid "Account deleted successfully"
-msgstr "アカウントの削除が完了しました"
-
 #: app/scripts/views/reset_password.js:82 app/scripts/views/sign_in.js:190
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "不明なアカウントです。<a href=\"/signup\">サインアップ</a>"
 
-#: app/scripts/views/settings.js:75
+#: app/scripts/views/settings.js:194
 msgid "Signed out successfully"
 msgstr "ログアウトが完了しました"
 
-#: app/scripts/views/sign_up.js:351
+#: app/scripts/views/sign_up.js:384
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "このアカウントは既に存在します。<a href=\"/signin\">サインイン</a>"
 
-#: app/scripts/views/settings/avatar_gravatar.js:57
-msgid "No Gravatar found"
-msgstr "Gravatar が見つかりませんでした"
-
-#: app/scripts/views/settings/avatar_gravatar.js:89
+#: app/scripts/views/settings/avatar_gravatar.js:91
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> による提供"
+
+#: app/scripts/views/settings/change_password.js:61
+msgid "Password changed successfully"
+msgstr "パスワードの変更が完了しました"
 
 #: app/scripts/views/settings/communication_preferences.js:96
 msgid "Subscribed successfully"
@@ -137,6 +129,14 @@ msgstr "購読を開始しました"
 msgid "Unsubscribed successfully"
 msgstr "購読を解除しました"
 
+#: app/scripts/views/settings/delete_account.js:59
+msgid "Account deleted successfully"
+msgstr "アカウントの削除が完了しました"
+
+#: app/scripts/views/settings/display_name.js:53
+msgid "Display name updated"
+msgstr ""
+
 #: app/scripts/views/mixins/account-locked-mixin.js:31
 msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
@@ -144,10 +144,14 @@ msgstr ""
 "アカウントはロックされています。<a href=\"/confirm_account_unlock\">ロック解"
 "除メールを送信</a>"
 
-#: app/scripts/lib/auth-errors.js:18
+#: app/scripts/lib/auth-errors.js:18 app/scripts/lib/config-loader.js:82
 #: app/scripts/lib/marketing-email-errors.js:18
 #: app/scripts/lib/oauth-errors.js:19 app/scripts/lib/profile-errors.js:34
 #: app/scripts/lib/profile-errors.js:42
+#: app/scripts/lib/require-on-demand.js:32
+#: app/scripts/lib/require-on-demand.js:36
+#: app/scripts/lib/require-on-demand.js:40
+#: app/scripts/lib/require-on-demand.js:44
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "予期しないエラー"
@@ -228,7 +232,7 @@ msgstr "現在サーバ負荷が高すぎます。しばらくしてから再度
 msgid "This endpoint is no longer supported"
 msgstr "このエンドポイントはサポートされなくなりました"
 
-#: app/scripts/lib/auth-errors.js:107
+#: app/scripts/lib/auth-errors.js:107 app/scripts/lib/config-loader.js:78
 #: app/scripts/lib/marketing-email-errors.js:79
 #: app/scripts/lib/oauth-errors.js:78 app/scripts/lib/profile-errors.js:38
 msgid "System unavailable, try again soon"
@@ -267,9 +271,9 @@ msgid "Your new password must be different"
 msgstr "新しいパスワードは、古いパスワードと違うものにしてください"
 
 #: app/scripts/lib/auth-errors.js:143
-#: app/scripts/templates/change_password.mustache:9
 #: app/scripts/templates/complete_reset_password.mustache:16
 #: app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/settings/change_password.mustache:10
 msgid "Must be at least 8 characters"
 msgstr "少なくとも 8 文字以上でなくてはいけません"
 
@@ -343,6 +347,14 @@ msgstr "iOS 版 Firefox からのユーザ登録は後日可能となります"
 #: app/scripts/lib/auth-errors.js:227
 msgid "Signup has been disabled"
 msgstr "ユーザ登録は無効化されています"
+
+#: app/scripts/lib/auth-errors.js:231 app/scripts/lib/strings.js:36
+msgid "Age is required"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:235
+msgid "No Gravatar found"
+msgstr "Gravatar が見つかりませんでした"
 
 #: app/scripts/lib/mailcheck.js:57
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -446,6 +458,11 @@ msgstr "デスクトップ向けアドオン"
 msgid "Desktop Preferences"
 msgstr "デスクトップ向け設定"
 
+#: app/scripts/lib/strings.js:35
+#: app/scripts/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you?"
+msgstr ""
+
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
 msgstr "アカウントを作成できません"
@@ -459,57 +476,6 @@ msgstr ""
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
 msgstr "詳細を確認。"
-
-#: app/scripts/templates/change_password.mustache:1
-#: app/scripts/templates/settings.mustache:6
-msgid "Change password"
-msgstr "パスワードの変更"
-
-#: app/scripts/templates/change_password.mustache:2
-msgid ""
-"Once you're finished, use your new password to sign in on all of your "
-"devices."
-msgstr ""
-"変更が完了したら、お手持ちのすべての端末で新しいパスワードを使ってログインし"
-"てください。"
-
-#: app/scripts/templates/change_password.mustache:3
-msgid "Old password"
-msgstr "旧パスワード"
-
-#: app/scripts/templates/change_password.mustache:5
-#: app/scripts/templates/change_password.mustache:8
-#: app/scripts/templates/complete_reset_password.mustache:12
-#: app/scripts/templates/complete_reset_password.mustache:15
-#: app/scripts/templates/delete_account.mustache:4
-#: app/scripts/templates/force_auth.mustache:6
-#: app/scripts/templates/sign_in.mustache:10
-#: app/scripts/templates/sign_in.mustache:23
-#: app/scripts/templates/sign_up.mustache:13
-msgid "Show"
-msgstr "表示"
-
-#: app/scripts/templates/change_password.mustache:6
-#: app/scripts/templates/complete_reset_password.mustache:10
-msgid "New password"
-msgstr "新しいパスワード"
-
-#: app/scripts/templates/change_password.mustache:10
-msgid "Confirm"
-msgstr "確認"
-
-#: app/scripts/templates/change_password.mustache:11
-#: app/scripts/templates/confirm_account_unlock.mustache:5
-#: app/scripts/templates/delete_account.mustache:6
-#: app/scripts/templates/pp.mustache:3
-#: app/scripts/templates/reset_password.mustache:6
-#: app/scripts/templates/tos.mustache:3
-#: app/scripts/templates/settings/avatar_change.mustache:5
-#: app/scripts/templates/settings/communication_preferences.mustache:2
-#: app/scripts/templates/settings/communication_preferences.mustache:8
-#: app/scripts/templates/settings/communication_preferences.mustache:11
-msgid "Back"
-msgstr "戻る"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
@@ -563,12 +529,28 @@ msgstr "パスワードをリセットするリンクが壊れています"
 msgid "Reset password"
 msgstr "パスワードをリセットする"
 
+#: app/scripts/templates/complete_reset_password.mustache:10
+#: app/scripts/templates/settings/change_password.mustache:7
+msgid "New password"
+msgstr "新しいパスワード"
+
+#: app/scripts/templates/complete_reset_password.mustache:12
+#: app/scripts/templates/complete_reset_password.mustache:15
+#: app/scripts/templates/force_auth.mustache:6
+#: app/scripts/templates/sign_in.mustache:10
+#: app/scripts/templates/sign_in.mustache:23
+#: app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/settings/change_password.mustache:6
+#: app/scripts/templates/settings/change_password.mustache:9
+#: app/scripts/templates/settings/delete_account.mustache:5
+msgid "Show"
+msgstr "表示"
+
 #: app/scripts/templates/complete_reset_password.mustache:13
 msgid "Repeat password"
 msgstr "パスワードを再入力してください"
 
 #: app/scripts/templates/complete_reset_password.mustache:17
-#: app/scripts/templates/reset_password.mustache:5
 msgid "Next"
 msgstr "次へ"
 
@@ -618,6 +600,13 @@ msgstr ""
 "ベルの活動を行うには、%(email)s 宛に送信された認証リンクをクリックし、アカウ"
 "ントを再認証してください。"
 
+#: app/scripts/templates/confirm_account_unlock.mustache:5
+#: app/scripts/templates/pp.mustache:3
+#: app/scripts/templates/reset_password.mustache:6
+#: app/scripts/templates/tos.mustache:3
+msgid "Back"
+msgstr "戻る"
+
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
 msgstr "リセット用のメールが送信されました"
@@ -660,29 +649,18 @@ msgstr "詳細を確認"
 msgid "Try again"
 msgstr "再度試す"
 
-#: app/scripts/templates/delete_account.mustache:1
-#: app/scripts/templates/delete_account.mustache:5
-#: app/scripts/templates/settings.mustache:7
-msgid "Delete account"
-msgstr "アカウントを削除"
+#: app/scripts/templates/force_auth.mustache:1
+msgid "Sign in to continue"
+msgstr "サインインして続ける"
 
-#: app/scripts/templates/delete_account.mustache:2
-msgid ""
-"Are you sure you want to delete your account? This action cannot be undone."
-msgstr ""
-"本当にアカウントを削除してもよろしいですか？ この操作は元に戻せません。"
-
-#: app/scripts/templates/delete_account.mustache:3
 #: app/scripts/templates/force_auth.mustache:3
 #: app/scripts/templates/sign_in.mustache:8
 #: app/scripts/templates/sign_in.mustache:20
 #: app/scripts/templates/sign_up.mustache:10
+#: app/scripts/templates/settings/change_password.mustache:1
+#: app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "パスワード"
-
-#: app/scripts/templates/force_auth.mustache:1
-msgid "Sign in to continue"
-msgstr "サインインして続ける"
 
 #: app/scripts/templates/force_auth.mustache:8
 #: app/scripts/templates/sign_in.mustache:12
@@ -713,13 +691,13 @@ msgid "Legal"
 msgstr "法的事項"
 
 #: app/scripts/templates/legal.mustache:3
-#: app/scripts/templates/settings.mustache:10
+#: app/scripts/templates/settings.mustache:5
 #: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "利用規約"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
-#: app/scripts/templates/settings.mustache:11
+#: app/scripts/templates/settings.mustache:6
 msgid "Privacy Notice"
 msgstr "プライバシーに関する注意"
 
@@ -768,7 +746,7 @@ msgid "%(serviceName)s wants the following information from your account:"
 msgstr "%(serviceName)s はあなたのアカウントから以下の情報を求めています:"
 
 #: app/scripts/templates/permissions.mustache:3
-#: app/scripts/templates/reset_password.mustache:3
+#: app/scripts/templates/reset_password.mustache:4
 #: app/scripts/templates/sign_in.mustache:19
 #: app/scripts/templates/sign_up.mustache:8
 #: app/scripts/templates/settings/gravatar_permissions.mustache:3
@@ -781,9 +759,14 @@ msgid "Accept"
 msgstr "承認"
 
 #: app/scripts/templates/permissions.mustache:5
-#: app/scripts/templates/settings/avatar_camera.mustache:3
-#: app/scripts/templates/settings/avatar_crop.mustache:4
-#: app/scripts/templates/settings/avatar_gravatar.mustache:4
+#: app/scripts/templates/settings/avatar_camera.mustache:2
+#: app/scripts/templates/settings/avatar_crop.mustache:3
+#: app/scripts/templates/settings/avatar_gravatar.mustache:3
+#: app/scripts/templates/settings/change_password.mustache:12
+#: app/scripts/templates/settings/communication_preferences.mustache:3
+#: app/scripts/templates/settings/communication_preferences.mustache:11
+#: app/scripts/templates/settings/delete_account.mustache:7
+#: app/scripts/templates/settings/display_name.mustache:7
 #: app/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
 msgstr "キャンセル"
@@ -814,39 +797,31 @@ msgid "Your account is ready!"
 msgstr "アカウントの準備が整いました。"
 
 #: app/scripts/templates/reset_password.mustache:2
-msgid "Enter your email to reset&nbsp;the account password."
+msgid "Are you sure you want to reset your account password?"
 msgstr ""
-"アカウントのパスワードをリセットするため、メールアドレスを入力してください。"
 
-#: app/scripts/templates/reset_password.mustache:4
+#: app/scripts/templates/reset_password.mustache:3
 msgid ""
-"For security reasons, resetting your password will erase your Sync data from "
-"our servers. A new Sync backup will be created from your local browsing data."
+"Resetting your password will erase your browsing data from our servers. Any "
+"data on your devices will remain untouched. Begin the reset process by "
+"entering your email below."
 msgstr ""
-"セキュリティ上の理由により、パスワードをリセットすると Sync データがサーバか"
-"ら削除されます。新しい Sync のバックアップがローカルデータから生成されます。"
+
+#: app/scripts/templates/reset_password.mustache:5
+msgid "Begin reset"
+msgstr ""
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
 msgstr "アカウント管理"
 
 #: app/scripts/templates/settings.mustache:2
-#: app/scripts/templates/settings/avatar.mustache:2
-msgid "Change"
-msgstr "変更"
-
-#: app/scripts/templates/settings.mustache:3
-msgid "You are signed in as"
-msgstr "サインイン中:"
-
-#: app/scripts/templates/settings.mustache:4
-#: app/scripts/templates/settings/communication_preferences.mustache:1
-msgid "Communication preferences"
-msgstr "コミュニケーション設定"
-
-#: app/scripts/templates/settings.mustache:8
 msgid "Sign out"
 msgstr "サインアウト"
+
+#: app/scripts/templates/settings.mustache:4
+msgid "Hello, <span>%(username)s</span>"
+msgstr ""
 
 # %(serviceName)s を利用できるようになりました。だと「た。」だけ2行目になって残念だったので短めに
 #: app/scripts/templates/sign_in.mustache:2
@@ -875,10 +850,11 @@ msgstr "Firefox アカウントの作成"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr "Firefox アカウントを新たに作成して、あなたの同期データを移行しましょう。"
+msgstr ""
+"Firefox アカウントを新たに作成して、あなたの同期データを移行しましょう。"
 
 #: app/scripts/templates/sign_up.mustache:16
-#: app/scripts/templates/settings/communication_preferences.mustache:4
+#: app/scripts/templates/settings/communication_preferences.mustache:5
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Mozilla と Firefox に関する最新情報を入手しましょう。"
 
@@ -892,57 +868,116 @@ msgid "Choose what to sync"
 msgstr "同期するデータを選択する"
 
 #: app/scripts/templates/sign_up.mustache:22
-msgid "Already have an account? Sign in."
-msgstr "アカウントを既にお持の方はサインインしてください。"
+msgid "Have an account? Sign in."
+msgstr ""
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
 msgstr "ホーム"
 
 #: app/scripts/templates/settings/avatar.mustache:1
-#: app/scripts/templates/settings/avatar_camera.mustache:1
-#: app/scripts/templates/settings/avatar_change.mustache:1
-#: app/scripts/templates/settings/avatar_crop.mustache:1
-#: app/scripts/templates/settings/avatar_gravatar.mustache:1
 msgid "Account picture"
 msgstr "アカウント写真"
 
-#: app/scripts/templates/settings/avatar_camera.mustache:2
+#: app/scripts/templates/settings/avatar.mustache:2
+#: app/scripts/templates/settings/avatar_crop.mustache:2
+#: app/scripts/templates/settings/change_password.mustache:2
+#: app/scripts/templates/settings/change_password.mustache:11
+#: app/scripts/templates/settings/communication_preferences.mustache:2
+#: app/scripts/templates/settings/display_name.mustache:3
+#: app/scripts/templates/settings/display_name.mustache:6
+msgid "Change"
+msgstr "変更"
+
+#: app/scripts/templates/settings/avatar.mustache:4
+msgid "Add"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
 msgstr "写真を撮る"
 
-#: app/scripts/templates/settings/avatar_change.mustache:2
+#: app/scripts/templates/settings/avatar_change.mustache:1
 msgid "Upload"
 msgstr "アップロード"
 
-#: app/scripts/templates/settings/avatar_change.mustache:3
+#: app/scripts/templates/settings/avatar_change.mustache:2
 msgid "Camera"
 msgstr "カメラ"
 
-#: app/scripts/templates/settings/avatar_change.mustache:4
+#: app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Gravatar"
 msgstr "Gravatar"
 
-#: app/scripts/templates/settings/avatar_crop.mustache:2
+#: app/scripts/templates/settings/avatar_change.mustache:4
+msgid "Clear"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_change.mustache:5
+msgid "Done"
+msgstr ""
+
+#: app/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
 msgstr "必要に応じて、写真の位置や角度を調整してください"
 
-#: app/scripts/templates/settings/avatar_crop.mustache:3
-#: app/scripts/templates/settings/avatar_gravatar.mustache:3
+#: app/scripts/templates/settings/avatar_gravatar.mustache:2
 msgid "Save"
 msgstr "保存"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:5
+#: app/scripts/templates/settings/change_password.mustache:3
+msgid ""
+"Once you're finished, use your new password to sign in on all of your "
+"devices."
+msgstr ""
+"変更が完了したら、お手持ちのすべての端末で新しいパスワードを使ってログインし"
+"てください。"
+
+#: app/scripts/templates/settings/change_password.mustache:4
+msgid "Old password"
+msgstr "旧パスワード"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:1
+msgid "Communication preferences"
+msgstr "コミュニケーション設定"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:6
+msgid "Email preferences"
+msgstr "メール設定"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Unsubscribe"
 msgstr "購読解除"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:7
+#: app/scripts/templates/settings/communication_preferences.mustache:10
 msgid "Subscribe"
 msgstr "購読開始"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:9
-msgid "Email preferences"
-msgstr "メール設定"
+#: app/scripts/templates/settings/delete_account.mustache:1
+#: app/scripts/templates/settings/delete_account.mustache:6
+msgid "Delete account"
+msgstr "アカウントを削除"
+
+#: app/scripts/templates/settings/delete_account.mustache:2
+msgid "Delete"
+msgstr ""
+
+#: app/scripts/templates/settings/delete_account.mustache:3
+msgid ""
+"Are you sure you want to delete your account? This action cannot be undone."
+msgstr ""
+"本当にアカウントを削除してもよろしいですか？ この操作は元に戻せません。"
+
+#: app/scripts/templates/settings/display_name.mustache:1
+#: app/scripts/templates/settings/display_name.mustache:5
+msgid "Display name"
+msgstr ""
+
+#: app/scripts/templates/settings/display_name.mustache:4
+msgid ""
+"Choose the name you would like to appear in Firefox and when managing your "
+"account."
+msgstr ""
 
 # Android の UI に合わせる
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2
@@ -1008,3 +1043,29 @@ msgstr "12月"
 #: app/scripts/templates/partial/coppa-date-picker.mustache:34
 msgid "Day"
 msgstr "日"
+
+#~ msgid "Change password"
+#~ msgstr "パスワードの変更"
+
+#~ msgid "Confirm"
+#~ msgstr "確認"
+
+#~ msgid "Enter your email to reset&nbsp;the account password."
+#~ msgstr ""
+#~ "アカウントのパスワードをリセットするため、メールアドレスを入力してくださ"
+#~ "い。"
+
+#~ msgid ""
+#~ "For security reasons, resetting your password will erase your Sync data "
+#~ "from our servers. A new Sync backup will be created from your local "
+#~ "browsing data."
+#~ msgstr ""
+#~ "セキュリティ上の理由により、パスワードをリセットすると Sync データがサーバ"
+#~ "から削除されます。新しい Sync のバックアップがローカルデータから生成されま"
+#~ "す。"
+
+#~ msgid "You are signed in as"
+#~ msgstr "サインイン中:"
+
+#~ msgid "Already have an account? Sign in."
+#~ msgstr "アカウントを既にお持の方はサインインしてください。"
