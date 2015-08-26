@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-05 21:25+0000\n"
-"PO-Revision-Date: 2015-05-29 14:57\n"
+"PO-Revision-Date: 2015-08-26 02:52\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -132,11 +132,11 @@ msgstr "Trwy garedigrwydd <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
 #: app/scripts/views/settings/communication_preferences.js:96
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "Tanysgrifiwyd yn llwyddiannus"
 
 #: app/scripts/views/settings/communication_preferences.js:97
 msgid "Unsubscribed successfully"
-msgstr ""
+msgstr "Dad-tanysgrifiwyd yn llwyddiannus"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
 msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
