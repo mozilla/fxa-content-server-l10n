@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-05 21:25+0000\n"
+"POT-Creation-Date: 2015-08-26 18:54+0000\n"
 "PO-Revision-Date: 2015-08-11 14:26\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,8 +40,8 @@ msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
-"صفحه‌ای که درخواست کردید پیدا نشد. ما مطلع شده‌ایم و هر صفحه‌ای که پیوند "
-"معیوب دارد را اصلاح خواهیم کرد."
+"صفحه‌ای که درخواست کردید پیدا نشد. ما مطلع شده‌ایم و هر صفحه‌ای که پیوند معیوب "
+"دارد را اصلاح خواهیم کرد."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
@@ -72,8 +72,8 @@ msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
-"ما در حال حاضر زیر فشار زیادی هستیم و در تلاشیم تا هر چه سریع‌تر سیستم را به"
-" حالت عادی برگردانیم."
+"ما در حال حاضر زیر فشار زیادی هستیم و در تلاشیم تا هر چه سریع‌تر سیستم را به "
+"حالت عادی برگردانیم."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
@@ -81,13 +81,12 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a "
-"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
-"experience."
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
-"شما در حال استفاده از مرورگر <strong>قدیمی</strong> هستید. لطفا <a "
-"href=\"http://browsehappy.com/\">مرورگر خود را بروزرسانی کنید</a> تا تجربه‌ی"
-" بهتری داشته باشید."
+"شما در حال استفاده از مرورگر <strong>قدیمی</strong> هستید. لطفا <a href="
+"\"http://browsehappy.com/\">مرورگر خود را بروزرسانی کنید</a> تا تجربه‌ی بهتری "
+"داشته باشید."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -137,8 +136,8 @@ msgstr ""
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5
 msgid ""
-"For more information, please visit <a "
-"href='https://support.mozilla.org'>Mozilla Support</a>"
+"For more information, please visit <a href='https://support.mozilla."
+"org'>Mozilla Support</a>"
 msgstr ""
 "برای اطلاعات بیشتر، لطفا از <a href='https://support.mozilla.org'>پشتیبانی "
 "موزیلا</a> دیدن کنید"
@@ -159,8 +158,8 @@ msgid ""
 "account-level activities, please click the link to re-verify your account "
 "now."
 msgstr ""
-"بدلیل مسائل امنیتی حساب فایرفاکس شما قفل شده است. برای انجام فعالیت‌ها در "
-"سطح حساب، لطفا برای تایید دوباره حساب خود روی پیوند کلیک کنید."
+"بدلیل مسائل امنیتی حساب فایرفاکس شما قفل شده است. برای انجام فعالیت‌ها در سطح "
+"حساب، لطفا برای تایید دوباره حساب خود روی پیوند کلیک کنید."
 
 #: templates/unlock.html:3
 msgid "Verify account"
@@ -214,12 +213,12 @@ msgstr ""
 #: templates/new_sync_device.html:4
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
-"Account, you should change your password immediately at <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
+"Account, you should change your password immediately at <a href='%(resetLink)"
+"s'>%(resetLink)s</a>."
 msgstr ""
 "این ایمیل بصورت خودکار ارسال شده؛ اگر شما یک دستگاه جدید به حساب فایرفاکس "
-"خود اضافه نکرده‌اید، باید گذرواژه‌ی خود را سریعا در <a "
-"href='%(resetLink)s'>%(resetLink)s</a> سریعا تغییر دهید."
+"خود اضافه نکرده‌اید، باید گذرواژه‌ی خود را سریعا در <a href='%(resetLink)s'>"
+"%(resetLink)s</a> سریعا تغییر دهید."
 
 #: templates/new_sync_device.txt:3
 msgid ""
@@ -240,12 +239,12 @@ msgstr "گذرواژه حساب فایرفاکس شما با موفقیت تغی
 #: templates/password_changed.html:4
 msgid ""
 "This is an automated email; if you didn't change the password to your "
-"Firefox Account, you should reset it immediately at <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
+"Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
+"%(resetLink)s</a>."
 msgstr ""
 "این ایمیل بصورت خودکار ارسال شده است؛ اگر شما گذرواژه خود را در حساب "
-"فایرفاکس تغییر نداده‌اید، باید سریعا آن را در <a "
-"href='%(resetLink)s'>%(resetLink)s</a> تغییر دهید."
+"فایرفاکس تغییر نداده‌اید، باید سریعا آن را در <a href='%(resetLink)s'>"
+"%(resetLink)s</a> تغییر دهید."
 
 #: templates/password_changed.txt:3
 msgid ""
@@ -265,18 +264,18 @@ msgstr "حساب فایرفاکس شما با موفقیت بازنشانی شد
 
 #: templates/password_reset.html:4
 msgid ""
-"This is an automated email; if you didn't reset the password to your Firefox"
-" Account, you should reset it immediately at <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
+"This is an automated email; if you didn't reset the password to your Firefox "
+"Account, you should reset it immediately at <a href='%(resetLink)s'>"
+"%(resetLink)s</a>."
 msgstr ""
 "این ایمیل بصورت خودکار ارسال شده است؛ اگر شما گذرواژه حساب فایرفاکس خود را "
-"تغییر نداده‌اید، باید سریعا آن را در <a "
-"href='%(resetLink)s'>%(resetLink)s</a> تغییر دهید."
+"تغییر نداده‌اید، باید سریعا آن را در <a href='%(resetLink)s'>%(resetLink)s</"
+"a> تغییر دهید."
 
 #: templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox"
-" Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox "
+"Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 "این ایمیل بصورت خودکار ارسال شده است؛ اگر شما گذرواژه حساب خود را تغییر "
 "نداده‌اید، باید آن را سریعا در %(resetLink)s تغییر دهید."
