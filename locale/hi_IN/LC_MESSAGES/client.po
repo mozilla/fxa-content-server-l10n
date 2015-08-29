@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-26 18:54+0000\n"
-"PO-Revision-Date: 2015-08-02 18:11+0000\n"
+"PO-Revision-Date: 2015-08-29 14:35+0000\n"
 "Last-Translator: umesh <umeshsnwl@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1438539092.0\n"
+"X-POOTLE-MTIME: 1440858924.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -135,7 +135,7 @@ msgstr "खाता सफलतापूर्वक नष्ट किया
 
 #: app/scripts/views/settings/display_name.js:53
 msgid "Display name updated"
-msgstr ""
+msgstr "प्रदर्शित होने वाले नाम का नवीनीकरण हो गया है"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
 msgid ""
@@ -337,15 +337,15 @@ msgstr "छवि का आयाम कम से कम 100x100px होन�
 
 #: app/scripts/lib/auth-errors.js:223
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "फॉयरफॉक्स के आईओस के लिए पंजीकरण जल्द ही आ रहा है "
 
 #: app/scripts/lib/auth-errors.js:227
 msgid "Signup has been disabled"
-msgstr ""
+msgstr "पंजीकरण अक्षम किया गया है"
 
 #: app/scripts/lib/auth-errors.js:231 app/scripts/lib/strings.js:36
 msgid "Age is required"
-msgstr ""
+msgstr "उम्र की आवश्यकता है"
 
 #: app/scripts/lib/auth-errors.js:235
 msgid "No Gravatar found"
@@ -431,32 +431,32 @@ msgstr "नाम"
 
 #: app/scripts/lib/strings.js:27
 msgid "Bookmarks"
-msgstr ""
+msgstr "बुकमार्क्स"
 
 #: app/scripts/lib/strings.js:28
 msgid "History"
-msgstr ""
+msgstr "इतिहास"
 
 #: app/scripts/lib/strings.js:29
 msgid "Tabs"
-msgstr ""
+msgstr "टैब्स"
 
 #: app/scripts/lib/strings.js:30
 msgid "Passwords"
-msgstr ""
+msgstr "पासवर्ड"
 
 #: app/scripts/lib/strings.js:31
 msgid "Desktop Add-ons"
-msgstr ""
+msgstr "डेस्कटॉप ऐड-ऑन"
 
 #: app/scripts/lib/strings.js:32
 msgid "Desktop Preferences"
-msgstr ""
+msgstr "डेस्कटॉप वरीयता"
 
 #: app/scripts/lib/strings.js:35
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
-msgstr ""
+msgstr "आपकी उम्र क्या है?"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -794,6 +794,7 @@ msgstr "आपका खाता तैयार है!"
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Are you sure you want to reset your account password?"
 msgstr ""
+"क्या आप सुनिश्चित करते हैं कि आप अपने खाते का पासवर्ड रीसेट करना चाहते हैं?"
 
 #: app/scripts/templates/reset_password.mustache:3
 msgid ""
@@ -801,10 +802,13 @@ msgid ""
 "data on your devices will remain untouched. Begin the reset process by "
 "entering your email below."
 msgstr ""
+"पासवर्ड रीसेट करने पर हमारे सर्वर से आपका ब्राउज़िंग डाटा मिट जायेगा. आपके "
+"उपकरणों पर कोई डेटा अछूता रहेगा. नीचे अपना ईमेल दर्ज करके रीसेट प्रक्रिया "
+"शुरू करते हैं."
 
 #: app/scripts/templates/reset_password.mustache:5
 msgid "Begin reset"
-msgstr ""
+msgstr "रीसेट शुरू करें"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
@@ -816,7 +820,7 @@ msgstr "साइन आउट"
 
 #: app/scripts/templates/settings.mustache:4
 msgid "Hello, <span>%(username)s</span>"
-msgstr ""
+msgstr "हैलो, <span>%(username)s</span>"
 
 #: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
@@ -826,6 +830,8 @@ msgstr "जारी रखें %(serviceName)s"
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr ""
+"अपने फॉयरफॉक्स तथा nbsp खातों मैं साइन इन करके अपना;सिंक डेटा माइग्रेट "
+"कीजिए."
 
 #: app/scripts/templates/sign_in.mustache:13
 #: app/scripts/templates/sign_in.mustache:16
@@ -843,7 +849,7 @@ msgstr "एक फ़ायरफ़ॉक्स खाता बनायें"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr ""
+msgstr "नए फॉयरफॉक्स तथा nbsp खाते बनाके अपना;सिंक डेटा माइग्रेट कीजिए."
 
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/communication_preferences.mustache:5
@@ -860,7 +866,7 @@ msgstr "चुनें क्या साथ करना है"
 
 #: app/scripts/templates/sign_up.mustache:22
 msgid "Have an account? Sign in."
-msgstr ""
+msgstr "खाता है? साइन इन कीजिये."
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
@@ -882,7 +888,7 @@ msgstr "बदली करें"
 
 #: app/scripts/templates/settings/avatar.mustache:4
 msgid "Add"
-msgstr ""
+msgstr "जोड़िये"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -902,11 +908,11 @@ msgstr "ग्रावतार"
 
 #: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Clear"
-msgstr ""
+msgstr "हटाना"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5
 msgid "Done"
-msgstr ""
+msgstr "समाप्त"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
@@ -951,7 +957,7 @@ msgstr "खाता नष्ट करें"
 
 #: app/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete"
-msgstr ""
+msgstr "मिटा दें"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid ""
@@ -962,13 +968,15 @@ msgstr ""
 #: app/scripts/templates/settings/display_name.mustache:1
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Display name"
-msgstr ""
+msgstr "प्रदर्शित होने वाला नाम"
 
 #: app/scripts/templates/settings/display_name.mustache:4
 msgid ""
 "Choose the name you would like to appear in Firefox and when managing your "
 "account."
 msgstr ""
+"नाम का चयन करें जो कि आप फॉयरफॉक्स में तथा अकाउंट प्रबंधन के समय प्रदर्शित "
+"करना चाहते हैं."
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2
 msgid "Year of birth"
