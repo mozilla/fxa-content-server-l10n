@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-26 18:54+0000\n"
-"PO-Revision-Date: 2015-08-09 18:35+0000\n"
-"Last-Translator: Jobava <jobaval10n@gmail.com>\n"
+"PO-Revision-Date: 2015-08-30 17:00+0000\n"
+"Last-Translator: CristianSilaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2);;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1439145308.0\n"
+"X-POOTLE-MTIME: 1440954004.0\n"
 
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -40,8 +40,8 @@ msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
-"Pagina cerută nu a fost găsită. Am primit o notificare în acest sens și vom "
-"repara legăturile care pot fi defecte."
+"Pagina cerută nu a fost găsită. Am fost notificați în acest sens și vom "
+"repara linlurile care pot fi defecte."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
@@ -57,8 +57,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr ""
-"Ups, s-a produs o eroare. Am primit o notificare în acest sens și vom lucra "
-"la repararea ei."
+"Aoleu, ceva a mers prost aici. Am primit o notificare în acest sens și vom "
+"lucra la repararea ei."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -66,15 +66,15 @@ msgstr "Eroare 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr "Serverul e ocupat, încercați din nou mai târziu"
+msgstr "Serverul e ocupat, încearcă din nou mai târziu"
 
 #: server/templates/pages/src/503.html:3
 msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
-"Suntem în prezent suprasolicitați, dar lucrăm să readucem sistemul la "
-"funcționarea normală."
+"Suntem în prezent suprasolicitați și lucrăm să readucem sistemul la normal "
+"câ mai curând posibil."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:3
@@ -85,26 +85,26 @@ msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
-"Utilizezi un navigator <strong>depășit</strong>. Te rugăm să <a href="
-"\"http://browsehappy.com/\">actualizezi navigatorul</a> pentru o experiență "
-"îmbunătățită."
+"Utilizezi un browser <strong>depășit</strong>. Te rugăm să <a "
+"href=\"http://browsehappy.com/\">actualizezi navigatorul</a> pentru a-ți "
+"îmbunătăți experiența."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr "Conturi Firefox necesită JavaScript."
+msgstr "Conturile Firefox necesită JavaScript."
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
-msgstr "Notă privind confidențialitatea"
+msgstr "Notă privind politica de confidențialitate"
 
 #: server/templates/pages/src/privacy.html:4
 #: server/templates/pages/src/terms.html:4
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
-msgstr "Servicii cloud Firefox"
+msgstr "Servicii în cloud Firefox"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:5
@@ -118,7 +118,7 @@ msgstr "Ești sigur?"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Te rugăm să confirmi că vrei să resetezi parola pentru %(email)s."
+msgstr "Te rugăm să confirmi că dorești să resetezi parola pentru %(email)s."
 
 #: templates/reset.html:4
 msgid "Reset password"
@@ -130,8 +130,8 @@ msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
-"Acesta este un mesaj automat; dacă l-ați primit din greșeală nu este nevoie "
-"de nicio acțiune din partea dumneavoastră."
+"Acesta este un e-mail automat; dacă l-ați primit din greșeală nu este nevoie "
+"de nicio acțiune din partea ta."
 
 #: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
@@ -145,13 +145,15 @@ msgstr ""
 
 #: templates/reset.txt:3
 msgid "Reset password:"
-msgstr "Resetare parolă:"
+msgstr "Resetează parola:"
 
 #: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
 #: templates/new_sync_device.txt:4 templates/password_changed.txt:4
 #: templates/password_reset.txt:4
 msgid "For more information, please visit https://support.mozilla.org"
-msgstr "Pentru mai multe informații, vizitează https://support.mozilla.org"
+msgstr ""
+"Pentru mai multe informații, te rugăm să vizitezi "
+"https://support.mozilla.org"
 
 #: templates/unlock.html:2 templates/unlock.txt:1
 msgid ""
@@ -160,15 +162,16 @@ msgid ""
 "now."
 msgstr ""
 "Din motive de securitate, contul tău Firefox a fost blocat. Pentru a schimba "
-"detaliile contului, te rugăm să reverifici contul acum."
+"detaliile contului, te rugăm să dai clic pe link pentru a reverifica contul "
+"acum."
 
 #: templates/unlock.html:3
 msgid "Verify account"
-msgstr "Verificare cont"
+msgstr "Verifică contul"
 
 #: templates/unlock.txt:2
 msgid "Verify account:"
-msgstr "Verificare cont:"
+msgstr "Verifică contul:"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Almost there"
@@ -176,7 +179,7 @@ msgstr "Aproape am terminat"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr "%(email)s, ești la un clic distanța de verificarea unui Cont Firefox."
+msgstr "%(email)s, ești la un clic distanță de verificarea contului Firefox."
 
 #: templates/verify.html:4
 msgid "Verify"
@@ -192,7 +195,7 @@ msgstr "Verifică-ți contul"
 
 #: mailer.js:112
 msgid "Reset your password"
-msgstr "Resetează parola"
+msgstr "Resetează-ți parola"
 
 #: mailer.js:146
 msgid "Re-verify your account"
@@ -208,7 +211,7 @@ msgid ""
 "Firefox Account."
 msgstr ""
 "Un nou dispozitiv se sincronizează acum cu toate dispozitivele conectate la "
-"Contul Firefox."
+"contul Firefox."
 
 #: templates/new_sync_device.html:4
 msgid ""
@@ -216,17 +219,17 @@ msgid ""
 "Account, you should change your password immediately at <a href='%(resetLink)"
 "s'>%(resetLink)s</a>."
 msgstr ""
-"Acesta este un mesaj automat; dacă nu ați adăugat un nou dispozitiv la "
-"Contul Firefox, trebuie să vă schimbați parola imediat la <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
+"Acesta este un e-mail automat; dacă nu ai adăugat un nou dispozitiv la "
+"contul Firefox, ar trebui să îți schimbi parola imediat la <a href='%"
+"(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/new_sync_device.txt:3
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
 "Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
-"Acesta este un mesaj automat; dacă nu ați adăugat un nou dispozitiv la "
-"Contul Firefox, trebuie să vă schimbați parola imediat la %(resetLink)s."
+"Acesta este un e-mail automat; dacă nu ai adăugat un nou dispozitiv la "
+"contul Firefox, ar trebui să îți schimbi parola imediat la %(resetLink)s."
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
@@ -234,7 +237,7 @@ msgstr "Parolă schimbată cu succes"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr "Parola Contului Firefox a fost schimbată cu succes."
+msgstr "Parola contului Firefox a fost schimbată cu succes."
 
 #: templates/password_changed.html:4
 msgid ""
@@ -242,16 +245,17 @@ msgid ""
 "Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
-"Acesta este un mesaj automat; dacă nu ați schimbat parola la Contul Firefox, "
-"trebuie să o resetați imediat la <a href='%(resetLink)s'>%(resetLink)s</a>."
+"Acesta este un e-mail automat; dacă nu ai resetat parola contului Firefox, "
+"ar trebui să o resetezi imediat la <a href='%(resetLink)s'>%"
+"(resetLink)s</a>."
 
 #: templates/password_changed.txt:3
 msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
-"Acesta este un mesaj automat; dacă nu ați schimbat parola la Contul Firefox, "
-"trebuie să o resetați imediat la %(resetLink)s."
+"Acesta este un e-mail automat; dacă nu ai resetat parola contului Firefox, "
+"ar trebui să o resetezi imediat la %(resetLink)s."
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
 msgid "Password reset successfully"
@@ -259,7 +263,7 @@ msgstr "Parolă resetată cu succes"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr "Parola Contului Firefox a fost resetată cu succes."
+msgstr "Parola contului Firefox a fost resetată cu succes."
 
 #: templates/password_reset.html:4
 msgid ""
@@ -267,37 +271,38 @@ msgid ""
 "Account, you should reset it immediately at <a href='%(resetLink)s'>"
 "%(resetLink)s</a>."
 msgstr ""
-"Acesta este un mesaj automat; dacă nu ați resetat parola Contului Firefox, "
-"trebuie să o resetați imediat la <a href='%(resetLink)s'>%(resetLink)s</a>."
+"Acesta este un e-mail automat; dacă nu ai resetat parola contului Firefox, "
+"ar trebui să o resetezi imediat la <a href='%(resetLink)s'>%"
+"(resetLink)s</a>."
 
 #: templates/password_reset.txt:3
 msgid ""
 "This is an automated email; if you didn’t reset the password to your Firefox "
 "Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
-"Acesta este un mesaj automat; dacă nu ați resetat parola Contului Firefox, "
-"trebuie să o resetați imediat la %(resetLink)s."
+"Acesta este un e-mail automat; dacă nu ai resetat parola contului Firefox, "
+"ar trebui să o resetezi imediat la %(resetLink)s."
 
 #: mailer.js:82
 msgid "Verify your Firefox Account"
-msgstr "Verifică-ți Contul Firefox"
+msgstr "Verifică-ți contul Firefox"
 
 #: mailer.js:121
 msgid "Reset your Firefox Account password"
-msgstr "Resetează parola Contului Firefox"
+msgstr "Resetează-ți parola contului Firefox"
 
 #: mailer.js:155
 msgid "Re-verify your Firefox Account"
-msgstr "Reverifică-ți Contul Firefox"
+msgstr "Reverifică-ți contul Firefox"
 
 #: mailer.js:185
 msgid "Your Firefox Account password has been changed"
-msgstr "Parola Contului Firefox a fost schimbată"
+msgstr "Parola contului Firefox ți-a fost schimbată"
 
 #: mailer.js:212
 msgid "Your Firefox Account password has been reset"
-msgstr "Parola Contului Firefox a fost resetată"
+msgstr "Parola contului Firefox ți-a fost resetată"
 
 #: mailer.js:239
 msgid "A new device is now syncing to your Firefox Account"
-msgstr "Un nou dispozitiv se sincronizează acum cu Contul Firefox"
+msgstr "Un dispozitiv nou se sincronizează acum cu contul Firefox"
