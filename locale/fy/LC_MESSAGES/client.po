@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-26 18:54+0000\n"
-"PO-Revision-Date: 2015-08-19 14:40+0000\n"
+"PO-Revision-Date: 2015-08-31 10:57+0000\n"
 "Last-Translator: Wim <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1439995211.0\n"
+"X-POOTLE-MTIME: 1441018665.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -135,7 +135,7 @@ msgstr "Account mei sukses fuortsmiten"
 
 #: app/scripts/views/settings/display_name.js:53
 msgid "Display name updated"
-msgstr ""
+msgstr "Werjeftenamme bywurke"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
 msgid ""
@@ -352,7 +352,7 @@ msgstr "Registraasje is útskeakele"
 
 #: app/scripts/lib/auth-errors.js:231 app/scripts/lib/strings.js:36
 msgid "Age is required"
-msgstr ""
+msgstr "Leeftiid is fereaske"
 
 #: app/scripts/lib/auth-errors.js:235
 msgid "No Gravatar found"
@@ -464,7 +464,7 @@ msgstr "Desktopfoarkarren"
 #: app/scripts/lib/strings.js:35
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
-msgstr ""
+msgstr "Hoe âld binne jo?"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -801,7 +801,7 @@ msgstr "Jo account is ree!"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Are you sure you want to reset your account password?"
-msgstr ""
+msgstr "Binne jo wis dat jo jo accountwachtwurd opnij ynstelle wolle?"
 
 #: app/scripts/templates/reset_password.mustache:3
 msgid ""
@@ -809,10 +809,13 @@ msgid ""
 "data on your devices will remain untouched. Begin the reset process by "
 "entering your email below."
 msgstr ""
+"Opnij ynstellen fan jo wachtwurd sil jo navigaasjegegevens fan ús servers "
+"wiskje. Gegevens op jo apparaten bliuwe ûnoantaast. Begjin it "
+"werinisjalisaasjeproses troch hjirûnder jo e-mailadres yn te fieren."
 
 #: app/scripts/templates/reset_password.mustache:5
 msgid "Begin reset"
-msgstr ""
+msgstr "Werinisjalisaasje begjinne"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
@@ -824,7 +827,7 @@ msgstr "Ofmelde"
 
 #: app/scripts/templates/settings.mustache:4
 msgid "Hello, <span>%(username)s</span>"
-msgstr ""
+msgstr "Hallo <span>%(username)s</span>"
 
 #: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
@@ -870,7 +873,7 @@ msgstr "Kies wat jo syngronisearje wolle"
 
 #: app/scripts/templates/sign_up.mustache:22
 msgid "Have an account? Sign in."
-msgstr ""
+msgstr "Hawwe jo in account? Meld jo oan."
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
@@ -892,7 +895,7 @@ msgstr "Wizigje"
 
 #: app/scripts/templates/settings/avatar.mustache:4
 msgid "Add"
-msgstr ""
+msgstr "Tafoegje"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -912,11 +915,11 @@ msgstr "Gravatar"
 
 #: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Clear"
-msgstr ""
+msgstr "Wiskje"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5
 msgid "Done"
-msgstr ""
+msgstr "Dien"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
@@ -961,7 +964,7 @@ msgstr "Account fuortsmite"
 
 #: app/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete"
-msgstr ""
+msgstr "Fuortsmite"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid ""
@@ -973,13 +976,15 @@ msgstr ""
 #: app/scripts/templates/settings/display_name.mustache:1
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Display name"
-msgstr ""
+msgstr "Werjeftenamme"
 
 #: app/scripts/templates/settings/display_name.mustache:4
 msgid ""
 "Choose the name you would like to appear in Firefox and when managing your "
 "account."
 msgstr ""
+"Kies de namme dy't jo yn Firefox en by it behearen fan jo account ferskine "
+"litte wolle."
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2
 msgid "Year of birth"
