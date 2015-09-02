@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-26 18:54+0000\n"
-"PO-Revision-Date: 2015-07-22 14:38+0200\n"
+"PO-Revision-Date: 2015-09-01 11:41+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -83,7 +83,8 @@ msgid "2007"
 msgstr "2007"
 
 #: app/scripts/views/complete_reset_password.js:135
-#: app/scripts/views/complete_sign_up.js:102 app/scripts/views/confirm.js:91
+#: app/scripts/views/complete_sign_up.js:102
+#: app/scripts/views/confirm.js:91
 #: app/scripts/views/confirm_reset_password.js:173
 msgid "Account verified successfully"
 msgstr "Llogaria u verifikua me sukses"
@@ -101,7 +102,8 @@ msgstr "Ricaktim fjalëkalimi"
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Fjalëkalimi u ricaktua me sukses. Hyni që të vazhdoni."
 
-#: app/scripts/views/reset_password.js:82 app/scripts/views/sign_in.js:190
+#: app/scripts/views/reset_password.js:82
+#: app/scripts/views/sign_in.js:190
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Llogari e panjohur. <a href=\"/signup\">Regjistrohuni</a>"
 
@@ -115,8 +117,7 @@ msgstr "Ka tashmë një llogari të tillë. <a href=\"/signin\">Hyni</a>"
 
 #: app/scripts/views/settings/avatar_gravatar.js:91
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr ""
-"Me lejen dashamirëse të <a href=\"https://www.gravatar.com\">Gravatar</a>-it"
+msgstr "Me lejen dashamirëse të <a href=\"https://www.gravatar.com\">Gravatar</a>-it"
 
 #: app/scripts/views/settings/change_password.js:61
 msgid "Password changed successfully"
@@ -136,18 +137,17 @@ msgstr "Llogaria u fshi me sukses"
 
 #: app/scripts/views/settings/display_name.js:53
 msgid "Display name updated"
-msgstr ""
+msgstr "Emri për në ekran u përditësua"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
-msgstr ""
-"Llogari e kyçur. <a href=\"/confirm_account_unlock\">Dërgoni email "
-"shkyçjeje</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgstr "Llogari e kyçur. <a href=\"/confirm_account_unlock\">Dërgoni email shkyçjeje</a>"
 
-#: app/scripts/lib/auth-errors.js:18 app/scripts/lib/config-loader.js:82
+#: app/scripts/lib/auth-errors.js:18
+#: app/scripts/lib/config-loader.js:82
 #: app/scripts/lib/marketing-email-errors.js:18
-#: app/scripts/lib/oauth-errors.js:19 app/scripts/lib/profile-errors.js:34
+#: app/scripts/lib/oauth-errors.js:19
+#: app/scripts/lib/profile-errors.js:34
 #: app/scripts/lib/profile-errors.js:42
 #: app/scripts/lib/require-on-demand.js:32
 #: app/scripts/lib/require-on-demand.js:36
@@ -157,7 +157,8 @@ msgstr ""
 msgid "Unexpected error"
 msgstr "Gabim i papritur"
 
-#: app/scripts/lib/auth-errors.js:27 app/scripts/lib/oauth-errors.js:48
+#: app/scripts/lib/auth-errors.js:27
+#: app/scripts/lib/oauth-errors.js:48
 msgid "Invalid token"
 msgstr "Token i pavlefshëm"
 
@@ -197,7 +198,8 @@ msgstr "Kod verifikimi i pavlefshëm"
 msgid "Invalid JSON in request body"
 msgstr "JSON i pavlefshëm te lënda e kërkesës"
 
-#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/profile-errors.js:22
+#: app/scripts/lib/auth-errors.js:67
+#: app/scripts/lib/profile-errors.js:22
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Parametër i pavlefshëm te lënda e kërkesës: %(param)s"
 
@@ -242,13 +244,16 @@ msgstr "Kjo pikë mbarimi nuk mbulohet më"
 #
 # Siç mund të shihet, edhe sikur nga ana e domethënies të ishte i përshtatshëm, përkthimi "përpiquni sërish" thuajse dyfishon "riprovoni". Nga pikëpamja e ekonomisë në përkthim, kjo nuk përligjet.
 # Nga ana e domethënies "përpiquni sërish" e zgjeron fokusin e veprimeve të mundshme pas dështimit. Kurse "riprovoni" do të thotë të bësh edhe një provë tjetër, të po atij veprimi që kishe bërë më parë.
-#: app/scripts/lib/auth-errors.js:107 app/scripts/lib/config-loader.js:78
+#: app/scripts/lib/auth-errors.js:107
+#: app/scripts/lib/config-loader.js:78
 #: app/scripts/lib/marketing-email-errors.js:79
-#: app/scripts/lib/oauth-errors.js:78 app/scripts/lib/profile-errors.js:38
+#: app/scripts/lib/oauth-errors.js:78
+#: app/scripts/lib/profile-errors.js:38
 msgid "System unavailable, try again soon"
 msgstr "Sistemi s’është në punë, riprovoni së shpejti"
 
-#: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:102
+#: app/scripts/lib/auth-errors.js:111
+#: app/scripts/lib/oauth-errors.js:102
 msgid "no message"
 msgstr "pa mesazh"
 
@@ -291,7 +296,8 @@ msgstr "Duhet të jetë të paktën 8 shenja"
 msgid "Valid password required"
 msgstr "Lyp fjalëkalim të vlefshëm"
 
-#: app/scripts/lib/auth-errors.js:151 app/scripts/lib/auth-errors.js:183
+#: app/scripts/lib/auth-errors.js:151
+#: app/scripts/lib/auth-errors.js:183
 #: app/scripts/lib/auth-errors.js:199
 msgid "Valid email required"
 msgstr "Lypset email i vlefshëm"
@@ -318,8 +324,7 @@ msgstr "Lypset datëlindje e vlefshme"
 
 #: app/scripts/lib/auth-errors.js:179
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
-"Email-i juaj i verifikimit sapo u kthye mbrapsht. E shkruat keq email-in?"
+msgstr "Email-i juaj i verifikimit sapo u kthye mbrapsht. E shkruat keq email-in?"
 
 #: app/scripts/lib/auth-errors.js:187
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -327,9 +332,7 @@ msgstr "Jepni një adresë email të vlefshme. firefox.com nuk ofron email."
 
 #: app/scripts/lib/auth-errors.js:195
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
-"LLogaritë Firefox mund të vendosen vetëm brenda një IFRAME në sajte të "
-"miratuar"
+msgstr "LLogaritë Firefox mund të vendosen vetëm brenda një IFRAME në sajte të miratuar"
 
 #: app/scripts/lib/auth-errors.js:203
 msgid "/force_auth requires an email"
@@ -352,15 +355,16 @@ msgstr "Përmasat e figurës duhet të jenë e pakta 100x100px"
 
 #: app/scripts/lib/auth-errors.js:223
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "Regjistrimi po vjen së shpejti edhe te Firefox-i për iOS"
 
 #: app/scripts/lib/auth-errors.js:227
 msgid "Signup has been disabled"
-msgstr ""
+msgstr "Regjistrimi është çaktivizuar"
 
-#: app/scripts/lib/auth-errors.js:231 app/scripts/lib/strings.js:36
+#: app/scripts/lib/auth-errors.js:231
+#: app/scripts/lib/strings.js:36
 msgid "Age is required"
-msgstr ""
+msgstr "Mosha është e domosdoshme"
 
 #: app/scripts/lib/auth-errors.js:235
 msgid "No Gravatar found"
@@ -394,11 +398,13 @@ msgstr "Kod i pasaktë"
 msgid "Expired code"
 msgstr "Kod i skaduar"
 
-#: app/scripts/lib/oauth-errors.js:52 app/scripts/lib/oauth-errors.js:74
+#: app/scripts/lib/oauth-errors.js:52
+#: app/scripts/lib/oauth-errors.js:74
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "Parametër OAuth i pavlefshëm: %(param)s"
 
-#: app/scripts/lib/oauth-errors.js:60 app/scripts/lib/profile-errors.js:18
+#: app/scripts/lib/oauth-errors.js:60
+#: app/scripts/lib/profile-errors.js:18
 msgid "Unauthorized"
 msgstr "I paautorizuar"
 
@@ -427,14 +433,8 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:19
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr ""
-"Duke vazhduar më tej, pajtoheni me <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Kushtet e Shërbimit</a> dhe<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Shënimet Mbi Privatësinë</a> të %(serviceName)s (%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Duke vazhduar më tej, pajtoheni me <a id=\"service-tos\" href=\"%(termsUri)s\">Kushtet e Shërbimit</a> dhe<a id=\"service-pp\" href=\"%(privacyUri)s\">Shënimet Mbi Privatësinë</a> të %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:23
 msgid "Edit profile"
@@ -446,43 +446,40 @@ msgstr "Emër"
 
 #: app/scripts/lib/strings.js:27
 msgid "Bookmarks"
-msgstr ""
+msgstr "Faqerojtës"
 
 #: app/scripts/lib/strings.js:28
 msgid "History"
-msgstr ""
+msgstr "Historik"
 
 #: app/scripts/lib/strings.js:29
 msgid "Tabs"
-msgstr ""
+msgstr "Skeda"
 
 #: app/scripts/lib/strings.js:30
 msgid "Passwords"
-msgstr ""
+msgstr "Fjalëkalime"
 
 #: app/scripts/lib/strings.js:31
 msgid "Desktop Add-ons"
-msgstr ""
+msgstr "Shtesa Desktopi"
 
 #: app/scripts/lib/strings.js:32
 msgid "Desktop Preferences"
-msgstr ""
+msgstr "Parapëlqime Desktopi"
 
 #: app/scripts/lib/strings.js:35
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
-msgstr ""
+msgstr "Ç’moshë keni?"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
 msgstr "S’krijohet dot llogaria"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
-msgid ""
-"You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr ""
-"Duhet të plotësoni disa domosdoshmëri lidhur me moshën, që të mundeni të "
-"krijoni një Firefox&nbsp;Account."
+msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
+msgstr "Duhet të plotësoni disa domosdoshmëri lidhur me moshën, që të mundeni të krijoni një Firefox&nbsp;Account."
 
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
@@ -510,12 +507,8 @@ msgstr "Lidhja për shkyçje është e dëmtuar"
 #: app/scripts/templates/complete_account_unlock.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:7
 #: app/scripts/templates/complete_sign_up.mustache:8
-msgid ""
-"The link you clicked was missing characters, and may have been broken by "
-"your email client. Copy the address carefully, and try again."
-msgstr ""
-"Lidhjes që klikuat i mungonin shenja, dhe mund të jetë dëmtuar nga klienti "
-"juaj email. Kopjojeni adresën me kujdes, dhe riprovoni."
+msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
+msgstr "Lidhjes që klikuat i mungonin shenja, dhe mund të jetë dëmtuar nga klienti juaj email. Kopjojeni adresën me kujdes, dhe riprovoni."
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
@@ -615,14 +608,8 @@ msgid "Unlock email sent"
 msgstr "Email-i për shkyçje u dërgua"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:4
-msgid ""
-"For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
-msgstr ""
-"Për arsye sigurie llogaria juaj u kyç. Për të kryer veprime llogarie, ju "
-"lutemi, riverifikoni llogarinë tuaj duke klikuar mbi lidhjen e verifikimit "
-"të dërguar te %(email)s"
+msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
+msgstr "Për arsye sigurie llogaria juaj u kyç. Për të kryer veprime llogarie, ju lutemi, riverifikoni llogarinë tuaj duke klikuar mbi lidhjen e verifikimit të dërguar te %(email)s"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:5
 #: app/scripts/templates/pp.mustache:3
@@ -655,15 +642,8 @@ msgid "Cookies required"
 msgstr "Cookie-t janë të domosdoshme"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
-msgid ""
-"Please enable cookies in your browser which are required by Firefox "
-"Accounts. Cookies are small pieces of data stored in your browser that "
-"provide functionality such as remembering you between sessions."
-msgstr ""
-"Ju lutemi, aktivizoni cookie-t te shfletuesi juaj, të cilat janë të "
-"domosdoshme për Llogari Firefox. Cookie-t janë copëza të vogla të dhënash, "
-"të depozituara në shfletuesin tuaj, që bëjnë të mundur funksione të tillë si "
-"mbajtja mend e sesioneve tuaj nga njëri në tjetrin."
+msgid "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between sessions."
+msgstr "Ju lutemi, aktivizoni cookie-t te shfletuesi juaj, të cilat janë të domosdoshme për Llogari Firefox. Cookie-t janë copëza të vogla të dhënash, të depozituara në shfletuesin tuaj, që bëjnë të mundur funksione të tillë si mbajtja mend e sesioneve tuaj nga njëri në tjetrin."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -696,16 +676,11 @@ msgstr "Harruat  fjalëkalimin?"
 #: app/scripts/templates/force_auth.mustache:9
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:15
-msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
-msgstr ""
-"Duke vazhduar më tej, pajtoheni me <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Kushtet e Shërbimit</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy"
-"\">Shënimet Mbi Privatësinë</a> të shërbimeve re të Firefox-it."
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+msgstr "Duke vazhduar më tej, pajtoheni me <a id=\"fxa-tos\" href=\"/legal/terms\">Kushtet e Shërbimit</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy\">Shënimet Mbi Privatësinë</a> të shërbimeve re të Firefox-it."
 
-#: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
+#: app/scripts/templates/legal.mustache:1
+#: app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
 msgstr "Shërbime reje nga Firefox-i"
@@ -720,7 +695,8 @@ msgstr "Ligjore"
 msgid "Terms of Service"
 msgstr "Kushte Shërbimi"
 
-#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
+#: app/scripts/templates/legal.mustache:4
+#: app/scripts/templates/pp.mustache:2
 #: app/scripts/templates/settings.mustache:6
 msgid "Privacy Notice"
 msgstr "Shënim mbi Privatësinë"
@@ -821,18 +797,15 @@ msgstr "Llogaria juaj është gati!"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Are you sure you want to reset your account password?"
-msgstr ""
+msgstr "Jeni i sigurt se doni të ricaktoni fjalëkalimin e llogarisë suaj?"
 
 #: app/scripts/templates/reset_password.mustache:3
-msgid ""
-"Resetting your password will erase your browsing data from our servers. Any "
-"data on your devices will remain untouched. Begin the reset process by "
-"entering your email below."
-msgstr ""
+msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
+msgstr "Ricaktimi i fjalëkalimit tuaj do të shkaktojë fshirjen e të dhënave të shfletimit tuaj nga shërbyesit tanë. Çfarëdo e dhënë te pajisjet tuaja do të mbeten të paprekura. Fillojeni procesin e ricaktimit duke dhënë më poshtë email-in tuaj."
 
 #: app/scripts/templates/reset_password.mustache:5
 msgid "Begin reset"
-msgstr ""
+msgstr "Filloni ricaktimin"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Manage account"
@@ -844,7 +817,7 @@ msgstr "Dilni"
 
 #: app/scripts/templates/settings.mustache:4
 msgid "Hello, <span>%(username)s</span>"
-msgstr ""
+msgstr "Tungjatjeta, <span>%(username)s</span>"
 
 #: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
@@ -853,7 +826,7 @@ msgstr "Vazhdoni te %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr ""
+msgstr "Migroni të dhënat tuaja të njëkohësimit duke bërë hyrjen te Llogaria juaj Firefox."
 
 #: app/scripts/templates/sign_in.mustache:13
 #: app/scripts/templates/sign_in.mustache:16
@@ -871,7 +844,7 @@ msgstr "Krijoni një llogari Firefox Account"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr ""
+msgstr "Migroni të dhënat tuaja të njëkohësimit duke krijuar një Llogari&nbsp;Firefox të re."
 
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/communication_preferences.mustache:5
@@ -888,7 +861,7 @@ msgstr "Zgjidhni çfarë të njëkohësohet"
 
 #: app/scripts/templates/sign_up.mustache:22
 msgid "Have an account? Sign in."
-msgstr ""
+msgstr "Keni llogari? Hyni."
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
@@ -910,7 +883,7 @@ msgstr "Ndryshoje"
 
 #: app/scripts/templates/settings/avatar.mustache:4
 msgid "Add"
-msgstr ""
+msgstr "Shtoni"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -930,11 +903,11 @@ msgstr "Gravatar"
 
 #: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Clear"
-msgstr ""
+msgstr "Pastroje"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5
 msgid "Done"
-msgstr ""
+msgstr "U bë"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
@@ -945,12 +918,8 @@ msgid "Save"
 msgstr "Ruaje"
 
 #: app/scripts/templates/settings/change_password.mustache:3
-msgid ""
-"Once you're finished, use your new password to sign in on all of your "
-"devices."
-msgstr ""
-"Pasi të përfundoni, përdorni fjalëkalimin tuaj të ri për të hyrë në krejt "
-"pajisjet tuaja."
+msgid "Once you're finished, use your new password to sign in on all of your devices."
+msgstr "Pasi të përfundoni, përdorni fjalëkalimin tuaj të ri për të hyrë në krejt pajisjet tuaja."
 
 #: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
@@ -979,25 +948,20 @@ msgstr "Fshijeni llogarinë"
 
 #: app/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete"
-msgstr ""
+msgstr "Fshije"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
-msgid ""
-"Are you sure you want to delete your account? This action cannot be undone."
-msgstr ""
-"Jeni i sigurt se doni të fshihet llogaria juaj? Ky veprim nuk mund të "
-"zhbëhet."
+msgid "Are you sure you want to delete your account? This action cannot be undone."
+msgstr "Jeni i sigurt se doni të fshihet llogaria juaj? Ky veprim nuk mund të zhbëhet."
 
 #: app/scripts/templates/settings/display_name.mustache:1
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Display name"
-msgstr ""
+msgstr "Emër në ekran"
 
 #: app/scripts/templates/settings/display_name.mustache:4
-msgid ""
-"Choose the name you would like to appear in Firefox and when managing your "
-"account."
-msgstr ""
+msgid "Choose the name you would like to appear in Firefox and when managing your account."
+msgstr "Zgjidhni emrin që do të donit të shfaqet te Firefox-i dhe kur punoni me llogarinë tuaj."
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2
 msgid "Year of birth"
