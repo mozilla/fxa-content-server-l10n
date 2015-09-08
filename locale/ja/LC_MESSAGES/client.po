@@ -147,8 +147,7 @@ msgstr ""
 #: app/scripts/lib/auth-errors.js:18 app/scripts/lib/config-loader.js:82
 #: app/scripts/lib/marketing-email-errors.js:18
 #: app/scripts/lib/oauth-errors.js:19 app/scripts/lib/profile-errors.js:34
-#: app/scripts/lib/profile-errors.js:42
-#: app/scripts/lib/require-on-demand.js:32
+#: app/scripts/lib/profile-errors.js:42 app/scripts/lib/require-on-demand.js:32
 #: app/scripts/lib/require-on-demand.js:36
 #: app/scripts/lib/require-on-demand.js:40
 #: app/scripts/lib/require-on-demand.js:44
@@ -806,9 +805,9 @@ msgid ""
 "data on your devices will remain untouched. Begin the reset process by "
 "entering your email below."
 msgstr ""
-"パスワードをリセットすると、Mozilla のサーバからブラウジングデータが消去されます。"
-"お使いの端末上のデータはすべてそのまま残ります。リセット手続きを始めるにはまず以下に"
-"メールアドレスを入力してください。"
+"パスワードをリセットすると、Mozilla のサーバからブラウジングデータが消去され"
+"ます。お使いの端末上のデータはすべてそのまま残ります。リセット手続きを始める"
+"にはまず以下にメールアドレスを入力してください。"
 
 #: app/scripts/templates/reset_password.mustache:5
 msgid "Begin reset"
@@ -980,7 +979,8 @@ msgstr "表示名"
 msgid ""
 "Choose the name you would like to appear in Firefox and when managing your "
 "account."
-msgstr "あなたのアカウントを管理する際に Firefox に表示したい名前を選んでください。"
+msgstr ""
+"あなたのアカウントを管理する際に Firefox に表示したい名前を選んでください。"
 
 # Android の UI に合わせる
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2

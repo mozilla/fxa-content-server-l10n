@@ -147,8 +147,7 @@ msgstr ""
 #: app/scripts/lib/auth-errors.js:18 app/scripts/lib/config-loader.js:82
 #: app/scripts/lib/marketing-email-errors.js:18
 #: app/scripts/lib/oauth-errors.js:19 app/scripts/lib/profile-errors.js:34
-#: app/scripts/lib/profile-errors.js:42
-#: app/scripts/lib/require-on-demand.js:32
+#: app/scripts/lib/profile-errors.js:42 app/scripts/lib/require-on-demand.js:32
 #: app/scripts/lib/require-on-demand.js:36
 #: app/scripts/lib/require-on-demand.js:40
 #: app/scripts/lib/require-on-demand.js:44
@@ -833,8 +832,8 @@ msgstr "Pokračovať na %(serviceName)s"
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr ""
-"Presuňte svoje synchronizované údaje prihlásením k vášmu účtu "
-"Firefox&nbsp;Account."
+"Presuňte svoje synchronizované údaje prihlásením k vášmu účtu Firefox&nbsp;"
+"Account."
 
 #: app/scripts/templates/sign_in.mustache:13
 #: app/scripts/templates/sign_in.mustache:16
@@ -853,8 +852,8 @@ msgstr "Vytvorenie účtu Firefox Account"
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr ""
-"Presuňte svoje synchronizované údaje vytvorením nového účtu "
-"Firefox&nbsp;Account."
+"Presuňte svoje synchronizované údaje vytvorením nového účtu Firefox&nbsp;"
+"Account."
 
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/communication_preferences.mustache:5
@@ -1076,8 +1075,8 @@ msgstr "Deň"
 #~ msgstr ""
 #~ "Pokračovaním súhlasíte s <a id=\"service-tos\" href=\"%(termsUri)s"
 #~ "\">Podmienkami služby</a> a <a id=\"service-pp\" href=\"%(privacyUri)s"
-#~ "\">Zásadami o ochrane osobných údajov</a> %(serviceName)s (%(serviceUri)"
-#~ "s)."
+#~ "\">Zásadami o ochrane osobných údajov</a> %(serviceName)s "
+#~ "(%(serviceUri)s)."
 
 #~ msgid ""
 #~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"

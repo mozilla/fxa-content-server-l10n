@@ -148,8 +148,7 @@ msgstr ""
 #: app/scripts/lib/auth-errors.js:18 app/scripts/lib/config-loader.js:82
 #: app/scripts/lib/marketing-email-errors.js:18
 #: app/scripts/lib/oauth-errors.js:19 app/scripts/lib/profile-errors.js:34
-#: app/scripts/lib/profile-errors.js:42
-#: app/scripts/lib/require-on-demand.js:32
+#: app/scripts/lib/profile-errors.js:42 app/scripts/lib/require-on-demand.js:32
 #: app/scripts/lib/require-on-demand.js:36
 #: app/scripts/lib/require-on-demand.js:40
 #: app/scripts/lib/require-on-demand.js:44
@@ -426,10 +425,10 @@ msgid ""
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Dacă vei continua, ești de acord cu <a id=\"service-tos\" href=\"%"
-"(termsUri)s\">termenii serviciului</a> și <a id=\"service-pp\" href=\"%"
-"(privacyUri)s\">nota privind politica de confidențialitate</a> a %"
-"(serviceName)s (%(serviceUri)s)."
+"Dacă vei continua, ești de acord cu <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">termenii serviciului</a> și <a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">nota privind politica de confidențialitate</a> a %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:23
 msgid "Edit profile"
@@ -476,8 +475,8 @@ msgstr "Nu se poate crea contul"
 msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr ""
-"Trebuie să îndeplinești anumite cerințe de vârstă pentru a crea un "
-"cont&nbsp;Firefox"
+"Trebuie să îndeplinești anumite cerințe de vârstă pentru a crea un cont&nbsp;"
+"Firefox"
 
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
@@ -681,9 +680,9 @@ msgid ""
 "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
 "Notice</a> of Firefox cloud services."
 msgstr ""
-"Continuând, ești de acord cu <a id=\"fxa-tos\" href=\"/legal/terms\">termenii "
-"serviciului</a> și <a id=\"fxa-pp\" href=\"/legal/privacy\">nota privind "
-"politica de confidențialitate</a> ale serviciilor în cloud Firefox."
+"Continuând, ești de acord cu <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">termenii serviciului</a> și <a id=\"fxa-pp\" href=\"/legal/privacy\">nota "
+"privind politica de confidențialitate</a> ale serviciilor în cloud Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
