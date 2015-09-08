@@ -145,8 +145,7 @@ msgstr "ਖਾਤਾ ਲਾਕ ਕੀਤਾ। <a href=\"/confirm_account_unlock
 #: app/scripts/lib/auth-errors.js:18 app/scripts/lib/config-loader.js:82
 #: app/scripts/lib/marketing-email-errors.js:18
 #: app/scripts/lib/oauth-errors.js:19 app/scripts/lib/profile-errors.js:34
-#: app/scripts/lib/profile-errors.js:42
-#: app/scripts/lib/require-on-demand.js:32
+#: app/scripts/lib/profile-errors.js:42 app/scripts/lib/require-on-demand.js:32
 #: app/scripts/lib/require-on-demand.js:36
 #: app/scripts/lib/require-on-demand.js:40
 #: app/scripts/lib/require-on-demand.js:44

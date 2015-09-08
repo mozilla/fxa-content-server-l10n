@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-26 18:54+0000\n"
+"POT-Creation-Date: 2015-08-29 00:07+0000\n"
 "PO-Revision-Date: 2015-08-11 14:26\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,191 +15,46 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1423490268.0\n"
 
-#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
-#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
-#: server/templates/pages/src/503.html:1
-#: server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1 templates/reset.html:1
-#: templates/unlock.html:1 templates/verify.html:1
+#: templates/_pending.txt:1
+msgid "Still there?"
+msgstr ""
+
+#: templates/_pending.txt:2
+msgid ""
+"A while ago you created a Firefox Account, but never verified it. Click the "
+"link below to activate your account."
+msgstr ""
+
+#: templates/_pending.txt:3 templates/post_verify.html:3
+msgid ""
+"You successfully connected your first device to your Firefox Account. Now "
+"you can sign in to Sync from your other devices, including Firefox for <a "
+"href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
+msgstr ""
+
+#: templates/_pending.txt:4
+msgid ""
+"You successfully connected your first device to your Firefox Account. To "
+"make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
+"Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
+msgstr ""
+
+#: templates/_pending.txt:5 templates/post_verify.html:4
+msgid "Connect another device"
+msgstr ""
+
+#: templates/_pending.txt:6
+msgid "Sign in to Sync"
+msgstr ""
+
 #: templates/new_sync_device.html:1 templates/password_changed.html:1
-#: templates/password_reset.html:1
+#: templates/password_reset.html:1 templates/reset.html:1
+#: templates/unlock.html:1 templates/post_verify.html:1
 msgid "Firefox Accounts"
 msgstr "حساب‌های فایرفاکس"
 
-#: server/templates/pages/src/400.html:2
-msgid "Bad Request"
-msgstr "درخواست بد"
-
-#: server/templates/pages/src/404.html:2
-msgid "Page not found"
-msgstr "صفحه پیدا نشد"
-
-#: server/templates/pages/src/404.html:3
-msgid ""
-"The page you requested is not found. We've been notified and will fix any "
-"links that may be broken."
-msgstr ""
-"صفحه‌ای که درخواست کردید پیدا نشد. ما مطلع شده‌ایم و هر صفحه‌ای که پیوند "
-"معیوب دارد را اصلاح خواهیم کرد."
-
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
-msgid "Home"
-msgstr "خانه"
-
-#: server/templates/pages/src/500.html:2
-msgid "500 Error"
-msgstr "خطا ۵۰۰"
-
-#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
-msgid ""
-"Oh dear, something went wrong there. We've been notified and will get "
-"working on a fix."
-msgstr ""
-"اوه عزیزم، یک مشکلی پیش آمد. ما مطلع شده‌ایم و روی رفع مشکل کار خواهیم کرد."
-
-#: server/templates/pages/src/502.html:2
-msgid "502 Error"
-msgstr "خطا ۵۰۲"
-
-#: server/templates/pages/src/503.html:2
-msgid "Server busy, try again soon"
-msgstr "کارگزار مشغول است، لطفا بعدا دوباره تلاش کنید"
-
-#: server/templates/pages/src/503.html:3
-msgid ""
-"We are currently under heavy strain and are working to return the system to "
-"normal as soon as possible."
-msgstr ""
-"ما در حال حاضر زیر فشار زیادی هستیم و در تلاشیم تا هر چه سریع‌تر سیستم را به"
-" حالت عادی برگردانیم."
-
-#: server/templates/pages/src/index.html:2
-#: server/templates/pages/src/privacy.html:3
-#: server/templates/pages/src/terms.html:3
-#: server/templates/pages/src/privacy.html:5
-#: server/templates/pages/src/terms.html:5
-msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a "
-"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
-"experience."
-msgstr ""
-"شما در حال استفاده از مرورگر <strong>قدیمی</strong> هستید. لطفا <a "
-"href=\"http://browsehappy.com/\">مرورگر خود را بروزرسانی کنید</a> تا تجربه‌ی"
-" بهتری داشته باشید."
-
-#: server/templates/pages/src/index.html:3
-msgid "Firefox Accounts requires JavaScript."
-msgstr "حساب‌های فایرفاکس به JavaScript نیاز دارد."
-
-#: server/templates/pages/src/privacy.html:2
-#: server/templates/pages/src/privacy.html:5
-#: server/templates/pages/src/privacy.html:4
-msgid "Privacy Notice"
-msgstr "اطلاعیه حریم‌شخصی"
-
-#: server/templates/pages/src/privacy.html:4
-#: server/templates/pages/src/terms.html:4
-#: server/templates/pages/src/privacy.html:3
-#: server/templates/pages/src/terms.html:3
-msgid "Firefox cloud services"
-msgstr "سرویس‌های ابری فایرفاکس"
-
-#: server/templates/pages/src/terms.html:2
-#: server/templates/pages/src/terms.html:5
-#: server/templates/pages/src/terms.html:4
-msgid "Terms of Service"
-msgstr "قوانین استفاده از سرویس"
-
-#: templates/reset.html:2 templates/reset.txt:1
-msgid "Are you sure?"
-msgstr "آیا مطمئنید؟"
-
-#: templates/reset.html:3 templates/reset.txt:2
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "لطفا تایید کنید که می‌خواهید گذرواژه را برای %(email)s بازنشانی کنید."
-
-#: templates/reset.html:4
-msgid "Reset password"
-msgstr "بازنشانی گذرواژه"
-
-#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
-#: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"این ایمیل به صورت خودکار ارسال شده؛ اگر اشتباها آن را دریافت کرده‌اید، نیاز "
-"به انجام کار خاصی نیست."
-
-#: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
-#: templates/new_sync_device.html:5 templates/password_changed.html:5
-#: templates/password_reset.html:5
-msgid ""
-"For more information, please visit <a "
-"href='https://support.mozilla.org'>Mozilla Support</a>"
-msgstr ""
-"برای اطلاعات بیشتر، لطفا از <a href='https://support.mozilla.org'>پشتیبانی "
-"موزیلا</a> دیدن کنید"
-
-#: templates/reset.txt:3
-msgid "Reset password:"
-msgstr "بازنشانی گذرواژه:"
-
-#: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
-#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
-#: templates/password_reset.txt:4
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr "برای اطلاعات بیشتر، لطفا از https://support.mozilla.org دیدن کنید"
-
-#: templates/unlock.html:2 templates/unlock.txt:1
-msgid ""
-"For security reasons your Firefox Account was put on lockdown. To perform "
-"account-level activities, please click the link to re-verify your account "
-"now."
-msgstr ""
-"بدلیل مسائل امنیتی حساب فایرفاکس شما قفل شده است. برای انجام فعالیت‌ها در "
-"سطح حساب، لطفا برای تایید دوباره حساب خود روی پیوند کلیک کنید."
-
-#: templates/unlock.html:3
-msgid "Verify account"
-msgstr "تایید حساب"
-
-#: templates/unlock.txt:2
-msgid "Verify account:"
-msgstr "تایید حساب:"
-
-#: templates/verify.html:2 templates/verify.txt:1
-msgid "Almost there"
-msgstr "دیگه آخراشه"
-
-#: templates/verify.html:3 templates/verify.txt:2
-msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr ""
-"%(email)s، شما تنها چند کلیک تا پایانِ تایید حساب فایرفاکس خود فاصله دارید."
-
-#: templates/verify.html:4
-msgid "Verify"
-msgstr "تایید"
-
-#: templates/verify.txt:3
-msgid "Verify:"
-msgstr "تایید:"
-
-#: mailer.js:73
-msgid "Verify your account"
-msgstr "حساب خود را تایید کنید"
-
-#: mailer.js:112
-msgid "Reset your password"
-msgstr "بازنشانی گذرواژه"
-
-#: mailer.js:146
-msgid "Re-verify your account"
-msgstr "حساب خود را دوباره تایید کنید"
-
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
+#: templates/unlock.html:2
 msgid "Account activity notice"
 msgstr "اطلاعیه‌ی فعالیت حساب"
 
@@ -218,8 +73,18 @@ msgid ""
 "href='%(resetLink)s'>%(resetLink)s</a>."
 msgstr ""
 "این ایمیل بصورت خودکار ارسال شده؛ اگر شما یک دستگاه جدید به حساب فایرفاکس "
-"خود اضافه نکرده‌اید، باید گذرواژه‌ی خود را سریعا در <a "
-"href='%(resetLink)s'>%(resetLink)s</a> سریعا تغییر دهید."
+"خود اضافه نکرده‌اید، باید گذرواژه‌ی خود را سریعا در <a href='%(resetLink)s'>"
+"%(resetLink)s</a> سریعا تغییر دهید."
+
+#: templates/new_sync_device.html:5 templates/password_changed.html:5
+#: templates/password_reset.html:5 templates/reset.html:6
+#: templates/unlock.html:5
+msgid ""
+"For more information, please visit <a href='https://support.mozilla."
+"org'>Mozilla Support</a>"
+msgstr ""
+"برای اطلاعات بیشتر، لطفا از <a href='https://support.mozilla.org'>پشتیبانی "
+"موزیلا</a> دیدن کنید"
 
 #: templates/new_sync_device.txt:3
 msgid ""
@@ -228,6 +93,13 @@ msgid ""
 msgstr ""
 "این ایمیل بصورت خودکار ارسال شده؛ اگر شما یک دستگاه جدید به حساب فایرفاکس "
 "خود اضافه نکرده‌ای، باید سریعا گذرواژه خود را در %(resetLink)s تغییر دهید."
+
+#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
+#: templates/password_reset.txt:4 templates/post_verify.txt:5
+#: templates/reminder.txt:5 templates/reset.txt:5 templates/unlock.txt:4
+#: templates/verify.txt:5
+msgid "For more information, please visit https://support.mozilla.org"
+msgstr "برای اطلاعات بیشتر، لطفا از https://support.mozilla.org دیدن کنید"
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
@@ -240,12 +112,12 @@ msgstr "گذرواژه حساب فایرفاکس شما با موفقیت تغی
 #: templates/password_changed.html:4
 msgid ""
 "This is an automated email; if you didn't change the password to your "
-"Firefox Account, you should reset it immediately at <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
+"Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
+"%(resetLink)s</a>."
 msgstr ""
 "این ایمیل بصورت خودکار ارسال شده است؛ اگر شما گذرواژه خود را در حساب "
-"فایرفاکس تغییر نداده‌اید، باید سریعا آن را در <a "
-"href='%(resetLink)s'>%(resetLink)s</a> تغییر دهید."
+"فایرفاکس تغییر نداده‌اید، باید سریعا آن را در <a href='%(resetLink)s'>"
+"%(resetLink)s</a> تغییر دهید."
 
 #: templates/password_changed.txt:3
 msgid ""
@@ -265,42 +137,285 @@ msgstr "حساب فایرفاکس شما با موفقیت بازنشانی شد
 
 #: templates/password_reset.html:4
 msgid ""
-"This is an automated email; if you didn't reset the password to your Firefox"
-" Account, you should reset it immediately at <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
+"This is an automated email; if you didn't reset the password to your Firefox "
+"Account, you should reset it immediately at <a href='%(resetLink)s'>"
+"%(resetLink)s</a>."
 msgstr ""
 "این ایمیل بصورت خودکار ارسال شده است؛ اگر شما گذرواژه حساب فایرفاکس خود را "
-"تغییر نداده‌اید، باید سریعا آن را در <a "
-"href='%(resetLink)s'>%(resetLink)s</a> تغییر دهید."
+"تغییر نداده‌اید، باید سریعا آن را در <a href='%(resetLink)s'>%(resetLink)s</"
+"a> تغییر دهید."
 
 #: templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox"
-" Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox "
+"Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 "این ایمیل بصورت خودکار ارسال شده است؛ اگر شما گذرواژه حساب خود را تغییر "
 "نداده‌اید، باید آن را سریعا در %(resetLink)s تغییر دهید."
 
-#: mailer.js:82
+#: templates/post_verify.txt:1 templates/post_verify.html:2
+msgid "Account verified!"
+msgstr ""
+
+#: templates/post_verify.txt:2
+msgid ""
+"You successfully connected your first device to your Firefox Account. Now "
+"you can sign in to Sync from your other devices, including Firefox for "
+"Android and iOS."
+msgstr ""
+
+#: templates/post_verify.txt:3
+msgid "Sign in to Sync:"
+msgstr ""
+
+#: templates/post_verify.txt:4 templates/reminder.txt:4 templates/reset.html:5
+#: templates/reset.txt:4 templates/unlock.html:4 templates/unlock.txt:3
+#: templates/verify.html:6 templates/verify.txt:4
+#: templates/new_sync_device.html:4 templates/password_changed.html:4
+#: templates/post_verify.html:6 templates/reminder.html:6
+#: templates/reset.html:6 templates/unlock.html:6
+#: templates/password_reset.html:4 templates/verification_reminder.html:6
+#: templates/verification_reminder.txt:4
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"این ایمیل به صورت خودکار ارسال شده؛ اگر اشتباها آن را دریافت کرده‌اید، نیاز "
+"به انجام کار خاصی نیست."
+
+#: templates/reminder.txt:1 templates/reminder.html:2
+#: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
+msgid "Hello again."
+msgstr ""
+
+#: templates/reminder.txt:2 templates/reminder.html:3
+#: templates/verification_reminder.html:3 templates/verification_reminder.txt:2
+msgid ""
+"Recently you created a Firefox Account, but never verified it. Please "
+"activate your account by confirming this email address."
+msgstr ""
+
+#: templates/reminder.txt:3 templates/verification_reminder.txt:3
+msgid "Activate Now:"
+msgstr ""
+
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Are you sure?"
+msgstr "آیا مطمئنید؟"
+
+#: templates/reset.html:3 templates/reset.txt:2
+msgid "Please confirm that you'd like to reset the password for %(email)s."
+msgstr "لطفا تایید کنید که می‌خواهید گذرواژه را برای %(email)s بازنشانی کنید."
+
+#: templates/reset.html:4
+msgid "Reset password now"
+msgstr ""
+
+#: templates/reset.txt:3
+msgid "Reset password now:"
+msgstr ""
+
+#: templates/unlock.html:2 templates/unlock.txt:1 templates/unlock.html:3
+msgid ""
+"For security reasons your Firefox Account was put on lockdown. To perform "
+"account-level activities, please click the link to re-verify your account "
+"now."
+msgstr ""
+"بدلیل مسائل امنیتی حساب فایرفاکس شما قفل شده است. برای انجام فعالیت‌ها در سطح "
+"حساب، لطفا برای تایید دوباره حساب خود روی پیوند کلیک کنید."
+
+#: templates/unlock.html:3 templates/unlock.html:4
+msgid "Verify account"
+msgstr "تایید حساب"
+
+#: templates/unlock.txt:2
+msgid "Verify account:"
+msgstr "تایید حساب:"
+
+#: templates/verify.html:1 templates/reminder.html:1
+#: templates/verification_reminder.html:1
+msgid "Firefox Account Activation"
+msgstr ""
+
+#: templates/verify.html:2 templates/verify.txt:1
+msgid "Welcome!"
+msgstr ""
+
+#: templates/verify.html:3 templates/verify.txt:2
+msgid "Please activate your account by confirming this email address."
+msgstr ""
+
+#: templates/verify.html:4 templates/reminder.html:4
+#: templates/verification_reminder.html:4
+msgid "Activate now"
+msgstr ""
+
+#: templates/verify.html:5 templates/post_verify.html:5
+#: templates/reminder.html:5 templates/reset.html:5 templates/unlock.html:5
+#: templates/verification_reminder.html:5
+msgid "Alternatively:"
+msgstr ""
+
+#: templates/verify.html:7 templates/new_sync_device.html:5
+#: templates/password_changed.html:5 templates/post_verify.html:7
+#: templates/reminder.html:7 templates/reset.html:7 templates/unlock.html:7
+msgid ""
+"For more information, please visit <a href='https://support.mozilla.org' "
+"style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
+msgstr ""
+
+#: templates/verify.html:8 templates/reminder.html:8
+#: templates/verification_reminder.html:8
+msgid "Verify Email"
+msgstr ""
+
+#: templates/verify.html:9 templates/reminder.html:9
+#: templates/verification_reminder.html:9
+msgid "Verify your email to finish your Firefox Account registration"
+msgstr ""
+
+#: templates/verify.txt:3
+msgid "Activate now:"
+msgstr ""
+
+#: mailer.js:115 mailer.js:118 mailer.js:298 mailer.js:119 mailer.js:306
+#: mailer.js:303 mailer.js:120 mailer.js:304
 msgid "Verify your Firefox Account"
 msgstr "حساب فایرفاکس خود را تایید کنید"
 
-#: mailer.js:121
+#: mailer.js:145 mailer.js:148 mailer.js:150 mailer.js:151
 msgid "Reset your Firefox Account password"
 msgstr "گذرواژه‌ی حساب فایرفاکس خود را بازنشانی کنید"
 
-#: mailer.js:155
+#: mailer.js:176 mailer.js:179 mailer.js:182 mailer.js:183
 msgid "Re-verify your Firefox Account"
 msgstr "حساب فایرفاکس خود را دوباره تایید کنید"
 
-#: mailer.js:185
+#: mailer.js:199 mailer.js:202 mailer.js:206 mailer.js:207
 msgid "Your Firefox Account password has been changed"
 msgstr "گذرواژه حساب فایرفاکس شما تغییر کرده است"
 
-#: mailer.js:212
+#: mailer.js:218 mailer.js:221 mailer.js:226 mailer.js:227
 msgid "Your Firefox Account password has been reset"
 msgstr "گذرواژه حساب فایرفاکس شما بازنشانی شده است"
 
-#: mailer.js:239
+#: mailer.js:240 mailer.js:243
 msgid "A new device is now syncing to your Firefox Account"
 msgstr "هم‌اکنون یک دستگاه جدید در حال بهنگام‌سازی با حساب فایرفاکس شماست"
+
+#: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
+msgid ""
+"A device began syncing with the devices connected to your Firefox Account."
+msgstr ""
+
+#: mailer.js:263 mailer.js:270 mailer.js:267 mailer.js:268
+msgid "Firefox Account Verified"
+msgstr ""
+
+#: templates/new_sync_device.html:5 templates/password_changed.html:5
+#: templates/password_reset.html:5 templates/post_verify.html:7
+#: templates/reminder.html:7 templates/reset.html:7 templates/unlock.html:7
+#: templates/verify.html:7 templates/verification_reminder.html:7
+msgid ""
+"For more information, please visit <a href='%(supportUrl)s' style='color: "
+"#0095dd; text-decoration: none;'>Mozilla Support</a>"
+msgstr ""
+
+#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
+#: templates/password_reset.txt:4 templates/post_verify.txt:5
+#: templates/reminder.txt:5 templates/reset.txt:5 templates/unlock.txt:4
+#: templates/verify.txt:5 templates/verification_reminder.txt:5
+msgid "For more information, please visit %(supportUrl)s"
+msgstr ""
+
+#: mailer.js:249 mailer.js:246 mailer.js:247
+msgid "New sign-in to Sync"
+msgstr ""
+
+#~ msgid "Bad Request"
+#~ msgstr "درخواست بد"
+
+#~ msgid "Page not found"
+#~ msgstr "صفحه پیدا نشد"
+
+#~ msgid ""
+#~ "The page you requested is not found. We've been notified and will fix any "
+#~ "links that may be broken."
+#~ msgstr ""
+#~ "صفحه‌ای که درخواست کردید پیدا نشد. ما مطلع شده‌ایم و هر صفحه‌ای که پیوند "
+#~ "معیوب دارد را اصلاح خواهیم کرد."
+
+#~ msgid "Home"
+#~ msgstr "خانه"
+
+#~ msgid "500 Error"
+#~ msgstr "خطا ۵۰۰"
+
+#~ msgid ""
+#~ "Oh dear, something went wrong there. We've been notified and will get "
+#~ "working on a fix."
+#~ msgstr ""
+#~ "اوه عزیزم، یک مشکلی پیش آمد. ما مطلع شده‌ایم و روی رفع مشکل کار خواهیم کرد."
+
+#~ msgid "502 Error"
+#~ msgstr "خطا ۵۰۲"
+
+#~ msgid "Server busy, try again soon"
+#~ msgstr "کارگزار مشغول است، لطفا بعدا دوباره تلاش کنید"
+
+#~ msgid ""
+#~ "We are currently under heavy strain and are working to return the system "
+#~ "to normal as soon as possible."
+#~ msgstr ""
+#~ "ما در حال حاضر زیر فشار زیادی هستیم و در تلاشیم تا هر چه سریع‌تر سیستم را "
+#~ "به حالت عادی برگردانیم."
+
+#~ msgid ""
+#~ "You are using an <strong>outdated</strong> browser. Please <a href="
+#~ "\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+#~ "experience."
+#~ msgstr ""
+#~ "شما در حال استفاده از مرورگر <strong>قدیمی</strong> هستید. لطفا <a href="
+#~ "\"http://browsehappy.com/\">مرورگر خود را بروزرسانی کنید</a> تا تجربه‌ی "
+#~ "بهتری داشته باشید."
+
+#~ msgid "Firefox Accounts requires JavaScript."
+#~ msgstr "حساب‌های فایرفاکس به JavaScript نیاز دارد."
+
+#~ msgid "Privacy Notice"
+#~ msgstr "اطلاعیه حریم‌شخصی"
+
+#~ msgid "Firefox cloud services"
+#~ msgstr "سرویس‌های ابری فایرفاکس"
+
+#~ msgid "Terms of Service"
+#~ msgstr "قوانین استفاده از سرویس"
+
+#~ msgid "Reset password"
+#~ msgstr "بازنشانی گذرواژه"
+
+#~ msgid "Reset password:"
+#~ msgstr "بازنشانی گذرواژه:"
+
+#~ msgid "Almost there"
+#~ msgstr "دیگه آخراشه"
+
+#~ msgid ""
+#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgstr ""
+#~ "%(email)s، شما تنها چند کلیک تا پایانِ تایید حساب فایرفاکس خود فاصله دارید."
+
+#~ msgid "Verify"
+#~ msgstr "تایید"
+
+#~ msgid "Verify:"
+#~ msgstr "تایید:"
+
+#~ msgid "Verify your account"
+#~ msgstr "حساب خود را تایید کنید"
+
+#~ msgid "Reset your password"
+#~ msgstr "بازنشانی گذرواژه"
+
+#~ msgid "Re-verify your account"
+#~ msgstr "حساب خود را دوباره تایید کنید"
