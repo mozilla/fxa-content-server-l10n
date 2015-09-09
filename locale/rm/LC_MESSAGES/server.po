@@ -1,17 +1,18 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-29 00:07+0000\n"
 "PO-Revision-Date: 2015-09-09 11:20+0000\n"
-"Last-Translator: Gion-Andri <gion-andri@gmx.ch>\n"
+"Last-Translator: Gion-Andri Cantieni <gion-andri@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
-"X-Generator: Pootle 2.5.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1441797623.0\n"
 
 #: templates/_pending.txt:1
@@ -33,8 +34,8 @@ msgid ""
 "href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
 msgstr ""
 "Ti has collià cun success tes emprim apparat cun tes conto da Firefox. Ussa "
-"pos ti s'anunziar per sincronisar cun auters apparats, inclusivamain Firefox "
-"per <a href='%(androidUrl)s'>Android</a> ed <a href='%(iosUrl)s'>iOS</a>."
+"pos ti s'anunziar per sincronisar cun auters apparats, inclusivamain Firefox"
+" per <a href='%(androidUrl)s'>Android</a> ed <a href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
@@ -70,8 +71,8 @@ msgid ""
 "A new device is now syncing with all of the devices connected to your "
 "Firefox Account."
 msgstr ""
-"In nov apparat vegn ussa sinchronisà cun tut ils apparats connectads cun tes "
-"conto da Firefox."
+"In nov apparat vegn ussa sinchronisà cun tut ils apparats connectads cun tes"
+" conto da Firefox."
 
 #: templates/new_sync_device.html:4
 msgid ""
@@ -87,8 +88,8 @@ msgstr ""
 #: templates/password_reset.html:5 templates/reset.html:6
 #: templates/unlock.html:5
 msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
+"For more information, please visit <a "
+"href='https://support.mozilla.org'>Mozilla Support</a>"
 msgstr ""
 "Visita il <a href='https://support.mozilla.org'>Support da Mozilla</a> per "
 "ulteriuras infurmaziuns."
@@ -120,8 +121,8 @@ msgstr "Il pled-clav da tes conto da Firefox è vegnì midà cun success."
 #: templates/password_changed.html:4
 msgid ""
 "This is an automated email; if you didn't change the password to your "
-"Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
-"%(resetLink)s</a>."
+"Firefox Account, you should reset it immediately at <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
 msgstr ""
 "Quai è in e-mail automatic. Sche ti n'has betg midà il pled-clav da tes "
 "conto da Firefox duessas ti immediat redefinir el qua: <a "
@@ -145,9 +146,9 @@ msgstr "Tes pled-clav per tes conto da Firefox è vegnì redefinì cun success."
 
 #: templates/password_reset.html:4
 msgid ""
-"This is an automated email; if you didn't reset the password to your Firefox "
-"Account, you should reset it immediately at <a href='%(resetLink)s'>"
-"%(resetLink)s</a>."
+"This is an automated email; if you didn't reset the password to your Firefox"
+" Account, you should reset it immediately at <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
 msgstr ""
 "Quai è in e-mail automatic. Sche ti n'has betg redefinì il pled-clav da tes "
 "conto da Firefox duessas ti immediat redefinir el qua: <a "
@@ -155,8 +156,8 @@ msgstr ""
 
 #: templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox"
+" Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 "Quai è in e-mail automatic. Sche ti n'has betg redefinì il pled-clav da tes "
 "conto da Firefox duessas ti immediat redefinir el qua: %(resetLink)s."
@@ -195,18 +196,20 @@ msgstr ""
 "stos ti far nagut."
 
 #: templates/reminder.txt:1 templates/reminder.html:2
-#: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
+#: templates/verification_reminder.html:2
+#: templates/verification_reminder.txt:1
 msgid "Hello again."
 msgstr "Olla puspè."
 
 #: templates/reminder.txt:2 templates/reminder.html:3
-#: templates/verification_reminder.html:3 templates/verification_reminder.txt:2
+#: templates/verification_reminder.html:3
+#: templates/verification_reminder.txt:2
 msgid ""
 "Recently you created a Firefox Account, but never verified it. Please "
 "activate your account by confirming this email address."
 msgstr ""
-"Dacurt has ti creà in conto da Firefox, dentant mai verifitgà el. Activescha "
-"p.pl. tes conto entras confirmar questa adressa dad e-mail."
+"Dacurt has ti creà in conto da Firefox, dentant mai verifitgà el. Activescha"
+" p.pl. tes conto entras confirmar questa adressa dad e-mail."
 
 #: templates/reminder.txt:3 templates/verification_reminder.txt:3
 msgid "Activate Now:"
@@ -257,7 +260,8 @@ msgstr "Bainvegni!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr "Activescha p.pl. tes conto entras confirmar questa adressa dad e-mail."
+msgstr ""
+"Activescha p.pl. tes conto entras confirmar questa adressa dad e-mail."
 
 #: templates/verify.html:4 templates/reminder.html:4
 #: templates/verification_reminder.html:4
@@ -290,8 +294,8 @@ msgstr "Verifitgar l'adressa dad e-mail"
 #: templates/verification_reminder.html:9
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr ""
-"Verifitgescha tia adressa dad e-mail per finir la registraziun per tes conto "
-"da Firefox"
+"Verifitgescha tia adressa dad e-mail per finir la registraziun per tes conto"
+" da Firefox"
 
 #: templates/verify.txt:3
 msgid "Activate now:"
@@ -365,9 +369,8 @@ msgstr "Nova annunzia tar Sync"
 #~ "The page you requested is not found. We've been notified and will fix any "
 #~ "links that may be broken."
 #~ msgstr ""
-#~ "La pagina che ti has dumandà n'è betg vegnida chattada. Nus avain "
-#~ "retschavì in messadi ed empruvain da curreger eventualas colliaziuns "
-#~ "faussas."
+#~ "La pagina che ti has dumandà n'è betg vegnida chattada. Nus avain retschavì "
+#~ "in messadi ed empruvain da curreger eventualas colliaziuns faussas."
 
 #~ msgid "Home"
 #~ msgstr "Chasa"
@@ -389,20 +392,20 @@ msgstr "Nova annunzia tar Sync"
 #~ msgstr "Il server è surchargià, emprova bainprest anc ina giada"
 
 #~ msgid ""
-#~ "We are currently under heavy strain and are working to return the system "
-#~ "to normal as soon as possible."
+#~ "We are currently under heavy strain and are working to return the system to "
+#~ "normal as soon as possible."
 #~ msgstr ""
 #~ "Actualmain è il sistem surchargià. Nus lavurain londervi ch'il sistem "
 #~ "stettia bainprest puspè a disposiziun sco usità."
 
 #~ msgid ""
-#~ "You are using an <strong>outdated</strong> browser. Please <a href="
-#~ "\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+#~ "You are using an <strong>outdated</strong> browser. Please <a "
+#~ "href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
 #~ "experience."
 #~ msgstr ""
-#~ "Ti utiliseschas in navigatur <strong>antiquà</strong>. <a href=\"http://"
-#~ "browsehappy.com/\">Actualisescha tes navigatur</a> per retschaiver dapli "
-#~ "segirezza."
+#~ "Ti utiliseschas in navigatur <strong>antiquà</strong>. <a "
+#~ "href=\"http://browsehappy.com/\">Actualisescha tes navigatur</a> per "
+#~ "retschaiver dapli segirezza."
 
 #~ msgid "Firefox Accounts requires JavaScript."
 #~ msgstr "Ils contos da Firefox basegnan JavaScript."
@@ -425,8 +428,7 @@ msgstr "Nova annunzia tar Sync"
 #~ msgid "Almost there"
 #~ msgstr "Prest dumignà"
 
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
 #~ msgstr ""
 #~ "%(email)s, i cuzza be pli intginas secundas per verifitgar tes conto da "
 #~ "Firefox."
@@ -453,8 +455,8 @@ msgstr "Nova annunzia tar Sync"
 #~ msgstr "Il sistem n'è betg disponibel, emprova bainprest anc ina giada"
 
 #~ msgid ""
-#~ "We are currently performing some maintenance on the system, and will "
-#~ "return momentarily."
+#~ "We are currently performing some maintenance on the system, and will return "
+#~ "momentarily."
 #~ msgstr ""
 #~ "Nus exequin gist lavurs da mantegniment sin il sistem ed essan bainprest "
 #~ "puspè online."
