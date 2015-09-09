@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-29 00:07+0000\n"
-"PO-Revision-Date: 2015-09-09 14:58+0000\n"
+"PO-Revision-Date: 2015-09-09 15:19+0000\n"
 "Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -17,13 +17,15 @@ msgstr ""
 
 #: templates/_pending.txt:1
 msgid "Still there?"
-msgstr ""
+msgstr "Še vedno tu?"
 
 #: templates/_pending.txt:2
 msgid ""
 "A while ago you created a Firefox Account, but never verified it. Click the "
 "link below to activate your account."
 msgstr ""
+"Pred kratkim ste ustvarili Firefox Račun, ampak ga niste potrdili. Kliknite "
+"na spodnjo povezavo, da ga aktivirate."
 
 #: templates/_pending.txt:3 templates/post_verify.html:3
 msgid ""
@@ -31,6 +33,10 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for <a "
 "href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
 msgstr ""
+"Uspešno ste povezali vašo prvo napravo s Firefox Računom. Zdaj se lahko "
+"prijavite in jo sinhronizirate z vašimi drugimi napravami, med drugim s "
+"Firefoxom za <a href='%(androidUrl)s'>Android</a> in <a "
+"href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
@@ -38,6 +44,9 @@ msgid ""
 "make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
 "Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
 msgstr ""
+"Uspešno ste povezali vašo prvo napravo s Firefox Računom. Da bi v polni meri"
+" izkoristili Sync, se povežite s <a href='%(androidUrl)s'>Firefoxom za "
+"Android</a> ali <a href='%(iosUrl)s'>Firefoxom za iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -160,6 +169,9 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for "
 "Android and iOS."
 msgstr ""
+"Uspešno ste povezali vašo prvo napravo s Firefox Računom. Zdaj se lahko "
+"prijavite in jo sinhronizirate z vašimi drugimi napravami, med drugim s "
+"Firefoxom za Android in iOS."
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
@@ -193,6 +205,8 @@ msgid ""
 "Recently you created a Firefox Account, but never verified it. Please "
 "activate your account by confirming this email address."
 msgstr ""
+"Pred kratkim ste ustvarili Firefox Račun, ampak ga niste potrdili. "
+"Aktivirajte ga s potrditvijo tega e-poštnega naslova."
 
 #: templates/reminder.txt:3 templates/verification_reminder.txt:3
 msgid "Activate Now:"
@@ -308,10 +322,12 @@ msgstr "Nova naprava se zdaj sinhronizira z vašim Firefox Računom"
 msgid ""
 "A device began syncing with the devices connected to your Firefox Account."
 msgstr ""
+"Naprava se je začela sinhronizirati z napravami, ki so povezane z vašim "
+"Firefox Računom."
 
 #: mailer.js:263 mailer.js:270 mailer.js:267 mailer.js:268
 msgid "Firefox Account Verified"
-msgstr ""
+msgstr "Firefox Račun potrjen"
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
@@ -321,17 +337,19 @@ msgid ""
 "For more information, please visit <a href='%(supportUrl)s' style='color: "
 "#0095dd; text-decoration: none;'>Mozilla Support</a>"
 msgstr ""
+"Za več informacij obiščite <a href='%(supportUrl)s' style='color: #0095dd; "
+"text-decoration: none;'>Mozillino podporo</a>"
 
 #: templates/new_sync_device.txt:4 templates/password_changed.txt:4
 #: templates/password_reset.txt:4 templates/post_verify.txt:5
 #: templates/reminder.txt:5 templates/reset.txt:5 templates/unlock.txt:4
 #: templates/verify.txt:5 templates/verification_reminder.txt:5
 msgid "For more information, please visit %(supportUrl)s"
-msgstr ""
+msgstr "Za več informacij obiščite %(supportUrl)s"
 
 #: mailer.js:249 mailer.js:246 mailer.js:247
 msgid "New sign-in to Sync"
-msgstr ""
+msgstr "Nova prijava v Sync"
 
 #~ msgid "Bad Request"
 #~ msgstr "Napačna zahteva"
