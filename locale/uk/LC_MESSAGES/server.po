@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -11,8 +11,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1434740560.0\n"
 
@@ -81,11 +80,11 @@ msgstr ""
 #: templates/password_reset.html:5 templates/reset.html:6
 #: templates/unlock.html:5
 msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
+"For more information, please visit <a "
+"href='https://support.mozilla.org'>Mozilla Support</a>"
 msgstr ""
-"Щоб отримати більше інформації, відвідайте <a href='https://support.mozilla."
-"org'>Підтримку Mozilla</a>"
+"Щоб отримати більше інформації, відвідайте <a "
+"href='https://support.mozilla.org'>Підтримку Mozilla</a>"
 
 #: templates/new_sync_device.txt:3
 msgid ""
@@ -115,8 +114,8 @@ msgstr "Пароль вашого облікового запису Firefox бу
 #: templates/password_changed.html:4
 msgid ""
 "This is an automated email; if you didn't change the password to your "
-"Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
-"%(resetLink)s</a>."
+"Firefox Account, you should reset it immediately at <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
 msgstr ""
 "Це автоматичний електронний лист; якщо ви не змінювали пароль свого "
 "облікового запису Firefox, вам необхідно негайно відновити його на <a "
@@ -141,9 +140,9 @@ msgstr "Пароль вашого облікового запису Firefox бу
 
 #: templates/password_reset.html:4
 msgid ""
-"This is an automated email; if you didn't reset the password to your Firefox "
-"Account, you should reset it immediately at <a href='%(resetLink)s'>"
-"%(resetLink)s</a>."
+"This is an automated email; if you didn't reset the password to your Firefox"
+" Account, you should reset it immediately at <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
 msgstr ""
 "Це автоматичний електронний лист; якщо ви не відновлювали пароль свого "
 "облікового запису Firefox, вам необхідно негайно відновити його на <a "
@@ -151,8 +150,8 @@ msgstr ""
 
 #: templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox"
+" Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 "Це автоматичний електронний лист; якщо ви не відновлювали пароль свого "
 "облікового запису Firefox, вам необхідно негайно відновити його на "
@@ -185,16 +184,18 @@ msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
-"Це автоматичне повідомлення; якщо ви отримали його помилково, не реагуйте на "
-"нього."
+"Це автоматичне повідомлення; якщо ви отримали його помилково, не реагуйте на"
+" нього."
 
 #: templates/reminder.txt:1 templates/reminder.html:2
-#: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
+#: templates/verification_reminder.html:2
+#: templates/verification_reminder.txt:1
 msgid "Hello again."
 msgstr ""
 
 #: templates/reminder.txt:2 templates/reminder.html:3
-#: templates/verification_reminder.html:3 templates/verification_reminder.txt:2
+#: templates/verification_reminder.html:3
+#: templates/verification_reminder.txt:2
 msgid ""
 "Recently you created a Firefox Account, but never verified it. Please "
 "activate your account by confirming this email address."
@@ -271,9 +272,9 @@ msgid ""
 "For more information, please visit <a href='https://support.mozilla.org' "
 "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
 msgstr ""
-"Для отримання докладної інформації, відвідайте <a href='https://support."
-"mozilla.org' style='color: #0095dd; text-decoration: none;'>Підтримку "
-"Mozilla</a>"
+"Для отримання докладної інформації, відвідайте <a "
+"href='https://support.mozilla.org' style='color: #0095dd; text-decoration: "
+"none;'>Підтримку Mozilla</a>"
 
 #: templates/verify.html:8 templates/reminder.html:8
 #: templates/verification_reminder.html:8
@@ -314,7 +315,8 @@ msgstr "Пароль вашого облікового запису Firefox бу
 
 #: mailer.js:240 mailer.js:243
 msgid "A new device is now syncing to your Firefox Account"
-msgstr "Новий пристрій тепер синхронізується з вашим обліковим записом Firefox"
+msgstr ""
+"Новий пристрій тепер синхронізується з вашим обліковим записом Firefox"
 
 #: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
 msgid ""
@@ -378,20 +380,20 @@ msgstr ""
 #~ msgstr "Сервер зайнятий, спробуйте знову пізніше"
 
 #~ msgid ""
-#~ "We are currently under heavy strain and are working to return the system "
-#~ "to normal as soon as possible."
+#~ "We are currently under heavy strain and are working to return the system to "
+#~ "normal as soon as possible."
 #~ msgstr ""
 #~ "Зараз ми знаходимось під великим навантаженням і працюємо щоб якнайшвидше "
 #~ "повернути систему до нормального стану."
 
 #~ msgid ""
-#~ "You are using an <strong>outdated</strong> browser. Please <a href="
-#~ "\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+#~ "You are using an <strong>outdated</strong> browser. Please <a "
+#~ "href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
 #~ "experience."
 #~ msgstr ""
 #~ "Ви використовуєте <strong>застарілий</strong> переглядач. Будь ласка, <a "
-#~ "href=\"http://browsehappy.com/\">оновіть свій переглядач</a> щоб "
-#~ "покращити роботу."
+#~ "href=\"http://browsehappy.com/\">оновіть свій переглядач</a> щоб покращити "
+#~ "роботу."
 
 #~ msgid "Firefox Accounts requires JavaScript."
 #~ msgstr "Для облікових записів Firefox необхідний JavaScript."
@@ -414,8 +416,7 @@ msgstr ""
 #~ msgid "Almost there"
 #~ msgstr "Майже готово"
 
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
 #~ msgstr ""
 #~ "%(email)s, залишився один крок до підтвердження вашого облікового запису "
 #~ "Firefox."
@@ -442,6 +443,6 @@ msgstr ""
 #~ msgstr "Система недоступна, спробуйте знову пізніше"
 
 #~ msgid ""
-#~ "We are currently performing some maintenance on the system, and will "
-#~ "return momentarily."
+#~ "We are currently performing some maintenance on the system, and will return "
+#~ "momentarily."
 #~ msgstr "Ми вже виконуємо обслуговування системи і незабаром все повернемо."

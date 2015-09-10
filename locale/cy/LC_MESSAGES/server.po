@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -11,8 +11,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != "
-"11) ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1426193839.0\n"
 
@@ -76,8 +75,8 @@ msgstr ""
 #: templates/password_reset.html:5 templates/reset.html:6
 #: templates/unlock.html:5
 msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
+"For more information, please visit <a "
+"href='https://support.mozilla.org'>Mozilla Support</a>"
 msgstr ""
 "Am ragor o wybodaeth, ewch i <a href='https://support.mozilla.org'>Mozilla "
 "Support</a>"
@@ -106,8 +105,8 @@ msgstr ""
 #: templates/password_changed.html:4
 msgid ""
 "This is an automated email; if you didn't change the password to your "
-"Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
-"%(resetLink)s</a>."
+"Firefox Account, you should reset it immediately at <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
 msgstr ""
 
 #: templates/password_changed.txt:3
@@ -126,15 +125,15 @@ msgstr ""
 
 #: templates/password_reset.html:4
 msgid ""
-"This is an automated email; if you didn't reset the password to your Firefox "
-"Account, you should reset it immediately at <a href='%(resetLink)s'>"
-"%(resetLink)s</a>."
+"This is an automated email; if you didn't reset the password to your Firefox"
+" Account, you should reset it immediately at <a "
+"href='%(resetLink)s'>%(resetLink)s</a>."
 msgstr ""
 
 #: templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox"
+" Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 
 #: templates/post_verify.txt:1 templates/post_verify.html:2
@@ -168,12 +167,14 @@ msgstr ""
 "angen gweithredu."
 
 #: templates/reminder.txt:1 templates/reminder.html:2
-#: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
+#: templates/verification_reminder.html:2
+#: templates/verification_reminder.txt:1
 msgid "Hello again."
 msgstr ""
 
 #: templates/reminder.txt:2 templates/reminder.html:3
-#: templates/verification_reminder.html:3 templates/verification_reminder.txt:2
+#: templates/verification_reminder.html:3
+#: templates/verification_reminder.txt:2
 msgid ""
 "Recently you created a Firefox Account, but never verified it. Please "
 "activate your account by confirming this email address."
@@ -205,8 +206,8 @@ msgid ""
 "account-level activities, please click the link to re-verify your account "
 "now."
 msgstr ""
-"Am resymau diogelwch mae eich Cyfrif Firefox wedi ei gloi. I ddefnyddio eich "
-"cyfrif, cliciwch y ddolen i ail ddilysu eich cyfrif."
+"Am resymau diogelwch mae eich Cyfrif Firefox wedi ei gloi. I ddefnyddio eich"
+" cyfrif, cliciwch y ddolen i ail ddilysu eich cyfrif."
 
 #: templates/unlock.html:3 templates/unlock.html:4
 msgid "Verify account"
@@ -349,20 +350,20 @@ msgstr ""
 #~ msgstr "Mae'r gweinydd y brysur, ceisiwch eto'n fuan."
 
 #~ msgid ""
-#~ "We are currently under heavy strain and are working to return the system "
-#~ "to normal as soon as possible."
+#~ "We are currently under heavy strain and are working to return the system to "
+#~ "normal as soon as possible."
 #~ msgstr ""
-#~ "Rydym o dan bwysau mawr ar hyn o bryd ac yn gweithio i gael y system yn "
-#~ "ôl ar ei draed cyn gynted ag y bo modd."
+#~ "Rydym o dan bwysau mawr ar hyn o bryd ac yn gweithio i gael y system yn ôl "
+#~ "ar ei draed cyn gynted ag y bo modd."
 
 #~ msgid ""
-#~ "You are using an <strong>outdated</strong> browser. Please <a href="
-#~ "\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+#~ "You are using an <strong>outdated</strong> browser. Please <a "
+#~ "href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
 #~ "experience."
 #~ msgstr ""
 #~ "Rydych y defnyddio <strong>hen</strong> borwr. Os gwelwch chi'n dda, <a "
-#~ "href=\"http://browsehappy.com/\">diweddarwch eich porwr</a> er mwyn "
-#~ "gwella eich profiad."
+#~ "href=\"http://browsehappy.com/\">diweddarwch eich porwr</a> er mwyn gwella "
+#~ "eich profiad."
 
 #~ msgid "Firefox Accounts requires JavaScript."
 #~ msgstr "Mae Cyfrifon Firefox angen JavaScrit."
@@ -385,8 +386,7 @@ msgstr ""
 #~ msgid "Almost there"
 #~ msgstr "Bron yna"
 
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
 #~ msgstr "%(email)s, rydych eiliadau i ffwrdd o ddilysu eich Cyfrif Firefox."
 
 #~ msgid "Verify"
