@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-26 18:54+0000\n"
-"PO-Revision-Date: 2015-08-27 12:37+0000\n"
+"PO-Revision-Date: 2015-09-10 07:20+0000\n"
 "Last-Translator: Michal <michal.stanke@mikk.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1440679023.0\n"
+"X-POOTLE-MTIME: 1441869638.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -965,7 +965,7 @@ msgstr "Smazat"
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid ""
 "Are you sure you want to delete your account? This action cannot be undone."
-msgstr "Jste si jisti, že chcete smazat svůj účet? Toto již nelze vrátit zpět."
+msgstr "Opravdu chcete smazat svůj účet? Toto již nelze vrátit zpět."
 
 #: app/scripts/templates/settings/display_name.mustache:1
 #: app/scripts/templates/settings/display_name.mustache:5
