@@ -3,27 +3,29 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-29 00:07+0000\n"
-"PO-Revision-Date: 2015-07-22 11:47+0000\n"
+"PO-Revision-Date: 2015-09-10 20:26+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1437565679.0\n"
+"X-POOTLE-MTIME: 1441916819.0\n"
 
 #: templates/_pending.txt:1
 msgid "Still there?"
-msgstr ""
+msgstr "Sće hišće tu?"
 
 #: templates/_pending.txt:2
 msgid ""
 "A while ago you created a Firefox Account, but never verified it. Click the "
 "link below to activate your account."
 msgstr ""
+"Před chwilku sće konto Firefox załožił, ale njejsće je ženje wobkrućił. "
+"Klikńće na slědowacy wotkaz, zo byšće swoje konto aktiwizował."
 
 #: templates/_pending.txt:3 templates/post_verify.html:3
 msgid ""
@@ -31,6 +33,9 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for <a "
 "href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
 msgstr ""
+"Sće swój prěni grat wuspěšnje ze swojim kontom Firefox zwjazał. Nětko móžeće "
+"so pola Sync z druhich gratow přizjewić, inkluziwnje Firefox za <a href='%"
+"(androidUrl)s'>Android</a> a <a href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
@@ -38,14 +43,17 @@ msgid ""
 "make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
 "Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
 msgstr ""
+"Sće swój prěni grat wuspěšnje ze swojim kontom Firefox zwjazał. Zo byšće "
+"najwjace ze Sync wućahnył, zwjazajće z <a href='%(androidUrl)s'>Firefox za "
+"Android</a> abo <a href='%(iosUrl)s'>Firefox za iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "Dalši grat zwjazać"
 
 #: templates/_pending.txt:6
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Pola Sync přizjewić"
 
 #: templates/new_sync_device.html:1 templates/password_changed.html:1
 #: templates/password_reset.html:1 templates/reset.html:1
@@ -154,7 +162,7 @@ msgstr ""
 
 #: templates/post_verify.txt:1 templates/post_verify.html:2
 msgid "Account verified!"
-msgstr ""
+msgstr "Konto je so wobkrućiło!"
 
 #: templates/post_verify.txt:2
 msgid ""
@@ -162,10 +170,13 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for "
 "Android and iOS."
 msgstr ""
+"Sće swój prěni grat wuspěšnje ze swojim kontom Firefox zwjazał. Nětko móžeće "
+"so pola Sync ze swojich druhich gratow přizjewić, inkluziwnje Firefox za "
+"Android a iOS."
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr ""
+msgstr "Pola Sync přizjewić:"
 
 #: templates/post_verify.txt:4 templates/reminder.txt:4 templates/reset.html:5
 #: templates/reset.txt:4 templates/unlock.html:4 templates/unlock.txt:3
@@ -185,7 +196,7 @@ msgstr ""
 #: templates/reminder.txt:1 templates/reminder.html:2
 #: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
 msgid "Hello again."
-msgstr ""
+msgstr "Witaj hišće raz."
 
 #: templates/reminder.txt:2 templates/reminder.html:3
 #: templates/verification_reminder.html:3 templates/verification_reminder.txt:2
@@ -193,10 +204,12 @@ msgid ""
 "Recently you created a Firefox Account, but never verified it. Please "
 "activate your account by confirming this email address."
 msgstr ""
+"Sće njedawno konto Firefox załožił, ale njejsće je wobkrućił. Prošu "
+"wobkrućće tutu e-mejlowu adresu, zo byšće swoje konto aktiwizował."
 
 #: templates/reminder.txt:3 templates/verification_reminder.txt:3
 msgid "Activate Now:"
-msgstr ""
+msgstr "Nětko aktiwizować:"
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Are you sure?"
@@ -312,10 +325,12 @@ msgstr "Nowy grat so nětko z wašim kontom Firefox synchronizuje"
 msgid ""
 "A device began syncing with the devices connected to your Firefox Account."
 msgstr ""
+"Grat je započa, z gratami synchronizować, kotrež su z wašim kontom Firefox "
+"zwjazane."
 
 #: mailer.js:263 mailer.js:270 mailer.js:267 mailer.js:268
 msgid "Firefox Account Verified"
-msgstr ""
+msgstr "Konto Firefox wobkrućene"
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
@@ -325,17 +340,19 @@ msgid ""
 "For more information, please visit <a href='%(supportUrl)s' style='color: "
 "#0095dd; text-decoration: none;'>Mozilla Support</a>"
 msgstr ""
+"Za dalš informacije woopytajće prošu <a href='%(supportUrl)s' style='color: "
+"#0095dd; text-decoration: none;'>Pomoc Mozilla</a>"
 
 #: templates/new_sync_device.txt:4 templates/password_changed.txt:4
 #: templates/password_reset.txt:4 templates/post_verify.txt:5
 #: templates/reminder.txt:5 templates/reset.txt:5 templates/unlock.txt:4
 #: templates/verify.txt:5 templates/verification_reminder.txt:5
 msgid "For more information, please visit %(supportUrl)s"
-msgstr ""
+msgstr "Za dalše informacije hlejće %(supportUrl)s"
 
 #: mailer.js:249 mailer.js:246 mailer.js:247
 msgid "New sign-in to Sync"
-msgstr ""
+msgstr "Nowe přizjewjenje pola Sync"
 
 #~ msgid "Bad Request"
 #~ msgstr "Špatne naprašowanje"
