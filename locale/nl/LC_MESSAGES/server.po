@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-29 00:07+0000\n"
-"PO-Revision-Date: 2015-07-22 16:32+0000\n"
+"PO-Revision-Date: 2015-09-10 16:39+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -12,17 +12,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1437582731.0\n"
+"X-POOTLE-MTIME: 1441903172.0\n"
 
 #: templates/_pending.txt:1
 msgid "Still there?"
-msgstr ""
+msgstr "Bent u er nog?"
 
 #: templates/_pending.txt:2
 msgid ""
 "A while ago you created a Firefox Account, but never verified it. Click the "
 "link below to activate your account."
 msgstr ""
+"U hebt al even geleden een Firefox-account aangemaakt, maar nooit "
+"geverifieerd. Klik op de onderstaande koppeling om uw account te activeren."
 
 #: templates/_pending.txt:3 templates/post_verify.html:3
 msgid ""
@@ -30,6 +32,9 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for <a "
 "href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
 msgstr ""
+"U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. U "
+"kunt zich nu bij Sync aanmelden vanaf uw andere apparaten, waaronder Firefox "
+"voor <a href='%(androidUrl)s'>Android</a> en <a href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
@@ -37,14 +42,17 @@ msgid ""
 "make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
 "Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
 msgstr ""
+"U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. "
+"Koppel <a href='%(androidUrl)s'>Firefox voor Android</a> of <a href='%"
+"(iosUrl)s'>Firefox voor iOS</a> om het meeste uit Sync te halen."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "Nog een apparaat koppelen"
 
 #: templates/_pending.txt:6
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Aanmelden bij Sync"
 
 #: templates/new_sync_device.html:1 templates/password_changed.html:1
 #: templates/password_reset.html:1 templates/reset.html:1
@@ -157,7 +165,7 @@ msgstr ""
 
 #: templates/post_verify.txt:1 templates/post_verify.html:2
 msgid "Account verified!"
-msgstr ""
+msgstr "Account geverifieerd!"
 
 #: templates/post_verify.txt:2
 msgid ""
@@ -165,10 +173,13 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for "
 "Android and iOS."
 msgstr ""
+"U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. U "
+"kunt zich nu aanmelden bij Sync vanaf uw andere apparaten, waaronder Firefox "
+"voor Android en iOS."
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr ""
+msgstr "Aanmelden bij Sync:"
 
 #: templates/post_verify.txt:4 templates/reminder.txt:4 templates/reset.html:5
 #: templates/reset.txt:4 templates/unlock.html:4 templates/unlock.txt:3
@@ -188,7 +199,7 @@ msgstr ""
 #: templates/reminder.txt:1 templates/reminder.html:2
 #: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
 msgid "Hello again."
-msgstr ""
+msgstr "Wederom hallo."
 
 #: templates/reminder.txt:2 templates/reminder.html:3
 #: templates/verification_reminder.html:3 templates/verification_reminder.txt:2
@@ -196,10 +207,12 @@ msgid ""
 "Recently you created a Firefox Account, but never verified it. Please "
 "activate your account by confirming this email address."
 msgstr ""
+"Onlangs hebt u een Firefox-account aangemaakt, maar nooit geverifieerd. "
+"Activeer uw account door dit e-mailadres te bevestigen."
 
 #: templates/reminder.txt:3 templates/verification_reminder.txt:3
 msgid "Activate Now:"
-msgstr ""
+msgstr "Nu activeren:"
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Are you sure?"
@@ -312,10 +325,12 @@ msgstr "Er wordt nu een nieuw apparaat met uw Firefox-account gesynchroniseerd"
 msgid ""
 "A device began syncing with the devices connected to your Firefox Account."
 msgstr ""
+"Het synchroniseren van een apparaat met de apparaten die met uw Firefox-"
+"account zijn gekoppeld is begonnen."
 
 #: mailer.js:263 mailer.js:270 mailer.js:267 mailer.js:268
 msgid "Firefox Account Verified"
-msgstr ""
+msgstr "Firefox-account geverifieerd"
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
@@ -325,17 +340,19 @@ msgid ""
 "For more information, please visit <a href='%(supportUrl)s' style='color: "
 "#0095dd; text-decoration: none;'>Mozilla Support</a>"
 msgstr ""
+"Bezoek <a href='%(supportUrl)s' style='color: #0095dd; text-decoration: "
+"none;'>Mozilla Support</a> voor meer informatie"
 
 #: templates/new_sync_device.txt:4 templates/password_changed.txt:4
 #: templates/password_reset.txt:4 templates/post_verify.txt:5
 #: templates/reminder.txt:5 templates/reset.txt:5 templates/unlock.txt:4
 #: templates/verify.txt:5 templates/verification_reminder.txt:5
 msgid "For more information, please visit %(supportUrl)s"
-msgstr ""
+msgstr "Bezoek %(supportUrl)s voor meer informatie"
 
 #: mailer.js:249 mailer.js:246 mailer.js:247
 msgid "New sign-in to Sync"
-msgstr ""
+msgstr "Nieuwe aanmelding bij Sync"
 
 #~ msgid "Bad Request"
 #~ msgstr "Ongeldige aanvraag"
