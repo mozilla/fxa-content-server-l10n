@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-29 00:07+0000\n"
-"PO-Revision-Date: 2015-07-22 00:50:38.007775\n"
+"PO-Revision-Date: 2015-09-10 13:58+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -17,13 +17,15 @@ msgstr ""
 
 #: templates/_pending.txt:1
 msgid "Still there?"
-msgstr ""
+msgstr "Досі там?"
 
 #: templates/_pending.txt:2
 msgid ""
 "A while ago you created a Firefox Account, but never verified it. Click the "
 "link below to activate your account."
 msgstr ""
+"Деякий час тому ви створили обліковий запис Firefox, але досі не засвідчили "
+"його. Перейдіть за посиланням внизу для його активації."
 
 #: templates/_pending.txt:3 templates/post_verify.html:3
 msgid ""
@@ -31,6 +33,10 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for <a "
 "href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
 msgstr ""
+"Ви успішно підключили свій перший пристрій до облікового запису Firefox. "
+"Тепер ви можете увійти в Синхронізацію зі своїх інших пристроїв, включаючи "
+"Firefox для <a href='%(androidUrl)s'>Android</a> та <a "
+"href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
@@ -38,14 +44,17 @@ msgid ""
 "make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
 "Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
 msgstr ""
+"Ви успішно підключили свій перший пристрій до облікового запису Firefox. Щоб"
+" зробити синхронізацію повноцінною, під'єднайте будь-який пристрій з Firefox"
+" для <a href='%(androidUrl)s'>Android</a> чи <a href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "Під'єднати інший пристрій"
 
 #: templates/_pending.txt:6
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Увійти до Синхронізації"
 
 #: templates/new_sync_device.html:1 templates/password_changed.html:1
 #: templates/password_reset.html:1 templates/reset.html:1
@@ -159,7 +168,7 @@ msgstr ""
 
 #: templates/post_verify.txt:1 templates/post_verify.html:2
 msgid "Account verified!"
-msgstr ""
+msgstr "Обліковий запис підтверджено!"
 
 #: templates/post_verify.txt:2
 msgid ""
@@ -167,10 +176,13 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for "
 "Android and iOS."
 msgstr ""
+"Ви успішно підключили свій перший пристрій до облікового запису Firefox. "
+"Тепер ви можете увійти в Синхронізацію зі своїх інших пристроїв, включаючи "
+"Firefox для Android та iOS."
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr ""
+msgstr "Увійти до Синхронізації:"
 
 #: templates/post_verify.txt:4 templates/reminder.txt:4 templates/reset.html:5
 #: templates/reset.txt:4 templates/unlock.html:4 templates/unlock.txt:3
@@ -191,7 +203,7 @@ msgstr ""
 #: templates/verification_reminder.html:2
 #: templates/verification_reminder.txt:1
 msgid "Hello again."
-msgstr ""
+msgstr "Вітаємо знову."
 
 #: templates/reminder.txt:2 templates/reminder.html:3
 #: templates/verification_reminder.html:3
@@ -200,10 +212,12 @@ msgid ""
 "Recently you created a Firefox Account, but never verified it. Please "
 "activate your account by confirming this email address."
 msgstr ""
+"Недавно ви створили обліковий запис Firefox, але досі не засвідчили його. "
+"Активуйте свій обліковий запис, підтвердивши цю адресу електронної пошти."
 
 #: templates/reminder.txt:3 templates/verification_reminder.txt:3
 msgid "Activate Now:"
-msgstr ""
+msgstr "Активувати зараз:"
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Are you sure?"
@@ -322,10 +336,12 @@ msgstr ""
 msgid ""
 "A device began syncing with the devices connected to your Firefox Account."
 msgstr ""
+"Пристрій почав синхронізацію з іншими пристроями, під'єднаними до вашого "
+"облікового запису Firefox."
 
 #: mailer.js:263 mailer.js:270 mailer.js:267 mailer.js:268
 msgid "Firefox Account Verified"
-msgstr ""
+msgstr "Обліковий запис Firefox підтверджено"
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
@@ -335,17 +351,19 @@ msgid ""
 "For more information, please visit <a href='%(supportUrl)s' style='color: "
 "#0095dd; text-decoration: none;'>Mozilla Support</a>"
 msgstr ""
+"Для отримання додаткової інформації, відвідайте <a href='%(supportUrl)s' "
+"style='color: #0095dd; text-decoration: none;'>Підтримку Mozilla </a>"
 
 #: templates/new_sync_device.txt:4 templates/password_changed.txt:4
 #: templates/password_reset.txt:4 templates/post_verify.txt:5
 #: templates/reminder.txt:5 templates/reset.txt:5 templates/unlock.txt:4
 #: templates/verify.txt:5 templates/verification_reminder.txt:5
 msgid "For more information, please visit %(supportUrl)s"
-msgstr ""
+msgstr "Для отримання додаткової інформації, відвідайте %(supportUrl)s"
 
 #: mailer.js:249 mailer.js:246 mailer.js:247
 msgid "New sign-in to Sync"
-msgstr ""
+msgstr "Новий вхід до Синхронізації"
 
 #~ msgid "Bad Request"
 #~ msgstr "Неправильний запит"
