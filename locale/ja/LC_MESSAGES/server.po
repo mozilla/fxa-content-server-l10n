@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-29 00:07+0000\n"
-"PO-Revision-Date: 2015-08-07 16:52-0400\n"
+"PO-Revision-Date: 2015-09-11 14:55-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -16,13 +16,15 @@ msgstr ""
 
 #: templates/_pending.txt:1
 msgid "Still there?"
-msgstr ""
+msgstr "引き続き利用されますか？"
 
 #: templates/_pending.txt:2
 msgid ""
 "A while ago you created a Firefox Account, but never verified it. Click the "
 "link below to activate your account."
 msgstr ""
+"あなたはしばらく前に Firefox アカウントを作成しましたが、まだ認証を済ませていないよ"
+"うです。下のリンクをクリックしてアカウントを有効化してください。"
 
 #: templates/_pending.txt:3 templates/post_verify.html:3
 msgid ""
@@ -30,6 +32,9 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for <a "
 "href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
 msgstr ""
+"あなたの Firefox アカウントへ最初の端末が接続されました。今後、<a href='"
+"%(androidUrl)s'>Android 版</a> や <a href='%(iosUrl)s'>iOS 版</a> Firefox "
+"など他の端末から Sync へログインできます。"
 
 #: templates/_pending.txt:4
 msgid ""
@@ -37,14 +42,17 @@ msgid ""
 "make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
 "Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
 msgstr ""
+"あなたの Firefox アカウントへ最初の端末が接続されました。Sync を最大限活用するに"
+"は、お手持ちのスマートフォンから <a href='%(androidUrl)s'>Android 版</a> もしく"
+"は <a href='%(iosUrl)s'>iOS 版</a> Firefox を接続してください。"
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "別の端末を接続"
 
 #: templates/_pending.txt:6
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Sync へログイン"
 
 #: templates/new_sync_device.html:1 templates/password_changed.html:1
 #: templates/password_reset.html:1 templates/reset.html:1
@@ -82,8 +90,8 @@ msgid ""
 "For more information, please visit <a href='https://support.mozilla."
 "org'>Mozilla Support</a>"
 msgstr ""
-"詳しい情報は、<a href='https://support.mozilla.org'>Mozilla サポート</a> をご"
-"覧ください"
+"詳しい情報は <a href='https://support.mozilla.org'>Mozilla サポート</a> をご"
+"覧ください。"
 
 #: templates/new_sync_device.txt:3
 msgid ""
@@ -98,7 +106,7 @@ msgstr ""
 #: templates/reminder.txt:5 templates/reset.txt:5 templates/unlock.txt:4
 #: templates/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
-msgstr "詳しい情報は、 https://support.mozilla.org をご覧ください。"
+msgstr "詳しい情報は https://support.mozilla.org をご覧ください。"
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
@@ -106,7 +114,7 @@ msgstr "パスワード変更完了"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr "あなたの Firefox アカウントのパスワードの変更が完了しました。"
+msgstr "あなたの Firefox アカウントのパスワード変更が完了しました。"
 
 #: templates/password_changed.html:4
 msgid ""
@@ -132,7 +140,7 @@ msgstr "パスワードリセット完了"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr "Firefox アカウントのパスワード変更が完了しました。"
+msgstr "あなたの Firefox アカウントのパスワードリセットが完了しました。"
 
 #: templates/password_reset.html:4
 msgid ""
@@ -154,7 +162,7 @@ msgstr ""
 
 #: templates/post_verify.txt:1 templates/post_verify.html:2
 msgid "Account verified!"
-msgstr ""
+msgstr "アカウントが認証されました！"
 
 #: templates/post_verify.txt:2
 msgid ""
@@ -162,10 +170,12 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for "
 "Android and iOS."
 msgstr ""
+"あなたの Firefox アカウントへ最初の端末が接続されました。今後、Android 版や iOS 版 "
+"Firefox など他の端末から Sync へログインできます。"
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr ""
+msgstr "Sync へログイン:"
 
 #: templates/post_verify.txt:4 templates/reminder.txt:4 templates/reset.html:5
 #: templates/reset.txt:4 templates/unlock.html:4 templates/unlock.txt:3
@@ -185,7 +195,7 @@ msgstr ""
 #: templates/reminder.txt:1 templates/reminder.html:2
 #: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
 msgid "Hello again."
-msgstr ""
+msgstr "こんにちは。"
 
 #: templates/reminder.txt:2 templates/reminder.html:3
 #: templates/verification_reminder.html:3 templates/verification_reminder.txt:2
@@ -193,26 +203,28 @@ msgid ""
 "Recently you created a Firefox Account, but never verified it. Please "
 "activate your account by confirming this email address."
 msgstr ""
+"あなたは最近 Firefox アカウントを作成しましたが、まだ認証を済ませていないようです。"
+"このメールアドレスを確認してアカウントを有効化してください。"
 
 #: templates/reminder.txt:3 templates/verification_reminder.txt:3
 msgid "Activate Now:"
-msgstr ""
+msgstr "今すぐ有効化:"
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Are you sure?"
-msgstr "リセットしますか？"
+msgstr "本当にリセットしますか？"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "%(email)s に送信されたメールでパスワードのリセットを確認してください。"
+msgstr "%(email)s のパスワードをリセットしても良いかどうか確認してください。"
 
 #: templates/reset.html:4
 msgid "Reset password now"
-msgstr ""
+msgstr "今すぐパスワードをリセット"
 
 #: templates/reset.txt:3
 msgid "Reset password now:"
-msgstr ""
+msgstr "すぐパスワードをリセット:"
 
 #: templates/unlock.html:2 templates/unlock.txt:1 templates/unlock.html:3
 msgid ""
@@ -221,7 +233,7 @@ msgid ""
 "now."
 msgstr ""
 "セキュリティ上の理由から、あなたの Firefox アカウントは停止されています。アカ"
-"ウントレベルの活動を行うには、今すぐアカウントの再認証リンクをクリックしてく"
+"ウントレベルの操作を行うには、今すぐアカウントの再認証リンクをクリックしてく"
 "ださい。"
 
 #: templates/unlock.html:3 templates/unlock.html:4
@@ -235,26 +247,26 @@ msgstr "アカウントを認証:"
 #: templates/verify.html:1 templates/reminder.html:1
 #: templates/verification_reminder.html:1
 msgid "Firefox Account Activation"
-msgstr ""
+msgstr "Firefox アカウント認証"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
-msgstr ""
+msgstr "ようこそ！"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "このメールアドレスを確認してあなたのアカウントを有効化してください。"
 
 #: templates/verify.html:4 templates/reminder.html:4
 #: templates/verification_reminder.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "今すぐ有効化"
 
 #: templates/verify.html:5 templates/post_verify.html:5
 #: templates/reminder.html:5 templates/reset.html:5 templates/unlock.html:5
 #: templates/verification_reminder.html:5
 msgid "Alternatively:"
-msgstr ""
+msgstr "別の方法:"
 
 #: templates/verify.html:7 templates/new_sync_device.html:5
 #: templates/password_changed.html:5 templates/post_verify.html:7
@@ -263,20 +275,22 @@ msgid ""
 "For more information, please visit <a href='https://support.mozilla.org' "
 "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
 msgstr ""
+"詳しい情報は <a href='https://support.mozilla.org' style='color: #0095dd; "
+"text-decoration: none;'>Mozilla サポート</a> をご覧ください。"
 
 #: templates/verify.html:8 templates/reminder.html:8
 #: templates/verification_reminder.html:8
 msgid "Verify Email"
-msgstr ""
+msgstr "メールアドレスを認証"
 
 #: templates/verify.html:9 templates/reminder.html:9
 #: templates/verification_reminder.html:9
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
+msgstr "メールアドレスを認証して、Firefox アカウントの登録を完了してください"
 
 #: templates/verify.txt:3
 msgid "Activate now:"
-msgstr ""
+msgstr "今すぐ有効化:"
 
 #: mailer.js:115 mailer.js:118 mailer.js:298 mailer.js:119 mailer.js:306
 #: mailer.js:303 mailer.js:120 mailer.js:304
@@ -307,10 +321,11 @@ msgstr "新たな端末があなたの Firefox アカウントと同期を開始
 msgid ""
 "A device began syncing with the devices connected to your Firefox Account."
 msgstr ""
+"ある端末が Firefox アカウントへ接続されている他の端末との同期を開始しました。"
 
 #: mailer.js:263 mailer.js:270 mailer.js:267 mailer.js:268
 msgid "Firefox Account Verified"
-msgstr ""
+msgstr "Firefox アカウント認証済み"
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
@@ -320,101 +335,16 @@ msgid ""
 "For more information, please visit <a href='%(supportUrl)s' style='color: "
 "#0095dd; text-decoration: none;'>Mozilla Support</a>"
 msgstr ""
+"詳しい情報は <a href='%(supportUrl)s' style='color: #0095dd; text-decoration: "
+"none;'>Mozilla サポート</a> をご覧ください。"
 
 #: templates/new_sync_device.txt:4 templates/password_changed.txt:4
 #: templates/password_reset.txt:4 templates/post_verify.txt:5
 #: templates/reminder.txt:5 templates/reset.txt:5 templates/unlock.txt:4
 #: templates/verify.txt:5 templates/verification_reminder.txt:5
 msgid "For more information, please visit %(supportUrl)s"
-msgstr ""
+msgstr "詳しくは %(supportUrl)s をご覧ください。"
 
 #: mailer.js:249 mailer.js:246 mailer.js:247
 msgid "New sign-in to Sync"
-msgstr ""
-
-#~ msgid "Bad Request"
-#~ msgstr "不正なリクエスト"
-
-#~ msgid "Page not found"
-#~ msgstr "ページが見つかりませんでした"
-
-#~ msgid ""
-#~ "The page you requested is not found. We've been notified and will fix any "
-#~ "links that may be broken."
-#~ msgstr ""
-#~ "リクエストしたページは存在しません。このリンク切れ情報を受け付けました。"
-
-#~ msgid "Home"
-#~ msgstr "ホーム"
-
-#~ msgid "500 Error"
-#~ msgstr "500 エラー"
-
-#~ msgid ""
-#~ "Oh dear, something went wrong there. We've been notified and will get "
-#~ "working on a fix."
-#~ msgstr "エラーが発生しました。エラー通知を受け取りしだい修正に努めます。"
-
-#~ msgid "502 Error"
-#~ msgstr "502 エラー"
-
-#~ msgid "Server busy, try again soon"
-#~ msgstr "サーバの負荷が高すぎます。しばらくしてから再度お試しください"
-
-#~ msgid ""
-#~ "We are currently under heavy strain and are working to return the system "
-#~ "to normal as soon as possible."
-#~ msgstr ""
-#~ "一時的にサーバの負荷が高くなっています。可能な限り速やかに通常動作に戻るよ"
-#~ "うシステム復旧に努めております。"
-
-#~ msgid ""
-#~ "You are using an <strong>outdated</strong> browser. Please <a href="
-#~ "\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
-#~ "experience."
-#~ msgstr ""
-#~ "ご利用のブラウザは <strong>サポートを終了しています</strong>。より快適にイ"
-#~ "ンターネットをご利用頂けるよう<a href=\"http://browsehappy.com/\">新しいブ"
-#~ "ラウザにアップグレード</a>してください。"
-
-#~ msgid "Firefox Accounts requires JavaScript."
-#~ msgstr ""
-#~ "Firefox アカウントを利用するには JavaScript を有効にする必要があります。"
-
-#~ msgid "Privacy Notice"
-#~ msgstr "プライバシーに関する注意"
-
-#~ msgid "Firefox cloud services"
-#~ msgstr "Firefox クラウドサービス"
-
-#~ msgid "Terms of Service"
-#~ msgstr "利用規約"
-
-#~ msgid "Reset password"
-#~ msgstr "パスワードをリセット"
-
-#~ msgid "Reset password:"
-#~ msgstr "パスワードをリセット:"
-
-#~ msgid "Almost there"
-#~ msgstr "あと少しです"
-
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
-#~ msgstr ""
-#~ "%(email)s さん、あと 1 クリックで Firefox アカウントの認証が完了します。"
-
-#~ msgid "Verify"
-#~ msgstr "認証"
-
-#~ msgid "Verify:"
-#~ msgstr "認証:"
-
-#~ msgid "Verify your account"
-#~ msgstr "アカウントを認証"
-
-#~ msgid "Reset your password"
-#~ msgstr "パスワードをリセット"
-
-#~ msgid "Re-verify your account"
-#~ msgstr "アカウントを再認証"
+msgstr "Sync への新規ログイン"
