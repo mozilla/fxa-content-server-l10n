@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-26 18:54+0000\n"
-"PO-Revision-Date: 2015-09-12 11:34+0000\n"
+"PO-Revision-Date: 2015-09-12 13:01+0000\n"
 "Last-Translator: Jānis Marks Gailis - Jean-Marc <jm-gailis@fai-vianet.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lv\n"
@@ -493,7 +493,7 @@ msgstr "Atbloķēšanas kļūda"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
-msgstr ""
+msgstr "Paroles atstatīšanas saite nav vairs derīga"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
@@ -509,11 +509,11 @@ msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr ""
+msgstr "Klikšķiniet šeit lai saņemtu jaunu atstatīšana saiti"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 msgid "Reset password link damaged"
-msgstr ""
+msgstr "Paroles atstatīšanas saite ir sabojāta"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
@@ -547,7 +547,7 @@ msgstr "Nākamais"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
-msgstr ""
+msgstr "Pārbaudes saite nav vairs derīga"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
 msgid "Click here to receive a new verification link"
@@ -579,7 +579,7 @@ msgstr "Nosūtīt vēlreiz"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:1
 msgid "Unlock email sent"
-msgstr ""
+msgstr "Atbloķēšanas epasts ir aizsūtīts"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
@@ -635,7 +635,7 @@ msgstr "Mēģināt vēlreiz"
 
 #: app/scripts/templates/force_auth.mustache:1
 msgid "Sign in to continue"
-msgstr ""
+msgstr "Ieejiet lai turpinātu"
 
 #: app/scripts/templates/force_auth.mustache:3
 #: app/scripts/templates/sign_in.mustache:8
@@ -665,11 +665,11 @@ msgstr ""
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "Firefox mākoņa pakalpojumi"
 
 #: app/scripts/templates/legal.mustache:2
 msgid "Legal"
-msgstr ""
+msgstr "Juridiskā informācija"
 
 #: app/scripts/templates/legal.mustache:3
 #: app/scripts/templates/settings.mustache:5
@@ -699,18 +699,18 @@ msgstr ""
 #: app/scripts/templates/marketing_snippet_ios.mustache:2
 #: app/scripts/templates/marketing_snippet_ios.mustache:12
 msgid "Firefox is coming soon to iOS!"
-msgstr ""
+msgstr "Firefox drīz būs pieejams uz iOS!"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:3
 #: app/scripts/templates/marketing_snippet_ios.mustache:13
 msgid "Sign up to learn more"
-msgstr ""
+msgstr "Reģistrējieties lai uzzinātu vairāk"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:6
 #: app/scripts/templates/marketing_snippet_ios.mustache:7
 #: app/scripts/templates/marketing_snippet_ios.mustache:11
 msgid "Download Firefox for Android."
-msgstr ""
+msgstr "Lejupielādējiet Firefox Android ierīcēm."
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:10
 msgid "Download Firefox for mobile devices."
