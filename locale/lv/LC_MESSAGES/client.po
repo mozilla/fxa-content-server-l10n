@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-26 18:54+0000\n"
-"PO-Revision-Date: 2015-09-12 13:01+0000\n"
+"PO-Revision-Date: 2015-09-12 13:27+0000\n"
 "Last-Translator: Jānis Marks Gailis - Jean-Marc <jm-gailis@fai-vianet.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lv\n"
@@ -675,12 +675,12 @@ msgstr "Juridiskā informācija"
 #: app/scripts/templates/settings.mustache:5
 #: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
-msgstr ""
+msgstr "Lietošanas noteikumi"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
 #: app/scripts/templates/settings.mustache:6
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Privātuma politika"
 
 #: app/scripts/templates/marketing_snippet.mustache:1
 msgid "Stay in sync on the go:"
@@ -688,7 +688,7 @@ msgstr ""
 
 #: app/scripts/templates/marketing_snippet.mustache:2
 msgid "Get Firefox for Android"
-msgstr ""
+msgstr "Iegūstiet Firefox Android ierīcēm"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:1
 #: app/scripts/templates/marketing_snippet_ios.mustache:5
@@ -714,7 +714,7 @@ msgstr "Lejupielādējiet Firefox Android ierīcēm."
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr ""
+msgstr "Lejupielādējiet Firefox mobilām ierīcēm."
 
 #: app/scripts/templates/permissions.mustache:1
 #: app/scripts/templates/settings/gravatar_permissions.mustache:1
@@ -766,7 +766,7 @@ msgstr ""
 
 #: app/scripts/templates/ready.mustache:8
 msgid "You are now ready to use %(serviceName)s"
-msgstr ""
+msgstr "Jūs esat gatavs izmantot %(serviceName)s"
 
 #: app/scripts/templates/ready.mustache:9
 msgid "Proceed"
@@ -778,7 +778,7 @@ msgstr "Jūsu konts ir gatavs!"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Are you sure you want to reset your account password?"
-msgstr ""
+msgstr "Vai tiešām vēlaties atstatīt sava konta paroli?"
 
 #: app/scripts/templates/reset_password.mustache:3
 msgid ""

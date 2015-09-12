@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-29 00:07+0000\n"
-"PO-Revision-Date: 2015-09-05 21:21+0000\n"
+"PO-Revision-Date: 2015-09-12 14:02+0000\n"
 "Last-Translator: Jānis Marks Gailis - Jean-Marc <jm-gailis@fai-vianet.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lv\n"
@@ -90,14 +90,16 @@ msgstr ""
 #: templates/verify.txt:5
 msgid "For more information, please visit https://support.mozilla.org"
 msgstr ""
+"Lai iegūtu vairāk informācijas, lūdzu apmeklējiet "
+"https://support.mozilla.org"
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Parole tika veiksmīgi nomainīta"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr ""
+msgstr "Jūsu Firefox konta parole tika veiksmīgi nomainīta."
 
 #: templates/password_changed.html:4
 msgid ""
@@ -135,7 +137,7 @@ msgstr ""
 
 #: templates/post_verify.txt:1 templates/post_verify.html:2
 msgid "Account verified!"
-msgstr ""
+msgstr "Konts pārbaudīts!"
 
 #: templates/post_verify.txt:2
 msgid ""
@@ -177,7 +179,7 @@ msgstr ""
 
 #: templates/reminder.txt:3 templates/verification_reminder.txt:3
 msgid "Activate Now:"
-msgstr ""
+msgstr "Aktivizēt tagad:"
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Are you sure?"
@@ -189,11 +191,11 @@ msgstr ""
 
 #: templates/reset.html:4
 msgid "Reset password now"
-msgstr ""
+msgstr "Atstatīt paroli tagad"
 
 #: templates/reset.txt:3
 msgid "Reset password now:"
-msgstr ""
+msgstr "Atstatīt paroli tagad:"
 
 #: templates/unlock.html:2 templates/unlock.txt:1 templates/unlock.html:3
 msgid ""
@@ -213,26 +215,26 @@ msgstr "Pārbaudīt kontu:"
 #: templates/verify.html:1 templates/reminder.html:1
 #: templates/verification_reminder.html:1
 msgid "Firefox Account Activation"
-msgstr ""
+msgstr "Firefox konta aktivizēšana"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
-msgstr ""
+msgstr "Laipni lūdzam!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "Lūdzu aktivizējiet savu kontu apstiprinot šo epasta adresi."
 
 #: templates/verify.html:4 templates/reminder.html:4
 #: templates/verification_reminder.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "Aktivizēt tagad"
 
 #: templates/verify.html:5 templates/post_verify.html:5
 #: templates/reminder.html:5 templates/reset.html:5 templates/unlock.html:5
 #: templates/verification_reminder.html:5
 msgid "Alternatively:"
-msgstr ""
+msgstr "Vai arī:"
 
 #: templates/verify.html:7 templates/new_sync_device.html:5
 #: templates/password_changed.html:5 templates/post_verify.html:7
@@ -241,20 +243,23 @@ msgid ""
 "For more information, please visit <a href='https://support.mozilla.org' "
 "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
 msgstr ""
+"Lai iegūtu vairāk informācijas, lūdzu apmeklējiet <a "
+"href='https://support.mozilla.org' style='color: #0095dd; text-decoration: "
+"none;'>Mozilla Atbalsts</a>"
 
 #: templates/verify.html:8 templates/reminder.html:8
 #: templates/verification_reminder.html:8
 msgid "Verify Email"
-msgstr ""
+msgstr "Apstiprināt epastu"
 
 #: templates/verify.html:9 templates/reminder.html:9
 #: templates/verification_reminder.html:9
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
+msgstr "Pārbaudiet savu e-pastu, lai pabeigtu jūsu Firefox konta reģistrāciju"
 
 #: templates/verify.txt:3
 msgid "Activate now:"
-msgstr ""
+msgstr "Aktivizēt tagad:"
 
 #: mailer.js:115 mailer.js:118 mailer.js:298 mailer.js:119 mailer.js:306
 #: mailer.js:303 mailer.js:120 mailer.js:304
@@ -279,7 +284,7 @@ msgstr "Jūsu Firefox konta parole tika atstatīta"
 
 #: mailer.js:240 mailer.js:243
 msgid "A new device is now syncing to your Firefox Account"
-msgstr ""
+msgstr "Jaunā ierīce tagad tiek sinhronizēta ar Firefox kontu"
 
 #: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
 msgid ""
@@ -288,7 +293,7 @@ msgstr ""
 
 #: mailer.js:263 mailer.js:270 mailer.js:267 mailer.js:268
 msgid "Firefox Account Verified"
-msgstr ""
+msgstr "Firefox konts ir pārbaudīts"
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
@@ -298,13 +303,15 @@ msgid ""
 "For more information, please visit <a href='%(supportUrl)s' style='color: "
 "#0095dd; text-decoration: none;'>Mozilla Support</a>"
 msgstr ""
+"Lai iegūtu vairāk informācijas, lūdzu apmeklējiet <a href='%(supportUrl)s' "
+"style='color: #0095dd; text-decoration: none;'>Mozilla Atbalsts</a>"
 
 #: templates/new_sync_device.txt:4 templates/password_changed.txt:4
 #: templates/password_reset.txt:4 templates/post_verify.txt:5
 #: templates/reminder.txt:5 templates/reset.txt:5 templates/unlock.txt:4
 #: templates/verify.txt:5 templates/verification_reminder.txt:5
 msgid "For more information, please visit %(supportUrl)s"
-msgstr ""
+msgstr "Lai iegūtu vairāk informācijas, lūdzu apmeklējiet %(supportUrl)s"
 
 #: mailer.js:249 mailer.js:246 mailer.js:247
 msgid "New sign-in to Sync"
