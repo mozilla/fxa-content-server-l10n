@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-29 00:07+0000\n"
-"PO-Revision-Date: 2015-06-19 02:56:31\n"
+"PO-Revision-Date: 2015-09-15 15:04+0000\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -17,13 +17,15 @@ msgstr ""
 
 #: templates/_pending.txt:1
 msgid "Still there?"
-msgstr ""
+msgstr "Ainda está aí?"
 
 #: templates/_pending.txt:2
 msgid ""
 "A while ago you created a Firefox Account, but never verified it. Click the "
 "link below to activate your account."
 msgstr ""
+"Há um tempo atrás você criou uma conta de Firefox, mas nunca a confirmou. "
+"Clique no link abaixo para ativar sua conta."
 
 #: templates/_pending.txt:3 templates/post_verify.html:3
 msgid ""
@@ -31,6 +33,10 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for <a "
 "href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
 msgstr ""
+"Você conectou com sucesso seu primeiro dispositivo na sua conta Firefox. "
+"Agora você pode entrar para sincronizar outros dispositivos, incluindo o "
+"Firefox para <a href='%(androidUrl)s'>Android</a> e <a "
+"href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
@@ -41,11 +47,11 @@ msgstr ""
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "Conecte outro dispositivo"
 
 #: templates/_pending.txt:6
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Entre para sincronizar"
 
 #: templates/new_sync_device.html:1 templates/password_changed.html:1
 #: templates/password_reset.html:1 templates/reset.html:1
@@ -155,7 +161,7 @@ msgstr ""
 
 #: templates/post_verify.txt:1 templates/post_verify.html:2
 msgid "Account verified!"
-msgstr ""
+msgstr "Conta verificada!"
 
 #: templates/post_verify.txt:2
 msgid ""
@@ -163,10 +169,13 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for "
 "Android and iOS."
 msgstr ""
+"Você conectou com sucesso seu primeiro dispositivo na sua conta Firefox. "
+"Agora você pode entrar para sincronizar outros dispositivos, incluindo o "
+"Firefox para Android e iOS."
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr ""
+msgstr "Entre para sincronizar:"
 
 #: templates/post_verify.txt:4 templates/reminder.txt:4 templates/reset.html:5
 #: templates/reset.txt:4 templates/unlock.html:4 templates/unlock.txt:3
@@ -187,7 +196,7 @@ msgstr ""
 #: templates/verification_reminder.html:2
 #: templates/verification_reminder.txt:1
 msgid "Hello again."
-msgstr ""
+msgstr "Olá novamente."
 
 #: templates/reminder.txt:2 templates/reminder.html:3
 #: templates/verification_reminder.html:3
@@ -196,10 +205,12 @@ msgid ""
 "Recently you created a Firefox Account, but never verified it. Please "
 "activate your account by confirming this email address."
 msgstr ""
+"Recentemente, você criou uma conta Firefox, mas nunca a confirmou. Por favor"
+" ative sua conta, confirmando este endereço de e-mail."
 
 #: templates/reminder.txt:3 templates/verification_reminder.txt:3
 msgid "Activate Now:"
-msgstr ""
+msgstr "Ative agora:"
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Are you sure?"
