@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-29 00:07+0000\n"
-"PO-Revision-Date: 2015-09-15 19:58+0000\n"
+"PO-Revision-Date: 2015-09-15 20:09+0000\n"
 "Last-Translator: Jørgen   <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1442347097.0\n"
+"X-POOTLE-MTIME: 1442347768.0\n"
 
 #: templates/_pending.txt:1
 msgid "Still there?"
@@ -350,7 +350,7 @@ msgstr "For mere information, besøg %(supportUrl)s"
 
 #: mailer.js:249 mailer.js:246 mailer.js:247
 msgid "New sign-in to Sync"
-msgstr "Nyt log-in til Sync"
+msgstr "Nyt login til Sync"
 
 #~ msgid "Bad Request"
 #~ msgstr "Bad Request"
