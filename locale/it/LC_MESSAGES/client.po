@@ -742,7 +742,7 @@ msgstr "Scarica Firefox per Android."
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr "Scarica Firefox per dispositivi <em>mobile</em>."
+msgstr "Scarica Firefox per dispositivi mobile."
 
 #: app/scripts/templates/permissions.mustache:1
 #: app/scripts/templates/settings/gravatar_permissions.mustache:1
