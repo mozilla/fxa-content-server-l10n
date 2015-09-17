@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-29 00:07+0000\n"
-"PO-Revision-Date: 2015-09-15 21:52+0000\n"
-"Last-Translator: kusavica <kusavica@gmail.com>\n"
+"PO-Revision-Date: 2015-09-17 09:38+0000\n"
+"Last-Translator: Branislav <rozbora@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
@@ -12,17 +12,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1442353940.0\n"
+"X-POOTLE-MTIME: 1442482729.0\n"
 
 #: templates/_pending.txt:1
 msgid "Still there?"
-msgstr ""
+msgstr "Ste tu ešte?"
 
 #: templates/_pending.txt:2
 msgid ""
 "A while ago you created a Firefox Account, but never verified it. Click the "
 "link below to activate your account."
 msgstr ""
+"Pred nedávnom ste si vytvorili účet Firefox Account, ale zatiaľ ste ho "
+"neoverili. Pre aktiváciu svojho účtu kliknite na odkaz nižšie."
 
 #: templates/_pending.txt:3 templates/post_verify.html:3
 msgid ""
@@ -30,6 +32,10 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for <a "
 "href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
 msgstr ""
+"Úspešne ste pripojili svoje prvé zariadenie k svojmu účtu Firefox Account. "
+"Teraz sa môžete prihlásiť k službe Sync aj zo svojich ďalších zariadení, "
+"vrátane Firefoxu pre <a href='%(androidUrl)s'>Android</a> alebo <a href='%"
+"(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
@@ -37,6 +43,10 @@ msgid ""
 "make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
 "Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
 msgstr ""
+"Úspešne ste pripojili svoje prvé zariadenie k svojmu účtu Firefox Account. "
+"Aby ste službu Sync čo najlepšie využili, pripojte sa k nej aj za aplikácie "
+"Firefox pre <a href='%(androidUrl)s'>Android</a> alebo <a href='%"
+"(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -44,7 +54,7 @@ msgstr "Pripojiť ďalšie zariadenie"
 
 #: templates/_pending.txt:6
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Prihlásiť sa k službe Sync"
 
 #: templates/new_sync_device.html:1 templates/password_changed.html:1
 #: templates/password_reset.html:1 templates/reset.html:1
@@ -162,10 +172,13 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for "
 "Android and iOS."
 msgstr ""
+"Úspešne ste pripojili svoje prvé zariadenie k svojmu účtu Firefox Account. "
+"Teraz sa môžete prihlásiť k službe Sync aj zo svojich ďalších zariadení, "
+"vrátane Firefoxu pre Android alebo iOS."
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr ""
+msgstr "Prihlásiť sa k službe Sync:"
 
 #: templates/post_verify.txt:4 templates/reminder.txt:4 templates/reset.html:5
 #: templates/reset.txt:4 templates/unlock.html:4 templates/unlock.txt:3
@@ -185,7 +198,7 @@ msgstr ""
 #: templates/reminder.txt:1 templates/reminder.html:2
 #: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
 msgid "Hello again."
-msgstr ""
+msgstr "Vitajte späť."
 
 #: templates/reminder.txt:2 templates/reminder.html:3
 #: templates/verification_reminder.html:3 templates/verification_reminder.txt:2
@@ -193,10 +206,12 @@ msgid ""
 "Recently you created a Firefox Account, but never verified it. Please "
 "activate your account by confirming this email address."
 msgstr ""
+"Pred nedávnom ste si vytvorili účet Firefox Account, ale zatiaľ ste ho "
+"neoverili. Aktivujte ho prosím potvrdením tejto e-mailovej adresy."
 
 #: templates/reminder.txt:3 templates/verification_reminder.txt:3
 msgid "Activate Now:"
-msgstr ""
+msgstr "Aktivovať teraz:"
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Are you sure?"
@@ -310,10 +325,12 @@ msgstr "Nové zariadenie sa teraz synchronizuje s vašim účtom Firefox Account
 msgid ""
 "A device began syncing with the devices connected to your Firefox Account."
 msgstr ""
+"Zariadenie sa začalo synchronizovať s ostatnými zariadeniami pripojenými k "
+"vášmu účtu Firefox Account."
 
 #: mailer.js:263 mailer.js:270 mailer.js:267 mailer.js:268
 msgid "Firefox Account Verified"
-msgstr ""
+msgstr "Účet Firefox Account bol overený"
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
@@ -323,17 +340,19 @@ msgid ""
 "For more information, please visit <a href='%(supportUrl)s' style='color: "
 "#0095dd; text-decoration: none;'>Mozilla Support</a>"
 msgstr ""
+"Pre viac informácií prosím navštívte <a href='%(supportUrl)s' style='color: "
+"#0095dd; text-decoration: none;'>web podpory Mozilla</a>"
 
 #: templates/new_sync_device.txt:4 templates/password_changed.txt:4
 #: templates/password_reset.txt:4 templates/post_verify.txt:5
 #: templates/reminder.txt:5 templates/reset.txt:5 templates/unlock.txt:4
 #: templates/verify.txt:5 templates/verification_reminder.txt:5
 msgid "For more information, please visit %(supportUrl)s"
-msgstr ""
+msgstr "Pre viac informácií prosím navštívte stránku %(supportUrl)s"
 
 #: mailer.js:249 mailer.js:246 mailer.js:247
 msgid "New sign-in to Sync"
-msgstr ""
+msgstr "Nové prihlásenie do služby Sync"
 
 #~ msgid "Bad Request"
 #~ msgstr "Nesprávna požiadavka"
