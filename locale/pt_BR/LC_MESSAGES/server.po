@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-29 00:07+0000\n"
-"PO-Revision-Date: 2015-09-15 15:04+0000\n"
+"PO-Revision-Date: 2015-09-21 14:39+0000\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -44,6 +44,9 @@ msgid ""
 "make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
 "Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
 msgstr ""
+"Você conectou com sucesso seu primeiro dispositivo na sua conta Firefox. "
+"Para tirar mais do Sync, conecte outro <a href='%(androidUrl)s'>Firefox para"
+" Android</a> ou <a href='%(iosUrl)s'>Firefox para iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -323,10 +326,12 @@ msgstr "Um novo dispositivo está sincronizando com a sua conta Firefox"
 msgid ""
 "A device began syncing with the devices connected to your Firefox Account."
 msgstr ""
+"Um dispositivo começou a sincronização com os dispositivos conectados a sua "
+"conta Firefox."
 
 #: mailer.js:263 mailer.js:270 mailer.js:267 mailer.js:268
 msgid "Firefox Account Verified"
-msgstr ""
+msgstr "Conta Firefox verificada"
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
@@ -336,17 +341,19 @@ msgid ""
 "For more information, please visit <a href='%(supportUrl)s' style='color: "
 "#0095dd; text-decoration: none;'>Mozilla Support</a>"
 msgstr ""
+"Para mais informações, visite o <a href='%(supportUrl)s' style='color: "
+"#0095dd; text-decoration: none;'>Suporte Mozilla</a>"
 
 #: templates/new_sync_device.txt:4 templates/password_changed.txt:4
 #: templates/password_reset.txt:4 templates/post_verify.txt:5
 #: templates/reminder.txt:5 templates/reset.txt:5 templates/unlock.txt:4
 #: templates/verify.txt:5 templates/verification_reminder.txt:5
 msgid "For more information, please visit %(supportUrl)s"
-msgstr ""
+msgstr "Para mais informações, visite %(supportUrl)s"
 
 #: mailer.js:249 mailer.js:246 mailer.js:247
 msgid "New sign-in to Sync"
-msgstr ""
+msgstr "Nova entrada no Sync"
 
 #~ msgid "Bad Request"
 #~ msgstr "Pedido inválido"
