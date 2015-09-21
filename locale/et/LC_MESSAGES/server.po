@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-29 00:07+0000\n"
-"PO-Revision-Date: 2015-07-22 17:03+0000\n"
+"PO-Revision-Date: 2015-09-21 20:32+0000\n"
 "Last-Translator: Merike <merike.sell@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -12,17 +12,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1437584595.0\n"
+"X-POOTLE-MTIME: 1442867549.0\n"
 
 #: templates/_pending.txt:1
 msgid "Still there?"
-msgstr ""
+msgstr "Kas oled veel seal?"
 
 #: templates/_pending.txt:2
 msgid ""
 "A while ago you created a Firefox Account, but never verified it. Click the "
 "link below to activate your account."
 msgstr ""
+"Registreerisid mõne aja eest Firefoxi konto, kuid ei verifitseerinud seda. "
+"Konto aktiveerimiseks klõpsa allolevale lingile."
 
 #: templates/_pending.txt:3 templates/post_verify.html:3
 msgid ""
@@ -30,6 +32,9 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for <a "
 "href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
 msgstr ""
+"Oled esimese seadme edukalt Firefoxi kontoga sidunud. Nüüd võid Synci sisse "
+"logida ka teistest enda seadmetest, kaasa arvatud Firefoxist <a href='%"
+"(androidUrl)s'>Androidile</a> ja <a href='%(iosUrl)s'>iOS-ile</a>."
 
 #: templates/_pending.txt:4
 msgid ""
@@ -37,14 +42,17 @@ msgid ""
 "make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
 "Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
 msgstr ""
+"Oled esimese seadme edukalt Firefoxi kontoga sidunud. Syncist parima "
+"võtmiseks ühenda mõni seade, millel on Firefox <a href='%"
+"(androidUrl)s'>Androidile</a> või <a href='%(iosUrl)s'>iOS-ile</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "Ühenda teine seade"
 
 #: templates/_pending.txt:6
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Logi Synci sisse"
 
 #: templates/new_sync_device.html:1 templates/password_changed.html:1
 #: templates/password_reset.html:1 templates/reset.html:1
@@ -153,7 +161,7 @@ msgstr ""
 
 #: templates/post_verify.txt:1 templates/post_verify.html:2
 msgid "Account verified!"
-msgstr ""
+msgstr "Konto on verifitseeritud!"
 
 #: templates/post_verify.txt:2
 msgid ""
@@ -164,7 +172,7 @@ msgstr ""
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr ""
+msgstr "Synci sisselogimine:"
 
 #: templates/post_verify.txt:4 templates/reminder.txt:4 templates/reset.html:5
 #: templates/reset.txt:4 templates/unlock.html:4 templates/unlock.txt:3
@@ -184,7 +192,7 @@ msgstr ""
 #: templates/reminder.txt:1 templates/reminder.html:2
 #: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
 msgid "Hello again."
-msgstr ""
+msgstr "Tere taas."
 
 #: templates/reminder.txt:2 templates/reminder.html:3
 #: templates/verification_reminder.html:3 templates/verification_reminder.txt:2
@@ -195,7 +203,7 @@ msgstr ""
 
 #: templates/reminder.txt:3 templates/verification_reminder.txt:3
 msgid "Activate Now:"
-msgstr ""
+msgstr "Aktiveeri kohe:"
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Are you sure?"
@@ -309,10 +317,11 @@ msgstr "Sinu Firefoxi kontoga sünkroonib uus seade."
 msgid ""
 "A device began syncing with the devices connected to your Firefox Account."
 msgstr ""
+"Uus seade alustas sinu Firefoxi kontoga seotud seadmetega sünkroniseerimist."
 
 #: mailer.js:263 mailer.js:270 mailer.js:267 mailer.js:268
 msgid "Firefox Account Verified"
-msgstr ""
+msgstr "Firefoxi konto on verifitseeritud"
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
@@ -322,13 +331,15 @@ msgid ""
 "For more information, please visit <a href='%(supportUrl)s' style='color: "
 "#0095dd; text-decoration: none;'>Mozilla Support</a>"
 msgstr ""
+"Rohkem teavet leiad, kui külastad <a href='%(supportUrl)s' style='color: "
+"#0095dd; text-decoration: none;'>Mozilla kasutajatuge</a>"
 
 #: templates/new_sync_device.txt:4 templates/password_changed.txt:4
 #: templates/password_reset.txt:4 templates/post_verify.txt:5
 #: templates/reminder.txt:5 templates/reset.txt:5 templates/unlock.txt:4
 #: templates/verify.txt:5 templates/verification_reminder.txt:5
 msgid "For more information, please visit %(supportUrl)s"
-msgstr ""
+msgstr "Rohkem teavet leiad, kui külastad %(supportUrl)s"
 
 #: mailer.js:249 mailer.js:246 mailer.js:247
 msgid "New sign-in to Sync"
