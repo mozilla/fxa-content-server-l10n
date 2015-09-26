@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-29 00:07+0000\n"
+"POT-Creation-Date: 2015-09-26 01:28+0000\n"
 "PO-Revision-Date: 2015-09-10 13:58+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,59 +11,199 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1434740560.0\n"
 
-#: templates/_pending.txt:1
-msgid "Still there?"
-msgstr "Досі там?"
-
-#: templates/_pending.txt:2
-msgid ""
-"A while ago you created a Firefox Account, but never verified it. Click the "
-"link below to activate your account."
-msgstr ""
-"Деякий час тому ви створили обліковий запис Firefox, але досі не засвідчили "
-"його. Перейдіть за посиланням внизу для його активації."
-
-#: templates/_pending.txt:3 templates/post_verify.html:3
-msgid ""
-"You successfully connected your first device to your Firefox Account. Now "
-"you can sign in to Sync from your other devices, including Firefox for <a "
-"href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
-msgstr ""
-"Ви успішно підключили свій перший пристрій до облікового запису Firefox. "
-"Тепер ви можете увійти в Синхронізацію зі своїх інших пристроїв, включаючи "
-"Firefox для <a href='%(androidUrl)s'>Android</a> та <a "
-"href='%(iosUrl)s'>iOS</a>."
-
-#: templates/_pending.txt:4
-msgid ""
-"You successfully connected your first device to your Firefox Account. To "
-"make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
-"Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
-msgstr ""
-"Ви успішно підключили свій перший пристрій до облікового запису Firefox. Щоб"
-" зробити синхронізацію повноцінною, під'єднайте будь-який пристрій з Firefox"
-" для <a href='%(androidUrl)s'>Android</a> чи <a href='%(iosUrl)s'>iOS</a>."
-
-#: templates/_pending.txt:5 templates/post_verify.html:4
-msgid "Connect another device"
-msgstr "Під'єднати інший пристрій"
-
-#: templates/_pending.txt:6
-msgid "Sign in to Sync"
-msgstr "Увійти до Синхронізації"
-
+#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
+#: server/templates/pages/src/503.html:1
+#: server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1
+#: server/templates/pages/src/terms.html:1 templates/reset.html:1
+#: templates/unlock.html:1 templates/verify.html:1
 #: templates/new_sync_device.html:1 templates/password_changed.html:1
-#: templates/password_reset.html:1 templates/reset.html:1
-#: templates/unlock.html:1 templates/post_verify.html:1
+#: templates/password_reset.html:1
 msgid "Firefox Accounts"
 msgstr "Облікові записи Firefox"
 
+#: server/templates/pages/src/400.html:2
+msgid "Bad Request"
+msgstr "Неправильний запит"
+
+#: server/templates/pages/src/404.html:2
+msgid "Page not found"
+msgstr "Сторінку не знайдено"
+
+#: server/templates/pages/src/404.html:3
+msgid ""
+"The page you requested is not found. We've been notified and will fix any "
+"links that may be broken."
+msgstr ""
+"Запитану вами сторінку не знайдено. Ми отримали сповіщення і будемо "
+"виправляти будь-які посилання, які можуть бути пошкоджені."
+
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+msgid "Home"
+msgstr "Домівка"
+
+#: server/templates/pages/src/500.html:2
+msgid "500 Error"
+msgstr "Помилка 500"
+
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+msgid ""
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
+msgstr ""
+"О ні, щось пішло не так. Ми отримали сповіщення і будемо працювати, щоб "
+"виправити це."
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr "Помилка 502"
+
+#: server/templates/pages/src/503.html:2
+msgid "Server busy, try again soon"
+msgstr "Сервер зайнятий, спробуйте знову пізніше"
+
+#: server/templates/pages/src/503.html:3
+msgid ""
+"We are currently under heavy strain and are working to return the system to "
+"normal as soon as possible."
+msgstr ""
+"Зараз ми знаходимось під великим навантаженням і працюємо щоб якнайшвидше "
+"повернути систему до нормального стану."
+
+#: server/templates/pages/src/index.html:2
+#: server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/terms.html:3
+#: server/templates/pages/src/privacy.html:5
+#: server/templates/pages/src/terms.html:5
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+"Ви використовуєте <strong>застарілий</strong> переглядач. Будь ласка, <a "
+"href=\"http://browsehappy.com/\">оновіть свій переглядач</a> щоб покращити "
+"роботу."
+
+#: server/templates/pages/src/index.html:3
+msgid "Firefox Accounts requires JavaScript."
+msgstr "Для облікових записів Firefox необхідний JavaScript."
+
+#: server/templates/pages/src/privacy.html:2
+#: server/templates/pages/src/privacy.html:5
+#: server/templates/pages/src/privacy.html:4
+msgid "Privacy Notice"
+msgstr "Повідомлення про приватність"
+
+#: server/templates/pages/src/privacy.html:4
+#: server/templates/pages/src/terms.html:4
+#: server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/terms.html:3
+msgid "Firefox cloud services"
+msgstr "Хмарні сервіси Firefox"
+
+#: server/templates/pages/src/terms.html:2
+#: server/templates/pages/src/terms.html:5
+#: server/templates/pages/src/terms.html:4
+msgid "Terms of Service"
+msgstr "Умови надання послуг"
+
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Are you sure?"
+msgstr "Ви впевнені?"
+
+#: templates/reset.html:3 templates/reset.txt:2
+msgid "Please confirm that you'd like to reset the password for %(email)s."
+msgstr "Підтвердіть, що ви бажаєте відновити пароль для %(email)s."
+
+#: templates/reset.html:4
+msgid "Reset password"
+msgstr "Відновити пароль"
+
+#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
+#: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"Це автоматичне повідомлення; якщо ви отримали його помилково, не реагуйте на "
+"нього."
+
+#: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
+#: templates/new_sync_device.html:5 templates/password_changed.html:5
+#: templates/password_reset.html:5
+msgid ""
+"For more information, please visit <a href='https://support.mozilla."
+"org'>Mozilla Support</a>"
+msgstr ""
+"Щоб отримати більше інформації, відвідайте <a href='https://support.mozilla."
+"org'>Підтримку Mozilla</a>"
+
+#: templates/reset.txt:3
+msgid "Reset password:"
+msgstr "Відновити пароль:"
+
+#: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
+#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
+#: templates/password_reset.txt:4
+msgid "For more information, please visit https://support.mozilla.org"
+msgstr ""
+"Для отримання додаткової інформації, відвідайте https://support.mozilla.org"
+
+#: templates/unlock.html:2 templates/unlock.txt:1
+msgid ""
+"For security reasons your Firefox Account was put on lockdown. To perform "
+"account-level activities, please click the link to re-verify your account "
+"now."
+msgstr ""
+"З міркувань безпеки ваш обліковий запис Firefox був заблокований. Для "
+"проведення дій на рівні облікового запису необхідно повторно його "
+"підтвердити, перейшовши за посиланням."
+
+#: templates/unlock.html:3
+msgid "Verify account"
+msgstr "Підтвердити обліковий запис"
+
+#: templates/unlock.txt:2
+msgid "Verify account:"
+msgstr "Підтвердити обліковий запис:"
+
+#: templates/verify.html:2 templates/verify.txt:1
+msgid "Almost there"
+msgstr "Майже готово"
+
+#: templates/verify.html:3 templates/verify.txt:2
+msgid "%(email)s, you're one click away from verifying your Firefox Account."
+msgstr ""
+"%(email)s, залишився один крок до підтвердження вашого облікового запису "
+"Firefox."
+
+#: templates/verify.html:4
+msgid "Verify"
+msgstr "Підтвердити"
+
+#: templates/verify.txt:3
+msgid "Verify:"
+msgstr "Підтвердити:"
+
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "Підтвердити свій обліковий запис"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "Відновити свій пароль"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr "Повторно підтвердити свій обліковий запис"
+
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
-#: templates/unlock.html:2
 msgid "Account activity notice"
 msgstr "Сповіщення про активність облікового запису"
 
@@ -78,22 +218,12 @@ msgstr ""
 #: templates/new_sync_device.html:4
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
-"Account, you should change your password immediately at <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
+"Account, you should change your password immediately at <a href='%(resetLink)"
+"s'>%(resetLink)s</a>."
 msgstr ""
 "Це автоматичний електронний лист; якщо ви не додавали новий пристрій до "
 "свого облікового запису Firefox, вам необхідно негайно змінити свій пароль "
 "на <a href='%(resetLink)s'>%(resetLink)s</a>."
-
-#: templates/new_sync_device.html:5 templates/password_changed.html:5
-#: templates/password_reset.html:5 templates/reset.html:6
-#: templates/unlock.html:5
-msgid ""
-"For more information, please visit <a "
-"href='https://support.mozilla.org'>Mozilla Support</a>"
-msgstr ""
-"Щоб отримати більше інформації, відвідайте <a "
-"href='https://support.mozilla.org'>Підтримку Mozilla</a>"
 
 #: templates/new_sync_device.txt:3
 msgid ""
@@ -103,14 +233,6 @@ msgstr ""
 "Це автоматичний електронний лист; якщо ви не додавали новий пристрій до "
 "свого облікового запису Firefox, вам необхідно негайно змінити свій пароль "
 "на %(resetLink)s."
-
-#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
-#: templates/password_reset.txt:4 templates/post_verify.txt:5
-#: templates/reminder.txt:5 templates/reset.txt:5 templates/unlock.txt:4
-#: templates/verify.txt:5
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr ""
-"Для отримання додаткової інформації, відвідайте https://support.mozilla.org"
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
@@ -123,8 +245,8 @@ msgstr "Пароль вашого облікового запису Firefox бу
 #: templates/password_changed.html:4
 msgid ""
 "This is an automated email; if you didn't change the password to your "
-"Firefox Account, you should reset it immediately at <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
+"Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
+"%(resetLink)s</a>."
 msgstr ""
 "Це автоматичний електронний лист; якщо ви не змінювали пароль свого "
 "облікового запису Firefox, вам необхідно негайно відновити його на <a "
@@ -149,9 +271,9 @@ msgstr "Пароль вашого облікового запису Firefox бу
 
 #: templates/password_reset.html:4
 msgid ""
-"This is an automated email; if you didn't reset the password to your Firefox"
-" Account, you should reset it immediately at <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
+"This is an automated email; if you didn't reset the password to your Firefox "
+"Account, you should reset it immediately at <a href='%(resetLink)s'>"
+"%(resetLink)s</a>."
 msgstr ""
 "Це автоматичний електронний лист; якщо ви не відновлювали пароль свого "
 "облікового запису Firefox, вам необхідно негайно відновити його на <a "
@@ -159,300 +281,164 @@ msgstr ""
 
 #: templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox"
-" Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox "
+"Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 "Це автоматичний електронний лист; якщо ви не відновлювали пароль свого "
 "облікового запису Firefox, вам необхідно негайно відновити його на "
 "%(resetLink)s."
 
-#: templates/post_verify.txt:1 templates/post_verify.html:2
-msgid "Account verified!"
-msgstr "Обліковий запис підтверджено!"
-
-#: templates/post_verify.txt:2
-msgid ""
-"You successfully connected your first device to your Firefox Account. Now "
-"you can sign in to Sync from your other devices, including Firefox for "
-"Android and iOS."
-msgstr ""
-"Ви успішно підключили свій перший пристрій до облікового запису Firefox. "
-"Тепер ви можете увійти в Синхронізацію зі своїх інших пристроїв, включаючи "
-"Firefox для Android та iOS."
-
-#: templates/post_verify.txt:3
-msgid "Sign in to Sync:"
-msgstr "Увійти до Синхронізації:"
-
-#: templates/post_verify.txt:4 templates/reminder.txt:4 templates/reset.html:5
-#: templates/reset.txt:4 templates/unlock.html:4 templates/unlock.txt:3
-#: templates/verify.html:6 templates/verify.txt:4
-#: templates/new_sync_device.html:4 templates/password_changed.html:4
-#: templates/post_verify.html:6 templates/reminder.html:6
-#: templates/reset.html:6 templates/unlock.html:6
-#: templates/password_reset.html:4 templates/verification_reminder.html:6
-#: templates/verification_reminder.txt:4
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"Це автоматичне повідомлення; якщо ви отримали його помилково, не реагуйте на"
-" нього."
-
-#: templates/reminder.txt:1 templates/reminder.html:2
-#: templates/verification_reminder.html:2
-#: templates/verification_reminder.txt:1
-msgid "Hello again."
-msgstr "Вітаємо знову."
-
-#: templates/reminder.txt:2 templates/reminder.html:3
-#: templates/verification_reminder.html:3
-#: templates/verification_reminder.txt:2
-msgid ""
-"Recently you created a Firefox Account, but never verified it. Please "
-"activate your account by confirming this email address."
-msgstr ""
-"Недавно ви створили обліковий запис Firefox, але досі не засвідчили його. "
-"Активуйте свій обліковий запис, підтвердивши цю адресу електронної пошти."
-
-#: templates/reminder.txt:3 templates/verification_reminder.txt:3
-msgid "Activate Now:"
-msgstr "Активувати зараз:"
-
-#: templates/reset.html:2 templates/reset.txt:1
-msgid "Are you sure?"
-msgstr "Ви впевнені?"
-
-#: templates/reset.html:3 templates/reset.txt:2
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Підтвердіть, що ви бажаєте відновити пароль для %(email)s."
-
-#: templates/reset.html:4
-msgid "Reset password now"
-msgstr "Скинути пароль"
-
-#: templates/reset.txt:3
-msgid "Reset password now:"
-msgstr "Скинути пароль:"
-
-#: templates/unlock.html:2 templates/unlock.txt:1 templates/unlock.html:3
-msgid ""
-"For security reasons your Firefox Account was put on lockdown. To perform "
-"account-level activities, please click the link to re-verify your account "
-"now."
-msgstr ""
-"З міркувань безпеки ваш обліковий запис Firefox був заблокований. Для "
-"проведення дій на рівні облікового запису необхідно повторно його "
-"підтвердити, перейшовши за посиланням."
-
-#: templates/unlock.html:3 templates/unlock.html:4
-msgid "Verify account"
-msgstr "Підтвердити обліковий запис"
-
-#: templates/unlock.txt:2
-msgid "Verify account:"
-msgstr "Підтвердити обліковий запис:"
-
-#: templates/verify.html:1 templates/reminder.html:1
-#: templates/verification_reminder.html:1
-msgid "Firefox Account Activation"
-msgstr "Активація облікового запису Firefox"
-
-#: templates/verify.html:2 templates/verify.txt:1
-msgid "Welcome!"
-msgstr "Вітаємо!"
-
-#: templates/verify.html:3 templates/verify.txt:2
-msgid "Please activate your account by confirming this email address."
-msgstr ""
-"Будь ласка, активуйте свій обліковий запис, підтвердивши цю адресу "
-"електронної пошти."
-
-#: templates/verify.html:4 templates/reminder.html:4
-#: templates/verification_reminder.html:4
-msgid "Activate now"
-msgstr "Активувати"
-
-#: templates/verify.html:5 templates/post_verify.html:5
-#: templates/reminder.html:5 templates/reset.html:5 templates/unlock.html:5
-#: templates/verification_reminder.html:5
-msgid "Alternatively:"
-msgstr "Альтернативно:"
-
-#: templates/verify.html:7 templates/new_sync_device.html:5
-#: templates/password_changed.html:5 templates/post_verify.html:7
-#: templates/reminder.html:7 templates/reset.html:7 templates/unlock.html:7
-msgid ""
-"For more information, please visit <a href='https://support.mozilla.org' "
-"style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
-msgstr ""
-"Для отримання докладної інформації, відвідайте <a "
-"href='https://support.mozilla.org' style='color: #0095dd; text-decoration: "
-"none;'>Підтримку Mozilla</a>"
-
-#: templates/verify.html:8 templates/reminder.html:8
-#: templates/verification_reminder.html:8
-msgid "Verify Email"
-msgstr "Підтвердити адресу електронної пошти"
-
-#: templates/verify.html:9 templates/reminder.html:9
-#: templates/verification_reminder.html:9
-msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
-"Підтвердіть свою адресу електронної пошти для завершення реєстрації "
-"облікового запису Firefox"
-
-#: templates/verify.txt:3
-msgid "Activate now:"
-msgstr "Активувати:"
-
-#: mailer.js:115 mailer.js:118 mailer.js:298 mailer.js:119 mailer.js:306
-#: mailer.js:303 mailer.js:120 mailer.js:304
+#: mailer.js:82
 msgid "Verify your Firefox Account"
 msgstr "Підтвердити свій обліковий запис Firefox"
 
-#: mailer.js:145 mailer.js:148 mailer.js:150 mailer.js:151
+#: mailer.js:121
 msgid "Reset your Firefox Account password"
 msgstr "Відновити пароль свого облікового запису Firefox"
 
-#: mailer.js:176 mailer.js:179 mailer.js:182 mailer.js:183
+#: mailer.js:155
 msgid "Re-verify your Firefox Account"
 msgstr "Повторно підтвердити свій обліковий запис Firefox"
 
-#: mailer.js:199 mailer.js:202 mailer.js:206 mailer.js:207
+#: mailer.js:185
 msgid "Your Firefox Account password has been changed"
 msgstr "Пароль вашого облікового запису Firefox був змінений"
 
-#: mailer.js:218 mailer.js:221 mailer.js:226 mailer.js:227
+#: mailer.js:212
 msgid "Your Firefox Account password has been reset"
 msgstr "Пароль вашого облікового запису Firefox був відновлений"
 
-#: mailer.js:240 mailer.js:243
+#: mailer.js:239
 msgid "A new device is now syncing to your Firefox Account"
-msgstr ""
-"Новий пристрій тепер синхронізується з вашим обліковим записом Firefox"
+msgstr "Новий пристрій тепер синхронізується з вашим обліковим записом Firefox"
 
-#: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
-msgid ""
-"A device began syncing with the devices connected to your Firefox Account."
-msgstr ""
-"Пристрій почав синхронізацію з іншими пристроями, під'єднаними до вашого "
-"облікового запису Firefox."
-
-#: mailer.js:263 mailer.js:270 mailer.js:267 mailer.js:268
-msgid "Firefox Account Verified"
-msgstr "Обліковий запис Firefox підтверджено"
-
-#: templates/new_sync_device.html:5 templates/password_changed.html:5
-#: templates/password_reset.html:5 templates/post_verify.html:7
-#: templates/reminder.html:7 templates/reset.html:7 templates/unlock.html:7
-#: templates/verify.html:7 templates/verification_reminder.html:7
-msgid ""
-"For more information, please visit <a href='%(supportUrl)s' style='color: "
-"#0095dd; text-decoration: none;'>Mozilla Support</a>"
-msgstr ""
-"Для отримання додаткової інформації, відвідайте <a href='%(supportUrl)s' "
-"style='color: #0095dd; text-decoration: none;'>Підтримку Mozilla </a>"
-
-#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
-#: templates/password_reset.txt:4 templates/post_verify.txt:5
-#: templates/reminder.txt:5 templates/reset.txt:5 templates/unlock.txt:4
-#: templates/verify.txt:5 templates/verification_reminder.txt:5
-msgid "For more information, please visit %(supportUrl)s"
-msgstr "Для отримання додаткової інформації, відвідайте %(supportUrl)s"
-
-#: mailer.js:249 mailer.js:246 mailer.js:247
-msgid "New sign-in to Sync"
-msgstr "Новий вхід до Синхронізації"
-
-#~ msgid "Bad Request"
-#~ msgstr "Неправильний запит"
-
-#~ msgid "Page not found"
-#~ msgstr "Сторінку не знайдено"
+#~ msgid "Still there?"
+#~ msgstr "Досі там?"
 
 #~ msgid ""
-#~ "The page you requested is not found. We've been notified and will fix any "
-#~ "links that may be broken."
+#~ "A while ago you created a Firefox Account, but never verified it. Click "
+#~ "the link below to activate your account."
 #~ msgstr ""
-#~ "Запитану вами сторінку не знайдено. Ми отримали сповіщення і будемо "
-#~ "виправляти будь-які посилання, які можуть бути пошкоджені."
-
-#~ msgid "Home"
-#~ msgstr "Домівка"
-
-#~ msgid "500 Error"
-#~ msgstr "Помилка 500"
+#~ "Деякий час тому ви створили обліковий запис Firefox, але досі не "
+#~ "засвідчили його. Перейдіть за посиланням внизу для його активації."
 
 #~ msgid ""
-#~ "Oh dear, something went wrong there. We've been notified and will get "
-#~ "working on a fix."
+#~ "You successfully connected your first device to your Firefox Account. Now "
+#~ "you can sign in to Sync from your other devices, including Firefox for <a "
+#~ "href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "О ні, щось пішло не так. Ми отримали сповіщення і будемо працювати, щоб "
-#~ "виправити це."
-
-#~ msgid "502 Error"
-#~ msgstr "Помилка 502"
-
-#~ msgid "Server busy, try again soon"
-#~ msgstr "Сервер зайнятий, спробуйте знову пізніше"
+#~ "Ви успішно підключили свій перший пристрій до облікового запису Firefox. "
+#~ "Тепер ви можете увійти в Синхронізацію зі своїх інших пристроїв, "
+#~ "включаючи Firefox для <a href='%(androidUrl)s'>Android</a> та <a "
+#~ "href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
-#~ "We are currently under heavy strain and are working to return the system to "
-#~ "normal as soon as possible."
+#~ "You successfully connected your first device to your Firefox Account. To "
+#~ "make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
+#~ "Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
 #~ msgstr ""
-#~ "Зараз ми знаходимось під великим навантаженням і працюємо щоб якнайшвидше "
-#~ "повернути систему до нормального стану."
+#~ "Ви успішно підключили свій перший пристрій до облікового запису Firefox. "
+#~ "Щоб зробити синхронізацію повноцінною, під'єднайте будь-який пристрій з "
+#~ "Firefox для <a href='%(androidUrl)s'>Android</a> чи <a href='%(iosUrl)"
+#~ "s'>iOS</a>."
+
+#~ msgid "Connect another device"
+#~ msgstr "Під'єднати інший пристрій"
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "Увійти до Синхронізації"
+
+#~ msgid "Account verified!"
+#~ msgstr "Обліковий запис підтверджено!"
 
 #~ msgid ""
-#~ "You are using an <strong>outdated</strong> browser. Please <a "
-#~ "href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
-#~ "experience."
+#~ "You successfully connected your first device to your Firefox Account. Now "
+#~ "you can sign in to Sync from your other devices, including Firefox for "
+#~ "Android and iOS."
 #~ msgstr ""
-#~ "Ви використовуєте <strong>застарілий</strong> переглядач. Будь ласка, <a "
-#~ "href=\"http://browsehappy.com/\">оновіть свій переглядач</a> щоб покращити "
-#~ "роботу."
+#~ "Ви успішно підключили свій перший пристрій до облікового запису Firefox. "
+#~ "Тепер ви можете увійти в Синхронізацію зі своїх інших пристроїв, "
+#~ "включаючи Firefox для Android та iOS."
 
-#~ msgid "Firefox Accounts requires JavaScript."
-#~ msgstr "Для облікових записів Firefox необхідний JavaScript."
+#~ msgid "Sign in to Sync:"
+#~ msgstr "Увійти до Синхронізації:"
 
-#~ msgid "Privacy Notice"
-#~ msgstr "Повідомлення про приватність"
+#~ msgid "Hello again."
+#~ msgstr "Вітаємо знову."
 
-#~ msgid "Firefox cloud services"
-#~ msgstr "Хмарні сервіси Firefox"
-
-#~ msgid "Terms of Service"
-#~ msgstr "Умови надання послуг"
-
-#~ msgid "Reset password"
-#~ msgstr "Відновити пароль"
-
-#~ msgid "Reset password:"
-#~ msgstr "Відновити пароль:"
-
-#~ msgid "Almost there"
-#~ msgstr "Майже готово"
-
-#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgid ""
+#~ "Recently you created a Firefox Account, but never verified it. Please "
+#~ "activate your account by confirming this email address."
 #~ msgstr ""
-#~ "%(email)s, залишився один крок до підтвердження вашого облікового запису "
-#~ "Firefox."
+#~ "Недавно ви створили обліковий запис Firefox, але досі не засвідчили його. "
+#~ "Активуйте свій обліковий запис, підтвердивши цю адресу електронної пошти."
 
-#~ msgid "Verify"
-#~ msgstr "Підтвердити"
+#~ msgid "Activate Now:"
+#~ msgstr "Активувати зараз:"
 
-#~ msgid "Verify:"
-#~ msgstr "Підтвердити:"
+#~ msgid "Reset password now"
+#~ msgstr "Скинути пароль"
 
-#~ msgid "Verify your account"
-#~ msgstr "Підтвердити свій обліковий запис"
+#~ msgid "Reset password now:"
+#~ msgstr "Скинути пароль:"
 
-#~ msgid "Reset your password"
-#~ msgstr "Відновити свій пароль"
+#~ msgid "Firefox Account Activation"
+#~ msgstr "Активація облікового запису Firefox"
 
-#~ msgid "Re-verify your account"
-#~ msgstr "Повторно підтвердити свій обліковий запис"
+#~ msgid "Welcome!"
+#~ msgstr "Вітаємо!"
+
+#~ msgid "Please activate your account by confirming this email address."
+#~ msgstr ""
+#~ "Будь ласка, активуйте свій обліковий запис, підтвердивши цю адресу "
+#~ "електронної пошти."
+
+#~ msgid "Activate now"
+#~ msgstr "Активувати"
+
+#~ msgid "Alternatively:"
+#~ msgstr "Альтернативно:"
+
+#~ msgid ""
+#~ "For more information, please visit <a href='https://support.mozilla.org' "
+#~ "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
+#~ msgstr ""
+#~ "Для отримання докладної інформації, відвідайте <a href='https://support."
+#~ "mozilla.org' style='color: #0095dd; text-decoration: none;'>Підтримку "
+#~ "Mozilla</a>"
+
+#~ msgid "Verify Email"
+#~ msgstr "Підтвердити адресу електронної пошти"
+
+#~ msgid "Verify your email to finish your Firefox Account registration"
+#~ msgstr ""
+#~ "Підтвердіть свою адресу електронної пошти для завершення реєстрації "
+#~ "облікового запису Firefox"
+
+#~ msgid "Activate now:"
+#~ msgstr "Активувати:"
+
+#~ msgid ""
+#~ "A device began syncing with the devices connected to your Firefox Account."
+#~ msgstr ""
+#~ "Пристрій почав синхронізацію з іншими пристроями, під'єднаними до вашого "
+#~ "облікового запису Firefox."
+
+#~ msgid "Firefox Account Verified"
+#~ msgstr "Обліковий запис Firefox підтверджено"
+
+#~ msgid ""
+#~ "For more information, please visit <a href='%(supportUrl)s' style='color: "
+#~ "#0095dd; text-decoration: none;'>Mozilla Support</a>"
+#~ msgstr ""
+#~ "Для отримання додаткової інформації, відвідайте <a href='%(supportUrl)s' "
+#~ "style='color: #0095dd; text-decoration: none;'>Підтримку Mozilla </a>"
+
+#~ msgid "For more information, please visit %(supportUrl)s"
+#~ msgstr "Для отримання додаткової інформації, відвідайте %(supportUrl)s"
+
+#~ msgid "New sign-in to Sync"
+#~ msgstr "Новий вхід до Синхронізації"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Вітаємо!"
@@ -461,6 +447,6 @@ msgstr "Новий вхід до Синхронізації"
 #~ msgstr "Система недоступна, спробуйте знову пізніше"
 
 #~ msgid ""
-#~ "We are currently performing some maintenance on the system, and will return "
-#~ "momentarily."
+#~ "We are currently performing some maintenance on the system, and will "
+#~ "return momentarily."
 #~ msgstr "Ми вже виконуємо обслуговування системи і незабаром все повернемо."

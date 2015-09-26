@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-29 00:07+0000\n"
+"POT-Creation-Date: 2015-09-26 01:28+0000\n"
 "PO-Revision-Date: 2015-09-11 14:31+0000\n"
 "Last-Translator: Marko <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,59 +11,192 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1426152018.0\n"
 
-#: templates/_pending.txt:1
-msgid "Still there?"
-msgstr "Še vedno tu?"
-
-#: templates/_pending.txt:2
-msgid ""
-"A while ago you created a Firefox Account, but never verified it. Click the "
-"link below to activate your account."
-msgstr ""
-"Pred kratkim ste ustvarili Firefox Račun, ampak ga niste potrdili. Kliknite "
-"na spodnjo povezavo, da ga aktivirate."
-
-#: templates/_pending.txt:3 templates/post_verify.html:3
-msgid ""
-"You successfully connected your first device to your Firefox Account. Now "
-"you can sign in to Sync from your other devices, including Firefox for <a "
-"href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
-msgstr ""
-"Uspešno ste povezali svojo prvo napravo s Firefox Računom. Zdaj se lahko "
-"prijavite in jo sinhronizirate z vašimi drugimi napravami, med drugim s "
-"Firefoxom za <a href='%(androidUrl)s'>Android</a> in <a "
-"href='%(iosUrl)s'>iOS</a>."
-
-#: templates/_pending.txt:4
-msgid ""
-"You successfully connected your first device to your Firefox Account. To "
-"make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
-"Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
-msgstr ""
-"Uspešno ste povezali svojo prvo napravo s Firefox Računom. Da bi Sync "
-"izkoristili v polni meri, se povežite s <a href='%(androidUrl)s'>Firefoxom "
-"za Android</a> ali <a href='%(iosUrl)s'>Firefoxom za iOS</a>."
-
-#: templates/_pending.txt:5 templates/post_verify.html:4
-msgid "Connect another device"
-msgstr "Poveži drugo napravo"
-
-#: templates/_pending.txt:6
-msgid "Sign in to Sync"
-msgstr "Prijavite se za sinhronizacijo"
-
+#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
+#: server/templates/pages/src/503.html:1
+#: server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1
+#: server/templates/pages/src/terms.html:1 templates/reset.html:1
+#: templates/unlock.html:1 templates/verify.html:1
 #: templates/new_sync_device.html:1 templates/password_changed.html:1
-#: templates/password_reset.html:1 templates/reset.html:1
-#: templates/unlock.html:1 templates/post_verify.html:1
+#: templates/password_reset.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Računi"
 
+#: server/templates/pages/src/400.html:2
+msgid "Bad Request"
+msgstr "Napačna zahteva"
+
+#: server/templates/pages/src/404.html:2
+msgid "Page not found"
+msgstr "Strani ni mogoče najti"
+
+#: server/templates/pages/src/404.html:3
+msgid ""
+"The page you requested is not found. We've been notified and will fix any "
+"links that may be broken."
+msgstr ""
+"Zahtevane strani ni bilo mogoče najti. O tem smo obvestili skrbnike, ki bodo "
+"odpravili morebitne nedelujoče povezave."
+
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+msgid "Home"
+msgstr "Domov"
+
+#: server/templates/pages/src/500.html:2
+msgid "500 Error"
+msgstr "Napaka 500"
+
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+msgid ""
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
+msgstr "Joj, prišlo je do napake. Prejeli smo obvestilo in jo že odpravljamo."
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr "Napaka 502"
+
+#: server/templates/pages/src/503.html:2
+msgid "Server busy, try again soon"
+msgstr "Strežnik ni dosegljiv, poskusite znova pozneje"
+
+#: server/templates/pages/src/503.html:3
+msgid ""
+"We are currently under heavy strain and are working to return the system to "
+"normal as soon as possible."
+msgstr ""
+"Trenutno smo pod veliko obremenitvijo. V najkrajšem možnem času bomo sistem "
+"povrnili v običajno stanje."
+
+#: server/templates/pages/src/index.html:2
+#: server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/terms.html:3
+#: server/templates/pages/src/privacy.html:5
+#: server/templates/pages/src/terms.html:5
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+"Uporabljate <strong>zastarel</strong> brskalnik. <a href=\"http://"
+"browsehappy.com/\">Nadgradite ga</a> za boljšo uporabniško izkušnjo."
+
+#: server/templates/pages/src/index.html:3
+msgid "Firefox Accounts requires JavaScript."
+msgstr "Storitev Firefox Računi zahteva JavaScript."
+
+#: server/templates/pages/src/privacy.html:2
+#: server/templates/pages/src/privacy.html:5
+#: server/templates/pages/src/privacy.html:4
+msgid "Privacy Notice"
+msgstr "Obvestilo o zasebnosti"
+
+#: server/templates/pages/src/privacy.html:4
+#: server/templates/pages/src/terms.html:4
+#: server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/terms.html:3
+msgid "Firefox cloud services"
+msgstr "Storitve Firefox v oblaku"
+
+#: server/templates/pages/src/terms.html:2
+#: server/templates/pages/src/terms.html:5
+#: server/templates/pages/src/terms.html:4
+msgid "Terms of Service"
+msgstr "Pogoji uporabe"
+
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Are you sure?"
+msgstr "Ste prepričani?"
+
+#: templates/reset.html:3 templates/reset.txt:2
+msgid "Please confirm that you'd like to reset the password for %(email)s."
+msgstr "Potrdite, da želite ponastaviti geslo za %(email)s."
+
+#: templates/reset.html:4
+msgid "Reset password"
+msgstr "Ponastavi geslo"
+
+#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
+#: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"Sporočilo je bilo poslano samodejno. Če ste ga prejeli po pomoti, vam ni "
+"potrebno storiti ničesar."
+
+#: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
+#: templates/new_sync_device.html:5 templates/password_changed.html:5
+#: templates/password_reset.html:5
+msgid ""
+"For more information, please visit <a href='https://support.mozilla."
+"org'>Mozilla Support</a>"
+msgstr ""
+"Za več informacij obiščite <a href='https://support.mozilla.org'>strani s "
+"podporo</a>"
+
+#: templates/reset.txt:3
+msgid "Reset password:"
+msgstr "Ponastavi geslo:"
+
+#: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
+#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
+#: templates/password_reset.txt:4
+msgid "For more information, please visit https://support.mozilla.org"
+msgstr "Za več informacij obiščite https://support.mozilla.org"
+
+#: templates/unlock.html:2 templates/unlock.txt:1
+msgid ""
+"For security reasons your Firefox Account was put on lockdown. To perform "
+"account-level activities, please click the link to re-verify your account "
+"now."
+msgstr ""
+"Vaš Firefox Račun je bil iz varnostnih razlogov zaklenjen. Za nadaljevanje "
+"uporabe, kliknite na povezavo za ponovno potrditev računa."
+
+#: templates/unlock.html:3
+msgid "Verify account"
+msgstr "Potrdi račun"
+
+#: templates/unlock.txt:2
+msgid "Verify account:"
+msgstr "Potrditev računa"
+
+#: templates/verify.html:2 templates/verify.txt:1
+msgid "Almost there"
+msgstr "Še malo"
+
+#: templates/verify.html:3 templates/verify.txt:2
+msgid "%(email)s, you're one click away from verifying your Firefox Account."
+msgstr "%(email)s, samo še klik ste oddaljeni od potrditve Firefox Računa."
+
+#: templates/verify.html:4
+msgid "Verify"
+msgstr "Potrdi"
+
+#: templates/verify.txt:3
+msgid "Verify:"
+msgstr "Potrditev:"
+
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "Potrdite svoj račun"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "Ponastavite vaše geslo"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr "Ponovno potrdite račun"
+
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
-#: templates/unlock.html:2
 msgid "Account activity notice"
 msgstr "Obvestilo o dejavnosti računa"
 
@@ -78,21 +211,11 @@ msgstr ""
 #: templates/new_sync_device.html:4
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
-"Account, you should change your password immediately at <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
+"Account, you should change your password immediately at <a href='%(resetLink)"
+"s'>%(resetLink)s</a>."
 msgstr ""
 "To je samodejno sporočilo. Če niste dodali nove naprave v Firefox Račun, "
 "takoj spremenite geslo na <a href='%(resetLink)s'>%(resetLink)s</a>."
-
-#: templates/new_sync_device.html:5 templates/password_changed.html:5
-#: templates/password_reset.html:5 templates/reset.html:6
-#: templates/unlock.html:5
-msgid ""
-"For more information, please visit <a "
-"href='https://support.mozilla.org'>Mozilla Support</a>"
-msgstr ""
-"Za več informacij obiščite <a href='https://support.mozilla.org'>strani s "
-"podporo</a>"
 
 #: templates/new_sync_device.txt:3
 msgid ""
@@ -101,13 +224,6 @@ msgid ""
 msgstr ""
 "To je samodejno sporočilo. Če niste dodali nove naprave v Firefox Račun, "
 "takoj spremenite geslo na %(resetLink)s."
-
-#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
-#: templates/password_reset.txt:4 templates/post_verify.txt:5
-#: templates/reminder.txt:5 templates/reset.txt:5 templates/unlock.txt:4
-#: templates/verify.txt:5
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr "Za več informacij obiščite https://support.mozilla.org"
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
@@ -120,8 +236,8 @@ msgstr "Vaše geslo za Firefox Račun je bilo uspešno spremenjeno."
 #: templates/password_changed.html:4
 msgid ""
 "This is an automated email; if you didn't change the password to your "
-"Firefox Account, you should reset it immediately at <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
+"Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>"
+"%(resetLink)s</a>."
 msgstr ""
 "To je samodejno sporočilo. Če niste spremenili gesla za Firefox Račun, ga "
 "takoj ponastavite na <a href='%(resetLink)s'>%(resetLink)s</a>."
@@ -144,297 +260,166 @@ msgstr "Vaše geslo za Firefox Račun je bilo uspešno ponastavljeno."
 
 #: templates/password_reset.html:4
 msgid ""
-"This is an automated email; if you didn't reset the password to your Firefox"
-" Account, you should reset it immediately at <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
+"This is an automated email; if you didn't reset the password to your Firefox "
+"Account, you should reset it immediately at <a href='%(resetLink)s'>"
+"%(resetLink)s</a>."
 msgstr ""
 "To je samodejno sporočilo. Če niste ponastavili gesla za Firefox Račun, to "
 "storite takoj na <a href='%(resetLink)s'>%(resetLink)s</a>."
 
 #: templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox"
-" Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox "
+"Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 "To je samodejno sporočilo. Če niste ponastavili gesla za Firefox Račun, to "
 "storite takoj na %(resetLink)s."
 
-#: templates/post_verify.txt:1 templates/post_verify.html:2
-msgid "Account verified!"
-msgstr "Račun potrjen!"
-
-#: templates/post_verify.txt:2
-msgid ""
-"You successfully connected your first device to your Firefox Account. Now "
-"you can sign in to Sync from your other devices, including Firefox for "
-"Android and iOS."
-msgstr ""
-"Uspešno ste povezali vašo prvo napravo s Firefox Računom. Zdaj se lahko "
-"prijavite in jo sinhronizirate z vašimi drugimi napravami, med drugim s "
-"Firefoxom za Android in iOS."
-
-#: templates/post_verify.txt:3
-msgid "Sign in to Sync:"
-msgstr "Prijavite se za sinhronizacijo:"
-
-#: templates/post_verify.txt:4 templates/reminder.txt:4 templates/reset.html:5
-#: templates/reset.txt:4 templates/unlock.html:4 templates/unlock.txt:3
-#: templates/verify.html:6 templates/verify.txt:4
-#: templates/new_sync_device.html:4 templates/password_changed.html:4
-#: templates/post_verify.html:6 templates/reminder.html:6
-#: templates/reset.html:6 templates/unlock.html:6
-#: templates/password_reset.html:4 templates/verification_reminder.html:6
-#: templates/verification_reminder.txt:4
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"Sporočilo je bilo poslano samodejno. Če ste ga prejeli po pomoti, vam ni "
-"potrebno storiti ničesar."
-
-#: templates/reminder.txt:1 templates/reminder.html:2
-#: templates/verification_reminder.html:2
-#: templates/verification_reminder.txt:1
-msgid "Hello again."
-msgstr "Pozdravljeni še enkrat."
-
-#: templates/reminder.txt:2 templates/reminder.html:3
-#: templates/verification_reminder.html:3
-#: templates/verification_reminder.txt:2
-msgid ""
-"Recently you created a Firefox Account, but never verified it. Please "
-"activate your account by confirming this email address."
-msgstr ""
-"Pred kratkim ste ustvarili Firefox Račun, ampak ga niste potrdili. "
-"Aktivirajte ga s potrditvijo tega e-poštnega naslova."
-
-#: templates/reminder.txt:3 templates/verification_reminder.txt:3
-msgid "Activate Now:"
-msgstr "Aktiviraj zdaj:"
-
-#: templates/reset.html:2 templates/reset.txt:1
-msgid "Are you sure?"
-msgstr "Ste prepričani?"
-
-#: templates/reset.html:3 templates/reset.txt:2
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Potrdite, da želite ponastaviti geslo za %(email)s."
-
-#: templates/reset.html:4
-msgid "Reset password now"
-msgstr "Ponastavi geslo zdaj"
-
-#: templates/reset.txt:3
-msgid "Reset password now:"
-msgstr "Ponastavi geslo zdaj:"
-
-#: templates/unlock.html:2 templates/unlock.txt:1 templates/unlock.html:3
-msgid ""
-"For security reasons your Firefox Account was put on lockdown. To perform "
-"account-level activities, please click the link to re-verify your account "
-"now."
-msgstr ""
-"Vaš Firefox Račun je bil iz varnostnih razlogov zaklenjen. Za nadaljevanje "
-"uporabe, kliknite na povezavo za ponovno potrditev računa."
-
-#: templates/unlock.html:3 templates/unlock.html:4
-msgid "Verify account"
-msgstr "Potrdi račun"
-
-#: templates/unlock.txt:2
-msgid "Verify account:"
-msgstr "Potrditev računa"
-
-#: templates/verify.html:1 templates/reminder.html:1
-#: templates/verification_reminder.html:1
-msgid "Firefox Account Activation"
-msgstr "Aktivacija Firefox Računa"
-
-#: templates/verify.html:2 templates/verify.txt:1
-msgid "Welcome!"
-msgstr "Pozdravljeni!"
-
-#: templates/verify.html:3 templates/verify.txt:2
-msgid "Please activate your account by confirming this email address."
-msgstr "Aktivirajte svoj račun s potrditvijo tega e-poštnega naslova."
-
-#: templates/verify.html:4 templates/reminder.html:4
-#: templates/verification_reminder.html:4
-msgid "Activate now"
-msgstr "Aktiviraj zdaj"
-
-#: templates/verify.html:5 templates/post_verify.html:5
-#: templates/reminder.html:5 templates/reset.html:5 templates/unlock.html:5
-#: templates/verification_reminder.html:5
-msgid "Alternatively:"
-msgstr "Ali pa:"
-
-#: templates/verify.html:7 templates/new_sync_device.html:5
-#: templates/password_changed.html:5 templates/post_verify.html:7
-#: templates/reminder.html:7 templates/reset.html:7 templates/unlock.html:7
-msgid ""
-"For more information, please visit <a href='https://support.mozilla.org' "
-"style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
-msgstr ""
-"Za več informacij obiščite <a href='https://support.mozilla.org' "
-"style='color: #0095dd; text-decoration: none;'>Podporo Mozille</a>"
-
-#: templates/verify.html:8 templates/reminder.html:8
-#: templates/verification_reminder.html:8
-msgid "Verify Email"
-msgstr "Potrdi e-poštni naslov"
-
-#: templates/verify.html:9 templates/reminder.html:9
-#: templates/verification_reminder.html:9
-msgid "Verify your email to finish your Firefox Account registration"
-msgstr "Potrdite e-poštni naslov za dokončanje registracije Firefox Računa"
-
-#: templates/verify.txt:3
-msgid "Activate now:"
-msgstr "Aktiviraj zdaj:"
-
-#: mailer.js:115 mailer.js:118 mailer.js:298 mailer.js:119 mailer.js:306
-#: mailer.js:303 mailer.js:120 mailer.js:304
+#: mailer.js:82
 msgid "Verify your Firefox Account"
 msgstr "Potrdite svoj Firefox Račun"
 
-#: mailer.js:145 mailer.js:148 mailer.js:150 mailer.js:151
+#: mailer.js:121
 msgid "Reset your Firefox Account password"
 msgstr "Ponastavite svoje geslo za Firefox Račun"
 
-#: mailer.js:176 mailer.js:179 mailer.js:182 mailer.js:183
+#: mailer.js:155
 msgid "Re-verify your Firefox Account"
 msgstr "Ponovno potrdite svoj Firefox Račun"
 
-#: mailer.js:199 mailer.js:202 mailer.js:206 mailer.js:207
+#: mailer.js:185
 msgid "Your Firefox Account password has been changed"
 msgstr "Vaše geslo za Firefox Račun je bilo spremenjeno"
 
-#: mailer.js:218 mailer.js:221 mailer.js:226 mailer.js:227
+#: mailer.js:212
 msgid "Your Firefox Account password has been reset"
 msgstr "Vaše geslo za Firefox Račun je bilo ponastavljeno"
 
-#: mailer.js:240 mailer.js:243
+#: mailer.js:239
 msgid "A new device is now syncing to your Firefox Account"
 msgstr "Nova naprava se zdaj sinhronizira z vašim Firefox Računom"
 
-#: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
-msgid ""
-"A device began syncing with the devices connected to your Firefox Account."
-msgstr ""
-"Naprava se je začela sinhronizirati z napravami, ki so povezane z vašim "
-"Firefox Računom."
-
-#: mailer.js:263 mailer.js:270 mailer.js:267 mailer.js:268
-msgid "Firefox Account Verified"
-msgstr "Firefox Račun potrjen"
-
-#: templates/new_sync_device.html:5 templates/password_changed.html:5
-#: templates/password_reset.html:5 templates/post_verify.html:7
-#: templates/reminder.html:7 templates/reset.html:7 templates/unlock.html:7
-#: templates/verify.html:7 templates/verification_reminder.html:7
-msgid ""
-"For more information, please visit <a href='%(supportUrl)s' style='color: "
-"#0095dd; text-decoration: none;'>Mozilla Support</a>"
-msgstr ""
-"Za več informacij obiščite <a href='%(supportUrl)s' style='color: #0095dd; "
-"text-decoration: none;'>Mozillino podporo</a>"
-
-#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
-#: templates/password_reset.txt:4 templates/post_verify.txt:5
-#: templates/reminder.txt:5 templates/reset.txt:5 templates/unlock.txt:4
-#: templates/verify.txt:5 templates/verification_reminder.txt:5
-msgid "For more information, please visit %(supportUrl)s"
-msgstr "Za več informacij obiščite %(supportUrl)s"
-
-#: mailer.js:249 mailer.js:246 mailer.js:247
-msgid "New sign-in to Sync"
-msgstr "Nova prijava v Sync"
-
-#~ msgid "Bad Request"
-#~ msgstr "Napačna zahteva"
-
-#~ msgid "Page not found"
-#~ msgstr "Strani ni mogoče najti"
+#~ msgid "Still there?"
+#~ msgstr "Še vedno tu?"
 
 #~ msgid ""
-#~ "The page you requested is not found. We've been notified and will fix any "
-#~ "links that may be broken."
+#~ "A while ago you created a Firefox Account, but never verified it. Click "
+#~ "the link below to activate your account."
 #~ msgstr ""
-#~ "Zahtevane strani ni bilo mogoče najti. O tem smo obvestili skrbnike, ki bodo"
-#~ " odpravili morebitne nedelujoče povezave."
-
-#~ msgid "Home"
-#~ msgstr "Domov"
-
-#~ msgid "500 Error"
-#~ msgstr "Napaka 500"
+#~ "Pred kratkim ste ustvarili Firefox Račun, ampak ga niste potrdili. "
+#~ "Kliknite na spodnjo povezavo, da ga aktivirate."
 
 #~ msgid ""
-#~ "Oh dear, something went wrong there. We've been notified and will get "
-#~ "working on a fix."
-#~ msgstr "Joj, prišlo je do napake. Prejeli smo obvestilo in jo že odpravljamo."
-
-#~ msgid "502 Error"
-#~ msgstr "Napaka 502"
-
-#~ msgid "Server busy, try again soon"
-#~ msgstr "Strežnik ni dosegljiv, poskusite znova pozneje"
-
-#~ msgid ""
-#~ "We are currently under heavy strain and are working to return the system to "
-#~ "normal as soon as possible."
+#~ "You successfully connected your first device to your Firefox Account. Now "
+#~ "you can sign in to Sync from your other devices, including Firefox for <a "
+#~ "href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "Trenutno smo pod veliko obremenitvijo. V najkrajšem možnem času bomo sistem "
-#~ "povrnili v običajno stanje."
+#~ "Uspešno ste povezali svojo prvo napravo s Firefox Računom. Zdaj se lahko "
+#~ "prijavite in jo sinhronizirate z vašimi drugimi napravami, med drugim s "
+#~ "Firefoxom za <a href='%(androidUrl)s'>Android</a> in <a href='%(iosUrl)"
+#~ "s'>iOS</a>."
 
 #~ msgid ""
-#~ "You are using an <strong>outdated</strong> browser. Please <a "
-#~ "href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
-#~ "experience."
+#~ "You successfully connected your first device to your Firefox Account. To "
+#~ "make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
+#~ "Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
 #~ msgstr ""
-#~ "Uporabljate <strong>zastarel</strong> brskalnik. <a "
-#~ "href=\"http://browsehappy.com/\">Nadgradite ga</a> za boljšo uporabniško "
-#~ "izkušnjo."
+#~ "Uspešno ste povezali svojo prvo napravo s Firefox Računom. Da bi Sync "
+#~ "izkoristili v polni meri, se povežite s <a href='%(androidUrl)"
+#~ "s'>Firefoxom za Android</a> ali <a href='%(iosUrl)s'>Firefoxom za iOS</a>."
 
-#~ msgid "Firefox Accounts requires JavaScript."
-#~ msgstr "Storitev Firefox Računi zahteva JavaScript."
+#~ msgid "Connect another device"
+#~ msgstr "Poveži drugo napravo"
 
-#~ msgid "Privacy Notice"
-#~ msgstr "Obvestilo o zasebnosti"
+#~ msgid "Sign in to Sync"
+#~ msgstr "Prijavite se za sinhronizacijo"
 
-#~ msgid "Firefox cloud services"
-#~ msgstr "Storitve Firefox v oblaku"
+#~ msgid "Account verified!"
+#~ msgstr "Račun potrjen!"
 
-#~ msgid "Terms of Service"
-#~ msgstr "Pogoji uporabe"
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now "
+#~ "you can sign in to Sync from your other devices, including Firefox for "
+#~ "Android and iOS."
+#~ msgstr ""
+#~ "Uspešno ste povezali vašo prvo napravo s Firefox Računom. Zdaj se lahko "
+#~ "prijavite in jo sinhronizirate z vašimi drugimi napravami, med drugim s "
+#~ "Firefoxom za Android in iOS."
 
-#~ msgid "Reset password"
-#~ msgstr "Ponastavi geslo"
+#~ msgid "Sign in to Sync:"
+#~ msgstr "Prijavite se za sinhronizacijo:"
 
-#~ msgid "Reset password:"
-#~ msgstr "Ponastavi geslo:"
+#~ msgid "Hello again."
+#~ msgstr "Pozdravljeni še enkrat."
 
-#~ msgid "Almost there"
-#~ msgstr "Še malo"
+#~ msgid ""
+#~ "Recently you created a Firefox Account, but never verified it. Please "
+#~ "activate your account by confirming this email address."
+#~ msgstr ""
+#~ "Pred kratkim ste ustvarili Firefox Račun, ampak ga niste potrdili. "
+#~ "Aktivirajte ga s potrditvijo tega e-poštnega naslova."
 
-#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
-#~ msgstr "%(email)s, samo še klik ste oddaljeni od potrditve Firefox Računa."
+#~ msgid "Activate Now:"
+#~ msgstr "Aktiviraj zdaj:"
 
-#~ msgid "Verify"
-#~ msgstr "Potrdi"
+#~ msgid "Reset password now"
+#~ msgstr "Ponastavi geslo zdaj"
 
-#~ msgid "Verify:"
-#~ msgstr "Potrditev:"
+#~ msgid "Reset password now:"
+#~ msgstr "Ponastavi geslo zdaj:"
 
-#~ msgid "Verify your account"
-#~ msgstr "Potrdite svoj račun"
+#~ msgid "Firefox Account Activation"
+#~ msgstr "Aktivacija Firefox Računa"
 
-#~ msgid "Reset your password"
-#~ msgstr "Ponastavite vaše geslo"
+#~ msgid "Welcome!"
+#~ msgstr "Pozdravljeni!"
 
-#~ msgid "Re-verify your account"
-#~ msgstr "Ponovno potrdite račun"
+#~ msgid "Please activate your account by confirming this email address."
+#~ msgstr "Aktivirajte svoj račun s potrditvijo tega e-poštnega naslova."
+
+#~ msgid "Activate now"
+#~ msgstr "Aktiviraj zdaj"
+
+#~ msgid "Alternatively:"
+#~ msgstr "Ali pa:"
+
+#~ msgid ""
+#~ "For more information, please visit <a href='https://support.mozilla.org' "
+#~ "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
+#~ msgstr ""
+#~ "Za več informacij obiščite <a href='https://support.mozilla.org' "
+#~ "style='color: #0095dd; text-decoration: none;'>Podporo Mozille</a>"
+
+#~ msgid "Verify Email"
+#~ msgstr "Potrdi e-poštni naslov"
+
+#~ msgid "Verify your email to finish your Firefox Account registration"
+#~ msgstr "Potrdite e-poštni naslov za dokončanje registracije Firefox Računa"
+
+#~ msgid "Activate now:"
+#~ msgstr "Aktiviraj zdaj:"
+
+#~ msgid ""
+#~ "A device began syncing with the devices connected to your Firefox Account."
+#~ msgstr ""
+#~ "Naprava se je začela sinhronizirati z napravami, ki so povezane z vašim "
+#~ "Firefox Računom."
+
+#~ msgid "Firefox Account Verified"
+#~ msgstr "Firefox Račun potrjen"
+
+#~ msgid ""
+#~ "For more information, please visit <a href='%(supportUrl)s' style='color: "
+#~ "#0095dd; text-decoration: none;'>Mozilla Support</a>"
+#~ msgstr ""
+#~ "Za več informacij obiščite <a href='%(supportUrl)s' style='color: "
+#~ "#0095dd; text-decoration: none;'>Mozillino podporo</a>"
+
+#~ msgid "For more information, please visit %(supportUrl)s"
+#~ msgstr "Za več informacij obiščite %(supportUrl)s"
+
+#~ msgid "New sign-in to Sync"
+#~ msgstr "Nova prijava v Sync"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Čestitke!"
@@ -443,6 +428,6 @@ msgstr "Nova prijava v Sync"
 #~ msgstr "Sistem ni dosegljiv, poskusite znova pozneje"
 
 #~ msgid ""
-#~ "We are currently performing some maintenance on the system, and will return "
-#~ "momentarily."
+#~ "We are currently performing some maintenance on the system, and will "
+#~ "return momentarily."
 #~ msgstr "Trenutno potekajo vzdrževalna dela na sistemu. Kmalu bomo nazaj."
