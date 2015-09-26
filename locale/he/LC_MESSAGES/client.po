@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -139,8 +139,7 @@ msgid "Display name updated"
 msgstr ""
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 
 #: app/scripts/lib/auth-errors.js:18 app/scripts/lib/config-loader.js:82
@@ -414,9 +413,10 @@ msgstr "Firefox Accounts"
 
 #: app/scripts/lib/strings.js:19
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:23
@@ -593,8 +593,8 @@ msgstr "הודעת דוא״ל להסרת הנעילה נשלחה"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification"
+" link sent to %(email)s"
 msgstr ""
 
 #: app/scripts/templates/confirm_account_unlock.mustache:5
@@ -667,9 +667,9 @@ msgstr "ססמתך נשכחה?"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:15
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
@@ -1071,13 +1071,13 @@ msgstr ""
 #~ msgstr "כבר יש ברשותך חשבון? נא להתחבר אליו."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">Privacy Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
+#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+#~ "Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "עם ההמשך אני מאשר את <a id=\"fxa-tos\" href=\"/legal/terms\">תנאי השירות</"
-#~ "a>ו <a id=\"fxa-pp\" href=\"/legal/privacy\">הצהרת הפרטיות</a> של Firefox "
-#~ "cloud services."
+#~ "עם ההמשך אני מאשר את <a id=\"fxa-tos\" href=\"/legal/terms\">תנאי "
+#~ "השירות</a>ו <a id=\"fxa-pp\" href=\"/legal/privacy\">הצהרת הפרטיות</a> של "
+#~ "Firefox cloud services."
 
 #~ msgid "Password changed"
 #~ msgstr "הססמה שונתה"
