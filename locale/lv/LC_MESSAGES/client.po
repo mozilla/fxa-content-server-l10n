@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-26 18:54+0000\n"
+"POT-Creation-Date: 2015-09-26 01:28+0000\n"
 "PO-Revision-Date: 2015-09-12 13:27+0000\n"
 "Last-Translator: Jānis Marks Gailis - Jean-Marc <jm-gailis@fai-vianet.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,7 +11,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
 "X-Generator: Pontoon\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
@@ -83,8 +84,8 @@ msgid "2007"
 msgstr "2007"
 
 #: app/scripts/views/complete_reset_password.js:135
-#: app/scripts/views/complete_sign_up.js:102 app/scripts/views/confirm.js:91
-#: app/scripts/views/confirm_reset_password.js:173
+#: app/scripts/views/complete_sign_up.js:104 app/scripts/views/confirm.js:110
+#: app/scripts/views/confirm_reset_password.js:172
 msgid "Account verified successfully"
 msgstr "Konts veiksmīgi pārbaudīts"
 
@@ -92,53 +93,54 @@ msgstr "Konts veiksmīgi pārbaudīts"
 msgid "Account unlocked, please try again"
 msgstr "Konts tika atbloķēts, lūdzu mēģiniet vēlreiz"
 
-#: app/scripts/views/confirm_reset_password.js:161
+#: app/scripts/views/confirm_reset_password.js:159
 #: app/scripts/templates/ready.mustache:3
 msgid "Password reset"
 msgstr "Paroles atstatīšana"
 
-#: app/scripts/views/confirm_reset_password.js:189
+#: app/scripts/views/confirm_reset_password.js:191
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Parole tika veiksmīgi atstatīta. Ieiet lai turpinātu."
 
-#: app/scripts/views/reset_password.js:82 app/scripts/views/sign_in.js:190
+#: app/scripts/views/reset_password.js:82 app/scripts/views/sign_in.js:195
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Nezināms konts. <a href=\"/signup\">Reģistrējieties</a>"
 
-#: app/scripts/views/settings.js:194
+#: app/scripts/views/settings.js:192
 msgid "Signed out successfully"
 msgstr "Veiksmīgi izgājis"
 
-#: app/scripts/views/sign_up.js:384
+#: app/scripts/views/sign_up.js:382
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Konts jau pastāv. <a href=\"/signin\">Ieiet</a>"
 
-#: app/scripts/views/settings/avatar_gravatar.js:91
+#: app/scripts/views/settings/avatar_gravatar.js:90
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr ""
 
-#: app/scripts/views/settings/change_password.js:61
+#: app/scripts/views/settings/change_password.js:57
 msgid "Password changed successfully"
 msgstr "Parole tika veiksmīgi nomainīta"
 
-#: app/scripts/views/settings/communication_preferences.js:96
+#: app/scripts/views/settings/communication_preferences.js:94
 msgid "Subscribed successfully"
 msgstr ""
 
-#: app/scripts/views/settings/communication_preferences.js:97
+#: app/scripts/views/settings/communication_preferences.js:95
 msgid "Unsubscribed successfully"
 msgstr ""
 
-#: app/scripts/views/settings/delete_account.js:59
+#: app/scripts/views/settings/delete_account.js:58
 msgid "Account deleted successfully"
 msgstr "Konts tika veiksmīgi izdzēsts"
 
-#: app/scripts/views/settings/display_name.js:53
+#: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
 msgstr ""
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
-msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "Konts ir bloķēts. <a href=\"/confirm_account_unlock\">Sūtīt atbloķēšanas "
 "epastu</a>"
@@ -272,7 +274,7 @@ msgstr "Jūsu jaunajai parolei ir jāatšķiras"
 #: app/scripts/lib/auth-errors.js:143
 #: app/scripts/templates/complete_reset_password.mustache:16
 #: app/scripts/templates/sign_up.mustache:14
-#: app/scripts/templates/settings/change_password.mustache:10
+#: app/scripts/templates/settings/change_password.mustache:11
 msgid "Must be at least 8 characters"
 msgstr "Jābūt vismaz 8 rakstzīmes garai"
 
@@ -344,7 +346,7 @@ msgstr ""
 msgid "Signup has been disabled"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:231 app/scripts/lib/strings.js:36
+#: app/scripts/lib/auth-errors.js:231
 msgid "Age is required"
 msgstr "Vecums ir nepieciešams"
 
@@ -352,7 +354,7 @@ msgstr "Vecums ir nepieciešams"
 msgid "No Gravatar found"
 msgstr ""
 
-#: app/scripts/lib/mailcheck.js:57
+#: app/scripts/lib/mailcheck.js:62
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr ""
 
@@ -394,8 +396,7 @@ msgstr "Aizliegts"
 
 #: app/scripts/lib/oauth-errors.js:86
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
-"Kaut kas nogāja greizi. Lūdzu, aizveriet šo cilni un mēģiniet vēlreiz."
+msgstr "Kaut kas nogāja greizi. Lūdzu, aizveriet šo cilni un mēģiniet vēlreiz."
 
 #: app/scripts/lib/oauth-errors.js:106
 msgid "Missing OAuth parameter: %(param)s"
@@ -415,48 +416,54 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:19
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:23
-msgid "Edit profile"
-msgstr "Rediģēt profilu"
-
-#: app/scripts/lib/strings.js:24
-msgid "Name"
-msgstr "Vārds"
-
-#: app/scripts/lib/strings.js:27
 msgid "Bookmarks"
 msgstr "Grāmatzīmes"
 
-#: app/scripts/lib/strings.js:28
+#: app/scripts/lib/strings.js:24
 msgid "History"
 msgstr "Vēsture"
 
-#: app/scripts/lib/strings.js:29
+#: app/scripts/lib/strings.js:25
 msgid "Tabs"
 msgstr "Cilnes"
 
-#: app/scripts/lib/strings.js:30
+#: app/scripts/lib/strings.js:26
 msgid "Passwords"
 msgstr "Paroles"
 
-#: app/scripts/lib/strings.js:31
+#: app/scripts/lib/strings.js:27
 msgid "Desktop Add-ons"
 msgstr ""
 
-#: app/scripts/lib/strings.js:32
+#: app/scripts/lib/strings.js:28
 msgid "Desktop Preferences"
 msgstr ""
 
+#: app/scripts/lib/strings.js:31
+msgid "Welcome back"
+msgstr ""
+
+#: app/scripts/lib/strings.js:32
+msgid "Welcome to Sync"
+msgstr ""
+
+#: app/scripts/lib/strings.js:33
+msgid "Firefox Sync will begin momentarily"
+msgstr ""
+
+#: app/scripts/lib/strings.js:34
+msgid "Firefox Sync will resume momentarily"
+msgstr ""
+
 #: app/scripts/lib/strings.js:35
-#: app/scripts/templates/partial/coppa-age-input.mustache:1
-msgid "How old are you?"
-msgstr "Kāds ir jūsu vecums?"
+msgid "Sync preferences"
+msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -521,7 +528,7 @@ msgid "Reset password"
 msgstr "Atstatīt paroli"
 
 #: app/scripts/templates/complete_reset_password.mustache:10
-#: app/scripts/templates/settings/change_password.mustache:7
+#: app/scripts/templates/settings/change_password.mustache:8
 msgid "New password"
 msgstr "Jauna parole"
 
@@ -532,7 +539,7 @@ msgstr "Jauna parole"
 #: app/scripts/templates/sign_in.mustache:23
 #: app/scripts/templates/sign_up.mustache:13
 #: app/scripts/templates/settings/change_password.mustache:6
-#: app/scripts/templates/settings/change_password.mustache:9
+#: app/scripts/templates/settings/change_password.mustache:10
 #: app/scripts/templates/settings/delete_account.mustache:5
 msgid "Show"
 msgstr "Parādīt"
@@ -572,6 +579,10 @@ msgid "A verification link has been sent&nbsp;to %(email)s"
 msgstr ""
 
 #: app/scripts/templates/confirm.mustache:5
+msgid "Open Gmail"
+msgstr ""
+
+#: app/scripts/templates/confirm.mustache:7
 #: app/scripts/templates/confirm_account_unlock.mustache:6
 #: app/scripts/templates/confirm_reset_password.mustache:8
 msgid "Resend email"
@@ -584,8 +595,8 @@ msgstr "Atbloķēšanas epasts ir aizsūtīts"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification"
-" link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
 msgstr ""
 
 #: app/scripts/templates/confirm_account_unlock.mustache:5
@@ -650,6 +661,7 @@ msgstr "Parole"
 #: app/scripts/templates/sign_in.mustache:12
 #: app/scripts/templates/sign_in.mustache:25
 #: app/scripts/templates/sign_in.mustache:27
+#: app/scripts/templates/settings/change_password.mustache:7
 msgid "Forgot password?"
 msgstr "Aizmirsāt paroli?"
 
@@ -657,9 +669,9 @@ msgstr "Aizmirsāt paroli?"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:15
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
@@ -743,7 +755,7 @@ msgstr "Piekrist"
 #: app/scripts/templates/settings/avatar_camera.mustache:2
 #: app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3
-#: app/scripts/templates/settings/change_password.mustache:12
+#: app/scripts/templates/settings/change_password.mustache:13
 #: app/scripts/templates/settings/communication_preferences.mustache:3
 #: app/scripts/templates/settings/communication_preferences.mustache:11
 #: app/scripts/templates/settings/delete_account.mustache:7
@@ -835,15 +847,16 @@ msgstr ""
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr ""
 
-#: app/scripts/templates/sign_up.mustache:18
-msgid "Sign up"
-msgstr ""
-
-#: app/scripts/templates/sign_up.mustache:20
+#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
 msgstr ""
 
-#: app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/sign_up.mustache:21
+msgid "Sign up"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:25
 msgid "Have an account? Sign in."
 msgstr ""
 
@@ -858,7 +871,7 @@ msgstr ""
 #: app/scripts/templates/settings/avatar.mustache:2
 #: app/scripts/templates/settings/avatar_crop.mustache:2
 #: app/scripts/templates/settings/change_password.mustache:2
-#: app/scripts/templates/settings/change_password.mustache:11
+#: app/scripts/templates/settings/change_password.mustache:12
 #: app/scripts/templates/settings/communication_preferences.mustache:2
 #: app/scripts/templates/settings/display_name.mustache:3
 #: app/scripts/templates/settings/display_name.mustache:6
@@ -952,6 +965,10 @@ msgid ""
 "account."
 msgstr ""
 
+#: app/scripts/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you?"
+msgstr "Kāds ir jūsu vecums?"
+
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2
 msgid "Year of birth"
 msgstr ""
@@ -1015,3 +1032,27 @@ msgstr "Decembris"
 #: app/scripts/templates/partial/coppa-date-picker.mustache:34
 msgid "Day"
 msgstr "Diena"
+
+#: app/scripts/templates/openid/start.mustache:1
+msgid "Sign in to Sync"
+msgstr ""
+
+#: app/scripts/templates/openid/start.mustache:2
+msgid ""
+"Choose the account you would like to use to sync your tabs, bookmarks, "
+"passwords and more."
+msgstr ""
+
+#: app/scripts/templates/openid/start.mustache:3
+msgid "Use OpenID"
+msgstr ""
+
+#: app/scripts/templates/openid/start.mustache:4
+msgid "Use Firefox Account"
+msgstr ""
+
+#~ msgid "Edit profile"
+#~ msgstr "Rediģēt profilu"
+
+#~ msgid "Name"
+#~ msgstr "Vārds"

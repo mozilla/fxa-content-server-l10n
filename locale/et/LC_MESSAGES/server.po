@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-29 00:07+0000\n"
+"POT-Creation-Date: 2015-09-26 01:28+0000\n"
 "PO-Revision-Date: 2015-09-23 20:12+0000\n"
 "Last-Translator: Merike <merike.sell@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,54 +14,189 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1443039153.0\n"
 
-#: templates/_pending.txt:1
-msgid "Still there?"
-msgstr "Kas oled veel seal?"
-
-#: templates/_pending.txt:2
-msgid ""
-"A while ago you created a Firefox Account, but never verified it. Click the "
-"link below to activate your account."
-msgstr ""
-"Registreerisid mõne aja eest Firefoxi konto, kuid ei verifitseerinud seda. "
-"Konto aktiveerimiseks klõpsa allolevale lingile."
-
-#: templates/_pending.txt:3 templates/post_verify.html:3
-msgid ""
-"You successfully connected your first device to your Firefox Account. Now "
-"you can sign in to Sync from your other devices, including Firefox for <a "
-"href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
-msgstr ""
-"Oled esimese seadme edukalt Firefoxi kontoga sidunud. Nüüd võid Synci sisse "
-"logida ka teistest enda seadmetest, kaasa arvatud Firefoxist <a href='%"
-"(androidUrl)s'>Androidile</a> ja <a href='%(iosUrl)s'>iOS-ile</a>."
-
-#: templates/_pending.txt:4
-msgid ""
-"You successfully connected your first device to your Firefox Account. To "
-"make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
-"Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
-msgstr ""
-"Oled esimese seadme edukalt Firefoxi kontoga sidunud. Syncist parima "
-"võtmiseks ühenda mõni seade, millel on Firefox <a href='%"
-"(androidUrl)s'>Androidile</a> või <a href='%(iosUrl)s'>iOS-ile</a>."
-
-#: templates/_pending.txt:5 templates/post_verify.html:4
-msgid "Connect another device"
-msgstr "Ühenda teine seade"
-
-#: templates/_pending.txt:6
-msgid "Sign in to Sync"
-msgstr "Logi Synci sisse"
-
+#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
+#: server/templates/pages/src/503.html:1
+#: server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1
+#: server/templates/pages/src/terms.html:1 templates/reset.html:1
+#: templates/unlock.html:1 templates/verify.html:1
 #: templates/new_sync_device.html:1 templates/password_changed.html:1
-#: templates/password_reset.html:1 templates/reset.html:1
-#: templates/unlock.html:1 templates/post_verify.html:1
+#: templates/password_reset.html:1
 msgid "Firefox Accounts"
 msgstr "Firefoxi kontod"
 
+#: server/templates/pages/src/400.html:2
+msgid "Bad Request"
+msgstr "Vigane päring"
+
+#: server/templates/pages/src/404.html:2
+msgid "Page not found"
+msgstr "Lehte ei leitud"
+
+#: server/templates/pages/src/404.html:3
+msgid ""
+"The page you requested is not found. We've been notified and will fix any "
+"links that may be broken."
+msgstr ""
+"Soovitud lehte ei leitud. Saime selle kohta teavituse ning parandame "
+"võimalikud vigased lingid."
+
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+msgid "Home"
+msgstr "Avalehele"
+
+#: server/templates/pages/src/500.html:2
+msgid "500 Error"
+msgstr "Viga 500"
+
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+msgid ""
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
+msgstr ""
+"Heldeke! Midagi läks nüüd küll valesti. Oleme juhtunust teadlikud ja "
+"parandame vea ära."
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr "Viga 502"
+
+#: server/templates/pages/src/503.html:2
+msgid "Server busy, try again soon"
+msgstr "Server on hõivatud, proovi mõne aja pärast uuesti"
+
+#: server/templates/pages/src/503.html:3
+msgid ""
+"We are currently under heavy strain and are working to return the system to "
+"normal as soon as possible."
+msgstr ""
+"Süsteem on hetkel suure koormuse all ja me töötame selle kallal, et taastada "
+"normaalne olukord võimalikult ruttu."
+
+#: server/templates/pages/src/index.html:2
+#: server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/terms.html:3
+#: server/templates/pages/src/privacy.html:5
+#: server/templates/pages/src/terms.html:5
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+"Sa kasutad <strong>iganenud</strong> brauserit. Kogemuse parandamiseks <a "
+"href=\"http://browsehappy.com/\">uuenda palun oma brauserit</a>."
+
+#: server/templates/pages/src/index.html:3
+msgid "Firefox Accounts requires JavaScript."
+msgstr "Firefoxi kontod nõuavad, et JavaScript oleks lubatud."
+
+#: server/templates/pages/src/privacy.html:2
+#: server/templates/pages/src/privacy.html:5
+#: server/templates/pages/src/privacy.html:4
+msgid "Privacy Notice"
+msgstr "Privaatsusreeglid"
+
+#: server/templates/pages/src/privacy.html:4
+#: server/templates/pages/src/terms.html:4
+#: server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/terms.html:3
+msgid "Firefox cloud services"
+msgstr "Firefoxi pilveteenused"
+
+#: server/templates/pages/src/terms.html:2
+#: server/templates/pages/src/terms.html:5
+#: server/templates/pages/src/terms.html:4
+msgid "Terms of Service"
+msgstr "Teenuste tingimused"
+
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Are you sure?"
+msgstr "Kas oled ikka kindel?"
+
+#: templates/reset.html:3 templates/reset.txt:2
+msgid "Please confirm that you'd like to reset the password for %(email)s."
+msgstr "Palun kinnita, et soovid lähtestada konto %(email)s parooli."
+
+#: templates/reset.html:4
+msgid "Reset password"
+msgstr "Lähtesta parool"
+
+#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
+#: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"See e-kiri on saadetud automaatselt. Kui sa ei tellinud seda, siis ei ole "
+"sul vaja midagi teha."
+
+#: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
+#: templates/new_sync_device.html:5 templates/password_changed.html:5
+#: templates/password_reset.html:5
+msgid ""
+"For more information, please visit <a href='https://support.mozilla."
+"org'>Mozilla Support</a>"
+msgstr ""
+"Rohkema teabe saamiseks külasta <a href='https://support.mozilla."
+"org'>Mozilla tugiveebi</a>"
+
+#: templates/reset.txt:3
+msgid "Reset password:"
+msgstr "Parooli lähtestamiseks klõpsa järgneval lingil:"
+
+#: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
+#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
+#: templates/password_reset.txt:4
+msgid "For more information, please visit https://support.mozilla.org"
+msgstr "Rohkema teabe saamiseks külasta https://support.mozilla.org"
+
+#: templates/unlock.html:2 templates/unlock.txt:1
+msgid ""
+"For security reasons your Firefox Account was put on lockdown. To perform "
+"account-level activities, please click the link to re-verify your account "
+"now."
+msgstr ""
+"Turvakaalutlustel on sinu konto lukustatud. Kui soovid kontoga seotud "
+"tegevusi teha, siis klõpsa palun konto kinnitamise lingil."
+
+#: templates/unlock.html:3
+msgid "Verify account"
+msgstr "Kinnita konto"
+
+#: templates/unlock.txt:2
+msgid "Verify account:"
+msgstr "Konto kinnitamine:"
+
+#: templates/verify.html:2 templates/verify.txt:1
+msgid "Almost there"
+msgstr "Peaaegu valmis"
+
+#: templates/verify.html:3 templates/verify.txt:2
+msgid "%(email)s, you're one click away from verifying your Firefox Account."
+msgstr "%(email)s, oled ühe klõpsu kaugusel oma Firefoxi konto kinnitamisest."
+
+#: templates/verify.html:4
+msgid "Verify"
+msgstr "Kinnita"
+
+#: templates/verify.txt:3
+msgid "Verify:"
+msgstr "Kinnitamiseks klõpsa järgneval lingil:"
+
+#: mailer.js:73
+msgid "Verify your account"
+msgstr "Konto kinnitamine"
+
+#: mailer.js:112
+msgid "Reset your password"
+msgstr "Lähtesta parool"
+
+#: mailer.js:146
+msgid "Re-verify your account"
+msgstr "Kinnita oma konto uuesti"
+
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
-#: templates/unlock.html:2
 msgid "Account activity notice"
 msgstr "Kontotegevuse teavitus"
 
@@ -75,22 +210,12 @@ msgstr ""
 #: templates/new_sync_device.html:4
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
-"Account, you should change your password immediately at <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
+"Account, you should change your password immediately at <a href='%(resetLink)"
+"s'>%(resetLink)s</a>."
 msgstr ""
 "See on automaatne e-kiri. Kui sa ei lisanud Firefoxi kontole uut seadet, "
 "peaksid viivitamata aadressil <a href='%(resetLink)s'>%(resetLink)s</a> "
 "parooli ära vahetama."
-
-#: templates/new_sync_device.html:5 templates/password_changed.html:5
-#: templates/password_reset.html:5 templates/reset.html:6
-#: templates/unlock.html:5
-msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
-msgstr ""
-"Rohkema teabe saamiseks külasta <a href='https://support.mozilla."
-"org'>Mozilla tugiveebi</a>"
 
 #: templates/new_sync_device.txt:3
 msgid ""
@@ -99,13 +224,6 @@ msgid ""
 msgstr ""
 "See on automaatne e-kiri. Kui sa ei lisanud Firefoxi kontole uut seadet, "
 "peaksid viivitamata aadressil %(resetLink)s parooli ära vahetama."
-
-#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
-#: templates/password_reset.txt:4 templates/post_verify.txt:5
-#: templates/reminder.txt:5 templates/reset.txt:5 templates/unlock.txt:4
-#: templates/verify.txt:5
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr "Rohkema teabe saamiseks külasta https://support.mozilla.org"
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
@@ -159,284 +277,152 @@ msgstr ""
 "See on automaatne e-kiri. Kui sa ei lähtestanud Firefoxi konto parooli, "
 "peaksid viivitamata aadressil %(resetLink)s parooli lähtestama."
 
-#: templates/post_verify.txt:1 templates/post_verify.html:2
-msgid "Account verified!"
-msgstr "Konto on verifitseeritud!"
-
-#: templates/post_verify.txt:2
-msgid ""
-"You successfully connected your first device to your Firefox Account. Now "
-"you can sign in to Sync from your other devices, including Firefox for "
-"Android and iOS."
-msgstr ""
-"Oled esimese seadme edukalt Firefoxi kontoga sidunud. Nüüd võid Synci sisse "
-"logida ka teistest enda seadmetest, kaasa arvatud Firefoxist Androidile ja "
-"Firefoxist iOS-ile."
-
-#: templates/post_verify.txt:3
-msgid "Sign in to Sync:"
-msgstr "Synci sisselogimine:"
-
-#: templates/post_verify.txt:4 templates/reminder.txt:4 templates/reset.html:5
-#: templates/reset.txt:4 templates/unlock.html:4 templates/unlock.txt:3
-#: templates/verify.html:6 templates/verify.txt:4
-#: templates/new_sync_device.html:4 templates/password_changed.html:4
-#: templates/post_verify.html:6 templates/reminder.html:6
-#: templates/reset.html:6 templates/unlock.html:6
-#: templates/password_reset.html:4 templates/verification_reminder.html:6
-#: templates/verification_reminder.txt:4
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"See e-kiri on saadetud automaatselt. Kui sa ei tellinud seda, siis ei ole "
-"sul vaja midagi teha."
-
-#: templates/reminder.txt:1 templates/reminder.html:2
-#: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
-msgid "Hello again."
-msgstr "Tere taas."
-
-#: templates/reminder.txt:2 templates/reminder.html:3
-#: templates/verification_reminder.html:3 templates/verification_reminder.txt:2
-msgid ""
-"Recently you created a Firefox Account, but never verified it. Please "
-"activate your account by confirming this email address."
-msgstr ""
-"Registreerisid mõne aja eest Firefoxi konto, kuid ei verifitseerinud seda. "
-"Palun aktiveeri konto allolevale lingile klõpsates."
-
-#: templates/reminder.txt:3 templates/verification_reminder.txt:3
-msgid "Activate Now:"
-msgstr "Aktiveeri kohe:"
-
-#: templates/reset.html:2 templates/reset.txt:1
-msgid "Are you sure?"
-msgstr "Kas oled ikka kindel?"
-
-#: templates/reset.html:3 templates/reset.txt:2
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Palun kinnita, et soovid lähtestada konto %(email)s parooli."
-
-#: templates/reset.html:4
-msgid "Reset password now"
-msgstr "Lähtesta parool kohe"
-
-#: templates/reset.txt:3
-msgid "Reset password now:"
-msgstr "Parooli kohene lähtestamine:"
-
-#: templates/unlock.html:2 templates/unlock.txt:1 templates/unlock.html:3
-msgid ""
-"For security reasons your Firefox Account was put on lockdown. To perform "
-"account-level activities, please click the link to re-verify your account "
-"now."
-msgstr ""
-"Turvakaalutlustel on sinu konto lukustatud. Kui soovid kontoga seotud "
-"tegevusi teha, siis klõpsa palun konto kinnitamise lingil."
-
-#: templates/unlock.html:3 templates/unlock.html:4
-msgid "Verify account"
-msgstr "Kinnita konto"
-
-#: templates/unlock.txt:2
-msgid "Verify account:"
-msgstr "Konto kinnitamine:"
-
-#: templates/verify.html:1 templates/reminder.html:1
-#: templates/verification_reminder.html:1
-msgid "Firefox Account Activation"
-msgstr "Firefoxi konto aktiveerimine"
-
-#: templates/verify.html:2 templates/verify.txt:1
-msgid "Welcome!"
-msgstr "Tere tulemast!"
-
-#: templates/verify.html:3 templates/verify.txt:2
-msgid "Please activate your account by confirming this email address."
-msgstr "Palun aktiveeri enda konto selle e-posti aadressi kinnitamisega."
-
-#: templates/verify.html:4 templates/reminder.html:4
-#: templates/verification_reminder.html:4
-msgid "Activate now"
-msgstr "Aktiveeri kohe"
-
-#: templates/verify.html:5 templates/post_verify.html:5
-#: templates/reminder.html:5 templates/reset.html:5 templates/unlock.html:5
-#: templates/verification_reminder.html:5
-msgid "Alternatively:"
-msgstr "Teise võimalusena:"
-
-#: templates/verify.html:7 templates/new_sync_device.html:5
-#: templates/password_changed.html:5 templates/post_verify.html:7
-#: templates/reminder.html:7 templates/reset.html:7 templates/unlock.html:7
-msgid ""
-"For more information, please visit <a href='https://support.mozilla.org' "
-"style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
-msgstr ""
-"Rohkem teavet leiad, kui külastad <a href='https://support.mozilla.org' "
-"style='color: #0095dd; text-decoration: none;'>Mozilla kasutajatuge</a>."
-
-#: templates/verify.html:8 templates/reminder.html:8
-#: templates/verification_reminder.html:8
-msgid "Verify Email"
-msgstr "Kinnita e-posti aadress"
-
-#: templates/verify.html:9 templates/reminder.html:9
-#: templates/verification_reminder.html:9
-msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
-"Firefoxi konto registreerimise lõpetamiseks on vajalik sinu e-posti aadressi "
-"kinnitamine."
-
-#: templates/verify.txt:3
-msgid "Activate now:"
-msgstr "Aktiveeri kohe:"
-
-#: mailer.js:115 mailer.js:118 mailer.js:298 mailer.js:119 mailer.js:306
-#: mailer.js:303 mailer.js:120 mailer.js:304
+#: mailer.js:82
 msgid "Verify your Firefox Account"
 msgstr "Firefoxi konto kinnitamine"
 
-#: mailer.js:145 mailer.js:148 mailer.js:150 mailer.js:151
+#: mailer.js:121
 msgid "Reset your Firefox Account password"
 msgstr "Firefoxi konto parooli lähtestamine"
 
-#: mailer.js:176 mailer.js:179 mailer.js:182 mailer.js:183
+#: mailer.js:155
 msgid "Re-verify your Firefox Account"
 msgstr "Firefoxi konto uuesti kinnitamine"
 
-#: mailer.js:199 mailer.js:202 mailer.js:206 mailer.js:207
+#: mailer.js:185
 msgid "Your Firefox Account password has been changed"
 msgstr "Sinu Firefoxi konto parooli on muudetud."
 
-#: mailer.js:218 mailer.js:221 mailer.js:226 mailer.js:227
+#: mailer.js:212
 msgid "Your Firefox Account password has been reset"
 msgstr "Sinu Firefoxi konto parool on lähtestatud."
 
-#: mailer.js:240 mailer.js:243
+#: mailer.js:239
 msgid "A new device is now syncing to your Firefox Account"
 msgstr "Sinu Firefoxi kontoga sünkroonib uus seade."
 
-#: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
-msgid ""
-"A device began syncing with the devices connected to your Firefox Account."
-msgstr ""
-"Uus seade alustas sinu Firefoxi kontoga seotud seadmetega sünkroniseerimist."
-
-#: mailer.js:263 mailer.js:270 mailer.js:267 mailer.js:268
-msgid "Firefox Account Verified"
-msgstr "Firefoxi konto on verifitseeritud"
-
-#: templates/new_sync_device.html:5 templates/password_changed.html:5
-#: templates/password_reset.html:5 templates/post_verify.html:7
-#: templates/reminder.html:7 templates/reset.html:7 templates/unlock.html:7
-#: templates/verify.html:7 templates/verification_reminder.html:7
-msgid ""
-"For more information, please visit <a href='%(supportUrl)s' style='color: "
-"#0095dd; text-decoration: none;'>Mozilla Support</a>"
-msgstr ""
-"Rohkem teavet leiad, kui külastad <a href='%(supportUrl)s' style='color: "
-"#0095dd; text-decoration: none;'>Mozilla kasutajatuge</a>"
-
-#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
-#: templates/password_reset.txt:4 templates/post_verify.txt:5
-#: templates/reminder.txt:5 templates/reset.txt:5 templates/unlock.txt:4
-#: templates/verify.txt:5 templates/verification_reminder.txt:5
-msgid "For more information, please visit %(supportUrl)s"
-msgstr "Rohkem teavet leiad, kui külastad %(supportUrl)s"
-
-#: mailer.js:249 mailer.js:246 mailer.js:247
-msgid "New sign-in to Sync"
-msgstr "Uus Synci sisselogimine"
-
-#~ msgid "Bad Request"
-#~ msgstr "Vigane päring"
-
-#~ msgid "Page not found"
-#~ msgstr "Lehte ei leitud"
+#~ msgid "Still there?"
+#~ msgstr "Kas oled veel seal?"
 
 #~ msgid ""
-#~ "The page you requested is not found. We've been notified and will fix any "
-#~ "links that may be broken."
+#~ "A while ago you created a Firefox Account, but never verified it. Click "
+#~ "the link below to activate your account."
 #~ msgstr ""
-#~ "Soovitud lehte ei leitud. Saime selle kohta teavituse ning parandame "
-#~ "võimalikud vigased lingid."
-
-#~ msgid "Home"
-#~ msgstr "Avalehele"
-
-#~ msgid "500 Error"
-#~ msgstr "Viga 500"
+#~ "Registreerisid mõne aja eest Firefoxi konto, kuid ei verifitseerinud "
+#~ "seda. Konto aktiveerimiseks klõpsa allolevale lingile."
 
 #~ msgid ""
-#~ "Oh dear, something went wrong there. We've been notified and will get "
-#~ "working on a fix."
+#~ "You successfully connected your first device to your Firefox Account. Now "
+#~ "you can sign in to Sync from your other devices, including Firefox for <a "
+#~ "href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "Heldeke! Midagi läks nüüd küll valesti. Oleme juhtunust teadlikud ja "
-#~ "parandame vea ära."
-
-#~ msgid "502 Error"
-#~ msgstr "Viga 502"
-
-#~ msgid "Server busy, try again soon"
-#~ msgstr "Server on hõivatud, proovi mõne aja pärast uuesti"
+#~ "Oled esimese seadme edukalt Firefoxi kontoga sidunud. Nüüd võid Synci "
+#~ "sisse logida ka teistest enda seadmetest, kaasa arvatud Firefoxist <a "
+#~ "href='%(androidUrl)s'>Androidile</a> ja <a href='%(iosUrl)s'>iOS-ile</a>."
 
 #~ msgid ""
-#~ "We are currently under heavy strain and are working to return the system "
-#~ "to normal as soon as possible."
+#~ "You successfully connected your first device to your Firefox Account. To "
+#~ "make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
+#~ "Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
 #~ msgstr ""
-#~ "Süsteem on hetkel suure koormuse all ja me töötame selle kallal, et "
-#~ "taastada normaalne olukord võimalikult ruttu."
+#~ "Oled esimese seadme edukalt Firefoxi kontoga sidunud. Syncist parima "
+#~ "võtmiseks ühenda mõni seade, millel on Firefox <a href='%(androidUrl)"
+#~ "s'>Androidile</a> või <a href='%(iosUrl)s'>iOS-ile</a>."
+
+#~ msgid "Connect another device"
+#~ msgstr "Ühenda teine seade"
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "Logi Synci sisse"
+
+#~ msgid "Account verified!"
+#~ msgstr "Konto on verifitseeritud!"
 
 #~ msgid ""
-#~ "You are using an <strong>outdated</strong> browser. Please <a href="
-#~ "\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
-#~ "experience."
+#~ "You successfully connected your first device to your Firefox Account. Now "
+#~ "you can sign in to Sync from your other devices, including Firefox for "
+#~ "Android and iOS."
 #~ msgstr ""
-#~ "Sa kasutad <strong>iganenud</strong> brauserit. Kogemuse parandamiseks <a "
-#~ "href=\"http://browsehappy.com/\">uuenda palun oma brauserit</a>."
+#~ "Oled esimese seadme edukalt Firefoxi kontoga sidunud. Nüüd võid Synci "
+#~ "sisse logida ka teistest enda seadmetest, kaasa arvatud Firefoxist "
+#~ "Androidile ja Firefoxist iOS-ile."
 
-#~ msgid "Firefox Accounts requires JavaScript."
-#~ msgstr "Firefoxi kontod nõuavad, et JavaScript oleks lubatud."
+#~ msgid "Sign in to Sync:"
+#~ msgstr "Synci sisselogimine:"
 
-#~ msgid "Privacy Notice"
-#~ msgstr "Privaatsusreeglid"
-
-#~ msgid "Firefox cloud services"
-#~ msgstr "Firefoxi pilveteenused"
-
-#~ msgid "Terms of Service"
-#~ msgstr "Teenuste tingimused"
-
-#~ msgid "Reset password"
-#~ msgstr "Lähtesta parool"
-
-#~ msgid "Reset password:"
-#~ msgstr "Parooli lähtestamiseks klõpsa järgneval lingil:"
-
-#~ msgid "Almost there"
-#~ msgstr "Peaaegu valmis"
+#~ msgid "Hello again."
+#~ msgstr "Tere taas."
 
 #~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ "Recently you created a Firefox Account, but never verified it. Please "
+#~ "activate your account by confirming this email address."
 #~ msgstr ""
-#~ "%(email)s, oled ühe klõpsu kaugusel oma Firefoxi konto kinnitamisest."
+#~ "Registreerisid mõne aja eest Firefoxi konto, kuid ei verifitseerinud "
+#~ "seda. Palun aktiveeri konto allolevale lingile klõpsates."
 
-#~ msgid "Verify"
-#~ msgstr "Kinnita"
+#~ msgid "Activate Now:"
+#~ msgstr "Aktiveeri kohe:"
 
-#~ msgid "Verify:"
-#~ msgstr "Kinnitamiseks klõpsa järgneval lingil:"
+#~ msgid "Reset password now"
+#~ msgstr "Lähtesta parool kohe"
 
-#~ msgid "Verify your account"
-#~ msgstr "Konto kinnitamine"
+#~ msgid "Reset password now:"
+#~ msgstr "Parooli kohene lähtestamine:"
 
-#~ msgid "Reset your password"
-#~ msgstr "Lähtesta parool"
+#~ msgid "Firefox Account Activation"
+#~ msgstr "Firefoxi konto aktiveerimine"
 
-#~ msgid "Re-verify your account"
-#~ msgstr "Kinnita oma konto uuesti"
+#~ msgid "Welcome!"
+#~ msgstr "Tere tulemast!"
+
+#~ msgid "Please activate your account by confirming this email address."
+#~ msgstr "Palun aktiveeri enda konto selle e-posti aadressi kinnitamisega."
+
+#~ msgid "Activate now"
+#~ msgstr "Aktiveeri kohe"
+
+#~ msgid "Alternatively:"
+#~ msgstr "Teise võimalusena:"
+
+#~ msgid ""
+#~ "For more information, please visit <a href='https://support.mozilla.org' "
+#~ "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
+#~ msgstr ""
+#~ "Rohkem teavet leiad, kui külastad <a href='https://support.mozilla.org' "
+#~ "style='color: #0095dd; text-decoration: none;'>Mozilla kasutajatuge</a>."
+
+#~ msgid "Verify Email"
+#~ msgstr "Kinnita e-posti aadress"
+
+#~ msgid "Verify your email to finish your Firefox Account registration"
+#~ msgstr ""
+#~ "Firefoxi konto registreerimise lõpetamiseks on vajalik sinu e-posti "
+#~ "aadressi kinnitamine."
+
+#~ msgid "Activate now:"
+#~ msgstr "Aktiveeri kohe:"
+
+#~ msgid ""
+#~ "A device began syncing with the devices connected to your Firefox Account."
+#~ msgstr ""
+#~ "Uus seade alustas sinu Firefoxi kontoga seotud seadmetega "
+#~ "sünkroniseerimist."
+
+#~ msgid "Firefox Account Verified"
+#~ msgstr "Firefoxi konto on verifitseeritud"
+
+#~ msgid ""
+#~ "For more information, please visit <a href='%(supportUrl)s' style='color: "
+#~ "#0095dd; text-decoration: none;'>Mozilla Support</a>"
+#~ msgstr ""
+#~ "Rohkem teavet leiad, kui külastad <a href='%(supportUrl)s' style='color: "
+#~ "#0095dd; text-decoration: none;'>Mozilla kasutajatuge</a>"
+
+#~ msgid "For more information, please visit %(supportUrl)s"
+#~ msgstr "Rohkem teavet leiad, kui külastad %(supportUrl)s"
+
+#~ msgid "New sign-in to Sync"
+#~ msgstr "Uus Synci sisselogimine"
 
 #~ msgid "Congratulations!"
 #~ msgstr "Õnnitleme!"
