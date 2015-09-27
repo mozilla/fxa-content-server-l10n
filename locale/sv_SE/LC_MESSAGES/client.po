@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-26 01:28+0000\n"
-"PO-Revision-Date: 2015-08-26 16:02\n"
-"Last-Translator: az@kth.se <az@kth.se>\n"
+"PO-Revision-Date: 2015-09-27 10:46+0000\n"
+"Last-Translator: Luna Jernberg <bittin@cafe8bitar.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
@@ -453,11 +453,11 @@ msgstr "Inställningar skrivbord"
 
 #: app/scripts/lib/strings.js:31
 msgid "Welcome back"
-msgstr ""
+msgstr "Välkommen tillbaka"
 
 #: app/scripts/lib/strings.js:32
 msgid "Welcome to Sync"
-msgstr ""
+msgstr "Välkommen till Sync"
 
 #: app/scripts/lib/strings.js:33
 msgid "Firefox Sync will begin momentarily"
@@ -589,7 +589,7 @@ msgstr "En verifieringslänk har skickats&nbsp;till %(email)s"
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
-msgstr ""
+msgstr "Öppna Gmail"
 
 #: app/scripts/templates/confirm.mustache:7
 #: app/scripts/templates/confirm_account_unlock.mustache:6
@@ -1063,7 +1063,7 @@ msgstr "Dag"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Logga in till Sync"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid ""
@@ -1073,11 +1073,11 @@ msgstr ""
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
-msgstr ""
+msgstr "Använd OpenID"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr ""
+msgstr "Använd Firefox Konto"
 
 #~ msgid "Edit profile"
 #~ msgstr "Redigera profil"
