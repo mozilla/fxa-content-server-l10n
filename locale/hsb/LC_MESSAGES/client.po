@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-26 01:28+0000\n"
-"PO-Revision-Date: 2015-09-10 20:26+0000\n"
+"PO-Revision-Date: 2015-09-27 14:31+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1441916805.0\n"
+"X-POOTLE-MTIME: 1443364319.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -457,23 +457,23 @@ msgstr "Desktopowe nastajenja"
 
 #: app/scripts/lib/strings.js:31
 msgid "Welcome back"
-msgstr ""
+msgstr "Witajće wróćo"
 
 #: app/scripts/lib/strings.js:32
 msgid "Welcome to Sync"
-msgstr ""
+msgstr "Witajće k Sync"
 
 #: app/scripts/lib/strings.js:33
 msgid "Firefox Sync will begin momentarily"
-msgstr ""
+msgstr "Firefox Sync započnje bórze"
 
 #: app/scripts/lib/strings.js:34
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "Z Firefox Sync so bórze pokročuje"
 
 #: app/scripts/lib/strings.js:35
 msgid "Sync preferences"
-msgstr ""
+msgstr "Nastajenja Sync"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -596,7 +596,7 @@ msgstr "Wobkrućenski wotkaz je so&nbsp;na %(email)s pósłał"
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
-msgstr ""
+msgstr "Gmail wočinić"
 
 #: app/scripts/templates/confirm.mustache:7
 #: app/scripts/templates/confirm_account_unlock.mustache:6
@@ -1070,21 +1070,23 @@ msgstr "Dźeń"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Pola Sync přizjewić"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid ""
 "Choose the account you would like to use to sync your tabs, bookmarks, "
 "passwords and more."
 msgstr ""
+"Wubjerće konto, kotrež chceće wužiwać, zo byšće swoje rajtarki, zapołožki, "
+"hesła a wjace synchronizował."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
-msgstr ""
+msgstr "OpenID wužiwać"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr ""
+msgstr "Konto Firefox wužiwać"
 
 #~ msgid "Edit profile"
 #~ msgstr "Profil wobdźěłać"
