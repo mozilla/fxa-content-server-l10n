@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-26 01:28+0000\n"
-"PO-Revision-Date: 2015-08-27 15:17+0000\n"
+"PO-Revision-Date: 2015-09-27 16:49+0000\n"
 "Last-Translator: Sara <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1440688658.0\n"
+"X-POOTLE-MTIME: 1443372593.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -460,23 +460,23 @@ msgstr "Preferenze desktop"
 
 #: app/scripts/lib/strings.js:31
 msgid "Welcome back"
-msgstr ""
+msgstr "Bentornato"
 
 #: app/scripts/lib/strings.js:32
 msgid "Welcome to Sync"
-msgstr ""
+msgstr "Benvenuto in Sync"
 
 #: app/scripts/lib/strings.js:33
 msgid "Firefox Sync will begin momentarily"
-msgstr ""
+msgstr "Firefox Sync verrà attivato a momenti"
 
 #: app/scripts/lib/strings.js:34
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "Firefox Sync verrà riattivato a momenti"
 
 #: app/scripts/lib/strings.js:35
 msgid "Sync preferences"
-msgstr ""
+msgstr "Preferenze di Sync"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -598,7 +598,7 @@ msgstr "Un link di conferma è stato inviato&nbsp;a: %(email)s"
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
-msgstr ""
+msgstr "Apri Gmail"
 
 #: app/scripts/templates/confirm.mustache:7
 #: app/scripts/templates/confirm_account_unlock.mustache:6
@@ -1071,21 +1071,23 @@ msgstr "Giorno"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Accedi a Sync"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid ""
 "Choose the account you would like to use to sync your tabs, bookmarks, "
 "passwords and more."
 msgstr ""
+"Seleziona un account su cui sincronizzare segnalibri, schede, password e "
+"molto altro."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
-msgstr ""
+msgstr "Utilizza OpenID"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr ""
+msgstr "Utilizza un account Firefox"
 
 #~ msgid "Edit profile"
 #~ msgstr "Modifica profilo"
