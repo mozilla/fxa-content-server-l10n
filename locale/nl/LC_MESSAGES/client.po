@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-26 01:28+0000\n"
-"PO-Revision-Date: 2015-08-26 20:32+0000\n"
+"PO-Revision-Date: 2015-09-29 15:20+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1440621126.0\n"
+"X-POOTLE-MTIME: 1443540031.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -455,23 +455,23 @@ msgstr "Desktopvoorkeuren"
 
 #: app/scripts/lib/strings.js:31
 msgid "Welcome back"
-msgstr ""
+msgstr "Welkom terug"
 
 #: app/scripts/lib/strings.js:32
 msgid "Welcome to Sync"
-msgstr ""
+msgstr "Welkom bij Sync"
 
 #: app/scripts/lib/strings.js:33
 msgid "Firefox Sync will begin momentarily"
-msgstr ""
+msgstr "Firefox Sync zal over enkele ogenblikken beginnen"
 
 #: app/scripts/lib/strings.js:34
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "Firefox Sync zal over enkele ogenblikken worden hervat"
 
 #: app/scripts/lib/strings.js:35
 msgid "Sync preferences"
-msgstr ""
+msgstr "Sync-voorkeuren"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -595,7 +595,7 @@ msgstr "Er is een verificatiekoppeling verzonden&nbsp;naar: %(email)s"
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
-msgstr ""
+msgstr "Gmail openen"
 
 #: app/scripts/templates/confirm.mustache:7
 #: app/scripts/templates/confirm_account_unlock.mustache:6
@@ -1069,21 +1069,23 @@ msgstr "Dag"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Aanmelden bij Sync"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid ""
 "Choose the account you would like to use to sync your tabs, bookmarks, "
 "passwords and more."
 msgstr ""
+"Kies de account die u wilt gebruiken om uw tabbladen, bladwijzers, "
+"wachtwoorden en meer te synchroniseren."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
-msgstr ""
+msgstr "OpenID gebruiken"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr ""
+msgstr "Firefox-account gebruiken"
 
 #~ msgid "Edit profile"
 #~ msgstr "Profiel bewerken"
