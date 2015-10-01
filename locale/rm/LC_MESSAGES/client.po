@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-26 01:28+0000\n"
-"PO-Revision-Date: 2015-09-05 20:26+0000\n"
+"PO-Revision-Date: 2015-10-01 20:39+0000\n"
 "Last-Translator: Gion-Andri Cantieni <gion-andri@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
@@ -461,23 +461,23 @@ msgstr "Preferenzas per desktop"
 
 #: app/scripts/lib/strings.js:31
 msgid "Welcome back"
-msgstr ""
+msgstr "Bainvegni anavos"
 
 #: app/scripts/lib/strings.js:32
 msgid "Welcome to Sync"
-msgstr ""
+msgstr "Bainvegni tar Sync"
 
 #: app/scripts/lib/strings.js:33
 msgid "Firefox Sync will begin momentarily"
-msgstr ""
+msgstr "Firefox Sync cumenza immediatamain"
 
 #: app/scripts/lib/strings.js:34
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "Firefox Sync cuntinuescha immediatamain"
 
 #: app/scripts/lib/strings.js:35
 msgid "Sync preferences"
-msgstr ""
+msgstr "Preferenzas da sincronisar"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -599,7 +599,7 @@ msgstr "Ina colliaziun da verificaziun è vegnida tramessa&nbsp;a: %(email)s"
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
-msgstr ""
+msgstr "Avrir Gmail"
 
 #: app/scripts/templates/confirm.mustache:7
 #: app/scripts/templates/confirm_account_unlock.mustache:6
@@ -1076,21 +1076,23 @@ msgstr "Di"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "S'annunziar tar Sync"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid ""
 "Choose the account you would like to use to sync your tabs, bookmarks, "
 "passwords and more."
 msgstr ""
+"Tscherna il conto che ti vuls utilisar per sincronisar tes tabs, tes "
+"segnapaginas, tes pleds-clav e dapli."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
-msgstr ""
+msgstr "Utilisar OpenID"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr ""
+msgstr "Utilisar il conto da Firefox"
 
 #~ msgid "Edit profile"
 #~ msgstr "Modifitgar il profil"
