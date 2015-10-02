@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-26 01:28+0000\n"
-"PO-Revision-Date: 2015-07-24 12:04+0000\n"
+"PO-Revision-Date: 2015-10-02 19:38+0000\n"
 "Last-Translator: Branislav Rozbora <rozbora@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -201,7 +201,7 @@ msgstr "Opakované overenie vášho účtu"
 
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
 msgid "Account activity notice"
-msgstr "Poznámka o aktivite účtu"
+msgstr "Informácia o aktivite účtu"
 
 #: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
 msgid ""
