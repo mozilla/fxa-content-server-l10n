@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-26 01:28+0000\n"
-"PO-Revision-Date: 2015-09-28 20:07+0000\n"
+"PO-Revision-Date: 2015-10-04 17:22+0000\n"
 "Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -601,7 +601,7 @@ msgstr "Ponovno pošlji e-pošto"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:1
 msgid "Unlock email sent"
-msgstr "E-pošta za odklep je poslana"
+msgstr "E-pošta za odklep poslana"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
