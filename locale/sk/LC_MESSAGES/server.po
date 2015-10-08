@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-26 01:28+0000\n"
+"POT-Creation-Date: 2015-10-08 20:44+0000\n"
 "PO-Revision-Date: 2015-10-02 19:38+0000\n"
 "Last-Translator: Branislav Rozbora <rozbora@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,17 +15,269 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1442482729.0\n"
 
+#: templates/_pending.txt:1
+msgid "Still there?"
+msgstr "Ste tu ešte?"
+
+#: templates/_pending.txt:2
+msgid ""
+"A while ago you created a Firefox Account, but never verified it. Click the "
+"link below to activate your account."
+msgstr ""
+"Pred nedávnom ste si vytvorili účet Firefox Account, ale zatiaľ ste ho "
+"neoverili. Pre aktiváciu svojho účtu kliknite na odkaz nižšie."
+
+#: templates/_pending.txt:3 templates/post_verify.html:3
+msgid ""
+"You successfully connected your first device to your Firefox Account. Now "
+"you can sign in to Sync from your other devices, including Firefox for <a "
+"href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
+msgstr ""
+"Úspešne ste pripojili svoje prvé zariadenie k svojmu účtu Firefox Account. "
+"Teraz sa môžete prihlásiť k službe Sync aj zo svojich ďalších zariadení, "
+"vrátane Firefoxu pre <a href='%(androidUrl)s'>Android</a> alebo <a "
+"href='%(iosUrl)s'>iOS</a>."
+
+#: templates/_pending.txt:4
+msgid ""
+"You successfully connected your first device to your Firefox Account. To "
+"make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
+"Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
+msgstr ""
+"Úspešne ste pripojili svoje prvé zariadenie k svojmu účtu Firefox Account. "
+"Aby ste službu Sync čo najlepšie využili, pripojte sa k nej aj za aplikácie "
+"Firefox pre <a href='%(androidUrl)s'>Android</a> alebo <a "
+"href='%(iosUrl)s'>iOS</a>."
+
+#: templates/_pending.txt:5 templates/post_verify.html:4
+msgid "Connect another device"
+msgstr "Pripojiť ďalšie zariadenie"
+
+#: templates/_pending.txt:6
+msgid "Sign in to Sync"
+msgstr "Prihlásiť sa k službe Sync"
+
+#: templates/new_sync_device.html:1 templates/password_changed.html:1
+#: templates/password_reset.html:1 templates/post_verify.html:1
+#: templates/reset.html:1 templates/unlock.html:1
+#: templates/verification_reminder.html:1 templates/verify.html:1
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1 templates/reset.html:1
-#: templates/unlock.html:1 templates/verify.html:1
-#: templates/new_sync_device.html:1 templates/password_changed.html:1
-#: templates/password_reset.html:1
+#: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Účty Firefox Account"
+
+#: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
+#: templates/unlock.html:2
+msgid "Account activity notice"
+msgstr "Informácia o aktivite účtu"
+
+#: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
+msgid ""
+"A device began syncing with the devices connected to your Firefox Account."
+msgstr ""
+"Zariadenie sa začalo synchronizovať s ostatnými zariadeniami pripojenými k "
+"vášmu účtu Firefox Account."
+
+#: templates/new_sync_device.html:4 templates/password_changed.html:4
+#: templates/password_reset.html:4 templates/post_verify.html:6
+#: templates/post_verify.txt:4 templates/reset.html:6 templates/reset.txt:4
+#: templates/unlock.html:6 templates/unlock.txt:3
+#: templates/verification_reminder.html:6
+#: templates/verification_reminder.txt:4 templates/verify.html:6
+#: templates/verify.txt:4
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"Toto je automaticky generovaná správa. Ak ste si ju nevyžiadali, môžete ju "
+"ignorovať."
+
+#: templates/new_sync_device.html:5 templates/password_changed.html:5
+#: templates/password_reset.html:5 templates/post_verify.html:7
+#: templates/reset.html:7 templates/unlock.html:7
+#: templates/verification_reminder.html:7 templates/verify.html:7
+msgid ""
+"For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
+"Support</a>"
+msgstr ""
+
+#: templates/new_sync_device.txt:3
+msgid ""
+"This is an automated email; if you didn't add a new device to your Firefox "
+"Account, you should change your password immediately at %(resetLink)s."
+msgstr ""
+"Toto je automatický e-mail. Ak ste k svojmu účtu Firefox Account nepridávali "
+"žiadne zariadenie, mali by ste okamžite zmeniť svoje heslo na %(resetLink)s."
+
+#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
+#: templates/password_reset.txt:4 templates/post_verify.txt:5
+#: templates/reset.txt:5 templates/unlock.txt:4
+#: templates/verification_reminder.txt:5 templates/verify.txt:5
+msgid "For more information, please visit %(supportUrl)s"
+msgstr "Pre viac informácií prosím navštívte stránku %(supportUrl)s"
+
+#: templates/password_changed.html:2 templates/password_changed.txt:1
+msgid "Password changed successfully"
+msgstr "Heslo bolo úspešne zmenené"
+
+#: templates/password_changed.html:3 templates/password_changed.txt:2
+msgid "Your Firefox Account password has been successfully changed."
+msgstr "Heslo vášho účtu Firefox Account bolo úspešne zmenené."
+
+#: templates/password_changed.txt:3
+msgid ""
+"This is an automated email; if you didn’t change the password to your "
+"Firefox Account, you should reset it immediately at %(resetLink)s."
+msgstr ""
+"Toto je automatický e-mail. Ak ste heslo k svojmu účtu Firefox Account "
+"nemenili, mali by ste ho okamžite obnoviť na %(resetLink)s."
+
+#: templates/password_reset.html:2 templates/password_reset.txt:1
+msgid "Password reset successfully"
+msgstr "Heslo bolo úspešne obnovené"
+
+#: templates/password_reset.html:3 templates/password_reset.txt:2
+msgid "Your Firefox Account password has been successfully reset."
+msgstr "Heslo vášho účtu Firefox Account bolo úspešne obnovené."
+
+#: templates/password_reset.txt:3
+msgid ""
+"This is an automated email; if you didn’t reset the password to your Firefox "
+"Account, you should reset it immediately at %(resetLink)s."
+msgstr ""
+"Toto je automatický e-mail. Ak ste heslo k svojmu účtu Firefox Account "
+"neobnovovali, mali by ste ho okamžite obnoviť na %(resetLink)s."
+
+#: templates/post_verify.html:2 templates/post_verify.txt:1
+msgid "Account verified!"
+msgstr "Účet bol overený!"
+
+#: templates/post_verify.html:5 templates/reset.html:5 templates/unlock.html:5
+#: templates/verification_reminder.html:5 templates/verify.html:5
+msgid "Alternatively:"
+msgstr "Alternatívne:"
+
+#: templates/post_verify.txt:2
+msgid ""
+"You successfully connected your first device to your Firefox Account. Now "
+"you can sign in to Sync from your other devices, including Firefox for "
+"Android and iOS."
+msgstr ""
+"Úspešne ste pripojili svoje prvé zariadenie k svojmu účtu Firefox Account. "
+"Teraz sa môžete prihlásiť k službe Sync aj zo svojich ďalších zariadení, "
+"vrátane Firefoxu pre Android alebo iOS."
+
+#: templates/post_verify.txt:3
+msgid "Sign in to Sync:"
+msgstr "Prihlásiť sa k službe Sync:"
+
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Are you sure?"
+msgstr "Naozaj?"
+
+#: templates/reset.html:3 templates/reset.txt:2
+msgid "Please confirm that you'd like to reset the password for %(email)s."
+msgstr "Naozaj chcete obnoviť heslo pre %(email)s?"
+
+#: templates/reset.html:4
+msgid "Reset password now"
+msgstr "Obnoviť heslo"
+
+#: templates/reset.txt:3
+msgid "Reset password now:"
+msgstr "Obnoviť heslo:"
+
+#: templates/unlock.html:3 templates/unlock.txt:1
+msgid ""
+"For security reasons your Firefox Account was put on lockdown. To perform "
+"account-level activities, please click the link to re-verify your account "
+"now."
+msgstr ""
+"Z bezpečnostných dôvodov bol váš Účet Firefox uzamknutý. Ak chcete účet "
+"znovu aktivovať, kliknite na odkaz nižšie a účet znovu overte."
+
+#: templates/unlock.html:4
+msgid "Verify account"
+msgstr "Overenie účtu"
+
+#: templates/unlock.txt:2
+msgid "Verify account:"
+msgstr "Overenie účtu:"
+
+#: templates/verification_reminder.html:2
+#: templates/verification_reminder.txt:1
+msgid "Hello again."
+msgstr "Vitajte späť."
+
+#: templates/verification_reminder.html:3
+#: templates/verification_reminder.txt:2
+msgid ""
+"Recently you created a Firefox Account, but never verified it. Please "
+"activate your account by confirming this email address."
+msgstr ""
+"Pred nedávnom ste si vytvorili účet Firefox Account, ale zatiaľ ste ho "
+"neoverili. Aktivujte ho prosím potvrdením tejto e-mailovej adresy."
+
+#: templates/verification_reminder.html:4 templates/verify.html:4
+msgid "Activate now"
+msgstr "Aktivovať"
+
+#: templates/verification_reminder.html:8 templates/verify.html:8
+msgid "Verify Email"
+msgstr "Overenie e-mailu"
+
+#: templates/verification_reminder.html:9 templates/verify.html:9
+msgid "Verify your email to finish your Firefox Account registration"
+msgstr ""
+"Overením vášho e-mailu dokončíte registráciu vášho konta Firefox Account"
+
+#: templates/verification_reminder.txt:3
+msgid "Activate Now:"
+msgstr "Aktivovať teraz:"
+
+#: templates/verify.html:2 templates/verify.txt:1
+msgid "Welcome!"
+msgstr "Vitajte!"
+
+#: templates/verify.html:3 templates/verify.txt:2
+msgid "Please activate your account by confirming this email address."
+msgstr "Prosím aktivujte vaše konto potvrdením nasledovnej e-mailovej adresy."
+
+#: templates/verify.txt:3
+msgid "Activate now:"
+msgstr "Aktivovať:"
+
+#: mailer.js:126 mailer.js:317
+msgid "Verify your Firefox Account"
+msgstr "Overiť váš účet Firefox Account"
+
+#: mailer.js:158
+msgid "Reset your Firefox Account password"
+msgstr "Obnoviť heslo vášho účtu Firefox Account"
+
+#: mailer.js:191
+msgid "Re-verify your Firefox Account"
+msgstr "Znovu overiť váš účet Firefox Account"
+
+#: mailer.js:216
+msgid "Your Firefox Account password has been changed"
+msgstr "Heslo vášho účtu Firefox Account bolo zmenené"
+
+#: mailer.js:237
+msgid "Your Firefox Account password has been reset"
+msgstr "Heslo vášho účtu Firefox Account bolo obnovené"
+
+#: mailer.js:258
+msgid "New sign-in to Firefox"
+msgstr ""
+
+#: mailer.js:280
+msgid "Firefox Account Verified"
+msgstr "Účet Firefox Account bol overený"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
@@ -75,358 +327,129 @@ msgstr ""
 "dostali do normálneho stavu."
 
 #: server/templates/pages/src/index.html:2
-#: server/templates/pages/src/privacy.html:3
-#: server/templates/pages/src/terms.html:3
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a "
-"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
-"experience."
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
-"Používate <strong>zastaraný</strong> prehliadač. <a "
-"href=\"http://browsehappy.com/\">Aktualizujte ho</a> a získate lepší zážitok"
-" z webu."
+"Používate <strong>zastaraný</strong> prehliadač. <a href=\"http://"
+"browsehappy.com/\">Aktualizujte ho</a> a získate lepší zážitok z webu."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Služba Firefox Account vyžaduje povolený JavaScript."
 
 #: server/templates/pages/src/privacy.html:2
-#: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
 msgstr "Zásady ochrany súkromia"
 
-#: server/templates/pages/src/privacy.html:4
-#: server/templates/pages/src/terms.html:4
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
 msgstr "Cloudové služby Firefox"
 
 #: server/templates/pages/src/terms.html:2
-#: server/templates/pages/src/terms.html:5
 #: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Podmienky používania služby"
 
-#: templates/reset.html:2 templates/reset.txt:1
-msgid "Are you sure?"
-msgstr "Naozaj?"
-
-#: templates/reset.html:3 templates/reset.txt:2
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Naozaj chcete obnoviť heslo pre %(email)s?"
-
-#: templates/reset.html:4
-msgid "Reset password"
-msgstr "Obnoviť heslo"
-
-#: templates/reset.html:5 templates/reset.txt:4 templates/unlock.html:4
-#: templates/unlock.txt:3 templates/verify.html:5 templates/verify.txt:4
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"Toto je automaticky generovaná správa. Ak ste si ju nevyžiadali, môžete ju "
-"ignorovať."
-
-#: templates/reset.html:6 templates/unlock.html:5 templates/verify.html:6
-#: templates/new_sync_device.html:5 templates/password_changed.html:5
-#: templates/password_reset.html:5
-msgid ""
-"For more information, please visit <a "
-"href='https://support.mozilla.org'>Mozilla Support</a>"
-msgstr ""
-"Ďalšie informácie získate na stránkach <a "
-"href='https://support.mozilla.org'>Mozilla Support</a>"
-
-#: templates/reset.txt:3
-msgid "Reset password:"
-msgstr "Obnoviť heslo:"
-
-#: templates/reset.txt:5 templates/unlock.txt:4 templates/verify.txt:5
-#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
-#: templates/password_reset.txt:4
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr "Ďalšie informácie získate na stránkach https://support.mozilla.org"
-
-#: templates/unlock.html:2 templates/unlock.txt:1
-msgid ""
-"For security reasons your Firefox Account was put on lockdown. To perform "
-"account-level activities, please click the link to re-verify your account "
-"now."
-msgstr ""
-"Z bezpečnostných dôvodov bol váš Účet Firefox uzamknutý. Ak chcete účet "
-"znovu aktivovať, kliknite na odkaz nižšie a účet znovu overte."
-
-#: templates/unlock.html:3
-msgid "Verify account"
-msgstr "Overenie účtu"
-
-#: templates/unlock.txt:2
-msgid "Verify account:"
-msgstr "Overenie účtu:"
-
-#: templates/verify.html:2 templates/verify.txt:1
-msgid "Almost there"
-msgstr "Takmer hotovo"
-
-#: templates/verify.html:3 templates/verify.txt:2
-msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr ""
-"Od overenia Vášho účtu Firefox Account na adrese %(email)s Vás delia len "
-"sekundy."
-
-#: templates/verify.html:4
-msgid "Verify"
-msgstr "Overiť"
-
-#: templates/verify.txt:3
-msgid "Verify:"
-msgstr "Overenie:"
-
-#: mailer.js:73
-msgid "Verify your account"
-msgstr "Overiť váš účet"
-
-#: mailer.js:112
-msgid "Reset your password"
-msgstr "Obnoviť heslo"
-
-#: mailer.js:146
-msgid "Re-verify your account"
-msgstr "Opakované overenie vášho účtu"
-
-#: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
-msgid "Account activity notice"
-msgstr "Informácia o aktivite účtu"
-
-#: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
-msgid ""
-"A new device is now syncing with all of the devices connected to your "
-"Firefox Account."
-msgstr ""
-"Nové zariadenie je teraz synchronizované s všetkými ostatnými zariadeniami "
-"pripojenými k vášmu účtu Firefox Account."
-
-#: templates/new_sync_device.html:4
-msgid ""
-"This is an automated email; if you didn't add a new device to your Firefox "
-"Account, you should change your password immediately at <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
-msgstr ""
-"Toto je automatický e-mail. Ak ste k svojmu účtu Firefox Account nepridávali"
-" žiadne zariadenie, mali by ste okamžite zmeniť svoje heslo na <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
-
-#: templates/new_sync_device.txt:3
-msgid ""
-"This is an automated email; if you didn't add a new device to your Firefox "
-"Account, you should change your password immediately at %(resetLink)s."
-msgstr ""
-"Toto je automatický e-mail. Ak ste k svojmu účtu Firefox Account nepridávali"
-" žiadne zariadenie, mali by ste okamžite zmeniť svoje heslo na "
-"%(resetLink)s."
-
-#: templates/password_changed.html:2 templates/password_changed.txt:1
-msgid "Password changed successfully"
-msgstr "Heslo bolo úspešne zmenené"
-
-#: templates/password_changed.html:3 templates/password_changed.txt:2
-msgid "Your Firefox Account password has been successfully changed."
-msgstr "Heslo vášho účtu Firefox Account bolo úspešne zmenené."
-
-#: templates/password_changed.html:4
-msgid ""
-"This is an automated email; if you didn't change the password to your "
-"Firefox Account, you should reset it immediately at <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
-msgstr ""
-"Toto je automatický e-mail. Ak ste heslo k svojmu účtu Firefox Account "
-"nemenili, mali by ste ho okamžite obnoviť na <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
-
-#: templates/password_changed.txt:3
-msgid ""
-"This is an automated email; if you didn’t change the password to your "
-"Firefox Account, you should reset it immediately at %(resetLink)s."
-msgstr ""
-"Toto je automatický e-mail. Ak ste heslo k svojmu účtu Firefox Account "
-"nemenili, mali by ste ho okamžite obnoviť na %(resetLink)s."
-
-#: templates/password_reset.html:2 templates/password_reset.txt:1
-msgid "Password reset successfully"
-msgstr "Heslo bolo úspešne obnovené"
-
-#: templates/password_reset.html:3 templates/password_reset.txt:2
-msgid "Your Firefox Account password has been successfully reset."
-msgstr "Heslo vášho účtu Firefox Account bolo úspešne obnovené."
-
-#: templates/password_reset.html:4
-msgid ""
-"This is an automated email; if you didn't reset the password to your Firefox"
-" Account, you should reset it immediately at <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
-msgstr ""
-"Toto je automatický e-mail. Ak ste heslo k svojmu účtu Firefox Account "
-"neobnovovali, mali by ste ho okamžite obnoviť na <a "
-"href='%(resetLink)s'>%(resetLink)s</a>."
-
-#: templates/password_reset.txt:3
-msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox"
-" Account, you should reset it immediately at %(resetLink)s."
-msgstr ""
-"Toto je automatický e-mail. Ak ste heslo k svojmu účtu Firefox Account "
-"neobnovovali, mali by ste ho okamžite obnoviť na %(resetLink)s."
-
-#: mailer.js:82
-msgid "Verify your Firefox Account"
-msgstr "Overiť váš účet Firefox Account"
-
-#: mailer.js:121
-msgid "Reset your Firefox Account password"
-msgstr "Obnoviť heslo vášho účtu Firefox Account"
-
-#: mailer.js:155
-msgid "Re-verify your Firefox Account"
-msgstr "Znovu overiť váš účet Firefox Account"
-
-#: mailer.js:185
-msgid "Your Firefox Account password has been changed"
-msgstr "Heslo vášho účtu Firefox Account bolo zmenené"
-
-#: mailer.js:212
-msgid "Your Firefox Account password has been reset"
-msgstr "Heslo vášho účtu Firefox Account bolo obnovené"
-
-#: mailer.js:239
-msgid "A new device is now syncing to your Firefox Account"
-msgstr "Nové zariadenie sa teraz synchronizuje s vašim účtom Firefox Account"
-
-#~ msgid "Still there?"
-#~ msgstr "Ste tu ešte?"
-
-#~ msgid ""
-#~ "A while ago you created a Firefox Account, but never verified it. Click the "
-#~ "link below to activate your account."
-#~ msgstr ""
-#~ "Pred nedávnom ste si vytvorili účet Firefox Account, ale zatiaľ ste ho "
-#~ "neoverili. Pre aktiváciu svojho účtu kliknite na odkaz nižšie."
-
-#~ msgid ""
-#~ "You successfully connected your first device to your Firefox Account. Now "
-#~ "you can sign in to Sync from your other devices, including Firefox for <a "
-#~ "href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
-#~ msgstr ""
-#~ "Úspešne ste pripojili svoje prvé zariadenie k svojmu účtu Firefox Account. "
-#~ "Teraz sa môžete prihlásiť k službe Sync aj zo svojich ďalších zariadení, "
-#~ "vrátane Firefoxu pre <a href='%(androidUrl)s'>Android</a> alebo <a "
-#~ "href='%(iosUrl)s'>iOS</a>."
-
-#~ msgid ""
-#~ "You successfully connected your first device to your Firefox Account. To "
-#~ "make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
-#~ "Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
-#~ msgstr ""
-#~ "Úspešne ste pripojili svoje prvé zariadenie k svojmu účtu Firefox Account. "
-#~ "Aby ste službu Sync čo najlepšie využili, pripojte sa k nej aj za aplikácie "
-#~ "Firefox pre <a href='%(androidUrl)s'>Android</a> alebo <a "
-#~ "href='%(iosUrl)s'>iOS</a>."
-
-#~ msgid "Connect another device"
-#~ msgstr "Pripojiť ďalšie zariadenie"
-
-#~ msgid "Sign in to Sync"
-#~ msgstr "Prihlásiť sa k službe Sync"
-
-#~ msgid "Account verified!"
-#~ msgstr "Účet bol overený!"
-
-#~ msgid ""
-#~ "You successfully connected your first device to your Firefox Account. Now "
-#~ "you can sign in to Sync from your other devices, including Firefox for "
-#~ "Android and iOS."
-#~ msgstr ""
-#~ "Úspešne ste pripojili svoje prvé zariadenie k svojmu účtu Firefox Account. "
-#~ "Teraz sa môžete prihlásiť k službe Sync aj zo svojich ďalších zariadení, "
-#~ "vrátane Firefoxu pre Android alebo iOS."
-
-#~ msgid "Sign in to Sync:"
-#~ msgstr "Prihlásiť sa k službe Sync:"
-
-#~ msgid "Hello again."
-#~ msgstr "Vitajte späť."
-
-#~ msgid ""
-#~ "Recently you created a Firefox Account, but never verified it. Please "
-#~ "activate your account by confirming this email address."
-#~ msgstr ""
-#~ "Pred nedávnom ste si vytvorili účet Firefox Account, ale zatiaľ ste ho "
-#~ "neoverili. Aktivujte ho prosím potvrdením tejto e-mailovej adresy."
-
-#~ msgid "Activate Now:"
-#~ msgstr "Aktivovať teraz:"
-
-#~ msgid "Reset password now"
+#~ msgid "Reset password"
 #~ msgstr "Obnoviť heslo"
 
-#~ msgid "Reset password now:"
+#~ msgid ""
+#~ "For more information, please visit <a href='https://support.mozilla."
+#~ "org'>Mozilla Support</a>"
+#~ msgstr ""
+#~ "Ďalšie informácie získate na stránkach <a href='https://support.mozilla."
+#~ "org'>Mozilla Support</a>"
+
+#~ msgid "Reset password:"
 #~ msgstr "Obnoviť heslo:"
+
+#~ msgid "For more information, please visit https://support.mozilla.org"
+#~ msgstr "Ďalšie informácie získate na stránkach https://support.mozilla.org"
+
+#~ msgid "Almost there"
+#~ msgstr "Takmer hotovo"
+
+#~ msgid ""
+#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgstr ""
+#~ "Od overenia Vášho účtu Firefox Account na adrese %(email)s Vás delia len "
+#~ "sekundy."
+
+#~ msgid "Verify"
+#~ msgstr "Overiť"
+
+#~ msgid "Verify:"
+#~ msgstr "Overenie:"
+
+#~ msgid "Verify your account"
+#~ msgstr "Overiť váš účet"
+
+#~ msgid "Reset your password"
+#~ msgstr "Obnoviť heslo"
+
+#~ msgid "Re-verify your account"
+#~ msgstr "Opakované overenie vášho účtu"
+
+#~ msgid ""
+#~ "A new device is now syncing with all of the devices connected to your "
+#~ "Firefox Account."
+#~ msgstr ""
+#~ "Nové zariadenie je teraz synchronizované s všetkými ostatnými "
+#~ "zariadeniami pripojenými k vášmu účtu Firefox Account."
+
+#~ msgid ""
+#~ "This is an automated email; if you didn't add a new device to your "
+#~ "Firefox Account, you should change your password immediately at <a "
+#~ "href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgstr ""
+#~ "Toto je automatický e-mail. Ak ste k svojmu účtu Firefox Account "
+#~ "nepridávali žiadne zariadenie, mali by ste okamžite zmeniť svoje heslo na "
+#~ "<a href='%(resetLink)s'>%(resetLink)s</a>."
+
+#~ msgid ""
+#~ "This is an automated email; if you didn't change the password to your "
+#~ "Firefox Account, you should reset it immediately at <a "
+#~ "href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgstr ""
+#~ "Toto je automatický e-mail. Ak ste heslo k svojmu účtu Firefox Account "
+#~ "nemenili, mali by ste ho okamžite obnoviť na <a href='%(resetLink)s'>"
+#~ "%(resetLink)s</a>."
+
+#~ msgid ""
+#~ "This is an automated email; if you didn't reset the password to your "
+#~ "Firefox Account, you should reset it immediately at <a "
+#~ "href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgstr ""
+#~ "Toto je automatický e-mail. Ak ste heslo k svojmu účtu Firefox Account "
+#~ "neobnovovali, mali by ste ho okamžite obnoviť na <a href='%(resetLink)s'>"
+#~ "%(resetLink)s</a>."
+
+#~ msgid "A new device is now syncing to your Firefox Account"
+#~ msgstr ""
+#~ "Nové zariadenie sa teraz synchronizuje s vašim účtom Firefox Account"
 
 #~ msgid "Firefox Account Activation"
 #~ msgstr "Aktivácia konta Firefox Account"
-
-#~ msgid "Welcome!"
-#~ msgstr "Vitajte!"
-
-#~ msgid "Please activate your account by confirming this email address."
-#~ msgstr "Prosím aktivujte vaše konto potvrdením nasledovnej e-mailovej adresy."
-
-#~ msgid "Activate now"
-#~ msgstr "Aktivovať"
-
-#~ msgid "Alternatively:"
-#~ msgstr "Alternatívne:"
 
 #~ msgid ""
 #~ "For more information, please visit <a href='https://support.mozilla.org' "
 #~ "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
 #~ msgstr ""
-#~ "Pre viac informácií prosím navštívte stránku <a "
-#~ "href='https://support.mozilla.org' style='color: #0095dd; text-decoration: "
-#~ "none;'>Mozilla Support</a>"
-
-#~ msgid "Verify Email"
-#~ msgstr "Overenie e-mailu"
-
-#~ msgid "Verify your email to finish your Firefox Account registration"
-#~ msgstr ""
-#~ "Overením vášho e-mailu dokončíte registráciu vášho konta Firefox Account"
-
-#~ msgid "Activate now:"
-#~ msgstr "Aktivovať:"
-
-#~ msgid ""
-#~ "A device began syncing with the devices connected to your Firefox Account."
-#~ msgstr ""
-#~ "Zariadenie sa začalo synchronizovať s ostatnými zariadeniami pripojenými k "
-#~ "vášmu účtu Firefox Account."
-
-#~ msgid "Firefox Account Verified"
-#~ msgstr "Účet Firefox Account bol overený"
+#~ "Pre viac informácií prosím navštívte stránku <a href='https://support."
+#~ "mozilla.org' style='color: #0095dd; text-decoration: none;'>Mozilla "
+#~ "Support</a>"
 
 #~ msgid ""
 #~ "For more information, please visit <a href='%(supportUrl)s' style='color: "
 #~ "#0095dd; text-decoration: none;'>Mozilla Support</a>"
 #~ msgstr ""
-#~ "Pre viac informácií prosím navštívte <a href='%(supportUrl)s' style='color: "
-#~ "#0095dd; text-decoration: none;'>web podpory Mozilla</a>"
-
-#~ msgid "For more information, please visit %(supportUrl)s"
-#~ msgstr "Pre viac informácií prosím navštívte stránku %(supportUrl)s"
+#~ "Pre viac informácií prosím navštívte <a href='%(supportUrl)s' "
+#~ "style='color: #0095dd; text-decoration: none;'>web podpory Mozilla</a>"
 
 #~ msgid "New sign-in to Sync"
 #~ msgstr "Nové prihlásenie do služby Sync"
@@ -438,8 +461,8 @@ msgstr "Nové zariadenie sa teraz synchronizuje s vašim účtom Firefox Account
 #~ msgstr "Systém nie je dostupný, skúste to znova."
 
 #~ msgid ""
-#~ "We are currently performing some maintenance on the system, and will return "
-#~ "momentarily."
+#~ "We are currently performing some maintenance on the system, and will "
+#~ "return momentarily."
 #~ msgstr "V systéme práve prebieha údržba. O chvíľu sme späť."
 
 #~ msgid "Reset Password Request"
