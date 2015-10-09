@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -130,8 +130,8 @@ msgstr ""
 
 #: templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox"
+" Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
@@ -269,8 +269,8 @@ msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
-"Страницата, която търсите я няма. Уведомени сме и ще поправим всички счупени "
-"връзки."
+"Страницата, която търсите я няма. Уведомени сме и ще поправим всички счупени"
+" връзки."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
@@ -285,7 +285,8 @@ msgstr "Грешка 500"
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
-msgstr "О Боже, нещо там се обърка. Уведомени сме и ще поработим над проблема."
+msgstr ""
+"О Боже, нещо там се обърка. Уведомени сме и ще поработим над проблема."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -307,12 +308,13 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+"You are using an <strong>outdated</strong> browser. Please <a "
+"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+"experience."
 msgstr ""
-"Вие използвате <strong>остарял</strong> браузър. Моля, <a href=\"http://"
-"browsehappy.com/\">надстройте браузъра си</a> за подобряване на "
-"възможностите."
+"Вие използвате <strong>остарял</strong> браузър. Моля, <a "
+"href=\"http://browsehappy.com/\">надстройте браузъра си</a> за подобряване "
+"на възможностите."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -337,11 +339,11 @@ msgstr "Условия на услугата"
 #~ msgstr "Нулиране на парола"
 
 #~ msgid ""
-#~ "For more information, please visit <a href='https://support.mozilla."
-#~ "org'>Mozilla Support</a>"
+#~ "For more information, please visit <a "
+#~ "href='https://support.mozilla.org'>Mozilla Support</a>"
 #~ msgstr ""
-#~ "За повече информация, моля, посетете <a href='https://support.mozilla."
-#~ "org'>Mozilla поддръжка</a>"
+#~ "За повече информация, моля, посетете <a "
+#~ "href='https://support.mozilla.org'>Mozilla поддръжка</a>"
 
 #~ msgid "Reset password:"
 #~ msgstr "Нулиране на парола:"
@@ -352,8 +354,7 @@ msgstr "Условия на услугата"
 #~ msgid "Almost there"
 #~ msgstr "На финалната права"
 
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
 #~ msgstr ""
 #~ "%(email)s, натискането на бутон ви дели от потвърждаване на вашия Firefox "
 #~ "Account."
