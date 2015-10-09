@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-08 20:44+0000\n"
-"PO-Revision-Date: 2015-09-26 21:14+0000\n"
+"PO-Revision-Date: 2015-10-09 00:33+0000\n"
 "Last-Translator: Richard Alexander von Moltke N <ravmn@ravmn.cl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_CL\n"
@@ -505,7 +505,7 @@ msgstr "Aprender más."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "Choose What to Sync"
-msgstr ""
+msgstr "Elije que sincronizar"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 #: app/scripts/templates/complete_reset_password.mustache:17
@@ -844,7 +844,7 @@ msgstr "Iniciar restablecimiento"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Cuentas de Firefox"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
