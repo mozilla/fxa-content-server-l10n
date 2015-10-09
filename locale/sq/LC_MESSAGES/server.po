@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-08 20:44+0000\n"
-"PO-Revision-Date: 2015-10-09 19:37+0200\n"
-"Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
+"PO-Revision-Date: 2015-10-09 16:40+0000\n"
+"Last-Translator: Besnik <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1420916056.0\n"
+"X-POOTLE-MTIME: 1444408812.0\n"
 
 #: templates/_pending.txt:1
 msgid "Still there?"
@@ -159,7 +159,7 @@ msgstr "Lidhët me sukses pajisjen tuaj të parë me Llogarinë tuaj Firefox. Ta
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr "Bëni që të Njëkohësoni:"
+msgstr "Bëni hyrjen që të Njëkohësoni:"
 
 #: templates/reset.html:2
 #: templates/reset.txt:1
