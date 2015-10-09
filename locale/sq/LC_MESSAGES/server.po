@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-08 20:44+0000\n"
-"PO-Revision-Date: 2015-10-09 19:22+0200\n"
+"PO-Revision-Date: 2015-10-09 19:37+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -159,7 +159,7 @@ msgstr "Lidhët me sukses pajisjen tuaj të parë me Llogarinë tuaj Firefox. Ta
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr "Bëni hyrjen që të Njëkohësoni:"
+msgstr "Bëni që të Njëkohësoni:"
 
 #: templates/reset.html:2
 #: templates/reset.txt:1
