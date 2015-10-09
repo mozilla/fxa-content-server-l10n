@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-08 20:44+0000\n"
-"PO-Revision-Date: 2015-10-09 21:05+0000\n"
+"PO-Revision-Date: 2015-10-09 21:32+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
@@ -33,6 +33,10 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for <a "
 "href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
 msgstr ""
+"شما با موفقیت اولین دستگاه را به حساب فایرفاکس خود متصل کردید. حالا "
+"می‌توانید از سایر دستگاه‌های خود، شامل فایرفاکس برای <a "
+"href='%(androidUrl)s'>اندروید</a> و <a href='%(iosUrl)s'>iOS</a> به "
+"هم‌گام‌سازی متصل شوید."
 
 #: templates/_pending.txt:4
 msgid ""
@@ -40,6 +44,9 @@ msgid ""
 "make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
 "Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
 msgstr ""
+"شما با موفقیت اولین دستگاه را به حساب فایرفاکس خود متصل کردید. برای استفاده "
+"کامل از هم‌گام‌سازی، هر دستگاه <a href='%(androidUrl)s'>فایرفاکس برای "
+"اندروید</a> یا <a href='%(iosUrl)s'>فایرفاکس برای iOS</a> را هم متصل کنید."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -161,6 +168,9 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for "
 "Android and iOS."
 msgstr ""
+"شما با موفقیت اولین دستگاه خود را به حساب فایرفاکس خود متصل کردید. حالا شما "
+"می‌توانید به هم‌گام‌سازی در دستگاه‌های دیگر خود، شامل فایرفاکس برای اندروید "
+"و iOS، وارد شوید."
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
@@ -210,6 +220,8 @@ msgid ""
 "Recently you created a Firefox Account, but never verified it. Please "
 "activate your account by confirming this email address."
 msgstr ""
+"اخیرا شما یک حساب فایرفاکس ساخته‌اید، ولی هیچوقت آن را تایید نکرده‌اید. لطفا"
+" اینکار را با تایید پست‌الکترونیکی خود انجام دهید."
 
 #: templates/verification_reminder.html:4 templates/verify.html:4
 msgid "Activate now"
@@ -217,27 +229,27 @@ msgstr "هم‌اکنون فعال‌سازی شود"
 
 #: templates/verification_reminder.html:8 templates/verify.html:8
 msgid "Verify Email"
-msgstr ""
+msgstr "تایید پست‌الکترونیکی"
 
 #: templates/verification_reminder.html:9 templates/verify.html:9
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
+msgstr "پست‌الکترونیکی خود را برای تکمیل عضویت در حساب فایرفاکس تایید کنید"
 
 #: templates/verification_reminder.txt:3
 msgid "Activate Now:"
-msgstr ""
+msgstr "حالا فعال کن:"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
-msgstr ""
+msgstr "خوش‌آمدید!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "لطفا حساب خود را با تایید این پست‌الکترونیکی فعال کنید."
 
 #: templates/verify.txt:3
 msgid "Activate now:"
-msgstr ""
+msgstr "حالا فعال کن:"
 
 #: mailer.js:126 mailer.js:317
 msgid "Verify your Firefox Account"
@@ -261,11 +273,11 @@ msgstr "گذرواژه حساب فایرفاکس شما بازنشانی شده 
 
 #: mailer.js:258
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "حالا به فایرفاکس وارد شوید"
 
 #: mailer.js:280
 msgid "Firefox Account Verified"
-msgstr ""
+msgstr "حساب فایرفاکس تایید شد"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
