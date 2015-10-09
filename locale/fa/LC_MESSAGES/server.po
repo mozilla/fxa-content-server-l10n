@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-08 20:44+0000\n"
-"PO-Revision-Date: 2015-08-11 14:26\n"
+"PO-Revision-Date: 2015-10-09 21:05+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
@@ -17,13 +17,15 @@ msgstr ""
 
 #: templates/_pending.txt:1
 msgid "Still there?"
-msgstr ""
+msgstr "هنوز اینجایی؟"
 
 #: templates/_pending.txt:2
 msgid ""
 "A while ago you created a Firefox Account, but never verified it. Click the "
 "link below to activate your account."
 msgstr ""
+"مدتی پیش شما یک حساب فایرفاکس ساختید، ولی هیچ وقت آن را تایید نکردید. روی "
+"لینک زیر کلیک کنید تا آن را فعال کنید."
 
 #: templates/_pending.txt:3 templates/post_verify.html:3
 msgid ""
@@ -41,11 +43,11 @@ msgstr ""
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "اتصال یک دستگاه دیگر"
 
 #: templates/_pending.txt:6
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "ورود به هم‌گام‌سازی"
 
 #: templates/new_sync_device.html:1 templates/password_changed.html:1
 #: templates/password_reset.html:1 templates/post_verify.html:1
@@ -69,6 +71,8 @@ msgstr "اطلاعیه‌ی فعالیت حساب"
 msgid ""
 "A device began syncing with the devices connected to your Firefox Account."
 msgstr ""
+"یک دستگاه شروع به هم‌گام‌سازی با دستگاه‌های متصل شده به حساب فایرفاکس شما "
+"کرده است."
 
 #: templates/new_sync_device.html:4 templates/password_changed.html:4
 #: templates/password_reset.html:4 templates/post_verify.html:6
@@ -92,6 +96,8 @@ msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
 msgstr ""
+"برای اطلاعات بیشتر، لطفا <a %(supportLinkAttributes)s>پشتیبانی موزیلا</a> را"
+" مشاهده کنید"
 
 #: templates/new_sync_device.txt:3
 msgid ""
@@ -106,7 +112,7 @@ msgstr ""
 #: templates/reset.txt:5 templates/unlock.txt:4
 #: templates/verification_reminder.txt:5 templates/verify.txt:5
 msgid "For more information, please visit %(supportUrl)s"
-msgstr ""
+msgstr "برای اطلاعات بیشتر لطفا به %(supportUrl)s نگاهی بندازید"
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
@@ -142,12 +148,12 @@ msgstr ""
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
-msgstr ""
+msgstr "حساب تایید شد!"
 
 #: templates/post_verify.html:5 templates/reset.html:5 templates/unlock.html:5
 #: templates/verification_reminder.html:5 templates/verify.html:5
 msgid "Alternatively:"
-msgstr ""
+msgstr "به عنوان جایگزین:"
 
 #: templates/post_verify.txt:2
 msgid ""
@@ -158,7 +164,7 @@ msgstr ""
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr ""
+msgstr "ورود به هم‌گام‌سازی:"
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Are you sure?"
@@ -170,11 +176,11 @@ msgstr "لطفا تایید کنید که می‌خواهید گذرواژه ر�
 
 #: templates/reset.html:4
 msgid "Reset password now"
-msgstr ""
+msgstr "هم‌اکنون گذرواژه بازنشانی شود"
 
 #: templates/reset.txt:3
 msgid "Reset password now:"
-msgstr ""
+msgstr "هم‌اکنون گذرواژه بازنشانی شود:"
 
 #: templates/unlock.html:3 templates/unlock.txt:1
 msgid ""
@@ -196,7 +202,7 @@ msgstr "تایید حساب:"
 #: templates/verification_reminder.html:2
 #: templates/verification_reminder.txt:1
 msgid "Hello again."
-msgstr ""
+msgstr "دوباره سلام."
 
 #: templates/verification_reminder.html:3
 #: templates/verification_reminder.txt:2
@@ -207,7 +213,7 @@ msgstr ""
 
 #: templates/verification_reminder.html:4 templates/verify.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "هم‌اکنون فعال‌سازی شود"
 
 #: templates/verification_reminder.html:8 templates/verify.html:8
 msgid "Verify Email"
@@ -284,7 +290,7 @@ msgstr "خانه"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr "خطا ۵۰۰"
+msgstr "خطا 500"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
@@ -295,7 +301,7 @@ msgstr ""
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr "خطا ۵۰۲"
+msgstr "خطا 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"

@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-08 20:44+0000\n"
-"PO-Revision-Date: 2015-09-01 11:43\n"
-"Last-Translator: reza.hbi <reza.hbi@gmail.com>\n"
+"PO-Revision-Date: 2015-10-09 20:55+0000\n"
+"Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -104,7 +104,7 @@ msgstr "بازنشانی گذرواژه با موفقیت انجام شد. بر�
 
 #: app/scripts/views/ready.js:31
 msgid "Firefox Sync will begin momentarily"
-msgstr ""
+msgstr "هم‌گام‌سازی فایرفاکس تا لحظاتی دیگر شروع می‌شود"
 
 #: app/scripts/views/ready.js:40
 msgid "Account unlocked"
@@ -112,15 +112,15 @@ msgstr "حساب باز شد"
 
 #: app/scripts/views/ready.js:45
 msgid "Welcome back"
-msgstr ""
+msgstr "خوش‌آمدید"
 
 #: app/scripts/views/ready.js:46
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "هم‌گام‌سازی فایرفاکس لحظاتی دیگر ادامه پیدا می‌کند"
 
 #: app/scripts/views/ready.js:56
 msgid "Welcome to Sync"
-msgstr ""
+msgstr "به هم‌گام‌سازی خوش‌آمدید"
 
 #: app/scripts/views/ready.js:61
 msgid "Account verified"
@@ -499,7 +499,7 @@ msgstr "اطلاعات بیشتر."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "Choose What to Sync"
-msgstr ""
+msgstr "چه چیزی را می‌خواهید هم‌گام کنید"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 #: app/scripts/templates/complete_reset_password.mustache:17
@@ -621,7 +621,7 @@ msgstr "یک ایمیل حاوی پیوند تایید به آدرس %(email)s �
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
-msgstr ""
+msgstr "بازکردن Gmail"
 
 #: app/scripts/templates/confirm.mustache:7
 #: app/scripts/templates/confirm_account_unlock.mustache:6
@@ -806,7 +806,7 @@ msgstr "موفقیت"
 
 #: app/scripts/templates/ready.mustache:2
 msgid "Sync preferences"
-msgstr ""
+msgstr "ترجیحات هم‌گام‌سازی"
 
 #: app/scripts/templates/ready.mustache:6
 msgid "Proceed"
@@ -836,7 +836,7 @@ msgstr "آغاز راه‌اندازی مجدد"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "حساب‌های فایرفاکس"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
@@ -1067,21 +1067,23 @@ msgstr "روز"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "وارد شدن به هم‌گام‌سازی"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid ""
 "Choose the account you would like to use to sync your tabs, bookmarks, "
 "passwords and more."
 msgstr ""
+"حسابی که می‌خواهید برای هم‌گام‌سازی زبانه‌ها، نشانک‌ها، گذرواژه‌ها و غیره "
+"خود از آن استفاده کنید را وارد کنید."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
-msgstr ""
+msgstr "استفاده از OpenID"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr ""
+msgstr "استفاده از حساب فایرفاکس"
 
 #~ msgid "Manage account"
 #~ msgstr "مدیریت حساب"
