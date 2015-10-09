@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-08 20:44+0000\n"
-"PO-Revision-Date: 2015-10-01 20:39+0000\n"
+"PO-Revision-Date: 2015-10-09 05:03+0000\n"
 "Last-Translator: Gion-Andri Cantieni <gion-andri@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
@@ -508,7 +508,7 @@ msgstr "Dapli infurmaziuns."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "Choose What to Sync"
-msgstr ""
+msgstr "Tscherna tge che duai vegnir sincronisà"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 #: app/scripts/templates/complete_reset_password.mustache:17
@@ -849,7 +849,7 @@ msgstr "Cumenzar da redefinir"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Contos da Firefox"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
