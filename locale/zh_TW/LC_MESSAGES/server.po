@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-08 20:44+0000\n"
-"PO-Revision-Date: 2015-09-19 16:58+0000\n"
+"PO-Revision-Date: 2015-10-09 03:26+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1442681900.0\n"
+"X-POOTLE-MTIME: 1444361212.0\n"
 
 #: templates/_pending.txt:1
 msgid "Still there?"
@@ -86,9 +86,7 @@ msgstr "有一台裝置已開始與連結到您 Firefox 帳號的裝置進行同
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
-msgstr ""
-"這是電腦自動發送的郵件，若您並未要求重設密碼而突然收到這封信，不需要做任何"
-"事。"
+msgstr "這是電腦自動發送的郵件，若您突然收到這封信，不需要做任何事。"
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
@@ -97,7 +95,7 @@ msgstr ""
 msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
-msgstr ""
+msgstr "若需更多資訊，請前往 <a %(supportLinkAttributes)s>Mozilla 技術支援站</a>"
 
 #: templates/new_sync_device.txt:3
 msgid ""
@@ -264,7 +262,7 @@ msgstr "已重設您的 Firefox 帳號密碼"
 
 #: mailer.js:258
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "新登入至 Firefox"
 
 #: mailer.js:280
 msgid "Firefox Account Verified"
