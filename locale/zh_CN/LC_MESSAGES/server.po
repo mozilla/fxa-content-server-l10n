@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-08 20:44+0000\n"
-"PO-Revision-Date: 2015-09-10 05:08+0000\n"
+"PO-Revision-Date: 2015-10-09 01:40+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1441861696.0\n"
+"X-POOTLE-MTIME: 1444354834.0\n"
 
 #: templates/_pending.txt:1
 msgid "Still there?"
@@ -97,7 +97,7 @@ msgstr ""
 msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
-msgstr ""
+msgstr "欲了解更多信息，请访问 <a %(supportLinkAttributes)s>Mozilla 技术支持</a>"
 
 #: templates/new_sync_device.txt:3
 msgid ""
@@ -265,7 +265,7 @@ msgstr "您的 Firefox 账号密码已被重置"
 
 #: mailer.js:258
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "新的登录 Firefox"
 
 #: mailer.js:280
 msgid "Firefox Account Verified"
