@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -11,8 +11,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1440955868.0\n"
 
@@ -168,8 +167,7 @@ msgid "Display name updated"
 msgstr "Numele afișat actualizat"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "Cont blocat. <a href=\"/confirm_account_unlock\">Trimite e-mailul de "
 "deblocare</a>"
@@ -355,7 +353,8 @@ msgstr "Introdu o adresă de e-mail validă. firefox.com nu oferă e-mail."
 
 #: app/scripts/lib/auth-errors.js:196
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "Conturile Firefox pot fi plasate într-un IFRAME pe site-urile aprobate"
+msgstr ""
+"Conturile Firefox pot fi plasate într-un IFRAME pe site-urile aprobate"
 
 #: app/scripts/lib/auth-errors.js:204
 msgid "/force_auth requires an email"
@@ -455,14 +454,15 @@ msgstr "Sincronizare Firefox"
 
 #: app/scripts/lib/strings.js:19
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr ""
-"Dacă vei continua, ești de acord cu <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">termenii serviciului</a> și <a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">nota privind politica de confidențialitate</a> a %(serviceName)s "
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
 "(%(serviceUri)s)."
+msgstr ""
+"Dacă vei continua, ești de acord cu <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">termenii serviciului</a> și <a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">nota privind politica de confidențialitate</a> a "
+"%(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:23
 #: app/scripts/templates/choose_what_to_sync.mustache:2
@@ -502,8 +502,8 @@ msgstr "Nu se poate crea contul"
 msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr ""
-"Trebuie să îndeplinești anumite cerințe de vârstă pentru a crea un cont&nbsp;"
-"Firefox"
+"Trebuie să îndeplinești anumite cerințe de vârstă pentru a crea un "
+"cont&nbsp;Firefox"
 
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
@@ -547,8 +547,8 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
-"Linkul pe care ai dat clic avea caractere lipsă, iar acest lucru ar putea fi "
-"din vina clientului de e-mail. Copiază adresa cu grijă și încearcă din nou."
+"Linkul pe care ai dat clic avea caractere lipsă, iar acest lucru ar putea fi"
+" din vina clientului de e-mail. Copiază adresa cu grijă și încearcă din nou."
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
@@ -647,8 +647,8 @@ msgstr "E-mailul de deblocare trimis"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification"
+" link sent to %(email)s"
 msgstr ""
 "Din motive de securitate, contul a fost blocat. Pentru a folosi din nou "
 "contul, te rugăm să reverifici contul printr-un clic pe linkul trimis către "
@@ -727,13 +727,14 @@ msgstr "Ai pierdut parola?"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:15
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
-"Continuând, ești de acord cu <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">termenii serviciului</a> și <a id=\"fxa-pp\" href=\"/legal/privacy"
-"\">politica de confidențialitate</a> ale serviciilor cloud Firefox."
+"Continuând, ești de acord cu <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">termenii serviciului</a> și <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">politica de confidențialitate</a> ale serviciilor "
+"cloud Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -1120,13 +1121,13 @@ msgstr "Folosește cont Firefox"
 #~ msgstr "Scrie adresa de e-mail pentru a reseta&nbsp;parola contului."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data "
-#~ "from our servers. A new Sync backup will be created from your local "
-#~ "browsing data."
+#~ "For security reasons, resetting your password will erase your Sync data from"
+#~ " our servers. A new Sync backup will be created from your local browsing "
+#~ "data."
 #~ msgstr ""
-#~ "Din motive de securitate, resetarea parolei va șterge datele de "
-#~ "sincronizare de pe serverele noastre. Va fi creată o copie de siguranță "
-#~ "pentru Sincronizare din datele locale de navigare."
+#~ "Din motive de securitate, resetarea parolei va șterge datele de sincronizare"
+#~ " de pe serverele noastre. Va fi creată o copie de siguranță pentru "
+#~ "Sincronizare din datele locale de navigare."
 
 #~ msgid "You are signed in as"
 #~ msgstr "Ești autentificat(ă) ca"
@@ -1140,9 +1141,7 @@ msgstr "Folosește cont Firefox"
 #~ msgid "Password changed"
 #~ msgstr "Parolă schimbată"
 
-#~ msgid ""
-#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
-#~ "email</a>."
+#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
 #~ msgstr ""
 #~ "Cont neverificat. <a href=\"#\" id=\"resend\">Retrimite emailul de "
 #~ "verificare</a>."
