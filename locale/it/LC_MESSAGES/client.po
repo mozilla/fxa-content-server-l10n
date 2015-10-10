@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-08 20:44+0000\n"
-"PO-Revision-Date: 2015-09-27 16:49+0000\n"
-"Last-Translator: Sara <sara.todaro@mozillaitalia.org>\n"
+"PO-Revision-Date: 2015-10-10 14:51+0000\n"
+"Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1443372593.0\n"
+"X-POOTLE-MTIME: 1444488672.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -509,7 +509,7 @@ msgstr "Ulteriori informazioni."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "Choose What to Sync"
-msgstr ""
+msgstr "Scegli che cosa vuoi sincronizzare"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 #: app/scripts/templates/complete_reset_password.mustache:17
@@ -850,7 +850,7 @@ msgstr "Avvia ripristino"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Account Firefox"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
