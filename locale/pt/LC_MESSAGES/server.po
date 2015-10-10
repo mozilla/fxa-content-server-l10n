@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-08 20:44+0000\n"
-"PO-Revision-Date: 2015-09-13 14:21+0000\n"
+"PO-Revision-Date: 2015-10-10 01:54+0000\n"
 "Last-Translator: Cláudio <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1442154067.0\n"
+"X-POOTLE-MTIME: 1444442046.0\n"
 
 #: templates/_pending.txt:1
 msgid "Still there?"
@@ -100,6 +100,8 @@ msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
 msgstr ""
+"Para mais informação, por favor visite o <a %(supportLinkAttributes)s>Apoio "
+"da Mozilla</a>"
 
 #: templates/new_sync_device.txt:3
 msgid ""
@@ -270,7 +272,7 @@ msgstr "A palavra-passe da sua Conta Firefox foi reposta"
 
 #: mailer.js:258
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "Novo início de sessão para o Firefox"
 
 #: mailer.js:280
 msgid "Firefox Account Verified"
