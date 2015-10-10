@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-08 20:44+0000\n"
-"PO-Revision-Date: 2015-09-22 17:40+0000\n"
+"PO-Revision-Date: 2015-10-10 13:09+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1442943635.0\n"
+"X-POOTLE-MTIME: 1444482586.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -103,7 +103,7 @@ msgstr "Parola başarıyla sıfırlandı. Devam etmek için giriş yapın."
 
 #: app/scripts/views/ready.js:31
 msgid "Firefox Sync will begin momentarily"
-msgstr ""
+msgstr "Firefox Sync az sonra başlayacak"
 
 #: app/scripts/views/ready.js:40
 msgid "Account unlocked"
@@ -111,15 +111,15 @@ msgstr "Hesap kilitlendi"
 
 #: app/scripts/views/ready.js:45
 msgid "Welcome back"
-msgstr ""
+msgstr "Yeniden hoş geldiniz"
 
 #: app/scripts/views/ready.js:46
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "Firefox Sync az sonra devam edecek"
 
 #: app/scripts/views/ready.js:56
 msgid "Welcome to Sync"
-msgstr ""
+msgstr "Sync'e hoş geldiniz"
 
 #: app/scripts/views/ready.js:61
 msgid "Account verified"
@@ -500,7 +500,7 @@ msgstr "Daha fazla bilgi edinin."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "Choose What to Sync"
-msgstr ""
+msgstr "Nelerin eşitleneceğini seçin"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 #: app/scripts/templates/complete_reset_password.mustache:17
@@ -621,7 +621,7 @@ msgstr "%(email)s adresine bir doğrulama bağlantısı gönderildi"
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
-msgstr ""
+msgstr "Gmail'i aç"
 
 #: app/scripts/templates/confirm.mustache:7
 #: app/scripts/templates/confirm_account_unlock.mustache:6
@@ -807,7 +807,7 @@ msgstr "Başarılı"
 
 #: app/scripts/templates/ready.mustache:2
 msgid "Sync preferences"
-msgstr ""
+msgstr "Sync tercihleri"
 
 #: app/scripts/templates/ready.mustache:6
 msgid "Proceed"
@@ -837,7 +837,7 @@ msgstr "Sıfırlamayı başlat"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Firefox Hesapları"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
@@ -1066,21 +1066,23 @@ msgstr "Gün"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Sync'e giriş yapın"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid ""
 "Choose the account you would like to use to sync your tabs, bookmarks, "
 "passwords and more."
 msgstr ""
+"Sekmelerinizi, yer imlerinizi, parolalarınızı ve dahasını eşitlemek için "
+"kullanacağınız hesabı seçin."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
-msgstr ""
+msgstr "OpenID kullan"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr ""
+msgstr "Firefox Hesabı'mı kullan"
 
 #~ msgid "Manage account"
 #~ msgstr "Hesabı yönet"
