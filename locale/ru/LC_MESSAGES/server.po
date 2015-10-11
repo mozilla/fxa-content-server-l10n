@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-08 20:44+0000\n"
-"PO-Revision-Date: 2015-09-15 21:11+0300\n"
-"Last-Translator: Alexander L. Slovesnik <unghost@mozilla-russia.org>\n"
+"PO-Revision-Date: 2015-10-11 08:07+0000\n"
+"Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.4\n"
-"X-POOTLE-MTIME: 1436622854.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1444550846.0\n"
 
 #: templates/_pending.txt:1
 msgid "Still there?"
@@ -103,6 +103,8 @@ msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
 msgstr ""
+"Для получения более подробной информации, посетите <a %"
+"(supportLinkAttributes)s>Поддержку Mozilla</a>"
 
 #: templates/new_sync_device.txt:3
 msgid ""
@@ -276,7 +278,7 @@ msgstr "Пароль вашего Аккаунта Firefox был восстан
 
 #: mailer.js:258
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "Новый вход в Firefox"
 
 #: mailer.js:280
 msgid "Firefox Account Verified"
