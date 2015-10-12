@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-08 20:44+0000\n"
-"PO-Revision-Date: 2015-09-09 16:26+0000\n"
+"PO-Revision-Date: 2015-10-11 17:53+0000\n"
 "Last-Translator: az@kth.se <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv_SE\n"
@@ -102,6 +102,7 @@ msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
 msgstr ""
+"För mer information, besök <a %(supportLinkAttributes)s>Mozilla Support</a>"
 
 #: templates/new_sync_device.txt:3
 msgid ""
@@ -271,7 +272,7 @@ msgstr "Lösenordet till ditt Firefox-konto har återställts"
 
 #: mailer.js:258
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "Ny inloggning till Firefox"
 
 #: mailer.js:280
 msgid "Firefox Account Verified"
