@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-08 20:44+0000\n"
-"PO-Revision-Date: 2015-09-23 09:39+0000\n"
+"PO-Revision-Date: 2015-10-12 11:48+0000\n"
 "Last-Translator: Wim <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1443001164.0\n"
+"X-POOTLE-MTIME: 1444650515.0\n"
 
 #: templates/_pending.txt:1
 msgid "Still there?"
@@ -101,6 +101,8 @@ msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
 msgstr ""
+"Besykje <a %(supportLinkAttributes)s>Mozilla Support</a> foar mear "
+"ynformaasje"
 
 #: templates/new_sync_device.txt:3
 msgid ""
@@ -274,7 +276,7 @@ msgstr "Jo Firefox-accountwachtwurd is opnij ynsteld"
 
 #: mailer.js:258
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "Nije oanmelding by Firefox"
 
 #: mailer.js:280
 msgid "Firefox Account Verified"
