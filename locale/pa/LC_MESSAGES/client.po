@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-08 20:44+0000\n"
-"PO-Revision-Date: 2015-10-10 13:52+0000\n"
+"PO-Revision-Date: 2015-10-12 17:28+0000\n"
 "Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1444485164.0\n"
+"X-POOTLE-MTIME: 1444670881.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -467,7 +467,7 @@ msgstr "ਟੈਬਸ"
 #: app/scripts/lib/strings.js:26
 #: app/scripts/templates/choose_what_to_sync.mustache:8
 msgid "Passwords"
-msgstr ""
+msgstr "ਪਾਸਵਰਡ"
 
 #: app/scripts/lib/strings.js:27
 #: app/scripts/templates/choose_what_to_sync.mustache:10
@@ -820,14 +820,17 @@ msgid ""
 "data on your devices will remain untouched. Begin the reset process by "
 "entering your email below."
 msgstr ""
+"ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਦੁਬਾਰਾ ਸੈੱਟ ਕਰਨ ਵੇਲੇ ਸਾਡਾ ਸਰਵਰ ਤੁਹਾਡੇ ਬਰਾਊਜ਼ਿੰਗ ਅੰਕੜਿਆਂ "
+"ਨੂੰ ਮਿਟਾ ਦੇਵੇਗਾ । ਤੁਹਾਡੇ ਉਪਕਰਨ ਉਤੇ ਹੋਰ ਕੋਈ ਵੀ ਅੰਕੜਾ ਅਣਛੂਹਿਆ ਰਹੇਗਾ । ਦੁਬਾਰਾ "
+"ਸੈੱਟ ਕਰਨ ਦੀ ਕਿਰਿਆ ਨੂੰ ਥੱਲੇ ਆਪਣੀ ਈ-ਮੇਲ ਭਰਨ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ ।"
 
 #: app/scripts/templates/reset_password.mustache:5
 msgid "Begin reset"
-msgstr ""
+msgstr "ਮੁੜ-ਸੈਟ ਸ਼ੁਰੂ ਕਰੋ"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
@@ -840,7 +843,7 @@ msgstr "%(serviceName)s ਨਾਲ ਜਾਰੀ ਰੱਖੋ"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr ""
+msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਵਿੱਚ ਸਾਈਨ ਇਨ ਕਰਕੇ ਆਪਣੇ ਸਿੰਕ ਡਾਟੇ ਨੂੰ ਮਾਈਗਰੇਟ ਕਰੋ।"
 
 #: app/scripts/templates/sign_in.mustache:13
 #: app/scripts/templates/sign_in.mustache:16
@@ -858,7 +861,7 @@ msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਬਣਾਓ"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr ""
+msgstr "ਨਵਾਂ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਬਣਾ ਕੇ ਆਪਣੇ ਸਿੰਕ ਡਾਟੇ ਨੂੰ ਮਾਈਗਰੇਟ ਕਰੋ।"
 
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/communication_preferences.mustache:6
@@ -876,7 +879,7 @@ msgstr "ਸਾਇਨ ਅੱਪ"
 
 #: app/scripts/templates/sign_up.mustache:25
 msgid "Have an account? Sign in."
-msgstr ""
+msgstr "ਖਾਤਾ ਹੈ? ਸਾਈਨ ਇਨ ਕਰੋ।"
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
@@ -898,7 +901,7 @@ msgstr "ਬਦਲੋ"
 
 #: app/scripts/templates/settings/avatar.mustache:4
 msgid "Add"
-msgstr ""
+msgstr "ਜੋੜੋ"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -918,11 +921,11 @@ msgstr "ਗਵਤਾਰ"
 
 #: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Clear"
-msgstr ""
+msgstr "ਸਾਫ਼ ਕਰੋ"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5
 msgid "Done"
-msgstr ""
+msgstr "ਮੁਕੰਮਲ"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
@@ -967,7 +970,7 @@ msgstr "ਖਾਤਾ ਹਟਾਓ"
 
 #: app/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete"
-msgstr ""
+msgstr "ਹਟਾਓ"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid ""
@@ -977,17 +980,19 @@ msgstr "ਕੀ ਤੁਸੀਂ ਸੱਚਮੁੱਚ ਆਪਣਾ ਖਾਤਾ �
 #: app/scripts/templates/settings/display_name.mustache:1
 #: app/scripts/templates/settings/display_name.mustache:4
 msgid "Display name"
-msgstr ""
+msgstr "ਨਾਮ ਦਿਖਾਓ "
 
 #: app/scripts/templates/settings/display_name.mustache:3
 msgid ""
 "Choose the name you would like to appear in Firefox and when managing your "
 "account."
 msgstr ""
+"ਨਾਮ ਚੁਣੋ ਜੋ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਕਿ ਤੁਹਾਡਾ ਖਾਤਾ ਸੰਭਾਲ ਵੇਲੇ ਅਤੇ ਫਾਇਰਫਾਕਸ ਵਿੱਚ "
+"ਦਿਸੇ  ।"
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
-msgstr ""
+msgstr "ਤੁਹਾਡੀ ਉਮਰ ਕਿੰਨੀ ਹੈ ?"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2
 msgid "Year of birth"
@@ -1055,21 +1060,23 @@ msgstr "ਦਿਨ"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "ਸਿੰਕ ਵਿੱਚ ਸਾਈਨ ਇਨ ਕਰੋ ।"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid ""
 "Choose the account you would like to use to sync your tabs, bookmarks, "
 "passwords and more."
 msgstr ""
+"ਖਾਤਾ ਚੁਣੋ, ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਆਪਣੇ ਟੈਬ, ਬੁੱਕਮਾਰਕ, ਪਾਸਵਰਡ ਤੇ ਹੋਰਾਂ ਨੂੰ ਸਿੰਕ ਕਰਨ ਲਈ "
+"ਵਰਤਣਾ ਚਾਹੁੰਦੇ ਹੋ।"
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
-msgstr ""
+msgstr "OpenID ਵਰਤੋ"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr ""
+msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਵਰਤੋਂ"
 
 #~ msgid "Manage account"
 #~ msgstr "ਤੁਸੀਂ ਸਾਇਨ ਇਨ ਹੋਏ ਹੋ: %(email)s"
