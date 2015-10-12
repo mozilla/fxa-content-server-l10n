@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-08 20:44+0000\n"
-"PO-Revision-Date: 2015-08-29 14:18+0000\n"
+"PO-Revision-Date: 2015-10-12 23:03+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: az\n"
@@ -104,7 +104,7 @@ msgstr "Şifrə uğurla sıfırlandı. Davam etmək üçün daxil olun."
 
 #: app/scripts/views/ready.js:31
 msgid "Firefox Sync will begin momentarily"
-msgstr ""
+msgstr "Firefox Sync ən qısa zamanda başlayacaq"
 
 #: app/scripts/views/ready.js:40
 msgid "Account unlocked"
@@ -112,15 +112,15 @@ msgstr "Hesab kilidi açıldı"
 
 #: app/scripts/views/ready.js:45
 msgid "Welcome back"
-msgstr ""
+msgstr "Bir daha xoş gəldiniz"
 
 #: app/scripts/views/ready.js:46
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "Firefox Sync ən qısa zamanda təkrar başlayacaq"
 
 #: app/scripts/views/ready.js:56
 msgid "Welcome to Sync"
-msgstr ""
+msgstr "Sync-ə Xoş Gəldiniz"
 
 #: app/scripts/views/ready.js:61
 msgid "Account verified"
@@ -500,7 +500,7 @@ msgstr "Ətraflı öyrən."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "Choose What to Sync"
-msgstr ""
+msgstr "Nəyi Sinxronlaşdıracağınızı seçin"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 #: app/scripts/templates/complete_reset_password.mustache:17
@@ -621,7 +621,7 @@ msgstr "Təsdiq keçidi %(email)s ünvanına göndərildi"
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
-msgstr ""
+msgstr "Gmail-i aç"
 
 #: app/scripts/templates/confirm.mustache:7
 #: app/scripts/templates/confirm_account_unlock.mustache:6
@@ -807,7 +807,7 @@ msgstr "Uğurlu"
 
 #: app/scripts/templates/ready.mustache:2
 msgid "Sync preferences"
-msgstr ""
+msgstr "Sync nizamlamaları"
 
 #: app/scripts/templates/ready.mustache:6
 msgid "Proceed"
@@ -837,7 +837,7 @@ msgstr "Sıfırlamağa başla"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Firefox Hesabları"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
@@ -1068,21 +1068,23 @@ msgstr "Gün"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Sync-ə Daxil ol"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid ""
 "Choose the account you would like to use to sync your tabs, bookmarks, "
 "passwords and more."
 msgstr ""
+"Vərəq, əlfəcin, parol və daha çox məlumatlarınızı sinxronlaşdırmaq üçün "
+"istifadə edəcəyiniz hesabı seçin."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
-msgstr ""
+msgstr "OpenID işlət"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr ""
+msgstr "Firefox Hesabı işlət"
 
 #~ msgid "Manage account"
 #~ msgstr "Hesabı idarə et"
