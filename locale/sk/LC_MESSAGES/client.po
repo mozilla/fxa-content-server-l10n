@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-08 20:44+0000\n"
-"PO-Revision-Date: 2015-08-29 20:01+0000\n"
+"PO-Revision-Date: 2015-10-13 08:01+0000\n"
 "Last-Translator: Branislav Rozbora <rozbora@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -104,7 +104,7 @@ msgstr "Heslo bolo úspešne obnovené. Môžete sa prihlásiť."
 
 #: app/scripts/views/ready.js:31
 msgid "Firefox Sync will begin momentarily"
-msgstr ""
+msgstr "Firefox Sync sa za chvíľu začne synchronizovať"
 
 #: app/scripts/views/ready.js:40
 msgid "Account unlocked"
@@ -112,15 +112,15 @@ msgstr "Účet bol odomknutý"
 
 #: app/scripts/views/ready.js:45
 msgid "Welcome back"
-msgstr ""
+msgstr "Vitajte späť"
 
 #: app/scripts/views/ready.js:46
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "Firefox Sync bude za chvíľu pokračovať v synchronizácii"
 
 #: app/scripts/views/ready.js:56
 msgid "Welcome to Sync"
-msgstr ""
+msgstr "Víta vás služba Sync"
 
 #: app/scripts/views/ready.js:61
 msgid "Account verified"
@@ -502,7 +502,7 @@ msgstr "Ďalšie informácie"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "Choose What to Sync"
-msgstr ""
+msgstr "Vyberte, čo chcete synchronizovať"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 #: app/scripts/templates/complete_reset_password.mustache:17
@@ -625,7 +625,7 @@ msgstr "Overovací odkaz bol odoslaný na&nbsp;adresu: %(email)s"
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
-msgstr ""
+msgstr "Otvoriť Gmail"
 
 #: app/scripts/templates/confirm.mustache:7
 #: app/scripts/templates/confirm_account_unlock.mustache:6
@@ -810,7 +810,7 @@ msgstr "Úspešné"
 
 #: app/scripts/templates/ready.mustache:2
 msgid "Sync preferences"
-msgstr ""
+msgstr "Nastavenia synchronizácie"
 
 #: app/scripts/templates/ready.mustache:6
 msgid "Proceed"
@@ -840,7 +840,7 @@ msgstr "Spustiť obnovu"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Účty Firefox Account"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
@@ -1073,21 +1073,23 @@ msgstr "Deň"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Prihlásiť sa k službe Sync"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid ""
 "Choose the account you would like to use to sync your tabs, bookmarks, "
 "passwords and more."
 msgstr ""
+"Vyberte konto, ktoré chcete používať na synchronizáciu kariet, záložiek, "
+"hesiel a iných údajov."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
-msgstr ""
+msgstr "Použiť OpenID"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr ""
+msgstr "Použiť konto Firefox Account"
 
 #~ msgid "Manage account"
 #~ msgstr "Správa účtu"
