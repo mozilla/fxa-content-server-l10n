@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-08 20:44+0000\n"
-"PO-Revision-Date: 2015-08-26 03:03\n"
+"PO-Revision-Date: 2015-10-13 10:41+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -104,7 +104,7 @@ msgstr "Ailosodwyd y cyfrinair yn llwyddiannus. Mewngofnodwch i barhau."
 
 #: app/scripts/views/ready.js:31
 msgid "Firefox Sync will begin momentarily"
-msgstr ""
+msgstr "Bydd Firefox Sync yn cychwyn cyn bo hir"
 
 #: app/scripts/views/ready.js:40
 msgid "Account unlocked"
@@ -112,15 +112,15 @@ msgstr "Datglowyd eich cyfrif"
 
 #: app/scripts/views/ready.js:45
 msgid "Welcome back"
-msgstr ""
+msgstr "Croeso nôl"
 
 #: app/scripts/views/ready.js:46
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "Bydd Firefox Sync yn cychwyn cyn bo hir"
 
 #: app/scripts/views/ready.js:56
 msgid "Welcome to Sync"
-msgstr ""
+msgstr "Croeso i Sync"
 
 #: app/scripts/views/ready.js:61
 msgid "Account verified"
@@ -164,12 +164,12 @@ msgstr "Cyfrif wedi ei ddileu'n llwyddiannus"
 
 #: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
-msgstr ""
+msgstr "Diweddarwyd yr enw dangos"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
 msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
-"Cyfrif wedi ei gloi. <a href=\"/confirm_account_unlock\">Anfon e-bost "
+"Cyfrif wedi ei gloi. <a href=\"/confirm_account_unlock\">Anfonwch e-bost "
 "datgloi</a>"
 
 #: app/scripts/lib/auth-errors.js:18 app/scripts/lib/config-loader.js:82
@@ -369,7 +369,7 @@ msgstr "Rhaid i ddimensiynau'r ddelwedd fod o leiaf 100x100px"
 
 #: app/scripts/lib/auth-errors.js:224
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "Bydd modd ymuno yn dod i Firefox iOS cyn bo hir"
 
 #: app/scripts/lib/auth-errors.js:228
 msgid "Signup has been disabled"
@@ -377,7 +377,7 @@ msgstr "Mae cofrestru wedi'i hanalluogi"
 
 #: app/scripts/lib/auth-errors.js:232
 msgid "Age is required"
-msgstr ""
+msgstr "Mae angen eich oedran"
 
 #: app/scripts/lib/auth-errors.js:236
 msgid "No Gravatar found"
@@ -500,7 +500,7 @@ msgstr "Dysgu rhagor."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "Choose What to Sync"
-msgstr ""
+msgstr "Dewis Beth i'w Gydweddu"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 #: app/scripts/templates/complete_reset_password.mustache:17
@@ -623,7 +623,7 @@ msgstr "Dolen cadarnhau wedi ei anfon&nbsp;at: %(email)s"
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
-msgstr ""
+msgstr "Agor Gmail"
 
 #: app/scripts/templates/confirm.mustache:7
 #: app/scripts/templates/confirm_account_unlock.mustache:6
@@ -810,7 +810,7 @@ msgstr "Llwyddiant"
 
 #: app/scripts/templates/ready.mustache:2
 msgid "Sync preferences"
-msgstr ""
+msgstr "Dewisiadau Sync"
 
 #: app/scripts/templates/ready.mustache:6
 msgid "Proceed"
@@ -822,7 +822,7 @@ msgstr "Mae eich gwasanaeth yn barod!"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Are you sure you want to reset your account password?"
-msgstr ""
+msgstr "Ydych chi'n siŵr eich bod eisiau ailosod eich cyfrinair?"
 
 #: app/scripts/templates/reset_password.mustache:3
 msgid ""
@@ -830,14 +830,17 @@ msgid ""
 "data on your devices will remain untouched. Begin the reset process by "
 "entering your email below."
 msgstr ""
+"Bydd ailosod eich cyfrinair yn dileu eich data pori o'n gweinyddion. Bydd "
+"unrhyw ddata ar eich dyfais yn aros fel y mae. Cychwynnwch yr ailosod drwy "
+"roi eich cyfeiriad e-bost isod."
 
 #: app/scripts/templates/reset_password.mustache:5
 msgid "Begin reset"
-msgstr ""
+msgstr "Cychwyn ailosod"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Cyfrifon Firefox"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
@@ -886,7 +889,7 @@ msgstr "Ymuno"
 
 #: app/scripts/templates/sign_up.mustache:25
 msgid "Have an account? Sign in."
-msgstr ""
+msgstr "Oes gennych chi gyfrif? Mewngofnodwch."
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
@@ -908,7 +911,7 @@ msgstr "Newid"
 
 #: app/scripts/templates/settings/avatar.mustache:4
 msgid "Add"
-msgstr ""
+msgstr "Ychwanegu"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -928,11 +931,11 @@ msgstr "Gravatar"
 
 #: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Clear"
-msgstr ""
+msgstr "Clirio"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5
 msgid "Done"
-msgstr ""
+msgstr "Gorffen"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
@@ -977,7 +980,7 @@ msgstr "Dileu'r cyfrif"
 
 #: app/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete"
-msgstr ""
+msgstr "Dileu"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid ""
@@ -989,17 +992,18 @@ msgstr ""
 #: app/scripts/templates/settings/display_name.mustache:1
 #: app/scripts/templates/settings/display_name.mustache:4
 msgid "Display name"
-msgstr ""
+msgstr "Enw dangos"
 
 #: app/scripts/templates/settings/display_name.mustache:3
 msgid ""
 "Choose the name you would like to appear in Firefox and when managing your "
 "account."
 msgstr ""
+"Dewiswch enw yr hoffech chi ei ddangos yn Firefox ac wrth reoli eich cyfrif."
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
-msgstr ""
+msgstr "Beth yw eich oed?"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:2
 msgid "Year of birth"
@@ -1067,21 +1071,23 @@ msgstr "Diwrnod"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Mewngofnodi i Sync"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid ""
 "Choose the account you would like to use to sync your tabs, bookmarks, "
 "passwords and more."
 msgstr ""
+"Dewiswch y cyfrif i'w ddefnyddio i gydweddu eich tabiau, nodau tudalen, "
+"cyfrineiriau a rhagor."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
-msgstr ""
+msgstr "Defnyddio OpenID"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr ""
+msgstr "Defyddio Cyfrif Firefox"
 
 #~ msgid "Manage account"
 #~ msgstr "Rheoli'r cyfrif"
