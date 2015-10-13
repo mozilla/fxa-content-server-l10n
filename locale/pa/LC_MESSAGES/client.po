@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-08 20:44+0000\n"
-"PO-Revision-Date: 2015-10-13 12:00+0000\n"
+"PO-Revision-Date: 2015-10-13 12:01+0000\n"
 "Last-Translator: Matjaž <m@owca.info>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1444737651.0\n"
+"X-POOTLE-MTIME: 1444737687.0\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -710,9 +710,6 @@ msgid ""
 "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
 "Notice</a> of Firefox cloud services."
 msgstr ""
-"ਕਾਰਵਾਈ ਲਈ, ਤੁਸੀਂ </a> ਅਤੇ<a id=\"fxa-pp\" href=\"/legal/privacy\"> ਦੀ ਸੇਵਾ ਦੀਆਂ "
-"ਸ਼ਰਤਾਂ<a id=\"fxa-tos\" href=\"/legal/terms\"> ਲਈ ਸਹਿਮਤ ਹੋ । ਫਾਇਰਫਾਕਸ ਕਲਾਊਡ "
-"ਸੇਵਾਵਾਂ ਦੀ ਗੁਪਤ ਸੂਚਨਾ </a> ਹੈ ."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
