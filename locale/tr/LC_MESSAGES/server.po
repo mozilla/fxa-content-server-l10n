@@ -100,6 +100,8 @@ msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
 msgstr ""
+"Daha fazla bilgi için lütfen <a %(supportLinkAttributes)s>Mozilla "
+"Destek</a>'i ziyaret edin"
 
 #: templates/new_sync_device.txt:3
 msgid ""

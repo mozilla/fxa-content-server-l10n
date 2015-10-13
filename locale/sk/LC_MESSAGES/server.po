@@ -104,6 +104,8 @@ msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
 msgstr ""
+"Pre viac informácií prosím navštívte stránku <a "
+"%(supportLinkAttributes)s>Mozilla Support</a>"
 
 #: templates/new_sync_device.txt:3
 msgid ""
