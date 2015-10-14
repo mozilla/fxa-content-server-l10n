@@ -1,0 +1,1151 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-08 20:44+0000\n"
+"PO-Revision-Date: 2015-10-12 23:03+0000\n"
+"Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: az\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pontoon\n"
+"X-POOTLE-MTIME: 1440857927.0\n"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:4
+msgid "1991"
+msgstr "1991"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:5
+msgid "1992"
+msgstr "1992"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:6
+msgid "1993"
+msgstr "1993"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:7
+msgid "1994"
+msgstr "1994"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:8
+msgid "1995"
+msgstr "1995"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:9
+msgid "1996"
+msgstr "1996"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:10
+msgid "1997"
+msgstr "1997"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:11
+msgid "1998"
+msgstr "1998"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:12
+msgid "1999"
+msgstr "1999"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:13
+msgid "2000"
+msgstr "2000"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:14
+msgid "2001"
+msgstr "2001"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:15
+msgid "2002"
+msgstr "2002"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:16
+msgid "2003"
+msgstr "2003"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:17
+msgid "2004"
+msgstr "2004"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:18
+msgid "2005"
+msgstr "2005"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:19
+msgid "2006"
+msgstr "2006"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:20
+msgid "2007"
+msgstr "2007"
+
+#: app/scripts/views/complete_reset_password.js:135
+#: app/scripts/views/complete_sign_up.js:101 app/scripts/views/confirm.js:116
+#: app/scripts/views/confirm_reset_password.js:165
+msgid "Account verified successfully"
+msgstr "Hesab uğurla təsdiqləndi"
+
+#: app/scripts/views/confirm_account_unlock.js:102
+msgid "Account unlocked, please try again"
+msgstr "Hesab kilidi açıldı, lütfən təkrar yoxlayın"
+
+#: app/scripts/views/confirm_reset_password.js:155
+#: app/scripts/views/ready.js:50
+msgid "Password reset"
+msgstr "Şifrəni sıfırla"
+
+#: app/scripts/views/confirm_reset_password.js:184
+msgid "Password reset successfully. Sign in to continue."
+msgstr "Şifrə uğurla sıfırlandı. Davam etmək üçün daxil olun."
+
+#: app/scripts/views/ready.js:31
+msgid "Firefox Sync will begin momentarily"
+msgstr "Firefox Sync ən qısa zamanda başlayacaq"
+
+#: app/scripts/views/ready.js:40
+msgid "Account unlocked"
+msgstr "Hesab kilidi açıldı"
+
+#: app/scripts/views/ready.js:45
+msgid "Welcome back"
+msgstr "Bir daha xoş gəldiniz"
+
+#: app/scripts/views/ready.js:46
+msgid "Firefox Sync will resume momentarily"
+msgstr "Firefox Sync ən qısa zamanda təkrar başlayacaq"
+
+#: app/scripts/views/ready.js:56
+msgid "Welcome to Sync"
+msgstr "Sync-ə Xoş Gəldiniz"
+
+#: app/scripts/views/ready.js:61
+msgid "Account verified"
+msgstr "Hesab təsdiqləndi"
+
+#: app/scripts/views/ready.js:62 app/scripts/templates/ready.mustache:5
+msgid "You are now ready to use %(serviceName)s"
+msgstr "Artıq %(serviceName)s işlətməyə hazırsınız"
+
+#: app/scripts/views/reset_password.js:82 app/scripts/views/sign_in.js:191
+msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
+msgstr "Bilinməyən hesab. <a href=\"/signup\">Qeydiyyat</a>"
+
+#: app/scripts/views/settings.js:213
+msgid "Signed out successfully"
+msgstr "Çıxış uğurlu oldu"
+
+#: app/scripts/views/sign_up.js:355
+msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
+msgstr "Hesab artıq mövcuddur. <a href=\"/signin\">Daxil ol</a>"
+
+#: app/scripts/views/settings/avatar_gravatar.js:90
+msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
+msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> təmini ilə"
+
+#: app/scripts/views/settings/change_password.js:57
+msgid "Password changed successfully"
+msgstr "Şifrə uğurla dəyişdirildi"
+
+#: app/scripts/views/settings/communication_preferences.js:109
+msgid "Subscribed successfully"
+msgstr "Uğurla abunə olundu"
+
+#: app/scripts/views/settings/communication_preferences.js:110
+msgid "Unsubscribed successfully"
+msgstr "Abunəlikdən çıxıldı"
+
+#: app/scripts/views/settings/delete_account.js:58
+msgid "Account deleted successfully"
+msgstr "Hesab uğurla silindi"
+
+#: app/scripts/views/settings/display_name.js:52
+msgid "Display name updated"
+msgstr "Görüntülənmə adı yeniləndi"
+
+#: app/scripts/views/mixins/account-locked-mixin.js:31
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgstr ""
+"Hesab kilidlənib. <a href=\"/confirm_account_unlock\">Açma e-poçtu "
+"göndər</a>"
+
+#: app/scripts/lib/auth-errors.js:18 app/scripts/lib/config-loader.js:82
+#: app/scripts/lib/marketing-email-errors.js:18
+#: app/scripts/lib/oauth-errors.js:19 app/scripts/lib/profile-errors.js:35
+#: app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/require-on-demand.js:37
+#: app/scripts/lib/require-on-demand.js:41
+#: app/scripts/lib/require-on-demand.js:45
+#: app/scripts/templates/unexpected_error.mustache:1
+msgid "Unexpected error"
+msgstr "Gözlənilməz xəta"
+
+#: app/scripts/lib/auth-errors.js:28 app/scripts/lib/oauth-errors.js:49
+msgid "Invalid token"
+msgstr "Səhv token"
+
+#: app/scripts/lib/auth-errors.js:32
+msgid "Invalid timestamp in request signature"
+msgstr "Sorğu imzasında səhv vaxt damğası"
+
+#: app/scripts/lib/auth-errors.js:36
+msgid "Invalid nonce in request signature"
+msgstr "Sorğu imzasında səhv təsadüfi kod"
+
+#: app/scripts/lib/auth-errors.js:40
+msgid "Account already exists"
+msgstr "Hesab artıq mövcuddur"
+
+#: app/scripts/lib/auth-errors.js:44
+msgid "Unknown account"
+msgstr "Bilinməyən hesab"
+
+#: app/scripts/lib/auth-errors.js:48
+msgid "Incorrect email case"
+msgstr "E-poçt hərf formatı düz deyil"
+
+#: app/scripts/lib/auth-errors.js:52
+msgid "Incorrect password"
+msgstr "Şifrə yanlışdır"
+
+#: app/scripts/lib/auth-errors.js:56
+msgid "Unverified account"
+msgstr "Təsdiqlənməmiş hesab"
+
+#: app/scripts/lib/auth-errors.js:60
+msgid "Invalid verification code"
+msgstr "Xətalı təsdiq kodu"
+
+#: app/scripts/lib/auth-errors.js:64
+msgid "Invalid JSON in request body"
+msgstr "İstək bədənində xətalı JSON"
+
+#: app/scripts/lib/auth-errors.js:68 app/scripts/lib/profile-errors.js:23
+msgid "Invalid parameter in request body: %(param)s"
+msgstr "İstək bədənində səhv parametr: %(param)s"
+
+#: app/scripts/lib/auth-errors.js:72
+msgid "Missing parameter in request body: %(param)s"
+msgstr "İstək bədənində çatışmayan parametr: %(param)s"
+
+#: app/scripts/lib/auth-errors.js:76
+msgid "Invalid request signature"
+msgstr "Xətalı istək imzası"
+
+#: app/scripts/lib/auth-errors.js:80
+msgid "Missing content-length header"
+msgstr "Çatışmayan content-length başlığı"
+
+#: app/scripts/lib/auth-errors.js:84
+msgid "Request body too large"
+msgstr "İstək bədəni çox böyükdür"
+
+#: app/scripts/lib/auth-errors.js:88
+msgid "Attempt limit exceeded"
+msgstr "Yoxlama limiti dolub"
+
+#: app/scripts/lib/auth-errors.js:92
+msgid "Your account has been locked for security reasons"
+msgstr "Hesabınız təhlükəsizlik səbəbləri ilə kilidlənib"
+
+#: app/scripts/lib/auth-errors.js:100
+msgid "Server busy, try again soon"
+msgstr "Server məşğuldur, daha sonra təkrar yoxlayın"
+
+#: app/scripts/lib/auth-errors.js:104
+msgid "This endpoint is no longer supported"
+msgstr "Uc nöqtə artıq dəstəklənmir"
+
+#: app/scripts/lib/auth-errors.js:108 app/scripts/lib/config-loader.js:78
+#: app/scripts/lib/marketing-email-errors.js:80
+#: app/scripts/lib/oauth-errors.js:79 app/scripts/lib/profile-errors.js:39
+msgid "System unavailable, try again soon"
+msgstr "Sistem hazırda əlçatan deyil, daha sonra təkrar yoxlayın"
+
+#: app/scripts/lib/auth-errors.js:112 app/scripts/lib/oauth-errors.js:103
+msgid "no message"
+msgstr "mesaj yoxdur"
+
+#: app/scripts/lib/auth-errors.js:116
+msgid "Session expired. Sign in to continue."
+msgstr "Sessiya vaxtı keçib. Davam etmək üçün daxil olun."
+
+#: app/scripts/lib/auth-errors.js:120
+msgid "Cookies are still disabled"
+msgstr "Çərəzlər hələ də sönülüdür"
+
+#: app/scripts/lib/auth-errors.js:124
+msgid "Passwords do not match"
+msgstr "Şifrələr eyni deyil"
+
+#: app/scripts/lib/auth-errors.js:128
+msgid "Working…"
+msgstr "İşləyirəm…"
+
+#: app/scripts/lib/auth-errors.js:132
+msgid "Could not get Privacy Notice"
+msgstr "Məxfilik Bildirişi alına bilmədi"
+
+#: app/scripts/lib/auth-errors.js:136
+msgid "Could not get Terms of Service"
+msgstr "İstifadə Şərtləri alına bilmədi"
+
+#: app/scripts/lib/auth-errors.js:140
+msgid "Your new password must be different"
+msgstr "Yeni şifrəniz fərqli olmalıdır"
+
+#: app/scripts/lib/auth-errors.js:144
+#: app/scripts/templates/complete_reset_password.mustache:16
+#: app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/settings/change_password.mustache:11
+msgid "Must be at least 8 characters"
+msgstr "Ən az 8 simvol olmalıdır"
+
+#: app/scripts/lib/auth-errors.js:148
+msgid "Valid password required"
+msgstr "Doğru şifrə tələb olunur"
+
+#: app/scripts/lib/auth-errors.js:152 app/scripts/lib/auth-errors.js:184
+#: app/scripts/lib/auth-errors.js:200
+msgid "Valid email required"
+msgstr "Doğru e-poçt tələb olunur"
+
+#: app/scripts/lib/auth-errors.js:156
+msgid "Year of birth required"
+msgstr "Doğum ili tələb olunur"
+
+#: app/scripts/lib/auth-errors.js:160
+msgid "A usable image was not found"
+msgstr "İstifadə edilə biləcək şəkil tapılmadı"
+
+#: app/scripts/lib/auth-errors.js:164
+msgid "Could not initialize camera"
+msgstr "Kamera başladıla bilmədi"
+
+#: app/scripts/lib/auth-errors.js:168
+msgid "Valid URL required"
+msgstr "Doğru ünvan tələb olunur"
+
+#: app/scripts/lib/auth-errors.js:172
+msgid "Valid birthday required"
+msgstr "Doğru ad günü tələb olunur"
+
+#: app/scripts/lib/auth-errors.js:180
+msgid "Your verification email was just returned. Mistyped email?"
+msgstr "Təsdiq e-poçtunuz geri qayıtdı. E-poçtu səhv yazmış ola bilərsiz?"
+
+#: app/scripts/lib/auth-errors.js:188
+msgid "Enter a valid email address. firefox.com does not offer email."
+msgstr "Doğru e-poçt ünvanı daxil edin. firefox.com e-poçt xidməti vermir."
+
+#: app/scripts/lib/auth-errors.js:196
+msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
+msgstr ""
+"Firefox Hesabları ancaq təsdiqlənmiş saytlarda IFRAME içərisinə qoyula "
+"bilərlər"
+
+#: app/scripts/lib/auth-errors.js:204
+msgid "/force_auth requires an email"
+msgstr "/force_auth e-poçt tələb edir"
+
+#: app/scripts/lib/auth-errors.js:208
+#: app/scripts/templates/complete_account_unlock.mustache:2
+#: app/scripts/templates/complete_sign_up.mustache:3
+msgid "The link you clicked to verify your email is expired."
+msgstr "E-poçtunuzu təsdiq etmək üçün açdığınız keçidin vaxtı keçib."
+
+#: app/scripts/lib/auth-errors.js:212
+#: app/scripts/templates/complete_sign_up.mustache:7
+msgid "Verification link damaged"
+msgstr "Təsdiq keçidi zədələnib"
+
+#: app/scripts/lib/auth-errors.js:220
+msgid "The image dimensions must be at least 100x100px"
+msgstr "Şəkil ölçüləri ən az 100x100px olmalıdır"
+
+#: app/scripts/lib/auth-errors.js:224
+msgid "Signup is coming soon to Firefox for iOS"
+msgstr "Qeydiyyat tezliklə iOS üçün Firefox-da"
+
+#: app/scripts/lib/auth-errors.js:228
+msgid "Signup has been disabled"
+msgstr "Qeydiyyat bağlıdır"
+
+#: app/scripts/lib/auth-errors.js:232
+msgid "Age is required"
+msgstr "Yaş məcburidir"
+
+#: app/scripts/lib/auth-errors.js:236
+msgid "No Gravatar found"
+msgstr "Gravatar tapılmadı"
+
+#: app/scripts/lib/mailcheck.js:65
+msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
+msgstr "<span tabindex=\"1\">%(domain)s</span> nəzərdə tuturdunuz?"
+
+#: app/scripts/lib/oauth-errors.js:25
+msgid "Unknown client"
+msgstr "Bilinməyən müştəri"
+
+#: app/scripts/lib/oauth-errors.js:29
+msgid "Incorrect redirect_uri"
+msgstr "Xətalı redirect_uri"
+
+#: app/scripts/lib/oauth-errors.js:33
+msgid "Invalid assertion"
+msgstr "Xətalı təsdiq"
+
+#: app/scripts/lib/oauth-errors.js:37
+msgid "Unknown code"
+msgstr "Bilinməyən kod"
+
+#: app/scripts/lib/oauth-errors.js:41
+msgid "Incorrect code"
+msgstr "Səhv kod"
+
+#: app/scripts/lib/oauth-errors.js:45
+msgid "Expired code"
+msgstr "Vaxtı keçmiş kod"
+
+#: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:75
+msgid "Invalid OAuth parameter: %(param)s"
+msgstr "Səhv OAuth parametrləri: %(param)s"
+
+#: app/scripts/lib/oauth-errors.js:61 app/scripts/lib/profile-errors.js:19
+msgid "Unauthorized"
+msgstr "İcazələndirilməmiş"
+
+#: app/scripts/lib/oauth-errors.js:65
+msgid "Forbidden"
+msgstr "Qadağandır"
+
+#: app/scripts/lib/oauth-errors.js:87
+msgid "Something went wrong. Please close this tab and try again."
+msgstr "Bir şeylər səhv getdi. Lütfən bu vərəqi qapatın və təkrar yoxlayın."
+
+#: app/scripts/lib/oauth-errors.js:107
+msgid "Missing OAuth parameter: %(param)s"
+msgstr "Çatışmayan OAuth parametri: %(param)s"
+
+#: app/scripts/lib/profile-errors.js:27
+msgid "Unsupported image provider"
+msgstr "Dəstəklənməyən şəkil təminatçısı"
+
+#: app/scripts/lib/profile-errors.js:31
+msgid "Image processing error"
+msgstr "Şəkil işləmə xətası"
+
+#: app/scripts/lib/service-name.js:16
+msgid "Firefox Sync"
+msgstr "Firefox Sync"
+
+#: app/scripts/lib/strings.js:19
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Davam etməklə %(serviceName) (%(serviceUri)s) xidmətinin <a id=\"service-"
+"tos\" href=\"%(termsUri)s\">İstifadə Şərtləri</a> və <a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Məxfilik Bildirişi</a> ilə razılaşmış olursunuz."
+
+#: app/scripts/lib/strings.js:23
+#: app/scripts/templates/choose_what_to_sync.mustache:2
+msgid "Bookmarks"
+msgstr "Əlfəcinlər"
+
+#: app/scripts/lib/strings.js:24
+#: app/scripts/templates/choose_what_to_sync.mustache:4
+msgid "History"
+msgstr "Tarixçə"
+
+#: app/scripts/lib/strings.js:25
+#: app/scripts/templates/choose_what_to_sync.mustache:6
+msgid "Tabs"
+msgstr "Vərəqlər"
+
+#: app/scripts/lib/strings.js:26
+#: app/scripts/templates/choose_what_to_sync.mustache:8
+msgid "Passwords"
+msgstr "Şifrələr"
+
+#: app/scripts/lib/strings.js:27
+#: app/scripts/templates/choose_what_to_sync.mustache:10
+msgid "Desktop Add-ons"
+msgstr "Masaüstü Əlavələr"
+
+#: app/scripts/lib/strings.js:28
+#: app/scripts/templates/choose_what_to_sync.mustache:12
+msgid "Desktop Preferences"
+msgstr "Masaüstü Nizamlamaları"
+
+#: app/scripts/templates/cannot_create_account.mustache:1
+msgid "Cannot create account"
+msgstr "Hesab açıla bilmədi"
+
+#: app/scripts/templates/cannot_create_account.mustache:2
+msgid ""
+"You must meet certain age requirements to create a Firefox&nbsp;Account."
+msgstr ""
+"Firefox&nbsp;Hesabı açmaq üçün müəyyən yaş tələblərinə cavab verməlisiniz."
+
+#: app/scripts/templates/cannot_create_account.mustache:4
+msgid "Learn more."
+msgstr "Ətraflı öyrən."
+
+#: app/scripts/templates/choose_what_to_sync.mustache:1
+msgid "Choose What to Sync"
+msgstr "Nəyi Sinxronlaşdıracağınızı seçin"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:14
+#: app/scripts/templates/complete_reset_password.mustache:17
+msgid "Next"
+msgstr "İrəli"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:15
+#: app/scripts/templates/permissions.mustache:5
+#: app/scripts/templates/settings/avatar_camera.mustache:2
+#: app/scripts/templates/settings/avatar_crop.mustache:3
+#: app/scripts/templates/settings/avatar_gravatar.mustache:3
+#: app/scripts/templates/settings/change_password.mustache:13
+#: app/scripts/templates/settings/communication_preferences.mustache:4
+#: app/scripts/templates/settings/communication_preferences.mustache:12
+#: app/scripts/templates/settings/delete_account.mustache:7
+#: app/scripts/templates/settings/display_name.mustache:6
+#: app/scripts/templates/settings/gravatar_permissions.mustache:5
+msgid "Cancel"
+msgstr "Ləğv et"
+
+#: app/scripts/templates/complete_account_unlock.mustache:1
+msgid "Unlock link expired"
+msgstr "Kilid açma keçidinin vaxtı keçib"
+
+#: app/scripts/templates/complete_account_unlock.mustache:4
+msgid "Unlock link damaged"
+msgstr "Kilid açma keçidi zədələnib"
+
+#: app/scripts/templates/complete_account_unlock.mustache:5
+#: app/scripts/templates/complete_reset_password.mustache:7
+#: app/scripts/templates/complete_sign_up.mustache:8
+msgid ""
+"The link you clicked was missing characters, and may have been broken by "
+"your email client. Copy the address carefully, and try again."
+msgstr ""
+"Açdığınız keçiddə işarətlər çatışmır və ola bilsin e-poçt klientiniz "
+"tərəfindən xarab edilib. Ünvanı diqqətlə köçürün və təkrar yoxlayın."
+
+#: app/scripts/templates/complete_account_unlock.mustache:7
+msgid "Unlock error"
+msgstr "Kilid açma xətası"
+
+#: app/scripts/templates/complete_reset_password.mustache:1
+msgid "Reset password link expired"
+msgstr "Şifrə sıfırlama bağlantısının vaxtı keçib"
+
+#: app/scripts/templates/complete_reset_password.mustache:2
+#: app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/templates/confirm.mustache:2
+#: app/scripts/templates/confirm_account_unlock.mustache:2
+#: app/scripts/templates/confirm_reset_password.mustache:2
+msgid "Email resent"
+msgstr "E-poçt təkrar göndərildi"
+
+#: app/scripts/templates/complete_reset_password.mustache:3
+msgid "The link you clicked to reset your password is expired."
+msgstr "Şifrənizi sıfırlamaq üçün açdığınız keçidin vaxtı keçib."
+
+#: app/scripts/templates/complete_reset_password.mustache:4
+msgid "Click here to receive a new reset link"
+msgstr "Yeni sıfırlama keçidi əldə etmək üçün buraya klikləyin"
+
+#: app/scripts/templates/complete_reset_password.mustache:6
+msgid "Reset password link damaged"
+msgstr "Şifrə sıfırlama keçidi zədələnib"
+
+#: app/scripts/templates/complete_reset_password.mustache:9
+#: app/scripts/templates/reset_password.mustache:1
+msgid "Reset password"
+msgstr "Şifrəni sıfırla"
+
+#: app/scripts/templates/complete_reset_password.mustache:10
+#: app/scripts/templates/settings/change_password.mustache:8
+msgid "New password"
+msgstr "Yeni şifrə"
+
+#: app/scripts/templates/complete_reset_password.mustache:12
+#: app/scripts/templates/complete_reset_password.mustache:15
+#: app/scripts/templates/force_auth.mustache:6
+#: app/scripts/templates/sign_in.mustache:10
+#: app/scripts/templates/sign_in.mustache:23
+#: app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/settings/change_password.mustache:6
+#: app/scripts/templates/settings/change_password.mustache:10
+#: app/scripts/templates/settings/delete_account.mustache:5
+msgid "Show"
+msgstr "Göstər"
+
+#: app/scripts/templates/complete_reset_password.mustache:13
+msgid "Repeat password"
+msgstr "Şifrəni sıfırla"
+
+#: app/scripts/templates/complete_sign_up.mustache:1
+msgid "Verification link expired"
+msgstr "Təsdiq keçidinin vaxtı keçib"
+
+#: app/scripts/templates/complete_sign_up.mustache:4
+msgid "Click here to receive a new verification link"
+msgstr "Yeni təsdiq keçidi almaq üçün bura klikləyin"
+
+#: app/scripts/templates/complete_sign_up.mustache:10
+msgid "Verification error"
+msgstr "Təsdiq səhvi"
+
+#: app/scripts/templates/confirm.mustache:1
+msgid "Confirm your account"
+msgstr "Hesabınızı təsdiqləyin"
+
+#: app/scripts/templates/confirm.mustache:3
+#: app/scripts/templates/confirm_account_unlock.mustache:3
+#: app/scripts/templates/confirm_reset_password.mustache:3
+msgid "Email Sent"
+msgstr "E-poçt göndərildi"
+
+#: app/scripts/templates/confirm.mustache:4
+msgid "A verification link has been sent&nbsp;to %(email)s"
+msgstr "Təsdiq keçidi %(email)s ünvanına göndərildi"
+
+#: app/scripts/templates/confirm.mustache:5
+msgid "Open Gmail"
+msgstr "Gmail-i aç"
+
+#: app/scripts/templates/confirm.mustache:7
+#: app/scripts/templates/confirm_account_unlock.mustache:6
+#: app/scripts/templates/confirm_reset_password.mustache:8
+msgid "Resend email"
+msgstr "E-poçtu təkrar göndər"
+
+#: app/scripts/templates/confirm_account_unlock.mustache:1
+msgid "Unlock email sent"
+msgstr "Kilid açma e-poçtu göndərildi"
+
+#: app/scripts/templates/confirm_account_unlock.mustache:4
+msgid ""
+"For security reasons your account was put on lockdown. To perform account-"
+"level activities, please re-verify your account by clicking the verification"
+" link sent to %(email)s"
+msgstr ""
+"Təhlükəsizlik səbəbləri üçün hesabınız kilidlənib. Hesab-səviyyəli işləri "
+"edə bilmək üçün, lütfən %(email)s ünvanına göndərilən e-poçtdakı keçidə "
+"klikləyin"
+
+#: app/scripts/templates/confirm_account_unlock.mustache:5
+#: app/scripts/templates/pp.mustache:3
+#: app/scripts/templates/reset_password.mustache:6
+#: app/scripts/templates/tos.mustache:3
+msgid "Back"
+msgstr "Geri"
+
+#: app/scripts/templates/confirm_reset_password.mustache:1
+msgid "Reset email sent"
+msgstr "Sıfırlama e-poçtu göndərildi"
+
+#: app/scripts/templates/confirm_reset_password.mustache:4
+msgid "A reset link has been sent to %(email)s"
+msgstr "Sıfırlama keçidi %(email)s ünvanına göndərildi"
+
+#: app/scripts/templates/confirm_reset_password.mustache:5
+#: app/scripts/templates/confirm_reset_password.mustache:7
+#: app/scripts/templates/force_auth.mustache:7
+#: app/scripts/templates/sign_in.mustache:1
+#: app/scripts/templates/sign_in.mustache:4
+#: app/scripts/templates/sign_in.mustache:11
+#: app/scripts/templates/sign_in.mustache:15
+#: app/scripts/templates/sign_in.mustache:24
+msgid "Sign in"
+msgstr "Daxil ol"
+
+#: app/scripts/templates/cookies_disabled.mustache:1
+msgid "Cookies required"
+msgstr "Çərəzlər lazımdır"
+
+#: app/scripts/templates/cookies_disabled.mustache:2
+msgid ""
+"Please enable cookies in your browser which are required by Firefox "
+"Accounts. Cookies are small pieces of data stored in your browser that "
+"provide functionality such as remembering you between sessions."
+msgstr ""
+"Lütfən Firefox Hesabları üçün tələb edilən səyyah çərəzlərinizi aktiv edin. "
+"Çərəzlər sessiyalar arasında sizi tanımaq üçün səyyahda saxlanılan balaca "
+"məlumat parçalarıdırlar."
+
+#: app/scripts/templates/cookies_disabled.mustache:3
+msgid "Learn more"
+msgstr "Ətraflı öyrən"
+
+#: app/scripts/templates/cookies_disabled.mustache:4
+msgid "Try again"
+msgstr "Təkrar yoxla"
+
+#: app/scripts/templates/force_auth.mustache:1
+msgid "Sign in to continue"
+msgstr "Davam etmək üçün daxil olun"
+
+#: app/scripts/templates/force_auth.mustache:3
+#: app/scripts/templates/sign_in.mustache:8
+#: app/scripts/templates/sign_in.mustache:20
+#: app/scripts/templates/sign_up.mustache:10
+#: app/scripts/templates/settings/change_password.mustache:1
+#: app/scripts/templates/settings/delete_account.mustache:4
+msgid "Password"
+msgstr "Şifrə"
+
+#: app/scripts/templates/force_auth.mustache:8
+#: app/scripts/templates/sign_in.mustache:12
+#: app/scripts/templates/sign_in.mustache:25
+#: app/scripts/templates/sign_in.mustache:27
+#: app/scripts/templates/settings/change_password.mustache:7
+msgid "Forgot password?"
+msgstr "Şifrəni unutmusuz?"
+
+#: app/scripts/templates/force_auth.mustache:9
+#: app/scripts/templates/sign_in.mustache:29
+#: app/scripts/templates/sign_up.mustache:15
+msgid ""
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+msgstr ""
+"Davam etməklə Firefox bulud xidmətləriniz <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">İstifadə Şərtləri</a> və <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Məxfilik Bildirişi</a> ilə razılaşmış olursunuz."
+
+#: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
+#: app/scripts/templates/tos.mustache:1
+msgid "Firefox cloud services"
+msgstr "Firefox bulud servisləri"
+
+#: app/scripts/templates/legal.mustache:2
+msgid "Legal"
+msgstr "Qanuni"
+
+#: app/scripts/templates/legal.mustache:3
+#: app/scripts/templates/settings.mustache:5
+#: app/scripts/templates/tos.mustache:2
+msgid "Terms of Service"
+msgstr "İstifadə Şərtləri"
+
+#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
+#: app/scripts/templates/settings.mustache:6
+msgid "Privacy Notice"
+msgstr "Məxfilik Bildirişi"
+
+#: app/scripts/templates/marketing_snippet.mustache:1
+msgid "Stay in sync on the go:"
+msgstr "Yolda da sinxron qalın:"
+
+#: app/scripts/templates/marketing_snippet.mustache:2
+msgid "Get Firefox for Android"
+msgstr "Android üçün Firefox əldə edin"
+
+#: app/scripts/templates/marketing_snippet_ios.mustache:1
+#: app/scripts/templates/marketing_snippet_ios.mustache:5
+#: app/scripts/templates/marketing_snippet_ios.mustache:9
+msgid "Get the full Sync experience."
+msgstr "Sync funksionallığını tam işlədin."
+
+#: app/scripts/templates/marketing_snippet_ios.mustache:2
+#: app/scripts/templates/marketing_snippet_ios.mustache:12
+msgid "Firefox is coming soon to iOS!"
+msgstr "Firefox tezliklə iOS-da!"
+
+#: app/scripts/templates/marketing_snippet_ios.mustache:3
+#: app/scripts/templates/marketing_snippet_ios.mustache:13
+msgid "Sign up to learn more"
+msgstr "Ətraflı məlumat üçün qeyd olun"
+
+#: app/scripts/templates/marketing_snippet_ios.mustache:6
+#: app/scripts/templates/marketing_snippet_ios.mustache:7
+#: app/scripts/templates/marketing_snippet_ios.mustache:11
+msgid "Download Firefox for Android."
+msgstr "Android üçün Firefox endirin."
+
+#: app/scripts/templates/marketing_snippet_ios.mustache:10
+msgid "Download Firefox for mobile devices."
+msgstr "Mobil cihazlar üçün Firefox endirin."
+
+#: app/scripts/templates/permissions.mustache:1
+#: app/scripts/templates/settings/gravatar_permissions.mustache:1
+msgid "Request for permission"
+msgstr "İcazə üçün istək göndər"
+
+#: app/scripts/templates/permissions.mustache:2
+#: app/scripts/templates/settings/gravatar_permissions.mustache:2
+msgid "%(serviceName)s wants the following information from your account:"
+msgstr "%(serviceName)s sizin hesabınızdan bunları istəyir:"
+
+#: app/scripts/templates/permissions.mustache:3
+#: app/scripts/templates/reset_password.mustache:4
+#: app/scripts/templates/sign_in.mustache:19
+#: app/scripts/templates/sign_up.mustache:8
+#: app/scripts/templates/settings/gravatar_permissions.mustache:3
+msgid "Email"
+msgstr "E-poçt"
+
+#: app/scripts/templates/permissions.mustache:4
+#: app/scripts/templates/settings/gravatar_permissions.mustache:4
+msgid "Accept"
+msgstr "Qəbul et"
+
+#: app/scripts/templates/ready.mustache:1
+msgid "Success"
+msgstr "Uğurlu"
+
+#: app/scripts/templates/ready.mustache:2
+msgid "Sync preferences"
+msgstr "Sync nizamlamaları"
+
+#: app/scripts/templates/ready.mustache:6
+msgid "Proceed"
+msgstr "Davam et"
+
+#: app/scripts/templates/ready.mustache:9
+msgid "Your account is ready!"
+msgstr "Hesabınız hazırdır!"
+
+#: app/scripts/templates/reset_password.mustache:2
+msgid "Are you sure you want to reset your account password?"
+msgstr "Hesabınızın parolunu sıfırlamaq istədiyinizdən əminsiniz?"
+
+#: app/scripts/templates/reset_password.mustache:3
+msgid ""
+"Resetting your password will erase your browsing data from our servers. Any "
+"data on your devices will remain untouched. Begin the reset process by "
+"entering your email below."
+msgstr ""
+"Parolunuzu sıfırlama serverlərimizdən səyahət məlumatlarınızın silinməsinə "
+"səbər olacaq. Cihazlarınızda olan məlumatlar toxunulmaz qalacaq. Sıfırlama "
+"işini başlatmaq üçün aşağıda e-poçt ünvanınızı daxil edin."
+
+#: app/scripts/templates/reset_password.mustache:5
+msgid "Begin reset"
+msgstr "Sıfırlamağa başla"
+
+#: app/scripts/templates/settings.mustache:1
+msgid "Firefox Accounts"
+msgstr "Firefox Hesabları"
+
+#: app/scripts/templates/settings.mustache:2
+msgid "Sign out"
+msgstr "Çıxış"
+
+#: app/scripts/templates/sign_in.mustache:2
+#: app/scripts/templates/sign_up.mustache:2
+msgid "Continue to %(serviceName)s"
+msgstr "%(serviceName)s ilə davam et"
+
+#: app/scripts/templates/sign_in.mustache:6
+msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
+msgstr ""
+"Firefox&nbsp;Hesabınıza daxil olmaqla sinxronizasiya məlumatlarınızı "
+"köçürün."
+
+#: app/scripts/templates/sign_in.mustache:13
+#: app/scripts/templates/sign_in.mustache:16
+msgid "Use a different account"
+msgstr "Fərqli hesab işlət"
+
+#: app/scripts/templates/sign_in.mustache:28
+msgid "Create an account"
+msgstr "Hesab yarat"
+
+#: app/scripts/templates/sign_up.mustache:1
+#: app/scripts/templates/sign_up.mustache:4
+msgid "Create a Firefox Account"
+msgstr "Firefox Hesabı Yarat"
+
+#: app/scripts/templates/sign_up.mustache:6
+msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
+msgstr ""
+"Yeni Firefox&nbsp;Hesabı açmaqla sinxronizasiya məlumatlarınızı köçürün."
+
+#: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/settings/communication_preferences.mustache:6
+msgid "Get the latest news about Mozilla and Firefox."
+msgstr "Mozilla və Firefox haqqında son xəbərləri əldə edin."
+
+#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/sign_up.mustache:23
+msgid "Choose what to sync"
+msgstr "Nəyi sinxronlaşdıracağınızı seçin"
+
+#: app/scripts/templates/sign_up.mustache:21
+msgid "Sign up"
+msgstr "Qeydiyyat"
+
+#: app/scripts/templates/sign_up.mustache:25
+msgid "Have an account? Sign in."
+msgstr "Hesabınız var? Daxil olun."
+
+#: app/scripts/templates/unexpected_error.mustache:2
+msgid "Home"
+msgstr "Ana səhifə"
+
+#: app/scripts/templates/settings/avatar.mustache:1
+msgid "Account picture"
+msgstr "Hesab şəkli"
+
+#: app/scripts/templates/settings/avatar.mustache:2
+#: app/scripts/templates/settings/avatar_crop.mustache:2
+#: app/scripts/templates/settings/change_password.mustache:2
+#: app/scripts/templates/settings/change_password.mustache:12
+#: app/scripts/templates/settings/communication_preferences.mustache:3
+#: app/scripts/templates/settings/display_name.mustache:2
+#: app/scripts/templates/settings/display_name.mustache:5
+msgid "Change"
+msgstr "Dəyişdir"
+
+#: app/scripts/templates/settings/avatar.mustache:4
+msgid "Add"
+msgstr "Əlavə et"
+
+#: app/scripts/templates/settings/avatar_camera.mustache:1
+msgid "Take picture"
+msgstr "Şəkil çək"
+
+#: app/scripts/templates/settings/avatar_change.mustache:1
+msgid "Upload"
+msgstr "Yüklə"
+
+#: app/scripts/templates/settings/avatar_change.mustache:2
+msgid "Camera"
+msgstr "Kamera"
+
+#: app/scripts/templates/settings/avatar_change.mustache:3
+msgid "Gravatar"
+msgstr "Gravatar"
+
+#: app/scripts/templates/settings/avatar_change.mustache:4
+msgid "Clear"
+msgstr "Təmizlə"
+
+#: app/scripts/templates/settings/avatar_change.mustache:5
+msgid "Done"
+msgstr "Hazır"
+
+#: app/scripts/templates/settings/avatar_crop.mustache:1
+msgid "Position and rotate your picture as needed"
+msgstr "Şəklinizi istədiyiniz kimi yerləşdirin və döndürün"
+
+#: app/scripts/templates/settings/avatar_gravatar.mustache:2
+msgid "Save"
+msgstr "Yadda saxla"
+
+#: app/scripts/templates/settings/change_password.mustache:3
+msgid ""
+"Once you're finished, use your new password to sign in on all of your "
+"devices."
+msgstr ""
+"Bitirdikdən sonra bütün cihazlarda daxil olmaq üçün yeni şifrənizi işlədin."
+
+#: app/scripts/templates/settings/change_password.mustache:4
+msgid "Old password"
+msgstr "Köhnə şifrə"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:2
+msgid "Communication preferences"
+msgstr "Kommunikasiya nizamlamaları"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:7
+msgid "Email preferences"
+msgstr "E-poçt nizamlamaları"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:9
+msgid "Unsubscribe"
+msgstr "Abunəlikdən çıx"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:11
+msgid "Subscribe"
+msgstr "Abunə ol"
+
+#: app/scripts/templates/settings/delete_account.mustache:1
+#: app/scripts/templates/settings/delete_account.mustache:6
+msgid "Delete account"
+msgstr "Hesabı sil"
+
+#: app/scripts/templates/settings/delete_account.mustache:2
+msgid "Delete"
+msgstr "Sil"
+
+#: app/scripts/templates/settings/delete_account.mustache:3
+msgid ""
+"Are you sure you want to delete your account? This action cannot be undone."
+msgstr ""
+"Hesabınızı silmək istədiyinizə əminsiniz? Bu addım bərpa edilə bilməz."
+
+#: app/scripts/templates/settings/display_name.mustache:1
+#: app/scripts/templates/settings/display_name.mustache:4
+msgid "Display name"
+msgstr "Görüntülənmə adı"
+
+#: app/scripts/templates/settings/display_name.mustache:3
+msgid ""
+"Choose the name you would like to appear in Firefox and when managing your "
+"account."
+msgstr "Firefox və idarə panelində göstərilməsini istədiyiniz adı seçin."
+
+#: app/scripts/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you?"
+msgstr "Neçə yaşınız var?"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:2
+msgid "Year of birth"
+msgstr "Doğum ili"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:3
+msgid "1990 or earlier"
+msgstr "1990 və ya əvvəli"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:21
+msgid "Month"
+msgstr "Ay"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:22
+msgid "January"
+msgstr "Yanvar"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:23
+msgid "February"
+msgstr "Fevral"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:24
+msgid "March"
+msgstr "Mart"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:25
+msgid "April"
+msgstr "Aprel"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:26
+msgid "May"
+msgstr "May"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:27
+msgid "June"
+msgstr "İyun"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:28
+msgid "July"
+msgstr "İyul"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:29
+msgid "August"
+msgstr "Avqust"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:30
+msgid "September"
+msgstr "Sentyabr"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:31
+msgid "October"
+msgstr "Oktyabr"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:32
+msgid "November"
+msgstr "Noyabr"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:33
+msgid "December"
+msgstr "Dekabr"
+
+#: app/scripts/templates/partial/coppa-date-picker.mustache:34
+msgid "Day"
+msgstr "Gün"
+
+#: app/scripts/templates/openid/start.mustache:1
+msgid "Sign in to Sync"
+msgstr "Sync-ə Daxil ol"
+
+#: app/scripts/templates/openid/start.mustache:2
+msgid ""
+"Choose the account you would like to use to sync your tabs, bookmarks, "
+"passwords and more."
+msgstr ""
+"Vərəq, əlfəcin, parol və daha çox məlumatlarınızı sinxronlaşdırmaq üçün "
+"istifadə edəcəyiniz hesabı seçin."
+
+#: app/scripts/templates/openid/start.mustache:3
+msgid "Use OpenID"
+msgstr "OpenID işlət"
+
+#: app/scripts/templates/openid/start.mustache:4
+msgid "Use Firefox Account"
+msgstr "Firefox Hesabı işlət"
+
+#~ msgid "Manage account"
+#~ msgstr "Hesabı idarə et"
+
+#~ msgid "Edit profile"
+#~ msgstr "Profili dəyiş"
+
+#~ msgid "Name"
+#~ msgstr "Ad"
+
+#~ msgid "Change password"
+#~ msgstr "Şifrəni dəyiş"
+
+#~ msgid "Confirm"
+#~ msgstr "Təsdiqlə"
+
+#~ msgid "Enter your email to reset&nbsp;the account password."
+#~ msgstr "Hesab şifrəsini sıfırlamaq üçün e-poçtunuzu daxil edin."
+
+#~ msgid ""
+#~ "For security reasons, resetting your password will erase your Sync data from"
+#~ " our servers. A new Sync backup will be created from your local browsing "
+#~ "data."
+#~ msgstr ""
+#~ "Təhlükəsizlik tədbirləri üçün, şifrənizi sıfırlamaq sizin Sync "
+#~ "məlumatlarınızı bizim serverlərdən siləcək. Lokal səyyah məlumatlarınıza "
+#~ "əsasən yeni Sync yedəyi yaradılacaq."
+
+#~ msgid "You are signed in as"
+#~ msgstr "Daxil olduğunuz hesab:"
+
+#~ msgid "Already have an account? Sign in."
+#~ msgstr "Artıq hesabınız var? Daxil olun."
+
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" "
+#~ "href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+#~ "href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
+#~ msgstr ""
+#~ "Davam etməklə %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" "
+#~ "href=\"%(termsUri)s\">İstifadə Qaydaları</a> və <a id=\"service-pp\" "
+#~ "href=\"%(privacyUri)s\">Məxfilik Məlumatı</a> ilə razıyam."
+
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
+#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+#~ "Notice</a> of Firefox cloud services."
+#~ msgstr ""
+#~ "Davam etməklə, mən Firefox bulud xidmətlərinin <a id=\"fxa-tos\" "
+#~ "href=\"/legal/terms\">İstifadə Şərtləri</a> və <a id=\"fxa-pp\" "
+#~ "href=\"/legal/privacy\">Məxfilik Qeydləri</a> ilə razıyam."
+
+#~ msgid "Subscribe to Firefox news and tips"
+#~ msgstr "Firefox xəbər və məsləhətlərinə abunə olun"
+
+#~ msgid "%(serviceName)s would like to know…"
+#~ msgstr "%(serviceName)s bilmək istərdi…"
+
+#~ msgid "Download Firefox for iOS."
+#~ msgstr "iOS üçün Firefox endirin."
+
+#~ msgid "Download Firefox for your mobile devices."
+#~ msgstr "Mobil cihazlarınız üçün Firefox endirin."

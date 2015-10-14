@@ -1,131 +1,91 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-04-22 16:02+0000\n"
+"Project-Id-Version: Firefox Accounts\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-08 20:44+0000\n"
+"PO-Revision-Date: 2015-10-08 22:17+0000\n"
 "Last-Translator: Jørgen   <joergenr@stofanet.dk>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: MozillaDanmark\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1398182578.0\n"
+"X-POOTLE-MTIME: 1444342668.0\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: templates/_pending.txt:1
+msgid "Still there?"
+msgstr "Er du der stadig?"
+
+#: templates/_pending.txt:2
+msgid ""
+"A while ago you created a Firefox Account, but never verified it. Click the "
+"link below to activate your account."
+msgstr ""
+"For nogen tid siden oprettede du en Firefox-konto, men bekræftede den "
+"aldrig. Klik på linket nedenunder for at aktivere din konto."
+
+#: templates/_pending.txt:3 templates/post_verify.html:3
+msgid ""
+"You successfully connected your first device to your Firefox Account. Now "
+"you can sign in to Sync from your other devices, including Firefox for <a "
+"href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
+msgstr ""
+"Du har nu forbundet din første enhed til din Firefox-konto. Nu kan du logge "
+"in på Sync fra dine andre enheder, inklusive Firefox til <a "
+"href='%(androidUrl)s'>Android</a> og <a href='%(iosUrl)s'>iOS</a>."
+
+#: templates/_pending.txt:4
+msgid ""
+"You successfully connected your first device to your Firefox Account. To "
+"make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
+"Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
+msgstr ""
+"Du har nu forbundet din første enhed til din Firefox-konto. Få mest muligt "
+"ud af Sync ved at tilslutte en <a href='%(androidUrl)s'>Firefox til Android-"
+"enhed</a> eller en <a href='%(iosUrl)s'>Firefox til iOS-enhed</a>."
+
+#: templates/_pending.txt:5 templates/post_verify.html:4
+msgid "Connect another device"
+msgstr "Forbind andre enheder"
+
+#: templates/_pending.txt:6
+msgid "Sign in to Sync"
+msgstr "Log ind på Sync"
+
+#: templates/new_sync_device.html:1 templates/password_changed.html:1
+#: templates/password_reset.html:1 templates/post_verify.html:1
+#: templates/reset.html:1 templates/unlock.html:1
+#: templates/verification_reminder.html:1 templates/verify.html:1
+#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
 #: server/templates/pages/src/terms.html:1
-#: server/templates/pages/dist/404.html:1
-#: server/templates/pages/dist/500.html:1
-#: server/templates/pages/dist/503.html:1
-#: server/templates/pages/dist/index.html:1
-#: server/templates/pages/dist/privacy.html:1
-#: server/templates/pages/dist/terms.html:1
-#: server/templates/email/reset.html:1 server/templates/email/verify.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox-konti"
 
-#: server/templates/pages/src/404.html:2
-#: server/templates/pages/dist/404.html:2
-msgid "Page not found"
-msgstr "Side ikke fundet"
+#: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
+#: templates/unlock.html:2
+msgid "Account activity notice"
+msgstr "Meddelelse om kontoaktivitet"
 
-#: server/templates/pages/src/404.html:3
-#: server/templates/pages/dist/404.html:3
+#: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
 msgid ""
-"The page you requested is not found. We've been notified and will fix any "
-"links that may be broken."
+"A device began syncing with the devices connected to your Firefox Account."
 msgstr ""
-"Den ønskede side blev ikke fundet. Vi har fået besked, og vil rette de links "
-"der ikke virker."
+"En enhed begyndte synkronisering med enhederne forbundet med din Firefox-"
+"konto."
 
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/503.html:4
-#: server/templates/pages/dist/404.html:4
-#: server/templates/pages/dist/500.html:4
-#: server/templates/pages/dist/503.html:4
-msgid "Home"
-msgstr "Start"
-
-#: server/templates/pages/src/500.html:2
-#: server/templates/pages/dist/500.html:2 server/lib/500.js:21
-#: server/lib/500.js:24
-msgid "System unavailable, try again soon"
-msgstr ""
-
-#: server/templates/pages/src/500.html:3
-#: server/templates/pages/dist/500.html:3
-msgid ""
-"We are currently performing some maintenance on the system, and will return "
-"momentarily."
-msgstr ""
-
-#: server/templates/pages/src/503.html:2
-#: server/templates/pages/dist/503.html:2
-msgid "Server busy, try again soon"
-msgstr ""
-
-#: server/templates/pages/src/503.html:3
-#: server/templates/pages/dist/503.html:3
-msgid ""
-"We are currently under heavy strain and are working to return the system to "
-"normal as soon as possible."
-msgstr ""
-
-#: server/templates/pages/src/index.html:2
-#: server/templates/pages/src/privacy.html:3
-#: server/templates/pages/src/terms.html:3
-#: server/templates/pages/dist/index.html:2
-#: server/templates/pages/dist/privacy.html:3
-#: server/templates/pages/dist/terms.html:3
-msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr ""
-
-#: server/templates/pages/src/index.html:3
-#: server/templates/pages/dist/index.html:3
-msgid "Firefox Accounts requires JavaScript."
-msgstr "Firefox-konti kræver JavaScript."
-
-#: server/templates/pages/src/privacy.html:2
-#: server/templates/pages/src/privacy.html:5
-#: server/templates/pages/dist/privacy.html:2
-#: server/templates/pages/dist/privacy.html:5
-msgid "Privacy Notice"
-msgstr "Privatlivspolitik"
-
-#: server/templates/pages/src/privacy.html:4
-#: server/templates/pages/src/terms.html:4
-#: server/templates/pages/dist/privacy.html:4
-#: server/templates/pages/dist/terms.html:4
-msgid "Firefox cloud services"
-msgstr "Firefox online-tjenester"
-
-#: server/templates/pages/src/terms.html:2
-#: server/templates/pages/src/terms.html:5
-#: server/templates/pages/dist/terms.html:2
-#: server/templates/pages/dist/terms.html:5
-msgid "Terms of Service"
-msgstr "Tjenestevilkår"
-
-#: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
-msgid "Are you sure?"
-msgstr "Er du sikker?"
-
-#: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Bekræft, at du vil nulstille adgangskoden til %(email)s."
-
-#: server/templates/email/reset.html:4
-msgid "Reset password"
-msgstr "Nulstil adgangskode"
-
-#: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
-#: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
+#: templates/new_sync_device.html:4 templates/password_changed.html:4
+#: templates/password_reset.html:4 templates/post_verify.html:6
+#: templates/post_verify.txt:4 templates/reset.html:6 templates/reset.txt:4
+#: templates/unlock.html:6 templates/unlock.txt:3
+#: templates/verification_reminder.html:6
+#: templates/verification_reminder.txt:4 templates/verify.html:6
+#: templates/verify.txt:4
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
@@ -133,45 +93,375 @@ msgstr ""
 "Dette er en automatiseret mail; hvis du har modtaget denne mail ved en fejl, "
 "behøver du ikke foretage dig noget."
 
-#: server/templates/email/reset.html:6 server/templates/email/verify.html:6
+#: templates/new_sync_device.html:5 templates/password_changed.html:5
+#: templates/password_reset.html:5 templates/post_verify.html:7
+#: templates/reset.html:7 templates/unlock.html:7
+#: templates/verification_reminder.html:7 templates/verify.html:7
 msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
+"For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
+"Support</a>"
 msgstr ""
-"For yderligere information, besøg <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
+"For mere information, besøg <a %(supportLinkAttributes)s>Mozilla Support</a>"
 
-#: server/templates/email/reset.txt:3
-msgid "Reset password:"
-msgstr "Nulstil adgangskode:"
+#: templates/new_sync_device.txt:3
+msgid ""
+"This is an automated email; if you didn't add a new device to your Firefox "
+"Account, you should change your password immediately at %(resetLink)s."
+msgstr ""
+"Denne mail er sendt automatisk; hvis du ikke tilføjede en ny enhed til din "
+"Firefox-konto, bør du ændre din adgangskode med det samme på %(resetLink)s."
 
-#: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr "For mere information, besøg https://support.mozilla.org"
+#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
+#: templates/password_reset.txt:4 templates/post_verify.txt:5
+#: templates/reset.txt:5 templates/unlock.txt:4
+#: templates/verification_reminder.txt:5 templates/verify.txt:5
+msgid "For more information, please visit %(supportUrl)s"
+msgstr "For mere information, besøg %(supportUrl)s"
 
-#: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
-msgid "Congratulations!"
-msgstr "Tillykke!"
+#: templates/password_changed.html:2 templates/password_changed.txt:1
+msgid "Password changed successfully"
+msgstr "Adgangskoden blev ændret"
 
-#: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
-msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr "%(email)s, du er et klik fra at bekræfte din Firefox-konto."
+#: templates/password_changed.html:3 templates/password_changed.txt:2
+msgid "Your Firefox Account password has been successfully changed."
+msgstr "Adgangskoden til din Firefox-konto er blevet ændret."
 
-#: server/templates/email/verify.html:4
-msgid "Verify"
-msgstr "Bekræft"
+#: templates/password_changed.txt:3
+msgid ""
+"This is an automated email; if you didn’t change the password to your "
+"Firefox Account, you should reset it immediately at %(resetLink)s."
+msgstr ""
+"Denne mail er sendt automatisk; hvis du ikke har ændret adgangskoden til din "
+"Firefox-konto, bør du nulstille den med det samme på %(resetLink)s."
 
-#: server/templates/email/verify.txt:3
-msgid "Verify:"
-msgstr "Bekræft:"
+#: templates/password_reset.html:2 templates/password_reset.txt:1
+msgid "Password reset successfully"
+msgstr "Adgangskoden er blevet nulstillet"
 
-#: server/lib/templates.js:35
-msgid "Verify your account"
-msgstr "Bekræft din konto"
+#: templates/password_reset.html:3 templates/password_reset.txt:2
+msgid "Your Firefox Account password has been successfully reset."
+msgstr "Adgangskoden til din Firefox-konto er blevet nulstillet."
 
-#: server/lib/templates.js:40
-msgid "Reset your password"
-msgstr "Nulstil din adgangskode"
+#: templates/password_reset.txt:3
+msgid ""
+"This is an automated email; if you didn’t reset the password to your Firefox "
+"Account, you should reset it immediately at %(resetLink)s."
+msgstr ""
+"Denne mail er sendt automatisk; hvis du ikke har nulstillet adgangskoden til "
+"din Firefox-konto, bør du nulstille den med det samme på %(resetLink)s."
+
+#: templates/post_verify.html:2 templates/post_verify.txt:1
+msgid "Account verified!"
+msgstr "Konto bekræftet!"
+
+#: templates/post_verify.html:5 templates/reset.html:5 templates/unlock.html:5
+#: templates/verification_reminder.html:5 templates/verify.html:5
+msgid "Alternatively:"
+msgstr "Alternativt:"
+
+#: templates/post_verify.txt:2
+msgid ""
+"You successfully connected your first device to your Firefox Account. Now "
+"you can sign in to Sync from your other devices, including Firefox for "
+"Android and iOS."
+msgstr ""
+"Du har nu forbundet din første enhed til din Firefox-konto. Du kan nu "
+"tilmelde dine andre enheder til Sync, inklusive enheder med Firefox til "
+"Android og Firefox til iOS."
+
+#: templates/post_verify.txt:3
+msgid "Sign in to Sync:"
+msgstr "Log ind på Sync:"
+
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Are you sure?"
+msgstr "Er du sikker?"
+
+#: templates/reset.html:3 templates/reset.txt:2
+msgid "Please confirm that you'd like to reset the password for %(email)s."
+msgstr "Bekræft, at du vil nulstille adgangskoden til %(email)s."
+
+#: templates/reset.html:4
+msgid "Reset password now"
+msgstr "Nulstil adgangskode nu"
+
+#: templates/reset.txt:3
+msgid "Reset password now:"
+msgstr "Nulstil adgangskode nu:"
+
+#: templates/unlock.html:3 templates/unlock.txt:1
+msgid ""
+"For security reasons your Firefox Account was put on lockdown. To perform "
+"account-level activities, please click the link to re-verify your account "
+"now."
+msgstr ""
+"Af sikkerhedsmæssige årsager er din Firefox-konto blevet lukket ned. For at "
+"udføre aktiviteter på kontoen skal du klikke på linket for at genbekræfte "
+"din konto."
+
+#: templates/unlock.html:4
+msgid "Verify account"
+msgstr "Bekræft konto"
+
+#: templates/unlock.txt:2
+msgid "Verify account:"
+msgstr "Bekræft konto:"
+
+#: templates/verification_reminder.html:2
+#: templates/verification_reminder.txt:1
+msgid "Hello again."
+msgstr "Hej igen."
+
+#: templates/verification_reminder.html:3
+#: templates/verification_reminder.txt:2
+msgid ""
+"Recently you created a Firefox Account, but never verified it. Please "
+"activate your account by confirming this email address."
+msgstr ""
+"Du oprettede en Firefox-konto for nylig, men bekræftede den aldrig. Aktiver "
+"din konto ved at bekræfte denne mailadresse."
+
+#: templates/verification_reminder.html:4 templates/verify.html:4
+msgid "Activate now"
+msgstr "Aktiver nu"
+
+#: templates/verification_reminder.html:8 templates/verify.html:8
+msgid "Verify Email"
+msgstr "Bekræft mailadresse"
+
+#: templates/verification_reminder.html:9 templates/verify.html:9
+msgid "Verify your email to finish your Firefox Account registration"
+msgstr ""
+"Bekræft din mailadresse for at afslutte din registrering af din Firefox-konto"
+
+#: templates/verification_reminder.txt:3
+msgid "Activate Now:"
+msgstr "Aktiver nu:"
+
+#: templates/verify.html:2 templates/verify.txt:1
+msgid "Welcome!"
+msgstr "Velkommen!"
+
+#: templates/verify.html:3 templates/verify.txt:2
+msgid "Please activate your account by confirming this email address."
+msgstr "Aktiver din konto ved at bekræfte denne mailadresse."
+
+#: templates/verify.txt:3
+msgid "Activate now:"
+msgstr "Aktiver nu:"
+
+#: mailer.js:126 mailer.js:317
+msgid "Verify your Firefox Account"
+msgstr "Bekræft din Firefox-konto"
+
+#: mailer.js:158
+msgid "Reset your Firefox Account password"
+msgstr "Nulstil adgangskoden til din Firefox-konto"
+
+#: mailer.js:191
+msgid "Re-verify your Firefox Account"
+msgstr "Genbekræft din Firefox-konto"
+
+#: mailer.js:216
+msgid "Your Firefox Account password has been changed"
+msgstr "Adgangskoden til din Firefox-konto er blevet ændret"
+
+#: mailer.js:237
+msgid "Your Firefox Account password has been reset"
+msgstr "Adgangskoden til din Firefox-konto er blevet nulstillet"
+
+#: mailer.js:258
+msgid "New sign-in to Firefox"
+msgstr "Nyt login til Firefox"
+
+#: mailer.js:280
+msgid "Firefox Account Verified"
+msgstr "Firefox-konto bekræftet"
+
+#: server/templates/pages/src/400.html:2
+msgid "Bad Request"
+msgstr "Bad Request"
+
+#: server/templates/pages/src/404.html:2
+msgid "Page not found"
+msgstr "Side ikke fundet"
+
+#: server/templates/pages/src/404.html:3
+msgid ""
+"The page you requested is not found. We've been notified and will fix any "
+"links that may be broken."
+msgstr ""
+"Den ønskede side blev ikke fundet. Vi har fået besked, og vil rette ikke-"
+"virkende links."
+
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+msgid "Home"
+msgstr "Start"
+
+#: server/templates/pages/src/500.html:2
+msgid "500 Error"
+msgstr "Fejl 500"
+
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+msgid ""
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
+msgstr ""
+"Åh nej, noget gik galt. Vi har fået besked, og vil gå i gang med at finde en "
+"løsning."
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr "Fejl 502"
+
+#: server/templates/pages/src/503.html:2
+msgid "Server busy, try again soon"
+msgstr "Serveren er optaget, prøv igen om lidt"
+
+#: server/templates/pages/src/503.html:3
+msgid ""
+"We are currently under heavy strain and are working to return the system to "
+"normal as soon as possible."
+msgstr ""
+"Systemet er i øjeblikket under stor belastning. Vi arbejder på at få det "
+"tilbage til normal tilstand så hurtigt som muligt."
+
+#: server/templates/pages/src/index.html:2
+#: server/templates/pages/src/privacy.html:5
+#: server/templates/pages/src/terms.html:5
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+"Du bruger en <strong>forældet</strong> browser. <a href=\"http://browsehappy."
+"com/\">Opdatér din browser</a> for at få en bedre oplevelse."
+
+#: server/templates/pages/src/index.html:3
+msgid "Firefox Accounts requires JavaScript."
+msgstr "Firefox-konti kræver JavaScript."
+
+#: server/templates/pages/src/privacy.html:2
+#: server/templates/pages/src/privacy.html:4
+msgid "Privacy Notice"
+msgstr "Privatlivspolitik"
+
+#: server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/terms.html:3
+msgid "Firefox cloud services"
+msgstr "Firefox online-tjenester"
+
+#: server/templates/pages/src/terms.html:2
+#: server/templates/pages/src/terms.html:4
+msgid "Terms of Service"
+msgstr "Tjenestevilkår"
+
+#~ msgid "Reset password"
+#~ msgstr "Nulstil adgangskode"
+
+#~ msgid ""
+#~ "For more information, please visit <a href='https://support.mozilla."
+#~ "org'>Mozilla Support</a>"
+#~ msgstr ""
+#~ "For yderligere information, besøg <a href='https://support.mozilla."
+#~ "org'>Mozilla Support</a>"
+
+#~ msgid "Reset password:"
+#~ msgstr "Nulstil adgangskode:"
+
+#~ msgid "For more information, please visit https://support.mozilla.org"
+#~ msgstr "For mere information, besøg https://support.mozilla.org"
+
+#~ msgid "Almost there"
+#~ msgstr "Næsten færdig"
+
+#~ msgid ""
+#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgstr "%(email)s, du er et klik fra at bekræfte din Firefox-konto."
+
+#~ msgid "Verify"
+#~ msgstr "Bekræft"
+
+#~ msgid "Verify:"
+#~ msgstr "Bekræft:"
+
+#~ msgid "Verify your account"
+#~ msgstr "Bekræft din konto"
+
+#~ msgid "Reset your password"
+#~ msgstr "Nulstil din adgangskode"
+
+#~ msgid "Re-verify your account"
+#~ msgstr "Genbekræft din konto"
+
+#~ msgid ""
+#~ "A new device is now syncing with all of the devices connected to your "
+#~ "Firefox Account."
+#~ msgstr ""
+#~ "En ny enhed synkroniserer nu med alle enhederne, der er forbundet med din "
+#~ "Firefox-konto."
+
+#~ msgid ""
+#~ "This is an automated email; if you didn't add a new device to your "
+#~ "Firefox Account, you should change your password immediately at <a "
+#~ "href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgstr ""
+#~ "Denne mail er sendt automatisk; hvis du ikke tilføjede en ny enhed til "
+#~ "din Firefox-konto, bør du ændre din adgangskode med det samme på <a "
+#~ "href='%(resetLink)s'>%(resetLink)s</a>."
+
+#~ msgid ""
+#~ "This is an automated email; if you didn't change the password to your "
+#~ "Firefox Account, you should reset it immediately at <a "
+#~ "href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgstr ""
+#~ "Denne mail er sendt automatisk; hvis du ikke har ændret adgangskoden til "
+#~ "din Firefox-konto, bør du nulstille den med det samme på <a "
+#~ "href='%(resetLink)s'>%(resetLink)s</a>."
+
+#~ msgid ""
+#~ "This is an automated email; if you didn't reset the password to your "
+#~ "Firefox Account, you should reset it immediately at <a "
+#~ "href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgstr ""
+#~ "Denne mail er sendt automatisk; hvis du ikke har nulstillet adgangskoden "
+#~ "til din Firefox-konto, bør du nulstille den med det samme på <a "
+#~ "href='%(resetLink)s'>%(resetLink)s</a>."
+
+#~ msgid "A new device is now syncing to your Firefox Account"
+#~ msgstr "En ny enhed synkroniserer nu til din Firefox-konto"
+
+#~ msgid "Firefox Account Activation"
+#~ msgstr "Aktivering af Firefox-konto"
+
+#~ msgid ""
+#~ "For more information, please visit <a href='https://support.mozilla.org' "
+#~ "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
+#~ msgstr ""
+#~ "For mere information, besøg <a href='https://support.mozilla.org' "
+#~ "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
+
+#~ msgid ""
+#~ "For more information, please visit <a href='%(supportUrl)s' style='color: "
+#~ "#0095dd; text-decoration: none;'>Mozilla Support</a>"
+#~ msgstr ""
+#~ "For mere information, besøg <a href='%(supportUrl)s' style='color: "
+#~ "#0095dd; text-decoration: none;'>Mozilla Support</a>"
+
+#~ msgid "New sign-in to Sync"
+#~ msgstr "Nyt login til Sync"
+
+#~ msgid "Congratulations!"
+#~ msgstr "Tillykke!"
+
+#~ msgid "System unavailable, try again soon"
+#~ msgstr "Systemet er ikke tilgængeligt, prøv igen om lidt"
+
+#~ msgid ""
+#~ "We are currently performing some maintenance on the system, and will "
+#~ "return momentarily."
+#~ msgstr ""
+#~ "Vi udfører i øjeblikket vedligeholdelse på systemet, prøv igen om lidt."
 
 #~ msgid "Reset Password Request"
 #~ msgstr "Anmodning om nulstilling af adgangskode"

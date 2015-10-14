@@ -1,131 +1,90 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-04-25 09:48+0000\n"
-"Last-Translator: dskmori <ghoti.fish.dsk@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-08 20:44+0000\n"
+"PO-Revision-Date: 2015-10-08 21:40-0400\n"
+"Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
+"Language-Team: Japanese\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1398419336.0\n"
+"X-POOTLE-MTIME: 1423120631.0\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: templates/_pending.txt:1
+msgid "Still there?"
+msgstr "まだお使いになりますか？"
+
+#: templates/_pending.txt:2
+msgid ""
+"A while ago you created a Firefox Account, but never verified it. Click the "
+"link below to activate your account."
+msgstr ""
+"あなたはしばらく前に Firefox アカウントを作成されましたが、一度も認証を済ませていま"
+"せん。以下のリンクをクリックしてアカウントを有効化してください。"
+
+#: templates/_pending.txt:3 templates/post_verify.html:3
+msgid ""
+"You successfully connected your first device to your Firefox Account. Now "
+"you can sign in to Sync from your other devices, including Firefox for <a "
+"href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
+msgstr ""
+"あなたの Firefox アカウントへ最初の端末が接続されました。今後、<a href="
+"'%(androidUrl)s'>Android 版</a> や <a href='%(iosUrl)s'>iOS 版</a> の Firefox "
+"など他の端末から Sync へログインできます。"
+
+#: templates/_pending.txt:4
+msgid ""
+"You successfully connected your first device to your Firefox Account. To "
+"make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
+"Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
+msgstr ""
+"あなたの Firefox アカウントへ最初の端末が接続されました。Sync を最大限活用するには、"
+"<a href='%(androidUrl)s'>Android 版 Firefox</a> か <a href='%(iosUrl)s'>iOS "
+"版 Firefox</a> を接続してください。"
+
+#: templates/_pending.txt:5 templates/post_verify.html:4
+msgid "Connect another device"
+msgstr "他の端末を接続"
+
+#: templates/_pending.txt:6
+msgid "Sign in to Sync"
+msgstr "Sync へログイン"
+
+#: templates/new_sync_device.html:1 templates/password_changed.html:1
+#: templates/password_reset.html:1 templates/post_verify.html:1
+#: templates/reset.html:1 templates/unlock.html:1
+#: templates/verification_reminder.html:1 templates/verify.html:1
+#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
 #: server/templates/pages/src/terms.html:1
-#: server/templates/pages/dist/404.html:1
-#: server/templates/pages/dist/500.html:1
-#: server/templates/pages/dist/503.html:1
-#: server/templates/pages/dist/index.html:1
-#: server/templates/pages/dist/privacy.html:1
-#: server/templates/pages/dist/terms.html:1
-#: server/templates/email/reset.html:1 server/templates/email/verify.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox アカウント"
 
-#: server/templates/pages/src/404.html:2
-#: server/templates/pages/dist/404.html:2
-msgid "Page not found"
-msgstr "ページが見つかりませんでした"
+#: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
+#: templates/unlock.html:2
+msgid "Account activity notice"
+msgstr "アカウントアクティビティ通知"
 
-#: server/templates/pages/src/404.html:3
-#: server/templates/pages/dist/404.html:3
+#: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
 msgid ""
-"The page you requested is not found. We've been notified and will fix any "
-"links that may be broken."
+"A device began syncing with the devices connected to your Firefox Account."
 msgstr ""
-"リクエストしたページは存在しません。このリンク切れ情報を受け付けました。"
+"ある端末があなたの Firefox アカウントへ接続されている端末と同期を開始しました。"
 
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/503.html:4
-#: server/templates/pages/dist/404.html:4
-#: server/templates/pages/dist/500.html:4
-#: server/templates/pages/dist/503.html:4
-msgid "Home"
-msgstr "ホーム"
-
-#: server/templates/pages/src/500.html:2
-#: server/templates/pages/dist/500.html:2 server/lib/500.js:21
-#: server/lib/500.js:24
-msgid "System unavailable, try again soon"
-msgstr ""
-
-#: server/templates/pages/src/500.html:3
-#: server/templates/pages/dist/500.html:3
-msgid ""
-"We are currently performing some maintenance on the system, and will return "
-"momentarily."
-msgstr ""
-
-#: server/templates/pages/src/503.html:2
-#: server/templates/pages/dist/503.html:2
-msgid "Server busy, try again soon"
-msgstr ""
-
-#: server/templates/pages/src/503.html:3
-#: server/templates/pages/dist/503.html:3
-msgid ""
-"We are currently under heavy strain and are working to return the system to "
-"normal as soon as possible."
-msgstr ""
-
-#: server/templates/pages/src/index.html:2
-#: server/templates/pages/src/privacy.html:3
-#: server/templates/pages/src/terms.html:3
-#: server/templates/pages/dist/index.html:2
-#: server/templates/pages/dist/privacy.html:3
-#: server/templates/pages/dist/terms.html:3
-msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr ""
-
-#: server/templates/pages/src/index.html:3
-#: server/templates/pages/dist/index.html:3
-msgid "Firefox Accounts requires JavaScript."
-msgstr ""
-"Firefox アカウントを利用するには JavaScript を有効にする必要があります。"
-
-#: server/templates/pages/src/privacy.html:2
-#: server/templates/pages/src/privacy.html:5
-#: server/templates/pages/dist/privacy.html:2
-#: server/templates/pages/dist/privacy.html:5
-msgid "Privacy Notice"
-msgstr "プライバシーに関する注意"
-
-#: server/templates/pages/src/privacy.html:4
-#: server/templates/pages/src/terms.html:4
-#: server/templates/pages/dist/privacy.html:4
-#: server/templates/pages/dist/terms.html:4
-msgid "Firefox cloud services"
-msgstr "Firefox クラウドサービス"
-
-#: server/templates/pages/src/terms.html:2
-#: server/templates/pages/src/terms.html:5
-#: server/templates/pages/dist/terms.html:2
-#: server/templates/pages/dist/terms.html:5
-msgid "Terms of Service"
-msgstr "利用規約"
-
-#: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
-msgid "Are you sure?"
-msgstr "リセットしますか？"
-
-#: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "%(email)s に送信されたメールでパスワードのリセットを確認してください"
-
-#: server/templates/email/reset.html:4
-msgid "Reset password"
-msgstr "パスワードをリセットする"
-
-#: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
-#: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
+#: templates/new_sync_device.html:4 templates/password_changed.html:4
+#: templates/password_reset.html:4 templates/post_verify.html:6
+#: templates/post_verify.txt:4 templates/reset.html:6 templates/reset.txt:4
+#: templates/unlock.html:6 templates/unlock.txt:3
+#: templates/verification_reminder.html:6
+#: templates/verification_reminder.txt:4 templates/verify.html:6
+#: templates/verify.txt:4
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
@@ -133,43 +92,264 @@ msgstr ""
 "これは自動で配信されたメールです。心当たりがない場合は、何も行わないでくださ"
 "い。"
 
-#: server/templates/email/reset.html:6 server/templates/email/verify.html:6
+#: templates/new_sync_device.html:5 templates/password_changed.html:5
+#: templates/password_reset.html:5 templates/post_verify.html:7
+#: templates/reset.html:7 templates/unlock.html:7
+#: templates/verification_reminder.html:7 templates/verify.html:7
 msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
+"For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
+"Support</a>"
 msgstr ""
-"詳しい情報は、<a href='https://support.mozilla.org'>Mozilla Support</a> をご"
-"覧ください。"
+"詳しい情報は <a %(supportLinkAttributes)s>Mozilla サポート</a> をご覧ください。"
 
-#: server/templates/email/reset.txt:3
-msgid "Reset password:"
-msgstr "パスワードをリセットする:"
-
-#: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr "詳しい情報は、https://support.mozilla.org を訪問してください。"
-
-#: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
-msgid "Congratulations!"
-msgstr "おめでとうございます！"
-
-#: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
-msgid "%(email)s, you're one click away from verifying your Firefox Account."
+#: templates/new_sync_device.txt:3
+msgid ""
+"This is an automated email; if you didn't add a new device to your Firefox "
+"Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
-"あと 1 回クリックするだけで %(email)s を Firefox アカウントに認証できます。"
+"これは自動通知メールです。もしあなたが新たな端末を Firefox アカウントに追加し"
+"ていない場合は、今すぐ %(resetLink)s でパスワードを変更してください。"
 
-#: server/templates/email/verify.html:4
-msgid "Verify"
-msgstr "確認"
+#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
+#: templates/password_reset.txt:4 templates/post_verify.txt:5
+#: templates/reset.txt:5 templates/unlock.txt:4
+#: templates/verification_reminder.txt:5 templates/verify.txt:5
+msgid "For more information, please visit %(supportUrl)s"
+msgstr "詳しい情報は %(supportUrl)s をご覧ください。"
 
-#: server/templates/email/verify.txt:3
-msgid "Verify:"
-msgstr "確認:"
+#: templates/password_changed.html:2 templates/password_changed.txt:1
+msgid "Password changed successfully"
+msgstr "パスワード変更完了"
 
-#: server/lib/templates.js:35
-msgid "Verify your account"
-msgstr "アカウントを確認する"
+#: templates/password_changed.html:3 templates/password_changed.txt:2
+msgid "Your Firefox Account password has been successfully changed."
+msgstr "あなたの Firefox アカウントのパスワード変更が完了しました。"
 
-#: server/lib/templates.js:40
-msgid "Reset your password"
-msgstr "パスワードをリセットする"
+#: templates/password_changed.txt:3
+msgid ""
+"This is an automated email; if you didn’t change the password to your "
+"Firefox Account, you should reset it immediately at %(resetLink)s."
+msgstr ""
+"これは自動通知メールです。もしあなたが Firefox アカウントのパスワードを変更し"
+"ていない場合は、今すぐ %(resetLink)s でパスワードを変更してください。"
+
+#: templates/password_reset.html:2 templates/password_reset.txt:1
+msgid "Password reset successfully"
+msgstr "パスワードリセット完了"
+
+#: templates/password_reset.html:3 templates/password_reset.txt:2
+msgid "Your Firefox Account password has been successfully reset."
+msgstr "あなたの Firefox アカウントのパスワードリセットが完了しました。"
+
+#: templates/password_reset.txt:3
+msgid ""
+"This is an automated email; if you didn’t reset the password to your Firefox "
+"Account, you should reset it immediately at %(resetLink)s."
+msgstr ""
+"これは自動通知メールです。もしあなたが Firefox アカウントのパスワードをリセッ"
+"トしていない場合は、今すぐ %(resetLink)s でパスワードを変更してください。"
+
+#: templates/post_verify.html:2 templates/post_verify.txt:1
+msgid "Account verified!"
+msgstr "アカウント認証が完了しました！"
+
+#: templates/post_verify.html:5 templates/reset.html:5 templates/unlock.html:5
+#: templates/verification_reminder.html:5 templates/verify.html:5
+msgid "Alternatively:"
+msgstr "別の方法:"
+
+#: templates/post_verify.txt:2
+msgid ""
+"You successfully connected your first device to your Firefox Account. Now "
+"you can sign in to Sync from your other devices, including Firefox for "
+"Android and iOS."
+msgstr ""
+"あなたの Firefox アカウントへ最初の端末が接続されました。今後、Android 版 や iOS "
+"版 の Firefox など他の端末から Sync へログインできます。"
+
+#: templates/post_verify.txt:3
+msgid "Sign in to Sync:"
+msgstr "Sync へログイン:"
+
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Are you sure?"
+msgstr "本当にリセットしますか？"
+
+#: templates/reset.html:3 templates/reset.txt:2
+msgid "Please confirm that you'd like to reset the password for %(email)s."
+msgstr "%(email)s のパスワードをリセットしても良いかどうか確認してください。"
+
+#: templates/reset.html:4
+msgid "Reset password now"
+msgstr "今すぐパスワードをリセット"
+
+#: templates/reset.txt:3
+msgid "Reset password now:"
+msgstr "今すぐパスワードをリセット:"
+
+#: templates/unlock.html:3 templates/unlock.txt:1
+msgid ""
+"For security reasons your Firefox Account was put on lockdown. To perform "
+"account-level activities, please click the link to re-verify your account "
+"now."
+msgstr ""
+"セキュリティ上の理由から、あなたの Firefox アカウントは停止されています。アカ"
+"ウントレベルの操作を行うには、今すぐアカウントの再認証リンクをクリックしてく"
+"ださい。"
+
+#: templates/unlock.html:4
+msgid "Verify account"
+msgstr "アカウントを認証"
+
+#: templates/unlock.txt:2
+msgid "Verify account:"
+msgstr "アカウントを認証:"
+
+#: templates/verification_reminder.html:2
+#: templates/verification_reminder.txt:1
+msgid "Hello again."
+msgstr "お帰りなさい。"
+
+#: templates/verification_reminder.html:3
+#: templates/verification_reminder.txt:2
+msgid ""
+"Recently you created a Firefox Account, but never verified it. Please "
+"activate your account by confirming this email address."
+msgstr ""
+"あなたは最近 Firefox アカウントを作成されましたが、一度も認証を済ませていません。"
+"このメールアドレスを確認してアカウントを有効化してください。"
+
+#: templates/verification_reminder.html:4 templates/verify.html:4
+msgid "Activate now"
+msgstr "今すぐ有効化"
+
+#: templates/verification_reminder.html:8 templates/verify.html:8
+msgid "Verify Email"
+msgstr "メールアドレスを認証"
+
+#: templates/verification_reminder.html:9 templates/verify.html:9
+msgid "Verify your email to finish your Firefox Account registration"
+msgstr "メールアドレスを認証して Firefox アカウントの登録を完了してください"
+
+#: templates/verification_reminder.txt:3
+msgid "Activate Now:"
+msgstr "今すぐ有効化:"
+
+#: templates/verify.html:2 templates/verify.txt:1
+msgid "Welcome!"
+msgstr "ようこそ！"
+
+#: templates/verify.html:3 templates/verify.txt:2
+msgid "Please activate your account by confirming this email address."
+msgstr "このメールアドレスを確認してアカウントを有効化してください。"
+
+#: templates/verify.txt:3
+msgid "Activate now:"
+msgstr "今すぐ有効化:"
+
+#: mailer.js:126 mailer.js:317
+msgid "Verify your Firefox Account"
+msgstr "Firefox アカウントを認証"
+
+#: mailer.js:158
+msgid "Reset your Firefox Account password"
+msgstr "Firefox アカウントのパスワードをリセット"
+
+#: mailer.js:191
+msgid "Re-verify your Firefox Account"
+msgstr "Firefox アカウントを再認証"
+
+#: mailer.js:216
+msgid "Your Firefox Account password has been changed"
+msgstr "Firefox アカウントのパスワードが変更されました"
+
+#: mailer.js:237
+msgid "Your Firefox Account password has been reset"
+msgstr "Firefox アカウントのパスワードがリセットされました"
+
+#: mailer.js:258
+msgid "New sign-in to Firefox"
+msgstr "Firefox への新規ログイン"
+
+#: mailer.js:280
+msgid "Firefox Account Verified"
+msgstr "Firefox アカウントが認証されました"
+
+#: server/templates/pages/src/400.html:2
+msgid "Bad Request"
+msgstr "不正なリクエスト"
+
+#: server/templates/pages/src/404.html:2
+msgid "Page not found"
+msgstr "ページが見つかりませんでした"
+
+#: server/templates/pages/src/404.html:3
+msgid ""
+"The page you requested is not found. We've been notified and will fix any "
+"links that may be broken."
+msgstr ""
+"リクエストされたページは見つかりませんでした。サーバ管理者が通知を受け取り、"
+"サイト内でリンク切れがある場合は修正します。"
+
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+msgid "Home"
+msgstr "ホーム"
+
+#: server/templates/pages/src/500.html:2
+msgid "500 Error"
+msgstr "500 エラー"
+
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+msgid ""
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
+msgstr ""
+"申し訳ありませんが、何か問題が発生しました。サーバ管理者が通知を受け取り、修"
+"正に取りかかります。"
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr "502 エラー"
+
+#: server/templates/pages/src/503.html:2
+msgid "Server busy, try again soon"
+msgstr "サーバがビジーです。また後でお試しください"
+
+#: server/templates/pages/src/503.html:3
+msgid ""
+"We are currently under heavy strain and are working to return the system to "
+"normal as soon as possible."
+msgstr ""
+"現在サーバに過度な負担が掛かっており、できる限り早くシステムを正常な状態に戻"
+"すべく取り組んでいます。"
+
+#: server/templates/pages/src/index.html:2
+#: server/templates/pages/src/privacy.html:5
+#: server/templates/pages/src/terms.html:5
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+"あなたは <strong>古い</strong> ブラウザをお使いです。ユーザ体験を向上させるた"
+"めに<a href=\"http://browsehappy.com/\">ブラウザをアップグレードしてください"
+"</a>。"
+
+#: server/templates/pages/src/index.html:3
+msgid "Firefox Accounts requires JavaScript."
+msgstr "Firefox アカウントは JavaScript を必要とします。"
+
+#: server/templates/pages/src/privacy.html:2
+#: server/templates/pages/src/privacy.html:4
+msgid "Privacy Notice"
+msgstr "プライバシー告知"
+
+#: server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/terms.html:3
+msgid "Firefox cloud services"
+msgstr "Firefox クラウドサービス"
+
+#: server/templates/pages/src/terms.html:2
+#: server/templates/pages/src/terms.html:4
+msgid "Terms of Service"
+msgstr "利用規約"

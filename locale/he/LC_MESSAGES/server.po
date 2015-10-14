@@ -1,40 +1,265 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-04-29 00:10+0000\n"
-"PO-Revision-Date: 2014-03-13 13:05+0000\n"
-"Last-Translator: Tomer <tomer@gmx.net>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-08 20:44+0000\n"
+"PO-Revision-Date: 2014-03-13 13:05:09\n"
+"Last-Translator: Tomer Cohen <tomer.mozilla@tomercohen.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1394715909.0\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: templates/_pending.txt:1
+msgid "Still there?"
+msgstr ""
+
+#: templates/_pending.txt:2
+msgid ""
+"A while ago you created a Firefox Account, but never verified it. Click the "
+"link below to activate your account."
+msgstr ""
+
+#: templates/_pending.txt:3 templates/post_verify.html:3
+msgid ""
+"You successfully connected your first device to your Firefox Account. Now "
+"you can sign in to Sync from your other devices, including Firefox for <a "
+"href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
+msgstr ""
+
+#: templates/_pending.txt:4
+msgid ""
+"You successfully connected your first device to your Firefox Account. To "
+"make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
+"Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
+msgstr ""
+
+#: templates/_pending.txt:5 templates/post_verify.html:4
+msgid "Connect another device"
+msgstr ""
+
+#: templates/_pending.txt:6
+msgid "Sign in to Sync"
+msgstr ""
+
+#: templates/new_sync_device.html:1 templates/password_changed.html:1
+#: templates/password_reset.html:1 templates/post_verify.html:1
+#: templates/reset.html:1 templates/unlock.html:1
+#: templates/verification_reminder.html:1 templates/verify.html:1
+#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
 #: server/templates/pages/src/terms.html:1
-#: server/templates/pages/dist/404.html:1
-#: server/templates/pages/dist/500.html:1
-#: server/templates/pages/dist/503.html:1
-#: server/templates/pages/dist/index.html:1
-#: server/templates/pages/dist/privacy.html:1
-#: server/templates/pages/dist/terms.html:1
-#: server/templates/email/reset.html:1 server/templates/email/verify.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
+#: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
+#: templates/unlock.html:2
+msgid "Account activity notice"
+msgstr ""
+
+#: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
+msgid ""
+"A device began syncing with the devices connected to your Firefox Account."
+msgstr ""
+
+#: templates/new_sync_device.html:4 templates/password_changed.html:4
+#: templates/password_reset.html:4 templates/post_verify.html:6
+#: templates/post_verify.txt:4 templates/reset.html:6 templates/reset.txt:4
+#: templates/unlock.html:6 templates/unlock.txt:3
+#: templates/verification_reminder.html:6
+#: templates/verification_reminder.txt:4 templates/verify.html:6
+#: templates/verify.txt:4
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr "אם הודעה זו הגיעה אליך בטעות, אין צורך בשום פעולה מצידך. "
+
+#: templates/new_sync_device.html:5 templates/password_changed.html:5
+#: templates/password_reset.html:5 templates/post_verify.html:7
+#: templates/reset.html:7 templates/unlock.html:7
+#: templates/verification_reminder.html:7 templates/verify.html:7
+msgid ""
+"For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
+"Support</a>"
+msgstr ""
+
+#: templates/new_sync_device.txt:3
+msgid ""
+"This is an automated email; if you didn't add a new device to your Firefox "
+"Account, you should change your password immediately at %(resetLink)s."
+msgstr ""
+
+#: templates/new_sync_device.txt:4 templates/password_changed.txt:4
+#: templates/password_reset.txt:4 templates/post_verify.txt:5
+#: templates/reset.txt:5 templates/unlock.txt:4
+#: templates/verification_reminder.txt:5 templates/verify.txt:5
+msgid "For more information, please visit %(supportUrl)s"
+msgstr ""
+
+#: templates/password_changed.html:2 templates/password_changed.txt:1
+msgid "Password changed successfully"
+msgstr ""
+
+#: templates/password_changed.html:3 templates/password_changed.txt:2
+msgid "Your Firefox Account password has been successfully changed."
+msgstr ""
+
+#: templates/password_changed.txt:3
+msgid ""
+"This is an automated email; if you didn’t change the password to your "
+"Firefox Account, you should reset it immediately at %(resetLink)s."
+msgstr ""
+
+#: templates/password_reset.html:2 templates/password_reset.txt:1
+msgid "Password reset successfully"
+msgstr ""
+
+#: templates/password_reset.html:3 templates/password_reset.txt:2
+msgid "Your Firefox Account password has been successfully reset."
+msgstr ""
+
+#: templates/password_reset.txt:3
+msgid ""
+"This is an automated email; if you didn’t reset the password to your Firefox"
+" Account, you should reset it immediately at %(resetLink)s."
+msgstr ""
+
+#: templates/post_verify.html:2 templates/post_verify.txt:1
+msgid "Account verified!"
+msgstr ""
+
+#: templates/post_verify.html:5 templates/reset.html:5 templates/unlock.html:5
+#: templates/verification_reminder.html:5 templates/verify.html:5
+msgid "Alternatively:"
+msgstr ""
+
+#: templates/post_verify.txt:2
+msgid ""
+"You successfully connected your first device to your Firefox Account. Now "
+"you can sign in to Sync from your other devices, including Firefox for "
+"Android and iOS."
+msgstr ""
+
+#: templates/post_verify.txt:3
+msgid "Sign in to Sync:"
+msgstr ""
+
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Are you sure?"
+msgstr ""
+
+#: templates/reset.html:3 templates/reset.txt:2
+msgid "Please confirm that you'd like to reset the password for %(email)s."
+msgstr "התקבלה בקשה לאפס ססמה עבור %(email)s."
+
+#: templates/reset.html:4
+msgid "Reset password now"
+msgstr ""
+
+#: templates/reset.txt:3
+msgid "Reset password now:"
+msgstr ""
+
+#: templates/unlock.html:3 templates/unlock.txt:1
+msgid ""
+"For security reasons your Firefox Account was put on lockdown. To perform "
+"account-level activities, please click the link to re-verify your account "
+"now."
+msgstr ""
+
+#: templates/unlock.html:4
+msgid "Verify account"
+msgstr ""
+
+#: templates/unlock.txt:2
+msgid "Verify account:"
+msgstr ""
+
+#: templates/verification_reminder.html:2
+#: templates/verification_reminder.txt:1
+msgid "Hello again."
+msgstr ""
+
+#: templates/verification_reminder.html:3
+#: templates/verification_reminder.txt:2
+msgid ""
+"Recently you created a Firefox Account, but never verified it. Please "
+"activate your account by confirming this email address."
+msgstr ""
+
+#: templates/verification_reminder.html:4 templates/verify.html:4
+msgid "Activate now"
+msgstr ""
+
+#: templates/verification_reminder.html:8 templates/verify.html:8
+msgid "Verify Email"
+msgstr ""
+
+#: templates/verification_reminder.html:9 templates/verify.html:9
+msgid "Verify your email to finish your Firefox Account registration"
+msgstr ""
+
+#: templates/verification_reminder.txt:3
+msgid "Activate Now:"
+msgstr ""
+
+#: templates/verify.html:2 templates/verify.txt:1
+msgid "Welcome!"
+msgstr ""
+
+#: templates/verify.html:3 templates/verify.txt:2
+msgid "Please activate your account by confirming this email address."
+msgstr ""
+
+#: templates/verify.txt:3
+msgid "Activate now:"
+msgstr ""
+
+#: mailer.js:126 mailer.js:317
+msgid "Verify your Firefox Account"
+msgstr ""
+
+#: mailer.js:158
+msgid "Reset your Firefox Account password"
+msgstr ""
+
+#: mailer.js:191
+msgid "Re-verify your Firefox Account"
+msgstr ""
+
+#: mailer.js:216
+msgid "Your Firefox Account password has been changed"
+msgstr ""
+
+#: mailer.js:237
+msgid "Your Firefox Account password has been reset"
+msgstr ""
+
+#: mailer.js:258
+msgid "New sign-in to Firefox"
+msgstr ""
+
+#: mailer.js:280
+msgid "Firefox Account Verified"
+msgstr ""
+
+#: server/templates/pages/src/400.html:2
+msgid "Bad Request"
+msgstr ""
+
 #: server/templates/pages/src/404.html:2
-#: server/templates/pages/dist/404.html:2
 msgid "Page not found"
 msgstr "עמוד לא נמצא"
 
 #: server/templates/pages/src/404.html:3
-#: server/templates/pages/dist/404.html:3
 msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
@@ -42,139 +267,84 @@ msgstr ""
 "העמוד המבוקש לא נמצא. קיבלנו את המידע הדרוש ונתקן את הקישורים שייתכן שנשברו."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/503.html:4
-#: server/templates/pages/dist/404.html:4
-#: server/templates/pages/dist/500.html:4
-#: server/templates/pages/dist/503.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "בית"
 
 #: server/templates/pages/src/500.html:2
-#: server/templates/pages/dist/500.html:2 server/lib/500.js:21
-#: server/lib/500.js:24
-msgid "System unavailable, try again soon"
+msgid "500 Error"
 msgstr ""
 
-#: server/templates/pages/src/500.html:3
-#: server/templates/pages/dist/500.html:3
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
-"We are currently performing some maintenance on the system, and will return "
-"momentarily."
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
+msgstr ""
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
 msgstr ""
 
 #: server/templates/pages/src/503.html:2
-#: server/templates/pages/dist/503.html:2
 msgid "Server busy, try again soon"
 msgstr ""
 
 #: server/templates/pages/src/503.html:3
-#: server/templates/pages/dist/503.html:3
 msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
 
 #: server/templates/pages/src/index.html:2
-#: server/templates/pages/src/privacy.html:3
-#: server/templates/pages/src/terms.html:3
-#: server/templates/pages/dist/index.html:2
-#: server/templates/pages/dist/privacy.html:3
-#: server/templates/pages/dist/terms.html:3
+#: server/templates/pages/src/privacy.html:5
+#: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+"You are using an <strong>outdated</strong> browser. Please <a "
+"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+"experience."
 msgstr ""
 
 #: server/templates/pages/src/index.html:3
-#: server/templates/pages/dist/index.html:3
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Firefox Accounts דורש JavaScript."
 
 #: server/templates/pages/src/privacy.html:2
-#: server/templates/pages/src/privacy.html:5
-#: server/templates/pages/dist/privacy.html:2
-#: server/templates/pages/dist/privacy.html:5
+#: server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
 msgstr ""
 
-#: server/templates/pages/src/privacy.html:4
-#: server/templates/pages/src/terms.html:4
-#: server/templates/pages/dist/privacy.html:4
-#: server/templates/pages/dist/terms.html:4
-#, fuzzy
+#: server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
 msgstr "Firefox Accounts"
 
 #: server/templates/pages/src/terms.html:2
-#: server/templates/pages/src/terms.html:5
-#: server/templates/pages/dist/terms.html:2
-#: server/templates/pages/dist/terms.html:5
+#: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr ""
 
-#: server/templates/email/reset.html:2 server/templates/email/reset.txt:1
-msgid "Are you sure?"
-msgstr ""
+#~ msgid "Reset password"
+#~ msgstr "איפוס ססמה"
 
-#: server/templates/email/reset.html:3 server/templates/email/reset.txt:2
-#, fuzzy
-msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "התקבלה בקשה לאפס ססמה עבור %(email)s."
+#~ msgid "Reset password:"
+#~ msgstr "איפוס ססמה:"
 
-#: server/templates/email/reset.html:4
-msgid "Reset password"
-msgstr "איפוס ססמה"
+#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgstr ""
+#~ "ברכותינו! %(email)s, הנך במרחק של שניות ספורות מאימות החשבון שלך ב־Firefox "
+#~ "Account."
 
-#: server/templates/email/reset.html:5 server/templates/email/reset.txt:4
-#: server/templates/email/verify.html:5 server/templates/email/verify.txt:4
-#, fuzzy
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr "אם הודעה זו הגיעה אליך בטעות, אין צורך בשום פעולה מצידך. "
+#~ msgid "Verify"
+#~ msgstr "אימות"
 
-#: server/templates/email/reset.html:6 server/templates/email/verify.html:6
-msgid ""
-"For more information, please visit <a href='https://support.mozilla."
-"org'>Mozilla Support</a>"
-msgstr ""
+#~ msgid "Verify:"
+#~ msgstr "אימות:"
 
-#: server/templates/email/reset.txt:3
-msgid "Reset password:"
-msgstr "איפוס ססמה:"
+#~ msgid "Verify your account"
+#~ msgstr "אימות החשבון שלך"
 
-#: server/templates/email/reset.txt:5 server/templates/email/verify.txt:5
-msgid "For more information, please visit https://support.mozilla.org"
-msgstr ""
-
-#: server/templates/email/verify.html:2 server/templates/email/verify.txt:1
-msgid "Congratulations!"
-msgstr ""
-
-#: server/templates/email/verify.html:3 server/templates/email/verify.txt:2
-#, fuzzy
-msgid "%(email)s, you're one click away from verifying your Firefox Account."
-msgstr ""
-"ברכותינו! %(email)s, הנך במרחק של שניות ספורות מאימות החשבון שלך ב־Firefox "
-"Account."
-
-#: server/templates/email/verify.html:4
-msgid "Verify"
-msgstr "אימות"
-
-#: server/templates/email/verify.txt:3
-msgid "Verify:"
-msgstr "אימות:"
-
-#: server/lib/templates.js:35
-#, fuzzy
-msgid "Verify your account"
-msgstr "אימות החשבון שלך"
-
-#: server/lib/templates.js:40
-#, fuzzy
-msgid "Reset your password"
-msgstr "איפוס ססמה"
+#~ msgid "Reset your password"
+#~ msgstr "איפוס ססמה"
 
 #~ msgid "Reset Password Request"
 #~ msgstr "בקשה לאיפוס ססמה"
