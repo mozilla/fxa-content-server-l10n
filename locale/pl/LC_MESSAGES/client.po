@@ -1,19 +1,18 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://github.com/aviarypl/mozilla-l10n-fxa-content-server/issues\n"
 "POT-Creation-Date: 2015-10-15 17:21+0000\n"
-"PO-Revision-Date: 2015-10-09 17:38+0200\n"
-"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-10-15 22:39+0200\n"
+"Last-Translator: Stefan Plewako <splewako@aviary.pl>\n"
+"Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1415955325.0\n"
+"X-Generator: Poedit 1.8.5\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
 msgid "1991"
@@ -349,8 +348,8 @@ msgstr ""
 #: app/scripts/lib/auth-errors.js:196
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
-"Konta Firefoksa mogą być umieszczane w „IFRAME” tylko na zatwierdzonych "
-"witrynach"
+"Konta Firefoksa mogą być umieszczane w elementach iframe "
+"tylko w zatwierdzonych witrynach"
 
 #: app/scripts/lib/auth-errors.js:204
 msgid "/force_auth requires an email"
@@ -453,9 +452,9 @@ msgid ""
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Kontynuując, wyrażana jest zgoda na <a id=\"service-tos\" href=\"%(termsUri)s"
+"Kontynuując, wyrażasz zgodę na <a id=\"service-tos\" href=\"%(termsUri)s"
 "\">Regulamin usługi</a> oraz <a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Informacje o prywatności</a> usługi %(serviceName)s (%(serviceUri)s)."
+"\">Informacje o prywatności</a> usługi %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:23
 #: app/scripts/templates/choose_what_to_sync.mustache:2
@@ -723,14 +722,14 @@ msgid ""
 "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
 "Notice</a> of Firefox cloud services."
 msgstr ""
-"Kontynuując, wyrażana jest zgoda na <a id=\"fxa-tos\" href=\"/legal/terms"
+"Kontynuując, wyrażasz zgodę na <a id=\"fxa-tos\" href=\"/legal/terms"
 "\">Regulamin usługi</a> oraz <a id=\"fxa-pp\" href=\"/legal/privacy"
-"\">Informacje o prywatności</a> usług Firefox Cloud."
+"\">Informacje o prywatności</a> usług Firefox cloud."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
-msgstr "Usługi Firefox Cloud"
+msgstr "Usługi Firefox cloud"
 
 #: app/scripts/templates/legal.mustache:2
 msgid "Legal"
@@ -759,7 +758,7 @@ msgstr "Pobierz Firefoksa na Androida"
 #: app/scripts/templates/marketing_snippet_ios.mustache:5
 #: app/scripts/templates/marketing_snippet_ios.mustache:9
 msgid "Get the full Sync experience."
-msgstr "Używaj pełnej funkcji synchronizacji."
+msgstr "Używaj pełnej synchronizacji."
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:2
 #: app/scripts/templates/marketing_snippet_ios.mustache:12
@@ -923,7 +922,7 @@ msgstr "Wyślij"
 
 #: app/scripts/templates/settings/avatar_change.mustache:2
 msgid "Camera"
-msgstr "Kamera"
+msgstr "Aparat"
 
 #: app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Gravatar"
