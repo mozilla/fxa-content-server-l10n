@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-08 20:44+0000\n"
+"POT-Creation-Date: 2015-10-15 17:21+0000\n"
 "PO-Revision-Date: 2015-10-11 01:16+0000\n"
 "Last-Translator: Ian Neal <iann_bugzilla@blueyonder.co.uk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -145,11 +145,11 @@ msgstr "Your Firefox Account password has been successfully reset."
 
 #: templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox"
-" Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox "
+"Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
-"This is an automated email; if you didn’t reset the password to your Firefox"
-" Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox "
+"Account, you should reset it immediately at %(resetLink)s."
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
@@ -250,33 +250,40 @@ msgstr "Please activate your account by confirming this email address."
 msgid "Activate now:"
 msgstr "Activate now:"
 
-#: mailer.js:126 mailer.js:317
+#: mailer.js:126 mailer.js:317 mailer.js:132 mailer.js:330
 msgid "Verify your Firefox Account"
 msgstr "Verify your Firefox Account"
 
-#: mailer.js:158
+#: mailer.js:158 mailer.js:165
 msgid "Reset your Firefox Account password"
 msgstr "Reset your Firefox Account password"
 
-#: mailer.js:191
+#: mailer.js:191 mailer.js:199
 msgid "Re-verify your Firefox Account"
 msgstr "Re-verify your Firefox Account"
 
-#: mailer.js:216
+#: mailer.js:216 mailer.js:225
 msgid "Your Firefox Account password has been changed"
 msgstr "Your Firefox Account password has been changed"
 
-#: mailer.js:237
+#: mailer.js:237 mailer.js:247
 msgid "Your Firefox Account password has been reset"
 msgstr "Your Firefox Account password has been reset"
 
-#: mailer.js:258
+#: mailer.js:258 mailer.js:269
 msgid "New sign-in to Firefox"
 msgstr "New sign-in to Firefox"
 
-#: mailer.js:280
+#: mailer.js:280 mailer.js:292
 msgid "Firefox Account Verified"
 msgstr "Firefox Account Verified"
+
+#: templates/new_sync_device.html:4 templates/password_changed.html:4
+#: templates/password_reset.html:4
+msgid ""
+"This is an automated email; if you did not authorize this action, then <a "
+"%(passwordChangeLinkAttributes)s>please change your password.</a>"
+msgstr ""
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
@@ -331,13 +338,11 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a "
-"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
-"experience."
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
-"You are using an <strong>outdated</strong> browser. Please <a "
-"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
-"experience."
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -362,11 +367,11 @@ msgstr "Terms of Service"
 #~ msgstr "Reset password"
 
 #~ msgid ""
-#~ "For more information, please visit <a "
-#~ "href='https://support.mozilla.org'>Mozilla Support</a>"
+#~ "For more information, please visit <a href='https://support.mozilla."
+#~ "org'>Mozilla Support</a>"
 #~ msgstr ""
-#~ "For more information, please visit <a "
-#~ "href='https://support.mozilla.org'>Mozilla Support</a>"
+#~ "For more information, please visit <a href='https://support.mozilla."
+#~ "org'>Mozilla Support</a>"
 
 #~ msgid "Reset password:"
 #~ msgstr "Reset password:"
@@ -377,8 +382,10 @@ msgstr "Terms of Service"
 #~ msgid "Almost there"
 #~ msgstr "Almost there"
 
-#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
-#~ msgstr "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgid ""
+#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgstr ""
+#~ "%(email)s, you're one click away from verifying your Firefox Account."
 
 #~ msgid "Verify"
 #~ msgstr "Verify"
@@ -399,16 +406,16 @@ msgstr "Terms of Service"
 #~ "A new device is now syncing with all of the devices connected to your "
 #~ "Firefox Account."
 #~ msgstr ""
-#~ "A new device is now synchronising with all of the devices connected to your "
-#~ "Firefox Account."
+#~ "A new device is now synchronising with all of the devices connected to "
+#~ "your Firefox Account."
 
 #~ msgid ""
-#~ "This is an automated email; if you didn't add a new device to your Firefox "
-#~ "Account, you should change your password immediately at <a "
+#~ "This is an automated email; if you didn't add a new device to your "
+#~ "Firefox Account, you should change your password immediately at <a "
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr ""
-#~ "This is an automated email; if you didn't add a new device to your Firefox "
-#~ "Account, you should change your password immediately at <a "
+#~ "This is an automated email; if you didn't add a new device to your "
+#~ "Firefox Account, you should change your password immediately at <a "
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 
 #~ msgid ""
@@ -421,12 +428,12 @@ msgstr "Terms of Service"
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 
 #~ msgid ""
-#~ "This is an automated email; if you didn't reset the password to your Firefox"
-#~ " Account, you should reset it immediately at <a "
+#~ "This is an automated email; if you didn't reset the password to your "
+#~ "Firefox Account, you should reset it immediately at <a "
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr ""
-#~ "This is an automated email; if you didn't reset the password to your Firefox"
-#~ " Account, you should reset it immediately at <a "
+#~ "This is an automated email; if you didn't reset the password to your "
+#~ "Firefox Account, you should reset it immediately at <a "
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 
 #~ msgid "A new device is now syncing to your Firefox Account"

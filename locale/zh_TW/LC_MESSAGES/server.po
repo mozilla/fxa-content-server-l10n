@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-08 20:44+0000\n"
+"POT-Creation-Date: 2015-10-15 17:21+0000\n"
 "PO-Revision-Date: 2015-10-09 03:26+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,7 +95,8 @@ msgstr "這是電腦自動發送的郵件，若您突然收到這封信，不需
 msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
-msgstr "若需更多資訊，請前往 <a %(supportLinkAttributes)s>Mozilla 技術支援站</a>"
+msgstr ""
+"若需更多資訊，請前往 <a %(supportLinkAttributes)s>Mozilla 技術支援站</a>"
 
 #: templates/new_sync_device.txt:3
 msgid ""
@@ -240,33 +241,40 @@ msgstr "請確認此電子郵件地址為您所有，以啟用帳號。"
 msgid "Activate now:"
 msgstr "立刻啟用:"
 
-#: mailer.js:126 mailer.js:317
+#: mailer.js:126 mailer.js:317 mailer.js:132 mailer.js:330
 msgid "Verify your Firefox Account"
 msgstr "驗證您的 Firefox 帳號"
 
-#: mailer.js:158
+#: mailer.js:158 mailer.js:165
 msgid "Reset your Firefox Account password"
 msgstr "重設您的 Firefox 帳號密碼"
 
-#: mailer.js:191
+#: mailer.js:191 mailer.js:199
 msgid "Re-verify your Firefox Account"
 msgstr "重新驗證您的 Firefox 帳號"
 
-#: mailer.js:216
+#: mailer.js:216 mailer.js:225
 msgid "Your Firefox Account password has been changed"
 msgstr "已修改您的 Firefox 帳號密碼"
 
-#: mailer.js:237
+#: mailer.js:237 mailer.js:247
 msgid "Your Firefox Account password has been reset"
 msgstr "已重設您的 Firefox 帳號密碼"
 
-#: mailer.js:258
+#: mailer.js:258 mailer.js:269
 msgid "New sign-in to Firefox"
 msgstr "新登入至 Firefox"
 
-#: mailer.js:280
+#: mailer.js:280 mailer.js:292
 msgid "Firefox Account Verified"
 msgstr "已驗證 Firefox 帳號"
+
+#: templates/new_sync_device.html:4 templates/password_changed.html:4
+#: templates/password_reset.html:4
+msgid ""
+"This is an automated email; if you did not authorize this action, then <a "
+"%(passwordChangeLinkAttributes)s>please change your password.</a>"
+msgstr ""
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"

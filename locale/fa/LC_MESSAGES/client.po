@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-08 20:44+0000\n"
+"POT-Creation-Date: 2015-10-15 17:21+0000\n"
 "PO-Revision-Date: 2015-10-09 20:55+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,7 +83,7 @@ msgstr "۲۰۰۶"
 msgid "2007"
 msgstr "۲۰۰۷"
 
-#: app/scripts/views/complete_reset_password.js:135
+#: app/scripts/views/complete_reset_password.js:134
 #: app/scripts/views/complete_sign_up.js:101 app/scripts/views/confirm.js:116
 #: app/scripts/views/confirm_reset_password.js:165
 msgid "Account verified successfully"
@@ -134,7 +134,7 @@ msgstr "حالا شما برای استفاده از %(serviceName)s آماده 
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "حساب ناشناس. <a href=\"/signup\">ثبت‌نام</a>"
 
-#: app/scripts/views/settings.js:213
+#: app/scripts/views/settings.js:214
 msgid "Signed out successfully"
 msgstr "با موفقیت خارج شد"
 
@@ -142,32 +142,33 @@ msgstr "با موفقیت خارج شد"
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "حساب از قبل وجود دارد. <a href=\"/signin\">وارد شوید</a>"
 
-#: app/scripts/views/settings/avatar_gravatar.js:90
+#: app/scripts/views/settings/avatar_gravatar.js:91
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "با کسب اجازه از <a href=\"https://www.gravatar.com\">گراواتار</a>"
 
-#: app/scripts/views/settings/change_password.js:57
+#: app/scripts/views/settings/change_password.js:54
 msgid "Password changed successfully"
 msgstr "گذرواژه با موفقیت تغییر کرد"
 
-#: app/scripts/views/settings/communication_preferences.js:109
+#: app/scripts/views/settings/communication_preferences.js:110
 msgid "Subscribed successfully"
 msgstr "با موفقیت عضو شدید"
 
-#: app/scripts/views/settings/communication_preferences.js:110
+#: app/scripts/views/settings/communication_preferences.js:111
 msgid "Unsubscribed successfully"
 msgstr "لغو عضویت با موفقیت انجام شد"
 
-#: app/scripts/views/settings/delete_account.js:58
+#: app/scripts/views/settings/delete_account.js:60
 msgid "Account deleted successfully"
 msgstr "حساب با موفقیت حذف شد"
 
-#: app/scripts/views/settings/display_name.js:52
+#: app/scripts/views/settings/display_name.js:54
 msgid "Display name updated"
 msgstr "نمایش نام به روز شد"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
-msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "حساب قفل شده است. <a href=\"/confirm_account_unlock\">ارسال ایمیل جهت باز "
 "کردن حساب</a>"
@@ -345,8 +346,7 @@ msgstr "یک ایمیل معتبر وارد کنید. firefox.com سرویس ا�
 #: app/scripts/lib/auth-errors.js:196
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
-"حساب‌های فایرفاکس تنها می‌توانند در یک IFRAME در سایت‌های تایید شده قرار "
-"بگیرند"
+"حساب‌های فایرفاکس تنها می‌توانند در یک IFRAME در سایت‌های تایید شده قرار بگیرند"
 
 #: app/scripts/lib/auth-errors.js:204
 msgid "/force_auth requires an email"
@@ -445,10 +445,9 @@ msgstr "بهنگام‌سازی فایرفاکس"
 
 #: app/scripts/lib/strings.js:19
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "با ادامه دادن شما <a id=\"service-tos\" href=\"%(termsUri)s\">شرایط استفاده "
 "از سرویس</a> و <a id=\"service-pp\" href=\"%(privacyUri)s\">اطلاعیه‌ی "
@@ -636,11 +635,11 @@ msgstr "ایمیل بازکردن ارسال شد"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification"
-" link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
 msgstr ""
-"به دلایل امنیتی حساب شما قفل شده است. برای انجام فعالیت‌ها در سطح حساب، لطفا"
-" مجددا حساب خود را از طریق پیوند ارسال شده به %(email)s تایید کنید"
+"به دلایل امنیتی حساب شما قفل شده است. برای انجام فعالیت‌ها در سطح حساب، لطفا "
+"مجددا حساب خود را از طریق پیوند ارسال شده به %(email)s تایید کنید"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:5
 #: app/scripts/templates/pp.mustache:3
@@ -679,8 +678,8 @@ msgid ""
 "provide functionality such as remembering you between sessions."
 msgstr ""
 "لطفا کوکی‌ها، که توسط حساب‌های فایرفاکس مورد نیاز می‌باشند را در مرورگر خود "
-"فعال کنید. کوکی‌ها داده‌های کوچکی هستند که بر روی مرورگر شما ذخیره می‌شوند و"
-" امکاناتی نظیر به خاطر سپردن شما بین نشست‌های مختلف را فراهم می‌کنند."
+"فعال کنید. کوکی‌ها داده‌های کوچکی هستند که بر روی مرورگر شما ذخیره می‌شوند و "
+"امکاناتی نظیر به خاطر سپردن شما بین نشست‌های مختلف را فراهم می‌کنند."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -715,13 +714,13 @@ msgstr "گذرواژه را فراموش کرده اید؟"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:15
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
-"با ادامه دادن، شما با <a id=\"fxa-tos\" href=\"/legal/terms\">قوانین استفاده"
-" از سرویس</a> و <a id=\"fxa-pp\" href=\"/legal/privacy\">اطلاعیه "
-"حریم‌خصوصی</a> سرویس‌های ابری فایرفاکس را می‌پذیرید."
+"با ادامه دادن، شما با <a id=\"fxa-tos\" href=\"/legal/terms\">قوانین استفاده "
+"از سرویس</a> و <a id=\"fxa-pp\" href=\"/legal/privacy\">اطلاعیه حریم‌خصوصی</"
+"a> سرویس‌های ابری فایرفاکس را می‌پذیرید."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -826,9 +825,9 @@ msgid ""
 "data on your devices will remain untouched. Begin the reset process by "
 "entering your email below."
 msgstr ""
-"کلمه عبور شما هنگامی که داده‌های مرورگر شما از روی سرورهای ما پاک می‌شود از "
-"نو تعیین می‌شود. هرگونه داده ای بر روی دستگاه شما بدون تماس خواهد ماند. آغاز"
-" فرایند از نوسازی با وارد کردن ایمیل خود در زیر."
+"کلمه عبور شما هنگامی که داده‌های مرورگر شما از روی سرورهای ما پاک می‌شود از نو "
+"تعیین می‌شود. هرگونه داده ای بر روی دستگاه شما بدون تماس خواهد ماند. آغاز "
+"فرایند از نوسازی با وارد کردن ایمیل خود در زیر."
 
 #: app/scripts/templates/reset_password.mustache:5
 msgid "Begin reset"
@@ -1074,8 +1073,8 @@ msgid ""
 "Choose the account you would like to use to sync your tabs, bookmarks, "
 "passwords and more."
 msgstr ""
-"حسابی که می‌خواهید برای هم‌گام‌سازی زبانه‌ها، نشانک‌ها، گذرواژه‌ها و غیره "
-"خود از آن استفاده کنید را وارد کنید."
+"حسابی که می‌خواهید برای هم‌گام‌سازی زبانه‌ها، نشانک‌ها، گذرواژه‌ها و غیره خود از "
+"آن استفاده کنید را وارد کنید."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
@@ -1107,13 +1106,13 @@ msgstr "استفاده از حساب فایرفاکس"
 #~ msgstr "برای بازنشانی گذرواژه حساب&nbsp;ایمیل خود را وارد کنید."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data from"
-#~ " our servers. A new Sync backup will be created from your local browsing "
-#~ "data."
+#~ "For security reasons, resetting your password will erase your Sync data "
+#~ "from our servers. A new Sync backup will be created from your local "
+#~ "browsing data."
 #~ msgstr ""
 #~ "به دلایل امنیتی، بازنشانی گذرواژه باعث حذف اطلاعات بهنگام‌سازی شما از "
-#~ "سرورهای ما خواهد شد. یک پشتیبانِ بهنگام‌سازی جدید از اطلاعات مرورگر محلی شما"
-#~ " ساخته خواهد شد."
+#~ "سرورهای ما خواهد شد. یک پشتیبانِ بهنگام‌سازی جدید از اطلاعات مرورگر محلی "
+#~ "شما ساخته خواهد شد."
 
 #~ msgid "You are signed in as"
 #~ msgstr "شما وارد شده‌اید به عنوانِ"

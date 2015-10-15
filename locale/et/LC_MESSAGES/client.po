@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-08 20:44+0000\n"
+"POT-Creation-Date: 2015-10-15 17:21+0000\n"
 "PO-Revision-Date: 2015-10-10 14:22+0000\n"
 "Last-Translator: Merike <merike.sell@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,7 +82,7 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/complete_reset_password.js:135
+#: app/scripts/views/complete_reset_password.js:134
 #: app/scripts/views/complete_sign_up.js:101 app/scripts/views/confirm.js:116
 #: app/scripts/views/confirm_reset_password.js:165
 msgid "Account verified successfully"
@@ -133,7 +133,7 @@ msgstr "%(serviceName)s on kasutamiseks valmis."
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Tundmatu konto. <a href=\"/signup\">Registreeru</a>"
 
-#: app/scripts/views/settings.js:213
+#: app/scripts/views/settings.js:214
 msgid "Signed out successfully"
 msgstr "Väljalogimine õnnestus"
 
@@ -141,27 +141,27 @@ msgstr "Väljalogimine õnnestus"
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Konto on juba olemas. <a href=\"/signin\">Logi sisse</a>"
 
-#: app/scripts/views/settings/avatar_gravatar.js:90
+#: app/scripts/views/settings/avatar_gravatar.js:91
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "<a href=\"https://www.gravatar.com\">Gravatari</a> kaudu"
 
-#: app/scripts/views/settings/change_password.js:57
+#: app/scripts/views/settings/change_password.js:54
 msgid "Password changed successfully"
 msgstr "Parooli muutmine õnnestus"
 
-#: app/scripts/views/settings/communication_preferences.js:109
+#: app/scripts/views/settings/communication_preferences.js:110
 msgid "Subscribed successfully"
 msgstr "Tellimine õnnestus"
 
-#: app/scripts/views/settings/communication_preferences.js:110
+#: app/scripts/views/settings/communication_preferences.js:111
 msgid "Unsubscribed successfully"
 msgstr "Tellimise lõpetamine õnnestus"
 
-#: app/scripts/views/settings/delete_account.js:58
+#: app/scripts/views/settings/delete_account.js:60
 msgid "Account deleted successfully"
 msgstr "Konto on edukalt kustutatud"
 
-#: app/scripts/views/settings/display_name.js:52
+#: app/scripts/views/settings/display_name.js:54
 msgid "Display name updated"
 msgstr "Kuvatav nimi on uuendatud"
 

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-08 20:44+0000\n"
+"POT-Creation-Date: 2015-10-15 17:21+0000\n"
 "PO-Revision-Date: 2015-08-12 22:54\n"
 "Last-Translator: stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,7 +83,7 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/complete_reset_password.js:135
+#: app/scripts/views/complete_reset_password.js:134
 #: app/scripts/views/complete_sign_up.js:101 app/scripts/views/confirm.js:116
 #: app/scripts/views/confirm_reset_password.js:165
 msgid "Account verified successfully"
@@ -134,7 +134,7 @@ msgstr "Вече може да изпалзвате %(serviceName)s"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Неизвестен профил. <a href=\"/signup\">Регистриране</a>"
 
-#: app/scripts/views/settings.js:213
+#: app/scripts/views/settings.js:214
 msgid "Signed out successfully"
 msgstr "Успешно отписани"
 
@@ -142,32 +142,33 @@ msgstr "Успешно отписани"
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Профилът съществува. <a href=\"/signin\">Вписване</a>"
 
-#: app/scripts/views/settings/avatar_gravatar.js:90
+#: app/scripts/views/settings/avatar_gravatar.js:91
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "Благодарение на <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
-#: app/scripts/views/settings/change_password.js:57
+#: app/scripts/views/settings/change_password.js:54
 msgid "Password changed successfully"
 msgstr "Паролата е сменена успешно"
 
-#: app/scripts/views/settings/communication_preferences.js:109
+#: app/scripts/views/settings/communication_preferences.js:110
 msgid "Subscribed successfully"
 msgstr "Успешно се абонирахте"
 
-#: app/scripts/views/settings/communication_preferences.js:110
+#: app/scripts/views/settings/communication_preferences.js:111
 msgid "Unsubscribed successfully"
 msgstr "Успешно отменихте абонамента"
 
-#: app/scripts/views/settings/delete_account.js:58
+#: app/scripts/views/settings/delete_account.js:60
 msgid "Account deleted successfully"
 msgstr "Профилът е успешно изтрит"
 
-#: app/scripts/views/settings/display_name.js:52
+#: app/scripts/views/settings/display_name.js:54
 msgid "Display name updated"
 msgstr ""
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
-msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "Профилът е заключен. <a href=\"/confirm_account_unlock\">Изпращане на писмо "
 "за отключване</a>"
@@ -446,15 +447,13 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:19
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Продължавайки, вие се съгласявате с <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Условията на услугата</a> и <a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Политиката за личните данни</a> на %(serviceName)s "
-"(%(serviceUri)s)."
+"Продължавайки, вие се съгласявате с <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Условията на услугата</a> и <a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Политиката за личните данни</a> на %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:23
 #: app/scripts/templates/choose_what_to_sync.mustache:2
@@ -639,8 +638,8 @@ msgstr "Писмото за отключване е изпратено"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification"
-" link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
 msgstr ""
 "От съображения за сигурност вашият Firefox Account беше заключен. За да "
 "извършите действия на ниво профил, моля посетете връзката за повторно "
@@ -719,14 +718,13 @@ msgstr "Забравили сте паролата?"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:15
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
-"Продължавайки, вие се съгласявате с <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Условията на услугата</a> и <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Политиката за личните данни</a> на облачната услуга "
-"на Firefox."
+"Продължавайки, вие се съгласявате с <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Условията на услугата</a> и <a id=\"fxa-pp\" href=\"/legal/privacy"
+"\">Политиката за личните данни</a> на облачната услуга на Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -852,8 +850,8 @@ msgstr "Продължаване към %(serviceName)s"
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr ""
-"Прехвърлете синхронизираните данни като се впишете във вашия "
-"Firefox&nbsp;Account."
+"Прехвърлете синхронизираните данни като се впишете във вашия Firefox&nbsp;"
+"Account."
 
 #: app/scripts/templates/sign_in.mustache:13
 #: app/scripts/templates/sign_in.mustache:16
@@ -1106,13 +1104,13 @@ msgstr ""
 #~ msgstr "Въведете адрес на ел. поща, за&nbsp;да нулирате паролата."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data from"
-#~ " our servers. A new Sync backup will be created from your local browsing "
-#~ "data."
+#~ "For security reasons, resetting your password will erase your Sync data "
+#~ "from our servers. A new Sync backup will be created from your local "
+#~ "browsing data."
 #~ msgstr ""
-#~ "От съображения за сигурност при нулиране на парола изтриваме и вашите данни "
-#~ "на Sync от сървърите. Ново архивно копие на Sync ще бъде направено от "
-#~ "текущите ви данни."
+#~ "От съображения за сигурност при нулиране на парола изтриваме и вашите "
+#~ "данни на Sync от сървърите. Ново архивно копие на Sync ще бъде направено "
+#~ "от текущите ви данни."
 
 #~ msgid "You are signed in as"
 #~ msgstr "Вписани сте като"
@@ -1121,14 +1119,13 @@ msgstr ""
 #~ msgstr "Вече имате профил? Вписване."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-#~ "Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Продължавайки, се съгласявате с <a id=\"fxa-tos\" "
-#~ "href=\"/legal/terms\">условията на услугата</a> и<a id=\"fxa-pp\" "
-#~ "href=\"/legal/privacy\">политиката за лични данни</a> на облачните услуги на"
-#~ " Firefox."
+#~ "Продължавайки, се съгласявате с <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">условията на услугата</a> и<a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">политиката за лични данни</a> на облачните услуги на Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Абонирайте се за новини и съвети за Firefox"

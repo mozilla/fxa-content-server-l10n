@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-08 20:44+0000\n"
+"POT-Creation-Date: 2015-10-15 17:21+0000\n"
 "PO-Revision-Date: 2015-08-09 13:16:24.392266\n"
 "Last-Translator: Aleksandra Uzelac <auzelac91@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,7 +84,7 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/complete_reset_password.js:135
+#: app/scripts/views/complete_reset_password.js:134
 #: app/scripts/views/complete_sign_up.js:101 app/scripts/views/confirm.js:116
 #: app/scripts/views/confirm_reset_password.js:165
 msgid "Account verified successfully"
@@ -135,7 +135,7 @@ msgstr "Sada ste spremni da koristite %(serviceName)s"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Nepoznat nalog. <a href=\"/signup\">Prijavi se</a>"
 
-#: app/scripts/views/settings.js:213
+#: app/scripts/views/settings.js:214
 msgid "Signed out successfully"
 msgstr "Odjavili ste se usešno"
 
@@ -143,27 +143,27 @@ msgstr "Odjavili ste se usešno"
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Nalog već postoji. <a href=\"/signin\">Prijavi se</a>"
 
-#: app/scripts/views/settings/avatar_gravatar.js:90
+#: app/scripts/views/settings/avatar_gravatar.js:91
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "Ljubaznost <a href=\"https://www.gravatar.com\">Gravatar-a</a>"
 
-#: app/scripts/views/settings/change_password.js:57
+#: app/scripts/views/settings/change_password.js:54
 msgid "Password changed successfully"
 msgstr "Lozinka je uspešno promenjena"
 
-#: app/scripts/views/settings/communication_preferences.js:109
+#: app/scripts/views/settings/communication_preferences.js:110
 msgid "Subscribed successfully"
 msgstr "Uspešna pretplata"
 
-#: app/scripts/views/settings/communication_preferences.js:110
+#: app/scripts/views/settings/communication_preferences.js:111
 msgid "Unsubscribed successfully"
 msgstr "Pretplata je otkazana"
 
-#: app/scripts/views/settings/delete_account.js:58
+#: app/scripts/views/settings/delete_account.js:60
 msgid "Account deleted successfully"
 msgstr "Nalog uspešno obrisan"
 
-#: app/scripts/views/settings/display_name.js:52
+#: app/scripts/views/settings/display_name.js:54
 msgid "Display name updated"
 msgstr ""
 
