@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-15 17:21+0000\n"
-"PO-Revision-Date: 2015-10-08 21:08+0000\n"
+"PO-Revision-Date: 2015-10-15 20:36+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1444338480.0\n"
+"X-POOTLE-MTIME: 1444941374.0\n"
 
 #: templates/_pending.txt:1
 msgid "Still there?"
@@ -92,8 +92,8 @@ msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
-"Dies ist eine automatisierte E-Mail; wenn Sie sie fälschlicherweise erhalten "
-"haben, müssen Sie nichts tun."
+"Dies ist eine automatisierte E-Mail; wenn Sie diese fälschlicherweise "
+"erhalten haben, müssen Sie nichts tun."
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
@@ -294,6 +294,9 @@ msgid ""
 "This is an automated email; if you did not authorize this action, then <a "
 "%(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr ""
+"Dies ist eine automatische E-Mail; wenn Sie diese Aktion nicht autorisiert "
+"haben, <a %(passwordChangeLinkAttributes)s>ändern Sie bitte Ihr "
+"Passwort.</a>"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
