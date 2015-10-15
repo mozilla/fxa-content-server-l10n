@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-08 20:44+0000\n"
+"POT-Creation-Date: 2015-10-15 17:21+0000\n"
 "PO-Revision-Date: 2015-09-12 13:27+0000\n"
 "Last-Translator: Jānis Marks Gailis - Jean-Marc <jm-gailis@fai-vianet.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,7 +11,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
 "X-Generator: Pontoon\n"
 
 #: app/scripts/templates/partial/coppa-date-picker.mustache:4
@@ -82,7 +83,7 @@ msgstr "2006"
 msgid "2007"
 msgstr "2007"
 
-#: app/scripts/views/complete_reset_password.js:135
+#: app/scripts/views/complete_reset_password.js:134
 #: app/scripts/views/complete_sign_up.js:101 app/scripts/views/confirm.js:116
 #: app/scripts/views/confirm_reset_password.js:165
 msgid "Account verified successfully"
@@ -133,7 +134,7 @@ msgstr "Jūs esat gatavs izmantot %(serviceName)s"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Nezināms konts. <a href=\"/signup\">Reģistrējieties</a>"
 
-#: app/scripts/views/settings.js:213
+#: app/scripts/views/settings.js:214
 msgid "Signed out successfully"
 msgstr "Veiksmīgi izgājis"
 
@@ -141,32 +142,33 @@ msgstr "Veiksmīgi izgājis"
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Konts jau pastāv. <a href=\"/signin\">Ieiet</a>"
 
-#: app/scripts/views/settings/avatar_gravatar.js:90
+#: app/scripts/views/settings/avatar_gravatar.js:91
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr ""
 
-#: app/scripts/views/settings/change_password.js:57
+#: app/scripts/views/settings/change_password.js:54
 msgid "Password changed successfully"
 msgstr "Parole tika veiksmīgi nomainīta"
 
-#: app/scripts/views/settings/communication_preferences.js:109
+#: app/scripts/views/settings/communication_preferences.js:110
 msgid "Subscribed successfully"
 msgstr ""
 
-#: app/scripts/views/settings/communication_preferences.js:110
+#: app/scripts/views/settings/communication_preferences.js:111
 msgid "Unsubscribed successfully"
 msgstr ""
 
-#: app/scripts/views/settings/delete_account.js:58
+#: app/scripts/views/settings/delete_account.js:60
 msgid "Account deleted successfully"
 msgstr "Konts tika veiksmīgi izdzēsts"
 
-#: app/scripts/views/settings/display_name.js:52
+#: app/scripts/views/settings/display_name.js:54
 msgid "Display name updated"
 msgstr ""
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
-msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "Konts ir bloķēts. <a href=\"/confirm_account_unlock\">Sūtīt atbloķēšanas "
 "epastu</a>"
@@ -422,8 +424,7 @@ msgstr "Aizliegts"
 
 #: app/scripts/lib/oauth-errors.js:87
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
-"Kaut kas nogāja greizi. Lūdzu, aizveriet šo cilni un mēģiniet vēlreiz."
+msgstr "Kaut kas nogāja greizi. Lūdzu, aizveriet šo cilni un mēģiniet vēlreiz."
 
 #: app/scripts/lib/oauth-errors.js:107
 msgid "Missing OAuth parameter: %(param)s"
@@ -443,10 +444,9 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:19
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:23
@@ -628,8 +628,8 @@ msgstr "Atbloķēšanas epasts ir aizsūtīts"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification"
-" link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
 msgstr ""
 
 #: app/scripts/templates/confirm_account_unlock.mustache:5
@@ -702,9 +702,9 @@ msgstr "Aizmirsāt paroli?"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:15
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1

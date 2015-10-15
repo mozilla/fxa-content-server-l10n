@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-08 20:44+0000\n"
+"POT-Creation-Date: 2015-10-15 17:21+0000\n"
 "PO-Revision-Date: 2015-10-09 02:55+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -252,33 +252,40 @@ msgstr "Activeer uw account door dit e-mailadres te bevestigen."
 msgid "Activate now:"
 msgstr "Nu activeren:"
 
-#: mailer.js:126 mailer.js:317
+#: mailer.js:126 mailer.js:317 mailer.js:132 mailer.js:330
 msgid "Verify your Firefox Account"
 msgstr "Verifieer uw Firefox-account"
 
-#: mailer.js:158
+#: mailer.js:158 mailer.js:165
 msgid "Reset your Firefox Account password"
 msgstr "Stel uw Firefox-accountwachtwoord opnieuw in"
 
-#: mailer.js:191
+#: mailer.js:191 mailer.js:199
 msgid "Re-verify your Firefox Account"
 msgstr "Verifieer uw Firefox-account opnieuw"
 
-#: mailer.js:216
+#: mailer.js:216 mailer.js:225
 msgid "Your Firefox Account password has been changed"
 msgstr "Uw Firefox-accountwachtwoord is gewijzigd"
 
-#: mailer.js:237
+#: mailer.js:237 mailer.js:247
 msgid "Your Firefox Account password has been reset"
 msgstr "Uw Firefox-accountwachtwoord is opnieuw ingesteld"
 
-#: mailer.js:258
+#: mailer.js:258 mailer.js:269
 msgid "New sign-in to Firefox"
 msgstr "Nieuwe aanmelding bij Firefox"
 
-#: mailer.js:280
+#: mailer.js:280 mailer.js:292
 msgid "Firefox Account Verified"
 msgstr "Firefox-account geverifieerd"
+
+#: templates/new_sync_device.html:4 templates/password_changed.html:4
+#: templates/password_reset.html:4
+msgid ""
+"This is an automated email; if you did not authorize this action, then <a "
+"%(passwordChangeLinkAttributes)s>please change your password.</a>"
+msgstr ""
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
