@@ -1,19 +1,18 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://github.com/aviarypl/mozilla-l10n-fxa-content-server/issues\n"
 "POT-Creation-Date: 2015-10-15 17:21+0000\n"
-"PO-Revision-Date: 2015-10-09 17:58+0200\n"
-"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-10-15 22:39+0200\n"
+"Last-Translator: Stefan Plewako <splewako@aviary.pl>\n"
+"Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1393702892.0\n"
+"X-Generator: Poedit 1.8.5\n"
 
 #: templates/_pending.txt:1
 msgid "Still there?"
@@ -92,7 +91,7 @@ msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
-"Jest to wiadomość automatyczna. Jeżeli otrzymano ją przez pomyłkę, to nic "
+"Wiadomość wygenerowana automatycznie. Jeżeli otrzymano ją przez pomyłkę, to nic "
 "nie trzeba robić."
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
@@ -111,7 +110,7 @@ msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
 "Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
-"Jest to wiadomość automatyczna. Jeśli nie dodano nowego urządzenia do konta "
+"Wiadomość wygenerowana automatycznie. Jeśli nie dodano nowego urządzenia do konta "
 "Firefoksa, to należy natychmiast zmienić hasło pod adresem %(resetLink)s."
 
 #: templates/new_sync_device.txt:4 templates/password_changed.txt:4
@@ -134,7 +133,7 @@ msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
-"Jest to wiadomość automatyczna. Jeśli nie zmieniono hasła konta Firefoksa, "
+"Wiadomość wygenerowana automatycznie. Jeśli nie zmieniono hasła konta Firefoksa, "
 "to należy je natychmiast zresetować pod adresem %(resetLink)s."
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
@@ -150,7 +149,7 @@ msgid ""
 "This is an automated email; if you didn’t reset the password to your Firefox "
 "Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
-"Jest to wiadomość automatyczna. Jeśli nie zresetowano hasła konta Firefoksa, "
+"Wiadomość wygenerowana automatycznie. Jeśli nie zresetowano hasła konta Firefoksa, "
 "to należy je natychmiast zresetować pod adresem %(resetLink)s."
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
@@ -285,6 +284,8 @@ msgid ""
 "This is an automated email; if you did not authorize this action, then <a "
 "%(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr ""
+"Wiadomość wygenerowana automatycznie. Jeżeli nie autoryzowano tej czynności, to należy"
+"<a %(passwordChangeLinkAttributes)s>natychmiast zresetować hasło</a>."
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
@@ -356,7 +357,7 @@ msgstr "Informacje o prywatności"
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
-msgstr "Usługi Firefox Cloud"
+msgstr "Usługi Firefox cloud"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:4
