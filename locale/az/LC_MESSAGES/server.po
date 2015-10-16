@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -130,8 +130,8 @@ msgstr ""
 
 #: templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox"
+" Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
@@ -276,8 +276,8 @@ msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
-"İstədiyiniz səhifə tapılmadı. Bununla əlaqəli xəbərdarlıq aldıq və xarab ola "
-"biləcək bütün keçidləri düzəldəcik."
+"İstədiyiniz səhifə tapılmadı. Bununla əlaqəli xəbərdarlıq aldıq və xarab ola"
+" biləcək bütün keçidləri düzəldəcik."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
@@ -309,19 +309,20 @@ msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
-"Hazırda ağır yükün altındayıq və sistemi tez bir vaxtda normal hala gətirmək "
-"üçün işləyirik."
+"Hazırda ağır yükün altındayıq və sistemi tez bir vaxtda normal hala gətirmək"
+" üçün işləyirik."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+"You are using an <strong>outdated</strong> browser. Please <a "
+"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+"experience."
 msgstr ""
 "Siz <strong>vaxtı keçmiş</strong> səyyah işlədirsiz. Yeniliklərdən "
-"faydalanmaq üçün <a href=\"http://browsehappy.com/\">səyyahınızı yeniləyin</"
-"a>."
+"faydalanmaq üçün <a href=\"http://browsehappy.com/\">səyyahınızı "
+"yeniləyin</a>."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -346,8 +347,8 @@ msgstr "İstifadə Şərtləri"
 #~ msgstr "Şifrəni sıfırla"
 
 #~ msgid ""
-#~ "For more information, please visit <a href='https://support.mozilla."
-#~ "org'>Mozilla Support</a>"
+#~ "For more information, please visit <a "
+#~ "href='https://support.mozilla.org'>Mozilla Support</a>"
 #~ msgstr ""
 #~ "Ətraflı məlumat üçün <a href='https://support.mozilla.org'>Mozilla "
 #~ "Dəstək</a>-i ziyarət edin"
@@ -362,8 +363,7 @@ msgstr "İstifadə Şərtləri"
 #~ msgid "Almost there"
 #~ msgstr "Az qaldı"
 
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
 #~ msgstr "%(email)s, Firefox Hesabınızı təsdiqləməyinizə bir klik qaldı."
 
 #~ msgid "Verify"
