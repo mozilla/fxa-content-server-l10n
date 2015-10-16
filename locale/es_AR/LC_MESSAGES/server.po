@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -130,8 +130,8 @@ msgstr ""
 
 #: templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox"
+" Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
@@ -311,8 +311,9 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+"You are using an <strong>outdated</strong> browser. Please <a "
+"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+"experience."
 msgstr ""
 "Estás usando una versión <strong>desactualizada</strong> del navegador. Por "
 "favor <a href=\"http://browsehappy.com/\">actualizá tu navegador</a> para "
@@ -341,11 +342,11 @@ msgstr "Términos de servicio"
 #~ msgstr "Restablecer contraseña"
 
 #~ msgid ""
-#~ "For more information, please visit <a href='https://support.mozilla."
-#~ "org'>Mozilla Support</a>"
+#~ "For more information, please visit <a "
+#~ "href='https://support.mozilla.org'>Mozilla Support</a>"
 #~ msgstr ""
-#~ "Para recibir más información, visitá la <a href='https://support.mozilla."
-#~ "org'>Ayuda de Mozilla</a>                "
+#~ "Para recibir más información, visitá la <a "
+#~ "href='https://support.mozilla.org'>Ayuda de Mozilla</a>                "
 
 #~ msgid "Reset password:"
 #~ msgstr "Restablecer contraseña:"
@@ -353,8 +354,7 @@ msgstr "Términos de servicio"
 #~ msgid "For more information, please visit https://support.mozilla.org"
 #~ msgstr "Para más información, por favor visitá https://support.mozilla.org"
 
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
 #~ msgstr "%(email)s, estás a un clic de verificar tu cuenta de Firefox."
 
 #~ msgid "Verify"
@@ -376,8 +376,8 @@ msgstr "Términos de servicio"
 #~ msgstr "Sistema no disponible, intentá nuevamente luego"
 
 #~ msgid ""
-#~ "We are currently performing some maintenance on the system, and will "
-#~ "return momentarily."
+#~ "We are currently performing some maintenance on the system, and will return "
+#~ "momentarily."
 #~ msgstr ""
 #~ "Estamos realizando mantenimiento en el sistema, y retornará en unos "
 #~ "momentos."
