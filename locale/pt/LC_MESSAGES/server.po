@@ -1,18 +1,18 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-08 20:44+0000\n"
-"PO-Revision-Date: 2015-10-15 01:25-0000\n"
-"Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
+"POT-Creation-Date: 2015-10-15 17:21+0000\n"
+"PO-Revision-Date: 2015-10-16 11:18+0000\n"
+"Last-Translator: Cláudio <cesperanc@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.7.5\n"
-"X-POOTLE-MTIME: 1444442046.0\n"
-"Language-Team: \n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1444994334.0\n"
 
 #: templates/_pending.txt:1
 msgid "Still there?"
@@ -250,33 +250,42 @@ msgstr "Por favor ative a sua conta confirmando este endereço de email."
 msgid "Activate now:"
 msgstr "Ativar agora:"
 
-#: mailer.js:126 mailer.js:317
+#: mailer.js:126 mailer.js:317 mailer.js:132 mailer.js:330
 msgid "Verify your Firefox Account"
 msgstr "Confirme a sua Conta Firefox"
 
-#: mailer.js:158
+#: mailer.js:158 mailer.js:165
 msgid "Reset your Firefox Account password"
 msgstr "Reponha a palavra-passe da sua Conta Firefox"
 
-#: mailer.js:191
+#: mailer.js:191 mailer.js:199
 msgid "Re-verify your Firefox Account"
 msgstr "Confirme novamente a sua Conta Firefox"
 
-#: mailer.js:216
+#: mailer.js:216 mailer.js:225
 msgid "Your Firefox Account password has been changed"
 msgstr "A palavra-passe da sua Conta Firefox foi alterada"
 
-#: mailer.js:237
+#: mailer.js:237 mailer.js:247
 msgid "Your Firefox Account password has been reset"
 msgstr "A palavra-passe da sua Conta Firefox foi reposta"
 
-#: mailer.js:258
+#: mailer.js:258 mailer.js:269
 msgid "New sign-in to Firefox"
 msgstr "Novo início de sessão para o Firefox"
 
-#: mailer.js:280
+#: mailer.js:280 mailer.js:292
 msgid "Firefox Account Verified"
 msgstr "Conta Firefox confirmada"
+
+#: templates/new_sync_device.html:4 templates/password_changed.html:4
+#: templates/password_reset.html:4
+msgid ""
+"This is an automated email; if you did not authorize this action, then <a "
+"%(passwordChangeLinkAttributes)s>please change your password.</a>"
+msgstr ""
+"Esta é um email automático; se não autorizou esta ação, então <a %"
+"(passwordChangeLinkAttributes)s>altere a sua palavra-passe.</a>"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
