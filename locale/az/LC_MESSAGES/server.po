@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-15 17:21+0000\n"
-"PO-Revision-Date: 2015-03-14 01:21+0000\n"
+"PO-Revision-Date: 2015-10-17 00:11+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: az\n"
@@ -17,13 +17,15 @@ msgstr ""
 
 #: templates/_pending.txt:1
 msgid "Still there?"
-msgstr ""
+msgstr "Hələ də buradasınız?"
 
 #: templates/_pending.txt:2
 msgid ""
 "A while ago you created a Firefox Account, but never verified it. Click the "
 "link below to activate your account."
 msgstr ""
+"Bir müddət əvvəl Firefox Hesabı yaratmısınız, amma heç vaxt "
+"təsdiqləməmisiniz. Hesabınızı təsdiqləmək üçün aşağıdakı keçidi klikləyin."
 
 #: templates/_pending.txt:3 templates/post_verify.html:3
 msgid ""
@@ -41,11 +43,11 @@ msgstr ""
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "Başqa cihazı qoş"
 
 #: templates/_pending.txt:6
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Sinxronlaşdırmaq üçün daxil olun"
 
 #: templates/new_sync_device.html:1 templates/password_changed.html:1
 #: templates/password_reset.html:1 templates/post_verify.html:1
@@ -108,11 +110,11 @@ msgstr ""
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Parol müvəffəqiyyətlə dəyişdirildi"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr ""
+msgstr "Firefox Hesabınızı parolu müvəffəqiyyətlə dəyişdirildi."
 
 #: templates/password_changed.txt:3
 msgid ""
@@ -122,11 +124,11 @@ msgstr ""
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Parol müvəffəqiyyətlə sıfırlandı"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr ""
+msgstr "Firefox Hesabınızın parolu müvəffəqiyyətlə sıfırlandı."
 
 #: templates/password_reset.txt:3
 msgid ""
@@ -136,12 +138,12 @@ msgstr ""
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
-msgstr ""
+msgstr "Hesab təsdiqləndi!"
 
 #: templates/post_verify.html:5 templates/reset.html:5 templates/unlock.html:5
 #: templates/verification_reminder.html:5 templates/verify.html:5
 msgid "Alternatively:"
-msgstr ""
+msgstr "Alternativ olaraq:"
 
 #: templates/post_verify.txt:2
 msgid ""
@@ -152,7 +154,7 @@ msgstr ""
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr ""
+msgstr "Sinxronlaşdırmaq üçün daxil olun:"
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Are you sure?"
@@ -164,11 +166,11 @@ msgstr "Lütfən %(email)s üçün şifrəni sıfırlamaq istədiyinizi təsdiql
 
 #: templates/reset.html:4
 msgid "Reset password now"
-msgstr ""
+msgstr "Parolu indi sıfırlayın"
 
 #: templates/reset.txt:3
 msgid "Reset password now:"
-msgstr ""
+msgstr "Parolu indi sıfırlayın:"
 
 #: templates/unlock.html:3 templates/unlock.txt:1
 msgid ""
@@ -191,7 +193,7 @@ msgstr "Hesabı təsdiqlə:"
 #: templates/verification_reminder.html:2
 #: templates/verification_reminder.txt:1
 msgid "Hello again."
-msgstr ""
+msgstr "Təkrar salam."
 
 #: templates/verification_reminder.html:3
 #: templates/verification_reminder.txt:2
@@ -202,11 +204,11 @@ msgstr ""
 
 #: templates/verification_reminder.html:4 templates/verify.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "İndi aktivləşdir"
 
 #: templates/verification_reminder.html:8 templates/verify.html:8
 msgid "Verify Email"
-msgstr ""
+msgstr "E-poçt-u təsdiqlə"
 
 #: templates/verification_reminder.html:9 templates/verify.html:9
 msgid "Verify your email to finish your Firefox Account registration"
@@ -218,7 +220,7 @@ msgstr ""
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
-msgstr ""
+msgstr "Xoş Gəldiniz!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
