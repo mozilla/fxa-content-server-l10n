@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-15 17:21+0000\n"
-"PO-Revision-Date: 2015-08-30 17:00+0000\n"
+"PO-Revision-Date: 2015-10-19 23:43+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -17,13 +17,15 @@ msgstr ""
 
 #: templates/_pending.txt:1
 msgid "Still there?"
-msgstr ""
+msgstr "Mai ești aici?"
 
 #: templates/_pending.txt:2
 msgid ""
 "A while ago you created a Firefox Account, but never verified it. Click the "
 "link below to activate your account."
 msgstr ""
+"Acum ceva timp ai creat un cont Firefox, însă nu l-ai verificat niciodată. "
+"Clic pe linkul de mai jos pentru a activa contul."
 
 #: templates/_pending.txt:3 templates/post_verify.html:3
 msgid ""
@@ -31,6 +33,9 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for <a "
 "href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
 msgstr ""
+"Ai conectat cu succes primul tău dispozitiv la contul Firefox. Acum poți să "
+"te autentifici pentru Sincronizare de pe alte dispozitive, inclusiv Firefox "
+"pentru <a href='%(androidUrl)s'>Android</a> și <a href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
@@ -38,14 +43,18 @@ msgid ""
 "make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
 "Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
 msgstr ""
+"Ai conectat cu succes primul tău dispozitiv la contul Firefox. Pentru a "
+"profita la maxim de Sincronizare, conectează-te de pe <a "
+"href='%(androidUrl)s'>Firefox pentru Android</a> sau <a "
+"href='%(iosUrl)s'>Firefox pentru iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "Conectează alt dispozitiv"
 
 #: templates/_pending.txt:6
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Autentifică-te la Sincronizare"
 
 #: templates/new_sync_device.html:1 templates/password_changed.html:1
 #: templates/password_reset.html:1 templates/post_verify.html:1
@@ -63,12 +72,14 @@ msgstr "Conturi Firefox"
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
 #: templates/unlock.html:2
 msgid "Account activity notice"
-msgstr "Notificare privind activitatea contului"
+msgstr "Notificare referitoare la activitatea contului"
 
 #: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
 msgid ""
 "A device began syncing with the devices connected to your Firefox Account."
 msgstr ""
+"Un dispozitiv a început sincronizarea cu dispozitivele conectate la contul "
+"tău Firefox."
 
 #: templates/new_sync_device.html:4 templates/password_changed.html:4
 #: templates/password_reset.html:4 templates/post_verify.html:6
@@ -81,8 +92,8 @@ msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
-"Acesta este un e-mail automat; dacă l-ați primit din greșeală nu este nevoie"
-" de nicio acțiune din partea ta."
+"Acesta este un e-mail automat; dacă l-ai primit din greșeală nu este nevoie "
+"de nicio acțiune din partea ta."
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
@@ -92,6 +103,8 @@ msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
 msgstr ""
+"Pentru mai multe informații te rugăm să vizitezi <a "
+"%(supportLinkAttributes)s>Mozilla Support</a>"
 
 #: templates/new_sync_device.txt:3
 msgid ""
@@ -106,7 +119,7 @@ msgstr ""
 #: templates/reset.txt:5 templates/unlock.txt:4
 #: templates/verification_reminder.txt:5 templates/verify.txt:5
 msgid "For more information, please visit %(supportUrl)s"
-msgstr ""
+msgstr "Pentru mai multe informații te rugăm să vizitezi %(supportUrl)s"
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
@@ -142,12 +155,12 @@ msgstr ""
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
-msgstr ""
+msgstr "Cont verificat!"
 
 #: templates/post_verify.html:5 templates/reset.html:5 templates/unlock.html:5
 #: templates/verification_reminder.html:5 templates/verify.html:5
 msgid "Alternatively:"
-msgstr ""
+msgstr "Ca alternativă:"
 
 #: templates/post_verify.txt:2
 msgid ""
@@ -155,10 +168,13 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for "
 "Android and iOS."
 msgstr ""
+"Ai conectat cu succes primul tău dispozitiv la contul Firefox. Acum poți să "
+"te autentifici pentru Sincronizare de pe alte dispozitive, inclusiv Firefox "
+"pentru Android și iOS."
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr ""
+msgstr "Autentifică-te pentru Sincronizare:"
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Are you sure?"
@@ -170,11 +186,11 @@ msgstr "Te rugăm să confirmi că dorești să resetezi parola pentru %(email)s
 
 #: templates/reset.html:4
 msgid "Reset password now"
-msgstr ""
+msgstr "Resetează parola acum"
 
 #: templates/reset.txt:3
 msgid "Reset password now:"
-msgstr ""
+msgstr "Resetează parola acum:"
 
 #: templates/unlock.html:3 templates/unlock.txt:1
 msgid ""
@@ -197,7 +213,7 @@ msgstr "Verifică contul:"
 #: templates/verification_reminder.html:2
 #: templates/verification_reminder.txt:1
 msgid "Hello again."
-msgstr ""
+msgstr "Bună din nou."
 
 #: templates/verification_reminder.html:3
 #: templates/verification_reminder.txt:2
@@ -205,34 +221,38 @@ msgid ""
 "Recently you created a Firefox Account, but never verified it. Please "
 "activate your account by confirming this email address."
 msgstr ""
+"Recent ai creat un cont Firefox, însă nu l-ai verificat niciodată. Te rugăm "
+"să îți activezi contul confirmând această adresă de e-mail."
 
 #: templates/verification_reminder.html:4 templates/verify.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "Activează acum"
 
 #: templates/verification_reminder.html:8 templates/verify.html:8
 msgid "Verify Email"
-msgstr ""
+msgstr "Verifică e-mailul"
 
 #: templates/verification_reminder.html:9 templates/verify.html:9
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr ""
+"Verifică adresa ta de e-mail pentru a finaliza înregistrarea contului "
+"Firefox"
 
 #: templates/verification_reminder.txt:3
 msgid "Activate Now:"
-msgstr ""
+msgstr "Activează acum:"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
-msgstr ""
+msgstr "Bun venit!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "Te rugăm să îți activezi contul confirmând această adresă de e-mail."
 
 #: templates/verify.txt:3
 msgid "Activate now:"
-msgstr ""
+msgstr "Activează acum:"
 
 #: mailer.js:126 mailer.js:317 mailer.js:132 mailer.js:330
 msgid "Verify your Firefox Account"
@@ -248,19 +268,19 @@ msgstr "Reverifică-ți contul Firefox"
 
 #: mailer.js:216 mailer.js:225
 msgid "Your Firefox Account password has been changed"
-msgstr "Parola contului Firefox ți-a fost schimbată"
+msgstr "Parola contului tău Firefox a fost schimbată"
 
 #: mailer.js:237 mailer.js:247
 msgid "Your Firefox Account password has been reset"
-msgstr "Parola contului Firefox ți-a fost resetată"
+msgstr "Parola contului tău Firefox a fost resetată"
 
 #: mailer.js:258 mailer.js:269
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "Autentificare nouă în Firefox"
 
 #: mailer.js:280 mailer.js:292
 msgid "Firefox Account Verified"
-msgstr ""
+msgstr "Cont Firefox verificat"
 
 #: templates/new_sync_device.html:4 templates/password_changed.html:4
 #: templates/password_reset.html:4
@@ -268,6 +288,8 @@ msgid ""
 "This is an automated email; if you did not authorize this action, then <a "
 "%(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr ""
+"Acesta este un e-mail automat; dacă nu ai autorizat această acțiune, atunci "
+"<a %(passwordChangeLinkAttributes)s>te rugăm să îți schimbi parola.</a>"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
@@ -282,8 +304,8 @@ msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
-"Pagina cerută nu a fost găsită. Am fost notificați în acest sens și vom "
-"repara linlurile care pot fi defecte."
+"Pagina cerută nu a fost găsită. Am fost notificați și vom repara orice link "
+"care poate fi defect."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
@@ -299,8 +321,7 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr ""
-"Aoleu, ceva a mers prost aici. Am primit o notificare în acest sens și vom "
-"lucra la repararea ei."
+"Aoleu, ceva a mers prost aici. Am fost notificați și vom lucra la o soluție."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -308,7 +329,7 @@ msgstr "Eroare 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr "Serverul e ocupat, încearcă din nou mai târziu"
+msgstr "Serverul este ocupat, încearcă din nou mai târziu"
 
 #: server/templates/pages/src/503.html:3
 msgid ""
@@ -316,7 +337,7 @@ msgid ""
 "normal as soon as possible."
 msgstr ""
 "Suntem în prezent suprasolicitați și lucrăm să readucem sistemul la normal "
-"câ mai curând posibil."
+"cât mai curând posibil."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:5
@@ -326,9 +347,9 @@ msgid ""
 "href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
 "experience."
 msgstr ""
-"Utilizezi un browser <strong>depășit</strong>. Te rugăm să <a "
-"href=\"http://browsehappy.com/\">actualizezi navigatorul</a> pentru a-ți "
-"îmbunătăți experiența."
+"Folosești un browser <strong>depășit</strong>. Te rugăm <a "
+"href=\"http://browsehappy.com/\">să treci la o versiune mai nouă a "
+"browserului</a> pentru a-ți îmbunătăți experiența."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -337,12 +358,12 @@ msgstr "Conturile Firefox necesită JavaScript."
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
-msgstr "Notă privind politica de confidențialitate"
+msgstr "Politica de confidențialitate"
 
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
-msgstr "Servicii în cloud Firefox"
+msgstr "Servicii cloud Firefox"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:4
