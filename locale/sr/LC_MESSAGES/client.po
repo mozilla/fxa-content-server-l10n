@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-15 17:21+0000\n"
-"PO-Revision-Date: 2015-10-07 19:37+0000\n"
-"Last-Translator: marko.andrejic93 <marko.andrejic93@gmail.com>\n"
+"PO-Revision-Date: 2015-10-24 09:34+0000\n"
+"Last-Translator: Vanja Tumbas <tumbas93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
@@ -500,7 +500,7 @@ msgstr "Сазнајте више."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "Choose What to Sync"
-msgstr ""
+msgstr "Изаберите шта да се синхронизује"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 #: app/scripts/templates/complete_reset_password.mustache:17
@@ -837,7 +837,7 @@ msgstr "Започни ресетовање"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Firefox налози"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
