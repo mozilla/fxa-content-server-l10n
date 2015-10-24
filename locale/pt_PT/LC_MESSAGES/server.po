@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-15 17:21+0000\n"
-"PO-Revision-Date: 2015-10-24 14:03+0000\n"
+"PO-Revision-Date: 2015-10-24 14:14+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -246,39 +246,39 @@ msgstr "Bem-vindo!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "Por favor ative a sua conta confirmando este endereço de e-mail."
 
 #: templates/verify.txt:3
 msgid "Activate now:"
-msgstr ""
+msgstr "Ativar agora:"
 
 #: mailer.js:126 mailer.js:317 mailer.js:132 mailer.js:330
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "Confirme a sua Conta Firefox"
 
 #: mailer.js:158 mailer.js:165
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "Reponha a palavra-passe da sua Conta Firefox"
 
 #: mailer.js:191 mailer.js:199
 msgid "Re-verify your Firefox Account"
-msgstr ""
+msgstr "Confirme novamente a sua Conta Firefox"
 
 #: mailer.js:216 mailer.js:225
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "A palavra-passe da sua Conta Firefox foi alterada"
 
 #: mailer.js:237 mailer.js:247
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "A palavra-passe da sua Conta Firefox foi reposta"
 
 #: mailer.js:258 mailer.js:269
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "Novo início de sessão no Firefox"
 
 #: mailer.js:280 mailer.js:292
 msgid "Firefox Account Verified"
-msgstr ""
+msgstr "Conta Firefox confirmada"
 
 #: templates/new_sync_device.html:4 templates/password_changed.html:4
 #: templates/password_reset.html:4
@@ -286,49 +286,57 @@ msgid ""
 "This is an automated email; if you did not authorize this action, then <a "
 "%(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr ""
+"Esta é uma mensagem automática; se não autorizou esta ação, então <a "
+"%(passwordChangeLinkAttributes)s>por favor altere a sua palavra-passe.</a>"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
-msgstr ""
+msgstr "Pedido inválido"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "Página não encontrada"
 
 #: server/templates/pages/src/404.html:3
 msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
+"A página solicitada não foi encontrada. Fomos notificados e iremos corrigir "
+"todos as ligações que possam estar quebradas."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
-msgstr ""
+msgstr "Início"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr ""
+msgstr "Erro 500"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr ""
+"Lamentamos, mas ocorreu um erro. Fomos notificados e vamos começar a "
+"trabalhar numa correção."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "Erro 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Servidor ocupado, tente mais tarde"
 
 #: server/templates/pages/src/503.html:3
 msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
+"Atualmente temos a capacidade praticamente esgotada e estamos a trabalhar "
+"para que o sistema volte ao seu estado normal o mais rapidamente possível."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:5
@@ -338,22 +346,25 @@ msgid ""
 "href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
 "experience."
 msgstr ""
+"Está a utilizar um navegador <strong>desatualizado</strong>. Por favor, <a "
+"href=\"http://browsehappy.com/\">atualize o seu navegador</a> para melhorar "
+"a sua experiência."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "As Contas Firefox necessitam de JavaScript."
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Política de Privacidade"
 
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "Serviços do Firefox na cloud"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
-msgstr ""
+msgstr "Termos do Serviço"
