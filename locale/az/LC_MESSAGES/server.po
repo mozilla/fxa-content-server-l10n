@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-15 17:21+0000\n"
-"PO-Revision-Date: 2015-10-25 00:58+0000\n"
+"PO-Revision-Date: 2015-10-25 01:01+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: az\n"
@@ -225,7 +225,7 @@ msgstr "Xoş Gəldiniz!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "Lütfən bu e-poçt ünvanını təsdiqləyərək hesabınızı aktivləşdirin."
 
 #: templates/verify.txt:3
 msgid "Activate now:"
