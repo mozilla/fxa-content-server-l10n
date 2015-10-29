@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-15 17:21+0000\n"
+"POT-Creation-Date: 2015-10-29 18:05+0000\n"
 "PO-Revision-Date: 2015-10-25 15:58+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,74 +13,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:4
-msgid "1991"
-msgstr "1991"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:5
-msgid "1992"
-msgstr "1992"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:6
-msgid "1993"
-msgstr "1993"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:7
-msgid "1994"
-msgstr "1994"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:8
-msgid "1995"
-msgstr "1995"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:9
-msgid "1996"
-msgstr "1996"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:10
-msgid "1997"
-msgstr "1997"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:11
-msgid "1998"
-msgstr "1998"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:12
-msgid "1999"
-msgstr "1999"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:13
-msgid "2000"
-msgstr "2000"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:14
-msgid "2001"
-msgstr "2001"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:15
-msgid "2002"
-msgstr "2002"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:16
-msgid "2003"
-msgstr "2003"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:17
-msgid "2004"
-msgstr "2004"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:18
-msgid "2005"
-msgstr "2005"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:19
-msgid "2006"
-msgstr "2006"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:20
-msgid "2007"
-msgstr "2007"
 
 #: app/scripts/views/complete_reset_password.js:134
 #: app/scripts/views/complete_sign_up.js:101 app/scripts/views/confirm.js:116
@@ -133,11 +65,11 @@ msgstr "Está pronto para utilizar o %(serviceName)s"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Conta desconhecida. <a href=\"/signup\">Criar conta</a>"
 
-#: app/scripts/views/settings.js:214
+#: app/scripts/views/settings.js:223
 msgid "Signed out successfully"
 msgstr "Terminou sessão com sucesso"
 
-#: app/scripts/views/sign_up.js:355
+#: app/scripts/views/sign_up.js:343
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "A conta já existe. <a href=\"/signin\">Inicie sessão</a>"
 
@@ -166,7 +98,8 @@ msgid "Display name updated"
 msgstr "Nome de apresentação atualizado"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
-msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "Conta bloqueada. <a href=\"/confirm_account_unlock\">Enviar e-mail de "
 "desbloqueio</a>"
@@ -308,84 +241,76 @@ msgstr "Tem de ter, pelo menos, 8 caracteres"
 msgid "Valid password required"
 msgstr "É necessária uma palavra-passe válida"
 
-#: app/scripts/lib/auth-errors.js:152 app/scripts/lib/auth-errors.js:184
-#: app/scripts/lib/auth-errors.js:200
+#: app/scripts/lib/auth-errors.js:152 app/scripts/lib/auth-errors.js:190
+#: app/scripts/lib/auth-errors.js:206
 msgid "Valid email required"
 msgstr "É necessário um e-mail válido"
 
-#: app/scripts/lib/auth-errors.js:156
-msgid "Year of birth required"
-msgstr "É necessário o ano de nascimento"
-
-#: app/scripts/lib/auth-errors.js:160
+#: app/scripts/lib/auth-errors.js:163
 msgid "A usable image was not found"
 msgstr "Não foi encontrada nenhuma imagem utilizável"
 
-#: app/scripts/lib/auth-errors.js:164
+#: app/scripts/lib/auth-errors.js:167
 msgid "Could not initialize camera"
 msgstr "Não foi possível iniciar a câmara"
 
-#: app/scripts/lib/auth-errors.js:168
+#: app/scripts/lib/auth-errors.js:171
 msgid "Valid URL required"
 msgstr "É necessário um URL válido"
 
-#: app/scripts/lib/auth-errors.js:172
-msgid "Valid birthday required"
-msgstr "É necessária uma data de nascimento válida"
-
-#: app/scripts/lib/auth-errors.js:180
+#: app/scripts/lib/auth-errors.js:186
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr ""
 "A sua mensagem de confirmação foi devolvida. Enganou-se a digitar o e-mail?"
 
-#: app/scripts/lib/auth-errors.js:188
+#: app/scripts/lib/auth-errors.js:194
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr ""
-"Digite um endereço de e-mail válido. O domínio firefox.com não fornece "
-"e-mail."
+"Digite um endereço de e-mail válido. O domínio firefox.com não fornece e-"
+"mail."
 
-#: app/scripts/lib/auth-errors.js:196
+#: app/scripts/lib/auth-errors.js:202
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 "As Contas do Firefox apenas podem ser colocadas numa IFRAME em sítios "
 "aprovados"
 
-#: app/scripts/lib/auth-errors.js:204
+#: app/scripts/lib/auth-errors.js:210
 msgid "/force_auth requires an email"
 msgstr "/force_auth necessita de um e-mail"
 
-#: app/scripts/lib/auth-errors.js:208
+#: app/scripts/lib/auth-errors.js:214
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
 msgstr "A ligação que clicou para confirmar o seu email expirou."
 
-#: app/scripts/lib/auth-errors.js:212
+#: app/scripts/lib/auth-errors.js:218
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "Ligação de confirmação danificada"
 
-#: app/scripts/lib/auth-errors.js:220
+#: app/scripts/lib/auth-errors.js:226
 msgid "The image dimensions must be at least 100x100px"
 msgstr "As dimensões da imagem devem ser de, pelo menos, 100x100px"
 
-#: app/scripts/lib/auth-errors.js:224
+#: app/scripts/lib/auth-errors.js:230
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "O registo chegará em breve ao Firefox para iOS"
 
-#: app/scripts/lib/auth-errors.js:228
+#: app/scripts/lib/auth-errors.js:234
 msgid "Signup has been disabled"
 msgstr "O registo foi desativado"
 
-#: app/scripts/lib/auth-errors.js:232
+#: app/scripts/lib/auth-errors.js:238
 msgid "Age is required"
 msgstr "A idade é obrigatória"
 
-#: app/scripts/lib/auth-errors.js:236
+#: app/scripts/lib/auth-errors.js:242
 msgid "No Gravatar found"
 msgstr "Não foi encontrado nenhum Gravatar"
 
-#: app/scripts/lib/mailcheck.js:65
+#: app/scripts/lib/mailcheck.js:66
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr "Queria dizer <span tabindex=\"1\">%(domain)s</span>?"
 
@@ -447,43 +372,39 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:19
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Ao continuar, está concordar com os <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Termos do Serviço</a> e com a <a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Política de Privacidade</a> de %(serviceName)s "
-"(%(serviceUri)s)."
+"Ao continuar, está concordar com os <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Termos do Serviço</a> e com a <a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Política de Privacidade</a> de %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:23
-#: app/scripts/templates/choose_what_to_sync.mustache:2
+#: app/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
 msgstr "Marcadores"
 
 #: app/scripts/lib/strings.js:24
-#: app/scripts/templates/choose_what_to_sync.mustache:4
+#: app/scripts/templates/choose_what_to_sync.mustache:8
 msgid "History"
 msgstr "Histórico"
 
 #: app/scripts/lib/strings.js:25
-#: app/scripts/templates/choose_what_to_sync.mustache:6
+#: app/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Tabs"
 msgstr "Separadores"
 
 #: app/scripts/lib/strings.js:26
-#: app/scripts/templates/choose_what_to_sync.mustache:8
+#: app/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Passwords"
 msgstr "Palavras-passe"
 
 #: app/scripts/lib/strings.js:27
-#: app/scripts/templates/choose_what_to_sync.mustache:10
 msgid "Desktop Add-ons"
 msgstr "Extras de computador"
 
 #: app/scripts/lib/strings.js:28
-#: app/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Desktop Preferences"
 msgstr "Preferências de computador"
 
@@ -491,39 +412,47 @@ msgstr "Preferências de computador"
 msgid "Cannot create account"
 msgstr "Não foi possível criar a conta"
 
-#: app/scripts/templates/cannot_create_account.mustache:2
+#: app/scripts/templates/cannot_create_account.mustache:3
 msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr ""
 "Tem de cumprir determinados requisitos de idade para poder criar uma "
 "Conta&nbsp;Firefox."
 
-#: app/scripts/templates/cannot_create_account.mustache:4
+#: app/scripts/templates/cannot_create_account.mustache:5
 msgid "Learn more."
 msgstr "Saiber mais."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-msgid "Choose What to Sync"
-msgstr "Escolha o que Sincronizar"
+#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/sign_up.mustache:24
+msgid "Choose what to sync"
+msgstr "Escolha o que sincronizar"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:10
+msgid "Add-ons"
+msgstr ""
+
+#: app/scripts/templates/choose_what_to_sync.mustache:12
+msgid "Preferences"
+msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
-#: app/scripts/templates/complete_reset_password.mustache:17
-msgid "Next"
-msgstr "Seguinte"
+msgid "Add-ons and Preferences do not currently sync on mobile devices."
+msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
-#: app/scripts/templates/permissions.mustache:5
-#: app/scripts/templates/settings/avatar_camera.mustache:2
-#: app/scripts/templates/settings/avatar_crop.mustache:3
-#: app/scripts/templates/settings/avatar_gravatar.mustache:3
-#: app/scripts/templates/settings/change_password.mustache:13
-#: app/scripts/templates/settings/communication_preferences.mustache:4
-#: app/scripts/templates/settings/communication_preferences.mustache:12
-#: app/scripts/templates/settings/delete_account.mustache:7
-#: app/scripts/templates/settings/display_name.mustache:6
-#: app/scripts/templates/settings/gravatar_permissions.mustache:5
-msgid "Cancel"
-msgstr "Cancelar"
+#: app/scripts/templates/sign_up.mustache:22
+msgid "Sign up"
+msgstr "Criar conta"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:16
+#: app/scripts/templates/confirm_account_unlock.mustache:5
+#: app/scripts/templates/pp.mustache:3
+#: app/scripts/templates/reset_password.mustache:6
+#: app/scripts/templates/tos.mustache:3
+msgid "Back"
+msgstr "Voltar"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
@@ -597,6 +526,10 @@ msgstr "Mostrar"
 msgid "Repeat password"
 msgstr "Repita a palavra-passe"
 
+#: app/scripts/templates/complete_reset_password.mustache:17
+msgid "Next"
+msgstr "Seguinte"
+
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
 msgstr "A ligação de verificação expirou"
@@ -640,19 +573,12 @@ msgstr "E-mail de desbloqueio enviado"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification"
-" link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
 msgstr ""
 "Por questões de segurança a sua conta foi bloqueada. Para executar "
 "atividades ao nível da conta, por favor confirme novamente a sua conta "
 "clicando na ligação de confirmação enviada para %(email)s"
-
-#: app/scripts/templates/confirm_account_unlock.mustache:5
-#: app/scripts/templates/pp.mustache:3
-#: app/scripts/templates/reset_password.mustache:6
-#: app/scripts/templates/tos.mustache:3
-msgid "Back"
-msgstr "Voltar"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -721,14 +647,13 @@ msgstr "Esqueceu a palavra-passe?"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:15
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
-"Ao continuar, está a concordar com os <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Termos do Serviço</a> e com a <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Política de Privacidade</a> dos serviços do Firefox "
-"na nuvem."
+"Ao continuar, está a concordar com os <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Termos do Serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy"
+"\">Política de Privacidade</a> dos serviços do Firefox na nuvem."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -807,6 +732,19 @@ msgstr "E-mail"
 msgid "Accept"
 msgstr "Aceitar"
 
+#: app/scripts/templates/permissions.mustache:5
+#: app/scripts/templates/settings/avatar_camera.mustache:2
+#: app/scripts/templates/settings/avatar_crop.mustache:3
+#: app/scripts/templates/settings/avatar_gravatar.mustache:3
+#: app/scripts/templates/settings/change_password.mustache:13
+#: app/scripts/templates/settings/communication_preferences.mustache:4
+#: app/scripts/templates/settings/communication_preferences.mustache:12
+#: app/scripts/templates/settings/delete_account.mustache:7
+#: app/scripts/templates/settings/display_name.mustache:6
+#: app/scripts/templates/settings/gravatar_permissions.mustache:5
+msgid "Cancel"
+msgstr "Cancelar"
+
 #: app/scripts/templates/ready.mustache:1
 msgid "Success"
 msgstr "Sucesso"
@@ -833,10 +771,10 @@ msgid ""
 "data on your devices will remain untouched. Begin the reset process by "
 "entering your email below."
 msgstr ""
-"A reposição da sua palavra-passe irá eliminar os seus dados de navegação dos"
-" nossos servidores. Quaisquer dados que estejam nos seus dispositivos "
-"manter-se-ão intactos. Inicie o processo de reposição introduzindo abaixo o "
-"seu email."
+"A reposição da sua palavra-passe irá eliminar os seus dados de navegação dos "
+"nossos servidores. Quaisquer dados que estejam nos seus dispositivos manter-"
+"se-ão intactos. Inicie o processo de reposição introduzindo abaixo o seu "
+"email."
 
 #: app/scripts/templates/reset_password.mustache:5
 msgid "Begin reset"
@@ -858,8 +796,8 @@ msgstr "Continuar para %(serviceName)s"
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr ""
-"Migre os seus dados de sincronização iniciando sessão na sua "
-"Conta&nbsp;Firefox."
+"Migre os seus dados de sincronização iniciando sessão na sua Conta&nbsp;"
+"Firefox."
 
 #: app/scripts/templates/sign_in.mustache:13
 #: app/scripts/templates/sign_in.mustache:16
@@ -885,16 +823,7 @@ msgstr ""
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Obtenha as últimas notícias sobre a Mozilla e o Firefox."
 
-#: app/scripts/templates/sign_up.mustache:19
-#: app/scripts/templates/sign_up.mustache:23
-msgid "Choose what to sync"
-msgstr "Escolha o que sincronizar"
-
-#: app/scripts/templates/sign_up.mustache:21
-msgid "Sign up"
-msgstr "Criar conta"
-
-#: app/scripts/templates/sign_up.mustache:25
+#: app/scripts/templates/sign_up.mustache:27
 msgid "Have an account? Sign in."
 msgstr "Tem uma conta? Inicie sessão."
 
@@ -1005,76 +934,12 @@ msgid ""
 "Choose the name you would like to appear in Firefox and when managing your "
 "account."
 msgstr ""
-"Escolha o nome que gostaria que fosse apresentado no Firefox e quando gere a"
-" sua conta."
+"Escolha o nome que gostaria que fosse apresentado no Firefox e quando gere a "
+"sua conta."
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
 msgstr "Qual a sua idade?"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:2
-msgid "Year of birth"
-msgstr "Ano de nascimento"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:3
-msgid "1990 or earlier"
-msgstr "1990 ou anterior"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:21
-msgid "Month"
-msgstr "Mês"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:22
-msgid "January"
-msgstr "Janeiro"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:23
-msgid "February"
-msgstr "Fevereiro"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:24
-msgid "March"
-msgstr "Março"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:25
-msgid "April"
-msgstr "Abril"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:26
-msgid "May"
-msgstr "Maio"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:27
-msgid "June"
-msgstr "Junho"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:28
-msgid "July"
-msgstr "Julho"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:29
-msgid "August"
-msgstr "Agosto"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:30
-msgid "September"
-msgstr "Setembro"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:31
-msgid "October"
-msgstr "Outubro"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:32
-msgid "November"
-msgstr "Novembro"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:33
-msgid "December"
-msgstr "Dezembro"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:34
-msgid "Day"
-msgstr "Dia"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
@@ -1095,3 +960,111 @@ msgstr "Utilizar o OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Utilizar Conta Firefox"
+
+#~ msgid "1991"
+#~ msgstr "1991"
+
+#~ msgid "1992"
+#~ msgstr "1992"
+
+#~ msgid "1993"
+#~ msgstr "1993"
+
+#~ msgid "1994"
+#~ msgstr "1994"
+
+#~ msgid "1995"
+#~ msgstr "1995"
+
+#~ msgid "1996"
+#~ msgstr "1996"
+
+#~ msgid "1997"
+#~ msgstr "1997"
+
+#~ msgid "1998"
+#~ msgstr "1998"
+
+#~ msgid "1999"
+#~ msgstr "1999"
+
+#~ msgid "2000"
+#~ msgstr "2000"
+
+#~ msgid "2001"
+#~ msgstr "2001"
+
+#~ msgid "2002"
+#~ msgstr "2002"
+
+#~ msgid "2003"
+#~ msgstr "2003"
+
+#~ msgid "2004"
+#~ msgstr "2004"
+
+#~ msgid "2005"
+#~ msgstr "2005"
+
+#~ msgid "2006"
+#~ msgstr "2006"
+
+#~ msgid "2007"
+#~ msgstr "2007"
+
+#~ msgid "Year of birth required"
+#~ msgstr "É necessário o ano de nascimento"
+
+#~ msgid "Valid birthday required"
+#~ msgstr "É necessária uma data de nascimento válida"
+
+#~ msgid "Choose What to Sync"
+#~ msgstr "Escolha o que Sincronizar"
+
+#~ msgid "Year of birth"
+#~ msgstr "Ano de nascimento"
+
+#~ msgid "1990 or earlier"
+#~ msgstr "1990 ou anterior"
+
+#~ msgid "Month"
+#~ msgstr "Mês"
+
+#~ msgid "January"
+#~ msgstr "Janeiro"
+
+#~ msgid "February"
+#~ msgstr "Fevereiro"
+
+#~ msgid "March"
+#~ msgstr "Março"
+
+#~ msgid "April"
+#~ msgstr "Abril"
+
+#~ msgid "May"
+#~ msgstr "Maio"
+
+#~ msgid "June"
+#~ msgstr "Junho"
+
+#~ msgid "July"
+#~ msgstr "Julho"
+
+#~ msgid "August"
+#~ msgstr "Agosto"
+
+#~ msgid "September"
+#~ msgstr "Setembro"
+
+#~ msgid "October"
+#~ msgstr "Outubro"
+
+#~ msgid "November"
+#~ msgstr "Novembro"
+
+#~ msgid "December"
+#~ msgstr "Dezembro"
+
+#~ msgid "Day"
+#~ msgstr "Dia"
