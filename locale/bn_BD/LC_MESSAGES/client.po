@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-15 17:21+0000\n"
+"POT-Creation-Date: 2015-10-29 18:05+0000\n"
 "PO-Revision-Date: 2015-01-07 10:11+0000\n"
 "Last-Translator: Zachary <zcarter@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,74 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1420625507.0\n"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:4
-msgid "1991"
-msgstr "১৯৯১"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:5
-msgid "1992"
-msgstr "১৯৯২"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:6
-msgid "1993"
-msgstr "১৯৯৩"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:7
-msgid "1994"
-msgstr "১৯৯৪"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:8
-msgid "1995"
-msgstr "১৯৯৫"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:9
-msgid "1996"
-msgstr "১৯৯৬"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:10
-msgid "1997"
-msgstr "১৯৯৭"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:11
-msgid "1998"
-msgstr "১৯৯৮"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:12
-msgid "1999"
-msgstr "১৯৯৯"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:13
-msgid "2000"
-msgstr "২০০০"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:14
-msgid "2001"
-msgstr "২০০১"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:15
-msgid "2002"
-msgstr "২০০২"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:16
-msgid "2003"
-msgstr "২০০৩"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:17
-msgid "2004"
-msgstr "২০০৪"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:18
-msgid "2005"
-msgstr "২০০৫"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:19
-msgid "2006"
-msgstr "২০০৬"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:20
-msgid "2007"
-msgstr "২০০৭"
 
 #: app/scripts/views/complete_reset_password.js:134
 #: app/scripts/views/complete_sign_up.js:101 app/scripts/views/confirm.js:116
@@ -133,11 +65,11 @@ msgstr "%(serviceName)sটি ব্যবহার করতে আপনি �
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "অচেনা অ্যাকাউন্ট। <a href=\"/signup\">সাইন আপ</a> "
 
-#: app/scripts/views/settings.js:214
+#: app/scripts/views/settings.js:223
 msgid "Signed out successfully"
 msgstr ""
 
-#: app/scripts/views/sign_up.js:355
+#: app/scripts/views/sign_up.js:343
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "অ্যাকাউন্ট আগেই আছে। <a href=\"/signin\">সাইন ইন</a>"
 
@@ -307,79 +239,71 @@ msgstr "অবশ্যই কমপক্ষে ৮ অক্ষরের হ�
 msgid "Valid password required"
 msgstr "কার্যকর পাসওয়ার্ড আবশ্যক"
 
-#: app/scripts/lib/auth-errors.js:152 app/scripts/lib/auth-errors.js:184
-#: app/scripts/lib/auth-errors.js:200
+#: app/scripts/lib/auth-errors.js:152 app/scripts/lib/auth-errors.js:190
+#: app/scripts/lib/auth-errors.js:206
 msgid "Valid email required"
 msgstr "কার্যকর ইমেইল আবশ্যক"
 
-#: app/scripts/lib/auth-errors.js:156
-msgid "Year of birth required"
-msgstr "জন্মসাল আবশ্যক"
-
-#: app/scripts/lib/auth-errors.js:160
+#: app/scripts/lib/auth-errors.js:163
 msgid "A usable image was not found"
 msgstr "ব্যবহার করার মত ছবি পাওয়া যায়নি"
 
-#: app/scripts/lib/auth-errors.js:164
+#: app/scripts/lib/auth-errors.js:167
 msgid "Could not initialize camera"
 msgstr "ক্যামেরা আরম্ভ করা যায়নি"
 
-#: app/scripts/lib/auth-errors.js:168
+#: app/scripts/lib/auth-errors.js:171
 msgid "Valid URL required"
 msgstr "কার্যকর URL প্রয়োজন"
 
-#: app/scripts/lib/auth-errors.js:172
-msgid "Valid birthday required"
-msgstr "বৈধ জন্ম তারিখ আবশ্যক"
-
-#: app/scripts/lib/auth-errors.js:180
+#: app/scripts/lib/auth-errors.js:186
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:188
+#: app/scripts/lib/auth-errors.js:194
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:196
+#: app/scripts/lib/auth-errors.js:202
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:204
+#: app/scripts/lib/auth-errors.js:210
 msgid "/force_auth requires an email"
 msgstr "/force_auth এর জন্য ইমেইল প্রয়োজন"
 
-#: app/scripts/lib/auth-errors.js:208
+#: app/scripts/lib/auth-errors.js:214
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
 msgstr "আপনার ক্লিক করা ইমেইল যাচাই করার লিঙ্কটি মেয়াদ উত্তীর্ণ"
 
-#: app/scripts/lib/auth-errors.js:212
+#: app/scripts/lib/auth-errors.js:218
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "যাচাইকরণ লিঙ্কটি ক্ষতিগ্রস্থ"
 
-#: app/scripts/lib/auth-errors.js:220
+#: app/scripts/lib/auth-errors.js:226
 msgid "The image dimensions must be at least 100x100px"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:224
+#: app/scripts/lib/auth-errors.js:230
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:228
+#: app/scripts/lib/auth-errors.js:234
 msgid "Signup has been disabled"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:232
+#: app/scripts/lib/auth-errors.js:238
 msgid "Age is required"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:236
+#: app/scripts/lib/auth-errors.js:242
 msgid "No Gravatar found"
 msgstr "কোন গ্রাভাটার পাওয়া যায় নি"
 
-#: app/scripts/lib/mailcheck.js:65
+#: app/scripts/lib/mailcheck.js:66
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr ""
 
@@ -447,32 +371,30 @@ msgid ""
 msgstr ""
 
 #: app/scripts/lib/strings.js:23
-#: app/scripts/templates/choose_what_to_sync.mustache:2
+#: app/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
 msgstr ""
 
 #: app/scripts/lib/strings.js:24
-#: app/scripts/templates/choose_what_to_sync.mustache:4
+#: app/scripts/templates/choose_what_to_sync.mustache:8
 msgid "History"
 msgstr ""
 
 #: app/scripts/lib/strings.js:25
-#: app/scripts/templates/choose_what_to_sync.mustache:6
+#: app/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Tabs"
 msgstr ""
 
 #: app/scripts/lib/strings.js:26
-#: app/scripts/templates/choose_what_to_sync.mustache:8
+#: app/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Passwords"
 msgstr ""
 
 #: app/scripts/lib/strings.js:27
-#: app/scripts/templates/choose_what_to_sync.mustache:10
 msgid "Desktop Add-ons"
 msgstr ""
 
 #: app/scripts/lib/strings.js:28
-#: app/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Desktop Preferences"
 msgstr ""
 
@@ -480,37 +402,45 @@ msgstr ""
 msgid "Cannot create account"
 msgstr "একাউন্ট তৈরী করা যাচ্ছে না"
 
-#: app/scripts/templates/cannot_create_account.mustache:2
+#: app/scripts/templates/cannot_create_account.mustache:3
 msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr "ফায়ারফক্স একাউন্ট খুলতে হলে আপনাকে অবশ্যই একটি বয়স সীমা পূর্ণ করতে হবে।"
 
-#: app/scripts/templates/cannot_create_account.mustache:4
+#: app/scripts/templates/cannot_create_account.mustache:5
 msgid "Learn more."
 msgstr "আরো জানুন।"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-msgid "Choose What to Sync"
+#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/sign_up.mustache:24
+msgid "Choose what to sync"
+msgstr "কি সিঙ্ক করতে হবে তা পছন্দ করুন"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:10
+msgid "Add-ons"
+msgstr ""
+
+#: app/scripts/templates/choose_what_to_sync.mustache:12
+msgid "Preferences"
 msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
-#: app/scripts/templates/complete_reset_password.mustache:17
-msgid "Next"
-msgstr "পরবর্তী"
+msgid "Add-ons and Preferences do not currently sync on mobile devices."
+msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
-#: app/scripts/templates/permissions.mustache:5
-#: app/scripts/templates/settings/avatar_camera.mustache:2
-#: app/scripts/templates/settings/avatar_crop.mustache:3
-#: app/scripts/templates/settings/avatar_gravatar.mustache:3
-#: app/scripts/templates/settings/change_password.mustache:13
-#: app/scripts/templates/settings/communication_preferences.mustache:4
-#: app/scripts/templates/settings/communication_preferences.mustache:12
-#: app/scripts/templates/settings/delete_account.mustache:7
-#: app/scripts/templates/settings/display_name.mustache:6
-#: app/scripts/templates/settings/gravatar_permissions.mustache:5
-msgid "Cancel"
-msgstr "বাতিল"
+#: app/scripts/templates/sign_up.mustache:22
+msgid "Sign up"
+msgstr "সাইন আপ"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:16
+#: app/scripts/templates/confirm_account_unlock.mustache:5
+#: app/scripts/templates/pp.mustache:3
+#: app/scripts/templates/reset_password.mustache:6
+#: app/scripts/templates/tos.mustache:3
+msgid "Back"
+msgstr "পেছনে"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
@@ -585,6 +515,10 @@ msgstr "প্রদর্শন"
 msgid "Repeat password"
 msgstr "পুনরায় পাসওয়ার্ড দিন"
 
+#: app/scripts/templates/complete_reset_password.mustache:17
+msgid "Next"
+msgstr "পরবর্তী"
+
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
 msgstr "মেয়াদ উত্তীর্ণ যাচাইকরণ লিঙ্ক"
@@ -631,13 +565,6 @@ msgid ""
 "level activities, please re-verify your account by clicking the verification "
 "link sent to %(email)s"
 msgstr ""
-
-#: app/scripts/templates/confirm_account_unlock.mustache:5
-#: app/scripts/templates/pp.mustache:3
-#: app/scripts/templates/reset_password.mustache:6
-#: app/scripts/templates/tos.mustache:3
-msgid "Back"
-msgstr "পেছনে"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -786,6 +713,19 @@ msgstr "ইমেইল"
 msgid "Accept"
 msgstr ""
 
+#: app/scripts/templates/permissions.mustache:5
+#: app/scripts/templates/settings/avatar_camera.mustache:2
+#: app/scripts/templates/settings/avatar_crop.mustache:3
+#: app/scripts/templates/settings/avatar_gravatar.mustache:3
+#: app/scripts/templates/settings/change_password.mustache:13
+#: app/scripts/templates/settings/communication_preferences.mustache:4
+#: app/scripts/templates/settings/communication_preferences.mustache:12
+#: app/scripts/templates/settings/delete_account.mustache:7
+#: app/scripts/templates/settings/display_name.mustache:6
+#: app/scripts/templates/settings/gravatar_permissions.mustache:5
+msgid "Cancel"
+msgstr "বাতিল"
+
 #: app/scripts/templates/ready.mustache:1
 msgid "Success"
 msgstr "সফল"
@@ -857,16 +797,7 @@ msgstr ""
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr ""
 
-#: app/scripts/templates/sign_up.mustache:19
-#: app/scripts/templates/sign_up.mustache:23
-msgid "Choose what to sync"
-msgstr "কি সিঙ্ক করতে হবে তা পছন্দ করুন"
-
-#: app/scripts/templates/sign_up.mustache:21
-msgid "Sign up"
-msgstr "সাইন আপ"
-
-#: app/scripts/templates/sign_up.mustache:25
+#: app/scripts/templates/sign_up.mustache:27
 msgid "Have an account? Sign in."
 msgstr ""
 
@@ -979,70 +910,6 @@ msgstr ""
 msgid "How old are you?"
 msgstr ""
 
-#: app/scripts/templates/partial/coppa-date-picker.mustache:2
-msgid "Year of birth"
-msgstr "জন্মসাল"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:3
-msgid "1990 or earlier"
-msgstr "১৯৯০ বা তার পূর্বে"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:21
-msgid "Month"
-msgstr "মাস"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:22
-msgid "January"
-msgstr "জানুয়ারী"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:23
-msgid "February"
-msgstr "ফেব্রুয়ারী"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:24
-msgid "March"
-msgstr "মার্চ"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:25
-msgid "April"
-msgstr "এপ্রিল"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:26
-msgid "May"
-msgstr "মে"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:27
-msgid "June"
-msgstr "জুন"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:28
-msgid "July"
-msgstr "জুলাই"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:29
-msgid "August"
-msgstr "আগস্ট"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:30
-msgid "September"
-msgstr "সেপ্টেম্বর"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:31
-msgid "October"
-msgstr "অক্টোবর"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:32
-msgid "November"
-msgstr "নভেম্বর"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:33
-msgid "December"
-msgstr "ডিসেম্বর"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:34
-msgid "Day"
-msgstr "দিন"
-
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
 msgstr ""
@@ -1060,6 +927,111 @@ msgstr ""
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr ""
+
+#~ msgid "1991"
+#~ msgstr "১৯৯১"
+
+#~ msgid "1992"
+#~ msgstr "১৯৯২"
+
+#~ msgid "1993"
+#~ msgstr "১৯৯৩"
+
+#~ msgid "1994"
+#~ msgstr "১৯৯৪"
+
+#~ msgid "1995"
+#~ msgstr "১৯৯৫"
+
+#~ msgid "1996"
+#~ msgstr "১৯৯৬"
+
+#~ msgid "1997"
+#~ msgstr "১৯৯৭"
+
+#~ msgid "1998"
+#~ msgstr "১৯৯৮"
+
+#~ msgid "1999"
+#~ msgstr "১৯৯৯"
+
+#~ msgid "2000"
+#~ msgstr "২০০০"
+
+#~ msgid "2001"
+#~ msgstr "২০০১"
+
+#~ msgid "2002"
+#~ msgstr "২০০২"
+
+#~ msgid "2003"
+#~ msgstr "২০০৩"
+
+#~ msgid "2004"
+#~ msgstr "২০০৪"
+
+#~ msgid "2005"
+#~ msgstr "২০০৫"
+
+#~ msgid "2006"
+#~ msgstr "২০০৬"
+
+#~ msgid "2007"
+#~ msgstr "২০০৭"
+
+#~ msgid "Year of birth required"
+#~ msgstr "জন্মসাল আবশ্যক"
+
+#~ msgid "Valid birthday required"
+#~ msgstr "বৈধ জন্ম তারিখ আবশ্যক"
+
+#~ msgid "Year of birth"
+#~ msgstr "জন্মসাল"
+
+#~ msgid "1990 or earlier"
+#~ msgstr "১৯৯০ বা তার পূর্বে"
+
+#~ msgid "Month"
+#~ msgstr "মাস"
+
+#~ msgid "January"
+#~ msgstr "জানুয়ারী"
+
+#~ msgid "February"
+#~ msgstr "ফেব্রুয়ারী"
+
+#~ msgid "March"
+#~ msgstr "মার্চ"
+
+#~ msgid "April"
+#~ msgstr "এপ্রিল"
+
+#~ msgid "May"
+#~ msgstr "মে"
+
+#~ msgid "June"
+#~ msgstr "জুন"
+
+#~ msgid "July"
+#~ msgstr "জুলাই"
+
+#~ msgid "August"
+#~ msgstr "আগস্ট"
+
+#~ msgid "September"
+#~ msgstr "সেপ্টেম্বর"
+
+#~ msgid "October"
+#~ msgstr "অক্টোবর"
+
+#~ msgid "November"
+#~ msgstr "নভেম্বর"
+
+#~ msgid "December"
+#~ msgstr "ডিসেম্বর"
+
+#~ msgid "Day"
+#~ msgstr "দিন"
 
 #~ msgid "Manage account"
 #~ msgstr "একাউন্ট ব্যবস্থাপনা"

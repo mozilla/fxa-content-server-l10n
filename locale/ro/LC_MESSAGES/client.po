@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-15 17:21+0000\n"
+"POT-Creation-Date: 2015-10-29 18:05+0000\n"
 "PO-Revision-Date: 2015-10-19 23:16+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,77 +11,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1440955868.0\n"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:4
-msgid "1991"
-msgstr "1991"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:5
-msgid "1992"
-msgstr "1992"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:6
-msgid "1993"
-msgstr "1993"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:7
-msgid "1994"
-msgstr "1994"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:8
-msgid "1995"
-msgstr "1995"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:9
-msgid "1996"
-msgstr "1996"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:10
-msgid "1997"
-msgstr "1997"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:11
-msgid "1998"
-msgstr "1998"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:12
-msgid "1999"
-msgstr "1999"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:13
-msgid "2000"
-msgstr "2000"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:14
-msgid "2001"
-msgstr "2001"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:15
-msgid "2002"
-msgstr "2002"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:16
-msgid "2003"
-msgstr "2003"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:17
-msgid "2004"
-msgstr "2004"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:18
-msgid "2005"
-msgstr "2005"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:19
-msgid "2006"
-msgstr "2006"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:20
-msgid "2007"
-msgstr "2007"
 
 #: app/scripts/views/complete_reset_password.js:134
 #: app/scripts/views/complete_sign_up.js:101 app/scripts/views/confirm.js:116
@@ -134,11 +67,11 @@ msgstr "Ești acum pregătit să folosești %(serviceName)s"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Cont necunoscut. <a href=\"/signup\">Înregistrare</a>"
 
-#: app/scripts/views/settings.js:214
+#: app/scripts/views/settings.js:223
 msgid "Signed out successfully"
 msgstr "Te-ai deconectat cu succes"
 
-#: app/scripts/views/sign_up.js:355
+#: app/scripts/views/sign_up.js:343
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Cont există deja. <a href=\"/signin\">Autentifică-te</a>"
 
@@ -167,7 +100,8 @@ msgid "Display name updated"
 msgstr "Numele afișat actualizat"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
-msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "Cont blocat. <a href=\"/confirm_account_unlock\">Trimite e-mailul de "
 "deblocare</a>"
@@ -318,81 +252,72 @@ msgstr "Trebuie să fie de cel puțin 8 caractere"
 msgid "Valid password required"
 msgstr "Parolă validă necesară"
 
-#: app/scripts/lib/auth-errors.js:152 app/scripts/lib/auth-errors.js:184
-#: app/scripts/lib/auth-errors.js:200
+#: app/scripts/lib/auth-errors.js:152 app/scripts/lib/auth-errors.js:190
+#: app/scripts/lib/auth-errors.js:206
 msgid "Valid email required"
 msgstr "E-mail valid necesar"
 
-#: app/scripts/lib/auth-errors.js:156
-msgid "Year of birth required"
-msgstr "Anul nașterii necesar"
-
-#: app/scripts/lib/auth-errors.js:160
+#: app/scripts/lib/auth-errors.js:163
 msgid "A usable image was not found"
 msgstr "Nu s-a găsit o imagine utilizabilă"
 
-#: app/scripts/lib/auth-errors.js:164
+#: app/scripts/lib/auth-errors.js:167
 msgid "Could not initialize camera"
 msgstr "Camera nu a putut fi inițializată"
 
-#: app/scripts/lib/auth-errors.js:168
+#: app/scripts/lib/auth-errors.js:171
 msgid "Valid URL required"
 msgstr "URL valid necesar"
 
-#: app/scripts/lib/auth-errors.js:172
-msgid "Valid birthday required"
-msgstr "Anul nașterii valid necesar"
-
-#: app/scripts/lib/auth-errors.js:180
+#: app/scripts/lib/auth-errors.js:186
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "E-mailul de verificare a fost trimis înapoi. Ai scris corect adresa?"
 
-#: app/scripts/lib/auth-errors.js:188
+#: app/scripts/lib/auth-errors.js:194
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Introdu o adresă de e-mail validă. firefox.com nu oferă e-mail."
 
-#: app/scripts/lib/auth-errors.js:196
+#: app/scripts/lib/auth-errors.js:202
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
-"Conturile Firefox pot fi plasate într-un IFRAME pe site-urile aprobate"
+msgstr "Conturile Firefox pot fi plasate într-un IFRAME pe site-urile aprobate"
 
-#: app/scripts/lib/auth-errors.js:204
+#: app/scripts/lib/auth-errors.js:210
 msgid "/force_auth requires an email"
 msgstr "/force_auth solicită un e-mail"
 
-#: app/scripts/lib/auth-errors.js:208
+#: app/scripts/lib/auth-errors.js:214
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
 msgstr "Linkul pe care ai dat clic pentru verificarea e-mailului a expirat."
 
-#: app/scripts/lib/auth-errors.js:212
+#: app/scripts/lib/auth-errors.js:218
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "Link de verificare deteriorat"
 
-#: app/scripts/lib/auth-errors.js:220
+#: app/scripts/lib/auth-errors.js:226
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Dimensiunile imaginii trebuie să fie cel puțin 100x100px"
 
 # Signup poate fi un nume de serviciu
-#: app/scripts/lib/auth-errors.js:224
+#: app/scripts/lib/auth-errors.js:230
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Înregistrarea vine în curând și pe Firefox pentru iOS"
 
-#: app/scripts/lib/auth-errors.js:228
+#: app/scripts/lib/auth-errors.js:234
 msgid "Signup has been disabled"
 msgstr "Înregistrarea a fost dezactivată"
 
-#: app/scripts/lib/auth-errors.js:232
+#: app/scripts/lib/auth-errors.js:238
 msgid "Age is required"
 msgstr "Vârsta este necesară"
 
-#: app/scripts/lib/auth-errors.js:236
+#: app/scripts/lib/auth-errors.js:242
 msgid "No Gravatar found"
 msgstr "Niciun Gravatar găsit"
 
-#: app/scripts/lib/mailcheck.js:65
+#: app/scripts/lib/mailcheck.js:66
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr "Ai vrut să scrii <span tabindex=\"1\">%(domain)s</span>?"
 
@@ -454,43 +379,40 @@ msgstr "Sincronizare Firefox"
 
 #: app/scripts/lib/strings.js:19
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Dacă vei continua, ești de acord cu <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">termenii serviciului</a> și <a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">nota privind politica de confidențialitate</a> a "
-"%(serviceName)s (%(serviceUri)s)."
+"Dacă vei continua, ești de acord cu <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">termenii serviciului</a> și <a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">nota privind politica de confidențialitate</a> a %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:23
-#: app/scripts/templates/choose_what_to_sync.mustache:2
+#: app/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
 msgstr "Semne de carte"
 
 #: app/scripts/lib/strings.js:24
-#: app/scripts/templates/choose_what_to_sync.mustache:4
+#: app/scripts/templates/choose_what_to_sync.mustache:8
 msgid "History"
 msgstr "Istoric"
 
 #: app/scripts/lib/strings.js:25
-#: app/scripts/templates/choose_what_to_sync.mustache:6
+#: app/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Tabs"
 msgstr "File"
 
 #: app/scripts/lib/strings.js:26
-#: app/scripts/templates/choose_what_to_sync.mustache:8
+#: app/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Passwords"
 msgstr "Parole"
 
 #: app/scripts/lib/strings.js:27
-#: app/scripts/templates/choose_what_to_sync.mustache:10
 msgid "Desktop Add-ons"
 msgstr "Suplimente pentru desktop"
 
 #: app/scripts/lib/strings.js:28
-#: app/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Desktop Preferences"
 msgstr "Preferințe pentru desktop"
 
@@ -498,39 +420,47 @@ msgstr "Preferințe pentru desktop"
 msgid "Cannot create account"
 msgstr "Nu se poate crea contul"
 
-#: app/scripts/templates/cannot_create_account.mustache:2
+#: app/scripts/templates/cannot_create_account.mustache:3
 msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr ""
-"Trebuie să îndeplinești anumite cerințe de vârstă pentru a crea un "
-"cont&nbsp;Firefox"
+"Trebuie să îndeplinești anumite cerințe de vârstă pentru a crea un cont&nbsp;"
+"Firefox"
 
-#: app/scripts/templates/cannot_create_account.mustache:4
+#: app/scripts/templates/cannot_create_account.mustache:5
 msgid "Learn more."
 msgstr "Află mai multe."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-msgid "Choose What to Sync"
+#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/sign_up.mustache:24
+msgid "Choose what to sync"
 msgstr "Alege ce să sincronizezi"
 
+#: app/scripts/templates/choose_what_to_sync.mustache:10
+msgid "Add-ons"
+msgstr ""
+
+#: app/scripts/templates/choose_what_to_sync.mustache:12
+msgid "Preferences"
+msgstr ""
+
 #: app/scripts/templates/choose_what_to_sync.mustache:14
-#: app/scripts/templates/complete_reset_password.mustache:17
-msgid "Next"
-msgstr "Următor"
+msgid "Add-ons and Preferences do not currently sync on mobile devices."
+msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
-#: app/scripts/templates/permissions.mustache:5
-#: app/scripts/templates/settings/avatar_camera.mustache:2
-#: app/scripts/templates/settings/avatar_crop.mustache:3
-#: app/scripts/templates/settings/avatar_gravatar.mustache:3
-#: app/scripts/templates/settings/change_password.mustache:13
-#: app/scripts/templates/settings/communication_preferences.mustache:4
-#: app/scripts/templates/settings/communication_preferences.mustache:12
-#: app/scripts/templates/settings/delete_account.mustache:7
-#: app/scripts/templates/settings/display_name.mustache:6
-#: app/scripts/templates/settings/gravatar_permissions.mustache:5
-msgid "Cancel"
-msgstr "Renunță"
+#: app/scripts/templates/sign_up.mustache:22
+msgid "Sign up"
+msgstr "Înregistrare"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:16
+#: app/scripts/templates/confirm_account_unlock.mustache:5
+#: app/scripts/templates/pp.mustache:3
+#: app/scripts/templates/reset_password.mustache:6
+#: app/scripts/templates/tos.mustache:3
+msgid "Back"
+msgstr "Înapoi"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
@@ -547,8 +477,8 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
-"Linkul pe care ai dat clic avea caractere lipsă, iar acest lucru ar putea fi"
-" din vina clientului de e-mail. Copiază adresa cu grijă și încearcă din nou."
+"Linkul pe care ai dat clic avea caractere lipsă, iar acest lucru ar putea fi "
+"din vina clientului de e-mail. Copiază adresa cu grijă și încearcă din nou."
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
@@ -604,6 +534,10 @@ msgstr "Arată"
 msgid "Repeat password"
 msgstr "Repetă parola"
 
+#: app/scripts/templates/complete_reset_password.mustache:17
+msgid "Next"
+msgstr "Următor"
+
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
 msgstr "Link de verificare expirat"
@@ -647,19 +581,12 @@ msgstr "E-mailul de deblocare trimis"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification"
-" link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
 msgstr ""
 "Din motive de securitate, contul a fost blocat. Pentru a folosi din nou "
 "contul, te rugăm să reverifici contul printr-un clic pe linkul trimis către "
 "%(email)s"
-
-#: app/scripts/templates/confirm_account_unlock.mustache:5
-#: app/scripts/templates/pp.mustache:3
-#: app/scripts/templates/reset_password.mustache:6
-#: app/scripts/templates/tos.mustache:3
-msgid "Back"
-msgstr "Înapoi"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -727,14 +654,13 @@ msgstr "Ai pierdut parola?"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:15
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
-"Continuând, ești de acord cu <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">termenii serviciului</a> și <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">politica de confidențialitate</a> ale serviciilor "
-"cloud Firefox."
+"Continuând, ești de acord cu <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">termenii serviciului</a> și <a id=\"fxa-pp\" href=\"/legal/privacy"
+"\">politica de confidențialitate</a> ale serviciilor cloud Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -813,6 +739,19 @@ msgstr "E-mail"
 msgid "Accept"
 msgstr "Acceptă"
 
+#: app/scripts/templates/permissions.mustache:5
+#: app/scripts/templates/settings/avatar_camera.mustache:2
+#: app/scripts/templates/settings/avatar_crop.mustache:3
+#: app/scripts/templates/settings/avatar_gravatar.mustache:3
+#: app/scripts/templates/settings/change_password.mustache:13
+#: app/scripts/templates/settings/communication_preferences.mustache:4
+#: app/scripts/templates/settings/communication_preferences.mustache:12
+#: app/scripts/templates/settings/delete_account.mustache:7
+#: app/scripts/templates/settings/display_name.mustache:6
+#: app/scripts/templates/settings/gravatar_permissions.mustache:5
+msgid "Cancel"
+msgstr "Renunță"
+
 #: app/scripts/templates/ready.mustache:1
 msgid "Success"
 msgstr "Succes"
@@ -889,16 +828,7 @@ msgstr "Migrează datele de sincronizare prin crearea unui cont&nbsp;Firefox."
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Obține ultimele știri despre Mozilla și Firefox."
 
-#: app/scripts/templates/sign_up.mustache:19
-#: app/scripts/templates/sign_up.mustache:23
-msgid "Choose what to sync"
-msgstr "Alege ce să sincronizezi"
-
-#: app/scripts/templates/sign_up.mustache:21
-msgid "Sign up"
-msgstr "Înregistrare"
-
-#: app/scripts/templates/sign_up.mustache:25
+#: app/scripts/templates/sign_up.mustache:27
 msgid "Have an account? Sign in."
 msgstr "Ai un cont? Autentifică-te."
 
@@ -1015,70 +945,6 @@ msgstr ""
 msgid "How old are you?"
 msgstr "Ce vârstă ai?"
 
-#: app/scripts/templates/partial/coppa-date-picker.mustache:2
-msgid "Year of birth"
-msgstr "Anul nașterii"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:3
-msgid "1990 or earlier"
-msgstr "1990 sau anterior"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:21
-msgid "Month"
-msgstr "Luna"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:22
-msgid "January"
-msgstr "Ianuarie"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:23
-msgid "February"
-msgstr "Februarie"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:24
-msgid "March"
-msgstr "Martie"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:25
-msgid "April"
-msgstr "Aprilie"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:26
-msgid "May"
-msgstr "Mai"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:27
-msgid "June"
-msgstr "Iunie"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:28
-msgid "July"
-msgstr "Iulie"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:29
-msgid "August"
-msgstr "August"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:30
-msgid "September"
-msgstr "Septembrie"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:31
-msgid "October"
-msgstr "Octombrie"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:32
-msgid "November"
-msgstr "Noiembrie"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:33
-msgid "December"
-msgstr "Decembrie"
-
-#: app/scripts/templates/partial/coppa-date-picker.mustache:34
-msgid "Day"
-msgstr "Zi"
-
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
 msgstr "Autentifică-te pentru Sincronizare"
@@ -1098,6 +964,114 @@ msgstr "Folosește OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Folosește cont Firefox"
+
+#~ msgid "1991"
+#~ msgstr "1991"
+
+#~ msgid "1992"
+#~ msgstr "1992"
+
+#~ msgid "1993"
+#~ msgstr "1993"
+
+#~ msgid "1994"
+#~ msgstr "1994"
+
+#~ msgid "1995"
+#~ msgstr "1995"
+
+#~ msgid "1996"
+#~ msgstr "1996"
+
+#~ msgid "1997"
+#~ msgstr "1997"
+
+#~ msgid "1998"
+#~ msgstr "1998"
+
+#~ msgid "1999"
+#~ msgstr "1999"
+
+#~ msgid "2000"
+#~ msgstr "2000"
+
+#~ msgid "2001"
+#~ msgstr "2001"
+
+#~ msgid "2002"
+#~ msgstr "2002"
+
+#~ msgid "2003"
+#~ msgstr "2003"
+
+#~ msgid "2004"
+#~ msgstr "2004"
+
+#~ msgid "2005"
+#~ msgstr "2005"
+
+#~ msgid "2006"
+#~ msgstr "2006"
+
+#~ msgid "2007"
+#~ msgstr "2007"
+
+#~ msgid "Year of birth required"
+#~ msgstr "Anul nașterii necesar"
+
+#~ msgid "Valid birthday required"
+#~ msgstr "Anul nașterii valid necesar"
+
+#~ msgid "Choose What to Sync"
+#~ msgstr "Alege ce să sincronizezi"
+
+#~ msgid "Year of birth"
+#~ msgstr "Anul nașterii"
+
+#~ msgid "1990 or earlier"
+#~ msgstr "1990 sau anterior"
+
+#~ msgid "Month"
+#~ msgstr "Luna"
+
+#~ msgid "January"
+#~ msgstr "Ianuarie"
+
+#~ msgid "February"
+#~ msgstr "Februarie"
+
+#~ msgid "March"
+#~ msgstr "Martie"
+
+#~ msgid "April"
+#~ msgstr "Aprilie"
+
+#~ msgid "May"
+#~ msgstr "Mai"
+
+#~ msgid "June"
+#~ msgstr "Iunie"
+
+#~ msgid "July"
+#~ msgstr "Iulie"
+
+#~ msgid "August"
+#~ msgstr "August"
+
+#~ msgid "September"
+#~ msgstr "Septembrie"
+
+#~ msgid "October"
+#~ msgstr "Octombrie"
+
+#~ msgid "November"
+#~ msgstr "Noiembrie"
+
+#~ msgid "December"
+#~ msgstr "Decembrie"
+
+#~ msgid "Day"
+#~ msgstr "Zi"
 
 #~ msgid "Manage account"
 #~ msgstr "Gestionează contul"
@@ -1121,13 +1095,13 @@ msgstr "Folosește cont Firefox"
 #~ msgstr "Scrie adresa de e-mail pentru a reseta&nbsp;parola contului."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data from"
-#~ " our servers. A new Sync backup will be created from your local browsing "
-#~ "data."
+#~ "For security reasons, resetting your password will erase your Sync data "
+#~ "from our servers. A new Sync backup will be created from your local "
+#~ "browsing data."
 #~ msgstr ""
-#~ "Din motive de securitate, resetarea parolei va șterge datele de sincronizare"
-#~ " de pe serverele noastre. Va fi creată o copie de siguranță pentru "
-#~ "Sincronizare din datele locale de navigare."
+#~ "Din motive de securitate, resetarea parolei va șterge datele de "
+#~ "sincronizare de pe serverele noastre. Va fi creată o copie de siguranță "
+#~ "pentru Sincronizare din datele locale de navigare."
 
 #~ msgid "You are signed in as"
 #~ msgstr "Ești autentificat(ă) ca"
@@ -1141,7 +1115,9 @@ msgstr "Folosește cont Firefox"
 #~ msgid "Password changed"
 #~ msgstr "Parolă schimbată"
 
-#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
+#~ msgid ""
+#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
+#~ "email</a>."
 #~ msgstr ""
 #~ "Cont neverificat. <a href=\"#\" id=\"resend\">Retrimite emailul de "
 #~ "verificare</a>."

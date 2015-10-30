@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fxa-server\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-15 17:21+0000\n"
+"POT-Creation-Date: 2015-10-29 18:05+0000\n"
 "PO-Revision-Date: 2015-10-26 15:27+0500\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
+"Language-Team: \n"
 "Language: kk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
-"Language-Team: \n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: templates/_pending.txt:1
@@ -83,8 +83,9 @@ msgstr ""
 #: templates/password_reset.html:4 templates/post_verify.html:6
 #: templates/post_verify.txt:4 templates/reset.html:6 templates/reset.txt:4
 #: templates/unlock.html:6 templates/unlock.txt:3
-#: templates/verification_reminder.html:6 templates/verification_reminder.txt:4
-#: templates/verify.html:6 templates/verify.txt:4
+#: templates/verification_reminder.html:6
+#: templates/verification_reminder.txt:4 templates/verify.html:6
+#: templates/verify.txt:4
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
@@ -210,11 +211,13 @@ msgstr "Тіркелгіні растау"
 msgid "Verify account:"
 msgstr "Тіркелгіні растау:"
 
-#: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
+#: templates/verification_reminder.html:2
+#: templates/verification_reminder.txt:1
 msgid "Hello again."
 msgstr "Қайтадан, сәлем."
 
-#: templates/verification_reminder.html:3 templates/verification_reminder.txt:2
+#: templates/verification_reminder.html:3
+#: templates/verification_reminder.txt:2
 msgid ""
 "Recently you created a Firefox Account, but never verified it. Please "
 "activate your account by confirming this email address."
