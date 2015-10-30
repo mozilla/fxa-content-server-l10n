@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-29 18:05+0000\n"
-"PO-Revision-Date: 2015-10-15 22:39+0200\n"
-"Last-Translator: Stefan Plewako <splewako@aviary.pl>\n"
+"PO-Revision-Date: 2015-10-30 17:50+0100\n"
+"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -430,15 +430,17 @@ msgstr "Wybierz, co powinno być synchronizowane"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:10
 msgid "Add-ons"
-msgstr ""
+msgstr "Dodatki"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Preferences"
-msgstr ""
+msgstr "Preferencje"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
 msgstr ""
+"Dodatki i preferencje nie są obecnie synchronizowane na urządzeniach "
+"mobilnych."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 #: app/scripts/templates/sign_up.mustache:22
@@ -952,111 +954,3 @@ msgstr "Użyj OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Użyj konta Firefoksa"
-
-#~ msgid "1991"
-#~ msgstr "1991"
-
-#~ msgid "1992"
-#~ msgstr "1992"
-
-#~ msgid "1993"
-#~ msgstr "1993"
-
-#~ msgid "1994"
-#~ msgstr "1994"
-
-#~ msgid "1995"
-#~ msgstr "1995"
-
-#~ msgid "1996"
-#~ msgstr "1996"
-
-#~ msgid "1997"
-#~ msgstr "1997"
-
-#~ msgid "1998"
-#~ msgstr "1998"
-
-#~ msgid "1999"
-#~ msgstr "1999"
-
-#~ msgid "2000"
-#~ msgstr "2000"
-
-#~ msgid "2001"
-#~ msgstr "2001"
-
-#~ msgid "2002"
-#~ msgstr "2002"
-
-#~ msgid "2003"
-#~ msgstr "2003"
-
-#~ msgid "2004"
-#~ msgstr "2004"
-
-#~ msgid "2005"
-#~ msgstr "2005"
-
-#~ msgid "2006"
-#~ msgstr "2006"
-
-#~ msgid "2007"
-#~ msgstr "2007"
-
-#~ msgid "Year of birth required"
-#~ msgstr "Wymagana jest data urodzenia"
-
-#~ msgid "Valid birthday required"
-#~ msgstr "Wymagana jest prawidłowa data urodzenia"
-
-#~ msgid "Choose What to Sync"
-#~ msgstr "Wybierz, co synchronizować"
-
-#~ msgid "Year of birth"
-#~ msgstr "Rok urodzenia"
-
-#~ msgid "1990 or earlier"
-#~ msgstr "1990 lub wcześniej"
-
-#~ msgid "Month"
-#~ msgstr "Miesiąc"
-
-#~ msgid "January"
-#~ msgstr "Styczeń"
-
-#~ msgid "February"
-#~ msgstr "Luty"
-
-#~ msgid "March"
-#~ msgstr "Marzec"
-
-#~ msgid "April"
-#~ msgstr "Kwiecień"
-
-#~ msgid "May"
-#~ msgstr "Maj"
-
-#~ msgid "June"
-#~ msgstr "Czerwiec"
-
-#~ msgid "July"
-#~ msgstr "Lipiec"
-
-#~ msgid "August"
-#~ msgstr "Sierpień"
-
-#~ msgid "September"
-#~ msgstr "Wrzesień"
-
-#~ msgid "October"
-#~ msgstr "Październik"
-
-#~ msgid "November"
-#~ msgstr "Listopad"
-
-#~ msgid "December"
-#~ msgstr "Grudzień"
-
-#~ msgid "Day"
-#~ msgstr "Dzień"
