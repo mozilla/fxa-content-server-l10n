@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-29 18:05+0000\n"
-"PO-Revision-Date: 2015-10-08 20:40-0400\n"
+"PO-Revision-Date: 2015-10-30 14:25-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -429,15 +429,15 @@ msgstr "同期するデータを選択する"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:10
 msgid "Add-ons"
-msgstr ""
+msgstr "アドオン"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Preferences"
-msgstr ""
+msgstr "設定"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr ""
+msgstr "アドオンと設定は今のところモバイル端末では同期されません。"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 #: app/scripts/templates/sign_up.mustache:22
@@ -957,119 +957,3 @@ msgstr "OpenID を使用"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Firefox アカウントを使用"
-
-#~ msgid "1991"
-#~ msgstr "1991"
-
-#~ msgid "1992"
-#~ msgstr "1992"
-
-#~ msgid "1993"
-#~ msgstr "1993"
-
-#~ msgid "1994"
-#~ msgstr "1994"
-
-#~ msgid "1995"
-#~ msgstr "1995"
-
-#~ msgid "1996"
-#~ msgstr "1996"
-
-#~ msgid "1997"
-#~ msgstr "1997"
-
-#~ msgid "1998"
-#~ msgstr "1998"
-
-#~ msgid "1999"
-#~ msgstr "1999"
-
-#~ msgid "2000"
-#~ msgstr "2000"
-
-#~ msgid "2001"
-#~ msgstr "2001"
-
-#~ msgid "2002"
-#~ msgstr "2002"
-
-#~ msgid "2003"
-#~ msgstr "2003"
-
-#~ msgid "2004"
-#~ msgstr "2004"
-
-#~ msgid "2005"
-#~ msgstr "2005"
-
-#~ msgid "2006"
-#~ msgstr "2006"
-
-#~ msgid "2007"
-#~ msgstr "2007"
-
-# Android での UI に合わせる
-#~ msgid "Year of birth required"
-#~ msgstr "誕生年を入力してください (必須)"
-
-#~ msgid "Valid birthday required"
-#~ msgstr "有効な誕生日が必要です"
-
-#~ msgid "Choose What to Sync"
-#~ msgstr "同期する項目を選択"
-
-# Android の UI に合わせる
-#~ msgid "Year of birth"
-#~ msgstr "誕生年"
-
-#~ msgid "1990 or earlier"
-#~ msgstr "1990 年以前"
-
-#~ msgid "Month"
-#~ msgstr "月"
-
-#~ msgid "January"
-#~ msgstr "1月"
-
-#~ msgid "February"
-#~ msgstr "2月"
-
-#~ msgid "March"
-#~ msgstr "3月"
-
-#~ msgid "April"
-#~ msgstr "4月"
-
-#~ msgid "May"
-#~ msgstr "5月"
-
-#~ msgid "June"
-#~ msgstr "6月"
-
-#~ msgid "July"
-#~ msgstr "7月"
-
-#~ msgid "August"
-#~ msgstr "8月"
-
-#~ msgid "September"
-#~ msgstr "9月"
-
-#~ msgid "October"
-#~ msgstr "10月"
-
-#~ msgid "November"
-#~ msgstr "11月"
-
-#~ msgid "December"
-#~ msgstr "12月"
-
-#~ msgid "Day"
-#~ msgstr "日"
-
-#~ msgid "Manage account"
-#~ msgstr "アカウント管理"
-
-#~ msgid "Hello, <span>%(username)s</span>"
-#~ msgstr "こんにちは、<span>%(username)s</span> さん"
