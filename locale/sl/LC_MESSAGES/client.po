@@ -1,18 +1,17 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-29 18:05+0000\n"
-"PO-Revision-Date: 2015-10-12 07:30+0000\n"
+"PO-Revision-Date: 2015-10-30 09:19+0000\n"
 "Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1432388856.0\n"
 
@@ -100,8 +99,7 @@ msgid "Display name updated"
 msgstr "Prikazano ime posodobljeno"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "Račun zaklenjen. <a href=\"/confirm_account_unlock\">Pošlji e-pošto za "
 "odklep</a>"
@@ -272,7 +270,8 @@ msgstr "Vnesite veljaven elektronski naslov. firefox.com ne ponuja e-pošte."
 
 #: app/scripts/lib/auth-errors.js:202
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "Storitev Firefox Računi lahko namestite samo v IFRAME odobrenih strani"
+msgstr ""
+"Storitev Firefox Računi lahko namestite samo v IFRAME odobrenih strani"
 
 #: app/scripts/lib/auth-errors.js:210
 msgid "/force_auth requires an email"
@@ -371,13 +370,15 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:19
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"Z nadaljevanjem sprejemate <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Pogoje uporabe</a> in <a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Obvestilo o zasebnosti</a> storitve %(serviceName)s (%(serviceUri)s)."
+"Z nadaljevanjem sprejemate <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Pogoje uporabe</a> in <a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Obvestilo o zasebnosti</a> storitve %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:23
 #: app/scripts/templates/choose_what_to_sync.mustache:4
@@ -429,15 +430,16 @@ msgstr "Izberite, kaj želite sinhronizirati"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:10
 msgid "Add-ons"
-msgstr ""
+msgstr "Dodatki"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Preferences"
-msgstr ""
+msgstr "Nastavitve"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
 msgstr ""
+"Dodatki in nastavitve se na mobilnih napravah trenutno ne sinhronizirajo."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 #: app/scripts/templates/sign_up.mustache:22
@@ -572,8 +574,8 @@ msgstr "E-pošta za odklep poslana"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification"
+" link sent to %(email)s"
 msgstr ""
 "Iz varnostnih razlogov smo zaklenili vaš račun. Za nadaljnjo uporabo računa "
 "ga ponovno potrdite, tako da kliknete potrditveno povezavo, ki smo jo "
@@ -645,9 +647,9 @@ msgstr "Ste pozabili geslo?"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:15
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
 "Z nadaljevanjem sprejemate <a id=\"fxa-tos\" href=\"/legal/terms\">Pogoje "
 "uporabe</a> in <a id=\"fxa-pp\" href=\"/legal/privacy\">Obvestilo o "
@@ -769,9 +771,9 @@ msgid ""
 "data on your devices will remain untouched. Begin the reset process by "
 "entering your email below."
 msgstr ""
-"Ponastavitev gesla bo izbrisala vaše podatke o brskanju iz naših strežnikov. "
-"Podatki na vaših napravah bodo ostali nedotaknjeni. Ponastavitev sprožite z "
-"vnosom e-poštnega naslova spodaj."
+"Ponastavitev gesla bo izbrisala vaše podatke o brskanju iz naših strežnikov."
+" Podatki na vaših napravah bodo ostali nedotaknjeni. Ponastavitev sprožite z"
+" vnosom e-poštnega naslova spodaj."
 
 #: app/scripts/templates/reset_password.mustache:5
 msgid "Begin reset"
@@ -793,8 +795,8 @@ msgstr "Nadaljujte v %(serviceName)s"
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr ""
-"Prenesite podatke za sinhronizacijo, tako da se prijavite v Firefox&nbsp;"
-"Račun."
+"Prenesite podatke za sinhronizacijo, tako da se prijavite v "
+"Firefox&nbsp;Račun."
 
 #: app/scripts/templates/sign_in.mustache:13
 #: app/scripts/templates/sign_in.mustache:16
@@ -813,8 +815,8 @@ msgstr "Ustvarite Firefox Račun"
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr ""
-"Prenesite podatke za sinhronizacijo, tako da ustvarite nov Firefox&nbsp;"
-"Račun."
+"Prenesite podatke za sinhronizacijo, tako da ustvarite nov "
+"Firefox&nbsp;Račun."
 
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/communication_preferences.mustache:6
@@ -1086,13 +1088,13 @@ msgstr "Uporabi Firefox Račun"
 #~ msgstr "Vnesite e-poštni naslov za ponastavljanje gesla računa."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data "
-#~ "from our servers. A new Sync backup will be created from your local "
-#~ "browsing data."
+#~ "For security reasons, resetting your password will erase your Sync data from"
+#~ " our servers. A new Sync backup will be created from your local browsing "
+#~ "data."
 #~ msgstr ""
-#~ "Ponastavitev gesla bo iz varnostnih razlogov izbrisala vaše "
-#~ "sinhronizirane podatke iz naših strežnikov. Nova varnostna kopija bo "
-#~ "ustvarjena iz lokalnih podatkov."
+#~ "Ponastavitev gesla bo iz varnostnih razlogov izbrisala vaše sinhronizirane "
+#~ "podatke iz naših strežnikov. Nova varnostna kopija bo ustvarjena iz lokalnih"
+#~ " podatkov."
 
 #~ msgid "You are signed in as"
 #~ msgstr "Prijavljeni ste kot"
@@ -1101,18 +1103,19 @@ msgstr "Uporabi Firefox Račun"
 #~ msgstr "Že imate račun? Prijavite se."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-#~ "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-#~ "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ "By proceeding, I agree to the <a id=\"service-tos\" "
+#~ "href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+#~ "href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
-#~ "Z nadaljevanjem sprejemam <a id=\"service-tos\" href=\"%(termsUri)s"
-#~ "\">Pogoje uporabe</a> in <a id=\"service-pp\" href=\"%(privacyUri)s"
-#~ "\">Obvestilo o zasebnosti</a> storitve %(serviceName)s (%(serviceUri)s)."
+#~ "Z nadaljevanjem sprejemam <a id=\"service-tos\" href=\"%(termsUri)s\">Pogoje"
+#~ " uporabe</a> in <a id=\"service-pp\" href=\"%(privacyUri)s\">Obvestilo o "
+#~ "zasebnosti</a> storitve %(serviceName)s (%(serviceUri)s)."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">Privacy Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
+#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+#~ "Notice</a> of Firefox cloud services."
 #~ msgstr ""
 #~ "Z nadaljevanjem sprejemam <a id=\"fxa-tos\" href=\"/legal/terms\">Pogoje "
 #~ "uporabe</a> in <a id=\"fxa-pp\" href=\"/legal/privacy\">Obvestilo o "
@@ -1136,8 +1139,7 @@ msgstr "Uporabi Firefox Račun"
 #~ msgid ""
 #~ "Once you're ﬁnished, use your new password to sign in on all of your "
 #~ "devices."
-#~ msgstr ""
-#~ "Ko boste končali, se lahko na vseh napravah prijavite z novim geslom."
+#~ msgstr "Ko boste končali, se lahko na vseh napravah prijavite z novim geslom."
 
 #~ msgid "Illegal iframe"
 #~ msgstr "Nedovoljen iframe"
@@ -1145,12 +1147,10 @@ msgstr "Uporabi Firefox Račun"
 #~ msgid "Password changed"
 #~ msgstr "Geslo spremenjeno"
 
-#~ msgid ""
-#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
-#~ "email</a>."
+#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
 #~ msgstr ""
-#~ "Nepotrjen račun. <a href=\"#\" id=\"resend\">Ponovno pošlji potrditveno e-"
-#~ "pošto</a>."
+#~ "Nepotrjen račun. <a href=\"#\" id=\"resend\">Ponovno pošlji potrditveno "
+#~ "e-pošto</a>."
 
 #~ msgid "Password reset. Sign in to continue."
 #~ msgstr "Geslo ponastavljeno. Prijavite se za nadaljevanje."
@@ -1159,11 +1159,11 @@ msgstr "Uporabi Firefox Račun"
 #~ msgstr "Odjavili ste se"
 
 #~ msgid ""
-#~ "Your verification email was just returned. Mistyped email? <a href=\"/"
-#~ "signup\">Start over.</a>"
+#~ "Your verification email was just returned. Mistyped email? <a "
+#~ "href=\"/signup\">Start over.</a>"
 #~ msgstr ""
-#~ "Vaša potrditvena e-pošta je bil zavrnjena. Ste se zatipkali? <a href=\"/"
-#~ "signup\">Začni znova.</a>"
+#~ "Vaša potrditvena e-pošta je bil zavrnjena. Ste se zatipkali? <a "
+#~ "href=\"/signup\">Začni znova.</a>"
 
 #~ msgid "Paste image URL"
 #~ msgstr "Prilepi URL slike"

@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -128,8 +128,8 @@ msgstr ""
 
 #: templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox"
+" Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
@@ -306,8 +306,9 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+"You are using an <strong>outdated</strong> browser. Please <a "
+"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+"experience."
 msgstr ""
 
 #: server/templates/pages/src/index.html:3
@@ -335,11 +336,10 @@ msgstr ""
 #~ msgid "Reset password:"
 #~ msgstr "איפוס ססמה:"
 
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
 #~ msgstr ""
-#~ "ברכותינו! %(email)s, הנך במרחק של שניות ספורות מאימות החשבון שלך ב־"
-#~ "Firefox Account."
+#~ "ברכותינו! %(email)s, הנך במרחק של שניות ספורות מאימות החשבון שלך ב־Firefox "
+#~ "Account."
 
 #~ msgid "Verify"
 #~ msgstr "אימות"
