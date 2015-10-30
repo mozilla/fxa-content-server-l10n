@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-29 18:05+0000\n"
-"PO-Revision-Date: 2015-10-08 23:44+0000\n"
+"PO-Revision-Date: 2015-10-30 13:06+0000\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -427,15 +427,17 @@ msgstr "Escolha o que sincronizar"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:10
 msgid "Add-ons"
-msgstr ""
+msgstr "Complementos"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Preferences"
-msgstr ""
+msgstr "Preferências"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
 msgstr ""
+"Atualmente, complementos e preferências não são sincronizados em "
+"dispositivos móveis."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 #: app/scripts/templates/sign_up.mustache:22
