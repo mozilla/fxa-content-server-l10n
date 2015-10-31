@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-29 18:05+0000\n"
-"PO-Revision-Date: 2015-10-30 21:04+0000\n"
+"PO-Revision-Date: 2015-10-31 01:59+0000\n"
 "Last-Translator: baurthefirst <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -428,15 +428,17 @@ msgstr "Нені синхрондауды таңдаңыз"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:10
 msgid "Add-ons"
-msgstr ""
+msgstr "Қосымшалар"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Preferences"
-msgstr ""
+msgstr "Баптаулар"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
 msgstr ""
+"Қосымшалар және баптаулар ағымдағы уақытта мобильді құрылғыларда "
+"синхрондалмайды."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 #: app/scripts/templates/sign_up.mustache:22
