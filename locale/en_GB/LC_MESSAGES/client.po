@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-29 18:05+0000\n"
-"PO-Revision-Date: 2015-10-11 01:15+0000\n"
+"PO-Revision-Date: 2015-10-31 00:44+0000\n"
 "Last-Translator: Ian Neal <iann_bugzilla@blueyonder.co.uk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en_GB\n"
@@ -424,15 +424,16 @@ msgstr "Choose what to synchronise"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:10
 msgid "Add-ons"
-msgstr ""
+msgstr "Add-ons"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Preferences"
-msgstr ""
+msgstr "Preferences"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
 msgstr ""
+"Add-ons and Preferences do not currently synchronise on mobile devices."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 #: app/scripts/templates/sign_up.mustache:22
