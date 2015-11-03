@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-29 18:05+0000\n"
-"PO-Revision-Date: 2015-10-19 23:16+0000\n"
+"PO-Revision-Date: 2015-11-03 19:49+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -48,7 +48,7 @@ msgstr "Bine ai revenit"
 
 #: app/scripts/views/ready.js:46
 msgid "Firefox Sync will resume momentarily"
-msgstr "Sincronizare Firefox va relua din clipă în clipă"
+msgstr "Sincronizare Firefox se va relua din clipă în clipă"
 
 #: app/scripts/views/ready.js:56
 msgid "Welcome to Sync"
@@ -326,7 +326,7 @@ msgstr "Client necunoscut"
 
 #: app/scripts/lib/oauth-errors.js:29
 msgid "Incorrect redirect_uri"
-msgstr "Incorect redirect_uri"
+msgstr "redirect_uri incorect"
 
 #: app/scripts/lib/oauth-errors.js:33
 msgid "Invalid assertion"
@@ -439,15 +439,17 @@ msgstr "Alege ce să sincronizezi"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:10
 msgid "Add-ons"
-msgstr ""
+msgstr "Suplimente"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Preferences"
-msgstr ""
+msgstr "Preferințe"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
 msgstr ""
+"Suplimentele și preferințele nu se sincronizează în prezent pe dispozitivele"
+" mobile."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 #: app/scripts/templates/sign_up.mustache:22
