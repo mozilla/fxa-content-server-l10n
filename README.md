@@ -9,26 +9,34 @@ On a regular basis, somebody on the SOURCE committers team copies everything fro
 
 On a (different) regular basis, a SOURCE committer will update in the other direction. This starts with running the SOURCE repo's grunt "l10n-extract" task, which updates the *.pot files in SOURCE. The committer then copies the *.pot files from SOURCE into a checkout of L10N. Then they run ./scripts/merge_po.sh in L10N, which updates the *.po files in L10N. Then they should commit and push to L10N. That will update the set of translatable strings for the l10n team to work on.
 
+## Dependencies
+
+Install [gettext](https://www.gnu.org/software/gettext/).
+
+OS X: 
+```
+brew install gettext
+brew link gettext --force # brew does not link the tools into /usr/local. Force the link.
+```
+
+Ubuntu: `sudo apt-get install gettext`
+
+
 
 ## String extraction
 Source strings are extracted from the [fxa-content-server](https://github.com/mozilla/fxa-content-server/) and [fxa-auth-mailer](https://github.com/mozilla/fxa-auth-mailer/) repos.
 
 The process to extract strings:
 
-```bash
-> cd <fxa-auth-mailer root>
-> grunt l10n-extract
-> cp server.pot <fxa-content-server root>/locale/templates/LC_MESSAGES/
-> cd <fxa-content-server root>
-> grunt l10n-extract
-> cp -r ./locale/templates/ <fxa-content-server-l10n root>/locales/templates
-> cd <fxa-content-server-l10n root>
-> git checkout -b merge-train-<train number>-strings
-> ./scripts/merge_po.sh ./locale
-> git add .
-> git commit -m "merge strings for train <train number>"
-> git push origin merge-train-<train number>-strings
+1. Make sure you installed dependencies and `msgfilter` (from `gettext`) command is available in your shell.
+1. Have the fxa-auth-mailer and fxa-content-server repos at the directory level as fxa-content-server-l10n.
+1. Have all the dependencies be up to date in the fxa-auth-mailer and fxa-content-server repos using `npm install`.
+1. `cd` into this project directory and run:
 ```
+./scripts/extract_strings.sh --mailer-repo ../fxa-auth-mailer --content-repo ../fxa-content-server --l10n-repo . TRAIN_NUMBER
+```
+where `TRAIN_NUMBER` is the train you are cutting strings for.
+
 
 ## Submitting Translations
 
