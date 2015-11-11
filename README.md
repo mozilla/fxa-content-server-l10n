@@ -1,6 +1,8 @@
 fxa-content-server-l10n
 =======================
 
+[![Build Status](https://travis-ci.org/mozilla/fxa-content-server-l10n.svg?branch=master)](https://travis-ci.org/mozilla/fxa-content-server-l10n)
+
 This repo (abbreviated as "L10N" in this README) contains all translated/translatable strings for the fxa-content-server repo (abbreviated as "SOURCE"). It contains an exact copy of the locales/ directory from SOURCE, and nothing else (except for this README).
 
 The moz-verbatim translation team works with this L10N repo, pushing changes into it any time they like.
