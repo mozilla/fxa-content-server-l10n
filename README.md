@@ -29,3 +29,8 @@ The process to extract strings:
 > git commit -m "merge strings for train <train number>"
 > git push origin merge-train-<train number>-strings
 ```
+
+## Submitting Translations
+
+Please find your locale on [Pontoon - Firefox Accounts](https://pontoon.mozilla.org/projects/firefox-accounts/) or [Verbatim - Firefox Accounts](https://localize.mozilla.org/projects/accounts).
+Follow the instructions on those sites to submit your translations.
