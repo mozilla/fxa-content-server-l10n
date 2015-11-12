@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-29 18:05+0000\n"
-"PO-Revision-Date: 2015-08-09 13:16:24.392266\n"
-"Last-Translator: Aleksandra Uzelac <auzelac91@gmail.com>\n"
+"PO-Revision-Date: 2015-10-30 09:40+0000\n"
+"Last-Translator: Vanja Tumbas <tumbas93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
@@ -20,11 +20,11 @@ msgstr ""
 #: app/scripts/views/complete_sign_up.js:101 app/scripts/views/confirm.js:116
 #: app/scripts/views/confirm_reset_password.js:165
 msgid "Account verified successfully"
-msgstr "Nalog je uspešno verifikovan"
+msgstr "Nalog je uspešno potvrđen"
 
 #: app/scripts/views/confirm_account_unlock.js:102
 msgid "Account unlocked, please try again"
-msgstr "Nalog je otključan, molimo Vas pokušajte ponovo"
+msgstr "Nalog je otključan, pokušajte ponovo"
 
 #: app/scripts/views/confirm_reset_password.js:155
 #: app/scripts/views/ready.js:50
@@ -33,11 +33,11 @@ msgstr "Resetovanje lozinke"
 
 #: app/scripts/views/confirm_reset_password.js:184
 msgid "Password reset successfully. Sign in to continue."
-msgstr "Lozinka je uspešno obnovljena. Pristupite da biste nastavili."
+msgstr "Lozinka je uspešno resetovana. Prijavite se da biste nastavili."
 
 #: app/scripts/views/ready.js:31
 msgid "Firefox Sync will begin momentarily"
-msgstr ""
+msgstr "Firefox Sync će odmah početi"
 
 #: app/scripts/views/ready.js:40
 msgid "Account unlocked"
@@ -45,19 +45,19 @@ msgstr "Nalog je otključan"
 
 #: app/scripts/views/ready.js:45
 msgid "Welcome back"
-msgstr ""
+msgstr "Dobrodošli nazad"
 
 #: app/scripts/views/ready.js:46
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "Firefox Sync će odmah nastaviti"
 
 #: app/scripts/views/ready.js:56
 msgid "Welcome to Sync"
-msgstr ""
+msgstr "Dobrodošli na Sync"
 
 #: app/scripts/views/ready.js:61
 msgid "Account verified"
-msgstr "Nalog je verifikovan"
+msgstr "Nalog je potvrđen"
 
 #: app/scripts/views/ready.js:62 app/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
@@ -73,7 +73,7 @@ msgstr "Odjavili ste se usešno"
 
 #: app/scripts/views/sign_up.js:343
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr "Nalog već postoji. <a href=\"/signin\">Prijavi se</a>"
+msgstr "Nalog već postoji. <a href=\"/signin\">Prijavi se</a>"
 
 #: app/scripts/views/settings/avatar_gravatar.js:91
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
@@ -97,7 +97,7 @@ msgstr "Nalog uspešno obrisan"
 
 #: app/scripts/views/settings/display_name.js:54
 msgid "Display name updated"
-msgstr ""
+msgstr "Prikaži ažurirano ime"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
 msgid ""
@@ -109,8 +109,7 @@ msgstr ""
 #: app/scripts/lib/auth-errors.js:18 app/scripts/lib/config-loader.js:82
 #: app/scripts/lib/marketing-email-errors.js:18
 #: app/scripts/lib/oauth-errors.js:19 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43
-#: app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -120,19 +119,19 @@ msgstr "Neočekivana greška"
 
 #: app/scripts/lib/auth-errors.js:28 app/scripts/lib/oauth-errors.js:49
 msgid "Invalid token"
-msgstr "Nevažeći bon"
+msgstr "Nevažeći token"
 
 #: app/scripts/lib/auth-errors.js:32
 msgid "Invalid timestamp in request signature"
-msgstr "Nevažeće vremensko organičenje u zahtevu za potpis"
+msgstr "Nevažeće vremensko organičenje u zahtevu za potpis"
 
 #: app/scripts/lib/auth-errors.js:36
 msgid "Invalid nonce in request signature"
-msgstr "Nevažeći uzorak u zahtevu za potpis"
+msgstr "Nevažeći uzorak u zahtevu za potpis"
 
 #: app/scripts/lib/auth-errors.js:40
 msgid "Account already exists"
-msgstr "Nalog već postoji"
+msgstr "Nalog već postoji"
 
 #: app/scripts/lib/auth-errors.js:44
 msgid "Unknown account"
@@ -148,19 +147,19 @@ msgstr "Pogrešna lozinka"
 
 #: app/scripts/lib/auth-errors.js:56
 msgid "Unverified account"
-msgstr "Neverifikovan nalog"
+msgstr "Nepotvrđen nalog"
 
 #: app/scripts/lib/auth-errors.js:60
 msgid "Invalid verification code"
-msgstr "Nevažeći kod za verifikaciju"
+msgstr "Nevažeći kod za potvrdu"
 
 #: app/scripts/lib/auth-errors.js:64
 msgid "Invalid JSON in request body"
-msgstr "Nevažeći JSON u telu za zahtev"
+msgstr "Nevažeći JSON u telu za zahtev"
 
 #: app/scripts/lib/auth-errors.js:68 app/scripts/lib/profile-errors.js:23
 msgid "Invalid parameter in request body: %(param)s"
-msgstr "Nevažeći parametar u telu za zahtev: %(param)s"
+msgstr "Nevažeći parametar u telu za zahtev: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:72
 msgid "Missing parameter in request body: %(param)s"
@@ -168,7 +167,7 @@ msgstr "Nedostaje parametar u telu za zahtev: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:76
 msgid "Invalid request signature"
-msgstr "Nevažeći zahtev potpisa"
+msgstr "Nevažeći zahtev potpisa"
 
 #: app/scripts/lib/auth-errors.js:80
 msgid "Missing content-length header"
@@ -184,7 +183,7 @@ msgstr "Broj pokušaja prekoračen"
 
 #: app/scripts/lib/auth-errors.js:92
 msgid "Your account has been locked for security reasons"
-msgstr "Vaš nalog je zaključan zbog sigurnosnih razloga"
+msgstr "Nalog je zaključan zbog sigurnosnih razloga"
 
 #: app/scripts/lib/auth-errors.js:100
 msgid "Server busy, try again soon"
@@ -210,7 +209,7 @@ msgstr "Sesija je istekla. Prijavite se da biste nastavili."
 
 #: app/scripts/lib/auth-errors.js:120
 msgid "Cookies are still disabled"
-msgstr "Kolačići su još uvek onemogućeni"
+msgstr "Kolačići su još uvek onemogućeni"
 
 #: app/scripts/lib/auth-errors.js:124
 msgid "Passwords do not match"
@@ -230,7 +229,7 @@ msgstr "Nismo mogli dobaviti Uslove usluga"
 
 #: app/scripts/lib/auth-errors.js:140
 msgid "Your new password must be different"
-msgstr "Vaša nova lozinka mora biti drugačija"
+msgstr "Nova lozinka mora biti drugačija"
 
 #: app/scripts/lib/auth-errors.js:144
 #: app/scripts/templates/complete_reset_password.mustache:16
@@ -254,7 +253,7 @@ msgstr "Upotrebljiva slika nije pronađena"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Could not initialize camera"
-msgstr "Nije moguće pokrenuti kameru"
+msgstr "Nije moguće pokrenuti kameru"
 
 #: app/scripts/lib/auth-errors.js:171
 msgid "Valid URL required"
@@ -262,7 +261,7 @@ msgstr "Potrebna je ispravna URL adresa"
 
 #: app/scripts/lib/auth-errors.js:186
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr "Vaša verifikaciona e-pošta se upravo vratila. Pogrešna e-pošta?"
+msgstr "E-pošta za potvrdu se upravo vratila. Pogrešna e-pošta?"
 
 #: app/scripts/lib/auth-errors.js:194
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -281,12 +280,12 @@ msgstr "/force_auth zahteva e-poštu"
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
-msgstr "Veza koju ste kliknuli za potvrdu Vaše e-pošte je istekla."
+msgstr "Veza koju ste kliknuli za potvrdu e-pošte je istekla."
 
 #: app/scripts/lib/auth-errors.js:218
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
-msgstr "Verifikaciona veza je oštećena"
+msgstr "Veza za potvrdu je oštećena"
 
 #: app/scripts/lib/auth-errors.js:226
 msgid "The image dimensions must be at least 100x100px"
@@ -298,11 +297,11 @@ msgstr "Uskoro stiže prijava za Firefox za iOS"
 
 #: app/scripts/lib/auth-errors.js:234
 msgid "Signup has been disabled"
-msgstr "Prijava je onemogućena"
+msgstr "Prijava je onemogućena"
 
 #: app/scripts/lib/auth-errors.js:238
 msgid "Age is required"
-msgstr ""
+msgstr "Potrebno je uneti godine"
 
 #: app/scripts/lib/auth-errors.js:242
 msgid "No Gravatar found"
@@ -322,7 +321,7 @@ msgstr "Pogrešan redirect_uri"
 
 #: app/scripts/lib/oauth-errors.js:33
 msgid "Invalid assertion"
-msgstr "Nevažeća tvrdnja"
+msgstr "Nevažeća tvrdnja"
 
 #: app/scripts/lib/oauth-errors.js:37
 msgid "Unknown code"
@@ -338,11 +337,11 @@ msgstr "Istekli kod"
 
 #: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:75
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr "Nevažeći OAuth parametar: %(param)s"
+msgstr "Nevažeći OAuth parametar: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:61 app/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
-msgstr "Neovlašćen"
+msgstr "Neovlašćen"
 
 #: app/scripts/lib/oauth-errors.js:65
 msgid "Forbidden"
@@ -350,9 +349,7 @@ msgstr "Zabranjeno"
 
 #: app/scripts/lib/oauth-errors.js:87
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
-"Nešto je pošlo naopako. Molimo Vas da zatvorite ovu karticu i pokušate "
-"ponovo."
+msgstr "Nešto je pošlo naopako. Zatvorite ovaj jezičak i pokušate ponovo."
 
 #: app/scripts/lib/oauth-errors.js:107
 msgid "Missing OAuth parameter: %(param)s"
@@ -377,7 +374,7 @@ msgid ""
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Ako nastavite, slažete se sa <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Uslovima korišćenja usluge</a> i<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Uslovima korišćenja usluge</a> i<a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">Obaveštenjem o privatnosti</a> od %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:23
@@ -430,15 +427,15 @@ msgstr "Odaberite šta želite da uskladite"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:10
 msgid "Add-ons"
-msgstr ""
+msgstr "Dodaci"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Preferences"
-msgstr ""
+msgstr "Postavke"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr ""
+msgstr "Dodaci i postavke se ne sinhronizuju na mobilnim uređajima."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 #: app/scripts/templates/sign_up.mustache:22
@@ -459,7 +456,7 @@ msgstr "Veza za otključavanje je istekla"
 
 #: app/scripts/templates/complete_account_unlock.mustache:4
 msgid "Unlock link damaged"
-msgstr "Veza za otključavanje je oštećena"
+msgstr "Veza za otključavanje je oštećena"
 
 #: app/scripts/templates/complete_account_unlock.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:7
@@ -468,7 +465,7 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
-"Vezi na koju ste kliknuli fale karakteri, i možda ju je oštetio Vaš klijent "
+"Vezi na koju ste kliknuli fale karakteri, i možda ju je oštetio vaš klijent "
 "za e-poštu. Pažljivo prekopirajte adresu, i pokušajte ponovo."
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
@@ -497,7 +494,7 @@ msgstr "Kliknite ovde da biste primili novu vezu za obnavljanje"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 msgid "Reset password link damaged"
-msgstr "Veza za resetovanje lozinke je oštećena"
+msgstr "Veza za resetovanje lozinke je oštećena"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 #: app/scripts/templates/reset_password.mustache:1
@@ -527,11 +524,11 @@ msgstr "Ponovite lozinku"
 
 #: app/scripts/templates/complete_reset_password.mustache:17
 msgid "Next"
-msgstr "Sledeće"
+msgstr "Sledeće"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
-msgstr "Verifikaciona veza je istekla"
+msgstr "Veza za potvrdu je istekla"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
 msgid "Click here to receive a new verification link"
@@ -543,7 +540,7 @@ msgstr "Greška u verifikaciji"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
-msgstr "Potvrdite Vaš nalog"
+msgstr "Potvrdite nalog"
 
 #: app/scripts/templates/confirm.mustache:3
 #: app/scripts/templates/confirm_account_unlock.mustache:3
@@ -553,11 +550,11 @@ msgstr "E-pošta je poslata"
 
 #: app/scripts/templates/confirm.mustache:4
 msgid "A verification link has been sent&nbsp;to %(email)s"
-msgstr "Verifikaciona veza je poslata&nbsp; %(email)s"
+msgstr "Veza za potvrdu je poslata&nbsp;%(email)s"
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
-msgstr ""
+msgstr "Otvori Gmail"
 
 #: app/scripts/templates/confirm.mustache:7
 #: app/scripts/templates/confirm_account_unlock.mustache:6
@@ -575,9 +572,9 @@ msgid ""
 "level activities, please re-verify your account by clicking the verification "
 "link sent to %(email)s"
 msgstr ""
-"Zbog sigurnosnih razloga Vaš nalog je zaključan. Da biste izveli aktivnosti "
-"na nivou naloga, molimo Vas da ponovo overite Vaš nalog tako što ćete "
-"kliknuti na vezu za verifikaciju koja je poslata na %(email)s"
+"Zbog sigurnosnih razloga nalog je zaključan. Da biste izveli aktivnosti na "
+"nivou naloga, ponovo potvrdite nalog tako što ćete kliknuti na vezu za "
+"potvrdu koja je poslata na %(email)s"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -600,7 +597,7 @@ msgstr "Prijavi se"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies required"
-msgstr "Kolačići su neophodni"
+msgstr "Kolačići su neophodni"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -608,10 +605,9 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
-"Molimo Vas da omogućite kolačiće u Vašem pregledaču, neophodni su za "
-"korištećenje Firefox naloga. Kolačići su delići podataka čuvani u Vašem "
-"pregledaču koji pružaju funkcionalnost kao npr. pamćenje Vašeg "
-"prijavljivanja između sesija."
+"Omogućite kolačiće u pregledaču, neophodni su za korišćenje Firefox naloga. "
+"Kolačići su delići podataka čuvani u pregledaču koji pružaju funkcionalnost "
+"kao npr. pamćenje prijavljivanja između sesija."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -651,7 +647,7 @@ msgid ""
 "Notice</a> of Firefox cloud services."
 msgstr ""
 "Ako nastavite, slažete se sa <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Uslovima korišćenja usluge</a> i <a id=\"fxa-pp\" href=\"/legal/privacy"
+"\">Uslovima korišćenja usluge</a> i <a id=\"fxa-pp\" href=\"/legal/privacy"
 "\">Obaveštenjem o privatnosti</a> Firefox cloud servisa."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
@@ -716,7 +712,7 @@ msgstr "Zahtev za pristup"
 #: app/scripts/templates/permissions.mustache:2
 #: app/scripts/templates/settings/gravatar_permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr "%(serviceName)s žele sledeće informace od Vašeg naloga:"
+msgstr "%(serviceName)s žele sledeće informacije od naloga:"
 
 #: app/scripts/templates/permissions.mustache:3
 #: app/scripts/templates/reset_password.mustache:4
@@ -750,7 +746,7 @@ msgstr "Uspešno"
 
 #: app/scripts/templates/ready.mustache:2
 msgid "Sync preferences"
-msgstr ""
+msgstr "Sync postavke"
 
 #: app/scripts/templates/ready.mustache:6
 msgid "Proceed"
@@ -762,7 +758,7 @@ msgstr "Vaš nalog je spreman!"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Are you sure you want to reset your account password?"
-msgstr ""
+msgstr "Da li ste sigurni da želite da resetujete lozinku vašeg naloga?"
 
 #: app/scripts/templates/reset_password.mustache:3
 msgid ""
@@ -770,14 +766,17 @@ msgid ""
 "data on your devices will remain untouched. Begin the reset process by "
 "entering your email below."
 msgstr ""
+"Resetovanjem vaše lozinke ćete obrisati istorijat pretrage sa našeg servera. "
+"Svi podaci na vašem uređaju će ostati netaknuti. Započnite resetovanje "
+"unošenjem vaše e-pošte."
 
 #: app/scripts/templates/reset_password.mustache:5
 msgid "Begin reset"
-msgstr ""
+msgstr "Započni resetovanje"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Firefox nalozi"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
@@ -791,7 +790,7 @@ msgstr "Nastavite na %(serviceName)s"
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr ""
-"Migrirajte svoje podatke za sinhronizaciju tako što ćete se prijaviti na "
+"Migrirajte svoje podatke za sinhronizaciju tako što ćete se prijaviti na "
 "svoj Firefox nalog."
 
 #: app/scripts/templates/sign_in.mustache:13
@@ -811,7 +810,7 @@ msgstr "Napravi Firefox nalog"
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr ""
-"Migrirajte svoje podatke za sinhronizaciju tako što ćete napraviti novi "
+"Migrirajte svoje podatke za sinhronizaciju tako što ćete napraviti novi "
 "Firefox nalog."
 
 #: app/scripts/templates/sign_up.mustache:16
@@ -821,7 +820,7 @@ msgstr "Saznajte najnovije vesti o Mozilla-i i Firefox-u."
 
 #: app/scripts/templates/sign_up.mustache:27
 msgid "Have an account? Sign in."
-msgstr ""
+msgstr "Već imate nalog? Pristupite."
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
@@ -843,7 +842,7 @@ msgstr "Izmeni"
 
 #: app/scripts/templates/settings/avatar.mustache:4
 msgid "Add"
-msgstr ""
+msgstr "Dodaj"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -863,11 +862,11 @@ msgstr "Gravatar"
 
 #: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Clear"
-msgstr ""
+msgstr "Očisti"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5
 msgid "Done"
-msgstr ""
+msgstr "Gotovo"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
@@ -912,47 +911,51 @@ msgstr "Obriši nalog"
 
 #: app/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete"
-msgstr ""
+msgstr "Obriši"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid ""
 "Are you sure you want to delete your account? This action cannot be undone."
 msgstr ""
-"Da li ste sigurni da želite da obrišete Vaš nalog? Ova radnja se ne može "
+"Da li ste sigurni da želite da obrišete nalog? Ova radnja se ne može "
 "opozvati."
 
 #: app/scripts/templates/settings/display_name.mustache:1
 #: app/scripts/templates/settings/display_name.mustache:4
 msgid "Display name"
-msgstr ""
+msgstr "Prikaži ime"
 
 #: app/scripts/templates/settings/display_name.mustache:3
 msgid ""
 "Choose the name you would like to appear in Firefox and when managing your "
 "account."
 msgstr ""
+"Izaberite ime koje biste voleli da se prikazuje na Firefox-u i tokom "
+"podešavanja naloga."
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
-msgstr ""
+msgstr "Koliko imate godina?"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Pristupite Sync-u"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid ""
 "Choose the account you would like to use to sync your tabs, bookmarks, "
 "passwords and more."
 msgstr ""
+"Izaberite nalog koji biste želeli da koristite da sinhronizujete vaše "
+"jezičke, zabeleške, lozinke i drugo."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
-msgstr ""
+msgstr "Koristi OpenID"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr ""
+msgstr "Koristi Firefox Account"
 
 #~ msgid "1991"
 #~ msgstr "1991"
@@ -1011,6 +1014,9 @@ msgstr ""
 #~ msgid "Valid birthday required"
 #~ msgstr "Potreban je ispravan datum rođenja"
 
+#~ msgid "Choose What to Sync"
+#~ msgstr "Izaberite šta da se sinhronizuje"
+
 #~ msgid "Year of birth"
 #~ msgstr "Godina rođenja"
 
@@ -1062,6 +1068,9 @@ msgstr ""
 #~ msgid "Manage account"
 #~ msgstr "Upravljaj nalogom"
 
+#~ msgid "Hello, <span>%(username)s</span>"
+#~ msgstr "Zdravo, <span>%(username)s</span>"
+
 #~ msgid "Edit profile"
 #~ msgstr "Izmeni nalog"
 
@@ -1082,15 +1091,15 @@ msgstr ""
 #~ "from our servers. A new Sync backup will be created from your local "
 #~ "browsing data."
 #~ msgstr ""
-#~ "Iz bezbednosnih razloga, resetovanje lozinke će izbrisati sve "
-#~ "sinhronizovane podatke sa naših servera. Stvoriće se nova rezerva "
+#~ "Iz bezbednosnih razloga, resetovanje lozinke će izbrisati sve "
+#~ "sinhronizovane podatke sa naših servera. Stvoriće se nova rezerva "
 #~ "sinhronizovanih podataka iz Vaših lokalnih podataka pregledanja."
 
 #~ msgid "You are signed in as"
 #~ msgstr "Prijavljeni ste kao"
 
 #~ msgid "Already have an account? Sign in."
-#~ msgstr "Već imate nalog? Prijavite se."
+#~ msgstr "Već imate nalog? Prijavite se."
 
 #~ msgid ""
 #~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
@@ -1098,7 +1107,7 @@ msgstr ""
 #~ "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
 #~ "Ako nastavite, slažete se sa <a id=\"service-tos\" href=\"%(termsUri)s"
-#~ "\">uslovima korišćenja usluge</a> i <a id=\"service-pp\" href="
+#~ "\">uslovima korišćenja usluge</a> i <a id=\"service-pp\" href="
 #~ "\"%(privacyUri)s\">obaveštenjem o privatnosti</a> servisa %(serviceName)s "
 #~ "(%(serviceUri)s)."
 
@@ -1108,7 +1117,7 @@ msgstr ""
 #~ "\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
 #~ "Ukoliko nastavite, slažete se sa <a id=\"fxa-tos\" href=\"/legal/terms"
-#~ "\">Uslovima korišćenja</a> i <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Uslovima korišćenja</a> i <a id=\"fxa-pp\" href=\"/legal/privacy"
 #~ "\">Polisom privatnosti</a> Firefox cloud servisa."
 
 #~ msgid "Subscribe to Firefox news and tips"
@@ -1157,19 +1166,19 @@ msgstr ""
 #~ msgstr "Nalepi URL slike"
 
 #~ msgid "Invalid password"
-#~ msgstr "Nevažeća lozinka"
+#~ msgstr "Nevažeća lozinka"
 
 #~ msgid "Invalid email and password"
-#~ msgstr "Nevažeća e-pošta i lozinka"
+#~ msgstr "Nevažeća e-pošta i lozinka"
 
 #~ msgid "Invalid email or password"
-#~ msgstr "Nevažeća e-pošta ili lozinka"
+#~ msgstr "Nevažeća e-pošta ili lozinka"
 
 #~ msgid "Old password invalid"
-#~ msgstr "Stara lozinka je nevažeća"
+#~ msgstr "Stara lozinka je nevažeća"
 
 #~ msgid "New password invalid"
-#~ msgstr "Nova lozinka je nevažeća"
+#~ msgstr "Nova lozinka je nevažeća"
 
 #~ msgid "Passwords don't match"
 #~ msgstr "Lozinke se ne poklapaju"
@@ -1178,7 +1187,7 @@ msgstr ""
 #~ msgstr "Molimo Vas unesite e-poštu"
 
 #~ msgid "Cannot connect to the internet"
-#~ msgstr "Nemoguće je konektovati se na internet"
+#~ msgstr "Nemoguće je konektovati se na internet"
 
 #~ msgid "URL"
 #~ msgstr "URL"
@@ -1193,7 +1202,7 @@ msgstr ""
 #~ msgstr "Promeni lozinku"
 
 #~ msgid "Invalid authentication token in request signature"
-#~ msgstr "Nevažeći znak za autentifikaciju u zahtevu za potpis"
+#~ msgstr "Nevažeći znak za autentifikaciju u zahtevu za potpis"
 
 #~ msgid "No token specified"
 #~ msgstr "Nijedan simbol nije naveden"
