@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-29 18:05+0000\n"
+"POT-Creation-Date: 2015-11-12 22:28+0000\n"
 "PO-Revision-Date: 2015-10-30 12:35+0000\n"
 "Last-Translator: Branislav Rozbora <rozbora@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1442482729.0\n"
 
-#: templates/_pending.txt:1
+#: templates/_pending.txt:1 templates/verify_reminder_second.html:2
 msgid "Still there?"
 msgstr "Ste tu ešte?"
 
@@ -61,6 +61,8 @@ msgstr "Prihlásiť sa k službe Sync"
 #: templates/password_reset.html:1 templates/post_verify.html:1
 #: templates/reset.html:1 templates/unlock.html:1
 #: templates/verification_reminder.html:1 templates/verify.html:1
+#: templates/verify_reminder_first.html:1
+#: templates/verify_reminder_second.html:1
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
@@ -88,7 +90,8 @@ msgstr ""
 #: templates/unlock.html:6 templates/unlock.txt:3
 #: templates/verification_reminder.html:6
 #: templates/verification_reminder.txt:4 templates/verify.html:6
-#: templates/verify.txt:4
+#: templates/verify.txt:4 templates/verify_reminder_first.html:6
+#: templates/verify_reminder_second.html:6
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
@@ -100,6 +103,8 @@ msgstr ""
 #: templates/password_reset.html:5 templates/post_verify.html:7
 #: templates/reset.html:7 templates/unlock.html:7
 #: templates/verification_reminder.html:7 templates/verify.html:7
+#: templates/verify_reminder_first.html:7
+#: templates/verify_reminder_second.html:7
 msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
@@ -112,9 +117,8 @@ msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
 "Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
-"Toto je automatický e-mail. Ak ste k svojmu účtu Firefox Account nepridávali"
-" žiadne zariadenie, mali by ste okamžite zmeniť svoje heslo na "
-"%(resetLink)s."
+"Toto je automatický e-mail. Ak ste k svojmu účtu Firefox Account nepridávali "
+"žiadne zariadenie, mali by ste okamžite zmeniť svoje heslo na %(resetLink)s."
 
 #: templates/new_sync_device.txt:4 templates/password_changed.txt:4
 #: templates/password_reset.txt:4 templates/post_verify.txt:5
@@ -149,8 +153,8 @@ msgstr "Heslo vášho účtu Firefox Account bolo úspešne obnovené."
 
 #: templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox"
-" Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox "
+"Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 "Toto je automatický e-mail. Ak ste heslo k svojmu účtu Firefox Account "
 "neobnovovali, mali by ste ho okamžite obnoviť na %(resetLink)s."
@@ -161,6 +165,8 @@ msgstr "Účet bol overený!"
 
 #: templates/post_verify.html:5 templates/reset.html:5 templates/unlock.html:5
 #: templates/verification_reminder.html:5 templates/verify.html:5
+#: templates/verify_reminder_first.html:5
+#: templates/verify_reminder_second.html:5
 msgid "Alternatively:"
 msgstr "Alternatívne:"
 
@@ -213,6 +219,7 @@ msgstr "Overenie účtu:"
 
 #: templates/verification_reminder.html:2
 #: templates/verification_reminder.txt:1
+#: templates/verify_reminder_first.html:2
 msgid "Hello again."
 msgstr "Vitajte späť."
 
@@ -226,14 +233,20 @@ msgstr ""
 "neoverili. Aktivujte ho prosím potvrdením tejto e-mailovej adresy."
 
 #: templates/verification_reminder.html:4 templates/verify.html:4
+#: templates/verify_reminder_first.html:4
+#: templates/verify_reminder_second.html:4
 msgid "Activate now"
 msgstr "Aktivovať"
 
 #: templates/verification_reminder.html:8 templates/verify.html:8
+#: templates/verify_reminder_first.html:8
+#: templates/verify_reminder_second.html:8
 msgid "Verify Email"
 msgstr "Overenie e-mailu"
 
 #: templates/verification_reminder.html:9 templates/verify.html:9
+#: templates/verify_reminder_first.html:9
+#: templates/verify_reminder_second.html:9
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr ""
 "Overením vášho e-mailu dokončíte registráciu vášho konta Firefox Account"
@@ -291,6 +304,23 @@ msgstr ""
 "Toto je automatický e-mail; ak ste túto akciu nevykonali, <a "
 "%(passwordChangeLinkAttributes)s>zmeňte si svoje heslo</a>."
 
+#: templates/verify_reminder_first.html:3
+msgid ""
+"A few days ago you created a Firefox Account, but never verified it. A "
+"verified account lets you access your tabs, bookmarks, passwords and history "
+"on any device connected to it. Simply confirm this email address to activate "
+"your account."
+msgstr ""
+
+#: templates/verify_reminder_second.html:3
+msgid ""
+"A week ago you created a Firefox Account, but never verified it. We’re "
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
+"iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know "
+"you're okay."
+msgstr ""
+
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
 msgstr "Nesprávna požiadavka"
@@ -342,13 +372,11 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a "
-"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
-"experience."
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
-"Používate <strong>zastaraný</strong> prehliadač. <a "
-"href=\"http://browsehappy.com/\">Aktualizujte ho</a> a získate lepší zážitok"
-" z webu."
+"Používate <strong>zastaraný</strong> prehliadač. <a href=\"http://"
+"browsehappy.com/\">Aktualizujte ho</a> a získate lepší zážitok z webu."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -373,11 +401,11 @@ msgstr "Podmienky používania služby"
 #~ msgstr "Obnoviť heslo"
 
 #~ msgid ""
-#~ "For more information, please visit <a "
-#~ "href='https://support.mozilla.org'>Mozilla Support</a>"
+#~ "For more information, please visit <a href='https://support.mozilla."
+#~ "org'>Mozilla Support</a>"
 #~ msgstr ""
-#~ "Ďalšie informácie získate na stránkach <a "
-#~ "href='https://support.mozilla.org'>Mozilla Support</a>"
+#~ "Ďalšie informácie získate na stránkach <a href='https://support.mozilla."
+#~ "org'>Mozilla Support</a>"
 
 #~ msgid "Reset password:"
 #~ msgstr "Obnoviť heslo:"
@@ -388,7 +416,8 @@ msgstr "Podmienky používania služby"
 #~ msgid "Almost there"
 #~ msgstr "Takmer hotovo"
 
-#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgid ""
+#~ "%(email)s, you're one click away from verifying your Firefox Account."
 #~ msgstr ""
 #~ "Od overenia Vášho účtu Firefox Account na adrese %(email)s Vás delia len "
 #~ "sekundy."
@@ -412,17 +441,17 @@ msgstr "Podmienky používania služby"
 #~ "A new device is now syncing with all of the devices connected to your "
 #~ "Firefox Account."
 #~ msgstr ""
-#~ "Nové zariadenie je teraz synchronizované s všetkými ostatnými zariadeniami "
-#~ "pripojenými k vášmu účtu Firefox Account."
+#~ "Nové zariadenie je teraz synchronizované s všetkými ostatnými "
+#~ "zariadeniami pripojenými k vášmu účtu Firefox Account."
 
 #~ msgid ""
-#~ "This is an automated email; if you didn't add a new device to your Firefox "
-#~ "Account, you should change your password immediately at <a "
+#~ "This is an automated email; if you didn't add a new device to your "
+#~ "Firefox Account, you should change your password immediately at <a "
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr ""
-#~ "Toto je automatický e-mail. Ak ste k svojmu účtu Firefox Account nepridávali"
-#~ " žiadne zariadenie, mali by ste okamžite zmeniť svoje heslo na <a "
-#~ "href='%(resetLink)s'>%(resetLink)s</a>."
+#~ "Toto je automatický e-mail. Ak ste k svojmu účtu Firefox Account "
+#~ "nepridávali žiadne zariadenie, mali by ste okamžite zmeniť svoje heslo na "
+#~ "<a href='%(resetLink)s'>%(resetLink)s</a>."
 
 #~ msgid ""
 #~ "This is an automated email; if you didn't change the password to your "
@@ -430,20 +459,21 @@ msgstr "Podmienky používania služby"
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr ""
 #~ "Toto je automatický e-mail. Ak ste heslo k svojmu účtu Firefox Account "
-#~ "nemenili, mali by ste ho okamžite obnoviť na <a "
-#~ "href='%(resetLink)s'>%(resetLink)s</a>."
+#~ "nemenili, mali by ste ho okamžite obnoviť na <a href='%(resetLink)s'>"
+#~ "%(resetLink)s</a>."
 
 #~ msgid ""
-#~ "This is an automated email; if you didn't reset the password to your Firefox"
-#~ " Account, you should reset it immediately at <a "
+#~ "This is an automated email; if you didn't reset the password to your "
+#~ "Firefox Account, you should reset it immediately at <a "
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr ""
 #~ "Toto je automatický e-mail. Ak ste heslo k svojmu účtu Firefox Account "
-#~ "neobnovovali, mali by ste ho okamžite obnoviť na <a "
-#~ "href='%(resetLink)s'>%(resetLink)s</a>."
+#~ "neobnovovali, mali by ste ho okamžite obnoviť na <a href='%(resetLink)s'>"
+#~ "%(resetLink)s</a>."
 
 #~ msgid "A new device is now syncing to your Firefox Account"
-#~ msgstr "Nové zariadenie sa teraz synchronizuje s vašim účtom Firefox Account"
+#~ msgstr ""
+#~ "Nové zariadenie sa teraz synchronizuje s vašim účtom Firefox Account"
 
 #~ msgid "Firefox Account Activation"
 #~ msgstr "Aktivácia konta Firefox Account"
@@ -452,16 +482,16 @@ msgstr "Podmienky používania služby"
 #~ "For more information, please visit <a href='https://support.mozilla.org' "
 #~ "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
 #~ msgstr ""
-#~ "Pre viac informácií prosím navštívte stránku <a "
-#~ "href='https://support.mozilla.org' style='color: #0095dd; text-decoration: "
-#~ "none;'>Mozilla Support</a>"
+#~ "Pre viac informácií prosím navštívte stránku <a href='https://support."
+#~ "mozilla.org' style='color: #0095dd; text-decoration: none;'>Mozilla "
+#~ "Support</a>"
 
 #~ msgid ""
 #~ "For more information, please visit <a href='%(supportUrl)s' style='color: "
 #~ "#0095dd; text-decoration: none;'>Mozilla Support</a>"
 #~ msgstr ""
-#~ "Pre viac informácií prosím navštívte <a href='%(supportUrl)s' style='color: "
-#~ "#0095dd; text-decoration: none;'>web podpory Mozilla</a>"
+#~ "Pre viac informácií prosím navštívte <a href='%(supportUrl)s' "
+#~ "style='color: #0095dd; text-decoration: none;'>web podpory Mozilla</a>"
 
 #~ msgid "New sign-in to Sync"
 #~ msgstr "Nové prihlásenie do služby Sync"
@@ -473,8 +503,8 @@ msgstr "Podmienky používania služby"
 #~ msgstr "Systém nie je dostupný, skúste to znova."
 
 #~ msgid ""
-#~ "We are currently performing some maintenance on the system, and will return "
-#~ "momentarily."
+#~ "We are currently performing some maintenance on the system, and will "
+#~ "return momentarily."
 #~ msgstr "V systéme práve prebieha údržba. O chvíľu sme späť."
 
 #~ msgid "Reset Password Request"

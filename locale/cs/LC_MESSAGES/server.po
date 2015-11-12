@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-29 18:05+0000\n"
+"POT-Creation-Date: 2015-11-12 22:28+0000\n"
 "PO-Revision-Date: 2015-10-16 15:16+0000\n"
 "Last-Translator: Tomáš Zelina <zelitomas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1442258677.0\n"
 
-#: templates/_pending.txt:1
+#: templates/_pending.txt:1 templates/verify_reminder_second.html:2
 msgid "Still there?"
 msgstr "Jste tu ještě?"
 
@@ -61,6 +61,8 @@ msgstr "Přihlásit ke službě Sync"
 #: templates/password_reset.html:1 templates/post_verify.html:1
 #: templates/reset.html:1 templates/unlock.html:1
 #: templates/verification_reminder.html:1 templates/verify.html:1
+#: templates/verify_reminder_first.html:1
+#: templates/verify_reminder_second.html:1
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
@@ -88,7 +90,8 @@ msgstr ""
 #: templates/unlock.html:6 templates/unlock.txt:3
 #: templates/verification_reminder.html:6
 #: templates/verification_reminder.txt:4 templates/verify.html:6
-#: templates/verify.txt:4
+#: templates/verify.txt:4 templates/verify_reminder_first.html:6
+#: templates/verify_reminder_second.html:6
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
@@ -100,6 +103,8 @@ msgstr ""
 #: templates/password_reset.html:5 templates/post_verify.html:7
 #: templates/reset.html:7 templates/unlock.html:7
 #: templates/verification_reminder.html:7 templates/verify.html:7
+#: templates/verify_reminder_first.html:7
+#: templates/verify_reminder_second.html:7
 msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
@@ -149,8 +154,8 @@ msgstr "Heslo vašeho účtu Firefox Account bylo úspěšně obnoveno."
 
 #: templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox"
-" Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox "
+"Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 "Toto je automaticky zaslaný e-mail - pokud jste heslo ke svému účtu Firefox "
 "Account neobnovovali, měli byste jej okamžitě obnovit na %(resetLink)s."
@@ -161,6 +166,8 @@ msgstr "Účet byl ověřen!"
 
 #: templates/post_verify.html:5 templates/reset.html:5 templates/unlock.html:5
 #: templates/verification_reminder.html:5 templates/verify.html:5
+#: templates/verify_reminder_first.html:5
+#: templates/verify_reminder_second.html:5
 msgid "Alternatively:"
 msgstr "Alternativně:"
 
@@ -213,6 +220,7 @@ msgstr "Ověření účtu:"
 
 #: templates/verification_reminder.html:2
 #: templates/verification_reminder.txt:1
+#: templates/verify_reminder_first.html:2
 msgid "Hello again."
 msgstr "Vítejte zpět."
 
@@ -226,18 +234,23 @@ msgstr ""
 "neověřili. Zaktivujte jej prosím potvrzením této e-mailové adresy."
 
 #: templates/verification_reminder.html:4 templates/verify.html:4
+#: templates/verify_reminder_first.html:4
+#: templates/verify_reminder_second.html:4
 msgid "Activate now"
 msgstr "Aktivovat"
 
 #: templates/verification_reminder.html:8 templates/verify.html:8
+#: templates/verify_reminder_first.html:8
+#: templates/verify_reminder_second.html:8
 msgid "Verify Email"
 msgstr "Ověření e-mailu"
 
 #: templates/verification_reminder.html:9 templates/verify.html:9
+#: templates/verify_reminder_first.html:9
+#: templates/verify_reminder_second.html:9
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr ""
-"Pro dokončení registrace vašeho účtu Firefox Account prosím ověřte váš "
-"e-mail"
+"Pro dokončení registrace vašeho účtu Firefox Account prosím ověřte váš e-mail"
 
 #: templates/verification_reminder.txt:3
 msgid "Activate Now:"
@@ -293,6 +306,23 @@ msgstr ""
 "Toto je automatický e-mail; pokud jste tuto akci neprovedli, <a "
 "%(passwordChangeLinkAttributes)s>změňte si své heslo</a>."
 
+#: templates/verify_reminder_first.html:3
+msgid ""
+"A few days ago you created a Firefox Account, but never verified it. A "
+"verified account lets you access your tabs, bookmarks, passwords and history "
+"on any device connected to it. Simply confirm this email address to activate "
+"your account."
+msgstr ""
+
+#: templates/verify_reminder_second.html:3
+msgid ""
+"A week ago you created a Firefox Account, but never verified it. We’re "
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
+"iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know "
+"you're okay."
+msgstr ""
+
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
 msgstr "Špatný požadavek"
@@ -344,9 +374,8 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a "
-"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
-"experience."
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
 "Používáte <strong>zastaralou verzi</strong> prohlížeče. Pro vaše lepší "
 "prohlížení prosím <a href=\"http://browsehappy.com/\">aktualizujte svůj "
@@ -375,11 +404,11 @@ msgstr "Podmínky využívání služby"
 #~ msgstr "Obnova hesla"
 
 #~ msgid ""
-#~ "For more information, please visit <a "
-#~ "href='https://support.mozilla.org'>Mozilla Support</a>"
+#~ "For more information, please visit <a href='https://support.mozilla."
+#~ "org'>Mozilla Support</a>"
 #~ msgstr ""
-#~ "Pro více informací prosím navštivte <a "
-#~ "href='https://support.mozilla.org'>Podporu Mozilly</a>"
+#~ "Pro více informací prosím navštivte <a href='https://support.mozilla."
+#~ "org'>Podporu Mozilly</a>"
 
 #~ msgid "Reset password:"
 #~ msgstr "Obnovit heslo:"
@@ -390,7 +419,8 @@ msgstr "Podmínky využívání služby"
 #~ msgid "Almost there"
 #~ msgstr "Téměř hotovo"
 
-#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgid ""
+#~ "%(email)s, you're one click away from verifying your Firefox Account."
 #~ msgstr ""
 #~ "%(email)s, již chybí jen kousek k ověření vašeho účtu Firefox Account."
 
@@ -417,30 +447,30 @@ msgstr "Podmínky využívání služby"
 #~ "připojenými k vašemu účtu Firefox Account."
 
 #~ msgid ""
-#~ "This is an automated email; if you didn't add a new device to your Firefox "
-#~ "Account, you should change your password immediately at <a "
+#~ "This is an automated email; if you didn't add a new device to your "
+#~ "Firefox Account, you should change your password immediately at <a "
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr ""
 #~ "Toto je automaticky zaslaný e-mail - pokud jste ke svému účtu Firefox "
-#~ "Account nepřidávali žádné zařízení, měli byste okamžitě změnit své heslo na "
-#~ "<a href='%(resetLink)s'>%(resetLink)s</a>."
+#~ "Account nepřidávali žádné zařízení, měli byste okamžitě změnit své heslo "
+#~ "na <a href='%(resetLink)s'>%(resetLink)s</a>."
 
 #~ msgid ""
 #~ "This is an automated email; if you didn't change the password to your "
 #~ "Firefox Account, you should reset it immediately at <a "
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr ""
-#~ "Toto je automaticky zaslaný e-mail - pokud jste heslo ke svému účtu Firefox "
-#~ "Account neměnili, měli byste okamžitě jej okamžitě obnovit na <a "
+#~ "Toto je automaticky zaslaný e-mail - pokud jste heslo ke svému účtu "
+#~ "Firefox Account neměnili, měli byste okamžitě jej okamžitě obnovit na <a "
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 
 #~ msgid ""
-#~ "This is an automated email; if you didn't reset the password to your Firefox"
-#~ " Account, you should reset it immediately at <a "
+#~ "This is an automated email; if you didn't reset the password to your "
+#~ "Firefox Account, you should reset it immediately at <a "
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr ""
-#~ "Toto je automaticky zaslaný e-mail - pokud jste heslo ke svému účtu Firefox "
-#~ "Account neobnovovali, měli byste jej okamžitě obnovit na <a "
+#~ "Toto je automaticky zaslaný e-mail - pokud jste heslo ke svému účtu "
+#~ "Firefox Account neobnovovali, měli byste jej okamžitě obnovit na <a "
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 
 #~ msgid "A new device is now syncing to your Firefox Account"
@@ -453,16 +483,16 @@ msgstr "Podmínky využívání služby"
 #~ "For more information, please visit <a href='https://support.mozilla.org' "
 #~ "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
 #~ msgstr ""
-#~ "Pro více informací prosím navštivte server <a "
-#~ "href='https://support.mozilla.org' style='color: #0095dd; text-decoration: "
-#~ "none;'>Podpora Mozilly</a>"
+#~ "Pro více informací prosím navštivte server <a href='https://support."
+#~ "mozilla.org' style='color: #0095dd; text-decoration: none;'>Podpora "
+#~ "Mozilly</a>"
 
 #~ msgid ""
 #~ "For more information, please visit <a href='%(supportUrl)s' style='color: "
 #~ "#0095dd; text-decoration: none;'>Mozilla Support</a>"
 #~ msgstr ""
-#~ "Pro více informací prosím navštivte <a href='%(supportUrl)s' style='color: "
-#~ "#0095dd; text-decoration: none;'>web podpory Mozilla</a>"
+#~ "Pro více informací prosím navštivte <a href='%(supportUrl)s' "
+#~ "style='color: #0095dd; text-decoration: none;'>web podpory Mozilla</a>"
 
 #~ msgid "New sign-in to Sync"
 #~ msgstr "Nové přihlášení ke službě Sync"
@@ -474,8 +504,8 @@ msgstr "Podmínky využívání služby"
 #~ msgstr "Systém je nedostupný, zkuste to znovu později."
 
 #~ msgid ""
-#~ "We are currently performing some maintenance on the system, and will return "
-#~ "momentarily."
+#~ "We are currently performing some maintenance on the system, and will "
+#~ "return momentarily."
 #~ msgstr "Systém aktuálně prochází údržbou, za okamžik bude opět dostupný."
 
 #~ msgid "Reset Password Request"
