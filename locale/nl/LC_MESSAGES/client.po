@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-12 22:28+0000\n"
-"PO-Revision-Date: 2015-10-30 22:19+0000\n"
+"PO-Revision-Date: 2015-11-13 14:08+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1446243577.0\n"
+"X-POOTLE-MTIME: 1447423715.0\n"
 
 #: app/scripts/views/complete_reset_password.js:131
 #: app/scripts/views/complete_sign_up.js:103 app/scripts/views/confirm.js:114
@@ -699,7 +699,7 @@ msgstr "Krijg de volledige Sync-ervaring."
 #: app/scripts/templates/marketing_snippet_ios.mustache:12
 #: app/scripts/templates/marketing_snippet_ios.mustache:13
 msgid "Download Firefox for iOS!"
-msgstr ""
+msgstr "Download Firefox voor iOS!"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:6
 #: app/scripts/templates/marketing_snippet_ios.mustache:7
