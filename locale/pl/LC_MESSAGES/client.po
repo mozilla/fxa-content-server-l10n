@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-12 22:28+0000\n"
-"PO-Revision-Date: 2015-10-30 17:50+0100\n"
+"PO-Revision-Date: 2015-11-13 18:00+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -694,7 +694,7 @@ msgstr "Używaj pełnej synchronizacji."
 #: app/scripts/templates/marketing_snippet_ios.mustache:12
 #: app/scripts/templates/marketing_snippet_ios.mustache:13
 msgid "Download Firefox for iOS!"
-msgstr ""
+msgstr "Pobierz Firefoksa na iOS!"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:6
 #: app/scripts/templates/marketing_snippet_ios.mustache:7
@@ -951,9 +951,3 @@ msgstr "Użyj OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Użyj konta Firefoksa"
-
-#~ msgid "Firefox is coming soon to iOS!"
-#~ msgstr "Firefox już niedługo na iOS!"
-
-#~ msgid "Sign up to learn more"
-#~ msgstr "Zarejestruj się, aby dowiedzieć się więcej"
