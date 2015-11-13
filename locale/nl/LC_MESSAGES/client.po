@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-29 18:05+0000\n"
+"POT-Creation-Date: 2015-11-12 22:28+0000\n"
 "PO-Revision-Date: 2015-10-30 22:19+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,86 +14,82 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1446243577.0\n"
 
-#: app/scripts/views/complete_reset_password.js:134
-#: app/scripts/views/complete_sign_up.js:101 app/scripts/views/confirm.js:116
-#: app/scripts/views/confirm_reset_password.js:165
+#: app/scripts/views/complete_reset_password.js:131
+#: app/scripts/views/complete_sign_up.js:103 app/scripts/views/confirm.js:114
+#: app/scripts/views/confirm_reset_password.js:163
 msgid "Account verified successfully"
 msgstr "Account met succes geverifieerd"
 
-#: app/scripts/views/confirm_account_unlock.js:102
+#: app/scripts/views/confirm_account_unlock.js:100
 msgid "Account unlocked, please try again"
 msgstr "Account ontgrendeld, probeer het opnieuw"
 
-#: app/scripts/views/confirm_reset_password.js:155
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/confirm_reset_password.js:153
+#: app/scripts/views/ready.js:48
 msgid "Password reset"
 msgstr "Wachtwoord opnieuw ingesteld"
 
-#: app/scripts/views/confirm_reset_password.js:184
+#: app/scripts/views/confirm_reset_password.js:182
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Wachtwoord is opnieuw ingesteld. Meld u aan om door te gaan."
 
-#: app/scripts/views/ready.js:31
+#: app/scripts/views/ready.js:29
 msgid "Firefox Sync will begin momentarily"
 msgstr "Firefox Sync zal over enkele ogenblikken beginnen"
 
-#: app/scripts/views/ready.js:40
+#: app/scripts/views/ready.js:38
 msgid "Account unlocked"
 msgstr "Account ontgrendeld"
 
-#: app/scripts/views/ready.js:45
+#: app/scripts/views/ready.js:43
 msgid "Welcome back"
 msgstr "Welkom terug"
 
-#: app/scripts/views/ready.js:46
+#: app/scripts/views/ready.js:44
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync zal over enkele ogenblikken worden hervat"
 
-#: app/scripts/views/ready.js:56
+#: app/scripts/views/ready.js:54
 msgid "Welcome to Sync"
 msgstr "Welkom bij Sync"
 
-#: app/scripts/views/ready.js:61
+#: app/scripts/views/ready.js:59
 msgid "Account verified"
 msgstr "Account geverifieerd"
 
-#: app/scripts/views/ready.js:62 app/scripts/templates/ready.mustache:5
+#: app/scripts/views/ready.js:60 app/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
 msgstr "U kunt %(serviceName)s nu gebruiken"
 
-#: app/scripts/views/reset_password.js:82 app/scripts/views/sign_in.js:191
+#: app/scripts/views/reset_password.js:80 app/scripts/views/sign_in.js:187
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Onbekende account. <a href=\"/signup\">Registreren</a>"
 
-#: app/scripts/views/settings.js:223
-msgid "Signed out successfully"
-msgstr "U bent afgemeld"
-
-#: app/scripts/views/sign_up.js:343
+#: app/scripts/views/sign_up.js:340
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Account bestaat al. <a href=\"/signin\">Aanmelden</a>"
 
-#: app/scripts/views/settings/avatar_gravatar.js:91
+#: app/scripts/views/settings/avatar_gravatar.js:89
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "Met dank aan <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
-#: app/scripts/views/settings/change_password.js:54
+#: app/scripts/views/settings/change_password.js:51
 msgid "Password changed successfully"
 msgstr "Wachtwoord met succes gewijzigd"
 
-#: app/scripts/views/settings/communication_preferences.js:110
+#: app/scripts/views/settings/communication_preferences.js:108
 msgid "Subscribed successfully"
 msgstr "Inschrijven gelukt"
 
-#: app/scripts/views/settings/communication_preferences.js:111
+#: app/scripts/views/settings/communication_preferences.js:109
 msgid "Unsubscribed successfully"
 msgstr "Uitschrijven gelukt"
 
-#: app/scripts/views/settings/delete_account.js:60
+#: app/scripts/views/settings/delete_account.js:54
 msgid "Account deleted successfully"
 msgstr "Account met succes verwijderd"
 
-#: app/scripts/views/settings/display_name.js:54
+#: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
 msgstr "Weergavenaam bijgewerkt"
 
@@ -104,9 +100,13 @@ msgstr ""
 "Account vergrendeld. <a href=\"/confirm_account_unlock\">E-mail voor "
 "ontgrendeling verzenden</a>"
 
-#: app/scripts/lib/auth-errors.js:18 app/scripts/lib/config-loader.js:82
-#: app/scripts/lib/marketing-email-errors.js:18
-#: app/scripts/lib/oauth-errors.js:19 app/scripts/lib/profile-errors.js:35
+#: app/scripts/views/mixins/signed-out-notification-mixin.js:34
+msgid "Signed out successfully"
+msgstr "U bent afgemeld"
+
+#: app/scripts/lib/auth-errors.js:17 app/scripts/lib/config-loader.js:77
+#: app/scripts/lib/marketing-email-errors.js:17
+#: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:35
 #: app/scripts/lib/profile-errors.js:43
 #: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
@@ -116,168 +116,168 @@ msgstr ""
 msgid "Unexpected error"
 msgstr "Onverwachte fout"
 
-#: app/scripts/lib/auth-errors.js:28 app/scripts/lib/oauth-errors.js:49
+#: app/scripts/lib/auth-errors.js:27 app/scripts/lib/oauth-errors.js:48
 msgid "Invalid token"
 msgstr "Ongeldige token"
 
-#: app/scripts/lib/auth-errors.js:32
+#: app/scripts/lib/auth-errors.js:31
 msgid "Invalid timestamp in request signature"
 msgstr "Ongeldige tijdstempel in aanvraaghandtekening"
 
-#: app/scripts/lib/auth-errors.js:36
+#: app/scripts/lib/auth-errors.js:35
 msgid "Invalid nonce in request signature"
 msgstr "Ongeldige nonce in aanvraaghandtekening"
 
-#: app/scripts/lib/auth-errors.js:40
+#: app/scripts/lib/auth-errors.js:39
 msgid "Account already exists"
 msgstr "Account bestaat al"
 
-#: app/scripts/lib/auth-errors.js:44
+#: app/scripts/lib/auth-errors.js:43
 msgid "Unknown account"
 msgstr "Onbekende account"
 
-#: app/scripts/lib/auth-errors.js:48
+#: app/scripts/lib/auth-errors.js:47
 msgid "Incorrect email case"
 msgstr "Onjuiste letters in e-mailadres"
 
-#: app/scripts/lib/auth-errors.js:52
+#: app/scripts/lib/auth-errors.js:51
 msgid "Incorrect password"
 msgstr "Onjuist wachtwoord"
 
-#: app/scripts/lib/auth-errors.js:56
+#: app/scripts/lib/auth-errors.js:55
 msgid "Unverified account"
 msgstr "Niet-geverifieerde account"
 
-#: app/scripts/lib/auth-errors.js:60
+#: app/scripts/lib/auth-errors.js:59
 msgid "Invalid verification code"
 msgstr "Ongeldige verificatiecode"
 
-#: app/scripts/lib/auth-errors.js:64
+#: app/scripts/lib/auth-errors.js:63
 msgid "Invalid JSON in request body"
 msgstr "Ongeldige JSON in aanvraagtekst"
 
-#: app/scripts/lib/auth-errors.js:68 app/scripts/lib/profile-errors.js:23
+#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/profile-errors.js:23
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Ongeldige parameter in aanvraagtekst: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:72
+#: app/scripts/lib/auth-errors.js:71
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Ontbrekende parameter in aanvraagtekst: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:76
+#: app/scripts/lib/auth-errors.js:75
 msgid "Invalid request signature"
 msgstr "Ongeldige aanvraaghandtekening"
 
-#: app/scripts/lib/auth-errors.js:80
+#: app/scripts/lib/auth-errors.js:79
 msgid "Missing content-length header"
 msgstr "Header content-length ontbreekt"
 
-#: app/scripts/lib/auth-errors.js:84
+#: app/scripts/lib/auth-errors.js:83
 msgid "Request body too large"
 msgstr "Aanvraagtekst te lang"
 
-#: app/scripts/lib/auth-errors.js:88
+#: app/scripts/lib/auth-errors.js:87
 msgid "Attempt limit exceeded"
 msgstr "Maximumaantal pogingen overschreden"
 
-#: app/scripts/lib/auth-errors.js:92
+#: app/scripts/lib/auth-errors.js:91
 msgid "Your account has been locked for security reasons"
 msgstr "Uw account is om veiligheidsredenen vergrendeld"
 
-#: app/scripts/lib/auth-errors.js:100
+#: app/scripts/lib/auth-errors.js:99
 msgid "Server busy, try again soon"
 msgstr "Server bezet, probeer het later opnieuw"
 
-#: app/scripts/lib/auth-errors.js:104
+#: app/scripts/lib/auth-errors.js:103
 msgid "This endpoint is no longer supported"
 msgstr "Dit eindpunt wordt niet meer ondersteund"
 
-#: app/scripts/lib/auth-errors.js:108 app/scripts/lib/config-loader.js:78
-#: app/scripts/lib/marketing-email-errors.js:80
-#: app/scripts/lib/oauth-errors.js:79 app/scripts/lib/profile-errors.js:39
+#: app/scripts/lib/auth-errors.js:107 app/scripts/lib/config-loader.js:73
+#: app/scripts/lib/marketing-email-errors.js:79
+#: app/scripts/lib/oauth-errors.js:78 app/scripts/lib/profile-errors.js:39
 msgid "System unavailable, try again soon"
 msgstr "Systeem niet beschikbaar, probeer het later opnieuw"
 
-#: app/scripts/lib/auth-errors.js:112 app/scripts/lib/oauth-errors.js:103
+#: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:102
 msgid "no message"
 msgstr "geen melding"
 
-#: app/scripts/lib/auth-errors.js:116
+#: app/scripts/lib/auth-errors.js:115
 msgid "Session expired. Sign in to continue."
 msgstr "Sessie verlopen. Meld u aan om door te gaan."
 
-#: app/scripts/lib/auth-errors.js:120
+#: app/scripts/lib/auth-errors.js:119
 msgid "Cookies are still disabled"
 msgstr "Cookies zijn nog uitgeschakeld"
 
-#: app/scripts/lib/auth-errors.js:124
+#: app/scripts/lib/auth-errors.js:123
 msgid "Passwords do not match"
 msgstr "Wachtwoorden komen niet overeen"
 
-#: app/scripts/lib/auth-errors.js:128
+#: app/scripts/lib/auth-errors.js:127
 msgid "Working…"
 msgstr "Bezig…"
 
-#: app/scripts/lib/auth-errors.js:132
+#: app/scripts/lib/auth-errors.js:131
 msgid "Could not get Privacy Notice"
 msgstr "Kan privacyverklaring niet ophalen"
 
-#: app/scripts/lib/auth-errors.js:136
+#: app/scripts/lib/auth-errors.js:135
 msgid "Could not get Terms of Service"
 msgstr "Kan servicevoorwaarden niet ophalen"
 
-#: app/scripts/lib/auth-errors.js:140
+#: app/scripts/lib/auth-errors.js:139
 msgid "Your new password must be different"
 msgstr "Uw oude en nieuwe wachtwoord moeten verschillen"
 
-#: app/scripts/lib/auth-errors.js:144
+#: app/scripts/lib/auth-errors.js:143
 #: app/scripts/templates/complete_reset_password.mustache:16
 #: app/scripts/templates/sign_up.mustache:14
 #: app/scripts/templates/settings/change_password.mustache:11
 msgid "Must be at least 8 characters"
 msgstr "Moet minstens 8 tekens bevatten"
 
-#: app/scripts/lib/auth-errors.js:148
+#: app/scripts/lib/auth-errors.js:147
 msgid "Valid password required"
 msgstr "Geldig wachtwoord vereist"
 
-#: app/scripts/lib/auth-errors.js:152 app/scripts/lib/auth-errors.js:190
-#: app/scripts/lib/auth-errors.js:206
+#: app/scripts/lib/auth-errors.js:151 app/scripts/lib/auth-errors.js:189
+#: app/scripts/lib/auth-errors.js:205
 msgid "Valid email required"
 msgstr "Geldig e-mailadres vereist"
 
-#: app/scripts/lib/auth-errors.js:163
+#: app/scripts/lib/auth-errors.js:162
 msgid "A usable image was not found"
 msgstr "Er is geen bruikbare afbeelding gevonden"
 
-#: app/scripts/lib/auth-errors.js:167
+#: app/scripts/lib/auth-errors.js:166
 msgid "Could not initialize camera"
 msgstr "Kon camera niet initialiseren"
 
-#: app/scripts/lib/auth-errors.js:171
+#: app/scripts/lib/auth-errors.js:170
 msgid "Valid URL required"
 msgstr "Geldige URL vereist"
 
-#: app/scripts/lib/auth-errors.js:186
+#: app/scripts/lib/auth-errors.js:185
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr ""
 "Uw verificatie-e-mail is zojuist geretourneerd. Typefout in e-mailadres?"
 
-#: app/scripts/lib/auth-errors.js:194
+#: app/scripts/lib/auth-errors.js:193
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Voer een geldig e-mailadres in. firefox.com biedt geen e-mail."
 
-#: app/scripts/lib/auth-errors.js:202
+#: app/scripts/lib/auth-errors.js:201
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 "Firefox-accounts kunnen alleen in een IFRAME op goedgekeurde websites worden "
 "geplaatst"
 
-#: app/scripts/lib/auth-errors.js:210
+#: app/scripts/lib/auth-errors.js:209
 msgid "/force_auth requires an email"
 msgstr "/force_auth vereist een e-mailadres"
 
-#: app/scripts/lib/auth-errors.js:214
+#: app/scripts/lib/auth-errors.js:213
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
@@ -285,76 +285,76 @@ msgstr ""
 "De koppeling waarop u hebt geklikt om uw e-mailadres te verifiëren is "
 "verlopen."
 
-#: app/scripts/lib/auth-errors.js:218
+#: app/scripts/lib/auth-errors.js:217
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "Verificatiekoppeling beschadigd"
 
-#: app/scripts/lib/auth-errors.js:226
+#: app/scripts/lib/auth-errors.js:225
 msgid "The image dimensions must be at least 100x100px"
 msgstr "De afmetingen van de afbeelding moeten minstens 100x100px zijn"
 
-#: app/scripts/lib/auth-errors.js:230
+#: app/scripts/lib/auth-errors.js:229
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Binnenkort komt registratie naar Firefox voor iOS"
 
-#: app/scripts/lib/auth-errors.js:234
+#: app/scripts/lib/auth-errors.js:233
 msgid "Signup has been disabled"
 msgstr "Registratie is uitgeschakeld"
 
-#: app/scripts/lib/auth-errors.js:238
+#: app/scripts/lib/auth-errors.js:237
 msgid "Age is required"
 msgstr "Leeftijd is vereist"
 
-#: app/scripts/lib/auth-errors.js:242
+#: app/scripts/lib/auth-errors.js:241
 msgid "No Gravatar found"
 msgstr "Geen Gravatar gevonden"
 
-#: app/scripts/lib/mailcheck.js:66
+#: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr "Bedoelde u <span tabindex=\"1\">%(domain)s</span>?"
 
-#: app/scripts/lib/oauth-errors.js:25
+#: app/scripts/lib/oauth-errors.js:24
 msgid "Unknown client"
 msgstr "Onbekende client"
 
-#: app/scripts/lib/oauth-errors.js:29
+#: app/scripts/lib/oauth-errors.js:28
 msgid "Incorrect redirect_uri"
 msgstr "Onjuiste redirect_uri"
 
-#: app/scripts/lib/oauth-errors.js:33
+#: app/scripts/lib/oauth-errors.js:32
 msgid "Invalid assertion"
 msgstr "Ongeldige bevestiging"
 
-#: app/scripts/lib/oauth-errors.js:37
+#: app/scripts/lib/oauth-errors.js:36
 msgid "Unknown code"
 msgstr "Onbekende code"
 
-#: app/scripts/lib/oauth-errors.js:41
+#: app/scripts/lib/oauth-errors.js:40
 msgid "Incorrect code"
 msgstr "Onjuiste code"
 
-#: app/scripts/lib/oauth-errors.js:45
+#: app/scripts/lib/oauth-errors.js:44
 msgid "Expired code"
 msgstr "Verlopen code"
 
-#: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:75
+#: app/scripts/lib/oauth-errors.js:52 app/scripts/lib/oauth-errors.js:74
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "Ongeldige OAuth-parameter: %(param)s"
 
-#: app/scripts/lib/oauth-errors.js:61 app/scripts/lib/profile-errors.js:19
+#: app/scripts/lib/oauth-errors.js:60 app/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
 msgstr "Niet geautoriseerd"
 
-#: app/scripts/lib/oauth-errors.js:65
+#: app/scripts/lib/oauth-errors.js:64
 msgid "Forbidden"
 msgstr "Niet toegestaan"
 
-#: app/scripts/lib/oauth-errors.js:87
+#: app/scripts/lib/oauth-errors.js:86
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Er is iets misgegaan. Sluit dit tabblad en probeer het opnieuw."
 
-#: app/scripts/lib/oauth-errors.js:107
+#: app/scripts/lib/oauth-errors.js:106
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "OAuth-parameter ontbreekt: %(param)s"
 
@@ -370,7 +370,7 @@ msgstr "Fout bij verwerken van afbeelding"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: app/scripts/lib/strings.js:19
+#: app/scripts/lib/strings.js:18
 msgid ""
 "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
@@ -381,31 +381,31 @@ msgstr ""
 "\"%(privacyUri)s\">Privacyverklaring</a> van %(serviceName)s "
 "(%(serviceUri)s)."
 
-#: app/scripts/lib/strings.js:23
+#: app/scripts/lib/strings.js:22
 #: app/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
 msgstr "Bladwijzers"
 
-#: app/scripts/lib/strings.js:24
-#: app/scripts/templates/choose_what_to_sync.mustache:8
+#: app/scripts/lib/strings.js:23
+#: app/scripts/templates/choose_what_to_sync.mustache:10
 msgid "History"
 msgstr "Geschiedenis"
 
-#: app/scripts/lib/strings.js:25
+#: app/scripts/lib/strings.js:24
 #: app/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Tabs"
 msgstr "Tabbladen"
 
-#: app/scripts/lib/strings.js:26
-#: app/scripts/templates/choose_what_to_sync.mustache:6
+#: app/scripts/lib/strings.js:25
+#: app/scripts/templates/choose_what_to_sync.mustache:8
 msgid "Passwords"
 msgstr "Wachtwoorden"
 
-#: app/scripts/lib/strings.js:27
+#: app/scripts/lib/strings.js:26
 msgid "Desktop Add-ons"
 msgstr "Desktop-add-ons"
 
-#: app/scripts/lib/strings.js:28
+#: app/scripts/lib/strings.js:27
 msgid "Desktop Preferences"
 msgstr "Desktopvoorkeuren"
 
@@ -430,7 +430,7 @@ msgstr "Meer lezen."
 msgid "Choose what to sync"
 msgstr "Kies wat u wilt synchroniseren"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:10
+#: app/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
 msgstr "Add-ons"
 
@@ -695,14 +695,11 @@ msgid "Get the full Sync experience."
 msgstr "Krijg de volledige Sync-ervaring."
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:2
-#: app/scripts/templates/marketing_snippet_ios.mustache:12
-msgid "Firefox is coming soon to iOS!"
-msgstr "Binnenkort komt Firefox naar iOS!"
-
 #: app/scripts/templates/marketing_snippet_ios.mustache:3
+#: app/scripts/templates/marketing_snippet_ios.mustache:12
 #: app/scripts/templates/marketing_snippet_ios.mustache:13
-msgid "Sign up to learn more"
-msgstr "Schrijf u in voor meer info"
+msgid "Download Firefox for iOS!"
+msgstr ""
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:6
 #: app/scripts/templates/marketing_snippet_ios.mustache:7
@@ -963,6 +960,12 @@ msgstr "OpenID gebruiken"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Firefox-account gebruiken"
+
+#~ msgid "Firefox is coming soon to iOS!"
+#~ msgstr "Binnenkort komt Firefox naar iOS!"
+
+#~ msgid "Sign up to learn more"
+#~ msgstr "Schrijf u in voor meer info"
 
 #~ msgid "1991"
 #~ msgstr "1991"

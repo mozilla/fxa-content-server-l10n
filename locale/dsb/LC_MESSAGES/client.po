@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-29 18:05+0000\n"
+"POT-Creation-Date: 2015-11-12 22:28+0000\n"
 "PO-Revision-Date: 2015-10-31 10:23+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,103 +11,105 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444481518.0\n"
 
-#: app/scripts/views/complete_reset_password.js:134
-#: app/scripts/views/complete_sign_up.js:101 app/scripts/views/confirm.js:116
-#: app/scripts/views/confirm_reset_password.js:165
+#: app/scripts/views/complete_reset_password.js:131
+#: app/scripts/views/complete_sign_up.js:103 app/scripts/views/confirm.js:114
+#: app/scripts/views/confirm_reset_password.js:163
 msgid "Account verified successfully"
 msgstr "Konto jo se wuspěšnje pśespytało"
 
-#: app/scripts/views/confirm_account_unlock.js:102
+#: app/scripts/views/confirm_account_unlock.js:100
 msgid "Account unlocked, please try again"
 msgstr "Konto pśipušćone, pšosym wopytajśo hyšći raz"
 
-#: app/scripts/views/confirm_reset_password.js:155
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/confirm_reset_password.js:153
+#: app/scripts/views/ready.js:48
 msgid "Password reset"
 msgstr "Gronidło jo se slědk stajiło"
 
-#: app/scripts/views/confirm_reset_password.js:184
+#: app/scripts/views/confirm_reset_password.js:182
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Gronidło jo se wuspěšnje slědk stajiło. Pśizjawśo se, aby pókšacował."
 
-#: app/scripts/views/ready.js:31
+#: app/scripts/views/ready.js:29
 msgid "Firefox Sync will begin momentarily"
 msgstr "Firefox Sync zachopijo skóro"
 
-#: app/scripts/views/ready.js:40
+#: app/scripts/views/ready.js:38
 msgid "Account unlocked"
 msgstr "Konto pśipušćone"
 
-#: app/scripts/views/ready.js:45
+#: app/scripts/views/ready.js:43
 msgid "Welcome back"
 msgstr "Witajśo slědk"
 
-#: app/scripts/views/ready.js:46
+#: app/scripts/views/ready.js:44
 msgid "Firefox Sync will resume momentarily"
 msgstr "Z Firefox Sync se skóro pókšacujo"
 
-#: app/scripts/views/ready.js:56
+#: app/scripts/views/ready.js:54
 msgid "Welcome to Sync"
 msgstr "Witajśo k Sync"
 
-#: app/scripts/views/ready.js:61
+#: app/scripts/views/ready.js:59
 msgid "Account verified"
 msgstr "Konto jo wobkšuśone"
 
-#: app/scripts/views/ready.js:62 app/scripts/templates/ready.mustache:5
+#: app/scripts/views/ready.js:60 app/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Móžośo něnto %(serviceName)s wužywaś"
 
-#: app/scripts/views/reset_password.js:82 app/scripts/views/sign_in.js:191
+#: app/scripts/views/reset_password.js:80 app/scripts/views/sign_in.js:187
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Njeznate konto. <a href=\"/signup\">Registrěrowaś</a>"
 
-#: app/scripts/views/settings.js:223
-msgid "Signed out successfully"
-msgstr "Wuspěšnje wótzjawjony"
-
-#: app/scripts/views/sign_up.js:343
+#: app/scripts/views/sign_up.js:340
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Konto južo eksistěrujo. <a href=\"/signin\">Pśizjawiś</a>"
 
-#: app/scripts/views/settings/avatar_gravatar.js:91
+#: app/scripts/views/settings/avatar_gravatar.js:89
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr ""
 "K dispoziciji stajony wót <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
-#: app/scripts/views/settings/change_password.js:54
+#: app/scripts/views/settings/change_password.js:51
 msgid "Password changed successfully"
 msgstr "Gronidło jo se wuspěšnje změniło"
 
-#: app/scripts/views/settings/communication_preferences.js:110
+#: app/scripts/views/settings/communication_preferences.js:108
 msgid "Subscribed successfully"
 msgstr "Wuspěšnje aboněrowany"
 
-#: app/scripts/views/settings/communication_preferences.js:111
+#: app/scripts/views/settings/communication_preferences.js:109
 msgid "Unsubscribed successfully"
 msgstr "Wuspěšnje wótskazany"
 
-#: app/scripts/views/settings/delete_account.js:60
+#: app/scripts/views/settings/delete_account.js:54
 msgid "Account deleted successfully"
 msgstr "Konto jo se wuspěšnje wulašowało"
 
-#: app/scripts/views/settings/display_name.js:54
+#: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
 msgstr "Zwobraznjeńske mě zaktualizěrowane"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
-msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "Konto zastajone. <a href=\"/confirm_account_unlock\">Mejlku za pśipušćanje "
 "pósłaś</a>"
 
-#: app/scripts/lib/auth-errors.js:18 app/scripts/lib/config-loader.js:82
-#: app/scripts/lib/marketing-email-errors.js:18
-#: app/scripts/lib/oauth-errors.js:19 app/scripts/lib/profile-errors.js:35
+#: app/scripts/views/mixins/signed-out-notification-mixin.js:34
+msgid "Signed out successfully"
+msgstr "Wuspěšnje wótzjawjony"
+
+#: app/scripts/lib/auth-errors.js:17 app/scripts/lib/config-loader.js:77
+#: app/scripts/lib/marketing-email-errors.js:17
+#: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:35
 #: app/scripts/lib/profile-errors.js:43
 #: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
@@ -117,169 +119,167 @@ msgstr ""
 msgid "Unexpected error"
 msgstr "Njewótcakowana zmólka"
 
-#: app/scripts/lib/auth-errors.js:28 app/scripts/lib/oauth-errors.js:49
+#: app/scripts/lib/auth-errors.js:27 app/scripts/lib/oauth-errors.js:48
 msgid "Invalid token"
 msgstr "Njepłaśiwy token"
 
-#: app/scripts/lib/auth-errors.js:32
+#: app/scripts/lib/auth-errors.js:31
 msgid "Invalid timestamp in request signature"
 msgstr "Njepłaśiwy casowy kołk w napšašowańskej signaturje"
 
-#: app/scripts/lib/auth-errors.js:36
+#: app/scripts/lib/auth-errors.js:35
 msgid "Invalid nonce in request signature"
 msgstr "Njepłaśiwy nonce w napšašowańskej signaturje"
 
-#: app/scripts/lib/auth-errors.js:40
+#: app/scripts/lib/auth-errors.js:39
 msgid "Account already exists"
 msgstr "Konto južo eksistěrujo"
 
-#: app/scripts/lib/auth-errors.js:44
+#: app/scripts/lib/auth-errors.js:43
 msgid "Unknown account"
 msgstr "Njeznate konto"
 
-#: app/scripts/lib/auth-errors.js:48
+#: app/scripts/lib/auth-errors.js:47
 msgid "Incorrect email case"
 msgstr "Njekorektna e-mailowa adresa"
 
-#: app/scripts/lib/auth-errors.js:52
+#: app/scripts/lib/auth-errors.js:51
 msgid "Incorrect password"
 msgstr "Njekorektne gronidło"
 
-#: app/scripts/lib/auth-errors.js:56
+#: app/scripts/lib/auth-errors.js:55
 msgid "Unverified account"
 msgstr "Njewobkšuśone konto"
 
-#: app/scripts/lib/auth-errors.js:60
+#: app/scripts/lib/auth-errors.js:59
 msgid "Invalid verification code"
 msgstr "Njepłaśiwy wobkšuśeński kode"
 
-#: app/scripts/lib/auth-errors.js:64
+#: app/scripts/lib/auth-errors.js:63
 msgid "Invalid JSON in request body"
 msgstr "Njepłaśiwy JSON w napšašowańskem korpusu"
 
-#: app/scripts/lib/auth-errors.js:68 app/scripts/lib/profile-errors.js:23
+#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/profile-errors.js:23
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Njepłaśiwy parameter w napšašowańskem korpusu: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:72
+#: app/scripts/lib/auth-errors.js:71
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Felujucy parameter w napšašowańskem korpusu: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:76
+#: app/scripts/lib/auth-errors.js:75
 msgid "Invalid request signature"
 msgstr "Njepłaśiwa napšašowańska signatura"
 
-#: app/scripts/lib/auth-errors.js:80
+#: app/scripts/lib/auth-errors.js:79
 msgid "Missing content-length header"
 msgstr "Felujuca głowowa smužka content-length"
 
-#: app/scripts/lib/auth-errors.js:84
+#: app/scripts/lib/auth-errors.js:83
 msgid "Request body too large"
 msgstr "Napšašowański korpus jo pśedłujki"
 
-#: app/scripts/lib/auth-errors.js:88
+#: app/scripts/lib/auth-errors.js:87
 msgid "Attempt limit exceeded"
 msgstr "Maksimalna licba wopytow jo se pšekšocyła"
 
-#: app/scripts/lib/auth-errors.js:92
+#: app/scripts/lib/auth-errors.js:91
 msgid "Your account has been locked for security reasons"
 msgstr "Wašo konto jo se z wěstotnych pśicynow zastajiło"
 
-#: app/scripts/lib/auth-errors.js:100
+#: app/scripts/lib/auth-errors.js:99
 msgid "Server busy, try again soon"
 msgstr "Serwer jo póśěźony, wopytajśo za krotki cas hyšći raz"
 
-#: app/scripts/lib/auth-errors.js:104
+#: app/scripts/lib/auth-errors.js:103
 msgid "This endpoint is no longer supported"
 msgstr "Toś ten kóńcny dypk se wěcej njepódpěra"
 
-#: app/scripts/lib/auth-errors.js:108 app/scripts/lib/config-loader.js:78
-#: app/scripts/lib/marketing-email-errors.js:80
-#: app/scripts/lib/oauth-errors.js:79 app/scripts/lib/profile-errors.js:39
+#: app/scripts/lib/auth-errors.js:107 app/scripts/lib/config-loader.js:73
+#: app/scripts/lib/marketing-email-errors.js:79
+#: app/scripts/lib/oauth-errors.js:78 app/scripts/lib/profile-errors.js:39
 msgid "System unavailable, try again soon"
 msgstr "System njestoj k dispoziciji, wopytajśo za krotki cas hyšći raz"
 
-#: app/scripts/lib/auth-errors.js:112 app/scripts/lib/oauth-errors.js:103
+#: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:102
 msgid "no message"
 msgstr "žedna powěsć"
 
-#: app/scripts/lib/auth-errors.js:116
+#: app/scripts/lib/auth-errors.js:115
 msgid "Session expired. Sign in to continue."
 msgstr "Pósejźenje jo wótběgnuło. Pśizjawśo se, aby pókšacował."
 
-#: app/scripts/lib/auth-errors.js:120
+#: app/scripts/lib/auth-errors.js:119
 msgid "Cookies are still disabled"
 msgstr "Cookieje su hyšći znjemóžnjone"
 
-#: app/scripts/lib/auth-errors.js:124
+#: app/scripts/lib/auth-errors.js:123
 msgid "Passwords do not match"
 msgstr "Gronidle njejstej jadnakej"
 
-#: app/scripts/lib/auth-errors.js:128
+#: app/scripts/lib/auth-errors.js:127
 msgid "Working…"
 msgstr "Jo hyšći w źěle…"
 
-#: app/scripts/lib/auth-errors.js:132
+#: app/scripts/lib/auth-errors.js:131
 msgid "Could not get Privacy Notice"
 msgstr "Wuzjawjenje priwatnosći njejo se namakało"
 
-#: app/scripts/lib/auth-errors.js:136
+#: app/scripts/lib/auth-errors.js:135
 msgid "Could not get Terms of Service"
 msgstr "Wužywańske wuměnjenja njejsu se namakali"
 
-#: app/scripts/lib/auth-errors.js:140
+#: app/scripts/lib/auth-errors.js:139
 msgid "Your new password must be different"
 msgstr "Wašo nowe gronidło musy druge byś"
 
-#: app/scripts/lib/auth-errors.js:144
+#: app/scripts/lib/auth-errors.js:143
 #: app/scripts/templates/complete_reset_password.mustache:16
 #: app/scripts/templates/sign_up.mustache:14
 #: app/scripts/templates/settings/change_password.mustache:11
 msgid "Must be at least 8 characters"
 msgstr "Musy nanejmjenjej 8 znamuškow dłujke byś"
 
-#: app/scripts/lib/auth-errors.js:148
+#: app/scripts/lib/auth-errors.js:147
 msgid "Valid password required"
 msgstr "Płaśiwe gronidło trěbne"
 
-#: app/scripts/lib/auth-errors.js:152 app/scripts/lib/auth-errors.js:190
-#: app/scripts/lib/auth-errors.js:206
+#: app/scripts/lib/auth-errors.js:151 app/scripts/lib/auth-errors.js:189
+#: app/scripts/lib/auth-errors.js:205
 msgid "Valid email required"
 msgstr "Płaśiwa e-mailowa adresa trěbna"
 
-#: app/scripts/lib/auth-errors.js:163
+#: app/scripts/lib/auth-errors.js:162
 msgid "A usable image was not found"
 msgstr "Wužywajobny wobraz njejo se namakał"
 
-#: app/scripts/lib/auth-errors.js:167
+#: app/scripts/lib/auth-errors.js:166
 msgid "Could not initialize camera"
 msgstr "Kamera njedajo se inicializěrowaś"
 
-#: app/scripts/lib/auth-errors.js:171
+#: app/scripts/lib/auth-errors.js:170
 msgid "Valid URL required"
 msgstr "Płaśiwy URL trěbny"
 
-#: app/scripts/lib/auth-errors.js:186
+#: app/scripts/lib/auth-errors.js:185
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr ""
 "Waša wobkšuśeńska mejlka jo se rowno wrośiła. Jo e-mailowa adresa wopak?"
 
-#: app/scripts/lib/auth-errors.js:194
+#: app/scripts/lib/auth-errors.js:193
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr ""
-"Zapódajśo płaśiwu e-mailowu adresu. firefox.com njepóbitujo e-mailowe "
-"adrese."
+"Zapódajśo płaśiwu e-mailowu adresu. firefox.com njepóbitujo e-mailowe adrese."
 
-#: app/scripts/lib/auth-errors.js:202
+#: app/scripts/lib/auth-errors.js:201
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
-"Firefox Accounts dajo se jano na pśizwólonych sedłach do IFRAME stajiś"
+msgstr "Firefox Accounts dajo se jano na pśizwólonych sedłach do IFRAME stajiś"
 
-#: app/scripts/lib/auth-errors.js:210
+#: app/scripts/lib/auth-errors.js:209
 msgid "/force_auth requires an email"
 msgstr "/force_auth trjeba e-mailowu adresu"
 
-#: app/scripts/lib/auth-errors.js:214
+#: app/scripts/lib/auth-errors.js:213
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
@@ -287,77 +287,77 @@ msgstr ""
 "Wótkaz, na kótaryž sćo kliknuł, aby swóju e-mailowu adresu pśeglědał, jo "
 "pśepadnuł."
 
-#: app/scripts/lib/auth-errors.js:218
+#: app/scripts/lib/auth-errors.js:217
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "Wobkšuśeński wótkaz wobškóźony"
 
-#: app/scripts/lib/auth-errors.js:226
+#: app/scripts/lib/auth-errors.js:225
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Wótměra wobraza musytej nanejmjenjej 100x100px byś"
 
-#: app/scripts/lib/auth-errors.js:230
+#: app/scripts/lib/auth-errors.js:229
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Skóro registrěrowanje za Firefox za iOS pśiźo."
 
-#: app/scripts/lib/auth-errors.js:234
+#: app/scripts/lib/auth-errors.js:233
 msgid "Signup has been disabled"
 msgstr "Registrěrowanje jo se znjemóžniło"
 
-#: app/scripts/lib/auth-errors.js:238
+#: app/scripts/lib/auth-errors.js:237
 msgid "Age is required"
 msgstr "Starstwo jo trěbne"
 
-#: app/scripts/lib/auth-errors.js:242
+#: app/scripts/lib/auth-errors.js:241
 msgid "No Gravatar found"
 msgstr "Žeden gravatar namakany"
 
-#: app/scripts/lib/mailcheck.js:66
+#: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr "Sćo <span tabindex=\"1\">%(domain)s</span> měnił?"
 
-#: app/scripts/lib/oauth-errors.js:25
+#: app/scripts/lib/oauth-errors.js:24
 msgid "Unknown client"
 msgstr "Njeznaty klient"
 
-#: app/scripts/lib/oauth-errors.js:29
+#: app/scripts/lib/oauth-errors.js:28
 msgid "Incorrect redirect_uri"
 msgstr "Njekorektny redirect_url"
 
-#: app/scripts/lib/oauth-errors.js:33
+#: app/scripts/lib/oauth-errors.js:32
 msgid "Invalid assertion"
 msgstr "Njepłaśiwe twarźenje"
 
-#: app/scripts/lib/oauth-errors.js:37
+#: app/scripts/lib/oauth-errors.js:36
 msgid "Unknown code"
 msgstr "Njeznaty kod"
 
-#: app/scripts/lib/oauth-errors.js:41
+#: app/scripts/lib/oauth-errors.js:40
 msgid "Incorrect code"
 msgstr "Wopacny kod"
 
-#: app/scripts/lib/oauth-errors.js:45
+#: app/scripts/lib/oauth-errors.js:44
 msgid "Expired code"
 msgstr "Pśepadnjony kod"
 
-#: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:75
+#: app/scripts/lib/oauth-errors.js:52 app/scripts/lib/oauth-errors.js:74
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "Njepłaśiwy OAuth-parameter: %(param)s"
 
-#: app/scripts/lib/oauth-errors.js:61 app/scripts/lib/profile-errors.js:19
+#: app/scripts/lib/oauth-errors.js:60 app/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
 msgstr "Njeawtorizěrowany"
 
-#: app/scripts/lib/oauth-errors.js:65
+#: app/scripts/lib/oauth-errors.js:64
 msgid "Forbidden"
 msgstr "Zakazany"
 
-#: app/scripts/lib/oauth-errors.js:87
+#: app/scripts/lib/oauth-errors.js:86
 msgid "Something went wrong. Please close this tab and try again."
 msgstr ""
 "Něco njejo se raźiło. Pšosym zacyńśo toś ten rejtark a wopytajśo hyšći raz."
 
-#: app/scripts/lib/oauth-errors.js:107
+#: app/scripts/lib/oauth-errors.js:106
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Felujucy OAuth-parameter: %(param)s"
 
@@ -373,43 +373,42 @@ msgstr "Zmólka pśi pśeźěłowanju wobraza"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: app/scripts/lib/strings.js:19
+#: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Pśez to, až pókšaocujośo, zwólijośo do <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">wužywańskich wuměnjenjow</a> a <a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">pšawidłow priwatnosći</a> %(serviceName)s "
+"Pśez to, až pókšaocujośo, zwólijośo do <a id=\"service-tos\" href="
+"\"%(termsUri)s\">wužywańskich wuměnjenjow</a> a <a id=\"service-pp\" href="
+"\"%(privacyUri)s\">pšawidłow priwatnosći</a> %(serviceName)s "
 "(%(serviceUri)s)."
 
-#: app/scripts/lib/strings.js:23
+#: app/scripts/lib/strings.js:22
 #: app/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
 msgstr "Cytańske znamjenja"
 
-#: app/scripts/lib/strings.js:24
-#: app/scripts/templates/choose_what_to_sync.mustache:8
+#: app/scripts/lib/strings.js:23
+#: app/scripts/templates/choose_what_to_sync.mustache:10
 msgid "History"
 msgstr "Historija"
 
-#: app/scripts/lib/strings.js:25
+#: app/scripts/lib/strings.js:24
 #: app/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Tabs"
 msgstr "Rejtarki"
 
-#: app/scripts/lib/strings.js:26
-#: app/scripts/templates/choose_what_to_sync.mustache:6
+#: app/scripts/lib/strings.js:25
+#: app/scripts/templates/choose_what_to_sync.mustache:8
 msgid "Passwords"
 msgstr "Gronidła"
 
-#: app/scripts/lib/strings.js:27
+#: app/scripts/lib/strings.js:26
 msgid "Desktop Add-ons"
 msgstr "Desktopowe dodanki"
 
-#: app/scripts/lib/strings.js:28
+#: app/scripts/lib/strings.js:27
 msgid "Desktop Preferences"
 msgstr "Desktopowe nastajenja"
 
@@ -433,7 +432,7 @@ msgstr "Dalšne informacije."
 msgid "Choose what to sync"
 msgstr "Wubjeŕśo, což ma se synchronizěrowaś"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:10
+#: app/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
 msgstr "Dodanki"
 
@@ -474,9 +473,9 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
-"Wótkazoju, na kótaryž sćo kliknuł, znamuška feluju, a jo snaź pśez waš "
-"e-mailowy program wobškóźony. Kopěrujśo adresu kradosćiwje a wopytajśo hyšći"
-" raz."
+"Wótkazoju, na kótaryž sćo kliknuł, znamuška feluju, a jo snaź pśez waš e-"
+"mailowy program wobškóźony. Kopěrujśo adresu kradosćiwje a wopytajśo hyšći "
+"raz."
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
@@ -581,8 +580,8 @@ msgstr "Pśipušćeńska mejlka jo se pósłała"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification"
-" link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
 msgstr ""
 "Wašo konto jo se z wěstotnych pśicynow zastajiło. Aby aktiwity ze swójim "
 "kontom pśewjadł, wobkšuśćo pšosym swójo konto hyšći raz, z tym až kliknjośo "
@@ -617,8 +616,8 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
-"Pšosym zmóžniśo cookieje w swójom wobglědowaku, kótarež su trěbne za Firefox"
-" Accounts. Cookieje su małe datowe elementy, kótarež składuju se we wašom "
+"Pšosym zmóžniśo cookieje w swójom wobglědowaku, kótarež su trěbne za Firefox "
+"Accounts. Cookieje su małe datowe elementy, kótarež składuju se we wašom "
 "wobglědowaku, ab wěstu funkcionalnosć zmóžnili, ako na pśikład "
 "zasejspóznawanje w nowem pósejźenju."
 
@@ -655,13 +654,13 @@ msgstr "Sćo gronidło zabył?"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:15
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
-"Pśez to, až pókšacujośo, zwolijośo do <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">wužywańskich wuměnjenjow</a> a<a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">pšawidłow priwatnosći</a> mrokowsłužbow Firefox."
+"Pśez to, až pókšacujośo, zwolijośo do <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">wužywańskich wuměnjenjow</a> a<a id=\"fxa-pp\" href=\"/legal/privacy"
+"\">pšawidłow priwatnosći</a> mrokowsłužbow Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -698,14 +697,11 @@ msgid "Get the full Sync experience."
 msgstr "Wobstarajśo se cełe Sync-dožywjenje."
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:2
-#: app/scripts/templates/marketing_snippet_ios.mustache:12
-msgid "Firefox is coming soon to iOS!"
-msgstr "Firefox buźo skóro na iOS!"
-
 #: app/scripts/templates/marketing_snippet_ios.mustache:3
+#: app/scripts/templates/marketing_snippet_ios.mustache:12
 #: app/scripts/templates/marketing_snippet_ios.mustache:13
-msgid "Sign up to learn more"
-msgstr "Zregistrěrujśo se, aby wěcej zgónił"
+msgid "Download Firefox for iOS!"
+msgstr ""
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:6
 #: app/scripts/templates/marketing_snippet_ios.mustache:7
@@ -823,8 +819,8 @@ msgstr "Konto Firefox załožyś"
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr ""
-"Pśenosujśo swóje synchronizaciske daty, z tym až napórajośo nowe "
-"konto&nbsp;Firefox."
+"Pśenosujśo swóje synchronizaciske daty, z tym až napórajośo nowe konto&nbsp;"
+"Firefox."
 
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/communication_preferences.mustache:6
@@ -894,8 +890,8 @@ msgid ""
 "Once you're finished, use your new password to sign in on all of your "
 "devices."
 msgstr ""
-"Gaž sćo gótowy, wužywajśo swójo nowe gronidło, aby se na wšych wašych rědach"
-" pśizjawił."
+"Gaž sćo gótowy, wužywajśo swójo nowe gronidło, aby se na wšych wašych rědach "
+"pśizjawił."
 
 #: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
@@ -967,6 +963,12 @@ msgstr "OpenID wužywaś"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Konto Firefox wužywaś"
+
+#~ msgid "Firefox is coming soon to iOS!"
+#~ msgstr "Firefox buźo skóro na iOS!"
+
+#~ msgid "Sign up to learn more"
+#~ msgstr "Zregistrěrujśo se, aby wěcej zgónił"
 
 #~ msgid "1991"
 #~ msgstr "1991"
@@ -1099,9 +1101,9 @@ msgstr "Konto Firefox wužywaś"
 #~ "Zapódajśo swóju e-mailowu adresu, aby&nbsp;kontowe gronidło slědk stajił."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data from"
-#~ " our servers. A new Sync backup will be created from your local browsing "
-#~ "data."
+#~ "For security reasons, resetting your password will erase your Sync data "
+#~ "from our servers. A new Sync backup will be created from your local "
+#~ "browsing data."
 #~ msgstr ""
 #~ "Z wěstotnych pśicynow budu se wšykne waše synchronizaciske daty z našych "
 #~ "serwerow lašowaś, gaž stajaśo swóje gronidło slědk. Nowe synchronizaciske "
@@ -1114,24 +1116,23 @@ msgstr "Konto Firefox wužywaś"
 #~ msgstr "Maśo južo konto? Pśizjawśo se."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" "
-#~ "href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-#~ "href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+#~ "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+#~ "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
-#~ "Z tym až pókšacujośo. pśigłosujom <a id=\"service-tos\" "
-#~ "href=\"%(termsUri)s\">wužywańskim wuměnjenjam</a> a <a id=\"service-pp\" "
-#~ "href=\"%(privacyUri)s\">pšawidłam priwatnosći</a> słužby %(serviceName)s "
+#~ "Z tym až pókšacujośo. pśigłosujom <a id=\"service-tos\" href="
+#~ "\"%(termsUri)s\">wužywańskim wuměnjenjam</a> a <a id=\"service-pp\" href="
+#~ "\"%(privacyUri)s\">pšawidłam priwatnosći</a> słužby %(serviceName)s "
 #~ "(%(serviceUri)s)."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-#~ "Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Jolic z tym pókšacujośo, zwólijośo do <a id=\"fxa-tos\" "
-#~ "href=\"/legal/terms\">wužywańskich wuměnjenjow</a> a <a id=\"fxa-pp\" "
-#~ "href=\"/legal/privacy\">wuzjawjenja priwatnosći </a> mrokowsłužbow Firefox."
+#~ "Jolic z tym pókšacujośo, zwólijośo do <a id=\"fxa-tos\" href=\"/legal/"
+#~ "terms\">wužywańskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/"
+#~ "privacy\">wuzjawjenja priwatnosći </a> mrokowsłužbow Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Nowosći a pokazki za Firefox aboněrowaś"
@@ -1152,8 +1153,8 @@ msgstr "Konto Firefox wužywaś"
 #~ "Once you're ﬁnished, use your new password to sign in on all of your "
 #~ "devices."
 #~ msgstr ""
-#~ "Gaž sćo gótowy, wužyjśo swójo nowe gronidło, aby se na wšych swójich rědach "
-#~ "pśizjawił."
+#~ "Gaž sćo gótowy, wužyjśo swójo nowe gronidło, aby se na wšych swójich "
+#~ "rědach pśizjawił."
 
 #~ msgid "Illegal iframe"
 #~ msgstr "Njedowólony iframe"
@@ -1164,10 +1165,12 @@ msgstr "Konto Firefox wužywaś"
 #~ msgid "Password changed"
 #~ msgstr "Gronidło změnjone"
 
-#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
+#~ msgid ""
+#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
+#~ "email</a>."
 #~ msgstr ""
-#~ "Njewobkšuśone konto. <a href=\"#\" id=\"resend\">Wobkšuśeńsku mailku znowego"
-#~ " pósłaś</a>."
+#~ "Njewobkšuśone konto. <a href=\"#\" id=\"resend\">Wobkšuśeńsku mailku "
+#~ "znowego pósłaś</a>."
 
 #~ msgid "Password reset. Sign in to continue."
 #~ msgstr "Gronidło jo slědk stajone. Pśizjawśo se, aby pókšacował."
@@ -1176,11 +1179,11 @@ msgstr "Konto Firefox wužywaś"
 #~ msgstr "Wótzjawjony"
 
 #~ msgid ""
-#~ "Your verification email was just returned. Mistyped email? <a "
-#~ "href=\"/signup\">Start over.</a>"
+#~ "Your verification email was just returned. Mistyped email? <a href=\"/"
+#~ "signup\">Start over.</a>"
 #~ msgstr ""
-#~ "Waša wobkšuśeńska mailka jo se wrośiła. Jo e-mailowa adresa wopak napisana? "
-#~ "<a href=\"/signup\">Znowego zachopiś.</a>"
+#~ "Waša wobkšuśeńska mailka jo se wrośiła. Jo e-mailowa adresa wopak "
+#~ "napisana? <a href=\"/signup\">Znowego zachopiś.</a>"
 
 #~ msgid "Paste image URL"
 #~ msgstr "URL wobraza zasajźiś"

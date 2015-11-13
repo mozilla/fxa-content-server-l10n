@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-29 18:05+0000\n"
+"POT-Creation-Date: 2015-11-12 22:28+0000\n"
 "PO-Revision-Date: 2015-10-10 13:09+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,86 +14,82 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1444482586.0\n"
 
-#: app/scripts/views/complete_reset_password.js:134
-#: app/scripts/views/complete_sign_up.js:101 app/scripts/views/confirm.js:116
-#: app/scripts/views/confirm_reset_password.js:165
+#: app/scripts/views/complete_reset_password.js:131
+#: app/scripts/views/complete_sign_up.js:103 app/scripts/views/confirm.js:114
+#: app/scripts/views/confirm_reset_password.js:163
 msgid "Account verified successfully"
 msgstr "Hesap başarıyla doğrulandı"
 
-#: app/scripts/views/confirm_account_unlock.js:102
+#: app/scripts/views/confirm_account_unlock.js:100
 msgid "Account unlocked, please try again"
 msgstr "Hesabın kilidi açıldı. Lütfen yeniden deneyin"
 
-#: app/scripts/views/confirm_reset_password.js:155
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/confirm_reset_password.js:153
+#: app/scripts/views/ready.js:48
 msgid "Password reset"
 msgstr "Parola sıfırlama"
 
-#: app/scripts/views/confirm_reset_password.js:184
+#: app/scripts/views/confirm_reset_password.js:182
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Parola başarıyla sıfırlandı. Devam etmek için giriş yapın."
 
-#: app/scripts/views/ready.js:31
+#: app/scripts/views/ready.js:29
 msgid "Firefox Sync will begin momentarily"
 msgstr "Firefox Sync az sonra başlayacak"
 
-#: app/scripts/views/ready.js:40
+#: app/scripts/views/ready.js:38
 msgid "Account unlocked"
 msgstr "Hesap kilitlendi"
 
-#: app/scripts/views/ready.js:45
+#: app/scripts/views/ready.js:43
 msgid "Welcome back"
 msgstr "Yeniden hoş geldiniz"
 
-#: app/scripts/views/ready.js:46
+#: app/scripts/views/ready.js:44
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync az sonra devam edecek"
 
-#: app/scripts/views/ready.js:56
+#: app/scripts/views/ready.js:54
 msgid "Welcome to Sync"
 msgstr "Sync'e hoş geldiniz"
 
-#: app/scripts/views/ready.js:61
+#: app/scripts/views/ready.js:59
 msgid "Account verified"
 msgstr "Hesap doğrulandı"
 
-#: app/scripts/views/ready.js:62 app/scripts/templates/ready.mustache:5
+#: app/scripts/views/ready.js:60 app/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
 msgstr "%(serviceName)s artık kullanıma hazır"
 
-#: app/scripts/views/reset_password.js:82 app/scripts/views/sign_in.js:191
+#: app/scripts/views/reset_password.js:80 app/scripts/views/sign_in.js:187
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Bilinmeyen hesap. <a href=\"/signup\">Kaydolun</a>"
 
-#: app/scripts/views/settings.js:223
-msgid "Signed out successfully"
-msgstr "Başarıyla çıkış yapıldı"
-
-#: app/scripts/views/sign_up.js:343
+#: app/scripts/views/sign_up.js:340
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Hesap zaten var. <a href=\"/signin\">Oturum açın</a>"
 
-#: app/scripts/views/settings/avatar_gravatar.js:91
+#: app/scripts/views/settings/avatar_gravatar.js:89
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> katkılarıyla"
 
-#: app/scripts/views/settings/change_password.js:54
+#: app/scripts/views/settings/change_password.js:51
 msgid "Password changed successfully"
 msgstr "Parola başarıyla değiştirildi"
 
-#: app/scripts/views/settings/communication_preferences.js:110
+#: app/scripts/views/settings/communication_preferences.js:108
 msgid "Subscribed successfully"
 msgstr "Başarıyla abone olundu"
 
-#: app/scripts/views/settings/communication_preferences.js:111
+#: app/scripts/views/settings/communication_preferences.js:109
 msgid "Unsubscribed successfully"
 msgstr "Abonelik iptal edildi"
 
-#: app/scripts/views/settings/delete_account.js:60
+#: app/scripts/views/settings/delete_account.js:54
 msgid "Account deleted successfully"
 msgstr "Hesap başarıyla silindi"
 
-#: app/scripts/views/settings/display_name.js:54
+#: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
 msgstr "Görünen ad güncellendi"
 
@@ -104,9 +100,13 @@ msgstr ""
 "Hesap kilitlendi. <a href=\"/confirm_account_unlock\">Kilit açma e-postası "
 "gönder</a>"
 
-#: app/scripts/lib/auth-errors.js:18 app/scripts/lib/config-loader.js:82
-#: app/scripts/lib/marketing-email-errors.js:18
-#: app/scripts/lib/oauth-errors.js:19 app/scripts/lib/profile-errors.js:35
+#: app/scripts/views/mixins/signed-out-notification-mixin.js:34
+msgid "Signed out successfully"
+msgstr "Başarıyla çıkış yapıldı"
+
+#: app/scripts/lib/auth-errors.js:17 app/scripts/lib/config-loader.js:77
+#: app/scripts/lib/marketing-email-errors.js:17
+#: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:35
 #: app/scripts/lib/profile-errors.js:43
 #: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
@@ -116,243 +116,243 @@ msgstr ""
 msgid "Unexpected error"
 msgstr "Beklenmeyen hata"
 
-#: app/scripts/lib/auth-errors.js:28 app/scripts/lib/oauth-errors.js:49
+#: app/scripts/lib/auth-errors.js:27 app/scripts/lib/oauth-errors.js:48
 msgid "Invalid token"
 msgstr "Geçersiz jeton"
 
-#: app/scripts/lib/auth-errors.js:32
+#: app/scripts/lib/auth-errors.js:31
 msgid "Invalid timestamp in request signature"
 msgstr "İstek imzasında geçersiz zaman damgası"
 
-#: app/scripts/lib/auth-errors.js:36
+#: app/scripts/lib/auth-errors.js:35
 msgid "Invalid nonce in request signature"
 msgstr "İstek imzasında geçersiz karma kod"
 
-#: app/scripts/lib/auth-errors.js:40
+#: app/scripts/lib/auth-errors.js:39
 msgid "Account already exists"
 msgstr "Hesap zaten var"
 
-#: app/scripts/lib/auth-errors.js:44
+#: app/scripts/lib/auth-errors.js:43
 msgid "Unknown account"
 msgstr "Bilinmeyen hesap"
 
-#: app/scripts/lib/auth-errors.js:48
+#: app/scripts/lib/auth-errors.js:47
 msgid "Incorrect email case"
 msgstr "Hatalı e-posta yazımı"
 
-#: app/scripts/lib/auth-errors.js:52
+#: app/scripts/lib/auth-errors.js:51
 msgid "Incorrect password"
 msgstr "Parola yanlış"
 
-#: app/scripts/lib/auth-errors.js:56
+#: app/scripts/lib/auth-errors.js:55
 msgid "Unverified account"
 msgstr "Doğrulanmamış hesap"
 
-#: app/scripts/lib/auth-errors.js:60
+#: app/scripts/lib/auth-errors.js:59
 msgid "Invalid verification code"
 msgstr "Geçersiz doğrulama kodu"
 
-#: app/scripts/lib/auth-errors.js:64
+#: app/scripts/lib/auth-errors.js:63
 msgid "Invalid JSON in request body"
 msgstr "İstek gövdesinde geçersiz JSON"
 
-#: app/scripts/lib/auth-errors.js:68 app/scripts/lib/profile-errors.js:23
+#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/profile-errors.js:23
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "İstek gövdesinde geçersiz parametre: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:72
+#: app/scripts/lib/auth-errors.js:71
 msgid "Missing parameter in request body: %(param)s"
 msgstr "İstek gövdesinde eksik parametre: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:76
+#: app/scripts/lib/auth-errors.js:75
 msgid "Invalid request signature"
 msgstr "Geçersiz istek imzası"
 
-#: app/scripts/lib/auth-errors.js:80
+#: app/scripts/lib/auth-errors.js:79
 msgid "Missing content-length header"
 msgstr "Eksik content-length üstbilgisi"
 
-#: app/scripts/lib/auth-errors.js:84
+#: app/scripts/lib/auth-errors.js:83
 msgid "Request body too large"
 msgstr "İstek gövdesi fazla büyük"
 
-#: app/scripts/lib/auth-errors.js:88
+#: app/scripts/lib/auth-errors.js:87
 msgid "Attempt limit exceeded"
 msgstr "Deneme sınırı aşıldı"
 
-#: app/scripts/lib/auth-errors.js:92
+#: app/scripts/lib/auth-errors.js:91
 msgid "Your account has been locked for security reasons"
 msgstr "Hesabınız güvenlik nedeniyle kilitlenmiştir"
 
-#: app/scripts/lib/auth-errors.js:100
+#: app/scripts/lib/auth-errors.js:99
 msgid "Server busy, try again soon"
 msgstr "Sistem meşgul, daha sonra tekrar deneyin"
 
-#: app/scripts/lib/auth-errors.js:104
+#: app/scripts/lib/auth-errors.js:103
 msgid "This endpoint is no longer supported"
 msgstr "Bu uç nokta artık desteklenmiyor"
 
-#: app/scripts/lib/auth-errors.js:108 app/scripts/lib/config-loader.js:78
-#: app/scripts/lib/marketing-email-errors.js:80
-#: app/scripts/lib/oauth-errors.js:79 app/scripts/lib/profile-errors.js:39
+#: app/scripts/lib/auth-errors.js:107 app/scripts/lib/config-loader.js:73
+#: app/scripts/lib/marketing-email-errors.js:79
+#: app/scripts/lib/oauth-errors.js:78 app/scripts/lib/profile-errors.js:39
 msgid "System unavailable, try again soon"
 msgstr "Sistem şu an kullanılamıyor, daha sonra tekrar deneyin"
 
-#: app/scripts/lib/auth-errors.js:112 app/scripts/lib/oauth-errors.js:103
+#: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:102
 msgid "no message"
 msgstr "mesaj yok"
 
-#: app/scripts/lib/auth-errors.js:116
+#: app/scripts/lib/auth-errors.js:115
 msgid "Session expired. Sign in to continue."
 msgstr "Oturum zaman aşımına uğradı. Devam etmek için oturum açın."
 
-#: app/scripts/lib/auth-errors.js:120
+#: app/scripts/lib/auth-errors.js:119
 msgid "Cookies are still disabled"
 msgstr "Çerezler hâlâ devre dışı"
 
-#: app/scripts/lib/auth-errors.js:124
+#: app/scripts/lib/auth-errors.js:123
 msgid "Passwords do not match"
 msgstr "Parolalar uyuşmuyor"
 
-#: app/scripts/lib/auth-errors.js:128
+#: app/scripts/lib/auth-errors.js:127
 msgid "Working…"
 msgstr "Çalışıyor…"
 
-#: app/scripts/lib/auth-errors.js:132
+#: app/scripts/lib/auth-errors.js:131
 msgid "Could not get Privacy Notice"
 msgstr "Gizlilik Bildirimi alınamadı"
 
-#: app/scripts/lib/auth-errors.js:136
+#: app/scripts/lib/auth-errors.js:135
 msgid "Could not get Terms of Service"
 msgstr "Hizmet Koşulları alınamadı"
 
-#: app/scripts/lib/auth-errors.js:140
+#: app/scripts/lib/auth-errors.js:139
 msgid "Your new password must be different"
 msgstr "Yeni parolanız farklı olmalıdır"
 
-#: app/scripts/lib/auth-errors.js:144
+#: app/scripts/lib/auth-errors.js:143
 #: app/scripts/templates/complete_reset_password.mustache:16
 #: app/scripts/templates/sign_up.mustache:14
 #: app/scripts/templates/settings/change_password.mustache:11
 msgid "Must be at least 8 characters"
 msgstr "En az 8 karakter olmalı"
 
-#: app/scripts/lib/auth-errors.js:148
+#: app/scripts/lib/auth-errors.js:147
 msgid "Valid password required"
 msgstr "Geçerli parola gerekli"
 
-#: app/scripts/lib/auth-errors.js:152 app/scripts/lib/auth-errors.js:190
-#: app/scripts/lib/auth-errors.js:206
+#: app/scripts/lib/auth-errors.js:151 app/scripts/lib/auth-errors.js:189
+#: app/scripts/lib/auth-errors.js:205
 msgid "Valid email required"
 msgstr "Geçerli e-posta gerekli"
 
-#: app/scripts/lib/auth-errors.js:163
+#: app/scripts/lib/auth-errors.js:162
 msgid "A usable image was not found"
 msgstr "Kullanılabilir bir resim bulunamadı"
 
-#: app/scripts/lib/auth-errors.js:167
+#: app/scripts/lib/auth-errors.js:166
 msgid "Could not initialize camera"
 msgstr "Kamera başlatılamadı"
 
-#: app/scripts/lib/auth-errors.js:171
+#: app/scripts/lib/auth-errors.js:170
 msgid "Valid URL required"
 msgstr "Geçerli bir adres gerekli"
 
-#: app/scripts/lib/auth-errors.js:186
+#: app/scripts/lib/auth-errors.js:185
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr ""
 "Doğrulama e-postanız geri döndü. Adresinizi yanlış yazmış olabilir misiniz?"
 
-#: app/scripts/lib/auth-errors.js:194
+#: app/scripts/lib/auth-errors.js:193
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Geçerli bir e-posta adresi girin. firefox.com e-posta hizmeti sunmaz."
 
-#: app/scripts/lib/auth-errors.js:202
+#: app/scripts/lib/auth-errors.js:201
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 "Firefox Hesapları yalnızca onaylanmış sitelerde IFRAME içine "
 "yerleştirilebilir"
 
-#: app/scripts/lib/auth-errors.js:210
+#: app/scripts/lib/auth-errors.js:209
 msgid "/force_auth requires an email"
 msgstr "/force_auth için e-posta gereklidir"
 
-#: app/scripts/lib/auth-errors.js:214
+#: app/scripts/lib/auth-errors.js:213
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
 msgstr "E-postanızı doğrulamak için tıkladığınız link zaman aşımına uğramış."
 
-#: app/scripts/lib/auth-errors.js:218
+#: app/scripts/lib/auth-errors.js:217
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "Doğrulama linki zarar görmüş"
 
-#: app/scripts/lib/auth-errors.js:226
+#: app/scripts/lib/auth-errors.js:225
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Resim boyutları en az 100x100 piksel olmalıdır"
 
-#: app/scripts/lib/auth-errors.js:230
+#: app/scripts/lib/auth-errors.js:229
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Kaydolma desteği yakında iOS için Firefox'a geliyor"
 
-#: app/scripts/lib/auth-errors.js:234
+#: app/scripts/lib/auth-errors.js:233
 msgid "Signup has been disabled"
 msgstr "Kaydolma devre dışıdır"
 
-#: app/scripts/lib/auth-errors.js:238
+#: app/scripts/lib/auth-errors.js:237
 msgid "Age is required"
 msgstr "Yaş gereklidir"
 
-#: app/scripts/lib/auth-errors.js:242
+#: app/scripts/lib/auth-errors.js:241
 msgid "No Gravatar found"
 msgstr "Gravatar bulunamadı"
 
-#: app/scripts/lib/mailcheck.js:66
+#: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr "<span tabindex=\"1\">%(domain)s</span> yazmak mı istediniz?"
 
-#: app/scripts/lib/oauth-errors.js:25
+#: app/scripts/lib/oauth-errors.js:24
 msgid "Unknown client"
 msgstr "Bilinmeyen istemci"
 
-#: app/scripts/lib/oauth-errors.js:29
+#: app/scripts/lib/oauth-errors.js:28
 msgid "Incorrect redirect_uri"
 msgstr "Hatalı redirect_uri"
 
-#: app/scripts/lib/oauth-errors.js:33
+#: app/scripts/lib/oauth-errors.js:32
 msgid "Invalid assertion"
 msgstr "Geçersiz ifade"
 
-#: app/scripts/lib/oauth-errors.js:37
+#: app/scripts/lib/oauth-errors.js:36
 msgid "Unknown code"
 msgstr "Bilinmeyen kod"
 
-#: app/scripts/lib/oauth-errors.js:41
+#: app/scripts/lib/oauth-errors.js:40
 msgid "Incorrect code"
 msgstr "Yanlış kod"
 
-#: app/scripts/lib/oauth-errors.js:45
+#: app/scripts/lib/oauth-errors.js:44
 msgid "Expired code"
 msgstr "Kod zaman aşımına uğramış"
 
-#: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:75
+#: app/scripts/lib/oauth-errors.js:52 app/scripts/lib/oauth-errors.js:74
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "Geçersiz OAuth parametresi: %(param)s"
 
-#: app/scripts/lib/oauth-errors.js:61 app/scripts/lib/profile-errors.js:19
+#: app/scripts/lib/oauth-errors.js:60 app/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
 msgstr "Yetkilendirilmemiş"
 
-#: app/scripts/lib/oauth-errors.js:65
+#: app/scripts/lib/oauth-errors.js:64
 msgid "Forbidden"
 msgstr "Yasak"
 
-#: app/scripts/lib/oauth-errors.js:87
+#: app/scripts/lib/oauth-errors.js:86
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Bir şeyler yanlış gitti. Lütfen bu sekmeyi kapatıp tekrar deneyin."
 
-#: app/scripts/lib/oauth-errors.js:107
+#: app/scripts/lib/oauth-errors.js:106
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Eksik  OAuth parametresi: %(param)s"
 
@@ -368,7 +368,7 @@ msgstr "Resim işleme hatası"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: app/scripts/lib/strings.js:19
+#: app/scripts/lib/strings.js:18
 msgid ""
 "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
 "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
@@ -378,31 +378,31 @@ msgstr ""
 "\"%(termsUri)s\">Hizmet Koşullarını</a> ve <a id=\"service-pp\" href="
 "\"%(privacyUri)s\">Gizlilik Bildirimini</a> kabul etmiş oluyorsunuz."
 
-#: app/scripts/lib/strings.js:23
+#: app/scripts/lib/strings.js:22
 #: app/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
 msgstr "Yer imleri"
 
-#: app/scripts/lib/strings.js:24
-#: app/scripts/templates/choose_what_to_sync.mustache:8
+#: app/scripts/lib/strings.js:23
+#: app/scripts/templates/choose_what_to_sync.mustache:10
 msgid "History"
 msgstr "Geçmiş"
 
-#: app/scripts/lib/strings.js:25
+#: app/scripts/lib/strings.js:24
 #: app/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Tabs"
 msgstr "Sekmeler"
 
-#: app/scripts/lib/strings.js:26
-#: app/scripts/templates/choose_what_to_sync.mustache:6
+#: app/scripts/lib/strings.js:25
+#: app/scripts/templates/choose_what_to_sync.mustache:8
 msgid "Passwords"
 msgstr "Parolalar"
 
-#: app/scripts/lib/strings.js:27
+#: app/scripts/lib/strings.js:26
 msgid "Desktop Add-ons"
 msgstr "Masaüstü eklentileri"
 
-#: app/scripts/lib/strings.js:28
+#: app/scripts/lib/strings.js:27
 msgid "Desktop Preferences"
 msgstr "Masaüstü tercihler"
 
@@ -426,7 +426,7 @@ msgstr "Daha fazla bilgi edinin."
 msgid "Choose what to sync"
 msgstr "Nelerin eşitleneceğini seçin"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:10
+#: app/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
 msgstr ""
 
@@ -686,14 +686,11 @@ msgid "Get the full Sync experience."
 msgstr "Tam Sync deneyimini edinin."
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:2
-#: app/scripts/templates/marketing_snippet_ios.mustache:12
-msgid "Firefox is coming soon to iOS!"
-msgstr "Firefox yakında iOS'e geliyor!"
-
 #: app/scripts/templates/marketing_snippet_ios.mustache:3
+#: app/scripts/templates/marketing_snippet_ios.mustache:12
 #: app/scripts/templates/marketing_snippet_ios.mustache:13
-msgid "Sign up to learn more"
-msgstr "Daha fazla bilgi almak için kaydolun"
+msgid "Download Firefox for iOS!"
+msgstr ""
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:6
 #: app/scripts/templates/marketing_snippet_ios.mustache:7
@@ -950,6 +947,12 @@ msgstr "OpenID kullan"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Firefox Hesabı'mı kullan"
+
+#~ msgid "Firefox is coming soon to iOS!"
+#~ msgstr "Firefox yakında iOS'e geliyor!"
+
+#~ msgid "Sign up to learn more"
+#~ msgstr "Daha fazla bilgi almak için kaydolun"
 
 #~ msgid "1991"
 #~ msgstr "1991"

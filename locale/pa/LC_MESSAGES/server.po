@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-29 18:05+0000\n"
+"POT-Creation-Date: 2015-11-12 22:28+0000\n"
 "PO-Revision-Date: 2015-10-12 17:30+0000\n"
 "Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1444671008.0\n"
 
-#: templates/_pending.txt:1
+#: templates/_pending.txt:1 templates/verify_reminder_second.html:2
 msgid "Still there?"
 msgstr "ਹਾਲੇ ਵੀ ਮੌਜੂਦ ਹੈ?"
 
@@ -52,6 +52,8 @@ msgstr "ਸਿੰਕ ਕਰਨ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ"
 #: templates/password_reset.html:1 templates/post_verify.html:1
 #: templates/reset.html:1 templates/unlock.html:1
 #: templates/verification_reminder.html:1 templates/verify.html:1
+#: templates/verify_reminder_first.html:1
+#: templates/verify_reminder_second.html:1
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
@@ -78,7 +80,8 @@ msgstr ""
 #: templates/unlock.html:6 templates/unlock.txt:3
 #: templates/verification_reminder.html:6
 #: templates/verification_reminder.txt:4 templates/verify.html:6
-#: templates/verify.txt:4
+#: templates/verify.txt:4 templates/verify_reminder_first.html:6
+#: templates/verify_reminder_second.html:6
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
@@ -89,6 +92,8 @@ msgstr ""
 #: templates/password_reset.html:5 templates/post_verify.html:7
 #: templates/reset.html:7 templates/unlock.html:7
 #: templates/verification_reminder.html:7 templates/verify.html:7
+#: templates/verify_reminder_first.html:7
+#: templates/verify_reminder_second.html:7
 msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
@@ -141,6 +146,8 @@ msgstr ""
 
 #: templates/post_verify.html:5 templates/reset.html:5 templates/unlock.html:5
 #: templates/verification_reminder.html:5 templates/verify.html:5
+#: templates/verify_reminder_first.html:5
+#: templates/verify_reminder_second.html:5
 msgid "Alternatively:"
 msgstr "ਬਦਲਵਾਂ:"
 
@@ -190,6 +197,7 @@ msgstr "ਖਾਤਾ ਤਸਦੀਕ ਕਰੋ:"
 
 #: templates/verification_reminder.html:2
 #: templates/verification_reminder.txt:1
+#: templates/verify_reminder_first.html:2
 msgid "Hello again."
 msgstr ""
 
@@ -201,14 +209,20 @@ msgid ""
 msgstr ""
 
 #: templates/verification_reminder.html:4 templates/verify.html:4
+#: templates/verify_reminder_first.html:4
+#: templates/verify_reminder_second.html:4
 msgid "Activate now"
 msgstr "ਹੁਣੇ ਸਰਗਰਮ ਕਰੋ"
 
 #: templates/verification_reminder.html:8 templates/verify.html:8
+#: templates/verify_reminder_first.html:8
+#: templates/verify_reminder_second.html:8
 msgid "Verify Email"
 msgstr "ਈਮੇਸ ਤਸਦੀਕ ਕਰੋ"
 
 #: templates/verification_reminder.html:9 templates/verify.html:9
+#: templates/verify_reminder_first.html:9
+#: templates/verify_reminder_second.html:9
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਰਜਿਸਟਰੇਸ਼ਨ ਨੂੰ ਸਰਗਰਮ ਕਰਨ ਲਈ ਆਪਣੀ ਈਮੇਲ ਦੀ ਤਸਦੀਕ ਕਰੋ"
 
@@ -261,6 +275,23 @@ msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕੀ�
 msgid ""
 "This is an automated email; if you did not authorize this action, then <a "
 "%(passwordChangeLinkAttributes)s>please change your password.</a>"
+msgstr ""
+
+#: templates/verify_reminder_first.html:3
+msgid ""
+"A few days ago you created a Firefox Account, but never verified it. A "
+"verified account lets you access your tabs, bookmarks, passwords and history "
+"on any device connected to it. Simply confirm this email address to activate "
+"your account."
+msgstr ""
+
+#: templates/verify_reminder_second.html:3
+msgid ""
+"A week ago you created a Firefox Account, but never verified it. We’re "
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
+"iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know "
+"you're okay."
 msgstr ""
 
 #: server/templates/pages/src/400.html:2

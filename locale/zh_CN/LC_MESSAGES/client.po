@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-29 18:05+0000\n"
+"POT-Creation-Date: 2015-11-12 22:28+0000\n"
 "PO-Revision-Date: 2015-10-30 15:10+0000\n"
 "Last-Translator: YFdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,97 +15,98 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444354764.0\n"
 
-#: app/scripts/views/complete_reset_password.js:134
-#: app/scripts/views/complete_sign_up.js:101 app/scripts/views/confirm.js:116
-#: app/scripts/views/confirm_reset_password.js:165
+#: app/scripts/views/complete_reset_password.js:131
+#: app/scripts/views/complete_sign_up.js:103 app/scripts/views/confirm.js:114
+#: app/scripts/views/confirm_reset_password.js:163
 msgid "Account verified successfully"
 msgstr "账号验证成功"
 
-#: app/scripts/views/confirm_account_unlock.js:102
+#: app/scripts/views/confirm_account_unlock.js:100
 msgid "Account unlocked, please try again"
 msgstr "账号已解锁，请稍后重试"
 
-#: app/scripts/views/confirm_reset_password.js:155
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/confirm_reset_password.js:153
+#: app/scripts/views/ready.js:48
 msgid "Password reset"
 msgstr "密码已重置"
 
-#: app/scripts/views/confirm_reset_password.js:184
+#: app/scripts/views/confirm_reset_password.js:182
 msgid "Password reset successfully. Sign in to continue."
 msgstr "密码重置成功。请登录以继续。"
 
-#: app/scripts/views/ready.js:31
+#: app/scripts/views/ready.js:29
 msgid "Firefox Sync will begin momentarily"
 msgstr "Firefox 同步即将开始"
 
-#: app/scripts/views/ready.js:40
+#: app/scripts/views/ready.js:38
 msgid "Account unlocked"
 msgstr "账号已解锁"
 
-#: app/scripts/views/ready.js:45
+#: app/scripts/views/ready.js:43
 msgid "Welcome back"
 msgstr "欢迎回来"
 
-#: app/scripts/views/ready.js:46
+#: app/scripts/views/ready.js:44
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox 同步即将继续"
 
-#: app/scripts/views/ready.js:56
+#: app/scripts/views/ready.js:54
 msgid "Welcome to Sync"
 msgstr "欢迎使用“同步”"
 
-#: app/scripts/views/ready.js:61
+#: app/scripts/views/ready.js:59
 msgid "Account verified"
 msgstr "账号已验证"
 
-#: app/scripts/views/ready.js:62 app/scripts/templates/ready.mustache:5
+#: app/scripts/views/ready.js:60 app/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
 msgstr "您已经可以使用 %(serviceName)s 了"
 
 # see https://bugzilla.mozilla.org/show_bug.cgi?id=1131472
-#: app/scripts/views/reset_password.js:82 app/scripts/views/sign_in.js:191
+#: app/scripts/views/reset_password.js:80 app/scripts/views/sign_in.js:187
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "未知账号 <a href=\"/signup\">注册</a>"
 
-#: app/scripts/views/settings.js:223
-msgid "Signed out successfully"
-msgstr "退出成功"
-
-#: app/scripts/views/sign_up.js:343
+#: app/scripts/views/sign_up.js:340
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "账号已存在。<a href=\"/signin\">登录</a>"
 
-#: app/scripts/views/settings/avatar_gravatar.js:91
+#: app/scripts/views/settings/avatar_gravatar.js:89
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "感谢 <a href=\"https://www.gravatar.com\">Gravatar</a> 提供"
 
-#: app/scripts/views/settings/change_password.js:54
+#: app/scripts/views/settings/change_password.js:51
 msgid "Password changed successfully"
 msgstr "密码更改成功"
 
-#: app/scripts/views/settings/communication_preferences.js:110
+#: app/scripts/views/settings/communication_preferences.js:108
 msgid "Subscribed successfully"
 msgstr "订阅成功"
 
-#: app/scripts/views/settings/communication_preferences.js:111
+#: app/scripts/views/settings/communication_preferences.js:109
 msgid "Unsubscribed successfully"
 msgstr "退订成功"
 
-#: app/scripts/views/settings/delete_account.js:60
+#: app/scripts/views/settings/delete_account.js:54
 msgid "Account deleted successfully"
 msgstr "账号删除已成功"
 
-#: app/scripts/views/settings/display_name.js:54
+#: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
 msgstr "显示名称已更新"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
-msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr "账号已锁定。<a href=\"/confirm_account_unlock\">发送解锁邮件</a>"
 
-#: app/scripts/lib/auth-errors.js:18 app/scripts/lib/config-loader.js:82
-#: app/scripts/lib/marketing-email-errors.js:18
-#: app/scripts/lib/oauth-errors.js:19 app/scripts/lib/profile-errors.js:35
+#: app/scripts/views/mixins/signed-out-notification-mixin.js:34
+msgid "Signed out successfully"
+msgstr "退出成功"
+
+#: app/scripts/lib/auth-errors.js:17 app/scripts/lib/config-loader.js:77
+#: app/scripts/lib/marketing-email-errors.js:17
+#: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:35
 #: app/scripts/lib/profile-errors.js:43
 #: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
@@ -115,240 +116,240 @@ msgstr "账号已锁定。<a href=\"/confirm_account_unlock\">发送解锁邮件
 msgid "Unexpected error"
 msgstr "意外错误"
 
-#: app/scripts/lib/auth-errors.js:28 app/scripts/lib/oauth-errors.js:49
+#: app/scripts/lib/auth-errors.js:27 app/scripts/lib/oauth-errors.js:48
 msgid "Invalid token"
 msgstr "无效令牌"
 
-#: app/scripts/lib/auth-errors.js:32
+#: app/scripts/lib/auth-errors.js:31
 msgid "Invalid timestamp in request signature"
 msgstr "请求签名中的时间戳无效"
 
-#: app/scripts/lib/auth-errors.js:36
+#: app/scripts/lib/auth-errors.js:35
 msgid "Invalid nonce in request signature"
 msgstr "请求签名中的随机数无效"
 
-#: app/scripts/lib/auth-errors.js:40
+#: app/scripts/lib/auth-errors.js:39
 msgid "Account already exists"
 msgstr "账号已经存在"
 
-#: app/scripts/lib/auth-errors.js:44
+#: app/scripts/lib/auth-errors.js:43
 msgid "Unknown account"
 msgstr "未知账号"
 
-#: app/scripts/lib/auth-errors.js:48
+#: app/scripts/lib/auth-errors.js:47
 msgid "Incorrect email case"
 msgstr "邮件地址大小写错误"
 
-#: app/scripts/lib/auth-errors.js:52
+#: app/scripts/lib/auth-errors.js:51
 msgid "Incorrect password"
 msgstr "密码错误"
 
-#: app/scripts/lib/auth-errors.js:56
+#: app/scripts/lib/auth-errors.js:55
 msgid "Unverified account"
 msgstr "未验证的账号"
 
-#: app/scripts/lib/auth-errors.js:60
+#: app/scripts/lib/auth-errors.js:59
 msgid "Invalid verification code"
 msgstr "无效的验证码"
 
-#: app/scripts/lib/auth-errors.js:64
+#: app/scripts/lib/auth-errors.js:63
 msgid "Invalid JSON in request body"
 msgstr "请求内容中 JSON 无效"
 
-#: app/scripts/lib/auth-errors.js:68 app/scripts/lib/profile-errors.js:23
+#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/profile-errors.js:23
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "请求内容中的参数无效：%(param)s"
 
-#: app/scripts/lib/auth-errors.js:72
+#: app/scripts/lib/auth-errors.js:71
 msgid "Missing parameter in request body: %(param)s"
 msgstr "请求内容中缺少参数：%(param)s"
 
-#: app/scripts/lib/auth-errors.js:76
+#: app/scripts/lib/auth-errors.js:75
 msgid "Invalid request signature"
 msgstr "无效的请求签名"
 
-#: app/scripts/lib/auth-errors.js:80
+#: app/scripts/lib/auth-errors.js:79
 msgid "Missing content-length header"
 msgstr "缺少 content-length 头信息"
 
-#: app/scripts/lib/auth-errors.js:84
+#: app/scripts/lib/auth-errors.js:83
 msgid "Request body too large"
 msgstr "请求内容太大"
 
-#: app/scripts/lib/auth-errors.js:88
+#: app/scripts/lib/auth-errors.js:87
 msgid "Attempt limit exceeded"
 msgstr "已超过尝试次数"
 
-#: app/scripts/lib/auth-errors.js:92
+#: app/scripts/lib/auth-errors.js:91
 msgid "Your account has been locked for security reasons"
 msgstr "您的账号已因安全原因被锁定"
 
-#: app/scripts/lib/auth-errors.js:100
+#: app/scripts/lib/auth-errors.js:99
 msgid "Server busy, try again soon"
 msgstr "系统繁忙，请稍后再试"
 
-#: app/scripts/lib/auth-errors.js:104
+#: app/scripts/lib/auth-errors.js:103
 msgid "This endpoint is no longer supported"
 msgstr "不再支持这个端点"
 
-#: app/scripts/lib/auth-errors.js:108 app/scripts/lib/config-loader.js:78
-#: app/scripts/lib/marketing-email-errors.js:80
-#: app/scripts/lib/oauth-errors.js:79 app/scripts/lib/profile-errors.js:39
+#: app/scripts/lib/auth-errors.js:107 app/scripts/lib/config-loader.js:73
+#: app/scripts/lib/marketing-email-errors.js:79
+#: app/scripts/lib/oauth-errors.js:78 app/scripts/lib/profile-errors.js:39
 msgid "System unavailable, try again soon"
 msgstr "系统不可用，请稍后再试"
 
-#: app/scripts/lib/auth-errors.js:112 app/scripts/lib/oauth-errors.js:103
+#: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:102
 msgid "no message"
 msgstr "无消息"
 
-#: app/scripts/lib/auth-errors.js:116
+#: app/scripts/lib/auth-errors.js:115
 msgid "Session expired. Sign in to continue."
 msgstr "会话已过期。请登录以继续。"
 
-#: app/scripts/lib/auth-errors.js:120
+#: app/scripts/lib/auth-errors.js:119
 msgid "Cookies are still disabled"
 msgstr "Cookie 仍然被禁用"
 
-#: app/scripts/lib/auth-errors.js:124
+#: app/scripts/lib/auth-errors.js:123
 msgid "Passwords do not match"
 msgstr "密码不匹配"
 
-#: app/scripts/lib/auth-errors.js:128
+#: app/scripts/lib/auth-errors.js:127
 msgid "Working…"
 msgstr "处理中…"
 
-#: app/scripts/lib/auth-errors.js:132
+#: app/scripts/lib/auth-errors.js:131
 msgid "Could not get Privacy Notice"
 msgstr "无法获取隐私政策"
 
-#: app/scripts/lib/auth-errors.js:136
+#: app/scripts/lib/auth-errors.js:135
 msgid "Could not get Terms of Service"
 msgstr "无法获取服务条款"
 
-#: app/scripts/lib/auth-errors.js:140
+#: app/scripts/lib/auth-errors.js:139
 msgid "Your new password must be different"
 msgstr "新旧密码不能相同"
 
-#: app/scripts/lib/auth-errors.js:144
+#: app/scripts/lib/auth-errors.js:143
 #: app/scripts/templates/complete_reset_password.mustache:16
 #: app/scripts/templates/sign_up.mustache:14
 #: app/scripts/templates/settings/change_password.mustache:11
 msgid "Must be at least 8 characters"
 msgstr "至少8个字符"
 
-#: app/scripts/lib/auth-errors.js:148
+#: app/scripts/lib/auth-errors.js:147
 msgid "Valid password required"
 msgstr "需要有效的密码"
 
-#: app/scripts/lib/auth-errors.js:152 app/scripts/lib/auth-errors.js:190
-#: app/scripts/lib/auth-errors.js:206
+#: app/scripts/lib/auth-errors.js:151 app/scripts/lib/auth-errors.js:189
+#: app/scripts/lib/auth-errors.js:205
 msgid "Valid email required"
 msgstr "需要有效的电子邮件地址"
 
-#: app/scripts/lib/auth-errors.js:163
+#: app/scripts/lib/auth-errors.js:162
 msgid "A usable image was not found"
 msgstr "没有找到可使用的图像"
 
-#: app/scripts/lib/auth-errors.js:167
+#: app/scripts/lib/auth-errors.js:166
 msgid "Could not initialize camera"
 msgstr "无法初始化摄像头"
 
-#: app/scripts/lib/auth-errors.js:171
+#: app/scripts/lib/auth-errors.js:170
 msgid "Valid URL required"
 msgstr "需要有效的 URL"
 
-#: app/scripts/lib/auth-errors.js:186
+#: app/scripts/lib/auth-errors.js:185
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "您的验证邮件刚被退回了。邮件地址输错了吗？"
 
-#: app/scripts/lib/auth-errors.js:194
+#: app/scripts/lib/auth-errors.js:193
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "请输入一个有效的电子邮件地址。firefox.com 不提供电子邮件服务。"
 
-#: app/scripts/lib/auth-errors.js:202
+#: app/scripts/lib/auth-errors.js:201
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox 账号网站只允许在经过授权的网站上被放入 IFRAME"
 
-#: app/scripts/lib/auth-errors.js:210
+#: app/scripts/lib/auth-errors.js:209
 msgid "/force_auth requires an email"
 msgstr "/force_auth 需要电子邮件地址"
 
-#: app/scripts/lib/auth-errors.js:214
+#: app/scripts/lib/auth-errors.js:213
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
 msgstr "您点击的重置密码验证链接已过期。"
 
-#: app/scripts/lib/auth-errors.js:218
+#: app/scripts/lib/auth-errors.js:217
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "验证链接损坏"
 
-#: app/scripts/lib/auth-errors.js:226
+#: app/scripts/lib/auth-errors.js:225
 msgid "The image dimensions must be at least 100x100px"
 msgstr "图像尺寸至少要 100x100px"
 
-#: app/scripts/lib/auth-errors.js:230
+#: app/scripts/lib/auth-errors.js:229
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Firefox for iOS 的注册即将到来"
 
-#: app/scripts/lib/auth-errors.js:234
+#: app/scripts/lib/auth-errors.js:233
 msgid "Signup has been disabled"
 msgstr "注册已被禁用"
 
-#: app/scripts/lib/auth-errors.js:238
+#: app/scripts/lib/auth-errors.js:237
 msgid "Age is required"
 msgstr "必须输入年龄"
 
-#: app/scripts/lib/auth-errors.js:242
+#: app/scripts/lib/auth-errors.js:241
 msgid "No Gravatar found"
 msgstr "未找到 Gravatar"
 
-#: app/scripts/lib/mailcheck.js:66
+#: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr "您的意思是 <span tabindex=\"1\">%(domain)s</span>？"
 
-#: app/scripts/lib/oauth-errors.js:25
+#: app/scripts/lib/oauth-errors.js:24
 msgid "Unknown client"
 msgstr "未知客户端"
 
-#: app/scripts/lib/oauth-errors.js:29
+#: app/scripts/lib/oauth-errors.js:28
 msgid "Incorrect redirect_uri"
 msgstr "不正确的 redirect_uri"
 
-#: app/scripts/lib/oauth-errors.js:33
+#: app/scripts/lib/oauth-errors.js:32
 msgid "Invalid assertion"
 msgstr "无效的 assertion"
 
-#: app/scripts/lib/oauth-errors.js:37
+#: app/scripts/lib/oauth-errors.js:36
 msgid "Unknown code"
 msgstr "未知代码"
 
-#: app/scripts/lib/oauth-errors.js:41
+#: app/scripts/lib/oauth-errors.js:40
 msgid "Incorrect code"
 msgstr "代码不正确"
 
-#: app/scripts/lib/oauth-errors.js:45
+#: app/scripts/lib/oauth-errors.js:44
 msgid "Expired code"
 msgstr "代码已过期"
 
-#: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:75
+#: app/scripts/lib/oauth-errors.js:52 app/scripts/lib/oauth-errors.js:74
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "无效的 OAuth 参数：%(param)s"
 
-#: app/scripts/lib/oauth-errors.js:61 app/scripts/lib/profile-errors.js:19
+#: app/scripts/lib/oauth-errors.js:60 app/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
 msgstr "未授权"
 
-#: app/scripts/lib/oauth-errors.js:65
+#: app/scripts/lib/oauth-errors.js:64
 msgid "Forbidden"
 msgstr "拒绝访问"
 
-#: app/scripts/lib/oauth-errors.js:87
+#: app/scripts/lib/oauth-errors.js:86
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "出问题了。请关闭本标签页然后再试一次。"
 
-#: app/scripts/lib/oauth-errors.js:107
+#: app/scripts/lib/oauth-errors.js:106
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "缺少 OAuth 参数：%(param)s"
 
@@ -364,42 +365,41 @@ msgstr "图像处理出错"
 msgid "Firefox Sync"
 msgstr "Firefox 同步"
 
-#: app/scripts/lib/strings.js:19
+#: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"继续提交即代表您同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">服务条款</a>和<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">隐私声明</a>。"
+"继续提交即代表您同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos"
+"\" href=\"%(termsUri)s\">服务条款</a>和<a id=\"service-pp\" href="
+"\"%(privacyUri)s\">隐私声明</a>。"
 
-#: app/scripts/lib/strings.js:23
+#: app/scripts/lib/strings.js:22
 #: app/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
 msgstr "书签"
 
-#: app/scripts/lib/strings.js:24
-#: app/scripts/templates/choose_what_to_sync.mustache:8
+#: app/scripts/lib/strings.js:23
+#: app/scripts/templates/choose_what_to_sync.mustache:10
 msgid "History"
 msgstr "历史记录"
 
-#: app/scripts/lib/strings.js:25
+#: app/scripts/lib/strings.js:24
 #: app/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Tabs"
 msgstr "标签页"
 
-#: app/scripts/lib/strings.js:26
-#: app/scripts/templates/choose_what_to_sync.mustache:6
+#: app/scripts/lib/strings.js:25
+#: app/scripts/templates/choose_what_to_sync.mustache:8
 msgid "Passwords"
 msgstr "密码"
 
-#: app/scripts/lib/strings.js:27
+#: app/scripts/lib/strings.js:26
 msgid "Desktop Add-ons"
 msgstr "桌面版附加组件"
 
-#: app/scripts/lib/strings.js:28
+#: app/scripts/lib/strings.js:27
 msgid "Desktop Preferences"
 msgstr "桌面版首选项"
 
@@ -422,7 +422,7 @@ msgstr "了解详情。"
 msgid "Choose what to sync"
 msgstr "选择要同步的内容"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:10
+#: app/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
 msgstr "附加组件"
 
@@ -461,7 +461,9 @@ msgstr "解锁链接已损坏"
 msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
-msgstr "您点击的链接缺少字符，可能由于您的邮件客户端的原因损坏了。请确保复制了完整的网址，然后再试一次。"
+msgstr ""
+"您点击的链接缺少字符，可能由于您的邮件客户端的原因损坏了。请确保复制了完整的"
+"网址，然后再试一次。"
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
@@ -564,9 +566,11 @@ msgstr "解锁邮件已发送"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification"
-" link sent to %(email)s"
-msgstr "由于安全原因，您的账号已被锁定。要执行账号层面的操作，请点击验证链接以重新发送验证邮件至 %(email)s 验证您的账号。"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
+msgstr ""
+"由于安全原因，您的账号已被锁定。要执行账号层面的操作，请点击验证链接以重新发"
+"送验证邮件至 %(email)s 验证您的账号。"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -597,8 +601,8 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
-"为了使用 Firefox 账号，请启用您的浏览器中的 Cookie 功能。Cookie "
-"是保存在您的浏览器中的小数据片段，提供在本次浏览期间记住您的状态等功能。"
+"为了使用 Firefox 账号，请启用您的浏览器中的 Cookie 功能。Cookie 是保存在您的"
+"浏览器中的小数据片段，提供在本次浏览期间记住您的状态等功能。"
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -633,12 +637,12 @@ msgstr "忘记密码？"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:15
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
-"继续提交即代表您同意 Firefox 云服务的<a id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>和<a "
-"id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>。"
+"继续提交即代表您同意 Firefox 云服务的<a id=\"fxa-tos\" href=\"/legal/terms\">"
+"服务条款</a>和<a id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>。"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -675,14 +679,11 @@ msgid "Get the full Sync experience."
 msgstr "获得完整的“同步”体验。"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:2
-#: app/scripts/templates/marketing_snippet_ios.mustache:12
-msgid "Firefox is coming soon to iOS!"
-msgstr "Firefox 即将推出到 iOS！"
-
 #: app/scripts/templates/marketing_snippet_ios.mustache:3
+#: app/scripts/templates/marketing_snippet_ios.mustache:12
 #: app/scripts/templates/marketing_snippet_ios.mustache:13
-msgid "Sign up to learn more"
-msgstr "注册了解更多信息"
+msgid "Download Firefox for iOS!"
+msgstr ""
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:6
 #: app/scripts/templates/marketing_snippet_ios.mustache:7
@@ -755,7 +756,9 @@ msgid ""
 "Resetting your password will erase your browsing data from our servers. Any "
 "data on your devices will remain untouched. Begin the reset process by "
 "entering your email below."
-msgstr "重置您的密码将擦除在我们服务器上的您的浏览数据。您的设备上的任何数据将保持不变。请在下方输入您的电子邮件地址以确认重置。"
+msgstr ""
+"重置您的密码将擦除在我们服务器上的您的浏览数据。您的设备上的任何数据将保持不"
+"变。请在下方输入您的电子邮件地址以确认重置。"
 
 #: app/scripts/templates/reset_password.mustache:5
 msgid "Begin reset"
@@ -932,6 +935,12 @@ msgstr "使用 OpenID"
 msgid "Use Firefox Account"
 msgstr "使用 Firefox 账号"
 
+#~ msgid "Firefox is coming soon to iOS!"
+#~ msgstr "Firefox 即将推出到 iOS！"
+
+#~ msgid "Sign up to learn more"
+#~ msgstr "注册了解更多信息"
+
 #~ msgid "1991"
 #~ msgstr "1991"
 
@@ -1062,10 +1071,12 @@ msgstr "使用 Firefox 账号"
 #~ msgstr "输入您的电子邮件地址重置账号密码。"
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data from"
-#~ " our servers. A new Sync backup will be created from your local browsing "
-#~ "data."
-#~ msgstr "出于安全原因，重置您的密码将使我们清除在我们服务器上的您的“同步”数据。新的“同步”备份将根据您的本地浏览数据而创建。"
+#~ "For security reasons, resetting your password will erase your Sync data "
+#~ "from our servers. A new Sync backup will be created from your local "
+#~ "browsing data."
+#~ msgstr ""
+#~ "出于安全原因，重置您的密码将使我们清除在我们服务器上的您的“同步”数据。新"
+#~ "的“同步”备份将根据您的本地浏览数据而创建。"
 
 #~ msgid "You are signed in as"
 #~ msgstr "您已登录为"
@@ -1074,22 +1085,22 @@ msgstr "使用 Firefox 账号"
 #~ msgstr "已有账号？登录。"
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" "
-#~ "href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-#~ "href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+#~ "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+#~ "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
-#~ "继续则代表我同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos\" "
-#~ "href=\"%(termsUri)s\">服务条款</a> 和 <a id=\"service-pp\" "
-#~ "href=\"%(privacyUri)s\">隐私声明</a>。"
+#~ "继续则代表我同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos"
+#~ "\" href=\"%(termsUri)s\">服务条款</a> 和 <a id=\"service-pp\" href="
+#~ "\"%(privacyUri)s\">隐私声明</a>。"
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-#~ "Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "继续操作则代表我接受 Firefox 云服务的 <a id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a> 及 "
-#~ "<a id=\"fxa-pp\" href=\"/legal/privacy\">隐私权政策</a>。"
+#~ "继续操作则代表我接受 Firefox 云服务的 <a id=\"fxa-tos\" href=\"/legal/"
+#~ "terms\">服务条款</a> 及 <a id=\"fxa-pp\" href=\"/legal/privacy\">隐私权政"
+#~ "策</a>。"
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "订阅 Firefox 资讯和技巧"
@@ -1120,7 +1131,9 @@ msgstr "使用 Firefox 账号"
 #~ msgid "Password changed"
 #~ msgstr "密码已更改"
 
-#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
+#~ msgid ""
+#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
+#~ "email</a>."
 #~ msgstr "尚未验证的账号。<a href=\"#\" id=\"resend\">重新发送验证邮件</a>。"
 
 #~ msgid "Password reset. Sign in to continue."
@@ -1130,9 +1143,11 @@ msgstr "使用 Firefox 账号"
 #~ msgstr "已退出"
 
 #~ msgid ""
-#~ "Your verification email was just returned. Mistyped email? <a "
-#~ "href=\"/signup\">Start over.</a>"
-#~ msgstr "您的验证邮件刚被退回了。邮件地址输错了吗？<a href=\"/signup\">重新尝试</a>。"
+#~ "Your verification email was just returned. Mistyped email? <a href=\"/"
+#~ "signup\">Start over.</a>"
+#~ msgstr ""
+#~ "您的验证邮件刚被退回了。邮件地址输错了吗？<a href=\"/signup\">重新尝试</"
+#~ "a>。"
 
 #~ msgid "Paste image URL"
 #~ msgstr "粘贴图像 URL"

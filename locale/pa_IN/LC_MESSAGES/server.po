@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-29 18:05+0000\n"
+"POT-Creation-Date: 2015-11-12 22:28+0000\n"
 "PO-Revision-Date: 2015-10-12 17:30+0000\n"
 "Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444671008.0\n"
 
-#: templates/_pending.txt:1
+#: templates/_pending.txt:1 templates/verify_reminder_second.html:2
 msgid "Still there?"
 msgstr "ਹਾਲੇ ਵੀ ਮੌਜੂਦ ਹੈ?"
 
@@ -24,8 +24,8 @@ msgid ""
 "A while ago you created a Firefox Account, but never verified it. Click the "
 "link below to activate your account."
 msgstr ""
-"ਕੁਝ ਦੇਰ ਪਹਿਲਾਂ ਤੁਸੀਂ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਬਣਾਇਆ ਸੀ, ਪਰ ਉਸ ਨੂੰ ਤਸਦੀਕ ਕਰਨ ਲਈ ਫੇਲ੍ਹ "
-"ਸੀ। ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਸਰਗਰਮ ਕਰਨ ਲਈ ਹੇਠ ਦਿੱਤੇ ਲਿੰਕ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।"
+"ਕੁਝ ਦੇਰ ਪਹਿਲਾਂ ਤੁਸੀਂ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਬਣਾਇਆ ਸੀ, ਪਰ ਉਸ ਨੂੰ ਤਸਦੀਕ ਕਰਨ ਲਈ ਫੇਲ੍ਹ ਸੀ। ਆਪਣੇ ਖਾਤੇ "
+"ਨੂੰ ਸਰਗਰਮ ਕਰਨ ਲਈ ਹੇਠ ਦਿੱਤੇ ਲਿੰਕ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।"
 
 #: templates/_pending.txt:3 templates/post_verify.html:3
 msgid ""
@@ -53,6 +53,8 @@ msgstr "ਸਿੰਕ ਕਰਨ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ"
 #: templates/password_reset.html:1 templates/post_verify.html:1
 #: templates/reset.html:1 templates/unlock.html:1
 #: templates/verification_reminder.html:1 templates/verify.html:1
+#: templates/verify_reminder_first.html:1
+#: templates/verify_reminder_second.html:1
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
@@ -71,8 +73,7 @@ msgstr "ਖਾਤਾ ਸਰਗਰਮੀ ਸੂਚਨਾ"
 msgid ""
 "A device began syncing with the devices connected to your Firefox Account."
 msgstr ""
-"ਡਿਵਾਈਸ ਨੇ ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨਾਲ ਕਨੈਕਟ ਕੀਤੇ ਡਿਵਾਈਸਾਂ ਨਾਲ ਸਿੰਕ ਕਰਨਾ ਸ਼ੁਰੂ "
-"ਕੀਤਾ ਹੈ।"
+"ਡਿਵਾਈਸ ਨੇ ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨਾਲ ਕਨੈਕਟ ਕੀਤੇ ਡਿਵਾਈਸਾਂ ਨਾਲ ਸਿੰਕ ਕਰਨਾ ਸ਼ੁਰੂ ਕੀਤਾ ਹੈ।"
 
 #: templates/new_sync_device.html:4 templates/password_changed.html:4
 #: templates/password_reset.html:4 templates/post_verify.html:6
@@ -80,23 +81,24 @@ msgstr ""
 #: templates/unlock.html:6 templates/unlock.txt:3
 #: templates/verification_reminder.html:6
 #: templates/verification_reminder.txt:4 templates/verify.html:6
-#: templates/verify.txt:4
+#: templates/verify.txt:4 templates/verify_reminder_first.html:6
+#: templates/verify_reminder_second.html:6
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
-"ਇਹ ਆਟੋਮੈਟਿਕ ਈਮੇਲ ਹੈ, ਜੇ ਤੁਹਾਨੂੰ ਇਹ ਗਲਤੀ ਨਾਲ ਮਿਲੀ ਹੈ ਤਾਂ ਕੋਈ ਵੀ ਕਾਰਵਾਈ ਕਰਨ ਦੀ"
-" ਲੋੜ ਨਹੀਂ ਹੈ।"
+"ਇਹ ਆਟੋਮੈਟਿਕ ਈਮੇਲ ਹੈ, ਜੇ ਤੁਹਾਨੂੰ ਇਹ ਗਲਤੀ ਨਾਲ ਮਿਲੀ ਹੈ ਤਾਂ ਕੋਈ ਵੀ ਕਾਰਵਾਈ ਕਰਨ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ।"
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
 #: templates/reset.html:7 templates/unlock.html:7
 #: templates/verification_reminder.html:7 templates/verify.html:7
+#: templates/verify_reminder_first.html:7
+#: templates/verify_reminder_second.html:7
 msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
-msgstr ""
-"ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ <a %(supportLinkAttributes)s>Mozilla ਸਹਿਯੋਗ</a> ਨੂੰ ਵੇਖੋ।"
+msgstr "ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ <a %(supportLinkAttributes)s>Mozilla ਸਹਿਯੋਗ</a> ਨੂੰ ਵੇਖੋ।"
 
 #: templates/new_sync_device.txt:3
 msgid ""
@@ -135,8 +137,8 @@ msgstr "ਤੁਹਾਡਾ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਕਾਮਯਾ
 
 #: templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox"
-" Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox "
+"Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
@@ -145,6 +147,8 @@ msgstr ""
 
 #: templates/post_verify.html:5 templates/reset.html:5 templates/unlock.html:5
 #: templates/verification_reminder.html:5 templates/verify.html:5
+#: templates/verify_reminder_first.html:5
+#: templates/verify_reminder_second.html:5
 msgid "Alternatively:"
 msgstr "ਬਦਲਵਾਂ:"
 
@@ -181,8 +185,8 @@ msgid ""
 "account-level activities, please click the link to re-verify your account "
 "now."
 msgstr ""
-"ਸੁਰੱਖਿਆ ਕਾਰਨ ਦੇ ਕਰਕੇ ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਲਾਕ ਕੀਤਾ ਗਿਆ ਸੀ। ਖਾਤਾ-ਪੱਧਰੀ "
-"ਕਾਰਵਾਈ ਕਰਨ ਲਈ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਮੁੜ-ਤਸਦੀਕ ਕਰਨ ਲਈ ਲਿੰਕ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।"
+"ਸੁਰੱਖਿਆ ਕਾਰਨ ਦੇ ਕਰਕੇ ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਲਾਕ ਕੀਤਾ ਗਿਆ ਸੀ। ਖਾਤਾ-ਪੱਧਰੀ ਕਾਰਵਾਈ ਕਰਨ "
+"ਲਈ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਮੁੜ-ਤਸਦੀਕ ਕਰਨ ਲਈ ਲਿੰਕ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।"
 
 #: templates/unlock.html:4
 msgid "Verify account"
@@ -194,6 +198,7 @@ msgstr "ਖਾਤਾ ਤਸਦੀਕ ਕਰੋ:"
 
 #: templates/verification_reminder.html:2
 #: templates/verification_reminder.txt:1
+#: templates/verify_reminder_first.html:2
 msgid "Hello again."
 msgstr ""
 
@@ -205,14 +210,20 @@ msgid ""
 msgstr ""
 
 #: templates/verification_reminder.html:4 templates/verify.html:4
+#: templates/verify_reminder_first.html:4
+#: templates/verify_reminder_second.html:4
 msgid "Activate now"
 msgstr "ਹੁਣੇ ਸਰਗਰਮ ਕਰੋ"
 
 #: templates/verification_reminder.html:8 templates/verify.html:8
+#: templates/verify_reminder_first.html:8
+#: templates/verify_reminder_second.html:8
 msgid "Verify Email"
 msgstr "ਈਮੇਸ ਤਸਦੀਕ ਕਰੋ"
 
 #: templates/verification_reminder.html:9 templates/verify.html:9
+#: templates/verify_reminder_first.html:9
+#: templates/verify_reminder_second.html:9
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਰਜਿਸਟਰੇਸ਼ਨ ਨੂੰ ਸਰਗਰਮ ਕਰਨ ਲਈ ਆਪਣੀ ਈਮੇਲ ਦੀ ਤਸਦੀਕ ਕਰੋ"
 
@@ -267,6 +278,23 @@ msgid ""
 "%(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr ""
 
+#: templates/verify_reminder_first.html:3
+msgid ""
+"A few days ago you created a Firefox Account, but never verified it. A "
+"verified account lets you access your tabs, bookmarks, passwords and history "
+"on any device connected to it. Simply confirm this email address to activate "
+"your account."
+msgstr ""
+
+#: templates/verify_reminder_second.html:3
+msgid ""
+"A week ago you created a Firefox Account, but never verified it. We’re "
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
+"iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know "
+"you're okay."
+msgstr ""
+
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
 msgstr "ਖ਼ਰਾਬ ਬੇਨਤੀ"
@@ -280,8 +308,8 @@ msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
-"ਤੁਹਾਡੇ ਵਲੋਂ ਮੰਗਿਆ ਸਫ਼ਾ ਨਹੀਂ ਲੱਭਿਆ। ਸਾਨੂੰ ਜਾਣਕਾਰੀ ਮਿਲ ਗਈ ਹੈ ਅਤੇ ਖ਼ਰਾਬ ਹੋਏ "
-"ਕਿਸੇ ਵੀ ਲਿੰਕ ਨੂੰ ਅਸੀਂ ਠੀਕ ਕਰਾਂਗੇ।"
+"ਤੁਹਾਡੇ ਵਲੋਂ ਮੰਗਿਆ ਸਫ਼ਾ ਨਹੀਂ ਲੱਭਿਆ। ਸਾਨੂੰ ਜਾਣਕਾਰੀ ਮਿਲ ਗਈ ਹੈ ਅਤੇ ਖ਼ਰਾਬ ਹੋਏ ਕਿਸੇ ਵੀ ਲਿੰਕ ਨੂੰ ਅਸੀਂ "
+"ਠੀਕ ਕਰਾਂਗੇ।"
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
@@ -296,9 +324,7 @@ msgstr "500 ਗਲਤੀ"
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
-msgstr ""
-"ਓਹ ਹੋ, ਕੁਝ ਗੜਬੜ ਹੋ ਚੁੱਕੀ ਹੈ। ਸਾਨੂੰ ਸੂਚਨਾ ਦੇ ਦਿੱਤੀ ਗਈ ਹੈ ਅਤੇ ਇਸ ਨੂੰ ਠੀਕ ਕੀਤਾ "
-"ਜਾਵੇਗਾ।"
+msgstr "ਓਹ ਹੋ, ਕੁਝ ਗੜਬੜ ਹੋ ਚੁੱਕੀ ਹੈ। ਸਾਨੂੰ ਸੂਚਨਾ ਦੇ ਦਿੱਤੀ ਗਈ ਹੈ ਅਤੇ ਇਸ ਨੂੰ ਠੀਕ ਕੀਤਾ ਜਾਵੇਗਾ।"
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -313,19 +339,18 @@ msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
-"ਅਸੀਂ ਇਸ ਸਮੇਂ ਦਬਾਅ ਅਧੀਨ ਹਾਂ ਅਤੇ ਸਿਸਟਮ ਨੂੰ ਛੇਤੀ ਤੋਂ ਛੇਤੀ ਆਮ ਰੂਪ ਵਿੱਚ ਵਾਪਿਸ "
-"ਲਿਆਉਣ ਲਈ ਕੰਮ ਕਰ ਰਹੇ ਹਾਂ।"
+"ਅਸੀਂ ਇਸ ਸਮੇਂ ਦਬਾਅ ਅਧੀਨ ਹਾਂ ਅਤੇ ਸਿਸਟਮ ਨੂੰ ਛੇਤੀ ਤੋਂ ਛੇਤੀ ਆਮ ਰੂਪ ਵਿੱਚ ਵਾਪਿਸ ਲਿਆਉਣ ਲਈ ਕੰਮ ਕਰ "
+"ਰਹੇ ਹਾਂ।"
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a "
-"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
-"experience."
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
-"ਅਸੀਂ <strong>ਪੁਰਾਣਾ</strong> ਬਰਾਊਜ਼ਰ ਵਰਤ ਰਹੇ ਹੋ। ਆਪਣੇ ਅਨੁਭਵ ਨੂੰ ਵਧੀਆ ਬਣਾਉਣ ਥਈ"
-" <a href=\"http://browsehappy.com/\">ਆਪਣੇ ਬਰਾਊਜ਼ਰ ਨੂੰ ਅੱਪਗਰੇਡ</a> ਕਰੋ ਜੀ।"
+"ਅਸੀਂ <strong>ਪੁਰਾਣਾ</strong> ਬਰਾਊਜ਼ਰ ਵਰਤ ਰਹੇ ਹੋ। ਆਪਣੇ ਅਨੁਭਵ ਨੂੰ ਵਧੀਆ ਬਣਾਉਣ ਥਈ <a href="
+"\"http://browsehappy.com/\">ਆਪਣੇ ਬਰਾਊਜ਼ਰ ਨੂੰ ਅੱਪਗਰੇਡ</a> ਕਰੋ ਜੀ।"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -350,8 +375,8 @@ msgstr "ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ"
 #~ msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ"
 
 #~ msgid ""
-#~ "For more information, please visit <a "
-#~ "href='https://support.mozilla.org'>Mozilla Support</a>"
+#~ "For more information, please visit <a href='https://support.mozilla."
+#~ "org'>Mozilla Support</a>"
 #~ msgstr ""
 #~ "ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ <a href='https://support.mozilla.org'>Mozilla Support</a> "
 #~ "ਵੇਖੋ ਜੀ"
@@ -365,7 +390,8 @@ msgstr "ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ"
 #~ msgid "Almost there"
 #~ msgstr "ਲਗਭਗ ਹੋ ਗਿਆ"
 
-#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgid ""
+#~ "%(email)s, you're one click away from verifying your Firefox Account."
 #~ msgstr "%(email)s, ਤੁਸੀਂ ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਦੀ ਜਾਂਚ ਤੋਂ ਇੱਕ ਕਲਿੱਕ ਦੂਰ ਹੋ।"
 
 #~ msgid "Verify"
@@ -396,10 +422,9 @@ msgstr "ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ"
 #~ msgstr "ਸਿਸਟਮ ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ, ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।"
 
 #~ msgid ""
-#~ "We are currently performing some maintenance on the system, and will return "
-#~ "momentarily."
-#~ msgstr ""
-#~ "ਅਸੀਂ ਸਿਸਟਮ ਉੱਤੇ ਕੁਝ ਦੇਖਭਾਲ ਦਾ ਕੰਮ ਕਰ ਰਹੇ ਹਾਂ ਅਤੇ ਛੇਤੀ ਹੀ ਉਪਲੱਬਧ ਹੋਵੇਗੇ।"
+#~ "We are currently performing some maintenance on the system, and will "
+#~ "return momentarily."
+#~ msgstr "ਅਸੀਂ ਸਿਸਟਮ ਉੱਤੇ ਕੁਝ ਦੇਖਭਾਲ ਦਾ ਕੰਮ ਕਰ ਰਹੇ ਹਾਂ ਅਤੇ ਛੇਤੀ ਹੀ ਉਪਲੱਬਧ ਹੋਵੇਗੇ।"
 
 #~ msgid "Reset Password Request"
 #~ msgstr "ਪਾਸਵਰਡ ਬੇਨਤੀ ਮੁੜ-ਸੈੱਟ"
