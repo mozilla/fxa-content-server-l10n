@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-12 22:28+0000\n"
 "PO-Revision-Date: 2015-11-13 14:05+0000\n"
-"Last-Translator: baurthefirst <baurthefirst@gmail.com>\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
 "MIME-Version: 1.0\n"
@@ -694,7 +694,7 @@ msgstr "Синхрондауды толығымен қолданыңыз."
 #: app/scripts/templates/marketing_snippet_ios.mustache:12
 #: app/scripts/templates/marketing_snippet_ios.mustache:13
 msgid "Download Firefox for iOS!"
-msgstr "iOS үшін Firefox-ты жүктеп алыңыз!"
+msgstr "iOS үшін Firefox-ты жүктеп алу!"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:6
 #: app/scripts/templates/marketing_snippet_ios.mustache:7
