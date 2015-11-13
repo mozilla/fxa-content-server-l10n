@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1447424308.0\n"
+"X-POOTLE-MTIME: 1447424334.0\n"
 
 #: templates/_pending.txt:1
 #: templates/verify_reminder_second.html:2
@@ -448,7 +448,7 @@ msgstr ""
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr "commit fail"
+msgstr "Firefox Accounts vereist JavaScript."
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:4
