@@ -89,7 +89,7 @@ msgstr "Një pajisje filloi të njëkohësohet me pajisje të lidhura te Llogari
 #: templates/verify_reminder_first.html:6
 #: templates/verify_reminder_second.html:6
 msgid "This is an automated email; if you received it in error, no action is required."
-msgstr "Ky është një email i automatizuar; nëse e morët gabimisht, nuk ka nevojë të bëni gjë."
+msgstr "Ky është një email i automatizuar; nëse e morët gabimisht, s’ka nevojë të bëni gjë."
 
 #: templates/new_sync_device.html:5
 #: templates/password_changed.html:5

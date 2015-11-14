@@ -198,7 +198,7 @@ msgstr "Shërbyesi është i zënë, riprovoni së shpejti"
 
 #: app/scripts/lib/auth-errors.js:103
 msgid "This endpoint is no longer supported"
-msgstr "Kjo pikë mbarimi nuk mbulohet më"
+msgstr "Kjo pikë mbarimi s’mbulohet më"
 
 # riprovoni
 # ndaj përpiquni sërish
