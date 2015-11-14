@@ -1,10 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-12 22:28+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2015-11-14 16:26+0000\n"
+"Last-Translator: Joseph Psychas <sirios2222@yahoo.gr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
@@ -21,12 +22,12 @@ msgstr ""
 
 #: app/scripts/views/confirm_account_unlock.js:100
 msgid "Account unlocked, please try again"
-msgstr ""
+msgstr "Ο λογαριασμός ξεκλειδώθηκε, παρακαλούμε δοκιμάστε ξανά"
 
 #: app/scripts/views/confirm_reset_password.js:153
 #: app/scripts/views/ready.js:48
 msgid "Password reset"
-msgstr ""
+msgstr "Επαναφορά κωδικού"
 
 #: app/scripts/views/confirm_reset_password.js:182
 msgid "Password reset successfully. Sign in to continue."
@@ -38,7 +39,7 @@ msgstr ""
 
 #: app/scripts/views/ready.js:38
 msgid "Account unlocked"
-msgstr ""
+msgstr "Ο λογαριασμός ξεκλειδώθηκε"
 
 #: app/scripts/views/ready.js:43
 msgid "Welcome back"
@@ -90,11 +91,10 @@ msgstr ""
 
 #: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
-msgstr ""
+msgstr "Το εμφανιζόμενο όνομα άλλαξε"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 
 #: app/scripts/views/mixins/signed-out-notification-mixin.js:34
@@ -111,7 +111,7 @@ msgstr ""
 #: app/scripts/lib/require-on-demand.js:45
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
-msgstr ""
+msgstr "Μη αναμενόμενο σφάλμα"
 
 #: app/scripts/lib/auth-errors.js:27 app/scripts/lib/oauth-errors.js:48
 msgid "Invalid token"
@@ -127,7 +127,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:39
 msgid "Account already exists"
-msgstr ""
+msgstr "Ο λογαριασμός υπάρχει ήδη"
 
 #: app/scripts/lib/auth-errors.js:43
 msgid "Unknown account"
@@ -232,7 +232,7 @@ msgstr ""
 #: app/scripts/templates/sign_up.mustache:14
 #: app/scripts/templates/settings/change_password.mustache:11
 msgid "Must be at least 8 characters"
-msgstr ""
+msgstr "Πρέπει να περιέχει τουλάχιστον 8 χαρακτήρες"
 
 #: app/scripts/lib/auth-errors.js:147
 msgid "Valid password required"
@@ -364,9 +364,10 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:22
@@ -493,7 +494,7 @@ msgstr ""
 #: app/scripts/templates/complete_reset_password.mustache:10
 #: app/scripts/templates/settings/change_password.mustache:8
 msgid "New password"
-msgstr ""
+msgstr "Νέος κωδικός"
 
 #: app/scripts/templates/complete_reset_password.mustache:12
 #: app/scripts/templates/complete_reset_password.mustache:15
@@ -505,7 +506,7 @@ msgstr ""
 #: app/scripts/templates/settings/change_password.mustache:10
 #: app/scripts/templates/settings/delete_account.mustache:5
 msgid "Show"
-msgstr ""
+msgstr "Εμφάνιση"
 
 #: app/scripts/templates/complete_reset_password.mustache:13
 msgid "Repeat password"
@@ -558,8 +559,8 @@ msgstr ""
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification"
+" link sent to %(email)s"
 msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
@@ -611,7 +612,7 @@ msgstr ""
 #: app/scripts/templates/settings/change_password.mustache:1
 #: app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
-msgstr ""
+msgstr "Κωδικός"
 
 #: app/scripts/templates/force_auth.mustache:8
 #: app/scripts/templates/sign_in.mustache:12
@@ -619,15 +620,15 @@ msgstr ""
 #: app/scripts/templates/sign_in.mustache:27
 #: app/scripts/templates/settings/change_password.mustache:7
 msgid "Forgot password?"
-msgstr ""
+msgstr "Ξεχάσατε τον κωδικό σας;"
 
 #: app/scripts/templates/force_auth.mustache:9
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:15
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
@@ -715,7 +716,7 @@ msgstr ""
 #: app/scripts/templates/settings/display_name.mustache:6
 #: app/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
-msgstr ""
+msgstr "Ακύρωση"
 
 #: app/scripts/templates/ready.mustache:1
 msgid "Success"
@@ -786,7 +787,7 @@ msgstr ""
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/communication_preferences.mustache:6
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Λάβετε τα τελευταία νέα του Mozilla και του Firefox."
 
 #: app/scripts/templates/sign_up.mustache:27
 msgid "Have an account? Sign in."
@@ -798,7 +799,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/avatar.mustache:1
 msgid "Account picture"
-msgstr ""
+msgstr "Εικόνα προφίλ"
 
 #: app/scripts/templates/settings/avatar.mustache:2
 #: app/scripts/templates/settings/avatar_crop.mustache:2
@@ -808,7 +809,7 @@ msgstr ""
 #: app/scripts/templates/settings/display_name.mustache:2
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Change"
-msgstr ""
+msgstr "Αλλαγή"
 
 #: app/scripts/templates/settings/avatar.mustache:4
 msgid "Add"
@@ -824,11 +825,11 @@ msgstr ""
 
 #: app/scripts/templates/settings/avatar_change.mustache:2
 msgid "Camera"
-msgstr ""
+msgstr "Κάμερα"
 
 #: app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Gravatar"
-msgstr ""
+msgstr "Gravatar"
 
 #: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Clear"
@@ -854,7 +855,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
-msgstr ""
+msgstr "Παλιός κωδικός"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:2
 msgid "Communication preferences"
@@ -862,7 +863,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Email preferences"
-msgstr ""
+msgstr "Προτιμήσεις email"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:9
 msgid "Unsubscribe"
@@ -875,11 +876,11 @@ msgstr ""
 #: app/scripts/templates/settings/delete_account.mustache:1
 #: app/scripts/templates/settings/delete_account.mustache:6
 msgid "Delete account"
-msgstr ""
+msgstr "Διαγραφή λογαριασμού"
 
 #: app/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete"
-msgstr ""
+msgstr "Διαγραφή"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid ""
@@ -889,13 +890,15 @@ msgstr ""
 #: app/scripts/templates/settings/display_name.mustache:1
 #: app/scripts/templates/settings/display_name.mustache:4
 msgid "Display name"
-msgstr ""
+msgstr "Εμφανιζόμενο όνομα"
 
 #: app/scripts/templates/settings/display_name.mustache:3
 msgid ""
 "Choose the name you would like to appear in Firefox and when managing your "
 "account."
 msgstr ""
+"Επιλέξτε το όνομα που θέλετε να εμφανίζεται στον Firefox όταν διαχειρίζεστε "
+"τον λογαριασμό σας."
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
