@@ -1,0 +1,1089 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-29 18:05+0000\n"
+"PO-Revision-Date: 2015-08-29 14:35+0000\n"
+"Last-Translator: umesh <umeshsnwl@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hi_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1440858924.0\n"
+
+#: app/scripts/views/complete_reset_password.js:134
+#: app/scripts/views/complete_sign_up.js:101 app/scripts/views/confirm.js:116
+#: app/scripts/views/confirm_reset_password.js:165
+msgid "Account verified successfully"
+msgstr "खाता सफलतापूर्वक सत्यापित"
+
+#: app/scripts/views/confirm_account_unlock.js:102
+msgid "Account unlocked, please try again"
+msgstr "खता खुल गया है, पुनः प्रयास करें"
+
+#: app/scripts/views/confirm_reset_password.js:155
+#: app/scripts/views/ready.js:50
+msgid "Password reset"
+msgstr "कूटशब्द पुनः तैयार करें"
+
+#: app/scripts/views/confirm_reset_password.js:184
+msgid "Password reset successfully. Sign in to continue."
+msgstr "कूटशब्द सफलतापूर्वक बदला गया. जारी रखने के लिए साइन इन करें."
+
+#: app/scripts/views/ready.js:31
+msgid "Firefox Sync will begin momentarily"
+msgstr ""
+
+#: app/scripts/views/ready.js:40
+msgid "Account unlocked"
+msgstr "खाता वितालकित"
+
+#: app/scripts/views/ready.js:45
+msgid "Welcome back"
+msgstr ""
+
+#: app/scripts/views/ready.js:46
+msgid "Firefox Sync will resume momentarily"
+msgstr ""
+
+#: app/scripts/views/ready.js:56
+msgid "Welcome to Sync"
+msgstr ""
+
+#: app/scripts/views/ready.js:61
+msgid "Account verified"
+msgstr "खाता सत्यापित"
+
+#: app/scripts/views/ready.js:62 app/scripts/templates/ready.mustache:5
+msgid "You are now ready to use %(serviceName)s"
+msgstr "अब आप %(serviceName)s उपयोग करने के लिए तैयार हैं"
+
+#: app/scripts/views/reset_password.js:82 app/scripts/views/sign_in.js:191
+msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
+msgstr "अज्ञात खाता.<a href=\"/signup\">साइन अप</a>"
+
+#: app/scripts/views/settings.js:223
+msgid "Signed out successfully"
+msgstr "सफलतापूर्वक साइन आउट किया गया"
+
+#: app/scripts/views/sign_up.js:343
+msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
+msgstr "खाता पहले से मौजूद है. <a href=\"/signin\">साइन इन</a>"
+
+#: app/scripts/views/settings/avatar_gravatar.js:91
+msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
+msgstr "सौजन्य से <a href=\"https://www.gravatar.com\">ग्रावतार</a>"
+
+#: app/scripts/views/settings/change_password.js:54
+msgid "Password changed successfully"
+msgstr "कूटशब्द सफलतापूर्वक बदला गया"
+
+#: app/scripts/views/settings/communication_preferences.js:110
+msgid "Subscribed successfully"
+msgstr "सफलतापूर्वक अभिदत्त किया गया"
+
+#: app/scripts/views/settings/communication_preferences.js:111
+msgid "Unsubscribed successfully"
+msgstr "सफलतापूर्वक अभिदत्तता समाप्त की गयी"
+
+#: app/scripts/views/settings/delete_account.js:60
+msgid "Account deleted successfully"
+msgstr "खाता सफलतापूर्वक नष्ट किया गया"
+
+#: app/scripts/views/settings/display_name.js:54
+msgid "Display name updated"
+msgstr "प्रदर्शित होने वाले नाम का नवीनीकरण हो गया है"
+
+#: app/scripts/views/mixins/account-locked-mixin.js:31
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgstr "खाता बंद. <a href=\"/confirm_account_unlock\">खोलने हेतु ईमेल भेजें</a>"
+
+#: app/scripts/lib/auth-errors.js:18 app/scripts/lib/config-loader.js:82
+#: app/scripts/lib/marketing-email-errors.js:18
+#: app/scripts/lib/oauth-errors.js:19 app/scripts/lib/profile-errors.js:35
+#: app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/require-on-demand.js:37
+#: app/scripts/lib/require-on-demand.js:41
+#: app/scripts/lib/require-on-demand.js:45
+#: app/scripts/templates/unexpected_error.mustache:1
+msgid "Unexpected error"
+msgstr "अप्रत्याशित त्रुटि"
+
+#: app/scripts/lib/auth-errors.js:28 app/scripts/lib/oauth-errors.js:49
+msgid "Invalid token"
+msgstr "अमान्य टोकन"
+
+#: app/scripts/lib/auth-errors.js:32
+msgid "Invalid timestamp in request signature"
+msgstr "अनुरोध हस्ताक्षर में अवैध समयपंजीकरण"
+
+#: app/scripts/lib/auth-errors.js:36
+msgid "Invalid nonce in request signature"
+msgstr "अनुरोध हस्ताक्षर में अवैध अवसर"
+
+#: app/scripts/lib/auth-errors.js:40
+msgid "Account already exists"
+msgstr "खाता पहले से मौजूद है"
+
+#: app/scripts/lib/auth-errors.js:44
+msgid "Unknown account"
+msgstr "अज्ञात खाता"
+
+#: app/scripts/lib/auth-errors.js:48
+msgid "Incorrect email case"
+msgstr "गलत ईमेल मामला"
+
+#: app/scripts/lib/auth-errors.js:52
+msgid "Incorrect password"
+msgstr "गलत कूटशब्द"
+
+#: app/scripts/lib/auth-errors.js:56
+msgid "Unverified account"
+msgstr "असत्यापित खाता"
+
+#: app/scripts/lib/auth-errors.js:60
+msgid "Invalid verification code"
+msgstr "अमान्य सत्यापन कूटभाषा"
+
+#: app/scripts/lib/auth-errors.js:64
+msgid "Invalid JSON in request body"
+msgstr "अनुरोध क्षेत्र में अमान्य JSON"
+
+#: app/scripts/lib/auth-errors.js:68 app/scripts/lib/profile-errors.js:23
+msgid "Invalid parameter in request body: %(param)s"
+msgstr "अनुरोध शरीर में अमान्य मापदण्ड: %(param)s"
+
+#: app/scripts/lib/auth-errors.js:72
+msgid "Missing parameter in request body: %(param)s"
+msgstr "अनुरोध शरीर में अनुपस्थित मापदण्ड: %(param)s"
+
+#: app/scripts/lib/auth-errors.js:76
+msgid "Invalid request signature"
+msgstr "अवैध अनुरोध हस्ताक्षर"
+
+#: app/scripts/lib/auth-errors.js:80
+msgid "Missing content-length header"
+msgstr "गुम सामग्री-लंबाई शीर्ष लेख"
+
+#: app/scripts/lib/auth-errors.js:84
+msgid "Request body too large"
+msgstr "अनुरोध क्षेत्र अत्यधिक बड़ा"
+
+#: app/scripts/lib/auth-errors.js:88
+msgid "Attempt limit exceeded"
+msgstr "प्रयास सीमा पार हो गई"
+
+#: app/scripts/lib/auth-errors.js:92
+msgid "Your account has been locked for security reasons"
+msgstr "आपका खाता सुरक्षा कारणों से बंद कर दिया गया है"
+
+#: app/scripts/lib/auth-errors.js:100
+msgid "Server busy, try again soon"
+msgstr "सर्वर व्यस्त, जल्द ही पुन: प्रयास करें"
+
+#: app/scripts/lib/auth-errors.js:104
+msgid "This endpoint is no longer supported"
+msgstr "यह समापन बिंदु अब समर्थित नहीं है"
+
+#: app/scripts/lib/auth-errors.js:108 app/scripts/lib/config-loader.js:78
+#: app/scripts/lib/marketing-email-errors.js:80
+#: app/scripts/lib/oauth-errors.js:79 app/scripts/lib/profile-errors.js:39
+msgid "System unavailable, try again soon"
+msgstr "प्रणाली अनुपलब्ध, जल्द ही पुन: प्रयास करें"
+
+#: app/scripts/lib/auth-errors.js:112 app/scripts/lib/oauth-errors.js:103
+msgid "no message"
+msgstr "संदेश नहीं"
+
+#: app/scripts/lib/auth-errors.js:116
+msgid "Session expired. Sign in to continue."
+msgstr "सत्र समाप्त. जारी रखने के लिए साइन इन करें."
+
+#: app/scripts/lib/auth-errors.js:120
+msgid "Cookies are still disabled"
+msgstr "कुकीज़ अभी भी अक्षम हैं"
+
+#: app/scripts/lib/auth-errors.js:124
+msgid "Passwords do not match"
+msgstr "कूटशब्द मेल नहीं खाते"
+
+#: app/scripts/lib/auth-errors.js:128
+msgid "Working…"
+msgstr "क्रियाशील…"
+
+#: app/scripts/lib/auth-errors.js:132
+msgid "Could not get Privacy Notice"
+msgstr "गोपनीयता सूचना प्राप्त नहीं हुई"
+
+#: app/scripts/lib/auth-errors.js:136
+msgid "Could not get Terms of Service"
+msgstr "सेवा की शर्तें प्राप्त नहीं हुई"
+
+#: app/scripts/lib/auth-errors.js:140
+msgid "Your new password must be different"
+msgstr "आपका नया कूटशब्द भिन्न होना चाहिए"
+
+#: app/scripts/lib/auth-errors.js:144
+#: app/scripts/templates/complete_reset_password.mustache:16
+#: app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/settings/change_password.mustache:11
+msgid "Must be at least 8 characters"
+msgstr "कम से कम 8 अक्षरों का होना चाहिए"
+
+#: app/scripts/lib/auth-errors.js:148
+msgid "Valid password required"
+msgstr "वैध कूटशब्द आवश्यक"
+
+#: app/scripts/lib/auth-errors.js:152 app/scripts/lib/auth-errors.js:190
+#: app/scripts/lib/auth-errors.js:206
+msgid "Valid email required"
+msgstr "वैध ईमेल आवश्यक"
+
+#: app/scripts/lib/auth-errors.js:163
+msgid "A usable image was not found"
+msgstr "एक प्रयोग करने योग्य छवि नहीं मिली"
+
+#: app/scripts/lib/auth-errors.js:167
+msgid "Could not initialize camera"
+msgstr "कैमरे को प्रारंभ नहीं किया जा सका"
+
+#: app/scripts/lib/auth-errors.js:171
+msgid "Valid URL required"
+msgstr "मान्य URL आवश्यक"
+
+#: app/scripts/lib/auth-errors.js:186
+msgid "Your verification email was just returned. Mistyped email?"
+msgstr "आपका सत्यापन ईमेल वापस लौटाया गया. ईमेल गलत टाइप?"
+
+#: app/scripts/lib/auth-errors.js:194
+msgid "Enter a valid email address. firefox.com does not offer email."
+msgstr "एक वैध ईमेल प्रविष्ट करें. firefox.com ईमेल प्रदान नही करता."
+
+#: app/scripts/lib/auth-errors.js:202
+msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
+msgstr "फ़ायरफ़ॉक्स खातों कों केवल अनुमोदित साइटों पर एक IFRAME में ही रखा जा सकता है"
+
+#: app/scripts/lib/auth-errors.js:210
+msgid "/force_auth requires an email"
+msgstr "/force_auth को एक ईमेल आवश्यक है"
+
+#: app/scripts/lib/auth-errors.js:214
+#: app/scripts/templates/complete_account_unlock.mustache:2
+#: app/scripts/templates/complete_sign_up.mustache:3
+msgid "The link you clicked to verify your email is expired."
+msgstr "ईमेल सत्यापन के लिए चुने हुए लिंक की वैधता समाप्त हो चुकी है."
+
+#: app/scripts/lib/auth-errors.js:218
+#: app/scripts/templates/complete_sign_up.mustache:7
+msgid "Verification link damaged"
+msgstr "सत्यापन लिंक क्षतिग्रस्त"
+
+#: app/scripts/lib/auth-errors.js:226
+msgid "The image dimensions must be at least 100x100px"
+msgstr "छवि का आयाम कम से कम 100x100px होना चाहिए"
+
+#: app/scripts/lib/auth-errors.js:230
+msgid "Signup is coming soon to Firefox for iOS"
+msgstr "फॉयरफॉक्स के आईओस के लिए पंजीकरण जल्द ही आ रहा है "
+
+#: app/scripts/lib/auth-errors.js:234
+msgid "Signup has been disabled"
+msgstr "पंजीकरण अक्षम किया गया है"
+
+#: app/scripts/lib/auth-errors.js:238
+msgid "Age is required"
+msgstr "उम्र की आवश्यकता है"
+
+#: app/scripts/lib/auth-errors.js:242
+msgid "No Gravatar found"
+msgstr "कोई ग्रावतार नहीं मिला"
+
+#: app/scripts/lib/mailcheck.js:66
+msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
+msgstr "क्या आपका मतलब है <span tabindex=\"1\">%(domain)s</span>?"
+
+#: app/scripts/lib/oauth-errors.js:25
+msgid "Unknown client"
+msgstr "अज्ञात यजमान"
+
+#: app/scripts/lib/oauth-errors.js:29
+msgid "Incorrect redirect_uri"
+msgstr "अनुचित redirect_uri"
+
+#: app/scripts/lib/oauth-errors.js:33
+msgid "Invalid assertion"
+msgstr "अमान्य अभिकथन"
+
+#: app/scripts/lib/oauth-errors.js:37
+msgid "Unknown code"
+msgstr "अज्ञात कूटभाषा"
+
+#: app/scripts/lib/oauth-errors.js:41
+msgid "Incorrect code"
+msgstr "अनुचित कूटभाषा"
+
+#: app/scripts/lib/oauth-errors.js:45
+msgid "Expired code"
+msgstr "गतावधिक कूटभाषा"
+
+#: app/scripts/lib/oauth-errors.js:53 app/scripts/lib/oauth-errors.js:75
+msgid "Invalid OAuth parameter: %(param)s"
+msgstr "अमान्य OAuth मापदण्ड: %(param)s"
+
+#: app/scripts/lib/oauth-errors.js:61 app/scripts/lib/profile-errors.js:19
+msgid "Unauthorized"
+msgstr "अनधिकृत"
+
+#: app/scripts/lib/oauth-errors.js:65
+msgid "Forbidden"
+msgstr "निषिद्ध"
+
+#: app/scripts/lib/oauth-errors.js:87
+msgid "Something went wrong. Please close this tab and try again."
+msgstr "कुछ गलती हुई. कृपया इस टैब को बंद कर पुनः प्रयास करें."
+
+#: app/scripts/lib/oauth-errors.js:107
+msgid "Missing OAuth parameter: %(param)s"
+msgstr "अनुपस्थित OAuth मापदण्ड: %(param)s"
+
+#: app/scripts/lib/profile-errors.js:27
+msgid "Unsupported image provider"
+msgstr "असंपुष्ट चित्र प्रबन्धक"
+
+#: app/scripts/lib/profile-errors.js:31
+msgid "Image processing error"
+msgstr "चित्र प्रक्रमण त्रुटि"
+
+#: app/scripts/lib/service-name.js:16
+msgid "Firefox Sync"
+msgstr "फ़ायरफ़ॉक्स के साथ करें"
+
+#: app/scripts/lib/strings.js:19
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr ""
+"कार्यवाही आगे बढ़ा के, आप स्वीकृत करते हैं <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">सेवा की शर्तें</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">निजी सूचना</"
+"a> of %(serviceName)s (%(serviceUri)s)."
+
+#: app/scripts/lib/strings.js:23
+#: app/scripts/templates/choose_what_to_sync.mustache:4
+msgid "Bookmarks"
+msgstr "बुकमार्क्स"
+
+#: app/scripts/lib/strings.js:24
+#: app/scripts/templates/choose_what_to_sync.mustache:8
+msgid "History"
+msgstr "इतिहास"
+
+#: app/scripts/lib/strings.js:25
+#: app/scripts/templates/choose_what_to_sync.mustache:2
+msgid "Tabs"
+msgstr "टैब्स"
+
+#: app/scripts/lib/strings.js:26
+#: app/scripts/templates/choose_what_to_sync.mustache:6
+msgid "Passwords"
+msgstr "पासवर्ड"
+
+#: app/scripts/lib/strings.js:27
+msgid "Desktop Add-ons"
+msgstr "डेस्कटॉप ऐड-ऑन"
+
+#: app/scripts/lib/strings.js:28
+msgid "Desktop Preferences"
+msgstr "डेस्कटॉप वरीयता"
+
+#: app/scripts/templates/cannot_create_account.mustache:1
+msgid "Cannot create account"
+msgstr "खाता नहीं बना सका"
+
+#: app/scripts/templates/cannot_create_account.mustache:3
+msgid ""
+"You must meet certain age requirements to create a Firefox&nbsp;Account."
+msgstr ""
+"अनिवार्य है की आप एक उचित आयु माँग को पूरी करें यदि आप बनाना चाहते हैं एक Firefox&nbsp;"
+"खाता."
+
+#: app/scripts/templates/cannot_create_account.mustache:5
+msgid "Learn more."
+msgstr "अधिक जानें."
+
+#: app/scripts/templates/choose_what_to_sync.mustache:1
+#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/sign_up.mustache:24
+msgid "Choose what to sync"
+msgstr "चुनें क्या साथ करना है"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:10
+msgid "Add-ons"
+msgstr ""
+
+#: app/scripts/templates/choose_what_to_sync.mustache:12
+msgid "Preferences"
+msgstr ""
+
+#: app/scripts/templates/choose_what_to_sync.mustache:14
+msgid "Add-ons and Preferences do not currently sync on mobile devices."
+msgstr ""
+
+#: app/scripts/templates/choose_what_to_sync.mustache:15
+#: app/scripts/templates/sign_up.mustache:22
+msgid "Sign up"
+msgstr "साइन अप"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:16
+#: app/scripts/templates/confirm_account_unlock.mustache:5
+#: app/scripts/templates/pp.mustache:3
+#: app/scripts/templates/reset_password.mustache:6
+#: app/scripts/templates/tos.mustache:3
+msgid "Back"
+msgstr "पीछे"
+
+#: app/scripts/templates/complete_account_unlock.mustache:1
+msgid "Unlock link expired"
+msgstr "वितालकन लिंक की वैधता समाप्त"
+
+#: app/scripts/templates/complete_account_unlock.mustache:4
+msgid "Unlock link damaged"
+msgstr "वितालकन लिंक क्षतिग्रस्त"
+
+#: app/scripts/templates/complete_account_unlock.mustache:5
+#: app/scripts/templates/complete_reset_password.mustache:7
+#: app/scripts/templates/complete_sign_up.mustache:8
+msgid ""
+"The link you clicked was missing characters, and may have been broken by "
+"your email client. Copy the address carefully, and try again."
+msgstr ""
+"जिस लिंक पर आपने क्लिक किया है उसमें अक्षर अनुपस्थित हैं, एवं शायद आपके ईमेल यजमान द्वारा "
+"तोड़ दिया गया. ध्यानपूर्वक पता कॉपी करें, एवं पुनः प्रयास करें."
+
+#: app/scripts/templates/complete_account_unlock.mustache:7
+msgid "Unlock error"
+msgstr "वितालकन त्रुटि"
+
+#: app/scripts/templates/complete_reset_password.mustache:1
+msgid "Reset password link expired"
+msgstr "कूटशब्द पुनः तैयार करने हेतु लिंक की वैधता समाप्त"
+
+#: app/scripts/templates/complete_reset_password.mustache:2
+#: app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/templates/confirm.mustache:2
+#: app/scripts/templates/confirm_account_unlock.mustache:2
+#: app/scripts/templates/confirm_reset_password.mustache:2
+msgid "Email resent"
+msgstr "ईमेल फिर से प्रेषित"
+
+#: app/scripts/templates/complete_reset_password.mustache:3
+msgid "The link you clicked to reset your password is expired."
+msgstr ""
+"जिस लिंक पर आपने अपना कूटशब्द पुनः तैयार करने के लिए क्लिक किया है उसकी वैधता समाप्त हो "
+"चुकी है."
+
+#: app/scripts/templates/complete_reset_password.mustache:4
+msgid "Click here to receive a new reset link"
+msgstr "एक नया पुनः तैयार करने का लिंक प्राप्त करने के लिए यहाँ क्लिक करें"
+
+#: app/scripts/templates/complete_reset_password.mustache:6
+msgid "Reset password link damaged"
+msgstr "कूटशब्द पुनः तैयार करने हेतु लिंक क्षतिग्रस्त"
+
+#: app/scripts/templates/complete_reset_password.mustache:9
+#: app/scripts/templates/reset_password.mustache:1
+msgid "Reset password"
+msgstr "कूटशब्द पुनः तैयार करें"
+
+#: app/scripts/templates/complete_reset_password.mustache:10
+#: app/scripts/templates/settings/change_password.mustache:8
+msgid "New password"
+msgstr "नया कूटशब्द"
+
+#: app/scripts/templates/complete_reset_password.mustache:12
+#: app/scripts/templates/complete_reset_password.mustache:15
+#: app/scripts/templates/force_auth.mustache:6
+#: app/scripts/templates/sign_in.mustache:10
+#: app/scripts/templates/sign_in.mustache:23
+#: app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/settings/change_password.mustache:6
+#: app/scripts/templates/settings/change_password.mustache:10
+#: app/scripts/templates/settings/delete_account.mustache:5
+msgid "Show"
+msgstr "दिखाएं"
+
+#: app/scripts/templates/complete_reset_password.mustache:13
+msgid "Repeat password"
+msgstr "कूटशब्द आवृत्ति"
+
+#: app/scripts/templates/complete_reset_password.mustache:17
+msgid "Next"
+msgstr "अगला"
+
+#: app/scripts/templates/complete_sign_up.mustache:1
+msgid "Verification link expired"
+msgstr "सत्यापन लिंक की वैधता समाप्त"
+
+#: app/scripts/templates/complete_sign_up.mustache:4
+msgid "Click here to receive a new verification link"
+msgstr "नया सत्यापन लिंक प्राप्त करने के लिए यहाँ दबाएं"
+
+#: app/scripts/templates/complete_sign_up.mustache:10
+msgid "Verification error"
+msgstr "सत्यापन त्रुटि"
+
+#: app/scripts/templates/confirm.mustache:1
+msgid "Confirm your account"
+msgstr "अपना खाता स्थायी करें"
+
+#: app/scripts/templates/confirm.mustache:3
+#: app/scripts/templates/confirm_account_unlock.mustache:3
+#: app/scripts/templates/confirm_reset_password.mustache:3
+msgid "Email Sent"
+msgstr "ईमेल भेजा गया"
+
+#: app/scripts/templates/confirm.mustache:4
+msgid "A verification link has been sent&nbsp;to %(email)s"
+msgstr "एक सत्यापन लिंक %(email)s पर भेजा गया है"
+
+#: app/scripts/templates/confirm.mustache:5
+msgid "Open Gmail"
+msgstr ""
+
+#: app/scripts/templates/confirm.mustache:7
+#: app/scripts/templates/confirm_account_unlock.mustache:6
+#: app/scripts/templates/confirm_reset_password.mustache:8
+msgid "Resend email"
+msgstr "ईमेल पुनः भेजें"
+
+#: app/scripts/templates/confirm_account_unlock.mustache:1
+msgid "Unlock email sent"
+msgstr "वितालकन ईमेल भेजा गया"
+
+#: app/scripts/templates/confirm_account_unlock.mustache:4
+msgid ""
+"For security reasons your account was put on lockdown. To perform account-"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
+msgstr ""
+"सुरक्षा कारणों से आपका खाता लॉकडाउन पर रखा गया है. खाता स्तरीय गतिविधियां करने के "
+"लिए, एवं अपना खाता पुनः सत्यापित करने के लिए %(email)s पर भेजे गए सत्यापन लिंक पर "
+"क्लिक करें"
+
+#: app/scripts/templates/confirm_reset_password.mustache:1
+msgid "Reset email sent"
+msgstr "पुनः तैयार करने का ईमेल भेजा गया"
+
+#: app/scripts/templates/confirm_reset_password.mustache:4
+msgid "A reset link has been sent to %(email)s"
+msgstr "एक पुनः तैयार करने का लिंक भेजा गया %(email)s पर"
+
+#: app/scripts/templates/confirm_reset_password.mustache:5
+#: app/scripts/templates/confirm_reset_password.mustache:7
+#: app/scripts/templates/force_auth.mustache:7
+#: app/scripts/templates/sign_in.mustache:1
+#: app/scripts/templates/sign_in.mustache:4
+#: app/scripts/templates/sign_in.mustache:11
+#: app/scripts/templates/sign_in.mustache:15
+#: app/scripts/templates/sign_in.mustache:24
+msgid "Sign in"
+msgstr "साइन इन"
+
+#: app/scripts/templates/cookies_disabled.mustache:1
+msgid "Cookies required"
+msgstr "कुकीज़ आवश्यक"
+
+#: app/scripts/templates/cookies_disabled.mustache:2
+msgid ""
+"Please enable cookies in your browser which are required by Firefox "
+"Accounts. Cookies are small pieces of data stored in your browser that "
+"provide functionality such as remembering you between sessions."
+msgstr ""
+"कृपया फ़ायरफ़ॉक्स खातों के लिए आवश्यक कुकीज़ को अपने ब्राउज़र में अधिकार दें. कुकीज़ आपके "
+"ब्राउज़र में संग्रहित विवरण के छोटे टुकड़े होते हैं जोकि आपको फ़ायरफ़ॉक्स सत्रों के बीच में याद "
+"रखने जैसी कार्यात्मकता प्रदान करते हैं."
+
+#: app/scripts/templates/cookies_disabled.mustache:3
+msgid "Learn more"
+msgstr "अधिक जानें"
+
+#: app/scripts/templates/cookies_disabled.mustache:4
+msgid "Try again"
+msgstr "पुनः प्रयास करें"
+
+#: app/scripts/templates/force_auth.mustache:1
+msgid "Sign in to continue"
+msgstr "जारी रखने के लिए साइन इन करें"
+
+#: app/scripts/templates/force_auth.mustache:3
+#: app/scripts/templates/sign_in.mustache:8
+#: app/scripts/templates/sign_in.mustache:20
+#: app/scripts/templates/sign_up.mustache:10
+#: app/scripts/templates/settings/change_password.mustache:1
+#: app/scripts/templates/settings/delete_account.mustache:4
+msgid "Password"
+msgstr "कूटशब्द"
+
+#: app/scripts/templates/force_auth.mustache:8
+#: app/scripts/templates/sign_in.mustache:12
+#: app/scripts/templates/sign_in.mustache:25
+#: app/scripts/templates/sign_in.mustache:27
+#: app/scripts/templates/settings/change_password.mustache:7
+msgid "Forgot password?"
+msgstr "कूटशब्द भूल गए?"
+
+#: app/scripts/templates/force_auth.mustache:9
+#: app/scripts/templates/sign_in.mustache:29
+#: app/scripts/templates/sign_up.mustache:15
+msgid ""
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
+msgstr ""
+"कार्यवाही आगे बढ़ा के, आप स्वीकृत करते हैं <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">सेवा की शर्तें</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">निजी सूचना</a> "
+"फ़ायरफ़ॉक्स क्लाउड सेवाओं की."
+
+#: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
+#: app/scripts/templates/tos.mustache:1
+msgid "Firefox cloud services"
+msgstr "फ़ायरफ़ॉक्स क्लाउड सेवायें"
+
+#: app/scripts/templates/legal.mustache:2
+msgid "Legal"
+msgstr "क़ानूनी"
+
+#: app/scripts/templates/legal.mustache:3
+#: app/scripts/templates/settings.mustache:5
+#: app/scripts/templates/tos.mustache:2
+msgid "Terms of Service"
+msgstr "सेवा की शर्तें"
+
+#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
+#: app/scripts/templates/settings.mustache:6
+msgid "Privacy Notice"
+msgstr "निजी सूचना"
+
+#: app/scripts/templates/marketing_snippet.mustache:1
+msgid "Stay in sync on the go:"
+msgstr "सिंक ऑन गो में रहें:"
+
+#: app/scripts/templates/marketing_snippet.mustache:2
+msgid "Get Firefox for Android"
+msgstr "एंड्रॉयड हेतु फ़ायरफ़ॉक्स लें"
+
+#: app/scripts/templates/marketing_snippet_ios.mustache:1
+#: app/scripts/templates/marketing_snippet_ios.mustache:5
+#: app/scripts/templates/marketing_snippet_ios.mustache:9
+msgid "Get the full Sync experience."
+msgstr "पाएं साथ करने का सम्पूर्ण अनुभव."
+
+#: app/scripts/templates/marketing_snippet_ios.mustache:2
+#: app/scripts/templates/marketing_snippet_ios.mustache:12
+msgid "Firefox is coming soon to iOS!"
+msgstr "फ़ायरफ़ॉक्स जल्द आ रहा है iOS पर!"
+
+#: app/scripts/templates/marketing_snippet_ios.mustache:3
+#: app/scripts/templates/marketing_snippet_ios.mustache:13
+msgid "Sign up to learn more"
+msgstr "अधिक जानने के लिए साइन अप करें"
+
+#: app/scripts/templates/marketing_snippet_ios.mustache:6
+#: app/scripts/templates/marketing_snippet_ios.mustache:7
+#: app/scripts/templates/marketing_snippet_ios.mustache:11
+msgid "Download Firefox for Android."
+msgstr "एंड्रॉयड हेतु फ़ायरफ़ॉक्स डाउनलोड करें"
+
+#: app/scripts/templates/marketing_snippet_ios.mustache:10
+msgid "Download Firefox for mobile devices."
+msgstr "अस्थिर यंत्रों के लिए फ़ायरफ़ॉक्स डाउनलोड"
+
+#: app/scripts/templates/permissions.mustache:1
+#: app/scripts/templates/settings/gravatar_permissions.mustache:1
+msgid "Request for permission"
+msgstr "अनुमति की विनती"
+
+#: app/scripts/templates/permissions.mustache:2
+#: app/scripts/templates/settings/gravatar_permissions.mustache:2
+msgid "%(serviceName)s wants the following information from your account:"
+msgstr "%(serviceName)s आपके खाते से निम्न जानकारी प्राप्त करना चाहता है:"
+
+#: app/scripts/templates/permissions.mustache:3
+#: app/scripts/templates/reset_password.mustache:4
+#: app/scripts/templates/sign_in.mustache:19
+#: app/scripts/templates/sign_up.mustache:8
+#: app/scripts/templates/settings/gravatar_permissions.mustache:3
+msgid "Email"
+msgstr "ईमेल"
+
+#: app/scripts/templates/permissions.mustache:4
+#: app/scripts/templates/settings/gravatar_permissions.mustache:4
+msgid "Accept"
+msgstr "स्वीकार"
+
+#: app/scripts/templates/permissions.mustache:5
+#: app/scripts/templates/settings/avatar_camera.mustache:2
+#: app/scripts/templates/settings/avatar_crop.mustache:3
+#: app/scripts/templates/settings/avatar_gravatar.mustache:3
+#: app/scripts/templates/settings/change_password.mustache:13
+#: app/scripts/templates/settings/communication_preferences.mustache:4
+#: app/scripts/templates/settings/communication_preferences.mustache:12
+#: app/scripts/templates/settings/delete_account.mustache:7
+#: app/scripts/templates/settings/display_name.mustache:6
+#: app/scripts/templates/settings/gravatar_permissions.mustache:5
+msgid "Cancel"
+msgstr "रद्द"
+
+#: app/scripts/templates/ready.mustache:1
+msgid "Success"
+msgstr "सफल"
+
+#: app/scripts/templates/ready.mustache:2
+msgid "Sync preferences"
+msgstr ""
+
+#: app/scripts/templates/ready.mustache:6
+msgid "Proceed"
+msgstr "आगे जाऐं"
+
+#: app/scripts/templates/ready.mustache:9
+msgid "Your account is ready!"
+msgstr "आपका खाता तैयार है!"
+
+#: app/scripts/templates/reset_password.mustache:2
+msgid "Are you sure you want to reset your account password?"
+msgstr "क्या आप सुनिश्चित करते हैं कि आप अपने खाते का पासवर्ड रीसेट करना चाहते हैं?"
+
+#: app/scripts/templates/reset_password.mustache:3
+msgid ""
+"Resetting your password will erase your browsing data from our servers. Any "
+"data on your devices will remain untouched. Begin the reset process by "
+"entering your email below."
+msgstr ""
+"पासवर्ड रीसेट करने पर हमारे सर्वर से आपका ब्राउज़िंग डाटा मिट जायेगा. आपके उपकरणों पर "
+"कोई डेटा अछूता रहेगा. नीचे अपना ईमेल दर्ज करके रीसेट प्रक्रिया शुरू करते हैं."
+
+#: app/scripts/templates/reset_password.mustache:5
+msgid "Begin reset"
+msgstr "रीसेट शुरू करें"
+
+#: app/scripts/templates/settings.mustache:1
+msgid "Firefox Accounts"
+msgstr ""
+
+#: app/scripts/templates/settings.mustache:2
+msgid "Sign out"
+msgstr "साइन आउट"
+
+#: app/scripts/templates/sign_in.mustache:2
+#: app/scripts/templates/sign_up.mustache:2
+msgid "Continue to %(serviceName)s"
+msgstr "जारी रखें %(serviceName)s"
+
+#: app/scripts/templates/sign_in.mustache:6
+msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
+msgstr "अपने फॉयरफॉक्स तथा nbsp खातों मैं साइन इन करके अपना;सिंक डेटा माइग्रेट कीजिए."
+
+#: app/scripts/templates/sign_in.mustache:13
+#: app/scripts/templates/sign_in.mustache:16
+msgid "Use a different account"
+msgstr "भिन्न खाता उपयोग करें"
+
+#: app/scripts/templates/sign_in.mustache:28
+msgid "Create an account"
+msgstr "एक खाता बनायें"
+
+#: app/scripts/templates/sign_up.mustache:1
+#: app/scripts/templates/sign_up.mustache:4
+msgid "Create a Firefox Account"
+msgstr "एक फ़ायरफ़ॉक्स खाता बनायें"
+
+#: app/scripts/templates/sign_up.mustache:6
+msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
+msgstr "नए फॉयरफॉक्स तथा nbsp खाते बनाके अपना;सिंक डेटा माइग्रेट कीजिए."
+
+#: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/settings/communication_preferences.mustache:6
+msgid "Get the latest news about Mozilla and Firefox."
+msgstr "मोज़िला और फ़ायरफ़ॉक्स के विषय में नवीनतम समाचार प्राप्त करें."
+
+#: app/scripts/templates/sign_up.mustache:27
+msgid "Have an account? Sign in."
+msgstr "खाता है? साइन इन कीजिये."
+
+#: app/scripts/templates/unexpected_error.mustache:2
+msgid "Home"
+msgstr "घर"
+
+#: app/scripts/templates/settings/avatar.mustache:1
+msgid "Account picture"
+msgstr "खाते की तस्वीर"
+
+#: app/scripts/templates/settings/avatar.mustache:2
+#: app/scripts/templates/settings/avatar_crop.mustache:2
+#: app/scripts/templates/settings/change_password.mustache:2
+#: app/scripts/templates/settings/change_password.mustache:12
+#: app/scripts/templates/settings/communication_preferences.mustache:3
+#: app/scripts/templates/settings/display_name.mustache:2
+#: app/scripts/templates/settings/display_name.mustache:5
+msgid "Change"
+msgstr "बदली करें"
+
+#: app/scripts/templates/settings/avatar.mustache:4
+msgid "Add"
+msgstr "जोड़िये"
+
+#: app/scripts/templates/settings/avatar_camera.mustache:1
+msgid "Take picture"
+msgstr "प्रतिच्छाया लें"
+
+#: app/scripts/templates/settings/avatar_change.mustache:1
+msgid "Upload"
+msgstr "अपलोड"
+
+#: app/scripts/templates/settings/avatar_change.mustache:2
+msgid "Camera"
+msgstr "कैमरा"
+
+#: app/scripts/templates/settings/avatar_change.mustache:3
+msgid "Gravatar"
+msgstr "ग्रावतार"
+
+#: app/scripts/templates/settings/avatar_change.mustache:4
+msgid "Clear"
+msgstr "हटाना"
+
+#: app/scripts/templates/settings/avatar_change.mustache:5
+msgid "Done"
+msgstr "समाप्त"
+
+#: app/scripts/templates/settings/avatar_crop.mustache:1
+msgid "Position and rotate your picture as needed"
+msgstr "अपने चित्र को उपयुक्त स्थान पर रखें एवं आवश्यकतानुसार घुमायें"
+
+#: app/scripts/templates/settings/avatar_gravatar.mustache:2
+msgid "Save"
+msgstr "सुरक्षित करें"
+
+#: app/scripts/templates/settings/change_password.mustache:3
+msgid ""
+"Once you're finished, use your new password to sign in on all of your "
+"devices."
+msgstr ""
+"आप एक बार संपूर्ण करने के बाद, अपने नए कूटशब्द का उपयोग कर अपने संपूर्ण यंत्रों में साइन इन "
+"करें."
+
+#: app/scripts/templates/settings/change_password.mustache:4
+msgid "Old password"
+msgstr "पुराना कूटशब्द"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:2
+msgid "Communication preferences"
+msgstr "सम्पर्क अधिमान"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:7
+msgid "Email preferences"
+msgstr "ईमेल अधिमान"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:9
+msgid "Unsubscribe"
+msgstr "ग्राहकी बंद करें"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:11
+msgid "Subscribe"
+msgstr "अभिदत्त"
+
+#: app/scripts/templates/settings/delete_account.mustache:1
+#: app/scripts/templates/settings/delete_account.mustache:6
+msgid "Delete account"
+msgstr "खाता नष्ट करें"
+
+#: app/scripts/templates/settings/delete_account.mustache:2
+msgid "Delete"
+msgstr "मिटा दें"
+
+#: app/scripts/templates/settings/delete_account.mustache:3
+msgid ""
+"Are you sure you want to delete your account? This action cannot be undone."
+msgstr ""
+"क्या आप निश्चित हैं की आप अपना खाता नष्ट करना चाहते हैं? यह क्रिया वापस नहीं हो सकती."
+
+#: app/scripts/templates/settings/display_name.mustache:1
+#: app/scripts/templates/settings/display_name.mustache:4
+msgid "Display name"
+msgstr "प्रदर्शित होने वाला नाम"
+
+#: app/scripts/templates/settings/display_name.mustache:3
+msgid ""
+"Choose the name you would like to appear in Firefox and when managing your "
+"account."
+msgstr ""
+"नाम का चयन करें जो कि आप फॉयरफॉक्स में तथा अकाउंट प्रबंधन के समय प्रदर्शित करना चाहते हैं."
+
+#: app/scripts/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you?"
+msgstr "आपकी उम्र क्या है?"
+
+#: app/scripts/templates/openid/start.mustache:1
+msgid "Sign in to Sync"
+msgstr ""
+
+#: app/scripts/templates/openid/start.mustache:2
+msgid ""
+"Choose the account you would like to use to sync your tabs, bookmarks, "
+"passwords and more."
+msgstr ""
+
+#: app/scripts/templates/openid/start.mustache:3
+msgid "Use OpenID"
+msgstr ""
+
+#: app/scripts/templates/openid/start.mustache:4
+msgid "Use Firefox Account"
+msgstr ""
+
+#~ msgid "1991"
+#~ msgstr "1991"
+
+#~ msgid "1992"
+#~ msgstr "1992"
+
+#~ msgid "1993"
+#~ msgstr "1993"
+
+#~ msgid "1994"
+#~ msgstr "1994"
+
+#~ msgid "1995"
+#~ msgstr "1995"
+
+#~ msgid "1996"
+#~ msgstr "1996"
+
+#~ msgid "1997"
+#~ msgstr "1997"
+
+#~ msgid "1998"
+#~ msgstr "1998"
+
+#~ msgid "1999"
+#~ msgstr "1999"
+
+#~ msgid "2000"
+#~ msgstr "2000"
+
+#~ msgid "2001"
+#~ msgstr "2001"
+
+#~ msgid "2002"
+#~ msgstr "2002"
+
+#~ msgid "2003"
+#~ msgstr "2003"
+
+#~ msgid "2004"
+#~ msgstr "2004"
+
+#~ msgid "2005"
+#~ msgstr "2005"
+
+#~ msgid "2006"
+#~ msgstr "2006"
+
+#~ msgid "2007"
+#~ msgstr "2007"
+
+#~ msgid "Year of birth required"
+#~ msgstr "जन्मवर्ष आवश्यक"
+
+#~ msgid "Valid birthday required"
+#~ msgstr "मान्य जन्मदिन की आवश्यकता"
+
+#~ msgid "Year of birth"
+#~ msgstr "जन्मवर्ष"
+
+#~ msgid "1990 or earlier"
+#~ msgstr "1990 या उससे पूर्व"
+
+#~ msgid "Month"
+#~ msgstr "माह"
+
+#~ msgid "January"
+#~ msgstr "जनवरी"
+
+#~ msgid "February"
+#~ msgstr "फरवरी"
+
+#~ msgid "March"
+#~ msgstr "मार्च"
+
+#~ msgid "April"
+#~ msgstr "अप्रैल"
+
+#~ msgid "May"
+#~ msgstr "मई"
+
+#~ msgid "June"
+#~ msgstr "जून"
+
+#~ msgid "July"
+#~ msgstr "जुलाई"
+
+#~ msgid "August"
+#~ msgstr "अगस्त"
+
+#~ msgid "September"
+#~ msgstr "सितम्बर"
+
+#~ msgid "October"
+#~ msgstr "अक्टूबर"
+
+#~ msgid "November"
+#~ msgstr "नवंबर"
+
+#~ msgid "December"
+#~ msgstr "दिसम्बर"
+
+#~ msgid "Day"
+#~ msgstr "दिवस"
+
+#~ msgid "Manage account"
+#~ msgstr "खाता संभालें"
+
+#~ msgid "Hello, <span>%(username)s</span>"
+#~ msgstr "हैलो, <span>%(username)s</span>"
+
+#~ msgid "Edit profile"
+#~ msgstr "प्रालेख संपादन"
+
+#~ msgid "Name"
+#~ msgstr "नाम"
+
+#~ msgid "Change password"
+#~ msgstr "कूटशब्द परिवर्तन"
+
+#~ msgid "Confirm"
+#~ msgstr "पुष्टि"
+
+#~ msgid "Enter your email to reset&nbsp;the account password."
+#~ msgstr "अपना ईमेल प्रविष्ट करें reset&nbsp;करने के लिए अपने खाता कूटशब्द."
+
+#~ msgid ""
+#~ "For security reasons, resetting your password will erase your Sync data "
+#~ "from our servers. A new Sync backup will be created from your local "
+#~ "browsing data."
+#~ msgstr ""
+#~ "सुरक्षा कारणों से, अपना कूटशब्द पुनः तैयार करने पर आपका साथ किया हुआ डेटा हमारे सर्वेरों "
+#~ "से मिटा दिया जाएगा. आपके स्थानीय ब्राउज़िंग डेटा से एक नया साथ किया हुआ बैकअप का "
+#~ "निर्माण कर दिया जाएगा."
+
+#~ msgid "You are signed in as"
+#~ msgstr "आप निम्न के रूप में साइन इन हैं"
+
+#~ msgid "Already have an account? Sign in."
+#~ msgstr "पहले से ही खाता है? साइन इन."
