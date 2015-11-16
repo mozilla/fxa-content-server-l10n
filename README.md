@@ -29,7 +29,7 @@ The process to work with strings:
 * Have all the dependencies be up to date in the fxa-auth-mailer and fxa-content-server repos using `npm install`.
 
 ## Locale Normalization
-> Before Production Deploy
+> Before Release Build
 
 Some locales need to be copied over into a different directory. Run this script a few hours before the production deploy:
 
