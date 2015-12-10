@@ -1,28 +1,29 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-12 22:28+0000\n"
-"PO-Revision-Date: 2015-02-23 02:23+0000\n"
-"Last-Translator: Hyeonseok <hyeonseok@gmail.com>\n"
+"PO-Revision-Date: 2015-12-10 06:55+0000\n"
+"Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1424658195.0\n"
 
 #: app/scripts/views/complete_reset_password.js:131
 #: app/scripts/views/complete_sign_up.js:103 app/scripts/views/confirm.js:114
 #: app/scripts/views/confirm_reset_password.js:163
 msgid "Account verified successfully"
-msgstr ""
+msgstr "계정 확인 성공"
 
 #: app/scripts/views/confirm_account_unlock.js:100
 msgid "Account unlocked, please try again"
-msgstr ""
+msgstr "계정 잠김, 다시 시도해 주세요"
 
 #: app/scripts/views/confirm_reset_password.js:153
 #: app/scripts/views/ready.js:48
@@ -31,7 +32,7 @@ msgstr "암호 재설정"
 
 #: app/scripts/views/confirm_reset_password.js:182
 msgid "Password reset successfully. Sign in to continue."
-msgstr ""
+msgstr "비밀번호를 성공적으로 재설정했습니다. 로그인해 주세요."
 
 #: app/scripts/views/ready.js:29
 msgid "Firefox Sync will begin momentarily"
@@ -39,7 +40,7 @@ msgstr ""
 
 #: app/scripts/views/ready.js:38
 msgid "Account unlocked"
-msgstr ""
+msgstr "계정 잠김 해제"
 
 #: app/scripts/views/ready.js:43
 msgid "Welcome back"
@@ -75,15 +76,15 @@ msgstr ""
 
 #: app/scripts/views/settings/change_password.js:51
 msgid "Password changed successfully"
-msgstr ""
+msgstr "비밀번호 변경 성공"
 
 #: app/scripts/views/settings/communication_preferences.js:108
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "구독 성공"
 
 #: app/scripts/views/settings/communication_preferences.js:109
 msgid "Unsubscribed successfully"
-msgstr ""
+msgstr "구독 해제 성공"
 
 #: app/scripts/views/settings/delete_account.js:54
 msgid "Account deleted successfully"
@@ -94,13 +95,12 @@ msgid "Display name updated"
 msgstr ""
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
-msgstr ""
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgstr "계정이 잠겼습니다. <a href=\"/confirm_account_unlock\">잠금해제 메일 발송</a>"
 
 #: app/scripts/views/mixins/signed-out-notification-mixin.js:34
 msgid "Signed out successfully"
-msgstr ""
+msgstr "로그아웃 성공"
 
 #: app/scripts/lib/auth-errors.js:17 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
@@ -180,7 +180,7 @@ msgstr "재시도 횟수 초과"
 
 #: app/scripts/lib/auth-errors.js:91
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "보안상의 이유로 계정 잠김"
 
 #: app/scripts/lib/auth-errors.js:99
 msgid "Server busy, try again soon"
@@ -198,7 +198,7 @@ msgstr "시스템 오류입니다, 잠시 후에 다시 시도해 주세요."
 
 #: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:102
 msgid "no message"
-msgstr ""
+msgstr "메시지 없음"
 
 #: app/scripts/lib/auth-errors.js:115
 msgid "Session expired. Sign in to continue."
@@ -253,17 +253,16 @@ msgid "Could not initialize camera"
 msgstr "카메라를 초기화할 수 없음"
 
 #: app/scripts/lib/auth-errors.js:170
-#, fuzzy
 msgid "Valid URL required"
-msgstr "올바른 이메일을 입력이 필요함"
+msgstr "올바른 URL 입력이 필요함"
 
 #: app/scripts/lib/auth-errors.js:185
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "확인 이메일이 반송되었습니다. 이메일을 잘못 입력하셨나요?"
 
 #: app/scripts/lib/auth-errors.js:193
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "유효한 이메일 주소를 입력해 주세요. firefox.com에서 이메일을 제공하지 않습니다."
 
 #: app/scripts/lib/auth-errors.js:201
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
@@ -286,7 +285,7 @@ msgstr "확인 링크가 손상됨"
 
 #: app/scripts/lib/auth-errors.js:225
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "이미지는 최소한 100x100픽셀이어야 함"
 
 #: app/scripts/lib/auth-errors.js:229
 msgid "Signup is coming soon to Firefox for iOS"
@@ -294,19 +293,19 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:233
 msgid "Signup has been disabled"
-msgstr ""
+msgstr "회원 가입이 비활성화됨"
 
 #: app/scripts/lib/auth-errors.js:237
 msgid "Age is required"
-msgstr ""
+msgstr "나이는 필수항목"
 
 #: app/scripts/lib/auth-errors.js:241
 msgid "No Gravatar found"
-msgstr ""
+msgstr "Gravatar 없음"
 
 #: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
-msgstr ""
+msgstr "<span tabindex=\"1\">%(domain)s</span>를 입력하려고 하셨나요?"
 
 #: app/scripts/lib/oauth-errors.js:24
 msgid "Unknown client"
@@ -322,19 +321,19 @@ msgstr "잘못된 검증 조건"
 
 #: app/scripts/lib/oauth-errors.js:36
 msgid "Unknown code"
-msgstr ""
+msgstr "알 수 없는 코드"
 
 #: app/scripts/lib/oauth-errors.js:40
 msgid "Incorrect code"
-msgstr ""
+msgstr "잘못된 코드"
 
 #: app/scripts/lib/oauth-errors.js:44
 msgid "Expired code"
-msgstr ""
+msgstr "만료된 코드"
 
 #: app/scripts/lib/oauth-errors.js:52 app/scripts/lib/oauth-errors.js:74
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr ""
+msgstr "유효하지 않은 OAuth 파라메터: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:60 app/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
@@ -342,7 +341,7 @@ msgstr "권한 없음"
 
 #: app/scripts/lib/oauth-errors.js:64
 msgid "Forbidden"
-msgstr ""
+msgstr "금지됨"
 
 #: app/scripts/lib/oauth-errors.js:86
 msgid "Something went wrong. Please close this tab and try again."
@@ -350,7 +349,7 @@ msgstr "잘못 실행되었습니다. 현재 탭을 닫고 다시 실행해주�
 
 #: app/scripts/lib/oauth-errors.js:106
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "OAuth 파라메터 누락: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:27
 msgid "Unsupported image provider"
@@ -366,38 +365,42 @@ msgstr "Firefox 동기화"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
+"계속 진행하면 <a id=\"service-tos\" href=\"%(termsUri)s\">이용 약관</a>과 "
+"%(serviceName)s (%(serviceUri)s)의 <a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">개인정보 보호정책</a>에 동의한 것으로 간주 합니다."
 
 #: app/scripts/lib/strings.js:22
 #: app/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
-msgstr ""
+msgstr "즐겨찾기"
 
 #: app/scripts/lib/strings.js:23
 #: app/scripts/templates/choose_what_to_sync.mustache:10
 msgid "History"
-msgstr ""
+msgstr "방문목록"
 
 #: app/scripts/lib/strings.js:24
 #: app/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Tabs"
-msgstr ""
+msgstr "탭"
 
 #: app/scripts/lib/strings.js:25
 #: app/scripts/templates/choose_what_to_sync.mustache:8
 msgid "Passwords"
-msgstr ""
+msgstr "비밀번호"
 
 #: app/scripts/lib/strings.js:26
 msgid "Desktop Add-ons"
-msgstr ""
+msgstr "데스크톱 부가기능"
 
 #: app/scripts/lib/strings.js:27
 msgid "Desktop Preferences"
-msgstr ""
+msgstr "데스크톱 설정"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -420,15 +423,15 @@ msgstr "동기화할 대상 선택"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
-msgstr ""
+msgstr "부가기능"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Preferences"
-msgstr ""
+msgstr "설정"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr ""
+msgstr "현재 부가기능과 설정은 모바일 기기에서 동기화되지 않습니다."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 #: app/scripts/templates/sign_up.mustache:22
@@ -445,11 +448,11 @@ msgstr "뒤로"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
-msgstr ""
+msgstr "잠금해제 링크 만료됨"
 
 #: app/scripts/templates/complete_account_unlock.mustache:4
 msgid "Unlock link damaged"
-msgstr ""
+msgstr "잠금해제 링크 손상됨"
 
 #: app/scripts/templates/complete_account_unlock.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:7
@@ -457,13 +460,11 @@ msgstr ""
 msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
-msgstr ""
-"클릭한 링크에 빠진 글자가 있습니다, 메일 클라이언트가 링크를 손상시켰을 수 있"
-"습니다. 주소를 다시 복사해서 시도해 주세요."
+msgstr "클릭한 링크에 빠진 글자가 있습니다, 메일 클라이언트가 링크를 손상시켰을 수 있습니다. 주소를 다시 복사해서 시도해 주세요."
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
-msgstr ""
+msgstr "잠금해제 링크 오류"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -547,7 +548,7 @@ msgstr "확인 링크 보낸 메일: %(email)s"
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
-msgstr ""
+msgstr "Gmail 열기"
 
 #: app/scripts/templates/confirm.mustache:7
 #: app/scripts/templates/confirm_account_unlock.mustache:6
@@ -557,13 +558,13 @@ msgstr "이메일 재전송"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:1
 msgid "Unlock email sent"
-msgstr ""
+msgstr "잠금해제 이메일 발송됨"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification"
+" link sent to %(email)s"
 msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
@@ -595,9 +596,8 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
-"Firefox Accounts를 사용하기 위해서 브라우저의 쿠키 기능을 활성화 해 주세요. "
-"쿠키는 세션간의 사용자를 정장하는 등의 기능을 하는 브라우저에 저장된 자료입니"
-"다."
+"Firefox Accounts를 사용하기 위해서 브라우저의 쿠키 기능을 활성화 해 주세요. 쿠키는 세션간의 사용자를 정장하는 등의 기능을"
+" 하는 브라우저에 저장된 자료입니다."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -632,9 +632,9 @@ msgstr "암호 분실?"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:15
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
@@ -774,9 +774,8 @@ msgstr ""
 
 #: app/scripts/templates/sign_in.mustache:13
 #: app/scripts/templates/sign_in.mustache:16
-#, fuzzy
 msgid "Use a different account"
-msgstr "확인되지 않은 계정"
+msgstr "다른 계정 사용"
 
 #: app/scripts/templates/sign_in.mustache:28
 msgid "Create an account"
@@ -805,9 +804,8 @@ msgid "Home"
 msgstr "첫화면"
 
 #: app/scripts/templates/settings/avatar.mustache:1
-#, fuzzy
 msgid "Account picture"
-msgstr "계정 확인"
+msgstr "계정 사진"
 
 #: app/scripts/templates/settings/avatar.mustache:2
 #: app/scripts/templates/settings/avatar_crop.mustache:2
@@ -1046,13 +1044,12 @@ msgstr ""
 #~ msgstr "암호 재설정할 이메일을 입력합니다."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data "
-#~ "from our servers. A new Sync backup will be created from your local "
-#~ "browsing data."
+#~ "For security reasons, resetting your password will erase your Sync data from"
+#~ " our servers. A new Sync backup will be created from your local browsing "
+#~ "data."
 #~ msgstr ""
-#~ "보안적 사유로 새로운 암호를 재설정하면 동기화 데이터가 서버에서 삭제됩니"
-#~ "다. 새 동기화 백업은 여러분의 로컬 컴퓨터의 브라우징 데이터를 기초로 합니"
-#~ "다."
+#~ "보안적 사유로 새로운 암호를 재설정하면 동기화 데이터가 서버에서 삭제됩니다. 새 동기화 백업은 여러분의 로컬 컴퓨터의 브라우징 데이터를 "
+#~ "기초로 합니다."
 
 #~ msgid "You are signed in as"
 #~ msgstr "아래 계정으로 로그인되었습니다."
@@ -1061,13 +1058,12 @@ msgstr ""
 #~ msgstr "이미 계정이 있나요? 로그인하세요."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">Privacy Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
+#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+#~ "Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Firefox cloud services의 <a id=\"fxa-tos\" href=\"/legal/terms\">서비스 약"
-#~ "관</a>과 <a id=\"fxa-pp\" href=\"/legal/privacy\">개인 정보 보호 정책</a>"
-#~ "에 동의한다."
+#~ "Firefox cloud services의 <a id=\"fxa-tos\" href=\"/legal/terms\">서비스 약관</a>과 "
+#~ "<a id=\"fxa-pp\" href=\"/legal/privacy\">개인 정보 보호 정책</a>에 동의한다."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Firefox 뉴스와 사용방법 구독"
@@ -1078,18 +1074,13 @@ msgstr ""
 #~ msgid ""
 #~ "Once you're ﬁnished, use your new password to sign in on all of your "
 #~ "devices."
-#~ msgstr ""
-#~ "일단 완료되면 새 기기에서 로그인 하시려면 새 암호를 사용하셔야 합니다."
+#~ msgstr "일단 완료되면 새 기기에서 로그인 하시려면 새 암호를 사용하셔야 합니다."
 
 #~ msgid "Password changed"
 #~ msgstr "암호 변경됨"
 
-#~ msgid ""
-#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
-#~ "email</a>."
-#~ msgstr ""
-#~ "확인되지 않은 계정입니다. <a href=\"#\" id=\"resend\">확인 이메일 다시 보"
-#~ "내기</a>."
+#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
+#~ msgstr "확인되지 않은 계정입니다. <a href=\"#\" id=\"resend\">확인 이메일 다시 보내기</a>."
 
 #~ msgid "Password reset. Sign in to continue."
 #~ msgstr "비밀번호가 초기화 되었습니다. 계속하려면 로그인해 주세요."
