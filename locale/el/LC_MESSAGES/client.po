@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-12 22:28+0000\n"
-"PO-Revision-Date: 2015-11-14 16:26+0000\n"
-"Last-Translator: Joseph Psychas <sirios2222@yahoo.gr>\n"
+"PO-Revision-Date: 2015-12-13 16:45+0000\n"
+"Last-Translator: Alfredos-Panagiotis Damkalis <fredy@fredy.gr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 #: app/scripts/views/complete_sign_up.js:103 app/scripts/views/confirm.js:114
 #: app/scripts/views/confirm_reset_password.js:163
 msgid "Account verified successfully"
-msgstr ""
+msgstr "Ο λογαριασμός επαληθεύτηκε επιτυχώς"
 
 #: app/scripts/views/confirm_account_unlock.js:100
 msgid "Account unlocked, please try again"
@@ -31,11 +31,11 @@ msgstr "Επαναφορά κωδικού"
 
 #: app/scripts/views/confirm_reset_password.js:182
 msgid "Password reset successfully. Sign in to continue."
-msgstr ""
+msgstr "Το συνθηματικό ανανεώθηκε επιτυχώς. Συνδεθείτε για να συνεχίσετε."
 
 #: app/scripts/views/ready.js:29
 msgid "Firefox Sync will begin momentarily"
-msgstr ""
+msgstr "Ο Συγχρονισμός Firefox θα εκκινήσει εντός ολίγου"
 
 #: app/scripts/views/ready.js:38
 msgid "Account unlocked"
@@ -43,31 +43,31 @@ msgstr "Ο λογαριασμός ξεκλειδώθηκε"
 
 #: app/scripts/views/ready.js:43
 msgid "Welcome back"
-msgstr ""
+msgstr "Καλώς επιστρέψατε"
 
 #: app/scripts/views/ready.js:44
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "Ο Συγχρονισμός Firefox Sync θα συνεχίσει εντός ολίγου"
 
 #: app/scripts/views/ready.js:54
 msgid "Welcome to Sync"
-msgstr ""
+msgstr "Καλώς ήλθατε στον Συγχρονισμό"
 
 #: app/scripts/views/ready.js:59
 msgid "Account verified"
-msgstr ""
+msgstr "Ο λογαριασμός επαληθεύτηκε"
 
 #: app/scripts/views/ready.js:60 app/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
-msgstr ""
+msgstr "Τώρα είστε έτοιμος να χρησιμοποιήσετε την υπηρεσία %(serviceName)s"
 
 #: app/scripts/views/reset_password.js:80 app/scripts/views/sign_in.js:187
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "Άγνωστος λογαριασμός. <a href=\"/signup\">Εγγραφή</a>"
 
 #: app/scripts/views/sign_up.js:340
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr ""
+msgstr "Ο λογαριασμός υπάρχει ήδη. <a href=\"/signin\">Σύνδεση</a>"
 
 #: app/scripts/views/settings/avatar_gravatar.js:89
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
