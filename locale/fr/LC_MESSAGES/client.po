@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-12 22:28+0000\n"
-"PO-Revision-Date: 2015-11-14 19:14+0000\n"
+"PO-Revision-Date: 2015-12-19 21:35+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -628,7 +628,7 @@ msgstr "En savoir plus"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr "Réessayez"
+msgstr "Réessayer"
 
 #: app/scripts/templates/force_auth.mustache:1
 msgid "Sign in to continue"
