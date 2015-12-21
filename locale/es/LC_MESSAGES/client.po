@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-12 22:28+0000\n"
+"POT-Creation-Date: 2015-12-21 17:06+0000\n"
 "PO-Revision-Date: 2015-11-13 17:32+0000\n"
 "Last-Translator: Inma Barrios <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,7 +62,7 @@ msgstr "Cuenta verificada"
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Ya está todo listo para utilizar %(serviceName)s"
 
-#: app/scripts/views/reset_password.js:80 app/scripts/views/sign_in.js:187
+#: app/scripts/views/reset_password.js:66 app/scripts/views/sign_in.js:187
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Cuenta desconocida. <a href=\"/signup\">Regístrate</a>"
 
@@ -86,7 +86,7 @@ msgstr "Suscrito correctamente"
 msgid "Unsubscribed successfully"
 msgstr "Dado de baja correctamente"
 
-#: app/scripts/views/settings/delete_account.js:54
+#: app/scripts/views/settings/delete_account.js:50
 msgid "Account deleted successfully"
 msgstr "Se ha eliminado correctamente la cuenta"
 
@@ -95,20 +95,20 @@ msgid "Display name updated"
 msgstr "Nombre mostrado actualizado"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
-msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "Cuenta bloqueada. <a href=\"/confirm_account_unlock\">Enviar correo de "
 "desbloqueo</a>"
 
-#: app/scripts/views/mixins/signed-out-notification-mixin.js:34
+#: app/scripts/views/mixins/signed-out-notification-mixin.js:38
 msgid "Signed out successfully"
 msgstr "Desconectado correctamente"
 
 #: app/scripts/lib/auth-errors.js:17 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43
-#: app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -368,14 +368,13 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Al continuar, estás de acuerdo con los <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Términos del servicio</a> y el <a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Aviso sobre privacidad</a> de %(serviceName)s "
+"Al continuar, estás de acuerdo con los <a id=\"service-tos\" href="
+"\"%(termsUri)s\">Términos del servicio</a> y el <a id=\"service-pp\" href="
+"\"%(privacyUri)s\">Aviso sobre privacidad</a> de %(serviceName)s "
 "(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:22
@@ -405,6 +404,12 @@ msgstr "Complementos de escritorio"
 #: app/scripts/lib/strings.js:27
 msgid "Desktop Preferences"
 msgstr "Preferencias de escritorio"
+
+#: app/scripts/lib/strings.js:34
+msgid ""
+"<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-"
+"account\">Help</a>"
+msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -491,8 +496,7 @@ msgstr "Se ha reenviado el correo electrónico"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
-msgstr ""
-"El enlace al que accediste para restablecer la contraseña ha caducado."
+msgstr "El enlace al que accediste para restablecer la contraseña ha caducado."
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
@@ -521,6 +525,7 @@ msgstr "Contraseña nueva"
 #: app/scripts/templates/settings/change_password.mustache:6
 #: app/scripts/templates/settings/change_password.mustache:10
 #: app/scripts/templates/settings/delete_account.mustache:5
+#: app/scripts/templates/settings/devices.mustache:3
 msgid "Show"
 msgstr "Mostrar"
 
@@ -575,8 +580,8 @@ msgstr "Email de desbloqueo enviado"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification"
-" link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
 msgstr ""
 "Por razones de seguridad, se ha procedido al bloqueo de tu cuenta. Para "
 "reanudar las actividades de la misma, verifica de nuevo tu cuenta haciendo "
@@ -649,14 +654,13 @@ msgstr "¿Olvidaste la contraseña?"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:15
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
-"Al continuar, estás de acuerdo con los <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Términos del servicio</a> y el <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Aviso sobre privacidad</a> de los servicios en la "
-"nube de Firefox."
+"Al continuar, estás de acuerdo con los <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Términos del servicio</a> y el <a id=\"fxa-pp\" href=\"/legal/privacy"
+"\">Aviso sobre privacidad</a> de los servicios en la nube de Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -695,7 +699,6 @@ msgstr "Obtén la experiencia completa de Sync."
 #: app/scripts/templates/marketing_snippet_ios.mustache:2
 #: app/scripts/templates/marketing_snippet_ios.mustache:3
 #: app/scripts/templates/marketing_snippet_ios.mustache:12
-#: app/scripts/templates/marketing_snippet_ios.mustache:13
 msgid "Download Firefox for iOS!"
 msgstr "¡Descarga Firefox para iOS!"
 
@@ -772,8 +775,8 @@ msgid ""
 "entering your email below."
 msgstr ""
 "Restablecer la contraseña borrará tus datos de navegación de nuestros "
-"servidores. Los datos de tus dispositivos permanecerán intactos. Comienza el"
-" proceso escribiendo debajo tu correo electrónico."
+"servidores. Los datos de tus dispositivos permanecerán intactos. Comienza el "
+"proceso escribiendo debajo tu correo electrónico."
 
 #: app/scripts/templates/reset_password.mustache:5
 msgid "Begin reset"
@@ -866,6 +869,7 @@ msgid "Clear"
 msgstr "Borrar"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5
+#: app/scripts/templates/settings/devices.mustache:12
 msgid "Done"
 msgstr "Hecho"
 
@@ -918,6 +922,37 @@ msgstr "Borrar"
 msgid ""
 "Are you sure you want to delete your account? This action cannot be undone."
 msgstr "¿Seguro que quieres eliminar tu cuenta? No podrás volver atrás."
+
+#: app/scripts/templates/settings/devices.mustache:2
+msgid "Devices"
+msgstr ""
+
+#: app/scripts/templates/settings/devices.mustache:4
+msgid ""
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
+"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
+"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+msgstr ""
+
+#: app/scripts/templates/settings/devices.mustache:5
+msgid "You can manage your devices below."
+msgstr ""
+
+#: app/scripts/templates/settings/devices.mustache:6
+msgid "(current)"
+msgstr ""
+
+#: app/scripts/templates/settings/devices.mustache:8
+msgid "Disconnect"
+msgstr ""
+
+#: app/scripts/templates/settings/devices.mustache:10
+msgid "Don't see all your devices?"
+msgstr ""
+
+#: app/scripts/templates/settings/devices.mustache:11
+msgid "Refresh"
+msgstr ""
 
 #: app/scripts/templates/settings/display_name.mustache:1
 #: app/scripts/templates/settings/display_name.mustache:4
@@ -1089,13 +1124,13 @@ msgstr "Usar una cuenta de Firefox"
 #~ msgstr "Escribe tu dirección de correo para restablecer&nbsp;la contraseña."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data from"
-#~ " our servers. A new Sync backup will be created from your local browsing "
-#~ "data."
+#~ "For security reasons, resetting your password will erase your Sync data "
+#~ "from our servers. A new Sync backup will be created from your local "
+#~ "browsing data."
 #~ msgstr ""
 #~ "Por razones de seguridad, restablecer tu contraseña borrará tus datos de "
-#~ "Sync de nuestros servidores. Se creará un nuevo respaldo de Sync a partir de"
-#~ " tus datos de navegación locales."
+#~ "Sync de nuestros servidores. Se creará un nuevo respaldo de Sync a partir "
+#~ "de tus datos de navegación locales."
 
 #~ msgid "You are signed in as"
 #~ msgstr "Te has identificado como"
@@ -1104,24 +1139,23 @@ msgstr "Usar una cuenta de Firefox"
 #~ msgstr "¿Ya tienes una cuenta? Identifícate."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" "
-#~ "href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-#~ "href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+#~ "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+#~ "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
-#~ "Al continuar, aceptas los <a id=\"service-tos\" "
-#~ "href=\"%(termsUri)s\">Términos del servicio</a> y el <a id=\"service-pp\" "
-#~ "href=\"%(privacyUri)s\">Aviso de privacidad</a> de %(serviceName)s "
+#~ "Al continuar, aceptas los <a id=\"service-tos\" href=\"%(termsUri)s"
+#~ "\">Términos del servicio</a> y el <a id=\"service-pp\" href="
+#~ "\"%(privacyUri)s\">Aviso de privacidad</a> de %(serviceName)s "
 #~ "(%(serviceUri)s)."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-#~ "Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Al continuar, aceptas los <a id=\"fxa-tos\" href=\"/legal/terms\">Términos "
-#~ "del servicio</a> y el <a id=\"fxa-pp\" href=\"/legal/privacy\">Aviso sobre "
-#~ "privacidad</a> de los servicios en la nube de Firefox."
+#~ "Al continuar, aceptas los <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Términos del servicio</a> y el <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Aviso sobre privacidad</a> de los servicios en la nube de Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Suscríbete a noticias y consejos de Firefox"
@@ -1145,7 +1179,9 @@ msgstr "Usar una cuenta de Firefox"
 #~ msgid "Password changed"
 #~ msgstr "Se ha cambiado la contraseña"
 
-#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
+#~ msgid ""
+#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
+#~ "email</a>."
 #~ msgstr ""
 #~ "No se ha podido validar la cuenta. <a href=\"#\" id=\"resend\">Reenviar "
 #~ "correo de verificación</a>."
@@ -1157,11 +1193,11 @@ msgstr "Usar una cuenta de Firefox"
 #~ msgstr "Desconectado"
 
 #~ msgid ""
-#~ "Your verification email was just returned. Mistyped email? <a "
-#~ "href=\"/signup\">Start over.</a>"
+#~ "Your verification email was just returned. Mistyped email? <a href=\"/"
+#~ "signup\">Start over.</a>"
 #~ msgstr ""
-#~ "Nos han devuelto tu correo de verificación. ¿Escribiste mal la dirección? <a"
-#~ " href=\"/signup\">Comienza de nuevo.</a>"
+#~ "Nos han devuelto tu correo de verificación. ¿Escribiste mal la dirección? "
+#~ "<a href=\"/signup\">Comienza de nuevo.</a>"
 
 #~ msgid "Paste image URL"
 #~ msgstr "Pegar URL de imagen"

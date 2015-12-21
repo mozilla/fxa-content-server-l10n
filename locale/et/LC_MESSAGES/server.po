@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-12 22:28+0000\n"
+"POT-Creation-Date: 2015-12-21 17:06+0000\n"
 "PO-Revision-Date: 2015-11-26 11:58+0000\n"
 "Last-Translator: Merike <merike.sell@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,19 +81,13 @@ msgstr ""
 "Uus seade alustas sinu Firefoxi kontoga seotud seadmetega sünkroniseerimist."
 
 #: templates/new_sync_device.html:4 templates/password_changed.html:4
-#: templates/password_reset.html:4 templates/post_verify.html:6
-#: templates/post_verify.txt:4 templates/reset.html:6 templates/reset.txt:4
-#: templates/unlock.html:6 templates/unlock.txt:3
-#: templates/verification_reminder.html:6
-#: templates/verification_reminder.txt:4 templates/verify.html:6
-#: templates/verify.txt:4 templates/verify_reminder_first.html:6
-#: templates/verify_reminder_second.html:6
+#: templates/password_reset.html:4
 msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
+"This is an automated email; if you did not authorize this action, then <a "
+"%(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr ""
-"See e-kiri on saadetud automaatselt. Kui sa ei tellinud seda, siis ei ole "
-"sul vaja midagi teha."
+"Kiri saadeti automaatselt. Kui sa ei lubanud seda tegevust, siis <a "
+"%(passwordChangeLinkAttributes)s>palun vaheta oma parool ära.</a>"
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
@@ -166,6 +160,19 @@ msgstr "Konto on verifitseeritud!"
 msgid "Alternatively:"
 msgstr "Teise võimalusena:"
 
+#: templates/post_verify.html:6 templates/post_verify.txt:4
+#: templates/reset.html:6 templates/reset.txt:4 templates/unlock.html:6
+#: templates/unlock.txt:3 templates/verification_reminder.html:6
+#: templates/verification_reminder.txt:4 templates/verify.html:6
+#: templates/verify.txt:4 templates/verify_reminder_first.html:6
+#: templates/verify_reminder_second.html:6
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"See e-kiri on saadetud automaatselt. Kui sa ei tellinud seda, siis ei ole "
+"sul vaja midagi teha."
+
 #: templates/post_verify.txt:2
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now "
@@ -213,14 +220,12 @@ msgstr "Kinnita konto"
 msgid "Verify account:"
 msgstr "Konto kinnitamine:"
 
-#: templates/verification_reminder.html:2
-#: templates/verification_reminder.txt:1
+#: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
 #: templates/verify_reminder_first.html:2
 msgid "Hello again."
 msgstr "Tere taas."
 
-#: templates/verification_reminder.html:3
-#: templates/verification_reminder.txt:2
+#: templates/verification_reminder.html:3 templates/verification_reminder.txt:2
 msgid ""
 "Recently you created a Firefox Account, but never verified it. Please "
 "activate your account by confirming this email address."
@@ -264,43 +269,6 @@ msgstr "Palun aktiveeri enda konto selle e-posti aadressi kinnitamisega."
 msgid "Activate now:"
 msgstr "Aktiveeri kohe:"
 
-#: mailer.js:126 mailer.js:317 mailer.js:132 mailer.js:330
-msgid "Verify your Firefox Account"
-msgstr "Firefoxi konto kinnitamine"
-
-#: mailer.js:158 mailer.js:165
-msgid "Reset your Firefox Account password"
-msgstr "Firefoxi konto parooli lähtestamine"
-
-#: mailer.js:191 mailer.js:199
-msgid "Re-verify your Firefox Account"
-msgstr "Firefoxi konto uuesti kinnitamine"
-
-#: mailer.js:216 mailer.js:225
-msgid "Your Firefox Account password has been changed"
-msgstr "Sinu Firefoxi konto parooli on muudetud."
-
-#: mailer.js:237 mailer.js:247
-msgid "Your Firefox Account password has been reset"
-msgstr "Sinu Firefoxi konto parool on lähtestatud."
-
-#: mailer.js:258 mailer.js:269
-msgid "New sign-in to Firefox"
-msgstr "Uus Firefoxi sisselogimine"
-
-#: mailer.js:280 mailer.js:292
-msgid "Firefox Account Verified"
-msgstr "Firefoxi konto on verifitseeritud"
-
-#: templates/new_sync_device.html:4 templates/password_changed.html:4
-#: templates/password_reset.html:4
-msgid ""
-"This is an automated email; if you did not authorize this action, then <a "
-"%(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr ""
-"Kiri saadeti automaatselt. Kui sa ei lubanud seda tegevust, siis <a "
-"%(passwordChangeLinkAttributes)s>palun vaheta oma parool ära.</a>"
-
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
@@ -326,6 +294,34 @@ msgstr ""
 "Võid sünkroniseerida Firefoxi paroolid, järjehoidjad ja ajaloo kõigisse "
 "neisse. Konto aktiveerimiseks kinnita see e-posti aadress ja anna meile "
 "teada, et kõik on korras."
+
+#: mailer.js:132 mailer.js:329
+msgid "Verify your Firefox Account"
+msgstr "Firefoxi konto kinnitamine"
+
+#: mailer.js:165
+msgid "Reset your Firefox Account password"
+msgstr "Firefoxi konto parooli lähtestamine"
+
+#: mailer.js:199
+msgid "Re-verify your Firefox Account"
+msgstr "Firefoxi konto uuesti kinnitamine"
+
+#: mailer.js:225
+msgid "Your Firefox Account password has been changed"
+msgstr "Sinu Firefoxi konto parooli on muudetud."
+
+#: mailer.js:246
+msgid "Your Firefox Account password has been reset"
+msgstr "Sinu Firefoxi konto parool on lähtestatud."
+
+#: mailer.js:268
+msgid "New sign-in to Firefox"
+msgstr "Uus Firefoxi sisselogimine"
+
+#: mailer.js:291
+msgid "Firefox Account Verified"
+msgstr "Firefoxi konto on verifitseeritud"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"

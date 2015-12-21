@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-12 22:28+0000\n"
+"POT-Creation-Date: 2015-12-21 17:06+0000\n"
 "PO-Revision-Date: 2015-11-21 20:29+0300\n"
 "Last-Translator: Alexander L. Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
@@ -84,19 +84,13 @@ msgstr ""
 "Аккаунту Firefox."
 
 #: templates/new_sync_device.html:4 templates/password_changed.html:4
-#: templates/password_reset.html:4 templates/post_verify.html:6
-#: templates/post_verify.txt:4 templates/reset.html:6 templates/reset.txt:4
-#: templates/unlock.html:6 templates/unlock.txt:3
-#: templates/verification_reminder.html:6 templates/verification_reminder.txt:4
-#: templates/verify.html:6 templates/verify.txt:4
-#: templates/verify_reminder_first.html:6
-#: templates/verify_reminder_second.html:6
+#: templates/password_reset.html:4
 msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
+"This is an automated email; if you did not authorize this action, then <a "
+"%(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr ""
-"Это автоматическое сообщение; если вы получили его по ошибке, не требуется "
-"никаких действий."
+"Это письмо создано автоматически; если вы не авторизовали это действие, то, "
+"пожалуйста, <a %(passwordChangeLinkAttributes)s>смените свой пароль.</a>"
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
@@ -169,6 +163,19 @@ msgstr "Аккаунт подтверждён!"
 #: templates/verify_reminder_second.html:5
 msgid "Alternatively:"
 msgstr "В качестве альтернативы:"
+
+#: templates/post_verify.html:6 templates/post_verify.txt:4
+#: templates/reset.html:6 templates/reset.txt:4 templates/unlock.html:6
+#: templates/unlock.txt:3 templates/verification_reminder.html:6
+#: templates/verification_reminder.txt:4 templates/verify.html:6
+#: templates/verify.txt:4 templates/verify_reminder_first.html:6
+#: templates/verify_reminder_second.html:6
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"Это автоматическое сообщение; если вы получили его по ошибке, не требуется "
+"никаких действий."
 
 #: templates/post_verify.txt:2
 msgid ""
@@ -268,43 +275,6 @@ msgstr ""
 msgid "Activate now:"
 msgstr "Активировать сейчас:"
 
-#: mailer.js:126 mailer.js:317 mailer.js:132 mailer.js:330
-msgid "Verify your Firefox Account"
-msgstr "Подтвердить ваш Аккаунт Firefox"
-
-#: mailer.js:158 mailer.js:165
-msgid "Reset your Firefox Account password"
-msgstr "Восстановить пароль вашего Аккаунта Firefox"
-
-#: mailer.js:191 mailer.js:199
-msgid "Re-verify your Firefox Account"
-msgstr "Повторно подтвердить ваш Аккаунт Firefox"
-
-#: mailer.js:216 mailer.js:225
-msgid "Your Firefox Account password has been changed"
-msgstr "Пароль вашего Аккаунта Firefox был изменён"
-
-#: mailer.js:237 mailer.js:247
-msgid "Your Firefox Account password has been reset"
-msgstr "Пароль вашего Аккаунта Firefox был восстановлен"
-
-#: mailer.js:258 mailer.js:269
-msgid "New sign-in to Firefox"
-msgstr "Новый вход в Firefox"
-
-#: mailer.js:280 mailer.js:292
-msgid "Firefox Account Verified"
-msgstr "Аккаунт Firefox подтверждён"
-
-#: templates/new_sync_device.html:4 templates/password_changed.html:4
-#: templates/password_reset.html:4
-msgid ""
-"This is an automated email; if you did not authorize this action, then <a "
-"%(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr ""
-"Это письмо создано автоматически; если вы не авторизовали это действие, то, "
-"пожалуйста, <a %(passwordChangeLinkAttributes)s>смените свой пароль.</a>"
-
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
@@ -330,6 +300,34 @@ msgstr ""
 "можете синхронизировать ваши пароли, закладки и историю Firefox на всех из "
 "них. Подтвердите этот адрес электронной почты, чтобы активировать ваш "
 "аккаунт и дать нам знать, что вы в порядке."
+
+#: mailer.js:132 mailer.js:329
+msgid "Verify your Firefox Account"
+msgstr "Подтвердить ваш Аккаунт Firefox"
+
+#: mailer.js:165
+msgid "Reset your Firefox Account password"
+msgstr "Восстановить пароль вашего Аккаунта Firefox"
+
+#: mailer.js:199
+msgid "Re-verify your Firefox Account"
+msgstr "Повторно подтвердить ваш Аккаунт Firefox"
+
+#: mailer.js:225
+msgid "Your Firefox Account password has been changed"
+msgstr "Пароль вашего Аккаунта Firefox был изменён"
+
+#: mailer.js:246
+msgid "Your Firefox Account password has been reset"
+msgstr "Пароль вашего Аккаунта Firefox был восстановлен"
+
+#: mailer.js:268
+msgid "New sign-in to Firefox"
+msgstr "Новый вход в Firefox"
+
+#: mailer.js:291
+msgid "Firefox Account Verified"
+msgstr "Аккаунт Firefox подтверждён"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"

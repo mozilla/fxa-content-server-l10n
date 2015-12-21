@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-12 22:28+0000\n"
+"POT-Creation-Date: 2015-12-21 17:06+0000\n"
 "PO-Revision-Date: 2015-11-13 12:04+0000\n"
 "Last-Translator: YFdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,7 +63,7 @@ msgid "You are now ready to use %(serviceName)s"
 msgstr "您已经可以使用 %(serviceName)s 了"
 
 # see https://bugzilla.mozilla.org/show_bug.cgi?id=1131472
-#: app/scripts/views/reset_password.js:80 app/scripts/views/sign_in.js:187
+#: app/scripts/views/reset_password.js:66 app/scripts/views/sign_in.js:187
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "未知账号 <a href=\"/signup\">注册</a>"
 
@@ -87,7 +87,7 @@ msgstr "订阅成功"
 msgid "Unsubscribed successfully"
 msgstr "退订成功"
 
-#: app/scripts/views/settings/delete_account.js:54
+#: app/scripts/views/settings/delete_account.js:50
 msgid "Account deleted successfully"
 msgstr "账号删除已成功"
 
@@ -96,18 +96,18 @@ msgid "Display name updated"
 msgstr "显示名称已更新"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
-msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr "账号已锁定。<a href=\"/confirm_account_unlock\">发送解锁邮件</a>"
 
-#: app/scripts/views/mixins/signed-out-notification-mixin.js:34
+#: app/scripts/views/mixins/signed-out-notification-mixin.js:38
 msgid "Signed out successfully"
 msgstr "退出成功"
 
 #: app/scripts/lib/auth-errors.js:17 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43
-#: app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -366,14 +366,13 @@ msgstr "Firefox 同步"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"继续提交即代表您同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">服务条款</a>和<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">隐私声明</a>。"
+"继续提交即代表您同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos"
+"\" href=\"%(termsUri)s\">服务条款</a>和<a id=\"service-pp\" href="
+"\"%(privacyUri)s\">隐私声明</a>。"
 
 #: app/scripts/lib/strings.js:22
 #: app/scripts/templates/choose_what_to_sync.mustache:4
@@ -402,6 +401,12 @@ msgstr "桌面版附加组件"
 #: app/scripts/lib/strings.js:27
 msgid "Desktop Preferences"
 msgstr "桌面版首选项"
+
+#: app/scripts/lib/strings.js:34
+msgid ""
+"<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-"
+"account\">Help</a>"
+msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -461,7 +466,9 @@ msgstr "解锁链接已损坏"
 msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
-msgstr "您点击的链接缺少字符，可能由于您的邮件客户端的原因损坏了。请确保复制了完整的网址，然后再试一次。"
+msgstr ""
+"您点击的链接缺少字符，可能由于您的邮件客户端的原因损坏了。请确保复制了完整的"
+"网址，然后再试一次。"
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
@@ -510,6 +517,7 @@ msgstr "新密码"
 #: app/scripts/templates/settings/change_password.mustache:6
 #: app/scripts/templates/settings/change_password.mustache:10
 #: app/scripts/templates/settings/delete_account.mustache:5
+#: app/scripts/templates/settings/devices.mustache:3
 msgid "Show"
 msgstr "显示"
 
@@ -564,9 +572,11 @@ msgstr "解锁邮件已发送"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification"
-" link sent to %(email)s"
-msgstr "由于安全原因，您的账号已被锁定。要执行账号层面的操作，请点击验证链接以重新发送验证邮件至 %(email)s 验证您的账号。"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
+msgstr ""
+"由于安全原因，您的账号已被锁定。要执行账号层面的操作，请点击验证链接以重新发"
+"送验证邮件至 %(email)s 验证您的账号。"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -597,8 +607,8 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
-"为了使用 Firefox 账号，请启用您的浏览器中的 Cookie 功能。Cookie "
-"是保存在您的浏览器中的小数据片段，提供在本次浏览期间记住您的状态等功能。"
+"为了使用 Firefox 账号，请启用您的浏览器中的 Cookie 功能。Cookie 是保存在您的"
+"浏览器中的小数据片段，提供在本次浏览期间记住您的状态等功能。"
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -633,12 +643,12 @@ msgstr "忘记密码？"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:15
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
-"继续提交即代表您同意 Firefox 云服务的<a id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>和<a "
-"id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>。"
+"继续提交即代表您同意 Firefox 云服务的<a id=\"fxa-tos\" href=\"/legal/terms\">"
+"服务条款</a>和<a id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>。"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -677,7 +687,6 @@ msgstr "获得完整的“同步”体验。"
 #: app/scripts/templates/marketing_snippet_ios.mustache:2
 #: app/scripts/templates/marketing_snippet_ios.mustache:3
 #: app/scripts/templates/marketing_snippet_ios.mustache:12
-#: app/scripts/templates/marketing_snippet_ios.mustache:13
 msgid "Download Firefox for iOS!"
 msgstr "下载 Firefox iOS 版！"
 
@@ -752,7 +761,9 @@ msgid ""
 "Resetting your password will erase your browsing data from our servers. Any "
 "data on your devices will remain untouched. Begin the reset process by "
 "entering your email below."
-msgstr "重置您的密码将擦除在我们服务器上的您的浏览数据。您的设备上的任何数据将保持不变。请在下方输入您的电子邮件地址以确认重置。"
+msgstr ""
+"重置您的密码将擦除在我们服务器上的您的浏览数据。您的设备上的任何数据将保持不"
+"变。请在下方输入您的电子邮件地址以确认重置。"
 
 #: app/scripts/templates/reset_password.mustache:5
 msgid "Begin reset"
@@ -845,6 +856,7 @@ msgid "Clear"
 msgstr "清除"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5
+#: app/scripts/templates/settings/devices.mustache:12
 msgid "Done"
 msgstr "完成"
 
@@ -895,6 +907,37 @@ msgstr "删除"
 msgid ""
 "Are you sure you want to delete your account? This action cannot be undone."
 msgstr "您确认要删除自己的账号？这个操作无法撤销。"
+
+#: app/scripts/templates/settings/devices.mustache:2
+msgid "Devices"
+msgstr ""
+
+#: app/scripts/templates/settings/devices.mustache:4
+msgid ""
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
+"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
+"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+msgstr ""
+
+#: app/scripts/templates/settings/devices.mustache:5
+msgid "You can manage your devices below."
+msgstr ""
+
+#: app/scripts/templates/settings/devices.mustache:6
+msgid "(current)"
+msgstr ""
+
+#: app/scripts/templates/settings/devices.mustache:8
+msgid "Disconnect"
+msgstr ""
+
+#: app/scripts/templates/settings/devices.mustache:10
+msgid "Don't see all your devices?"
+msgstr ""
+
+#: app/scripts/templates/settings/devices.mustache:11
+msgid "Refresh"
+msgstr ""
 
 #: app/scripts/templates/settings/display_name.mustache:1
 #: app/scripts/templates/settings/display_name.mustache:4
@@ -1065,10 +1108,12 @@ msgstr "使用 Firefox 账号"
 #~ msgstr "输入您的电子邮件地址重置账号密码。"
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data from"
-#~ " our servers. A new Sync backup will be created from your local browsing "
-#~ "data."
-#~ msgstr "出于安全原因，重置您的密码将使我们清除在我们服务器上的您的“同步”数据。新的“同步”备份将根据您的本地浏览数据而创建。"
+#~ "For security reasons, resetting your password will erase your Sync data "
+#~ "from our servers. A new Sync backup will be created from your local "
+#~ "browsing data."
+#~ msgstr ""
+#~ "出于安全原因，重置您的密码将使我们清除在我们服务器上的您的“同步”数据。新"
+#~ "的“同步”备份将根据您的本地浏览数据而创建。"
 
 #~ msgid "You are signed in as"
 #~ msgstr "您已登录为"
@@ -1077,22 +1122,22 @@ msgstr "使用 Firefox 账号"
 #~ msgstr "已有账号？登录。"
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" "
-#~ "href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-#~ "href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+#~ "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+#~ "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
-#~ "继续则代表我同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos\" "
-#~ "href=\"%(termsUri)s\">服务条款</a> 和 <a id=\"service-pp\" "
-#~ "href=\"%(privacyUri)s\">隐私声明</a>。"
+#~ "继续则代表我同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos"
+#~ "\" href=\"%(termsUri)s\">服务条款</a> 和 <a id=\"service-pp\" href="
+#~ "\"%(privacyUri)s\">隐私声明</a>。"
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-#~ "Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "继续操作则代表我接受 Firefox 云服务的 <a id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a> 及 "
-#~ "<a id=\"fxa-pp\" href=\"/legal/privacy\">隐私权政策</a>。"
+#~ "继续操作则代表我接受 Firefox 云服务的 <a id=\"fxa-tos\" href=\"/legal/"
+#~ "terms\">服务条款</a> 及 <a id=\"fxa-pp\" href=\"/legal/privacy\">隐私权政"
+#~ "策</a>。"
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "订阅 Firefox 资讯和技巧"
@@ -1123,7 +1168,9 @@ msgstr "使用 Firefox 账号"
 #~ msgid "Password changed"
 #~ msgstr "密码已更改"
 
-#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
+#~ msgid ""
+#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
+#~ "email</a>."
 #~ msgstr "尚未验证的账号。<a href=\"#\" id=\"resend\">重新发送验证邮件</a>。"
 
 #~ msgid "Password reset. Sign in to continue."
@@ -1133,9 +1180,11 @@ msgstr "使用 Firefox 账号"
 #~ msgstr "已退出"
 
 #~ msgid ""
-#~ "Your verification email was just returned. Mistyped email? <a "
-#~ "href=\"/signup\">Start over.</a>"
-#~ msgstr "您的验证邮件刚被退回了。邮件地址输错了吗？<a href=\"/signup\">重新尝试</a>。"
+#~ "Your verification email was just returned. Mistyped email? <a href=\"/"
+#~ "signup\">Start over.</a>"
+#~ msgstr ""
+#~ "您的验证邮件刚被退回了。邮件地址输错了吗？<a href=\"/signup\">重新尝试</"
+#~ "a>。"
 
 #~ msgid "Paste image URL"
 #~ msgstr "粘贴图像 URL"

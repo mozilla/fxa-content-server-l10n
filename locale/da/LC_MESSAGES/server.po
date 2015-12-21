@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-12 22:28+0000\n"
+"POT-Creation-Date: 2015-12-21 17:06+0000\n"
 "PO-Revision-Date: 2015-11-23 19:13+0000\n"
 "Last-Translator: Jørgen   <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
@@ -82,19 +82,13 @@ msgstr ""
 "konto."
 
 #: templates/new_sync_device.html:4 templates/password_changed.html:4
-#: templates/password_reset.html:4 templates/post_verify.html:6
-#: templates/post_verify.txt:4 templates/reset.html:6 templates/reset.txt:4
-#: templates/unlock.html:6 templates/unlock.txt:3
-#: templates/verification_reminder.html:6
-#: templates/verification_reminder.txt:4 templates/verify.html:6
-#: templates/verify.txt:4 templates/verify_reminder_first.html:6
-#: templates/verify_reminder_second.html:6
+#: templates/password_reset.html:4
 msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
+"This is an automated email; if you did not authorize this action, then <a "
+"%(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr ""
-"Denne mail er sendt automatisk; hvis du har modtaget denne mail ved en fejl, "
-"behøver du ikke foretage dig noget."
+"Denne mail er sendt automatisk; hvis du ikke har godkendt denne handling, så "
+"<a %(passwordChangeLinkAttributes)s>skift din adgangskode.</a>"
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
@@ -166,6 +160,19 @@ msgstr "Konto bekræftet!"
 msgid "Alternatively:"
 msgstr "Alternativt:"
 
+#: templates/post_verify.html:6 templates/post_verify.txt:4
+#: templates/reset.html:6 templates/reset.txt:4 templates/unlock.html:6
+#: templates/unlock.txt:3 templates/verification_reminder.html:6
+#: templates/verification_reminder.txt:4 templates/verify.html:6
+#: templates/verify.txt:4 templates/verify_reminder_first.html:6
+#: templates/verify_reminder_second.html:6
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"Denne mail er sendt automatisk; hvis du har modtaget denne mail ved en fejl, "
+"behøver du ikke foretage dig noget."
+
 #: templates/post_verify.txt:2
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now "
@@ -214,14 +221,12 @@ msgstr "Bekræft konto"
 msgid "Verify account:"
 msgstr "Bekræft konto:"
 
-#: templates/verification_reminder.html:2
-#: templates/verification_reminder.txt:1
+#: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
 #: templates/verify_reminder_first.html:2
 msgid "Hello again."
 msgstr "Hej igen."
 
-#: templates/verification_reminder.html:3
-#: templates/verification_reminder.txt:2
+#: templates/verification_reminder.html:3 templates/verification_reminder.txt:2
 msgid ""
 "Recently you created a Firefox Account, but never verified it. Please "
 "activate your account by confirming this email address."
@@ -264,43 +269,6 @@ msgstr "Aktiver din konto ved at bekræfte denne mailadresse."
 msgid "Activate now:"
 msgstr "Aktiver nu:"
 
-#: mailer.js:126 mailer.js:317 mailer.js:132 mailer.js:330
-msgid "Verify your Firefox Account"
-msgstr "Bekræft din Firefox-konto"
-
-#: mailer.js:158 mailer.js:165
-msgid "Reset your Firefox Account password"
-msgstr "Nulstil adgangskoden til din Firefox-konto"
-
-#: mailer.js:191 mailer.js:199
-msgid "Re-verify your Firefox Account"
-msgstr "Genbekræft din Firefox-konto"
-
-#: mailer.js:216 mailer.js:225
-msgid "Your Firefox Account password has been changed"
-msgstr "Adgangskoden til din Firefox-konto er blevet ændret"
-
-#: mailer.js:237 mailer.js:247
-msgid "Your Firefox Account password has been reset"
-msgstr "Adgangskoden til din Firefox-konto er blevet nulstillet"
-
-#: mailer.js:258 mailer.js:269
-msgid "New sign-in to Firefox"
-msgstr "Nyt login til Firefox"
-
-#: mailer.js:280 mailer.js:292
-msgid "Firefox Account Verified"
-msgstr "Firefox-konto bekræftet"
-
-#: templates/new_sync_device.html:4 templates/password_changed.html:4
-#: templates/password_reset.html:4
-msgid ""
-"This is an automated email; if you did not authorize this action, then <a "
-"%(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr ""
-"Denne mail er sendt automatisk; hvis du ikke har godkendt denne handling, så "
-"<a %(passwordChangeLinkAttributes)s>skift din adgangskode.</a>"
-
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
@@ -326,6 +294,34 @@ msgstr ""
 "Android og iOS. Du kan synkronisere dine adgangskoder, bogmærker og historik "
 "i din Firefox på dem alle. Bekræft denne mailadresse for at aktivere din "
 "konto og lade os vide, at du er ok."
+
+#: mailer.js:132 mailer.js:329
+msgid "Verify your Firefox Account"
+msgstr "Bekræft din Firefox-konto"
+
+#: mailer.js:165
+msgid "Reset your Firefox Account password"
+msgstr "Nulstil adgangskoden til din Firefox-konto"
+
+#: mailer.js:199
+msgid "Re-verify your Firefox Account"
+msgstr "Genbekræft din Firefox-konto"
+
+#: mailer.js:225
+msgid "Your Firefox Account password has been changed"
+msgstr "Adgangskoden til din Firefox-konto er blevet ændret"
+
+#: mailer.js:246
+msgid "Your Firefox Account password has been reset"
+msgstr "Adgangskoden til din Firefox-konto er blevet nulstillet"
+
+#: mailer.js:268
+msgid "New sign-in to Firefox"
+msgstr "Nyt login til Firefox"
+
+#: mailer.js:291
+msgid "Firefox Account Verified"
+msgstr "Firefox-konto bekræftet"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
