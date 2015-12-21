@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-12 22:28+0000\n"
+"POT-Creation-Date: 2015-12-21 17:06+0000\n"
 "PO-Revision-Date: 2015-11-13 18:00+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
@@ -61,7 +61,7 @@ msgstr "Zweryfikowano konto"
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Można teraz używać usługi %(serviceName)s"
 
-#: app/scripts/views/reset_password.js:80 app/scripts/views/sign_in.js:187
+#: app/scripts/views/reset_password.js:66 app/scripts/views/sign_in.js:187
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Nieznane konto. <a href=\"/signup\">Zarejestruj się</a>"
 
@@ -85,7 +85,7 @@ msgstr "Pomyślnie zasubskrybowano"
 msgid "Unsubscribed successfully"
 msgstr "Pomyślnie zrezygnowano z subskrypcji"
 
-#: app/scripts/views/settings/delete_account.js:54
+#: app/scripts/views/settings/delete_account.js:50
 msgid "Account deleted successfully"
 msgstr "Pomyślnie usunięto konto"
 
@@ -100,15 +100,14 @@ msgstr ""
 "Zablokowano konto. <a href=\"/confirm_account_unlock\">Wyślij wiadomość "
 "odblokowującą</a>"
 
-#: app/scripts/views/mixins/signed-out-notification-mixin.js:34
+#: app/scripts/views/mixins/signed-out-notification-mixin.js:38
 msgid "Signed out successfully"
 msgstr "Pomyślnie wylogowano"
 
 #: app/scripts/lib/auth-errors.js:17 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43
-#: app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -408,6 +407,12 @@ msgstr "Dodatki dla komputerów"
 msgid "Desktop Preferences"
 msgstr "Ustawienia wersji na komputery"
 
+#: app/scripts/lib/strings.js:34
+msgid ""
+"<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-"
+"account\">Help</a>"
+msgstr ""
+
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
 msgstr "Nie można utworzyć konta"
@@ -520,6 +525,7 @@ msgstr "Nowe hasło"
 #: app/scripts/templates/settings/change_password.mustache:6
 #: app/scripts/templates/settings/change_password.mustache:10
 #: app/scripts/templates/settings/delete_account.mustache:5
+#: app/scripts/templates/settings/devices.mustache:3
 msgid "Show"
 msgstr "Wyświetl"
 
@@ -692,7 +698,6 @@ msgstr "Używaj pełnej synchronizacji."
 #: app/scripts/templates/marketing_snippet_ios.mustache:2
 #: app/scripts/templates/marketing_snippet_ios.mustache:3
 #: app/scripts/templates/marketing_snippet_ios.mustache:12
-#: app/scripts/templates/marketing_snippet_ios.mustache:13
 msgid "Download Firefox for iOS!"
 msgstr "Pobierz Firefoksa na iOS!"
 
@@ -863,6 +868,7 @@ msgid "Clear"
 msgstr "Wyczyść"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5
+#: app/scripts/templates/settings/devices.mustache:12
 msgid "Done"
 msgstr "Gotowe"
 
@@ -915,6 +921,37 @@ msgstr "Usuń"
 msgid ""
 "Are you sure you want to delete your account? This action cannot be undone."
 msgstr "Na pewno usunąć konto? To działanie jest nieodwracalne."
+
+#: app/scripts/templates/settings/devices.mustache:2
+msgid "Devices"
+msgstr ""
+
+#: app/scripts/templates/settings/devices.mustache:4
+msgid ""
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
+"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
+"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+msgstr ""
+
+#: app/scripts/templates/settings/devices.mustache:5
+msgid "You can manage your devices below."
+msgstr ""
+
+#: app/scripts/templates/settings/devices.mustache:6
+msgid "(current)"
+msgstr ""
+
+#: app/scripts/templates/settings/devices.mustache:8
+msgid "Disconnect"
+msgstr ""
+
+#: app/scripts/templates/settings/devices.mustache:10
+msgid "Don't see all your devices?"
+msgstr ""
+
+#: app/scripts/templates/settings/devices.mustache:11
+msgid "Refresh"
+msgstr ""
 
 #: app/scripts/templates/settings/display_name.mustache:1
 #: app/scripts/templates/settings/display_name.mustache:4

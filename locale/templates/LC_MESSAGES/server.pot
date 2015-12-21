@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2015-11-12 22:28+0000\n"
+"POT-Creation-Date: 2015-12-21 17:06+0000\n"
 
 #: templates/_pending.txt:1
 #: templates/verify_reminder_second.html:2
@@ -80,21 +80,9 @@ msgstr ""
 #: templates/new_sync_device.html:4
 #: templates/password_changed.html:4
 #: templates/password_reset.html:4
-#: templates/post_verify.html:6
-#: templates/post_verify.txt:4
-#: templates/reset.html:6
-#: templates/reset.txt:4
-#: templates/unlock.html:6
-#: templates/unlock.txt:3
-#: templates/verification_reminder.html:6
-#: templates/verification_reminder.txt:4
-#: templates/verify.html:6
-#: templates/verify.txt:4
-#: templates/verify_reminder_first.html:6
-#: templates/verify_reminder_second.html:6
 msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
+"This is an automated email; if you did not authorize this action, then <a "
+"%(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr ""
 
 #: templates/new_sync_device.html:5
@@ -174,6 +162,23 @@ msgstr ""
 #: templates/verify_reminder_first.html:5
 #: templates/verify_reminder_second.html:5
 msgid "Alternatively:"
+msgstr ""
+
+#: templates/post_verify.html:6
+#: templates/post_verify.txt:4
+#: templates/reset.html:6
+#: templates/reset.txt:4
+#: templates/unlock.html:6
+#: templates/unlock.txt:3
+#: templates/verification_reminder.html:6
+#: templates/verification_reminder.txt:4
+#: templates/verify.html:6
+#: templates/verify.txt:4
+#: templates/verify_reminder_first.html:6
+#: templates/verify_reminder_second.html:6
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
 msgstr ""
 
 #: templates/post_verify.txt:2
@@ -273,51 +278,6 @@ msgstr ""
 msgid "Activate now:"
 msgstr ""
 
-#: mailer.js:126
-#: mailer.js:317
-#: mailer.js:132
-#: mailer.js:330
-msgid "Verify your Firefox Account"
-msgstr ""
-
-#: mailer.js:158
-#: mailer.js:165
-msgid "Reset your Firefox Account password"
-msgstr ""
-
-#: mailer.js:191
-#: mailer.js:199
-msgid "Re-verify your Firefox Account"
-msgstr ""
-
-#: mailer.js:216
-#: mailer.js:225
-msgid "Your Firefox Account password has been changed"
-msgstr ""
-
-#: mailer.js:237
-#: mailer.js:247
-msgid "Your Firefox Account password has been reset"
-msgstr ""
-
-#: mailer.js:258
-#: mailer.js:269
-msgid "New sign-in to Firefox"
-msgstr ""
-
-#: mailer.js:280
-#: mailer.js:292
-msgid "Firefox Account Verified"
-msgstr ""
-
-#: templates/new_sync_device.html:4
-#: templates/password_changed.html:4
-#: templates/password_reset.html:4
-msgid ""
-"This is an automated email; if you did not authorize this action, then <a "
-"%(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr ""
-
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
@@ -333,6 +293,35 @@ msgid ""
 "and iOS. You can sync your Firefox passwords, bookmarks and history across "
 "all of them. Confirm this email address to activate your account and let us "
 "know you're okay."
+msgstr ""
+
+#: mailer.js:132
+#: mailer.js:329
+msgid "Verify your Firefox Account"
+msgstr ""
+
+#: mailer.js:165
+msgid "Reset your Firefox Account password"
+msgstr ""
+
+#: mailer.js:199
+msgid "Re-verify your Firefox Account"
+msgstr ""
+
+#: mailer.js:225
+msgid "Your Firefox Account password has been changed"
+msgstr ""
+
+#: mailer.js:246
+msgid "Your Firefox Account password has been reset"
+msgstr ""
+
+#: mailer.js:268
+msgid "New sign-in to Firefox"
+msgstr ""
+
+#: mailer.js:291
+msgid "Firefox Account Verified"
 msgstr ""
 
 #: server/templates/pages/src/400.html:2

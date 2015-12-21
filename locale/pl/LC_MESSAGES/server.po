@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-12 22:28+0000\n"
+"POT-Creation-Date: 2015-12-21 17:06+0000\n"
 "PO-Revision-Date: 2015-11-13 18:01+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
@@ -83,19 +83,14 @@ msgstr ""
 "Firefoksa."
 
 #: templates/new_sync_device.html:4 templates/password_changed.html:4
-#: templates/password_reset.html:4 templates/post_verify.html:6
-#: templates/post_verify.txt:4 templates/reset.html:6 templates/reset.txt:4
-#: templates/unlock.html:6 templates/unlock.txt:3
-#: templates/verification_reminder.html:6
-#: templates/verification_reminder.txt:4 templates/verify.html:6
-#: templates/verify.txt:4 templates/verify_reminder_first.html:6
-#: templates/verify_reminder_second.html:6
+#: templates/password_reset.html:4
 msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
+"This is an automated email; if you did not authorize this action, then <a "
+"%(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr ""
-"Wiadomość wygenerowana automatycznie. Jeżeli otrzymano ją przez pomyłkę, to "
-"nic nie trzeba robić."
+"Wiadomość wygenerowana automatycznie. Jeżeli nie upoważniono wykonania tej "
+"czynności, to należy <a %(passwordChangeLinkAttributes)s>natychmiast "
+"zresetować hasło</a>."
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
@@ -169,6 +164,19 @@ msgstr "Zweryfikowano konto!"
 msgid "Alternatively:"
 msgstr "Lub można:"
 
+#: templates/post_verify.html:6 templates/post_verify.txt:4
+#: templates/reset.html:6 templates/reset.txt:4 templates/unlock.html:6
+#: templates/unlock.txt:3 templates/verification_reminder.html:6
+#: templates/verification_reminder.txt:4 templates/verify.html:6
+#: templates/verify.txt:4 templates/verify_reminder_first.html:6
+#: templates/verify_reminder_second.html:6
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"Wiadomość wygenerowana automatycznie. Jeżeli otrzymano ją przez pomyłkę, to "
+"nic nie trzeba robić."
+
 #: templates/post_verify.txt:2
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now "
@@ -216,14 +224,12 @@ msgstr "Zweryfikuj konto"
 msgid "Verify account:"
 msgstr "Zweryfikuj konto:"
 
-#: templates/verification_reminder.html:2
-#: templates/verification_reminder.txt:1
+#: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
 #: templates/verify_reminder_first.html:2
 msgid "Hello again."
 msgstr "Witamy ponownie."
 
-#: templates/verification_reminder.html:3
-#: templates/verification_reminder.txt:2
+#: templates/verification_reminder.html:3 templates/verification_reminder.txt:2
 msgid ""
 "Recently you created a Firefox Account, but never verified it. Please "
 "activate your account by confirming this email address."
@@ -265,44 +271,6 @@ msgstr "Proszę aktywować konto przez potwierdzenie tego adresu e-mail."
 msgid "Activate now:"
 msgstr "Aktywuj:"
 
-#: mailer.js:126 mailer.js:317 mailer.js:132 mailer.js:330
-msgid "Verify your Firefox Account"
-msgstr "Zweryfikuj konto Firefoksa"
-
-#: mailer.js:158 mailer.js:165
-msgid "Reset your Firefox Account password"
-msgstr "Zresetuj hasło konta Firefoksa"
-
-#: mailer.js:191 mailer.js:199
-msgid "Re-verify your Firefox Account"
-msgstr "Ponownie zweryfikuj konto Firefoksa"
-
-#: mailer.js:216 mailer.js:225
-msgid "Your Firefox Account password has been changed"
-msgstr "Zmieniono hasło konta Firefoksa"
-
-#: mailer.js:237 mailer.js:247
-msgid "Your Firefox Account password has been reset"
-msgstr "Zresetowano hasło konta Firefoksa"
-
-#: mailer.js:258 mailer.js:269
-msgid "New sign-in to Firefox"
-msgstr "Nowe logowanie do Firefoksa"
-
-#: mailer.js:280 mailer.js:292
-msgid "Firefox Account Verified"
-msgstr "Zweryfikowano konto Firefoksa"
-
-#: templates/new_sync_device.html:4 templates/password_changed.html:4
-#: templates/password_reset.html:4
-msgid ""
-"This is an automated email; if you did not authorize this action, then <a "
-"%(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr ""
-"Wiadomość wygenerowana automatycznie. Jeżeli nie upoważniono wykonania tej "
-"czynności, to należy <a %(passwordChangeLinkAttributes)s>natychmiast "
-"zresetować hasło</a>."
-
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
@@ -327,6 +295,34 @@ msgstr ""
 "Firefox jest dostępny dla systemów Windows, Mac, Linux, Android oraz iOS. "
 "Można synchronizować hasła, zakładki i historię między nimi wszystkimi. "
 "Wystarczy potwierdzić ten adres e-mail, aby aktywować konto."
+
+#: mailer.js:132 mailer.js:329
+msgid "Verify your Firefox Account"
+msgstr "Zweryfikuj konto Firefoksa"
+
+#: mailer.js:165
+msgid "Reset your Firefox Account password"
+msgstr "Zresetuj hasło konta Firefoksa"
+
+#: mailer.js:199
+msgid "Re-verify your Firefox Account"
+msgstr "Ponownie zweryfikuj konto Firefoksa"
+
+#: mailer.js:225
+msgid "Your Firefox Account password has been changed"
+msgstr "Zmieniono hasło konta Firefoksa"
+
+#: mailer.js:246
+msgid "Your Firefox Account password has been reset"
+msgstr "Zresetowano hasło konta Firefoksa"
+
+#: mailer.js:268
+msgid "New sign-in to Firefox"
+msgstr "Nowe logowanie do Firefoksa"
+
+#: mailer.js:291
+msgid "Firefox Account Verified"
+msgstr "Zweryfikowano konto Firefoksa"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"

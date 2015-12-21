@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-12 22:28+0000\n"
+"POT-Creation-Date: 2015-12-21 17:06+0000\n"
 "PO-Revision-Date: 2015-12-18 12:48+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,7 +11,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != "
+"11) ? 2 : 3;\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1432911472.0\n"
 
@@ -62,7 +63,7 @@ msgstr "Cyfrif wedi ei ddilysu"
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Rydych nawr yn barod i ddefnyddio %(serviceName)s"
 
-#: app/scripts/views/reset_password.js:80 app/scripts/views/sign_in.js:187
+#: app/scripts/views/reset_password.js:66 app/scripts/views/sign_in.js:187
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Cyfrif anhysbys. <a href=\"/signup\">Ymunwch</a>"
 
@@ -86,7 +87,7 @@ msgstr "Tanysgrifiwyd yn llwyddiannus"
 msgid "Unsubscribed successfully"
 msgstr "Dad-tanysgrifiwyd yn llwyddiannus"
 
-#: app/scripts/views/settings/delete_account.js:54
+#: app/scripts/views/settings/delete_account.js:50
 msgid "Account deleted successfully"
 msgstr "Cyfrif wedi ei ddileu'n llwyddiannus"
 
@@ -95,20 +96,20 @@ msgid "Display name updated"
 msgstr "Diweddarwyd yr enw dangos"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
-msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "Cyfrif wedi ei gloi. <a href=\"/confirm_account_unlock\">Anfonwch e-bost "
 "datgloi</a>"
 
-#: app/scripts/views/mixins/signed-out-notification-mixin.js:34
+#: app/scripts/views/mixins/signed-out-notification-mixin.js:38
 msgid "Signed out successfully"
 msgstr "Allgofnodwyd yn llwyddiannus"
 
 #: app/scripts/lib/auth-errors.js:17 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43
-#: app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -369,15 +370,13 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Drwy barhau, rydych yn cytuno i'r <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Amodau Gwasanaeth</a> a<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Hysbysiad Preifatrwydd</a> %(serviceName)s "
-"(%(serviceUri)s)."
+"Drwy barhau, rydych yn cytuno i'r <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Amodau Gwasanaeth</a> a<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Hysbysiad Preifatrwydd</a> %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:22
 #: app/scripts/templates/choose_what_to_sync.mustache:4
@@ -406,6 +405,12 @@ msgstr "Ychwanegion Bwrdd Gwaith"
 #: app/scripts/lib/strings.js:27
 msgid "Desktop Preferences"
 msgstr "Dewisiadau Bwrdd Gwaith"
+
+#: app/scripts/lib/strings.js:34
+msgid ""
+"<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-"
+"account\">Help</a>"
+msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -469,8 +474,7 @@ msgid ""
 "your email client. Copy the address carefully, and try again."
 msgstr ""
 "Mae nodau ar goll yn y ddolen rydych newydd ei chlicio ac efallai wedi ei "
-"dorri gan eich rhaglen e-bost. Copïwch y cyfeiriad yn ofalus a cheisiwch "
-"eto."
+"dorri gan eich rhaglen e-bost. Copïwch y cyfeiriad yn ofalus a cheisiwch eto."
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
@@ -520,6 +524,7 @@ msgstr "Cyfrinair newydd"
 #: app/scripts/templates/settings/change_password.mustache:6
 #: app/scripts/templates/settings/change_password.mustache:10
 #: app/scripts/templates/settings/delete_account.mustache:5
+#: app/scripts/templates/settings/devices.mustache:3
 msgid "Show"
 msgstr "Dangos"
 
@@ -574,8 +579,8 @@ msgstr "Anfonwyd yr e-bost datgloi"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification"
-" link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
 msgstr ""
 "Am resymau diogelwch mae eich cyfrif wedi ei gloi. Er mwyn gwneud cael "
 "mynediad at eich cyfrif, ail ddilyswch eich cyfrif drwy glicio'r ddolen "
@@ -647,14 +652,13 @@ msgstr "Wedi anghofio'r cyfrinair?"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:15
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
-"Drwy barhau, rydych yn cytuno i <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Amodau Gwasanaeth</a> a<a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Hysbysiad Preifatrwydd</a> gwasanaethau cwmwl "
-"Firefox."
+"Drwy barhau, rydych yn cytuno i <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Amodau Gwasanaeth</a> a<a id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad "
+"Preifatrwydd</a> gwasanaethau cwmwl Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -693,7 +697,6 @@ msgstr "Derbyn y profiad Sync llawn."
 #: app/scripts/templates/marketing_snippet_ios.mustache:2
 #: app/scripts/templates/marketing_snippet_ios.mustache:3
 #: app/scripts/templates/marketing_snippet_ios.mustache:12
-#: app/scripts/templates/marketing_snippet_ios.mustache:13
 msgid "Download Firefox for iOS!"
 msgstr "Llwytho Firefox iOS i lawr!"
 
@@ -864,6 +867,7 @@ msgid "Clear"
 msgstr "Clirio"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5
+#: app/scripts/templates/settings/devices.mustache:12
 msgid "Done"
 msgstr "Gorffen"
 
@@ -918,6 +922,37 @@ msgid ""
 msgstr ""
 "Ydych chi'n siŵr eich bod eisiau dileu eich cyfrif? Nid oes modd dadwneud "
 "hyn."
+
+#: app/scripts/templates/settings/devices.mustache:2
+msgid "Devices"
+msgstr ""
+
+#: app/scripts/templates/settings/devices.mustache:4
+msgid ""
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
+"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
+"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+msgstr ""
+
+#: app/scripts/templates/settings/devices.mustache:5
+msgid "You can manage your devices below."
+msgstr ""
+
+#: app/scripts/templates/settings/devices.mustache:6
+msgid "(current)"
+msgstr ""
+
+#: app/scripts/templates/settings/devices.mustache:8
+msgid "Disconnect"
+msgstr ""
+
+#: app/scripts/templates/settings/devices.mustache:10
+msgid "Don't see all your devices?"
+msgstr ""
+
+#: app/scripts/templates/settings/devices.mustache:11
+msgid "Refresh"
+msgstr ""
 
 #: app/scripts/templates/settings/display_name.mustache:1
 #: app/scripts/templates/settings/display_name.mustache:4
@@ -1088,13 +1123,13 @@ msgstr "Defyddio Cyfrif Firefox"
 #~ msgstr "Rhowch eich cyfrinair er mwyn ailosod&nbsp;cyfrinair y cyfrif."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data from"
-#~ " our servers. A new Sync backup will be created from your local browsing "
-#~ "data."
+#~ "For security reasons, resetting your password will erase your Sync data "
+#~ "from our servers. A new Sync backup will be created from your local "
+#~ "browsing data."
 #~ msgstr ""
 #~ "Am resymau diogelwch, bydd ailosod eich cyfrinair yn dileu eich data Sync "
-#~ "o'n gweinyddion. Bydd copi wrth gefn newydd o Sync yn cael ei greu o'ch data"
-#~ " pori lleol."
+#~ "o'n gweinyddion. Bydd copi wrth gefn newydd o Sync yn cael ei greu o'ch "
+#~ "data pori lleol."
 
 #~ msgid "You are signed in as"
 #~ msgstr "Rydych wedi mewngofnodi fel"
@@ -1103,13 +1138,13 @@ msgstr "Defyddio Cyfrif Firefox"
 #~ msgstr "Oes gennych gyfrif eisoes? Mewngofnodwch."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-#~ "Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Drwy barhau, rwy'n cytuno i <a id=\"fxa-tos\" href=\"/legal/terms\">Amodau'r"
-#~ " Gwasanaeth</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad "
-#~ "Preifatrwydd</a> gwasanaethau cwmwl Firefox."
+#~ "Drwy barhau, rwy'n cytuno i <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Amodau'r Gwasanaeth</a> a <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Hysbysiad Preifatrwydd</a> gwasanaethau cwmwl Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Tanysgrifiwch i newyddion a chynghorion Firefox"
@@ -1121,8 +1156,8 @@ msgstr "Defyddio Cyfrif Firefox"
 #~ "Once you're ﬁnished, use your new password to sign in on all of your "
 #~ "devices."
 #~ msgstr ""
-#~ "Unwaith i chi orffen, defnyddiwch eich cyfrinair newydd i fewngofnodi ar bob"
-#~ " un o'ch dyfeisiau."
+#~ "Unwaith i chi orffen, defnyddiwch eich cyfrinair newydd i fewngofnodi ar "
+#~ "bob un o'ch dyfeisiau."
 
 #~ msgid "Illegal iframe"
 #~ msgstr "iframe anghyfreithlon"
@@ -1130,8 +1165,12 @@ msgstr "Defyddio Cyfrif Firefox"
 #~ msgid "Password changed"
 #~ msgstr "Cyfrinair wedi newid"
 
-#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
-#~ msgstr "Cyfrif heb ei dilysu<a href=\"#\" id=\"resend\">Ail anfon e-bost dilysu</a>."
+#~ msgid ""
+#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
+#~ "email</a>."
+#~ msgstr ""
+#~ "Cyfrif heb ei dilysu<a href=\"#\" id=\"resend\">Ail anfon e-bost dilysu</"
+#~ "a>."
 
 #~ msgid "Password reset. Sign in to continue."
 #~ msgstr "Cyfrinair wedi ei ailosod. Mewngofnodi i barhau."
@@ -1140,11 +1179,11 @@ msgstr "Defyddio Cyfrif Firefox"
 #~ msgstr "Allgofnodi"
 
 #~ msgid ""
-#~ "Your verification email was just returned. Mistyped email? <a "
-#~ "href=\"/signup\">Start over.</a>"
+#~ "Your verification email was just returned. Mistyped email? <a href=\"/"
+#~ "signup\">Start over.</a>"
 #~ msgstr ""
-#~ "Dychwelwyd eich e-bost dilysu. Camdeipio'r e-bost?<a "
-#~ "href=\"/signup\">Cychwynnwch eto.</a>"
+#~ "Dychwelwyd eich e-bost dilysu. Camdeipio'r e-bost?<a href=\"/signup"
+#~ "\">Cychwynnwch eto.</a>"
 
 #~ msgid "Paste image URL"
 #~ msgstr "Gludwch URL delwedd"

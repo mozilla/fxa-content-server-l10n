@@ -3,11 +3,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-12 22:28+0000\n"
+"POT-Creation-Date: 2015-12-21 17:06+0000\n"
 "PO-Revision-Date: 2015-11-14 16:40+0000\n"
 "Last-Translator: Vanja Tumbas <tumbas93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: sr_Latn\n"
+"Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -84,19 +84,13 @@ msgstr ""
 "nalog."
 
 #: templates/new_sync_device.html:4 templates/password_changed.html:4
-#: templates/password_reset.html:4 templates/post_verify.html:6
-#: templates/post_verify.txt:4 templates/reset.html:6 templates/reset.txt:4
-#: templates/unlock.html:6 templates/unlock.txt:3
-#: templates/verification_reminder.html:6 templates/verification_reminder.txt:4
-#: templates/verify.html:6 templates/verify.txt:4
-#: templates/verify_reminder_first.html:6
-#: templates/verify_reminder_second.html:6
+#: templates/password_reset.html:4
 msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
+"This is an automated email; if you did not authorize this action, then <a "
+"%(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr ""
-"Ovo je automatska poruka; ako ste je greškom primili, ni jedna radnja nije "
-"potrebna."
+"Ovo je automatska e-pošta; ako niste zatražili ovu akciju, onda <a "
+"%(passwordChangeLinkAttributes)s>promenite lozinku.</a>"
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
@@ -168,6 +162,19 @@ msgstr "Nalog je potvrđen!"
 #: templates/verify_reminder_second.html:5
 msgid "Alternatively:"
 msgstr "Alternativno:"
+
+#: templates/post_verify.html:6 templates/post_verify.txt:4
+#: templates/reset.html:6 templates/reset.txt:4 templates/unlock.html:6
+#: templates/unlock.txt:3 templates/verification_reminder.html:6
+#: templates/verification_reminder.txt:4 templates/verify.html:6
+#: templates/verify.txt:4 templates/verify_reminder_first.html:6
+#: templates/verify_reminder_second.html:6
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"Ovo je automatska poruka; ako ste je greškom primili, ni jedna radnja nije "
+"potrebna."
 
 #: templates/post_verify.txt:2
 msgid ""
@@ -262,43 +269,6 @@ msgstr "Aktivirajte nalog tako što ćete potvrditi ovu adresu e-pošte."
 msgid "Activate now:"
 msgstr "Aktiviraj sada:"
 
-#: mailer.js:126 mailer.js:317 mailer.js:132 mailer.js:330
-msgid "Verify your Firefox Account"
-msgstr "Potvrdite Firefox nalog"
-
-#: mailer.js:158 mailer.js:165
-msgid "Reset your Firefox Account password"
-msgstr "Resetujte lozinku Firefox naloga"
-
-#: mailer.js:191 mailer.js:199
-msgid "Re-verify your Firefox Account"
-msgstr "Ponovo potvrdite Firefox nalog"
-
-#: mailer.js:216 mailer.js:225
-msgid "Your Firefox Account password has been changed"
-msgstr "Lozinka Firefox naloga je promenjena"
-
-#: mailer.js:237 mailer.js:247
-msgid "Your Firefox Account password has been reset"
-msgstr "Lozinka Firefox naloga je resetovana"
-
-#: mailer.js:258 mailer.js:269
-msgid "New sign-in to Firefox"
-msgstr "Nova Firefox prijava"
-
-#: mailer.js:280 mailer.js:292
-msgid "Firefox Account Verified"
-msgstr "Firefox nalog potvrđen"
-
-#: templates/new_sync_device.html:4 templates/password_changed.html:4
-#: templates/password_reset.html:4
-msgid ""
-"This is an automated email; if you did not authorize this action, then <a "
-"%(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr ""
-"Ovo je automatska e-pošta; ako niste zatražili ovu akciju, onda <a "
-"%(passwordChangeLinkAttributes)s>promenite lozinku.</a>"
-
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
@@ -324,6 +294,34 @@ msgstr ""
 "iOS. Možete sinhronizovati Firefox lozinke, zabeleške i istoriju pretrage na "
 "svim uređajima. Potvrdite ovu adresu e-pošte da aktivirate nalog i da nam "
 "kažete da ste ok."
+
+#: mailer.js:132 mailer.js:329
+msgid "Verify your Firefox Account"
+msgstr "Potvrdite Firefox nalog"
+
+#: mailer.js:165
+msgid "Reset your Firefox Account password"
+msgstr "Resetujte lozinku Firefox naloga"
+
+#: mailer.js:199
+msgid "Re-verify your Firefox Account"
+msgstr "Ponovo potvrdite Firefox nalog"
+
+#: mailer.js:225
+msgid "Your Firefox Account password has been changed"
+msgstr "Lozinka Firefox naloga je promenjena"
+
+#: mailer.js:246
+msgid "Your Firefox Account password has been reset"
+msgstr "Lozinka Firefox naloga je resetovana"
+
+#: mailer.js:268
+msgid "New sign-in to Firefox"
+msgstr "Nova Firefox prijava"
+
+#: mailer.js:291
+msgid "Firefox Account Verified"
+msgstr "Firefox nalog potvrđen"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
