@@ -44,10 +44,18 @@ Source strings are extracted from the [fxa-content-server](https://github.com/mo
 
 * `cd` into this project directory and run:
 ```
-./fxa-content-server-l10n/scripts/extract_strings.sh --mailer-repo ../fxa-auth-mailer --content-repo ../fxa-content-server --l10n-repo . TRAIN_NUMBER
+./scripts/extract_strings.sh --mailer-repo ../fxa-auth-mailer --content-repo ../fxa-content-server --l10n-repo . TRAIN_NUMBER
 ```
 where `TRAIN_NUMBER` is the train you are cutting strings for.
 
+This will create a new branch, pull request that branch against `master`. 
+After that pull request is merged run:
+
+```
+./scripts/email-dev-l10n.sh
+```
+
+The script above will generate an email for the l10n mailing list.
 
 ## Submitting Translations
 

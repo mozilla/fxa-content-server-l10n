@@ -6,7 +6,7 @@ EMAIL_SUBJECT="[FxA] .po files updated"
 
 # A link to the .po files
 EMAIL_SOURCE="https://github.com/mozilla/fxa-content-server-l10n/tree/master/locale"
-VERBATIM_URL="https://localize.mozilla.org/projects/accounts"
+PONTOON_URL="https://pontoon.mozilla.org/projects/firefox-accounts"
 
 SCRIPT_DIR=`dirname "$0"`
 LOCALE_DIR=$SCRIPT_DIR/../locale
@@ -28,7 +28,7 @@ the number of new strings I will calculate untranslated strings below.
 
 `$SCRIPT_DIR/stats-po.sh $LOCALE_DIR`
 
-Verbatim: $VERBATIM_URL
+Pontoon: $PONTOON_URL
 Source files: $EMAIL_SOURCE
 
 If you have any questions please reply to the list.
@@ -40,14 +40,5 @@ echo "-----------------------------------------------"
 echo "$CHANGES"
 echo "-----------------------------------------------"
 
+echo "^ Open https://groups.google.com/forum/#!forum/mozilla.dev.l10n.web and paste the above under 'New Topic'"
 
-# Uses sendmail so we can set a real From address
-read -p "Do you want to send that to $EMAIL_TO? (y/n)" -n 1 -r
-echo    # (optional) move to a new line
-if [[ $REPLY =~ ^[Yy]$ ]]
-then
-    echo "$CHANGES" | `which sendmail` -t
-    echo "Email sent."
-else
-    echo "No email sent. Bye."
-fi
