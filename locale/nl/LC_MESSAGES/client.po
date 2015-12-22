@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-21 17:06+0000\n"
-"PO-Revision-Date: 2015-12-22 11:15+0000\n"
-"Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
+"PO-Revision-Date: 2015-12-22 15:33+0000\n"
+"Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -946,7 +946,7 @@ msgid ""
 "href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
 "Firefox is beschikbaar voor <a href=\"%(linkWindows)s\">Windows</a>, <a "
-"href=\"%(linkOSX)s\">OS-X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
 "href=\"%(linkIOS)s\">iOS</a> en <a href=\"%(linkLinux)s\">Linux</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
@@ -955,7 +955,7 @@ msgstr "U kunt hieronder uw apparaten beheren."
 
 #: app/scripts/templates/settings/devices.mustache:6
 msgid "(current)"
-msgstr "(huidig)"
+msgstr "(huidige)"
 
 #: app/scripts/templates/settings/devices.mustache:8
 msgid "Disconnect"
