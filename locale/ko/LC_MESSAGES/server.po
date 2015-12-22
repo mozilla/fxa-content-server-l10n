@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-21 17:06+0000\n"
-"PO-Revision-Date: 2015-12-17 01:41+0000\n"
-"Last-Translator: SwooWoong Seol <jaebeomseol@gmail.com>\n"
+"PO-Revision-Date: 2015-12-22 04:49+0000\n"
+"Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -23,9 +23,7 @@ msgstr ""
 msgid ""
 "A while ago you created a Firefox Account, but never verified it. Click the "
 "link below to activate your account."
-msgstr ""
-"Firefox 계정은 만들어졌지만, 본인 계정 확인이 완료되지 않았습니다. 계정을 활"
-"성화 하시려면 아래 링크를 눌러주세요."
+msgstr "Firefox 계정은 만들어졌지만, 본인 계정 확인이 완료되지 않았습니다. 계정을 활성화 하시려면 아래 링크를 눌러주세요."
 
 #: templates/_pending.txt:3 templates/post_verify.html:3
 msgid ""
@@ -129,8 +127,8 @@ msgstr ""
 
 #: templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox"
+" Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
@@ -153,8 +151,7 @@ msgstr ""
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
-msgstr ""
-"이는 자동 전송 메일입니다. 오류로 온 것이라면 아무 동작을 안해도 됩니다."
+msgstr "이는 자동 전송 메일입니다. 오류로 온 것이라면 아무 동작을 안해도 됩니다."
 
 #: templates/post_verify.txt:2
 msgid ""
@@ -198,12 +195,14 @@ msgstr ""
 msgid "Verify account:"
 msgstr ""
 
-#: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
+#: templates/verification_reminder.html:2
+#: templates/verification_reminder.txt:1
 #: templates/verify_reminder_first.html:2
 msgid "Hello again."
 msgstr ""
 
-#: templates/verification_reminder.html:3 templates/verification_reminder.txt:2
+#: templates/verification_reminder.html:3
+#: templates/verification_reminder.txt:2
 msgid ""
 "Recently you created a Firefox Account, but never verified it. Please "
 "activate your account by confirming this email address."
@@ -246,18 +245,18 @@ msgstr ""
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history "
-"on any device connected to it. Simply confirm this email address to activate "
-"your account."
+"verified account lets you access your tabs, bookmarks, passwords and history"
+" on any device connected to it. Simply confirm this email address to "
+"activate your account."
 msgstr ""
 
 #: templates/verify_reminder_second.html:3
 msgid ""
 "A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
-"iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know "
-"you're okay."
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and"
+" iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know"
+" you're okay."
 msgstr ""
 
 #: mailer.js:132 mailer.js:329
@@ -290,7 +289,7 @@ msgstr ""
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
-msgstr ""
+msgstr "잘못된 요청"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -319,7 +318,7 @@ msgstr ""
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "502 에러"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -335,11 +334,12 @@ msgstr "현재 접속자가 많습니다. 최대한 빨리 정상화 하도록 �
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+"You are using an <strong>outdated</strong> browser. Please <a "
+"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+"experience."
 msgstr ""
-"<strong>오래되</strong> 브라우저를 사용하고 있습니다. <a href=\"http://"
-"browsehappy.com/\">브라우저를 업그레이드</a>해 주세요."
+"<strong>오래되</strong> 브라우저를 사용하고 있습니다. <a "
+"href=\"http://browsehappy.com/\">브라우저를 업그레이드</a>해 주세요."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -364,11 +364,10 @@ msgstr "서비스 약관"
 #~ msgstr "암호 재설정"
 
 #~ msgid ""
-#~ "For more information, please visit <a href='https://support.mozilla."
-#~ "org'>Mozilla Support</a>"
+#~ "For more information, please visit <a "
+#~ "href='https://support.mozilla.org'>Mozilla Support</a>"
 #~ msgstr ""
-#~ "더 자세한 정보는 <a href='https://support.mozilla.org'>Mozilla 도움말</a>"
-#~ "을 참고해 주십시오."
+#~ "더 자세한 정보는 <a href='https://support.mozilla.org'>Mozilla 도움말</a>을 참고해 주십시오."
 
 #~ msgid "Reset password:"
 #~ msgstr "암호 재설정:"
@@ -376,8 +375,7 @@ msgstr "서비스 약관"
 #~ msgid "For more information, please visit https://support.mozilla.org"
 #~ msgstr "더 자세한 정보는 https://support.mozilla.org 를 방문해 주십시오."
 
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
 #~ msgstr "%(email)s, 이제 한번만 클릭하시면 Firefox 계정 확인이 가능합니다."
 
 #~ msgid "Verify"
@@ -399,8 +397,8 @@ msgstr "서비스 약관"
 #~ msgstr "시스템 오류입니다, 잠시 후에 다시 시도해 주세요."
 
 #~ msgid ""
-#~ "We are currently performing some maintenance on the system, and will "
-#~ "return momentarily."
+#~ "We are currently performing some maintenance on the system, and will return "
+#~ "momentarily."
 #~ msgstr "시스템 유지 운용 작업 중입니다, 잠시 후에 사용할 수 있습니다."
 
 #~ msgid "Reset Password Request"
