@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-21 17:06+0000\n"
-"PO-Revision-Date: 2015-11-14 16:40+0000\n"
+"PO-Revision-Date: 2015-12-22 21:18+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -95,8 +95,7 @@ msgid "Display name updated"
 msgstr "已更新顯示名稱"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr "帳號已鎖定。<a href=\"/confirm_account_unlock\">傳送解鎖郵件</a>"
 
 #: app/scripts/views/mixins/signed-out-notification-mixin.js:38
@@ -106,7 +105,8 @@ msgstr "已成功登出"
 #: app/scripts/lib/auth-errors.js:17 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -365,13 +365,14 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "若繼續，代表您同意 %(serviceName)s（%(serviceUri)s）的<a id=\"service-tos\" "
-"href=\"%(termsUri)s\">服務條款</a>及<a id=\"service-pp\" href="
-"\"%(privacyUri)s\">隱私權公告</a>"
+"href=\"%(termsUri)s\">服務條款</a>及<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">隱私權公告</a>"
 
 #: app/scripts/lib/strings.js:22
 #: app/scripts/templates/choose_what_to_sync.mustache:4
@@ -406,6 +407,8 @@ msgid ""
 "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-"
 "account\">Help</a>"
 msgstr ""
+"<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-"
+"account\">說明</a>"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -465,9 +468,7 @@ msgstr "解鎖鏈結不正確"
 msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
-msgstr ""
-"您點擊的鏈結可能缺少了一些字元，或您的收信軟體修改了郵件內容。請確認您複製了"
-"完整的網址，再次開啟確認鏈結。"
+msgstr "您點擊的鏈結可能缺少了一些字元，或您的收信軟體修改了郵件內容。請確認您複製了完整的網址，再次開啟確認鏈結。"
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
@@ -571,11 +572,9 @@ msgstr "已寄出解鎖郵件"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
-msgstr ""
-"由於安全性因素，我們已將您的帳號鎖定起來。若需操作帳號設定，請點擊寄送到 "
-"%(email)s 的郵件當中的驗證鏈結。"
+"level activities, please re-verify your account by clicking the verification"
+" link sent to %(email)s"
+msgstr "由於安全性因素，我們已將您的帳號鎖定起來。若需操作帳號設定，請點擊寄送到 %(email)s 的郵件當中的驗證鏈結。"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -606,8 +605,8 @@ msgid ""
 "Accounts. Cookies are small pieces of data stored in your browser that "
 "provide functionality such as remembering you between sessions."
 msgstr ""
-"Firefox 帳號需要用到 Cookie，請開啟您瀏覽器的 Cookie 功能。Cookie 是一些存放"
-"在您瀏覽器中的小量資料，提供諸如紀錄您的瀏覽階段等功能。"
+"Firefox 帳號需要用到 Cookie，請開啟您瀏覽器的 Cookie 功能。Cookie "
+"是一些存放在您瀏覽器中的小量資料，提供諸如紀錄您的瀏覽階段等功能。"
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -642,12 +641,12 @@ msgstr "忘記密碼？"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:15
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
-"若繼續，代表您同意 Firefox 雲端服務的<a id=\"fxa-tos\" href=\"/legal/terms\">"
-"服務條款</a>及<a id=\"fxa-pp\" href=\"/legal/privacy\">隱私權公告</a>。"
+"若繼續，代表您同意 Firefox 雲端服務的<a id=\"fxa-tos\" href=\"/legal/terms\">服務條款</a>及<a "
+"id=\"fxa-pp\" href=\"/legal/privacy\">隱私權公告</a>。"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -760,9 +759,7 @@ msgid ""
 "Resetting your password will erase your browsing data from our servers. Any "
 "data on your devices will remain untouched. Begin the reset process by "
 "entering your email below."
-msgstr ""
-"重設密碼也將會抹除您儲存於我們的伺服器中的所有瀏覽紀錄。您裝置中的所有資料將"
-"保留不變。請在下方輸入電子郵件地址以開始進行重設。"
+msgstr "重設密碼也將會抹除您儲存於我們的伺服器中的所有瀏覽紀錄。您裝置中的所有資料將保留不變。請在下方輸入電子郵件地址以開始進行重設。"
 
 #: app/scripts/templates/reset_password.mustache:5
 msgid "Begin reset"
@@ -909,34 +906,37 @@ msgstr "您確定要刪除帳號嗎？將無法復原此操作。"
 
 #: app/scripts/templates/settings/devices.mustache:2
 msgid "Devices"
-msgstr ""
+msgstr "裝置"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
+"Firefox 有 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS"
+" X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a "
+"href=\"%(linkIOS)s\">iOS</a> 及 <a href=\"%(linkLinux)s\">Linux</a> 版本可供使用。"
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
-msgstr ""
+msgstr "您可以在下方管理裝置。"
 
 #: app/scripts/templates/settings/devices.mustache:6
 msgid "(current)"
-msgstr ""
+msgstr "（目前）"
 
 #: app/scripts/templates/settings/devices.mustache:8
 msgid "Disconnect"
-msgstr ""
+msgstr "取消連線"
 
 #: app/scripts/templates/settings/devices.mustache:10
 msgid "Don't see all your devices?"
-msgstr ""
+msgstr "沒有看到您全部的裝置？"
 
 #: app/scripts/templates/settings/devices.mustache:11
 msgid "Refresh"
-msgstr ""
+msgstr "重新整理"
 
 #: app/scripts/templates/settings/display_name.mustache:1
 #: app/scripts/templates/settings/display_name.mustache:4
@@ -1107,12 +1107,10 @@ msgstr "使用 Firefox 帳戶登入"
 #~ msgstr "請輸入您的電子郵件信箱以重設密碼。"
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data "
-#~ "from our servers. A new Sync backup will be created from your local "
-#~ "browsing data."
-#~ msgstr ""
-#~ "由於安全性因素，重設密碼後我們將會清除伺服器上您所有的 Sync 資料，並從您本"
-#~ "機的瀏覽資料重新建立 Sync 備份。"
+#~ "For security reasons, resetting your password will erase your Sync data from"
+#~ " our servers. A new Sync backup will be created from your local browsing "
+#~ "data."
+#~ msgstr "由於安全性因素，重設密碼後我們將會清除伺服器上您所有的 Sync 資料，並從您本機的瀏覽資料重新建立 Sync 備份。"
 
 #~ msgid "You are signed in as"
 #~ msgstr "您已登入為"
@@ -1121,22 +1119,22 @@ msgstr "使用 Firefox 帳戶登入"
 #~ msgstr "已經有帳號了？請登入。"
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-#~ "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-#~ "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ "By proceeding, I agree to the <a id=\"service-tos\" "
+#~ "href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+#~ "href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
-#~ "若繼續，代表我同意 %(serviceName)s（%(serviceUri)s）的 <a id=\"service-tos"
-#~ "\" href=\"%(termsUri)s\">服務條款</a> 及 <a id=\"service-pp\" href="
-#~ "\"%(privacyUri)s\">隱私權公告</a>。"
+#~ "若繼續，代表我同意 %(serviceName)s（%(serviceUri)s）的 <a id=\"service-tos\" "
+#~ "href=\"%(termsUri)s\">服務條款</a> 及 <a id=\"service-pp\" "
+#~ "href=\"%(privacyUri)s\">隱私權公告</a>。"
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">Privacy Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
+#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+#~ "Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "若繼續，代表您同意 Firefox 雲端服務的 <a id=\"fxa-tos\" href=\"/legal/"
-#~ "terms\">服務條款</a> 及 <a id=\"fxa-pp\" href=\"/legal/privacy\">隱私權保"
-#~ "護政策</a>。"
+#~ "若繼續，代表您同意 Firefox 雲端服務的 <a id=\"fxa-tos\" href=\"/legal/terms\">服務條款</a> 及 "
+#~ "<a id=\"fxa-pp\" href=\"/legal/privacy\">隱私權保護政策</a>。"
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "訂閱 Firefox 電子報與使用小撇步"
@@ -1167,9 +1165,7 @@ msgstr "使用 Firefox 帳戶登入"
 #~ msgid "Password changed"
 #~ msgstr "已變更密碼"
 
-#~ msgid ""
-#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
-#~ "email</a>."
+#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
 #~ msgstr "未確認的帳號。<a href=\"#\" id=\"resend\">重發驗證信</a>。"
 
 #~ msgid "Password reset. Sign in to continue."
@@ -1179,10 +1175,9 @@ msgstr "使用 Firefox 帳戶登入"
 #~ msgstr "已登出"
 
 #~ msgid ""
-#~ "Your verification email was just returned. Mistyped email? <a href=\"/"
-#~ "signup\">Start over.</a>"
-#~ msgstr ""
-#~ "您的驗證信被退回了，打錯地址了嗎？<a href=\"/signup\">再試一次。</a>"
+#~ "Your verification email was just returned. Mistyped email? <a "
+#~ "href=\"/signup\">Start over.</a>"
+#~ msgstr "您的驗證信被退回了，打錯地址了嗎？<a href=\"/signup\">再試一次。</a>"
 
 #~ msgid "Paste image URL"
 #~ msgstr "貼上圖片網址"
