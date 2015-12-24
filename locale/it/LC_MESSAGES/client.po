@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-21 17:06+0000\n"
-"PO-Revision-Date: 2015-12-22 11:04+0000\n"
+"PO-Revision-Date: 2015-12-24 17:49+0000\n"
 "Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -966,7 +966,7 @@ msgstr "Scollega"
 
 #: app/scripts/templates/settings/devices.mustache:10
 msgid "Don't see all your devices?"
-msgstr ""
+msgstr "Uno dei tuoi dispositivi non è presente in elenco?"
 
 #: app/scripts/templates/settings/devices.mustache:11
 msgid "Refresh"
