@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-21 17:06+0000\n"
-"PO-Revision-Date: 2015-12-22 21:34+0000\n"
+"PO-Revision-Date: 2015-12-26 21:04+0000\n"
 "Last-Translator: Merike Sell <merikes@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -943,7 +943,7 @@ msgstr "Seadmeid saad hallata allpool."
 
 #: app/scripts/templates/settings/devices.mustache:6
 msgid "(current)"
-msgstr ""
+msgstr "(praegune)"
 
 #: app/scripts/templates/settings/devices.mustache:8
 msgid "Disconnect"
