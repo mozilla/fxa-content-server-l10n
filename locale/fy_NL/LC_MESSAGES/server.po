@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-21 17:06+0000\n"
+"POT-Creation-Date: 2016-01-07 20:01+0000\n"
 "PO-Revision-Date: 2015-12-21 12:10+0000\n"
 "Last-Translator: fryskefirefox <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -274,6 +274,34 @@ msgstr "Aktivearje jo account troch dit e-mailadres te befêstigjen."
 msgid "Activate now:"
 msgstr "No aktivearje:"
 
+#: mailer.js:132 mailer.js:330 mailer.js:329
+msgid "Verify your Firefox Account"
+msgstr "Ferifiearje jo Firefox-account"
+
+#: mailer.js:165
+msgid "Reset your Firefox Account password"
+msgstr "Stel jo Firefox-accountwachtwurd opnij yn"
+
+#: mailer.js:199
+msgid "Re-verify your Firefox Account"
+msgstr "Ferifiearje jo Firefox-account opnij"
+
+#: mailer.js:225
+msgid "Your Firefox Account password has been changed"
+msgstr "Jo Firefox-accountwachtwurd is wizige"
+
+#: mailer.js:247 mailer.js:246
+msgid "Your Firefox Account password has been reset"
+msgstr "Jo Firefox-accountwachtwurd is opnij ynsteld"
+
+#: mailer.js:269 mailer.js:268
+msgid "New sign-in to Firefox"
+msgstr "Nije oanmelding by Firefox"
+
+#: mailer.js:292 mailer.js:291
+msgid "Firefox Account Verified"
+msgstr "Firefox-account ferifiearre"
+
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
@@ -299,34 +327,6 @@ msgstr ""
 "Android en iOS. Jo kinne jo wachtwurden, blêdwizers en skiednis fan Firefox "
 "hjir tusken syngronisearje. Befêstigje dit e-mailberjocht om jo account te "
 "aktivearjen en witte te litten oft alles goed mei jo is."
-
-#: mailer.js:132 mailer.js:329
-msgid "Verify your Firefox Account"
-msgstr "Ferifiearje jo Firefox-account"
-
-#: mailer.js:165
-msgid "Reset your Firefox Account password"
-msgstr "Stel jo Firefox-accountwachtwurd opnij yn"
-
-#: mailer.js:199
-msgid "Re-verify your Firefox Account"
-msgstr "Ferifiearje jo Firefox-account opnij"
-
-#: mailer.js:225
-msgid "Your Firefox Account password has been changed"
-msgstr "Jo Firefox-accountwachtwurd is wizige"
-
-#: mailer.js:246
-msgid "Your Firefox Account password has been reset"
-msgstr "Jo Firefox-accountwachtwurd is opnij ynsteld"
-
-#: mailer.js:268
-msgid "New sign-in to Firefox"
-msgstr "Nije oanmelding by Firefox"
-
-#: mailer.js:291
-msgid "Firefox Account Verified"
-msgstr "Firefox-account ferifiearre"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"

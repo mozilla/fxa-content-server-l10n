@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-21 17:06+0000\n"
+"POT-Creation-Date: 2016-01-07 20:01+0000\n"
 "PO-Revision-Date: 2015-11-26 11:58+0000\n"
 "Last-Translator: Merike <merike.sell@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -269,6 +269,34 @@ msgstr "Palun aktiveeri enda konto selle e-posti aadressi kinnitamisega."
 msgid "Activate now:"
 msgstr "Aktiveeri kohe:"
 
+#: mailer.js:132 mailer.js:330 mailer.js:329
+msgid "Verify your Firefox Account"
+msgstr "Firefoxi konto kinnitamine"
+
+#: mailer.js:165
+msgid "Reset your Firefox Account password"
+msgstr "Firefoxi konto parooli lähtestamine"
+
+#: mailer.js:199
+msgid "Re-verify your Firefox Account"
+msgstr "Firefoxi konto uuesti kinnitamine"
+
+#: mailer.js:225
+msgid "Your Firefox Account password has been changed"
+msgstr "Sinu Firefoxi konto parooli on muudetud."
+
+#: mailer.js:247 mailer.js:246
+msgid "Your Firefox Account password has been reset"
+msgstr "Sinu Firefoxi konto parool on lähtestatud."
+
+#: mailer.js:269 mailer.js:268
+msgid "New sign-in to Firefox"
+msgstr "Uus Firefoxi sisselogimine"
+
+#: mailer.js:292 mailer.js:291
+msgid "Firefox Account Verified"
+msgstr "Firefoxi konto on verifitseeritud"
+
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
@@ -294,34 +322,6 @@ msgstr ""
 "Võid sünkroniseerida Firefoxi paroolid, järjehoidjad ja ajaloo kõigisse "
 "neisse. Konto aktiveerimiseks kinnita see e-posti aadress ja anna meile "
 "teada, et kõik on korras."
-
-#: mailer.js:132 mailer.js:329
-msgid "Verify your Firefox Account"
-msgstr "Firefoxi konto kinnitamine"
-
-#: mailer.js:165
-msgid "Reset your Firefox Account password"
-msgstr "Firefoxi konto parooli lähtestamine"
-
-#: mailer.js:199
-msgid "Re-verify your Firefox Account"
-msgstr "Firefoxi konto uuesti kinnitamine"
-
-#: mailer.js:225
-msgid "Your Firefox Account password has been changed"
-msgstr "Sinu Firefoxi konto parooli on muudetud."
-
-#: mailer.js:246
-msgid "Your Firefox Account password has been reset"
-msgstr "Sinu Firefoxi konto parool on lähtestatud."
-
-#: mailer.js:268
-msgid "New sign-in to Firefox"
-msgstr "Uus Firefoxi sisselogimine"
-
-#: mailer.js:291
-msgid "Firefox Account Verified"
-msgstr "Firefoxi konto on verifitseeritud"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"

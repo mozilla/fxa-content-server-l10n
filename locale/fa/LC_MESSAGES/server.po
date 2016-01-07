@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-21 17:06+0000\n"
+"POT-Creation-Date: 2016-01-07 20:01+0000\n"
 "PO-Revision-Date: 2015-12-02 22:36+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -269,6 +269,34 @@ msgstr "لطفا حساب خود را با تایید این پست‌الکتر
 msgid "Activate now:"
 msgstr "حالا فعال کن:"
 
+#: mailer.js:132 mailer.js:330 mailer.js:329
+msgid "Verify your Firefox Account"
+msgstr "حساب فایرفاکس خود را تایید کنید"
+
+#: mailer.js:165
+msgid "Reset your Firefox Account password"
+msgstr "گذرواژه‌ی حساب فایرفاکس خود را بازنشانی کنید"
+
+#: mailer.js:199
+msgid "Re-verify your Firefox Account"
+msgstr "حساب فایرفاکس خود را دوباره تایید کنید"
+
+#: mailer.js:225
+msgid "Your Firefox Account password has been changed"
+msgstr "گذرواژه حساب فایرفاکس شما تغییر کرده است"
+
+#: mailer.js:247 mailer.js:246
+msgid "Your Firefox Account password has been reset"
+msgstr "گذرواژه حساب فایرفاکس شما بازنشانی شده است"
+
+#: mailer.js:269 mailer.js:268
+msgid "New sign-in to Firefox"
+msgstr "حالا به فایرفاکس وارد شوید"
+
+#: mailer.js:292 mailer.js:291
+msgid "Firefox Account Verified"
+msgstr "حساب فایرفاکس تایید شد"
+
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
@@ -294,34 +322,6 @@ msgstr ""
 "شما می‌توانید گذرواژه‌ها، نشانک‌ها و تاریخچه خود را در تمام دستگاه‌های خود همگام "
 "کنید. این آدرس پست‌الکترونیکی را تایید کنید تا حساب خود را فعال و به ما "
 "اطمینان دهید که شرایطتان خوب است."
-
-#: mailer.js:132 mailer.js:329
-msgid "Verify your Firefox Account"
-msgstr "حساب فایرفاکس خود را تایید کنید"
-
-#: mailer.js:165
-msgid "Reset your Firefox Account password"
-msgstr "گذرواژه‌ی حساب فایرفاکس خود را بازنشانی کنید"
-
-#: mailer.js:199
-msgid "Re-verify your Firefox Account"
-msgstr "حساب فایرفاکس خود را دوباره تایید کنید"
-
-#: mailer.js:225
-msgid "Your Firefox Account password has been changed"
-msgstr "گذرواژه حساب فایرفاکس شما تغییر کرده است"
-
-#: mailer.js:246
-msgid "Your Firefox Account password has been reset"
-msgstr "گذرواژه حساب فایرفاکس شما بازنشانی شده است"
-
-#: mailer.js:268
-msgid "New sign-in to Firefox"
-msgstr "حالا به فایرفاکس وارد شوید"
-
-#: mailer.js:291
-msgid "Firefox Account Verified"
-msgstr "حساب فایرفاکس تایید شد"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"

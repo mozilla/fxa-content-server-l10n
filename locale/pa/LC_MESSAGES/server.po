@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-21 17:06+0000\n"
+"POT-Creation-Date: 2016-01-07 20:01+0000\n"
 "PO-Revision-Date: 2015-10-12 17:30+0000\n"
 "Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -245,6 +245,34 @@ msgstr "ਇਹ ਈਮੇਲ ਸਿਰਨਾਵੇਂ ਦੀ ਤਸਦੀਕ ਕ�
 msgid "Activate now:"
 msgstr "ਹੁਣੇ ਸਰਗਰਮ ਕਰੋ:"
 
+#: mailer.js:132 mailer.js:330 mailer.js:329
+msgid "Verify your Firefox Account"
+msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰੋ"
+
+#: mailer.js:165
+msgid "Reset your Firefox Account password"
+msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈਟ ਕਰੋ"
+
+#: mailer.js:199
+msgid "Re-verify your Firefox Account"
+msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਮੁੜ-ਤਸਦੀਕ ਕਰੋ"
+
+#: mailer.js:225
+msgid "Your Firefox Account password has been changed"
+msgstr "ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਪਾਸਵਰਡ ਨੂੰ ਬਦਲਿਆ ਗਿਆ"
+
+#: mailer.js:247 mailer.js:246
+msgid "Your Firefox Account password has been reset"
+msgstr "ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸਾ ਖਾਤਾ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈਟ ਕੀਤਾ ਗਿਆ"
+
+#: mailer.js:269 mailer.js:268
+msgid "New sign-in to Firefox"
+msgstr ""
+
+#: mailer.js:292 mailer.js:291
+msgid "Firefox Account Verified"
+msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕੀਤਾ"
+
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
@@ -261,34 +289,6 @@ msgid ""
 "of them. Confirm this email address to activate your account and let us know "
 "you're okay."
 msgstr ""
-
-#: mailer.js:132 mailer.js:329
-msgid "Verify your Firefox Account"
-msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰੋ"
-
-#: mailer.js:165
-msgid "Reset your Firefox Account password"
-msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈਟ ਕਰੋ"
-
-#: mailer.js:199
-msgid "Re-verify your Firefox Account"
-msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਮੁੜ-ਤਸਦੀਕ ਕਰੋ"
-
-#: mailer.js:225
-msgid "Your Firefox Account password has been changed"
-msgstr "ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਪਾਸਵਰਡ ਨੂੰ ਬਦਲਿਆ ਗਿਆ"
-
-#: mailer.js:246
-msgid "Your Firefox Account password has been reset"
-msgstr "ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸਾ ਖਾਤਾ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈਟ ਕੀਤਾ ਗਿਆ"
-
-#: mailer.js:268
-msgid "New sign-in to Firefox"
-msgstr ""
-
-#: mailer.js:291
-msgid "Firefox Account Verified"
-msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕੀਤਾ"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"

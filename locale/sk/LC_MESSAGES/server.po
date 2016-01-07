@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-21 17:06+0000\n"
+"POT-Creation-Date: 2016-01-07 20:01+0000\n"
 "PO-Revision-Date: 2015-11-15 14:07+0000\n"
 "Last-Translator: Branislav Rozbora <rozbora@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -272,6 +272,34 @@ msgstr "Prosím aktivujte vaše konto potvrdením nasledovnej e-mailovej adresy.
 msgid "Activate now:"
 msgstr "Aktivovať:"
 
+#: mailer.js:132 mailer.js:330 mailer.js:329
+msgid "Verify your Firefox Account"
+msgstr "Overiť váš účet Firefox Account"
+
+#: mailer.js:165
+msgid "Reset your Firefox Account password"
+msgstr "Obnoviť heslo vášho účtu Firefox Account"
+
+#: mailer.js:199
+msgid "Re-verify your Firefox Account"
+msgstr "Znovu overiť váš účet Firefox Account"
+
+#: mailer.js:225
+msgid "Your Firefox Account password has been changed"
+msgstr "Heslo vášho účtu Firefox Account bolo zmenené"
+
+#: mailer.js:247 mailer.js:246
+msgid "Your Firefox Account password has been reset"
+msgstr "Heslo vášho účtu Firefox Account bolo obnovené"
+
+#: mailer.js:269 mailer.js:268
+msgid "New sign-in to Firefox"
+msgstr "Nové prihlásenie k Firefoxu"
+
+#: mailer.js:292 mailer.js:291
+msgid "Firefox Account Verified"
+msgstr "Účet Firefox Account bol overený"
+
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
@@ -297,34 +325,6 @@ msgstr ""
 "Linux, Android aj iOS a medzi nimi môžete synchronizovať svoje heslá, "
 "záložky a históriu. Potvrďte tento e-mail pre aktiváciu vášho účtu a dajte "
 "nám tak vedieť, že ste v poriadku."
-
-#: mailer.js:132 mailer.js:329
-msgid "Verify your Firefox Account"
-msgstr "Overiť váš účet Firefox Account"
-
-#: mailer.js:165
-msgid "Reset your Firefox Account password"
-msgstr "Obnoviť heslo vášho účtu Firefox Account"
-
-#: mailer.js:199
-msgid "Re-verify your Firefox Account"
-msgstr "Znovu overiť váš účet Firefox Account"
-
-#: mailer.js:225
-msgid "Your Firefox Account password has been changed"
-msgstr "Heslo vášho účtu Firefox Account bolo zmenené"
-
-#: mailer.js:246
-msgid "Your Firefox Account password has been reset"
-msgstr "Heslo vášho účtu Firefox Account bolo obnovené"
-
-#: mailer.js:268
-msgid "New sign-in to Firefox"
-msgstr "Nové prihlásenie k Firefoxu"
-
-#: mailer.js:291
-msgid "Firefox Account Verified"
-msgstr "Účet Firefox Account bol overený"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"

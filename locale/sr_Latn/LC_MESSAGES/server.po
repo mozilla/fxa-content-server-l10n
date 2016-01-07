@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-21 17:06+0000\n"
-"PO-Revision-Date: 2015-11-14 16:40+0000\n"
+"POT-Creation-Date: 2016-01-07 20:01+0000\n"
+"PO-Revision-Date: 2016-01-03 15:22+0000\n"
 "Last-Translator: Vanja Tumbas <tumbas93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -212,7 +212,7 @@ msgid ""
 "now."
 msgstr ""
 "Iz bezbednosnih razloga Firefox nalog je zaključan. Da biste obavili "
-"aktivnosti sa naloga, kliknite na vezu da biste ponovo potvrdilinalog."
+"aktivnosti sa naloga, kliknite na vezu da biste ponovo potvrdili nalog."
 
 #: templates/unlock.html:4
 msgid "Verify account"
@@ -269,6 +269,34 @@ msgstr "Aktivirajte nalog tako što ćete potvrditi ovu adresu e-pošte."
 msgid "Activate now:"
 msgstr "Aktiviraj sada:"
 
+#: mailer.js:132 mailer.js:330 mailer.js:329
+msgid "Verify your Firefox Account"
+msgstr "Potvrdite Firefox nalog"
+
+#: mailer.js:165
+msgid "Reset your Firefox Account password"
+msgstr "Resetujte lozinku Firefox naloga"
+
+#: mailer.js:199
+msgid "Re-verify your Firefox Account"
+msgstr "Ponovo potvrdite Firefox nalog"
+
+#: mailer.js:225
+msgid "Your Firefox Account password has been changed"
+msgstr "Lozinka Firefox naloga je promenjena"
+
+#: mailer.js:247 mailer.js:246
+msgid "Your Firefox Account password has been reset"
+msgstr "Lozinka Firefox naloga je resetovana"
+
+#: mailer.js:269 mailer.js:268
+msgid "New sign-in to Firefox"
+msgstr "Nova Firefox prijava"
+
+#: mailer.js:292 mailer.js:291
+msgid "Firefox Account Verified"
+msgstr "Firefox nalog potvrđen"
+
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
@@ -295,34 +323,6 @@ msgstr ""
 "svim uređajima. Potvrdite ovu adresu e-pošte da aktivirate nalog i da nam "
 "kažete da ste ok."
 
-#: mailer.js:132 mailer.js:329
-msgid "Verify your Firefox Account"
-msgstr "Potvrdite Firefox nalog"
-
-#: mailer.js:165
-msgid "Reset your Firefox Account password"
-msgstr "Resetujte lozinku Firefox naloga"
-
-#: mailer.js:199
-msgid "Re-verify your Firefox Account"
-msgstr "Ponovo potvrdite Firefox nalog"
-
-#: mailer.js:225
-msgid "Your Firefox Account password has been changed"
-msgstr "Lozinka Firefox naloga je promenjena"
-
-#: mailer.js:246
-msgid "Your Firefox Account password has been reset"
-msgstr "Lozinka Firefox naloga je resetovana"
-
-#: mailer.js:268
-msgid "New sign-in to Firefox"
-msgstr "Nova Firefox prijava"
-
-#: mailer.js:291
-msgid "Firefox Account Verified"
-msgstr "Firefox nalog potvrđen"
-
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
 msgstr "Neispravan zahtev"
@@ -337,7 +337,7 @@ msgid ""
 "links that may be broken."
 msgstr ""
 "Stranica koju ste tražili nije pronađena. Mi smo obavešteni o tome i "
-"popravit ćemo neispravne veze."
+"popravićemo neispravne veze."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4

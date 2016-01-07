@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-21 17:06+0000\n"
+"POT-Creation-Date: 2016-01-07 20:01+0000\n"
 "PO-Revision-Date: 2015-01-24 22:59+0000\n"
 "Last-Translator: Håvar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-POOTLE-MTIME: 1422140392.0\n"
 
 #: app/scripts/views/complete_reset_password.js:131
-#: app/scripts/views/complete_sign_up.js:103 app/scripts/views/confirm.js:114
+#: app/scripts/views/complete_sign_up.js:106 app/scripts/views/confirm.js:114
 #: app/scripts/views/confirm_reset_password.js:163
 msgid "Account verified successfully"
 msgstr ""
@@ -65,7 +65,7 @@ msgstr "Du er nå klar til å bruke %(serviceName)s"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Ukjent konto. <a href=\"/signup\">Registrer deg</a>"
 
-#: app/scripts/views/sign_up.js:340
+#: app/scripts/views/sign_up.js:346
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Kontoen finnes allerede. <a href=\"/signin\">Logg inn</a>"
 
@@ -428,7 +428,7 @@ msgstr "Velg hva som skal synkroniseres"
 msgid "Add-ons"
 msgstr ""
 
-#: app/scripts/templates/choose_what_to_sync.mustache:12
+#: app/scripts/templates/choose_what_to_sync.mustache:13
 msgid "Preferences"
 msgstr ""
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-21 17:06+0000\n"
+"POT-Creation-Date: 2016-01-07 20:01+0000\n"
 "PO-Revision-Date: 2015-11-13 10:13+0000\n"
 "Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -270,6 +270,34 @@ msgstr "Aktivirajte svoj račun s potrditvijo tega e-poštnega naslova."
 msgid "Activate now:"
 msgstr "Aktiviraj zdaj:"
 
+#: mailer.js:132 mailer.js:330 mailer.js:329
+msgid "Verify your Firefox Account"
+msgstr "Potrdite svoj Firefox Račun"
+
+#: mailer.js:165
+msgid "Reset your Firefox Account password"
+msgstr "Ponastavite svoje geslo za Firefox Račun"
+
+#: mailer.js:199
+msgid "Re-verify your Firefox Account"
+msgstr "Ponovno potrdite svoj Firefox Račun"
+
+#: mailer.js:225
+msgid "Your Firefox Account password has been changed"
+msgstr "Vaše geslo za Firefox Račun je bilo spremenjeno"
+
+#: mailer.js:247 mailer.js:246
+msgid "Your Firefox Account password has been reset"
+msgstr "Vaše geslo za Firefox Račun je bilo ponastavljeno"
+
+#: mailer.js:269 mailer.js:268
+msgid "New sign-in to Firefox"
+msgstr "Nova prijava v Firefox"
+
+#: mailer.js:292 mailer.js:291
+msgid "Firefox Account Verified"
+msgstr "Firefox Račun potrjen"
+
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
@@ -295,34 +323,6 @@ msgstr ""
 "iOS. Med vsemi njimi lahko sinhronizirate vaša gesla, zaznamke in zgodovino. "
 "S potrditvijo tega e-poštnega naslova boste aktivirali vaš račun. In nam "
 "sporočili, da ste v redu."
-
-#: mailer.js:132 mailer.js:329
-msgid "Verify your Firefox Account"
-msgstr "Potrdite svoj Firefox Račun"
-
-#: mailer.js:165
-msgid "Reset your Firefox Account password"
-msgstr "Ponastavite svoje geslo za Firefox Račun"
-
-#: mailer.js:199
-msgid "Re-verify your Firefox Account"
-msgstr "Ponovno potrdite svoj Firefox Račun"
-
-#: mailer.js:225
-msgid "Your Firefox Account password has been changed"
-msgstr "Vaše geslo za Firefox Račun je bilo spremenjeno"
-
-#: mailer.js:246
-msgid "Your Firefox Account password has been reset"
-msgstr "Vaše geslo za Firefox Račun je bilo ponastavljeno"
-
-#: mailer.js:268
-msgid "New sign-in to Firefox"
-msgstr "Nova prijava v Firefox"
-
-#: mailer.js:291
-msgid "Firefox Account Verified"
-msgstr "Firefox Račun potrjen"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"

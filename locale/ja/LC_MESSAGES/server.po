@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-21 17:06+0000\n"
+"POT-Creation-Date: 2016-01-07 20:01+0000\n"
 "PO-Revision-Date: 2015-11-13 11:24+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -269,6 +269,34 @@ msgstr "このメールアドレスを確認してアカウントを有効化し
 msgid "Activate now:"
 msgstr "今すぐ有効化:"
 
+#: mailer.js:132 mailer.js:330 mailer.js:329
+msgid "Verify your Firefox Account"
+msgstr "Firefox アカウントを認証"
+
+#: mailer.js:165
+msgid "Reset your Firefox Account password"
+msgstr "Firefox アカウントのパスワードをリセット"
+
+#: mailer.js:199
+msgid "Re-verify your Firefox Account"
+msgstr "Firefox アカウントを再認証"
+
+#: mailer.js:225
+msgid "Your Firefox Account password has been changed"
+msgstr "Firefox アカウントのパスワードが変更されました"
+
+#: mailer.js:247 mailer.js:246
+msgid "Your Firefox Account password has been reset"
+msgstr "Firefox アカウントのパスワードがリセットされました"
+
+#: mailer.js:269 mailer.js:268
+msgid "New sign-in to Firefox"
+msgstr "Firefox への新規ログイン"
+
+#: mailer.js:292 mailer.js:291
+msgid "Firefox Account Verified"
+msgstr "Firefox アカウントが認証されました"
+
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
@@ -294,34 +322,6 @@ msgstr ""
 "Linux、Android、iOS に対応しています。Firefox のパスワードやブックマーク、履"
 "歴をそれらすべての端末で同期できます。このメールアドレスを確認してアカウント"
 "を有効化し、私たちにあなたの無事を知らせてください。"
-
-#: mailer.js:132 mailer.js:329
-msgid "Verify your Firefox Account"
-msgstr "Firefox アカウントを認証"
-
-#: mailer.js:165
-msgid "Reset your Firefox Account password"
-msgstr "Firefox アカウントのパスワードをリセット"
-
-#: mailer.js:199
-msgid "Re-verify your Firefox Account"
-msgstr "Firefox アカウントを再認証"
-
-#: mailer.js:225
-msgid "Your Firefox Account password has been changed"
-msgstr "Firefox アカウントのパスワードが変更されました"
-
-#: mailer.js:246
-msgid "Your Firefox Account password has been reset"
-msgstr "Firefox アカウントのパスワードがリセットされました"
-
-#: mailer.js:268
-msgid "New sign-in to Firefox"
-msgstr "Firefox への新規ログイン"
-
-#: mailer.js:291
-msgid "Firefox Account Verified"
-msgstr "Firefox アカウントが認証されました"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"

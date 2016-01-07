@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-21 17:06+0000\n"
+"POT-Creation-Date: 2016-01-07 20:01+0000\n"
 "PO-Revision-Date: 2015-11-13 23:31+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -276,6 +276,34 @@ msgstr "Ju lutemi, aktivizoni llogarinë tuaj duke ripohuar këtë adresë email
 msgid "Activate now:"
 msgstr "Aktivizojeni tani:"
 
+#: mailer.js:132 mailer.js:330 mailer.js:329
+msgid "Verify your Firefox Account"
+msgstr "Verifikoni Llogarinë tuaj Firefox"
+
+#: mailer.js:165
+msgid "Reset your Firefox Account password"
+msgstr "Ricaktoni fjalëkalimin e Llogarisë suaj Firefox"
+
+#: mailer.js:199
+msgid "Re-verify your Firefox Account"
+msgstr "Riverifikoni Llogarinë tuaj Firefox"
+
+#: mailer.js:225
+msgid "Your Firefox Account password has been changed"
+msgstr "Fjalëkalimi për Llogarinë tuaj Firefox u ndryshua"
+
+#: mailer.js:247 mailer.js:246
+msgid "Your Firefox Account password has been reset"
+msgstr "Fjalëkalimi për Llogarinë tuaj Firefox u ricaktua"
+
+#: mailer.js:269 mailer.js:268
+msgid "New sign-in to Firefox"
+msgstr "Hyrje e re te Firefox-i"
+
+#: mailer.js:292 mailer.js:291
+msgid "Firefox Account Verified"
+msgstr "Llogaria Firefox U Verifikua"
+
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
@@ -301,34 +329,6 @@ msgstr ""
 "iOS. Mund të njëkohësoni fjalëkalimet tuaja të Firefox-it, faqerojtësit dhe "
 "historikun nëpër krejt ata. Ripohoni këtë adresë email që të aktivizoni "
 "llogarinë tuaj dhe të na thoni se jeni mirë."
-
-#: mailer.js:132 mailer.js:329
-msgid "Verify your Firefox Account"
-msgstr "Verifikoni Llogarinë tuaj Firefox"
-
-#: mailer.js:165
-msgid "Reset your Firefox Account password"
-msgstr "Ricaktoni fjalëkalimin e Llogarisë suaj Firefox"
-
-#: mailer.js:199
-msgid "Re-verify your Firefox Account"
-msgstr "Riverifikoni Llogarinë tuaj Firefox"
-
-#: mailer.js:225
-msgid "Your Firefox Account password has been changed"
-msgstr "Fjalëkalimi për Llogarinë tuaj Firefox u ndryshua"
-
-#: mailer.js:246
-msgid "Your Firefox Account password has been reset"
-msgstr "Fjalëkalimi për Llogarinë tuaj Firefox u ricaktua"
-
-#: mailer.js:268
-msgid "New sign-in to Firefox"
-msgstr "Hyrje e re te Firefox-i"
-
-#: mailer.js:291
-msgid "Firefox Account Verified"
-msgstr "Llogaria Firefox U Verifikua"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"

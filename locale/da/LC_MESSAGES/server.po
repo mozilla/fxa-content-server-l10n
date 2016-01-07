@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-21 17:06+0000\n"
+"POT-Creation-Date: 2016-01-07 20:01+0000\n"
 "PO-Revision-Date: 2015-11-23 19:13+0000\n"
 "Last-Translator: Jørgen   <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
@@ -269,6 +269,34 @@ msgstr "Aktiver din konto ved at bekræfte denne mailadresse."
 msgid "Activate now:"
 msgstr "Aktiver nu:"
 
+#: mailer.js:132 mailer.js:330 mailer.js:329
+msgid "Verify your Firefox Account"
+msgstr "Bekræft din Firefox-konto"
+
+#: mailer.js:165
+msgid "Reset your Firefox Account password"
+msgstr "Nulstil adgangskoden til din Firefox-konto"
+
+#: mailer.js:199
+msgid "Re-verify your Firefox Account"
+msgstr "Genbekræft din Firefox-konto"
+
+#: mailer.js:225
+msgid "Your Firefox Account password has been changed"
+msgstr "Adgangskoden til din Firefox-konto er blevet ændret"
+
+#: mailer.js:247 mailer.js:246
+msgid "Your Firefox Account password has been reset"
+msgstr "Adgangskoden til din Firefox-konto er blevet nulstillet"
+
+#: mailer.js:269 mailer.js:268
+msgid "New sign-in to Firefox"
+msgstr "Nyt login til Firefox"
+
+#: mailer.js:292 mailer.js:291
+msgid "Firefox Account Verified"
+msgstr "Firefox-konto bekræftet"
+
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
@@ -294,34 +322,6 @@ msgstr ""
 "Android og iOS. Du kan synkronisere dine adgangskoder, bogmærker og historik "
 "i din Firefox på dem alle. Bekræft denne mailadresse for at aktivere din "
 "konto og lade os vide, at du er ok."
-
-#: mailer.js:132 mailer.js:329
-msgid "Verify your Firefox Account"
-msgstr "Bekræft din Firefox-konto"
-
-#: mailer.js:165
-msgid "Reset your Firefox Account password"
-msgstr "Nulstil adgangskoden til din Firefox-konto"
-
-#: mailer.js:199
-msgid "Re-verify your Firefox Account"
-msgstr "Genbekræft din Firefox-konto"
-
-#: mailer.js:225
-msgid "Your Firefox Account password has been changed"
-msgstr "Adgangskoden til din Firefox-konto er blevet ændret"
-
-#: mailer.js:246
-msgid "Your Firefox Account password has been reset"
-msgstr "Adgangskoden til din Firefox-konto er blevet nulstillet"
-
-#: mailer.js:268
-msgid "New sign-in to Firefox"
-msgstr "Nyt login til Firefox"
-
-#: mailer.js:291
-msgid "Firefox Account Verified"
-msgstr "Firefox-konto bekræftet"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
