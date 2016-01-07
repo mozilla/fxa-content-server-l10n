@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-21 17:06+0000\n"
+"POT-Creation-Date: 2016-01-07 20:01+0000\n"
 "PO-Revision-Date: 2015-11-15 04:55+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -270,6 +270,34 @@ msgstr "Lütfən bu e-poçt ünvanını təsdiqləyərək hesabınızı aktivlə
 msgid "Activate now:"
 msgstr "İndi aktivləşdir:"
 
+#: mailer.js:132 mailer.js:330 mailer.js:329
+msgid "Verify your Firefox Account"
+msgstr "Firefox Hesabınızı təsdiqləyin"
+
+#: mailer.js:165
+msgid "Reset your Firefox Account password"
+msgstr "Firefox Hesab parolunuzu sıfırlayın"
+
+#: mailer.js:199
+msgid "Re-verify your Firefox Account"
+msgstr "Firefox Hesabınızı yenidən təsdiqləyin"
+
+#: mailer.js:225
+msgid "Your Firefox Account password has been changed"
+msgstr "Firefox Hesab parolunuz dəyişdirildi"
+
+#: mailer.js:247 mailer.js:246
+msgid "Your Firefox Account password has been reset"
+msgstr "Firefox Hesab parolunuz sıfırlandı"
+
+#: mailer.js:269 mailer.js:268
+msgid "New sign-in to Firefox"
+msgstr "Firefox-a yeni daxil olma"
+
+#: mailer.js:292 mailer.js:291
+msgid "Firefox Account Verified"
+msgstr "Firefox Hesabı təsdiqləndi"
+
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
@@ -295,34 +323,6 @@ msgstr ""
 "mövcuddur. Bunların arasında Firefox parol, əlfəcin və tarixçənizi "
 "sinxronlaşdıra bilərsiniz. Bu e-poçt ünvanını təsdiqləyərək hesabı aktiv "
 "edin və sağ-salamat olduğunuzu bildirin."
-
-#: mailer.js:132 mailer.js:329
-msgid "Verify your Firefox Account"
-msgstr "Firefox Hesabınızı təsdiqləyin"
-
-#: mailer.js:165
-msgid "Reset your Firefox Account password"
-msgstr "Firefox Hesab parolunuzu sıfırlayın"
-
-#: mailer.js:199
-msgid "Re-verify your Firefox Account"
-msgstr "Firefox Hesabınızı yenidən təsdiqləyin"
-
-#: mailer.js:225
-msgid "Your Firefox Account password has been changed"
-msgstr "Firefox Hesab parolunuz dəyişdirildi"
-
-#: mailer.js:246
-msgid "Your Firefox Account password has been reset"
-msgstr "Firefox Hesab parolunuz sıfırlandı"
-
-#: mailer.js:268
-msgid "New sign-in to Firefox"
-msgstr "Firefox-a yeni daxil olma"
-
-#: mailer.js:291
-msgid "Firefox Account Verified"
-msgstr "Firefox Hesabı təsdiqləndi"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"

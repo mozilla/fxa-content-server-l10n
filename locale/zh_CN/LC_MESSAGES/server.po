@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-21 17:06+0000\n"
+"POT-Creation-Date: 2016-01-07 20:01+0000\n"
 "PO-Revision-Date: 2015-11-13 12:09+0000\n"
 "Last-Translator: YFdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -264,6 +264,34 @@ msgstr "请确认此邮件地址以激活您的账号。"
 msgid "Activate now:"
 msgstr "立即激活："
 
+#: mailer.js:132 mailer.js:330 mailer.js:329
+msgid "Verify your Firefox Account"
+msgstr "验证您的 Firefox 账号"
+
+#: mailer.js:165
+msgid "Reset your Firefox Account password"
+msgstr "重置您的 Firefox 账号密码"
+
+#: mailer.js:199
+msgid "Re-verify your Firefox Account"
+msgstr "重新验证您的 Firefox 账号"
+
+#: mailer.js:225
+msgid "Your Firefox Account password has been changed"
+msgstr "您的 Firefox 账号密码已被更改"
+
+#: mailer.js:247 mailer.js:246
+msgid "Your Firefox Account password has been reset"
+msgstr "您的 Firefox 账号密码已被重置"
+
+#: mailer.js:269 mailer.js:268
+msgid "New sign-in to Firefox"
+msgstr "新的登录 Firefox"
+
+#: mailer.js:292 mailer.js:291
+msgid "Firefox Account Verified"
+msgstr "Firefox 账号已验证"
+
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
@@ -287,34 +315,6 @@ msgstr ""
 "在 Windows、Mac、Linux、Android 和 iOS 系统上使用。您可以用账号同步您的 "
 "Firefox 密码、书签和历史记录。我们渴望您确认这个电子邮件地址，以激活您的账"
 "号。"
-
-#: mailer.js:132 mailer.js:329
-msgid "Verify your Firefox Account"
-msgstr "验证您的 Firefox 账号"
-
-#: mailer.js:165
-msgid "Reset your Firefox Account password"
-msgstr "重置您的 Firefox 账号密码"
-
-#: mailer.js:199
-msgid "Re-verify your Firefox Account"
-msgstr "重新验证您的 Firefox 账号"
-
-#: mailer.js:225
-msgid "Your Firefox Account password has been changed"
-msgstr "您的 Firefox 账号密码已被更改"
-
-#: mailer.js:246
-msgid "Your Firefox Account password has been reset"
-msgstr "您的 Firefox 账号密码已被重置"
-
-#: mailer.js:268
-msgid "New sign-in to Firefox"
-msgstr "新的登录 Firefox"
-
-#: mailer.js:291
-msgid "Firefox Account Verified"
-msgstr "Firefox 账号已验证"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"

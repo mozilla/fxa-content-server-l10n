@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-21 17:06+0000\n"
+"POT-Creation-Date: 2016-01-07 20:01+0000\n"
 "PO-Revision-Date: 2015-11-13 10:06+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -280,6 +280,34 @@ msgstr ""
 msgid "Activate now:"
 msgstr "Jetzt aktivieren:"
 
+#: mailer.js:132 mailer.js:330 mailer.js:329
+msgid "Verify your Firefox Account"
+msgstr "Bestätigen Sie Ihr Firefox-Konto"
+
+#: mailer.js:165
+msgid "Reset your Firefox Account password"
+msgstr "Setzten Sie das Passwort Ihres Firefox-Kontos zurück"
+
+#: mailer.js:199
+msgid "Re-verify your Firefox Account"
+msgstr "Bestätigen Sie Ihr Firefox-Konto erneut"
+
+#: mailer.js:225
+msgid "Your Firefox Account password has been changed"
+msgstr "Das Passwort Ihres Firefox-Kontos wurde geändert"
+
+#: mailer.js:247 mailer.js:246
+msgid "Your Firefox Account password has been reset"
+msgstr "Das Passwort Ihres Firefox-Kontos wurde zurückgesetzt"
+
+#: mailer.js:269 mailer.js:268
+msgid "New sign-in to Firefox"
+msgstr "Neue Anmeldung bei Firefox"
+
+#: mailer.js:292 mailer.js:291
+msgid "Firefox Account Verified"
+msgstr "Firefox-Konto verifiziert"
+
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
@@ -306,34 +334,6 @@ msgstr ""
 "Android und iOS. Damit können Sie über alle Geräte hinweg Ihre Passwörter, "
 "Lesezeichen und Chronik synchronisieren. Bestätigen Sie Ihre E-Mail-Adresse, "
 "um Ihr Konto zu aktivieren und uns zu zeigen, dass es Ihnen gut geht."
-
-#: mailer.js:132 mailer.js:329
-msgid "Verify your Firefox Account"
-msgstr "Bestätigen Sie Ihr Firefox-Konto"
-
-#: mailer.js:165
-msgid "Reset your Firefox Account password"
-msgstr "Setzten Sie das Passwort Ihres Firefox-Kontos zurück"
-
-#: mailer.js:199
-msgid "Re-verify your Firefox Account"
-msgstr "Bestätigen Sie Ihr Firefox-Konto erneut"
-
-#: mailer.js:225
-msgid "Your Firefox Account password has been changed"
-msgstr "Das Passwort Ihres Firefox-Kontos wurde geändert"
-
-#: mailer.js:246
-msgid "Your Firefox Account password has been reset"
-msgstr "Das Passwort Ihres Firefox-Kontos wurde zurückgesetzt"
-
-#: mailer.js:268
-msgid "New sign-in to Firefox"
-msgstr "Neue Anmeldung bei Firefox"
-
-#: mailer.js:291
-msgid "Firefox Account Verified"
-msgstr "Firefox-Konto verifiziert"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"

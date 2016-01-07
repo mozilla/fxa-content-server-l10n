@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-21 17:06+0000\n"
+"POT-Creation-Date: 2016-01-07 20:01+0000\n"
 "PO-Revision-Date: 2015-11-13 10:27+0000\n"
 "Last-Translator: Jobava <jobaval10n@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -273,6 +273,34 @@ msgstr "Te rugăm să îți activezi contul confirmând această adresă de e-ma
 msgid "Activate now:"
 msgstr "Activează acum:"
 
+#: mailer.js:132 mailer.js:330 mailer.js:329
+msgid "Verify your Firefox Account"
+msgstr "Verifică-ți contul Firefox"
+
+#: mailer.js:165
+msgid "Reset your Firefox Account password"
+msgstr "Resetează-ți parola contului Firefox"
+
+#: mailer.js:199
+msgid "Re-verify your Firefox Account"
+msgstr "Reverifică-ți contul Firefox"
+
+#: mailer.js:225
+msgid "Your Firefox Account password has been changed"
+msgstr "Parola contului tău Firefox a fost schimbată"
+
+#: mailer.js:247 mailer.js:246
+msgid "Your Firefox Account password has been reset"
+msgstr "Parola contului tău Firefox a fost resetată"
+
+#: mailer.js:269 mailer.js:268
+msgid "New sign-in to Firefox"
+msgstr "Autentificare nouă în Firefox"
+
+#: mailer.js:292 mailer.js:291
+msgid "Firefox Account Verified"
+msgstr "Cont Firefox verificat"
+
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
@@ -298,34 +326,6 @@ msgstr ""
 "Windows, Mac, Linux, Android și iOS. Poți sincroniza parolele de Firefox, "
 "semnele de carte și istoricul pentru toate acestea. Confirmă această adresă "
 "de e-mail pentru a activa contul și pentru a ne anunța că ești în regulă."
-
-#: mailer.js:132 mailer.js:329
-msgid "Verify your Firefox Account"
-msgstr "Verifică-ți contul Firefox"
-
-#: mailer.js:165
-msgid "Reset your Firefox Account password"
-msgstr "Resetează-ți parola contului Firefox"
-
-#: mailer.js:199
-msgid "Re-verify your Firefox Account"
-msgstr "Reverifică-ți contul Firefox"
-
-#: mailer.js:225
-msgid "Your Firefox Account password has been changed"
-msgstr "Parola contului tău Firefox a fost schimbată"
-
-#: mailer.js:246
-msgid "Your Firefox Account password has been reset"
-msgstr "Parola contului tău Firefox a fost resetată"
-
-#: mailer.js:268
-msgid "New sign-in to Firefox"
-msgstr "Autentificare nouă în Firefox"
-
-#: mailer.js:291
-msgid "Firefox Account Verified"
-msgstr "Cont Firefox verificat"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"

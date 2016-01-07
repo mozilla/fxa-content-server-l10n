@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-21 17:06+0000\n"
+"POT-Creation-Date: 2016-01-07 20:01+0000\n"
 "PO-Revision-Date: 2015-11-13 15:56+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -274,6 +274,34 @@ msgstr ""
 msgid "Activate now:"
 msgstr "Nětko aktiwizować:"
 
+#: mailer.js:132 mailer.js:330 mailer.js:329
+msgid "Verify your Firefox Account"
+msgstr "Wobkrućće swoje konto Firefox"
+
+#: mailer.js:165
+msgid "Reset your Firefox Account password"
+msgstr "Stajće hesło swojeho konta Firefox wróćo"
+
+#: mailer.js:199
+msgid "Re-verify your Firefox Account"
+msgstr "Wobkrućće swoje konto Firefox hišće raz"
+
+#: mailer.js:225
+msgid "Your Firefox Account password has been changed"
+msgstr "Hesło wašeho konta Firefox je so změniło"
+
+#: mailer.js:247 mailer.js:246
+msgid "Your Firefox Account password has been reset"
+msgstr "Hesło wašeho konta Firefox je so wróćo stajiło"
+
+#: mailer.js:269 mailer.js:268
+msgid "New sign-in to Firefox"
+msgstr "Nowe přizjewjenje pola Firefox"
+
+#: mailer.js:292 mailer.js:291
+msgid "Firefox Account Verified"
+msgstr "Konto Firefox wobkrućene"
+
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
@@ -299,34 +327,6 @@ msgstr ""
 "Móžeće swoje hesła, zapołožki a historiju Firefox mjez nimi wšěmi "
 "synchronizować. Wobkrućće tutu e-mejlowu adresu, zo byšće swoje konto "
 "aktiwizował a zdźělće nam, hač wšitko je w porjadku z wami."
-
-#: mailer.js:132 mailer.js:329
-msgid "Verify your Firefox Account"
-msgstr "Wobkrućće swoje konto Firefox"
-
-#: mailer.js:165
-msgid "Reset your Firefox Account password"
-msgstr "Stajće hesło swojeho konta Firefox wróćo"
-
-#: mailer.js:199
-msgid "Re-verify your Firefox Account"
-msgstr "Wobkrućće swoje konto Firefox hišće raz"
-
-#: mailer.js:225
-msgid "Your Firefox Account password has been changed"
-msgstr "Hesło wašeho konta Firefox je so změniło"
-
-#: mailer.js:246
-msgid "Your Firefox Account password has been reset"
-msgstr "Hesło wašeho konta Firefox je so wróćo stajiło"
-
-#: mailer.js:268
-msgid "New sign-in to Firefox"
-msgstr "Nowe přizjewjenje pola Firefox"
-
-#: mailer.js:291
-msgid "Firefox Account Verified"
-msgstr "Konto Firefox wobkrućene"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"

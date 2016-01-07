@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fxa-server\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-21 17:06+0000\n"
+"POT-Creation-Date: 2016-01-07 20:01+0000\n"
 "PO-Revision-Date: 2015-11-13 14:11+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
@@ -275,6 +275,34 @@ msgstr "Тіркелгіңізді бұл эл. пошта адресін рас
 msgid "Activate now:"
 msgstr "Қазір белсендіру:"
 
+#: mailer.js:132 mailer.js:330 mailer.js:329
+msgid "Verify your Firefox Account"
+msgstr "Firefox тіркелгіңізді растаңыз"
+
+#: mailer.js:165
+msgid "Reset your Firefox Account password"
+msgstr "Firefox тіркелгі паролін тастау"
+
+#: mailer.js:199
+msgid "Re-verify your Firefox Account"
+msgstr "Firefox тіркелгіңізді қайта растаңыз"
+
+#: mailer.js:225
+msgid "Your Firefox Account password has been changed"
+msgstr "Сіздің Firefox тіркелгісі паролі өзгертілді"
+
+#: mailer.js:247 mailer.js:246
+msgid "Your Firefox Account password has been reset"
+msgstr "Сіздің Firefox тіркелгісі паролі тасталды"
+
+#: mailer.js:269 mailer.js:268
+msgid "New sign-in to Firefox"
+msgstr "Firefox-қа жаңа кіру"
+
+#: mailer.js:292 mailer.js:291
+msgid "Firefox Account Verified"
+msgstr "Firefox тіркелгісі расталды"
+
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
@@ -300,34 +328,6 @@ msgstr ""
 "үшін қолжетерлік. Олардың барлығының арасында Firefox парольдерін, "
 "бетбелгілер және шолу тарихын синхрондай аласыз. Тіркелгіні белсендіру үшін "
 "бұл эл. пошта адресін растаңыз."
-
-#: mailer.js:132 mailer.js:329
-msgid "Verify your Firefox Account"
-msgstr "Firefox тіркелгіңізді растаңыз"
-
-#: mailer.js:165
-msgid "Reset your Firefox Account password"
-msgstr "Firefox тіркелгі паролін тастау"
-
-#: mailer.js:199
-msgid "Re-verify your Firefox Account"
-msgstr "Firefox тіркелгіңізді қайта растаңыз"
-
-#: mailer.js:225
-msgid "Your Firefox Account password has been changed"
-msgstr "Сіздің Firefox тіркелгісі паролі өзгертілді"
-
-#: mailer.js:246
-msgid "Your Firefox Account password has been reset"
-msgstr "Сіздің Firefox тіркелгісі паролі тасталды"
-
-#: mailer.js:268
-msgid "New sign-in to Firefox"
-msgstr "Firefox-қа жаңа кіру"
-
-#: mailer.js:291
-msgid "Firefox Account Verified"
-msgstr "Firefox тіркелгісі расталды"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"

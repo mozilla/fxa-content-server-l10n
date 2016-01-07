@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-21 17:06+0000\n"
+"POT-Creation-Date: 2016-01-07 20:01+0000\n"
 "PO-Revision-Date: 2015-01-07 10:11+0000\n"
 "Last-Translator: Zachary <zcarter@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-POOTLE-MTIME: 1420625507.0\n"
 
 #: app/scripts/views/complete_reset_password.js:131
-#: app/scripts/views/complete_sign_up.js:103 app/scripts/views/confirm.js:114
+#: app/scripts/views/complete_sign_up.js:106 app/scripts/views/confirm.js:114
 #: app/scripts/views/confirm_reset_password.js:163
 msgid "Account verified successfully"
 msgstr ""
@@ -65,7 +65,7 @@ msgstr "%(serviceName)sটি ব্যবহার করতে আপনি �
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "অচেনা অ্যাকাউন্ট। <a href=\"/signup\">সাইন আপ</a> "
 
-#: app/scripts/views/sign_up.js:340
+#: app/scripts/views/sign_up.js:346
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "অ্যাকাউন্ট আগেই আছে। <a href=\"/signin\">সাইন ইন</a>"
 
@@ -426,7 +426,7 @@ msgstr "কি সিঙ্ক করতে হবে তা পছন্দ ক
 msgid "Add-ons"
 msgstr ""
 
-#: app/scripts/templates/choose_what_to_sync.mustache:12
+#: app/scripts/templates/choose_what_to_sync.mustache:13
 msgid "Preferences"
 msgstr ""
 

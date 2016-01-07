@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-21 17:06+0000\n"
+"POT-Creation-Date: 2016-01-07 20:01+0000\n"
 "PO-Revision-Date: 2015-09-12 14:02+0000\n"
 "Last-Translator: Jānis Marks Gailis - Jean-Marc <jm-gailis@fai-vianet.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -242,6 +242,34 @@ msgstr "Lūdzu aktivizējiet savu kontu apstiprinot šo epasta adresi."
 msgid "Activate now:"
 msgstr "Aktivizēt tagad:"
 
+#: mailer.js:132 mailer.js:330 mailer.js:329
+msgid "Verify your Firefox Account"
+msgstr "Pārbaudiet savu Firefox kontu"
+
+#: mailer.js:165
+msgid "Reset your Firefox Account password"
+msgstr "Atstatiet sava Firefox konta paroli"
+
+#: mailer.js:199
+msgid "Re-verify your Firefox Account"
+msgstr "Vēlreiz pārbaudiet savu Firefox kontu"
+
+#: mailer.js:225
+msgid "Your Firefox Account password has been changed"
+msgstr "Jūsu Firefox konta parole tika mainīta"
+
+#: mailer.js:247 mailer.js:246
+msgid "Your Firefox Account password has been reset"
+msgstr "Jūsu Firefox konta parole tika atstatīta"
+
+#: mailer.js:269 mailer.js:268
+msgid "New sign-in to Firefox"
+msgstr ""
+
+#: mailer.js:292 mailer.js:291
+msgid "Firefox Account Verified"
+msgstr "Firefox konts ir pārbaudīts"
+
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
@@ -258,34 +286,6 @@ msgid ""
 "of them. Confirm this email address to activate your account and let us know "
 "you're okay."
 msgstr ""
-
-#: mailer.js:132 mailer.js:329
-msgid "Verify your Firefox Account"
-msgstr "Pārbaudiet savu Firefox kontu"
-
-#: mailer.js:165
-msgid "Reset your Firefox Account password"
-msgstr "Atstatiet sava Firefox konta paroli"
-
-#: mailer.js:199
-msgid "Re-verify your Firefox Account"
-msgstr "Vēlreiz pārbaudiet savu Firefox kontu"
-
-#: mailer.js:225
-msgid "Your Firefox Account password has been changed"
-msgstr "Jūsu Firefox konta parole tika mainīta"
-
-#: mailer.js:246
-msgid "Your Firefox Account password has been reset"
-msgstr "Jūsu Firefox konta parole tika atstatīta"
-
-#: mailer.js:268
-msgid "New sign-in to Firefox"
-msgstr ""
-
-#: mailer.js:291
-msgid "Firefox Account Verified"
-msgstr "Firefox konts ir pārbaudīts"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"

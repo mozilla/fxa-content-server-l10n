@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-21 17:06+0000\n"
+"POT-Creation-Date: 2016-01-07 20:01+0000\n"
 "PO-Revision-Date: 2015-11-14 16:44+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -261,6 +261,34 @@ msgstr "請確認此電子郵件地址為您所有，以啟用帳號。"
 msgid "Activate now:"
 msgstr "立刻啟用:"
 
+#: mailer.js:132 mailer.js:330 mailer.js:329
+msgid "Verify your Firefox Account"
+msgstr "驗證您的 Firefox 帳號"
+
+#: mailer.js:165
+msgid "Reset your Firefox Account password"
+msgstr "重設您的 Firefox 帳號密碼"
+
+#: mailer.js:199
+msgid "Re-verify your Firefox Account"
+msgstr "重新驗證您的 Firefox 帳號"
+
+#: mailer.js:225
+msgid "Your Firefox Account password has been changed"
+msgstr "已修改您的 Firefox 帳號密碼"
+
+#: mailer.js:247 mailer.js:246
+msgid "Your Firefox Account password has been reset"
+msgstr "已重設您的 Firefox 帳號密碼"
+
+#: mailer.js:269 mailer.js:268
+msgid "New sign-in to Firefox"
+msgstr "新登入至 Firefox"
+
+#: mailer.js:292 mailer.js:291
+msgid "Firefox Account Verified"
+msgstr "已驗證 Firefox 帳號"
+
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
@@ -283,34 +311,6 @@ msgstr ""
 "您上個禮拜註冊了 Firefox 帳號，但沒有完成驗證。您有遇到什麼問題嗎？Windows、"
 "Mac、Linux、Android 與 iOS 等系統中都有 Firefox 可供使用。您可以在這些系統同"
 "步 Firefox 的密碼、書籤、瀏覽紀錄等資料。只要確認此電子郵件地址即可啟用帳號。"
-
-#: mailer.js:132 mailer.js:329
-msgid "Verify your Firefox Account"
-msgstr "驗證您的 Firefox 帳號"
-
-#: mailer.js:165
-msgid "Reset your Firefox Account password"
-msgstr "重設您的 Firefox 帳號密碼"
-
-#: mailer.js:199
-msgid "Re-verify your Firefox Account"
-msgstr "重新驗證您的 Firefox 帳號"
-
-#: mailer.js:225
-msgid "Your Firefox Account password has been changed"
-msgstr "已修改您的 Firefox 帳號密碼"
-
-#: mailer.js:246
-msgid "Your Firefox Account password has been reset"
-msgstr "已重設您的 Firefox 帳號密碼"
-
-#: mailer.js:268
-msgid "New sign-in to Firefox"
-msgstr "新登入至 Firefox"
-
-#: mailer.js:291
-msgid "Firefox Account Verified"
-msgstr "已驗證 Firefox 帳號"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-21 17:06+0000\n"
+"POT-Creation-Date: 2016-01-07 20:01+0000\n"
 "PO-Revision-Date: 2015-11-15 17:43+0000\n"
 "Last-Translator: Rimas <rq@akl.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-POOTLE-MTIME: 1447609426.0\n"
 
 #: app/scripts/views/complete_reset_password.js:131
-#: app/scripts/views/complete_sign_up.js:103 app/scripts/views/confirm.js:114
+#: app/scripts/views/complete_sign_up.js:106 app/scripts/views/confirm.js:114
 #: app/scripts/views/confirm_reset_password.js:163
 msgid "Account verified successfully"
 msgstr "Paskyra patvirtinta sėkmingai"
@@ -66,7 +66,7 @@ msgstr "Galite pradėti naudotis %(serviceName)s"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Paskyra nežinoma. <a href=\"/signup\">Registruotis</a>"
 
-#: app/scripts/views/sign_up.js:340
+#: app/scripts/views/sign_up.js:346
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Paskyra jau egzistuoja. <a href=\"/signin\">Prisijungti</a>"
 
@@ -438,7 +438,7 @@ msgstr "Pasirinkite, ką sinchronizuosite"
 msgid "Add-ons"
 msgstr ""
 
-#: app/scripts/templates/choose_what_to_sync.mustache:12
+#: app/scripts/templates/choose_what_to_sync.mustache:13
 msgid "Preferences"
 msgstr ""
 

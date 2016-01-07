@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-21 17:06+0000\n"
+"POT-Creation-Date: 2016-01-07 20:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -237,24 +237,7 @@ msgstr ""
 msgid "Activate now:"
 msgstr ""
 
-#: templates/verify_reminder_first.html:3
-msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history "
-"on any device connected to it. Simply confirm this email address to activate "
-"your account."
-msgstr ""
-
-#: templates/verify_reminder_second.html:3
-msgid ""
-"A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
-"iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know "
-"you're okay."
-msgstr ""
-
-#: mailer.js:132 mailer.js:329
+#: mailer.js:132 mailer.js:330 mailer.js:329
 msgid "Verify your Firefox Account"
 msgstr ""
 
@@ -270,16 +253,33 @@ msgstr ""
 msgid "Your Firefox Account password has been changed"
 msgstr ""
 
-#: mailer.js:246
+#: mailer.js:247 mailer.js:246
 msgid "Your Firefox Account password has been reset"
 msgstr ""
 
-#: mailer.js:268
+#: mailer.js:269 mailer.js:268
 msgid "New sign-in to Firefox"
 msgstr ""
 
-#: mailer.js:291
+#: mailer.js:292 mailer.js:291
 msgid "Firefox Account Verified"
+msgstr ""
+
+#: templates/verify_reminder_first.html:3
+msgid ""
+"A few days ago you created a Firefox Account, but never verified it. A "
+"verified account lets you access your tabs, bookmarks, passwords and history "
+"on any device connected to it. Simply confirm this email address to activate "
+"your account."
+msgstr ""
+
+#: templates/verify_reminder_second.html:3
+msgid ""
+"A week ago you created a Firefox Account, but never verified it. We’re "
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
+"iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know "
+"you're okay."
 msgstr ""
 
 #: server/templates/pages/src/400.html:2
