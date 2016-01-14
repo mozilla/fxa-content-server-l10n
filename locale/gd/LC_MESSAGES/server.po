@@ -89,7 +89,7 @@ msgid ""
 "%(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr ""
 "Seo post-d fèin-obrachail; mur an do dh’iarr thusa sin, mholamaid dhut "
-"<a%(passwordChangeLinkAttributes)s>am facal-faire agad atharrachadh.</a>"
+"<a %(passwordChangeLinkAttributes)s>am facal-faire agad atharrachadh.</a>"
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
