@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-07 20:01+0000\n"
-"PO-Revision-Date: 2016-01-14 01:03+0000\n"
+"PO-Revision-Date: 2016-01-14 01:35+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gd\n"
@@ -247,63 +247,63 @@ msgstr ""
 #: templates/verify_reminder_first.html:4
 #: templates/verify_reminder_second.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "Cuir an gnìomh an-dràsta"
 
 #: templates/verification_reminder.html:8 templates/verify.html:8
 #: templates/verify_reminder_first.html:8
 #: templates/verify_reminder_second.html:8
 msgid "Verify Email"
-msgstr ""
+msgstr "Dearbh am post-d"
 
 #: templates/verification_reminder.html:9 templates/verify.html:9
 #: templates/verify_reminder_first.html:9
 #: templates/verify_reminder_second.html:9
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
+msgstr "Dearbh am post-d agad a choileanadh clàradh a’ chunntais Firefox agad"
 
 #: templates/verification_reminder.txt:3
 msgid "Activate Now:"
-msgstr ""
+msgstr "Cuir an gnìomh an-dràsta:"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
-msgstr ""
+msgstr "Fàilte!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "Cuir an cunntas agad an gnìomh mus dearbh thu an seòladh puist-d seo."
 
 #: templates/verify.txt:3
 msgid "Activate now:"
-msgstr ""
+msgstr "Cuir an gnìomh an-dràsta:"
 
 #: mailer.js:132 mailer.js:330 mailer.js:329
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "Dearbh an cunntas Firefox agad"
 
 #: mailer.js:165
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "Ath-shuidhich facal-faire a’ chunntais Firefox agad"
 
 #: mailer.js:199
 msgid "Re-verify your Firefox Account"
-msgstr ""
+msgstr "Ath-dhearbh an cunntas Firefox agad"
 
 #: mailer.js:225
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "Chaidh facal-faire a’ chunntais Firefox agad atharrachadh"
 
 #: mailer.js:247 mailer.js:246
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "Chaidh facal-faire a’ chunntais Firefox agad ath-shuidheachadh"
 
 #: mailer.js:269 mailer.js:268
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "Clàradh a-steach ùr gu Firefox"
 
 #: mailer.js:292 mailer.js:291
 msgid "Firefox Account Verified"
-msgstr ""
+msgstr "Chaidh an cunntas Firefox a dhearbhadh"
 
 #: templates/verify_reminder_first.html:3
 msgid ""
@@ -312,6 +312,11 @@ msgid ""
 " on any device connected to it. Simply confirm this email address to "
 "activate your account."
 msgstr ""
+"Chruthaich thu cunntas Firefox beagan làithean air ais ach cha do dhearbh "
+"thu e. Ma dhearbhas tu an cunntas agad, gheibh thu cothrom air na "
+"tabaichean, comharran-lìn is an eachdraidh o uidheam ceangailte sam bith. "
+"Cha leig thu leas ach an seòladh puist-d seo a dhearbhadh gus an cunntas "
+"agad a chur an gnìomh."
 
 #: templates/verify_reminder_second.html:3
 msgid ""
@@ -321,49 +326,61 @@ msgid ""
 "of them. Confirm this email address to activate your account and let us know"
 " you're okay."
 msgstr ""
+"Chruthaich thu cunntas Firefox beagan làithean air ais ach cha do dhearbh "
+"thu e. Tha sin a’ cur dragh oirnn. Tha Firefox ri fhaighinn air Windows, "
+"Mac, Linux, Android agus iOS. ’S urrainn dhut na faclan-faire, comharran-lìn"
+" is an eachdraidh a shioncronachadh air am feadh. Dearbh an seòladh puist-d "
+"gus an cunntas agad a dhearbhadh is innse dhuinn gu bheil gach rud mar bu "
+"chòir."
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
-msgstr ""
+msgstr "Droch-iarrtas"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "Cha deach an duilleag a lorg"
 
 #: server/templates/pages/src/404.html:3
 msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
+"Cha deach an duilleag a dh’iarr thu a lorg. Chaidh fios a chur thugainn is "
+"bheir sinn sùil air eagal ’s gu bheil ceangal briste ann."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
-msgstr ""
+msgstr "Dhachaigh"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr ""
+msgstr "Mearachd 500"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr ""
+"Ìoc, chaidh rudeigin cearr an-sin. Chaidh fios a chur thugainn agus "
+"càraichidh sinn e."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "Mearachd 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Tha am frithealaiche trang, feuch ris a-rithist an ceann greis"
 
 #: server/templates/pages/src/503.html:3
 msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
+"Tha sinn fo spàirn mhòr an-dràsta fhèin is a’ dèanamh ar dìcheall gus gach "
+"rud a chur air ais mar is àbhaist cho luath ’s a ghabhas."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:5
@@ -373,22 +390,25 @@ msgid ""
 "href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
 "experience."
 msgstr ""
+"Tha thu a’ cleachdadh <strong>seann-bhrabhsair</strong>. Nach <a "
+"href=\"http://browsehappy.com/\">àrdaich thu am brabhsair agad</a> is bidh "
+"rudan fada nas fhearr dhut."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "Feumaidh cunntasan Firefox JavaScript."
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Aithris na prìobhaideachd"
 
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "Seirbheisean neòil Firefox"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
-msgstr ""
+msgstr "Teirmichean na seirbheise"
