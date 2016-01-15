@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-07 20:01+0000\n"
-"PO-Revision-Date: 2016-01-12 12:43+0000\n"
+"PO-Revision-Date: 2016-01-12 12:38+0000\n"
 "Last-Translator: ash153311 <ash153311@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -136,14 +136,14 @@ msgstr ""
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
-msgstr ""
+msgstr "계정 인증됨!"
 
 #: templates/post_verify.html:5 templates/reset.html:5 templates/unlock.html:5
 #: templates/verification_reminder.html:5 templates/verify.html:5
 #: templates/verify_reminder_first.html:5
 #: templates/verify_reminder_second.html:5
 msgid "Alternatively:"
-msgstr ""
+msgstr "대신에:"
 
 #: templates/post_verify.html:6 templates/post_verify.txt:4
 #: templates/reset.html:6 templates/reset.txt:4 templates/unlock.html:6
@@ -231,11 +231,11 @@ msgstr ""
 
 #: templates/verification_reminder.txt:3
 msgid "Activate Now:"
-msgstr ""
+msgstr "지금 활성화:"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
-msgstr ""
+msgstr "환영합니다!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
@@ -243,7 +243,7 @@ msgstr ""
 
 #: templates/verify.txt:3
 msgid "Activate now:"
-msgstr ""
+msgstr "지금 활성화:"
 
 #: mailer.js:132 mailer.js:330 mailer.js:329
 msgid "Verify your Firefox Account"
