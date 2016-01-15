@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-07 20:01+0000\n"
-"PO-Revision-Date: 2016-01-12 12:38+0000\n"
-"Last-Translator: ash153311 <ash153311@gmail.com>\n"
+"PO-Revision-Date: 2016-01-15 12:42+0000\n"
+"Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -227,7 +227,7 @@ msgstr "이메일 인증"
 #: templates/verify_reminder_first.html:9
 #: templates/verify_reminder_second.html:9
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
+msgstr "Firefox Account 등록을 마치기 위해 이메일을 확인해 주세요."
 
 #: templates/verification_reminder.txt:3
 msgid "Activate Now:"
@@ -239,7 +239,7 @@ msgstr "환영합니다!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "이메일 주소를 확인해서 계정을 활성화하세요."
 
 #: templates/verify.txt:3
 msgid "Activate now:"
@@ -247,19 +247,19 @@ msgstr "지금 활성화:"
 
 #: mailer.js:132 mailer.js:330 mailer.js:329
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "Firefox Account 확인"
 
 #: mailer.js:165
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "Firefox Account 비밀번호 재설정"
 
 #: mailer.js:199
 msgid "Re-verify your Firefox Account"
-msgstr ""
+msgstr "Firefox Account 재인증"
 
 #: mailer.js:225
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "Firefox Account 비밀번호가 바뀌었습니다."
 
 #: mailer.js:247 mailer.js:246
 msgid "Your Firefox Account password has been reset"
@@ -271,7 +271,7 @@ msgstr ""
 
 #: mailer.js:292 mailer.js:291
 msgid "Firefox Account Verified"
-msgstr ""
+msgstr "Firefox Account 확인됨"
 
 #: templates/verify_reminder_first.html:3
 msgid ""
