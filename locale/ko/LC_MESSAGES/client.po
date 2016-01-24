@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-07 20:01+0000\n"
-"PO-Revision-Date: 2016-01-15 12:46+0000\n"
+"PO-Revision-Date: 2016-01-24 13:51+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -682,27 +682,27 @@ msgstr ""
 #: app/scripts/templates/marketing_snippet_ios.mustache:3
 #: app/scripts/templates/marketing_snippet_ios.mustache:12
 msgid "Download Firefox for iOS!"
-msgstr ""
+msgstr "iOS용 Firefox를 다운받으세요!"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:6
 #: app/scripts/templates/marketing_snippet_ios.mustache:7
 #: app/scripts/templates/marketing_snippet_ios.mustache:11
 msgid "Download Firefox for Android."
-msgstr ""
+msgstr "Android용 Firefox를 다운받으세요."
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr ""
+msgstr "모바일용 Firefox를 다운받으세요."
 
 #: app/scripts/templates/permissions.mustache:1
 #: app/scripts/templates/settings/gravatar_permissions.mustache:1
 msgid "Request for permission"
-msgstr ""
+msgstr "권한 요청"
 
 #: app/scripts/templates/permissions.mustache:2
 #: app/scripts/templates/settings/gravatar_permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr ""
+msgstr "%(serviceName)s이 당신의 계정에서 아래와 같은 정보를 요청합니다:"
 
 #: app/scripts/templates/permissions.mustache:3
 #: app/scripts/templates/reset_password.mustache:4
@@ -715,7 +715,7 @@ msgstr "이메일"
 #: app/scripts/templates/permissions.mustache:4
 #: app/scripts/templates/settings/gravatar_permissions.mustache:4
 msgid "Accept"
-msgstr ""
+msgstr "동의"
 
 #: app/scripts/templates/permissions.mustache:5
 #: app/scripts/templates/settings/avatar_camera.mustache:2
@@ -748,7 +748,7 @@ msgstr "계정이 준비되어 있습니다!"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Are you sure you want to reset your account password?"
-msgstr ""
+msgstr "계정 비밀번호를 초기화 하시겠습니까?"
 
 #: app/scripts/templates/reset_password.mustache:3
 msgid ""
@@ -756,10 +756,12 @@ msgid ""
 "data on your devices will remain untouched. Begin the reset process by "
 "entering your email below."
 msgstr ""
+"비밀번호를 초기화하면 서버에 있는 탐색 데이터가 삭제됩니다. 장치의 데이터는 유지됩니다. 초기화를 시작하려면 아래에 이메일을 "
+"입력해주세요."
 
 #: app/scripts/templates/reset_password.mustache:5
 msgid "Begin reset"
-msgstr ""
+msgstr "초기화 시작"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
@@ -910,6 +912,9 @@ msgid ""
 "href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
 "href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
+"Firefox는 <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS"
+" X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> 그리고 <a href=\"%(linkLinux)s\">Linux</a>를 지원합니다."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -940,7 +945,7 @@ msgstr "이름 표시"
 msgid ""
 "Choose the name you would like to appear in Firefox and when managing your "
 "account."
-msgstr ""
+msgstr "Firefox 또는 계정 관리시 표시할 이름을 선택해주세요."
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
