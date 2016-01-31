@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-07 20:01+0000\n"
-"PO-Revision-Date: 2016-01-24 13:51+0000\n"
+"PO-Revision-Date: 2016-01-31 14:40+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -72,7 +72,7 @@ msgstr "존재하고 있는 계정입니다. <a href=\"/signin\">회원가입</a
 
 #: app/scripts/views/settings/avatar_gravatar.js:89
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr ""
+msgstr "무료 <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
 #: app/scripts/views/settings/change_password.js:51
 msgid "Password changed successfully"
@@ -92,7 +92,7 @@ msgstr "계정이 성공적으로 삭제됨"
 
 #: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
-msgstr ""
+msgstr "표시 이름 갱신됨"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:31
 msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
@@ -266,7 +266,7 @@ msgstr "유효한 이메일 주소를 입력해 주세요. firefox.com에서 이
 
 #: app/scripts/lib/auth-errors.js:201
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Firefox 계정은 승인된 웹 사이트의 IFRAME 에만 위치할 수 있습니다"
 
 #: app/scripts/lib/auth-errors.js:209
 msgid "/force_auth requires an email"
@@ -289,7 +289,7 @@ msgstr "이미지는 최소한 100x100픽셀이어야 함"
 
 #: app/scripts/lib/auth-errors.js:229
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "iOS용 Firefox를 위한 회원가입이 곧 제공됩니다"
 
 #: app/scripts/lib/auth-errors.js:233
 msgid "Signup has been disabled"
@@ -407,6 +407,8 @@ msgid ""
 "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-"
 "account\">Help</a>"
 msgstr ""
+"<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-"
+"account\">도움말</a>"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -573,6 +575,7 @@ msgid ""
 "level activities, please re-verify your account by clicking the verification"
 " link sent to %(email)s"
 msgstr ""
+"보안상의 이유로 계정이 잠겼습니다. 계정 수준의 활동을 하려면 %(email)s 주소로 발송된 인증링크를 눌러 재 인증하세요."
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -643,6 +646,9 @@ msgid ""
 "href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
 "href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
+"계속 진행하면 Firefox 클라우드 서비스의 <a id=\"fxa-tos\" href=\"/legal/terms\">서비스 "
+"이용약관</a> 및 <a id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 취급방침</a>에 동의하는 것으로 "
+"간주합니다."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -676,7 +682,7 @@ msgstr "안드로이드용 Firefox 다운로드"
 #: app/scripts/templates/marketing_snippet_ios.mustache:5
 #: app/scripts/templates/marketing_snippet_ios.mustache:9
 msgid "Get the full Sync experience."
-msgstr ""
+msgstr "완전한 동기화를 경험하세요."
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:2
 #: app/scripts/templates/marketing_snippet_ios.mustache:3
@@ -778,7 +784,7 @@ msgstr "%(serviceName)s으로 계속"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr ""
+msgstr "Firefox&nbsp;계정으로 로그인해서 동기화 데이터를 이전하세요."
 
 #: app/scripts/templates/sign_in.mustache:13
 #: app/scripts/templates/sign_in.mustache:16
@@ -796,12 +802,12 @@ msgstr "Firefox 계정 생성"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr ""
+msgstr "새 Firefox&nbsp;계정을 생성해서 동기화 데이터를 이전하세요."
 
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/communication_preferences.mustache:6
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Mozilla 및 Firefox에 대한 최신 소식을 접하세요."
 
 #: app/scripts/templates/sign_up.mustache:27
 msgid "Have an account? Sign in."
@@ -856,7 +862,7 @@ msgstr "완료"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
-msgstr ""
+msgstr "필요한 만큼 사진의 위치나 회전을 수정"
 
 #: app/scripts/templates/settings/avatar_gravatar.mustache:2
 msgid "Save"
@@ -959,7 +965,7 @@ msgstr "동기화에 로그인"
 msgid ""
 "Choose the account you would like to use to sync your tabs, bookmarks, "
 "passwords and more."
-msgstr ""
+msgstr "탭, 북마크, 비밀번호, 그리고 그 이상의 것을 동기화하기 위한 계정을 선택하세요."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
