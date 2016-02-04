@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-07 20:01+0000\n"
-"PO-Revision-Date: 2016-01-13 07:58+0000\n"
+"PO-Revision-Date: 2016-02-04 11:04+0000\n"
 "Last-Translator: stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -448,6 +448,8 @@ msgstr "Настройки"
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
 msgstr ""
+"Добавките и настройките понастоящем не се синхронизират с мобилни "
+"устройства."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 #: app/scripts/templates/sign_up.mustache:22
@@ -567,7 +569,7 @@ msgstr "Изпратена е връзка за потвърждаване&nbsp;
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
-msgstr ""
+msgstr "Отваряне на Gmail"
 
 #: app/scripts/templates/confirm.mustache:7
 #: app/scripts/templates/confirm_account_unlock.mustache:6
@@ -929,7 +931,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/devices.mustache:2
 msgid "Devices"
-msgstr ""
+msgstr "Устройства"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
@@ -940,11 +942,11 @@ msgstr ""
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
-msgstr ""
+msgstr "По-долу можете да управлявате устройствата си."
 
 #: app/scripts/templates/settings/devices.mustache:6
 msgid "(current)"
-msgstr ""
+msgstr "(текущ)"
 
 #: app/scripts/templates/settings/devices.mustache:8
 msgid "Disconnect"
@@ -952,11 +954,11 @@ msgstr ""
 
 #: app/scripts/templates/settings/devices.mustache:10
 msgid "Don't see all your devices?"
-msgstr ""
+msgstr "Не виждате всичките си устройства?"
 
 #: app/scripts/templates/settings/devices.mustache:11
 msgid "Refresh"
-msgstr ""
+msgstr "Опресняване"
 
 #: app/scripts/templates/settings/display_name.mustache:1
 #: app/scripts/templates/settings/display_name.mustache:4
