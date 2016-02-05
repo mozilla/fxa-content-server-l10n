@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-07 20:01+0000\n"
+"POT-Creation-Date: 2016-02-05 22:55+0000\n"
 "PO-Revision-Date: 2015-12-23 03:48+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
@@ -14,22 +14,22 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: app/scripts/views/complete_reset_password.js:131
-#: app/scripts/views/complete_sign_up.js:106 app/scripts/views/confirm.js:114
-#: app/scripts/views/confirm_reset_password.js:163
+#: app/scripts/views/complete_reset_password.js:129
+#: app/scripts/views/complete_sign_up.js:103 app/scripts/views/confirm.js:112
+#: app/scripts/views/confirm_reset_password.js:180
 msgid "Account verified successfully"
 msgstr "Тіркелгі сәтті расталды"
 
-#: app/scripts/views/confirm_account_unlock.js:100
+#: app/scripts/views/confirm_account_unlock.js:89
 msgid "Account unlocked, please try again"
 msgstr "Тіркелгі босатылды, қайтадан көріңіз"
 
-#: app/scripts/views/confirm_reset_password.js:153
+#: app/scripts/views/confirm_reset_password.js:170
 #: app/scripts/views/ready.js:48
 msgid "Password reset"
 msgstr "Парольді тастау"
 
-#: app/scripts/views/confirm_reset_password.js:182
+#: app/scripts/views/confirm_reset_password.js:199
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Парольді тастау сәтті аяқталды. Жалғастыру үшін кіріңіз."
 
@@ -61,11 +61,11 @@ msgstr "Тіркелгі расталды"
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Сіз енді %(serviceName)s қолдануға дайынсыз"
 
-#: app/scripts/views/reset_password.js:66 app/scripts/views/sign_in.js:187
+#: app/scripts/views/reset_password.js:66 app/scripts/views/sign_in.js:182
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Белгісіз тіркелгі. <a href=\"/signup\">Тіркелгіні жасау</a>"
 
-#: app/scripts/views/sign_up.js:346
+#: app/scripts/views/sign_up.js:337
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Тіркелгі бар болып тұр. <a href=\"/signin\">Кіру</a>"
 
@@ -73,34 +73,86 @@ msgstr "Тіркелгі бар болып тұр. <a href=\"/signin\">Кіру<
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> ұсынған"
 
-#: app/scripts/views/settings/change_password.js:51
+#: app/scripts/views/settings/change_password.js:52
 msgid "Password changed successfully"
 msgstr "Пароль сәтті өзгертілді"
 
-#: app/scripts/views/settings/communication_preferences.js:108
+#: app/scripts/views/settings/communication_preferences.js:116
 msgid "Subscribed successfully"
 msgstr "Жазылу сәтті аяқталды"
 
-#: app/scripts/views/settings/communication_preferences.js:109
+#: app/scripts/views/settings/communication_preferences.js:117
 msgid "Unsubscribed successfully"
 msgstr "Жазылуды үзу сәтті аяқталды"
 
-#: app/scripts/views/settings/delete_account.js:50
+#: app/scripts/views/settings/delete_account.js:48
 msgid "Account deleted successfully"
 msgstr "Тіркелгі сәтті өшірілді"
+
+#: app/scripts/views/settings/devices.js:27
+msgid "a day"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:28
+msgid "%d days"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:29
+msgid "about an hour"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:30
+msgid "%d hours"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:31
+msgid "about a minute"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:32
+msgid "%d minutes"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:33
+msgid "about a month"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:34
+msgid "%d months"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:35
+msgid "a few seconds"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:36
+msgid "ago"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:37
+msgid "from now"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:38
+msgid "about a year"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:39
+msgid "%d years"
+msgstr ""
 
 #: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
 msgstr "Көрсетілетін аты жаңартылды"
 
-#: app/scripts/views/mixins/account-locked-mixin.js:31
+#: app/scripts/views/mixins/account-locked-mixin.js:39
 msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "Тіркелгі блокталған. <a href=\"/confirm_account_unlock\">Босату хатын "
 "жіберу</a>"
 
-#: app/scripts/views/mixins/signed-out-notification-mixin.js:38
+#: app/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
 msgstr "Шығу сәтті аяқталды"
 
@@ -376,41 +428,18 @@ msgstr ""
 "id=\"service-tos\" href=\"%(termsUri)s\">Қолдану шарттары</a> және <a id="
 "\"service-pp\" href=\"%(privacyUri)s\">Жекелік ескертуімен</a> келісесіз."
 
-#: app/scripts/lib/strings.js:22
-#: app/scripts/templates/choose_what_to_sync.mustache:4
-msgid "Bookmarks"
-msgstr "Бетбелгілер"
-
-#: app/scripts/lib/strings.js:23
-#: app/scripts/templates/choose_what_to_sync.mustache:10
-msgid "History"
-msgstr "Тарихы"
-
-#: app/scripts/lib/strings.js:24
-#: app/scripts/templates/choose_what_to_sync.mustache:2
-msgid "Tabs"
-msgstr "Беттер"
-
-#: app/scripts/lib/strings.js:25
-#: app/scripts/templates/choose_what_to_sync.mustache:8
-msgid "Passwords"
-msgstr "Парольдер"
-
 #: app/scripts/lib/strings.js:26
-msgid "Desktop Add-ons"
-msgstr "Жұмыс үстел қосымшалары"
-
-#: app/scripts/lib/strings.js:27
-msgid "Desktop Preferences"
-msgstr "Жұмыс үстеп баптаулары"
-
-#: app/scripts/lib/strings.js:34
 msgid ""
 "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-"
 "account\">Help</a>"
 msgstr ""
 "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-"
 "account\">Көмек</a>"
+
+#: app/scripts/lib/strings.js:29
+msgid ""
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -431,9 +460,25 @@ msgstr "Көбірек білу."
 msgid "Choose what to sync"
 msgstr "Нені синхрондауды таңдаңыз"
 
+#: app/scripts/templates/choose_what_to_sync.mustache:2
+msgid "Tabs"
+msgstr "Беттер"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:4
+msgid "Bookmarks"
+msgstr "Бетбелгілер"
+
 #: app/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
 msgstr "Қосымшалар"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:8
+msgid "Passwords"
+msgstr "Парольдер"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:10
+msgid "History"
+msgstr "Тарихы"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:13
 msgid "Preferences"
@@ -606,19 +651,15 @@ msgid "Sign in"
 msgstr "Кіру"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies required"
-msgstr "Cookies керек"
+msgid "Cookies and local storage are required."
+msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
-"Please enable cookies in your browser which are required by Firefox "
-"Accounts. Cookies are small pieces of data stored in your browser that "
-"provide functionality such as remembering you between sessions."
+"Please enable cookies and local storage in your browser to access Firefox "
+"Accounts. Doing so will enable functionality such as remembering you between "
+"sessions."
 msgstr ""
-"Браузеріңізде cookies қабылдау мүмкіндігін іске қосыңыз, оны Firefox "
-"тіркелгілері талап етеді. Cookies - сессиялар арасында сізді есте сақтау "
-"сияқты мүмкіндіктерді ұсынатын, және браузеріңізде сақталатын, өлшемдері "
-"кішкентай деректер."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -739,8 +780,8 @@ msgstr "Қабылдау"
 #: app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3
 #: app/scripts/templates/settings/change_password.mustache:13
-#: app/scripts/templates/settings/communication_preferences.mustache:4
-#: app/scripts/templates/settings/communication_preferences.mustache:12
+#: app/scripts/templates/settings/communication_preferences.mustache:5
+#: app/scripts/templates/settings/communication_preferences.mustache:13
 #: app/scripts/templates/settings/delete_account.mustache:7
 #: app/scripts/templates/settings/display_name.mustache:6
 #: app/scripts/templates/settings/gravatar_permissions.mustache:5
@@ -821,7 +862,7 @@ msgstr ""
 "Жаңа Firefox&nbsp;тіркелгіңізді жасау арқылы барлық деректеріңізді көшіріңіз."
 
 #: app/scripts/templates/sign_up.mustache:16
-#: app/scripts/templates/settings/communication_preferences.mustache:6
+#: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Mozilla және Firefox туралы соңғы жаңалықтарды алыңыз."
 
@@ -841,7 +882,7 @@ msgstr "Тіркелгі суреті"
 #: app/scripts/templates/settings/avatar_crop.mustache:2
 #: app/scripts/templates/settings/change_password.mustache:2
 #: app/scripts/templates/settings/change_password.mustache:12
-#: app/scripts/templates/settings/communication_preferences.mustache:3
+#: app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Change"
@@ -894,19 +935,19 @@ msgstr "Аяқтаған соң, барлық құрылғылараңызда �
 msgid "Old password"
 msgstr "Ескі пароль"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:2
+#: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
 msgstr "Байланысу баптаулары"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:7
+#: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
 msgstr "Эл. пошта баптаулары"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:9
+#: app/scripts/templates/settings/communication_preferences.mustache:10
 msgid "Unsubscribe"
 msgstr "Жазылуды үзу"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:11
+#: app/scripts/templates/settings/communication_preferences.mustache:12
 msgid "Subscribe"
 msgstr "Жазылу"
 
@@ -995,6 +1036,25 @@ msgstr "OpenID қолдану"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Firefox тіркелгісін қолдану"
+
+#~ msgid "Desktop Add-ons"
+#~ msgstr "Жұмыс үстел қосымшалары"
+
+#~ msgid "Desktop Preferences"
+#~ msgstr "Жұмыс үстеп баптаулары"
+
+#~ msgid "Cookies required"
+#~ msgstr "Cookies керек"
+
+#~ msgid ""
+#~ "Please enable cookies in your browser which are required by Firefox "
+#~ "Accounts. Cookies are small pieces of data stored in your browser that "
+#~ "provide functionality such as remembering you between sessions."
+#~ msgstr ""
+#~ "Браузеріңізде cookies қабылдау мүмкіндігін іске қосыңыз, оны Firefox "
+#~ "тіркелгілері талап етеді. Cookies - сессиялар арасында сізді есте сақтау "
+#~ "сияқты мүмкіндіктерді ұсынатын, және браузеріңізде сақталатын, өлшемдері "
+#~ "кішкентай деректер."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox жақында iOS үшін де шығады!"

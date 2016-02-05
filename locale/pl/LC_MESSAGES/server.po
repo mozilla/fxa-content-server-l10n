@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-07 20:01+0000\n"
+"POT-Creation-Date: 2016-02-05 22:55+0000\n"
 "PO-Revision-Date: 2015-11-13 18:01+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
@@ -15,6 +15,8 @@ msgstr ""
 "X-Generator: Poedit 1.8.5\n"
 
 #: templates/_pending.txt:1 templates/verify_reminder_second.html:2
+#: templates/verification_reminder_second.html:2
+#: templates/verification_reminder_second.txt:1
 msgid "Still there?"
 msgstr "Nadal z nami?"
 
@@ -61,6 +63,8 @@ msgstr "Zaloguj się do usługi Sync"
 #: templates/verification_reminder.html:1 templates/verify.html:1
 #: templates/verify_reminder_first.html:1
 #: templates/verify_reminder_second.html:1
+#: templates/verification_reminder_first.html:1
+#: templates/verification_reminder_second.html:1
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
@@ -98,6 +102,8 @@ msgstr ""
 #: templates/verification_reminder.html:7 templates/verify.html:7
 #: templates/verify_reminder_first.html:7
 #: templates/verify_reminder_second.html:7
+#: templates/verification_reminder_first.html:7
+#: templates/verification_reminder_second.html:7
 msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
@@ -118,6 +124,8 @@ msgstr ""
 #: templates/password_reset.txt:4 templates/post_verify.txt:5
 #: templates/reset.txt:5 templates/unlock.txt:4
 #: templates/verification_reminder.txt:5 templates/verify.txt:5
+#: templates/verification_reminder_first.txt:5
+#: templates/verification_reminder_second.txt:5
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Więcej informacji można znaleźć na %(supportUrl)s"
 
@@ -161,6 +169,8 @@ msgstr "Zweryfikowano konto!"
 #: templates/verification_reminder.html:5 templates/verify.html:5
 #: templates/verify_reminder_first.html:5
 #: templates/verify_reminder_second.html:5
+#: templates/verification_reminder_first.html:5
+#: templates/verification_reminder_second.html:5
 msgid "Alternatively:"
 msgstr "Lub można:"
 
@@ -170,6 +180,10 @@ msgstr "Lub można:"
 #: templates/verification_reminder.txt:4 templates/verify.html:6
 #: templates/verify.txt:4 templates/verify_reminder_first.html:6
 #: templates/verify_reminder_second.html:6
+#: templates/verification_reminder_first.html:6
+#: templates/verification_reminder_first.txt:4
+#: templates/verification_reminder_second.html:6
+#: templates/verification_reminder_second.txt:4
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
@@ -226,6 +240,8 @@ msgstr "Zweryfikuj konto:"
 
 #: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
 #: templates/verify_reminder_first.html:2
+#: templates/verification_reminder_first.html:2
+#: templates/verification_reminder_first.txt:1
 msgid "Hello again."
 msgstr "Witamy ponownie."
 
@@ -240,18 +256,24 @@ msgstr ""
 #: templates/verification_reminder.html:4 templates/verify.html:4
 #: templates/verify_reminder_first.html:4
 #: templates/verify_reminder_second.html:4
+#: templates/verification_reminder_first.html:4
+#: templates/verification_reminder_second.html:4
 msgid "Activate now"
 msgstr "Aktywuj"
 
 #: templates/verification_reminder.html:8 templates/verify.html:8
 #: templates/verify_reminder_first.html:8
 #: templates/verify_reminder_second.html:8
+#: templates/verification_reminder_first.html:8
+#: templates/verification_reminder_second.html:8
 msgid "Verify Email"
 msgstr "Zweryfikuj adres e-mail"
 
 #: templates/verification_reminder.html:9 templates/verify.html:9
 #: templates/verify_reminder_first.html:9
 #: templates/verify_reminder_second.html:9
+#: templates/verification_reminder_first.html:9
+#: templates/verification_reminder_second.html:9
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr "Zweryfikuj adres e-mail, aby ukończyć rejestrację konta Firefoksa"
 
@@ -267,11 +289,41 @@ msgstr "Witamy!"
 msgid "Please activate your account by confirming this email address."
 msgstr "Proszę aktywować konto przez potwierdzenie tego adresu e-mail."
 
-#: templates/verify.txt:3
+#: templates/verify.txt:3 templates/verification_reminder_first.txt:3
+#: templates/verification_reminder_second.txt:3
 msgid "Activate now:"
 msgstr "Aktywuj:"
 
-#: mailer.js:132 mailer.js:330 mailer.js:329
+#: templates/verify_reminder_first.html:3
+#: templates/verification_reminder_first.html:3
+#: templates/verification_reminder_first.txt:2
+msgid ""
+"A few days ago you created a Firefox Account, but never verified it. A "
+"verified account lets you access your tabs, bookmarks, passwords and history "
+"on any device connected to it. Simply confirm this email address to activate "
+"your account."
+msgstr ""
+"Kilka dni temu utworzono konto Firefoksa, ale nigdy go nie zweryfikowano. "
+"Zweryfikowane konto umożliwia dostęp do kart, zakładek, haseł i historii na "
+"każdym połączonym urządzeniu. Wystarczy potwierdzić ten adres e-mail, aby "
+"aktywować konto."
+
+#: templates/verify_reminder_second.html:3
+#: templates/verification_reminder_second.html:3
+#: templates/verification_reminder_second.txt:2
+msgid ""
+"A week ago you created a Firefox Account, but never verified it. We’re "
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
+"iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know "
+"you're okay."
+msgstr ""
+"Tydzień temu utworzono konto Firefoksa, ale nigdy go nie zweryfikowano. "
+"Firefox jest dostępny dla systemów Windows, Mac, Linux, Android oraz iOS. "
+"Można synchronizować hasła, zakładki i historię między nimi wszystkimi. "
+"Wystarczy potwierdzić ten adres e-mail, aby aktywować konto."
+
+#: mailer.js:132 mailer.js:329
 msgid "Verify your Firefox Account"
 msgstr "Zweryfikuj konto Firefoksa"
 
@@ -287,42 +339,25 @@ msgstr "Ponownie zweryfikuj konto Firefoksa"
 msgid "Your Firefox Account password has been changed"
 msgstr "Zmieniono hasło konta Firefoksa"
 
-#: mailer.js:247 mailer.js:246
+#: mailer.js:246
 msgid "Your Firefox Account password has been reset"
 msgstr "Zresetowano hasło konta Firefoksa"
 
-#: mailer.js:269 mailer.js:268
+#: mailer.js:268
 msgid "New sign-in to Firefox"
 msgstr "Nowe logowanie do Firefoksa"
 
-#: mailer.js:292 mailer.js:291
+#: mailer.js:291
 msgid "Firefox Account Verified"
 msgstr "Zweryfikowano konto Firefoksa"
 
-#: templates/verify_reminder_first.html:3
-msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history "
-"on any device connected to it. Simply confirm this email address to activate "
-"your account."
+#: config.js:127 config.js:132
+msgid "env"
 msgstr ""
-"Kilka dni temu utworzono konto Firefoksa, ale nigdy go nie zweryfikowano. "
-"Zweryfikowane konto umożliwia dostęp do kart, zakładek, haseł i historii na "
-"każdym połączonym urządzeniu. Wystarczy potwierdzić ten adres e-mail, aby "
-"aktywować konto."
 
-#: templates/verify_reminder_second.html:3
-msgid ""
-"A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
-"iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know "
-"you're okay."
+#: log.js:7
+msgid "logging"
 msgstr ""
-"Tydzień temu utworzono konto Firefoksa, ale nigdy go nie zweryfikowano. "
-"Firefox jest dostępny dla systemów Windows, Mac, Linux, Android oraz iOS. "
-"Można synchronizować hasła, zakładki i historię między nimi wszystkimi. "
-"Wystarczy potwierdzić ten adres e-mail, aby aktywować konto."
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"

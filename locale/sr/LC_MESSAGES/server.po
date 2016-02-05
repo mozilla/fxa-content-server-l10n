@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-07 20:01+0000\n"
+"POT-Creation-Date: 2016-02-05 22:55+0000\n"
 "PO-Revision-Date: 2016-01-03 15:22+0000\n"
 "Last-Translator: Vanja Tumbas <tumbas93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,8 @@ msgstr ""
 "X-POOTLE-MTIME: 1438060065.0\n"
 
 #: templates/_pending.txt:1 templates/verify_reminder_second.html:2
+#: templates/verification_reminder_second.html:2
+#: templates/verification_reminder_second.txt:1
 msgid "Still there?"
 msgstr "Још увек сте овде?"
 
@@ -62,6 +64,8 @@ msgstr "Пријави се на Sync"
 #: templates/verification_reminder.html:1 templates/verify.html:1
 #: templates/verify_reminder_first.html:1
 #: templates/verify_reminder_second.html:1
+#: templates/verification_reminder_first.html:1
+#: templates/verification_reminder_second.html:1
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
@@ -98,6 +102,8 @@ msgstr ""
 #: templates/verification_reminder.html:7 templates/verify.html:7
 #: templates/verify_reminder_first.html:7
 #: templates/verify_reminder_second.html:7
+#: templates/verification_reminder_first.html:7
+#: templates/verification_reminder_second.html:7
 msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
@@ -117,6 +123,8 @@ msgstr ""
 #: templates/password_reset.txt:4 templates/post_verify.txt:5
 #: templates/reset.txt:5 templates/unlock.txt:4
 #: templates/verification_reminder.txt:5 templates/verify.txt:5
+#: templates/verification_reminder_first.txt:5
+#: templates/verification_reminder_second.txt:5
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "За више информација, посетите %(supportUrl)s"
 
@@ -160,6 +168,8 @@ msgstr "Налог је потврђен!"
 #: templates/verification_reminder.html:5 templates/verify.html:5
 #: templates/verify_reminder_first.html:5
 #: templates/verify_reminder_second.html:5
+#: templates/verification_reminder_first.html:5
+#: templates/verification_reminder_second.html:5
 msgid "Alternatively:"
 msgstr "Алтернативно:"
 
@@ -169,6 +179,10 @@ msgstr "Алтернативно:"
 #: templates/verification_reminder.txt:4 templates/verify.html:6
 #: templates/verify.txt:4 templates/verify_reminder_first.html:6
 #: templates/verify_reminder_second.html:6
+#: templates/verification_reminder_first.html:6
+#: templates/verification_reminder_first.txt:4
+#: templates/verification_reminder_second.html:6
+#: templates/verification_reminder_second.txt:4
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
@@ -224,6 +238,8 @@ msgstr "Потврдите налог:"
 
 #: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
 #: templates/verify_reminder_first.html:2
+#: templates/verification_reminder_first.html:2
+#: templates/verification_reminder_first.txt:1
 msgid "Hello again."
 msgstr "Поздрав."
 
@@ -238,18 +254,24 @@ msgstr ""
 #: templates/verification_reminder.html:4 templates/verify.html:4
 #: templates/verify_reminder_first.html:4
 #: templates/verify_reminder_second.html:4
+#: templates/verification_reminder_first.html:4
+#: templates/verification_reminder_second.html:4
 msgid "Activate now"
 msgstr "Активирај сада"
 
 #: templates/verification_reminder.html:8 templates/verify.html:8
 #: templates/verify_reminder_first.html:8
 #: templates/verify_reminder_second.html:8
+#: templates/verification_reminder_first.html:8
+#: templates/verification_reminder_second.html:8
 msgid "Verify Email"
 msgstr "Потврди е-пошту"
 
 #: templates/verification_reminder.html:9 templates/verify.html:9
 #: templates/verify_reminder_first.html:9
 #: templates/verify_reminder_second.html:9
+#: templates/verification_reminder_first.html:9
+#: templates/verification_reminder_second.html:9
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr "Потврдите е-пошту да завршите регистрацију налога"
 
@@ -265,11 +287,42 @@ msgstr "Добродошли!"
 msgid "Please activate your account by confirming this email address."
 msgstr "Активирајте налог тако што ћете потврдити ову адресу е-поште."
 
-#: templates/verify.txt:3
+#: templates/verify.txt:3 templates/verification_reminder_first.txt:3
+#: templates/verification_reminder_second.txt:3
 msgid "Activate now:"
 msgstr "Активирај сада:"
 
-#: mailer.js:132 mailer.js:330 mailer.js:329
+#: templates/verify_reminder_first.html:3
+#: templates/verification_reminder_first.html:3
+#: templates/verification_reminder_first.txt:2
+msgid ""
+"A few days ago you created a Firefox Account, but never verified it. A "
+"verified account lets you access your tabs, bookmarks, passwords and history "
+"on any device connected to it. Simply confirm this email address to activate "
+"your account."
+msgstr ""
+"Направили сте Firefox налог, али га нисте потврдили. Потврђен налог вам "
+"омогућава да приступите вашим језичцима, забелешкама, лозинкама и историји "
+"претраге на повезаном уређају. Једноставно потврдите ову адресу е-поште да "
+"активирате налог."
+
+#: templates/verify_reminder_second.html:3
+#: templates/verification_reminder_second.html:3
+#: templates/verification_reminder_second.txt:2
+msgid ""
+"A week ago you created a Firefox Account, but never verified it. We’re "
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
+"iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know "
+"you're okay."
+msgstr ""
+"Направили сте Firefox налог пре недељу дана, али га нисте потврдили. "
+"Забринути смо за вас. Firefox је доступан на Windows, Mac, Linux, Android и "
+"iOS. Можете синхронизовати Firefox лозинке, забелешке и историју претраге на "
+"свим уређајима. Потврдите ову адресу е-поште да активирате налог и да нам "
+"кажете да сте ок."
+
+#: mailer.js:132 mailer.js:329
 msgid "Verify your Firefox Account"
 msgstr "Потврдите Firefox налог"
 
@@ -285,43 +338,25 @@ msgstr "Поново потврдите Firefox налог"
 msgid "Your Firefox Account password has been changed"
 msgstr "Лозинка Firefox налога је промењена"
 
-#: mailer.js:247 mailer.js:246
+#: mailer.js:246
 msgid "Your Firefox Account password has been reset"
 msgstr "Лозинка Firefox налога је ресетована"
 
-#: mailer.js:269 mailer.js:268
+#: mailer.js:268
 msgid "New sign-in to Firefox"
 msgstr "Нова Firefox пријава"
 
-#: mailer.js:292 mailer.js:291
+#: mailer.js:291
 msgid "Firefox Account Verified"
 msgstr "Firefox налог потврђен"
 
-#: templates/verify_reminder_first.html:3
-msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history "
-"on any device connected to it. Simply confirm this email address to activate "
-"your account."
+#: config.js:127 config.js:132
+msgid "env"
 msgstr ""
-"Направили сте Firefox налог, али га нисте потврдили. Потврђен налог вам "
-"омогућава да приступите вашим језичцима, забелешкама, лозинкама и историји "
-"претраге на повезаном уређају. Једноставно потврдите ову адресу е-поште да "
-"активирате налог."
 
-#: templates/verify_reminder_second.html:3
-msgid ""
-"A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
-"iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know "
-"you're okay."
+#: log.js:7
+msgid "logging"
 msgstr ""
-"Направили сте Firefox налог пре недељу дана, али га нисте потврдили. "
-"Забринути смо за вас. Firefox је доступан на Windows, Mac, Linux, Android и "
-"iOS. Можете синхронизовати Firefox лозинке, забелешке и историју претраге на "
-"свим уређајима. Потврдите ову адресу е-поште да активирате налог и да нам "
-"кажете да сте ок."
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-07 20:01+0000\n"
+"POT-Creation-Date: 2016-02-05 22:55+0000\n"
 "PO-Revision-Date: 2015-11-15 04:55+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,8 @@ msgstr ""
 "X-POOTLE-MTIME: 1429902145.0\n"
 
 #: templates/_pending.txt:1 templates/verify_reminder_second.html:2
+#: templates/verification_reminder_second.html:2
+#: templates/verification_reminder_second.txt:1
 msgid "Still there?"
 msgstr "Hələ də buradasınız?"
 
@@ -61,6 +63,8 @@ msgstr "Sinxronlaşdırmaq üçün daxil olun"
 #: templates/verification_reminder.html:1 templates/verify.html:1
 #: templates/verify_reminder_first.html:1
 #: templates/verify_reminder_second.html:1
+#: templates/verification_reminder_first.html:1
+#: templates/verification_reminder_second.html:1
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
@@ -95,6 +99,8 @@ msgstr ""
 #: templates/verification_reminder.html:7 templates/verify.html:7
 #: templates/verify_reminder_first.html:7
 #: templates/verify_reminder_second.html:7
+#: templates/verification_reminder_first.html:7
+#: templates/verification_reminder_second.html:7
 msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
@@ -114,6 +120,8 @@ msgstr ""
 #: templates/password_reset.txt:4 templates/post_verify.txt:5
 #: templates/reset.txt:5 templates/unlock.txt:4
 #: templates/verification_reminder.txt:5 templates/verify.txt:5
+#: templates/verification_reminder_first.txt:5
+#: templates/verification_reminder_second.txt:5
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Daha ətraflı məlumar üçün, lütfən %(supportUrl)s ünvanına baş çəkin"
 
@@ -158,6 +166,8 @@ msgstr "Hesab təsdiqləndi!"
 #: templates/verification_reminder.html:5 templates/verify.html:5
 #: templates/verify_reminder_first.html:5
 #: templates/verify_reminder_second.html:5
+#: templates/verification_reminder_first.html:5
+#: templates/verification_reminder_second.html:5
 msgid "Alternatively:"
 msgstr "Alternativ olaraq:"
 
@@ -167,6 +177,10 @@ msgstr "Alternativ olaraq:"
 #: templates/verification_reminder.txt:4 templates/verify.html:6
 #: templates/verify.txt:4 templates/verify_reminder_first.html:6
 #: templates/verify_reminder_second.html:6
+#: templates/verification_reminder_first.html:6
+#: templates/verification_reminder_first.txt:4
+#: templates/verification_reminder_second.html:6
+#: templates/verification_reminder_second.txt:4
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
@@ -224,6 +238,8 @@ msgstr "Hesabı təsdiqlə:"
 
 #: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
 #: templates/verify_reminder_first.html:2
+#: templates/verification_reminder_first.html:2
+#: templates/verification_reminder_first.txt:1
 msgid "Hello again."
 msgstr "Təkrar salam."
 
@@ -238,18 +254,24 @@ msgstr ""
 #: templates/verification_reminder.html:4 templates/verify.html:4
 #: templates/verify_reminder_first.html:4
 #: templates/verify_reminder_second.html:4
+#: templates/verification_reminder_first.html:4
+#: templates/verification_reminder_second.html:4
 msgid "Activate now"
 msgstr "İndi aktivləşdir"
 
 #: templates/verification_reminder.html:8 templates/verify.html:8
 #: templates/verify_reminder_first.html:8
 #: templates/verify_reminder_second.html:8
+#: templates/verification_reminder_first.html:8
+#: templates/verification_reminder_second.html:8
 msgid "Verify Email"
 msgstr "E-poçt-u təsdiqlə"
 
 #: templates/verification_reminder.html:9 templates/verify.html:9
 #: templates/verify_reminder_first.html:9
 #: templates/verify_reminder_second.html:9
+#: templates/verification_reminder_first.html:9
+#: templates/verification_reminder_second.html:9
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr ""
 "Firefox Hesabı qeydiyyatınızı bitirmək üçün e-poçt ünvanınızı təsdiqləyin"
@@ -266,11 +288,42 @@ msgstr "Xoş Gəldiniz!"
 msgid "Please activate your account by confirming this email address."
 msgstr "Lütfən bu e-poçt ünvanını təsdiqləyərək hesabınızı aktivləşdirin."
 
-#: templates/verify.txt:3
+#: templates/verify.txt:3 templates/verification_reminder_first.txt:3
+#: templates/verification_reminder_second.txt:3
 msgid "Activate now:"
 msgstr "İndi aktivləşdir:"
 
-#: mailer.js:132 mailer.js:330 mailer.js:329
+#: templates/verify_reminder_first.html:3
+#: templates/verification_reminder_first.html:3
+#: templates/verification_reminder_first.txt:2
+msgid ""
+"A few days ago you created a Firefox Account, but never verified it. A "
+"verified account lets you access your tabs, bookmarks, passwords and history "
+"on any device connected to it. Simply confirm this email address to activate "
+"your account."
+msgstr ""
+"Bir neçə gün əvvəl Firefox Hesabı yaratdınız, amma aktivləşdirməmisiniz. "
+"Təsdiqlənmiş hesab ona qoşulu bütün cihazlarda vərəq, əlfəcin, parol və "
+"tarixçənizi əlçatan edir. Hesabınızı aktivləşdirmək üçün sadəcə bu e-poçt "
+"ünvanını təsdiqləyin."
+
+#: templates/verify_reminder_second.html:3
+#: templates/verification_reminder_second.html:3
+#: templates/verification_reminder_second.txt:2
+msgid ""
+"A week ago you created a Firefox Account, but never verified it. We’re "
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
+"iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know "
+"you're okay."
+msgstr ""
+"Bir neçə gün əvvəl Firefox Hesabı yaratdınız, amma aktivləşdirməmisiniz. "
+"Sizin üçün narahatıq. Firefox Windows, Mac, Linux, Android və iOS üçün "
+"mövcuddur. Bunların arasında Firefox parol, əlfəcin və tarixçənizi "
+"sinxronlaşdıra bilərsiniz. Bu e-poçt ünvanını təsdiqləyərək hesabı aktiv "
+"edin və sağ-salamat olduğunuzu bildirin."
+
+#: mailer.js:132 mailer.js:329
 msgid "Verify your Firefox Account"
 msgstr "Firefox Hesabınızı təsdiqləyin"
 
@@ -286,43 +339,25 @@ msgstr "Firefox Hesabınızı yenidən təsdiqləyin"
 msgid "Your Firefox Account password has been changed"
 msgstr "Firefox Hesab parolunuz dəyişdirildi"
 
-#: mailer.js:247 mailer.js:246
+#: mailer.js:246
 msgid "Your Firefox Account password has been reset"
 msgstr "Firefox Hesab parolunuz sıfırlandı"
 
-#: mailer.js:269 mailer.js:268
+#: mailer.js:268
 msgid "New sign-in to Firefox"
 msgstr "Firefox-a yeni daxil olma"
 
-#: mailer.js:292 mailer.js:291
+#: mailer.js:291
 msgid "Firefox Account Verified"
 msgstr "Firefox Hesabı təsdiqləndi"
 
-#: templates/verify_reminder_first.html:3
-msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history "
-"on any device connected to it. Simply confirm this email address to activate "
-"your account."
+#: config.js:127 config.js:132
+msgid "env"
 msgstr ""
-"Bir neçə gün əvvəl Firefox Hesabı yaratdınız, amma aktivləşdirməmisiniz. "
-"Təsdiqlənmiş hesab ona qoşulu bütün cihazlarda vərəq, əlfəcin, parol və "
-"tarixçənizi əlçatan edir. Hesabınızı aktivləşdirmək üçün sadəcə bu e-poçt "
-"ünvanını təsdiqləyin."
 
-#: templates/verify_reminder_second.html:3
-msgid ""
-"A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
-"iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know "
-"you're okay."
+#: log.js:7
+msgid "logging"
 msgstr ""
-"Bir neçə gün əvvəl Firefox Hesabı yaratdınız, amma aktivləşdirməmisiniz. "
-"Sizin üçün narahatıq. Firefox Windows, Mac, Linux, Android və iOS üçün "
-"mövcuddur. Bunların arasında Firefox parol, əlfəcin və tarixçənizi "
-"sinxronlaşdıra bilərsiniz. Bu e-poçt ünvanını təsdiqləyərək hesabı aktiv "
-"edin və sağ-salamat olduğunuzu bildirin."
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fxa-server\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-07 20:01+0000\n"
+"POT-Creation-Date: 2016-02-05 22:55+0000\n"
 "PO-Revision-Date: 2015-11-13 14:11+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
@@ -15,6 +15,8 @@ msgstr ""
 "X-Generator: Pontoon\n"
 
 #: templates/_pending.txt:1 templates/verify_reminder_second.html:2
+#: templates/verification_reminder_second.html:2
+#: templates/verification_reminder_second.txt:1
 msgid "Still there?"
 msgstr "Әлі осындасыз ба?"
 
@@ -61,6 +63,8 @@ msgstr "Синхрондауға кіру"
 #: templates/verification_reminder.html:1 templates/verify.html:1
 #: templates/verify_reminder_first.html:1
 #: templates/verify_reminder_second.html:1
+#: templates/verification_reminder_first.html:1
+#: templates/verification_reminder_second.html:1
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
@@ -98,6 +102,8 @@ msgstr ""
 #: templates/verification_reminder.html:7 templates/verify.html:7
 #: templates/verify_reminder_first.html:7
 #: templates/verify_reminder_second.html:7
+#: templates/verification_reminder_first.html:7
+#: templates/verification_reminder_second.html:7
 msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
@@ -118,6 +124,8 @@ msgstr ""
 #: templates/password_reset.txt:4 templates/post_verify.txt:5
 #: templates/reset.txt:5 templates/unlock.txt:4
 #: templates/verification_reminder.txt:5 templates/verify.txt:5
+#: templates/verification_reminder_first.txt:5
+#: templates/verification_reminder_second.txt:5
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Көбірек білу үшін, %(supportUrl)s шолыңыз"
 
@@ -163,6 +171,8 @@ msgstr "Тіркелгі расталды!"
 #: templates/verification_reminder.html:5 templates/verify.html:5
 #: templates/verify_reminder_first.html:5
 #: templates/verify_reminder_second.html:5
+#: templates/verification_reminder_first.html:5
+#: templates/verification_reminder_second.html:5
 msgid "Alternatively:"
 msgstr "Басқаша:"
 
@@ -172,6 +182,10 @@ msgstr "Басқаша:"
 #: templates/verification_reminder.txt:4 templates/verify.html:6
 #: templates/verify.txt:4 templates/verify_reminder_first.html:6
 #: templates/verify_reminder_second.html:6
+#: templates/verification_reminder_first.html:6
+#: templates/verification_reminder_first.txt:4
+#: templates/verification_reminder_second.html:6
+#: templates/verification_reminder_second.txt:4
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
@@ -229,6 +243,8 @@ msgstr "Тіркелгіні растау:"
 
 #: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
 #: templates/verify_reminder_first.html:2
+#: templates/verification_reminder_first.html:2
+#: templates/verification_reminder_first.txt:1
 msgid "Hello again."
 msgstr "Қайтадан, сәлем."
 
@@ -243,18 +259,24 @@ msgstr ""
 #: templates/verification_reminder.html:4 templates/verify.html:4
 #: templates/verify_reminder_first.html:4
 #: templates/verify_reminder_second.html:4
+#: templates/verification_reminder_first.html:4
+#: templates/verification_reminder_second.html:4
 msgid "Activate now"
 msgstr "Қазір белсендіру"
 
 #: templates/verification_reminder.html:8 templates/verify.html:8
 #: templates/verify_reminder_first.html:8
 #: templates/verify_reminder_second.html:8
+#: templates/verification_reminder_first.html:8
+#: templates/verification_reminder_second.html:8
 msgid "Verify Email"
 msgstr "Эл. поштаны растау"
 
 #: templates/verification_reminder.html:9 templates/verify.html:9
 #: templates/verify_reminder_first.html:9
 #: templates/verify_reminder_second.html:9
+#: templates/verification_reminder_first.html:9
+#: templates/verification_reminder_second.html:9
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr ""
 "Firefox тіркелгісін тіркеуді аяқтау үшін эл. пошта адресіңізді растаңыз"
@@ -271,11 +293,42 @@ msgstr "Қош келдіңіз!"
 msgid "Please activate your account by confirming this email address."
 msgstr "Тіркелгіңізді бұл эл. пошта адресін растау арқылы белсендіріңіз."
 
-#: templates/verify.txt:3
+#: templates/verify.txt:3 templates/verification_reminder_first.txt:3
+#: templates/verification_reminder_second.txt:3
 msgid "Activate now:"
 msgstr "Қазір белсендіру:"
 
-#: mailer.js:132 mailer.js:330 mailer.js:329
+#: templates/verify_reminder_first.html:3
+#: templates/verification_reminder_first.html:3
+#: templates/verification_reminder_first.txt:2
+msgid ""
+"A few days ago you created a Firefox Account, but never verified it. A "
+"verified account lets you access your tabs, bookmarks, passwords and history "
+"on any device connected to it. Simply confirm this email address to activate "
+"your account."
+msgstr ""
+"Бірнеше күн бұрын сіз Firefox тіркелгісін жасағансыз, бірақ, оны "
+"растамағансыз. Расталған тіркелгі арқылы оған байланысқан әр құрылғыдағы "
+"беттер, бетбелгілер, парольдер және шолу тарихына қатынауға мүмкіндік "
+"береді. Тіркелгіні белсендіру үшін бұл эл. пошта адресін растау жеткілікті."
+
+#: templates/verify_reminder_second.html:3
+#: templates/verification_reminder_second.html:3
+#: templates/verification_reminder_second.txt:2
+msgid ""
+"A week ago you created a Firefox Account, but never verified it. We’re "
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
+"iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know "
+"you're okay."
+msgstr ""
+"Бір апта бұрын сіз Firefox тіркелгісін жасағансыз, бірақ, оны растамағансыз. "
+"Біз сіз туралы уайымдаймыз. Firefox Windows, Mac, Linux, Android және iOS "
+"үшін қолжетерлік. Олардың барлығының арасында Firefox парольдерін, "
+"бетбелгілер және шолу тарихын синхрондай аласыз. Тіркелгіні белсендіру үшін "
+"бұл эл. пошта адресін растаңыз."
+
+#: mailer.js:132 mailer.js:329
 msgid "Verify your Firefox Account"
 msgstr "Firefox тіркелгіңізді растаңыз"
 
@@ -291,43 +344,25 @@ msgstr "Firefox тіркелгіңізді қайта растаңыз"
 msgid "Your Firefox Account password has been changed"
 msgstr "Сіздің Firefox тіркелгісі паролі өзгертілді"
 
-#: mailer.js:247 mailer.js:246
+#: mailer.js:246
 msgid "Your Firefox Account password has been reset"
 msgstr "Сіздің Firefox тіркелгісі паролі тасталды"
 
-#: mailer.js:269 mailer.js:268
+#: mailer.js:268
 msgid "New sign-in to Firefox"
 msgstr "Firefox-қа жаңа кіру"
 
-#: mailer.js:292 mailer.js:291
+#: mailer.js:291
 msgid "Firefox Account Verified"
 msgstr "Firefox тіркелгісі расталды"
 
-#: templates/verify_reminder_first.html:3
-msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history "
-"on any device connected to it. Simply confirm this email address to activate "
-"your account."
+#: config.js:127 config.js:132
+msgid "env"
 msgstr ""
-"Бірнеше күн бұрын сіз Firefox тіркелгісін жасағансыз, бірақ, оны "
-"растамағансыз. Расталған тіркелгі арқылы оған байланысқан әр құрылғыдағы "
-"беттер, бетбелгілер, парольдер және шолу тарихына қатынауға мүмкіндік "
-"береді. Тіркелгіні белсендіру үшін бұл эл. пошта адресін растау жеткілікті."
 
-#: templates/verify_reminder_second.html:3
-msgid ""
-"A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
-"iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know "
-"you're okay."
+#: log.js:7
+msgid "logging"
 msgstr ""
-"Бір апта бұрын сіз Firefox тіркелгісін жасағансыз, бірақ, оны растамағансыз. "
-"Біз сіз туралы уайымдаймыз. Firefox Windows, Mac, Linux, Android және iOS "
-"үшін қолжетерлік. Олардың барлығының арасында Firefox парольдерін, "
-"бетбелгілер және шолу тарихын синхрондай аласыз. Тіркелгіні белсендіру үшін "
-"бұл эл. пошта адресін растаңыз."
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"

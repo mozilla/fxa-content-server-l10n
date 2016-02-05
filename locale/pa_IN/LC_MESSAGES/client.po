@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-07 20:01+0000\n"
+"POT-Creation-Date: 2016-02-05 22:55+0000\n"
 "PO-Revision-Date: 2015-10-13 12:01+0000\n"
 "Last-Translator: Matjaž <m@owca.info>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,22 +15,22 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444737687.0\n"
 
-#: app/scripts/views/complete_reset_password.js:131
-#: app/scripts/views/complete_sign_up.js:106 app/scripts/views/confirm.js:114
-#: app/scripts/views/confirm_reset_password.js:163
+#: app/scripts/views/complete_reset_password.js:129
+#: app/scripts/views/complete_sign_up.js:103 app/scripts/views/confirm.js:112
+#: app/scripts/views/confirm_reset_password.js:180
 msgid "Account verified successfully"
 msgstr "ਖਾਤਾ ਕਾਮਯਾਬੀ ਨਾਲ ਜਾਂਚਿਆ"
 
-#: app/scripts/views/confirm_account_unlock.js:100
+#: app/scripts/views/confirm_account_unlock.js:89
 msgid "Account unlocked, please try again"
 msgstr "ਖਾਤਾ ਅਣ-ਲਾਕ ਹੈ, ਬਾਅਦ 'ਚ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
 
-#: app/scripts/views/confirm_reset_password.js:153
+#: app/scripts/views/confirm_reset_password.js:170
 #: app/scripts/views/ready.js:48
 msgid "Password reset"
 msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ"
 
-#: app/scripts/views/confirm_reset_password.js:182
+#: app/scripts/views/confirm_reset_password.js:199
 msgid "Password reset successfully. Sign in to continue."
 msgstr "ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਮੁੜ-ਸੈਟ ਕੀਤਾ। ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਇਨ ਇਨ ਕਰੋ।"
 
@@ -62,11 +62,11 @@ msgstr "ਖਾਤਾ ਜਾਂਚ ਹੋਈ"
 msgid "You are now ready to use %(serviceName)s"
 msgstr "ਤੁਸੀਂ ਹੁਣ %(serviceName)s ਵਰਤਣ ਲਈ ਤਿਆਰ ਹੋ"
 
-#: app/scripts/views/reset_password.js:66 app/scripts/views/sign_in.js:187
+#: app/scripts/views/reset_password.js:66 app/scripts/views/sign_in.js:182
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "ਅਣਜਾਣ ਖਾਤਾ। <a href=\"/signup\">ਮੈਂਬਰ ਬਣੋ</a>"
 
-#: app/scripts/views/sign_up.js:346
+#: app/scripts/views/sign_up.js:337
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "ਖਾਤਾ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ। <a href=\"/signin\">ਸਾਇਨ ਇਨ</a>"
 
@@ -74,32 +74,84 @@ msgstr "ਖਾਤਾ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ। <a href
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> ਦੇ ਸਹਿਯੋਗ ਨਾਲ"
 
-#: app/scripts/views/settings/change_password.js:51
+#: app/scripts/views/settings/change_password.js:52
 msgid "Password changed successfully"
 msgstr "ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ"
 
-#: app/scripts/views/settings/communication_preferences.js:108
+#: app/scripts/views/settings/communication_preferences.js:116
 msgid "Subscribed successfully"
 msgstr "ਕਾਮਯਾਬੀ ਨਾਲ ਮੈਂਬਰ ਬਣੇ"
 
-#: app/scripts/views/settings/communication_preferences.js:109
+#: app/scripts/views/settings/communication_preferences.js:117
 msgid "Unsubscribed successfully"
 msgstr "ਕਾਮਯਾਬੀ ਨਾਲ ਮੈਂਬਰੀ ਹਟਾਈ"
 
-#: app/scripts/views/settings/delete_account.js:50
+#: app/scripts/views/settings/delete_account.js:48
 msgid "Account deleted successfully"
 msgstr "ਖਾਤਾ ਠੀਕ ਤਰ੍ਹਾਂ ਹਟਾਇਆ ਗਿਆ"
+
+#: app/scripts/views/settings/devices.js:27
+msgid "a day"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:28
+msgid "%d days"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:29
+msgid "about an hour"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:30
+msgid "%d hours"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:31
+msgid "about a minute"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:32
+msgid "%d minutes"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:33
+msgid "about a month"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:34
+msgid "%d months"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:35
+msgid "a few seconds"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:36
+msgid "ago"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:37
+msgid "from now"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:38
+msgid "about a year"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:39
+msgid "%d years"
+msgstr ""
 
 #: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
 msgstr "ਨਵੇਂ ਸੰਸਕਰਣ ਦਾ ਨਾਂ ਦਿਖਾਓ"
 
-#: app/scripts/views/mixins/account-locked-mixin.js:31
+#: app/scripts/views/mixins/account-locked-mixin.js:39
 msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr "ਖਾਤਾ ਲਾਕ ਕੀਤਾ। <a href=\"/confirm_account_unlock\">ਅਣ-ਲਾਕ ਈਮੇਲ ਭੇਜੋ</a>"
 
-#: app/scripts/views/mixins/signed-out-notification-mixin.js:38
+#: app/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
 msgstr "ਕਾਮਯਾਬੀ ਨਾਲ ਸਾਇਨ ਆਉਟ ਕਰੋ"
 
@@ -370,38 +422,15 @@ msgid ""
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
-#: app/scripts/lib/strings.js:22
-#: app/scripts/templates/choose_what_to_sync.mustache:4
-msgid "Bookmarks"
-msgstr "ਬੁਕਮਾਰਕ"
-
-#: app/scripts/lib/strings.js:23
-#: app/scripts/templates/choose_what_to_sync.mustache:10
-msgid "History"
-msgstr "ਹਿਸਟਰੀ "
-
-#: app/scripts/lib/strings.js:24
-#: app/scripts/templates/choose_what_to_sync.mustache:2
-msgid "Tabs"
-msgstr "ਟੈਬਸ"
-
-#: app/scripts/lib/strings.js:25
-#: app/scripts/templates/choose_what_to_sync.mustache:8
-msgid "Passwords"
-msgstr "ਪਾਸਵਰਡ"
-
 #: app/scripts/lib/strings.js:26
-msgid "Desktop Add-ons"
-msgstr "ਡੈਸਕਟਾਪ ਐਡ-ਵਨਸ"
-
-#: app/scripts/lib/strings.js:27
-msgid "Desktop Preferences"
-msgstr "ਡੈਸਕਟਾਪ ਵਿਸ਼ੇਸ਼ਤਾ"
-
-#: app/scripts/lib/strings.js:34
 msgid ""
 "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-"
 "account\">Help</a>"
+msgstr ""
+
+#: app/scripts/lib/strings.js:29
+msgid ""
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
@@ -423,9 +452,25 @@ msgstr "ਹੋਰ ਜਾਣੋ"
 msgid "Choose what to sync"
 msgstr "ਚੁਣੋ ਕਿ ਕੀ ਸਿੰਕ ਕਰਨਾ ਹੈ"
 
+#: app/scripts/templates/choose_what_to_sync.mustache:2
+msgid "Tabs"
+msgstr "ਟੈਬਸ"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:4
+msgid "Bookmarks"
+msgstr "ਬੁਕਮਾਰਕ"
+
 #: app/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
 msgstr ""
+
+#: app/scripts/templates/choose_what_to_sync.mustache:8
+msgid "Passwords"
+msgstr "ਪਾਸਵਰਡ"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:10
+msgid "History"
+msgstr "ਹਿਸਟਰੀ "
 
 #: app/scripts/templates/choose_what_to_sync.mustache:13
 msgid "Preferences"
@@ -594,17 +639,15 @@ msgid "Sign in"
 msgstr "ਸਾਈਨ ਇਨ"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies required"
-msgstr "ਕੂਕੀਜ਼ ਦੀ ਲੋੜ ਹੈ"
+msgid "Cookies and local storage are required."
+msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
-"Please enable cookies in your browser which are required by Firefox "
-"Accounts. Cookies are small pieces of data stored in your browser that "
-"provide functionality such as remembering you between sessions."
+"Please enable cookies and local storage in your browser to access Firefox "
+"Accounts. Doing so will enable functionality such as remembering you between "
+"sessions."
 msgstr ""
-"ਆਪਣੇ ਬਰਾਊਜ਼ਰ ਲਈ ਕੂਕੀਜ਼ ਚਾਲੂ ਕਰੋ, ਜੋ ਕਿ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਰਾਹੀਂ ਲੋੜੀਂਦੇ ਹਨ। ਕੂਕੀਜ਼ ਤੁਹਾਡੇ ਬਰਾਊਜ਼ਰ "
-"ਵਿੱਚ ਡਾਟਾ ਸਟੋਰ ਕਰਨ ਲਈ ਛੋਟਾ ਭਾਗ ਹੈ, ਜੋ ਕਿ ਸ਼ੈਸ਼ਨਾਂ ਵਿੱਚ ਤੁਹਾਨੂੰ ਯਾਦ ਰੱਖਣ ਦੀ ਸਹੂਲਤ ਦਿੰਦੇ ਹਨ।"
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -722,8 +765,8 @@ msgstr "ਮਨਜ਼ੂਰ"
 #: app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3
 #: app/scripts/templates/settings/change_password.mustache:13
-#: app/scripts/templates/settings/communication_preferences.mustache:4
-#: app/scripts/templates/settings/communication_preferences.mustache:12
+#: app/scripts/templates/settings/communication_preferences.mustache:5
+#: app/scripts/templates/settings/communication_preferences.mustache:13
 #: app/scripts/templates/settings/delete_account.mustache:7
 #: app/scripts/templates/settings/display_name.mustache:6
 #: app/scripts/templates/settings/gravatar_permissions.mustache:5
@@ -800,7 +843,7 @@ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr "ਨਵਾਂ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਬਣਾ ਕੇ ਆਪਣੇ ਸਿੰਕ ਡਾਟੇ ਨੂੰ ਮਾਈਗਰੇਟ ਕਰੋ।"
 
 #: app/scripts/templates/sign_up.mustache:16
-#: app/scripts/templates/settings/communication_preferences.mustache:6
+#: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "ਮੋਜ਼ੀਲਾ ਤੇ ਫਾਇਰਫਾਕਸ ਬਾਰੇ ਨਵੀਆਂ ਖ਼ਬਰਾਂ ਲਵੋ।"
 
@@ -820,7 +863,7 @@ msgstr "ਖਾਤਾ ਤਸਵੀਰ"
 #: app/scripts/templates/settings/avatar_crop.mustache:2
 #: app/scripts/templates/settings/change_password.mustache:2
 #: app/scripts/templates/settings/change_password.mustache:12
-#: app/scripts/templates/settings/communication_preferences.mustache:3
+#: app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Change"
@@ -875,19 +918,19 @@ msgstr ""
 msgid "Old password"
 msgstr "ਪੁਰਾਣਾ ਪਾਸਵਰਡ"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:2
+#: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
 msgstr "ਗੱਲਬਾਤ ਪਸੰਦ"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:7
+#: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
 msgstr "ਈਮੇਲ ਪਸੰਦ"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:9
+#: app/scripts/templates/settings/communication_preferences.mustache:10
 msgid "Unsubscribe"
 msgstr "ਮੈਂਬਰੀ ਹਟਾਓ"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:11
+#: app/scripts/templates/settings/communication_preferences.mustache:12
 msgid "Subscribe"
 msgstr "ਮੈਂਬਰ ਬਣੋ"
 
@@ -969,6 +1012,24 @@ msgstr "OpenID ਵਰਤੋ"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਵਰਤੋਂ"
+
+#~ msgid "Desktop Add-ons"
+#~ msgstr "ਡੈਸਕਟਾਪ ਐਡ-ਵਨਸ"
+
+#~ msgid "Desktop Preferences"
+#~ msgstr "ਡੈਸਕਟਾਪ ਵਿਸ਼ੇਸ਼ਤਾ"
+
+#~ msgid "Cookies required"
+#~ msgstr "ਕੂਕੀਜ਼ ਦੀ ਲੋੜ ਹੈ"
+
+#~ msgid ""
+#~ "Please enable cookies in your browser which are required by Firefox "
+#~ "Accounts. Cookies are small pieces of data stored in your browser that "
+#~ "provide functionality such as remembering you between sessions."
+#~ msgstr ""
+#~ "ਆਪਣੇ ਬਰਾਊਜ਼ਰ ਲਈ ਕੂਕੀਜ਼ ਚਾਲੂ ਕਰੋ, ਜੋ ਕਿ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਰਾਹੀਂ ਲੋੜੀਂਦੇ ਹਨ। ਕੂਕੀਜ਼ ਤੁਹਾਡੇ "
+#~ "ਬਰਾਊਜ਼ਰ ਵਿੱਚ ਡਾਟਾ ਸਟੋਰ ਕਰਨ ਲਈ ਛੋਟਾ ਭਾਗ ਹੈ, ਜੋ ਕਿ ਸ਼ੈਸ਼ਨਾਂ ਵਿੱਚ ਤੁਹਾਨੂੰ ਯਾਦ ਰੱਖਣ ਦੀ ਸਹੂਲਤ "
+#~ "ਦਿੰਦੇ ਹਨ।"
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "ਫਾਇਰਫਾਕਸ ਛੇਤੀ ਹੀ iOS ਉੱਤੇ ਆ ਰਿਹਾ ਹੈ!"

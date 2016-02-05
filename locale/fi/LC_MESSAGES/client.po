@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-07 20:01+0000\n"
+"POT-Creation-Date: 2016-02-05 22:55+0000\n"
 "PO-Revision-Date: 2015-04-26 09:59+0000\n"
 "Last-Translator: Ville <ville.pohjanheimo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,22 +14,22 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1430042344.0\n"
 
-#: app/scripts/views/complete_reset_password.js:131
-#: app/scripts/views/complete_sign_up.js:106 app/scripts/views/confirm.js:114
-#: app/scripts/views/confirm_reset_password.js:163
+#: app/scripts/views/complete_reset_password.js:129
+#: app/scripts/views/complete_sign_up.js:103 app/scripts/views/confirm.js:112
+#: app/scripts/views/confirm_reset_password.js:180
 msgid "Account verified successfully"
 msgstr "Tilin vahvistaminen onnistui"
 
-#: app/scripts/views/confirm_account_unlock.js:100
+#: app/scripts/views/confirm_account_unlock.js:89
 msgid "Account unlocked, please try again"
 msgstr "Tilin lukitus purettu, yritä uudelleen"
 
-#: app/scripts/views/confirm_reset_password.js:153
+#: app/scripts/views/confirm_reset_password.js:170
 #: app/scripts/views/ready.js:48
 msgid "Password reset"
 msgstr "Salasanan nollaus"
 
-#: app/scripts/views/confirm_reset_password.js:182
+#: app/scripts/views/confirm_reset_password.js:199
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Salasanan nollaus onnistui. Kirjaudu sisään jatkaaksesi."
 
@@ -61,11 +61,11 @@ msgstr "Tili on vahvistettu"
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Voit nyt aloittaa palvelun %(serviceName)s käyttämisen"
 
-#: app/scripts/views/reset_password.js:66 app/scripts/views/sign_in.js:187
+#: app/scripts/views/reset_password.js:66 app/scripts/views/sign_in.js:182
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Tuntematon tili. <a href=\"/signup\">Luo uusi tili</a>"
 
-#: app/scripts/views/sign_up.js:346
+#: app/scripts/views/sign_up.js:337
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Tili on jo olemassa. <a href=\"/signin\">Kirjaudu sisään</a>"
 
@@ -73,34 +73,86 @@ msgstr "Tili on jo olemassa. <a href=\"/signin\">Kirjaudu sisään</a>"
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a>-palvelusta"
 
-#: app/scripts/views/settings/change_password.js:51
+#: app/scripts/views/settings/change_password.js:52
 msgid "Password changed successfully"
 msgstr "Salasana vaihdettu"
 
-#: app/scripts/views/settings/communication_preferences.js:108
+#: app/scripts/views/settings/communication_preferences.js:116
 msgid "Subscribed successfully"
 msgstr ""
 
-#: app/scripts/views/settings/communication_preferences.js:109
+#: app/scripts/views/settings/communication_preferences.js:117
 msgid "Unsubscribed successfully"
 msgstr ""
 
-#: app/scripts/views/settings/delete_account.js:50
+#: app/scripts/views/settings/delete_account.js:48
 msgid "Account deleted successfully"
 msgstr "Tilin poistaminen onnistui."
+
+#: app/scripts/views/settings/devices.js:27
+msgid "a day"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:28
+msgid "%d days"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:29
+msgid "about an hour"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:30
+msgid "%d hours"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:31
+msgid "about a minute"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:32
+msgid "%d minutes"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:33
+msgid "about a month"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:34
+msgid "%d months"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:35
+msgid "a few seconds"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:36
+msgid "ago"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:37
+msgid "from now"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:38
+msgid "about a year"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:39
+msgid "%d years"
+msgstr ""
 
 #: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
 msgstr ""
 
-#: app/scripts/views/mixins/account-locked-mixin.js:31
+#: app/scripts/views/mixins/account-locked-mixin.js:39
 msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "Tili on lukittu. <a href=\"/confirm_account_unlock\">Lähetä lukituksen "
 "purkava sähköposti</a>"
 
-#: app/scripts/views/mixins/signed-out-notification-mixin.js:38
+#: app/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
 msgstr "Kirjauduttu ulos"
 
@@ -376,38 +428,15 @@ msgid ""
 "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
-#: app/scripts/lib/strings.js:22
-#: app/scripts/templates/choose_what_to_sync.mustache:4
-msgid "Bookmarks"
-msgstr ""
-
-#: app/scripts/lib/strings.js:23
-#: app/scripts/templates/choose_what_to_sync.mustache:10
-msgid "History"
-msgstr ""
-
-#: app/scripts/lib/strings.js:24
-#: app/scripts/templates/choose_what_to_sync.mustache:2
-msgid "Tabs"
-msgstr ""
-
-#: app/scripts/lib/strings.js:25
-#: app/scripts/templates/choose_what_to_sync.mustache:8
-msgid "Passwords"
-msgstr ""
-
 #: app/scripts/lib/strings.js:26
-msgid "Desktop Add-ons"
-msgstr ""
-
-#: app/scripts/lib/strings.js:27
-msgid "Desktop Preferences"
-msgstr ""
-
-#: app/scripts/lib/strings.js:34
 msgid ""
 "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-"
 "account\">Help</a>"
+msgstr ""
+
+#: app/scripts/lib/strings.js:29
+msgid ""
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
@@ -429,8 +458,24 @@ msgstr "Lue lisää."
 msgid "Choose what to sync"
 msgstr "Valitse, mitä synkronoidaan"
 
+#: app/scripts/templates/choose_what_to_sync.mustache:2
+msgid "Tabs"
+msgstr ""
+
+#: app/scripts/templates/choose_what_to_sync.mustache:4
+msgid "Bookmarks"
+msgstr ""
+
 #: app/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
+msgstr ""
+
+#: app/scripts/templates/choose_what_to_sync.mustache:8
+msgid "Passwords"
+msgstr ""
+
+#: app/scripts/templates/choose_what_to_sync.mustache:10
+msgid "History"
 msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:13
@@ -601,18 +646,15 @@ msgid "Sign in"
 msgstr "Kirjaudu sisään"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies required"
-msgstr "Evästeiden on oltava käytössä"
+msgid "Cookies and local storage are required."
+msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
-"Please enable cookies in your browser which are required by Firefox "
-"Accounts. Cookies are small pieces of data stored in your browser that "
-"provide functionality such as remembering you between sessions."
+"Please enable cookies and local storage in your browser to access Firefox "
+"Accounts. Doing so will enable functionality such as remembering you between "
+"sessions."
 msgstr ""
-"Firefox-tili -palvelu käyttää evästeitä. Ota evästeet käyttöön selaimessasi. "
-"Evästeet ovat selaimeesi tallennettuja pieniä tiedostoja, joiden avulla "
-"sivusto esimerkiksi muistaa kirjautumisesi istuntojen välillä."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -730,8 +772,8 @@ msgstr ""
 #: app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3
 #: app/scripts/templates/settings/change_password.mustache:13
-#: app/scripts/templates/settings/communication_preferences.mustache:4
-#: app/scripts/templates/settings/communication_preferences.mustache:12
+#: app/scripts/templates/settings/communication_preferences.mustache:5
+#: app/scripts/templates/settings/communication_preferences.mustache:13
 #: app/scripts/templates/settings/delete_account.mustache:7
 #: app/scripts/templates/settings/display_name.mustache:6
 #: app/scripts/templates/settings/gravatar_permissions.mustache:5
@@ -805,7 +847,7 @@ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:16
-#: app/scripts/templates/settings/communication_preferences.mustache:6
+#: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr ""
 
@@ -825,7 +867,7 @@ msgstr "Tilin kuva"
 #: app/scripts/templates/settings/avatar_crop.mustache:2
 #: app/scripts/templates/settings/change_password.mustache:2
 #: app/scripts/templates/settings/change_password.mustache:12
-#: app/scripts/templates/settings/communication_preferences.mustache:3
+#: app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Change"
@@ -880,19 +922,19 @@ msgstr ""
 msgid "Old password"
 msgstr "Vanha salasana"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:2
+#: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
 msgstr ""
 
-#: app/scripts/templates/settings/communication_preferences.mustache:7
+#: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
 msgstr ""
 
-#: app/scripts/templates/settings/communication_preferences.mustache:9
+#: app/scripts/templates/settings/communication_preferences.mustache:10
 msgid "Unsubscribe"
 msgstr ""
 
-#: app/scripts/templates/settings/communication_preferences.mustache:11
+#: app/scripts/templates/settings/communication_preferences.mustache:12
 msgid "Subscribe"
 msgstr ""
 
@@ -973,6 +1015,19 @@ msgstr ""
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr ""
+
+#~ msgid "Cookies required"
+#~ msgstr "Evästeiden on oltava käytössä"
+
+#~ msgid ""
+#~ "Please enable cookies in your browser which are required by Firefox "
+#~ "Accounts. Cookies are small pieces of data stored in your browser that "
+#~ "provide functionality such as remembering you between sessions."
+#~ msgstr ""
+#~ "Firefox-tili -palvelu käyttää evästeitä. Ota evästeet käyttöön "
+#~ "selaimessasi. Evästeet ovat selaimeesi tallennettuja pieniä tiedostoja, "
+#~ "joiden avulla sivusto esimerkiksi muistaa kirjautumisesi istuntojen "
+#~ "välillä."
 
 #~ msgid "1991"
 #~ msgstr "1991"
