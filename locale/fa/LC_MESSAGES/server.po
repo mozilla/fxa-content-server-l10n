@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-07 20:01+0000\n"
+"POT-Creation-Date: 2016-02-05 22:55+0000\n"
 "PO-Revision-Date: 2015-12-02 22:36+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,8 @@ msgstr ""
 "X-POOTLE-MTIME: 1423490268.0\n"
 
 #: templates/_pending.txt:1 templates/verify_reminder_second.html:2
+#: templates/verification_reminder_second.html:2
+#: templates/verification_reminder_second.txt:1
 msgid "Still there?"
 msgstr "هنوز اینجایی؟"
 
@@ -61,6 +63,8 @@ msgstr "ورود به هم‌گام‌سازی"
 #: templates/verification_reminder.html:1 templates/verify.html:1
 #: templates/verify_reminder_first.html:1
 #: templates/verify_reminder_second.html:1
+#: templates/verification_reminder_first.html:1
+#: templates/verification_reminder_second.html:1
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
@@ -97,6 +101,8 @@ msgstr ""
 #: templates/verification_reminder.html:7 templates/verify.html:7
 #: templates/verify_reminder_first.html:7
 #: templates/verify_reminder_second.html:7
+#: templates/verification_reminder_first.html:7
+#: templates/verification_reminder_second.html:7
 msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
@@ -116,6 +122,8 @@ msgstr ""
 #: templates/password_reset.txt:4 templates/post_verify.txt:5
 #: templates/reset.txt:5 templates/unlock.txt:4
 #: templates/verification_reminder.txt:5 templates/verify.txt:5
+#: templates/verification_reminder_first.txt:5
+#: templates/verification_reminder_second.txt:5
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "برای اطلاعات بیشتر لطفا به %(supportUrl)s نگاهی بندازید"
 
@@ -159,6 +167,8 @@ msgstr "حساب تایید شد!"
 #: templates/verification_reminder.html:5 templates/verify.html:5
 #: templates/verify_reminder_first.html:5
 #: templates/verify_reminder_second.html:5
+#: templates/verification_reminder_first.html:5
+#: templates/verification_reminder_second.html:5
 msgid "Alternatively:"
 msgstr "به عنوان جایگزین:"
 
@@ -168,6 +178,10 @@ msgstr "به عنوان جایگزین:"
 #: templates/verification_reminder.txt:4 templates/verify.html:6
 #: templates/verify.txt:4 templates/verify_reminder_first.html:6
 #: templates/verify_reminder_second.html:6
+#: templates/verification_reminder_first.html:6
+#: templates/verification_reminder_first.txt:4
+#: templates/verification_reminder_second.html:6
+#: templates/verification_reminder_second.txt:4
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
@@ -224,6 +238,8 @@ msgstr "تایید حساب:"
 
 #: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
 #: templates/verify_reminder_first.html:2
+#: templates/verification_reminder_first.html:2
+#: templates/verification_reminder_first.txt:1
 msgid "Hello again."
 msgstr "دوباره سلام."
 
@@ -238,18 +254,24 @@ msgstr ""
 #: templates/verification_reminder.html:4 templates/verify.html:4
 #: templates/verify_reminder_first.html:4
 #: templates/verify_reminder_second.html:4
+#: templates/verification_reminder_first.html:4
+#: templates/verification_reminder_second.html:4
 msgid "Activate now"
 msgstr "هم‌اکنون فعال‌سازی شود"
 
 #: templates/verification_reminder.html:8 templates/verify.html:8
 #: templates/verify_reminder_first.html:8
 #: templates/verify_reminder_second.html:8
+#: templates/verification_reminder_first.html:8
+#: templates/verification_reminder_second.html:8
 msgid "Verify Email"
 msgstr "تایید پست‌الکترونیکی"
 
 #: templates/verification_reminder.html:9 templates/verify.html:9
 #: templates/verify_reminder_first.html:9
 #: templates/verify_reminder_second.html:9
+#: templates/verification_reminder_first.html:9
+#: templates/verification_reminder_second.html:9
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr "پست‌الکترونیکی خود را برای تکمیل عضویت در حساب فایرفاکس تایید کنید"
 
@@ -265,11 +287,42 @@ msgstr "خوش‌آمدید!"
 msgid "Please activate your account by confirming this email address."
 msgstr "لطفا حساب خود را با تایید این پست‌الکترونیکی فعال کنید."
 
-#: templates/verify.txt:3
+#: templates/verify.txt:3 templates/verification_reminder_first.txt:3
+#: templates/verification_reminder_second.txt:3
 msgid "Activate now:"
 msgstr "حالا فعال کن:"
 
-#: mailer.js:132 mailer.js:330 mailer.js:329
+#: templates/verify_reminder_first.html:3
+#: templates/verification_reminder_first.html:3
+#: templates/verification_reminder_first.txt:2
+msgid ""
+"A few days ago you created a Firefox Account, but never verified it. A "
+"verified account lets you access your tabs, bookmarks, passwords and history "
+"on any device connected to it. Simply confirm this email address to activate "
+"your account."
+msgstr ""
+"چند روز پیش شما یک حساب فایرفاکس ساختید، ولی هیچگاه تاییدش نکردید. یک حساب "
+"تایید شده به شما امکان می‌دهد تا به زبانه‌ها، نشانک‌ها، گذرواژه‌ها و تاریخچه خود "
+"بر روی هر دستگاه متصل به آن، دسترسی داشته باشید. به راحتی با ثبت این آدرس "
+"پست‌الکترونیکی حساب خود را تایید کنید."
+
+#: templates/verify_reminder_second.html:3
+#: templates/verification_reminder_second.html:3
+#: templates/verification_reminder_second.txt:2
+msgid ""
+"A week ago you created a Firefox Account, but never verified it. We’re "
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
+"iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know "
+"you're okay."
+msgstr ""
+"چند روز پیش شما یک حساب فایرفاکس ساختید، ولی هیچگاه تاییدش نکردید. ما نگران "
+"شما هستیم. فایرفاکس بر روی ویندوز، مک، لینوکس، اندروید و iOS در دسترس است. "
+"شما می‌توانید گذرواژه‌ها، نشانک‌ها و تاریخچه خود را در تمام دستگاه‌های خود همگام "
+"کنید. این آدرس پست‌الکترونیکی را تایید کنید تا حساب خود را فعال و به ما "
+"اطمینان دهید که شرایطتان خوب است."
+
+#: mailer.js:132 mailer.js:329
 msgid "Verify your Firefox Account"
 msgstr "حساب فایرفاکس خود را تایید کنید"
 
@@ -285,43 +338,25 @@ msgstr "حساب فایرفاکس خود را دوباره تایید کنید"
 msgid "Your Firefox Account password has been changed"
 msgstr "گذرواژه حساب فایرفاکس شما تغییر کرده است"
 
-#: mailer.js:247 mailer.js:246
+#: mailer.js:246
 msgid "Your Firefox Account password has been reset"
 msgstr "گذرواژه حساب فایرفاکس شما بازنشانی شده است"
 
-#: mailer.js:269 mailer.js:268
+#: mailer.js:268
 msgid "New sign-in to Firefox"
 msgstr "حالا به فایرفاکس وارد شوید"
 
-#: mailer.js:292 mailer.js:291
+#: mailer.js:291
 msgid "Firefox Account Verified"
 msgstr "حساب فایرفاکس تایید شد"
 
-#: templates/verify_reminder_first.html:3
-msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history "
-"on any device connected to it. Simply confirm this email address to activate "
-"your account."
+#: config.js:127 config.js:132
+msgid "env"
 msgstr ""
-"چند روز پیش شما یک حساب فایرفاکس ساختید، ولی هیچگاه تاییدش نکردید. یک حساب "
-"تایید شده به شما امکان می‌دهد تا به زبانه‌ها، نشانک‌ها، گذرواژه‌ها و تاریخچه خود "
-"بر روی هر دستگاه متصل به آن، دسترسی داشته باشید. به راحتی با ثبت این آدرس "
-"پست‌الکترونیکی حساب خود را تایید کنید."
 
-#: templates/verify_reminder_second.html:3
-msgid ""
-"A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
-"iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know "
-"you're okay."
+#: log.js:7
+msgid "logging"
 msgstr ""
-"چند روز پیش شما یک حساب فایرفاکس ساختید، ولی هیچگاه تاییدش نکردید. ما نگران "
-"شما هستیم. فایرفاکس بر روی ویندوز، مک، لینوکس، اندروید و iOS در دسترس است. "
-"شما می‌توانید گذرواژه‌ها، نشانک‌ها و تاریخچه خود را در تمام دستگاه‌های خود همگام "
-"کنید. این آدرس پست‌الکترونیکی را تایید کنید تا حساب خود را فعال و به ما "
-"اطمینان دهید که شرایطتان خوب است."
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"

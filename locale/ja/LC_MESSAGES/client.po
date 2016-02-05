@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-07 20:01+0000\n"
+"POT-Creation-Date: 2016-02-05 22:55+0000\n"
 "PO-Revision-Date: 2015-12-22 01:56+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -15,22 +15,22 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1429765208.0\n"
 
-#: app/scripts/views/complete_reset_password.js:131
-#: app/scripts/views/complete_sign_up.js:106 app/scripts/views/confirm.js:114
-#: app/scripts/views/confirm_reset_password.js:163
+#: app/scripts/views/complete_reset_password.js:129
+#: app/scripts/views/complete_sign_up.js:103 app/scripts/views/confirm.js:112
+#: app/scripts/views/confirm_reset_password.js:180
 msgid "Account verified successfully"
 msgstr "アカウントの確認が完了しました"
 
-#: app/scripts/views/confirm_account_unlock.js:100
+#: app/scripts/views/confirm_account_unlock.js:89
 msgid "Account unlocked, please try again"
 msgstr "アカウントのロックが解除されました。再度試してください"
 
-#: app/scripts/views/confirm_reset_password.js:153
+#: app/scripts/views/confirm_reset_password.js:170
 #: app/scripts/views/ready.js:48
 msgid "Password reset"
 msgstr "パスワードをリセットする"
 
-#: app/scripts/views/confirm_reset_password.js:182
+#: app/scripts/views/confirm_reset_password.js:199
 msgid "Password reset successfully. Sign in to continue."
 msgstr "パスワードのリセットが完了しました。続けるにはログインしてください。"
 
@@ -63,11 +63,11 @@ msgstr "アカウントが認証されました"
 msgid "You are now ready to use %(serviceName)s"
 msgstr "%(serviceName)s が使えるようになりました"
 
-#: app/scripts/views/reset_password.js:66 app/scripts/views/sign_in.js:187
+#: app/scripts/views/reset_password.js:66 app/scripts/views/sign_in.js:182
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "不明なアカウントです。<a href=\"/signup\">サインアップ</a>"
 
-#: app/scripts/views/sign_up.js:346
+#: app/scripts/views/sign_up.js:337
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "このアカウントは既に存在します。<a href=\"/signin\">サインイン</a>"
 
@@ -75,34 +75,86 @@ msgstr "このアカウントは既に存在します。<a href=\"/signin\">サ�
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> による提供"
 
-#: app/scripts/views/settings/change_password.js:51
+#: app/scripts/views/settings/change_password.js:52
 msgid "Password changed successfully"
 msgstr "パスワードの変更が完了しました"
 
-#: app/scripts/views/settings/communication_preferences.js:108
+#: app/scripts/views/settings/communication_preferences.js:116
 msgid "Subscribed successfully"
 msgstr "購読を開始しました"
 
-#: app/scripts/views/settings/communication_preferences.js:109
+#: app/scripts/views/settings/communication_preferences.js:117
 msgid "Unsubscribed successfully"
 msgstr "購読を解除しました"
 
-#: app/scripts/views/settings/delete_account.js:50
+#: app/scripts/views/settings/delete_account.js:48
 msgid "Account deleted successfully"
 msgstr "アカウントの削除が完了しました"
+
+#: app/scripts/views/settings/devices.js:27
+msgid "a day"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:28
+msgid "%d days"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:29
+msgid "about an hour"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:30
+msgid "%d hours"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:31
+msgid "about a minute"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:32
+msgid "%d minutes"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:33
+msgid "about a month"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:34
+msgid "%d months"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:35
+msgid "a few seconds"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:36
+msgid "ago"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:37
+msgid "from now"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:38
+msgid "about a year"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:39
+msgid "%d years"
+msgstr ""
 
 #: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
 msgstr "表示名が更新されました"
 
-#: app/scripts/views/mixins/account-locked-mixin.js:31
+#: app/scripts/views/mixins/account-locked-mixin.js:39
 msgid ""
 "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "アカウントはロックされています。<a href=\"/confirm_account_unlock\">ロック解"
 "除メールを送信</a>"
 
-#: app/scripts/views/mixins/signed-out-notification-mixin.js:38
+#: app/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
 msgstr "ログアウトが完了しました"
 
@@ -378,41 +430,18 @@ msgstr ""
 "\"%(termsUri)s\">利用規約</a> と <a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">プライバシー通知</a> に同意したものとみなされます。"
 
-#: app/scripts/lib/strings.js:22
-#: app/scripts/templates/choose_what_to_sync.mustache:4
-msgid "Bookmarks"
-msgstr "ブックマーク"
-
-#: app/scripts/lib/strings.js:23
-#: app/scripts/templates/choose_what_to_sync.mustache:10
-msgid "History"
-msgstr "履歴"
-
-#: app/scripts/lib/strings.js:24
-#: app/scripts/templates/choose_what_to_sync.mustache:2
-msgid "Tabs"
-msgstr "タブ"
-
-#: app/scripts/lib/strings.js:25
-#: app/scripts/templates/choose_what_to_sync.mustache:8
-msgid "Passwords"
-msgstr "パスワード"
-
 #: app/scripts/lib/strings.js:26
-msgid "Desktop Add-ons"
-msgstr "デスクトップ向けアドオン"
-
-#: app/scripts/lib/strings.js:27
-msgid "Desktop Preferences"
-msgstr "デスクトップ向け設定"
-
-#: app/scripts/lib/strings.js:34
 msgid ""
 "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-"
 "account\">Help</a>"
 msgstr ""
 "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-"
 "account\">ヘルプ</a>"
+
+#: app/scripts/lib/strings.js:29
+msgid ""
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -435,9 +464,25 @@ msgstr "詳細を確認。"
 msgid "Choose what to sync"
 msgstr "同期するデータを選択する"
 
+#: app/scripts/templates/choose_what_to_sync.mustache:2
+msgid "Tabs"
+msgstr "タブ"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:4
+msgid "Bookmarks"
+msgstr "ブックマーク"
+
 #: app/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
 msgstr "アドオン"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:8
+msgid "Passwords"
+msgstr "パスワード"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:10
+msgid "History"
+msgstr "履歴"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:13
 msgid "Preferences"
@@ -608,18 +653,15 @@ msgid "Sign in"
 msgstr "サインイン"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies required"
-msgstr "Cookie を有効にする必要があります"
+msgid "Cookies and local storage are required."
+msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
-"Please enable cookies in your browser which are required by Firefox "
-"Accounts. Cookies are small pieces of data stored in your browser that "
-"provide functionality such as remembering you between sessions."
+"Please enable cookies and local storage in your browser to access Firefox "
+"Accounts. Doing so will enable functionality such as remembering you between "
+"sessions."
 msgstr ""
-"Firefox Accout をご利用頂くには、ブラウザで Cookie を有効化してください。"
-"Cookie とはブラウザセッション中にあなたを識別できるようにするためブラウザに保"
-"存される小さなデータです。"
 
 # リンク先などは未確認だが多分 Cookie の説明？
 #: app/scripts/templates/cookies_disabled.mustache:3
@@ -741,8 +783,8 @@ msgstr "承認"
 #: app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3
 #: app/scripts/templates/settings/change_password.mustache:13
-#: app/scripts/templates/settings/communication_preferences.mustache:4
-#: app/scripts/templates/settings/communication_preferences.mustache:12
+#: app/scripts/templates/settings/communication_preferences.mustache:5
+#: app/scripts/templates/settings/communication_preferences.mustache:13
 #: app/scripts/templates/settings/delete_account.mustache:7
 #: app/scripts/templates/settings/display_name.mustache:6
 #: app/scripts/templates/settings/gravatar_permissions.mustache:5
@@ -822,7 +864,7 @@ msgstr ""
 "Firefox アカウントを新たに作成して、あなたの同期データを移行しましょう。"
 
 #: app/scripts/templates/sign_up.mustache:16
-#: app/scripts/templates/settings/communication_preferences.mustache:6
+#: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Mozilla と Firefox に関する最新情報を入手しましょう。"
 
@@ -842,7 +884,7 @@ msgstr "アカウント写真"
 #: app/scripts/templates/settings/avatar_crop.mustache:2
 #: app/scripts/templates/settings/change_password.mustache:2
 #: app/scripts/templates/settings/change_password.mustache:12
-#: app/scripts/templates/settings/communication_preferences.mustache:3
+#: app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Change"
@@ -897,19 +939,19 @@ msgstr ""
 msgid "Old password"
 msgstr "旧パスワード"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:2
+#: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
 msgstr "コミュニケーション設定"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:7
+#: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
 msgstr "メール設定"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:9
+#: app/scripts/templates/settings/communication_preferences.mustache:10
 msgid "Unsubscribe"
 msgstr "購読解除"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:11
+#: app/scripts/templates/settings/communication_preferences.mustache:12
 msgid "Subscribe"
 msgstr "購読開始"
 
@@ -997,6 +1039,24 @@ msgstr "OpenID を使用"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Firefox アカウントを使用"
+
+#~ msgid "Desktop Add-ons"
+#~ msgstr "デスクトップ向けアドオン"
+
+#~ msgid "Desktop Preferences"
+#~ msgstr "デスクトップ向け設定"
+
+#~ msgid "Cookies required"
+#~ msgstr "Cookie を有効にする必要があります"
+
+#~ msgid ""
+#~ "Please enable cookies in your browser which are required by Firefox "
+#~ "Accounts. Cookies are small pieces of data stored in your browser that "
+#~ "provide functionality such as remembering you between sessions."
+#~ msgstr ""
+#~ "Firefox Accout をご利用頂くには、ブラウザで Cookie を有効化してください。"
+#~ "Cookie とはブラウザセッション中にあなたを識別できるようにするためブラウザ"
+#~ "に保存される小さなデータです。"
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "iOS 版 Firefox、まもなく登場！"
