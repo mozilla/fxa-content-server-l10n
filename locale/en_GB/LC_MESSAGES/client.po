@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-05 22:55+0000\n"
-"PO-Revision-Date: 2015-12-22 01:22+0000\n"
+"PO-Revision-Date: 2016-02-06 04:52+0000\n"
 "Last-Translator: Ian Neal <iann_bugzilla@blueyonder.co.uk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en_GB\n"
@@ -91,65 +91,63 @@ msgstr "Account deleted successfully"
 
 #: app/scripts/views/settings/devices.js:27
 msgid "a day"
-msgstr ""
+msgstr "a day"
 
 #: app/scripts/views/settings/devices.js:28
 msgid "%d days"
-msgstr ""
+msgstr "%d days"
 
 #: app/scripts/views/settings/devices.js:29
 msgid "about an hour"
-msgstr ""
+msgstr "about an hour"
 
 #: app/scripts/views/settings/devices.js:30
 msgid "%d hours"
-msgstr ""
+msgstr "%d hours"
 
 #: app/scripts/views/settings/devices.js:31
 msgid "about a minute"
-msgstr ""
+msgstr "about a minute"
 
 #: app/scripts/views/settings/devices.js:32
 msgid "%d minutes"
-msgstr ""
+msgstr "%d minutes"
 
 #: app/scripts/views/settings/devices.js:33
 msgid "about a month"
-msgstr ""
+msgstr "about a month"
 
 #: app/scripts/views/settings/devices.js:34
 msgid "%d months"
-msgstr ""
+msgstr "%d months"
 
 #: app/scripts/views/settings/devices.js:35
 msgid "a few seconds"
-msgstr ""
+msgstr "a few seconds"
 
 #: app/scripts/views/settings/devices.js:36
 msgid "ago"
-msgstr ""
+msgstr "ago"
 
 #: app/scripts/views/settings/devices.js:37
 msgid "from now"
-msgstr ""
+msgstr "from now"
 
 #: app/scripts/views/settings/devices.js:38
 msgid "about a year"
-msgstr ""
+msgstr "about a year"
 
 #: app/scripts/views/settings/devices.js:39
 msgid "%d years"
-msgstr ""
+msgstr "%d years"
 
 #: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
 msgstr "Display name updated"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
-msgstr ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgstr "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 
 #: app/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
@@ -158,7 +156,8 @@ msgstr "Signed out successfully"
 #: app/scripts/lib/auth-errors.js:17 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -417,13 +416,15 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:26
 msgid ""
@@ -435,8 +436,11 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:29
 msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
+"in</a>"
 msgstr ""
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
+"in</a>"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -620,12 +624,12 @@ msgstr "Unlock email sent"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification"
+" link sent to %(email)s"
 msgstr ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification"
+" link sent to %(email)s"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -648,14 +652,17 @@ msgstr "Sign in"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
-msgstr ""
+msgstr "Cookies and local storage are required."
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between "
-"sessions."
+"Accounts. Doing so will enable functionality such as remembering you between"
+" sessions."
 msgstr ""
+"Please enable cookies and local storage in your browser to access Firefox "
+"Accounts. Doing so will enable functionality such as remembering you between"
+" sessions."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -690,13 +697,13 @@ msgstr "Forgot password?"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:15
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -810,8 +817,8 @@ msgid ""
 "data on your devices will remain untouched. Begin the reset process by "
 "entering your email below."
 msgstr ""
-"Resetting your password will remove your browsing data from our servers. Any "
-"data on your devices will remain untouched. Begin the reset process by "
+"Resetting your password will remove your browsing data from our servers. Any"
+" data on your devices will remain untouched. Begin the reset process by "
 "entering your email below."
 
 #: app/scripts/templates/reset_password.mustache:5
@@ -966,13 +973,13 @@ msgstr "Devices"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -1185,13 +1192,13 @@ msgstr "Use Firefox Account"
 #~ msgstr "Enter your email to reset&nbsp;the account password."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data "
-#~ "from our servers. A new Sync backup will be created from your local "
-#~ "browsing data."
+#~ "For security reasons, resetting your password will erase your Sync data from"
+#~ " our servers. A new Sync backup will be created from your local browsing "
+#~ "data."
 #~ msgstr ""
-#~ "For security reasons, resetting your password will erase your Sync data "
-#~ "from our servers. A new Sync backup will be created from your local "
-#~ "browsing data."
+#~ "For security reasons, resetting your password will erase your Sync data from"
+#~ " our servers. A new Sync backup will be created from your local browsing "
+#~ "data."
 
 #~ msgid "You are signed in as"
 #~ msgstr "You are signed in as"
