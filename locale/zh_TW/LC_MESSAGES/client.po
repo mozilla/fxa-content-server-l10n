@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-05 22:55+0000\n"
-"PO-Revision-Date: 2016-02-06 05:04+0000\n"
+"PO-Revision-Date: 2016-02-06 05:05+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -643,14 +643,14 @@ msgstr "登入"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
-msgstr ""
+msgstr "需要使用 Cookies 與本機儲存空間。"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
 "Accounts. Doing so will enable functionality such as remembering you between"
 " sessions."
-msgstr ""
+msgstr "請在開啟 Cookies 與本機儲存空間以讓瀏覽器存取 Firefox 帳號。這麼做可讓帳號系統在每次使用時記住您的登入狀態。"
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
