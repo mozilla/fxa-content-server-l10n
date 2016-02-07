@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-05 22:55+0000\n"
-"PO-Revision-Date: 2016-02-07 13:23+0000\n"
-"Last-Translator: Tymur Faradzhev <faradzhev.timur@gmail.com>\n"
+"PO-Revision-Date: 2016-02-07 19:11+0000\n"
+"Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -96,7 +96,7 @@ msgstr "день"
 
 #: app/scripts/views/settings/devices.js:28
 msgid "%d days"
-msgstr "%d днів(я)"
+msgstr "%d дні(в)"
 
 #: app/scripts/views/settings/devices.js:29
 msgid "about an hour"
@@ -120,7 +120,7 @@ msgstr "близько місяця"
 
 #: app/scripts/views/settings/devices.js:34
 msgid "%d months"
-msgstr "%d місяців(я)"
+msgstr "%d місяці(в)"
 
 #: app/scripts/views/settings/devices.js:35
 msgid "a few seconds"
@@ -140,7 +140,7 @@ msgstr "близько року"
 
 #: app/scripts/views/settings/devices.js:39
 msgid "%d years"
-msgstr "%d років(и)"
+msgstr "%d роки(ів)"
 
 #: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
@@ -668,9 +668,9 @@ msgid ""
 "Accounts. Doing so will enable functionality such as remembering you between"
 " sessions."
 msgstr ""
-"Будь ласка, увімкніть cookies і локальне сховище в вашому браузері для "
-"доступу до Облікових записів Firefox. Це дозволить браузеру запам'ятовувати "
-"ваші сесії."
+"Будь ласка, увімкніть в своєму браузері куки і локальне сховище для доступу "
+"до Облікових записів Firefox. Це дозволить браузеру пам'ятати вас між "
+"сеансами."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
