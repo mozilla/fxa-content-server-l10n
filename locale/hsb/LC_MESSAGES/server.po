@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-05 22:55+0000\n"
-"PO-Revision-Date: 2015-11-13 15:56+0000\n"
+"PO-Revision-Date: 2016-02-08 09:07+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -358,11 +358,11 @@ msgstr "Konto Firefox wobkrućene"
 
 #: config.js:127 config.js:132
 msgid "env"
-msgstr ""
+msgstr "env"
 
 #: log.js:7
 msgid "logging"
-msgstr ""
+msgstr "protokolowanje"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
