@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-05 22:55+0000\n"
-"PO-Revision-Date: 2015-12-23 03:48+0000\n"
+"PO-Revision-Date: 2016-02-08 03:57+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -91,63 +91,62 @@ msgstr "Тіркелгі сәтті өшірілді"
 
 #: app/scripts/views/settings/devices.js:27
 msgid "a day"
-msgstr ""
+msgstr "бір күн"
 
 #: app/scripts/views/settings/devices.js:28
 msgid "%d days"
-msgstr ""
+msgstr "%d күн"
 
 #: app/scripts/views/settings/devices.js:29
 msgid "about an hour"
-msgstr ""
+msgstr "шамамен бір сағат"
 
 #: app/scripts/views/settings/devices.js:30
 msgid "%d hours"
-msgstr ""
+msgstr "%d сағат"
 
 #: app/scripts/views/settings/devices.js:31
 msgid "about a minute"
-msgstr ""
+msgstr "шамамен бір минут"
 
 #: app/scripts/views/settings/devices.js:32
 msgid "%d minutes"
-msgstr ""
+msgstr "%d минут"
 
 #: app/scripts/views/settings/devices.js:33
 msgid "about a month"
-msgstr ""
+msgstr "шамамен бір ай"
 
 #: app/scripts/views/settings/devices.js:34
 msgid "%d months"
-msgstr ""
+msgstr "%d ай"
 
 #: app/scripts/views/settings/devices.js:35
 msgid "a few seconds"
-msgstr ""
+msgstr "бірнеше секунд"
 
 #: app/scripts/views/settings/devices.js:36
 msgid "ago"
-msgstr ""
+msgstr "бұрын"
 
 #: app/scripts/views/settings/devices.js:37
 msgid "from now"
-msgstr ""
+msgstr "осыдан бастап"
 
 #: app/scripts/views/settings/devices.js:38
 msgid "about a year"
-msgstr ""
+msgstr "шамамен бір жыл"
 
 #: app/scripts/views/settings/devices.js:39
 msgid "%d years"
-msgstr ""
+msgstr "%d жыл"
 
 #: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
 msgstr "Көрсетілетін аты жаңартылды"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "Тіркелгі блокталған. <a href=\"/confirm_account_unlock\">Босату хатын "
 "жіберу</a>"
@@ -159,7 +158,8 @@ msgstr "Шығу сәтті аяқталды"
 #: app/scripts/lib/auth-errors.js:17 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -321,7 +321,8 @@ msgstr ""
 #: app/scripts/lib/auth-errors.js:201
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
-"Firefox тіркелгілерін тек расталған сайттарда IFRAME-ге орналастыруға болады."
+"Firefox тіркелгілерін тек расталған сайттарда IFRAME-ге орналастыруға "
+"болады."
 
 #: app/scripts/lib/auth-errors.js:209
 msgid "/force_auth requires an email"
@@ -420,13 +421,14 @@ msgstr "Firefox синхрондауы"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Жалғастыру нәтижесінде, сіз %(serviceName)s (%(serviceUri)s) қызметінің <a "
-"id=\"service-tos\" href=\"%(termsUri)s\">Қолдану шарттары</a> және <a id="
-"\"service-pp\" href=\"%(privacyUri)s\">Жекелік ескертуімен</a> келісесіз."
+"id=\"service-tos\" href=\"%(termsUri)s\">Қолдану шарттары</a> және <a id"
+"=\"service-pp\" href=\"%(privacyUri)s\">Жекелік ескертуімен</a> келісесіз."
 
 #: app/scripts/lib/strings.js:26
 msgid ""
@@ -438,8 +440,11 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:29
 msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
+"in</a>"
 msgstr ""
+"Басқа эл. поштаға байланысқан тіркелгіңіз бар ма? <a "
+"href=\"%(signinUri)s\">Кіріңіз</a>"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -448,7 +453,8 @@ msgstr "Тіркелгіні жасау мүмкін емес"
 #: app/scripts/templates/cannot_create_account.mustache:3
 msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr "Firefox&nbsp;тіркелгісін жасау үшін жасыңыз белгілі шамадан асуы тиіс."
+msgstr ""
+"Firefox&nbsp;тіркелгісін жасау үшін жасыңыз белгілі шамадан асуы тиіс."
 
 #: app/scripts/templates/cannot_create_account.mustache:5
 msgid "Learn more."
@@ -624,8 +630,8 @@ msgstr "Босату хаты жіберілді"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification"
+" link sent to %(email)s"
 msgstr ""
 "Сіздің тіркелгіңіз қауіпсізік себептерден блоктауға қойылған. Тіркелгімен "
 "әрекетті орындау үшін, оны %(email)s адресіне жіберілген растау сілтемесіне "
@@ -652,14 +658,17 @@ msgstr "Кіру"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
-msgstr ""
+msgstr "Cookies және жергілікті қойма керек."
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between "
-"sessions."
+"Accounts. Doing so will enable functionality such as remembering you between"
+" sessions."
 msgstr ""
+"Firefox тіркелгісіне қатынау үшін, браузеріңізде cookies және жергілікті "
+"қойманы іске қосыңыз. Оның нәтижесінде сессиялар арасында сізді есте сақтау "
+"сияқты мүмкіндіктер іске қосылады."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -694,13 +703,13 @@ msgstr "Пароліңізді ұмыттыңыз ба?"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:15
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
 "Жалғастыру нәтижесінде, сіз Firefox бұлттық қызметтерінің <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Қолдану шарттары</a> және <a id=\"fxa-pp\" href=\"/"
-"legal/privacy\">Жекелік ескертуімен</a> келісесіз."
+"href=\"/legal/terms\">Қолдану шарттары</a> және <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Жекелік ескертуімен</a> келісесіз."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -859,7 +868,8 @@ msgstr "Firefox тіркелгісін жасау"
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr ""
-"Жаңа Firefox&nbsp;тіркелгіңізді жасау арқылы барлық деректеріңізді көшіріңіз."
+"Жаңа Firefox&nbsp;тіркелгіңізді жасау арқылы барлық деректеріңізді "
+"көшіріңіз."
 
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/communication_preferences.mustache:7
@@ -972,13 +982,13 @@ msgstr "Құрылғылар"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox браузері <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> және <a href=\"%(linkLinux)s\">Linux</a> үшін "
+"Firefox браузері <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> және <a href=\"%(linkLinux)s\">Linux</a> үшін "
 "қолжетерлік."
 
 #: app/scripts/templates/settings/devices.mustache:5
@@ -1011,7 +1021,8 @@ msgid ""
 "Choose the name you would like to appear in Firefox and when managing your "
 "account."
 msgstr ""
-"Firefox-та және тіркелгіңізді басқару кезінде көрсетілетін атыңызды таңдаңыз."
+"Firefox-та және тіркелгіңізді басқару кезінде көрсетілетін атыңызды "
+"таңдаңыз."
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
