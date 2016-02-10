@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-05 22:55+0000\n"
-"PO-Revision-Date: 2016-02-06 01:38+0000\n"
-"Last-Translator: YFdyh000 <yfdyh000@gmail.com>\n"
+"PO-Revision-Date: 2016-02-10 09:25+0000\n"
+"Last-Translator: xcffl <xcffl@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr "账号验证成功"
 
 #: app/scripts/views/confirm_account_unlock.js:89
 msgid "Account unlocked, please try again"
-msgstr "账号已解锁，请稍后重试"
+msgstr "账号已解锁，请再试一次"
 
 #: app/scripts/views/confirm_reset_password.js:170
 #: app/scripts/views/ready.js:48
@@ -52,7 +52,7 @@ msgstr "Firefox 同步即将继续"
 
 #: app/scripts/views/ready.js:54
 msgid "Welcome to Sync"
-msgstr "欢迎使用“同步”"
+msgstr "欢迎使用同步功能"
 
 #: app/scripts/views/ready.js:59
 msgid "Account verified"
@@ -65,7 +65,7 @@ msgstr "您已经可以使用 %(serviceName)s 了"
 # see https://bugzilla.mozilla.org/show_bug.cgi?id=1131472
 #: app/scripts/views/reset_password.js:66 app/scripts/views/sign_in.js:182
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr "未知账号 <a href=\"/signup\">注册</a>"
+msgstr "未知账号。<a href=\"/signup\">注册</a>"
 
 #: app/scripts/views/sign_up.js:337
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
@@ -205,7 +205,7 @@ msgstr "无效的验证码"
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "Invalid JSON in request body"
-msgstr "请求内容中 JSON 无效"
+msgstr "请求内容中的 JSON 无效"
 
 #: app/scripts/lib/auth-errors.js:67 app/scripts/lib/profile-errors.js:23
 msgid "Invalid parameter in request body: %(param)s"
@@ -725,7 +725,7 @@ msgstr "下载 Android 版 Firefox"
 #: app/scripts/templates/marketing_snippet_ios.mustache:5
 #: app/scripts/templates/marketing_snippet_ios.mustache:9
 msgid "Get the full Sync experience."
-msgstr "获得完整的“同步”体验。"
+msgstr "获得完整同步体验。"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:2
 #: app/scripts/templates/marketing_snippet_ios.mustache:3
@@ -737,7 +737,7 @@ msgstr "下载 Firefox iOS 版！"
 #: app/scripts/templates/marketing_snippet_ios.mustache:7
 #: app/scripts/templates/marketing_snippet_ios.mustache:11
 msgid "Download Firefox for Android."
-msgstr "下载 Firefox for Android。"
+msgstr "下载 Firefox Android 版。"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:10
 msgid "Download Firefox for mobile devices."
@@ -860,7 +860,7 @@ msgstr "首页"
 
 #: app/scripts/templates/settings/avatar.mustache:1
 msgid "Account picture"
-msgstr "账号图片"
+msgstr "头像"
 
 #: app/scripts/templates/settings/avatar.mustache:2
 #: app/scripts/templates/settings/avatar_crop.mustache:2
@@ -1014,7 +1014,7 @@ msgstr "使用 OpenID"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr "使用 Firefox 账号"
+msgstr "使用 Firefox 账户"
 
 #~ msgid "Desktop Add-ons"
 #~ msgstr "桌面版附加组件"
