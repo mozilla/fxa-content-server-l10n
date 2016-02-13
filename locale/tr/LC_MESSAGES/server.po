@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-05 22:55+0000\n"
-"PO-Revision-Date: 2016-01-02 12:24+0000\n"
+"PO-Revision-Date: 2016-02-13 16:14+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -35,9 +35,9 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for <a "
 "href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Firefox Hesabı'nıza ilk cihazınızı başarıyla bağladınız. Artık <a "
+"Firefox Hesabı’nıza ilk cihazınızı başarıyla bağladınız. Artık <a "
 "href='%(androidUrl)s'>Android</a> ve <a href='%(iosUrl)s'>iOS</a> için "
-"Firefox da dahil olmak üzere diğer cihazlarınızdan Sync'e giriş "
+"Firefox da dahil olmak üzere diğer cihazlarınızdan Sync’e giriş "
 "yapabilirsiniz."
 
 #: templates/_pending.txt:4
@@ -46,9 +46,9 @@ msgid ""
 "make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
 "Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
 msgstr ""
-"Firefox Hesabı'nıza ilk cihazınızı başarıyla bağladınız. Sync'ten daha iyi "
+"Firefox Hesabı’nıza ilk cihazınızı başarıyla bağladınız. Sync’ten daha iyi "
 "yararlanmak için, kullanıyorsanız <a href='%(androidUrl)s'>Android için "
-"Firefox</a> veya <a href='%(iosUrl)s'>iOS için Firefox</a>'u da bağlayın."
+"Firefox</a> veya <a href='%(iosUrl)s'>iOS için Firefox</a>’u da bağlayın."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -56,7 +56,7 @@ msgstr "Başka bir cihaz bağla"
 
 #: templates/_pending.txt:6
 msgid "Sign in to Sync"
-msgstr "Sync'e giriş yap"
+msgstr "Sync’e giriş yap"
 
 #: templates/new_sync_device.html:1 templates/password_changed.html:1
 #: templates/password_reset.html:1 templates/post_verify.html:1
@@ -83,7 +83,7 @@ msgstr "Hesap etkinliği bildirimi"
 #: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
 msgid ""
 "A device began syncing with the devices connected to your Firefox Account."
-msgstr "Bir cihaz, Firefox Hesabı'nıza bağlı cihazlarla eşitlenmeye başladı."
+msgstr "Bir cihaz, Firefox Hesabı’nıza bağlı cihazlarla eşitlenmeye başladı."
 
 #: templates/new_sync_device.html:4 templates/password_changed.html:4
 #: templates/password_reset.html:4
@@ -107,14 +107,14 @@ msgid ""
 "Support</a>"
 msgstr ""
 "Daha fazla bilgi için lütfen <a %(supportLinkAttributes)s>Mozilla "
-"Destek</a>'i ziyaret edin"
+"Destek</a>’i ziyaret edin"
 
 #: templates/new_sync_device.txt:3
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
 "Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
-"Bu otomatik bir e-postadır. Eğer Firefox Hesabı'nıza yeni bir cihaz "
+"Bu otomatik bir e-postadır. Eğer Firefox Hesabı’nıza yeni bir cihaz "
 "eklemediyseniz parolanızı hemen %(resetLink)s adresinden değiştirmelisiniz."
 
 #: templates/new_sync_device.txt:4 templates/password_changed.txt:4
@@ -194,8 +194,8 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for "
 "Android and iOS."
 msgstr ""
-"Firefox Hesabı'nıza ilk cihazınızı başarıyla bağladınız. Artık Android ve "
-"iOS için Firefox da dahil olmak üzere diğer cihazlarınızdan Sync'e giriş "
+"Firefox Hesabı’nıza ilk cihazınızı başarıyla bağladınız. Artık Android ve "
+"iOS için Firefox da dahil olmak üzere diğer cihazlarınızdan Sync’e giriş "
 "yapabilirsiniz."
 
 #: templates/post_verify.txt:3
@@ -328,7 +328,7 @@ msgstr ""
 
 #: mailer.js:132 mailer.js:329
 msgid "Verify your Firefox Account"
-msgstr "Firefox Hesabı'nızı doğrulayın"
+msgstr "Firefox Hesabı’nızı doğrulayın"
 
 #: mailer.js:165
 msgid "Reset your Firefox Account password"
@@ -348,7 +348,7 @@ msgstr "Firefox Hesabı parolanız sıfırlandı"
 
 #: mailer.js:268
 msgid "New sign-in to Firefox"
-msgstr "Firefox'a yeni giriş"
+msgstr "Firefox’a yeni giriş"
 
 #: mailer.js:291
 msgid "Firefox Account Verified"
@@ -360,7 +360,7 @@ msgstr ""
 
 #: log.js:7
 msgid "logging"
-msgstr ""
+msgstr "kayıt tutma"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
@@ -425,7 +425,7 @@ msgstr ""
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr "Firefox Hesapları'nı kullanmak için JavaScript açık olmalıdır."
+msgstr "Firefox Hesapları’nı kullanmak için JavaScript açık olmalıdır."
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:4

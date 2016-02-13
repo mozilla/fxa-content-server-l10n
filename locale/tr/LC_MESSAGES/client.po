@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-05 22:55+0000\n"
-"PO-Revision-Date: 2016-02-13 16:04+0000\n"
+"PO-Revision-Date: 2016-02-13 16:11+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -346,7 +346,7 @@ msgstr "Resim boyutları en az 100x100 piksel olmalıdır"
 
 #: app/scripts/lib/auth-errors.js:229
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr "Kaydolma desteği yakında iOS için Firefox'a geliyor"
+msgstr "Kaydolma desteği yakında iOS için Firefox’a geliyor"
 
 #: app/scripts/lib/auth-errors.js:233
 msgid "Signup has been disabled"
@@ -838,11 +838,11 @@ msgstr "Çıkış yap"
 #: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
-msgstr "%(serviceName)s ile devam et"
+msgstr "%(serviceName)s servisine devam et"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr "Firefox&nbsp;Hesabı'nıza giriş yaparak eşitleme verilerinizi taşıyın."
+msgstr "Firefox&nbsp;Hesabı’nıza giriş yaparak eşitleme verilerinizi taşıyın."
 
 #: app/scripts/templates/sign_in.mustache:13
 #: app/scripts/templates/sign_in.mustache:16
@@ -932,7 +932,7 @@ msgid ""
 "Once you're finished, use your new password to sign in on all of your "
 "devices."
 msgstr ""
-"Bitirdikten sonra tüm cihazlarınızda oturum açmak için yeni parolanızı "
+"Bitirdikten sonra tüm cihazlarınızda giriş yapmak için yeni parolanızı "
 "kullanın."
 
 #: app/scripts/templates/settings/change_password.mustache:4
@@ -980,7 +980,7 @@ msgid ""
 "href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
 "href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox'un <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"Firefox’un <a href=\"%(linkWindows)s\">Windows</a>, <a "
 "href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
 "href=\"%(linkIOS)s\">iOS</a> ve <a href=\"%(linkLinux)s\">Linux</a> "
 "sürümleri mevcuttur."
@@ -1015,7 +1015,7 @@ msgid ""
 "Choose the name you would like to appear in Firefox and when managing your "
 "account."
 msgstr ""
-"Firefox'ta ve hesabınızı yönetirken görünmesini istediğiniz adı seçin."
+"Firefox’ta ve hesabınızı yönetirken görünmesini istediğiniz adı seçin."
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
