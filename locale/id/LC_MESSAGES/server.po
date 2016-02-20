@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-05 22:55+0000\n"
-"PO-Revision-Date: 2016-01-21 18:47+0000\n"
-"Last-Translator: Artanto Ishaam <artanto.ishaam@gmail.com>\n"
+"PO-Revision-Date: 2016-02-20 04:29+0000\n"
+"Last-Translator: alamanda <dian.ina@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -141,8 +141,8 @@ msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
-"Ini adalah email otomatis; jika Anda tidak mengubah sandi akun Firefox Anda, "
-"Anda harus mengubah sandi Anda segera di %(resetLink)s."
+"Ini adalah email otomatis; jika Anda tidak mengubah sandi akun Firefox Anda,"
+" Anda harus mengubah sandi Anda segera di %(resetLink)s."
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
 msgid "Password reset successfully"
@@ -154,11 +154,11 @@ msgstr "Password akun Firefox Anda berhasil disetel-ulang."
 
 #: templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox"
+" Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
-"Ini adalah email otomatis; jika Anda tidak menyetel ulang sandi akun Firefox "
-"Anda, Anda harus mengubah sandi Anda segera di %(resetLink)s."
+"Ini adalah email otomatis; jika Anda tidak menyetel ulang sandi akun Firefox"
+" Anda, Anda harus mengubah sandi Anda segera di %(resetLink)s."
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
@@ -187,8 +187,8 @@ msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
-"Email ini bersifat otomatis; jika menurut Anda email ini salah alamat, tidak "
-"ada tindakan yang harus dilakukan."
+"Email ini bersifat otomatis; jika menurut Anda email ini salah alamat, tidak"
+" ada tindakan yang harus dilakukan."
 
 #: templates/post_verify.txt:2
 msgid ""
@@ -240,14 +240,16 @@ msgstr "Memverifikasi akun"
 msgid "Verify account:"
 msgstr "Memverifikasi akun:"
 
-#: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
+#: templates/verification_reminder.html:2
+#: templates/verification_reminder.txt:1
 #: templates/verify_reminder_first.html:2
 #: templates/verification_reminder_first.html:2
 #: templates/verification_reminder_first.txt:1
 msgid "Hello again."
 msgstr "Halo lagi."
 
-#: templates/verification_reminder.html:3 templates/verification_reminder.txt:2
+#: templates/verification_reminder.html:3
+#: templates/verification_reminder.txt:2
 msgid ""
 "Recently you created a Firefox Account, but never verified it. Please "
 "activate your account by confirming this email address."
@@ -303,29 +305,29 @@ msgstr "Aktivasi sekarang:"
 #: templates/verification_reminder_first.txt:2
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history "
-"on any device connected to it. Simply confirm this email address to activate "
-"your account."
+"verified account lets you access your tabs, bookmarks, passwords and history"
+" on any device connected to it. Simply confirm this email address to "
+"activate your account."
 msgstr ""
 "Beberapa hari lalu Anda membuat akun Firefox, namun tidak pernah "
 "memverifikasinya. Akun terverifikasi memungkinkan Anda mengakses tab, "
-"markah, sandi, dan sejarah perangkat yang terhubung. Konfirmasi alamat email "
-"ini untuk mengaktifkan akun Anda."
+"markah, sandi, dan sejarah perangkat yang terhubung. Konfirmasi alamat email"
+" ini untuk mengaktifkan akun Anda."
 
 #: templates/verify_reminder_second.html:3
 #: templates/verification_reminder_second.html:3
 #: templates/verification_reminder_second.txt:2
 msgid ""
 "A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
-"iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know "
-"you're okay."
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and"
+" iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know"
+" you're okay."
 msgstr ""
 "Beberapa minggu lalu Anda membuat akun Firefox, namun belum pernah "
 "memverifikasi. Kami khawatir tentang Anda. Firefox tersedia untuk Windows, "
-"Mac, Linux, Android and (iOS). Anda dapat mensinkronisasi sandi, markah, dan "
-"riwayat diantara itu. Konfirmasi alamat email ini untuk mengaktifkan akun "
+"Mac, Linux, Android and (iOS). Anda dapat mensinkronisasi sandi, markah, dan"
+" riwayat diantara itu. Konfirmasi alamat email ini untuk mengaktifkan akun "
 "Anda dan beri tahu kami kalau Anda baik-baik saja."
 
 #: mailer.js:132 mailer.js:329
@@ -358,11 +360,11 @@ msgstr "Akun Firefox Terverifikasi"
 
 #: config.js:127 config.js:132
 msgid "env"
-msgstr ""
+msgstr "env"
 
 #: log.js:7
 msgid "logging"
-msgstr ""
+msgstr "masuk"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
@@ -417,11 +419,12 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+"You are using an <strong>outdated</strong> browser. Please <a "
+"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+"experience."
 msgstr ""
-"Anda sedang menggunakan peramban <strong>versi lawas</strong>. <a href="
-"\"http://browsehappy.com/\">Tingkatkan versi peramban Anda</a> untuk "
+"Anda sedang menggunakan peramban <strong>versi lawas</strong>. <a "
+"href=\"http://browsehappy.com/\">Tingkatkan versi peramban Anda</a> untuk "
 "memperbaiki pengalaman Anda."
 
 #: server/templates/pages/src/index.html:3
@@ -447,11 +450,11 @@ msgstr "Ketentuan Layanan"
 #~ msgstr "Setel ulang sandi"
 
 #~ msgid ""
-#~ "For more information, please visit <a href='https://support.mozilla."
-#~ "org'>Mozilla Support</a>"
+#~ "For more information, please visit <a "
+#~ "href='https://support.mozilla.org'>Mozilla Support</a>"
 #~ msgstr ""
-#~ "Untuk informasi lebih lanjut, kunjungi <a href='https://support.mozilla."
-#~ "org'>Dukungan Mozilla</a>"
+#~ "Untuk informasi lebih lanjut, kunjungi <a "
+#~ "href='https://support.mozilla.org'>Dukungan Mozilla</a>"
 
 #~ msgid "Reset password:"
 #~ msgstr "Setel ulang sandi:"
@@ -459,8 +462,7 @@ msgstr "Ketentuan Layanan"
 #~ msgid "For more information, please visit https://support.mozilla.org"
 #~ msgstr "Untuk informasi selengkapnya, kunjungi https://support.mozilla.org"
 
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
 #~ msgstr "Selamat! Hanya perlu verifikasi %(email)s untuk Akun Firefox Anda."
 
 #~ msgid "Verify"
@@ -482,11 +484,11 @@ msgstr "Ketentuan Layanan"
 #~ msgstr "Sistem tidak tersedia, coba lagi nanti"
 
 #~ msgid ""
-#~ "We are currently performing some maintenance on the system, and will "
-#~ "return momentarily."
+#~ "We are currently performing some maintenance on the system, and will return "
+#~ "momentarily."
 #~ msgstr ""
-#~ "Kami sedang melakukan pemeliharaan sistem, dan akan kembali dalam "
-#~ "beberapa saat."
+#~ "Kami sedang melakukan pemeliharaan sistem, dan akan kembali dalam beberapa "
+#~ "saat."
 
 #~ msgid "Reset Password Request"
 #~ msgstr "Permintaan Penyetelan Ulang Sandi"
