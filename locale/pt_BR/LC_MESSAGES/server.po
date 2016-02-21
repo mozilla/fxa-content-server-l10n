@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-05 22:55+0000\n"
-"PO-Revision-Date: 2016-02-13 15:51+0000\n"
-"Last-Translator: Marco Aurélio <fxhelp@yahoo.com>\n"
+"PO-Revision-Date: 2016-02-21 14:32+0000\n"
+"Last-Translator: André Marcelo Alvarenga <andrealvarenga@gmx.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -227,8 +227,8 @@ msgid ""
 "now."
 msgstr ""
 "Por razões de segurança a sua Conta Firefox foi bloqueada. Para realizar as "
-"atividades no nível da conta, por favor, clique agora no link para verificar"
-" novamente a sua conta."
+"atividades no nível da conta, clique agora no link para verificar novamente "
+"a sua conta."
 
 #: templates/unlock.html:4
 msgid "Verify account"
@@ -236,7 +236,7 @@ msgstr "Verificar conta"
 
 #: templates/unlock.txt:2
 msgid "Verify account:"
-msgstr "Verificar conta"
+msgstr "Verificar conta:"
 
 #: templates/verification_reminder.html:2
 #: templates/verification_reminder.txt:1
@@ -289,7 +289,7 @@ msgstr "Bem-vindo!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr "Por favor ative sua conta, confirmando este endereço de e-mail."
+msgstr "Por favor, ative sua conta, confirmando este endereço de e-mail."
 
 #: templates/verify.txt:3 templates/verification_reminder_first.txt:3
 #: templates/verification_reminder_second.txt:3
@@ -306,9 +306,9 @@ msgid ""
 "activate your account."
 msgstr ""
 "Alguns dias atrás criou uma conta Firefox, mas nunca a confirmou. Uma conta "
-"verificada o permite acessar suas abas, favoritos, senhas e histórico em "
+"verificada permite-lhe acessar suas abas, favoritos, senhas e histórico em "
 "qualquer dispositivo conectado à sua conta. Simplesmente confirme este "
-"endereço de email para ativar sua conta."
+"endereço de e-mail para ativar sua conta."
 
 #: templates/verify_reminder_second.html:3
 #: templates/verification_reminder_second.html:3
@@ -324,7 +324,7 @@ msgstr ""
 "estamos preocupados com você. O Firefox está disponível para Windows, Mac, "
 "Linux, Android e iOS. Você pode sincronizar suas senhas, favoritos e "
 "históricos do Firefox entre todas estas plataformas. Confirme este endereço "
-"de e-mail para ativar sua conta e nos informar que você está ok."
+"de e-mail para ativar sua conta e nos informar se está tudo bem com você."
 
 #: mailer.js:132 mailer.js:329
 msgid "Verify your Firefox Account"
@@ -393,7 +393,7 @@ msgid ""
 "working on a fix."
 msgstr ""
 "Infelizmente, algo deu errado.  Fomos notificados e já começamos a trabalhar"
-" na solução"
+" na solução."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -440,7 +440,7 @@ msgstr "Serviços na nuvem do Firefox"
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
-msgstr "Termos de serviço"
+msgstr "Termos do serviço"
 
 #~ msgid "Reset password"
 #~ msgstr "Redefinir senha"
