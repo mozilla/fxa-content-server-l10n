@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-05 22:55+0000\n"
+"POT-Creation-Date: 2016-02-22 21:24+0000\n"
 "PO-Revision-Date: 2015-11-13 23:31+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -329,7 +329,7 @@ msgstr ""
 "historikun nëpër krejt ata. Ripohoni këtë adresë email që të aktivizoni "
 "llogarinë tuaj dhe të na thoni se jeni mirë."
 
-#: mailer.js:132 mailer.js:329
+#: mailer.js:132 mailer.js:329 mailer.js:332
 msgid "Verify your Firefox Account"
 msgstr "Verifikoni Llogarinë tuaj Firefox"
 
@@ -353,16 +353,24 @@ msgstr "Fjalëkalimi për Llogarinë tuaj Firefox u ricaktua"
 msgid "New sign-in to Firefox"
 msgstr "Hyrje e re te Firefox-i"
 
-#: mailer.js:291
+#: mailer.js:291 mailer.js:294
 msgid "Firefox Account Verified"
 msgstr "Llogaria Firefox U Verifikua"
 
-#: config.js:127 config.js:132
+#: config.js:127 config.js:132 config.js:140 config.js:145
 msgid "env"
 msgstr ""
 
 #: log.js:7
 msgid "logging"
+msgstr ""
+
+#: lib/db.js:21
+msgid "/"
+msgstr ""
+
+#: lib/db.js:34
+msgid "/__heartbeat__"
 msgstr ""
 
 #: server/templates/pages/src/400.html:2

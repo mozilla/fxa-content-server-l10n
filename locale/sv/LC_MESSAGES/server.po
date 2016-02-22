@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-05 22:55+0000\n"
-"PO-Revision-Date: 2015-11-14 02:13+0000\n"
-"Last-Translator: az@kth.se <az@kth.se>\n"
+"POT-Creation-Date: 2016-02-22 21:24+0000\n"
+"PO-Revision-Date: 2016-02-06 06:34+0000\n"
+"Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -322,7 +322,7 @@ msgstr ""
 "historik för Firefox mellan dem alla. Bekräfta denna e-postadress för att "
 "aktivera ditt konto och låt oss veta du är okej."
 
-#: mailer.js:132 mailer.js:329
+#: mailer.js:132 mailer.js:329 mailer.js:332
 msgid "Verify your Firefox Account"
 msgstr "Verifiera ditt Firefox-konto"
 
@@ -346,16 +346,24 @@ msgstr "Lösenordet till ditt Firefox-konto har återställts"
 msgid "New sign-in to Firefox"
 msgstr "Ny inloggning till Firefox"
 
-#: mailer.js:291
+#: mailer.js:291 mailer.js:294
 msgid "Firefox Account Verified"
 msgstr "Firefox-konto verifierat"
 
-#: config.js:127 config.js:132
+#: config.js:127 config.js:132 config.js:140 config.js:145
 msgid "env"
-msgstr ""
+msgstr "env"
 
 #: log.js:7
 msgid "logging"
+msgstr "loggning"
+
+#: lib/db.js:21
+msgid "/"
+msgstr ""
+
+#: lib/db.js:34
+msgid "/__heartbeat__"
 msgstr ""
 
 #: server/templates/pages/src/400.html:2

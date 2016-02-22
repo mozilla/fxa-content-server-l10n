@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-05 22:55+0000\n"
+"POT-Creation-Date: 2016-02-22 21:24+0000\n"
 "PO-Revision-Date: 2016-02-17 01:20+0000\n"
 "Last-Translator: alamanda <dian.ina@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-POOTLE-MTIME: 1434890279.0\n"
 
 #: app/scripts/views/complete_reset_password.js:129
-#: app/scripts/views/complete_sign_up.js:103 app/scripts/views/confirm.js:112
+#: app/scripts/views/complete_sign_up.js:103 app/scripts/views/confirm.js:113
 #: app/scripts/views/confirm_reset_password.js:180
 msgid "Account verified successfully"
 msgstr "Akun sukses terverifikasi"
@@ -62,11 +62,11 @@ msgstr "Akun diverifikasi"
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Kini Anda siap menggunakan %(serviceName)s"
 
-#: app/scripts/views/reset_password.js:66 app/scripts/views/sign_in.js:182
+#: app/scripts/views/reset_password.js:66 app/scripts/views/sign_in.js:134
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Akun tidak dikenal. <a href=\"/signup\">Daftar</a>"
 
-#: app/scripts/views/sign_up.js:337
+#: app/scripts/views/sign_up.js:383
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Akun sudah ada. <a href=\"/signin\">Masuk</a>"
 
@@ -90,67 +90,44 @@ msgstr "Sukses berhenti langganan"
 msgid "Account deleted successfully"
 msgstr "Akun berhasil dihapus"
 
+#: app/scripts/views/settings/devices.js:25
+msgid "days ago"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:26
+msgid "hours ago"
+msgstr ""
+
 #: app/scripts/views/settings/devices.js:27
-msgid "a day"
-msgstr "satu hari"
+msgid "minutes ago"
+msgstr ""
 
 #: app/scripts/views/settings/devices.js:28
-msgid "%d days"
-msgstr "%d hari"
+msgid "months ago"
+msgstr ""
 
 #: app/scripts/views/settings/devices.js:29
-msgid "about an hour"
-msgstr "sekitar sejam"
-
-#: app/scripts/views/settings/devices.js:30
-msgid "%d hours"
-msgstr "%d jam"
+msgid "seconds ago"
+msgstr ""
 
 #: app/scripts/views/settings/devices.js:31
-msgid "about a minute"
-msgstr "sekitar semenit"
+msgid "weeks ago"
+msgstr ""
 
 #: app/scripts/views/settings/devices.js:32
-msgid "%d minutes"
-msgstr "%d menit"
-
-#: app/scripts/views/settings/devices.js:33
-msgid "about a month"
-msgstr "sekitar satu bulan"
-
-#: app/scripts/views/settings/devices.js:34
-msgid "%d months"
-msgstr "%d bulan"
-
-#: app/scripts/views/settings/devices.js:35
-msgid "a few seconds"
-msgstr "beberapa detik"
-
-#: app/scripts/views/settings/devices.js:36
-msgid "ago"
-msgstr "lalu"
-
-#: app/scripts/views/settings/devices.js:37
-msgid "from now"
-msgstr "dari sekarang"
-
-#: app/scripts/views/settings/devices.js:38
-msgid "about a year"
-msgstr "sekitar setahun"
-
-#: app/scripts/views/settings/devices.js:39
-msgid "%d years"
-msgstr "%d tahun"
+msgid "years ago"
+msgstr ""
 
 #: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
 msgstr "Tampilan nama telah diperbarui"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
-"Akun terkunci. <a href=\"/confirm_account_unlock\">Kirim surel pembuka kunci"
-" </a>"
+"Akun terkunci. <a href=\"/confirm_account_unlock\">Kirim surel pembuka kunci "
+"</a>"
 
 #: app/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
@@ -159,8 +136,7 @@ msgstr "Sukses keluar"
 #: app/scripts/lib/auth-errors.js:17 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43
-#: app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -284,7 +260,7 @@ msgstr "Sandi lawas dan baru harus berbeda"
 
 #: app/scripts/lib/auth-errors.js:143
 #: app/scripts/templates/complete_reset_password.mustache:16
-#: app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/change_password.mustache:11
 msgid "Must be at least 8 characters"
 msgstr "Paling sedikit 8 karakter"
@@ -352,8 +328,8 @@ msgid "Signup has been disabled"
 msgstr "Pendaftaran tidak diaktifkan"
 
 #: app/scripts/lib/auth-errors.js:237
-msgid "Age is required"
-msgstr "Dibutuhkan umur"
+msgid "You must enter your age to sign up"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:241
 msgid "No Gravatar found"
@@ -421,14 +397,13 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Dengan tindakan ini, Anda menyetujui untuk <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Ketentuan Layanan</a>dan<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Privasi</a> dari %(serviceName)s (%(serviceUri)s)."
+"Dengan tindakan ini, Anda menyetujui untuk <a id=\"service-tos\" href="
+"\"%(termsUri)s\">Ketentuan Layanan</a>dan<a id=\"service-pp\" href="
+"\"%(privacyUri)s\">Privasi</a> dari %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:26
 msgid ""
@@ -439,12 +414,23 @@ msgstr ""
 "account\">Bantuan</a>"
 
 #: app/scripts/lib/strings.js:29
-msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
-"in</a>"
+msgid "Email address"
 msgstr ""
-"Memiliki akun dengan alamat surel berbeda? <a "
-"href=\"%(signinUri)s\">Masuk</a>"
+
+#: app/scripts/lib/strings.js:30
+#: app/scripts/templates/settings/display_name.mustache:1
+#: app/scripts/templates/settings/display_name.mustache:4
+msgid "Display name"
+msgstr "Nama tampilan"
+
+#: app/scripts/lib/strings.js:31
+#: app/scripts/templates/settings/avatar.mustache:1
+msgid "Account picture"
+msgstr "Gambar akun"
+
+#: app/scripts/lib/strings.js:32
+msgid "%(permissionName)s (required)"
+msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -461,8 +447,8 @@ msgid "Learn more."
 msgstr "Pelajari selengkapnya."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-#: app/scripts/templates/sign_up.mustache:19
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:21
+#: app/scripts/templates/sign_up.mustache:26
 msgid "Choose what to sync"
 msgstr "Pilih yang ingin disinkronkan"
 
@@ -495,7 +481,7 @@ msgid "Add-ons and Preferences do not currently sync on mobile devices."
 msgstr "Pengaya dan Preferensi saat ini tidak sinkron pada perangkat mobile."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
-#: app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/sign_up.mustache:24
 msgid "Sign up"
 msgstr "Daftar"
 
@@ -547,8 +533,7 @@ msgstr "Tautan yang Anda klik untuk menyetel sandi telah kedaluwarsa."
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr ""
-"Klik di sini untuk mendapatkan tautan penyetelan ulang sandi yang baru"
+msgstr "Klik di sini untuk mendapatkan tautan penyetelan ulang sandi yang baru"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 msgid "Reset password link damaged"
@@ -569,7 +554,7 @@ msgstr "Sandi baru"
 #: app/scripts/templates/force_auth.mustache:6
 #: app/scripts/templates/sign_in.mustache:10
 #: app/scripts/templates/sign_in.mustache:23
-#: app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/sign_up.mustache:15
 #: app/scripts/templates/settings/change_password.mustache:6
 #: app/scripts/templates/settings/change_password.mustache:10
 #: app/scripts/templates/settings/delete_account.mustache:5
@@ -628,8 +613,8 @@ msgstr "Buka email terkirim"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification"
-" link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
 msgstr ""
 "Untuk alasan keamanan akun Anda dibuat terkunci. Untuk melakukan aktivitas "
 "tingkat-akun, silakan kembali verifikasi akun Anda dengan mengklik tautan "
@@ -661,8 +646,8 @@ msgstr "Reremah dan penyimpanan lokal diperlukan."
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between"
-" sessions."
+"Accounts. Doing so will enable functionality such as remembering you between "
+"sessions."
 msgstr ""
 "Harap mungkinkan reremah dan penyimpanan lokal dalam peramban anda untuk "
 "mengakses Firefox Accounts. Melakukan hal ini akan memungkinkan fungsi "
@@ -683,7 +668,7 @@ msgstr "Masuk untuk melanjutkan"
 #: app/scripts/templates/force_auth.mustache:3
 #: app/scripts/templates/sign_in.mustache:8
 #: app/scripts/templates/sign_in.mustache:20
-#: app/scripts/templates/sign_up.mustache:10
+#: app/scripts/templates/sign_up.mustache:12
 #: app/scripts/templates/settings/change_password.mustache:1
 #: app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
@@ -699,15 +684,15 @@ msgstr "Lupa sandi?"
 
 #: app/scripts/templates/force_auth.mustache:9
 #: app/scripts/templates/sign_in.mustache:29
-#: app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/sign_up.mustache:17
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
-"Bila melanjutkan, anda setuju dengan <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Kebijakan Privasi</a> untuk layanan awan Firefox."
+"Bila melanjutkan, anda setuju dengan <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy"
+"\">Kebijakan Privasi</a> untuk layanan awan Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -772,7 +757,7 @@ msgstr "%(serviceName)s menginginkan informasi tersebut dari akun Anda:"
 #: app/scripts/templates/permissions.mustache:3
 #: app/scripts/templates/reset_password.mustache:4
 #: app/scripts/templates/sign_in.mustache:19
-#: app/scripts/templates/sign_up.mustache:8
+#: app/scripts/templates/sign_up.mustache:10
 #: app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "Email"
@@ -864,22 +849,25 @@ msgstr "Buat Akun Firefox"
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr "Migrasi data sinkronisasi Anda dengan membuat Akun Firefox baru."
 
-#: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/sign_up.mustache:8
+msgid ""
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+msgstr ""
+"Memiliki akun dengan alamat surel berbeda? <a href=\"%(signinUri)s\">Masuk</"
+"a>"
+
+#: app/scripts/templates/sign_up.mustache:18
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Dapatkan berita terkini tentang Mozilla dan Firefox."
 
-#: app/scripts/templates/sign_up.mustache:27
+#: app/scripts/templates/sign_up.mustache:29
 msgid "Have an account? Sign in."
 msgstr "Sudah memiliki akun? Masuk."
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
 msgstr "Beranda"
-
-#: app/scripts/templates/settings/avatar.mustache:1
-msgid "Account picture"
-msgstr "Gambar akun"
 
 #: app/scripts/templates/settings/avatar.mustache:2
 #: app/scripts/templates/settings/avatar_crop.mustache:2
@@ -976,13 +964,13 @@ msgstr "Perangkat"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
-"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
-"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
+"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
+"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox tersedia untuk <a href=\"%(linkWindows)s\">Windows</a>, <a "
-"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
-"href=\"%(linkIOS)s\">iOS</a> dan <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox tersedia untuk <a href=\"%(linkWindows)s\">Windows</a>, <a href="
+"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
+"\"%(linkIOS)s\">iOS</a> dan <a href=\"%(linkLinux)s\">Linux</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -1003,11 +991,6 @@ msgstr "Tidak melihat seluruh perangkat Anda?"
 #: app/scripts/templates/settings/devices.mustache:11
 msgid "Refresh"
 msgstr "Segarkan"
-
-#: app/scripts/templates/settings/display_name.mustache:1
-#: app/scripts/templates/settings/display_name.mustache:4
-msgid "Display name"
-msgstr "Nama tampilan"
 
 #: app/scripts/templates/settings/display_name.mustache:3
 msgid ""
@@ -1041,6 +1024,48 @@ msgstr "Gunakan OpenID"
 msgid "Use Firefox Account"
 msgstr "Gunakan Akun Firefox"
 
+#~ msgid "a day"
+#~ msgstr "satu hari"
+
+#~ msgid "%d days"
+#~ msgstr "%d hari"
+
+#~ msgid "about an hour"
+#~ msgstr "sekitar sejam"
+
+#~ msgid "%d hours"
+#~ msgstr "%d jam"
+
+#~ msgid "about a minute"
+#~ msgstr "sekitar semenit"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d menit"
+
+#~ msgid "about a month"
+#~ msgstr "sekitar satu bulan"
+
+#~ msgid "%d months"
+#~ msgstr "%d bulan"
+
+#~ msgid "a few seconds"
+#~ msgstr "beberapa detik"
+
+#~ msgid "ago"
+#~ msgstr "lalu"
+
+#~ msgid "from now"
+#~ msgstr "dari sekarang"
+
+#~ msgid "about a year"
+#~ msgstr "sekitar setahun"
+
+#~ msgid "%d years"
+#~ msgstr "%d tahun"
+
+#~ msgid "Age is required"
+#~ msgstr "Dibutuhkan umur"
+
 #~ msgid "Desktop Add-ons"
 #~ msgstr "Pengaya Desktop"
 
@@ -1055,9 +1080,9 @@ msgstr "Gunakan Akun Firefox"
 #~ "Accounts. Cookies are small pieces of data stored in your browser that "
 #~ "provide functionality such as remembering you between sessions."
 #~ msgstr ""
-#~ "Aktifkan kuki pada peramban Anda karena dibutuhkan oleh Akun Firefox. Kuki "
-#~ "merupakan data kecil yang disimpan pada peramban Anda, untuk menyediakan "
-#~ "fungsionalitas misalnya mengingat Anda antar sesi."
+#~ "Aktifkan kuki pada peramban Anda karena dibutuhkan oleh Akun Firefox. "
+#~ "Kuki merupakan data kecil yang disimpan pada peramban Anda, untuk "
+#~ "menyediakan fungsionalitas misalnya mengingat Anda antar sesi."
 
 #~ msgid "1991"
 #~ msgstr "1991"
@@ -1138,13 +1163,13 @@ msgstr "Gunakan Akun Firefox"
 #~ msgstr "Sudah punya akun? Masuk."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-#~ "Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Dengan melanjutkan, saya menyetujui <a id=\"fxa-tos\" "
-#~ "href=\"/legal/terms\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" "
-#~ "href=\"/legal/privacy\">Kebijakan Privasi</a> layanan awan Firefox."
+#~ "Dengan melanjutkan, saya menyetujui <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Kebijakan Privasi</a> layanan awan Firefox."
 
 #~ msgid "missing search parameter: %(itemName)s"
 #~ msgstr "parameter pencarian tidak tersedia: %(itemName)s"
@@ -1152,7 +1177,9 @@ msgstr "Gunakan Akun Firefox"
 #~ msgid "Password changed"
 #~ msgstr "Sandi diubah"
 
-#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
+#~ msgid ""
+#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
+#~ "email</a>."
 #~ msgstr ""
 #~ "Akun belum diverifikasi. <a href=\"#\" id=\"resend\">Kirim ulang email "
 #~ "verifikasi</a>."
