@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-22 21:24+0000\n"
-"PO-Revision-Date: 2015-10-24 13:50+0000\n"
-"Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
+"PO-Revision-Date: 2016-02-06 16:32+0000\n"
+"Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -646,7 +646,7 @@ msgstr "Iniciar sessão"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
-msgstr ""
+msgstr "Cookies e armazenamento local são necessários."
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -654,6 +654,9 @@ msgid ""
 "Accounts. Doing so will enable functionality such as remembering you between "
 "sessions."
 msgstr ""
+"Por favor ative as cookies e armazenamento local no seu navegador para "
+"aceder a Contas Firefox. Ao fazê-lo irá ativar funcionalidades como memorizá-"
+"lo entre sessões."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -859,6 +862,8 @@ msgstr ""
 msgid ""
 "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 msgstr ""
+"Têm uma conta com um email diferente? <a href=\"%(signinUri)s\">Inicie "
+"sessão</a>"
 
 #: app/scripts/templates/sign_up.mustache:18
 #: app/scripts/templates/settings/communication_preferences.mustache:7
@@ -1028,6 +1033,45 @@ msgstr "Utilizar o OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Utilizar Conta Firefox"
+
+#~ msgid "a day"
+#~ msgstr "um dia"
+
+#~ msgid "%d days"
+#~ msgstr "%d dias"
+
+#~ msgid "about an hour"
+#~ msgstr "cerca de uma hora"
+
+#~ msgid "%d hours"
+#~ msgstr "%d horas"
+
+#~ msgid "about a minute"
+#~ msgstr "cerca de um minuto"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d minutos"
+
+#~ msgid "about a month"
+#~ msgstr "cerca de um mês"
+
+#~ msgid "%d months"
+#~ msgstr "%d meses"
+
+#~ msgid "a few seconds"
+#~ msgstr "alguns segundos"
+
+#~ msgid "ago"
+#~ msgstr "atrás"
+
+#~ msgid "from now"
+#~ msgstr "desde agora"
+
+#~ msgid "about a year"
+#~ msgstr "cerca de um ano"
+
+#~ msgid "%d years"
+#~ msgstr "%d anos"
 
 #~ msgid "Age is required"
 #~ msgstr "A idade é obrigatória"

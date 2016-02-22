@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-22 21:24+0000\n"
-"PO-Revision-Date: 2015-11-14 02:13+0000\n"
-"Last-Translator: az@kth.se <az@kth.se>\n"
+"PO-Revision-Date: 2016-02-06 06:34+0000\n"
+"Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -352,11 +352,11 @@ msgstr "Firefox-konto verifierat"
 
 #: config.js:127 config.js:132 config.js:140 config.js:145
 msgid "env"
-msgstr ""
+msgstr "env"
 
 #: log.js:7
 msgid "logging"
-msgstr ""
+msgstr "loggning"
 
 #: lib/db.js:21
 msgid "/"

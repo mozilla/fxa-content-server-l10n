@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-22 21:24+0000\n"
-"PO-Revision-Date: 2015-12-21 18:19+0000\n"
+"PO-Revision-Date: 2016-02-06 06:32+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
@@ -641,7 +641,7 @@ msgstr "Logga in"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
-msgstr ""
+msgstr "Kakor och lokal lagring krävs."
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -649,6 +649,9 @@ msgid ""
 "Accounts. Doing so will enable functionality such as remembering you between "
 "sessions."
 msgstr ""
+"Aktivera kakor och lokal lagring i din webbläsare för att komma åt Firefox-"
+"konton. Detta kommer att aktivera funktioner som att komma ihåg dig mellan "
+"sessioner."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -853,6 +856,7 @@ msgstr ""
 msgid ""
 "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 msgstr ""
+"Har du ett konto med en annan e-post? <a href=\"%(signinUri)s\">Logga in</a>"
 
 #: app/scripts/templates/sign_up.mustache:18
 #: app/scripts/templates/settings/communication_preferences.mustache:7
@@ -1021,6 +1025,45 @@ msgstr "Använd OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Använd Firefox Konto"
+
+#~ msgid "a day"
+#~ msgstr "en dag"
+
+#~ msgid "%d days"
+#~ msgstr "%d dagar"
+
+#~ msgid "about an hour"
+#~ msgstr "ungefär en timme"
+
+#~ msgid "%d hours"
+#~ msgstr "%d timmar"
+
+#~ msgid "about a minute"
+#~ msgstr "ungefär en minut"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d minuter"
+
+#~ msgid "about a month"
+#~ msgstr "ungefär en månad"
+
+#~ msgid "%d months"
+#~ msgstr "%d månader"
+
+#~ msgid "a few seconds"
+#~ msgstr "några sekunder"
+
+#~ msgid "ago"
+#~ msgstr "sedan"
+
+#~ msgid "from now"
+#~ msgstr "från och med nu"
+
+#~ msgid "about a year"
+#~ msgstr "ungefär ett år"
+
+#~ msgid "%d years"
+#~ msgstr "%d år"
 
 #~ msgid "Age is required"
 #~ msgstr "Ålder krävs"
