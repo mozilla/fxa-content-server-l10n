@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-05 22:55+0000\n"
+"POT-Creation-Date: 2016-02-22 21:24+0000\n"
 "PO-Revision-Date: 2015-11-24 12:08+0000\n"
 "Last-Translator: goncalo.matos <goncalo.matos@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -323,7 +323,7 @@ msgstr ""
 "histórico do Firefox entre todos. Confirme este endereço de email para "
 "ativar a sua conta e deixar-nos saber que você está bem."
 
-#: mailer.js:132 mailer.js:329
+#: mailer.js:132 mailer.js:329 mailer.js:332
 msgid "Verify your Firefox Account"
 msgstr "Confirme a sua Conta Firefox"
 
@@ -347,16 +347,24 @@ msgstr "A palavra-passe da sua Conta Firefox foi reposta"
 msgid "New sign-in to Firefox"
 msgstr "Novo início de sessão no Firefox"
 
-#: mailer.js:291
+#: mailer.js:291 mailer.js:294
 msgid "Firefox Account Verified"
 msgstr "Conta Firefox confirmada"
 
-#: config.js:127 config.js:132
+#: config.js:127 config.js:132 config.js:140 config.js:145
 msgid "env"
 msgstr ""
 
 #: log.js:7
 msgid "logging"
+msgstr ""
+
+#: lib/db.js:21
+msgid "/"
+msgstr ""
+
+#: lib/db.js:34
+msgid "/__heartbeat__"
 msgstr ""
 
 #: server/templates/pages/src/400.html:2

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-05 22:55+0000\n"
+"POT-Creation-Date: 2016-02-22 21:24+0000\n"
 "PO-Revision-Date: 2016-02-09 13:12+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Poedit 1.8.5\n"
 
 #: app/scripts/views/complete_reset_password.js:129
-#: app/scripts/views/complete_sign_up.js:103 app/scripts/views/confirm.js:112
+#: app/scripts/views/complete_sign_up.js:103 app/scripts/views/confirm.js:113
 #: app/scripts/views/confirm_reset_password.js:180
 msgid "Account verified successfully"
 msgstr "Pomyślnie zweryfikowano konto"
@@ -61,11 +61,11 @@ msgstr "Zweryfikowano konto"
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Można teraz używać usługi %(serviceName)s"
 
-#: app/scripts/views/reset_password.js:66 app/scripts/views/sign_in.js:182
+#: app/scripts/views/reset_password.js:66 app/scripts/views/sign_in.js:134
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Nieznane konto. <a href=\"/signup\">Zarejestruj się</a>"
 
-#: app/scripts/views/sign_up.js:337
+#: app/scripts/views/sign_up.js:383
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Konto już istnieje. <a href=\"/signin\">Zaloguj się</a>"
 
@@ -89,56 +89,32 @@ msgstr "Pomyślnie zrezygnowano z subskrypcji"
 msgid "Account deleted successfully"
 msgstr "Pomyślnie usunięto konto"
 
+#: app/scripts/views/settings/devices.js:25
+msgid "days ago"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:26
+msgid "hours ago"
+msgstr ""
+
 #: app/scripts/views/settings/devices.js:27
-msgid "a day"
+msgid "minutes ago"
 msgstr ""
 
 #: app/scripts/views/settings/devices.js:28
-msgid "%d days"
+msgid "months ago"
 msgstr ""
 
 #: app/scripts/views/settings/devices.js:29
-msgid "about an hour"
-msgstr ""
-
-#: app/scripts/views/settings/devices.js:30
-msgid "%d hours"
+msgid "seconds ago"
 msgstr ""
 
 #: app/scripts/views/settings/devices.js:31
-msgid "about a minute"
+msgid "weeks ago"
 msgstr ""
 
 #: app/scripts/views/settings/devices.js:32
-msgid "%d minutes"
-msgstr ""
-
-#: app/scripts/views/settings/devices.js:33
-msgid "about a month"
-msgstr ""
-
-#: app/scripts/views/settings/devices.js:34
-msgid "%d months"
-msgstr ""
-
-#: app/scripts/views/settings/devices.js:35
-msgid "a few seconds"
-msgstr ""
-
-#: app/scripts/views/settings/devices.js:36
-msgid "ago"
-msgstr ""
-
-#: app/scripts/views/settings/devices.js:37
-msgid "from now"
-msgstr ""
-
-#: app/scripts/views/settings/devices.js:38
-msgid "about a year"
-msgstr ""
-
-#: app/scripts/views/settings/devices.js:39
-msgid "%d years"
+msgid "years ago"
 msgstr ""
 
 #: app/scripts/views/settings/display_name.js:52
@@ -283,7 +259,7 @@ msgstr "Nowe hasło musi być inne niż poprzednie"
 
 #: app/scripts/lib/auth-errors.js:143
 #: app/scripts/templates/complete_reset_password.mustache:16
-#: app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/change_password.mustache:11
 msgid "Must be at least 8 characters"
 msgstr "Musi mieć co najmniej 8 znaków"
@@ -354,8 +330,8 @@ msgid "Signup has been disabled"
 msgstr "Rejestracja została wyłączona"
 
 #: app/scripts/lib/auth-errors.js:237
-msgid "Age is required"
-msgstr "Wymagane jest podanie wieku"
+msgid "You must enter your age to sign up"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:241
 msgid "No Gravatar found"
@@ -440,11 +416,23 @@ msgstr ""
 "account\">Pomoc</a>"
 
 #: app/scripts/lib/strings.js:29
-msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+msgid "Email address"
 msgstr ""
-"Masz już konto z innym adresem e-mail? <a href=\"%(signinUri)s\">Zaloguj "
-"się</a>"
+
+#: app/scripts/lib/strings.js:30
+#: app/scripts/templates/settings/display_name.mustache:1
+#: app/scripts/templates/settings/display_name.mustache:4
+msgid "Display name"
+msgstr "Wyświetlana nazwa"
+
+#: app/scripts/lib/strings.js:31
+#: app/scripts/templates/settings/avatar.mustache:1
+msgid "Account picture"
+msgstr "Obraz konta"
+
+#: app/scripts/lib/strings.js:32
+msgid "%(permissionName)s (required)"
+msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -461,8 +449,8 @@ msgid "Learn more."
 msgstr "Więcej informacji."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-#: app/scripts/templates/sign_up.mustache:19
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:21
+#: app/scripts/templates/sign_up.mustache:26
 msgid "Choose what to sync"
 msgstr "Wybierz, co powinno być synchronizowane"
 
@@ -497,7 +485,7 @@ msgstr ""
 "mobilnych."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
-#: app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/sign_up.mustache:24
 msgid "Sign up"
 msgstr "Zarejestruj"
 
@@ -570,7 +558,7 @@ msgstr "Nowe hasło"
 #: app/scripts/templates/force_auth.mustache:6
 #: app/scripts/templates/sign_in.mustache:10
 #: app/scripts/templates/sign_in.mustache:23
-#: app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/sign_up.mustache:15
 #: app/scripts/templates/settings/change_password.mustache:6
 #: app/scripts/templates/settings/change_password.mustache:10
 #: app/scripts/templates/settings/delete_account.mustache:5
@@ -684,7 +672,7 @@ msgstr "Zaloguj się, aby kontynuować"
 #: app/scripts/templates/force_auth.mustache:3
 #: app/scripts/templates/sign_in.mustache:8
 #: app/scripts/templates/sign_in.mustache:20
-#: app/scripts/templates/sign_up.mustache:10
+#: app/scripts/templates/sign_up.mustache:12
 #: app/scripts/templates/settings/change_password.mustache:1
 #: app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
@@ -700,7 +688,7 @@ msgstr "Zgubione hasło?"
 
 #: app/scripts/templates/force_auth.mustache:9
 #: app/scripts/templates/sign_in.mustache:29
-#: app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/sign_up.mustache:17
 msgid ""
 "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
 "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
@@ -773,7 +761,7 @@ msgstr "Usługa %(serviceName)s prosi o następujące informacje z konta:"
 #: app/scripts/templates/permissions.mustache:3
 #: app/scripts/templates/reset_password.mustache:4
 #: app/scripts/templates/sign_in.mustache:19
-#: app/scripts/templates/sign_up.mustache:8
+#: app/scripts/templates/sign_up.mustache:10
 #: app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "E-mail"
@@ -865,22 +853,25 @@ msgstr "Utwórz konto Firefoksa"
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr "Przenieś dane synchronizacji tworząc konto&nbsp;Firefoksa."
 
-#: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/sign_up.mustache:8
+msgid ""
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+msgstr ""
+"Masz już konto z innym adresem e-mail? <a href=\"%(signinUri)s\">Zaloguj "
+"się</a>"
+
+#: app/scripts/templates/sign_up.mustache:18
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Najnowsze aktualności o Mozilli i Firefoksie."
 
-#: app/scripts/templates/sign_up.mustache:27
+#: app/scripts/templates/sign_up.mustache:29
 msgid "Have an account? Sign in."
 msgstr "Już posiadasz konto? Zaloguj się."
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
 msgstr "Strona domowa"
-
-#: app/scripts/templates/settings/avatar.mustache:1
-msgid "Account picture"
-msgstr "Obraz konta"
 
 #: app/scripts/templates/settings/avatar.mustache:2
 #: app/scripts/templates/settings/avatar_crop.mustache:2
@@ -1005,11 +996,6 @@ msgstr "Nie widać wszystkich urządzeń?"
 msgid "Refresh"
 msgstr "Odśwież"
 
-#: app/scripts/templates/settings/display_name.mustache:1
-#: app/scripts/templates/settings/display_name.mustache:4
-msgid "Display name"
-msgstr "Wyświetlana nazwa"
-
 #: app/scripts/templates/settings/display_name.mustache:3
 msgid ""
 "Choose the name you would like to appear in Firefox and when managing your "
@@ -1040,3 +1026,6 @@ msgstr "Użyj OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Użyj konta Firefoksa"
+
+#~ msgid "Age is required"
+#~ msgstr "Wymagane jest podanie wieku"

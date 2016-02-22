@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-05 22:55+0000\n"
+"POT-Creation-Date: 2016-02-22 21:24+0000\n"
 "PO-Revision-Date: 2015-11-13 10:27+0000\n"
 "Last-Translator: Jobava <jobaval10n@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -326,7 +326,7 @@ msgstr ""
 "semnele de carte și istoricul pentru toate acestea. Confirmă această adresă "
 "de e-mail pentru a activa contul și pentru a ne anunța că ești în regulă."
 
-#: mailer.js:132 mailer.js:329
+#: mailer.js:132 mailer.js:329 mailer.js:332
 msgid "Verify your Firefox Account"
 msgstr "Verifică-ți contul Firefox"
 
@@ -350,16 +350,24 @@ msgstr "Parola contului tău Firefox a fost resetată"
 msgid "New sign-in to Firefox"
 msgstr "Autentificare nouă în Firefox"
 
-#: mailer.js:291
+#: mailer.js:291 mailer.js:294
 msgid "Firefox Account Verified"
 msgstr "Cont Firefox verificat"
 
-#: config.js:127 config.js:132
+#: config.js:127 config.js:132 config.js:140 config.js:145
 msgid "env"
 msgstr ""
 
 #: log.js:7
 msgid "logging"
+msgstr ""
+
+#: lib/db.js:21
+msgid "/"
+msgstr ""
+
+#: lib/db.js:34
+msgid "/__heartbeat__"
 msgstr ""
 
 #: server/templates/pages/src/400.html:2

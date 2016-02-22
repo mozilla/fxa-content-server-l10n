@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-05 22:55+0000\n"
+"POT-Creation-Date: 2016-02-22 21:24+0000\n"
 "PO-Revision-Date: 2016-02-21 12:10+0000\n"
 "Last-Translator: davent <davent@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-POOTLE-MTIME: 1441484765.0\n"
 
 #: app/scripts/views/complete_reset_password.js:129
-#: app/scripts/views/complete_sign_up.js:103 app/scripts/views/confirm.js:112
+#: app/scripts/views/complete_sign_up.js:103 app/scripts/views/confirm.js:113
 #: app/scripts/views/confirm_reset_password.js:180
 msgid "Account verified successfully"
 msgstr "Verifitgà il conto cun success"
@@ -62,11 +62,11 @@ msgstr "Verifitgà il conto"
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Ti es ussa pront dad utilisar %(serviceName)s"
 
-#: app/scripts/views/reset_password.js:66 app/scripts/views/sign_in.js:182
+#: app/scripts/views/reset_password.js:66 app/scripts/views/sign_in.js:134
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Conto nunenconuschent. <a href=\"/signup\">S'annunziar</a>"
 
-#: app/scripts/views/sign_up.js:337
+#: app/scripts/views/sign_up.js:383
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Conto exista gia. <a href=\"/signin\">S'annunziar</a>"
 
@@ -90,67 +90,44 @@ msgstr "Deabunnà cun success"
 msgid "Account deleted successfully"
 msgstr "Stizzà cun success il conto"
 
+#: app/scripts/views/settings/devices.js:25
+msgid "days ago"
+msgstr ""
+
+#: app/scripts/views/settings/devices.js:26
+msgid "hours ago"
+msgstr ""
+
 #: app/scripts/views/settings/devices.js:27
-msgid "a day"
-msgstr "in di"
+msgid "minutes ago"
+msgstr ""
 
 #: app/scripts/views/settings/devices.js:28
-msgid "%d days"
-msgstr "%d dis"
+msgid "months ago"
+msgstr ""
 
 #: app/scripts/views/settings/devices.js:29
-msgid "about an hour"
-msgstr "circa in'ura"
-
-#: app/scripts/views/settings/devices.js:30
-msgid "%d hours"
-msgstr "%d uras"
+msgid "seconds ago"
+msgstr ""
 
 #: app/scripts/views/settings/devices.js:31
-msgid "about a minute"
-msgstr "circa ina minuta"
+msgid "weeks ago"
+msgstr ""
 
 #: app/scripts/views/settings/devices.js:32
-msgid "%d minutes"
-msgstr "%d minutas"
-
-#: app/scripts/views/settings/devices.js:33
-msgid "about a month"
-msgstr "circa in mais"
-
-#: app/scripts/views/settings/devices.js:34
-msgid "%d months"
-msgstr "%d mais"
-
-#: app/scripts/views/settings/devices.js:35
-msgid "a few seconds"
-msgstr "in pèr secundas"
-
-#: app/scripts/views/settings/devices.js:36
-msgid "ago"
-msgstr "avant"
-
-#: app/scripts/views/settings/devices.js:37
-msgid "from now"
-msgstr "a partir dad ussa"
-
-#: app/scripts/views/settings/devices.js:38
-msgid "about a year"
-msgstr "circa in onn"
-
-#: app/scripts/views/settings/devices.js:39
-msgid "%d years"
-msgstr "%d onns"
+msgid "years ago"
+msgstr ""
 
 #: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
 msgstr "Actualisà il num per visualisar"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
-"Bloccà il conto. <a href=\"/confirm_account_unlock\">Trametter in e-mail per"
-" debloccar</a>"
+"Bloccà il conto. <a href=\"/confirm_account_unlock\">Trametter in e-mail per "
+"debloccar</a>"
 
 #: app/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
@@ -159,8 +136,7 @@ msgstr "Sortì cun success"
 #: app/scripts/lib/auth-errors.js:17 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43
-#: app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -284,7 +260,7 @@ msgstr "Il pled-clav nov sto esser different"
 
 #: app/scripts/lib/auth-errors.js:143
 #: app/scripts/templates/complete_reset_password.mustache:16
-#: app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/change_password.mustache:11
 msgid "Must be at least 8 characters"
 msgstr "Sto cuntegnair almain 8 caracters"
@@ -358,8 +334,8 @@ msgid "Signup has been disabled"
 msgstr "La registraziun è vegnida deactivada"
 
 #: app/scripts/lib/auth-errors.js:237
-msgid "Age is required"
-msgstr "La vegliadetgna è necessaria"
+msgid "You must enter your age to sign up"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:241
 msgid "No Gravatar found"
@@ -428,15 +404,14 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Cun cuntinuar accepteschas ti il <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Contract da licenza</a> ed las <a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Infurmaziuns davart la protecziun da datas</a> da "
-"%(serviceName)s (%(serviceUri)s)."
+"Cun cuntinuar accepteschas ti il <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Contract da licenza</a> ed las <a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Infurmaziuns davart la protecziun da datas</a> da %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:26
 msgid ""
@@ -447,12 +422,23 @@ msgstr ""
 "account\">Agid</a>"
 
 #: app/scripts/lib/strings.js:29
-msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
-"in</a>"
+msgid "Email address"
 msgstr ""
-"Has ti in conto cun ina autra adressa d'e-mail? <a "
-"href=\"%(signinUri)s\">T'annunzia</a>"
+
+#: app/scripts/lib/strings.js:30
+#: app/scripts/templates/settings/display_name.mustache:1
+#: app/scripts/templates/settings/display_name.mustache:4
+msgid "Display name"
+msgstr "Num per visualisar"
+
+#: app/scripts/lib/strings.js:31
+#: app/scripts/templates/settings/avatar.mustache:1
+msgid "Account picture"
+msgstr "Maletg da conto"
+
+#: app/scripts/lib/strings.js:32
+msgid "%(permissionName)s (required)"
+msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -468,8 +454,8 @@ msgid "Learn more."
 msgstr "Dapli infurmaziuns."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-#: app/scripts/templates/sign_up.mustache:19
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:21
+#: app/scripts/templates/sign_up.mustache:26
 msgid "Choose what to sync"
 msgstr "Tscherna tge che duai vegnir sincronisà"
 
@@ -504,7 +490,7 @@ msgstr ""
 "apparats mobils."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
-#: app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/sign_up.mustache:24
 msgid "Sign up"
 msgstr "Sa registrar"
 
@@ -532,8 +518,8 @@ msgid ""
 "your email client. Copy the address carefully, and try again."
 msgstr ""
 "La colliaziun che ti has cliccà n'era betg cumpletta ed è eventualmain "
-"vegnida interpretada fauss da tes program dad e-mail. Copiescha precautamain"
-" l'entira adressa ed emprova anc ina giada."
+"vegnida interpretada fauss da tes program dad e-mail. Copiescha precautamain "
+"l'entira adressa ed emprova anc ina giada."
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
@@ -580,7 +566,7 @@ msgstr "Pled-clav nov"
 #: app/scripts/templates/force_auth.mustache:6
 #: app/scripts/templates/sign_in.mustache:10
 #: app/scripts/templates/sign_in.mustache:23
-#: app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/sign_up.mustache:15
 #: app/scripts/templates/settings/change_password.mustache:6
 #: app/scripts/templates/settings/change_password.mustache:10
 #: app/scripts/templates/settings/delete_account.mustache:5
@@ -639,8 +625,8 @@ msgstr "Tramess l'e-mail per debloccar"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification"
-" link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
 msgstr ""
 "Per motivs da segirezza è tes conto vegnì bloccà. Per exequir acziuns sin "
 "tes conto stos ti verifitgar danovamain tes conto cun cliccar sin la "
@@ -672,8 +658,8 @@ msgstr ""
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between"
-" sessions."
+"Accounts. Doing so will enable functionality such as remembering you between "
+"sessions."
 msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:3
@@ -691,7 +677,7 @@ msgstr "S'annunziar per cuntinuar"
 #: app/scripts/templates/force_auth.mustache:3
 #: app/scripts/templates/sign_in.mustache:8
 #: app/scripts/templates/sign_in.mustache:20
-#: app/scripts/templates/sign_up.mustache:10
+#: app/scripts/templates/sign_up.mustache:12
 #: app/scripts/templates/settings/change_password.mustache:1
 #: app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
@@ -707,16 +693,16 @@ msgstr "Emblidà il pled-clav?"
 
 #: app/scripts/templates/force_auth.mustache:9
 #: app/scripts/templates/sign_in.mustache:29
-#: app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/sign_up.mustache:17
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
-"Cun cuntinuar accepteschas ti il <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Contract da licenza</a> ed las <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Infurmaziuns davart la protecziun da datas</a> dals "
-"servetschs da cloud da Firefox."
+"Cun cuntinuar accepteschas ti il <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Contract da licenza</a> ed las <a id=\"fxa-pp\" href=\"/legal/privacy"
+"\">Infurmaziuns davart la protecziun da datas</a> dals servetschs da cloud "
+"da Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -781,7 +767,7 @@ msgstr "%(serviceName)s vul suandantas infurmaziuns da tes conto:"
 #: app/scripts/templates/permissions.mustache:3
 #: app/scripts/templates/reset_password.mustache:4
 #: app/scripts/templates/sign_in.mustache:19
-#: app/scripts/templates/sign_up.mustache:8
+#: app/scripts/templates/sign_up.mustache:10
 #: app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "E-Mail"
@@ -854,8 +840,8 @@ msgstr "Cuntinuar a %(serviceName)s"
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr ""
-"Migrar tias datas da sync entras s'annunziar tar tes "
-"conto&nbsp;da&nbsp;Firefox."
+"Migrar tias datas da sync entras s'annunziar tar tes conto&nbsp;da&nbsp;"
+"Firefox."
 
 #: app/scripts/templates/sign_in.mustache:13
 #: app/scripts/templates/sign_in.mustache:16
@@ -873,25 +859,27 @@ msgstr "Crear in conto da Firefox"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr ""
-"Migrar tias datas da sync cun crear in nov conto&nbsp;da&nbsp;Firefox."
+msgstr "Migrar tias datas da sync cun crear in nov conto&nbsp;da&nbsp;Firefox."
 
-#: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/sign_up.mustache:8
+msgid ""
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+msgstr ""
+"Has ti in conto cun ina autra adressa d'e-mail? <a href=\"%(signinUri)s"
+"\">T'annunzia</a>"
+
+#: app/scripts/templates/sign_up.mustache:18
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Retschaiver novitads davart Mozilla e Firefox."
 
-#: app/scripts/templates/sign_up.mustache:27
+#: app/scripts/templates/sign_up.mustache:29
 msgid "Have an account? Sign in."
 msgstr "Has in conto? T'annunzia."
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
 msgstr "Pagina da partenza"
-
-#: app/scripts/templates/settings/avatar.mustache:1
-msgid "Account picture"
-msgstr "Maletg da conto"
 
 #: app/scripts/templates/settings/avatar.mustache:2
 #: app/scripts/templates/settings/avatar_crop.mustache:2
@@ -981,8 +969,8 @@ msgstr "Stizzar"
 msgid ""
 "Are you sure you want to delete your account? This action cannot be undone."
 msgstr ""
-"Es ti segir che ti vuls stizzar quest conto? Questa acziun na po betg vegnir"
-" revocada."
+"Es ti segir che ti vuls stizzar quest conto? Questa acziun na po betg vegnir "
+"revocada."
 
 #: app/scripts/templates/settings/devices.mustache:2
 msgid "Devices"
@@ -990,13 +978,13 @@ msgstr "Apparats"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
-"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
-"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
+"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
+"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox è disponibel per <a href=\"%(linkWindows)s\">Windows</a>, <a "
-"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
-"href=\"%(linkIOS)s\">iOS</a> e <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox è disponibel per <a href=\"%(linkWindows)s\">Windows</a>, <a href="
+"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
+"\"%(linkIOS)s\">iOS</a> e <a href=\"%(linkLinux)s\">Linux</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -1017,11 +1005,6 @@ msgstr "Na vesas betg tut tes apparats?"
 #: app/scripts/templates/settings/devices.mustache:11
 msgid "Refresh"
 msgstr "Actualisar"
-
-#: app/scripts/templates/settings/display_name.mustache:1
-#: app/scripts/templates/settings/display_name.mustache:4
-msgid "Display name"
-msgstr "Num per visualisar"
 
 #: app/scripts/templates/settings/display_name.mustache:3
 msgid ""
@@ -1055,6 +1038,48 @@ msgstr "Utilisar OpenID"
 msgid "Use Firefox Account"
 msgstr "Utilisar il conto da Firefox"
 
+#~ msgid "a day"
+#~ msgstr "in di"
+
+#~ msgid "%d days"
+#~ msgstr "%d dis"
+
+#~ msgid "about an hour"
+#~ msgstr "circa in'ura"
+
+#~ msgid "%d hours"
+#~ msgstr "%d uras"
+
+#~ msgid "about a minute"
+#~ msgstr "circa ina minuta"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d minutas"
+
+#~ msgid "about a month"
+#~ msgstr "circa in mais"
+
+#~ msgid "%d months"
+#~ msgstr "%d mais"
+
+#~ msgid "a few seconds"
+#~ msgstr "in pèr secundas"
+
+#~ msgid "ago"
+#~ msgstr "avant"
+
+#~ msgid "from now"
+#~ msgstr "a partir dad ussa"
+
+#~ msgid "about a year"
+#~ msgstr "circa in onn"
+
+#~ msgid "%d years"
+#~ msgstr "%d onns"
+
+#~ msgid "Age is required"
+#~ msgstr "La vegliadetgna è necessaria"
+
 #~ msgid "Desktop Add-ons"
 #~ msgstr "Supplements per desktop"
 
@@ -1070,8 +1095,9 @@ msgstr "Utilisar il conto da Firefox"
 #~ "provide functionality such as remembering you between sessions."
 #~ msgstr ""
 #~ "Per utilisar in conto da Firefox stos ti activar ils cookies en tes "
-#~ "navigatur. Cookies èn pitschnsa parts da datas memorisadas en tes navigatur "
-#~ "che porschan funcziunalidad sco reconuscher tai tar tia proxima visita."
+#~ "navigatur. Cookies èn pitschnsa parts da datas memorisadas en tes "
+#~ "navigatur che porschan funcziunalidad sco reconuscher tai tar tia proxima "
+#~ "visita."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox vegn prest per iOS!"
@@ -1207,16 +1233,17 @@ msgstr "Utilisar il conto da Firefox"
 
 #~ msgid "Enter your email to reset&nbsp;the account password."
 #~ msgstr ""
-#~ "Endatescha tia adressa dad e-mail per redefinir&nbsp;il pled-clav dal conto."
+#~ "Endatescha tia adressa dad e-mail per redefinir&nbsp;il pled-clav dal "
+#~ "conto."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data from"
-#~ " our servers. A new Sync backup will be created from your local browsing "
-#~ "data."
+#~ "For security reasons, resetting your password will erase your Sync data "
+#~ "from our servers. A new Sync backup will be created from your local "
+#~ "browsing data."
 #~ msgstr ""
-#~ "Per motivs da segirezza vegnan tias datas da Sync stizzadas da noss servers "
-#~ "sche ti redefineschas tes pled-clav. In nov backup da Sync vegn creà da tias"
-#~ " datas localas."
+#~ "Per motivs da segirezza vegnan tias datas da Sync stizzadas da noss "
+#~ "servers sche ti redefineschas tes pled-clav. In nov backup da Sync vegn "
+#~ "creà da tias datas localas."
 
 #~ msgid "You are signed in as"
 #~ msgstr "Ti es t'annunzià sco"
@@ -1225,14 +1252,14 @@ msgstr "Utilisar il conto da Firefox"
 #~ msgstr "Has gia in conto? S'annunzia."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-#~ "Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Cun cuntinuar acceptesch jau il <a id=\"fxa-tos\" "
-#~ "href=\"/legal/terms\">Contract da licenza</a> las <a id=\"fxa-pp\" "
-#~ "href=\"/legal/privacy\">Directivas per protecziun da datas</a> dals "
-#~ "servetschs da cloud da Firefox."
+#~ "Cun cuntinuar acceptesch jau il <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Contract da licenza</a> las <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Directivas per protecziun da datas</a> dals servetschs da cloud da "
+#~ "Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Abunar novitads e tips davart Firefox"
@@ -1256,7 +1283,9 @@ msgstr "Utilisar il conto da Firefox"
 #~ msgid "Password changed"
 #~ msgstr "Midà il pled-clav"
 
-#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
+#~ msgid ""
+#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
+#~ "email</a>."
 #~ msgstr ""
 #~ "Conto betg verifitgà. <a href=\"#\" id=\"resend\">Trametter danovamain "
 #~ "l'e-mail da verificaziun</a>."
