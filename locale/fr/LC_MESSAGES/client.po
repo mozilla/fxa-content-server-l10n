@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-22 21:24+0000\n"
-"PO-Revision-Date: 2016-02-23 09:04+0000\n"
+"PO-Revision-Date: 2016-02-23 10:36+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -92,31 +92,31 @@ msgstr "Compte supprimé avec succès"
 
 #: app/scripts/views/settings/devices.js:25
 msgid "days ago"
-msgstr ""
+msgstr "il y a quelques jours"
 
 #: app/scripts/views/settings/devices.js:26
 msgid "hours ago"
-msgstr ""
+msgstr "il y a quelques heures"
 
 #: app/scripts/views/settings/devices.js:27
 msgid "minutes ago"
-msgstr ""
+msgstr "il y a quelques minutes"
 
 #: app/scripts/views/settings/devices.js:28
 msgid "months ago"
-msgstr ""
+msgstr "il y a quelques mois"
 
 #: app/scripts/views/settings/devices.js:29
 msgid "seconds ago"
-msgstr ""
+msgstr "il y a quelques secondes"
 
 #: app/scripts/views/settings/devices.js:31
 msgid "weeks ago"
-msgstr ""
+msgstr "il y a quelques semaines"
 
 #: app/scripts/views/settings/devices.js:32
 msgid "years ago"
-msgstr ""
+msgstr "il y a quelques années"
 
 #: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
@@ -459,7 +459,7 @@ msgstr "En savoir plus."
 #: app/scripts/templates/sign_up.mustache:21
 #: app/scripts/templates/sign_up.mustache:26
 msgid "Choose what to sync"
-msgstr "Choisir que synchroniser"
+msgstr "Choisir les informations à synchroniser"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Tabs"
