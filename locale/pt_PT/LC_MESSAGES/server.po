@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-22 21:24+0000\n"
-"PO-Revision-Date: 2016-02-09 00:31+0000\n"
+"PO-Revision-Date: 2016-02-23 21:40+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -34,8 +34,8 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for <a "
 "href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Ligou com sucesso o seu primeiro dispositivo à sua Conta Firefox. Agora pode "
-"iniciar sessão no Sync nos seus outros dispositivos, incluindo o Firefox "
+"Ligou com sucesso o seu primeiro dispositivo à sua Conta Firefox. Agora pode"
+" iniciar sessão no Sync nos seus outros dispositivos, incluindo o Firefox "
 "para o <a href='%(androidUrl)s'>Android</a> e <a href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
@@ -44,8 +44,8 @@ msgid ""
 "make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
 "Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
 msgstr ""
-"Ligou com sucesso o seu primeiro dispositivo à sua Conta Firefox. Para obter "
-"o máximo do Sync, ligue qualquer <a href='%(androidUrl)s'>Firefox para "
+"Ligou com sucesso o seu primeiro dispositivo à sua Conta Firefox. Para obter"
+" o máximo do Sync, ligue qualquer <a href='%(androidUrl)s'>Firefox para "
 "Android</a> ou <a href='%(iosUrl)s'>Firefox para iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
@@ -114,8 +114,8 @@ msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
 "Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
-"Este é um email automático; se não adicionou um novo dispositivo à sua Conta "
-"Firefox, deve mudar a sua palavra-passe imediatamente através de "
+"Este é um email automático; se não adicionou um novo dispositivo à sua Conta"
+" Firefox, deve mudar a sua palavra-passe imediatamente através de "
 "%(resetLink)s."
 
 #: templates/new_sync_device.txt:4 templates/password_changed.txt:4
@@ -153,8 +153,8 @@ msgstr "A palavra-passe da sua Conta Firefox foi reposta com sucesso."
 
 #: templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox"
+" Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 "Este é um email automático; se não repôs a palavra-passe da sua Conta "
 "Firefox, deve repor imediatamente a mesma através de %(resetLink)s."
@@ -195,8 +195,8 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for "
 "Android and iOS."
 msgstr ""
-"Ligou com sucesso o seu primeiro dispositivo à sua Conta Firefox. Agora pode "
-"iniciar sessão no Sync nos seus outros dispositivos, incluindo o Firefox "
+"Ligou com sucesso o seu primeiro dispositivo à sua Conta Firefox. Agora pode"
+" iniciar sessão no Sync nos seus outros dispositivos, incluindo o Firefox "
 "para Android e iOS."
 
 #: templates/post_verify.txt:3
@@ -209,7 +209,8 @@ msgstr "Tem a certeza?"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Por favor, confirme que pretende repor a palavra-passe para %(email)s."
+msgstr ""
+"Por favor, confirme que pretende repor a palavra-passe para %(email)s."
 
 #: templates/reset.html:4
 msgid "Reset password now"
@@ -237,20 +238,22 @@ msgstr "Confirmar conta"
 msgid "Verify account:"
 msgstr "Confirmar conta:"
 
-#: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
+#: templates/verification_reminder.html:2
+#: templates/verification_reminder.txt:1
 #: templates/verify_reminder_first.html:2
 #: templates/verification_reminder_first.html:2
 #: templates/verification_reminder_first.txt:1
 msgid "Hello again."
 msgstr "Olá, mais uma vez."
 
-#: templates/verification_reminder.html:3 templates/verification_reminder.txt:2
+#: templates/verification_reminder.html:3
+#: templates/verification_reminder.txt:2
 msgid ""
 "Recently you created a Firefox Account, but never verified it. Please "
 "activate your account by confirming this email address."
 msgstr ""
-"Criou uma Conta Firefox recentemente, mas nunca a confirmou. Por favor ative "
-"a sua conta confirmando este endereço de email."
+"Criou uma Conta Firefox recentemente, mas nunca a confirmou. Por favor ative"
+" a sua conta confirmando este endereço de email."
 
 #: templates/verification_reminder.html:4 templates/verify.html:4
 #: templates/verify_reminder_first.html:4
@@ -298,24 +301,24 @@ msgstr "Ativar agora:"
 #: templates/verification_reminder_first.txt:2
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history "
-"on any device connected to it. Simply confirm this email address to activate "
-"your account."
+"verified account lets you access your tabs, bookmarks, passwords and history"
+" on any device connected to it. Simply confirm this email address to "
+"activate your account."
 msgstr ""
 "Há uns dias atrás criou uma conta Firefox, mas nunca a verificou. Uma conta "
-"verificada deixa-o aceder aos seus separadores, marcadores, palavras-passe e "
-"histórico em qualquer dispositivo ligado a esta. Simplesmente confirme este "
-"endereço de email para ativar a sua conta."
+"verificada deixa-o aceder aos seus separadores, marcadores, palavras-passe e"
+" histórico em qualquer dispositivo ligado a esta. Simplesmente confirme este"
+" endereço de email para ativar a sua conta."
 
 #: templates/verify_reminder_second.html:3
 #: templates/verification_reminder_second.html:3
 #: templates/verification_reminder_second.txt:2
 msgid ""
 "A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
-"iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know "
-"you're okay."
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and"
+" iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know"
+" you're okay."
 msgstr ""
 "Há uma semana atrás criou uma conta Firefox, mas nunca a verificou. Estamos "
 "preocupados consigo. O Firefox está disponível para Windows, Mac, Linux, "
@@ -361,11 +364,11 @@ msgstr "registo"
 
 #: lib/db.js:21
 msgid "/"
-msgstr ""
+msgstr "/"
 
 #: lib/db.js:34
 msgid "/__heartbeat__"
-msgstr ""
+msgstr "/__heartbeat__"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
@@ -420,8 +423,9 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+"You are using an <strong>outdated</strong> browser. Please <a "
+"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+"experience."
 msgstr ""
 "Está a utilizar um navegador <strong>desatualizado</strong>. Por favor, <a "
 "href=\"http://browsehappy.com/\">atualize o seu navegador</a> para melhorar "
