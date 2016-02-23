@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-22 21:24+0000\n"
-"PO-Revision-Date: 2016-02-23 09:00+0000\n"
+"PO-Revision-Date: 2016-02-23 09:04+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -879,7 +879,7 @@ msgstr ""
 #: app/scripts/templates/sign_up.mustache:18
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr "Recevez les dernières actualités concernant Mozilla et Firefox."
+msgstr "Recevoir les dernières actualités concernant Mozilla et Firefox."
 
 #: app/scripts/templates/sign_up.mustache:29
 msgid "Have an account? Sign in."
