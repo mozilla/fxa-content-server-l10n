@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-22 21:24+0000\n"
-"PO-Revision-Date: 2016-02-23 01:09+0000\n"
+"PO-Revision-Date: 2016-02-23 01:10+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
@@ -329,7 +329,7 @@ msgstr "Registrering har inaktiverats"
 
 #: app/scripts/lib/auth-errors.js:237
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "Du måste ange din ålder för att registrera dig"
 
 #: app/scripts/lib/auth-errors.js:241
 msgid "No Gravatar found"
@@ -417,7 +417,7 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:29
 msgid "Email address"
-msgstr ""
+msgstr "E-postadress"
 
 #: app/scripts/lib/strings.js:30
 #: app/scripts/templates/settings/display_name.mustache:1
@@ -432,7 +432,7 @@ msgstr "Kontobild"
 
 #: app/scripts/lib/strings.js:32
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName)s (krävs)"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
