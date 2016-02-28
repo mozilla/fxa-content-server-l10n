@@ -1,18 +1,17 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-22 21:24+0000\n"
-"PO-Revision-Date: 2016-02-06 15:44+0000\n"
+"PO-Revision-Date: 2016-02-28 00:30+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444481518.0\n"
 
@@ -125,8 +124,7 @@ msgid "Display name updated"
 msgstr "Zwobraznjeńske mě zaktualizěrowane"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "Konto zastajone. <a href=\"/confirm_account_unlock\">Mejlku za pśipušćanje "
 "pósłaś</a>"
@@ -138,7 +136,8 @@ msgstr "Wuspěšnje wótzjawjony"
 #: app/scripts/lib/auth-errors.js:17 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -296,11 +295,13 @@ msgstr ""
 #: app/scripts/lib/auth-errors.js:193
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr ""
-"Zapódajśo płaśiwu e-mailowu adresu. firefox.com njepóbitujo e-mailowe adrese."
+"Zapódajśo płaśiwu e-mailowu adresu. firefox.com njepóbitujo e-mailowe "
+"adrese."
 
 #: app/scripts/lib/auth-errors.js:201
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "Firefox Accounts dajo se jano na pśizwólonych sedłach do IFRAME stajiś"
+msgstr ""
+"Firefox Accounts dajo se jano na pśizwólonych sedłach do IFRAME stajiś"
 
 #: app/scripts/lib/auth-errors.js:209
 msgid "/force_auth requires an email"
@@ -333,7 +334,7 @@ msgstr "Registrěrowanje jo se znjemóžniło"
 
 #: app/scripts/lib/auth-errors.js:237
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "Musyśo swójo starstwo zapódaś, aby se registrěrował"
 
 #: app/scripts/lib/auth-errors.js:241
 msgid "No Gravatar found"
@@ -402,13 +403,14 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"Pśez to, až pókšaocujośo, zwólijośo do <a id=\"service-tos\" href="
-"\"%(termsUri)s\">wužywańskich wuměnjenjow</a> a <a id=\"service-pp\" href="
-"\"%(privacyUri)s\">pšawidłow priwatnosći</a> %(serviceName)s "
+"Pśez to, až pókšaocujośo, zwólijośo do <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">wužywańskich wuměnjenjow</a> a <a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">pšawidłow priwatnosći</a> %(serviceName)s "
 "(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:26
@@ -421,7 +423,7 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:29
 msgid "Email address"
-msgstr ""
+msgstr "E-mailowa adresa"
 
 #: app/scripts/lib/strings.js:30
 #: app/scripts/templates/settings/display_name.mustache:1
@@ -436,7 +438,7 @@ msgstr "Kontowy wobraz"
 
 #: app/scripts/lib/strings.js:32
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName)s (trěbne)"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -515,9 +517,9 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
-"Wótkazoju, na kótaryž sćo kliknuł, znamuška feluju, a jo snaź pśez waš e-"
-"mailowy program wobškóźony. Kopěrujśo adresu kradosćiwje a wopytajśo hyšći "
-"raz."
+"Wótkazoju, na kótaryž sćo kliknuł, znamuška feluju, a jo snaź pśez waš "
+"e-mailowy program wobškóźony. Kopěrujśo adresu kradosćiwje a wopytajśo hyšći"
+" raz."
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
@@ -623,8 +625,8 @@ msgstr "Pśipušćeńska mejlka jo se pósłała"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification"
+" link sent to %(email)s"
 msgstr ""
 "Wašo konto jo se z wěstotnych pśicynow zastajiło. Aby aktiwity ze swójim "
 "kontom pśewjadł, wobkšuśćo pšosym swójo konto hyšći raz, z tym až kliknjośo "
@@ -656,12 +658,12 @@ msgstr "Cookieje a lokalny składowak stej trěbnej."
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between "
-"sessions."
+"Accounts. Doing so will enable functionality such as remembering you between"
+" sessions."
 msgstr ""
 "Pšosym zmóžniśo cookieje a lokalny składowak we wašom wobglědowaku, aby "
-"pśistup na Konta Firefox měł. To funkcije zmóžnja, ako na pśikład markowanje "
-"pśez pósejźenja."
+"pśistup na Konta Firefox měł. To funkcije zmóžnja, ako na pśikład markowanje"
+" pśez pósejźenja."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -696,13 +698,13 @@ msgstr "Sćo gronidło zabył?"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:17
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
-"Pśez to, až pókšacujośo, zwolijośo do <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">wužywańskich wuměnjenjow</a> a<a id=\"fxa-pp\" href=\"/legal/privacy"
-"\">pšawidłow priwatnosći</a> mrokowsłužbow Firefox."
+"Pśez to, až pókšacujośo, zwolijośo do <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">wužywańskich wuměnjenjow</a> a<a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">pšawidłow priwatnosći</a> mrokowsłužbow Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -860,15 +862,16 @@ msgstr "Konto Firefox załožyś"
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr ""
-"Pśenosujśo swóje synchronizaciske daty, z tym až napórajośo nowe konto&nbsp;"
-"Firefox."
+"Pśenosujśo swóje synchronizaciske daty, z tym až napórajośo nowe "
+"konto&nbsp;Firefox."
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
+"in</a>"
 msgstr ""
-"Maśo konto z druheju e-mailoweju adresu? <a href=\"%(signinUri)s\">Pśizjawśo "
-"se</a>"
+"Maśo konto z druheju e-mailoweju adresu? <a href=\"%(signinUri)s\">Pśizjawśo"
+" se</a>"
 
 #: app/scripts/templates/sign_up.mustache:18
 #: app/scripts/templates/settings/communication_preferences.mustache:7
@@ -935,8 +938,8 @@ msgid ""
 "Once you're finished, use your new password to sign in on all of your "
 "devices."
 msgstr ""
-"Gaž sćo gótowy, wužywajśo swójo nowe gronidło, aby se na wšych wašych rědach "
-"pśizjawił."
+"Gaž sćo gótowy, wužywajśo swójo nowe gronidło, aby se na wšych wašych rědach"
+" pśizjawił."
 
 #: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
@@ -979,13 +982,14 @@ msgstr "Rědy"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox jo za <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s"
-"\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s"
-"\">iOS</a> a <a href=\"%(linkLinux)s\">Linux</a> k dispoziciji."
+"Firefox jo za <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> a <a href=\"%(linkLinux)s\">Linux</a> k "
+"dispoziciji."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -1055,9 +1059,9 @@ msgstr "Konto Firefox wužywaś"
 #~ "Accounts. Cookies are small pieces of data stored in your browser that "
 #~ "provide functionality such as remembering you between sessions."
 #~ msgstr ""
-#~ "Pšosym zmóžniśo cookieje w swójom wobglědowaku, kótarež su trěbne za "
-#~ "Firefox Accounts. Cookieje su małe datowe elementy, kótarež składuju se "
-#~ "we wašom wobglědowaku, ab wěstu funkcionalnosć zmóžnili, ako na pśikład "
+#~ "Pšosym zmóžniśo cookieje w swójom wobglědowaku, kótarež su trěbne za Firefox"
+#~ " Accounts. Cookieje su małe datowe elementy, kótarež składuju se we wašom "
+#~ "wobglědowaku, ab wěstu funkcionalnosć zmóžnili, ako na pśikład "
 #~ "zasejspóznawanje w nowem pósejźenju."
 
 #~ msgid "Firefox is coming soon to iOS!"
@@ -1197,9 +1201,9 @@ msgstr "Konto Firefox wužywaś"
 #~ "Zapódajśo swóju e-mailowu adresu, aby&nbsp;kontowe gronidło slědk stajił."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data "
-#~ "from our servers. A new Sync backup will be created from your local "
-#~ "browsing data."
+#~ "For security reasons, resetting your password will erase your Sync data from"
+#~ " our servers. A new Sync backup will be created from your local browsing "
+#~ "data."
 #~ msgstr ""
 #~ "Z wěstotnych pśicynow budu se wšykne waše synchronizaciske daty z našych "
 #~ "serwerow lašowaś, gaž stajaśo swóje gronidło slědk. Nowe synchronizaciske "
@@ -1212,23 +1216,24 @@ msgstr "Konto Firefox wužywaś"
 #~ msgstr "Maśo južo konto? Pśizjawśo se."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-#~ "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-#~ "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ "By proceeding, I agree to the <a id=\"service-tos\" "
+#~ "href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+#~ "href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
-#~ "Z tym až pókšacujośo. pśigłosujom <a id=\"service-tos\" href="
-#~ "\"%(termsUri)s\">wužywańskim wuměnjenjam</a> a <a id=\"service-pp\" href="
-#~ "\"%(privacyUri)s\">pšawidłam priwatnosći</a> słužby %(serviceName)s "
+#~ "Z tym až pókšacujośo. pśigłosujom <a id=\"service-tos\" "
+#~ "href=\"%(termsUri)s\">wužywańskim wuměnjenjam</a> a <a id=\"service-pp\" "
+#~ "href=\"%(privacyUri)s\">pšawidłam priwatnosći</a> słužby %(serviceName)s "
 #~ "(%(serviceUri)s)."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">Privacy Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
+#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+#~ "Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Jolic z tym pókšacujośo, zwólijośo do <a id=\"fxa-tos\" href=\"/legal/"
-#~ "terms\">wužywańskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/"
-#~ "privacy\">wuzjawjenja priwatnosći </a> mrokowsłužbow Firefox."
+#~ "Jolic z tym pókšacujośo, zwólijośo do <a id=\"fxa-tos\" "
+#~ "href=\"/legal/terms\">wužywańskich wuměnjenjow</a> a <a id=\"fxa-pp\" "
+#~ "href=\"/legal/privacy\">wuzjawjenja priwatnosći </a> mrokowsłužbow Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Nowosći a pokazki za Firefox aboněrowaś"
@@ -1249,8 +1254,8 @@ msgstr "Konto Firefox wužywaś"
 #~ "Once you're ﬁnished, use your new password to sign in on all of your "
 #~ "devices."
 #~ msgstr ""
-#~ "Gaž sćo gótowy, wužyjśo swójo nowe gronidło, aby se na wšych swójich "
-#~ "rědach pśizjawił."
+#~ "Gaž sćo gótowy, wužyjśo swójo nowe gronidło, aby se na wšych swójich rědach "
+#~ "pśizjawił."
 
 #~ msgid "Illegal iframe"
 #~ msgstr "Njedowólony iframe"
@@ -1261,12 +1266,10 @@ msgstr "Konto Firefox wužywaś"
 #~ msgid "Password changed"
 #~ msgstr "Gronidło změnjone"
 
-#~ msgid ""
-#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
-#~ "email</a>."
+#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
 #~ msgstr ""
-#~ "Njewobkšuśone konto. <a href=\"#\" id=\"resend\">Wobkšuśeńsku mailku "
-#~ "znowego pósłaś</a>."
+#~ "Njewobkšuśone konto. <a href=\"#\" id=\"resend\">Wobkšuśeńsku mailku znowego"
+#~ " pósłaś</a>."
 
 #~ msgid "Password reset. Sign in to continue."
 #~ msgstr "Gronidło jo slědk stajone. Pśizjawśo se, aby pókšacował."
@@ -1275,11 +1278,11 @@ msgstr "Konto Firefox wužywaś"
 #~ msgstr "Wótzjawjony"
 
 #~ msgid ""
-#~ "Your verification email was just returned. Mistyped email? <a href=\"/"
-#~ "signup\">Start over.</a>"
+#~ "Your verification email was just returned. Mistyped email? <a "
+#~ "href=\"/signup\">Start over.</a>"
 #~ msgstr ""
-#~ "Waša wobkšuśeńska mailka jo se wrośiła. Jo e-mailowa adresa wopak "
-#~ "napisana? <a href=\"/signup\">Znowego zachopiś.</a>"
+#~ "Waša wobkšuśeńska mailka jo se wrośiła. Jo e-mailowa adresa wopak napisana? "
+#~ "<a href=\"/signup\">Znowego zachopiś.</a>"
 
 #~ msgid "Paste image URL"
 #~ msgstr "URL wobraza zasajźiś"
