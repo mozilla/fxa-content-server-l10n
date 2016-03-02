@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-22 21:24+0000\n"
-"PO-Revision-Date: 2016-03-02 08:02+0000\n"
+"PO-Revision-Date: 2016-03-02 08:33+0000\n"
 "Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -92,31 +92,31 @@ msgstr "Vaš račun je bil uspešno izbrisan"
 
 #: app/scripts/views/settings/devices.js:25
 msgid "days ago"
-msgstr ""
+msgstr "dni nazaj"
 
 #: app/scripts/views/settings/devices.js:26
 msgid "hours ago"
-msgstr ""
+msgstr "ur nazaj"
 
 #: app/scripts/views/settings/devices.js:27
 msgid "minutes ago"
-msgstr ""
+msgstr "minut nazaj"
 
 #: app/scripts/views/settings/devices.js:28
 msgid "months ago"
-msgstr ""
+msgstr "mesecev nazaj"
 
 #: app/scripts/views/settings/devices.js:29
 msgid "seconds ago"
-msgstr ""
+msgstr "sekund nazaj"
 
 #: app/scripts/views/settings/devices.js:31
 msgid "weeks ago"
-msgstr ""
+msgstr "tednov nazaj"
 
 #: app/scripts/views/settings/devices.js:32
 msgid "years ago"
-msgstr ""
+msgstr "let nazaj"
 
 #: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
@@ -654,6 +654,9 @@ msgid ""
 "Accounts. Doing so will enable functionality such as remembering you between"
 " sessions."
 msgstr ""
+"Za dostop do Firefox Računov v brskalniku omogočite piškotke in lokalno "
+"shrambo. Na ta način boste med drugim omogočili, da si vas bo brskalnik "
+"zapomnil med sejami."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -860,6 +863,8 @@ msgid ""
 "Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
 "in</a>"
 msgstr ""
+"Imate račun z drugačnim e-poštnim naslovom? <a "
+"href=\"%(signinUri)s\">Prijava</a>"
 
 #: app/scripts/templates/sign_up.mustache:18
 #: app/scripts/templates/settings/communication_preferences.mustache:7
