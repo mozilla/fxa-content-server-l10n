@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-22 21:24+0000\n"
-"PO-Revision-Date: 2016-03-02 08:33+0000\n"
+"PO-Revision-Date: 2016-03-03 22:43+0000\n"
 "Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -92,31 +92,31 @@ msgstr "Vaš račun je bil uspešno izbrisan"
 
 #: app/scripts/views/settings/devices.js:25
 msgid "days ago"
-msgstr "dni nazaj"
+msgstr "pred dnevi"
 
 #: app/scripts/views/settings/devices.js:26
 msgid "hours ago"
-msgstr "ur nazaj"
+msgstr "pred nekaj urami"
 
 #: app/scripts/views/settings/devices.js:27
 msgid "minutes ago"
-msgstr "minut nazaj"
+msgstr "pred nekaj minutami"
 
 #: app/scripts/views/settings/devices.js:28
 msgid "months ago"
-msgstr "mesecev nazaj"
+msgstr "pred meseci"
 
 #: app/scripts/views/settings/devices.js:29
 msgid "seconds ago"
-msgstr "sekund nazaj"
+msgstr "pred nekaj sekundami"
 
 #: app/scripts/views/settings/devices.js:31
 msgid "weeks ago"
-msgstr "tednov nazaj"
+msgstr "pred tedni"
 
 #: app/scripts/views/settings/devices.js:32
 msgid "years ago"
-msgstr "let nazaj"
+msgstr "pred leti"
 
 #: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
