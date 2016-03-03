@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-22 21:24+0000\n"
-"PO-Revision-Date: 2016-03-03 08:56+0000\n"
+"PO-Revision-Date: 2016-03-03 09:39+0000\n"
 "Last-Translator: Ognyan Kulev <ognyan@ognyankulev.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -647,7 +647,7 @@ msgstr "Вписване"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
-msgstr "Нужно е да са активирани бисквитките и локалното хранилище."
+msgstr "Бисквитките и локалното хранилище са задължителни."
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -655,6 +655,9 @@ msgid ""
 "Accounts. Doing so will enable functionality such as remembering you between"
 " sessions."
 msgstr ""
+"Моля, активирайте използването на бисквитки и локално хранилище в браузъра, "
+"за да използвате Firefox Accounts. Различни функции зависят от това, като "
+"например запомнянето ви между сесиите."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -730,7 +733,7 @@ msgstr "Изтеглете Firefox за Android"
 #: app/scripts/templates/marketing_snippet_ios.mustache:5
 #: app/scripts/templates/marketing_snippet_ios.mustache:9
 msgid "Get the full Sync experience."
-msgstr ""
+msgstr "Използвайте пълните възможности на Sync."
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:2
 #: app/scripts/templates/marketing_snippet_ios.mustache:3
@@ -790,7 +793,7 @@ msgstr "Успех"
 
 #: app/scripts/templates/ready.mustache:2
 msgid "Sync preferences"
-msgstr ""
+msgstr "Настройки на Sync"
 
 #: app/scripts/templates/ready.mustache:6
 msgid "Proceed"
@@ -802,7 +805,7 @@ msgstr "Вашият профил е готов!"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "Are you sure you want to reset your account password?"
-msgstr ""
+msgstr "Сигурни ли сте, че искате да анулирате паролата на регистрацията си?"
 
 #: app/scripts/templates/reset_password.mustache:3
 msgid ""
@@ -810,10 +813,13 @@ msgid ""
 "data on your devices will remain untouched. Begin the reset process by "
 "entering your email below."
 msgstr ""
+"Анулирането на паролата ще изтрие данните за браузването от нашите сървъри. "
+"Всички данни на вашите устройства ще останат незасегнати. Започнете процеса "
+"на анулиране с въвеждането на вашия имейл по-долу."
 
 #: app/scripts/templates/reset_password.mustache:5
 msgid "Begin reset"
-msgstr ""
+msgstr "Започване на анулирането"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
@@ -857,7 +863,7 @@ msgstr ""
 msgid ""
 "Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
 "in</a>"
-msgstr ""
+msgstr "Имате регистрация с друг имейл? <a href=\"%(signinUri)s\">Впишете се</a>"
 
 #: app/scripts/templates/sign_up.mustache:18
 #: app/scripts/templates/settings/communication_preferences.mustache:7
@@ -973,6 +979,9 @@ msgid ""
 "href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
 "href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
+"Има Firefox за <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> и <a href=\"%(linkLinux)s\">Linux</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -984,7 +993,7 @@ msgstr "(текущ)"
 
 #: app/scripts/templates/settings/devices.mustache:8
 msgid "Disconnect"
-msgstr ""
+msgstr "Прекъсване на връзката"
 
 #: app/scripts/templates/settings/devices.mustache:10
 msgid "Don't see all your devices?"
@@ -1015,6 +1024,8 @@ msgid ""
 "Choose the account you would like to use to sync your tabs, bookmarks, "
 "passwords and more."
 msgstr ""
+"Изберете регистрацията, която искате да използвате за синхронизиране на "
+"вашите подпрозорци, отметки, пароли и други."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
@@ -1022,7 +1033,7 @@ msgstr "Използвайте OpenID"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr ""
+msgstr "Използване на Firefox Account"
 
 #~ msgid "Age is required"
 #~ msgstr "Възрастта ви е необходима"
