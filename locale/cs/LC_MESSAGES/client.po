@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-22 21:24+0000\n"
-"PO-Revision-Date: 2016-02-11 18:24+0000\n"
+"PO-Revision-Date: 2016-03-03 21:27+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -72,8 +72,7 @@ msgstr "Účet již existuje. <a href=\"/signin\">Přihlášení</a>"
 
 #: app/scripts/views/settings/avatar_gravatar.js:89
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr ""
-"S laskavým svolením od <a href=\"https://www.gravatar.com\">Gravatar</a>"
+msgstr "S laskavým svolením od <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
 #: app/scripts/views/settings/change_password.js:52
 msgid "Password changed successfully"
@@ -93,42 +92,41 @@ msgstr "Účet byl úspěšně smazán"
 
 #: app/scripts/views/settings/devices.js:25
 msgid "days ago"
-msgstr ""
+msgstr "před několika dny"
 
 #: app/scripts/views/settings/devices.js:26
 msgid "hours ago"
-msgstr ""
+msgstr "před několika hodinami"
 
 #: app/scripts/views/settings/devices.js:27
 msgid "minutes ago"
-msgstr ""
+msgstr "před několika minutami"
 
 #: app/scripts/views/settings/devices.js:28
 msgid "months ago"
-msgstr ""
+msgstr "před několika měsíci"
 
 #: app/scripts/views/settings/devices.js:29
 msgid "seconds ago"
-msgstr ""
+msgstr "před pár vteřinami"
 
 #: app/scripts/views/settings/devices.js:31
 msgid "weeks ago"
-msgstr ""
+msgstr "před několika týdny"
 
 #: app/scripts/views/settings/devices.js:32
 msgid "years ago"
-msgstr ""
+msgstr "před několika roky"
 
 #: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
 msgstr "Zobrazované jméno aktualizováno"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
-"Účet zamčen. <a href=\"/confirm_account_unlock\">Zaslat e-mail pro odemčení</"
-"a>"
+"Účet zamčen. <a href=\"/confirm_account_unlock\">Zaslat e-mail pro "
+"odemčení</a>"
 
 #: app/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
@@ -137,7 +135,8 @@ msgstr "Odhlášení bylo úspěšné"
 #: app/scripts/lib/auth-errors.js:17 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -309,7 +308,8 @@ msgstr "/force_auth vyžaduje e-mail"
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
-msgstr "Platnost tohoto odkazu pro ověření vaší e-mailové adresy již vypršela."
+msgstr ""
+"Platnost tohoto odkazu pro ověření vaší e-mailové adresy již vypršela."
 
 #: app/scripts/lib/auth-errors.js:217
 #: app/scripts/templates/complete_sign_up.mustache:7
@@ -330,7 +330,7 @@ msgstr "Přihlašování bylo zakázáno"
 
 #: app/scripts/lib/auth-errors.js:237
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "Pro registraci musíte zadat svůj věk"
 
 #: app/scripts/lib/auth-errors.js:241
 msgid "No Gravatar found"
@@ -399,14 +399,15 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr ""
-"Pokračování souhlasíte s <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Podmínkami využívání služby</a> a <a id=\"service-pp\" href="
-"\"%(privacyUri)s\">Zásadami o ochraně osobních údajů</a> %(serviceName)s "
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
 "(%(serviceUri)s)."
+msgstr ""
+"Pokračování souhlasíte s <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Podmínkami využívání služby</a> a <a id=\"service-pp\""
+" href=\"%(privacyUri)s\">Zásadami o ochraně osobních údajů</a> "
+"%(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:26
 msgid ""
@@ -418,7 +419,7 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:29
 msgid "Email address"
-msgstr ""
+msgstr "E-mailová adresa"
 
 #: app/scripts/lib/strings.js:30
 #: app/scripts/templates/settings/display_name.mustache:1
@@ -433,7 +434,7 @@ msgstr "Obrázek účtu"
 
 #: app/scripts/lib/strings.js:32
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName)s (vyžadováno)"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -511,8 +512,8 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
-"Adresa odkazu, na který jste klikli, nebyla kompletní, a mohla být poškozena "
-"například vaším e-mailovým klientem. Zkopírujte pečlivě celou adresu a "
+"Adresa odkazu, na který jste klikli, nebyla kompletní, a mohla být poškozena"
+" například vaším e-mailovým klientem. Zkopírujte pečlivě celou adresu a "
 "zkuste to znovu."
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
@@ -617,8 +618,8 @@ msgstr "E-mail pro odemčení byl odeslán"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification"
+" link sent to %(email)s"
 msgstr ""
 "Z bezpečnostních důvodů byl váš účet uzamčen. Pro pokračování prosím znovu "
 "ověřte svůj účet klepnutím na odkaz zaslaný na %(email)s"
@@ -649,11 +650,12 @@ msgstr "Požadovány cookies a local storage."
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between "
-"sessions."
+"Accounts. Doing so will enable functionality such as remembering you between"
+" sessions."
 msgstr ""
 "Abyste mohli používat Firefox Accounts, povolte prosím cookies a local "
-"storage. Díky tomu si vás budeme moci zapamatovat mezi jednotlivými relacemi."
+"storage. Díky tomu si vás budeme moci zapamatovat mezi jednotlivými "
+"relacemi."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -688,9 +690,9 @@ msgstr "Zapomněli jste heslo?"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:17
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
 "Pokračování souhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmínkami "
 "služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Podmínkami ochrany "
@@ -832,8 +834,8 @@ msgstr "Pokračovat na %(serviceName)s"
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr ""
-"Přesuňte svá synchronizovaná data přihlášením k vašemu účtu Firefox&nbsp;"
-"Account."
+"Přesuňte svá synchronizovaná data přihlášením k vašemu účtu "
+"Firefox&nbsp;Account."
 
 #: app/scripts/templates/sign_in.mustache:13
 #: app/scripts/templates/sign_in.mustache:16
@@ -852,12 +854,13 @@ msgstr "Vytvořit Firefox Account"
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr ""
-"Přesuňte svá synchronizovaná data vytvořením nového účtu Firefox&nbsp;"
-"Account."
+"Přesuňte svá synchronizovaná data vytvořením nového účtu "
+"Firefox&nbsp;Account."
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
+"in</a>"
 msgstr ""
 "Máte účet s jinou e-mailovou adresou? <a href=\"%(signinUri)s\">Přihlaste "
 "se</a>"
@@ -969,13 +972,13 @@ msgstr "Zařízení"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox je k dispozici pro <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> a <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox je k dispozici pro <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> a <a href=\"%(linkLinux)s\">Linux</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -1226,13 +1229,13 @@ msgstr "Použít Firefox Account"
 #~ msgstr "Pro obnovu svého hesla účtu vlože váš e-mail."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data "
-#~ "from our servers. A new Sync backup will be created from your local "
-#~ "browsing data."
+#~ "For security reasons, resetting your password will erase your Sync data from"
+#~ " our servers. A new Sync backup will be created from your local browsing "
+#~ "data."
 #~ msgstr ""
 #~ "Z bezpečnostních důvodů obnovení hesla vymaže data synchronizace z našich "
-#~ "serverů. Bude vytvořena nová záloha Sync na základě vašich lokálních dat "
-#~ "o prohlížení."
+#~ "serverů. Bude vytvořena nová záloha Sync na základě vašich lokálních dat o "
+#~ "prohlížení."
 
 #~ msgid "You are signed in as"
 #~ msgstr "Jste přihlášeni jako"
@@ -1241,22 +1244,24 @@ msgstr "Použít Firefox Account"
 #~ msgstr "Máte již účet? Přihlaste se."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-#~ "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-#~ "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ "By proceeding, I agree to the <a id=\"service-tos\" "
+#~ "href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+#~ "href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
-#~ "Pokračování souhlasíte s <a id=\"service-tos\" href=\"%(termsUri)s"
-#~ "\">Podmínkami služby</a> a <a id=\"service-pp\" href=\"%(privacyUri)s"
-#~ "\">Zásadami o ochraně osobních údajů</a> %(serviceName)s (%(serviceUri)s)."
+#~ "Pokračování souhlasíte s <a id=\"service-tos\" "
+#~ "href=\"%(termsUri)s\">Podmínkami služby</a> a <a id=\"service-pp\" "
+#~ "href=\"%(privacyUri)s\">Zásadami o ochraně osobních údajů</a> "
+#~ "%(serviceName)s (%(serviceUri)s)."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">Privacy Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
+#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+#~ "Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Pokračováním souhlasím s <a id=\"fxa-tos\" href=\"/legal/terms"
-#~ "\">Podmínkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">Zásadami o ochraně osobních údajů</a> služeb Firefox cloud."
+#~ "Pokračováním souhlasím s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmínkami "
+#~ "služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Zásadami o ochraně "
+#~ "osobních údajů</a> služeb Firefox cloud."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Přihlaste se k odběru novinek a tipů k Firefoxu"
@@ -1271,8 +1276,8 @@ msgstr "Použít Firefox Account"
 #~ "Once you're ﬁnished, use your new password to sign in on all of your "
 #~ "devices."
 #~ msgstr ""
-#~ "Jakmile budete hotovi, použijte své nové heslo pro přihlášení na všech "
-#~ "svých zařízeních."
+#~ "Jakmile budete hotovi, použijte své nové heslo pro přihlášení na všech svých"
+#~ " zařízeních."
 
 #~ msgid "Illegal iframe"
 #~ msgstr "Ilegální iframe"
@@ -1280,12 +1285,10 @@ msgstr "Použít Firefox Account"
 #~ msgid "Password changed"
 #~ msgstr "Heslo změněno"
 
-#~ msgid ""
-#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
-#~ "email</a>."
+#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
 #~ msgstr ""
-#~ "Neověřený účet. <a href=\"#\" id=\"resend\">Zaslat znovu ověřovací e-"
-#~ "mail</a>."
+#~ "Neověřený účet. <a href=\"#\" id=\"resend\">Zaslat znovu ověřovací "
+#~ "e-mail</a>."
 
 #~ msgid "Password reset. Sign in to continue."
 #~ msgstr "Obnovení hesla. Pro pokračování se přihlaste."
@@ -1294,8 +1297,8 @@ msgstr "Použít Firefox Account"
 #~ msgstr "Odhlášení"
 
 #~ msgid ""
-#~ "Your verification email was just returned. Mistyped email? <a href=\"/"
-#~ "signup\">Start over.</a>"
+#~ "Your verification email was just returned. Mistyped email? <a "
+#~ "href=\"/signup\">Start over.</a>"
 #~ msgstr ""
 #~ "Váš e-mail pro ověření se právě vrátil zpět. Špatně zadaný e-mail? <a "
 #~ "href=\"/signup\">Začít znovu</a>."
