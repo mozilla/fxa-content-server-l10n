@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-22 21:24+0000\n"
-"PO-Revision-Date: 2016-02-25 15:08+0000\n"
+"PO-Revision-Date: 2016-03-03 22:06+0000\n"
 "Last-Translator: Vanja Tumbas <tumbas93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -353,11 +353,11 @@ msgstr "Firefox налог потврђен"
 
 #: config.js:127 config.js:132 config.js:140 config.js:145
 msgid "env"
-msgstr ""
+msgstr "env"
 
 #: log.js:7
 msgid "logging"
-msgstr ""
+msgstr "бележење"
 
 #: lib/db.js:21
 msgid "/"
