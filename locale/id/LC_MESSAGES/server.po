@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-22 21:24+0000\n"
-"PO-Revision-Date: 2016-02-27 15:13+0000\n"
-"Last-Translator: Romi Hardiyanto <romihardiyanto@gmail.com>\n"
+"PO-Revision-Date: 2016-02-28 09:10+0000\n"
+"Last-Translator: kelimutu.rizki <kelimutu.rizki@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -368,11 +368,11 @@ msgstr "masuk"
 
 #: lib/db.js:21
 msgid "/"
-msgstr ""
+msgstr "/"
 
 #: lib/db.js:34
 msgid "/__heartbeat__"
-msgstr ""
+msgstr "/__heartbeat__"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
