@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-22 21:24+0000\n"
-"PO-Revision-Date: 2016-02-25 13:48+0000\n"
+"PO-Revision-Date: 2016-03-05 11:15+0000\n"
 "Last-Translator: Merike Sell <merikes@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -92,31 +92,31 @@ msgstr "Konto on edukalt kustutatud"
 
 #: app/scripts/views/settings/devices.js:25
 msgid "days ago"
-msgstr "päeva tagasi"
+msgstr "päevi tagasi"
 
 #: app/scripts/views/settings/devices.js:26
 msgid "hours ago"
-msgstr "tundi tagasi"
+msgstr "tunde tagasi"
 
 #: app/scripts/views/settings/devices.js:27
 msgid "minutes ago"
-msgstr "minutit tagasi"
+msgstr "minuteid tagasi"
 
 #: app/scripts/views/settings/devices.js:28
 msgid "months ago"
-msgstr "kuud tagasi"
+msgstr "kuid tagasi"
 
 #: app/scripts/views/settings/devices.js:29
 msgid "seconds ago"
-msgstr "sekundit tagasi"
+msgstr "sekundeid tagasi"
 
 #: app/scripts/views/settings/devices.js:31
 msgid "weeks ago"
-msgstr "nädalat tagasi"
+msgstr "nädalaid tagasi"
 
 #: app/scripts/views/settings/devices.js:32
 msgid "years ago"
-msgstr "aastat tagasi"
+msgstr "aastaid tagasi"
 
 #: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
