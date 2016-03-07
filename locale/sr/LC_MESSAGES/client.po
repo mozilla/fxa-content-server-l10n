@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-22 21:24+0000\n"
-"PO-Revision-Date: 2016-03-03 22:09+0000\n"
+"PO-Revision-Date: 2016-03-07 07:16+0000\n"
 "Last-Translator: Vanja Tumbas <tumbas93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -328,7 +328,7 @@ msgstr "Пријава је онемогућена"
 
 #: app/scripts/lib/auth-errors.js:237
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "Морате да унесете године да бисте се регистровали"
 
 #: app/scripts/lib/auth-errors.js:241
 msgid "No Gravatar found"
@@ -642,7 +642,7 @@ msgstr "Пријави се"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
-msgstr ""
+msgstr "Потребни су колачићи и локално складиште."
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -650,6 +650,9 @@ msgid ""
 "Accounts. Doing so will enable functionality such as remembering you between"
 " sessions."
 msgstr ""
+"Омогућите колачиће и локално складиште у вашем прегледачу да приступите "
+"Firefox налозима. Ово ће омогућити могућности као што је памћење корисника "
+"кроз више сесија."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -856,6 +859,8 @@ msgid ""
 "Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
 "in</a>"
 msgstr ""
+"Имате налог са другом адресом е-поште? <a href=\"%(signinUri)s\">Пријавите "
+"се</a>"
 
 #: app/scripts/templates/sign_up.mustache:18
 #: app/scripts/templates/settings/communication_preferences.mustache:7
