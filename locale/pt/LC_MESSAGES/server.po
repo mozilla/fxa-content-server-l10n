@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-08 15:52+0000\n"
-"PO-Revision-Date: 2016-02-09 00:31+0000\n"
+"PO-Revision-Date: 2016-02-23 21:40+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -422,8 +422,8 @@ msgstr "registo"
 
 #: lib/db.js:21
 msgid "/"
-msgstr ""
+msgstr "/"
 
 #: lib/db.js:34
 msgid "/__heartbeat__"
-msgstr ""
+msgstr "/__heartbeat__"
