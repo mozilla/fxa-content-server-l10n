@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-08 15:52+0000\n"
-"PO-Revision-Date: 2016-02-23 10:36+0000\n"
+"PO-Revision-Date: 2016-03-08 18:45+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -551,18 +551,20 @@ msgstr "Le lien de réinitialisation du mot de passe est endommagé"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 msgid "Enter new password"
-msgstr ""
+msgstr "Saisissez le nouveau mot de passe"
 
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid ""
 "Once you submit your new password, you will lose any Sync data that is not "
 "on one of your devices."
 msgstr ""
+"Une fois le nouveau mot de passe envoyé, vous perdrez l’ensemble des données"
+" Sync qui ne se trouvent pas sur vos appareils."
 
 #: app/scripts/templates/complete_reset_password.mustache:11
 #: app/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
-msgstr ""
+msgstr "Fonctionnement de Sync."
 
 #: app/scripts/templates/complete_reset_password.mustache:12
 #: app/scripts/templates/settings/change_password.mustache:8
@@ -588,7 +590,7 @@ msgstr "Répéter le mot de passe"
 
 #: app/scripts/templates/complete_reset_password.mustache:19
 msgid "Submit new password"
-msgstr ""
+msgstr "Envoyer le nouveau mot de passe"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
@@ -649,12 +651,14 @@ msgid ""
 "Click on the link we've emailed you at %(email)s within the next hour to "
 "create a new password."
 msgstr ""
+"Cliquez sur le lien que nous vous avons envoyé à l’adresse %(email)s d’ici "
+"moins d’une heure afin de créer un nouveau mot de passe."
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
 #: app/scripts/templates/reset_password.mustache:6
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "Vous vous souvenez de votre mot de passe ? Connectez-vous."
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -818,13 +822,15 @@ msgstr "Votre compte est prêt&nbsp;!"
 
 #: app/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
-msgstr ""
+msgstr "Mot de passe oublié"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
 "When you reset your password, you will lose any Sync data that is not on one"
 " of your devices."
 msgstr ""
+"Lorsque vous réinitialiserez votre mot de passe, vous perdrez l’ensemble des"
+" données Sync qui ne se trouvent pas sur l’un de vos appareils."
 
 #: app/scripts/templates/reset_password.mustache:4
 #: app/scripts/templates/sign_in.mustache:19
