@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-22 21:24+0000\n"
+"POT-Creation-Date: 2016-03-08 15:52+0000\n"
 "PO-Revision-Date: 2016-02-23 05:34+0000\n"
 "Last-Translator: YFdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,25 @@ msgstr "密码已重置"
 msgid "Password reset successfully. Sign in to continue."
 msgstr "密码重置成功。请登录以继续。"
 
+#: app/scripts/views/permissions.js:25
+msgid "%(permissionName)s (required)"
+msgstr "%(permissionName)s (必填)"
+
+#: app/scripts/views/permissions.js:31
+msgid "Email address"
+msgstr "电子邮件地址"
+
+#: app/scripts/views/permissions.js:36
+#: app/scripts/templates/settings/display_name.mustache:1
+#: app/scripts/templates/settings/display_name.mustache:4
+msgid "Display name"
+msgstr "显示名称"
+
+#: app/scripts/views/permissions.js:40
+#: app/scripts/templates/settings/avatar.mustache:1
+msgid "Account picture"
+msgstr "头像"
+
 #: app/scripts/views/ready.js:29
 msgid "Firefox Sync will begin momentarily"
 msgstr "Firefox 同步即将开始"
@@ -63,7 +82,7 @@ msgid "You are now ready to use %(serviceName)s"
 msgstr "您已经可以使用 %(serviceName)s 了"
 
 # see https://bugzilla.mozilla.org/show_bug.cgi?id=1131472
-#: app/scripts/views/reset_password.js:66 app/scripts/views/sign_in.js:134
+#: app/scripts/views/reset_password.js:50 app/scripts/views/sign_in.js:140
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "未知账号。<a href=\"/signup\">注册</a>"
 
@@ -124,7 +143,8 @@ msgid "Display name updated"
 msgstr "显示名称已更新"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr "账号已锁定。<a href=\"/confirm_account_unlock\">发送解锁邮件</a>"
 
 #: app/scripts/views/mixins/signed-out-notification-mixin.js:39
@@ -134,8 +154,7 @@ msgstr "退出成功"
 #: app/scripts/lib/auth-errors.js:17 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43
-#: app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -258,7 +277,7 @@ msgid "Your new password must be different"
 msgstr "新旧密码不能相同"
 
 #: app/scripts/lib/auth-errors.js:143
-#: app/scripts/templates/complete_reset_password.mustache:16
+#: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/change_password.mustache:11
 msgid "Must be at least 8 characters"
@@ -394,14 +413,13 @@ msgstr "Firefox 同步"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"继续提交即代表您同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">服务条款</a>和<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">隐私声明</a>。"
+"继续提交即代表您同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos"
+"\" href=\"%(termsUri)s\">服务条款</a>和<a id=\"service-pp\" href="
+"\"%(privacyUri)s\">隐私声明</a>。"
 
 #: app/scripts/lib/strings.js:26
 msgid ""
@@ -410,25 +428,6 @@ msgid ""
 msgstr ""
 "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-"
 "account\">帮助</a>"
-
-#: app/scripts/lib/strings.js:29
-msgid "Email address"
-msgstr "电子邮件地址"
-
-#: app/scripts/lib/strings.js:30
-#: app/scripts/templates/settings/display_name.mustache:1
-#: app/scripts/templates/settings/display_name.mustache:4
-msgid "Display name"
-msgstr "显示名称"
-
-#: app/scripts/lib/strings.js:31
-#: app/scripts/templates/settings/avatar.mustache:1
-msgid "Account picture"
-msgstr "头像"
-
-#: app/scripts/lib/strings.js:32
-msgid "%(permissionName)s (required)"
-msgstr "%(permissionName)s (必填)"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -484,9 +483,7 @@ msgstr "注册"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:16
 #: app/scripts/templates/confirm_account_unlock.mustache:5
-#: app/scripts/templates/pp.mustache:3
-#: app/scripts/templates/reset_password.mustache:6
-#: app/scripts/templates/tos.mustache:3
+#: app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "返回"
 
@@ -504,7 +501,9 @@ msgstr "解锁链接已损坏"
 msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
-msgstr "您点击的链接缺少字符，可能由于您的邮件客户端的原因损坏了。请确保复制了完整的网址，然后再试一次。"
+msgstr ""
+"您点击的链接缺少字符，可能由于您的邮件客户端的原因损坏了。请确保复制了完整的"
+"网址，然后再试一次。"
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
@@ -535,17 +534,27 @@ msgid "Reset password link damaged"
 msgstr "重置密码链接已损坏"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
-#: app/scripts/templates/reset_password.mustache:1
-msgid "Reset password"
-msgstr "重置密码"
+msgid "Enter new password"
+msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:10
+msgid ""
+"Once you submit your new password, you will lose any Sync data that is not "
+"on one of your devices."
+msgstr ""
+
+#: app/scripts/templates/complete_reset_password.mustache:11
+#: app/scripts/templates/reset_password.mustache:3
+msgid "Learn how Sync works."
+msgstr ""
+
+#: app/scripts/templates/complete_reset_password.mustache:12
 #: app/scripts/templates/settings/change_password.mustache:8
 msgid "New password"
 msgstr "新密码"
 
-#: app/scripts/templates/complete_reset_password.mustache:12
-#: app/scripts/templates/complete_reset_password.mustache:15
+#: app/scripts/templates/complete_reset_password.mustache:14
+#: app/scripts/templates/complete_reset_password.mustache:18
 #: app/scripts/templates/force_auth.mustache:6
 #: app/scripts/templates/sign_in.mustache:10
 #: app/scripts/templates/sign_in.mustache:23
@@ -557,13 +566,13 @@ msgstr "新密码"
 msgid "Show"
 msgstr "显示"
 
-#: app/scripts/templates/complete_reset_password.mustache:13
+#: app/scripts/templates/complete_reset_password.mustache:16
 msgid "Repeat password"
 msgstr "再次输入密码"
 
-#: app/scripts/templates/complete_reset_password.mustache:17
-msgid "Next"
-msgstr "下一步"
+#: app/scripts/templates/complete_reset_password.mustache:19
+msgid "Submit new password"
+msgstr ""
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
@@ -608,28 +617,27 @@ msgstr "解锁邮件已发送"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification"
-" link sent to %(email)s"
-msgstr "由于安全原因，您的账号已被锁定。要执行账号层面的操作，请点击验证链接以重新发送验证邮件至 %(email)s 验证您的账号。"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
+msgstr ""
+"由于安全原因，您的账号已被锁定。要执行账号层面的操作，请点击验证链接以重新发"
+"送验证邮件至 %(email)s 验证您的账号。"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
 msgstr "已发送重置邮件"
 
 #: app/scripts/templates/confirm_reset_password.mustache:4
-msgid "A reset link has been sent to %(email)s"
-msgstr "重置链接已发送到 %(email)s"
+msgid ""
+"Click on the link we've emailed you at %(email)s within the next hour to "
+"create a new password."
+msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
-#: app/scripts/templates/force_auth.mustache:7
-#: app/scripts/templates/sign_in.mustache:1
-#: app/scripts/templates/sign_in.mustache:4
-#: app/scripts/templates/sign_in.mustache:11
-#: app/scripts/templates/sign_in.mustache:15
-#: app/scripts/templates/sign_in.mustache:24
-msgid "Sign in"
-msgstr "登录"
+#: app/scripts/templates/reset_password.mustache:6
+msgid "Remember password? Sign in."
+msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -638,9 +646,11 @@ msgstr "Cookie 和本地存储是必需的。"
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between"
-" sessions."
-msgstr "请在您的浏览器中启用 Cookie 和本地存储功能以访问 Firefox 账号。这样才能使会话间记住信息等功能正常运行。"
+"Accounts. Doing so will enable functionality such as remembering you between "
+"sessions."
+msgstr ""
+"请在您的浏览器中启用 Cookie 和本地存储功能以访问 Firefox 账号。这样才能使会话"
+"间记住信息等功能正常运行。"
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -663,6 +673,15 @@ msgstr "登录以继续"
 msgid "Password"
 msgstr "密码"
 
+#: app/scripts/templates/force_auth.mustache:7
+#: app/scripts/templates/sign_in.mustache:1
+#: app/scripts/templates/sign_in.mustache:4
+#: app/scripts/templates/sign_in.mustache:11
+#: app/scripts/templates/sign_in.mustache:15
+#: app/scripts/templates/sign_in.mustache:24
+msgid "Sign in"
+msgstr "登录"
+
 #: app/scripts/templates/force_auth.mustache:8
 #: app/scripts/templates/sign_in.mustache:12
 #: app/scripts/templates/sign_in.mustache:25
@@ -675,12 +694,12 @@ msgstr "忘记密码？"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:17
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
-"继续提交即代表您同意 Firefox 云服务的<a id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>和<a "
-"id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>。"
+"继续提交即代表您同意 Firefox 云服务的<a id=\"fxa-tos\" href=\"/legal/terms\">"
+"服务条款</a>和<a id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>。"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -743,19 +762,11 @@ msgid "%(serviceName)s wants the following information from your account:"
 msgstr "%(serviceName)s 想要获知您的账号的如下信息："
 
 #: app/scripts/templates/permissions.mustache:3
-#: app/scripts/templates/reset_password.mustache:4
-#: app/scripts/templates/sign_in.mustache:19
-#: app/scripts/templates/sign_up.mustache:10
-#: app/scripts/templates/settings/gravatar_permissions.mustache:3
-msgid "Email"
-msgstr "电子邮件地址"
-
-#: app/scripts/templates/permissions.mustache:4
 #: app/scripts/templates/settings/gravatar_permissions.mustache:4
 msgid "Accept"
 msgstr "接受"
 
-#: app/scripts/templates/permissions.mustache:5
+#: app/scripts/templates/permissions.mustache:4
 #: app/scripts/templates/settings/avatar_camera.mustache:2
 #: app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3
@@ -784,20 +795,26 @@ msgstr "继续"
 msgid "Your account is ready!"
 msgstr "您的账号已经准备好！"
 
-#: app/scripts/templates/reset_password.mustache:2
-msgid "Are you sure you want to reset your account password?"
-msgstr "您确定要重置您的账号密码吗？"
+#: app/scripts/templates/reset_password.mustache:1
+msgid "Forgot password"
+msgstr ""
 
-#: app/scripts/templates/reset_password.mustache:3
+#: app/scripts/templates/reset_password.mustache:2
 msgid ""
-"Resetting your password will erase your browsing data from our servers. Any "
-"data on your devices will remain untouched. Begin the reset process by "
-"entering your email below."
-msgstr "重置您的密码将擦除在我们服务器上的您的浏览数据。您的设备上的任何数据将保持不变。请在下方输入您的电子邮件地址以确认重置。"
+"When you reset your password, you will lose any Sync data that is not on one "
+"of your devices."
+msgstr ""
+
+#: app/scripts/templates/reset_password.mustache:4
+#: app/scripts/templates/sign_in.mustache:19
+#: app/scripts/templates/sign_up.mustache:10
+#: app/scripts/templates/settings/gravatar_permissions.mustache:3
+msgid "Email"
+msgstr "电子邮件地址"
 
 #: app/scripts/templates/reset_password.mustache:5
-msgid "Begin reset"
-msgstr "开始重置"
+msgid "Reset password"
+msgstr "重置密码"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
@@ -836,8 +853,7 @@ msgstr "创建一个 Firefox 账号以迁移您的同步数据。"
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
-"in</a>"
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 msgstr "已有另一个邮件地址的账号？<a href=\"%(signinUri)s\">登录</a>"
 
 #: app/scripts/templates/sign_up.mustache:18
@@ -946,13 +962,13 @@ msgstr "设备"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
-"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
-"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
+"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
+"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox 可以在 <a href=\"%(linkWindows)s\">Windows</a>、<a "
-"href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a "
-"href=\"%(linkIOS)s\">iOS</a> 以及 <a href=\"%(linkLinux)s\">Linux</a> 上使用。"
+"Firefox 可以在 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s"
+"\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s"
+"\">iOS</a> 以及 <a href=\"%(linkLinux)s\">Linux</a> 上使用。"
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -1001,6 +1017,26 @@ msgstr "使用 OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "使用 Firefox 账户"
+
+#~ msgid "Next"
+#~ msgstr "下一步"
+
+#~ msgid "A reset link has been sent to %(email)s"
+#~ msgstr "重置链接已发送到 %(email)s"
+
+#~ msgid "Are you sure you want to reset your account password?"
+#~ msgstr "您确定要重置您的账号密码吗？"
+
+#~ msgid ""
+#~ "Resetting your password will erase your browsing data from our servers. "
+#~ "Any data on your devices will remain untouched. Begin the reset process "
+#~ "by entering your email below."
+#~ msgstr ""
+#~ "重置您的密码将擦除在我们服务器上的您的浏览数据。您的设备上的任何数据将保持"
+#~ "不变。请在下方输入您的电子邮件地址以确认重置。"
+
+#~ msgid "Begin reset"
+#~ msgstr "开始重置"
 
 #~ msgid "a day"
 #~ msgstr "一天"
@@ -1058,8 +1094,8 @@ msgstr "使用 Firefox 账户"
 #~ "Accounts. Cookies are small pieces of data stored in your browser that "
 #~ "provide functionality such as remembering you between sessions."
 #~ msgstr ""
-#~ "为了使用 Firefox 账号，请启用您的浏览器中的 Cookie 功能。Cookie "
-#~ "是保存在您的浏览器中的小数据片段，提供在本次浏览期间记住您的状态等功能。"
+#~ "为了使用 Firefox 账号，请启用您的浏览器中的 Cookie 功能。Cookie 是保存在您"
+#~ "的浏览器中的小数据片段，提供在本次浏览期间记住您的状态等功能。"
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox 即将推出到 iOS！"
@@ -1197,10 +1233,12 @@ msgstr "使用 Firefox 账户"
 #~ msgstr "输入您的电子邮件地址重置账号密码。"
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data from"
-#~ " our servers. A new Sync backup will be created from your local browsing "
-#~ "data."
-#~ msgstr "出于安全原因，重置您的密码将使我们清除在我们服务器上的您的“同步”数据。新的“同步”备份将根据您的本地浏览数据而创建。"
+#~ "For security reasons, resetting your password will erase your Sync data "
+#~ "from our servers. A new Sync backup will be created from your local "
+#~ "browsing data."
+#~ msgstr ""
+#~ "出于安全原因，重置您的密码将使我们清除在我们服务器上的您的“同步”数据。新"
+#~ "的“同步”备份将根据您的本地浏览数据而创建。"
 
 #~ msgid "You are signed in as"
 #~ msgstr "您已登录为"
@@ -1209,22 +1247,22 @@ msgstr "使用 Firefox 账户"
 #~ msgstr "已有账号？登录。"
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" "
-#~ "href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-#~ "href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+#~ "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+#~ "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
-#~ "继续则代表我同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos\" "
-#~ "href=\"%(termsUri)s\">服务条款</a> 和 <a id=\"service-pp\" "
-#~ "href=\"%(privacyUri)s\">隐私声明</a>。"
+#~ "继续则代表我同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos"
+#~ "\" href=\"%(termsUri)s\">服务条款</a> 和 <a id=\"service-pp\" href="
+#~ "\"%(privacyUri)s\">隐私声明</a>。"
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-#~ "Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "继续操作则代表我接受 Firefox 云服务的 <a id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a> 及 "
-#~ "<a id=\"fxa-pp\" href=\"/legal/privacy\">隐私权政策</a>。"
+#~ "继续操作则代表我接受 Firefox 云服务的 <a id=\"fxa-tos\" href=\"/legal/"
+#~ "terms\">服务条款</a> 及 <a id=\"fxa-pp\" href=\"/legal/privacy\">隐私权政"
+#~ "策</a>。"
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "订阅 Firefox 资讯和技巧"
@@ -1255,7 +1293,9 @@ msgstr "使用 Firefox 账户"
 #~ msgid "Password changed"
 #~ msgstr "密码已更改"
 
-#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
+#~ msgid ""
+#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
+#~ "email</a>."
 #~ msgstr "尚未验证的账号。<a href=\"#\" id=\"resend\">重新发送验证邮件</a>。"
 
 #~ msgid "Password reset. Sign in to continue."
@@ -1265,9 +1305,11 @@ msgstr "使用 Firefox 账户"
 #~ msgstr "已退出"
 
 #~ msgid ""
-#~ "Your verification email was just returned. Mistyped email? <a "
-#~ "href=\"/signup\">Start over.</a>"
-#~ msgstr "您的验证邮件刚被退回了。邮件地址输错了吗？<a href=\"/signup\">重新尝试</a>。"
+#~ "Your verification email was just returned. Mistyped email? <a href=\"/"
+#~ "signup\">Start over.</a>"
+#~ msgstr ""
+#~ "您的验证邮件刚被退回了。邮件地址输错了吗？<a href=\"/signup\">重新尝试</"
+#~ "a>。"
 
 #~ msgid "Paste image URL"
 #~ msgstr "粘贴图像 URL"
