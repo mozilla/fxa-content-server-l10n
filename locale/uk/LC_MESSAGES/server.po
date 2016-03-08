@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-08 15:52+0000\n"
-"PO-Revision-Date: 2016-02-25 07:56+0000\n"
+"PO-Revision-Date: 2016-03-08 21:14+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -387,6 +387,8 @@ msgid ""
 "This is an automated email; if you did not authorize this action, then <a "
 "%(passwordChangeUrl)s>please change your password.</a>"
 msgstr ""
+"Це автоматичний лист; якщо ви не дозволяли цю дію, тоді <a "
+"%(passwordChangeUrl)s>будь ласка, змініть свій пароль.</a>"
 
 #: templates/new_sync_device.html:4 templates/password_changed.html:4
 #: templates/password_reset.html:4
