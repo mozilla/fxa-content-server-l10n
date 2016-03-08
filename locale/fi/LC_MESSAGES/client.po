@@ -1,17 +1,18 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-08 15:52+0000\n"
-"PO-Revision-Date: 2015-04-26 09:59+0000\n"
-"Last-Translator: Ville <ville.pohjanheimo@gmail.com>\n"
+"PO-Revision-Date: 2016-03-08 17:02+0000\n"
+"Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1430042344.0\n"
 
 #: app/scripts/views/complete_reset_password.js:129
@@ -141,8 +142,7 @@ msgid "Display name updated"
 msgstr ""
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "Tili on lukittu. <a href=\"/confirm_account_unlock\">Lähetä lukituksen "
 "purkava sähköposti</a>"
@@ -154,7 +154,8 @@ msgstr "Kirjauduttu ulos"
 #: app/scripts/lib/auth-errors.js:17 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -418,9 +419,10 @@ msgstr "Firefox Sync -palvelu"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:26
@@ -617,8 +619,8 @@ msgstr "Lukituksen purku sähköposti lähetetty"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification"
+" link sent to %(email)s"
 msgstr ""
 "Tilisi on lukittu turvallisuussyistä. Jatka tilin käyttöä vahvistamalla se "
 "uudestaan linkistä vahvistusviestissä, joka on lähetetty osoitteeseen "
@@ -647,8 +649,8 @@ msgstr ""
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between "
-"sessions."
+"Accounts. Doing so will enable functionality such as remembering you between"
+" sessions."
 msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:3
@@ -693,9 +695,9 @@ msgstr "Unohditko salasanasi?"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:17
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
@@ -798,8 +800,8 @@ msgstr ""
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
-"When you reset your password, you will lose any Sync data that is not on one "
-"of your devices."
+"When you reset your password, you will lose any Sync data that is not on one"
+" of your devices."
 msgstr ""
 
 #: app/scripts/templates/reset_password.mustache:4
@@ -850,7 +852,8 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
+"in</a>"
 msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:18
@@ -948,7 +951,7 @@ msgstr "Poista tili"
 
 #: app/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete"
-msgstr ""
+msgstr "Poista"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid ""
@@ -961,9 +964,9 @@ msgstr ""
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
 
 #: app/scripts/templates/settings/devices.mustache:5
@@ -994,11 +997,11 @@ msgstr ""
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
-msgstr ""
+msgstr "Kuinka vanhat olet?"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Kirjaudu Sync-palveluun"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid ""
@@ -1008,7 +1011,7 @@ msgstr ""
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
-msgstr ""
+msgstr "Käytä OpenID:tä"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
@@ -1028,10 +1031,9 @@ msgstr ""
 #~ "Accounts. Cookies are small pieces of data stored in your browser that "
 #~ "provide functionality such as remembering you between sessions."
 #~ msgstr ""
-#~ "Firefox-tili -palvelu käyttää evästeitä. Ota evästeet käyttöön "
-#~ "selaimessasi. Evästeet ovat selaimeesi tallennettuja pieniä tiedostoja, "
-#~ "joiden avulla sivusto esimerkiksi muistaa kirjautumisesi istuntojen "
-#~ "välillä."
+#~ "Firefox-tili -palvelu käyttää evästeitä. Ota evästeet käyttöön selaimessasi."
+#~ " Evästeet ovat selaimeesi tallennettuja pieniä tiedostoja, joiden avulla "
+#~ "sivusto esimerkiksi muistaa kirjautumisesi istuntojen välillä."
 
 #~ msgid "1991"
 #~ msgstr "1991"
@@ -1151,13 +1153,13 @@ msgstr ""
 #~ msgstr "Kirjoita sähköpostiosoitteesi nollataksesi tilisi salasanan."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data "
-#~ "from our servers. A new Sync backup will be created from your local "
-#~ "browsing data."
+#~ "For security reasons, resetting your password will erase your Sync data from"
+#~ " our servers. A new Sync backup will be created from your local browsing "
+#~ "data."
 #~ msgstr ""
 #~ "Turvallisuussyistä salasanan nollaaminen poistaa palveluun sinusta "
-#~ "tallennetun datan palvelimiltamme. Uusi Sync-varmuuskopio luodaan "
-#~ "laitteesi selaustiedoista."
+#~ "tallennetun datan palvelimiltamme. Uusi Sync-varmuuskopio luodaan laitteesi "
+#~ "selaustiedoista."
 
 #~ msgid "You are signed in as"
 #~ msgstr "Olet kirjautunut sisään tunnuksella"
@@ -1166,13 +1168,13 @@ msgstr ""
 #~ msgstr "Onko sinulla jo tili? Kirjaudu sisään."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">Privacy Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
+#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+#~ "Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Jatkamalla hyväksyn Firefox pilvipalveluiden <a id=\"fxa-tos\" href=\"/"
-#~ "legal/terms\">käyttöehdot</a> ja<a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">tietosuojakäytännön</a>."
+#~ "Jatkamalla hyväksyn Firefox pilvipalveluiden <a id=\"fxa-tos\" "
+#~ "href=\"/legal/terms\">käyttöehdot</a> ja<a id=\"fxa-pp\" "
+#~ "href=\"/legal/privacy\">tietosuojakäytännön</a>."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Tilaa Firefoxin uutiset ja vihjeet -uutiskirje"
@@ -1189,15 +1191,12 @@ msgstr ""
 #~ msgid ""
 #~ "Once you're ﬁnished, use your new password to sign in on all of your "
 #~ "devices."
-#~ msgstr ""
-#~ "Kun olet valmis, kirjaudu uudella salasanalla kaikille laitteillesi."
+#~ msgstr "Kun olet valmis, kirjaudu uudella salasanalla kaikille laitteillesi."
 
 #~ msgid "Password changed"
 #~ msgstr "Salasana muutettu"
 
-#~ msgid ""
-#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
-#~ "email</a>."
+#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
 #~ msgstr ""
 #~ "Vahvistamaton tili. <a href=\"#\" id=\"resend\">Lähetä vahvistusviesti "
 #~ "uudelleen</a>."
@@ -1209,8 +1208,8 @@ msgstr ""
 #~ msgstr "Kirjauduttiin ulos"
 
 #~ msgid ""
-#~ "Your verification email was just returned. Mistyped email? <a href=\"/"
-#~ "signup\">Start over.</a>"
+#~ "Your verification email was just returned. Mistyped email? <a "
+#~ "href=\"/signup\">Start over.</a>"
 #~ msgstr ""
 #~ "Vahvistussähköpostisi palautettiin. Oliko sähköpostiosoite kirjoitettu "
 #~ "oikein? <a href=\"/signup\">Aloita alusta.</a>"
