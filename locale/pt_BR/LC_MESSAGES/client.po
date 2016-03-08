@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-08 15:52+0000\n"
-"PO-Revision-Date: 2016-02-22 22:33+0000\n"
-"Last-Translator: Wolfgang Marcos <wolfgang@cryptolab.net>\n"
+"PO-Revision-Date: 2016-03-08 16:52+0000\n"
+"Last-Translator: Marco Aurélio <fxhelp@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -142,8 +142,7 @@ msgid "Display name updated"
 msgstr "Nome atualizado"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "Conta bloqueada. <a href=\"/confirm_account_unlock\">Enviar e-mail de "
 "desbloqueio</a>"
@@ -155,7 +154,8 @@ msgstr "Saiu"
 #: app/scripts/lib/auth-errors.js:17 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -414,13 +414,15 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"Ao continuar, concorda com os <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Termos do serviço</a> e com a <a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Política de privacidade</a> de %(serviceName)s (%(serviceUri)s)."
+"Ao continuar, concorda com os <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Termos do serviço</a> e com a <a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Política de privacidade</a> de %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:26
 msgid ""
@@ -506,8 +508,8 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
-"O link que você clicou tem caracteres ausentes e pode ter sido quebrado pelo "
-"seu cliente de e-mail. Copie o endereço com cuidado e tente novamente."
+"O link que você clicou tem caracteres ausentes e pode ter sido quebrado pelo"
+" seu cliente de e-mail. Copie o endereço com cuidado e tente novamente."
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
@@ -539,18 +541,20 @@ msgstr "Link para redefinir senha danificado"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 msgid "Enter new password"
-msgstr ""
+msgstr "Digite a nova senha"
 
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid ""
 "Once you submit your new password, you will lose any Sync data that is not "
 "on one of your devices."
 msgstr ""
+"Uma vez que enviar sua nova senha, perderá quaisquer dados de sincronização "
+"que não esteja em um dos seus dispositivos."
 
 #: app/scripts/templates/complete_reset_password.mustache:11
 #: app/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
-msgstr ""
+msgstr "Aprenda como o Sync funciona."
 
 #: app/scripts/templates/complete_reset_password.mustache:12
 #: app/scripts/templates/settings/change_password.mustache:8
@@ -576,7 +580,7 @@ msgstr "Repetir senha"
 
 #: app/scripts/templates/complete_reset_password.mustache:19
 msgid "Submit new password"
-msgstr ""
+msgstr "Enviar a nova senha"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
@@ -621,8 +625,8 @@ msgstr "E-mail de desbloqueio enviado"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification"
+" link sent to %(email)s"
 msgstr ""
 "Por segurança, sua conta foi bloqueada. Para desbloqueá-la, reverifique sua "
 "conta clicando no link de verificação enviado para %(email)s"
@@ -636,12 +640,14 @@ msgid ""
 "Click on the link we've emailed you at %(email)s within the next hour to "
 "create a new password."
 msgstr ""
+"Clique no link que enviado para %(email)s dentro da próxima hora para criar "
+"uma nova senha."
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
 #: app/scripts/templates/reset_password.mustache:6
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "Lembrar senha? Entrar."
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -650,8 +656,8 @@ msgstr "Cookies e armazenamento local são necessários."
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between "
-"sessions."
+"Accounts. Doing so will enable functionality such as remembering you between"
+" sessions."
 msgstr ""
 "Por favor, habilite os cookies e armazenamento local em seu navegador para "
 "acessar as contas Firefox. Se o fizer, irá permitir funcionalidades como "
@@ -699,13 +705,13 @@ msgstr "Esqueceu sua senha?"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:17
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
-"Ao continuar, concorda com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos "
-"do serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy\">Política de "
-"privacidade</a> dos serviços na cloud do Firefox."
+"Ao continuar, concorda com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos"
+" do serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy\">Política de"
+" privacidade</a> dos serviços na cloud do Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -803,13 +809,15 @@ msgstr "Sua conta está pronta!"
 
 #: app/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
-msgstr ""
+msgstr "Esqueci a senha"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
-"When you reset your password, you will lose any Sync data that is not on one "
-"of your devices."
+"When you reset your password, you will lose any Sync data that is not on one"
+" of your devices."
 msgstr ""
+"Uma vez que redefinir sua senha, perderá quaisquer dados do Sync que não "
+"esteja em um dos seus dispositivos."
 
 #: app/scripts/templates/reset_password.mustache:4
 #: app/scripts/templates/sign_in.mustache:19
@@ -859,7 +867,8 @@ msgstr "Migre os dados do sync criando uma nova conta Firefox."
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
+"in</a>"
 msgstr ""
 "Tem uma conta com um e-mail diferente? <a href=\"%(signinUri)s\">Entre</a>"
 
@@ -973,9 +982,9 @@ msgstr "Dispositivos"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
 "O Firefox está disponível para <a href=\"%(linkWindows)s\">Windows</a>, <a "
 "href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
@@ -1043,13 +1052,13 @@ msgstr "Usar a conta Firefox"
 #~ msgstr "Tem certeza de que deseja redefinir a senha?"
 
 #~ msgid ""
-#~ "Resetting your password will erase your browsing data from our servers. "
-#~ "Any data on your devices will remain untouched. Begin the reset process "
-#~ "by entering your email below."
+#~ "Resetting your password will erase your browsing data from our servers. Any "
+#~ "data on your devices will remain untouched. Begin the reset process by "
+#~ "entering your email below."
 #~ msgstr ""
-#~ "Redefinir a senha irá apagar seus dados de navegação de nossos "
-#~ "servidores. Todos os dados em seus dispositivos permanecerão intocados. "
-#~ "Inicie o processo de reinicialização digitando seu e-mail abaixo."
+#~ "Redefinir a senha irá apagar seus dados de navegação de nossos servidores. "
+#~ "Todos os dados em seus dispositivos permanecerão intocados. Inicie o "
+#~ "processo de reinicialização digitando seu e-mail abaixo."
 
 #~ msgid "Begin reset"
 #~ msgstr "Redefinir"
@@ -1110,8 +1119,8 @@ msgstr "Usar a conta Firefox"
 #~ "Accounts. Cookies are small pieces of data stored in your browser that "
 #~ "provide functionality such as remembering you between sessions."
 #~ msgstr ""
-#~ "Por favor, habilite os cookies em seu navegador, pois são necessários "
-#~ "para o funcionamento do Firefox Accounts. Os cookies são pedaços de dados "
+#~ "Por favor, habilite os cookies em seu navegador, pois são necessários para o"
+#~ " funcionamento do Firefox Accounts. Os cookies são pedaços de dados "
 #~ "armazenados em seu navegador que permitem lembrar seu usuário entre uma "
 #~ "sessão e outra."
 
@@ -1251,13 +1260,13 @@ msgstr "Usar a conta Firefox"
 #~ msgstr "Digite seu e-mail para redefinir a senha da conta."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data "
-#~ "from our servers. A new Sync backup will be created from your local "
-#~ "browsing data."
+#~ "For security reasons, resetting your password will erase your Sync data from"
+#~ " our servers. A new Sync backup will be created from your local browsing "
+#~ "data."
 #~ msgstr ""
-#~ "Por segurança, redefinir a sua senha irá apagar todos os seus dados do "
-#~ "Sync de nossos servidores. Uma nova cópia de segurança será criada a "
-#~ "partir de seus dados de navegação local."
+#~ "Por segurança, redefinir a sua senha irá apagar todos os seus dados do Sync "
+#~ "de nossos servidores. Uma nova cópia de segurança será criada a partir de "
+#~ "seus dados de navegação local."
 
 #~ msgid "You are signed in as"
 #~ msgstr "Você está conectado como"
@@ -1266,22 +1275,25 @@ msgstr "Usar a conta Firefox"
 #~ msgstr "Já tem uma conta? Entre."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-#~ "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-#~ "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ "By proceeding, I agree to the <a id=\"service-tos\" "
+#~ "href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+#~ "href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
-#~ "Ao prosseguir, eu concordo com o <a id=\"service-tos\" href=\"%(termsUri)s"
-#~ "\">Termos do serviço</a> e <a id=\"service-pp\" href=\"%(privacyUri)s"
-#~ "\">política de privacidade</a> de %(serviceName)s (%(serviceUri)s)."
+#~ "Ao prosseguir, eu concordo com o <a id=\"service-tos\" "
+#~ "href=\"%(termsUri)s\">Termos do serviço</a> e <a id=\"service-pp\" "
+#~ "href=\"%(privacyUri)s\">política de privacidade</a> de %(serviceName)s "
+#~ "(%(serviceUri)s)."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">Privacy Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
+#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+#~ "Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Ao prosseguir, concordo com os <a id=\"fxa-tos\" href=\"/legal/terms"
-#~ "\">Termos do serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">Política de privacidade</a> dos serviços na nuvem do Firefox."
+#~ "Ao prosseguir, concordo com os <a id=\"fxa-tos\" "
+#~ "href=\"/legal/terms\">Termos do serviço</a> e com a <a id=\"fxa-pp\" "
+#~ "href=\"/legal/privacy\">Política de privacidade</a> dos serviços na nuvem do"
+#~ " Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Assine às notícias e dicas do Firefox"
@@ -1314,9 +1326,7 @@ msgstr "Usar a conta Firefox"
 #~ msgid "Password changed"
 #~ msgstr "Senha alterada"
 
-#~ msgid ""
-#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
-#~ "email</a>."
+#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
 #~ msgstr ""
 #~ "Conta não verificada. <a href=\"#\" id=\"resend\">Reenviar e-mail de "
 #~ "verificação</a>."
@@ -1328,11 +1338,11 @@ msgstr "Usar a conta Firefox"
 #~ msgstr "Sessão terminada"
 
 #~ msgid ""
-#~ "Your verification email was just returned. Mistyped email? <a href=\"/"
-#~ "signup\">Start over.</a>"
+#~ "Your verification email was just returned. Mistyped email? <a "
+#~ "href=\"/signup\">Start over.</a>"
 #~ msgstr ""
-#~ "Seu e-mail de confirmação foi devolvido. Digitou errado? <a href=\"/signup"
-#~ "\">Comece novamente.</a>"
+#~ "Seu e-mail de confirmação foi devolvido. Digitou errado? <a "
+#~ "href=\"/signup\">Comece novamente.</a>"
 
 #~ msgid "Paste image URL"
 #~ msgstr "Colar URL da imagem"
