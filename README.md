@@ -34,7 +34,7 @@ The process to work with strings:
 Some locales need to be copied over into a different directory. Run this script a few hours before the production deploy:
 
 ```
-./fxa-content-server-l10n/scripts/before_prod_deploy.sh --l10n-repo .
+./scripts/before_prod_deploy.sh --l10n-repo .
 ```
 
 ## String extraction
@@ -48,14 +48,20 @@ Source strings are extracted from the [fxa-content-server](https://github.com/mo
 ```
 where `TRAIN_NUMBER` is the train you are cutting strings for.
 
-This will create a new branch, pull request that branch against `master`. 
+This will create a new branch. Now run:
+```
+./scripts/before_prod_deploy.sh --l10n-repo .
+```
+
+Git commit the changes made by the script. Pull request that branch against `master`.
+
 After that pull request is merged run:
 
 ```
 ./scripts/email-dev-l10n.sh
 ```
 
-The script above will generate an email for the l10n mailing list.
+The script above will generate an email for the l10n mailing list. Read through the instructions in the script output to post to the l10n mailing list.
 
 ## Submitting Translations
 
