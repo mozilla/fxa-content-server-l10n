@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-08 15:52+0000\n"
-"PO-Revision-Date: 2016-02-25 12:35+0000\n"
+"PO-Revision-Date: 2016-03-09 19:20+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: az\n"
@@ -84,9 +84,9 @@ msgstr "Cihaz Firefox Hesabınıza qoşulu cihazlarla sinxronlaşmaya başladı.
 #: templates/password_reset.html:4 templates/post_verify.html:6
 #: templates/post_verify.txt:4 templates/reset.html:6 templates/reset.txt:4
 #: templates/unlock.html:6 templates/unlock.txt:3
-#: templates/verification_reminder.html:6 templates/verification_reminder.txt:4
-#: templates/verify.html:6 templates/verify.txt:4
-#: templates/verify_reminder_first.html:6
+#: templates/verification_reminder.html:6
+#: templates/verification_reminder.txt:4 templates/verify.html:6
+#: templates/verify.txt:4 templates/verify_reminder_first.html:6
 #: templates/verify_reminder_second.html:6
 msgid ""
 "This is an automated email; if you received it in error, no action is "
@@ -136,8 +136,8 @@ msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
-"Bu avtomatik e-poçtdur; Əgər Firefox Hesabınızın parolunu dəyişdirmədinizsə, "
-"dərhal %(resetLink)s ünvanından parolunuzu sıfırlamalısınız."
+"Bu avtomatik e-poçtdur; Əgər Firefox Hesabınızın parolunu dəyişdirmədinizsə,"
+" dərhal %(resetLink)s ünvanından parolunuzu sıfırlamalısınız."
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
 msgid "Password reset successfully"
@@ -149,8 +149,8 @@ msgstr "Firefox Hesabınızın parolu müvəffəqiyyətlə sıfırlandı."
 
 #: templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox"
+" Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 "Bu avtomatik e-poçtdur; Əgər Firefox Hesabınızın parolunu siz "
 "sıfırlamadınızsa, dərhal %(resetLink)s ünvanından parolunuzu "
@@ -215,12 +215,14 @@ msgstr "Hesabı təsdiqlə"
 msgid "Verify account:"
 msgstr "Hesabı təsdiqlə:"
 
-#: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
+#: templates/verification_reminder.html:2
+#: templates/verification_reminder.txt:1
 #: templates/verify_reminder_first.html:2
 msgid "Hello again."
 msgstr "Təkrar salam."
 
-#: templates/verification_reminder.html:3 templates/verification_reminder.txt:2
+#: templates/verification_reminder.html:3
+#: templates/verification_reminder.txt:2
 msgid ""
 "Recently you created a Firefox Account, but never verified it. Please "
 "activate your account by confirming this email address."
@@ -304,8 +306,8 @@ msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
-"İstədiyiniz səhifə tapılmadı. Bununla əlaqəli xəbərdarlıq aldıq və xarab ola "
-"biləcək bütün keçidləri düzəldəcik."
+"İstədiyiniz səhifə tapılmadı. Bununla əlaqəli xəbərdarlıq aldıq və xarab ola"
+" biləcək bütün keçidləri düzəldəcik."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
@@ -337,19 +339,20 @@ msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
-"Hazırda ağır yükün altındayıq və sistemi tez bir vaxtda normal hala gətirmək "
-"üçün işləyirik."
+"Hazırda ağır yükün altındayıq və sistemi tez bir vaxtda normal hala gətirmək"
+" üçün işləyirik."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+"You are using an <strong>outdated</strong> browser. Please <a "
+"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+"experience."
 msgstr ""
 "Siz <strong>vaxtı keçmiş</strong> səyyah işlədirsiz. Yeniliklərdən "
-"faydalanmaq üçün <a href=\"http://browsehappy.com/\">səyyahınızı yeniləyin</"
-"a>."
+"faydalanmaq üçün <a href=\"http://browsehappy.com/\">səyyahınızı "
+"yeniləyin</a>."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -376,6 +379,8 @@ msgid ""
 "This is an automated email; if you did not authorize this action, then <a "
 "%(passwordChangeUrl)s>please change your password.</a>"
 msgstr ""
+"Bu avtomatik e-poçtdur; Əgər bu əməliyyatı siz etməmisinizsə, lütfən, <a "
+"%(passwordChangeUrl)s>parolunuzu dəyişin.</a>"
 
 #: templates/new_sync_device.html:4 templates/password_changed.html:4
 #: templates/password_reset.html:4
@@ -389,9 +394,9 @@ msgstr ""
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history "
-"on any device connected to it. Simply confirm this email address to activate "
-"your account."
+"verified account lets you access your tabs, bookmarks, passwords and history"
+" on any device connected to it. Simply confirm this email address to "
+"activate your account."
 msgstr ""
 "Bir neçə gün əvvəl Firefox Hesabı yaratdınız, amma aktivləşdirməmisiniz. "
 "Təsdiqlənmiş hesab ona qoşulu bütün cihazlarda vərəq, əlfəcin, parol və "
@@ -401,10 +406,10 @@ msgstr ""
 #: templates/verify_reminder_second.html:3
 msgid ""
 "A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
-"iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know "
-"you're okay."
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and"
+" iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know"
+" you're okay."
 msgstr ""
 "Bir neçə gün əvvəl Firefox Hesabı yaratdınız, amma aktivləşdirməmisiniz. "
 "Sizin üçün narahatıq. Firefox Windows, Mac, Linux, Android və iOS üçün "
@@ -432,8 +437,8 @@ msgstr "/__heartbeat__"
 #~ msgstr "Şifrəni sıfırla"
 
 #~ msgid ""
-#~ "For more information, please visit <a href='https://support.mozilla."
-#~ "org'>Mozilla Support</a>"
+#~ "For more information, please visit <a "
+#~ "href='https://support.mozilla.org'>Mozilla Support</a>"
 #~ msgstr ""
 #~ "Ətraflı məlumat üçün <a href='https://support.mozilla.org'>Mozilla "
 #~ "Dəstək</a>-i ziyarət edin"
@@ -448,8 +453,7 @@ msgstr "/__heartbeat__"
 #~ msgid "Almost there"
 #~ msgstr "Az qaldı"
 
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
 #~ msgstr "%(email)s, Firefox Hesabınızı təsdiqləməyinizə bir klik qaldı."
 
 #~ msgid "Verify"
