@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-08 15:52+0000\n"
-"PO-Revision-Date: 2016-03-09 11:25+0000\n"
+"PO-Revision-Date: 2016-03-09 15:56+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -541,18 +541,20 @@ msgstr "Parolayı sıfırlama bağlantısı hasarlı"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 msgid "Enter new password"
-msgstr ""
+msgstr "Yeni parolanızı yazın"
 
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid ""
 "Once you submit your new password, you will lose any Sync data that is not "
 "on one of your devices."
 msgstr ""
+"Yeni parolanızı gönderdiğinizde cihazlarınızdan en az birinde saklanmamış "
+"olan tüm Sync verilerinizi kaybedeceksiniz."
 
 #: app/scripts/templates/complete_reset_password.mustache:11
 #: app/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
-msgstr ""
+msgstr "Sync’in nasıl çalıştığını öğrenin."
 
 #: app/scripts/templates/complete_reset_password.mustache:12
 #: app/scripts/templates/settings/change_password.mustache:8
@@ -639,12 +641,14 @@ msgid ""
 "Click on the link we've emailed you at %(email)s within the next hour to "
 "create a new password."
 msgstr ""
+"Yeni bir parola oluşturmak için %(email)s adresine gönderdiğimiz bağlantıya "
+"bir saat içinde tıklayın."
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
 #: app/scripts/templates/reset_password.mustache:6
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "Parolanızı hatırladınız mı? Giriş yapın."
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -736,7 +740,7 @@ msgstr "Yolda da senkronize olun:"
 
 #: app/scripts/templates/marketing_snippet.mustache:2
 msgid "Get Firefox for Android"
-msgstr "Android için Firefox'u edinin"
+msgstr "Android için Firefox’u edinin"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:1
 #: app/scripts/templates/marketing_snippet_ios.mustache:5
@@ -748,17 +752,17 @@ msgstr "Tam Sync deneyimini edinin."
 #: app/scripts/templates/marketing_snippet_ios.mustache:3
 #: app/scripts/templates/marketing_snippet_ios.mustache:12
 msgid "Download Firefox for iOS!"
-msgstr "iOS için Firefox'u indirin!"
+msgstr "iOS için Firefox’u indirin!"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:6
 #: app/scripts/templates/marketing_snippet_ios.mustache:7
 #: app/scripts/templates/marketing_snippet_ios.mustache:11
 msgid "Download Firefox for Android."
-msgstr "Android için Firefox'u indirin."
+msgstr "Android için Firefox’u indirin."
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr "Mobil cihazlar için Firefox'u indirin."
+msgstr "Mobil cihazlar için Firefox’u indirin."
 
 #: app/scripts/templates/permissions.mustache:1
 #: app/scripts/templates/settings/gravatar_permissions.mustache:1
@@ -806,13 +810,15 @@ msgstr "Hesabınız hazır!"
 
 #: app/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
-msgstr ""
+msgstr "Parolamı unuttum"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
 "When you reset your password, you will lose any Sync data that is not on one"
 " of your devices."
 msgstr ""
+"Parolanızı sıfırladığınızda cihazlarınızdan en az birinde saklanmamış olan "
+"tüm Sync verilerinizi kaybedeceksiniz."
 
 #: app/scripts/templates/reset_password.mustache:4
 #: app/scripts/templates/sign_in.mustache:19
