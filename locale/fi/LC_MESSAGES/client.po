@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-08 15:52+0000\n"
-"PO-Revision-Date: 2016-03-08 17:02+0000\n"
+"PO-Revision-Date: 2016-03-09 21:30+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -36,11 +36,11 @@ msgstr "Salasanan nollaus onnistui. Kirjaudu sisään jatkaaksesi."
 
 #: app/scripts/views/permissions.js:25
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName)s (pakollinen)"
 
 #: app/scripts/views/permissions.js:31
 msgid "Email address"
-msgstr ""
+msgstr "Sähköpostiosoite"
 
 #: app/scripts/views/permissions.js:36
 #: app/scripts/templates/settings/display_name.mustache:1
@@ -63,7 +63,7 @@ msgstr "Tilin lukitus purettu"
 
 #: app/scripts/views/ready.js:43
 msgid "Welcome back"
-msgstr ""
+msgstr "Tervetuloa takaisin"
 
 #: app/scripts/views/ready.js:44
 msgid "Firefox Sync will resume momentarily"
@@ -71,7 +71,7 @@ msgstr ""
 
 #: app/scripts/views/ready.js:54
 msgid "Welcome to Sync"
-msgstr ""
+msgstr "Tervetuloa Sync-palveluun"
 
 #: app/scripts/views/ready.js:59
 msgid "Account verified"
@@ -111,31 +111,31 @@ msgstr "Tilin poistaminen onnistui."
 
 #: app/scripts/views/settings/devices.js:25
 msgid "days ago"
-msgstr ""
+msgstr "päivää sitten"
 
 #: app/scripts/views/settings/devices.js:26
 msgid "hours ago"
-msgstr ""
+msgstr "tuntia sitten"
 
 #: app/scripts/views/settings/devices.js:27
 msgid "minutes ago"
-msgstr ""
+msgstr "minuuttia sitten"
 
 #: app/scripts/views/settings/devices.js:28
 msgid "months ago"
-msgstr ""
+msgstr "kuukautta sitten"
 
 #: app/scripts/views/settings/devices.js:29
 msgid "seconds ago"
-msgstr ""
+msgstr "sekuntia sitten"
 
 #: app/scripts/views/settings/devices.js:31
 msgid "weeks ago"
-msgstr ""
+msgstr "viikkoa sitten"
 
 #: app/scripts/views/settings/devices.js:32
 msgid "years ago"
-msgstr ""
+msgstr "vuotta sitten"
 
 #: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
@@ -375,19 +375,19 @@ msgstr "Virheellinen lause"
 
 #: app/scripts/lib/oauth-errors.js:36
 msgid "Unknown code"
-msgstr ""
+msgstr "Tuntematon koodi"
 
 #: app/scripts/lib/oauth-errors.js:40
 msgid "Incorrect code"
-msgstr ""
+msgstr "Virheellinen koodi"
 
 #: app/scripts/lib/oauth-errors.js:44
 msgid "Expired code"
-msgstr ""
+msgstr "Vanhentunut koodi"
 
 #: app/scripts/lib/oauth-errors.js:52 app/scripts/lib/oauth-errors.js:74
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Virheellinen OAuth-parametri: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:60 app/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
@@ -452,27 +452,27 @@ msgstr "Valitse, mitä synkronoidaan"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Tabs"
-msgstr ""
+msgstr "Välilehdet"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
-msgstr ""
+msgstr "Kirjanmerkit"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
-msgstr ""
+msgstr "Lisäosat"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:8
 msgid "Passwords"
-msgstr ""
+msgstr "Salasanat"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:10
 msgid "History"
-msgstr ""
+msgstr "Historia"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:13
 msgid "Preferences"
-msgstr ""
+msgstr "Asetukset"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
@@ -604,7 +604,7 @@ msgstr "Vahvistuslinkki on lähetetty osoitteeseen %(email)s"
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
-msgstr ""
+msgstr "Avaa Gmail"
 
 #: app/scripts/templates/confirm.mustache:7
 #: app/scripts/templates/confirm_account_unlock.mustache:6
@@ -738,7 +738,7 @@ msgstr "Ota kaikki irti synkronointipalvelusta."
 #: app/scripts/templates/marketing_snippet_ios.mustache:3
 #: app/scripts/templates/marketing_snippet_ios.mustache:12
 msgid "Download Firefox for iOS!"
-msgstr ""
+msgstr "Lataa Firefox iOS:lle!"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:6
 #: app/scripts/templates/marketing_snippet_ios.mustache:7
@@ -748,7 +748,7 @@ msgstr "Lataa Firefox Androidille."
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr ""
+msgstr "Lataa Firefox mobiililaitteille."
 
 #: app/scripts/templates/permissions.mustache:1
 #: app/scripts/templates/settings/gravatar_permissions.mustache:1
@@ -784,7 +784,7 @@ msgstr "Onnistui"
 
 #: app/scripts/templates/ready.mustache:2
 msgid "Sync preferences"
-msgstr ""
+msgstr "Synkronointiasetukset"
 
 #: app/scripts/templates/ready.mustache:6
 msgid "Proceed"
@@ -934,7 +934,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
-msgstr ""
+msgstr "Sähköpostiasetukset"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:10
 msgid "Unsubscribe"
@@ -975,7 +975,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/devices.mustache:6
 msgid "(current)"
-msgstr ""
+msgstr "(nykyinen)"
 
 #: app/scripts/templates/settings/devices.mustache:8
 msgid "Disconnect"
@@ -987,7 +987,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/devices.mustache:11
 msgid "Refresh"
-msgstr ""
+msgstr "Päivitä"
 
 #: app/scripts/templates/settings/display_name.mustache:3
 msgid ""
