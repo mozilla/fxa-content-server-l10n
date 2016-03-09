@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-08 15:52+0000\n"
-"PO-Revision-Date: 2015-11-13 18:01+0100\n"
+"PO-Revision-Date: 2016-03-10 16:58+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -140,23 +140,23 @@ msgid ""
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 "Wiadomość wygenerowana automatycznie. Jeśli nie zmieniono hasła konta "
-"Firefoksa, to należy je natychmiast zresetować pod adresem %(resetLink)s."
+"Firefoksa, to należy je natychmiast zmienić pod adresem %(resetLink)s."
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr "Pomyślnie zresetowano hasło"
+msgstr "Pomyślnie zmieniono hasło"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr "Pomyślnie zresetowano hasło konta Firefoksa."
+msgstr "Pomyślnie zmieniono hasło konta Firefoksa."
 
 #: templates/password_reset.txt:3
 msgid ""
 "This is an automated email; if you didn’t reset the password to your Firefox "
 "Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
-"Wiadomość wygenerowana automatycznie. Jeśli nie zresetowano hasła konta "
-"Firefoksa, to należy je natychmiast zresetować pod adresem %(resetLink)s."
+"Wiadomość wygenerowana automatycznie. Jeśli nie zmieniono hasła konta "
+"Firefoksa, to należy je natychmiast zmienić pod adresem %(resetLink)s."
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
@@ -189,15 +189,15 @@ msgstr "Na pewno?"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr "Proszę potwierdzić żądanie resetowania hasła dla adresu „%(email)s”."
+msgstr "Proszę potwierdzić żądanie zmiany hasła dla adresu „%(email)s”."
 
 #: templates/reset.html:4
 msgid "Reset password now"
-msgstr "Zresetuj hasło"
+msgstr "Zmień hasło"
 
 #: templates/reset.txt:3
 msgid "Reset password now:"
-msgstr "Zresetuj hasło:"
+msgstr "Zmień hasło:"
 
 #: templates/unlock.html:3 templates/unlock.txt:1
 msgid ""
@@ -269,7 +269,7 @@ msgstr "Zweryfikuj konto Firefoksa"
 
 #: mailer.js:158 mailer.js:165
 msgid "Reset your Firefox Account password"
-msgstr "Zresetuj hasło konta Firefoksa"
+msgstr "Zmień hasło konta Firefoksa"
 
 #: mailer.js:191 mailer.js:199
 msgid "Re-verify your Firefox Account"
@@ -281,7 +281,7 @@ msgstr "Zmieniono hasło konta Firefoksa"
 
 #: mailer.js:237 mailer.js:247 mailer.js:246
 msgid "Your Firefox Account password has been reset"
-msgstr "Zresetowano hasło konta Firefoksa"
+msgstr "Zmieniono hasło konta Firefoksa"
 
 #: mailer.js:258 mailer.js:269 mailer.js:268
 msgid "New sign-in to Firefox"
@@ -374,6 +374,8 @@ msgid ""
 "This is an automated email; if you did not authorize this action, then <a "
 "%(passwordChangeUrl)s>please change your password.</a>"
 msgstr ""
+"Wiadomość wygenerowana automatycznie. Jeżeli nie upoważniono wykonania tej "
+"czynności, to należy <a %(passwordChangeUrl)s>natychmiast zmienić hasło</a>."
 
 #: templates/new_sync_device.html:4 templates/password_changed.html:4
 #: templates/password_reset.html:4
@@ -382,8 +384,8 @@ msgid ""
 "%(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr ""
 "Wiadomość wygenerowana automatycznie. Jeżeli nie upoważniono wykonania tej "
-"czynności, to należy <a %(passwordChangeLinkAttributes)s>natychmiast "
-"zresetować hasło</a>."
+"czynności, to należy <a %(passwordChangeLinkAttributes)s>natychmiast zmienić "
+"hasło</a>."
 
 #: templates/verify_reminder_first.html:3
 msgid ""
