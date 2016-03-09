@@ -379,7 +379,7 @@ msgid ""
 "%(passwordChangeUrl)s>please change your password.</a>"
 msgstr ""
 "Detta är ett automatiskt email; om du inte har beviljat denna åtgärd, <a "
-"%passwordChangeUrl)s> vänligen ändra ditt lösenord.</a>"
+"%(passwordChangeUrl)s> vänligen ändra ditt lösenord.</a>"
 
 #: templates/new_sync_device.html:4 templates/password_changed.html:4
 #: templates/password_reset.html:4
