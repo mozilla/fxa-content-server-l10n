@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-08 15:52+0000\n"
-"PO-Revision-Date: 2016-02-29 21:16+0000\n"
+"PO-Revision-Date: 2016-03-09 22:33+0000\n"
 "Last-Translator: Branislav Rozbora <rozbora@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -380,6 +380,8 @@ msgid ""
 "This is an automated email; if you did not authorize this action, then <a "
 "%(passwordChangeUrl)s>please change your password.</a>"
 msgstr ""
+"Toto je automatický e-mail; ak ste túto akciu nevykonali, <a "
+"%(passwordChangeUrl)s>zmeňte si svoje heslo</a>."
 
 #: templates/new_sync_device.html:4 templates/password_changed.html:4
 #: templates/password_reset.html:4

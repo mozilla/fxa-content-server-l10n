@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-08 15:52+0000\n"
-"PO-Revision-Date: 2016-03-08 21:04+0000\n"
+"PO-Revision-Date: 2016-03-09 22:40+0000\n"
 "Last-Translator: Branislav Rozbora <rozbora@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -552,6 +552,8 @@ msgid ""
 "Once you submit your new password, you will lose any Sync data that is not "
 "on one of your devices."
 msgstr ""
+"Okamžite, ako zadáte svoje nové heslo, stratíte všetky údaje s službe Sync, "
+"ktoré nie sú uložené na žiadnom z vašich zariadení."
 
 #: app/scripts/templates/complete_reset_password.mustache:11
 #: app/scripts/templates/reset_password.mustache:3
@@ -642,6 +644,8 @@ msgid ""
 "Click on the link we've emailed you at %(email)s within the next hour to "
 "create a new password."
 msgstr ""
+"Pre vytvorenie nového hesla, najneskôr do jednej hodiny kliknite na odkaz, "
+"ktorý sme vám poslali e-mailom na adresu %(email)s."
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
@@ -816,6 +820,8 @@ msgid ""
 "When you reset your password, you will lose any Sync data that is not on one"
 " of your devices."
 msgstr ""
+"Ak obnovíte svoje heslo, stratíte údaje v službe Sync, ktoré nie sú uložené "
+"na žiadnom z vašich zariadení."
 
 #: app/scripts/templates/reset_password.mustache:4
 #: app/scripts/templates/sign_in.mustache:19
