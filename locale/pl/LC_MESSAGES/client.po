@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-08 15:52+0000\n"
-"PO-Revision-Date: 2016-02-23 13:00+0100\n"
+"PO-Revision-Date: 2016-03-10 16:58+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -543,18 +543,20 @@ msgstr "Odnośnik do zmiany hasła jest uszkodzony"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 msgid "Enter new password"
-msgstr ""
+msgstr "Wprowadź nowe hasło"
 
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid ""
 "Once you submit your new password, you will lose any Sync data that is not "
 "on one of your devices."
 msgstr ""
+"Wszystkie synchronizowane dane, które nie znajdują się na żadnym urządzeniu, "
+"zostaną utracone po wysłaniu nowego hasła."
 
 #: app/scripts/templates/complete_reset_password.mustache:11
 #: app/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
-msgstr ""
+msgstr "Więcej informacji o synchronizacji."
 
 #: app/scripts/templates/complete_reset_password.mustache:12
 #: app/scripts/templates/settings/change_password.mustache:8
@@ -580,7 +582,7 @@ msgstr "Powtórz hasło"
 
 #: app/scripts/templates/complete_reset_password.mustache:19
 msgid "Submit new password"
-msgstr ""
+msgstr "Wyślij nowe hasło"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
@@ -641,12 +643,14 @@ msgid ""
 "Click on the link we've emailed you at %(email)s within the next hour to "
 "create a new password."
 msgstr ""
+"Kliknij odnośnik wysłany do %(email)s w ciągu godziny, aby utworzyć nowe "
+"hasło."
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
 #: app/scripts/templates/reset_password.mustache:6
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "Pamiętasz hasło? Zaloguj się."
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -698,7 +702,7 @@ msgstr "Zaloguj"
 #: app/scripts/templates/sign_in.mustache:27
 #: app/scripts/templates/settings/change_password.mustache:7
 msgid "Forgot password?"
-msgstr "Zgubione hasło?"
+msgstr "Nie pamiętasz hasła?"
 
 #: app/scripts/templates/force_auth.mustache:9
 #: app/scripts/templates/sign_in.mustache:29
@@ -808,13 +812,15 @@ msgstr "Konto jest gotowe!"
 
 #: app/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
-msgstr ""
+msgstr "Nie pamiętasz hasła?"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
 "When you reset your password, you will lose any Sync data that is not on one "
 "of your devices."
 msgstr ""
+"Wszystkie synchronizowane dane, które nie znajdują się na żadnym urządzeniu, "
+"zostaną utracone po zmianie hasła."
 
 #: app/scripts/templates/reset_password.mustache:4
 #: app/scripts/templates/sign_in.mustache:19
@@ -1035,24 +1041,3 @@ msgstr "Użyj OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Użyj konta Firefoksa"
-
-#~ msgid "Next"
-#~ msgstr "Dalej"
-
-#~ msgid "A reset link has been sent to %(email)s"
-#~ msgstr "Wysłano odnośnik do zmiany hasła na adres „%(email)s”"
-
-#~ msgid "Are you sure you want to reset your account password?"
-#~ msgstr "Na pewno zmienić hasło konta?"
-
-#~ msgid ""
-#~ "Resetting your password will erase your browsing data from our servers. "
-#~ "Any data on your devices will remain untouched. Begin the reset process "
-#~ "by entering your email below."
-#~ msgstr ""
-#~ "Zmiana hasła spowoduje usunięcie danych przeglądania z naszych serwerów. "
-#~ "Wszystkie dane na urządzeniach nie zostaną naruszone. Rozpocznij proces "
-#~ "zmiany wprowadzając adres e-mail poniżej."
-
-#~ msgid "Begin reset"
-#~ msgstr "Rozpocznij zmianę"
