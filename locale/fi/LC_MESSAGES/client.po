@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-08 15:52+0000\n"
-"PO-Revision-Date: 2016-03-09 21:30+0000\n"
+"PO-Revision-Date: 2016-03-11 23:01+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -574,7 +574,7 @@ msgstr "Toista salasana"
 
 #: app/scripts/templates/complete_reset_password.mustache:19
 msgid "Submit new password"
-msgstr ""
+msgstr "Lähetä uusi salasana"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
@@ -640,7 +640,7 @@ msgstr ""
 #: app/scripts/templates/confirm_reset_password.mustache:7
 #: app/scripts/templates/reset_password.mustache:6
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "Muistatko salasanan? Kirjaudu sisään."
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -817,7 +817,7 @@ msgstr "Nollaa salasana"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Firefox-tilit"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
@@ -881,7 +881,7 @@ msgstr "Muuta"
 
 #: app/scripts/templates/settings/avatar.mustache:4
 msgid "Add"
-msgstr ""
+msgstr "Lisää"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -906,7 +906,7 @@ msgstr ""
 #: app/scripts/templates/settings/avatar_change.mustache:5
 #: app/scripts/templates/settings/devices.mustache:12
 msgid "Done"
-msgstr ""
+msgstr "Valmis"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
@@ -983,7 +983,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/devices.mustache:10
 msgid "Don't see all your devices?"
-msgstr ""
+msgstr "Etkö näe kaikkia laitteitasi?"
 
 #: app/scripts/templates/settings/devices.mustache:11
 msgid "Refresh"
@@ -1015,7 +1015,7 @@ msgstr "Käytä OpenID:tä"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr ""
+msgstr "Käytä Firefox-tiliä"
 
 #~ msgid "Next"
 #~ msgstr "Seuraava"
