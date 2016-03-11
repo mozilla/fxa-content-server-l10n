@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-08 15:52+0000\n"
-"PO-Revision-Date: 2016-03-09 15:17+0000\n"
+"PO-Revision-Date: 2016-03-11 11:57+0000\n"
 "Last-Translator: joergenr <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
@@ -548,6 +548,8 @@ msgid ""
 "Once you submit your new password, you will lose any Sync data that is not "
 "on one of your devices."
 msgstr ""
+"Når du indsender din nye adgangskode, vil du miste alle Sync-data, der ikke "
+"er på en af dine enheder."
 
 #: app/scripts/templates/complete_reset_password.mustache:11
 #: app/scripts/templates/reset_password.mustache:3
@@ -578,7 +580,7 @@ msgstr "Gentag adgangskode"
 
 #: app/scripts/templates/complete_reset_password.mustache:19
 msgid "Submit new password"
-msgstr ""
+msgstr "Indsend ny adgangskode"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
@@ -639,6 +641,8 @@ msgid ""
 "Click on the link we've emailed you at %(email)s within the next hour to "
 "create a new password."
 msgstr ""
+"Klik på det link, vi har sendt til dig på %(email)s indenfor den næste time "
+"for at oprette en ny adgangskode."
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
@@ -812,6 +816,8 @@ msgid ""
 "When you reset your password, you will lose any Sync data that is not on one"
 " of your devices."
 msgstr ""
+"Når du nulstiller din adgangskode, vil du miste alle Sync-data, der ikke er "
+"på en af dine enheder."
 
 #: app/scripts/templates/reset_password.mustache:4
 #: app/scripts/templates/sign_in.mustache:19
