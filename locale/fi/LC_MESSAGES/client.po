@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-08 15:52+0000\n"
-"PO-Revision-Date: 2016-03-11 23:01+0000\n"
+"PO-Revision-Date: 2016-03-11 23:06+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -46,7 +46,7 @@ msgstr "Sähköpostiosoite"
 #: app/scripts/templates/settings/display_name.mustache:1
 #: app/scripts/templates/settings/display_name.mustache:4
 msgid "Display name"
-msgstr ""
+msgstr "Näyttönimi"
 
 #: app/scripts/views/permissions.js:40
 #: app/scripts/templates/settings/avatar.mustache:1
@@ -139,7 +139,7 @@ msgstr "vuotta sitten"
 
 #: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
-msgstr ""
+msgstr "Näyttönimi päivitetty"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
 msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
@@ -537,7 +537,7 @@ msgstr "Salasanan nollauslinkki on vaurioitunut"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 msgid "Enter new password"
-msgstr ""
+msgstr "Kirjoita uusi salasana"
 
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid ""
@@ -763,7 +763,7 @@ msgstr ""
 #: app/scripts/templates/permissions.mustache:3
 #: app/scripts/templates/settings/gravatar_permissions.mustache:4
 msgid "Accept"
-msgstr ""
+msgstr "Hyväksy"
 
 #: app/scripts/templates/permissions.mustache:4
 #: app/scripts/templates/settings/avatar_camera.mustache:2
