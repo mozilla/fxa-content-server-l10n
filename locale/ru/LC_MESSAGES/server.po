@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-08 15:52+0000\n"
-"PO-Revision-Date: 2016-02-23 08:27+0000\n"
+"PO-Revision-Date: 2016-03-08 17:42+0000\n"
 "Last-Translator: bychek.ru <a@bychek.ru>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
 "Language: ru\n"
@@ -384,6 +384,8 @@ msgid ""
 "This is an automated email; if you did not authorize this action, then <a "
 "%(passwordChangeUrl)s>please change your password.</a>"
 msgstr ""
+"Это письмо создано автоматически; если вы не выполняли это действие, то, "
+"пожалуйста, <a %(passwordChangeUrl)s>смените свой пароль.</a>"
 
 #: templates/new_sync_device.html:4 templates/password_changed.html:4
 #: templates/password_reset.html:4
