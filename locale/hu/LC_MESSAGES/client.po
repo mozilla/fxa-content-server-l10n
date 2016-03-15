@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-08 15:52+0000\n"
-"PO-Revision-Date: 2016-02-25 09:38+0000\n"
-"Last-Translator: Gabor Kelemen <kelemeng@ubuntu.com>\n"
+"PO-Revision-Date: 2016-03-15 15:15+0000\n"
+"Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -142,11 +142,10 @@ msgid "Display name updated"
 msgstr "A megjelenő név frissítve"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
-"Fiók zárolva. <a href=\"/confirm_account_unlock\">Feloldási e-mail küldése</"
-"a>"
+"Fiók zárolva. <a href=\"/confirm_account_unlock\">Feloldási e-mail "
+"küldése</a>"
 
 #: app/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
@@ -155,7 +154,8 @@ msgstr "Sikeresen kijelentkezett"
 #: app/scripts/lib/auth-errors.js:17 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -417,13 +417,14 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "A folytatással elfogadja a %(serviceName)s (%(serviceUri)s) <a id=\"service-"
-"tos\" href=\"%(termsUri)s\">Felhasználási feltételeit</a> és az <a id="
-"\"service-pp\" href=\"%(privacyUri)s\">Adatvédelmi irányelveket</a>."
+"tos\" href=\"%(termsUri)s\">Felhasználási feltételeit</a> és az <a id"
+"=\"service-pp\" href=\"%(privacyUri)s\">Adatvédelmi irányelveket</a>."
 
 #: app/scripts/lib/strings.js:26
 msgid ""
@@ -541,18 +542,20 @@ msgstr "A jelszó-visszaállítási hivatkozás sérült"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 msgid "Enter new password"
-msgstr ""
+msgstr "Írja be az új jelszót"
 
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid ""
 "Once you submit your new password, you will lose any Sync data that is not "
 "on one of your devices."
 msgstr ""
+"Amikor elmenti az új jelszót, akkor elveszít minden Sync adatot, amely nincs"
+" az eszközei valamelyikén."
 
 #: app/scripts/templates/complete_reset_password.mustache:11
 #: app/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
-msgstr ""
+msgstr "Ismerje meg a Sync működését."
 
 #: app/scripts/templates/complete_reset_password.mustache:12
 #: app/scripts/templates/settings/change_password.mustache:8
@@ -578,7 +581,7 @@ msgstr "Jelszó megismétlése"
 
 #: app/scripts/templates/complete_reset_password.mustache:19
 msgid "Submit new password"
-msgstr ""
+msgstr "Új jelszó mentése"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
@@ -623,8 +626,8 @@ msgstr "Feloldási e-mail elküldve"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification"
+" link sent to %(email)s"
 msgstr ""
 "Biztonsági okból a fiókját zároltuk. A fiókkal kapcsolatos műveletekhez "
 "ellenőrizze újra a fiókját a(z) %(email)s címre küldött ellenőrzési "
@@ -639,12 +642,14 @@ msgid ""
 "Click on the link we've emailed you at %(email)s within the next hour to "
 "create a new password."
 msgstr ""
+"Az új jelszó létrehozásához kattintson a következő órán belül a "
+"hivatkozásra, amit e-mailben elküldtünk a(z) %(email)s címre."
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
 #: app/scripts/templates/reset_password.mustache:6
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "Emlékszik a jelszavára? Jelentkezzen be."
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -653,11 +658,11 @@ msgstr "Sütik és helyi tárhely szükséges."
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between "
-"sessions."
+"Accounts. Doing so will enable functionality such as remembering you between"
+" sessions."
 msgstr ""
-"A Firefox fiókjába belépéshez kérjük engedélyezze böngészőjében a sütiket és "
-"a helyi tárolást. Ezzel lehetővé teszi olyan funkciók működését, mint az "
+"A Firefox fiókjába belépéshez kérjük engedélyezze böngészőjében a sütiket és"
+" a helyi tárolást. Ezzel lehetővé teszi olyan funkciók működését, mint az "
 "adatok megjegyzése egyes munkamenetei között."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
@@ -702,9 +707,9 @@ msgstr "Elfelejtette a jelszót?"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:17
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
 "A folytatással elfogadja a Firefox felhőszolgáltatások <a id=\"fxa-tos\" "
 "href=\"/legal/terms\">Felhasználási feltételeit</a> és az <a id=\"fxa-pp\" "
@@ -806,13 +811,15 @@ msgstr "A fiókja elkészült!"
 
 #: app/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
-msgstr ""
+msgstr "Elfelejtett jelszó"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
-"When you reset your password, you will lose any Sync data that is not on one "
-"of your devices."
+"When you reset your password, you will lose any Sync data that is not on one"
+" of your devices."
 msgstr ""
+"Amikor visszaállítja a jelszavát, akkor elveszít minden Sync adatot, amely "
+"nincs az eszközei valamelyikén."
 
 #: app/scripts/templates/reset_password.mustache:4
 #: app/scripts/templates/sign_in.mustache:19
@@ -862,7 +869,8 @@ msgstr "Migrálja szinkronizálási adatait új Firefox fiók létrehozásával.
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
+"in</a>"
 msgstr ""
 "Van fiókja más e-mailcímmel? <a href=\"%(signinUri)s\">Jelentkezzen be</a>"
 
@@ -972,13 +980,14 @@ msgstr "Eszközök"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"A Firefox elérhető <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> és <a href=\"%(linkLinux)s\">Linux</a> rendszereken."
+"A Firefox elérhető <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> és <a href=\"%(linkLinux)s\">Linux</a> "
+"rendszereken."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -1042,13 +1051,13 @@ msgstr "Firefox fiók használata"
 #~ msgstr "Biztosan vissza szeretné állítani a fiók jelszavát?"
 
 #~ msgid ""
-#~ "Resetting your password will erase your browsing data from our servers. "
-#~ "Any data on your devices will remain untouched. Begin the reset process "
-#~ "by entering your email below."
+#~ "Resetting your password will erase your browsing data from our servers. Any "
+#~ "data on your devices will remain untouched. Begin the reset process by "
+#~ "entering your email below."
 #~ msgstr ""
-#~ "A jelszó visszaállítása törölni fogja böngészési adatait a "
-#~ "kiszolgálóinkról. Az eszközein lévő adatok nem változnak. A "
-#~ "visszaállítási folyamat elkezdéséhez adja meg alább az e-mail címét."
+#~ "A jelszó visszaállítása törölni fogja böngészési adatait a kiszolgálóinkról."
+#~ " Az eszközein lévő adatok nem változnak. A visszaállítási folyamat "
+#~ "elkezdéséhez adja meg alább az e-mail címét."
 
 #~ msgid "Begin reset"
 #~ msgstr "Visszaállítás elkezdése"
@@ -1110,9 +1119,9 @@ msgstr "Firefox fiók használata"
 #~ "provide functionality such as remembering you between sessions."
 #~ msgstr ""
 #~ "Engedélyezze a sütiket a böngészőjében, mert ez szükséges a Firefox fiók "
-#~ "használatához. A sütik a böngészőben tárolt kis adatdarabok, amelyek "
-#~ "olyan funkcionalitást biztosítanak, mint a felhasználók munkamenetek "
-#~ "közti megjegyzése."
+#~ "használatához. A sütik a böngészőben tárolt kis adatdarabok, amelyek olyan "
+#~ "funkcionalitást biztosítanak, mint a felhasználók munkamenetek közti "
+#~ "megjegyzése."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "A Firefox hamarosan érkezik iOS-re!"
@@ -1250,9 +1259,9 @@ msgstr "Firefox fiók használata"
 #~ msgstr "Írja be e-mail címét a fiók jelszavának visszaállításához."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data "
-#~ "from our servers. A new Sync backup will be created from your local "
-#~ "browsing data."
+#~ "For security reasons, resetting your password will erase your Sync data from"
+#~ " our servers. A new Sync backup will be created from your local browsing "
+#~ "data."
 #~ msgstr ""
 #~ "Biztonsági okból a jelszó visszaállítása törölni fogja a Sync adatait a "
 #~ "szervereinkről. Egy új Sync mentés kerül létrehozásra a helyi böngészési "
@@ -1265,18 +1274,19 @@ msgstr "Firefox fiók használata"
 #~ msgstr "Van felhasználói fiókja? Jelentkezzen be."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-#~ "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-#~ "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ "By proceeding, I agree to the <a id=\"service-tos\" "
+#~ "href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+#~ "href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
-#~ "A folytatással elfogadom a(z) %(serviceName)s (%(serviceUri)s) <a id="
-#~ "\"service-tos\" href=\"%(termsUri)s\">Felhasználási feltételeit</a> és az "
+#~ "A folytatással elfogadom a(z) %(serviceName)s (%(serviceUri)s) <a id"
+#~ "=\"service-tos\" href=\"%(termsUri)s\">Felhasználási feltételeit</a> és az "
 #~ "<a id=\"service-pp\" href=\"%(privacyUri)s\">Adatvédelmi irányelveit</a>."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">Privacy Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
+#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+#~ "Notice</a> of Firefox cloud services."
 #~ msgstr ""
 #~ "A folytatással elfogadom a Firefox felhő szolgáltatások <a id=\"fxa-tos\" "
 #~ "href=\"/legal/terms\">felhasználási feltételeit</a> és <a id=\"fxa-pp\" "
@@ -1312,9 +1322,7 @@ msgstr "Firefox fiók használata"
 #~ msgid "Password changed"
 #~ msgstr "A jelszó megváltozott"
 
-#~ msgid ""
-#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
-#~ "email</a>."
+#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
 #~ msgstr ""
 #~ "Ellenőrizetlen fiók. <a href=\"#\" id=\"resend\">Ellenőrző e-mail "
 #~ "újraküldése</a>."
@@ -1326,11 +1334,11 @@ msgstr "Firefox fiók használata"
 #~ msgstr "Kijelentkezett"
 
 #~ msgid ""
-#~ "Your verification email was just returned. Mistyped email? <a href=\"/"
-#~ "signup\">Start over.</a>"
+#~ "Your verification email was just returned. Mistyped email? <a "
+#~ "href=\"/signup\">Start over.</a>"
 #~ msgstr ""
-#~ "Az ellenőrző e-mail visszapattant. Elírta az e-mail címet? <a href=\"/"
-#~ "signup\">Kezdje újra.</a>"
+#~ "Az ellenőrző e-mail visszapattant. Elírta az e-mail címet? <a "
+#~ "href=\"/signup\">Kezdje újra.</a>"
 
 #~ msgid "Paste image URL"
 #~ msgstr "Kép URL beillesztése"
