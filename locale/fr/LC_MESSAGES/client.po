@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-08 15:52+0000\n"
-"PO-Revision-Date: 2016-03-08 18:45+0000\n"
+"PO-Revision-Date: 2016-03-19 22:59+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -185,7 +185,7 @@ msgstr "Compte inconnu"
 
 #: app/scripts/lib/auth-errors.js:47
 msgid "Incorrect email case"
-msgstr "Casse de l'adresse incorrecte"
+msgstr "Casse de l’adresse incorrecte"
 
 #: app/scripts/lib/auth-errors.js:51
 msgid "Incorrect password"
@@ -237,7 +237,7 @@ msgstr "Serveur occupé, veuillez réessayer plus tard"
 
 #: app/scripts/lib/auth-errors.js:103
 msgid "This endpoint is no longer supported"
-msgstr "Ce critère n'est plus pris en charge"
+msgstr "Ce critère n’est plus pris en charge"
 
 #: app/scripts/lib/auth-errors.js:107 app/scripts/lib/config-loader.js:73
 #: app/scripts/lib/marketing-email-errors.js:79
@@ -271,7 +271,7 @@ msgstr "Politique de confidentialité introuvable"
 
 #: app/scripts/lib/auth-errors.js:135
 msgid "Could not get Terms of Service"
-msgstr "Conditions d'utilisation introuvables"
+msgstr "Conditions d’utilisation introuvables"
 
 #: app/scripts/lib/auth-errors.js:139
 msgid "Your new password must be different"
@@ -282,7 +282,7 @@ msgstr "Votre nouveau mot de passe doit être différent"
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/change_password.mustache:11
 msgid "Must be at least 8 characters"
-msgstr "Doit être long d'au moins 8 caractères"
+msgstr "Doit être long d’au moins 8 caractères"
 
 #: app/scripts/lib/auth-errors.js:147
 msgid "Valid password required"
@@ -295,7 +295,7 @@ msgstr "Adresse électronique valide requise"
 
 #: app/scripts/lib/auth-errors.js:162
 msgid "A usable image was not found"
-msgstr "Aucune image convenable n'a été trouvée"
+msgstr "Aucune image convenable n’a été trouvée"
 
 #: app/scripts/lib/auth-errors.js:166
 msgid "Could not initialize camera"
@@ -315,7 +315,7 @@ msgstr ""
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr ""
 "Veuillez saisir une adresse électronique valide. firefox.com ne fournit pas "
-"d'adresses électroniques."
+"d’adresses électroniques."
 
 #: app/scripts/lib/auth-errors.js:201
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
@@ -332,7 +332,7 @@ msgstr "/force_auth nécessite une adresse électronique"
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
 msgstr ""
-"Le lien de confirmation de l'adresse électronique sur lequel vous venez de "
+"Le lien de confirmation de l’adresse électronique sur lequel vous venez de "
 "cliquer a expiré."
 
 #: app/scripts/lib/auth-errors.js:217
@@ -342,7 +342,7 @@ msgstr "Lien de confirmation altéré"
 
 #: app/scripts/lib/auth-errors.js:225
 msgid "The image dimensions must be at least 100x100px"
-msgstr "Les dimensions de l'image doivent être au minimum de 100×100 px"
+msgstr "Les dimensions de l’image doivent être au minimum de 100×100 px"
 
 #: app/scripts/lib/auth-errors.js:229
 msgid "Signup is coming soon to Firefox for iOS"
@@ -403,7 +403,7 @@ msgstr "Accès interdit"
 
 #: app/scripts/lib/oauth-errors.js:86
 msgid "Something went wrong. Please close this tab and try again."
-msgstr "Une erreur s'est produite. Veuillez fermer cet onglet et réessayer."
+msgstr "Une erreur s’est produite. Veuillez fermer cet onglet et réessayer."
 
 #: app/scripts/lib/oauth-errors.js:106
 msgid "Missing OAuth parameter: %(param)s"
@@ -411,11 +411,11 @@ msgstr "Paramètre OAuth manquant : %(param)s"
 
 #: app/scripts/lib/profile-errors.js:27
 msgid "Unsupported image provider"
-msgstr "Fournisseur d'image non pris en charge"
+msgstr "Fournisseur d’image non pris en charge"
 
 #: app/scripts/lib/profile-errors.js:31
 msgid "Image processing error"
-msgstr "Erreur d'analyse de l'image"
+msgstr "Erreur d’analyse de l’image"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -429,7 +429,7 @@ msgid ""
 "(%(serviceUri)s)."
 msgstr ""
 "En continuant, vous acceptez les <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">conditions d'utilisation</a> et la <a id=\"service-"
+"href=\"%(termsUri)s\">conditions d’utilisation</a> et la <a id=\"service-"
 "pp\" href=\"%(privacyUri)s\">politique de confidentialité</a> de "
 "%(serviceName)s (%(serviceUri)s).                "
 
@@ -449,7 +449,7 @@ msgstr "Création de compte impossible"
 msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr ""
-"Vous devez avoir atteint l'âge requis pour pouvoir créer un compte Firefox."
+"Vous devez avoir atteint l’âge requis pour pouvoir créer un compte Firefox."
 
 #: app/scripts/templates/cannot_create_account.mustache:5
 msgid "Learn more."
@@ -488,7 +488,7 @@ msgstr "Préférences"
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
 msgstr ""
-"Les modules complémentaires et les préférences ne sont pour l'instant pas "
+"Les modules complémentaires et les préférences ne sont pour l’instant pas "
 "synchronisés avec les appareils mobiles."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
@@ -518,7 +518,7 @@ msgid ""
 "your email client. Copy the address carefully, and try again."
 msgstr ""
 "Le lien sur lequel vous avez cliqué était incomplet, probablement à cause de"
-" votre client de messagerie. Veuillez vous assurer de copier l'adresse "
+" votre client de messagerie. Veuillez vous assurer de copier l’adresse "
 "complète puis réessayez."
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
@@ -639,7 +639,7 @@ msgid ""
 " link sent to %(email)s"
 msgstr ""
 "Pour des raisons de sécurité, votre compte a été verrouillé. Afin "
-"d'effectuer des actions liées à votre compte, veuillez le confirmer à "
+"d’effectuer des actions liées à votre compte, veuillez le confirmer à "
 "nouveau en cliquant sur le lien de confirmation envoyé à %(email)s"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
@@ -721,7 +721,7 @@ msgid ""
 "href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
 "En continuant, vous acceptez les <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">conditions d'utilisation</a> et la <a id=\"fxa-pp\" "
+"href=\"/legal/terms\">conditions d’utilisation</a> et la <a id=\"fxa-pp\" "
 "href=\"/legal/privacy\">politique de confidentialité</a> des services en "
 "ligne de Firefox."
 
@@ -738,7 +738,7 @@ msgstr "Mentions légales"
 #: app/scripts/templates/settings.mustache:5
 #: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
-msgstr "Conditions d'utilisation"
+msgstr "Conditions d’utilisation"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
 #: app/scripts/templates/settings.mustache:6
@@ -887,7 +887,7 @@ msgid ""
 "Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
 "in</a>"
 msgstr ""
-"Vous disposez d'un compte avec une autre adresse électronique ? <a "
+"Vous disposez d’un compte avec une autre adresse électronique ? <a "
 "href=\"%(signinUri)s\">Connectez-vous</a>"
 
 #: app/scripts/templates/sign_up.mustache:18
@@ -976,7 +976,7 @@ msgstr "Se désinscrire"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:12
 msgid "Subscribe"
-msgstr "S'inscrire"
+msgstr "S’inscrire"
 
 #: app/scripts/templates/settings/delete_account.mustache:1
 #: app/scripts/templates/settings/delete_account.mustache:6
