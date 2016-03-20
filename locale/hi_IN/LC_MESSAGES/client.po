@@ -1,17 +1,18 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-08 15:52+0000\n"
-"PO-Revision-Date: 2015-08-29 14:35+0000\n"
-"Last-Translator: umesh <umeshsnwl@gmail.com>\n"
+"PO-Revision-Date: 2016-03-20 17:04+0000\n"
+"Last-Translator: umesh.agarwal1 <umesh.agarwal1@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1440858924.0\n"
 
 #: app/scripts/views/complete_reset_password.js:129
@@ -36,10 +37,12 @@ msgstr "कूटशब्द सफलतापूर्वक बदला ग
 #: app/scripts/views/permissions.js:25
 msgid "%(permissionName)s (required)"
 msgstr ""
+"%(permissionName)s (required) \n"
+"{ok}"
 
 #: app/scripts/views/permissions.js:31
 msgid "Email address"
-msgstr ""
+msgstr "ई-मेल पता"
 
 #: app/scripts/views/permissions.js:36
 #: app/scripts/templates/settings/display_name.mustache:1
@@ -54,7 +57,7 @@ msgstr "खाते की तस्वीर"
 
 #: app/scripts/views/ready.js:29
 msgid "Firefox Sync will begin momentarily"
-msgstr ""
+msgstr "Firefox सिंक क्षण भर शुरू हो जाएगा"
 
 #: app/scripts/views/ready.js:38
 msgid "Account unlocked"
@@ -62,15 +65,15 @@ msgstr "खाता वितालकित"
 
 #: app/scripts/views/ready.js:43
 msgid "Welcome back"
-msgstr ""
+msgstr "आपका फिर स्वागत है"
 
 #: app/scripts/views/ready.js:44
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "Firefox सिंक क्षण भर शुरू हो जाएगा"
 
 #: app/scripts/views/ready.js:54
 msgid "Welcome to Sync"
-msgstr ""
+msgstr "Sunc में आपका स्वागत हैं"
 
 #: app/scripts/views/ready.js:59
 msgid "Account verified"
@@ -110,7 +113,7 @@ msgstr "खाता सफलतापूर्वक नष्ट किया
 
 #: app/scripts/views/settings/devices.js:25
 msgid "days ago"
-msgstr ""
+msgstr "इतने दिन पहले"
 
 #: app/scripts/views/settings/devices.js:26
 msgid "hours ago"
@@ -134,15 +137,14 @@ msgstr ""
 
 #: app/scripts/views/settings/devices.js:32
 msgid "years ago"
-msgstr ""
+msgstr "साल पहले"
 
 #: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
 msgstr "प्रदर्शित होने वाले नाम का नवीनीकरण हो गया है"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr "खाता बंद. <a href=\"/confirm_account_unlock\">खोलने हेतु ईमेल भेजें</a>"
 
 #: app/scripts/views/mixins/signed-out-notification-mixin.js:39
@@ -152,7 +154,8 @@ msgstr "सफलतापूर्वक साइन आउट किया �
 #: app/scripts/lib/auth-errors.js:17 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -312,7 +315,9 @@ msgstr "एक वैध ईमेल प्रविष्ट करें. fir
 
 #: app/scripts/lib/auth-errors.js:201
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "फ़ायरफ़ॉक्स खातों कों केवल अनुमोदित साइटों पर एक IFRAME में ही रखा जा सकता है"
+msgstr ""
+"फ़ायरफ़ॉक्स खातों कों केवल अनुमोदित साइटों पर एक IFRAME में ही रखा जा सकता "
+"है"
 
 #: app/scripts/lib/auth-errors.js:209
 msgid "/force_auth requires an email"
@@ -343,7 +348,7 @@ msgstr "पंजीकरण अक्षम किया गया है"
 
 #: app/scripts/lib/auth-errors.js:237
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "साइन अप करने के लिए आपकी उम्र दर्ज करना होगा"
 
 #: app/scripts/lib/auth-errors.js:241
 msgid "No Gravatar found"
@@ -411,13 +416,14 @@ msgstr "फ़ायरफ़ॉक्स के साथ करें"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"कार्यवाही आगे बढ़ा के, आप स्वीकृत करते हैं <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">सेवा की शर्तें</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">निजी सूचना</"
-"a> of %(serviceName)s (%(serviceUri)s)."
+"कार्यवाही आगे बढ़ा के, आप स्वीकृत करते हैं <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">सेवा की शर्तें</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">निजी सूचना</a> of %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:26
 msgid ""
@@ -433,8 +439,8 @@ msgstr "खाता नहीं बना सका"
 msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr ""
-"अनिवार्य है की आप एक उचित आयु माँग को पूरी करें यदि आप बनाना चाहते हैं एक Firefox&nbsp;"
-"खाता."
+"अनिवार्य है की आप एक उचित आयु माँग को पूरी करें यदि आप बनाना चाहते हैं एक "
+"Firefox&nbsp;खाता."
 
 #: app/scripts/templates/cannot_create_account.mustache:5
 msgid "Learn more."
@@ -456,7 +462,7 @@ msgstr "बुकमार्क्स"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
-msgstr ""
+msgstr "ऐड-ऑन्स"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:8
 msgid "Passwords"
@@ -468,11 +474,12 @@ msgstr "इतिहास"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:13
 msgid "Preferences"
-msgstr ""
+msgstr "प्राथमिकता"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
 msgstr ""
+"Add-ons और प्राथमिकताएं वर्तमान में मोबाइल डिवाइस पर सिंक्रनाइज़ नहीं."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 #: app/scripts/templates/sign_up.mustache:24
@@ -500,8 +507,8 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
-"जिस लिंक पर आपने क्लिक किया है उसमें अक्षर अनुपस्थित हैं, एवं शायद आपके ईमेल यजमान द्वारा "
-"तोड़ दिया गया. ध्यानपूर्वक पता कॉपी करें, एवं पुनः प्रयास करें."
+"जिस लिंक पर आपने क्लिक किया है उसमें अक्षर अनुपस्थित हैं, एवं शायद आपके ईमेल"
+" यजमान द्वारा तोड़ दिया गया. ध्यानपूर्वक पता कॉपी करें, एवं पुनः प्रयास करें."
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
@@ -522,8 +529,8 @@ msgstr "ईमेल फिर से प्रेषित"
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
 msgstr ""
-"जिस लिंक पर आपने अपना कूटशब्द पुनः तैयार करने के लिए क्लिक किया है उसकी वैधता समाप्त हो "
-"चुकी है."
+"जिस लिंक पर आपने अपना कूटशब्द पुनः तैयार करने के लिए क्लिक किया है उसकी "
+"वैधता समाप्त हो चुकी है."
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
@@ -535,7 +542,7 @@ msgstr "कूटशब्द पुनः तैयार करने हे�
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 msgid "Enter new password"
-msgstr ""
+msgstr "नया कूटशब्द करें"
 
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid ""
@@ -546,7 +553,7 @@ msgstr ""
 #: app/scripts/templates/complete_reset_password.mustache:11
 #: app/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
-msgstr ""
+msgstr "जानें कैसे सिंक काम करता है."
 
 #: app/scripts/templates/complete_reset_password.mustache:12
 #: app/scripts/templates/settings/change_password.mustache:8
@@ -572,7 +579,7 @@ msgstr "कूटशब्द आवृत्ति"
 
 #: app/scripts/templates/complete_reset_password.mustache:19
 msgid "Submit new password"
-msgstr ""
+msgstr "नया कूटशब्द करें"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
@@ -617,12 +624,12 @@ msgstr "वितालकन ईमेल भेजा गया"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification"
+" link sent to %(email)s"
 msgstr ""
-"सुरक्षा कारणों से आपका खाता लॉकडाउन पर रखा गया है. खाता स्तरीय गतिविधियां करने के "
-"लिए, एवं अपना खाता पुनः सत्यापित करने के लिए %(email)s पर भेजे गए सत्यापन लिंक पर "
-"क्लिक करें"
+"सुरक्षा कारणों से आपका खाता लॉकडाउन पर रखा गया है. खाता स्तरीय गतिविधियां "
+"करने के लिए, एवं अपना खाता पुनः सत्यापित करने के लिए %(email)s पर भेजे गए "
+"सत्यापन लिंक पर क्लिक करें"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -647,8 +654,8 @@ msgstr ""
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between "
-"sessions."
+"Accounts. Doing so will enable functionality such as remembering you between"
+" sessions."
 msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:3
@@ -693,13 +700,13 @@ msgstr "कूटशब्द भूल गए?"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:17
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
-"कार्यवाही आगे बढ़ा के, आप स्वीकृत करते हैं <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">सेवा की शर्तें</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">निजी सूचना</a> "
-"फ़ायरफ़ॉक्स क्लाउड सेवाओं की."
+"कार्यवाही आगे बढ़ा के, आप स्वीकृत करते हैं <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">सेवा की शर्तें</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">निजी सूचना</a> फ़ायरफ़ॉक्स क्लाउड सेवाओं की."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -801,8 +808,8 @@ msgstr ""
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
-"When you reset your password, you will lose any Sync data that is not on one "
-"of your devices."
+"When you reset your password, you will lose any Sync data that is not on one"
+" of your devices."
 msgstr ""
 
 #: app/scripts/templates/reset_password.mustache:4
@@ -831,7 +838,9 @@ msgstr "जारी रखें %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr "अपने फॉयरफॉक्स तथा nbsp खातों मैं साइन इन करके अपना;सिंक डेटा माइग्रेट कीजिए."
+msgstr ""
+"अपने फॉयरफॉक्स तथा nbsp खातों मैं साइन इन करके अपना;सिंक डेटा माइग्रेट "
+"कीजिए."
 
 #: app/scripts/templates/sign_in.mustache:13
 #: app/scripts/templates/sign_in.mustache:16
@@ -853,7 +862,8 @@ msgstr "नए फॉयरफॉक्स तथा nbsp खाते बना
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
+"in</a>"
 msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:18
@@ -921,8 +931,8 @@ msgid ""
 "Once you're finished, use your new password to sign in on all of your "
 "devices."
 msgstr ""
-"आप एक बार संपूर्ण करने के बाद, अपने नए कूटशब्द का उपयोग कर अपने संपूर्ण यंत्रों में साइन इन "
-"करें."
+"आप एक बार संपूर्ण करने के बाद, अपने नए कूटशब्द का उपयोग कर अपने संपूर्ण "
+"यंत्रों में साइन इन करें."
 
 #: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
@@ -957,7 +967,8 @@ msgstr "मिटा दें"
 msgid ""
 "Are you sure you want to delete your account? This action cannot be undone."
 msgstr ""
-"क्या आप निश्चित हैं की आप अपना खाता नष्ट करना चाहते हैं? यह क्रिया वापस नहीं हो सकती."
+"क्या आप निश्चित हैं की आप अपना खाता नष्ट करना चाहते हैं? यह क्रिया वापस नहीं"
+" हो सकती."
 
 #: app/scripts/templates/settings/devices.mustache:2
 msgid "Devices"
@@ -965,9 +976,9 @@ msgstr ""
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
 
 #: app/scripts/templates/settings/devices.mustache:5
@@ -995,7 +1006,8 @@ msgid ""
 "Choose the name you would like to appear in Firefox and when managing your "
 "account."
 msgstr ""
-"नाम का चयन करें जो कि आप फॉयरफॉक्स में तथा अकाउंट प्रबंधन के समय प्रदर्शित करना चाहते हैं."
+"नाम का चयन करें जो कि आप फॉयरफॉक्स में तथा अकाउंट प्रबंधन के समय प्रदर्शित "
+"करना चाहते हैं."
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1026,15 +1038,17 @@ msgstr ""
 #~ msgstr "एक पुनः तैयार करने का लिंक भेजा गया %(email)s पर"
 
 #~ msgid "Are you sure you want to reset your account password?"
-#~ msgstr "क्या आप सुनिश्चित करते हैं कि आप अपने खाते का पासवर्ड रीसेट करना चाहते हैं?"
+#~ msgstr ""
+#~ "क्या आप सुनिश्चित करते हैं कि आप अपने खाते का पासवर्ड रीसेट करना चाहते हैं?"
 
 #~ msgid ""
-#~ "Resetting your password will erase your browsing data from our servers. "
-#~ "Any data on your devices will remain untouched. Begin the reset process "
-#~ "by entering your email below."
+#~ "Resetting your password will erase your browsing data from our servers. Any "
+#~ "data on your devices will remain untouched. Begin the reset process by "
+#~ "entering your email below."
 #~ msgstr ""
-#~ "पासवर्ड रीसेट करने पर हमारे सर्वर से आपका ब्राउज़िंग डाटा मिट जायेगा. आपके उपकरणों पर "
-#~ "कोई डेटा अछूता रहेगा. नीचे अपना ईमेल दर्ज करके रीसेट प्रक्रिया शुरू करते हैं."
+#~ "पासवर्ड रीसेट करने पर हमारे सर्वर से आपका ब्राउज़िंग डाटा मिट जायेगा. आपके "
+#~ "उपकरणों पर कोई डेटा अछूता रहेगा. नीचे अपना ईमेल दर्ज करके रीसेट प्रक्रिया "
+#~ "शुरू करते हैं."
 
 #~ msgid "Begin reset"
 #~ msgstr "रीसेट शुरू करें"
@@ -1056,9 +1070,9 @@ msgstr ""
 #~ "Accounts. Cookies are small pieces of data stored in your browser that "
 #~ "provide functionality such as remembering you between sessions."
 #~ msgstr ""
-#~ "कृपया फ़ायरफ़ॉक्स खातों के लिए आवश्यक कुकीज़ को अपने ब्राउज़र में अधिकार दें. कुकीज़ आपके "
-#~ "ब्राउज़र में संग्रहित विवरण के छोटे टुकड़े होते हैं जोकि आपको फ़ायरफ़ॉक्स सत्रों के बीच में याद "
-#~ "रखने जैसी कार्यात्मकता प्रदान करते हैं."
+#~ "कृपया फ़ायरफ़ॉक्स खातों के लिए आवश्यक कुकीज़ को अपने ब्राउज़र में अधिकार दें. "
+#~ "कुकीज़ आपके ब्राउज़र में संग्रहित विवरण के छोटे टुकड़े होते हैं जोकि आपको "
+#~ "फ़ायरफ़ॉक्स सत्रों के बीच में याद रखने जैसी कार्यात्मकता प्रदान करते हैं."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "फ़ायरफ़ॉक्स जल्द आ रहा है iOS पर!"
@@ -1193,13 +1207,13 @@ msgstr ""
 #~ msgstr "अपना ईमेल प्रविष्ट करें reset&nbsp;करने के लिए अपने खाता कूटशब्द."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data "
-#~ "from our servers. A new Sync backup will be created from your local "
-#~ "browsing data."
+#~ "For security reasons, resetting your password will erase your Sync data from"
+#~ " our servers. A new Sync backup will be created from your local browsing "
+#~ "data."
 #~ msgstr ""
-#~ "सुरक्षा कारणों से, अपना कूटशब्द पुनः तैयार करने पर आपका साथ किया हुआ डेटा हमारे सर्वेरों "
-#~ "से मिटा दिया जाएगा. आपके स्थानीय ब्राउज़िंग डेटा से एक नया साथ किया हुआ बैकअप का "
-#~ "निर्माण कर दिया जाएगा."
+#~ "सुरक्षा कारणों से, अपना कूटशब्द पुनः तैयार करने पर आपका साथ किया हुआ डेटा "
+#~ "हमारे सर्वेरों से मिटा दिया जाएगा. आपके स्थानीय ब्राउज़िंग डेटा से एक नया "
+#~ "साथ किया हुआ बैकअप का निर्माण कर दिया जाएगा."
 
 #~ msgid "You are signed in as"
 #~ msgstr "आप निम्न के रूप में साइन इन हैं"
