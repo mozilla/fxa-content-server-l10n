@@ -1,17 +1,18 @@
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-20 22:20+0000\n"
-"PO-Revision-Date: 2015-08-29 14:35+0000\n"
-"Last-Translator: umesh <umeshsnwl@gmail.com>\n"
+"PO-Revision-Date: 2016-03-20 17:04+0000\n"
+"Last-Translator: umesh.agarwal1 <umesh.agarwal1@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1440858924.0\n"
 
 #: app/scripts/views/complete_reset_password.js:129
@@ -36,10 +37,12 @@ msgstr "कूटशब्द सफलतापूर्वक बदला ग
 #: app/scripts/views/permissions.js:25
 msgid "%(permissionName)s (required)"
 msgstr ""
+"%(permissionName)s (required) \n"
+"{ok}"
 
 #: app/scripts/views/permissions.js:31
 msgid "Email address"
-msgstr ""
+msgstr "ई-मेल पता"
 
 #: app/scripts/views/permissions.js:36
 #: app/scripts/templates/settings/display_name.mustache:1
@@ -54,7 +57,7 @@ msgstr "खाते की तस्वीर"
 
 #: app/scripts/views/ready.js:29
 msgid "Firefox Sync will begin momentarily"
-msgstr ""
+msgstr "Firefox सिंक क्षण भर शुरू हो जाएगा"
 
 #: app/scripts/views/ready.js:38
 msgid "Account unlocked"
@@ -62,15 +65,15 @@ msgstr "खाता वितालकित"
 
 #: app/scripts/views/ready.js:43
 msgid "Welcome back"
-msgstr ""
+msgstr "आपका फिर स्वागत है"
 
 #: app/scripts/views/ready.js:44
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "Firefox सिंक क्षण भर शुरू हो जाएगा"
 
 #: app/scripts/views/ready.js:54
 msgid "Welcome to Sync"
-msgstr ""
+msgstr "Sunc में आपका स्वागत हैं"
 
 #: app/scripts/views/ready.js:59
 msgid "Account verified"
@@ -114,7 +117,7 @@ msgstr "खाता सफलतापूर्वक नष्ट किया
 
 #: app/scripts/views/settings/devices.js:25
 msgid "days ago"
-msgstr ""
+msgstr "इतने दिन पहले"
 
 #: app/scripts/views/settings/devices.js:26
 msgid "hours ago"
@@ -138,7 +141,7 @@ msgstr ""
 
 #: app/scripts/views/settings/devices.js:32
 msgid "years ago"
-msgstr ""
+msgstr "साल पहले"
 
 #: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
@@ -347,7 +350,7 @@ msgstr "पंजीकरण अक्षम किया गया है"
 
 #: app/scripts/lib/auth-errors.js:237
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "साइन अप करने के लिए आपकी उम्र दर्ज करना होगा"
 
 #: app/scripts/lib/auth-errors.js:241
 msgid "No Gravatar found"
@@ -464,7 +467,7 @@ msgstr "बुकमार्क्स"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
-msgstr ""
+msgstr "ऐड-ऑन्स"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:8
 msgid "Passwords"
@@ -476,11 +479,11 @@ msgstr "इतिहास"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:13
 msgid "Preferences"
-msgstr ""
+msgstr "प्राथमिकता"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr ""
+msgstr "Add-ons और प्राथमिकताएं वर्तमान में मोबाइल डिवाइस पर सिंक्रनाइज़ नहीं."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 #: app/scripts/templates/sign_up.mustache:25
@@ -543,7 +546,7 @@ msgstr "कूटशब्द पुनः तैयार करने हे�
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 msgid "Enter new password"
-msgstr ""
+msgstr "नया कूटशब्द करें"
 
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid ""
@@ -554,7 +557,7 @@ msgstr ""
 #: app/scripts/templates/complete_reset_password.mustache:11
 #: app/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
-msgstr ""
+msgstr "जानें कैसे सिंक काम करता है."
 
 #: app/scripts/templates/complete_reset_password.mustache:12
 #: app/scripts/templates/settings/change_password.mustache:8
@@ -580,7 +583,7 @@ msgstr "कूटशब्द आवृत्ति"
 
 #: app/scripts/templates/complete_reset_password.mustache:19
 msgid "Submit new password"
-msgstr ""
+msgstr "नया कूटशब्द करें"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"

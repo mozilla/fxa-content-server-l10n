@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-20 22:20+0000\n"
-"PO-Revision-Date: 2016-02-23 01:10+0000\n"
-"Last-Translator: Andreas Pettersson <az@kth.se>\n"
+"PO-Revision-Date: 2016-03-09 09:35+0000\n"
+"Last-Translator: Ludwig Johnson <ludwig.johnson@telia.com>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -547,18 +547,20 @@ msgstr "Länken för att återställa lösenordet fungerar inte"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 msgid "Enter new password"
-msgstr ""
+msgstr "Ange ett nytt lösenord"
 
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid ""
 "Once you submit your new password, you will lose any Sync data that is not "
 "on one of your devices."
 msgstr ""
+"När du skickar in ditt nya lösenord, kommer du förlora all Sync data som "
+"inte är på någon av dina enheter."
 
 #: app/scripts/templates/complete_reset_password.mustache:11
 #: app/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
-msgstr ""
+msgstr "Läs om hur Sync fungerar."
 
 #: app/scripts/templates/complete_reset_password.mustache:12
 #: app/scripts/templates/settings/change_password.mustache:8
@@ -584,7 +586,7 @@ msgstr "Upprepa lösenordet"
 
 #: app/scripts/templates/complete_reset_password.mustache:19
 msgid "Submit new password"
-msgstr ""
+msgstr "Ange nytt lösenord"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
@@ -645,12 +647,14 @@ msgid ""
 "Click on the link we've emailed you at %(email)s within the next hour to "
 "create a new password."
 msgstr ""
+"Klicka på länken som vi har skickat till dig på %(email)s inom den kommande "
+"timmen för att skapa ett nytt lösenord."
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
 #: app/scripts/templates/reset_password.mustache:6
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "Kom ihåg löseonord? Logga in."
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -812,13 +816,15 @@ msgstr "Ditt konto är klart!"
 
 #: app/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
-msgstr ""
+msgstr "Glömt lösenord"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
 "When you reset your password, you will lose any Sync data that is not on one "
 "of your devices."
 msgstr ""
+"När du återställer ditt lösenord, kommer du förlora all Sync data som inte "
+"finns på någon av dina enheter."
 
 #: app/scripts/templates/reset_password.mustache:4
 #: app/scripts/templates/sign_in.mustache:19
