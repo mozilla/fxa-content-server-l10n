@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-08 15:52+0000\n"
+"POT-Creation-Date: 2016-03-20 22:20+0000\n"
 "PO-Revision-Date: 2016-02-23 21:40+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,8 @@ msgstr ""
 "X-Generator: Pontoon\n"
 
 #: templates/_pending.txt:1 templates/verify_reminder_second.html:2
+#: templates/verification_reminder_second.html:2
+#: templates/verification_reminder_second.txt:1
 msgid "Still there?"
 msgstr "Ainda aqui?"
 
@@ -58,14 +60,16 @@ msgstr "Inicie sessão para sincronizar"
 #: templates/password_reset.html:1 templates/post_verify.html:1
 #: templates/reset.html:1 templates/unlock.html:1
 #: templates/verification_reminder.html:1 templates/verify.html:1
+#: templates/verify_reminder_first.html:1
+#: templates/verify_reminder_second.html:1
+#: templates/verification_reminder_first.html:1
+#: templates/verification_reminder_second.html:1
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
 #: server/templates/pages/src/terms.html:1
-#: templates/verify_reminder_first.html:1
-#: templates/verify_reminder_second.html:1
 msgid "Firefox Accounts"
 msgstr "Contas do Firefox"
 
@@ -82,19 +86,13 @@ msgstr ""
 "Conta Firefox."
 
 #: templates/new_sync_device.html:4 templates/password_changed.html:4
-#: templates/password_reset.html:4 templates/post_verify.html:6
-#: templates/post_verify.txt:4 templates/reset.html:6 templates/reset.txt:4
-#: templates/unlock.html:6 templates/unlock.txt:3
-#: templates/verification_reminder.html:6 templates/verification_reminder.txt:4
-#: templates/verify.html:6 templates/verify.txt:4
-#: templates/verify_reminder_first.html:6
-#: templates/verify_reminder_second.html:6
+#: templates/password_reset.html:4
 msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
+"This is an automated email; if you did not authorize this action, then <a "
+"%(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr ""
-"Este e-mail é automático; se recebeu o mesmo por engano, nenhuma ação é "
-"necessária."
+"Esta é uma mensagem automática; se não autorizou esta ação, então <a "
+"%(passwordChangeLinkAttributes)s>por favor altere a sua palavra-passe.</a>"
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
@@ -102,6 +100,8 @@ msgstr ""
 #: templates/verification_reminder.html:7 templates/verify.html:7
 #: templates/verify_reminder_first.html:7
 #: templates/verify_reminder_second.html:7
+#: templates/verification_reminder_first.html:7
+#: templates/verification_reminder_second.html:7 templates/reset.html:8
 msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
@@ -122,6 +122,9 @@ msgstr ""
 #: templates/password_reset.txt:4 templates/post_verify.txt:5
 #: templates/reset.txt:5 templates/unlock.txt:4
 #: templates/verification_reminder.txt:5 templates/verify.txt:5
+#: templates/verification_reminder_first.txt:5
+#: templates/verification_reminder_second.txt:5 templates/password_reset.txt:5
+#: templates/reset.txt:6
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Para mais informação, por favor visite %(supportUrl)s"
 
@@ -149,7 +152,7 @@ msgstr "Palavra-passe reposta com sucesso"
 msgid "Your Firefox Account password has been successfully reset."
 msgstr "A palavra-passe da sua Conta Firefox foi reposta com sucesso."
 
-#: templates/password_reset.txt:3
+#: templates/password_reset.txt:3 templates/password_reset.txt:4
 msgid ""
 "This is an automated email; if you didn’t reset the password to your Firefox "
 "Account, you should reset it immediately at %(resetLink)s."
@@ -165,8 +168,28 @@ msgstr "Conta confirmada!"
 #: templates/verification_reminder.html:5 templates/verify.html:5
 #: templates/verify_reminder_first.html:5
 #: templates/verify_reminder_second.html:5
+#: templates/verification_reminder_first.html:5
+#: templates/verification_reminder_second.html:5 templates/reset.html:6
 msgid "Alternatively:"
 msgstr "Alternativamente:"
+
+#: templates/post_verify.html:6 templates/post_verify.txt:4
+#: templates/reset.html:6 templates/reset.txt:4 templates/unlock.html:6
+#: templates/unlock.txt:3 templates/verification_reminder.html:6
+#: templates/verification_reminder.txt:4 templates/verify.html:6
+#: templates/verify.txt:4 templates/verify_reminder_first.html:6
+#: templates/verify_reminder_second.html:6
+#: templates/verification_reminder_first.html:6
+#: templates/verification_reminder_first.txt:4
+#: templates/verification_reminder_second.html:6
+#: templates/verification_reminder_second.txt:4 templates/password_reset.html:4
+#: templates/reset.html:7 templates/reset.txt:5
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"Este e-mail é automático; se recebeu o mesmo por engano, nenhuma ação é "
+"necessária."
 
 #: templates/post_verify.txt:2
 msgid ""
@@ -218,6 +241,8 @@ msgstr "Confirmar conta:"
 
 #: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
 #: templates/verify_reminder_first.html:2
+#: templates/verification_reminder_first.html:2
+#: templates/verification_reminder_first.txt:1
 msgid "Hello again."
 msgstr "Olá, mais uma vez."
 
@@ -232,18 +257,24 @@ msgstr ""
 #: templates/verification_reminder.html:4 templates/verify.html:4
 #: templates/verify_reminder_first.html:4
 #: templates/verify_reminder_second.html:4
+#: templates/verification_reminder_first.html:4
+#: templates/verification_reminder_second.html:4
 msgid "Activate now"
 msgstr "Ativar agora"
 
 #: templates/verification_reminder.html:8 templates/verify.html:8
 #: templates/verify_reminder_first.html:8
 #: templates/verify_reminder_second.html:8
+#: templates/verification_reminder_first.html:8
+#: templates/verification_reminder_second.html:8
 msgid "Verify Email"
 msgstr "Confirmar e-mail"
 
 #: templates/verification_reminder.html:9 templates/verify.html:9
 #: templates/verify_reminder_first.html:9
 #: templates/verify_reminder_second.html:9
+#: templates/verification_reminder_first.html:9
+#: templates/verification_reminder_second.html:9
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr "Confirme o seu e-mail para concluir o registo da sua Conta Firefox"
 
@@ -259,37 +290,118 @@ msgstr "Bem-vindo!"
 msgid "Please activate your account by confirming this email address."
 msgstr "Por favor ative a sua conta confirmando este endereço de e-mail."
 
-#: templates/verify.txt:3
+#: templates/verify.txt:3 templates/verification_reminder_first.txt:3
+#: templates/verification_reminder_second.txt:3
 msgid "Activate now:"
 msgstr "Ativar agora:"
 
-#: mailer.js:126 mailer.js:317 mailer.js:132 mailer.js:330 mailer.js:332
+#: templates/verify_reminder_first.html:3
+#: templates/verification_reminder_first.html:3
+#: templates/verification_reminder_first.txt:2
+msgid ""
+"A few days ago you created a Firefox Account, but never verified it. A "
+"verified account lets you access your tabs, bookmarks, passwords and history "
+"on any device connected to it. Simply confirm this email address to activate "
+"your account."
+msgstr ""
+"Há uns dias atrás criou uma conta Firefox, mas nunca a verificou. Uma conta "
+"verificada deixa-o aceder aos seus separadores, marcadores, palavras-passe e "
+"histórico em qualquer dispositivo ligado a esta. Simplesmente confirme este "
+"endereço de email para ativar a sua conta."
+
+#: templates/verify_reminder_second.html:3
+#: templates/verification_reminder_second.html:3
+#: templates/verification_reminder_second.txt:2
+msgid ""
+"A week ago you created a Firefox Account, but never verified it. We’re "
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
+"iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know "
+"you're okay."
+msgstr ""
+"Há uma semana atrás criou uma conta Firefox, mas nunca a verificou. Estamos "
+"preocupados consigo. O Firefox está disponível para Windows, Mac, Linux, "
+"Android e iOS. Pode sincronizar as suas palavras-passe, marcadores e "
+"histórico do Firefox entre todos. Confirme este endereço de email para "
+"ativar a sua conta e deixar-nos saber que você está bem."
+
+#: mailer.js:132 mailer.js:329 mailer.js:332 mailer.js:133 mailer.js:336
 msgid "Verify your Firefox Account"
 msgstr "Confirme a sua Conta Firefox"
 
-#: mailer.js:158 mailer.js:165
+#: mailer.js:165 mailer.js:166
 msgid "Reset your Firefox Account password"
 msgstr "Reponha a palavra-passe da sua Conta Firefox"
 
-#: mailer.js:191 mailer.js:199
+#: mailer.js:199 mailer.js:201
 msgid "Re-verify your Firefox Account"
 msgstr "Confirme novamente a sua Conta Firefox"
 
-#: mailer.js:216 mailer.js:225
+#: mailer.js:225 mailer.js:227
 msgid "Your Firefox Account password has been changed"
 msgstr "A palavra-passe da sua Conta Firefox foi alterada"
 
-#: mailer.js:237 mailer.js:247 mailer.js:246
+#: mailer.js:246 mailer.js:249
 msgid "Your Firefox Account password has been reset"
 msgstr "A palavra-passe da sua Conta Firefox foi reposta"
 
-#: mailer.js:258 mailer.js:269 mailer.js:268
+#: mailer.js:268 mailer.js:272
 msgid "New sign-in to Firefox"
 msgstr "Novo início de sessão no Firefox"
 
-#: mailer.js:280 mailer.js:292 mailer.js:294
+#: mailer.js:291 mailer.js:294 mailer.js:298
 msgid "Firefox Account Verified"
 msgstr "Conta Firefox confirmada"
+
+#: config.js:127 config.js:132 config.js:140 config.js:145 config.js:146
+#: config.js:151
+msgid "env"
+msgstr "env"
+
+#: log.js:7
+msgid "logging"
+msgstr "registo"
+
+#: lib/db.js:21
+msgid "/"
+msgstr "/"
+
+#: lib/db.js:34
+msgid "/__heartbeat__"
+msgstr "/__heartbeat__"
+
+#: templates/password_reset.html:2
+msgid "Your password has been reset"
+msgstr ""
+
+#: templates/password_reset.html:3 templates/password_reset.txt:3
+msgid ""
+"Your Firefox Account password has changed. If you did not change it, please "
+"<a href='%(resetLink)s'>reset your password</a> now."
+msgstr ""
+
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Forgot your password?"
+msgstr ""
+
+#: templates/reset.html:3 templates/reset.txt:2
+msgid ""
+"Click the button within the next hour to set a new password for your Firefox "
+"Account."
+msgstr ""
+
+#: templates/reset.html:4 templates/reset.txt:3
+msgid "Remember password? Sign in."
+msgstr ""
+
+#: templates/reset.html:5 templates/reset.txt:4
+msgid "Reset password"
+msgstr ""
+
+#: config.js:159 config.js:160 config.js:161 config.js:162 config.js:163
+#: config.js:164
+msgid "contentServer.url"
+msgstr ""
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
@@ -369,61 +481,3 @@ msgstr "Serviços do Firefox na cloud"
 #: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Termos do Serviço"
-
-#: templates/new_sync_device.html:4 templates/password_changed.html:4
-#: templates/password_reset.html:4
-msgid ""
-"This is an automated email; if you did not authorize this action, then <a "
-"%(passwordChangeUrl)s>please change your password.</a>"
-msgstr ""
-
-#: templates/new_sync_device.html:4 templates/password_changed.html:4
-#: templates/password_reset.html:4
-msgid ""
-"This is an automated email; if you did not authorize this action, then <a "
-"%(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr ""
-"Esta é uma mensagem automática; se não autorizou esta ação, então <a "
-"%(passwordChangeLinkAttributes)s>por favor altere a sua palavra-passe.</a>"
-
-#: templates/verify_reminder_first.html:3
-msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history "
-"on any device connected to it. Simply confirm this email address to activate "
-"your account."
-msgstr ""
-"Há uns dias atrás criou uma conta Firefox, mas nunca a verificou. Uma conta "
-"verificada deixa-o aceder aos seus separadores, marcadores, palavras-passe e "
-"histórico em qualquer dispositivo ligado a esta. Simplesmente confirme este "
-"endereço de email para ativar a sua conta."
-
-#: templates/verify_reminder_second.html:3
-msgid ""
-"A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
-"iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know "
-"you're okay."
-msgstr ""
-"Há uma semana atrás criou uma conta Firefox, mas nunca a verificou. Estamos "
-"preocupados consigo. O Firefox está disponível para Windows, Mac, Linux, "
-"Android e iOS. Pode sincronizar as suas palavras-passe, marcadores e "
-"histórico do Firefox entre todos. Confirme este endereço de email para "
-"ativar a sua conta e deixar-nos saber que você está bem."
-
-#: config.js:140 config.js:145
-msgid "env"
-msgstr "env"
-
-#: log.js:7
-msgid "logging"
-msgstr "registo"
-
-#: lib/db.js:21
-msgid "/"
-msgstr "/"
-
-#: lib/db.js:34
-msgid "/__heartbeat__"
-msgstr "/__heartbeat__"

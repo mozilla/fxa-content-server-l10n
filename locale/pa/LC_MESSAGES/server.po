@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-08 15:52+0000\n"
+"POT-Creation-Date: 2016-03-20 22:20+0000\n"
 "PO-Revision-Date: 2015-10-12 17:30+0000\n"
 "Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,8 @@ msgstr ""
 "X-POOTLE-MTIME: 1444671008.0\n"
 
 #: templates/_pending.txt:1 templates/verify_reminder_second.html:2
+#: templates/verification_reminder_second.html:2
+#: templates/verification_reminder_second.txt:1
 msgid "Still there?"
 msgstr "ਹਾਲੇ ਵੀ ਮੌਜੂਦ ਹੈ?"
 
@@ -52,14 +54,16 @@ msgstr "ਸਿੰਕ ਕਰਨ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ"
 #: templates/password_reset.html:1 templates/post_verify.html:1
 #: templates/reset.html:1 templates/unlock.html:1
 #: templates/verification_reminder.html:1 templates/verify.html:1
+#: templates/verify_reminder_first.html:1
+#: templates/verify_reminder_second.html:1
+#: templates/verification_reminder_first.html:1
+#: templates/verification_reminder_second.html:1
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
 #: server/templates/pages/src/terms.html:1
-#: templates/verify_reminder_first.html:1
-#: templates/verify_reminder_second.html:1
 msgid "Firefox Accounts"
 msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤਾ"
 
@@ -75,18 +79,11 @@ msgstr ""
 "ਡਿਵਾਈਸ ਨੇ ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨਾਲ ਕਨੈਕਟ ਕੀਤੇ ਡਿਵਾਈਸਾਂ ਨਾਲ ਸਿੰਕ ਕਰਨਾ ਸ਼ੁਰੂ ਕੀਤਾ ਹੈ।"
 
 #: templates/new_sync_device.html:4 templates/password_changed.html:4
-#: templates/password_reset.html:4 templates/post_verify.html:6
-#: templates/post_verify.txt:4 templates/reset.html:6 templates/reset.txt:4
-#: templates/unlock.html:6 templates/unlock.txt:3
-#: templates/verification_reminder.html:6 templates/verification_reminder.txt:4
-#: templates/verify.html:6 templates/verify.txt:4
-#: templates/verify_reminder_first.html:6
-#: templates/verify_reminder_second.html:6
+#: templates/password_reset.html:4
 msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
+"This is an automated email; if you did not authorize this action, then <a "
+"%(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr ""
-"ਇਹ ਆਟੋਮੈਟਿਕ ਈਮੇਲ ਹੈ, ਜੇ ਤੁਹਾਨੂੰ ਇਹ ਗਲਤੀ ਨਾਲ ਮਿਲੀ ਹੈ ਤਾਂ ਕੋਈ ਵੀ ਕਾਰਵਾਈ ਕਰਨ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ।"
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
@@ -94,6 +91,8 @@ msgstr ""
 #: templates/verification_reminder.html:7 templates/verify.html:7
 #: templates/verify_reminder_first.html:7
 #: templates/verify_reminder_second.html:7
+#: templates/verification_reminder_first.html:7
+#: templates/verification_reminder_second.html:7 templates/reset.html:8
 msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
@@ -109,6 +108,9 @@ msgstr ""
 #: templates/password_reset.txt:4 templates/post_verify.txt:5
 #: templates/reset.txt:5 templates/unlock.txt:4
 #: templates/verification_reminder.txt:5 templates/verify.txt:5
+#: templates/verification_reminder_first.txt:5
+#: templates/verification_reminder_second.txt:5 templates/password_reset.txt:5
+#: templates/reset.txt:6
 msgid "For more information, please visit %(supportUrl)s"
 msgstr ""
 
@@ -134,7 +136,7 @@ msgstr "ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਮੁੜ-ਸੈਟ �
 msgid "Your Firefox Account password has been successfully reset."
 msgstr "ਤੁਹਾਡਾ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਕਾਮਯਾਬੀ ਨਾਲ ਮੁੜ-ਸੈਟ ਹੋ ਗਿਆ ਹੈ।"
 
-#: templates/password_reset.txt:3
+#: templates/password_reset.txt:3 templates/password_reset.txt:4
 msgid ""
 "This is an automated email; if you didn’t reset the password to your Firefox "
 "Account, you should reset it immediately at %(resetLink)s."
@@ -148,8 +150,27 @@ msgstr ""
 #: templates/verification_reminder.html:5 templates/verify.html:5
 #: templates/verify_reminder_first.html:5
 #: templates/verify_reminder_second.html:5
+#: templates/verification_reminder_first.html:5
+#: templates/verification_reminder_second.html:5 templates/reset.html:6
 msgid "Alternatively:"
 msgstr "ਬਦਲਵਾਂ:"
+
+#: templates/post_verify.html:6 templates/post_verify.txt:4
+#: templates/reset.html:6 templates/reset.txt:4 templates/unlock.html:6
+#: templates/unlock.txt:3 templates/verification_reminder.html:6
+#: templates/verification_reminder.txt:4 templates/verify.html:6
+#: templates/verify.txt:4 templates/verify_reminder_first.html:6
+#: templates/verify_reminder_second.html:6
+#: templates/verification_reminder_first.html:6
+#: templates/verification_reminder_first.txt:4
+#: templates/verification_reminder_second.html:6
+#: templates/verification_reminder_second.txt:4 templates/password_reset.html:4
+#: templates/reset.html:7 templates/reset.txt:5
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+"ਇਹ ਆਟੋਮੈਟਿਕ ਈਮੇਲ ਹੈ, ਜੇ ਤੁਹਾਨੂੰ ਇਹ ਗਲਤੀ ਨਾਲ ਮਿਲੀ ਹੈ ਤਾਂ ਕੋਈ ਵੀ ਕਾਰਵਾਈ ਕਰਨ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ।"
 
 #: templates/post_verify.txt:2
 msgid ""
@@ -197,6 +218,8 @@ msgstr "ਖਾਤਾ ਤਸਦੀਕ ਕਰੋ:"
 
 #: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
 #: templates/verify_reminder_first.html:2
+#: templates/verification_reminder_first.html:2
+#: templates/verification_reminder_first.txt:1
 msgid "Hello again."
 msgstr ""
 
@@ -209,18 +232,24 @@ msgstr ""
 #: templates/verification_reminder.html:4 templates/verify.html:4
 #: templates/verify_reminder_first.html:4
 #: templates/verify_reminder_second.html:4
+#: templates/verification_reminder_first.html:4
+#: templates/verification_reminder_second.html:4
 msgid "Activate now"
 msgstr "ਹੁਣੇ ਸਰਗਰਮ ਕਰੋ"
 
 #: templates/verification_reminder.html:8 templates/verify.html:8
 #: templates/verify_reminder_first.html:8
 #: templates/verify_reminder_second.html:8
+#: templates/verification_reminder_first.html:8
+#: templates/verification_reminder_second.html:8
 msgid "Verify Email"
 msgstr "ਈਮੇਸ ਤਸਦੀਕ ਕਰੋ"
 
 #: templates/verification_reminder.html:9 templates/verify.html:9
 #: templates/verify_reminder_first.html:9
 #: templates/verify_reminder_second.html:9
+#: templates/verification_reminder_first.html:9
+#: templates/verification_reminder_second.html:9
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਰਜਿਸਟਰੇਸ਼ਨ ਨੂੰ ਸਰਗਰਮ ਕਰਨ ਲਈ ਆਪਣੀ ਈਮੇਲ ਦੀ ਤਸਦੀਕ ਕਰੋ"
 
@@ -236,37 +265,109 @@ msgstr "ਜੀ ਆਇਆਂ ਨੂੰ!"
 msgid "Please activate your account by confirming this email address."
 msgstr "ਇਹ ਈਮੇਲ ਸਿਰਨਾਵੇਂ ਦੀ ਤਸਦੀਕ ਕਰਕੇ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਸਰਗਰਮ ਕਰੋ।"
 
-#: templates/verify.txt:3
+#: templates/verify.txt:3 templates/verification_reminder_first.txt:3
+#: templates/verification_reminder_second.txt:3
 msgid "Activate now:"
 msgstr "ਹੁਣੇ ਸਰਗਰਮ ਕਰੋ:"
 
-#: mailer.js:126 mailer.js:317 mailer.js:132 mailer.js:330 mailer.js:332
+#: templates/verify_reminder_first.html:3
+#: templates/verification_reminder_first.html:3
+#: templates/verification_reminder_first.txt:2
+msgid ""
+"A few days ago you created a Firefox Account, but never verified it. A "
+"verified account lets you access your tabs, bookmarks, passwords and history "
+"on any device connected to it. Simply confirm this email address to activate "
+"your account."
+msgstr ""
+
+#: templates/verify_reminder_second.html:3
+#: templates/verification_reminder_second.html:3
+#: templates/verification_reminder_second.txt:2
+msgid ""
+"A week ago you created a Firefox Account, but never verified it. We’re "
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
+"iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know "
+"you're okay."
+msgstr ""
+
+#: mailer.js:132 mailer.js:329 mailer.js:332 mailer.js:133 mailer.js:336
 msgid "Verify your Firefox Account"
 msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰੋ"
 
-#: mailer.js:158 mailer.js:165
+#: mailer.js:165 mailer.js:166
 msgid "Reset your Firefox Account password"
 msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈਟ ਕਰੋ"
 
-#: mailer.js:191 mailer.js:199
+#: mailer.js:199 mailer.js:201
 msgid "Re-verify your Firefox Account"
 msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਮੁੜ-ਤਸਦੀਕ ਕਰੋ"
 
-#: mailer.js:216 mailer.js:225
+#: mailer.js:225 mailer.js:227
 msgid "Your Firefox Account password has been changed"
 msgstr "ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਪਾਸਵਰਡ ਨੂੰ ਬਦਲਿਆ ਗਿਆ"
 
-#: mailer.js:237 mailer.js:247 mailer.js:246
+#: mailer.js:246 mailer.js:249
 msgid "Your Firefox Account password has been reset"
 msgstr "ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸਾ ਖਾਤਾ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈਟ ਕੀਤਾ ਗਿਆ"
 
-#: mailer.js:258 mailer.js:269 mailer.js:268
+#: mailer.js:268 mailer.js:272
 msgid "New sign-in to Firefox"
 msgstr ""
 
-#: mailer.js:280 mailer.js:292 mailer.js:294
+#: mailer.js:291 mailer.js:294 mailer.js:298
 msgid "Firefox Account Verified"
 msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕੀਤਾ"
+
+#: config.js:127 config.js:132 config.js:140 config.js:145 config.js:146
+#: config.js:151
+msgid "env"
+msgstr ""
+
+#: log.js:7
+msgid "logging"
+msgstr ""
+
+#: lib/db.js:21
+msgid "/"
+msgstr ""
+
+#: lib/db.js:34
+msgid "/__heartbeat__"
+msgstr ""
+
+#: templates/password_reset.html:2
+msgid "Your password has been reset"
+msgstr ""
+
+#: templates/password_reset.html:3 templates/password_reset.txt:3
+msgid ""
+"Your Firefox Account password has changed. If you did not change it, please "
+"<a href='%(resetLink)s'>reset your password</a> now."
+msgstr ""
+
+#: templates/reset.html:2 templates/reset.txt:1
+msgid "Forgot your password?"
+msgstr ""
+
+#: templates/reset.html:3 templates/reset.txt:2
+msgid ""
+"Click the button within the next hour to set a new password for your Firefox "
+"Account."
+msgstr ""
+
+#: templates/reset.html:4 templates/reset.txt:3
+msgid "Remember password? Sign in."
+msgstr ""
+
+#: templates/reset.html:5 templates/reset.txt:4
+msgid "Reset password"
+msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ"
+
+#: config.js:159 config.js:160 config.js:161 config.js:162 config.js:163
+#: config.js:164
+msgid "contentServer.url"
+msgstr ""
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
@@ -343,56 +444,6 @@ msgstr "ਫਾਇਰਫਾਕਸ ਕਲਾਉਡ ਸੇਵਾਵਾਂ"
 #: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ"
-
-#: templates/new_sync_device.html:4 templates/password_changed.html:4
-#: templates/password_reset.html:4
-msgid ""
-"This is an automated email; if you did not authorize this action, then <a "
-"%(passwordChangeUrl)s>please change your password.</a>"
-msgstr ""
-
-#: templates/new_sync_device.html:4 templates/password_changed.html:4
-#: templates/password_reset.html:4
-msgid ""
-"This is an automated email; if you did not authorize this action, then <a "
-"%(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr ""
-
-#: templates/verify_reminder_first.html:3
-msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history "
-"on any device connected to it. Simply confirm this email address to activate "
-"your account."
-msgstr ""
-
-#: templates/verify_reminder_second.html:3
-msgid ""
-"A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
-"iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know "
-"you're okay."
-msgstr ""
-
-#: config.js:140 config.js:145
-msgid "env"
-msgstr ""
-
-#: log.js:7
-msgid "logging"
-msgstr ""
-
-#: lib/db.js:21
-msgid "/"
-msgstr ""
-
-#: lib/db.js:34
-msgid "/__heartbeat__"
-msgstr ""
-
-#~ msgid "Reset password"
-#~ msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ"
 
 #~ msgid ""
 #~ "For more information, please visit <a href='https://support.mozilla."

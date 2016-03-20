@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-08 15:52+0000\n"
+"POT-Creation-Date: 2016-03-20 22:20+0000\n"
 "PO-Revision-Date: 2016-03-03 09:39+0000\n"
 "Last-Translator: Ognyan Kulev <ognyan@ognyankulev.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,11 +81,15 @@ msgstr "Профилът е потвърден"
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Вече може да изпалзвате %(serviceName)s"
 
-#: app/scripts/views/reset_password.js:50 app/scripts/views/sign_in.js:140
+#: app/scripts/views/reset_password.js:51 app/scripts/views/sign_in.js:140
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Неизвестен профил. <a href=\"/signup\">Регистриране</a>"
 
-#: app/scripts/views/sign_up.js:383
+#: app/scripts/views/sign_up.js:65
+msgid "Account no longer exists. Recreate it?"
+msgstr ""
+
+#: app/scripts/views/sign_up.js:392
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Профилът съществува. <a href=\"/signin\">Вписване</a>"
 
@@ -279,7 +283,7 @@ msgstr "Вашата нова парола трябва да е различна
 
 #: app/scripts/lib/auth-errors.js:143
 #: app/scripts/templates/complete_reset_password.mustache:15
-#: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/sign_up.mustache:17
 #: app/scripts/templates/settings/change_password.mustache:11
 msgid "Must be at least 8 characters"
 msgstr "Трябва да е поне 8 символа"
@@ -354,6 +358,10 @@ msgstr "Трябва да въведете възрастта си, за да с
 #: app/scripts/lib/auth-errors.js:241
 msgid "No Gravatar found"
 msgstr "Не е намерен Gravatar"
+
+#: app/scripts/lib/auth-errors.js:249
+msgid "Account no longer exists."
+msgstr ""
 
 #: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -437,20 +445,20 @@ msgstr ""
 msgid "Cannot create account"
 msgstr "Не може да бъде създаден профил"
 
-#: app/scripts/templates/cannot_create_account.mustache:3
+#: app/scripts/templates/cannot_create_account.mustache:2
 msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr ""
 "Трябва да отговаряте на определени възрастови изисквания, за да създадете "
 "Firefox&nbsp;Account."
 
-#: app/scripts/templates/cannot_create_account.mustache:5
+#: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
 msgstr "Научете повече."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-#: app/scripts/templates/sign_up.mustache:21
-#: app/scripts/templates/sign_up.mustache:26
+#: app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/sign_up.mustache:27
 msgid "Choose what to sync"
 msgstr "Избор какво да се синхронизира"
 
@@ -484,7 +492,7 @@ msgstr ""
 "Добавките и настройките понастоящем не се синхронизират с мобилни устройства."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:25
 msgid "Sign up"
 msgstr "Регистриране"
 
@@ -565,7 +573,7 @@ msgstr "Нова парола"
 #: app/scripts/templates/force_auth.mustache:6
 #: app/scripts/templates/sign_in.mustache:10
 #: app/scripts/templates/sign_in.mustache:23
-#: app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/change_password.mustache:6
 #: app/scripts/templates/settings/change_password.mustache:10
 #: app/scripts/templates/settings/delete_account.mustache:5
@@ -676,7 +684,7 @@ msgstr "Впишете се, за да продължите"
 #: app/scripts/templates/force_auth.mustache:3
 #: app/scripts/templates/sign_in.mustache:8
 #: app/scripts/templates/sign_in.mustache:20
-#: app/scripts/templates/sign_up.mustache:12
+#: app/scripts/templates/sign_up.mustache:13
 #: app/scripts/templates/settings/change_password.mustache:1
 #: app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
@@ -701,7 +709,7 @@ msgstr "Забравили сте паролата?"
 
 #: app/scripts/templates/force_auth.mustache:9
 #: app/scripts/templates/sign_in.mustache:29
-#: app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/sign_up.mustache:18
 msgid ""
 "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
 "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
@@ -817,7 +825,7 @@ msgstr ""
 
 #: app/scripts/templates/reset_password.mustache:4
 #: app/scripts/templates/sign_in.mustache:19
-#: app/scripts/templates/sign_up.mustache:10
+#: app/scripts/templates/sign_up.mustache:11
 #: app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "Ел. поща"
@@ -870,12 +878,12 @@ msgid ""
 msgstr ""
 "Имате регистрация с друг имейл? <a href=\"%(signinUri)s\">Впишете се</a>"
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:19
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Получавайте последните новини за Mozilla и Firefox."
 
-#: app/scripts/templates/sign_up.mustache:29
+#: app/scripts/templates/sign_up.mustache:30
 msgid "Have an account? Sign in."
 msgstr "Имате сметка? Вписване."
 
