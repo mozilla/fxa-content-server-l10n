@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-08 15:52+0000\n"
+"POT-Creation-Date: 2016-03-20 22:20+0000\n"
 "PO-Revision-Date: 2016-03-09 22:40+0000\n"
 "Last-Translator: Branislav Rozbora <rozbora@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,11 +81,15 @@ msgstr "Účet bol overený"
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Odteraz môžete využívať služby %(serviceName)s"
 
-#: app/scripts/views/reset_password.js:50 app/scripts/views/sign_in.js:140
+#: app/scripts/views/reset_password.js:51 app/scripts/views/sign_in.js:140
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Neznámy účet. <a href=\"/signup\">Zaregistrujte sa</a>"
 
-#: app/scripts/views/sign_up.js:383
+#: app/scripts/views/sign_up.js:65
+msgid "Account no longer exists. Recreate it?"
+msgstr ""
+
+#: app/scripts/views/sign_up.js:392
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Účet už existuje. <a href=\"/signin\">Prihláste sa</a>"
 
@@ -142,7 +146,8 @@ msgid "Display name updated"
 msgstr "Zobrazované meno aktualizované"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "Účet zamknutý. <a href=\"/confirm_account_unlock\">Odoslať e-mail na "
 "odomknutie</a>"
@@ -154,8 +159,7 @@ msgstr "Odhlásenie bolo úspešné"
 #: app/scripts/lib/auth-errors.js:17 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43
-#: app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -279,7 +283,7 @@ msgstr "Staré a nové heslo sa musia líšiť"
 
 #: app/scripts/lib/auth-errors.js:143
 #: app/scripts/templates/complete_reset_password.mustache:15
-#: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/sign_up.mustache:17
 #: app/scripts/templates/settings/change_password.mustache:11
 msgid "Must be at least 8 characters"
 msgstr "Minimálny počet znakov: 8"
@@ -355,6 +359,10 @@ msgstr "Pre prihlásenie musíte zadať váš vek"
 msgid "No Gravatar found"
 msgstr "Nenájdený žiadny Gravatar"
 
+#: app/scripts/lib/auth-errors.js:249
+msgid "Account no longer exists."
+msgstr ""
+
 #: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr "Nemysleli ste <span tabindex=\"1\">%(domain)s</span>?"
@@ -417,15 +425,14 @@ msgstr "Služba Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Pokračovaním súhlasíte s <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Podmienkami využívania služby</a> a <a id=\"service-"
-"pp\" href=\"%(privacyUri)s\">Zásadami o ochrane osobných údajov</a> "
-"%(serviceName)s (%(serviceUri)s)."
+"Pokračovaním súhlasíte s <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Podmienkami využívania služby</a> a <a id=\"service-pp\" href="
+"\"%(privacyUri)s\">Zásadami o ochrane osobných údajov</a> %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:26
 msgid ""
@@ -439,19 +446,19 @@ msgstr ""
 msgid "Cannot create account"
 msgstr "Účet nie je možné vytvoriť"
 
-#: app/scripts/templates/cannot_create_account.mustache:3
+#: app/scripts/templates/cannot_create_account.mustache:2
 msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr ""
 "Na vytvorenie účtu Firefox&nbsp;Account musíte spĺňať vekové požiadavky."
 
-#: app/scripts/templates/cannot_create_account.mustache:5
+#: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
 msgstr "Ďalšie informácie"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-#: app/scripts/templates/sign_up.mustache:21
-#: app/scripts/templates/sign_up.mustache:26
+#: app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/sign_up.mustache:27
 msgid "Choose what to sync"
 msgstr "Zvoľte obsah synchronizácie"
 
@@ -485,7 +492,7 @@ msgstr ""
 "Doplnky a nastavenia sa momentálne nesynchronizujú do mobilných zariadení."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:25
 msgid "Sign up"
 msgstr "Prihlásiť sa"
 
@@ -570,7 +577,7 @@ msgstr "Nové heslo"
 #: app/scripts/templates/force_auth.mustache:6
 #: app/scripts/templates/sign_in.mustache:10
 #: app/scripts/templates/sign_in.mustache:23
-#: app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/change_password.mustache:6
 #: app/scripts/templates/settings/change_password.mustache:10
 #: app/scripts/templates/settings/delete_account.mustache:5
@@ -629,8 +636,8 @@ msgstr "E-mailová správa pre odomknutie bola odoslaná"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification"
-" link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
 msgstr ""
 "Z bezpečnostných dôvodov bol váš účet uzamknutý. Pre pokračovanie prosím "
 "znovu overte svoj účet kliknutím na odkaz zaslaný na adresu %(email)s"
@@ -660,8 +667,8 @@ msgstr "Cookies a lokálne úložisko sú požadované."
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between"
-" sessions."
+"Accounts. Doing so will enable functionality such as remembering you between "
+"sessions."
 msgstr ""
 "Aby ste mohli používať Firefox Accounts, povoľte prosím cookies a lokálne "
 "úložisko. Vďaka tomu si vás budeme môcť zapamätať medzi jednotlivými "
@@ -682,7 +689,7 @@ msgstr "Ak chcete pokračovať, prihláste sa."
 #: app/scripts/templates/force_auth.mustache:3
 #: app/scripts/templates/sign_in.mustache:8
 #: app/scripts/templates/sign_in.mustache:20
-#: app/scripts/templates/sign_up.mustache:12
+#: app/scripts/templates/sign_up.mustache:13
 #: app/scripts/templates/settings/change_password.mustache:1
 #: app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
@@ -707,14 +714,14 @@ msgstr "Zabudli ste heslo?"
 
 #: app/scripts/templates/force_auth.mustache:9
 #: app/scripts/templates/sign_in.mustache:29
-#: app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/sign_up.mustache:18
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
-"Pokračovaním súhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmienkami"
-" služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Podmienkami ochrany "
+"Pokračovaním súhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmienkami "
+"služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Podmienkami ochrany "
 "osobných údajov</a> cloudových služieb Firefoxu."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
@@ -817,15 +824,15 @@ msgstr "Zabudnuté heslo"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
-"When you reset your password, you will lose any Sync data that is not on one"
-" of your devices."
+"When you reset your password, you will lose any Sync data that is not on one "
+"of your devices."
 msgstr ""
 "Ak obnovíte svoje heslo, stratíte údaje v službe Sync, ktoré nie sú uložené "
 "na žiadnom z vašich zariadení."
 
 #: app/scripts/templates/reset_password.mustache:4
 #: app/scripts/templates/sign_in.mustache:19
-#: app/scripts/templates/sign_up.mustache:10
+#: app/scripts/templates/sign_up.mustache:11
 #: app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "E-mailová adresa"
@@ -850,8 +857,8 @@ msgstr "Pokračovať na %(serviceName)s"
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr ""
-"Presuňte svoje synchronizované údaje prihlásením k vášmu účtu "
-"Firefox&nbsp;Account."
+"Presuňte svoje synchronizované údaje prihlásením k vášmu účtu Firefox&nbsp;"
+"Account."
 
 #: app/scripts/templates/sign_in.mustache:13
 #: app/scripts/templates/sign_in.mustache:16
@@ -870,23 +877,22 @@ msgstr "Vytvorenie účtu Firefox Account"
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr ""
-"Presuňte svoje synchronizované údaje vytvorením nového účtu "
-"Firefox&nbsp;Account."
+"Presuňte svoje synchronizované údaje vytvorením nového účtu Firefox&nbsp;"
+"Account."
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
-"in</a>"
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 msgstr ""
-"Máte účet s inou e-mailovou adresou? <a href=\"%(signinUri)s\">Prihláste "
-"sa</a>"
+"Máte účet s inou e-mailovou adresou? <a href=\"%(signinUri)s\">Prihláste sa</"
+"a>"
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:19
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Získajte najčerstvejšie novinky o Mozille a Firefoxe."
 
-#: app/scripts/templates/sign_up.mustache:29
+#: app/scripts/templates/sign_up.mustache:30
 msgid "Have an account? Sign in."
 msgstr "Máte už účet? Prihláste sa."
 
@@ -988,13 +994,13 @@ msgstr "Zariadenia"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
-"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
-"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
+"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
+"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox je k dispozícii pre <a href=\"%(linkWindows)s\">Windows</a>, <a "
-"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
-"href=\"%(linkIOS)s\">iOS</a> a <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox je k dispozícii pre <a href=\"%(linkWindows)s\">Windows</a>, <a href="
+"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
+"\"%(linkIOS)s\">iOS</a> a <a href=\"%(linkLinux)s\">Linux</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -1058,9 +1064,9 @@ msgstr "Použiť konto Firefox Account"
 #~ msgstr "Naozaj chcete obnoviť heslo vášho účtu?"
 
 #~ msgid ""
-#~ "Resetting your password will erase your browsing data from our servers. Any "
-#~ "data on your devices will remain untouched. Begin the reset process by "
-#~ "entering your email below."
+#~ "Resetting your password will erase your browsing data from our servers. "
+#~ "Any data on your devices will remain untouched. Begin the reset process "
+#~ "by entering your email below."
 #~ msgstr ""
 #~ "Obnovenie vášho hesla zároveň odstráni vaše údaje o prehliadaní z našich "
 #~ "serverov. Údaje na vašich zariadeniach však nebudú nijako ovplyvnené. Pre "
@@ -1226,13 +1232,13 @@ msgstr "Použiť konto Firefox Account"
 #~ msgstr "Ak chcete obnoviť heslo účtu, zadajte svoju e-mailovú adresu."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data from"
-#~ " our servers. A new Sync backup will be created from your local browsing "
-#~ "data."
+#~ "For security reasons, resetting your password will erase your Sync data "
+#~ "from our servers. A new Sync backup will be created from your local "
+#~ "browsing data."
 #~ msgstr ""
-#~ "Z bezpečnostných dôvodov budú pri obnovení hesla vymazané údaje služby Sync "
-#~ "na našich serveroch. Zároveň bude vytvorená nová záloha použitím vašich "
-#~ "údajov uložených vo vašom zariadení."
+#~ "Z bezpečnostných dôvodov budú pri obnovení hesla vymazané údaje služby "
+#~ "Sync na našich serveroch. Zároveň bude vytvorená nová záloha použitím "
+#~ "vašich údajov uložených vo vašom zariadení."
 
 #~ msgid "You are signed in as"
 #~ msgstr "Ste prihlásený ako"
@@ -1241,24 +1247,23 @@ msgstr "Použiť konto Firefox Account"
 #~ msgstr "Už máte účet? Prihláste sa."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" "
-#~ "href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-#~ "href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+#~ "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+#~ "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
-#~ "Pokračovaním súhlasíte s <a id=\"service-tos\" "
-#~ "href=\"%(termsUri)s\">Podmienkami služby</a> a <a id=\"service-pp\" "
-#~ "href=\"%(privacyUri)s\">Zásadami o ochrane osobných údajov</a> "
-#~ "%(serviceName)s (%(serviceUri)s)."
+#~ "Pokračovaním súhlasíte s <a id=\"service-tos\" href=\"%(termsUri)s"
+#~ "\">Podmienkami služby</a> a <a id=\"service-pp\" href=\"%(privacyUri)s"
+#~ "\">Zásadami o ochrane osobných údajov</a> %(serviceName)s "
+#~ "(%(serviceUri)s)."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-#~ "Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Pokračovaním súhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmienkami"
-#~ " používania služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Zásadami "
-#~ "ochrany súkromia</a> cloudových služieb Firefoxu."
+#~ "Pokračovaním súhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Podmienkami používania služby</a> a <a id=\"fxa-pp\" href=\"/legal/"
+#~ "privacy\">Zásadami ochrany súkromia</a> cloudových služieb Firefoxu."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Prihláste sa k odberu noviniek a tipov pre Firefox"
@@ -1279,8 +1284,8 @@ msgstr "Použiť konto Firefox Account"
 #~ "Once you're ﬁnished, use your new password to sign in on all of your "
 #~ "devices."
 #~ msgstr ""
-#~ "Keď budete hotový, použite nové heslo na prihlásenie sa zo všetkých svojich "
-#~ "zariadení."
+#~ "Keď budete hotový, použite nové heslo na prihlásenie sa zo všetkých "
+#~ "svojich zariadení."
 
 #~ msgid "Illegal iframe"
 #~ msgstr "Nelegálny iframe"
@@ -1288,10 +1293,12 @@ msgstr "Použiť konto Firefox Account"
 #~ msgid "Password changed"
 #~ msgstr "Heslo bolo zmenené"
 
-#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
+#~ msgid ""
+#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
+#~ "email</a>."
 #~ msgstr ""
-#~ "Neoverený účet. <a href=\"#\" id=\"resend\">Znova zaslať overovaciu "
-#~ "e-mailovú správu</a>."
+#~ "Neoverený účet. <a href=\"#\" id=\"resend\">Znova zaslať overovaciu e-"
+#~ "mailovú správu</a>."
 
 #~ msgid "Password reset. Sign in to continue."
 #~ msgstr "Obnovenie hesla. Ak chcete pokračovať, prihláste sa."
@@ -1300,8 +1307,8 @@ msgstr "Použiť konto Firefox Account"
 #~ msgstr "Odhlásený"
 
 #~ msgid ""
-#~ "Your verification email was just returned. Mistyped email? <a "
-#~ "href=\"/signup\">Start over.</a>"
+#~ "Your verification email was just returned. Mistyped email? <a href=\"/"
+#~ "signup\">Start over.</a>"
 #~ msgstr ""
 #~ "Váš overovací e-mail sa práve vrátil späť. Možno v ňom bol preklep? <a "
 #~ "href=\"/signup\">Začať znovu.</a>"

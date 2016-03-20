@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-08 15:52+0000\n"
+"POT-Creation-Date: 2016-03-20 22:20+0000\n"
 "PO-Revision-Date: 2016-03-08 20:18+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,11 +81,15 @@ msgstr "Account geverifieerd"
 msgid "You are now ready to use %(serviceName)s"
 msgstr "U kunt %(serviceName)s nu gebruiken"
 
-#: app/scripts/views/reset_password.js:50 app/scripts/views/sign_in.js:140
+#: app/scripts/views/reset_password.js:51 app/scripts/views/sign_in.js:140
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Onbekende account. <a href=\"/signup\">Registreren</a>"
 
-#: app/scripts/views/sign_up.js:383
+#: app/scripts/views/sign_up.js:65
+msgid "Account no longer exists. Recreate it?"
+msgstr ""
+
+#: app/scripts/views/sign_up.js:392
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Account bestaat al. <a href=\"/signin\">Aanmelden</a>"
 
@@ -142,7 +146,8 @@ msgid "Display name updated"
 msgstr "Weergavenaam bijgewerkt"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "Account vergrendeld. <a href=\"/confirm_account_unlock\">E-mail voor "
 "ontgrendeling verzenden</a>"
@@ -154,8 +159,7 @@ msgstr "U bent afgemeld"
 #: app/scripts/lib/auth-errors.js:17 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43
-#: app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -279,7 +283,7 @@ msgstr "Uw oude en nieuwe wachtwoord moeten verschillen"
 
 #: app/scripts/lib/auth-errors.js:143
 #: app/scripts/templates/complete_reset_password.mustache:15
-#: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/sign_up.mustache:17
 #: app/scripts/templates/settings/change_password.mustache:11
 msgid "Must be at least 8 characters"
 msgstr "Moet minstens 8 tekens bevatten"
@@ -317,8 +321,8 @@ msgstr "Voer een geldig e-mailadres in. firefox.com biedt geen e-mail."
 #: app/scripts/lib/auth-errors.js:201
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
-"Firefox-accounts kunnen alleen in een IFRAME op goedgekeurde websites worden"
-" geplaatst"
+"Firefox-accounts kunnen alleen in een IFRAME op goedgekeurde websites worden "
+"geplaatst"
 
 #: app/scripts/lib/auth-errors.js:209
 msgid "/force_auth requires an email"
@@ -356,6 +360,10 @@ msgstr "U moet uw leeftijd invoeren om te registreren"
 #: app/scripts/lib/auth-errors.js:241
 msgid "No Gravatar found"
 msgstr "Geen Gravatar gevonden"
+
+#: app/scripts/lib/auth-errors.js:249
+msgid "Account no longer exists."
+msgstr ""
 
 #: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -419,14 +427,13 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Door verder te gaan, gaat u akkoord met de <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Servicevoorwaarden</a> en <a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Privacyverklaring</a> van %(serviceName)s "
+"Door verder te gaan, gaat u akkoord met de <a id=\"service-tos\" href="
+"\"%(termsUri)s\">Servicevoorwaarden</a> en <a id=\"service-pp\" href="
+"\"%(privacyUri)s\">Privacyverklaring</a> van %(serviceName)s "
 "(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:26
@@ -441,20 +448,20 @@ msgstr ""
 msgid "Cannot create account"
 msgstr "Kan geen account aanmaken"
 
-#: app/scripts/templates/cannot_create_account.mustache:3
+#: app/scripts/templates/cannot_create_account.mustache:2
 msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr ""
 "U moet aan bepaalde leeftijdscriteria voldoen om een Firefox-account aan te "
 "maken."
 
-#: app/scripts/templates/cannot_create_account.mustache:5
+#: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
 msgstr "Meer lezen."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-#: app/scripts/templates/sign_up.mustache:21
-#: app/scripts/templates/sign_up.mustache:26
+#: app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/sign_up.mustache:27
 msgid "Choose what to sync"
 msgstr "Kies wat u wilt synchroniseren"
 
@@ -489,7 +496,7 @@ msgstr ""
 "gesynchroniseerd."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:25
 msgid "Sign up"
 msgstr "Registreren"
 
@@ -575,7 +582,7 @@ msgstr "Nieuwe wachtwoord"
 #: app/scripts/templates/force_auth.mustache:6
 #: app/scripts/templates/sign_in.mustache:10
 #: app/scripts/templates/sign_in.mustache:23
-#: app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/change_password.mustache:6
 #: app/scripts/templates/settings/change_password.mustache:10
 #: app/scripts/templates/settings/delete_account.mustache:5
@@ -634,8 +641,8 @@ msgstr "E-mail voor ontgrendeling verzonden"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification"
-" link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
 msgstr ""
 "Om veiligheidsredenen is uw account vergrendeld. Voor het uitvoeren van "
 "activiteiten op accountniveau verifieert u uw account opnieuw door op de "
@@ -666,12 +673,12 @@ msgstr "Cookies en lokale opslag zijn vereist."
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between"
-" sessions."
+"Accounts. Doing so will enable functionality such as remembering you between "
+"sessions."
 msgstr ""
 "Schakel cookies en lokale opslag in uw browser in voor toegang tot Firefox "
-"Accounts. Hierdoor worden functionaliteiten zoals het onthouden van u tussen"
-" sessies ingeschakeld."
+"Accounts. Hierdoor worden functionaliteiten zoals het onthouden van u tussen "
+"sessies ingeschakeld."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -688,7 +695,7 @@ msgstr "Meld u aan om door te gaan"
 #: app/scripts/templates/force_auth.mustache:3
 #: app/scripts/templates/sign_in.mustache:8
 #: app/scripts/templates/sign_in.mustache:20
-#: app/scripts/templates/sign_up.mustache:12
+#: app/scripts/templates/sign_up.mustache:13
 #: app/scripts/templates/settings/change_password.mustache:1
 #: app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
@@ -713,15 +720,15 @@ msgstr "Wachtwoord vergeten?"
 
 #: app/scripts/templates/force_auth.mustache:9
 #: app/scripts/templates/sign_in.mustache:29
-#: app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/sign_up.mustache:18
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
-"Door verder te gaan, gaat u akkoord met de <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Servicevoorwaarden</a> en <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Privacyverklaring</a> van Firefox-cloudservices."
+"Door verder te gaan, gaat u akkoord met de <a id=\"fxa-tos\" href=\"/legal/"
+"terms\">Servicevoorwaarden</a> en <a id=\"fxa-pp\" href=\"/legal/privacy"
+"\">Privacyverklaring</a> van Firefox-cloudservices."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -824,15 +831,15 @@ msgstr "Wachtwoord vergeten"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
-"When you reset your password, you will lose any Sync data that is not on one"
-" of your devices."
+"When you reset your password, you will lose any Sync data that is not on one "
+"of your devices."
 msgstr ""
-"Als u uw wachtwoord herinitialiseert, verliest u alle Sync-gegevens die zich"
-" niet op een van uw apparaten bevinden."
+"Als u uw wachtwoord herinitialiseert, verliest u alle Sync-gegevens die zich "
+"niet op een van uw apparaten bevinden."
 
 #: app/scripts/templates/reset_password.mustache:4
 #: app/scripts/templates/sign_in.mustache:19
-#: app/scripts/templates/sign_up.mustache:10
+#: app/scripts/templates/sign_up.mustache:11
 #: app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "E-mailadres"
@@ -874,23 +881,21 @@ msgstr "Een Firefox-account aanmaken"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr ""
-"Migreer uw Sync-gegevens door een nieuwe Firefox-account aan te maken."
+msgstr "Migreer uw Sync-gegevens door een nieuwe Firefox-account aan te maken."
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
-"in</a>"
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 msgstr ""
-"Hebt u een account met een ander e-mailadres? <a "
-"href=\"%(signinUri)s\">Aanmelden</a>"
+"Hebt u een account met een ander e-mailadres? <a href=\"%(signinUri)s"
+"\">Aanmelden</a>"
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:19
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Ontvang het laatste nieuws over Mozilla en Firefox."
 
-#: app/scripts/templates/sign_up.mustache:29
+#: app/scripts/templates/sign_up.mustache:30
 msgid "Have an account? Sign in."
 msgstr "Hebt u een account? Meld u aan."
 
@@ -986,8 +991,8 @@ msgstr "Verwijderen"
 msgid ""
 "Are you sure you want to delete your account? This action cannot be undone."
 msgstr ""
-"Weet u zeker dat u uw account wilt verwijderen? Deze actie kan niet ongedaan"
-" worden gemaakt."
+"Weet u zeker dat u uw account wilt verwijderen? Deze actie kan niet ongedaan "
+"worden gemaakt."
 
 #: app/scripts/templates/settings/devices.mustache:2
 msgid "Devices"
@@ -995,13 +1000,13 @@ msgstr "Apparaten"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
-"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
-"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
+"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
+"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox is beschikbaar voor <a href=\"%(linkWindows)s\">Windows</a>, <a "
-"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
-"href=\"%(linkIOS)s\">iOS</a> en <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is beschikbaar voor <a href=\"%(linkWindows)s\">Windows</a>, <a href="
+"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
+"\"%(linkIOS)s\">iOS</a> en <a href=\"%(linkLinux)s\">Linux</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -1065,9 +1070,9 @@ msgstr "Firefox-account gebruiken"
 #~ msgstr "Weet u zeker dat u uw accountwachtwoord opnieuw wilt instellen?"
 
 #~ msgid ""
-#~ "Resetting your password will erase your browsing data from our servers. Any "
-#~ "data on your devices will remain untouched. Begin the reset process by "
-#~ "entering your email below."
+#~ "Resetting your password will erase your browsing data from our servers. "
+#~ "Any data on your devices will remain untouched. Begin the reset process "
+#~ "by entering your email below."
 #~ msgstr ""
 #~ "Opnieuw instellen van uw wachtwoord zal uw navigatiegegevens van onze "
 #~ "servers wissen. Gegevens op uw apparaten blijven onaangetast. Begin het "
@@ -1132,9 +1137,10 @@ msgstr "Firefox-account gebruiken"
 #~ "Accounts. Cookies are small pieces of data stored in your browser that "
 #~ "provide functionality such as remembering you between sessions."
 #~ msgstr ""
-#~ "Schakel cookies in uw browser in; deze zijn vereist door Firefox Accounts. "
-#~ "Cookies zijn kleine stukjes gegevens die in uw browser worden opgeslagen en "
-#~ "functionaliteiten bieden, zoals het onthouden van u tussen sessies."
+#~ "Schakel cookies in uw browser in; deze zijn vereist door Firefox "
+#~ "Accounts. Cookies zijn kleine stukjes gegevens die in uw browser worden "
+#~ "opgeslagen en functionaliteiten bieden, zoals het onthouden van u tussen "
+#~ "sessies."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Binnenkort komt Firefox naar iOS!"
@@ -1273,13 +1279,13 @@ msgstr "Firefox-account gebruiken"
 #~ "Voer uw e-mailadres in om het&nbsp;accountwachtwoord te herinitialiseren."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data from"
-#~ " our servers. A new Sync backup will be created from your local browsing "
-#~ "data."
+#~ "For security reasons, resetting your password will erase your Sync data "
+#~ "from our servers. A new Sync backup will be created from your local "
+#~ "browsing data."
 #~ msgstr ""
 #~ "Om beveiligingsredenen zal herinitialiseren van uw wachtwoord uw Sync-"
-#~ "gegevens van onze servers wissen. Er zal een nieuwe Sync-reservekopie van uw"
-#~ " lokale navigatiegegevens worden gemaakt."
+#~ "gegevens van onze servers wissen. Er zal een nieuwe Sync-reservekopie van "
+#~ "uw lokale navigatiegegevens worden gemaakt."
 
 #~ msgid "You are signed in as"
 #~ msgstr "U bent aangemeld als"
@@ -1288,24 +1294,22 @@ msgstr "Firefox-account gebruiken"
 #~ msgstr "Hebt u al een account? Meld u aan."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" "
-#~ "href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-#~ "href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+#~ "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+#~ "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
-#~ "Door verder te gaan ga ik akkoord met de <a id=\"service-tos\" "
-#~ "href=\"%(termsUri)s\">Servicevoorwaarden</a> en het <a id=\"service-pp\" "
-#~ "href=\"%(privacyUri)s\">Privacybeleid</a> van %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ "Door verder te gaan ga ik akkoord met de <a id=\"service-tos\" href="
+#~ "\"%(termsUri)s\">Servicevoorwaarden</a> en het <a id=\"service-pp\" href="
+#~ "\"%(privacyUri)s\">Privacybeleid</a> van %(serviceName)s (%(serviceUri)s)."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-#~ "Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Door verder te gaan ga ik akkoord met de <a id=\"fxa-tos\" "
-#~ "href=\"/legal/terms\">Servicevoorwaarden</a> en <a id=\"fxa-pp\" "
-#~ "href=\"/legal/privacy\">Privacyverklaring</a> van Firefox-cloudservices."
+#~ "Door verder te gaan ga ik akkoord met de <a id=\"fxa-tos\" href=\"/legal/"
+#~ "terms\">Servicevoorwaarden</a> en <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Privacyverklaring</a> van Firefox-cloudservices."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Abonneren op Firefox-nieuws en -tips"
@@ -1326,8 +1330,8 @@ msgstr "Firefox-account gebruiken"
 #~ "Once you're ﬁnished, use your new password to sign in on all of your "
 #~ "devices."
 #~ msgstr ""
-#~ "Gebruik uw nieuwe wachtwoord voor het aanmelden op al uw apparaten zodra u "
-#~ "klaar bent."
+#~ "Gebruik uw nieuwe wachtwoord voor het aanmelden op al uw apparaten zodra "
+#~ "u klaar bent."
 
 #~ msgid "Illegal iframe"
 #~ msgstr "Ongeldig iframe"
@@ -1338,10 +1342,12 @@ msgstr "Firefox-account gebruiken"
 #~ msgid "Password changed"
 #~ msgstr "Wachtwoord gewijzigd"
 
-#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
+#~ msgid ""
+#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
+#~ "email</a>."
 #~ msgstr ""
-#~ "Niet-geverifieerde account. <a href=\"#\" id=\"resend\">Verificatie-e-mail "
-#~ "opnieuw verzenden</a>."
+#~ "Niet-geverifieerde account. <a href=\"#\" id=\"resend\">Verificatie-e-"
+#~ "mail opnieuw verzenden</a>."
 
 #~ msgid "Password reset. Sign in to continue."
 #~ msgstr "Wachtwoord opnieuw ingesteld. Meld u aan om door te gaan."
@@ -1350,11 +1356,11 @@ msgstr "Firefox-account gebruiken"
 #~ msgstr "Afgemeld"
 
 #~ msgid ""
-#~ "Your verification email was just returned. Mistyped email? <a "
-#~ "href=\"/signup\">Start over.</a>"
+#~ "Your verification email was just returned. Mistyped email? <a href=\"/"
+#~ "signup\">Start over.</a>"
 #~ msgstr ""
-#~ "Uw verificatie-e-mail is zojuist geretourneerd. Typefout in e-mailadres? <a "
-#~ "href=\"/signup\">Begin opnieuw.</a>"
+#~ "Uw verificatie-e-mail is zojuist geretourneerd. Typefout in e-mailadres? "
+#~ "<a href=\"/signup\">Begin opnieuw.</a>"
 
 #~ msgid "Paste image URL"
 #~ msgstr "Afbeeldings-URL plakken"

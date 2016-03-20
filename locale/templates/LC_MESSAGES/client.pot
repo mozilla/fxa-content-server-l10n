@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2016-03-08 15:52+0000\n"
+"POT-Creation-Date: 2016-03-20 22:20+0000\n"
 
 #: app/scripts/views/complete_reset_password.js:129
 #: app/scripts/views/complete_sign_up.js:103
@@ -78,12 +78,16 @@ msgstr ""
 msgid "You are now ready to use %(serviceName)s"
 msgstr ""
 
-#: app/scripts/views/reset_password.js:50
+#: app/scripts/views/reset_password.js:51
 #: app/scripts/views/sign_in.js:140
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr ""
 
-#: app/scripts/views/sign_up.js:383
+#: app/scripts/views/sign_up.js:65
+msgid "Account no longer exists. Recreate it?"
+msgstr ""
+
+#: app/scripts/views/sign_up.js:392
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr ""
 
@@ -282,7 +286,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:143
 #: app/scripts/templates/complete_reset_password.mustache:15
-#: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/sign_up.mustache:17
 #: app/scripts/templates/settings/change_password.mustache:11
 msgid "Must be at least 8 characters"
 msgstr ""
@@ -354,6 +358,10 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:241
 msgid "No Gravatar found"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:249
+msgid "Account no longer exists."
 msgstr ""
 
 #: app/scripts/lib/mailcheck.js:64
@@ -437,17 +445,17 @@ msgstr ""
 msgid "Cannot create account"
 msgstr ""
 
-#: app/scripts/templates/cannot_create_account.mustache:3
+#: app/scripts/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr ""
 
-#: app/scripts/templates/cannot_create_account.mustache:5
+#: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
 msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-#: app/scripts/templates/sign_up.mustache:21
-#: app/scripts/templates/sign_up.mustache:26
+#: app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/sign_up.mustache:27
 msgid "Choose what to sync"
 msgstr ""
 
@@ -480,7 +488,7 @@ msgid "Add-ons and Preferences do not currently sync on mobile devices."
 msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:25
 msgid "Sign up"
 msgstr ""
 
@@ -560,7 +568,7 @@ msgstr ""
 #: app/scripts/templates/force_auth.mustache:6
 #: app/scripts/templates/sign_in.mustache:10
 #: app/scripts/templates/sign_in.mustache:23
-#: app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/change_password.mustache:6
 #: app/scripts/templates/settings/change_password.mustache:10
 #: app/scripts/templates/settings/delete_account.mustache:5
@@ -665,7 +673,7 @@ msgstr ""
 #: app/scripts/templates/force_auth.mustache:3
 #: app/scripts/templates/sign_in.mustache:8
 #: app/scripts/templates/sign_in.mustache:20
-#: app/scripts/templates/sign_up.mustache:12
+#: app/scripts/templates/sign_up.mustache:13
 #: app/scripts/templates/settings/change_password.mustache:1
 #: app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
@@ -690,7 +698,7 @@ msgstr ""
 
 #: app/scripts/templates/force_auth.mustache:9
 #: app/scripts/templates/sign_in.mustache:29
-#: app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/sign_up.mustache:18
 msgid ""
 "By proceeding, you agree to the <a id=\"fxa-tos\" "
 "href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
@@ -805,7 +813,7 @@ msgstr ""
 
 #: app/scripts/templates/reset_password.mustache:4
 #: app/scripts/templates/sign_in.mustache:19
-#: app/scripts/templates/sign_up.mustache:10
+#: app/scripts/templates/sign_up.mustache:11
 #: app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr ""
@@ -855,12 +863,12 @@ msgid ""
 "in</a>"
 msgstr ""
 
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/sign_up.mustache:19
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr ""
 
-#: app/scripts/templates/sign_up.mustache:29
+#: app/scripts/templates/sign_up.mustache:30
 msgid "Have an account? Sign in."
 msgstr ""
 
