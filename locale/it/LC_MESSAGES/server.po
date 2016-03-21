@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-20 22:20+0000\n"
-"PO-Revision-Date: 2016-03-21 08:18+0000\n"
+"PO-Revision-Date: 2016-03-21 17:18+0000\n"
 "Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -316,11 +316,11 @@ msgid ""
 " on any device connected to it. Simply confirm this email address to "
 "activate your account."
 msgstr ""
-"Recentemente hai creato un account Firefox, tuttavia non hai mai completato "
-"la procedura di verifica. Non appena effettuata questa operazione potrai "
-"accedere alle schede, ai segnalibri, alle password e alla cronologia di "
-"Firefox da qualunque dispositivo. Per attivare l’account conferma subito "
-"questo indirizzo email."
+"Ricevi questo messaggio perché è già passata una settimana da quando hai "
+"creato un account Firefox senza però completare la procedura di verifica. "
+"Con un account Firefox sarai in grado di sincronizzare password, segnalibri "
+"e cronologia su tutti i tuoi dispositivi. Per confermare la registrazione e "
+"attivare subito l’account conferma questo indirizzo email."
 
 #: templates/verify_reminder_second.html:3
 #: templates/verification_reminder_second.html:3
@@ -393,6 +393,9 @@ msgid ""
 "Your Firefox Account password has changed. If you did not change it, please "
 "<a href='%(resetLink)s'>reset your password</a> now."
 msgstr ""
+"La password del tuo account Firefox è stata modificata. Se non sei stato tu "
+"a effettuare questa operazione, ti consigliamo di <a "
+"href='%(resetLink)s'>reimpostare la password</a> immediatamente."
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Forgot your password?"
@@ -408,7 +411,7 @@ msgstr ""
 
 #: templates/reset.html:4 templates/reset.txt:3
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "Se conosci la password, effettua l’accesso."
 
 #: templates/reset.html:5 templates/reset.txt:4
 msgid "Reset password"
