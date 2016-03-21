@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-20 22:20+0000\n"
-"PO-Revision-Date: 2016-03-21 14:27+0000\n"
+"PO-Revision-Date: 2016-03-21 15:37+0000\n"
 "Last-Translator: avelper <avelper@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -401,10 +401,12 @@ msgid ""
 "Click the button within the next hour to set a new password for your Firefox"
 " Account."
 msgstr ""
+"Haz clic en el botón en la próxima hora para establecer una nueva contraseña"
+" para tu cuenta de Firefox."
 
 #: templates/reset.html:4 templates/reset.txt:3
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "¿Recordar contraseña? Inicia sesión."
 
 #: templates/reset.html:5 templates/reset.txt:4
 msgid "Reset password"
@@ -413,7 +415,7 @@ msgstr "Restablecer contraseña"
 #: config.js:159 config.js:160 config.js:161 config.js:162 config.js:163
 #: config.js:164
 msgid "contentServer.url"
-msgstr ""
+msgstr "contentServer.url"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
