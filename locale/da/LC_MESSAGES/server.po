@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-20 22:20+0000\n"
-"PO-Revision-Date: 2016-03-11 12:06+0000\n"
+"PO-Revision-Date: 2016-03-21 16:48+0000\n"
 "Last-Translator: joergenr <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
@@ -92,8 +92,8 @@ msgid ""
 "This is an automated email; if you did not authorize this action, then <a "
 "%(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr ""
-"Denne mail er sendt automatisk; hvis du ikke har godkendt denne handling, så "
-"<a %(passwordChangeLinkAttributes)s>skift din adgangskode.</a>"
+"Denne mail er sendt automatisk; hvis du ikke har godkendt denne handling, så"
+" <a %(passwordChangeLinkAttributes)s>skift din adgangskode.</a>"
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
@@ -140,8 +140,8 @@ msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
-"Denne mail er sendt automatisk; hvis du ikke har ændret adgangskoden til din "
-"Firefox-konto, bør du nulstille den med det samme på %(resetLink)s."
+"Denne mail er sendt automatisk; hvis du ikke har ændret adgangskoden til din"
+" Firefox-konto, bør du nulstille den med det samme på %(resetLink)s."
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
 msgid "Password reset successfully"
@@ -153,11 +153,11 @@ msgstr "Adgangskoden til din Firefox-konto er blevet nulstillet."
 
 #: templates/password_reset.txt:3 templates/password_reset.txt:4
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox"
+" Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
-"Denne mail er sendt automatisk; hvis du ikke har nulstillet adgangskoden til "
-"din Firefox-konto, bør du nulstille den med det samme på %(resetLink)s."
+"Denne mail er sendt automatisk; hvis du ikke har nulstillet adgangskoden til"
+" din Firefox-konto, bør du nulstille den med det samme på %(resetLink)s."
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
@@ -181,14 +181,15 @@ msgstr "Alternativt:"
 #: templates/verification_reminder_first.html:6
 #: templates/verification_reminder_first.txt:4
 #: templates/verification_reminder_second.html:6
-#: templates/verification_reminder_second.txt:4 templates/password_reset.html:4
-#: templates/reset.html:7 templates/reset.txt:5
+#: templates/verification_reminder_second.txt:4
+#: templates/password_reset.html:4 templates/reset.html:7
+#: templates/reset.txt:5
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
-"Denne mail er sendt automatisk; hvis du har modtaget denne mail ved en fejl, "
-"behøver du ikke foretage dig noget."
+"Denne mail er sendt automatisk; hvis du har modtaget denne mail ved en fejl,"
+" behøver du ikke foretage dig noget."
 
 #: templates/post_verify.txt:2
 msgid ""
@@ -238,14 +239,16 @@ msgstr "Bekræft konto"
 msgid "Verify account:"
 msgstr "Bekræft konto:"
 
-#: templates/verification_reminder.html:2 templates/verification_reminder.txt:1
+#: templates/verification_reminder.html:2
+#: templates/verification_reminder.txt:1
 #: templates/verify_reminder_first.html:2
 #: templates/verification_reminder_first.html:2
 #: templates/verification_reminder_first.txt:1
 msgid "Hello again."
 msgstr "Hej igen."
 
-#: templates/verification_reminder.html:3 templates/verification_reminder.txt:2
+#: templates/verification_reminder.html:3
+#: templates/verification_reminder.txt:2
 msgid ""
 "Recently you created a Firefox Account, but never verified it. Please "
 "activate your account by confirming this email address."
@@ -276,7 +279,8 @@ msgstr "Bekræft mailadresse"
 #: templates/verification_reminder_second.html:9
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr ""
-"Bekræft din mailadresse for at afslutte din registrering af din Firefox-konto"
+"Bekræft din mailadresse for at afslutte din registrering af din Firefox-"
+"konto"
 
 #: templates/verification_reminder.txt:3
 msgid "Activate Now:"
@@ -300,9 +304,9 @@ msgstr "Aktiver nu:"
 #: templates/verification_reminder_first.txt:2
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history "
-"on any device connected to it. Simply confirm this email address to activate "
-"your account."
+"verified account lets you access your tabs, bookmarks, passwords and history"
+" on any device connected to it. Simply confirm this email address to "
+"activate your account."
 msgstr ""
 "For et par dage siden oprettede du en Firefox-konto, men bekræftede den "
 "aldrig. Med en bekræftet konto får du adgang til dine faneblade, bogmærker, "
@@ -314,15 +318,15 @@ msgstr ""
 #: templates/verification_reminder_second.txt:2
 msgid ""
 "A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
-"iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know "
-"you're okay."
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and"
+" iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know"
+" you're okay."
 msgstr ""
 "For en uge siden oprettede du en Firefox-konto, men bekræftede den aldrig. "
 "Vi er bekymrede for dig. Firefox er tilgængelig til Windows, Mac, Linux, "
-"Android og iOS. Du kan synkronisere dine adgangskoder, bogmærker og historik "
-"i din Firefox på dem alle. Bekræft denne mailadresse for at aktivere din "
+"Android og iOS. Du kan synkronisere dine adgangskoder, bogmærker og historik"
+" i din Firefox på dem alle. Bekræft denne mailadresse for at aktivere din "
 "konto og lade os vide, at du er ok."
 
 #: mailer.js:132 mailer.js:329 mailer.js:332 mailer.js:133 mailer.js:336
@@ -372,27 +376,31 @@ msgstr "/__heartbeat__"
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
-msgstr ""
+msgstr "Din adgangskode er blevet nulstillet"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:3
 msgid ""
 "Your Firefox Account password has changed. If you did not change it, please "
 "<a href='%(resetLink)s'>reset your password</a> now."
 msgstr ""
+"Adgangskoden til din Firefox-konto er blevet ændret. Hvis du ikke ændrede "
+"den, så <a href='%(resetLink)s'>nulstil din adgangskode</a> nu."
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Forgot your password?"
-msgstr ""
+msgstr "Glemt din adgangskode?"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid ""
-"Click the button within the next hour to set a new password for your Firefox "
-"Account."
+"Click the button within the next hour to set a new password for your Firefox"
+" Account."
 msgstr ""
+"Klik på knappen indenfor den næste time for at oprette en ny adgangskode til"
+" din Firefox-konto."
 
 #: templates/reset.html:4 templates/reset.txt:3
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "Kan du huske din adgangskode? Log ind."
 
 #: templates/reset.html:5 templates/reset.txt:4
 msgid "Reset password"
@@ -401,7 +409,7 @@ msgstr "Nulstil adgangskode"
 #: config.js:159 config.js:160 config.js:161 config.js:162 config.js:163
 #: config.js:164
 msgid "contentServer.url"
-msgstr ""
+msgstr "contentServer.url"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
@@ -433,8 +441,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr ""
-"Åh nej, noget gik galt. Vi har fået besked, og vil gå i gang med at finde en "
-"løsning."
+"Åh nej, noget gik galt. Vi har fået besked, og vil gå i gang med at finde en"
+" løsning."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -456,11 +464,13 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+"You are using an <strong>outdated</strong> browser. Please <a "
+"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+"experience."
 msgstr ""
-"Du bruger en <strong>forældet</strong> browser. <a href=\"http://browsehappy."
-"com/\">Opdatér din browser</a> for at få en bedre oplevelse."
+"Du bruger en <strong>forældet</strong> browser. <a "
+"href=\"http://browsehappy.com/\">Opdatér din browser</a> for at få en bedre "
+"oplevelse."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -485,15 +495,15 @@ msgstr "Tjenestevilkår"
 #~ "This is an automated email; if you did not authorize this action, then <a "
 #~ "%(passwordChangeUrl)s>please change your password.</a>"
 #~ msgstr ""
-#~ "Denne mail er sendt automatisk; hvis du ikke har godkendt denne handling, "
-#~ "så <a %(passwordChangeUrl)s>skift din adgangskode.</a>"
+#~ "Denne mail er sendt automatisk; hvis du ikke har godkendt denne handling, så"
+#~ " <a %(passwordChangeUrl)s>skift din adgangskode.</a>"
 
 #~ msgid ""
-#~ "For more information, please visit <a href='https://support.mozilla."
-#~ "org'>Mozilla Support</a>"
+#~ "For more information, please visit <a "
+#~ "href='https://support.mozilla.org'>Mozilla Support</a>"
 #~ msgstr ""
-#~ "For yderligere information, besøg <a href='https://support.mozilla."
-#~ "org'>Mozilla Support</a>"
+#~ "For yderligere information, besøg <a "
+#~ "href='https://support.mozilla.org'>Mozilla Support</a>"
 
 #~ msgid "Reset password:"
 #~ msgstr "Nulstil adgangskode:"
@@ -504,8 +514,7 @@ msgstr "Tjenestevilkår"
 #~ msgid "Almost there"
 #~ msgstr "Næsten færdig"
 
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
 #~ msgstr "%(email)s, du er et klik fra at bekræfte din Firefox-konto."
 
 #~ msgid "Verify"
@@ -531,12 +540,12 @@ msgstr "Tjenestevilkår"
 #~ "Firefox-konto."
 
 #~ msgid ""
-#~ "This is an automated email; if you didn't add a new device to your "
-#~ "Firefox Account, you should change your password immediately at <a "
+#~ "This is an automated email; if you didn't add a new device to your Firefox "
+#~ "Account, you should change your password immediately at <a "
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr ""
-#~ "Denne mail er sendt automatisk; hvis du ikke tilføjede en ny enhed til "
-#~ "din Firefox-konto, bør du ændre din adgangskode med det samme på <a "
+#~ "Denne mail er sendt automatisk; hvis du ikke tilføjede en ny enhed til din "
+#~ "Firefox-konto, bør du ændre din adgangskode med det samme på <a "
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 
 #~ msgid ""
@@ -544,17 +553,17 @@ msgstr "Tjenestevilkår"
 #~ "Firefox Account, you should reset it immediately at <a "
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr ""
-#~ "Denne mail er sendt automatisk; hvis du ikke har ændret adgangskoden til "
-#~ "din Firefox-konto, bør du nulstille den med det samme på <a "
+#~ "Denne mail er sendt automatisk; hvis du ikke har ændret adgangskoden til din"
+#~ " Firefox-konto, bør du nulstille den med det samme på <a "
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 
 #~ msgid ""
-#~ "This is an automated email; if you didn't reset the password to your "
-#~ "Firefox Account, you should reset it immediately at <a "
+#~ "This is an automated email; if you didn't reset the password to your Firefox"
+#~ " Account, you should reset it immediately at <a "
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr ""
-#~ "Denne mail er sendt automatisk; hvis du ikke har nulstillet adgangskoden "
-#~ "til din Firefox-konto, bør du nulstille den med det samme på <a "
+#~ "Denne mail er sendt automatisk; hvis du ikke har nulstillet adgangskoden til"
+#~ " din Firefox-konto, bør du nulstille den med det samme på <a "
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 
 #~ msgid "A new device is now syncing to your Firefox Account"
@@ -574,8 +583,8 @@ msgstr "Tjenestevilkår"
 #~ "For more information, please visit <a href='%(supportUrl)s' style='color: "
 #~ "#0095dd; text-decoration: none;'>Mozilla Support</a>"
 #~ msgstr ""
-#~ "For mere information, besøg <a href='%(supportUrl)s' style='color: "
-#~ "#0095dd; text-decoration: none;'>Mozilla Support</a>"
+#~ "For mere information, besøg <a href='%(supportUrl)s' style='color: #0095dd; "
+#~ "text-decoration: none;'>Mozilla Support</a>"
 
 #~ msgid "New sign-in to Sync"
 #~ msgstr "Nyt login til Sync"
@@ -587,8 +596,8 @@ msgstr "Tjenestevilkår"
 #~ msgstr "Systemet er ikke tilgængeligt, prøv igen om lidt"
 
 #~ msgid ""
-#~ "We are currently performing some maintenance on the system, and will "
-#~ "return momentarily."
+#~ "We are currently performing some maintenance on the system, and will return "
+#~ "momentarily."
 #~ msgstr ""
 #~ "Vi udfører i øjeblikket vedligeholdelse på systemet, prøv igen om lidt."
 
