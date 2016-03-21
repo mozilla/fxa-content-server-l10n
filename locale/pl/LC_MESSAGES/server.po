@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-20 22:20+0000\n"
-"PO-Revision-Date: 2016-03-10 16:58+0100\n"
+"PO-Revision-Date: 2016-03-21 01:01+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -372,31 +372,34 @@ msgstr ""
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
-msgstr ""
+msgstr "Zmieniono hasło"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:3
 msgid ""
 "Your Firefox Account password has changed. If you did not change it, please "
 "<a href='%(resetLink)s'>reset your password</a> now."
 msgstr ""
+"Hasło konta Firefoksa zostało zmienione. Należy natychmiast <a "
+"href='%(resetLink)s'>zmienić je ponownie</a>, jeśli tego nie upoważniono."
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Forgot your password?"
-msgstr ""
+msgstr "Nie pamiętasz hasła?"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid ""
 "Click the button within the next hour to set a new password for your Firefox "
 "Account."
 msgstr ""
+"Kliknij przycisk w ciągu godziny, aby ustawić nowe hasło konta Firefoksa."
 
 #: templates/reset.html:4 templates/reset.txt:3
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "Pamiętasz hasło? Zaloguj się."
 
 #: templates/reset.html:5 templates/reset.txt:4
 msgid "Reset password"
-msgstr ""
+msgstr "Zmień hasło"
 
 #: config.js:159 config.js:160 config.js:161 config.js:162 config.js:163
 #: config.js:164
@@ -479,11 +482,3 @@ msgstr "Usługi Firefox cloud"
 #: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Regulamin usługi"
-
-#~ msgid ""
-#~ "This is an automated email; if you did not authorize this action, then <a "
-#~ "%(passwordChangeUrl)s>please change your password.</a>"
-#~ msgstr ""
-#~ "Wiadomość wygenerowana automatycznie. Jeżeli nie upoważniono wykonania "
-#~ "tej czynności, to należy <a %(passwordChangeUrl)s>natychmiast zmienić "
-#~ "hasło</a>."
