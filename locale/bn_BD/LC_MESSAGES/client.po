@@ -1,28 +1,29 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-20 22:20+0000\n"
-"PO-Revision-Date: 2015-01-07 10:11+0000\n"
-"Last-Translator: Zachary <zcarter@mozilla.com>\n"
+"PO-Revision-Date: 2016-03-25 05:43+0000\n"
+"Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_BD\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1420625507.0\n"
 
 #: app/scripts/views/complete_reset_password.js:129
 #: app/scripts/views/complete_sign_up.js:103 app/scripts/views/confirm.js:113
 #: app/scripts/views/confirm_reset_password.js:180
 msgid "Account verified successfully"
-msgstr ""
+msgstr "অ্যাকাউন্ট যাচাই সফল হয়েছে"
 
 #: app/scripts/views/confirm_account_unlock.js:89
 msgid "Account unlocked, please try again"
-msgstr ""
+msgstr "অ্যাকাউন্ট আনলক হয়েছে, আবার চেষ্টা করুন"
 
 #: app/scripts/views/confirm_reset_password.js:170
 #: app/scripts/views/ready.js:48
@@ -31,7 +32,7 @@ msgstr "পাসওয়ার্ড রিসেট"
 
 #: app/scripts/views/confirm_reset_password.js:199
 msgid "Password reset successfully. Sign in to continue."
-msgstr ""
+msgstr "পাসওয়ার্ড সফলভাবে রিসেট হয়েছে। অব্যাহত রাখতে সাইন ইন করুন।"
 
 #: app/scripts/views/permissions.js:25
 msgid "%(permissionName)s (required)"
@@ -39,7 +40,7 @@ msgstr ""
 
 #: app/scripts/views/permissions.js:31
 msgid "Email address"
-msgstr ""
+msgstr "ইমেইল ঠিকানা"
 
 #: app/scripts/views/permissions.js:36
 #: app/scripts/templates/settings/display_name.mustache:1
@@ -114,39 +115,38 @@ msgstr "অ্যাকাউন্ট সফলভাবে মুছে ফে
 
 #: app/scripts/views/settings/devices.js:25
 msgid "days ago"
-msgstr ""
+msgstr "দিন আগে"
 
 #: app/scripts/views/settings/devices.js:26
 msgid "hours ago"
-msgstr ""
+msgstr "ঘণ্টা আগে"
 
 #: app/scripts/views/settings/devices.js:27
 msgid "minutes ago"
-msgstr ""
+msgstr "মিনিট আগে"
 
 #: app/scripts/views/settings/devices.js:28
 msgid "months ago"
-msgstr ""
+msgstr "মাস আগে"
 
 #: app/scripts/views/settings/devices.js:29
 msgid "seconds ago"
-msgstr ""
+msgstr "সেকেন্ড আগে"
 
 #: app/scripts/views/settings/devices.js:31
 msgid "weeks ago"
-msgstr ""
+msgstr "সপ্তাহ আগে"
 
 #: app/scripts/views/settings/devices.js:32
 msgid "years ago"
-msgstr ""
+msgstr "বছর আগে"
 
 #: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
 msgstr ""
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 
 #: app/scripts/views/mixins/signed-out-notification-mixin.js:39
@@ -156,7 +156,8 @@ msgstr ""
 #: app/scripts/lib/auth-errors.js:17 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -230,7 +231,7 @@ msgstr "প্রচেষ্টা সীমা অতিক্রম করে
 
 #: app/scripts/lib/auth-errors.js:91
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "আপনার অ্যাকাউন্ট নিরাপত্তার কারণে বন্ধ রাখা হয়েছে"
 
 #: app/scripts/lib/auth-errors.js:99
 msgid "Server busy, try again soon"
@@ -248,7 +249,7 @@ msgstr "সিস্টেম উপলব্ধ নয়, শীঘ্রই আ�
 
 #: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:102
 msgid "no message"
-msgstr ""
+msgstr "কোন বার্তা নেই"
 
 #: app/scripts/lib/auth-errors.js:115
 msgid "Session expired. Sign in to continue."
@@ -419,9 +420,10 @@ msgstr "ফায়ারফক্স সিঙ্ক"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:26
@@ -437,7 +439,8 @@ msgstr "একাউন্ট তৈরী করা যাচ্ছে না"
 #: app/scripts/templates/cannot_create_account.mustache:2
 msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr "ফায়ারফক্স একাউন্ট খুলতে হলে আপনাকে অবশ্যই একটি বয়স সীমা পূর্ণ করতে হবে।"
+msgstr ""
+"ফায়ারফক্স একাউন্ট খুলতে হলে আপনাকে অবশ্যই একটি বয়স সীমা পূর্ণ করতে হবে।"
 
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
@@ -503,9 +506,9 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
-"আপনি যে লিঙ্ক এ ক্লিক করেছেন, তাতে কোন একটি অক্ষর পাওয়া যাচ্ছে না, কিংবা এটি "
-"আপনার ইমেইল ক্লায়েন্টদ্বা রা ভেঙ্গে গেছে। সতর্কতার সাথে ইমেইল ঠিকানাটি কপি করুন "
-"এবং পুনরায় চেষ্টা করুন।"
+"আপনি যে লিঙ্ক এ ক্লিক করেছেন, তাতে কোন একটি অক্ষর পাওয়া যাচ্ছে না, কিংবা এটি"
+" আপনার ইমেইল ক্লায়েন্টদ্বা রা ভেঙ্গে গেছে। সতর্কতার সাথে ইমেইল ঠিকানাটি কপি "
+"করুন এবং পুনরায় চেষ্টা করুন।"
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
@@ -619,8 +622,8 @@ msgstr ""
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification"
+" link sent to %(email)s"
 msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
@@ -646,8 +649,8 @@ msgstr ""
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between "
-"sessions."
+"Accounts. Doing so will enable functionality such as remembering you between"
+" sessions."
 msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:3
@@ -692,9 +695,9 @@ msgstr "পাসওয়ার্ড ভুলে গেছেন?"
 #: app/scripts/templates/sign_in.mustache:29
 #: app/scripts/templates/sign_up.mustache:18
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
@@ -797,8 +800,8 @@ msgstr ""
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
-"When you reset your password, you will lose any Sync data that is not on one "
-"of your devices."
+"When you reset your password, you will lose any Sync data that is not on one"
+" of your devices."
 msgstr ""
 
 #: app/scripts/templates/reset_password.mustache:4
@@ -849,7 +852,8 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
+"in</a>"
 msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:19
@@ -950,7 +954,8 @@ msgstr ""
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid ""
 "Are you sure you want to delete your account? This action cannot be undone."
-msgstr "আপনি কি একাউন্ট মুছে ফেলার ব্যাপারে নিশ্চিত? এটি পুনরায় ফেরত আনা যাবে না।"
+msgstr ""
+"আপনি কি একাউন্ট মুছে ফেলার ব্যাপারে নিশ্চিত? এটি পুনরায় ফেরত আনা যাবে না।"
 
 #: app/scripts/templates/settings/devices.mustache:2
 msgid "Devices"
@@ -958,9 +963,9 @@ msgstr ""
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
 
 #: app/scripts/templates/settings/devices.mustache:5
@@ -1025,9 +1030,9 @@ msgstr ""
 #~ "Accounts. Cookies are small pieces of data stored in your browser that "
 #~ "provide functionality such as remembering you between sessions."
 #~ msgstr ""
-#~ "দয়া করে ব্রাউজারের কুকিজ সক্রিয় করুন। এটি ফায়ারফক্স একাউন্টের জন্য প্রয়োজন। কুকিজ "
-#~ "হল কিছু ক্ষুদ্র ডাটা যা ব্রাউজ করার সময় বিভিন্ন সেশনে আপনাকে মনে রাখার সুবিধা "
-#~ "দেয়।"
+#~ "দয়া করে ব্রাউজারের কুকিজ সক্রিয় করুন। এটি ফায়ারফক্স একাউন্টের জন্য প্রয়োজন। "
+#~ "কুকিজ হল কিছু ক্ষুদ্র ডাটা যা ব্রাউজ করার সময় বিভিন্ন সেশনে আপনাকে মনে রাখার"
+#~ " সুবিধা দেয়।"
 
 #~ msgid "1991"
 #~ msgstr "১৯৯১"
@@ -1147,12 +1152,13 @@ msgstr ""
 #~ msgstr "একাউন্টের পাসওয়ার্ড রিসেটের জন্য আপনার ইমেইল প্রবেশ করান"
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data "
-#~ "from our servers. A new Sync backup will be created from your local "
-#~ "browsing data."
+#~ "For security reasons, resetting your password will erase your Sync data from"
+#~ " our servers. A new Sync backup will be created from your local browsing "
+#~ "data."
 #~ msgstr ""
-#~ "আপনার নিরাপত্তার স্বার্থে পাসওয়ার্ড রিসেট করলে আমাদের সেবা থেকে সিঙ্ক করা তথ্য "
-#~ "মুছে যাবে। আপনার লোকাল ব্রাউজিং তথ্য থেকে নতুন সিঙ্ক ব্যাকআপ তৈরী করা হবে।"
+#~ "আপনার নিরাপত্তার স্বার্থে পাসওয়ার্ড রিসেট করলে আমাদের সেবা থেকে সিঙ্ক করা "
+#~ "তথ্য মুছে যাবে। আপনার লোকাল ব্রাউজিং তথ্য থেকে নতুন সিঙ্ক ব্যাকআপ তৈরী করা "
+#~ "হবে।"
 
 #~ msgid "You are signed in as"
 #~ msgstr "আপনি যে নামে সাইন ইন করে আছেন"
@@ -1161,13 +1167,13 @@ msgstr ""
 #~ msgstr "ইতিমধ্যেই একটি একাউন্ট আছে? সাইন ইন"
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">Privacy Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
+#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+#~ "Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "অগ্রসর হবার মাধ্যমে আমি ফায়ারফক্স ক্লাউড সেবার <a id=\"fxa-tos\" href=\"/"
-#~ "legal/terms\">সেবা শর্ত</a> এবং <a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">গোপনীয়তা নীতিমালায়</a> সম্মতি দিচ্ছি।"
+#~ "অগ্রসর হবার মাধ্যমে আমি ফায়ারফক্স ক্লাউড সেবার <a id=\"fxa-tos\" "
+#~ "href=\"/legal/terms\">সেবা শর্ত</a> এবং <a id=\"fxa-pp\" "
+#~ "href=\"/legal/privacy\">গোপনীয়তা নীতিমালায়</a> সম্মতি দিচ্ছি।"
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "ফায়ারফক্স এর খবর ও টিপস-এ সাবস্ক্রাইভ করুন"
@@ -1185,9 +1191,7 @@ msgstr ""
 #~ msgid "Password changed"
 #~ msgstr "পাসওয়ার্ড পরিবর্তন হয়েছে"
 
-#~ msgid ""
-#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
-#~ "email</a>."
+#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
 #~ msgstr ""
 #~ "অযাচাইকৃত অ্যাকাউন্ট। <a href=\"#\" id=\"resend\"> পুনরায় যাচাইকরণ ইমেইল "
 #~ "পাঠান</a>।"
