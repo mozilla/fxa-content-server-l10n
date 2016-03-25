@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-20 22:20+0000\n"
-"PO-Revision-Date: 2016-03-25 22:00+0000\n"
+"PO-Revision-Date: 2016-03-25 22:11+0000\n"
 "Last-Translator: ravmn <ravmn@ravmn.cl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_CL\n"
@@ -322,7 +322,8 @@ msgstr ""
 #: app/scripts/lib/auth-errors.js:201
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
-"Furefox Accounts solo puede ser incluido en un IFRAME en sitios aprovados"
+"Las cuentas de Firefox solo pueden ser ubicadas en un IFRAME en sitios "
+"aprobados"
 
 #: app/scripts/lib/auth-errors.js:209
 msgid "/force_auth requires an email"
@@ -454,7 +455,7 @@ msgstr "No se puede crear la cuenta"
 msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr ""
-"Debes cumplir ciertos requisitos de edad para crear una Firefox Account."
+"Debes cumplir ciertos requisitos de edad para crear una cuenta de Firefox."
 
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
@@ -1058,7 +1059,7 @@ msgstr "Usar OpenID"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr "Usar cuenta de Firefox"
+msgstr "Usar una cuenta de Firefox"
 
 #~ msgid "Next"
 #~ msgstr "Siguiente"

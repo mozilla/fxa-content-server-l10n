@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-20 22:20+0000\n"
-"PO-Revision-Date: 2016-03-25 22:08+0000\n"
+"PO-Revision-Date: 2016-03-25 22:10+0000\n"
 "Last-Translator: ravmn <ravmn@ravmn.cl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_CL\n"
@@ -72,7 +72,7 @@ msgstr "Conectarse a Sync"
 #: server/templates/pages/src/privacy.html:1
 #: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
-msgstr "Firefox Accounts"
+msgstr "Cuentas de Firefox"
 
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
 #: templates/unlock.html:2
@@ -257,7 +257,7 @@ msgid ""
 "Recently you created a Firefox Account, but never verified it. Please "
 "activate your account by confirming this email address."
 msgstr ""
-"Recientemente creaste una cuenta de Firefox, pero nunca la verificaste. Oir "
+"Recientemente creaste una cuenta de Firefox, pero nunca la verificaste. Por "
 "favor, activa tu cuenta confirmando esta dirección de email."
 
 #: templates/verification_reminder.html:4 templates/verify.html:4
@@ -406,7 +406,7 @@ msgstr ""
 
 #: templates/reset.html:4 templates/reset.txt:3
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "¿Recuerdas tu contraseña? Conéctate."
 
 #: templates/reset.html:5 templates/reset.txt:4
 msgid "Reset password"
@@ -415,7 +415,7 @@ msgstr "Reiniciar contraseña"
 #: config.js:159 config.js:160 config.js:161 config.js:162 config.js:163
 #: config.js:164
 msgid "contentServer.url"
-msgstr ""
+msgstr "contentServer.url"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
