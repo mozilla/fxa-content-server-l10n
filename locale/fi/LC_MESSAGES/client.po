@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-20 22:20+0000\n"
-"PO-Revision-Date: 2016-04-10 21:01+0000\n"
+"PO-Revision-Date: 2016-04-10 21:53+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -557,6 +557,8 @@ msgid ""
 "Once you submit your new password, you will lose any Sync data that is not "
 "on one of your devices."
 msgstr ""
+"Kun lähetät uuden salasanasi, menetät kaikki Sync-tiedot, jotka eivät ole "
+"jollakin laitteistasi."
 
 #: app/scripts/templates/complete_reset_password.mustache:11
 #: app/scripts/templates/reset_password.mustache:3
@@ -659,7 +661,7 @@ msgstr "Muistatko salasanan? Kirjaudu sisään."
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
-msgstr ""
+msgstr "Evästeet ja paikallinen tallennustila vaaditaan."
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -667,6 +669,9 @@ msgid ""
 "Accounts. Doing so will enable functionality such as remembering you between"
 " sessions."
 msgstr ""
+"Ota käyttöön evästeet ja paikallinen tallennustila selaimessasi, jotta voit "
+"käyttää Firefox Accounts -palvelua. Tämän tekeminen mahdollistaa muun muassa"
+" sinun muistamisen istunnosta toiseen."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -771,12 +776,12 @@ msgstr "Lataa Firefox mobiililaitteille."
 #: app/scripts/templates/permissions.mustache:1
 #: app/scripts/templates/settings/gravatar_permissions.mustache:1
 msgid "Request for permission"
-msgstr ""
+msgstr "Lupapyyntö"
 
 #: app/scripts/templates/permissions.mustache:2
 #: app/scripts/templates/settings/gravatar_permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr ""
+msgstr "%(serviceName)s haluaa seuraavat tiedot tililtäsi:"
 
 #: app/scripts/templates/permissions.mustache:3
 #: app/scripts/templates/settings/gravatar_permissions.mustache:4
@@ -821,6 +826,8 @@ msgid ""
 "When you reset your password, you will lose any Sync data that is not on one"
 " of your devices."
 msgstr ""
+"Kun nollaat salasanasi, menetät kaikki Sync-tiedot, jotka eivät ole jollakin"
+" laitteistasi."
 
 #: app/scripts/templates/reset_password.mustache:4
 #: app/scripts/templates/sign_in.mustache:19
@@ -848,7 +855,7 @@ msgstr "Jatka palveluun %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr ""
+msgstr "Siirrä synkronointitietosi kirjautumalla sisään Firefox-tilillesi."
 
 #: app/scripts/templates/sign_in.mustache:13
 #: app/scripts/templates/sign_in.mustache:16
@@ -866,18 +873,20 @@ msgstr "Luo Firefox-tili"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr ""
+msgstr "Siirrä synkronointitietosi luomalla uusi Firefox-tili."
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid ""
 "Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
 "in</a>"
 msgstr ""
+"Onko sinulla tili eri sähköpostilla? <a href=\"%(signinUri)s\">Kirjaudu "
+"sisään</a>"
 
 #: app/scripts/templates/sign_up.mustache:19
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Saa uusimmat Mozilla- ja Firefox-uutiset."
 
 #: app/scripts/templates/sign_up.mustache:30
 msgid "Have an account? Sign in."
@@ -986,6 +995,10 @@ msgid ""
 "href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
 "href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
+"Firefox on saatavilla <a href=\"%(linkWindows)s\">Windowsille</a>, <a "
+"href=\"%(linkOSX)s\">OS X:lle</a>, <a "
+"href=\"%(linkAndroid)s\">Androidille</a>, <a "
+"href=\"%(linkIOS)s\">iOS:lle</a> ja <a href=\"%(linkLinux)s\">Linuxille</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -1027,6 +1040,8 @@ msgid ""
 "Choose the account you would like to use to sync your tabs, bookmarks, "
 "passwords and more."
 msgstr ""
+"Valitse tili, jota haluat käyttää synkronoimaan välilehtesi, kirjanmerkkisi,"
+" salasanasi ynnä muut."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
