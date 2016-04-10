@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-20 22:20+0000\n"
-"PO-Revision-Date: 2016-03-21 01:15+0000\n"
-"Last-Translator: YFdyh000 <yfdyh000@gmail.com>\n"
+"PO-Revision-Date: 2016-04-10 11:16+0000\n"
+"Last-Translator: xcffl <xcffl@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -322,7 +322,7 @@ msgstr "您的 Firefox 账号密码已被重置"
 
 #: mailer.js:268 mailer.js:272
 msgid "New sign-in to Firefox"
-msgstr "新的登录 Firefox"
+msgstr "新一次登录 Firefox"
 
 #: mailer.js:291 mailer.js:294 mailer.js:298
 msgid "Firefox Account Verified"
