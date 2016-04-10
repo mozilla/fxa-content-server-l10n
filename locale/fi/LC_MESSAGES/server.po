@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-20 22:20+0000\n"
-"PO-Revision-Date: 2016-04-10 18:49+0000\n"
+"PO-Revision-Date: 2016-04-10 21:02+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -121,11 +121,11 @@ msgstr "Lisätietoja on osoitteessa %(supportUrl)s"
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Salasanan vaihtaminen onnistui"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr ""
+msgstr "Firefox-tilisi salasanan vaihtaminen onnistui."
 
 #: templates/password_changed.txt:3
 msgid ""
@@ -135,11 +135,11 @@ msgstr ""
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Salasanan nollaus onnistui"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr ""
+msgstr "Firefox-tilisi salasanan nollaus onnistui."
 
 #: templates/password_reset.txt:3 templates/password_reset.txt:4
 msgid ""
@@ -203,11 +203,11 @@ msgstr "Nollataanko varmasti salasana tilille %(email)s?"
 
 #: templates/reset.html:4
 msgid "Reset password now"
-msgstr ""
+msgstr "Nollaa salasana nyt"
 
 #: templates/reset.txt:3
 msgid "Reset password now:"
-msgstr ""
+msgstr "Nollaa salasana nyt:"
 
 #: templates/unlock.html:3 templates/unlock.txt:1
 msgid ""
@@ -372,7 +372,7 @@ msgstr ""
 
 #: templates/reset.html:4 templates/reset.txt:3
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "Muistatko salasanan? Kirjaudu sisään."
 
 #: templates/reset.html:5 templates/reset.txt:4
 msgid "Reset password"

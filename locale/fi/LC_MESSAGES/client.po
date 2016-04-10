@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-20 22:20+0000\n"
-"PO-Revision-Date: 2016-04-10 17:09+0000\n"
+"PO-Revision-Date: 2016-04-10 21:01+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -641,13 +641,15 @@ msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr "Nollaussähköposti lähetettiin"
+msgstr "Nollaussähköposti lähetetty"
 
 #: app/scripts/templates/confirm_reset_password.mustache:4
 msgid ""
 "Click on the link we've emailed you at %(email)s within the next hour to "
 "create a new password."
 msgstr ""
+"Napsauta osoitteeseen %(email)s lähettämäämme linkkiä tunnin kuluessa "
+"luodaksesi uuden salasanan."
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
@@ -812,7 +814,7 @@ msgstr "Tilisi on valmis!"
 
 #: app/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
-msgstr ""
+msgstr "Unohdin salasanan"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
@@ -879,7 +881,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:30
 msgid "Have an account? Sign in."
-msgstr ""
+msgstr "Onko sinulla jo tili? Kirjaudu sisään."
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
@@ -987,7 +989,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
-msgstr ""
+msgstr "Voit hallinnoida laitteitasi alta."
 
 #: app/scripts/templates/settings/devices.mustache:6
 msgid "(current)"
@@ -995,7 +997,7 @@ msgstr "(nykyinen)"
 
 #: app/scripts/templates/settings/devices.mustache:8
 msgid "Disconnect"
-msgstr ""
+msgstr "Katkaise yhteys"
 
 #: app/scripts/templates/settings/devices.mustache:10
 msgid "Don't see all your devices?"
@@ -1010,6 +1012,7 @@ msgid ""
 "Choose the name you would like to appear in Firefox and when managing your "
 "account."
 msgstr ""
+"Valitse nimi, jonka haluavat näkyvän Firefoxissa ja hallinnoidessasi tiliä."
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
