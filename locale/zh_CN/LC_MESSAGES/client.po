@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-20 22:20+0000\n"
-"PO-Revision-Date: 2016-03-21 01:14+0000\n"
-"Last-Translator: YFdyh000 <yfdyh000@gmail.com>\n"
+"PO-Revision-Date: 2016-04-11 09:17+0000\n"
+"Last-Translator: xcffl <xcffl@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -55,7 +55,7 @@ msgstr "头像"
 
 #: app/scripts/views/ready.js:29
 msgid "Firefox Sync will begin momentarily"
-msgstr "Firefox 同步即将开始"
+msgstr "Firefox 即将开始同步"
 
 #: app/scripts/views/ready.js:38
 msgid "Account unlocked"
@@ -67,7 +67,7 @@ msgstr "欢迎回来"
 
 #: app/scripts/views/ready.js:44
 msgid "Firefox Sync will resume momentarily"
-msgstr "Firefox 同步即将继续"
+msgstr "Firefox 即将继续同步"
 
 #: app/scripts/views/ready.js:54
 msgid "Welcome to Sync"
