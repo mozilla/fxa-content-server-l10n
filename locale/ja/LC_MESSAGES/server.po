@@ -472,3 +472,63 @@ msgstr "利用規約"
 #~ "%(passwordChangeUrl)s>please change your password.</a>"
 #~ msgstr ""
 #~ "これは自動送信メールです。この操作を許可していない場合は、<a %(passwordChangeUrl)s>パスワードを変更してください</a>。"
+
+msgid "Firefox Account password reset required"
+msgstr "Firefox アカウントのパスワードリセット要求を受けました"
+
+msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
+msgstr "あなたの Firefox アカウントで不審なアクティビティが検出されました。アカウントが危険にさらされている可能性があります。"
+
+msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
+msgstr "今後 Firefox アカウントへの不正アクセスを防ぐためにパスワードがリセットされましたので、念のためお知らせします。"
+
+msgid "What should you do?"
+msgstr "やるべきこと"
+
+msgid "First, change your Firefox Account password."
+msgstr "まず、Firefox アカウントのパスワードを変更します。"
+
+msgid "See here for instructions."
+msgstr "操作方法はこちらで確認できます。"
+
+msgid "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
+msgstr "次に、Firefox がウェブサイトのパスワードを保存している場合は、これらのパスワードも変更してください。攻撃者はこれらのパスワードにもアクセスできる可能性があるので、これらのアカウントで不審なアクティビティがないか確認してください。"
+
+msgid "Learn how to see what passwords Firefox is storing for you."
+msgstr "Firefox がどのパスワードを保存しているか確認する方法はこちらです。"
+
+msgid "For more information, check out this blog post."
+msgstr "詳細に関しては、こちらのブログ記事をご覧ください。"
+
+msgid "Best,"
+msgstr "ご利用ありがとうございます"
+
+msgid "The Firefox Accounts team"
+msgstr "Firefox アカウントチーム"
+
+msgid "Mozilla Privacy Policy"
+msgstr "Mozilla プライバシーポリシー"
+
+msgid "Suspicious activity with your Firefox Account"
+msgstr "Firefox アカウントでの不審なアクティビティ"
+
+msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
+msgstr "過去60日以内に下記の場所からご自身のFirefoxアカウントにサインインしましたか？あなたがこれらの場所に覚えがない場合は、他の誰かがあなたの Firefox アカウントにアクセスした可能性があります。"
+
+msgid "Date & Time:"
+msgstr "日時："
+
+msgid "Device:"
+msgstr "デバイス："
+
+msgid "Location:"
+msgstr "場所："
+
+msgid "If you don’t recognize the activity above:"
+msgstr "上記のアクティビティに覚えがない場合："
+
+msgid "Why are you receiving this email?"
+msgstr "このメールを受信した理由"
+
+msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
+msgstr "通常とは異なる場所からの、Firefox アカウントへのログインが最近検知されたので、念のためお知らせています。"
