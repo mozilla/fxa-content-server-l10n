@@ -531,7 +531,7 @@ msgstr "戻る"
 
 #: app/scripts/lib/strings.js:46
 msgid "Sign-in confirmed"
-msgstr "ログイン確認済み"
+msgstr "ログインが確認されました"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
