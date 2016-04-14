@@ -70,7 +70,7 @@ set -x
 cp $MAILER_DIR/server.pot $CONTENT_DIR/locale/templates/LC_MESSAGES/
 
 (cd $CONTENT_DIR && grunt l10n-extract)
-cp -r $CONTENT_DIR/locale/templates/ $L10N_DIR/locale/templates
+cp -r $CONTENT_DIR/locale/templates/* $L10N_DIR/locale/templates
 
 # see https://github.com/mozilla/zippy/blob/180f746cd84cb3e409c76649e810485acb4512dc/locale/omg_new_l10n.sh#L90
 # also see https://bugzilla.mozilla.org/show_bug.cgi?id=1168488

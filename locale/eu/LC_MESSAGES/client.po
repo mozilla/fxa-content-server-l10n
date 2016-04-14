@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-20 22:20+0000\n"
+"POT-Creation-Date: 2016-04-14 12:12+0000\n"
 "PO-Revision-Date: 2016-04-07 21:12+0000\n"
 "Last-Translator: ibai <ibai@oihanguren.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,9 +15,9 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1433277961.0\n"
 
-#: app/scripts/views/complete_reset_password.js:129
-#: app/scripts/views/complete_sign_up.js:103 app/scripts/views/confirm.js:113
-#: app/scripts/views/confirm_reset_password.js:180
+#: app/scripts/views/complete_reset_password.js:132
+#: app/scripts/views/complete_sign_up.js:102 app/scripts/views/confirm.js:119
+#: app/scripts/views/confirm_reset_password.js:184
 msgid "Account verified successfully"
 msgstr "Kontua ondo egiaztatu da"
 
@@ -25,12 +25,12 @@ msgstr "Kontua ondo egiaztatu da"
 msgid "Account unlocked, please try again"
 msgstr "Kontua desblokeatuta, saiatu berriro mesedez"
 
-#: app/scripts/views/confirm_reset_password.js:170
+#: app/scripts/views/confirm_reset_password.js:174
 #: app/scripts/views/ready.js:48
 msgid "Password reset"
 msgstr "Pasahitza berrezarrita"
 
-#: app/scripts/views/confirm_reset_password.js:199
+#: app/scripts/views/confirm_reset_password.js:203
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Pasahitza ondo berrezarri da. Jarraitzeko, hasi saioa."
 
@@ -77,19 +77,20 @@ msgstr "Ongi etorri Sync-era"
 msgid "Account verified"
 msgstr "Kontua egiaztatuta"
 
-#: app/scripts/views/ready.js:60 app/scripts/templates/ready.mustache:5
+#: app/scripts/views/ready.js:60 app/scripts/lib/strings.js:47
+#: app/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Dena prest dago %(serviceName)s erabiltzen hasteko"
 
-#: app/scripts/views/reset_password.js:51 app/scripts/views/sign_in.js:140
+#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:143
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Kontu ezezaguna. <a href=\"/signup\">Erregistratu</a>"
 
-#: app/scripts/views/sign_up.js:65
+#: app/scripts/views/sign_up.js:67
 msgid "Account no longer exists. Recreate it?"
 msgstr "Kontua jada ez da existitzen. Birsortu nahi al duzu?"
 
-#: app/scripts/views/sign_up.js:392
+#: app/scripts/views/sign_up.js:397
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Kontua badago lehendik ere. <a href=\"/signin\">Hasi saioa</a>"
 
@@ -97,7 +98,7 @@ msgstr "Kontua badago lehendik ere. <a href=\"/signin\">Hasi saioa</a>"
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a>-en eskutik"
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:46
 msgid "Password changed successfully"
 msgstr "Pasahitza ondo aldatu da"
 
@@ -146,18 +147,29 @@ msgid "Display name updated"
 msgstr "Bistaratze-izena eguneratua"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
-"Kontua blokeatuta. <a href=\"/confirm_account_unlock\">BIdali desblokeatzeko"
-" mezua</a>"
+"Kontua blokeatuta. <a href=\"/confirm_account_unlock\">BIdali desblokeatzeko "
+"mezua</a>"
+
+#: app/scripts/views/mixins/account-reset-mixin.js:42
+#: app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:101
+msgid "Your account has been locked for security reasons"
+msgstr "Zure kontua blokeatu egin da segurtasun-arrazoiengatik"
+
+#: app/scripts/views/mixins/account-reset-mixin.js:43
+#: app/scripts/templates/reset_password.mustache:6
+msgid "Reset password"
+msgstr "Berrezarri pasahitza"
 
 #: app/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
 msgstr "Saioa ondo amaitu da"
 
-#: app/scripts/lib/auth-errors.js:17 app/scripts/lib/config-loader.js:77
+#: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
-#: app/scripts/lib/oauth-errors.js:18 app/scripts/lib/profile-errors.js:35
+#: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:35
 #: app/scripts/lib/profile-errors.js:43
 #: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
@@ -167,200 +179,192 @@ msgstr "Saioa ondo amaitu da"
 msgid "Unexpected error"
 msgstr "Espero gabeko errorea"
 
-#: app/scripts/lib/auth-errors.js:27 app/scripts/lib/oauth-errors.js:48
+#: app/scripts/lib/auth-errors.js:29 app/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
 msgstr "Token baliogabea"
 
-#: app/scripts/lib/auth-errors.js:31
+#: app/scripts/lib/auth-errors.js:33
 msgid "Invalid timestamp in request signature"
 msgstr "Denbora-marka baliogabea eskaeraren sinaduran"
 
-#: app/scripts/lib/auth-errors.js:35
+#: app/scripts/lib/auth-errors.js:37
 msgid "Invalid nonce in request signature"
 msgstr "Nonce baliogabea eskaeraren sinaduran"
 
-#: app/scripts/lib/auth-errors.js:39
+#: app/scripts/lib/auth-errors.js:41
 msgid "Account already exists"
 msgstr "Kontua badago lehendik"
 
-#: app/scripts/lib/auth-errors.js:43
+#: app/scripts/lib/auth-errors.js:45
 msgid "Unknown account"
 msgstr "Kontu ezezaguna"
 
-#: app/scripts/lib/auth-errors.js:47
+#: app/scripts/lib/auth-errors.js:49
 msgid "Incorrect email case"
 msgstr "Helbide elektronikoaren formatu okerra"
 
-#: app/scripts/lib/auth-errors.js:51
+#: app/scripts/lib/auth-errors.js:53
 msgid "Incorrect password"
 msgstr "Pasahitz okerra"
 
-#: app/scripts/lib/auth-errors.js:55
+#: app/scripts/lib/auth-errors.js:57
 msgid "Unverified account"
 msgstr "Egiaztatu gabeko kontua"
 
-#: app/scripts/lib/auth-errors.js:59
+#: app/scripts/lib/auth-errors.js:61
 msgid "Invalid verification code"
 msgstr "Egiaztatze-kode baliogabea"
 
-#: app/scripts/lib/auth-errors.js:63
+#: app/scripts/lib/auth-errors.js:65
 msgid "Invalid JSON in request body"
 msgstr "JSON baliogabea eskaeraren gorputzean"
 
-#: app/scripts/lib/auth-errors.js:67 app/scripts/lib/profile-errors.js:23
+#: app/scripts/lib/auth-errors.js:69 app/scripts/lib/profile-errors.js:23
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Parametro baliogabea eskaeraren gorputzean: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:71
+#: app/scripts/lib/auth-errors.js:73
 msgid "Missing parameter in request body: %(param)s"
 msgstr "Parametroa falta da eskaeraren gorputzean: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:75
+#: app/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
 msgstr "Eskaeraren sinadura baliogabea"
 
-#: app/scripts/lib/auth-errors.js:79
+#: app/scripts/lib/auth-errors.js:81
 msgid "Missing content-length header"
 msgstr "'Content-length' goiburua falta da"
 
-#: app/scripts/lib/auth-errors.js:83
+#: app/scripts/lib/auth-errors.js:85
 msgid "Request body too large"
 msgstr "Eskaeraren gorputza handiegia da"
 
-#: app/scripts/lib/auth-errors.js:87
+#: app/scripts/lib/auth-errors.js:89
 msgid "Attempt limit exceeded"
 msgstr "Saiakeren muga gaindituta"
 
-#: app/scripts/lib/auth-errors.js:91
-msgid "Your account has been locked for security reasons"
-msgstr "Zure kontua blokeatu egin da segurtasun-arrazoiengatik"
-
-#: app/scripts/lib/auth-errors.js:99
+#: app/scripts/lib/auth-errors.js:105
 msgid "Server busy, try again soon"
 msgstr "Zerbitzaria lanpetuta dago,  saiatu berriro beranduago"
 
-#: app/scripts/lib/auth-errors.js:103
+#: app/scripts/lib/auth-errors.js:109
 msgid "This endpoint is no longer supported"
 msgstr "Mutur hau ez da onartzen"
 
-#: app/scripts/lib/auth-errors.js:107 app/scripts/lib/config-loader.js:73
+#: app/scripts/lib/auth-errors.js:113 app/scripts/lib/config-loader.js:73
 #: app/scripts/lib/marketing-email-errors.js:79
-#: app/scripts/lib/oauth-errors.js:78 app/scripts/lib/profile-errors.js:39
+#: app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:39
 msgid "System unavailable, try again soon"
 msgstr "Sistema ez dago erabilgarri, saiatu berrio beranduago"
 
-#: app/scripts/lib/auth-errors.js:111 app/scripts/lib/oauth-errors.js:102
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/oauth-errors.js:104
 msgid "no message"
 msgstr "mezurik ez"
 
-#: app/scripts/lib/auth-errors.js:115
+#: app/scripts/lib/auth-errors.js:121
 msgid "Session expired. Sign in to continue."
 msgstr "Saioa iraungita. Hasi saioa jarraitzeko."
 
-#: app/scripts/lib/auth-errors.js:119
+#: app/scripts/lib/auth-errors.js:125
 msgid "Cookies are still disabled"
 msgstr "Cookieak desgaituta daude oraindik"
 
-#: app/scripts/lib/auth-errors.js:123
+#: app/scripts/lib/auth-errors.js:129
 msgid "Passwords do not match"
 msgstr "Pasahitzak ez datoz bat"
 
-#: app/scripts/lib/auth-errors.js:127
+#: app/scripts/lib/auth-errors.js:133
 msgid "Working…"
 msgstr "Lanean…"
 
-#: app/scripts/lib/auth-errors.js:131
+#: app/scripts/lib/auth-errors.js:137
 msgid "Could not get Privacy Notice"
 msgstr "Ezin da pribatutasun-abisua eskuratu"
 
-#: app/scripts/lib/auth-errors.js:135
+#: app/scripts/lib/auth-errors.js:141
 msgid "Could not get Terms of Service"
 msgstr "Ezin dira zerbitzuaren baldintzak eskuratu"
 
-#: app/scripts/lib/auth-errors.js:139
+#: app/scripts/lib/auth-errors.js:145
 msgid "Your new password must be different"
 msgstr "Pasahitz berriak desberdina izan behar du"
 
-#: app/scripts/lib/auth-errors.js:143
+#: app/scripts/lib/auth-errors.js:149
 #: app/scripts/templates/complete_reset_password.mustache:15
-#: app/scripts/templates/sign_up.mustache:17
-#: app/scripts/templates/settings/change_password.mustache:11
+#: app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "Gutxienez 8 karaktere izan behar ditu"
 
-#: app/scripts/lib/auth-errors.js:147
+#: app/scripts/lib/auth-errors.js:153
 msgid "Valid password required"
 msgstr "Baliozko pasahitza behar da"
 
-#: app/scripts/lib/auth-errors.js:151 app/scripts/lib/auth-errors.js:189
-#: app/scripts/lib/auth-errors.js:205
+#: app/scripts/lib/auth-errors.js:157 app/scripts/lib/auth-errors.js:195
+#: app/scripts/lib/auth-errors.js:211
 msgid "Valid email required"
 msgstr "Baliozko helbide elektronikoa behar da"
 
-#: app/scripts/lib/auth-errors.js:162
+#: app/scripts/lib/auth-errors.js:168
 msgid "A usable image was not found"
 msgstr "Ez da irudi erabilgarririk aurkitu"
 
-#: app/scripts/lib/auth-errors.js:166
+#: app/scripts/lib/auth-errors.js:172
 msgid "Could not initialize camera"
 msgstr "Ezin da kamera hasieratu"
 
-#: app/scripts/lib/auth-errors.js:170
+#: app/scripts/lib/auth-errors.js:176
 msgid "Valid URL required"
 msgstr "Baliozko URLa behar da"
 
-#: app/scripts/lib/auth-errors.js:185
+#: app/scripts/lib/auth-errors.js:191
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Zure egiaztapen-mezua itzuli egin da. Helbidea gaizki idatzi duzu?"
 
-#: app/scripts/lib/auth-errors.js:193
+#: app/scripts/lib/auth-errors.js:199
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr ""
 "Idatzi baliozko helbide elektronikoa. firefox.com-ek ez du posta "
 "elektronikorik eskaintzen."
 
-#: app/scripts/lib/auth-errors.js:201
+#: app/scripts/lib/auth-errors.js:207
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 "Firefox kontuak IFRAME batean eta onartutako guneetan soilik jar daitezke"
 
-#: app/scripts/lib/auth-errors.js:209
-msgid "/force_auth requires an email"
-msgstr "/force_auth deiak helbide elektronikoa behar du"
-
-#: app/scripts/lib/auth-errors.js:213
+#: app/scripts/lib/auth-errors.js:222
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
 msgstr ""
 "Helbide elektronikoa egiaztatzeko klik egin duzun lotura iraungita dago."
 
-#: app/scripts/lib/auth-errors.js:217
+#: app/scripts/lib/auth-errors.js:226
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "Egiaztapen-lotura hondatuta"
 
-#: app/scripts/lib/auth-errors.js:225
+#: app/scripts/lib/auth-errors.js:234
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Irudiaren tamainak gutxienez 100x100 px izan behar du"
 
-#: app/scripts/lib/auth-errors.js:229
+#: app/scripts/lib/auth-errors.js:238
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Izena emateko aukera laster dator iOSerako Firefoxentzat"
 
-#: app/scripts/lib/auth-errors.js:233
+#: app/scripts/lib/auth-errors.js:242
 msgid "Signup has been disabled"
 msgstr "Izena emateko aukera desgaitua izan da"
 
-#: app/scripts/lib/auth-errors.js:237
+#: app/scripts/lib/auth-errors.js:246
 msgid "You must enter your age to sign up"
 msgstr "Zure izena sartu behar duzu erregistratzeko"
 
-#: app/scripts/lib/auth-errors.js:241
+#: app/scripts/lib/auth-errors.js:250
 msgid "No Gravatar found"
 msgstr "Ez da Gravatar-ik aurkitu"
 
-#: app/scripts/lib/auth-errors.js:249
+#: app/scripts/lib/auth-errors.js:258
 msgid "Account no longer exists."
 msgstr "Kontua ez da existitzen jada."
 
@@ -368,47 +372,47 @@ msgstr "Kontua ez da existitzen jada."
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr "<span tabindex=\"1\">%(domain)s</span> esan nahi zenuen?"
 
-#: app/scripts/lib/oauth-errors.js:24
+#: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
 msgstr "Bezero ezezaguna"
 
-#: app/scripts/lib/oauth-errors.js:28
+#: app/scripts/lib/oauth-errors.js:30
 msgid "Incorrect redirect_uri"
 msgstr "redirect_uri okerra"
 
-#: app/scripts/lib/oauth-errors.js:32
+#: app/scripts/lib/oauth-errors.js:34
 msgid "Invalid assertion"
 msgstr "Baieztapen baliogabea"
 
-#: app/scripts/lib/oauth-errors.js:36
+#: app/scripts/lib/oauth-errors.js:38
 msgid "Unknown code"
 msgstr "Kode ezezaguna"
 
-#: app/scripts/lib/oauth-errors.js:40
+#: app/scripts/lib/oauth-errors.js:42
 msgid "Incorrect code"
 msgstr "Kode okerra"
 
-#: app/scripts/lib/oauth-errors.js:44
+#: app/scripts/lib/oauth-errors.js:46
 msgid "Expired code"
 msgstr "Kode iraungia"
 
-#: app/scripts/lib/oauth-errors.js:52 app/scripts/lib/oauth-errors.js:74
+#: app/scripts/lib/oauth-errors.js:54 app/scripts/lib/oauth-errors.js:76
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "OAuth parametro baliogabea: %(param)s"
 
-#: app/scripts/lib/oauth-errors.js:60 app/scripts/lib/profile-errors.js:19
+#: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
 msgstr "Baimenik ez"
 
-#: app/scripts/lib/oauth-errors.js:64
+#: app/scripts/lib/oauth-errors.js:66
 msgid "Forbidden"
 msgstr "Debekatuta"
 
-#: app/scripts/lib/oauth-errors.js:86
+#: app/scripts/lib/oauth-errors.js:88
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Zerbait gaizki joan da. Itxi fitxa hau eta saiatu berriro."
 
-#: app/scripts/lib/oauth-errors.js:106
+#: app/scripts/lib/oauth-errors.js:108
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "OAuth parametroa falta da: %(param)s"
 
@@ -426,16 +430,107 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:26
 msgid ""
 "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-"
 "account\">Help</a>"
+msgstr ""
+
+#: app/scripts/lib/strings.js:29
+msgid "Confirm new sign-in to Firefox"
+msgstr ""
+
+#: app/scripts/lib/strings.js:30
+msgid "You signed in to Firefox from %(device)s, %(location)s."
+msgstr ""
+
+#: app/scripts/lib/strings.js:31
+msgid "You signed in to Firefox from %(device)s."
+msgstr ""
+
+#: app/scripts/lib/strings.js:32
+msgid ""
+"For added security, please confirm this sign-in to begin syncing with "
+"%(device)."
+msgstr ""
+
+#: app/scripts/lib/strings.js:33
+msgid "Alternatively:"
+msgstr ""
+
+#: app/scripts/lib/strings.js:34
+msgid ""
+"This is an automated email; if you received it in error, no action is "
+"required."
+msgstr ""
+
+#: app/scripts/lib/strings.js:35
+msgid ""
+"For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
+"Support</a>"
+msgstr ""
+
+#: app/scripts/lib/strings.js:36
+msgid "Verify Email"
+msgstr ""
+
+#: app/scripts/lib/strings.js:37
+msgid "Verify your email to finish your Firefox Account sign-in"
+msgstr ""
+
+#: app/scripts/lib/strings.js:38
+msgid "Confirm sign-in"
+msgstr ""
+
+#: app/scripts/lib/strings.js:39
+msgid "Confirm this sign-in"
+msgstr ""
+
+#: app/scripts/lib/strings.js:40
+#: app/scripts/templates/complete_reset_password.mustache:2
+#: app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/templates/confirm.mustache:2
+#: app/scripts/templates/confirm_account_unlock.mustache:2
+#: app/scripts/templates/confirm_reset_password.mustache:2
+msgid "Email resent"
+msgstr "Mezua berriro bidali da"
+
+#: app/scripts/lib/strings.js:41 app/scripts/templates/confirm.mustache:3
+#: app/scripts/templates/confirm_account_unlock.mustache:3
+#: app/scripts/templates/confirm_reset_password.mustache:3
+msgid "Email Sent"
+msgstr "Mezua bidali da"
+
+#: app/scripts/lib/strings.js:42
+msgid ""
+"To better protect your Firefox data, we've emailed a confirmation link to "
+"%(email)s"
+msgstr ""
+
+#: app/scripts/lib/strings.js:43 app/scripts/templates/confirm.mustache:5
+msgid "Open Gmail"
+msgstr "Ireki Gmail"
+
+#: app/scripts/lib/strings.js:44 app/scripts/templates/confirm.mustache:7
+#: app/scripts/templates/confirm_account_unlock.mustache:6
+#: app/scripts/templates/confirm_reset_password.mustache:9
+msgid "Resend email"
+msgstr "Birbidali mezua"
+
+#: app/scripts/lib/strings.js:45
+#: app/scripts/templates/choose_what_to_sync.mustache:16
+#: app/scripts/templates/confirm_account_unlock.mustache:5
+#: app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+msgid "Back"
+msgstr "Atzera"
+
+#: app/scripts/lib/strings.js:46
+msgid "Sign-in confirmed"
 msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
@@ -452,8 +547,8 @@ msgid "Learn more."
 msgstr "Argibide gehiago."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-#: app/scripts/templates/sign_up.mustache:22
-#: app/scripts/templates/sign_up.mustache:27
+#: app/scripts/templates/sign_up.mustache:21
+#: app/scripts/templates/sign_up.mustache:26
 msgid "Choose what to sync"
 msgstr "Aukeratu zer sinkronizatu"
 
@@ -488,15 +583,9 @@ msgstr ""
 "mugikorretan."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
-#: app/scripts/templates/sign_up.mustache:25
+#: app/scripts/templates/sign_up.mustache:24
 msgid "Sign up"
 msgstr "Eman izena"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:16
-#: app/scripts/templates/confirm_account_unlock.mustache:5
-#: app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
-msgid "Back"
-msgstr "Atzera"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
@@ -523,14 +612,6 @@ msgstr "Desblokeatze-errorea"
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
 msgstr "Pasahitza berrezartzeko lotura iraungita"
-
-#: app/scripts/templates/complete_reset_password.mustache:2
-#: app/scripts/templates/complete_sign_up.mustache:2
-#: app/scripts/templates/confirm.mustache:2
-#: app/scripts/templates/confirm_account_unlock.mustache:2
-#: app/scripts/templates/confirm_reset_password.mustache:2
-msgid "Email resent"
-msgstr "Mezua berriro bidali da"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
@@ -561,19 +642,19 @@ msgstr ""
 msgid "Learn how Sync works."
 msgstr "Ikasi nola funtzionatzen duen Sync-ek."
 
-#: app/scripts/templates/complete_reset_password.mustache:12
-#: app/scripts/templates/settings/change_password.mustache:8
+#: app/scripts/templates/complete_reset_password.mustache:13
+#: app/scripts/templates/settings/change_password.mustache:7
 msgid "New password"
 msgstr "Pasahitz berria"
 
 #: app/scripts/templates/complete_reset_password.mustache:14
-#: app/scripts/templates/complete_reset_password.mustache:18
-#: app/scripts/templates/force_auth.mustache:6
-#: app/scripts/templates/sign_in.mustache:10
-#: app/scripts/templates/sign_in.mustache:23
-#: app/scripts/templates/sign_up.mustache:16
-#: app/scripts/templates/settings/change_password.mustache:6
-#: app/scripts/templates/settings/change_password.mustache:10
+#: app/scripts/templates/complete_reset_password.mustache:17
+#: app/scripts/templates/force_auth.mustache:5
+#: app/scripts/templates/sign_in.mustache:9
+#: app/scripts/templates/sign_in.mustache:21
+#: app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/settings/change_password.mustache:5
+#: app/scripts/templates/settings/change_password.mustache:8
 #: app/scripts/templates/settings/delete_account.mustache:5
 #: app/scripts/templates/settings/devices.mustache:3
 msgid "Show"
@@ -583,7 +664,7 @@ msgstr "Erakutsi"
 msgid "Repeat password"
 msgstr "Errepikatu pasahitza"
 
-#: app/scripts/templates/complete_reset_password.mustache:19
+#: app/scripts/templates/complete_reset_password.mustache:18
 msgid "Submit new password"
 msgstr "Bidali pasahitz berria"
 
@@ -603,25 +684,9 @@ msgstr "Egiaztatze-errorea"
 msgid "Confirm your account"
 msgstr "Berretsi zure kontua"
 
-#: app/scripts/templates/confirm.mustache:3
-#: app/scripts/templates/confirm_account_unlock.mustache:3
-#: app/scripts/templates/confirm_reset_password.mustache:3
-msgid "Email Sent"
-msgstr "Mezua bidali da"
-
 #: app/scripts/templates/confirm.mustache:4
 msgid "A verification link has been sent&nbsp;to %(email)s"
 msgstr "Egiaztatze-esteka bidali da helbide&nbsp;honetara: %(email)s"
-
-#: app/scripts/templates/confirm.mustache:5
-msgid "Open Gmail"
-msgstr "Ireki Gmail"
-
-#: app/scripts/templates/confirm.mustache:7
-#: app/scripts/templates/confirm_account_unlock.mustache:6
-#: app/scripts/templates/confirm_reset_password.mustache:8
-msgid "Resend email"
-msgstr "Birbidali mezua"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:1
 msgid "Unlock email sent"
@@ -630,8 +695,8 @@ msgstr "Desblokeatzeko mezua bidalita"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification"
-" link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
 msgstr ""
 "Segurtasun arrazoiengatik, zure Firefoxeko kontua blokeatu egin da. Kontu "
 "mailako jarduerak burutzeko, egiaztatu berriro zure kontua %(email)s "
@@ -649,7 +714,8 @@ msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
-#: app/scripts/templates/reset_password.mustache:6
+#: app/scripts/templates/reset_password.mustache:7
+#: app/scripts/templates/reset_password.mustache:9
 msgid "Remember password? Sign in."
 msgstr "Pasahitza gogoratzen duzu? Hasi saioa."
 
@@ -660,8 +726,8 @@ msgstr "Cookie-ak eta biltegiratze lokala beharrezkoak dira."
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between"
-" sessions."
+"Accounts. Doing so will enable functionality such as remembering you between "
+"sessions."
 msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:3
@@ -678,37 +744,37 @@ msgstr "Hasi saioa jarraitzeko"
 
 #: app/scripts/templates/force_auth.mustache:3
 #: app/scripts/templates/sign_in.mustache:8
-#: app/scripts/templates/sign_in.mustache:20
+#: app/scripts/templates/sign_in.mustache:19
 #: app/scripts/templates/sign_up.mustache:13
 #: app/scripts/templates/settings/change_password.mustache:1
 #: app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Pasahitza"
 
-#: app/scripts/templates/force_auth.mustache:7
+#: app/scripts/templates/force_auth.mustache:6
 #: app/scripts/templates/sign_in.mustache:1
 #: app/scripts/templates/sign_in.mustache:4
-#: app/scripts/templates/sign_in.mustache:11
-#: app/scripts/templates/sign_in.mustache:15
-#: app/scripts/templates/sign_in.mustache:24
+#: app/scripts/templates/sign_in.mustache:10
+#: app/scripts/templates/sign_in.mustache:14
+#: app/scripts/templates/sign_in.mustache:22
 msgid "Sign in"
 msgstr "Hasi saioa"
 
-#: app/scripts/templates/force_auth.mustache:8
-#: app/scripts/templates/sign_in.mustache:12
+#: app/scripts/templates/force_auth.mustache:7
+#: app/scripts/templates/sign_in.mustache:11
+#: app/scripts/templates/sign_in.mustache:23
 #: app/scripts/templates/sign_in.mustache:25
-#: app/scripts/templates/sign_in.mustache:27
-#: app/scripts/templates/settings/change_password.mustache:7
+#: app/scripts/templates/settings/change_password.mustache:6
 msgid "Forgot password?"
 msgstr "Pasahitza ahaztuta?"
 
-#: app/scripts/templates/force_auth.mustache:9
-#: app/scripts/templates/sign_in.mustache:29
-#: app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/force_auth.mustache:8
+#: app/scripts/templates/sign_in.mustache:27
+#: app/scripts/templates/sign_up.mustache:17
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
@@ -780,7 +846,7 @@ msgstr "Onartu"
 #: app/scripts/templates/settings/avatar_camera.mustache:2
 #: app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3
-#: app/scripts/templates/settings/change_password.mustache:13
+#: app/scripts/templates/settings/change_password.mustache:11
 #: app/scripts/templates/settings/communication_preferences.mustache:5
 #: app/scripts/templates/settings/communication_preferences.mustache:13
 #: app/scripts/templates/settings/delete_account.mustache:7
@@ -811,20 +877,16 @@ msgstr ""
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
-"When you reset your password, you will lose any Sync data that is not on one"
-" of your devices."
+"When you reset your password, you will lose any Sync data that is not on one "
+"of your devices."
 msgstr ""
 
-#: app/scripts/templates/reset_password.mustache:4
-#: app/scripts/templates/sign_in.mustache:19
+#: app/scripts/templates/reset_password.mustache:5
+#: app/scripts/templates/sign_in.mustache:18
 #: app/scripts/templates/sign_up.mustache:11
 #: app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "Helbide elektronikoa"
-
-#: app/scripts/templates/reset_password.mustache:5
-msgid "Reset password"
-msgstr "Berrezarri pasahitza"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
@@ -843,12 +905,12 @@ msgstr "Jarraitu %(serviceName)s zerbitzura"
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr ""
 
-#: app/scripts/templates/sign_in.mustache:13
-#: app/scripts/templates/sign_in.mustache:16
+#: app/scripts/templates/sign_in.mustache:12
+#: app/scripts/templates/sign_in.mustache:15
 msgid "Use a different account"
 msgstr "Erabili beste kontu bat"
 
-#: app/scripts/templates/sign_in.mustache:28
+#: app/scripts/templates/sign_in.mustache:26
 msgid "Create an account"
 msgstr "Sortu kontua"
 
@@ -863,16 +925,15 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
-"in</a>"
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 msgstr ""
 
-#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/sign_up.mustache:18
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Eskuratu Mozilla eta Firefoxi buruzko azken berriak."
 
-#: app/scripts/templates/sign_up.mustache:30
+#: app/scripts/templates/sign_up.mustache:29
 msgid "Have an account? Sign in."
 msgstr ""
 
@@ -883,7 +944,7 @@ msgstr "Hasiera-orria"
 #: app/scripts/templates/settings/avatar.mustache:2
 #: app/scripts/templates/settings/avatar_crop.mustache:2
 #: app/scripts/templates/settings/change_password.mustache:2
-#: app/scripts/templates/settings/change_password.mustache:12
+#: app/scripts/templates/settings/change_password.mustache:10
 #: app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2
 #: app/scripts/templates/settings/display_name.mustache:5
@@ -975,9 +1036,9 @@ msgstr "Gailuak"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
-"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
-"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
+"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
+"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
 
 #: app/scripts/templates/settings/devices.mustache:5
@@ -1028,6 +1089,9 @@ msgstr ""
 msgid "Use Firefox Account"
 msgstr ""
 
+#~ msgid "/force_auth requires an email"
+#~ msgstr "/force_auth deiak helbide elektronikoa behar du"
+
 #~ msgid "Next"
 #~ msgstr "Hurrengoa"
 
@@ -1043,8 +1107,8 @@ msgstr ""
 #~ "provide functionality such as remembering you between sessions."
 #~ msgstr ""
 #~ "Mesedez gaitu cookieak zure nabigatzailean; Firefoxeko kontuek behar "
-#~ "dituzte. Nabigatzailean gordetzen diren datu puska txikiak dira cookieak eta"
-#~ " saioen artean zu gogoratzea ahalbidetzen dute, adibidez."
+#~ "dituzte. Nabigatzailean gordetzen diren datu puska txikiak dira cookieak "
+#~ "eta saioen artean zu gogoratzea ahalbidetzen dute, adibidez."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox iOS-era dator laster!"
@@ -1176,9 +1240,9 @@ msgstr ""
 #~ msgstr "Idatzi zure helbide elektronikoa kontuaren pasahitza berrezartzeko."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data from"
-#~ " our servers. A new Sync backup will be created from your local browsing "
-#~ "data."
+#~ "For security reasons, resetting your password will erase your Sync data "
+#~ "from our servers. A new Sync backup will be created from your local "
+#~ "browsing data."
 #~ msgstr ""
 #~ "Segurtasun-arrazoiengatik, pasahitza berrezartzean zure sinkronizatutako "
 #~ "datuak gure zerbitzarietatik ezabatu egingo dira. Babeskopia berri bat "
@@ -1191,25 +1255,23 @@ msgstr ""
 #~ msgstr "Kontua baduzu? Hasi saioa."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" "
-#~ "href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-#~ "href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+#~ "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+#~ "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
-#~ "Jarraitzearekin bat, %(serviceName)s guneko (%(serviceUri)s) <a id"
-#~ "=\"service-tos\" href=\"%(termsUri)s\">Zerbitzuaren Baldintzak</a> eta <a id"
-#~ "=\"service-pp\" href=\"%(privacyUri)s\">Pribatutasun-oharra</a> onartzen "
-#~ "ditut."
+#~ "Jarraitzearekin bat, %(serviceName)s guneko (%(serviceUri)s) <a id="
+#~ "\"service-tos\" href=\"%(termsUri)s\">Zerbitzuaren Baldintzak</a> eta <a "
+#~ "id=\"service-pp\" href=\"%(privacyUri)s\">Pribatutasun-oharra</a> "
+#~ "onartzen ditut."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-#~ "Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Jarraitzearekin bat, Firefoxen hodeieko zerbitzuen <a id=\"fxa-tos\" "
-#~ "href=\"/legal/terms\">erabiltzeko baldintzak</a> eta <a id=\"fxa-pp\" "
-#~ "href=\"/legal/privacy\">pribatutasun-politika</a> onartzen ditudala "
-#~ "berresten dut."
+#~ "Jarraitzearekin bat, Firefoxen hodeieko zerbitzuen <a id=\"fxa-tos\" href="
+#~ "\"/legal/terms\">erabiltzeko baldintzak</a> eta <a id=\"fxa-pp\" href=\"/"
+#~ "legal/privacy\">pribatutasun-politika</a> onartzen ditudala berresten dut."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Harpidetu Firefoxen berri eta iradokizunetara"
@@ -1221,12 +1283,15 @@ msgstr ""
 #~ "Once you're ﬁnished, use your new password to sign in on all of your "
 #~ "devices."
 #~ msgstr ""
-#~ "Amaitu ondoren, erabili pasahitz berria zure gailu guztietan saioa hasteko."
+#~ "Amaitu ondoren, erabili pasahitz berria zure gailu guztietan saioa "
+#~ "hasteko."
 
 #~ msgid "Password changed"
 #~ msgstr "Pasahitza aldatuta"
 
-#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
+#~ msgid ""
+#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
+#~ "email</a>."
 #~ msgstr ""
 #~ "Egiaztatu gabeko kontua. <a href=\"#\" id=\"resend\">Birbidali egiaztapen-"
 #~ "mezua</a>."
