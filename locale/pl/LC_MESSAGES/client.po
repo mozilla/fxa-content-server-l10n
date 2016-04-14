@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-14 12:12+0000\n"
-"PO-Revision-Date: 2016-03-21 01:01+0100\n"
+"PO-Revision-Date: 2016-04-14 15:00+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -330,7 +330,7 @@ msgstr ""
 #: app/scripts/lib/auth-errors.js:207
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
-"Konta Firefoksa mogą być umieszczane w elementach iframe tylko "
+"Konta Firefoksa mogą być umieszczane w elementach „iframe” tylko "
 "w zatwierdzonych witrynach"
 
 #: app/scripts/lib/auth-errors.js:222
@@ -448,53 +448,59 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:29
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
+msgstr "Potwierdź nowe logowanie do Firefoksa"
 
 #: app/scripts/lib/strings.js:30
 msgid "You signed in to Firefox from %(device)s, %(location)s."
-msgstr ""
+msgstr "Zalogowano do Firefoksa z urządzenia %(device)s, %(location)s."
 
 #: app/scripts/lib/strings.js:31
 msgid "You signed in to Firefox from %(device)s."
-msgstr ""
+msgstr "Zalogowano do Firefoksa z urządzenia %(device)s."
 
 #: app/scripts/lib/strings.js:32
 msgid ""
 "For added security, please confirm this sign-in to begin syncing with "
 "%(device)."
 msgstr ""
+"Z powodów bezpieczeństwa prosimy potwierdzić to logowanie, aby zacząć "
+"synchronizację z urządzeniem %(device)."
 
 #: app/scripts/lib/strings.js:33
 msgid "Alternatively:"
-msgstr ""
+msgstr "Lub można:"
 
 #: app/scripts/lib/strings.js:34
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
+"Wiadomość wygenerowana automatycznie. Jeżeli otrzymano ją przez pomyłkę, to "
+"nic nie trzeba robić."
 
 #: app/scripts/lib/strings.js:35
 msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
 msgstr ""
+"Więcej informacji można znaleźć w <a %(supportLinkAttributes)s>pomocy "
+"Mozilli</a>"
 
 #: app/scripts/lib/strings.js:36
 msgid "Verify Email"
-msgstr ""
+msgstr "Zweryfikuj adres e-mail"
 
 #: app/scripts/lib/strings.js:37
 msgid "Verify your email to finish your Firefox Account sign-in"
-msgstr ""
+msgstr "Zweryfikuj adres e-mail, aby ukończyć logowanie do konta Firefoksa"
 
 #: app/scripts/lib/strings.js:38
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "Potwierdź logowanie"
 
 #: app/scripts/lib/strings.js:39
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "Potwierdź to logowanie"
 
 #: app/scripts/lib/strings.js:40
 #: app/scripts/templates/complete_reset_password.mustache:2
@@ -516,6 +522,8 @@ msgid ""
 "To better protect your Firefox data, we've emailed a confirmation link to "
 "%(email)s"
 msgstr ""
+"Aby lepiej chronić dane użytkownika, wysłano odnośnik weryfikujący do "
+"%(email)s"
 
 #: app/scripts/lib/strings.js:43 app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
@@ -536,7 +544,7 @@ msgstr "Wstecz"
 
 #: app/scripts/lib/strings.js:46
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "Potwierdzono logowanie"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -1112,6 +1120,3 @@ msgstr "Użyj OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Użyj konta Firefoksa"
-
-#~ msgid "/force_auth requires an email"
-#~ msgstr "„/force_auth” wymaga adresu e-mail"
