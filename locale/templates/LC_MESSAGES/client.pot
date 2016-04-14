@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2016-04-14 12:12+0000\n"
+"POT-Creation-Date: 2016-04-14 19:52+0000\n"
 
 #: app/scripts/views/complete_reset_password.js:132
 #: app/scripts/views/complete_sign_up.js:102
@@ -460,7 +460,7 @@ msgstr ""
 #: app/scripts/lib/strings.js:32
 msgid ""
 "For added security, please confirm this sign-in to begin syncing with "
-"%(device)."
+"%(device)s."
 msgstr ""
 
 #: app/scripts/lib/strings.js:33

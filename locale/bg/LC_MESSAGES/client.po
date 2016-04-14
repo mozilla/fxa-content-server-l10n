@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-14 12:12+0000\n"
+"POT-Creation-Date: 2016-04-14 19:52+0000\n"
 "PO-Revision-Date: 2016-03-03 09:39+0000\n"
 "Last-Translator: Ognyan Kulev <ognyan@ognyankulev.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -170,8 +170,7 @@ msgstr "Успешно отписани"
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43
-#: app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -460,7 +459,7 @@ msgstr ""
 #: app/scripts/lib/strings.js:32
 msgid ""
 "For added security, please confirm this sign-in to begin syncing with "
-"%(device)."
+"%(device)s."
 msgstr ""
 
 #: app/scripts/lib/strings.js:33

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-14 12:12+0000\n"
+"POT-Creation-Date: 2016-04-14 19:52+0000\n"
 "PO-Revision-Date: 2016-04-14 15:00+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
@@ -169,8 +169,7 @@ msgstr "Pomyślnie wylogowano"
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43
-#: app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -461,10 +460,8 @@ msgstr "Zalogowano do Firefoksa z urządzenia %(device)s."
 #: app/scripts/lib/strings.js:32
 msgid ""
 "For added security, please confirm this sign-in to begin syncing with "
-"%(device)."
+"%(device)s."
 msgstr ""
-"Z powodów bezpieczeństwa prosimy potwierdzić to logowanie, aby zacząć "
-"synchronizację z urządzeniem %(device)."
 
 #: app/scripts/lib/strings.js:33
 msgid "Alternatively:"
@@ -1120,3 +1117,10 @@ msgstr "Użyj OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Użyj konta Firefoksa"
+
+#~ msgid ""
+#~ "For added security, please confirm this sign-in to begin syncing with "
+#~ "%(device)."
+#~ msgstr ""
+#~ "Z powodów bezpieczeństwa prosimy potwierdzić to logowanie, aby zacząć "
+#~ "synchronizację z urządzeniem %(device)."
