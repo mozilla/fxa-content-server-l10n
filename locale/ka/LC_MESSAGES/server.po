@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-20 22:20+0000\n"
-"PO-Revision-Date: 2016-04-12 16:45+0000\n"
+"PO-Revision-Date: 2016-04-14 03:43+0000\n"
 "Last-Translator: ბექა არაბული <arabulibeqa@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -25,6 +25,8 @@ msgid ""
 "A while ago you created a Firefox Account, but never verified it. Click the "
 "link below to activate your account."
 msgstr ""
+"ცოტა ხნის წინ, თქვენ უკვე შექმენით Firefox ანგარიში, მაგრამ არ "
+"დაგიმოწმებიათ. დააწკაპეთ ქვემოთ ბმულზე, ანგარიშის ასამოქმედებლად."
 
 #: templates/_pending.txt:3 templates/post_verify.html:3
 msgid ""
@@ -32,6 +34,10 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for <a "
 "href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
 msgstr ""
+"თქვენ წარმატებით დაუკავშირეთ თქვენი პირველი მოწყობილობა Firefox ანგარიშს. "
+"ახლა უკვე შეგიძლიათ Sync-ში შესვლა, სხვა მოწყობილობიდან, მათ შორის Firefox-"
+"ის <a href='%(androidUrl)s'>Android</a> და <a href='%(iosUrl)s'>iOS</a> "
+"ვერსიებიდან."
 
 #: templates/_pending.txt:4
 msgid ""
@@ -39,14 +45,18 @@ msgid ""
 "make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
 "Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
 msgstr ""
+"თქვენ წარმატებით დაამატეთ თქვენი პირველი მოწყობილობა Firefox ანგარიშზე. "
+"Sync-ით სრულყოფილად სარგებლობისთვის, დაუკავშირეთ ნებისმიერი <a "
+"href='%(androidUrl)s'>Firefox Android</a> ან <a href='%(iosUrl)s'>Firefox "
+"iOS ვერსია</a>"
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "მოწყობილობის დამატება"
 
 #: templates/_pending.txt:6
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Sync-ში შესვლა"
 
 #: templates/new_sync_device.html:1 templates/password_changed.html:1
 #: templates/password_reset.html:1 templates/post_verify.html:1
@@ -63,17 +73,19 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:1
 #: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Firefox ანგარიშები"
 
 #: templates/new_sync_device.html:2 templates/new_sync_device.txt:1
 #: templates/unlock.html:2
 msgid "Account activity notice"
-msgstr ""
+msgstr "ანგარიშზე აქტივობის ცნობება"
 
 #: templates/new_sync_device.html:3 templates/new_sync_device.txt:2
 msgid ""
 "A device began syncing with the devices connected to your Firefox Account."
 msgstr ""
+"დაიწყო მოწყობილობის დასინქრონება Firefox ანგარიშთან დაკავშირებულ სხვა "
+"მოწყობილობებთან."
 
 #: templates/new_sync_device.html:4 templates/password_changed.html:4
 #: templates/password_reset.html:4
@@ -81,6 +93,8 @@ msgid ""
 "This is an automated email; if you did not authorize this action, then <a "
 "%(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr ""
+"ეს არის ავტომატური შეტყობინება; თუ ეს მოქმედება თქვენ არ წამოგიწყიათ, მაშინ "
+"<a %(passwordChangeLinkAttributes)s>გთხოვთ, შეცვალოთ პაროლი.</a>"
 
 #: templates/new_sync_device.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
@@ -94,12 +108,16 @@ msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
 msgstr ""
+"დამატებითი ინფორმაციისთვის, ეწვიეთ <a %(supportLinkAttributes)s>Mozilla "
+"მხარდაჭერის გვერდს</a>"
 
 #: templates/new_sync_device.txt:3
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
 "Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
+"ეს არის ავტომატური შეტყობინება; თუ ახალი მოწყობილობა თქვენ არ დაგიმატებიათ "
+"Firefox ანგარიშზე, მაშინ გირჩევთ, ახლავე შეცვალოთ პაროლი %(resetLink)s-ით."
 
 #: templates/new_sync_device.txt:4 templates/password_changed.txt:4
 #: templates/password_reset.txt:4 templates/post_verify.txt:5
@@ -109,39 +127,43 @@ msgstr ""
 #: templates/verification_reminder_second.txt:5 templates/password_reset.txt:5
 #: templates/reset.txt:6
 msgid "For more information, please visit %(supportUrl)s"
-msgstr ""
+msgstr "დამატებითი ინფორმაციისთვის, ეწვიეთ %(supportUrl)s"
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "პაროლი წარმატებით შეიცვალა"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr ""
+msgstr "თქვენი Firefox ანგარიშის პაროლი წარმატებით შეიცვალა."
 
 #: templates/password_changed.txt:3
 msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"ეს არის ავტომატური შეტყობინება; თუ Firefox ანგარიშზე პაროლი თქვენ არ "
+"შეგიცვლიათ, მაშინ გირჩევთ, ახლავე აღადგინოთ პაროლი %(resetLink)s-ით."
 
 #: templates/password_reset.html:2 templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "პაროლი აღდგა წარმატებით"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr ""
+msgstr "თქვენი Firefox ანგარიშის პაროლი წარმატებით აღდგა."
 
 #: templates/password_reset.txt:3 templates/password_reset.txt:4
 msgid ""
 "This is an automated email; if you didn’t reset the password to your Firefox"
 " Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"ეს არის ავტომატური შეტყობინება; თუ Firefox ანგარიშზე თქვენ არ გაგინულებიათ "
+"პაროლი, მაშინ გირჩევთ, ახლავე აღადგინოთ %(resetLink)s-ით."
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
-msgstr ""
+msgstr "ანგარიში დამოწმდა!"
 
 #: templates/post_verify.html:5 templates/reset.html:5 templates/unlock.html:5
 #: templates/verification_reminder.html:5 templates/verify.html:5
@@ -150,7 +172,7 @@ msgstr ""
 #: templates/verification_reminder_first.html:5
 #: templates/verification_reminder_second.html:5 templates/reset.html:6
 msgid "Alternatively:"
-msgstr ""
+msgstr "აგრეთვე:"
 
 #: templates/post_verify.html:6 templates/post_verify.txt:4
 #: templates/reset.html:6 templates/reset.txt:4 templates/unlock.html:6
@@ -168,6 +190,8 @@ msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
+"ეს არის ავტომატური შეტყობინება; თუ შეცდომით მიიღეთ, საპასუხო მოქმედება არაა "
+"საჭირო."
 
 #: templates/post_verify.txt:2
 msgid ""
@@ -175,26 +199,29 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for "
 "Android and iOS."
 msgstr ""
+"თქვენ წარმატებით დაუკავშირეთ თქვენი პირველი მოწყობილობა Firefox ანგარიშს. "
+"ახლა უკვე შეგიძლიათ Sync-ში შესვლა, სხვა მოწყობილობიდან, მათ შორის Firefox-"
+"ის Android და iOS ვერსიებიდან."
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr ""
+msgstr "Sync-ში შესვლა"
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Are you sure?"
-msgstr ""
+msgstr "დარწმუნებული ხართ?"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid "Please confirm that you'd like to reset the password for %(email)s."
-msgstr ""
+msgstr "გთხოვთ, დაადასტუროთ რომ გსურთ, %(email)s-ის პაროლის აღდგენა."
 
 #: templates/reset.html:4
 msgid "Reset password now"
-msgstr ""
+msgstr "პაროლის აღდგენა ახლავე"
 
 #: templates/reset.txt:3
 msgid "Reset password now:"
-msgstr ""
+msgstr "პაროლის აღდგენა ახლავე:"
 
 #: templates/unlock.html:3 templates/unlock.txt:1
 msgid ""
@@ -202,14 +229,17 @@ msgid ""
 "account-level activities, please click the link to re-verify your account "
 "now."
 msgstr ""
+"უსაფრთხოების მიზნით, თქვენი Firefox ანგარიში დაიბლოკა. მისით სარგებლობის "
+"უფლების აღსადგენად, გთხოვთ გადახვიდეთ ბმულზე და ხელახლა დაამოწმოთ თქვენი "
+"ანგარიში."
 
 #: templates/unlock.html:4
 msgid "Verify account"
-msgstr ""
+msgstr "ანგარიშის დამოწმება"
 
 #: templates/unlock.txt:2
 msgid "Verify account:"
-msgstr ""
+msgstr "ანგარიშის დამოწმება:"
 
 #: templates/verification_reminder.html:2
 #: templates/verification_reminder.txt:1
@@ -217,7 +247,7 @@ msgstr ""
 #: templates/verification_reminder_first.html:2
 #: templates/verification_reminder_first.txt:1
 msgid "Hello again."
-msgstr ""
+msgstr "კვლავ მოგესალმებით."
 
 #: templates/verification_reminder.html:3
 #: templates/verification_reminder.txt:2
@@ -225,6 +255,8 @@ msgid ""
 "Recently you created a Firefox Account, but never verified it. Please "
 "activate your account by confirming this email address."
 msgstr ""
+"ახლახან, თქვენ უკვე შექმენით Firefox ანგარიში, მაგრამ არ დაგიმოწმებიათ. "
+"გთხოვთ, ამ ელ-ფოსტის მისამართის დადასტურებით, აამოქმედოთ თქვენი ანგარიში."
 
 #: templates/verification_reminder.html:4 templates/verify.html:4
 #: templates/verify_reminder_first.html:4
@@ -232,7 +264,7 @@ msgstr ""
 #: templates/verification_reminder_first.html:4
 #: templates/verification_reminder_second.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "ახლავე ამოქმედება"
 
 #: templates/verification_reminder.html:8 templates/verify.html:8
 #: templates/verify_reminder_first.html:8
@@ -240,7 +272,7 @@ msgstr ""
 #: templates/verification_reminder_first.html:8
 #: templates/verification_reminder_second.html:8
 msgid "Verify Email"
-msgstr ""
+msgstr "ელ-ფოსტის დამოწმება"
 
 #: templates/verification_reminder.html:9 templates/verify.html:9
 #: templates/verify_reminder_first.html:9
@@ -249,23 +281,25 @@ msgstr ""
 #: templates/verification_reminder_second.html:9
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr ""
+"დაამოწმეთ თქვენი ელ-ფოსტა Firefox ანგარიშის რეგისტრაციის დასასრულებლად"
 
 #: templates/verification_reminder.txt:3
 msgid "Activate Now:"
-msgstr ""
+msgstr "ახლავე ამოქმედება:"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
-msgstr ""
+msgstr "მოგესალმებით!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
 msgstr ""
+" გთხოვთ, ამ ელ-ფოსტის მისამართის დადასტურებით, აამოქმედოთ თქვენი ანგარიში."
 
 #: templates/verify.txt:3 templates/verification_reminder_first.txt:3
 #: templates/verification_reminder_second.txt:3
 msgid "Activate now:"
-msgstr ""
+msgstr "ახლავე ამოქმედება:"
 
 #: templates/verify_reminder_first.html:3
 #: templates/verification_reminder_first.html:3
@@ -276,6 +310,11 @@ msgid ""
 " on any device connected to it. Simply confirm this email address to "
 "activate your account."
 msgstr ""
+"რამდენიმე დღის წინ, თქვენ უკვე შექმენით Firefox ანგარიში, მაგრამ არ "
+"დაგიმოწმებიათ. დამოწმებული ანგარიშის საშუალებით წვდომა გექნებათ თქვენს "
+"ჩანართებზე, სანიშნეებზე, პაროლებსა და ისტორიაზე, ნებისმიერი დაკავშირებული "
+"მოწყობილობიდან. უბრალოდ დაადასტურეთ ელ-ფოსტის ეს მისამართი ანგარიშის "
+"ასამოქმედებლად."
 
 #: templates/verify_reminder_second.html:3
 #: templates/verification_reminder_second.html:3
@@ -287,127 +326,142 @@ msgid ""
 "of them. Confirm this email address to activate your account and let us know"
 " you're okay."
 msgstr ""
+"ერთი კვირის წინ, თქვენ უკვე შექმენით Firefox ანგარიში, მაგრამ არ "
+"დაგიმოწმებიათ, რაც ძალიან გვაღელვებს. Firefox ხელმისაწვდომია Windows, Mac, "
+"Lonux, Android და iOS სისტემებზე. შეგიძლიათ დაასინქრონოთ თქვენი ჩანართები, "
+"სანიშნეები და ისტორია, თითოეულ მათგანზე. დაადასტურეთ ელ-ფოსტის ეს მისამართი "
+"ანგარიშის ასამოქმედებლად და გვეცოდინება რომ ყველაფერი რიგზეა."
 
 #: mailer.js:132 mailer.js:329 mailer.js:332 mailer.js:133 mailer.js:336
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "Firefox ანგარიშის დამოწმება"
 
 #: mailer.js:165 mailer.js:166
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "Firefox ანგარიშის პაროლის აღდგენა"
 
 #: mailer.js:199 mailer.js:201
 msgid "Re-verify your Firefox Account"
-msgstr ""
+msgstr "Firefox ანგარიშის ხელახლა დამოწმება"
 
 #: mailer.js:225 mailer.js:227
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "თქვენი Firefox ანგარიშის აპროლი შეიცვალა"
 
 #: mailer.js:246 mailer.js:249
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "თქვენი Firefox ანგარიშის აპროლი აღდგა"
 
 #: mailer.js:268 mailer.js:272
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "ახალი შემოსვლა Firefox ანგარიშზე"
 
 #: mailer.js:291 mailer.js:294 mailer.js:298
 msgid "Firefox Account Verified"
-msgstr ""
+msgstr "Firefox ანგარიში დამოწმდა"
 
 #: config.js:127 config.js:132 config.js:140 config.js:145 config.js:146
 #: config.js:151
 msgid "env"
-msgstr ""
+msgstr "env"
 
 #: log.js:7
 msgid "logging"
-msgstr ""
+msgstr "აღრიცხვა"
 
 #: lib/db.js:21
 msgid "/"
-msgstr ""
+msgstr "/"
 
 #: lib/db.js:34
 msgid "/__heartbeat__"
-msgstr ""
+msgstr "/__heartbeat__"
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
-msgstr ""
+msgstr "თქვენი პაროლი აღდგა."
 
 #: templates/password_reset.html:3 templates/password_reset.txt:3
 msgid ""
 "Your Firefox Account password has changed. If you did not change it, please "
 "<a href='%(resetLink)s'>reset your password</a> now."
 msgstr ""
+"თქვენი Firefox ანგარიშის პაროლი შეიცვალა. თუ თქვენ არ შეგიცვლიათ, გთხოვთ, "
+"ახლავე <a href='%(resetLink)s'>აღადგინოთ პაროლი %</a>."
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Forgot your password?"
-msgstr ""
+msgstr "დაგავიწყდათ პაროლი?"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid ""
 "Click the button within the next hour to set a new password for your Firefox"
 " Account."
 msgstr ""
+"დააწკაპეთ ამ ღილაკზე უახლოესი ერთი საათის განმავლობაში, ახალი პაროლის "
+"დასაყენებლად."
 
 #: templates/reset.html:4 templates/reset.txt:3
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "გახსოვთ პაროლი? შესვლა."
 
 #: templates/reset.html:5 templates/reset.txt:4
 msgid "Reset password"
-msgstr ""
+msgstr "პაროლის აღდგენა"
 
 #: config.js:159 config.js:160 config.js:161 config.js:162 config.js:163
 #: config.js:164
 msgid "contentServer.url"
-msgstr ""
+msgstr "contentServer.url"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
-msgstr ""
+msgstr "არასწორი მოთხოვნა"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "გვერდი ვერ მოიძებნა"
 
 #: server/templates/pages/src/404.html:3
 msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
+"თქვენ მიერ მოთხოვნილი გვერდი, ვერ მოიძებნა. ჩვენ უკვე გვეცნობა ამის შესახებ "
+"და ყველა შესაძლო დაზიანებულ ბმულს გავასწორებთ."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
-msgstr ""
+msgstr "მთავარი"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr ""
+msgstr "500 შეცდომა"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
 msgstr ""
+"უკაცრავად, რაღაც ხარვეზი წარმოიშვა. ჩვენ უკვე გვეცნობა ამის შესახებ და "
+"დავიწყებთ გამოსწორებაზე მუშაობას."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "502 შეცდომა"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "სერვერი დატვირთულია, სცადეთ ხელახლა მოგვიანებით"
 
 #: server/templates/pages/src/503.html:3
 msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
+"ამჟამად სისტემა დატვირთულია და ვმუშაობთ, რომ რაც შეიძლება მალე დავაბრუნოთ "
+"ნორმალური მდგომარეობაში."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:5
@@ -417,22 +471,24 @@ msgid ""
 "href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
 "experience."
 msgstr ""
+"თქვენ სარგებლობთ <strong>მოძველებული</strong> ბრაუზერით. გთხოვთ, <a "
+"href=\"http://browsehappy.com/\">განაახლოთ</a> წარმადობის გასაუმჯობესებლად."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "Firefox ანგარიშით სარგებლობისთვის საჭიროა JavaScript."
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
-msgstr ""
+msgstr "პირადი მონაცემების დებულება"
 
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "Firefox ღრუბლოვანი მომსახურებები"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
-msgstr ""
+msgstr "მომსახურების პირობები"
