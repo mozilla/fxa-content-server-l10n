@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-14 12:12+0000\n"
-"PO-Revision-Date: 2016-03-12 10:57+0000\n"
+"PO-Revision-Date: 2016-03-21 16:09+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
@@ -135,13 +135,15 @@ msgstr ""
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
-msgstr ""
+msgstr "Ditt lösenord har återställts"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:3
 msgid ""
 "Your Firefox Account password has changed. If you did not change it, please "
 "<a href='%(resetLink)s'>reset your password</a> now."
 msgstr ""
+"Lösenordet för ditt Firefox-konto har ändrats. Om det inte var du som "
+"ändrade det, vänligen <a href='%(resetLink)s'>återställ ditt lösenord</a> nu."
 
 #: templates/password_reset.html:4 templates/post_verify.html:6
 #: templates/post_verify.txt:4 templates/reset.html:7 templates/reset.txt:5
@@ -260,17 +262,19 @@ msgstr "Logga in till Sync:"
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Forgot your password?"
-msgstr ""
+msgstr "Glömt ditt lösenord?"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid ""
 "Click the button within the next hour to set a new password for your Firefox "
 "Account."
 msgstr ""
+"Klicka på knappen inom den närmsta timmen för att ange ett nytt lösenord för "
+"ditt Firefox-konto."
 
 #: templates/reset.html:4 templates/reset.txt:3
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "Kom ihåg lösenord? Logga in."
 
 #: templates/reset.html:5 templates/reset.txt:4
 msgid "Reset password"
@@ -408,7 +412,7 @@ msgstr "env"
 #: config.js:159 config.js:160 config.js:161 config.js:162 config.js:163
 #: config.js:164
 msgid "contentServer.url"
-msgstr ""
+msgstr "contentServer.url"
 
 #: log.js:7
 msgid "logging"

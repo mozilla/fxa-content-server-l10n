@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-14 12:12+0000\n"
-"PO-Revision-Date: 2016-03-08 19:55+0000\n"
+"PO-Revision-Date: 2016-03-21 00:55+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -135,13 +135,15 @@ msgstr ""
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
-msgstr ""
+msgstr "A sua palavra-passe foi reposta"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:3
 msgid ""
 "Your Firefox Account password has changed. If you did not change it, please "
 "<a href='%(resetLink)s'>reset your password</a> now."
 msgstr ""
+"A sua palavra-passe da Conta Firefox foi alterada. Se não a alterou, por "
+"favor <a href='%(resetLink)s'>reponha a sua palavra-passe</a> agora."
 
 #: templates/password_reset.html:4 templates/post_verify.html:6
 #: templates/post_verify.txt:4 templates/reset.html:7 templates/reset.txt:5
@@ -261,21 +263,23 @@ msgstr "Iniciar sessão no Sync:"
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Forgot your password?"
-msgstr ""
+msgstr "Esqueceu-se da sua palavra-passe?"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid ""
 "Click the button within the next hour to set a new password for your Firefox "
 "Account."
 msgstr ""
+"Clique no botão dentro da próxima hora para definir uma nova palavra-passe "
+"para a sua Conta Firefox."
 
 #: templates/reset.html:4 templates/reset.txt:3
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "Lembra-se da palavra-passe? Inicie sessão."
 
 #: templates/reset.html:5 templates/reset.txt:4
 msgid "Reset password"
-msgstr ""
+msgstr "Repor palavra-passe"
 
 #: templates/suspicious_location.html:2 templates/suspicious_location.txt:1
 msgid ""
@@ -409,7 +413,7 @@ msgstr "env"
 #: config.js:159 config.js:160 config.js:161 config.js:162 config.js:163
 #: config.js:164
 msgid "contentServer.url"
-msgstr ""
+msgstr "contentServer.url"
 
 #: log.js:7
 msgid "logging"

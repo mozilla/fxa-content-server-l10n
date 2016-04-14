@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-14 12:12+0000\n"
-"PO-Revision-Date: 2016-03-08 19:54+0000\n"
+"PO-Revision-Date: 2016-03-21 00:53+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -18,7 +18,7 @@ msgstr ""
 #: app/scripts/views/complete_sign_up.js:102 app/scripts/views/confirm.js:119
 #: app/scripts/views/confirm_reset_password.js:184
 msgid "Account verified successfully"
-msgstr "Conta confirmada com sucesso"
+msgstr "Conta verificada com sucesso"
 
 #: app/scripts/views/confirm_account_unlock.js:89
 msgid "Account unlocked, please try again"
@@ -74,7 +74,7 @@ msgstr "Bem-vindo ao Sync"
 
 #: app/scripts/views/ready.js:59
 msgid "Account verified"
-msgstr "Conta confirmada"
+msgstr "Conta verificada"
 
 #: app/scripts/views/ready.js:60 app/scripts/lib/strings.js:47
 #: app/scripts/templates/ready.mustache:5
@@ -87,7 +87,7 @@ msgstr "Conta desconhecida. <a href=\"/signup\">Criar conta</a>"
 
 #: app/scripts/views/sign_up.js:67
 msgid "Account no longer exists. Recreate it?"
-msgstr ""
+msgstr "A conta já não existe. Pretende recreá-la?"
 
 #: app/scripts/views/sign_up.js:397
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
@@ -319,7 +319,7 @@ msgstr "É necessário um URL válido"
 #: app/scripts/lib/auth-errors.js:191
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr ""
-"A sua mensagem de confirmação foi devolvida. Enganou-se a digitar o e-mail?"
+"A sua mensagem de verificação foi devolvida. Enganou-se a digitar o email?"
 
 #: app/scripts/lib/auth-errors.js:199
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -336,12 +336,12 @@ msgstr ""
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
-msgstr "A ligação que clicou para confirmar o seu email expirou."
+msgstr "A ligação que clicou para verificar o seu email expirou."
 
 #: app/scripts/lib/auth-errors.js:226
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
-msgstr "Ligação de confirmação danificada"
+msgstr "Ligação de verificação danificada"
 
 #: app/scripts/lib/auth-errors.js:234
 msgid "The image dimensions must be at least 100x100px"
@@ -365,7 +365,7 @@ msgstr "Não foi encontrado nenhum Gravatar"
 
 #: app/scripts/lib/auth-errors.js:258
 msgid "Account no longer exists."
-msgstr ""
+msgstr "A conta já não existe."
 
 #: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -680,7 +680,7 @@ msgstr "A ligação de verificação expirou"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
 msgid "Click here to receive a new verification link"
-msgstr "Clique aqui para receber uma nova ligação de confirmação"
+msgstr "Clique aqui para receber uma nova ligação de verificação"
 
 #: app/scripts/templates/complete_sign_up.mustache:10
 msgid "Verification error"
@@ -692,7 +692,7 @@ msgstr "Confirmar a sua conta"
 
 #: app/scripts/templates/confirm.mustache:4
 msgid "A verification link has been sent&nbsp;to %(email)s"
-msgstr "Uma ligação de confirmação foi enviada&nbsp;para %(email)s"
+msgstr "Uma ligação de verificação foi enviada&nbsp;para %(email)s"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:1
 msgid "Unlock email sent"
@@ -705,8 +705,8 @@ msgid ""
 "link sent to %(email)s"
 msgstr ""
 "Por questões de segurança a sua conta foi bloqueada. Para executar "
-"atividades ao nível da conta, por favor confirme novamente a sua conta "
-"clicando na ligação de confirmação enviada para %(email)s"
+"atividades ao nível da conta, por favor verifique novamente a sua conta "
+"clicando na ligação de verificação enviada para %(email)s"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
