@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-14 19:52+0000\n"
-"PO-Revision-Date: 2016-04-15 06:33+0000\n"
+"PO-Revision-Date: 2016-04-15 15:25+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_BD\n"
@@ -36,7 +36,7 @@ msgstr "পাসওয়ার্ড সফলভাবে রিসেট হ
 
 #: app/scripts/views/permissions.js:25
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName) (আবশ্যক)"
 
 #: app/scripts/views/permissions.js:31
 msgid "Email address"
@@ -46,7 +46,7 @@ msgstr "ইমেইল ঠিকানা"
 #: app/scripts/templates/settings/display_name.mustache:1
 #: app/scripts/templates/settings/display_name.mustache:4
 msgid "Display name"
-msgstr ""
+msgstr "প্রদর্শিত নাম"
 
 #: app/scripts/views/permissions.js:40
 #: app/scripts/templates/settings/avatar.mustache:1
@@ -55,11 +55,11 @@ msgstr "অ্যাকাউন্ট ছবি"
 
 #: app/scripts/views/ready.js:29
 msgid "Firefox Sync will begin momentarily"
-msgstr ""
+msgstr "কিছুক্ষণের মধ্যে Firefox Sync শুরু হবে"
 
 #: app/scripts/views/ready.js:38
 msgid "Account unlocked"
-msgstr ""
+msgstr "অ্যাকাউন্ট আনলক করা হয়েছে"
 
 #: app/scripts/views/ready.js:43
 msgid "Welcome back"
