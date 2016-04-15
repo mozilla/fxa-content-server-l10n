@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-14 19:52+0000\n"
-"PO-Revision-Date: 2016-04-15 10:09+0000\n"
+"PO-Revision-Date: 2016-04-15 10:20+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -218,30 +218,33 @@ msgid ""
 "passwords as well. Attackers may have access to those passwords, so you "
 "should check those accounts for suspicious activity."
 msgstr ""
+"По-друге, якщо Firefox зберігає паролі до веб-сайтів, вам також слід змінити"
+" їх. Зловмисники могли отримати доступ до паролів, тож ви повинні перевірити"
+" відповідні облікові записи на наявність підозрілої активності."
 
 #: templates/password_reset_required.html:7
 #: templates/password_reset_required.txt:6
 #: templates/suspicious_location.html:9 templates/suspicious_location.txt:8
 msgid "Learn how to see what passwords Firefox is storing for you."
-msgstr ""
+msgstr "Дізнайтеся, як побачити паролі, які Firefox зберігає для вас."
 
 #: templates/password_reset_required.html:8
 #: templates/password_reset_required.txt:7
 #: templates/suspicious_location.html:12 templates/suspicious_location.txt:11
 msgid "Best,"
-msgstr ""
+msgstr "Всього найкращого,"
 
 #: templates/password_reset_required.html:9
 #: templates/password_reset_required.txt:8
 #: templates/suspicious_location.html:13 templates/suspicious_location.txt:12
 msgid "The Firefox Accounts team"
-msgstr ""
+msgstr "Команда облікових записів Firefox"
 
 #: templates/password_reset_required.html:10
 #: templates/password_reset_required.txt:9
 #: templates/suspicious_location.html:14 templates/suspicious_location.txt:13
 msgid "Mozilla Privacy Policy"
-msgstr ""
+msgstr "Політика Приватності Mozilla"
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
@@ -295,32 +298,37 @@ msgid ""
 "in the last 60 days? If you don’t recognize these locations, someone else "
 "may have accessed your Firefox Account."
 msgstr ""
+"Чи входили ви в обліковий запис Firefox з будь-якого із зазначених "
+"розташувань упродовж останніх 60 днів? Якщо ви не впізнаєте ці розташування,"
+" хтось інший міг отримати доступ до вашого облікового запису Firefox."
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
-msgstr ""
+msgstr "Дата і час:"
 
 #: templates/suspicious_location.html:4 templates/suspicious_location.txt:3
 msgid "Device:"
-msgstr ""
+msgstr "Пристрій:"
 
 #: templates/suspicious_location.html:5 templates/suspicious_location.txt:4
 msgid "Location:"
-msgstr ""
+msgstr "Розташування:"
 
 #: templates/suspicious_location.html:6 templates/suspicious_location.txt:5
 msgid "If you don’t recognize the activity above:"
-msgstr ""
+msgstr "Якщо ви не впізнаєте зазначену нижче активність:"
 
 #: templates/suspicious_location.html:10 templates/suspicious_location.txt:9
 msgid "Why are you receiving this email?"
-msgstr ""
+msgstr "Чому ви отримали цей лист?"
 
 #: templates/suspicious_location.html:11 templates/suspicious_location.txt:10
 msgid ""
 "We recently noticed Firefox Account logins from unusual locations. We’re "
 "notifying you as a precaution."
 msgstr ""
+"Нещодавно ми помітили, що вхід в обліковий запис Firefox відбувався з "
+"незвичних розташувань. Ми повідомляємо вас з метою застереження."
 
 #: templates/unlock.html:2
 msgid "Account activity notice"
@@ -441,7 +449,7 @@ msgstr "Пароль вашого облікового запису Firefox бу
 
 #: mailer.js:313
 msgid "Firefox Account password reset required"
-msgstr ""
+msgstr "Необхідно скинути пароль облікового запису Firefox"
 
 #: mailer.js:366
 msgid "Firefox Account Verified"
@@ -449,7 +457,7 @@ msgstr "Обліковий запис Firefox підтверджено"
 
 #: mailer.js:401
 msgid "Suspicious activity with your Firefox Account"
-msgstr ""
+msgstr "Підозріла активність з вашим обліковим записом Firefox"
 
 #: config.js:146 config.js:151
 msgid "env"
