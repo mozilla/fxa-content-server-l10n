@@ -1,17 +1,18 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-14 19:52+0000\n"
-"PO-Revision-Date: 2014-10-22 04:46+0000\n"
-"Last-Translator: Tapu <tapu_afrad@hotmail.com>\n"
+"PO-Revision-Date: 2016-04-15 06:27+0000\n"
+"Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_BD\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1413953192.0\n"
 
 #: templates/_pending.txt:1 templates/verification_reminder_second.html:2
@@ -63,7 +64,7 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:1
 #: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
-msgstr "ফায়ারফক্স অ্যাকাউন্টস"
+msgstr "Firefox Accounts"
 
 #: templates/new_device_login.html:2 templates/new_device_login.txt:1
 #: mailer.js:338
@@ -139,8 +140,8 @@ msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
-"এটি একটি স্বয়ংক্রিয় ইমেইল; যদি কোন ত্রুটির কারনে আপনি এটি পেয়ে থাকেন, কিছু করার "
-"প্রয়োজন নেই।"
+"এটি একটি স্বয়ংক্রিয় ইমেইল; যদি কোন ত্রুটির কারণে আপনি এটি পেয়ে থাকেন, কিছু "
+"করার প্রয়োজন নেই।"
 
 #: templates/password_reset.txt:1
 msgid "Password reset successfully"
@@ -152,8 +153,8 @@ msgstr ""
 
 #: templates/password_reset.txt:4
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox"
+" Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 
 #: templates/password_reset_required.html:2
@@ -176,14 +177,14 @@ msgid "What should you do?"
 msgstr ""
 
 #: templates/password_reset_required.html:5
-#: templates/password_reset_required.txt:4 templates/suspicious_location.html:7
-#: templates/suspicious_location.txt:6
+#: templates/password_reset_required.txt:4
+#: templates/suspicious_location.html:7 templates/suspicious_location.txt:6
 msgid "First, change your Firefox Account password."
 msgstr ""
 
 #: templates/password_reset_required.html:6
-#: templates/password_reset_required.txt:5 templates/suspicious_location.html:8
-#: templates/suspicious_location.txt:7
+#: templates/password_reset_required.txt:5
+#: templates/suspicious_location.html:8 templates/suspicious_location.txt:7
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those "
 "passwords as well. Attackers may have access to those passwords, so you "
@@ -191,8 +192,8 @@ msgid ""
 msgstr ""
 
 #: templates/password_reset_required.html:7
-#: templates/password_reset_required.txt:6 templates/suspicious_location.html:9
-#: templates/suspicious_location.txt:8
+#: templates/password_reset_required.txt:6
+#: templates/suspicious_location.html:9 templates/suspicious_location.txt:8
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr ""
 
@@ -243,8 +244,8 @@ msgstr ""
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid ""
-"Click the button within the next hour to set a new password for your Firefox "
-"Account."
+"Click the button within the next hour to set a new password for your Firefox"
+" Account."
 msgstr ""
 
 #: templates/reset.html:4 templates/reset.txt:3
@@ -318,9 +319,9 @@ msgstr ""
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history "
-"on any device connected to it. Simply confirm this email address to activate "
-"your account."
+"verified account lets you access your tabs, bookmarks, passwords and history"
+" on any device connected to it. Simply confirm this email address to "
+"activate your account."
 msgstr ""
 
 #: templates/verification_reminder_first.html:4
@@ -354,10 +355,10 @@ msgstr ""
 #: templates/verify_reminder_second.html:3
 msgid ""
 "A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
-"iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know "
-"you're okay."
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and"
+" iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know"
+" you're okay."
 msgstr ""
 
 #: templates/verify.html:2 templates/verify.txt:1
@@ -434,8 +435,8 @@ msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
-"আপনি যে পাতাটি খুঁজছেন, তা পাওয়া যায়নি। আমরা এটি জেনেছই এবং কোন ত্রুটিপূর্ণ লিঙ্ক "
-"থাকলে তা আমরা ঠিক করব।"
+"আপনি যে পাতাটি খুঁজছেন, তা পাওয়া যায়নি। আমরা এটি জেনেছই এবং কোন ত্রুটিপূর্ণ "
+"লিঙ্ক থাকলে তা আমরা ঠিক করব।"
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
@@ -467,23 +468,24 @@ msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
-"এই মুহুর্তে আমরা অনেক ছাপের মাঝে আছি এবং যত তাড়াতাড়ি সম্ভব স্বাভাবিক সিস্টেমে ফিরে "
-"যেতে কাজ করছি। "
+"এই মুহুর্তে আমরা অনেক ছাপের মাঝে আছি এবং যত তাড়াতাড়ি সম্ভব স্বাভাবিক "
+"সিস্টেমে ফিরে যেতে কাজ করছি। "
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+"You are using an <strong>outdated</strong> browser. Please <a "
+"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+"experience."
 msgstr ""
-"আপনি একটি <strong>পুরাতন</strong> ব্রাউজার ব্যবহার করছেন। আপনার ব্রাউজিং আরও "
-"স্বাচ্ছন্দ্যময় করতে অনুগ্রহ করে <a href=\"http://browsehappy.com/\">আপনার ব্রাউজার "
-"হালনাগাদ করুন।</a>"
+"আপনি একটি <strong>পুরাতন</strong> ব্রাউজার ব্যবহার করছেন। আপনার ব্রাউজিং আরও"
+" স্বাচ্ছন্দ্যময় করতে অনুগ্রহ করে <a href=\"http://browsehappy.com/\">আপনার "
+"ব্রাউজার হালনাগাদ করুন।</a>"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr "ফায়ারফক্স অ্যাকাউন্টস ব্যবহার করতে জাভাস্ক্রিপ্ট চালু করুন।"
+msgstr "Firefox অ্যাকাউন্টস ব্যবহার করতে জাভাস্ক্রিপ্ট চালু করুন।"
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:4
@@ -493,7 +495,7 @@ msgstr "প্রাইভেসি নোটিশ"
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
-msgstr "ফায়ারফক্স ক্লাউড সেবা সমূহ"
+msgstr "Firefox ক্লাউড সেবা সমূহ"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:4
@@ -508,8 +510,8 @@ msgstr "সেবার শর্ত সমূহ"
 #~ "অনুগ্রহ করে নিশ্চিত করুন যে আপনি %(email)s এর জন্য পাসওয়ার্ড রিসেট করতে চান।"
 
 #~ msgid ""
-#~ "For more information, please visit <a href='https://support.mozilla."
-#~ "org'>Mozilla Support</a>"
+#~ "For more information, please visit <a "
+#~ "href='https://support.mozilla.org'>Mozilla Support</a>"
 #~ msgstr ""
 #~ "আরও তথ্যের জন্য অনুগ্রহ করে <a href='https://support.mozilla.org'>মজিলা "
 #~ "সহায়তা সাইট</a> ভিজিট করুন।"
@@ -520,8 +522,7 @@ msgstr "সেবার শর্ত সমূহ"
 #~ msgid "For more information, please visit https://support.mozilla.org"
 #~ msgstr "আরও তথ্যের জন্য অনুগ্রহ করে https://support.mozilla.org ভিজিট করুন"
 
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
 #~ msgstr ""
 #~ "%(email)s, আপনি আপনার ফায়ারফক্স অ্যাকাউন্ট নিশ্চিত করা থেকে একটি ক্লিক দূরে "
 #~ "আছেন।"
@@ -545,8 +546,8 @@ msgstr "সেবার শর্ত সমূহ"
 #~ msgstr "সিস্টেমের সাথে যোগাযোগ করা যাচ্ছে না, একটু পর চেষ্টা করুন"
 
 #~ msgid ""
-#~ "We are currently performing some maintenance on the system, and will "
-#~ "return momentarily."
+#~ "We are currently performing some maintenance on the system, and will return "
+#~ "momentarily."
 #~ msgstr ""
 #~ "                  বর্তমানে আমরা সিস্টেমে রক্ষানাবেক্ষনের কাজ করছি এবং দ্রুত "
 #~ "ফিরে আসছি।                "
