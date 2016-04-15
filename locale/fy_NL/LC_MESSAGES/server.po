@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-14 19:52+0000\n"
-"PO-Revision-Date: 2016-04-15 09:35+0000\n"
+"PO-Revision-Date: 2016-04-15 09:36+0000\n"
 "Last-Translator: fryskefirefox <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -207,7 +207,7 @@ msgstr "Wat moatte jo dwaan?"
 #: templates/password_reset_required.txt:4
 #: templates/suspicious_location.html:7 templates/suspicious_location.txt:6
 msgid "First, change your Firefox Account password."
-msgstr ""
+msgstr "As earste, stel jo Firefox-accountwachtwurd opnij yn."
 
 #: templates/password_reset_required.html:6
 #: templates/password_reset_required.txt:5
