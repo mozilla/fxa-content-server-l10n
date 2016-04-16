@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-14 19:52+0000\n"
-"PO-Revision-Date: 2016-04-16 09:09+0000\n"
-"Last-Translator: Sandro Della Giustina <gialloporpora@mozillaitalia.org>\n"
+"PO-Revision-Date: 2016-04-16 09:43+0000\n"
+"Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -199,11 +199,13 @@ msgid ""
 "To prevent further unauthorized access to your Firefox Account, we’ve reset "
 "your password and are notifying you as a precaution."
 msgstr ""
+"Ti segnaliamo che, al fine di prevenire ulteriori accessi non autorizzati "
+"all’account Firefox, ne abbiamo ripristinato la password."
 
 #: templates/password_reset_required.html:4
 #: templates/password_reset_required.txt:3
 msgid "What should you do?"
-msgstr ""
+msgstr "Procedura da seguire"
 
 #: templates/password_reset_required.html:5
 #: templates/password_reset_required.txt:4
@@ -219,6 +221,10 @@ msgid ""
 "passwords as well. Attackers may have access to those passwords, so you "
 "should check those accounts for suspicious activity."
 msgstr ""
+"In secondo luogo, se hai scelto di memorizzare le password dei siti web in "
+"Firefox, modifica anche quelle. Chi ha violato il tuo account potrebbe avere"
+" accesso a queste password, controlla dunque se ci sono attività sospette su"
+" tutti i tuoi account."
 
 #: templates/password_reset_required.html:7
 #: templates/password_reset_required.txt:6
@@ -296,6 +302,9 @@ msgid ""
 "in the last 60 days? If you don’t recognize these locations, someone else "
 "may have accessed your Firefox Account."
 msgstr ""
+"Negli ultimi 60 giorni hai effettuato l’accesso al tuo account Firefox da "
+"una delle seguenti località? Se non sei stato recentemente in queste "
+"località, è possibile che qualche estraneo abbia avuto accesso all’account."
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
@@ -444,7 +453,7 @@ msgstr "La password dell’account Firefox è stata reimpostata"
 
 #: mailer.js:313
 msgid "Firefox Account password reset required"
-msgstr ""
+msgstr "È necessario ripristinare la password dell’account Firefox"
 
 #: mailer.js:366
 msgid "Firefox Account Verified"
