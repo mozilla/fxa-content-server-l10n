@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-14 19:52+0000\n"
-"PO-Revision-Date: 2016-03-25 22:10+0000\n"
+"PO-Revision-Date: 2016-04-17 16:18+0000\n"
 "Last-Translator: ravmn <ravmn@ravmn.cl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_CL\n"
@@ -186,6 +186,8 @@ msgid ""
 "We detected suspicious activity on your Firefox Account. Your account may "
 "have been compromised."
 msgstr ""
+"Hemos detectado actividad sospechosa en tu cuenta de Firefox. Tu cuenta "
+"puede haber sido comprometida."
 
 #: templates/password_reset_required.html:3
 #: templates/password_reset_required.txt:2
@@ -193,17 +195,19 @@ msgid ""
 "To prevent further unauthorized access to your Firefox Account, we’ve reset "
 "your password and are notifying you as a precaution."
 msgstr ""
+"Para prevenir accesos no autorizados futuros a tu cuenta de Firefox, "
+"restablecimos tu contraseña y te notificamos como precaución."
 
 #: templates/password_reset_required.html:4
 #: templates/password_reset_required.txt:3
 msgid "What should you do?"
-msgstr ""
+msgstr "¿Qué debieras hacer?"
 
 #: templates/password_reset_required.html:5
 #: templates/password_reset_required.txt:4
 #: templates/suspicious_location.html:7 templates/suspicious_location.txt:6
 msgid "First, change your Firefox Account password."
-msgstr ""
+msgstr "Primero, cambiar la contraseña de tu cuenta de Firefox."
 
 #: templates/password_reset_required.html:6
 #: templates/password_reset_required.txt:5
@@ -213,30 +217,35 @@ msgid ""
 "passwords as well. Attackers may have access to those passwords, so you "
 "should check those accounts for suspicious activity."
 msgstr ""
+"Segundo, si Firefox almacena las contraseñas para tus sitios web, también "
+"debieras cambiarlas. Los atacantes pueden tener acceso a esas contraseñas, "
+"por lo que debieras revisar aquellas cuentas en busca de actividad "
+"sospechosa."
 
 #: templates/password_reset_required.html:7
 #: templates/password_reset_required.txt:6
 #: templates/suspicious_location.html:9 templates/suspicious_location.txt:8
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr ""
+"Aprende más sobre como ver que contraseñas tienes almacenadas en Firefox."
 
 #: templates/password_reset_required.html:8
 #: templates/password_reset_required.txt:7
 #: templates/suspicious_location.html:12 templates/suspicious_location.txt:11
 msgid "Best,"
-msgstr ""
+msgstr "Atentamente,"
 
 #: templates/password_reset_required.html:9
 #: templates/password_reset_required.txt:8
 #: templates/suspicious_location.html:13 templates/suspicious_location.txt:12
 msgid "The Firefox Accounts team"
-msgstr ""
+msgstr "El equipo de cuentas de Firefox"
 
 #: templates/password_reset_required.html:10
 #: templates/password_reset_required.txt:9
 #: templates/suspicious_location.html:14 templates/suspicious_location.txt:13
 msgid "Mozilla Privacy Policy"
-msgstr ""
+msgstr "Política de privacidad de Mozilla"
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
@@ -290,32 +299,37 @@ msgid ""
 "in the last 60 days? If you don’t recognize these locations, someone else "
 "may have accessed your Firefox Account."
 msgstr ""
+"¿Te conectaste a tu cuenta de Firefox desde las siguientes ubicaciones en "
+"los últimos 60 días? Si no reconoces estas ubicaciones, alguien más ha "
+"estado accediendo a tu cuenta de Firefox."
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
-msgstr ""
+msgstr "Fecha y hora:"
 
 #: templates/suspicious_location.html:4 templates/suspicious_location.txt:3
 msgid "Device:"
-msgstr ""
+msgstr "Dispositivo:"
 
 #: templates/suspicious_location.html:5 templates/suspicious_location.txt:4
 msgid "Location:"
-msgstr ""
+msgstr "Ubicación:"
 
 #: templates/suspicious_location.html:6 templates/suspicious_location.txt:5
 msgid "If you don’t recognize the activity above:"
-msgstr ""
+msgstr "Si no reconoces la actividad anterior:"
 
 #: templates/suspicious_location.html:10 templates/suspicious_location.txt:9
 msgid "Why are you receiving this email?"
-msgstr ""
+msgstr "¿Por qué estás recibiendo este correo?"
 
 #: templates/suspicious_location.html:11 templates/suspicious_location.txt:10
 msgid ""
 "We recently noticed Firefox Account logins from unusual locations. We’re "
 "notifying you as a precaution."
 msgstr ""
+"Hemos detectado conexiones a la cuenta de Firefox desde ubicaciones "
+"inusuales. Te lo estamos notificando como precaución."
 
 #: templates/unlock.html:2
 msgid "Account activity notice"
@@ -434,7 +448,7 @@ msgstr "La contraseña de tu cuenta de Firefox ha sido restablecida"
 
 #: mailer.js:313
 msgid "Firefox Account password reset required"
-msgstr ""
+msgstr "Se requiere restablecer la contraseña de la cuenta de Firefox"
 
 #: mailer.js:366
 msgid "Firefox Account Verified"
@@ -442,7 +456,7 @@ msgstr "Cuenta de Firefox verificada"
 
 #: mailer.js:401
 msgid "Suspicious activity with your Firefox Account"
-msgstr ""
+msgstr "Actividad sospechosa con tu cuenta de Firefox"
 
 #: config.js:146 config.js:151
 msgid "env"
