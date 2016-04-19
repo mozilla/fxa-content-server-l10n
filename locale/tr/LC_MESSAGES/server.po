@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-14 19:52+0000\n"
-"PO-Revision-Date: 2016-04-07 09:06+0000\n"
+"PO-Revision-Date: 2016-04-19 15:08+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -99,8 +99,8 @@ msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
 msgstr ""
-"Daha fazla bilgi için lütfen <a %(supportLinkAttributes)s>Mozilla Destek</"
-"a>’i ziyaret edin"
+"Daha fazla bilgi için lütfen <a %(supportLinkAttributes)s>Mozilla "
+"Destek</a>’i ziyaret edin"
 
 #: templates/new_device_login.txt:2
 msgid ""
@@ -172,8 +172,8 @@ msgstr "Firefox Hesabı parolanız başarıyla sıfırlandı."
 
 #: templates/password_reset.txt:4
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox"
+" Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 "Bu otomatik bir e-postadır. Eğer Firefox Hesabı parolanızı siz "
 "sıfırlamadıysanız hemen %(resetLink)s adresinden sıfırlamalısınız."
@@ -198,14 +198,14 @@ msgid "What should you do?"
 msgstr ""
 
 #: templates/password_reset_required.html:5
-#: templates/password_reset_required.txt:4 templates/suspicious_location.html:7
-#: templates/suspicious_location.txt:6
+#: templates/password_reset_required.txt:4
+#: templates/suspicious_location.html:7 templates/suspicious_location.txt:6
 msgid "First, change your Firefox Account password."
 msgstr ""
 
 #: templates/password_reset_required.html:6
-#: templates/password_reset_required.txt:5 templates/suspicious_location.html:8
-#: templates/suspicious_location.txt:7
+#: templates/password_reset_required.txt:5
+#: templates/suspicious_location.html:8 templates/suspicious_location.txt:7
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those "
 "passwords as well. Attackers may have access to those passwords, so you "
@@ -213,8 +213,8 @@ msgid ""
 msgstr ""
 
 #: templates/password_reset_required.html:7
-#: templates/password_reset_required.txt:6 templates/suspicious_location.html:9
-#: templates/suspicious_location.txt:8
+#: templates/password_reset_required.txt:6
+#: templates/suspicious_location.html:9 templates/suspicious_location.txt:8
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr ""
 
@@ -268,8 +268,8 @@ msgstr "Parolanızı unuttunuz mu?"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid ""
-"Click the button within the next hour to set a new password for your Firefox "
-"Account."
+"Click the button within the next hour to set a new password for your Firefox"
+" Account."
 msgstr ""
 "Yeni bir Firefox Hesabı parolası belirlemek için bir saat içinde düğmeye "
 "tıklayın."
@@ -291,15 +291,15 @@ msgstr ""
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
-msgstr ""
+msgstr "Tarih ve saat:"
 
 #: templates/suspicious_location.html:4 templates/suspicious_location.txt:3
 msgid "Device:"
-msgstr ""
+msgstr "Cihaz:"
 
 #: templates/suspicious_location.html:5 templates/suspicious_location.txt:4
 msgid "Location:"
-msgstr ""
+msgstr "Konum:"
 
 #: templates/suspicious_location.html:6 templates/suspicious_location.txt:5
 msgid "If you don’t recognize the activity above:"
@@ -348,9 +348,9 @@ msgstr "Yeniden merhaba."
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history "
-"on any device connected to it. Simply confirm this email address to activate "
-"your account."
+"verified account lets you access your tabs, bookmarks, passwords and history"
+" on any device connected to it. Simply confirm this email address to "
+"activate your account."
 msgstr ""
 "Birkaç gün önce bir Firefox Hesabı oluşturdunuz ama hesabınızı "
 "doğrulamadınız. Hesabınızı doğruladıktan sonra sekmelerinize, yer "
@@ -389,16 +389,16 @@ msgstr "Şimdi etkinleştir:"
 #: templates/verify_reminder_second.html:3
 msgid ""
 "A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
-"iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know "
-"you're okay."
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and"
+" iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know"
+" you're okay."
 msgstr ""
 "Birkaç gün önce bir Firefox Hesabı oluşturdunuz ama hesabınızı "
 "doğrulamadınız. Sizi merak ettik. Firefox’u Windows, Mac, Linux, Android ve "
 "iOS’te kullanabilir; bunlar arasında Firefox parolalarınızı, yer imlerinizi "
-"ve geçmişinizi eşitleyebilirsiniz. Hesabınızı etkinleştirmek için bu e-posta "
-"adresini onaylamanız yeterlidir."
+"ve geçmişinizi eşitleyebilirsiniz. Hesabınızı etkinleştirmek için bu e-posta"
+" adresini onaylamanız yeterlidir."
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
@@ -514,8 +514,9 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+"You are using an <strong>outdated</strong> browser. Please <a "
+"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+"experience."
 msgstr ""
 "<strong>Eski</strong> bir tarayıcı kullanıyorsunuz. Yeniliklerden "
 "faydalanmak için lütfen <a href=\"http://browsehappy.com/\">tarayıcınızı "
@@ -542,8 +543,7 @@ msgstr "Hizmet Koşulları"
 
 #~ msgid ""
 #~ "A device began syncing with the devices connected to your Firefox Account."
-#~ msgstr ""
-#~ "Bir cihaz, Firefox Hesabı’nıza bağlı cihazlarla eşitlenmeye başladı."
+#~ msgstr "Bir cihaz, Firefox Hesabı’nıza bağlı cihazlarla eşitlenmeye başladı."
 
 #~ msgid "Are you sure?"
 #~ msgstr "Emin misiniz?"
@@ -576,11 +576,11 @@ msgstr "Hizmet Koşulları"
 #~ "%(passwordChangeUrl)s>parolanızı değiştirin</a>."
 
 #~ msgid ""
-#~ "For more information, please visit <a href='https://support.mozilla."
-#~ "org'>Mozilla Support</a>"
+#~ "For more information, please visit <a "
+#~ "href='https://support.mozilla.org'>Mozilla Support</a>"
 #~ msgstr ""
-#~ "Daha fazla bilgi için lütfen <a href='https://support.mozilla."
-#~ "org'>Mozilla Destek</a>'i ziyaret edin."
+#~ "Daha fazla bilgi için lütfen <a href='https://support.mozilla.org'>Mozilla "
+#~ "Destek</a>'i ziyaret edin."
 
 #~ msgid "Reset password:"
 #~ msgstr "Parolanızı sıfırlayın:"
@@ -593,8 +593,7 @@ msgstr "Hizmet Koşulları"
 #~ msgid "Almost there"
 #~ msgstr "Bitmek üzere"
 
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
 #~ msgstr "%(email)s, Firefox hesabınızı doğrulamanıza bir tıklama kaldı."
 
 #~ msgid "Verify"
@@ -619,8 +618,8 @@ msgstr "Hizmet Koşulları"
 #~ "Firefox Hesabı'nıza bağlı tüm cihazlarla eşitlenen yeni bir cihaz var."
 
 #~ msgid ""
-#~ "This is an automated email; if you didn't add a new device to your "
-#~ "Firefox Account, you should change your password immediately at <a "
+#~ "This is an automated email; if you didn't add a new device to your Firefox "
+#~ "Account, you should change your password immediately at <a "
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr ""
 #~ "Bu otomatik bir e-postadır. Eğer Firefox Hesabı'nıza yeni bir cihaz "
@@ -637,13 +636,13 @@ msgstr "Hizmet Koşulları"
 #~ "adresinden sıfırlamalısınız."
 
 #~ msgid ""
-#~ "This is an automated email; if you didn't reset the password to your "
-#~ "Firefox Account, you should reset it immediately at <a "
+#~ "This is an automated email; if you didn't reset the password to your Firefox"
+#~ " Account, you should reset it immediately at <a "
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr ""
 #~ "Bu otomatik bir e-postadır. Eğer Firefox Hesabı parolanızı siz "
-#~ "sıfırlamadıysanız hemen <a href='%(resetLink)s'>%(resetLink)s</a> "
-#~ "adresinden sıfırlamalısınız."
+#~ "sıfırlamadıysanız hemen <a href='%(resetLink)s'>%(resetLink)s</a> adresinden"
+#~ " sıfırlamalısınız."
 
 #~ msgid "A new device is now syncing to your Firefox Account"
 #~ msgstr "Firefox Hesabı'nızla yeni bir cihaz eşitleniyor"
@@ -656,15 +655,15 @@ msgstr "Hizmet Koşulları"
 #~ "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
 #~ msgstr ""
 #~ "Daha fazla bilgi için lütfen <a href='https://support.mozilla.org' "
-#~ "style='color: #0095dd; text-decoration: none;'>Mozilla Destek</a>'i "
-#~ "ziyaret edin"
+#~ "style='color: #0095dd; text-decoration: none;'>Mozilla Destek</a>'i ziyaret "
+#~ "edin"
 
 #~ msgid ""
 #~ "For more information, please visit <a href='%(supportUrl)s' style='color: "
 #~ "#0095dd; text-decoration: none;'>Mozilla Support</a>"
 #~ msgstr ""
-#~ "Daha fazla bilgi için lütfen <a href='%(supportUrl)s' style='color: "
-#~ "#0095dd; text-decoration: none;'>Mozilla Destek</a>'i ziyaret edin"
+#~ "Daha fazla bilgi için lütfen <a href='%(supportUrl)s' style='color: #0095dd;"
+#~ " text-decoration: none;'>Mozilla Destek</a>'i ziyaret edin"
 
 #~ msgid "New sign-in to Sync"
 #~ msgstr "Sync'e yeni giriş"
@@ -676,8 +675,8 @@ msgstr "Hizmet Koşulları"
 #~ msgstr "Sistem kullanılamıyor, daha sonra tekrar deneyin"
 
 #~ msgid ""
-#~ "We are currently performing some maintenance on the system, and will "
-#~ "return momentarily."
+#~ "We are currently performing some maintenance on the system, and will return "
+#~ "momentarily."
 #~ msgstr ""
 #~ "Şu anda sistemde bakım çalışması yapıyoruz. Sistem az sonra normale "
 #~ "dönecektir."
