@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-14 19:52+0000\n"
-"PO-Revision-Date: 2016-04-18 09:20+0000\n"
+"PO-Revision-Date: 2016-04-22 15:13+0000\n"
 "Last-Translator: Tomáš Zelina <zelitomas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -26,7 +26,7 @@ msgid ""
 "A while ago you created a Firefox Account, but never verified it. Click the "
 "link below to activate your account."
 msgstr ""
-"Před nedávnem jste se vytvořili účet Firefox Account, ale zatím jste jej "
+"Před nedávnem jste si vytvořili účet Firefox Account, ale zatím jste jej "
 "neověřili. Pro aktivaci svého účtu klikněte na odkaz níže."
 
 #: templates/_pending.txt:3 templates/post_verify.html:3
@@ -225,13 +225,13 @@ msgstr ""
 #: templates/password_reset_required.txt:6
 #: templates/suspicious_location.html:9 templates/suspicious_location.txt:8
 msgid "Learn how to see what passwords Firefox is storing for you."
-msgstr ""
+msgstr "Zjistěte, jak si zobrazit, která hesla máte ve Firefoxu uložena."
 
 #: templates/password_reset_required.html:8
 #: templates/password_reset_required.txt:7
 #: templates/suspicious_location.html:12 templates/suspicious_location.txt:11
 msgid "Best,"
-msgstr ""
+msgstr "Nejlépe,"
 
 #: templates/password_reset_required.html:9
 #: templates/password_reset_required.txt:8
