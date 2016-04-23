@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-14 19:52+0000\n"
-"PO-Revision-Date: 2016-04-23 15:05+0000\n"
+"PO-Revision-Date: 2016-04-23 15:39+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -483,14 +483,16 @@ msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
-"Acesta este un e-mail automat; în cazul în care l-ai primit din greșeală, nu"
-" este necesară nicio acțiune."
+"Acesta este un e-mail automat; dacă l-ai primit din greșeală, nu este "
+"necesară nicio acțiune."
 
 #: app/scripts/lib/strings.js:35
 msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
 msgstr ""
+"Pentru mai multe informații te rugăm să vizitezi <a "
+"%(supportLinkAttributes)s>Mozilla Support</a>"
 
 #: app/scripts/lib/strings.js:36
 msgid "Verify Email"
@@ -499,14 +501,15 @@ msgstr "Verifică e-mailul"
 #: app/scripts/lib/strings.js:37
 msgid "Verify your email to finish your Firefox Account sign-in"
 msgstr ""
+"Verifică e-mailul pentru a finaliza autentificarea contului tău Firefox"
 
 #: app/scripts/lib/strings.js:38
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "Confirmă autentificarea"
 
 #: app/scripts/lib/strings.js:39
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "Confirmă această autentificare"
 
 #: app/scripts/lib/strings.js:40
 #: app/scripts/templates/complete_reset_password.mustache:2
@@ -528,6 +531,8 @@ msgid ""
 "To better protect your Firefox data, we've emailed a confirmation link to "
 "%(email)s"
 msgstr ""
+"Pentru o mai bună protejare a datelor tale Firefox, ți-am trimis prin e-mail"
+" un link de confirmare către %(email)s"
 
 #: app/scripts/lib/strings.js:43 app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
@@ -548,7 +553,7 @@ msgstr "Înapoi"
 
 #: app/scripts/lib/strings.js:46
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "Autentificare confirmată"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -646,18 +651,20 @@ msgstr "Link de resetare a parolei deteriorat"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 msgid "Enter new password"
-msgstr ""
+msgstr "Introdu parola nouă"
 
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid ""
 "Once you submit your new password, you will lose any Sync data that is not "
 "on one of your devices."
 msgstr ""
+"Odată ce ai trimis parola nouă, vei pierde datele din Sincronizare care nu "
+"sunt pe unul dintre dispozitive."
 
 #: app/scripts/templates/complete_reset_password.mustache:11
 #: app/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
-msgstr ""
+msgstr "Află cum funcționează Sincronizare."
 
 #: app/scripts/templates/complete_reset_password.mustache:13
 #: app/scripts/templates/settings/change_password.mustache:7
@@ -683,7 +690,7 @@ msgstr "Repetă parola"
 
 #: app/scripts/templates/complete_reset_password.mustache:18
 msgid "Submit new password"
-msgstr ""
+msgstr "Trimite parola nouă"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
@@ -728,6 +735,8 @@ msgid ""
 "Click on the link we've emailed you at %(email)s within the next hour to "
 "create a new password."
 msgstr ""
+"Clic pe linkul pe care ți l-am trimis prin e-mail la %(email)s în următoarea"
+" oră pentru a crea o parolă nouă."
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
@@ -746,6 +755,9 @@ msgid ""
 "Accounts. Doing so will enable functionality such as remembering you between"
 " sessions."
 msgstr ""
+"Te rugăm să activezi cookie-urile și stocarea locală în browserul tău pentru"
+" a accesa Conturi Firefox. Făcând acest lucru va fi activată "
+"funcționalitatea de a ține minte contul tău între sesiuni."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -1021,7 +1033,7 @@ msgid ""
 "Once you're finished, use your new password to sign in on all of your "
 "devices."
 msgstr ""
-"După ce ai terminat, folosește noua parolă pentru a te autentifica pe toate "
+"După ce ai terminat, folosește parola nouă pentru a te autentifica pe toate "
 "dispozitivele."
 
 #: app/scripts/templates/settings/change_password.mustache:4
@@ -1034,7 +1046,7 @@ msgstr "Preferințe de comunicare"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
-msgstr "Preferințe pentru e-mail"
+msgstr "Preferințe de e-mail"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:10
 msgid "Unsubscribe"
