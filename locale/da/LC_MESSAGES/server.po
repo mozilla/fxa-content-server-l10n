@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-14 19:52+0000\n"
-"PO-Revision-Date: 2016-04-16 11:07+0000\n"
+"PO-Revision-Date: 2016-04-24 08:49+0000\n"
 "Last-Translator: joergenr <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
@@ -182,6 +182,8 @@ msgid ""
 "We detected suspicious activity on your Firefox Account. Your account may "
 "have been compromised."
 msgstr ""
+"Vi har konstateret mistænkelig aktivitet på din Firefox-konto. Din konto er "
+"måske blevet kompromitteret."
 
 #: templates/password_reset_required.html:3
 #: templates/password_reset_required.txt:2
@@ -189,17 +191,20 @@ msgid ""
 "To prevent further unauthorized access to your Firefox Account, we’ve reset "
 "your password and are notifying you as a precaution."
 msgstr ""
+"Vi har nulstillet adgangskoden til din Firefox-konto for at undgå yderligere"
+" uautoriseret adgang til den."
 
 #: templates/password_reset_required.html:4
 #: templates/password_reset_required.txt:3
 msgid "What should you do?"
-msgstr ""
+msgstr "Hvad skal du gøre?"
 
 #: templates/password_reset_required.html:5
 #: templates/password_reset_required.txt:4
 #: templates/suspicious_location.html:7 templates/suspicious_location.txt:6
 msgid "First, change your Firefox Account password."
 msgstr ""
+"Du skal først og fremmest skifte din adgangskode til din Firefox konto."
 
 #: templates/password_reset_required.html:6
 #: templates/password_reset_required.txt:5
@@ -209,30 +214,33 @@ msgid ""
 "passwords as well. Attackers may have access to those passwords, so you "
 "should check those accounts for suspicious activity."
 msgstr ""
+"Dernæst skal du ændre alle adgangskoder, som Firefox har gemt til andre "
+"websteder. Fremmede kan risikere at have adgang til dem, så du skal ændre "
+"dem for en sikkerheds skyld."
 
 #: templates/password_reset_required.html:7
 #: templates/password_reset_required.txt:6
 #: templates/suspicious_location.html:9 templates/suspicious_location.txt:8
 msgid "Learn how to see what passwords Firefox is storing for you."
-msgstr ""
+msgstr "Læs, hvordan du kan se, hvilke adgangskoder Firefox har gemt for dig."
 
 #: templates/password_reset_required.html:8
 #: templates/password_reset_required.txt:7
 #: templates/suspicious_location.html:12 templates/suspicious_location.txt:11
 msgid "Best,"
-msgstr ""
+msgstr "Med venlig hilsen"
 
 #: templates/password_reset_required.html:9
 #: templates/password_reset_required.txt:8
 #: templates/suspicious_location.html:13 templates/suspicious_location.txt:12
 msgid "The Firefox Accounts team"
-msgstr ""
+msgstr "Holdet bag Firefox-konti"
 
 #: templates/password_reset_required.html:10
 #: templates/password_reset_required.txt:9
 #: templates/suspicious_location.html:14 templates/suspicious_location.txt:13
 msgid "Mozilla Privacy Policy"
-msgstr ""
+msgstr "Mozillas privatlivspolitik"
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
@@ -286,6 +294,9 @@ msgid ""
 "in the last 60 days? If you don’t recognize these locations, someone else "
 "may have accessed your Firefox Account."
 msgstr ""
+"Har du logget ind på din Firefox-konto fra et af de følgende steder i de "
+"seneste 60 dage? Hvis du ikke kan genkende stederne, har fremmede måske "
+"adgang til din Firefox-konto."
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
@@ -297,21 +308,24 @@ msgstr "Enhed:"
 
 #: templates/suspicious_location.html:5 templates/suspicious_location.txt:4
 msgid "Location:"
-msgstr ""
+msgstr "Sted:"
 
 #: templates/suspicious_location.html:6 templates/suspicious_location.txt:5
 msgid "If you don’t recognize the activity above:"
-msgstr ""
+msgstr "Hvis du ikke kan genkende ovennævnte aktivitet:"
 
 #: templates/suspicious_location.html:10 templates/suspicious_location.txt:9
 msgid "Why are you receiving this email?"
-msgstr ""
+msgstr "Hvorfor får du denne mail?"
 
 #: templates/suspicious_location.html:11 templates/suspicious_location.txt:10
 msgid ""
 "We recently noticed Firefox Account logins from unusual locations. We’re "
 "notifying you as a precaution."
 msgstr ""
+"Vi har bemærket, at der er logget ind på din Firefox-konto fra andre steder "
+"end normalt. Denne besked er for, at du kan reagere, hvis der er noget "
+"mistænkeligt."
 
 #: templates/unlock.html:2
 msgid "Account activity notice"
@@ -429,7 +443,7 @@ msgstr "Adgangskoden til din Firefox-konto er blevet nulstillet"
 
 #: mailer.js:313
 msgid "Firefox Account password reset required"
-msgstr ""
+msgstr "Nulstilling af din adgangskode til Firefox-konti er påkrævet"
 
 #: mailer.js:366
 msgid "Firefox Account Verified"
@@ -437,7 +451,7 @@ msgstr "Firefox-konto bekræftet"
 
 #: mailer.js:401
 msgid "Suspicious activity with your Firefox Account"
-msgstr ""
+msgstr "Der er mistænkelig aktivitet på din Firefox-konto"
 
 #: config.js:146 config.js:151
 msgid "env"
