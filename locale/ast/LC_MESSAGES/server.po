@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-14 19:52+0000\n"
-"PO-Revision-Date: 2016-04-27 22:03+0000\n"
+"PO-Revision-Date: 2016-04-27 22:51+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -18,13 +18,15 @@ msgstr ""
 #: templates/verification_reminder_second.txt:1
 #: templates/verify_reminder_second.html:2 mailer.js:416
 msgid "Still there?"
-msgstr ""
+msgstr "¿Entá tas ende?"
 
 #: templates/_pending.txt:2
 msgid ""
 "A while ago you created a Firefox Account, but never verified it. Click the "
 "link below to activate your account."
 msgstr ""
+"Hai tiempu creasti una cuenta de Firefox pero enxamás nun la verifiquesti. "
+"Primi l'enllaz d'embaxo p'activala."
 
 #: templates/_pending.txt:3 templates/post_verify.html:3
 msgid ""
@@ -32,6 +34,9 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for <a "
 "href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
 msgstr ""
+"Coneutesti con ésitu'l to primer preséu a la cuenta de Firefox. Agora pues "
+"aniciar sesión en Sync dende otros preseos de to, incluyendo Firefos p'<a "
+"href='%(androidUrl)s'>Android</a> ya <a href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
@@ -42,11 +47,11 @@ msgstr ""
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "Coneutar otru preséu"
 
 #: templates/_pending.txt:6
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Aniciar sesión en Sync"
 
 #: templates/new_device_login.html:1 templates/password_changed.html:1
 #: templates/password_reset.html:1 templates/password_reset_required.html:1
@@ -63,18 +68,20 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:1
 #: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Cuentes de Firefox"
 
 #: templates/new_device_login.html:2 templates/new_device_login.txt:1
 #: mailer.js:338
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "Aniciu de sesión nuevu en Firefox"
 
 #: templates/new_device_login.html:3 templates/password_changed.html:4
 msgid ""
 "This is an automated email; if you did not authorize this action, then <a "
 "%(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr ""
+"Esto ye un corréu automatizáu. Si nun autoricesti esta aición, entós <a "
+"%(passwordChangeLinkAttributes)s>camuda la to contraseña por favor.</a>"
 
 #: templates/new_device_login.html:4 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
@@ -87,12 +94,17 @@ msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
 msgstr ""
+"Pa más información, visita'l <a %(supportLinkAttributes)s>Sofitu de "
+"Mozilla</a> por favor"
 
 #: templates/new_device_login.txt:2
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
 "Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
+"Esto ye un corréu automatizáu. Si nun amestesti un preséu nuevu a la to "
+"cuenta de Firefox, deberíes camudar nel intre la to contraseña en "
+"%(resetLink)s."
 
 #: templates/new_device_login.txt:3 templates/password_changed.txt:4
 #: templates/password_reset.txt:5 templates/post_verify.txt:5
@@ -100,31 +112,35 @@ msgstr ""
 #: templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5
 msgid "For more information, please visit %(supportUrl)s"
-msgstr ""
+msgstr "Pa más información, visita %(supportUrl)s por favor"
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Camudóse con ésitu la contraseña"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr ""
+msgstr "Camudóse con ésitu la contraseña de la to cuenta de Firefox."
 
 #: templates/password_changed.txt:3
 msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"Esto ye un corréu automatizáu. Si nun camudesti la contraseña de la to "
+"cuenta de Firefox, deberíes reaniciala nel intre en %(resetLink)s."
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
-msgstr ""
+msgstr "Reaniciesti la to contraseña"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:3
 msgid ""
 "Your Firefox Account password has changed. If you did not change it, please "
 "<a href='%(resetLink)s'>reset your password</a> now."
 msgstr ""
+"Camudóse la cuenta de la to cuenta de Firefox. Si nun la camudesti, <a "
+"href='%(resetLink)s'>reanicia la to contraseña</a> agora, por favor."
 
 #: templates/password_reset.html:4 templates/post_verify.html:6
 #: templates/post_verify.txt:4 templates/reset.html:7 templates/reset.txt:5
@@ -139,20 +155,24 @@ msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
+"Esto ye un corréu automatizáu. Si lu recibes por error, nun se rique aición "
+"dala."
 
 #: templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Reanicióse con ésitu la contraseña"
 
 #: templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr ""
+msgstr "Reanicióse con ésitu la contraseña de la to cuenta de Firefox."
 
 #: templates/password_reset.txt:4
 msgid ""
 "This is an automated email; if you didn’t reset the password to your Firefox"
 " Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
+"Esto ye un corréu automatizáu. Si nun reaniciesti la contraseña de la to "
+"cuenta de Firefox, deberíes reaniciala nel intre en %(resetLink)s."
 
 #: templates/password_reset_required.html:2
 #: templates/password_reset_required.txt:1
@@ -160,6 +180,8 @@ msgid ""
 "We detected suspicious activity on your Firefox Account. Your account may "
 "have been compromised."
 msgstr ""
+"Deteutemos una actividá sospechosa na to cuenta de Firefox. La to cuenta "
+"quiciabes tea comprometida."
 
 #: templates/password_reset_required.html:3
 #: templates/password_reset_required.txt:2
@@ -167,17 +189,19 @@ msgid ""
 "To prevent further unauthorized access to your Firefox Account, we’ve reset "
 "your password and are notifying you as a precaution."
 msgstr ""
+"Pa evitar más accesos non autorizaos a la to cuenta de Firefox, reaniciemos "
+"la to contraseña y avisámoste como precaución."
 
 #: templates/password_reset_required.html:4
 #: templates/password_reset_required.txt:3
 msgid "What should you do?"
-msgstr ""
+msgstr "¿Qué debería facer?"
 
 #: templates/password_reset_required.html:5
 #: templates/password_reset_required.txt:4
 #: templates/suspicious_location.html:7 templates/suspicious_location.txt:6
 msgid "First, change your Firefox Account password."
-msgstr ""
+msgstr "Primero, camuda la contraseña de la to cuenta de Firefox."
 
 #: templates/password_reset_required.html:6
 #: templates/password_reset_required.txt:5
@@ -187,34 +211,37 @@ msgid ""
 "passwords as well. Attackers may have access to those passwords, so you "
 "should check those accounts for suspicious activity."
 msgstr ""
+"Segundo, si Firefox atroxa contraseñes de sitios, deberíes de camudar eses "
+"contraseñes tamién. Los atacantes quiciabes tengan accesu a elles, asina que"
+" deberíes comprobar eses cuentes por actividá sospechosa."
 
 #: templates/password_reset_required.html:7
 #: templates/password_reset_required.txt:6
 #: templates/suspicious_location.html:9 templates/suspicious_location.txt:8
 msgid "Learn how to see what passwords Firefox is storing for you."
-msgstr ""
+msgstr "Depriendi cómo ver qué contraseñes ta atroxando Firefox pa ti."
 
 #: templates/password_reset_required.html:8
 #: templates/password_reset_required.txt:7
 #: templates/suspicious_location.html:12 templates/suspicious_location.txt:11
 msgid "Best,"
-msgstr ""
+msgstr "Aténtamente,"
 
 #: templates/password_reset_required.html:9
 #: templates/password_reset_required.txt:8
 #: templates/suspicious_location.html:13 templates/suspicious_location.txt:12
 msgid "The Firefox Accounts team"
-msgstr ""
+msgstr "L'equipu de cuentes de Firefox"
 
 #: templates/password_reset_required.html:10
 #: templates/password_reset_required.txt:9
 #: templates/suspicious_location.html:14 templates/suspicious_location.txt:13
 msgid "Mozilla Privacy Policy"
-msgstr ""
+msgstr "Política de privacidá de Mozilla"
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
-msgstr ""
+msgstr "¡Verificóse la cuenta!"
 
 #: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5
 #: templates/verification_reminder_first.html:5
@@ -222,7 +249,7 @@ msgstr ""
 #: templates/verify_reminder_first.html:5
 #: templates/verify_reminder_second.html:5
 msgid "Alternatively:"
-msgstr ""
+msgstr "D'otramiente:"
 
 #: templates/post_verify.txt:2
 msgid ""
@@ -230,28 +257,33 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for "
 "Android and iOS."
 msgstr ""
+"Coneutesti con ésitu'l to primer preséu a la cuenta de Firefox. Agora pues "
+"aniciar sesión en Sync dende otros preseos de to, incluyendo Firefox "
+"p'Android ya iOS."
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr ""
+msgstr "Aniciar sesión en Sync:"
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Forgot your password?"
-msgstr ""
+msgstr "¿Escaeciesti la to contraseña?"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid ""
 "Click the button within the next hour to set a new password for your Firefox"
 " Account."
 msgstr ""
+"Primi'l botón dientro la próxima hora p'afitar una contraseña nueva a la to "
+"cuenta de Firefox."
 
 #: templates/reset.html:4 templates/reset.txt:3
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "¿Recordar contraseña? Anicia sesión."
 
 #: templates/reset.html:5 templates/reset.txt:4
 msgid "Reset password"
-msgstr ""
+msgstr "Reaniciar contraseña"
 
 #: templates/suspicious_location.html:2 templates/suspicious_location.txt:1
 msgid ""
@@ -259,36 +291,41 @@ msgid ""
 "in the last 60 days? If you don’t recognize these locations, someone else "
 "may have accessed your Firefox Account."
 msgstr ""
+"¿Aniciesti sesión na to cuenta de Firefox dende cualesquiera de los "
+"allugamientos de darréu nos caberos 60 díes? Si nun los reconoces, daquién "
+"más quiciabes tenga accesu a la to cuenta de Firefox."
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
-msgstr ""
+msgstr "Data y hora:"
 
 #: templates/suspicious_location.html:4 templates/suspicious_location.txt:3
 msgid "Device:"
-msgstr ""
+msgstr "Preséu:"
 
 #: templates/suspicious_location.html:5 templates/suspicious_location.txt:4
 msgid "Location:"
-msgstr ""
+msgstr "Allugamientu:"
 
 #: templates/suspicious_location.html:6 templates/suspicious_location.txt:5
 msgid "If you don’t recognize the activity above:"
-msgstr ""
+msgstr "Si nun reconoces l'actividá d'enriba:"
 
 #: templates/suspicious_location.html:10 templates/suspicious_location.txt:9
 msgid "Why are you receiving this email?"
-msgstr ""
+msgstr "¿Por qué tas recibiendo esti corréu?"
 
 #: templates/suspicious_location.html:11 templates/suspicious_location.txt:10
 msgid ""
 "We recently noticed Firefox Account logins from unusual locations. We’re "
 "notifying you as a precaution."
 msgstr ""
+"Apocayá decatémonos d'anicios de sesión na cuenta de Firefox dende "
+"allugamientos inusuales. Tamos avisándote como precaución."
 
 #: templates/unlock.html:2
 msgid "Account activity notice"
-msgstr ""
+msgstr "Avisu d'actividá de cuenta"
 
 #: templates/unlock.html:3 templates/unlock.txt:1
 msgid ""
@@ -299,17 +336,17 @@ msgstr ""
 
 #: templates/unlock.html:4
 msgid "Verify account"
-msgstr ""
+msgstr "Verificar cuenta"
 
 #: templates/unlock.txt:2
 msgid "Verify account:"
-msgstr ""
+msgstr "Verificar cuenta:"
 
 #: templates/verification_reminder_first.html:2
 #: templates/verification_reminder_first.txt:1
 #: templates/verify_reminder_first.html:2 mailer.js:413
 msgid "Hello again."
-msgstr ""
+msgstr "Hola de nueves."
 
 #: templates/verification_reminder_first.html:3
 #: templates/verification_reminder_first.txt:2
@@ -326,26 +363,26 @@ msgstr ""
 #: templates/verify_reminder_first.html:4
 #: templates/verify_reminder_second.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "Activar agora"
 
 #: templates/verification_reminder_first.html:8
 #: templates/verification_reminder_second.html:8 templates/verify.html:8
 #: templates/verify_reminder_first.html:8
 #: templates/verify_reminder_second.html:8
 msgid "Verify Email"
-msgstr ""
+msgstr "Verificar corréu"
 
 #: templates/verification_reminder_first.html:9
 #: templates/verification_reminder_second.html:9 templates/verify.html:9
 #: templates/verify_reminder_first.html:9
 #: templates/verify_reminder_second.html:9
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
+msgstr "Verifica'l to corréu pa finar el rexistru de la to cuenta de Firefox"
 
 #: templates/verification_reminder_first.txt:3
 #: templates/verification_reminder_second.txt:3 templates/verify.txt:3
 msgid "Activate now:"
-msgstr ""
+msgstr "Activar agora:"
 
 #: templates/verification_reminder_second.html:3
 #: templates/verification_reminder_second.txt:2
@@ -360,11 +397,11 @@ msgstr ""
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
-msgstr ""
+msgstr "¡Bienllegáu!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "Activa la to cuenta confirmando esta direición de corréu, por favor."
 
 #: mailer.js:168
 msgid "Verify your Firefox Account"
@@ -372,35 +409,35 @@ msgstr ""
 
 #: mailer.js:201
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "Reaniciar la contraseña de la to cuenta de Firefox"
 
 #: mailer.js:236
 msgid "Re-verify your Firefox Account"
-msgstr ""
+msgstr "Volvi verificar la to cuenta de Firefox"
 
 #: mailer.js:269
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "Camudóse la contraseña de la to cuenta de Firefox"
 
 #: mailer.js:291
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "Reanicióse la contraseña de la to cuenta de Firefox"
 
 #: mailer.js:313
 msgid "Firefox Account password reset required"
-msgstr ""
+msgstr "Ríquese'l reaniciu de la contraseña de la cuenta de Firefox"
 
 #: mailer.js:366
 msgid "Firefox Account Verified"
-msgstr ""
+msgstr "Verificóse la cuenta de Firefox"
 
 #: mailer.js:401
 msgid "Suspicious activity with your Firefox Account"
-msgstr ""
+msgstr "Actividá sospechosa cola to cuenta de Firefox"
 
 #: config.js:146 config.js:151
 msgid "env"
-msgstr ""
+msgstr "env"
 
 #: config.js:159 config.js:160 config.js:161 config.js:162 config.js:163
 #: config.js:164
@@ -413,15 +450,15 @@ msgstr ""
 
 #: lib/db.js:21
 msgid "/"
-msgstr ""
+msgstr "/"
 
 #: lib/db.js:34
 msgid "/__heartbeat__"
-msgstr ""
+msgstr "/__heartbeat__"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
-msgstr ""
+msgstr "Solicitú incorreuta"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -432,15 +469,17 @@ msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
+"Nun s'alcontró la páxina que solicitesti. Fuimos avisaos ya iguaremos "
+"cualesquier enllaz que quiciabes tea rotu."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
-msgstr ""
+msgstr "Aniciu"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr ""
+msgstr "Fallu 500"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
@@ -450,11 +489,11 @@ msgstr ""
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "Fallu 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Sirvidor ocupáu, volvi tentalo ceo"
 
 #: server/templates/pages/src/503.html:3
 msgid ""
@@ -470,22 +509,25 @@ msgid ""
 "href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
 "experience."
 msgstr ""
+"Tas usando un restolador <strong>non anováu</strong>. <a "
+"href=\"http://browsehappy.com/\">Anuévalu</a> p'ameyorar la to esperiencia, "
+"por favor."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "Les cuentes de Firefox riquen JavaScript."
 
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Avisu de privacidá"
 
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "Servicios na ñube de Firefox"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
-msgstr ""
+msgstr "Términos del Serviciu"
