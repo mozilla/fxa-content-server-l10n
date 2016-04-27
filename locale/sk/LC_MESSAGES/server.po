@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-14 19:52+0000\n"
-"PO-Revision-Date: 2016-04-21 23:10+0000\n"
+"PO-Revision-Date: 2016-04-26 21:41+0000\n"
 "Last-Translator: Branislav Rozbora <rozbora@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -225,13 +225,13 @@ msgstr ""
 #: templates/password_reset_required.txt:6
 #: templates/suspicious_location.html:9 templates/suspicious_location.txt:8
 msgid "Learn how to see what passwords Firefox is storing for you."
-msgstr ""
+msgstr "Zistite, ako si zobraziť, ktoré heslá máte vo Firefoxe uložené."
 
 #: templates/password_reset_required.html:8
 #: templates/password_reset_required.txt:7
 #: templates/suspicious_location.html:12 templates/suspicious_location.txt:11
 msgid "Best,"
-msgstr ""
+msgstr "Najlepšie,"
 
 #: templates/password_reset_required.html:9
 #: templates/password_reset_required.txt:8
