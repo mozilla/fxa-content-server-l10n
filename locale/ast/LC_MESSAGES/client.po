@@ -434,7 +434,7 @@ msgid ""
 msgstr ""
 "Siguiendo, tas acordies colos <a id=\"service-tos\" "
 "href=\"%(termsUri)s\">términos del serviciu</a> y l'<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">avisu de privacidá de %(serviceName)s "
+"href=\"%(privacyUri)s\">avisu de privacidá</a> de %(serviceName)s "
 "(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:26
