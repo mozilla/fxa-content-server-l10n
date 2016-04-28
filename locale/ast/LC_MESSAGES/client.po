@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-14 19:52+0000\n"
-"PO-Revision-Date: 2016-04-28 00:07+0000\n"
+"PO-Revision-Date: 2016-04-28 00:13+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -576,7 +576,7 @@ msgstr "Marcadores"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
-msgstr ""
+msgstr "Complementos"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:8
 msgid "Passwords"
@@ -593,6 +593,7 @@ msgstr "Preferencies"
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
 msgstr ""
+"Anguaño los complementos y preferencies nun se sincronicen en datos móviles."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 #: app/scripts/templates/sign_up.mustache:24
@@ -878,7 +879,7 @@ msgstr "Encaboxar"
 
 #: app/scripts/templates/ready.mustache:1
 msgid "Success"
-msgstr ""
+msgstr "Ésitu"
 
 #: app/scripts/templates/ready.mustache:2
 msgid "Sync preferences"
