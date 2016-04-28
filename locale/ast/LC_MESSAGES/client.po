@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-14 19:52+0000\n"
-"PO-Revision-Date: 2016-04-27 21:23+0000\n"
+"PO-Revision-Date: 2016-04-28 00:07+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -35,7 +35,7 @@ msgstr "Reafitóse con ésitu la contraseña. Anicia sesión pa siguir."
 
 #: app/scripts/views/permissions.js:25
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName)s (ríquese)"
 
 #: app/scripts/views/permissions.js:31
 msgid "Email address"
@@ -83,7 +83,7 @@ msgstr "Agora tas preparáu pa usar %(serviceName)s"
 
 #: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:143
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "Cuenta desconocida. <a href=\"/signup\">Rexístrase</a>"
 
 #: app/scripts/views/sign_up.js:67
 msgid "Account no longer exists. Recreate it?"
@@ -95,7 +95,7 @@ msgstr "La cuenta yá esiste. <a href=\"/signin\">Aniciar sesión</a>"
 
 #: app/scripts/views/settings/avatar_gravatar.js:89
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr ""
+msgstr "Cortesía de <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
 #: app/scripts/views/settings/change_password.js:46
 msgid "Password changed successfully"
@@ -107,7 +107,7 @@ msgstr "Soscribiéstite con ésitu"
 
 #: app/scripts/views/settings/communication_preferences.js:117
 msgid "Unsubscribed successfully"
-msgstr ""
+msgstr "Desoscribiéstite con ésitu"
 
 #: app/scripts/views/settings/delete_account.js:48
 msgid "Account deleted successfully"
@@ -115,31 +115,31 @@ msgstr "Desanicióse con ésitu la cuenta"
 
 #: app/scripts/views/settings/devices.js:25
 msgid "days ago"
-msgstr ""
+msgstr "díes atrás"
 
 #: app/scripts/views/settings/devices.js:26
 msgid "hours ago"
-msgstr ""
+msgstr "hores atrás"
 
 #: app/scripts/views/settings/devices.js:27
 msgid "minutes ago"
-msgstr ""
+msgstr "minutos atrás"
 
 #: app/scripts/views/settings/devices.js:28
 msgid "months ago"
-msgstr ""
+msgstr "meses atrás"
 
 #: app/scripts/views/settings/devices.js:29
 msgid "seconds ago"
-msgstr ""
+msgstr "segundos atrás"
 
 #: app/scripts/views/settings/devices.js:31
 msgid "weeks ago"
-msgstr ""
+msgstr "selmanes atrás"
 
 #: app/scripts/views/settings/devices.js:32
 msgid "years ago"
-msgstr ""
+msgstr "años atrás"
 
 #: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
@@ -183,11 +183,11 @@ msgstr "Pase non válidu"
 
 #: app/scripts/lib/auth-errors.js:33
 msgid "Invalid timestamp in request signature"
-msgstr ""
+msgstr "Marca de tiempu non válida na robla de la solicitú"
 
 #: app/scripts/lib/auth-errors.js:37
 msgid "Invalid nonce in request signature"
-msgstr ""
+msgstr "«nonce» non válidu na robla de solicitú"
 
 #: app/scripts/lib/auth-errors.js:41
 msgid "Account already exists"
@@ -199,7 +199,7 @@ msgstr "Cuenta desconocida"
 
 #: app/scripts/lib/auth-errors.js:49
 msgid "Incorrect email case"
-msgstr ""
+msgstr "Formatu incorreutu de corréu"
 
 #: app/scripts/lib/auth-errors.js:53
 msgid "Incorrect password"
@@ -231,7 +231,7 @@ msgstr "Robla de solicitú non válida"
 
 #: app/scripts/lib/auth-errors.js:81
 msgid "Missing content-length header"
-msgstr ""
+msgstr "Testera content-length faltante"
 
 #: app/scripts/lib/auth-errors.js:85
 msgid "Request body too large"
@@ -247,7 +247,7 @@ msgstr "Sirvidor ocupáu, volvi tentalo ceo"
 
 #: app/scripts/lib/auth-errors.js:109
 msgid "This endpoint is no longer supported"
-msgstr ""
+msgstr "Esti estremu yá nun ta sofitáu más"
 
 #: app/scripts/lib/auth-errors.js:113 app/scripts/lib/config-loader.js:73
 #: app/scripts/lib/marketing-email-errors.js:79
@@ -318,14 +318,17 @@ msgstr "Ríquese una URL válida"
 #: app/scripts/lib/auth-errors.js:191
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr ""
+"Ta acabantes devolvese'l to corréu de verificación. ¿Direición mal "
+"teclexada?"
 
 #: app/scripts/lib/auth-errors.js:199
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "Introduz una direición de corréu válida. firefox.com nun ufre corréu."
 
 #: app/scripts/lib/auth-errors.js:207
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
+"Les cuentes de Firefox namái puen asitiase nun IFRAME en sitios aprovaos"
 
 #: app/scripts/lib/auth-errors.js:222
 #: app/scripts/templates/complete_account_unlock.mustache:2
@@ -344,11 +347,11 @@ msgstr "Les dimensiones de la imaxe han ser 100x100px"
 
 #: app/scripts/lib/auth-errors.js:238
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "El rexistru aportará ceo a Firefox pa iOS"
 
 #: app/scripts/lib/auth-errors.js:242
 msgid "Signup has been disabled"
-msgstr ""
+msgstr "Deshabilitóse'l rexistru"
 
 #: app/scripts/lib/auth-errors.js:246
 msgid "You must enter your age to sign up"
@@ -376,7 +379,7 @@ msgstr "redirect_uri incorreutu"
 
 #: app/scripts/lib/oauth-errors.js:34
 msgid "Invalid assertion"
-msgstr ""
+msgstr "Afirmación non válida"
 
 #: app/scripts/lib/oauth-errors.js:38
 msgid "Unknown code"
@@ -396,11 +399,11 @@ msgstr "Parámetru non válidu d'OAuth: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
-msgstr ""
+msgstr "Non autorizáu"
 
 #: app/scripts/lib/oauth-errors.js:66
 msgid "Forbidden"
-msgstr ""
+msgstr "Prohibío"
 
 #: app/scripts/lib/oauth-errors.js:88
 msgid "Something went wrong. Please close this tab and try again."
@@ -408,7 +411,7 @@ msgstr "Daqué foi mal. Zarra esta llingüeta y volvi tentalo, por favor."
 
 #: app/scripts/lib/oauth-errors.js:108
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Parámetru faltante d'OAuth: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:27
 msgid "Unsupported image provider"
@@ -444,7 +447,7 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:29
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
+msgstr "Confirmar aniciu de sesión nuevu en Firefox"
 
 #: app/scripts/lib/strings.js:30
 msgid "You signed in to Firefox from %(device)s, %(location)s."
@@ -493,11 +496,11 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:38
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "Confirmar aniciu de sesión"
 
 #: app/scripts/lib/strings.js:39
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "Confirmar esti aniciu de sesión"
 
 #: app/scripts/lib/strings.js:40
 #: app/scripts/templates/complete_reset_password.mustache:2
@@ -919,29 +922,32 @@ msgstr "Zarrar sesión"
 #: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
-msgstr ""
+msgstr "Siguir en %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr ""
+"Migra los tos datos sincronizaos aniciando sesión na&nbsp;to cuenta de "
+"Firefox."
 
 #: app/scripts/templates/sign_in.mustache:12
 #: app/scripts/templates/sign_in.mustache:15
 msgid "Use a different account"
-msgstr ""
+msgstr "Usar una cuenta diferente"
 
 #: app/scripts/templates/sign_in.mustache:26
 msgid "Create an account"
-msgstr ""
+msgstr "Crear una cuenta"
 
 #: app/scripts/templates/sign_up.mustache:1
 #: app/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
-msgstr ""
+msgstr "Crear una cuenta de Firefox"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr ""
+"Migra los tos datos sincronizaos creando una&nbsp;cuenta de Firefox nueva."
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid ""
@@ -1005,7 +1011,7 @@ msgstr "Fecho"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
-msgstr ""
+msgstr "Posiciona y voltia la semeya como precises"
 
 #: app/scripts/templates/settings/avatar_gravatar.mustache:2
 msgid "Save"
@@ -1016,6 +1022,8 @@ msgid ""
 "Once you're finished, use your new password to sign in on all of your "
 "devices."
 msgstr ""
+"Namái finar, usa la to contraseña nueva p'aniciar sesión en tolos tos "
+"preseos."
 
 #: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
@@ -1072,11 +1080,11 @@ msgstr "Embaxo pues xestionar los to preseos."
 
 #: app/scripts/templates/settings/devices.mustache:6
 msgid "(current)"
-msgstr ""
+msgstr "(actual)"
 
 #: app/scripts/templates/settings/devices.mustache:8
 msgid "Disconnect"
-msgstr ""
+msgstr "Desconeutar"
 
 #: app/scripts/templates/settings/devices.mustache:10
 msgid "Don't see all your devices?"
@@ -1100,7 +1108,7 @@ msgstr "¿Qué edá tienes?"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Aniciar sesión en Sync"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid ""

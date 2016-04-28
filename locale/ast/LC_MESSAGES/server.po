@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-14 19:52+0000\n"
-"PO-Revision-Date: 2016-04-27 22:51+0000\n"
+"PO-Revision-Date: 2016-04-28 00:08+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -44,6 +44,9 @@ msgid ""
 "make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
 "Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
 msgstr ""
+"Coneutesti con ésitu'l to primer preséu a la cuenta de Firefox. P'aprovechar"
+" al máximu Sync, coneuta <a href='%(androidUrl)s'>Firefox p'Android</a> o <a"
+" href='%(iosUrl)s'>Firefox pa iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -333,6 +336,9 @@ msgid ""
 "account-level activities, please click the link to re-verify your account "
 "now."
 msgstr ""
+"Por razones de seguranza, pesllóse la to cuenta de Firefox. Pa facer "
+"actividaes a nivel de cuenta, primi agora nel enllaz pa verificar de nueves "
+"la to cuenta, por favor."
 
 #: templates/unlock.html:4
 msgid "Verify account"
@@ -357,6 +363,10 @@ msgid ""
 " on any device connected to it. Simply confirm this email address to "
 "activate your account."
 msgstr ""
+"Hai dellos díes creasti una cuenta de Firefox pero enxamás nun la "
+"verifiquesti. Una cuenta verificada déxate acceder a les tos llingüetes, "
+"marcadores, contraseñes ya hisotria en cualesquier preséu coneutáu con ello."
+" Namái confirma esta direición p'activar la to cuenta."
 
 #: templates/verification_reminder_first.html:4
 #: templates/verification_reminder_second.html:4 templates/verify.html:4
@@ -394,6 +404,11 @@ msgid ""
 "of them. Confirm this email address to activate your account and let us know"
 " you're okay."
 msgstr ""
+"Hai una selmana creasti una cuenta de Firefox pero enxamás nun la "
+"verifiquesti. Tábemos esmolecíos. Firefox ta disponible pa Linux, Mac, "
+"Windows, Android ya iOS. Pues sincronizar les tos contraseñes, marcadores ya"
+" historia de Firefox pente toos ellos. Confirma esta direición de corréu "
+"p'activar la to cuenta y déxamos saber que tas bien."
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
@@ -405,7 +420,7 @@ msgstr "Activa la to cuenta confirmando esta direición de corréu, por favor."
 
 #: mailer.js:168
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "Verifica la to cuenta de Firefox"
 
 #: mailer.js:201
 msgid "Reset your Firefox Account password"
@@ -485,7 +500,7 @@ msgstr "Fallu 500"
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
-msgstr ""
+msgstr "Coima, equí daqué foi mal. Fuimos avisaos y trabayaremos nuna igua."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -500,6 +515,8 @@ msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
 msgstr ""
+"Aguaño tamos so y tamos trabayando pa restaurar el sistema al estáu normal "
+"tan ceo como seya posible."
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:5
