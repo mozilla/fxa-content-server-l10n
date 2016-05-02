@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-14 19:52+0000\n"
+"POT-Creation-Date: 2016-05-02 15:45+0000\n"
 "PO-Revision-Date: 2016-03-13 15:23+0000\n"
 "Last-Translator: Amanpreet Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,12 +16,12 @@ msgstr ""
 "X-POOTLE-MTIME: 1444737687.0\n"
 
 #: app/scripts/views/complete_reset_password.js:132
-#: app/scripts/views/complete_sign_up.js:102 app/scripts/views/confirm.js:119
+#: app/scripts/views/complete_sign_up.js:102 app/scripts/views/confirm.js:112
 #: app/scripts/views/confirm_reset_password.js:184
 msgid "Account verified successfully"
 msgstr "ਖਾਤਾ ਕਾਮਯਾਬੀ ਨਾਲ ਜਾਂਚਿਆ"
 
-#: app/scripts/views/confirm_account_unlock.js:89
+#: app/scripts/views/confirm_account_unlock.js:90
 msgid "Account unlocked, please try again"
 msgstr "ਖਾਤਾ ਅਣ-ਲਾਕ ਹੈ, ਬਾਅਦ 'ਚ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
 
@@ -82,15 +82,15 @@ msgstr "ਖਾਤੇ ਦੀ ਜਾਂਚ ਪੂਰੀ ਹੋਈ"
 msgid "You are now ready to use %(serviceName)s"
 msgstr "ਤੁਸੀਂ ਹੁਣ %(serviceName)s ਵਰਤਣ ਲਈ ਤਿਆਰ ਹੋ"
 
-#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:143
+#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:144
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "ਅਣਜਾਣ ਖਾਤਾ। <a href=\"/signup\">ਮੈਂਬਰ ਬਣੋ</a>"
 
-#: app/scripts/views/sign_up.js:67
+#: app/scripts/views/sign_up.js:68
 msgid "Account no longer exists. Recreate it?"
 msgstr ""
 
-#: app/scripts/views/sign_up.js:397
+#: app/scripts/views/sign_up.js:398
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "ਖਾਤਾ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ। <a href=\"/signin\">ਸਾਈਨ ਇਨ</a>"
 
@@ -361,6 +361,18 @@ msgstr "ਕੋਈ ਗਰਵਤਾਰ ਨਹੀਂ ਲੱਭਿਆ"
 msgid "Account no longer exists."
 msgstr ""
 
+#: app/scripts/lib/auth-errors.js:262
+msgid "Invalid property in resume token: %(property)s"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:266
+msgid "Missing property in resume token: %(property)s"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:270
+msgid "Invalid data-flow-begin attribute"
+msgstr ""
+
 #: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr "ਕੀ ਤੁਹਾਡਾ ਭਾਵ <span tabindex=\"1\">%(domain)s</span> ਤੋਂ ਸੀ?"
@@ -579,9 +591,8 @@ msgid "Add-ons and Preferences do not currently sync on mobile devices."
 msgstr "ਐਡ-ਆਨ ਅਤੇ ਮੇਰੀ ਪਸੰਦ ਇਸ ਵੇਲੇ ਮੋਬਾਈਲ ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਸਿੰਕ ਨਹੀਂ ਹੁੰਦੇ ਹਨ।"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
-#: app/scripts/templates/sign_up.mustache:24
-msgid "Sign up"
-msgstr "ਸਾਈਨ ਅੱਪ"
+msgid "Save settings"
+msgstr ""
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
@@ -928,6 +939,10 @@ msgstr "ਵੱਖਰੇ ਈਮੇਲ ਨਾਲ ਖਾਤਾ ਹੈ? <a href=\"%(
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "ਮੋਜ਼ੀਲਾ ਤੇ ਫਾਇਰਫਾਕਸ ਬਾਰੇ ਨਵੀਆਂ ਖ਼ਬਰਾਂ ਲਵੋ।"
 
+#: app/scripts/templates/sign_up.mustache:24
+msgid "Create account"
+msgstr ""
+
 #: app/scripts/templates/sign_up.mustache:29
 msgid "Have an account? Sign in."
 msgstr "ਖਾਤਾ ਹੈ? ਸਾਈਨ ਇਨ ਕਰੋ।"
@@ -1087,6 +1102,9 @@ msgstr "OpenID ਵਰਤੋ"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ"
+
+#~ msgid "Sign up"
+#~ msgstr "ਸਾਈਨ ਅੱਪ"
 
 #~ msgid "/force_auth requires an email"
 #~ msgstr "/force_auth ਨੂੰ ਈਮੇਲ ਦੀ ਲੋੜ ਹੈ"

@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-14 19:52+0000\n"
-"PO-Revision-Date: 2016-03-27 15:47+0000\n"
+"POT-Creation-Date: 2016-05-02 15:45+0000\n"
+"PO-Revision-Date: 2016-04-16 09:59+0000\n"
 "Last-Translator: Vanja Tumbas <tumbas93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #: templates/_pending.txt:1 templates/verification_reminder_second.html:2
 #: templates/verification_reminder_second.txt:1
-#: templates/verify_reminder_second.html:2 mailer.js:416
+#: templates/verify_reminder_second.html:2 mailer.js:458
 msgid "Still there?"
 msgstr "Još uvek ste ovde?"
 
@@ -64,7 +64,7 @@ msgstr "Prijavi se na Sync"
 #: templates/suspicious_location.html:1 templates/unlock.html:1
 #: templates/verification_reminder_first.html:1
 #: templates/verification_reminder_second.html:1 templates/verify.html:1
-#: templates/verify_reminder_first.html:1
+#: templates/verify_login.html:1 templates/verify_reminder_first.html:1
 #: templates/verify_reminder_second.html:1
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -76,7 +76,7 @@ msgid "Firefox Accounts"
 msgstr "Firefox nalozi"
 
 #: templates/new_device_login.html:2 templates/new_device_login.txt:1
-#: mailer.js:338
+#: templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:380
 msgid "New sign-in to Firefox"
 msgstr "Nova Firefox prijava"
 
@@ -220,19 +220,19 @@ msgstr ""
 #: templates/password_reset_required.txt:7
 #: templates/suspicious_location.html:12 templates/suspicious_location.txt:11
 msgid "Best,"
-msgstr ""
+msgstr "Najbolje,"
 
 #: templates/password_reset_required.html:9
 #: templates/password_reset_required.txt:8
 #: templates/suspicious_location.html:13 templates/suspicious_location.txt:12
 msgid "The Firefox Accounts team"
-msgstr ""
+msgstr "Tim Firefox naloga"
 
 #: templates/password_reset_required.html:10
 #: templates/password_reset_required.txt:9
 #: templates/suspicious_location.html:14 templates/suspicious_location.txt:13
 msgid "Mozilla Privacy Policy"
-msgstr ""
+msgstr "Mozilla polisa privatnosti"
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
@@ -241,7 +241,7 @@ msgstr "Nalog je potvrđen!"
 #: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5
 #: templates/verification_reminder_first.html:5
 #: templates/verification_reminder_second.html:5 templates/verify.html:5
-#: templates/verify_reminder_first.html:5
+#: templates/verify_login.html:5 templates/verify_reminder_first.html:5
 #: templates/verify_reminder_second.html:5
 msgid "Alternatively:"
 msgstr "Alternativno:"
@@ -286,15 +286,15 @@ msgstr ""
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
-msgstr ""
+msgstr "Datum i vreme:"
 
 #: templates/suspicious_location.html:4 templates/suspicious_location.txt:3
 msgid "Device:"
-msgstr ""
+msgstr "Uređaj:"
 
 #: templates/suspicious_location.html:5 templates/suspicious_location.txt:4
 msgid "Location:"
-msgstr ""
+msgstr "Lokacija:"
 
 #: templates/suspicious_location.html:6 templates/suspicious_location.txt:5
 msgid "If you don’t recognize the activity above:"
@@ -333,7 +333,7 @@ msgstr "Potvrdite nalog:"
 
 #: templates/verification_reminder_first.html:2
 #: templates/verification_reminder_first.txt:1
-#: templates/verify_reminder_first.html:2 mailer.js:413
+#: templates/verify_reminder_first.html:2 mailer.js:455
 msgid "Hello again."
 msgstr "Pozdrav."
 
@@ -401,58 +401,63 @@ msgstr "Dobrodošli!"
 msgid "Please activate your account by confirming this email address."
 msgstr "Aktivirajte nalog tako što ćete potvrditi ovu adresu e-pošte."
 
-#: mailer.js:168
+#: templates/verify_login.html:3 templates/verify_login.txt:2
+msgid ""
+"For added security, please confirm this sign-in to begin syncing with "
+"%(device)s."
+msgstr ""
+
+#: templates/verify_login.html:4 templates/verify_login.txt:3
+msgid "Confirm sign-in"
+msgstr ""
+
+#: templates/verify_login.html:6
+msgid ""
+"If you suspect that someone is trying to gain access to your account, <a "
+"%(supportLinkAttributes)s>please report it to us</a>."
+msgstr ""
+
+#: templates/verify_login.txt:4
+msgid ""
+"If you suspect that someone is trying to gain access to your account, please "
+"report it to us."
+msgstr ""
+
+#: mailer.js:171
 msgid "Verify your Firefox Account"
 msgstr "Potvrdite Firefox nalog"
 
-#: mailer.js:201
+#: mailer.js:210
+msgid "Confirm new sign-in to Firefox"
+msgstr ""
+
+#: mailer.js:243
 msgid "Reset your Firefox Account password"
 msgstr "Resetujte lozinku Firefox naloga"
 
-#: mailer.js:236
+#: mailer.js:278
 msgid "Re-verify your Firefox Account"
 msgstr "Ponovo potvrdite Firefox nalog"
 
-#: mailer.js:269
+#: mailer.js:311
 msgid "Your Firefox Account password has been changed"
 msgstr "Lozinka Firefox naloga je promenjena"
 
-#: mailer.js:291
+#: mailer.js:333
 msgid "Your Firefox Account password has been reset"
 msgstr "Lozinka Firefox naloga je resetovana"
 
-#: mailer.js:313
+#: mailer.js:355
 msgid "Firefox Account password reset required"
 msgstr ""
 
-#: mailer.js:366
+#: mailer.js:408
 msgid "Firefox Account Verified"
 msgstr "Firefox nalog potvrđen"
 
-#: mailer.js:401
+#: mailer.js:443
 msgid "Suspicious activity with your Firefox Account"
 msgstr ""
-
-#: config.js:146 config.js:151
-msgid "env"
-msgstr "env"
-
-#: config.js:159 config.js:160 config.js:161 config.js:162 config.js:163
-#: config.js:164
-msgid "contentServer.url"
-msgstr "contentServer.url"
-
-#: log.js:7
-msgid "logging"
-msgstr "beleženje"
-
-#: lib/db.js:21
-msgid "/"
-msgstr "/"
-
-#: lib/db.js:34
-msgid "/__heartbeat__"
-msgstr "/__heartbeat__"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
@@ -531,6 +536,21 @@ msgstr "Firefox cloud servisi"
 #: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Uslovi korišćenja"
+
+#~ msgid "env"
+#~ msgstr "env"
+
+#~ msgid "contentServer.url"
+#~ msgstr "contentServer.url"
+
+#~ msgid "logging"
+#~ msgstr "beleženje"
+
+#~ msgid "/"
+#~ msgstr "/"
+
+#~ msgid "/__heartbeat__"
+#~ msgstr "/__heartbeat__"
 
 #~ msgid ""
 #~ "A device began syncing with the devices connected to your Firefox Account."

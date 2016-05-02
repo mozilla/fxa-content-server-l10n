@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-14 19:52+0000\n"
+"POT-Creation-Date: 2016-05-02 15:45+0000\n"
 "PO-Revision-Date: 2015-03-07 12:55+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: FULAH LOCALIZATION\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: templates/_pending.txt:1 templates/verification_reminder_second.html:2
 #: templates/verification_reminder_second.txt:1
-#: templates/verify_reminder_second.html:2 mailer.js:416
+#: templates/verify_reminder_second.html:2 mailer.js:458
 msgid "Still there?"
 msgstr ""
 
@@ -55,7 +55,7 @@ msgstr ""
 #: templates/suspicious_location.html:1 templates/unlock.html:1
 #: templates/verification_reminder_first.html:1
 #: templates/verification_reminder_second.html:1 templates/verify.html:1
-#: templates/verify_reminder_first.html:1
+#: templates/verify_login.html:1 templates/verify_reminder_first.html:1
 #: templates/verify_reminder_second.html:1
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -67,7 +67,7 @@ msgid "Firefox Accounts"
 msgstr "Konte Firefox"
 
 #: templates/new_device_login.html:2 templates/new_device_login.txt:1
-#: mailer.js:338
+#: templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:380
 msgid "New sign-in to Firefox"
 msgstr ""
 
@@ -221,7 +221,7 @@ msgstr ""
 #: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5
 #: templates/verification_reminder_first.html:5
 #: templates/verification_reminder_second.html:5 templates/verify.html:5
-#: templates/verify_reminder_first.html:5
+#: templates/verify_login.html:5 templates/verify_reminder_first.html:5
 #: templates/verify_reminder_second.html:5
 msgid "Alternatively:"
 msgstr ""
@@ -311,7 +311,7 @@ msgstr "Ƴeewto iimeel:"
 
 #: templates/verification_reminder_first.html:2
 #: templates/verification_reminder_first.txt:1
-#: templates/verify_reminder_first.html:2 mailer.js:413
+#: templates/verify_reminder_first.html:2 mailer.js:455
 msgid "Hello again."
 msgstr ""
 
@@ -370,57 +370,62 @@ msgstr ""
 msgid "Please activate your account by confirming this email address."
 msgstr ""
 
-#: mailer.js:168
+#: templates/verify_login.html:3 templates/verify_login.txt:2
+msgid ""
+"For added security, please confirm this sign-in to begin syncing with "
+"%(device)s."
+msgstr ""
+
+#: templates/verify_login.html:4 templates/verify_login.txt:3
+msgid "Confirm sign-in"
+msgstr ""
+
+#: templates/verify_login.html:6
+msgid ""
+"If you suspect that someone is trying to gain access to your account, <a "
+"%(supportLinkAttributes)s>please report it to us</a>."
+msgstr ""
+
+#: templates/verify_login.txt:4
+msgid ""
+"If you suspect that someone is trying to gain access to your account, please "
+"report it to us."
+msgstr ""
+
+#: mailer.js:171
 msgid "Verify your Firefox Account"
 msgstr ""
 
-#: mailer.js:201
+#: mailer.js:210
+msgid "Confirm new sign-in to Firefox"
+msgstr ""
+
+#: mailer.js:243
 msgid "Reset your Firefox Account password"
 msgstr ""
 
-#: mailer.js:236
+#: mailer.js:278
 msgid "Re-verify your Firefox Account"
 msgstr ""
 
-#: mailer.js:269
+#: mailer.js:311
 msgid "Your Firefox Account password has been changed"
 msgstr ""
 
-#: mailer.js:291
+#: mailer.js:333
 msgid "Your Firefox Account password has been reset"
 msgstr ""
 
-#: mailer.js:313
+#: mailer.js:355
 msgid "Firefox Account password reset required"
 msgstr ""
 
-#: mailer.js:366
+#: mailer.js:408
 msgid "Firefox Account Verified"
 msgstr ""
 
-#: mailer.js:401
+#: mailer.js:443
 msgid "Suspicious activity with your Firefox Account"
-msgstr ""
-
-#: config.js:146 config.js:151
-msgid "env"
-msgstr ""
-
-#: config.js:159 config.js:160 config.js:161 config.js:162 config.js:163
-#: config.js:164
-msgid "contentServer.url"
-msgstr ""
-
-#: log.js:7
-msgid "logging"
-msgstr ""
-
-#: lib/db.js:21
-msgid "/"
-msgstr ""
-
-#: lib/db.js:34
-msgid "/__heartbeat__"
 msgstr ""
 
 #: server/templates/pages/src/400.html:2
