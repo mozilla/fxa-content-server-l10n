@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-03-21 03:21+0000\n"
+"PO-Revision-Date: 2016-05-02 16:19+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -26,8 +26,8 @@ msgid ""
 "A while ago you created a Firefox Account, but never verified it. Click the "
 "link below to activate your account."
 msgstr ""
-"あなたはしばらく前に Firefox アカウントを作成されましたが、一度も認証を済ませ"
-"ていません。以下のリンクをクリックしてアカウントを有効化してください。"
+"あなたはしばらく前に Firefox "
+"アカウントを作成されましたが、一度も認証を済ませていません。以下のリンクをクリックしてアカウントを有効化してください。"
 
 #: templates/_pending.txt:3 templates/post_verify.html:3
 msgid ""
@@ -35,9 +35,8 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for <a "
 "href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"あなたの Firefox アカウントへ最初の端末が接続されました。今後、<a "
-"href='%(androidUrl)s'>Android 版</a> や <a href='%(iosUrl)s'>iOS 版</a> の "
-"Firefox など他の端末から Sync へログインできます。"
+"あなたの Firefox アカウントへ最初の端末が接続されました。今後、<a href='%(androidUrl)s'>Android 版</a> や"
+" <a href='%(iosUrl)s'>iOS 版</a> の Firefox など他の端末から Sync へログインできます。"
 
 #: templates/_pending.txt:4
 msgid ""
@@ -45,9 +44,9 @@ msgid ""
 "make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
 "Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
 msgstr ""
-"あなたの Firefox アカウントへ最初の端末が接続されました。Sync を最大限活用す"
-"るには、<a href='%(androidUrl)s'>Android 版 Firefox</a> か <a "
-"href='%(iosUrl)s'>iOS 版 Firefox</a> を接続してください。"
+"あなたの Firefox アカウントへ最初の端末が接続されました。Sync を最大限活用するには、<a "
+"href='%(androidUrl)s'>Android 版 Firefox</a> か <a href='%(iosUrl)s'>iOS 版 "
+"Firefox</a> を接続してください。"
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -97,17 +96,15 @@ msgstr ""
 msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
-msgstr ""
-"詳しい情報は <a %(supportLinkAttributes)s>Mozilla サポート</a> をご覧くださ"
-"い。"
+msgstr "詳しい情報は <a %(supportLinkAttributes)s>Mozilla サポート</a> をご覧ください。"
 
 #: templates/new_device_login.txt:2
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
 "Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
-"これは自動通知メールです。もしあなたが新たな端末を Firefox アカウントに追加し"
-"ていない場合は、今すぐ %(resetLink)s でパスワードを変更してください。"
+"これは自動通知メールです。もしあなたが新たな端末を Firefox アカウントに追加していない場合は、今すぐ %(resetLink)s "
+"でパスワードを変更してください。"
 
 #: templates/new_device_login.txt:3 templates/password_changed.txt:4
 #: templates/password_reset.txt:5 templates/post_verify.txt:5
@@ -130,8 +127,8 @@ msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
-"これは自動通知メールです。もしあなたが Firefox アカウントのパスワードを変更し"
-"ていない場合は、今すぐ %(resetLink)s でパスワードを変更してください。"
+"これは自動通知メールです。もしあなたが Firefox アカウントのパスワードを変更していない場合は、今すぐ %(resetLink)s "
+"でパスワードを変更してください。"
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
@@ -142,9 +139,8 @@ msgid ""
 "Your Firefox Account password has changed. If you did not change it, please "
 "<a href='%(resetLink)s'>reset your password</a> now."
 msgstr ""
-"あなたの Firefox アカウントパスワードは変更されています。もしあなたが変更した"
-"のでなければ、今すぐ <a href='%(resetLink)s'>パスワードをリセットしてください"
-"</a>。"
+"あなたの Firefox アカウントパスワードは変更されています。もしあなたが変更したのでなければ、今すぐ <a "
+"href='%(resetLink)s'>パスワードをリセットしてください</a>。"
 
 #: templates/password_reset.html:4 templates/post_verify.html:6
 #: templates/post_verify.txt:4 templates/reset.html:7 templates/reset.txt:5
@@ -158,9 +154,7 @@ msgstr ""
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
-msgstr ""
-"これは自動で配信されたメールです。心当たりがない場合は、何も行わないでくださ"
-"い。"
+msgstr "これは自動で配信されたメールです。心当たりがない場合は、何も行わないでください。"
 
 #: templates/password_reset.txt:1
 msgid "Password reset successfully"
@@ -172,29 +166,25 @@ msgstr "あなたの Firefox アカウントのパスワードリセットが完
 
 #: templates/password_reset.txt:4
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox"
+" Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
-"これは自動通知メールです。もしあなたが Firefox アカウントのパスワードをリセッ"
-"トしていない場合は、今すぐ %(resetLink)s でパスワードを変更してください。"
+"これは自動通知メールです。もしあなたが Firefox アカウントのパスワードをリセットしていない場合は、今すぐ %(resetLink)s "
+"でパスワードを変更してください。"
 
 #: templates/password_reset_required.html:2
 #: templates/password_reset_required.txt:1
 msgid ""
 "We detected suspicious activity on your Firefox Account. Your account may "
 "have been compromised."
-msgstr ""
-"あなたの Firefox アカウントで不審なアクティビティが検出されました。アカウント"
-"が危険にさらされている可能性があります。"
+msgstr "あなたの Firefox アカウントで不審なアクティビティが検出されました。アカウントが危険にさらされている可能性があります。"
 
 #: templates/password_reset_required.html:3
 #: templates/password_reset_required.txt:2
 msgid ""
 "To prevent further unauthorized access to your Firefox Account, we’ve reset "
 "your password and are notifying you as a precaution."
-msgstr ""
-"今後 Firefox アカウントへの不正アクセスを防ぐためにパスワードがリセットされま"
-"したので、念のためお知らせします。"
+msgstr "今後 Firefox アカウントへの不正アクセスを防ぐためにパスワードがリセットされましたので、念のためお知らせします。"
 
 #: templates/password_reset_required.html:4
 #: templates/password_reset_required.txt:3
@@ -202,27 +192,25 @@ msgid "What should you do?"
 msgstr "やるべきこと"
 
 #: templates/password_reset_required.html:5
-#: templates/password_reset_required.txt:4 templates/suspicious_location.html:7
-#: templates/suspicious_location.txt:6
+#: templates/password_reset_required.txt:4
+#: templates/suspicious_location.html:7 templates/suspicious_location.txt:6
 msgid "First, change your Firefox Account password."
 msgstr "まず、Firefox アカウントのパスワードを変更します。"
 
 #: templates/password_reset_required.html:6
-#: templates/password_reset_required.txt:5 templates/suspicious_location.html:8
-#: templates/suspicious_location.txt:7
+#: templates/password_reset_required.txt:5
+#: templates/suspicious_location.html:8 templates/suspicious_location.txt:7
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those "
 "passwords as well. Attackers may have access to those passwords, so you "
 "should check those accounts for suspicious activity."
 msgstr ""
-"次に、Firefox がウェブサイトのパスワードを保存している場合は、これらのパス"
-"ワードも変更してください。攻撃者はこれらのパスワードにもアクセスできる可能性"
-"があるので、これらのアカウントで不審なアクティビティがないか確認してくださ"
-"い。"
+"次に、Firefox "
+"がウェブサイトのパスワードを保存している場合は、これらのパスワードも変更してください。攻撃者はこれらのパスワードにもアクセスできる可能性があるので、これらのアカウントで不審なアクティビティがないか確認してください。"
 
 #: templates/password_reset_required.html:7
-#: templates/password_reset_required.txt:6 templates/suspicious_location.html:9
-#: templates/suspicious_location.txt:8
+#: templates/password_reset_required.txt:6
+#: templates/suspicious_location.html:9 templates/suspicious_location.txt:8
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "Firefox がどのパスワードを保存しているか確認する方法はこちらです。"
 
@@ -262,8 +250,8 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for "
 "Android and iOS."
 msgstr ""
-"あなたの Firefox アカウントへ最初の端末が接続されました。今後、Android 版 や "
-"iOS 版 の Firefox など他の端末から Sync へログインできます。"
+"あなたの Firefox アカウントへ最初の端末が接続されました。今後、Android 版 や iOS 版 の Firefox など他の端末から "
+"Sync へログインできます。"
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
@@ -275,11 +263,9 @@ msgstr "パスワードを忘れた場合"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid ""
-"Click the button within the next hour to set a new password for your Firefox "
-"Account."
-msgstr ""
-"1 時間以内にボタンをクリックして、Firefox アカウントの新しいパスワードを設定"
-"してください。"
+"Click the button within the next hour to set a new password for your Firefox"
+" Account."
+msgstr "1 時間以内にボタンをクリックして、Firefox アカウントの新しいパスワードを設定してください。"
 
 #: templates/reset.html:4 templates/reset.txt:3
 msgid "Remember password? Sign in."
@@ -295,9 +281,8 @@ msgid ""
 "in the last 60 days? If you don’t recognize these locations, someone else "
 "may have accessed your Firefox Account."
 msgstr ""
-"過去60日以内に下記の場所からご自身のFirefoxアカウントにサインインしましたか？"
-"あなたがこれらの場所に覚えがない場合は、他の誰かがあなたの Firefox アカウント"
-"にアクセスした可能性があります。"
+"過去60日以内に下記の場所からご自身のFirefoxアカウントにサインインしましたか？あなたがこれらの場所に覚えがない場合は、他の誰かがあなたの "
+"Firefox アカウントにアクセスした可能性があります。"
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
@@ -323,9 +308,7 @@ msgstr "このメールを受信した理由"
 msgid ""
 "We recently noticed Firefox Account logins from unusual locations. We’re "
 "notifying you as a precaution."
-msgstr ""
-"通常とは異なる場所からの、Firefox アカウントへのログインが最近検知されたの"
-"で、念のためお知らせています。"
+msgstr "通常とは異なる場所からの、Firefox アカウントへのログインが最近検知されたので、念のためお知らせています。"
 
 #: templates/unlock.html:2
 msgid "Account activity notice"
@@ -337,9 +320,8 @@ msgid ""
 "account-level activities, please click the link to re-verify your account "
 "now."
 msgstr ""
-"セキュリティ上の理由から、あなたの Firefox アカウントは停止されています。アカ"
-"ウントレベルの操作を行うには、今すぐアカウントの再認証リンクをクリックしてく"
-"ださい。"
+"セキュリティ上の理由から、あなたの Firefox "
+"アカウントは停止されています。アカウントレベルの操作を行うには、今すぐアカウントの再認証リンクをクリックしてください。"
 
 #: templates/unlock.html:4
 msgid "Verify account"
@@ -360,14 +342,12 @@ msgstr "お帰りなさい。"
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history "
-"on any device connected to it. Simply confirm this email address to activate "
-"your account."
+"verified account lets you access your tabs, bookmarks, passwords and history"
+" on any device connected to it. Simply confirm this email address to "
+"activate your account."
 msgstr ""
-"あなたは数日前に Firefox アカウントを作成されましたが、まだ認証を済ませていま"
-"せん。アカウントの認証が完了すると、接続されているあらゆる端末から、タブや"
-"ブックマーク、パスワード、履歴にアクセスできるようになります。アカウントはこ"
-"のメールアドレスを確認するだけで有効化されます。"
+"あなたは数日前に Firefox "
+"アカウントを作成されましたが、まだ認証を済ませていません。アカウントの認証が完了すると、接続されているあらゆる端末から、タブやブックマーク、パスワード、履歴にアクセスできるようになります。アカウントはこのメールアドレスを確認するだけで有効化されます。"
 
 #: templates/verification_reminder_first.html:4
 #: templates/verification_reminder_second.html:4 templates/verify.html:4
@@ -400,16 +380,14 @@ msgstr "今すぐ有効化:"
 #: templates/verify_reminder_second.html:3
 msgid ""
 "A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
-"iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know "
-"you're okay."
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and"
+" iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know"
+" you're okay."
 msgstr ""
-"あなたは数週間前に Firefox アカウントを作成されましたが、まだ認証を済ませてい"
-"ません。私たちはあなたのことが気に掛かっています。Firefox は、Windows、Mac、"
-"Linux、Android、iOS に対応しています。Firefox のパスワードやブックマーク、履"
-"歴をそれらすべての端末で同期できます。このメールアドレスを確認してアカウント"
-"を有効化し、私たちにあなたの無事を知らせてください。"
+"あなたは数週間前に Firefox アカウントを作成されましたが、まだ認証を済ませていません。私たちはあなたのことが気に掛かっています。Firefox "
+"は、Windows、Mac、Linux、Android、iOS に対応しています。Firefox "
+"のパスワードやブックマーク、履歴をそれらすべての端末で同期できます。このメールアドレスを確認してアカウントを有効化し、私たちにあなたの無事を知らせてください。"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
@@ -423,23 +401,25 @@ msgstr "このメールアドレスを確認してアカウントを有効化し
 msgid ""
 "For added security, please confirm this sign-in to begin syncing with "
 "%(device)s."
-msgstr ""
+msgstr "セキュリティ強化のため、%(device)s との同期を開始するにはこのログインを確認してください。"
 
 #: templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "ログインを確認"
 
 #: templates/verify_login.html:6
 msgid ""
 "If you suspect that someone is trying to gain access to your account, <a "
 "%(supportLinkAttributes)s>please report it to us</a>."
 msgstr ""
+"誰かがあなたのアカウントへのアクセス取得を試みていると疑われる場合は、<a "
+"%(supportLinkAttributes)s>報告をお願いします</a>。"
 
 #: templates/verify_login.txt:4
 msgid ""
-"If you suspect that someone is trying to gain access to your account, please "
-"report it to us."
-msgstr ""
+"If you suspect that someone is trying to gain access to your account, please"
+" report it to us."
+msgstr "誰かがあなたのアカウントへのアクセス取得を試みていると疑われる場合は、報告をお願いします。"
 
 #: mailer.js:171
 msgid "Verify your Firefox Account"
@@ -447,7 +427,7 @@ msgstr "Firefox アカウントを認証"
 
 #: mailer.js:210
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
+msgstr "Firefox への新規ログインを確認"
 
 #: mailer.js:243
 msgid "Reset your Firefox Account password"
@@ -489,9 +469,7 @@ msgstr "ページが見つかりませんでした"
 msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
-msgstr ""
-"リクエストされたページは見つかりませんでした。サーバ管理者が通知を受け取り、"
-"サイト内でリンク切れがある場合は修正します。"
+msgstr "リクエストされたページは見つかりませんでした。サーバ管理者が通知を受け取り、サイト内でリンク切れがある場合は修正します。"
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
@@ -506,9 +484,7 @@ msgstr "500 エラー"
 msgid ""
 "Oh dear, something went wrong there. We've been notified and will get "
 "working on a fix."
-msgstr ""
-"申し訳ありませんが、何か問題が発生しました。サーバ管理者が通知を受け取り、修"
-"正に取りかかります。"
+msgstr "申し訳ありませんが、何か問題が発生しました。サーバ管理者が通知を受け取り、修正に取りかかります。"
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -522,20 +498,18 @@ msgstr "サーバがビジーです。また後でお試しください"
 msgid ""
 "We are currently under heavy strain and are working to return the system to "
 "normal as soon as possible."
-msgstr ""
-"現在サーバに過度な負担が掛かっており、できる限り早くシステムを正常な状態に戻"
-"すべく取り組んでいます。"
+msgstr "現在サーバに過度な負担が掛かっており、できる限り早くシステムを正常な状態に戻すべく取り組んでいます。"
 
 #: server/templates/pages/src/index.html:2
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+"You are using an <strong>outdated</strong> browser. Please <a "
+"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+"experience."
 msgstr ""
-"あなたは <strong>古い</strong> ブラウザをお使いです。ユーザ体験を向上させるた"
-"めに<a href=\"http://browsehappy.com/\">ブラウザをアップグレードしてください"
-"</a>。"
+"あなたは <strong>古い</strong> ブラウザをお使いです。ユーザ体験を向上させるために<a "
+"href=\"http://browsehappy.com/\">ブラウザをアップグレードしてください</a>。"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -573,16 +547,13 @@ msgstr "利用規約"
 
 #~ msgid ""
 #~ "A device began syncing with the devices connected to your Firefox Account."
-#~ msgstr ""
-#~ "ある端末があなたの Firefox アカウントへ接続されている端末と同期を開始しま"
-#~ "した。"
+#~ msgstr "ある端末があなたの Firefox アカウントへ接続されている端末と同期を開始しました。"
 
 #~ msgid "Are you sure?"
 #~ msgstr "本当にリセットしますか？"
 
 #~ msgid "Please confirm that you'd like to reset the password for %(email)s."
-#~ msgstr ""
-#~ "%(email)s のパスワードをリセットしても良いかどうか確認してください。"
+#~ msgstr "%(email)s のパスワードをリセットしても良いかどうか確認してください。"
 
 #~ msgid "Reset password now"
 #~ msgstr "今すぐパスワードをリセット"
@@ -594,8 +565,7 @@ msgstr "利用規約"
 #~ "Recently you created a Firefox Account, but never verified it. Please "
 #~ "activate your account by confirming this email address."
 #~ msgstr ""
-#~ "あなたは最近 Firefox アカウントを作成されましたが、一度も認証を済ませてい"
-#~ "ません。このメールアドレスを確認してアカウントを有効化してください。"
+#~ "あなたは最近 Firefox アカウントを作成されましたが、一度も認証を済ませていません。このメールアドレスを確認してアカウントを有効化してください。"
 
 #~ msgid "Activate Now:"
 #~ msgstr "今すぐ有効化:"
@@ -604,8 +574,7 @@ msgstr "利用規約"
 #~ "This is an automated email; if you did not authorize this action, then <a "
 #~ "%(passwordChangeUrl)s>please change your password.</a>"
 #~ msgstr ""
-#~ "これは自動送信メールです。この操作を許可していない場合は、<a "
-#~ "%(passwordChangeUrl)s>パスワードを変更してください</a>。"
+#~ "これは自動送信メールです。この操作を許可していない場合は、<a %(passwordChangeUrl)s>パスワードを変更してください</a>。"
 
 #~ msgid "See here for instructions."
 #~ msgstr "操作方法はこちらで確認できます。"
