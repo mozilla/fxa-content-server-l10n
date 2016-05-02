@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-02 18:42+0000\n"
+"PO-Revision-Date: 2016-05-02 19:49+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -374,11 +374,11 @@ msgstr "Konto existiert nicht mehr."
 
 #: app/scripts/lib/auth-errors.js:262
 msgid "Invalid property in resume token: %(property)s"
-msgstr "Ungültige Eingenschaft in Fortsetzungsschlüssel: %(property)s"
+msgstr "Ungültige Eigenschaft im Fortsetzungsschlüssel: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:266
 msgid "Missing property in resume token: %(property)s"
-msgstr "Fehlende Eingenschaft in Fortsetzungsschlüssel: %(property)s"
+msgstr "Fehlende Eigenschaft im Fortsetzungsschlüssel: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:270
 msgid "Invalid data-flow-begin attribute"
