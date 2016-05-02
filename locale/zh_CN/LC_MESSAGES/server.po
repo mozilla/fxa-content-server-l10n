@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-14 19:52+0000\n"
+"POT-Creation-Date: 2016-05-02 15:45+0000\n"
 "PO-Revision-Date: 2016-04-10 11:16+0000\n"
 "Last-Translator: xcffl <xcffl@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: templates/_pending.txt:1 templates/verification_reminder_second.html:2
 #: templates/verification_reminder_second.txt:1
-#: templates/verify_reminder_second.html:2 mailer.js:416
+#: templates/verify_reminder_second.html:2 mailer.js:458
 msgid "Still there?"
 msgstr "还在吗？"
 
@@ -63,7 +63,7 @@ msgstr "登录“同步”"
 #: templates/suspicious_location.html:1 templates/unlock.html:1
 #: templates/verification_reminder_first.html:1
 #: templates/verification_reminder_second.html:1 templates/verify.html:1
-#: templates/verify_reminder_first.html:1
+#: templates/verify_login.html:1 templates/verify_reminder_first.html:1
 #: templates/verify_reminder_second.html:1
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
@@ -75,7 +75,7 @@ msgid "Firefox Accounts"
 msgstr "Firefox 账号"
 
 #: templates/new_device_login.html:2 templates/new_device_login.txt:1
-#: mailer.js:338
+#: templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:380
 msgid "New sign-in to Firefox"
 msgstr "新一次登录 Firefox"
 
@@ -244,7 +244,7 @@ msgstr "账号已验证！"
 #: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5
 #: templates/verification_reminder_first.html:5
 #: templates/verification_reminder_second.html:5 templates/verify.html:5
-#: templates/verify_reminder_first.html:5
+#: templates/verify_login.html:5 templates/verify_reminder_first.html:5
 #: templates/verify_reminder_second.html:5
 msgid "Alternatively:"
 msgstr "或者："
@@ -339,7 +339,7 @@ msgstr "验证账号："
 
 #: templates/verification_reminder_first.html:2
 #: templates/verification_reminder_first.txt:1
-#: templates/verify_reminder_first.html:2 mailer.js:413
+#: templates/verify_reminder_first.html:2 mailer.js:455
 msgid "Hello again."
 msgstr "我们又见面了。"
 
@@ -405,58 +405,63 @@ msgstr "欢迎！"
 msgid "Please activate your account by confirming this email address."
 msgstr "请确认此邮件地址以激活您的账号。"
 
-#: mailer.js:168
+#: templates/verify_login.html:3 templates/verify_login.txt:2
+msgid ""
+"For added security, please confirm this sign-in to begin syncing with "
+"%(device)s."
+msgstr ""
+
+#: templates/verify_login.html:4 templates/verify_login.txt:3
+msgid "Confirm sign-in"
+msgstr ""
+
+#: templates/verify_login.html:6
+msgid ""
+"If you suspect that someone is trying to gain access to your account, <a "
+"%(supportLinkAttributes)s>please report it to us</a>."
+msgstr ""
+
+#: templates/verify_login.txt:4
+msgid ""
+"If you suspect that someone is trying to gain access to your account, please "
+"report it to us."
+msgstr ""
+
+#: mailer.js:171
 msgid "Verify your Firefox Account"
 msgstr "验证您的 Firefox 账号"
 
-#: mailer.js:201
+#: mailer.js:210
+msgid "Confirm new sign-in to Firefox"
+msgstr ""
+
+#: mailer.js:243
 msgid "Reset your Firefox Account password"
 msgstr "重置您的 Firefox 账号密码"
 
-#: mailer.js:236
+#: mailer.js:278
 msgid "Re-verify your Firefox Account"
 msgstr "重新验证您的 Firefox 账号"
 
-#: mailer.js:269
+#: mailer.js:311
 msgid "Your Firefox Account password has been changed"
 msgstr "您的 Firefox 账号密码已被更改"
 
-#: mailer.js:291
+#: mailer.js:333
 msgid "Your Firefox Account password has been reset"
 msgstr "您的 Firefox 账号密码已被重置"
 
-#: mailer.js:313
+#: mailer.js:355
 msgid "Firefox Account password reset required"
 msgstr "Firefox 帐户密码必须重置"
 
-#: mailer.js:366
+#: mailer.js:408
 msgid "Firefox Account Verified"
 msgstr "Firefox 账号已验证"
 
-#: mailer.js:401
+#: mailer.js:443
 msgid "Suspicious activity with your Firefox Account"
 msgstr "您的 Firefox 帐户有可疑活动"
-
-#: config.js:146 config.js:151
-msgid "env"
-msgstr "env"
-
-#: config.js:159 config.js:160 config.js:161 config.js:162 config.js:163
-#: config.js:164
-msgid "contentServer.url"
-msgstr "contentServer.url"
-
-#: log.js:7
-msgid "logging"
-msgstr "日志"
-
-#: lib/db.js:21
-msgid "/"
-msgstr "/"
-
-#: lib/db.js:34
-msgid "/__heartbeat__"
-msgstr "/__heartbeat__"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
@@ -529,6 +534,21 @@ msgstr "Firefox 云服务"
 #: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "服务条款"
+
+#~ msgid "env"
+#~ msgstr "env"
+
+#~ msgid "contentServer.url"
+#~ msgstr "contentServer.url"
+
+#~ msgid "logging"
+#~ msgstr "日志"
+
+#~ msgid "/"
+#~ msgstr "/"
+
+#~ msgid "/__heartbeat__"
+#~ msgstr "/__heartbeat__"
 
 #~ msgid ""
 #~ "A device began syncing with the devices connected to your Firefox Account."
