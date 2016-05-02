@@ -80,6 +80,7 @@ msgfilter -i $L10N_DIR/locale/sr/LC_MESSAGES/server.po -o $L10N_DIR/locale/sr_La
 cd $L10N_DIR
 git checkout -b merge-train-$TRAIN_NUMBER-strings
 ./scripts/merge_po.sh ./locale
+./scripts/before_prod_deploy.sh --l10n-repo $L10N_DIR
 git add .
 git commit -m "merge strings for train $TRAIN_NUMBER"
 
