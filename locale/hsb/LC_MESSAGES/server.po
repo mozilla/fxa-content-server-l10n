@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-04-14 15:43+0000\n"
+"PO-Revision-Date: 2016-05-02 18:15+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -426,22 +426,28 @@ msgid ""
 "For added security, please confirm this sign-in to begin syncing with "
 "%(device)s."
 msgstr ""
+"Prošu wobkrućće za přidatnu wěstotu tute přizjewjenje, zo byšće z %(device)s"
+" synchronizował."
 
 #: templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "Přizjewjenje wobkrućić"
 
 #: templates/verify_login.html:6
 msgid ""
 "If you suspect that someone is trying to gain access to your account, <a "
 "%(supportLinkAttributes)s>please report it to us</a>."
 msgstr ""
+"Jeli měniš, zo něchtó pospytuje, přistup na waše konto dóstać, <a "
+"%(supportLinkAttributes)s>prošu zdźělće nam to</a>."
 
 #: templates/verify_login.txt:4
 msgid ""
 "If you suspect that someone is trying to gain access to your account, please"
 " report it to us."
 msgstr ""
+"Jeli měniš, zo něchtó pospytuje, přistup na waše konto dóstać, prošu zdźělće"
+" nam to."
 
 #: mailer.js:171
 msgid "Verify your Firefox Account"
@@ -449,7 +455,7 @@ msgstr "Wobkrućće swoje konto Firefox"
 
 #: mailer.js:210
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
+msgstr "Nowe přizjewjenje pola Firefox wobkrućić"
 
 #: mailer.js:243
 msgid "Reset your Firefox Account password"
