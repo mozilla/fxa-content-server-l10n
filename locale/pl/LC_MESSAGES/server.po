@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-04-14 15:00+0200\n"
+"PO-Revision-Date: 2016-05-03 13:25+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -421,22 +421,28 @@ msgid ""
 "For added security, please confirm this sign-in to begin syncing with "
 "%(device)s."
 msgstr ""
+"Z powodów bezpieczeństwa prosimy potwierdzić to logowanie, aby zacząć "
+"synchronizację z urządzeniem %(device)s."
 
 #: templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "Potwierdź logowanie"
 
 #: templates/verify_login.html:6
 msgid ""
 "If you suspect that someone is trying to gain access to your account, <a "
 "%(supportLinkAttributes)s>please report it to us</a>."
 msgstr ""
+"Jeśli istnieją podejrzenia, że ktoś próbuje uzyskać dostęp do konta, to <a "
+"%(supportLinkAttributes)s>prosimy nam to zgłosić</a>."
 
 #: templates/verify_login.txt:4
 msgid ""
 "If you suspect that someone is trying to gain access to your account, please "
 "report it to us."
 msgstr ""
+"Jeśli istnieją podejrzenia, że ktoś próbuje uzyskać dostęp do konta, to "
+"prosimy nam to zgłosić."
 
 #: mailer.js:171
 msgid "Verify your Firefox Account"
@@ -444,7 +450,7 @@ msgstr "Zweryfikuj konto Firefoksa"
 
 #: mailer.js:210
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
+msgstr "Potwierdź nowe logowanie do Firefoksa"
 
 #: mailer.js:243
 msgid "Reset your Firefox Account password"
