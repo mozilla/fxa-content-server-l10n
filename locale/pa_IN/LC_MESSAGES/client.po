@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-03-13 15:23+0000\n"
+"PO-Revision-Date: 2016-05-03 22:57+0000\n"
 "Last-Translator: Amanpreet Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -147,8 +147,7 @@ msgid "Display name updated"
 msgstr "ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ ਅੱਪਡੇਟ ਕੀਤਾ"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr "ਖਾਤਾ ਲਾਕ ਕੀਤਾ। <a href=\"/confirm_account_unlock\">ਅਣ-ਲਾਕ ਈਮੇਲ ਭੇਜੋ</a>"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:42
@@ -168,7 +167,8 @@ msgstr "ਕਾਮਯਾਬੀ ਨਾਲ ਸਾਇਨ ਆਉਟ ਕਰੋ"
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -324,13 +324,16 @@ msgstr "ਠੀਕ ਈਮੇਲ ਐਡਰੈਸ ਦਿਉ। firefox.com ਈਮ�
 
 #: app/scripts/lib/auth-errors.js:207
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਕੇਵਲ ਮਨਜ਼ੂਰੀ ਪ੍ਰਾਪਤ ਸਾਈਟਾਂ ਉੱਤੇ IFRAME ਵਿੱਚ ਹੀ ਰੱਖਿਆ ਜਾ ਸਕਦਾ ਹੈ"
+msgstr ""
+"ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਕੇਵਲ ਮਨਜ਼ੂਰੀ ਪ੍ਰਾਪਤ ਸਾਈਟਾਂ ਉੱਤੇ IFRAME ਵਿੱਚ ਹੀ ਰੱਖਿਆ ਜਾ "
+"ਸਕਦਾ ਹੈ"
 
 #: app/scripts/lib/auth-errors.js:222
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
-msgstr "ਤੁਹਾਡੇ ਵਲੋਂ ਆਪਣੇ ਈਮੇਲ ਦੀ ਜਾਂਚ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕੀਤਾ, ਉਸ ਦੀ ਮਿਆਦ ਪੁੱਗ ਚੁੱਕੀ ਹੈ।"
+msgstr ""
+"ਤੁਹਾਡੇ ਵਲੋਂ ਆਪਣੇ ਈਮੇਲ ਦੀ ਜਾਂਚ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕੀਤਾ, ਉਸ ਦੀ ਮਿਆਦ ਪੁੱਗ ਚੁੱਕੀ ਹੈ।"
 
 #: app/scripts/lib/auth-errors.js:226
 #: app/scripts/templates/complete_sign_up.mustache:7
@@ -359,7 +362,7 @@ msgstr "ਕੋਈ ਗਰਵਤਾਰ ਨਹੀਂ ਲੱਭਿਆ"
 
 #: app/scripts/lib/auth-errors.js:258
 msgid "Account no longer exists."
-msgstr ""
+msgstr "ਖਾਤਾ ਹੁਣ ਮੌਜੂਦ ਨਹੀਂ ਹੈ।"
 
 #: app/scripts/lib/auth-errors.js:262
 msgid "Invalid property in resume token: %(property)s"
@@ -435,13 +438,14 @@ msgstr "ਫਾਇਰਫਾਕਸ ਸਿੰਕ"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"ਜਾਰੀ ਰੱਖਣ ਲਈ ਤੁਹਾਨੂੰ %(serviceName)s (%(serviceUri)s) ਦੀਆਂ <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</a> ਅਤੇ <a id=\"service-pp\" href="
-"\"%(privacyUri)s\">ਪਰਦੇਦਾਰੀ ਨੋਟਿਸ</a> ਨਾਲ ਸਹਿਮਤ ਹੋ ਹੋਵੇਗਾ।"
+"ਜਾਰੀ ਰੱਖਣ ਲਈ ਤੁਹਾਨੂੰ %(serviceName)s (%(serviceUri)s) ਦੀਆਂ <a id=\"service-"
+"tos\" href=\"%(termsUri)s\">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</a> ਅਤੇ <a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">ਪਰਦੇਦਾਰੀ ਨੋਟਿਸ</a> ਨਾਲ ਸਹਿਮਤ ਹੋ ਹੋਵੇਗਾ।"
 
 #: app/scripts/lib/strings.js:26
 msgid ""
@@ -471,7 +475,7 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:33
 msgid "Alternatively:"
-msgstr ""
+msgstr "ਬਦਲ:"
 
 #: app/scripts/lib/strings.js:34
 msgid ""
@@ -487,7 +491,7 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:36
 msgid "Verify Email"
-msgstr ""
+msgstr "ਈਮੇਲ ਨੂੰ ਤਸਦੀਕ ਕਰੋ"
 
 #: app/scripts/lib/strings.js:37
 msgid "Verify your email to finish your Firefox Account sign-in"
@@ -495,11 +499,11 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:38
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "ਸਾਈਨ-ਇਨ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ"
 
 #: app/scripts/lib/strings.js:39
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "ਇਹ ਸਾਈਨ-ਇਨ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ"
 
 #: app/scripts/lib/strings.js:40
 #: app/scripts/templates/complete_reset_password.mustache:2
@@ -550,7 +554,9 @@ msgstr "ਖਾਤਾ ਬਣਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ"
 #: app/scripts/templates/cannot_create_account.mustache:2
 msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr "ਤੁਹਾਨੂੰ ਇੱਕ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਬਣਾਉਣ ਲਈ ਕੁਝ ਖਾਸ ਉਮਰ ਦੀ ਲੋੜ ਨੂੰ ਪੂਰਾ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।"
+msgstr ""
+"ਤੁਹਾਨੂੰ ਇੱਕ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਬਣਾਉਣ ਲਈ ਕੁਝ ਖਾਸ ਉਮਰ ਦੀ ਲੋੜ ਨੂੰ ਪੂਰਾ ਕਰਨਾ ਚਾਹੀਦਾ "
+"ਹੈ।"
 
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
@@ -592,7 +598,7 @@ msgstr "ਐਡ-ਆਨ ਅਤੇ ਮੇਰੀ ਪਸੰਦ ਇਸ ਵੇਲੇ �
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
-msgstr ""
+msgstr "ਸੈਟਿੰਗਾਂ ਨੂੰ ਸੰਭਾਲੋ"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
@@ -609,8 +615,9 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
-"ਤੁਹਾਡੇ ਵਲੋਂ ਕਲਿਕ ਕੀਤੇ ਗਏ ਲਿੰਕ ਵਿੱਚ ਅੱਖਰ ਗੁੰਮ ਹਨ ਅਤੇ ਤੁਹਾਡੇ ਈਮੇਲ ਕਲਾਇਟ ਵਲੋਂ ਖ਼ਰਾਬ ਕੀਤੇ ਗਏ ਹੋ ਸਕਦੇ "
-"ਹਨ। ਸਿਰਨਾਵਾਂ ਲਿੰਕ ਨੂੰ ਧਿਆਨ ਨਾਲ ਕਾਪੀ ਕਰੋ ਅਤੇ ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+"ਤੁਹਾਡੇ ਵਲੋਂ ਕਲਿਕ ਕੀਤੇ ਗਏ ਲਿੰਕ ਵਿੱਚ ਅੱਖਰ ਗੁੰਮ ਹਨ ਅਤੇ ਤੁਹਾਡੇ ਈਮੇਲ ਕਲਾਇਟ ਵਲੋਂ "
+"ਖ਼ਰਾਬ ਕੀਤੇ ਗਏ ਹੋ ਸਕਦੇ ਹਨ। ਸਿਰਨਾਵਾਂ ਲਿੰਕ ਨੂੰ ਧਿਆਨ ਨਾਲ ਕਾਪੀ ਕਰੋ ਅਤੇ ਫੇਰ ਕੋਸ਼ਿਸ਼ "
+"ਕਰੋ।"
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
@@ -622,7 +629,9 @@ msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਲਿੰਕ ਦੀ ਮਿਆ�
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
-msgstr "ਤੁਹਾਡੇ ਵਲੋਂ ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕੀਤੇ ਲਿੰਕ ਦੀ ਮਿਆਦ ਖਤਮ ਹੋ ਚੁੱਕੀ ਹੈ।"
+msgstr ""
+"ਤੁਹਾਡੇ ਵਲੋਂ ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕੀਤੇ ਲਿੰਕ ਦੀ ਮਿਆਦ ਖਤਮ ਹੋ "
+"ਚੁੱਕੀ ਹੈ।"
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
@@ -641,8 +650,8 @@ msgid ""
 "Once you submit your new password, you will lose any Sync data that is not "
 "on one of your devices."
 msgstr ""
-"ਜੇ ਤੁਸੀਂ ਨਵਾਂ ਪਾਸਵਰਡ ਦੇ ਦਿੱਤਾ ਤਾਂ ਤੁਸੀਂ ਕਿਸੇ ਵੀ ਸਿੰਕ ਡਾਟੇ ਨੂੰ ਗੁਆ ਦਿਉਂਗੇ, ਜੋ ਕਿ ਤੁਹਾਡੇ ਡਿਵਾਈਸਾਂ "
-"ਵਿੱਚੋਂ ਕਿਸੇ ਉੱਤੇ ਨਹੀਂ ਹੈ।"
+"ਜੇ ਤੁਸੀਂ ਨਵਾਂ ਪਾਸਵਰਡ ਦੇ ਦਿੱਤਾ ਤਾਂ ਤੁਸੀਂ ਕਿਸੇ ਵੀ ਸਿੰਕ ਡਾਟੇ ਨੂੰ ਗੁਆ ਦਿਉਂਗੇ, ਜੋ"
+" ਕਿ ਤੁਹਾਡੇ ਡਿਵਾਈਸਾਂ ਵਿੱਚੋਂ ਕਿਸੇ ਉੱਤੇ ਨਹੀਂ ਹੈ।"
 
 #: app/scripts/templates/complete_reset_password.mustache:11
 #: app/scripts/templates/reset_password.mustache:3
@@ -702,11 +711,12 @@ msgstr "ਅਣ-ਲਾਕ ਈਮੇਲ ਭੇਜੀ ਗਈ"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification"
+" link sent to %(email)s"
 msgstr ""
-"ਸੁਰੱਖਿਆ ਕਾਰਨਾਂ ਕਰਕੇ ਤੁਹਾਡਾ ਖਾਤਾ ਲੌਕਡਾਊਨ ਰੱਖਿਆ ਗਿਆ ਸੀ । ਖਾਤਾ-ਪੱਧਰ ਦੀਆਂ ਗਤੀਵਿਧੀਆਂ ਚਲਾਉਣ "
-"ਲਈ, ਕਿਰਪਾ ਕਰਕੇ %(email)s ਉਤੇ ਭੇਜੇ ਜਾਂਚ ਲਿੰਕ ਉਤੇ ਕਲਿਕ ਕਰਕੇ ਦੁਬਾਰਾ-ਜਾਂਚ ਕਰੋ ।"
+"ਸੁਰੱਖਿਆ ਕਾਰਨਾਂ ਕਰਕੇ ਤੁਹਾਡਾ ਖਾਤਾ ਲੌਕਡਾਊਨ ਰੱਖਿਆ ਗਿਆ ਸੀ । ਖਾਤਾ-ਪੱਧਰ ਦੀਆਂ "
+"ਗਤੀਵਿਧੀਆਂ ਚਲਾਉਣ ਲਈ, ਕਿਰਪਾ ਕਰਕੇ %(email)s ਉਤੇ ਭੇਜੇ ਜਾਂਚ ਲਿੰਕ ਉਤੇ ਕਲਿਕ ਕਰਕੇ "
+"ਦੁਬਾਰਾ-ਜਾਂਚ ਕਰੋ ।"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -732,8 +742,8 @@ msgstr "ਕੂਕੀਜ਼ ਅਤੇ ਲੋਕਲ ਸਟੋਰੇਜ਼ ਚਾਹੀ�
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between "
-"sessions."
+"Accounts. Doing so will enable functionality such as remembering you between"
+" sessions."
 msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:3
@@ -778,9 +788,9 @@ msgstr "ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?"
 #: app/scripts/templates/sign_in.mustache:27
 #: app/scripts/templates/sign_up.mustache:17
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
@@ -883,8 +893,8 @@ msgstr "ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
-"When you reset your password, you will lose any Sync data that is not on one "
-"of your devices."
+"When you reset your password, you will lose any Sync data that is not on one"
+" of your devices."
 msgstr ""
 
 #: app/scripts/templates/reset_password.mustache:5
@@ -931,7 +941,8 @@ msgstr "ਨਵਾਂ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਬਣਾ ਕੇ ਆ�
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
+"in</a>"
 msgstr "ਵੱਖਰੇ ਈਮੇਲ ਨਾਲ ਖਾਤਾ ਹੈ? <a href=\"%(signinUri)s\">ਸਾਈਨ ਇਨ ਕਰੋ</a>"
 
 #: app/scripts/templates/sign_up.mustache:18
@@ -941,7 +952,7 @@ msgstr "ਮੋਜ਼ੀਲਾ ਤੇ ਫਾਇਰਫਾਕਸ ਬਾਰੇ ਨਵ�
 
 #: app/scripts/templates/sign_up.mustache:24
 msgid "Create account"
-msgstr ""
+msgstr "ਖਾਤਾ ਬਣਾਓ"
 
 #: app/scripts/templates/sign_up.mustache:29
 msgid "Have an account? Sign in."
@@ -1003,8 +1014,8 @@ msgid ""
 "Once you're finished, use your new password to sign in on all of your "
 "devices."
 msgstr ""
-"ਇੱਕ ਵਾਰ ਤੁਹਾਡੇ ਵਲੋਂ ਪੂਰਾ ਕਰਨ ਦੇ ਬਾਅਦ ਤੁਸੀਂ ਆਪਣੇ ਨਵੇਂ ਪਾਸਵਰਡ ਨੂੰ ਆਪਣੇ ਸਾਰੇ ਡਿਵਾਇਸਾਂ ਉੱਤੇ ਸਾਇਨ "
-"ਕਰਨ ਲਈ ਵਰਤ ਸਕਦੇ ਹੋ"
+"ਇੱਕ ਵਾਰ ਤੁਹਾਡੇ ਵਲੋਂ ਪੂਰਾ ਕਰਨ ਦੇ ਬਾਅਦ ਤੁਸੀਂ ਆਪਣੇ ਨਵੇਂ ਪਾਸਵਰਡ ਨੂੰ ਆਪਣੇ ਸਾਰੇ "
+"ਡਿਵਾਇਸਾਂ ਉੱਤੇ ਸਾਇਨ ਕਰਨ ਲਈ ਵਰਤ ਸਕਦੇ ਹੋ"
 
 #: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
@@ -1038,7 +1049,9 @@ msgstr "ਹਟਾਓ"
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid ""
 "Are you sure you want to delete your account? This action cannot be undone."
-msgstr "ਕੀ ਤੁਸੀਂ ਸੱਚਮੁੱਚ ਆਪਣਾ ਖਾਤਾ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ? ਇਹ ਕਾਰਵਾਈ ਵਾਪਿਸ ਨਹੀਂ ਲਈ ਜਾ ਸਕਦੀ ਹੈ।"
+msgstr ""
+"ਕੀ ਤੁਸੀਂ ਸੱਚਮੁੱਚ ਆਪਣਾ ਖਾਤਾ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ? ਇਹ ਕਾਰਵਾਈ ਵਾਪਿਸ ਨਹੀਂ ਲਈ ਜਾ "
+"ਸਕਦੀ ਹੈ।"
 
 #: app/scripts/templates/settings/devices.mustache:2
 msgid "Devices"
@@ -1046,13 +1059,14 @@ msgstr "ਡਿਵਾਈਸ"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"ਫਾਇਰਫਾਕਸ <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS "
-"X</a>, <a href=\"%(linkAndroid)s\">ਐਂਡਰਾਈਡ</a>, <a href=\"%(linkIOS)s\">iOS</"
-"a> ਅਤੇ <a href=\"%(linkLinux)s\">ਲੀਨਕਸ</a> ਲਈ ਮੌਜੂਦ ਹੈ।"
+"ਫਾਇਰਫਾਕਸ <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS"
+" X</a>, <a href=\"%(linkAndroid)s\">ਐਂਡਰਾਈਡ</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> ਅਤੇ <a href=\"%(linkLinux)s\">ਲੀਨਕਸ</a> ਲਈ "
+"ਮੌਜੂਦ ਹੈ।"
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -1078,7 +1092,9 @@ msgstr "ਤਾਜ਼ਾ ਕਰੋ"
 msgid ""
 "Choose the name you would like to appear in Firefox and when managing your "
 "account."
-msgstr "ਨਾਂ ਚੁਣੋ, ਜੋ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਕਿ ਫਾਇਰਫਾਕਸ ਵਿੱਚ ਅਤੇ ਤੁਹਾਡੇ ਖਾਤੇ ਦੇ ਪ੍ਰਬੰਧ ਸਮੇਂ ਦਿਖਾਈ ਦੇਵੇ।"
+msgstr ""
+"ਨਾਂ ਚੁਣੋ, ਜੋ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਕਿ ਫਾਇਰਫਾਕਸ ਵਿੱਚ ਅਤੇ ਤੁਹਾਡੇ ਖਾਤੇ ਦੇ ਪ੍ਰਬੰਧ "
+"ਸਮੇਂ ਦਿਖਾਈ ਦੇਵੇ।"
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1093,7 +1109,8 @@ msgid ""
 "Choose the account you would like to use to sync your tabs, bookmarks, "
 "passwords and more."
 msgstr ""
-"ਖਾਤੇ ਨੂੰ ਚੁਣੋ, ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਆਪਣੇ ਟੈਬ, ਬੁੱਕਮਾਰਕ, ਪਾਸਵਰਡ ਤੇ ਹੋਰਾਂ ਨੂੰ ਸਿੰਕ ਕਰਨ ਲਈ ਵਰਤਣਾ ਚਾਹੁੰਦੇ ਹੋ।"
+"ਖਾਤੇ ਨੂੰ ਚੁਣੋ, ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਆਪਣੇ ਟੈਬ, ਬੁੱਕਮਾਰਕ, ਪਾਸਵਰਡ ਤੇ ਹੋਰਾਂ ਨੂੰ ਸਿੰਕ "
+"ਕਰਨ ਲਈ ਵਰਤਣਾ ਚਾਹੁੰਦੇ ਹੋ।"
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
@@ -1119,13 +1136,13 @@ msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ"
 #~ msgstr "ਕੀ ਤੁਸੀਂ ਆਪਣੇ ਖਾਤੇ ਦਾ ਪਾਸਵਰਡ ਦੁਬਾਰਾ ਸੈੱਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ?"
 
 #~ msgid ""
-#~ "Resetting your password will erase your browsing data from our servers. "
-#~ "Any data on your devices will remain untouched. Begin the reset process "
-#~ "by entering your email below."
+#~ "Resetting your password will erase your browsing data from our servers. Any "
+#~ "data on your devices will remain untouched. Begin the reset process by "
+#~ "entering your email below."
 #~ msgstr ""
-#~ "ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਦੁਬਾਰਾ ਸੈੱਟ ਕਰਨ ਵੇਲੇ ਸਾਡਾ ਸਰਵਰ ਤੁਹਾਡੇ ਬਰਾਊਜ਼ਿੰਗ ਅੰਕੜਿਆਂ ਨੂੰ ਮਿਟਾ ਦੇਵੇਗਾ । "
-#~ "ਤੁਹਾਡੇ ਉਪਕਰਨ ਉਤੇ ਹੋਰ ਕੋਈ ਵੀ ਅੰਕੜਾ ਅਣਛੂਹਿਆ ਰਹੇਗਾ । ਦੁਬਾਰਾ ਸੈੱਟ ਕਰਨ ਦੀ ਕਿਰਿਆ ਨੂੰ ਥੱਲੇ ਆਪਣੀ "
-#~ "ਈ-ਮੇਲ ਭਰਨ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ ।"
+#~ "ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਦੁਬਾਰਾ ਸੈੱਟ ਕਰਨ ਵੇਲੇ ਸਾਡਾ ਸਰਵਰ ਤੁਹਾਡੇ ਬਰਾਊਜ਼ਿੰਗ ਅੰਕੜਿਆਂ "
+#~ "ਨੂੰ ਮਿਟਾ ਦੇਵੇਗਾ । ਤੁਹਾਡੇ ਉਪਕਰਨ ਉਤੇ ਹੋਰ ਕੋਈ ਵੀ ਅੰਕੜਾ ਅਣਛੂਹਿਆ ਰਹੇਗਾ । ਦੁਬਾਰਾ "
+#~ "ਸੈੱਟ ਕਰਨ ਦੀ ਕਿਰਿਆ ਨੂੰ ਥੱਲੇ ਆਪਣੀ ਈ-ਮੇਲ ਭਰਨ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ ।"
 
 #~ msgid "Begin reset"
 #~ msgstr "ਮੁੜ-ਸੈਟ ਸ਼ੁਰੂ ਕਰੋ"
@@ -1147,9 +1164,9 @@ msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ"
 #~ "Accounts. Cookies are small pieces of data stored in your browser that "
 #~ "provide functionality such as remembering you between sessions."
 #~ msgstr ""
-#~ "ਆਪਣੇ ਬਰਾਊਜ਼ਰ ਲਈ ਕੂਕੀਜ਼ ਚਾਲੂ ਕਰੋ, ਜੋ ਕਿ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਰਾਹੀਂ ਲੋੜੀਂਦੇ ਹਨ। ਕੂਕੀਜ਼ ਤੁਹਾਡੇ "
-#~ "ਬਰਾਊਜ਼ਰ ਵਿੱਚ ਡਾਟਾ ਸਟੋਰ ਕਰਨ ਲਈ ਛੋਟਾ ਭਾਗ ਹੈ, ਜੋ ਕਿ ਸ਼ੈਸ਼ਨਾਂ ਵਿੱਚ ਤੁਹਾਨੂੰ ਯਾਦ ਰੱਖਣ ਦੀ ਸਹੂਲਤ "
-#~ "ਦਿੰਦੇ ਹਨ।"
+#~ "ਆਪਣੇ ਬਰਾਊਜ਼ਰ ਲਈ ਕੂਕੀਜ਼ ਚਾਲੂ ਕਰੋ, ਜੋ ਕਿ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਰਾਹੀਂ ਲੋੜੀਂਦੇ ਹਨ। ਕੂਕੀਜ਼ "
+#~ "ਤੁਹਾਡੇ ਬਰਾਊਜ਼ਰ ਵਿੱਚ ਡਾਟਾ ਸਟੋਰ ਕਰਨ ਲਈ ਛੋਟਾ ਭਾਗ ਹੈ, ਜੋ ਕਿ ਸ਼ੈਸ਼ਨਾਂ ਵਿੱਚ ਤੁਹਾਨੂੰ "
+#~ "ਯਾਦ ਰੱਖਣ ਦੀ ਸਹੂਲਤ ਦਿੰਦੇ ਹਨ।"
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "ਫਾਇਰਫਾਕਸ ਛੇਤੀ ਹੀ iOS ਉੱਤੇ ਆ ਰਿਹਾ ਹੈ!"
@@ -1284,12 +1301,13 @@ msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ"
 #~ msgstr "ਖਾਤਾ ਦਾ ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਲਈ ਈਮੇਲ ਦਿਉ।"
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data "
-#~ "from our servers. A new Sync backup will be created from your local "
-#~ "browsing data."
+#~ "For security reasons, resetting your password will erase your Sync data from"
+#~ " our servers. A new Sync backup will be created from your local browsing "
+#~ "data."
 #~ msgstr ""
-#~ "ਸੁਰੱਖਿਆ ਕਾਰਨਾਂ ਕਰਕੇ, ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਨਾਲ ਸਾਡੇ ਸਰਵਰਾਂ ਤੋਂ ਤੁਹਾਡਾ ਸਿੰਕ ਡਾਟਾ "
-#~ "ਹਟਾਇਆ ਜਾਵੇਗਾ। ਤੁਹਾਡੇ ਲੋਕਲ ਬਰਾਊਜ਼ਿੰਗ ਡਾਟੇ ਨਾਲ ਨਵਾਂ ਸਿੰਕ ਬੈਕਅੱਪ ਬਣਾਇਆ ਜਾਵੇਗਾ।"
+#~ "ਸੁਰੱਖਿਆ ਕਾਰਨਾਂ ਕਰਕੇ, ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਨਾਲ ਸਾਡੇ ਸਰਵਰਾਂ ਤੋਂ "
+#~ "ਤੁਹਾਡਾ ਸਿੰਕ ਡਾਟਾ ਹਟਾਇਆ ਜਾਵੇਗਾ। ਤੁਹਾਡੇ ਲੋਕਲ ਬਰਾਊਜ਼ਿੰਗ ਡਾਟੇ ਨਾਲ ਨਵਾਂ ਸਿੰਕ "
+#~ "ਬੈਕਅੱਪ ਬਣਾਇਆ ਜਾਵੇਗਾ।"
 
 #~ msgid "You are signed in as"
 #~ msgstr "ਤੁਸੀਂ ਸਾਇਨ ਇਨ ਹੋਏ ਹੋ"
@@ -1298,13 +1316,13 @@ msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ"
 #~ msgstr "ਖਾਤਾ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ? ਸਾਈਨ ਇਨ ਕਰੋ।"
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">Privacy Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
+#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+#~ "Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "ਅੱਗੇ ਜਾਣ ਨਾਲ, ਮੈਂ ਫਾਇਰਫਾਕਸ ਕਲਾਉਡ ਸੇਵਾਵਾਂ ਦੀਆਂ <a id=\"fxa-tos\" href=\"/legal/"
-#~ "terms\">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</a> ਅਤੇ <a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ</a> ਨਾਲ ਸਹਿਮਤ ਹਾਂ।"
+#~ "ਅੱਗੇ ਜਾਣ ਨਾਲ, ਮੈਂ ਫਾਇਰਫਾਕਸ ਕਲਾਉਡ ਸੇਵਾਵਾਂ ਦੀਆਂ <a id=\"fxa-tos\" "
+#~ "href=\"/legal/terms\">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</a> ਅਤੇ <a id=\"fxa-pp\" "
+#~ "href=\"/legal/privacy\">ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ</a> ਨਾਲ ਸਹਿਮਤ ਹਾਂ।"
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "ਫਾਇਰਫਾਕਸ ਖਬਰ ਅਤੇ ਸੁਝਾਅ ਲਈ ਦਸਤਖਤ"
@@ -1316,14 +1334,13 @@ msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ"
 #~ "Once you're ﬁnished, use your new password to sign in on all of your "
 #~ "devices."
 #~ msgstr ""
-#~ "ਇੱਕ ਵਾਰ ਜਦੋਂ ਤੁਸੀਂ ਪੂਰਾ ਕਰ ਲਿਆ ਤਾਂ ਆਪਣੇ ਸਭ ਯੰਤਰਾਂ ਲਈ ਸਾਇਨ ਇਨ ਕਰਨ ਲਈ ਨਵਾਂ ਪਾਸਵਰਡ ਵਰਤੋਂ।"
+#~ "ਇੱਕ ਵਾਰ ਜਦੋਂ ਤੁਸੀਂ ਪੂਰਾ ਕਰ ਲਿਆ ਤਾਂ ਆਪਣੇ ਸਭ ਯੰਤਰਾਂ ਲਈ ਸਾਇਨ ਇਨ ਕਰਨ ਲਈ ਨਵਾਂ "
+#~ "ਪਾਸਵਰਡ ਵਰਤੋਂ।"
 
 #~ msgid "Password changed"
 #~ msgstr "ਪਾਸਵਰਡ ਬਦਲ ਗਿਆ"
 
-#~ msgid ""
-#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
-#~ "email</a>."
+#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
 #~ msgstr "ਨਾ-ਜਾਂਚਿਆ ਖਾਤਾ।  <a href=\"#\" id=\"resend\">ਜਾਂਚ ਈਮੇਲ ਮੁੜ-ਭੇਜੋ</a>।"
 
 #~ msgid "Password reset. Sign in to continue."
