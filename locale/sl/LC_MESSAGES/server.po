@@ -434,8 +434,8 @@ msgid ""
 "If you suspect that someone is trying to gain access to your account, <a "
 "%(supportLinkAttributes)s>please report it to us</a>."
 msgstr ""
-"Če slutite, da nekdo poskuša pridobiti dostop do vašega računa, "
-"<a%(supportLinkAttributes)s>nam to sporočite</a>."
+"Če slutite, da nekdo poskuša pridobiti dostop do vašega računa, <a "
+"%(supportLinkAttributes)s>nam to sporočite</a>."
 
 #: templates/verify_login.txt:4
 msgid ""
