@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-03-25 10:01+0000\n"
+"PO-Revision-Date: 2016-05-05 12:12+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -146,8 +146,7 @@ msgid "Display name updated"
 msgstr "Көрсетілетін аты жаңартылды"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "Тіркелгі блокталған. <a href=\"/confirm_account_unlock\">Босату хатын "
 "жіберу</a>"
@@ -169,7 +168,8 @@ msgstr "Шығу сәтті аяқталды"
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -327,7 +327,8 @@ msgstr ""
 #: app/scripts/lib/auth-errors.js:207
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
-"Firefox тіркелгілерін тек расталған сайттарда IFRAME-ге орналастыруға болады."
+"Firefox тіркелгілерін тек расталған сайттарда IFRAME-ге орналастыруға "
+"болады."
 
 #: app/scripts/lib/auth-errors.js:222
 #: app/scripts/templates/complete_account_unlock.mustache:2
@@ -366,15 +367,15 @@ msgstr "Тіркелгі енді жоқ болып тұр."
 
 #: app/scripts/lib/auth-errors.js:262
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "Жалғастыру токеніндегі қате қасиет: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:266
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "Жалғастыру токеніндегі жоқ қасиет: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:270
 msgid "Invalid data-flow-begin attribute"
-msgstr ""
+msgstr "Қате data-flow-begin атрибуты"
 
 #: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -438,13 +439,14 @@ msgstr "Firefox синхрондауы"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Жалғастыру нәтижесінде, сіз %(serviceName)s (%(serviceUri)s) қызметінің <a "
-"id=\"service-tos\" href=\"%(termsUri)s\">Қолдану шарттары</a> және <a id="
-"\"service-pp\" href=\"%(privacyUri)s\">Жекелік ескертуімен</a> келісесіз."
+"id=\"service-tos\" href=\"%(termsUri)s\">Қолдану шарттары</a> және <a id"
+"=\"service-pp\" href=\"%(privacyUri)s\">Жекелік ескертуімен</a> келісесіз."
 
 #: app/scripts/lib/strings.js:26
 msgid ""
@@ -456,7 +458,7 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:29
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
+msgstr "Firefox-қа жаңа кіруді растаңыз"
 
 #: app/scripts/lib/strings.js:30
 msgid "You signed in to Firefox from %(device)s, %(location)s."
@@ -553,7 +555,8 @@ msgstr "Тіркелгіні жасау мүмкін емес"
 #: app/scripts/templates/cannot_create_account.mustache:2
 msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr "Firefox&nbsp;тіркелгісін жасау үшін жасыңыз белгілі шамадан асуы тиіс."
+msgstr ""
+"Firefox&nbsp;тіркелгісін жасау үшін жасыңыз белгілі шамадан асуы тиіс."
 
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
@@ -708,8 +711,8 @@ msgstr "Босату хаты жіберілді"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification"
+" link sent to %(email)s"
 msgstr ""
 "Сіздің тіркелгіңіз қауіпсізік себептерден блоктауға қойылған. Тіркелгімен "
 "әрекетті орындау үшін, оны %(email)s адресіне жіберілген растау сілтемесіне "
@@ -724,8 +727,8 @@ msgid ""
 "Click on the link we've emailed you at %(email)s within the next hour to "
 "create a new password."
 msgstr ""
-"Жаңа парольді жасау үшін %(email)s адресіне жіберілген хаттағы сілтемеге көп "
-"ұзамай шертіңіз."
+"Жаңа парольді жасау үшін %(email)s адресіне жіберілген хаттағы сілтемеге көп"
+" ұзамай шертіңіз."
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
@@ -741,8 +744,8 @@ msgstr "Cookies және жергілікті қойма керек."
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between "
-"sessions."
+"Accounts. Doing so will enable functionality such as remembering you between"
+" sessions."
 msgstr ""
 "Firefox тіркелгісіне қатынау үшін, браузеріңізде cookies және жергілікті "
 "қойманы іске қосыңыз. Оның нәтижесінде сессиялар арасында сізді есте сақтау "
@@ -790,13 +793,13 @@ msgstr "Пароліңізді ұмыттыңыз ба?"
 #: app/scripts/templates/sign_in.mustache:27
 #: app/scripts/templates/sign_up.mustache:17
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
 "Жалғастыру нәтижесінде, сіз Firefox бұлттық қызметтерінің <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Қолдану шарттары</a> және <a id=\"fxa-pp\" href=\"/"
-"legal/privacy\">Жекелік ескертуімен</a> келісесіз."
+"href=\"/legal/terms\">Қолдану шарттары</a> және <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Жекелік ескертуімен</a> келісесіз."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -898,8 +901,8 @@ msgstr "Парольді ұмыттым"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
-"When you reset your password, you will lose any Sync data that is not on one "
-"of your devices."
+"When you reset your password, you will lose any Sync data that is not on one"
+" of your devices."
 msgstr ""
 "Парольді тастау кезінде, сіз сіздің құрылғыларыңызда жоқ болып тұрған "
 "синхрондау деректерін жоғалтасыз."
@@ -947,14 +950,16 @@ msgstr "Firefox тіркелгісін жасау"
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr ""
-"Жаңа Firefox&nbsp;тіркелгіңізді жасау арқылы барлық деректеріңізді көшіріңіз."
+"Жаңа Firefox&nbsp;тіркелгіңізді жасау арқылы барлық деректеріңізді "
+"көшіріңіз."
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
+"in</a>"
 msgstr ""
-"Басқа эл. поштаға байланысқан тіркелгіңіз бар ма? <a href=\"%(signinUri)s"
-"\">Кіріңіз</a>"
+"Басқа эл. поштаға байланысқан тіркелгіңіз бар ма? <a "
+"href=\"%(signinUri)s\">Кіріңіз</a>"
 
 #: app/scripts/templates/sign_up.mustache:18
 #: app/scripts/templates/settings/communication_preferences.mustache:7
@@ -1067,13 +1072,13 @@ msgstr "Құрылғылар"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox браузері <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> және <a href=\"%(linkLinux)s\">Linux</a> үшін "
+"Firefox браузері <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> және <a href=\"%(linkLinux)s\">Linux</a> үшін "
 "қолжетерлік."
 
 #: app/scripts/templates/settings/devices.mustache:5
@@ -1101,7 +1106,8 @@ msgid ""
 "Choose the name you would like to appear in Firefox and when managing your "
 "account."
 msgstr ""
-"Firefox-та және тіркелгіңізді басқару кезінде көрсетілетін атыңызды таңдаңыз."
+"Firefox-та және тіркелгіңізді басқару кезінде көрсетілетін атыңызды "
+"таңдаңыз."
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1143,14 +1149,14 @@ msgstr "Firefox тіркелгісін қолдану"
 #~ msgstr "Тіркелгіңіздің паролін тастауды шынымен қалайсыз ба?"
 
 #~ msgid ""
-#~ "Resetting your password will erase your browsing data from our servers. "
-#~ "Any data on your devices will remain untouched. Begin the reset process "
-#~ "by entering your email below."
+#~ "Resetting your password will erase your browsing data from our servers. Any "
+#~ "data on your devices will remain untouched. Begin the reset process by "
+#~ "entering your email below."
 #~ msgstr ""
 #~ "Пароліңізді тастау нәтижесінде сіздің барлық шолу деректеріңіз біздің "
 #~ "серверлерімізден өшіріледі. Ал, құрылғыларыңыздағы барлық шолу деректері "
-#~ "сақталады. Парольді тастауды бастау үшін, төменде өз эл. пошта "
-#~ "адресіңізді енгіңіз."
+#~ "сақталады. Парольді тастауды бастау үшін, төменде өз эл. пошта адресіңізді "
+#~ "енгіңіз."
 
 #~ msgid "Begin reset"
 #~ msgstr "Парольді тастауды бастау"
