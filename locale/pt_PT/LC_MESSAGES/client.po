@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-03 01:44+0000\n"
-"Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
+"PO-Revision-Date: 2016-05-05 13:38+0000\n"
+"Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -798,7 +798,7 @@ msgstr "Iniciar sessão"
 #: app/scripts/templates/sign_in.mustache:25
 #: app/scripts/templates/settings/change_password.mustache:6
 msgid "Forgot password?"
-msgstr "Esqueceu-se da palavra-passe?"
+msgstr "Repor palavra-passe"
 
 #: app/scripts/templates/force_auth.mustache:8
 #: app/scripts/templates/sign_in.mustache:27
@@ -937,7 +937,7 @@ msgstr "Terminar sessão"
 #: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
-msgstr "Continuar para %(serviceName)s"
+msgstr "Continuar para o %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
