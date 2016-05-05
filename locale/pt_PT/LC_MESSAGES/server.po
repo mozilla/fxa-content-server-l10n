@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-02 19:10+0000\n"
-"Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
+"PO-Revision-Date: 2016-05-05 15:40+0000\n"
+"Last-Translator: Gonçalo Matos <goncalo.matos@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -266,11 +266,11 @@ msgstr ""
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr "Iniciar sessão no Sync:"
+msgstr "Inicie sessão no Sync:"
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Forgot your password?"
-msgstr "Esqueceu-se da sua palavra-passe?"
+msgstr "Repor palavra-passe"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid ""
@@ -550,7 +550,7 @@ msgstr "As Contas Firefox necessitam de JavaScript."
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
-msgstr "Política de Privacidade"
+msgstr "Política de privacidade"
 
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
@@ -560,7 +560,7 @@ msgstr "Serviços do Firefox na cloud"
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
-msgstr "Termos do Serviço"
+msgstr "Termos de utilização"
 
 #~ msgid "env"
 #~ msgstr "env"
