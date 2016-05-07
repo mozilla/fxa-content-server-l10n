@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-07 09:05+0000\n"
+"PO-Revision-Date: 2016-05-07 09:54+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -27,11 +27,11 @@ msgstr "تم إلغاء حظر الحساب، الرجاء المحاولة مر
 #: app/scripts/views/confirm_reset_password.js:174
 #: app/scripts/views/ready.js:48
 msgid "Password reset"
-msgstr "تم إعادة تعيين كلمة المرور"
+msgstr "تم إعادة تعيين كلمة السر"
 
 #: app/scripts/views/confirm_reset_password.js:203
 msgid "Password reset successfully. Sign in to continue."
-msgstr "تم إعادة تعيين كلمة المرور بنجاح. سجل الدخول للاستمرار."
+msgstr "تم إعادة تعيين كلمة السر بنجاح. سجل الدخول للاستمرار."
 
 #: app/scripts/views/permissions.js:25
 msgid "%(permissionName)s (required)"
@@ -95,11 +95,11 @@ msgstr "الحساب موجودٌ مسبقًا. <a href=\"/signin\">سجل ال�
 
 #: app/scripts/views/settings/avatar_gravatar.js:89
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr ""
+msgstr "الصورة مأخوذة من <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
 #: app/scripts/views/settings/change_password.js:46
 msgid "Password changed successfully"
-msgstr "تم إعادة ضبط كلمة المرور"
+msgstr "تم إعادة ضبط كلمة السر"
 
 #: app/scripts/views/settings/communication_preferences.js:116
 msgid "Subscribed successfully"
@@ -143,7 +143,7 @@ msgstr ""
 
 #: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
-msgstr ""
+msgstr "تم تحديث أسم الحساب"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
 msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
@@ -157,7 +157,7 @@ msgstr "تم حظر حسابك لأسباب تتعلق بالأمان"
 #: app/scripts/views/mixins/account-reset-mixin.js:43
 #: app/scripts/templates/reset_password.mustache:6
 msgid "Reset password"
-msgstr "إعادة تعيين كلمة المرور"
+msgstr "إعادة تعيين كلمة السر"
 
 #: app/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
@@ -201,7 +201,7 @@ msgstr "صيغة البريد الإلكتروني غير صحيحة"
 
 #: app/scripts/lib/auth-errors.js:53
 msgid "Incorrect password"
-msgstr "كلمة المرور غير صحيحة"
+msgstr "كلمة السر غير صحيحة"
 
 #: app/scripts/lib/auth-errors.js:57
 msgid "Unverified account"
@@ -213,11 +213,11 @@ msgstr "رمز التأكيد غير صحيح"
 
 #: app/scripts/lib/auth-errors.js:65
 msgid "Invalid JSON in request body"
-msgstr ""
+msgstr "JSONغير صالح في متن الطلب"
 
 #: app/scripts/lib/auth-errors.js:69 app/scripts/lib/profile-errors.js:23
 msgid "Invalid parameter in request body: %(param)s"
-msgstr ""
+msgstr "معاملات غير صالح في متن الطلب: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:73
 msgid "Missing parameter in request body: %(param)s"
@@ -225,7 +225,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
-msgstr ""
+msgstr "طلب التوقيع غير صالح"
 
 #: app/scripts/lib/auth-errors.js:81
 msgid "Missing content-length header"
@@ -267,7 +267,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:129
 msgid "Passwords do not match"
-msgstr "كلمات المرور غير متطابقة"
+msgstr "كلمات السر غير متطابقة"
 
 #: app/scripts/lib/auth-errors.js:133
 msgid "Working…"
@@ -283,7 +283,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:145
 msgid "Your new password must be different"
-msgstr "كلمة المرور الجديدة يجب أن تكون مختلفة"
+msgstr "كلمة السر الجديدة يجب أن تكون مختلفة"
 
 #: app/scripts/lib/auth-errors.js:149
 #: app/scripts/templates/complete_reset_password.mustache:15
@@ -359,11 +359,11 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:258
 msgid "Account no longer exists."
-msgstr ""
+msgstr "الحساب لم يعد موجود."
 
 #: app/scripts/lib/auth-errors.js:262
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "خاصية غير صالحة لاستكمال رمز التسجيل: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:266
 msgid "Missing property in resume token: %(property)s"
@@ -371,7 +371,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:270
 msgid "Invalid data-flow-begin attribute"
-msgstr ""
+msgstr "خاصة data-flow-begin غير صالحة"
 
 #: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -387,7 +387,7 @@ msgstr ""
 
 #: app/scripts/lib/oauth-errors.js:34
 msgid "Invalid assertion"
-msgstr ""
+msgstr "إجراء غير صحيح"
 
 #: app/scripts/lib/oauth-errors.js:38
 msgid "Unknown code"
@@ -403,7 +403,7 @@ msgstr "رمز منتهي الصلاحية"
 
 #: app/scripts/lib/oauth-errors.js:54 app/scripts/lib/oauth-errors.js:76
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr ""
+msgstr "معاملات OAuth غير صحيحة: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
@@ -572,7 +572,7 @@ msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:8
 msgid "Passwords"
-msgstr "كلمات المرور"
+msgstr "كلمات السر"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:10
 msgid "History"
@@ -612,13 +612,13 @@ msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
-msgstr "انتهت مُدة صلاحية الرابط الخاص بإعادة تعيين كلمة المرور"
+msgstr "انتهت مُدة صلاحية الرابط الخاص بإعادة تعيين كلمة السر"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
 msgstr ""
-"انتهت مُدة صلاحية الرابط الذي قمت بالنقر علية لإعادة تعيين كلمة المرور "
-"الخاصة بك."
+"انتهت مُدة صلاحية الرابط الذي قمت بالنقر علية لإعادة تعيين كلمة السر الخاصة "
+"بك."
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
@@ -637,7 +637,7 @@ msgid ""
 "Once you submit your new password, you will lose any Sync data that is not "
 "on one of your devices."
 msgstr ""
-"عند أدخال كلمة المرور الجديدة الخاصة بك، سوف تفقد أي بيانات متزامنة ليس على "
+"عند أدخال كلمة السر الجديدة الخاصة بك، سوف تفقد أي بيانات متزامنة ليس على "
 "واحد من الأجهزة الخاصة بك."
 
 #: app/scripts/templates/complete_reset_password.mustache:11
@@ -648,7 +648,7 @@ msgstr ""
 #: app/scripts/templates/complete_reset_password.mustache:13
 #: app/scripts/templates/settings/change_password.mustache:7
 msgid "New password"
-msgstr ""
+msgstr "كلمة السرّ الجّديدة"
 
 #: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/complete_reset_password.mustache:17
@@ -665,11 +665,11 @@ msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:16
 msgid "Repeat password"
-msgstr ""
+msgstr "كرر كلمة السرّ"
 
 #: app/scripts/templates/complete_reset_password.mustache:18
 msgid "Submit new password"
-msgstr ""
+msgstr "أرسِل كلمة السرّ الجّديدة"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
@@ -714,13 +714,15 @@ msgid ""
 "Click on the link we've emailed you at %(email)s within the next hour to "
 "create a new password."
 msgstr ""
+"أنقر علي الرابط المُرسل ألي بريدك الإلكتروني %(email)s في خلال ساعة لنشاء "
+"كلمة سرّ جديدة."
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
 #: app/scripts/templates/reset_password.mustache:7
 #: app/scripts/templates/reset_password.mustache:9
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "تذكّر كلمة السر؟ سجل الدخول."
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -752,7 +754,7 @@ msgstr ""
 #: app/scripts/templates/settings/change_password.mustache:1
 #: app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
-msgstr ""
+msgstr "كلمة السرّ"
 
 #: app/scripts/templates/force_auth.mustache:6
 #: app/scripts/templates/sign_in.mustache:1
@@ -769,7 +771,7 @@ msgstr ""
 #: app/scripts/templates/sign_in.mustache:25
 #: app/scripts/templates/settings/change_password.mustache:6
 msgid "Forgot password?"
-msgstr ""
+msgstr "هل نسيت كلمة السرّ؟"
 
 #: app/scripts/templates/force_auth.mustache:8
 #: app/scripts/templates/sign_in.mustache:27
@@ -876,7 +878,7 @@ msgstr ""
 
 #: app/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
-msgstr ""
+msgstr "نسيت كلمة السرّ"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
@@ -1009,7 +1011,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
-msgstr ""
+msgstr "كلمة السرّ القديمة"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
@@ -1091,6 +1093,8 @@ msgid ""
 "Choose the account you would like to use to sync your tabs, bookmarks, "
 "passwords and more."
 msgstr ""
+"اختر الحساب الذي ترغب في استخدامه لمزامنة علامات التبويب و الإشارات المرجعية"
+" وكلمات السرّ و المزيد."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
