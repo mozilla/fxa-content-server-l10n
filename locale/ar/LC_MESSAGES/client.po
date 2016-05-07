@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-07 10:28+0000\n"
+"PO-Revision-Date: 2016-05-07 17:23+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -66,11 +66,11 @@ msgstr "مرحبًا بعودتك مرة أخرى"
 
 #: app/scripts/views/ready.js:44
 msgid "Firefox Sync will resume momentarily"
-msgstr "سيُستكمل فَيَرفُكس التزامن تلقائيا"
+msgstr "تزامُن فَيَرفُكس سيُستكمل تلقائيًا"
 
 #: app/scripts/views/ready.js:54
 msgid "Welcome to Sync"
-msgstr "مرحبًا بكم في المزامنة"
+msgstr "مرحبًا بكم في التزامُن"
 
 #: app/scripts/views/ready.js:59
 msgid "Account verified"
@@ -221,7 +221,7 @@ msgstr "معاملات غير صالح في متن الطلب: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:73
 msgid "Missing parameter in request body: %(param)s"
-msgstr ""
+msgstr "معاملات مفقودة في متن الطلب: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
@@ -229,33 +229,33 @@ msgstr "طلب التوقيع غير صالح"
 
 #: app/scripts/lib/auth-errors.js:81
 msgid "Missing content-length header"
-msgstr ""
+msgstr "فقد عنوان خاصية content-length"
 
 #: app/scripts/lib/auth-errors.js:85
 msgid "Request body too large"
-msgstr ""
+msgstr "متن الطلب كبير جداً"
 
 #: app/scripts/lib/auth-errors.js:89
 msgid "Attempt limit exceeded"
-msgstr ""
+msgstr "تجاوزت عدد المحاولات المسموح بها"
 
 #: app/scripts/lib/auth-errors.js:105
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "الخادوم مشغول، حاول مرة أخرى قريبًا"
 
 #: app/scripts/lib/auth-errors.js:109
 msgid "This endpoint is no longer supported"
-msgstr ""
+msgstr "نقطة النهاية هذه لم تعد مدعومة"
 
 #: app/scripts/lib/auth-errors.js:113 app/scripts/lib/config-loader.js:73
 #: app/scripts/lib/marketing-email-errors.js:79
 #: app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:39
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "النظام غير متوفر، حاول مرة أخرى قريبًا"
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/oauth-errors.js:104
 msgid "no message"
-msgstr ""
+msgstr "لا توجد رسائل"
 
 #: app/scripts/lib/auth-errors.js:121
 msgid "Session expired. Sign in to continue."
@@ -263,15 +263,15 @@ msgstr "انتهت مُدة صلاحية الجلسة. سجل الدخول لل�
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "الكوكيز لا تزال معطّلة"
 
 #: app/scripts/lib/auth-errors.js:129
 msgid "Passwords do not match"
-msgstr "كلمات السر غير متطابقة"
+msgstr "كلمات السرّ غير متطابقة"
 
 #: app/scripts/lib/auth-errors.js:133
 msgid "Working…"
-msgstr ""
+msgstr "قيد العمل…"
 
 #: app/scripts/lib/auth-errors.js:137
 msgid "Could not get Privacy Notice"
@@ -347,7 +347,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:242
 msgid "Signup has been disabled"
-msgstr ""
+msgstr "عُطل التسجيل"
 
 #: app/scripts/lib/auth-errors.js:246
 msgid "You must enter your age to sign up"
@@ -355,7 +355,7 @@ msgstr "يجب أدخال عمرك حتي يتم أنشاء الحساب"
 
 #: app/scripts/lib/auth-errors.js:250
 msgid "No Gravatar found"
-msgstr ""
+msgstr "لم يُعثر على أي صورة لك"
 
 #: app/scripts/lib/auth-errors.js:258
 msgid "Account no longer exists."
@@ -375,7 +375,7 @@ msgstr "خاصة data-flow-begin غير صالحة"
 
 #: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
-msgstr ""
+msgstr "هل تقصد <span tabindex=\"1\">%(domain)s</span>؟"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -383,7 +383,7 @@ msgstr "مستخدم غير معروف"
 
 #: app/scripts/lib/oauth-errors.js:30
 msgid "Incorrect redirect_uri"
-msgstr ""
+msgstr "رابط إعادة توجيه غير صحيح"
 
 #: app/scripts/lib/oauth-errors.js:34
 msgid "Invalid assertion"
@@ -395,7 +395,7 @@ msgstr "رمز غير معروف"
 
 #: app/scripts/lib/oauth-errors.js:42
 msgid "Incorrect code"
-msgstr ""
+msgstr "رمز غير صحيح"
 
 #: app/scripts/lib/oauth-errors.js:46
 msgid "Expired code"
@@ -407,11 +407,11 @@ msgstr "معاملات OAuth غير صحيحة: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
-msgstr ""
+msgstr "غير مخوّل"
 
 #: app/scripts/lib/oauth-errors.js:66
 msgid "Forbidden"
-msgstr ""
+msgstr "ممنوع"
 
 #: app/scripts/lib/oauth-errors.js:88
 msgid "Something went wrong. Please close this tab and try again."
@@ -504,13 +504,13 @@ msgstr ""
 #: app/scripts/templates/confirm_account_unlock.mustache:2
 #: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email resent"
-msgstr ""
+msgstr "تم إعادة إرسال البريد الإلكتروني"
 
 #: app/scripts/lib/strings.js:41 app/scripts/templates/confirm.mustache:3
 #: app/scripts/templates/confirm_account_unlock.mustache:3
 #: app/scripts/templates/confirm_reset_password.mustache:3
 msgid "Email Sent"
-msgstr ""
+msgstr "أُرسل بريد الإلكتروني"
 
 #: app/scripts/lib/strings.js:42
 msgid ""
@@ -520,7 +520,7 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:43 app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
-msgstr ""
+msgstr "افتح بريد Gmail"
 
 #: app/scripts/lib/strings.js:44 app/scripts/templates/confirm.mustache:7
 #: app/scripts/templates/confirm_account_unlock.mustache:6
@@ -643,7 +643,7 @@ msgstr ""
 #: app/scripts/templates/complete_reset_password.mustache:11
 #: app/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
-msgstr ""
+msgstr "اطّلع كيف يعمل التزامُن."
 
 #: app/scripts/templates/complete_reset_password.mustache:13
 #: app/scripts/templates/settings/change_password.mustache:7
@@ -661,7 +661,7 @@ msgstr "كلمة السرّ الجّديدة"
 #: app/scripts/templates/settings/delete_account.mustache:5
 #: app/scripts/templates/settings/devices.mustache:3
 msgid "Show"
-msgstr ""
+msgstr "أظهر"
 
 #: app/scripts/templates/complete_reset_password.mustache:16
 msgid "Repeat password"
@@ -685,7 +685,7 @@ msgstr "خطأ في التأكيد"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
-msgstr ""
+msgstr "أكد حسابك"
 
 #: app/scripts/templates/confirm.mustache:4
 msgid "A verification link has been sent&nbsp;to %(email)s"
@@ -763,7 +763,7 @@ msgstr "كلمة السرّ"
 #: app/scripts/templates/sign_in.mustache:14
 #: app/scripts/templates/sign_in.mustache:22
 msgid "Sign in"
-msgstr ""
+msgstr "تسجيل الدخول"
 
 #: app/scripts/templates/force_auth.mustache:7
 #: app/scripts/templates/sign_in.mustache:11
@@ -781,21 +781,24 @@ msgid ""
 "href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
 "href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
+"بالمتابعة، أنت توافق على <a id=\"fxa-tos\" href=\"/legal/terms\">شروط "
+"الخدمة</a> و <a id=\"fxa-pp\" href=\"/legal/privacy\">الخصوصية</a> لخدمات "
+"سحابة فايرفوكس."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "خدمات فَيَرفُكس السّحابيّة"
 
 #: app/scripts/templates/legal.mustache:2
 msgid "Legal"
-msgstr ""
+msgstr "قانوني"
 
 #: app/scripts/templates/legal.mustache:3
 #: app/scripts/templates/settings.mustache:5
 #: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
-msgstr ""
+msgstr "شروط الخدمة"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
 #: app/scripts/templates/settings.mustache:6
@@ -1072,17 +1075,17 @@ msgstr ""
 
 #: app/scripts/templates/settings/devices.mustache:11
 msgid "Refresh"
-msgstr ""
+msgstr "أعِد التّحميل"
 
 #: app/scripts/templates/settings/display_name.mustache:3
 msgid ""
 "Choose the name you would like to appear in Firefox and when managing your "
 "account."
-msgstr ""
+msgstr "اختر الاسم الذي تفضل أن يظهر لك في فَيَرفُكس و عند إدارة حسابك."
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
-msgstr ""
+msgstr "كم هو عُمرك؟"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
