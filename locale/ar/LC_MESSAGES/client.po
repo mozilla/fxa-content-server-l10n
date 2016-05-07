@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-06 21:32+0000\n"
+"PO-Revision-Date: 2016-05-07 09:05+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -35,7 +35,7 @@ msgstr "تم إعادة تعيين كلمة المرور بنجاح. سجل ال
 
 #: app/scripts/views/permissions.js:25
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName)s (مطلوبة)"
 
 #: app/scripts/views/permissions.js:31
 msgid "Email address"
@@ -45,7 +45,7 @@ msgstr "البريد الإلكتروني"
 #: app/scripts/templates/settings/display_name.mustache:1
 #: app/scripts/templates/settings/display_name.mustache:4
 msgid "Display name"
-msgstr ""
+msgstr "أسم الحساب"
 
 #: app/scripts/views/permissions.js:40
 #: app/scripts/templates/settings/avatar.mustache:1
@@ -79,19 +79,19 @@ msgstr "اُكّد الحساب"
 #: app/scripts/views/ready.js:60 app/scripts/lib/strings.js:47
 #: app/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
-msgstr ""
+msgstr "أنت الآن جاهز للاستخدام %(serviceName)s"
 
 #: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:144
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "الحساب غير معروف. <a href=\"/signup\">أنشئ حسابًا</a>"
 
 #: app/scripts/views/sign_up.js:68
 msgid "Account no longer exists. Recreate it?"
-msgstr ""
+msgstr "الحساب لم يعد موجود. أعد أنشأة؟"
 
 #: app/scripts/views/sign_up.js:398
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr ""
+msgstr "الحساب موجودٌ مسبقًا. <a href=\"/signin\">سجل الدخول</a>"
 
 #: app/scripts/views/settings/avatar_gravatar.js:89
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
@@ -351,7 +351,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:246
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "يجب أدخال عمرك حتي يتم أنشاء الحساب"
 
 #: app/scripts/lib/auth-errors.js:250
 msgid "No Gravatar found"
@@ -379,7 +379,7 @@ msgstr ""
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
-msgstr ""
+msgstr "مستخدم غير معروف"
 
 #: app/scripts/lib/oauth-errors.js:30
 msgid "Incorrect redirect_uri"
@@ -391,7 +391,7 @@ msgstr ""
 
 #: app/scripts/lib/oauth-errors.js:38
 msgid "Unknown code"
-msgstr ""
+msgstr "رمز غير معروف"
 
 #: app/scripts/lib/oauth-errors.js:42
 msgid "Incorrect code"
