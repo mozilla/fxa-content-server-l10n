@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-04-30 23:33+0000\n"
+"PO-Revision-Date: 2016-05-07 15:12+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -146,8 +146,7 @@ msgid "Display name updated"
 msgstr "Anovóse'l nome p'amosar"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "Bloquióse la cuenta. <a href=\"/confirm_account_unlock\">Unviar corréu de "
 "desbloquéu</a>"
@@ -169,7 +168,8 @@ msgstr "Zarresti sesión con ésitu"
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -318,7 +318,8 @@ msgstr "Ríquese una URL válida"
 #: app/scripts/lib/auth-errors.js:191
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr ""
-"Ta acabantes devolvese'l to corréu de verificación. ¿Direición mal teclexada?"
+"Ta acabantes devolvese'l to corréu de verificación. ¿Direición mal "
+"teclexada?"
 
 #: app/scripts/lib/auth-errors.js:199
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -366,15 +367,15 @@ msgstr "Yá nun esiste la cuenta."
 
 #: app/scripts/lib/auth-errors.js:262
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "Propiedá non válida nel pase de resume: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:266
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "Propiedá faltante nel pase de resume: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:270
 msgid "Invalid data-flow-begin attribute"
-msgstr ""
+msgstr "Atributu data-flow-begin non válidu"
 
 #: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -438,13 +439,15 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"Siguiendo, tas acordies colos <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">términos del serviciu</a> y l'<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">avisu de privacidá</a> de %(serviceName)s (%(serviceUri)s)."
+"Siguiendo, tas acordies colos <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">términos del serviciu</a> y l'<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">avisu de privacidá</a> de %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:26
 msgid ""
@@ -491,8 +494,8 @@ msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
 msgstr ""
-"Pa más información, visita'l <a %(supportLinkAttributes)s>sofitu de Mozilla</"
-"a>, por favor"
+"Pa más información, visita'l <a %(supportLinkAttributes)s>sofitu de "
+"Mozilla</a>, por favor"
 
 #: app/scripts/lib/strings.js:36
 msgid "Verify Email"
@@ -531,8 +534,8 @@ msgid ""
 "To better protect your Firefox data, we've emailed a confirmation link to "
 "%(email)s"
 msgstr ""
-"Pa protexer meyor los tos datos de Firefox, unviémoste un corréu a %(email)s "
-"con un enllaz de verificación"
+"Pa protexer meyor los tos datos de Firefox, unviémoste un corréu a %(email)s"
+" con un enllaz de verificación"
 
 #: app/scripts/lib/strings.js:43 app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
@@ -606,7 +609,7 @@ msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
-msgstr ""
+msgstr "Guardar axustes"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
@@ -716,11 +719,11 @@ msgstr "Unvióse l'enllaz de desbloquéu"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification"
+" link sent to %(email)s"
 msgstr ""
-"Por razones de seguranza, pesllóse la to cuenta. Pa facer actividaes a nivel "
-"de cuenta, volvi verificar la to cuenta primiendo l'enllaz de verificación "
+"Por razones de seguranza, pesllóse la to cuenta. Pa facer actividaes a nivel"
+" de cuenta, volvi verificar la to cuenta primiendo l'enllaz de verificación "
 "unviáu a %(email)s, por favor"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
@@ -749,8 +752,8 @@ msgstr "Ríquense les cookies y l'almacenamientu llocal"
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between "
-"sessions."
+"Accounts. Doing so will enable functionality such as remembering you between"
+" sessions."
 msgstr ""
 "Habilita les cookies y l'almcenamientu llocal nel to restolador p'acceder a "
 "les cuentes de Firefox, por favor. Faciéndolo, habilitaránse funcionalidaes "
@@ -798,13 +801,14 @@ msgstr "¿Contraseña escaecida?"
 #: app/scripts/templates/sign_in.mustache:27
 #: app/scripts/templates/sign_up.mustache:17
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
-"Siguiendo, tas acordies colos <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">términos del serviciu</a> y l'<a id=\"fxa-pp\" href=\"/legal/privacy"
-"\">avisu de privacidá</a> de los servicios na ñube de Firefox."
+"Siguiendo, tas acordies colos <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">términos del serviciu</a> y l'<a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">avisu de privacidá</a> de los servicios na ñube de "
+"Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -906,11 +910,11 @@ msgstr "Contraseña escaecida"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
-"When you reset your password, you will lose any Sync data that is not on one "
-"of your devices."
+"When you reset your password, you will lose any Sync data that is not on one"
+" of your devices."
 msgstr ""
-"Al reaniciar la to contraseña, perderás cualesquier datu de Sync que nun tea "
-"nún de los tos preseos."
+"Al reaniciar la to contraseña, perderás cualesquier datu de Sync que nun tea"
+" nún de los tos preseos."
 
 #: app/scripts/templates/reset_password.mustache:5
 #: app/scripts/templates/sign_in.mustache:18
@@ -959,10 +963,11 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
+"in</a>"
 msgstr ""
-"¿Tienes una cuenta con un corréu diferente? <a href=\"%(signinUri)s\">Anicia "
-"sesión</a>"
+"¿Tienes una cuenta con un corréu diferente? <a href=\"%(signinUri)s\">Anicia"
+" sesión</a>"
 
 #: app/scripts/templates/sign_up.mustache:18
 #: app/scripts/templates/settings/communication_preferences.mustache:7
@@ -971,7 +976,7 @@ msgstr "Consigui les caberes noticies tocante a Mozilla y Firefox."
 
 #: app/scripts/templates/sign_up.mustache:24
 msgid "Create account"
-msgstr ""
+msgstr "Crear cuenta"
 
 #: app/scripts/templates/sign_up.mustache:29
 msgid "Have an account? Sign in."
@@ -1077,13 +1082,13 @@ msgstr "Preseos"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox ta disponible pa <a href=\"%(linkLinux)s\">Linux</a> , <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> y <a href=\"%(linkWindows)s\">Windows</a>."
+"Firefox ta disponible pa <a href=\"%(linkLinux)s\">Linux</a> , <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> y <a href=\"%(linkWindows)s\">Windows</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
