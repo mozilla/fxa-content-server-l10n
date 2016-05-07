@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-07 09:54+0000\n"
+"PO-Revision-Date: 2016-05-07 10:28+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -431,7 +431,7 @@ msgstr ""
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
-msgstr ""
+msgstr "تزامُن فَيَرفُكس"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
@@ -556,19 +556,19 @@ msgstr ""
 #: app/scripts/templates/sign_up.mustache:21
 #: app/scripts/templates/sign_up.mustache:26
 msgid "Choose what to sync"
-msgstr ""
+msgstr "اختر ما الذي تريد مزامنة"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Tabs"
-msgstr ""
+msgstr "ألسنتي"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
-msgstr ""
+msgstr "علاماتي"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
-msgstr ""
+msgstr "الإضافات"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:8
 msgid "Passwords"
@@ -576,19 +576,19 @@ msgstr "كلمات السر"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:10
 msgid "History"
-msgstr ""
+msgstr "تأريخي"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:13
 msgid "Preferences"
-msgstr ""
+msgstr "تفضيلاتي"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr ""
+msgstr "الإضافات و التفضيلات لا تزامُن على الأجهزة النقالة حاليًا."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
-msgstr ""
+msgstr "حفظ الإعدادات"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
@@ -596,7 +596,7 @@ msgstr "انتهت مُدة صلاحية الرابط الخاص بإلغاء ا
 
 #: app/scripts/templates/complete_account_unlock.mustache:4
 msgid "Unlock link damaged"
-msgstr ""
+msgstr "تضرّر رابط إلغاء الحظر"
 
 #: app/scripts/templates/complete_account_unlock.mustache:5
 #: app/scripts/templates/complete_reset_password.mustache:7
@@ -608,7 +608,7 @@ msgstr ""
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
-msgstr ""
+msgstr "خطأ عند إلغاء الحظر"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -693,7 +693,7 @@ msgstr "أُرسلت رابط التأكيد&nbsp;إلى%(email)s"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:1
 msgid "Unlock email sent"
-msgstr ""
+msgstr "تم إرسال بريد إلغاء الحظر"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
@@ -1093,8 +1093,8 @@ msgid ""
 "Choose the account you would like to use to sync your tabs, bookmarks, "
 "passwords and more."
 msgstr ""
-"اختر الحساب الذي ترغب في استخدامه لمزامنة علامات التبويب و الإشارات المرجعية"
-" وكلمات السرّ و المزيد."
+"اختر الحساب الذي ترغب في استخدامه لمزامنة الألسنة و الإشارات المرجعية وكلمات"
+" السر و المزيد."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
