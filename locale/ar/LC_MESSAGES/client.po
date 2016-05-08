@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-07 17:23+0000\n"
+"PO-Revision-Date: 2016-05-08 22:48+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -27,11 +27,11 @@ msgstr "تم إلغاء حظر الحساب، الرجاء المحاولة مر
 #: app/scripts/views/confirm_reset_password.js:174
 #: app/scripts/views/ready.js:48
 msgid "Password reset"
-msgstr "تم إعادة تعيين كلمة السر"
+msgstr "تم إعادة تعيين كلمة السرّ"
 
 #: app/scripts/views/confirm_reset_password.js:203
 msgid "Password reset successfully. Sign in to continue."
-msgstr "تم إعادة تعيين كلمة السر بنجاح. سجل الدخول للاستمرار."
+msgstr "تم إعادة تعيين كلمة السرّ بنجاح. سجل الدخول للاستمرار."
 
 #: app/scripts/views/permissions.js:25
 msgid "%(permissionName)s (required)"
@@ -99,7 +99,7 @@ msgstr "الصورة مأخوذة من <a href=\"https://www.gravatar.com\">Grav
 
 #: app/scripts/views/settings/change_password.js:46
 msgid "Password changed successfully"
-msgstr "تم إعادة ضبط كلمة السر"
+msgstr "تم إعادة ضبط كلمة السرّ"
 
 #: app/scripts/views/settings/communication_preferences.js:116
 msgid "Subscribed successfully"
@@ -157,7 +157,7 @@ msgstr "تم حظر حسابك لأسباب تتعلق بالأمان"
 #: app/scripts/views/mixins/account-reset-mixin.js:43
 #: app/scripts/templates/reset_password.mustache:6
 msgid "Reset password"
-msgstr "إعادة تعيين كلمة السر"
+msgstr "إعادة تعيين كلمة السرّ"
 
 #: app/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
@@ -201,7 +201,7 @@ msgstr "صيغة البريد الإلكتروني غير صحيحة"
 
 #: app/scripts/lib/auth-errors.js:53
 msgid "Incorrect password"
-msgstr "كلمة السر غير صحيحة"
+msgstr "كلمة السرّ غير صحيحة"
 
 #: app/scripts/lib/auth-errors.js:57
 msgid "Unverified account"
@@ -275,55 +275,55 @@ msgstr "قيد العمل…"
 
 #: app/scripts/lib/auth-errors.js:137
 msgid "Could not get Privacy Notice"
-msgstr ""
+msgstr "لا يمكن الحصول على تنويه الخصوصية"
 
 #: app/scripts/lib/auth-errors.js:141
 msgid "Could not get Terms of Service"
-msgstr ""
+msgstr "لا يمكن الحصول على شروط الخدمة"
 
 #: app/scripts/lib/auth-errors.js:145
 msgid "Your new password must be different"
-msgstr "كلمة السر الجديدة يجب أن تكون مختلفة"
+msgstr "كلمة السرّ الجديدة يجب أن تكون مختلفة"
 
 #: app/scripts/lib/auth-errors.js:149
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
-msgstr ""
+msgstr "يجب ألا تقل كلمة السر عن 8 أحرف"
 
 #: app/scripts/lib/auth-errors.js:153
 msgid "Valid password required"
-msgstr "كلمة مرور صالحة مطلوبة"
+msgstr "كلمة سرّ صالحة مطلوبة"
 
 #: app/scripts/lib/auth-errors.js:157 app/scripts/lib/auth-errors.js:195
 #: app/scripts/lib/auth-errors.js:211
 msgid "Valid email required"
-msgstr ""
+msgstr "أدخل بريد الإلكتروني صالح"
 
 #: app/scripts/lib/auth-errors.js:168
 msgid "A usable image was not found"
-msgstr ""
+msgstr "لم يُعثر على صورة قابلة للاستخدام"
 
 #: app/scripts/lib/auth-errors.js:172
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "تعذّر تشغيل الكاميرة"
 
 #: app/scripts/lib/auth-errors.js:176
 msgid "Valid URL required"
-msgstr ""
+msgstr "مطلوب URL صالح"
 
 #: app/scripts/lib/auth-errors.js:191
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr "لم نجد بريدك الإلكتروني. خطأ في كتابة البريد الإلكتروني؟"
+msgstr "لم نجد بريدك الإلكتروني. هناك خطأ في كتابة البريد الإلكتروني؟"
 
 #: app/scripts/lib/auth-errors.js:199
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "أدخل عنوان بريد إلكتروني صالح. firefox.com لا يقدم بريد الإلكتروني."
 
 #: app/scripts/lib/auth-errors.js:207
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "يمكن وضع حسابات فَيَرفُكس في IFRAME فقط في المواقع المُصدّقة"
 
 #: app/scripts/lib/auth-errors.js:222
 #: app/scripts/templates/complete_account_unlock.mustache:2
@@ -339,11 +339,11 @@ msgstr "تضرّر رابط التأكيد"
 
 #: app/scripts/lib/auth-errors.js:234
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "يجب أن تكون أبعاد الصورة على الأقل 100×100 بكسل"
 
 #: app/scripts/lib/auth-errors.js:238
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "سيتوفر قريبًا إنشاء حساب فَيَرفُكس على نظام iOS"
 
 #: app/scripts/lib/auth-errors.js:242
 msgid "Signup has been disabled"
@@ -363,11 +363,11 @@ msgstr "الحساب لم يعد موجود."
 
 #: app/scripts/lib/auth-errors.js:262
 msgid "Invalid property in resume token: %(property)s"
-msgstr "خاصية غير صالحة لاستكمال رمز التسجيل: %(property)s"
+msgstr "خاصية غير صالحة للاستكمال رمز التسجيل: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:266
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "خاصية مفقود للاستكمال رمز التسجيل: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:270
 msgid "Invalid data-flow-begin attribute"
@@ -415,11 +415,11 @@ msgstr "ممنوع"
 
 #: app/scripts/lib/oauth-errors.js:88
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "حدث خطأ ما. الرجاء أغلق هذا اللسان وحاول مرة أخرى."
 
 #: app/scripts/lib/oauth-errors.js:108
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "معاملات OAuth مفقودة: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:27
 msgid "Unsupported image provider"
@@ -440,6 +440,9 @@ msgid ""
 "href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
 "(%(serviceUri)s)."
 msgstr ""
+"بالمتابعة، أنت توافق على <a id=\"service-tos\" href=\"%(termsUri)s\">شروط "
+"الخدمة</a> و <a id=\"service-pp\" href=\"%(privacyUri)s\">سياسة "
+"الخصوصيّة</a> من خدمات %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:26
 msgid ""
@@ -526,31 +529,31 @@ msgstr "افتح بريد Gmail"
 #: app/scripts/templates/confirm_account_unlock.mustache:6
 #: app/scripts/templates/confirm_reset_password.mustache:9
 msgid "Resend email"
-msgstr ""
+msgstr "أعِد إرسال الرسالة"
 
 #: app/scripts/lib/strings.js:45
 #: app/scripts/templates/choose_what_to_sync.mustache:16
 #: app/scripts/templates/confirm_account_unlock.mustache:5
 #: app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
-msgstr ""
+msgstr "رجوع"
 
 #: app/scripts/lib/strings.js:46
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "أكُد تسجيل الدخول"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
-msgstr ""
+msgstr "تعذّر إنشاء الحساب"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
 msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr ""
+msgstr "يجب أن تتخطى سنًا معينة لإنشاء حساب فَيَرفُكس."
 
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
-msgstr ""
+msgstr "اطّلع على المزيد."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 #: app/scripts/templates/sign_up.mustache:21
@@ -572,7 +575,7 @@ msgstr "الإضافات"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:8
 msgid "Passwords"
-msgstr "كلمات السر"
+msgstr "كلمات السرّ"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:10
 msgid "History"
@@ -605,6 +608,8 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
+"فُقد بعض الأحرف بالربط الذي قمت بنقرة أو ربما تضرّر بواسطة عميل البريد "
+"الإلكتروني الخاص بك. انسخ العنوان بعناية، وحاول مرة أخرى."
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
@@ -612,13 +617,13 @@ msgstr "خطأ عند إلغاء الحظر"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
-msgstr "انتهت مُدة صلاحية الرابط الخاص بإعادة تعيين كلمة السر"
+msgstr "انتهت مُدة صلاحية الرابط الخاص بإعادة تعيين كلمة السرّ"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
 msgstr ""
-"انتهت مُدة صلاحية الرابط الذي قمت بالنقر علية لإعادة تعيين كلمة السر الخاصة "
-"بك."
+"انتهت مُدة صلاحية الرابط الذي قمت بالنقر علية لإعادة تعيين كلمة السرّ الخاصة"
+" بك."
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
@@ -626,18 +631,18 @@ msgstr "انقر هنا للحصول على رابط إعادة تعيين جد�
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 msgid "Reset password link damaged"
-msgstr "تضرّر رابط إعادة تعيين كلمة المرور"
+msgstr "تضرّر رابط إعادة تعيين كلمة السرّ"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 msgid "Enter new password"
-msgstr "أدخِل كلمة السر الجديدة"
+msgstr "أدخِل كلمة السرّ الجديدة"
 
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid ""
 "Once you submit your new password, you will lose any Sync data that is not "
 "on one of your devices."
 msgstr ""
-"عند أدخال كلمة السر الجديدة الخاصة بك، سوف تفقد أي بيانات متزامنة ليس على "
+"عند أدخال كلمة السرّ الجديدة الخاصة بك، سوف تفقد أي بيانات متزامنة ليس على "
 "واحد من الأجهزة الخاصة بك."
 
 #: app/scripts/templates/complete_reset_password.mustache:11
@@ -737,11 +742,11 @@ msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
-msgstr ""
+msgstr "اطّلع على المزيد"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "حاول مرة أخرى"
 
 #: app/scripts/templates/force_auth.mustache:1
 msgid "Sign in to continue"
@@ -782,8 +787,8 @@ msgid ""
 "href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
 "بالمتابعة، أنت توافق على <a id=\"fxa-tos\" href=\"/legal/terms\">شروط "
-"الخدمة</a> و <a id=\"fxa-pp\" href=\"/legal/privacy\">الخصوصية</a> لخدمات "
-"سحابة فايرفوكس."
+"الخدمة</a> و <a id=\"fxa-pp\" href=\"/legal/privacy\">سياسة الخصوصيّة</a> "
+"لخدمات فَيَرفُكس السحابية."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -803,7 +808,7 @@ msgstr "شروط الخدمة"
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
 #: app/scripts/templates/settings.mustache:6
 msgid "Privacy Notice"
-msgstr ""
+msgstr "تنويه الخصوصية"
 
 #: app/scripts/templates/marketing_snippet.mustache:1
 msgid "Stay in sync on the go:"
@@ -888,7 +893,7 @@ msgid ""
 "When you reset your password, you will lose any Sync data that is not on one"
 " of your devices."
 msgstr ""
-"عند إعادة تعيين كلمة المرور الخاصة بك، سوف تفقد أي بيانات متزامنة ليس على "
+"عند إعادة تعيين كلمة السرّ الخاصة بك، سوف تفقد أي بيانات متزامنة ليس على "
 "واحد من الأجهزة الخاصة بك."
 
 #: app/scripts/templates/reset_password.mustache:5
@@ -1009,7 +1014,7 @@ msgid ""
 "Once you're finished, use your new password to sign in on all of your "
 "devices."
 msgstr ""
-"بمجرد الانتهاء من ذلك، أستخدم كلمة المرور الجديدة لتسجيل الدخول من على جميع "
+"بمجرد الانتهاء من ذلك، أستخدم كلمة السرّ الجديدة لتسجيل الدخول من على جميع "
 "الأجهزة الخاصة بك."
 
 #: app/scripts/templates/settings/change_password.mustache:4
@@ -1096,8 +1101,8 @@ msgid ""
 "Choose the account you would like to use to sync your tabs, bookmarks, "
 "passwords and more."
 msgstr ""
-"اختر الحساب الذي ترغب في استخدامه لمزامنة الألسنة و الإشارات المرجعية وكلمات"
-" السر و المزيد."
+"اختر الحساب الذي ترغب في استخدامه لمزامنة الألسنة و العلامات وكلمات السرّ و "
+"المزيد."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
