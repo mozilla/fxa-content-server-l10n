@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-10 17:00+0000\n"
+"PO-Revision-Date: 2016-05-10 17:20+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -1012,7 +1012,7 @@ msgstr "تمّ"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
-msgstr ""
+msgstr "حرك و أدر صورتك حسب حاجتك"
 
 #: app/scripts/templates/settings/avatar_gravatar.mustache:2
 msgid "Save"
