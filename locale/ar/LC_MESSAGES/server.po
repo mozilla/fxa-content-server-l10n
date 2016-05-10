@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-10 20:05+0000\n"
+"PO-Revision-Date: 2016-05-10 20:23+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -71,7 +71,7 @@ msgstr "حسابات فَيَرفُكس"
 #: templates/new_device_login.html:2 templates/new_device_login.txt:1
 #: templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:380
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "تسجيل دخول جديد لفَيَرفٌكس"
 
 #: templates/new_device_login.html:3 templates/password_changed.html:4
 msgid ""
@@ -121,7 +121,7 @@ msgstr ""
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
-msgstr ""
+msgstr "تم إعادة تعيين كلمة السرّ الخاصة بك"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:3
 msgid ""
@@ -145,11 +145,11 @@ msgstr ""
 
 #: templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "تم إعادة تعيين كلمة السرّ بنجاح"
 
 #: templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr ""
+msgstr "تم إعادة تعيين كلمة السرّ الخاصة بحساب فَيَرفُكس بنجاح."
 
 #: templates/password_reset.txt:4
 msgid ""
@@ -207,7 +207,7 @@ msgstr ""
 #: templates/password_reset_required.txt:8
 #: templates/suspicious_location.html:13 templates/suspicious_location.txt:12
 msgid "The Firefox Accounts team"
-msgstr ""
+msgstr "فريق مشروع حسابات فَيَرفُكس"
 
 #: templates/password_reset_required.html:10
 #: templates/password_reset_required.txt:9
@@ -242,7 +242,7 @@ msgstr "سجل الدخول للمزامنة:"
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Forgot your password?"
-msgstr ""
+msgstr "هل نسيت كلمة السرّ؟"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid ""
@@ -256,7 +256,7 @@ msgstr ""
 
 #: templates/reset.html:5 templates/reset.txt:4
 msgid "Reset password"
-msgstr ""
+msgstr "إعادة تعيين كلمة السرّ"
 
 #: templates/suspicious_location.html:2 templates/suspicious_location.txt:1
 msgid ""
@@ -301,6 +301,8 @@ msgid ""
 "account-level activities, please click the link to re-verify your account "
 "now."
 msgstr ""
+"لأسباب أمنيّة تم أغلاق حسابك. للقيام بأنشطة على مستوى الحساب، الرجاء النقر "
+"فوق الرابط لإعادة التحقق من حسابك الآن."
 
 #: templates/unlock.html:4
 msgid "Verify account"
@@ -376,10 +378,12 @@ msgid ""
 "For added security, please confirm this sign-in to begin syncing with "
 "%(device)s."
 msgstr ""
+"لمزيد من الأمان، رجاءً أكّد تسجيل دخولك هذا لبداء علمية التزامُن مع جهاز "
+"%(device)s."
 
 #: templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "أكّد تسجيل الدخول"
 
 #: templates/verify_login.html:6
 msgid ""
@@ -399,15 +403,15 @@ msgstr ""
 
 #: mailer.js:210
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
+msgstr "أكّد تسجيل دخولك الجديد لفَيَرفٌكس"
 
 #: mailer.js:243
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "إعادة تعيين كلمة السرّ الخاصة بحساب فَيَرفُكس"
 
 #: mailer.js:278
 msgid "Re-verify your Firefox Account"
-msgstr ""
+msgstr "إعادة التحقق من حساب فَيَرفُكس الخاص بك"
 
 #: mailer.js:311
 msgid "Your Firefox Account password has been changed"
@@ -415,7 +419,7 @@ msgstr ""
 
 #: mailer.js:333
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "تم إعادة تعيين كلمة السرّ الخاصة بحساب فَيَرفُكس"
 
 #: mailer.js:355
 msgid "Firefox Account password reset required"
