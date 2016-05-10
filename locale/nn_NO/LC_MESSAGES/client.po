@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-09 12:23+0000\n"
+"PO-Revision-Date: 2016-05-10 12:42+0000\n"
 "Last-Translator: bjorn.svindseth <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -35,7 +35,7 @@ msgstr "Passordet et er tilbakestilt. Logg inn for å fortsetja."
 
 #: app/scripts/views/permissions.js:25
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName)s (påkravd)"
 
 #: app/scripts/views/permissions.js:31
 msgid "Email address"
@@ -58,7 +58,7 @@ msgstr "Firefox Sync startar med det same"
 
 #: app/scripts/views/ready.js:38
 msgid "Account unlocked"
-msgstr ""
+msgstr "Konto låst opp"
 
 #: app/scripts/views/ready.js:43
 msgid "Welcome back"
@@ -430,7 +430,7 @@ msgstr ""
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
@@ -549,37 +549,37 @@ msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
-msgstr ""
+msgstr "Les meir."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 #: app/scripts/templates/sign_up.mustache:21
 #: app/scripts/templates/sign_up.mustache:26
 msgid "Choose what to sync"
-msgstr ""
+msgstr "Vel kva som skal synkroniserast"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Tabs"
-msgstr ""
+msgstr "Faner"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
-msgstr ""
+msgstr "Bokmerke"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
-msgstr ""
+msgstr "Utvidingar"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:8
 msgid "Passwords"
-msgstr ""
+msgstr "Passord"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:10
 msgid "History"
-msgstr ""
+msgstr "Historikk"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:13
 msgid "Preferences"
-msgstr ""
+msgstr "Innstillingar"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
@@ -643,7 +643,7 @@ msgstr ""
 #: app/scripts/templates/complete_reset_password.mustache:13
 #: app/scripts/templates/settings/change_password.mustache:7
 msgid "New password"
-msgstr ""
+msgstr "Nytt passord"
 
 #: app/scripts/templates/complete_reset_password.mustache:14
 #: app/scripts/templates/complete_reset_password.mustache:17
@@ -939,7 +939,7 @@ msgstr ""
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
-msgstr ""
+msgstr "Heim"
 
 #: app/scripts/templates/settings/avatar.mustache:2
 #: app/scripts/templates/settings/avatar_crop.mustache:2
