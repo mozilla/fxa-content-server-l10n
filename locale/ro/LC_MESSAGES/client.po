@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-05 02:00+0000\n"
+"PO-Revision-Date: 2016-05-09 23:38+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -376,15 +376,15 @@ msgstr "Contul nu mai există."
 
 #: app/scripts/lib/auth-errors.js:262
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "Proprietate invalidă în tokenul resume: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:266
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "Proprietate lipsă în tokenul resume: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:270
 msgid "Invalid data-flow-begin attribute"
-msgstr ""
+msgstr "Atribut data-flow-begin invalid"
 
 #: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -620,7 +620,7 @@ msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
-msgstr ""
+msgstr "Salvează setările"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
@@ -986,7 +986,7 @@ msgstr "Obține ultimele știri despre Mozilla și Firefox."
 
 #: app/scripts/templates/sign_up.mustache:24
 msgid "Create account"
-msgstr ""
+msgstr "Creează cont"
 
 #: app/scripts/templates/sign_up.mustache:29
 msgid "Have an account? Sign in."
