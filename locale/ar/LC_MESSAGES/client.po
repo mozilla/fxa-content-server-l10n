@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-09 13:17+0000\n"
+"PO-Revision-Date: 2016-05-10 17:00+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -469,7 +469,7 @@ msgid ""
 "For added security, please confirm this sign-in to begin syncing with "
 "%(device)s."
 msgstr ""
-"لمزيد من الأمان، من فضلك أكّد تسجيل دخولك هذا لبداء علمية التزامُن مع جهاز "
+"لمزيد من الأمان، رجاءً أكّد تسجيل دخولك هذا لبداء علمية التزامُن مع جهاز "
 "%(device)s."
 
 #: app/scripts/lib/strings.js:33
@@ -480,13 +480,15 @@ msgstr "بدائل أخري:"
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
-msgstr ""
+msgstr "هذه رسالة آلية، لا تقوم بأي إجراء إذا وصلتك بالخطأ."
 
 #: app/scripts/lib/strings.js:35
 msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
 msgstr ""
+"لمزيد من المعلومات، الرجاء زيارة <a %(supportLinkAttributes)s>مركز موزيلا "
+"للدّعم الفنّي</a>"
 
 #: app/scripts/lib/strings.js:36
 msgid "Verify Email"
@@ -736,7 +738,7 @@ msgstr "تذكّر كلمة السر؟ سجل الدخول."
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
-msgstr ""
+msgstr "الكعكات والتخزين المحلي مطلوبة."
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -744,6 +746,8 @@ msgid ""
 "Accounts. Doing so will enable functionality such as remembering you between"
 " sessions."
 msgstr ""
+"رجاءً فعّل الكعكات و التخزين المحلي في متصفحك للوصول إلى حسابات فَيَرفُكس. "
+"بتفعّيلهم ستعمل وظائف مثل تذكّرك بين الجلسات."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -817,43 +821,43 @@ msgstr "تنويه الخصوصية"
 
 #: app/scripts/templates/marketing_snippet.mustache:1
 msgid "Stay in sync on the go:"
-msgstr ""
+msgstr "ابق متزامنا دائماً:"
 
 #: app/scripts/templates/marketing_snippet.mustache:2
 msgid "Get Firefox for Android"
-msgstr ""
+msgstr "احصل على فَيَرفُكس لأندرويد"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:1
 #: app/scripts/templates/marketing_snippet_ios.mustache:5
 #: app/scripts/templates/marketing_snippet_ios.mustache:9
 msgid "Get the full Sync experience."
-msgstr ""
+msgstr "احصل على تجربة المزامنة الكاملة."
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:2
 #: app/scripts/templates/marketing_snippet_ios.mustache:3
 #: app/scripts/templates/marketing_snippet_ios.mustache:12
 msgid "Download Firefox for iOS!"
-msgstr ""
+msgstr "حمّل فَيَرفُكس لنظام آي أو إس!"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:6
 #: app/scripts/templates/marketing_snippet_ios.mustache:7
 #: app/scripts/templates/marketing_snippet_ios.mustache:11
 msgid "Download Firefox for Android."
-msgstr ""
+msgstr "حمّل فَيَرفُكس لنظام أندرويد."
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr ""
+msgstr "حمّل فَيَرفُكس للأجهزة الجوّالة."
 
 #: app/scripts/templates/permissions.mustache:1
 #: app/scripts/templates/settings/gravatar_permissions.mustache:1
 msgid "Request for permission"
-msgstr ""
+msgstr "طلب الحصول على صلاحية"
 
 #: app/scripts/templates/permissions.mustache:2
 #: app/scripts/templates/settings/gravatar_permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr ""
+msgstr "خدمة %(serviceName)s تريد المعلومات التّالية من حسابك:"
 
 #: app/scripts/templates/permissions.mustache:3
 #: app/scripts/templates/settings/gravatar_permissions.mustache:4
@@ -906,15 +910,15 @@ msgstr ""
 #: app/scripts/templates/sign_up.mustache:11
 #: app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
-msgstr ""
+msgstr "البريد الإلكتروني"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "حسابات فَيَرفُكس"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
-msgstr ""
+msgstr "تسجيل الخروج"
 
 #: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
@@ -929,16 +933,16 @@ msgstr ""
 #: app/scripts/templates/sign_in.mustache:12
 #: app/scripts/templates/sign_in.mustache:15
 msgid "Use a different account"
-msgstr ""
+msgstr "استخدام حساب آخر"
 
 #: app/scripts/templates/sign_in.mustache:26
 msgid "Create an account"
-msgstr ""
+msgstr "أنشئ حسابًا"
 
 #: app/scripts/templates/sign_up.mustache:1
 #: app/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
-msgstr ""
+msgstr "أنشئ حسابَ فَيَرفُكس"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -957,7 +961,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:24
 msgid "Create account"
-msgstr ""
+msgstr "أنشئ حسابًا"
 
 #: app/scripts/templates/sign_up.mustache:29
 msgid "Have an account? Sign in."
@@ -965,7 +969,7 @@ msgstr ""
 
 #: app/scripts/templates/unexpected_error.mustache:2
 msgid "Home"
-msgstr ""
+msgstr "الصفحة الرئيسية"
 
 #: app/scripts/templates/settings/avatar.mustache:2
 #: app/scripts/templates/settings/avatar_crop.mustache:2
@@ -975,36 +979,36 @@ msgstr ""
 #: app/scripts/templates/settings/display_name.mustache:2
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Change"
-msgstr ""
+msgstr "غيّر"
 
 #: app/scripts/templates/settings/avatar.mustache:4
 msgid "Add"
-msgstr ""
+msgstr "أضِفْ"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
-msgstr ""
+msgstr "التقط صورة"
 
 #: app/scripts/templates/settings/avatar_change.mustache:1
 msgid "Upload"
-msgstr ""
+msgstr "أرفع الملف"
 
 #: app/scripts/templates/settings/avatar_change.mustache:2
 msgid "Camera"
-msgstr ""
+msgstr "الكاميرا"
 
 #: app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Gravatar"
-msgstr ""
+msgstr "Gravatar"
 
 #: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Clear"
-msgstr ""
+msgstr "امسح"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5
 #: app/scripts/templates/settings/devices.mustache:12
 msgid "Done"
-msgstr ""
+msgstr "تمّ"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
@@ -1012,7 +1016,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/avatar_gravatar.mustache:2
 msgid "Save"
-msgstr ""
+msgstr "احفظ"
 
 #: app/scripts/templates/settings/change_password.mustache:3
 msgid ""
@@ -1099,7 +1103,7 @@ msgstr "كم هو عُمرك؟"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "سجل الدخول للمزامنة"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid ""
