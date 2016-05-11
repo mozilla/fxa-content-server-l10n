@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-11 16:01+0000\n"
+"PO-Revision-Date: 2016-05-11 17:04+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -188,6 +188,8 @@ msgid ""
 "To prevent further unauthorized access to your Firefox Account, we’ve reset "
 "your password and are notifying you as a precaution."
 msgstr ""
+"لتتجنب الوصول غير المصرح به لحساب فَيَرفُكس الخاص بك، أعدنا تعيين كلمة سرّك "
+"و نُعلمك كأجراء احترازي."
 
 #: templates/password_reset_required.html:4
 #: templates/password_reset_required.txt:3
@@ -208,6 +210,9 @@ msgid ""
 "passwords as well. Attackers may have access to those passwords, so you "
 "should check those accounts for suspicious activity."
 msgstr ""
+"ثانياً، أذا كان فَيَرفُكس يخزن كلمات السرّ الخاصة بالمواقع فيجب تغيّرها "
+"أيضا. ربما حصَل المهاجمون علي كلمات السرّ هذه، لذلك يجب عليك فحص هذه "
+"الحسابات للأنشطة المشبُهة."
 
 #: templates/password_reset_required.html:7
 #: templates/password_reset_required.txt:6
@@ -219,7 +224,7 @@ msgstr "اطّلع على كلمات السرّ الخاصة بك المُخزن
 #: templates/password_reset_required.txt:7
 #: templates/suspicious_location.html:12 templates/suspicious_location.txt:11
 msgid "Best,"
-msgstr ""
+msgstr "تحياتنا،"
 
 #: templates/password_reset_required.html:9
 #: templates/password_reset_required.txt:8
@@ -268,10 +273,11 @@ msgid ""
 "Click the button within the next hour to set a new password for your Firefox"
 " Account."
 msgstr ""
+"خلال الساعة القادمة انقر الزر لضبط الكلمة السرّ الجديدة لحساب فَيَرفُكس."
 
 #: templates/reset.html:4 templates/reset.txt:3
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "تذكّر كلمة السر؟ سجل الدخول."
 
 #: templates/reset.html:5 templates/reset.txt:4
 msgid "Reset password"
@@ -283,10 +289,13 @@ msgid ""
 "in the last 60 days? If you don’t recognize these locations, someone else "
 "may have accessed your Firefox Account."
 msgstr ""
+"هل سجلت الدخول لحساب فَيَرفُكس الخاص بك بأي من الأماكن التالية في 60 يوم "
+"الأخيرة؟ إذا كنت لا تعترف بأي من هذه الأماكن فأن هناك شخص ما حصل علي حساب "
+"فَيَرفُكس الخاص بك."
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
-msgstr ""
+msgstr "الوقت و التاريخ:"
 
 #: templates/suspicious_location.html:4 templates/suspicious_location.txt:3
 msgid "Device:"
@@ -298,7 +307,7 @@ msgstr "مكان:"
 
 #: templates/suspicious_location.html:6 templates/suspicious_location.txt:5
 msgid "If you don’t recognize the activity above:"
-msgstr ""
+msgstr "إذا كنت لا تعترف بالنشاط أعلاه:"
 
 #: templates/suspicious_location.html:10 templates/suspicious_location.txt:9
 msgid "Why are you receiving this email?"
@@ -309,6 +318,8 @@ msgid ""
 "We recently noticed Firefox Account logins from unusual locations. We’re "
 "notifying you as a precaution."
 msgstr ""
+"لاحظنا في الآونة الأخيرة تسجيل دخول لحساب فَيَرفُكس الخاص بك من مواقع غير "
+"عادية. نُعلمك كأجراء احترازي."
 
 #: templates/unlock.html:2
 msgid "Account activity notice"
@@ -451,7 +462,7 @@ msgstr "تم إعادة تعيين كلمة السرّ الخاصة بحساب �
 
 #: mailer.js:355
 msgid "Firefox Account password reset required"
-msgstr ""
+msgstr "إعادة تعيين كلمة السرّ لحساب فَيَرفُكس مطلوب"
 
 #: mailer.js:408
 msgid "Firefox Account Verified"
