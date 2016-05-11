@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-10 20:17+0000\n"
+"PO-Revision-Date: 2016-05-11 11:45+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -99,7 +99,7 @@ msgstr "الصورة مأخوذة من <a href=\"https://www.gravatar.com\">Grav
 
 #: app/scripts/views/settings/change_password.js:46
 msgid "Password changed successfully"
-msgstr "تم إعادة ضبط كلمة السرّ"
+msgstr "غُيّرت كلمة السرّ بنجاح"
 
 #: app/scripts/views/settings/communication_preferences.js:116
 msgid "Subscribed successfully"

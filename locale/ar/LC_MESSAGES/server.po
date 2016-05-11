@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-10 20:23+0000\n"
+"PO-Revision-Date: 2016-05-11 12:04+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -18,7 +18,7 @@ msgstr ""
 #: templates/verification_reminder_second.txt:1
 #: templates/verify_reminder_second.html:2 mailer.js:458
 msgid "Still there?"
-msgstr ""
+msgstr "لا تزال هناك؟"
 
 #: templates/_pending.txt:2
 msgid ""
@@ -32,8 +32,8 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for <a "
 "href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"اتصل جهازك الأول بحساب فَيَرفُكس الخاص بك بنجاح. الآن يمكنك تسجيل الدخول إلى"
-" المزامنة من أجهزتك الأخري بما في ذلك فَيَرفُكس <a "
+"اِتَّصَلَ جهازك الأول بحساب فَيَرفُكس الخاص بك بنجاح. الآن يمكنك تسجيل "
+"الدخول إلى المزامنة من أجهزتك الأخري بما في ذلك فَيَرفُكس <a "
 "href='%(androidUrl)s'>لأندرويد</a> و <a href='%(iosUrl)s'>لآي أو إس</a>."
 
 #: templates/_pending.txt:4
@@ -45,7 +45,7 @@ msgstr ""
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "صِلْ جهاز آخر"
 
 #: templates/_pending.txt:6
 msgid "Sign in to Sync"
@@ -107,11 +107,11 @@ msgstr ""
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "غُيّرت كلمة السرّ بنجاح"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr ""
+msgstr "غُيّرت كلمة السرّ الخاصة بحساب فَيَرفُكس بنجاح."
 
 #: templates/password_changed.txt:3
 msgid ""
@@ -128,6 +128,8 @@ msgid ""
 "Your Firefox Account password has changed. If you did not change it, please "
 "<a href='%(resetLink)s'>reset your password</a> now."
 msgstr ""
+"غُيّرت كلمة السرّ الخاصة بحساب فَيَرفُكس. أذا لم تغيرها رجاءً <a "
+"href='%(resetLink)s'>أعد تعيين كلمة السرّ</a> الآن."
 
 #: templates/password_reset.html:4 templates/post_verify.html:6
 #: templates/post_verify.txt:4 templates/reset.html:7 templates/reset.txt:5
@@ -415,7 +417,7 @@ msgstr "إعادة التحقق من حساب فَيَرفُكس الخاص بك
 
 #: mailer.js:311
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "غُيّرت كلمة السرّ الخاصة بحساب فَيَرفُكس"
 
 #: mailer.js:333
 msgid "Your Firefox Account password has been reset"
