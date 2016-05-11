@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-11 11:45+0000\n"
+"PO-Revision-Date: 2016-05-11 13:47+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -18,7 +18,7 @@ msgstr ""
 #: app/scripts/views/complete_sign_up.js:102 app/scripts/views/confirm.js:112
 #: app/scripts/views/confirm_reset_password.js:184
 msgid "Account verified successfully"
-msgstr "تم التأكد من الحساب بنجاح"
+msgstr "اُكّد الحساب بنجاح"
 
 #: app/scripts/views/confirm_account_unlock.js:90
 msgid "Account unlocked, please try again"
@@ -205,7 +205,7 @@ msgstr "كلمة السرّ غير صحيحة"
 
 #: app/scripts/lib/auth-errors.js:57
 msgid "Unverified account"
-msgstr "الحساب لم يتم التأكد منه"
+msgstr "حساب غير مُؤكّد"
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "Invalid verification code"
@@ -701,7 +701,7 @@ msgstr "أكّد حسابك"
 
 #: app/scripts/templates/confirm.mustache:4
 msgid "A verification link has been sent&nbsp;to %(email)s"
-msgstr "أُرسلت رابط التأكيد&nbsp;إلى%(email)s"
+msgstr "أُرسل رابط التأكيد&nbsp;إلى%(email)s"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:1
 msgid "Unlock email sent"
@@ -713,8 +713,8 @@ msgid ""
 "level activities, please re-verify your account by clicking the verification"
 " link sent to %(email)s"
 msgstr ""
-"لأسباب أمنيّة تم أغلاق حسابك. للقيام بأنشطة على مستوى الحساب، الرجاء إعادة "
-"التحقق من حسابك عن طريق النقر فوق رابط التأكيد المرسل إلى %(email)s"
+"لأسباب أمنيّة تم أغلاق حسابك. للقيام بأنشطة على مستوى الحساب، رجاءً أعد "
+"تأكّيد حسابك عن طريق النقر فوق رابط التأكيد المُرسل إلى %(email)s"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -1114,8 +1114,8 @@ msgid ""
 "Choose the account you would like to use to sync your tabs, bookmarks, "
 "passwords and more."
 msgstr ""
-"اختر الحساب الذي ترغب في استخدامه لمزامنة الألسنة و العلامات وكلمات السرّ و "
-"المزيد."
+"اختر الحساب الذي ترغب في استخدامه لمزامنة ألسنتك و علاماتك و كلمات السرّ و "
+"غيرهم المزيد."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-11 12:53+0000\n"
+"PO-Revision-Date: 2016-05-11 14:03+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -25,6 +25,8 @@ msgid ""
 "A while ago you created a Firefox Account, but never verified it. Click the "
 "link below to activate your account."
 msgstr ""
+"أنشأت حساب فَيَرفُكس منذ فترة و لم تأكّده. انقر فوق الرابط الموجود أدناه "
+"لتفعيل حسابك."
 
 #: templates/_pending.txt:3 templates/post_verify.html:3
 msgid ""
@@ -222,7 +224,7 @@ msgstr ""
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
-msgstr ""
+msgstr "اُكّد الحساب!"
 
 #: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5
 #: templates/verification_reminder_first.html:5
@@ -299,7 +301,7 @@ msgstr ""
 
 #: templates/unlock.html:2
 msgid "Account activity notice"
-msgstr ""
+msgstr "إشعار نشاط الحساب"
 
 #: templates/unlock.html:3 templates/unlock.txt:1
 msgid ""
@@ -307,22 +309,22 @@ msgid ""
 "account-level activities, please click the link to re-verify your account "
 "now."
 msgstr ""
-"لأسباب أمنيّة تم أغلاق حسابك. للقيام بأنشطة على مستوى الحساب، الرجاء النقر "
-"فوق الرابط لإعادة التحقق من حسابك الآن."
+"لأسباب أمنيّة تم أغلاق حسابك. للقيام بأنشطة على مستوى الحساب، رجاءً انقر فوق"
+" الرابط لإعادة تأكّيد حسابك الآن."
 
 #: templates/unlock.html:4
 msgid "Verify account"
-msgstr ""
+msgstr "أكّد الحساب"
 
 #: templates/unlock.txt:2
 msgid "Verify account:"
-msgstr ""
+msgstr "أكّد الحساب:"
 
 #: templates/verification_reminder_first.html:2
 #: templates/verification_reminder_first.txt:1
 #: templates/verify_reminder_first.html:2 mailer.js:455
 msgid "Hello again."
-msgstr ""
+msgstr "مرحبًا مرة أخرى."
 
 #: templates/verification_reminder_first.html:3
 #: templates/verification_reminder_first.txt:2
@@ -333,32 +335,35 @@ msgid ""
 " on any device connected to it. Simply confirm this email address to "
 "activate your account."
 msgstr ""
+"أنشأت حساب فَيَرفُكس قبل بضعة أيام و لم تأكّده. تأكيد الحساب يتيح لك الوصول "
+"إلى ألسنتك و علاماتك و كلمات السرّ والتاريخ على أي جهاز مُتصل به. ببساطة "
+"أكّد عنوان البريد الإلكتروني هذا لتفعيل حسابك."
 
 #: templates/verification_reminder_first.html:4
 #: templates/verification_reminder_second.html:4 templates/verify.html:4
 #: templates/verify_reminder_first.html:4
 #: templates/verify_reminder_second.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "فعّل الآن"
 
 #: templates/verification_reminder_first.html:8
 #: templates/verification_reminder_second.html:8 templates/verify.html:8
 #: templates/verify_reminder_first.html:8
 #: templates/verify_reminder_second.html:8
 msgid "Verify Email"
-msgstr ""
+msgstr "أكّد البريد الإلكتروني"
 
 #: templates/verification_reminder_first.html:9
 #: templates/verification_reminder_second.html:9 templates/verify.html:9
 #: templates/verify_reminder_first.html:9
 #: templates/verify_reminder_second.html:9
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
+msgstr "أكّد بريدك الإلكتروني لإنهاء تسجيل حساب فَيَرفُكس الخاص بك"
 
 #: templates/verification_reminder_first.txt:3
 #: templates/verification_reminder_second.txt:3 templates/verify.txt:3
 msgid "Activate now:"
-msgstr ""
+msgstr "فعّل الآن:"
 
 #: templates/verification_reminder_second.html:3
 #: templates/verification_reminder_second.txt:2
@@ -370,14 +375,18 @@ msgid ""
 "of them. Confirm this email address to activate your account and let us know"
 " you're okay."
 msgstr ""
+"أنشأت حساب فَيَرفُكس قبل أسبوع و لم تأكّده. ونحن قلقون عليك. فَيَرفُكس مُتاح"
+" لنظام تشغيل ويندوز و ماك و لينكُس و أندرويد و آي أو إس. يمكنك مزامنة ألسنتك"
+" و علاماتك و كلمات السرّ و التاريخ عبر كل منهم. فقط أكّد عنوان بريدك "
+"الإلكتروني هذا لتفعيل حسابك واسمح لنا أن نعرف أنك بخير."
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
-msgstr ""
+msgstr "مرحبًا!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "رجاءً فعّل حسابك عن طريق تأكيد عنوان بريدك الإلكتروني هذا."
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid ""
@@ -405,7 +414,7 @@ msgstr ""
 
 #: mailer.js:171
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "أكّد حساب فَيَرفُكس الخاص بك"
 
 #: mailer.js:210
 msgid "Confirm new sign-in to Firefox"
@@ -417,7 +426,7 @@ msgstr "إعادة تعيين كلمة السرّ الخاصة بحساب فَي
 
 #: mailer.js:278
 msgid "Re-verify your Firefox Account"
-msgstr "إعادة التحقق من حساب فَيَرفُكس الخاص بك"
+msgstr "أعد تأكّيد حساب فَيَرفُكس الخاص بك"
 
 #: mailer.js:311
 msgid "Your Firefox Account password has been changed"
@@ -433,7 +442,7 @@ msgstr ""
 
 #: mailer.js:408
 msgid "Firefox Account Verified"
-msgstr ""
+msgstr "اُكّد حساب فَيَرفُكس"
 
 #: mailer.js:443
 msgid "Suspicious activity with your Firefox Account"
@@ -441,11 +450,11 @@ msgstr ""
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
-msgstr ""
+msgstr "طلب سيّء"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "لم نتمكّن من إيجاد الصّفحة"
 
 #: server/templates/pages/src/404.html:3
 msgid ""
