@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-11 14:03+0000\n"
+"PO-Revision-Date: 2016-05-11 15:04+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -83,6 +83,8 @@ msgid ""
 "This is an automated email; if you did not authorize this action, then <a "
 "%(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr ""
+"هذا بريد إلكتروني الآلي، إذا كان غير مسموح لهذا الإجراء <a "
+"%(passwordChangeLinkAttributes)s>فرجاءً غير كلمة السرّ الخاصة بك</a>."
 
 #: templates/new_device_login.html:4 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
@@ -181,7 +183,7 @@ msgstr ""
 #: templates/password_reset_required.html:4
 #: templates/password_reset_required.txt:3
 msgid "What should you do?"
-msgstr ""
+msgstr "ماذا ينبغي أن تفعله؟"
 
 #: templates/password_reset_required.html:5
 #: templates/password_reset_required.txt:4
@@ -202,7 +204,7 @@ msgstr ""
 #: templates/password_reset_required.txt:6
 #: templates/suspicious_location.html:9 templates/suspicious_location.txt:8
 msgid "Learn how to see what passwords Firefox is storing for you."
-msgstr ""
+msgstr "اطّلع على كلمات السرّ الخاصة بك المُخزنة في فَيَرفُكس."
 
 #: templates/password_reset_required.html:8
 #: templates/password_reset_required.txt:7
@@ -220,7 +222,7 @@ msgstr "فريق مشروع حسابات فَيَرفُكس"
 #: templates/password_reset_required.txt:9
 #: templates/suspicious_location.html:14 templates/suspicious_location.txt:13
 msgid "Mozilla Privacy Policy"
-msgstr ""
+msgstr "سياسة موزيلا للخصوصيّة"
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
@@ -232,7 +234,7 @@ msgstr "اُكّد الحساب!"
 #: templates/verify_login.html:5 templates/verify_reminder_first.html:5
 #: templates/verify_reminder_second.html:5
 msgid "Alternatively:"
-msgstr ""
+msgstr "بدائل أخري:"
 
 #: templates/post_verify.txt:2
 msgid ""
@@ -279,11 +281,11 @@ msgstr ""
 
 #: templates/suspicious_location.html:4 templates/suspicious_location.txt:3
 msgid "Device:"
-msgstr ""
+msgstr "جهاز:"
 
 #: templates/suspicious_location.html:5 templates/suspicious_location.txt:4
 msgid "Location:"
-msgstr ""
+msgstr "مكان:"
 
 #: templates/suspicious_location.html:6 templates/suspicious_location.txt:5
 msgid "If you don’t recognize the activity above:"
@@ -291,7 +293,7 @@ msgstr ""
 
 #: templates/suspicious_location.html:10 templates/suspicious_location.txt:9
 msgid "Why are you receiving this email?"
-msgstr ""
+msgstr "لماذا يصلك هذا البريد الإلكتروني؟"
 
 #: templates/suspicious_location.html:11 templates/suspicious_location.txt:10
 msgid ""
@@ -465,11 +467,11 @@ msgstr ""
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
-msgstr ""
+msgstr "الصفحة الرئيسية"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr ""
+msgstr "خطأ 500"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid ""
@@ -479,11 +481,11 @@ msgstr ""
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "خطأ 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "الخادوم مشغول، أعد المحاولة بعد قليل"
 
 #: server/templates/pages/src/503.html:3
 msgid ""
@@ -499,6 +501,8 @@ msgid ""
 "href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
 "experience."
 msgstr ""
+"أنت تستخدم متصفح <strong>غير مُحدّثة</strong>. رجاءً <a "
+"href=\"http://browsehappy.com/\">رقّي متصفحك</a> لتحسين الخدمة."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -507,14 +511,14 @@ msgstr "حسابات فَيَرفُكس تتطلب جافا سكربت."
 #: server/templates/pages/src/privacy.html:2
 #: server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
-msgstr ""
+msgstr "سياسة الخصوصيّة"
 
 #: server/templates/pages/src/privacy.html:3
 #: server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "خدمات فَيَرفُكس السّحابيّة"
 
 #: server/templates/pages/src/terms.html:2
 #: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
-msgstr ""
+msgstr "شروط الخدمة"

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-11 13:47+0000\n"
+"PO-Revision-Date: 2016-05-11 14:57+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -39,7 +39,7 @@ msgstr "%(permissionName)s (مطلوبة)"
 
 #: app/scripts/views/permissions.js:31
 msgid "Email address"
-msgstr "البريد الإلكتروني"
+msgstr "عنوان البريد الإلكتروني"
 
 #: app/scripts/views/permissions.js:36
 #: app/scripts/templates/settings/display_name.mustache:1
@@ -275,7 +275,7 @@ msgstr "قيد العمل…"
 
 #: app/scripts/lib/auth-errors.js:137
 msgid "Could not get Privacy Notice"
-msgstr "لا يمكن الحصول على تنويه الخصوصية"
+msgstr "تعذّر الحصول على سياسة الخصوصيّة"
 
 #: app/scripts/lib/auth-errors.js:141
 msgid "Could not get Terms of Service"
@@ -299,7 +299,7 @@ msgstr "كلمة سرّ صالحة مطلوبة"
 #: app/scripts/lib/auth-errors.js:157 app/scripts/lib/auth-errors.js:195
 #: app/scripts/lib/auth-errors.js:211
 msgid "Valid email required"
-msgstr "أدخل بريد الإلكتروني صالح"
+msgstr "أدخل بريد إلكتروني صالح"
 
 #: app/scripts/lib/auth-errors.js:168
 msgid "A usable image was not found"
@@ -513,20 +513,20 @@ msgstr "أكّد تسجيل الدخول هذا"
 #: app/scripts/templates/confirm_account_unlock.mustache:2
 #: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email resent"
-msgstr "تم إعادة إرسال البريد الإلكتروني"
+msgstr "اُعيد إرسال البريد الإلكتروني"
 
 #: app/scripts/lib/strings.js:41 app/scripts/templates/confirm.mustache:3
 #: app/scripts/templates/confirm_account_unlock.mustache:3
 #: app/scripts/templates/confirm_reset_password.mustache:3
 msgid "Email Sent"
-msgstr "أُرسل بريد الإلكتروني"
+msgstr "أُرسِل بريد الإلكتروني"
 
 #: app/scripts/lib/strings.js:42
 msgid ""
 "To better protect your Firefox data, we've emailed a confirmation link to "
 "%(email)s"
 msgstr ""
-"لمزيد من الحماية لبياناتك، أرسِل رابط تأكيد لبريدك الإلكتروني %(email)s"
+"لمزيد من الحماية لبياناتك، أُرسِل رابط تأكيد لبريدك الإلكتروني %(email)s"
 
 #: app/scripts/lib/strings.js:43 app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
@@ -705,7 +705,7 @@ msgstr "أُرسل رابط التأكيد&nbsp;إلى%(email)s"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:1
 msgid "Unlock email sent"
-msgstr "تم إرسال بريد إلغاء الحظر"
+msgstr "أُرسِل بريد إلغاء الحظر"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
@@ -718,7 +718,7 @@ msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr "تم إرسال بريد إعادة تعيين كلمة المرور"
+msgstr "أُرسِل بريد إعادة تعيين كلمة السرّ"
 
 #: app/scripts/templates/confirm_reset_password.mustache:4
 msgid ""
@@ -816,7 +816,7 @@ msgstr "شروط الخدمة"
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
 #: app/scripts/templates/settings.mustache:6
 msgid "Privacy Notice"
-msgstr "تنويه الخصوصية"
+msgstr "سياسة الخصوصيّة"
 
 #: app/scripts/templates/marketing_snippet.mustache:1
 msgid "Stay in sync on the go:"
