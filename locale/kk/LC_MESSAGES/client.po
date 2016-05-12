@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-05 12:12+0000\n"
+"PO-Revision-Date: 2016-05-12 12:07+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -462,11 +462,11 @@ msgstr "Firefox-қа жаңа кіруді растаңыз"
 
 #: app/scripts/lib/strings.js:30
 msgid "You signed in to Firefox from %(device)s, %(location)s."
-msgstr ""
+msgstr "Сіз Firefox-қа кіргенсіз, %(device)s, %(location)s."
 
 #: app/scripts/lib/strings.js:31
 msgid "You signed in to Firefox from %(device)s."
-msgstr ""
+msgstr "Сіз Firefox-қа кіргенсіз, %(device)s."
 
 #: app/scripts/lib/strings.js:32
 msgid ""
