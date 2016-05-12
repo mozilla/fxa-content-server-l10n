@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2015-10-16 08:03+0000\n"
-"Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
+"PO-Revision-Date: 2016-05-12 21:29+0000\n"
+"Last-Translator: Branislav Rozbora <rozbora@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
@@ -426,22 +426,28 @@ msgid ""
 "For added security, please confirm this sign-in to begin syncing with "
 "%(device)s."
 msgstr ""
+"Pre lepšie zabezpečenie prosím pred začiatkom synchronizácie zariadenia "
+"%(device)s toto prihlásenie potvrďte."
 
 #: templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "Potvrdenie prihlásenia"
 
 #: templates/verify_login.html:6
 msgid ""
 "If you suspect that someone is trying to gain access to your account, <a "
 "%(supportLinkAttributes)s>please report it to us</a>."
 msgstr ""
+"Ak máte podozrenie, že sa niekto pokúša neoprávnene získať prístup k vášmu "
+"účtu, <a %(supportLinkAttributes)s>dajte nám o tom vedieť.</a>"
 
 #: templates/verify_login.txt:4
 msgid ""
 "If you suspect that someone is trying to gain access to your account, please"
 " report it to us."
 msgstr ""
+"Ak máte podozrenie, že sa niekto pokúša neoprávnene získať prístup k vášmu "
+"účtu, dajte nám o tom vedieť."
 
 #: mailer.js:171
 msgid "Verify your Firefox Account"
@@ -449,7 +455,7 @@ msgstr "Overiť váš účet Firefox Account"
 
 #: mailer.js:210
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
+msgstr "Potvrdenie nového prihlásenia k Firefoxu"
 
 #: mailer.js:243
 msgid "Reset your Firefox Account password"
