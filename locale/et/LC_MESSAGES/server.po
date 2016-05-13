@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-13 07:48+0000\n"
+"PO-Revision-Date: 2016-05-13 10:02+0000\n"
 "Last-Translator: Merike Sell <merikes@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -183,6 +183,8 @@ msgid ""
 "We detected suspicious activity on your Firefox Account. Your account may "
 "have been compromised."
 msgstr ""
+"Avastasime sinu Firefoxi kontol kahtlase tegevuse. Sinu konto võib olla "
+"ohus."
 
 #: templates/password_reset_required.html:3
 #: templates/password_reset_required.txt:2
@@ -190,6 +192,8 @@ msgid ""
 "To prevent further unauthorized access to your Firefox Account, we’ve reset "
 "your password and are notifying you as a precaution."
 msgstr ""
+"Takistamaks edasist autoriseerimata ligipääsu sinu Firefoxi kontole oleme "
+"lähtestanud sinu parooli ning teavitame sind ettevaatusabinõuna."
 
 #: templates/password_reset_required.html:4
 #: templates/password_reset_required.txt:3
@@ -210,18 +214,21 @@ msgid ""
 "passwords as well. Attackers may have access to those passwords, so you "
 "should check those accounts for suspicious activity."
 msgstr ""
+"Teiseks, kui Firefox on seadistatud salvestama veebisaitide paroole, peaksid"
+" muutma ka neid. Ründajatel võib olla neile paroolidele ligipääs ning sa "
+"peaksid neid kontosid kahtlaste tegevuste osas kontrollima."
 
 #: templates/password_reset_required.html:7
 #: templates/password_reset_required.txt:6
 #: templates/suspicious_location.html:9 templates/suspicious_location.txt:8
 msgid "Learn how to see what passwords Firefox is storing for you."
-msgstr ""
+msgstr "Uuri, kuidas vaadata, milliseid paroole Firefox on salvestanud."
 
 #: templates/password_reset_required.html:8
 #: templates/password_reset_required.txt:7
 #: templates/suspicious_location.html:12 templates/suspicious_location.txt:11
 msgid "Best,"
-msgstr ""
+msgstr "Parimat soovides,"
 
 #: templates/password_reset_required.html:9
 #: templates/password_reset_required.txt:8
@@ -287,6 +294,9 @@ msgid ""
 "in the last 60 days? If you don’t recognize these locations, someone else "
 "may have accessed your Firefox Account."
 msgstr ""
+"Kas logisid viimase 60 päeva jooksul Firefoxi kontosse mõnest järgnevatest "
+"asukohtadest? Kui sa neid kohti ära ei tunne, siis võib keegi teine sinu "
+"Firefoxi kontot kasutanud olla."
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
@@ -313,6 +323,8 @@ msgid ""
 "We recently noticed Firefox Account logins from unusual locations. We’re "
 "notifying you as a precaution."
 msgstr ""
+"Märkasime hiljuti, et sinu Firefoxi kontosse logiti sisse tavatutest "
+"asukohtadest. Ettevaatusabinõuna teavitame sind."
 
 #: templates/unlock.html:2
 msgid "Account activity notice"
@@ -412,6 +424,8 @@ msgid ""
 "For added security, please confirm this sign-in to begin syncing with "
 "%(device)s."
 msgstr ""
+"Turvalisuse tagamiseks kinnita see sisselogimine ning seadmega %(device)s "
+"alustatakse sünkroonimist."
 
 #: templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "Confirm sign-in"
@@ -422,12 +436,16 @@ msgid ""
 "If you suspect that someone is trying to gain access to your account, <a "
 "%(supportLinkAttributes)s>please report it to us</a>."
 msgstr ""
+"Kui kahtlustad, et keegi proovib sinu kontole ligipääsu saada, siis <a "
+"%(supportLinkAttributes)s>palun anna meile sellest teada</a>."
 
 #: templates/verify_login.txt:4
 msgid ""
 "If you suspect that someone is trying to gain access to your account, please"
 " report it to us."
 msgstr ""
+"Kui kahtlustad, et keegi proovib sinu kontole ligipääsu saada, siis palun "
+"anna meile sellest teada."
 
 #: mailer.js:171
 msgid "Verify your Firefox Account"
