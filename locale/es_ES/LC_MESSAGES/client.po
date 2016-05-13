@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-02 17:52+0000\n"
-"Last-Translator: Inma Barrios <inma.barrios@mozilla-hispano.org>\n"
+"PO-Revision-Date: 2016-05-02 21:29+0000\n"
+"Last-Translator: jlgetxo <jlgetxo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
@@ -368,15 +368,15 @@ msgstr "La cuenta ya no existe."
 
 #: app/scripts/lib/auth-errors.js:262
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "Propiedad no válida en la clave de continuación: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:266
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "Falta la propiedad en la clave de continuación: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:270
 msgid "Invalid data-flow-begin attribute"
-msgstr ""
+msgstr "Atributo data-flow-begin no válido"
 
 #: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
