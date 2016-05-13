@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-03-25 16:01+0000\n"
+"PO-Revision-Date: 2016-05-13 07:49+0000\n"
 "Last-Translator: Merike Sell <merikes@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -147,8 +147,7 @@ msgid "Display name updated"
 msgstr "Kuvatav nimi on uuendatud"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "Konto on lukus. <a href=\"/confirm_account_unlock\">Saada kiri avamiseks</a>"
 
@@ -169,7 +168,8 @@ msgstr "Väljalogimine õnnestus"
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -333,7 +333,8 @@ msgstr ""
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
-msgstr "Link, millel klõpsasid oma e-posti aadressi kinnitamiseks, on aegunud."
+msgstr ""
+"Link, millel klõpsasid oma e-posti aadressi kinnitamiseks, on aegunud."
 
 #: app/scripts/lib/auth-errors.js:226
 #: app/scripts/templates/complete_sign_up.mustache:7
@@ -366,15 +367,15 @@ msgstr "Kontot pole enam olemas."
 
 #: app/scripts/lib/auth-errors.js:262
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "Invalid property in resume token: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:266
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "Missing property in resume token: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:270
 msgid "Invalid data-flow-begin attribute"
-msgstr ""
+msgstr "Kehtetu data-flow-begin atribuut"
 
 #: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -438,13 +439,15 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"Jätkates nõustud <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Teenusetingimuste</a> ja teenuse %(serviceName)s (%(serviceUri)s) <a id="
-"\"service-pp\" href=\"%(privacyUri)s\">Privaatsuspoliitikaga</a>."
+"Jätkates nõustud <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Teenusetingimuste</a> ja teenuse %(serviceName)s "
+"(%(serviceUri)s) <a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privaatsuspoliitikaga</a>."
 
 #: app/scripts/lib/strings.js:26
 msgid ""
@@ -456,15 +459,15 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:29
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
+msgstr "Kinnita uus sisselogimine Firefoxi"
 
 #: app/scripts/lib/strings.js:30
 msgid "You signed in to Firefox from %(device)s, %(location)s."
-msgstr ""
+msgstr "Logisid Firefoxi seadmest %(device)s asukohas %(location)s."
 
 #: app/scripts/lib/strings.js:31
 msgid "You signed in to Firefox from %(device)s."
-msgstr ""
+msgstr "Logisid Firefoxi sisse seadmest %(device)s."
 
 #: app/scripts/lib/strings.js:32
 msgid ""
@@ -474,13 +477,15 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:33
 msgid "Alternatively:"
-msgstr ""
+msgstr "Teise võimalusena:"
 
 #: app/scripts/lib/strings.js:34
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
+"See on automaatselt saadetud kiri. Kui said selle eksikombel, ei pea sa "
+"midagi tegema."
 
 #: app/scripts/lib/strings.js:35
 msgid ""
@@ -502,7 +507,7 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:39
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "Kinnita see sisselogimine"
 
 #: app/scripts/lib/strings.js:40
 #: app/scripts/templates/complete_reset_password.mustache:2
@@ -705,8 +710,8 @@ msgstr "Avamise meil on saadetud"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification"
+" link sent to %(email)s"
 msgstr ""
 "Turvakaalutlustel on sinu konto lukustatud. Kui soovid kontoga seotud "
 "tegevusi teha, siis palun kinnita oma konto uuesti, klõpsates selleks "
@@ -738,12 +743,12 @@ msgstr "Küpsiste ja kohaliku salvestusruumi kasutamine tuleb lubada."
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between "
-"sessions."
+"Accounts. Doing so will enable functionality such as remembering you between"
+" sessions."
 msgstr ""
-"Palun luba Firefoxi kontole ligipääsuks veebilehitsejal küpsiste ja kohaliku "
-"salvestusruumi kasutamine. See võimaldab meil muuhulgas sind seansside vahel "
-"meeles pidada."
+"Palun luba Firefoxi kontole ligipääsuks veebilehitsejal küpsiste ja kohaliku"
+" salvestusruumi kasutamine. See võimaldab meil muuhulgas sind seansside "
+"vahel meeles pidada."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -787,13 +792,13 @@ msgstr "Unustasid parooli?"
 #: app/scripts/templates/sign_in.mustache:27
 #: app/scripts/templates/sign_up.mustache:17
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
-"Jätkates nõustud <a id=\"fxa-tos\" href=\"/legal/terms\">Teenusetingimuste</"
-"a> ja Firefoxi pilveteenuste <a id=\"fxa-pp\" href=\"/legal/privacy"
-"\">Privaatsuspoliitikaga</a>."
+"Jätkates nõustud <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Teenusetingimuste</a> ja Firefoxi pilveteenuste <a id"
+"=\"fxa-pp\" href=\"/legal/privacy\">Privaatsuspoliitikaga</a>."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -895,8 +900,8 @@ msgstr "Unustasin parooli"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
-"When you reset your password, you will lose any Sync data that is not on one "
-"of your devices."
+"When you reset your password, you will lose any Sync data that is not on one"
+" of your devices."
 msgstr ""
 "Peale parooli lähtestamist kaotad Sync'i andmed, mida pole üheski sinu "
 "seadmes."
@@ -945,10 +950,11 @@ msgstr "Synci andmete migreerimiseks loo uus Firefoxi konto."
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
+"in</a>"
 msgstr ""
-"Sul on teise e-posti aadressiga konto? <a href=\"%(signinUri)s\">Logi sisse</"
-"a>"
+"Sul on teise e-posti aadressiga konto? <a href=\"%(signinUri)s\">Logi "
+"sisse</a>"
 
 #: app/scripts/templates/sign_up.mustache:18
 #: app/scripts/templates/settings/communication_preferences.mustache:7
@@ -957,7 +963,7 @@ msgstr "Hangi viimased Mozilla ja Firefoxi uudised."
 
 #: app/scripts/templates/sign_up.mustache:24
 msgid "Create account"
-msgstr ""
+msgstr "Loo konto"
 
 #: app/scripts/templates/sign_up.mustache:29
 msgid "Have an account? Sign in."
@@ -1063,13 +1069,14 @@ msgstr "Seadmed"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox on saadaval <a href=\"%(linkWindows)s\">Windowsile</a>, <a href="
-"\"%(linkOSX)s\">OS X-ile</a>, <a href=\"%(linkAndroid)s\">Androidile</a>, <a "
-"href=\"%(linkIOS)s\">iOS-ile</a> ja <a href=\"%(linkLinux)s\">Linuxile</a>."
+"Firefox on saadaval <a href=\"%(linkWindows)s\">Windowsile</a>, <a "
+"href=\"%(linkOSX)s\">OS X-ile</a>, <a "
+"href=\"%(linkAndroid)s\">Androidile</a>, <a href=\"%(linkIOS)s\">iOS-ile</a>"
+" ja <a href=\"%(linkLinux)s\">Linuxile</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -1137,13 +1144,13 @@ msgstr "Kasuta Firefoxi kontot"
 #~ msgstr "Kas oled kindel, et soovid konto parooli lähtestada?"
 
 #~ msgid ""
-#~ "Resetting your password will erase your browsing data from our servers. "
-#~ "Any data on your devices will remain untouched. Begin the reset process "
-#~ "by entering your email below."
+#~ "Resetting your password will erase your browsing data from our servers. Any "
+#~ "data on your devices will remain untouched. Begin the reset process by "
+#~ "entering your email below."
 #~ msgstr ""
 #~ "Parooli lähtestamisel kustutatakse sinu veebilehitsemise andmed meie "
-#~ "serveritest. Andmed sinu seadmetes jäävad puutumata. Protsessi "
-#~ "alustamiseks sisesta allpool oma e-posti aadress."
+#~ "serveritest. Andmed sinu seadmetes jäävad puutumata. Protsessi alustamiseks "
+#~ "sisesta allpool oma e-posti aadress."
 
 #~ msgid "Begin reset"
 #~ msgstr "Alusta lähtestamist"
@@ -1205,8 +1212,8 @@ msgstr "Kasuta Firefoxi kontot"
 #~ "provide functionality such as remembering you between sessions."
 #~ msgstr ""
 #~ "Palun luba oma brauseris küpsised, sest Firefoxi kontod nõuavad neid. "
-#~ "Küpsised hoiavad väikseid koguseid andmeid sinu brauseris ning "
-#~ "võimaldavad näiteks pidada sind meeles erinevate külastuste vahel."
+#~ "Küpsised hoiavad väikseid koguseid andmeid sinu brauseris ning võimaldavad "
+#~ "näiteks pidada sind meeles erinevate külastuste vahel."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox on peagi saadaval ka iOS-ile!"
@@ -1344,13 +1351,13 @@ msgstr "Kasuta Firefoxi kontot"
 #~ msgstr "Konto parooli lähtestamiseks sisesta e-posti aadress."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data "
-#~ "from our servers. A new Sync backup will be created from your local "
-#~ "browsing data."
+#~ "For security reasons, resetting your password will erase your Sync data from"
+#~ " our servers. A new Sync backup will be created from your local browsing "
+#~ "data."
 #~ msgstr ""
 #~ "Turvalisuse kaalutlustel kustutatakse parooli lähtestamisel sinu Synci "
-#~ "andmed meie serveritest. Uus Synci varukoopia luuakse sinu kohalike "
-#~ "andmete põhjal."
+#~ "andmed meie serveritest. Uus Synci varukoopia luuakse sinu kohalike andmete "
+#~ "põhjal."
 
 #~ msgid "You are signed in as"
 #~ msgstr "Oled sisselogitud kasutajana"
@@ -1359,22 +1366,23 @@ msgstr "Kasuta Firefoxi kontot"
 #~ msgstr "Konto juba olemas? Logi sisse."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-#~ "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-#~ "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ "By proceeding, I agree to the <a id=\"service-tos\" "
+#~ "href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+#~ "href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
 #~ "Jätkates nõustud teenuse %(serviceName)s (%(serviceUri)s)<a id=\"service-"
 #~ "tos\" href=\"%(termsUri)s\">Teenusetingimuste</a> ja <a id=\"service-pp\" "
 #~ "href=\"%(privacyUri)s\">Privatsuspoliitikaga</a>."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">Privacy Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
+#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+#~ "Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Jätkates nõustud sa Firefoxi pilveteenuste <a id=\"fxa-tos\" href=\"/"
-#~ "legal/terms\">teenuste tingimuste</a> ja <a id=\"fxa-pp\" href=\"/legal/"
-#~ "privacy\">privaatsusreeglitega</a>."
+#~ "Jätkates nõustud sa Firefoxi pilveteenuste <a id=\"fxa-tos\" "
+#~ "href=\"/legal/terms\">teenuste tingimuste</a> ja <a id=\"fxa-pp\" "
+#~ "href=\"/legal/privacy\">privaatsusreeglitega</a>."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Telli Firefoxi uudised ja näpunäited"
@@ -1395,15 +1403,13 @@ msgstr "Kasuta Firefoxi kontot"
 #~ "Once you're ﬁnished, use your new password to sign in on all of your "
 #~ "devices."
 #~ msgstr ""
-#~ "Kui oled lõpetanud, siis kasuta oma uut parooli, et logida sisse kõigis "
-#~ "oma seadmetes."
+#~ "Kui oled lõpetanud, siis kasuta oma uut parooli, et logida sisse kõigis oma "
+#~ "seadmetes."
 
 #~ msgid "Password changed"
 #~ msgstr "Parool on muudetud"
 
-#~ msgid ""
-#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
-#~ "email</a>."
+#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
 #~ msgstr ""
 #~ "Kinnitamata konto. <a href=\"#\" id=\"resend\">Saada kinnitamise e-kiri "
 #~ "uuesti</a>."
