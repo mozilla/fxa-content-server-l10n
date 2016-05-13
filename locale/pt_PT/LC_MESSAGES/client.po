@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-05 15:39+0000\n"
+"PO-Revision-Date: 2016-05-13 00:28+0000\n"
 "Last-Translator: Gonçalo Matos <goncalo.matos@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -39,7 +39,7 @@ msgstr "%(permissionName)s (obrigatório)"
 
 #: app/scripts/views/permissions.js:31
 msgid "Email address"
-msgstr "Endereço de email"
+msgstr "Endereço de e-mail"
 
 #: app/scripts/views/permissions.js:36
 #: app/scripts/templates/settings/display_name.mustache:1
@@ -103,7 +103,7 @@ msgstr "Palavra-passe alterada com sucesso"
 
 #: app/scripts/views/settings/communication_preferences.js:116
 msgid "Subscribed successfully"
-msgstr "Subscrito com sucesso"
+msgstr "Subscrição efetuada"
 
 #: app/scripts/views/settings/communication_preferences.js:117
 msgid "Unsubscribed successfully"
@@ -148,7 +148,7 @@ msgstr "Nome de apresentação atualizado"
 #: app/scripts/views/mixins/account-locked-mixin.js:39
 msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
-"Conta bloqueada. <a href=\"/confirm_account_unlock\">Enviar email de "
+"Conta bloqueada. <a href=\"/confirm_account_unlock\">Enviar e-mail de "
 "desbloqueio</a>"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:42
@@ -159,7 +159,7 @@ msgstr "A sua conta foi bloqueada por motivos de segurança"
 #: app/scripts/views/mixins/account-reset-mixin.js:43
 #: app/scripts/templates/reset_password.mustache:6
 msgid "Reset password"
-msgstr "Reposição da palavra-passe"
+msgstr "Repor palavra-passe"
 
 #: app/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
@@ -199,7 +199,7 @@ msgstr "Conta desconhecida"
 
 #: app/scripts/lib/auth-errors.js:49
 msgid "Incorrect email case"
-msgstr "Email incorreto (utilização de maiúsculas)"
+msgstr "E-mail incorreto (remova as maiúsculas)"
 
 #: app/scripts/lib/auth-errors.js:53
 msgid "Incorrect password"
@@ -281,7 +281,7 @@ msgstr "Não foi possível obter a Política de Privacidade"
 
 #: app/scripts/lib/auth-errors.js:141
 msgid "Could not get Terms of Service"
-msgstr "Não foi possível obter os Termos do Serviço"
+msgstr "Não foi possível obter os Termos de utilização"
 
 #: app/scripts/lib/auth-errors.js:145
 msgid "Your new password must be different"
@@ -301,7 +301,7 @@ msgstr "É necessária uma palavra-passe válida"
 #: app/scripts/lib/auth-errors.js:157 app/scripts/lib/auth-errors.js:195
 #: app/scripts/lib/auth-errors.js:211
 msgid "Valid email required"
-msgstr "É necessário um email válido"
+msgstr "É necessário um e-mail válido"
 
 #: app/scripts/lib/auth-errors.js:168
 msgid "A usable image was not found"
@@ -446,8 +446,8 @@ msgid ""
 "(%(serviceUri)s)."
 msgstr ""
 "Ao continuar, está concordar com os <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Termos do Serviço</a> e com a <a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Política de Privacidade</a> de %(serviceName)s "
+"href=\"%(termsUri)s\">Termos de utilização</a> e com a <a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Política de privacidade</a> do %(serviceName)s "
 "(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:26
@@ -500,7 +500,7 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:36
 msgid "Verify Email"
-msgstr "Verificar email"
+msgstr "Confirmar e-mail"
 
 #: app/scripts/lib/strings.js:37
 msgid "Verify your email to finish your Firefox Account sign-in"
@@ -809,8 +809,8 @@ msgid ""
 "href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
 "Ao continuar, está a concordar com os <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Termos do Serviço</a> e com a <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Política de Privacidade</a> dos serviços do Firefox "
+"href=\"/legal/terms\">Termos de utilização</a> e com a <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Política de privacidade</a> dos serviços do Firefox "
 "na nuvem."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
@@ -826,12 +826,12 @@ msgstr "Legalidade"
 #: app/scripts/templates/settings.mustache:5
 #: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
-msgstr "Termos do Serviço"
+msgstr "Termos de utilização"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
 #: app/scripts/templates/settings.mustache:6
 msgid "Privacy Notice"
-msgstr "Política de Privacidade"
+msgstr "Política de privacidade"
 
 #: app/scripts/templates/marketing_snippet.mustache:1
 msgid "Stay in sync on the go:"
@@ -909,7 +909,7 @@ msgstr "A sua conta está pronta!"
 
 #: app/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
-msgstr "Esqueci-me da palavra-passe"
+msgstr "Reposição da palavra-passe"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
