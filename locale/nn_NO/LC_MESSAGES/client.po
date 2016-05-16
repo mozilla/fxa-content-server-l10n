@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-10 12:42+0000\n"
+"PO-Revision-Date: 2016-05-16 20:04+0000\n"
 "Last-Translator: bjorn.svindseth <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -744,7 +744,7 @@ msgstr ""
 #: app/scripts/templates/settings/change_password.mustache:1
 #: app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
-msgstr ""
+msgstr "Passord"
 
 #: app/scripts/templates/force_auth.mustache:6
 #: app/scripts/templates/sign_in.mustache:1
@@ -753,7 +753,7 @@ msgstr ""
 #: app/scripts/templates/sign_in.mustache:14
 #: app/scripts/templates/sign_in.mustache:22
 msgid "Sign in"
-msgstr ""
+msgstr "Logg inn"
 
 #: app/scripts/templates/force_auth.mustache:7
 #: app/scripts/templates/sign_in.mustache:11
@@ -889,7 +889,7 @@ msgstr ""
 
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
-msgstr ""
+msgstr "Logg ut"
 
 #: app/scripts/templates/sign_in.mustache:2
 #: app/scripts/templates/sign_up.mustache:2
@@ -1067,7 +1067,7 @@ msgstr ""
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
-msgstr ""
+msgstr "Kor gammal er du?"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
