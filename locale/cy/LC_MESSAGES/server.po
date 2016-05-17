@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-17 08:10+0000\n"
+"PO-Revision-Date: 2016-05-17 09:47+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -185,6 +185,8 @@ msgid ""
 "We detected suspicious activity on your Firefox Account. Your account may "
 "have been compromised."
 msgstr ""
+"Rydym yn amau gweithgaredd amheus ar eich Cyfrif Firefox. Efallai bod eich "
+"cyfrif wedi ei gyfaddawdu."
 
 #: templates/password_reset_required.html:3
 #: templates/password_reset_required.txt:2
@@ -192,17 +194,19 @@ msgid ""
 "To prevent further unauthorized access to your Firefox Account, we’ve reset "
 "your password and are notifying you as a precaution."
 msgstr ""
+"I rwystro mynediad heb ganiatâd pellach i'ch cyfrif Firefox, rydym wedi "
+"ailosod eich cyfrinair ac yn eich hysbysu rhag ofn."
 
 #: templates/password_reset_required.html:4
 #: templates/password_reset_required.txt:3
 msgid "What should you do?"
-msgstr ""
+msgstr "Beth ddylech ei wneud?"
 
 #: templates/password_reset_required.html:5
 #: templates/password_reset_required.txt:4
 #: templates/suspicious_location.html:7 templates/suspicious_location.txt:6
 msgid "First, change your Firefox Account password."
-msgstr ""
+msgstr "Yn gyntaf, newid cyfrinair eich Cyfrif Firefox."
 
 #: templates/password_reset_required.html:6
 #: templates/password_reset_required.txt:5
@@ -212,30 +216,34 @@ msgid ""
 "passwords as well. Attackers may have access to those passwords, so you "
 "should check those accounts for suspicious activity."
 msgstr ""
+"Y ail, os yw Firefox yn cadw cyfrineiriau ar gyfer gwefannau, dylech newid y"
+" cyfrineiriau hynny hefyd. Efallai fod gan yr ymosodwyr fynediad at y "
+"cyfrineiriau hynny hefyd, felly dylech fynd i'r cyfrifon hynny a chwilio am "
+"weithredu amheus."
 
 #: templates/password_reset_required.html:7
 #: templates/password_reset_required.txt:6
 #: templates/suspicious_location.html:9 templates/suspicious_location.txt:8
 msgid "Learn how to see what passwords Firefox is storing for you."
-msgstr ""
+msgstr "Dysgwch sut i weld pa gyfrineiriau mae Firefox yn cadw ar eich cyfer."
 
 #: templates/password_reset_required.html:8
 #: templates/password_reset_required.txt:7
 #: templates/suspicious_location.html:12 templates/suspicious_location.txt:11
 msgid "Best,"
-msgstr ""
+msgstr "Hwyl,"
 
 #: templates/password_reset_required.html:9
 #: templates/password_reset_required.txt:8
 #: templates/suspicious_location.html:13 templates/suspicious_location.txt:12
 msgid "The Firefox Accounts team"
-msgstr ""
+msgstr "Tîm Cyfrif Firefox"
 
 #: templates/password_reset_required.html:10
 #: templates/password_reset_required.txt:9
 #: templates/suspicious_location.html:14 templates/suspicious_location.txt:13
 msgid "Mozilla Privacy Policy"
-msgstr ""
+msgstr "Polisi Preifatrwydd Mozilla"
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
@@ -265,17 +273,19 @@ msgstr "Mewngofnodi i Sync:"
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Forgot your password?"
-msgstr ""
+msgstr "Wedi anghofio eich cyfrinair?"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid ""
 "Click the button within the next hour to set a new password for your Firefox"
 " Account."
 msgstr ""
+"Cliciwch y botwm o fewn yr awr nesaf i osod cyfrinair newydd ar eich Cyfrif "
+"Firefox."
 
 #: templates/reset.html:4 templates/reset.txt:3
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "Cofio eich cyfrinair? Mewngofnodwch."
 
 #: templates/reset.html:5 templates/reset.txt:4
 msgid "Reset password"
@@ -287,32 +297,37 @@ msgid ""
 "in the last 60 days? If you don’t recognize these locations, someone else "
 "may have accessed your Firefox Account."
 msgstr ""
+"A wnaethoch chi fewngofnodi i'ch Cyfrif Firefox o unrhyw un o'r lleoliadau "
+"canlynol o fewn y 60 diwrnod diwethaf? Os nad ydych yn adnabod y lleoliadau "
+"hyn, efallai bod rhywun arall wedi cael mynediad at eich Cyfrif Firefox."
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
-msgstr ""
+msgstr "Dyddiad ac Amser:"
 
 #: templates/suspicious_location.html:4 templates/suspicious_location.txt:3
 msgid "Device:"
-msgstr ""
+msgstr "Dyfais:"
 
 #: templates/suspicious_location.html:5 templates/suspicious_location.txt:4
 msgid "Location:"
-msgstr ""
+msgstr "Lleoliad:"
 
 #: templates/suspicious_location.html:6 templates/suspicious_location.txt:5
 msgid "If you don’t recognize the activity above:"
-msgstr ""
+msgstr "Os nad ydych yn adnabod y gweithgaredd uchod:"
 
 #: templates/suspicious_location.html:10 templates/suspicious_location.txt:9
 msgid "Why are you receiving this email?"
-msgstr ""
+msgstr "Pam rydych chi'n cael e-bost hwn?"
 
 #: templates/suspicious_location.html:11 templates/suspicious_location.txt:10
 msgid ""
 "We recently noticed Firefox Account logins from unusual locations. We’re "
 "notifying you as a precaution."
 msgstr ""
+"Yn ddiweddar, rydym wedi sylwi ar fewngofnodi i Gyfrifon Firefox o leoliadau"
+" anarferol. Rydym yn eich hysbysu rhag ofn."
 
 #: templates/unlock.html:2
 msgid "Account activity notice"
@@ -410,22 +425,28 @@ msgid ""
 "For added security, please confirm this sign-in to begin syncing with "
 "%(device)s."
 msgstr ""
+"Ar gyfer diogelwch ychwanegol, cadarnhewch y mewngofnodiad hwn i gychwyn "
+"cydweddu gyda %(device)s."
 
 #: templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "Cadarnhau eich mewngofnodi"
 
 #: templates/verify_login.html:6
 msgid ""
 "If you suspect that someone is trying to gain access to your account, <a "
 "%(supportLinkAttributes)s>please report it to us</a>."
 msgstr ""
+"Os ydych yn amau bod rhywun yn ceisio cael mynediad at eich cyfrif, <a "
+"%(supportLinkAttributes)s=\"\">Rhowch wybod i ni</a>."
 
 #: templates/verify_login.txt:4
 msgid ""
 "If you suspect that someone is trying to gain access to your account, please"
 " report it to us."
 msgstr ""
+"Os ydych yn amau bod rhywun yn ceisio cael mynediad at eich cyfrif, rhowch "
+"wybod i ni."
 
 #: mailer.js:171
 msgid "Verify your Firefox Account"
@@ -433,7 +454,7 @@ msgstr "Gwiriwch eich Cyfrif Firefox"
 
 #: mailer.js:210
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
+msgstr "Cadarnhewch fewngofnodiad newydd i Firefox"
 
 #: mailer.js:243
 msgid "Reset your Firefox Account password"
@@ -453,7 +474,7 @@ msgstr "Mae cyfrinair eich Cyfrif Firefox wedi ei ailosod"
 
 #: mailer.js:355
 msgid "Firefox Account password reset required"
-msgstr ""
+msgstr "Mae angen ailosod cyfrinair eich Cyfrif Firefox"
 
 #: mailer.js:408
 msgid "Firefox Account Verified"
@@ -461,7 +482,7 @@ msgstr "Cyfrif Firefox Wedi ei Wirio"
 
 #: mailer.js:443
 msgid "Suspicious activity with your Firefox Account"
-msgstr ""
+msgstr "Mae ôl gweithgaredd amheus yn eich Cyfrif Firefox"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
