@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-17 08:07+0000\n"
+"PO-Revision-Date: 2016-05-18 08:29+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -176,7 +176,7 @@ msgstr "Allgofnodwyd yn llwyddiannus"
 #: app/scripts/lib/require-on-demand.js:45
 #: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
-msgstr "Gwall anysbys"
+msgstr "Gwall anhysbys"
 
 #: app/scripts/lib/auth-errors.js:29 app/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
@@ -486,8 +486,8 @@ msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
-"Mae hyn y e-bost wedi ei awtomeiddio; os fyddwch y ei dderbyn ar gam, does "
-"dim angen gwneud dim."
+"E-bost awtomatig yw hwn; os fyddwch y ei dderbyn ar gam, does dim angen "
+"gwneud dim."
 
 #: app/scripts/lib/strings.js:35
 msgid ""
@@ -520,7 +520,7 @@ msgstr "Cadarnhau'r mewngofnodi hwn"
 #: app/scripts/templates/confirm_account_unlock.mustache:2
 #: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email resent"
-msgstr "Ailanfonwyd yr e-bost"
+msgstr "Ail anfonwyd yr e-bost"
 
 #: app/scripts/lib/strings.js:41 app/scripts/templates/confirm.mustache:3
 #: app/scripts/templates/confirm_account_unlock.mustache:3
@@ -544,7 +544,7 @@ msgstr "Agor Gmail"
 #: app/scripts/templates/confirm_account_unlock.mustache:6
 #: app/scripts/templates/confirm_reset_password.mustache:9
 msgid "Resend email"
-msgstr "Ailanfon e-bost"
+msgstr "Ail anfon e-bost"
 
 #: app/scripts/lib/strings.js:45
 #: app/scripts/templates/choose_what_to_sync.mustache:16
@@ -665,7 +665,7 @@ msgstr ""
 #: app/scripts/templates/complete_reset_password.mustache:11
 #: app/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
-msgstr "Dysgwch sut mae Sync y gweithio."
+msgstr "Dysgu sut mae Sync yn gweithio."
 
 #: app/scripts/templates/complete_reset_password.mustache:13
 #: app/scripts/templates/settings/change_password.mustache:7
@@ -824,7 +824,7 @@ msgstr "Cyfreithiol"
 #: app/scripts/templates/settings.mustache:5
 #: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
-msgstr "Amdau'r Gwasanaeth"
+msgstr "Amodau'r Gwasanaeth"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
 #: app/scripts/templates/settings.mustache:6
@@ -1138,7 +1138,7 @@ msgstr "Defnyddio OpenID"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr "Defyddio Cyfrif Firefox"
+msgstr "Defnyddio Cyfrif Firefox"
 
 #~ msgid "Sign up"
 #~ msgstr "Ymuno"
