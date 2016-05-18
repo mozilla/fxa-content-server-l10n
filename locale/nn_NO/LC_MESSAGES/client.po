@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-18 12:03+0000\n"
+"PO-Revision-Date: 2016-05-18 12:35+0000\n"
 "Last-Translator: bjorn.svindseth <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -99,19 +99,19 @@ msgstr "Med velvillig løyve frå <a href=\"https://www.gravatar.com\">Gravatar<
 
 #: app/scripts/views/settings/change_password.js:46
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Passordet er endra"
 
 #: app/scripts/views/settings/communication_preferences.js:116
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "Abonnentet er starta"
 
 #: app/scripts/views/settings/communication_preferences.js:117
 msgid "Unsubscribed successfully"
-msgstr ""
+msgstr "Abonnentet er stoppa"
 
 #: app/scripts/views/settings/delete_account.js:48
 msgid "Account deleted successfully"
-msgstr ""
+msgstr "Kontoen er no sletta"
 
 #: app/scripts/views/settings/devices.js:25
 msgid "days ago"
@@ -143,25 +143,27 @@ msgstr "år sidan"
 
 #: app/scripts/views/settings/display_name.js:52
 msgid "Display name updated"
-msgstr ""
+msgstr "Visingsnamn oppdatert"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
 msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
+"Kontoen låst. <a href=\"/confirm_account_unlock\">Send e-post for "
+"opplåsing</a>"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:42
 #: app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:101
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "Kontoen din er låst av tryggingsomsyn"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43
 #: app/scripts/templates/reset_password.mustache:6
 msgid "Reset password"
-msgstr ""
+msgstr "Tilbakestill passordet"
 
 #: app/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
-msgstr ""
+msgstr "Du er utlogga"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
@@ -181,7 +183,7 @@ msgstr "Ugyldig token"
 
 #: app/scripts/lib/auth-errors.js:33
 msgid "Invalid timestamp in request signature"
-msgstr ""
+msgstr "Ugyldig tidsstempel i førespurd signatur"
 
 #: app/scripts/lib/auth-errors.js:37
 msgid "Invalid nonce in request signature"
