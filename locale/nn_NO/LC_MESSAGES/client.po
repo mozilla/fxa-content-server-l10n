@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-16 20:04+0000\n"
+"PO-Revision-Date: 2016-05-18 12:03+0000\n"
 "Last-Translator: bjorn.svindseth <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -66,7 +66,7 @@ msgstr "Velkomen tilbake"
 
 #: app/scripts/views/ready.js:44
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "Firefox Sync vil halde fram snart"
 
 #: app/scripts/views/ready.js:54
 msgid "Welcome to Sync"
@@ -79,23 +79,23 @@ msgstr "Konto stadfesta"
 #: app/scripts/views/ready.js:60 app/scripts/lib/strings.js:47
 #: app/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
-msgstr ""
+msgstr "Du kan no bruka %(serviceName)s"
 
 #: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:144
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "Ukjend konto. <a href=\"/signup\">Registrer deg</a>"
 
 #: app/scripts/views/sign_up.js:68
 msgid "Account no longer exists. Recreate it?"
-msgstr ""
+msgstr "Kontoen finst ikkje lenger. Vil du gjenskapa han?"
 
 #: app/scripts/views/sign_up.js:398
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr ""
+msgstr "Kontoen finst allereie. <a href=\"/signin\">Logg inn</a>"
 
 #: app/scripts/views/settings/avatar_gravatar.js:89
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr ""
+msgstr "Med velvillig løyve frå <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
 #: app/scripts/views/settings/change_password.js:46
 msgid "Password changed successfully"
@@ -177,7 +177,7 @@ msgstr "Uventa feil"
 
 #: app/scripts/lib/auth-errors.js:29 app/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
-msgstr ""
+msgstr "Ugyldig token"
 
 #: app/scripts/lib/auth-errors.js:33
 msgid "Invalid timestamp in request signature"
