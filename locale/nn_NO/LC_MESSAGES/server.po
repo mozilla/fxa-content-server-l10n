@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-05-18 11:37+0000\n"
+"PO-Revision-Date: 2016-05-18 14:57+0000\n"
 "Last-Translator: bjorn.svindseth <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -25,6 +25,8 @@ msgid ""
 "A while ago you created a Firefox Account, but never verified it. Click the "
 "link below to activate your account."
 msgstr ""
+"For litt sidan oppretta du ein Firefox-konto, men du stadfesta han aldri. "
+"Trykk på lenka nedanfor for å aktivera kontoen din."
 
 #: templates/_pending.txt:3 templates/post_verify.html:3
 msgid ""
@@ -32,6 +34,9 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for <a "
 "href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
 msgstr ""
+"Du har no kopla til den fyrste eininga di til Firefox-kontoen din. No kan du"
+" logga inn på Sync frå dei andre einingane dine, inkludert Firefox for <a "
+"href='%(androidUrl)s'>Android</a> og <a href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
@@ -39,10 +44,13 @@ msgid ""
 "make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
 "Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
 msgstr ""
+"Du har kopla til den fyrste eininga di til Firefox-kontoen din. For å få det"
+" meste ut av Sync, kopla til <a href='%(androidUrl)s'>Firefox for "
+"Android</a> eller <a href='%(iosUrl)s'>Firefox for iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "Kopla til ei anna eining"
 
 #: templates/_pending.txt:6
 msgid "Sign in to Sync"
