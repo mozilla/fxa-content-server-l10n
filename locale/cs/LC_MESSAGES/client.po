@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-02 15:45+0000\n"
+"POT-Creation-Date: 2016-05-19 12:15+0000\n"
 "PO-Revision-Date: 2016-05-03 13:03+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "Account verified successfully"
 msgstr "Účet byl úspěšně ověřen"
 
-#: app/scripts/views/confirm_account_unlock.js:90
+#: app/scripts/views/confirm_account_unlock.js:91
 msgid "Account unlocked, please try again"
 msgstr "Účet odemčen, zkuste to prosím znovu"
 
@@ -82,7 +82,7 @@ msgstr "Účet ověřen"
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Nyní můžete používat %(serviceName)s"
 
-#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:144
+#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:157
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Neznámý účet. <a href=\"/signup\">Přihlášení</a>"
 
@@ -96,7 +96,8 @@ msgstr "Účet již existuje. <a href=\"/signin\">Přihlášení</a>"
 
 #: app/scripts/views/settings/avatar_gravatar.js:89
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr "S laskavým svolením od <a href=\"https://www.gravatar.com\">Gravatar</a>"
+msgstr ""
+"S laskavým svolením od <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
 #: app/scripts/views/settings/change_password.js:46
 msgid "Password changed successfully"
@@ -147,13 +148,14 @@ msgid "Display name updated"
 msgstr "Zobrazované jméno aktualizováno"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
-"Účet zamčen. <a href=\"/confirm_account_unlock\">Zaslat e-mail pro "
-"odemčení</a>"
+"Účet zamčen. <a href=\"/confirm_account_unlock\">Zaslat e-mail pro odemčení</"
+"a>"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:42
-#: app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:101
+#: app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:105
 msgid "Your account has been locked for security reasons"
 msgstr "Váš účet byl z bezpečnostních důvodů zamčen"
 
@@ -168,8 +170,8 @@ msgstr "Odhlášení bylo úspěšné"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
-#: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39
+#: app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
@@ -218,13 +220,13 @@ msgstr "Neplatný ověřovací kód"
 msgid "Invalid JSON in request body"
 msgstr "Neplatný JSON v těle požadavku"
 
-#: app/scripts/lib/auth-errors.js:69 app/scripts/lib/profile-errors.js:23
-msgid "Invalid parameter in request body: %(param)s"
-msgstr "Neplatný parametr v těle požadavku: %(param)s"
+#: app/scripts/lib/auth-errors.js:69
+msgid "Invalid parameter: %(param)s"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:73
-msgid "Missing parameter in request body: %(param)s"
-msgstr "Chybějící parametr v těle požadavku: %(param)s"
+msgid "Missing parameter: %(param)s"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
@@ -242,139 +244,142 @@ msgstr "Tělo požadavku je příliš velké"
 msgid "Attempt limit exceeded"
 msgstr "Počet pokusů překročen"
 
-#: app/scripts/lib/auth-errors.js:105
+#: app/scripts/lib/auth-errors.js:101
+msgid "The request was blocked for security reasons"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:109
 msgid "Server busy, try again soon"
 msgstr "Server je zaneprázdněn, zkuste to znovu později"
 
-#: app/scripts/lib/auth-errors.js:109
+#: app/scripts/lib/auth-errors.js:113
 msgid "This endpoint is no longer supported"
 msgstr "Tento koncový bod již není podporován"
 
-#: app/scripts/lib/auth-errors.js:113 app/scripts/lib/config-loader.js:73
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/config-loader.js:73
 #: app/scripts/lib/marketing-email-errors.js:79
-#: app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:39
+#: app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Systém je nedostupný, zkuste to znovu později"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/oauth-errors.js:104
+#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/oauth-errors.js:104
 msgid "no message"
 msgstr "žádná zpráva"
 
-#: app/scripts/lib/auth-errors.js:121
+#: app/scripts/lib/auth-errors.js:125
 msgid "Session expired. Sign in to continue."
 msgstr "Relace vypršela. Pro pokračování se přihlaste."
 
-#: app/scripts/lib/auth-errors.js:125
+#: app/scripts/lib/auth-errors.js:129
 msgid "Cookies are still disabled"
 msgstr "Cookies jsou stále zakázány"
 
-#: app/scripts/lib/auth-errors.js:129
+#: app/scripts/lib/auth-errors.js:133
 msgid "Passwords do not match"
 msgstr "Hesla se neshodují"
 
-#: app/scripts/lib/auth-errors.js:133
+#: app/scripts/lib/auth-errors.js:137
 msgid "Working…"
 msgstr "Probíhá…"
 
-#: app/scripts/lib/auth-errors.js:137
+#: app/scripts/lib/auth-errors.js:141
 msgid "Could not get Privacy Notice"
 msgstr "Nepodařilo se získat zásady o ochraně osobních údajů"
 
-#: app/scripts/lib/auth-errors.js:141
+#: app/scripts/lib/auth-errors.js:145
 msgid "Could not get Terms of Service"
 msgstr "Nepodařilo se získat podmínky služby"
 
-#: app/scripts/lib/auth-errors.js:145
+#: app/scripts/lib/auth-errors.js:149
 msgid "Your new password must be different"
 msgstr "Vaše staré a nové heslo nesmí být stejné"
 
-#: app/scripts/lib/auth-errors.js:149
+#: app/scripts/lib/auth-errors.js:153
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "Minimální délka je 8 znaků"
 
-#: app/scripts/lib/auth-errors.js:153
+#: app/scripts/lib/auth-errors.js:157
 msgid "Valid password required"
 msgstr "Je požadováno platné heslo"
 
-#: app/scripts/lib/auth-errors.js:157 app/scripts/lib/auth-errors.js:195
-#: app/scripts/lib/auth-errors.js:211
+#: app/scripts/lib/auth-errors.js:161 app/scripts/lib/auth-errors.js:199
+#: app/scripts/lib/auth-errors.js:215
 msgid "Valid email required"
 msgstr "Je požadován platný e-mail"
 
-#: app/scripts/lib/auth-errors.js:168
+#: app/scripts/lib/auth-errors.js:172
 msgid "A usable image was not found"
 msgstr "Nebyl nalezen použitelný obrázek"
 
-#: app/scripts/lib/auth-errors.js:172
+#: app/scripts/lib/auth-errors.js:176
 msgid "Could not initialize camera"
 msgstr "Nepodařilo se inicializovat fotoaparát"
 
-#: app/scripts/lib/auth-errors.js:176
+#: app/scripts/lib/auth-errors.js:180
 msgid "Valid URL required"
 msgstr "Je vyžadována platná URL"
 
-#: app/scripts/lib/auth-errors.js:191
+#: app/scripts/lib/auth-errors.js:195
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Váš e-mail pro ověření se vrátil. Nezadali jste chybný e-mail?"
 
-#: app/scripts/lib/auth-errors.js:199
+#: app/scripts/lib/auth-errors.js:203
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Vložte platnou e-mailovou adresu. firefox.com e-mail neposkytuje."
 
-#: app/scripts/lib/auth-errors.js:207
+#: app/scripts/lib/auth-errors.js:211
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 "Účet Firefox Account může být umístěn pouze do IFRAME na schválených "
 "stránkách"
 
-#: app/scripts/lib/auth-errors.js:222
+#: app/scripts/lib/auth-errors.js:226
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
-msgstr ""
-"Platnost tohoto odkazu pro ověření vaší e-mailové adresy již vypršela."
+msgstr "Platnost tohoto odkazu pro ověření vaší e-mailové adresy již vypršela."
 
-#: app/scripts/lib/auth-errors.js:226
+#: app/scripts/lib/auth-errors.js:230
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "Odkaz pro ověření je poškozen"
 
-#: app/scripts/lib/auth-errors.js:234
+#: app/scripts/lib/auth-errors.js:238
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Rozměry obrázku musí být minimálně 100x100px"
 
-#: app/scripts/lib/auth-errors.js:238
+#: app/scripts/lib/auth-errors.js:242
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Přihlášení s Firefox pro iOS již brzy"
 
-#: app/scripts/lib/auth-errors.js:242
+#: app/scripts/lib/auth-errors.js:246
 msgid "Signup has been disabled"
 msgstr "Přihlašování bylo zakázáno"
 
-#: app/scripts/lib/auth-errors.js:246
+#: app/scripts/lib/auth-errors.js:250
 msgid "You must enter your age to sign up"
 msgstr "Pro registraci musíte zadat svůj věk"
 
-#: app/scripts/lib/auth-errors.js:250
+#: app/scripts/lib/auth-errors.js:254
 msgid "No Gravatar found"
 msgstr "Ikonka nebyla nalezena"
 
-#: app/scripts/lib/auth-errors.js:258
+#: app/scripts/lib/auth-errors.js:262
 msgid "Account no longer exists."
 msgstr "Účet již neexistuje."
 
-#: app/scripts/lib/auth-errors.js:262
+#: app/scripts/lib/auth-errors.js:266
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Neplatná vlastnost v tokenu pro pokračování: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:266
+#: app/scripts/lib/auth-errors.js:270
 msgid "Missing property in resume token: %(property)s"
 msgstr "Chybějící vlastnost v tokenu pro pokračování: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:270
+#: app/scripts/lib/auth-errors.js:274
 msgid "Invalid data-flow-begin attribute"
 msgstr "Neplatný atribut data-flow-begin"
 
@@ -427,11 +432,19 @@ msgstr ""
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Chybějící parametr QAuth: %(param)s"
 
+#: app/scripts/lib/profile-errors.js:23
+msgid "Invalid Token"
+msgstr ""
+
 #: app/scripts/lib/profile-errors.js:27
+msgid "Invalid parameter in request body: %(param)s"
+msgstr "Neplatný parametr v těle požadavku: %(param)s"
+
+#: app/scripts/lib/profile-errors.js:31
 msgid "Unsupported image provider"
 msgstr "Nepodporovaný poskytovatel obrázků"
 
-#: app/scripts/lib/profile-errors.js:31
+#: app/scripts/lib/profile-errors.js:35
 msgid "Image processing error"
 msgstr "Chyba při zpracování obrázku"
 
@@ -441,15 +454,14 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Pokračování souhlasíte s <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Podmínkami využívání služby</a> a <a id=\"service-pp\""
-" href=\"%(privacyUri)s\">Zásadami o ochraně osobních údajů</a> "
-"%(serviceName)s (%(serviceUri)s)."
+"Pokračování souhlasíte s <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Podmínkami využívání služby</a> a <a id=\"service-pp\" href="
+"\"%(privacyUri)s\">Zásadami o ochraně osobních údajů</a> %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:26
 msgid ""
@@ -476,8 +488,8 @@ msgid ""
 "For added security, please confirm this sign-in to begin syncing with "
 "%(device)s."
 msgstr ""
-"Pro lepší zabezpečení prosím před začátkem synchronizace zařízení %(device)s"
-" toto přihlášení potvrďte."
+"Pro lepší zabezpečení prosím před začátkem synchronizace zařízení %(device)s "
+"toto přihlášení potvrďte."
 
 #: app/scripts/lib/strings.js:33
 msgid "Alternatively:"
@@ -535,8 +547,8 @@ msgid ""
 "To better protect your Firefox data, we've emailed a confirmation link to "
 "%(email)s"
 msgstr ""
-"Abychom lépe chránili vaše data Firefoxu, zaslali jsme vám potvrzovací odkaz"
-" na %(email)s"
+"Abychom lépe chránili vaše data Firefoxu, zaslali jsme vám potvrzovací odkaz "
+"na %(email)s"
 
 #: app/scripts/lib/strings.js:43 app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
@@ -598,7 +610,7 @@ msgstr "Hesla"
 msgid "History"
 msgstr "Historie"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:13
+#: app/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Preferences"
 msgstr "Předvolby"
 
@@ -626,8 +638,8 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
-"Adresa odkazu, na který jste klikli, nebyla kompletní, a mohla být poškozena"
-" například vaším e-mailovým klientem. Zkopírujte pečlivě celou adresu a "
+"Adresa odkazu, na který jste klikli, nebyla kompletní, a mohla být poškozena "
+"například vaším e-mailovým klientem. Zkopírujte pečlivě celou adresu a "
 "zkuste to znovu."
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
@@ -720,8 +732,8 @@ msgstr "E-mail pro odemčení byl odeslán"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification"
-" link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
 msgstr ""
 "Z bezpečnostních důvodů byl váš účet uzamčen. Pro pokračování prosím znovu "
 "ověřte svůj účet klepnutím na odkaz zaslaný na %(email)s"
@@ -752,12 +764,11 @@ msgstr "Požadovány cookies a local storage."
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between"
-" sessions."
+"Accounts. Doing so will enable functionality such as remembering you between "
+"sessions."
 msgstr ""
 "Abyste mohli používat Firefox Accounts, povolte prosím cookies a local "
-"storage. Díky tomu si vás budeme moci zapamatovat mezi jednotlivými "
-"relacemi."
+"storage. Díky tomu si vás budeme moci zapamatovat mezi jednotlivými relacemi."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -801,9 +812,9 @@ msgstr "Zapomněli jste heslo?"
 #: app/scripts/templates/sign_in.mustache:27
 #: app/scripts/templates/sign_up.mustache:17
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
 "Pokračování souhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmínkami "
 "služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Podmínkami ochrany "
@@ -909,8 +920,8 @@ msgstr "Zapomněl jsem heslo"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
-"When you reset your password, you will lose any Sync data that is not on one"
-" of your devices."
+"When you reset your password, you will lose any Sync data that is not on one "
+"of your devices."
 msgstr ""
 "Pokud obnovíte své heslo, přijdete o data ve službě Sync, která nejsou "
 "uložena na žádném z vašich zařízení."
@@ -938,8 +949,8 @@ msgstr "Pokračovat na %(serviceName)s"
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr ""
-"Přesuňte svá synchronizovaná data přihlášením k vašemu účtu "
-"Firefox&nbsp;Account."
+"Přesuňte svá synchronizovaná data přihlášením k vašemu účtu Firefox&nbsp;"
+"Account."
 
 #: app/scripts/templates/sign_in.mustache:12
 #: app/scripts/templates/sign_in.mustache:15
@@ -958,13 +969,12 @@ msgstr "Vytvořit Firefox Account"
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr ""
-"Přesuňte svá synchronizovaná data vytvořením nového účtu "
-"Firefox&nbsp;Account."
+"Přesuňte svá synchronizovaná data vytvořením nového účtu Firefox&nbsp;"
+"Account."
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
-"in</a>"
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 msgstr ""
 "Máte účet s jinou e-mailovou adresou? <a href=\"%(signinUri)s\">Přihlaste "
 "se</a>"
@@ -1080,13 +1090,13 @@ msgstr "Zařízení"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
-"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
-"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
+"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
+"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox je k dispozici pro <a href=\"%(linkWindows)s\">Windows</a>, <a "
-"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
-"href=\"%(linkIOS)s\">iOS</a> a <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox je k dispozici pro <a href=\"%(linkWindows)s\">Windows</a>, <a href="
+"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
+"\"%(linkIOS)s\">iOS</a> a <a href=\"%(linkLinux)s\">Linux</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -1140,6 +1150,9 @@ msgstr "Použít OpenID"
 msgid "Use Firefox Account"
 msgstr "Použít Firefox Account"
 
+#~ msgid "Missing parameter in request body: %(param)s"
+#~ msgstr "Chybějící parametr v těle požadavku: %(param)s"
+
 #~ msgid "Sign up"
 #~ msgstr "Přihlásit se"
 
@@ -1156,9 +1169,9 @@ msgstr "Použít Firefox Account"
 #~ msgstr "Opravdu chcete obnovit heslo vašeho účtu?"
 
 #~ msgid ""
-#~ "Resetting your password will erase your browsing data from our servers. Any "
-#~ "data on your devices will remain untouched. Begin the reset process by "
-#~ "entering your email below."
+#~ "Resetting your password will erase your browsing data from our servers. "
+#~ "Any data on your devices will remain untouched. Begin the reset process "
+#~ "by entering your email below."
 #~ msgstr ""
 #~ "Obnovením vašeho hesla dojde ke smazání vašich dat o prohlížení z našich "
 #~ "serverů. Data na vašich zařízeních ovlivněna nijak nebudou. Pro obnovení "
@@ -1364,13 +1377,13 @@ msgstr "Použít Firefox Account"
 #~ msgstr "Pro obnovu svého hesla účtu vlože váš e-mail."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data from"
-#~ " our servers. A new Sync backup will be created from your local browsing "
-#~ "data."
+#~ "For security reasons, resetting your password will erase your Sync data "
+#~ "from our servers. A new Sync backup will be created from your local "
+#~ "browsing data."
 #~ msgstr ""
 #~ "Z bezpečnostních důvodů obnovení hesla vymaže data synchronizace z našich "
-#~ "serverů. Bude vytvořena nová záloha Sync na základě vašich lokálních dat o "
-#~ "prohlížení."
+#~ "serverů. Bude vytvořena nová záloha Sync na základě vašich lokálních dat "
+#~ "o prohlížení."
 
 #~ msgid "You are signed in as"
 #~ msgstr "Jste přihlášeni jako"
@@ -1379,24 +1392,22 @@ msgstr "Použít Firefox Account"
 #~ msgstr "Máte již účet? Přihlaste se."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" "
-#~ "href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-#~ "href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+#~ "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+#~ "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
-#~ "Pokračování souhlasíte s <a id=\"service-tos\" "
-#~ "href=\"%(termsUri)s\">Podmínkami služby</a> a <a id=\"service-pp\" "
-#~ "href=\"%(privacyUri)s\">Zásadami o ochraně osobních údajů</a> "
-#~ "%(serviceName)s (%(serviceUri)s)."
+#~ "Pokračování souhlasíte s <a id=\"service-tos\" href=\"%(termsUri)s"
+#~ "\">Podmínkami služby</a> a <a id=\"service-pp\" href=\"%(privacyUri)s"
+#~ "\">Zásadami o ochraně osobních údajů</a> %(serviceName)s (%(serviceUri)s)."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-#~ "Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Pokračováním souhlasím s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmínkami "
-#~ "služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Zásadami o ochraně "
-#~ "osobních údajů</a> služeb Firefox cloud."
+#~ "Pokračováním souhlasím s <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Podmínkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Zásadami o ochraně osobních údajů</a> služeb Firefox cloud."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Přihlaste se k odběru novinek a tipů k Firefoxu"
@@ -1411,8 +1422,8 @@ msgstr "Použít Firefox Account"
 #~ "Once you're ﬁnished, use your new password to sign in on all of your "
 #~ "devices."
 #~ msgstr ""
-#~ "Jakmile budete hotovi, použijte své nové heslo pro přihlášení na všech svých"
-#~ " zařízeních."
+#~ "Jakmile budete hotovi, použijte své nové heslo pro přihlášení na všech "
+#~ "svých zařízeních."
 
 #~ msgid "Illegal iframe"
 #~ msgstr "Ilegální iframe"
@@ -1420,10 +1431,12 @@ msgstr "Použít Firefox Account"
 #~ msgid "Password changed"
 #~ msgstr "Heslo změněno"
 
-#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
+#~ msgid ""
+#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
+#~ "email</a>."
 #~ msgstr ""
-#~ "Neověřený účet. <a href=\"#\" id=\"resend\">Zaslat znovu ověřovací "
-#~ "e-mail</a>."
+#~ "Neověřený účet. <a href=\"#\" id=\"resend\">Zaslat znovu ověřovací e-"
+#~ "mail</a>."
 
 #~ msgid "Password reset. Sign in to continue."
 #~ msgstr "Obnovení hesla. Pro pokračování se přihlaste."
@@ -1432,8 +1445,8 @@ msgstr "Použít Firefox Account"
 #~ msgstr "Odhlášení"
 
 #~ msgid ""
-#~ "Your verification email was just returned. Mistyped email? <a "
-#~ "href=\"/signup\">Start over.</a>"
+#~ "Your verification email was just returned. Mistyped email? <a href=\"/"
+#~ "signup\">Start over.</a>"
 #~ msgstr ""
 #~ "Váš e-mail pro ověření se právě vrátil zpět. Špatně zadaný e-mail? <a "
 #~ "href=\"/signup\">Začít znovu</a>."

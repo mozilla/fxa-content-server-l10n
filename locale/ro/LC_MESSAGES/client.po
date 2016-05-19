@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-02 15:45+0000\n"
+"POT-Creation-Date: 2016-05-19 12:15+0000\n"
 "PO-Revision-Date: 2016-05-09 23:38+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,7 +11,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1440955868.0\n"
 
@@ -21,7 +22,7 @@ msgstr ""
 msgid "Account verified successfully"
 msgstr "Cont verificat cu succes"
 
-#: app/scripts/views/confirm_account_unlock.js:90
+#: app/scripts/views/confirm_account_unlock.js:91
 msgid "Account unlocked, please try again"
 msgstr "Cont deblocat, te rugăm să încerci din nou"
 
@@ -82,7 +83,7 @@ msgstr "Cont verificat"
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Ești acum pregătit să folosești %(serviceName)s"
 
-#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:144
+#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:157
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Cont necunoscut. <a href=\"/signup\">Înregistrare</a>"
 
@@ -147,13 +148,14 @@ msgid "Display name updated"
 msgstr "Numele afișat actualizat"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "Cont blocat. <a href=\"/confirm_account_unlock\">Trimite e-mailul de "
 "deblocare</a>"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:42
-#: app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:101
+#: app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:105
 msgid "Your account has been locked for security reasons"
 msgstr "Contul tău a fost blocat din motive de securitate"
 
@@ -168,8 +170,8 @@ msgstr "Te-ai deconectat cu succes"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
-#: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39
+#: app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
@@ -224,13 +226,13 @@ msgstr "Cod de verificare invalid"
 msgid "Invalid JSON in request body"
 msgstr "JSON invalid în corpul cererii"
 
-#: app/scripts/lib/auth-errors.js:69 app/scripts/lib/profile-errors.js:23
-msgid "Invalid parameter in request body: %(param)s"
-msgstr "Parametru invalid în corpul cererii: %(param)s"
+#: app/scripts/lib/auth-errors.js:69
+msgid "Invalid parameter: %(param)s"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:73
-msgid "Missing parameter in request body: %(param)s"
-msgstr "Parametru lipsă în corpul cererii: %(param)s"
+msgid "Missing parameter: %(param)s"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
@@ -249,140 +251,143 @@ msgstr "Corpul cererii este prea mare"
 msgid "Attempt limit exceeded"
 msgstr "Limita de încercări a fost depășită"
 
-#: app/scripts/lib/auth-errors.js:105
+#: app/scripts/lib/auth-errors.js:101
+msgid "The request was blocked for security reasons"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:109
 msgid "Server busy, try again soon"
 msgstr "Serverul este ocupat, încearcă din nou mai târziu"
 
 # „Endpoint” are o semnificație precisă, e o denumire de metodă pentru un API
 # Web (de regulă REST) și nu se traduce
-#: app/scripts/lib/auth-errors.js:109
+#: app/scripts/lib/auth-errors.js:113
 msgid "This endpoint is no longer supported"
 msgstr "Acest endpoint nu mai este suportat"
 
-#: app/scripts/lib/auth-errors.js:113 app/scripts/lib/config-loader.js:73
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/config-loader.js:73
 #: app/scripts/lib/marketing-email-errors.js:79
-#: app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:39
+#: app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Sistem indisponibil, încearcă din nou mai târziu"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/oauth-errors.js:104
+#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/oauth-errors.js:104
 msgid "no message"
 msgstr "niciun mesaj"
 
-#: app/scripts/lib/auth-errors.js:121
+#: app/scripts/lib/auth-errors.js:125
 msgid "Session expired. Sign in to continue."
 msgstr "Sesiune expirată. Autentifică-te pentru a continua."
 
-#: app/scripts/lib/auth-errors.js:125
+#: app/scripts/lib/auth-errors.js:129
 msgid "Cookies are still disabled"
 msgstr "Cookie-urile sunt încă dezactivate"
 
-#: app/scripts/lib/auth-errors.js:129
+#: app/scripts/lib/auth-errors.js:133
 msgid "Passwords do not match"
 msgstr "Parolele nu se potrivesc"
 
-#: app/scripts/lib/auth-errors.js:133
+#: app/scripts/lib/auth-errors.js:137
 msgid "Working…"
 msgstr "Se lucrează…"
 
-#: app/scripts/lib/auth-errors.js:137
+#: app/scripts/lib/auth-errors.js:141
 msgid "Could not get Privacy Notice"
 msgstr "Nu s-a putut găsi nota privind politica de confidențialitate"
 
-#: app/scripts/lib/auth-errors.js:141
+#: app/scripts/lib/auth-errors.js:145
 msgid "Could not get Terms of Service"
 msgstr "Nu s-au putut găsi termenii de utilizare a serviciului"
 
-#: app/scripts/lib/auth-errors.js:145
+#: app/scripts/lib/auth-errors.js:149
 msgid "Your new password must be different"
 msgstr "Noua ta parolă trebuie să fie diferită"
 
-#: app/scripts/lib/auth-errors.js:149
+#: app/scripts/lib/auth-errors.js:153
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "Trebuie să fie de cel puțin 8 caractere"
 
-#: app/scripts/lib/auth-errors.js:153
+#: app/scripts/lib/auth-errors.js:157
 msgid "Valid password required"
 msgstr "Parolă validă necesară"
 
-#: app/scripts/lib/auth-errors.js:157 app/scripts/lib/auth-errors.js:195
-#: app/scripts/lib/auth-errors.js:211
+#: app/scripts/lib/auth-errors.js:161 app/scripts/lib/auth-errors.js:199
+#: app/scripts/lib/auth-errors.js:215
 msgid "Valid email required"
 msgstr "E-mail valid necesar"
 
-#: app/scripts/lib/auth-errors.js:168
+#: app/scripts/lib/auth-errors.js:172
 msgid "A usable image was not found"
 msgstr "Nu s-a găsit o imagine utilizabilă"
 
-#: app/scripts/lib/auth-errors.js:172
+#: app/scripts/lib/auth-errors.js:176
 msgid "Could not initialize camera"
 msgstr "Camera nu a putut fi inițializată"
 
-#: app/scripts/lib/auth-errors.js:176
+#: app/scripts/lib/auth-errors.js:180
 msgid "Valid URL required"
 msgstr "URL valid necesar"
 
-#: app/scripts/lib/auth-errors.js:191
+#: app/scripts/lib/auth-errors.js:195
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "E-mailul de verificare a fost trimis înapoi. Ai scris corect adresa?"
 
-#: app/scripts/lib/auth-errors.js:199
+#: app/scripts/lib/auth-errors.js:203
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Introdu o adresă de e-mail validă. firefox.com nu oferă e-mail."
 
-#: app/scripts/lib/auth-errors.js:207
+#: app/scripts/lib/auth-errors.js:211
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
-"Conturile Firefox pot fi plasate într-un IFRAME pe site-urile aprobate"
+msgstr "Conturile Firefox pot fi plasate într-un IFRAME pe site-urile aprobate"
 
-#: app/scripts/lib/auth-errors.js:222
+#: app/scripts/lib/auth-errors.js:226
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
 msgstr "Linkul pe care ai dat clic pentru verificarea e-mailului a expirat."
 
-#: app/scripts/lib/auth-errors.js:226
+#: app/scripts/lib/auth-errors.js:230
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "Link de verificare deteriorat"
 
-#: app/scripts/lib/auth-errors.js:234
+#: app/scripts/lib/auth-errors.js:238
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Dimensiunile imaginii trebuie să fie cel puțin 100x100px"
 
 # Signup poate fi un nume de serviciu
-#: app/scripts/lib/auth-errors.js:238
+#: app/scripts/lib/auth-errors.js:242
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Înregistrarea vine în curând și pe Firefox pentru iOS"
 
-#: app/scripts/lib/auth-errors.js:242
+#: app/scripts/lib/auth-errors.js:246
 msgid "Signup has been disabled"
 msgstr "Înregistrarea a fost dezactivată"
 
-#: app/scripts/lib/auth-errors.js:246
+#: app/scripts/lib/auth-errors.js:250
 msgid "You must enter your age to sign up"
 msgstr "Trebuie să introduci vârsta pentru a te înregistra"
 
-#: app/scripts/lib/auth-errors.js:250
+#: app/scripts/lib/auth-errors.js:254
 msgid "No Gravatar found"
 msgstr "Niciun Gravatar găsit"
 
-#: app/scripts/lib/auth-errors.js:258
+#: app/scripts/lib/auth-errors.js:262
 msgid "Account no longer exists."
 msgstr "Contul nu mai există."
 
-#: app/scripts/lib/auth-errors.js:262
+#: app/scripts/lib/auth-errors.js:266
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Proprietate invalidă în tokenul resume: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:266
+#: app/scripts/lib/auth-errors.js:270
 msgid "Missing property in resume token: %(property)s"
 msgstr "Proprietate lipsă în tokenul resume: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:270
+#: app/scripts/lib/auth-errors.js:274
 msgid "Invalid data-flow-begin attribute"
 msgstr "Atribut data-flow-begin invalid"
 
@@ -434,11 +439,19 @@ msgstr "Ceva a mers prost. Închide această filă și încearcă din nou."
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Parametru lipsă OAuth: %(param)s"
 
+#: app/scripts/lib/profile-errors.js:23
+msgid "Invalid Token"
+msgstr ""
+
 #: app/scripts/lib/profile-errors.js:27
+msgid "Invalid parameter in request body: %(param)s"
+msgstr "Parametru invalid în corpul cererii: %(param)s"
+
+#: app/scripts/lib/profile-errors.js:31
 msgid "Unsupported image provider"
 msgstr "Furnizor de imagine nesuportat"
 
-#: app/scripts/lib/profile-errors.js:31
+#: app/scripts/lib/profile-errors.js:35
 msgid "Image processing error"
 msgstr "Eroare la procesarea imaginii"
 
@@ -448,15 +461,14 @@ msgstr "Sincronizare Firefox"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Continuând, ești de acord cu <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">termenii de utilizare a serviciului</a> și <a id"
-"=\"service-pp\" href=\"%(privacyUri)s\">politica de confidențialitate</a> a "
-"%(serviceName)s (%(serviceUri)s)."
+"Continuând, ești de acord cu <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">termenii de utilizare a serviciului</a> și <a id=\"service-pp\" href="
+"\"%(privacyUri)s\">politica de confidențialitate</a> a %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:26
 msgid ""
@@ -543,8 +555,8 @@ msgid ""
 "To better protect your Firefox data, we've emailed a confirmation link to "
 "%(email)s"
 msgstr ""
-"Pentru o mai bună protejare a datelor tale Firefox, ți-am trimis prin e-mail"
-" un link de confirmare către %(email)s"
+"Pentru o mai bună protejare a datelor tale Firefox, ți-am trimis prin e-mail "
+"un link de confirmare către %(email)s"
 
 #: app/scripts/lib/strings.js:43 app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
@@ -575,8 +587,8 @@ msgstr "Nu se poate crea contul"
 msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr ""
-"Trebuie să îndeplinești anumite cerințe de vârstă pentru a crea un "
-"cont&nbsp;Firefox"
+"Trebuie să îndeplinești anumite cerințe de vârstă pentru a crea un cont&nbsp;"
+"Firefox"
 
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
@@ -608,15 +620,15 @@ msgstr "Parole"
 msgid "History"
 msgstr "Istoric"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:13
+#: app/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Preferences"
 msgstr "Preferințe"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
 msgstr ""
-"Suplimentele și preferințele nu se sincronizează în prezent pe dispozitivele"
-" mobile."
+"Suplimentele și preferințele nu se sincronizează în prezent pe dispozitivele "
+"mobile."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
@@ -637,8 +649,8 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
-"Linkul pe care ai dat clic avea caractere lipsă, iar acest lucru ar putea fi"
-" din vina clientului de e-mail. Copiază adresa cu grijă și încearcă din nou."
+"Linkul pe care ai dat clic avea caractere lipsă, iar acest lucru ar putea fi "
+"din vina clientului de e-mail. Copiază adresa cu grijă și încearcă din nou."
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
@@ -730,8 +742,8 @@ msgstr "E-mailul de deblocare trimis"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification"
-" link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
 msgstr ""
 "Din motive de securitate, contul a fost blocat. Pentru a folosi din nou "
 "contul, te rugăm să reverifici contul printr-un clic pe linkul trimis către "
@@ -746,8 +758,8 @@ msgid ""
 "Click on the link we've emailed you at %(email)s within the next hour to "
 "create a new password."
 msgstr ""
-"Clic pe linkul pe care ți l-am trimis prin e-mail la %(email)s în următoarea"
-" oră pentru a crea o parolă nouă."
+"Clic pe linkul pe care ți l-am trimis prin e-mail la %(email)s în următoarea "
+"oră pentru a crea o parolă nouă."
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
@@ -763,12 +775,12 @@ msgstr "Cookie-urile și stocarea locală sunt necesare."
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between"
-" sessions."
+"Accounts. Doing so will enable functionality such as remembering you between "
+"sessions."
 msgstr ""
-"Te rugăm să activezi cookie-urile și stocarea locală în browserul tău pentru"
-" a accesa Conturi Firefox. Făcând acest lucru va fi activată "
-"funcționalitatea de a ține minte contul tău între sesiuni."
+"Te rugăm să activezi cookie-urile și stocarea locală în browserul tău pentru "
+"a accesa Conturi Firefox. Făcând acest lucru va fi activată funcționalitatea "
+"de a ține minte contul tău între sesiuni."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -812,14 +824,13 @@ msgstr "Ai pierdut parola?"
 #: app/scripts/templates/sign_in.mustache:27
 #: app/scripts/templates/sign_up.mustache:17
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
-"Continuând, ești de acord cu <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">termenii de utilizare a serviciului</a> și <a id"
-"=\"fxa-pp\" href=\"/legal/privacy\">politica de confidențialitate</a> a "
-"serviciilor cloud Firefox."
+"Continuând, ești de acord cu <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">termenii de utilizare a serviciului</a> și <a id=\"fxa-pp\" href=\"/legal/"
+"privacy\">politica de confidențialitate</a> a serviciilor cloud Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -921,8 +932,8 @@ msgstr "Parolă uitată"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
-"When you reset your password, you will lose any Sync data that is not on one"
-" of your devices."
+"When you reset your password, you will lose any Sync data that is not on one "
+"of your devices."
 msgstr ""
 "În momentul în care îți resetezi parola, vei pierde datele din Sincronizare "
 "care nu sunt pe unul dintre dispozitive."
@@ -973,8 +984,7 @@ msgstr "Migrează datele de sincronizare prin crearea unui cont&nbsp;Firefox."
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
-"in</a>"
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 msgstr ""
 "Ai un cont cu o adresă de e-mail diferită? <a href=\"%(signinUri)s"
 "\">Autentifică-te</a>"
@@ -1091,9 +1101,9 @@ msgstr "Dispozitive"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
-"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
-"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
+"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
+"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
 "Firefox este disponibil pentru <a href=\"%(linkWindows)s\">Windows</a>, <a "
 "href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
@@ -1151,6 +1161,9 @@ msgstr "Folosește OpenID"
 msgid "Use Firefox Account"
 msgstr "Folosește cont Firefox"
 
+#~ msgid "Missing parameter in request body: %(param)s"
+#~ msgstr "Parametru lipsă în corpul cererii: %(param)s"
+
 #~ msgid "Sign up"
 #~ msgstr "Înregistrare"
 
@@ -1167,9 +1180,9 @@ msgstr "Folosește cont Firefox"
 #~ msgstr "Sigur dorești să resetezi parola contului?"
 
 #~ msgid ""
-#~ "Resetting your password will erase your browsing data from our servers. Any "
-#~ "data on your devices will remain untouched. Begin the reset process by "
-#~ "entering your email below."
+#~ "Resetting your password will erase your browsing data from our servers. "
+#~ "Any data on your devices will remain untouched. Begin the reset process "
+#~ "by entering your email below."
 #~ msgstr ""
 #~ "Resetarea parolei va șterge datele de navigare de pe serverele noastre. "
 #~ "Datele de pe dispozitive vor rămâne neatinse. Începe procesul de resetare "
@@ -1196,8 +1209,9 @@ msgstr "Folosește cont Firefox"
 #~ "provide functionality such as remembering you between sessions."
 #~ msgstr ""
 #~ "Te rugăm să activezi cookie-urile în browser care sunt solicitate de "
-#~ "conturile Firefox. Cookie-urile sunt bucăți mici de date stocate în browser "
-#~ "care oferă funcționalitate precum reținerea sesiunilor de navigare."
+#~ "conturile Firefox. Cookie-urile sunt bucăți mici de date stocate în "
+#~ "browser care oferă funcționalitate precum reținerea sesiunilor de "
+#~ "navigare."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox vine în curând și pe iOS!"
@@ -1335,13 +1349,13 @@ msgstr "Folosește cont Firefox"
 #~ msgstr "Scrie adresa de e-mail pentru a reseta&nbsp;parola contului."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data from"
-#~ " our servers. A new Sync backup will be created from your local browsing "
-#~ "data."
+#~ "For security reasons, resetting your password will erase your Sync data "
+#~ "from our servers. A new Sync backup will be created from your local "
+#~ "browsing data."
 #~ msgstr ""
-#~ "Din motive de securitate, resetarea parolei va șterge datele de sincronizare"
-#~ " de pe serverele noastre. Va fi creată o copie de siguranță pentru "
-#~ "Sincronizare din datele locale de navigare."
+#~ "Din motive de securitate, resetarea parolei va șterge datele de "
+#~ "sincronizare de pe serverele noastre. Va fi creată o copie de siguranță "
+#~ "pentru Sincronizare din datele locale de navigare."
 
 #~ msgid "You are signed in as"
 #~ msgstr "Ești autentificat(ă) ca"
@@ -1355,7 +1369,9 @@ msgstr "Folosește cont Firefox"
 #~ msgid "Password changed"
 #~ msgstr "Parolă schimbată"
 
-#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
+#~ msgid ""
+#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
+#~ "email</a>."
 #~ msgstr ""
 #~ "Cont neverificat. <a href=\"#\" id=\"resend\">Retrimite emailul de "
 #~ "verificare</a>."

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-02 15:45+0000\n"
+"POT-Creation-Date: 2016-05-19 12:15+0000\n"
 "PO-Revision-Date: 2016-03-10 20:10+0000\n"
 "Last-Translator: Zygimantus <zygimantus@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,13 +11,14 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 or n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 or n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1447609555.0\n"
 
 #: templates/_pending.txt:1 templates/verification_reminder_second.html:2
 #: templates/verification_reminder_second.txt:1
-#: templates/verify_reminder_second.html:2 mailer.js:458
+#: templates/verify_reminder_second.html:2 mailer.js:416 mailer.js:444
 msgid "Still there?"
 msgstr "Vis dar čia?"
 
@@ -55,8 +56,8 @@ msgstr "Prisijunkite sinchronizavimui"
 #: templates/suspicious_location.html:1 templates/unlock.html:1
 #: templates/verification_reminder_first.html:1
 #: templates/verification_reminder_second.html:1 templates/verify.html:1
-#: templates/verify_login.html:1 templates/verify_reminder_first.html:1
-#: templates/verify_reminder_second.html:1
+#: templates/verify_reminder_first.html:1
+#: templates/verify_reminder_second.html:1 templates/verify_login.html:1
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
@@ -67,7 +68,8 @@ msgid "Firefox Accounts"
 msgstr "„Firefox“ paskyros"
 
 #: templates/new_device_login.html:2 templates/new_device_login.txt:1
-#: templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:380
+#: mailer.js:338 templates/verify_login.html:2 templates/verify_login.txt:1
+#: mailer.js:367
 msgid "New sign-in to Firefox"
 msgstr ""
 
@@ -153,8 +155,8 @@ msgstr ""
 
 #: templates/password_reset.txt:4
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox"
-" Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox "
+"Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 
 #: templates/password_reset_required.html:2
@@ -212,6 +214,17 @@ msgstr ""
 #: templates/password_reset_required.html:10
 #: templates/password_reset_required.txt:9
 #: templates/suspicious_location.html:14 templates/suspicious_location.txt:13
+#: templates/new_device_login.html:5 templates/new_device_login.txt:4
+#: templates/password_changed.html:6 templates/password_changed.txt:5
+#: templates/password_reset.html:6 templates/password_reset.txt:6
+#: templates/post_verify.html:8 templates/post_verify.txt:6
+#: templates/reset.html:9 templates/reset.txt:7 templates/unlock.html:8
+#: templates/unlock.txt:5 templates/verification_reminder_first.html:8
+#: templates/verification_reminder_first.txt:6
+#: templates/verification_reminder_second.html:8
+#: templates/verification_reminder_second.txt:6 templates/verify.html:8
+#: templates/verify.txt:6 templates/verify_login.html:7
+#: templates/verify_login.txt:5
 msgid "Mozilla Privacy Policy"
 msgstr ""
 
@@ -222,8 +235,8 @@ msgstr "Paskyra patvirtinta!"
 #: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5
 #: templates/verification_reminder_first.html:5
 #: templates/verification_reminder_second.html:5 templates/verify.html:5
-#: templates/verify_login.html:5 templates/verify_reminder_first.html:5
-#: templates/verify_reminder_second.html:5
+#: templates/verify_reminder_first.html:5
+#: templates/verify_reminder_second.html:5 templates/verify_login.html:5
 msgid "Alternatively:"
 msgstr "Alternatyva:"
 
@@ -244,8 +257,8 @@ msgstr ""
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid ""
-"Click the button within the next hour to set a new password for your Firefox"
-" Account."
+"Click the button within the next hour to set a new password for your Firefox "
+"Account."
 msgstr ""
 
 #: templates/reset.html:4 templates/reset.txt:3
@@ -312,7 +325,7 @@ msgstr "Patikrinti paskyrą:"
 
 #: templates/verification_reminder_first.html:2
 #: templates/verification_reminder_first.txt:1
-#: templates/verify_reminder_first.html:2 mailer.js:455
+#: templates/verify_reminder_first.html:2 mailer.js:413 mailer.js:441
 msgid "Hello again."
 msgstr "Sveiki dar kartą."
 
@@ -321,9 +334,9 @@ msgstr "Sveiki dar kartą."
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history"
-" on any device connected to it. Simply confirm this email address to "
-"activate your account."
+"verified account lets you access your tabs, bookmarks, passwords and history "
+"on any device connected to it. Simply confirm this email address to activate "
+"your account."
 msgstr ""
 
 #: templates/verification_reminder_first.html:4
@@ -337,6 +350,8 @@ msgstr "Aktyvinti dabar"
 #: templates/verification_reminder_second.html:8 templates/verify.html:8
 #: templates/verify_reminder_first.html:8
 #: templates/verify_reminder_second.html:8
+#: templates/verification_reminder_first.html:9
+#: templates/verification_reminder_second.html:9 templates/verify.html:9
 msgid "Verify Email"
 msgstr "Patvirtinti el. paštą"
 
@@ -344,6 +359,8 @@ msgstr "Patvirtinti el. paštą"
 #: templates/verification_reminder_second.html:9 templates/verify.html:9
 #: templates/verify_reminder_first.html:9
 #: templates/verify_reminder_second.html:9
+#: templates/verification_reminder_first.html:10
+#: templates/verification_reminder_second.html:10 templates/verify.html:10
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr ""
 
@@ -357,10 +374,10 @@ msgstr "Aktyvinti dabar:"
 #: templates/verify_reminder_second.html:3
 msgid ""
 "A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and"
-" iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know"
-" you're okay."
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
+"iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know "
+"you're okay."
 msgstr ""
 
 #: templates/verify.html:2 templates/verify.txt:1
@@ -369,6 +386,77 @@ msgstr "Sveiki!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
+msgstr ""
+
+#: config.js:146 config.js:151
+msgid "env"
+msgstr ""
+
+#: config.js:159 config.js:160 config.js:161 config.js:162 config.js:163
+#: config.js:164
+msgid "contentServer.url"
+msgstr ""
+
+#: log.js:7
+msgid "logging"
+msgstr ""
+
+#: mailer.js:168 mailer.js:171
+msgid "Verify your Firefox Account"
+msgstr "Patvirtinti „Firefox“ paskyrą"
+
+#: mailer.js:201 mailer.js:244
+msgid "Reset your Firefox Account password"
+msgstr ""
+
+#: mailer.js:236 mailer.js:278
+msgid "Re-verify your Firefox Account"
+msgstr ""
+
+#: mailer.js:269 mailer.js:299
+msgid "Your Firefox Account password has been changed"
+msgstr ""
+
+#: mailer.js:291 mailer.js:321
+msgid "Your Firefox Account password has been reset"
+msgstr ""
+
+#: mailer.js:313 mailer.js:342
+msgid "Firefox Account password reset required"
+msgstr ""
+
+#: mailer.js:366 mailer.js:395
+msgid "Firefox Account Verified"
+msgstr ""
+
+#: mailer.js:401 mailer.js:429
+msgid "Suspicious activity with your Firefox Account"
+msgstr ""
+
+#: lib/db.js:21
+msgid "/"
+msgstr ""
+
+#: lib/db.js:34
+msgid "/__heartbeat__"
+msgstr ""
+
+#: templates/new_device_login.html:4 templates/password_changed.html:5
+#: templates/password_reset.html:5 templates/post_verify.html:7
+#: templates/reset.html:8 templates/unlock.html:7
+#: templates/verification_reminder_first.html:7
+#: templates/verification_reminder_second.html:7 templates/verify.html:7
+msgid ""
+"For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
+"Support</a>."
+msgstr ""
+
+#: templates/verification_reminder_second.html:3
+#: templates/verification_reminder_second.txt:2
+msgid ""
+"A week ago you created a Firefox Account, but never verified it. We’re "
+"worried about you. Confirm this email address to activate your account and "
+"let us know you're okay."
 msgstr ""
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
@@ -384,49 +472,17 @@ msgstr ""
 #: templates/verify_login.html:6
 msgid ""
 "If you suspect that someone is trying to gain access to your account, <a "
-"%(supportLinkAttributes)s>please report it to us</a>."
+"%(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr ""
 
 #: templates/verify_login.txt:4
 msgid ""
-"If you suspect that someone is trying to gain access to your account, please"
-" report it to us."
+"If you suspect that someone is trying to gain access to your account, please "
+"change your password."
 msgstr ""
 
-#: mailer.js:171
-msgid "Verify your Firefox Account"
-msgstr "Patvirtinti „Firefox“ paskyrą"
-
-#: mailer.js:210
+#: mailer.js:209
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
-
-#: mailer.js:243
-msgid "Reset your Firefox Account password"
-msgstr ""
-
-#: mailer.js:278
-msgid "Re-verify your Firefox Account"
-msgstr ""
-
-#: mailer.js:311
-msgid "Your Firefox Account password has been changed"
-msgstr ""
-
-#: mailer.js:333
-msgid "Your Firefox Account password has been reset"
-msgstr ""
-
-#: mailer.js:355
-msgid "Firefox Account password reset required"
-msgstr ""
-
-#: mailer.js:408
-msgid "Firefox Account Verified"
-msgstr ""
-
-#: mailer.js:443
-msgid "Suspicious activity with your Firefox Account"
 msgstr ""
 
 #: server/templates/pages/src/400.html:2
@@ -482,12 +538,11 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a "
-"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
-"experience."
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
-"Jūs naudojate <strong>pasenusią</strong> naršyklę. Labai prašome <a "
-"href=\"http://browsehappy.com/\">ją atnaujinti</a> ir internetas taps jums "
+"Jūs naudojate <strong>pasenusią</strong> naršyklę. Labai prašome <a href="
+"\"http://browsehappy.com/\">ją atnaujinti</a> ir internetas taps jums "
 "draugiškesnis."
 
 #: server/templates/pages/src/index.html:3
@@ -519,11 +574,11 @@ msgstr "Paslaugos teikimo nuostatai"
 #~ msgstr "Aktyvinti dabar:"
 
 #~ msgid ""
-#~ "For more information, please visit <a "
-#~ "href='https://support.mozilla.org'>Mozilla Support</a>"
+#~ "For more information, please visit <a href='https://support.mozilla."
+#~ "org'>Mozilla Support</a>"
 #~ msgstr ""
-#~ "Daugiau informacijos rasite <a href='https://support.mozilla.org'>„Mozilla“ "
-#~ "pagalbos puslapyje</a>"
+#~ "Daugiau informacijos rasite <a href='https://support.mozilla."
+#~ "org'>„Mozilla“ pagalbos puslapyje</a>"
 
 #~ msgid "Reset password:"
 #~ msgstr "Atkurti slaptažodį:"
@@ -534,7 +589,8 @@ msgstr "Paslaugos teikimo nuostatai"
 #~ msgid "Almost there"
 #~ msgstr "Beveik baigėme"
 
-#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgid ""
+#~ "%(email)s, you're one click away from verifying your Firefox Account."
 #~ msgstr ""
 #~ "%(email)s, jūs esate tik per žingsnį nuo savo „Firefox“ paskyros "
 #~ "patvirtinimo."

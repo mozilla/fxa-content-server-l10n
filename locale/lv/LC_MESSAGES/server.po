@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-02 15:45+0000\n"
+"POT-Creation-Date: 2016-05-19 12:15+0000\n"
 "PO-Revision-Date: 2016-05-14 15:07+0000\n"
 "Last-Translator: Jānis Marks Gailis - Jean-Marc <jm-gailis@fai-vianet.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,12 +11,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
 "X-Generator: Pontoon\n"
 
 #: templates/_pending.txt:1 templates/verification_reminder_second.html:2
 #: templates/verification_reminder_second.txt:1
-#: templates/verify_reminder_second.html:2 mailer.js:458
+#: templates/verify_reminder_second.html:2 mailer.js:416 mailer.js:444
 msgid "Still there?"
 msgstr "Vai jūs te joprojām esat?"
 
@@ -63,8 +64,8 @@ msgstr "Pieslēgties uz Sync"
 #: templates/suspicious_location.html:1 templates/unlock.html:1
 #: templates/verification_reminder_first.html:1
 #: templates/verification_reminder_second.html:1 templates/verify.html:1
-#: templates/verify_login.html:1 templates/verify_reminder_first.html:1
-#: templates/verify_reminder_second.html:1
+#: templates/verify_reminder_first.html:1
+#: templates/verify_reminder_second.html:1 templates/verify_login.html:1
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
@@ -75,7 +76,8 @@ msgid "Firefox Accounts"
 msgstr "Firefox Konti"
 
 #: templates/new_device_login.html:2 templates/new_device_login.txt:1
-#: templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:380
+#: mailer.js:338 templates/verify_login.html:2 templates/verify_login.txt:1
+#: mailer.js:367
 msgid "New sign-in to Firefox"
 msgstr "Jauna pierakstīšanās uz Firefox"
 
@@ -171,8 +173,8 @@ msgstr "Jūsu Firefox konts tika veiksmīgi atstatīts."
 
 #: templates/password_reset.txt:4
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox"
-" Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox "
+"Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 "Šis ir automātisks epasts; ja jūs neatstatījāt sava Firefox konta paroli, "
 "jums tā ir jāatstata tagad uz %(resetLink)s."
@@ -183,8 +185,8 @@ msgid ""
 "We detected suspicious activity on your Firefox Account. Your account may "
 "have been compromised."
 msgstr ""
-"Mēs pamanījām aizdomīgas aktivitātes uz jūsu Firefox kontu. Jūs konts varētu"
-" būt kompromitēts."
+"Mēs pamanījām aizdomīgas aktivitātes uz jūsu Firefox kontu. Jūs konts varētu "
+"būt kompromitēts."
 
 #: templates/password_reset_required.html:3
 #: templates/password_reset_required.txt:2
@@ -214,9 +216,9 @@ msgid ""
 "passwords as well. Attackers may have access to those passwords, so you "
 "should check those accounts for suspicious activity."
 msgstr ""
-"Otrkārt, ja Firefox saglabā paroles uz tīmekļa vietnēm, vajadzētu mainīt arī"
-" šīs paroles. Uzbrucējiem var būt piekļuve šīm parolēm, tāpēc jums vajadzētu"
-" pārbaudīt šos kontus par aizdomīgu aktivitāti."
+"Otrkārt, ja Firefox saglabā paroles uz tīmekļa vietnēm, vajadzētu mainīt arī "
+"šīs paroles. Uzbrucējiem var būt piekļuve šīm parolēm, tāpēc jums vajadzētu "
+"pārbaudīt šos kontus par aizdomīgu aktivitāti."
 
 #: templates/password_reset_required.html:7
 #: templates/password_reset_required.txt:6
@@ -239,6 +241,17 @@ msgstr "Firefox kontu komanda"
 #: templates/password_reset_required.html:10
 #: templates/password_reset_required.txt:9
 #: templates/suspicious_location.html:14 templates/suspicious_location.txt:13
+#: templates/new_device_login.html:5 templates/new_device_login.txt:4
+#: templates/password_changed.html:6 templates/password_changed.txt:5
+#: templates/password_reset.html:6 templates/password_reset.txt:6
+#: templates/post_verify.html:8 templates/post_verify.txt:6
+#: templates/reset.html:9 templates/reset.txt:7 templates/unlock.html:8
+#: templates/unlock.txt:5 templates/verification_reminder_first.html:8
+#: templates/verification_reminder_first.txt:6
+#: templates/verification_reminder_second.html:8
+#: templates/verification_reminder_second.txt:6 templates/verify.html:8
+#: templates/verify.txt:6 templates/verify_login.html:7
+#: templates/verify_login.txt:5
 msgid "Mozilla Privacy Policy"
 msgstr "Mozilla privātuma politika"
 
@@ -249,8 +262,8 @@ msgstr "Konts pārbaudīts!"
 #: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5
 #: templates/verification_reminder_first.html:5
 #: templates/verification_reminder_second.html:5 templates/verify.html:5
-#: templates/verify_login.html:5 templates/verify_reminder_first.html:5
-#: templates/verify_reminder_second.html:5
+#: templates/verify_reminder_first.html:5
+#: templates/verify_reminder_second.html:5 templates/verify_login.html:5
 msgid "Alternatively:"
 msgstr "Vai arī:"
 
@@ -261,8 +274,8 @@ msgid ""
 "Android and iOS."
 msgstr ""
 "Jūs veiksmīgi savienojāt savu pirmo ierīci ar savu Firefox kontu. Jūs tagad "
-"varat savienoties ar Sync uz citām ierīcēm, iekļaujot Firefox Android un iOS"
-" ierīcēm."
+"varat savienoties ar Sync uz citām ierīcēm, iekļaujot Firefox Android un iOS "
+"ierīcēm."
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
@@ -274,8 +287,8 @@ msgstr "Aizmirsāt savu paroli?"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid ""
-"Click the button within the next hour to set a new password for your Firefox"
-" Account."
+"Click the button within the next hour to set a new password for your Firefox "
+"Account."
 msgstr ""
 "Noklikšķiniet uz pogu nākamās stundas laikā lai uzstādīt jaunu paroli savam "
 "Firefox kontam."
@@ -349,7 +362,7 @@ msgstr "Pārbaudīt kontu:"
 
 #: templates/verification_reminder_first.html:2
 #: templates/verification_reminder_first.txt:1
-#: templates/verify_reminder_first.html:2 mailer.js:455
+#: templates/verify_reminder_first.html:2 mailer.js:413 mailer.js:441
 msgid "Hello again."
 msgstr "Vēlreiz sveiki."
 
@@ -358,14 +371,14 @@ msgstr "Vēlreiz sveiki."
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history"
-" on any device connected to it. Simply confirm this email address to "
-"activate your account."
+"verified account lets you access your tabs, bookmarks, passwords and history "
+"on any device connected to it. Simply confirm this email address to activate "
+"your account."
 msgstr ""
 "Pirms dažām dienām jūs izveidojāt Firefox kontu, bet to nepārbaudījāt. "
 "Pārbaudīti konts jums ļauj piekļūt savām cilnēm, grāmatzīmem, parolem un "
-"vēsturei uz jebkuru ierīci, kas ar to savienots. Vienkārši apstipriniet šo "
-"e-pasta adresi, lai aktivizētu savu kontu."
+"vēsturei uz jebkuru ierīci, kas ar to savienots. Vienkārši apstipriniet šo e-"
+"pasta adresi, lai aktivizētu savu kontu."
 
 #: templates/verification_reminder_first.html:4
 #: templates/verification_reminder_second.html:4 templates/verify.html:4
@@ -378,6 +391,8 @@ msgstr "Aktivizēt tagad"
 #: templates/verification_reminder_second.html:8 templates/verify.html:8
 #: templates/verify_reminder_first.html:8
 #: templates/verify_reminder_second.html:8
+#: templates/verification_reminder_first.html:9
+#: templates/verification_reminder_second.html:9 templates/verify.html:9
 msgid "Verify Email"
 msgstr "Apstiprināt epastu"
 
@@ -385,6 +400,8 @@ msgstr "Apstiprināt epastu"
 #: templates/verification_reminder_second.html:9 templates/verify.html:9
 #: templates/verify_reminder_first.html:9
 #: templates/verify_reminder_second.html:9
+#: templates/verification_reminder_first.html:10
+#: templates/verification_reminder_second.html:10 templates/verify.html:10
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr "Pārbaudiet savu e-pastu, lai pabeigtu jūsu Firefox konta reģistrāciju"
 
@@ -398,10 +415,10 @@ msgstr "Aktivizēt tagad:"
 #: templates/verify_reminder_second.html:3
 msgid ""
 "A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and"
-" iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know"
-" you're okay."
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
+"iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know "
+"you're okay."
 msgstr ""
 "Jūs izveidojāt Firefox kontu pirms nedēļas, bet to nekad nepārbaudījāt. Mēs "
 "uztraucamies par jums. Firefox ir pieejams uz Windows, Mac, GNU/Linux, "
@@ -416,6 +433,77 @@ msgstr "Laipni lūdzam!"
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
 msgstr "Lūdzu aktivizējiet savu kontu apstiprinot šo epasta adresi."
+
+#: config.js:146 config.js:151
+msgid "env"
+msgstr ""
+
+#: config.js:159 config.js:160 config.js:161 config.js:162 config.js:163
+#: config.js:164
+msgid "contentServer.url"
+msgstr ""
+
+#: log.js:7
+msgid "logging"
+msgstr ""
+
+#: mailer.js:168 mailer.js:171
+msgid "Verify your Firefox Account"
+msgstr "Pārbaudiet savu Firefox kontu"
+
+#: mailer.js:201 mailer.js:244
+msgid "Reset your Firefox Account password"
+msgstr "Atstatiet sava Firefox konta paroli"
+
+#: mailer.js:236 mailer.js:278
+msgid "Re-verify your Firefox Account"
+msgstr "Vēlreiz pārbaudiet savu Firefox kontu"
+
+#: mailer.js:269 mailer.js:299
+msgid "Your Firefox Account password has been changed"
+msgstr "Jūsu Firefox konta parole tika mainīta"
+
+#: mailer.js:291 mailer.js:321
+msgid "Your Firefox Account password has been reset"
+msgstr "Jūsu Firefox konta parole tika atstatīta"
+
+#: mailer.js:313 mailer.js:342
+msgid "Firefox Account password reset required"
+msgstr "Firefox konta paroles atstatīšana nepieciešama"
+
+#: mailer.js:366 mailer.js:395
+msgid "Firefox Account Verified"
+msgstr "Firefox konts ir pārbaudīts"
+
+#: mailer.js:401 mailer.js:429
+msgid "Suspicious activity with your Firefox Account"
+msgstr "Aizdomīgas aktivitātes ar jūsu Firefox kontu"
+
+#: lib/db.js:21
+msgid "/"
+msgstr ""
+
+#: lib/db.js:34
+msgid "/__heartbeat__"
+msgstr ""
+
+#: templates/new_device_login.html:4 templates/password_changed.html:5
+#: templates/password_reset.html:5 templates/post_verify.html:7
+#: templates/reset.html:8 templates/unlock.html:7
+#: templates/verification_reminder_first.html:7
+#: templates/verification_reminder_second.html:7 templates/verify.html:7
+msgid ""
+"For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
+"Support</a>."
+msgstr ""
+
+#: templates/verification_reminder_second.html:3
+#: templates/verification_reminder_second.txt:2
+msgid ""
+"A week ago you created a Firefox Account, but never verified it. We’re "
+"worried about you. Confirm this email address to activate your account and "
+"let us know you're okay."
+msgstr ""
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid ""
@@ -432,54 +520,18 @@ msgstr "Apstiprināt ieiešanu"
 #: templates/verify_login.html:6
 msgid ""
 "If you suspect that someone is trying to gain access to your account, <a "
-"%(supportLinkAttributes)s>please report it to us</a>."
+"%(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr ""
-"Ja jums ir aizdomas ka kāds mēģinātu piekļūt jūsu kontam, <a "
-"%(supportLinkAttributes)s>lūdzu pabrīdiniet mūs par to</a>."
 
 #: templates/verify_login.txt:4
 msgid ""
-"If you suspect that someone is trying to gain access to your account, please"
-" report it to us."
+"If you suspect that someone is trying to gain access to your account, please "
+"change your password."
 msgstr ""
-"Ja jums ir aizdomas ka kāds mēģinātu piekļūt jūsu kontam, lūdzu pabrīdiniet "
-"mūs par to."
 
-#: mailer.js:171
-msgid "Verify your Firefox Account"
-msgstr "Pārbaudiet savu Firefox kontu"
-
-#: mailer.js:210
+#: mailer.js:209
 msgid "Confirm new sign-in to Firefox"
 msgstr "Apstiprināt jauno pierakstīšanos uz Firefox"
-
-#: mailer.js:243
-msgid "Reset your Firefox Account password"
-msgstr "Atstatiet sava Firefox konta paroli"
-
-#: mailer.js:278
-msgid "Re-verify your Firefox Account"
-msgstr "Vēlreiz pārbaudiet savu Firefox kontu"
-
-#: mailer.js:311
-msgid "Your Firefox Account password has been changed"
-msgstr "Jūsu Firefox konta parole tika mainīta"
-
-#: mailer.js:333
-msgid "Your Firefox Account password has been reset"
-msgstr "Jūsu Firefox konta parole tika atstatīta"
-
-#: mailer.js:355
-msgid "Firefox Account password reset required"
-msgstr "Firefox konta paroles atstatīšana nepieciešama"
-
-#: mailer.js:408
-msgid "Firefox Account Verified"
-msgstr "Firefox konts ir pārbaudīts"
-
-#: mailer.js:443
-msgid "Suspicious activity with your Firefox Account"
-msgstr "Aizdomīgas aktivitātes ar jūsu Firefox kontu"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
@@ -534,13 +586,12 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a "
-"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
-"experience."
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
-"Jūs izmantojat <strong>novecojušu</strong> pārlūku. Lūdzu <a "
-"href=\"http://browsehappy.com/\">atjauniniet savu pārlūku</a> lai uzlabotu "
-"savu pārlūkošanu."
+"Jūs izmantojat <strong>novecojušu</strong> pārlūku. Lūdzu <a href=\"http://"
+"browsehappy.com/\">atjauniniet savu pārlūku</a> lai uzlabotu savu "
+"pārlūkošanu."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -561,6 +612,20 @@ msgstr "Firefox mākoņa pakalpojumi"
 msgid "Terms of Service"
 msgstr "Lietošanas noteikumi"
 
+#~ msgid ""
+#~ "If you suspect that someone is trying to gain access to your account, <a "
+#~ "%(supportLinkAttributes)s>please report it to us</a>."
+#~ msgstr ""
+#~ "Ja jums ir aizdomas ka kāds mēģinātu piekļūt jūsu kontam, <a "
+#~ "%(supportLinkAttributes)s>lūdzu pabrīdiniet mūs par to</a>."
+
+#~ msgid ""
+#~ "If you suspect that someone is trying to gain access to your account, "
+#~ "please report it to us."
+#~ msgstr ""
+#~ "Ja jums ir aizdomas ka kāds mēģinātu piekļūt jūsu kontam, lūdzu "
+#~ "pabrīdiniet mūs par to."
+
 #~ msgid "Are you sure?"
 #~ msgstr "Vai esat pārliecināts?"
 
@@ -578,8 +643,8 @@ msgstr "Lietošanas noteikumi"
 
 #~ msgid "For more information, please visit https://support.mozilla.org"
 #~ msgstr ""
-#~ "Lai iegūtu vairāk informācijas, lūdzu apmeklējiet "
-#~ "https://support.mozilla.org"
+#~ "Lai iegūtu vairāk informācijas, lūdzu apmeklējiet https://support.mozilla."
+#~ "org"
 
 #~ msgid "Verify"
 #~ msgstr "Pārbaudīt"
@@ -606,13 +671,14 @@ msgstr "Lietošanas noteikumi"
 #~ "For more information, please visit <a href='https://support.mozilla.org' "
 #~ "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
 #~ msgstr ""
-#~ "Lai iegūtu vairāk informācijas, lūdzu apmeklējiet <a "
-#~ "href='https://support.mozilla.org' style='color: #0095dd; text-decoration: "
+#~ "Lai iegūtu vairāk informācijas, lūdzu apmeklējiet <a href='https://"
+#~ "support.mozilla.org' style='color: #0095dd; text-decoration: "
 #~ "none;'>Mozilla Atbalsts</a>"
 
 #~ msgid ""
 #~ "For more information, please visit <a href='%(supportUrl)s' style='color: "
 #~ "#0095dd; text-decoration: none;'>Mozilla Support</a>"
 #~ msgstr ""
-#~ "Lai iegūtu vairāk informācijas, lūdzu apmeklējiet <a href='%(supportUrl)s' "
-#~ "style='color: #0095dd; text-decoration: none;'>Mozilla Atbalsts</a>"
+#~ "Lai iegūtu vairāk informācijas, lūdzu apmeklējiet <a "
+#~ "href='%(supportUrl)s' style='color: #0095dd; text-decoration: "
+#~ "none;'>Mozilla Atbalsts</a>"

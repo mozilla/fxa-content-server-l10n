@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-02 15:45+0000\n"
+"POT-Creation-Date: 2016-05-19 12:15+0000\n"
 "PO-Revision-Date: 2016-05-02 17:07+0000\n"
 "Last-Translator: joergenr <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "Account verified successfully"
 msgstr "Konto bekræftet"
 
-#: app/scripts/views/confirm_account_unlock.js:90
+#: app/scripts/views/confirm_account_unlock.js:91
 msgid "Account unlocked, please try again"
 msgstr "Kontoen er låst op, prøv igen"
 
@@ -82,7 +82,7 @@ msgstr "Konto bekræftet"
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Du er nu klar til at bruge %(serviceName)s"
 
-#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:144
+#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:157
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Ukendt konto. <a href=\"/signup\">Tilmeld dig</a>"
 
@@ -147,13 +147,14 @@ msgid "Display name updated"
 msgstr "Vis navn opdateret"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
-"Konto låst. <a href=\"/confirm_account_unlock\">Send en mail for at låse "
-"op</a>"
+"Konto låst. <a href=\"/confirm_account_unlock\">Send en mail for at låse op</"
+"a>"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:42
-#: app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:101
+#: app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:105
 msgid "Your account has been locked for security reasons"
 msgstr "Din konto er blevet låst af sikkerhedsmæssige årsager"
 
@@ -168,8 +169,8 @@ msgstr "Logget ud"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
-#: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39
+#: app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
@@ -218,13 +219,13 @@ msgstr "Ugyldig bekræftelseskode"
 msgid "Invalid JSON in request body"
 msgstr "Ugyldig JSON i request body"
 
-#: app/scripts/lib/auth-errors.js:69 app/scripts/lib/profile-errors.js:23
-msgid "Invalid parameter in request body: %(param)s"
-msgstr "Ugyldig parameter i request body: %(param)s"
+#: app/scripts/lib/auth-errors.js:69
+msgid "Invalid parameter: %(param)s"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:73
-msgid "Missing parameter in request body: %(param)s"
-msgstr "Manglende parameter i request body: %(param)s"
+msgid "Missing parameter: %(param)s"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
@@ -242,136 +243,140 @@ msgstr "Request body er for stor"
 msgid "Attempt limit exceeded"
 msgstr "Forsøgsgrænse overskredet"
 
-#: app/scripts/lib/auth-errors.js:105
+#: app/scripts/lib/auth-errors.js:101
+msgid "The request was blocked for security reasons"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:109
 msgid "Server busy, try again soon"
 msgstr "Serveren er optaget, prøv igen om lidt"
 
-#: app/scripts/lib/auth-errors.js:109
+#: app/scripts/lib/auth-errors.js:113
 msgid "This endpoint is no longer supported"
 msgstr "Dette endpoint understøttes ikke længere"
 
-#: app/scripts/lib/auth-errors.js:113 app/scripts/lib/config-loader.js:73
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/config-loader.js:73
 #: app/scripts/lib/marketing-email-errors.js:79
-#: app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:39
+#: app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Systemet er ikke tilgængeligt, prøv igen om lidt"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/oauth-errors.js:104
+#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/oauth-errors.js:104
 msgid "no message"
 msgstr "ingen besked"
 
-#: app/scripts/lib/auth-errors.js:121
+#: app/scripts/lib/auth-errors.js:125
 msgid "Session expired. Sign in to continue."
 msgstr "Sessionen udløb. Log ind for at fortsætte."
 
-#: app/scripts/lib/auth-errors.js:125
+#: app/scripts/lib/auth-errors.js:129
 msgid "Cookies are still disabled"
 msgstr "Cookies er stadig deaktiveret"
 
-#: app/scripts/lib/auth-errors.js:129
+#: app/scripts/lib/auth-errors.js:133
 msgid "Passwords do not match"
 msgstr "Adgangskoderne matcher ikke"
 
-#: app/scripts/lib/auth-errors.js:133
+#: app/scripts/lib/auth-errors.js:137
 msgid "Working…"
 msgstr "Arbejder…"
 
-#: app/scripts/lib/auth-errors.js:137
+#: app/scripts/lib/auth-errors.js:141
 msgid "Could not get Privacy Notice"
 msgstr "Kunne ikke hente Privatlivspolitik"
 
-#: app/scripts/lib/auth-errors.js:141
+#: app/scripts/lib/auth-errors.js:145
 msgid "Could not get Terms of Service"
 msgstr "Kunne ikke hente tjenestevilkår"
 
-#: app/scripts/lib/auth-errors.js:145
+#: app/scripts/lib/auth-errors.js:149
 msgid "Your new password must be different"
 msgstr "Din nye adgangskode skal være forskellig"
 
-#: app/scripts/lib/auth-errors.js:149
+#: app/scripts/lib/auth-errors.js:153
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "Skal indeholde mindst 8 tegn"
 
-#: app/scripts/lib/auth-errors.js:153
+#: app/scripts/lib/auth-errors.js:157
 msgid "Valid password required"
 msgstr "Gyldig adgangskode påkrævet"
 
-#: app/scripts/lib/auth-errors.js:157 app/scripts/lib/auth-errors.js:195
-#: app/scripts/lib/auth-errors.js:211
+#: app/scripts/lib/auth-errors.js:161 app/scripts/lib/auth-errors.js:199
+#: app/scripts/lib/auth-errors.js:215
 msgid "Valid email required"
 msgstr "Gyldig mailadresse påkrævet"
 
-#: app/scripts/lib/auth-errors.js:168
+#: app/scripts/lib/auth-errors.js:172
 msgid "A usable image was not found"
 msgstr "Et brugbart billede blev ikke fundet"
 
-#: app/scripts/lib/auth-errors.js:172
+#: app/scripts/lib/auth-errors.js:176
 msgid "Could not initialize camera"
 msgstr "Kunne ikke initialisere kamera"
 
-#: app/scripts/lib/auth-errors.js:176
+#: app/scripts/lib/auth-errors.js:180
 msgid "Valid URL required"
 msgstr "Gyldig URL påkrævet"
 
-#: app/scripts/lib/auth-errors.js:191
+#: app/scripts/lib/auth-errors.js:195
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Din bekræftelsesmail kom retur. Forkert indtastet mailadresse?"
 
-#: app/scripts/lib/auth-errors.js:199
+#: app/scripts/lib/auth-errors.js:203
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Indtast en gyldig mailadresse. firefox.com tilbyder ikke mail."
 
-#: app/scripts/lib/auth-errors.js:207
+#: app/scripts/lib/auth-errors.js:211
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox-konti kan kun placeres i en IFRAME på godkendte websteder"
 
-#: app/scripts/lib/auth-errors.js:222
+#: app/scripts/lib/auth-errors.js:226
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
 msgstr "Linket, du klikkede på for at bekræfte din mailadresse, er udløbet."
 
-#: app/scripts/lib/auth-errors.js:226
+#: app/scripts/lib/auth-errors.js:230
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "Bekræftelseslink beskadiget"
 
-#: app/scripts/lib/auth-errors.js:234
+#: app/scripts/lib/auth-errors.js:238
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Billedets dimensioner skal være på mindst 100 x 100 px"
 
-#: app/scripts/lib/auth-errors.js:238
+#: app/scripts/lib/auth-errors.js:242
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Nu er det snart muligt at tilmelde Firefox til iOS"
 
-#: app/scripts/lib/auth-errors.js:242
+#: app/scripts/lib/auth-errors.js:246
 msgid "Signup has been disabled"
 msgstr "Tilmelding er deaktiveret"
 
-#: app/scripts/lib/auth-errors.js:246
+#: app/scripts/lib/auth-errors.js:250
 msgid "You must enter your age to sign up"
 msgstr "Du skal indtaste din alder for at tilmelde dig"
 
-#: app/scripts/lib/auth-errors.js:250
+#: app/scripts/lib/auth-errors.js:254
 msgid "No Gravatar found"
 msgstr "Ingen gravatar fundet"
 
-#: app/scripts/lib/auth-errors.js:258
+#: app/scripts/lib/auth-errors.js:262
 msgid "Account no longer exists."
 msgstr "Kontoen findes ikke længere."
 
-#: app/scripts/lib/auth-errors.js:262
+#: app/scripts/lib/auth-errors.js:266
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Ugyldig egenskab i genoptag-token: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:266
+#: app/scripts/lib/auth-errors.js:270
 msgid "Missing property in resume token: %(property)s"
 msgstr "Manglende egenskab i genoptag-token: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:270
+#: app/scripts/lib/auth-errors.js:274
 msgid "Invalid data-flow-begin attribute"
 msgstr "Ugyldig data-flow-begin-attribut"
 
@@ -423,11 +428,19 @@ msgstr "Noget gik galt. Luk dette faneblad og prøv igen."
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Manglende OAuth-parameter: %(param)s"
 
+#: app/scripts/lib/profile-errors.js:23
+msgid "Invalid Token"
+msgstr ""
+
 #: app/scripts/lib/profile-errors.js:27
+msgid "Invalid parameter in request body: %(param)s"
+msgstr "Ugyldig parameter i request body: %(param)s"
+
+#: app/scripts/lib/profile-errors.js:31
 msgid "Unsupported image provider"
 msgstr "Billedleverandør ikke godkendt"
 
-#: app/scripts/lib/profile-errors.js:31
+#: app/scripts/lib/profile-errors.js:35
 msgid "Image processing error"
 msgstr "Billedbehandlingsfejl"
 
@@ -437,15 +450,13 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Fortsætter du, accepterer du <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">vilkår</a> og <a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">privatlivspolitik</a> for %(serviceName)s "
-"(%(serviceUri)s)."
+"Fortsætter du, accepterer du <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">vilkår</a> og <a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">privatlivspolitik</a> for %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:26
 msgid ""
@@ -560,8 +571,7 @@ msgstr "Kan ikke oprette en konto"
 #: app/scripts/templates/cannot_create_account.mustache:2
 msgid ""
 "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr ""
-"Du skal opfylde visse alderskriterier for at oprette en Firefox-konto."
+msgstr "Du skal opfylde visse alderskriterier for at oprette en Firefox-konto."
 
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
@@ -593,7 +603,7 @@ msgstr "Adgangskoder"
 msgid "History"
 msgstr "Historik"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:13
+#: app/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Preferences"
 msgstr "Indstillinger"
 
@@ -715,8 +725,8 @@ msgstr "Mail til at låse op med er afsendt"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification"
-" link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
 msgstr ""
 "Din konto blev af sikkerhedsmæssige årsager låst. For at udføre "
 "kontoaktiviteter skal du bekræfte din konto igen ved at klikke på det "
@@ -748,8 +758,8 @@ msgstr "Cookies og lokalt lager er påkrævet."
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between"
-" sessions."
+"Accounts. Doing so will enable functionality such as remembering you between "
+"sessions."
 msgstr ""
 "Du skal aktivere cookies og lokalt lager i din browser for at tilgå Firefox-"
 "konti. Dette vil aktivere funktioner som fx at huske dig mellem sessioner."
@@ -796,13 +806,13 @@ msgstr "Glemt adgangskode?"
 #: app/scripts/templates/sign_in.mustache:27
 #: app/scripts/templates/sign_up.mustache:17
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
-"Fortsætter du, accepterer du <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">vilkår</a> og <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">privatlivspolitik</a> for Firefox online-tjenester."
+"Fortsætter du, accepterer du <a id=\"fxa-tos\" href=\"/legal/terms\">vilkår</"
+"a> og <a id=\"fxa-pp\" href=\"/legal/privacy\">privatlivspolitik</a> for "
+"Firefox online-tjenester."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -904,8 +914,8 @@ msgstr "Glemt adgangskode"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
-"When you reset your password, you will lose any Sync data that is not on one"
-" of your devices."
+"When you reset your password, you will lose any Sync data that is not on one "
+"of your devices."
 msgstr ""
 "Når du nulstiller din adgangskode, vil du miste alle Sync-data, der ikke er "
 "på en af dine enheder."
@@ -955,11 +965,10 @@ msgstr "Overflyt dine synkroniseringsdata ved at oprette en ny Firefox-konto."
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
-"in</a>"
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 msgstr ""
-"Har du en konto med en anden mailadresse? <a href=\"%(signinUri)s\">Log "
-"ind</a>"
+"Har du en konto med en anden mailadresse? <a href=\"%(signinUri)s\">Log ind</"
+"a>"
 
 #: app/scripts/templates/sign_up.mustache:18
 #: app/scripts/templates/settings/communication_preferences.mustache:7
@@ -1030,8 +1039,8 @@ msgid ""
 "Once you're finished, use your new password to sign in on all of your "
 "devices."
 msgstr ""
-"Når du er færdig, skal du bruge din nye adgangskode til at logge ind på alle"
-" dine enheder."
+"Når du er færdig, skal du bruge din nye adgangskode til at logge ind på alle "
+"dine enheder."
 
 #: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
@@ -1065,8 +1074,7 @@ msgstr "Slet"
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid ""
 "Are you sure you want to delete your account? This action cannot be undone."
-msgstr ""
-"Er du sikker på, at du vil slette din konto? Dette kan ikke fortrydes."
+msgstr "Er du sikker på, at du vil slette din konto? Dette kan ikke fortrydes."
 
 #: app/scripts/templates/settings/devices.mustache:2
 msgid "Devices"
@@ -1074,13 +1082,13 @@ msgstr "Enheder"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
-"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
-"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
+"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
+"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox er tilgængelig til <a href=\"%(linkWindows)s\">Windows</a>, <a "
-"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
-"href=\"%(linkIOS)s\">iOS</a> og <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox er tilgængelig til <a href=\"%(linkWindows)s\">Windows</a>, <a href="
+"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
+"\"%(linkIOS)s\">iOS</a> og <a href=\"%(linkLinux)s\">Linux</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -1133,6 +1141,9 @@ msgstr "Brug OpenID"
 msgid "Use Firefox Account"
 msgstr "Brug Firefox-konto"
 
+#~ msgid "Missing parameter in request body: %(param)s"
+#~ msgstr "Manglende parameter i request body: %(param)s"
+
 #~ msgid "Sign up"
 #~ msgstr "Tilmeld dig"
 
@@ -1149,9 +1160,9 @@ msgstr "Brug Firefox-konto"
 #~ msgstr "Er du sikker på, at du vil nulstille adgangskoden til din konto?"
 
 #~ msgid ""
-#~ "Resetting your password will erase your browsing data from our servers. Any "
-#~ "data on your devices will remain untouched. Begin the reset process by "
-#~ "entering your email below."
+#~ "Resetting your password will erase your browsing data from our servers. "
+#~ "Any data on your devices will remain untouched. Begin the reset process "
+#~ "by entering your email below."
 #~ msgstr ""
 #~ "Nulstilling af din adgangskode vil slette dine browsing-data fra vores "
 #~ "servere. Alle data på dine enheder forbliver uberørt. Start nulstillingen "
@@ -1216,9 +1227,9 @@ msgstr "Brug Firefox-konto"
 #~ "Accounts. Cookies are small pieces of data stored in your browser that "
 #~ "provide functionality such as remembering you between sessions."
 #~ msgstr ""
-#~ "For at bruge Firefox-konti skal du aktivere cookies i din browser. Cookies "
-#~ "er små tekstfiler, der opbevares i din browser. De gør det muligt at huske "
-#~ "dig mellem sessioner."
+#~ "For at bruge Firefox-konti skal du aktivere cookies i din browser. "
+#~ "Cookies er små tekstfiler, der opbevares i din browser. De gør det muligt "
+#~ "at huske dig mellem sessioner."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox kommer snart til iOS!"
@@ -1357,13 +1368,13 @@ msgstr "Brug Firefox-konto"
 #~ "Indtast din mailadresse for at nulstille&nbsp;adgangskoden til kontoen."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data from"
-#~ " our servers. A new Sync backup will be created from your local browsing "
-#~ "data."
+#~ "For security reasons, resetting your password will erase your Sync data "
+#~ "from our servers. A new Sync backup will be created from your local "
+#~ "browsing data."
 #~ msgstr ""
-#~ "Af sikkerhedsgrunde vil nulstilling af din adgangskode slette dine Sync-data"
-#~ " fra vores servere. En ny Sync-backup vil blive oprettet med dine lokale "
-#~ "browserdata."
+#~ "Af sikkerhedsgrunde vil nulstilling af din adgangskode slette dine Sync-"
+#~ "data fra vores servere. En ny Sync-backup vil blive oprettet med dine "
+#~ "lokale browserdata."
 
 #~ msgid "You are signed in as"
 #~ msgstr "Du er logget ind som"
@@ -1372,23 +1383,22 @@ msgstr "Brug Firefox-konto"
 #~ msgstr "Har du allerede en konto? Log ind."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" "
-#~ "href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-#~ "href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+#~ "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+#~ "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
-#~ "Fortsætter du, accepterer du %(serviceName)s (%(serviceUri)s)s <a id"
-#~ "=\"service-tos\" href=\"%(termsUri)s\">tjenestevilkår</a> og <a id"
-#~ "=\"service-pp\" href=\"%(privacyUri)s\">privatlivspolitik</a>."
+#~ "Fortsætter du, accepterer du %(serviceName)s (%(serviceUri)s)s <a id="
+#~ "\"service-tos\" href=\"%(termsUri)s\">tjenestevilkår</a> og <a id="
+#~ "\"service-pp\" href=\"%(privacyUri)s\">privatlivspolitik</a>."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-#~ "Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Fortsætter du, accepterer du <a id=\"fxa-tos\" "
-#~ "href=\"/legal/terms\">tjenestevilkår</a> og <a id=\"fxa-pp\" "
-#~ "href=\"/legal/privacy\">privatlivspolitik</a> for Firefox online-tjenester."
+#~ "Fortsætter du, accepterer du <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">tjenestevilkår</a> og <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">privatlivspolitik</a> for Firefox online-tjenester."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Abonner på nyheder og tips om Firefox"
@@ -1409,8 +1419,8 @@ msgstr "Brug Firefox-konto"
 #~ "Once you're ﬁnished, use your new password to sign in on all of your "
 #~ "devices."
 #~ msgstr ""
-#~ "Når du er færdig, kan du bruge den nye adgangskode til at logge ind på alle "
-#~ "dine enheder."
+#~ "Når du er færdig, kan du bruge den nye adgangskode til at logge ind på "
+#~ "alle dine enheder."
 
 #~ msgid "Illegal iframe"
 #~ msgstr "Ulovlig iframe"
@@ -1421,8 +1431,12 @@ msgstr "Brug Firefox-konto"
 #~ msgid "Password changed"
 #~ msgstr "Adgangskode ændret"
 
-#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
-#~ msgstr "Ubekræftet konto. <a href=\"#\" id=\"resend\">Send bekræftelsesmail igen</a>."
+#~ msgid ""
+#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
+#~ "email</a>."
+#~ msgstr ""
+#~ "Ubekræftet konto. <a href=\"#\" id=\"resend\">Send bekræftelsesmail igen</"
+#~ "a>."
 
 #~ msgid "Password reset. Sign in to continue."
 #~ msgstr "Adgangskode nulstillet. Log ind for at fortsætte."
@@ -1431,11 +1445,11 @@ msgstr "Brug Firefox-konto"
 #~ msgstr "Logget ud"
 
 #~ msgid ""
-#~ "Your verification email was just returned. Mistyped email? <a "
-#~ "href=\"/signup\">Start over.</a>"
+#~ "Your verification email was just returned. Mistyped email? <a href=\"/"
+#~ "signup\">Start over.</a>"
 #~ msgstr ""
-#~ "Din bekræftelsesmail kom retur. Er mailadressen skrevet rigtigt? <a "
-#~ "href=\"/signup\">Start forfra.</a>"
+#~ "Din bekræftelsesmail kom retur. Er mailadressen skrevet rigtigt? <a href="
+#~ "\"/signup\">Start forfra.</a>"
 
 #~ msgid "Paste image URL"
 #~ msgstr "Indsæt billed-URL"
