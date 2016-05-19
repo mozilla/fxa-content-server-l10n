@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-02 15:45+0000\n"
+"POT-Creation-Date: 2016-05-19 12:15+0000\n"
 "PO-Revision-Date: 2015-10-13 12:01+0000\n"
 "Last-Translator: Matjaž <m@owca.info>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid "Account verified successfully"
 msgstr "ਖਾਤਾ ਕਾਮਯਾਬੀ ਨਾਲ ਜਾਂਚਿਆ"
 
-#: app/scripts/views/confirm_account_unlock.js:90
+#: app/scripts/views/confirm_account_unlock.js:91
 msgid "Account unlocked, please try again"
 msgstr "ਖਾਤਾ ਅਣ-ਲਾਕ ਹੈ, ਬਾਅਦ 'ਚ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
 
@@ -81,7 +81,7 @@ msgstr "ਖਾਤਾ ਜਾਂਚ ਹੋਈ"
 msgid "You are now ready to use %(serviceName)s"
 msgstr "ਤੁਸੀਂ ਹੁਣ %(serviceName)s ਵਰਤਣ ਲਈ ਤਿਆਰ ਹੋ"
 
-#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:144
+#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:157
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "ਅਣਜਾਣ ਖਾਤਾ। <a href=\"/signup\">ਮੈਂਬਰ ਬਣੋ</a>"
 
@@ -151,7 +151,7 @@ msgid ""
 msgstr "ਖਾਤਾ ਲਾਕ ਕੀਤਾ। <a href=\"/confirm_account_unlock\">ਅਣ-ਲਾਕ ਈਮੇਲ ਭੇਜੋ</a>"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:42
-#: app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:101
+#: app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:105
 msgid "Your account has been locked for security reasons"
 msgstr "ਸੁਰੱਖਿਆ ਕਾਰਨਾਂ ਕਰਕੇ ਤੁਹਾਡਾ ਖਾਤਾ ਲਾਕ ਕੀਤਾ ਗਿਆ ਹੈ"
 
@@ -166,8 +166,9 @@ msgstr "ਕਾਮਯਾਬੀ ਨਾਲ ਸਾਇਨ ਆਉਟ ਕਰੋ"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
-#: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39
+#: app/scripts/lib/profile-errors.js:47
+#: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -215,13 +216,13 @@ msgstr "ਗਲਤ ਜਾਂਚ ਕੋਡ"
 msgid "Invalid JSON in request body"
 msgstr "ਬੇਨਤੀ ਭਾਗ ਵਿੱਚ ਗਲਤ JSON"
 
-#: app/scripts/lib/auth-errors.js:69 app/scripts/lib/profile-errors.js:23
-msgid "Invalid parameter in request body: %(param)s"
-msgstr "ਮੰਗ ਭਾਗ ਵਿੱਚ ਪੈਰਾਮੀਟਰ ਗਲਤ ਹੈ: %(param)s"
+#: app/scripts/lib/auth-errors.js:69
+msgid "Invalid parameter: %(param)s"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:73
-msgid "Missing parameter in request body: %(param)s"
-msgstr "ਮੰਗ ਭਾਗ ਵਿੱਚ ਪੈਰਾਮੀਟਰ ਮੌਜੂਦ ਨਹੀਂ: %(param)s"
+msgid "Missing parameter: %(param)s"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
@@ -239,136 +240,140 @@ msgstr "ਬੇਨਤੀ ਭਾਗ ਜਿਆਦਾ ਵੱਡਾ"
 msgid "Attempt limit exceeded"
 msgstr "ਕੋਸ਼ਿਸ਼ਾਂ ਦੀ ਹੱਦ ਖਤਮ ਹੋ ਗਈ"
 
-#: app/scripts/lib/auth-errors.js:105
+#: app/scripts/lib/auth-errors.js:101
+msgid "The request was blocked for security reasons"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:109
 msgid "Server busy, try again soon"
 msgstr "ਸਰਵਰ ਰੁੱਝਿਆ ਹੈ, ਛੇਤੀ ਹੀ ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
 
-#: app/scripts/lib/auth-errors.js:109
+#: app/scripts/lib/auth-errors.js:113
 msgid "This endpoint is no longer supported"
 msgstr "ਇਹ ਅੰਤ ਬਿੰਦੂ ਹੁਣ ਸਹਾਇਕ ਨਹੀਂ ਰਿਹਾ"
 
-#: app/scripts/lib/auth-errors.js:113 app/scripts/lib/config-loader.js:73
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/config-loader.js:73
 #: app/scripts/lib/marketing-email-errors.js:79
-#: app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:39
+#: app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "ਸਿਸਟਮ ਉਪਲੱਬਧ ਨਹੀਂ, ਛੇਤੀ ਹੀ ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/oauth-errors.js:104
+#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/oauth-errors.js:104
 msgid "no message"
 msgstr "ਕੋਈ ਸੁਨੇਹਾ ਨਹੀਂ"
 
-#: app/scripts/lib/auth-errors.js:121
+#: app/scripts/lib/auth-errors.js:125
 msgid "Session expired. Sign in to continue."
 msgstr "ਸ਼ੈਸ਼ਨ ਦੀ ਮਿਆਦ ਪੁੱਗੀ। ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਇਨ ਇਨ ਕਰੋ।"
 
-#: app/scripts/lib/auth-errors.js:125
+#: app/scripts/lib/auth-errors.js:129
 msgid "Cookies are still disabled"
 msgstr "ਕੂਕੀਜ਼ ਹਾਲੇ ਤੱਕ ਬੰਦ ਹਨ"
 
-#: app/scripts/lib/auth-errors.js:129
+#: app/scripts/lib/auth-errors.js:133
 msgid "Passwords do not match"
 msgstr "ਪਾਸਵਰਡ ਮਿਲਦੇ ਨਹੀਂ ਹਨ"
 
-#: app/scripts/lib/auth-errors.js:133
+#: app/scripts/lib/auth-errors.js:137
 msgid "Working…"
 msgstr "...ਕੰਮ ਜਾਰੀ ਹੈ"
 
-#: app/scripts/lib/auth-errors.js:137
+#: app/scripts/lib/auth-errors.js:141
 msgid "Could not get Privacy Notice"
 msgstr "ਪਰਾਈਵੇਸੀ ਸੂਚਨਾ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ"
 
-#: app/scripts/lib/auth-errors.js:141
+#: app/scripts/lib/auth-errors.js:145
 msgid "Could not get Terms of Service"
 msgstr "ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕੀਤੀਆਂ ਜਾ ਸਕੀਆਂ"
 
-#: app/scripts/lib/auth-errors.js:145
+#: app/scripts/lib/auth-errors.js:149
 msgid "Your new password must be different"
 msgstr "ਤੁਹਾਡਾ ਨਵਾਂ ਪਾਸਵਰਡ ਵੱਖਰਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ"
 
-#: app/scripts/lib/auth-errors.js:149
+#: app/scripts/lib/auth-errors.js:153
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "ਘੱਟੋ-ਘੱਟ 8 ਅੱਖਰ ਲੰਮਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ"
 
-#: app/scripts/lib/auth-errors.js:153
+#: app/scripts/lib/auth-errors.js:157
 msgid "Valid password required"
 msgstr "ਠੀਕ ਪਾਸਵਰਡ ਚਾਹੀਦਾ ਹੈ"
 
-#: app/scripts/lib/auth-errors.js:157 app/scripts/lib/auth-errors.js:195
-#: app/scripts/lib/auth-errors.js:211
+#: app/scripts/lib/auth-errors.js:161 app/scripts/lib/auth-errors.js:199
+#: app/scripts/lib/auth-errors.js:215
 msgid "Valid email required"
 msgstr "ਠੀਕ ਈਮੇਲ ਚਾਹੀਦਾ ਹੈ"
 
-#: app/scripts/lib/auth-errors.js:168
+#: app/scripts/lib/auth-errors.js:172
 msgid "A usable image was not found"
 msgstr "ਵਰਤੋਂਯੋਗ ਚਿੱਤਰ ਨਹੀਂ ਲੱਭਿਆ"
 
-#: app/scripts/lib/auth-errors.js:172
+#: app/scripts/lib/auth-errors.js:176
 msgid "Could not initialize camera"
 msgstr "ਕੈਮਰਾ ਸ਼ੁਰੂ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ"
 
-#: app/scripts/lib/auth-errors.js:176
+#: app/scripts/lib/auth-errors.js:180
 msgid "Valid URL required"
 msgstr "ਠੀਕ URL ਚਾਹੀਦਾ ਹੈ"
 
-#: app/scripts/lib/auth-errors.js:191
+#: app/scripts/lib/auth-errors.js:195
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "ਤੁਹਾਡੀ ਤਸਦੀਕ ਈਮੇਲ ਵਾਪਿਸ ਪਰਤ ਆਈ ਹੈ। ਕੀ ਈਮੇਲ ਗਲਤ ਲਿਖਿਆ ਸੀ?"
 
-#: app/scripts/lib/auth-errors.js:199
+#: app/scripts/lib/auth-errors.js:203
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "ਠੀਕ ਈਮੇਲ ਐਡਰੈਸ ਦਿਉ। firefox.com ਈਮੇਲ ਨਹੀਂ ਦਿੰਦਾ ਹੈ।"
 
-#: app/scripts/lib/auth-errors.js:207
+#: app/scripts/lib/auth-errors.js:211
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਕੇਵਲ ਮਨਜ਼ੂਰੀ ਪ੍ਰਾਪਤ ਸਾਈਟਾਂ ਉੱਤੇ IFRAME ਵਿੱਚ ਹੀ ਰੱਖਿਆ ਜਾ ਸਕਦਾ ਹੈ"
 
-#: app/scripts/lib/auth-errors.js:222
+#: app/scripts/lib/auth-errors.js:226
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
 msgstr "ਤੁਹਾਡੇ ਵਲੋਂ ਆਪਣੇ ਈਮੇਲ ਦੀ ਜਾਂਚ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕੀਤਾ, ਉਸ ਦੀ ਮਿਆਦ ਪੁੱਗ ਚੁੱਕੀ ਹੈ।"
 
-#: app/scripts/lib/auth-errors.js:226
+#: app/scripts/lib/auth-errors.js:230
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "ਜਾਂਚ ਲਿੰਕ ਨੁਕਾਸਿਆ"
 
-#: app/scripts/lib/auth-errors.js:234
+#: app/scripts/lib/auth-errors.js:238
 msgid "The image dimensions must be at least 100x100px"
 msgstr "ਤਸਵੀਰ ਦਾ ਪਸਾਰ ਘੱਟੋੇ ਘੱਟ 100x100 ਪਿਕਸਲ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ ।"
 
-#: app/scripts/lib/auth-errors.js:238
+#: app/scripts/lib/auth-errors.js:242
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "iOS ਦੇ Firefox ਲਈ ਸਾਈਨ-ਅੱਪ ਜਲਦ ਆ ਰਿਹਾ ਹੈ ।"
 
-#: app/scripts/lib/auth-errors.js:242
+#: app/scripts/lib/auth-errors.js:246
 msgid "Signup has been disabled"
 msgstr "Signup ਅਯੋਗ ਠਹਿਰਾਇਆ ਗਿਆ ਹੈ । "
 
-#: app/scripts/lib/auth-errors.js:246
+#: app/scripts/lib/auth-errors.js:250
 msgid "You must enter your age to sign up"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:250
+#: app/scripts/lib/auth-errors.js:254
 msgid "No Gravatar found"
 msgstr "ਕੋਈ ਗਰਵਤਾਰ ਨਹੀਂ ਲੱਭਿਆ"
 
-#: app/scripts/lib/auth-errors.js:258
+#: app/scripts/lib/auth-errors.js:262
 msgid "Account no longer exists."
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:262
+#: app/scripts/lib/auth-errors.js:266
 msgid "Invalid property in resume token: %(property)s"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:266
+#: app/scripts/lib/auth-errors.js:270
 msgid "Missing property in resume token: %(property)s"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:270
+#: app/scripts/lib/auth-errors.js:274
 msgid "Invalid data-flow-begin attribute"
 msgstr ""
 
@@ -420,11 +425,19 @@ msgstr "ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ ਹੈ। ਇਹ ਟੈਬ ਬੰ�
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "OAuth ਦਾ ਮਾਪਦੰਡ :%(param)s ਪ੍ਰਾਪਤ ਨਹੀਂ ਹੋ ਰਿਹਾ  "
 
+#: app/scripts/lib/profile-errors.js:23
+msgid "Invalid Token"
+msgstr ""
+
 #: app/scripts/lib/profile-errors.js:27
+msgid "Invalid parameter in request body: %(param)s"
+msgstr "ਮੰਗ ਭਾਗ ਵਿੱਚ ਪੈਰਾਮੀਟਰ ਗਲਤ ਹੈ: %(param)s"
+
+#: app/scripts/lib/profile-errors.js:31
 msgid "Unsupported image provider"
 msgstr "ਗ਼ੈਰ-ਸਹਾਇਕ ਚਿੱਤਰ ਦੇਣ ਵਾਲਾ"
 
-#: app/scripts/lib/profile-errors.js:31
+#: app/scripts/lib/profile-errors.js:35
 msgid "Image processing error"
 msgstr "ਚਿੱਤਰ ਕਾਰਵਾਈ ਗਲਤੀ"
 
@@ -576,7 +589,7 @@ msgstr "ਪਾਸਵਰਡ"
 msgid "History"
 msgstr "ਹਿਸਟਰੀ "
 
-#: app/scripts/templates/choose_what_to_sync.mustache:13
+#: app/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Preferences"
 msgstr ""
 
@@ -1091,6 +1104,9 @@ msgstr "OpenID ਵਰਤੋ"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਵਰਤੋਂ"
+
+#~ msgid "Missing parameter in request body: %(param)s"
+#~ msgstr "ਮੰਗ ਭਾਗ ਵਿੱਚ ਪੈਰਾਮੀਟਰ ਮੌਜੂਦ ਨਹੀਂ: %(param)s"
 
 #~ msgid "Sign up"
 #~ msgstr "ਸਾਇਨ ਅੱਪ"

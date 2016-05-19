@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-02 15:45+0000\n"
+"POT-Creation-Date: 2016-05-19 12:15+0000\n"
 "PO-Revision-Date: 2016-04-18 00:04+0000\n"
 "Last-Translator: ibai <ibai@oihanguren.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "Account verified successfully"
 msgstr "Kontua ondo egiaztatu da"
 
-#: app/scripts/views/confirm_account_unlock.js:90
+#: app/scripts/views/confirm_account_unlock.js:91
 msgid "Account unlocked, please try again"
 msgstr "Kontua desblokeatuta, saiatu berriro mesedez"
 
@@ -82,7 +82,7 @@ msgstr "Kontua egiaztatuta"
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Dena prest dago %(serviceName)s erabiltzen hasteko"
 
-#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:144
+#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:157
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Kontu ezezaguna. <a href=\"/signup\">Erregistratu</a>"
 
@@ -154,7 +154,7 @@ msgstr ""
 "mezua</a>"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:42
-#: app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:101
+#: app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:105
 msgid "Your account has been locked for security reasons"
 msgstr "Zure kontua blokeatu egin da segurtasun-arrazoiengatik"
 
@@ -169,8 +169,9 @@ msgstr "Saioa ondo amaitu da"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
-#: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39
+#: app/scripts/lib/profile-errors.js:47
+#: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -218,13 +219,13 @@ msgstr "Egiaztatze-kode baliogabea"
 msgid "Invalid JSON in request body"
 msgstr "JSON baliogabea eskaeraren gorputzean"
 
-#: app/scripts/lib/auth-errors.js:69 app/scripts/lib/profile-errors.js:23
-msgid "Invalid parameter in request body: %(param)s"
-msgstr "Parametro baliogabea eskaeraren gorputzean: %(param)s"
+#: app/scripts/lib/auth-errors.js:69
+msgid "Invalid parameter: %(param)s"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:73
-msgid "Missing parameter in request body: %(param)s"
-msgstr "Parametroa falta da eskaeraren gorputzean: %(param)s"
+msgid "Missing parameter: %(param)s"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
@@ -242,140 +243,144 @@ msgstr "Eskaeraren gorputza handiegia da"
 msgid "Attempt limit exceeded"
 msgstr "Saiakeren muga gaindituta"
 
-#: app/scripts/lib/auth-errors.js:105
+#: app/scripts/lib/auth-errors.js:101
+msgid "The request was blocked for security reasons"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:109
 msgid "Server busy, try again soon"
 msgstr "Zerbitzaria lanpetuta dago,  saiatu berriro beranduago"
 
-#: app/scripts/lib/auth-errors.js:109
+#: app/scripts/lib/auth-errors.js:113
 msgid "This endpoint is no longer supported"
 msgstr "Mutur hau ez da onartzen"
 
-#: app/scripts/lib/auth-errors.js:113 app/scripts/lib/config-loader.js:73
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/config-loader.js:73
 #: app/scripts/lib/marketing-email-errors.js:79
-#: app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:39
+#: app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Sistema ez dago erabilgarri, saiatu berrio beranduago"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/oauth-errors.js:104
+#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/oauth-errors.js:104
 msgid "no message"
 msgstr "mezurik ez"
 
-#: app/scripts/lib/auth-errors.js:121
+#: app/scripts/lib/auth-errors.js:125
 msgid "Session expired. Sign in to continue."
 msgstr "Saioa iraungita. Hasi saioa jarraitzeko."
 
-#: app/scripts/lib/auth-errors.js:125
+#: app/scripts/lib/auth-errors.js:129
 msgid "Cookies are still disabled"
 msgstr "Cookieak desgaituta daude oraindik"
 
-#: app/scripts/lib/auth-errors.js:129
+#: app/scripts/lib/auth-errors.js:133
 msgid "Passwords do not match"
 msgstr "Pasahitzak ez datoz bat"
 
-#: app/scripts/lib/auth-errors.js:133
+#: app/scripts/lib/auth-errors.js:137
 msgid "Working…"
 msgstr "Lanean…"
 
-#: app/scripts/lib/auth-errors.js:137
+#: app/scripts/lib/auth-errors.js:141
 msgid "Could not get Privacy Notice"
 msgstr "Ezin da pribatutasun-abisua eskuratu"
 
-#: app/scripts/lib/auth-errors.js:141
+#: app/scripts/lib/auth-errors.js:145
 msgid "Could not get Terms of Service"
 msgstr "Ezin dira zerbitzuaren baldintzak eskuratu"
 
-#: app/scripts/lib/auth-errors.js:145
+#: app/scripts/lib/auth-errors.js:149
 msgid "Your new password must be different"
 msgstr "Pasahitz berriak desberdina izan behar du"
 
-#: app/scripts/lib/auth-errors.js:149
+#: app/scripts/lib/auth-errors.js:153
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "Gutxienez 8 karaktere izan behar ditu"
 
-#: app/scripts/lib/auth-errors.js:153
+#: app/scripts/lib/auth-errors.js:157
 msgid "Valid password required"
 msgstr "Baliozko pasahitza behar da"
 
-#: app/scripts/lib/auth-errors.js:157 app/scripts/lib/auth-errors.js:195
-#: app/scripts/lib/auth-errors.js:211
+#: app/scripts/lib/auth-errors.js:161 app/scripts/lib/auth-errors.js:199
+#: app/scripts/lib/auth-errors.js:215
 msgid "Valid email required"
 msgstr "Baliozko helbide elektronikoa behar da"
 
-#: app/scripts/lib/auth-errors.js:168
+#: app/scripts/lib/auth-errors.js:172
 msgid "A usable image was not found"
 msgstr "Ez da irudi erabilgarririk aurkitu"
 
-#: app/scripts/lib/auth-errors.js:172
+#: app/scripts/lib/auth-errors.js:176
 msgid "Could not initialize camera"
 msgstr "Ezin da kamera hasieratu"
 
-#: app/scripts/lib/auth-errors.js:176
+#: app/scripts/lib/auth-errors.js:180
 msgid "Valid URL required"
 msgstr "Baliozko URLa behar da"
 
-#: app/scripts/lib/auth-errors.js:191
+#: app/scripts/lib/auth-errors.js:195
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Zure egiaztapen-mezua itzuli egin da. Helbidea gaizki idatzi duzu?"
 
-#: app/scripts/lib/auth-errors.js:199
+#: app/scripts/lib/auth-errors.js:203
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr ""
 "Idatzi baliozko helbide elektronikoa. firefox.com-ek ez du posta "
 "elektronikorik eskaintzen."
 
-#: app/scripts/lib/auth-errors.js:207
+#: app/scripts/lib/auth-errors.js:211
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 "Firefox kontuak IFRAME batean eta onartutako guneetan soilik jar daitezke"
 
-#: app/scripts/lib/auth-errors.js:222
+#: app/scripts/lib/auth-errors.js:226
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
 msgstr ""
 "Helbide elektronikoa egiaztatzeko klik egin duzun lotura iraungita dago."
 
-#: app/scripts/lib/auth-errors.js:226
+#: app/scripts/lib/auth-errors.js:230
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "Egiaztapen-lotura hondatuta"
 
-#: app/scripts/lib/auth-errors.js:234
+#: app/scripts/lib/auth-errors.js:238
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Irudiaren tamainak gutxienez 100x100 px izan behar du"
 
-#: app/scripts/lib/auth-errors.js:238
+#: app/scripts/lib/auth-errors.js:242
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Izena emateko aukera laster dator iOSerako Firefoxentzat"
 
-#: app/scripts/lib/auth-errors.js:242
+#: app/scripts/lib/auth-errors.js:246
 msgid "Signup has been disabled"
 msgstr "Izena emateko aukera desgaitua izan da"
 
-#: app/scripts/lib/auth-errors.js:246
+#: app/scripts/lib/auth-errors.js:250
 msgid "You must enter your age to sign up"
 msgstr "Zure izena sartu behar duzu erregistratzeko"
 
-#: app/scripts/lib/auth-errors.js:250
+#: app/scripts/lib/auth-errors.js:254
 msgid "No Gravatar found"
 msgstr "Ez da Gravatar-ik aurkitu"
 
-#: app/scripts/lib/auth-errors.js:258
+#: app/scripts/lib/auth-errors.js:262
 msgid "Account no longer exists."
 msgstr "Kontua ez da existitzen jada."
 
-#: app/scripts/lib/auth-errors.js:262
+#: app/scripts/lib/auth-errors.js:266
 msgid "Invalid property in resume token: %(property)s"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:266
+#: app/scripts/lib/auth-errors.js:270
 msgid "Missing property in resume token: %(property)s"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:270
+#: app/scripts/lib/auth-errors.js:274
 msgid "Invalid data-flow-begin attribute"
 msgstr ""
 
@@ -427,11 +432,19 @@ msgstr "Zerbait gaizki joan da. Itxi fitxa hau eta saiatu berriro."
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "OAuth parametroa falta da: %(param)s"
 
+#: app/scripts/lib/profile-errors.js:23
+msgid "Invalid Token"
+msgstr ""
+
 #: app/scripts/lib/profile-errors.js:27
+msgid "Invalid parameter in request body: %(param)s"
+msgstr "Parametro baliogabea eskaeraren gorputzean: %(param)s"
+
+#: app/scripts/lib/profile-errors.js:31
 msgid "Unsupported image provider"
 msgstr "Onartzen ez den irudi-hornitzailea"
 
-#: app/scripts/lib/profile-errors.js:31
+#: app/scripts/lib/profile-errors.js:35
 msgid "Image processing error"
 msgstr "Errorea irudia prozesatzean"
 
@@ -588,7 +601,7 @@ msgstr "Pasahitzak"
 msgid "History"
 msgstr "Historia"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:13
+#: app/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Preferences"
 msgstr "Hobespenak"
 
@@ -1121,6 +1134,9 @@ msgstr "Erabili OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Erabili Firefox Kontua"
+
+#~ msgid "Missing parameter in request body: %(param)s"
+#~ msgstr "Parametroa falta da eskaeraren gorputzean: %(param)s"
 
 #~ msgid "Sign up"
 #~ msgstr "Eman izena"

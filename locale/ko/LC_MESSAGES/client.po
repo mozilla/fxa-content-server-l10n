@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-02 15:45+0000\n"
+"POT-Creation-Date: 2016-05-19 12:15+0000\n"
 "PO-Revision-Date: 2016-03-26 11:36+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "Account verified successfully"
 msgstr "계정 확인 성공"
 
-#: app/scripts/views/confirm_account_unlock.js:90
+#: app/scripts/views/confirm_account_unlock.js:91
 msgid "Account unlocked, please try again"
 msgstr "계정 잠김, 다시 시도해 주세요"
 
@@ -82,7 +82,7 @@ msgstr "계정 확인"
 msgid "You are now ready to use %(serviceName)s"
 msgstr "%(serviceName)s를 지금부터 사용할 수 있습니다."
 
-#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:144
+#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:157
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "잘못된 계정입니다. <a href=\"/signup\">회원가입</a>"
 
@@ -153,7 +153,7 @@ msgstr ""
 "계정이 잠겼습니다. <a href=\"/confirm_account_unlock\">잠금해제 메일 발송</a>"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:42
-#: app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:101
+#: app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:105
 msgid "Your account has been locked for security reasons"
 msgstr "보안상의 이유로 계정 잠김"
 
@@ -168,8 +168,9 @@ msgstr "로그아웃 성공"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
-#: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39
+#: app/scripts/lib/profile-errors.js:47
+#: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -217,13 +218,13 @@ msgstr "잘못된 인증 코드"
 msgid "Invalid JSON in request body"
 msgstr "요청 본문에 잘못된 JSON"
 
-#: app/scripts/lib/auth-errors.js:69 app/scripts/lib/profile-errors.js:23
-msgid "Invalid parameter in request body: %(param)s"
-msgstr "요청 본문에 잘못된 파라미터: %(param)s"
+#: app/scripts/lib/auth-errors.js:69
+msgid "Invalid parameter: %(param)s"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:73
-msgid "Missing parameter in request body: %(param)s"
-msgstr "요청 본문에 누락한 파라미터: %(param)s"
+msgid "Missing parameter: %(param)s"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
@@ -241,138 +242,142 @@ msgstr "요청 본문이 너무 큼"
 msgid "Attempt limit exceeded"
 msgstr "재시도 횟수 초과"
 
-#: app/scripts/lib/auth-errors.js:105
+#: app/scripts/lib/auth-errors.js:101
+msgid "The request was blocked for security reasons"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:109
 msgid "Server busy, try again soon"
 msgstr "서버가 응답하지 않습니다, 잠시 후에 다시 시도해 주세요."
 
-#: app/scripts/lib/auth-errors.js:109
+#: app/scripts/lib/auth-errors.js:113
 msgid "This endpoint is no longer supported"
 msgstr "더 이상 지원하지 않음"
 
-#: app/scripts/lib/auth-errors.js:113 app/scripts/lib/config-loader.js:73
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/config-loader.js:73
 #: app/scripts/lib/marketing-email-errors.js:79
-#: app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:39
+#: app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "시스템 오류입니다, 잠시 후에 다시 시도해 주세요."
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/oauth-errors.js:104
+#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/oauth-errors.js:104
 msgid "no message"
 msgstr "메시지 없음"
 
-#: app/scripts/lib/auth-errors.js:121
+#: app/scripts/lib/auth-errors.js:125
 msgid "Session expired. Sign in to continue."
 msgstr "세션이 만료되었습니다. 계속하려면 로그인해 주세요."
 
-#: app/scripts/lib/auth-errors.js:125
+#: app/scripts/lib/auth-errors.js:129
 msgid "Cookies are still disabled"
 msgstr "쿠키가 여전히 꺼져있음"
 
-#: app/scripts/lib/auth-errors.js:129
+#: app/scripts/lib/auth-errors.js:133
 msgid "Passwords do not match"
 msgstr "암호가 일치하지 않음"
 
-#: app/scripts/lib/auth-errors.js:133
+#: app/scripts/lib/auth-errors.js:137
 msgid "Working…"
 msgstr "진행중..."
 
-#: app/scripts/lib/auth-errors.js:137
+#: app/scripts/lib/auth-errors.js:141
 msgid "Could not get Privacy Notice"
 msgstr "개인 정보 보호 정책 없음"
 
-#: app/scripts/lib/auth-errors.js:141
+#: app/scripts/lib/auth-errors.js:145
 msgid "Could not get Terms of Service"
 msgstr "서비스 약관 없음"
 
-#: app/scripts/lib/auth-errors.js:145
+#: app/scripts/lib/auth-errors.js:149
 msgid "Your new password must be different"
 msgstr "새 암호는 이전 것과 달라야 함"
 
-#: app/scripts/lib/auth-errors.js:149
+#: app/scripts/lib/auth-errors.js:153
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "적어도 8글자 이상이 필요함"
 
-#: app/scripts/lib/auth-errors.js:153
+#: app/scripts/lib/auth-errors.js:157
 msgid "Valid password required"
 msgstr "올바른 암호 입력이 필요함"
 
-#: app/scripts/lib/auth-errors.js:157 app/scripts/lib/auth-errors.js:195
-#: app/scripts/lib/auth-errors.js:211
+#: app/scripts/lib/auth-errors.js:161 app/scripts/lib/auth-errors.js:199
+#: app/scripts/lib/auth-errors.js:215
 msgid "Valid email required"
 msgstr "올바른 이메일을 입력이 필요함"
 
-#: app/scripts/lib/auth-errors.js:168
+#: app/scripts/lib/auth-errors.js:172
 msgid "A usable image was not found"
 msgstr "사용 할 이미지를 찾을 수 없음"
 
-#: app/scripts/lib/auth-errors.js:172
+#: app/scripts/lib/auth-errors.js:176
 msgid "Could not initialize camera"
 msgstr "카메라를 초기화할 수 없음"
 
-#: app/scripts/lib/auth-errors.js:176
+#: app/scripts/lib/auth-errors.js:180
 msgid "Valid URL required"
 msgstr "올바른 URL 입력이 필요함"
 
-#: app/scripts/lib/auth-errors.js:191
+#: app/scripts/lib/auth-errors.js:195
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "확인 이메일이 반송되었습니다. 이메일을 잘못 입력하셨나요?"
 
-#: app/scripts/lib/auth-errors.js:199
+#: app/scripts/lib/auth-errors.js:203
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr ""
 "유효한 이메일 주소를 입력해 주세요. firefox.com에서 이메일을 제공하지 않습니"
 "다."
 
-#: app/scripts/lib/auth-errors.js:207
+#: app/scripts/lib/auth-errors.js:211
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox 계정은 승인된 웹 사이트의 IFRAME 에만 위치할 수 있습니다"
 
-#: app/scripts/lib/auth-errors.js:222
+#: app/scripts/lib/auth-errors.js:226
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
 msgstr "이메일 주소 확인을 위해 클릭한 링크가 만료되었습니다."
 
-#: app/scripts/lib/auth-errors.js:226
+#: app/scripts/lib/auth-errors.js:230
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "확인 링크가 손상됨"
 
-#: app/scripts/lib/auth-errors.js:234
+#: app/scripts/lib/auth-errors.js:238
 msgid "The image dimensions must be at least 100x100px"
 msgstr "이미지는 최소한 100x100픽셀이어야 함"
 
-#: app/scripts/lib/auth-errors.js:238
+#: app/scripts/lib/auth-errors.js:242
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "iOS용 Firefox를 위한 회원가입이 곧 제공됩니다"
 
-#: app/scripts/lib/auth-errors.js:242
+#: app/scripts/lib/auth-errors.js:246
 msgid "Signup has been disabled"
 msgstr "회원 가입이 비활성화됨"
 
-#: app/scripts/lib/auth-errors.js:246
+#: app/scripts/lib/auth-errors.js:250
 msgid "You must enter your age to sign up"
 msgstr "회원가입을 하려면 나이를 기입해야 합니다"
 
-#: app/scripts/lib/auth-errors.js:250
+#: app/scripts/lib/auth-errors.js:254
 msgid "No Gravatar found"
 msgstr "Gravatar 없음"
 
-#: app/scripts/lib/auth-errors.js:258
+#: app/scripts/lib/auth-errors.js:262
 msgid "Account no longer exists."
 msgstr "계정이 더이상 존재하지 않습니다."
 
-#: app/scripts/lib/auth-errors.js:262
+#: app/scripts/lib/auth-errors.js:266
 msgid "Invalid property in resume token: %(property)s"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:266
+#: app/scripts/lib/auth-errors.js:270
 msgid "Missing property in resume token: %(property)s"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:270
+#: app/scripts/lib/auth-errors.js:274
 msgid "Invalid data-flow-begin attribute"
 msgstr ""
 
@@ -424,11 +429,19 @@ msgstr "잘못 실행되었습니다. 현재 탭을 닫고 다시 실행해주�
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "OAuth 파라메터 누락: %(param)s"
 
+#: app/scripts/lib/profile-errors.js:23
+msgid "Invalid Token"
+msgstr ""
+
 #: app/scripts/lib/profile-errors.js:27
+msgid "Invalid parameter in request body: %(param)s"
+msgstr "요청 본문에 잘못된 파라미터: %(param)s"
+
+#: app/scripts/lib/profile-errors.js:31
 msgid "Unsupported image provider"
 msgstr "입증되지 않은 이미지 제공자"
 
-#: app/scripts/lib/profile-errors.js:31
+#: app/scripts/lib/profile-errors.js:35
 msgid "Image processing error"
 msgstr "이미지 프로세싱 오류"
 
@@ -585,7 +598,7 @@ msgstr "비밀번호"
 msgid "History"
 msgstr "방문목록"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:13
+#: app/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Preferences"
 msgstr "설정"
 
@@ -1105,6 +1118,9 @@ msgstr "OpenID 사용"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Firefox Account 사용"
+
+#~ msgid "Missing parameter in request body: %(param)s"
+#~ msgstr "요청 본문에 누락한 파라미터: %(param)s"
 
 #~ msgid "Sign up"
 #~ msgstr "계정 생성"

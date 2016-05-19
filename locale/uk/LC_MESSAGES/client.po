@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-02 15:45+0000\n"
+"POT-Creation-Date: 2016-05-19 12:15+0000\n"
 "PO-Revision-Date: 2016-05-03 19:28+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,7 +11,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1433578926.0\n"
 
@@ -21,7 +22,7 @@ msgstr ""
 msgid "Account verified successfully"
 msgstr "Обліковий запис успішно перевірено"
 
-#: app/scripts/views/confirm_account_unlock.js:90
+#: app/scripts/views/confirm_account_unlock.js:91
 msgid "Account unlocked, please try again"
 msgstr "Обліковий запис розблоковано, спробуйте знову"
 
@@ -82,7 +83,7 @@ msgstr "Обліковий запис перевірено"
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Ви вже готові для користування %(serviceName)s"
 
-#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:144
+#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:157
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Невідомий обліковий запис. <a href=\"/signup\">Зареєструватись</a>"
 
@@ -147,13 +148,14 @@ msgid "Display name updated"
 msgstr "Ім'я для показу оновлено"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "Обліковий запис заблоковано. <a href=\"/confirm_account_unlock\">Надіслати "
 "електронний лист для розблокування</a>"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:42
-#: app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:101
+#: app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:105
 msgid "Your account has been locked for security reasons"
 msgstr "З міркувань безпеки, ваш обліковий запис було заблоковано"
 
@@ -168,8 +170,8 @@ msgstr "Вихід успішно виконано"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
-#: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39
+#: app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
@@ -218,13 +220,13 @@ msgstr "Недійсний код підтвердження"
 msgid "Invalid JSON in request body"
 msgstr "Недійсний JSON у запиті"
 
-#: app/scripts/lib/auth-errors.js:69 app/scripts/lib/profile-errors.js:23
-msgid "Invalid parameter in request body: %(param)s"
-msgstr "Недійсний параметр у запиті: %(param)s"
+#: app/scripts/lib/auth-errors.js:69
+msgid "Invalid parameter: %(param)s"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:73
-msgid "Missing parameter in request body: %(param)s"
-msgstr "Втрачено параметр у запиті: %(param)s"
+msgid "Missing parameter: %(param)s"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
@@ -242,139 +244,143 @@ msgstr "Запит надто великий"
 msgid "Attempt limit exceeded"
 msgstr "Перевищено обмеження спроб"
 
-#: app/scripts/lib/auth-errors.js:105
+#: app/scripts/lib/auth-errors.js:101
+msgid "The request was blocked for security reasons"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:109
 msgid "Server busy, try again soon"
 msgstr "Сервер зайнятий, повторіть спробу пізніше"
 
-#: app/scripts/lib/auth-errors.js:109
+#: app/scripts/lib/auth-errors.js:113
 msgid "This endpoint is no longer supported"
 msgstr "Ця адреса запиту більше не підтримується"
 
-#: app/scripts/lib/auth-errors.js:113 app/scripts/lib/config-loader.js:73
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/config-loader.js:73
 #: app/scripts/lib/marketing-email-errors.js:79
-#: app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:39
+#: app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Система недоступна, спробуйте знову пізніше"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/oauth-errors.js:104
+#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/oauth-errors.js:104
 msgid "no message"
 msgstr "немає повідомлення"
 
-#: app/scripts/lib/auth-errors.js:121
+#: app/scripts/lib/auth-errors.js:125
 msgid "Session expired. Sign in to continue."
 msgstr "Сеанс завершено. Увійдіть для продовження."
 
-#: app/scripts/lib/auth-errors.js:125
+#: app/scripts/lib/auth-errors.js:129
 msgid "Cookies are still disabled"
 msgstr "Куки досі не увімкнено"
 
-#: app/scripts/lib/auth-errors.js:129
+#: app/scripts/lib/auth-errors.js:133
 msgid "Passwords do not match"
 msgstr "Паролі не співпадають"
 
-#: app/scripts/lib/auth-errors.js:133
+#: app/scripts/lib/auth-errors.js:137
 msgid "Working…"
 msgstr "Обробка…"
 
-#: app/scripts/lib/auth-errors.js:137
+#: app/scripts/lib/auth-errors.js:141
 msgid "Could not get Privacy Notice"
 msgstr "Не вдалося отримати повідомлення про конфіденційність"
 
-#: app/scripts/lib/auth-errors.js:141
+#: app/scripts/lib/auth-errors.js:145
 msgid "Could not get Terms of Service"
 msgstr "Не вдалося отримати умови користування"
 
-#: app/scripts/lib/auth-errors.js:145
+#: app/scripts/lib/auth-errors.js:149
 msgid "Your new password must be different"
 msgstr "Ваш новий пароль повинен бути іншим"
 
-#: app/scripts/lib/auth-errors.js:149
+#: app/scripts/lib/auth-errors.js:153
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "Повинно бути не менше 8 символів"
 
-#: app/scripts/lib/auth-errors.js:153
+#: app/scripts/lib/auth-errors.js:157
 msgid "Valid password required"
 msgstr "Необхідний дійсний пароль"
 
-#: app/scripts/lib/auth-errors.js:157 app/scripts/lib/auth-errors.js:195
-#: app/scripts/lib/auth-errors.js:211
+#: app/scripts/lib/auth-errors.js:161 app/scripts/lib/auth-errors.js:199
+#: app/scripts/lib/auth-errors.js:215
 msgid "Valid email required"
 msgstr "Необхідна дійсна адреса електронної пошти"
 
-#: app/scripts/lib/auth-errors.js:168
+#: app/scripts/lib/auth-errors.js:172
 msgid "A usable image was not found"
 msgstr "Придатне зображення не знайдено"
 
-#: app/scripts/lib/auth-errors.js:172
+#: app/scripts/lib/auth-errors.js:176
 msgid "Could not initialize camera"
 msgstr "Неможливо ініціалізувати камеру"
 
-#: app/scripts/lib/auth-errors.js:176
+#: app/scripts/lib/auth-errors.js:180
 msgid "Valid URL required"
 msgstr "Необхідна дійсна адреса URL"
 
-#: app/scripts/lib/auth-errors.js:191
+#: app/scripts/lib/auth-errors.js:195
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Ваш електронний лист було повернено. Помилилися з написанням?"
 
-#: app/scripts/lib/auth-errors.js:199
+#: app/scripts/lib/auth-errors.js:203
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr ""
 "Введіть правильну адресу електронної пошти. firefox.com не пропонує "
 "електронну пошту."
 
-#: app/scripts/lib/auth-errors.js:207
+#: app/scripts/lib/auth-errors.js:211
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 "Облікові записи Firefox можуть бути вставлені лише в IFRAME схвалених сайтів"
 
-#: app/scripts/lib/auth-errors.js:222
+#: app/scripts/lib/auth-errors.js:226
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
 msgstr "Посилання за яким ви перейшли для підтвердження ел. пошти недійсне."
 
-#: app/scripts/lib/auth-errors.js:226
+#: app/scripts/lib/auth-errors.js:230
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "Посилання для перевірки пошкоджене"
 
-#: app/scripts/lib/auth-errors.js:234
+#: app/scripts/lib/auth-errors.js:238
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Розміри зображення повинні бути не менше 100x100 пікселів"
 
-#: app/scripts/lib/auth-errors.js:238
+#: app/scripts/lib/auth-errors.js:242
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Реєстрація незабаром з'явиться в Firefox для iOS"
 
-#: app/scripts/lib/auth-errors.js:242
+#: app/scripts/lib/auth-errors.js:246
 msgid "Signup has been disabled"
 msgstr "Реєстрація була вимкнена"
 
-#: app/scripts/lib/auth-errors.js:246
+#: app/scripts/lib/auth-errors.js:250
 msgid "You must enter your age to sign up"
 msgstr "Ви повинні вказати свій вік, щоб виконати вхід"
 
-#: app/scripts/lib/auth-errors.js:250
+#: app/scripts/lib/auth-errors.js:254
 msgid "No Gravatar found"
 msgstr "Gravatar не знайдено"
 
-#: app/scripts/lib/auth-errors.js:258
+#: app/scripts/lib/auth-errors.js:262
 msgid "Account no longer exists."
 msgstr "Обліковий запис більше не існує."
 
-#: app/scripts/lib/auth-errors.js:262
+#: app/scripts/lib/auth-errors.js:266
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Недійсна властивість у токені відновлення: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:266
+#: app/scripts/lib/auth-errors.js:270
 msgid "Missing property in resume token: %(property)s"
 msgstr "Відсутня властивість у токені відновлення: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:270
+#: app/scripts/lib/auth-errors.js:274
 msgid "Invalid data-flow-begin attribute"
 msgstr "Недійсна властивість data-flow-begin"
 
@@ -426,11 +432,19 @@ msgstr "Щось пішло не так. Закрийте цю вкладку і
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Втрачений параметр OAuth: %(param)s"
 
+#: app/scripts/lib/profile-errors.js:23
+msgid "Invalid Token"
+msgstr ""
+
 #: app/scripts/lib/profile-errors.js:27
+msgid "Invalid parameter in request body: %(param)s"
+msgstr "Недійсний параметр у запиті: %(param)s"
+
+#: app/scripts/lib/profile-errors.js:31
 msgid "Unsupported image provider"
 msgstr "Непідтримуваний постачальник зображення"
 
-#: app/scripts/lib/profile-errors.js:31
+#: app/scripts/lib/profile-errors.js:35
 msgid "Image processing error"
 msgstr "Помилка обробки зображення"
 
@@ -440,15 +454,13 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Продовжуючи, ви погоджуєтесь із <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Умовами використання</a> та <a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Повідомленням про приватність</a> %(serviceName)s "
-"(%(serviceUri)s)."
+"Продовжуючи, ви погоджуєтесь із <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Умовами використання</a> та <a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Повідомленням про приватність</a> %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:26
 msgid ""
@@ -505,8 +517,8 @@ msgstr "Підтвердити адресу е-пошти"
 #: app/scripts/lib/strings.js:37
 msgid "Verify your email to finish your Firefox Account sign-in"
 msgstr ""
-"Для завершення входу в обліковий запис Firefox, підтвердіть свою адресу "
-"е-пошти"
+"Для завершення входу в обліковий запис Firefox, підтвердіть свою адресу е-"
+"пошти"
 
 #: app/scripts/lib/strings.js:38
 msgid "Confirm sign-in"
@@ -601,7 +613,7 @@ msgstr "Паролі"
 msgid "History"
 msgstr "Історія"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:13
+#: app/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Preferences"
 msgstr "Налаштування"
 
@@ -722,13 +734,12 @@ msgstr "Повідомлення для розблокування надісл�
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification"
-" link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
 msgstr ""
-"З міркувань безпеки, ваш обліковий запис було заблоковано. Для виконання дій"
-" на рівні облікового запису, будь ласка, виконайте повторне підтвердження "
-"свого облікового запису, перейшовши за посиланням, яке надіслане на "
-"%(email)s"
+"З міркувань безпеки, ваш обліковий запис було заблоковано. Для виконання дій "
+"на рівні облікового запису, будь ласка, виконайте повторне підтвердження "
+"свого облікового запису, перейшовши за посиланням, яке надіслане на %(email)s"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -756,8 +767,8 @@ msgstr "Необхідна підтримка cookies та локального 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between"
-" sessions."
+"Accounts. Doing so will enable functionality such as remembering you between "
+"sessions."
 msgstr ""
 "Будь ласка, увімкніть в своєму браузері куки і локальне сховище для доступу "
 "до Облікових записів Firefox. Це дозволить браузеру пам'ятати вас між "
@@ -805,14 +816,13 @@ msgstr "Забули пароль?"
 #: app/scripts/templates/sign_in.mustache:27
 #: app/scripts/templates/sign_up.mustache:17
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
-"Продовжуючи, ви погоджуєтесь із <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Умовами використання</a> та <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Повідомленням про приватність</a> хмарних сервісів "
-"Firefox."
+"Продовжуючи, ви погоджуєтесь із <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Умовами використання</a> та <a id=\"fxa-pp\" href=\"/legal/privacy"
+"\">Повідомленням про приватність</a> хмарних сервісів Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -873,8 +883,7 @@ msgstr "Запит дозволу"
 #: app/scripts/templates/settings/gravatar_permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
 msgstr ""
-"%(serviceName)s хоче отримати наступну інформацію з вашого облікового "
-"запису:"
+"%(serviceName)s хоче отримати наступну інформацію з вашого облікового запису:"
 
 #: app/scripts/templates/permissions.mustache:3
 #: app/scripts/templates/settings/gravatar_permissions.mustache:4
@@ -916,8 +925,8 @@ msgstr "Забули пароль"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
-"When you reset your password, you will lose any Sync data that is not on one"
-" of your devices."
+"When you reset your password, you will lose any Sync data that is not on one "
+"of your devices."
 msgstr ""
 "При скиданні паролю, ви втратите будь-які дані синхронізації, яких немає на "
 "одному з ваших пристроїв."
@@ -945,8 +954,8 @@ msgstr "Продовжити в %(serviceName)s"
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr ""
-"Перенесіть свої синхронізовані дані, увійшовши в обліковий "
-"запис&nbsp;Firefox."
+"Перенесіть свої синхронізовані дані, увійшовши в обліковий запис&nbsp;"
+"Firefox."
 
 #: app/scripts/templates/sign_in.mustache:12
 #: app/scripts/templates/sign_in.mustache:15
@@ -965,16 +974,15 @@ msgstr "Створити обліковий запис Firefox"
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr ""
-"Перенесіть свої синхронізовані дані, створивши новий обліковий "
-"запис&nbsp;Firefox."
+"Перенесіть свої синхронізовані дані, створивши новий обліковий запис&nbsp;"
+"Firefox."
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
-"in</a>"
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 msgstr ""
-"Маєте обліковий запис з іншою адресою електронної пошти? <a "
-"href=\"%(signinUri)s\">Увійти</a>"
+"Маєте обліковий запис з іншою адресою електронної пошти? <a href="
+"\"%(signinUri)s\">Увійти</a>"
 
 #: app/scripts/templates/sign_up.mustache:18
 #: app/scripts/templates/settings/communication_preferences.mustache:7
@@ -1090,13 +1098,13 @@ msgstr "Пристрої"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
-"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
-"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
+"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
+"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox доступний для <a href=\"%(linkWindows)s\">Windows</a>, <a "
-"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
-"href=\"%(linkIOS)s\">iOS</a> та <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox доступний для <a href=\"%(linkWindows)s\">Windows</a>, <a href="
+"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
+"\"%(linkIOS)s\">iOS</a> та <a href=\"%(linkLinux)s\">Linux</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -1150,6 +1158,9 @@ msgstr "Використати OpenID"
 msgid "Use Firefox Account"
 msgstr "Використати обліковий запис Firefox"
 
+#~ msgid "Missing parameter in request body: %(param)s"
+#~ msgstr "Втрачено параметр у запиті: %(param)s"
+
 #~ msgid "Sign up"
 #~ msgstr "Зареєструватись"
 
@@ -1166,13 +1177,13 @@ msgstr "Використати обліковий запис Firefox"
 #~ msgstr "Ви дійсно хочете скинути пароль свого облікового запису?"
 
 #~ msgid ""
-#~ "Resetting your password will erase your browsing data from our servers. Any "
-#~ "data on your devices will remain untouched. Begin the reset process by "
-#~ "entering your email below."
+#~ "Resetting your password will erase your browsing data from our servers. "
+#~ "Any data on your devices will remain untouched. Begin the reset process "
+#~ "by entering your email below."
 #~ msgstr ""
-#~ "Скидання пароля знищить ваші дані перегляду з наших серверів. Будь-які дані "
-#~ "на ваших пристроях залишаться неушкодженими. Почніть процес скидання, ввівши"
-#~ " свою адресу електронної пошти внизу."
+#~ "Скидання пароля знищить ваші дані перегляду з наших серверів. Будь-які "
+#~ "дані на ваших пристроях залишаться неушкодженими. Почніть процес "
+#~ "скидання, ввівши свою адресу електронної пошти внизу."
 
 #~ msgid "Begin reset"
 #~ msgstr "Почати скидання"
@@ -1374,9 +1385,9 @@ msgstr "Використати обліковий запис Firefox"
 #~ msgstr "Введіть вашу адресу електронної пошти для скидання&nbsp;паролю."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data from"
-#~ " our servers. A new Sync backup will be created from your local browsing "
-#~ "data."
+#~ "For security reasons, resetting your password will erase your Sync data "
+#~ "from our servers. A new Sync backup will be created from your local "
+#~ "browsing data."
 #~ msgstr ""
 #~ "З міркувань безпеки, відновлення вашого паролю призведе до стирання "
 #~ "синхронізованих даних на наших серверах. Нову резервну копію для "
@@ -1389,25 +1400,23 @@ msgstr "Використати обліковий запис Firefox"
 #~ msgstr "Вже є обліковий запис? Увійти."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" "
-#~ "href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-#~ "href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+#~ "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+#~ "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
-#~ "Продовжуючи, я погоджуюсь із <a id=\"service-tos\" "
-#~ "href=\"%(termsUri)s\">Умовами надання послуги</a> та<a id=\"service-pp\" "
-#~ "href=\"%(privacyUri)s\">Повідомленням про приватність</a> %(serviceName)s "
+#~ "Продовжуючи, я погоджуюсь із <a id=\"service-tos\" href=\"%(termsUri)s"
+#~ "\">Умовами надання послуги</a> та<a id=\"service-pp\" href="
+#~ "\"%(privacyUri)s\">Повідомленням про приватність</a> %(serviceName)s "
 #~ "(%(serviceUri)s)."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-#~ "Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Продовжуючи, я погоджуюсь із <a id=\"fxa-tos\" href=\"/legal/terms\">Умовами"
-#~ " надання послуг</a> та <a id=\"fxa-pp\" "
-#~ "href=\"/legal/privacy\">повідомленням про приватність</a> хмарних сервісів "
-#~ "Firefox."
+#~ "Продовжуючи, я погоджуюсь із <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Умовами надання послуг</a> та <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">повідомленням про приватність</a> хмарних сервісів Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Підписатись на новини та поради від Firefox"
@@ -1440,7 +1449,9 @@ msgstr "Використати обліковий запис Firefox"
 #~ msgid "Password changed"
 #~ msgstr "Пароль змінено"
 
-#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
+#~ msgid ""
+#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
+#~ "email</a>."
 #~ msgstr ""
 #~ "Не підтверджений обліковий запис. <a href=\"#\" id=\"resend\">Відправити "
 #~ "повідомлення для підтвердження ще раз</a>."
@@ -1452,8 +1463,8 @@ msgstr "Використати обліковий запис Firefox"
 #~ msgstr "Ви вийшли"
 
 #~ msgid ""
-#~ "Your verification email was just returned. Mistyped email? <a "
-#~ "href=\"/signup\">Start over.</a>"
+#~ "Your verification email was just returned. Mistyped email? <a href=\"/"
+#~ "signup\">Start over.</a>"
 #~ msgstr ""
 #~ "Ваше повідомлення для підтвердження було щойно повернено. Помилилися з "
 #~ "написанням адреси? <a href=\"/signup\">Почніть заново.</a>"

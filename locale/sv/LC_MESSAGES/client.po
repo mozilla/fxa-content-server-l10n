@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-02 15:45+0000\n"
-"PO-Revision-Date: 2016-04-15 03:41+0000\n"
+"POT-Creation-Date: 2016-05-19 12:15+0000\n"
+"PO-Revision-Date: 2016-05-02 21:19+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "Account verified successfully"
 msgstr "Konto verifierat"
 
-#: app/scripts/views/confirm_account_unlock.js:90
+#: app/scripts/views/confirm_account_unlock.js:91
 msgid "Account unlocked, please try again"
 msgstr "Konto upplåst, försök igen"
 
@@ -82,7 +82,7 @@ msgstr "Konto verifierat"
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Du kan nu använda %(serviceName)s"
 
-#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:144
+#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:157
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Okänt konto. <a href=\"/signup\">Registrera dig</a>"
 
@@ -153,7 +153,7 @@ msgstr ""
 "Konto låst. <a href=\"/confirm_account_unlock\">Skicka upplåsningsmejl</a>"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:42
-#: app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:101
+#: app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:105
 msgid "Your account has been locked for security reasons"
 msgstr "Ditt konto har låsts av säkerhetsskäl"
 
@@ -168,8 +168,9 @@ msgstr "Utloggad"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
-#: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:35
-#: app/scripts/lib/profile-errors.js:43 app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39
+#: app/scripts/lib/profile-errors.js:47
+#: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -217,13 +218,13 @@ msgstr "Ogiltig verifieringskod"
 msgid "Invalid JSON in request body"
 msgstr "Ogiltig JSON i förfrågan"
 
-#: app/scripts/lib/auth-errors.js:69 app/scripts/lib/profile-errors.js:23
-msgid "Invalid parameter in request body: %(param)s"
-msgstr "Ogiltig parameter i förfrågan: %(param)s"
+#: app/scripts/lib/auth-errors.js:69
+msgid "Invalid parameter: %(param)s"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:73
-msgid "Missing parameter in request body: %(param)s"
-msgstr "Saknad parameter i förfrågan: %(param)s"
+msgid "Missing parameter: %(param)s"
+msgstr ""
 
 #: app/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
@@ -241,93 +242,97 @@ msgstr "Förfrågan är för stor"
 msgid "Attempt limit exceeded"
 msgstr "Försöksgräns överskriden"
 
-#: app/scripts/lib/auth-errors.js:105
+#: app/scripts/lib/auth-errors.js:101
+msgid "The request was blocked for security reasons"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:109
 msgid "Server busy, try again soon"
 msgstr "Servern upptagen, försök igen senare"
 
-#: app/scripts/lib/auth-errors.js:109
+#: app/scripts/lib/auth-errors.js:113
 msgid "This endpoint is no longer supported"
 msgstr "Den här slutpunkten stöds inte längre"
 
-#: app/scripts/lib/auth-errors.js:113 app/scripts/lib/config-loader.js:73
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/config-loader.js:73
 #: app/scripts/lib/marketing-email-errors.js:79
-#: app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:39
+#: app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Systemet är inte tillgängligt, försök igen senare"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/oauth-errors.js:104
+#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/oauth-errors.js:104
 msgid "no message"
 msgstr "inget meddelande"
 
-#: app/scripts/lib/auth-errors.js:121
+#: app/scripts/lib/auth-errors.js:125
 msgid "Session expired. Sign in to continue."
 msgstr "Sessionen har förfallit. Logga in för att fortsätta."
 
-#: app/scripts/lib/auth-errors.js:125
+#: app/scripts/lib/auth-errors.js:129
 msgid "Cookies are still disabled"
 msgstr "Kakor är fortfarande inaktiverade"
 
-#: app/scripts/lib/auth-errors.js:129
+#: app/scripts/lib/auth-errors.js:133
 msgid "Passwords do not match"
 msgstr "Lösenorden överensstämmer inte"
 
-#: app/scripts/lib/auth-errors.js:133
+#: app/scripts/lib/auth-errors.js:137
 msgid "Working…"
 msgstr "Arbetar…"
 
-#: app/scripts/lib/auth-errors.js:137
+#: app/scripts/lib/auth-errors.js:141
 msgid "Could not get Privacy Notice"
 msgstr "Kunde inte hämta sekretesspolicy"
 
-#: app/scripts/lib/auth-errors.js:141
+#: app/scripts/lib/auth-errors.js:145
 msgid "Could not get Terms of Service"
 msgstr "Kunde inte hämta tjänstevillkoren"
 
-#: app/scripts/lib/auth-errors.js:145
+#: app/scripts/lib/auth-errors.js:149
 msgid "Your new password must be different"
 msgstr "Det måste vara ett nytt lösenord"
 
-#: app/scripts/lib/auth-errors.js:149
+#: app/scripts/lib/auth-errors.js:153
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "Måste vara minst 8 tecken"
 
-#: app/scripts/lib/auth-errors.js:153
+#: app/scripts/lib/auth-errors.js:157
 msgid "Valid password required"
 msgstr "Giltigt lösenord krävs"
 
-#: app/scripts/lib/auth-errors.js:157 app/scripts/lib/auth-errors.js:195
-#: app/scripts/lib/auth-errors.js:211
+#: app/scripts/lib/auth-errors.js:161 app/scripts/lib/auth-errors.js:199
+#: app/scripts/lib/auth-errors.js:215
 msgid "Valid email required"
 msgstr "Giltig e-postadress krävs"
 
-#: app/scripts/lib/auth-errors.js:168
+#: app/scripts/lib/auth-errors.js:172
 msgid "A usable image was not found"
 msgstr "En användbar bild hittades inte"
 
-#: app/scripts/lib/auth-errors.js:172
+#: app/scripts/lib/auth-errors.js:176
 msgid "Could not initialize camera"
 msgstr "Kunde inte initiera kameran"
 
-#: app/scripts/lib/auth-errors.js:176
+#: app/scripts/lib/auth-errors.js:180
 msgid "Valid URL required"
 msgstr "Giltig URL krävs"
 
-#: app/scripts/lib/auth-errors.js:191
+#: app/scripts/lib/auth-errors.js:195
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Ditt verifieringsmeddelande har returnerats. Skrivit fel e-post?"
 
-#: app/scripts/lib/auth-errors.js:199
+#: app/scripts/lib/auth-errors.js:203
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Ange en giltig e-postadress. firefox.com erbjuder inte e-post."
 
-#: app/scripts/lib/auth-errors.js:207
+#: app/scripts/lib/auth-errors.js:211
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox-konton kan endast placeras i en IFRAME på godkända webbplatser"
 
-#: app/scripts/lib/auth-errors.js:222
+#: app/scripts/lib/auth-errors.js:226
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
@@ -335,46 +340,46 @@ msgstr ""
 "Länken du klickade på för att verifiera din e-postadress är inte giltig "
 "längre."
 
-#: app/scripts/lib/auth-errors.js:226
+#: app/scripts/lib/auth-errors.js:230
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "Verifieringslänk är trasig"
 
-#: app/scripts/lib/auth-errors.js:234
+#: app/scripts/lib/auth-errors.js:238
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Bildens dimensioner måste minst vara 100x100px"
 
-#: app/scripts/lib/auth-errors.js:238
+#: app/scripts/lib/auth-errors.js:242
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Registrering kommer snart till Firefox för iOS"
 
-#: app/scripts/lib/auth-errors.js:242
+#: app/scripts/lib/auth-errors.js:246
 msgid "Signup has been disabled"
 msgstr "Registrering har inaktiverats"
 
-#: app/scripts/lib/auth-errors.js:246
+#: app/scripts/lib/auth-errors.js:250
 msgid "You must enter your age to sign up"
 msgstr "Du måste ange din ålder för att registrera dig"
 
-#: app/scripts/lib/auth-errors.js:250
+#: app/scripts/lib/auth-errors.js:254
 msgid "No Gravatar found"
 msgstr "Ingen Gravatar hittad"
 
-#: app/scripts/lib/auth-errors.js:258
+#: app/scripts/lib/auth-errors.js:262
 msgid "Account no longer exists."
 msgstr "Kontot existerar inte längre."
 
-#: app/scripts/lib/auth-errors.js:262
-msgid "Invalid property in resume token: %(property)s"
-msgstr ""
-
 #: app/scripts/lib/auth-errors.js:266
-msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgid "Invalid property in resume token: %(property)s"
+msgstr "Ogiltig egenskap i resume token: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:270
+msgid "Missing property in resume token: %(property)s"
+msgstr "Saknad egenskap i resume token: %(property)s"
+
+#: app/scripts/lib/auth-errors.js:274
 msgid "Invalid data-flow-begin attribute"
-msgstr ""
+msgstr "Ogiltigt data-flow-begin attribut"
 
 #: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -424,11 +429,19 @@ msgstr "Något gick fel. Var vänlig stäng denna flik och försök igen."
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Saknad OAuth-parameter: %(param)s"
 
+#: app/scripts/lib/profile-errors.js:23
+msgid "Invalid Token"
+msgstr ""
+
 #: app/scripts/lib/profile-errors.js:27
+msgid "Invalid parameter in request body: %(param)s"
+msgstr "Ogiltig parameter i förfrågan: %(param)s"
+
+#: app/scripts/lib/profile-errors.js:31
 msgid "Unsupported image provider"
 msgstr "Bildleverantören stöds inte"
 
-#: app/scripts/lib/profile-errors.js:31
+#: app/scripts/lib/profile-errors.js:35
 msgid "Image processing error"
 msgstr "Bildbehandlingsfel"
 
@@ -592,7 +605,7 @@ msgstr "Lösenord"
 msgid "History"
 msgstr "Historik"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:13
+#: app/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Preferences"
 msgstr "Inställningar"
 
@@ -604,7 +617,7 @@ msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
-msgstr ""
+msgstr "Spara inställningar"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
@@ -968,7 +981,7 @@ msgstr "Få de senaste nyheterna om Mozilla och Firefox."
 
 #: app/scripts/templates/sign_up.mustache:24
 msgid "Create account"
-msgstr ""
+msgstr "Skapa konto"
 
 #: app/scripts/templates/sign_up.mustache:29
 msgid "Have an account? Sign in."
@@ -1132,6 +1145,9 @@ msgstr "Använd OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Använd Firefox Konto"
+
+#~ msgid "Missing parameter in request body: %(param)s"
+#~ msgstr "Saknad parameter i förfrågan: %(param)s"
 
 #~ msgid "Sign up"
 #~ msgstr "Registrera dig"

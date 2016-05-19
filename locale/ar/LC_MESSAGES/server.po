@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-02 15:45+0000\n"
+"POT-Creation-Date: 2016-05-19 12:15+0000\n"
 "PO-Revision-Date: 2016-05-11 17:04+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,12 +11,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
 "X-Generator: Pontoon\n"
 
 #: templates/_pending.txt:1 templates/verification_reminder_second.html:2
 #: templates/verification_reminder_second.txt:1
-#: templates/verify_reminder_second.html:2 mailer.js:458
+#: templates/verify_reminder_second.html:2 mailer.js:416 mailer.js:444
 msgid "Still there?"
 msgstr "لا تزال هناك؟"
 
@@ -25,8 +26,8 @@ msgid ""
 "A while ago you created a Firefox Account, but never verified it. Click the "
 "link below to activate your account."
 msgstr ""
-"أنشأت حساب فَيَرفُكس منذ فترة و لم تأكّده. انقر فوق الرابط الموجود أدناه "
-"لتفعيل حسابك."
+"أنشأت حساب فَيَرفُكس منذ فترة و لم تأكّده. انقر فوق الرابط الموجود أدناه لتفعيل "
+"حسابك."
 
 #: templates/_pending.txt:3 templates/post_verify.html:3
 msgid ""
@@ -34,8 +35,8 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for <a "
 "href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"اِتَّصَلَ جهازك الأول بحساب فَيَرفُكس الخاص بك بنجاح. الآن يمكنك تسجيل "
-"الدخول إلى المزامنة من أجهزتك الأخري بما في ذلك فَيَرفُكس <a "
+"اِتَّصَلَ جهازك الأول بحساب فَيَرفُكس الخاص بك بنجاح. الآن يمكنك تسجيل الدخول إلى "
+"المزامنة من أجهزتك الأخري بما في ذلك فَيَرفُكس <a "
 "href='%(androidUrl)s'>لأندرويد</a> و <a href='%(iosUrl)s'>لآي أو إس</a>."
 
 #: templates/_pending.txt:4
@@ -44,9 +45,9 @@ msgid ""
 "make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
 "Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
 msgstr ""
-"اِتَّصَلَ جهازك الأول بحساب فَيَرفُكس الخاص بك بنجاح. صِلْ الحساب بأي "
-"فَيَرفُكس <a href='%(androidUrl)s'>لأندرويد</a> أو <a href='%(iosUrl)s'>لآي "
-"أو إس</a> للاستفادة القصوى من التزامُن."
+"اِتَّصَلَ جهازك الأول بحساب فَيَرفُكس الخاص بك بنجاح. صِلْ الحساب بأي فَيَرفُكس <a "
+"href='%(androidUrl)s'>لأندرويد</a> أو <a href='%(iosUrl)s'>لآي أو إس</a> "
+"للاستفادة القصوى من التزامُن."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -62,8 +63,8 @@ msgstr "سجل الدخول للمزامنة"
 #: templates/suspicious_location.html:1 templates/unlock.html:1
 #: templates/verification_reminder_first.html:1
 #: templates/verification_reminder_second.html:1 templates/verify.html:1
-#: templates/verify_login.html:1 templates/verify_reminder_first.html:1
-#: templates/verify_reminder_second.html:1
+#: templates/verify_reminder_first.html:1
+#: templates/verify_reminder_second.html:1 templates/verify_login.html:1
 #: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
 #: server/templates/pages/src/503.html:1
@@ -74,7 +75,8 @@ msgid "Firefox Accounts"
 msgstr "حسابات فَيَرفُكس"
 
 #: templates/new_device_login.html:2 templates/new_device_login.txt:1
-#: templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:380
+#: mailer.js:338 templates/verify_login.html:2 templates/verify_login.txt:1
+#: mailer.js:367
 msgid "New sign-in to Firefox"
 msgstr "تسجيل دخول جديد لفَيَرفٌكس"
 
@@ -105,8 +107,8 @@ msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
 "Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
-"هذا بريد إلكتروني الآلي، إذا لم تضف جهاز جديد إلى حساب فَيَرفُكس الخاص بك "
-"فيجب عليك تغيّر كلمة السرّ حالًا من %(resetLink)s."
+"هذا بريد إلكتروني الآلي، إذا لم تضف جهاز جديد إلى حساب فَيَرفُكس الخاص بك فيجب "
+"عليك تغيّر كلمة السرّ حالًا من %(resetLink)s."
 
 #: templates/new_device_login.txt:3 templates/password_changed.txt:4
 #: templates/password_reset.txt:5 templates/post_verify.txt:5
@@ -129,8 +131,8 @@ msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
-"هذا بريد إلكتروني الآلي، إذا لم تغيير كلمة السرّ الخاصة بحساب فَيَرفُكس فيجب"
-" عليك تغيّر كلمة السرّ حالًا من %(resetLink)s."
+"هذا بريد إلكتروني الآلي، إذا لم تغيير كلمة السرّ الخاصة بحساب فَيَرفُكس فيجب "
+"عليك تغيّر كلمة السرّ حالًا من %(resetLink)s."
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
@@ -168,8 +170,8 @@ msgstr "تم إعادة تعيين كلمة السرّ الخاصة بحساب �
 
 #: templates/password_reset.txt:4
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox"
-" Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox "
+"Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 "هذا بريد إلكتروني الآلي، إذا لم تطلب أعادة تعيين كلمة السرّ الخاصة بحساب "
 "فَيَرفُكس فيجب عليك تغيير كلمة السرّ حالًا من %(resetLink)s."
@@ -179,8 +181,7 @@ msgstr ""
 msgid ""
 "We detected suspicious activity on your Firefox Account. Your account may "
 "have been compromised."
-msgstr ""
-"اكتشافنا نشاط مُشتبَه به في حساب فَيَرفُكس الخاص بك. فربما اُخترق حسابك."
+msgstr "اكتشافنا نشاط مُشتبَه به في حساب فَيَرفُكس الخاص بك. فربما اُخترق حسابك."
 
 #: templates/password_reset_required.html:3
 #: templates/password_reset_required.txt:2
@@ -188,8 +189,8 @@ msgid ""
 "To prevent further unauthorized access to your Firefox Account, we’ve reset "
 "your password and are notifying you as a precaution."
 msgstr ""
-"لتتجنب الوصول غير المصرح به لحساب فَيَرفُكس الخاص بك، أعدنا تعيين كلمة سرّك "
-"و نُعلمك كأجراء احترازي."
+"لتتجنب الوصول غير المصرح به لحساب فَيَرفُكس الخاص بك، أعدنا تعيين كلمة سرّك و "
+"نُعلمك كأجراء احترازي."
 
 #: templates/password_reset_required.html:4
 #: templates/password_reset_required.txt:3
@@ -210,9 +211,9 @@ msgid ""
 "passwords as well. Attackers may have access to those passwords, so you "
 "should check those accounts for suspicious activity."
 msgstr ""
-"ثانياً، أذا كان فَيَرفُكس يخزن كلمات السرّ الخاصة بالمواقع فيجب تغيّرها "
-"أيضا. ربما حصَل المهاجمون علي كلمات السرّ هذه، لذلك يجب عليك فحص هذه "
-"الحسابات للأنشطة المشبُهة."
+"ثانياً، أذا كان فَيَرفُكس يخزن كلمات السرّ الخاصة بالمواقع فيجب تغيّرها أيضا. ربما "
+"حصَل المهاجمون علي كلمات السرّ هذه، لذلك يجب عليك فحص هذه الحسابات للأنشطة "
+"المشبُهة."
 
 #: templates/password_reset_required.html:7
 #: templates/password_reset_required.txt:6
@@ -235,6 +236,17 @@ msgstr "فريق مشروع حسابات فَيَرفُكس"
 #: templates/password_reset_required.html:10
 #: templates/password_reset_required.txt:9
 #: templates/suspicious_location.html:14 templates/suspicious_location.txt:13
+#: templates/new_device_login.html:5 templates/new_device_login.txt:4
+#: templates/password_changed.html:6 templates/password_changed.txt:5
+#: templates/password_reset.html:6 templates/password_reset.txt:6
+#: templates/post_verify.html:8 templates/post_verify.txt:6
+#: templates/reset.html:9 templates/reset.txt:7 templates/unlock.html:8
+#: templates/unlock.txt:5 templates/verification_reminder_first.html:8
+#: templates/verification_reminder_first.txt:6
+#: templates/verification_reminder_second.html:8
+#: templates/verification_reminder_second.txt:6 templates/verify.html:8
+#: templates/verify.txt:6 templates/verify_login.html:7
+#: templates/verify_login.txt:5
 msgid "Mozilla Privacy Policy"
 msgstr "سياسة موزيلا للخصوصيّة"
 
@@ -245,8 +257,8 @@ msgstr "اُكّد الحساب!"
 #: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5
 #: templates/verification_reminder_first.html:5
 #: templates/verification_reminder_second.html:5 templates/verify.html:5
-#: templates/verify_login.html:5 templates/verify_reminder_first.html:5
-#: templates/verify_reminder_second.html:5
+#: templates/verify_reminder_first.html:5
+#: templates/verify_reminder_second.html:5 templates/verify_login.html:5
 msgid "Alternatively:"
 msgstr "بدائل أخري:"
 
@@ -256,9 +268,8 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for "
 "Android and iOS."
 msgstr ""
-"اِتَّصَلَ جهازك الأول بحساب فَيَرفُكس الخاص بك بنجاح. الآن يمكنك تسجيل "
-"الدخول إلى المزامنة من أجهزتك الأخري بما في ذلك فَيَرفُكس لأندرويد و لآي أو "
-"إس."
+"اِتَّصَلَ جهازك الأول بحساب فَيَرفُكس الخاص بك بنجاح. الآن يمكنك تسجيل الدخول إلى "
+"المزامنة من أجهزتك الأخري بما في ذلك فَيَرفُكس لأندرويد و لآي أو إس."
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
@@ -270,10 +281,9 @@ msgstr "هل نسيت كلمة السرّ؟"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid ""
-"Click the button within the next hour to set a new password for your Firefox"
-" Account."
-msgstr ""
-"خلال الساعة القادمة انقر الزر لضبط الكلمة السرّ الجديدة لحساب فَيَرفُكس."
+"Click the button within the next hour to set a new password for your Firefox "
+"Account."
+msgstr "خلال الساعة القادمة انقر الزر لضبط الكلمة السرّ الجديدة لحساب فَيَرفُكس."
 
 #: templates/reset.html:4 templates/reset.txt:3
 msgid "Remember password? Sign in."
@@ -331,8 +341,8 @@ msgid ""
 "account-level activities, please click the link to re-verify your account "
 "now."
 msgstr ""
-"لأسباب أمنيّة تم أغلاق حسابك. للقيام بأنشطة على مستوى الحساب، رجاءً انقر فوق"
-" الرابط لإعادة تأكّيد حسابك الآن."
+"لأسباب أمنيّة تم أغلاق حسابك. للقيام بأنشطة على مستوى الحساب، رجاءً انقر فوق "
+"الرابط لإعادة تأكّيد حسابك الآن."
 
 #: templates/unlock.html:4
 msgid "Verify account"
@@ -344,7 +354,7 @@ msgstr "أكّد الحساب:"
 
 #: templates/verification_reminder_first.html:2
 #: templates/verification_reminder_first.txt:1
-#: templates/verify_reminder_first.html:2 mailer.js:455
+#: templates/verify_reminder_first.html:2 mailer.js:413 mailer.js:441
 msgid "Hello again."
 msgstr "مرحبًا مرة أخرى."
 
@@ -353,13 +363,13 @@ msgstr "مرحبًا مرة أخرى."
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history"
-" on any device connected to it. Simply confirm this email address to "
-"activate your account."
+"verified account lets you access your tabs, bookmarks, passwords and history "
+"on any device connected to it. Simply confirm this email address to activate "
+"your account."
 msgstr ""
-"أنشأت حساب فَيَرفُكس قبل بضعة أيام و لم تأكّده. تأكيد الحساب يتيح لك الوصول "
-"إلى ألسنتك و علاماتك و كلمات السرّ والتاريخ على أي جهاز مُتصل به. ببساطة "
-"أكّد عنوان البريد الإلكتروني هذا لتفعيل حسابك."
+"أنشأت حساب فَيَرفُكس قبل بضعة أيام و لم تأكّده. تأكيد الحساب يتيح لك الوصول إلى "
+"ألسنتك و علاماتك و كلمات السرّ والتاريخ على أي جهاز مُتصل به. ببساطة أكّد عنوان "
+"البريد الإلكتروني هذا لتفعيل حسابك."
 
 #: templates/verification_reminder_first.html:4
 #: templates/verification_reminder_second.html:4 templates/verify.html:4
@@ -372,6 +382,8 @@ msgstr "فعّل الآن"
 #: templates/verification_reminder_second.html:8 templates/verify.html:8
 #: templates/verify_reminder_first.html:8
 #: templates/verify_reminder_second.html:8
+#: templates/verification_reminder_first.html:9
+#: templates/verification_reminder_second.html:9 templates/verify.html:9
 msgid "Verify Email"
 msgstr "أكّد البريد الإلكتروني"
 
@@ -379,6 +391,8 @@ msgstr "أكّد البريد الإلكتروني"
 #: templates/verification_reminder_second.html:9 templates/verify.html:9
 #: templates/verify_reminder_first.html:9
 #: templates/verify_reminder_second.html:9
+#: templates/verification_reminder_first.html:10
+#: templates/verification_reminder_second.html:10 templates/verify.html:10
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr "أكّد بريدك الإلكتروني لإنهاء تسجيل حساب فَيَرفُكس الخاص بك"
 
@@ -392,15 +406,15 @@ msgstr "فعّل الآن:"
 #: templates/verify_reminder_second.html:3
 msgid ""
 "A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and"
-" iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know"
-" you're okay."
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
+"iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know "
+"you're okay."
 msgstr ""
-"أنشأت حساب فَيَرفُكس قبل أسبوع و لم تأكّده. ونحن قلقون عليك. فَيَرفُكس مُتاح"
-" لنظام تشغيل ويندوز و ماك و لينكُس و أندرويد و آي أو إس. يمكنك مزامنة ألسنتك"
-" و علاماتك و كلمات السرّ و التاريخ عبر كل منهم. فقط أكّد عنوان بريدك "
-"الإلكتروني هذا لتفعيل حسابك واسمح لنا أن نعرف أنك بخير."
+"أنشأت حساب فَيَرفُكس قبل أسبوع و لم تأكّده. ونحن قلقون عليك. فَيَرفُكس مُتاح لنظام "
+"تشغيل ويندوز و ماك و لينكُس و أندرويد و آي أو إس. يمكنك مزامنة ألسنتك و "
+"علاماتك و كلمات السرّ و التاريخ عبر كل منهم. فقط أكّد عنوان بريدك الإلكتروني "
+"هذا لتفعيل حسابك واسمح لنا أن نعرف أنك بخير."
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
@@ -409,6 +423,77 @@ msgstr "مرحبًا!"
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
 msgstr "رجاءً فعّل حسابك عن طريق تأكيد عنوان بريدك الإلكتروني هذا."
+
+#: config.js:146 config.js:151
+msgid "env"
+msgstr ""
+
+#: config.js:159 config.js:160 config.js:161 config.js:162 config.js:163
+#: config.js:164
+msgid "contentServer.url"
+msgstr ""
+
+#: log.js:7
+msgid "logging"
+msgstr ""
+
+#: mailer.js:168 mailer.js:171
+msgid "Verify your Firefox Account"
+msgstr "أكّد حساب فَيَرفُكس الخاص بك"
+
+#: mailer.js:201 mailer.js:244
+msgid "Reset your Firefox Account password"
+msgstr "إعادة تعيين كلمة السرّ الخاصة بحساب فَيَرفُكس"
+
+#: mailer.js:236 mailer.js:278
+msgid "Re-verify your Firefox Account"
+msgstr "أعد تأكّيد حساب فَيَرفُكس الخاص بك"
+
+#: mailer.js:269 mailer.js:299
+msgid "Your Firefox Account password has been changed"
+msgstr "غُيّرت كلمة السرّ الخاصة بحساب فَيَرفُكس"
+
+#: mailer.js:291 mailer.js:321
+msgid "Your Firefox Account password has been reset"
+msgstr "تم إعادة تعيين كلمة السرّ الخاصة بحساب فَيَرفُكس"
+
+#: mailer.js:313 mailer.js:342
+msgid "Firefox Account password reset required"
+msgstr "إعادة تعيين كلمة السرّ لحساب فَيَرفُكس مطلوب"
+
+#: mailer.js:366 mailer.js:395
+msgid "Firefox Account Verified"
+msgstr "اُكّد حساب فَيَرفُكس"
+
+#: mailer.js:401 mailer.js:429
+msgid "Suspicious activity with your Firefox Account"
+msgstr "نشاط مُشتبَه به في حساب فَيَرفُكس الخاص بك"
+
+#: lib/db.js:21
+msgid "/"
+msgstr ""
+
+#: lib/db.js:34
+msgid "/__heartbeat__"
+msgstr ""
+
+#: templates/new_device_login.html:4 templates/password_changed.html:5
+#: templates/password_reset.html:5 templates/post_verify.html:7
+#: templates/reset.html:8 templates/unlock.html:7
+#: templates/verification_reminder_first.html:7
+#: templates/verification_reminder_second.html:7 templates/verify.html:7
+msgid ""
+"For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
+"Support</a>."
+msgstr ""
+
+#: templates/verification_reminder_second.html:3
+#: templates/verification_reminder_second.txt:2
+msgid ""
+"A week ago you created a Firefox Account, but never verified it. We’re "
+"worried about you. Confirm this email address to activate your account and "
+"let us know you're okay."
+msgstr ""
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid ""
@@ -425,52 +510,18 @@ msgstr "أكّد تسجيل الدخول"
 #: templates/verify_login.html:6
 msgid ""
 "If you suspect that someone is trying to gain access to your account, <a "
-"%(supportLinkAttributes)s>please report it to us</a>."
+"%(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr ""
-"إذا كنت تشك بأن شخص ما يحاول الوصول إلى حسابك، <a "
-"%(supportLinkAttributes)s>الرجاء إبلاغنا بذلك</a>."
 
 #: templates/verify_login.txt:4
 msgid ""
-"If you suspect that someone is trying to gain access to your account, please"
-" report it to us."
-msgstr "إذا كنت تشك بأن شخص ما يحاول الوصول إلى حسابك، الرجاء إبلاغنا بذلك."
+"If you suspect that someone is trying to gain access to your account, please "
+"change your password."
+msgstr ""
 
-#: mailer.js:171
-msgid "Verify your Firefox Account"
-msgstr "أكّد حساب فَيَرفُكس الخاص بك"
-
-#: mailer.js:210
+#: mailer.js:209
 msgid "Confirm new sign-in to Firefox"
 msgstr "أكّد تسجيل دخولك الجديد لفَيَرفٌكس"
-
-#: mailer.js:243
-msgid "Reset your Firefox Account password"
-msgstr "إعادة تعيين كلمة السرّ الخاصة بحساب فَيَرفُكس"
-
-#: mailer.js:278
-msgid "Re-verify your Firefox Account"
-msgstr "أعد تأكّيد حساب فَيَرفُكس الخاص بك"
-
-#: mailer.js:311
-msgid "Your Firefox Account password has been changed"
-msgstr "غُيّرت كلمة السرّ الخاصة بحساب فَيَرفُكس"
-
-#: mailer.js:333
-msgid "Your Firefox Account password has been reset"
-msgstr "تم إعادة تعيين كلمة السرّ الخاصة بحساب فَيَرفُكس"
-
-#: mailer.js:355
-msgid "Firefox Account password reset required"
-msgstr "إعادة تعيين كلمة السرّ لحساب فَيَرفُكس مطلوب"
-
-#: mailer.js:408
-msgid "Firefox Account Verified"
-msgstr "اُكّد حساب فَيَرفُكس"
-
-#: mailer.js:443
-msgid "Suspicious activity with your Firefox Account"
-msgstr "نشاط مُشتبَه به في حساب فَيَرفُكس الخاص بك"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
@@ -522,12 +573,11 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a "
-"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
-"experience."
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
-"أنت تستخدم متصفح <strong>غير مُحدّثة</strong>. رجاءً <a "
-"href=\"http://browsehappy.com/\">رقّي متصفحك</a> لتحسين الخدمة."
+"أنت تستخدم متصفح <strong>غير مُحدّثة</strong>. رجاءً <a href=\"http://"
+"browsehappy.com/\">رقّي متصفحك</a> لتحسين الخدمة."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -547,3 +597,15 @@ msgstr "خدمات فَيَرفُكس السّحابيّة"
 #: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "شروط الخدمة"
+
+#~ msgid ""
+#~ "If you suspect that someone is trying to gain access to your account, <a "
+#~ "%(supportLinkAttributes)s>please report it to us</a>."
+#~ msgstr ""
+#~ "إذا كنت تشك بأن شخص ما يحاول الوصول إلى حسابك، <a "
+#~ "%(supportLinkAttributes)s>الرجاء إبلاغنا بذلك</a>."
+
+#~ msgid ""
+#~ "If you suspect that someone is trying to gain access to your account, "
+#~ "please report it to us."
+#~ msgstr "إذا كنت تشك بأن شخص ما يحاول الوصول إلى حسابك، الرجاء إبلاغنا بذلك."
