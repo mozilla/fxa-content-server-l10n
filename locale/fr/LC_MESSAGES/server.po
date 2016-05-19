@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-19 12:15+0000\n"
-"PO-Revision-Date: 2016-05-19 12:33+0000\n"
+"PO-Revision-Date: 2016-05-19 16:46+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -511,6 +511,8 @@ msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>."
 msgstr ""
+"Pour plus d’informations, veuillez consulter <a "
+"%(supportLinkAttributes)s>l’assistance de Mozilla</a>."
 
 #: templates/verification_reminder_second.html:3
 #: templates/verification_reminder_second.txt:2
@@ -519,6 +521,9 @@ msgid ""
 "worried about you. Confirm this email address to activate your account and "
 "let us know you're okay."
 msgstr ""
+"Il y a une semaine, vous avez créé un compte Firefox, mais ne l’avez jamais "
+"vérifié. Que se passe-t-il&nbsp;? Confirmez cette adresse électronique pour "
+"activer votre compte (et nous rassurer)."
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid ""
@@ -537,12 +542,17 @@ msgid ""
 "If you suspect that someone is trying to gain access to your account, <a "
 "%(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr ""
+"Si vous avez des raisons de penser que quelqu’un essaie d’accéder à votre "
+"compte, <a %(passwordChangeLinkAttributes)s>veuillez changer votre mot de "
+"passe</a>."
 
 #: templates/verify_login.txt:4
 msgid ""
 "If you suspect that someone is trying to gain access to your account, please"
 " change your password."
 msgstr ""
+"Si vous avez des raisons de penser que quelqu’un essaie d’accéder à votre "
+"compte, veuillez changer votre mot de passe."
 
 #: mailer.js:209
 msgid "Confirm new sign-in to Firefox"
