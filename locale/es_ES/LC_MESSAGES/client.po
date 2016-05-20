@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-19 12:15+0000\n"
-"PO-Revision-Date: 2016-05-02 21:29+0000\n"
-"Last-Translator: jlgetxo <jlgetxo@gmail.com>\n"
+"PO-Revision-Date: 2016-05-20 06:44+0000\n"
+"Last-Translator: avelper <avelper@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
@@ -146,8 +146,7 @@ msgid "Display name updated"
 msgstr "Nombre visible actualizado"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
 "Cuenta bloqueada. <a href=\"/confirm_account_unlock\">Enviar correo de "
 "desbloqueo</a>"
@@ -188,7 +187,8 @@ msgstr "Marca de tiempo no válida en la solicitud de firma"
 
 #: app/scripts/lib/auth-errors.js:37
 msgid "Invalid nonce in request signature"
-msgstr "No es válido el valor de seguridad (nonce) en la firma de la solicitud"
+msgstr ""
+"No es válido el valor de seguridad (nonce) en la firma de la solicitud"
 
 #: app/scripts/lib/auth-errors.js:41
 msgid "Account already exists"
@@ -220,11 +220,11 @@ msgstr "JSON no válido en el cuerpo de la petición"
 
 #: app/scripts/lib/auth-errors.js:69
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "Parámetro no válido: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:73
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "Falta un parámetro: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
@@ -244,7 +244,7 @@ msgstr "Se alcanzó el límite establecido"
 
 #: app/scripts/lib/auth-errors.js:101
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "Se bloqueó la solicitud por motivos de seguridad"
 
 #: app/scripts/lib/auth-errors.js:109
 msgid "Server busy, try again soon"
@@ -327,8 +327,8 @@ msgstr "Se ha devuelto el correo de verificación. ¿Estaba mal escrito?"
 #: app/scripts/lib/auth-errors.js:203
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr ""
-"Introduce una dirección de correo válida. firefox.com no ofrece dirección de "
-"correo."
+"Introduce una dirección de correo válida. firefox.com no ofrece dirección de"
+" correo."
 
 #: app/scripts/lib/auth-errors.js:211
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
@@ -432,7 +432,7 @@ msgstr "Falta el parámetro OAuth: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
-msgstr ""
+msgstr "Token no válido"
 
 #: app/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
@@ -452,13 +452,15 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"Si continúas, aceptas los <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Términos del servicio</a> y el <a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Aviso de privacidad</a> de %(serviceName)s (%(serviceUri)s)."
+"Si continúas, aceptas los <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Términos del servicio</a> y el <a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Aviso de privacidad</a> de %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:26
 msgid ""
@@ -497,8 +499,8 @@ msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
-"Este es un correo automático; si lo recibiste por error, no tienes que hacer "
-"nada."
+"Este es un correo automático; si lo recibiste por error, no tienes que hacer"
+" nada."
 
 #: app/scripts/lib/strings.js:35
 msgid ""
@@ -545,8 +547,8 @@ msgid ""
 "To better protect your Firefox data, we've emailed a confirmation link to "
 "%(email)s"
 msgstr ""
-"Para proteger mejor tu información de Firefox, te hemos enviado un enlace de "
-"confirmación a %(email)s"
+"Para proteger mejor tu información de Firefox, te hemos enviado un enlace de"
+" confirmación a %(email)s"
 
 #: app/scripts/lib/strings.js:43 app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
@@ -671,8 +673,8 @@ msgid ""
 "Once you submit your new password, you will lose any Sync data that is not "
 "on one of your devices."
 msgstr ""
-"Una vez enviada la nueva contraseña, perderás los datos de Sync que no estén "
-"en uno de tus dispositivos."
+"Una vez enviada la nueva contraseña, perderás los datos de Sync que no estén"
+" en uno de tus dispositivos."
 
 #: app/scripts/templates/complete_reset_password.mustache:11
 #: app/scripts/templates/reset_password.mustache:3
@@ -732,8 +734,8 @@ msgstr "Correo de desbloqueo enviado"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification"
+" link sent to %(email)s"
 msgstr ""
 "Por razones de seguridad, tu cuenta está bloqueada. Para realizar cualquier "
 "cambio en ella, vuelve a comprobar tu cuenta seleccionando el enlace que se "
@@ -765,11 +767,11 @@ msgstr "Se necesitan cookies y almacenamiento local."
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between "
-"sessions."
+"Accounts. Doing so will enable functionality such as remembering you between"
+" sessions."
 msgstr ""
-"Por favor, activa las cookies y el almacenamiento local en tu navegador para "
-"acceder a Firefox Accounts. Si lo haces, se activarán funcionalidades como "
+"Por favor, activa las cookies y el almacenamiento local en tu navegador para"
+" acceder a Firefox Accounts. Si lo haces, se activarán funcionalidades como "
 "recordar tus datos entre sesiones."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
@@ -814,9 +816,9 @@ msgstr "¿Has olvidado la contraseña?"
 #: app/scripts/templates/sign_in.mustache:27
 #: app/scripts/templates/sign_up.mustache:17
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
 "Si continúas, aceptas los <a id=\"fxa-tos\" href=\"/legal/terms\">Términos "
 "del servicio</a> y el <a id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de "
@@ -922,8 +924,8 @@ msgstr "He olvidado la contraseña"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
-"When you reset your password, you will lose any Sync data that is not on one "
-"of your devices."
+"When you reset your password, you will lose any Sync data that is not on one"
+" of your devices."
 msgstr ""
 "Cuando restablezcas tu contraseña, perderás los datos de Sync que no estén "
 "en uno de tus dispositivos."
@@ -974,10 +976,11 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
+"in</a>"
 msgstr ""
-"¿Tienes una cuenta con un correo diferente? <a href=\"%(signinUri)s\">Inicia "
-"sesión</a>"
+"¿Tienes una cuenta con un correo diferente? <a href=\"%(signinUri)s\">Inicia"
+" sesión</a>"
 
 #: app/scripts/templates/sign_up.mustache:18
 #: app/scripts/templates/settings/communication_preferences.mustache:7
@@ -1091,9 +1094,9 @@ msgstr "Dispositivos"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
 "Firefox está disponible para <a href=\"%(linkWindows)s\">Windows</a>, <a "
 "href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
@@ -1170,14 +1173,13 @@ msgstr "Usar cuenta de Firefox"
 #~ msgstr "¿Seguro que quieres restablecer la contraseña de tu cuenta?"
 
 #~ msgid ""
-#~ "Resetting your password will erase your browsing data from our servers. "
-#~ "Any data on your devices will remain untouched. Begin the reset process "
-#~ "by entering your email below."
+#~ "Resetting your password will erase your browsing data from our servers. Any "
+#~ "data on your devices will remain untouched. Begin the reset process by "
+#~ "entering your email below."
 #~ msgstr ""
 #~ "Si la restableces, se eliminarán los datos de navegación de nuestros "
-#~ "servidores. Los datos almacenados en tus dispositivos no se eliminarán. "
-#~ "Para restablecer la contraseña, introduce tu dirección de correo más "
-#~ "abajo."
+#~ "servidores. Los datos almacenados en tus dispositivos no se eliminarán. Para"
+#~ " restablecer la contraseña, introduce tu dirección de correo más abajo."
 
 #~ msgid "Begin reset"
 #~ msgstr "Iniciar restablecimiento"
