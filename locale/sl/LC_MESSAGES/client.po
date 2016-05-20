@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-19 12:15+0000\n"
-"PO-Revision-Date: 2016-05-20 10:12+0000\n"
-"Last-Translator: Peter Klofutar <peter_klofutar@telemach.net>\n"
+"PO-Revision-Date: 2016-05-20 11:17+0000\n"
+"Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -224,7 +224,7 @@ msgstr "Neveljaven parameter: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:73
 msgid "Missing parameter: %(param)s"
-msgstr "Manjka parameter: %(param)s"
+msgstr "Manjkajoč parameter: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
@@ -244,7 +244,7 @@ msgstr "Število poskusov preseženo"
 
 #: app/scripts/lib/auth-errors.js:101
 msgid "The request was blocked for security reasons"
-msgstr "Zahteva je bila zavrnjena zaradi varnostnih razlogov"
+msgstr "Zahteva je bila zavrnjena iz varnostnih razlogov"
 
 #: app/scripts/lib/auth-errors.js:109
 msgid "Server busy, try again soon"
@@ -507,7 +507,7 @@ msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
 msgstr ""
-"Za več podatkov obiščite <a %(supportLinkAttributes)s>Podporo Mozilla</a>"
+"Za več informacij obiščite <a %(supportLinkAttributes)s>strani s podporo</a>"
 
 #: app/scripts/lib/strings.js:36
 msgid "Verify Email"
