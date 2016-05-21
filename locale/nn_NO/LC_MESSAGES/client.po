@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-19 12:15+0000\n"
-"PO-Revision-Date: 2016-05-18 12:35+0000\n"
+"PO-Revision-Date: 2016-05-21 15:03+0000\n"
 "Last-Translator: bjorn.svindseth <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -95,8 +95,7 @@ msgstr "Kontoen finst allereie. <a href=\"/signin\">Logg inn</a>"
 
 #: app/scripts/views/settings/avatar_gravatar.js:89
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr ""
-"Med velvillig løyve frå <a href=\"https://www.gravatar.com\">Gravatar</a>"
+msgstr "Med velvillig løyve frå <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
 #: app/scripts/views/settings/change_password.js:46
 msgid "Password changed successfully"
@@ -147,11 +146,10 @@ msgid "Display name updated"
 msgstr "Visingsnamn oppdatert"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
-"Kontoen låst. <a href=\"/confirm_account_unlock\">Send e-post for opplåsing</"
-"a>"
+"Kontoen låst. <a href=\"/confirm_account_unlock\">Send e-post for "
+"opplåsing</a>"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:42
 #: app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:105
@@ -189,11 +187,11 @@ msgstr "Ugyldig tidsstempel i førespurd signatur"
 
 #: app/scripts/lib/auth-errors.js:37
 msgid "Invalid nonce in request signature"
-msgstr ""
+msgstr "Ugyldig nonce i signaturen til føresspurnaden"
 
 #: app/scripts/lib/auth-errors.js:41
 msgid "Account already exists"
-msgstr ""
+msgstr "Kontoen finst allereie"
 
 #: app/scripts/lib/auth-errors.js:45
 msgid "Unknown account"
@@ -201,7 +199,7 @@ msgstr "Ukjend konto"
 
 #: app/scripts/lib/auth-errors.js:49
 msgid "Incorrect email case"
-msgstr ""
+msgstr "Ugyldig e-post tilfelle"
 
 #: app/scripts/lib/auth-errors.js:53
 msgid "Incorrect password"
@@ -209,39 +207,39 @@ msgstr "Feil passord"
 
 #: app/scripts/lib/auth-errors.js:57
 msgid "Unverified account"
-msgstr ""
+msgstr "Kontoen er ikkje stadfesta"
 
 #: app/scripts/lib/auth-errors.js:61
 msgid "Invalid verification code"
-msgstr ""
+msgstr "Ugyldig stadfestingskonto"
 
 #: app/scripts/lib/auth-errors.js:65
 msgid "Invalid JSON in request body"
-msgstr ""
+msgstr "Ugyldig JSON i førespurnadsinnhald"
 
 #: app/scripts/lib/auth-errors.js:69
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "Ugyldig parameter: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:73
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "Manglande parameter: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
-msgstr ""
+msgstr "Ugyldig førspurnadssignatur"
 
 #: app/scripts/lib/auth-errors.js:81
 msgid "Missing content-length header"
-msgstr ""
+msgstr "Manglar content-length linja"
 
 #: app/scripts/lib/auth-errors.js:85
 msgid "Request body too large"
-msgstr ""
+msgstr "Førespurnadsinnhald er for stort"
 
 #: app/scripts/lib/auth-errors.js:89
 msgid "Attempt limit exceeded"
-msgstr ""
+msgstr "Forsøksgrense overskride"
 
 #: app/scripts/lib/auth-errors.js:101
 msgid "The request was blocked for security reasons"
@@ -450,9 +448,10 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:26
@@ -708,8 +707,8 @@ msgstr ""
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification"
+" link sent to %(email)s"
 msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
@@ -736,8 +735,8 @@ msgstr ""
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between "
-"sessions."
+"Accounts. Doing so will enable functionality such as remembering you between"
+" sessions."
 msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:3
@@ -782,9 +781,9 @@ msgstr ""
 #: app/scripts/templates/sign_in.mustache:27
 #: app/scripts/templates/sign_up.mustache:17
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
@@ -850,7 +849,7 @@ msgstr ""
 #: app/scripts/templates/permissions.mustache:3
 #: app/scripts/templates/settings/gravatar_permissions.mustache:4
 msgid "Accept"
-msgstr ""
+msgstr "Godta"
 
 #: app/scripts/templates/permissions.mustache:4
 #: app/scripts/templates/settings/avatar_camera.mustache:2
@@ -863,15 +862,15 @@ msgstr ""
 #: app/scripts/templates/settings/display_name.mustache:6
 #: app/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
-msgstr ""
+msgstr "Avbryt"
 
 #: app/scripts/templates/ready.mustache:1
 msgid "Success"
-msgstr ""
+msgstr "Vellykka"
 
 #: app/scripts/templates/ready.mustache:2
 msgid "Sync preferences"
-msgstr ""
+msgstr "Sync-innstillingar"
 
 #: app/scripts/templates/ready.mustache:6
 msgid "Proceed"
@@ -879,7 +878,7 @@ msgstr ""
 
 #: app/scripts/templates/ready.mustache:9
 msgid "Your account is ready!"
-msgstr ""
+msgstr "Kontoen din er klar!"
 
 #: app/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
@@ -887,8 +886,8 @@ msgstr ""
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
-"When you reset your password, you will lose any Sync data that is not on one "
-"of your devices."
+"When you reset your password, you will lose any Sync data that is not on one"
+" of your devices."
 msgstr ""
 
 #: app/scripts/templates/reset_password.mustache:5
@@ -896,11 +895,11 @@ msgstr ""
 #: app/scripts/templates/sign_up.mustache:11
 #: app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
-msgstr ""
+msgstr "E-post"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Firefox-kontoar"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
@@ -922,12 +921,12 @@ msgstr ""
 
 #: app/scripts/templates/sign_in.mustache:26
 msgid "Create an account"
-msgstr ""
+msgstr "Opprett ein konto"
 
 #: app/scripts/templates/sign_up.mustache:1
 #: app/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
-msgstr ""
+msgstr "Opprett ein Firefox-konto"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -935,7 +934,8 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
+"in</a>"
 msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:18
@@ -1048,9 +1048,9 @@ msgstr ""
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
 
 #: app/scripts/templates/settings/devices.mustache:5
