@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-19 12:15+0000\n"
-"PO-Revision-Date: 2016-05-21 15:18+0000\n"
+"PO-Revision-Date: 2016-05-23 17:51+0000\n"
 "Last-Translator: bjorn.svindseth <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -694,7 +694,7 @@ msgstr ""
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
-msgstr ""
+msgstr "Stadfest kontoen din"
 
 #: app/scripts/templates/confirm.mustache:4
 msgid "A verification link has been sent&nbsp;to %(email)s"
@@ -741,15 +741,15 @@ msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
-msgstr ""
+msgstr "Les meir"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "Prøv på nytt"
 
 #: app/scripts/templates/force_auth.mustache:1
 msgid "Sign in to continue"
-msgstr ""
+msgstr "Logg inn for å halda fram"
 
 #: app/scripts/templates/force_auth.mustache:3
 #: app/scripts/templates/sign_in.mustache:8
@@ -793,32 +793,32 @@ msgstr ""
 
 #: app/scripts/templates/legal.mustache:2
 msgid "Legal"
-msgstr ""
+msgstr "Juridisk"
 
 #: app/scripts/templates/legal.mustache:3
 #: app/scripts/templates/settings.mustache:5
 #: app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
-msgstr ""
+msgstr "Tenestevilkår"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
 #: app/scripts/templates/settings.mustache:6
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Personvernmerknad"
 
 #: app/scripts/templates/marketing_snippet.mustache:1
 msgid "Stay in sync on the go:"
-msgstr ""
+msgstr "Ver synkronisert, heile tida:"
 
 #: app/scripts/templates/marketing_snippet.mustache:2
 msgid "Get Firefox for Android"
-msgstr ""
+msgstr "Last ned Firefox for Android"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:1
 #: app/scripts/templates/marketing_snippet_ios.mustache:5
 #: app/scripts/templates/marketing_snippet_ios.mustache:9
 msgid "Get the full Sync experience."
-msgstr ""
+msgstr "Få full Sync-oppleving."
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:2
 #: app/scripts/templates/marketing_snippet_ios.mustache:3
@@ -882,7 +882,7 @@ msgstr "Kontoen din er klar!"
 
 #: app/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
-msgstr ""
+msgstr "Gløymt passord"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
@@ -1010,41 +1010,41 @@ msgstr ""
 
 #: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
-msgstr ""
+msgstr "Gammalt passord"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
-msgstr ""
+msgstr "Kommunikasjonsinnstillingar"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
-msgstr ""
+msgstr "E-post innstillingar"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:10
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Abonner"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:12
 msgid "Subscribe"
-msgstr ""
+msgstr "Ikkje abonner"
 
 #: app/scripts/templates/settings/delete_account.mustache:1
 #: app/scripts/templates/settings/delete_account.mustache:6
 msgid "Delete account"
-msgstr ""
+msgstr "Slett konto"
 
 #: app/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete"
-msgstr ""
+msgstr "Slett"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid ""
 "Are you sure you want to delete your account? This action cannot be undone."
-msgstr ""
+msgstr "Er du sikker på at du vil sletta kontoen? Dette kan ikkje gjerast om."
 
 #: app/scripts/templates/settings/devices.mustache:2
 msgid "Devices"
-msgstr ""
+msgstr "Einingar"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
@@ -1052,10 +1052,13 @@ msgid ""
 "href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
 "href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
+"Firefox er tilgjengeleg for <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> og <a href=\"%(linkLinux)s\">Linux</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
-msgstr ""
+msgstr "Du kan handtera einingane nedanfor."
 
 #: app/scripts/templates/settings/devices.mustache:6
 msgid "(current)"
