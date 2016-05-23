@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-19 12:15+0000\n"
-"PO-Revision-Date: 2016-05-23 17:51+0000\n"
+"PO-Revision-Date: 2016-05-23 18:49+0000\n"
 "Last-Translator: bjorn.svindseth <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -243,21 +243,21 @@ msgstr "Forsøksgrense overskride"
 
 #: app/scripts/lib/auth-errors.js:101
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "Førespurnaden vart blokkert pga. tryggingsårsaker"
 
 #: app/scripts/lib/auth-errors.js:109
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Tenaren er opptatt, prøv igjen seinare"
 
 #: app/scripts/lib/auth-errors.js:113
 msgid "This endpoint is no longer supported"
-msgstr ""
+msgstr "Dette endepunktet er ikkje lenger støtta"
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/config-loader.js:73
 #: app/scripts/lib/marketing-email-errors.js:79
 #: app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Systemet utilgjengeleg, prøv igjen seinare"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/oauth-errors.js:104
 msgid "no message"
@@ -265,11 +265,11 @@ msgstr "inga melding"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Session expired. Sign in to continue."
-msgstr ""
+msgstr "Økta er slutt. Logg inn for å fortsetja."
 
 #: app/scripts/lib/auth-errors.js:129
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Infokapslar er framleis slått av"
 
 #: app/scripts/lib/auth-errors.js:133
 msgid "Passwords do not match"
@@ -281,90 +281,91 @@ msgstr "Arbeider …"
 
 #: app/scripts/lib/auth-errors.js:141
 msgid "Could not get Privacy Notice"
-msgstr ""
+msgstr "Klarte ikkje å henta personvernmelding"
 
 #: app/scripts/lib/auth-errors.js:145
 msgid "Could not get Terms of Service"
-msgstr ""
+msgstr "Klarte ikkje å henta tenestevilkåra"
 
 #: app/scripts/lib/auth-errors.js:149
 msgid "Your new password must be different"
-msgstr ""
+msgstr "Det nye passordet ditt må vera annleis"
 
 #: app/scripts/lib/auth-errors.js:153
 #: app/scripts/templates/complete_reset_password.mustache:15
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
-msgstr ""
+msgstr "Må ha minst 8 teikn"
 
 #: app/scripts/lib/auth-errors.js:157
 msgid "Valid password required"
-msgstr ""
+msgstr "Gyldig passord påkravd"
 
 #: app/scripts/lib/auth-errors.js:161 app/scripts/lib/auth-errors.js:199
 #: app/scripts/lib/auth-errors.js:215
 msgid "Valid email required"
-msgstr ""
+msgstr "Gyldig e-postadresse påkravd"
 
 #: app/scripts/lib/auth-errors.js:172
 msgid "A usable image was not found"
-msgstr ""
+msgstr "Fann ikkje brukande bilde"
 
 #: app/scripts/lib/auth-errors.js:176
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "Klarte ikkje å starta kameraet"
 
 #: app/scripts/lib/auth-errors.js:180
 msgid "Valid URL required"
-msgstr ""
+msgstr "Gyldig URL påkravd"
 
 #: app/scripts/lib/auth-errors.js:195
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Stadfestings e-posten din kom i retur. Feil i e-postadressa?"
 
 #: app/scripts/lib/auth-errors.js:203
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "Skriv inn ei gyldig e-postadresse. firefox.com tilbyr ikkje e-post."
 
 #: app/scripts/lib/auth-errors.js:211
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
+"Firefox-kontoar kan berre plasserast i ei IFRAME på godkjende nettstadar"
 
 #: app/scripts/lib/auth-errors.js:226
 #: app/scripts/templates/complete_account_unlock.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
-msgstr ""
+msgstr "Lenka du trykte på for å stadfesta e-postadressa di har gått ut."
 
 #: app/scripts/lib/auth-errors.js:230
 #: app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Stadfestingslenka er skada"
 
 #: app/scripts/lib/auth-errors.js:238
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "Dimensjonar på bildet må vera minst 100 x 100 px"
 
 #: app/scripts/lib/auth-errors.js:242
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "Registrering kjem snart til Firefox for iOS"
 
 #: app/scripts/lib/auth-errors.js:246
 msgid "Signup has been disabled"
-msgstr ""
+msgstr "Registrering er slått av"
 
 #: app/scripts/lib/auth-errors.js:250
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "Du må skriva inn alder for å registrera deg"
 
 #: app/scripts/lib/auth-errors.js:254
 msgid "No Gravatar found"
-msgstr ""
+msgstr "Fann ingen Gravatar"
 
 #: app/scripts/lib/auth-errors.js:262
 msgid "Account no longer exists."
-msgstr ""
+msgstr "Kontoen finst ikkje lenger."
 
 #: app/scripts/lib/auth-errors.js:266
 msgid "Invalid property in resume token: %(property)s"
@@ -738,6 +739,9 @@ msgid ""
 "Accounts. Doing so will enable functionality such as remembering you between"
 " sessions."
 msgstr ""
+"Slå på infokapslar og lokal lagring i netlesaren din for å få tilgang til "
+"Firefox-kontoar. Dette vil t.d. slå på funksjonalitet som at du vert hugsa "
+"mellom økter."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -775,7 +779,7 @@ msgstr "Logg inn"
 #: app/scripts/templates/sign_in.mustache:25
 #: app/scripts/templates/settings/change_password.mustache:6
 msgid "Forgot password?"
-msgstr ""
+msgstr "Gløymt passordet?"
 
 #: app/scripts/templates/force_auth.mustache:8
 #: app/scripts/templates/sign_in.mustache:27
@@ -874,7 +878,7 @@ msgstr "Sync-innstillingar"
 
 #: app/scripts/templates/ready.mustache:6
 msgid "Proceed"
-msgstr ""
+msgstr "Hald fram"
 
 #: app/scripts/templates/ready.mustache:9
 msgid "Your account is ready!"
