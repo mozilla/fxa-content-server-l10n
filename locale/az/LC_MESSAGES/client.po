@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-19 12:15+0000\n"
-"PO-Revision-Date: 2016-03-25 14:18+0000\n"
+"PO-Revision-Date: 2016-05-24 00:33+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: az\n"
@@ -147,10 +147,10 @@ msgid "Display name updated"
 msgstr "Görüntülənmə adı yeniləndi"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
-"Hesab kilidlənib. <a href=\"/confirm_account_unlock\">Açma e-poçtu göndər</a>"
+"Hesab kilidlənib. <a href=\"/confirm_account_unlock\">Açma e-poçtu "
+"göndər</a>"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:42
 #: app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:105
@@ -220,11 +220,11 @@ msgstr "İstək bədənində xətalı JSON"
 
 #: app/scripts/lib/auth-errors.js:69
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "Səhv parametr: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:73
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "Əksik parametr: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
@@ -244,7 +244,7 @@ msgstr "Yoxlama limiti dolub"
 
 #: app/scripts/lib/auth-errors.js:101
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "İstək təhlükəsizlik səbəblərindən bloklandı"
 
 #: app/scripts/lib/auth-errors.js:109
 msgid "Server busy, try again soon"
@@ -371,15 +371,15 @@ msgstr "Hesab artıq mövcud deyil."
 
 #: app/scripts/lib/auth-errors.js:266
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "Dönüş token-i üçün səhv mülkiyyət: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:270
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "Dönüş token-i üçün əksik mülkiyyət: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:274
 msgid "Invalid data-flow-begin attribute"
-msgstr ""
+msgstr "Səhv data-flow-begin atributu"
 
 #: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -431,7 +431,7 @@ msgstr "Çatışmayan OAuth parametri: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
-msgstr ""
+msgstr "Səhv Token"
 
 #: app/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
@@ -451,13 +451,14 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" "
+"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"Davam etməklə %(serviceName) (%(serviceUri)s) xidmətinin <a id=\"service-tos"
-"\" href=\"%(termsUri)s\">İstifadə Şərtləri</a> və <a id=\"service-pp\" href="
-"\"%(privacyUri)s\">Məxfilik Bildirişi</a> ilə razılaşmış olursunuz."
+"Davam etməklə %(serviceName) (%(serviceUri)s) xidmətinin <a id=\"service-"
+"tos\" href=\"%(termsUri)s\">İstifadə Şərtləri</a> və <a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">Məxfilik Bildirişi</a> ilə razılaşmış olursunuz."
 
 #: app/scripts/lib/strings.js:26
 msgid ""
@@ -469,53 +470,60 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:29
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
+msgstr "Firefox-a yeni daxil olmanı təsdiqlə"
 
 #: app/scripts/lib/strings.js:30
 msgid "You signed in to Firefox from %(device)s, %(location)s."
 msgstr ""
+"Firefox-a %(device)s cihazından və %(location)s ünvanından daxil oldunuz."
 
 #: app/scripts/lib/strings.js:31
 msgid "You signed in to Firefox from %(device)s."
-msgstr ""
+msgstr "Firefox-a %(device)s cihazından daxil oldunuz."
 
 #: app/scripts/lib/strings.js:32
 msgid ""
 "For added security, please confirm this sign-in to begin syncing with "
 "%(device)s."
 msgstr ""
+"Əlavə təhlükəsizlik üçün lütfən %(device)s cihazı ilə sinxronizasiya üçün "
+"daxil olmanı təsdiqləyin."
 
 #: app/scripts/lib/strings.js:33
 msgid "Alternatively:"
-msgstr ""
+msgstr "Alternativ:"
 
 #: app/scripts/lib/strings.js:34
 msgid ""
 "This is an automated email; if you received it in error, no action is "
 "required."
 msgstr ""
+"Bu avtomatik e-poçtdur; əgər bunu səhvən aldınızsa bir şey etmənizə ehtiyyac"
+" yoxdur."
 
 #: app/scripts/lib/strings.js:35
 msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
 msgstr ""
+"Daha ətraflı məlumat üçün lütfən <a %(supportLinkAttributes)s>Mozilla "
+"Dəstəyi</a> ziyarət edin"
 
 #: app/scripts/lib/strings.js:36
 msgid "Verify Email"
-msgstr ""
+msgstr "E-poçtu Təsdiqlə"
 
 #: app/scripts/lib/strings.js:37
 msgid "Verify your email to finish your Firefox Account sign-in"
-msgstr ""
+msgstr "Firefox Hesabına daxil olmanı tamamlamaq üçün e-poçtunuzu təsdiqləyin"
 
 #: app/scripts/lib/strings.js:38
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "Daxil olmanı təsdiqlə"
 
 #: app/scripts/lib/strings.js:39
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "Bu daxil olmanı təsdiqlə"
 
 #: app/scripts/lib/strings.js:40
 #: app/scripts/templates/complete_reset_password.mustache:2
@@ -537,6 +545,8 @@ msgid ""
 "To better protect your Firefox data, we've emailed a confirmation link to "
 "%(email)s"
 msgstr ""
+"Firefox məlumatlarınızı daha yaxşı qorumaq üçün %(email)s ünvanına təsdiq "
+"keçidinizi göndərdik"
 
 #: app/scripts/lib/strings.js:43 app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
@@ -557,7 +567,7 @@ msgstr "Geri"
 
 #: app/scripts/lib/strings.js:46
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "Daxil olma təsdiqləndi"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -609,7 +619,7 @@ msgstr "Əlavələr və Nizamlamalar hələlik mobil cihazlarda sinxronlaşdır�
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
-msgstr ""
+msgstr "Tənzimləmələri yadda saxla"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
@@ -719,8 +729,8 @@ msgstr "Kilid açma e-poçtu göndərildi"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification"
+" link sent to %(email)s"
 msgstr ""
 "Təhlükəsizlik səbəbləri üçün hesabınız kilidlənib. Hesab-səviyyəli işləri "
 "edə bilmək üçün, lütfən %(email)s ünvanına göndərilən e-poçtdakı keçidə "
@@ -735,8 +745,8 @@ msgid ""
 "Click on the link we've emailed you at %(email)s within the next hour to "
 "create a new password."
 msgstr ""
-"Önümüzdəki bir saat içində %(email)s ünvanına göndərdiyimiz keçidə klikləyin "
-"və yeni parolu qurun."
+"Önümüzdəki bir saat içində %(email)s ünvanına göndərdiyimiz keçidə klikləyin"
+" və yeni parolu qurun."
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
@@ -752,8 +762,8 @@ msgstr "Çərəzlər və lokal yaddaş tələb edilir."
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between "
-"sessions."
+"Accounts. Doing so will enable functionality such as remembering you between"
+" sessions."
 msgstr ""
 "Lütfən, Firefox Hesablarını istifadə etmək üçün səyyahınızda çərəzləri və "
 "lokal yaddaşı aktivləşdirin. Belə etdiyinizdə sizi sessiyalar arası yadda "
@@ -801,13 +811,13 @@ msgstr "Şifrəni unutmusuz?"
 #: app/scripts/templates/sign_in.mustache:27
 #: app/scripts/templates/sign_up.mustache:17
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
-"Davam etməklə Firefox bulud xidmətləriniz <a id=\"fxa-tos\" href=\"/legal/"
-"terms\">İstifadə Şərtləri</a> və <a id=\"fxa-pp\" href=\"/legal/privacy"
-"\">Məxfilik Bildirişi</a> ilə razılaşmış olursunuz."
+"Davam etməklə Firefox bulud xidmətləriniz <a id=\"fxa-tos\" "
+"href=\"/legal/terms\">İstifadə Şərtləri</a> və <a id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Məxfilik Bildirişi</a> ilə razılaşmış olursunuz."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -909,8 +919,8 @@ msgstr "Parolu unutdum"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
-"When you reset your password, you will lose any Sync data that is not on one "
-"of your devices."
+"When you reset your password, you will lose any Sync data that is not on one"
+" of your devices."
 msgstr ""
 "Parolu sıfırladığınızda cihazlarınızda olmayan Sync məlumatlarını "
 "itirəcəksiz."
@@ -938,7 +948,8 @@ msgstr "%(serviceName)s ilə davam et"
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr ""
-"Firefox&nbsp;Hesabınıza daxil olmaqla sinxronizasiya məlumatlarınızı köçürün."
+"Firefox&nbsp;Hesabınıza daxil olmaqla sinxronizasiya məlumatlarınızı "
+"köçürün."
 
 #: app/scripts/templates/sign_in.mustache:12
 #: app/scripts/templates/sign_in.mustache:15
@@ -961,9 +972,9 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
-msgstr ""
-"Fərqli e-poçtla hesabınız var? <a href=\"%(signinUri)s\">Daxil olun</a>"
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
+"in</a>"
+msgstr "Fərqli e-poçtla hesabınız var? <a href=\"%(signinUri)s\">Daxil olun</a>"
 
 #: app/scripts/templates/sign_up.mustache:18
 #: app/scripts/templates/settings/communication_preferences.mustache:7
@@ -972,7 +983,7 @@ msgstr "Mozilla və Firefox haqqında son xəbərləri əldə edin."
 
 #: app/scripts/templates/sign_up.mustache:24
 msgid "Create account"
-msgstr ""
+msgstr "Hesab yarat"
 
 #: app/scripts/templates/sign_up.mustache:29
 msgid "Have an account? Sign in."
@@ -1068,7 +1079,8 @@ msgstr "Sil"
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid ""
 "Are you sure you want to delete your account? This action cannot be undone."
-msgstr "Hesabınızı silmək istədiyinizə əminsiniz? Bu addım bərpa edilə bilməz."
+msgstr ""
+"Hesabınızı silmək istədiyinizə əminsiniz? Bu addım bərpa edilə bilməz."
 
 #: app/scripts/templates/settings/devices.mustache:2
 msgid "Devices"
@@ -1076,13 +1088,14 @@ msgstr "Cihazlar"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
+"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
 "Firefox <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS "
-"X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</"
-"a> və <a href=\"%(linkLinux)s\">Linux</a> üçün mövcuddur."
+"X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
+"href=\"%(linkIOS)s\">iOS</a> və <a href=\"%(linkLinux)s\">Linux</a> üçün "
+"mövcuddur."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -1153,14 +1166,13 @@ msgstr "Firefox Hesabı işlət"
 #~ msgstr "Hesabınızın parolunu sıfırlamaq istədiyinizdən əminsiniz?"
 
 #~ msgid ""
-#~ "Resetting your password will erase your browsing data from our servers. "
-#~ "Any data on your devices will remain untouched. Begin the reset process "
-#~ "by entering your email below."
+#~ "Resetting your password will erase your browsing data from our servers. Any "
+#~ "data on your devices will remain untouched. Begin the reset process by "
+#~ "entering your email below."
 #~ msgstr ""
-#~ "Parolunuzu sıfırlama serverlərimizdən səyahət məlumatlarınızın "
-#~ "silinməsinə səbər olacaq. Cihazlarınızda olan məlumatlar toxunulmaz "
-#~ "qalacaq. Sıfırlama işini başlatmaq üçün aşağıda e-poçt ünvanınızı daxil "
-#~ "edin."
+#~ "Parolunuzu sıfırlama serverlərimizdən səyahət məlumatlarınızın silinməsinə "
+#~ "səbər olacaq. Cihazlarınızda olan məlumatlar toxunulmaz qalacaq. Sıfırlama "
+#~ "işini başlatmaq üçün aşağıda e-poçt ünvanınızı daxil edin."
 
 #~ msgid "Begin reset"
 #~ msgstr "Sıfırlamağa başla"
@@ -1221,9 +1233,9 @@ msgstr "Firefox Hesabı işlət"
 #~ "Accounts. Cookies are small pieces of data stored in your browser that "
 #~ "provide functionality such as remembering you between sessions."
 #~ msgstr ""
-#~ "Lütfən Firefox Hesabları üçün tələb edilən səyyah çərəzlərinizi aktiv "
-#~ "edin. Çərəzlər sessiyalar arasında sizi tanımaq üçün səyyahda saxlanılan "
-#~ "balaca məlumat parçalarıdırlar."
+#~ "Lütfən Firefox Hesabları üçün tələb edilən səyyah çərəzlərinizi aktiv edin. "
+#~ "Çərəzlər sessiyalar arasında sizi tanımaq üçün səyyahda saxlanılan balaca "
+#~ "məlumat parçalarıdırlar."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox tezliklə iOS-da!"
@@ -1358,9 +1370,9 @@ msgstr "Firefox Hesabı işlət"
 #~ msgstr "Hesab şifrəsini sıfırlamaq üçün e-poçtunuzu daxil edin."
 
 #~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data "
-#~ "from our servers. A new Sync backup will be created from your local "
-#~ "browsing data."
+#~ "For security reasons, resetting your password will erase your Sync data from"
+#~ " our servers. A new Sync backup will be created from your local browsing "
+#~ "data."
 #~ msgstr ""
 #~ "Təhlükəsizlik tədbirləri üçün, şifrənizi sıfırlamaq sizin Sync "
 #~ "məlumatlarınızı bizim serverlərdən siləcək. Lokal səyyah məlumatlarınıza "
@@ -1373,22 +1385,23 @@ msgstr "Firefox Hesabı işlət"
 #~ msgstr "Artıq hesabınız var? Daxil olun."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-#~ "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-#~ "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ "By proceeding, I agree to the <a id=\"service-tos\" "
+#~ "href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
+#~ "href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
-#~ "Davam etməklə %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href="
-#~ "\"%(termsUri)s\">İstifadə Qaydaları</a> və <a id=\"service-pp\" href="
-#~ "\"%(privacyUri)s\">Məxfilik Məlumatı</a> ilə razıyam."
+#~ "Davam etməklə %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" "
+#~ "href=\"%(termsUri)s\">İstifadə Qaydaları</a> və <a id=\"service-pp\" "
+#~ "href=\"%(privacyUri)s\">Məxfilik Məlumatı</a> ilə razıyam."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">Privacy Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
+#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+#~ "Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Davam etməklə, mən Firefox bulud xidmətlərinin <a id=\"fxa-tos\" href=\"/"
-#~ "legal/terms\">İstifadə Şərtləri</a> və <a id=\"fxa-pp\" href=\"/legal/"
-#~ "privacy\">Məxfilik Qeydləri</a> ilə razıyam."
+#~ "Davam etməklə, mən Firefox bulud xidmətlərinin <a id=\"fxa-tos\" "
+#~ "href=\"/legal/terms\">İstifadə Şərtləri</a> və <a id=\"fxa-pp\" "
+#~ "href=\"/legal/privacy\">Məxfilik Qeydləri</a> ilə razıyam."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Firefox xəbər və məsləhətlərinə abunə olun"
