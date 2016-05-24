@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-19 12:15+0000\n"
-"PO-Revision-Date: 2016-05-20 22:40+0000\n"
+"PO-Revision-Date: 2016-05-24 03:05+0000\n"
 "Last-Translator: ბექა არაბული <arabulibeqa@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -244,7 +244,7 @@ msgstr "მცდელობის ზღვარის გადაცელ�
 
 #: app/scripts/lib/auth-errors.js:101
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "მოთხოვნა დაბლოკილია უსაფრთხოების მიზნით"
 
 #: app/scripts/lib/auth-errors.js:109
 msgid "Server busy, try again soon"
@@ -434,7 +434,7 @@ msgstr "აკლია OAuth პარამეტრი: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
-msgstr ""
+msgstr "არასწორი ჟეტონი"
 
 #: app/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"

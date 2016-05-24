@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-19 12:15+0000\n"
-"PO-Revision-Date: 2016-05-06 15:47+0000\n"
-"Last-Translator: Georgianizator <georgianization@outlook.com>\n"
+"PO-Revision-Date: 2016-05-24 03:08+0000\n"
+"Last-Translator: ბექა არაბული <arabulibeqa@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
@@ -45,8 +45,8 @@ msgid ""
 "make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
 "Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
 msgstr ""
-"თქვენ წარმატებით დაამატეთ თქვენი პირველი მოწყობილობა Firefox ანგარიშზე. Sync-"
-"ით სრულყოფილად სარგებლობისთვის, დაუკავშირეთ ნებისმიერი <a "
+"თქვენ წარმატებით დაამატეთ თქვენი პირველი მოწყობილობა Firefox ანგარიშზე. "
+"Sync-ით სრულყოფილად სარგებლობისთვის, დაუკავშირეთ ნებისმიერი <a "
 "href='%(androidUrl)s'>Firefox Android</a> ან <a href='%(iosUrl)s'>Firefox "
 "iOS ვერსია</a>"
 
@@ -173,8 +173,8 @@ msgstr "თქვენი Firefox ანგარიშის პაროლ�
 
 #: templates/password_reset.txt:4
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox"
+" Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 "ეს არის ავტომატური შეტყობინება; თუ Firefox ანგარიშზე თქვენ არ გაგინულებიათ "
 "პაროლი, მაშინ გირჩევთ, ახლავე აღადგინოთ %(resetLink)s-ით."
@@ -185,8 +185,8 @@ msgid ""
 "We detected suspicious activity on your Firefox Account. Your account may "
 "have been compromised."
 msgstr ""
-"თქვენს Firefox ანგარიშზე საეჭვო აქტივობა შევნიშნეთ. თქვენი ანგარიში შესაძლოა "
-"საფრთხეში იყოს."
+"თქვენს Firefox ანგარიშზე საეჭვო აქტივობა შევნიშნეთ. თქვენი ანგარიში შესაძლოა"
+" საფრთხეში იყოს."
 
 #: templates/password_reset_required.html:3
 #: templates/password_reset_required.txt:2
@@ -287,8 +287,8 @@ msgstr "დაგავიწყდათ პაროლი?"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid ""
-"Click the button within the next hour to set a new password for your Firefox "
-"Account."
+"Click the button within the next hour to set a new password for your Firefox"
+" Account."
 msgstr ""
 "დააწკაპეთ ამ ღილაკზე უახლოესი ერთი საათის განმავლობაში, ახალი პაროლის "
 "დასაყენებლად."
@@ -308,8 +308,8 @@ msgid ""
 "may have accessed your Firefox Account."
 msgstr ""
 "უკანასკნელ 60 დღეში ამ ადგილებიდან ხომ არ შემოსულხართ თქვენს Firefox "
-"ანგარიშში? თუ ამ ადგილებს ვერ ცნობთ, შესაძლოა თქვენს Firefox ანგარიშზე სხვას "
-"ჰქონდეს წვდომა."
+"ანგარიშში? თუ ამ ადგილებს ვერ ცნობთ, შესაძლოა თქვენს Firefox ანგარიშზე სხვას"
+" ჰქონდეს წვდომა."
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
@@ -372,9 +372,9 @@ msgstr "კვლავ მოგესალმებით."
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history "
-"on any device connected to it. Simply confirm this email address to activate "
-"your account."
+"verified account lets you access your tabs, bookmarks, passwords and history"
+" on any device connected to it. Simply confirm this email address to "
+"activate your account."
 msgstr ""
 "რამდენიმე დღის წინ, თქვენ უკვე შექმენით Firefox ანგარიში, მაგრამ არ "
 "დაგიმოწმებიათ. დამოწმებული ანგარიშის საშუალებით წვდომა გექნებათ თქვენს "
@@ -405,7 +405,8 @@ msgstr "ელ-ფოსტის დამოწმება"
 #: templates/verification_reminder_first.html:10
 #: templates/verification_reminder_second.html:10 templates/verify.html:10
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr "დაამოწმეთ თქვენი ელ-ფოსტა Firefox ანგარიშის რეგისტრაციის დასასრულებლად"
+msgstr ""
+"დაამოწმეთ თქვენი ელ-ფოსტა Firefox ანგარიშის რეგისტრაციის დასასრულებლად"
 
 #: templates/verification_reminder_first.txt:3
 #: templates/verification_reminder_second.txt:3 templates/verify.txt:3
@@ -417,10 +418,10 @@ msgstr "ახლავე ამოქმედება:"
 #: templates/verify_reminder_second.html:3
 msgid ""
 "A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
-"iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know "
-"you're okay."
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and"
+" iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know"
+" you're okay."
 msgstr ""
 "ერთი კვირის წინ, თქვენ უკვე შექმენით Firefox ანგარიში, მაგრამ არ "
 "დაგიმოწმებიათ, რაც ძალიან გვაღელვებს. Firefox ხელმისაწვდომია Windows, Mac, "
@@ -499,6 +500,8 @@ msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>."
 msgstr ""
+"მეტი ინფორმაციისთვის, გთხოვთ ეწვიეთ <a %(supportLinkAttributes)s>Mozilla "
+"მხარდაჭერას</a>."
 
 #: templates/verification_reminder_second.html:3
 #: templates/verification_reminder_second.txt:2
@@ -507,6 +510,9 @@ msgid ""
 "worried about you. Confirm this email address to activate your account and "
 "let us know you're okay."
 msgstr ""
+"კვირის წინ Firefox ანგარიში შექმენით, რომელიც არ გადაგიმოწმებიათ. თქვენზე "
+"ვნერვიულობთ. დაადასტურეთ ეს ელ-ფოსტა თქვენი ანგარიშის გასააქტიურებლად და "
+"გვანიშნეთ, რომ ყველაფერი რიგზეა."
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid ""
@@ -525,12 +531,16 @@ msgid ""
 "If you suspect that someone is trying to gain access to your account, <a "
 "%(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr ""
+"თუ ეჭვობთ, რომ ვინმე თქვენს ანგარიშზე წვდომის მოპოვებას ცდილობს, <a "
+"%(passwordChangeLinkAttributes)s>გთხოვთ, შეცვალეთ თქვენი პაროლი</a>."
 
 #: templates/verify_login.txt:4
 msgid ""
-"If you suspect that someone is trying to gain access to your account, please "
-"change your password."
+"If you suspect that someone is trying to gain access to your account, please"
+" change your password."
 msgstr ""
+"თუ ეჭვობთ, რომ ვინმე თქვენს ანგარიშზე წვდომის მოპოვებას ცდილობს, გთხოვთ, "
+"შეცვალეთ თქვენი პაროლი."
 
 #: mailer.js:209
 msgid "Confirm new sign-in to Firefox"
@@ -589,11 +599,12 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+"You are using an <strong>outdated</strong> browser. Please <a "
+"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+"experience."
 msgstr ""
-"თქვენ სარგებლობთ <strong>მოძველებული</strong> ბრაუზერით. გთხოვთ, <a href="
-"\"http://browsehappy.com/\">განაახლოთ</a> წარმადობის გასაუმჯობესებლად."
+"თქვენ სარგებლობთ <strong>მოძველებული</strong> ბრაუზერით. გთხოვთ, <a "
+"href=\"http://browsehappy.com/\">განაახლოთ</a> წარმადობის გასაუმჯობესებლად."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -622,11 +633,11 @@ msgstr "მომსახურების პირობები"
 #~ "%(supportLinkAttributes)s>გთხოვთ, გვაცნობოთ</a>."
 
 #~ msgid ""
-#~ "If you suspect that someone is trying to gain access to your account, "
-#~ "please report it to us."
+#~ "If you suspect that someone is trying to gain access to your account, please"
+#~ " report it to us."
 #~ msgstr ""
-#~ "თუ ეჭვობთ, რომ ვიღაც თქვენს ანგარიშთან უნებართვოდ წვდომას ცდილობს, "
-#~ "გთხოვთ, გვაცნობოთ."
+#~ "თუ ეჭვობთ, რომ ვიღაც თქვენს ანგარიშთან უნებართვოდ წვდომას ცდილობს, გთხოვთ, "
+#~ "გვაცნობოთ."
 
 #~ msgid ""
 #~ "A device began syncing with the devices connected to your Firefox Account."
