@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-19 12:15+0000\n"
-"PO-Revision-Date: 2016-05-03 13:25+0200\n"
+"PO-Revision-Date: 2016-05-20 15:40+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -62,7 +62,7 @@ msgstr "Odblokowano konto"
 
 #: app/scripts/views/ready.js:43
 msgid "Welcome back"
-msgstr "Witamy z powrotem"
+msgstr "Witamy z powrotem"
 
 #: app/scripts/views/ready.js:44
 msgid "Firefox Sync will resume momentarily"
@@ -70,7 +70,7 @@ msgstr "Firefox Sync za chwilę wznowi synchronizację"
 
 #: app/scripts/views/ready.js:54
 msgid "Welcome to Sync"
-msgstr "Witamy w usłudze Sync"
+msgstr "Witamy w usłudze Sync"
 
 #: app/scripts/views/ready.js:59
 msgid "Account verified"
@@ -107,7 +107,7 @@ msgstr "Pomyślnie zasubskrybowano"
 
 #: app/scripts/views/settings/communication_preferences.js:117
 msgid "Unsubscribed successfully"
-msgstr "Pomyślnie zrezygnowano z subskrypcji"
+msgstr "Pomyślnie zrezygnowano z subskrypcji"
 
 #: app/scripts/views/settings/delete_account.js:48
 msgid "Account deleted successfully"
@@ -115,27 +115,27 @@ msgstr "Pomyślnie usunięto konto"
 
 #: app/scripts/views/settings/devices.js:25
 msgid "days ago"
-msgstr "W ciągu ostatniego tygodnia"
+msgstr "W ciągu ostatniego tygodnia"
 
 #: app/scripts/views/settings/devices.js:26
 msgid "hours ago"
-msgstr "W ciągu ostatniej doby"
+msgstr "W ciągu ostatniej doby"
 
 #: app/scripts/views/settings/devices.js:27
 msgid "minutes ago"
-msgstr "W ciągu ostatniej godziny"
+msgstr "W ciągu ostatniej godziny"
 
 #: app/scripts/views/settings/devices.js:28
 msgid "months ago"
-msgstr "W ciągu ostatniego roku"
+msgstr "W ciągu ostatniego roku"
 
 #: app/scripts/views/settings/devices.js:29
 msgid "seconds ago"
-msgstr "W ciągu ostatniej minuty"
+msgstr "W ciągu ostatniej minuty"
 
 #: app/scripts/views/settings/devices.js:31
 msgid "weeks ago"
-msgstr "W ciągu ostatniego miesiąca"
+msgstr "W ciągu ostatniego miesiąca"
 
 #: app/scripts/views/settings/devices.js:32
 msgid "years ago"
@@ -155,7 +155,7 @@ msgstr ""
 #: app/scripts/views/mixins/account-reset-mixin.js:42
 #: app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:105
 msgid "Your account has been locked for security reasons"
-msgstr "Konto zostało zablokowane z powodów bezpieczeństwa"
+msgstr "Konto zostało zablokowane z powodów bezpieczeństwa"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43
 #: app/scripts/templates/reset_password.mustache:6
@@ -184,11 +184,11 @@ msgstr "Nieprawidłowy token"
 
 #: app/scripts/lib/auth-errors.js:33
 msgid "Invalid timestamp in request signature"
-msgstr "Nieprawidłowy znacznik czasu w podpisie żądania"
+msgstr "Nieprawidłowy znacznik czasu w podpisie żądania"
 
 #: app/scripts/lib/auth-errors.js:37
 msgid "Invalid nonce in request signature"
-msgstr "Nieprawidłowy znacznik „nonce” w podpisie żądania"
+msgstr "Nieprawidłowy znacznik „nonce” w podpisie żądania"
 
 #: app/scripts/lib/auth-errors.js:41
 msgid "Account already exists"
@@ -200,7 +200,7 @@ msgstr "Nieznane konto"
 
 #: app/scripts/lib/auth-errors.js:49
 msgid "Incorrect email case"
-msgstr "Niepoprawna wielkość liter w adresie e-mail"
+msgstr "Niepoprawna wielkość liter w adresie e-mail"
 
 #: app/scripts/lib/auth-errors.js:53
 msgid "Incorrect password"
@@ -216,15 +216,15 @@ msgstr "Nieprawidłowy kod weryfikacji"
 
 #: app/scripts/lib/auth-errors.js:65
 msgid "Invalid JSON in request body"
-msgstr "Nieprawidłowy kod JSON w treści żądania"
+msgstr "Nieprawidłowy kod JSON w treści żądania"
 
 #: app/scripts/lib/auth-errors.js:69
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "Nieprawidłowy parametr: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:73
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "Brakujący parametr: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
@@ -244,7 +244,7 @@ msgstr "Przekroczono limit prób"
 
 #: app/scripts/lib/auth-errors.js:101
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "Żądanie zostało zablokowane z powodów bezpieczeństwa"
 
 #: app/scripts/lib/auth-errors.js:109
 msgid "Server busy, try again soon"
@@ -282,7 +282,7 @@ msgstr "Działanie…"
 
 #: app/scripts/lib/auth-errors.js:141
 msgid "Could not get Privacy Notice"
-msgstr "Nie można pobrać „Informacji o prywatności”"
+msgstr "Nie można pobrać „Informacji o prywatności”"
 
 #: app/scripts/lib/auth-errors.js:145
 msgid "Could not get Terms of Service"
@@ -297,7 +297,7 @@ msgstr "Nowe hasło musi być inne niż poprzednie"
 #: app/scripts/templates/sign_up.mustache:16
 #: app/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
-msgstr "Musi mieć co najmniej 8 znaków"
+msgstr "Musi mieć co najmniej 8 znaków"
 
 #: app/scripts/lib/auth-errors.js:157
 msgid "Valid password required"
@@ -323,7 +323,7 @@ msgstr "Wymagany jest prawidłowy adres URL"
 #: app/scripts/lib/auth-errors.js:195
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr ""
-"Wiadomość weryfikacyjna została właśnie zwrócona. Błąd w adresie e-mail?"
+"Wiadomość weryfikacyjna została właśnie zwrócona. Błąd w adresie e-mail?"
 
 #: app/scripts/lib/auth-errors.js:203
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -354,7 +354,7 @@ msgstr "Obraz musi mieć co najmniej 100×100 pikseli"
 
 #: app/scripts/lib/auth-errors.js:242
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr "Rejestracja będzie wkrótce dostępna w Firefoksie na iOS"
+msgstr "Rejestracja będzie wkrótce dostępna w Firefoksie na iOS"
 
 #: app/scripts/lib/auth-errors.js:246
 msgid "Signup has been disabled"
@@ -366,7 +366,7 @@ msgstr "Należy podać swój wiek przed zarejestrowaniem"
 
 #: app/scripts/lib/auth-errors.js:254
 msgid "No Gravatar found"
-msgstr "Nie odnaleziono awatara w serwisie Gravatar"
+msgstr "Nie odnaleziono awatara w serwisie Gravatar"
 
 #: app/scripts/lib/auth-errors.js:262
 msgid "Account no longer exists."
@@ -374,11 +374,11 @@ msgstr "Konto już nie istnieje."
 
 #: app/scripts/lib/auth-errors.js:266
 msgid "Invalid property in resume token: %(property)s"
-msgstr "Nieprawidłowa właściwość w tokenie wznowienia: %(property)s"
+msgstr "Nieprawidłowa właściwość w tokenie wznowienia: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:270
 msgid "Missing property in resume token: %(property)s"
-msgstr "Brakująca właściwość w tokenie wznowienia: %(property)s"
+msgstr "Brakująca właściwość w tokenie wznowienia: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:274
 msgid "Invalid data-flow-begin attribute"
@@ -386,7 +386,7 @@ msgstr "Nieprawidłowy atrybut „data-flow-begin”"
 
 #: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
-msgstr "Czy chodziło o <span tabindex=\"1\">%(domain)s</span>?"
+msgstr "Czy chodziło o <span tabindex=\"1\">%(domain)s</span>?"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -426,7 +426,7 @@ msgstr "Zabronione"
 
 #: app/scripts/lib/oauth-errors.js:88
 msgid "Something went wrong. Please close this tab and try again."
-msgstr "Coś się nie powiodło. Proszę zamknąć tę kartę i spróbować ponownie."
+msgstr "Coś się nie powiodło. Proszę zamknąć tę kartę i spróbować ponownie."
 
 #: app/scripts/lib/oauth-errors.js:108
 msgid "Missing OAuth parameter: %(param)s"
@@ -434,11 +434,11 @@ msgstr "Brakujący parametr OAuth: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
-msgstr ""
+msgstr "Nieprawidłowy token"
 
 #: app/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
-msgstr "Nieprawidłowy parametr w treści żądania: %(param)s"
+msgstr "Nieprawidłowy parametr w treści żądania: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:31
 msgid "Unsupported image provider"
@@ -476,19 +476,19 @@ msgstr "Potwierdź nowe logowanie do Firefoksa"
 
 #: app/scripts/lib/strings.js:30
 msgid "You signed in to Firefox from %(device)s, %(location)s."
-msgstr "Zalogowano do Firefoksa z urządzenia %(device)s, %(location)s."
+msgstr "Zalogowano do Firefoksa z urządzenia %(device)s, %(location)s."
 
 #: app/scripts/lib/strings.js:31
 msgid "You signed in to Firefox from %(device)s."
-msgstr "Zalogowano do Firefoksa z urządzenia %(device)s."
+msgstr "Zalogowano do Firefoksa z urządzenia %(device)s."
 
 #: app/scripts/lib/strings.js:32
 msgid ""
 "For added security, please confirm this sign-in to begin syncing with "
 "%(device)s."
 msgstr ""
-"Z powodów bezpieczeństwa prosimy potwierdzić to logowanie, aby zacząć "
-"synchronizację z urządzeniem %(device)s."
+"Z powodów bezpieczeństwa prosimy potwierdzić to logowanie, aby zacząć "
+"synchronizację z urządzeniem %(device)s."
 
 #: app/scripts/lib/strings.js:33
 msgid "Alternatively:"
@@ -507,7 +507,7 @@ msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
 msgstr ""
-"Więcej informacji można znaleźć w <a %(supportLinkAttributes)s>pomocy "
+"Więcej informacji można znaleźć w <a %(supportLinkAttributes)s>pomocy "
 "Mozilli</a>"
 
 #: app/scripts/lib/strings.js:36
@@ -617,7 +617,7 @@ msgstr "Preferencje"
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
 msgstr ""
-"Dodatki i preferencje nie są obecnie synchronizowane na urządzeniach "
+"Dodatki i preferencje nie są obecnie synchronizowane na urządzeniach "
 "mobilnych."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
@@ -639,8 +639,8 @@ msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
 msgstr ""
-"W klikniętym odnośniku brakuje znaków. Mógł on zostać uszkodzony przez "
-"klienta poczty. Starannie skopiuj adres i spróbuj ponownie."
+"W klikniętym odnośniku brakuje znaków. Mógł on zostać uszkodzony przez "
+"klienta poczty. Starannie skopiuj adres i spróbuj ponownie."
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
@@ -677,7 +677,7 @@ msgstr ""
 #: app/scripts/templates/complete_reset_password.mustache:11
 #: app/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
-msgstr "Więcej informacji o synchronizacji."
+msgstr "Więcej informacji o synchronizacji."
 
 #: app/scripts/templates/complete_reset_password.mustache:13
 #: app/scripts/templates/settings/change_password.mustache:7
@@ -735,7 +735,7 @@ msgid ""
 "level activities, please re-verify your account by clicking the verification "
 "link sent to %(email)s"
 msgstr ""
-"Konto zostało zablokowane z powodów bezpieczeństwa. Należy ponownie "
+"Konto zostało zablokowane z powodów bezpieczeństwa. Należy ponownie "
 "zweryfikować konto klikając odnośnik weryfikacyjny wysłany na adres "
 "„%(email)s”"
 
@@ -748,7 +748,7 @@ msgid ""
 "Click on the link we've emailed you at %(email)s within the next hour to "
 "create a new password."
 msgstr ""
-"Kliknij odnośnik wysłany do %(email)s w ciągu godziny, aby utworzyć nowe "
+"Kliknij odnośnik wysłany do %(email)s w ciągu godziny, aby utworzyć nowe "
 "hasło."
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
@@ -760,7 +760,7 @@ msgstr "Pamiętasz hasło? Zaloguj się."
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
-msgstr "Wymagana jest obsługa ciasteczek i lokalnego przechowywania danych."
+msgstr "Wymagana jest obsługa ciasteczek i lokalnego przechowywania danych."
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -768,8 +768,8 @@ msgid ""
 "Accounts. Doing so will enable functionality such as remembering you between "
 "sessions."
 msgstr ""
-"Proszę włączyć obsługę ciasteczek i lokalnego przechowywania danych w "
-"przeglądarce, aby uzyskać dostęp do konta Firefoksa. Dzięki temu włączona "
+"Proszę włączyć obsługę ciasteczek i lokalnego przechowywania danych "
+"w przeglądarce, aby uzyskać dostęp do konta Firefoksa. Dzięki temu włączona "
 "zostanie funkcja zapamiętywania użytkownika między sesjami."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
@@ -840,7 +840,7 @@ msgstr "Regulamin usługi"
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
 #: app/scripts/templates/settings.mustache:6
 msgid "Privacy Notice"
-msgstr "Informacje o prywatności"
+msgstr "Informacje o prywatności"
 
 #: app/scripts/templates/marketing_snippet.mustache:1
 msgid "Stay in sync on the go:"
@@ -880,7 +880,7 @@ msgstr "Żądanie uprawnienia"
 #: app/scripts/templates/permissions.mustache:2
 #: app/scripts/templates/settings/gravatar_permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr "Usługa %(serviceName)s prosi o następujące informacje z konta:"
+msgstr "Usługa %(serviceName)s prosi o następujące informacje z konta:"
 
 #: app/scripts/templates/permissions.mustache:3
 #: app/scripts/templates/settings/gravatar_permissions.mustache:4
@@ -950,7 +950,7 @@ msgstr "Przejdź do usługi %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr "Przenieś dane synchronizacji logując w Koncie&nbsp;Firefoksa."
+msgstr "Przenieś dane synchronizacji logując w Koncie&nbsp;Firefoksa."
 
 #: app/scripts/templates/sign_in.mustache:12
 #: app/scripts/templates/sign_in.mustache:15
@@ -974,13 +974,13 @@ msgstr "Przenieś dane synchronizacji tworząc konto&nbsp;Firefoksa."
 msgid ""
 "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 msgstr ""
-"Masz już konto z innym adresem e-mail? <a href=\"%(signinUri)s\">Zaloguj "
+"Masz już konto z innym adresem e-mail? <a href=\"%(signinUri)s\">Zaloguj "
 "się</a>"
 
 #: app/scripts/templates/sign_up.mustache:18
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr "Najnowsze aktualności o Mozilli i Firefoksie."
+msgstr "Najnowsze aktualności o Mozilli i Firefoksie."
 
 #: app/scripts/templates/sign_up.mustache:24
 msgid "Create account"
@@ -1035,7 +1035,7 @@ msgstr "Gotowe"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
-msgstr "Można zmieniać ułożenie i obracać obraz"
+msgstr "Można zmieniać ułożenie i obracać obraz"
 
 #: app/scripts/templates/settings/avatar_gravatar.mustache:2
 msgid "Save"
@@ -1063,7 +1063,7 @@ msgstr "Preferencje e-mail"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:10
 msgid "Unsubscribe"
-msgstr "Zrezygnuj z subskrypcji"
+msgstr "Zrezygnuj z subskrypcji"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:12
 msgid "Subscribe"
@@ -1095,7 +1095,7 @@ msgid ""
 msgstr ""
 "Firefox jest dostępny dla systemów <a href=\"%(linkWindows)s\">Windows</a>, "
 "<a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, "
-"<a href=\"%(linkIOS)s\">iOS</a> i <a href=\"%(linkLinux)s\">Linux</a>."
+"<a href=\"%(linkIOS)s\">iOS</a> i <a href=\"%(linkLinux)s\">Linux</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -1122,7 +1122,7 @@ msgid ""
 "Choose the name you would like to appear in Firefox and when managing your "
 "account."
 msgstr ""
-"Wybrana nazwa będzie wyświetlana w Firefoksie i podczas zarządzania kontem."
+"Wybrana nazwa będzie wyświetlana w Firefoksie i podczas zarządzania kontem."
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1137,8 +1137,8 @@ msgid ""
 "Choose the account you would like to use to sync your tabs, bookmarks, "
 "passwords and more."
 msgstr ""
-"Wybierz konto, którego używać do synchronizowania kart, zakładek, haseł i "
-"innych informacji."
+"Wybierz konto, którego używać do synchronizowania kart, zakładek, haseł "
+"i innych informacji."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
@@ -1147,6 +1147,3 @@ msgstr "Użyj OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Użyj konta Firefoksa"
-
-#~ msgid "Missing parameter in request body: %(param)s"
-#~ msgstr "Brakujący parametr w treści żądania: %(param)s"
