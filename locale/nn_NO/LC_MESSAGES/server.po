@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-19 12:15+0000\n"
-"PO-Revision-Date: 2016-05-23 17:38+0000\n"
+"PO-Revision-Date: 2016-05-28 13:01+0000\n"
 "Last-Translator: bjorn.svindseth <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -184,7 +184,7 @@ msgstr ""
 #: templates/password_reset_required.html:4
 #: templates/password_reset_required.txt:3
 msgid "What should you do?"
-msgstr ""
+msgstr "Kva bør du gjera?"
 
 #: templates/password_reset_required.html:5
 #: templates/password_reset_required.txt:4
@@ -298,11 +298,11 @@ msgstr "Plassering:"
 
 #: templates/suspicious_location.html:6 templates/suspicious_location.txt:5
 msgid "If you don’t recognize the activity above:"
-msgstr ""
+msgstr "Om du ikkje kjenner igjen aktiviteten ovanfor:"
 
 #: templates/suspicious_location.html:10 templates/suspicious_location.txt:9
 msgid "Why are you receiving this email?"
-msgstr ""
+msgstr "Kvifor får du denne e-posten?"
 
 #: templates/suspicious_location.html:11 templates/suspicious_location.txt:10
 msgid ""
@@ -312,7 +312,7 @@ msgstr ""
 
 #: templates/unlock.html:2
 msgid "Account activity notice"
-msgstr ""
+msgstr "Kontoaktivitetsmerknad"
 
 #: templates/unlock.html:3 templates/unlock.txt:1
 msgid ""
@@ -396,24 +396,24 @@ msgstr ""
 
 #: config.js:146 config.js:151
 msgid "env"
-msgstr ""
+msgstr "env"
 
 #: config.js:159 config.js:160 config.js:161 config.js:162 config.js:163
 #: config.js:164
 msgid "contentServer.url"
-msgstr ""
+msgstr "contentServer.url"
 
 #: log.js:7
 msgid "logging"
-msgstr ""
+msgstr "logging"
 
 #: mailer.js:168 mailer.js:171
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "Stadfest Firefox-kontoen din"
 
 #: mailer.js:201 mailer.js:244
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "Tilbakestill passordet for Firefox-kontoen din"
 
 #: mailer.js:236 mailer.js:278
 msgid "Re-verify your Firefox Account"
