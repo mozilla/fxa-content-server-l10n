@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-19 12:15+0000\n"
-"PO-Revision-Date: 2016-05-28 13:01+0000\n"
+"PO-Revision-Date: 2016-05-28 13:19+0000\n"
 "Last-Translator: bjorn.svindseth <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -190,7 +190,7 @@ msgstr "Kva bør du gjera?"
 #: templates/password_reset_required.txt:4
 #: templates/suspicious_location.html:7 templates/suspicious_location.txt:6
 msgid "First, change your Firefox Account password."
-msgstr ""
+msgstr "Fyrst endrar du passordet for Firefox-kontoen din."
 
 #: templates/password_reset_required.html:6
 #: templates/password_reset_required.txt:5
@@ -417,15 +417,15 @@ msgstr "Tilbakestill passordet for Firefox-kontoen din"
 
 #: mailer.js:236 mailer.js:278
 msgid "Re-verify your Firefox Account"
-msgstr ""
+msgstr "Stadfest Firefox-kontoen din på nytt"
 
 #: mailer.js:269 mailer.js:299
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "Passordet for Firefox-kontoen din er endra"
 
 #: mailer.js:291 mailer.js:321
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "Passordet til Firefox-kontoen din er endra"
 
 #: mailer.js:313 mailer.js:342
 msgid "Firefox Account password reset required"
@@ -433,7 +433,7 @@ msgstr ""
 
 #: mailer.js:366 mailer.js:395
 msgid "Firefox Account Verified"
-msgstr ""
+msgstr "Firefox-kontoen stadfesta"
 
 #: mailer.js:401 mailer.js:429
 msgid "Suspicious activity with your Firefox Account"
@@ -473,7 +473,7 @@ msgstr ""
 
 #: templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "Stadfest innlogging"
 
 #: templates/verify_login.html:6
 msgid ""
@@ -489,7 +489,7 @@ msgstr ""
 
 #: mailer.js:209
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
+msgstr "Stadfest ny innlogging på Firefox"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
