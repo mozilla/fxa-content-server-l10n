@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-19 12:15+0000\n"
-"PO-Revision-Date: 2016-05-28 13:18+0000\n"
+"PO-Revision-Date: 2016-05-29 23:36+0000\n"
 "Last-Translator: bjorn.svindseth <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -385,63 +385,63 @@ msgstr ""
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
-msgstr ""
+msgstr "Ukjend klient"
 
 #: app/scripts/lib/oauth-errors.js:30
 msgid "Incorrect redirect_uri"
-msgstr ""
+msgstr "Ukorrekt redirect_uri"
 
 #: app/scripts/lib/oauth-errors.js:34
 msgid "Invalid assertion"
-msgstr ""
+msgstr "Ugyldig påstand"
 
 #: app/scripts/lib/oauth-errors.js:38
 msgid "Unknown code"
-msgstr ""
+msgstr "Ukjend kode"
 
 #: app/scripts/lib/oauth-errors.js:42
 msgid "Incorrect code"
-msgstr ""
+msgstr "Ukorrekt kode"
 
 #: app/scripts/lib/oauth-errors.js:46
 msgid "Expired code"
-msgstr ""
+msgstr "Utgått kode"
 
 #: app/scripts/lib/oauth-errors.js:54 app/scripts/lib/oauth-errors.js:76
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Ugyldig OAuth parameter: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
-msgstr ""
+msgstr "Uautorisert"
 
 #: app/scripts/lib/oauth-errors.js:66
 msgid "Forbidden"
-msgstr ""
+msgstr "Forbode"
 
 #: app/scripts/lib/oauth-errors.js:88
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "Noko gjekk gale. Lat att fana og prøv på nytt."
 
 #: app/scripts/lib/oauth-errors.js:108
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Manglande OAuth parameter: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
-msgstr ""
+msgstr "Ugyldig token"
 
 #: app/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
-msgstr ""
+msgstr "Ugyldig parameter i førespurnadsinnhald: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:31
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "Bildeleverandøren er ikkje støtta"
 
 #: app/scripts/lib/profile-errors.js:35
 msgid "Image processing error"
-msgstr ""
+msgstr "Bildebehandlingsfel"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
@@ -463,15 +463,15 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:29
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
+msgstr "Stadfest ny innlogging på Firefox"
 
 #: app/scripts/lib/strings.js:30
 msgid "You signed in to Firefox from %(device)s, %(location)s."
-msgstr ""
+msgstr "Du logga inn på Firefox frå %(device)s, %(location)s."
 
 #: app/scripts/lib/strings.js:31
 msgid "You signed in to Firefox from %(device)s."
-msgstr ""
+msgstr "Du logga inn på Firefox frå %(device)s."
 
 #: app/scripts/lib/strings.js:32
 msgid ""
