@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-19 12:15+0000\n"
-"PO-Revision-Date: 2016-05-30 07:02+0000\n"
+"PO-Revision-Date: 2016-05-30 07:04+0000\n"
 "Last-Translator: alamanda <dian.ina@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -544,6 +544,8 @@ msgid ""
 "To better protect your Firefox data, we've emailed a confirmation link to "
 "%(email)s"
 msgstr ""
+"Untuk melindungi data Firefox Anda dengan lebih baik, kami mengirimkan surel"
+" berisi tautan konfirmasi ke %(email)s"
 
 #: app/scripts/lib/strings.js:43 app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
@@ -564,7 +566,7 @@ msgstr "Kembali"
 
 #: app/scripts/lib/strings.js:46
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "Proses masuk dikonfirmasi"
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -616,7 +618,7 @@ msgstr "Pengaya dan Preferensi saat ini tidak sinkron pada perangkat mobile."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
-msgstr ""
+msgstr "Simpan pengaturan"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
@@ -980,7 +982,7 @@ msgstr "Dapatkan berita terkini tentang Mozilla dan Firefox."
 
 #: app/scripts/templates/sign_up.mustache:24
 msgid "Create account"
-msgstr ""
+msgstr "Buat akun"
 
 #: app/scripts/templates/sign_up.mustache:29
 msgid "Have an account? Sign in."
