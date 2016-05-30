@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-19 12:15+0000\n"
-"PO-Revision-Date: 2016-05-30 07:56+0000\n"
+"PO-Revision-Date: 2016-05-30 08:31+0000\n"
 "Last-Translator: alamanda <dian.ina@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -539,10 +539,12 @@ msgid ""
 "If you suspect that someone is trying to gain access to your account, please"
 " change your password."
 msgstr ""
+"Jika Anda mencurigai seseorang berusaha mendapatkan akses ke akun Anda, "
+"silakan ubah kata sandi Anda."
 
 #: mailer.js:209
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
+msgstr "Konfirmasi proses masuk baru ke Firefox"
 
 #: server/templates/pages/src/400.html:2
 msgid "Bad Request"
