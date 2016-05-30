@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-19 12:15+0000\n"
-"PO-Revision-Date: 2016-05-30 05:24+0000\n"
+"PO-Revision-Date: 2016-05-30 07:02+0000\n"
 "Last-Translator: alamanda <dian.ina@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -510,19 +510,19 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:36
 msgid "Verify Email"
-msgstr ""
+msgstr "Verifikasi Surel"
 
 #: app/scripts/lib/strings.js:37
 msgid "Verify your email to finish your Firefox Account sign-in"
-msgstr ""
+msgstr "Verifikasi surel Anda untuk menyelesaikan masuk ke Firefox Account"
 
 #: app/scripts/lib/strings.js:38
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "Mengkonfirmasi masuk"
 
 #: app/scripts/lib/strings.js:39
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "Mengkonfirmasi proses masuk ini"
 
 #: app/scripts/lib/strings.js:40
 #: app/scripts/templates/complete_reset_password.mustache:2
