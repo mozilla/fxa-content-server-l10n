@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-31 04:13+0000\n"
-"PO-Revision-Date: 2016-05-19 17:09+0000\n"
-"Last-Translator: bychek.ru <a@bychek.ru>\n"
+"PO-Revision-Date: 2016-05-31 09:02+0000\n"
+"Last-Translator: Victor Bychek <a@bychek.ru>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -361,17 +361,19 @@ msgstr "Подтвердить новый вход в Firefox"
 
 #: templates/password_changed.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr ""
+msgstr "Это письмо создано автоматически; если вы не выполняли это действие, то, пожалуйста, <a %(resetLinkAttributes)s>смените свой пароль</a>."
 
 #: templates/password_reset.html:3
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+msgstr "Пароль вашего Firefox аккаунта изменился. Если вы его не меняли, пожалуйста, <a %(resetLinkAttributes)s>сбросьте ваш пароль</a> сейчас."
 
 #: templates/post_verify.html:3
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
+"Вы успешно подключили ваше первое устройство к Firefox аккаунту. Теперь вы можете войти в синхронизацию с других устройств, включая Firefox для <a %(androidLinkAttributes)s>Android</a> и <a "
+"%(iosLinkAttributes)s>iOS</a>."
 
 #: templates/verification_reminder_second.html:3 templates/verification_reminder_second.txt:2
 msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
