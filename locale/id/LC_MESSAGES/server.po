@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-31 04:13+0000\n"
-"PO-Revision-Date: 2016-05-31 05:09+0000\n"
+"PO-Revision-Date: 2016-05-31 05:11+0000\n"
 "Last-Translator: Timothy Aditya Sutantyo <timisutantyo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -550,6 +550,8 @@ msgid ""
 "Your Firefox Account password has changed. If you did not change it, please "
 "<a %(resetLinkAttributes)s>reset your password</a> now."
 msgstr ""
+"Kata sandi Akun Firefox Anda diubah. Jika Anda tidak mengubahnya, <a "
+"%(resetLinkAttributes)s> silahkan setel ulang kata sandi Anda </a>."
 
 #: templates/post_verify.html:3
 msgid ""
@@ -557,6 +559,10 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for <a "
 "%(androidLinkAttributes)s>Android</a> and <a %(iosLinkAttributes)s>iOS</a>."
 msgstr ""
+"Anda sukses menghubungkan perangkat pertama Anda dengan Akun Firefox Anda. "
+"Sekarang Anda dapat masuk untuk sinkronisasi dari perangkat lainnya, "
+"termasuk Firefox untuk <a %(androidLinkAttributes)s>Android</a> dan <a "
+"%(iosLinkAttributes)s>iOS</a>."
 
 #: templates/verification_reminder_second.html:3
 #: templates/verification_reminder_second.txt:2
