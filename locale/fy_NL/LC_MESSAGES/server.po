@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-31 04:13+0000\n"
-"PO-Revision-Date: 2016-05-20 07:31+0000\n"
+"PO-Revision-Date: 2016-05-31 06:19+0000\n"
 "Last-Translator: fryskefirefox <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -15,40 +15,29 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444998452.0\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2
-#: templates/verification_reminder_second.txt:1
-#: templates/verify_reminder_second.html:2 mailer.js:416 mailer.js:444
-#: mailer.js:455
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 templates/verify_reminder_second.html:2 mailer.js:416 mailer.js:444 mailer.js:455
 msgid "Still there?"
 msgstr "Binne jo der noch?"
 
 #: templates/_pending.txt:2
-msgid ""
-"A while ago you created a Firefox Account, but never verified it. Click the "
-"link below to activate your account."
-msgstr ""
-"Jo hawwe al efkes lyn in Firefox-account oanmakke, mar nea ferifiearre. Klik "
-"op de ûndersteande keppeling om jo account te aktivearjen."
+msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
+msgstr "Jo hawwe al efkes lyn in Firefox-account oanmakke, mar nea ferifiearre. Klik op de ûndersteande keppeling om jo account te aktivearjen."
 
 #: templates/_pending.txt:3 templates/post_verify.html:3
 msgid ""
-"You successfully connected your first device to your Firefox Account. Now "
-"you can sign in to Sync from your other devices, including Firefox for <a "
-"href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
+"You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
+"href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Jo hawwe jo earste apparaat mei sukses oan jo Firefox-account keppele. Jo "
-"kinne jo no oanmelde by Sync fan jo oare apparaten ôf, wêrûnder Firefox foar "
-"<a href='%(androidUrl)s'>Android</a> en <a href='%(iosUrl)s'>iOS</a>."
+"Jo hawwe jo earste apparaat mei sukses oan jo Firefox-account keppele. Jo kinne jo no oanmelde by Sync fan jo oare apparaten ôf, wêrûnder Firefox foar <a href='%(androidUrl)s'>Android</a> en <a "
+"href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To "
-"make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
-"Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
-"Jo hawwe jo earste apparaat mei sukses oan jo Firefox-account keppele. "
-"Keppel <a href='%(androidUrl)s'>Firefox foar Android</a> of <a "
-"href='%(iosUrl)s'>Firefox foar iOS</a> om it measte út Sync te heljen."
+"Jo hawwe jo earste apparaat mei sukses oan jo Firefox-account keppele. Keppel <a href='%(androidUrl)s'>Firefox foar Android</a> of <a href='%(iosUrl)s'>Firefox foar iOS</a> om it measte út Sync te "
+"heljen."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -58,65 +47,32 @@ msgstr "Noch in apparaat keppelje"
 msgid "Sign in to Sync"
 msgstr "Oanmelde by Sync"
 
-#: templates/new_device_login.html:1 templates/password_changed.html:1
-#: templates/password_reset.html:1 templates/password_reset_required.html:1
-#: templates/post_verify.html:1 templates/reset.html:1
-#: templates/suspicious_location.html:1 templates/unlock.html:1
-#: templates/verification_reminder_first.html:1
-#: templates/verification_reminder_second.html:1 templates/verify.html:1
-#: templates/verify_reminder_first.html:1
-#: templates/verify_reminder_second.html:1 templates/verify_login.html:1
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
-#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
-#: server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
+#: templates/new_device_login.html:1 templates/password_changed.html:1 templates/password_reset.html:1 templates/password_reset_required.html:1 templates/post_verify.html:1 templates/reset.html:1
+#: templates/suspicious_location.html:1 templates/unlock.html:1 templates/verification_reminder_first.html:1 templates/verification_reminder_second.html:1 templates/verify.html:1
+#: templates/verify_reminder_first.html:1 templates/verify_reminder_second.html:1 templates/verify_login.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1
-#: mailer.js:338 templates/verify_login.html:2 templates/verify_login.txt:1
-#: mailer.js:367 mailer.js:374
+#: templates/new_device_login.html:2 templates/new_device_login.txt:1 mailer.js:338 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:367 mailer.js:374
 msgid "New sign-in to Firefox"
 msgstr "Nije oanmelding by Firefox"
 
 #: templates/new_device_login.html:3 templates/password_changed.html:4
-msgid ""
-"This is an automated email; if you did not authorize this action, then <a "
-"%(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr ""
-"Dit is in automatisearre e-mailberjocht; as jo dizze aksje net autorisearre "
-"hawwe, <a %(passwordChangeLinkAttributes)s>wizigje dan jo wachtwurd.</a>"
+msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
+msgstr "Dit is in automatisearre e-mailberjocht; as jo dizze aksje net autorisearre hawwe, <a %(passwordChangeLinkAttributes)s>wizigje dan jo wachtwurd.</a>"
 
-#: templates/new_device_login.html:4 templates/password_changed.html:5
-#: templates/password_reset.html:5 templates/post_verify.html:7
-#: templates/reset.html:8 templates/unlock.html:7
-#: templates/verification_reminder_first.html:7
-#: templates/verification_reminder_second.html:7 templates/verify.html:7
-#: templates/verify_reminder_first.html:7
-#: templates/verify_reminder_second.html:7
-msgid ""
-"For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
-"Support</a>"
-msgstr ""
-"Besykje <a %(supportLinkAttributes)s>Mozilla Support</a> foar mear "
-"ynformaasje"
+#: templates/new_device_login.html:4 templates/password_changed.html:5 templates/password_reset.html:5 templates/post_verify.html:7 templates/reset.html:8 templates/unlock.html:7
+#: templates/verification_reminder_first.html:7 templates/verification_reminder_second.html:7 templates/verify.html:7 templates/verify_reminder_first.html:7 templates/verify_reminder_second.html:7
+msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>"
+msgstr "Besykje <a %(supportLinkAttributes)s>Mozilla Support</a> foar mear ynformaasje"
 
 #: templates/new_device_login.txt:2
-msgid ""
-"This is an automated email; if you didn't add a new device to your Firefox "
-"Account, you should change your password immediately at %(resetLink)s."
-msgstr ""
-"Dit is in automatisearre e-mailberjocht; as jo gjin nij apparaat oan jo "
-"Firefox-account tafoege hawwe, moatte jo daliks jo wachtwurd wizigje op "
-"%(resetLink)s."
+msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(resetLink)s."
+msgstr "Dit is in automatisearre e-mailberjocht; as jo gjin nij apparaat oan jo Firefox-account tafoege hawwe, moatte jo daliks jo wachtwurd wizigje op %(resetLink)s."
 
-#: templates/new_device_login.txt:3 templates/password_changed.txt:4
-#: templates/password_reset.txt:5 templates/post_verify.txt:5
-#: templates/reset.txt:6 templates/unlock.txt:4
-#: templates/verification_reminder_first.txt:5
-#: templates/verification_reminder_second.txt:5 templates/verify.txt:5
-#: templates/password_reset.txt:4
+#: templates/new_device_login.txt:3 templates/password_changed.txt:4 templates/password_reset.txt:5 templates/post_verify.txt:5 templates/reset.txt:6 templates/unlock.txt:4
+#: templates/verification_reminder_first.txt:5 templates/verification_reminder_second.txt:5 templates/verify.txt:5 templates/password_reset.txt:4
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Besykje %(supportUrl)s foar mear ynformaasje"
 
@@ -129,41 +85,22 @@ msgid "Your Firefox Account password has been successfully changed."
 msgstr "Jo Firefox-accountwachtwurd is mei sukses wizige."
 
 #: templates/password_changed.txt:3
-msgid ""
-"This is an automated email; if you didn’t change the password to your "
-"Firefox Account, you should reset it immediately at %(resetLink)s."
-msgstr ""
-"Dit is in automatisearre e-mailberjocht; as jou it wachtwurd foar jo Firefox-"
-"account net wizige hawwe, moatte jo it daliks opnij ynstelle op "
-"%(resetLink)s."
+msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
+msgstr "Dit is in automatisearre e-mailberjocht; as jou it wachtwurd foar jo Firefox-account net wizige hawwe, moatte jo it daliks opnij ynstelle op %(resetLink)s."
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
 msgstr "Jo wachtwurd is opnij ynsteld"
 
 #: templates/password_reset.html:3 templates/password_reset.txt:3
-msgid ""
-"Your Firefox Account password has changed. If you did not change it, please "
-"<a href='%(resetLink)s'>reset your password</a> now."
-msgstr ""
-"Jo wachtwurd fan it Firefox-account is wizige. As jo it net wizige hawwe, <a "
-"href='%(resetLink)s'>wizigje dan jo wachtwurd</a> no."
+msgid "Your Firefox Account password has changed. If you did not change it, please <a href='%(resetLink)s'>reset your password</a> now."
+msgstr "Jo wachtwurd fan it Firefox-account is wizige. As jo it net wizige hawwe, <a href='%(resetLink)s'>wizigje dan jo wachtwurd</a> no."
 
-#: templates/password_reset.html:4 templates/post_verify.html:6
-#: templates/post_verify.txt:4 templates/reset.html:7 templates/reset.txt:5
-#: templates/unlock.html:6 templates/unlock.txt:3
-#: templates/verification_reminder_first.html:6
-#: templates/verification_reminder_first.txt:4
-#: templates/verification_reminder_second.html:6
-#: templates/verification_reminder_second.txt:4 templates/verify.html:6
-#: templates/verify.txt:4 templates/verify_reminder_first.html:6
-#: templates/verify_reminder_second.html:6
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"Dit is in automatysk e-mailberjocht; as jo it troch fersin ûntfongen hawwe, "
-"hoege jo neat te dwaan."
+#: templates/password_reset.html:4 templates/post_verify.html:6 templates/post_verify.txt:4 templates/reset.html:7 templates/reset.txt:5 templates/unlock.html:6 templates/unlock.txt:3
+#: templates/verification_reminder_first.html:6 templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:6 templates/verification_reminder_second.txt:4
+#: templates/verify.html:6 templates/verify.txt:4 templates/verify_reminder_first.html:6 templates/verify_reminder_second.html:6
+msgid "This is an automated email; if you received it in error, no action is required."
+msgstr "Dit is in automatysk e-mailberjocht; as jo it troch fersin ûntfongen hawwe, hoege jo neat te dwaan."
 
 #: templates/password_reset.txt:1
 msgid "Password reset successfully"
@@ -174,87 +111,49 @@ msgid "Your Firefox Account password has been successfully reset."
 msgstr "Jo Firefox-accountwachtwurd is mei sukses opnij ynsteld."
 
 #: templates/password_reset.txt:4 templates/password_reset.txt:3
-msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
-msgstr ""
-"Dit is in automatisearre e-mailberjocht; as jo it wachtwurd foar jo Firefox-"
-"account net opnij ynsteld hawwe, moatte jo it daliks opnij ynstelle op "
-"%(resetLink)s."
+msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
+msgstr "Dit is in automatisearre e-mailberjocht; as jo it wachtwurd foar jo Firefox-account net opnij ynsteld hawwe, moatte jo it daliks opnij ynstelle op %(resetLink)s."
 
-#: templates/password_reset_required.html:2
-#: templates/password_reset_required.txt:1
-msgid ""
-"We detected suspicious activity on your Firefox Account. Your account may "
-"have been compromised."
-msgstr ""
-"Wy hawwe op jo Firefox-account fertochte aktiviteiten ûntdekt. Jo account "
-"kin skeind wêze."
+#: templates/password_reset_required.html:2 templates/password_reset_required.txt:1
+msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
+msgstr "Wy hawwe op jo Firefox-account fertochte aktiviteiten ûntdekt. Jo account kin skeind wêze."
 
-#: templates/password_reset_required.html:3
-#: templates/password_reset_required.txt:2
-msgid ""
-"To prevent further unauthorized access to your Firefox Account, we’ve reset "
-"your password and are notifying you as a precaution."
-msgstr ""
-"Om fierdere net autorisearre tagong ta jo Firefox-account foar te kommen, "
-"hawwe wy jo wachtwurd opnij ynsteld en melde dat jo as foarsoarchsmaatregel."
+#: templates/password_reset_required.html:3 templates/password_reset_required.txt:2
+msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
+msgstr "Om fierdere net autorisearre tagong ta jo Firefox-account foar te kommen, hawwe wy jo wachtwurd opnij ynsteld en melde dat jo as foarsoarchsmaatregel."
 
-#: templates/password_reset_required.html:4
-#: templates/password_reset_required.txt:3
+#: templates/password_reset_required.html:4 templates/password_reset_required.txt:3
 msgid "What should you do?"
 msgstr "Wat moatte jo dwaan?"
 
-#: templates/password_reset_required.html:5
-#: templates/password_reset_required.txt:4 templates/suspicious_location.html:7
-#: templates/suspicious_location.txt:6
+#: templates/password_reset_required.html:5 templates/password_reset_required.txt:4 templates/suspicious_location.html:7 templates/suspicious_location.txt:6
 msgid "First, change your Firefox Account password."
 msgstr "As earste, stel jo Firefox-accountwachtwurd opnij yn."
 
-#: templates/password_reset_required.html:6
-#: templates/password_reset_required.txt:5 templates/suspicious_location.html:8
-#: templates/suspicious_location.txt:7
+#: templates/password_reset_required.html:6 templates/password_reset_required.txt:5 templates/suspicious_location.html:8 templates/suspicious_location.txt:7
 msgid ""
-"Second, if Firefox stores passwords to websites, you should change those "
-"passwords as well. Attackers may have access to those passwords, so you "
-"should check those accounts for suspicious activity."
+"Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 msgstr ""
-"As Firefox wachtwurden foar websites bewarret, moatte jo dizze wachtwurden "
-"ek wizigje. Oanfallers kinne tagong ta de wachtwurden krigen hawwe, dus "
-"kontrolearje ek de bybehearrende accounts op fertochte aktiviteit."
+"As Firefox wachtwurden foar websites bewarret, moatte jo dizze wachtwurden ek wizigje. Oanfallers kinne tagong ta de wachtwurden krigen hawwe, dus kontrolearje ek de bybehearrende accounts op "
+"fertochte aktiviteit."
 
-#: templates/password_reset_required.html:7
-#: templates/password_reset_required.txt:6 templates/suspicious_location.html:9
-#: templates/suspicious_location.txt:8
+#: templates/password_reset_required.html:7 templates/password_reset_required.txt:6 templates/suspicious_location.html:9 templates/suspicious_location.txt:8
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "Lês hoe't jo sjen kinne hokker wachtwurden Firefox foar jo bewarret."
 
-#: templates/password_reset_required.html:8
-#: templates/password_reset_required.txt:7
-#: templates/suspicious_location.html:12 templates/suspicious_location.txt:11
+#: templates/password_reset_required.html:8 templates/password_reset_required.txt:7 templates/suspicious_location.html:12 templates/suspicious_location.txt:11
 msgid "Best,"
 msgstr "Freonlike groetnis,"
 
-#: templates/password_reset_required.html:9
-#: templates/password_reset_required.txt:8
-#: templates/suspicious_location.html:13 templates/suspicious_location.txt:12
+#: templates/password_reset_required.html:9 templates/password_reset_required.txt:8 templates/suspicious_location.html:13 templates/suspicious_location.txt:12
 msgid "The Firefox Accounts team"
 msgstr "It Firefox Accounts-team"
 
-#: templates/password_reset_required.html:10
-#: templates/password_reset_required.txt:9
-#: templates/suspicious_location.html:14 templates/suspicious_location.txt:13
-#: templates/new_device_login.html:5 templates/new_device_login.txt:4
-#: templates/password_changed.html:6 templates/password_changed.txt:5
-#: templates/password_reset.html:6 templates/password_reset.txt:6
-#: templates/post_verify.html:8 templates/post_verify.txt:6
-#: templates/reset.html:9 templates/reset.txt:7 templates/unlock.html:8
-#: templates/unlock.txt:5 templates/verification_reminder_first.html:8
-#: templates/verification_reminder_first.txt:6
-#: templates/verification_reminder_second.html:8
-#: templates/verification_reminder_second.txt:6 templates/verify.html:8
-#: templates/verify.txt:6 templates/verify_login.html:7
-#: templates/verify_login.txt:5 templates/password_reset.txt:5
+#: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/suspicious_location.html:14 templates/suspicious_location.txt:13 templates/new_device_login.html:5
+#: templates/new_device_login.txt:4 templates/password_changed.html:6 templates/password_changed.txt:5 templates/password_reset.html:6 templates/password_reset.txt:6 templates/post_verify.html:8
+#: templates/post_verify.txt:6 templates/reset.html:9 templates/reset.txt:7 templates/unlock.html:8 templates/unlock.txt:5 templates/verification_reminder_first.html:8
+#: templates/verification_reminder_first.txt:6 templates/verification_reminder_second.html:8 templates/verification_reminder_second.txt:6 templates/verify.html:8 templates/verify.txt:6
+#: templates/verify_login.html:7 templates/verify_login.txt:5 templates/password_reset.txt:5
 msgid "Mozilla Privacy Policy"
 msgstr "Mozilla-privacybelied"
 
@@ -262,23 +161,14 @@ msgstr "Mozilla-privacybelied"
 msgid "Account verified!"
 msgstr "Account ferifiearre!"
 
-#: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5
-#: templates/verification_reminder_first.html:5
-#: templates/verification_reminder_second.html:5 templates/verify.html:5
-#: templates/verify_reminder_first.html:5
-#: templates/verify_reminder_second.html:5 templates/verify_login.html:5
+#: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
+#: templates/verify_reminder_first.html:5 templates/verify_reminder_second.html:5 templates/verify_login.html:5
 msgid "Alternatively:"
 msgstr "Alternatyf:"
 
 #: templates/post_verify.txt:2
-msgid ""
-"You successfully connected your first device to your Firefox Account. Now "
-"you can sign in to Sync from your other devices, including Firefox for "
-"Android and iOS."
-msgstr ""
-"Jo hawwe jo earste apparaat mei sukses oan jo Firefox-account keppele. Jo "
-"kinne jo no oanmelde by Sync fan jo oare apparaten ôf, wêrûnder Firefox foar "
-"Android en iOS."
+msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
+msgstr "Jo hawwe jo earste apparaat mei sukses oan jo Firefox-account keppele. Jo kinne jo no oanmelde by Sync fan jo oare apparaten ôf, wêrûnder Firefox foar Android en iOS."
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
@@ -289,12 +179,8 @@ msgid "Forgot your password?"
 msgstr "Jo wachtwurd ferjitten?"
 
 #: templates/reset.html:3 templates/reset.txt:2
-msgid ""
-"Click the button within the next hour to set a new password for your Firefox "
-"Account."
-msgstr ""
-"Klik binnen in oere op de knop om in nij wachtwurd yn te stellen foar jo "
-"Firefox-account."
+msgid "Click the button within the next hour to set a new password for your Firefox Account."
+msgstr "Klik binnen in oere op de knop om in nij wachtwurd yn te stellen foar jo Firefox-account."
 
 #: templates/reset.html:4 templates/reset.txt:3
 msgid "Remember password? Sign in."
@@ -305,14 +191,8 @@ msgid "Reset password"
 msgstr "Wachtwurd werinisjalisearje"
 
 #: templates/suspicious_location.html:2 templates/suspicious_location.txt:1
-msgid ""
-"Did you sign in to your Firefox Account from any of the following locations "
-"in the last 60 days? If you don’t recognize these locations, someone else "
-"may have accessed your Firefox Account."
-msgstr ""
-"Hawwe jo jo de ôfrûne 60 dagen fan ien fan de folgjende lokaasjes ôf by jo "
-"Firefox-account oanmeld? As jo dizze lokaasjes net werkenne, kin in oar "
-"tagong ta jo Firefox-account krigen hawwe."
+msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
+msgstr "Hawwe jo jo de ôfrûne 60 dagen fan ien fan de folgjende lokaasjes ôf by jo Firefox-account oanmeld? As jo dizze lokaasjes net werkenne, kin in oar tagong ta jo Firefox-account krigen hawwe."
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
@@ -335,26 +215,16 @@ msgid "Why are you receiving this email?"
 msgstr "Wêrom ûntfange jo dit e-mailberjocht?"
 
 #: templates/suspicious_location.html:11 templates/suspicious_location.txt:10
-msgid ""
-"We recently noticed Firefox Account logins from unusual locations. We’re "
-"notifying you as a precaution."
-msgstr ""
-"Wy hawwe koartlyn fan net gebrûklike lokaasjes ôf oanmeldingen by jo Firefox-"
-"account fêststeld. Ut foarsoarch bringe wy jo hjirfan op de hichte."
+msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
+msgstr "Wy hawwe koartlyn fan net gebrûklike lokaasjes ôf oanmeldingen by jo Firefox-account fêststeld. Ut foarsoarch bringe wy jo hjirfan op de hichte."
 
 #: templates/unlock.html:2
 msgid "Account activity notice"
 msgstr "Melding fan accountaktiviteit"
 
 #: templates/unlock.html:3 templates/unlock.txt:1
-msgid ""
-"For security reasons your Firefox Account was put on lockdown. To perform "
-"account-level activities, please click the link to re-verify your account "
-"now."
-msgstr ""
-"Om feilichheidsredenen is jo Firefox-account beskoattele. Foar it útfieren "
-"fan aktiviteiten op accountniveau klikke jo op de keppeling om jo account no "
-"opnij te ferifiearjen."
+msgid "For security reasons your Firefox Account was put on lockdown. To perform account-level activities, please click the link to re-verify your account now."
+msgstr "Om feilichheidsredenen is jo Firefox-account beskoattele. Foar it útfieren fan aktiviteiten op accountniveau klikke jo op de keppeling om jo account no opnij te ferifiearjen."
 
 #: templates/unlock.html:4
 msgid "Verify account"
@@ -364,73 +234,43 @@ msgstr "Account ferifiearje"
 msgid "Verify account:"
 msgstr "Account ferifiearje:"
 
-#: templates/verification_reminder_first.html:2
-#: templates/verification_reminder_first.txt:1
-#: templates/verify_reminder_first.html:2 mailer.js:413 mailer.js:441
-#: mailer.js:452
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 templates/verify_reminder_first.html:2 mailer.js:413 mailer.js:441 mailer.js:452
 msgid "Hello again."
 msgstr "Opnij hallo."
 
-#: templates/verification_reminder_first.html:3
-#: templates/verification_reminder_first.txt:2
-#: templates/verify_reminder_first.html:3
+#: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2 templates/verify_reminder_first.html:3
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history "
-"on any device connected to it. Simply confirm this email address to activate "
-"your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
-"Inkele dagen lyn hawwe jo in Firefox-account oanmakke, mar nea ferifiearre. "
-"Mei in ferifiearre account hawwe jo op alle apparaten dy't dermei ferbûn "
-"binne tagong ta jo ljepblêden, blêdwizers, wachtwurden en skiednis. "
-"Befêstigje ienfâldichwei dit e-mailadres om jo account te aktivearjen."
+"Inkele dagen lyn hawwe jo in Firefox-account oanmakke, mar nea ferifiearre. Mei in ferifiearre account hawwe jo op alle apparaten dy't dermei ferbûn binne tagong ta jo ljepblêden, blêdwizers, "
+"wachtwurden en skiednis. Befêstigje ienfâldichwei dit e-mailadres om jo account te aktivearjen."
 
-#: templates/verification_reminder_first.html:4
-#: templates/verification_reminder_second.html:4 templates/verify.html:4
-#: templates/verify_reminder_first.html:4
-#: templates/verify_reminder_second.html:4
+#: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4 templates/verify_reminder_first.html:4 templates/verify_reminder_second.html:4
 msgid "Activate now"
 msgstr "No aktivearje"
 
-#: templates/verification_reminder_first.html:8
-#: templates/verification_reminder_second.html:8 templates/verify.html:8
-#: templates/verify_reminder_first.html:8
-#: templates/verify_reminder_second.html:8
-#: templates/verification_reminder_first.html:9
-#: templates/verification_reminder_second.html:9 templates/verify.html:9
+#: templates/verification_reminder_first.html:8 templates/verification_reminder_second.html:8 templates/verify.html:8 templates/verify_reminder_first.html:8 templates/verify_reminder_second.html:8
+#: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9
 msgid "Verify Email"
 msgstr "E-mailadres ferifiearje"
 
-#: templates/verification_reminder_first.html:9
-#: templates/verification_reminder_second.html:9 templates/verify.html:9
-#: templates/verify_reminder_first.html:9
-#: templates/verify_reminder_second.html:9
-#: templates/verification_reminder_first.html:10
-#: templates/verification_reminder_second.html:10 templates/verify.html:10
+#: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9 templates/verify_reminder_first.html:9 templates/verify_reminder_second.html:9
+#: templates/verification_reminder_first.html:10 templates/verification_reminder_second.html:10 templates/verify.html:10
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
-"Ferifiearje jo e-mailadres om jo Firefox-accountregistraasje te foltôgjen"
+msgstr "Ferifiearje jo e-mailadres om jo Firefox-accountregistraasje te foltôgjen"
 
-#: templates/verification_reminder_first.txt:3
-#: templates/verification_reminder_second.txt:3 templates/verify.txt:3
+#: templates/verification_reminder_first.txt:3 templates/verification_reminder_second.txt:3 templates/verify.txt:3
 msgid "Activate now:"
 msgstr "No aktivearje:"
 
-#: templates/verification_reminder_second.html:3
-#: templates/verification_reminder_second.txt:2
-#: templates/verify_reminder_second.html:3
+#: templates/verification_reminder_second.html:3 templates/verification_reminder_second.txt:2 templates/verify_reminder_second.html:3
 msgid ""
-"A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
-"iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know "
-"you're okay."
+"A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
+"bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 msgstr ""
-"In wike lyn hawwe jo in Firefox-account oanmakke, mar nea ferifiearre. We "
-"meitsje ús soargen om jo. Firefox is beskikber foar Windows, Mac, Linux, "
-"Android en iOS. Jo kinne jo wachtwurden, blêdwizers en skiednis fan Firefox "
-"hjir tusken syngronisearje. Befêstigje dit e-mailberjocht om jo account te "
-"aktivearjen en witte te litten oft alles goed mei jo is."
+"In wike lyn hawwe jo in Firefox-account oanmakke, mar nea ferifiearre. We meitsje ús soargen om jo. Firefox is beskikber foar Windows, Mac, Linux, Android en iOS. Jo kinne jo wachtwurden, blêdwizers"
+" en skiednis fan Firefox hjir tusken syngronisearje. Befêstigje dit e-mailberjocht om jo account te aktivearjen en witte te litten oft alles goed mei jo is."
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
@@ -476,8 +316,7 @@ msgstr "Fertochte aktiviteit by jo Firefox-account"
 msgid "env"
 msgstr "env"
 
-#: config.js:159 config.js:160 config.js:161 config.js:162 config.js:163
-#: config.js:164
+#: config.js:159 config.js:160 config.js:161 config.js:162 config.js:163 config.js:164
 msgid "contentServer.url"
 msgstr "contentServer.url"
 
@@ -493,94 +332,62 @@ msgstr "/"
 msgid "/__heartbeat__"
 msgstr "/__heartbeat__"
 
-#: templates/new_device_login.html:4 templates/password_changed.html:5
-#: templates/password_reset.html:5 templates/post_verify.html:7
-#: templates/reset.html:8 templates/unlock.html:7
-#: templates/verification_reminder_first.html:7
-#: templates/verification_reminder_second.html:7 templates/verify.html:7
-msgid ""
-"For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
-"Support</a>."
-msgstr ""
-"Besykje <a %(supportLinkAttributes)s>Mozilla Support</a> foar mear "
-"ynformaasje."
+#: templates/new_device_login.html:4 templates/password_changed.html:5 templates/password_reset.html:5 templates/post_verify.html:7 templates/reset.html:8 templates/unlock.html:7
+#: templates/verification_reminder_first.html:7 templates/verification_reminder_second.html:7 templates/verify.html:7
+msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+msgstr "Besykje <a %(supportLinkAttributes)s>Mozilla Support</a> foar mear ynformaasje."
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
-msgid ""
-"For added security, please confirm this sign-in to begin syncing with "
-"%(device)s."
-msgstr ""
-"Befêstigje dizze oanmelding foar ekstra feilichcheid, om te starten mei it "
-"syngronisearjen mei %(device)s."
+msgid "For added security, please confirm this sign-in to begin syncing with %(device)s."
+msgstr "Befêstigje dizze oanmelding foar ekstra feilichcheid, om te starten mei it syngronisearjen mei %(device)s."
 
 #: templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "Confirm sign-in"
 msgstr "Oanmelding befêstigje"
 
 #: templates/verify_login.html:6
-msgid ""
-"If you suspect that someone is trying to gain access to your account, <a "
-"%(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
-"As jo tinke dat ien tagong ta jo account probearret te krijen, <a "
-"%(passwordChangeLinkAttributes)s>wizigje dan jo wachtwurd</a>."
+msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+msgstr "As jo tinke dat ien tagong ta jo account probearret te krijen, <a %(passwordChangeLinkAttributes)s>wizigje dan jo wachtwurd</a>."
 
 #: templates/verify_login.txt:4
-msgid ""
-"If you suspect that someone is trying to gain access to your account, please "
-"change your password."
-msgstr ""
-"As jo tinke dat ien tagong ta jo account probearret te krijen, wizigje dan "
-"jo wachtwurd."
+msgid "If you suspect that someone is trying to gain access to your account, please change your password."
+msgstr "As jo tinke dat ien tagong ta jo account probearret te krijen, wizigje dan jo wachtwurd."
 
 #: mailer.js:209 mailer.js:217
 msgid "Confirm new sign-in to Firefox"
 msgstr "Befêstigje nije oanmelding by Firefox"
 
 #: templates/password_changed.html:4
-msgid ""
-"This is an automated email; if you did not authorize this action, then <a "
-"%(resetLinkAttributes)s>please reset your password</a>."
-msgstr ""
+msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
+msgstr "Dit is in automatisearre e-mailberjocht; as jo dizze aksje net autorisearre hawwe, <a %(resetLinkAttributes)s>wizigje dan jo wachtwurd.</a>"
 
 #: templates/password_reset.html:3
-msgid ""
-"Your Firefox Account password has changed. If you did not change it, please "
-"<a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
+msgstr "Jo wachtwurd fan it Firefox-account is wizige. As jo it net wizige hawwe, <a href='%(resetLinkAttributes)s'>wizigje dan jo wachtwurd</a> no."
 
 #: templates/post_verify.html:3
 msgid ""
-"You successfully connected your first device to your Firefox Account. Now "
-"you can sign in to Sync from your other devices, including Firefox for <a "
-"%(androidLinkAttributes)s>Android</a> and <a %(iosLinkAttributes)s>iOS</a>."
+"You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
+"%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
+"Jo hawwe jo earste apparaat suksesfol mei jo Firefox-account ferbûn. Jo kinne jo no fan oare apparaten ôf oanmelde by Sync, ynklusyf Firefox foar<a %(androidLinkAttributes)s>Android</a> en <a "
+"%(iosLinkAttributes)s>iOS</a>."
 
-#: templates/verification_reminder_second.html:3
-#: templates/verification_reminder_second.txt:2
-msgid ""
-"A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Confirm this email address to activate your account and "
-"let us know you're okay."
+#: templates/verification_reminder_second.html:3 templates/verification_reminder_second.txt:2
+msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 msgstr ""
-"In wike lyn hawwe jo in Firefox-account oanmakke, mar nea ferifiearre. Wy "
-"meitsje ús soargen om jo. Befêstigje dit e-mailadres om jo account te "
-"aktivearjen en witte te litten oft alles goed mei jo is."
+"In wike lyn hawwe jo in Firefox-account oanmakke, mar nea ferifiearre. Wy meitsje ús soargen om jo. Befêstigje dit e-mailadres om jo account te aktivearjen en witte te litten oft alles goed mei jo "
+"is."
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
 msgstr "Side net fûn"
 
 #: server/templates/pages/src/404.html:3
-msgid ""
-"The page you requested is not found. We've been notified and will fix any "
-"links that may be broken."
-msgstr ""
-"De opfrege side waard net fûn. Wy binne op de hichte en sille keppelingen "
-"dy't mooglik net wurkje werstelle."
+msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
+msgstr "De opfrege side waard net fûn. Wy binne op de hichte en sille keppelingen dy't mooglik net wurkje werstelle."
 
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "Start"
 
@@ -589,12 +396,8 @@ msgid "500 Error"
 msgstr "Flater 500"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
-msgid ""
-"Oh dear, something went wrong there. We've been notified and will get "
-"working on a fix."
-msgstr ""
-"Oh jee, der gie wat mis. Wy binne op 'e hichte brocht en gean wurkje oan in "
-"oplossing."
+msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+msgstr "Oh jee, der gie wat mis. Wy binne op 'e hichte brocht en gean wurkje oan in oplossing."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -605,64 +408,40 @@ msgid "Server busy, try again soon"
 msgstr "Server beset, probearje it letter opnij"
 
 #: server/templates/pages/src/503.html:3
-msgid ""
-"We are currently under heavy strain and are working to return the system to "
-"normal as soon as possible."
-msgstr ""
-"Wy stean op dit stuit ûnder hege druk en wurkje oan in sa gau mooglik "
-"werstel fan it systeem."
+msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
+msgstr "Wy stean op dit stuit ûnder hege druk en wurkje oan in sa gau mooglik werstel fan it systeem."
 
-#: server/templates/pages/src/index.html:2
-#: server/templates/pages/src/privacy.html:5
-#: server/templates/pages/src/terms.html:5
-msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr ""
-"Jo brûke in <strong>ferâldere</strong> browser. <a href=\"http://browsehappy."
-"com/\">Fernij jo browser</a> om jo ûnderfining te ferbetterjen."
+#: server/templates/pages/src/index.html:2 server/templates/pages/src/privacy.html:5 server/templates/pages/src/terms.html:5
+msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr "Jo brûke in <strong>ferâldere</strong> browser. <a href=\"http://browsehappy.com/\">Fernij jo browser</a> om jo ûnderfining te ferbetterjen."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Firefox-accounts fereasket JavaScript."
 
-#: server/templates/pages/src/privacy.html:2
-#: server/templates/pages/src/privacy.html:4
+#: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
 msgstr "Privacyferklearring"
 
-#: server/templates/pages/src/privacy.html:3
-#: server/templates/pages/src/terms.html:3
+#: server/templates/pages/src/privacy.html:3 server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
 msgstr "Firefox-cloudtsjinsten"
 
-#: server/templates/pages/src/terms.html:2
-#: server/templates/pages/src/terms.html:4
+#: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Servicebetingsten"
 
 #~ msgid "Bad Request"
 #~ msgstr "Unjildige oanfraach"
 
-#~ msgid ""
-#~ "If you suspect that someone is trying to gain access to your account, <a "
-#~ "%(supportLinkAttributes)s>please report it to us</a>."
-#~ msgstr ""
-#~ "As jo tinke dat ien probearret tagong ta jo accont te krijen, <a "
-#~ "%(supportLinkAttributes)s>rapportearje dat oan ús</a>."
+#~ msgid "If you suspect that someone is trying to gain access to your account, <a %(supportLinkAttributes)s>please report it to us</a>."
+#~ msgstr "As jo tinke dat ien probearret tagong ta jo accont te krijen, <a %(supportLinkAttributes)s>rapportearje dat oan ús</a>."
 
-#~ msgid ""
-#~ "If you suspect that someone is trying to gain access to your account, "
-#~ "please report it to us."
-#~ msgstr ""
-#~ "As jo tinke dat ien probearret tagong ta jo accont te krijen, "
-#~ "rapportearje dat oan ús."
+#~ msgid "If you suspect that someone is trying to gain access to your account, please report it to us."
+#~ msgstr "As jo tinke dat ien probearret tagong ta jo accont te krijen, rapportearje dat oan ús."
 
-#~ msgid ""
-#~ "A device began syncing with the devices connected to your Firefox Account."
-#~ msgstr ""
-#~ "It syngronisearjen fan in apparaat mei de apparaten dy't mei jo Firefox-"
-#~ "account keppele binne is begûn."
+#~ msgid "A device began syncing with the devices connected to your Firefox Account."
+#~ msgstr "It syngronisearjen fan in apparaat mei de apparaten dy't mei jo Firefox-account keppele binne is begûn."
 
 #~ msgid "Are you sure?"
 #~ msgstr "Binne jo wis?"
@@ -676,29 +455,17 @@ msgstr "Servicebetingsten"
 #~ msgid "Reset password now:"
 #~ msgstr "Wachtwurd no opnij ynstelle:"
 
-#~ msgid ""
-#~ "Recently you created a Firefox Account, but never verified it. Please "
-#~ "activate your account by confirming this email address."
-#~ msgstr ""
-#~ "Koartlyn hawwe jo in Firefox-account oanmakke, mar nea ferifiearre. "
-#~ "Aktivearje jo account troch dit e-mailadres te befêstigjen."
+#~ msgid "Recently you created a Firefox Account, but never verified it. Please activate your account by confirming this email address."
+#~ msgstr "Koartlyn hawwe jo in Firefox-account oanmakke, mar nea ferifiearre. Aktivearje jo account troch dit e-mailadres te befêstigjen."
 
 #~ msgid "Activate Now:"
 #~ msgstr "No aktivearje:"
 
-#~ msgid ""
-#~ "This is an automated email; if you did not authorize this action, then <a "
-#~ "%(passwordChangeUrl)s>please change your password.</a>"
-#~ msgstr ""
-#~ "Dit is in automatisearre e-mailberjocht; as jo dizze aksje net "
-#~ "autorisearre hawwe, <a %(passwordChangeUrl)s>wizigje dan jo wachtwurd</a>."
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeUrl)s>please change your password.</a>"
+#~ msgstr "Dit is in automatisearre e-mailberjocht; as jo dizze aksje net autorisearre hawwe, <a %(passwordChangeUrl)s>wizigje dan jo wachtwurd</a>."
 
-#~ msgid ""
-#~ "For more information, please visit <a href='https://support.mozilla."
-#~ "org'>Mozilla Support</a>"
-#~ msgstr ""
-#~ "Besykje foar mear ynformaasje <a href='https://support.mozilla."
-#~ "org'>Mozilla Support</a>"
+#~ msgid "For more information, please visit <a href='https://support.mozilla.org'>Mozilla Support</a>"
+#~ msgstr "Besykje foar mear ynformaasje <a href='https://support.mozilla.org'>Mozilla Support</a>"
 
 #~ msgid "Reset password:"
 #~ msgstr "Wachtwurd werinisjalisearje:"
@@ -709,11 +476,8 @@ msgstr "Servicebetingsten"
 #~ msgid "Almost there"
 #~ msgstr "Jo binne der hast"
 
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
-#~ msgstr ""
-#~ "%(email)s, jo binne noch ien mûsklik ôf fan ferifikaasje fan jo Firefox-"
-#~ "account."
+#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgstr "%(email)s, jo binne noch ien mûsklik ôf fan ferifikaasje fan jo Firefox-account."
 
 #~ msgid "Verify"
 #~ msgstr "Ferifiearje"
@@ -730,39 +494,17 @@ msgstr "Servicebetingsten"
 #~ msgid "Re-verify your account"
 #~ msgstr "Ferifiearje jo account opnij"
 
-#~ msgid ""
-#~ "A new device is now syncing with all of the devices connected to your "
-#~ "Firefox Account."
-#~ msgstr ""
-#~ "Der wurdt no in nij apparaat syngronisearre mei alle apparaten dy't mei "
-#~ "jo Firefox-account keppele binne."
+#~ msgid "A new device is now syncing with all of the devices connected to your Firefox Account."
+#~ msgstr "Der wurdt no in nij apparaat syngronisearre mei alle apparaten dy't mei jo Firefox-account keppele binne."
 
-#~ msgid ""
-#~ "This is an automated email; if you didn't add a new device to your "
-#~ "Firefox Account, you should change your password immediately at <a "
-#~ "href='%(resetLink)s'>%(resetLink)s</a>."
-#~ msgstr ""
-#~ "Dit is in automatisearre e-mailberjocht; as jo gjin nij apparaat oan jo "
-#~ "Firefox-account tafoege hawwe, moatte jo daliks jo wachtwurd wizigje op "
-#~ "<a href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgstr "Dit is in automatisearre e-mailberjocht; as jo gjin nij apparaat oan jo Firefox-account tafoege hawwe, moatte jo daliks jo wachtwurd wizigje op <a href='%(resetLink)s'>%(resetLink)s</a>."
 
-#~ msgid ""
-#~ "This is an automated email; if you didn't change the password to your "
-#~ "Firefox Account, you should reset it immediately at <a "
-#~ "href='%(resetLink)s'>%(resetLink)s</a>."
-#~ msgstr ""
-#~ "Dit is in automatisearre e-mailberjocht; as jo it wachtwurd foar jo "
-#~ "Firefox-account net wizige hawwe, moatte jo it daliks opnij ynstelle op "
-#~ "<a href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgid "This is an automated email; if you didn't change the password to your Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgstr "Dit is in automatisearre e-mailberjocht; as jo it wachtwurd foar jo Firefox-account net wizige hawwe, moatte jo it daliks opnij ynstelle op <a href='%(resetLink)s'>%(resetLink)s</a>."
 
-#~ msgid ""
-#~ "This is an automated email; if you didn't reset the password to your "
-#~ "Firefox Account, you should reset it immediately at <a "
-#~ "href='%(resetLink)s'>%(resetLink)s</a>."
-#~ msgstr ""
-#~ "Dit is in automatisearre e-mailberjocht; as jo it wachtwurd foar jo "
-#~ "Firefox-account net opnij ynsteld hawwe, moatte jo it daliks opnij "
-#~ "ynstelle op <a href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgid "This is an automated email; if you didn't reset the password to your Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgstr "Dit is in automatisearre e-mailberjocht; as jo it wachtwurd foar jo Firefox-account net opnij ynsteld hawwe, moatte jo it daliks opnij ynstelle op <a href='%(resetLink)s'>%(resetLink)s</a>."
 
 #~ msgid "A new device is now syncing to your Firefox Account"
 #~ msgstr "Der wurdt no in nij apparaat mei jo Firefox-account syngronisearre"
@@ -770,19 +512,11 @@ msgstr "Servicebetingsten"
 #~ msgid "Firefox Account Activation"
 #~ msgstr "Firefox-accountaktivearring"
 
-#~ msgid ""
-#~ "For more information, please visit <a href='https://support.mozilla.org' "
-#~ "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
-#~ msgstr ""
-#~ "Besykje <a href='https://support.mozilla.org' style='color: #0095dd; text-"
-#~ "decoration: none;'>Mozilla Support</a> foar mear ynformaasje"
+#~ msgid "For more information, please visit <a href='https://support.mozilla.org' style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
+#~ msgstr "Besykje <a href='https://support.mozilla.org' style='color: #0095dd; text-decoration: none;'>Mozilla Support</a> foar mear ynformaasje"
 
-#~ msgid ""
-#~ "For more information, please visit <a href='%(supportUrl)s' style='color: "
-#~ "#0095dd; text-decoration: none;'>Mozilla Support</a>"
-#~ msgstr ""
-#~ "Besykje <a href='%(supportUrl)s' style='color: #0095dd; text-decoration: "
-#~ "none;'>Mozilla Support</a> foar mear ynformaasje"
+#~ msgid "For more information, please visit <a href='%(supportUrl)s' style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
+#~ msgstr "Besykje <a href='%(supportUrl)s' style='color: #0095dd; text-decoration: none;'>Mozilla Support</a> foar mear ynformaasje"
 
 #~ msgid "New sign-in to Sync"
 #~ msgstr "Nije oanmelding by Sync"
@@ -793,12 +527,8 @@ msgstr "Servicebetingsten"
 #~ msgid "System unavailable, try again soon"
 #~ msgstr "Systeem net beskikber, probearje it letter opnij"
 
-#~ msgid ""
-#~ "We are currently performing some maintenance on the system, and will "
-#~ "return momentarily."
-#~ msgstr ""
-#~ "Der wurdt op dit stuit wat ûnderhâld oan it systeem útfierd en wy binne "
-#~ "ynkoarten wer beskikber."
+#~ msgid "We are currently performing some maintenance on the system, and will return momentarily."
+#~ msgstr "Der wurdt op dit stuit wat ûnderhâld oan it systeem útfierd en wy binne ynkoarten wer beskikber."
 
 #~ msgid "Reset Password Request"
 #~ msgstr "Oanfraach foar wachtwurdwerinisjalisaasje"
