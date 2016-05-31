@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-31 04:13+0000\n"
-"PO-Revision-Date: 2016-05-20 15:40+0200\n"
+"PO-Revision-Date: 2016-05-31 19:42+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -536,12 +536,16 @@ msgid ""
 "This is an automated email; if you did not authorize this action, then <a "
 "%(resetLinkAttributes)s>please reset your password</a>."
 msgstr ""
+"Wiadomość wygenerowana automatycznie. Jeżeli nie upoważniono wykonania tej "
+"czynności, to należy <a %(resetLinkAttributes)s>zmienić hasło</a>."
 
 #: templates/password_reset.html:3
 msgid ""
 "Your Firefox Account password has changed. If you did not change it, please "
 "<a %(resetLinkAttributes)s>reset your password</a> now."
 msgstr ""
+"Hasło konta Firefoksa zostało zmienione. Należy natychmiast <a "
+"%(resetLinkAttributes)s>zmienić je ponownie</a>, jeśli tego nie upoważniono."
 
 #: templates/post_verify.html:3
 msgid ""
@@ -549,6 +553,9 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for <a "
 "%(androidLinkAttributes)s>Android</a> and <a %(iosLinkAttributes)s>iOS</a>."
 msgstr ""
+"Pomyślnie połączono pierwsze urządzenie z kontem Firefoksa. Można teraz "
+"zalogować się do usługi Sync z innych urządzeń, w tym Firefoksa na <a "
+"%(androidLinkAttributes)s>Androida</a> i <a %(iosLinkAttributes)s>iOS</a>."
 
 #: templates/verification_reminder_second.html:3
 #: templates/verification_reminder_second.txt:2
@@ -632,6 +639,3 @@ msgstr "Usługi Firefox cloud"
 #: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Regulamin usługi"
-
-#~ msgid "Bad Request"
-#~ msgstr "Błędne żądanie"
