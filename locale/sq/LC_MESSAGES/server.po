@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-19 12:15+0000\n"
+"POT-Creation-Date: 2016-05-31 04:13+0000\n"
 "PO-Revision-Date: 2016-05-29 10:36+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,7 @@ msgstr ""
 #: templates/_pending.txt:1 templates/verification_reminder_second.html:2
 #: templates/verification_reminder_second.txt:1
 #: templates/verify_reminder_second.html:2 mailer.js:416 mailer.js:444
+#: mailer.js:455
 msgid "Still there?"
 msgstr "Ende këtu?"
 
@@ -67,9 +68,8 @@ msgstr "Bëni hyrjen që të Njëkohësoni"
 #: templates/verification_reminder_second.html:1 templates/verify.html:1
 #: templates/verify_reminder_first.html:1
 #: templates/verify_reminder_second.html:1 templates/verify_login.html:1
-#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
-#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
-#: server/templates/pages/src/503.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
 #: server/templates/pages/src/terms.html:1
@@ -78,7 +78,7 @@ msgstr "Llogari Firefox-i"
 
 #: templates/new_device_login.html:2 templates/new_device_login.txt:1
 #: mailer.js:338 templates/verify_login.html:2 templates/verify_login.txt:1
-#: mailer.js:367
+#: mailer.js:367 mailer.js:374
 msgid "New sign-in to Firefox"
 msgstr "Hyrje e re te Firefox-i"
 
@@ -88,8 +88,8 @@ msgid ""
 "%(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr ""
 "Ky është një email i automatizuar; nëse s’e patët autorizuar këtë veprim, "
-"atëherë <a %(passwordChangeLinkAttributes)s>ju lutemi, ndërroni fjalëkalimin"
-" tuaj.</a>"
+"atëherë <a %(passwordChangeLinkAttributes)s>ju lutemi, ndërroni fjalëkalimin "
+"tuaj.</a>"
 
 #: templates/new_device_login.html:4 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
@@ -111,14 +111,15 @@ msgid ""
 "Account, you should change your password immediately at %(resetLink)s."
 msgstr ""
 "Ky është një email i automatizuar; nëse nuk shtuat ndonjë pajisje të re te "
-"Llogaria juaj Firefox, do të duhej të ndryshonit menjëherë fjalëkalimin tuaj"
-" te %(resetLink)s."
+"Llogaria juaj Firefox, do të duhej të ndryshonit menjëherë fjalëkalimin tuaj "
+"te %(resetLink)s."
 
 #: templates/new_device_login.txt:3 templates/password_changed.txt:4
 #: templates/password_reset.txt:5 templates/post_verify.txt:5
 #: templates/reset.txt:6 templates/unlock.txt:4
 #: templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5
+#: templates/password_reset.txt:4
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Për më tepër të dhëna, ju lutemi, vizitoni %(supportUrl)s"
 
@@ -148,8 +149,8 @@ msgid ""
 "Your Firefox Account password has changed. If you did not change it, please "
 "<a href='%(resetLink)s'>reset your password</a> now."
 msgstr ""
-"Fjalëkalimi juaj për Llogarinë Firefox u ndryshua. Nëse s’e ndryshuat ju, ju"
-" lutemi <a href='%(resetLink)s'>ricaktoni fjalëkalimin</a> tani."
+"Fjalëkalimi juaj për Llogarinë Firefox u ndryshua. Nëse s’e ndryshuat ju, ju "
+"lutemi <a href='%(resetLink)s'>ricaktoni fjalëkalimin</a> tani."
 
 #: templates/password_reset.html:4 templates/post_verify.html:6
 #: templates/post_verify.txt:4 templates/reset.html:7 templates/reset.txt:5
@@ -175,10 +176,10 @@ msgstr "Fjalëkalimi u ricaktua me sukses"
 msgid "Your Firefox Account password has been successfully reset."
 msgstr "Fjalëkalimi për Llogarinë tuaj Firefox u ricaktua me sukses."
 
-#: templates/password_reset.txt:4
+#: templates/password_reset.txt:4 templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox"
-" Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox "
+"Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 "Ky është një email i automatizuar; nëse nuk ricaktuat fjalëkalimin te "
 "Llogaria juaj Firefox, do të duhej të ricaktonit atë menjëherë te "
@@ -208,14 +209,14 @@ msgid "What should you do?"
 msgstr "Ç’do të duhej të bënit?"
 
 #: templates/password_reset_required.html:5
-#: templates/password_reset_required.txt:4
-#: templates/suspicious_location.html:7 templates/suspicious_location.txt:6
+#: templates/password_reset_required.txt:4 templates/suspicious_location.html:7
+#: templates/suspicious_location.txt:6
 msgid "First, change your Firefox Account password."
 msgstr "Së pari, ndryshoni fjalëkalimin për Llogarinë tuaj Firefox."
 
 #: templates/password_reset_required.html:6
-#: templates/password_reset_required.txt:5
-#: templates/suspicious_location.html:8 templates/suspicious_location.txt:7
+#: templates/password_reset_required.txt:5 templates/suspicious_location.html:8
+#: templates/suspicious_location.txt:7
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those "
 "passwords as well. Attackers may have access to those passwords, so you "
@@ -227,8 +228,8 @@ msgstr ""
 "dyshimtë."
 
 #: templates/password_reset_required.html:7
-#: templates/password_reset_required.txt:6
-#: templates/suspicious_location.html:9 templates/suspicious_location.txt:8
+#: templates/password_reset_required.txt:6 templates/suspicious_location.html:9
+#: templates/suspicious_location.txt:8
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "Mësoni se si të shihni ç’fjalëkalime depoziton Firefox-i për ju."
 
@@ -257,7 +258,7 @@ msgstr "Ekipi i Llogarive Firefox"
 #: templates/verification_reminder_second.html:8
 #: templates/verification_reminder_second.txt:6 templates/verify.html:8
 #: templates/verify.txt:6 templates/verify_login.html:7
-#: templates/verify_login.txt:5
+#: templates/verify_login.txt:5 templates/password_reset.txt:5
 msgid "Mozilla Privacy Policy"
 msgstr "Rregulla Privatësie të Mozilla-s"
 
@@ -293,8 +294,8 @@ msgstr "Harruat fjalëkalimin?"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid ""
-"Click the button within the next hour to set a new password for your Firefox"
-" Account."
+"Click the button within the next hour to set a new password for your Firefox "
+"Account."
 msgstr ""
 "Klikoni butonin brenda orës pasuese që të caktoni një fjalëkalim të ri për "
 "Llogarinë tuaj Firefox."
@@ -342,8 +343,8 @@ msgid ""
 "We recently noticed Firefox Account logins from unusual locations. We’re "
 "notifying you as a precaution."
 msgstr ""
-"Keni vënë re së fundi hyrje në Llogari Firefox prej vendesh të pazakontë. Po"
-" ju njoftojmë si masë paraprake."
+"Keni vënë re së fundi hyrje në Llogari Firefox prej vendesh të pazakontë. Po "
+"ju njoftojmë si masë paraprake."
 
 #: templates/unlock.html:2
 msgid "Account activity notice"
@@ -355,8 +356,8 @@ msgid ""
 "account-level activities, please click the link to re-verify your account "
 "now."
 msgstr ""
-"Për arsye sigurie Llogaria juaj Firefox u kyç. Që të kryeni veprime në nivel"
-" llogarie, ju lutemi klikoni lidhjen që të riverifikoni tani llogarinë tuaj."
+"Për arsye sigurie Llogaria juaj Firefox u kyç. Që të kryeni veprime në nivel "
+"llogarie, ju lutemi klikoni lidhjen që të riverifikoni tani llogarinë tuaj."
 
 #: templates/unlock.html:4
 msgid "Verify account"
@@ -369,6 +370,7 @@ msgstr "Verifikoni llogarinë:"
 #: templates/verification_reminder_first.html:2
 #: templates/verification_reminder_first.txt:1
 #: templates/verify_reminder_first.html:2 mailer.js:413 mailer.js:441
+#: mailer.js:452
 msgid "Hello again."
 msgstr "Tungjatjeta sërish."
 
@@ -377,14 +379,14 @@ msgstr "Tungjatjeta sërish."
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history"
-" on any device connected to it. Simply confirm this email address to "
-"activate your account."
+"verified account lets you access your tabs, bookmarks, passwords and history "
+"on any device connected to it. Simply confirm this email address to activate "
+"your account."
 msgstr ""
 "Pak ditë më parë krijuat një Llogari Firefox, por s’e verifikuat kurrë atë. "
 "Një llogari e verifikuar ju lejon të përdorni skedat tuaja, faqerojtësit, "
-"fjalëkalimet dhe historikun në çdo pajisje të lidhur me të. Thjesht ripohoni"
-" këtë adresë email dhe aktivizoni llogarinë tuaj."
+"fjalëkalimet dhe historikun në çdo pajisje të lidhur me të. Thjesht ripohoni "
+"këtë adresë email dhe aktivizoni llogarinë tuaj."
 
 #: templates/verification_reminder_first.html:4
 #: templates/verification_reminder_second.html:4 templates/verify.html:4
@@ -423,15 +425,15 @@ msgstr "Aktivizojeni tani:"
 #: templates/verify_reminder_second.html:3
 msgid ""
 "A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and"
-" iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know"
-" you're okay."
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
+"iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know "
+"you're okay."
 msgstr ""
 "Një javë më parë krijuat një Llogari Firefox, por s’e verifikuat kurrë atë. "
-"U bëmë merak. Firefox-i është i gatshëm për Windows, Mac, Linux, Android dhe"
-" iOS. Mund të njëkohësoni fjalëkalimet tuaja të Firefox-it, faqerojtësit dhe"
-" historikun nëpër krejt ata. Ripohoni këtë adresë email që të aktivizoni "
+"U bëmë merak. Firefox-i është i gatshëm për Windows, Mac, Linux, Android dhe "
+"iOS. Mund të njëkohësoni fjalëkalimet tuaja të Firefox-it, faqerojtësit dhe "
+"historikun nëpër krejt ata. Ripohoni këtë adresë email që të aktivizoni "
 "llogarinë tuaj dhe të na thoni se jeni mirë."
 
 #: templates/verify.html:2 templates/verify.txt:1
@@ -441,6 +443,38 @@ msgstr "Mirë se vini!"
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
 msgstr "Ju lutemi, aktivizoni llogarinë tuaj duke ripohuar këtë adresë email."
+
+#: mailer.js:168 mailer.js:171 mailer.js:179
+msgid "Verify your Firefox Account"
+msgstr "Verifikoni Llogarinë tuaj Firefox"
+
+#: mailer.js:201 mailer.js:244 mailer.js:252
+msgid "Reset your Firefox Account password"
+msgstr "Ricaktoni fjalëkalimin e Llogarisë suaj Firefox"
+
+#: mailer.js:236 mailer.js:278 mailer.js:286
+msgid "Re-verify your Firefox Account"
+msgstr "Riverifikoni Llogarinë tuaj Firefox"
+
+#: mailer.js:269 mailer.js:299 mailer.js:307
+msgid "Your Firefox Account password has been changed"
+msgstr "Fjalëkalimi për Llogarinë tuaj Firefox u ndryshua"
+
+#: mailer.js:291 mailer.js:321 mailer.js:328
+msgid "Your Firefox Account password has been reset"
+msgstr "Fjalëkalimi për Llogarinë tuaj Firefox u ricaktua"
+
+#: mailer.js:313 mailer.js:342 mailer.js:349
+msgid "Firefox Account password reset required"
+msgstr "Lypset ricaktim fjalëkalimi Llogarie Firefox"
+
+#: mailer.js:366 mailer.js:395 mailer.js:404
+msgid "Firefox Account Verified"
+msgstr "Llogaria Firefox U Verifikua"
+
+#: mailer.js:401 mailer.js:429 mailer.js:440
+msgid "Suspicious activity with your Firefox Account"
+msgstr "Veprimtari e dyshimtë te Llogaria juaj Firefox"
 
 #: config.js:146 config.js:151
 msgid "env"
@@ -454,38 +488,6 @@ msgstr "contentServer.url"
 #: log.js:7
 msgid "logging"
 msgstr ""
-
-#: mailer.js:168 mailer.js:171
-msgid "Verify your Firefox Account"
-msgstr "Verifikoni Llogarinë tuaj Firefox"
-
-#: mailer.js:201 mailer.js:244
-msgid "Reset your Firefox Account password"
-msgstr "Ricaktoni fjalëkalimin e Llogarisë suaj Firefox"
-
-#: mailer.js:236 mailer.js:278
-msgid "Re-verify your Firefox Account"
-msgstr "Riverifikoni Llogarinë tuaj Firefox"
-
-#: mailer.js:269 mailer.js:299
-msgid "Your Firefox Account password has been changed"
-msgstr "Fjalëkalimi për Llogarinë tuaj Firefox u ndryshua"
-
-#: mailer.js:291 mailer.js:321
-msgid "Your Firefox Account password has been reset"
-msgstr "Fjalëkalimi për Llogarinë tuaj Firefox u ricaktua"
-
-#: mailer.js:313 mailer.js:342
-msgid "Firefox Account password reset required"
-msgstr "Lypset ricaktim fjalëkalimi Llogarie Firefox"
-
-#: mailer.js:366 mailer.js:395
-msgid "Firefox Account Verified"
-msgstr "Llogaria Firefox U Verifikua"
-
-#: mailer.js:401 mailer.js:429
-msgid "Suspicious activity with your Firefox Account"
-msgstr "Veprimtari e dyshimtë te Llogaria juaj Firefox"
 
 #: lib/db.js:21
 msgid "/"
@@ -506,17 +508,6 @@ msgid ""
 msgstr ""
 "Ju lutemi, për më tepër të dhëna, vizitoni <a "
 "%(supportLinkAttributes)s>Asistencën e Mozilla-s</a>."
-
-#: templates/verification_reminder_second.html:3
-#: templates/verification_reminder_second.txt:2
-msgid ""
-"A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Confirm this email address to activate your account and "
-"let us know you're okay."
-msgstr ""
-"Një javë më parë krijuat një Llogari Firefox Account, por nuk e verifikuat. "
-"U bëmë merak për ju. Ripohojeni këtë adresë email që të aktivizoni llogarinë"
-" tuaj dhe të na bëni të ditur se jeni mirë."
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid ""
@@ -540,19 +531,45 @@ msgstr ""
 
 #: templates/verify_login.txt:4
 msgid ""
-"If you suspect that someone is trying to gain access to your account, please"
-" change your password."
+"If you suspect that someone is trying to gain access to your account, please "
+"change your password."
 msgstr ""
 "Nëse dyshoni se dikush po rreket të arrijë të hyjë në llogarinë tuaj, ju "
 "lutemi, ndërroni fjalëkalimin tuaj."
 
-#: mailer.js:209
+#: mailer.js:209 mailer.js:217
 msgid "Confirm new sign-in to Firefox"
 msgstr "Ripohoni hyrjen e re te Firefox-i"
 
-#: server/templates/pages/src/400.html:2
-msgid "Bad Request"
-msgstr "Kërkesë e Gabuar"
+#: templates/password_changed.html:4
+msgid ""
+"This is an automated email; if you did not authorize this action, then <a "
+"%(resetLinkAttributes)s>please reset your password</a>."
+msgstr ""
+
+#: templates/password_reset.html:3
+msgid ""
+"Your Firefox Account password has changed. If you did not change it, please "
+"<a %(resetLinkAttributes)s>reset your password</a> now."
+msgstr ""
+
+#: templates/post_verify.html:3
+msgid ""
+"You successfully connected your first device to your Firefox Account. Now "
+"you can sign in to Sync from your other devices, including Firefox for <a "
+"%(androidLinkAttributes)s>Android</a> and <a %(iosLinkAttributes)s>iOS</a>."
+msgstr ""
+
+#: templates/verification_reminder_second.html:3
+#: templates/verification_reminder_second.txt:2
+msgid ""
+"A week ago you created a Firefox Account, but never verified it. We’re "
+"worried about you. Confirm this email address to activate your account and "
+"let us know you're okay."
+msgstr ""
+"Një javë më parë krijuat një Llogari Firefox Account, por nuk e verifikuat. "
+"U bëmë merak për ju. Ripohojeni këtë adresë email që të aktivizoni llogarinë "
+"tuaj dhe të na bëni të ditur se jeni mirë."
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -563,8 +580,8 @@ msgid ""
 "The page you requested is not found. We've been notified and will fix any "
 "links that may be broken."
 msgstr ""
-"Faqja që kërkuat nuk u gjet. E kemi mbajtur shënim dhe do të ndreqim çfarëdo"
-" lidhje që mund të jetë e dëmtuar."
+"Faqja që kërkuat nuk u gjet. E kemi mbajtur shënim dhe do të ndreqim çfarëdo "
+"lidhje që mund të jetë e dëmtuar."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
 #: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
@@ -603,13 +620,12 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a "
-"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
-"experience."
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
-"Po përdorni një shfletues <strong>të vjetruar</strong>. Ju lutemi, <a "
-"href=\"http://browsehappy.com/\">përmirësoni shfletuesin</a> që të "
-"përmirësohet punimi juaj."
+"Po përdorni një shfletues <strong>të vjetruar</strong>. Ju lutemi, <a href="
+"\"http://browsehappy.com/\">përmirësoni shfletuesin</a> që të përmirësohet "
+"punimi juaj."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -630,6 +646,9 @@ msgstr "Shërbime reje nga Firefox-i"
 msgid "Terms of Service"
 msgstr "Kushte Shërbimi"
 
+#~ msgid "Bad Request"
+#~ msgstr "Kërkesë e Gabuar"
+
 #~ msgid ""
 #~ "A device began syncing with the devices connected to your Firefox Account."
 #~ msgstr ""
@@ -640,7 +659,8 @@ msgstr "Kushte Shërbimi"
 #~ msgstr "Jeni i sigurt?"
 
 #~ msgid "Please confirm that you'd like to reset the password for %(email)s."
-#~ msgstr "Ju lutemi, ripohoni se doni të ricaktoni fjalëkalimin për %(email)s."
+#~ msgstr ""
+#~ "Ju lutemi, ripohoni se doni të ricaktoni fjalëkalimin për %(email)s."
 
 #~ msgid "Reset password now"
 #~ msgstr "Ricaktojeni fjalëkalimit tani"
@@ -663,4 +683,5 @@ msgstr "Kushte Shërbimi"
 #~ "%(passwordChangeUrl)s>please change your password.</a>"
 #~ msgstr ""
 #~ "Ky është një email i automatizuar; nëse s’e autorizuat ju këtë veprim, "
-#~ "atëherë <a %(passwordChangeUrl)s>ju lutemi, ndryshoni fjalëkalimin tuaj.</a>"
+#~ "atëherë <a %(passwordChangeUrl)s>ju lutemi, ndryshoni fjalëkalimin tuaj.</"
+#~ "a>"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-19 12:15+0000\n"
+"POT-Creation-Date: 2016-05-31 04:13+0000\n"
 "PO-Revision-Date: 2015-01-24 22:59+0000\n"
 "Last-Translator: Håvar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -167,12 +167,10 @@ msgstr ""
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39
-#: app/scripts/lib/profile-errors.js:47
-#: app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:47 app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
-#: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Uventet feil"
 
@@ -550,6 +548,20 @@ msgstr "Tilbake"
 
 #: app/scripts/lib/strings.js:46
 msgid "Sign-in confirmed"
+msgstr ""
+
+#: app/scripts/templates/400.mustache:1
+msgid "Bad Request"
+msgstr ""
+
+#: app/scripts/templates/500.mustache:1
+msgid "500 Error"
+msgstr ""
+
+#: app/scripts/templates/500.mustache:2
+msgid ""
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
 msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
@@ -952,10 +964,6 @@ msgstr ""
 msgid "Have an account? Sign in."
 msgstr ""
 
-#: app/scripts/templates/unexpected_error.mustache:2
-msgid "Home"
-msgstr "Hjem"
-
 #: app/scripts/templates/settings/avatar.mustache:2
 #: app/scripts/templates/settings/avatar_crop.mustache:2
 #: app/scripts/templates/settings/change_password.mustache:2
@@ -1103,6 +1111,9 @@ msgstr ""
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr ""
+
+#~ msgid "Home"
+#~ msgstr "Hjem"
 
 #~ msgid "Missing parameter in request body: %(param)s"
 #~ msgstr "Mangler parameter i forespørselsinnhold: %(param)s"

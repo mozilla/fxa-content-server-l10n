@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-19 12:15+0000\n"
+"POT-Creation-Date: 2016-05-31 04:13+0000\n"
 "PO-Revision-Date: 2016-05-30 07:04+0000\n"
 "Last-Translator: alamanda <dian.ina@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -147,10 +147,11 @@ msgid "Display name updated"
 msgstr "Tampilan nama telah diperbarui"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgid ""
+"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
 msgstr ""
-"Akun terkunci. <a href=\"/confirm_account_unlock\">Kirim surel pembuka kunci"
-" </a>"
+"Akun terkunci. <a href=\"/confirm_account_unlock\">Kirim surel pembuka kunci "
+"</a>"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:42
 #: app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:105
@@ -169,12 +170,10 @@ msgstr "Sukses keluar"
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39
-#: app/scripts/lib/profile-errors.js:47
-#: app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:47 app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
-#: app/scripts/templates/unexpected_error.mustache:1
 msgid "Unexpected error"
 msgstr "Galat tidak diharapkan"
 
@@ -451,14 +450,13 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Dengan tindakan ini, Anda menyetujui untuk <a id=\"service-tos\" "
-"href=\"%(termsUri)s\">Ketentuan Layanan</a>dan<a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">Privasi</a> dari %(serviceName)s (%(serviceUri)s)."
+"Dengan tindakan ini, Anda menyetujui untuk <a id=\"service-tos\" href="
+"\"%(termsUri)s\">Ketentuan Layanan</a>dan<a id=\"service-pp\" href="
+"\"%(privacyUri)s\">Privasi</a> dari %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:26
 msgid ""
@@ -544,8 +542,8 @@ msgid ""
 "To better protect your Firefox data, we've emailed a confirmation link to "
 "%(email)s"
 msgstr ""
-"Untuk melindungi data Firefox Anda dengan lebih baik, kami mengirimkan surel"
-" berisi tautan konfirmasi ke %(email)s"
+"Untuk melindungi data Firefox Anda dengan lebih baik, kami mengirimkan surel "
+"berisi tautan konfirmasi ke %(email)s"
 
 #: app/scripts/lib/strings.js:43 app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
@@ -567,6 +565,20 @@ msgstr "Kembali"
 #: app/scripts/lib/strings.js:46
 msgid "Sign-in confirmed"
 msgstr "Proses masuk dikonfirmasi"
+
+#: app/scripts/templates/400.mustache:1
+msgid "Bad Request"
+msgstr ""
+
+#: app/scripts/templates/500.mustache:1
+msgid "500 Error"
+msgstr ""
+
+#: app/scripts/templates/500.mustache:2
+msgid ""
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
+msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -652,8 +664,7 @@ msgstr "Tautan yang Anda klik untuk menyetel sandi telah kedaluwarsa."
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr ""
-"Klik di sini untuk mendapatkan tautan penyetelan ulang sandi yang baru"
+msgstr "Klik di sini untuk mendapatkan tautan penyetelan ulang sandi yang baru"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 msgid "Reset password link damaged"
@@ -729,8 +740,8 @@ msgstr "Buka email terkirim"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid ""
 "For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification"
-" link sent to %(email)s"
+"level activities, please re-verify your account by clicking the verification "
+"link sent to %(email)s"
 msgstr ""
 "Untuk alasan keamanan akun Anda dibuat terkunci. Untuk melakukan aktivitas "
 "tingkat-akun, silakan kembali verifikasi akun Anda dengan mengklik tautan "
@@ -762,8 +773,8 @@ msgstr "Reremah dan penyimpanan lokal diperlukan."
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
 "Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between"
-" sessions."
+"Accounts. Doing so will enable functionality such as remembering you between "
+"sessions."
 msgstr ""
 "Harap mungkinkan reremah dan penyimpanan lokal dalam peramban anda untuk "
 "mengakses Firefox Accounts. Melakukan hal ini akan memungkinkan fungsi "
@@ -811,13 +822,13 @@ msgstr "Lupa sandi?"
 #: app/scripts/templates/sign_in.mustache:27
 #: app/scripts/templates/sign_up.mustache:17
 msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
+"Notice</a> of Firefox cloud services."
 msgstr ""
-"Bila melanjutkan, anda setuju dengan <a id=\"fxa-tos\" "
-"href=\"/legal/terms\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Kebijakan Privasi</a> untuk layanan awan Firefox."
+"Bila melanjutkan, anda setuju dengan <a id=\"fxa-tos\" href=\"/legal/terms"
+"\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy"
+"\">Kebijakan Privasi</a> untuk layanan awan Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
 #: app/scripts/templates/tos.mustache:1
@@ -919,8 +930,8 @@ msgstr "Sandi lupa"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid ""
-"When you reset your password, you will lose any Sync data that is not on one"
-" of your devices."
+"When you reset your password, you will lose any Sync data that is not on one "
+"of your devices."
 msgstr ""
 "Saat Anda set ulang sandi, Anda akan kehilangan data Sync yang tidak ada "
 "pada salah satu perangkat Anda."
@@ -969,11 +980,10 @@ msgstr "Migrasi data sinkronisasi Anda dengan membuat Akun Firefox baru."
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign "
-"in</a>"
+"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 msgstr ""
-"Memiliki akun dengan alamat surel berbeda? <a "
-"href=\"%(signinUri)s\">Masuk</a>"
+"Memiliki akun dengan alamat surel berbeda? <a href=\"%(signinUri)s\">Masuk</"
+"a>"
 
 #: app/scripts/templates/sign_up.mustache:18
 #: app/scripts/templates/settings/communication_preferences.mustache:7
@@ -987,10 +997,6 @@ msgstr "Buat akun"
 #: app/scripts/templates/sign_up.mustache:29
 msgid "Have an account? Sign in."
 msgstr "Sudah memiliki akun? Masuk."
-
-#: app/scripts/templates/unexpected_error.mustache:2
-msgid "Home"
-msgstr "Beranda"
 
 #: app/scripts/templates/settings/avatar.mustache:2
 #: app/scripts/templates/settings/avatar_crop.mustache:2
@@ -1087,13 +1093,13 @@ msgstr "Perangkat"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a "
-"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
-"href=\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
+"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
+"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox tersedia untuk <a href=\"%(linkWindows)s\">Windows</a>, <a "
-"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
-"href=\"%(linkIOS)s\">iOS</a> dan <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox tersedia untuk <a href=\"%(linkWindows)s\">Windows</a>, <a href="
+"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
+"\"%(linkIOS)s\">iOS</a> dan <a href=\"%(linkLinux)s\">Linux</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -1147,6 +1153,9 @@ msgstr "Gunakan OpenID"
 msgid "Use Firefox Account"
 msgstr "Gunakan Akun Firefox"
 
+#~ msgid "Home"
+#~ msgstr "Beranda"
+
 #~ msgid "Missing parameter in request body: %(param)s"
 #~ msgstr "Parameter pada isi permintaan tidak ada: %(param)s"
 
@@ -1166,13 +1175,13 @@ msgstr "Gunakan Akun Firefox"
 #~ msgstr "Apakah anda yakin untuk menyetel ulang sandi akun anda?"
 
 #~ msgid ""
-#~ "Resetting your password will erase your browsing data from our servers. Any "
-#~ "data on your devices will remain untouched. Begin the reset process by "
-#~ "entering your email below."
+#~ "Resetting your password will erase your browsing data from our servers. "
+#~ "Any data on your devices will remain untouched. Begin the reset process "
+#~ "by entering your email below."
 #~ msgstr ""
-#~ "Menyetel ulang sandi akan menghapus data perambanan Anda dari server kami. "
-#~ "Data pada perangkat Anda akan tetap tak tersentuh. Memulai proses reset "
-#~ "dengan memasukkan email Anda di bawah ini."
+#~ "Menyetel ulang sandi akan menghapus data perambanan Anda dari server "
+#~ "kami. Data pada perangkat Anda akan tetap tak tersentuh. Memulai proses "
+#~ "reset dengan memasukkan email Anda di bawah ini."
 
 #~ msgid "Begin reset"
 #~ msgstr "Mulai setel ulang"
@@ -1233,9 +1242,9 @@ msgstr "Gunakan Akun Firefox"
 #~ "Accounts. Cookies are small pieces of data stored in your browser that "
 #~ "provide functionality such as remembering you between sessions."
 #~ msgstr ""
-#~ "Aktifkan kuki pada peramban Anda karena dibutuhkan oleh Akun Firefox. Kuki "
-#~ "merupakan data kecil yang disimpan pada peramban Anda, untuk menyediakan "
-#~ "fungsionalitas misalnya mengingat Anda antar sesi."
+#~ "Aktifkan kuki pada peramban Anda karena dibutuhkan oleh Akun Firefox. "
+#~ "Kuki merupakan data kecil yang disimpan pada peramban Anda, untuk "
+#~ "menyediakan fungsionalitas misalnya mengingat Anda antar sesi."
 
 #~ msgid "1991"
 #~ msgstr "1991"
@@ -1316,13 +1325,13 @@ msgstr "Gunakan Akun Firefox"
 #~ msgstr "Sudah punya akun? Masuk."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms "
-#~ "of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-#~ "Notice</a> of Firefox cloud services."
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Dengan melanjutkan, saya menyetujui <a id=\"fxa-tos\" "
-#~ "href=\"/legal/terms\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" "
-#~ "href=\"/legal/privacy\">Kebijakan Privasi</a> layanan awan Firefox."
+#~ "Dengan melanjutkan, saya menyetujui <a id=\"fxa-tos\" href=\"/legal/terms"
+#~ "\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy"
+#~ "\">Kebijakan Privasi</a> layanan awan Firefox."
 
 #~ msgid "missing search parameter: %(itemName)s"
 #~ msgstr "parameter pencarian tidak tersedia: %(itemName)s"
@@ -1330,7 +1339,9 @@ msgstr "Gunakan Akun Firefox"
 #~ msgid "Password changed"
 #~ msgstr "Sandi diubah"
 
-#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
+#~ msgid ""
+#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
+#~ "email</a>."
 #~ msgstr ""
 #~ "Akun belum diverifikasi. <a href=\"#\" id=\"resend\">Kirim ulang email "
 #~ "verifikasi</a>."

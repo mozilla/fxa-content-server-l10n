@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-19 12:15+0000\n"
+"POT-Creation-Date: 2016-05-31 04:13+0000\n"
 "PO-Revision-Date: 2016-05-19 21:56+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,7 @@ msgstr ""
 #: templates/_pending.txt:1 templates/verification_reminder_second.html:2
 #: templates/verification_reminder_second.txt:1
 #: templates/verify_reminder_second.html:2 mailer.js:416 mailer.js:444
+#: mailer.js:455
 msgid "Still there?"
 msgstr "¿Entá tas ende?"
 
@@ -44,9 +45,9 @@ msgid ""
 "make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
 "Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
 msgstr ""
-"Coneutesti con ésitu'l to primer preséu a la cuenta de Firefox. P'aprovechar"
-" al máximu Sync, coneuta <a href='%(androidUrl)s'>Firefox p'Android</a> o <a"
-" href='%(iosUrl)s'>Firefox pa iOS</a>."
+"Coneutesti con ésitu'l to primer preséu a la cuenta de Firefox. P'aprovechar "
+"al máximu Sync, coneuta <a href='%(androidUrl)s'>Firefox p'Android</a> o <a "
+"href='%(iosUrl)s'>Firefox pa iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -64,9 +65,8 @@ msgstr "Aniciar sesión en Sync"
 #: templates/verification_reminder_second.html:1 templates/verify.html:1
 #: templates/verify_reminder_first.html:1
 #: templates/verify_reminder_second.html:1 templates/verify_login.html:1
-#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
-#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
-#: server/templates/pages/src/503.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
 #: server/templates/pages/src/terms.html:1
@@ -75,7 +75,7 @@ msgstr "Cuentes de Firefox"
 
 #: templates/new_device_login.html:2 templates/new_device_login.txt:1
 #: mailer.js:338 templates/verify_login.html:2 templates/verify_login.txt:1
-#: mailer.js:367
+#: mailer.js:367 mailer.js:374
 msgid "New sign-in to Firefox"
 msgstr "Aniciu de sesión nuevu en Firefox"
 
@@ -98,8 +98,8 @@ msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>"
 msgstr ""
-"Pa más información, visita'l <a %(supportLinkAttributes)s>Sofitu de "
-"Mozilla</a> por favor"
+"Pa más información, visita'l <a %(supportLinkAttributes)s>Sofitu de Mozilla</"
+"a> por favor"
 
 #: templates/new_device_login.txt:2
 msgid ""
@@ -115,6 +115,7 @@ msgstr ""
 #: templates/reset.txt:6 templates/unlock.txt:4
 #: templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5
+#: templates/password_reset.txt:4
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Pa más información, visita %(supportUrl)s por favor"
 
@@ -170,10 +171,10 @@ msgstr "Reanicióse con ésitu la contraseña"
 msgid "Your Firefox Account password has been successfully reset."
 msgstr "Reanicióse con ésitu la contraseña de la to cuenta de Firefox."
 
-#: templates/password_reset.txt:4
+#: templates/password_reset.txt:4 templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox"
-" Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox "
+"Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 "Esto ye un corréu automatizáu. Si nun reaniciesti la contraseña de la to "
 "cuenta de Firefox, deberíes reaniciala nel intre en %(resetLink)s."
@@ -202,26 +203,26 @@ msgid "What should you do?"
 msgstr "¿Qué debería facer?"
 
 #: templates/password_reset_required.html:5
-#: templates/password_reset_required.txt:4
-#: templates/suspicious_location.html:7 templates/suspicious_location.txt:6
+#: templates/password_reset_required.txt:4 templates/suspicious_location.html:7
+#: templates/suspicious_location.txt:6
 msgid "First, change your Firefox Account password."
 msgstr "Primero, camuda la contraseña de la to cuenta de Firefox."
 
 #: templates/password_reset_required.html:6
-#: templates/password_reset_required.txt:5
-#: templates/suspicious_location.html:8 templates/suspicious_location.txt:7
+#: templates/password_reset_required.txt:5 templates/suspicious_location.html:8
+#: templates/suspicious_location.txt:7
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those "
 "passwords as well. Attackers may have access to those passwords, so you "
 "should check those accounts for suspicious activity."
 msgstr ""
 "Segundo, si Firefox atroxa contraseñes de sitios, deberíes de camudar eses "
-"contraseñes tamién. Los atacantes quiciabes tengan accesu a elles, asina que"
-" deberíes comprobar eses cuentes por actividá sospechosa."
+"contraseñes tamién. Los atacantes quiciabes tengan accesu a elles, asina que "
+"deberíes comprobar eses cuentes por actividá sospechosa."
 
 #: templates/password_reset_required.html:7
-#: templates/password_reset_required.txt:6
-#: templates/suspicious_location.html:9 templates/suspicious_location.txt:8
+#: templates/password_reset_required.txt:6 templates/suspicious_location.html:9
+#: templates/suspicious_location.txt:8
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "Depriendi cómo ver qué contraseñes ta atroxando Firefox pa ti."
 
@@ -250,7 +251,7 @@ msgstr "L'equipu de cuentes de Firefox"
 #: templates/verification_reminder_second.html:8
 #: templates/verification_reminder_second.txt:6 templates/verify.html:8
 #: templates/verify.txt:6 templates/verify_login.html:7
-#: templates/verify_login.txt:5
+#: templates/verify_login.txt:5 templates/password_reset.txt:5
 msgid "Mozilla Privacy Policy"
 msgstr "Política de privacidá de Mozilla"
 
@@ -286,8 +287,8 @@ msgstr "¿Escaeciesti la to contraseña?"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid ""
-"Click the button within the next hour to set a new password for your Firefox"
-" Account."
+"Click the button within the next hour to set a new password for your Firefox "
+"Account."
 msgstr ""
 "Primi'l botón dientro la próxima hora p'afitar una contraseña nueva a la to "
 "cuenta de Firefox."
@@ -363,6 +364,7 @@ msgstr "Verificar cuenta:"
 #: templates/verification_reminder_first.html:2
 #: templates/verification_reminder_first.txt:1
 #: templates/verify_reminder_first.html:2 mailer.js:413 mailer.js:441
+#: mailer.js:452
 msgid "Hello again."
 msgstr "Hola de nueves."
 
@@ -371,14 +373,14 @@ msgstr "Hola de nueves."
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history"
-" on any device connected to it. Simply confirm this email address to "
-"activate your account."
+"verified account lets you access your tabs, bookmarks, passwords and history "
+"on any device connected to it. Simply confirm this email address to activate "
+"your account."
 msgstr ""
 "Hai dellos díes creasti una cuenta de Firefox pero enxamás nun la "
 "verifiquesti. Una cuenta verificada déxate acceder a les tos llingüetes, "
-"marcadores, contraseñes ya hisotria en cualesquier preséu coneutáu con ello."
-" Namái confirma esta direición p'activar la to cuenta."
+"marcadores, contraseñes ya hisotria en cualesquier preséu coneutáu con ello. "
+"Namái confirma esta direición p'activar la to cuenta."
 
 #: templates/verification_reminder_first.html:4
 #: templates/verification_reminder_second.html:4 templates/verify.html:4
@@ -415,15 +417,15 @@ msgstr "Activar agora:"
 #: templates/verify_reminder_second.html:3
 msgid ""
 "A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and"
-" iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know"
-" you're okay."
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
+"iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know "
+"you're okay."
 msgstr ""
 "Hai una selmana creasti una cuenta de Firefox pero enxamás nun la "
 "verifiquesti. Tábemos esmolecíos. Firefox ta disponible pa Linux, Mac, "
-"Windows, Android ya iOS. Pues sincronizar les tos contraseñes, marcadores ya"
-" historia de Firefox pente toos ellos. Confirma esta direición de corréu "
+"Windows, Android ya iOS. Pues sincronizar les tos contraseñes, marcadores ya "
+"historia de Firefox pente toos ellos. Confirma esta direición de corréu "
 "p'activar la to cuenta y déxamos saber que tas bien."
 
 #: templates/verify.html:2 templates/verify.txt:1
@@ -433,6 +435,38 @@ msgstr "¡Bienllegáu!"
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
 msgstr "Activa la to cuenta confirmando esta direición de corréu, por favor."
+
+#: mailer.js:168 mailer.js:171 mailer.js:179
+msgid "Verify your Firefox Account"
+msgstr "Verifica la to cuenta de Firefox"
+
+#: mailer.js:201 mailer.js:244 mailer.js:252
+msgid "Reset your Firefox Account password"
+msgstr "Reaniciar la contraseña de la to cuenta de Firefox"
+
+#: mailer.js:236 mailer.js:278 mailer.js:286
+msgid "Re-verify your Firefox Account"
+msgstr "Volvi verificar la to cuenta de Firefox"
+
+#: mailer.js:269 mailer.js:299 mailer.js:307
+msgid "Your Firefox Account password has been changed"
+msgstr "Camudóse la contraseña de la to cuenta de Firefox"
+
+#: mailer.js:291 mailer.js:321 mailer.js:328
+msgid "Your Firefox Account password has been reset"
+msgstr "Reanicióse la contraseña de la to cuenta de Firefox"
+
+#: mailer.js:313 mailer.js:342 mailer.js:349
+msgid "Firefox Account password reset required"
+msgstr "Ríquese'l reaniciu de la contraseña de la cuenta de Firefox"
+
+#: mailer.js:366 mailer.js:395 mailer.js:404
+msgid "Firefox Account Verified"
+msgstr "Verificóse la cuenta de Firefox"
+
+#: mailer.js:401 mailer.js:429 mailer.js:440
+msgid "Suspicious activity with your Firefox Account"
+msgstr "Actividá sospechosa cola to cuenta de Firefox"
 
 #: config.js:146 config.js:151
 msgid "env"
@@ -446,38 +480,6 @@ msgstr "contentServer.url"
 #: log.js:7
 msgid "logging"
 msgstr "rexistru"
-
-#: mailer.js:168 mailer.js:171
-msgid "Verify your Firefox Account"
-msgstr "Verifica la to cuenta de Firefox"
-
-#: mailer.js:201 mailer.js:244
-msgid "Reset your Firefox Account password"
-msgstr "Reaniciar la contraseña de la to cuenta de Firefox"
-
-#: mailer.js:236 mailer.js:278
-msgid "Re-verify your Firefox Account"
-msgstr "Volvi verificar la to cuenta de Firefox"
-
-#: mailer.js:269 mailer.js:299
-msgid "Your Firefox Account password has been changed"
-msgstr "Camudóse la contraseña de la to cuenta de Firefox"
-
-#: mailer.js:291 mailer.js:321
-msgid "Your Firefox Account password has been reset"
-msgstr "Reanicióse la contraseña de la to cuenta de Firefox"
-
-#: mailer.js:313 mailer.js:342
-msgid "Firefox Account password reset required"
-msgstr "Ríquese'l reaniciu de la contraseña de la cuenta de Firefox"
-
-#: mailer.js:366 mailer.js:395
-msgid "Firefox Account Verified"
-msgstr "Verificóse la cuenta de Firefox"
-
-#: mailer.js:401 mailer.js:429
-msgid "Suspicious activity with your Firefox Account"
-msgstr "Actividá sospechosa cola to cuenta de Firefox"
 
 #: lib/db.js:21
 msgid "/"
@@ -498,17 +500,6 @@ msgid ""
 msgstr ""
 "Pa más información, por favor visita'l <a %(supportLinkAttributes)s>Sofitu "
 "de Mozilla</a>."
-
-#: templates/verification_reminder_second.html:3
-#: templates/verification_reminder_second.txt:2
-msgid ""
-"A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Confirm this email address to activate your account and "
-"let us know you're okay."
-msgstr ""
-"Hai una selmana que creasti la to cuenta de Firefox pero enxamás nun la "
-"verifiquesti. Tábemos esmolecíos. Confirma esta direición de corréu "
-"p'activar la to cuenta y saber que tas bien."
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid ""
@@ -532,19 +523,45 @@ msgstr ""
 
 #: templates/verify_login.txt:4
 msgid ""
-"If you suspect that someone is trying to gain access to your account, please"
-" change your password."
+"If you suspect that someone is trying to gain access to your account, please "
+"change your password."
 msgstr ""
-"Si sospeches que daquién ta tentando de consiguir accesu a la to cuenta. por"
-" favor camuda la contraseña."
+"Si sospeches que daquién ta tentando de consiguir accesu a la to cuenta. por "
+"favor camuda la contraseña."
 
-#: mailer.js:209
+#: mailer.js:209 mailer.js:217
 msgid "Confirm new sign-in to Firefox"
 msgstr "Confirmar aniciu de sesión nuevu en Firefox"
 
-#: server/templates/pages/src/400.html:2
-msgid "Bad Request"
-msgstr "Solicitú incorreuta"
+#: templates/password_changed.html:4
+msgid ""
+"This is an automated email; if you did not authorize this action, then <a "
+"%(resetLinkAttributes)s>please reset your password</a>."
+msgstr ""
+
+#: templates/password_reset.html:3
+msgid ""
+"Your Firefox Account password has changed. If you did not change it, please "
+"<a %(resetLinkAttributes)s>reset your password</a> now."
+msgstr ""
+
+#: templates/post_verify.html:3
+msgid ""
+"You successfully connected your first device to your Firefox Account. Now "
+"you can sign in to Sync from your other devices, including Firefox for <a "
+"%(androidLinkAttributes)s>Android</a> and <a %(iosLinkAttributes)s>iOS</a>."
+msgstr ""
+
+#: templates/verification_reminder_second.html:3
+#: templates/verification_reminder_second.txt:2
+msgid ""
+"A week ago you created a Firefox Account, but never verified it. We’re "
+"worried about you. Confirm this email address to activate your account and "
+"let us know you're okay."
+msgstr ""
+"Hai una selmana que creasti la to cuenta de Firefox pero enxamás nun la "
+"verifiquesti. Tábemos esmolecíos. Confirma esta direición de corréu "
+"p'activar la to cuenta y saber que tas bien."
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -593,13 +610,11 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a "
-"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
-"experience."
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
-"Tas usando un restolador <strong>non anováu</strong>. <a "
-"href=\"http://browsehappy.com/\">Anuévalu</a> p'ameyorar la to esperiencia, "
-"por favor."
+"Tas usando un restolador <strong>non anováu</strong>. <a href=\"http://"
+"browsehappy.com/\">Anuévalu</a> p'ameyorar la to esperiencia, por favor."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -620,16 +635,19 @@ msgstr "Servicios na ñube de Firefox"
 msgid "Terms of Service"
 msgstr "Términos del Serviciu"
 
+#~ msgid "Bad Request"
+#~ msgstr "Solicitú incorreuta"
+
 #~ msgid ""
 #~ "If you suspect that someone is trying to gain access to your account, <a "
 #~ "%(supportLinkAttributes)s>please report it to us</a>."
 #~ msgstr ""
-#~ "Si sospeches que daquién ta tentando de consiguir accesu a la to cuenta, <a "
-#~ "%(supportLinkAttributes)s> por favor infórmamos d'ello</a>."
+#~ "Si sospeches que daquién ta tentando de consiguir accesu a la to cuenta, "
+#~ "<a %(supportLinkAttributes)s> por favor infórmamos d'ello</a>."
 
 #~ msgid ""
-#~ "If you suspect that someone is trying to gain access to your account, please"
-#~ " report it to us."
+#~ "If you suspect that someone is trying to gain access to your account, "
+#~ "please report it to us."
 #~ msgstr ""
-#~ "Si sospeches que daquién ta tentando de consiguir accesu a la to cuenta, por"
-#~ " favor infórmamos d'ello."
+#~ "Si sospeches que daquién ta tentando de consiguir accesu a la to cuenta, "
+#~ "por favor infórmamos d'ello."

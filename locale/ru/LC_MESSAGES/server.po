@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-19 12:15+0000\n"
+"POT-Creation-Date: 2016-05-31 04:13+0000\n"
 "PO-Revision-Date: 2016-05-19 17:09+0000\n"
 "Last-Translator: bychek.ru <a@bychek.ru>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
@@ -11,13 +11,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1445690547.0\n"
 
 #: templates/_pending.txt:1 templates/verification_reminder_second.html:2
 #: templates/verification_reminder_second.txt:1
 #: templates/verify_reminder_second.html:2 mailer.js:416 mailer.js:444
+#: mailer.js:455
 msgid "Still there?"
 msgstr "Всё ещё здесь?"
 
@@ -26,8 +28,8 @@ msgid ""
 "A while ago you created a Firefox Account, but never verified it. Click the "
 "link below to activate your account."
 msgstr ""
-"Некоторое время назад вы создали Аккаунт Firefox, но никогда не подтверждали"
-" это. Щёлкните по ссылке ниже, чтобы активировать ваш аккаунт."
+"Некоторое время назад вы создали Аккаунт Firefox, но никогда не подтверждали "
+"это. Щёлкните по ссылке ниже, чтобы активировать ваш аккаунт."
 
 #: templates/_pending.txt:3 templates/post_verify.html:3
 msgid ""
@@ -35,8 +37,8 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for <a "
 "href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Вы успешно подключили первое устройство к своему Аккаунту Firefox. Теперь вы"
-" можете войти в Синхронизацию с других своих устройств, в том числе Firefox "
+"Вы успешно подключили первое устройство к своему Аккаунту Firefox. Теперь вы "
+"можете войти в Синхронизацию с других своих устройств, в том числе Firefox "
 "для <a href='%(androidUrl)s'>Android</a> и <a href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
@@ -66,9 +68,8 @@ msgstr "Войти в Синхронизацию"
 #: templates/verification_reminder_second.html:1 templates/verify.html:1
 #: templates/verify_reminder_first.html:1
 #: templates/verify_reminder_second.html:1 templates/verify_login.html:1
-#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
-#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
-#: server/templates/pages/src/503.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
 #: server/templates/pages/src/terms.html:1
@@ -77,7 +78,7 @@ msgstr "Аккаунты Firefox"
 
 #: templates/new_device_login.html:2 templates/new_device_login.txt:1
 #: mailer.js:338 templates/verify_login.html:2 templates/verify_login.txt:1
-#: mailer.js:367
+#: mailer.js:367 mailer.js:374
 msgid "New sign-in to Firefox"
 msgstr "Новый вход в Firefox"
 
@@ -117,6 +118,7 @@ msgstr ""
 #: templates/reset.txt:6 templates/unlock.txt:4
 #: templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5
+#: templates/password_reset.txt:4
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Для получения большей информации, посетите %(supportUrl)s"
 
@@ -145,8 +147,8 @@ msgid ""
 "Your Firefox Account password has changed. If you did not change it, please "
 "<a href='%(resetLink)s'>reset your password</a> now."
 msgstr ""
-"Пароль вашего Firefox аккаунта изменился. Если вы его не меняли, пожалуйста,"
-" <a href='%(resetLink)s'>сбросьте ваш пароль</a> сейчас."
+"Пароль вашего Firefox аккаунта изменился. Если вы его не меняли, пожалуйста, "
+"<a href='%(resetLink)s'>сбросьте ваш пароль</a> сейчас."
 
 #: templates/password_reset.html:4 templates/post_verify.html:6
 #: templates/post_verify.txt:4 templates/reset.html:7 templates/reset.txt:5
@@ -172,10 +174,10 @@ msgstr "Пароль успешно восстановлен"
 msgid "Your Firefox Account password has been successfully reset."
 msgstr "Пароль вашего Аккаунта Firefox был успешно восстановлен."
 
-#: templates/password_reset.txt:4
+#: templates/password_reset.txt:4 templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox"
-" Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox "
+"Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 "Это автоматическое сообщение; если вы не восстанавливали пароль на ваш "
 "Аккаунт Firefox, вы должны немедленно восстановить его через %(resetLink)s."
@@ -195,8 +197,8 @@ msgid ""
 "To prevent further unauthorized access to your Firefox Account, we’ve reset "
 "your password and are notifying you as a precaution."
 msgstr ""
-"Во избежание дальнейшего несанкционированного доступа к вашей учетной записи"
-" Firefox, мы изменили ваш пароль и хотим предупредить вас об этом."
+"Во избежание дальнейшего несанкционированного доступа к вашей учетной записи "
+"Firefox, мы изменили ваш пароль и хотим предупредить вас об этом."
 
 #: templates/password_reset_required.html:4
 #: templates/password_reset_required.txt:3
@@ -204,14 +206,14 @@ msgid "What should you do?"
 msgstr "Как вам поступить?"
 
 #: templates/password_reset_required.html:5
-#: templates/password_reset_required.txt:4
-#: templates/suspicious_location.html:7 templates/suspicious_location.txt:6
+#: templates/password_reset_required.txt:4 templates/suspicious_location.html:7
+#: templates/suspicious_location.txt:6
 msgid "First, change your Firefox Account password."
 msgstr "Сначала измените пароль своей учетной записи Firefox."
 
 #: templates/password_reset_required.html:6
-#: templates/password_reset_required.txt:5
-#: templates/suspicious_location.html:8 templates/suspicious_location.txt:7
+#: templates/password_reset_required.txt:5 templates/suspicious_location.html:8
+#: templates/suspicious_location.txt:7
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those "
 "passwords as well. Attackers may have access to those passwords, so you "
@@ -219,12 +221,11 @@ msgid ""
 msgstr ""
 "Затем, если ваш Firefox сохраняет пароли к веб-сайтам, эти пароли также "
 "следует изменить. Нарушители могли иметь доступ к этим паролям, поэтому "
-"необходимо также проверить на подозрительную активность и эти учетные "
-"записи."
+"необходимо также проверить на подозрительную активность и эти учетные записи."
 
 #: templates/password_reset_required.html:7
-#: templates/password_reset_required.txt:6
-#: templates/suspicious_location.html:9 templates/suspicious_location.txt:8
+#: templates/password_reset_required.txt:6 templates/suspicious_location.html:9
+#: templates/suspicious_location.txt:8
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "Узнайте, как просмотреть, какие пароли Firefox сохраняет для вас."
 
@@ -253,7 +254,7 @@ msgstr "Команда Firefox Accounts"
 #: templates/verification_reminder_second.html:8
 #: templates/verification_reminder_second.txt:6 templates/verify.html:8
 #: templates/verify.txt:6 templates/verify_login.html:7
-#: templates/verify_login.txt:5
+#: templates/verify_login.txt:5 templates/password_reset.txt:5
 msgid "Mozilla Privacy Policy"
 msgstr "Политика конфиденциальности Mozilla"
 
@@ -275,9 +276,9 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for "
 "Android and iOS."
 msgstr ""
-"Вы успешно подключили первое устройство к своему Аккаунту Firefox. Теперь вы"
-" можете войти в Синхронизацию с других своих устройств, в том числе с "
-"Firefox для Android и iOS."
+"Вы успешно подключили первое устройство к своему Аккаунту Firefox. Теперь вы "
+"можете войти в Синхронизацию с других своих устройств, в том числе с Firefox "
+"для Android и iOS."
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
@@ -289,11 +290,11 @@ msgstr "Забыли ваш пароль?"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid ""
-"Click the button within the next hour to set a new password for your Firefox"
-" Account."
+"Click the button within the next hour to set a new password for your Firefox "
+"Account."
 msgstr ""
-"Нажмите на кнопку в тексте в течение часа, чтобы установить новый пароль для"
-" вашего Firefox аккаунта."
+"Нажмите на кнопку в тексте в течение часа, чтобы установить новый пароль для "
+"вашего Firefox аккаунта."
 
 #: templates/reset.html:4 templates/reset.txt:3
 msgid "Remember password? Sign in."
@@ -309,8 +310,8 @@ msgid ""
 "in the last 60 days? If you don’t recognize these locations, someone else "
 "may have accessed your Firefox Account."
 msgstr ""
-"Возможно, за последние 60 дней вы входили в учетную запись Firefox из одного"
-" из нижеуказанных местоположений? Если вы не узнаете указанные "
+"Возможно, за последние 60 дней вы входили в учетную запись Firefox из одного "
+"из нижеуказанных местоположений? Если вы не узнаете указанные "
 "местоположения, возможно, кто-то другой пытался получить доступ к вашей "
 "учетной записи Firefox."
 
@@ -353,8 +354,8 @@ msgid ""
 "now."
 msgstr ""
 "По соображениям безопасности ваш Аккаунт Firefox был поставлен на "
-"блокировку. Для выполнения действий на уровне аккаунта, пожалуйста, щёлкните"
-" по ссылке, чтобы вновь подтвердить свой аккаунт."
+"блокировку. Для выполнения действий на уровне аккаунта, пожалуйста, щёлкните "
+"по ссылке, чтобы вновь подтвердить свой аккаунт."
 
 #: templates/unlock.html:4
 msgid "Verify account"
@@ -367,6 +368,7 @@ msgstr "Подтвердить аккаунт:"
 #: templates/verification_reminder_first.html:2
 #: templates/verification_reminder_first.txt:1
 #: templates/verify_reminder_first.html:2 mailer.js:413 mailer.js:441
+#: mailer.js:452
 msgid "Hello again."
 msgstr "И снова привет."
 
@@ -375,9 +377,9 @@ msgstr "И снова привет."
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history"
-" on any device connected to it. Simply confirm this email address to "
-"activate your account."
+"verified account lets you access your tabs, bookmarks, passwords and history "
+"on any device connected to it. Simply confirm this email address to activate "
+"your account."
 msgstr ""
 "Несколько дней назад вы создали аккаунт Firefox, но не подтвердили его. "
 "Подтверждённый аккаунт позволит вам получить доступ к вкладкам, закладкам, "
@@ -419,10 +421,10 @@ msgstr "Активировать сейчас:"
 #: templates/verify_reminder_second.html:3
 msgid ""
 "A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and"
-" iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know"
-" you're okay."
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
+"iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know "
+"you're okay."
 msgstr ""
 "Неделю назад вы создали аккаунт Firefox, но не подтвердили его. Мы о вас "
 "беспокоимся. Firefox доступен на Windows, Mac, Linux, Android и iOS. Вы "
@@ -440,6 +442,38 @@ msgstr ""
 "Пожалуйста, активируйте свой аккаунт, подтвердив этот адрес электронной "
 "почты."
 
+#: mailer.js:168 mailer.js:171 mailer.js:179
+msgid "Verify your Firefox Account"
+msgstr "Подтвердить ваш Аккаунт Firefox"
+
+#: mailer.js:201 mailer.js:244 mailer.js:252
+msgid "Reset your Firefox Account password"
+msgstr "Восстановить пароль вашего Аккаунта Firefox"
+
+#: mailer.js:236 mailer.js:278 mailer.js:286
+msgid "Re-verify your Firefox Account"
+msgstr "Повторно подтвердить ваш Аккаунт Firefox"
+
+#: mailer.js:269 mailer.js:299 mailer.js:307
+msgid "Your Firefox Account password has been changed"
+msgstr "Пароль вашего Аккаунта Firefox был изменён"
+
+#: mailer.js:291 mailer.js:321 mailer.js:328
+msgid "Your Firefox Account password has been reset"
+msgstr "Пароль вашего Аккаунта Firefox был восстановлен"
+
+#: mailer.js:313 mailer.js:342 mailer.js:349
+msgid "Firefox Account password reset required"
+msgstr "Необходимо изменить пароль учетной записи Firefox"
+
+#: mailer.js:366 mailer.js:395 mailer.js:404
+msgid "Firefox Account Verified"
+msgstr "Аккаунт Firefox подтверждён"
+
+#: mailer.js:401 mailer.js:429 mailer.js:440
+msgid "Suspicious activity with your Firefox Account"
+msgstr "Подозрительная активность в вашей учетной записи Firefox"
+
 #: config.js:146 config.js:151
 msgid "env"
 msgstr "env"
@@ -452,38 +486,6 @@ msgstr "contentServer.url"
 #: log.js:7
 msgid "logging"
 msgstr "логирование"
-
-#: mailer.js:168 mailer.js:171
-msgid "Verify your Firefox Account"
-msgstr "Подтвердить ваш Аккаунт Firefox"
-
-#: mailer.js:201 mailer.js:244
-msgid "Reset your Firefox Account password"
-msgstr "Восстановить пароль вашего Аккаунта Firefox"
-
-#: mailer.js:236 mailer.js:278
-msgid "Re-verify your Firefox Account"
-msgstr "Повторно подтвердить ваш Аккаунт Firefox"
-
-#: mailer.js:269 mailer.js:299
-msgid "Your Firefox Account password has been changed"
-msgstr "Пароль вашего Аккаунта Firefox был изменён"
-
-#: mailer.js:291 mailer.js:321
-msgid "Your Firefox Account password has been reset"
-msgstr "Пароль вашего Аккаунта Firefox был восстановлен"
-
-#: mailer.js:313 mailer.js:342
-msgid "Firefox Account password reset required"
-msgstr "Необходимо изменить пароль учетной записи Firefox"
-
-#: mailer.js:366 mailer.js:395
-msgid "Firefox Account Verified"
-msgstr "Аккаунт Firefox подтверждён"
-
-#: mailer.js:401 mailer.js:429
-msgid "Suspicious activity with your Firefox Account"
-msgstr "Подозрительная активность в вашей учетной записи Firefox"
 
 #: lib/db.js:21
 msgid "/"
@@ -505,17 +507,6 @@ msgstr ""
 "Для получения более подробной информации, посетите <a "
 "%(supportLinkAttributes)s>Поддержку Mozilla</a>."
 
-#: templates/verification_reminder_second.html:3
-#: templates/verification_reminder_second.txt:2
-msgid ""
-"A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Confirm this email address to activate your account and "
-"let us know you're okay."
-msgstr ""
-"Неделю назад вы создали учетную запись Firefox, но ещё не подтвердили её. Мы"
-" обеспокоены. Подтвердите этот адрес электронной почты для активации вашей "
-"учетной записи и дайте нам знать, что вы в порядке."
-
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid ""
 "For added security, please confirm this sign-in to begin syncing with "
@@ -533,24 +524,50 @@ msgid ""
 "If you suspect that someone is trying to gain access to your account, <a "
 "%(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr ""
-"Если вы подозреваете, что кто-то пытается получить доступ к вашему аккаунту,"
-" <a %(passwordChangeLinkAttributes)s>пожалуйста, измените ваш пароль</a>."
+"Если вы подозреваете, что кто-то пытается получить доступ к вашему аккаунту, "
+"<a %(passwordChangeLinkAttributes)s>пожалуйста, измените ваш пароль</a>."
 
 #: templates/verify_login.txt:4
 msgid ""
-"If you suspect that someone is trying to gain access to your account, please"
-" change your password."
+"If you suspect that someone is trying to gain access to your account, please "
+"change your password."
 msgstr ""
-"Если вы подозреваете, что кто-то пытается получить доступ к вашему аккаунту,"
-" пожалуйста, измените ваш пароль."
+"Если вы подозреваете, что кто-то пытается получить доступ к вашему аккаунту, "
+"пожалуйста, измените ваш пароль."
 
-#: mailer.js:209
+#: mailer.js:209 mailer.js:217
 msgid "Confirm new sign-in to Firefox"
 msgstr "Подтвердить новый вход в Firefox"
 
-#: server/templates/pages/src/400.html:2
-msgid "Bad Request"
-msgstr "Ошибочный запрос"
+#: templates/password_changed.html:4
+msgid ""
+"This is an automated email; if you did not authorize this action, then <a "
+"%(resetLinkAttributes)s>please reset your password</a>."
+msgstr ""
+
+#: templates/password_reset.html:3
+msgid ""
+"Your Firefox Account password has changed. If you did not change it, please "
+"<a %(resetLinkAttributes)s>reset your password</a> now."
+msgstr ""
+
+#: templates/post_verify.html:3
+msgid ""
+"You successfully connected your first device to your Firefox Account. Now "
+"you can sign in to Sync from your other devices, including Firefox for <a "
+"%(androidLinkAttributes)s>Android</a> and <a %(iosLinkAttributes)s>iOS</a>."
+msgstr ""
+
+#: templates/verification_reminder_second.html:3
+#: templates/verification_reminder_second.txt:2
+msgid ""
+"A week ago you created a Firefox Account, but never verified it. We’re "
+"worried about you. Confirm this email address to activate your account and "
+"let us know you're okay."
+msgstr ""
+"Неделю назад вы создали учетную запись Firefox, но ещё не подтвердили её. Мы "
+"обеспокоены. Подтвердите этот адрес электронной почты для активации вашей "
+"учетной записи и дайте нам знать, что вы в порядке."
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -601,13 +618,12 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a "
-"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
-"experience."
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
-"Вы используете <strong>устаревший</strong> браузер. Пожалуйста, <a "
-"href=\"http://browsehappy.com/\">обновите ваш браузер</a>, чтобы улучшить "
-"свою работу."
+"Вы используете <strong>устаревший</strong> браузер. Пожалуйста, <a href="
+"\"http://browsehappy.com/\">обновите ваш браузер</a>, чтобы улучшить свою "
+"работу."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -628,19 +644,22 @@ msgstr "Облачные службы Firefox"
 msgid "Terms of Service"
 msgstr "Условия службы"
 
+#~ msgid "Bad Request"
+#~ msgstr "Ошибочный запрос"
+
 #~ msgid ""
 #~ "If you suspect that someone is trying to gain access to your account, <a "
 #~ "%(supportLinkAttributes)s>please report it to us</a>."
 #~ msgstr ""
-#~ "Если вы подозреваете, что кто-то пытается получить доступ к вашему аккаунту,"
-#~ " <a %(supportLinkAttributes)s>пожалуйста, сообщите нам</a>."
+#~ "Если вы подозреваете, что кто-то пытается получить доступ к вашему "
+#~ "аккаунту, <a %(supportLinkAttributes)s>пожалуйста, сообщите нам</a>."
 
 #~ msgid ""
-#~ "If you suspect that someone is trying to gain access to your account, please"
-#~ " report it to us."
+#~ "If you suspect that someone is trying to gain access to your account, "
+#~ "please report it to us."
 #~ msgstr ""
-#~ "Если вы подозреваете, что кто-то пытается получить доступ к вашему аккаунту,"
-#~ " пожалуйста, сообщите нам."
+#~ "Если вы подозреваете, что кто-то пытается получить доступ к вашему "
+#~ "аккаунту, пожалуйста, сообщите нам."
 
 #~ msgid ""
 #~ "A device began syncing with the devices connected to your Firefox Account."
@@ -679,11 +698,11 @@ msgstr "Условия службы"
 #~ "пожалуйста, <a %(passwordChangeUrl)s>смените свой пароль.</a>"
 
 #~ msgid ""
-#~ "For more information, please visit <a "
-#~ "href='https://support.mozilla.org'>Mozilla Support</a>"
+#~ "For more information, please visit <a href='https://support.mozilla."
+#~ "org'>Mozilla Support</a>"
 #~ msgstr ""
-#~ "Для получения большей информации, посетите <a "
-#~ "href='https://support.mozilla.org'>Сайт поддержки Mozilla</a>"
+#~ "Для получения большей информации, посетите <a href='https://support."
+#~ "mozilla.org'>Сайт поддержки Mozilla</a>"
 
 #~ msgid "Reset password:"
 #~ msgstr "Восстановить пароль:"
@@ -695,8 +714,10 @@ msgstr "Условия службы"
 #~ msgid "Almost there"
 #~ msgstr "Почти закончили"
 
-#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
-#~ msgstr "%(email)s, вы в одном шаге от подтверждения вашего Firefox Аккаунта."
+#~ msgid ""
+#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgstr ""
+#~ "%(email)s, вы в одном шаге от подтверждения вашего Firefox Аккаунта."
 
 #~ msgid "Verify"
 #~ msgstr "Подтвердите"
@@ -721,8 +742,8 @@ msgstr "Условия службы"
 #~ "сейчас синхронизируется новое устройство."
 
 #~ msgid ""
-#~ "This is an automated email; if you didn't add a new device to your Firefox "
-#~ "Account, you should change your password immediately at <a "
+#~ "This is an automated email; if you didn't add a new device to your "
+#~ "Firefox Account, you should change your password immediately at <a "
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr ""
 #~ "Это автоматическое сообщение; если вы не добавляли новое устройство в ваш "
@@ -739,8 +760,8 @@ msgstr "Условия службы"
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 
 #~ msgid ""
-#~ "This is an automated email; if you didn't reset the password to your Firefox"
-#~ " Account, you should reset it immediately at <a "
+#~ "This is an automated email; if you didn't reset the password to your "
+#~ "Firefox Account, you should reset it immediately at <a "
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr ""
 #~ "Это автоматическое сообщение; если вы не восстанавливали пароль на ваш "
@@ -758,8 +779,8 @@ msgstr "Условия службы"
 #~ "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
 #~ msgstr ""
 #~ "Для получения более подробной информации, пожалуйста, посетите <a "
-#~ "href='https://support.mozilla.org' style='color: #0095dd; text-decoration: "
-#~ "none;'>Поддержку Mozilla</a>"
+#~ "href='https://support.mozilla.org' style='color: #0095dd; text-"
+#~ "decoration: none;'>Поддержку Mozilla</a>"
 
 #~ msgid ""
 #~ "For more information, please visit <a href='%(supportUrl)s' style='color: "
@@ -779,8 +800,8 @@ msgstr "Условия службы"
 #~ msgstr "Система недоступна, подождите и повторите попытку"
 
 #~ msgid ""
-#~ "We are currently performing some maintenance on the system, and will return "
-#~ "momentarily."
+#~ "We are currently performing some maintenance on the system, and will "
+#~ "return momentarily."
 #~ msgstr ""
 #~ "Сейчас мы производим обслуживание системы и очень скоро вернем её в строй."
 

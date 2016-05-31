@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-19 12:15+0000\n"
+"POT-Creation-Date: 2016-05-31 04:13+0000\n"
 "PO-Revision-Date: 2016-05-19 18:13+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,13 +11,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444481448.0\n"
 
 #: templates/_pending.txt:1 templates/verification_reminder_second.html:2
 #: templates/verification_reminder_second.txt:1
 #: templates/verify_reminder_second.html:2 mailer.js:416 mailer.js:444
+#: mailer.js:455
 msgid "Still there?"
 msgstr "Sće hišće tu?"
 
@@ -35,8 +37,8 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for <a "
 "href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Sće swój prěni grat wuspěšnje ze swojim kontom Firefox zwjazał. Nětko móžeće"
-" so pola Sync z druhich gratow přizjewić, inkluziwnje Firefox za <a "
+"Sće swój prěni grat wuspěšnje ze swojim kontom Firefox zwjazał. Nětko móžeće "
+"so pola Sync z druhich gratow přizjewić, inkluziwnje Firefox za <a "
 "href='%(androidUrl)s'>Android</a> a <a href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
@@ -65,9 +67,8 @@ msgstr "Pola Sync přizjewić"
 #: templates/verification_reminder_second.html:1 templates/verify.html:1
 #: templates/verify_reminder_first.html:1
 #: templates/verify_reminder_second.html:1 templates/verify_login.html:1
-#: server/templates/pages/src/400.html:1 server/templates/pages/src/404.html:1
-#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
-#: server/templates/pages/src/503.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1
 #: server/templates/pages/src/terms.html:1
@@ -76,7 +77,7 @@ msgstr "Firefox Accounts"
 
 #: templates/new_device_login.html:2 templates/new_device_login.txt:1
 #: mailer.js:338 templates/verify_login.html:2 templates/verify_login.txt:1
-#: mailer.js:367
+#: mailer.js:367 mailer.js:374
 msgid "New sign-in to Firefox"
 msgstr "Nowe přizjewjenje pola Firefox"
 
@@ -115,6 +116,7 @@ msgstr ""
 #: templates/reset.txt:6 templates/unlock.txt:4
 #: templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5
+#: templates/password_reset.txt:4
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Za dalše informacije hlejće %(supportUrl)s"
 
@@ -131,8 +133,8 @@ msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
-"To je awtomatiska e-mejlka; jeli njejsće hesło swojeho konta Firefox změnił,"
-" měł wy jo hnydom na %(resetLink)s wróćo stajić."
+"To je awtomatiska e-mejlka; jeli njejsće hesło swojeho konta Firefox změnił, "
+"měł wy jo hnydom na %(resetLink)s wróćo stajić."
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
@@ -170,10 +172,10 @@ msgstr "Hesło je so wuspěšnje wróćo stajiło"
 msgid "Your Firefox Account password has been successfully reset."
 msgstr "Hesło wašeho konta Firefox je so wuspěšnje wróćo stajiło."
 
-#: templates/password_reset.txt:4
+#: templates/password_reset.txt:4 templates/password_reset.txt:3
 msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox"
-" Account, you should reset it immediately at %(resetLink)s."
+"This is an automated email; if you didn’t reset the password to your Firefox "
+"Account, you should reset it immediately at %(resetLink)s."
 msgstr ""
 "To je awtomatiska e-mejlka; jeli njejsće hesło swojeho konta Firefox wróćo "
 "stajił, měł wy jo hnydom na %(resetLink)s wróćo stajić."
@@ -202,14 +204,14 @@ msgid "What should you do?"
 msgstr "Što dyrbjał wy nětko činić?"
 
 #: templates/password_reset_required.html:5
-#: templates/password_reset_required.txt:4
-#: templates/suspicious_location.html:7 templates/suspicious_location.txt:6
+#: templates/password_reset_required.txt:4 templates/suspicious_location.html:7
+#: templates/suspicious_location.txt:6
 msgid "First, change your Firefox Account password."
 msgstr "Změńće jako prěnje swoje hesło za konto Firefox."
 
 #: templates/password_reset_required.html:6
-#: templates/password_reset_required.txt:5
-#: templates/suspicious_location.html:8 templates/suspicious_location.txt:7
+#: templates/password_reset_required.txt:5 templates/suspicious_location.html:8
+#: templates/suspicious_location.txt:7
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those "
 "passwords as well. Attackers may have access to those passwords, so you "
@@ -220,8 +222,8 @@ msgstr ""
 "dyrbjał tute konta za podhladnej aktiwitu přepruwować."
 
 #: templates/password_reset_required.html:7
-#: templates/password_reset_required.txt:6
-#: templates/suspicious_location.html:9 templates/suspicious_location.txt:8
+#: templates/password_reset_required.txt:6 templates/suspicious_location.html:9
+#: templates/suspicious_location.txt:8
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "Zhońće, kak móžeće spóznać, kotre hesła Firefox za was składuje."
 
@@ -250,7 +252,7 @@ msgstr "Team Firefox Accounts"
 #: templates/verification_reminder_second.html:8
 #: templates/verification_reminder_second.txt:6 templates/verify.html:8
 #: templates/verify.txt:6 templates/verify_login.html:7
-#: templates/verify_login.txt:5
+#: templates/verify_login.txt:5 templates/password_reset.txt:5
 msgid "Mozilla Privacy Policy"
 msgstr "Prawidła priwatnosće Mozilla"
 
@@ -272,8 +274,8 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for "
 "Android and iOS."
 msgstr ""
-"Sće swój prěni grat wuspěšnje ze swojim kontom Firefox zwjazał. Nětko móžeće"
-" so pola Sync ze swojich druhich gratow přizjewić, inkluziwnje Firefox za "
+"Sće swój prěni grat wuspěšnje ze swojim kontom Firefox zwjazał. Nětko móžeće "
+"so pola Sync ze swojich druhich gratow přizjewić, inkluziwnje Firefox za "
 "Android a iOS."
 
 #: templates/post_verify.txt:3
@@ -286,11 +288,11 @@ msgstr "Sće swoje hesło zabył?"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid ""
-"Click the button within the next hour to set a new password for your Firefox"
-" Account."
+"Click the button within the next hour to set a new password for your Firefox "
+"Account."
 msgstr ""
-"Klikńće na tłóčatko za přichodnu hodźinu, zo byšće nowe hesło za swoje konto"
-" Firefox postajił."
+"Klikńće na tłóčatko za přichodnu hodźinu, zo byšće nowe hesło za swoje konto "
+"Firefox postajił."
 
 #: templates/reset.html:4 templates/reset.txt:3
 msgid "Remember password? Sign in."
@@ -363,6 +365,7 @@ msgstr "Konto přepruwować:"
 #: templates/verification_reminder_first.html:2
 #: templates/verification_reminder_first.txt:1
 #: templates/verify_reminder_first.html:2 mailer.js:413 mailer.js:441
+#: mailer.js:452
 msgid "Hello again."
 msgstr "Witaj hišće raz."
 
@@ -371,14 +374,14 @@ msgstr "Witaj hišće raz."
 #: templates/verify_reminder_first.html:3
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history"
-" on any device connected to it. Simply confirm this email address to "
-"activate your account."
+"verified account lets you access your tabs, bookmarks, passwords and history "
+"on any device connected to it. Simply confirm this email address to activate "
+"your account."
 msgstr ""
-"Před por dnjemi sće konto Firefox załožił, ale njejsće jo ženje wobkrućił. Z"
-" wobkrućenym kontom maće přistup na swoje rajtarki, zapołožki, hesła a "
-"historiju na kóždym graće, kotryž je z nim zwjazany. Wokrućće prosće tutu "
-"e-mejlowu adresu, zo byšće swoje konto aktiwizował."
+"Před por dnjemi sće konto Firefox załožił, ale njejsće jo ženje wobkrućił. Z "
+"wobkrućenym kontom maće přistup na swoje rajtarki, zapołožki, hesła a "
+"historiju na kóždym graće, kotryž je z nim zwjazany. Wokrućće prosće tutu e-"
+"mejlowu adresu, zo byšće swoje konto aktiwizował."
 
 #: templates/verification_reminder_first.html:4
 #: templates/verification_reminder_second.html:4 templates/verify.html:4
@@ -417,10 +420,10 @@ msgstr "Nětko aktiwizować:"
 #: templates/verify_reminder_second.html:3
 msgid ""
 "A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and"
-" iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know"
-" you're okay."
+"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
+"iOS. You can sync your Firefox passwords, bookmarks and history across all "
+"of them. Confirm this email address to activate your account and let us know "
+"you're okay."
 msgstr ""
 "Tydźenja sće konto Firefox załožił, ale njejśce jo wobkrućił. Starosćimy so "
 "wo was. Firefox je za Windows, Mac, Linux, Android a iOS k dispoziciji. "
@@ -437,6 +440,38 @@ msgid "Please activate your account by confirming this email address."
 msgstr ""
 "Prošu aktiwizujće swoje konto, zo byšće tutu e-mejlowu adresu wobkrućił."
 
+#: mailer.js:168 mailer.js:171 mailer.js:179
+msgid "Verify your Firefox Account"
+msgstr "Wobkrućće swoje konto Firefox"
+
+#: mailer.js:201 mailer.js:244 mailer.js:252
+msgid "Reset your Firefox Account password"
+msgstr "Stajće hesło swojeho konta Firefox wróćo"
+
+#: mailer.js:236 mailer.js:278 mailer.js:286
+msgid "Re-verify your Firefox Account"
+msgstr "Wobkrućće swoje konto Firefox hišće raz"
+
+#: mailer.js:269 mailer.js:299 mailer.js:307
+msgid "Your Firefox Account password has been changed"
+msgstr "Hesło wašeho konta Firefox je so změniło"
+
+#: mailer.js:291 mailer.js:321 mailer.js:328
+msgid "Your Firefox Account password has been reset"
+msgstr "Hesło wašeho konta Firefox je so wróćo stajiło"
+
+#: mailer.js:313 mailer.js:342 mailer.js:349
+msgid "Firefox Account password reset required"
+msgstr "Hesło konta Firefox dyrbi so wróćo stajić"
+
+#: mailer.js:366 mailer.js:395 mailer.js:404
+msgid "Firefox Account Verified"
+msgstr "Konto Firefox wobkrućene"
+
+#: mailer.js:401 mailer.js:429 mailer.js:440
+msgid "Suspicious activity with your Firefox Account"
+msgstr "Podhladna aktiwita na wašim konće Firefox"
+
 #: config.js:146 config.js:151
 msgid "env"
 msgstr "env"
@@ -449,38 +484,6 @@ msgstr "contentServer.url"
 #: log.js:7
 msgid "logging"
 msgstr "protokolowanje"
-
-#: mailer.js:168 mailer.js:171
-msgid "Verify your Firefox Account"
-msgstr "Wobkrućće swoje konto Firefox"
-
-#: mailer.js:201 mailer.js:244
-msgid "Reset your Firefox Account password"
-msgstr "Stajće hesło swojeho konta Firefox wróćo"
-
-#: mailer.js:236 mailer.js:278
-msgid "Re-verify your Firefox Account"
-msgstr "Wobkrućće swoje konto Firefox hišće raz"
-
-#: mailer.js:269 mailer.js:299
-msgid "Your Firefox Account password has been changed"
-msgstr "Hesło wašeho konta Firefox je so změniło"
-
-#: mailer.js:291 mailer.js:321
-msgid "Your Firefox Account password has been reset"
-msgstr "Hesło wašeho konta Firefox je so wróćo stajiło"
-
-#: mailer.js:313 mailer.js:342
-msgid "Firefox Account password reset required"
-msgstr "Hesło konta Firefox dyrbi so wróćo stajić"
-
-#: mailer.js:366 mailer.js:395
-msgid "Firefox Account Verified"
-msgstr "Konto Firefox wobkrućene"
-
-#: mailer.js:401 mailer.js:429
-msgid "Suspicious activity with your Firefox Account"
-msgstr "Podhladna aktiwita na wašim konće Firefox"
 
 #: lib/db.js:21
 msgid "/"
@@ -502,24 +505,13 @@ msgstr ""
 "Za dalše informacije, wopytajće prošu <a %(supportLinkAttributes)s>Pomoc "
 "Mozilla</a>."
 
-#: templates/verification_reminder_second.html:3
-#: templates/verification_reminder_second.txt:2
-msgid ""
-"A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Confirm this email address to activate your account and "
-"let us know you're okay."
-msgstr ""
-"Před tydźenjom sće konto Firefox załožił, ale nichtó njeje jo přepruwował. "
-"Starosćimy so wo was. Wobkrućće prošu e-mejlowu adresu, zo byšće swoje konto"
-" aktiwizował a zdźělće nam, hač wšitko je w porjadku."
-
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid ""
 "For added security, please confirm this sign-in to begin syncing with "
 "%(device)s."
 msgstr ""
-"Prošu wobkrućće za přidatnu wěstotu tute přizjewjenje, zo byšće z %(device)s"
-" synchronizował."
+"Prošu wobkrućće za přidatnu wěstotu tute přizjewjenje, zo byšće z %(device)s "
+"synchronizował."
 
 #: templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "Confirm sign-in"
@@ -535,19 +527,45 @@ msgstr ""
 
 #: templates/verify_login.txt:4
 msgid ""
-"If you suspect that someone is trying to gain access to your account, please"
-" change your password."
+"If you suspect that someone is trying to gain access to your account, please "
+"change your password."
 msgstr ""
-"Jeli měniće, zo něchtó pospytuje, přistup na waše konto dóstać, prošu změńće"
-" swoje hesło."
+"Jeli měniće, zo něchtó pospytuje, přistup na waše konto dóstać, prošu změńće "
+"swoje hesło."
 
-#: mailer.js:209
+#: mailer.js:209 mailer.js:217
 msgid "Confirm new sign-in to Firefox"
 msgstr "Nowe přizjewjenje pola Firefox wobkrućić"
 
-#: server/templates/pages/src/400.html:2
-msgid "Bad Request"
-msgstr "Špatne naprašowanje"
+#: templates/password_changed.html:4
+msgid ""
+"This is an automated email; if you did not authorize this action, then <a "
+"%(resetLinkAttributes)s>please reset your password</a>."
+msgstr ""
+
+#: templates/password_reset.html:3
+msgid ""
+"Your Firefox Account password has changed. If you did not change it, please "
+"<a %(resetLinkAttributes)s>reset your password</a> now."
+msgstr ""
+
+#: templates/post_verify.html:3
+msgid ""
+"You successfully connected your first device to your Firefox Account. Now "
+"you can sign in to Sync from your other devices, including Firefox for <a "
+"%(androidLinkAttributes)s>Android</a> and <a %(iosLinkAttributes)s>iOS</a>."
+msgstr ""
+
+#: templates/verification_reminder_second.html:3
+#: templates/verification_reminder_second.txt:2
+msgid ""
+"A week ago you created a Firefox Account, but never verified it. We’re "
+"worried about you. Confirm this email address to activate your account and "
+"let us know you're okay."
+msgstr ""
+"Před tydźenjom sće konto Firefox załožił, ale nichtó njeje jo přepruwował. "
+"Starosćimy so wo was. Wobkrućće prošu e-mejlowu adresu, zo byšće swoje konto "
+"aktiwizował a zdźělće nam, hač wšitko je w porjadku."
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -598,13 +616,12 @@ msgstr ""
 #: server/templates/pages/src/privacy.html:5
 #: server/templates/pages/src/terms.html:5
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a "
-"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
-"experience."
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
-"Wužiwaće <strong>zestarjeny</strong> wobhladowak. Prošu <a "
-"href=\"http://browsehappy.com/\">zaktualizujće swój wobhladowak</a>, zo "
-"byšće swoje dožiwjenje polěpšił."
+"Wužiwaće <strong>zestarjeny</strong> wobhladowak. Prošu <a href=\"http://"
+"browsehappy.com/\">zaktualizujće swój wobhladowak</a>, zo byšće swoje "
+"dožiwjenje polěpšił."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -625,6 +642,9 @@ msgstr "Mróčelowe słužby Firefox"
 msgid "Terms of Service"
 msgstr "Wužiwanske wuměnenja"
 
+#~ msgid "Bad Request"
+#~ msgstr "Špatne naprašowanje"
+
 #~ msgid ""
 #~ "If you suspect that someone is trying to gain access to your account, <a "
 #~ "%(supportLinkAttributes)s>please report it to us</a>."
@@ -633,17 +653,17 @@ msgstr "Wužiwanske wuměnenja"
 #~ "%(supportLinkAttributes)s>prošu zdźělće nam to</a>."
 
 #~ msgid ""
-#~ "If you suspect that someone is trying to gain access to your account, please"
-#~ " report it to us."
+#~ "If you suspect that someone is trying to gain access to your account, "
+#~ "please report it to us."
 #~ msgstr ""
-#~ "Jeli měniš, zo něchtó pospytuje, přistup na waše konto dóstać, prošu zdźělće"
-#~ " nam to."
+#~ "Jeli měniš, zo něchtó pospytuje, přistup na waše konto dóstać, prošu "
+#~ "zdźělće nam to."
 
 #~ msgid ""
 #~ "A device began syncing with the devices connected to your Firefox Account."
 #~ msgstr ""
-#~ "Grat je započał, z gratami synchronizować, kotrež su z wašim kontom Firefox "
-#~ "zwjazane."
+#~ "Grat je započał, z gratami synchronizować, kotrež su z wašim kontom "
+#~ "Firefox zwjazane."
 
 #~ msgid "Are you sure?"
 #~ msgstr "Sće sej wěsty?"
@@ -675,11 +695,11 @@ msgstr "Wužiwanske wuměnenja"
 #~ "%(passwordChangeUrl)s>změńće prošu swoje hesło.</a>"
 
 #~ msgid ""
-#~ "For more information, please visit <a "
-#~ "href='https://support.mozilla.org'>Mozilla Support</a>"
+#~ "For more information, please visit <a href='https://support.mozilla."
+#~ "org'>Mozilla Support</a>"
 #~ msgstr ""
-#~ "Za dalše informacije wopytajće prošu <a "
-#~ "href='https://support.mozilla.org'>Pomoc Mozilla</a>"
+#~ "Za dalše informacije wopytajće prošu <a href='https://support.mozilla."
+#~ "org'>Pomoc Mozilla</a>"
 
 #~ msgid "Reset password:"
 #~ msgstr "Hesło wróćo stajić:"
@@ -690,10 +710,11 @@ msgstr "Wužiwanske wuměnenja"
 #~ msgid "Almost there"
 #~ msgstr "Nimale dokonjany"
 
-#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgid ""
+#~ "%(email)s, you're one click away from verifying your Firefox Account."
 #~ msgstr ""
-#~ "%(email)s, sće jenož jedne kliknjenje wot wobkrućenja swojeho konta Firefox "
-#~ "zdaleny."
+#~ "%(email)s, sće jenož jedne kliknjenje wot wobkrućenja swojeho konta "
+#~ "Firefox zdaleny."
 
 #~ msgid "Verify"
 #~ msgstr "Wobkrućić"
@@ -714,34 +735,35 @@ msgstr "Wužiwanske wuměnenja"
 #~ "A new device is now syncing with all of the devices connected to your "
 #~ "Firefox Account."
 #~ msgstr ""
-#~ "Nowy grat so nětko ze wšěmi gratami synchronizuje, kotrež su z wašim kontom "
-#~ "Firefox zwjazane."
+#~ "Nowy grat so nětko ze wšěmi gratami synchronizuje, kotrež su z wašim "
+#~ "kontom Firefox zwjazane."
 
 #~ msgid ""
-#~ "This is an automated email; if you didn't add a new device to your Firefox "
-#~ "Account, you should change your password immediately at <a "
+#~ "This is an automated email; if you didn't add a new device to your "
+#~ "Firefox Account, you should change your password immediately at <a "
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr ""
 #~ "To je awtomatiska e-mejlka; jeli njejsće swojemu kontu Firefox nowy grat "
-#~ "přidał, měł wy hnydom swoje hesło na <a "
-#~ "href='%(resetLink)s'>%(resetLink)s</a> změnić."
+#~ "přidał, měł wy hnydom swoje hesło na <a href='%(resetLink)s'>"
+#~ "%(resetLink)s</a> změnić."
 
 #~ msgid ""
 #~ "This is an automated email; if you didn't change the password to your "
 #~ "Firefox Account, you should reset it immediately at <a "
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr ""
-#~ "To je awtomatiska e-mejlka; jeli njejsće hesło swojeho konta Firefox změnił,"
-#~ " měł wy jo hnydom na <a href='%(resetLink)s'>%(resetLink)s</a> wróćo stajić."
+#~ "To je awtomatiska e-mejlka; jeli njejsće hesło swojeho konta Firefox "
+#~ "změnił, měł wy jo hnydom na <a href='%(resetLink)s'>%(resetLink)s</a> "
+#~ "wróćo stajić."
 
 #~ msgid ""
-#~ "This is an automated email; if you didn't reset the password to your Firefox"
-#~ " Account, you should reset it immediately at <a "
+#~ "This is an automated email; if you didn't reset the password to your "
+#~ "Firefox Account, you should reset it immediately at <a "
 #~ "href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr ""
-#~ "To je awtomatiska e-mejlka; jeli njejsće hesło swojeho konta Firefox wróćo "
-#~ "stajił, měł wy jo hnydom na <a href='%(resetLink)s'>%(resetLink)s</a> wróćo "
-#~ "stajić."
+#~ "To je awtomatiska e-mejlka; jeli njejsće hesło swojeho konta Firefox "
+#~ "wróćo stajił, měł wy jo hnydom na <a href='%(resetLink)s'>%(resetLink)s</"
+#~ "a> wróćo stajić."
 
 #~ msgid "A new device is now syncing to your Firefox Account"
 #~ msgstr "Nowy grat so nětko z wašim kontom Firefox synchronizuje"
@@ -753,15 +775,15 @@ msgstr "Wužiwanske wuměnenja"
 #~ "For more information, please visit <a href='https://support.mozilla.org' "
 #~ "style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
 #~ msgstr ""
-#~ "Za dalše informacije, wopytajće prošu <a href='https://support.mozilla.org' "
-#~ "style='color: #0095dd; text-decoration: none;'>Pomoc Mozilla</a>"
+#~ "Za dalše informacije, wopytajće prošu <a href='https://support.mozilla."
+#~ "org' style='color: #0095dd; text-decoration: none;'>Pomoc Mozilla</a>"
 
 #~ msgid ""
 #~ "For more information, please visit <a href='%(supportUrl)s' style='color: "
 #~ "#0095dd; text-decoration: none;'>Mozilla Support</a>"
 #~ msgstr ""
-#~ "Za dalše informacije wopytajće prošu <a href='%(supportUrl)s' style='color: "
-#~ "#0095dd; text-decoration: none;'>Pomoc Mozilla</a>"
+#~ "Za dalše informacije wopytajće prošu <a href='%(supportUrl)s' "
+#~ "style='color: #0095dd; text-decoration: none;'>Pomoc Mozilla</a>"
 
 #~ msgid "New sign-in to Sync"
 #~ msgstr "Nowe přizjewjenje pola Sync"
@@ -773,8 +795,8 @@ msgstr "Wužiwanske wuměnenja"
 #~ msgstr "System k dispoziciji njesteji, spytajće za krótki čas hišće raz"
 
 #~ msgid ""
-#~ "We are currently performing some maintenance on the system, and will return "
-#~ "momentarily."
+#~ "We are currently performing some maintenance on the system, and will "
+#~ "return momentarily."
 #~ msgstr ""
-#~ "Přewjedźemy tuchwilu wothladowanske dźěła na systemje a budźemy bórze zaso "
-#~ "docpějomni."
+#~ "Přewjedźemy tuchwilu wothladowanske dźěła na systemje a budźemy bórze "
+#~ "zaso docpějomni."
