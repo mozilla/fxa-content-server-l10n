@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-31 04:13+0000\n"
-"PO-Revision-Date: 2016-05-22 06:44+0000\n"
+"PO-Revision-Date: 2016-06-01 09:06+0000\n"
 "Last-Translator: Sandro Della Giustina <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -15,9 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444978587.0\n"
 
-#: app/scripts/views/complete_reset_password.js:132
-#: app/scripts/views/complete_sign_up.js:102 app/scripts/views/confirm.js:112
-#: app/scripts/views/confirm_reset_password.js:184
+#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:102 app/scripts/views/confirm.js:112 app/scripts/views/confirm_reset_password.js:184
 msgid "Account verified successfully"
 msgstr "L’account è stato verificato con successo"
 
@@ -25,15 +23,13 @@ msgstr "L’account è stato verificato con successo"
 msgid "Account unlocked, please try again"
 msgstr "Account sbloccato, prova di nuovo"
 
-#: app/scripts/views/confirm_reset_password.js:174
-#: app/scripts/views/ready.js:48
+#: app/scripts/views/confirm_reset_password.js:174 app/scripts/views/ready.js:48
 msgid "Password reset"
 msgstr "Reimpostazione della password"
 
 #: app/scripts/views/confirm_reset_password.js:203
 msgid "Password reset successfully. Sign in to continue."
-msgstr ""
-"Reimpostazione della password completata. Effettua l’accesso per continuare."
+msgstr "Reimpostazione della password completata. Effettua l’accesso per continuare."
 
 #: app/scripts/views/permissions.js:25
 msgid "%(permissionName)s (required)"
@@ -43,14 +39,11 @@ msgstr "Autorizzazione di tipo “%(permissionName)s ” richiesta"
 msgid "Email address"
 msgstr "Indirizzo email"
 
-#: app/scripts/views/permissions.js:36
-#: app/scripts/templates/settings/display_name.mustache:1
-#: app/scripts/templates/settings/display_name.mustache:4
+#: app/scripts/views/permissions.js:36 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:4
 msgid "Display name"
 msgstr "Nome visualizzato"
 
-#: app/scripts/views/permissions.js:40
-#: app/scripts/templates/settings/avatar.mustache:1
+#: app/scripts/views/permissions.js:40 app/scripts/templates/settings/avatar.mustache:1
 msgid "Account picture"
 msgstr "Immagine per questo account"
 
@@ -78,8 +71,7 @@ msgstr "Benvenuto in Sync"
 msgid "Account verified"
 msgstr "L’account è stato verificato"
 
-#: app/scripts/views/ready.js:60 app/scripts/lib/strings.js:47
-#: app/scripts/templates/ready.mustache:5
+#: app/scripts/views/ready.js:60 app/scripts/lib/strings.js:47 app/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Ora puoi utilizzare %(serviceName)s"
 
@@ -97,8 +89,7 @@ msgstr "Questo account esiste già. <a href=\"/signin\">Accedi</a>"
 
 #: app/scripts/views/settings/avatar_gravatar.js:89
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr ""
-"Gentilmente offerto da <a href=\"https://www.gravatar.com\">Gravatar</a>"
+msgstr "Gentilmente offerto da <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
 #: app/scripts/views/settings/change_password.js:46
 msgid "Password changed successfully"
@@ -149,19 +140,14 @@ msgid "Display name updated"
 msgstr "Il nome visualizzato è stato aggiornato"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
-msgstr ""
-"Account bloccato. <a href=\"/confirm_account_unlock\">Inviami una email per "
-"sbloccarlo</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgstr "Account bloccato. <a href=\"/confirm_account_unlock\">Inviami una email per sbloccarlo</a>"
 
-#: app/scripts/views/mixins/account-reset-mixin.js:42
-#: app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:105
+#: app/scripts/views/mixins/account-reset-mixin.js:42 app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:105
 msgid "Your account has been locked for security reasons"
 msgstr "L’account è stato bloccato per ragioni di sicurezza"
 
-#: app/scripts/views/mixins/account-reset-mixin.js:43
-#: app/scripts/templates/reset_password.mustache:6
+#: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/templates/reset_password.mustache:6
 msgid "Reset password"
 msgstr "Reimpostazione della password"
 
@@ -169,13 +155,8 @@ msgstr "Reimpostazione della password"
 msgid "Signed out successfully"
 msgstr "Disconnessione effettuata con successo"
 
-#: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77
-#: app/scripts/lib/marketing-email-errors.js:17
-#: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39
-#: app/scripts/lib/profile-errors.js:47 app/scripts/lib/require-on-demand.js:33
-#: app/scripts/lib/require-on-demand.js:37
-#: app/scripts/lib/require-on-demand.js:41
-#: app/scripts/lib/require-on-demand.js:45
+#: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39
+#: app/scripts/lib/profile-errors.js:47 app/scripts/lib/require-on-demand.js:33 app/scripts/lib/require-on-demand.js:37 app/scripts/lib/require-on-demand.js:41 app/scripts/lib/require-on-demand.js:45
 msgid "Unexpected error"
 msgstr "Si è verificato un errore inatteso"
 
@@ -201,9 +182,7 @@ msgstr "Questo account non esiste"
 
 #: app/scripts/lib/auth-errors.js:49
 msgid "Incorrect email case"
-msgstr ""
-"Utilizzo non corretto di maiuscole e minuscole durante la digitazione "
-"dell’indirizzo email"
+msgstr "Utilizzo non corretto di maiuscole e minuscole durante la digitazione dell’indirizzo email"
 
 #: app/scripts/lib/auth-errors.js:53
 msgid "Incorrect password"
@@ -257,9 +236,7 @@ msgstr "Il server è occupato, riprova tra qualche secondo"
 msgid "This endpoint is no longer supported"
 msgstr "Questo endpoint non è più supportato"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/config-loader.js:73
-#: app/scripts/lib/marketing-email-errors.js:79
-#: app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/config-loader.js:73 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Il sistema non è disponibile, riprova tra qualche secondo"
 
@@ -295,10 +272,7 @@ msgstr "Impossibile accedere ai Termini di servizio"
 msgid "Your new password must be different"
 msgstr "La nuova password deve essere diversa"
 
-#: app/scripts/lib/auth-errors.js:153
-#: app/scripts/templates/complete_reset_password.mustache:15
-#: app/scripts/templates/sign_up.mustache:16
-#: app/scripts/templates/settings/change_password.mustache:9
+#: app/scripts/lib/auth-errors.js:153 app/scripts/templates/complete_reset_password.mustache:15 app/scripts/templates/sign_up.mustache:16 app/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "Deve contenere almeno 8 caratteri"
 
@@ -306,8 +280,7 @@ msgstr "Deve contenere almeno 8 caratteri"
 msgid "Valid password required"
 msgstr "È necessario inserire una password valida"
 
-#: app/scripts/lib/auth-errors.js:161 app/scripts/lib/auth-errors.js:199
-#: app/scripts/lib/auth-errors.js:215
+#: app/scripts/lib/auth-errors.js:161 app/scripts/lib/auth-errors.js:199 app/scripts/lib/auth-errors.js:215
 msgid "Valid email required"
 msgstr "È necessario inserire un indirizzo email valido"
 
@@ -325,31 +298,21 @@ msgstr "È necessario fornire un URL valido"
 
 #: app/scripts/lib/auth-errors.js:195
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
-"L’email di verifica è stata respinta. Verifica di aver digitato "
-"correttamente l’indirizzo email."
+msgstr "L’email di verifica è stata respinta. Verifica di aver digitato correttamente l’indirizzo email."
 
 #: app/scripts/lib/auth-errors.js:203
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
-"Inserisci un indirizzo email valido. firefox.com non offre servizi come "
-"provider di posta elettronica."
+msgstr "Inserisci un indirizzo email valido. firefox.com non offre servizi come provider di posta elettronica."
 
 #: app/scripts/lib/auth-errors.js:211
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
-"L’integrazione di Account Firefox tramite IFRAME è consentita ai soli siti "
-"web autorizzati"
+msgstr "L’integrazione di Account Firefox tramite IFRAME è consentita ai soli siti web autorizzati"
 
-#: app/scripts/lib/auth-errors.js:226
-#: app/scripts/templates/complete_account_unlock.mustache:2
-#: app/scripts/templates/complete_sign_up.mustache:3
+#: app/scripts/lib/auth-errors.js:226 app/scripts/templates/complete_account_unlock.mustache:2 app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
-msgstr ""
-"Questo link per la verifica dell’account di posta elettronica è scaduto."
+msgstr "Questo link per la verifica dell’account di posta elettronica è scaduto."
 
-#: app/scripts/lib/auth-errors.js:230
-#: app/scripts/templates/complete_sign_up.mustache:7
+#: app/scripts/lib/auth-errors.js:230 app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "Il link di verifica è danneggiato"
 
@@ -458,22 +421,14 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Proseguendo confermi di accettare i <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Termini di servizio</a> e l’<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Informativa sulla privacy</a> di %(serviceName)s (%(serviceUri)s)."
+"Proseguendo confermi di accettare i <a id=\"service-tos\" href=\"%(termsUri)s\">Termini di servizio</a> e l’<a id=\"service-pp\" href=\"%(privacyUri)s\">Informativa sulla privacy</a> di "
+"%(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:26
-msgid ""
-"<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-"
-"account\">Help</a>"
-msgstr ""
-"<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-"
-"account\">Supporto</a>"
+msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Supporto</a>"
 
 #: app/scripts/lib/strings.js:29
 msgid "Confirm new sign-in to Firefox"
@@ -481,40 +436,27 @@ msgstr "Conferma nuovo accesso a Firefox"
 
 #: app/scripts/lib/strings.js:30
 msgid "You signed in to Firefox from %(device)s, %(location)s."
-msgstr ""
-"Hai effettuato l’accesso a Firefox da %(device)s, in località %(location)s."
+msgstr "Hai effettuato l’accesso a Firefox da %(device)s, in località %(location)s."
 
 #: app/scripts/lib/strings.js:31
 msgid "You signed in to Firefox from %(device)s."
 msgstr "Hai effettuato l’accesso a Firefox da %(device)s."
 
 #: app/scripts/lib/strings.js:32
-msgid ""
-"For added security, please confirm this sign-in to begin syncing with "
-"%(device)s."
-msgstr ""
-"Per un maggiore livello di sicurezza, conferma questo accesso prima di "
-"sincronizzare i dati su %(device)s."
+msgid "For added security, please confirm this sign-in to begin syncing with %(device)s."
+msgstr "Per un maggiore livello di sicurezza, conferma questo accesso prima di sincronizzare i dati su %(device)s."
 
 #: app/scripts/lib/strings.js:33
 msgid "Alternatively:"
 msgstr "In caso contrario,"
 
 #: app/scripts/lib/strings.js:34
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"considera che questo messaggio è stato inviato da un servizio automatico, se "
-"lo hai ricevuto per errore puoi ignorarlo."
+msgid "This is an automated email; if you received it in error, no action is required."
+msgstr "considera che questo messaggio è stato inviato da un servizio automatico, se lo hai ricevuto per errore puoi ignorarlo."
 
 #: app/scripts/lib/strings.js:35
-msgid ""
-"For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
-"Support</a>"
-msgstr ""
-"Per ulteriori informazioni visita <a %(supportLinkAttributes)s>il sito di "
-"supporto Mozilla</a>"
+msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>"
+msgstr "Per ulteriori informazioni visita <a %(supportLinkAttributes)s>il sito di supporto Mozilla</a>"
 
 #: app/scripts/lib/strings.js:36
 msgid "Verify Email"
@@ -522,8 +464,7 @@ msgstr "Verifica email"
 
 #: app/scripts/lib/strings.js:37
 msgid "Verify your email to finish your Firefox Account sign-in"
-msgstr ""
-"Verifica il tuo indirizzo email per completare l’accesso all’account Firefox"
+msgstr "Verifica il tuo indirizzo email per completare l’accesso all’account Firefox"
 
 #: app/scripts/lib/strings.js:38
 msgid "Confirm sign-in"
@@ -533,43 +474,29 @@ msgstr "Conferma accesso"
 msgid "Confirm this sign-in"
 msgstr "Conferma questo tentativo di accesso"
 
-#: app/scripts/lib/strings.js:40
-#: app/scripts/templates/complete_reset_password.mustache:2
-#: app/scripts/templates/complete_sign_up.mustache:2
-#: app/scripts/templates/confirm.mustache:2
-#: app/scripts/templates/confirm_account_unlock.mustache:2
-#: app/scripts/templates/confirm_reset_password.mustache:2
+#: app/scripts/lib/strings.js:40 app/scripts/templates/complete_reset_password.mustache:2 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/templates/confirm.mustache:2
+#: app/scripts/templates/confirm_account_unlock.mustache:2 app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email resent"
 msgstr "È stata inviata un’altra email"
 
-#: app/scripts/lib/strings.js:41 app/scripts/templates/confirm.mustache:3
-#: app/scripts/templates/confirm_account_unlock.mustache:3
-#: app/scripts/templates/confirm_reset_password.mustache:3
+#: app/scripts/lib/strings.js:41 app/scripts/templates/confirm.mustache:3 app/scripts/templates/confirm_account_unlock.mustache:3 app/scripts/templates/confirm_reset_password.mustache:3
 msgid "Email Sent"
 msgstr "L’email è stata inviata"
 
 #: app/scripts/lib/strings.js:42
-msgid ""
-"To better protect your Firefox data, we've emailed a confirmation link to "
-"%(email)s"
-msgstr ""
-"Al fine di proteggere i tuoi dati in Firefox, ti abbiamo inviato una email "
-"di conferma all’indirizzo %(email)s"
+msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+msgstr "Al fine di proteggere i tuoi dati in Firefox, ti abbiamo inviato una email di conferma all’indirizzo %(email)s"
 
 #: app/scripts/lib/strings.js:43 app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
 msgstr "Apri Gmail"
 
-#: app/scripts/lib/strings.js:44 app/scripts/templates/confirm.mustache:7
-#: app/scripts/templates/confirm_account_unlock.mustache:6
-#: app/scripts/templates/confirm_reset_password.mustache:9
+#: app/scripts/lib/strings.js:44 app/scripts/templates/confirm.mustache:7 app/scripts/templates/confirm_account_unlock.mustache:6 app/scripts/templates/confirm_reset_password.mustache:9
 msgid "Resend email"
 msgstr "Invia nuovamente l’email"
 
-#: app/scripts/lib/strings.js:45
-#: app/scripts/templates/choose_what_to_sync.mustache:16
-#: app/scripts/templates/confirm_account_unlock.mustache:5
-#: app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+#: app/scripts/lib/strings.js:45 app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm_account_unlock.mustache:5 app/scripts/templates/pp.mustache:3
+#: app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Indietro"
 
@@ -579,36 +506,29 @@ msgstr "Accesso confermato"
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "Richiesta non valida"
 
 #: app/scripts/templates/500.mustache:1
 msgid "500 Error"
-msgstr ""
+msgstr "Errore 500"
 
 #: app/scripts/templates/500.mustache:2
-msgid ""
-"Oh dear, something went wrong there. We've been notified and will get "
-"working on a fix."
-msgstr ""
+msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+msgstr "Accipicchia! Si è verificato un comportamento anomalo dell'applicazione. Ci è stata inviata la segnalazione del problema e ci impegneremo quanto prima a risolverlo."
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
 msgstr "Impossibile creare un account"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
-msgid ""
-"You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr ""
-"Per poter creare un account&nbsp;Firefox è necessario soddisfare determinati "
-"requisiti d’età."
+msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
+msgstr "Per poter creare un account&nbsp;Firefox è necessario soddisfare determinati requisiti d’età."
 
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
 msgstr "Ulteriori informazioni."
 
-#: app/scripts/templates/choose_what_to_sync.mustache:1
-#: app/scripts/templates/sign_up.mustache:21
-#: app/scripts/templates/sign_up.mustache:26
+#: app/scripts/templates/choose_what_to_sync.mustache:1 app/scripts/templates/sign_up.mustache:21 app/scripts/templates/sign_up.mustache:26
 msgid "Choose what to sync"
 msgstr "Scegli che cosa sincronizzare"
 
@@ -638,9 +558,7 @@ msgstr "Preferenze"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr ""
-"Attualmente i componenti aggiuntivi e le preferenze non vengono "
-"sincronizzati sui dispositivi portatili."
+msgstr "Attualmente i componenti aggiuntivi e le preferenze non vengono sincronizzati sui dispositivi portatili."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
@@ -654,16 +572,9 @@ msgstr "Link di sblocco account scaduto"
 msgid "Unlock link damaged"
 msgstr "Link di sblocco account danneggiato"
 
-#: app/scripts/templates/complete_account_unlock.mustache:5
-#: app/scripts/templates/complete_reset_password.mustache:7
-#: app/scripts/templates/complete_sign_up.mustache:8
-msgid ""
-"The link you clicked was missing characters, and may have been broken by "
-"your email client. Copy the address carefully, and try again."
-msgstr ""
-"Il link sul quale hai fatto clic manca di alcuni caratteri, probabilmente "
-"ciò dipende dal client di posta elettronica. Riprova assicurandoti di "
-"selezionare e copiare con cura il link."
+#: app/scripts/templates/complete_account_unlock.mustache:5 app/scripts/templates/complete_reset_password.mustache:7 app/scripts/templates/complete_sign_up.mustache:8
+msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
+msgstr "Il link sul quale hai fatto clic manca di alcuni caratteri, probabilmente ciò dipende dal client di posta elettronica. Riprova assicurandoti di selezionare e copiare con cura il link."
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
@@ -690,33 +601,20 @@ msgid "Enter new password"
 msgstr "Inserire nuova password"
 
 #: app/scripts/templates/complete_reset_password.mustache:10
-msgid ""
-"Once you submit your new password, you will lose any Sync data that is not "
-"on one of your devices."
-msgstr ""
-"Impostando la nuova password, i dati di Sync non presenti sui dispositivi "
-"collegati andranno persi."
+msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
+msgstr "Impostando la nuova password, i dati di Sync non presenti sui dispositivi collegati andranno persi."
 
-#: app/scripts/templates/complete_reset_password.mustache:11
-#: app/scripts/templates/reset_password.mustache:3
+#: app/scripts/templates/complete_reset_password.mustache:11 app/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
 msgstr "Scopri come funziona Sync."
 
-#: app/scripts/templates/complete_reset_password.mustache:13
-#: app/scripts/templates/settings/change_password.mustache:7
+#: app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "New password"
 msgstr "Nuova password"
 
-#: app/scripts/templates/complete_reset_password.mustache:14
-#: app/scripts/templates/complete_reset_password.mustache:17
-#: app/scripts/templates/force_auth.mustache:5
-#: app/scripts/templates/sign_in.mustache:9
-#: app/scripts/templates/sign_in.mustache:21
-#: app/scripts/templates/sign_up.mustache:15
-#: app/scripts/templates/settings/change_password.mustache:5
-#: app/scripts/templates/settings/change_password.mustache:8
-#: app/scripts/templates/settings/delete_account.mustache:5
-#: app/scripts/templates/settings/devices.mustache:3
+#: app/scripts/templates/complete_reset_password.mustache:14 app/scripts/templates/complete_reset_password.mustache:17 app/scripts/templates/force_auth.mustache:5
+#: app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:21 app/scripts/templates/sign_up.mustache:15 app/scripts/templates/settings/change_password.mustache:5
+#: app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/delete_account.mustache:5 app/scripts/templates/settings/devices.mustache:3
 msgid "Show"
 msgstr "Mostra"
 
@@ -753,30 +651,20 @@ msgid "Unlock email sent"
 msgstr "L’email per lo sblocco dell’account è stata inviata"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:4
-msgid ""
-"For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
+msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
 msgstr ""
-"L’account è stato bloccato per ragioni di sicurezza. Per effettuare "
-"operazioni che richiedono accesso a questo account dovrai verificarlo "
-"nuovamente facendo clic sul link contenuto nel messaggio inviato a %(email)s"
+"L’account è stato bloccato per ragioni di sicurezza. Per effettuare operazioni che richiedono accesso a questo account dovrai verificarlo nuovamente facendo clic sul link contenuto nel messaggio "
+"inviato a %(email)s"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
 msgstr "L’email per la reimpostazione della password è stata inviata"
 
 #: app/scripts/templates/confirm_reset_password.mustache:4
-msgid ""
-"Click on the link we've emailed you at %(email)s within the next hour to "
-"create a new password."
-msgstr ""
-"Per creare una nuova password fai click sul link che ti abbiamo inviato a "
-"%(email)s entro un'ora."
+msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
+msgstr "Per creare una nuova password fai click sul link che ti abbiamo inviato a %(email)s entro un'ora."
 
-#: app/scripts/templates/confirm_reset_password.mustache:5
-#: app/scripts/templates/confirm_reset_password.mustache:7
-#: app/scripts/templates/reset_password.mustache:7
+#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7 app/scripts/templates/reset_password.mustache:7
 #: app/scripts/templates/reset_password.mustache:9
 msgid "Remember password? Sign in."
 msgstr "Effettua l’accesso se conosci la password."
@@ -786,14 +674,9 @@ msgid "Cookies and local storage are required."
 msgstr "È necessario attivare i cookie e l’archiviazione locale."
 
 #: app/scripts/templates/cookies_disabled.mustache:2
-msgid ""
-"Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between "
-"sessions."
+msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
 msgstr ""
-"Per accedere al tuo account Firefox attiva i cookie e l’archiviazione locale "
-"nel browser. Potrai così usufruire di diverse funzioni come il "
-"riconoscimento automatico tra una sessione e l’altra."
+"Per accedere al tuo account Firefox attiva i cookie e l’archiviazione locale nel browser. Potrai così usufruire di diverse funzioni come il riconoscimento automatico tra una sessione e l’altra."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -807,46 +690,26 @@ msgstr "Riprova"
 msgid "Sign in to continue"
 msgstr "Effettua l’accesso per continuare"
 
-#: app/scripts/templates/force_auth.mustache:3
-#: app/scripts/templates/sign_in.mustache:8
-#: app/scripts/templates/sign_in.mustache:19
-#: app/scripts/templates/sign_up.mustache:13
-#: app/scripts/templates/settings/change_password.mustache:1
-#: app/scripts/templates/settings/delete_account.mustache:4
+#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/settings/change_password.mustache:1 app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Password"
 
-#: app/scripts/templates/force_auth.mustache:6
-#: app/scripts/templates/sign_in.mustache:1
-#: app/scripts/templates/sign_in.mustache:4
-#: app/scripts/templates/sign_in.mustache:10
-#: app/scripts/templates/sign_in.mustache:14
-#: app/scripts/templates/sign_in.mustache:22
+#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in.mustache:4 app/scripts/templates/sign_in.mustache:10
+#: app/scripts/templates/sign_in.mustache:14 app/scripts/templates/sign_in.mustache:22
 msgid "Sign in"
 msgstr "Accesso"
 
-#: app/scripts/templates/force_auth.mustache:7
-#: app/scripts/templates/sign_in.mustache:11
-#: app/scripts/templates/sign_in.mustache:23
-#: app/scripts/templates/sign_in.mustache:25
+#: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:11 app/scripts/templates/sign_in.mustache:23 app/scripts/templates/sign_in.mustache:25
 #: app/scripts/templates/settings/change_password.mustache:6
 msgid "Forgot password?"
 msgstr "Password dimenticata?"
 
-#: app/scripts/templates/force_auth.mustache:8
-#: app/scripts/templates/sign_in.mustache:27
-#: app/scripts/templates/sign_up.mustache:17
-msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
-msgstr ""
-"Proseguendo confermi di accettare i <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Termini di servizio</a> e l’<a id=\"fxa-pp\" href=\"/legal/privacy"
-"\">Informativa sulla privacy</a> dei servizi cloud di Firefox."
+#: app/scripts/templates/force_auth.mustache:8 app/scripts/templates/sign_in.mustache:27 app/scripts/templates/sign_up.mustache:17
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+msgstr "Proseguendo confermi di accettare i <a id=\"fxa-tos\" href=\"/legal/terms\">Termini di servizio</a> e l’<a id=\"fxa-pp\" href=\"/legal/privacy\">Informativa sulla privacy</a> dei servizi cloud di Firefox."
 
-#: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
-#: app/scripts/templates/tos.mustache:1
+#: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
 msgstr "Servizi cloud di Firefox"
 
@@ -854,14 +717,11 @@ msgstr "Servizi cloud di Firefox"
 msgid "Legal"
 msgstr "Note legali"
 
-#: app/scripts/templates/legal.mustache:3
-#: app/scripts/templates/settings.mustache:5
-#: app/scripts/templates/tos.mustache:2
+#: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:5 app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "Termini di servizio"
 
-#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
-#: app/scripts/templates/settings.mustache:6
+#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:6
 msgid "Privacy Notice"
 msgstr "Informativa sulla privacy"
 
@@ -873,21 +733,15 @@ msgstr "Rimani sincronizzato in movimento:"
 msgid "Get Firefox for Android"
 msgstr "Scarica Firefox per Android"
 
-#: app/scripts/templates/marketing_snippet_ios.mustache:1
-#: app/scripts/templates/marketing_snippet_ios.mustache:5
-#: app/scripts/templates/marketing_snippet_ios.mustache:9
+#: app/scripts/templates/marketing_snippet_ios.mustache:1 app/scripts/templates/marketing_snippet_ios.mustache:5 app/scripts/templates/marketing_snippet_ios.mustache:9
 msgid "Get the full Sync experience."
 msgstr "Sfrutta tutto il potenziale di Sync."
 
-#: app/scripts/templates/marketing_snippet_ios.mustache:2
-#: app/scripts/templates/marketing_snippet_ios.mustache:3
-#: app/scripts/templates/marketing_snippet_ios.mustache:12
+#: app/scripts/templates/marketing_snippet_ios.mustache:2 app/scripts/templates/marketing_snippet_ios.mustache:3 app/scripts/templates/marketing_snippet_ios.mustache:12
 msgid "Download Firefox for iOS!"
 msgstr "Scarica Firefox per iOS!"
 
-#: app/scripts/templates/marketing_snippet_ios.mustache:6
-#: app/scripts/templates/marketing_snippet_ios.mustache:7
-#: app/scripts/templates/marketing_snippet_ios.mustache:11
+#: app/scripts/templates/marketing_snippet_ios.mustache:6 app/scripts/templates/marketing_snippet_ios.mustache:7 app/scripts/templates/marketing_snippet_ios.mustache:11
 msgid "Download Firefox for Android."
 msgstr "Scarica Firefox per Android."
 
@@ -895,30 +749,21 @@ msgstr "Scarica Firefox per Android."
 msgid "Download Firefox for mobile devices."
 msgstr "Scarica Firefox per dispositivi mobile."
 
-#: app/scripts/templates/permissions.mustache:1
-#: app/scripts/templates/settings/gravatar_permissions.mustache:1
+#: app/scripts/templates/permissions.mustache:1 app/scripts/templates/settings/gravatar_permissions.mustache:1
 msgid "Request for permission"
 msgstr "Richiesta di permesso"
 
-#: app/scripts/templates/permissions.mustache:2
-#: app/scripts/templates/settings/gravatar_permissions.mustache:2
+#: app/scripts/templates/permissions.mustache:2 app/scripts/templates/settings/gravatar_permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
 msgstr "%(serviceName)s richiede le seguenti informazioni dal tuo account:"
 
-#: app/scripts/templates/permissions.mustache:3
-#: app/scripts/templates/settings/gravatar_permissions.mustache:4
+#: app/scripts/templates/permissions.mustache:3 app/scripts/templates/settings/gravatar_permissions.mustache:4
 msgid "Accept"
 msgstr "Accetta"
 
-#: app/scripts/templates/permissions.mustache:4
-#: app/scripts/templates/settings/avatar_camera.mustache:2
-#: app/scripts/templates/settings/avatar_crop.mustache:3
-#: app/scripts/templates/settings/avatar_gravatar.mustache:3
-#: app/scripts/templates/settings/change_password.mustache:11
-#: app/scripts/templates/settings/communication_preferences.mustache:5
-#: app/scripts/templates/settings/communication_preferences.mustache:13
-#: app/scripts/templates/settings/delete_account.mustache:7
-#: app/scripts/templates/settings/display_name.mustache:6
+#: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
+#: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:11 app/scripts/templates/settings/communication_preferences.mustache:5
+#: app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:7 app/scripts/templates/settings/display_name.mustache:6
 #: app/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
 msgstr "Annulla"
@@ -944,17 +789,10 @@ msgid "Forgot password"
 msgstr "Password dimenticata"
 
 #: app/scripts/templates/reset_password.mustache:2
-msgid ""
-"When you reset your password, you will lose any Sync data that is not on one "
-"of your devices."
-msgstr ""
-"Reimpostando la password, tutti i dati Sync non presenti sui dispositivi "
-"collegati andranno persi."
+msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
+msgstr "Reimpostando la password, tutti i dati Sync non presenti sui dispositivi collegati andranno persi."
 
-#: app/scripts/templates/reset_password.mustache:5
-#: app/scripts/templates/sign_in.mustache:18
-#: app/scripts/templates/sign_up.mustache:11
-#: app/scripts/templates/settings/gravatar_permissions.mustache:3
+#: app/scripts/templates/reset_password.mustache:5 app/scripts/templates/sign_in.mustache:18 app/scripts/templates/sign_up.mustache:11 app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "Email"
 
@@ -966,8 +804,7 @@ msgstr "Account Firefox"
 msgid "Sign out"
 msgstr "Esci"
 
-#: app/scripts/templates/sign_in.mustache:2
-#: app/scripts/templates/sign_up.mustache:2
+#: app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Verrai reindirizzato su %(serviceName)s"
 
@@ -975,8 +812,7 @@ msgstr "Verrai reindirizzato su %(serviceName)s"
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr "Trasferisci i tuoi dati Sync accedendo all’account&nbsp;Firefox."
 
-#: app/scripts/templates/sign_in.mustache:12
-#: app/scripts/templates/sign_in.mustache:15
+#: app/scripts/templates/sign_in.mustache:12 app/scripts/templates/sign_in.mustache:15
 msgid "Use a different account"
 msgstr "Utilizza un altro account"
 
@@ -984,8 +820,7 @@ msgstr "Utilizza un altro account"
 msgid "Create an account"
 msgstr "Crea un account"
 
-#: app/scripts/templates/sign_up.mustache:1
-#: app/scripts/templates/sign_up.mustache:4
+#: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
 msgstr "Crea un nuovo account Firefox"
 
@@ -994,14 +829,10 @@ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr "Trasferisci i tuoi dati Sync creando un nuovo account&nbsp;Firefox."
 
 #: app/scripts/templates/sign_up.mustache:8
-msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
-msgstr ""
-"Hai registrato un account con un altro indirizzo email? <a href="
-"\"%(signinUri)s\">Accedi</a>"
+msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+msgstr "Hai registrato un account con un altro indirizzo email? <a href=\"%(signinUri)s\">Accedi</a>"
 
-#: app/scripts/templates/sign_up.mustache:18
-#: app/scripts/templates/settings/communication_preferences.mustache:7
+#: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Ricevi le ultime notizie su Mozilla e Firefox."
 
@@ -1013,12 +844,8 @@ msgstr "Crea un account"
 msgid "Have an account? Sign in."
 msgstr "Possiedi già un account? Accedi."
 
-#: app/scripts/templates/settings/avatar.mustache:2
-#: app/scripts/templates/settings/avatar_crop.mustache:2
-#: app/scripts/templates/settings/change_password.mustache:2
-#: app/scripts/templates/settings/change_password.mustache:10
-#: app/scripts/templates/settings/communication_preferences.mustache:4
-#: app/scripts/templates/settings/display_name.mustache:2
+#: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:2
+#: app/scripts/templates/settings/change_password.mustache:10 app/scripts/templates/settings/communication_preferences.mustache:4 app/scripts/templates/settings/display_name.mustache:2
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Change"
 msgstr "Modifica"
@@ -1047,8 +874,7 @@ msgstr "Gravatar"
 msgid "Clear"
 msgstr "Cancella"
 
-#: app/scripts/templates/settings/avatar_change.mustache:5
-#: app/scripts/templates/settings/devices.mustache:12
+#: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/devices.mustache:12
 msgid "Done"
 msgstr "Fatto"
 
@@ -1061,12 +887,8 @@ msgid "Save"
 msgstr "Salva"
 
 #: app/scripts/templates/settings/change_password.mustache:3
-msgid ""
-"Once you're finished, use your new password to sign in on all of your "
-"devices."
-msgstr ""
-"Una volta reimpostata la nuova password, potrai utilizzarla per accedere da "
-"qualsiasi dispositivo."
+msgid "Once you're finished, use your new password to sign in on all of your devices."
+msgstr "Una volta reimpostata la nuova password, potrai utilizzarla per accedere da qualsiasi dispositivo."
 
 #: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
@@ -1088,8 +910,7 @@ msgstr "Annulla iscrizione"
 msgid "Subscribe"
 msgstr "Iscriviti"
 
-#: app/scripts/templates/settings/delete_account.mustache:1
-#: app/scripts/templates/settings/delete_account.mustache:6
+#: app/scripts/templates/settings/delete_account.mustache:1 app/scripts/templates/settings/delete_account.mustache:6
 msgid "Delete account"
 msgstr "Elimina account"
 
@@ -1098,8 +919,7 @@ msgid "Delete"
 msgstr "Elimina"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
-msgid ""
-"Are you sure you want to delete your account? This action cannot be undone."
+msgid "Are you sure you want to delete your account? This action cannot be undone."
 msgstr "Eliminare questo account? Questa operazione non può essere annullata."
 
 #: app/scripts/templates/settings/devices.mustache:2
@@ -1108,13 +928,11 @@ msgstr "Dispositivi"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox è disponibile per <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> e <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox è disponibile per <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> e <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -1137,11 +955,8 @@ msgid "Refresh"
 msgstr "Aggiorna"
 
 #: app/scripts/templates/settings/display_name.mustache:3
-msgid ""
-"Choose the name you would like to appear in Firefox and when managing your "
-"account."
-msgstr ""
-"Scegli il nome da visualizzare in Firefox e durante la gestione dell’account."
+msgid "Choose the name you would like to appear in Firefox and when managing your account."
+msgstr "Scegli il nome da visualizzare in Firefox e durante la gestione dell’account."
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1152,12 +967,8 @@ msgid "Sign in to Sync"
 msgstr "Accedi a Sync"
 
 #: app/scripts/templates/openid/start.mustache:2
-msgid ""
-"Choose the account you would like to use to sync your tabs, bookmarks, "
-"passwords and more."
-msgstr ""
-"Seleziona un account su cui sincronizzare segnalibri, schede, password e "
-"molto altro."
+msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
+msgstr "Seleziona un account su cui sincronizzare segnalibri, schede, password e molto altro."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
@@ -1183,22 +994,15 @@ msgstr "Utilizza un account Firefox"
 #~ msgstr "Avanti"
 
 #~ msgid "A reset link has been sent to %(email)s"
-#~ msgstr ""
-#~ "È stato inviato un link per reimpostare la password all’indirizzo "
-#~ "%(email)s"
+#~ msgstr "È stato inviato un link per reimpostare la password all’indirizzo %(email)s"
 
 #~ msgid "Are you sure you want to reset your account password?"
 #~ msgstr "Ripristinare la password dell’account?"
 
-#~ msgid ""
-#~ "Resetting your password will erase your browsing data from our servers. "
-#~ "Any data on your devices will remain untouched. Begin the reset process "
-#~ "by entering your email below."
+#~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr ""
-#~ "Il ripristino della password comporta la cancellazione di tutti i dati di "
-#~ "navigazione dal server. Questa operazione non ha alcun effetto sui dati "
-#~ "memorizzati sui tuoi dispositivi. Per avviare il processo di ripristino "
-#~ "della password, inserisci il tuo indirizzo email qui di seguito."
+#~ "Il ripristino della password comporta la cancellazione di tutti i dati di navigazione dal server. Questa operazione non ha alcun effetto sui dati memorizzati sui tuoi dispositivi. Per avviare il "
+#~ "processo di ripristino della password, inserisci il tuo indirizzo email qui di seguito."
 
 #~ msgid "Begin reset"
 #~ msgstr "Avvia ripristino"
@@ -1255,14 +1059,11 @@ msgstr "Utilizza un account Firefox"
 #~ msgstr "È necessario attivare i cookie"
 
 #~ msgid ""
-#~ "Please enable cookies in your browser which are required by Firefox "
-#~ "Accounts. Cookies are small pieces of data stored in your browser that "
-#~ "provide functionality such as remembering you between sessions."
+#~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
+#~ "sessions."
 #~ msgstr ""
-#~ "Assicurati di attivare i cookie, necessari per il corretto funzionamento "
-#~ "di Account Firefox. I cookie sono dei dati di piccole dimensioni "
-#~ "memorizzati nel browser, indispensabili per alcune operazioni, come ad "
-#~ "esempio ricordarsi degli utenti autenticati tra una sessione e l’altra."
+#~ "Assicurati di attivare i cookie, necessari per il corretto funzionamento di Account Firefox. I cookie sono dei dati di piccole dimensioni memorizzati nel browser, indispensabili per alcune "
+#~ "operazioni, come ad esempio ricordarsi degli utenti autenticati tra una sessione e l’altra."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Presto Firefox sarà disponibile anche su iOS!"
@@ -1397,19 +1198,12 @@ msgstr "Utilizza un account Firefox"
 #~ msgstr "Conferma"
 
 #~ msgid "Enter your email to reset&nbsp;the account password."
-#~ msgstr ""
-#~ "Inserisci l’indirizzo email associato a questo account per "
-#~ "reimpostarne&nbsp;la password."
+#~ msgstr "Inserisci l’indirizzo email associato a questo account per reimpostarne&nbsp;la password."
 
-#~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data "
-#~ "from our servers. A new Sync backup will be created from your local "
-#~ "browsing data."
+#~ msgid "For security reasons, resetting your password will erase your Sync data from our servers. A new Sync backup will be created from your local browsing data."
 #~ msgstr ""
-#~ "Per ragioni di sicurezza la reimpostazione della password comporta "
-#~ "l’eliminazione di tutti i dati dell’account Sync presenti sui nostri "
-#~ "server. Un nuovo backup di Sync verrà creato utilizzando i dati di "
-#~ "navigazione locali."
+#~ "Per ragioni di sicurezza la reimpostazione della password comporta l’eliminazione di tutti i dati dell’account Sync presenti sui nostri server. Un nuovo backup di Sync verrà creato utilizzando i "
+#~ "dati di navigazione locali."
 
 #~ msgid "You are signed in as"
 #~ msgstr "Accesso effettuato come"
@@ -1417,20 +1211,11 @@ msgstr "Utilizza un account Firefox"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Hai già un account? Accedi."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-#~ "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-#~ "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr "Continua"
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "Proseguendo, confermi di accettare i <a id=\"fxa-tos\" href=\"/legal/terms"
-#~ "\">Termini di servizio</a> e l’<a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">Informativa sulla privacy</a> dei servizi cloud di Firefox."
+#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr "Proseguendo, confermi di accettare i <a id=\"fxa-tos\" href=\"/legal/terms\">Termini di servizio</a> e l’<a id=\"fxa-pp\" href=\"/legal/privacy\">Informativa sulla privacy</a> dei servizi cloud di Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Iscriviti per ricevere le ultime notizie e suggerimenti su Firefox"
@@ -1447,12 +1232,8 @@ msgstr "Utilizza un account Firefox"
 #~ msgid "missing search parameter: %(itemName)s"
 #~ msgstr "parametro di ricerca mancante: %(itemName)s"
 
-#~ msgid ""
-#~ "Once you're ﬁnished, use your new password to sign in on all of your "
-#~ "devices."
-#~ msgstr ""
-#~ "Terminata l’operazione, accedi all’account su tutti i tuoi dispositivi "
-#~ "utilizzando la nuova password."
+#~ msgid "Once you're ﬁnished, use your new password to sign in on all of your devices."
+#~ msgstr "Terminata l’operazione, accedi all’account su tutti i tuoi dispositivi utilizzando la nuova password."
 
 #~ msgid "Illegal iframe"
 #~ msgstr "Integrazione tramite iframe non consentita"
@@ -1463,12 +1244,8 @@ msgstr "Utilizza un account Firefox"
 #~ msgid "Password changed"
 #~ msgstr "La password è stata modificata"
 
-#~ msgid ""
-#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
-#~ "email</a>."
-#~ msgstr ""
-#~ "Account non verificato. <a href=\"#\" id=\"resend\">Invia nuovamente "
-#~ "l’email di verifica</a>."
+#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
+#~ msgstr "Account non verificato. <a href=\"#\" id=\"resend\">Invia nuovamente l’email di verifica</a>."
 
 #~ msgid "Password reset. Sign in to continue."
 #~ msgstr "Password reimpostata. Accedi per continuare."
@@ -1476,13 +1253,8 @@ msgstr "Utilizza un account Firefox"
 #~ msgid "Signed out"
 #~ msgstr "Disconnessione effettuata"
 
-#~ msgid ""
-#~ "Your verification email was just returned. Mistyped email? <a href=\"/"
-#~ "signup\">Start over.</a>"
-#~ msgstr ""
-#~ "L’email di verifica è stata rimandata al mittente. È possibile che "
-#~ "l’indirizzo email registrato contenga errori di battitura. <a href=\"/"
-#~ "signup\">Effettua nuovamente la registrazione.</a>"
+#~ msgid "Your verification email was just returned. Mistyped email? <a href=\"/signup\">Start over.</a>"
+#~ msgstr "L’email di verifica è stata rimandata al mittente. È possibile che l’indirizzo email registrato contenga errori di battitura. <a href=\"/signup\">Effettua nuovamente la registrazione.</a>"
 
 #~ msgid "Paste image URL"
 #~ msgstr "Incolla l’URL dell’immagine"
