@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-31 04:13+0000\n"
+"POT-Creation-Date: 2016-06-01 13:33+0000\n"
 "PO-Revision-Date: 2016-05-09 23:38+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,14 +11,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1440955868.0\n"
 
-#: app/scripts/views/complete_reset_password.js:132
-#: app/scripts/views/complete_sign_up.js:102 app/scripts/views/confirm.js:112
-#: app/scripts/views/confirm_reset_password.js:184
+#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:102 app/scripts/views/confirm.js:112 app/scripts/views/confirm_reset_password.js:184
 msgid "Account verified successfully"
 msgstr "Cont verificat cu succes"
 
@@ -26,8 +23,7 @@ msgstr "Cont verificat cu succes"
 msgid "Account unlocked, please try again"
 msgstr "Cont deblocat, te rugăm să încerci din nou"
 
-#: app/scripts/views/confirm_reset_password.js:174
-#: app/scripts/views/ready.js:48
+#: app/scripts/views/confirm_reset_password.js:174 app/scripts/views/ready.js:48
 msgid "Password reset"
 msgstr "Resetarea parolei"
 
@@ -43,14 +39,11 @@ msgstr "%(permissionName)s (necesar)"
 msgid "Email address"
 msgstr "Adresa de e-mail"
 
-#: app/scripts/views/permissions.js:36
-#: app/scripts/templates/settings/display_name.mustache:1
-#: app/scripts/templates/settings/display_name.mustache:4
+#: app/scripts/views/permissions.js:36 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:4
 msgid "Display name"
 msgstr "Numele afișat"
 
-#: app/scripts/views/permissions.js:40
-#: app/scripts/templates/settings/avatar.mustache:1
+#: app/scripts/views/permissions.js:40 app/scripts/templates/settings/avatar.mustache:1
 msgid "Account picture"
 msgstr "Imaginea contului"
 
@@ -78,8 +71,7 @@ msgstr "Bun venit la Sincronizare"
 msgid "Account verified"
 msgstr "Cont verificat"
 
-#: app/scripts/views/ready.js:60 app/scripts/lib/strings.js:47
-#: app/scripts/templates/ready.mustache:5
+#: app/scripts/views/ready.js:60 app/scripts/lib/strings.js:47 app/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Ești acum pregătit să folosești %(serviceName)s"
 
@@ -148,19 +140,14 @@ msgid "Display name updated"
 msgstr "Numele afișat actualizat"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
-msgstr ""
-"Cont blocat. <a href=\"/confirm_account_unlock\">Trimite e-mailul de "
-"deblocare</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgstr "Cont blocat. <a href=\"/confirm_account_unlock\">Trimite e-mailul de deblocare</a>"
 
-#: app/scripts/views/mixins/account-reset-mixin.js:42
-#: app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:105
+#: app/scripts/views/mixins/account-reset-mixin.js:42 app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:105
 msgid "Your account has been locked for security reasons"
 msgstr "Contul tău a fost blocat din motive de securitate"
 
-#: app/scripts/views/mixins/account-reset-mixin.js:43
-#: app/scripts/templates/reset_password.mustache:6
+#: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/templates/reset_password.mustache:6
 msgid "Reset password"
 msgstr "Resetează parola"
 
@@ -168,13 +155,8 @@ msgstr "Resetează parola"
 msgid "Signed out successfully"
 msgstr "Te-ai deconectat cu succes"
 
-#: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77
-#: app/scripts/lib/marketing-email-errors.js:17
-#: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39
-#: app/scripts/lib/profile-errors.js:47 app/scripts/lib/require-on-demand.js:33
-#: app/scripts/lib/require-on-demand.js:37
-#: app/scripts/lib/require-on-demand.js:41
-#: app/scripts/lib/require-on-demand.js:45
+#: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39
+#: app/scripts/lib/profile-errors.js:47 app/scripts/lib/require-on-demand.js:33 app/scripts/lib/require-on-demand.js:37 app/scripts/lib/require-on-demand.js:41 app/scripts/lib/require-on-demand.js:45
 msgid "Unexpected error"
 msgstr "Eroare neprevăzută"
 
@@ -263,9 +245,7 @@ msgstr "Serverul este ocupat, încearcă din nou mai târziu"
 msgid "This endpoint is no longer supported"
 msgstr "Acest endpoint nu mai este suportat"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/config-loader.js:73
-#: app/scripts/lib/marketing-email-errors.js:79
-#: app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/config-loader.js:73 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Sistem indisponibil, încearcă din nou mai târziu"
 
@@ -301,10 +281,7 @@ msgstr "Nu s-au putut găsi termenii de utilizare a serviciului"
 msgid "Your new password must be different"
 msgstr "Noua ta parolă trebuie să fie diferită"
 
-#: app/scripts/lib/auth-errors.js:153
-#: app/scripts/templates/complete_reset_password.mustache:15
-#: app/scripts/templates/sign_up.mustache:16
-#: app/scripts/templates/settings/change_password.mustache:9
+#: app/scripts/lib/auth-errors.js:153 app/scripts/templates/complete_reset_password.mustache:15 app/scripts/templates/sign_up.mustache:16 app/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "Trebuie să fie de cel puțin 8 caractere"
 
@@ -312,8 +289,7 @@ msgstr "Trebuie să fie de cel puțin 8 caractere"
 msgid "Valid password required"
 msgstr "Parolă validă necesară"
 
-#: app/scripts/lib/auth-errors.js:161 app/scripts/lib/auth-errors.js:199
-#: app/scripts/lib/auth-errors.js:215
+#: app/scripts/lib/auth-errors.js:161 app/scripts/lib/auth-errors.js:199 app/scripts/lib/auth-errors.js:215
 msgid "Valid email required"
 msgstr "E-mail valid necesar"
 
@@ -341,14 +317,11 @@ msgstr "Introdu o adresă de e-mail validă. firefox.com nu oferă e-mail."
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Conturile Firefox pot fi plasate într-un IFRAME pe site-urile aprobate"
 
-#: app/scripts/lib/auth-errors.js:226
-#: app/scripts/templates/complete_account_unlock.mustache:2
-#: app/scripts/templates/complete_sign_up.mustache:3
+#: app/scripts/lib/auth-errors.js:226 app/scripts/templates/complete_account_unlock.mustache:2 app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
 msgstr "Linkul pe care ai dat clic pentru verificarea e-mailului a expirat."
 
-#: app/scripts/lib/auth-errors.js:230
-#: app/scripts/templates/complete_sign_up.mustache:7
+#: app/scripts/lib/auth-errors.js:230 app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "Link de verificare deteriorat"
 
@@ -386,8 +359,12 @@ msgid "Missing property in resume token: %(property)s"
 msgstr "Proprietate lipsă în tokenul resume: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:274
-msgid "Invalid data-flow-begin attribute"
-msgstr "Atribut data-flow-begin invalid"
+msgid "Invalid data attribute: %(property)s"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:278
+msgid "Missing data attribute: %(property)s"
+msgstr ""
 
 #: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -459,22 +436,15 @@ msgstr "Sincronizare Firefox"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr ""
-"Continuând, ești de acord cu <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">termenii de utilizare a serviciului</a> și <a id=\"service-pp\" href="
-"\"%(privacyUri)s\">politica de confidențialitate</a> a %(serviceName)s "
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
 "(%(serviceUri)s)."
+msgstr ""
+"Continuând, ești de acord cu <a id=\"service-tos\" href=\"%(termsUri)s\">termenii de utilizare a serviciului</a> și <a id=\"service-pp\" href=\"%(privacyUri)s\">politica de confidențialitate</a> a "
+"%(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:26
-msgid ""
-"<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-"
-"account\">Help</a>"
-msgstr ""
-"<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-"
-"account\">Ajutor</a>"
+msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Ajutor</a>"
 
 #: app/scripts/lib/strings.js:29
 msgid "Confirm new sign-in to Firefox"
@@ -489,32 +459,20 @@ msgid "You signed in to Firefox from %(device)s."
 msgstr "Te-ai autentificat în Firefox de pe %(device)s."
 
 #: app/scripts/lib/strings.js:32
-msgid ""
-"For added security, please confirm this sign-in to begin syncing with "
-"%(device)s."
-msgstr ""
-"Ca o măsură de securitate suplimentară, te rugăm să confirmi această "
-"autentificare pentru a începe sincronizarea cu %(device)s."
+msgid "For added security, please confirm this sign-in to begin syncing with %(device)s."
+msgstr "Ca o măsură de securitate suplimentară, te rugăm să confirmi această autentificare pentru a începe sincronizarea cu %(device)s."
 
 #: app/scripts/lib/strings.js:33
 msgid "Alternatively:"
 msgstr "Ca alternativă:"
 
 #: app/scripts/lib/strings.js:34
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"Acesta este un e-mail automat; dacă l-ai primit din greșeală, nu este "
-"necesară nicio acțiune."
+msgid "This is an automated email; if you received it in error, no action is required."
+msgstr "Acesta este un e-mail automat; dacă l-ai primit din greșeală, nu este necesară nicio acțiune."
 
 #: app/scripts/lib/strings.js:35
-msgid ""
-"For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
-"Support</a>"
-msgstr ""
-"Pentru mai multe informații te rugăm să vizitezi <a "
-"%(supportLinkAttributes)s>Mozilla Support</a>"
+msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>"
+msgstr "Pentru mai multe informații te rugăm să vizitezi <a %(supportLinkAttributes)s>Mozilla Support</a>"
 
 #: app/scripts/lib/strings.js:36
 msgid "Verify Email"
@@ -522,8 +480,7 @@ msgstr "Verifică e-mailul"
 
 #: app/scripts/lib/strings.js:37
 msgid "Verify your email to finish your Firefox Account sign-in"
-msgstr ""
-"Verifică e-mailul pentru a finaliza autentificarea contului tău Firefox"
+msgstr "Verifică e-mailul pentru a finaliza autentificarea contului tău Firefox"
 
 #: app/scripts/lib/strings.js:38
 msgid "Confirm sign-in"
@@ -533,43 +490,29 @@ msgstr "Confirmă autentificarea"
 msgid "Confirm this sign-in"
 msgstr "Confirmă această autentificare"
 
-#: app/scripts/lib/strings.js:40
-#: app/scripts/templates/complete_reset_password.mustache:2
-#: app/scripts/templates/complete_sign_up.mustache:2
-#: app/scripts/templates/confirm.mustache:2
-#: app/scripts/templates/confirm_account_unlock.mustache:2
-#: app/scripts/templates/confirm_reset_password.mustache:2
+#: app/scripts/lib/strings.js:40 app/scripts/templates/complete_reset_password.mustache:2 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/templates/confirm.mustache:2
+#: app/scripts/templates/confirm_account_unlock.mustache:2 app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email resent"
 msgstr "E-mail retrimis"
 
-#: app/scripts/lib/strings.js:41 app/scripts/templates/confirm.mustache:3
-#: app/scripts/templates/confirm_account_unlock.mustache:3
-#: app/scripts/templates/confirm_reset_password.mustache:3
+#: app/scripts/lib/strings.js:41 app/scripts/templates/confirm.mustache:3 app/scripts/templates/confirm_account_unlock.mustache:3 app/scripts/templates/confirm_reset_password.mustache:3
 msgid "Email Sent"
 msgstr "E-mail trimis"
 
 #: app/scripts/lib/strings.js:42
-msgid ""
-"To better protect your Firefox data, we've emailed a confirmation link to "
-"%(email)s"
-msgstr ""
-"Pentru o mai bună protejare a datelor tale Firefox, ți-am trimis prin e-mail "
-"un link de confirmare către %(email)s"
+msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+msgstr "Pentru o mai bună protejare a datelor tale Firefox, ți-am trimis prin e-mail un link de confirmare către %(email)s"
 
 #: app/scripts/lib/strings.js:43 app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
 msgstr "Deschide Gmail"
 
-#: app/scripts/lib/strings.js:44 app/scripts/templates/confirm.mustache:7
-#: app/scripts/templates/confirm_account_unlock.mustache:6
-#: app/scripts/templates/confirm_reset_password.mustache:9
+#: app/scripts/lib/strings.js:44 app/scripts/templates/confirm.mustache:7 app/scripts/templates/confirm_account_unlock.mustache:6 app/scripts/templates/confirm_reset_password.mustache:9
 msgid "Resend email"
 msgstr "Retrimite e-mailul"
 
-#: app/scripts/lib/strings.js:45
-#: app/scripts/templates/choose_what_to_sync.mustache:16
-#: app/scripts/templates/confirm_account_unlock.mustache:5
-#: app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+#: app/scripts/lib/strings.js:45 app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm_account_unlock.mustache:5 app/scripts/templates/pp.mustache:3
+#: app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Înapoi"
 
@@ -586,9 +529,7 @@ msgid "500 Error"
 msgstr ""
 
 #: app/scripts/templates/500.mustache:2
-msgid ""
-"Oh dear, something went wrong there. We've been notified and will get "
-"working on a fix."
+msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
 msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
@@ -596,19 +537,14 @@ msgid "Cannot create account"
 msgstr "Nu se poate crea contul"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
-msgid ""
-"You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr ""
-"Trebuie să îndeplinești anumite cerințe de vârstă pentru a crea un cont&nbsp;"
-"Firefox"
+msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
+msgstr "Trebuie să îndeplinești anumite cerințe de vârstă pentru a crea un cont&nbsp;Firefox"
 
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
 msgstr "Află mai multe."
 
-#: app/scripts/templates/choose_what_to_sync.mustache:1
-#: app/scripts/templates/sign_up.mustache:21
-#: app/scripts/templates/sign_up.mustache:26
+#: app/scripts/templates/choose_what_to_sync.mustache:1 app/scripts/templates/sign_up.mustache:21 app/scripts/templates/sign_up.mustache:26
 msgid "Choose what to sync"
 msgstr "Alege ce să sincronizezi"
 
@@ -638,9 +574,7 @@ msgstr "Preferințe"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr ""
-"Suplimentele și preferințele nu se sincronizează în prezent pe dispozitivele "
-"mobile."
+msgstr "Suplimentele și preferințele nu se sincronizează în prezent pe dispozitivele mobile."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
@@ -654,15 +588,9 @@ msgstr "Link de deblocare expirat"
 msgid "Unlock link damaged"
 msgstr "Link de deblocare deteriorat"
 
-#: app/scripts/templates/complete_account_unlock.mustache:5
-#: app/scripts/templates/complete_reset_password.mustache:7
-#: app/scripts/templates/complete_sign_up.mustache:8
-msgid ""
-"The link you clicked was missing characters, and may have been broken by "
-"your email client. Copy the address carefully, and try again."
-msgstr ""
-"Linkul pe care ai dat clic avea caractere lipsă, iar acest lucru ar putea fi "
-"din vina clientului de e-mail. Copiază adresa cu grijă și încearcă din nou."
+#: app/scripts/templates/complete_account_unlock.mustache:5 app/scripts/templates/complete_reset_password.mustache:7 app/scripts/templates/complete_sign_up.mustache:8
+msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
+msgstr "Linkul pe care ai dat clic avea caractere lipsă, iar acest lucru ar putea fi din vina clientului de e-mail. Copiază adresa cu grijă și încearcă din nou."
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
@@ -689,33 +617,20 @@ msgid "Enter new password"
 msgstr "Introdu parola nouă"
 
 #: app/scripts/templates/complete_reset_password.mustache:10
-msgid ""
-"Once you submit your new password, you will lose any Sync data that is not "
-"on one of your devices."
-msgstr ""
-"Odată ce ai trimis parola nouă, vei pierde datele din Sincronizare care nu "
-"sunt pe unul dintre dispozitive."
+msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
+msgstr "Odată ce ai trimis parola nouă, vei pierde datele din Sincronizare care nu sunt pe unul dintre dispozitive."
 
-#: app/scripts/templates/complete_reset_password.mustache:11
-#: app/scripts/templates/reset_password.mustache:3
+#: app/scripts/templates/complete_reset_password.mustache:11 app/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
 msgstr "Află cum funcționează Sincronizare."
 
-#: app/scripts/templates/complete_reset_password.mustache:13
-#: app/scripts/templates/settings/change_password.mustache:7
+#: app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "New password"
 msgstr "Parola nouă"
 
-#: app/scripts/templates/complete_reset_password.mustache:14
-#: app/scripts/templates/complete_reset_password.mustache:17
-#: app/scripts/templates/force_auth.mustache:5
-#: app/scripts/templates/sign_in.mustache:9
-#: app/scripts/templates/sign_in.mustache:21
-#: app/scripts/templates/sign_up.mustache:15
-#: app/scripts/templates/settings/change_password.mustache:5
-#: app/scripts/templates/settings/change_password.mustache:8
-#: app/scripts/templates/settings/delete_account.mustache:5
-#: app/scripts/templates/settings/devices.mustache:3
+#: app/scripts/templates/complete_reset_password.mustache:14 app/scripts/templates/complete_reset_password.mustache:17 app/scripts/templates/force_auth.mustache:5
+#: app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:21 app/scripts/templates/sign_up.mustache:15 app/scripts/templates/settings/change_password.mustache:5
+#: app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/delete_account.mustache:5 app/scripts/templates/settings/devices.mustache:3
 msgid "Show"
 msgstr "Arată"
 
@@ -752,30 +667,18 @@ msgid "Unlock email sent"
 msgstr "E-mailul de deblocare trimis"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:4
-msgid ""
-"For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
-msgstr ""
-"Din motive de securitate, contul a fost blocat. Pentru a folosi din nou "
-"contul, te rugăm să reverifici contul printr-un clic pe linkul trimis către "
-"%(email)s"
+msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
+msgstr "Din motive de securitate, contul a fost blocat. Pentru a folosi din nou contul, te rugăm să reverifici contul printr-un clic pe linkul trimis către %(email)s"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
 msgstr "E-mail de resetare trimis"
 
 #: app/scripts/templates/confirm_reset_password.mustache:4
-msgid ""
-"Click on the link we've emailed you at %(email)s within the next hour to "
-"create a new password."
-msgstr ""
-"Clic pe linkul pe care ți l-am trimis prin e-mail la %(email)s în următoarea "
-"oră pentru a crea o parolă nouă."
+msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
+msgstr "Clic pe linkul pe care ți l-am trimis prin e-mail la %(email)s în următoarea oră pentru a crea o parolă nouă."
 
-#: app/scripts/templates/confirm_reset_password.mustache:5
-#: app/scripts/templates/confirm_reset_password.mustache:7
-#: app/scripts/templates/reset_password.mustache:7
+#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7 app/scripts/templates/reset_password.mustache:7
 #: app/scripts/templates/reset_password.mustache:9
 msgid "Remember password? Sign in."
 msgstr "Ții minte parola? Autentifică-te."
@@ -785,14 +688,9 @@ msgid "Cookies and local storage are required."
 msgstr "Cookie-urile și stocarea locală sunt necesare."
 
 #: app/scripts/templates/cookies_disabled.mustache:2
-msgid ""
-"Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between "
-"sessions."
+msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
 msgstr ""
-"Te rugăm să activezi cookie-urile și stocarea locală în browserul tău pentru "
-"a accesa Conturi Firefox. Făcând acest lucru va fi activată funcționalitatea "
-"de a ține minte contul tău între sesiuni."
+"Te rugăm să activezi cookie-urile și stocarea locală în browserul tău pentru a accesa Conturi Firefox. Făcând acest lucru va fi activată funcționalitatea de a ține minte contul tău între sesiuni."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -806,46 +704,28 @@ msgstr "Încearcă din nou"
 msgid "Sign in to continue"
 msgstr "Autentifică-te pentru a continua"
 
-#: app/scripts/templates/force_auth.mustache:3
-#: app/scripts/templates/sign_in.mustache:8
-#: app/scripts/templates/sign_in.mustache:19
-#: app/scripts/templates/sign_up.mustache:13
-#: app/scripts/templates/settings/change_password.mustache:1
-#: app/scripts/templates/settings/delete_account.mustache:4
+#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/settings/change_password.mustache:1 app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Parola"
 
-#: app/scripts/templates/force_auth.mustache:6
-#: app/scripts/templates/sign_in.mustache:1
-#: app/scripts/templates/sign_in.mustache:4
-#: app/scripts/templates/sign_in.mustache:10
-#: app/scripts/templates/sign_in.mustache:14
-#: app/scripts/templates/sign_in.mustache:22
+#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in.mustache:4 app/scripts/templates/sign_in.mustache:10
+#: app/scripts/templates/sign_in.mustache:14 app/scripts/templates/sign_in.mustache:22
 msgid "Sign in"
 msgstr "Autentificare"
 
-#: app/scripts/templates/force_auth.mustache:7
-#: app/scripts/templates/sign_in.mustache:11
-#: app/scripts/templates/sign_in.mustache:23
-#: app/scripts/templates/sign_in.mustache:25
+#: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:11 app/scripts/templates/sign_in.mustache:23 app/scripts/templates/sign_in.mustache:25
 #: app/scripts/templates/settings/change_password.mustache:6
 msgid "Forgot password?"
 msgstr "Ai pierdut parola?"
 
-#: app/scripts/templates/force_auth.mustache:8
-#: app/scripts/templates/sign_in.mustache:27
-#: app/scripts/templates/sign_up.mustache:17
-msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
+#: app/scripts/templates/force_auth.mustache:8 app/scripts/templates/sign_in.mustache:27 app/scripts/templates/sign_up.mustache:17
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
-"Continuând, ești de acord cu <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">termenii de utilizare a serviciului</a> și <a id=\"fxa-pp\" href=\"/legal/"
-"privacy\">politica de confidențialitate</a> a serviciilor cloud Firefox."
+"Continuând, ești de acord cu <a id=\"fxa-tos\" href=\"/legal/terms\">termenii de utilizare a serviciului</a> și <a id=\"fxa-pp\" href=\"/legal/privacy\">politica de confidențialitate</a> a "
+"serviciilor cloud Firefox."
 
-#: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
-#: app/scripts/templates/tos.mustache:1
+#: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
 msgstr "Servicii cloud Firefox"
 
@@ -853,14 +733,11 @@ msgstr "Servicii cloud Firefox"
 msgid "Legal"
 msgstr "Mențiuni legale"
 
-#: app/scripts/templates/legal.mustache:3
-#: app/scripts/templates/settings.mustache:5
-#: app/scripts/templates/tos.mustache:2
+#: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:5 app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "Termenii de utilizare a serviciului"
 
-#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
-#: app/scripts/templates/settings.mustache:6
+#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:6
 msgid "Privacy Notice"
 msgstr "Politica de confidențialitate"
 
@@ -872,21 +749,15 @@ msgstr "Rămâi sincronizat din mers:"
 msgid "Get Firefox for Android"
 msgstr "Obține Firefox pentru Android"
 
-#: app/scripts/templates/marketing_snippet_ios.mustache:1
-#: app/scripts/templates/marketing_snippet_ios.mustache:5
-#: app/scripts/templates/marketing_snippet_ios.mustache:9
+#: app/scripts/templates/marketing_snippet_ios.mustache:1 app/scripts/templates/marketing_snippet_ios.mustache:5 app/scripts/templates/marketing_snippet_ios.mustache:9
 msgid "Get the full Sync experience."
 msgstr "Obține întreaga experiență Sincronizare."
 
-#: app/scripts/templates/marketing_snippet_ios.mustache:2
-#: app/scripts/templates/marketing_snippet_ios.mustache:3
-#: app/scripts/templates/marketing_snippet_ios.mustache:12
+#: app/scripts/templates/marketing_snippet_ios.mustache:2 app/scripts/templates/marketing_snippet_ios.mustache:3 app/scripts/templates/marketing_snippet_ios.mustache:12
 msgid "Download Firefox for iOS!"
 msgstr "Descarcă Firefox pentru iOS!"
 
-#: app/scripts/templates/marketing_snippet_ios.mustache:6
-#: app/scripts/templates/marketing_snippet_ios.mustache:7
-#: app/scripts/templates/marketing_snippet_ios.mustache:11
+#: app/scripts/templates/marketing_snippet_ios.mustache:6 app/scripts/templates/marketing_snippet_ios.mustache:7 app/scripts/templates/marketing_snippet_ios.mustache:11
 msgid "Download Firefox for Android."
 msgstr "Descarcă Firefox pentru Android."
 
@@ -894,30 +765,21 @@ msgstr "Descarcă Firefox pentru Android."
 msgid "Download Firefox for mobile devices."
 msgstr "Descarcă Firefox pentru dispozitive mobile."
 
-#: app/scripts/templates/permissions.mustache:1
-#: app/scripts/templates/settings/gravatar_permissions.mustache:1
+#: app/scripts/templates/permissions.mustache:1 app/scripts/templates/settings/gravatar_permissions.mustache:1
 msgid "Request for permission"
 msgstr "Cerere pentru permisiune"
 
-#: app/scripts/templates/permissions.mustache:2
-#: app/scripts/templates/settings/gravatar_permissions.mustache:2
+#: app/scripts/templates/permissions.mustache:2 app/scripts/templates/settings/gravatar_permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
 msgstr "%(serviceName)s dorește următoarele informații din contul tău:"
 
-#: app/scripts/templates/permissions.mustache:3
-#: app/scripts/templates/settings/gravatar_permissions.mustache:4
+#: app/scripts/templates/permissions.mustache:3 app/scripts/templates/settings/gravatar_permissions.mustache:4
 msgid "Accept"
 msgstr "Acceptă"
 
-#: app/scripts/templates/permissions.mustache:4
-#: app/scripts/templates/settings/avatar_camera.mustache:2
-#: app/scripts/templates/settings/avatar_crop.mustache:3
-#: app/scripts/templates/settings/avatar_gravatar.mustache:3
-#: app/scripts/templates/settings/change_password.mustache:11
-#: app/scripts/templates/settings/communication_preferences.mustache:5
-#: app/scripts/templates/settings/communication_preferences.mustache:13
-#: app/scripts/templates/settings/delete_account.mustache:7
-#: app/scripts/templates/settings/display_name.mustache:6
+#: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
+#: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:11 app/scripts/templates/settings/communication_preferences.mustache:5
+#: app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:7 app/scripts/templates/settings/display_name.mustache:6
 #: app/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
 msgstr "Renunță"
@@ -943,17 +805,10 @@ msgid "Forgot password"
 msgstr "Parolă uitată"
 
 #: app/scripts/templates/reset_password.mustache:2
-msgid ""
-"When you reset your password, you will lose any Sync data that is not on one "
-"of your devices."
-msgstr ""
-"În momentul în care îți resetezi parola, vei pierde datele din Sincronizare "
-"care nu sunt pe unul dintre dispozitive."
+msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
+msgstr "În momentul în care îți resetezi parola, vei pierde datele din Sincronizare care nu sunt pe unul dintre dispozitive."
 
-#: app/scripts/templates/reset_password.mustache:5
-#: app/scripts/templates/sign_in.mustache:18
-#: app/scripts/templates/sign_up.mustache:11
-#: app/scripts/templates/settings/gravatar_permissions.mustache:3
+#: app/scripts/templates/reset_password.mustache:5 app/scripts/templates/sign_in.mustache:18 app/scripts/templates/sign_up.mustache:11 app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "E-mailul"
 
@@ -965,19 +820,16 @@ msgstr "Conturi Firefox"
 msgid "Sign out"
 msgstr "Deconectare"
 
-#: app/scripts/templates/sign_in.mustache:2
-#: app/scripts/templates/sign_up.mustache:2
+#: app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Continuă la %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr ""
-"Migrează datele de sincronizare prin autentificarea în contul&nbsp;Firefox."
+msgstr "Migrează datele de sincronizare prin autentificarea în contul&nbsp;Firefox."
 
 # Sau „Schimbă contul”
-#: app/scripts/templates/sign_in.mustache:12
-#: app/scripts/templates/sign_in.mustache:15
+#: app/scripts/templates/sign_in.mustache:12 app/scripts/templates/sign_in.mustache:15
 msgid "Use a different account"
 msgstr "Folosește un cont diferit"
 
@@ -985,8 +837,7 @@ msgstr "Folosește un cont diferit"
 msgid "Create an account"
 msgstr "Creează un cont"
 
-#: app/scripts/templates/sign_up.mustache:1
-#: app/scripts/templates/sign_up.mustache:4
+#: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
 msgstr "Creează un cont Firefox"
 
@@ -995,14 +846,10 @@ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr "Migrează datele de sincronizare prin crearea unui cont&nbsp;Firefox."
 
 #: app/scripts/templates/sign_up.mustache:8
-msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
-msgstr ""
-"Ai un cont cu o adresă de e-mail diferită? <a href=\"%(signinUri)s"
-"\">Autentifică-te</a>"
+msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+msgstr "Ai un cont cu o adresă de e-mail diferită? <a href=\"%(signinUri)s\">Autentifică-te</a>"
 
-#: app/scripts/templates/sign_up.mustache:18
-#: app/scripts/templates/settings/communication_preferences.mustache:7
+#: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Obține ultimele știri despre Mozilla și Firefox."
 
@@ -1014,12 +861,8 @@ msgstr "Creează cont"
 msgid "Have an account? Sign in."
 msgstr "Ai un cont? Autentifică-te."
 
-#: app/scripts/templates/settings/avatar.mustache:2
-#: app/scripts/templates/settings/avatar_crop.mustache:2
-#: app/scripts/templates/settings/change_password.mustache:2
-#: app/scripts/templates/settings/change_password.mustache:10
-#: app/scripts/templates/settings/communication_preferences.mustache:4
-#: app/scripts/templates/settings/display_name.mustache:2
+#: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:2
+#: app/scripts/templates/settings/change_password.mustache:10 app/scripts/templates/settings/communication_preferences.mustache:4 app/scripts/templates/settings/display_name.mustache:2
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Change"
 msgstr "Schimbă"
@@ -1048,8 +891,7 @@ msgstr "Gravatar"
 msgid "Clear"
 msgstr "Curăță"
 
-#: app/scripts/templates/settings/avatar_change.mustache:5
-#: app/scripts/templates/settings/devices.mustache:12
+#: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/devices.mustache:12
 msgid "Done"
 msgstr "Terminat"
 
@@ -1062,12 +904,8 @@ msgid "Save"
 msgstr "Salvează"
 
 #: app/scripts/templates/settings/change_password.mustache:3
-msgid ""
-"Once you're finished, use your new password to sign in on all of your "
-"devices."
-msgstr ""
-"După ce ai terminat, folosește parola nouă pentru a te autentifica pe toate "
-"dispozitivele."
+msgid "Once you're finished, use your new password to sign in on all of your devices."
+msgstr "După ce ai terminat, folosește parola nouă pentru a te autentifica pe toate dispozitivele."
 
 #: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
@@ -1089,8 +927,7 @@ msgstr "Dezabonare"
 msgid "Subscribe"
 msgstr "Abonare"
 
-#: app/scripts/templates/settings/delete_account.mustache:1
-#: app/scripts/templates/settings/delete_account.mustache:6
+#: app/scripts/templates/settings/delete_account.mustache:1 app/scripts/templates/settings/delete_account.mustache:6
 msgid "Delete account"
 msgstr "Șterge contul"
 
@@ -1099,8 +936,7 @@ msgid "Delete"
 msgstr "Șterge"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
-msgid ""
-"Are you sure you want to delete your account? This action cannot be undone."
+msgid "Are you sure you want to delete your account? This action cannot be undone."
 msgstr "Sigur vrei să ștergi contul? Această acțiune este ireversibilă."
 
 #: app/scripts/templates/settings/devices.mustache:2
@@ -1109,13 +945,11 @@ msgstr "Dispozitive"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+"\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox este disponibil pentru <a href=\"%(linkWindows)s\">Windows</a>, <a "
-"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
-"href=\"%(linkIOS)s\">iOS</a> și <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox este disponibil pentru <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> și <a href="
+"\"%(linkLinux)s\">Linux</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -1138,12 +972,8 @@ msgid "Refresh"
 msgstr "Reîmprospătează"
 
 #: app/scripts/templates/settings/display_name.mustache:3
-msgid ""
-"Choose the name you would like to appear in Firefox and when managing your "
-"account."
-msgstr ""
-"Alege numele pe care îl dorești să apară în Firefox și în momentul în care "
-"gestionezi contul."
+msgid "Choose the name you would like to appear in Firefox and when managing your account."
+msgstr "Alege numele pe care îl dorești să apară în Firefox și în momentul în care gestionezi contul."
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1154,12 +984,8 @@ msgid "Sign in to Sync"
 msgstr "Autentifică-te pentru Sincronizare"
 
 #: app/scripts/templates/openid/start.mustache:2
-msgid ""
-"Choose the account you would like to use to sync your tabs, bookmarks, "
-"passwords and more."
-msgstr ""
-"Alege contul pe care dorești să îl folosești pentru a sincroniza filele, "
-"semnele de carte, parolele și altele."
+msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
+msgstr "Alege contul pe care dorești să îl folosești pentru a sincroniza filele, semnele de carte, parolele și altele."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
@@ -1168,6 +994,9 @@ msgstr "Folosește OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Folosește cont Firefox"
+
+#~ msgid "Invalid data-flow-begin attribute"
+#~ msgstr "Atribut data-flow-begin invalid"
 
 #~ msgid "Home"
 #~ msgstr "Acasă"
@@ -1190,14 +1019,8 @@ msgstr "Folosește cont Firefox"
 #~ msgid "Are you sure you want to reset your account password?"
 #~ msgstr "Sigur dorești să resetezi parola contului?"
 
-#~ msgid ""
-#~ "Resetting your password will erase your browsing data from our servers. "
-#~ "Any data on your devices will remain untouched. Begin the reset process "
-#~ "by entering your email below."
-#~ msgstr ""
-#~ "Resetarea parolei va șterge datele de navigare de pe serverele noastre. "
-#~ "Datele de pe dispozitive vor rămâne neatinse. Începe procesul de resetare "
-#~ "prin introducerea e-mailului mai jos."
+#~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
+#~ msgstr "Resetarea parolei va șterge datele de navigare de pe serverele noastre. Datele de pe dispozitive vor rămâne neatinse. Începe procesul de resetare prin introducerea e-mailului mai jos."
 
 #~ msgid "Begin reset"
 #~ msgstr "Începe resetarea"
@@ -1215,14 +1038,11 @@ msgstr "Folosește cont Firefox"
 #~ msgstr "Cookie-uri necesare"
 
 #~ msgid ""
-#~ "Please enable cookies in your browser which are required by Firefox "
-#~ "Accounts. Cookies are small pieces of data stored in your browser that "
-#~ "provide functionality such as remembering you between sessions."
+#~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
+#~ "sessions."
 #~ msgstr ""
-#~ "Te rugăm să activezi cookie-urile în browser care sunt solicitate de "
-#~ "conturile Firefox. Cookie-urile sunt bucăți mici de date stocate în "
-#~ "browser care oferă funcționalitate precum reținerea sesiunilor de "
-#~ "navigare."
+#~ "Te rugăm să activezi cookie-urile în browser care sunt solicitate de conturile Firefox. Cookie-urile sunt bucăți mici de date stocate în browser care oferă funcționalitate precum reținerea "
+#~ "sesiunilor de navigare."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox vine în curând și pe iOS!"
@@ -1359,14 +1179,8 @@ msgstr "Folosește cont Firefox"
 #~ msgid "Enter your email to reset&nbsp;the account password."
 #~ msgstr "Scrie adresa de e-mail pentru a reseta&nbsp;parola contului."
 
-#~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data "
-#~ "from our servers. A new Sync backup will be created from your local "
-#~ "browsing data."
-#~ msgstr ""
-#~ "Din motive de securitate, resetarea parolei va șterge datele de "
-#~ "sincronizare de pe serverele noastre. Va fi creată o copie de siguranță "
-#~ "pentru Sincronizare din datele locale de navigare."
+#~ msgid "For security reasons, resetting your password will erase your Sync data from our servers. A new Sync backup will be created from your local browsing data."
+#~ msgstr "Din motive de securitate, resetarea parolei va șterge datele de sincronizare de pe serverele noastre. Va fi creată o copie de siguranță pentru Sincronizare din datele locale de navigare."
 
 #~ msgid "You are signed in as"
 #~ msgstr "Ești autentificat(ă) ca"
@@ -1380,12 +1194,8 @@ msgstr "Folosește cont Firefox"
 #~ msgid "Password changed"
 #~ msgstr "Parolă schimbată"
 
-#~ msgid ""
-#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
-#~ "email</a>."
-#~ msgstr ""
-#~ "Cont neverificat. <a href=\"#\" id=\"resend\">Retrimite emailul de "
-#~ "verificare</a>."
+#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
+#~ msgstr "Cont neverificat. <a href=\"#\" id=\"resend\">Retrimite emailul de verificare</a>."
 
 #~ msgid "Password reset. Sign in to continue."
 #~ msgstr "Parolă resetată. Autentificați-vă pentru a continua."

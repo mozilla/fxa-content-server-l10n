@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-31 04:13+0000\n"
-"PO-Revision-Date: 2016-05-19 16:10+0000\n"
-"Last-Translator: Andreas Pettersson <az@kth.se>\n"
+"POT-Creation-Date: 2016-06-01 13:33+0000\n"
+"PO-Revision-Date: 2016-05-31 10:59+0000\n"
+"Last-Translator: Ludwig Johnson <ludwig.johnson@telia.com>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -15,9 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1438877493.0\n"
 
-#: app/scripts/views/complete_reset_password.js:132
-#: app/scripts/views/complete_sign_up.js:102 app/scripts/views/confirm.js:112
-#: app/scripts/views/confirm_reset_password.js:184
+#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:102 app/scripts/views/confirm.js:112 app/scripts/views/confirm_reset_password.js:184
 msgid "Account verified successfully"
 msgstr "Konto verifierat"
 
@@ -25,8 +23,7 @@ msgstr "Konto verifierat"
 msgid "Account unlocked, please try again"
 msgstr "Konto upplåst, försök igen"
 
-#: app/scripts/views/confirm_reset_password.js:174
-#: app/scripts/views/ready.js:48
+#: app/scripts/views/confirm_reset_password.js:174 app/scripts/views/ready.js:48
 msgid "Password reset"
 msgstr "Lösenordet återställdes"
 
@@ -42,14 +39,11 @@ msgstr "%(permissionName)s (krävs)"
 msgid "Email address"
 msgstr "E-postadress"
 
-#: app/scripts/views/permissions.js:36
-#: app/scripts/templates/settings/display_name.mustache:1
-#: app/scripts/templates/settings/display_name.mustache:4
+#: app/scripts/views/permissions.js:36 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:4
 msgid "Display name"
 msgstr "Visningsnamn"
 
-#: app/scripts/views/permissions.js:40
-#: app/scripts/templates/settings/avatar.mustache:1
+#: app/scripts/views/permissions.js:40 app/scripts/templates/settings/avatar.mustache:1
 msgid "Account picture"
 msgstr "Kontobild"
 
@@ -77,8 +71,7 @@ msgstr "Välkommen till Sync"
 msgid "Account verified"
 msgstr "Konto verifierat"
 
-#: app/scripts/views/ready.js:60 app/scripts/lib/strings.js:47
-#: app/scripts/templates/ready.mustache:5
+#: app/scripts/views/ready.js:60 app/scripts/lib/strings.js:47 app/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Du kan nu använda %(serviceName)s"
 
@@ -147,18 +140,14 @@ msgid "Display name updated"
 msgstr "Visningsnamn uppdaterad"
 
 #: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid ""
-"Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
-msgstr ""
-"Konto låst. <a href=\"/confirm_account_unlock\">Skicka upplåsningsmejl</a>"
+msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+msgstr "Konto låst. <a href=\"/confirm_account_unlock\">Skicka upplåsningsmejl</a>"
 
-#: app/scripts/views/mixins/account-reset-mixin.js:42
-#: app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:105
+#: app/scripts/views/mixins/account-reset-mixin.js:42 app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:105
 msgid "Your account has been locked for security reasons"
 msgstr "Ditt konto har låsts av säkerhetsskäl"
 
-#: app/scripts/views/mixins/account-reset-mixin.js:43
-#: app/scripts/templates/reset_password.mustache:6
+#: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/templates/reset_password.mustache:6
 msgid "Reset password"
 msgstr "Återställ lösenordet"
 
@@ -166,13 +155,8 @@ msgstr "Återställ lösenordet"
 msgid "Signed out successfully"
 msgstr "Utloggad"
 
-#: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77
-#: app/scripts/lib/marketing-email-errors.js:17
-#: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39
-#: app/scripts/lib/profile-errors.js:47 app/scripts/lib/require-on-demand.js:33
-#: app/scripts/lib/require-on-demand.js:37
-#: app/scripts/lib/require-on-demand.js:41
-#: app/scripts/lib/require-on-demand.js:45
+#: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39
+#: app/scripts/lib/profile-errors.js:47 app/scripts/lib/require-on-demand.js:33 app/scripts/lib/require-on-demand.js:37 app/scripts/lib/require-on-demand.js:41 app/scripts/lib/require-on-demand.js:45
 msgid "Unexpected error"
 msgstr "Oväntat fel"
 
@@ -252,9 +236,7 @@ msgstr "Servern upptagen, försök igen senare"
 msgid "This endpoint is no longer supported"
 msgstr "Den här slutpunkten stöds inte längre"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/config-loader.js:73
-#: app/scripts/lib/marketing-email-errors.js:79
-#: app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/config-loader.js:73 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Systemet är inte tillgängligt, försök igen senare"
 
@@ -290,10 +272,7 @@ msgstr "Kunde inte hämta tjänstevillkoren"
 msgid "Your new password must be different"
 msgstr "Det måste vara ett nytt lösenord"
 
-#: app/scripts/lib/auth-errors.js:153
-#: app/scripts/templates/complete_reset_password.mustache:15
-#: app/scripts/templates/sign_up.mustache:16
-#: app/scripts/templates/settings/change_password.mustache:9
+#: app/scripts/lib/auth-errors.js:153 app/scripts/templates/complete_reset_password.mustache:15 app/scripts/templates/sign_up.mustache:16 app/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "Måste vara minst 8 tecken"
 
@@ -301,8 +280,7 @@ msgstr "Måste vara minst 8 tecken"
 msgid "Valid password required"
 msgstr "Giltigt lösenord krävs"
 
-#: app/scripts/lib/auth-errors.js:161 app/scripts/lib/auth-errors.js:199
-#: app/scripts/lib/auth-errors.js:215
+#: app/scripts/lib/auth-errors.js:161 app/scripts/lib/auth-errors.js:199 app/scripts/lib/auth-errors.js:215
 msgid "Valid email required"
 msgstr "Giltig e-postadress krävs"
 
@@ -330,16 +308,11 @@ msgstr "Ange en giltig e-postadress. firefox.com erbjuder inte e-post."
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox-konton kan endast placeras i en IFRAME på godkända webbplatser"
 
-#: app/scripts/lib/auth-errors.js:226
-#: app/scripts/templates/complete_account_unlock.mustache:2
-#: app/scripts/templates/complete_sign_up.mustache:3
+#: app/scripts/lib/auth-errors.js:226 app/scripts/templates/complete_account_unlock.mustache:2 app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
-msgstr ""
-"Länken du klickade på för att verifiera din e-postadress är inte giltig "
-"längre."
+msgstr "Länken du klickade på för att verifiera din e-postadress är inte giltig längre."
 
-#: app/scripts/lib/auth-errors.js:230
-#: app/scripts/templates/complete_sign_up.mustache:7
+#: app/scripts/lib/auth-errors.js:230 app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "Verifieringslänk är trasig"
 
@@ -376,8 +349,12 @@ msgid "Missing property in resume token: %(property)s"
 msgstr "Saknad egenskap i resume token: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:274
-msgid "Invalid data-flow-begin attribute"
-msgstr "Ogiltigt data-flow-begin attribut"
+msgid "Invalid data attribute: %(property)s"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:278
+msgid "Missing data attribute: %(property)s"
+msgstr ""
 
 #: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -449,21 +426,15 @@ msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"Genom att fortsätta godkänner du <a id=\"service-tos\" href=\"%(termsUri)s"
-"\">användarvillkoren</a> och <a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">sekretesspolicy</a> för %(serviceName)s (%(serviceUri)s)."
+"Genom att fortsätta godkänner du <a id=\"service-tos\" href=\"%(termsUri)s\">användarvillkoren</a> och <a id=\"service-pp\" href=\"%(privacyUri)s\">sekretesspolicy</a> för %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:26
-msgid ""
-"<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-"
-"account\">Help</a>"
-msgstr ""
-"<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-"
-"account\">Hjälp</a>"
+msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Hjälp</a>"
 
 #: app/scripts/lib/strings.js:29
 msgid "Confirm new sign-in to Firefox"
@@ -478,31 +449,20 @@ msgid "You signed in to Firefox from %(device)s."
 msgstr "Du loggade in till Firefox från %(device)s."
 
 #: app/scripts/lib/strings.js:32
-msgid ""
-"For added security, please confirm this sign-in to begin syncing with "
-"%(device)s."
-msgstr ""
-"För extra säkerhet, vänligen bekräfta denna inloggning för att påbörja "
-"synkronisering med %(device)s."
+msgid "For added security, please confirm this sign-in to begin syncing with %(device)s."
+msgstr "För extra säkerhet, vänligen bekräfta denna inloggning för att påbörja synkronisering med %(device)s."
 
 #: app/scripts/lib/strings.js:33
 msgid "Alternatively:"
 msgstr "Alternativt:"
 
 #: app/scripts/lib/strings.js:34
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"Det här är ett automatiskt e-postmeddelande; om du felaktigt har fått det "
-"behöver du inte göra något."
+msgid "This is an automated email; if you received it in error, no action is required."
+msgstr "Det här är ett automatiskt e-postmeddelande; om du felaktigt har fått det behöver du inte göra något."
 
 #: app/scripts/lib/strings.js:35
-msgid ""
-"For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
-"Support</a>"
-msgstr ""
-"För mer information, besök <a %(supportLinkAttributes)s>Mozilla Support</a>"
+msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>"
+msgstr "För mer information, besök <a %(supportLinkAttributes)s>Mozilla Support</a>"
 
 #: app/scripts/lib/strings.js:36
 msgid "Verify Email"
@@ -520,43 +480,29 @@ msgstr "Bekräfta inloggning"
 msgid "Confirm this sign-in"
 msgstr "Bekräfta denna inloggning"
 
-#: app/scripts/lib/strings.js:40
-#: app/scripts/templates/complete_reset_password.mustache:2
-#: app/scripts/templates/complete_sign_up.mustache:2
-#: app/scripts/templates/confirm.mustache:2
-#: app/scripts/templates/confirm_account_unlock.mustache:2
-#: app/scripts/templates/confirm_reset_password.mustache:2
+#: app/scripts/lib/strings.js:40 app/scripts/templates/complete_reset_password.mustache:2 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/templates/confirm.mustache:2
+#: app/scripts/templates/confirm_account_unlock.mustache:2 app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email resent"
 msgstr "E-post har skickats"
 
-#: app/scripts/lib/strings.js:41 app/scripts/templates/confirm.mustache:3
-#: app/scripts/templates/confirm_account_unlock.mustache:3
-#: app/scripts/templates/confirm_reset_password.mustache:3
+#: app/scripts/lib/strings.js:41 app/scripts/templates/confirm.mustache:3 app/scripts/templates/confirm_account_unlock.mustache:3 app/scripts/templates/confirm_reset_password.mustache:3
 msgid "Email Sent"
 msgstr "E-post har skickats"
 
 #: app/scripts/lib/strings.js:42
-msgid ""
-"To better protect your Firefox data, we've emailed a confirmation link to "
-"%(email)s"
-msgstr ""
-"För att bättre skydda din Firefox-data, har vi mejlat en bekräftelselänk "
-"till %(email)s"
+msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+msgstr "För att bättre skydda din Firefox-data, har vi mejlat en bekräftelselänk till %(email)s"
 
 #: app/scripts/lib/strings.js:43 app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
 msgstr "Öppna Gmail"
 
-#: app/scripts/lib/strings.js:44 app/scripts/templates/confirm.mustache:7
-#: app/scripts/templates/confirm_account_unlock.mustache:6
-#: app/scripts/templates/confirm_reset_password.mustache:9
+#: app/scripts/lib/strings.js:44 app/scripts/templates/confirm.mustache:7 app/scripts/templates/confirm_account_unlock.mustache:6 app/scripts/templates/confirm_reset_password.mustache:9
 msgid "Resend email"
 msgstr "Skicka igen"
 
-#: app/scripts/lib/strings.js:45
-#: app/scripts/templates/choose_what_to_sync.mustache:16
-#: app/scripts/templates/confirm_account_unlock.mustache:5
-#: app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+#: app/scripts/lib/strings.js:45 app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm_account_unlock.mustache:5 app/scripts/templates/pp.mustache:3
+#: app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Bakåt"
 
@@ -566,34 +512,29 @@ msgstr "Inloggning bekräftad"
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "Felaktig begäran"
 
 #: app/scripts/templates/500.mustache:1
 msgid "500 Error"
-msgstr ""
+msgstr "500 Fel"
 
 #: app/scripts/templates/500.mustache:2
-msgid ""
-"Oh dear, something went wrong there. We've been notified and will get "
-"working on a fix."
-msgstr ""
+msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+msgstr "Oj, något gick snett. Vi har blivit underrättade och försöker lösa problemet."
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
 msgstr "Kan inte skapa konto"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
-msgid ""
-"You must meet certain age requirements to create a Firefox&nbsp;Account."
+msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr "Du måste uppfylla vissa ålderskrav för att få skapa ett Firefox-konto."
 
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
 msgstr "Läs mer."
 
-#: app/scripts/templates/choose_what_to_sync.mustache:1
-#: app/scripts/templates/sign_up.mustache:21
-#: app/scripts/templates/sign_up.mustache:26
+#: app/scripts/templates/choose_what_to_sync.mustache:1 app/scripts/templates/sign_up.mustache:21 app/scripts/templates/sign_up.mustache:26
 msgid "Choose what to sync"
 msgstr "Välj vad som ska synkas"
 
@@ -623,9 +564,7 @@ msgstr "Inställningar"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr ""
-"Tillägg och inställningar synkroniseras för närvarande inte på mobila "
-"enheter."
+msgstr "Tillägg och inställningar synkroniseras för närvarande inte på mobila enheter."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
@@ -639,15 +578,9 @@ msgstr "Upplåsningslänk har upphört"
 msgid "Unlock link damaged"
 msgstr "Upplåsningslänk är skadad"
 
-#: app/scripts/templates/complete_account_unlock.mustache:5
-#: app/scripts/templates/complete_reset_password.mustache:7
-#: app/scripts/templates/complete_sign_up.mustache:8
-msgid ""
-"The link you clicked was missing characters, and may have been broken by "
-"your email client. Copy the address carefully, and try again."
-msgstr ""
-"Länken du klickade på saknade vissa tecken och kan ha förvrängts av ditt e-"
-"postprogram. Kopiera adressen noggrant och försök igen."
+#: app/scripts/templates/complete_account_unlock.mustache:5 app/scripts/templates/complete_reset_password.mustache:7 app/scripts/templates/complete_sign_up.mustache:8
+msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
+msgstr "Länken du klickade på saknade vissa tecken och kan ha förvrängts av ditt e-postprogram. Kopiera adressen noggrant och försök igen."
 
 #: app/scripts/templates/complete_account_unlock.mustache:7
 msgid "Unlock error"
@@ -674,33 +607,20 @@ msgid "Enter new password"
 msgstr "Ange ett nytt lösenord"
 
 #: app/scripts/templates/complete_reset_password.mustache:10
-msgid ""
-"Once you submit your new password, you will lose any Sync data that is not "
-"on one of your devices."
-msgstr ""
-"När du skickar in ditt nya lösenord, kommer du förlora all Sync data som "
-"inte är på någon av dina enheter."
+msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
+msgstr "När du skickar in ditt nya lösenord, kommer du förlora all Sync data som inte är på någon av dina enheter."
 
-#: app/scripts/templates/complete_reset_password.mustache:11
-#: app/scripts/templates/reset_password.mustache:3
+#: app/scripts/templates/complete_reset_password.mustache:11 app/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
 msgstr "Läs om hur Sync fungerar."
 
-#: app/scripts/templates/complete_reset_password.mustache:13
-#: app/scripts/templates/settings/change_password.mustache:7
+#: app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "New password"
 msgstr "Nytt lösenord"
 
-#: app/scripts/templates/complete_reset_password.mustache:14
-#: app/scripts/templates/complete_reset_password.mustache:17
-#: app/scripts/templates/force_auth.mustache:5
-#: app/scripts/templates/sign_in.mustache:9
-#: app/scripts/templates/sign_in.mustache:21
-#: app/scripts/templates/sign_up.mustache:15
-#: app/scripts/templates/settings/change_password.mustache:5
-#: app/scripts/templates/settings/change_password.mustache:8
-#: app/scripts/templates/settings/delete_account.mustache:5
-#: app/scripts/templates/settings/devices.mustache:3
+#: app/scripts/templates/complete_reset_password.mustache:14 app/scripts/templates/complete_reset_password.mustache:17 app/scripts/templates/force_auth.mustache:5
+#: app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:21 app/scripts/templates/sign_up.mustache:15 app/scripts/templates/settings/change_password.mustache:5
+#: app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/delete_account.mustache:5 app/scripts/templates/settings/devices.mustache:3
 msgid "Show"
 msgstr "Visa"
 
@@ -737,30 +657,18 @@ msgid "Unlock email sent"
 msgstr "Upplåsningsmejl har skickats"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:4
-msgid ""
-"For security reasons your account was put on lockdown. To perform account-"
-"level activities, please re-verify your account by clicking the verification "
-"link sent to %(email)s"
-msgstr ""
-"Av säkerhetsskäl har kontot satts på låsning. För att utföra aktiviteter på "
-"kontonivå, var god kontrollera ditt konto genom att klicka på "
-"verifieringslänken som skickas till %(email)s"
+msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
+msgstr "Av säkerhetsskäl har kontot satts på låsning. För att utföra aktiviteter på kontonivå, var god kontrollera ditt konto genom att klicka på verifieringslänken som skickas till %(email)s"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
 msgstr "Återställningsmejl skickat"
 
 #: app/scripts/templates/confirm_reset_password.mustache:4
-msgid ""
-"Click on the link we've emailed you at %(email)s within the next hour to "
-"create a new password."
-msgstr ""
-"Klicka på länken som vi har skickat till dig på %(email)s inom den kommande "
-"timmen för att skapa ett nytt lösenord."
+msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
+msgstr "Klicka på länken som vi har skickat till dig på %(email)s inom den kommande timmen för att skapa ett nytt lösenord."
 
-#: app/scripts/templates/confirm_reset_password.mustache:5
-#: app/scripts/templates/confirm_reset_password.mustache:7
-#: app/scripts/templates/reset_password.mustache:7
+#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7 app/scripts/templates/reset_password.mustache:7
 #: app/scripts/templates/reset_password.mustache:9
 msgid "Remember password? Sign in."
 msgstr "Kom ihåg löseonord? Logga in."
@@ -770,14 +678,8 @@ msgid "Cookies and local storage are required."
 msgstr "Kakor och lokal lagring krävs."
 
 #: app/scripts/templates/cookies_disabled.mustache:2
-msgid ""
-"Please enable cookies and local storage in your browser to access Firefox "
-"Accounts. Doing so will enable functionality such as remembering you between "
-"sessions."
-msgstr ""
-"Aktivera kakor och lokal lagring i din webbläsare för att komma åt Firefox-"
-"konton. Detta kommer att aktivera funktioner som att komma ihåg dig mellan "
-"sessioner."
+msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
+msgstr "Aktivera kakor och lokal lagring i din webbläsare för att komma åt Firefox-konton. Detta kommer att aktivera funktioner som att komma ihåg dig mellan sessioner."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -791,46 +693,26 @@ msgstr "Försök igen"
 msgid "Sign in to continue"
 msgstr "Logga in för att fortsätta"
 
-#: app/scripts/templates/force_auth.mustache:3
-#: app/scripts/templates/sign_in.mustache:8
-#: app/scripts/templates/sign_in.mustache:19
-#: app/scripts/templates/sign_up.mustache:13
-#: app/scripts/templates/settings/change_password.mustache:1
-#: app/scripts/templates/settings/delete_account.mustache:4
+#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/settings/change_password.mustache:1 app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Lösenord"
 
-#: app/scripts/templates/force_auth.mustache:6
-#: app/scripts/templates/sign_in.mustache:1
-#: app/scripts/templates/sign_in.mustache:4
-#: app/scripts/templates/sign_in.mustache:10
-#: app/scripts/templates/sign_in.mustache:14
-#: app/scripts/templates/sign_in.mustache:22
+#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in.mustache:4 app/scripts/templates/sign_in.mustache:10
+#: app/scripts/templates/sign_in.mustache:14 app/scripts/templates/sign_in.mustache:22
 msgid "Sign in"
 msgstr "Logga in"
 
-#: app/scripts/templates/force_auth.mustache:7
-#: app/scripts/templates/sign_in.mustache:11
-#: app/scripts/templates/sign_in.mustache:23
-#: app/scripts/templates/sign_in.mustache:25
+#: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:11 app/scripts/templates/sign_in.mustache:23 app/scripts/templates/sign_in.mustache:25
 #: app/scripts/templates/settings/change_password.mustache:6
 msgid "Forgot password?"
 msgstr "Glömt lösenordet?"
 
-#: app/scripts/templates/force_auth.mustache:8
-#: app/scripts/templates/sign_in.mustache:27
-#: app/scripts/templates/sign_up.mustache:17
-msgid ""
-"By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy "
-"Notice</a> of Firefox cloud services."
-msgstr ""
-"Genom att fortsätta godkänner du <a id=\"fxa-tos\" href=\"/legal/terms"
-"\">användarvillkoren</a> och <a id=\"fxa-pp\" href=\"/legal/privacy"
-"\">sekretesspolicy</a> för Firefox molntjänster."
+#: app/scripts/templates/force_auth.mustache:8 app/scripts/templates/sign_in.mustache:27 app/scripts/templates/sign_up.mustache:17
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+msgstr "Genom att fortsätta godkänner du <a id=\"fxa-tos\" href=\"/legal/terms\">användarvillkoren</a> och <a id=\"fxa-pp\" href=\"/legal/privacy\">sekretesspolicy</a> för Firefox molntjänster."
 
-#: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1
-#: app/scripts/templates/tos.mustache:1
+#: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
 msgstr "Firefox molntjänster"
 
@@ -838,14 +720,11 @@ msgstr "Firefox molntjänster"
 msgid "Legal"
 msgstr "Juridisk"
 
-#: app/scripts/templates/legal.mustache:3
-#: app/scripts/templates/settings.mustache:5
-#: app/scripts/templates/tos.mustache:2
+#: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:5 app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "Tjänstevillkor"
 
-#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2
-#: app/scripts/templates/settings.mustache:6
+#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:6
 msgid "Privacy Notice"
 msgstr "Sekretesspolicy"
 
@@ -857,21 +736,15 @@ msgstr "Var synkad, hela tiden:"
 msgid "Get Firefox for Android"
 msgstr "Hämta Firefox för Android"
 
-#: app/scripts/templates/marketing_snippet_ios.mustache:1
-#: app/scripts/templates/marketing_snippet_ios.mustache:5
-#: app/scripts/templates/marketing_snippet_ios.mustache:9
+#: app/scripts/templates/marketing_snippet_ios.mustache:1 app/scripts/templates/marketing_snippet_ios.mustache:5 app/scripts/templates/marketing_snippet_ios.mustache:9
 msgid "Get the full Sync experience."
 msgstr "Få den fulla Sync upplevelsen."
 
-#: app/scripts/templates/marketing_snippet_ios.mustache:2
-#: app/scripts/templates/marketing_snippet_ios.mustache:3
-#: app/scripts/templates/marketing_snippet_ios.mustache:12
+#: app/scripts/templates/marketing_snippet_ios.mustache:2 app/scripts/templates/marketing_snippet_ios.mustache:3 app/scripts/templates/marketing_snippet_ios.mustache:12
 msgid "Download Firefox for iOS!"
 msgstr "Hämta Firefox för iOS!"
 
-#: app/scripts/templates/marketing_snippet_ios.mustache:6
-#: app/scripts/templates/marketing_snippet_ios.mustache:7
-#: app/scripts/templates/marketing_snippet_ios.mustache:11
+#: app/scripts/templates/marketing_snippet_ios.mustache:6 app/scripts/templates/marketing_snippet_ios.mustache:7 app/scripts/templates/marketing_snippet_ios.mustache:11
 msgid "Download Firefox for Android."
 msgstr "Ladda ner Firefox för Android."
 
@@ -879,30 +752,21 @@ msgstr "Ladda ner Firefox för Android."
 msgid "Download Firefox for mobile devices."
 msgstr "Ladda ner Firefox för mobila enheter."
 
-#: app/scripts/templates/permissions.mustache:1
-#: app/scripts/templates/settings/gravatar_permissions.mustache:1
+#: app/scripts/templates/permissions.mustache:1 app/scripts/templates/settings/gravatar_permissions.mustache:1
 msgid "Request for permission"
 msgstr "Begäran om behörighet"
 
-#: app/scripts/templates/permissions.mustache:2
-#: app/scripts/templates/settings/gravatar_permissions.mustache:2
+#: app/scripts/templates/permissions.mustache:2 app/scripts/templates/settings/gravatar_permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
 msgstr "%(serviceName)s vill ha följande information från ditt konto:"
 
-#: app/scripts/templates/permissions.mustache:3
-#: app/scripts/templates/settings/gravatar_permissions.mustache:4
+#: app/scripts/templates/permissions.mustache:3 app/scripts/templates/settings/gravatar_permissions.mustache:4
 msgid "Accept"
 msgstr "Godkänn"
 
-#: app/scripts/templates/permissions.mustache:4
-#: app/scripts/templates/settings/avatar_camera.mustache:2
-#: app/scripts/templates/settings/avatar_crop.mustache:3
-#: app/scripts/templates/settings/avatar_gravatar.mustache:3
-#: app/scripts/templates/settings/change_password.mustache:11
-#: app/scripts/templates/settings/communication_preferences.mustache:5
-#: app/scripts/templates/settings/communication_preferences.mustache:13
-#: app/scripts/templates/settings/delete_account.mustache:7
-#: app/scripts/templates/settings/display_name.mustache:6
+#: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
+#: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:11 app/scripts/templates/settings/communication_preferences.mustache:5
+#: app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:7 app/scripts/templates/settings/display_name.mustache:6
 #: app/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
 msgstr "Avbryt"
@@ -928,17 +792,10 @@ msgid "Forgot password"
 msgstr "Glömt lösenord"
 
 #: app/scripts/templates/reset_password.mustache:2
-msgid ""
-"When you reset your password, you will lose any Sync data that is not on one "
-"of your devices."
-msgstr ""
-"När du återställer ditt lösenord, kommer du förlora all Sync data som inte "
-"finns på någon av dina enheter."
+msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
+msgstr "När du återställer ditt lösenord, kommer du förlora all Sync data som inte finns på någon av dina enheter."
 
-#: app/scripts/templates/reset_password.mustache:5
-#: app/scripts/templates/sign_in.mustache:18
-#: app/scripts/templates/sign_up.mustache:11
-#: app/scripts/templates/settings/gravatar_permissions.mustache:3
+#: app/scripts/templates/reset_password.mustache:5 app/scripts/templates/sign_in.mustache:18 app/scripts/templates/sign_up.mustache:11 app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "E-post"
 
@@ -950,19 +807,15 @@ msgstr "Firefox-konton"
 msgid "Sign out"
 msgstr "Logga ut"
 
-#: app/scripts/templates/sign_in.mustache:2
-#: app/scripts/templates/sign_up.mustache:2
+#: app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Fortsätt till %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr ""
-"Migrera dina synkroniseringsuppgifter genom att logga in på ditt Firefox-"
-"konto."
+msgstr "Migrera dina synkroniseringsuppgifter genom att logga in på ditt Firefox-konto."
 
-#: app/scripts/templates/sign_in.mustache:12
-#: app/scripts/templates/sign_in.mustache:15
+#: app/scripts/templates/sign_in.mustache:12 app/scripts/templates/sign_in.mustache:15
 msgid "Use a different account"
 msgstr "Använd ett annat konto"
 
@@ -970,24 +823,19 @@ msgstr "Använd ett annat konto"
 msgid "Create an account"
 msgstr "Skapa ett konto"
 
-#: app/scripts/templates/sign_up.mustache:1
-#: app/scripts/templates/sign_up.mustache:4
+#: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
 msgstr "Skapa ett Firefox-konto"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr ""
-"Migrera dina synkroniseringsuppgifter genom att skapa en nytt Firefox-konto."
+msgstr "Migrera dina synkroniseringsuppgifter genom att skapa en nytt Firefox-konto."
 
 #: app/scripts/templates/sign_up.mustache:8
-msgid ""
-"Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
-msgstr ""
-"Har du ett konto med en annan e-post? <a href=\"%(signinUri)s\">Logga in</a>"
+msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+msgstr "Har du ett konto med en annan e-post? <a href=\"%(signinUri)s\">Logga in</a>"
 
-#: app/scripts/templates/sign_up.mustache:18
-#: app/scripts/templates/settings/communication_preferences.mustache:7
+#: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Få de senaste nyheterna om Mozilla och Firefox."
 
@@ -999,12 +847,8 @@ msgstr "Skapa konto"
 msgid "Have an account? Sign in."
 msgstr "Har du ett konto? Logga in."
 
-#: app/scripts/templates/settings/avatar.mustache:2
-#: app/scripts/templates/settings/avatar_crop.mustache:2
-#: app/scripts/templates/settings/change_password.mustache:2
-#: app/scripts/templates/settings/change_password.mustache:10
-#: app/scripts/templates/settings/communication_preferences.mustache:4
-#: app/scripts/templates/settings/display_name.mustache:2
+#: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:2
+#: app/scripts/templates/settings/change_password.mustache:10 app/scripts/templates/settings/communication_preferences.mustache:4 app/scripts/templates/settings/display_name.mustache:2
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Change"
 msgstr "Ändra"
@@ -1033,8 +877,7 @@ msgstr "Gravatar"
 msgid "Clear"
 msgstr "Rensa"
 
-#: app/scripts/templates/settings/avatar_change.mustache:5
-#: app/scripts/templates/settings/devices.mustache:12
+#: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/devices.mustache:12
 msgid "Done"
 msgstr "Klar"
 
@@ -1047,12 +890,8 @@ msgid "Save"
 msgstr "Spara"
 
 #: app/scripts/templates/settings/change_password.mustache:3
-msgid ""
-"Once you're finished, use your new password to sign in on all of your "
-"devices."
-msgstr ""
-"När du är klar, använd ditt nya lösenord för att logga in på alla dina "
-"enheter."
+msgid "Once you're finished, use your new password to sign in on all of your devices."
+msgstr "När du är klar, använd ditt nya lösenord för att logga in på alla dina enheter."
 
 #: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
@@ -1074,8 +913,7 @@ msgstr "Avsluta prenumeration"
 msgid "Subscribe"
 msgstr "Prenumerera"
 
-#: app/scripts/templates/settings/delete_account.mustache:1
-#: app/scripts/templates/settings/delete_account.mustache:6
+#: app/scripts/templates/settings/delete_account.mustache:1 app/scripts/templates/settings/delete_account.mustache:6
 msgid "Delete account"
 msgstr "Ta bort konto"
 
@@ -1084,10 +922,8 @@ msgid "Delete"
 msgstr "Ta bort"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
-msgid ""
-"Are you sure you want to delete your account? This action cannot be undone."
-msgstr ""
-"Är du säker på att du vill ta bort kontot? Denna åtgärd kan inte ångras."
+msgid "Are you sure you want to delete your account? This action cannot be undone."
+msgstr "Är du säker på att du vill ta bort kontot? Denna åtgärd kan inte ångras."
 
 #: app/scripts/templates/settings/devices.mustache:2
 msgid "Devices"
@@ -1095,13 +931,11 @@ msgstr "Enheter"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
-"\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href="
-"\"%(linkIOS)s\">iOS</a> and <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+"\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox finns tillgänglig för <a href=\"%(linkWindows)s\">Windows</a>, <a "
-"href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a "
-"href=\"%(linkIOS)s\">iOS</a> och <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox finns tillgänglig för <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> och <a href="
+"\"%(linkLinux)s\">Linux</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -1124,11 +958,8 @@ msgid "Refresh"
 msgstr "Uppdatera"
 
 #: app/scripts/templates/settings/display_name.mustache:3
-msgid ""
-"Choose the name you would like to appear in Firefox and when managing your "
-"account."
-msgstr ""
-"Välj det namn du vill ska visas i Firefox och när du hanterar ditt konto."
+msgid "Choose the name you would like to appear in Firefox and when managing your account."
+msgstr "Välj det namn du vill ska visas i Firefox och när du hanterar ditt konto."
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1139,12 +970,8 @@ msgid "Sign in to Sync"
 msgstr "Logga in till Sync"
 
 #: app/scripts/templates/openid/start.mustache:2
-msgid ""
-"Choose the account you would like to use to sync your tabs, bookmarks, "
-"passwords and more."
-msgstr ""
-"Välj det konto du vill använda för att synkronisera dina flikar, bokmärken, "
-"lösenord och mycket mer."
+msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
+msgstr "Välj det konto du vill använda för att synkronisera dina flikar, bokmärken, lösenord och mycket mer."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
@@ -1153,6 +980,9 @@ msgstr "Använd OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Använd Firefox Konto"
+
+#~ msgid "Invalid data-flow-begin attribute"
+#~ msgstr "Ogiltigt data-flow-begin attribut"
 
 #~ msgid "Home"
 #~ msgstr "Hem"
@@ -1175,14 +1005,10 @@ msgstr "Använd Firefox Konto"
 #~ msgid "Are you sure you want to reset your account password?"
 #~ msgstr "Är du säker du vill återställa lösenordet?"
 
-#~ msgid ""
-#~ "Resetting your password will erase your browsing data from our servers. "
-#~ "Any data on your devices will remain untouched. Begin the reset process "
-#~ "by entering your email below."
+#~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr ""
-#~ "Återställa lösenordet kommer att radera din webbinformation från våra "
-#~ "servrar. Alla data på dina enheter kommer att förbli orörda. Starta "
-#~ "återställningsprocessen genom att ange din e-postadress nedan."
+#~ "Återställa lösenordet kommer att radera din webbinformation från våra servrar. Alla data på dina enheter kommer att förbli orörda. Starta återställningsprocessen genom att ange din e-postadress "
+#~ "nedan."
 
 #~ msgid "Begin reset"
 #~ msgstr "Starta återställ"
@@ -1239,13 +1065,11 @@ msgstr "Använd Firefox Konto"
 #~ msgstr "Kakor i webbläsaren krävs"
 
 #~ msgid ""
-#~ "Please enable cookies in your browser which are required by Firefox "
-#~ "Accounts. Cookies are small pieces of data stored in your browser that "
-#~ "provide functionality such as remembering you between sessions."
+#~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
+#~ "sessions."
 #~ msgstr ""
-#~ "Du måste aktivera kakor i webbläsaren som behövs för Firefox-konton. "
-#~ "Kakor är små bitar av data som lagras i webbläsaren och som bland annat "
-#~ "gör det möjligt att komma ihåg dig från gång till gång."
+#~ "Du måste aktivera kakor i webbläsaren som behövs för Firefox-konton. Kakor är små bitar av data som lagras i webbläsaren och som bland annat gör det möjligt att komma ihåg dig från gång till "
+#~ "gång."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox kommer snart till iOS!"
@@ -1382,14 +1206,8 @@ msgstr "Använd Firefox Konto"
 #~ msgid "Enter your email to reset&nbsp;the account password."
 #~ msgstr "Ange e-postadressen för att återställa&nbsp;kontolösenordet."
 
-#~ msgid ""
-#~ "For security reasons, resetting your password will erase your Sync data "
-#~ "from our servers. A new Sync backup will be created from your local "
-#~ "browsing data."
-#~ msgstr ""
-#~ "Av säkerhetsskäl kommer din synkroniserade data att raderas från våra "
-#~ "servrar när du återställer ditt lösenord. En ny synkroniserad "
-#~ "säkerhetskopiering skapas från din lokala webbläsare."
+#~ msgid "For security reasons, resetting your password will erase your Sync data from our servers. A new Sync backup will be created from your local browsing data."
+#~ msgstr "Av säkerhetsskäl kommer din synkroniserade data att raderas från våra servrar när du återställer ditt lösenord. En ny synkroniserad säkerhetskopiering skapas från din lokala webbläsare."
 
 #~ msgid "You are signed in as"
 #~ msgstr "Du är inloggad som"
@@ -1398,23 +1216,14 @@ msgstr "Använd Firefox Konto"
 #~ msgstr "Har du redan ett konto? Logga in."
 
 #~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
-#~ "\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
-#~ "\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
-#~ "Genom att fortsätta, godkänner jag <a id=\"service-tos\" href="
-#~ "\"%(termsUri)s\">användarvillkoren</a> och <a id=\"service-pp\" href="
-#~ "\"%(privacyUri)s\">sekretesspolicyn</a> för %(serviceName)s "
+#~ "Genom att fortsätta, godkänner jag <a id=\"service-tos\" href=\"%(termsUri)s\">användarvillkoren</a> och <a id=\"service-pp\" href=\"%(privacyUri)s\">sekretesspolicyn</a> för %(serviceName)s "
 #~ "(%(serviceUri)s)."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
-#~ "\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "Genom att fortsätta, godkänner jag <a id=\"fxa-tos\" href=\"/legal/terms"
-#~ "\">användarvillkoren</a> och <a id=\"fxa-pp\" href=\"/legal/privacy"
-#~ "\">sekretesspolicyn</a> för Firefox molntjänster."
+#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr "Genom att fortsätta, godkänner jag <a id=\"fxa-tos\" href=\"/legal/terms\">användarvillkoren</a> och <a id=\"fxa-pp\" href=\"/legal/privacy\">sekretesspolicyn</a> för Firefox molntjänster."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Prenumerera på Firefox nyheter och tips"
@@ -1431,12 +1240,8 @@ msgstr "Använd Firefox Konto"
 #~ msgid "missing search parameter: %(itemName)s"
 #~ msgstr "saknade sökparametrar: %(itemName)s"
 
-#~ msgid ""
-#~ "Once you're ﬁnished, use your new password to sign in on all of your "
-#~ "devices."
-#~ msgstr ""
-#~ "När du är klar, använd ditt nya lösenord för att logga in på alla dina "
-#~ "enheter."
+#~ msgid "Once you're ﬁnished, use your new password to sign in on all of your devices."
+#~ msgstr "När du är klar, använd ditt nya lösenord för att logga in på alla dina enheter."
 
 #~ msgid "Illegal iframe"
 #~ msgstr "Ogiltig iframe"
@@ -1447,12 +1252,8 @@ msgstr "Använd Firefox Konto"
 #~ msgid "Password changed"
 #~ msgstr "Lösenord ändrat"
 
-#~ msgid ""
-#~ "Unverified account. <a href=\"#\" id=\"resend\">Resend verification "
-#~ "email</a>."
-#~ msgstr ""
-#~ "Overifierat konto. <a href=\"#\" id=\"resend\">Skicka nytt "
-#~ "verifieringsmeddelande</a>."
+#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
+#~ msgstr "Overifierat konto. <a href=\"#\" id=\"resend\">Skicka nytt verifieringsmeddelande</a>."
 
 #~ msgid "Password reset. Sign in to continue."
 #~ msgstr "Lösenordet har återställts. Logga in för att fortsätta"
@@ -1460,12 +1261,8 @@ msgstr "Använd Firefox Konto"
 #~ msgid "Signed out"
 #~ msgstr "Utloggad"
 
-#~ msgid ""
-#~ "Your verification email was just returned. Mistyped email? <a href=\"/"
-#~ "signup\">Start over.</a>"
-#~ msgstr ""
-#~ "Ditt verifieringsmejl gick i retur. Skrivit fel e-postadress? <a href=\"/"
-#~ "signup\">Börja om.</a>"
+#~ msgid "Your verification email was just returned. Mistyped email? <a href=\"/signup\">Start over.</a>"
+#~ msgstr "Ditt verifieringsmejl gick i retur. Skrivit fel e-postadress? <a href=\"/signup\">Börja om.</a>"
 
 #~ msgid "Paste image URL"
 #~ msgstr "Klistra in bild URL"

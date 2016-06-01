@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-31 04:13+0000\n"
-"PO-Revision-Date: 2016-05-19 17:08+0000\n"
-"Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
+"POT-Creation-Date: 2016-06-01 13:33+0000\n"
+"PO-Revision-Date: 2016-05-31 18:32+0000\n"
+"Last-Translator: Vanja Tumbas <tumbas93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
 "MIME-Version: 1.0\n"
@@ -377,8 +377,12 @@ msgid "Missing property in resume token: %(property)s"
 msgstr "Svojstvo nedostaje u resume tokenu: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:274
-msgid "Invalid data-flow-begin attribute"
-msgstr "Neispravan atribut data-flow-begin"
+msgid "Invalid data attribute: %(property)s"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:278
+msgid "Missing data attribute: %(property)s"
+msgstr ""
 
 #: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -568,11 +572,11 @@ msgstr "Prijava potvrđena"
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "Loš zahtev"
 
 #: app/scripts/templates/500.mustache:1
 msgid "500 Error"
-msgstr ""
+msgstr "Greška 500"
 
 #: app/scripts/templates/500.mustache:2
 msgid ""
@@ -1158,6 +1162,9 @@ msgstr "Koristi OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Koristi Firefox Account"
+
+#~ msgid "Invalid data-flow-begin attribute"
+#~ msgstr "Neispravan atribut data-flow-begin"
 
 #~ msgid "Home"
 #~ msgstr "Početna"

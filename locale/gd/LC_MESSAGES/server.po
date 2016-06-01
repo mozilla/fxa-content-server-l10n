@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-31 04:13+0000\n"
+"POT-Creation-Date: 2016-06-01 13:33+0000\n"
 "PO-Revision-Date: 2016-04-09 19:09+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,45 +11,32 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
-"(n > 2 && n < 20) ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3;\n"
 "X-Generator: Pontoon\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2
-#: templates/verification_reminder_second.txt:1
-#: templates/verify_reminder_second.html:2 mailer.js:416 mailer.js:444
-#: mailer.js:455
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:455
 msgid "Still there?"
 msgstr "A bheil thu ann fhathast?"
 
 #: templates/_pending.txt:2
-msgid ""
-"A while ago you created a Firefox Account, but never verified it. Click the "
-"link below to activate your account."
-msgstr ""
-"Chruthaich thu cunntas Firefox roimhe ach cha do dhearbh thu e. Briog air a’ "
-"cheangal gu h-ìosal gus a chur an gnìomh."
+msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
+msgstr "Chruthaich thu cunntas Firefox roimhe ach cha do dhearbh thu e. Briog air a’ cheangal gu h-ìosal gus a chur an gnìomh."
 
-#: templates/_pending.txt:3 templates/post_verify.html:3
+#: templates/_pending.txt:3
 msgid ""
-"You successfully connected your first device to your Firefox Account. Now "
-"you can sign in to Sync from your other devices, including Firefox for <a "
-"href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
+"You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
+"href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Cheangail thu a’ chiad uidheam agad ris a’ chunntas Firefox agad. ’S urrainn "
-"dhut clàradh a-steach gu gleus an t-sioncronachaidh o uidheaman eile a-nis, "
-"a’ gabhail a-staigh Firefox airson <a href='%(androidUrl)s'>Android</a> agus "
-"<a href='%(iosUrl)s'>iOS</a>."
+"Cheangail thu a’ chiad uidheam agad ris a’ chunntas Firefox agad. ’S urrainn dhut clàradh a-steach gu gleus an t-sioncronachaidh o uidheaman eile a-nis, a’ gabhail a-staigh Firefox airson <a "
+"href='%(androidUrl)s'>Android</a> agus <a href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To "
-"make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
-"Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
-"Cheangail thu a’ chiad uidheam agad ris a’ chunntas Firefox agad. Airson "
-"gleus an t-sioncronachaidh a chur gu làn-fheum, ceangail Firefox air <a "
-"href='%(androidUrl)s'>Android</a> no <a href='%(iosUrl)s'>iOS</a> ris."
+"Cheangail thu a’ chiad uidheam agad ris a’ chunntas Firefox agad. Airson gleus an t-sioncronachaidh a chur gu làn-fheum, ceangail Firefox air <a href='%(androidUrl)s'>Android</a> no <a "
+"href='%(iosUrl)s'>iOS</a> ris."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -59,65 +46,40 @@ msgstr "Ceangail uidheam eile ris"
 msgid "Sign in to Sync"
 msgstr "Clàraich a-steach gun t-sioncronachadh"
 
-#: templates/new_device_login.html:1 templates/password_changed.html:1
-#: templates/password_reset.html:1 templates/password_reset_required.html:1
-#: templates/post_verify.html:1 templates/reset.html:1
-#: templates/suspicious_location.html:1 templates/unlock.html:1
-#: templates/verification_reminder_first.html:1
-#: templates/verification_reminder_second.html:1 templates/verify.html:1
-#: templates/verify_reminder_first.html:1
-#: templates/verify_reminder_second.html:1 templates/verify_login.html:1
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
-#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
-#: server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
+#: templates/new_device_login.html:1 templates/password_changed.html:1 templates/password_reset.html:1 templates/password_reset_required.html:1 templates/post_verify.html:1 templates/reset.html:1
+#: templates/suspicious_location.html:1 templates/unlock.html:1 templates/verification_reminder_first.html:1 templates/verification_reminder_second.html:1 templates/verify.html:1
+#: templates/verify_login.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
+#: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Cunntasan Firefox"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1
-#: mailer.js:338 templates/verify_login.html:2 templates/verify_login.txt:1
-#: mailer.js:367 mailer.js:374
+#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:374
 msgid "New sign-in to Firefox"
 msgstr "Clàradh a-steach ùr gu Firefox"
 
-#: templates/new_device_login.html:3 templates/password_changed.html:4
-msgid ""
-"This is an automated email; if you did not authorize this action, then <a "
-"%(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr ""
-"Seo post-d fèin-obrachail; mur an do dh’iarr thusa sin, mholamaid dhut <a "
-"%(passwordChangeLinkAttributes)s>am facal-faire agad atharrachadh.</a>"
+#: templates/new_device_login.html:3
+msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
+msgstr "Seo post-d fèin-obrachail; mur an do dh’iarr thusa sin, mholamaid dhut <a %(passwordChangeLinkAttributes)s>am facal-faire agad atharrachadh.</a>"
 
-#: templates/new_device_login.html:4 templates/password_changed.html:5
-#: templates/password_reset.html:5 templates/post_verify.html:7
-#: templates/reset.html:8 templates/unlock.html:7
-#: templates/verification_reminder_first.html:7
-#: templates/verification_reminder_second.html:7 templates/verify.html:7
-#: templates/verify_reminder_first.html:7
-#: templates/verify_reminder_second.html:7
-msgid ""
-"For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
-"Support</a>"
+#: templates/new_device_login.html:4 templates/password_changed.html:5 templates/password_reset.html:5 templates/post_verify.html:7 templates/reset.html:8 templates/unlock.html:7
+#: templates/verification_reminder_first.html:7 templates/verification_reminder_second.html:7 templates/verify.html:7
+msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr ""
-"Airson barrachd fiosrachaidh, tadhail air <a "
-"%(supportLinkAttributes)s>Mozilla Support</a>"
+
+#: templates/new_device_login.html:5 templates/new_device_login.txt:4 templates/password_changed.html:6 templates/password_changed.txt:5 templates/password_reset.html:6 templates/password_reset.txt:5
+#: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:8 templates/post_verify.txt:6 templates/reset.html:9 templates/reset.txt:7
+#: templates/suspicious_location.html:14 templates/suspicious_location.txt:13 templates/unlock.html:8 templates/unlock.txt:5 templates/verification_reminder_first.html:8
+#: templates/verification_reminder_first.txt:6 templates/verification_reminder_second.html:8 templates/verification_reminder_second.txt:6 templates/verify.html:8 templates/verify.txt:6
+#: templates/verify_login.html:7 templates/verify_login.txt:5
+msgid "Mozilla Privacy Policy"
+msgstr ""
 
 #: templates/new_device_login.txt:2
-msgid ""
-"This is an automated email; if you didn't add a new device to your Firefox "
-"Account, you should change your password immediately at %(resetLink)s."
-msgstr ""
-"Seo post-d fèin-obrachail; mur an do chuir thusa uidheam ùr ris a’ chunntas "
-"Firefox agad, bu chòir dhut am facal-faire agad atharrachadh aig "
-"%(resetLink)s sa bhad."
+msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(resetLink)s."
+msgstr "Seo post-d fèin-obrachail; mur an do chuir thusa uidheam ùr ris a’ chunntas Firefox agad, bu chòir dhut am facal-faire agad atharrachadh aig %(resetLink)s sa bhad."
 
-#: templates/new_device_login.txt:3 templates/password_changed.txt:4
-#: templates/password_reset.txt:5 templates/post_verify.txt:5
-#: templates/reset.txt:6 templates/unlock.txt:4
-#: templates/verification_reminder_first.txt:5
-#: templates/verification_reminder_second.txt:5 templates/verify.txt:5
-#: templates/password_reset.txt:4
+#: templates/new_device_login.txt:3 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/reset.txt:6 templates/unlock.txt:4
+#: templates/verification_reminder_first.txt:5 templates/verification_reminder_second.txt:5 templates/verify.txt:5
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Airson barrachd fiosrachaidh, tadhail air %(supportUrl)s"
 
@@ -129,40 +91,27 @@ msgstr "Chaidh am facal-faire atharrachadh"
 msgid "Your Firefox Account password has been successfully changed."
 msgstr "Chaidh facal-faire a’ chunntais Firefox agad atharrachadh."
 
-#: templates/password_changed.txt:3
-msgid ""
-"This is an automated email; if you didn’t change the password to your "
-"Firefox Account, you should reset it immediately at %(resetLink)s."
+#: templates/password_changed.html:4
+msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
 msgstr ""
-"Seo post-d fèin-obrachail; mur an do dh’atharraich thusa am facal-faire aig "
-"a’ chunntas Firefox agad, bu chòir dhut atharrachadh aig %(resetLink)s sa "
-"bhad."
+
+#: templates/password_changed.txt:3
+msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
+msgstr "Seo post-d fèin-obrachail; mur an do dh’atharraich thusa am facal-faire aig a’ chunntas Firefox agad, bu chòir dhut atharrachadh aig %(resetLink)s sa bhad."
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
 msgstr "Chaidh am facal-faire agad ath-shuidheachadh"
 
-#: templates/password_reset.html:3 templates/password_reset.txt:3
-msgid ""
-"Your Firefox Account password has changed. If you did not change it, please "
-"<a href='%(resetLink)s'>reset your password</a> now."
+#: templates/password_reset.html:3
+msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
 msgstr ""
 
-#: templates/password_reset.html:4 templates/post_verify.html:6
-#: templates/post_verify.txt:4 templates/reset.html:7 templates/reset.txt:5
-#: templates/unlock.html:6 templates/unlock.txt:3
-#: templates/verification_reminder_first.html:6
-#: templates/verification_reminder_first.txt:4
-#: templates/verification_reminder_second.html:6
-#: templates/verification_reminder_second.txt:4 templates/verify.html:6
-#: templates/verify.txt:4 templates/verify_reminder_first.html:6
-#: templates/verify_reminder_second.html:6
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"Seo post-d fèin-obrachail; ma fhuair thu seo air mhearachd, cha leig thu "
-"leas dad a dhèanamh."
+#: templates/password_reset.html:4 templates/post_verify.html:6 templates/post_verify.txt:4 templates/reset.html:7 templates/reset.txt:5 templates/unlock.html:6 templates/unlock.txt:3
+#: templates/verification_reminder_first.html:6 templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:6 templates/verification_reminder_second.txt:4
+#: templates/verify.html:6 templates/verify.txt:4
+msgid "This is an automated email; if you received it in error, no action is required."
+msgstr "Seo post-d fèin-obrachail; ma fhuair thu seo air mhearachd, cha leig thu leas dad a dhèanamh."
 
 #: templates/password_reset.txt:1
 msgid "Password reset successfully"
@@ -172,105 +121,63 @@ msgstr "Chaidh am facal-faire atharrachadh"
 msgid "Your Firefox Account password has been successfully reset."
 msgstr "Chaidh facal-faire a’ chunntais Firefox agad ath-shuidheachadh."
 
-#: templates/password_reset.txt:4 templates/password_reset.txt:3
-msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
-msgstr ""
-"Seo post-d fèin-obrachail; mur an do rinn thusa ath-suidheachadh facal-faire "
-"a’ chunntais Firefox agad, bu chòir dhut ath-shuidheachadh aig %(resetLink)s "
-"sa bhad."
+#: templates/password_reset.txt:3
+msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
+msgstr "Seo post-d fèin-obrachail; mur an do rinn thusa ath-suidheachadh facal-faire a’ chunntais Firefox agad, bu chòir dhut ath-shuidheachadh aig %(resetLink)s sa bhad."
 
-#: templates/password_reset_required.html:2
-#: templates/password_reset_required.txt:1
-msgid ""
-"We detected suspicious activity on your Firefox Account. Your account may "
-"have been compromised."
+#: templates/password_reset_required.html:2 templates/password_reset_required.txt:1
+msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
 msgstr ""
 
-#: templates/password_reset_required.html:3
-#: templates/password_reset_required.txt:2
-msgid ""
-"To prevent further unauthorized access to your Firefox Account, we’ve reset "
-"your password and are notifying you as a precaution."
+#: templates/password_reset_required.html:3 templates/password_reset_required.txt:2
+msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
 msgstr ""
 
-#: templates/password_reset_required.html:4
-#: templates/password_reset_required.txt:3
+#: templates/password_reset_required.html:4 templates/password_reset_required.txt:3
 msgid "What should you do?"
 msgstr ""
 
-#: templates/password_reset_required.html:5
-#: templates/password_reset_required.txt:4 templates/suspicious_location.html:7
-#: templates/suspicious_location.txt:6
+#: templates/password_reset_required.html:5 templates/password_reset_required.txt:4 templates/suspicious_location.html:7 templates/suspicious_location.txt:6
 msgid "First, change your Firefox Account password."
 msgstr ""
 
-#: templates/password_reset_required.html:6
-#: templates/password_reset_required.txt:5 templates/suspicious_location.html:8
-#: templates/suspicious_location.txt:7
+#: templates/password_reset_required.html:6 templates/password_reset_required.txt:5 templates/suspicious_location.html:8 templates/suspicious_location.txt:7
 msgid ""
-"Second, if Firefox stores passwords to websites, you should change those "
-"passwords as well. Attackers may have access to those passwords, so you "
-"should check those accounts for suspicious activity."
+"Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 msgstr ""
 
-#: templates/password_reset_required.html:7
-#: templates/password_reset_required.txt:6 templates/suspicious_location.html:9
-#: templates/suspicious_location.txt:8
+#: templates/password_reset_required.html:7 templates/password_reset_required.txt:6 templates/suspicious_location.html:9 templates/suspicious_location.txt:8
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr ""
 
-#: templates/password_reset_required.html:8
-#: templates/password_reset_required.txt:7
-#: templates/suspicious_location.html:12 templates/suspicious_location.txt:11
+#: templates/password_reset_required.html:8 templates/password_reset_required.txt:7 templates/suspicious_location.html:12 templates/suspicious_location.txt:11
 msgid "Best,"
 msgstr ""
 
-#: templates/password_reset_required.html:9
-#: templates/password_reset_required.txt:8
-#: templates/suspicious_location.html:13 templates/suspicious_location.txt:12
+#: templates/password_reset_required.html:9 templates/password_reset_required.txt:8 templates/suspicious_location.html:13 templates/suspicious_location.txt:12
 msgid "The Firefox Accounts team"
-msgstr ""
-
-#: templates/password_reset_required.html:10
-#: templates/password_reset_required.txt:9
-#: templates/suspicious_location.html:14 templates/suspicious_location.txt:13
-#: templates/new_device_login.html:5 templates/new_device_login.txt:4
-#: templates/password_changed.html:6 templates/password_changed.txt:5
-#: templates/password_reset.html:6 templates/password_reset.txt:6
-#: templates/post_verify.html:8 templates/post_verify.txt:6
-#: templates/reset.html:9 templates/reset.txt:7 templates/unlock.html:8
-#: templates/unlock.txt:5 templates/verification_reminder_first.html:8
-#: templates/verification_reminder_first.txt:6
-#: templates/verification_reminder_second.html:8
-#: templates/verification_reminder_second.txt:6 templates/verify.html:8
-#: templates/verify.txt:6 templates/verify_login.html:7
-#: templates/verify_login.txt:5 templates/password_reset.txt:5
-msgid "Mozilla Privacy Policy"
 msgstr ""
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
 msgstr "Chaidh an cunntas a dhearbhadh!"
 
-#: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5
-#: templates/verification_reminder_first.html:5
-#: templates/verification_reminder_second.html:5 templates/verify.html:5
-#: templates/verify_reminder_first.html:5
-#: templates/verify_reminder_second.html:5 templates/verify_login.html:5
+#: templates/post_verify.html:3
+msgid ""
+"You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
+"%(iosLinkAttributes)s>iOS</a>."
+msgstr ""
+
+#: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
+#: templates/verify_login.html:5
 msgid "Alternatively:"
 msgstr "Air neo:"
 
 #: templates/post_verify.txt:2
-msgid ""
-"You successfully connected your first device to your Firefox Account. Now "
-"you can sign in to Sync from your other devices, including Firefox for "
-"Android and iOS."
+msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 msgstr ""
-"Cheangail thu a’ chiad uidheam agad ris a’ chunntas Firefox agad. ’S urrainn "
-"dhut clàradh a-steach gu gleus an t-sioncronachaidh o uidheaman eile a-nis, "
-"a’ gabhail a-staigh Firefox airson Android is iOS."
+"Cheangail thu a’ chiad uidheam agad ris a’ chunntas Firefox agad. ’S urrainn dhut clàradh a-steach gu gleus an t-sioncronachaidh o uidheaman eile a-nis, a’ gabhail a-staigh Firefox airson Android "
+"is iOS."
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
@@ -281,9 +188,7 @@ msgid "Forgot your password?"
 msgstr "Na dhìochuimhnich thu am facal-faire agad?"
 
 #: templates/reset.html:3 templates/reset.txt:2
-msgid ""
-"Click the button within the next hour to set a new password for your Firefox "
-"Account."
+msgid "Click the button within the next hour to set a new password for your Firefox Account."
 msgstr ""
 
 #: templates/reset.html:4 templates/reset.txt:3
@@ -295,10 +200,7 @@ msgid "Reset password"
 msgstr "Ath-shuidhich am facal-faire"
 
 #: templates/suspicious_location.html:2 templates/suspicious_location.txt:1
-msgid ""
-"Did you sign in to your Firefox Account from any of the following locations "
-"in the last 60 days? If you don’t recognize these locations, someone else "
-"may have accessed your Firefox Account."
+msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 msgstr ""
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
@@ -322,9 +224,7 @@ msgid "Why are you receiving this email?"
 msgstr ""
 
 #: templates/suspicious_location.html:11 templates/suspicious_location.txt:10
-msgid ""
-"We recently noticed Firefox Account logins from unusual locations. We’re "
-"notifying you as a precaution."
+msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
 msgstr ""
 
 #: templates/unlock.html:2
@@ -332,14 +232,8 @@ msgid "Account activity notice"
 msgstr "Brath mu ghnìomhachd sa chunntas"
 
 #: templates/unlock.html:3 templates/unlock.txt:1
-msgid ""
-"For security reasons your Firefox Account was put on lockdown. To perform "
-"account-level activities, please click the link to re-verify your account "
-"now."
-msgstr ""
-"Chaidh an cunntas Firefox agad a ghlasadh air sgàth adhbharan tèarainteachd. "
-"Airson an cunntas a chur air gleus, briog air a’ cheangal gus a dhearbhadh "
-"an toiseach."
+msgid "For security reasons your Firefox Account was put on lockdown. To perform account-level activities, please click the link to re-verify your account now."
+msgstr "Chaidh an cunntas Firefox agad a ghlasadh air sgàth adhbharan tèarainteachd. Airson an cunntas a chur air gleus, briog air a’ cheangal gus a dhearbhadh an toiseach."
 
 #: templates/unlock.html:4
 msgid "Verify account"
@@ -349,74 +243,37 @@ msgstr "Dearbh an cunntas"
 msgid "Verify account:"
 msgstr "Dearbh an cunntas:"
 
-#: templates/verification_reminder_first.html:2
-#: templates/verification_reminder_first.txt:1
-#: templates/verify_reminder_first.html:2 mailer.js:413 mailer.js:441
-#: mailer.js:452
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:452
 msgid "Hello again."
 msgstr "Shin thu a-rithist."
 
-#: templates/verification_reminder_first.html:3
-#: templates/verification_reminder_first.txt:2
-#: templates/verify_reminder_first.html:3
+#: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history "
-"on any device connected to it. Simply confirm this email address to activate "
-"your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+"this email address to activate your account."
 msgstr ""
-"Chruthaich thu cunntas Firefox beagan làithean air ais ach cha do dhearbh "
-"thu e. Ma dhearbhas tu an cunntas agad, gheibh thu cothrom air na "
-"tabaichean, comharran-lìn is an eachdraidh o uidheam ceangailte sam bith. "
-"Cha leig thu leas ach an seòladh puist-d seo a dhearbhadh gus an cunntas "
-"agad a chur an gnìomh."
+"Chruthaich thu cunntas Firefox beagan làithean air ais ach cha do dhearbh thu e. Ma dhearbhas tu an cunntas agad, gheibh thu cothrom air na tabaichean, comharran-lìn is an eachdraidh o uidheam "
+"ceangailte sam bith. Cha leig thu leas ach an seòladh puist-d seo a dhearbhadh gus an cunntas agad a chur an gnìomh."
 
-#: templates/verification_reminder_first.html:4
-#: templates/verification_reminder_second.html:4 templates/verify.html:4
-#: templates/verify_reminder_first.html:4
-#: templates/verify_reminder_second.html:4
+#: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
 msgid "Activate now"
 msgstr "Cuir an gnìomh an-dràsta"
 
-#: templates/verification_reminder_first.html:8
-#: templates/verification_reminder_second.html:8 templates/verify.html:8
-#: templates/verify_reminder_first.html:8
-#: templates/verify_reminder_second.html:8
-#: templates/verification_reminder_first.html:9
-#: templates/verification_reminder_second.html:9 templates/verify.html:9
+#: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9
 msgid "Verify Email"
 msgstr "Dearbh am post-d"
 
-#: templates/verification_reminder_first.html:9
-#: templates/verification_reminder_second.html:9 templates/verify.html:9
-#: templates/verify_reminder_first.html:9
-#: templates/verify_reminder_second.html:9
-#: templates/verification_reminder_first.html:10
-#: templates/verification_reminder_second.html:10 templates/verify.html:10
+#: templates/verification_reminder_first.html:10 templates/verification_reminder_second.html:10 templates/verify.html:10
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr "Dearbh am post-d agad a choileanadh clàradh a’ chunntais Firefox agad"
 
-#: templates/verification_reminder_first.txt:3
-#: templates/verification_reminder_second.txt:3 templates/verify.txt:3
+#: templates/verification_reminder_first.txt:3 templates/verification_reminder_second.txt:3 templates/verify.txt:3
 msgid "Activate now:"
 msgstr "Cuir an gnìomh an-dràsta:"
 
-#: templates/verification_reminder_second.html:3
-#: templates/verification_reminder_second.txt:2
-#: templates/verify_reminder_second.html:3
-msgid ""
-"A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
-"iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know "
-"you're okay."
+#: templates/verification_reminder_second.html:3 templates/verification_reminder_second.txt:2
+msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 msgstr ""
-"Chruthaich thu cunntas Firefox beagan làithean air ais ach cha do dhearbh "
-"thu e. Tha sin a’ cur dragh oirnn. Tha Firefox ri fhaighinn air Windows, "
-"Mac, Linux, Android agus iOS. ’S urrainn dhut na faclan-faire, comharran-lìn "
-"is an eachdraidh a shioncronachadh air am feadh. Dearbh an seòladh puist-d "
-"gus an cunntas agad a dhearbhadh is innse dhuinn gu bheil gach rud mar bu "
-"chòir."
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
@@ -426,73 +283,8 @@ msgstr "Fàilte!"
 msgid "Please activate your account by confirming this email address."
 msgstr "Cuir an cunntas agad an gnìomh mus dearbh thu an seòladh puist-d seo."
 
-#: mailer.js:168 mailer.js:171 mailer.js:179
-msgid "Verify your Firefox Account"
-msgstr "Dearbh an cunntas Firefox agad"
-
-#: mailer.js:201 mailer.js:244 mailer.js:252
-msgid "Reset your Firefox Account password"
-msgstr "Ath-shuidhich facal-faire a’ chunntais Firefox agad"
-
-#: mailer.js:236 mailer.js:278 mailer.js:286
-msgid "Re-verify your Firefox Account"
-msgstr "Ath-dhearbh an cunntas Firefox agad"
-
-#: mailer.js:269 mailer.js:299 mailer.js:307
-msgid "Your Firefox Account password has been changed"
-msgstr "Chaidh facal-faire a’ chunntais Firefox agad atharrachadh"
-
-#: mailer.js:291 mailer.js:321 mailer.js:328
-msgid "Your Firefox Account password has been reset"
-msgstr "Chaidh facal-faire a’ chunntais Firefox agad ath-shuidheachadh"
-
-#: mailer.js:313 mailer.js:342 mailer.js:349
-msgid "Firefox Account password reset required"
-msgstr ""
-
-#: mailer.js:366 mailer.js:395 mailer.js:404
-msgid "Firefox Account Verified"
-msgstr "Chaidh an cunntas Firefox a dhearbhadh"
-
-#: mailer.js:401 mailer.js:429 mailer.js:440
-msgid "Suspicious activity with your Firefox Account"
-msgstr ""
-
-#: config.js:146 config.js:151
-msgid "env"
-msgstr "env"
-
-#: config.js:159 config.js:160 config.js:161 config.js:162 config.js:163
-#: config.js:164
-msgid "contentServer.url"
-msgstr "contentServer.url"
-
-#: log.js:7
-msgid "logging"
-msgstr "logachadh"
-
-#: lib/db.js:21
-msgid "/"
-msgstr "/"
-
-#: lib/db.js:34
-msgid "/__heartbeat__"
-msgstr "/__heartbeat__"
-
-#: templates/new_device_login.html:4 templates/password_changed.html:5
-#: templates/password_reset.html:5 templates/post_verify.html:7
-#: templates/reset.html:8 templates/unlock.html:7
-#: templates/verification_reminder_first.html:7
-#: templates/verification_reminder_second.html:7 templates/verify.html:7
-msgid ""
-"For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
-"Support</a>."
-msgstr ""
-
 #: templates/verify_login.html:3 templates/verify_login.txt:2
-msgid ""
-"For added security, please confirm this sign-in to begin syncing with "
-"%(device)s."
+msgid "For added security, please confirm this sign-in to begin syncing with %(device)s."
 msgstr ""
 
 #: templates/verify_login.html:4 templates/verify_login.txt:3
@@ -500,46 +292,47 @@ msgid "Confirm sign-in"
 msgstr ""
 
 #: templates/verify_login.html:6
-msgid ""
-"If you suspect that someone is trying to gain access to your account, <a "
-"%(passwordChangeLinkAttributes)s>please change your password</a>."
+msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr ""
 
 #: templates/verify_login.txt:4
-msgid ""
-"If you suspect that someone is trying to gain access to your account, please "
-"change your password."
+msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr ""
 
-#: mailer.js:209 mailer.js:217
+#: mailer.js:179
+msgid "Verify your Firefox Account"
+msgstr "Dearbh an cunntas Firefox agad"
+
+#: mailer.js:217
 msgid "Confirm new sign-in to Firefox"
 msgstr ""
 
-#: templates/password_changed.html:4
-msgid ""
-"This is an automated email; if you did not authorize this action, then <a "
-"%(resetLinkAttributes)s>please reset your password</a>."
+#: mailer.js:252
+msgid "Reset your Firefox Account password"
+msgstr "Ath-shuidhich facal-faire a’ chunntais Firefox agad"
+
+#: mailer.js:286
+msgid "Re-verify your Firefox Account"
+msgstr "Ath-dhearbh an cunntas Firefox agad"
+
+#: mailer.js:307
+msgid "Your Firefox Account password has been changed"
+msgstr "Chaidh facal-faire a’ chunntais Firefox agad atharrachadh"
+
+#: mailer.js:328
+msgid "Your Firefox Account password has been reset"
+msgstr "Chaidh facal-faire a’ chunntais Firefox agad ath-shuidheachadh"
+
+#: mailer.js:349
+msgid "Firefox Account password reset required"
 msgstr ""
 
-#: templates/password_reset.html:3
-msgid ""
-"Your Firefox Account password has changed. If you did not change it, please "
-"<a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+#: mailer.js:404
+msgid "Firefox Account Verified"
+msgstr "Chaidh an cunntas Firefox a dhearbhadh"
 
-#: templates/post_verify.html:3
-msgid ""
-"You successfully connected your first device to your Firefox Account. Now "
-"you can sign in to Sync from your other devices, including Firefox for <a "
-"%(androidLinkAttributes)s>Android</a> and <a %(iosLinkAttributes)s>iOS</a>."
-msgstr ""
-
-#: templates/verification_reminder_second.html:3
-#: templates/verification_reminder_second.txt:2
-msgid ""
-"A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Confirm this email address to activate your account and "
-"let us know you're okay."
+#: mailer.js:440
+msgid "Suspicious activity with your Firefox Account"
 msgstr ""
 
 #: server/templates/pages/src/404.html:2
@@ -547,15 +340,10 @@ msgid "Page not found"
 msgstr "Cha deach an duilleag a lorg"
 
 #: server/templates/pages/src/404.html:3
-msgid ""
-"The page you requested is not found. We've been notified and will fix any "
-"links that may be broken."
-msgstr ""
-"Cha deach an duilleag a dh’iarr thu a lorg. Chaidh fios a chur thugainn is "
-"bheir sinn sùil air eagal ’s gu bheil ceangal briste ann."
+msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
+msgstr "Cha deach an duilleag a dh’iarr thu a lorg. Chaidh fios a chur thugainn is bheir sinn sùil air eagal ’s gu bheil ceangal briste ann."
 
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "Dhachaigh"
 
@@ -564,12 +352,8 @@ msgid "500 Error"
 msgstr "Mearachd 500"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
-msgid ""
-"Oh dear, something went wrong there. We've been notified and will get "
-"working on a fix."
-msgstr ""
-"Ìoc, chaidh rudeigin cearr an-sin. Chaidh fios a chur thugainn agus "
-"càraichidh sinn e."
+msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+msgstr "Ìoc, chaidh rudeigin cearr an-sin. Chaidh fios a chur thugainn agus càraichidh sinn e."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -580,59 +364,65 @@ msgid "Server busy, try again soon"
 msgstr "Tha am frithealaiche trang, feuch ris a-rithist an ceann greis"
 
 #: server/templates/pages/src/503.html:3
-msgid ""
-"We are currently under heavy strain and are working to return the system to "
-"normal as soon as possible."
-msgstr ""
-"Tha sinn fo spàirn mhòr an-dràsta fhèin is a’ dèanamh ar dìcheall gus gach "
-"rud a chur air ais mar is àbhaist cho luath ’s a ghabhas."
+msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
+msgstr "Tha sinn fo spàirn mhòr an-dràsta fhèin is a’ dèanamh ar dìcheall gus gach rud a chur air ais mar is àbhaist cho luath ’s a ghabhas."
 
-#: server/templates/pages/src/index.html:2
-#: server/templates/pages/src/privacy.html:5
-#: server/templates/pages/src/terms.html:5
-msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr ""
-"Tha thu a’ cleachdadh <strong>seann-bhrabhsair</strong>. Nach <a href="
-"\"http://browsehappy.com/\">àrdaich thu am brabhsair agad</a> is bidh rudan "
-"fada nas fhearr dhut."
+#: server/templates/pages/src/index.html:2 server/templates/pages/src/privacy.html:5 server/templates/pages/src/terms.html:5
+msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr "Tha thu a’ cleachdadh <strong>seann-bhrabhsair</strong>. Nach <a href=\"http://browsehappy.com/\">àrdaich thu am brabhsair agad</a> is bidh rudan fada nas fhearr dhut."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Feumaidh cunntasan Firefox JavaScript."
 
-#: server/templates/pages/src/privacy.html:2
-#: server/templates/pages/src/privacy.html:4
+#: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
 msgstr "Aithris na prìobhaideachd"
 
-#: server/templates/pages/src/privacy.html:3
-#: server/templates/pages/src/terms.html:3
+#: server/templates/pages/src/privacy.html:3 server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
 msgstr "Seirbheisean neòil Firefox"
 
-#: server/templates/pages/src/terms.html:2
-#: server/templates/pages/src/terms.html:4
+#: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Teirmichean na seirbheise"
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>"
+#~ msgstr "Airson barrachd fiosrachaidh, tadhail air <a %(supportLinkAttributes)s>Mozilla Support</a>"
+
+#~ msgid ""
+#~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
+#~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr ""
+#~ "Chruthaich thu cunntas Firefox beagan làithean air ais ach cha do dhearbh thu e. Tha sin a’ cur dragh oirnn. Tha Firefox ri fhaighinn air Windows, Mac, Linux, Android agus iOS. ’S urrainn dhut "
+#~ "na faclan-faire, comharran-lìn is an eachdraidh a shioncronachadh air am feadh. Dearbh an seòladh puist-d gus an cunntas agad a dhearbhadh is innse dhuinn gu bheil gach rud mar bu chòir."
+
+#~ msgid "env"
+#~ msgstr "env"
+
+#~ msgid "contentServer.url"
+#~ msgstr "contentServer.url"
+
+#~ msgid "logging"
+#~ msgstr "logachadh"
+
+#~ msgid "/"
+#~ msgstr "/"
+
+#~ msgid "/__heartbeat__"
+#~ msgstr "/__heartbeat__"
 
 #~ msgid "Bad Request"
 #~ msgstr "Droch-iarrtas"
 
-#~ msgid ""
-#~ "A device began syncing with the devices connected to your Firefox Account."
-#~ msgstr ""
-#~ "Thòisich uidheam air sioncronachadh leis na h-uidheaman a tha ceangailte "
-#~ "ris a’ chunntas Firefox agad."
+#~ msgid "A device began syncing with the devices connected to your Firefox Account."
+#~ msgstr "Thòisich uidheam air sioncronachadh leis na h-uidheaman a tha ceangailte ris a’ chunntas Firefox agad."
 
 #~ msgid "Are you sure?"
 #~ msgstr "A bheil thu cinnteach?"
 
 #~ msgid "Please confirm that you'd like to reset the password for %(email)s."
-#~ msgstr ""
-#~ "Dearbh gu bheil thu airson am facal-faire airson %(email)s ath-"
-#~ "shuidheachadh."
+#~ msgstr "Dearbh gu bheil thu airson am facal-faire airson %(email)s ath-shuidheachadh."
 
 #~ msgid "Reset password now"
 #~ msgstr "Ath-shuidhich am facal-faire an-dràsta"
@@ -640,12 +430,8 @@ msgstr "Teirmichean na seirbheise"
 #~ msgid "Reset password now:"
 #~ msgstr "Ath-shuidhich am facal-faire an-dràsta:"
 
-#~ msgid ""
-#~ "Recently you created a Firefox Account, but never verified it. Please "
-#~ "activate your account by confirming this email address."
-#~ msgstr ""
-#~ "Chruthaich thu cunntas Firefox o chionn goirid ach cha do dhearbh thu e. "
-#~ "Cuir an cunntas agad an gnìomh mus dearbh thu an seòladh puist-d seo."
+#~ msgid "Recently you created a Firefox Account, but never verified it. Please activate your account by confirming this email address."
+#~ msgstr "Chruthaich thu cunntas Firefox o chionn goirid ach cha do dhearbh thu e. Cuir an cunntas agad an gnìomh mus dearbh thu an seòladh puist-d seo."
 
 #~ msgid "Activate Now:"
 #~ msgstr "Cuir an gnìomh an-dràsta:"
