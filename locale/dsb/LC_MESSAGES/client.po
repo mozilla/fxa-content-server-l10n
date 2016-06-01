@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-01 13:33+0000\n"
-"PO-Revision-Date: 2016-05-31 08:37+0000\n"
+"PO-Revision-Date: 2016-06-01 14:38+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -350,11 +350,11 @@ msgstr "Felujuca kakosć w pókšacowańskem tokenje: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:274
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "Njepłaśiwy datowy atribut: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:278
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "Felujucy datowy atribut: %(property)s"
 
 #: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -425,9 +425,7 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Pśez to, až pókšaocujośo, zwólijośo do <a id=\"service-tos\" href=\"%(termsUri)s\">wužywańskich wuměnjenjow</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">pšawidłow priwatnosći</a> "
 "%(serviceName)s (%(serviceUri)s)."
@@ -712,8 +710,7 @@ msgstr "Sćo gronidło zabył?"
 
 #: app/scripts/templates/force_auth.mustache:8 app/scripts/templates/sign_in.mustache:27 app/scripts/templates/sign_up.mustache:17
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr ""
-"Pśez to, až pókšacujośo, zwolijośo do <a id=\"fxa-tos\" href=\"/legal/terms\">wužywańskich wuměnjenjow</a> a<a id=\"fxa-pp\" href=\"/legal/privacy\">pšawidłow priwatnosći</a> mrokowsłužbow Firefox."
+msgstr "Pśez to, až pókšacujośo, zwolijośo do <a id=\"fxa-tos\" href=\"/legal/terms\">wužywańskich wuměnjenjow</a> a<a id=\"fxa-pp\" href=\"/legal/privacy\">pšawidłow priwatnosći</a> mrokowsłužbow Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -934,11 +931,11 @@ msgstr "Rědy"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox jo za <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a href=\"%(linkLinux)s\">Linux</"
-"a> k dispoziciji."
+"Firefox jo za <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a "
+"href=\"%(linkLinux)s\">Linux</a> k dispoziciji."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -1031,8 +1028,8 @@ msgstr "Konto Firefox wužywaś"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Pšosym zmóžniśo cookieje w swójom wobglědowaku, kótarež su trěbne za Firefox Accounts. Cookieje su małe datowe elementy, kótarež składuju se we wašom wobglědowaku, ab wěstu funkcionalnosć "
-#~ "zmóžnili, ako na pśikład zasejspóznawanje w nowem pósejźenju."
+#~ "Pšosym zmóžniśo cookieje w swójom wobglědowaku, kótarež su trěbne za Firefox Accounts. Cookieje su małe datowe elementy, kótarež składuju se we wašom wobglědowaku, ab wěstu funkcionalnosć zmóžnili, "
+#~ "ako na pśikład zasejspóznawanje w nowem pósejźenju."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox buźo skóro na iOS!"
@@ -1180,17 +1177,13 @@ msgstr "Konto Firefox wužywaś"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Maśo južo konto? Pśizjawśo se."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
 #~ "Z tym až pókšacujośo. pśigłosujom <a id=\"service-tos\" href=\"%(termsUri)s\">wužywańskim wuměnjenjam</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">pšawidłam priwatnosći</a> słužby "
 #~ "%(serviceName)s (%(serviceUri)s)."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "Jolic z tym pókšacujośo, zwólijośo do <a id=\"fxa-tos\" href=\"/legal/terms\">wužywańskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">wuzjawjenja priwatnosći </a> mrokowsłužbow "
-#~ "Firefox."
+#~ msgstr "Jolic z tym pókšacujośo, zwólijośo do <a id=\"fxa-tos\" href=\"/legal/terms\">wužywańskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">wuzjawjenja priwatnosći </a> mrokowsłužbow Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Nowosći a pokazki za Firefox aboněrowaś"
