@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-01 13:33+0000\n"
-"PO-Revision-Date: 2016-06-01 18:50+0000\n"
+"PO-Revision-Date: 2016-06-01 19:38+0000\n"
 "Last-Translator: Merike Sell <merikes@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -516,7 +516,7 @@ msgstr "Viga 500"
 
 #: app/scripts/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr ""
+msgstr "Heldeke, nüüd läks küll midagi valesti. Meid on sellest teavitatud ning alustame vea parandamist."
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
