@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-31 04:13+0000\n"
+"POT-Creation-Date: 2016-06-01 13:33+0000\n"
 "PO-Revision-Date: 2016-05-24 19:33+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,41 +15,29 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1430041708.0\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2
-#: templates/verification_reminder_second.txt:1
-#: templates/verify_reminder_second.html:2 mailer.js:416 mailer.js:444
-#: mailer.js:455
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:455
 msgid "Still there?"
 msgstr "Oletko vielä siellä?"
 
 #: templates/_pending.txt:2
-msgid ""
-"A while ago you created a Firefox Account, but never verified it. Click the "
-"link below to activate your account."
-msgstr ""
-"Loit hiljattain Firefox-tilin, mutta et ole vahvistanut sitä. Aktivoi tilisi "
-"napsauttamalla alla olevaa linkkiä."
+msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
+msgstr "Loit hiljattain Firefox-tilin, mutta et ole vahvistanut sitä. Aktivoi tilisi napsauttamalla alla olevaa linkkiä."
 
-#: templates/_pending.txt:3 templates/post_verify.html:3
+#: templates/_pending.txt:3
 msgid ""
-"You successfully connected your first device to your Firefox Account. Now "
-"you can sign in to Sync from your other devices, including Firefox for <a "
-"href='%(androidUrl)s'>Android</a> and <a href='%(iosUrl)s'>iOS</a>."
+"You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
+"href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Onnistuit yhdistämään ensimmäisen laitteen Firefox-tiliisi. Voit nyt "
-"kirjautua Sync-palveluun muilta laitteiltasi. Niihin kuuluu myös Firefox <a "
-"href='%(androidUrl)s'>Androidille</a> ja <a href='%(iosUrl)s'>iOS:lle</a>."
+"Onnistuit yhdistämään ensimmäisen laitteen Firefox-tiliisi. Voit nyt kirjautua Sync-palveluun muilta laitteiltasi. Niihin kuuluu myös Firefox <a href='%(androidUrl)s'>Androidille</a> ja <a "
+"href='%(iosUrl)s'>iOS:lle</a>."
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To "
-"make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for "
-"Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
-"Onnistuit yhdistämään ensimmäisen laitteen Firefox-tiliisi. Jotta saat "
-"kaiken irti Sync-palvelusta, yhdistä myös <a href='%(androidUrl)s'>Firefox "
-"Androidille</a> tai <a href='%(iosUrl)s'>Firefox iOS:lle</a>, jos käytät "
-"niitä."
+"Onnistuit yhdistämään ensimmäisen laitteen Firefox-tiliisi. Jotta saat kaiken irti Sync-palvelusta, yhdistä myös <a href='%(androidUrl)s'>Firefox Androidille</a> tai <a href='%(iosUrl)s'>Firefox "
+"iOS:lle</a>, jos käytät niitä."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -59,63 +47,40 @@ msgstr "Yhdistä toinen laite"
 msgid "Sign in to Sync"
 msgstr "Kirjaudu Sync-palveluun"
 
-#: templates/new_device_login.html:1 templates/password_changed.html:1
-#: templates/password_reset.html:1 templates/password_reset_required.html:1
-#: templates/post_verify.html:1 templates/reset.html:1
-#: templates/suspicious_location.html:1 templates/unlock.html:1
-#: templates/verification_reminder_first.html:1
-#: templates/verification_reminder_second.html:1 templates/verify.html:1
-#: templates/verify_reminder_first.html:1
-#: templates/verify_reminder_second.html:1 templates/verify_login.html:1
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
-#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
-#: server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
+#: templates/new_device_login.html:1 templates/password_changed.html:1 templates/password_reset.html:1 templates/password_reset_required.html:1 templates/post_verify.html:1 templates/reset.html:1
+#: templates/suspicious_location.html:1 templates/unlock.html:1 templates/verification_reminder_first.html:1 templates/verification_reminder_second.html:1 templates/verify.html:1
+#: templates/verify_login.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
+#: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1
-#: mailer.js:338 templates/verify_login.html:2 templates/verify_login.txt:1
-#: mailer.js:367 mailer.js:374
+#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:374
 msgid "New sign-in to Firefox"
 msgstr "Uusi kirjautuminen Firefoxiin"
 
-#: templates/new_device_login.html:3 templates/password_changed.html:4
-msgid ""
-"This is an automated email; if you did not authorize this action, then <a "
-"%(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr ""
-"Tämä on automaattisesti lähetetty viesti. Jos et sallinut tätä tapahtumaa, "
-"<a %(passwordChangeLinkAttributes)s>vaihda salasanasi.</a>"
+#: templates/new_device_login.html:3
+msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
+msgstr "Tämä on automaattisesti lähetetty viesti. Jos et sallinut tätä tapahtumaa, <a %(passwordChangeLinkAttributes)s>vaihda salasanasi.</a>"
 
-#: templates/new_device_login.html:4 templates/password_changed.html:5
-#: templates/password_reset.html:5 templates/post_verify.html:7
-#: templates/reset.html:8 templates/unlock.html:7
-#: templates/verification_reminder_first.html:7
-#: templates/verification_reminder_second.html:7 templates/verify.html:7
-#: templates/verify_reminder_first.html:7
-#: templates/verify_reminder_second.html:7
-msgid ""
-"For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
-"Support</a>"
-msgstr "Lisätietoja saat <a %(supportLinkAttributes)s>Mozilla-tuesta</a>"
+#: templates/new_device_login.html:4 templates/password_changed.html:5 templates/password_reset.html:5 templates/post_verify.html:7 templates/reset.html:8 templates/unlock.html:7
+#: templates/verification_reminder_first.html:7 templates/verification_reminder_second.html:7 templates/verify.html:7
+msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+msgstr "Lisätietoja saat <a %(supportLinkAttributes)s>Mozilla-tuesta</a>."
+
+#: templates/new_device_login.html:5 templates/new_device_login.txt:4 templates/password_changed.html:6 templates/password_changed.txt:5 templates/password_reset.html:6 templates/password_reset.txt:5
+#: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:8 templates/post_verify.txt:6 templates/reset.html:9 templates/reset.txt:7
+#: templates/suspicious_location.html:14 templates/suspicious_location.txt:13 templates/unlock.html:8 templates/unlock.txt:5 templates/verification_reminder_first.html:8
+#: templates/verification_reminder_first.txt:6 templates/verification_reminder_second.html:8 templates/verification_reminder_second.txt:6 templates/verify.html:8 templates/verify.txt:6
+#: templates/verify_login.html:7 templates/verify_login.txt:5
+msgid "Mozilla Privacy Policy"
+msgstr "Mozillan tietosuojakäytäntö"
 
 #: templates/new_device_login.txt:2
-msgid ""
-"This is an automated email; if you didn't add a new device to your Firefox "
-"Account, you should change your password immediately at %(resetLink)s."
-msgstr ""
-"Tämä on automaattisesti lähetetty viesti. Jos et lisännyt uutta laitetta "
-"Firefox-tiliisi, sinun tulisi vaihtaa salasanasi heti osoitteessa "
-"%(resetLink)s."
+msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(resetLink)s."
+msgstr "Tämä on automaattisesti lähetetty viesti. Jos et lisännyt uutta laitetta Firefox-tiliisi, sinun tulisi vaihtaa salasanasi heti osoitteessa %(resetLink)s."
 
-#: templates/new_device_login.txt:3 templates/password_changed.txt:4
-#: templates/password_reset.txt:5 templates/post_verify.txt:5
-#: templates/reset.txt:6 templates/unlock.txt:4
-#: templates/verification_reminder_first.txt:5
-#: templates/verification_reminder_second.txt:5 templates/verify.txt:5
-#: templates/password_reset.txt:4
+#: templates/new_device_login.txt:3 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/reset.txt:6 templates/unlock.txt:4
+#: templates/verification_reminder_first.txt:5 templates/verification_reminder_second.txt:5 templates/verify.txt:5
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Lisätietoja on osoitteessa %(supportUrl)s"
 
@@ -127,41 +92,27 @@ msgstr "Salasanan vaihtaminen onnistui"
 msgid "Your Firefox Account password has been successfully changed."
 msgstr "Firefox-tilisi salasanan vaihtaminen onnistui."
 
-#: templates/password_changed.txt:3
-msgid ""
-"This is an automated email; if you didn’t change the password to your "
-"Firefox Account, you should reset it immediately at %(resetLink)s."
+#: templates/password_changed.html:4
+msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
 msgstr ""
-"Tämä on automaattisesti lähetetty viesti. Jos et vaihtanut Firefox-tilisi "
-"salasanaa, sinun tulisi nollata se heti osoitteessa %(resetLink)s."
+
+#: templates/password_changed.txt:3
+msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
+msgstr "Tämä on automaattisesti lähetetty viesti. Jos et vaihtanut Firefox-tilisi salasanaa, sinun tulisi nollata se heti osoitteessa %(resetLink)s."
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
 msgstr "Salasanasi on nollattu"
 
-#: templates/password_reset.html:3 templates/password_reset.txt:3
-msgid ""
-"Your Firefox Account password has changed. If you did not change it, please "
-"<a href='%(resetLink)s'>reset your password</a> now."
+#: templates/password_reset.html:3
+msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
 msgstr ""
-"Firefox-tilisi salasana on vaihdettu. Jos et vaihtanut sitä, <a "
-"href='%(resetLink)s'>nollaa salasanasi</a> nyt."
 
-#: templates/password_reset.html:4 templates/post_verify.html:6
-#: templates/post_verify.txt:4 templates/reset.html:7 templates/reset.txt:5
-#: templates/unlock.html:6 templates/unlock.txt:3
-#: templates/verification_reminder_first.html:6
-#: templates/verification_reminder_first.txt:4
-#: templates/verification_reminder_second.html:6
-#: templates/verification_reminder_second.txt:4 templates/verify.html:6
-#: templates/verify.txt:4 templates/verify_reminder_first.html:6
-#: templates/verify_reminder_second.html:6
-msgid ""
-"This is an automated email; if you received it in error, no action is "
-"required."
-msgstr ""
-"Tämä on automaattisesti lähetetty viesti. Jos sait sen vahingossa, sinun ei "
-"tarvitse tehdä mitään."
+#: templates/password_reset.html:4 templates/post_verify.html:6 templates/post_verify.txt:4 templates/reset.html:7 templates/reset.txt:5 templates/unlock.html:6 templates/unlock.txt:3
+#: templates/verification_reminder_first.html:6 templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:6 templates/verification_reminder_second.txt:4
+#: templates/verify.html:6 templates/verify.txt:4
+msgid "This is an automated email; if you received it in error, no action is required."
+msgstr "Tämä on automaattisesti lähetetty viesti. Jos sait sen vahingossa, sinun ei tarvitse tehdä mitään."
 
 #: templates/password_reset.txt:1
 msgid "Password reset successfully"
@@ -171,112 +122,63 @@ msgstr "Salasanan nollaus onnistui"
 msgid "Your Firefox Account password has been successfully reset."
 msgstr "Firefox-tilisi salasanan nollaus onnistui."
 
-#: templates/password_reset.txt:4 templates/password_reset.txt:3
-msgid ""
-"This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
-msgstr ""
-"Tämä on automaattisesti lähetetty viesti. Jos et nollannut Firefox-tilisi "
-"salasanaa, sinun tulisi nollata se heti osoitteessa %(resetLink)s."
+#: templates/password_reset.txt:3
+msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
+msgstr "Tämä on automaattisesti lähetetty viesti. Jos et nollannut Firefox-tilisi salasanaa, sinun tulisi nollata se heti osoitteessa %(resetLink)s."
 
-#: templates/password_reset_required.html:2
-#: templates/password_reset_required.txt:1
-msgid ""
-"We detected suspicious activity on your Firefox Account. Your account may "
-"have been compromised."
-msgstr ""
-"Havaitsimme epäilyttävää toimintaa Firefox-tililläsi. Tilillesi on saatettu "
-"murtautua."
+#: templates/password_reset_required.html:2 templates/password_reset_required.txt:1
+msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
+msgstr "Havaitsimme epäilyttävää toimintaa Firefox-tililläsi. Tilillesi on saatettu murtautua."
 
-#: templates/password_reset_required.html:3
-#: templates/password_reset_required.txt:2
-msgid ""
-"To prevent further unauthorized access to your Firefox Account, we’ve reset "
-"your password and are notifying you as a precaution."
-msgstr ""
-"Estääksemme Firefox-tilisi luvatonta käyttöä olemme nollanneet salasanasi ja "
-"ilmoitamme tästä kaiken varalta."
+#: templates/password_reset_required.html:3 templates/password_reset_required.txt:2
+msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
+msgstr "Estääksemme Firefox-tilisi luvatonta käyttöä olemme nollanneet salasanasi ja ilmoitamme tästä kaiken varalta."
 
-#: templates/password_reset_required.html:4
-#: templates/password_reset_required.txt:3
+#: templates/password_reset_required.html:4 templates/password_reset_required.txt:3
 msgid "What should you do?"
 msgstr "Mitä pitäisi tehdä?"
 
-#: templates/password_reset_required.html:5
-#: templates/password_reset_required.txt:4 templates/suspicious_location.html:7
-#: templates/suspicious_location.txt:6
+#: templates/password_reset_required.html:5 templates/password_reset_required.txt:4 templates/suspicious_location.html:7 templates/suspicious_location.txt:6
 msgid "First, change your Firefox Account password."
 msgstr "Ensimmäiseksi vaihda Firefox-tilisi salasana."
 
-#: templates/password_reset_required.html:6
-#: templates/password_reset_required.txt:5 templates/suspicious_location.html:8
-#: templates/suspicious_location.txt:7
+#: templates/password_reset_required.html:6 templates/password_reset_required.txt:5 templates/suspicious_location.html:8 templates/suspicious_location.txt:7
 msgid ""
-"Second, if Firefox stores passwords to websites, you should change those "
-"passwords as well. Attackers may have access to those passwords, so you "
-"should check those accounts for suspicious activity."
+"Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 msgstr ""
-"Toiseksi, jos Firefox tallentaa verkkosivustojen salasanoja, sinun tulisi "
-"vaihtaa myös niiden sivustojen salasanat. Hyökkääjät ovat voineet päästä "
-"käsiksi salasanoihin, joten sinun tulisi tarkistaa niiden tilit epäilyttävän "
-"toiminnan varalta."
+"Toiseksi, jos Firefox tallentaa verkkosivustojen salasanoja, sinun tulisi vaihtaa myös niiden sivustojen salasanat. Hyökkääjät ovat voineet päästä käsiksi salasanoihin, joten sinun tulisi tarkistaa "
+"niiden tilit epäilyttävän toiminnan varalta."
 
-#: templates/password_reset_required.html:7
-#: templates/password_reset_required.txt:6 templates/suspicious_location.html:9
-#: templates/suspicious_location.txt:8
+#: templates/password_reset_required.html:7 templates/password_reset_required.txt:6 templates/suspicious_location.html:9 templates/suspicious_location.txt:8
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "Lue, mistä näet, mitä salasanoja Firefox tallentaa."
 
-#: templates/password_reset_required.html:8
-#: templates/password_reset_required.txt:7
-#: templates/suspicious_location.html:12 templates/suspicious_location.txt:11
+#: templates/password_reset_required.html:8 templates/password_reset_required.txt:7 templates/suspicious_location.html:12 templates/suspicious_location.txt:11
 msgid "Best,"
 msgstr "Terveisin"
 
-#: templates/password_reset_required.html:9
-#: templates/password_reset_required.txt:8
-#: templates/suspicious_location.html:13 templates/suspicious_location.txt:12
+#: templates/password_reset_required.html:9 templates/password_reset_required.txt:8 templates/suspicious_location.html:13 templates/suspicious_location.txt:12
 msgid "The Firefox Accounts team"
 msgstr "Firefox Accounts -tiimi"
-
-#: templates/password_reset_required.html:10
-#: templates/password_reset_required.txt:9
-#: templates/suspicious_location.html:14 templates/suspicious_location.txt:13
-#: templates/new_device_login.html:5 templates/new_device_login.txt:4
-#: templates/password_changed.html:6 templates/password_changed.txt:5
-#: templates/password_reset.html:6 templates/password_reset.txt:6
-#: templates/post_verify.html:8 templates/post_verify.txt:6
-#: templates/reset.html:9 templates/reset.txt:7 templates/unlock.html:8
-#: templates/unlock.txt:5 templates/verification_reminder_first.html:8
-#: templates/verification_reminder_first.txt:6
-#: templates/verification_reminder_second.html:8
-#: templates/verification_reminder_second.txt:6 templates/verify.html:8
-#: templates/verify.txt:6 templates/verify_login.html:7
-#: templates/verify_login.txt:5 templates/password_reset.txt:5
-msgid "Mozilla Privacy Policy"
-msgstr "Mozillan tietosuojakäytäntö"
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
 msgstr "Tili on vahvistettu!"
 
-#: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5
-#: templates/verification_reminder_first.html:5
-#: templates/verification_reminder_second.html:5 templates/verify.html:5
-#: templates/verify_reminder_first.html:5
-#: templates/verify_reminder_second.html:5 templates/verify_login.html:5
+#: templates/post_verify.html:3
+msgid ""
+"You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
+"%(iosLinkAttributes)s>iOS</a>."
+msgstr ""
+
+#: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
+#: templates/verify_login.html:5
 msgid "Alternatively:"
 msgstr "Vaihtoehtoisesti:"
 
 #: templates/post_verify.txt:2
-msgid ""
-"You successfully connected your first device to your Firefox Account. Now "
-"you can sign in to Sync from your other devices, including Firefox for "
-"Android and iOS."
-msgstr ""
-"Onnistuit yhdistämään ensimmäisen laitteen Firefox-tiliisi. Voit nyt "
-"kirjautua Sync-palveluun muilta laitteiltasi. Niihin kuuluu myös Firefox "
-"Androidille ja iOS:lle."
+msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
+msgstr "Onnistuit yhdistämään ensimmäisen laitteen Firefox-tiliisi. Voit nyt kirjautua Sync-palveluun muilta laitteiltasi. Niihin kuuluu myös Firefox Androidille ja iOS:lle."
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
@@ -287,12 +189,8 @@ msgid "Forgot your password?"
 msgstr "Unohditko salasanan?"
 
 #: templates/reset.html:3 templates/reset.txt:2
-msgid ""
-"Click the button within the next hour to set a new password for your Firefox "
-"Account."
-msgstr ""
-"Napsauta painiketta tunnin kuluessa asettaaksesi uuden salasanan Firefox-"
-"tilillesi."
+msgid "Click the button within the next hour to set a new password for your Firefox Account."
+msgstr "Napsauta painiketta tunnin kuluessa asettaaksesi uuden salasanan Firefox-tilillesi."
 
 #: templates/reset.html:4 templates/reset.txt:3
 msgid "Remember password? Sign in."
@@ -303,14 +201,8 @@ msgid "Reset password"
 msgstr "Nollaa salasana"
 
 #: templates/suspicious_location.html:2 templates/suspicious_location.txt:1
-msgid ""
-"Did you sign in to your Firefox Account from any of the following locations "
-"in the last 60 days? If you don’t recognize these locations, someone else "
-"may have accessed your Firefox Account."
-msgstr ""
-"Kirjauduitko sisään Firefox-tiliisi näistä sijainneista 60 viime päivän "
-"aikana? Jos et tunnista näitä sijainteja, joku muu on saattanut käyttää "
-"Firefox-tiliäsi."
+msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
+msgstr "Kirjauduitko sisään Firefox-tiliisi näistä sijainneista 60 viime päivän aikana? Jos et tunnista näitä sijainteja, joku muu on saattanut käyttää Firefox-tiliäsi."
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
@@ -333,25 +225,16 @@ msgid "Why are you receiving this email?"
 msgstr "Miksi sait tämän viestin?"
 
 #: templates/suspicious_location.html:11 templates/suspicious_location.txt:10
-msgid ""
-"We recently noticed Firefox Account logins from unusual locations. We’re "
-"notifying you as a precaution."
-msgstr ""
-"Huomasimme hiljattain, että Firefox-tilillesi oli kirjauduttu "
-"epätavallisista sijainneista. Ilmoitamme tästä kaiken varalta."
+msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
+msgstr "Huomasimme hiljattain, että Firefox-tilillesi oli kirjauduttu epätavallisista sijainneista. Ilmoitamme tästä kaiken varalta."
 
 #: templates/unlock.html:2
 msgid "Account activity notice"
 msgstr "Tilin aktiivisuusilmoitus"
 
 #: templates/unlock.html:3 templates/unlock.txt:1
-msgid ""
-"For security reasons your Firefox Account was put on lockdown. To perform "
-"account-level activities, please click the link to re-verify your account "
-"now."
-msgstr ""
-"Firefox tilisi on lukittu turvallisuussyistä. Jatka tilin käyttöä "
-"todentamalla se uudestaan todentamislinkistä."
+msgid "For security reasons your Firefox Account was put on lockdown. To perform account-level activities, please click the link to re-verify your account now."
+msgstr "Firefox tilisi on lukittu turvallisuussyistä. Jatka tilin käyttöä todentamalla se uudestaan todentamislinkistä."
 
 #: templates/unlock.html:4
 msgid "Verify account"
@@ -361,72 +244,37 @@ msgstr "Vahvista tilisi"
 msgid "Verify account:"
 msgstr "Vahvista tili:"
 
-#: templates/verification_reminder_first.html:2
-#: templates/verification_reminder_first.txt:1
-#: templates/verify_reminder_first.html:2 mailer.js:413 mailer.js:441
-#: mailer.js:452
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:452
 msgid "Hello again."
 msgstr "Hei taas."
 
-#: templates/verification_reminder_first.html:3
-#: templates/verification_reminder_first.txt:2
-#: templates/verify_reminder_first.html:3
+#: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A "
-"verified account lets you access your tabs, bookmarks, passwords and history "
-"on any device connected to it. Simply confirm this email address to activate "
-"your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+"this email address to activate your account."
 msgstr ""
-"Muutamia päiviä sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. "
-"Vahvistettu tili mahdollistaa sinun käyttää välilehtiäsi, kirjanmerkkejäsi, "
-"salasanojasi ja historiaasi millä tahansa tiliin yhdistetyllä laitteella. "
-"Aktivoi tilisi vahvistamalla tämä sähköpostiosoite."
+"Muutamia päiviä sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. Vahvistettu tili mahdollistaa sinun käyttää välilehtiäsi, kirjanmerkkejäsi, salasanojasi ja historiaasi millä tahansa "
+"tiliin yhdistetyllä laitteella. Aktivoi tilisi vahvistamalla tämä sähköpostiosoite."
 
-#: templates/verification_reminder_first.html:4
-#: templates/verification_reminder_second.html:4 templates/verify.html:4
-#: templates/verify_reminder_first.html:4
-#: templates/verify_reminder_second.html:4
+#: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
 msgid "Activate now"
 msgstr "Aktivoi nyt"
 
-#: templates/verification_reminder_first.html:8
-#: templates/verification_reminder_second.html:8 templates/verify.html:8
-#: templates/verify_reminder_first.html:8
-#: templates/verify_reminder_second.html:8
-#: templates/verification_reminder_first.html:9
-#: templates/verification_reminder_second.html:9 templates/verify.html:9
+#: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9
 msgid "Verify Email"
 msgstr "Vahvista sähköposti"
 
-#: templates/verification_reminder_first.html:9
-#: templates/verification_reminder_second.html:9 templates/verify.html:9
-#: templates/verify_reminder_first.html:9
-#: templates/verify_reminder_second.html:9
-#: templates/verification_reminder_first.html:10
-#: templates/verification_reminder_second.html:10 templates/verify.html:10
+#: templates/verification_reminder_first.html:10 templates/verification_reminder_second.html:10 templates/verify.html:10
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr "Viimeistele Firefox-tilisi rekisteröinti vahvistamalla sähköpostisi"
 
-#: templates/verification_reminder_first.txt:3
-#: templates/verification_reminder_second.txt:3 templates/verify.txt:3
+#: templates/verification_reminder_first.txt:3 templates/verification_reminder_second.txt:3 templates/verify.txt:3
 msgid "Activate now:"
 msgstr "Aktivoi nyt:"
 
-#: templates/verification_reminder_second.html:3
-#: templates/verification_reminder_second.txt:2
-#: templates/verify_reminder_second.html:3
-msgid ""
-"A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Firefox is available for Windows, Mac, Linux, Android and "
-"iOS. You can sync your Firefox passwords, bookmarks and history across all "
-"of them. Confirm this email address to activate your account and let us know "
-"you're okay."
-msgstr ""
-"Viikko sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. Olemme "
-"huolissamme sinusta. Firefox on saatavilla Windowsille, Macille, Linuxille, "
-"Androidille ja iOS:lle. Voit synkronoida Firefoxin salasanat, kirjanmerkit "
-"ja historian kaikkien niiden kanssa. Aktivoi tilisi ja kerro olevasi "
-"kunnossa vahvistamalla tämä sähköpostiosoite."
+#: templates/verification_reminder_second.html:3 templates/verification_reminder_second.txt:2
+msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
+msgstr "Viikko sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. Olemme huolissamme sinusta. Aktivoi tilisi ja kerro olevasi kunnossa vahvistamalla tämä sähköpostiosoite."
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
@@ -436,143 +284,67 @@ msgstr "Tervetuloa!"
 msgid "Please activate your account by confirming this email address."
 msgstr "Aktivoi tilisi vahvistamalla tämä sähköpostiosoite."
 
-#: mailer.js:168 mailer.js:171 mailer.js:179
-msgid "Verify your Firefox Account"
-msgstr "Vahvista Firefox-tilisi"
-
-#: mailer.js:201 mailer.js:244 mailer.js:252
-msgid "Reset your Firefox Account password"
-msgstr "Firefox-tilisi salasanan nollaus"
-
-#: mailer.js:236 mailer.js:278 mailer.js:286
-msgid "Re-verify your Firefox Account"
-msgstr "Vahvista Firefox-tilisi uudelleen"
-
-#: mailer.js:269 mailer.js:299 mailer.js:307
-msgid "Your Firefox Account password has been changed"
-msgstr "Firefox-tilisi salasana on vaihdettu"
-
-#: mailer.js:291 mailer.js:321 mailer.js:328
-msgid "Your Firefox Account password has been reset"
-msgstr "Firefox-tilisi salasana on nollattu"
-
-#: mailer.js:313 mailer.js:342 mailer.js:349
-msgid "Firefox Account password reset required"
-msgstr "Firefox-tilin salasanan nollaus vaaditaan"
-
-#: mailer.js:366 mailer.js:395 mailer.js:404
-msgid "Firefox Account Verified"
-msgstr "Firefox-tili vahvistettu"
-
-#: mailer.js:401 mailer.js:429 mailer.js:440
-msgid "Suspicious activity with your Firefox Account"
-msgstr "Epäilyttävää toimintaa Firefox-tililläsi"
-
-#: config.js:146 config.js:151
-msgid "env"
-msgstr "env"
-
-#: config.js:159 config.js:160 config.js:161 config.js:162 config.js:163
-#: config.js:164
-msgid "contentServer.url"
-msgstr "contentServer.url"
-
-#: log.js:7
-msgid "logging"
-msgstr "lokitus"
-
-#: lib/db.js:21
-msgid "/"
-msgstr "/"
-
-#: lib/db.js:34
-msgid "/__heartbeat__"
-msgstr "/__heartbeat__"
-
-#: templates/new_device_login.html:4 templates/password_changed.html:5
-#: templates/password_reset.html:5 templates/post_verify.html:7
-#: templates/reset.html:8 templates/unlock.html:7
-#: templates/verification_reminder_first.html:7
-#: templates/verification_reminder_second.html:7 templates/verify.html:7
-msgid ""
-"For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
-"Support</a>."
-msgstr "Lisätietoja saat <a %(supportLinkAttributes)s>Mozilla-tuesta</a>."
-
 #: templates/verify_login.html:3 templates/verify_login.txt:2
-msgid ""
-"For added security, please confirm this sign-in to begin syncing with "
-"%(device)s."
-msgstr ""
-"Paremman turvallisuuden vuoksi vahvista tämä kirjautuminen aloittaaksesi "
-"synkronointi laitteen %(device)s kanssa."
+msgid "For added security, please confirm this sign-in to begin syncing with %(device)s."
+msgstr "Paremman turvallisuuden vuoksi vahvista tämä kirjautuminen aloittaaksesi synkronointi laitteen %(device)s kanssa."
 
 #: templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "Confirm sign-in"
 msgstr "Vahvista kirjautuminen"
 
 #: templates/verify_login.html:6
-msgid ""
-"If you suspect that someone is trying to gain access to your account, <a "
-"%(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
-"Jos epäilet, että joku yrittää murtautua tilillesi, <a "
-"%(passwordChangeLinkAttributes)s>vaihda salasanasi.</a>."
+msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+msgstr "Jos epäilet, että joku yrittää murtautua tilillesi, <a %(passwordChangeLinkAttributes)s>vaihda salasanasi.</a>."
 
 #: templates/verify_login.txt:4
-msgid ""
-"If you suspect that someone is trying to gain access to your account, please "
-"change your password."
+msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr "Jos epäilet, että joku yrittää murtautua tilillesi, vaihda salasanasi."
 
-#: mailer.js:209 mailer.js:217
+#: mailer.js:179
+msgid "Verify your Firefox Account"
+msgstr "Vahvista Firefox-tilisi"
+
+#: mailer.js:217
 msgid "Confirm new sign-in to Firefox"
 msgstr "Vahvista uusi kirjautuminen Firefoxiin"
 
-#: templates/password_changed.html:4
-msgid ""
-"This is an automated email; if you did not authorize this action, then <a "
-"%(resetLinkAttributes)s>please reset your password</a>."
-msgstr ""
+#: mailer.js:252
+msgid "Reset your Firefox Account password"
+msgstr "Firefox-tilisi salasanan nollaus"
 
-#: templates/password_reset.html:3
-msgid ""
-"Your Firefox Account password has changed. If you did not change it, please "
-"<a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+#: mailer.js:286
+msgid "Re-verify your Firefox Account"
+msgstr "Vahvista Firefox-tilisi uudelleen"
 
-#: templates/post_verify.html:3
-msgid ""
-"You successfully connected your first device to your Firefox Account. Now "
-"you can sign in to Sync from your other devices, including Firefox for <a "
-"%(androidLinkAttributes)s>Android</a> and <a %(iosLinkAttributes)s>iOS</a>."
-msgstr ""
+#: mailer.js:307
+msgid "Your Firefox Account password has been changed"
+msgstr "Firefox-tilisi salasana on vaihdettu"
 
-#: templates/verification_reminder_second.html:3
-#: templates/verification_reminder_second.txt:2
-msgid ""
-"A week ago you created a Firefox Account, but never verified it. We’re "
-"worried about you. Confirm this email address to activate your account and "
-"let us know you're okay."
-msgstr ""
-"Viikko sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. Olemme "
-"huolissamme sinusta. Aktivoi tilisi ja kerro olevasi kunnossa vahvistamalla "
-"tämä sähköpostiosoite."
+#: mailer.js:328
+msgid "Your Firefox Account password has been reset"
+msgstr "Firefox-tilisi salasana on nollattu"
+
+#: mailer.js:349
+msgid "Firefox Account password reset required"
+msgstr "Firefox-tilin salasanan nollaus vaaditaan"
+
+#: mailer.js:404
+msgid "Firefox Account Verified"
+msgstr "Firefox-tili vahvistettu"
+
+#: mailer.js:440
+msgid "Suspicious activity with your Firefox Account"
+msgstr "Epäilyttävää toimintaa Firefox-tililläsi"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
 msgstr "Sivua ei löydy"
 
 #: server/templates/pages/src/404.html:3
-msgid ""
-"The page you requested is not found. We've been notified and will fix any "
-"links that may be broken."
-msgstr ""
-"Pyytämääsi sivua ei löytynyt. Olemme saaneet tästä tiedon ja tulemme "
-"korjaamaan rikkinäiset linkit."
+msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
+msgstr "Pyytämääsi sivua ei löytynyt. Olemme saaneet tästä tiedon ja tulemme korjaamaan rikkinäiset linkit."
 
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
-#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "Etusivu"
 
@@ -581,12 +353,8 @@ msgid "500 Error"
 msgstr "500 Virhe"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
-msgid ""
-"Oh dear, something went wrong there. We've been notified and will get "
-"working on a fix."
-msgstr ""
-"Oho, jokin meni pieleen! Olemme saaneet tästä tiedon ja ryhdymme korjaamaan "
-"virhettä."
+msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+msgstr "Oho, jokin meni pieleen! Olemme saaneet tästä tiedon ja ryhdymme korjaamaan virhettä."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -597,64 +365,68 @@ msgid "Server busy, try again soon"
 msgstr "Palvelin on ruuhkautunut, yritä myöhemmin uudelleen"
 
 #: server/templates/pages/src/503.html:3
-msgid ""
-"We are currently under heavy strain and are working to return the system to "
-"normal as soon as possible."
-msgstr ""
-"Järjestelmä on tällä hetkellä ylikuormittunut. Teemme parhaamme "
-"palauttaaksemme sen normaalitilaan niin pian kuin mahdollista."
+msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
+msgstr "Järjestelmä on tällä hetkellä ylikuormittunut. Teemme parhaamme palauttaaksemme sen normaalitilaan niin pian kuin mahdollista."
 
-#: server/templates/pages/src/index.html:2
-#: server/templates/pages/src/privacy.html:5
-#: server/templates/pages/src/terms.html:5
-msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr ""
-"Käytät <strong>vanhaa</strong> versiota selaimestasi. Paranna "
-"käyttökokemustasi <a href=\"http://browsehappy.com/\">päivittämällä "
-"selaimesi</a>."
+#: server/templates/pages/src/index.html:2 server/templates/pages/src/privacy.html:5 server/templates/pages/src/terms.html:5
+msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr "Käytät <strong>vanhaa</strong> versiota selaimestasi. Paranna käyttökokemustasi <a href=\"http://browsehappy.com/\">päivittämällä selaimesi</a>."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Firefox-tili -palvelu edellyttää JavaScriptin olevan päällä."
 
-#: server/templates/pages/src/privacy.html:2
-#: server/templates/pages/src/privacy.html:4
+#: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
 msgstr "Tietosuojakäytäntö"
 
-#: server/templates/pages/src/privacy.html:3
-#: server/templates/pages/src/terms.html:3
+#: server/templates/pages/src/privacy.html:3 server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
 msgstr "Firefox pilvipalvelut"
 
-#: server/templates/pages/src/terms.html:2
-#: server/templates/pages/src/terms.html:4
+#: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Käyttöehdot"
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>"
+#~ msgstr "Lisätietoja saat <a %(supportLinkAttributes)s>Mozilla-tuesta</a>"
+
+#~ msgid "Your Firefox Account password has changed. If you did not change it, please <a href='%(resetLink)s'>reset your password</a> now."
+#~ msgstr "Firefox-tilisi salasana on vaihdettu. Jos et vaihtanut sitä, <a href='%(resetLink)s'>nollaa salasanasi</a> nyt."
+
+#~ msgid ""
+#~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
+#~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr ""
+#~ "Viikko sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. Olemme huolissamme sinusta. Firefox on saatavilla Windowsille, Macille, Linuxille, Androidille ja iOS:lle. Voit synkronoida "
+#~ "Firefoxin salasanat, kirjanmerkit ja historian kaikkien niiden kanssa. Aktivoi tilisi ja kerro olevasi kunnossa vahvistamalla tämä sähköpostiosoite."
+
+#~ msgid "env"
+#~ msgstr "env"
+
+#~ msgid "contentServer.url"
+#~ msgstr "contentServer.url"
+
+#~ msgid "logging"
+#~ msgstr "lokitus"
+
+#~ msgid "/"
+#~ msgstr "/"
+
+#~ msgid "/__heartbeat__"
+#~ msgstr "/__heartbeat__"
 
 #~ msgid "Bad Request"
 #~ msgstr "Virheellinen pyyntö"
 
-#~ msgid ""
-#~ "If you suspect that someone is trying to gain access to your account, <a "
-#~ "%(supportLinkAttributes)s>please report it to us</a>."
-#~ msgstr ""
-#~ "Jos epäilet, että joku yrittää päästä käsiksi tiliisi, <a "
-#~ "%(supportLinkAttributes)s>ilmoita siitä meille</a>."
+#~ msgid "If you suspect that someone is trying to gain access to your account, <a %(supportLinkAttributes)s>please report it to us</a>."
+#~ msgstr "Jos epäilet, että joku yrittää päästä käsiksi tiliisi, <a %(supportLinkAttributes)s>ilmoita siitä meille</a>."
 
-#~ msgid ""
-#~ "If you suspect that someone is trying to gain access to your account, "
-#~ "please report it to us."
-#~ msgstr ""
-#~ "Jos epäilet, että joku yrittää päästä käsiksi tiliisi, ilmoita siitä "
-#~ "meille."
+#~ msgid "If you suspect that someone is trying to gain access to your account, please report it to us."
+#~ msgstr "Jos epäilet, että joku yrittää päästä käsiksi tiliisi, ilmoita siitä meille."
 
-#~ msgid ""
-#~ "A device began syncing with the devices connected to your Firefox Account."
-#~ msgstr ""
-#~ "Laite alkoi synkronoida Firefox-tiliisi yhdistettyjen laitteiden kanssa."
+#~ msgid "A device began syncing with the devices connected to your Firefox Account."
+#~ msgstr "Laite alkoi synkronoida Firefox-tiliisi yhdistettyjen laitteiden kanssa."
 
 #~ msgid "Are you sure?"
 #~ msgstr "Oletko varma?"
@@ -668,22 +440,14 @@ msgstr "Käyttöehdot"
 #~ msgid "Reset password now:"
 #~ msgstr "Nollaa salasana nyt:"
 
-#~ msgid ""
-#~ "Recently you created a Firefox Account, but never verified it. Please "
-#~ "activate your account by confirming this email address."
-#~ msgstr ""
-#~ "Loit hiljattain Firefox-tilin, mutta et vahvistanut sitä. Aktivoi tilisi "
-#~ "vahvistamalla tämä sähköpostiosoite."
+#~ msgid "Recently you created a Firefox Account, but never verified it. Please activate your account by confirming this email address."
+#~ msgstr "Loit hiljattain Firefox-tilin, mutta et vahvistanut sitä. Aktivoi tilisi vahvistamalla tämä sähköpostiosoite."
 
 #~ msgid "Activate Now:"
 #~ msgstr "Aktivoi nyt:"
 
-#~ msgid ""
-#~ "For more information, please visit <a href='https://support.mozilla."
-#~ "org'>Mozilla Support</a>"
-#~ msgstr ""
-#~ "Lisätietoja saat <a href='https://support.mozilla.org'>Mozillan "
-#~ "tukisivustolta</a>"
+#~ msgid "For more information, please visit <a href='https://support.mozilla.org'>Mozilla Support</a>"
+#~ msgstr "Lisätietoja saat <a href='https://support.mozilla.org'>Mozillan tukisivustolta</a>"
 
 #~ msgid "Reset password:"
 #~ msgstr "Nollaa salasana:"
@@ -694,8 +458,7 @@ msgstr "Käyttöehdot"
 #~ msgid "Almost there"
 #~ msgstr "Melkein valmis"
 
-#~ msgid ""
-#~ "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
 #~ msgstr "%(email)s napsauta vielä kerran ja olet vahvistanut Firefox-tilisi."
 
 #~ msgid "Verify"
