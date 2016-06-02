@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-01 13:33+0000\n"
-"PO-Revision-Date: 2016-06-02 11:03+0000\n"
+"PO-Revision-Date: 2016-06-02 11:05+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -201,11 +201,11 @@ msgstr "JSONغير صالح في متن الطلب"
 
 #: app/scripts/lib/auth-errors.js:69
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "معاملات غير صالحة: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:73
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "معاملات مفقودة: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
