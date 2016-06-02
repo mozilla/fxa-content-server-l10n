@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: fxa-server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-01 13:33+0000\n"
-"PO-Revision-Date: 2016-05-19 10:25+0000\n"
+"PO-Revision-Date: 2016-06-02 03:51+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -32,8 +32,8 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Сіз өз Firefox тіркелгіңізге бірінші құрылғыны сәтті байланыстырдыңыз. Синхрондаудан көбірек алу үшін, <a href='%(androidUrl)s'>Android үшін Firefox</a> немесе <a href='%(iosUrl)s'>iOS үшін Firefox-"
 "ты</a> байланыстырыңыз."
@@ -64,7 +64,7 @@ msgstr "Бұл автоматтандырылған эл. пошта хаты; �
 #: templates/new_device_login.html:4 templates/password_changed.html:5 templates/password_reset.html:5 templates/post_verify.html:7 templates/reset.html:8 templates/unlock.html:7
 #: templates/verification_reminder_first.html:7 templates/verification_reminder_second.html:7 templates/verify.html:7
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr ""
+msgstr "Көбірек білу үшін, <a %(supportLinkAttributes)s>Mozilla қолдау сайтын</a> шолыңыз."
 
 #: templates/new_device_login.html:5 templates/new_device_login.txt:4 templates/password_changed.html:6 templates/password_changed.txt:5 templates/password_reset.html:6 templates/password_reset.txt:5
 #: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:8 templates/post_verify.txt:6 templates/reset.html:9 templates/reset.txt:7
@@ -249,8 +249,8 @@ msgstr "Қайтадан, сәлем."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 "Бірнеше күн бұрын сіз Firefox тіркелгісін жасағансыз, бірақ, оны растамағансыз. Расталған тіркелгі арқылы оған байланысқан әр құрылғыдағы беттер, бетбелгілер, парольдер және шолу тарихына қатынауға "
 "мүмкіндік береді. Тіркелгіні белсендіру үшін бұл эл. пошта адресін растау жеткілікті."
@@ -397,8 +397,8 @@ msgstr "Қолдану шарттары"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Бір апта бұрын сіз Firefox тіркелгісін жасағансыз, бірақ, оны растамағансыз. Біз сіз туралы уайымдаймыз. Firefox Windows, Mac, Linux, Android және iOS үшін қолжетерлік. Олардың барлығының "
-#~ "арасында Firefox парольдерін, бетбелгілер және шолу тарихын синхрондай аласыз. Тіркелгіні белсендіру үшін бұл эл. пошта адресін растаңыз."
+#~ "Бір апта бұрын сіз Firefox тіркелгісін жасағансыз, бірақ, оны растамағансыз. Біз сіз туралы уайымдаймыз. Firefox Windows, Mac, Linux, Android және iOS үшін қолжетерлік. Олардың барлығының арасында "
+#~ "Firefox парольдерін, бетбелгілер және шолу тарихын синхрондай аласыз. Тіркелгіні белсендіру үшін бұл эл. пошта адресін растаңыз."
 
 #~ msgid "env"
 #~ msgstr "env"
