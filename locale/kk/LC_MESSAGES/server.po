@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-01 13:33+0000\n"
-"PO-Revision-Date: 2016-06-02 03:51+0000\n"
+"PO-Revision-Date: 2016-06-03 04:08+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -325,7 +325,7 @@ msgstr "Сіздің Firefox тіркелгісі паролі тасталды"
 
 #: mailer.js:349
 msgid "Firefox Account password reset required"
-msgstr ""
+msgstr "Firefox тіркелгісінің паролін тастау керек"
 
 #: mailer.js:404
 msgid "Firefox Account Verified"
@@ -333,7 +333,7 @@ msgstr "Firefox тіркелгісі расталды"
 
 #: mailer.js:440
 msgid "Suspicious activity with your Firefox Account"
-msgstr ""
+msgstr "Firefox тіркелгіңізбен орын алған күмәнді әрекеттер"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
