@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-01 13:33+0000\n"
-"PO-Revision-Date: 2016-05-09 23:37+0000\n"
+"PO-Revision-Date: 2016-06-03 19:50+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -28,13 +28,13 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Ai conectat cu succes primul tău dispozitiv la contul Firefox. Acum poți să te autentifici pentru Sincronizare de pe alte dispozitive, inclusiv Firefox pentru <a href='%(androidUrl)s'>Android</a> "
-"și <a href='%(iosUrl)s'>iOS</a>."
+"Ai conectat cu succes primul tău dispozitiv la contul Firefox. Acum poți să te autentifici pentru Sincronizare de pe alte dispozitive, inclusiv Firefox pentru <a href='%(androidUrl)s'>Android</a> și"
+" <a href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Ai conectat cu succes primul tău dispozitiv la contul Firefox. Pentru a profita la maxim de Sincronizare, conectează-te de pe <a href='%(androidUrl)s'>Firefox pentru Android</a> sau <a "
 "href='%(iosUrl)s'>Firefox pentru iOS</a>."
@@ -65,7 +65,7 @@ msgstr "Acesta este un e-mail automat; dacă nu ai autorizat această acțiune, 
 #: templates/new_device_login.html:4 templates/password_changed.html:5 templates/password_reset.html:5 templates/post_verify.html:7 templates/reset.html:8 templates/unlock.html:7
 #: templates/verification_reminder_first.html:7 templates/verification_reminder_second.html:7 templates/verify.html:7
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr ""
+msgstr "Pentru mai multe informații te rugăm să vizitezi <a %(supportLinkAttributes)s>Mozilla Support</a>."
 
 #: templates/new_device_login.html:5 templates/new_device_login.txt:4 templates/password_changed.html:6 templates/password_changed.txt:5 templates/password_reset.html:6 templates/password_reset.txt:5
 #: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:8 templates/post_verify.txt:6 templates/reset.html:9 templates/reset.txt:7
@@ -94,7 +94,7 @@ msgstr "Parola contului Firefox a fost schimbată cu succes."
 
 #: templates/password_changed.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr ""
+msgstr "Acesta este un e-mail automat; dacă nu ai autorizat această acțiune, atunci <a %(resetLinkAttributes)s>te rugăm să îți resetezi parola</a>."
 
 #: templates/password_changed.txt:3
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
@@ -106,7 +106,7 @@ msgstr "Parola ta a fost resetată"
 
 #: templates/password_reset.html:3
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+msgstr "Parola contului tău Firefox a fost schimbată. Dacă nu ai schimbat-o, te rugăm <a %(resetLinkAttributes)s>să îți resetezi parola</a> acum."
 
 #: templates/password_reset.html:4 templates/post_verify.html:6 templates/post_verify.txt:4 templates/reset.html:7 templates/reset.txt:5 templates/unlock.html:6 templates/unlock.txt:3
 #: templates/verification_reminder_first.html:6 templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:6 templates/verification_reminder_second.txt:4
@@ -170,6 +170,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
+"Ai conectat cu succes primul tău dispozitiv pe contul tău Firefox. Acum te poți autentifica pentru a sincroniza de pe celelalte dispozitive, inclusiv Firefox pentru <a "
+"%(androidLinkAttributes)s>Android</a> și <a %(iosLinkAttributes)s>iOS</a>."
 
 #: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
 #: templates/verify_login.html:5
@@ -251,8 +253,8 @@ msgstr "Bună din nou."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 "Ai creat un cont Firefox Account acum câteva zile, dar nu l-ai verificat niciodată. Un cont verificat îți permite să accesezi filele, semnele de carte, parolele și istoricul de pe orice dispozitiv "
 "conectat la acesta. Pur și simplu confirmă această adresă de e-mail pentru a activa contul tău."
@@ -276,6 +278,8 @@ msgstr "Activează acum:"
 #: templates/verification_reminder_second.html:3 templates/verification_reminder_second.txt:2
 msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 msgstr ""
+"În urmă cu o săptămână ai creat un cont Firefox, însă nu l-ai verificat niciodată. Suntem îngrijorați în privința ta. Confirmă această adresă de e-mail pentru a-ți activa contul și spune-ne că ești "
+"în regulă."
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
@@ -295,11 +299,11 @@ msgstr "Confirmă autentificarea"
 
 #: templates/verify_login.html:6
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Dacă suspectezi că cineva încearcă să obțin acces la contul tău, <a %(passwordChangeLinkAttributes)s>te rugăm să îți schimbi parola</a>."
 
 #: templates/verify_login.txt:4
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr ""
+msgstr "Dacă suspectezi că cineva încearcă să obțin acces la contul tău, te rugăm să îți schimbi parola."
 
 #: mailer.js:179
 msgid "Verify your Firefox Account"
@@ -399,8 +403,8 @@ msgstr "Termeni de utilizare a serviciului"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Acum o săptămână ai creat un cont Firefox Account, dar nu l-ai verificat niciodată. Ne facem griji pentru tine. Firefox este disponibil pentru Windows, Mac, Linux, Android și iOS. Poți "
-#~ "sincroniza parolele de Firefox, semnele de carte și istoricul pentru toate acestea. Confirmă această adresă de e-mail pentru a activa contul și pentru a ne anunța că ești în regulă."
+#~ "Acum o săptămână ai creat un cont Firefox Account, dar nu l-ai verificat niciodată. Ne facem griji pentru tine. Firefox este disponibil pentru Windows, Mac, Linux, Android și iOS. Poți sincroniza "
+#~ "parolele de Firefox, semnele de carte și istoricul pentru toate acestea. Confirmă această adresă de e-mail pentru a activa contul și pentru a ne anunța că ești în regulă."
 
 #~ msgid "env"
 #~ msgstr "env"

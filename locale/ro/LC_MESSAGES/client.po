@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-01 13:33+0000\n"
-"PO-Revision-Date: 2016-05-09 23:38+0000\n"
+"PO-Revision-Date: 2016-06-03 19:43+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -208,11 +208,11 @@ msgstr "JSON invalid în corpul cererii"
 
 #: app/scripts/lib/auth-errors.js:69
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "Parametru invalid: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:73
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "Parametru lipsă: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
@@ -233,7 +233,7 @@ msgstr "Limita de încercări a fost depășită"
 
 #: app/scripts/lib/auth-errors.js:101
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "Cererea a fost blocată din motive de securitate"
 
 #: app/scripts/lib/auth-errors.js:109
 msgid "Server busy, try again soon"
@@ -360,11 +360,11 @@ msgstr "Proprietate lipsă în tokenul resume: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:274
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "Atribut de date invalid: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:278
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "Atribut de date lipsă: %(property)s"
 
 #: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -416,7 +416,7 @@ msgstr "Parametru lipsă OAuth: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
-msgstr ""
+msgstr "Token invalid"
 
 #: app/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
@@ -435,9 +435,7 @@ msgid "Firefox Sync"
 msgstr "Sincronizare Firefox"
 
 #: app/scripts/lib/strings.js:18
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Continuând, ești de acord cu <a id=\"service-tos\" href=\"%(termsUri)s\">termenii de utilizare a serviciului</a> și <a id=\"service-pp\" href=\"%(privacyUri)s\">politica de confidențialitate</a> a "
 "%(serviceName)s (%(serviceUri)s)."
@@ -522,15 +520,15 @@ msgstr "Autentificare confirmată"
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "Cerere incorectă"
 
 #: app/scripts/templates/500.mustache:1
 msgid "500 Error"
-msgstr ""
+msgstr "Eroare 500"
 
 #: app/scripts/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr ""
+msgstr "Aoleu, ceva a mers prost aici. Am fost notificați și vom lucra la o soluție."
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -945,11 +943,11 @@ msgstr "Dispozitive"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox este disponibil pentru <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> și <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox este disponibil pentru <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> și <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
