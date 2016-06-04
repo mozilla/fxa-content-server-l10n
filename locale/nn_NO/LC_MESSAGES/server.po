@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-01 13:33+0000\n"
-"PO-Revision-Date: 2016-06-04 16:02+0000\n"
+"PO-Revision-Date: 2016-06-04 16:59+0000\n"
 "Last-Translator: bjorn.svindseth <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -169,6 +169,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
+"Du har kopla den fyrste eininga di til Firefox-kontoen din. Du kan no logga inn på Sync frå dei andre eininganre dine, inkludertFirefox for <a %(androidLinkAttributes)s>Android</a> og <a "
+"%(iosLinkAttributes)s>iOS</a>."
 
 #: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
 #: templates/verify_login.html:5
@@ -177,7 +179,7 @@ msgstr "Alternativt:"
 
 #: templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-msgstr ""
+msgstr "Du har kopla den fyrste eininga di til Firefox-kontoen din. No kan du logga inn på Sync frå dei andre einingane dine, inkludert Firefox for Android og iOS."
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
@@ -189,7 +191,7 @@ msgstr "Gløymt passordet ditt?"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account."
-msgstr ""
+msgstr "Trykk på knappen innan ein time for å spesifisera eit nytt passord for Firefox-kontoen din."
 
 #: templates/reset.html:4 templates/reset.txt:3
 msgid "Remember password? Sign in."
@@ -201,7 +203,7 @@ msgstr "Tilbakestill passordet"
 
 #: templates/suspicious_location.html:2 templates/suspicious_location.txt:1
 msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
-msgstr ""
+msgstr "Har du logga inn på Firefox-kontoen din frå nokon av desse stadane dei siste 60 dagane? Om du ikkje kjenner dei att, kan andre ha tilgang til Firefox-kontoen din."
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
@@ -225,7 +227,7 @@ msgstr "Kvifor får du denne e-posten?"
 
 #: templates/suspicious_location.html:11 templates/suspicious_location.txt:10
 msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
-msgstr ""
+msgstr "Vi oppdaga nyleg inloggningar på Firefox-kontoen din frå uvanlege stadar. Vi sender deg denne meldinga slik at du kan reagera om dei er mistenkelege."
 
 #: templates/unlock.html:2
 msgid "Account activity notice"
@@ -233,7 +235,7 @@ msgstr "Kontoaktivitetsmerknad"
 
 #: templates/unlock.html:3 templates/unlock.txt:1
 msgid "For security reasons your Firefox Account was put on lockdown. To perform account-level activities, please click the link to re-verify your account now."
-msgstr ""
+msgstr "Av tryggingsgrunnar er Firefox-kontoen din låst. For å utføra aktivitetar på kontonivå, trykk på lenka for å stadfesta kontoen din på nytt."
 
 #: templates/unlock.html:4
 msgid "Verify account"
@@ -252,6 +254,8 @@ msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
 " email address to activate your account."
 msgstr ""
+"For nokre dagar sidan laga du ein Firefox-konto, men du stadfesta han aldri. Ein stadfesta konto lar deg opna faner, bokmerke, passord og historikk på alle einingar som er kopla til han. Stadfest "
+"denne e-postadreessa for å aktivera kontoen din."
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
 msgid "Activate now"
@@ -263,7 +267,7 @@ msgstr "Stadfest e-post"
 
 #: templates/verification_reminder_first.html:10 templates/verification_reminder_second.html:10 templates/verify.html:10
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
+msgstr "Stadfest e-postadressa di for å fullføra registreringa av Firefox-kontoen din"
 
 #: templates/verification_reminder_first.txt:3 templates/verification_reminder_second.txt:3 templates/verify.txt:3
 msgid "Activate now:"
@@ -271,7 +275,7 @@ msgstr "Aktiver no:"
 
 #: templates/verification_reminder_second.html:3 templates/verification_reminder_second.txt:2
 msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
+msgstr "For ei veke sidan laga du ein Firefox-konto, men du stadfesta han aldri. Vi er bekymra for deg. Stadfest denne e-postadressa for å aktivera kontoen din, slik at vi veit at du har det bra."
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
@@ -279,11 +283,11 @@ msgstr "Velkomen!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "Aktiver kontoen din ved å stadfesta denne e-postadressa."
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in to begin syncing with %(device)s."
-msgstr ""
+msgstr "For ekstra sikkerheit, stadfest denne innlogginga for å begynna å synkronisera med %(device)s."
 
 #: templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "Confirm sign-in"
@@ -291,11 +295,11 @@ msgstr "Stadfest innlogging"
 
 #: templates/verify_login.html:6
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Om du mistenkjer at nokon prøver å få tilgang til kontoen din, <a %(passwordChangeLinkAttributes)s>må du endra passordet ditt</a>."
 
 #: templates/verify_login.txt:4
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr ""
+msgstr "Om du mistenkjer at nokon prøver å få tilgang til kontoen din, må du endra passordet ditt."
 
 #: mailer.js:179
 msgid "Verify your Firefox Account"
@@ -323,7 +327,7 @@ msgstr "Passordet til Firefox-kontoen din er endra"
 
 #: mailer.js:349
 msgid "Firefox Account password reset required"
-msgstr ""
+msgstr "Tilbakestilling av passord for Firefox-kontoen er påkravd"
 
 #: mailer.js:404
 msgid "Firefox Account Verified"
@@ -331,7 +335,7 @@ msgstr "Firefox-kontoen stadfesta"
 
 #: mailer.js:440
 msgid "Suspicious activity with your Firefox Account"
-msgstr ""
+msgstr "Mistenkjeleg aktivitet på Firefox-kontoen din"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -339,7 +343,7 @@ msgstr "Fann ikkje sida"
 
 #: server/templates/pages/src/404.html:3
 msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
-msgstr ""
+msgstr "Fann ikkje sida du spurde etter. Vi er varsla og vil reparera lenker som ikkje fungerar."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -351,7 +355,7 @@ msgstr "Feil 500"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr ""
+msgstr "Å nei, noko gjekk gale. Vi har blitt informert, og vil gå i gang med å finna ei løysing."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -363,11 +367,11 @@ msgstr "Tenaren er opptatt. Prøv igjen seinare"
 
 #: server/templates/pages/src/503.html:3
 msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
-msgstr ""
+msgstr "Vi er for tida overbelsata, men arbeider på spreng for at systemet snarast råd skal fungera som normalt igjen."
 
 #: server/templates/pages/src/index.html:2 server/templates/pages/src/privacy.html:5 server/templates/pages/src/terms.html:5
 msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr ""
+msgstr "Du brukar ein <strong>utdatert</strong> nettlesar. Ver snill og <a href=\"http://browsehappy.com/\">oppgrader nettlesaren din</a> for å forbetra opplevinga di."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
