@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-01 13:33+0000\n"
-"PO-Revision-Date: 2016-05-31 17:59+0000\n"
+"PO-Revision-Date: 2016-06-05 12:45+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -350,11 +350,11 @@ msgstr "Virheellinen ominaisuus jatkamistunnisteessa: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:274
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "Virheellinen data-attribuutti: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:278
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "Puuttuva data-attribuutti: %(property)s"
 
 #: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -425,11 +425,8 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync -palvelu"
 
 #: app/scripts/lib/strings.js:18
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Jatkamalla hyväksyt palvelun %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">käyttöehdot</a> ja <a id=\"service-pp\" href=\"%(privacyUri)s\">tietosuojakäytännön</a>."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Jatkamalla hyväksyt palvelun %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">käyttöehdot</a> ja <a id=\"service-pp\" href=\"%(privacyUri)s\">tietosuojakäytännön</a>."
 
 #: app/scripts/lib/strings.js:26
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -850,7 +847,7 @@ msgstr "Onko sinulla jo tili? Kirjaudu sisään."
 #: app/scripts/templates/settings/change_password.mustache:10 app/scripts/templates/settings/communication_preferences.mustache:4 app/scripts/templates/settings/display_name.mustache:2
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Change"
-msgstr "Muuta"
+msgstr "Vaihda"
 
 #: app/scripts/templates/settings/avatar.mustache:4
 msgid "Add"
@@ -930,11 +927,11 @@ msgstr "Laitteet"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox on saatavilla <a href=\"%(linkWindows)s\">Windowsille</a>, <a href=\"%(linkOSX)s\">OS X:lle</a>, <a href=\"%(linkAndroid)s\">Androidille</a>, <a href=\"%(linkIOS)s\">iOS:lle</a> ja <a href="
-"\"%(linkLinux)s\">Linuxille</a>."
+"Firefox on saatavilla <a href=\"%(linkWindows)s\">Windowsille</a>, <a href=\"%(linkOSX)s\">OS X:lle</a>, <a href=\"%(linkAndroid)s\">Androidille</a>, <a href=\"%(linkIOS)s\">iOS:lle</a> ja <a "
+"href=\"%(linkLinux)s\">Linuxille</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
