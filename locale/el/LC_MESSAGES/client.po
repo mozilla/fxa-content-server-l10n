@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-01 13:33+0000\n"
-"PO-Revision-Date: 2016-06-03 07:14+0000\n"
+"PO-Revision-Date: 2016-06-03 16:02+0000\n"
 "Last-Translator: Alfredos-Panagiotis Damkalis <fredy@fredy.gr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -169,7 +169,7 @@ msgstr "Μη έγκυρη χρονοσήμανση στην υπογραφή τ�
 
 #: app/scripts/lib/auth-errors.js:37
 msgid "Invalid nonce in request signature"
-msgstr "Μη έγκυρος περιστασιακός αριθμός στην υπογραφή του αιτήματος"
+msgstr "Μη έγκυρος αριθμός μιας χρήσης στην υπογραφή του αιτήματος"
 
 #: app/scripts/lib/auth-errors.js:41
 msgid "Account already exists"
