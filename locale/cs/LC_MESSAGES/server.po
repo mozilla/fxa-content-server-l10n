@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-01 13:33+0000\n"
-"PO-Revision-Date: 2016-05-23 15:42+0000\n"
+"PO-Revision-Date: 2016-06-06 07:10+0000\n"
 "Last-Translator: Tomáš Zelina <zelitomas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -94,7 +94,7 @@ msgstr "Heslo vašeho účtu Firefox Account bylo úspěšně změněno."
 
 #: templates/password_changed.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr ""
+msgstr "Toto je automatický e-mail; pokud jste tuto akci neschválili, <a %(resetLinkAttributes)s>obnovte si prosím heslo</a>."
 
 #: templates/password_changed.txt:3
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
@@ -106,7 +106,7 @@ msgstr "Vaše heslo bylo obnoveno"
 
 #: templates/password_reset.html:3
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+msgstr "Heslo k vašemu účtu Firefox Accounts bylo změněno. Pokud jste jej neměnili, okamžitě si prosím <a %(resetLinkAttributes)s>obnovte své heslo</a>."
 
 #: templates/password_reset.html:4 templates/post_verify.html:6 templates/post_verify.txt:4 templates/reset.html:7 templates/reset.txt:5 templates/unlock.html:6 templates/unlock.txt:3
 #: templates/verification_reminder_first.html:6 templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:6 templates/verification_reminder_second.txt:4
@@ -170,6 +170,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
+"Úspěšně jste připojili své první zařízení k účtu Firefox Accounts. Nyní se můžete přihlásit ke službě Sync i z dalších svých zařízení, včetně Firefoxu pro <a %(androidLinkAttributes)s>Android</a> "
+"nebo <a %(iosLinkAttributes)s>iOS</a>."
 
 #: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
 #: templates/verify_login.html:5
