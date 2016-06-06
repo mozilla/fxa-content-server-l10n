@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-01 13:33+0000\n"
-"PO-Revision-Date: 2016-06-06 16:02+0000\n"
+"PO-Revision-Date: 2016-06-06 16:24+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -57,7 +57,7 @@ msgstr "تسجيل دخول جديد لفَيَرفٌكس"
 
 #: templates/new_device_login.html:3
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr "هذا بريد إلكتروني الآلي، إذا كان غير مسموح لهذا الإجراء <a %(passwordChangeLinkAttributes)s>فرجاءً غير كلمة السرّ الخاصة بك</a>."
+msgstr "هذا بريد إلكتروني الآلي، إذا كان غير مسموح لهذا الإجراء، فرجاءً <a %(passwordChangeLinkAttributes)s>غير كلمة السرّ الخاصة بك</a>."
 
 #: templates/new_device_login.html:4 templates/password_changed.html:5 templates/password_reset.html:5 templates/post_verify.html:7 templates/reset.html:8 templates/unlock.html:7
 #: templates/verification_reminder_first.html:7 templates/verification_reminder_second.html:7 templates/verify.html:7
@@ -91,7 +91,7 @@ msgstr "غُيّرت كلمة السرّ الخاصة بحساب فَيَرفُ�
 
 #: templates/password_changed.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr ""
+msgstr "هذا بريد إلكتروني الآلي، إذا كان غير مسموح لهذا الإجراء، فرجاءً <a %(passwordChangeLinkAttributes)s>إعادة تعيين كلمة السرّ الخاصة بك</a>."
 
 #: templates/password_changed.txt:3
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
@@ -103,7 +103,7 @@ msgstr "تم إعادة تعيين كلمة السرّ الخاصة بك"
 
 #: templates/password_reset.html:3
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+msgstr "غُيّرت كلمة السرّ الخاصة بحساب فَيَرفُكس. إذا لم تقم بتغيرها، فرجاءً <a %(resetLinkAttributes)s>إعادة تعيين كلمة السرّ الخاصة بك</a> الآن."
 
 #: templates/password_reset.html:4 templates/post_verify.html:6 templates/post_verify.txt:4 templates/reset.html:7 templates/reset.txt:5 templates/unlock.html:6 templates/unlock.txt:3
 #: templates/verification_reminder_first.html:6 templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:6 templates/verification_reminder_second.txt:4
@@ -165,6 +165,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
+"اِتَّصَلَ جهازك الأول بحساب فَيَرفُكس الخاص بك بنجاح. الآن يمكنك تسجيل الدخول إلى المزامنة من أجهزتك الأخري بما في ذلك فَيَرفُكس للـ <a %(androidLinkAttributes)s>أندرويد</a> و <a "
+"%(iosLinkAttributes)s>آي أو إس</a>."
 
 #: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
 #: templates/verify_login.html:5
@@ -268,7 +270,7 @@ msgstr "فعّل الآن:"
 
 #: templates/verification_reminder_second.html:3 templates/verification_reminder_second.txt:2
 msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
+msgstr "أنشأت حساب فَيَرفُكس قبل عدة أسابيع و لم تأكّده. هل هناك خطب ما! ببساطة أكّد عنوان البريد الإلكتروني هذا لتفعيل حسابك."
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
@@ -288,11 +290,11 @@ msgstr "أكّد تسجيل الدخول"
 
 #: templates/verify_login.html:6
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "إذا كنت تظن أن شخصا أخر يحاول الوصول إلي حسابك، فرجاءً <a %(passwordChangeLinkAttributes)s>غير كلمة السرّ الخاصة بك</a>."
 
 #: templates/verify_login.txt:4
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr ""
+msgstr "إذا كنت تظن أن شخصا أخر يحاول الوصول إلي حسابك، فرجاءً غير كلمة السرّ الخاصة بك."
 
 #: mailer.js:179
 msgid "Verify your Firefox Account"
