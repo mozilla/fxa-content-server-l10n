@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-01 13:33+0000\n"
-"PO-Revision-Date: 2016-06-07 12:02+0000\n"
+"PO-Revision-Date: 2016-06-07 12:04+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -167,6 +167,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
+"Coneutesti con ésitu'l to primer preséu a la cuenta Firefox. Agora pues aniciar sesión en Sync dende otros preseos de to, incluyendo Firefox p'<a %(androidLinkAttributes)s>Android</a> ya <a "
+"%(iosLinkAttributes)s>iOS</a>."
 
 #: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
 #: templates/verify_login.html:5
