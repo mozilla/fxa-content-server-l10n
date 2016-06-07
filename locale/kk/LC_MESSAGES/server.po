@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-01 13:33+0000\n"
-"PO-Revision-Date: 2016-06-03 04:08+0000\n"
+"PO-Revision-Date: 2016-06-07 03:53+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -93,7 +93,7 @@ msgstr "Сіздің Firefox тіркелгісі паролі сәтті өзг
 
 #: templates/password_changed.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr ""
+msgstr "Бұл автоматтандырылған эл. пошта хаты; егер сіз осы әрекетті сұрамаған болсаңыз, онда <a %(resetLinkAttributes)s>пароліңізді тастаңыз</a>."
 
 #: templates/password_changed.txt:3
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
@@ -105,7 +105,7 @@ msgstr "Пароліңіз тасталды"
 
 #: templates/password_reset.html:3
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+msgstr "Сіздің Firefox тіркелгіңіздің паролі өзгертілген. Егер сіз оны өзгертпеген болсаңыз, онда дәл қазір <a %(resetLinkAttributes)s>пароліңізді тастаңыз</a>."
 
 #: templates/password_reset.html:4 templates/post_verify.html:6 templates/post_verify.txt:4 templates/reset.html:7 templates/reset.txt:5 templates/unlock.html:6 templates/unlock.txt:3
 #: templates/verification_reminder_first.html:6 templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:6 templates/verification_reminder_second.txt:4
@@ -168,6 +168,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
+"Сіз сәтті түрде бірінші құрылғыңызды өз Firefox тіркелгіңізге байланыстырдыңыз. Енді сіз синхрондауға басқа құрылғыларыңыздан да кіре аласыз, соның ішінде <a %(androidLinkAttributes)s>Android</a> "
+"үшін және <a %(iosLinkAttributes)s>iOS</a> үшін Firefox нұсқалары."
 
 #: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
 #: templates/verify_login.html:5
@@ -217,15 +219,15 @@ msgstr "Орналасуы:"
 
 #: templates/suspicious_location.html:6 templates/suspicious_location.txt:5
 msgid "If you don’t recognize the activity above:"
-msgstr ""
+msgstr "Жоғарыдағы белсенділікті танымасаңыз:"
 
 #: templates/suspicious_location.html:10 templates/suspicious_location.txt:9
 msgid "Why are you receiving this email?"
-msgstr ""
+msgstr "Сіз бұл хатты неге алдыңыз?"
 
 #: templates/suspicious_location.html:11 templates/suspicious_location.txt:10
 msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
-msgstr ""
+msgstr "Жуырда біз Firefox тіркелгіңізге әдеттегіден тыс жерлерден кіру жасалғанын байқадық. Сізге алдын алу мақсатымен хабарластық."
 
 #: templates/unlock.html:2
 msgid "Account activity notice"
@@ -274,6 +276,8 @@ msgstr "Қазір белсендіру:"
 #: templates/verification_reminder_second.html:3 templates/verification_reminder_second.txt:2
 msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 msgstr ""
+"Бір апта бұрын сіз Firefox тіркелгісін жасап, оны растамағансыз. Сіз туралы уайымдаймыз. Бұл эл. пошта адресін тіркелгіңізді белсендіру және бізге сіздің қалып-күйіңізді жақсы екенін білдірту "
+"мақсатында растаңыз."
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
@@ -293,7 +297,7 @@ msgstr "Кіруді растау"
 
 #: templates/verify_login.html:6
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Егер сіздің тіркелгіңізге біреу қолың жеткізгісі келіп жүр деген күмәніңіз бар болса, <a %(passwordChangeLinkAttributes)s>пароліңізді өзгертіңіз</a>."
 
 #: templates/verify_login.txt:4
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
