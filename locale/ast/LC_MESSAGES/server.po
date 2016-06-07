@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-01 13:33+0000\n"
-"PO-Revision-Date: 2016-05-19 21:56+0000\n"
+"PO-Revision-Date: 2016-06-07 12:02+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -32,8 +32,8 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr "Coneutesti con ésitu'l to primer preséu a la cuenta de Firefox. P'aprovechar al máximu Sync, coneuta <a href='%(androidUrl)s'>Firefox p'Android</a> o <a href='%(iosUrl)s'>Firefox pa iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
@@ -91,7 +91,7 @@ msgstr "Camudóse con ésitu la contraseña de la to cuenta de Firefox."
 
 #: templates/password_changed.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr ""
+msgstr "Esto ye un corréu automatizáu; Si nun autoricesti esta aición, entós <a %(resetLinkAttributes)s>reanicia la to contraseña, por favor</a>."
 
 #: templates/password_changed.txt:3
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
@@ -103,7 +103,7 @@ msgstr "Reaniciesti la to contraseña"
 
 #: templates/password_reset.html:3
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+msgstr "Camudóse la contraseña de la to cuenta Firefox, Si nun la camudesti, por favor <a %(resetLinkAttributes)s>reanicia la to contraseña</a> agora."
 
 #: templates/password_reset.html:4 templates/post_verify.html:6 templates/post_verify.txt:4 templates/reset.html:7 templates/reset.txt:5 templates/unlock.html:6 templates/unlock.txt:3
 #: templates/verification_reminder_first.html:6 templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:6 templates/verification_reminder_second.txt:4
@@ -248,8 +248,8 @@ msgstr "Hola de nueves."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 "Hai dellos díes creasti una cuenta de Firefox pero enxamás nun la verifiquesti. Una cuenta verificada déxate acceder a les tos llingüetes, marcadores, contraseñes ya hisotria en cualesquier preséu "
 "coneutáu con ello. Namái confirma esta direición p'activar la to cuenta."
