@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-01 13:33+0000\n"
-"PO-Revision-Date: 2016-06-07 03:53+0000\n"
+"PO-Revision-Date: 2016-06-07 04:10+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -301,7 +301,7 @@ msgstr "Егер сіздің тіркелгіңізге біреу қолың �
 
 #: templates/verify_login.txt:4
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr ""
+msgstr "Егер сіздің тіркелгіңізге біреу қолың жеткізгісі келіп жүр деген күмәніңіз бар болса, пароліңізді өзгертіңіз."
 
 #: mailer.js:179
 msgid "Verify your Firefox Account"
@@ -309,7 +309,7 @@ msgstr "Firefox тіркелгіңізді растаңыз"
 
 #: mailer.js:217
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
+msgstr "Firefox-қа жаңа кіруді растаңыз"
 
 #: mailer.js:252
 msgid "Reset your Firefox Account password"
