@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-01 13:33+0000\n"
-"PO-Revision-Date: 2016-06-07 19:49+0000\n"
-"Last-Translator: Marco Aurélio <fxhelp@yahoo.com>\n"
+"PO-Revision-Date: 2016-06-09 19:47+0000\n"
+"Last-Translator: Wolfgang Marcos <wolfgang@alcateia.eti.br>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -106,7 +106,7 @@ msgstr "Sua senha foi redefinida"
 
 #: templates/password_reset.html:3
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+msgstr "A senha da sua Conta do Firefox foi alterada. Se você não realizou esta alteração, por favor <a %(resetLinkAttributes)s>altere sua senha </a> agora."
 
 #: templates/password_reset.html:4 templates/post_verify.html:6 templates/post_verify.txt:4 templates/reset.html:7 templates/reset.txt:5 templates/unlock.html:6 templates/unlock.txt:3
 #: templates/verification_reminder_first.html:6 templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:6 templates/verification_reminder_second.txt:4
@@ -169,6 +169,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
+"Você conectou com sucesso o seu primeiro dispositivo à sua Conta do Firefox. Agora você pode usar o Sync em outros dispositivos, incluindo o Firefox para <a %(androidLinkAttributes)s>Android</a> e "
+"<a %(iosLinkAttributes)s>iOS</a>."
 
 #: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
 #: templates/verify_login.html:5
