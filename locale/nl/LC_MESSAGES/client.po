@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-01 13:33+0000\n"
-"PO-Revision-Date: 2016-06-01 15:11+0000\n"
+"PO-Revision-Date: 2016-06-10 20:35+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -662,7 +662,7 @@ msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr "Herinitialisatiebericht verzonden"
+msgstr "E-mailbericht voor herinitialisatie verzonden"
 
 #: app/scripts/templates/confirm_reset_password.mustache:4
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
