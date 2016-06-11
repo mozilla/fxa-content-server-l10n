@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-01 13:33+0000\n"
-"PO-Revision-Date: 2016-06-11 08:02+0000\n"
+"PO-Revision-Date: 2016-06-11 08:04+0000\n"
 "Last-Translator: xcffl <xcffl@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -593,7 +593,7 @@ msgstr "您点击的重置密码链接已过期。"
 
 #: app/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr "点击这里接收一个新的重置链接"
+msgstr "点击这里接收新的重置链接"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
 msgid "Reset password link damaged"
@@ -635,7 +635,7 @@ msgstr "验证链接已过期"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
 msgid "Click here to receive a new verification link"
-msgstr "点击这里接收一个新的验证链接"
+msgstr "点击这里接收新的验证链接"
 
 #: app/scripts/templates/complete_sign_up.mustache:10
 msgid "Verification error"
@@ -663,7 +663,7 @@ msgstr "已发送重置邮件"
 
 #: app/scripts/templates/confirm_reset_password.mustache:4
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-msgstr "在一小时内点击我们发到 %(email)s 的链接，然后创建一个新密码。"
+msgstr "在一小时内点击我们发到 %(email)s 的链接，然后设置一个新密码。"
 
 #: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7 app/scripts/templates/reset_password.mustache:7
 #: app/scripts/templates/reset_password.mustache:9
@@ -888,7 +888,7 @@ msgstr "保存"
 
 #: app/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "在您操作完成之后，使用您的新密码登录您的所有设备。"
+msgstr "完成操作后，您就能在您的所有设备上使用新密码登录了。"
 
 #: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
