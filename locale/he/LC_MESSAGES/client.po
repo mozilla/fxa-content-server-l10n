@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-01 13:33+0000\n"
-"PO-Revision-Date: 2016-06-13 07:35+0000\n"
+"PO-Revision-Date: 2016-06-13 20:56+0000\n"
 "Last-Translator: Tomer Cohen <tomer.mozilla@tomercohen.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -310,7 +310,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:226 app/scripts/templates/complete_account_unlock.mustache:2 app/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
-msgstr ""
+msgstr "פג תוקפו של הקישור עליו לחצת לאימות כתובת הדוא״ל שלך."
 
 #: app/scripts/lib/auth-errors.js:230 app/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
@@ -338,7 +338,7 @@ msgstr "לא נמצא Gravatar"
 
 #: app/scripts/lib/auth-errors.js:262
 msgid "Account no longer exists."
-msgstr ""
+msgstr "החשבון כבר לא קיים."
 
 #: app/scripts/lib/auth-errors.js:266
 msgid "Invalid property in resume token: %(property)s"
@@ -450,7 +450,7 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:33
 msgid "Alternatively:"
-msgstr ""
+msgstr "לחלופין:"
 
 #: app/scripts/lib/strings.js:34
 msgid "This is an automated email; if you received it in error, no action is required."
@@ -462,7 +462,7 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:36
 msgid "Verify Email"
-msgstr ""
+msgstr "אימות כתובת דוא״ל"
 
 #: app/scripts/lib/strings.js:37
 msgid "Verify your email to finish your Firefox Account sign-in"
@@ -491,7 +491,7 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:43 app/scripts/templates/confirm.mustache:5
 msgid "Open Gmail"
-msgstr ""
+msgstr "פתיחת Gmail"
 
 #: app/scripts/lib/strings.js:44 app/scripts/templates/confirm.mustache:7 app/scripts/templates/confirm_account_unlock.mustache:6 app/scripts/templates/confirm_reset_password.mustache:9
 msgid "Resend email"
@@ -512,7 +512,7 @@ msgstr ""
 
 #: app/scripts/templates/500.mustache:1
 msgid "500 Error"
-msgstr ""
+msgstr "שגיאה 500"
 
 #: app/scripts/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
@@ -544,7 +544,7 @@ msgstr "סימניות"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
-msgstr ""
+msgstr "תוספות"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:8
 msgid "Passwords"
@@ -556,7 +556,7 @@ msgstr "היסטוריה"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Preferences"
-msgstr ""
+msgstr "העדפות"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
@@ -564,7 +564,7 @@ msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
-msgstr ""
+msgstr "שמירת הגדרות"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
@@ -600,7 +600,7 @@ msgstr "קישור לאיפוס ססמה פגום"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 msgid "Enter new password"
-msgstr ""
+msgstr "הכנסת ססמה חדשה"
 
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
@@ -608,7 +608,7 @@ msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:11 app/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
-msgstr ""
+msgstr "מידע על אופן העבודה של Sync."
 
 #: app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "New password"
@@ -667,7 +667,7 @@ msgstr ""
 #: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7 app/scripts/templates/reset_password.mustache:7
 #: app/scripts/templates/reset_password.mustache:9
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "ססמתך ידוע לך? ניתן להתחבר מכאן."
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -773,7 +773,7 @@ msgstr "הצלחה"
 
 #: app/scripts/templates/ready.mustache:2
 msgid "Sync preferences"
-msgstr ""
+msgstr "העדפות סנכרון"
 
 #: app/scripts/templates/ready.mustache:6
 msgid "Proceed"
@@ -785,7 +785,7 @@ msgstr "החשבון מוכן!"
 
 #: app/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
-msgstr ""
+msgstr "שכחתי את הססמה"
 
 #: app/scripts/templates/reset_password.mustache:2
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
@@ -837,7 +837,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:24
 msgid "Create account"
-msgstr ""
+msgstr "יצירת חשבון"
 
 #: app/scripts/templates/sign_up.mustache:29
 msgid "Have an account? Sign in."
@@ -923,7 +923,7 @@ msgstr "האם אתה בטוח שברצונך למחוק את חשבונך? פע
 
 #: app/scripts/templates/settings/devices.mustache:2
 msgid "Devices"
-msgstr ""
+msgstr "התקנים"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
@@ -937,19 +937,19 @@ msgstr ""
 
 #: app/scripts/templates/settings/devices.mustache:6
 msgid "(current)"
-msgstr ""
+msgstr "(נוכחי)"
 
 #: app/scripts/templates/settings/devices.mustache:8
 msgid "Disconnect"
-msgstr ""
+msgstr "התנתקות"
 
 #: app/scripts/templates/settings/devices.mustache:10
 msgid "Don't see all your devices?"
-msgstr ""
+msgstr "אינך רואה את כל ההתקנים שלך?"
 
 #: app/scripts/templates/settings/devices.mustache:11
 msgid "Refresh"
-msgstr ""
+msgstr "רענון"
 
 #: app/scripts/templates/settings/display_name.mustache:3
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -961,7 +961,7 @@ msgstr "מהו גילך?"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "התחברות אל Sync"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."

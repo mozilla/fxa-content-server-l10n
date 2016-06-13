@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-01 13:33+0000\n"
-"PO-Revision-Date: 2016-06-13 07:33+0000\n"
+"PO-Revision-Date: 2016-06-13 20:53+0000\n"
 "Last-Translator: Tomer Cohen <tomer.mozilla@tomercohen.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -21,7 +21,7 @@ msgstr "עדיין פה?"
 
 #: templates/_pending.txt:2
 msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
-msgstr ""
+msgstr "לפני זמן מה יצרת חשבון Firefox, אך מעולם לא אימתת אותו. הקש על הקישור שלמטה להפעלת החשבון שלך."
 
 #: templates/_pending.txt:3
 msgid ""
@@ -37,7 +37,7 @@ msgstr ""
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "חיבור התקן אחר"
 
 #: templates/_pending.txt:6
 msgid "Sign in to Sync"
@@ -69,7 +69,7 @@ msgstr ""
 #: templates/verification_reminder_first.txt:6 templates/verification_reminder_second.html:8 templates/verification_reminder_second.txt:6 templates/verify.html:8 templates/verify.txt:6
 #: templates/verify_login.html:7 templates/verify_login.txt:5
 msgid "Mozilla Privacy Policy"
-msgstr ""
+msgstr "מדיניות הפרטיות של Mozilla"
 
 #: templates/new_device_login.txt:2
 msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(resetLink)s."
@@ -157,7 +157,7 @@ msgstr ""
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
-msgstr ""
+msgstr "החשבון אומת!"
 
 #: templates/post_verify.html:3
 msgid ""
@@ -168,7 +168,7 @@ msgstr ""
 #: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
 #: templates/verify_login.html:5
 msgid "Alternatively:"
-msgstr ""
+msgstr "לחלופין:"
 
 #: templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
@@ -176,15 +176,15 @@ msgstr ""
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr ""
+msgstr "התחברות אל Sync:"
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Forgot your password?"
-msgstr ""
+msgstr "ססמתך נשכחה?"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account."
-msgstr ""
+msgstr "לחץ על הכפתור בשעה הקרובה כדי להגדיר ססמה חדשה עבור חשבון ה-Firefox שלך."
 
 #: templates/reset.html:4 templates/reset.txt:3
 msgid "Remember password? Sign in."
@@ -232,15 +232,15 @@ msgstr ""
 
 #: templates/unlock.html:4
 msgid "Verify account"
-msgstr ""
+msgstr "אימות חשבון"
 
 #: templates/unlock.txt:2
 msgid "Verify account:"
-msgstr ""
+msgstr "אימות חשבון:"
 
 #: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:452
 msgid "Hello again."
-msgstr ""
+msgstr "שלומות!"
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
@@ -254,7 +254,7 @@ msgstr ""
 
 #: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9
 msgid "Verify Email"
-msgstr ""
+msgstr "אימות דוא״ל"
 
 #: templates/verification_reminder_first.html:10 templates/verification_reminder_second.html:10 templates/verify.html:10
 msgid "Verify your email to finish your Firefox Account registration"
@@ -270,11 +270,11 @@ msgstr ""
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
-msgstr ""
+msgstr "ברוכים הבאים!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "עליך להפעיל את חשבונך באמצעות אישור כתובת דוא״ל זו."
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in to begin syncing with %(device)s."
@@ -302,11 +302,11 @@ msgstr ""
 
 #: mailer.js:252
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "איפוס ססמת חשבון ה־Firefox שלך"
 
 #: mailer.js:286
 msgid "Re-verify your Firefox Account"
-msgstr ""
+msgstr "אימות חוזר של חשבון ה־Firefox שלך"
 
 #: mailer.js:307
 msgid "Your Firefox Account password has been changed"
@@ -322,11 +322,11 @@ msgstr ""
 
 #: mailer.js:404
 msgid "Firefox Account Verified"
-msgstr ""
+msgstr "חשבון ה־Firefox אומת"
 
 #: mailer.js:440
 msgid "Suspicious activity with your Firefox Account"
-msgstr ""
+msgstr "פעילות חשודה בחשבון ה־Firefox שלך"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -342,7 +342,7 @@ msgstr "בית"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr ""
+msgstr "שגיאה 500"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
@@ -350,7 +350,7 @@ msgstr ""
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "שגיאה 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
