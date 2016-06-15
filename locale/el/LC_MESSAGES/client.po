@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-01 13:33+0000\n"
-"PO-Revision-Date: 2016-06-03 16:02+0000\n"
-"Last-Translator: Alfredos-Panagiotis Damkalis <fredy@fredy.gr>\n"
+"PO-Revision-Date: 2016-06-12 13:41+0000\n"
+"Last-Translator: Jim Spentzos <jamesspentzos@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
@@ -148,7 +148,7 @@ msgstr ""
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/templates/reset_password.mustache:6
 msgid "Reset password"
-msgstr ""
+msgstr "Επαναφορά κωδικού πρόσβασης"
 
 #: app/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
