@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-01 13:33+0000\n"
+"POT-Creation-Date: 2016-06-20 17:00+0000\n"
 "PO-Revision-Date: 2016-05-30 09:22+0000\n"
 "Last-Translator: Ian Neal <iann_bugzilla@blueyonder.co.uk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:102 app/scripts/views/confirm.js:112 app/scripts/views/confirm_reset_password.js:184
+#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:126 app/scripts/views/confirm.js:139 app/scripts/views/confirm_reset_password.js:184
 msgid "Account verified successfully"
 msgstr "Account verified successfully"
 
@@ -22,7 +22,7 @@ msgstr "Account verified successfully"
 msgid "Account unlocked, please try again"
 msgstr "Account unlocked, please try again"
 
-#: app/scripts/views/confirm_reset_password.js:174 app/scripts/views/ready.js:48
+#: app/scripts/views/confirm_reset_password.js:174 app/scripts/views/ready.js:49
 msgid "Password reset"
 msgstr "Password reset"
 
@@ -30,51 +30,51 @@ msgstr "Password reset"
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Password reset successfully. Sign in to continue."
 
-#: app/scripts/views/permissions.js:25
+#: app/scripts/views/permissions.js:26
 msgid "%(permissionName)s (required)"
 msgstr "%(permissionName)s (required)"
 
-#: app/scripts/views/permissions.js:31
+#: app/scripts/views/permissions.js:32
 msgid "Email address"
 msgstr "Email address"
 
-#: app/scripts/views/permissions.js:36 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:4
+#: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:4
 msgid "Display name"
 msgstr "Display name"
 
-#: app/scripts/views/permissions.js:40 app/scripts/templates/settings/avatar.mustache:1
+#: app/scripts/views/permissions.js:41 app/scripts/templates/settings/avatar.mustache:1
 msgid "Account picture"
 msgstr "Account picture"
 
-#: app/scripts/views/ready.js:29
+#: app/scripts/views/ready.js:30
 msgid "Firefox Sync will begin momentarily"
 msgstr "Firefox Sync will begin momentarily"
 
-#: app/scripts/views/ready.js:38
+#: app/scripts/views/ready.js:39
 msgid "Account unlocked"
 msgstr "Account unlocked"
 
-#: app/scripts/views/ready.js:43
+#: app/scripts/views/ready.js:44
 msgid "Welcome back"
 msgstr "Welcome back"
 
-#: app/scripts/views/ready.js:44
+#: app/scripts/views/ready.js:45
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync will resume momentarily"
 
-#: app/scripts/views/ready.js:54
-msgid "Welcome to Sync"
-msgstr "Welcome to Sync"
+#: app/scripts/views/ready.js:55 app/scripts/lib/strings.js:46
+msgid "Sign-in confirmed"
+msgstr "Sign-in confirmed"
 
-#: app/scripts/views/ready.js:59
-msgid "Account verified"
-msgstr "Account verified"
-
-#: app/scripts/views/ready.js:60 app/scripts/lib/strings.js:47 app/scripts/templates/ready.mustache:5
+#: app/scripts/views/ready.js:56 app/scripts/views/ready.js:61 app/scripts/lib/strings.js:47 app/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
 msgstr "You are now ready to use %(serviceName)s"
 
-#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:157
+#: app/scripts/views/ready.js:60
+msgid "Account verified"
+msgstr "Account verified"
+
+#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:158
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Unknown account. <a href=\"/signup\">Sign up</a>"
 
@@ -82,7 +82,7 @@ msgstr "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "Account no longer exists. Recreate it?"
 
-#: app/scripts/views/sign_up.js:398
+#: app/scripts/views/sign_up.js:386
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Account already exists. <a href=\"/signin\">Sign in</a>"
 
@@ -90,7 +90,7 @@ msgstr "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
-#: app/scripts/views/settings/change_password.js:46
+#: app/scripts/views/settings/change_password.js:47
 msgid "Password changed successfully"
 msgstr "Password changed successfully"
 
@@ -475,39 +475,40 @@ msgstr "Verify your email to finish your Firefox Account sign-in"
 msgid "Confirm sign-in"
 msgstr "Confirm sign-in"
 
-#: app/scripts/lib/strings.js:39
+#: app/scripts/lib/strings.js:39 app/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
 msgstr "Confirm this sign-in"
 
-#: app/scripts/lib/strings.js:40 app/scripts/templates/complete_reset_password.mustache:2 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/templates/confirm.mustache:2
+#: app/scripts/lib/strings.js:40 app/scripts/templates/complete_reset_password.mustache:2 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/templates/confirm.mustache:5
 #: app/scripts/templates/confirm_account_unlock.mustache:2 app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email resent"
 msgstr "Email resent"
 
-#: app/scripts/lib/strings.js:41 app/scripts/templates/confirm.mustache:3 app/scripts/templates/confirm_account_unlock.mustache:3 app/scripts/templates/confirm_reset_password.mustache:3
+#: app/scripts/lib/strings.js:41 app/scripts/templates/confirm.mustache:6 app/scripts/templates/confirm_account_unlock.mustache:3 app/scripts/templates/confirm_reset_password.mustache:3
 msgid "Email Sent"
 msgstr "Email Sent"
 
-#: app/scripts/lib/strings.js:42
+#: app/scripts/lib/strings.js:42 app/scripts/templates/confirm.mustache:9
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
 msgstr "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
 
-#: app/scripts/lib/strings.js:43 app/scripts/templates/confirm.mustache:5
+#: app/scripts/lib/strings.js:43 app/scripts/templates/confirm.mustache:11
 msgid "Open Gmail"
 msgstr "Open Gmail"
 
-#: app/scripts/lib/strings.js:44 app/scripts/templates/confirm.mustache:7 app/scripts/templates/confirm_account_unlock.mustache:6 app/scripts/templates/confirm_reset_password.mustache:9
+#: app/scripts/lib/strings.js:44 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm.mustache:15 app/scripts/templates/confirm_account_unlock.mustache:6
+#: app/scripts/templates/confirm_reset_password.mustache:9
 msgid "Resend email"
 msgstr "Resend email"
 
-#: app/scripts/lib/strings.js:45 app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm_account_unlock.mustache:5 app/scripts/templates/pp.mustache:3
-#: app/scripts/templates/tos.mustache:3
+#: app/scripts/lib/strings.js:45 app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:14 app/scripts/templates/confirm_account_unlock.mustache:5
+#: app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Back"
 
-#: app/scripts/lib/strings.js:46
-msgid "Sign-in confirmed"
-msgstr "Sign-in confirmed"
+#: app/scripts/lib/strings.js:51
+msgid "Get the latest news about Mozilla and Firefox."
+msgstr "Get the latest news about Mozilla and Firefox."
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
@@ -533,7 +534,7 @@ msgstr "You must meet certain age requirements to create a Firefox&nbsp;Account.
 msgid "Learn more."
 msgstr "Learn more."
 
-#: app/scripts/templates/choose_what_to_sync.mustache:1 app/scripts/templates/sign_up.mustache:21 app/scripts/templates/sign_up.mustache:26
+#: app/scripts/templates/choose_what_to_sync.mustache:1 app/scripts/templates/sign_up.mustache:22
 msgid "Choose what to sync"
 msgstr "Choose what to synchronise"
 
@@ -647,7 +648,7 @@ msgstr "Verification error"
 msgid "Confirm your account"
 msgstr "Confirm your account"
 
-#: app/scripts/templates/confirm.mustache:4
+#: app/scripts/templates/confirm.mustache:7
 msgid "A verification link has been sent&nbsp;to %(email)s"
 msgstr "A verification link has been sent&nbsp;to %(email)s"
 
@@ -835,14 +836,14 @@ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in
 msgstr "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 
 #: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/settings/communication_preferences.mustache:7
-msgid "Get the latest news about Mozilla and Firefox."
-msgstr "Get the latest news about Mozilla and Firefox."
+msgid "Send me the monthly Firefox newsletter."
+msgstr ""
 
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:20
 msgid "Create account"
 msgstr "Create account"
 
-#: app/scripts/templates/sign_up.mustache:29
+#: app/scripts/templates/sign_up.mustache:25
 msgid "Have an account? Sign in."
 msgstr "Have an account? Sign in."
 
@@ -979,6 +980,9 @@ msgstr "Use OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Use Firefox Account"
+
+#~ msgid "Welcome to Sync"
+#~ msgstr "Welcome to Sync"
 
 #~ msgid "Invalid data-flow-begin attribute"
 #~ msgstr "Invalid data-flow-begin attribute"

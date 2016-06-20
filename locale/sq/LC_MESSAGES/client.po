@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-01 13:33+0000\n"
+"POT-Creation-Date: 2016-06-20 17:00+0000\n"
 "PO-Revision-Date: 2016-06-04 21:29+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1422478993.0\n"
 
-#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:102 app/scripts/views/confirm.js:112 app/scripts/views/confirm_reset_password.js:184
+#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:126 app/scripts/views/confirm.js:139 app/scripts/views/confirm_reset_password.js:184
 msgid "Account verified successfully"
 msgstr "Llogaria u verifikua me sukses"
 
@@ -23,7 +23,7 @@ msgstr "Llogaria u verifikua me sukses"
 msgid "Account unlocked, please try again"
 msgstr "Llogari e shkyçur, ju lutemi, riprovoni"
 
-#: app/scripts/views/confirm_reset_password.js:174 app/scripts/views/ready.js:48
+#: app/scripts/views/confirm_reset_password.js:174 app/scripts/views/ready.js:49
 msgid "Password reset"
 msgstr "Ricaktim fjalëkalimi"
 
@@ -31,51 +31,51 @@ msgstr "Ricaktim fjalëkalimi"
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Fjalëkalimi u ricaktua me sukses. Hyni që të vazhdoni."
 
-#: app/scripts/views/permissions.js:25
+#: app/scripts/views/permissions.js:26
 msgid "%(permissionName)s (required)"
 msgstr "%(permissionName)s (e domosdoshme)"
 
-#: app/scripts/views/permissions.js:31
+#: app/scripts/views/permissions.js:32
 msgid "Email address"
 msgstr "Adresë email"
 
-#: app/scripts/views/permissions.js:36 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:4
+#: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:4
 msgid "Display name"
 msgstr "Emër në ekran"
 
-#: app/scripts/views/permissions.js:40 app/scripts/templates/settings/avatar.mustache:1
+#: app/scripts/views/permissions.js:41 app/scripts/templates/settings/avatar.mustache:1
 msgid "Account picture"
 msgstr "Foto llogarie"
 
-#: app/scripts/views/ready.js:29
+#: app/scripts/views/ready.js:30
 msgid "Firefox Sync will begin momentarily"
 msgstr "Firefox Sync-u do të fillojë në çast"
 
-#: app/scripts/views/ready.js:38
+#: app/scripts/views/ready.js:39
 msgid "Account unlocked"
 msgstr "Llogaria u shkyç"
 
-#: app/scripts/views/ready.js:43
+#: app/scripts/views/ready.js:44
 msgid "Welcome back"
 msgstr "Mirë se u kthyet"
 
-#: app/scripts/views/ready.js:44
+#: app/scripts/views/ready.js:45
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync-u do të rivihet në punë në çast"
 
-#: app/scripts/views/ready.js:54
-msgid "Welcome to Sync"
-msgstr "Mirë se vini te Sync"
+#: app/scripts/views/ready.js:55 app/scripts/lib/strings.js:46
+msgid "Sign-in confirmed"
+msgstr "Hyrje e ripohuar"
 
-#: app/scripts/views/ready.js:59
-msgid "Account verified"
-msgstr "Llogaria u verifikua"
-
-#: app/scripts/views/ready.js:60 app/scripts/lib/strings.js:47 app/scripts/templates/ready.mustache:5
+#: app/scripts/views/ready.js:56 app/scripts/views/ready.js:61 app/scripts/lib/strings.js:47 app/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Tani jeni gati të përdorni %(serviceName)s"
 
-#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:157
+#: app/scripts/views/ready.js:60
+msgid "Account verified"
+msgstr "Llogaria u verifikua"
+
+#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:158
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Llogari e panjohur. <a href=\"/signup\">Regjistrohuni</a>"
 
@@ -83,7 +83,7 @@ msgstr "Llogari e panjohur. <a href=\"/signup\">Regjistrohuni</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "Llogaria s’ekziston më. Të rikrijohet?"
 
-#: app/scripts/views/sign_up.js:398
+#: app/scripts/views/sign_up.js:386
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Ka tashmë një llogari të tillë. <a href=\"/signin\">Hyni</a>"
 
@@ -91,7 +91,7 @@ msgstr "Ka tashmë një llogari të tillë. <a href=\"/signin\">Hyni</a>"
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "Me lejen dashamirëse të <a href=\"https://www.gravatar.com\">Gravatar</a>-it"
 
-#: app/scripts/views/settings/change_password.js:46
+#: app/scripts/views/settings/change_password.js:47
 msgid "Password changed successfully"
 msgstr "Fjalëkalimi u ndryshua me sukses"
 
@@ -225,7 +225,7 @@ msgstr "Lëndë shumë e madhe për kërkesa"
 # ORVATJE f.
 #     Përpjekje me të gjitha forcat për të arritur a për të bërë diçka,
 # mundim.
-# 
+#
 # Nuk besoj se konteksti këtu, dhe në të gjitha rastet në kompjutera, përfshin
 # elemente mundimi. Përveç kësaj, në Shqipen e derisotme (të Shqipërisë)
 # "prova" është e mirëngulitur. Ndaj nuk gjej arsye përse duhet zëvendësuar me
@@ -248,7 +248,7 @@ msgstr "Kjo pikë mbarimi s’mbulohet më"
 
 # riprovoni
 # ndaj përpiquni sërish
-# 
+#
 # Siç mund të shihet, edhe sikur nga ana e domethënies të ishte i
 # përshtatshëm, përkthimi "përpiquni sërish" thuajse dyfishon "riprovoni". Nga
 # pikëpamja e ekonomisë në përkthim, kjo nuk përligjet.
@@ -444,10 +444,12 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"Duke vazhduar më tej, pajtoheni me <a id=\"service-tos\" href=\"%(termsUri)s\">Kushtet e Shërbimit</a> dhe<a id=\"service-pp\" href=\"%(privacyUri)s\">Shënimet Mbi Privatësinë</a> të %(serviceName)s"
-" (%(serviceUri)s)."
+"Duke vazhduar më tej, pajtoheni me <a id=\"service-tos\" href=\"%(termsUri)s\">Kushtet e Shërbimit</a> dhe<a id=\"service-pp\" href=\"%(privacyUri)s\">Shënimet Mbi Privatësinë</a> të "
+"%(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:26
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -493,39 +495,40 @@ msgstr "Verifikoni email-in tuaj që të përfundohet hyrja në Llogarinë tuaj 
 msgid "Confirm sign-in"
 msgstr "Ripohoni hyrjen"
 
-#: app/scripts/lib/strings.js:39
+#: app/scripts/lib/strings.js:39 app/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
 msgstr "Ripohoni këtë hyrje"
 
-#: app/scripts/lib/strings.js:40 app/scripts/templates/complete_reset_password.mustache:2 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/templates/confirm.mustache:2
+#: app/scripts/lib/strings.js:40 app/scripts/templates/complete_reset_password.mustache:2 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/templates/confirm.mustache:5
 #: app/scripts/templates/confirm_account_unlock.mustache:2 app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email resent"
 msgstr "Email-i u ridërgua"
 
-#: app/scripts/lib/strings.js:41 app/scripts/templates/confirm.mustache:3 app/scripts/templates/confirm_account_unlock.mustache:3 app/scripts/templates/confirm_reset_password.mustache:3
+#: app/scripts/lib/strings.js:41 app/scripts/templates/confirm.mustache:6 app/scripts/templates/confirm_account_unlock.mustache:3 app/scripts/templates/confirm_reset_password.mustache:3
 msgid "Email Sent"
 msgstr "Email-i u Dërgua"
 
-#: app/scripts/lib/strings.js:42
+#: app/scripts/lib/strings.js:42 app/scripts/templates/confirm.mustache:9
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
 msgstr "Për mbrojtje më të mirë të të dhënave tuaja Firefox, ju kemi dërguar një lidhje ripohimi te %(email)s"
 
-#: app/scripts/lib/strings.js:43 app/scripts/templates/confirm.mustache:5
+#: app/scripts/lib/strings.js:43 app/scripts/templates/confirm.mustache:11
 msgid "Open Gmail"
 msgstr "Hapni Gmail-in"
 
-#: app/scripts/lib/strings.js:44 app/scripts/templates/confirm.mustache:7 app/scripts/templates/confirm_account_unlock.mustache:6 app/scripts/templates/confirm_reset_password.mustache:9
+#: app/scripts/lib/strings.js:44 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm.mustache:15 app/scripts/templates/confirm_account_unlock.mustache:6
+#: app/scripts/templates/confirm_reset_password.mustache:9
 msgid "Resend email"
 msgstr "Ridërgoje email-in"
 
-#: app/scripts/lib/strings.js:45 app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm_account_unlock.mustache:5 app/scripts/templates/pp.mustache:3
-#: app/scripts/templates/tos.mustache:3
+#: app/scripts/lib/strings.js:45 app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:14 app/scripts/templates/confirm_account_unlock.mustache:5
+#: app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Mbrapsht"
 
-#: app/scripts/lib/strings.js:46
-msgid "Sign-in confirmed"
-msgstr "Hyrje e ripohuar"
+#: app/scripts/lib/strings.js:51
+msgid "Get the latest news about Mozilla and Firefox."
+msgstr "Merrni lajmet më të reja rreth Mozilla-s dhe Firefox-it."
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
@@ -551,7 +554,7 @@ msgstr "Duhet të plotësoni disa domosdoshmëri lidhur me moshën, që të mund
 msgid "Learn more."
 msgstr "Mësoni më tepër."
 
-#: app/scripts/templates/choose_what_to_sync.mustache:1 app/scripts/templates/sign_up.mustache:21 app/scripts/templates/sign_up.mustache:26
+#: app/scripts/templates/choose_what_to_sync.mustache:1 app/scripts/templates/sign_up.mustache:22
 msgid "Choose what to sync"
 msgstr "Zgjidhni çfarë të njëkohësohet"
 
@@ -601,7 +604,7 @@ msgstr "Lidhja për shkyçje është e dëmtuar"
 # pse fjala në Anglisht ka një grafemë edhe në Shqip. Puna është që kuptimet
 # që "karakteri" ka në Shqip janë tmerrësisht larg atij që po i vishet
 # "character"-it të Anglishtes:
-# 
+#
 # KARAKTER m.
 #     1. Tërësia e veçorive psikike më kryesore, që shfaqen në veprimtarinë e
 # në sjelljen e njeriut në shoqëri dhe që e shquajnë personalitetin e tij;
@@ -620,10 +623,10 @@ msgstr "Lidhja për shkyçje është e dëmtuar"
 # Karakter letrar. Karakter i plotë (i gjallë). Karakter dramatik (tragjik).
 # Karakter në letërsi (në art). Karakteret në prozën e Migjenit. Krijoi (dha)
 # një karakter të ri.
-# 
+#
 # Mjerisht, shumë shpesh, gomarllëqe të tilla nga të paditur të patëkeq lihen
 # të kalojnë me një syleshllëk të çuditshëm...
-# 
+#
 # P.S. Se kush e përdori i pari si "karaktere", nuk dihet.
 #: app/scripts/templates/complete_account_unlock.mustache:5 app/scripts/templates/complete_reset_password.mustache:7 app/scripts/templates/complete_sign_up.mustache:8
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
@@ -699,7 +702,7 @@ msgstr "Gabim verifikimi"
 msgid "Confirm your account"
 msgstr "Ripohoni llogarinë tuaj"
 
-#: app/scripts/templates/confirm.mustache:4
+#: app/scripts/templates/confirm.mustache:7
 msgid "A verification link has been sent&nbsp;to %(email)s"
 msgstr "Sapo u dërgua një lidhje verifikimi&nbsp;te %(email)s"
 
@@ -762,7 +765,9 @@ msgstr "Harruat  fjalëkalimin?"
 
 #: app/scripts/templates/force_auth.mustache:8 app/scripts/templates/sign_in.mustache:27 app/scripts/templates/sign_up.mustache:17
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Duke vazhduar më tej, pajtoheni me <a id=\"fxa-tos\" href=\"/legal/terms\">Kushtet e Shërbimit</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy\">Shënimet Mbi Privatësinë</a> të shërbimeve re të Firefox-it."
+msgstr ""
+"Duke vazhduar më tej, pajtoheni me <a id=\"fxa-tos\" href=\"/legal/terms\">Kushtet e Shërbimit</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy\">Shënimet Mbi Privatësinë</a> të shërbimeve re të "
+"Firefox-it."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -888,14 +893,14 @@ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in
 msgstr "Keni një llogari me një tjetër email? <a href=\"%(signinUri)s\">Hyni</a>"
 
 #: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/settings/communication_preferences.mustache:7
-msgid "Get the latest news about Mozilla and Firefox."
-msgstr "Merrni lajmet më të reja rreth Mozilla-s dhe Firefox-it."
+msgid "Send me the monthly Firefox newsletter."
+msgstr ""
 
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:20
 msgid "Create account"
 msgstr "Krijoni llogari"
 
-#: app/scripts/templates/sign_up.mustache:29
+#: app/scripts/templates/sign_up.mustache:25
 msgid "Have an account? Sign in."
 msgstr "Keni llogari? Hyni."
 
@@ -983,11 +988,11 @@ msgstr "Pajisje"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-"href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+"\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox-i është i gatshëm për <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> dhe <a "
-"href=\"%(linkLinux)s\">Linux</a>."
+"Firefox-i është i gatshëm për <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> dhe <a href="
+"\"%(linkLinux)s\">Linux</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -1032,6 +1037,9 @@ msgstr "Përdor OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Përdor Llogari Firefox"
+
+#~ msgid "Welcome to Sync"
+#~ msgstr "Mirë se vini te Sync"
 
 #~ msgid "Home"
 #~ msgstr "Kreu"
@@ -1117,5 +1125,5 @@ msgstr "Përdor Llogari Firefox"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Ju lutemi, aktivizoni cookie-t te shfletuesi juaj, të cilat janë të domosdoshme për Llogari Firefox. Cookie-t janë copëza të vogla të dhënash, të depozituara në shfletuesin tuaj, që bëjnë të mundur "
-#~ "funksione të tillë si mbajtja mend e sesioneve tuaj nga njëri në tjetrin."
+#~ "Ju lutemi, aktivizoni cookie-t te shfletuesi juaj, të cilat janë të domosdoshme për Llogari Firefox. Cookie-t janë copëza të vogla të dhënash, të depozituara në shfletuesin tuaj, që bëjnë të "
+#~ "mundur funksione të tillë si mbajtja mend e sesioneve tuaj nga njëri në tjetrin."

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-01 13:33+0000\n"
+"POT-Creation-Date: 2016-06-20 17:00+0000\n"
 "PO-Revision-Date: 2016-05-14 12:24+0000\n"
 "Last-Translator: Jānis Marks Gailis - Jean-Marc <jm-gailis@fai-vianet.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:102 app/scripts/views/confirm.js:112 app/scripts/views/confirm_reset_password.js:184
+#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:126 app/scripts/views/confirm.js:139 app/scripts/views/confirm_reset_password.js:184
 msgid "Account verified successfully"
 msgstr "Konts veiksmīgi pārbaudīts"
 
@@ -22,7 +22,7 @@ msgstr "Konts veiksmīgi pārbaudīts"
 msgid "Account unlocked, please try again"
 msgstr "Konts tika atbloķēts, lūdzu mēģiniet vēlreiz"
 
-#: app/scripts/views/confirm_reset_password.js:174 app/scripts/views/ready.js:48
+#: app/scripts/views/confirm_reset_password.js:174 app/scripts/views/ready.js:49
 msgid "Password reset"
 msgstr "Paroles atstatīšana"
 
@@ -30,51 +30,51 @@ msgstr "Paroles atstatīšana"
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Parole tika veiksmīgi atstatīta. Ieiet lai turpinātu."
 
-#: app/scripts/views/permissions.js:25
+#: app/scripts/views/permissions.js:26
 msgid "%(permissionName)s (required)"
 msgstr "%(permissionName)s (nepieciešams)"
 
-#: app/scripts/views/permissions.js:31
+#: app/scripts/views/permissions.js:32
 msgid "Email address"
 msgstr "Epasta adrese"
 
-#: app/scripts/views/permissions.js:36 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:4
+#: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:4
 msgid "Display name"
 msgstr "Parādāmais vārds"
 
-#: app/scripts/views/permissions.js:40 app/scripts/templates/settings/avatar.mustache:1
+#: app/scripts/views/permissions.js:41 app/scripts/templates/settings/avatar.mustache:1
 msgid "Account picture"
 msgstr "Konta attēls"
 
-#: app/scripts/views/ready.js:29
+#: app/scripts/views/ready.js:30
 msgid "Firefox Sync will begin momentarily"
 msgstr "Firefox sinhronizācija pēc mirkļa sāksies"
 
-#: app/scripts/views/ready.js:38
+#: app/scripts/views/ready.js:39
 msgid "Account unlocked"
 msgstr "Konts atbloķēts"
 
-#: app/scripts/views/ready.js:43
+#: app/scripts/views/ready.js:44
 msgid "Welcome back"
 msgstr "Prieks jūs atkal redzēt!"
 
-#: app/scripts/views/ready.js:44
+#: app/scripts/views/ready.js:45
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox sinhronizācija pēc mirkļa atsāksies"
 
-#: app/scripts/views/ready.js:54
-msgid "Welcome to Sync"
-msgstr "Laipni lūgti sinhronizēšanā"
+#: app/scripts/views/ready.js:55 app/scripts/lib/strings.js:46
+msgid "Sign-in confirmed"
+msgstr "Ieiešana apstiprināta"
 
-#: app/scripts/views/ready.js:59
-msgid "Account verified"
-msgstr "Konts pārbaudīts"
-
-#: app/scripts/views/ready.js:60 app/scripts/lib/strings.js:47 app/scripts/templates/ready.mustache:5
+#: app/scripts/views/ready.js:56 app/scripts/views/ready.js:61 app/scripts/lib/strings.js:47 app/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Jūs esat gatavs izmantot %(serviceName)s"
 
-#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:157
+#: app/scripts/views/ready.js:60
+msgid "Account verified"
+msgstr "Konts pārbaudīts"
+
+#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:158
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Nezināms konts. <a href=\"/signup\">Reģistrējieties</a>"
 
@@ -82,7 +82,7 @@ msgstr "Nezināms konts. <a href=\"/signup\">Reģistrējieties</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "Konts vairs nepastāv. Vai to atkārtoti izveidot?"
 
-#: app/scripts/views/sign_up.js:398
+#: app/scripts/views/sign_up.js:386
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Konts jau pastāv. <a href=\"/signin\">Ieiet</a>"
 
@@ -90,7 +90,7 @@ msgstr "Konts jau pastāv. <a href=\"/signin\">Ieiet</a>"
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "Pateicoties <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
-#: app/scripts/views/settings/change_password.js:46
+#: app/scripts/views/settings/change_password.js:47
 msgid "Password changed successfully"
 msgstr "Parole tika veiksmīgi nomainīta"
 
@@ -475,39 +475,40 @@ msgstr "Pārbaudiet savu e-pastu, lai pabeigtu ieiešanu savā Firefox kontā"
 msgid "Confirm sign-in"
 msgstr "Apstiprināt ieiešanu"
 
-#: app/scripts/lib/strings.js:39
+#: app/scripts/lib/strings.js:39 app/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
 msgstr "Apstiprināt šo ieiešanu"
 
-#: app/scripts/lib/strings.js:40 app/scripts/templates/complete_reset_password.mustache:2 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/templates/confirm.mustache:2
+#: app/scripts/lib/strings.js:40 app/scripts/templates/complete_reset_password.mustache:2 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/templates/confirm.mustache:5
 #: app/scripts/templates/confirm_account_unlock.mustache:2 app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email resent"
 msgstr "Epasts tika pārsūtīts"
 
-#: app/scripts/lib/strings.js:41 app/scripts/templates/confirm.mustache:3 app/scripts/templates/confirm_account_unlock.mustache:3 app/scripts/templates/confirm_reset_password.mustache:3
+#: app/scripts/lib/strings.js:41 app/scripts/templates/confirm.mustache:6 app/scripts/templates/confirm_account_unlock.mustache:3 app/scripts/templates/confirm_reset_password.mustache:3
 msgid "Email Sent"
 msgstr "Epasts aizsūtīts"
 
-#: app/scripts/lib/strings.js:42
+#: app/scripts/lib/strings.js:42 app/scripts/templates/confirm.mustache:9
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
 msgstr "Lai labāk aizsargātu jūsu Firefox datus, mēs jums nosūtījām apstiprinājuma saiti uz %(email)s"
 
-#: app/scripts/lib/strings.js:43 app/scripts/templates/confirm.mustache:5
+#: app/scripts/lib/strings.js:43 app/scripts/templates/confirm.mustache:11
 msgid "Open Gmail"
 msgstr "Atvērt Gmail"
 
-#: app/scripts/lib/strings.js:44 app/scripts/templates/confirm.mustache:7 app/scripts/templates/confirm_account_unlock.mustache:6 app/scripts/templates/confirm_reset_password.mustache:9
+#: app/scripts/lib/strings.js:44 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm.mustache:15 app/scripts/templates/confirm_account_unlock.mustache:6
+#: app/scripts/templates/confirm_reset_password.mustache:9
 msgid "Resend email"
 msgstr "Nosūtīt vēlreiz"
 
-#: app/scripts/lib/strings.js:45 app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm_account_unlock.mustache:5 app/scripts/templates/pp.mustache:3
-#: app/scripts/templates/tos.mustache:3
+#: app/scripts/lib/strings.js:45 app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:14 app/scripts/templates/confirm_account_unlock.mustache:5
+#: app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Atpakaļ"
 
-#: app/scripts/lib/strings.js:46
-msgid "Sign-in confirmed"
-msgstr "Ieiešana apstiprināta"
+#: app/scripts/lib/strings.js:51
+msgid "Get the latest news about Mozilla and Firefox."
+msgstr "Saņemt jaunākās ziņas par Mozilla un Firefox."
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
@@ -533,7 +534,7 @@ msgstr "Jums ir jāsasniedz noteiktu vecumu lai izveidotu Firefox&nbsp;Kontu."
 msgid "Learn more."
 msgstr "Uzzināt vairāk."
 
-#: app/scripts/templates/choose_what_to_sync.mustache:1 app/scripts/templates/sign_up.mustache:21 app/scripts/templates/sign_up.mustache:26
+#: app/scripts/templates/choose_what_to_sync.mustache:1 app/scripts/templates/sign_up.mustache:22
 msgid "Choose what to sync"
 msgstr "Izvēlieties, ko sinhronizēt"
 
@@ -647,7 +648,7 @@ msgstr "Apstiprinājuma kļūda"
 msgid "Confirm your account"
 msgstr "Apstipriniet savu kontu"
 
-#: app/scripts/templates/confirm.mustache:4
+#: app/scripts/templates/confirm.mustache:7
 msgid "A verification link has been sent&nbsp;to %(email)s"
 msgstr "Pārbaudes saite tika nosūtīta uz %(email)s"
 
@@ -835,14 +836,14 @@ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in
 msgstr "Jums ir konts ar citu epastu? <a href=\"%(signinUri)s\">Ieejiet</a>"
 
 #: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/settings/communication_preferences.mustache:7
-msgid "Get the latest news about Mozilla and Firefox."
-msgstr "Saņemt jaunākās ziņas par Mozilla un Firefox."
+msgid "Send me the monthly Firefox newsletter."
+msgstr ""
 
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:20
 msgid "Create account"
 msgstr "Izveidot kontu"
 
-#: app/scripts/templates/sign_up.mustache:29
+#: app/scripts/templates/sign_up.mustache:25
 msgid "Have an account? Sign in."
 msgstr "Jau ir konts? Ieiet."
 
@@ -979,6 +980,9 @@ msgstr "Izmantot OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Izmantot Firefox Kontu"
+
+#~ msgid "Welcome to Sync"
+#~ msgstr "Laipni lūgti sinhronizēšanā"
 
 #~ msgid "Invalid data-flow-begin attribute"
 #~ msgstr "Nepareizs datu plūsmas sākuma atribūts"
