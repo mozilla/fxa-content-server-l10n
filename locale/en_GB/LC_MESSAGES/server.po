@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-01 13:33+0000\n"
+"POT-Creation-Date: 2016-06-20 17:00+0000\n"
 "PO-Revision-Date: 2016-05-30 09:22+0000\n"
 "Last-Translator: Ian Neal <iann_bugzilla@blueyonder.co.uk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:455
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:463
 msgid "Still there?"
 msgstr "Still there?"
 
@@ -242,7 +242,7 @@ msgstr "Verify account"
 msgid "Verify account:"
 msgstr "Verify account:"
 
-#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:452
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:460
 msgid "Hello again."
 msgstr "Hello again."
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-01 13:33+0000\n"
+"POT-Creation-Date: 2016-06-20 17:00+0000\n"
 "PO-Revision-Date: 2015-03-07 12:55+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: FULAH LOCALIZATION\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1425732953.0\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:455
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:463
 msgid "Still there?"
 msgstr ""
 
@@ -238,7 +238,7 @@ msgstr "Ƴeewti iimeel"
 msgid "Verify account:"
 msgstr "Ƴeewto iimeel:"
 
-#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:452
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:460
 msgid "Hello again."
 msgstr ""
 

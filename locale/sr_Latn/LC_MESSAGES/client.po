@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-01 13:33+0000\n"
+"POT-Creation-Date: 2016-06-20 17:00+0000\n"
 "PO-Revision-Date: 2016-05-31 18:32+0000\n"
 "Last-Translator: Vanja Tumbas <tumbas93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-POOTLE-MTIME: 1438059120.0\n"
 
 #: app/scripts/views/complete_reset_password.js:132
-#: app/scripts/views/complete_sign_up.js:102 app/scripts/views/confirm.js:112
+#: app/scripts/views/complete_sign_up.js:126 app/scripts/views/confirm.js:139
 #: app/scripts/views/confirm_reset_password.js:184
 msgid "Account verified successfully"
 msgstr "Nalog je uspešno potvrđen"
@@ -27,7 +27,7 @@ msgid "Account unlocked, please try again"
 msgstr "Nalog je otključan, pokušajte ponovo"
 
 #: app/scripts/views/confirm_reset_password.js:174
-#: app/scripts/views/ready.js:48
+#: app/scripts/views/ready.js:49
 msgid "Password reset"
 msgstr "Resetovanje lozinke"
 
@@ -35,55 +35,55 @@ msgstr "Resetovanje lozinke"
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Lozinka je uspešno resetovana. Prijavite se da biste nastavili."
 
-#: app/scripts/views/permissions.js:25
+#: app/scripts/views/permissions.js:26
 msgid "%(permissionName)s (required)"
 msgstr "%(permissionName)s (neophodno)"
 
-#: app/scripts/views/permissions.js:31
+#: app/scripts/views/permissions.js:32
 msgid "Email address"
 msgstr "Adresa e-pošte"
 
-#: app/scripts/views/permissions.js:36
+#: app/scripts/views/permissions.js:37
 #: app/scripts/templates/settings/display_name.mustache:1
 #: app/scripts/templates/settings/display_name.mustache:4
 msgid "Display name"
 msgstr "Prikaži ime"
 
-#: app/scripts/views/permissions.js:40
+#: app/scripts/views/permissions.js:41
 #: app/scripts/templates/settings/avatar.mustache:1
 msgid "Account picture"
 msgstr "Slika naloga"
 
-#: app/scripts/views/ready.js:29
+#: app/scripts/views/ready.js:30
 msgid "Firefox Sync will begin momentarily"
 msgstr "Firefox Sync će odmah početi"
 
-#: app/scripts/views/ready.js:38
+#: app/scripts/views/ready.js:39
 msgid "Account unlocked"
 msgstr "Nalog je otključan"
 
-#: app/scripts/views/ready.js:43
+#: app/scripts/views/ready.js:44
 msgid "Welcome back"
 msgstr "Dobrodošli nazad"
 
-#: app/scripts/views/ready.js:44
+#: app/scripts/views/ready.js:45
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync će odmah nastaviti"
 
-#: app/scripts/views/ready.js:54
-msgid "Welcome to Sync"
-msgstr "Dobrodošli na Sync"
+#: app/scripts/views/ready.js:55 app/scripts/lib/strings.js:46
+msgid "Sign-in confirmed"
+msgstr "Prijava potvrđena"
 
-#: app/scripts/views/ready.js:59
-msgid "Account verified"
-msgstr "Nalog je potvrđen"
-
-#: app/scripts/views/ready.js:60 app/scripts/lib/strings.js:47
-#: app/scripts/templates/ready.mustache:5
+#: app/scripts/views/ready.js:56 app/scripts/views/ready.js:61
+#: app/scripts/lib/strings.js:47 app/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Sada ste spremni da koristite %(serviceName)s"
 
-#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:157
+#: app/scripts/views/ready.js:60
+msgid "Account verified"
+msgstr "Nalog je potvrđen"
+
+#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:158
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Nepoznat nalog. <a href=\"/signup\">Prijavi se</a>"
 
@@ -91,7 +91,7 @@ msgstr "Nepoznat nalog. <a href=\"/signup\">Prijavi se</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "Nalog više ne postoji. Ponovo ga napraviti?"
 
-#: app/scripts/views/sign_up.js:398
+#: app/scripts/views/sign_up.js:386
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Nalog već postoji. <a href=\"/signin\">Prijavi se</a>"
 
@@ -99,7 +99,7 @@ msgstr "Nalog već postoji. <a href=\"/signin\">Prijavi se</a>"
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "Ljubaznost <a href=\"https://www.gravatar.com\">Gravatar-a</a>"
 
-#: app/scripts/views/settings/change_password.js:46
+#: app/scripts/views/settings/change_password.js:47
 msgid "Password changed successfully"
 msgstr "Lozinka je uspešno promenjena"
 
@@ -171,7 +171,8 @@ msgstr "Odjavili ste se usešno"
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39
-#: app/scripts/lib/profile-errors.js:47 app/scripts/lib/require-on-demand.js:33
+#: app/scripts/lib/profile-errors.js:47
+#: app/scripts/lib/require-on-demand.js:33
 #: app/scripts/lib/require-on-demand.js:37
 #: app/scripts/lib/require-on-demand.js:41
 #: app/scripts/lib/require-on-demand.js:45
@@ -522,26 +523,26 @@ msgstr "Potvrdite vašu e-poštu da završite prijavu na Firefox nalog"
 msgid "Confirm sign-in"
 msgstr "Potvrdi prijavu"
 
-#: app/scripts/lib/strings.js:39
+#: app/scripts/lib/strings.js:39 app/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
 msgstr "Potvrdi ovu prijavu"
 
 #: app/scripts/lib/strings.js:40
 #: app/scripts/templates/complete_reset_password.mustache:2
 #: app/scripts/templates/complete_sign_up.mustache:2
-#: app/scripts/templates/confirm.mustache:2
+#: app/scripts/templates/confirm.mustache:5
 #: app/scripts/templates/confirm_account_unlock.mustache:2
 #: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email resent"
 msgstr "E-pošta je ponovo poslata"
 
-#: app/scripts/lib/strings.js:41 app/scripts/templates/confirm.mustache:3
+#: app/scripts/lib/strings.js:41 app/scripts/templates/confirm.mustache:6
 #: app/scripts/templates/confirm_account_unlock.mustache:3
 #: app/scripts/templates/confirm_reset_password.mustache:3
 msgid "Email Sent"
 msgstr "E-pošta je poslata"
 
-#: app/scripts/lib/strings.js:42
+#: app/scripts/lib/strings.js:42 app/scripts/templates/confirm.mustache:9
 msgid ""
 "To better protect your Firefox data, we've emailed a confirmation link to "
 "%(email)s"
@@ -549,11 +550,12 @@ msgstr ""
 "Da bismo bolje zaštitili Firefox podatke, poslali smo vam vezu za potvrdu na "
 "%(email)s"
 
-#: app/scripts/lib/strings.js:43 app/scripts/templates/confirm.mustache:5
+#: app/scripts/lib/strings.js:43 app/scripts/templates/confirm.mustache:11
 msgid "Open Gmail"
 msgstr "Otvori Gmail"
 
-#: app/scripts/lib/strings.js:44 app/scripts/templates/confirm.mustache:7
+#: app/scripts/lib/strings.js:44 app/scripts/templates/confirm.mustache:13
+#: app/scripts/templates/confirm.mustache:15
 #: app/scripts/templates/confirm_account_unlock.mustache:6
 #: app/scripts/templates/confirm_reset_password.mustache:9
 msgid "Resend email"
@@ -561,14 +563,15 @@ msgstr "Ponovo pošalji e-poštu"
 
 #: app/scripts/lib/strings.js:45
 #: app/scripts/templates/choose_what_to_sync.mustache:16
+#: app/scripts/templates/confirm.mustache:14
 #: app/scripts/templates/confirm_account_unlock.mustache:5
 #: app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Nazad"
 
-#: app/scripts/lib/strings.js:46
-msgid "Sign-in confirmed"
-msgstr "Prijava potvrđena"
+#: app/scripts/lib/strings.js:51
+msgid "Get the latest news about Mozilla and Firefox."
+msgstr "Saznajte najnovije vesti o Mozilla-i i Firefox-u."
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
@@ -599,8 +602,7 @@ msgid "Learn more."
 msgstr "Saznajte više."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-#: app/scripts/templates/sign_up.mustache:21
-#: app/scripts/templates/sign_up.mustache:26
+#: app/scripts/templates/sign_up.mustache:22
 msgid "Choose what to sync"
 msgstr "Odaberite šta želite da uskladite"
 
@@ -733,7 +735,7 @@ msgstr "Greška u verifikaciji"
 msgid "Confirm your account"
 msgstr "Potvrdite nalog"
 
-#: app/scripts/templates/confirm.mustache:4
+#: app/scripts/templates/confirm.mustache:7
 msgid "A verification link has been sent&nbsp;to %(email)s"
 msgstr "Veza za potvrdu je poslata&nbsp;%(email)s"
 
@@ -995,14 +997,14 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:18
 #: app/scripts/templates/settings/communication_preferences.mustache:7
-msgid "Get the latest news about Mozilla and Firefox."
-msgstr "Saznajte najnovije vesti o Mozilla-i i Firefox-u."
+msgid "Send me the monthly Firefox newsletter."
+msgstr ""
 
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:20
 msgid "Create account"
 msgstr "Napravi nalog"
 
-#: app/scripts/templates/sign_up.mustache:29
+#: app/scripts/templates/sign_up.mustache:25
 msgid "Have an account? Sign in."
 msgstr "Već imate nalog? Pristupite."
 
@@ -1162,6 +1164,9 @@ msgstr "Koristi OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Koristi Firefox Account"
+
+#~ msgid "Welcome to Sync"
+#~ msgstr "Dobrodošli na Sync"
 
 #~ msgid "Invalid data-flow-begin attribute"
 #~ msgstr "Neispravan atribut data-flow-begin"
