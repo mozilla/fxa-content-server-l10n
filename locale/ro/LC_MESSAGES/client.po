@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-20 17:00+0000\n"
-"PO-Revision-Date: 2016-06-03 19:43+0000\n"
+"PO-Revision-Date: 2016-06-21 16:20+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -435,9 +435,7 @@ msgid "Firefox Sync"
 msgstr "Sincronizare Firefox"
 
 #: app/scripts/lib/strings.js:18
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Continuând, ești de acord cu <a id=\"service-tos\" href=\"%(termsUri)s\">termenii de utilizare a serviciului</a> și <a id=\"service-pp\" href=\"%(privacyUri)s\">politica de confidențialitate</a> a "
 "%(serviceName)s (%(serviceUri)s)."
@@ -852,7 +850,7 @@ msgstr "Ai un cont cu o adresă de e-mail diferită? <a href=\"%(signinUri)s\">A
 
 #: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Send me the monthly Firefox newsletter."
-msgstr ""
+msgstr "Trimite-mi buletinul lunar de știri Firefox."
 
 #: app/scripts/templates/sign_up.mustache:20
 msgid "Create account"
@@ -946,11 +944,11 @@ msgstr "Dispozitive"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox este disponibil pentru <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> și <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox este disponibil pentru <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> și <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
