@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-20 17:00+0000\n"
-"PO-Revision-Date: 2016-06-01 14:54+0200\n"
+"PO-Revision-Date: 2016-06-21 16:50+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -838,7 +838,7 @@ msgstr "Masz już konto z innym adresem e-mail? <a href=\"%(signinUri)s\">Zalog
 
 #: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Send me the monthly Firefox newsletter."
-msgstr ""
+msgstr "Chcę otrzymywać comiesięczny newsletter Firefoksa."
 
 #: app/scripts/templates/sign_up.mustache:20
 msgid "Create account"
@@ -981,6 +981,3 @@ msgstr "Użyj OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Użyj konta Firefoksa"
-
-#~ msgid "Welcome to Sync"
-#~ msgstr "Witamy w usłudze Sync"
