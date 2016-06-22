@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-20 17:00+0000\n"
-"PO-Revision-Date: 2016-06-01 19:38+0000\n"
+"PO-Revision-Date: 2016-06-22 12:29+0000\n"
 "Last-Translator: Merike Sell <merikes@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -425,11 +425,8 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Jätkates nõustud <a id=\"service-tos\" href=\"%(termsUri)s\">Teenusetingimuste</a> ja teenuse %(serviceName)s (%(serviceUri)s) <a id=\"service-pp\" href=\"%(privacyUri)s\">Privaatsuspoliitikaga</a>."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Jätkates nõustud <a id=\"service-tos\" href=\"%(termsUri)s\">Teenusetingimuste</a> ja teenuse %(serviceName)s (%(serviceUri)s) <a id=\"service-pp\" href=\"%(privacyUri)s\">Privaatsuspoliitikaga</a>."
 
 #: app/scripts/lib/strings.js:26
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -837,7 +834,7 @@ msgstr "Sul on teise e-posti aadressiga konto? <a href=\"%(signinUri)s\">Logi si
 
 #: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Send me the monthly Firefox newsletter."
-msgstr ""
+msgstr "Saada mulle igakuine Firefoxi uudiskiri."
 
 #: app/scripts/templates/sign_up.mustache:20
 msgid "Create account"
@@ -931,11 +928,11 @@ msgstr "Seadmed"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox on saadaval <a href=\"%(linkWindows)s\">Windowsile</a>, <a href=\"%(linkOSX)s\">OS X-ile</a>, <a href=\"%(linkAndroid)s\">Androidile</a>, <a href=\"%(linkIOS)s\">iOS-ile</a> ja <a href="
-"\"%(linkLinux)s\">Linuxile</a>."
+"Firefox on saadaval <a href=\"%(linkWindows)s\">Windowsile</a>, <a href=\"%(linkOSX)s\">OS X-ile</a>, <a href=\"%(linkAndroid)s\">Androidile</a>, <a href=\"%(linkIOS)s\">iOS-ile</a> ja <a "
+"href=\"%(linkLinux)s\">Linuxile</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -1216,12 +1213,8 @@ msgstr "Kasuta Firefoxi kontot"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Konto juba olemas? Logi sisse."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
-#~ msgstr ""
-#~ "Jätkates nõustud teenuse %(serviceName)s (%(serviceUri)s)<a id=\"service-tos\" href=\"%(termsUri)s\">Teenusetingimuste</a> ja <a id=\"service-pp\" href=\"%(privacyUri)s\">Privatsuspoliitikaga</"
-#~ "a>."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgstr "Jätkates nõustud teenuse %(serviceName)s (%(serviceUri)s)<a id=\"service-tos\" href=\"%(termsUri)s\">Teenusetingimuste</a> ja <a id=\"service-pp\" href=\"%(privacyUri)s\">Privatsuspoliitikaga</a>."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr "Jätkates nõustud sa Firefoxi pilveteenuste <a id=\"fxa-tos\" href=\"/legal/terms\">teenuste tingimuste</a> ja <a id=\"fxa-pp\" href=\"/legal/privacy\">privaatsusreeglitega</a>."
