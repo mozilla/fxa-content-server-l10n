@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-20 17:00+0000\n"
-"PO-Revision-Date: 2016-06-21 04:24+0000\n"
-"Last-Translator: Tymur Faradzhev <faradzhev.timur@gmail.com>\n"
+"PO-Revision-Date: 2016-06-23 08:00+0000\n"
+"Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -69,11 +69,11 @@ msgstr "Вхід підтверджено"
 
 #: app/scripts/views/ready.js:56 app/scripts/views/ready.js:61 app/scripts/lib/strings.js:47 app/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
-msgstr "Ви вже готові для користування %(serviceName)s"
+msgstr "Тепер ви готові використовувати Синхронізацію Firefox"
 
 #: app/scripts/views/ready.js:60
 msgid "Account verified"
-msgstr "Обліковий запис перевірено"
+msgstr "Обліковий запис підтверджено"
 
 #: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:158
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -645,7 +645,7 @@ msgstr "Помилка підтвердження"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
-msgstr "Підтвердити свій обліковий запис"
+msgstr "Підтвердження облікового запису"
 
 #: app/scripts/templates/confirm.mustache:7
 msgid "A verification link has been sent&nbsp;to %(email)s"
@@ -723,7 +723,7 @@ msgstr "Право"
 
 #: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:5 app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
-msgstr "Умови надання послуг"
+msgstr "Умови надання послуги"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:6
 msgid "Privacy Notice"
@@ -751,7 +751,7 @@ msgstr "Завантажити Firefox для Android."
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr "Завантажити Firefox для мобільних пристроїв."
+msgstr "Завантажте Firefox для мобільних пристроїв."
 
 #: app/scripts/templates/permissions.mustache:1 app/scripts/templates/settings/gravatar_permissions.mustache:1
 msgid "Request for permission"
@@ -864,7 +864,7 @@ msgstr "Зробити знімок"
 
 #: app/scripts/templates/settings/avatar_change.mustache:1
 msgid "Upload"
-msgstr "Вивантажити"
+msgstr "Завантажити"
 
 #: app/scripts/templates/settings/avatar_change.mustache:2
 msgid "Camera"
@@ -884,7 +884,7 @@ msgstr "Готово"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
-msgstr "Розмістіть та поверніть свій знімок як треба"
+msgstr "Налаштуйте розташування зображення"
 
 #: app/scripts/templates/settings/avatar_gravatar.mustache:2
 msgid "Save"
@@ -920,7 +920,7 @@ msgstr "Видалити обліковий запис"
 
 #: app/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete"
-msgstr "Вилучити"
+msgstr "Видалити"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
