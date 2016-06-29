@@ -106,7 +106,7 @@ msgstr "Tu contraseña ha sido reiniciada"
 
 #: templates/password_reset.html:3
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr "Tu contraseña de tu cuenta de Firefox ha cambiado. Si no la cambiaste tú, por favor <a href='%(resetLinkAttributes)s'>restablece tu contraseña</a> ahora."
+msgstr "Tu contraseña de tu cuenta de Firefox ha cambiado. Si no la cambiaste tú, por favor <a %(resetLinkAttributes)s>restablece tu contraseña</a> ahora."
 
 #: templates/password_reset.html:4 templates/post_verify.html:6 templates/post_verify.txt:4 templates/reset.html:7 templates/reset.txt:5 templates/unlock.html:6 templates/unlock.txt:3
 #: templates/verification_reminder_first.html:6 templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:6 templates/verification_reminder_second.txt:4
