@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-20 17:00+0000\n"
-"PO-Revision-Date: 2016-06-30 12:02+0000\n"
+"PO-Revision-Date: 2016-06-30 12:08+0000\n"
 "Last-Translator: stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -132,7 +132,7 @@ msgstr ""
 
 #: templates/password_reset_required.html:4 templates/password_reset_required.txt:3
 msgid "What should you do?"
-msgstr ""
+msgstr "Какво трябва да направите?"
 
 #: templates/password_reset_required.html:5 templates/password_reset_required.txt:4 templates/suspicious_location.html:7 templates/suspicious_location.txt:6
 msgid "First, change your Firefox Account password."
@@ -153,7 +153,7 @@ msgstr ""
 
 #: templates/password_reset_required.html:9 templates/password_reset_required.txt:8 templates/suspicious_location.html:13 templates/suspicious_location.txt:12
 msgid "The Firefox Accounts team"
-msgstr ""
+msgstr "Екипът на Firefox Account"
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
@@ -294,23 +294,23 @@ msgstr ""
 
 #: mailer.js:179
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "Препотвърждаване на Firefox Account"
 
 #: mailer.js:217
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
+msgstr "Потвърждение на вписване във Firefox"
 
 #: mailer.js:252
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "Нулиране на парола за Firefox Account"
 
 #: mailer.js:286
 msgid "Re-verify your Firefox Account"
-msgstr ""
+msgstr "Препотвърждение на Firefox Account"
 
 #: mailer.js:307
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "Паролата ви за Firefox Account беше сменена"
 
 #: mailer.js:328
 msgid "Your Firefox Account password has been reset"
@@ -318,7 +318,7 @@ msgstr "Паролата ви за Firefox Account беше нулирана"
 
 #: mailer.js:349
 msgid "Firefox Account password reset required"
-msgstr ""
+msgstr "Необходимо е нулиране на паролата за Firefox Account"
 
 #: mailer.js:404
 msgid "Firefox Account Verified"

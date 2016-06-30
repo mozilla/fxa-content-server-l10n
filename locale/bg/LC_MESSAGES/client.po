@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-20 17:00+0000\n"
-"PO-Revision-Date: 2016-06-30 09:02+0000\n"
+"PO-Revision-Date: 2016-06-30 12:10+0000\n"
 "Last-Translator: stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -567,7 +567,7 @@ msgstr "Добавките и настройките понастоящем не
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
-msgstr ""
+msgstr "Запазване на настройките"
 
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
@@ -603,7 +603,7 @@ msgstr "Връзката за нулиране на парола е повред
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 msgid "Enter new password"
-msgstr ""
+msgstr "Нова парола"
 
 #: app/scripts/templates/complete_reset_password.mustache:10
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
@@ -629,7 +629,7 @@ msgstr "Повторете паролата"
 
 #: app/scripts/templates/complete_reset_password.mustache:18
 msgid "Submit new password"
-msgstr ""
+msgstr "Изпращане на нова парола"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
