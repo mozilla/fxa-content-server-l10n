@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-20 17:00+0000\n"
-"PO-Revision-Date: 2016-06-30 09:04+0000\n"
+"PO-Revision-Date: 2016-06-30 12:02+0000\n"
 "Last-Translator: stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -21,7 +21,7 @@ msgstr "Още ли сте тук?"
 
 #: templates/_pending.txt:2
 msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
-msgstr "Преди време създадохте Firefox Account, но никога не сте минавали проверка. Щракнете връзката по-долу, за да активирате на вашата регистрация."
+msgstr "Преди време създадохте Firefox Account без да го потвърдите. Посетете връзката по-долу, за да го потвърдите."
 
 #: templates/_pending.txt:3
 msgid ""
@@ -200,19 +200,19 @@ msgstr ""
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
-msgstr ""
+msgstr "Дата и час:"
 
 #: templates/suspicious_location.html:4 templates/suspicious_location.txt:3
 msgid "Device:"
-msgstr ""
+msgstr "Устройство:"
 
 #: templates/suspicious_location.html:5 templates/suspicious_location.txt:4
 msgid "Location:"
-msgstr ""
+msgstr "Местоположение:"
 
 #: templates/suspicious_location.html:6 templates/suspicious_location.txt:5
 msgid "If you don’t recognize the activity above:"
-msgstr ""
+msgstr "Ако не разпознавате действието по-горе като свое:"
 
 #: templates/suspicious_location.html:10 templates/suspicious_location.txt:9
 msgid "Why are you receiving this email?"
@@ -224,19 +224,19 @@ msgstr ""
 
 #: templates/unlock.html:2
 msgid "Account activity notice"
-msgstr "Известие за действие по профила"
+msgstr "Известие за действие по сметка"
 
 #: templates/unlock.html:3 templates/unlock.txt:1
 msgid "For security reasons your Firefox Account was put on lockdown. To perform account-level activities, please click the link to re-verify your account now."
-msgstr "От съображения за сигурност вашият Firefox Account беше заключен. За да извършвате действия на ниво профил, моля посетете връзката за повторно потвърждение сега."
+msgstr "От съображения за сигурност вашият Firefox Account беше заключен. За да извършвате действия на ниво сметка, моля посетете връзката за повторно потвърждение сега."
 
 #: templates/unlock.html:4
 msgid "Verify account"
-msgstr "Потвърждаване на профил"
+msgstr "Потвърждаване на сметка"
 
 #: templates/unlock.txt:2
 msgid "Verify account:"
-msgstr "Потвърждаване на профил:"
+msgstr "Потвърждаване на сметка:"
 
 #: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:460
 msgid "Hello again."
@@ -314,7 +314,7 @@ msgstr ""
 
 #: mailer.js:328
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "Паролата ви за Firefox Account беше нулирана"
 
 #: mailer.js:349
 msgid "Firefox Account password reset required"
@@ -322,7 +322,7 @@ msgstr ""
 
 #: mailer.js:404
 msgid "Firefox Account Verified"
-msgstr "Firefox Account е проверен"
+msgstr "Firefox Account е потвърден"
 
 #: mailer.js:440
 msgid "Suspicious activity with your Firefox Account"
