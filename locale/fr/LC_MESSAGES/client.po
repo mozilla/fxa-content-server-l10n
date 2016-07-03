@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-20 17:00+0000\n"
-"PO-Revision-Date: 2016-06-20 17:42+0000\n"
+"PO-Revision-Date: 2016-07-03 18:12+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -676,11 +676,11 @@ msgstr "Vous vous souvenez de votre mot de passe ? Connectez-vous."
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
-msgstr "Les cookies et l'espace de stockage local sont nécessaires."
+msgstr "Les cookies et l’espace de stockage local sont nécessaires."
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Veuillez activer les cookies et le stockage local de votre navigateur afin d'accéder à Firefox Accounts. Cela permettra notamment de mémoriser vos informations entre deux sessions."
+msgstr "Veuillez activer les cookies et le stockage local de votre navigateur afin d’accéder à Firefox Accounts. Cela permettra notamment de mémoriser vos informations entre deux sessions."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
