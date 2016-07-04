@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-20 17:00+0000\n"
-"PO-Revision-Date: 2016-06-30 12:08+0000\n"
+"PO-Revision-Date: 2016-07-04 09:02+0000\n"
 "Last-Translator: stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -37,7 +37,7 @@ msgstr ""
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "Свържете друго устройство"
 
 #: templates/_pending.txt:6
 msgid "Sign in to Sync"
@@ -52,7 +52,7 @@ msgstr "Firefox Accounts"
 
 #: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:374
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "Ново вписване във Firefox"
 
 #: templates/new_device_login.html:3
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
@@ -82,11 +82,11 @@ msgstr ""
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Паролата е успешно сменена"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr ""
+msgstr "Вашата парола за Firefox Account беше успешно сменена."
 
 #: templates/password_changed.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
