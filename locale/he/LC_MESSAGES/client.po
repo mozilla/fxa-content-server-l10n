@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-20 17:00+0000\n"
-"PO-Revision-Date: 2016-07-06 16:50+0000\n"
+"PO-Revision-Date: 2016-07-06 18:03+0000\n"
 "Last-Translator: Tomer Cohen <tomer.mozilla@tomercohen.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -830,7 +830,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
-msgstr ""
+msgstr "ברשותך חשבון עם כתובת דוא״ל שונה? <a href=\"%(signinUri)s\">נא ללחוץ כאן כדי להתחבר</a>"
 
 #: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Send me the monthly Firefox newsletter."
@@ -930,7 +930,7 @@ msgstr "התקנים"
 msgid ""
 "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
 "href=\"%(linkLinux)s\">Linux</a>."
-msgstr ""
+msgstr "Firefox זמין עבור <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> ו־<a href=\"%(linkLinux)s\">Linux</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
