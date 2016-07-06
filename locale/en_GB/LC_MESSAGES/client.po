@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-20 17:00+0000\n"
-"PO-Revision-Date: 2016-05-30 09:22+0000\n"
-"Last-Translator: Ian Neal <iann_bugzilla@blueyonder.co.uk>\n"
+"PO-Revision-Date: 2016-06-30 23:40+0000\n"
+"Last-Translator: David Weir (satdav) <david.weir@mozilla.org.uk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
@@ -349,11 +349,11 @@ msgstr "Missing property in resume token: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:274
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "Invalid data attribute: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:278
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "Missing data attribute: %(property)s"
 
 #: app/scripts/lib/mailcheck.js:64
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -424,12 +424,8 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:26
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -512,15 +508,15 @@ msgstr "Get the latest news about Mozilla and Firefox."
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "Bad Request"
 
 #: app/scripts/templates/500.mustache:1
 msgid "500 Error"
-msgstr ""
+msgstr "500 Error"
 
 #: app/scripts/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr ""
+msgstr "Oh dear, something went wrong there. We've been notified and will get working on a fix."
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -837,7 +833,7 @@ msgstr "Have an account with a different email? <a href=\"%(signinUri)s\">Sign i
 
 #: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Send me the monthly Firefox newsletter."
-msgstr ""
+msgstr "Send me the monthly Firefox newsletter."
 
 #: app/scripts/templates/sign_up.mustache:20
 msgid "Create account"
@@ -931,11 +927,11 @@ msgstr "Devices"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
