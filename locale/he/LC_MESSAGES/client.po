@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-20 17:00+0000\n"
-"PO-Revision-Date: 2016-06-13 20:56+0000\n"
+"PO-Revision-Date: 2016-07-06 16:50+0000\n"
 "Last-Translator: Tomer Cohen <tomer.mozilla@tomercohen.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -33,7 +33,7 @@ msgstr "איפוס הססמה הושלם בהצלחה. נא להיכנס לחש�
 
 #: app/scripts/views/permissions.js:26
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName)s (נדרש)"
 
 #: app/scripts/views/permissions.js:32
 msgid "Email address"
@@ -202,11 +202,11 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:69
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "פרמטר לא חוקי: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:73
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "פרמטר חסר: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
@@ -222,15 +222,15 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:89
 msgid "Attempt limit exceeded"
-msgstr ""
+msgstr "חריגה ממגבלת הניסיונות"
 
 #: app/scripts/lib/auth-errors.js:101
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "הבקשה נחסמה מסיבות אבטחה"
 
 #: app/scripts/lib/auth-errors.js:109
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "השרת עמוס, נא לנסות שוב במועד מאוחר יותר"
 
 #: app/scripts/lib/auth-errors.js:113
 msgid "This endpoint is no longer supported"
@@ -238,7 +238,7 @@ msgstr "נקודת קצה זו אינה נתמכת יותר"
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/config-loader.js:73 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "מערכת לא זמינה, נא לנסות שנית במועד מאוחר יותר"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/oauth-errors.js:104
 msgid "no message"
@@ -298,11 +298,11 @@ msgstr "נדרשת כתובת דואר אלקטרוני חוקית"
 
 #: app/scripts/lib/auth-errors.js:195
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "הודעת האימות שלך לא הגיעה ליעדה. האם כתובת הדוא״ל הוקלדה בצורה שגויה?"
 
 #: app/scripts/lib/auth-errors.js:203
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "עליך להזין כתובת דואר אלקטרוני תקינה. firefox.com לא מציע שירותי דוא״ל."
 
 #: app/scripts/lib/auth-errors.js:211
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
@@ -330,11 +330,11 @@ msgstr "האפשרות להרשמה נוטרלה"
 
 #: app/scripts/lib/auth-errors.js:250
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "עליך להכניס את גילך כדי להשלים את ההרשמה"
 
 #: app/scripts/lib/auth-errors.js:254
 msgid "No Gravatar found"
-msgstr "לא נמצא Gravatar"
+msgstr "Gravatar לא אותר"
 
 #: app/scripts/lib/auth-errors.js:262
 msgid "Account no longer exists."
@@ -425,9 +425,7 @@ msgid "Firefox Sync"
 msgstr "Firefox Accounts"
 
 #: app/scripts/lib/strings.js:18
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:26
@@ -444,7 +442,7 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:31
 msgid "You signed in to Firefox from %(device)s."
-msgstr ""
+msgstr "התחברת ל־Firefox מ־%(device)s."
 
 #: app/scripts/lib/strings.js:32
 msgid "For added security, please confirm this sign-in to begin syncing with %(device)s."
@@ -460,7 +458,7 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:35
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>"
-msgstr ""
+msgstr "למידע נוסף, נא לפנות אל <a %(supportLinkAttributes)s>אתר התמיכה של Mozilla</a>"
 
 #: app/scripts/lib/strings.js:36
 msgid "Verify Email"
@@ -637,7 +635,7 @@ msgstr "פג תוקף קישור האימות"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
 msgid "Click here to receive a new verification link"
-msgstr ""
+msgstr "נא ללחוץ כאן לקבלת קישור לקוד אימות חדש"
 
 #: app/scripts/templates/complete_sign_up.mustache:10
 msgid "Verification error"
@@ -741,7 +739,7 @@ msgstr ""
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:2 app/scripts/templates/marketing_snippet_ios.mustache:3 app/scripts/templates/marketing_snippet_ios.mustache:12
 msgid "Download Firefox for iOS!"
-msgstr ""
+msgstr "הורדת Firefox עבור iOS!"
 
 #: app/scripts/templates/marketing_snippet_ios.mustache:6 app/scripts/templates/marketing_snippet_ios.mustache:7 app/scripts/templates/marketing_snippet_ios.mustache:11
 msgid "Download Firefox for Android."
@@ -800,7 +798,7 @@ msgstr "דואר אלקטרוני"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Firefox Accounts"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
@@ -930,13 +928,13 @@ msgstr "התקנים"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
-msgstr ""
+msgstr "ניתן לנהל את ההתקנים שלהלן."
 
 #: app/scripts/templates/settings/devices.mustache:6
 msgid "(current)"
