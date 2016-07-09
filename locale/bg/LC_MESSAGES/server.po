@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-20 17:00+0000\n"
-"PO-Revision-Date: 2016-07-04 09:02+0000\n"
+"PO-Revision-Date: 2016-07-09 14:23+0000\n"
 "Last-Translator: stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -157,7 +157,7 @@ msgstr "Екипът на Firefox Account"
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
-msgstr ""
+msgstr "Сметката е потвърдена!"
 
 #: templates/post_verify.html:3
 msgid ""
@@ -168,7 +168,7 @@ msgstr ""
 #: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
 #: templates/verify_login.html:5
 msgid "Alternatively:"
-msgstr ""
+msgstr "Алтернативна препратка:"
 
 #: templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
@@ -250,7 +250,7 @@ msgstr ""
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "Потвърждаване"
 
 #: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9
 msgid "Verify Email"
@@ -274,7 +274,7 @@ msgstr "Добре дошли!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "Моля, потвърдете сметката си като потвърдите своя имейл адрес."
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in to begin syncing with %(device)s."
@@ -322,7 +322,7 @@ msgstr "Необходимо е нулиране на паролата за Fire
 
 #: mailer.js:404
 msgid "Firefox Account Verified"
-msgstr "Firefox Account е потвърден"
+msgstr "Потвърден Firefox Account"
 
 #: mailer.js:440
 msgid "Suspicious activity with your Firefox Account"
