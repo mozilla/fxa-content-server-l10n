@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-01 13:33+0000\n"
-"PO-Revision-Date: 2016-05-19 17:06+0000\n"
-"Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
+"POT-Creation-Date: 2016-07-11 17:29+0000\n"
+"PO-Revision-Date: 2016-07-09 13:32+0000\n"
+"Last-Translator: Marko Kostić (Marko Kostić) <marko.m.kostic@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-POOTLE-MTIME: 1438060065.0\n"
 
 #: templates/_pending.txt:1 templates/verification_reminder_second.html:2
-#: templates/verification_reminder_second.txt:1 mailer.js:455
+#: templates/verification_reminder_second.txt:1 mailer.js:463
 msgid "Still there?"
 msgstr "Još uvek ste ovde?"
 
@@ -143,6 +143,8 @@ msgid ""
 "This is an automated email; if you did not authorize this action, then <a "
 "%(resetLinkAttributes)s>please reset your password</a>."
 msgstr ""
+"Ovo je automatski poslata poruka. Ukoliko niste ovlastili ovu radnju, onda "
+"je potrebno <a%(resetLinkAttributes)s>da resetujete lozinku</a>."
 
 #: templates/password_changed.txt:3
 msgid ""
@@ -161,6 +163,8 @@ msgid ""
 "Your Firefox Account password has changed. If you did not change it, please "
 "<a %(resetLinkAttributes)s>reset your password</a> now."
 msgstr ""
+"Lozinka za vaš Firefox nalog je promenjena. Ukoliko je niste vi promenili, "
+"<a %(resetLinkAttributes)s>resetujte vašu lozinku</a> odmah."
 
 #: templates/password_reset.html:4 templates/post_verify.html:6
 #: templates/post_verify.txt:4 templates/reset.html:7 templates/reset.txt:5
@@ -262,6 +266,9 @@ msgid ""
 "you can sign in to Sync from your other devices, including Firefox for <a "
 "%(androidLinkAttributes)s>Android</a> and <a %(iosLinkAttributes)s>iOS</a>."
 msgstr ""
+"Uspešno ste povezali vaš prvi uređaj na vaš Firefox nalog. Sada se možete "
+"prijaviti na Sync sa vaših ostalih uređaja uključujući i sa Firefox-a za <a "
+"%(androidLinkAttributes)s>Android</a> i za <a %(iosLinkAttributes)s>iOS</a>."
 
 #: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5
 #: templates/verification_reminder_first.html:5
@@ -363,7 +370,7 @@ msgid "Verify account:"
 msgstr "Potvrdite nalog:"
 
 #: templates/verification_reminder_first.html:2
-#: templates/verification_reminder_first.txt:1 mailer.js:452
+#: templates/verification_reminder_first.txt:1 mailer.js:460
 msgid "Hello again."
 msgstr "Pozdrav."
 
