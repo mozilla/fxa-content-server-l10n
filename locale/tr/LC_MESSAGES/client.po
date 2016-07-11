@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-20 17:00+0000\n"
+"POT-Creation-Date: 2016-07-11 17:29+0000\n"
 "PO-Revision-Date: 2016-07-07 19:00+0000\n"
 "Last-Translator: cevherkarakoc <cevherkarakoc@live.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444482586.0\n"
 
-#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:126 app/scripts/views/confirm.js:139 app/scripts/views/confirm_reset_password.js:184
+#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:127 app/scripts/views/confirm.js:138 app/scripts/views/confirm_reset_password.js:184
 msgid "Account verified successfully"
 msgstr "Hesap başarıyla doğrulandı"
 
@@ -63,11 +63,11 @@ msgstr "Yeniden hoş geldiniz"
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync az sonra devam edecek"
 
-#: app/scripts/views/ready.js:55 app/scripts/lib/strings.js:46
+#: app/scripts/views/ready.js:55
 msgid "Sign-in confirmed"
 msgstr "Giriş onaylandı"
 
-#: app/scripts/views/ready.js:56 app/scripts/views/ready.js:61 app/scripts/lib/strings.js:47 app/scripts/templates/ready.mustache:5
+#: app/scripts/views/ready.js:56 app/scripts/views/ready.js:61 app/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
 msgstr "%(serviceName)s artık kullanıma hazır"
 
@@ -75,15 +75,15 @@ msgstr "%(serviceName)s artık kullanıma hazır"
 msgid "Account verified"
 msgstr "Hesap doğrulandı"
 
-#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:158
+#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:156
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Bilinmeyen hesap. <a href=\"/signup\">Kaydolun</a>"
 
-#: app/scripts/views/sign_up.js:68
+#: app/scripts/views/sign_up.js:62
 msgid "Account no longer exists. Recreate it?"
 msgstr "Bu hesap artık yok. Yeniden oluşturulsun mu?"
 
-#: app/scripts/views/sign_up.js:386
+#: app/scripts/views/sign_up.js:380
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Hesap zaten var. <a href=\"/signin\">Giriş yapın</a>"
 
@@ -150,6 +150,22 @@ msgstr "Hesabınız güvenlik nedeniyle kilitlenmiştir"
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/templates/reset_password.mustache:6
 msgid "Reset password"
 msgstr "Parolayı sıfırla"
+
+#: app/scripts/views/mixins/open-webmail-mixin.js:19
+msgid "Open Gmail"
+msgstr "Gmail'i aç"
+
+#: app/scripts/views/mixins/open-webmail-mixin.js:25
+msgid "Open Hotmail"
+msgstr ""
+
+#: app/scripts/views/mixins/open-webmail-mixin.js:31
+msgid "Open Yahoo"
+msgstr ""
+
+#: app/scripts/views/mixins/open-webmail-mixin.js:37
+msgid "Open Outlook"
+msgstr ""
 
 #: app/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
@@ -236,7 +252,8 @@ msgstr "Sistem meşgul, daha sonra tekrar deneyin"
 msgid "This endpoint is no longer supported"
 msgstr "Bu uç nokta artık desteklenmiyor"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/config-loader.js:73 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/config-loader.js:73 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80
+#: app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Sistem şu an kullanılamıyor, daha sonra tekrar deneyin"
 
@@ -272,7 +289,7 @@ msgstr "Hizmet Koşulları alınamadı"
 msgid "Your new password must be different"
 msgstr "Yeni parolanız farklı olmalıdır"
 
-#: app/scripts/lib/auth-errors.js:153 app/scripts/templates/complete_reset_password.mustache:15 app/scripts/templates/sign_up.mustache:16 app/scripts/templates/settings/change_password.mustache:9
+#: app/scripts/lib/auth-errors.js:153 app/scripts/templates/complete_reset_password.mustache:15 app/scripts/templates/sign_up.mustache:18 app/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "En az 8 karakter olmalı"
 
@@ -324,35 +341,31 @@ msgstr "Resim boyutları en az 100x100 piksel olmalıdır"
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Kaydolma desteği yakında iOS için Firefox’a geliyor"
 
-#: app/scripts/lib/auth-errors.js:246
-msgid "Signup has been disabled"
-msgstr "Kaydolma devre dışıdır"
-
-#: app/scripts/lib/auth-errors.js:250
+#: app/scripts/lib/auth-errors.js:253
 msgid "You must enter your age to sign up"
 msgstr "Kaydolmak için yaşınızı belirtmelisiniz"
 
-#: app/scripts/lib/auth-errors.js:254
+#: app/scripts/lib/auth-errors.js:257
 msgid "No Gravatar found"
 msgstr "Gravatar bulunamadı"
 
-#: app/scripts/lib/auth-errors.js:262
+#: app/scripts/lib/auth-errors.js:265
 msgid "Account no longer exists."
 msgstr "Hesap artık mevcut değil."
 
-#: app/scripts/lib/auth-errors.js:266
+#: app/scripts/lib/auth-errors.js:269
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Sürdürme jetonunda geçersiz özellik: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:270
+#: app/scripts/lib/auth-errors.js:273
 msgid "Missing property in resume token: %(property)s"
 msgstr "Sürdürme jetonunda eksik özellik: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:274
+#: app/scripts/lib/auth-errors.js:277
 msgid "Invalid data attribute: %(property)s"
 msgstr "Geçersiz veri özniteliği: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:278
+#: app/scripts/lib/auth-errors.js:281
 msgid "Missing data attribute: %(property)s"
 msgstr "Eksik veri özniteliği: %(property)s"
 
@@ -425,7 +438,9 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Devam ederek %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Hizmet Koşullarını</a> ve <a id=\"service-pp\" href=\"%(privacyUri)s\">Gizlilik Bildirimini</a> kabul etmiş "
 "oluyorsunuz."
@@ -434,78 +449,7 @@ msgstr ""
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Yardım</a>"
 
-#: app/scripts/lib/strings.js:29
-msgid "Confirm new sign-in to Firefox"
-msgstr "Firefox’a yeni girişi onaylayın"
-
 #: app/scripts/lib/strings.js:30
-msgid "You signed in to Firefox from %(device)s, %(location)s."
-msgstr "Firefox’a %(device)s adlı cihazdan, %(location)s konumundan giriş yaptınız."
-
-#: app/scripts/lib/strings.js:31
-msgid "You signed in to Firefox from %(device)s."
-msgstr "Firefox’a %(device)s adlı cihazdan giriş yaptınız."
-
-#: app/scripts/lib/strings.js:32
-msgid "For added security, please confirm this sign-in to begin syncing with %(device)s."
-msgstr "Güvenliğinizi korumak için %(device)s ile eşitlemeye başlamadan önce bu girişi onaylamanız gerekiyor."
-
-#: app/scripts/lib/strings.js:33
-msgid "Alternatively:"
-msgstr "Alternatif olarak:"
-
-#: app/scripts/lib/strings.js:34
-msgid "This is an automated email; if you received it in error, no action is required."
-msgstr "Bu otomatik bir e-postadır. Yanlışlıkla geldiğini düşünüyorsanız hiçbir şey yapmanıza gerek yoktur."
-
-#: app/scripts/lib/strings.js:35
-msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>"
-msgstr "Daha fazla bilgi için lütfen <a %(supportLinkAttributes)s>Mozilla Destek</a>’i ziyaret edin."
-
-#: app/scripts/lib/strings.js:36
-msgid "Verify Email"
-msgstr "E-postayı doğrula"
-
-#: app/scripts/lib/strings.js:37
-msgid "Verify your email to finish your Firefox Account sign-in"
-msgstr "Firefox Hesabı girişinizi tamamlamak için e-postanızı doğrulayın"
-
-#: app/scripts/lib/strings.js:38
-msgid "Confirm sign-in"
-msgstr "Girişi onayla"
-
-#: app/scripts/lib/strings.js:39 app/scripts/templates/confirm.mustache:3
-msgid "Confirm this sign-in"
-msgstr "Bu girişi onayla"
-
-#: app/scripts/lib/strings.js:40 app/scripts/templates/complete_reset_password.mustache:2 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/templates/confirm.mustache:5
-#: app/scripts/templates/confirm_account_unlock.mustache:2 app/scripts/templates/confirm_reset_password.mustache:2
-msgid "Email resent"
-msgstr "E-posta tekrar gönderildi"
-
-#: app/scripts/lib/strings.js:41 app/scripts/templates/confirm.mustache:6 app/scripts/templates/confirm_account_unlock.mustache:3 app/scripts/templates/confirm_reset_password.mustache:3
-msgid "Email Sent"
-msgstr "E-posta gönderildi"
-
-#: app/scripts/lib/strings.js:42 app/scripts/templates/confirm.mustache:9
-msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr "Firefox verilerinizi daha iyi koruyabilmek için %(email)s adresine bir onay bağlantısı gönderdik"
-
-#: app/scripts/lib/strings.js:43 app/scripts/templates/confirm.mustache:11
-msgid "Open Gmail"
-msgstr "Gmail'i aç"
-
-#: app/scripts/lib/strings.js:44 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm.mustache:15 app/scripts/templates/confirm_account_unlock.mustache:6
-#: app/scripts/templates/confirm_reset_password.mustache:9
-msgid "Resend email"
-msgstr "E-postayı tekrar gönder"
-
-#: app/scripts/lib/strings.js:45 app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:14 app/scripts/templates/confirm_account_unlock.mustache:5
-#: app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
-msgid "Back"
-msgstr "Geri"
-
-#: app/scripts/lib/strings.js:51
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Mozilla ve Firefox hakkındaki son haberleri alın."
 
@@ -533,7 +477,7 @@ msgstr "Firefox&nbsp;Hesabı oluşturmak için yaş gereksinimlerini karşılama
 msgid "Learn more."
 msgstr "Daha fazla bilgi edinin."
 
-#: app/scripts/templates/choose_what_to_sync.mustache:1 app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/choose_what_to_sync.mustache:1 app/scripts/templates/sign_up.mustache:24
 msgid "Choose what to sync"
 msgstr "Nelerin eşitleneceğini seçin"
 
@@ -569,6 +513,11 @@ msgstr "Eklentiler ve tercihler şimdilik mobil cihazlarla eşitlenmemektedir."
 msgid "Save settings"
 msgstr "Ayarları kaydet"
 
+#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_account_unlock.mustache:5 app/scripts/templates/pp.mustache:3
+#: app/scripts/templates/tos.mustache:3
+msgid "Back"
+msgstr "Geri"
+
 #: app/scripts/templates/complete_account_unlock.mustache:1
 msgid "Unlock link expired"
 msgstr "Kilit açma bağlantısının süresi doldu"
@@ -588,6 +537,11 @@ msgstr "Kilit açma hatası"
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
 msgstr "Parolayı sıfırlama bağlantısı zaman aşımına uğradı"
+
+#: app/scripts/templates/complete_reset_password.mustache:2 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/templates/confirm.mustache:5
+#: app/scripts/templates/confirm_account_unlock.mustache:2 app/scripts/templates/confirm_reset_password.mustache:2
+msgid "Email resent"
+msgstr "E-posta tekrar gönderildi"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
@@ -618,7 +572,7 @@ msgid "New password"
 msgstr "Yeni parola"
 
 #: app/scripts/templates/complete_reset_password.mustache:14 app/scripts/templates/complete_reset_password.mustache:17 app/scripts/templates/force_auth.mustache:5
-#: app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:21 app/scripts/templates/sign_up.mustache:15 app/scripts/templates/settings/change_password.mustache:5
+#: app/scripts/templates/sign_in.mustache:11 app/scripts/templates/sign_in.mustache:23 app/scripts/templates/sign_up.mustache:17 app/scripts/templates/settings/change_password.mustache:5
 #: app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/delete_account.mustache:5 app/scripts/templates/settings/devices.mustache:3
 msgid "Show"
 msgstr "Göster"
@@ -647,9 +601,25 @@ msgstr "Doğrulama hatası"
 msgid "Confirm your account"
 msgstr "Hesabınızı onaylayın"
 
+#: app/scripts/templates/confirm.mustache:3
+msgid "Confirm this sign-in"
+msgstr "Bu girişi onayla"
+
+#: app/scripts/templates/confirm.mustache:6 app/scripts/templates/confirm_account_unlock.mustache:3 app/scripts/templates/confirm_reset_password.mustache:3
+msgid "Email Sent"
+msgstr "E-posta gönderildi"
+
 #: app/scripts/templates/confirm.mustache:7
 msgid "A verification link has been sent&nbsp;to %(email)s"
 msgstr "%(email)s adresine bir doğrulama bağlantısı gönderildi"
+
+#: app/scripts/templates/confirm.mustache:9
+msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+msgstr "Firefox verilerinizi daha iyi koruyabilmek için %(email)s adresine bir onay bağlantısı gönderdik"
+
+#: app/scripts/templates/confirm.mustache:12 app/scripts/templates/confirm.mustache:14
+msgid "Didn't arrive? Resend"
+msgstr ""
 
 #: app/scripts/templates/confirm_account_unlock.mustache:1
 msgid "Unlock email sent"
@@ -658,6 +628,10 @@ msgstr "Kilit açma e-postası gönderildi"
 #: app/scripts/templates/confirm_account_unlock.mustache:4
 msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
 msgstr "Güvenlik nedeniyle hesabınız kilitlendi. Hesap üzerinde işlem yapmak için lütfen %(email)s adresine gönderilen doğrulama bağlantısına tıklayarak hesabınızı yeniden doğrulayın"
+
+#: app/scripts/templates/confirm_account_unlock.mustache:6 app/scripts/templates/confirm_reset_password.mustache:9
+msgid "Resend email"
+msgstr "E-postayı tekrar gönder"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -692,24 +666,24 @@ msgstr "Tekrar dene"
 msgid "Sign in to continue"
 msgstr "Devam etmek için giriş yapın"
 
-#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:21 app/scripts/templates/sign_up.mustache:15
 #: app/scripts/templates/settings/change_password.mustache:1 app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Parola"
 
-#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in.mustache:4 app/scripts/templates/sign_in.mustache:10
-#: app/scripts/templates/sign_in.mustache:14 app/scripts/templates/sign_in.mustache:22
+#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in.mustache:4 app/scripts/templates/sign_in.mustache:12
+#: app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_in.mustache:24
 msgid "Sign in"
 msgstr "Giriş yap"
 
-#: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:11 app/scripts/templates/sign_in.mustache:23 app/scripts/templates/sign_in.mustache:25
-#: app/scripts/templates/settings/change_password.mustache:6
+#: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:13 app/scripts/templates/sign_in.mustache:25 app/scripts/templates/settings/change_password.mustache:6
 msgid "Forgot password?"
 msgstr "Parolanızı unuttunuz mu?"
 
-#: app/scripts/templates/force_auth.mustache:8 app/scripts/templates/sign_in.mustache:27 app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/force_auth.mustache:8 app/scripts/templates/sign_in.mustache:27 app/scripts/templates/sign_up.mustache:19
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Devam ederek Firefox bulut hizmetlerinin <a id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşullarını</a> ve <a id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimini</a> kabul etmiş oluyorsunuz."
+msgstr ""
+"Devam ederek Firefox bulut hizmetlerinin <a id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşullarını</a> ve <a id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimini</a> kabul etmiş oluyorsunuz."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -794,7 +768,7 @@ msgstr "Parolamı unuttum"
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "Parolanızı sıfırladığınızda cihazlarınızdan en az birinde saklanmamış olan tüm Sync verilerinizi kaybedeceksiniz."
 
-#: app/scripts/templates/reset_password.mustache:5 app/scripts/templates/sign_in.mustache:18 app/scripts/templates/sign_up.mustache:11 app/scripts/templates/settings/gravatar_permissions.mustache:3
+#: app/scripts/templates/reset_password.mustache:5 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "E-posta"
 
@@ -810,11 +784,15 @@ msgstr "Çıkış yap"
 msgid "Continue to %(serviceName)s"
 msgstr "%(serviceName)s servisine devam et"
 
-#: app/scripts/templates/sign_in.mustache:6
+#: app/scripts/templates/sign_in.mustache:6 app/scripts/templates/sign_up.mustache:6
+msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
+msgstr ""
+
+#: app/scripts/templates/sign_in.mustache:8
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr "Firefox&nbsp;Hesabı’nıza giriş yaparak eşitleme verilerinizi taşıyın."
 
-#: app/scripts/templates/sign_in.mustache:12 app/scripts/templates/sign_in.mustache:15
+#: app/scripts/templates/sign_in.mustache:14 app/scripts/templates/sign_in.mustache:17
 msgid "Use a different account"
 msgstr "Farklı bir hesap kullan"
 
@@ -826,23 +804,23 @@ msgstr "Hesap oluştur"
 msgid "Create a Firefox Account"
 msgstr "Firefox Hesabı Oluştur"
 
-#: app/scripts/templates/sign_up.mustache:6
+#: app/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr "Yeni bir Firefox&nbsp;Hesabı oluşturarak eşitleme verilerinizi taşıyın."
 
-#: app/scripts/templates/sign_up.mustache:8
+#: app/scripts/templates/sign_up.mustache:10
 msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 msgstr "Başka bir e-posta adresiyle hesabınız mı var? <a href=\"%(signinUri)s\">Giriş yapın</a>"
 
-#: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/settings/communication_preferences.mustache:7
+#: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Send me the monthly Firefox newsletter."
 msgstr "Bana aylık Firefox bültenini gönder."
 
-#: app/scripts/templates/sign_up.mustache:20
+#: app/scripts/templates/sign_up.mustache:22
 msgid "Create account"
 msgstr "Hesap oluştur"
 
-#: app/scripts/templates/sign_up.mustache:25
+#: app/scripts/templates/sign_up.mustache:27
 msgid "Have an account? Sign in."
 msgstr "Hesabınız var mı? Giriş yapın."
 
@@ -930,8 +908,8 @@ msgstr "Cihazlar"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-"href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+"\"%(linkLinux)s\">Linux</a>."
 msgstr ""
 "Firefox’un <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> ve <a href=\"%(linkLinux)s\">Linux</a> "
 "sürümleri mevcuttur."
@@ -941,8 +919,8 @@ msgid "You can manage your devices below."
 msgstr "Cihazlarınızı aşağıdan yönetebilirsiniz."
 
 #: app/scripts/templates/settings/devices.mustache:6
-msgid "(current)"
-msgstr "(şu anki)"
+msgid "current device"
+msgstr ""
 
 #: app/scripts/templates/settings/devices.mustache:8
 msgid "Disconnect"
@@ -979,6 +957,42 @@ msgstr "OpenID kullan"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Firefox Hesabı’mı kullan"
+
+#~ msgid "Signup has been disabled"
+#~ msgstr "Kaydolma devre dışıdır"
+
+#~ msgid "Confirm new sign-in to Firefox"
+#~ msgstr "Firefox’a yeni girişi onaylayın"
+
+#~ msgid "You signed in to Firefox from %(device)s, %(location)s."
+#~ msgstr "Firefox’a %(device)s adlı cihazdan, %(location)s konumundan giriş yaptınız."
+
+#~ msgid "You signed in to Firefox from %(device)s."
+#~ msgstr "Firefox’a %(device)s adlı cihazdan giriş yaptınız."
+
+#~ msgid "For added security, please confirm this sign-in to begin syncing with %(device)s."
+#~ msgstr "Güvenliğinizi korumak için %(device)s ile eşitlemeye başlamadan önce bu girişi onaylamanız gerekiyor."
+
+#~ msgid "Alternatively:"
+#~ msgstr "Alternatif olarak:"
+
+#~ msgid "This is an automated email; if you received it in error, no action is required."
+#~ msgstr "Bu otomatik bir e-postadır. Yanlışlıkla geldiğini düşünüyorsanız hiçbir şey yapmanıza gerek yoktur."
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>"
+#~ msgstr "Daha fazla bilgi için lütfen <a %(supportLinkAttributes)s>Mozilla Destek</a>’i ziyaret edin."
+
+#~ msgid "Verify Email"
+#~ msgstr "E-postayı doğrula"
+
+#~ msgid "Verify your email to finish your Firefox Account sign-in"
+#~ msgstr "Firefox Hesabı girişinizi tamamlamak için e-postanızı doğrulayın"
+
+#~ msgid "Confirm sign-in"
+#~ msgstr "Girişi onayla"
+
+#~ msgid "(current)"
+#~ msgstr "(şu anki)"
 
 #~ msgid "Welcome to Sync"
 #~ msgstr "Sync’e hoş geldiniz"
@@ -1215,13 +1229,17 @@ msgstr "Firefox Hesabı’mı kullan"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Zaten hesabınız var mı? Oturum açın."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
 #~ "Devam ederek %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Hizmet Kouşllarını</a> ve<a id=\"service-pp\" href=\"%(privacyUri)s\">Gizlilik Bildirimini</a> kabul "
 #~ "ettiğimi onaylıyorum."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Devam ederek, Firefox bulut servislerinin <a id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşullarını</a> ve <a id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimini</a> kabul ettiğimi onaylıyorum."
+#~ msgstr ""
+#~ "Devam ederek, Firefox bulut servislerinin <a id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşullarını</a> ve <a id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimini</a> kabul ettiğimi "
+#~ "onaylıyorum."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Firefox haberlerine ve ipuçlarına abone olun"

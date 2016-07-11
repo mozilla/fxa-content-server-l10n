@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-20 17:00+0000\n"
-"PO-Revision-Date: 2016-06-01 15:54+0000\n"
+"POT-Creation-Date: 2016-07-11 17:29+0000\n"
+"PO-Revision-Date: 2016-07-03 08:49+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -51,7 +51,7 @@ msgstr "Inicie sessão para sincronizar"
 #: templates/verify_login.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
-msgstr "Contas do Firefox"
+msgstr "Contas Firefox"
 
 #: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:374
 msgid "New sign-in to Firefox"
@@ -158,7 +158,7 @@ msgstr "O melhor,"
 
 #: templates/password_reset_required.html:9 templates/password_reset_required.txt:8 templates/suspicious_location.html:13 templates/suspicious_location.txt:12
 msgid "The Firefox Accounts team"
-msgstr "A equipa do Contas do Firefox"
+msgstr "A equipa do Contas Firefox"
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
@@ -375,7 +375,7 @@ msgstr "Está a utilizar um navegador <strong>desatualizado</strong>. Por favor,
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr "As Contas Firefox necessitam de JavaScript."
+msgstr "O Contas Firefox necessita de JavaScript."
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
