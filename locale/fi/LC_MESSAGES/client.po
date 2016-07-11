@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-11 17:29+0000\n"
-"PO-Revision-Date: 2016-06-20 21:00+0000\n"
+"PO-Revision-Date: 2016-07-11 19:09+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -157,15 +157,15 @@ msgstr "Avaa Gmail"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:25
 msgid "Open Hotmail"
-msgstr ""
+msgstr "Avaa Hotmail"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:31
 msgid "Open Yahoo"
-msgstr ""
+msgstr "Avaa Yahoo"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:37
 msgid "Open Outlook"
-msgstr ""
+msgstr "Avaa Outlook"
 
 #: app/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
@@ -438,11 +438,8 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync -palvelu"
 
 #: app/scripts/lib/strings.js:18
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Jatkamalla hyväksyt palvelun %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">käyttöehdot</a> ja <a id=\"service-pp\" href=\"%(privacyUri)s\">tietosuojakäytännön</a>."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Jatkamalla hyväksyt palvelun %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">käyttöehdot</a> ja <a id=\"service-pp\" href=\"%(privacyUri)s\">tietosuojakäytännön</a>."
 
 #: app/scripts/lib/strings.js:26
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -618,7 +615,7 @@ msgstr "Suojellaksemme Firefox-tietojasi olemme lähettäneet vahvistuslinkin os
 
 #: app/scripts/templates/confirm.mustache:12 app/scripts/templates/confirm.mustache:14
 msgid "Didn't arrive? Resend"
-msgstr ""
+msgstr "Eikö viesti saapunut? Lähetä uudestaan"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:1
 msgid "Unlock email sent"
@@ -784,7 +781,7 @@ msgstr "Jatka palveluun %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:6 app/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
-msgstr ""
+msgstr "Etsitkö Firefox Sync -palvelua? <a href=\"https://mozilla.org/firefox/sync\">Aloita tästä.</a>"
 
 #: app/scripts/templates/sign_in.mustache:8
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
@@ -906,11 +903,11 @@ msgstr "Laitteet"
 
 #: app/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox on saatavilla <a href=\"%(linkWindows)s\">Windowsille</a>, <a href=\"%(linkOSX)s\">OS X:lle</a>, <a href=\"%(linkAndroid)s\">Androidille</a>, <a href=\"%(linkIOS)s\">iOS:lle</a> ja <a href="
-"\"%(linkLinux)s\">Linuxille</a>."
+"Firefox on saatavilla <a href=\"%(linkWindows)s\">Windowsille</a>, <a href=\"%(linkOSX)s\">OS X:lle</a>, <a href=\"%(linkAndroid)s\">Androidille</a>, <a href=\"%(linkIOS)s\">iOS:lle</a> ja <a "
+"href=\"%(linkLinux)s\">Linuxille</a>."
 
 #: app/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -918,7 +915,7 @@ msgstr "Voit hallinnoida laitteitasi alta."
 
 #: app/scripts/templates/settings/devices.mustache:6
 msgid "current device"
-msgstr ""
+msgstr "nykyinen laite"
 
 #: app/scripts/templates/settings/devices.mustache:8
 msgid "Disconnect"
