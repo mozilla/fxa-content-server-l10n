@@ -93,7 +93,7 @@ msgstr "Лозинка Firefox налога је успешно промењен
 
 #: templates/password_changed.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "Ово је аутоматски послата порука. Уколико нисте овластили ову радњу, онда је потребно <a%(resetLinkAttributes)s>да ресетујете лозинку</a>."
+msgstr "Ово је аутоматски послата порука. Уколико нисте овластили ову радњу, онда је потребно <a %(resetLinkAttributes)s>да ресетујете лозинку</a>."
 
 #: templates/password_changed.txt:3
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
