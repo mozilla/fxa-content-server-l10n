@@ -144,7 +144,7 @@ msgid ""
 "%(resetLinkAttributes)s>please reset your password</a>."
 msgstr ""
 "Ovo je automatski poslata poruka. Ukoliko niste ovlastili ovu radnju, onda "
-"je potrebno <a%(resetLinkAttributes)s>da resetujete lozinku</a>."
+"je potrebno <a %(resetLinkAttributes)s>da resetujete lozinku</a>."
 
 #: templates/password_changed.txt:3
 msgid ""
