@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-11 17:29+0000\n"
-"PO-Revision-Date: 2016-07-12 09:19+0000\n"
-"Last-Translator: Luna Jernberg <bittin@cafe8bitar.se>\n"
+"PO-Revision-Date: 2016-07-12 11:51+0000\n"
+"Last-Translator: Ludwig Johnson <ludwig.johnson@telia.com>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
@@ -615,7 +615,7 @@ msgstr "För att bättre skydda din Firefox-data, har vi mejlat en bekräftelsel
 
 #: app/scripts/templates/confirm.mustache:12 app/scripts/templates/confirm.mustache:14
 msgid "Didn't arrive? Resend"
-msgstr ""
+msgstr "Kom det inte fram? Skicka igen"
 
 #: app/scripts/templates/confirm_account_unlock.mustache:1
 msgid "Unlock email sent"
