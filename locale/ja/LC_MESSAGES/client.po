@@ -785,7 +785,7 @@ msgstr "%(serviceName)s の利用を続ける"
 
 #: app/scripts/templates/sign_in.mustache:6 app/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
-msgstr "Firefox Sync をお探しですか？ <a href=\"https://www.mozilla.org/ja/firefox/sync/\">こちらをご覧ください</a>。"
+msgstr "Firefox Sync をお探しですか？ <a href=\"https://mozilla.org/firefox/sync\">こちらをご覧ください</a>。"
 
 #: app/scripts/templates/sign_in.mustache:8
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
