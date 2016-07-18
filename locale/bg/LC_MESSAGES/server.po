@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-11 17:29+0000\n"
-"PO-Revision-Date: 2016-07-14 04:41+0000\n"
+"PO-Revision-Date: 2016-07-18 07:51+0000\n"
 "Last-Translator: stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -28,12 +28,16 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
+"Успешно свързахте първото си устройство към своя Firefox Account. Сега може да се вписвате в Sync от другите си устройства, включително Firefox за <a href='%(androidUrl)s'>Android</a> и <a "
+"href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
 "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 "iOS</a>."
 msgstr ""
+"Успешно свързахте първото си устройство към своя Firefox Account. За да извлечете най-много от Sync, свържете <a href='%(androidUrl)s'>Firefox за Android</a> или <a href='%(iosUrl)s'>Firefox за "
+"iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -56,12 +60,12 @@ msgstr "Ново вписване във Firefox"
 
 #: templates/new_device_login.html:3
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr ""
+msgstr "Това писмо е изпратено автоматично. Ако вие не сте упълномощили това действие, тогава <a %(passwordChangeLinkAttributes)s>моля, сменете своята паролата.</a>"
 
 #: templates/new_device_login.html:4 templates/password_changed.html:5 templates/password_reset.html:5 templates/post_verify.html:7 templates/reset.html:8 templates/unlock.html:7
 #: templates/verification_reminder_first.html:7 templates/verification_reminder_second.html:7 templates/verify.html:7
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr "За повече информация моля посетете <a %(supportLinkAttributes)s>поддръжката на Mozilla</a>."
+msgstr "За повече информация, моля, посетете <a %(supportLinkAttributes)s>поддръжката на Mozilla</a>."
 
 #: templates/new_device_login.html:5 templates/new_device_login.txt:4 templates/password_changed.html:6 templates/password_changed.txt:5 templates/password_reset.html:6 templates/password_reset.txt:5
 #: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:8 templates/post_verify.txt:6 templates/reset.html:9 templates/reset.txt:7
@@ -78,7 +82,7 @@ msgstr ""
 #: templates/new_device_login.txt:3 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/reset.txt:6 templates/unlock.txt:4
 #: templates/verification_reminder_first.txt:5 templates/verification_reminder_second.txt:5 templates/verify.txt:5
 msgid "For more information, please visit %(supportUrl)s"
-msgstr "За повече информация моля посетете %(supportUrl)s"
+msgstr "За повече информация, моля, посетете %(supportUrl)s"
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
