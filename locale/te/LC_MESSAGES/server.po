@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-11 17:29+0000\n"
-"PO-Revision-Date: 2016-07-19 02:39+0000\n"
+"PO-Revision-Date: 2016-07-19 08:45+0000\n"
 "Last-Translator: Dinesh <dineshmv38@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -114,7 +114,7 @@ msgstr ""
 
 #: templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "పాస్వర్డ్ విజయవంతంగా రీసెట్ చేయబడింది"
 
 #: templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
@@ -134,7 +134,7 @@ msgstr ""
 
 #: templates/password_reset_required.html:4 templates/password_reset_required.txt:3
 msgid "What should you do?"
-msgstr ""
+msgstr "నీవు ఏమి చేయాలి?"
 
 #: templates/password_reset_required.html:5 templates/password_reset_required.txt:4 templates/suspicious_location.html:7 templates/suspicious_location.txt:6
 msgid "First, change your Firefox Account password."
@@ -178,11 +178,11 @@ msgstr ""
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr ""
+msgstr "Sync లోనికి ప్రవేశించండి:"
 
 #: templates/reset.html:2 templates/reset.txt:1
 msgid "Forgot your password?"
-msgstr ""
+msgstr "పాస్వర్డ్ మరచిపోయారా?"
 
 #: templates/reset.html:3 templates/reset.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account."
@@ -194,7 +194,7 @@ msgstr ""
 
 #: templates/reset.html:5 templates/reset.txt:4
 msgid "Reset password"
-msgstr ""
+msgstr "పాస్‌వర్డ్‌ని రీసెట్ చేయి"
 
 #: templates/suspicious_location.html:2 templates/suspicious_location.txt:1
 msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
@@ -202,15 +202,15 @@ msgstr ""
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
-msgstr ""
+msgstr "తేదీ మరియు సమయం:"
 
 #: templates/suspicious_location.html:4 templates/suspicious_location.txt:3
 msgid "Device:"
-msgstr ""
+msgstr "పరికరం:"
 
 #: templates/suspicious_location.html:5 templates/suspicious_location.txt:4
 msgid "Location:"
-msgstr ""
+msgstr "స్థానము:"
 
 #: templates/suspicious_location.html:6 templates/suspicious_location.txt:5
 msgid "If you don’t recognize the activity above:"
@@ -242,7 +242,7 @@ msgstr ""
 
 #: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:460
 msgid "Hello again."
-msgstr ""
+msgstr "మళ్ళీ హెలో."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
