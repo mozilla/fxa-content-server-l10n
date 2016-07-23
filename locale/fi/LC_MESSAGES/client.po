@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-11 17:29+0000\n"
-"PO-Revision-Date: 2016-07-11 19:09+0000\n"
+"PO-Revision-Date: 2016-07-23 18:09+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -435,7 +435,7 @@ msgstr "Kuvaa käsitellessä tapahtui virhe"
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
-msgstr "Firefox Sync -palvelu"
+msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:18
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
