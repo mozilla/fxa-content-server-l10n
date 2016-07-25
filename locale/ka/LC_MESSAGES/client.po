@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-11 17:29+0000\n"
+"POT-Creation-Date: 2016-07-25 20:11+0000\n"
 "PO-Revision-Date: 2016-05-24 03:05+0000\n"
 "Last-Translator: ბექა არაბული <arabulibeqa@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,429 +14,430 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:127 app/scripts/views/confirm.js:138 app/scripts/views/confirm_reset_password.js:184
+#: .es5/scripts/views/complete_reset_password.js:123 .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:130 .es5/scripts/views/confirm_reset_password.js:177
 msgid "Account verified successfully"
 msgstr "ანგარიში წარმატებით დამოწმდა"
 
-#: app/scripts/views/confirm_account_unlock.js:91
-msgid "Account unlocked, please try again"
-msgstr "ანგარიში გახსნილია, გთხოვთ ცადეთ ხელახლა"
-
-#: app/scripts/views/confirm_reset_password.js:174 app/scripts/views/ready.js:49
+#: .es5/scripts/views/confirm_reset_password.js:169 .es5/scripts/views/ready.js:43
 msgid "Password reset"
 msgstr "პაროლის ჩამოგდება"
 
-#: app/scripts/views/confirm_reset_password.js:203
+#: .es5/scripts/views/confirm_reset_password.js:196
 msgid "Password reset successfully. Sign in to continue."
 msgstr "პაროლი წარმატებით ჩამოვარდა. შედით გასაგრძელებლად."
 
-#: app/scripts/views/permissions.js:26
+#: .es5/scripts/views/permissions.js:26
 msgid "%(permissionName)s (required)"
 msgstr "%(permissionName)s (აუცილებელი)"
 
-#: app/scripts/views/permissions.js:32
+#: .es5/scripts/views/permissions.js:31
 msgid "Email address"
 msgstr "ელფოსტის მისამართი"
 
-#: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:4
+#: .es5/scripts/views/permissions.js:35 .es5/scripts/templates/settings/display_name.mustache:1 .es5/scripts/templates/settings/display_name.mustache:4
 msgid "Display name"
 msgstr "ნაჩვენები სახელი"
 
-#: app/scripts/views/permissions.js:41 app/scripts/templates/settings/avatar.mustache:1
+#: .es5/scripts/views/permissions.js:38 .es5/scripts/templates/settings/avatar.mustache:1
 msgid "Account picture"
 msgstr "ანგარიშის სურათი"
 
-#: app/scripts/views/ready.js:30
+#: .es5/scripts/views/ready.js:29
 msgid "Firefox Sync will begin momentarily"
 msgstr "Firefox Sync ახლავე დაიწყება"
 
-#: app/scripts/views/ready.js:39
-msgid "Account unlocked"
-msgstr "ანგარიში გახსნილია"
-
-#: app/scripts/views/ready.js:44
+#: .es5/scripts/views/ready.js:38
 msgid "Welcome back"
 msgstr "კეთილი იყოს თქვენი დაბრუნება"
 
-#: app/scripts/views/ready.js:45
+#: .es5/scripts/views/ready.js:39
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync ახლავე გაგრძელდება"
 
-#: app/scripts/views/ready.js:55
+#: .es5/scripts/views/ready.js:49
 msgid "Sign-in confirmed"
 msgstr "შესვლა დადასტურებულია"
 
-#: app/scripts/views/ready.js:56 app/scripts/views/ready.js:61 app/scripts/templates/ready.mustache:5
+#: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55 .es5/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
 msgstr "თქვენ უკვე მზად ხართ %(serviceName)s-ის გამოსაყენებლად"
 
-#: app/scripts/views/ready.js:60
+#: .es5/scripts/views/ready.js:54
 msgid "Account verified"
 msgstr "ანგარიში დამოწმდა"
 
-#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:156
+#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:151
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "უცნობი ანგარიში. <a href=\"/signup\">რეგისტრაცია</a>"
 
-#: app/scripts/views/sign_up.js:62
+#: .es5/scripts/views/sign_up.js:61
 msgid "Account no longer exists. Recreate it?"
 msgstr "ანგარიში აღარ არსებობს. შეიქმნას ხელახლა?"
 
-#: app/scripts/views/sign_up.js:380
+#: .es5/scripts/views/sign_up.js:361
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "ანგარიში უკვე არსებობს. <a href=\"/signin\">შესვლა</a>"
 
-#: app/scripts/views/settings/avatar_gravatar.js:89
+#: .es5/scripts/views/settings/avatar_gravatar.js:89
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "<a href=\"https://www.gravatar.com\">Gravatar-ის</a> თავაზიანობის წყალობით"
 
-#: app/scripts/views/settings/change_password.js:47
+#: .es5/scripts/views/settings/change_password.js:39
 msgid "Password changed successfully"
 msgstr "პაროლი წარმატებით შეიცვალა"
 
-#: app/scripts/views/settings/communication_preferences.js:116
+#: .es5/scripts/views/settings/communication_preferences.js:111
 msgid "Subscribed successfully"
 msgstr "გამოწერილია წარმატებით"
 
-#: app/scripts/views/settings/communication_preferences.js:117
+#: .es5/scripts/views/settings/communication_preferences.js:111
 msgid "Unsubscribed successfully"
 msgstr "გამოწერლა გაუქმებულია წარმატებით"
 
-#: app/scripts/views/settings/delete_account.js:48
+#: .es5/scripts/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "ანგარიში წარმატებით წაიშალა"
 
-#: app/scripts/views/settings/devices.js:25
+#: .es5/scripts/views/settings/devices.js:28
 msgid "days ago"
 msgstr "დღის წინ"
 
-#: app/scripts/views/settings/devices.js:26
+#: .es5/scripts/views/settings/devices.js:29
 msgid "hours ago"
 msgstr "საათის წინ"
 
-#: app/scripts/views/settings/devices.js:27
+#: .es5/scripts/views/settings/devices.js:30
 msgid "minutes ago"
 msgstr "წუთის წინ"
 
-#: app/scripts/views/settings/devices.js:28
+#: .es5/scripts/views/settings/devices.js:31
 msgid "months ago"
 msgstr "თვის წინ"
 
-#: app/scripts/views/settings/devices.js:29
+#: .es5/scripts/views/settings/devices.js:32
 msgid "seconds ago"
 msgstr "წამის წინ"
 
-#: app/scripts/views/settings/devices.js:31
+#: .es5/scripts/views/settings/devices.js:34
 msgid "weeks ago"
 msgstr "კვირის წინ"
 
-#: app/scripts/views/settings/devices.js:32
+#: .es5/scripts/views/settings/devices.js:35
 msgid "years ago"
 msgstr "წლის წინ"
 
-#: app/scripts/views/settings/display_name.js:52
+#: .es5/scripts/views/settings/display_name.js:50
 msgid "Display name updated"
 msgstr "ნაჩვენები სახელი განახლდა"
 
-#: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
-msgstr "ანგარიში ჩაკეტილია. <a href=\"/confirm_account_unlock\">გახსნის ელფოსტის გაგზავნა</a>"
-
-#: app/scripts/views/mixins/account-reset-mixin.js:42 app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:105
+#: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/lib/auth-errors.js:107
 msgid "Your account has been locked for security reasons"
 msgstr "თქვენი ანგარიში დაბლოკილია უსაფრთხოების მიზნით"
 
-#: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/templates/reset_password.mustache:6
+#: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/templates/reset_password.mustache:6
 msgid "Reset password"
 msgstr "პაროლის აღდგენა"
 
-#: app/scripts/views/mixins/open-webmail-mixin.js:19
+#: .es5/scripts/views/mixins/open-webmail-mixin.js:17
 msgid "Open Gmail"
 msgstr "Gmail-ის გახსნა"
 
-#: app/scripts/views/mixins/open-webmail-mixin.js:25
+#: .es5/scripts/views/mixins/open-webmail-mixin.js:22
 msgid "Open Hotmail"
 msgstr ""
 
-#: app/scripts/views/mixins/open-webmail-mixin.js:31
+#: .es5/scripts/views/mixins/open-webmail-mixin.js:27
 msgid "Open Yahoo"
 msgstr ""
 
-#: app/scripts/views/mixins/open-webmail-mixin.js:37
+#: .es5/scripts/views/mixins/open-webmail-mixin.js:32
 msgid "Open Outlook"
 msgstr ""
 
-#: app/scripts/views/mixins/signed-out-notification-mixin.js:39
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:21
+msgid "8 characters minimum, but longer if you plan to sync passwords."
+msgstr ""
+
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/templates/sign_up.mustache:18
+msgid "A strong, unique password will keep your Firefox data safe from intruders."
+msgstr ""
+
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:23
+msgid "This is a common password; please consider another one."
+msgstr ""
+
+#: .es5/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
 msgstr "გამოსვლა წარმატებულია"
 
-#: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39
-#: app/scripts/lib/profile-errors.js:47 app/scripts/lib/require-on-demand.js:33 app/scripts/lib/require-on-demand.js:37 app/scripts/lib/require-on-demand.js:41 app/scripts/lib/require-on-demand.js:45
+#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:76 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
+#: .es5/scripts/lib/profile-errors.js:47 .es5/scripts/lib/require-on-demand.js:33 .es5/scripts/lib/require-on-demand.js:37 .es5/scripts/lib/require-on-demand.js:41
+#: .es5/scripts/lib/require-on-demand.js:45
 msgid "Unexpected error"
 msgstr "მოულოდნელი შეცდომა"
 
-#: app/scripts/lib/auth-errors.js:29 app/scripts/lib/oauth-errors.js:50
+#: .es5/scripts/lib/auth-errors.js:29 .es5/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
 msgstr "უვარგისი ჟეტონი"
 
-#: app/scripts/lib/auth-errors.js:33
+#: .es5/scripts/lib/auth-errors.js:33
 msgid "Invalid timestamp in request signature"
 msgstr "უვარგისი დრო მოთხოვნის ხელმოწერაში"
 
-#: app/scripts/lib/auth-errors.js:37
+#: .es5/scripts/lib/auth-errors.js:37
 msgid "Invalid nonce in request signature"
 msgstr "უვარგისი მოცემული დრო მოთხოვნის ხელმოწერაში"
 
-#: app/scripts/lib/auth-errors.js:41
+#: .es5/scripts/lib/auth-errors.js:41
 msgid "Account already exists"
 msgstr "ანგარიში უკვე არსებობს"
 
-#: app/scripts/lib/auth-errors.js:45
+#: .es5/scripts/lib/auth-errors.js:45
 msgid "Unknown account"
 msgstr "უცნობი ანგარიში"
 
-#: app/scripts/lib/auth-errors.js:49
+#: .es5/scripts/lib/auth-errors.js:49
 msgid "Incorrect email case"
 msgstr "არასწორი ელფოსტა"
 
-#: app/scripts/lib/auth-errors.js:53
+#: .es5/scripts/lib/auth-errors.js:53
 msgid "Incorrect password"
 msgstr "არასწორი პაროლი"
 
-#: app/scripts/lib/auth-errors.js:57
+#: .es5/scripts/lib/auth-errors.js:57
 msgid "Unverified account"
 msgstr "დაუმოწმებელი ანგარიში"
 
-#: app/scripts/lib/auth-errors.js:61
+#: .es5/scripts/lib/auth-errors.js:61
 msgid "Invalid verification code"
 msgstr "უვარგისი დამოწმების კოდი"
 
-#: app/scripts/lib/auth-errors.js:65
+#: .es5/scripts/lib/auth-errors.js:65
 msgid "Invalid JSON in request body"
 msgstr "უვარგისი JSON მოთხოვნის შიგთავსში"
 
-#: app/scripts/lib/auth-errors.js:69
+#: .es5/scripts/lib/auth-errors.js:69
 msgid "Invalid parameter: %(param)s"
 msgstr "მცდარი OAuth პარამეტრი: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:73
+#: .es5/scripts/lib/auth-errors.js:73
 msgid "Missing parameter: %(param)s"
 msgstr "ნაკლული პარამეტრი: %(param)s"
 
-#: app/scripts/lib/auth-errors.js:77
+#: .es5/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
 msgstr "უვარგისი მოთხოვნის ხელმოწერა"
 
-#: app/scripts/lib/auth-errors.js:81
+#: .es5/scripts/lib/auth-errors.js:81
 msgid "Missing content-length header"
 msgstr "Content-length სათაური გამოტოვებულია"
 
-#: app/scripts/lib/auth-errors.js:85
+#: .es5/scripts/lib/auth-errors.js:85
 msgid "Request body too large"
 msgstr "მოთხოვნილი შიგთავსი ზედმეტად დიდია"
 
-#: app/scripts/lib/auth-errors.js:89
+#: .es5/scripts/lib/auth-errors.js:89
 msgid "Attempt limit exceeded"
 msgstr "მცდელობის ზღვარის გადაცელა"
 
-#: app/scripts/lib/auth-errors.js:101
+#: .es5/scripts/lib/auth-errors.js:103
 msgid "The request was blocked for security reasons"
 msgstr "მოთხოვნა დაბლოკილია უსაფრთხოების მიზნით"
 
-#: app/scripts/lib/auth-errors.js:109
+#: .es5/scripts/lib/auth-errors.js:111 .es5/scripts/lib/auth-errors.js:288
 msgid "Server busy, try again soon"
 msgstr "სერვერი დატვირთულია, ცადეთ მოგვიანებით"
 
-#: app/scripts/lib/auth-errors.js:113
+#: .es5/scripts/lib/auth-errors.js:115
 msgid "This endpoint is no longer supported"
 msgstr "მოთხოვნის ეს საბოლოო პუნტქი აღარაა მხარდაჭერილი"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/config-loader.js:73 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80
-#: app/scripts/lib/profile-errors.js:43
+#: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:72 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
+#: .es5/scripts/lib/oauth-errors.js:80 .es5/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "სისტემა მიუწვდომელია, ცადეთ მოგვიანებით"
 
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/oauth-errors.js:104
+#: .es5/scripts/lib/auth-errors.js:123 .es5/scripts/lib/oauth-errors.js:104
 msgid "no message"
 msgstr "შეტყობინება არაა"
 
-#: app/scripts/lib/auth-errors.js:125
+#: .es5/scripts/lib/auth-errors.js:127
 msgid "Session expired. Sign in to continue."
 msgstr "სესია დასრულებულია. გასაგრძელებლად, შედით ანგარიშზე."
 
-#: app/scripts/lib/auth-errors.js:129
+#: .es5/scripts/lib/auth-errors.js:131
 msgid "Cookies are still disabled"
 msgstr "ფუნთუშები ჯერ კიდევ გათიშულია"
 
-#: app/scripts/lib/auth-errors.js:133
+#: .es5/scripts/lib/auth-errors.js:135
 msgid "Passwords do not match"
 msgstr "პაროლები არ ემთხვევა"
 
-#: app/scripts/lib/auth-errors.js:137
+#: .es5/scripts/lib/auth-errors.js:139
 msgid "Working…"
 msgstr "მუშავდება…"
 
-#: app/scripts/lib/auth-errors.js:141
+#: .es5/scripts/lib/auth-errors.js:143
 msgid "Could not get Privacy Notice"
 msgstr "პირადი მონაცემების შესახებ განცხადების ჩვენება ვერ მოხერხდა"
 
-#: app/scripts/lib/auth-errors.js:145
+#: .es5/scripts/lib/auth-errors.js:147
 msgid "Could not get Terms of Service"
 msgstr "გამოყენების პირობების ჩვენება ვერ მოხერხდა"
 
-#: app/scripts/lib/auth-errors.js:149
+#: .es5/scripts/lib/auth-errors.js:151
 msgid "Your new password must be different"
 msgstr "ახალი პაროლი ძველისგან განსხვავებული უნდა იყოს"
 
-#: app/scripts/lib/auth-errors.js:153 app/scripts/templates/complete_reset_password.mustache:15 app/scripts/templates/sign_up.mustache:18 app/scripts/templates/settings/change_password.mustache:9
+#: .es5/scripts/lib/auth-errors.js:155 .es5/scripts/templates/complete_reset_password.mustache:15 .es5/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "უნდა შედგებოდეს სულ მცირე 8 სიმბოლოსგან"
 
-#: app/scripts/lib/auth-errors.js:157
+#: .es5/scripts/lib/auth-errors.js:159
 msgid "Valid password required"
 msgstr "მიუთითეთ მართებული პაროლი"
 
-#: app/scripts/lib/auth-errors.js:161 app/scripts/lib/auth-errors.js:199 app/scripts/lib/auth-errors.js:215
+#: .es5/scripts/lib/auth-errors.js:163 .es5/scripts/lib/auth-errors.js:201 .es5/scripts/lib/auth-errors.js:217
 msgid "Valid email required"
 msgstr "მიუთითეთ ელ-ფოსტის მართებული მისამართი"
 
-#: app/scripts/lib/auth-errors.js:172
+#: .es5/scripts/lib/auth-errors.js:174
 msgid "A usable image was not found"
 msgstr "გამოსადეგი სურათი ვერ მოიძებნა"
 
-#: app/scripts/lib/auth-errors.js:176
+#: .es5/scripts/lib/auth-errors.js:178
 msgid "Could not initialize camera"
 msgstr "კამერის ჩართვა ვერ მოხერხდა"
 
-#: app/scripts/lib/auth-errors.js:180
+#: .es5/scripts/lib/auth-errors.js:182
 msgid "Valid URL required"
 msgstr "მიუთითეთ მართებული ბმული"
 
-#: app/scripts/lib/auth-errors.js:195
+#: .es5/scripts/lib/auth-errors.js:197
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "დასამოწმებელი შეტყობინების გამოგზავნა, ვერ მოხერდა. მისამართი, შეცდომით ხომ არ აკრიფეთ?"
 
-#: app/scripts/lib/auth-errors.js:203
+#: .es5/scripts/lib/auth-errors.js:205
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "შეიყვანეთ ელ-ფოსტის მართებული მისამართი. firefox.com-ს ფოსტის მომსახურება არ აქვს."
 
-#: app/scripts/lib/auth-errors.js:211
+#: .es5/scripts/lib/auth-errors.js:213
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox ანგარიშის ჩასმა შესაძლებელია მხოლოდ IFRAME-ით ნებადართულ საიტებზე"
 
-#: app/scripts/lib/auth-errors.js:226 app/scripts/templates/complete_account_unlock.mustache:2 app/scripts/templates/complete_sign_up.mustache:3
+#: .es5/scripts/lib/auth-errors.js:228 .es5/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
 msgstr "ელფოსტის დასამოწმებელი ბმული ვადაგასულია."
 
-#: app/scripts/lib/auth-errors.js:230 app/scripts/templates/complete_sign_up.mustache:7
+#: .es5/scripts/lib/auth-errors.js:232 .es5/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "დასამოწმებელი ბმული დაზიანებულია"
 
-#: app/scripts/lib/auth-errors.js:238
+#: .es5/scripts/lib/auth-errors.js:240
 msgid "The image dimensions must be at least 100x100px"
 msgstr "სურათის ზომები უნდა იყოს სულ მცირე 100x100px"
 
-#: app/scripts/lib/auth-errors.js:242
+#: .es5/scripts/lib/auth-errors.js:244
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Firefox iOS ვერსიაზე რეგისტრაცია უახლოეს მომავალში იქნება შესაძლებელი"
 
-#: app/scripts/lib/auth-errors.js:253
+#: .es5/scripts/lib/auth-errors.js:255
 msgid "You must enter your age to sign up"
 msgstr "რეგისტრაციისთვის უნდა მიუთითოთ ასაკი"
 
-#: app/scripts/lib/auth-errors.js:257
+#: .es5/scripts/lib/auth-errors.js:259
 msgid "No Gravatar found"
 msgstr "Gravatar არ მოიძებნა"
 
-#: app/scripts/lib/auth-errors.js:265
+#: .es5/scripts/lib/auth-errors.js:267
 msgid "Account no longer exists."
 msgstr "ანგარიში გაუქმებულია"
 
-#: app/scripts/lib/auth-errors.js:269
+#: .es5/scripts/lib/auth-errors.js:271
 msgid "Invalid property in resume token: %(property)s"
 msgstr "არასწორი თვისება ტალონის გასაგრძელებლად: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:273
+#: .es5/scripts/lib/auth-errors.js:275
 msgid "Missing property in resume token: %(property)s"
 msgstr "გამოტოვებული თვისება ტალონის გასაგრძელებლად: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:277
+#: .es5/scripts/lib/auth-errors.js:279
 msgid "Invalid data attribute: %(property)s"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:281
+#: .es5/scripts/lib/auth-errors.js:283
 msgid "Missing data attribute: %(property)s"
 msgstr ""
 
-#: app/scripts/lib/mailcheck.js:64
+#: .es5/scripts/lib/mailcheck.js:60
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr "<span tabindex=\"1\">%(domain)s</span>-ს გულისხმობდით?"
 
-#: app/scripts/lib/oauth-errors.js:26
+#: .es5/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
 msgstr "უცნობი კლიენტი"
 
-#: app/scripts/lib/oauth-errors.js:30
+#: .es5/scripts/lib/oauth-errors.js:30
 msgid "Incorrect redirect_uri"
 msgstr "მცდარი redirect_uri"
 
-#: app/scripts/lib/oauth-errors.js:34
+#: .es5/scripts/lib/oauth-errors.js:34
 msgid "Invalid assertion"
 msgstr "არასწორი საბუთი"
 
-#: app/scripts/lib/oauth-errors.js:38
+#: .es5/scripts/lib/oauth-errors.js:38
 msgid "Unknown code"
 msgstr "უცნობი კოდი"
 
-#: app/scripts/lib/oauth-errors.js:42
+#: .es5/scripts/lib/oauth-errors.js:42
 msgid "Incorrect code"
 msgstr "არასწორი კოდი"
 
-#: app/scripts/lib/oauth-errors.js:46
+#: .es5/scripts/lib/oauth-errors.js:46
 msgid "Expired code"
 msgstr "ვადაგასული კოდი"
 
-#: app/scripts/lib/oauth-errors.js:54 app/scripts/lib/oauth-errors.js:76
+#: .es5/scripts/lib/oauth-errors.js:54 .es5/scripts/lib/oauth-errors.js:76
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "მცდარი OAuth პარამეტრი: %(param)s"
 
-#: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19
+#: .es5/scripts/lib/oauth-errors.js:62 .es5/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
 msgstr "უნებართვო"
 
-#: app/scripts/lib/oauth-errors.js:66
+#: .es5/scripts/lib/oauth-errors.js:66
 msgid "Forbidden"
 msgstr "აკრძალულია"
 
-#: app/scripts/lib/oauth-errors.js:88
+#: .es5/scripts/lib/oauth-errors.js:88
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "რაღაც ხარვეზია. გთხოვთ, დახუროთ ჩანართი და სცადოთ ხელახლა."
 
-#: app/scripts/lib/oauth-errors.js:108
+#: .es5/scripts/lib/oauth-errors.js:108
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "აკლია OAuth პარამეტრი: %(param)s"
 
-#: app/scripts/lib/profile-errors.js:23
+#: .es5/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
 msgstr "არასწორი ჟეტონი"
 
-#: app/scripts/lib/profile-errors.js:27
+#: .es5/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "უვარგისი მახასიათებელი მოთხოვნის შიგთავსში: %(param)s"
 
-#: app/scripts/lib/profile-errors.js:31
+#: .es5/scripts/lib/profile-errors.js:31
 msgid "Unsupported image provider"
 msgstr "სურათის მომწოდებელი არ არის მხარაჭერილი"
 
-#: app/scripts/lib/profile-errors.js:35
+#: .es5/scripts/lib/profile-errors.js:35
 msgid "Image processing error"
 msgstr "შეცდომა სურათის დამუშავებისას"
 
-#: app/scripts/lib/service-name.js:16
+#: .es5/scripts/lib/service-name.js:15
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: app/scripts/lib/strings.js:18
+#: .es5/scripts/lib/strings.js:17
 msgid ""
 "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
 "(%(serviceUri)s)."
@@ -444,469 +445,465 @@ msgstr ""
 "გაგრძელების შემთხვევაში, თქვენ ეთანხმებით %(serviceName)s (%(serviceUri)s)-ის <a id=\"service-tos\" href=\"%(termsUri)s\">გამოყენების პირობებს</a> და <a id=\"service-pp\" href=\"%(privacyUri)s"
 "\">პირადი მონაცემების დებულებას</a>."
 
-#: app/scripts/lib/strings.js:26
+#: .es5/scripts/lib/strings.js:24
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">დახმარება</a>"
 
-#: app/scripts/lib/strings.js:30
+#: .es5/scripts/lib/strings.js:28
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "მიიღეთ უახლესი ცნობები Mozilla და Firefox-ის შესახებ."
 
-#: app/scripts/templates/400.mustache:1
+#: .es5/scripts/lib/strings.js:31
+msgid "%(city)s, %(country)s (estimated)"
+msgstr ""
+
+#: .es5/scripts/lib/strings.js:32
+msgid "%(country)s (estimated)"
+msgstr ""
+
+#: .es5/scripts/lib/strings.js:33
+msgid "IP address: %(ip)s"
+msgstr ""
+
+#: .es5/scripts/lib/strings.js:34
+msgid "For added security, please confirm this sign-in to begin syncing with this device:"
+msgstr ""
+
+#: .es5/scripts/templates/400.mustache:1
 msgid "Bad Request"
 msgstr ""
 
-#: app/scripts/templates/500.mustache:1
+#: .es5/scripts/templates/500.mustache:1
 msgid "500 Error"
 msgstr ""
 
-#: app/scripts/templates/500.mustache:2
+#: .es5/scripts/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
 msgstr ""
 
-#: app/scripts/templates/cannot_create_account.mustache:1
+#: .es5/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
 msgstr "ანგარიშის შექმნა ვერ მოხერხდა"
 
-#: app/scripts/templates/cannot_create_account.mustache:2
+#: .es5/scripts/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr "Firefox&nbsp;ანგარიშის შესაქმენლად უნდა აკმაყოფილებდეთ ასაკის გარკვეულ მოთხოვნებს."
 
-#: app/scripts/templates/cannot_create_account.mustache:4
+#: .es5/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
 msgstr "შეიტყვეთ მეტი."
 
-#: app/scripts/templates/choose_what_to_sync.mustache:1 app/scripts/templates/sign_up.mustache:24
+#: .es5/scripts/templates/choose_what_to_sync.mustache:1 .es5/scripts/templates/sign_up.mustache:24
 msgid "Choose what to sync"
 msgstr "მონაცემების შერჩევა დასასინქრონებელად"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:2
+#: .es5/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Tabs"
 msgstr "ჩანართები"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:4
+#: .es5/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
 msgstr "სანიშნები"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:6
+#: .es5/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
 msgstr "დამატებები"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:8
+#: .es5/scripts/templates/choose_what_to_sync.mustache:8
 msgid "Passwords"
 msgstr "პაროლები"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:10
+#: .es5/scripts/templates/choose_what_to_sync.mustache:10
 msgid "History"
 msgstr "ისტორია"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:12
+#: .es5/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Preferences"
 msgstr "პარამეტრები"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:14
+#: .es5/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
 msgstr "დამატებები და პარამეტრები ამჟამად არაა დასინქრონებული მობილურ მოწყობილობებზე."
 
-#: app/scripts/templates/choose_what_to_sync.mustache:15
+#: .es5/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
 msgstr "პარამეტრების შენახვა"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_account_unlock.mustache:5 app/scripts/templates/pp.mustache:3
-#: app/scripts/templates/tos.mustache:3
+#: .es5/scripts/templates/choose_what_to_sync.mustache:16 .es5/scripts/templates/confirm.mustache:13 .es5/scripts/templates/pp.mustache:3 .es5/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "უკან"
 
-#: app/scripts/templates/complete_account_unlock.mustache:1
-msgid "Unlock link expired"
-msgstr "განსაბლოკი ბმული ვადაგასულია"
-
-#: app/scripts/templates/complete_account_unlock.mustache:4
-msgid "Unlock link damaged"
-msgstr "განსაბლოკი ბმული დაზიანებულია"
-
-#: app/scripts/templates/complete_account_unlock.mustache:5 app/scripts/templates/complete_reset_password.mustache:7 app/scripts/templates/complete_sign_up.mustache:8
-msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "ბმულს, რომელზეც გადახვედით ან სიმბოლოები აკლია, ან დაზიანებულია თქვენი ელ-ფოსტის კლიენტის მიერ. ყურადღებით გადმოიტანეთ მისამართი და სცადეთ ხელახლა."
-
-#: app/scripts/templates/complete_account_unlock.mustache:7
-msgid "Unlock error"
-msgstr "შეცდობა ბლოკის მოხსნისას"
-
-#: app/scripts/templates/complete_reset_password.mustache:1
+#: .es5/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
 msgstr "პაროლის აღსადგენი ბმული ვადაგასულია"
 
-#: app/scripts/templates/complete_reset_password.mustache:2 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/templates/confirm.mustache:5
-#: app/scripts/templates/confirm_account_unlock.mustache:2 app/scripts/templates/confirm_reset_password.mustache:2
+#: .es5/scripts/templates/complete_reset_password.mustache:2 .es5/scripts/templates/complete_sign_up.mustache:2 .es5/scripts/templates/confirm.mustache:5
+#: .es5/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email resent"
 msgstr "შეტყობინება გადმოგზავნილია ხელახლა"
 
-#: app/scripts/templates/complete_reset_password.mustache:3
+#: .es5/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
 msgstr "პაროლის აღსადგენი ბმული, რომელზეც დააწკაპეთ, ვადაგასულია."
 
-#: app/scripts/templates/complete_reset_password.mustache:4
+#: .es5/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
 msgstr "დააწკაპეთ აქ, აღდგენისთვის ახალი ბმულის მისაღებად"
 
-#: app/scripts/templates/complete_reset_password.mustache:6
+#: .es5/scripts/templates/complete_reset_password.mustache:6
 msgid "Reset password link damaged"
 msgstr "პაროლის აღსადგენი ბმული დაზიანებულია"
 
-#: app/scripts/templates/complete_reset_password.mustache:9
+#: .es5/scripts/templates/complete_reset_password.mustache:7 .es5/scripts/templates/complete_sign_up.mustache:8
+msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
+msgstr "ბმულს, რომელზეც გადახვედით ან სიმბოლოები აკლია, ან დაზიანებულია თქვენი ელ-ფოსტის კლიენტის მიერ. ყურადღებით გადმოიტანეთ მისამართი და სცადეთ ხელახლა."
+
+#: .es5/scripts/templates/complete_reset_password.mustache:9
 msgid "Enter new password"
 msgstr "შეიყვანეთ ახალი პაროლი"
 
-#: app/scripts/templates/complete_reset_password.mustache:10
+#: .es5/scripts/templates/complete_reset_password.mustache:10
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
 msgstr "როგორც კი ახალ პაროლს გადასცემთ, Sync-ის ყველა ის მონაცემი დაიკარგება, რაც მოწყობილობებზე არ გაქვთ."
 
-#: app/scripts/templates/complete_reset_password.mustache:11 app/scripts/templates/reset_password.mustache:3
+#: .es5/scripts/templates/complete_reset_password.mustache:11 .es5/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
 msgstr "გაიგეთ როგორ მუშაობს Sync."
 
-#: app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
+#: .es5/scripts/templates/complete_reset_password.mustache:13 .es5/scripts/templates/settings/change_password.mustache:7
 msgid "New password"
 msgstr "ახალი პაროლი"
 
-#: app/scripts/templates/complete_reset_password.mustache:14 app/scripts/templates/complete_reset_password.mustache:17 app/scripts/templates/force_auth.mustache:5
-#: app/scripts/templates/sign_in.mustache:11 app/scripts/templates/sign_in.mustache:23 app/scripts/templates/sign_up.mustache:17 app/scripts/templates/settings/change_password.mustache:5
-#: app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/delete_account.mustache:5 app/scripts/templates/settings/devices.mustache:3
+#: .es5/scripts/templates/complete_reset_password.mustache:14 .es5/scripts/templates/complete_reset_password.mustache:17 .es5/scripts/templates/force_auth.mustache:5
+#: .es5/scripts/templates/sign_in.mustache:9 .es5/scripts/templates/sign_in.mustache:21 .es5/scripts/templates/sign_up.mustache:17 .es5/scripts/templates/settings/change_password.mustache:5
+#: .es5/scripts/templates/settings/change_password.mustache:8 .es5/scripts/templates/settings/delete_account.mustache:5 .es5/scripts/templates/settings/devices.mustache:3
 msgid "Show"
 msgstr "ჩვენება"
 
-#: app/scripts/templates/complete_reset_password.mustache:16
+#: .es5/scripts/templates/complete_reset_password.mustache:16
 msgid "Repeat password"
 msgstr "გაიმეორეთ პაროლი"
 
-#: app/scripts/templates/complete_reset_password.mustache:18
+#: .es5/scripts/templates/complete_reset_password.mustache:18
 msgid "Submit new password"
 msgstr "გადაეცით ახალი პაროლი"
 
-#: app/scripts/templates/complete_sign_up.mustache:1
+#: .es5/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
 msgstr "დასამოწმებელი ბმული ვადაგასულია"
 
-#: app/scripts/templates/complete_sign_up.mustache:4
+#: .es5/scripts/templates/complete_sign_up.mustache:4
 msgid "Click here to receive a new verification link"
 msgstr "დააწკაპეთ აქ, ახალი დასამოწმებელი ბმულის მისაღებად"
 
-#: app/scripts/templates/complete_sign_up.mustache:10
+#: .es5/scripts/templates/complete_sign_up.mustache:10
 msgid "Verification error"
 msgstr "შეცდომა დამოწმებისას"
 
-#: app/scripts/templates/confirm.mustache:1
+#: .es5/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
 msgstr "დაადასტურეთ თქვენი ანგარიში"
 
-#: app/scripts/templates/confirm.mustache:3
+#: .es5/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
 msgstr "დაადასტურეთ ეს შესვლა"
 
-#: app/scripts/templates/confirm.mustache:6 app/scripts/templates/confirm_account_unlock.mustache:3 app/scripts/templates/confirm_reset_password.mustache:3
+#: .es5/scripts/templates/confirm.mustache:6 .es5/scripts/templates/confirm_reset_password.mustache:3
 msgid "Email Sent"
 msgstr "შეტყობინება გამოგზავნილია"
 
-#: app/scripts/templates/confirm.mustache:7
+#: .es5/scripts/templates/confirm.mustache:7
 msgid "A verification link has been sent&nbsp;to %(email)s"
 msgstr "დასამოწმებელი ბმული გამოგზავნილია&nbsp;%(email)s-ზე"
 
-#: app/scripts/templates/confirm.mustache:9
+#: .es5/scripts/templates/confirm.mustache:9
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
 msgstr "თქვენი Firefox მონაცემების უკეთ დასაცავად, დასადასტურებელი ბმული %(email)s ელფოსტაზე გამოგიგზავნეთ."
 
-#: app/scripts/templates/confirm.mustache:12 app/scripts/templates/confirm.mustache:14
+#: .es5/scripts/templates/confirm.mustache:12 .es5/scripts/templates/confirm.mustache:14
 msgid "Didn't arrive? Resend"
 msgstr ""
 
-#: app/scripts/templates/confirm_account_unlock.mustache:1
-msgid "Unlock email sent"
-msgstr "განსაბლოკი შეტყობინება გამოგზავნილია"
-
-#: app/scripts/templates/confirm_account_unlock.mustache:4
-msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
-msgstr "უსაფრთხოების მიზნით, თქვენი ანგარიში დაიბლოკა. მისით სარგებლობის უფლების აღსადგენად, გთხოვთ გადახვიდეთ %(email)s-ზე გამოგზავნილ ბმულზე და ხელახლა დაამოწმოთ თქვენი ანგარიში."
-
-#: app/scripts/templates/confirm_account_unlock.mustache:6 app/scripts/templates/confirm_reset_password.mustache:9
-msgid "Resend email"
-msgstr "შეტყობინების ხელახლა გაგზავნა"
-
-#: app/scripts/templates/confirm_reset_password.mustache:1
+#: .es5/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
 msgstr "აღსადგენი შეტყობინება გამოგზავნილია"
 
-#: app/scripts/templates/confirm_reset_password.mustache:4
+#: .es5/scripts/templates/confirm_reset_password.mustache:4
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
 msgstr "დააწკაპეთ %(email)s-ზე ჩვენს მიერ გამოგზავნილ ბმულზე უახლოესი ერთი საათის განმავლობაში და შექმენით ახალი პაროლი."
 
-#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7 app/scripts/templates/reset_password.mustache:7
-#: app/scripts/templates/reset_password.mustache:9
+#: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:7
+#: .es5/scripts/templates/reset_password.mustache:9
 msgid "Remember password? Sign in."
 msgstr "პაროლის დამახსოვრება? შესვლა."
 
-#: app/scripts/templates/cookies_disabled.mustache:1
+#: .es5/scripts/templates/confirm_reset_password.mustache:9
+msgid "Resend email"
+msgstr "შეტყობინების ხელახლა გაგზავნა"
+
+#: .es5/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
 msgstr "ჩართული უნდა იყოს ფუნთუშების და ჩანაწერების შენახვის შესაძლებლობა."
 
-#: app/scripts/templates/cookies_disabled.mustache:2
+#: .es5/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
 msgstr "გთხოვთ ჩართოთ ბრაუზერში ფუნთუშების და ჩანაწერების შენახვის შესაძლებლობა, Firefox ანგარიშთან დასაკავშირებლად, რაც მომხმარებლის დამახსოვრების საშუალებას იძლევა."
 
-#: app/scripts/templates/cookies_disabled.mustache:3
+#: .es5/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
 msgstr "შეიტყვეთ მეტი"
 
-#: app/scripts/templates/cookies_disabled.mustache:4
+#: .es5/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
 msgstr "სცადეთ ხელახლა"
 
-#: app/scripts/templates/force_auth.mustache:1
+#: .es5/scripts/templates/force_auth.mustache:1
 msgid "Sign in to continue"
 msgstr "გასაგრძელებლად შედით ანგარიშში"
 
-#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:21 app/scripts/templates/sign_up.mustache:15
-#: app/scripts/templates/settings/change_password.mustache:1 app/scripts/templates/settings/delete_account.mustache:4
+#: .es5/scripts/templates/force_auth.mustache:3 .es5/scripts/templates/sign_in.mustache:8 .es5/scripts/templates/sign_in.mustache:19 .es5/scripts/templates/sign_up.mustache:15
+#: .es5/scripts/templates/settings/change_password.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "პაროლი"
 
-#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in.mustache:4 app/scripts/templates/sign_in.mustache:12
-#: app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_in.mustache:24
+#: .es5/scripts/templates/force_auth.mustache:6 .es5/scripts/templates/sign_in.mustache:1 .es5/scripts/templates/sign_in.mustache:4 .es5/scripts/templates/sign_in.mustache:10
+#: .es5/scripts/templates/sign_in.mustache:14 .es5/scripts/templates/sign_in.mustache:22
 msgid "Sign in"
 msgstr "შესვლა"
 
-#: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:13 app/scripts/templates/sign_in.mustache:25 app/scripts/templates/settings/change_password.mustache:6
+#: .es5/scripts/templates/force_auth.mustache:7 .es5/scripts/templates/sign_in.mustache:11 .es5/scripts/templates/sign_in.mustache:23 .es5/scripts/templates/settings/change_password.mustache:6
 msgid "Forgot password?"
 msgstr "დაგავიწყდათ პაროლი?"
 
-#: app/scripts/templates/force_auth.mustache:8 app/scripts/templates/sign_in.mustache:27 app/scripts/templates/sign_up.mustache:19
+#: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
 "გაგრძელების შემთხვევაში, თქვენ ეთანხმებით Firefox ღრუბლოვანი მომსახურებების <a id=\"fxa-tos\" href=\"/legal/terms\">გამოყენების პირობებს</a> და <a id=\"fxa-pp\" href=\"/legal/privacy\">პირადი "
 "მონაცემების დებულებას</a>."
 
-#: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
+#: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
 msgstr "Firefox ღრუბლოვანი მომსახურებები"
 
-#: app/scripts/templates/legal.mustache:2
+#: .es5/scripts/templates/legal.mustache:2
 msgid "Legal"
 msgstr "იურიდიული ინფორმაცია"
 
-#: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:5 app/scripts/templates/tos.mustache:2
+#: .es5/scripts/templates/legal.mustache:3 .es5/scripts/templates/settings.mustache:5 .es5/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "გამოყენების პირობები"
 
-#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:6
+#: .es5/scripts/templates/legal.mustache:4 .es5/scripts/templates/pp.mustache:2 .es5/scripts/templates/settings.mustache:6
 msgid "Privacy Notice"
 msgstr "პირადი მონაცემების დებულება"
 
-#: app/scripts/templates/marketing_snippet.mustache:1
+#: .es5/scripts/templates/marketing_snippet.mustache:1
 msgid "Stay in sync on the go:"
 msgstr "გარეთ გასვლისას, გაიყოლეთ თან დასინქრონებული მონაცემები:"
 
-#: app/scripts/templates/marketing_snippet.mustache:2
+#: .es5/scripts/templates/marketing_snippet.mustache:2
 msgid "Get Firefox for Android"
 msgstr "Firefox Android-ისთვის"
 
-#: app/scripts/templates/marketing_snippet_ios.mustache:1 app/scripts/templates/marketing_snippet_ios.mustache:5 app/scripts/templates/marketing_snippet_ios.mustache:9
+#: .es5/scripts/templates/marketing_snippet_ios.mustache:1 .es5/scripts/templates/marketing_snippet_ios.mustache:5 .es5/scripts/templates/marketing_snippet_ios.mustache:9
 msgid "Get the full Sync experience."
 msgstr "ისარგებლეთ Sync-ით სრულყოფილად."
 
-#: app/scripts/templates/marketing_snippet_ios.mustache:2 app/scripts/templates/marketing_snippet_ios.mustache:3 app/scripts/templates/marketing_snippet_ios.mustache:12
+#: .es5/scripts/templates/marketing_snippet_ios.mustache:2 .es5/scripts/templates/marketing_snippet_ios.mustache:3 .es5/scripts/templates/marketing_snippet_ios.mustache:12
 msgid "Download Firefox for iOS!"
 msgstr "ჩამოტვირთეთ Firefox iOS-ისთვის!"
 
-#: app/scripts/templates/marketing_snippet_ios.mustache:6 app/scripts/templates/marketing_snippet_ios.mustache:7 app/scripts/templates/marketing_snippet_ios.mustache:11
+#: .es5/scripts/templates/marketing_snippet_ios.mustache:6 .es5/scripts/templates/marketing_snippet_ios.mustache:7 .es5/scripts/templates/marketing_snippet_ios.mustache:11
 msgid "Download Firefox for Android."
 msgstr "ჩამოტვირთეთ Firefox Android-ისთვის."
 
-#: app/scripts/templates/marketing_snippet_ios.mustache:10
+#: .es5/scripts/templates/marketing_snippet_ios.mustache:10
 msgid "Download Firefox for mobile devices."
 msgstr "ჩამოტვირთეთ Firefox მობილური მოწყობილობებისთვის."
 
-#: app/scripts/templates/permissions.mustache:1 app/scripts/templates/settings/gravatar_permissions.mustache:1
+#: .es5/scripts/templates/permissions.mustache:1 .es5/scripts/templates/settings/gravatar_permissions.mustache:1
 msgid "Request for permission"
 msgstr "ნებართვის მოთხოვნა"
 
-#: app/scripts/templates/permissions.mustache:2 app/scripts/templates/settings/gravatar_permissions.mustache:2
+#: .es5/scripts/templates/permissions.mustache:2 .es5/scripts/templates/settings/gravatar_permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
 msgstr "%(serviceName)s ითხოვს თქვენი ანგარიშიდან შემდეგ მონაცემებს:"
 
-#: app/scripts/templates/permissions.mustache:3 app/scripts/templates/settings/gravatar_permissions.mustache:4
+#: .es5/scripts/templates/permissions.mustache:3 .es5/scripts/templates/settings/gravatar_permissions.mustache:4
 msgid "Accept"
 msgstr "დათანხმება"
 
-#: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
-#: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:11 app/scripts/templates/settings/communication_preferences.mustache:5
-#: app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:7 app/scripts/templates/settings/display_name.mustache:6
-#: app/scripts/templates/settings/gravatar_permissions.mustache:5
+#: .es5/scripts/templates/permissions.mustache:4 .es5/scripts/templates/settings/avatar_camera.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:3
+#: .es5/scripts/templates/settings/avatar_gravatar.mustache:3 .es5/scripts/templates/settings/change_password.mustache:11 .es5/scripts/templates/settings/communication_preferences.mustache:5
+#: .es5/scripts/templates/settings/communication_preferences.mustache:13 .es5/scripts/templates/settings/delete_account.mustache:7 .es5/scripts/templates/settings/display_name.mustache:6
+#: .es5/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
 msgstr "გაუქმება"
 
-#: app/scripts/templates/ready.mustache:1
+#: .es5/scripts/templates/ready.mustache:1
 msgid "Success"
 msgstr "წარმატება"
 
-#: app/scripts/templates/ready.mustache:2
+#: .es5/scripts/templates/ready.mustache:2
 msgid "Sync preferences"
 msgstr "Sync პარამეტრები"
 
-#: app/scripts/templates/ready.mustache:6
+#: .es5/scripts/templates/ready.mustache:6
 msgid "Proceed"
 msgstr "გაგრძელება"
 
-#: app/scripts/templates/ready.mustache:9
+#: .es5/scripts/templates/ready.mustache:9
 msgid "Your account is ready!"
 msgstr "თქვენი ანგარიში მზადაა!"
 
-#: app/scripts/templates/reset_password.mustache:1
+#: .es5/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
 msgstr "დაგავიწყდათ პაროლი"
 
-#: app/scripts/templates/reset_password.mustache:2
+#: .es5/scripts/templates/reset_password.mustache:2
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "პაროლის აღდგენის შემთხვევაში, Sync-ის ყველა ის მონაცემი დაიკარგება, რაც მოწყობილობებზე არ გაქვთ."
 
-#: app/scripts/templates/reset_password.mustache:5 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
+#: .es5/scripts/templates/reset_password.mustache:5 .es5/scripts/templates/sign_in.mustache:18 .es5/scripts/templates/sign_up.mustache:13
+#: .es5/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "ელ-ფოსტა"
 
-#: app/scripts/templates/settings.mustache:1
+#: .es5/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
 msgstr "Firefox ანგარიშები"
 
-#: app/scripts/templates/settings.mustache:2
+#: .es5/scripts/templates/settings.mustache:2
 msgid "Sign out"
 msgstr "გასვლა"
 
-#: app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
+#: .es5/scripts/templates/sign_in.mustache:2 .es5/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "%(serviceName)s-ზე გაგრძელება"
 
-#: app/scripts/templates/sign_in.mustache:6 app/scripts/templates/sign_up.mustache:6
-msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
-msgstr ""
-
-#: app/scripts/templates/sign_in.mustache:8
+#: .es5/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr "გადაიტანეთ თქვენი დასინქრონებული მონაცემები Firefox&nbsp;ანგარიშზე შესვლით."
 
-#: app/scripts/templates/sign_in.mustache:14 app/scripts/templates/sign_in.mustache:17
+#: .es5/scripts/templates/sign_in.mustache:12 .es5/scripts/templates/sign_in.mustache:15
 msgid "Use a different account"
 msgstr "სხვა ანგარიშის გამოყენება"
 
-#: app/scripts/templates/sign_in.mustache:26
+#: .es5/scripts/templates/sign_in.mustache:24
 msgid "Create an account"
 msgstr "ანგარიშის შექმნა"
 
-#: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4
+#: .es5/scripts/templates/sign_up.mustache:1 .es5/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
 msgstr "Firefox ანგარიშის შექმნა"
 
-#: app/scripts/templates/sign_up.mustache:8
+#: .es5/scripts/templates/sign_up.mustache:6
+msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
+msgstr ""
+
+#: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr "გადაიტანეთ თქვენი დასინქრონებული მონაცემები ახალი Firefox&nbsp;ანგარიშის შექმნით."
 
-#: app/scripts/templates/sign_up.mustache:10
+#: .es5/scripts/templates/sign_up.mustache:10
 msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 msgstr "სხვა ელ-ფოსტაზე გაქვთ ანგარიში? <a href=\"%(signinUri)s\">შესვლა</a>"
 
-#: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/settings/communication_preferences.mustache:7
+#: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Send me the monthly Firefox newsletter."
 msgstr ""
 
-#: app/scripts/templates/sign_up.mustache:22
+#: .es5/scripts/templates/sign_up.mustache:22
 msgid "Create account"
 msgstr "ანგარიშის შექმნა"
 
-#: app/scripts/templates/sign_up.mustache:27
+#: .es5/scripts/templates/sign_up.mustache:27
 msgid "Have an account? Sign in."
 msgstr "გაქვთ ანგარიში? შესვლა"
 
-#: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:2
-#: app/scripts/templates/settings/change_password.mustache:10 app/scripts/templates/settings/communication_preferences.mustache:4 app/scripts/templates/settings/display_name.mustache:2
-#: app/scripts/templates/settings/display_name.mustache:5
+#: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2
+#: .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/communication_preferences.mustache:4 .es5/scripts/templates/settings/display_name.mustache:2
+#: .es5/scripts/templates/settings/display_name.mustache:5
 msgid "Change"
 msgstr "შეცვლა"
 
-#: app/scripts/templates/settings/avatar.mustache:4
+#: .es5/scripts/templates/settings/avatar.mustache:4
 msgid "Add"
 msgstr "დამატება"
 
-#: app/scripts/templates/settings/avatar_camera.mustache:1
+#: .es5/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
 msgstr "სურათის გადაღება"
 
-#: app/scripts/templates/settings/avatar_change.mustache:1
+#: .es5/scripts/templates/settings/avatar_change.mustache:1
 msgid "Upload"
 msgstr "ატვირთვა"
 
-#: app/scripts/templates/settings/avatar_change.mustache:2
+#: .es5/scripts/templates/settings/avatar_change.mustache:2
 msgid "Camera"
 msgstr "კამერა"
 
-#: app/scripts/templates/settings/avatar_change.mustache:3
+#: .es5/scripts/templates/settings/avatar_change.mustache:3
 msgid "Gravatar"
 msgstr "Gravatar"
 
-#: app/scripts/templates/settings/avatar_change.mustache:4
+#: .es5/scripts/templates/settings/avatar_change.mustache:4
 msgid "Clear"
 msgstr "გასუფთავება"
 
-#: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/devices.mustache:12
+#: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/devices.mustache:12
 msgid "Done"
 msgstr "მზადაა"
 
-#: app/scripts/templates/settings/avatar_crop.mustache:1
+#: .es5/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
 msgstr "მოათავსეთ და მოატრიალეთ თქვენი სურათი, როგორც გნებავთ"
 
-#: app/scripts/templates/settings/avatar_gravatar.mustache:2
+#: .es5/scripts/templates/settings/avatar_gravatar.mustache:2
 msgid "Save"
 msgstr "შენახვა"
 
-#: app/scripts/templates/settings/change_password.mustache:3
+#: .es5/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
 msgstr "როგორც კი დაასრულებთ, გამოიყენეთ ახალი პაროლი ანგარიშზე შესასვლელად, ნებისმიერი მოწყობილობდან."
 
-#: app/scripts/templates/settings/change_password.mustache:4
+#: .es5/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
 msgstr "ძველი პაროლი"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:3
+#: .es5/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
 msgstr "ცნობების პარამეტრები"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:8
+#: .es5/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
 msgstr "ელ-ფოსტის პარამეტრები"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:10
+#: .es5/scripts/templates/settings/communication_preferences.mustache:10
 msgid "Unsubscribe"
 msgstr "გამოწერის გაუქმება"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:12
+#: .es5/scripts/templates/settings/communication_preferences.mustache:12
 msgid "Subscribe"
 msgstr "გამოწერა"
 
-#: app/scripts/templates/settings/delete_account.mustache:1 app/scripts/templates/settings/delete_account.mustache:6
+#: .es5/scripts/templates/settings/delete_account.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:6
 msgid "Delete account"
 msgstr "ანგარიშის წაშლა"
 
-#: app/scripts/templates/settings/delete_account.mustache:2
+#: .es5/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete"
 msgstr "წაშლა"
 
-#: app/scripts/templates/settings/delete_account.mustache:3
+#: .es5/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
 msgstr "ნამდვილად გსურთ ანგარიშის წაშლა? ამ ქმედების დაბრუნება შეუძლებელია."
 
-#: app/scripts/templates/settings/devices.mustache:2
+#: .es5/scripts/templates/settings/devices.mustache:2
 msgid "Devices"
 msgstr "მოწყობილობები"
 
-#: app/scripts/templates/settings/devices.mustache:4
+#: .es5/scripts/templates/settings/devices.mustache:4
 msgid ""
 "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
 "\"%(linkLinux)s\">Linux</a>."
@@ -914,49 +911,73 @@ msgstr ""
 "Firefox ხელმისავდომია <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> და <a href=\"%(linkLinux)s"
 "\">Linux</a> სისტემებზე."
 
-#: app/scripts/templates/settings/devices.mustache:5
+#: .es5/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
 msgstr "ქვემოთ შეგიძლიათ თქვენს მოწყობილობებზე მონაცემების მართვა."
 
-#: app/scripts/templates/settings/devices.mustache:6
+#: .es5/scripts/templates/settings/devices.mustache:6
 msgid "current device"
 msgstr ""
 
-#: app/scripts/templates/settings/devices.mustache:8
+#: .es5/scripts/templates/settings/devices.mustache:8
 msgid "Disconnect"
 msgstr "კავშირის შეწყვეტა"
 
-#: app/scripts/templates/settings/devices.mustache:10
+#: .es5/scripts/templates/settings/devices.mustache:10
 msgid "Don't see all your devices?"
 msgstr "არ ჩანს ყველა მოწყობილობა?"
 
-#: app/scripts/templates/settings/devices.mustache:11
+#: .es5/scripts/templates/settings/devices.mustache:11
 msgid "Refresh"
 msgstr "განახლება"
 
-#: app/scripts/templates/settings/display_name.mustache:3
+#: .es5/scripts/templates/settings/display_name.mustache:3
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "აირჩიეთ სახელი, რომელიც გსურთ გამოჩნდეს Firefox-ში ანგარიშზე შესვლისას."
 
-#: app/scripts/templates/partial/coppa-age-input.mustache:1
+#: .es5/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
 msgstr "რა ასაკის ხართ?"
 
-#: app/scripts/templates/openid/start.mustache:1
+#: .es5/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
 msgstr "Sync-ში შესვლა"
 
-#: app/scripts/templates/openid/start.mustache:2
+#: .es5/scripts/templates/openid/start.mustache:2
 msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
 msgstr "აირჩიეთ ანგარიში, რომლითაც გსურთ დაასინქრონოთ თქვენი ჩანართები, სანიშნეები, პაროლები და ა.შ."
 
-#: app/scripts/templates/openid/start.mustache:3
+#: .es5/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
 msgstr "გამოიყენეთ OpenID"
 
-#: app/scripts/templates/openid/start.mustache:4
+#: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "გამოიყენეთ Firefox ანგარიში"
+
+#~ msgid "Account unlocked, please try again"
+#~ msgstr "ანგარიში გახსნილია, გთხოვთ ცადეთ ხელახლა"
+
+#~ msgid "Account unlocked"
+#~ msgstr "ანგარიში გახსნილია"
+
+#~ msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+#~ msgstr "ანგარიში ჩაკეტილია. <a href=\"/confirm_account_unlock\">გახსნის ელფოსტის გაგზავნა</a>"
+
+#~ msgid "Unlock link expired"
+#~ msgstr "განსაბლოკი ბმული ვადაგასულია"
+
+#~ msgid "Unlock link damaged"
+#~ msgstr "განსაბლოკი ბმული დაზიანებულია"
+
+#~ msgid "Unlock error"
+#~ msgstr "შეცდობა ბლოკის მოხსნისას"
+
+#~ msgid "Unlock email sent"
+#~ msgstr "განსაბლოკი შეტყობინება გამოგზავნილია"
+
+#~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
+#~ msgstr "უსაფრთხოების მიზნით, თქვენი ანგარიში დაიბლოკა. მისით სარგებლობის უფლების აღსადგენად, გთხოვთ გადახვიდეთ %(email)s-ზე გამოგზავნილ ბმულზე და ხელახლა დაამოწმოთ თქვენი ანგარიში."
 
 #~ msgid "Signup has been disabled"
 #~ msgstr "რეგისტრაცია გამორთულია"

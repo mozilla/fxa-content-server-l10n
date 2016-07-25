@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-11 17:29+0000\n"
+"POT-Creation-Date: 2016-07-25 20:11+0000\n"
 "PO-Revision-Date: 2016-07-19 08:45+0000\n"
 "Last-Translator: Dinesh <dineshmv38@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,16 +26,13 @@ msgstr "క్రితం మీరు ఒక Firefox ఖాతా సృష్
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
-msgstr ""
-"మీరు విజయవంతంగా మీ Firefox ఖాతాకు మీ మొదటి పరికరం కనెక్ట్ చేశారు. ఇప్పుడు మీరు <a href='%(androidUrl)s'>ఆండ్రాయిడ్</a> మరియు <a href='%(iosUrl)s'>iOS </a>కోసం Firefox సహా, మీ ఇతర పరికరాల నుండి సింక్"
-" చేయడానికి సైన్ ఇన్ చేయవచ్చు."
+msgstr "మీరు విజయవంతంగా మీ Firefox ఖాతాకు మీ మొదటి పరికరం కనెక్ట్ చేశారు. ఇప్పుడు మీరు <a href='%(androidUrl)s'>ఆండ్రాయిడ్</a> మరియు <a href='%(iosUrl)s'>iOS </a>కోసం Firefox సహా, మీ ఇతర పరికరాల నుండి సింక్ చేయడానికి సైన్ ఇన్ చేయవచ్చు."
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
-msgstr ""
-"మీరు విజయవంతంగా మీ Firefox ఖాతాకు మీ మొదటి పరికరం కనెక్ట్ చేశారు. మరింత సింక్ చేయడానికి, <a href='%(androidUrl)s'>ఆండ్రాయిడ్</a> మరియు <a href='%(iosUrl)s'>iOS </a>కోసం Firefox ను కనెక్ట్ చేయండి."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
+msgstr "మీరు విజయవంతంగా మీ Firefox ఖాతాకు మీ మొదటి పరికరం కనెక్ట్ చేశారు. మరింత సింక్ చేయడానికి, <a href='%(androidUrl)s'>ఆండ్రాయిడ్</a> మరియు <a href='%(iosUrl)s'>iOS </a>కోసం Firefox ను కనెక్ట్ చేయండి."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -246,8 +243,8 @@ msgstr "మళ్ళీ హెలో."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-" email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+"this email address to activate your account."
 msgstr ""
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4

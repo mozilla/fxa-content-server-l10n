@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-11 17:29+0000\n"
+"POT-Creation-Date: 2016-07-25 20:11+0000\n"
 "PO-Revision-Date: 2016-04-09 19:08+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,429 +14,430 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3;\n"
 "X-Generator: Pontoon\n"
 
-#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:127 app/scripts/views/confirm.js:138 app/scripts/views/confirm_reset_password.js:184
+#: .es5/scripts/views/complete_reset_password.js:123 .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:130 .es5/scripts/views/confirm_reset_password.js:177
 msgid "Account verified successfully"
 msgstr "Chaidh an cunntas dhearbhadh"
 
-#: app/scripts/views/confirm_account_unlock.js:91
-msgid "Account unlocked, please try again"
-msgstr "Chaidh a’ ghlas a thoirt far a’ chunntais, feuch ris a-rithist"
-
-#: app/scripts/views/confirm_reset_password.js:174 app/scripts/views/ready.js:49
+#: .es5/scripts/views/confirm_reset_password.js:169 .es5/scripts/views/ready.js:43
 msgid "Password reset"
 msgstr "Facal-faire air ath-shuidheachadh"
 
-#: app/scripts/views/confirm_reset_password.js:203
+#: .es5/scripts/views/confirm_reset_password.js:196
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Chaidh am facal-faire ath-shuidheachadh. Clàraich a-steach a leantainn air adhart."
 
-#: app/scripts/views/permissions.js:26
+#: .es5/scripts/views/permissions.js:26
 msgid "%(permissionName)s (required)"
 msgstr "%(permissionName)s (riatanach)"
 
-#: app/scripts/views/permissions.js:32
+#: .es5/scripts/views/permissions.js:31
 msgid "Email address"
 msgstr "Seòladh puist-d"
 
-#: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:4
+#: .es5/scripts/views/permissions.js:35 .es5/scripts/templates/settings/display_name.mustache:1 .es5/scripts/templates/settings/display_name.mustache:4
 msgid "Display name"
 msgstr "An t-ainm-taisbeanaidh"
 
-#: app/scripts/views/permissions.js:41 app/scripts/templates/settings/avatar.mustache:1
+#: .es5/scripts/views/permissions.js:38 .es5/scripts/templates/settings/avatar.mustache:1
 msgid "Account picture"
 msgstr "Dealbh a’ chunntais"
 
-#: app/scripts/views/ready.js:30
+#: .es5/scripts/views/ready.js:29
 msgid "Firefox Sync will begin momentarily"
 msgstr "Tòisichidh sioncronachadh Firefox a dh’aithghearr"
 
-#: app/scripts/views/ready.js:39
-msgid "Account unlocked"
-msgstr "Chaidh a’ ghlas a thoirt far a’ chunntais"
-
-#: app/scripts/views/ready.js:44
+#: .es5/scripts/views/ready.js:38
 msgid "Welcome back"
 msgstr "Fàilte air ais"
 
-#: app/scripts/views/ready.js:45
+#: .es5/scripts/views/ready.js:39
 msgid "Firefox Sync will resume momentarily"
 msgstr "Leanaidh sioncronachadh Firefox air a dh’aithghearr"
 
-#: app/scripts/views/ready.js:55
+#: .es5/scripts/views/ready.js:49
 msgid "Sign-in confirmed"
 msgstr ""
 
-#: app/scripts/views/ready.js:56 app/scripts/views/ready.js:61 app/scripts/templates/ready.mustache:5
+#: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55 .es5/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
 msgstr "’S urrainn dhut %(serviceName)s a chleachdadh a-nis"
 
-#: app/scripts/views/ready.js:60
+#: .es5/scripts/views/ready.js:54
 msgid "Account verified"
 msgstr "Chaidh an cunntas a dhearbhadh"
 
-#: app/scripts/views/reset_password.js:74 app/scripts/views/sign_in.js:156
+#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:151
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Cunntas nach aithne dhuinn. <a href=\"/signup\">Clàraich</a>"
 
-#: app/scripts/views/sign_up.js:62
+#: .es5/scripts/views/sign_up.js:61
 msgid "Account no longer exists. Recreate it?"
 msgstr "Chan eil an cunntas seo ann tuilleadh. A bheil thu airson ath-chruthachadh?"
 
-#: app/scripts/views/sign_up.js:380
+#: .es5/scripts/views/sign_up.js:361
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Tha an cunntas seo ann mu thràth. <a href=\"/signin\">Clàraich a-steach</a>"
 
-#: app/scripts/views/settings/avatar_gravatar.js:89
+#: .es5/scripts/views/settings/avatar_gravatar.js:89
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "Slighe <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
-#: app/scripts/views/settings/change_password.js:47
+#: .es5/scripts/views/settings/change_password.js:39
 msgid "Password changed successfully"
 msgstr "Chaidh am facal-faire atharrachadh"
 
-#: app/scripts/views/settings/communication_preferences.js:116
+#: .es5/scripts/views/settings/communication_preferences.js:111
 msgid "Subscribed successfully"
 msgstr "Rinn thu fo-sgrìobhadh"
 
-#: app/scripts/views/settings/communication_preferences.js:117
+#: .es5/scripts/views/settings/communication_preferences.js:111
 msgid "Unsubscribed successfully"
 msgstr "Chuir thu crìoch air an fho-sgrìobhadh"
 
-#: app/scripts/views/settings/delete_account.js:48
+#: .es5/scripts/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
 msgstr "Chaidh an cunntas a sguabadh às"
 
-#: app/scripts/views/settings/devices.js:25
+#: .es5/scripts/views/settings/devices.js:28
 msgid "days ago"
 msgstr ""
 
-#: app/scripts/views/settings/devices.js:26
+#: .es5/scripts/views/settings/devices.js:29
 msgid "hours ago"
 msgstr ""
 
-#: app/scripts/views/settings/devices.js:27
+#: .es5/scripts/views/settings/devices.js:30
 msgid "minutes ago"
 msgstr ""
 
-#: app/scripts/views/settings/devices.js:28
+#: .es5/scripts/views/settings/devices.js:31
 msgid "months ago"
 msgstr ""
 
-#: app/scripts/views/settings/devices.js:29
+#: .es5/scripts/views/settings/devices.js:32
 msgid "seconds ago"
 msgstr ""
 
-#: app/scripts/views/settings/devices.js:31
+#: .es5/scripts/views/settings/devices.js:34
 msgid "weeks ago"
 msgstr ""
 
-#: app/scripts/views/settings/devices.js:32
+#: .es5/scripts/views/settings/devices.js:35
 msgid "years ago"
 msgstr ""
 
-#: app/scripts/views/settings/display_name.js:52
+#: .es5/scripts/views/settings/display_name.js:50
 msgid "Display name updated"
 msgstr "Chaidh an t-ainm-taisbeanaidh ùrachadh"
 
-#: app/scripts/views/mixins/account-locked-mixin.js:39
-msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
-msgstr "Cunntas glaiste. <a href=\"/confirm_account_unlock\">Cuir post-d gus a’ ghlas a thoirt dheth</a>"
-
-#: app/scripts/views/mixins/account-reset-mixin.js:42 app/scripts/lib/auth-errors.js:93 app/scripts/lib/auth-errors.js:105
+#: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/lib/auth-errors.js:107
 msgid "Your account has been locked for security reasons"
 msgstr "Chaidh an cunntas agad a ghlasadh air sgàth adhbharan tèarainteachd"
 
-#: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/templates/reset_password.mustache:6
+#: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/templates/reset_password.mustache:6
 msgid "Reset password"
 msgstr "Ath-shuidhich am facal-faire"
 
-#: app/scripts/views/mixins/open-webmail-mixin.js:19
+#: .es5/scripts/views/mixins/open-webmail-mixin.js:17
 msgid "Open Gmail"
 msgstr "Fosgail Gmail"
 
-#: app/scripts/views/mixins/open-webmail-mixin.js:25
+#: .es5/scripts/views/mixins/open-webmail-mixin.js:22
 msgid "Open Hotmail"
 msgstr ""
 
-#: app/scripts/views/mixins/open-webmail-mixin.js:31
+#: .es5/scripts/views/mixins/open-webmail-mixin.js:27
 msgid "Open Yahoo"
 msgstr ""
 
-#: app/scripts/views/mixins/open-webmail-mixin.js:37
+#: .es5/scripts/views/mixins/open-webmail-mixin.js:32
 msgid "Open Outlook"
 msgstr ""
 
-#: app/scripts/views/mixins/signed-out-notification-mixin.js:39
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:21
+msgid "8 characters minimum, but longer if you plan to sync passwords."
+msgstr ""
+
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/templates/sign_up.mustache:18
+msgid "A strong, unique password will keep your Firefox data safe from intruders."
+msgstr ""
+
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:23
+msgid "This is a common password; please consider another one."
+msgstr ""
+
+#: .es5/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
 msgstr "Rinn thu clàradh a-mach"
 
-#: app/scripts/lib/auth-errors.js:19 app/scripts/lib/config-loader.js:77 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39
-#: app/scripts/lib/profile-errors.js:47 app/scripts/lib/require-on-demand.js:33 app/scripts/lib/require-on-demand.js:37 app/scripts/lib/require-on-demand.js:41 app/scripts/lib/require-on-demand.js:45
+#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:76 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
+#: .es5/scripts/lib/profile-errors.js:47 .es5/scripts/lib/require-on-demand.js:33 .es5/scripts/lib/require-on-demand.js:37 .es5/scripts/lib/require-on-demand.js:41
+#: .es5/scripts/lib/require-on-demand.js:45
 msgid "Unexpected error"
 msgstr "Mearachd ris nach robh dùil"
 
-#: app/scripts/lib/auth-errors.js:29 app/scripts/lib/oauth-errors.js:50
+#: .es5/scripts/lib/auth-errors.js:29 .es5/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
 msgstr "Tòcan mì-dhligheach"
 
-#: app/scripts/lib/auth-errors.js:33
+#: .es5/scripts/lib/auth-errors.js:33
 msgid "Invalid timestamp in request signature"
 msgstr "Stampa-ama mì-dhligheach ann an soidhneadh an iarrtais"
 
-#: app/scripts/lib/auth-errors.js:37
+#: .es5/scripts/lib/auth-errors.js:37
 msgid "Invalid nonce in request signature"
 msgstr "Nonce mì-dhligheach ann an soidhneadh an iarrtais"
 
-#: app/scripts/lib/auth-errors.js:41
+#: .es5/scripts/lib/auth-errors.js:41
 msgid "Account already exists"
 msgstr "Tha an cunntas seo ann mu thràth"
 
-#: app/scripts/lib/auth-errors.js:45
+#: .es5/scripts/lib/auth-errors.js:45
 msgid "Unknown account"
 msgstr "Cunntas nach aithne dhuinn"
 
-#: app/scripts/lib/auth-errors.js:49
+#: .es5/scripts/lib/auth-errors.js:49
 msgid "Incorrect email case"
 msgstr "Mearachd sa phost-d"
 
-#: app/scripts/lib/auth-errors.js:53
+#: .es5/scripts/lib/auth-errors.js:53
 msgid "Incorrect password"
 msgstr "Facal-faire cearr"
 
-#: app/scripts/lib/auth-errors.js:57
+#: .es5/scripts/lib/auth-errors.js:57
 msgid "Unverified account"
 msgstr "Cunntas gun dearbhadh"
 
-#: app/scripts/lib/auth-errors.js:61
+#: .es5/scripts/lib/auth-errors.js:61
 msgid "Invalid verification code"
 msgstr "Còd dearbhadh mì-dhligheach"
 
-#: app/scripts/lib/auth-errors.js:65
+#: .es5/scripts/lib/auth-errors.js:65
 msgid "Invalid JSON in request body"
 msgstr "JSON mì-dhligheach ann am bodhaig an iarrtais"
 
-#: app/scripts/lib/auth-errors.js:69
+#: .es5/scripts/lib/auth-errors.js:69
 msgid "Invalid parameter: %(param)s"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:73
+#: .es5/scripts/lib/auth-errors.js:73
 msgid "Missing parameter: %(param)s"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:77
+#: .es5/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
 msgstr "Soidhneadh mì-dhligheach aig an iarrtas"
 
-#: app/scripts/lib/auth-errors.js:81
+#: .es5/scripts/lib/auth-errors.js:81
 msgid "Missing content-length header"
 msgstr "Bann-cinn content-length a dhìth"
 
-#: app/scripts/lib/auth-errors.js:85
+#: .es5/scripts/lib/auth-errors.js:85
 msgid "Request body too large"
 msgstr "Tha bodhaig an iarrtais ro mhòr"
 
-#: app/scripts/lib/auth-errors.js:89
+#: .es5/scripts/lib/auth-errors.js:89
 msgid "Attempt limit exceeded"
 msgstr "Rinn thu oidhirp ro thric"
 
-#: app/scripts/lib/auth-errors.js:101
+#: .es5/scripts/lib/auth-errors.js:103
 msgid "The request was blocked for security reasons"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:109
+#: .es5/scripts/lib/auth-errors.js:111 .es5/scripts/lib/auth-errors.js:288
 msgid "Server busy, try again soon"
 msgstr "Tha am frithealaiche trang, feuch ris a-rithist a dh’aithghearr"
 
-#: app/scripts/lib/auth-errors.js:113
+#: .es5/scripts/lib/auth-errors.js:115
 msgid "This endpoint is no longer supported"
 msgstr "Chan eil taic ri puing-dheiridh d’ a leithid tuilleadh"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/config-loader.js:73 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80
-#: app/scripts/lib/profile-errors.js:43
+#: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:72 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
+#: .es5/scripts/lib/oauth-errors.js:80 .es5/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Chan eil an siostam ri làimh, feuch ris a-rithist a dh’aithghearr"
 
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/oauth-errors.js:104
+#: .es5/scripts/lib/auth-errors.js:123 .es5/scripts/lib/oauth-errors.js:104
 msgid "no message"
 msgstr "chan eil teachdaireachd ann"
 
-#: app/scripts/lib/auth-errors.js:125
+#: .es5/scripts/lib/auth-errors.js:127
 msgid "Session expired. Sign in to continue."
 msgstr "Dh’fhalbh an ùine air an t-seisean. Clàraich a-steach a leantainn air adhart."
 
-#: app/scripts/lib/auth-errors.js:129
+#: .es5/scripts/lib/auth-errors.js:131
 msgid "Cookies are still disabled"
 msgstr "Tha na briosgaidean à comas fhathast"
 
-#: app/scripts/lib/auth-errors.js:133
+#: .es5/scripts/lib/auth-errors.js:135
 msgid "Passwords do not match"
 msgstr "Chan eil an dà fhacal-faire co-ionnann"
 
-#: app/scripts/lib/auth-errors.js:137
+#: .es5/scripts/lib/auth-errors.js:139
 msgid "Working…"
 msgstr "Ag obair…"
 
-#: app/scripts/lib/auth-errors.js:141
+#: .es5/scripts/lib/auth-errors.js:143
 msgid "Could not get Privacy Notice"
 msgstr "Cha b’ urrainn dhuinn aithris na prìobhaideachd fhaighinn"
 
-#: app/scripts/lib/auth-errors.js:145
+#: .es5/scripts/lib/auth-errors.js:147
 msgid "Could not get Terms of Service"
 msgstr "Cha b’ urrainn dhuinn teirmichean na seirbheise fhaighinn"
 
-#: app/scripts/lib/auth-errors.js:149
+#: .es5/scripts/lib/auth-errors.js:151
 msgid "Your new password must be different"
 msgstr "Feumaidh am facal-faire ùr a bhith eadar-dhealaichte"
 
-#: app/scripts/lib/auth-errors.js:153 app/scripts/templates/complete_reset_password.mustache:15 app/scripts/templates/sign_up.mustache:18 app/scripts/templates/settings/change_password.mustache:9
+#: .es5/scripts/lib/auth-errors.js:155 .es5/scripts/templates/complete_reset_password.mustache:15 .es5/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "Feumaidh e a bhith co-dhiù 8 caractaran a dh’fhaid"
 
-#: app/scripts/lib/auth-errors.js:157
+#: .es5/scripts/lib/auth-errors.js:159
 msgid "Valid password required"
 msgstr "Tha feum air facal-faire dligheach"
 
-#: app/scripts/lib/auth-errors.js:161 app/scripts/lib/auth-errors.js:199 app/scripts/lib/auth-errors.js:215
+#: .es5/scripts/lib/auth-errors.js:163 .es5/scripts/lib/auth-errors.js:201 .es5/scripts/lib/auth-errors.js:217
 msgid "Valid email required"
 msgstr "Tha feum air post-d dligheach"
 
-#: app/scripts/lib/auth-errors.js:172
+#: .es5/scripts/lib/auth-errors.js:174
 msgid "A usable image was not found"
 msgstr "Cha deach dealbh a lorg a ghabhas a chleachdadh"
 
-#: app/scripts/lib/auth-errors.js:176
+#: .es5/scripts/lib/auth-errors.js:178
 msgid "Could not initialize camera"
 msgstr "Cha b’ urrainn dhuinn an camara a chur gu dol"
 
-#: app/scripts/lib/auth-errors.js:180
+#: .es5/scripts/lib/auth-errors.js:182
 msgid "Valid URL required"
 msgstr "Tha feum air URL dligheach"
 
-#: app/scripts/lib/auth-errors.js:195
+#: .es5/scripts/lib/auth-errors.js:197
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Chaidh am post-d dearbhaidh a thilleadh dhuinn. Saoil an robh mearachd ann?"
 
-#: app/scripts/lib/auth-errors.js:203
+#: .es5/scripts/lib/auth-errors.js:205
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Cuir a-steach seòladh puist-d dligheach. Chan eil firefox.com a’ solar seirbheisean puist-d."
 
-#: app/scripts/lib/auth-errors.js:211
+#: .es5/scripts/lib/auth-errors.js:213
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Cha ghabh cunntasan Firefox a chur ach ann an IFRAME air làraichean ceadaichte"
 
-#: app/scripts/lib/auth-errors.js:226 app/scripts/templates/complete_account_unlock.mustache:2 app/scripts/templates/complete_sign_up.mustache:3
+#: .es5/scripts/lib/auth-errors.js:228 .es5/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
 msgstr "Bhriog thu air ceangal dearbhaidh a dh’fhalbh an ùine air."
 
-#: app/scripts/lib/auth-errors.js:230 app/scripts/templates/complete_sign_up.mustache:7
+#: .es5/scripts/lib/auth-errors.js:232 .es5/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "Chaidh an ceangal dearbhaidh a dhochann"
 
-#: app/scripts/lib/auth-errors.js:238
+#: .es5/scripts/lib/auth-errors.js:240
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Feumaidh an dealbh a bhith co-dhiù 100x100px"
 
-#: app/scripts/lib/auth-errors.js:242
+#: .es5/scripts/lib/auth-errors.js:244
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Tha Signup a’ tighinn gu Firefox airson iOS a dh’aithghearr"
 
-#: app/scripts/lib/auth-errors.js:253
+#: .es5/scripts/lib/auth-errors.js:255
 msgid "You must enter your age to sign up"
 msgstr "Feumaidh tu d’ aois a chur a-steach mus urrainn dhut clàradh"
 
-#: app/scripts/lib/auth-errors.js:257
+#: .es5/scripts/lib/auth-errors.js:259
 msgid "No Gravatar found"
 msgstr "Cha deach Gravatar a lorg"
 
-#: app/scripts/lib/auth-errors.js:265
+#: .es5/scripts/lib/auth-errors.js:267
 msgid "Account no longer exists."
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:269
+#: .es5/scripts/lib/auth-errors.js:271
 msgid "Invalid property in resume token: %(property)s"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:273
+#: .es5/scripts/lib/auth-errors.js:275
 msgid "Missing property in resume token: %(property)s"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:277
+#: .es5/scripts/lib/auth-errors.js:279
 msgid "Invalid data attribute: %(property)s"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:281
+#: .es5/scripts/lib/auth-errors.js:283
 msgid "Missing data attribute: %(property)s"
 msgstr ""
 
-#: app/scripts/lib/mailcheck.js:64
+#: .es5/scripts/lib/mailcheck.js:60
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
 msgstr "An e <span tabindex=\"1\">%(domain)s</span> a bha fa-near dhut?"
 
-#: app/scripts/lib/oauth-errors.js:26
+#: .es5/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
 msgstr "Cliant nach aithne dhuinn"
 
-#: app/scripts/lib/oauth-errors.js:30
+#: .es5/scripts/lib/oauth-errors.js:30
 msgid "Incorrect redirect_uri"
 msgstr "redirect_uri cearr"
 
-#: app/scripts/lib/oauth-errors.js:34
+#: .es5/scripts/lib/oauth-errors.js:34
 msgid "Invalid assertion"
 msgstr "Tagradh mì-dhligheach"
 
-#: app/scripts/lib/oauth-errors.js:38
+#: .es5/scripts/lib/oauth-errors.js:38
 msgid "Unknown code"
 msgstr "Còd nach aithne dhuinn"
 
-#: app/scripts/lib/oauth-errors.js:42
+#: .es5/scripts/lib/oauth-errors.js:42
 msgid "Incorrect code"
 msgstr "Còd cearr"
 
-#: app/scripts/lib/oauth-errors.js:46
+#: .es5/scripts/lib/oauth-errors.js:46
 msgid "Expired code"
 msgstr "Còd a dh’fhalbh an ùine air"
 
-#: app/scripts/lib/oauth-errors.js:54 app/scripts/lib/oauth-errors.js:76
+#: .es5/scripts/lib/oauth-errors.js:54 .es5/scripts/lib/oauth-errors.js:76
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "Paramadair OAuth mì-dhligheach: %(param)s"
 
-#: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19
+#: .es5/scripts/lib/oauth-errors.js:62 .es5/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
 msgstr "Gun ùghdarras"
 
-#: app/scripts/lib/oauth-errors.js:66
+#: .es5/scripts/lib/oauth-errors.js:66
 msgid "Forbidden"
 msgstr "Toirmisgte"
 
-#: app/scripts/lib/oauth-errors.js:88
+#: .es5/scripts/lib/oauth-errors.js:88
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Chaidh rudeigin cearr. Dùin an taba seo ’s feuch ris a-rithist."
 
-#: app/scripts/lib/oauth-errors.js:108
+#: .es5/scripts/lib/oauth-errors.js:108
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Paramadair OAuth a dhìth: %(param)s"
 
-#: app/scripts/lib/profile-errors.js:23
+#: .es5/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
 msgstr ""
 
-#: app/scripts/lib/profile-errors.js:27
+#: .es5/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Paramadair mì-dhligheach ann am bodhaig an iarrtais: %(param)s"
 
-#: app/scripts/lib/profile-errors.js:31
+#: .es5/scripts/lib/profile-errors.js:31
 msgid "Unsupported image provider"
 msgstr "Solaraiche dhealbhan ris nach eil taic"
 
-#: app/scripts/lib/profile-errors.js:35
+#: .es5/scripts/lib/profile-errors.js:35
 msgid "Image processing error"
 msgstr "Mearachd le pròiseasadh an deilbh"
 
-#: app/scripts/lib/service-name.js:16
+#: .es5/scripts/lib/service-name.js:15
 msgid "Firefox Sync"
 msgstr "Sioncronachadh Firefox"
 
-#: app/scripts/lib/strings.js:18
+#: .es5/scripts/lib/strings.js:17
 msgid ""
 "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
 "(%(serviceUri)s)."
@@ -444,474 +445,468 @@ msgstr ""
 "Ma leanas tu air adhart, bidh thu ag aontachadh ri <a id=\"service-tos\" href=\"%(termsUri)s\">teirmichean na seirbheise</a> agus <a id=\"service-pp\" href=\"%(privacyUri)s\">aithris na "
 "prìobhaideachd</a> aig %(serviceName)s (%(serviceUri)s)."
 
-#: app/scripts/lib/strings.js:26
+#: .es5/scripts/lib/strings.js:24
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Cobhair</a>"
 
-#: app/scripts/lib/strings.js:30
+#: .es5/scripts/lib/strings.js:28
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Faigh na naidheachdan as ùire mu Mozilla is Firefox."
 
-#: app/scripts/templates/400.mustache:1
+#: .es5/scripts/lib/strings.js:31
+msgid "%(city)s, %(country)s (estimated)"
+msgstr ""
+
+#: .es5/scripts/lib/strings.js:32
+msgid "%(country)s (estimated)"
+msgstr ""
+
+#: .es5/scripts/lib/strings.js:33
+msgid "IP address: %(ip)s"
+msgstr ""
+
+#: .es5/scripts/lib/strings.js:34
+msgid "For added security, please confirm this sign-in to begin syncing with this device:"
+msgstr ""
+
+#: .es5/scripts/templates/400.mustache:1
 msgid "Bad Request"
 msgstr ""
 
-#: app/scripts/templates/500.mustache:1
+#: .es5/scripts/templates/500.mustache:1
 msgid "500 Error"
 msgstr ""
 
-#: app/scripts/templates/500.mustache:2
+#: .es5/scripts/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
 msgstr ""
 
-#: app/scripts/templates/cannot_create_account.mustache:1
+#: .es5/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
 msgstr "Cha ghabh an cunntas a chruthachadh"
 
-#: app/scripts/templates/cannot_create_account.mustache:2
+#: .es5/scripts/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr "Feumaidh tu a bhith aosta gu leòr mus urrainn dhut cunntas Firefox a chruthachadh."
 
-#: app/scripts/templates/cannot_create_account.mustache:4
+#: .es5/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
 msgstr "Barrachd fiosrachaidh."
 
-#: app/scripts/templates/choose_what_to_sync.mustache:1 app/scripts/templates/sign_up.mustache:24
+#: .es5/scripts/templates/choose_what_to_sync.mustache:1 .es5/scripts/templates/sign_up.mustache:24
 msgid "Choose what to sync"
 msgstr "Tagh na tha thu airson sioncronachadh"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:2
+#: .es5/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Tabs"
 msgstr "Tabaichean"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:4
+#: .es5/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
 msgstr "Comharran-lìn"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:6
+#: .es5/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
 msgstr "Tuilleadain"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:8
+#: .es5/scripts/templates/choose_what_to_sync.mustache:8
 msgid "Passwords"
 msgstr "Faclan-faire"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:10
+#: .es5/scripts/templates/choose_what_to_sync.mustache:10
 msgid "History"
 msgstr "An eachdraidh"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:12
+#: .es5/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Preferences"
 msgstr "Roghainnean"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:14
+#: .es5/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
 msgstr "Cha dèid na tuilleadain is na roghainnean a shioncronachadh air uidheaman mobile aig an àm seo."
 
-#: app/scripts/templates/choose_what_to_sync.mustache:15
+#: .es5/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
 msgstr ""
 
-#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_account_unlock.mustache:5 app/scripts/templates/pp.mustache:3
-#: app/scripts/templates/tos.mustache:3
+#: .es5/scripts/templates/choose_what_to_sync.mustache:16 .es5/scripts/templates/confirm.mustache:13 .es5/scripts/templates/pp.mustache:3 .es5/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Air ais"
 
-#: app/scripts/templates/complete_account_unlock.mustache:1
-msgid "Unlock link expired"
-msgstr "Dh’fhalbh an ùine air a’ cheangal dhì-ghlasaidh"
+#: .es5/scripts/templates/complete_reset_password.mustache:1
+msgid "Reset password link expired"
+msgstr "Dh’fhalbh an ùine air a’ cheangal airson ath-shuidheachadh an fhacail-fhaire"
 
-#: app/scripts/templates/complete_account_unlock.mustache:4
-msgid "Unlock link damaged"
-msgstr "Chaidh an ceangal dhì-ghlasaidh a dhochann"
+#: .es5/scripts/templates/complete_reset_password.mustache:2 .es5/scripts/templates/complete_sign_up.mustache:2 .es5/scripts/templates/confirm.mustache:5
+#: .es5/scripts/templates/confirm_reset_password.mustache:2
+msgid "Email resent"
+msgstr "Chaidh am post-d a chur a-rithist"
 
-#: app/scripts/templates/complete_account_unlock.mustache:5 app/scripts/templates/complete_reset_password.mustache:7 app/scripts/templates/complete_sign_up.mustache:8
+#: .es5/scripts/templates/complete_reset_password.mustache:3
+msgid "The link you clicked to reset your password is expired."
+msgstr "Bhriog thu air ceangal a dh’fhalbh an ùine air gus am facal-faire agad ath-shuidheachadh."
+
+#: .es5/scripts/templates/complete_reset_password.mustache:4
+msgid "Click here to receive a new reset link"
+msgstr "Briog an-seo airson ceangal ùr airson ath-shuidheachadh"
+
+#: .es5/scripts/templates/complete_reset_password.mustache:6
+msgid "Reset password link damaged"
+msgstr "Chaidh an ceangal airson ath-shuidheachadh an fhacail-fhaire a dhochann"
+
+#: .es5/scripts/templates/complete_reset_password.mustache:7 .es5/scripts/templates/complete_sign_up.mustache:8
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
 msgstr ""
 "Bha caractaran a dhìth air a’ cheangal air an do bhriog thu agus dh’fhaoidte gun deach a bhriseadh sa phrògram phuist-d agad. Dèan lethbhreac dhen t-seòladh gu cùramach is feuch ris a-rithist."
 
-#: app/scripts/templates/complete_account_unlock.mustache:7
-msgid "Unlock error"
-msgstr "Mearachd dì-ghlasaidh"
-
-#: app/scripts/templates/complete_reset_password.mustache:1
-msgid "Reset password link expired"
-msgstr "Dh’fhalbh an ùine air a’ cheangal airson ath-shuidheachadh an fhacail-fhaire"
-
-#: app/scripts/templates/complete_reset_password.mustache:2 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/templates/confirm.mustache:5
-#: app/scripts/templates/confirm_account_unlock.mustache:2 app/scripts/templates/confirm_reset_password.mustache:2
-msgid "Email resent"
-msgstr "Chaidh am post-d a chur a-rithist"
-
-#: app/scripts/templates/complete_reset_password.mustache:3
-msgid "The link you clicked to reset your password is expired."
-msgstr "Bhriog thu air ceangal a dh’fhalbh an ùine air gus am facal-faire agad ath-shuidheachadh."
-
-#: app/scripts/templates/complete_reset_password.mustache:4
-msgid "Click here to receive a new reset link"
-msgstr "Briog an-seo airson ceangal ùr airson ath-shuidheachadh"
-
-#: app/scripts/templates/complete_reset_password.mustache:6
-msgid "Reset password link damaged"
-msgstr "Chaidh an ceangal airson ath-shuidheachadh an fhacail-fhaire a dhochann"
-
-#: app/scripts/templates/complete_reset_password.mustache:9
+#: .es5/scripts/templates/complete_reset_password.mustache:9
 msgid "Enter new password"
 msgstr "Cuir a-steach facal-faire ùr"
 
-#: app/scripts/templates/complete_reset_password.mustache:10
+#: .es5/scripts/templates/complete_reset_password.mustache:10
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
 msgstr ""
 
-#: app/scripts/templates/complete_reset_password.mustache:11 app/scripts/templates/reset_password.mustache:3
+#: .es5/scripts/templates/complete_reset_password.mustache:11 .es5/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
 msgstr ""
 
-#: app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
+#: .es5/scripts/templates/complete_reset_password.mustache:13 .es5/scripts/templates/settings/change_password.mustache:7
 msgid "New password"
 msgstr "Facal-faire ùr"
 
-#: app/scripts/templates/complete_reset_password.mustache:14 app/scripts/templates/complete_reset_password.mustache:17 app/scripts/templates/force_auth.mustache:5
-#: app/scripts/templates/sign_in.mustache:11 app/scripts/templates/sign_in.mustache:23 app/scripts/templates/sign_up.mustache:17 app/scripts/templates/settings/change_password.mustache:5
-#: app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/delete_account.mustache:5 app/scripts/templates/settings/devices.mustache:3
+#: .es5/scripts/templates/complete_reset_password.mustache:14 .es5/scripts/templates/complete_reset_password.mustache:17 .es5/scripts/templates/force_auth.mustache:5
+#: .es5/scripts/templates/sign_in.mustache:9 .es5/scripts/templates/sign_in.mustache:21 .es5/scripts/templates/sign_up.mustache:17 .es5/scripts/templates/settings/change_password.mustache:5
+#: .es5/scripts/templates/settings/change_password.mustache:8 .es5/scripts/templates/settings/delete_account.mustache:5 .es5/scripts/templates/settings/devices.mustache:3
 msgid "Show"
 msgstr "Seall"
 
-#: app/scripts/templates/complete_reset_password.mustache:16
+#: .es5/scripts/templates/complete_reset_password.mustache:16
 msgid "Repeat password"
 msgstr "Cuir am facal-faire a-steach a-rithist"
 
-#: app/scripts/templates/complete_reset_password.mustache:18
+#: .es5/scripts/templates/complete_reset_password.mustache:18
 msgid "Submit new password"
 msgstr ""
 
-#: app/scripts/templates/complete_sign_up.mustache:1
+#: .es5/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
 msgstr "Dh’fhalbh an ùine air a’ cheangal dearbhaidh"
 
-#: app/scripts/templates/complete_sign_up.mustache:4
+#: .es5/scripts/templates/complete_sign_up.mustache:4
 msgid "Click here to receive a new verification link"
 msgstr "Briog an-seo airson ceangal dearbhaidh ùr fhaighinn"
 
-#: app/scripts/templates/complete_sign_up.mustache:10
+#: .es5/scripts/templates/complete_sign_up.mustache:10
 msgid "Verification error"
 msgstr "Mearachd dearbhaidh"
 
-#: app/scripts/templates/confirm.mustache:1
+#: .es5/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
 msgstr "Dearbhaich an cunntas agad"
 
-#: app/scripts/templates/confirm.mustache:3
+#: .es5/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
 msgstr ""
 
-#: app/scripts/templates/confirm.mustache:6 app/scripts/templates/confirm_account_unlock.mustache:3 app/scripts/templates/confirm_reset_password.mustache:3
+#: .es5/scripts/templates/confirm.mustache:6 .es5/scripts/templates/confirm_reset_password.mustache:3
 msgid "Email Sent"
 msgstr "Chaidh am post-d a chur"
 
-#: app/scripts/templates/confirm.mustache:7
+#: .es5/scripts/templates/confirm.mustache:7
 msgid "A verification link has been sent&nbsp;to %(email)s"
 msgstr "Chaidh ceangal dearbhaidh a chur&nbsp;gu %(email)s"
 
-#: app/scripts/templates/confirm.mustache:9
+#: .es5/scripts/templates/confirm.mustache:9
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
 msgstr ""
 
-#: app/scripts/templates/confirm.mustache:12 app/scripts/templates/confirm.mustache:14
+#: .es5/scripts/templates/confirm.mustache:12 .es5/scripts/templates/confirm.mustache:14
 msgid "Didn't arrive? Resend"
 msgstr ""
 
-#: app/scripts/templates/confirm_account_unlock.mustache:1
-msgid "Unlock email sent"
-msgstr "Chaidh am post-d dì-ghlasaidh a chur"
-
-#: app/scripts/templates/confirm_account_unlock.mustache:4
-msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
-msgstr ""
-"Chaidh an cunntas agad a ghlasadh ri linn adhbharan tèarainteachd. Mus urrainn dhut an cunntas a stiùireadh, feumaidh tu an cunntas agad a dhearbhadh a-rithist slighe ceangal dearbhaidh a chaidh a "
-"chur gu %(email)s"
-
-#: app/scripts/templates/confirm_account_unlock.mustache:6 app/scripts/templates/confirm_reset_password.mustache:9
-msgid "Resend email"
-msgstr "Cuir am post-d às ùr"
-
-#: app/scripts/templates/confirm_reset_password.mustache:1
+#: .es5/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
 msgstr "Chaidh am post-d ath-shuidheachaidh a chur"
 
-#: app/scripts/templates/confirm_reset_password.mustache:4
+#: .es5/scripts/templates/confirm_reset_password.mustache:4
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
 msgstr ""
 
-#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7 app/scripts/templates/reset_password.mustache:7
-#: app/scripts/templates/reset_password.mustache:9
+#: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:7
+#: .es5/scripts/templates/reset_password.mustache:9
 msgid "Remember password? Sign in."
 msgstr ""
 
-#: app/scripts/templates/cookies_disabled.mustache:1
+#: .es5/scripts/templates/confirm_reset_password.mustache:9
+msgid "Resend email"
+msgstr "Cuir am post-d às ùr"
+
+#: .es5/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
 msgstr "Tha feum air briosgaidean is stòras ionadail."
 
-#: app/scripts/templates/cookies_disabled.mustache:2
+#: .es5/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
 msgstr ""
 "Cuir an comas briosgaidean is stòras ionadail sa bhrabhsair agad gus cothrom fhaighinn air cunntasan Firefox. Cha ghabh diofar rudan, can faclan-faire a chumail an cuimhne eadar seiseanan, a "
 "dhèanamh as an aonais."
 
-#: app/scripts/templates/cookies_disabled.mustache:3
+#: .es5/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
 msgstr "Barrachd fiosrachaidh"
 
-#: app/scripts/templates/cookies_disabled.mustache:4
+#: .es5/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
 msgstr "Feuch ris a-rithist"
 
-#: app/scripts/templates/force_auth.mustache:1
+#: .es5/scripts/templates/force_auth.mustache:1
 msgid "Sign in to continue"
 msgstr "Clàraich a-steach airson leantainn air adhart"
 
-#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:21 app/scripts/templates/sign_up.mustache:15
-#: app/scripts/templates/settings/change_password.mustache:1 app/scripts/templates/settings/delete_account.mustache:4
+#: .es5/scripts/templates/force_auth.mustache:3 .es5/scripts/templates/sign_in.mustache:8 .es5/scripts/templates/sign_in.mustache:19 .es5/scripts/templates/sign_up.mustache:15
+#: .es5/scripts/templates/settings/change_password.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Facal-faire"
 
-#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in.mustache:4 app/scripts/templates/sign_in.mustache:12
-#: app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_in.mustache:24
+#: .es5/scripts/templates/force_auth.mustache:6 .es5/scripts/templates/sign_in.mustache:1 .es5/scripts/templates/sign_in.mustache:4 .es5/scripts/templates/sign_in.mustache:10
+#: .es5/scripts/templates/sign_in.mustache:14 .es5/scripts/templates/sign_in.mustache:22
 msgid "Sign in"
 msgstr "Clàraich a-steach"
 
-#: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:13 app/scripts/templates/sign_in.mustache:25 app/scripts/templates/settings/change_password.mustache:6
+#: .es5/scripts/templates/force_auth.mustache:7 .es5/scripts/templates/sign_in.mustache:11 .es5/scripts/templates/sign_in.mustache:23 .es5/scripts/templates/settings/change_password.mustache:6
 msgid "Forgot password?"
 msgstr "Na dhìochuimhnich thu am facal-faire agad?"
 
-#: app/scripts/templates/force_auth.mustache:8 app/scripts/templates/sign_in.mustache:27 app/scripts/templates/sign_up.mustache:19
+#: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
 "Ma leanas tu air adhart, bidh thu ag aontachadh ri <a id=\"fxa-tos\" href=\"/legal/terms\">teirmichean na seirbheise</a> agus <a id=\"fxa-pp\" href=\"/legal/privacy\">aithris na prìobhaideachd</a> "
 "aig seirbheisean neul Firefox."
 
-#: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
+#: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
 msgstr "Seirbheisean neul Firefox"
 
-#: app/scripts/templates/legal.mustache:2
+#: .es5/scripts/templates/legal.mustache:2
 msgid "Legal"
 msgstr "Nòtaichean laghail"
 
-#: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:5 app/scripts/templates/tos.mustache:2
+#: .es5/scripts/templates/legal.mustache:3 .es5/scripts/templates/settings.mustache:5 .es5/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "Teirmichean na seirbheise"
 
-#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:6
+#: .es5/scripts/templates/legal.mustache:4 .es5/scripts/templates/pp.mustache:2 .es5/scripts/templates/settings.mustache:6
 msgid "Privacy Notice"
 msgstr "Aithris na prìobhaideachd"
 
-#: app/scripts/templates/marketing_snippet.mustache:1
+#: .es5/scripts/templates/marketing_snippet.mustache:1
 msgid "Stay in sync on the go:"
 msgstr "Dèan sioncronachadh air an rathad:"
 
-#: app/scripts/templates/marketing_snippet.mustache:2
+#: .es5/scripts/templates/marketing_snippet.mustache:2
 msgid "Get Firefox for Android"
 msgstr "Faigh Firefox airson Android"
 
-#: app/scripts/templates/marketing_snippet_ios.mustache:1 app/scripts/templates/marketing_snippet_ios.mustache:5 app/scripts/templates/marketing_snippet_ios.mustache:9
+#: .es5/scripts/templates/marketing_snippet_ios.mustache:1 .es5/scripts/templates/marketing_snippet_ios.mustache:5 .es5/scripts/templates/marketing_snippet_ios.mustache:9
 msgid "Get the full Sync experience."
 msgstr "Cuir an sioncronachadh gu làn-fheum."
 
-#: app/scripts/templates/marketing_snippet_ios.mustache:2 app/scripts/templates/marketing_snippet_ios.mustache:3 app/scripts/templates/marketing_snippet_ios.mustache:12
+#: .es5/scripts/templates/marketing_snippet_ios.mustache:2 .es5/scripts/templates/marketing_snippet_ios.mustache:3 .es5/scripts/templates/marketing_snippet_ios.mustache:12
 msgid "Download Firefox for iOS!"
 msgstr "Luchdaich a-nuas Firefox airson iOS!"
 
-#: app/scripts/templates/marketing_snippet_ios.mustache:6 app/scripts/templates/marketing_snippet_ios.mustache:7 app/scripts/templates/marketing_snippet_ios.mustache:11
+#: .es5/scripts/templates/marketing_snippet_ios.mustache:6 .es5/scripts/templates/marketing_snippet_ios.mustache:7 .es5/scripts/templates/marketing_snippet_ios.mustache:11
 msgid "Download Firefox for Android."
 msgstr "Luchdaich a-nuas Firefox airson Android."
 
-#: app/scripts/templates/marketing_snippet_ios.mustache:10
+#: .es5/scripts/templates/marketing_snippet_ios.mustache:10
 msgid "Download Firefox for mobile devices."
 msgstr "Luchdaich a-nuas Firefox airson uidheaman mobile."
 
-#: app/scripts/templates/permissions.mustache:1 app/scripts/templates/settings/gravatar_permissions.mustache:1
+#: .es5/scripts/templates/permissions.mustache:1 .es5/scripts/templates/settings/gravatar_permissions.mustache:1
 msgid "Request for permission"
 msgstr "Iarrtas airson cead"
 
-#: app/scripts/templates/permissions.mustache:2 app/scripts/templates/settings/gravatar_permissions.mustache:2
+#: .es5/scripts/templates/permissions.mustache:2 .es5/scripts/templates/settings/gravatar_permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
 msgstr "Tha %(serviceName)s ag iarraidh an fhiosrachaidh a leanas mun chunntas agad:"
 
-#: app/scripts/templates/permissions.mustache:3 app/scripts/templates/settings/gravatar_permissions.mustache:4
+#: .es5/scripts/templates/permissions.mustache:3 .es5/scripts/templates/settings/gravatar_permissions.mustache:4
 msgid "Accept"
 msgstr "Gabh ris"
 
-#: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
-#: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:11 app/scripts/templates/settings/communication_preferences.mustache:5
-#: app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:7 app/scripts/templates/settings/display_name.mustache:6
-#: app/scripts/templates/settings/gravatar_permissions.mustache:5
+#: .es5/scripts/templates/permissions.mustache:4 .es5/scripts/templates/settings/avatar_camera.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:3
+#: .es5/scripts/templates/settings/avatar_gravatar.mustache:3 .es5/scripts/templates/settings/change_password.mustache:11 .es5/scripts/templates/settings/communication_preferences.mustache:5
+#: .es5/scripts/templates/settings/communication_preferences.mustache:13 .es5/scripts/templates/settings/delete_account.mustache:7 .es5/scripts/templates/settings/display_name.mustache:6
+#: .es5/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
 msgstr "Sguir dheth"
 
-#: app/scripts/templates/ready.mustache:1
+#: .es5/scripts/templates/ready.mustache:1
 msgid "Success"
 msgstr "Soirbheas"
 
-#: app/scripts/templates/ready.mustache:2
+#: .es5/scripts/templates/ready.mustache:2
 msgid "Sync preferences"
 msgstr "Roghainnean an t-sioncronachaidh"
 
-#: app/scripts/templates/ready.mustache:6
+#: .es5/scripts/templates/ready.mustache:6
 msgid "Proceed"
 msgstr "Lean air adhart"
 
-#: app/scripts/templates/ready.mustache:9
+#: .es5/scripts/templates/ready.mustache:9
 msgid "Your account is ready!"
 msgstr "Tha an cunntas agad deiseil!"
 
-#: app/scripts/templates/reset_password.mustache:1
+#: .es5/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
 msgstr ""
 
-#: app/scripts/templates/reset_password.mustache:2
+#: .es5/scripts/templates/reset_password.mustache:2
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr ""
 
-#: app/scripts/templates/reset_password.mustache:5 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
+#: .es5/scripts/templates/reset_password.mustache:5 .es5/scripts/templates/sign_in.mustache:18 .es5/scripts/templates/sign_up.mustache:13
+#: .es5/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "Post-d"
 
-#: app/scripts/templates/settings.mustache:1
+#: .es5/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
 msgstr "Cunntasan Firefox"
 
-#: app/scripts/templates/settings.mustache:2
+#: .es5/scripts/templates/settings.mustache:2
 msgid "Sign out"
 msgstr "Clàraich a-mach"
 
-#: app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
+#: .es5/scripts/templates/sign_in.mustache:2 .es5/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Lean air adhart gu %(serviceName)s"
 
-#: app/scripts/templates/sign_in.mustache:6 app/scripts/templates/sign_up.mustache:6
-msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
-msgstr ""
-
-#: app/scripts/templates/sign_in.mustache:8
+#: .es5/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr "Imrich an dàta sioncronachaidh agad ’s tu a’ clàradh a-steach dhan chunntas Firefox agad."
 
-#: app/scripts/templates/sign_in.mustache:14 app/scripts/templates/sign_in.mustache:17
+#: .es5/scripts/templates/sign_in.mustache:12 .es5/scripts/templates/sign_in.mustache:15
 msgid "Use a different account"
 msgstr "Cleachd cunntas eile"
 
-#: app/scripts/templates/sign_in.mustache:26
+#: .es5/scripts/templates/sign_in.mustache:24
 msgid "Create an account"
 msgstr "Cruthaich cunntas"
 
-#: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4
+#: .es5/scripts/templates/sign_up.mustache:1 .es5/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
 msgstr "Cruthaich cunntas Firefox"
 
-#: app/scripts/templates/sign_up.mustache:8
+#: .es5/scripts/templates/sign_up.mustache:6
+msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
+msgstr ""
+
+#: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr "Imrich an dàta sioncronachaidh agad ’s tu a’ cruthachadh cunntas Firefox ùr."
 
-#: app/scripts/templates/sign_up.mustache:10
+#: .es5/scripts/templates/sign_up.mustache:10
 msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 msgstr "A bheil cunntas agad fo phost-d eile? <a href=\"%(signinUri)s\">Clàraich a-steach</a>"
 
-#: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/settings/communication_preferences.mustache:7
+#: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Send me the monthly Firefox newsletter."
 msgstr ""
 
-#: app/scripts/templates/sign_up.mustache:22
+#: .es5/scripts/templates/sign_up.mustache:22
 msgid "Create account"
 msgstr ""
 
-#: app/scripts/templates/sign_up.mustache:27
+#: .es5/scripts/templates/sign_up.mustache:27
 msgid "Have an account? Sign in."
 msgstr "A bheil cunntas agad? Clàraich a-steach."
 
-#: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:2
-#: app/scripts/templates/settings/change_password.mustache:10 app/scripts/templates/settings/communication_preferences.mustache:4 app/scripts/templates/settings/display_name.mustache:2
-#: app/scripts/templates/settings/display_name.mustache:5
+#: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2
+#: .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/communication_preferences.mustache:4 .es5/scripts/templates/settings/display_name.mustache:2
+#: .es5/scripts/templates/settings/display_name.mustache:5
 msgid "Change"
 msgstr "Atharraich"
 
-#: app/scripts/templates/settings/avatar.mustache:4
+#: .es5/scripts/templates/settings/avatar.mustache:4
 msgid "Add"
 msgstr "Cuir ris"
 
-#: app/scripts/templates/settings/avatar_camera.mustache:1
+#: .es5/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
 msgstr "Tog dealbh"
 
-#: app/scripts/templates/settings/avatar_change.mustache:1
+#: .es5/scripts/templates/settings/avatar_change.mustache:1
 msgid "Upload"
 msgstr "Luchdaich suas"
 
-#: app/scripts/templates/settings/avatar_change.mustache:2
+#: .es5/scripts/templates/settings/avatar_change.mustache:2
 msgid "Camera"
 msgstr "Camara"
 
-#: app/scripts/templates/settings/avatar_change.mustache:3
+#: .es5/scripts/templates/settings/avatar_change.mustache:3
 msgid "Gravatar"
 msgstr "Gravatar"
 
-#: app/scripts/templates/settings/avatar_change.mustache:4
+#: .es5/scripts/templates/settings/avatar_change.mustache:4
 msgid "Clear"
 msgstr "Falamhaich"
 
-#: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/devices.mustache:12
+#: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/devices.mustache:12
 msgid "Done"
 msgstr "Deiseil"
 
-#: app/scripts/templates/settings/avatar_crop.mustache:1
+#: .es5/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
 msgstr "Suidhich is cuairtich an dealbh ma thogras tu"
 
-#: app/scripts/templates/settings/avatar_gravatar.mustache:2
+#: .es5/scripts/templates/settings/avatar_gravatar.mustache:2
 msgid "Save"
 msgstr "Sàbhail"
 
-#: app/scripts/templates/settings/change_password.mustache:3
+#: .es5/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
 msgstr "Turas a bhios tu deiseil, cleachd am facal-faire ùr agad a chlàradh a-steach air na h-uidheaman air fad agad."
 
-#: app/scripts/templates/settings/change_password.mustache:4
+#: .es5/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
 msgstr "An seann fhacal-faire"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:3
+#: .es5/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
 msgstr "Roghainnean conaltraidh"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:8
+#: .es5/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
 msgstr "Roghainnean a’ phuist-d"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:10
+#: .es5/scripts/templates/settings/communication_preferences.mustache:10
 msgid "Unsubscribe"
 msgstr "Sguir dhen fho-sgrìobhadh"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:12
+#: .es5/scripts/templates/settings/communication_preferences.mustache:12
 msgid "Subscribe"
 msgstr "Fo-sgrìobh"
 
-#: app/scripts/templates/settings/delete_account.mustache:1 app/scripts/templates/settings/delete_account.mustache:6
+#: .es5/scripts/templates/settings/delete_account.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:6
 msgid "Delete account"
 msgstr "Sguab às an cunntas"
 
-#: app/scripts/templates/settings/delete_account.mustache:2
+#: .es5/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete"
 msgstr "Sguab às"
 
-#: app/scripts/templates/settings/delete_account.mustache:3
+#: .es5/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
 msgstr "A bheil thu cinnteach gu bheil thu airson an cunntas agad a sguabadh às? Cha ghabh seo a neo-dhèanamh."
 
-#: app/scripts/templates/settings/devices.mustache:2
+#: .es5/scripts/templates/settings/devices.mustache:2
 msgid "Devices"
 msgstr "Uidheaman"
 
-#: app/scripts/templates/settings/devices.mustache:4
+#: .es5/scripts/templates/settings/devices.mustache:4
 msgid ""
 "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
 "\"%(linkLinux)s\">Linux</a>."
@@ -919,49 +914,75 @@ msgstr ""
 "Tha Firefox ri fhaighinn air <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> agus <a href="
 "\"%(linkLinux)s\">Linux</a>."
 
-#: app/scripts/templates/settings/devices.mustache:5
+#: .es5/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
 msgstr "’S urrainn dhut na h-uidheaman agad a stiùireadh gu h-ìosal."
 
-#: app/scripts/templates/settings/devices.mustache:6
+#: .es5/scripts/templates/settings/devices.mustache:6
 msgid "current device"
 msgstr ""
 
-#: app/scripts/templates/settings/devices.mustache:8
+#: .es5/scripts/templates/settings/devices.mustache:8
 msgid "Disconnect"
 msgstr "Dì-cheangail"
 
-#: app/scripts/templates/settings/devices.mustache:10
+#: .es5/scripts/templates/settings/devices.mustache:10
 msgid "Don't see all your devices?"
 msgstr "Nach fhaic thu na h-uidheaman air fad agad?"
 
-#: app/scripts/templates/settings/devices.mustache:11
+#: .es5/scripts/templates/settings/devices.mustache:11
 msgid "Refresh"
 msgstr "Ath-nuadhaich"
 
-#: app/scripts/templates/settings/display_name.mustache:3
+#: .es5/scripts/templates/settings/display_name.mustache:3
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Tagh an t-ainm a nochdas ann am Firefox agus nuair a stiùireas tu an cunntas agad."
 
-#: app/scripts/templates/partial/coppa-age-input.mustache:1
+#: .es5/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
 msgstr "Dè an aois a tha thu?"
 
-#: app/scripts/templates/openid/start.mustache:1
+#: .es5/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
 msgstr "Clàraich a-steach a shioncronachadh"
 
-#: app/scripts/templates/openid/start.mustache:2
+#: .es5/scripts/templates/openid/start.mustache:2
 msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
 msgstr "Tagh an cunntas a bu toigh leat cleachdadh gus na tabaichean, comharran-lìn, faclan-faire is mòran a bharrachd a shioncronachadh."
 
-#: app/scripts/templates/openid/start.mustache:3
+#: .es5/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
 msgstr "Cleachd OpenID"
 
-#: app/scripts/templates/openid/start.mustache:4
+#: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Cleachd cunntas Firefox"
+
+#~ msgid "Account unlocked, please try again"
+#~ msgstr "Chaidh a’ ghlas a thoirt far a’ chunntais, feuch ris a-rithist"
+
+#~ msgid "Account unlocked"
+#~ msgstr "Chaidh a’ ghlas a thoirt far a’ chunntais"
+
+#~ msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+#~ msgstr "Cunntas glaiste. <a href=\"/confirm_account_unlock\">Cuir post-d gus a’ ghlas a thoirt dheth</a>"
+
+#~ msgid "Unlock link expired"
+#~ msgstr "Dh’fhalbh an ùine air a’ cheangal dhì-ghlasaidh"
+
+#~ msgid "Unlock link damaged"
+#~ msgstr "Chaidh an ceangal dhì-ghlasaidh a dhochann"
+
+#~ msgid "Unlock error"
+#~ msgstr "Mearachd dì-ghlasaidh"
+
+#~ msgid "Unlock email sent"
+#~ msgstr "Chaidh am post-d dì-ghlasaidh a chur"
+
+#~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
+#~ msgstr ""
+#~ "Chaidh an cunntas agad a ghlasadh ri linn adhbharan tèarainteachd. Mus urrainn dhut an cunntas a stiùireadh, feumaidh tu an cunntas agad a dhearbhadh a-rithist slighe ceangal dearbhaidh a chaidh "
+#~ "a chur gu %(email)s"
 
 #~ msgid "Signup has been disabled"
 #~ msgstr "Chaidh Signup a chur à comas"
