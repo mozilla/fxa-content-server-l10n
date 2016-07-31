@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-25 20:11+0000\n"
-"PO-Revision-Date: 2016-07-31 11:02+0000\n"
+"PO-Revision-Date: 2016-07-31 11:14+0000\n"
 "Last-Translator: Sai Karthik Karra <kskarthik91@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -299,59 +299,59 @@ msgstr "చెల్లుబాటు అయ్యే పాస్వర్డ�
 
 #: .es5/scripts/lib/auth-errors.js:163 .es5/scripts/lib/auth-errors.js:201 .es5/scripts/lib/auth-errors.js:217
 msgid "Valid email required"
-msgstr ""
+msgstr "చెల్లుబాటు అయ్యే ఇమెయిల్ అవసరం"
 
 #: .es5/scripts/lib/auth-errors.js:174
 msgid "A usable image was not found"
-msgstr ""
+msgstr "ఒక ఉపయోగపడే చిత్రం దొరకలేదు"
 
 #: .es5/scripts/lib/auth-errors.js:178
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "కెమెరా ప్రారంభించడం సాధ్యం కాలేదు"
 
 #: .es5/scripts/lib/auth-errors.js:182
 msgid "Valid URL required"
-msgstr ""
+msgstr "చెల్లుబాటు అయ్యే URL అవసరం"
 
 #: .es5/scripts/lib/auth-errors.js:197
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "మీ ధృవీకరణ ఇమెయిల్ తిరిగి. ఇమెయిల్ తప్పుగా టైప్ చేసారా?"
 
 #: .es5/scripts/lib/auth-errors.js:205
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "ఒక చెల్లుబాటు అయ్యే ఇమెయిల్ చిరునామాను నమోదు చేయండి. firefox.com ఇమెయిల్ అందించడం లేదు."
 
 #: .es5/scripts/lib/auth-errors.js:213
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "ఫైర్ఫాక్స్ ఖాతాలను ఆమోదం సైట్లలో ఒక iframe లోకి ఉంచవచ్చు"
 
 #: .es5/scripts/lib/auth-errors.js:228 .es5/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
-msgstr ""
+msgstr "మీరు మీ ఇమెయిల్ ధ్రువీకరించడం క్లిక్ చేసిన లింక్ గడువు ముగిసింది."
 
 #: .es5/scripts/lib/auth-errors.js:232 .es5/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
-msgstr ""
+msgstr "ధృవీకరణ లింక్ దెబ్బతింది"
 
 #: .es5/scripts/lib/auth-errors.js:240
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "చిత్రం కొలతలు 100x100px కనీసం ఉండాలి"
 
 #: .es5/scripts/lib/auth-errors.js:244
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "సైన్ అప్ ఫైర్ఫాక్స్ iOS కోసం త్వరలో వస్తోంది"
 
 #: .es5/scripts/lib/auth-errors.js:255
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "మీరు సైన్ అప్ మీ వయస్సు నమోదు చేయాలి"
 
 #: .es5/scripts/lib/auth-errors.js:259
 msgid "No Gravatar found"
-msgstr ""
+msgstr "గ్రావతార్ దొరకలేదు"
 
 #: .es5/scripts/lib/auth-errors.js:267
 msgid "Account no longer exists."
-msgstr ""
+msgstr "ఖాతా ఇకపై ఉనికిలో లేదు."
 
 #: .es5/scripts/lib/auth-errors.js:271
 msgid "Invalid property in resume token: %(property)s"
@@ -375,7 +375,7 @@ msgstr ""
 
 #: .es5/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
-msgstr ""
+msgstr "తెలియని క్లయింట్"
 
 #: .es5/scripts/lib/oauth-errors.js:30
 msgid "Incorrect redirect_uri"
@@ -383,19 +383,19 @@ msgstr ""
 
 #: .es5/scripts/lib/oauth-errors.js:34
 msgid "Invalid assertion"
-msgstr ""
+msgstr "చెల్లని ప్రకటన"
 
 #: .es5/scripts/lib/oauth-errors.js:38
 msgid "Unknown code"
-msgstr ""
+msgstr "తెలియని కోడ్"
 
 #: .es5/scripts/lib/oauth-errors.js:42
 msgid "Incorrect code"
-msgstr ""
+msgstr "తప్పు కోడ్"
 
 #: .es5/scripts/lib/oauth-errors.js:46
 msgid "Expired code"
-msgstr ""
+msgstr "గడువు తీరిన కోడ్"
 
 #: .es5/scripts/lib/oauth-errors.js:54 .es5/scripts/lib/oauth-errors.js:76
 msgid "Invalid OAuth parameter: %(param)s"
@@ -403,15 +403,15 @@ msgstr ""
 
 #: .es5/scripts/lib/oauth-errors.js:62 .es5/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
-msgstr ""
+msgstr "అనధికార"
 
 #: .es5/scripts/lib/oauth-errors.js:66
 msgid "Forbidden"
-msgstr ""
+msgstr "ఫర్బిడెన్"
 
 #: .es5/scripts/lib/oauth-errors.js:88
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "ఎక్కడో తేడ జరిగింది. దయచేసి ఈ టాబ్ ను మూసివేసి, మళ్ళీ ప్రయత్నించండి."
 
 #: .es5/scripts/lib/oauth-errors.js:108
 msgid "Missing OAuth parameter: %(param)s"
@@ -419,7 +419,7 @@ msgstr ""
 
 #: .es5/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
-msgstr ""
+msgstr "చెల్లని టోకేను"
 
 #: .es5/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
@@ -427,15 +427,15 @@ msgstr ""
 
 #: .es5/scripts/lib/profile-errors.js:31
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "మద్దతు లేని చిత్రం ప్రొవైడర్"
 
 #: .es5/scripts/lib/profile-errors.js:35
 msgid "Image processing error"
-msgstr ""
+msgstr "బొమ్మ ప్రాసెసింగు లోపం"
 
 #: .es5/scripts/lib/service-name.js:15
 msgid "Firefox Sync"
-msgstr ""
+msgstr "ఫైర్ఫాక్స్ సింక్"
 
 #: .es5/scripts/lib/strings.js:17
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
@@ -467,19 +467,19 @@ msgstr ""
 
 #: .es5/scripts/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "తప్పుడు విన్నపం"
 
 #: .es5/scripts/templates/500.mustache:1
 msgid "500 Error"
-msgstr ""
+msgstr "500 లోపం"
 
 #: .es5/scripts/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr ""
+msgstr "అయ్యో, ఏదో తప్పు జరిగింది. మాకు నోటేసు అందింది మరియు మేము దేనిని పరిష్కరిస్తున్నాము."
 
 #: .es5/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
-msgstr ""
+msgstr "ఖాతా సృష్టించడం వీలుపడుటలేదు"
 
 #: .es5/scripts/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
