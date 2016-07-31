@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-25 20:11+0000\n"
-"PO-Revision-Date: 2016-07-19 02:47+0000\n"
-"Last-Translator: Dinesh <dineshmv38@gmail.com>\n"
+"PO-Revision-Date: 2016-07-31 11:02+0000\n"
+"Last-Translator: Sai Karthik Karra <kskarthik91@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
 "MIME-Version: 1.0\n"
@@ -128,31 +128,31 @@ msgstr "సంవత్సరాల క్రితము"
 
 #: .es5/scripts/views/settings/display_name.js:50
 msgid "Display name updated"
-msgstr ""
+msgstr "ప్రదర్శన పేరు నవీకరించబడింది"
 
 #: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/lib/auth-errors.js:107
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "మీ ఖాతా భద్రతా కారణాల కోసం లాక్ చేయబడింది"
 
 #: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/templates/reset_password.mustache:6
 msgid "Reset password"
-msgstr ""
+msgstr "పాస్వర్డ్ మార్చుకోండి"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:17
 msgid "Open Gmail"
-msgstr ""
+msgstr "జే మేయిల్ తెరువు"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:22
 msgid "Open Hotmail"
-msgstr ""
+msgstr "హాట్ మేయిల్ తెరువు"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:27
 msgid "Open Yahoo"
-msgstr ""
+msgstr "యాహూ తెరువు"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:32
 msgid "Open Outlook"
-msgstr ""
+msgstr "అవుట్లుక్ తెరువు"
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:21
 msgid "8 characters minimum, but longer if you plan to sync passwords."
@@ -168,49 +168,49 @@ msgstr ""
 
 #: .es5/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
-msgstr ""
+msgstr "విజయవంతంగా సైన్ అవుట్ అయ్యారు"
 
 #: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:76 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
 #: .es5/scripts/lib/profile-errors.js:47 .es5/scripts/lib/require-on-demand.js:33 .es5/scripts/lib/require-on-demand.js:37 .es5/scripts/lib/require-on-demand.js:41
 #: .es5/scripts/lib/require-on-demand.js:45
 msgid "Unexpected error"
-msgstr ""
+msgstr "ఊహించని దోషం"
 
 #: .es5/scripts/lib/auth-errors.js:29 .es5/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
-msgstr ""
+msgstr "చెల్లని టోకేను"
 
 #: .es5/scripts/lib/auth-errors.js:33
 msgid "Invalid timestamp in request signature"
-msgstr ""
+msgstr "అభ్యర్థన సంతకంలో చెల్లని స్టాంప్"
 
 #: .es5/scripts/lib/auth-errors.js:37
 msgid "Invalid nonce in request signature"
-msgstr ""
+msgstr "అభ్యర్థన సంతకంలో చెల్లని సమయము"
 
 #: .es5/scripts/lib/auth-errors.js:41
 msgid "Account already exists"
-msgstr ""
+msgstr "ఖాతా ఇప్పటికే ఉనికిలో ఉంది"
 
 #: .es5/scripts/lib/auth-errors.js:45
 msgid "Unknown account"
-msgstr ""
+msgstr "తెలియని ఖాతా"
 
 #: .es5/scripts/lib/auth-errors.js:49
 msgid "Incorrect email case"
-msgstr ""
+msgstr "సరికాని ఇమెయిల్ కేసు"
 
 #: .es5/scripts/lib/auth-errors.js:53
 msgid "Incorrect password"
-msgstr ""
+msgstr "సరికాని పాస్వర్డ్"
 
 #: .es5/scripts/lib/auth-errors.js:57
 msgid "Unverified account"
-msgstr ""
+msgstr "ధ్రువీకరించని ఖాతా"
 
 #: .es5/scripts/lib/auth-errors.js:61
 msgid "Invalid verification code"
-msgstr ""
+msgstr "చెల్లని ధృవీకరణ కోడ్"
 
 #: .es5/scripts/lib/auth-errors.js:65
 msgid "Invalid JSON in request body"
@@ -226,7 +226,7 @@ msgstr ""
 
 #: .es5/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
-msgstr ""
+msgstr "చెల్లని అభ్యర్థన సంతకం"
 
 #: .es5/scripts/lib/auth-errors.js:81
 msgid "Missing content-length header"
@@ -234,32 +234,32 @@ msgstr ""
 
 #: .es5/scripts/lib/auth-errors.js:85
 msgid "Request body too large"
-msgstr ""
+msgstr "అభ్యర్థన శరీరం చాలా పెద్ద"
 
 #: .es5/scripts/lib/auth-errors.js:89
 msgid "Attempt limit exceeded"
-msgstr ""
+msgstr "ప్రయత్నం పరిమితి మించిపోయింది"
 
 #: .es5/scripts/lib/auth-errors.js:103
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "అభ్యర్థన భద్రతా కారణాల వల్ల నిరోధించబడింది"
 
 #: .es5/scripts/lib/auth-errors.js:111 .es5/scripts/lib/auth-errors.js:288
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "సర్వర్ బిజీగా ఉంది, త్వరలో మళ్లీ ప్రయత్నించండి"
 
 #: .es5/scripts/lib/auth-errors.js:115
 msgid "This endpoint is no longer supported"
-msgstr ""
+msgstr "ఈ తుది స్థానం ఇకపై మద్దతు ఇవ్వబడదు"
 
 #: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:72 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
 #: .es5/scripts/lib/oauth-errors.js:80 .es5/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "వ్యవస్థ అందుబాటులో లేవు, త్వరలో మళ్లీ ప్రయత్నించండి"
 
 #: .es5/scripts/lib/auth-errors.js:123 .es5/scripts/lib/oauth-errors.js:104
 msgid "no message"
-msgstr ""
+msgstr "సందేశం లేదు"
 
 #: .es5/scripts/lib/auth-errors.js:127
 msgid "Session expired. Sign in to continue."
@@ -267,35 +267,35 @@ msgstr ""
 
 #: .es5/scripts/lib/auth-errors.js:131
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "కుకీలు ఇప్పటికీ డిసేబుల్ అయిఉన్నవి"
 
 #: .es5/scripts/lib/auth-errors.js:135
 msgid "Passwords do not match"
-msgstr ""
+msgstr "గుప్త పదములు సరి పోవట్లేదు"
 
 #: .es5/scripts/lib/auth-errors.js:139
 msgid "Working…"
-msgstr ""
+msgstr "పని జరుగుతోంది..."
 
 #: .es5/scripts/lib/auth-errors.js:143
 msgid "Could not get Privacy Notice"
-msgstr ""
+msgstr "గోప్యతా నోటీసు పొందడం సాధ్యం కాలేదు"
 
 #: .es5/scripts/lib/auth-errors.js:147
 msgid "Could not get Terms of Service"
-msgstr ""
+msgstr "సేవా నిబంధనలు పొందుటకు కాలేదు"
 
 #: .es5/scripts/lib/auth-errors.js:151
 msgid "Your new password must be different"
-msgstr ""
+msgstr "మీ కొత్త పాస్వర్డ్ భిన్నంగా ఉండాలి"
 
 #: .es5/scripts/lib/auth-errors.js:155 .es5/scripts/templates/complete_reset_password.mustache:15 .es5/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
-msgstr ""
+msgstr "కనీసం 8 అక్షరాల పొడవు ఉండాలి"
 
 #: .es5/scripts/lib/auth-errors.js:159
 msgid "Valid password required"
-msgstr ""
+msgstr "చెల్లుబాటు అయ్యే పాస్వర్డ్ అవసరం"
 
 #: .es5/scripts/lib/auth-errors.js:163 .es5/scripts/lib/auth-errors.js:201 .es5/scripts/lib/auth-errors.js:217
 msgid "Valid email required"
@@ -438,9 +438,7 @@ msgid "Firefox Sync"
 msgstr ""
 
 #: .es5/scripts/lib/strings.js:17
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/scripts/lib/strings.js:24
@@ -901,8 +899,8 @@ msgstr ""
 
 #: .es5/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
 
 #: .es5/scripts/templates/settings/devices.mustache:5
