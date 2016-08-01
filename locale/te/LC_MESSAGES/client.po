@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-25 20:11+0000\n"
-"PO-Revision-Date: 2016-08-01 14:57+0000\n"
+"PO-Revision-Date: 2016-08-01 19:48+0000\n"
 "Last-Translator: Sai Karthik Karra <kskarthik91@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -463,7 +463,7 @@ msgstr ""
 
 #: .es5/scripts/lib/strings.js:34
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "అదనపు భద్రత కోసం, ఈ పరికరంతో సింక్ ప్రారంభించడానికి సైన్ ఇన్ నిర్ధారించుకోండి:"
 
 #: .es5/scripts/templates/400.mustache:1
 msgid "Bad Request"
@@ -483,7 +483,7 @@ msgstr "ఖాతా సృష్టించడం వీలుపడుటల�
 
 #: .es5/scripts/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr ""
+msgstr "మీరు ఒక ఫైర్ఫాక్స్ &nbsp ఖాతాసృష్టించడానికి నిర్దిష్ట వయస్సు అవసరాలను పూర్తిచేయాలి."
 
 #: .es5/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
@@ -614,7 +614,7 @@ msgstr "ఒక ధృవీకరణ లింక్ను &nbsp; %(email)s క�
 
 #: .es5/scripts/templates/confirm.mustache:9
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr ""
+msgstr "మీ ఫైర్ఫాక్స్ డేటాను రక్షించడానికి, మేకు మేము ఒక నిర్ధారణ లింక్ ఇమెయిల్ %(email)s చేసాము"
 
 #: .es5/scripts/templates/confirm.mustache:12 .es5/scripts/templates/confirm.mustache:14
 msgid "Didn't arrive? Resend"
@@ -777,7 +777,7 @@ msgstr "%(serviceName)s కు కొనసాగు"
 
 #: .es5/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr ""
+msgstr "మీ సింక్ డేటాను తరలించడానికి మీ యొక్క ఫైర్ఫాక్స్ &nbsp;ఖాతా కి సైన్ ఇన్ అవ్వండి."
 
 #: .es5/scripts/templates/sign_in.mustache:12 .es5/scripts/templates/sign_in.mustache:15
 msgid "Use a different account"
@@ -793,11 +793,11 @@ msgstr "ఒక ఫైర్ఫాక్స్ ఖాతా సృష్టిం
 
 #: .es5/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
-msgstr ""
+msgstr "ఫైర్ఫాక్స్ సింక్ కోసం చూస్తున్నారా? <a href=\"https://mozilla.org/firefox/sync\">ఇక్కడ మొదలు పెట్టండి</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr ""
+msgstr "మే సింక్ డేటా తరలించడానికి ఒక కొత్త ఫైర్ఫాక్స్ &nbsp;ఖాతాను తెరవండి."
 
 #: .es5/scripts/templates/sign_up.mustache:10
 msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"

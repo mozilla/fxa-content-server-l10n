@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-25 20:11+0000\n"
-"PO-Revision-Date: 2016-07-28 04:50+0000\n"
-"Last-Translator: Dinesh <dineshmv38@gmail.com>\n"
+"PO-Revision-Date: 2016-08-01 19:52+0000\n"
+"Last-Translator: Sai Karthik Karra <kskarthik91@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
 "MIME-Version: 1.0\n"
@@ -336,7 +336,7 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "పేజ్ కనబడలేదు"
 
 #: server/templates/pages/src/404.html:3
 msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
@@ -344,11 +344,11 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
-msgstr ""
+msgstr "హోమ్"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr ""
+msgstr "500 లోపం"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
@@ -356,11 +356,11 @@ msgstr ""
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "502 లోపం"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "సర్వర్ బిజీగా ఉన్నది, దయచేసి తర్వాత ప్రయత్నించండి"
 
 #: server/templates/pages/src/503.html:3
 msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
@@ -372,7 +372,7 @@ msgstr ""
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "ఫైర్ఫాక్స్ ఖాతాలకి Javascript అవసరం."
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
@@ -384,4 +384,4 @@ msgstr ""
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
-msgstr ""
+msgstr "సేవ యొక్క షరతులు"
