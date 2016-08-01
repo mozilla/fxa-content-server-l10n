@@ -167,7 +167,7 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
-"თქვენ წარმატებით დაუკავშირეთ თქვენს Firefox ანგარიშს  პირველი მოწყობილობა. ახლა Sync-ში შესვლა სხვა მოწყობილობებიდანაც შეგიძლიათ, მათ შორის Firefox (androidLinkAttributes)s>Android-ისთვის</a> და <a "
+"თქვენ წარმატებით დაუკავშირეთ თქვენს Firefox ანგარიშს  პირველი მოწყობილობა. ახლა Sync-ში შესვლა სხვა მოწყობილობებიდანაც შეგიძლიათ, მათ შორის Firefox <a %(androidLinkAttributes)s>Android-ისთვის</a> და <a "
 "%(iosLinkAttributes)s>iOS-ისთვის</a>."
 
 #: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
