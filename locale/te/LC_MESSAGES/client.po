@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-25 20:11+0000\n"
-"PO-Revision-Date: 2016-07-31 11:14+0000\n"
+"PO-Revision-Date: 2016-08-01 14:57+0000\n"
 "Last-Translator: Sai Karthik Karra <kskarthik91@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -160,11 +160,11 @@ msgstr ""
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/templates/sign_up.mustache:18
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr ""
+msgstr "ఒక బలమైన, ఏకైక పాస్వర్డ్ను మీ ఫైర్ఫాక్స్ లోకి చొరబాటు నుండి సురక్షితంగా ఉంచుతాయి."
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:23
 msgid "This is a common password; please consider another one."
-msgstr ""
+msgstr "ఈ ఒక సాధారణ పాస్వర్డ్; దయచేసి మరో దాన్ని పరిగణలోకి తీసుకోండి."
 
 #: .es5/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
@@ -487,130 +487,130 @@ msgstr ""
 
 #: .es5/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
-msgstr ""
+msgstr "ఇంకా నేర్చుకో."
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:1 .es5/scripts/templates/sign_up.mustache:24
 msgid "Choose what to sync"
-msgstr ""
+msgstr "ఏమి సింక్ చేయాలో ఎంచుకోండి"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Tabs"
-msgstr ""
+msgstr "ట్యాబ్స్"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
-msgstr ""
+msgstr "బుక్మార్క్స్"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
-msgstr ""
+msgstr "ఆడ్-ఆన్స్"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:8
 msgid "Passwords"
-msgstr ""
+msgstr "పాస్వర్డ్స్"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:10
 msgid "History"
-msgstr ""
+msgstr "చరిత్ర"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Preferences"
-msgstr ""
+msgstr "ప్రాధాన్యతలు"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr ""
+msgstr "అనుబంధాలను మరియు ప్రాధాన్యతలు ప్రస్తుతం మొబైల్ పరికరాల్లో సింక్ కాలేదు."
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
-msgstr ""
+msgstr "సెట్టింగులను సేవ్ చేయండి"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:16 .es5/scripts/templates/confirm.mustache:13 .es5/scripts/templates/pp.mustache:3 .es5/scripts/templates/tos.mustache:3
 msgid "Back"
-msgstr ""
+msgstr "వెనక్కి"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
-msgstr ""
+msgstr "రీసెట్ పాస్వర్డ్ను లింక్ గడువు"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:2 .es5/scripts/templates/complete_sign_up.mustache:2 .es5/scripts/templates/confirm.mustache:5
 #: .es5/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email resent"
-msgstr ""
+msgstr "ఈమయిల్ తిరిగి పంపబడినది"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
-msgstr ""
+msgstr "మీరు మీ పాస్వర్డ్ను రీసెట్ క్లిక్ చేసిన లింక్ గడువు ముగిసింది."
 
 #: .es5/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr ""
+msgstr "ఒక కొత్త రీసెట్ లింక్ అందుకుంటారు ఇక్కడ క్లిక్ చేయండి"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:6
 msgid "Reset password link damaged"
-msgstr ""
+msgstr "పాస్వర్డ్ రీసెట్ లింక్ దెబ్బతింది"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:7 .es5/scripts/templates/complete_sign_up.mustache:8
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr ""
+msgstr "మీరు క్లిక్ చేసిన లింక్ పాత్రలు లేదు, మరియు మీ ఇమెయిల్ క్లయింట్ ద్వారా తెగిపోయింది ఉండవచ్చు. జాగ్రత్తగా చిరునామాను కాపీ, మళ్ళీ ప్రయత్నించండి."
 
 #: .es5/scripts/templates/complete_reset_password.mustache:9
 msgid "Enter new password"
-msgstr ""
+msgstr "కొత్త పాస్వర్డ్ ప్రవేశపెట్టండి"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:10
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "ఒకసారి మీరు మీ కొత్త పాస్వర్డ్ను పంపితే, మీరు మీ పరికరాల్లో ఒకటి న కాదని ఏ సింక్ డేటా కోల్పోతారు."
 
 #: .es5/scripts/templates/complete_reset_password.mustache:11 .es5/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
-msgstr ""
+msgstr "సింక్ ఎలా పనిచేస్తుందో నేర్చుకోండి."
 
 #: .es5/scripts/templates/complete_reset_password.mustache:13 .es5/scripts/templates/settings/change_password.mustache:7
 msgid "New password"
-msgstr ""
+msgstr "కొత్త పాస్వర్డ్"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:14 .es5/scripts/templates/complete_reset_password.mustache:17 .es5/scripts/templates/force_auth.mustache:5
 #: .es5/scripts/templates/sign_in.mustache:9 .es5/scripts/templates/sign_in.mustache:21 .es5/scripts/templates/sign_up.mustache:17 .es5/scripts/templates/settings/change_password.mustache:5
 #: .es5/scripts/templates/settings/change_password.mustache:8 .es5/scripts/templates/settings/delete_account.mustache:5 .es5/scripts/templates/settings/devices.mustache:3
 msgid "Show"
-msgstr ""
+msgstr "చూపు"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:16
 msgid "Repeat password"
-msgstr ""
+msgstr "పాస్వర్డ్ మళ్ళి చెప్పండి"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:18
 msgid "Submit new password"
-msgstr ""
+msgstr "కొత్త పాస్వర్డ్ సమర్పించండి"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
-msgstr ""
+msgstr "ధ్రువీకరణ లింక్ గడువు ముగిసింది"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:4
 msgid "Click here to receive a new verification link"
-msgstr ""
+msgstr "కొత్త ధృవీకరణ లింక్ను అందుకుంటారు ఇక్కడ క్లిక్ చేయండి"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:10
 msgid "Verification error"
-msgstr ""
+msgstr "ధ్రువీకరణ లోపం"
 
 #: .es5/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
-msgstr ""
+msgstr "మీ ఖాతాను నిర్ధారించండి"
 
 #: .es5/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "ఈ సైన్ ఇన్ నిర్ధారించండి"
 
 #: .es5/scripts/templates/confirm.mustache:6 .es5/scripts/templates/confirm_reset_password.mustache:3
 msgid "Email Sent"
-msgstr ""
+msgstr "ఈ మేయిల్ పంపబడింది"
 
 #: .es5/scripts/templates/confirm.mustache:7
 msgid "A verification link has been sent&nbsp;to %(email)s"
-msgstr ""
+msgstr "ఒక ధృవీకరణ లింక్ను &nbsp; %(email)s కు పంపారు"
 
 #: .es5/scripts/templates/confirm.mustache:9
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
@@ -618,11 +618,11 @@ msgstr ""
 
 #: .es5/scripts/templates/confirm.mustache:12 .es5/scripts/templates/confirm.mustache:14
 msgid "Didn't arrive? Resend"
-msgstr ""
+msgstr "అందలేదా? తిరిగి పంపు"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr ""
+msgstr "రీసెట్ ఇమెయిల్ పంపబడింది"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:4
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
@@ -631,45 +631,45 @@ msgstr ""
 #: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:7
 #: .es5/scripts/templates/reset_password.mustache:9
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "పాస్వర్డ్ గుర్తుందా? సైన్ ఇన్."
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:9
 msgid "Resend email"
-msgstr ""
+msgstr "ఇమెయిల్ తిరిగి పంపండి"
 
 #: .es5/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
-msgstr ""
+msgstr "కుకీలు మరియు లోకల్ స్టోరేజ్ అవసరం."
 
 #: .es5/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr ""
+msgstr "ఫైర్ఫాక్స్ అకౌంట్స్ యాక్సెస్ మీ బ్రౌజర్లో కుక్కీలను మరియు స్థానిక నిల్వ ఎనేబుల్ చెయ్యండి. అలా చేయడం వంటి సెషన్ల మధ్య గుర్తుంచుకోవాల్సిన కార్యాచరణను ప్రారంభించడానికి ఉంటుంది."
 
 #: .es5/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
-msgstr ""
+msgstr "ఇంకా నేర్చుకో"
 
 #: .es5/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "తిరిగి ప్రయత్నించు"
 
 #: .es5/scripts/templates/force_auth.mustache:1
 msgid "Sign in to continue"
-msgstr ""
+msgstr "కొనసాగడానికి సైన్ ఇన్ అవ్వండి"
 
 #: .es5/scripts/templates/force_auth.mustache:3 .es5/scripts/templates/sign_in.mustache:8 .es5/scripts/templates/sign_in.mustache:19 .es5/scripts/templates/sign_up.mustache:15
 #: .es5/scripts/templates/settings/change_password.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
-msgstr ""
+msgstr "పాస్వర్డ్"
 
 #: .es5/scripts/templates/force_auth.mustache:6 .es5/scripts/templates/sign_in.mustache:1 .es5/scripts/templates/sign_in.mustache:4 .es5/scripts/templates/sign_in.mustache:10
 #: .es5/scripts/templates/sign_in.mustache:14 .es5/scripts/templates/sign_in.mustache:22
 msgid "Sign in"
-msgstr ""
+msgstr "సైన్ ఇన్"
 
 #: .es5/scripts/templates/force_auth.mustache:7 .es5/scripts/templates/sign_in.mustache:11 .es5/scripts/templates/sign_in.mustache:23 .es5/scripts/templates/settings/change_password.mustache:6
 msgid "Forgot password?"
-msgstr ""
+msgstr "పాస్వర్డ్ మరిచిపోయారా?"
 
 #: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
@@ -677,47 +677,47 @@ msgstr ""
 
 #: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "ఫైర్ఫాక్స్ క్లౌడ్ సేవలు"
 
 #: .es5/scripts/templates/legal.mustache:2
 msgid "Legal"
-msgstr ""
+msgstr "చట్టపరమైన"
 
 #: .es5/scripts/templates/legal.mustache:3 .es5/scripts/templates/settings.mustache:5 .es5/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
-msgstr ""
+msgstr "సేవా నిబంధనలు"
 
 #: .es5/scripts/templates/legal.mustache:4 .es5/scripts/templates/pp.mustache:2 .es5/scripts/templates/settings.mustache:6
 msgid "Privacy Notice"
-msgstr ""
+msgstr "గోప్యతా నోటీసు"
 
 #: .es5/scripts/templates/marketing_snippet.mustache:1
 msgid "Stay in sync on the go:"
-msgstr ""
+msgstr "ప్రయాణంలో సమకాలీకరించబడుతుంటాయి:"
 
 #: .es5/scripts/templates/marketing_snippet.mustache:2
 msgid "Get Firefox for Android"
-msgstr ""
+msgstr "ఆండ్రాయిడ్ కోసం ఫయఫాక్స్ పొందండి"
 
 #: .es5/scripts/templates/marketing_snippet_ios.mustache:1 .es5/scripts/templates/marketing_snippet_ios.mustache:5 .es5/scripts/templates/marketing_snippet_ios.mustache:9
 msgid "Get the full Sync experience."
-msgstr ""
+msgstr "పూర్తి సింక్ అనుభవం."
 
 #: .es5/scripts/templates/marketing_snippet_ios.mustache:2 .es5/scripts/templates/marketing_snippet_ios.mustache:3 .es5/scripts/templates/marketing_snippet_ios.mustache:12
 msgid "Download Firefox for iOS!"
-msgstr ""
+msgstr "ఇఓయస్ కోసం ఫైర్ఫాక్స్ డౌన్లోడ్ చేయండి!"
 
 #: .es5/scripts/templates/marketing_snippet_ios.mustache:6 .es5/scripts/templates/marketing_snippet_ios.mustache:7 .es5/scripts/templates/marketing_snippet_ios.mustache:11
 msgid "Download Firefox for Android."
-msgstr ""
+msgstr "ఆండ్రాయిడ్ కోసం ఫైర్ఫాక్స్ డౌన్లోడ్ చేయండి."
 
 #: .es5/scripts/templates/marketing_snippet_ios.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr ""
+msgstr "మొబైల్ పరికరాల కోసం ఫైర్ఫాక్స్ డౌన్లోడ్ చేయండి."
 
 #: .es5/scripts/templates/permissions.mustache:1 .es5/scripts/templates/settings/gravatar_permissions.mustache:1
 msgid "Request for permission"
-msgstr ""
+msgstr "అనుమతి కోసం అభ్యర్ధించు"
 
 #: .es5/scripts/templates/permissions.mustache:2 .es5/scripts/templates/settings/gravatar_permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
@@ -725,55 +725,55 @@ msgstr ""
 
 #: .es5/scripts/templates/permissions.mustache:3 .es5/scripts/templates/settings/gravatar_permissions.mustache:4
 msgid "Accept"
-msgstr ""
+msgstr "అంగీకరించు"
 
 #: .es5/scripts/templates/permissions.mustache:4 .es5/scripts/templates/settings/avatar_camera.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:3
 #: .es5/scripts/templates/settings/avatar_gravatar.mustache:3 .es5/scripts/templates/settings/change_password.mustache:11 .es5/scripts/templates/settings/communication_preferences.mustache:5
 #: .es5/scripts/templates/settings/communication_preferences.mustache:13 .es5/scripts/templates/settings/delete_account.mustache:7 .es5/scripts/templates/settings/display_name.mustache:6
 #: .es5/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
-msgstr ""
+msgstr "రద్దు"
 
 #: .es5/scripts/templates/ready.mustache:1
 msgid "Success"
-msgstr ""
+msgstr "విజయవంతం అయింది"
 
 #: .es5/scripts/templates/ready.mustache:2
 msgid "Sync preferences"
-msgstr ""
+msgstr "సింక్ ప్రాధాన్యతలను"
 
 #: .es5/scripts/templates/ready.mustache:6
 msgid "Proceed"
-msgstr ""
+msgstr "కొనసాగండి"
 
 #: .es5/scripts/templates/ready.mustache:9
 msgid "Your account is ready!"
-msgstr ""
+msgstr "మీ ఖాతా సిద్ధంగా ఉంది!"
 
 #: .es5/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
-msgstr ""
+msgstr "పాస్వర్డ్ మరిచిపోయారా"
 
 #: .es5/scripts/templates/reset_password.mustache:2
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "మీరు మీ పాస్వర్డ్ను రీసెట్ చేసినప్పుడు, మీరు మీ పరికరాల్లో ఒకటి న కాదని ఏ సమకాలీకరణ డేటా కోల్పోతారు."
 
 #: .es5/scripts/templates/reset_password.mustache:5 .es5/scripts/templates/sign_in.mustache:18 .es5/scripts/templates/sign_up.mustache:13
 #: .es5/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
-msgstr ""
+msgstr "ఈమేయిల్"
 
 #: .es5/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "ఫైర్ఫాక్స్ ఖాతాలు"
 
 #: .es5/scripts/templates/settings.mustache:2
 msgid "Sign out"
-msgstr ""
+msgstr "సైన్ ఔట్"
 
 #: .es5/scripts/templates/sign_in.mustache:2 .es5/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
-msgstr ""
+msgstr "%(serviceName)s కు కొనసాగు"
 
 #: .es5/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
@@ -781,15 +781,15 @@ msgstr ""
 
 #: .es5/scripts/templates/sign_in.mustache:12 .es5/scripts/templates/sign_in.mustache:15
 msgid "Use a different account"
-msgstr ""
+msgstr "వేరే ఖాతాను ఉపయోగించండి"
 
 #: .es5/scripts/templates/sign_in.mustache:24
 msgid "Create an account"
-msgstr ""
+msgstr "ఒక అకౌంటు సృష్టించు"
 
 #: .es5/scripts/templates/sign_up.mustache:1 .es5/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
-msgstr ""
+msgstr "ఒక ఫైర్ఫాక్స్ ఖాతా సృష్టించు"
 
 #: .es5/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
@@ -805,97 +805,97 @@ msgstr ""
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Send me the monthly Firefox newsletter."
-msgstr ""
+msgstr "నాకు నెలసరి ఫైర్ఫాక్స్ వార్తాలేఖను పంపు."
 
 #: .es5/scripts/templates/sign_up.mustache:22
 msgid "Create account"
-msgstr ""
+msgstr "ఖాతా సృష్టించు"
 
 #: .es5/scripts/templates/sign_up.mustache:27
 msgid "Have an account? Sign in."
-msgstr ""
+msgstr "ఖాతా ఉందా? సైన్ ఇన్ అవండి."
 
 #: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2
 #: .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/communication_preferences.mustache:4 .es5/scripts/templates/settings/display_name.mustache:2
 #: .es5/scripts/templates/settings/display_name.mustache:5
 msgid "Change"
-msgstr ""
+msgstr "మార్చు"
 
 #: .es5/scripts/templates/settings/avatar.mustache:4
 msgid "Add"
-msgstr ""
+msgstr "చేర్చు"
 
 #: .es5/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
-msgstr ""
+msgstr "చిత్రాన్ని తీసుకో"
 
 #: .es5/scripts/templates/settings/avatar_change.mustache:1
 msgid "Upload"
-msgstr ""
+msgstr "అప్లోడ్"
 
 #: .es5/scripts/templates/settings/avatar_change.mustache:2
 msgid "Camera"
-msgstr ""
+msgstr "కెమేరా"
 
 #: .es5/scripts/templates/settings/avatar_change.mustache:3
 msgid "Gravatar"
-msgstr ""
+msgstr "గ్రావతార్"
 
 #: .es5/scripts/templates/settings/avatar_change.mustache:4
 msgid "Clear"
-msgstr ""
+msgstr "క్లియర్"
 
 #: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/devices.mustache:12
 msgid "Done"
-msgstr ""
+msgstr "అయింది"
 
 #: .es5/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
-msgstr ""
+msgstr "మీ చిత్రాన్ని తగినంత రొటేట్ మరియు సరి చేయండి"
 
 #: .es5/scripts/templates/settings/avatar_gravatar.mustache:2
 msgid "Save"
-msgstr ""
+msgstr "సేవ్"
 
 #: .es5/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr ""
+msgstr "ఒకసారి మీరు పూర్తి చేసిన తర్వాత, మీ అన్ని పరికరాల్లో సైన్ ఇన్ చేసేందుకు మీ కొత్త పాస్వర్డ్ ఉపయోగించండి."
 
 #: .es5/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
-msgstr ""
+msgstr "పాత పాస్వర్డ్"
 
 #: .es5/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
-msgstr ""
+msgstr "కమ్యూనికేషన్ ప్రాధాన్యతలు"
 
 #: .es5/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
-msgstr ""
+msgstr "ఇమెయిల్ ప్రాధాన్యతలను"
 
 #: .es5/scripts/templates/settings/communication_preferences.mustache:10
 msgid "Unsubscribe"
-msgstr ""
+msgstr "అన్ సబ్స్క్రైబ్"
 
 #: .es5/scripts/templates/settings/communication_preferences.mustache:12
 msgid "Subscribe"
-msgstr ""
+msgstr "సబ్స్క్రిబ్"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:6
 msgid "Delete account"
-msgstr ""
+msgstr "ఖాతా తొలగించు"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete"
-msgstr ""
+msgstr "తొలగించు"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
-msgstr ""
+msgstr "మీరు మీ ఖాతా తొలగించాలనుకుంటున్నారా? ఈ చర్యను రద్దు చేయడం సాధ్యం కాదు."
 
 #: .es5/scripts/templates/settings/devices.mustache:2
 msgid "Devices"
-msgstr ""
+msgstr "పరికరాల"
 
 #: .es5/scripts/templates/settings/devices.mustache:4
 msgid ""
@@ -905,47 +905,47 @@ msgstr ""
 
 #: .es5/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
-msgstr ""
+msgstr "క్రింద మీరు మీ పరికరాల నిర్వహించవచ్చు."
 
 #: .es5/scripts/templates/settings/devices.mustache:6
 msgid "current device"
-msgstr ""
+msgstr "ప్రస్తుత పరికరం"
 
 #: .es5/scripts/templates/settings/devices.mustache:8
 msgid "Disconnect"
-msgstr ""
+msgstr "డిస్కనెక్ట్"
 
 #: .es5/scripts/templates/settings/devices.mustache:10
 msgid "Don't see all your devices?"
-msgstr ""
+msgstr "మీ అన్ని పరికరాల్లో కనిపించలేదా?"
 
 #: .es5/scripts/templates/settings/devices.mustache:11
 msgid "Refresh"
-msgstr ""
+msgstr "రిఫ్రెష్"
 
 #: .es5/scripts/templates/settings/display_name.mustache:3
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr ""
+msgstr "మీ ఖాతా మేనేజింగ్ మీరు ఫైఫాక్స్లో కనిపించడానికి ఇష్ట పేరును ఎంచుకోండి."
 
 #: .es5/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
-msgstr ""
+msgstr "మీ వయస్సు ఎంత?"
 
 #: .es5/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "సింక్ కు సైన్ ఇన్ అవ్వు"
 
 #: .es5/scripts/templates/openid/start.mustache:2
 msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-msgstr ""
+msgstr "మీరు మీ టాబ్లు, బుక్మార్క్లు, పాస్వర్డ్లు మరియు మరింత సమకాలీకరించడానికి ఉపయోగించాలనుకుంటే ఖాతాను ఎంచుకోండి."
 
 #: .es5/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
-msgstr ""
+msgstr "OPenID వాడండి"
 
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr ""
+msgstr "ఫైర్ఫాక్స్ ఖాతా వాడు"
 
 #~ msgid "Account unlocked, please try again"
 #~ msgstr "ఖాతా అన్లాక్ చేయబడింది, దయచేసి మళ్ళీ ప్రయత్నించండి"
