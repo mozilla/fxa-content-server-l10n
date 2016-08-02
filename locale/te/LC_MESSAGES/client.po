@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-25 20:11+0000\n"
-"PO-Revision-Date: 2016-08-02 13:01+0000\n"
+"PO-Revision-Date: 2016-08-02 13:12+0000\n"
 "Last-Translator: Sai Karthik Karra <kskarthik91@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -156,7 +156,7 @@ msgstr "అవుట్లుక్ తెరువు"
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:21
 msgid "8 characters minimum, but longer if you plan to sync passwords."
-msgstr ""
+msgstr "8 అక్షరాలు కనీస, కానీ మీరు పాస్వర్డ్లను సమకాలీకరిస్తుంది కుంటే ఇక."
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/templates/sign_up.mustache:18
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
@@ -423,7 +423,7 @@ msgstr "చెల్లని టోకేను"
 
 #: .es5/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
-msgstr ""
+msgstr "అభ్యర్థన శరీరంలో చెల్లని పారామేటర్: %(param)s"
 
 #: .es5/scripts/lib/profile-errors.js:31
 msgid "Unsupported image provider"
@@ -439,27 +439,27 @@ msgstr "ఫైర్ఫాక్స్ సింక్"
 
 #: .es5/scripts/lib/strings.js:17
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr ""
+msgstr "కొనసాగింతే, మీరు మా <a id=\"service-tos\" href=\"%(termsUri)s\">సేవా షరతులు</a> మరియు <a id=\"service-pp\" href=\"%(privacyUri)s\">గోప్యతా నోటీసు</a> యొక్క %(serviceName)s(%(serviceUri)s)."
 
 #: .es5/scripts/lib/strings.js:24
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
-msgstr ""
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">సహాయం</a>"
 
 #: .es5/scripts/lib/strings.js:28
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "మొజిల్లా మరియు ఫైర్ఫాక్స్ ల తాజా వార్తలు పొందండి."
 
 #: .es5/scripts/lib/strings.js:31
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (అంచనా)"
 
 #: .es5/scripts/lib/strings.js:32
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (అంచనా)"
 
 #: .es5/scripts/lib/strings.js:33
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "IP చిరునామా: %(ip)s"
 
 #: .es5/scripts/lib/strings.js:34
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
@@ -626,7 +626,7 @@ msgstr "రీసెట్ ఇమెయిల్ పంపబడింది"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:4
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "మేము ఒక కొత్త పాస్వర్డ్ సృష్టించడానికి ఒక గంటలోపు మీకు ఇమెయిల్ %(email)s చేసిన లింక్పై క్లిక్ చేయండి."
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:7
 #: .es5/scripts/templates/reset_password.mustache:9
@@ -673,7 +673,7 @@ msgstr "పాస్వర్డ్ మరిచిపోయారా?"
 
 #: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr ""
+msgstr "కొనసాగడానికి, మేరు ఫైర్ఫాక్స్ క్లౌడ్ సేవల యొక్క <a id=\"fxa-tos\" href=\"/legal/terms\">సేవా షరతులు</a> మరియు <a id=\"fxa-pp\" href=\"/legal/privacy\">గోప్యతా నోటీసు</a> కు అంగీకరిచాలి."
 
 #: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -721,7 +721,7 @@ msgstr "అనుమతి కోసం అభ్యర్ధించు"
 
 #: .es5/scripts/templates/permissions.mustache:2 .es5/scripts/templates/settings/gravatar_permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr ""
+msgstr "%(serviceName)s మీ ఖాతా నుండి కింది సమాచారాన్ని కోరుకుంటున్నారు:"
 
 #: .es5/scripts/templates/permissions.mustache:3 .es5/scripts/templates/settings/gravatar_permissions.mustache:4
 msgid "Accept"
