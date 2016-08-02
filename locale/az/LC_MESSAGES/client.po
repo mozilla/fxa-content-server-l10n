@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-25 20:11+0000\n"
-"PO-Revision-Date: 2016-07-28 05:58+0000\n"
+"PO-Revision-Date: 2016-08-02 16:33+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: az\n"
@@ -165,7 +165,7 @@ msgstr "Sərt, unikal parol Firefox məlumatlarınızı oğrulardan qoruyacaq."
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:23
 msgid "This is a common password; please consider another one."
-msgstr ""
+msgstr "Bu çox işlədilən paroldur; lütfən başqa birini seçin."
 
 #: .es5/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
@@ -454,19 +454,19 @@ msgstr "Mozilla və Firefox haqqında son xəbərləri əldə edin."
 
 #: .es5/scripts/lib/strings.js:31
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (təxmini)"
 
 #: .es5/scripts/lib/strings.js:32
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (təxmini)"
 
 #: .es5/scripts/lib/strings.js:33
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "IP Ünvan: %(ip)s"
 
 #: .es5/scripts/lib/strings.js:34
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "Əlavə təhlükəsizlik üçün, lütfən daxil olmanı təsdiqləyin və bu cihazınızı sinxronlaşdırmaya başlayın:"
 
 #: .es5/scripts/templates/400.mustache:1
 msgid "Bad Request"
