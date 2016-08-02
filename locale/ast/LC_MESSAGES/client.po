@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-25 20:11+0000\n"
-"PO-Revision-Date: 2016-07-28 23:00+0000\n"
+"PO-Revision-Date: 2016-08-02 18:25+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -929,7 +929,7 @@ msgstr "Refrescar"
 
 #: .es5/scripts/templates/settings/display_name.mustache:3
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr "Escueyi'l nome que te prestaría qu'apaeciera en Firefox al xestionar la to cuental."
+msgstr "Escueyi'l nome que te prestaría qu'apaeciera en Firefox al xestionar la to cuenta."
 
 #: .es5/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
