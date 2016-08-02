@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-25 20:11+0000\n"
-"PO-Revision-Date: 2016-08-01 19:48+0000\n"
+"PO-Revision-Date: 2016-08-02 13:01+0000\n"
 "Last-Translator: Sai Karthik Karra <kskarthik91@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -214,15 +214,15 @@ msgstr "చెల్లని ధృవీకరణ కోడ్"
 
 #: .es5/scripts/lib/auth-errors.js:65
 msgid "Invalid JSON in request body"
-msgstr ""
+msgstr "రిక్వస్ట్ బాడీ లో‌ చెల్లని JSON"
 
 #: .es5/scripts/lib/auth-errors.js:69
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "చెల్లని పరామితి: %(param)s"
 
 #: .es5/scripts/lib/auth-errors.js:73
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "కనబడని పరామితి: %(param)s"
 
 #: .es5/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
@@ -230,7 +230,7 @@ msgstr "చెల్లని అభ్యర్థన సంతకం"
 
 #: .es5/scripts/lib/auth-errors.js:81
 msgid "Missing content-length header"
-msgstr ""
+msgstr "క్ంటెంట్ లెంథ్ హెడర్ కనబడుటలేదు"
 
 #: .es5/scripts/lib/auth-errors.js:85
 msgid "Request body too large"
@@ -263,7 +263,7 @@ msgstr "సందేశం లేదు"
 
 #: .es5/scripts/lib/auth-errors.js:127
 msgid "Session expired. Sign in to continue."
-msgstr ""
+msgstr "సెషన్ ముగిసిపోయింది. కొనసాగడానికి సైన్ అవండి."
 
 #: .es5/scripts/lib/auth-errors.js:131
 msgid "Cookies are still disabled"
@@ -355,23 +355,23 @@ msgstr "ఖాతా ఇకపై ఉనికిలో లేదు."
 
 #: .es5/scripts/lib/auth-errors.js:271
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "పునఃప్రారంభం టోకెన్లోని చెల్లని ప్రాపర్టీ: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:275
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "పునఃప్రారంభం టోకెన్ ప్రాపర్టీ లేనివి: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:279
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "చెల్లని డేటా ఎట్ట్రిబ్యూట్: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:283
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "చెల్లని డేటా ఎట్ట్రిబ్యూట్: %(property)s"
 
 #: .es5/scripts/lib/mailcheck.js:60
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
-msgstr ""
+msgstr "అంటే మీరు అనేది <span tabindex=\"1\">%(domain)s</span> ?"
 
 #: .es5/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -379,7 +379,7 @@ msgstr "తెలియని క్లయింట్"
 
 #: .es5/scripts/lib/oauth-errors.js:30
 msgid "Incorrect redirect_uri"
-msgstr ""
+msgstr "సరికాని redirect_uri"
 
 #: .es5/scripts/lib/oauth-errors.js:34
 msgid "Invalid assertion"
@@ -399,7 +399,7 @@ msgstr "గడువు తీరిన కోడ్"
 
 #: .es5/scripts/lib/oauth-errors.js:54 .es5/scripts/lib/oauth-errors.js:76
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr ""
+msgstr "చెల్లని OAuth పారామేటర్: %(param)s"
 
 #: .es5/scripts/lib/oauth-errors.js:62 .es5/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
@@ -415,7 +415,7 @@ msgstr "ఎక్కడో తేడ జరిగింది. దయచేస�
 
 #: .es5/scripts/lib/oauth-errors.js:108
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "కనబడని OAuth పారామేటర్: %(param)s"
 
 #: .es5/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
@@ -801,7 +801,7 @@ msgstr "మే సింక్ డేటా తరలించడానికి
 
 #: .es5/scripts/templates/sign_up.mustache:10
 msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
-msgstr ""
+msgstr "వేరొక ఈమయిల్ తో ఖాతా ఉన్నదా? <a href=\"%(signinUri)s\">సైన్ ఇన్ అవండి</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Send me the monthly Firefox newsletter."
@@ -902,6 +902,8 @@ msgid ""
 "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
 "href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
+"ఫైర్ఫాక్స్ <a href=\"%(linkWindows)s\">విండోస్</a>, <a href=\"%(linkOSX)s\">ఓయస్ ఎక్స్</a>, <a href=\"%(linkAndroid)s\">ఆండ్రాయిడ్</a>,<a href=\"%(linkIOS)s\">ఐఓయస్</a>, <a "
+"href=\"%(linkLinux)s\">లినక్స్</a> కి లభిస్తుంది."
 
 #: .es5/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
