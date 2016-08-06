@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-25 20:11+0000\n"
-"PO-Revision-Date: 2016-07-07 14:14+0000\n"
+"PO-Revision-Date: 2016-08-06 17:30+0000\n"
 "Last-Translator: S M Sarwar Nobin <smsarwar1996@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_BD\n"
@@ -49,7 +49,7 @@ msgstr "কিছুক্ষণের মধ্যে Firefox Sync শুরু
 
 #: .es5/scripts/views/ready.js:38
 msgid "Welcome back"
-msgstr ""
+msgstr "পুনরায় স্বাগতম"
 
 #: .es5/scripts/views/ready.js:39
 msgid "Firefox Sync will resume momentarily"
@@ -57,7 +57,7 @@ msgstr ""
 
 #: .es5/scripts/views/ready.js:49
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "সাইন-ইন নিশ্চিত"
 
 #: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55 .es5/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
@@ -85,15 +85,15 @@ msgstr "<a href=\"https://www.gravatar.com\">গ্রাভাটার</a> এ
 
 #: .es5/scripts/views/settings/change_password.js:39
 msgid "Password changed successfully"
-msgstr ""
+msgstr "পাসওয়ার্ড সাফল্যের সাথে পরিবর্তন করা হয়েছে"
 
 #: .es5/scripts/views/settings/communication_preferences.js:111
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "সফলভাবে সাবসক্রাইব হয়েছে"
 
 #: .es5/scripts/views/settings/communication_preferences.js:111
 msgid "Unsubscribed successfully"
-msgstr ""
+msgstr "সফলভাবে আনসাবসক্রাইব হয়েছে"
 
 #: .es5/scripts/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
@@ -129,7 +129,7 @@ msgstr "বছর আগে"
 
 #: .es5/scripts/views/settings/display_name.js:50
 msgid "Display name updated"
-msgstr ""
+msgstr "প্রদর্শননীয় নাম হালনাগাদ করা হয়েছে"
 
 #: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/lib/auth-errors.js:107
 msgid "Your account has been locked for security reasons"
@@ -145,15 +145,15 @@ msgstr "জিমেইল খুলুন"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:22
 msgid "Open Hotmail"
-msgstr ""
+msgstr "Hotmail খুলুন"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:27
 msgid "Open Yahoo"
-msgstr ""
+msgstr "Yahoo খুলুন"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:32
 msgid "Open Outlook"
-msgstr ""
+msgstr "Outlook খুলুন"
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:21
 msgid "8 characters minimum, but longer if you plan to sync passwords."
@@ -169,7 +169,7 @@ msgstr ""
 
 #: .es5/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
-msgstr ""
+msgstr "সফলভাবে সাইন আউট"
 
 #: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:76 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
 #: .es5/scripts/lib/profile-errors.js:47 .es5/scripts/lib/require-on-demand.js:33 .es5/scripts/lib/require-on-demand.js:37 .es5/scripts/lib/require-on-demand.js:41
@@ -219,11 +219,11 @@ msgstr "অনুরোধ বডিতে JSON টি অচেনা"
 
 #: .es5/scripts/lib/auth-errors.js:69
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "ভুল প্যারামিটার: %(param)s"
 
 #: .es5/scripts/lib/auth-errors.js:73
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "মিসিং প্যারামিটার: %(param)s"
 
 #: .es5/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
@@ -396,7 +396,7 @@ msgstr "ভুল কোড"
 
 #: .es5/scripts/lib/oauth-errors.js:46
 msgid "Expired code"
-msgstr ""
+msgstr "কোড বাতিল"
 
 #: .es5/scripts/lib/oauth-errors.js:54 .es5/scripts/lib/oauth-errors.js:76
 msgid "Invalid OAuth parameter: %(param)s"
@@ -408,7 +408,7 @@ msgstr "অননুমোদিত"
 
 #: .es5/scripts/lib/oauth-errors.js:66
 msgid "Forbidden"
-msgstr ""
+msgstr "নিষিদ্ধ"
 
 #: .es5/scripts/lib/oauth-errors.js:88
 msgid "Something went wrong. Please close this tab and try again."
@@ -439,14 +439,12 @@ msgid "Firefox Sync"
 msgstr "Firefox সিঙ্ক"
 
 #: .es5/scripts/lib/strings.js:17
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/scripts/lib/strings.js:24
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
-msgstr ""
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">সাহায্য</a>"
 
 #: .es5/scripts/lib/strings.js:28
 msgid "Get the latest news about Mozilla and Firefox."
@@ -454,15 +452,15 @@ msgstr ""
 
 #: .es5/scripts/lib/strings.js:31
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (অনুমানকৃত)"
 
 #: .es5/scripts/lib/strings.js:32
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (অনুমানকৃত)"
 
 #: .es5/scripts/lib/strings.js:33
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "আইপি ঠিকানা: %(ip)s"
 
 #: .es5/scripts/lib/strings.js:34
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
@@ -498,7 +496,7 @@ msgstr "কি সিঙ্ক করতে হবে তা পছন্দ ক
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Tabs"
-msgstr ""
+msgstr "ট্যাবস"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
@@ -506,19 +504,19 @@ msgstr "বুকমার্কস"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
-msgstr ""
+msgstr "অ্যাড-অন"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:8
 msgid "Passwords"
-msgstr ""
+msgstr "পাসওয়ার্ড"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:10
 msgid "History"
-msgstr ""
+msgstr "ইতিহাস"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Preferences"
-msgstr ""
+msgstr "পছন্দ"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
@@ -526,7 +524,7 @@ msgstr ""
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
-msgstr ""
+msgstr "সেটিংগুলি সংরক্ষণ করুন"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:16 .es5/scripts/templates/confirm.mustache:13 .es5/scripts/templates/pp.mustache:3 .es5/scripts/templates/tos.mustache:3
 msgid "Back"
@@ -559,7 +557,7 @@ msgstr "আপনি যে লিঙ্ক এ ক্লিক করেছে�
 
 #: .es5/scripts/templates/complete_reset_password.mustache:9
 msgid "Enter new password"
-msgstr ""
+msgstr "নতুন পাসওয়ার্ড প্রবেশ করান"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:10
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
@@ -585,7 +583,7 @@ msgstr "পুনরায় পাসওয়ার্ড দিন"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:18
 msgid "Submit new password"
-msgstr ""
+msgstr "নতুন পাসওয়ার্ড প্রবেশ করান"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
@@ -747,7 +745,7 @@ msgstr ""
 
 #: .es5/scripts/templates/ready.mustache:6
 msgid "Proceed"
-msgstr ""
+msgstr "অগ্রসর হন"
 
 #: .es5/scripts/templates/ready.mustache:9
 msgid "Your account is ready!"
@@ -755,7 +753,7 @@ msgstr "আপনার অ্যাকাউন্ট প্রস্তুত!
 
 #: .es5/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
-msgstr ""
+msgstr "পাসওয়ার্ড ভুলে গেছেন"
 
 #: .es5/scripts/templates/reset_password.mustache:2
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
@@ -768,7 +766,7 @@ msgstr "ইমেইল"
 
 #: .es5/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "ফায়ারফক্স অ্যাকাউন্ট"
 
 #: .es5/scripts/templates/settings.mustache:2
 msgid "Sign out"
@@ -898,12 +896,12 @@ msgstr "আপনি কি একাউন্ট মুছে ফেলার �
 
 #: .es5/scripts/templates/settings/devices.mustache:2
 msgid "Devices"
-msgstr ""
+msgstr "ডিভাইস"
 
 #: .es5/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
 
 #: .es5/scripts/templates/settings/devices.mustache:5
@@ -944,7 +942,7 @@ msgstr ""
 
 #: .es5/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
-msgstr ""
+msgstr "OpenID ব্যবহার করুন"
 
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
