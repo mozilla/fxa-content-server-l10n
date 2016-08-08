@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-25 20:11+0000\n"
+"POT-Creation-Date: 2016-08-08 20:06+0000\n"
 "PO-Revision-Date: 2016-08-06 18:10+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1430042344.0\n"
 
-#: .es5/scripts/views/complete_reset_password.js:123 .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:130 .es5/scripts/views/confirm_reset_password.js:177
+#: .es5/scripts/views/complete_reset_password.js:124 .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:131 .es5/scripts/views/confirm_reset_password.js:177
 msgid "Account verified successfully"
 msgstr "Tilin vahvistaminen onnistui"
 
@@ -35,11 +35,11 @@ msgstr "%(permissionName)s (pakollinen)"
 msgid "Email address"
 msgstr "Sähköpostiosoite"
 
-#: .es5/scripts/views/permissions.js:35 .es5/scripts/templates/settings/display_name.mustache:1 .es5/scripts/templates/settings/display_name.mustache:4
+#: .es5/scripts/views/permissions.js:35
 msgid "Display name"
 msgstr "Näyttönimi"
 
-#: .es5/scripts/views/permissions.js:38 .es5/scripts/templates/settings/avatar.mustache:1
+#: .es5/scripts/views/permissions.js:38
 msgid "Account picture"
 msgstr "Tilin kuva"
 
@@ -59,7 +59,7 @@ msgstr "Firefox Sync jatkaa hetken kuluttua"
 msgid "Sign-in confirmed"
 msgstr "Kirjautuminen vahvistettu"
 
-#: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55 .es5/scripts/templates/ready.mustache:5
+#: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Voit nyt aloittaa palvelun %(serviceName)s käyttämisen"
 
@@ -67,7 +67,7 @@ msgstr "Voit nyt aloittaa palvelun %(serviceName)s käyttämisen"
 msgid "Account verified"
 msgstr "Tili on vahvistettu"
 
-#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:151
+#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:152
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Tuntematon tili. <a href=\"/signup\">Luo uusi tili</a>"
 
@@ -83,7 +83,7 @@ msgstr "Tili on jo olemassa. <a href=\"/signin\">Kirjaudu sisään</a>"
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a>-palvelusta"
 
-#: .es5/scripts/views/settings/change_password.js:39
+#: .es5/scripts/views/settings/change_password.js:47
 msgid "Password changed successfully"
 msgstr "Salasana vaihdettu"
 
@@ -100,42 +100,42 @@ msgid "Account deleted successfully"
 msgstr "Tilin poistaminen onnistui"
 
 #: .es5/scripts/views/settings/devices.js:28
-msgid "days ago"
-msgstr "päivää sitten"
+msgid "Last active: days ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:29
-msgid "hours ago"
-msgstr "tuntia sitten"
+msgid "Last active: hours ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:30
-msgid "minutes ago"
-msgstr "minuuttia sitten"
+msgid "Last active: minutes ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:31
-msgid "months ago"
-msgstr "kuukautta sitten"
+msgid "Last active: months ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:32
-msgid "seconds ago"
-msgstr "sekuntia sitten"
+msgid "Last active: seconds ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:34
-msgid "weeks ago"
-msgstr "viikkoa sitten"
+msgid "Last active: weeks ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:35
-msgid "years ago"
-msgstr "vuotta sitten"
+msgid "Last active: years ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/display_name.js:50
 msgid "Display name updated"
 msgstr "Näyttönimi päivitetty"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/lib/auth-errors.js:107
+#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/lib/auth-errors.js:107
 msgid "Your account has been locked for security reasons"
 msgstr "Tilisi on lukittu turvallisuussyistä"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/templates/reset_password.mustache:6
+#: .es5/scripts/views/mixins/account-reset-mixin.js:41
 msgid "Reset password"
 msgstr "Nollaa salasana"
 
@@ -159,7 +159,7 @@ msgstr "Avaa Outlook"
 msgid "8 characters minimum, but longer if you plan to sync passwords."
 msgstr "Vähintään 8 merkkiä, mutta pidempi, jos aiot synkronoida salasanat."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/templates/sign_up.mustache:18
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:22
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "Vahva, ainutlaatuinen salasana suojelee Firefox-tietojasi urkkijoilta."
 
@@ -171,7 +171,7 @@ msgstr "Tämä on yleinen salasana. Harkitse jotain toista salasanaa."
 msgid "Signed out successfully"
 msgstr "Kirjauduttu ulos"
 
-#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:76 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
+#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:79 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
 #: .es5/scripts/lib/profile-errors.js:47 .es5/scripts/lib/require-on-demand.js:33 .es5/scripts/lib/require-on-demand.js:37 .es5/scripts/lib/require-on-demand.js:41
 #: .es5/scripts/lib/require-on-demand.js:45
 msgid "Unexpected error"
@@ -253,7 +253,7 @@ msgstr "Palvelin on ruuhkautunut, yritä myöhemmin uudelleen"
 msgid "This endpoint is no longer supported"
 msgstr "Tämä endpoint ei ole enää tuettu"
 
-#: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:72 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
+#: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:75 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
 #: .es5/scripts/lib/oauth-errors.js:80 .es5/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Järjestelmään ei saada yhteyttä, yritä myöhemmin uudelleen"
@@ -290,7 +290,7 @@ msgstr "Ei löytynyt käyttöehtoja"
 msgid "Your new password must be different"
 msgstr "Uuden salasanan pitää erota vanhasta"
 
-#: .es5/scripts/lib/auth-errors.js:155 .es5/scripts/templates/complete_reset_password.mustache:15 .es5/scripts/templates/settings/change_password.mustache:9
+#: .es5/scripts/lib/auth-errors.js:155
 msgid "Must be at least 8 characters"
 msgstr "Täytyy olla vähintään 8 merkkiä pitkä"
 
@@ -326,11 +326,11 @@ msgstr "Kirjoita oikea sähköpostiosoite. Firefox.com ei tarjoa sähköpostioso
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox Accounts voidaan sisällyttää IFRAME-kehyksiin vain hyväksyttyillä sivustoilla"
 
-#: .es5/scripts/lib/auth-errors.js:228 .es5/scripts/templates/complete_sign_up.mustache:3
+#: .es5/scripts/lib/auth-errors.js:228
 msgid "The link you clicked to verify your email is expired."
 msgstr "Avaamasi vahvistuslinkki on vanhentunut."
 
-#: .es5/scripts/lib/auth-errors.js:232 .es5/scripts/templates/complete_sign_up.mustache:7
+#: .es5/scripts/lib/auth-errors.js:232
 msgid "Verification link damaged"
 msgstr "Vahvistuslinkki on vaurioitunut"
 
@@ -439,8 +439,11 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:17
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Jatkamalla hyväksyt palvelun %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">käyttöehdot</a> ja <a id=\"service-pp\" href=\"%(privacyUri)s\">tietosuojakäytännön</a>."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Jatkamalla hyväksyt palvelun %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">käyttöehdot</a> ja <a id=\"service-pp\" href=\"%(privacyUri)s\">tietosuojakäytännön</a>."
 
 #: .es5/scripts/lib/strings.js:24
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -466,489 +469,382 @@ msgstr "IP-osoite: %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Paremman turvallisuuden vuoksi vahvista tämä kirjautuminen aloittaaksesi synkronointi tämän laitteen kanssa:"
 
-#: .es5/scripts/templates/400.mustache:1
-msgid "Bad Request"
-msgstr "Virheellinen pyyntö"
-
-#: .es5/scripts/templates/500.mustache:1
-msgid "500 Error"
-msgstr "500 Virhe"
-
-#: .es5/scripts/templates/500.mustache:2
-msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "Voi ei, jotain meni vikaan. Saimme tiedon ja alamme korjata tilannetta."
-
-#: .es5/scripts/templates/cannot_create_account.mustache:1
-msgid "Cannot create account"
-msgstr "Tiliä ei voida luoda"
-
-#: .es5/scripts/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr "Voidaksesi luoda Firefox-tilin, sinun on täytettävä ikävaatimukset."
-
-#: .es5/scripts/templates/cannot_create_account.mustache:4
-msgid "Learn more."
-msgstr "Lue lisää."
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:1 .es5/scripts/templates/sign_up.mustache:24
-msgid "Choose what to sync"
-msgstr "Valitse, mitä synkronoidaan"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:2
-msgid "Tabs"
-msgstr "Välilehdet"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:4
-msgid "Bookmarks"
-msgstr "Kirjanmerkit"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:6
-msgid "Add-ons"
-msgstr "Lisäosat"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:8
-msgid "Passwords"
-msgstr "Salasanat"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:10
-msgid "History"
-msgstr "Historia"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:12
-msgid "Preferences"
-msgstr "Asetukset"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:14
-msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr "Lisäosia ja asetuksia ei nykyisin synkronoida mobiililaitteilla."
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:15
-msgid "Save settings"
-msgstr "Tallenna asetukset"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:16 .es5/scripts/templates/confirm.mustache:13 .es5/scripts/templates/pp.mustache:3 .es5/scripts/templates/tos.mustache:3
-msgid "Back"
-msgstr "Takaisin"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:1
-msgid "Reset password link expired"
-msgstr "Salasanan nollauslinkki on vanhentunut"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:2 .es5/scripts/templates/complete_sign_up.mustache:2 .es5/scripts/templates/confirm.mustache:5
-#: .es5/scripts/templates/confirm_reset_password.mustache:2
-msgid "Email resent"
-msgstr "Sähköposti on lähetetty uudelleen"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:3
-msgid "The link you clicked to reset your password is expired."
-msgstr "Linkki, jolla yritit nollata salasanasi, on vanhentunut."
-
-#: .es5/scripts/templates/complete_reset_password.mustache:4
-msgid "Click here to receive a new reset link"
-msgstr "Tilaa uusi nollauslinkki napsauttamalla tässä"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:6
-msgid "Reset password link damaged"
-msgstr "Salasanan nollauslinkki on vaurioitunut"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:7 .es5/scripts/templates/complete_sign_up.mustache:8
-msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "Avaamastasi linkistä puuttui merkkejä. Sähköpostiohjelmasi on saattanut katkaista sen. Kopioi osoite huolellisesti ja yritä uudelleen."
-
-#: .es5/scripts/templates/complete_reset_password.mustache:9
-msgid "Enter new password"
-msgstr "Kirjoita uusi salasana"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:10
-msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-msgstr "Kun lähetät uuden salasanasi, menetät kaikki Sync-tiedot, jotka eivät ole jollakin laitteistasi."
-
-#: .es5/scripts/templates/complete_reset_password.mustache:11 .es5/scripts/templates/reset_password.mustache:3
-msgid "Learn how Sync works."
-msgstr "Lue, kuinka Sync-palvelu toimii."
-
-#: .es5/scripts/templates/complete_reset_password.mustache:13 .es5/scripts/templates/settings/change_password.mustache:7
-msgid "New password"
-msgstr "Uusi salasana"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:14 .es5/scripts/templates/complete_reset_password.mustache:17 .es5/scripts/templates/force_auth.mustache:5
-#: .es5/scripts/templates/sign_in.mustache:9 .es5/scripts/templates/sign_in.mustache:21 .es5/scripts/templates/sign_up.mustache:17 .es5/scripts/templates/settings/change_password.mustache:5
-#: .es5/scripts/templates/settings/change_password.mustache:8 .es5/scripts/templates/settings/delete_account.mustache:5 .es5/scripts/templates/settings/devices.mustache:3
-msgid "Show"
-msgstr "Näytä"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:16
-msgid "Repeat password"
-msgstr "Toista salasana"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:18
-msgid "Submit new password"
-msgstr "Lähetä uusi salasana"
-
-#: .es5/scripts/templates/complete_sign_up.mustache:1
-msgid "Verification link expired"
-msgstr "Vahvistuslinkki on vanhentunut"
-
-#: .es5/scripts/templates/complete_sign_up.mustache:4
-msgid "Click here to receive a new verification link"
-msgstr "Tilaa uusi vahvistuslinkki napsauttamalla tästä"
-
-#: .es5/scripts/templates/complete_sign_up.mustache:10
-msgid "Verification error"
-msgstr "Vahvistusvirhe"
-
-#: .es5/scripts/templates/confirm.mustache:1
-msgid "Confirm your account"
-msgstr "Vahvista tilisi"
-
-#: .es5/scripts/templates/confirm.mustache:3
-msgid "Confirm this sign-in"
-msgstr "Vahvista tämä kirjautuminen"
-
-#: .es5/scripts/templates/confirm.mustache:6 .es5/scripts/templates/confirm_reset_password.mustache:3
-msgid "Email Sent"
-msgstr "Sähköposti lähetetty"
-
-#: .es5/scripts/templates/confirm.mustache:7
-msgid "A verification link has been sent&nbsp;to %(email)s"
-msgstr "Vahvistuslinkki on lähetetty osoitteeseen %(email)s"
-
-#: .es5/scripts/templates/confirm.mustache:9
-msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr "Suojellaksemme Firefox-tietojasi olemme lähettäneet vahvistuslinkin osoitteeseen %(email)s"
-
-#: .es5/scripts/templates/confirm.mustache:12 .es5/scripts/templates/confirm.mustache:14
-msgid "Didn't arrive? Resend"
-msgstr "Eikö viesti saapunut? Lähetä uudestaan"
-
-#: .es5/scripts/templates/confirm_reset_password.mustache:1
-msgid "Reset email sent"
-msgstr "Nollaussähköposti lähetetty"
-
-#: .es5/scripts/templates/confirm_reset_password.mustache:4
-msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-msgstr "Napsauta osoitteeseen %(email)s lähettämäämme linkkiä tunnin kuluessa luodaksesi uuden salasanan."
-
-#: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:7
-#: .es5/scripts/templates/reset_password.mustache:9
-msgid "Remember password? Sign in."
-msgstr "Muistatko salasanan? Kirjaudu sisään."
-
-#: .es5/scripts/templates/confirm_reset_password.mustache:9
-msgid "Resend email"
-msgstr "Lähetä sähköposti uudelleen"
-
-#: .es5/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required."
-msgstr "Evästeet ja paikallinen tallennustila vaaditaan."
-
-#: .es5/scripts/templates/cookies_disabled.mustache:2
-msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Ota käyttöön evästeet ja paikallinen tallennustila selaimessasi, jotta voit käyttää Firefox Accounts -palvelua. Tämän tekeminen mahdollistaa muun muassa sinun muistamisen istunnosta toiseen."
-
-#: .es5/scripts/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "Lue lisää"
-
-#: .es5/scripts/templates/cookies_disabled.mustache:4
-msgid "Try again"
-msgstr "Yritä uudelleen"
-
-#: .es5/scripts/templates/force_auth.mustache:1
-msgid "Sign in to continue"
-msgstr "Jatka kirjautumalla sisään"
-
-#: .es5/scripts/templates/force_auth.mustache:3 .es5/scripts/templates/sign_in.mustache:8 .es5/scripts/templates/sign_in.mustache:19 .es5/scripts/templates/sign_up.mustache:15
-#: .es5/scripts/templates/settings/change_password.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:4
-msgid "Password"
-msgstr "Salasana"
-
-#: .es5/scripts/templates/force_auth.mustache:6 .es5/scripts/templates/sign_in.mustache:1 .es5/scripts/templates/sign_in.mustache:4 .es5/scripts/templates/sign_in.mustache:10
-#: .es5/scripts/templates/sign_in.mustache:14 .es5/scripts/templates/sign_in.mustache:22
-msgid "Sign in"
-msgstr "Kirjaudu sisään"
-
-#: .es5/scripts/templates/force_auth.mustache:7 .es5/scripts/templates/sign_in.mustache:11 .es5/scripts/templates/sign_in.mustache:23 .es5/scripts/templates/settings/change_password.mustache:6
-msgid "Forgot password?"
-msgstr "Unohditko salasanasi?"
-
-#: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Jatkamalla hyväksyt Firefoxin verkkopalveluiden <a id=\"fxa-tos\" href=\"/legal/terms\">käyttöehdot</a> ja <a id=\"fxa-pp\" href=\"/legal/privacy\">tietosuojakäytännön</a>."
-
-#: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
-msgid "Firefox cloud services"
-msgstr "Firefox pilvipalvelut"
-
-#: .es5/scripts/templates/legal.mustache:2
-msgid "Legal"
-msgstr "Lakiteksti"
-
-#: .es5/scripts/templates/legal.mustache:3 .es5/scripts/templates/settings.mustache:5 .es5/scripts/templates/tos.mustache:2
-msgid "Terms of Service"
-msgstr "Käyttöehdot"
-
-#: .es5/scripts/templates/legal.mustache:4 .es5/scripts/templates/pp.mustache:2 .es5/scripts/templates/settings.mustache:6
-msgid "Privacy Notice"
-msgstr "Tietosuojakäytäntö"
-
-#: .es5/scripts/templates/marketing_snippet.mustache:1
-msgid "Stay in sync on the go:"
-msgstr "Pysy synkronoituna liikkeellä:"
-
-#: .es5/scripts/templates/marketing_snippet.mustache:2
-msgid "Get Firefox for Android"
-msgstr "Lataa Firefox Androidille"
-
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:1 .es5/scripts/templates/marketing_snippet_ios.mustache:5 .es5/scripts/templates/marketing_snippet_ios.mustache:9
-msgid "Get the full Sync experience."
-msgstr "Ota kaikki irti synkronointipalvelusta."
-
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:2 .es5/scripts/templates/marketing_snippet_ios.mustache:3 .es5/scripts/templates/marketing_snippet_ios.mustache:12
-msgid "Download Firefox for iOS!"
-msgstr "Lataa Firefox iOS:lle!"
-
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:6 .es5/scripts/templates/marketing_snippet_ios.mustache:7 .es5/scripts/templates/marketing_snippet_ios.mustache:11
-msgid "Download Firefox for Android."
-msgstr "Lataa Firefox Androidille."
-
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:10
-msgid "Download Firefox for mobile devices."
-msgstr "Lataa Firefox mobiililaitteille."
-
-#: .es5/scripts/templates/permissions.mustache:1 .es5/scripts/templates/settings/gravatar_permissions.mustache:1
-msgid "Request for permission"
-msgstr "Lupapyyntö"
-
-#: .es5/scripts/templates/permissions.mustache:2 .es5/scripts/templates/settings/gravatar_permissions.mustache:2
-msgid "%(serviceName)s wants the following information from your account:"
-msgstr "%(serviceName)s haluaa seuraavat tiedot tililtäsi:"
-
-#: .es5/scripts/templates/permissions.mustache:3 .es5/scripts/templates/settings/gravatar_permissions.mustache:4
-msgid "Accept"
-msgstr "Hyväksy"
-
-#: .es5/scripts/templates/permissions.mustache:4 .es5/scripts/templates/settings/avatar_camera.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:3
-#: .es5/scripts/templates/settings/avatar_gravatar.mustache:3 .es5/scripts/templates/settings/change_password.mustache:11 .es5/scripts/templates/settings/communication_preferences.mustache:5
-#: .es5/scripts/templates/settings/communication_preferences.mustache:13 .es5/scripts/templates/settings/delete_account.mustache:7 .es5/scripts/templates/settings/display_name.mustache:6
-#: .es5/scripts/templates/settings/gravatar_permissions.mustache:5
-msgid "Cancel"
-msgstr "Peruuta"
-
-#: .es5/scripts/templates/ready.mustache:1
-msgid "Success"
-msgstr "Onnistui"
-
-#: .es5/scripts/templates/ready.mustache:2
-msgid "Sync preferences"
-msgstr "Synkronointiasetukset"
-
-#: .es5/scripts/templates/ready.mustache:6
-msgid "Proceed"
-msgstr "Jatka"
-
-#: .es5/scripts/templates/ready.mustache:9
-msgid "Your account is ready!"
-msgstr "Tilisi on valmis!"
-
-#: .es5/scripts/templates/reset_password.mustache:1
-msgid "Forgot password"
-msgstr "Unohdin salasanan"
-
-#: .es5/scripts/templates/reset_password.mustache:2
-msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr "Kun nollaat salasanasi, menetät kaikki Sync-tiedot, jotka eivät ole jollakin laitteistasi."
-
-#: .es5/scripts/templates/reset_password.mustache:5 .es5/scripts/templates/sign_in.mustache:18 .es5/scripts/templates/sign_up.mustache:13
-#: .es5/scripts/templates/settings/gravatar_permissions.mustache:3
-msgid "Email"
-msgstr "Sähköpostiosoite"
-
-#: .es5/scripts/templates/settings.mustache:1
-msgid "Firefox Accounts"
-msgstr "Firefox-tilit"
-
-#: .es5/scripts/templates/settings.mustache:2
-msgid "Sign out"
-msgstr "Kirjaudu ulos"
-
-#: .es5/scripts/templates/sign_in.mustache:2 .es5/scripts/templates/sign_up.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "Jatka palveluun %(serviceName)s"
-
-#: .es5/scripts/templates/sign_in.mustache:6
-msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr "Siirrä synkronointitietosi kirjautumalla sisään Firefox-tilillesi."
-
-#: .es5/scripts/templates/sign_in.mustache:12 .es5/scripts/templates/sign_in.mustache:15
-msgid "Use a different account"
-msgstr "Käytä toista tiliä"
-
-#: .es5/scripts/templates/sign_in.mustache:24
-msgid "Create an account"
-msgstr "Luo tili"
-
-#: .es5/scripts/templates/sign_up.mustache:1 .es5/scripts/templates/sign_up.mustache:4
-msgid "Create a Firefox Account"
-msgstr "Luo Firefox-tili"
-
-#: .es5/scripts/templates/sign_up.mustache:6
-msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
-msgstr "Etsitkö Firefox Sync -palvelua? <a href=\"https://mozilla.org/firefox/sync\">Aloita tästä.</a>"
-
-#: .es5/scripts/templates/sign_up.mustache:8
-msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr "Siirrä synkronointitietosi luomalla uusi Firefox-tili."
-
-#: .es5/scripts/templates/sign_up.mustache:10
-msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
-msgstr "Onko sinulla tili eri sähköpostilla? <a href=\"%(signinUri)s\">Kirjaudu sisään</a>"
-
-#: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
-msgid "Send me the monthly Firefox newsletter."
-msgstr "Lähetä minulle kuukausittainen Firefox-uutiskirje."
-
-#: .es5/scripts/templates/sign_up.mustache:22
-msgid "Create account"
-msgstr "Luo tili"
-
-#: .es5/scripts/templates/sign_up.mustache:27
-msgid "Have an account? Sign in."
-msgstr "Onko sinulla jo tili? Kirjaudu sisään."
-
-#: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2
-#: .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/communication_preferences.mustache:4 .es5/scripts/templates/settings/display_name.mustache:2
-#: .es5/scripts/templates/settings/display_name.mustache:5
-msgid "Change"
-msgstr "Vaihda"
-
-#: .es5/scripts/templates/settings/avatar.mustache:4
-msgid "Add"
-msgstr "Lisää"
-
-#: .es5/scripts/templates/settings/avatar_camera.mustache:1
-msgid "Take picture"
-msgstr "Ota kuva"
-
-#: .es5/scripts/templates/settings/avatar_change.mustache:1
-msgid "Upload"
-msgstr "Siirrä"
-
-#: .es5/scripts/templates/settings/avatar_change.mustache:2
-msgid "Camera"
-msgstr "Kamera"
-
-#: .es5/scripts/templates/settings/avatar_change.mustache:3
-msgid "Gravatar"
-msgstr "Gravatar"
-
-#: .es5/scripts/templates/settings/avatar_change.mustache:4
-msgid "Clear"
-msgstr "Tyhjennä"
-
-#: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/devices.mustache:12
-msgid "Done"
-msgstr "Valmis"
-
-#: .es5/scripts/templates/settings/avatar_crop.mustache:1
-msgid "Position and rotate your picture as needed"
-msgstr "Kohdista ja käännä kuvaa tarpeen mukaan"
-
-#: .es5/scripts/templates/settings/avatar_gravatar.mustache:2
-msgid "Save"
-msgstr "Tallenna"
-
-#: .es5/scripts/templates/settings/change_password.mustache:3
-msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "Kun olet valmis, kirjaudu sisään palveluun uudella salasanalla kaikilla laitteillasi."
-
-#: .es5/scripts/templates/settings/change_password.mustache:4
-msgid "Old password"
-msgstr "Vanha salasana"
-
-#: .es5/scripts/templates/settings/communication_preferences.mustache:3
-msgid "Communication preferences"
-msgstr "Viestintäasetukset"
-
-#: .es5/scripts/templates/settings/communication_preferences.mustache:8
-msgid "Email preferences"
-msgstr "Sähköpostiasetukset"
-
-#: .es5/scripts/templates/settings/communication_preferences.mustache:10
-msgid "Unsubscribe"
-msgstr "Lopeta tilaus"
-
-#: .es5/scripts/templates/settings/communication_preferences.mustache:12
-msgid "Subscribe"
-msgstr "Tilaa"
-
-#: .es5/scripts/templates/settings/delete_account.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:6
-msgid "Delete account"
-msgstr "Poista tili"
-
-#: .es5/scripts/templates/settings/delete_account.mustache:2
-msgid "Delete"
-msgstr "Poista"
-
-#: .es5/scripts/templates/settings/delete_account.mustache:3
-msgid "Are you sure you want to delete your account? This action cannot be undone."
-msgstr "Poistetaanko tili? Tilin poistoa ei voi perua."
-
-#: .es5/scripts/templates/settings/devices.mustache:2
-msgid "Devices"
-msgstr "Laitteet"
-
-#: .es5/scripts/templates/settings/devices.mustache:4
-msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-"href=\"%(linkLinux)s\">Linux</a>."
-msgstr ""
-"Firefox on saatavilla <a href=\"%(linkWindows)s\">Windowsille</a>, <a href=\"%(linkOSX)s\">OS X:lle</a>, <a href=\"%(linkAndroid)s\">Androidille</a>, <a href=\"%(linkIOS)s\">iOS:lle</a> ja <a "
-"href=\"%(linkLinux)s\">Linuxille</a>."
-
-#: .es5/scripts/templates/settings/devices.mustache:5
-msgid "You can manage your devices below."
-msgstr "Voit hallinnoida laitteitasi alta."
-
-#: .es5/scripts/templates/settings/devices.mustache:6
-msgid "current device"
-msgstr "nykyinen laite"
-
-#: .es5/scripts/templates/settings/devices.mustache:8
-msgid "Disconnect"
-msgstr "Katkaise yhteys"
-
-#: .es5/scripts/templates/settings/devices.mustache:10
-msgid "Don't see all your devices?"
-msgstr "Etkö näe kaikkia laitteitasi?"
-
-#: .es5/scripts/templates/settings/devices.mustache:11
-msgid "Refresh"
-msgstr "Päivitä"
-
-#: .es5/scripts/templates/settings/display_name.mustache:3
-msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr "Valitse nimi, jonka haluavat näkyvän Firefoxissa ja hallinnoidessasi tiliä."
-
-#: .es5/scripts/templates/partial/coppa-age-input.mustache:1
-msgid "How old are you?"
-msgstr "Kuinka vanha olet?"
-
-#: .es5/scripts/templates/openid/start.mustache:1
-msgid "Sign in to Sync"
-msgstr "Kirjaudu Sync-palveluun"
-
-#: .es5/scripts/templates/openid/start.mustache:2
-msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-msgstr "Valitse tili, jota haluat käyttää synkronoimaan välilehtesi, kirjanmerkkisi, salasanasi ynnä muut."
-
-#: .es5/scripts/templates/openid/start.mustache:3
-msgid "Use OpenID"
-msgstr "Käytä OpenID:tä"
-
-#: .es5/scripts/templates/openid/start.mustache:4
-msgid "Use Firefox Account"
-msgstr "Käytä Firefox-tiliä"
+#~ msgid "days ago"
+#~ msgstr "päivää sitten"
+
+#~ msgid "hours ago"
+#~ msgstr "tuntia sitten"
+
+#~ msgid "minutes ago"
+#~ msgstr "minuuttia sitten"
+
+#~ msgid "months ago"
+#~ msgstr "kuukautta sitten"
+
+#~ msgid "seconds ago"
+#~ msgstr "sekuntia sitten"
+
+#~ msgid "weeks ago"
+#~ msgstr "viikkoa sitten"
+
+#~ msgid "years ago"
+#~ msgstr "vuotta sitten"
+
+#~ msgid "Bad Request"
+#~ msgstr "Virheellinen pyyntö"
+
+#~ msgid "500 Error"
+#~ msgstr "500 Virhe"
+
+#~ msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+#~ msgstr "Voi ei, jotain meni vikaan. Saimme tiedon ja alamme korjata tilannetta."
+
+#~ msgid "Cannot create account"
+#~ msgstr "Tiliä ei voida luoda"
+
+#~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
+#~ msgstr "Voidaksesi luoda Firefox-tilin, sinun on täytettävä ikävaatimukset."
+
+#~ msgid "Learn more."
+#~ msgstr "Lue lisää."
+
+#~ msgid "Choose what to sync"
+#~ msgstr "Valitse, mitä synkronoidaan"
+
+#~ msgid "Tabs"
+#~ msgstr "Välilehdet"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Kirjanmerkit"
+
+#~ msgid "Add-ons"
+#~ msgstr "Lisäosat"
+
+#~ msgid "Passwords"
+#~ msgstr "Salasanat"
+
+#~ msgid "History"
+#~ msgstr "Historia"
+
+#~ msgid "Preferences"
+#~ msgstr "Asetukset"
+
+#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
+#~ msgstr "Lisäosia ja asetuksia ei nykyisin synkronoida mobiililaitteilla."
+
+#~ msgid "Save settings"
+#~ msgstr "Tallenna asetukset"
+
+#~ msgid "Back"
+#~ msgstr "Takaisin"
+
+#~ msgid "Reset password link expired"
+#~ msgstr "Salasanan nollauslinkki on vanhentunut"
+
+#~ msgid "Email resent"
+#~ msgstr "Sähköposti on lähetetty uudelleen"
+
+#~ msgid "The link you clicked to reset your password is expired."
+#~ msgstr "Linkki, jolla yritit nollata salasanasi, on vanhentunut."
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "Tilaa uusi nollauslinkki napsauttamalla tässä"
+
+#~ msgid "Reset password link damaged"
+#~ msgstr "Salasanan nollauslinkki on vaurioitunut"
+
+#~ msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
+#~ msgstr "Avaamastasi linkistä puuttui merkkejä. Sähköpostiohjelmasi on saattanut katkaista sen. Kopioi osoite huolellisesti ja yritä uudelleen."
+
+#~ msgid "Enter new password"
+#~ msgstr "Kirjoita uusi salasana"
+
+#~ msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "Kun lähetät uuden salasanasi, menetät kaikki Sync-tiedot, jotka eivät ole jollakin laitteistasi."
+
+#~ msgid "Learn how Sync works."
+#~ msgstr "Lue, kuinka Sync-palvelu toimii."
+
+#~ msgid "New password"
+#~ msgstr "Uusi salasana"
+
+#~ msgid "Show"
+#~ msgstr "Näytä"
+
+#~ msgid "Repeat password"
+#~ msgstr "Toista salasana"
+
+#~ msgid "Submit new password"
+#~ msgstr "Lähetä uusi salasana"
+
+#~ msgid "Verification link expired"
+#~ msgstr "Vahvistuslinkki on vanhentunut"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "Tilaa uusi vahvistuslinkki napsauttamalla tästä"
+
+#~ msgid "Verification error"
+#~ msgstr "Vahvistusvirhe"
+
+#~ msgid "Confirm your account"
+#~ msgstr "Vahvista tilisi"
+
+#~ msgid "Confirm this sign-in"
+#~ msgstr "Vahvista tämä kirjautuminen"
+
+#~ msgid "Email Sent"
+#~ msgstr "Sähköposti lähetetty"
+
+#~ msgid "A verification link has been sent&nbsp;to %(email)s"
+#~ msgstr "Vahvistuslinkki on lähetetty osoitteeseen %(email)s"
+
+#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+#~ msgstr "Suojellaksemme Firefox-tietojasi olemme lähettäneet vahvistuslinkin osoitteeseen %(email)s"
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "Eikö viesti saapunut? Lähetä uudestaan"
+
+#~ msgid "Reset email sent"
+#~ msgstr "Nollaussähköposti lähetetty"
+
+#~ msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
+#~ msgstr "Napsauta osoitteeseen %(email)s lähettämäämme linkkiä tunnin kuluessa luodaksesi uuden salasanan."
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "Muistatko salasanan? Kirjaudu sisään."
+
+#~ msgid "Resend email"
+#~ msgstr "Lähetä sähköposti uudelleen"
+
+#~ msgid "Cookies and local storage are required."
+#~ msgstr "Evästeet ja paikallinen tallennustila vaaditaan."
+
+#~ msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
+#~ msgstr ""
+#~ "Ota käyttöön evästeet ja paikallinen tallennustila selaimessasi, jotta voit käyttää Firefox Accounts -palvelua. Tämän tekeminen mahdollistaa muun muassa sinun muistamisen istunnosta toiseen."
+
+#~ msgid "Learn more"
+#~ msgstr "Lue lisää"
+
+#~ msgid "Try again"
+#~ msgstr "Yritä uudelleen"
+
+#~ msgid "Sign in to continue"
+#~ msgstr "Jatka kirjautumalla sisään"
+
+#~ msgid "Password"
+#~ msgstr "Salasana"
+
+#~ msgid "Sign in"
+#~ msgstr "Kirjaudu sisään"
+
+#~ msgid "Forgot password?"
+#~ msgstr "Unohditko salasanasi?"
+
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr "Jatkamalla hyväksyt Firefoxin verkkopalveluiden <a id=\"fxa-tos\" href=\"/legal/terms\">käyttöehdot</a> ja <a id=\"fxa-pp\" href=\"/legal/privacy\">tietosuojakäytännön</a>."
+
+#~ msgid "Firefox cloud services"
+#~ msgstr "Firefox pilvipalvelut"
+
+#~ msgid "Legal"
+#~ msgstr "Lakiteksti"
+
+#~ msgid "Terms of Service"
+#~ msgstr "Käyttöehdot"
+
+#~ msgid "Privacy Notice"
+#~ msgstr "Tietosuojakäytäntö"
+
+#~ msgid "Stay in sync on the go:"
+#~ msgstr "Pysy synkronoituna liikkeellä:"
+
+#~ msgid "Get Firefox for Android"
+#~ msgstr "Lataa Firefox Androidille"
+
+#~ msgid "Get the full Sync experience."
+#~ msgstr "Ota kaikki irti synkronointipalvelusta."
+
+#~ msgid "Download Firefox for iOS!"
+#~ msgstr "Lataa Firefox iOS:lle!"
+
+#~ msgid "Download Firefox for Android."
+#~ msgstr "Lataa Firefox Androidille."
+
+#~ msgid "Download Firefox for mobile devices."
+#~ msgstr "Lataa Firefox mobiililaitteille."
+
+#~ msgid "Request for permission"
+#~ msgstr "Lupapyyntö"
+
+#~ msgid "%(serviceName)s wants the following information from your account:"
+#~ msgstr "%(serviceName)s haluaa seuraavat tiedot tililtäsi:"
+
+#~ msgid "Accept"
+#~ msgstr "Hyväksy"
+
+#~ msgid "Cancel"
+#~ msgstr "Peruuta"
+
+#~ msgid "Success"
+#~ msgstr "Onnistui"
+
+#~ msgid "Sync preferences"
+#~ msgstr "Synkronointiasetukset"
+
+#~ msgid "Proceed"
+#~ msgstr "Jatka"
+
+#~ msgid "Your account is ready!"
+#~ msgstr "Tilisi on valmis!"
+
+#~ msgid "Forgot password"
+#~ msgstr "Unohdin salasanan"
+
+#~ msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "Kun nollaat salasanasi, menetät kaikki Sync-tiedot, jotka eivät ole jollakin laitteistasi."
+
+#~ msgid "Email"
+#~ msgstr "Sähköpostiosoite"
+
+#~ msgid "Firefox Accounts"
+#~ msgstr "Firefox-tilit"
+
+#~ msgid "Sign out"
+#~ msgstr "Kirjaudu ulos"
+
+#~ msgid "Continue to %(serviceName)s"
+#~ msgstr "Jatka palveluun %(serviceName)s"
+
+#~ msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
+#~ msgstr "Siirrä synkronointitietosi kirjautumalla sisään Firefox-tilillesi."
+
+#~ msgid "Use a different account"
+#~ msgstr "Käytä toista tiliä"
+
+#~ msgid "Create an account"
+#~ msgstr "Luo tili"
+
+#~ msgid "Create a Firefox Account"
+#~ msgstr "Luo Firefox-tili"
+
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
+#~ msgstr "Etsitkö Firefox Sync -palvelua? <a href=\"https://mozilla.org/firefox/sync\">Aloita tästä.</a>"
+
+#~ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
+#~ msgstr "Siirrä synkronointitietosi luomalla uusi Firefox-tili."
+
+#~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+#~ msgstr "Onko sinulla tili eri sähköpostilla? <a href=\"%(signinUri)s\">Kirjaudu sisään</a>"
+
+#~ msgid "Send me the monthly Firefox newsletter."
+#~ msgstr "Lähetä minulle kuukausittainen Firefox-uutiskirje."
+
+#~ msgid "Create account"
+#~ msgstr "Luo tili"
+
+#~ msgid "Have an account? Sign in."
+#~ msgstr "Onko sinulla jo tili? Kirjaudu sisään."
+
+#~ msgid "Change"
+#~ msgstr "Vaihda"
+
+#~ msgid "Add"
+#~ msgstr "Lisää"
+
+#~ msgid "Take picture"
+#~ msgstr "Ota kuva"
+
+#~ msgid "Upload"
+#~ msgstr "Siirrä"
+
+#~ msgid "Camera"
+#~ msgstr "Kamera"
+
+#~ msgid "Gravatar"
+#~ msgstr "Gravatar"
+
+#~ msgid "Clear"
+#~ msgstr "Tyhjennä"
+
+#~ msgid "Done"
+#~ msgstr "Valmis"
+
+#~ msgid "Position and rotate your picture as needed"
+#~ msgstr "Kohdista ja käännä kuvaa tarpeen mukaan"
+
+#~ msgid "Save"
+#~ msgstr "Tallenna"
+
+#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
+#~ msgstr "Kun olet valmis, kirjaudu sisään palveluun uudella salasanalla kaikilla laitteillasi."
+
+#~ msgid "Old password"
+#~ msgstr "Vanha salasana"
+
+#~ msgid "Communication preferences"
+#~ msgstr "Viestintäasetukset"
+
+#~ msgid "Email preferences"
+#~ msgstr "Sähköpostiasetukset"
+
+#~ msgid "Unsubscribe"
+#~ msgstr "Lopeta tilaus"
+
+#~ msgid "Subscribe"
+#~ msgstr "Tilaa"
+
+#~ msgid "Delete account"
+#~ msgstr "Poista tili"
+
+#~ msgid "Delete"
+#~ msgstr "Poista"
+
+#~ msgid "Are you sure you want to delete your account? This action cannot be undone."
+#~ msgstr "Poistetaanko tili? Tilin poistoa ei voi perua."
+
+#~ msgid "Devices"
+#~ msgstr "Laitteet"
+
+#~ msgid ""
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox on saatavilla <a href=\"%(linkWindows)s\">Windowsille</a>, <a href=\"%(linkOSX)s\">OS X:lle</a>, <a href=\"%(linkAndroid)s\">Androidille</a>, <a href=\"%(linkIOS)s\">iOS:lle</a> ja <a "
+#~ "href=\"%(linkLinux)s\">Linuxille</a>."
+
+#~ msgid "You can manage your devices below."
+#~ msgstr "Voit hallinnoida laitteitasi alta."
+
+#~ msgid "current device"
+#~ msgstr "nykyinen laite"
+
+#~ msgid "Disconnect"
+#~ msgstr "Katkaise yhteys"
+
+#~ msgid "Don't see all your devices?"
+#~ msgstr "Etkö näe kaikkia laitteitasi?"
+
+#~ msgid "Refresh"
+#~ msgstr "Päivitä"
+
+#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
+#~ msgstr "Valitse nimi, jonka haluavat näkyvän Firefoxissa ja hallinnoidessasi tiliä."
+
+#~ msgid "How old are you?"
+#~ msgstr "Kuinka vanha olet?"
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "Kirjaudu Sync-palveluun"
+
+#~ msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
+#~ msgstr "Valitse tili, jota haluat käyttää synkronoimaan välilehtesi, kirjanmerkkisi, salasanasi ynnä muut."
+
+#~ msgid "Use OpenID"
+#~ msgstr "Käytä OpenID:tä"
+
+#~ msgid "Use Firefox Account"
+#~ msgstr "Käytä Firefox-tiliä"
 
 #~ msgid "Account unlocked, please try again"
 #~ msgstr "Tilin lukitus purettu, yritä uudelleen"

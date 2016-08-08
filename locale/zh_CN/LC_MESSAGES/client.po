@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-25 20:11+0000\n"
+"POT-Creation-Date: 2016-08-08 20:06+0000\n"
 "PO-Revision-Date: 2016-07-26 05:44+0000\n"
 "Last-Translator: YFdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444354764.0\n"
 
-#: .es5/scripts/views/complete_reset_password.js:123 .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:130 .es5/scripts/views/confirm_reset_password.js:177
+#: .es5/scripts/views/complete_reset_password.js:124 .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:131 .es5/scripts/views/confirm_reset_password.js:177
 msgid "Account verified successfully"
 msgstr "账号验证成功"
 
@@ -35,11 +35,11 @@ msgstr "%(permissionName)s (必填)"
 msgid "Email address"
 msgstr "电子邮件地址"
 
-#: .es5/scripts/views/permissions.js:35 .es5/scripts/templates/settings/display_name.mustache:1 .es5/scripts/templates/settings/display_name.mustache:4
+#: .es5/scripts/views/permissions.js:35
 msgid "Display name"
 msgstr "显示名称"
 
-#: .es5/scripts/views/permissions.js:38 .es5/scripts/templates/settings/avatar.mustache:1
+#: .es5/scripts/views/permissions.js:38
 msgid "Account picture"
 msgstr "头像"
 
@@ -59,7 +59,7 @@ msgstr "Firefox 即将继续同步"
 msgid "Sign-in confirmed"
 msgstr "登录已确认"
 
-#: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55 .es5/scripts/templates/ready.mustache:5
+#: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55
 msgid "You are now ready to use %(serviceName)s"
 msgstr "您已经可以使用 %(serviceName)s 了"
 
@@ -68,7 +68,7 @@ msgid "Account verified"
 msgstr "账号已验证"
 
 # see https://bugzilla.mozilla.org/show_bug.cgi?id=1131472
-#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:151
+#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:152
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "未知账号。<a href=\"/signup\">注册</a>"
 
@@ -84,7 +84,7 @@ msgstr "账号已存在。<a href=\"/signin\">登录</a>"
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "感谢 <a href=\"https://www.gravatar.com\">Gravatar</a> 提供"
 
-#: .es5/scripts/views/settings/change_password.js:39
+#: .es5/scripts/views/settings/change_password.js:47
 msgid "Password changed successfully"
 msgstr "密码更改成功"
 
@@ -101,42 +101,42 @@ msgid "Account deleted successfully"
 msgstr "账号删除已成功"
 
 #: .es5/scripts/views/settings/devices.js:28
-msgid "days ago"
-msgstr "天前"
+msgid "Last active: days ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:29
-msgid "hours ago"
-msgstr "小时前"
+msgid "Last active: hours ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:30
-msgid "minutes ago"
-msgstr "分钟前"
+msgid "Last active: minutes ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:31
-msgid "months ago"
-msgstr "个月前"
+msgid "Last active: months ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:32
-msgid "seconds ago"
-msgstr "秒前"
+msgid "Last active: seconds ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:34
-msgid "weeks ago"
-msgstr "周前"
+msgid "Last active: weeks ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:35
-msgid "years ago"
-msgstr "年前"
+msgid "Last active: years ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/display_name.js:50
 msgid "Display name updated"
 msgstr "显示名称已更新"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/lib/auth-errors.js:107
+#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/lib/auth-errors.js:107
 msgid "Your account has been locked for security reasons"
 msgstr "您的账号已因安全原因被锁定"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/templates/reset_password.mustache:6
+#: .es5/scripts/views/mixins/account-reset-mixin.js:41
 msgid "Reset password"
 msgstr "重置密码"
 
@@ -160,7 +160,7 @@ msgstr "打开 Outlook"
 msgid "8 characters minimum, but longer if you plan to sync passwords."
 msgstr "最少8个字符，但最好更长，如果您打算同步密码。"
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/templates/sign_up.mustache:18
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:22
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "一个强壮、唯一的密码有助于保证您的 Firefox 数据不受侵害。"
 
@@ -172,7 +172,7 @@ msgstr "这是一个常见密码。请考虑换一个。"
 msgid "Signed out successfully"
 msgstr "退出成功"
 
-#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:76 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
+#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:79 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
 #: .es5/scripts/lib/profile-errors.js:47 .es5/scripts/lib/require-on-demand.js:33 .es5/scripts/lib/require-on-demand.js:37 .es5/scripts/lib/require-on-demand.js:41
 #: .es5/scripts/lib/require-on-demand.js:45
 msgid "Unexpected error"
@@ -254,7 +254,7 @@ msgstr "系统繁忙，请稍后再试"
 msgid "This endpoint is no longer supported"
 msgstr "不再支持这个端点"
 
-#: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:72 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
+#: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:75 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
 #: .es5/scripts/lib/oauth-errors.js:80 .es5/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "系统不可用，请稍后再试"
@@ -291,7 +291,7 @@ msgstr "无法获取服务条款"
 msgid "Your new password must be different"
 msgstr "新旧密码不能相同"
 
-#: .es5/scripts/lib/auth-errors.js:155 .es5/scripts/templates/complete_reset_password.mustache:15 .es5/scripts/templates/settings/change_password.mustache:9
+#: .es5/scripts/lib/auth-errors.js:155
 msgid "Must be at least 8 characters"
 msgstr "至少8个字符"
 
@@ -327,11 +327,11 @@ msgstr "请输入一个有效的电子邮件地址。firefox.com 不提供电子
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox 账号网站只允许在经过授权的网站上被放入 IFRAME"
 
-#: .es5/scripts/lib/auth-errors.js:228 .es5/scripts/templates/complete_sign_up.mustache:3
+#: .es5/scripts/lib/auth-errors.js:228
 msgid "The link you clicked to verify your email is expired."
 msgstr "您点击的重置密码验证链接已过期。"
 
-#: .es5/scripts/lib/auth-errors.js:232 .es5/scripts/templates/complete_sign_up.mustache:7
+#: .es5/scripts/lib/auth-errors.js:232
 msgid "Verification link damaged"
 msgstr "验证链接损坏"
 
@@ -440,7 +440,9 @@ msgid "Firefox Sync"
 msgstr "Firefox 同步"
 
 #: .es5/scripts/lib/strings.js:17
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr "继续提交即代表您同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos\" href=\"%(termsUri)s\">服务条款</a>和<a id=\"service-pp\" href=\"%(privacyUri)s\">隐私声明</a>。"
 
 #: .es5/scripts/lib/strings.js:24
@@ -467,487 +469,381 @@ msgstr "IP 地址：%(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "为了确保安全，请确认此登录以开始与此设备同步："
 
-#: .es5/scripts/templates/400.mustache:1
-msgid "Bad Request"
-msgstr "错误请求"
-
-#: .es5/scripts/templates/500.mustache:1
-msgid "500 Error"
-msgstr "500 错误"
-
-#: .es5/scripts/templates/500.mustache:2
-msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "很抱歉，某些地方出现问题。我们已经通知并将尝试修复它。"
-
-#: .es5/scripts/templates/cannot_create_account.mustache:1
-msgid "Cannot create account"
-msgstr "无法创建账号"
-
-#: .es5/scripts/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr "您必须符合年龄要求才能创建 Firefox 账号。"
-
-#: .es5/scripts/templates/cannot_create_account.mustache:4
-msgid "Learn more."
-msgstr "了解详情。"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:1 .es5/scripts/templates/sign_up.mustache:24
-msgid "Choose what to sync"
-msgstr "选择要同步的内容"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:2
-msgid "Tabs"
-msgstr "标签页"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:4
-msgid "Bookmarks"
-msgstr "书签"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:6
-msgid "Add-ons"
-msgstr "附加组件"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:8
-msgid "Passwords"
-msgstr "密码"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:10
-msgid "History"
-msgstr "历史记录"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:12
-msgid "Preferences"
-msgstr "首选项"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:14
-msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr "附加组件和首选项目前不在移动设备上同步。"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:15
-msgid "Save settings"
-msgstr "保存设置"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:16 .es5/scripts/templates/confirm.mustache:13 .es5/scripts/templates/pp.mustache:3 .es5/scripts/templates/tos.mustache:3
-msgid "Back"
-msgstr "返回"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:1
-msgid "Reset password link expired"
-msgstr "重置密码链接已过期"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:2 .es5/scripts/templates/complete_sign_up.mustache:2 .es5/scripts/templates/confirm.mustache:5
-#: .es5/scripts/templates/confirm_reset_password.mustache:2
-msgid "Email resent"
-msgstr "邮件已重发"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:3
-msgid "The link you clicked to reset your password is expired."
-msgstr "您点击的重置密码链接已过期。"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:4
-msgid "Click here to receive a new reset link"
-msgstr "点击这里接收新的重置链接"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:6
-msgid "Reset password link damaged"
-msgstr "重置密码链接已损坏"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:7 .es5/scripts/templates/complete_sign_up.mustache:8
-msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "您点击的链接缺少字符，可能由于您的邮件客户端的原因损坏了。请确保复制了完整的网址，然后再试一次。"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:9
-msgid "Enter new password"
-msgstr "请输入新密码"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:10
-msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-msgstr "在您提交新密码后，您将丢失任何未存储在您的设备上的同步数据。"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:11 .es5/scripts/templates/reset_password.mustache:3
-msgid "Learn how Sync works."
-msgstr "了解“同步”的工作机制。"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:13 .es5/scripts/templates/settings/change_password.mustache:7
-msgid "New password"
-msgstr "新密码"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:14 .es5/scripts/templates/complete_reset_password.mustache:17 .es5/scripts/templates/force_auth.mustache:5
-#: .es5/scripts/templates/sign_in.mustache:9 .es5/scripts/templates/sign_in.mustache:21 .es5/scripts/templates/sign_up.mustache:17 .es5/scripts/templates/settings/change_password.mustache:5
-#: .es5/scripts/templates/settings/change_password.mustache:8 .es5/scripts/templates/settings/delete_account.mustache:5 .es5/scripts/templates/settings/devices.mustache:3
-msgid "Show"
-msgstr "显示"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:16
-msgid "Repeat password"
-msgstr "再次输入密码"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:18
-msgid "Submit new password"
-msgstr "提交新密码"
-
-#: .es5/scripts/templates/complete_sign_up.mustache:1
-msgid "Verification link expired"
-msgstr "验证链接已过期"
-
-#: .es5/scripts/templates/complete_sign_up.mustache:4
-msgid "Click here to receive a new verification link"
-msgstr "点击这里接收新的验证链接"
-
-#: .es5/scripts/templates/complete_sign_up.mustache:10
-msgid "Verification error"
-msgstr "验证错误"
-
-#: .es5/scripts/templates/confirm.mustache:1
-msgid "Confirm your account"
-msgstr "确认您的账号"
-
-#: .es5/scripts/templates/confirm.mustache:3
-msgid "Confirm this sign-in"
-msgstr "确认此登录"
-
-#: .es5/scripts/templates/confirm.mustache:6 .es5/scripts/templates/confirm_reset_password.mustache:3
-msgid "Email Sent"
-msgstr "邮件已发送"
-
-#: .es5/scripts/templates/confirm.mustache:7
-msgid "A verification link has been sent&nbsp;to %(email)s"
-msgstr "验证链接已发送到：%(email)s"
-
-#: .es5/scripts/templates/confirm.mustache:9
-msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr "为了保护您的 Firefox 数据，我们已经发送确认邮件到 %(email)s"
-
-#: .es5/scripts/templates/confirm.mustache:12 .es5/scripts/templates/confirm.mustache:14
-msgid "Didn't arrive? Resend"
-msgstr "没收到？重新发送"
-
-#: .es5/scripts/templates/confirm_reset_password.mustache:1
-msgid "Reset email sent"
-msgstr "已发送重置邮件"
-
-#: .es5/scripts/templates/confirm_reset_password.mustache:4
-msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-msgstr "在一小时内点击我们发到 %(email)s 的链接，然后设置一个新密码。"
-
-#: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:7
-#: .es5/scripts/templates/reset_password.mustache:9
-msgid "Remember password? Sign in."
-msgstr "还记得密码？登录"
-
-#: .es5/scripts/templates/confirm_reset_password.mustache:9
-msgid "Resend email"
-msgstr "重新发送邮件"
-
-#: .es5/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required."
-msgstr "Cookie 和本地存储是必需的。"
-
-#: .es5/scripts/templates/cookies_disabled.mustache:2
-msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "请在您的浏览器中启用 Cookie 和本地存储功能以访问 Firefox 账号。这样才能使会话间记住信息等功能正常运行。"
-
-#: .es5/scripts/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "详细了解。"
-
-#: .es5/scripts/templates/cookies_disabled.mustache:4
-msgid "Try again"
-msgstr "再试一次"
-
-#: .es5/scripts/templates/force_auth.mustache:1
-msgid "Sign in to continue"
-msgstr "登录以继续"
-
-#: .es5/scripts/templates/force_auth.mustache:3 .es5/scripts/templates/sign_in.mustache:8 .es5/scripts/templates/sign_in.mustache:19 .es5/scripts/templates/sign_up.mustache:15
-#: .es5/scripts/templates/settings/change_password.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:4
-msgid "Password"
-msgstr "密码"
-
-#: .es5/scripts/templates/force_auth.mustache:6 .es5/scripts/templates/sign_in.mustache:1 .es5/scripts/templates/sign_in.mustache:4 .es5/scripts/templates/sign_in.mustache:10
-#: .es5/scripts/templates/sign_in.mustache:14 .es5/scripts/templates/sign_in.mustache:22
-msgid "Sign in"
-msgstr "登录"
-
-#: .es5/scripts/templates/force_auth.mustache:7 .es5/scripts/templates/sign_in.mustache:11 .es5/scripts/templates/sign_in.mustache:23 .es5/scripts/templates/settings/change_password.mustache:6
-msgid "Forgot password?"
-msgstr "忘记密码？"
-
-#: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "继续提交即代表您同意 Firefox 云服务的<a id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>和<a id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>。"
-
-#: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
-msgid "Firefox cloud services"
-msgstr "Firefox 云服务"
-
-#: .es5/scripts/templates/legal.mustache:2
-msgid "Legal"
-msgstr "法律信息"
-
-#: .es5/scripts/templates/legal.mustache:3 .es5/scripts/templates/settings.mustache:5 .es5/scripts/templates/tos.mustache:2
-msgid "Terms of Service"
-msgstr "服务条款"
-
-#: .es5/scripts/templates/legal.mustache:4 .es5/scripts/templates/pp.mustache:2 .es5/scripts/templates/settings.mustache:6
-msgid "Privacy Notice"
-msgstr "隐私权政策"
-
-#: .es5/scripts/templates/marketing_snippet.mustache:1
-msgid "Stay in sync on the go:"
-msgstr "在移动环境下保持同步："
-
-#: .es5/scripts/templates/marketing_snippet.mustache:2
-msgid "Get Firefox for Android"
-msgstr "下载 Android 版 Firefox"
-
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:1 .es5/scripts/templates/marketing_snippet_ios.mustache:5 .es5/scripts/templates/marketing_snippet_ios.mustache:9
-msgid "Get the full Sync experience."
-msgstr "获得完整同步体验。"
-
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:2 .es5/scripts/templates/marketing_snippet_ios.mustache:3 .es5/scripts/templates/marketing_snippet_ios.mustache:12
-msgid "Download Firefox for iOS!"
-msgstr "下载 Firefox iOS 版！"
-
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:6 .es5/scripts/templates/marketing_snippet_ios.mustache:7 .es5/scripts/templates/marketing_snippet_ios.mustache:11
-msgid "Download Firefox for Android."
-msgstr "下载 Firefox Android 版。"
-
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:10
-msgid "Download Firefox for mobile devices."
-msgstr "下载 Firefox 移动设备版本。"
-
-#: .es5/scripts/templates/permissions.mustache:1 .es5/scripts/templates/settings/gravatar_permissions.mustache:1
-msgid "Request for permission"
-msgstr "请求权限"
-
-#: .es5/scripts/templates/permissions.mustache:2 .es5/scripts/templates/settings/gravatar_permissions.mustache:2
-msgid "%(serviceName)s wants the following information from your account:"
-msgstr "%(serviceName)s 想要获知您的账号的如下信息："
-
-#: .es5/scripts/templates/permissions.mustache:3 .es5/scripts/templates/settings/gravatar_permissions.mustache:4
-msgid "Accept"
-msgstr "接受"
-
-#: .es5/scripts/templates/permissions.mustache:4 .es5/scripts/templates/settings/avatar_camera.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:3
-#: .es5/scripts/templates/settings/avatar_gravatar.mustache:3 .es5/scripts/templates/settings/change_password.mustache:11 .es5/scripts/templates/settings/communication_preferences.mustache:5
-#: .es5/scripts/templates/settings/communication_preferences.mustache:13 .es5/scripts/templates/settings/delete_account.mustache:7 .es5/scripts/templates/settings/display_name.mustache:6
-#: .es5/scripts/templates/settings/gravatar_permissions.mustache:5
-msgid "Cancel"
-msgstr "取消"
-
-#: .es5/scripts/templates/ready.mustache:1
-msgid "Success"
-msgstr "成功"
-
-#: .es5/scripts/templates/ready.mustache:2
-msgid "Sync preferences"
-msgstr "同步选项"
-
-#: .es5/scripts/templates/ready.mustache:6
-msgid "Proceed"
-msgstr "继续"
-
-#: .es5/scripts/templates/ready.mustache:9
-msgid "Your account is ready!"
-msgstr "您的账号已经准备好！"
-
-#: .es5/scripts/templates/reset_password.mustache:1
-msgid "Forgot password"
-msgstr "忘记密码"
-
-#: .es5/scripts/templates/reset_password.mustache:2
-msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr "在您重置密码时，您将丢失任何未存储在您的设备上的同步数据。"
-
-#: .es5/scripts/templates/reset_password.mustache:5 .es5/scripts/templates/sign_in.mustache:18 .es5/scripts/templates/sign_up.mustache:13
-#: .es5/scripts/templates/settings/gravatar_permissions.mustache:3
-msgid "Email"
-msgstr "电子邮件地址"
-
-#: .es5/scripts/templates/settings.mustache:1
-msgid "Firefox Accounts"
-msgstr "Firefox 账号"
-
-#: .es5/scripts/templates/settings.mustache:2
-msgid "Sign out"
-msgstr "退出"
-
-#: .es5/scripts/templates/sign_in.mustache:2 .es5/scripts/templates/sign_up.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "继续前往 %(serviceName)s"
-
-#: .es5/scripts/templates/sign_in.mustache:6
-msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr "登录以迁移您的同步数据到 Firefox 账号。"
-
-#: .es5/scripts/templates/sign_in.mustache:12 .es5/scripts/templates/sign_in.mustache:15
-msgid "Use a different account"
-msgstr "使用另一个账号"
-
-#: .es5/scripts/templates/sign_in.mustache:24
-msgid "Create an account"
-msgstr "创建账号"
-
-#: .es5/scripts/templates/sign_up.mustache:1 .es5/scripts/templates/sign_up.mustache:4
-msgid "Create a Firefox Account"
-msgstr "创建 Firefox 账号"
-
-#: .es5/scripts/templates/sign_up.mustache:6
-msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
-msgstr "在找 Firefox 同步？<a href=\"https://mozilla.org/firefox/sync\">从这里开始</a>。"
-
-#: .es5/scripts/templates/sign_up.mustache:8
-msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr "创建一个 Firefox 账号以迁移您的同步数据。"
-
-#: .es5/scripts/templates/sign_up.mustache:10
-msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
-msgstr "已有另一个邮件地址的账号？<a href=\"%(signinUri)s\">登录</a>"
-
-#: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
-msgid "Send me the monthly Firefox newsletter."
-msgstr "每月给我发送 Firefox 新闻报。"
-
-#: .es5/scripts/templates/sign_up.mustache:22
-msgid "Create account"
-msgstr "创建账号"
-
-#: .es5/scripts/templates/sign_up.mustache:27
-msgid "Have an account? Sign in."
-msgstr "已有账号？登录。"
-
-#: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2
-#: .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/communication_preferences.mustache:4 .es5/scripts/templates/settings/display_name.mustache:2
-#: .es5/scripts/templates/settings/display_name.mustache:5
-msgid "Change"
-msgstr "更改"
-
-#: .es5/scripts/templates/settings/avatar.mustache:4
-msgid "Add"
-msgstr "添加"
-
-#: .es5/scripts/templates/settings/avatar_camera.mustache:1
-msgid "Take picture"
-msgstr "拍照"
-
-#: .es5/scripts/templates/settings/avatar_change.mustache:1
-msgid "Upload"
-msgstr "上传"
-
-#: .es5/scripts/templates/settings/avatar_change.mustache:2
-msgid "Camera"
-msgstr "摄像头"
-
-#: .es5/scripts/templates/settings/avatar_change.mustache:3
-msgid "Gravatar"
-msgstr "Gravatar"
-
-#: .es5/scripts/templates/settings/avatar_change.mustache:4
-msgid "Clear"
-msgstr "清除"
-
-#: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/devices.mustache:12
-msgid "Done"
-msgstr "完成"
-
-#: .es5/scripts/templates/settings/avatar_crop.mustache:1
-msgid "Position and rotate your picture as needed"
-msgstr "根据您的需要旋转和调整照片的位置"
-
-#: .es5/scripts/templates/settings/avatar_gravatar.mustache:2
-msgid "Save"
-msgstr "保存"
-
-#: .es5/scripts/templates/settings/change_password.mustache:3
-msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "完成操作后，您就能在您的所有设备上使用新密码登录了。"
-
-#: .es5/scripts/templates/settings/change_password.mustache:4
-msgid "Old password"
-msgstr "旧密码"
-
-#: .es5/scripts/templates/settings/communication_preferences.mustache:3
-msgid "Communication preferences"
-msgstr "通信偏好"
-
-#: .es5/scripts/templates/settings/communication_preferences.mustache:8
-msgid "Email preferences"
-msgstr "电子邮件偏好"
-
-#: .es5/scripts/templates/settings/communication_preferences.mustache:10
-msgid "Unsubscribe"
-msgstr "退订"
-
-#: .es5/scripts/templates/settings/communication_preferences.mustache:12
-msgid "Subscribe"
-msgstr "订阅"
-
-#: .es5/scripts/templates/settings/delete_account.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:6
-msgid "Delete account"
-msgstr "删除账号"
-
-#: .es5/scripts/templates/settings/delete_account.mustache:2
-msgid "Delete"
-msgstr "删除"
-
-#: .es5/scripts/templates/settings/delete_account.mustache:3
-msgid "Are you sure you want to delete your account? This action cannot be undone."
-msgstr "您确认要删除自己的账号？这个操作无法撤销。"
-
-#: .es5/scripts/templates/settings/devices.mustache:2
-msgid "Devices"
-msgstr "设备"
-
-#: .es5/scripts/templates/settings/devices.mustache:4
-msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-"href=\"%(linkLinux)s\">Linux</a>."
-msgstr "Firefox 可以在 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> 以及 <a href=\"%(linkLinux)s\">Linux</a> 上使用。"
-
-#: .es5/scripts/templates/settings/devices.mustache:5
-msgid "You can manage your devices below."
-msgstr "您可以在下面管理您的设备。"
-
-#: .es5/scripts/templates/settings/devices.mustache:6
-msgid "current device"
-msgstr "当前设备"
-
-#: .es5/scripts/templates/settings/devices.mustache:8
-msgid "Disconnect"
-msgstr "断开"
-
-#: .es5/scripts/templates/settings/devices.mustache:10
-msgid "Don't see all your devices?"
-msgstr "没看到您的所有设备？"
-
-#: .es5/scripts/templates/settings/devices.mustache:11
-msgid "Refresh"
-msgstr "刷新"
-
-#: .es5/scripts/templates/settings/display_name.mustache:3
-msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr "请选择您想要在 Firefox 和管理账号时显示的名称。"
-
-#: .es5/scripts/templates/partial/coppa-age-input.mustache:1
-msgid "How old are you?"
-msgstr "您目前多少岁？"
-
-#: .es5/scripts/templates/openid/start.mustache:1
-msgid "Sign in to Sync"
-msgstr "登录到同步"
-
-#: .es5/scripts/templates/openid/start.mustache:2
-msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-msgstr "选择您想与其同步标签页、书签、密码等信息的账号。"
-
-#: .es5/scripts/templates/openid/start.mustache:3
-msgid "Use OpenID"
-msgstr "使用 OpenID"
-
-#: .es5/scripts/templates/openid/start.mustache:4
-msgid "Use Firefox Account"
-msgstr "使用 Firefox 账号"
+#~ msgid "days ago"
+#~ msgstr "天前"
+
+#~ msgid "hours ago"
+#~ msgstr "小时前"
+
+#~ msgid "minutes ago"
+#~ msgstr "分钟前"
+
+#~ msgid "months ago"
+#~ msgstr "个月前"
+
+#~ msgid "seconds ago"
+#~ msgstr "秒前"
+
+#~ msgid "weeks ago"
+#~ msgstr "周前"
+
+#~ msgid "years ago"
+#~ msgstr "年前"
+
+#~ msgid "Bad Request"
+#~ msgstr "错误请求"
+
+#~ msgid "500 Error"
+#~ msgstr "500 错误"
+
+#~ msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+#~ msgstr "很抱歉，某些地方出现问题。我们已经通知并将尝试修复它。"
+
+#~ msgid "Cannot create account"
+#~ msgstr "无法创建账号"
+
+#~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
+#~ msgstr "您必须符合年龄要求才能创建 Firefox 账号。"
+
+#~ msgid "Learn more."
+#~ msgstr "了解详情。"
+
+#~ msgid "Choose what to sync"
+#~ msgstr "选择要同步的内容"
+
+#~ msgid "Tabs"
+#~ msgstr "标签页"
+
+#~ msgid "Bookmarks"
+#~ msgstr "书签"
+
+#~ msgid "Add-ons"
+#~ msgstr "附加组件"
+
+#~ msgid "Passwords"
+#~ msgstr "密码"
+
+#~ msgid "History"
+#~ msgstr "历史记录"
+
+#~ msgid "Preferences"
+#~ msgstr "首选项"
+
+#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
+#~ msgstr "附加组件和首选项目前不在移动设备上同步。"
+
+#~ msgid "Save settings"
+#~ msgstr "保存设置"
+
+#~ msgid "Back"
+#~ msgstr "返回"
+
+#~ msgid "Reset password link expired"
+#~ msgstr "重置密码链接已过期"
+
+#~ msgid "Email resent"
+#~ msgstr "邮件已重发"
+
+#~ msgid "The link you clicked to reset your password is expired."
+#~ msgstr "您点击的重置密码链接已过期。"
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "点击这里接收新的重置链接"
+
+#~ msgid "Reset password link damaged"
+#~ msgstr "重置密码链接已损坏"
+
+#~ msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
+#~ msgstr "您点击的链接缺少字符，可能由于您的邮件客户端的原因损坏了。请确保复制了完整的网址，然后再试一次。"
+
+#~ msgid "Enter new password"
+#~ msgstr "请输入新密码"
+
+#~ msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "在您提交新密码后，您将丢失任何未存储在您的设备上的同步数据。"
+
+#~ msgid "Learn how Sync works."
+#~ msgstr "了解“同步”的工作机制。"
+
+#~ msgid "New password"
+#~ msgstr "新密码"
+
+#~ msgid "Show"
+#~ msgstr "显示"
+
+#~ msgid "Repeat password"
+#~ msgstr "再次输入密码"
+
+#~ msgid "Submit new password"
+#~ msgstr "提交新密码"
+
+#~ msgid "Verification link expired"
+#~ msgstr "验证链接已过期"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "点击这里接收新的验证链接"
+
+#~ msgid "Verification error"
+#~ msgstr "验证错误"
+
+#~ msgid "Confirm your account"
+#~ msgstr "确认您的账号"
+
+#~ msgid "Confirm this sign-in"
+#~ msgstr "确认此登录"
+
+#~ msgid "Email Sent"
+#~ msgstr "邮件已发送"
+
+#~ msgid "A verification link has been sent&nbsp;to %(email)s"
+#~ msgstr "验证链接已发送到：%(email)s"
+
+#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+#~ msgstr "为了保护您的 Firefox 数据，我们已经发送确认邮件到 %(email)s"
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "没收到？重新发送"
+
+#~ msgid "Reset email sent"
+#~ msgstr "已发送重置邮件"
+
+#~ msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
+#~ msgstr "在一小时内点击我们发到 %(email)s 的链接，然后设置一个新密码。"
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "还记得密码？登录"
+
+#~ msgid "Resend email"
+#~ msgstr "重新发送邮件"
+
+#~ msgid "Cookies and local storage are required."
+#~ msgstr "Cookie 和本地存储是必需的。"
+
+#~ msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
+#~ msgstr "请在您的浏览器中启用 Cookie 和本地存储功能以访问 Firefox 账号。这样才能使会话间记住信息等功能正常运行。"
+
+#~ msgid "Learn more"
+#~ msgstr "详细了解。"
+
+#~ msgid "Try again"
+#~ msgstr "再试一次"
+
+#~ msgid "Sign in to continue"
+#~ msgstr "登录以继续"
+
+#~ msgid "Password"
+#~ msgstr "密码"
+
+#~ msgid "Sign in"
+#~ msgstr "登录"
+
+#~ msgid "Forgot password?"
+#~ msgstr "忘记密码？"
+
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr "继续提交即代表您同意 Firefox 云服务的<a id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>和<a id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>。"
+
+#~ msgid "Firefox cloud services"
+#~ msgstr "Firefox 云服务"
+
+#~ msgid "Legal"
+#~ msgstr "法律信息"
+
+#~ msgid "Terms of Service"
+#~ msgstr "服务条款"
+
+#~ msgid "Privacy Notice"
+#~ msgstr "隐私权政策"
+
+#~ msgid "Stay in sync on the go:"
+#~ msgstr "在移动环境下保持同步："
+
+#~ msgid "Get Firefox for Android"
+#~ msgstr "下载 Android 版 Firefox"
+
+#~ msgid "Get the full Sync experience."
+#~ msgstr "获得完整同步体验。"
+
+#~ msgid "Download Firefox for iOS!"
+#~ msgstr "下载 Firefox iOS 版！"
+
+#~ msgid "Download Firefox for Android."
+#~ msgstr "下载 Firefox Android 版。"
+
+#~ msgid "Download Firefox for mobile devices."
+#~ msgstr "下载 Firefox 移动设备版本。"
+
+#~ msgid "Request for permission"
+#~ msgstr "请求权限"
+
+#~ msgid "%(serviceName)s wants the following information from your account:"
+#~ msgstr "%(serviceName)s 想要获知您的账号的如下信息："
+
+#~ msgid "Accept"
+#~ msgstr "接受"
+
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+#~ msgid "Success"
+#~ msgstr "成功"
+
+#~ msgid "Sync preferences"
+#~ msgstr "同步选项"
+
+#~ msgid "Proceed"
+#~ msgstr "继续"
+
+#~ msgid "Your account is ready!"
+#~ msgstr "您的账号已经准备好！"
+
+#~ msgid "Forgot password"
+#~ msgstr "忘记密码"
+
+#~ msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "在您重置密码时，您将丢失任何未存储在您的设备上的同步数据。"
+
+#~ msgid "Email"
+#~ msgstr "电子邮件地址"
+
+#~ msgid "Firefox Accounts"
+#~ msgstr "Firefox 账号"
+
+#~ msgid "Sign out"
+#~ msgstr "退出"
+
+#~ msgid "Continue to %(serviceName)s"
+#~ msgstr "继续前往 %(serviceName)s"
+
+#~ msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
+#~ msgstr "登录以迁移您的同步数据到 Firefox 账号。"
+
+#~ msgid "Use a different account"
+#~ msgstr "使用另一个账号"
+
+#~ msgid "Create an account"
+#~ msgstr "创建账号"
+
+#~ msgid "Create a Firefox Account"
+#~ msgstr "创建 Firefox 账号"
+
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
+#~ msgstr "在找 Firefox 同步？<a href=\"https://mozilla.org/firefox/sync\">从这里开始</a>。"
+
+#~ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
+#~ msgstr "创建一个 Firefox 账号以迁移您的同步数据。"
+
+#~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+#~ msgstr "已有另一个邮件地址的账号？<a href=\"%(signinUri)s\">登录</a>"
+
+#~ msgid "Send me the monthly Firefox newsletter."
+#~ msgstr "每月给我发送 Firefox 新闻报。"
+
+#~ msgid "Create account"
+#~ msgstr "创建账号"
+
+#~ msgid "Have an account? Sign in."
+#~ msgstr "已有账号？登录。"
+
+#~ msgid "Change"
+#~ msgstr "更改"
+
+#~ msgid "Add"
+#~ msgstr "添加"
+
+#~ msgid "Take picture"
+#~ msgstr "拍照"
+
+#~ msgid "Upload"
+#~ msgstr "上传"
+
+#~ msgid "Camera"
+#~ msgstr "摄像头"
+
+#~ msgid "Gravatar"
+#~ msgstr "Gravatar"
+
+#~ msgid "Clear"
+#~ msgstr "清除"
+
+#~ msgid "Done"
+#~ msgstr "完成"
+
+#~ msgid "Position and rotate your picture as needed"
+#~ msgstr "根据您的需要旋转和调整照片的位置"
+
+#~ msgid "Save"
+#~ msgstr "保存"
+
+#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
+#~ msgstr "完成操作后，您就能在您的所有设备上使用新密码登录了。"
+
+#~ msgid "Old password"
+#~ msgstr "旧密码"
+
+#~ msgid "Communication preferences"
+#~ msgstr "通信偏好"
+
+#~ msgid "Email preferences"
+#~ msgstr "电子邮件偏好"
+
+#~ msgid "Unsubscribe"
+#~ msgstr "退订"
+
+#~ msgid "Subscribe"
+#~ msgstr "订阅"
+
+#~ msgid "Delete account"
+#~ msgstr "删除账号"
+
+#~ msgid "Delete"
+#~ msgstr "删除"
+
+#~ msgid "Are you sure you want to delete your account? This action cannot be undone."
+#~ msgstr "您确认要删除自己的账号？这个操作无法撤销。"
+
+#~ msgid "Devices"
+#~ msgstr "设备"
+
+#~ msgid ""
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox 可以在 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> 以及 <a href=\"%(linkLinux)s"
+#~ "\">Linux</a> 上使用。"
+
+#~ msgid "You can manage your devices below."
+#~ msgstr "您可以在下面管理您的设备。"
+
+#~ msgid "current device"
+#~ msgstr "当前设备"
+
+#~ msgid "Disconnect"
+#~ msgstr "断开"
+
+#~ msgid "Don't see all your devices?"
+#~ msgstr "没看到您的所有设备？"
+
+#~ msgid "Refresh"
+#~ msgstr "刷新"
+
+#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
+#~ msgstr "请选择您想要在 Firefox 和管理账号时显示的名称。"
+
+#~ msgid "How old are you?"
+#~ msgstr "您目前多少岁？"
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "登录到同步"
+
+#~ msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
+#~ msgstr "选择您想与其同步标签页、书签、密码等信息的账号。"
+
+#~ msgid "Use OpenID"
+#~ msgstr "使用 OpenID"
+
+#~ msgid "Use Firefox Account"
+#~ msgstr "使用 Firefox 账号"
 
 #~ msgid "Account unlocked, please try again"
 #~ msgstr "账号已解锁，请再试一次"
@@ -1242,7 +1138,9 @@ msgstr "使用 Firefox 账号"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "已有账号？登录。"
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr "继续则代表我同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos\" href=\"%(termsUri)s\">服务条款</a> 和 <a id=\"service-pp\" href=\"%(privacyUri)s\">隐私声明</a>。"
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."

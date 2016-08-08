@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-25 20:11+0000\n"
+"POT-Creation-Date: 2016-08-08 20:06+0000\n"
 "PO-Revision-Date: 2016-08-05 18:34+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1423490224.0\n"
 
-#: .es5/scripts/views/complete_reset_password.js:123 .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:130 .es5/scripts/views/confirm_reset_password.js:177
+#: .es5/scripts/views/complete_reset_password.js:124 .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:131 .es5/scripts/views/confirm_reset_password.js:177
 msgid "Account verified successfully"
 msgstr "حساب با موفقیت تایید شد"
 
@@ -35,11 +35,11 @@ msgstr "%(permissionName)s (لازم است)"
 msgid "Email address"
 msgstr "آدرس پست‌الکترونیکی"
 
-#: .es5/scripts/views/permissions.js:35 .es5/scripts/templates/settings/display_name.mustache:1 .es5/scripts/templates/settings/display_name.mustache:4
+#: .es5/scripts/views/permissions.js:35
 msgid "Display name"
 msgstr "نمایش نام"
 
-#: .es5/scripts/views/permissions.js:38 .es5/scripts/templates/settings/avatar.mustache:1
+#: .es5/scripts/views/permissions.js:38
 msgid "Account picture"
 msgstr "تصویرِ حساب"
 
@@ -59,7 +59,7 @@ msgstr "هم‌گام‌سازی فایرفاکس لحظاتی دیگر ادام
 msgid "Sign-in confirmed"
 msgstr "ورود تایید شد"
 
-#: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55 .es5/scripts/templates/ready.mustache:5
+#: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55
 msgid "You are now ready to use %(serviceName)s"
 msgstr "حالا شما برای استفاده از %(serviceName)s آماده هستید"
 
@@ -67,7 +67,7 @@ msgstr "حالا شما برای استفاده از %(serviceName)s آماده 
 msgid "Account verified"
 msgstr "حساب تایید شد"
 
-#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:151
+#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:152
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "حساب ناشناس. <a href=\"/signup\">ثبت‌نام</a>"
 
@@ -83,7 +83,7 @@ msgstr "حساب از قبل وجود دارد. <a href=\"/signin\">وارد ش�
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "با کسب اجازه از <a href=\"https://www.gravatar.com\">گراواتار</a>"
 
-#: .es5/scripts/views/settings/change_password.js:39
+#: .es5/scripts/views/settings/change_password.js:47
 msgid "Password changed successfully"
 msgstr "گذرواژه با موفقیت تغییر کرد"
 
@@ -100,42 +100,42 @@ msgid "Account deleted successfully"
 msgstr "حساب با موفقیت حذف شد"
 
 #: .es5/scripts/views/settings/devices.js:28
-msgid "days ago"
-msgstr "روز قبل"
+msgid "Last active: days ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:29
-msgid "hours ago"
-msgstr "ساعت قبل"
+msgid "Last active: hours ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:30
-msgid "minutes ago"
-msgstr "دقیقه قبل"
+msgid "Last active: minutes ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:31
-msgid "months ago"
-msgstr "ماه قبل"
+msgid "Last active: months ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:32
-msgid "seconds ago"
-msgstr "ثانیه قبل"
+msgid "Last active: seconds ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:34
-msgid "weeks ago"
-msgstr "هفته قبل"
+msgid "Last active: weeks ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:35
-msgid "years ago"
-msgstr "سال قبل"
+msgid "Last active: years ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/display_name.js:50
 msgid "Display name updated"
 msgstr "نمایش نام به روز شد"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/lib/auth-errors.js:107
+#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/lib/auth-errors.js:107
 msgid "Your account has been locked for security reasons"
 msgstr "حساب شما به دلایل امنیتی قفل شده است"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/templates/reset_password.mustache:6
+#: .es5/scripts/views/mixins/account-reset-mixin.js:41
 msgid "Reset password"
 msgstr "بازنشانی گذرواژه"
 
@@ -159,7 +159,7 @@ msgstr "باز کردن Outlook"
 msgid "8 characters minimum, but longer if you plan to sync passwords."
 msgstr "حداقل ۸ کاراکتر، اما بیشتر اگر می‌خواهید گذرواژه‌های خود را همگام‌سازی کنید."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/templates/sign_up.mustache:18
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:22
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "یک گذرواژه یکتا و قوی می‌توانید اطلاعات فایرفاکس شما را از مزاحمان در امان نگه دارد."
 
@@ -171,7 +171,7 @@ msgstr "این یک گذرواژه معمولی است؛ لطفا سعی کنی�
 msgid "Signed out successfully"
 msgstr "با موفقیت خارج شد"
 
-#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:76 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
+#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:79 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
 #: .es5/scripts/lib/profile-errors.js:47 .es5/scripts/lib/require-on-demand.js:33 .es5/scripts/lib/require-on-demand.js:37 .es5/scripts/lib/require-on-demand.js:41
 #: .es5/scripts/lib/require-on-demand.js:45
 msgid "Unexpected error"
@@ -253,7 +253,7 @@ msgstr "کارگزار مشغول است، کمی بعد مجددا تلاش ک�
 msgid "This endpoint is no longer supported"
 msgstr "از این مقصد دیگر پشتیبانی نمی‌شود"
 
-#: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:72 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
+#: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:75 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
 #: .es5/scripts/lib/oauth-errors.js:80 .es5/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "سیستم در دسترس نیست، کمی بعد مجددا تلاش کنید"
@@ -290,7 +290,7 @@ msgstr "امکان دریافت قوانین استفاده از سرویس نب
 msgid "Your new password must be different"
 msgstr "گذرواژه جدید شما باید متفاوت باشد"
 
-#: .es5/scripts/lib/auth-errors.js:155 .es5/scripts/templates/complete_reset_password.mustache:15 .es5/scripts/templates/settings/change_password.mustache:9
+#: .es5/scripts/lib/auth-errors.js:155
 msgid "Must be at least 8 characters"
 msgstr "حداقل باید دارای ۸ حرف باشد"
 
@@ -326,11 +326,11 @@ msgstr "یک ایمیل معتبر وارد کنید. firefox.com سرویس ا�
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "حساب‌های فایرفاکس تنها می‌توانند در یک IFRAME در سایت‌های تایید شده قرار بگیرند"
 
-#: .es5/scripts/lib/auth-errors.js:228 .es5/scripts/templates/complete_sign_up.mustache:3
+#: .es5/scripts/lib/auth-errors.js:228
 msgid "The link you clicked to verify your email is expired."
 msgstr "پیوندی که برای تایید ایمیل خود روی آن کلیک کردید منقضی شده است."
 
-#: .es5/scripts/lib/auth-errors.js:232 .es5/scripts/templates/complete_sign_up.mustache:7
+#: .es5/scripts/lib/auth-errors.js:232
 msgid "Verification link damaged"
 msgstr "پیوندِ تایید معیوب است"
 
@@ -439,7 +439,9 @@ msgid "Firefox Sync"
 msgstr "بهنگام‌سازی فایرفاکس"
 
 #: .es5/scripts/lib/strings.js:17
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "با ادامه دادن شما<a id=\"service-tos\" href=\"%(termsUri)s\">شرایط استفاده از سرویس</a>و<a id=\"service-pp\" href=\"%(privacyUri)s\">اطلاعیه‌ی حریم‌خصوصی</a>مربوط به %(serviceName)s "
 "(%(serviceUri)s)را می‌پذیرید."
@@ -468,489 +470,382 @@ msgstr "آدرس IP: %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "برای امنیت بیشتر، لطفا این ورود را تایید کنید تا همگام‌سازی با این دستگاه آغاز شود:"
 
-#: .es5/scripts/templates/400.mustache:1
-msgid "Bad Request"
-msgstr "درخواست بد"
-
-#: .es5/scripts/templates/500.mustache:1
-msgid "500 Error"
-msgstr "خطا ۵۰۰"
-
-#: .es5/scripts/templates/500.mustache:2
-msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "اوه عزیزم، یک اشتباهی رُخ داده. ما مطلع شدیم و در روی یک اصلاحیه کار خواهیم کرد."
-
-#: .es5/scripts/templates/cannot_create_account.mustache:1
-msgid "Cannot create account"
-msgstr "نمی‌توان حساب کاربری ایجاد کرد"
-
-#: .es5/scripts/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr "برای ساخت حساب فایرفاکس باید به سن مشخصی&nbsp;رسیده باشید."
-
-#: .es5/scripts/templates/cannot_create_account.mustache:4
-msgid "Learn more."
-msgstr "اطلاعات بیشتر."
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:1 .es5/scripts/templates/sign_up.mustache:24
-msgid "Choose what to sync"
-msgstr "انتخاب کنید که چه چیزهایی همگام‌ شوند"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:2
-msgid "Tabs"
-msgstr "زبانه‌ها"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:4
-msgid "Bookmarks"
-msgstr "نشانک‌ها"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:6
-msgid "Add-ons"
-msgstr "افزودنی‌ها"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:8
-msgid "Passwords"
-msgstr "گذرواژه‌ها"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:10
-msgid "History"
-msgstr "تاریخچه"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:12
-msgid "Preferences"
-msgstr "ترجیحات"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:14
-msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr "در حال حاضر افزودنی‌ها و ترجیحات بر روی دستگاه‌های موبایل همگام نمی‌شوند."
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:15
-msgid "Save settings"
-msgstr "ذخیره تنظیمات"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:16 .es5/scripts/templates/confirm.mustache:13 .es5/scripts/templates/pp.mustache:3 .es5/scripts/templates/tos.mustache:3
-msgid "Back"
-msgstr "بازگشت"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:1
-msgid "Reset password link expired"
-msgstr "لینک بازنشانی گذوراژه منقضی شده است"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:2 .es5/scripts/templates/complete_sign_up.mustache:2 .es5/scripts/templates/confirm.mustache:5
-#: .es5/scripts/templates/confirm_reset_password.mustache:2
-msgid "Email resent"
-msgstr "ارسال مجدد پست‌الکترونیکی"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:3
-msgid "The link you clicked to reset your password is expired."
-msgstr "پیوندی که برای بازنشانی گذرواژه بر روی آن کلیک کردید منقضی شده است."
-
-#: .es5/scripts/templates/complete_reset_password.mustache:4
-msgid "Click here to receive a new reset link"
-msgstr "برای دریافت پیوند جدید بازنشانی اینجا را کلیک کنید"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:6
-msgid "Reset password link damaged"
-msgstr "بازنشانی گذرواژه"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:7 .es5/scripts/templates/complete_sign_up.mustache:8
-msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "تعدادی از حروف پیوندی که بر روی آن کلیک کردید حذف شده‌اند، و ممکن است توسط کارگیر ایمیل شما خراب شده باشند. با دقت از آدرس رونوشت بگیرید، و مجددا تلاش کنید."
-
-#: .es5/scripts/templates/complete_reset_password.mustache:9
-msgid "Enter new password"
-msgstr "یک گذرواژه جدید وارد کنید"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:10
-msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-msgstr "زمانی که گذرواژه جدید خود را ثبت کنید، شما هرگونه اطلاعات همگام شده‌ای که در یکی از دستگاه‌های شما نباشد را از دست خواهید."
-
-#: .es5/scripts/templates/complete_reset_password.mustache:11 .es5/scripts/templates/reset_password.mustache:3
-msgid "Learn how Sync works."
-msgstr "یاد بگیرید همگام‌سازی چگونه کار می‌کند."
-
-#: .es5/scripts/templates/complete_reset_password.mustache:13 .es5/scripts/templates/settings/change_password.mustache:7
-msgid "New password"
-msgstr "گذرواژه جدید"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:14 .es5/scripts/templates/complete_reset_password.mustache:17 .es5/scripts/templates/force_auth.mustache:5
-#: .es5/scripts/templates/sign_in.mustache:9 .es5/scripts/templates/sign_in.mustache:21 .es5/scripts/templates/sign_up.mustache:17 .es5/scripts/templates/settings/change_password.mustache:5
-#: .es5/scripts/templates/settings/change_password.mustache:8 .es5/scripts/templates/settings/delete_account.mustache:5 .es5/scripts/templates/settings/devices.mustache:3
-msgid "Show"
-msgstr "نمایش"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:16
-msgid "Repeat password"
-msgstr "تکرار گذرواژه"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:18
-msgid "Submit new password"
-msgstr "ثبت گذرواژه جدید"
-
-#: .es5/scripts/templates/complete_sign_up.mustache:1
-msgid "Verification link expired"
-msgstr "پیوندِ تایید منقضی شده است"
-
-#: .es5/scripts/templates/complete_sign_up.mustache:4
-msgid "Click here to receive a new verification link"
-msgstr "برای دریافت یک ایمیلِ جدیدِ تایید اینجا را کلیک کنید"
-
-#: .es5/scripts/templates/complete_sign_up.mustache:10
-msgid "Verification error"
-msgstr "خطای تایید"
-
-#: .es5/scripts/templates/confirm.mustache:1
-msgid "Confirm your account"
-msgstr "حساب خود را تایید کنید"
-
-#: .es5/scripts/templates/confirm.mustache:3
-msgid "Confirm this sign-in"
-msgstr "تایید این ورود"
-
-#: .es5/scripts/templates/confirm.mustache:6 .es5/scripts/templates/confirm_reset_password.mustache:3
-msgid "Email Sent"
-msgstr "پست الکترونیکی ارسال شد"
-
-#: .es5/scripts/templates/confirm.mustache:7
-msgid "A verification link has been sent&nbsp;to %(email)s"
-msgstr "یک ایمیل حاوی پیوند تایید به آدرس %(email)s ارسال شده است"
-
-#: .es5/scripts/templates/confirm.mustache:9
-msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr "برای محافظت بیشتر از داده های فایرفاکس،‌ما به شما پیوند تاییدیه به %(email)s به پست‌الکترونیکی شما ارسال می‌کنیم"
-
-#: .es5/scripts/templates/confirm.mustache:12 .es5/scripts/templates/confirm.mustache:14
-msgid "Didn't arrive? Resend"
-msgstr "دریافت نشد؟ ارسال مجدد"
-
-#: .es5/scripts/templates/confirm_reset_password.mustache:1
-msgid "Reset email sent"
-msgstr "ایمیل بازنشانی ارسال شد"
-
-#: .es5/scripts/templates/confirm_reset_password.mustache:4
-msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-msgstr "بر روی پیوندی که برای شما به %(email)s در یک ساعت آینده ارسال می‌شود کلیک کنید تا یک گذرواژه جدید بسازید."
-
-#: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:7
-#: .es5/scripts/templates/reset_password.mustache:9
-msgid "Remember password? Sign in."
-msgstr "به یاد سپردن گذرواژه؟ وارد شوید."
-
-#: .es5/scripts/templates/confirm_reset_password.mustache:9
-msgid "Resend email"
-msgstr "ارسال دوباره ایمیل"
-
-#: .es5/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required."
-msgstr "کوکی‌ها و فضای ذخیره‌سازی محلی لازم هستند."
-
-#: .es5/scripts/templates/cookies_disabled.mustache:2
-msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "لطفا کوکی‌ها و فضای ذخیره‌سازی محلی را در مرورگر خود فعال کنید تا بتوانید از «حساب فایرفاکس» استفاده کنید. اینکار اعمالی مانند بخاطر سپردن شما بین نشست‌های مختلف را ممکن می‌کند."
-
-#: .es5/scripts/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "اطلاعات بیشتر"
-
-#: .es5/scripts/templates/cookies_disabled.mustache:4
-msgid "Try again"
-msgstr "تلاش دوباره"
-
-#: .es5/scripts/templates/force_auth.mustache:1
-msgid "Sign in to continue"
-msgstr "برای ادامه وارد شوید"
-
-#: .es5/scripts/templates/force_auth.mustache:3 .es5/scripts/templates/sign_in.mustache:8 .es5/scripts/templates/sign_in.mustache:19 .es5/scripts/templates/sign_up.mustache:15
-#: .es5/scripts/templates/settings/change_password.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:4
-msgid "Password"
-msgstr "گذرواژه"
-
-#: .es5/scripts/templates/force_auth.mustache:6 .es5/scripts/templates/sign_in.mustache:1 .es5/scripts/templates/sign_in.mustache:4 .es5/scripts/templates/sign_in.mustache:10
-#: .es5/scripts/templates/sign_in.mustache:14 .es5/scripts/templates/sign_in.mustache:22
-msgid "Sign in"
-msgstr "ورود"
-
-#: .es5/scripts/templates/force_auth.mustache:7 .es5/scripts/templates/sign_in.mustache:11 .es5/scripts/templates/sign_in.mustache:23 .es5/scripts/templates/settings/change_password.mustache:6
-msgid "Forgot password?"
-msgstr "گذرواژه را فراموش کرده اید؟"
-
-#: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "با ادامه دادن، شما با <a id=\"fxa-tos\" href=\"/legal/terms\">قوانین استفاده از سرویس</a> و <a id=\"fxa-pp\" href=\"/legal/privacy\">اطلاعیه حریم‌خصوصی</a> سرویس‌های ابری فایرفاکس را می‌پذیرید."
-
-#: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
-msgid "Firefox cloud services"
-msgstr "سرویس‌های ابری فایرفاکس"
-
-#: .es5/scripts/templates/legal.mustache:2
-msgid "Legal"
-msgstr "حقوقی"
-
-#: .es5/scripts/templates/legal.mustache:3 .es5/scripts/templates/settings.mustache:5 .es5/scripts/templates/tos.mustache:2
-msgid "Terms of Service"
-msgstr "قوانین استفاده از سرویس"
-
-#: .es5/scripts/templates/legal.mustache:4 .es5/scripts/templates/pp.mustache:2 .es5/scripts/templates/settings.mustache:6
-msgid "Privacy Notice"
-msgstr "اطلاعیه حریم‌شخصی"
-
-#: .es5/scripts/templates/marketing_snippet.mustache:1
-msgid "Stay in sync on the go:"
-msgstr "همواره بهنگام باشید:"
-
-#: .es5/scripts/templates/marketing_snippet.mustache:2
-msgid "Get Firefox for Android"
-msgstr "فایرفاکس برای اندروید را دریافت کنید"
-
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:1 .es5/scripts/templates/marketing_snippet_ios.mustache:5 .es5/scripts/templates/marketing_snippet_ios.mustache:9
-msgid "Get the full Sync experience."
-msgstr "تجربه بهنگام‌سازی کامل را داشته باشید."
-
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:2 .es5/scripts/templates/marketing_snippet_ios.mustache:3 .es5/scripts/templates/marketing_snippet_ios.mustache:12
-msgid "Download Firefox for iOS!"
-msgstr "فایرفاکس را برای iOS دریافت کنید!"
-
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:6 .es5/scripts/templates/marketing_snippet_ios.mustache:7 .es5/scripts/templates/marketing_snippet_ios.mustache:11
-msgid "Download Firefox for Android."
-msgstr "بارگیری فایرفاکس برای اندروید."
-
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:10
-msgid "Download Firefox for mobile devices."
-msgstr "دریافت فایرفاکس برای دستگاه‌های همراه."
-
-#: .es5/scripts/templates/permissions.mustache:1 .es5/scripts/templates/settings/gravatar_permissions.mustache:1
-msgid "Request for permission"
-msgstr "درخواست برای مجوز"
-
-#: .es5/scripts/templates/permissions.mustache:2 .es5/scripts/templates/settings/gravatar_permissions.mustache:2
-msgid "%(serviceName)s wants the following information from your account:"
-msgstr "%(serviceName)s اطلاعات مقابل را از حساب شما می‌خواهد:"
-
-#: .es5/scripts/templates/permissions.mustache:3 .es5/scripts/templates/settings/gravatar_permissions.mustache:4
-msgid "Accept"
-msgstr "تایید"
-
-#: .es5/scripts/templates/permissions.mustache:4 .es5/scripts/templates/settings/avatar_camera.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:3
-#: .es5/scripts/templates/settings/avatar_gravatar.mustache:3 .es5/scripts/templates/settings/change_password.mustache:11 .es5/scripts/templates/settings/communication_preferences.mustache:5
-#: .es5/scripts/templates/settings/communication_preferences.mustache:13 .es5/scripts/templates/settings/delete_account.mustache:7 .es5/scripts/templates/settings/display_name.mustache:6
-#: .es5/scripts/templates/settings/gravatar_permissions.mustache:5
-msgid "Cancel"
-msgstr "لغو"
-
-#: .es5/scripts/templates/ready.mustache:1
-msgid "Success"
-msgstr "موفقیت"
-
-#: .es5/scripts/templates/ready.mustache:2
-msgid "Sync preferences"
-msgstr "ترجیحات هم‌گام‌سازی"
-
-#: .es5/scripts/templates/ready.mustache:6
-msgid "Proceed"
-msgstr "ادامه"
-
-#: .es5/scripts/templates/ready.mustache:9
-msgid "Your account is ready!"
-msgstr "حساب شما آماده است!"
-
-#: .es5/scripts/templates/reset_password.mustache:1
-msgid "Forgot password"
-msgstr "فراموشی گذرواژه"
-
-#: .es5/scripts/templates/reset_password.mustache:2
-msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr "هنگامی که گذرواژه خود را مجددا تنظیم می‌کنید، اطلاعات همگام شده‌ای که در حداقل یکی از دستگاه‌های شما نباشد را از دست خواهید داد."
-
-#: .es5/scripts/templates/reset_password.mustache:5 .es5/scripts/templates/sign_in.mustache:18 .es5/scripts/templates/sign_up.mustache:13
-#: .es5/scripts/templates/settings/gravatar_permissions.mustache:3
-msgid "Email"
-msgstr "پست الکترونیکی"
-
-#: .es5/scripts/templates/settings.mustache:1
-msgid "Firefox Accounts"
-msgstr "حساب‌های فایرفاکس"
-
-#: .es5/scripts/templates/settings.mustache:2
-msgid "Sign out"
-msgstr "خروج"
-
-#: .es5/scripts/templates/sign_in.mustache:2 .es5/scripts/templates/sign_up.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "ادامه دهید به %(serviceName)s"
-
-#: .es5/scripts/templates/sign_in.mustache:6
-msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr "داده‌های بهنگام‌سازی خود را با ورود به حساب فایرفاکس&nbsp;منتقل کنید."
-
-#: .es5/scripts/templates/sign_in.mustache:12 .es5/scripts/templates/sign_in.mustache:15
-msgid "Use a different account"
-msgstr "از یک حساب دیگر استفاده کنید"
-
-#: .es5/scripts/templates/sign_in.mustache:24
-msgid "Create an account"
-msgstr "ایجاد یک حساب"
-
-#: .es5/scripts/templates/sign_up.mustache:1 .es5/scripts/templates/sign_up.mustache:4
-msgid "Create a Firefox Account"
-msgstr "ایجاد یک حساب فایرفاکس"
-
-#: .es5/scripts/templates/sign_up.mustache:6
-msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
-msgstr "دنبال همگام‌سازی فایرفاکس می‌گردید؟ <a href=\"https://mozilla.org/firefox/sync\">اینجا شروع کنید.</a>"
-
-#: .es5/scripts/templates/sign_up.mustache:8
-msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr "داده‌های بهنگام‌سازی خود را با ایجاد یک حساب جدید فایرفاکس&nbsp;منتقل کنید."
-
-#: .es5/scripts/templates/sign_up.mustache:10
-msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
-msgstr "یک حساب با رایانامه متفاوت دارید؟ <a href=\"%(signinUri)s\">وارد شوید</a>"
-
-#: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
-msgid "Send me the monthly Firefox newsletter."
-msgstr "خبرنامه ماهانه فایرفاکس برای من ارسال شود."
-
-#: .es5/scripts/templates/sign_up.mustache:22
-msgid "Create account"
-msgstr "ایجاد حساب کاربری"
-
-#: .es5/scripts/templates/sign_up.mustache:27
-msgid "Have an account? Sign in."
-msgstr "حساب کاربری دارید؟ ثبت ‌نام کنید."
-
-#: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2
-#: .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/communication_preferences.mustache:4 .es5/scripts/templates/settings/display_name.mustache:2
-#: .es5/scripts/templates/settings/display_name.mustache:5
-msgid "Change"
-msgstr "تغییر"
-
-#: .es5/scripts/templates/settings/avatar.mustache:4
-msgid "Add"
-msgstr "اضافه کردن"
-
-#: .es5/scripts/templates/settings/avatar_camera.mustache:1
-msgid "Take picture"
-msgstr "عکس بگیرید"
-
-#: .es5/scripts/templates/settings/avatar_change.mustache:1
-msgid "Upload"
-msgstr "بارگذاری"
-
-#: .es5/scripts/templates/settings/avatar_change.mustache:2
-msgid "Camera"
-msgstr "دوربین"
-
-#: .es5/scripts/templates/settings/avatar_change.mustache:3
-msgid "Gravatar"
-msgstr "Gravatar"
-
-#: .es5/scripts/templates/settings/avatar_change.mustache:4
-msgid "Clear"
-msgstr "پاک کردن"
-
-#: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/devices.mustache:12
-msgid "Done"
-msgstr "انجام شد"
-
-#: .es5/scripts/templates/settings/avatar_crop.mustache:1
-msgid "Position and rotate your picture as needed"
-msgstr "مکان و چرخش تصویر خود را در صورت نیاز تغییر دهید"
-
-#: .es5/scripts/templates/settings/avatar_gravatar.mustache:2
-msgid "Save"
-msgstr "ذخیره"
-
-#: .es5/scripts/templates/settings/change_password.mustache:3
-msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "هنگامی که کار شما پایان یافت، از گذرواژه‌ی جدید برای ورود به تمام دستگاه‌هایتان استفاده کنید."
-
-#: .es5/scripts/templates/settings/change_password.mustache:4
-msgid "Old password"
-msgstr "گذرواژه پیشین"
-
-#: .es5/scripts/templates/settings/communication_preferences.mustache:3
-msgid "Communication preferences"
-msgstr "ترجیحات ارتباطات"
-
-#: .es5/scripts/templates/settings/communication_preferences.mustache:8
-msgid "Email preferences"
-msgstr "ترجیحات ایمیل"
-
-#: .es5/scripts/templates/settings/communication_preferences.mustache:10
-msgid "Unsubscribe"
-msgstr "لغو عضویت"
-
-#: .es5/scripts/templates/settings/communication_preferences.mustache:12
-msgid "Subscribe"
-msgstr "عضویت"
-
-#: .es5/scripts/templates/settings/delete_account.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:6
-msgid "Delete account"
-msgstr "حذف حساب"
-
-#: .es5/scripts/templates/settings/delete_account.mustache:2
-msgid "Delete"
-msgstr "حذف"
-
-#: .es5/scripts/templates/settings/delete_account.mustache:3
-msgid "Are you sure you want to delete your account? This action cannot be undone."
-msgstr "آیا مطمئن هستید که می‌خواهید حساب خود را حذف کنید؟ این عمل قابل برگشت نیست."
-
-#: .es5/scripts/templates/settings/devices.mustache:2
-msgid "Devices"
-msgstr "دستگاه‌ها"
-
-#: .es5/scripts/templates/settings/devices.mustache:4
-msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-"href=\"%(linkLinux)s\">Linux</a>."
-msgstr ""
-"فایرفاکس برای <a href=\"%(linkWindows)s\">ویندوز</a>، <a href=\"%(linkOSX)s\">OS X</a>، <a href=\"%(linkAndroid)s\">اندروید</a>، <a href=\"%(linkIOS)s\">iOS</a> و <a "
-"href=\"%(linkLinux)s\">لینوکس</a> در دسترس است."
-
-#: .es5/scripts/templates/settings/devices.mustache:5
-msgid "You can manage your devices below."
-msgstr "شما می‌توانید دستگاه‌های خود را در زیر مدیریت کنید."
-
-#: .es5/scripts/templates/settings/devices.mustache:6
-msgid "current device"
-msgstr "دستگاه فعلی"
-
-#: .es5/scripts/templates/settings/devices.mustache:8
-msgid "Disconnect"
-msgstr "قطع تماس"
-
-#: .es5/scripts/templates/settings/devices.mustache:10
-msgid "Don't see all your devices?"
-msgstr "تمام دستگاه‌های خود را نمی‌بینید؟"
-
-#: .es5/scripts/templates/settings/devices.mustache:11
-msgid "Refresh"
-msgstr "نوسازی"
-
-#: .es5/scripts/templates/settings/display_name.mustache:3
-msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr "انتخاب یک نام دلخواه جهت نمایش در هنگام مدیریت حساب کاربری خود در فایرفاکس."
-
-#: .es5/scripts/templates/partial/coppa-age-input.mustache:1
-msgid "How old are you?"
-msgstr "چند سال سن دارید؟"
-
-#: .es5/scripts/templates/openid/start.mustache:1
-msgid "Sign in to Sync"
-msgstr "وارد شدن به هم‌گام‌سازی"
-
-#: .es5/scripts/templates/openid/start.mustache:2
-msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-msgstr "حسابی که می‌خواهید برای هم‌گام‌سازی زبانه‌ها، نشانک‌ها، گذرواژه‌ها و غیره خود از آن استفاده کنید را وارد کنید."
-
-#: .es5/scripts/templates/openid/start.mustache:3
-msgid "Use OpenID"
-msgstr "استفاده از OpenID"
-
-#: .es5/scripts/templates/openid/start.mustache:4
-msgid "Use Firefox Account"
-msgstr "استفاده از حساب فایرفاکس"
+#~ msgid "days ago"
+#~ msgstr "روز قبل"
+
+#~ msgid "hours ago"
+#~ msgstr "ساعت قبل"
+
+#~ msgid "minutes ago"
+#~ msgstr "دقیقه قبل"
+
+#~ msgid "months ago"
+#~ msgstr "ماه قبل"
+
+#~ msgid "seconds ago"
+#~ msgstr "ثانیه قبل"
+
+#~ msgid "weeks ago"
+#~ msgstr "هفته قبل"
+
+#~ msgid "years ago"
+#~ msgstr "سال قبل"
+
+#~ msgid "Bad Request"
+#~ msgstr "درخواست بد"
+
+#~ msgid "500 Error"
+#~ msgstr "خطا ۵۰۰"
+
+#~ msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+#~ msgstr "اوه عزیزم، یک اشتباهی رُخ داده. ما مطلع شدیم و در روی یک اصلاحیه کار خواهیم کرد."
+
+#~ msgid "Cannot create account"
+#~ msgstr "نمی‌توان حساب کاربری ایجاد کرد"
+
+#~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
+#~ msgstr "برای ساخت حساب فایرفاکس باید به سن مشخصی&nbsp;رسیده باشید."
+
+#~ msgid "Learn more."
+#~ msgstr "اطلاعات بیشتر."
+
+#~ msgid "Choose what to sync"
+#~ msgstr "انتخاب کنید که چه چیزهایی همگام‌ شوند"
+
+#~ msgid "Tabs"
+#~ msgstr "زبانه‌ها"
+
+#~ msgid "Bookmarks"
+#~ msgstr "نشانک‌ها"
+
+#~ msgid "Add-ons"
+#~ msgstr "افزودنی‌ها"
+
+#~ msgid "Passwords"
+#~ msgstr "گذرواژه‌ها"
+
+#~ msgid "History"
+#~ msgstr "تاریخچه"
+
+#~ msgid "Preferences"
+#~ msgstr "ترجیحات"
+
+#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
+#~ msgstr "در حال حاضر افزودنی‌ها و ترجیحات بر روی دستگاه‌های موبایل همگام نمی‌شوند."
+
+#~ msgid "Save settings"
+#~ msgstr "ذخیره تنظیمات"
+
+#~ msgid "Back"
+#~ msgstr "بازگشت"
+
+#~ msgid "Reset password link expired"
+#~ msgstr "لینک بازنشانی گذوراژه منقضی شده است"
+
+#~ msgid "Email resent"
+#~ msgstr "ارسال مجدد پست‌الکترونیکی"
+
+#~ msgid "The link you clicked to reset your password is expired."
+#~ msgstr "پیوندی که برای بازنشانی گذرواژه بر روی آن کلیک کردید منقضی شده است."
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "برای دریافت پیوند جدید بازنشانی اینجا را کلیک کنید"
+
+#~ msgid "Reset password link damaged"
+#~ msgstr "بازنشانی گذرواژه"
+
+#~ msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
+#~ msgstr "تعدادی از حروف پیوندی که بر روی آن کلیک کردید حذف شده‌اند، و ممکن است توسط کارگیر ایمیل شما خراب شده باشند. با دقت از آدرس رونوشت بگیرید، و مجددا تلاش کنید."
+
+#~ msgid "Enter new password"
+#~ msgstr "یک گذرواژه جدید وارد کنید"
+
+#~ msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "زمانی که گذرواژه جدید خود را ثبت کنید، شما هرگونه اطلاعات همگام شده‌ای که در یکی از دستگاه‌های شما نباشد را از دست خواهید."
+
+#~ msgid "Learn how Sync works."
+#~ msgstr "یاد بگیرید همگام‌سازی چگونه کار می‌کند."
+
+#~ msgid "New password"
+#~ msgstr "گذرواژه جدید"
+
+#~ msgid "Show"
+#~ msgstr "نمایش"
+
+#~ msgid "Repeat password"
+#~ msgstr "تکرار گذرواژه"
+
+#~ msgid "Submit new password"
+#~ msgstr "ثبت گذرواژه جدید"
+
+#~ msgid "Verification link expired"
+#~ msgstr "پیوندِ تایید منقضی شده است"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "برای دریافت یک ایمیلِ جدیدِ تایید اینجا را کلیک کنید"
+
+#~ msgid "Verification error"
+#~ msgstr "خطای تایید"
+
+#~ msgid "Confirm your account"
+#~ msgstr "حساب خود را تایید کنید"
+
+#~ msgid "Confirm this sign-in"
+#~ msgstr "تایید این ورود"
+
+#~ msgid "Email Sent"
+#~ msgstr "پست الکترونیکی ارسال شد"
+
+#~ msgid "A verification link has been sent&nbsp;to %(email)s"
+#~ msgstr "یک ایمیل حاوی پیوند تایید به آدرس %(email)s ارسال شده است"
+
+#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+#~ msgstr "برای محافظت بیشتر از داده های فایرفاکس،‌ما به شما پیوند تاییدیه به %(email)s به پست‌الکترونیکی شما ارسال می‌کنیم"
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "دریافت نشد؟ ارسال مجدد"
+
+#~ msgid "Reset email sent"
+#~ msgstr "ایمیل بازنشانی ارسال شد"
+
+#~ msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
+#~ msgstr "بر روی پیوندی که برای شما به %(email)s در یک ساعت آینده ارسال می‌شود کلیک کنید تا یک گذرواژه جدید بسازید."
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "به یاد سپردن گذرواژه؟ وارد شوید."
+
+#~ msgid "Resend email"
+#~ msgstr "ارسال دوباره ایمیل"
+
+#~ msgid "Cookies and local storage are required."
+#~ msgstr "کوکی‌ها و فضای ذخیره‌سازی محلی لازم هستند."
+
+#~ msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
+#~ msgstr "لطفا کوکی‌ها و فضای ذخیره‌سازی محلی را در مرورگر خود فعال کنید تا بتوانید از «حساب فایرفاکس» استفاده کنید. اینکار اعمالی مانند بخاطر سپردن شما بین نشست‌های مختلف را ممکن می‌کند."
+
+#~ msgid "Learn more"
+#~ msgstr "اطلاعات بیشتر"
+
+#~ msgid "Try again"
+#~ msgstr "تلاش دوباره"
+
+#~ msgid "Sign in to continue"
+#~ msgstr "برای ادامه وارد شوید"
+
+#~ msgid "Password"
+#~ msgstr "گذرواژه"
+
+#~ msgid "Sign in"
+#~ msgstr "ورود"
+
+#~ msgid "Forgot password?"
+#~ msgstr "گذرواژه را فراموش کرده اید؟"
+
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr ""
+#~ "با ادامه دادن، شما با <a id=\"fxa-tos\" href=\"/legal/terms\">قوانین استفاده از سرویس</a> و <a id=\"fxa-pp\" href=\"/legal/privacy\">اطلاعیه حریم‌خصوصی</a> سرویس‌های ابری فایرفاکس را می‌پذیرید."
+
+#~ msgid "Firefox cloud services"
+#~ msgstr "سرویس‌های ابری فایرفاکس"
+
+#~ msgid "Legal"
+#~ msgstr "حقوقی"
+
+#~ msgid "Terms of Service"
+#~ msgstr "قوانین استفاده از سرویس"
+
+#~ msgid "Privacy Notice"
+#~ msgstr "اطلاعیه حریم‌شخصی"
+
+#~ msgid "Stay in sync on the go:"
+#~ msgstr "همواره بهنگام باشید:"
+
+#~ msgid "Get Firefox for Android"
+#~ msgstr "فایرفاکس برای اندروید را دریافت کنید"
+
+#~ msgid "Get the full Sync experience."
+#~ msgstr "تجربه بهنگام‌سازی کامل را داشته باشید."
+
+#~ msgid "Download Firefox for iOS!"
+#~ msgstr "فایرفاکس را برای iOS دریافت کنید!"
+
+#~ msgid "Download Firefox for Android."
+#~ msgstr "بارگیری فایرفاکس برای اندروید."
+
+#~ msgid "Download Firefox for mobile devices."
+#~ msgstr "دریافت فایرفاکس برای دستگاه‌های همراه."
+
+#~ msgid "Request for permission"
+#~ msgstr "درخواست برای مجوز"
+
+#~ msgid "%(serviceName)s wants the following information from your account:"
+#~ msgstr "%(serviceName)s اطلاعات مقابل را از حساب شما می‌خواهد:"
+
+#~ msgid "Accept"
+#~ msgstr "تایید"
+
+#~ msgid "Cancel"
+#~ msgstr "لغو"
+
+#~ msgid "Success"
+#~ msgstr "موفقیت"
+
+#~ msgid "Sync preferences"
+#~ msgstr "ترجیحات هم‌گام‌سازی"
+
+#~ msgid "Proceed"
+#~ msgstr "ادامه"
+
+#~ msgid "Your account is ready!"
+#~ msgstr "حساب شما آماده است!"
+
+#~ msgid "Forgot password"
+#~ msgstr "فراموشی گذرواژه"
+
+#~ msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "هنگامی که گذرواژه خود را مجددا تنظیم می‌کنید، اطلاعات همگام شده‌ای که در حداقل یکی از دستگاه‌های شما نباشد را از دست خواهید داد."
+
+#~ msgid "Email"
+#~ msgstr "پست الکترونیکی"
+
+#~ msgid "Firefox Accounts"
+#~ msgstr "حساب‌های فایرفاکس"
+
+#~ msgid "Sign out"
+#~ msgstr "خروج"
+
+#~ msgid "Continue to %(serviceName)s"
+#~ msgstr "ادامه دهید به %(serviceName)s"
+
+#~ msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
+#~ msgstr "داده‌های بهنگام‌سازی خود را با ورود به حساب فایرفاکس&nbsp;منتقل کنید."
+
+#~ msgid "Use a different account"
+#~ msgstr "از یک حساب دیگر استفاده کنید"
+
+#~ msgid "Create an account"
+#~ msgstr "ایجاد یک حساب"
+
+#~ msgid "Create a Firefox Account"
+#~ msgstr "ایجاد یک حساب فایرفاکس"
+
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
+#~ msgstr "دنبال همگام‌سازی فایرفاکس می‌گردید؟ <a href=\"https://mozilla.org/firefox/sync\">اینجا شروع کنید.</a>"
+
+#~ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
+#~ msgstr "داده‌های بهنگام‌سازی خود را با ایجاد یک حساب جدید فایرفاکس&nbsp;منتقل کنید."
+
+#~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+#~ msgstr "یک حساب با رایانامه متفاوت دارید؟ <a href=\"%(signinUri)s\">وارد شوید</a>"
+
+#~ msgid "Send me the monthly Firefox newsletter."
+#~ msgstr "خبرنامه ماهانه فایرفاکس برای من ارسال شود."
+
+#~ msgid "Create account"
+#~ msgstr "ایجاد حساب کاربری"
+
+#~ msgid "Have an account? Sign in."
+#~ msgstr "حساب کاربری دارید؟ ثبت ‌نام کنید."
+
+#~ msgid "Change"
+#~ msgstr "تغییر"
+
+#~ msgid "Add"
+#~ msgstr "اضافه کردن"
+
+#~ msgid "Take picture"
+#~ msgstr "عکس بگیرید"
+
+#~ msgid "Upload"
+#~ msgstr "بارگذاری"
+
+#~ msgid "Camera"
+#~ msgstr "دوربین"
+
+#~ msgid "Gravatar"
+#~ msgstr "Gravatar"
+
+#~ msgid "Clear"
+#~ msgstr "پاک کردن"
+
+#~ msgid "Done"
+#~ msgstr "انجام شد"
+
+#~ msgid "Position and rotate your picture as needed"
+#~ msgstr "مکان و چرخش تصویر خود را در صورت نیاز تغییر دهید"
+
+#~ msgid "Save"
+#~ msgstr "ذخیره"
+
+#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
+#~ msgstr "هنگامی که کار شما پایان یافت، از گذرواژه‌ی جدید برای ورود به تمام دستگاه‌هایتان استفاده کنید."
+
+#~ msgid "Old password"
+#~ msgstr "گذرواژه پیشین"
+
+#~ msgid "Communication preferences"
+#~ msgstr "ترجیحات ارتباطات"
+
+#~ msgid "Email preferences"
+#~ msgstr "ترجیحات ایمیل"
+
+#~ msgid "Unsubscribe"
+#~ msgstr "لغو عضویت"
+
+#~ msgid "Subscribe"
+#~ msgstr "عضویت"
+
+#~ msgid "Delete account"
+#~ msgstr "حذف حساب"
+
+#~ msgid "Delete"
+#~ msgstr "حذف"
+
+#~ msgid "Are you sure you want to delete your account? This action cannot be undone."
+#~ msgstr "آیا مطمئن هستید که می‌خواهید حساب خود را حذف کنید؟ این عمل قابل برگشت نیست."
+
+#~ msgid "Devices"
+#~ msgstr "دستگاه‌ها"
+
+#~ msgid ""
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "فایرفاکس برای <a href=\"%(linkWindows)s\">ویندوز</a>، <a href=\"%(linkOSX)s\">OS X</a>، <a href=\"%(linkAndroid)s\">اندروید</a>، <a href=\"%(linkIOS)s\">iOS</a> و <a href=\"%(linkLinux)s"
+#~ "\">لینوکس</a> در دسترس است."
+
+#~ msgid "You can manage your devices below."
+#~ msgstr "شما می‌توانید دستگاه‌های خود را در زیر مدیریت کنید."
+
+#~ msgid "current device"
+#~ msgstr "دستگاه فعلی"
+
+#~ msgid "Disconnect"
+#~ msgstr "قطع تماس"
+
+#~ msgid "Don't see all your devices?"
+#~ msgstr "تمام دستگاه‌های خود را نمی‌بینید؟"
+
+#~ msgid "Refresh"
+#~ msgstr "نوسازی"
+
+#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
+#~ msgstr "انتخاب یک نام دلخواه جهت نمایش در هنگام مدیریت حساب کاربری خود در فایرفاکس."
+
+#~ msgid "How old are you?"
+#~ msgstr "چند سال سن دارید؟"
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "وارد شدن به هم‌گام‌سازی"
+
+#~ msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
+#~ msgstr "حسابی که می‌خواهید برای هم‌گام‌سازی زبانه‌ها، نشانک‌ها، گذرواژه‌ها و غیره خود از آن استفاده کنید را وارد کنید."
+
+#~ msgid "Use OpenID"
+#~ msgstr "استفاده از OpenID"
+
+#~ msgid "Use Firefox Account"
+#~ msgstr "استفاده از حساب فایرفاکس"
 
 #~ msgid "Account unlocked, please try again"
 #~ msgstr "حساب باز شد، لطفا مجددا تلاش کنید"

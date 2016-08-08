@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-25 20:11+0000\n"
+"POT-Creation-Date: 2016-08-08 20:06+0000\n"
 "PO-Revision-Date: 2016-07-25 22:57+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1429765208.0\n"
 
-#: .es5/scripts/views/complete_reset_password.js:123 .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:130 .es5/scripts/views/confirm_reset_password.js:177
+#: .es5/scripts/views/complete_reset_password.js:124 .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:131 .es5/scripts/views/confirm_reset_password.js:177
 msgid "Account verified successfully"
 msgstr "アカウントの確認が完了しました"
 
@@ -35,11 +35,11 @@ msgstr "%(permissionName)s (必須)"
 msgid "Email address"
 msgstr "メールアドレス"
 
-#: .es5/scripts/views/permissions.js:35 .es5/scripts/templates/settings/display_name.mustache:1 .es5/scripts/templates/settings/display_name.mustache:4
+#: .es5/scripts/views/permissions.js:35
 msgid "Display name"
 msgstr "表示名"
 
-#: .es5/scripts/views/permissions.js:38 .es5/scripts/templates/settings/avatar.mustache:1
+#: .es5/scripts/views/permissions.js:38
 msgid "Account picture"
 msgstr "アカウント写真"
 
@@ -60,7 +60,7 @@ msgid "Sign-in confirmed"
 msgstr "ログインが確認されました"
 
 # %(serviceName)s を利用できるようになりました。だと「た。」だけ2行目になって残念だったので短めに
-#: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55 .es5/scripts/templates/ready.mustache:5
+#: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55
 msgid "You are now ready to use %(serviceName)s"
 msgstr "%(serviceName)s が使えるようになりました"
 
@@ -68,7 +68,7 @@ msgstr "%(serviceName)s が使えるようになりました"
 msgid "Account verified"
 msgstr "アカウントが認証されました"
 
-#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:151
+#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:152
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "不明なアカウントです。<a href=\"/signup\">サインアップ</a>"
 
@@ -84,7 +84,7 @@ msgstr "このアカウントは既に存在します。<a href=\"/signin\">サ�
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> による提供"
 
-#: .es5/scripts/views/settings/change_password.js:39
+#: .es5/scripts/views/settings/change_password.js:47
 msgid "Password changed successfully"
 msgstr "パスワードの変更が完了しました"
 
@@ -101,42 +101,42 @@ msgid "Account deleted successfully"
 msgstr "アカウントの削除が完了しました"
 
 #: .es5/scripts/views/settings/devices.js:28
-msgid "days ago"
-msgstr "日前"
+msgid "Last active: days ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:29
-msgid "hours ago"
-msgstr "時間前"
+msgid "Last active: hours ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:30
-msgid "minutes ago"
-msgstr "分前"
+msgid "Last active: minutes ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:31
-msgid "months ago"
-msgstr "か月前"
+msgid "Last active: months ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:32
-msgid "seconds ago"
-msgstr "秒前"
+msgid "Last active: seconds ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:34
-msgid "weeks ago"
-msgstr "週間前"
+msgid "Last active: weeks ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:35
-msgid "years ago"
-msgstr "年前"
+msgid "Last active: years ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/display_name.js:50
 msgid "Display name updated"
 msgstr "表示名が更新されました"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/lib/auth-errors.js:107
+#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/lib/auth-errors.js:107
 msgid "Your account has been locked for security reasons"
 msgstr "あなたのアカウントはセキュリティ上の理由からロックされています"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/templates/reset_password.mustache:6
+#: .es5/scripts/views/mixins/account-reset-mixin.js:41
 msgid "Reset password"
 msgstr "パスワードをリセットする"
 
@@ -160,7 +160,7 @@ msgstr "Outlook を開く"
 msgid "8 characters minimum, but longer if you plan to sync passwords."
 msgstr "最低 8 文字ですが、パスワードを同期するつもりならそれ以上にしてください。"
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/templates/sign_up.mustache:18
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:22
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "強力で固有のパスワードを設定することで、あなたの Firefox データを第三者から保護できます。"
 
@@ -172,7 +172,7 @@ msgstr "これは一般的なパスワードです。別のパスワードを選
 msgid "Signed out successfully"
 msgstr "ログアウトが完了しました"
 
-#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:76 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
+#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:79 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
 #: .es5/scripts/lib/profile-errors.js:47 .es5/scripts/lib/require-on-demand.js:33 .es5/scripts/lib/require-on-demand.js:37 .es5/scripts/lib/require-on-demand.js:41
 #: .es5/scripts/lib/require-on-demand.js:45
 msgid "Unexpected error"
@@ -254,7 +254,7 @@ msgstr "現在サーバ負荷が高すぎます。しばらくしてから再度
 msgid "This endpoint is no longer supported"
 msgstr "このエンドポイントはサポートされなくなりました"
 
-#: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:72 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
+#: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:75 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
 #: .es5/scripts/lib/oauth-errors.js:80 .es5/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "現在システムが利用できません。しばらくしてから再度お試しください"
@@ -291,7 +291,7 @@ msgstr "サービス利用規約を取得できません"
 msgid "Your new password must be different"
 msgstr "新しいパスワードは、古いパスワードと違うものにしてください"
 
-#: .es5/scripts/lib/auth-errors.js:155 .es5/scripts/templates/complete_reset_password.mustache:15 .es5/scripts/templates/settings/change_password.mustache:9
+#: .es5/scripts/lib/auth-errors.js:155
 msgid "Must be at least 8 characters"
 msgstr "少なくとも 8 文字以上でなくてはいけません"
 
@@ -327,11 +327,11 @@ msgstr "正しいメールアドレスを入力してください。firefox.com 
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox アカウントは承認済みサイトの IFRAME 内にのみ設置できます。"
 
-#: .es5/scripts/lib/auth-errors.js:228 .es5/scripts/templates/complete_sign_up.mustache:3
+#: .es5/scripts/lib/auth-errors.js:228
 msgid "The link you clicked to verify your email is expired."
 msgstr "クリックされたメールアドレス認証リンクの有効期限が切れています。"
 
-#: .es5/scripts/lib/auth-errors.js:232 .es5/scripts/templates/complete_sign_up.mustache:7
+#: .es5/scripts/lib/auth-errors.js:232
 msgid "Verification link damaged"
 msgstr "認証リンクが壊れています"
 
@@ -440,8 +440,12 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:17
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "続けることで、%(serviceName)s (%(serviceUri)s) の <a id=\"service-tos\" href=\"%(termsUri)s\">利用規約</a> と <a id=\"service-pp\" href=\"%(privacyUri)s\">プライバシー通知</a> に同意したものとみなされます。"
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"続けることで、%(serviceName)s (%(serviceUri)s) の <a id=\"service-tos\" href=\"%(termsUri)s\">利用規約</a> と <a id=\"service-pp\" href=\"%(privacyUri)s\">プライバシー通知</a> に同意したものとみなさ"
+"れます。"
 
 #: .es5/scripts/lib/strings.js:24
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -467,491 +471,387 @@ msgstr "IP アドレス: %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "念のため、この端末との同期を開始する前に、正規のログインであることを確認してください:"
 
-#: .es5/scripts/templates/400.mustache:1
-msgid "Bad Request"
-msgstr "不正なリクエスト"
+#~ msgid "days ago"
+#~ msgstr "日前"
 
-#: .es5/scripts/templates/500.mustache:1
-msgid "500 Error"
-msgstr "500 エラー"
+#~ msgid "hours ago"
+#~ msgstr "時間前"
 
-#: .es5/scripts/templates/500.mustache:2
-msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "申し訳ありませんが、何か問題が発生しました。サーバ管理者が通知を受け取り、修正に取りかかります。"
+#~ msgid "minutes ago"
+#~ msgstr "分前"
 
-#: .es5/scripts/templates/cannot_create_account.mustache:1
-msgid "Cannot create account"
-msgstr "アカウントを作成できません"
+#~ msgid "months ago"
+#~ msgstr "か月前"
 
-#: .es5/scripts/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr "Firefox&nbsp;Account を作成するには、規定の年齢に達している必要があります。"
+#~ msgid "seconds ago"
+#~ msgstr "秒前"
 
-#: .es5/scripts/templates/cannot_create_account.mustache:4
-msgid "Learn more."
-msgstr "詳細を確認。"
+#~ msgid "weeks ago"
+#~ msgstr "週間前"
+
+#~ msgid "years ago"
+#~ msgstr "年前"
+
+#~ msgid "Bad Request"
+#~ msgstr "不正なリクエスト"
+
+#~ msgid "500 Error"
+#~ msgstr "500 エラー"
+
+#~ msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+#~ msgstr "申し訳ありませんが、何か問題が発生しました。サーバ管理者が通知を受け取り、修正に取りかかります。"
+
+#~ msgid "Cannot create account"
+#~ msgstr "アカウントを作成できません"
+
+#~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
+#~ msgstr "Firefox&nbsp;Account を作成するには、規定の年齢に達している必要があります。"
+
+#~ msgid "Learn more."
+#~ msgstr "詳細を確認。"
 
 # アカウント作成後に同期対象を選択する画面を出すかどうかのチェックボックスです
-#: .es5/scripts/templates/choose_what_to_sync.mustache:1 .es5/scripts/templates/sign_up.mustache:24
-msgid "Choose what to sync"
-msgstr "同期するデータを選択する"
+#~ msgid "Choose what to sync"
+#~ msgstr "同期するデータを選択する"
 
-#: .es5/scripts/templates/choose_what_to_sync.mustache:2
-msgid "Tabs"
-msgstr "タブ"
+#~ msgid "Tabs"
+#~ msgstr "タブ"
 
-#: .es5/scripts/templates/choose_what_to_sync.mustache:4
-msgid "Bookmarks"
-msgstr "ブックマーク"
+#~ msgid "Bookmarks"
+#~ msgstr "ブックマーク"
 
-#: .es5/scripts/templates/choose_what_to_sync.mustache:6
-msgid "Add-ons"
-msgstr "アドオン"
+#~ msgid "Add-ons"
+#~ msgstr "アドオン"
 
-#: .es5/scripts/templates/choose_what_to_sync.mustache:8
-msgid "Passwords"
-msgstr "パスワード"
+#~ msgid "Passwords"
+#~ msgstr "パスワード"
 
-#: .es5/scripts/templates/choose_what_to_sync.mustache:10
-msgid "History"
-msgstr "履歴"
+#~ msgid "History"
+#~ msgstr "履歴"
 
-#: .es5/scripts/templates/choose_what_to_sync.mustache:12
-msgid "Preferences"
-msgstr "設定"
+#~ msgid "Preferences"
+#~ msgstr "設定"
 
-#: .es5/scripts/templates/choose_what_to_sync.mustache:14
-msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr "アドオンと設定は今のところモバイル端末では同期されません。"
+#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
+#~ msgstr "アドオンと設定は今のところモバイル端末では同期されません。"
 
-#: .es5/scripts/templates/choose_what_to_sync.mustache:15
-msgid "Save settings"
-msgstr "設定を保存"
+#~ msgid "Save settings"
+#~ msgstr "設定を保存"
 
-#: .es5/scripts/templates/choose_what_to_sync.mustache:16 .es5/scripts/templates/confirm.mustache:13 .es5/scripts/templates/pp.mustache:3 .es5/scripts/templates/tos.mustache:3
-msgid "Back"
-msgstr "戻る"
+#~ msgid "Back"
+#~ msgstr "戻る"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:1
-msgid "Reset password link expired"
-msgstr "パスワードをリセットするリンクの有効期限が切れました"
+#~ msgid "Reset password link expired"
+#~ msgstr "パスワードをリセットするリンクの有効期限が切れました"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:2 .es5/scripts/templates/complete_sign_up.mustache:2 .es5/scripts/templates/confirm.mustache:5
-#: .es5/scripts/templates/confirm_reset_password.mustache:2
-msgid "Email resent"
-msgstr "メールが再送されました"
+#~ msgid "Email resent"
+#~ msgstr "メールが再送されました"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:3
-msgid "The link you clicked to reset your password is expired."
-msgstr "パスワードをリセットするリンクの有効期限が過ぎています。"
+#~ msgid "The link you clicked to reset your password is expired."
+#~ msgstr "パスワードをリセットするリンクの有効期限が過ぎています。"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:4
-msgid "Click here to receive a new reset link"
-msgstr "クリックするとパスワードをリセットするリンクを再発行できます"
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "クリックするとパスワードをリセットするリンクを再発行できます"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:6
-msgid "Reset password link damaged"
-msgstr "パスワードをリセットするリンクが壊れています"
+#~ msgid "Reset password link damaged"
+#~ msgstr "パスワードをリセットするリンクが壊れています"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:7 .es5/scripts/templates/complete_sign_up.mustache:8
-msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "認証リンク URL の長さが足りません。受信したメールクライアントにより、リンクが途中で切れている可能性があります。正しい URL を確認の上コピーし、再度お試しください。"
+#~ msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
+#~ msgstr "認証リンク URL の長さが足りません。受信したメールクライアントにより、リンクが途中で切れている可能性があります。正しい URL を確認の上コピーし、再度お試しください。"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:9
-msgid "Enter new password"
-msgstr "新しいパスワードを入力"
+#~ msgid "Enter new password"
+#~ msgstr "新しいパスワードを入力"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:10
-msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-msgstr "新しいパスワードを送信すると、お使いの端末のいずれにも保存されていない Sync データはすべて失われます。"
+#~ msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "新しいパスワードを送信すると、お使いの端末のいずれにも保存されていない Sync データはすべて失われます。"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:11 .es5/scripts/templates/reset_password.mustache:3
-msgid "Learn how Sync works."
-msgstr "Sync の仕組みについて学びましょう。"
+#~ msgid "Learn how Sync works."
+#~ msgstr "Sync の仕組みについて学びましょう。"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:13 .es5/scripts/templates/settings/change_password.mustache:7
-msgid "New password"
-msgstr "新しいパスワード"
+#~ msgid "New password"
+#~ msgstr "新しいパスワード"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:14 .es5/scripts/templates/complete_reset_password.mustache:17 .es5/scripts/templates/force_auth.mustache:5
-#: .es5/scripts/templates/sign_in.mustache:9 .es5/scripts/templates/sign_in.mustache:21 .es5/scripts/templates/sign_up.mustache:17 .es5/scripts/templates/settings/change_password.mustache:5
-#: .es5/scripts/templates/settings/change_password.mustache:8 .es5/scripts/templates/settings/delete_account.mustache:5 .es5/scripts/templates/settings/devices.mustache:3
-msgid "Show"
-msgstr "表示"
+#~ msgid "Show"
+#~ msgstr "表示"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:16
-msgid "Repeat password"
-msgstr "パスワードを再入力してください"
+#~ msgid "Repeat password"
+#~ msgstr "パスワードを再入力してください"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:18
-msgid "Submit new password"
-msgstr "新しいパスワードを送信"
+#~ msgid "Submit new password"
+#~ msgstr "新しいパスワードを送信"
 
-#: .es5/scripts/templates/complete_sign_up.mustache:1
-msgid "Verification link expired"
-msgstr "認証リンクの有効期限が切れています"
+#~ msgid "Verification link expired"
+#~ msgstr "認証リンクの有効期限が切れています"
 
-#: .es5/scripts/templates/complete_sign_up.mustache:4
-msgid "Click here to receive a new verification link"
-msgstr "クリックすると認証リンクを再発行できます"
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "クリックすると認証リンクを再発行できます"
 
-#: .es5/scripts/templates/complete_sign_up.mustache:10
-msgid "Verification error"
-msgstr "認証エラー"
+#~ msgid "Verification error"
+#~ msgstr "認証エラー"
 
-#: .es5/scripts/templates/confirm.mustache:1
-msgid "Confirm your account"
-msgstr "アカウントを確認してください"
+#~ msgid "Confirm your account"
+#~ msgstr "アカウントを確認してください"
 
-#: .es5/scripts/templates/confirm.mustache:3
-msgid "Confirm this sign-in"
-msgstr "このログインを確認"
+#~ msgid "Confirm this sign-in"
+#~ msgstr "このログインを確認"
 
-#: .es5/scripts/templates/confirm.mustache:6 .es5/scripts/templates/confirm_reset_password.mustache:3
-msgid "Email Sent"
-msgstr "メールが送信されました"
+#~ msgid "Email Sent"
+#~ msgstr "メールが送信されました"
 
-#: .es5/scripts/templates/confirm.mustache:7
-msgid "A verification link has been sent&nbsp;to %(email)s"
-msgstr "認証リンクが %(email)s に送信されました"
+#~ msgid "A verification link has been sent&nbsp;to %(email)s"
+#~ msgstr "認証リンクが %(email)s に送信されました"
 
-#: .es5/scripts/templates/confirm.mustache:9
-msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr "お使いの Firefox のデータを守るため、確認用リンクを %(email)s へお送りしました。"
+#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+#~ msgstr "お使いの Firefox のデータを守るため、確認用リンクを %(email)s へお送りしました。"
 
-#: .es5/scripts/templates/confirm.mustache:12 .es5/scripts/templates/confirm.mustache:14
-msgid "Didn't arrive? Resend"
-msgstr "受信していませんか？ 再送信"
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "受信していませんか？ 再送信"
 
-#: .es5/scripts/templates/confirm_reset_password.mustache:1
-msgid "Reset email sent"
-msgstr "リセット用のメールが送信されました"
+#~ msgid "Reset email sent"
+#~ msgstr "リセット用のメールが送信されました"
 
-#: .es5/scripts/templates/confirm_reset_password.mustache:4
-msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-msgstr "1 時間以内に %(email)s 宛にメールでお送りしたリンクをクリックして、新しいパスワードを作成してください。"
+#~ msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
+#~ msgstr "1 時間以内に %(email)s 宛にメールでお送りしたリンクをクリックして、新しいパスワードを作成してください。"
 
-#: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:7
-#: .es5/scripts/templates/reset_password.mustache:9
-msgid "Remember password? Sign in."
-msgstr "パスワードを覚えている場合はログインしてください。"
+#~ msgid "Remember password? Sign in."
+#~ msgstr "パスワードを覚えている場合はログインしてください。"
 
-#: .es5/scripts/templates/confirm_reset_password.mustache:9
-msgid "Resend email"
-msgstr "メールを再送する"
+#~ msgid "Resend email"
+#~ msgstr "メールを再送する"
 
-#: .es5/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required."
-msgstr "Cookie とローカルストレージが必要です。"
+#~ msgid "Cookies and local storage are required."
+#~ msgstr "Cookie とローカルストレージが必要です。"
 
-#: .es5/scripts/templates/cookies_disabled.mustache:2
-msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Firefox アカウントへアクセスするには、お使いのブラウザの Cookie とローカルストレージを有効にしてください。それによってセッションをまたいだログイン情報の記憶などの機能が使えるようになります。"
+#~ msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
+#~ msgstr ""
+#~ "Firefox アカウントへアクセスするには、お使いのブラウザの Cookie とローカルストレージを有効にしてください。それによってセッションをまたいだログイン情報の記憶などの機能が使えるようになります。"
 
 # リンク先などは未確認だが多分 Cookie の説明？
-#: .es5/scripts/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "詳細を確認"
+#~ msgid "Learn more"
+#~ msgstr "詳細を確認"
 
-#: .es5/scripts/templates/cookies_disabled.mustache:4
-msgid "Try again"
-msgstr "再度試す"
+#~ msgid "Try again"
+#~ msgstr "再度試す"
 
-#: .es5/scripts/templates/force_auth.mustache:1
-msgid "Sign in to continue"
-msgstr "サインインして続ける"
+#~ msgid "Sign in to continue"
+#~ msgstr "サインインして続ける"
 
-#: .es5/scripts/templates/force_auth.mustache:3 .es5/scripts/templates/sign_in.mustache:8 .es5/scripts/templates/sign_in.mustache:19 .es5/scripts/templates/sign_up.mustache:15
-#: .es5/scripts/templates/settings/change_password.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:4
-msgid "Password"
-msgstr "パスワード"
+#~ msgid "Password"
+#~ msgstr "パスワード"
 
-#: .es5/scripts/templates/force_auth.mustache:6 .es5/scripts/templates/sign_in.mustache:1 .es5/scripts/templates/sign_in.mustache:4 .es5/scripts/templates/sign_in.mustache:10
-#: .es5/scripts/templates/sign_in.mustache:14 .es5/scripts/templates/sign_in.mustache:22
-msgid "Sign in"
-msgstr "サインイン"
+#~ msgid "Sign in"
+#~ msgstr "サインイン"
 
-#: .es5/scripts/templates/force_auth.mustache:7 .es5/scripts/templates/sign_in.mustache:11 .es5/scripts/templates/sign_in.mustache:23 .es5/scripts/templates/settings/change_password.mustache:6
-msgid "Forgot password?"
-msgstr "パスワードをお忘れですか？"
+#~ msgid "Forgot password?"
+#~ msgstr "パスワードをお忘れですか？"
 
-#: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "続けることで、Firefox クラウドサービスの <a id=\"fxa-tos\" href=\"/legal/terms\">利用規約</a> と <a id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー通知</a> に同意したものとみなされます。"
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr ""
+#~ "続けることで、Firefox クラウドサービスの <a id=\"fxa-tos\" href=\"/legal/terms\">利用規約</a> と <a id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー通知</a> に同意したものとみなされます。"
 
-#: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
-msgid "Firefox cloud services"
-msgstr "Firefox クラウドサービス"
+#~ msgid "Firefox cloud services"
+#~ msgstr "Firefox クラウドサービス"
 
-#: .es5/scripts/templates/legal.mustache:2
-msgid "Legal"
-msgstr "法的事項"
+#~ msgid "Legal"
+#~ msgstr "法的事項"
 
-#: .es5/scripts/templates/legal.mustache:3 .es5/scripts/templates/settings.mustache:5 .es5/scripts/templates/tos.mustache:2
-msgid "Terms of Service"
-msgstr "利用規約"
+#~ msgid "Terms of Service"
+#~ msgstr "利用規約"
 
-#: .es5/scripts/templates/legal.mustache:4 .es5/scripts/templates/pp.mustache:2 .es5/scripts/templates/settings.mustache:6
-msgid "Privacy Notice"
-msgstr "プライバシーに関する注意"
+#~ msgid "Privacy Notice"
+#~ msgstr "プライバシーに関する注意"
 
-#: .es5/scripts/templates/marketing_snippet.mustache:1
-msgid "Stay in sync on the go:"
-msgstr "モバイルでも同期しよう:"
+#~ msgid "Stay in sync on the go:"
+#~ msgstr "モバイルでも同期しよう:"
 
-#: .es5/scripts/templates/marketing_snippet.mustache:2
-msgid "Get Firefox for Android"
-msgstr "Android 版 Firefox を入手"
+#~ msgid "Get Firefox for Android"
+#~ msgstr "Android 版 Firefox を入手"
 
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:1 .es5/scripts/templates/marketing_snippet_ios.mustache:5 .es5/scripts/templates/marketing_snippet_ios.mustache:9
-msgid "Get the full Sync experience."
-msgstr "完全な Sync 体験を手に入れましょう。"
+#~ msgid "Get the full Sync experience."
+#~ msgstr "完全な Sync 体験を手に入れましょう。"
 
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:2 .es5/scripts/templates/marketing_snippet_ios.mustache:3 .es5/scripts/templates/marketing_snippet_ios.mustache:12
-msgid "Download Firefox for iOS!"
-msgstr "iOS 版 Firefox をダウンロード！"
+#~ msgid "Download Firefox for iOS!"
+#~ msgstr "iOS 版 Firefox をダウンロード！"
 
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:6 .es5/scripts/templates/marketing_snippet_ios.mustache:7 .es5/scripts/templates/marketing_snippet_ios.mustache:11
-msgid "Download Firefox for Android."
-msgstr "Android 版 Firefox をダウンロード。"
+#~ msgid "Download Firefox for Android."
+#~ msgstr "Android 版 Firefox をダウンロード。"
 
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:10
-msgid "Download Firefox for mobile devices."
-msgstr "モバイル端末向け Firefox をダウンロード。"
+#~ msgid "Download Firefox for mobile devices."
+#~ msgstr "モバイル端末向け Firefox をダウンロード。"
 
-#: .es5/scripts/templates/permissions.mustache:1 .es5/scripts/templates/settings/gravatar_permissions.mustache:1
-msgid "Request for permission"
-msgstr "許可を申請"
+#~ msgid "Request for permission"
+#~ msgstr "許可を申請"
 
-#: .es5/scripts/templates/permissions.mustache:2 .es5/scripts/templates/settings/gravatar_permissions.mustache:2
-msgid "%(serviceName)s wants the following information from your account:"
-msgstr "%(serviceName)s はあなたのアカウントから以下の情報を求めています:"
+#~ msgid "%(serviceName)s wants the following information from your account:"
+#~ msgstr "%(serviceName)s はあなたのアカウントから以下の情報を求めています:"
 
-#: .es5/scripts/templates/permissions.mustache:3 .es5/scripts/templates/settings/gravatar_permissions.mustache:4
-msgid "Accept"
-msgstr "承認"
+#~ msgid "Accept"
+#~ msgstr "承認"
 
-#: .es5/scripts/templates/permissions.mustache:4 .es5/scripts/templates/settings/avatar_camera.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:3
-#: .es5/scripts/templates/settings/avatar_gravatar.mustache:3 .es5/scripts/templates/settings/change_password.mustache:11 .es5/scripts/templates/settings/communication_preferences.mustache:5
-#: .es5/scripts/templates/settings/communication_preferences.mustache:13 .es5/scripts/templates/settings/delete_account.mustache:7 .es5/scripts/templates/settings/display_name.mustache:6
-#: .es5/scripts/templates/settings/gravatar_permissions.mustache:5
-msgid "Cancel"
-msgstr "キャンセル"
+#~ msgid "Cancel"
+#~ msgstr "キャンセル"
 
-#: .es5/scripts/templates/ready.mustache:1
-msgid "Success"
-msgstr "成功"
+#~ msgid "Success"
+#~ msgstr "成功"
 
-#: .es5/scripts/templates/ready.mustache:2
-msgid "Sync preferences"
-msgstr "Sync 設定"
+#~ msgid "Sync preferences"
+#~ msgstr "Sync 設定"
 
-#: .es5/scripts/templates/ready.mustache:6
-msgid "Proceed"
-msgstr "続ける"
+#~ msgid "Proceed"
+#~ msgstr "続ける"
 
-#: .es5/scripts/templates/ready.mustache:9
-msgid "Your account is ready!"
-msgstr "アカウントの準備が整いました。"
+#~ msgid "Your account is ready!"
+#~ msgstr "アカウントの準備が整いました。"
 
-#: .es5/scripts/templates/reset_password.mustache:1
-msgid "Forgot password"
-msgstr "パスワードを忘れた場合"
+#~ msgid "Forgot password"
+#~ msgstr "パスワードを忘れた場合"
 
-#: .es5/scripts/templates/reset_password.mustache:2
-msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr "パスワードをリセットすると、お使いの端末のいずれにも保存されていない Sync データはすべて失われます。"
+#~ msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "パスワードをリセットすると、お使いの端末のいずれにも保存されていない Sync データはすべて失われます。"
 
-#: .es5/scripts/templates/reset_password.mustache:5 .es5/scripts/templates/sign_in.mustache:18 .es5/scripts/templates/sign_up.mustache:13
-#: .es5/scripts/templates/settings/gravatar_permissions.mustache:3
-msgid "Email"
-msgstr "メールアドレス"
+#~ msgid "Email"
+#~ msgstr "メールアドレス"
 
-#: .es5/scripts/templates/settings.mustache:1
-msgid "Firefox Accounts"
-msgstr "Firefox アカウント"
+#~ msgid "Firefox Accounts"
+#~ msgstr "Firefox アカウント"
 
-#: .es5/scripts/templates/settings.mustache:2
-msgid "Sign out"
-msgstr "サインアウト"
+#~ msgid "Sign out"
+#~ msgstr "サインアウト"
 
 # %(serviceName)s を利用できるようになりました。だと「た。」だけ2行目になって残念だったので短めに
-#: .es5/scripts/templates/sign_in.mustache:2 .es5/scripts/templates/sign_up.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "%(serviceName)s の利用を続ける"
+#~ msgid "Continue to %(serviceName)s"
+#~ msgstr "%(serviceName)s の利用を続ける"
 
-#: .es5/scripts/templates/sign_in.mustache:6
-msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr "Firefox アカウントへログインして、あなたの同期データを移行しましょう。"
+#~ msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
+#~ msgstr "Firefox アカウントへログインして、あなたの同期データを移行しましょう。"
 
-#: .es5/scripts/templates/sign_in.mustache:12 .es5/scripts/templates/sign_in.mustache:15
-msgid "Use a different account"
-msgstr "別のアカウントを使用する"
+#~ msgid "Use a different account"
+#~ msgstr "別のアカウントを使用する"
 
-#: .es5/scripts/templates/sign_in.mustache:24
-msgid "Create an account"
-msgstr "アカウントを作成する"
+#~ msgid "Create an account"
+#~ msgstr "アカウントを作成する"
 
 # タイトルなので文章ではなく体言止め
-#: .es5/scripts/templates/sign_up.mustache:1 .es5/scripts/templates/sign_up.mustache:4
-msgid "Create a Firefox Account"
-msgstr "Firefox アカウントの作成"
+#~ msgid "Create a Firefox Account"
+#~ msgstr "Firefox アカウントの作成"
 
-#: .es5/scripts/templates/sign_up.mustache:6
-msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
-msgstr "Firefox Sync をお探しですか？ <a href=\"https://mozilla.org/firefox/sync\">こちらをご覧ください</a>。"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
+#~ msgstr "Firefox Sync をお探しですか？ <a href=\"https://mozilla.org/firefox/sync\">こちらをご覧ください</a>。"
 
-#: .es5/scripts/templates/sign_up.mustache:8
-msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr "Firefox アカウントを新たに作成して、あなたの同期データを移行しましょう。"
+#~ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
+#~ msgstr "Firefox アカウントを新たに作成して、あなたの同期データを移行しましょう。"
 
-#: .es5/scripts/templates/sign_up.mustache:10
-msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
-msgstr "別のメールアドレスでアカウントをお持ちですか？ <a href=\"%(signinUri)s\">ログイン</a>"
+#~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+#~ msgstr "別のメールアドレスでアカウントをお持ちですか？ <a href=\"%(signinUri)s\">ログイン</a>"
 
-#: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
-msgid "Send me the monthly Firefox newsletter."
-msgstr "月刊 Firefox ニュースレターを購読します。"
+#~ msgid "Send me the monthly Firefox newsletter."
+#~ msgstr "月刊 Firefox ニュースレターを購読します。"
 
-#: .es5/scripts/templates/sign_up.mustache:22
-msgid "Create account"
-msgstr "アカウントを作成"
+#~ msgid "Create account"
+#~ msgstr "アカウントを作成"
 
-#: .es5/scripts/templates/sign_up.mustache:27
-msgid "Have an account? Sign in."
-msgstr "アカウントをお持ちですか？ ログインしてください。"
+#~ msgid "Have an account? Sign in."
+#~ msgstr "アカウントをお持ちですか？ ログインしてください。"
 
-#: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2
-#: .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/communication_preferences.mustache:4 .es5/scripts/templates/settings/display_name.mustache:2
-#: .es5/scripts/templates/settings/display_name.mustache:5
-msgid "Change"
-msgstr "変更"
+#~ msgid "Change"
+#~ msgstr "変更"
 
-#: .es5/scripts/templates/settings/avatar.mustache:4
-msgid "Add"
-msgstr "追加"
+#~ msgid "Add"
+#~ msgstr "追加"
 
-#: .es5/scripts/templates/settings/avatar_camera.mustache:1
-msgid "Take picture"
-msgstr "写真を撮る"
+#~ msgid "Take picture"
+#~ msgstr "写真を撮る"
 
-#: .es5/scripts/templates/settings/avatar_change.mustache:1
-msgid "Upload"
-msgstr "アップロード"
+#~ msgid "Upload"
+#~ msgstr "アップロード"
 
-#: .es5/scripts/templates/settings/avatar_change.mustache:2
-msgid "Camera"
-msgstr "カメラ"
+#~ msgid "Camera"
+#~ msgstr "カメラ"
 
-#: .es5/scripts/templates/settings/avatar_change.mustache:3
-msgid "Gravatar"
-msgstr "Gravatar"
+#~ msgid "Gravatar"
+#~ msgstr "Gravatar"
 
-#: .es5/scripts/templates/settings/avatar_change.mustache:4
-msgid "Clear"
-msgstr "消去"
+#~ msgid "Clear"
+#~ msgstr "消去"
 
-#: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/devices.mustache:12
-msgid "Done"
-msgstr "完了"
+#~ msgid "Done"
+#~ msgstr "完了"
 
-#: .es5/scripts/templates/settings/avatar_crop.mustache:1
-msgid "Position and rotate your picture as needed"
-msgstr "必要に応じて、写真の位置や角度を調整してください"
+#~ msgid "Position and rotate your picture as needed"
+#~ msgstr "必要に応じて、写真の位置や角度を調整してください"
 
-#: .es5/scripts/templates/settings/avatar_gravatar.mustache:2
-msgid "Save"
-msgstr "保存"
+#~ msgid "Save"
+#~ msgstr "保存"
 
-#: .es5/scripts/templates/settings/change_password.mustache:3
-msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "変更が完了したら、お手持ちのすべての端末で新しいパスワードを使ってログインしてください。"
+#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
+#~ msgstr "変更が完了したら、お手持ちのすべての端末で新しいパスワードを使ってログインしてください。"
 
-#: .es5/scripts/templates/settings/change_password.mustache:4
-msgid "Old password"
-msgstr "旧パスワード"
+#~ msgid "Old password"
+#~ msgstr "旧パスワード"
 
-#: .es5/scripts/templates/settings/communication_preferences.mustache:3
-msgid "Communication preferences"
-msgstr "コミュニケーション設定"
+#~ msgid "Communication preferences"
+#~ msgstr "コミュニケーション設定"
 
-#: .es5/scripts/templates/settings/communication_preferences.mustache:8
-msgid "Email preferences"
-msgstr "メール設定"
+#~ msgid "Email preferences"
+#~ msgstr "メール設定"
 
-#: .es5/scripts/templates/settings/communication_preferences.mustache:10
-msgid "Unsubscribe"
-msgstr "購読解除"
+#~ msgid "Unsubscribe"
+#~ msgstr "購読解除"
 
-#: .es5/scripts/templates/settings/communication_preferences.mustache:12
-msgid "Subscribe"
-msgstr "購読開始"
+#~ msgid "Subscribe"
+#~ msgstr "購読開始"
 
-#: .es5/scripts/templates/settings/delete_account.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:6
-msgid "Delete account"
-msgstr "アカウントを削除"
+#~ msgid "Delete account"
+#~ msgstr "アカウントを削除"
 
-#: .es5/scripts/templates/settings/delete_account.mustache:2
-msgid "Delete"
-msgstr "削除"
+#~ msgid "Delete"
+#~ msgstr "削除"
 
-#: .es5/scripts/templates/settings/delete_account.mustache:3
-msgid "Are you sure you want to delete your account? This action cannot be undone."
-msgstr "本当にアカウントを削除してもよろしいですか？ この操作は元に戻せません。"
+#~ msgid "Are you sure you want to delete your account? This action cannot be undone."
+#~ msgstr "本当にアカウントを削除してもよろしいですか？ この操作は元に戻せません。"
 
-#: .es5/scripts/templates/settings/devices.mustache:2
-msgid "Devices"
-msgstr "端末"
+#~ msgid "Devices"
+#~ msgstr "端末"
 
-#: .es5/scripts/templates/settings/devices.mustache:4
-msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-"href=\"%(linkLinux)s\">Linux</a>."
-msgstr "Firefox は、<a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> および <a href=\"%(linkLinux)s\">Linux</a> に対応しています。"
+#~ msgid ""
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox は、<a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> および <a href=\"%(linkLinux)s"
+#~ "\">Linux</a> に対応しています。"
 
-#: .es5/scripts/templates/settings/devices.mustache:5
-msgid "You can manage your devices below."
-msgstr "お使いの端末を以下で管理できます。"
+#~ msgid "You can manage your devices below."
+#~ msgstr "お使いの端末を以下で管理できます。"
 
-#: .es5/scripts/templates/settings/devices.mustache:6
-msgid "current device"
-msgstr "現在の端末"
+#~ msgid "current device"
+#~ msgstr "現在の端末"
 
-#: .es5/scripts/templates/settings/devices.mustache:8
-msgid "Disconnect"
-msgstr "接続解除"
+#~ msgid "Disconnect"
+#~ msgstr "接続解除"
 
-#: .es5/scripts/templates/settings/devices.mustache:10
-msgid "Don't see all your devices?"
-msgstr "お使いの端末がすべて表示されていませんか？"
+#~ msgid "Don't see all your devices?"
+#~ msgstr "お使いの端末がすべて表示されていませんか？"
 
-#: .es5/scripts/templates/settings/devices.mustache:11
-msgid "Refresh"
-msgstr "再読み込み"
+#~ msgid "Refresh"
+#~ msgstr "再読み込み"
 
-#: .es5/scripts/templates/settings/display_name.mustache:3
-msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr "あなたのアカウントを管理する際に Firefox に表示したい名前を選んでください。"
+#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
+#~ msgstr "あなたのアカウントを管理する際に Firefox に表示したい名前を選んでください。"
 
-#: .es5/scripts/templates/partial/coppa-age-input.mustache:1
-msgid "How old are you?"
-msgstr "何歳ですか？"
+#~ msgid "How old are you?"
+#~ msgstr "何歳ですか？"
 
-#: .es5/scripts/templates/openid/start.mustache:1
-msgid "Sign in to Sync"
-msgstr "Sync へログイン"
+#~ msgid "Sign in to Sync"
+#~ msgstr "Sync へログイン"
 
-#: .es5/scripts/templates/openid/start.mustache:2
-msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-msgstr "あなたのタブ、ブックマーク、パスワードなどを同期するために使用したいアカウントを選択してください。"
+#~ msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
+#~ msgstr "あなたのタブ、ブックマーク、パスワードなどを同期するために使用したいアカウントを選択してください。"
 
-#: .es5/scripts/templates/openid/start.mustache:3
-msgid "Use OpenID"
-msgstr "OpenID を使用"
+#~ msgid "Use OpenID"
+#~ msgstr "OpenID を使用"
 
-#: .es5/scripts/templates/openid/start.mustache:4
-msgid "Use Firefox Account"
-msgstr "Firefox アカウントを使用"
+#~ msgid "Use Firefox Account"
+#~ msgstr "Firefox アカウントを使用"
 
 #~ msgid "Account unlocked, please try again"
 #~ msgstr "アカウントのロックが解除されました。再度試してください"
@@ -1041,7 +941,9 @@ msgstr "Firefox アカウントを使用"
 #~ msgstr "本当にアカウントのパスワードをリセットしますか？"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
-#~ msgstr "パスワードをリセットすると、Mozilla のサーバからブラウジングデータが消去されます。お使いの端末上のデータはすべてそのまま残ります。リセット手続きを始めるにはまず以下にメールアドレスを入力してください。"
+#~ msgstr ""
+#~ "パスワードをリセットすると、Mozilla のサーバからブラウジングデータが消去されます。お使いの端末上のデータはすべてそのまま残ります。リセット手続きを始めるにはまず以下にメールアドレスを入力してくだ"
+#~ "さい。"
 
 #~ msgid "Begin reset"
 #~ msgstr "リセットを開始"
