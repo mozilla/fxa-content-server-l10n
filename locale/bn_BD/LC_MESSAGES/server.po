@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-25 20:11+0000\n"
-"PO-Revision-Date: 2016-08-08 15:24+0000\n"
+"PO-Revision-Date: 2016-08-08 15:25+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_BD\n"
@@ -69,7 +69,7 @@ msgstr "আরও তথ্যের জন্য, দেখুন <a %(supportL
 #: templates/verification_reminder_first.txt:6 templates/verification_reminder_second.html:8 templates/verification_reminder_second.txt:6 templates/verify.html:8 templates/verify.txt:6
 #: templates/verify_login.html:7 templates/verify_login.txt:5
 msgid "Mozilla Privacy Policy"
-msgstr ""
+msgstr "Mozilla গোপনীয়তা নীতি"
 
 #: templates/new_device_login.txt:2
 msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(resetLink)s."
