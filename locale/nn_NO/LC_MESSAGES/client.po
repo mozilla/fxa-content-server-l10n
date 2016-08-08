@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-25 20:11+0000\n"
+"POT-Creation-Date: 2016-08-08 20:06+0000\n"
 "PO-Revision-Date: 2016-07-26 08:16+0000\n"
 "Last-Translator: bjorn.svindseth <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: .es5/scripts/views/complete_reset_password.js:123 .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:130 .es5/scripts/views/confirm_reset_password.js:177
+#: .es5/scripts/views/complete_reset_password.js:124 .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:131 .es5/scripts/views/confirm_reset_password.js:177
 msgid "Account verified successfully"
 msgstr "Vellukka stadfesting av konto"
 
@@ -34,11 +34,11 @@ msgstr "%(permissionName)s (påkravd)"
 msgid "Email address"
 msgstr "E-postadresse"
 
-#: .es5/scripts/views/permissions.js:35 .es5/scripts/templates/settings/display_name.mustache:1 .es5/scripts/templates/settings/display_name.mustache:4
+#: .es5/scripts/views/permissions.js:35
 msgid "Display name"
 msgstr "Vis namn"
 
-#: .es5/scripts/views/permissions.js:38 .es5/scripts/templates/settings/avatar.mustache:1
+#: .es5/scripts/views/permissions.js:38
 msgid "Account picture"
 msgstr "Kontobilde"
 
@@ -58,7 +58,7 @@ msgstr "Firefox Sync vil halde fram snart"
 msgid "Sign-in confirmed"
 msgstr "Innlogging stadfesta"
 
-#: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55 .es5/scripts/templates/ready.mustache:5
+#: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Du kan no bruka %(serviceName)s"
 
@@ -66,7 +66,7 @@ msgstr "Du kan no bruka %(serviceName)s"
 msgid "Account verified"
 msgstr "Konto stadfesta"
 
-#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:151
+#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:152
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Ukjend konto. <a href=\"/signup\">Registrer deg</a>"
 
@@ -82,7 +82,7 @@ msgstr "Kontoen finst allereie. <a href=\"/signin\">Logg inn</a>"
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "Med velvillig løyve frå <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
-#: .es5/scripts/views/settings/change_password.js:39
+#: .es5/scripts/views/settings/change_password.js:47
 msgid "Password changed successfully"
 msgstr "Passordet er endra"
 
@@ -99,42 +99,42 @@ msgid "Account deleted successfully"
 msgstr "Kontoen er no sletta"
 
 #: .es5/scripts/views/settings/devices.js:28
-msgid "days ago"
-msgstr "dagar sidan"
+msgid "Last active: days ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:29
-msgid "hours ago"
-msgstr "timar sidan"
+msgid "Last active: hours ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:30
-msgid "minutes ago"
-msgstr "minutt sidan"
+msgid "Last active: minutes ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:31
-msgid "months ago"
-msgstr "månadar sidan"
+msgid "Last active: months ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:32
-msgid "seconds ago"
-msgstr "sekund sidan"
+msgid "Last active: seconds ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:34
-msgid "weeks ago"
-msgstr "veker sidan"
+msgid "Last active: weeks ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:35
-msgid "years ago"
-msgstr "år sidan"
+msgid "Last active: years ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/display_name.js:50
 msgid "Display name updated"
 msgstr "Visingsnamn oppdatert"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/lib/auth-errors.js:107
+#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/lib/auth-errors.js:107
 msgid "Your account has been locked for security reasons"
 msgstr "Kontoen din er låst av tryggingsomsyn"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/templates/reset_password.mustache:6
+#: .es5/scripts/views/mixins/account-reset-mixin.js:41
 msgid "Reset password"
 msgstr "Tilbakestill passordet"
 
@@ -158,7 +158,7 @@ msgstr "Opna Outlook"
 msgid "8 characters minimum, but longer if you plan to sync passwords."
 msgstr "MInst 8 teikn, men lenger om du vil synkronisera passord."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/templates/sign_up.mustache:18
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:22
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "Eit sterkt, unikt passord vil halde dine Firefox-data trygge frå inntrengarar."
 
@@ -170,7 +170,7 @@ msgstr "Dette er eit vanleg passord. Du bør vurdera å bruka eit anna."
 msgid "Signed out successfully"
 msgstr "Du er utlogga"
 
-#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:76 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
+#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:79 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
 #: .es5/scripts/lib/profile-errors.js:47 .es5/scripts/lib/require-on-demand.js:33 .es5/scripts/lib/require-on-demand.js:37 .es5/scripts/lib/require-on-demand.js:41
 #: .es5/scripts/lib/require-on-demand.js:45
 msgid "Unexpected error"
@@ -252,7 +252,7 @@ msgstr "Tenaren er opptatt, prøv på nytt seinare"
 msgid "This endpoint is no longer supported"
 msgstr "Dette endepunktet er ikkje lenger støtta"
 
-#: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:72 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
+#: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:75 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
 #: .es5/scripts/lib/oauth-errors.js:80 .es5/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Systemet utilgjengeleg, prøv igjen seinare"
@@ -289,7 +289,7 @@ msgstr "Klarte ikkje å henta tenestevilkåra"
 msgid "Your new password must be different"
 msgstr "Det nye passordet ditt må vera annleis"
 
-#: .es5/scripts/lib/auth-errors.js:155 .es5/scripts/templates/complete_reset_password.mustache:15 .es5/scripts/templates/settings/change_password.mustache:9
+#: .es5/scripts/lib/auth-errors.js:155
 msgid "Must be at least 8 characters"
 msgstr "Må ha minst 8 teikn"
 
@@ -325,11 +325,11 @@ msgstr "Skriv inn ei gyldig e-postadresse. firefox.com tilbyr ikkje e-post."
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox-kontoar kan berre plasserast i ei IFRAME på godkjende nettstadar"
 
-#: .es5/scripts/lib/auth-errors.js:228 .es5/scripts/templates/complete_sign_up.mustache:3
+#: .es5/scripts/lib/auth-errors.js:228
 msgid "The link you clicked to verify your email is expired."
 msgstr "Lenka du trykte på for å stadfesta e-postadressa di har gått ut."
 
-#: .es5/scripts/lib/auth-errors.js:232 .es5/scripts/templates/complete_sign_up.mustache:7
+#: .es5/scripts/lib/auth-errors.js:232
 msgid "Verification link damaged"
 msgstr "Stadfestingslenka er skadd"
 
@@ -438,8 +438,12 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:17
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Ved å fortsetta godkjenner du <a id=\"service-tos\" href=\"%(termsUri)s\">tenestevilkåra</a> og<a id=\"service-pp\" href=\"%(privacyUri)s\">personvernmerknaden</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Ved å fortsetta godkjenner du <a id=\"service-tos\" href=\"%(termsUri)s\">tenestevilkåra</a> og<a id=\"service-pp\" href=\"%(privacyUri)s\">personvernmerknaden</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: .es5/scripts/lib/strings.js:24
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -465,489 +469,382 @@ msgstr "IP-addresse: %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "For ekstra sikkerheit, stadfest denne innlogginga for å begynna synkroniseringa med denne eininga:"
 
-#: .es5/scripts/templates/400.mustache:1
-msgid "Bad Request"
-msgstr "Ugyldig ørespurnad"
-
-#: .es5/scripts/templates/500.mustache:1
-msgid "500 Error"
-msgstr "Feil 500"
-
-#: .es5/scripts/templates/500.mustache:2
-msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "Oj, noko gjekk gale. Vi har blitt informert, og vil gå i gang med å løysa problemet."
-
-#: .es5/scripts/templates/cannot_create_account.mustache:1
-msgid "Cannot create account"
-msgstr "Klarte ikkje å oppretta konto"
-
-#: .es5/scripts/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr "Du må oppfylla visse alderskrav for å oppretta ein Firefox-konto."
-
-#: .es5/scripts/templates/cannot_create_account.mustache:4
-msgid "Learn more."
-msgstr "Les meir."
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:1 .es5/scripts/templates/sign_up.mustache:24
-msgid "Choose what to sync"
-msgstr "Vel kva som skal synkroniserast"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:2
-msgid "Tabs"
-msgstr "Faner"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:4
-msgid "Bookmarks"
-msgstr "Bokmerke"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:6
-msgid "Add-ons"
-msgstr "Utvidingar"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:8
-msgid "Passwords"
-msgstr "Passord"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:10
-msgid "History"
-msgstr "Historikk"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:12
-msgid "Preferences"
-msgstr "Innstillingar"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:14
-msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr "Utvidingar og innstillingar kan akkurat no ikkje synkroniserast på mobile einingar."
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:15
-msgid "Save settings"
-msgstr "Lagra innstillingar"
-
-#: .es5/scripts/templates/choose_what_to_sync.mustache:16 .es5/scripts/templates/confirm.mustache:13 .es5/scripts/templates/pp.mustache:3 .es5/scripts/templates/tos.mustache:3
-msgid "Back"
-msgstr "Tilbake"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:1
-msgid "Reset password link expired"
-msgstr "Passordlenke for tilbakestilling utgått"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:2 .es5/scripts/templates/complete_sign_up.mustache:2 .es5/scripts/templates/confirm.mustache:5
-#: .es5/scripts/templates/confirm_reset_password.mustache:2
-msgid "Email resent"
-msgstr "E-post sendt på nytt"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:3
-msgid "The link you clicked to reset your password is expired."
-msgstr "Lenka du trykte på for å tilbakestilla passordet ditt er utgått."
-
-#: .es5/scripts/templates/complete_reset_password.mustache:4
-msgid "Click here to receive a new reset link"
-msgstr "Trykk her for å få ei ny tilbakestillingslenke"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:6
-msgid "Reset password link damaged"
-msgstr "Passordlenke for tilbakestilling skada"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:7 .es5/scripts/templates/complete_sign_up.mustache:8
-msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "Lenka du trykte på manglar nokre teikn, og kan ha blitt skada av e-postklienten. Kopier adressa nøye, og prøv på nytt."
-
-#: .es5/scripts/templates/complete_reset_password.mustache:9
-msgid "Enter new password"
-msgstr "Skriv inn nytt passord"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:10
-msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-msgstr "Når du sender inn det nye passordet ditt, vil du mista alle Sync-data som ikkje er på nokon av einingane dine."
-
-#: .es5/scripts/templates/complete_reset_password.mustache:11 .es5/scripts/templates/reset_password.mustache:3
-msgid "Learn how Sync works."
-msgstr "Lær korleis Sync fungerar."
-
-#: .es5/scripts/templates/complete_reset_password.mustache:13 .es5/scripts/templates/settings/change_password.mustache:7
-msgid "New password"
-msgstr "Nytt passord"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:14 .es5/scripts/templates/complete_reset_password.mustache:17 .es5/scripts/templates/force_auth.mustache:5
-#: .es5/scripts/templates/sign_in.mustache:9 .es5/scripts/templates/sign_in.mustache:21 .es5/scripts/templates/sign_up.mustache:17 .es5/scripts/templates/settings/change_password.mustache:5
-#: .es5/scripts/templates/settings/change_password.mustache:8 .es5/scripts/templates/settings/delete_account.mustache:5 .es5/scripts/templates/settings/devices.mustache:3
-msgid "Show"
-msgstr "Vis"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:16
-msgid "Repeat password"
-msgstr "Gjenta passord"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:18
-msgid "Submit new password"
-msgstr "Spesifiser nytt passord"
-
-#: .es5/scripts/templates/complete_sign_up.mustache:1
-msgid "Verification link expired"
-msgstr "Stadfestingslenka har gått ut"
-
-#: .es5/scripts/templates/complete_sign_up.mustache:4
-msgid "Click here to receive a new verification link"
-msgstr "Trykk her for å få ei ny stadfestingslenke"
-
-#: .es5/scripts/templates/complete_sign_up.mustache:10
-msgid "Verification error"
-msgstr "Stadfestingsfeil"
-
-#: .es5/scripts/templates/confirm.mustache:1
-msgid "Confirm your account"
-msgstr "Stadfest kontoen din"
-
-#: .es5/scripts/templates/confirm.mustache:3
-msgid "Confirm this sign-in"
-msgstr "Stadfest denne innlogginga"
-
-#: .es5/scripts/templates/confirm.mustache:6 .es5/scripts/templates/confirm_reset_password.mustache:3
-msgid "Email Sent"
-msgstr "E-post sendt"
-
-#: .es5/scripts/templates/confirm.mustache:7
-msgid "A verification link has been sent&nbsp;to %(email)s"
-msgstr "Ei stadfestingslenke er sendt&nbsp;til %(email)s"
-
-#: .es5/scripts/templates/confirm.mustache:9
-msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr "For å betre beskytta dine Firefox-data, har vi sendt ei stadfestingslenke på e-post til %(email)s"
-
-#: .es5/scripts/templates/confirm.mustache:12 .es5/scripts/templates/confirm.mustache:14
-msgid "Didn't arrive? Resend"
-msgstr "Ikkje komen? Send på nytt"
-
-#: .es5/scripts/templates/confirm_reset_password.mustache:1
-msgid "Reset email sent"
-msgstr "E-post for stadfesting sendt"
-
-#: .es5/scripts/templates/confirm_reset_password.mustache:4
-msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-msgstr "Trykk på lenka vi har sendt til deg på %(email)s innan ein time, for å laga eit nytt passord."
-
-#: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:7
-#: .es5/scripts/templates/reset_password.mustache:9
-msgid "Remember password? Sign in."
-msgstr "Hugsar du passordet ditt? Logg inn."
-
-#: .es5/scripts/templates/confirm_reset_password.mustache:9
-msgid "Resend email"
-msgstr "Send e-post på nytt"
-
-#: .es5/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required."
-msgstr "Infokapslar og lokal lagring er påkravd."
-
-#: .es5/scripts/templates/cookies_disabled.mustache:2
-msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Slå på infokapslar og lokal lagring i netlesaren din for å få tilgang til Firefox-kontoar. Dette vil t.d. slå på funksjonalitet som at du vert hugsa mellom økter."
-
-#: .es5/scripts/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "Les meir"
-
-#: .es5/scripts/templates/cookies_disabled.mustache:4
-msgid "Try again"
-msgstr "Prøv på nytt"
-
-#: .es5/scripts/templates/force_auth.mustache:1
-msgid "Sign in to continue"
-msgstr "Logg inn for å halda fram"
-
-#: .es5/scripts/templates/force_auth.mustache:3 .es5/scripts/templates/sign_in.mustache:8 .es5/scripts/templates/sign_in.mustache:19 .es5/scripts/templates/sign_up.mustache:15
-#: .es5/scripts/templates/settings/change_password.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:4
-msgid "Password"
-msgstr "Passord"
-
-#: .es5/scripts/templates/force_auth.mustache:6 .es5/scripts/templates/sign_in.mustache:1 .es5/scripts/templates/sign_in.mustache:4 .es5/scripts/templates/sign_in.mustache:10
-#: .es5/scripts/templates/sign_in.mustache:14 .es5/scripts/templates/sign_in.mustache:22
-msgid "Sign in"
-msgstr "Logg inn"
-
-#: .es5/scripts/templates/force_auth.mustache:7 .es5/scripts/templates/sign_in.mustache:11 .es5/scripts/templates/sign_in.mustache:23 .es5/scripts/templates/settings/change_password.mustache:6
-msgid "Forgot password?"
-msgstr "Gløymt passordet?"
-
-#: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Ved å fortsetta seier du deg samd i <a id=\"fxa-tos\" href=\"/legal/terms\">tenestevilkåra</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\">personvernmerknaden</a> of Firefox cloud services."
-
-#: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
-msgid "Firefox cloud services"
-msgstr "Firefox skytenester"
-
-#: .es5/scripts/templates/legal.mustache:2
-msgid "Legal"
-msgstr "Juridisk"
-
-#: .es5/scripts/templates/legal.mustache:3 .es5/scripts/templates/settings.mustache:5 .es5/scripts/templates/tos.mustache:2
-msgid "Terms of Service"
-msgstr "Tenestevilkår"
-
-#: .es5/scripts/templates/legal.mustache:4 .es5/scripts/templates/pp.mustache:2 .es5/scripts/templates/settings.mustache:6
-msgid "Privacy Notice"
-msgstr "Personvernmerknad"
-
-#: .es5/scripts/templates/marketing_snippet.mustache:1
-msgid "Stay in sync on the go:"
-msgstr "Ver synkronisert, heile tida:"
-
-#: .es5/scripts/templates/marketing_snippet.mustache:2
-msgid "Get Firefox for Android"
-msgstr "Last ned Firefox for Android"
-
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:1 .es5/scripts/templates/marketing_snippet_ios.mustache:5 .es5/scripts/templates/marketing_snippet_ios.mustache:9
-msgid "Get the full Sync experience."
-msgstr "Få full Sync-oppleving."
-
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:2 .es5/scripts/templates/marketing_snippet_ios.mustache:3 .es5/scripts/templates/marketing_snippet_ios.mustache:12
-msgid "Download Firefox for iOS!"
-msgstr "Last ned Firefox for iOS!"
-
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:6 .es5/scripts/templates/marketing_snippet_ios.mustache:7 .es5/scripts/templates/marketing_snippet_ios.mustache:11
-msgid "Download Firefox for Android."
-msgstr "Last ned Firefox for Android."
-
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:10
-msgid "Download Firefox for mobile devices."
-msgstr "Last ned Firefox for mobile einingar."
-
-#: .es5/scripts/templates/permissions.mustache:1 .es5/scripts/templates/settings/gravatar_permissions.mustache:1
-msgid "Request for permission"
-msgstr "Førespurnad om løyve"
-
-#: .es5/scripts/templates/permissions.mustache:2 .es5/scripts/templates/settings/gravatar_permissions.mustache:2
-msgid "%(serviceName)s wants the following information from your account:"
-msgstr "%(serviceName)s ønskjer følgjande informasjon frå kontoen din:"
-
-#: .es5/scripts/templates/permissions.mustache:3 .es5/scripts/templates/settings/gravatar_permissions.mustache:4
-msgid "Accept"
-msgstr "Godta"
-
-#: .es5/scripts/templates/permissions.mustache:4 .es5/scripts/templates/settings/avatar_camera.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:3
-#: .es5/scripts/templates/settings/avatar_gravatar.mustache:3 .es5/scripts/templates/settings/change_password.mustache:11 .es5/scripts/templates/settings/communication_preferences.mustache:5
-#: .es5/scripts/templates/settings/communication_preferences.mustache:13 .es5/scripts/templates/settings/delete_account.mustache:7 .es5/scripts/templates/settings/display_name.mustache:6
-#: .es5/scripts/templates/settings/gravatar_permissions.mustache:5
-msgid "Cancel"
-msgstr "Avbryt"
-
-#: .es5/scripts/templates/ready.mustache:1
-msgid "Success"
-msgstr "Vellykka"
-
-#: .es5/scripts/templates/ready.mustache:2
-msgid "Sync preferences"
-msgstr "Sync-innstillingar"
-
-#: .es5/scripts/templates/ready.mustache:6
-msgid "Proceed"
-msgstr "Hald fram"
-
-#: .es5/scripts/templates/ready.mustache:9
-msgid "Your account is ready!"
-msgstr "Kontoen din er klar!"
-
-#: .es5/scripts/templates/reset_password.mustache:1
-msgid "Forgot password"
-msgstr "Gløymt passord"
-
-#: .es5/scripts/templates/reset_password.mustache:2
-msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr "Når du tilbakestiller passordet ditt, vil du mista alle Sync-data som ikkje er på nokon av einingane dine."
-
-#: .es5/scripts/templates/reset_password.mustache:5 .es5/scripts/templates/sign_in.mustache:18 .es5/scripts/templates/sign_up.mustache:13
-#: .es5/scripts/templates/settings/gravatar_permissions.mustache:3
-msgid "Email"
-msgstr "E-post"
-
-#: .es5/scripts/templates/settings.mustache:1
-msgid "Firefox Accounts"
-msgstr "Firefox-kontoar"
-
-#: .es5/scripts/templates/settings.mustache:2
-msgid "Sign out"
-msgstr "Logg ut"
-
-#: .es5/scripts/templates/sign_in.mustache:2 .es5/scripts/templates/sign_up.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "Fortset til %(serviceName)s"
-
-#: .es5/scripts/templates/sign_in.mustache:6
-msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr "Migrer dine sync-data ved å logga inn på Firefox-kontoen din."
-
-#: .es5/scripts/templates/sign_in.mustache:12 .es5/scripts/templates/sign_in.mustache:15
-msgid "Use a different account"
-msgstr "Bruk ein annan konto"
-
-#: .es5/scripts/templates/sign_in.mustache:24
-msgid "Create an account"
-msgstr "Opprett ein konto"
-
-#: .es5/scripts/templates/sign_up.mustache:1 .es5/scripts/templates/sign_up.mustache:4
-msgid "Create a Firefox Account"
-msgstr "Opprett ein Firefox-konto"
-
-#: .es5/scripts/templates/sign_up.mustache:6
-msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
-msgstr "Ser du etter Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Kom i gang her.</a>"
-
-#: .es5/scripts/templates/sign_up.mustache:8
-msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr "Migrer sync-data ved å oppretta ein ny Firefox-konto."
-
-#: .es5/scripts/templates/sign_up.mustache:10
-msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
-msgstr "Har du ein konto med ein annan e-post? <a href=\"%(signinUri)s\">Logg inn</a>"
-
-#: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
-msgid "Send me the monthly Firefox newsletter."
-msgstr "Send meg Firefox sitt månadlege nyheitsbrev."
-
-#: .es5/scripts/templates/sign_up.mustache:22
-msgid "Create account"
-msgstr "Opprett konto"
-
-#: .es5/scripts/templates/sign_up.mustache:27
-msgid "Have an account? Sign in."
-msgstr "Har du ein konto? Logg inn."
-
-#: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2
-#: .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/communication_preferences.mustache:4 .es5/scripts/templates/settings/display_name.mustache:2
-#: .es5/scripts/templates/settings/display_name.mustache:5
-msgid "Change"
-msgstr "Endra"
-
-#: .es5/scripts/templates/settings/avatar.mustache:4
-msgid "Add"
-msgstr "Legg til"
-
-#: .es5/scripts/templates/settings/avatar_camera.mustache:1
-msgid "Take picture"
-msgstr "Ta eit bilde"
-
-#: .es5/scripts/templates/settings/avatar_change.mustache:1
-msgid "Upload"
-msgstr "Last opp"
-
-#: .es5/scripts/templates/settings/avatar_change.mustache:2
-msgid "Camera"
-msgstr "Kamera"
-
-#: .es5/scripts/templates/settings/avatar_change.mustache:3
-msgid "Gravatar"
-msgstr "Gravatar"
-
-#: .es5/scripts/templates/settings/avatar_change.mustache:4
-msgid "Clear"
-msgstr "Tøm"
-
-#: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/devices.mustache:12
-msgid "Done"
-msgstr "Ferdig"
-
-#: .es5/scripts/templates/settings/avatar_crop.mustache:1
-msgid "Position and rotate your picture as needed"
-msgstr "Plasser og roter bildet etter behov"
-
-#: .es5/scripts/templates/settings/avatar_gravatar.mustache:2
-msgid "Save"
-msgstr "Lagra"
-
-#: .es5/scripts/templates/settings/change_password.mustache:3
-msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "Når du er ferdig, bruk det nye passordet ditt for å logga inn på alle einingane dine."
-
-#: .es5/scripts/templates/settings/change_password.mustache:4
-msgid "Old password"
-msgstr "Gammalt passord"
-
-#: .es5/scripts/templates/settings/communication_preferences.mustache:3
-msgid "Communication preferences"
-msgstr "Kommunikasjonsinnstillingar"
-
-#: .es5/scripts/templates/settings/communication_preferences.mustache:8
-msgid "Email preferences"
-msgstr "E-post innstillingar"
-
-#: .es5/scripts/templates/settings/communication_preferences.mustache:10
-msgid "Unsubscribe"
-msgstr "Abonner"
-
-#: .es5/scripts/templates/settings/communication_preferences.mustache:12
-msgid "Subscribe"
-msgstr "Ikkje abonner"
-
-#: .es5/scripts/templates/settings/delete_account.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:6
-msgid "Delete account"
-msgstr "Slett konto"
-
-#: .es5/scripts/templates/settings/delete_account.mustache:2
-msgid "Delete"
-msgstr "Slett"
-
-#: .es5/scripts/templates/settings/delete_account.mustache:3
-msgid "Are you sure you want to delete your account? This action cannot be undone."
-msgstr "Er du sikker på at du vil sletta kontoen? Dette kan ikkje gjerast om."
-
-#: .es5/scripts/templates/settings/devices.mustache:2
-msgid "Devices"
-msgstr "Einingar"
-
-#: .es5/scripts/templates/settings/devices.mustache:4
-msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-"href=\"%(linkLinux)s\">Linux</a>."
-msgstr ""
-"Firefox er tilgjengeleg for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> og <a "
-"href=\"%(linkLinux)s\">Linux</a>."
-
-#: .es5/scripts/templates/settings/devices.mustache:5
-msgid "You can manage your devices below."
-msgstr "Du kan handtera einingane nedanfor."
-
-#: .es5/scripts/templates/settings/devices.mustache:6
-msgid "current device"
-msgstr "denne eininga"
-
-#: .es5/scripts/templates/settings/devices.mustache:8
-msgid "Disconnect"
-msgstr "Kopla frå"
-
-#: .es5/scripts/templates/settings/devices.mustache:10
-msgid "Don't see all your devices?"
-msgstr "Ser du ikkje alle einingane dine?"
-
-#: .es5/scripts/templates/settings/devices.mustache:11
-msgid "Refresh"
-msgstr "Oppdater"
-
-#: .es5/scripts/templates/settings/display_name.mustache:3
-msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr "Vel namnet du vil skal visast i Firefox og når du handterar kontoen din."
-
-#: .es5/scripts/templates/partial/coppa-age-input.mustache:1
-msgid "How old are you?"
-msgstr "Kor gammal er du?"
-
-#: .es5/scripts/templates/openid/start.mustache:1
-msgid "Sign in to Sync"
-msgstr "Logg inn på Sync"
-
-#: .es5/scripts/templates/openid/start.mustache:2
-msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-msgstr "Vel kontoen du vil bruka for å synkronisera faner, bokmerke, passord, og mykje meir, med."
-
-#: .es5/scripts/templates/openid/start.mustache:3
-msgid "Use OpenID"
-msgstr "Bruk OpenID"
-
-#: .es5/scripts/templates/openid/start.mustache:4
-msgid "Use Firefox Account"
-msgstr "Bruk Firefox-kontoen"
+#~ msgid "days ago"
+#~ msgstr "dagar sidan"
+
+#~ msgid "hours ago"
+#~ msgstr "timar sidan"
+
+#~ msgid "minutes ago"
+#~ msgstr "minutt sidan"
+
+#~ msgid "months ago"
+#~ msgstr "månadar sidan"
+
+#~ msgid "seconds ago"
+#~ msgstr "sekund sidan"
+
+#~ msgid "weeks ago"
+#~ msgstr "veker sidan"
+
+#~ msgid "years ago"
+#~ msgstr "år sidan"
+
+#~ msgid "Bad Request"
+#~ msgstr "Ugyldig ørespurnad"
+
+#~ msgid "500 Error"
+#~ msgstr "Feil 500"
+
+#~ msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+#~ msgstr "Oj, noko gjekk gale. Vi har blitt informert, og vil gå i gang med å løysa problemet."
+
+#~ msgid "Cannot create account"
+#~ msgstr "Klarte ikkje å oppretta konto"
+
+#~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
+#~ msgstr "Du må oppfylla visse alderskrav for å oppretta ein Firefox-konto."
+
+#~ msgid "Learn more."
+#~ msgstr "Les meir."
+
+#~ msgid "Choose what to sync"
+#~ msgstr "Vel kva som skal synkroniserast"
+
+#~ msgid "Tabs"
+#~ msgstr "Faner"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Bokmerke"
+
+#~ msgid "Add-ons"
+#~ msgstr "Utvidingar"
+
+#~ msgid "Passwords"
+#~ msgstr "Passord"
+
+#~ msgid "History"
+#~ msgstr "Historikk"
+
+#~ msgid "Preferences"
+#~ msgstr "Innstillingar"
+
+#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
+#~ msgstr "Utvidingar og innstillingar kan akkurat no ikkje synkroniserast på mobile einingar."
+
+#~ msgid "Save settings"
+#~ msgstr "Lagra innstillingar"
+
+#~ msgid "Back"
+#~ msgstr "Tilbake"
+
+#~ msgid "Reset password link expired"
+#~ msgstr "Passordlenke for tilbakestilling utgått"
+
+#~ msgid "Email resent"
+#~ msgstr "E-post sendt på nytt"
+
+#~ msgid "The link you clicked to reset your password is expired."
+#~ msgstr "Lenka du trykte på for å tilbakestilla passordet ditt er utgått."
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "Trykk her for å få ei ny tilbakestillingslenke"
+
+#~ msgid "Reset password link damaged"
+#~ msgstr "Passordlenke for tilbakestilling skada"
+
+#~ msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
+#~ msgstr "Lenka du trykte på manglar nokre teikn, og kan ha blitt skada av e-postklienten. Kopier adressa nøye, og prøv på nytt."
+
+#~ msgid "Enter new password"
+#~ msgstr "Skriv inn nytt passord"
+
+#~ msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "Når du sender inn det nye passordet ditt, vil du mista alle Sync-data som ikkje er på nokon av einingane dine."
+
+#~ msgid "Learn how Sync works."
+#~ msgstr "Lær korleis Sync fungerar."
+
+#~ msgid "New password"
+#~ msgstr "Nytt passord"
+
+#~ msgid "Show"
+#~ msgstr "Vis"
+
+#~ msgid "Repeat password"
+#~ msgstr "Gjenta passord"
+
+#~ msgid "Submit new password"
+#~ msgstr "Spesifiser nytt passord"
+
+#~ msgid "Verification link expired"
+#~ msgstr "Stadfestingslenka har gått ut"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "Trykk her for å få ei ny stadfestingslenke"
+
+#~ msgid "Verification error"
+#~ msgstr "Stadfestingsfeil"
+
+#~ msgid "Confirm your account"
+#~ msgstr "Stadfest kontoen din"
+
+#~ msgid "Confirm this sign-in"
+#~ msgstr "Stadfest denne innlogginga"
+
+#~ msgid "Email Sent"
+#~ msgstr "E-post sendt"
+
+#~ msgid "A verification link has been sent&nbsp;to %(email)s"
+#~ msgstr "Ei stadfestingslenke er sendt&nbsp;til %(email)s"
+
+#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+#~ msgstr "For å betre beskytta dine Firefox-data, har vi sendt ei stadfestingslenke på e-post til %(email)s"
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "Ikkje komen? Send på nytt"
+
+#~ msgid "Reset email sent"
+#~ msgstr "E-post for stadfesting sendt"
+
+#~ msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
+#~ msgstr "Trykk på lenka vi har sendt til deg på %(email)s innan ein time, for å laga eit nytt passord."
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "Hugsar du passordet ditt? Logg inn."
+
+#~ msgid "Resend email"
+#~ msgstr "Send e-post på nytt"
+
+#~ msgid "Cookies and local storage are required."
+#~ msgstr "Infokapslar og lokal lagring er påkravd."
+
+#~ msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
+#~ msgstr "Slå på infokapslar og lokal lagring i netlesaren din for å få tilgang til Firefox-kontoar. Dette vil t.d. slå på funksjonalitet som at du vert hugsa mellom økter."
+
+#~ msgid "Learn more"
+#~ msgstr "Les meir"
+
+#~ msgid "Try again"
+#~ msgstr "Prøv på nytt"
+
+#~ msgid "Sign in to continue"
+#~ msgstr "Logg inn for å halda fram"
+
+#~ msgid "Password"
+#~ msgstr "Passord"
+
+#~ msgid "Sign in"
+#~ msgstr "Logg inn"
+
+#~ msgid "Forgot password?"
+#~ msgstr "Gløymt passordet?"
+
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr ""
+#~ "Ved å fortsetta seier du deg samd i <a id=\"fxa-tos\" href=\"/legal/terms\">tenestevilkåra</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\">personvernmerknaden</a> of Firefox cloud services."
+
+#~ msgid "Firefox cloud services"
+#~ msgstr "Firefox skytenester"
+
+#~ msgid "Legal"
+#~ msgstr "Juridisk"
+
+#~ msgid "Terms of Service"
+#~ msgstr "Tenestevilkår"
+
+#~ msgid "Privacy Notice"
+#~ msgstr "Personvernmerknad"
+
+#~ msgid "Stay in sync on the go:"
+#~ msgstr "Ver synkronisert, heile tida:"
+
+#~ msgid "Get Firefox for Android"
+#~ msgstr "Last ned Firefox for Android"
+
+#~ msgid "Get the full Sync experience."
+#~ msgstr "Få full Sync-oppleving."
+
+#~ msgid "Download Firefox for iOS!"
+#~ msgstr "Last ned Firefox for iOS!"
+
+#~ msgid "Download Firefox for Android."
+#~ msgstr "Last ned Firefox for Android."
+
+#~ msgid "Download Firefox for mobile devices."
+#~ msgstr "Last ned Firefox for mobile einingar."
+
+#~ msgid "Request for permission"
+#~ msgstr "Førespurnad om løyve"
+
+#~ msgid "%(serviceName)s wants the following information from your account:"
+#~ msgstr "%(serviceName)s ønskjer følgjande informasjon frå kontoen din:"
+
+#~ msgid "Accept"
+#~ msgstr "Godta"
+
+#~ msgid "Cancel"
+#~ msgstr "Avbryt"
+
+#~ msgid "Success"
+#~ msgstr "Vellykka"
+
+#~ msgid "Sync preferences"
+#~ msgstr "Sync-innstillingar"
+
+#~ msgid "Proceed"
+#~ msgstr "Hald fram"
+
+#~ msgid "Your account is ready!"
+#~ msgstr "Kontoen din er klar!"
+
+#~ msgid "Forgot password"
+#~ msgstr "Gløymt passord"
+
+#~ msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "Når du tilbakestiller passordet ditt, vil du mista alle Sync-data som ikkje er på nokon av einingane dine."
+
+#~ msgid "Email"
+#~ msgstr "E-post"
+
+#~ msgid "Firefox Accounts"
+#~ msgstr "Firefox-kontoar"
+
+#~ msgid "Sign out"
+#~ msgstr "Logg ut"
+
+#~ msgid "Continue to %(serviceName)s"
+#~ msgstr "Fortset til %(serviceName)s"
+
+#~ msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
+#~ msgstr "Migrer dine sync-data ved å logga inn på Firefox-kontoen din."
+
+#~ msgid "Use a different account"
+#~ msgstr "Bruk ein annan konto"
+
+#~ msgid "Create an account"
+#~ msgstr "Opprett ein konto"
+
+#~ msgid "Create a Firefox Account"
+#~ msgstr "Opprett ein Firefox-konto"
+
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
+#~ msgstr "Ser du etter Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Kom i gang her.</a>"
+
+#~ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
+#~ msgstr "Migrer sync-data ved å oppretta ein ny Firefox-konto."
+
+#~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+#~ msgstr "Har du ein konto med ein annan e-post? <a href=\"%(signinUri)s\">Logg inn</a>"
+
+#~ msgid "Send me the monthly Firefox newsletter."
+#~ msgstr "Send meg Firefox sitt månadlege nyheitsbrev."
+
+#~ msgid "Create account"
+#~ msgstr "Opprett konto"
+
+#~ msgid "Have an account? Sign in."
+#~ msgstr "Har du ein konto? Logg inn."
+
+#~ msgid "Change"
+#~ msgstr "Endra"
+
+#~ msgid "Add"
+#~ msgstr "Legg til"
+
+#~ msgid "Take picture"
+#~ msgstr "Ta eit bilde"
+
+#~ msgid "Upload"
+#~ msgstr "Last opp"
+
+#~ msgid "Camera"
+#~ msgstr "Kamera"
+
+#~ msgid "Gravatar"
+#~ msgstr "Gravatar"
+
+#~ msgid "Clear"
+#~ msgstr "Tøm"
+
+#~ msgid "Done"
+#~ msgstr "Ferdig"
+
+#~ msgid "Position and rotate your picture as needed"
+#~ msgstr "Plasser og roter bildet etter behov"
+
+#~ msgid "Save"
+#~ msgstr "Lagra"
+
+#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
+#~ msgstr "Når du er ferdig, bruk det nye passordet ditt for å logga inn på alle einingane dine."
+
+#~ msgid "Old password"
+#~ msgstr "Gammalt passord"
+
+#~ msgid "Communication preferences"
+#~ msgstr "Kommunikasjonsinnstillingar"
+
+#~ msgid "Email preferences"
+#~ msgstr "E-post innstillingar"
+
+#~ msgid "Unsubscribe"
+#~ msgstr "Abonner"
+
+#~ msgid "Subscribe"
+#~ msgstr "Ikkje abonner"
+
+#~ msgid "Delete account"
+#~ msgstr "Slett konto"
+
+#~ msgid "Delete"
+#~ msgstr "Slett"
+
+#~ msgid "Are you sure you want to delete your account? This action cannot be undone."
+#~ msgstr "Er du sikker på at du vil sletta kontoen? Dette kan ikkje gjerast om."
+
+#~ msgid "Devices"
+#~ msgstr "Einingar"
+
+#~ msgid ""
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox er tilgjengeleg for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> og <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+
+#~ msgid "You can manage your devices below."
+#~ msgstr "Du kan handtera einingane nedanfor."
+
+#~ msgid "current device"
+#~ msgstr "denne eininga"
+
+#~ msgid "Disconnect"
+#~ msgstr "Kopla frå"
+
+#~ msgid "Don't see all your devices?"
+#~ msgstr "Ser du ikkje alle einingane dine?"
+
+#~ msgid "Refresh"
+#~ msgstr "Oppdater"
+
+#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
+#~ msgstr "Vel namnet du vil skal visast i Firefox og når du handterar kontoen din."
+
+#~ msgid "How old are you?"
+#~ msgstr "Kor gammal er du?"
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "Logg inn på Sync"
+
+#~ msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
+#~ msgstr "Vel kontoen du vil bruka for å synkronisera faner, bokmerke, passord, og mykje meir, med."
+
+#~ msgid "Use OpenID"
+#~ msgstr "Bruk OpenID"
+
+#~ msgid "Use Firefox Account"
+#~ msgstr "Bruk Firefox-kontoen"
 
 #~ msgid "Account unlocked, please try again"
 #~ msgstr "Kontoen er låst opp, prøv på nytt"
