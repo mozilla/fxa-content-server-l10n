@@ -117,15 +117,15 @@ msgstr "Dernière activité : il y a quelques mois"
 
 #: .es5/scripts/views/settings/devices.js:32
 msgid "Last active: seconds ago"
-msgstr ""
+msgstr "Dernière activité : il y a quelques secondes"
 
 #: .es5/scripts/views/settings/devices.js:34
 msgid "Last active: weeks ago"
-msgstr ""
+msgstr "Dernière activité : il y a quelques semaines"
 
 #: .es5/scripts/views/settings/devices.js:35
 msgid "Last active: years ago"
-msgstr ""
+msgstr "Dernière activité : il y a quelques années"
 
 #: .es5/scripts/views/settings/display_name.js:50
 msgid "Display name updated"
