@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-25 20:11+0000\n"
-"PO-Revision-Date: 2016-07-11 23:48+0000\n"
+"POT-Creation-Date: 2016-08-09 14:02+0000\n"
+"PO-Revision-Date: 2016-07-28 00:42+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: .es5/scripts/views/complete_reset_password.js:123 .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:130 .es5/scripts/views/confirm_reset_password.js:177
+#: .es5/scripts/views/complete_reset_password.js:124 .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:131 .es5/scripts/views/confirm_reset_password.js:177
 msgid "Account verified successfully"
 msgstr "Conta confirmada com sucesso"
 
@@ -66,7 +66,7 @@ msgstr "Está pronto para utilizar o %(serviceName)s"
 msgid "Account verified"
 msgstr "Conta confirmada"
 
-#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:151
+#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:152
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Conta desconhecida. <a href=\"/signup\">Criar conta</a>"
 
@@ -82,7 +82,7 @@ msgstr "A conta já existe. <a href=\"/signin\">Inicie sessão</a>"
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "Cortesia do <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
-#: .es5/scripts/views/settings/change_password.js:39
+#: .es5/scripts/views/settings/change_password.js:47
 msgid "Password changed successfully"
 msgstr "Palavra-passe alterada com sucesso"
 
@@ -99,42 +99,42 @@ msgid "Account deleted successfully"
 msgstr "Conta apagada com sucesso"
 
 #: .es5/scripts/views/settings/devices.js:28
-msgid "days ago"
-msgstr "dias atrás"
+msgid "Last active: days ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:29
-msgid "hours ago"
-msgstr "horas atrás"
+msgid "Last active: hours ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:30
-msgid "minutes ago"
-msgstr "minutos atrás"
+msgid "Last active: minutes ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:31
-msgid "months ago"
-msgstr "meses atrás"
+msgid "Last active: months ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:32
-msgid "seconds ago"
-msgstr "segundos atrás"
+msgid "Last active: seconds ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:34
-msgid "weeks ago"
-msgstr "semanas atrás"
+msgid "Last active: weeks ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:35
-msgid "years ago"
-msgstr "anos atrás"
+msgid "Last active: years ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/display_name.js:50
 msgid "Display name updated"
 msgstr "Nome de apresentação atualizado"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/lib/auth-errors.js:107
+#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/lib/auth-errors.js:107
 msgid "Your account has been locked for security reasons"
 msgstr "A sua conta foi bloqueada por motivos de segurança"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/templates/reset_password.mustache:6
+#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/templates/reset_password.mustache:6
 msgid "Reset password"
 msgstr "Repor palavra-passe"
 
@@ -156,21 +156,21 @@ msgstr "Abrir Outlook"
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:21
 msgid "8 characters minimum, but longer if you plan to sync passwords."
-msgstr ""
+msgstr "No mínimo 8 caracteres, mas mais longa se planeia sincronizar palavras-passe."
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/templates/sign_up.mustache:18
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr ""
+msgstr "Uma palavra-passe forte e única irá manter os seus dados do Firefox seguros de intrusos."
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:23
 msgid "This is a common password; please consider another one."
-msgstr ""
+msgstr "Esta é uma palavra-passe comum; por favor considere outra."
 
 #: .es5/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
 msgstr "Terminou sessão com sucesso"
 
-#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:76 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
+#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:79 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
 #: .es5/scripts/lib/profile-errors.js:47 .es5/scripts/lib/require-on-demand.js:33 .es5/scripts/lib/require-on-demand.js:37 .es5/scripts/lib/require-on-demand.js:41
 #: .es5/scripts/lib/require-on-demand.js:45
 msgid "Unexpected error"
@@ -252,7 +252,7 @@ msgstr "Servidor ocupado, tente mais tarde"
 msgid "This endpoint is no longer supported"
 msgstr "Este endpoint não é mais suportado"
 
-#: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:72 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
+#: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:75 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
 #: .es5/scripts/lib/oauth-errors.js:80 .es5/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Sistema indisponível, tente mais tarde"
@@ -455,19 +455,19 @@ msgstr "Obtenha as últimas notícias sobre a Mozilla e o Firefox."
 
 #: .es5/scripts/lib/strings.js:31
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (estimado)"
 
 #: .es5/scripts/lib/strings.js:32
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (estimado)"
 
 #: .es5/scripts/lib/strings.js:33
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "Endereço IP: %(ip)s"
 
 #: .es5/scripts/lib/strings.js:34
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "Para segurança adicional, por favor confirme este início de sessão para começar a sincronizar com este dispositivo:"
 
 #: .es5/scripts/templates/400.mustache:1
 msgid "Bad Request"
@@ -954,6 +954,27 @@ msgstr "Utilizar o OpenID"
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Utilizar Conta Firefox"
+
+#~ msgid "days ago"
+#~ msgstr "dias atrás"
+
+#~ msgid "hours ago"
+#~ msgstr "horas atrás"
+
+#~ msgid "minutes ago"
+#~ msgstr "minutos atrás"
+
+#~ msgid "months ago"
+#~ msgstr "meses atrás"
+
+#~ msgid "seconds ago"
+#~ msgstr "segundos atrás"
+
+#~ msgid "weeks ago"
+#~ msgstr "semanas atrás"
+
+#~ msgid "years ago"
+#~ msgstr "anos atrás"
 
 #~ msgid "Account unlocked, please try again"
 #~ msgstr "Conta desbloqueada. Por favor, volte a tentar"

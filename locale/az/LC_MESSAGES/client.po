@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-25 20:11+0000\n"
+"POT-Creation-Date: 2016-08-09 14:02+0000\n"
 "PO-Revision-Date: 2016-08-02 16:33+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1440857927.0\n"
 
-#: .es5/scripts/views/complete_reset_password.js:123 .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:130 .es5/scripts/views/confirm_reset_password.js:177
+#: .es5/scripts/views/complete_reset_password.js:124 .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:131 .es5/scripts/views/confirm_reset_password.js:177
 msgid "Account verified successfully"
 msgstr "Hesab uğurla təsdiqləndi"
 
@@ -67,7 +67,7 @@ msgstr "Artıq %(serviceName)s işlətməyə hazırsınız"
 msgid "Account verified"
 msgstr "Hesab təsdiqləndi"
 
-#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:151
+#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:152
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Bilinməyən hesab. <a href=\"/signup\">Qeydiyyat</a>"
 
@@ -83,7 +83,7 @@ msgstr "Hesab artıq mövcuddur. <a href=\"/signin\">Daxil ol</a>"
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> təmini ilə"
 
-#: .es5/scripts/views/settings/change_password.js:39
+#: .es5/scripts/views/settings/change_password.js:47
 msgid "Password changed successfully"
 msgstr "Şifrə uğurla dəyişdirildi"
 
@@ -100,42 +100,42 @@ msgid "Account deleted successfully"
 msgstr "Hesab uğurla silindi"
 
 #: .es5/scripts/views/settings/devices.js:28
-msgid "days ago"
-msgstr "günlər əvvəl"
+msgid "Last active: days ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:29
-msgid "hours ago"
-msgstr "saatlar əvvəl"
+msgid "Last active: hours ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:30
-msgid "minutes ago"
-msgstr "dəqiqələr əvvəl"
+msgid "Last active: minutes ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:31
-msgid "months ago"
-msgstr "aylar əvvəl"
+msgid "Last active: months ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:32
-msgid "seconds ago"
-msgstr "saniyələr əvvəl"
+msgid "Last active: seconds ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:34
-msgid "weeks ago"
-msgstr "həftələr əvvəl"
+msgid "Last active: weeks ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:35
-msgid "years ago"
-msgstr "illər əvvəl"
+msgid "Last active: years ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/display_name.js:50
 msgid "Display name updated"
 msgstr "Görüntülənmə adı yeniləndi"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/lib/auth-errors.js:107
+#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/lib/auth-errors.js:107
 msgid "Your account has been locked for security reasons"
 msgstr "Hesabınız təhlükəsizlik səbəbləri ilə kilidlənib"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/templates/reset_password.mustache:6
+#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/templates/reset_password.mustache:6
 msgid "Reset password"
 msgstr "Şifrəni sıfırla"
 
@@ -171,7 +171,7 @@ msgstr "Bu çox işlədilən paroldur; lütfən başqa birini seçin."
 msgid "Signed out successfully"
 msgstr "Çıxış uğurlu oldu"
 
-#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:76 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
+#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:79 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
 #: .es5/scripts/lib/profile-errors.js:47 .es5/scripts/lib/require-on-demand.js:33 .es5/scripts/lib/require-on-demand.js:37 .es5/scripts/lib/require-on-demand.js:41
 #: .es5/scripts/lib/require-on-demand.js:45
 msgid "Unexpected error"
@@ -253,7 +253,7 @@ msgstr "Server məşğuldur, daha sonra təkrar yoxlayın"
 msgid "This endpoint is no longer supported"
 msgstr "Uc nöqtə artıq dəstəklənmir"
 
-#: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:72 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
+#: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:75 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
 #: .es5/scripts/lib/oauth-errors.js:80 .es5/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Sistem hazırda əlçatan deyil, daha sonra təkrar yoxlayın"
@@ -439,7 +439,9 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:17
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Davam etməklə %(serviceName) (%(serviceUri)s) xidmətinin <a id=\"service-tos\" href=\"%(termsUri)s\">İstifadə Şərtləri</a> və <a id=\"service-pp\" href=\"%(privacyUri)s\">Məxfilik Bildirişi</a> ilə "
 "razılaşmış olursunuz."
@@ -676,7 +678,8 @@ msgstr "Şifrəni unutmusuz?"
 
 #: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Davam etməklə Firefox bulud xidmətləriniz <a id=\"fxa-tos\" href=\"/legal/terms\">İstifadə Şərtləri</a> və <a id=\"fxa-pp\" href=\"/legal/privacy\">Məxfilik Bildirişi</a> ilə razılaşmış olursunuz."
+msgstr ""
+"Davam etməklə Firefox bulud xidmətləriniz <a id=\"fxa-tos\" href=\"/legal/terms\">İstifadə Şərtləri</a> və <a id=\"fxa-pp\" href=\"/legal/privacy\">Məxfilik Bildirişi</a> ilə razılaşmış olursunuz."
 
 #: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -902,9 +905,11 @@ msgstr "Cihazlar"
 
 #: .es5/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-"href=\"%(linkLinux)s\">Linux</a>."
-msgstr "Firefox <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> və <a href=\"%(linkLinux)s\">Linux</a> üçün mövcuddur."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+"\"%(linkLinux)s\">Linux</a>."
+msgstr ""
+"Firefox <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> və <a href=\"%(linkLinux)s\">Linux</a> "
+"üçün mövcuddur."
 
 #: .es5/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -949,6 +954,27 @@ msgstr "OpenID işlət"
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Firefox Hesabı işlət"
+
+#~ msgid "days ago"
+#~ msgstr "günlər əvvəl"
+
+#~ msgid "hours ago"
+#~ msgstr "saatlar əvvəl"
+
+#~ msgid "minutes ago"
+#~ msgstr "dəqiqələr əvvəl"
+
+#~ msgid "months ago"
+#~ msgstr "aylar əvvəl"
+
+#~ msgid "seconds ago"
+#~ msgstr "saniyələr əvvəl"
+
+#~ msgid "weeks ago"
+#~ msgstr "həftələr əvvəl"
+
+#~ msgid "years ago"
+#~ msgstr "illər əvvəl"
 
 #~ msgid "Account unlocked, please try again"
 #~ msgstr "Hesab kilidi açıldı, lütfən təkrar yoxlayın"
@@ -1039,8 +1065,8 @@ msgstr "Firefox Hesabı işlət"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr ""
-#~ "Parolunuzu sıfırlama serverlərimizdən səyahət məlumatlarınızın silinməsinə səbər olacaq. Cihazlarınızda olan məlumatlar toxunulmaz qalacaq. Sıfırlama işini başlatmaq üçün aşağıda e-poçt ünvanınızı "
-#~ "daxil edin."
+#~ "Parolunuzu sıfırlama serverlərimizdən səyahət məlumatlarınızın silinməsinə səbər olacaq. Cihazlarınızda olan məlumatlar toxunulmaz qalacaq. Sıfırlama işini başlatmaq üçün aşağıda e-poçt "
+#~ "ünvanınızı daxil edin."
 
 #~ msgid "Begin reset"
 #~ msgstr "Sıfırlamağa başla"
@@ -1242,8 +1268,12 @@ msgstr "Firefox Hesabı işlət"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Artıq hesabınız var? Daxil olun."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-#~ msgstr "Davam etməklə %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">İstifadə Qaydaları</a> və <a id=\"service-pp\" href=\"%(privacyUri)s\">Məxfilik Məlumatı</a> ilə razıyam."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
+#~ msgstr ""
+#~ "Davam etməklə %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">İstifadə Qaydaları</a> və <a id=\"service-pp\" href=\"%(privacyUri)s\">Məxfilik Məlumatı</a> ilə "
+#~ "razıyam."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr "Davam etməklə, mən Firefox bulud xidmətlərinin <a id=\"fxa-tos\" href=\"/legal/terms\">İstifadə Şərtləri</a> və <a id=\"fxa-pp\" href=\"/legal/privacy\">Məxfilik Qeydləri</a> ilə razıyam."

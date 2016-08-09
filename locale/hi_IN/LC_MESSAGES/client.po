@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-25 20:11+0000\n"
+"POT-Creation-Date: 2016-08-09 14:02+0000\n"
 "PO-Revision-Date: 2016-03-20 17:04+0000\n"
 "Last-Translator: umesh.agarwal1 <umesh.agarwal1@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1440858924.0\n"
 
-#: .es5/scripts/views/complete_reset_password.js:123 .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:130 .es5/scripts/views/confirm_reset_password.js:177
+#: .es5/scripts/views/complete_reset_password.js:124 .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:131 .es5/scripts/views/confirm_reset_password.js:177
 msgid "Account verified successfully"
 msgstr "खाता सफलतापूर्वक सत्यापित"
 
@@ -69,7 +69,7 @@ msgstr "अब आप %(serviceName)s उपयोग करने के लि
 msgid "Account verified"
 msgstr "खाता सत्यापित"
 
-#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:151
+#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:152
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "अज्ञात खाता.<a href=\"/signup\">साइन अप</a>"
 
@@ -85,7 +85,7 @@ msgstr "खाता पहले से मौजूद है. <a href=\"/sign
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "सौजन्य से <a href=\"https://www.gravatar.com\">ग्रावतार</a>"
 
-#: .es5/scripts/views/settings/change_password.js:39
+#: .es5/scripts/views/settings/change_password.js:47
 msgid "Password changed successfully"
 msgstr "कूटशब्द सफलतापूर्वक बदला गया"
 
@@ -102,42 +102,42 @@ msgid "Account deleted successfully"
 msgstr "खाता सफलतापूर्वक नष्ट किया गया"
 
 #: .es5/scripts/views/settings/devices.js:28
-msgid "days ago"
-msgstr "इतने दिन पहले"
+msgid "Last active: days ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:29
-msgid "hours ago"
+msgid "Last active: hours ago"
 msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:30
-msgid "minutes ago"
+msgid "Last active: minutes ago"
 msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:31
-msgid "months ago"
+msgid "Last active: months ago"
 msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:32
-msgid "seconds ago"
+msgid "Last active: seconds ago"
 msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:34
-msgid "weeks ago"
+msgid "Last active: weeks ago"
 msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:35
-msgid "years ago"
-msgstr "साल पहले"
+msgid "Last active: years ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/display_name.js:50
 msgid "Display name updated"
 msgstr "प्रदर्शित होने वाले नाम का नवीनीकरण हो गया है"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/lib/auth-errors.js:107
+#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/lib/auth-errors.js:107
 msgid "Your account has been locked for security reasons"
 msgstr "आपका खाता सुरक्षा कारणों से बंद कर दिया गया है"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/templates/reset_password.mustache:6
+#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/templates/reset_password.mustache:6
 msgid "Reset password"
 msgstr "कूटशब्द पुनः तैयार करें"
 
@@ -173,7 +173,7 @@ msgstr ""
 msgid "Signed out successfully"
 msgstr "सफलतापूर्वक साइन आउट किया गया"
 
-#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:76 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
+#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:79 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
 #: .es5/scripts/lib/profile-errors.js:47 .es5/scripts/lib/require-on-demand.js:33 .es5/scripts/lib/require-on-demand.js:37 .es5/scripts/lib/require-on-demand.js:41
 #: .es5/scripts/lib/require-on-demand.js:45
 msgid "Unexpected error"
@@ -255,7 +255,7 @@ msgstr "सर्वर व्यस्त, जल्द ही पुन: प�
 msgid "This endpoint is no longer supported"
 msgstr "यह समापन बिंदु अब समर्थित नहीं है"
 
-#: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:72 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
+#: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:75 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
 #: .es5/scripts/lib/oauth-errors.js:80 .es5/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "प्रणाली अनुपलब्ध, जल्द ही पुन: प्रयास करें"
@@ -951,6 +951,12 @@ msgstr ""
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr ""
+
+#~ msgid "days ago"
+#~ msgstr "इतने दिन पहले"
+
+#~ msgid "years ago"
+#~ msgstr "साल पहले"
 
 #~ msgid "Account unlocked, please try again"
 #~ msgstr "खता खुल गया है, पुनः प्रयास करें"

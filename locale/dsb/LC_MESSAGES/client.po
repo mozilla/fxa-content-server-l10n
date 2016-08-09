@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-25 20:11+0000\n"
+"POT-Creation-Date: 2016-08-09 14:02+0000\n"
 "PO-Revision-Date: 2016-07-26 11:57+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444481518.0\n"
 
-#: .es5/scripts/views/complete_reset_password.js:123 .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:130 .es5/scripts/views/confirm_reset_password.js:177
+#: .es5/scripts/views/complete_reset_password.js:124 .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:131 .es5/scripts/views/confirm_reset_password.js:177
 msgid "Account verified successfully"
 msgstr "Konto jo se wuspěšnje pśespytało"
 
@@ -67,7 +67,7 @@ msgstr "Móžośo něnto %(serviceName)s wužywaś"
 msgid "Account verified"
 msgstr "Konto jo wobkšuśone"
 
-#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:151
+#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:152
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Njeznate konto. <a href=\"/signup\">Registrěrowaś</a>"
 
@@ -83,7 +83,7 @@ msgstr "Konto južo eksistěrujo. <a href=\"/signin\">Pśizjawiś</a>"
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "K dispoziciji stajony wót <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
-#: .es5/scripts/views/settings/change_password.js:39
+#: .es5/scripts/views/settings/change_password.js:47
 msgid "Password changed successfully"
 msgstr "Gronidło jo se wuspěšnje změniło"
 
@@ -100,42 +100,42 @@ msgid "Account deleted successfully"
 msgstr "Konto jo se wuspěšnje wulašowało"
 
 #: .es5/scripts/views/settings/devices.js:28
-msgid "days ago"
-msgstr "pśed někotarymi dnjami"
+msgid "Last active: days ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:29
-msgid "hours ago"
-msgstr "pśed někotarymi góźinami"
+msgid "Last active: hours ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:30
-msgid "minutes ago"
-msgstr "pśed někotarymi minutami"
+msgid "Last active: minutes ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:31
-msgid "months ago"
-msgstr "pśed někotarymi mjasecami"
+msgid "Last active: months ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:32
-msgid "seconds ago"
-msgstr "pśed někotarymi sekundami"
+msgid "Last active: seconds ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:34
-msgid "weeks ago"
-msgstr "pśed někotarymi tyźenjami"
+msgid "Last active: weeks ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:35
-msgid "years ago"
-msgstr "pśed někotarymi lětami"
+msgid "Last active: years ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/display_name.js:50
 msgid "Display name updated"
 msgstr "Zwobraznjeńske mě zaktualizěrowane"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/lib/auth-errors.js:107
+#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/lib/auth-errors.js:107
 msgid "Your account has been locked for security reasons"
 msgstr "Wašo konto jo se z wěstotnych pśicynow zastajiło"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/templates/reset_password.mustache:6
+#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/templates/reset_password.mustache:6
 msgid "Reset password"
 msgstr "Gronidło slědk stajiś"
 
@@ -171,7 +171,7 @@ msgstr "To jo ceste gronidło: Pšosym wubjeŕśo druge."
 msgid "Signed out successfully"
 msgstr "Wuspěšnje wótzjawjony"
 
-#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:76 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
+#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:79 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
 #: .es5/scripts/lib/profile-errors.js:47 .es5/scripts/lib/require-on-demand.js:33 .es5/scripts/lib/require-on-demand.js:37 .es5/scripts/lib/require-on-demand.js:41
 #: .es5/scripts/lib/require-on-demand.js:45
 msgid "Unexpected error"
@@ -253,7 +253,7 @@ msgstr "Serwer jo póśěźony, wopytajśo za krotki cas hyšći raz"
 msgid "This endpoint is no longer supported"
 msgstr "Toś ten kóńcny dypk se wěcej njepódpěra"
 
-#: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:72 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
+#: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:75 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
 #: .es5/scripts/lib/oauth-errors.js:80 .es5/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "System njestoj k dispoziciji, wopytajśo za krotki cas hyšći raz"
@@ -439,7 +439,9 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:17
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Pśez to, až pókšaocujośo, zwólijośo do <a id=\"service-tos\" href=\"%(termsUri)s\">wužywańskich wuměnjenjow</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">pšawidłow priwatnosći</a> "
 "%(serviceName)s (%(serviceUri)s)."
@@ -676,7 +678,8 @@ msgstr "Sćo gronidło zabył?"
 
 #: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Pśez to, až pókšacujośo, zwolijośo do <a id=\"fxa-tos\" href=\"/legal/terms\">wužywańskich wuměnjenjow</a> a<a id=\"fxa-pp\" href=\"/legal/privacy\">pšawidłow priwatnosći</a> mrokowsłužbow Firefox."
+msgstr ""
+"Pśez to, až pókšacujośo, zwolijośo do <a id=\"fxa-tos\" href=\"/legal/terms\">wužywańskich wuměnjenjow</a> a<a id=\"fxa-pp\" href=\"/legal/privacy\">pšawidłow priwatnosći</a> mrokowsłužbow Firefox."
 
 #: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -902,11 +905,11 @@ msgstr "Rědy"
 
 #: .es5/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-"href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+"\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox jo za <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a "
-"href=\"%(linkLinux)s\">Linux</a> k dispoziciji."
+"Firefox jo za <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a href=\"%(linkLinux)s\">Linux</"
+"a> k dispoziciji."
 
 #: .es5/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -951,6 +954,27 @@ msgstr "OpenID wužywaś"
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Konto Firefox wužywaś"
+
+#~ msgid "days ago"
+#~ msgstr "pśed někotarymi dnjami"
+
+#~ msgid "hours ago"
+#~ msgstr "pśed někotarymi góźinami"
+
+#~ msgid "minutes ago"
+#~ msgstr "pśed někotarymi minutami"
+
+#~ msgid "months ago"
+#~ msgstr "pśed někotarymi mjasecami"
+
+#~ msgid "seconds ago"
+#~ msgstr "pśed někotarymi sekundami"
+
+#~ msgid "weeks ago"
+#~ msgstr "pśed někotarymi tyźenjami"
+
+#~ msgid "years ago"
+#~ msgstr "pśed někotarymi lětami"
 
 #~ msgid "Account unlocked, please try again"
 #~ msgstr "Konto pśipušćone, pšosym wopytajśo hyšći raz"
@@ -1064,8 +1088,8 @@ msgstr "Konto Firefox wužywaś"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Pšosym zmóžniśo cookieje w swójom wobglědowaku, kótarež su trěbne za Firefox Accounts. Cookieje su małe datowe elementy, kótarež składuju se we wašom wobglědowaku, ab wěstu funkcionalnosć zmóžnili, "
-#~ "ako na pśikład zasejspóznawanje w nowem pósejźenju."
+#~ "Pšosym zmóžniśo cookieje w swójom wobglědowaku, kótarež su trěbne za Firefox Accounts. Cookieje su małe datowe elementy, kótarež składuju se we wašom wobglědowaku, ab wěstu funkcionalnosć "
+#~ "zmóžnili, ako na pśikład zasejspóznawanje w nowem pósejźenju."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox buźo skóro na iOS!"
@@ -1213,13 +1237,17 @@ msgstr "Konto Firefox wužywaś"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Maśo južo konto? Pśizjawśo se."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
 #~ "Z tym až pókšacujośo. pśigłosujom <a id=\"service-tos\" href=\"%(termsUri)s\">wužywańskim wuměnjenjam</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">pšawidłam priwatnosći</a> słužby "
 #~ "%(serviceName)s (%(serviceUri)s)."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Jolic z tym pókšacujośo, zwólijośo do <a id=\"fxa-tos\" href=\"/legal/terms\">wužywańskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">wuzjawjenja priwatnosći </a> mrokowsłužbow Firefox."
+#~ msgstr ""
+#~ "Jolic z tym pókšacujośo, zwólijośo do <a id=\"fxa-tos\" href=\"/legal/terms\">wužywańskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">wuzjawjenja priwatnosći </a> mrokowsłužbow "
+#~ "Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Nowosći a pokazki za Firefox aboněrowaś"

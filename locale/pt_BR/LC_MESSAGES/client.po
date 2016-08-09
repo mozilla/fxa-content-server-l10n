@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-25 20:11+0000\n"
+"POT-Creation-Date: 2016-08-09 14:02+0000\n"
 "PO-Revision-Date: 2016-08-05 20:03+0000\n"
 "Last-Translator: Marco Aurélio <fxhelp@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1433624931.0\n"
 
-#: .es5/scripts/views/complete_reset_password.js:123 .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:130 .es5/scripts/views/confirm_reset_password.js:177
+#: .es5/scripts/views/complete_reset_password.js:124 .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:131 .es5/scripts/views/confirm_reset_password.js:177
 msgid "Account verified successfully"
 msgstr "Conta verificada"
 
@@ -67,7 +67,7 @@ msgstr "Agora você está pronto para usar o %(serviceName)s."
 msgid "Account verified"
 msgstr "Conta verificada"
 
-#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:151
+#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:152
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Conta desconhecida. <a href=\"/signup\">Criar</a>"
 
@@ -83,7 +83,7 @@ msgstr "A conta já existe. <a href=\"/signin\">Entrar</a>"
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "Cortesia de <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
-#: .es5/scripts/views/settings/change_password.js:39
+#: .es5/scripts/views/settings/change_password.js:47
 msgid "Password changed successfully"
 msgstr "Senha redefinida"
 
@@ -100,42 +100,42 @@ msgid "Account deleted successfully"
 msgstr "Conta excluída"
 
 #: .es5/scripts/views/settings/devices.js:28
-msgid "days ago"
-msgstr "dias atrás"
+msgid "Last active: days ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:29
-msgid "hours ago"
-msgstr "horas atrás"
+msgid "Last active: hours ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:30
-msgid "minutes ago"
-msgstr "minutos atrás"
+msgid "Last active: minutes ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:31
-msgid "months ago"
-msgstr "meses atrás"
+msgid "Last active: months ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:32
-msgid "seconds ago"
-msgstr "segundos atrás"
+msgid "Last active: seconds ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:34
-msgid "weeks ago"
-msgstr "semanas atrás"
+msgid "Last active: weeks ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/devices.js:35
-msgid "years ago"
-msgstr "anos atrás"
+msgid "Last active: years ago"
+msgstr ""
 
 #: .es5/scripts/views/settings/display_name.js:50
 msgid "Display name updated"
 msgstr "Nome atualizado"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/lib/auth-errors.js:107
+#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/lib/auth-errors.js:107
 msgid "Your account has been locked for security reasons"
 msgstr "A sua conta foi bloqueada por motivos de segurança"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:40 .es5/scripts/templates/reset_password.mustache:6
+#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/templates/reset_password.mustache:6
 msgid "Reset password"
 msgstr "Redefinir senha"
 
@@ -171,7 +171,7 @@ msgstr "Esta é uma senha comum; por favor, considere outra."
 msgid "Signed out successfully"
 msgstr "Saiu"
 
-#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:76 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
+#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:79 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
 #: .es5/scripts/lib/profile-errors.js:47 .es5/scripts/lib/require-on-demand.js:33 .es5/scripts/lib/require-on-demand.js:37 .es5/scripts/lib/require-on-demand.js:41
 #: .es5/scripts/lib/require-on-demand.js:45
 msgid "Unexpected error"
@@ -253,7 +253,7 @@ msgstr "Servidor ocupado, tente novamente mais tarde"
 msgid "This endpoint is no longer supported"
 msgstr "Este endpoint não é mais suportado"
 
-#: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:72 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
+#: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:75 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
 #: .es5/scripts/lib/oauth-errors.js:80 .es5/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Sistema indisponível, tente novamente mais tarde"
@@ -439,7 +439,9 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:17
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Ao continuar, concorda com os <a id=\"service-tos\" href=\"%(termsUri)s\">Termos do serviço</a> e com a <a id=\"service-pp\" href=\"%(privacyUri)s\">Política de privacidade</a> de %(serviceName)s "
 "(%(serviceUri)s)."
@@ -676,7 +678,9 @@ msgstr "Esqueceu sua senha?"
 
 #: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Ao continuar, concorda com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy\">Política de privacidade</a> dos serviços na cloud do Firefox."
+msgstr ""
+"Ao continuar, concorda com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy\">Política de privacidade</a> dos serviços na cloud do "
+"Firefox."
 
 #: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -902,11 +906,11 @@ msgstr "Dispositivos"
 
 #: .es5/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-"href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+"\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"O Firefox está disponível para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> e <a "
-"href=\"%(linkLinux)s\">Linux</a>."
+"O Firefox está disponível para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> e <a href="
+"\"%(linkLinux)s\">Linux</a>."
 
 #: .es5/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
@@ -951,6 +955,27 @@ msgstr "Usar o OpenID"
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Usar a conta Firefox"
+
+#~ msgid "days ago"
+#~ msgstr "dias atrás"
+
+#~ msgid "hours ago"
+#~ msgstr "horas atrás"
+
+#~ msgid "minutes ago"
+#~ msgstr "minutos atrás"
+
+#~ msgid "months ago"
+#~ msgstr "meses atrás"
+
+#~ msgid "seconds ago"
+#~ msgstr "segundos atrás"
+
+#~ msgid "weeks ago"
+#~ msgstr "semanas atrás"
+
+#~ msgid "years ago"
+#~ msgstr "anos atrás"
 
 #~ msgid "Account unlocked, please try again"
 #~ msgstr "Conta desbloqueada, tente novamente"
@@ -1102,8 +1127,8 @@ msgstr "Usar a conta Firefox"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Por favor, habilite os cookies em seu navegador, pois são necessários para o funcionamento do Firefox Accounts. Os cookies são pedaços de dados armazenados em seu navegador que permitem lembrar seu "
-#~ "usuário entre uma sessão e outra."
+#~ "Por favor, habilite os cookies em seu navegador, pois são necessários para o funcionamento do Firefox Accounts. Os cookies são pedaços de dados armazenados em seu navegador que permitem lembrar "
+#~ "seu usuário entre uma sessão e outra."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "O Firefox estará disponível em breve para iOS!"
@@ -1249,13 +1274,17 @@ msgstr "Usar a conta Firefox"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Já tem uma conta? Entre."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
 #~ "Ao prosseguir, eu concordo com o <a id=\"service-tos\" href=\"%(termsUri)s\">Termos do serviço</a> e <a id=\"service-pp\" href=\"%(privacyUri)s\">política de privacidade</a> de %(serviceName)s "
 #~ "(%(serviceUri)s)."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Ao prosseguir, concordo com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy\">Política de privacidade</a> dos serviços na nuvem do Firefox."
+#~ msgstr ""
+#~ "Ao prosseguir, concordo com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy\">Política de privacidade</a> dos serviços na nuvem do "
+#~ "Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Assine às notícias e dicas do Firefox"

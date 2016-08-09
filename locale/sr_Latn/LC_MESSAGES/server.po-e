@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-25 20:11+0000\n"
+"POT-Creation-Date: 2016-08-09 14:02+0000\n"
 "PO-Revision-Date: 2016-07-09 13:32+0000\n"
 "Last-Translator: Marko Kostić (Marko Kostić) <marko.m.kostic@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-POOTLE-MTIME: 1438060065.0\n"
 
 #: templates/_pending.txt:1 templates/verification_reminder_second.html:2
-#: templates/verification_reminder_second.txt:1 mailer.js:463
+#: templates/verification_reminder_second.txt:1 mailer.js:519
 msgid "Still there?"
 msgstr "Još uvek ste ovde?"
 
@@ -59,8 +59,8 @@ msgstr "Prijavi se na Sync"
 
 #: templates/new_device_login.html:1 templates/password_changed.html:1
 #: templates/password_reset.html:1 templates/password_reset_required.html:1
-#: templates/post_verify.html:1 templates/reset.html:1
-#: templates/suspicious_location.html:1 templates/unlock.html:1
+#: templates/post_verify.html:1 templates/recovery.html:1
+#: templates/suspicious_location.html:1
 #: templates/verification_reminder_first.html:1
 #: templates/verification_reminder_second.html:1 templates/verify.html:1
 #: templates/verify_login.html:1 server/templates/pages/src/404.html:1
@@ -73,11 +73,16 @@ msgid "Firefox Accounts"
 msgstr "Firefox nalozi"
 
 #: templates/new_device_login.html:2 templates/new_device_login.txt:1
-#: templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:374
+#: templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:426
 msgid "New sign-in to Firefox"
 msgstr "Nova Firefox prijava"
 
-#: templates/new_device_login.html:3
+#: templates/new_device_login.html:3 templates/new_device_login.txt:2
+#: templates/verify_login.html:4 templates/verify_login.txt:3
+msgid "IP address: %(ip)s"
+msgstr ""
+
+#: templates/new_device_login.html:4
 msgid ""
 "This is an automated email; if you did not authorize this action, then <a "
 "%(passwordChangeLinkAttributes)s>please change your password.</a>"
@@ -85,10 +90,9 @@ msgstr ""
 "Ovo je automatska e-pošta; ako niste zatražili ovu akciju, onda <a "
 "%(passwordChangeLinkAttributes)s>promenite lozinku.</a>"
 
-#: templates/new_device_login.html:4 templates/password_changed.html:5
+#: templates/new_device_login.html:5 templates/password_changed.html:5
 #: templates/password_reset.html:5 templates/post_verify.html:7
-#: templates/reset.html:8 templates/unlock.html:7
-#: templates/verification_reminder_first.html:7
+#: templates/recovery.html:8 templates/verification_reminder_first.html:7
 #: templates/verification_reminder_second.html:7 templates/verify.html:7
 msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
@@ -97,35 +101,33 @@ msgstr ""
 "Za više informacija, posetite <a %(supportLinkAttributes)s>Mozilla podrška</"
 "a> sajt."
 
-#: templates/new_device_login.html:5 templates/new_device_login.txt:4
+#: templates/new_device_login.html:6 templates/new_device_login.txt:5
 #: templates/password_changed.html:6 templates/password_changed.txt:5
 #: templates/password_reset.html:6 templates/password_reset.txt:5
 #: templates/password_reset_required.html:10
 #: templates/password_reset_required.txt:9 templates/post_verify.html:8
-#: templates/post_verify.txt:6 templates/reset.html:9 templates/reset.txt:7
-#: templates/suspicious_location.html:14 templates/suspicious_location.txt:13
-#: templates/unlock.html:8 templates/unlock.txt:5
+#: templates/post_verify.txt:6 templates/recovery.html:9
+#: templates/recovery.txt:7 templates/suspicious_location.html:14
+#: templates/suspicious_location.txt:13
 #: templates/verification_reminder_first.html:8
 #: templates/verification_reminder_first.txt:6
 #: templates/verification_reminder_second.html:8
 #: templates/verification_reminder_second.txt:6 templates/verify.html:8
-#: templates/verify.txt:6 templates/verify_login.html:7
-#: templates/verify_login.txt:5
+#: templates/verify.txt:6 templates/verify_login.html:8
+#: templates/verify_login.txt:6
 msgid "Mozilla Privacy Policy"
 msgstr "Mozilla polisa privatnosti"
 
-#: templates/new_device_login.txt:2
+#: templates/new_device_login.txt:3
 msgid ""
 "This is an automated email; if you didn't add a new device to your Firefox "
-"Account, you should change your password immediately at %(resetLink)s."
+"Account, you should change your password immediately at "
+"%(passwordChangeLink)s"
 msgstr ""
-"Ovo je automatska poruka; ako niste dodali novi uređaj na Firefox nalog, "
-"treba odmah da promenite lozinku na %(resetLink)s."
 
-#: templates/new_device_login.txt:3 templates/password_changed.txt:4
+#: templates/new_device_login.txt:4 templates/password_changed.txt:4
 #: templates/password_reset.txt:4 templates/post_verify.txt:5
-#: templates/reset.txt:6 templates/unlock.txt:4
-#: templates/verification_reminder_first.txt:5
+#: templates/recovery.txt:6 templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Za više informacija, posetite %(supportUrl)s"
@@ -149,10 +151,8 @@ msgstr ""
 #: templates/password_changed.txt:3
 msgid ""
 "This is an automated email; if you didn’t change the password to your "
-"Firefox Account, you should reset it immediately at %(resetLink)s."
+"Firefox Account, you should reset it immediately at %(resetLink)s"
 msgstr ""
-"Ovo je automatska poruka; ako niste promenili lozinku Firefox naloga, treba "
-"odmah da je resetujete %(resetLink)s."
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
@@ -167,9 +167,8 @@ msgstr ""
 "<a %(resetLinkAttributes)s>resetujte vašu lozinku</a> odmah."
 
 #: templates/password_reset.html:4 templates/post_verify.html:6
-#: templates/post_verify.txt:4 templates/reset.html:7 templates/reset.txt:5
-#: templates/unlock.html:6 templates/unlock.txt:3
-#: templates/verification_reminder_first.html:6
+#: templates/post_verify.txt:4 templates/recovery.html:7
+#: templates/recovery.txt:5 templates/verification_reminder_first.html:6
 #: templates/verification_reminder_first.txt:4
 #: templates/verification_reminder_second.html:6
 #: templates/verification_reminder_second.txt:4 templates/verify.html:6
@@ -192,10 +191,8 @@ msgstr "Lozinka Firefox naloga je uspešno resetovana."
 #: templates/password_reset.txt:3
 msgid ""
 "This is an automated email; if you didn’t reset the password to your Firefox "
-"Account, you should reset it immediately at %(resetLink)s."
+"Account, you should reset it immediately at %(resetLink)s"
 msgstr ""
-"Ovo je automatska poruka; ako niste resetovali Firefox nalog, treba odmah da "
-"ga resetujete %(resetLink)s."
 
 #: templates/password_reset_required.html:2
 #: templates/password_reset_required.txt:1
@@ -270,10 +267,10 @@ msgstr ""
 "prijaviti na Sync sa vaših ostalih uređaja uključujući i sa Firefox-a za <a "
 "%(androidLinkAttributes)s>Android</a> i za <a %(iosLinkAttributes)s>iOS</a>."
 
-#: templates/post_verify.html:5 templates/reset.html:6 templates/unlock.html:5
+#: templates/post_verify.html:5 templates/recovery.html:6
 #: templates/verification_reminder_first.html:5
 #: templates/verification_reminder_second.html:5 templates/verify.html:5
-#: templates/verify_login.html:5
+#: templates/verify_login.html:6
 msgid "Alternatively:"
 msgstr "Alternativno:"
 
@@ -290,11 +287,11 @@ msgstr ""
 msgid "Sign in to Sync:"
 msgstr "Prijavi se na Sync:"
 
-#: templates/reset.html:2 templates/reset.txt:1
+#: templates/recovery.html:2 templates/recovery.txt:1
 msgid "Forgot your password?"
 msgstr "Zaboravili ste lozinku?"
 
-#: templates/reset.html:3 templates/reset.txt:2
+#: templates/recovery.html:3 templates/recovery.txt:2
 msgid ""
 "Click the button within the next hour to set a new password for your Firefox "
 "Account."
@@ -302,11 +299,11 @@ msgstr ""
 "Pritisnite dugme u narednih sat vremena da postavite novu lozinku Firefox "
 "naloga."
 
-#: templates/reset.html:4 templates/reset.txt:3
+#: templates/recovery.html:4 templates/recovery.txt:3
 msgid "Remember password? Sign in."
 msgstr "Zaboravili ste lozinku? Prijavite se."
 
-#: templates/reset.html:5 templates/reset.txt:4
+#: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
 msgstr "Resetuj lozinku"
 
@@ -348,29 +345,8 @@ msgstr ""
 "Nedavno smo primetili prijave iz nepoznatih lokacija na Firefox nalogu. "
 "Obaveštavamo vas kao mera opreza."
 
-#: templates/unlock.html:2
-msgid "Account activity notice"
-msgstr "Obaveštenje o aktivnosti naloga"
-
-#: templates/unlock.html:3 templates/unlock.txt:1
-msgid ""
-"For security reasons your Firefox Account was put on lockdown. To perform "
-"account-level activities, please click the link to re-verify your account "
-"now."
-msgstr ""
-"Iz bezbednosnih razloga Firefox nalog je zaključan. Da biste obavili "
-"aktivnosti sa naloga, kliknite na vezu da biste ponovo potvrdili nalog."
-
-#: templates/unlock.html:4
-msgid "Verify account"
-msgstr "Potvrdi nalog"
-
-#: templates/unlock.txt:2
-msgid "Verify account:"
-msgstr "Potvrdite nalog:"
-
 #: templates/verification_reminder_first.html:2
-#: templates/verification_reminder_first.txt:1 mailer.js:460
+#: templates/verification_reminder_first.txt:1 mailer.js:516
 msgid "Hello again."
 msgstr "Pozdrav."
 
@@ -428,17 +404,15 @@ msgstr "Aktivirajte nalog tako što ćete potvrditi ovu adresu e-pošte."
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid ""
-"For added security, please confirm this sign-in to begin syncing with "
-"%(device)s."
+"For added security, please confirm this sign-in to begin syncing with this "
+"device:"
 msgstr ""
-"Za dodatnu sigurnost, potvrdite prijavu da biste počeli da sinhronizujete sa "
-"%(device)s."
 
-#: templates/verify_login.html:4 templates/verify_login.txt:3
+#: templates/verify_login.html:5 templates/verify_login.txt:4
 msgid "Confirm sign-in"
 msgstr "Potvrdi prijavu"
 
-#: templates/verify_login.html:6
+#: templates/verify_login.html:7
 msgid ""
 "If you suspect that someone is trying to gain access to your account, <a "
 "%(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -446,7 +420,7 @@ msgstr ""
 "Ako sumnjate da neko pokušava da pristupi vašem nalogu, <a "
 "%(passwordChangeLinkAttributes)s>molimo vas da promenite lozinku</a>."
 
-#: templates/verify_login.txt:4
+#: templates/verify_login.txt:5
 msgid ""
 "If you suspect that someone is trying to gain access to your account, please "
 "change your password."
@@ -454,39 +428,43 @@ msgstr ""
 "Ako sumnjate da neko pokušava da pristupi vašem nalogu, molimo vas da "
 "promenite lozinku."
 
-#: mailer.js:179
+#: mailer.js:159
+msgid "%(city)s, %(country)s (estimated)"
+msgstr ""
+
+#: mailer.js:161
+msgid "%(country)s (estimated)"
+msgstr ""
+
+#: mailer.js:251
 msgid "Verify your Firefox Account"
 msgstr "Potvrdite Firefox nalog"
 
-#: mailer.js:217
+#: mailer.js:290
 msgid "Confirm new sign-in to Firefox"
 msgstr "Potvrdi novu Firefox prijavu"
 
-#: mailer.js:252
+#: mailer.js:331
 msgid "Reset your Firefox Account password"
 msgstr "Resetujte lozinku Firefox naloga"
 
-#: mailer.js:286
-msgid "Re-verify your Firefox Account"
-msgstr "Ponovo potvrdite Firefox nalog"
-
-#: mailer.js:307
+#: mailer.js:358
 msgid "Your Firefox Account password has been changed"
 msgstr "Lozinka Firefox naloga je promenjena"
 
-#: mailer.js:328
+#: mailer.js:381
 msgid "Your Firefox Account password has been reset"
 msgstr "Lozinka Firefox naloga je resetovana"
 
-#: mailer.js:349
+#: mailer.js:404
 msgid "Firefox Account password reset required"
 msgstr "Potrebno je da resetujete lozinku Firefox naloga"
 
-#: mailer.js:404
+#: mailer.js:455
 msgid "Firefox Account Verified"
 msgstr "Firefox nalog potvrđen"
 
-#: mailer.js:440
+#: mailer.js:494
 msgid "Suspicious activity with your Firefox Account"
 msgstr "Pronađena je sumljiva aktivnost na vašem Firefox nalogu"
 
@@ -563,6 +541,55 @@ msgstr "Firefox cloud servisi"
 #: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Uslovi korišćenja"
+
+#~ msgid ""
+#~ "This is an automated email; if you didn't add a new device to your "
+#~ "Firefox Account, you should change your password immediately at "
+#~ "%(resetLink)s."
+#~ msgstr ""
+#~ "Ovo je automatska poruka; ako niste dodali novi uređaj na Firefox nalog, "
+#~ "treba odmah da promenite lozinku na %(resetLink)s."
+
+#~ msgid ""
+#~ "This is an automated email; if you didn’t change the password to your "
+#~ "Firefox Account, you should reset it immediately at %(resetLink)s."
+#~ msgstr ""
+#~ "Ovo je automatska poruka; ako niste promenili lozinku Firefox naloga, "
+#~ "treba odmah da je resetujete %(resetLink)s."
+
+#~ msgid ""
+#~ "This is an automated email; if you didn’t reset the password to your "
+#~ "Firefox Account, you should reset it immediately at %(resetLink)s."
+#~ msgstr ""
+#~ "Ovo je automatska poruka; ako niste resetovali Firefox nalog, treba odmah "
+#~ "da ga resetujete %(resetLink)s."
+
+#~ msgid "Account activity notice"
+#~ msgstr "Obaveštenje o aktivnosti naloga"
+
+#~ msgid ""
+#~ "For security reasons your Firefox Account was put on lockdown. To perform "
+#~ "account-level activities, please click the link to re-verify your account "
+#~ "now."
+#~ msgstr ""
+#~ "Iz bezbednosnih razloga Firefox nalog je zaključan. Da biste obavili "
+#~ "aktivnosti sa naloga, kliknite na vezu da biste ponovo potvrdili nalog."
+
+#~ msgid "Verify account"
+#~ msgstr "Potvrdi nalog"
+
+#~ msgid "Verify account:"
+#~ msgstr "Potvrdite nalog:"
+
+#~ msgid ""
+#~ "For added security, please confirm this sign-in to begin syncing with "
+#~ "%(device)s."
+#~ msgstr ""
+#~ "Za dodatnu sigurnost, potvrdite prijavu da biste počeli da sinhronizujete "
+#~ "sa %(device)s."
+
+#~ msgid "Re-verify your Firefox Account"
+#~ msgstr "Ponovo potvrdite Firefox nalog"
 
 #~ msgid ""
 #~ "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
