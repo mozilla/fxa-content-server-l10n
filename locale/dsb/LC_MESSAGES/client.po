@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-08-10 21:02+0000\n"
+"PO-Revision-Date: 2016-08-10 21:03+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -121,11 +121,11 @@ msgstr "Slědny raz aktiwny: pśed někotarymi sekundami"
 
 #: .es5/scripts/views/settings/devices.js:34
 msgid "Last active: weeks ago"
-msgstr ""
+msgstr "Slědny raz aktiwny: pśed někotarymi tyźenjami"
 
 #: .es5/scripts/views/settings/devices.js:35
 msgid "Last active: years ago"
-msgstr ""
+msgstr "Slědny raz aktiwny: pśed někotarymi lětami"
 
 #: .es5/scripts/views/settings/display_name.js:50
 msgid "Display name updated"
