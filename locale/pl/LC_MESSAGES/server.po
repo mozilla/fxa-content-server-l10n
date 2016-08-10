@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-07-12 17:39+0200\n"
+"PO-Revision-Date: 2016-08-10 16:48+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -58,7 +58,7 @@ msgstr "Nowe logowanie do Firefoksa"
 
 #: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "Adres IP: %(ip)s"
 
 #: templates/new_device_login.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
@@ -74,11 +74,11 @@ msgstr "Więcej informacji można znaleźć w <a %(supportLinkAttributes)s>pomo
 #: templates/suspicious_location.html:14 templates/suspicious_location.txt:13 templates/verification_reminder_first.html:8 templates/verification_reminder_first.txt:6
 #: templates/verification_reminder_second.html:8 templates/verification_reminder_second.txt:6 templates/verify.html:8 templates/verify.txt:6 templates/verify_login.html:8 templates/verify_login.txt:6
 msgid "Mozilla Privacy Policy"
-msgstr "O polityce prywatności Mozilli"
+msgstr "O polityce prywatności Mozilli"
 
 #: templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr ""
+msgstr "Wiadomość wygenerowana automatycznie. Jeśli nie dodano nowego urządzenia do konta Firefoksa, to należy natychmiast zmienić hasło pod adresem %(passwordChangeLink)s"
 
 #: templates/new_device_login.txt:4 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5
@@ -99,7 +99,7 @@ msgstr "Wiadomość wygenerowana automatycznie. Jeżeli nie upoważniono wykonan
 
 #: templates/password_changed.txt:3
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Wiadomość wygenerowana automatycznie. Jeśli nie zmieniono hasła konta Firefoksa, to należy je natychmiast zmienić pod adresem %(resetLink)s"
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
@@ -124,7 +124,7 @@ msgstr "Pomyślnie zmieniono hasło konta Firefoksa."
 
 #: templates/password_reset.txt:3
 msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Wiadomość wygenerowana automatycznie. Jeśli nie zmieniono hasła konta Firefoksa, to należy je natychmiast zmienić pod adresem %(resetLink)s"
 
 #: templates/password_reset_required.html:2 templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
@@ -270,7 +270,7 @@ msgstr "Proszę aktywować konto przez potwierdzenie tego adresu e-mail."
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "Z powodów bezpieczeństwa prosimy potwierdzić to logowanie, aby zacząć synchronizację z tym urządzeniem:"
 
 #: templates/verify_login.html:5 templates/verify_login.txt:4
 msgid "Confirm sign-in"
@@ -286,11 +286,11 @@ msgstr "Jeśli istnieją podejrzenia, że ktoś próbuje uzyskać dostęp do kon
 
 #: mailer.js:159
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (przybliżone)"
 
 #: mailer.js:161
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (przybliżone)"
 
 #: mailer.js:251
 msgid "Verify your Firefox Account"
@@ -375,30 +375,3 @@ msgstr "Usługi Firefox cloud"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Regulamin usługi"
-
-#~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(resetLink)s."
-#~ msgstr "Wiadomość wygenerowana automatycznie. Jeśli nie dodano nowego urządzenia do konta Firefoksa, to należy natychmiast zmienić hasło pod adresem %(resetLink)s."
-
-#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
-#~ msgstr "Wiadomość wygenerowana automatycznie. Jeśli nie zmieniono hasła konta Firefoksa, to należy je natychmiast zmienić pod adresem %(resetLink)s."
-
-#~ msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
-#~ msgstr "Wiadomość wygenerowana automatycznie. Jeśli nie zmieniono hasła konta Firefoksa, to należy je natychmiast zmienić pod adresem %(resetLink)s."
-
-#~ msgid "Account activity notice"
-#~ msgstr "Informacja o aktywności konta"
-
-#~ msgid "For security reasons your Firefox Account was put on lockdown. To perform account-level activities, please click the link to re-verify your account now."
-#~ msgstr "Konto Firefoksa zostało zablokowane z powodów bezpieczeństwa. Należy ponownie zweryfikować konto klikając ten odnośnik."
-
-#~ msgid "Verify account"
-#~ msgstr "Zweryfikuj konto"
-
-#~ msgid "Verify account:"
-#~ msgstr "Zweryfikuj konto:"
-
-#~ msgid "For added security, please confirm this sign-in to begin syncing with %(device)s."
-#~ msgstr "Z powodów bezpieczeństwa prosimy potwierdzić to logowanie, aby zacząć synchronizację z urządzeniem %(device)s."
-
-#~ msgid "Re-verify your Firefox Account"
-#~ msgstr "Ponownie zweryfikuj konto Firefoksa"

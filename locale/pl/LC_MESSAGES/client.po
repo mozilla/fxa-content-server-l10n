@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-07-26 16:02+0200\n"
+"PO-Revision-Date: 2016-08-10 16:48+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -99,31 +99,31 @@ msgstr "Pomyślnie usunięto konto"
 
 #: .es5/scripts/views/settings/devices.js:28
 msgid "Last active: days ago"
-msgstr ""
+msgstr "Ostatnia aktywność: w ciągu ostatniego tygodnia"
 
 #: .es5/scripts/views/settings/devices.js:29
 msgid "Last active: hours ago"
-msgstr ""
+msgstr "Ostatnia aktywność: w ciągu ostatniej doby"
 
 #: .es5/scripts/views/settings/devices.js:30
 msgid "Last active: minutes ago"
-msgstr ""
+msgstr "Ostatnia aktywność: w ciągu ostatniej godziny"
 
 #: .es5/scripts/views/settings/devices.js:31
 msgid "Last active: months ago"
-msgstr ""
+msgstr "Ostatnia aktywność: w ciągu ostatniego roku"
 
 #: .es5/scripts/views/settings/devices.js:32
 msgid "Last active: seconds ago"
-msgstr ""
+msgstr "Ostatnia aktywność: w ciągu ostatniej minuty"
 
 #: .es5/scripts/views/settings/devices.js:34
 msgid "Last active: weeks ago"
-msgstr ""
+msgstr "Ostatnia aktywność: w ciągu ostatniego miesiąca"
 
 #: .es5/scripts/views/settings/devices.js:35
 msgid "Last active: years ago"
-msgstr ""
+msgstr "Ostatnia aktywność: ponad rok temu"
 
 #: .es5/scripts/views/settings/display_name.js:50
 msgid "Display name updated"
@@ -953,24 +953,3 @@ msgstr "Użyj OpenID"
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Użyj konta Firefoksa"
-
-#~ msgid "days ago"
-#~ msgstr "W ciągu ostatniego tygodnia"
-
-#~ msgid "hours ago"
-#~ msgstr "W ciągu ostatniej doby"
-
-#~ msgid "minutes ago"
-#~ msgstr "W ciągu ostatniej godziny"
-
-#~ msgid "months ago"
-#~ msgstr "W ciągu ostatniego roku"
-
-#~ msgid "seconds ago"
-#~ msgstr "W ciągu ostatniej minuty"
-
-#~ msgid "weeks ago"
-#~ msgstr "W ciągu ostatniego miesiąca"
-
-#~ msgid "years ago"
-#~ msgstr "Ponad rok temu"
