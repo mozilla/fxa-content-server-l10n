@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-08-09 19:50+0000\n"
+"PO-Revision-Date: 2016-08-10 11:10+0000\n"
 "Last-Translator: stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -80,7 +80,7 @@ msgstr "Политика за неприкосновеност на личнит
 
 #: templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr ""
+msgstr "Това писмо е изпратено автоматично. Ако не сте добавили ново устройство към своя Firefox Account, трябва незабавно да смените паролата си от %(passwordChangeLink)s"
 
 #: templates/new_device_login.txt:4 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5
@@ -101,7 +101,7 @@ msgstr "Това писмо е изпратено автоматично. Ако
 
 #: templates/password_changed.txt:3
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Това писмо е изпратено автоматично. Ако не сте сменили паролата на своя Firefox Account, трябва незабавно да я анулирате от %(resetLink)s"
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
@@ -126,7 +126,7 @@ msgstr "Паролата ви за Firefox Account беше успешно ну�
 
 #: templates/password_reset.txt:3
 msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Това писмо е изпратено автоматично. Ако не сте нулирали паролата на своя Firefox Account, трябва незабавно да я анулирате от %(resetLink)s"
 
 #: templates/password_reset_required.html:2 templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
@@ -274,7 +274,7 @@ msgstr "Моля, потвърдете сметката си като потвъ
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "За по-голяма сигурност, моля потвърдете вписването, за да започнете синхронизиране на устройството:"
 
 #: templates/verify_login.html:5 templates/verify_login.txt:4
 msgid "Confirm sign-in"
@@ -290,11 +290,11 @@ msgstr "Ако подозирате, че някой се опитва да по
 
 #: mailer.js:159
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (приблизително)"
 
 #: mailer.js:161
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (приблизително)"
 
 #: mailer.js:251
 msgid "Verify your Firefox Account"
