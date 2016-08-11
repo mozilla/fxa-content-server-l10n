@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-08-11 06:21+0000\n"
+"PO-Revision-Date: 2016-08-11 08:57+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -156,7 +156,7 @@ msgstr "أفتح Outlook"
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:21
 msgid "8 characters minimum, but longer if you plan to sync passwords."
-msgstr ""
+msgstr "يجب ألا تقل كلمة السرّ عن 8 أحرف أو ربما أكثر أذا كنت تنوى مزامنة كلمات السرّ."
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/templates/sign_up.mustache:18
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
@@ -459,7 +459,7 @@ msgstr ""
 
 #: .es5/scripts/lib/strings.js:33
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "عنوان الـIP: %(ip)s"
 
 #: .es5/scripts/lib/strings.js:34
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"

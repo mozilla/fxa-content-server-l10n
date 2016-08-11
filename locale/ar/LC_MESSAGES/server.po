@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-08-11 06:16+0000\n"
+"PO-Revision-Date: 2016-08-11 08:50+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -77,7 +77,7 @@ msgstr "سياسة موزيلا للخصوصيّة"
 
 #: templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr ""
+msgstr "هذا بريد إلكتروني الآلي، إذا لم تضف جهاز جديد إلي حساب فَيَرفُكس، فرجاءً غير كلمة السرّ الخاصة بك حالأً من هنا %(passwordChangeLink)s"
 
 #: templates/new_device_login.txt:4 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5
@@ -94,11 +94,11 @@ msgstr "غُيّرت كلمة السرّ الخاصة بحساب فَيَرفُ�
 
 #: templates/password_changed.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "هذا بريد إلكتروني الآلي، إذا كان غير مسموح لهذا الإجراء، فرجاءً <a %(passwordChangeLinkAttributes)s>إعادة تعيين كلمة السرّ الخاصة بك</a>."
+msgstr "هذا بريد إلكتروني الآلي، إذا كان غير مسموح لهذا الإجراء، فرجاءً <a %(resetLinkAttributes)s>إعادة تعيين كلمة السرّ الخاصة بك</a>."
 
 #: templates/password_changed.txt:3
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "هذا بريد إلكتروني الآلي، إذا لم تغير كلمة السرّ الخاصة بحساب فَيَرفُكس، فرجاءً غير كلمة السرّ الخاصة بك حالأً %(resetLink)s"
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
@@ -123,7 +123,7 @@ msgstr "تم إعادة تعيين كلمة السرّ الخاصة بحساب �
 
 #: templates/password_reset.txt:3
 msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "هذا بريد إلكتروني الآلي، إذا لم تعيد تعيين كلمة السرّ الخاصة بحساب فَيَرفُكس، فرجاءً غير كلمة السرّ حالاً من هنا %(resetLink)s"
 
 #: templates/password_reset_required.html:2 templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
