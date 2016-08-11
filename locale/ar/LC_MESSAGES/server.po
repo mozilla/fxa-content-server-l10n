@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-06-06 16:24+0000\n"
+"PO-Revision-Date: 2016-08-11 06:16+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -27,12 +27,13 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"اِتَّصَلَ جهازك الأول بحساب فَيَرفُكس الخاص بك بنجاح. الآن يمكنك تسجيل الدخول إلى المزامنة من أجهزتك الأخري بما في ذلك فَيَرفُكس <a href='%(androidUrl)s'>لأندرويد</a> و <a href='%(iosUrl)s'>لآي أو إس</a>."
+"اِتَّصَلَ جهازك الأول بحساب فَيَرفُكس الخاص بك بنجاح. الآن يمكنك تسجيل الدخول إلى المزامنة من أجهزتك الأخري بما في ذلك فَيَرفُكس <a href='%(androidUrl)s'>لأندرويد</a> و <a href='%(iosUrl)s'>لآي أو "
+"إس</a>."
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr "اِتَّصَلَ جهازك الأول بحساب فَيَرفُكس الخاص بك بنجاح. صِلْ الحساب بأي فَيَرفُكس <a href='%(androidUrl)s'>لأندرويد</a> أو <a href='%(iosUrl)s'>لآي أو إس</a> للاستفادة القصوى من التزامُن."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
@@ -56,7 +57,7 @@ msgstr "تسجيل دخول جديد لفَيَرفٌكس"
 
 #: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "عنوان الـIP: %(ip)s"
 
 #: templates/new_device_login.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
@@ -166,8 +167,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
-"اِتَّصَلَ جهازك الأول بحساب فَيَرفُكس الخاص بك بنجاح. الآن يمكنك تسجيل الدخول إلى المزامنة من أجهزتك الأخري بما في ذلك فَيَرفُكس للـ <a %(androidLinkAttributes)s>أندرويد</a> و <a %(iosLinkAttributes)s>آي أو "
-"إس</a>."
+"اِتَّصَلَ جهازك الأول بحساب فَيَرفُكس الخاص بك بنجاح. الآن يمكنك تسجيل الدخول إلى المزامنة من أجهزتك الأخري بما في ذلك فَيَرفُكس للـ <a %(androidLinkAttributes)s>أندرويد</a> و <a "
+"%(iosLinkAttributes)s>آي أو إس</a>."
 
 #: templates/post_verify.html:5 templates/recovery.html:6 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
 #: templates/verify_login.html:6
@@ -232,9 +233,10 @@ msgstr "مرحبًا مرة أخرى."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
-msgstr "أنشأت حساب فَيَرفُكس قبل بضعة أيام و لم تأكّده. تأكيد الحساب يتيح لك الوصول إلى ألسنتك و علاماتك و كلمات السرّ والتاريخ على أي جهاز مُتصل به. ببساطة أكّد عنوان البريد الإلكتروني هذا لتفعيل حسابك."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
+msgstr ""
+"أنشأت حساب فَيَرفُكس قبل بضعة أيام و لم تأكّده. تأكيد الحساب يتيح لك الوصول إلى ألسنتك و علاماتك و كلمات السرّ والتاريخ على أي جهاز مُتصل به. ببساطة أكّد عنوان البريد الإلكتروني هذا لتفعيل حسابك."
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
 msgid "Activate now"
@@ -409,8 +411,8 @@ msgstr "شروط الخدمة"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "أنشأت حساب فَيَرفُكس قبل أسبوع و لم تأكّده. ونحن قلقون عليك. فَيَرفُكس مُتاح لنظام تشغيل ويندوز و ماك و لينكُس و أندرويد و آي أو إس. يمكنك مزامنة ألسنتك و علاماتك و كلمات السرّ و التاريخ عبر كل منهم. فقط "
-#~ "أكّد عنوان بريدك الإلكتروني هذا لتفعيل حسابك واسمح لنا أن نعرف أنك بخير."
+#~ "أنشأت حساب فَيَرفُكس قبل أسبوع و لم تأكّده. ونحن قلقون عليك. فَيَرفُكس مُتاح لنظام تشغيل ويندوز و ماك و لينكُس و أندرويد و آي أو إس. يمكنك مزامنة ألسنتك و علاماتك و كلمات السرّ و التاريخ عبر كل "
+#~ "منهم. فقط أكّد عنوان بريدك الإلكتروني هذا لتفعيل حسابك واسمح لنا أن نعرف أنك بخير."
 
 #~ msgid "contentServer.url"
 #~ msgstr "contentServer.url"
