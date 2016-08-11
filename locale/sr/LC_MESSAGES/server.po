@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-08-11 13:01+0000\n"
+"PO-Revision-Date: 2016-08-11 13:03+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -79,7 +79,7 @@ msgstr "Mozilla полиса приватности"
 
 #: templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr "Ово је аутоматска е-пошта; Ако нисте додали нови уређај на ваш Firefox налог, требало би одмах да промените вашу лозинку на %(passwordChangeLink)s"
+msgstr "Ово је аутоматска е-пошта; Уколико нисте додали нови уређај на ваш Firefox налог, требало би одмах да промените вашу лозинку на %(passwordChangeLink)s"
 
 #: templates/new_device_login.txt:4 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5
@@ -125,7 +125,7 @@ msgstr "Лозинка Firefox налога је успешно ресетова
 
 #: templates/password_reset.txt:3
 msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Ово је аутоматска е-пошта; Уколико нисте ви ресетовали лозинку вашег Firefox налога, требало би да је одмах ресетујете на %(resetLink)s"
 
 #: templates/password_reset_required.html:2 templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
