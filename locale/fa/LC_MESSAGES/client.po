@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-08-05 18:34+0000\n"
+"PO-Revision-Date: 2016-08-12 08:11+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
@@ -101,31 +101,31 @@ msgstr "حساب با موفقیت حذف شد"
 
 #: .es5/scripts/views/settings/devices.js:28
 msgid "Last active: days ago"
-msgstr ""
+msgstr "آخرین فعالیت: چند روز قبل"
 
 #: .es5/scripts/views/settings/devices.js:29
 msgid "Last active: hours ago"
-msgstr ""
+msgstr "آخرین فعالیت: چند ساعت قبل"
 
 #: .es5/scripts/views/settings/devices.js:30
 msgid "Last active: minutes ago"
-msgstr ""
+msgstr "آخرین فعالیت: چند دقیق قبل"
 
 #: .es5/scripts/views/settings/devices.js:31
 msgid "Last active: months ago"
-msgstr ""
+msgstr "آخرین فعالیت: چند ماه قبل"
 
 #: .es5/scripts/views/settings/devices.js:32
 msgid "Last active: seconds ago"
-msgstr ""
+msgstr "آخرین فعالیت: چند ثانیه قبل"
 
 #: .es5/scripts/views/settings/devices.js:34
 msgid "Last active: weeks ago"
-msgstr ""
+msgstr "آخرین فعالیت: چند هفته قبل"
 
 #: .es5/scripts/views/settings/devices.js:35
 msgid "Last active: years ago"
-msgstr ""
+msgstr "آخرین فعالیت: چند سال قبل"
 
 #: .es5/scripts/views/settings/display_name.js:50
 msgid "Display name updated"
@@ -439,9 +439,7 @@ msgid "Firefox Sync"
 msgstr "بهنگام‌سازی فایرفاکس"
 
 #: .es5/scripts/lib/strings.js:17
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "با ادامه دادن شما<a id=\"service-tos\" href=\"%(termsUri)s\">شرایط استفاده از سرویس</a>و<a id=\"service-pp\" href=\"%(privacyUri)s\">اطلاعیه‌ی حریم‌خصوصی</a>مربوط به %(serviceName)s "
 "(%(serviceUri)s)را می‌پذیرید."
@@ -904,11 +902,11 @@ msgstr "دستگاه‌ها"
 
 #: .es5/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"فایرفاکس برای <a href=\"%(linkWindows)s\">ویندوز</a>، <a href=\"%(linkOSX)s\">OS X</a>، <a href=\"%(linkAndroid)s\">اندروید</a>، <a href=\"%(linkIOS)s\">iOS</a> و <a href=\"%(linkLinux)s\">لینوکس</"
-"a> در دسترس است."
+"فایرفاکس برای <a href=\"%(linkWindows)s\">ویندوز</a>، <a href=\"%(linkOSX)s\">OS X</a>، <a href=\"%(linkAndroid)s\">اندروید</a>، <a href=\"%(linkIOS)s\">iOS</a> و <a "
+"href=\"%(linkLinux)s\">لینوکس</a> در دسترس است."
 
 #: .es5/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
