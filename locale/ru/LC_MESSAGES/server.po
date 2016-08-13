@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-05-31 09:02+0000\n"
-"Last-Translator: Victor Bychek <a@bychek.ru>\n"
+"PO-Revision-Date: 2016-08-13 20:40+0000\n"
+"Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -33,8 +33,8 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Вы успешно подключили первое устройство к своему Аккаунту Firefox. Чтобы использовать Синхронизацию по полной, подключите к ней свой <a href='%(androidUrl)s'>Firefox для Android</a> или <a "
 "href='%(iosUrl)s'>Firefox для iOS</a>."
@@ -60,7 +60,7 @@ msgstr "Новый вход в Firefox"
 
 #: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "IP-адрес: %(ip)s"
 
 #: templates/new_device_login.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
@@ -80,7 +80,7 @@ msgstr "Политика конфиденциальности Mozilla"
 
 #: templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr ""
+msgstr "Это автоматическое сообщение; если вы не добавляли новое устройство в ваш Аккаунт Firefox, вы должны немедленно сменить свой пароль через %(passwordChangeLink)s"
 
 #: templates/new_device_login.txt:4 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5
@@ -101,7 +101,7 @@ msgstr "Это письмо создано автоматически; если 
 
 #: templates/password_changed.txt:3
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Это автоматическое сообщение; если вы не меняли пароль на ваш Аккаунт Firefox, вы должны немедленно сменить его через %(resetLink)s"
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
@@ -126,7 +126,7 @@ msgstr "Пароль вашего Аккаунта Firefox был успешно
 
 #: templates/password_reset.txt:3
 msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Это автоматическое сообщение; если вы не восстанавливали пароль на ваш Аккаунт Firefox, вы должны немедленно сменить его через %(resetLink)s"
 
 #: templates/password_reset_required.html:2 templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
@@ -240,8 +240,8 @@ msgstr "И снова привет."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 "Несколько дней назад вы создали аккаунт Firefox, но не подтвердили его. Подтверждённый аккаунт позволит вам получить доступ к вкладкам, закладкам, паролям и истории на любом подключенном к нему "
 "устройстве. Просто подтвердите этот адрес электронной почты, чтобы активировать ваш аккаунт."
@@ -278,7 +278,7 @@ msgstr "Пожалуйста, активируйте свой аккаунт, п
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "Для повышения безопасности, пожалуйста, подтвердите этот вход для начала синхронизации с этим устройством:"
 
 #: templates/verify_login.html:5 templates/verify_login.txt:4
 msgid "Confirm sign-in"
@@ -294,11 +294,11 @@ msgstr "Если вы подозреваете, что кто-то пытает�
 
 #: mailer.js:159
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (приблизительно)"
 
 #: mailer.js:161
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (приблизительно)"
 
 #: mailer.js:251
 msgid "Verify your Firefox Account"
@@ -397,8 +397,7 @@ msgstr "Условия службы"
 #~ msgstr "Уведомление об активности Аккаунта"
 
 #~ msgid "For security reasons your Firefox Account was put on lockdown. To perform account-level activities, please click the link to re-verify your account now."
-#~ msgstr ""
-#~ "По соображениям безопасности ваш Аккаунт Firefox был поставлен на блокировку. Для выполнения действий на уровне аккаунта, пожалуйста, щёлкните по ссылке, чтобы вновь подтвердить свой аккаунт."
+#~ msgstr "По соображениям безопасности ваш Аккаунт Firefox был поставлен на блокировку. Для выполнения действий на уровне аккаунта, пожалуйста, щёлкните по ссылке, чтобы вновь подтвердить свой аккаунт."
 
 #~ msgid "Verify account"
 #~ msgstr "Подтвердить аккаунт"
