@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-08-12 21:38+0000\n"
+"PO-Revision-Date: 2016-08-18 11:00+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -80,7 +80,7 @@ msgstr "Zásady ochrany súkromia"
 
 #: templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr ""
+msgstr "Toto je automatický e-mail. Ak ste ku svojmu účtu Firefox Account nepridali žiadne nové zariadenie, mali by ste si okamžite zmeniť heslo na %(passwordChangeLink)s"
 
 #: templates/new_device_login.txt:4 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5
@@ -101,7 +101,7 @@ msgstr "Toto je automatický e-mail; ak ste túto akciu neautorizovali, <a %(res
 
 #: templates/password_changed.txt:3
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Toto je automatický e-mail. Ak ste nezmenili heslo k vášmu účtu Firefox Acconut, mali by ste si ho okamžite obnoviť na %(resetLink)s"
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
@@ -126,11 +126,11 @@ msgstr "Heslo vášho účtu Firefox Account bolo úspešne obnovené."
 
 #: templates/password_reset.txt:3
 msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Toto je automatický e-mail. Ak ste vaše heslo k účtu Firefox Account neobnovili, mali by ste si ho okamžite obnoviť na %(resetLink)s"
 
 #: templates/password_reset_required.html:2 templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-msgstr "Zistili sme podozrivé aktivity na vašom účte Firefox Account. Váš účet mohol byť zneužitý."
+msgstr "Na vašom účte Firefox Account sme zistili podozrivú aktivitu. Váš účet mohol byť napadnutý."
 
 #: templates/password_reset_required.html:3 templates/password_reset_required.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
@@ -157,7 +157,7 @@ msgstr "Zistite, ako si zobraziť, ktoré heslá máte vo Firefoxe uložené."
 
 #: templates/password_reset_required.html:8 templates/password_reset_required.txt:7 templates/suspicious_location.html:12 templates/suspicious_location.txt:11
 msgid "Best,"
-msgstr "Najlepšie,"
+msgstr "S pozdravom,"
 
 #: templates/password_reset_required.html:9 templates/password_reset_required.txt:8 templates/suspicious_location.html:13 templates/suspicious_location.txt:12
 msgid "The Firefox Accounts team"
@@ -178,7 +178,7 @@ msgstr ""
 #: templates/post_verify.html:5 templates/recovery.html:6 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
 #: templates/verify_login.html:6
 msgid "Alternatively:"
-msgstr "Alternatívne:"
+msgstr "Alternatíva:"
 
 #: templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
@@ -282,7 +282,7 @@ msgstr ""
 
 #: templates/verify_login.html:5 templates/verify_login.txt:4
 msgid "Confirm sign-in"
-msgstr "Potvrdenie prihlásenia"
+msgstr "Potvrdiť prihlásenie"
 
 #: templates/verify_login.html:7
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
