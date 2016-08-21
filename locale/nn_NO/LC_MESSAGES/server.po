@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-06-04 16:59+0000\n"
+"PO-Revision-Date: 2016-08-21 13:23+0000\n"
 "Last-Translator: bjorn.svindseth <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -32,11 +32,11 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
-"Du har kopla til den fyrste eininga di til Firefox-kontoen din. For å få det meste ut av Sync, kopla til <a href='%(androidUrl)s'>Firefox for Android</a> eller <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"Du har kopla til den fyrste eininga di til Firefox-kontoen din. For å få det meste ut av Sync, kopla til <a href='%(androidUrl)s'>Firefox for Android</a> eller <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -59,7 +59,7 @@ msgstr "Ny innlogging på Firefox"
 
 #: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "IP-adresse: %(ip)s"
 
 #: templates/new_device_login.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
@@ -237,8 +237,8 @@ msgstr "Hei igjen."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 "For nokre dagar sidan laga du ein Firefox-konto, men du stadfesta han aldri. Ein stadfesta konto lar deg opna faner, bokmerke, passord og historikk på alle einingar som er kopla til han. Stadfest "
 "denne e-postadreessa for å aktivera kontoen din."
