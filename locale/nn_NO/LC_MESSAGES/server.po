@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-08-21 13:23+0000\n"
+"PO-Revision-Date: 2016-08-22 16:19+0000\n"
 "Last-Translator: bjorn.svindseth <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -79,7 +79,7 @@ msgstr "Mozilla personvernpraksis"
 
 #: templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr ""
+msgstr "Dette er ei automatisk e-postmelding. Om du ikkje la til ei ny eining i Firefox-kontoen din, bør du endra passordet ditt med ein gong på %(passwordChangeLink)s"
 
 #: templates/new_device_login.txt:4 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5
@@ -100,7 +100,7 @@ msgstr "Dette er ein automatisk e-post: Om du ikkje godkjende denne handlinga <a
 
 #: templates/password_changed.txt:3
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Dette er ei automatisk e-postmelding. Om du ikkje endra passordet ditt for Firefox-kontoen din, bør du tilbakestilla det med ein gong på %(resetLink)s"
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
@@ -125,7 +125,7 @@ msgstr "Passordet for Firefox-kontoen din er tilbakestilt."
 
 #: templates/password_reset.txt:3
 msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Dette er ei automatisk e-postmelding. Om du ikkje tilbakestilte pasordet ditt for Firefox-kontoen din, bør du tilbakestilla det med ein gong på %(resetLink)s"
 
 #: templates/password_reset_required.html:2 templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
@@ -273,7 +273,7 @@ msgstr "Aktiver kontoen din ved å stadfesta denne e-postadressa."
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "For ekstra sikkerheit, stadfest denne innlogginga for å starta synkroniseringa med denne eininga:"
 
 #: templates/verify_login.html:5 templates/verify_login.txt:4
 msgid "Confirm sign-in"
@@ -289,11 +289,11 @@ msgstr "Om du mistenkjer at nokon prøver å få tilgang til kontoen din, må du
 
 #: mailer.js:159
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (estimert)"
 
 #: mailer.js:161
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (estimert)"
 
 #: mailer.js:251
 msgid "Verify your Firefox Account"
