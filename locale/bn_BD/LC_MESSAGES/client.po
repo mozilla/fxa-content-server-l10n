@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-08-17 17:55+0000\n"
+"PO-Revision-Date: 2016-08-25 03:49+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_BD\n"
@@ -53,7 +53,7 @@ msgstr "পুনরায় স্বাগতম"
 
 #: .es5/scripts/views/ready.js:39
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "কিছুক্ষণের মধ্যে Firefox Sync শুরু হবে"
 
 #: .es5/scripts/views/ready.js:49
 msgid "Sign-in confirmed"
@@ -73,7 +73,7 @@ msgstr "অচেনা অ্যাকাউন্ট। <a href=\"/signup\">�
 
 #: .es5/scripts/views/sign_up.js:61
 msgid "Account no longer exists. Recreate it?"
-msgstr ""
+msgstr "অ্যাকাউন্টটি আর নেই। আবার খুলবেন?"
 
 #: .es5/scripts/views/sign_up.js:361
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
@@ -101,31 +101,31 @@ msgstr "অ্যাকাউন্ট সফলভাবে মুছে ফে
 
 #: .es5/scripts/views/settings/devices.js:28
 msgid "Last active: days ago"
-msgstr ""
+msgstr "সর্বশেষ কার্যকর: দিন আগে"
 
 #: .es5/scripts/views/settings/devices.js:29
 msgid "Last active: hours ago"
-msgstr ""
+msgstr "সর্বশেষ কার্যকর: ঘন্টা আগে"
 
 #: .es5/scripts/views/settings/devices.js:30
 msgid "Last active: minutes ago"
-msgstr ""
+msgstr "সর্বশেষ কার্যকর: মিনিট আগে"
 
 #: .es5/scripts/views/settings/devices.js:31
 msgid "Last active: months ago"
-msgstr ""
+msgstr "সর্বশেষ কার্যকর: মাস আগে"
 
 #: .es5/scripts/views/settings/devices.js:32
 msgid "Last active: seconds ago"
-msgstr ""
+msgstr "সর্বশেষ কার্যকর: সেকেন্ড আগে"
 
 #: .es5/scripts/views/settings/devices.js:34
 msgid "Last active: weeks ago"
-msgstr ""
+msgstr "সর্বশেষ কার্যকর: সপ্তাহ আগে"
 
 #: .es5/scripts/views/settings/devices.js:35
 msgid "Last active: years ago"
-msgstr ""
+msgstr "সর্বশেষ কার্যকর: বছর আগে"
 
 #: .es5/scripts/views/settings/display_name.js:50
 msgid "Display name updated"
@@ -161,11 +161,11 @@ msgstr ""
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/templates/sign_up.mustache:18
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr ""
+msgstr "একটি কঠিন, অনন্য পাসওয়ার্ড আপনার Firefox ডাটা কে চুরির থেকে নিরাপদ রাখতে পারে।"
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:23
 msgid "This is a common password; please consider another one."
-msgstr ""
+msgstr "এটা একটি সাধারণ পাসওয়ার্ড; অনুগ্র করে অন্যটি দিন।"
 
 #: .es5/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
@@ -243,7 +243,7 @@ msgstr "প্রচেষ্টা সীমা অতিক্রম করে
 
 #: .es5/scripts/lib/auth-errors.js:103
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "নিরপত্তার কারণে অনুরোধটি ব্লক করা হয়েছে"
 
 #: .es5/scripts/lib/auth-errors.js:111 .es5/scripts/lib/auth-errors.js:288
 msgid "Server busy, try again soon"
