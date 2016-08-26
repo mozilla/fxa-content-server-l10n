@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-08-25 03:49+0000\n"
+"PO-Revision-Date: 2016-08-26 06:08+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_BD\n"
@@ -320,7 +320,7 @@ msgstr "আপনার যাচাইকরণ মেইল এইমাত্
 
 #: .es5/scripts/lib/auth-errors.js:205
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "সঠিক ইমেইল ঠিকানা দিন। firefox.com কোন ইমেইল অফার করে না।"
 
 #: .es5/scripts/lib/auth-errors.js:213
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
@@ -340,11 +340,11 @@ msgstr ""
 
 #: .es5/scripts/lib/auth-errors.js:244
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "iOS এর জন্য Firefox এ Signup আসছে"
 
 #: .es5/scripts/lib/auth-errors.js:255
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "সাইন আপ করতে আপনাকে অবশ্যই অাপনার বয়স দিতে হবে"
 
 #: .es5/scripts/lib/auth-errors.js:259
 msgid "No Gravatar found"
@@ -352,27 +352,27 @@ msgstr "কোন গ্রাভাটার পাওয়া যায় ন�
 
 #: .es5/scripts/lib/auth-errors.js:267
 msgid "Account no longer exists."
-msgstr ""
+msgstr "অ্যাকাউন্ট আর নেই।"
 
 #: .es5/scripts/lib/auth-errors.js:271
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "বিবরণ টোকেনে অকার্যকর প্রপার্টি: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:275
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "বিবরণ টোকেনে অনুপস্থিত প্রপার্টি: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:279
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "অকার্যকর ডাটা এট্রিবিউট: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:283
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "অনুপস্থিত ডাটা এট্রিবিউট: %(property)s"
 
 #: .es5/scripts/lib/mailcheck.js:60
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
-msgstr ""
+msgstr "আপনি কি  <span tabindex=\"1\"> %(domain)s </span> বোঝাতে চাচ্ছেন?"
 
 #: .es5/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -400,7 +400,7 @@ msgstr "কোড বাতিল"
 
 #: .es5/scripts/lib/oauth-errors.js:54 .es5/scripts/lib/oauth-errors.js:76
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr ""
+msgstr "ভুল OAuth প্যারামিটার: %(param)s"
 
 #: .es5/scripts/lib/oauth-errors.js:62 .es5/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
@@ -416,11 +416,11 @@ msgstr "কিছু একটা ভুল হয়েছে। দয়াকর�
 
 #: .es5/scripts/lib/oauth-errors.js:108
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "অনুপস্থিত OAuth প্যারামিটার: %(param)s"
 
 #: .es5/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
-msgstr ""
+msgstr "অবৈধ টোকেন"
 
 #: .es5/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
@@ -448,7 +448,7 @@ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-fire
 
 #: .es5/scripts/lib/strings.js:28
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Mozilla ও Firefox সম্পর্কিত সর্বশেষ খবর নিন।"
 
 #: .es5/scripts/lib/strings.js:31
 msgid "%(city)s, %(country)s (estimated)"
@@ -468,7 +468,7 @@ msgstr ""
 
 #: .es5/scripts/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "অবৈধ অনুরোধ"
 
 #: .es5/scripts/templates/500.mustache:1
 msgid "500 Error"
@@ -476,7 +476,7 @@ msgstr "500 ভূল"
 
 #: .es5/scripts/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr ""
+msgstr "ওহো, সেখানে কিছু গণ্ডগোল হয়েছে, আমরা নোটিশ পেয়েছি এবং মেরামতের জন্য কাজ করছি।"
 
 #: .es5/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
