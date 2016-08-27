@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-07-20 07:31+0000\n"
-"Last-Translator: ewanjeon <ewanjeon@gmail.com>\n"
+"PO-Revision-Date: 2016-08-27 02:02+0000\n"
+"Last-Translator: pillarlee16 <pillarlee16@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgstr "비밀번호를 성공적으로 재설정했습니다. 로그인해 주�
 
 #: .es5/scripts/views/permissions.js:26
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName)s (필수)"
 
 #: .es5/scripts/views/permissions.js:31
 msgid "Email address"
@@ -57,7 +57,7 @@ msgstr "Firefox Sync가 곧 다시 계속됩니다."
 
 #: .es5/scripts/views/ready.js:49
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "로그인 확인"
 
 #: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55 .es5/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
@@ -101,31 +101,31 @@ msgstr "계정이 성공적으로 삭제됨"
 
 #: .es5/scripts/views/settings/devices.js:28
 msgid "Last active: days ago"
-msgstr ""
+msgstr "마지막 접속: 며칠 전"
 
 #: .es5/scripts/views/settings/devices.js:29
 msgid "Last active: hours ago"
-msgstr ""
+msgstr "지막 접속: 몇 시간 전"
 
 #: .es5/scripts/views/settings/devices.js:30
 msgid "Last active: minutes ago"
-msgstr ""
+msgstr "마지막 접속: 몇 분 전"
 
 #: .es5/scripts/views/settings/devices.js:31
 msgid "Last active: months ago"
-msgstr ""
+msgstr "마지막 접속: 몇 달 전"
 
 #: .es5/scripts/views/settings/devices.js:32
 msgid "Last active: seconds ago"
-msgstr ""
+msgstr "마지막 접속: 몇 초 전"
 
 #: .es5/scripts/views/settings/devices.js:34
 msgid "Last active: weeks ago"
-msgstr ""
+msgstr "마지막 접속: 몇 주 전"
 
 #: .es5/scripts/views/settings/devices.js:35
 msgid "Last active: years ago"
-msgstr ""
+msgstr "마지막 접속: 몇 년 전"
 
 #: .es5/scripts/views/settings/display_name.js:50
 msgid "Display name updated"
@@ -145,15 +145,15 @@ msgstr "Gmail 열기"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:22
 msgid "Open Hotmail"
-msgstr ""
+msgstr "Hotmail 열기"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:27
 msgid "Open Yahoo"
-msgstr ""
+msgstr "Yahoo 열기"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:32
 msgid "Open Outlook"
-msgstr ""
+msgstr "Outlook 열기"
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:21
 msgid "8 characters minimum, but longer if you plan to sync passwords."
@@ -219,11 +219,11 @@ msgstr "요청 본문에 잘못된 JSON"
 
 #: .es5/scripts/lib/auth-errors.js:69
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "유효하지 않은 파라미터: %(param)s"
 
 #: .es5/scripts/lib/auth-errors.js:73
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "누락된 파라미터: %(param)s"
 
 #: .es5/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
@@ -243,7 +243,7 @@ msgstr "재시도 횟수 초과"
 
 #: .es5/scripts/lib/auth-errors.js:103
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "보안상의 이유로 요청이 차단 되었습니다"
 
 #: .es5/scripts/lib/auth-errors.js:111 .es5/scripts/lib/auth-errors.js:288
 msgid "Server busy, try again soon"
@@ -356,19 +356,19 @@ msgstr "계정이 더이상 존재하지 않습니다."
 
 #: .es5/scripts/lib/auth-errors.js:271
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "이력서 토근의 유효하지 않은 속성: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:275
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "이력서 토큰의 누락된 속성: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:279
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "유효하지 않은 데이터 속성: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:283
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "누락된 데이터 속성: %(property)s"
 
 #: .es5/scripts/lib/mailcheck.js:60
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -420,7 +420,7 @@ msgstr "OAuth 파라메터 누락: %(param)s"
 
 #: .es5/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
-msgstr ""
+msgstr "유효하지 않은 토큰"
 
 #: .es5/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
@@ -439,12 +439,8 @@ msgid "Firefox Sync"
 msgstr "Firefox 동기화"
 
 #: .es5/scripts/lib/strings.js:17
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"계속 진행하면 <a id=\"service-tos\" href=\"%(termsUri)s\">이용 약관</a>과 %(serviceName)s (%(serviceUri)s)의 <a id=\"service-pp\" href=\"%(privacyUri)s\">개인정보 보호정책</a>에 동의한 것으로 간주 "
-"합니다."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "계속 진행하면 <a id=\"service-tos\" href=\"%(termsUri)s\">이용 약관</a>과 %(serviceName)s (%(serviceUri)s)의 <a id=\"service-pp\" href=\"%(privacyUri)s\">개인정보 보호정책</a>에 동의한 것으로 간주 합니다."
 
 #: .es5/scripts/lib/strings.js:24
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -456,31 +452,31 @@ msgstr "Mozilla 및 Firefox에 대한 최신 소식을 접하세요."
 
 #: .es5/scripts/lib/strings.js:31
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (추정)"
 
 #: .es5/scripts/lib/strings.js:32
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (추정)"
 
 #: .es5/scripts/lib/strings.js:33
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "IP 주소: %(ip)s"
 
 #: .es5/scripts/lib/strings.js:34
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "추가 보안을 위해 기기와 동기화 하기 위해 이 로그인을 확인해주세요:"
 
 #: .es5/scripts/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "잘못된 요청"
 
 #: .es5/scripts/templates/500.mustache:1
 msgid "500 Error"
-msgstr ""
+msgstr "500 에러"
 
 #: .es5/scripts/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr ""
+msgstr "아, 뭔가가 잘 못 되었습니다. 이 상황을 인지했으며 고치기위해 노력하겠습니다."
 
 #: .es5/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -528,7 +524,7 @@ msgstr "현재 부가기능과 설정은 모바일 기기에서 동기화되지 
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
-msgstr ""
+msgstr "설정 저장"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:16 .es5/scripts/templates/confirm.mustache:13 .es5/scripts/templates/pp.mustache:3 .es5/scripts/templates/tos.mustache:3
 msgid "Back"
@@ -569,7 +565,7 @@ msgstr ""
 
 #: .es5/scripts/templates/complete_reset_password.mustache:11 .es5/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
-msgstr ""
+msgstr "동기화 작동법을 배워봅시다."
 
 #: .es5/scripts/templates/complete_reset_password.mustache:13 .es5/scripts/templates/settings/change_password.mustache:7
 msgid "New password"
@@ -678,8 +674,7 @@ msgstr "암호 분실?"
 
 #: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr ""
-"계속 진행하면 Firefox 클라우드 서비스의 <a id=\"fxa-tos\" href=\"/legal/terms\">서비스 이용약관</a> 및 <a id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 취급방침</a>에 동의하는 것으로 간주합니다."
+msgstr "계속 진행하면 Firefox 클라우드 서비스의 <a id=\"fxa-tos\" href=\"/legal/terms\">서비스 이용약관</a> 및 <a id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 취급방침</a>에 동의하는 것으로 간주합니다."
 
 #: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -905,11 +900,9 @@ msgstr "장치"
 
 #: .es5/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
-msgstr ""
-"Firefox는 <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> 그리고 <a href=\"%(linkLinux)s\">Linux</"
-"a>를 지원합니다."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
+msgstr "Firefox는 <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> 그리고 <a href=\"%(linkLinux)s\">Linux</a>를 지원합니다."
 
 #: .es5/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
