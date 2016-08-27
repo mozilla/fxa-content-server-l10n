@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-08-27 02:02+0000\n"
+"PO-Revision-Date: 2016-08-27 02:59+0000\n"
 "Last-Translator: pillarlee16 <pillarlee16@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -157,15 +157,15 @@ msgstr "Outlook 열기"
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:21
 msgid "8 characters minimum, but longer if you plan to sync passwords."
-msgstr ""
+msgstr "최소 8자를 필요로합니다, 그러나 동기화를 사용할 생각이라면 더 길어야 합니다."
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/templates/sign_up.mustache:18
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr ""
+msgstr "강력하고, 고유한 암호를 사용하시면 침입자로 부터 여러분의 Firefox 데이터를 지킬 수 있습니다."
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:23
 msgid "This is a common password; please consider another one."
-msgstr ""
+msgstr "너무 일반적인 암호입니다; 다른 것을 생각해보세요."
 
 #: .es5/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
@@ -583,7 +583,7 @@ msgstr "암호 재입력"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:18
 msgid "Submit new password"
-msgstr ""
+msgstr "새로운 비밀번호 제출"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
@@ -603,7 +603,7 @@ msgstr "계정 확인"
 
 #: .es5/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "로그인 확인"
 
 #: .es5/scripts/templates/confirm.mustache:6 .es5/scripts/templates/confirm_reset_password.mustache:3
 msgid "Email Sent"
@@ -615,11 +615,11 @@ msgstr "확인 링크 보낸 메일: %(email)s"
 
 #: .es5/scripts/templates/confirm.mustache:9
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr ""
+msgstr "당신의 Firefox 데이터를 더 안전하게 보호하기 위해, %(email)s 로 확인 메일을 보냈습니다"
 
 #: .es5/scripts/templates/confirm.mustache:12 .es5/scripts/templates/confirm.mustache:14
 msgid "Didn't arrive? Resend"
-msgstr ""
+msgstr "도착하지 않았나요? 다시 전송"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -794,7 +794,7 @@ msgstr "Firefox 계정 생성"
 
 #: .es5/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
-msgstr ""
+msgstr "Firefox Sync 를 찾고 있나요? <a href=\"https://mozilla.org/firefox/sync\">시작하기.</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -806,11 +806,11 @@ msgstr ""
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Send me the monthly Firefox newsletter."
-msgstr ""
+msgstr "월간 Firefox 뉴스레터를 보내주세요."
 
 #: .es5/scripts/templates/sign_up.mustache:22
 msgid "Create account"
-msgstr ""
+msgstr "계정 생성"
 
 #: .es5/scripts/templates/sign_up.mustache:27
 msgid "Have an account? Sign in."
