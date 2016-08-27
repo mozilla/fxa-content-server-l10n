@@ -1,26 +1,30 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2016-08-27 05:59+0000\n"
+"Last-Translator: vsatayamas <vsatayamas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pontoon\n"
 
 #: .es5/scripts/views/complete_reset_password.js:124 .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:131 .es5/scripts/views/confirm_reset_password.js:177
 msgid "Account verified successfully"
-msgstr ""
+msgstr "ตรวจสอบบัญชีเรียบร้อยแล้ว "
 
 #: .es5/scripts/views/confirm_reset_password.js:169 .es5/scripts/views/ready.js:43
 msgid "Password reset"
-msgstr ""
+msgstr "ตั้งรหัสผ่านใหม่"
 
 #: .es5/scripts/views/confirm_reset_password.js:196
 msgid "Password reset successfully. Sign in to continue."
-msgstr ""
+msgstr "ตั้งรหัสผ่านใหม่สำเร็จแล้ว ลงชื่อเข้าใช้เพื่อดำเนินการต่อ"
 
 #: .es5/scripts/views/permissions.js:26
 msgid "%(permissionName)s (required)"
@@ -28,11 +32,11 @@ msgstr ""
 
 #: .es5/scripts/views/permissions.js:31
 msgid "Email address"
-msgstr ""
+msgstr "ที่อยู่อีเมล"
 
 #: .es5/scripts/views/permissions.js:35 .es5/scripts/templates/settings/display_name.mustache:1 .es5/scripts/templates/settings/display_name.mustache:4
 msgid "Display name"
-msgstr ""
+msgstr "ชื่อที่แสดงผล"
 
 #: .es5/scripts/views/permissions.js:38 .es5/scripts/templates/settings/avatar.mustache:1
 msgid "Account picture"
@@ -44,7 +48,7 @@ msgstr ""
 
 #: .es5/scripts/views/ready.js:38
 msgid "Welcome back"
-msgstr ""
+msgstr "ยินดีต้อนรับกลับมา"
 
 #: .es5/scripts/views/ready.js:39
 msgid "Firefox Sync will resume momentarily"
@@ -136,19 +140,19 @@ msgstr ""
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:17
 msgid "Open Gmail"
-msgstr ""
+msgstr "เปิด Gmail"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:22
 msgid "Open Hotmail"
-msgstr ""
+msgstr "เปิด Hotmail"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:27
 msgid "Open Yahoo"
-msgstr ""
+msgstr "เปิด Yahoo"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:32
 msgid "Open Outlook"
-msgstr ""
+msgstr "เปิด Outlook"
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:21
 msgid "8 characters minimum, but longer if you plan to sync passwords."
@@ -198,7 +202,7 @@ msgstr ""
 
 #: .es5/scripts/lib/auth-errors.js:53
 msgid "Incorrect password"
-msgstr ""
+msgstr "รหัสผ่านไม่ถูกต้อง"
 
 #: .es5/scripts/lib/auth-errors.js:57
 msgid "Unverified account"
@@ -271,7 +275,7 @@ msgstr ""
 
 #: .es5/scripts/lib/auth-errors.js:139
 msgid "Working…"
-msgstr ""
+msgstr "กำลังทำงาน…"
 
 #: .es5/scripts/lib/auth-errors.js:143
 msgid "Could not get Privacy Notice"
@@ -434,9 +438,7 @@ msgid "Firefox Sync"
 msgstr ""
 
 #: .es5/scripts/lib/strings.js:17
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/scripts/lib/strings.js:24
@@ -485,35 +487,35 @@ msgstr ""
 
 #: .es5/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
-msgstr ""
+msgstr "เรียนรู้เพิ่มเติม"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:1 .es5/scripts/templates/sign_up.mustache:24
 msgid "Choose what to sync"
-msgstr ""
+msgstr "เลือกสิ่งที่จะซิงค์"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Tabs"
-msgstr ""
+msgstr "แท็บ"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
-msgstr ""
+msgstr "ที่คั่นหน้า"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
-msgstr ""
+msgstr "ส่วนเสริม"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:8
 msgid "Passwords"
-msgstr ""
+msgstr "รหัสผ่าน"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:10
 msgid "History"
-msgstr ""
+msgstr "ประวัติ"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Preferences"
-msgstr ""
+msgstr "การตั้งค่า"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
@@ -521,11 +523,11 @@ msgstr ""
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
-msgstr ""
+msgstr "บันทึกการตั้งค่า"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:16 .es5/scripts/templates/confirm.mustache:13 .es5/scripts/templates/pp.mustache:3 .es5/scripts/templates/tos.mustache:3
 msgid "Back"
-msgstr ""
+msgstr "ย้อนกลับ"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -897,8 +899,8 @@ msgstr ""
 
 #: .es5/scripts/templates/settings/devices.mustache:4
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
 
 #: .es5/scripts/templates/settings/devices.mustache:5
@@ -907,7 +909,7 @@ msgstr ""
 
 #: .es5/scripts/templates/settings/devices.mustache:6
 msgid "current device"
-msgstr ""
+msgstr "อุปกรณ์ปัจจุบัน"
 
 #: .es5/scripts/templates/settings/devices.mustache:8
 msgid "Disconnect"
@@ -915,7 +917,7 @@ msgstr ""
 
 #: .es5/scripts/templates/settings/devices.mustache:10
 msgid "Don't see all your devices?"
-msgstr ""
+msgstr "ไม่เห็นอุปกรณ์ของคุณทั้งหมด?"
 
 #: .es5/scripts/templates/settings/devices.mustache:11
 msgid "Refresh"
@@ -927,7 +929,7 @@ msgstr ""
 
 #: .es5/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
-msgstr ""
+msgstr "คุณอายุเท่าไร?"
 
 #: .es5/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
@@ -939,8 +941,8 @@ msgstr ""
 
 #: .es5/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
-msgstr ""
+msgstr "ใช้ OpenID"
 
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr ""
+msgstr "ใช้บัญชี Firefox"
