@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-08-27 05:57+0000\n"
+"PO-Revision-Date: 2016-08-27 07:01+0000\n"
 "Last-Translator: vsatayamas <vsatayamas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -35,14 +35,15 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 "iOS</a>."
 msgstr ""
+"คุณเชื่อมต่อกับอุปกรณ์แรกกับ Firefox Account สำเร็จแล้ว เพื่อที่จะใช้งานส่วนมากใน Sync เชื่อมต่อกับ <a href='%(androidUrl)s'>Firefox for Android</a> หรือ <a href='%(iosUrl)s'>Firefox for iOS</a>"
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "เชื่อมต่ออุปกรณ์อื่น"
 
 #: templates/_pending.txt:6
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "ลงชื่อเข้าใช้ Sync"
 
 #: templates/new_device_login.html:1 templates/password_changed.html:1 templates/password_reset.html:1 templates/password_reset_required.html:1 templates/post_verify.html:1 templates/recovery.html:1
 #: templates/suspicious_location.html:1 templates/verification_reminder_first.html:1 templates/verification_reminder_second.html:1 templates/verify.html:1 templates/verify_login.html:1
@@ -73,7 +74,7 @@ msgstr ""
 #: templates/suspicious_location.html:14 templates/suspicious_location.txt:13 templates/verification_reminder_first.html:8 templates/verification_reminder_first.txt:6
 #: templates/verification_reminder_second.html:8 templates/verification_reminder_second.txt:6 templates/verify.html:8 templates/verify.txt:6 templates/verify_login.html:8 templates/verify_login.txt:6
 msgid "Mozilla Privacy Policy"
-msgstr ""
+msgstr "นโยบายความเป็นส่วนตัว Mozilla"
 
 #: templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
@@ -102,7 +103,7 @@ msgstr ""
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
-msgstr ""
+msgstr "ตั้งรหัสผ่านของคุณใหม่แล้ว"
 
 #: templates/password_reset.html:3
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
@@ -123,28 +124,28 @@ msgstr ""
 
 #: templates/password_reset.txt:3
 msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "นี้เป็นอีเมลอัตโนมัติ ถ้าคุณยังไม่ได้ตั้งรหัสผ่าน Firefox Account ของคุณใหม่ คุณควรตั้งรหัสใหม่ทันที %(resetLink)s"
 
 #: templates/password_reset_required.html:2 templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-msgstr ""
+msgstr "พบกิจกรรมที่น่าสงสัยบน Firefox Account ของคุณ บัญชีของคุณอาจจะถูกเจาะ"
 
 #: templates/password_reset_required.html:3 templates/password_reset_required.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-msgstr ""
+msgstr "เพื่อป้องกันการเข้าใช้ Firefox Account อย่างไม่ได้รับอนุญาต เราตั้งรหัสผ่านของคุณใหม่และแจ้งคุณเพื่อเป็นการป้องกัน"
 
 #: templates/password_reset_required.html:4 templates/password_reset_required.txt:3
 msgid "What should you do?"
-msgstr ""
+msgstr "คุณควรทำอย่างไร ?"
 
 #: templates/password_reset_required.html:5 templates/password_reset_required.txt:4 templates/suspicious_location.html:7 templates/suspicious_location.txt:6
 msgid "First, change your Firefox Account password."
-msgstr ""
+msgstr "ขั้นแรก เปลี่ยนรหัสผ่าน Firefox Account ของคุณ"
 
 #: templates/password_reset_required.html:6 templates/password_reset_required.txt:5 templates/suspicious_location.html:8 templates/suspicious_location.txt:7
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
-msgstr ""
+msgstr "ขั้นที่สอง ถ้า Firefox เก็บรหัสผ่านสำหรับเว็บไซต์ คุณควรเปลี่ยนรหัสผ่านนั้นด้วย ผู้บุกรุกอาจได้รหัสผ่านนั้นไปแล้ว ดังนั้นคุณจึงควรตรวจชอบบัญชีเหล่านั้นเนื่องจากกิจกรรมที่น่าสงสัย"
 
 #: templates/password_reset_required.html:7 templates/password_reset_required.txt:6 templates/suspicious_location.html:9 templates/suspicious_location.txt:8
 msgid "Learn how to see what passwords Firefox is storing for you."
@@ -211,7 +212,7 @@ msgstr "อุปกรณ์:"
 
 #: templates/suspicious_location.html:5 templates/suspicious_location.txt:4
 msgid "Location:"
-msgstr ""
+msgstr "ตำแหน่งที่ตั้ง:"
 
 #: templates/suspicious_location.html:6 templates/suspicious_location.txt:5
 msgid "If you don’t recognize the activity above:"
@@ -285,7 +286,7 @@ msgstr ""
 
 #: mailer.js:161
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (โดยประมาณ)"
 
 #: mailer.js:251
 msgid "Verify your Firefox Account"
@@ -321,7 +322,7 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "ไม่พบหน้า"
 
 #: server/templates/pages/src/404.html:3
 msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
@@ -333,7 +334,7 @@ msgstr "หน้าแรก"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr ""
+msgstr "ข้อผิดพลาด 500"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
@@ -341,7 +342,7 @@ msgstr ""
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "ข้อผิดพลาด 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
@@ -361,11 +362,11 @@ msgstr ""
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
-msgstr ""
+msgstr "ประกาศความเป็นส่วนตัว"
 
 #: server/templates/pages/src/privacy.html:3 server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "บริการกลุ่มเมฆ Firefox"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
