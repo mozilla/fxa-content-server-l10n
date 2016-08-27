@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-08-27 07:01+0000\n"
+"PO-Revision-Date: 2016-08-27 08:02+0000\n"
 "Last-Translator: vsatayamas <vsatayamas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -16,26 +16,24 @@ msgstr ""
 
 #: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:519
 msgid "Still there?"
-msgstr ""
+msgstr "ยังอยู่ที่นั่นใช่ไหม ?"
 
 #: templates/_pending.txt:2
 msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
-msgstr ""
+msgstr "คุณได้สร้างบัญชี Firefox มาสักพักหนึ่งแล้ว แต่ยังไม่ได้ยืนยันความถูกต้อง คลิกที่ลิงก์ด้านล่างเพื่อใช้งานบัญชีของคุณ"
 
 #: templates/_pending.txt:3
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"คุณเชื่อมต่ออุปกรณ์แรกเข้ากับ Firefox Account สำเร็จแล้ว ตอนนี้คุณสามารถลงชื่อเข้าใช้ Sync จากอุปกรณ์อื่น ซึ่งรวมถึง Firefox สำหรับ <a href='%(androidUrl)s'>Android</a> และ <a "
-"href='%(iosUrl)s'>iOS</a>"
+"คุณเชื่อมต่ออุปกรณ์แรกเข้ากับบัญชี Firefox สำเร็จแล้ว ตอนนี้คุณสามารถลงชื่อเข้าใช้ Sync จากอุปกรณ์อื่น ซึ่งรวมถึง Firefox สำหรับ <a href='%(androidUrl)s'>Android</a> และ <a href='%(iosUrl)s'>iOS</a>"
 
 #: templates/_pending.txt:4
 msgid ""
 "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 "iOS</a>."
-msgstr ""
-"คุณเชื่อมต่อกับอุปกรณ์แรกกับ Firefox Account สำเร็จแล้ว เพื่อที่จะใช้งานส่วนมากใน Sync เชื่อมต่อกับ <a href='%(androidUrl)s'>Firefox for Android</a> หรือ <a href='%(iosUrl)s'>Firefox for iOS</a>"
+msgstr "คุณเชื่อมต่อกับอุปกรณ์แรกกับบัญชี Firefox สำเร็จแล้ว เพื่อที่จะใช้งานส่วนมากใน Sync เชื่อมต่อกับ <a href='%(androidUrl)s'>Firefox for Android</a> หรือ <a href='%(iosUrl)s'>Firefox for iOS</a>"
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -54,7 +52,7 @@ msgstr "บัญชี Firefox"
 
 #: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:426
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "เข้าสู่ระบบ Firefox ใหม่"
 
 #: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "IP address: %(ip)s"
@@ -62,12 +60,12 @@ msgstr "ที่อยู่ IP: %(ip)s"
 
 #: templates/new_device_login.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr ""
+msgstr "นี้เป็นอีเมลอัตโนมัติ ถ้าหากคุณไม่ได้อนุญาตการดำเนินการนี้ <a %(passwordChangeLinkAttributes)s>โปรดเปลี่ยนรหัสผ่านของคุณ</a>"
 
 #: templates/new_device_login.html:5 templates/password_changed.html:5 templates/password_reset.html:5 templates/post_verify.html:7 templates/recovery.html:8
 #: templates/verification_reminder_first.html:7 templates/verification_reminder_second.html:7 templates/verify.html:7
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr ""
+msgstr "สำหรับข้อมูลเพิ่มเติม โปรดดูได้จาก <a %(supportLinkAttributes)s>Mozilla Support</a>"
 
 #: templates/new_device_login.html:6 templates/new_device_login.txt:5 templates/password_changed.html:6 templates/password_changed.txt:5 templates/password_reset.html:6 templates/password_reset.txt:5
 #: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:8 templates/post_verify.txt:6 templates/recovery.html:9 templates/recovery.txt:7
@@ -78,28 +76,28 @@ msgstr "นโยบายความเป็นส่วนตัว Mozilla"
 
 #: templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr ""
+msgstr "นี้เป็นอีเมลอัตโนมัติ หากคุณไม่ได้เพิ่มอุปกรณ์ใหม่เพื่อใช้บัญชี Firefox คุณควรเปลี่ยนรหัสผ่านที่ %(passwordChangeLink)s"
 
 #: templates/new_device_login.txt:4 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5
 msgid "For more information, please visit %(supportUrl)s"
-msgstr ""
+msgstr "สำหรับข้อมูลเพิ่มเติม โปรดดูจาก %(supportUrl)s"
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "ได้เปลี่ยนรหัสผ่านสำเร็จแล้ว"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr ""
+msgstr "เปลี่ยนรหัสผ่านบัญชี Firefox ของคุณเรียบร้อยแล้ว"
 
 #: templates/password_changed.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr ""
+msgstr "นี้เป็นอีเมลอัตโนมัติ ถ้าคุณไม่ได้อนุญาตการกระทำนี้ <a %(resetLinkAttributes)s>โปรดตั้งรหัสผ่านใหม่</a>."
 
 #: templates/password_changed.txt:3
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "นี้เป็นอีเมลอัตโนมัติ หากคุณไม่ได้เปลี่ยนรหัสผ่านบัญชี Firefox ของคุณ คุณควรตั้งรหัสผ่านใหม่ทันทีที่ %(resetLink)s"
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
@@ -107,32 +105,32 @@ msgstr "ตั้งรหัสผ่านของคุณใหม่แล
 
 #: templates/password_reset.html:3
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+msgstr "รหัสผ่านบัญชี Firefox ของคุณถูกเปลี่ยนเรียบร้อยแล้ว ถ้าคุณไม่ได้เปลี่ยน โปรด<a %(resetLinkAttributes)s>ตั้งรหัสผ่านใหม่</a>เดี๋ยวนี้"
 
 #: templates/password_reset.html:4 templates/post_verify.html:6 templates/post_verify.txt:4 templates/recovery.html:7 templates/recovery.txt:5 templates/verification_reminder_first.html:6
 #: templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:6 templates/verification_reminder_second.txt:4 templates/verify.html:6 templates/verify.txt:4
 msgid "This is an automated email; if you received it in error, no action is required."
-msgstr ""
+msgstr "นี้เป็นอีเมลอัตโนมัติ ถ้าคุณได้รับเนื่องจากความผิดพลาด ไม่จำเป็นต้องทำอะไร"
 
 #: templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "ได้ตั้งรหัสผ่านใหม่เรียบร้อยแล้ว"
 
 #: templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr ""
+msgstr "ได้ตั้งรหัสผ่านบัญชี Firefox ใหม่เรียบร้อยแล้ว"
 
 #: templates/password_reset.txt:3
 msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr "นี้เป็นอีเมลอัตโนมัติ ถ้าคุณยังไม่ได้ตั้งรหัสผ่าน Firefox Account ของคุณใหม่ คุณควรตั้งรหัสใหม่ทันที %(resetLink)s"
+msgstr "นี้เป็นอีเมลอัตโนมัติ ถ้าคุณยังไม่ได้ตั้งรหัสผ่านบัญชี Firefox ของคุณใหม่ คุณควรตั้งรหัสใหม่ทันที %(resetLink)s"
 
 #: templates/password_reset_required.html:2 templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-msgstr "พบกิจกรรมที่น่าสงสัยบน Firefox Account ของคุณ บัญชีของคุณอาจจะถูกเจาะ"
+msgstr "พบกิจกรรมที่น่าสงสัยบนบัญชี Firefox ของคุณ บัญชีของคุณอาจจะถูกเจาะ"
 
 #: templates/password_reset_required.html:3 templates/password_reset_required.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-msgstr "เพื่อป้องกันการเข้าใช้ Firefox Account อย่างไม่ได้รับอนุญาต เราตั้งรหัสผ่านของคุณใหม่และแจ้งคุณเพื่อเป็นการป้องกัน"
+msgstr "เพื่อป้องกันการเข้าใช้บัญชี Firefox อย่างไม่ได้รับอนุญาต เราตั้งรหัสผ่านของคุณใหม่และแจ้งคุณเพื่อเป็นการป้องกัน"
 
 #: templates/password_reset_required.html:4 templates/password_reset_required.txt:3
 msgid "What should you do?"
@@ -140,7 +138,7 @@ msgstr "คุณควรทำอย่างไร ?"
 
 #: templates/password_reset_required.html:5 templates/password_reset_required.txt:4 templates/suspicious_location.html:7 templates/suspicious_location.txt:6
 msgid "First, change your Firefox Account password."
-msgstr "ขั้นแรก เปลี่ยนรหัสผ่าน Firefox Account ของคุณ"
+msgstr "ขั้นแรก เปลี่ยนรหัสผ่านบัญชี Firefox ของคุณ"
 
 #: templates/password_reset_required.html:6 templates/password_reset_required.txt:5 templates/suspicious_location.html:8 templates/suspicious_location.txt:7
 msgid ""
@@ -149,30 +147,32 @@ msgstr "ขั้นที่สอง ถ้า Firefox เก็บรหั�
 
 #: templates/password_reset_required.html:7 templates/password_reset_required.txt:6 templates/suspicious_location.html:9 templates/suspicious_location.txt:8
 msgid "Learn how to see what passwords Firefox is storing for you."
-msgstr ""
+msgstr "เรียนรู้เพิ่มเติมว่าจะดูอย่างไรว่า Firefox เก็บรหัสผ่านอะไรให้คุณ"
 
 #: templates/password_reset_required.html:8 templates/password_reset_required.txt:7 templates/suspicious_location.html:12 templates/suspicious_location.txt:11
 msgid "Best,"
-msgstr ""
+msgstr "นับถือ"
 
 #: templates/password_reset_required.html:9 templates/password_reset_required.txt:8 templates/suspicious_location.html:13 templates/suspicious_location.txt:12
 msgid "The Firefox Accounts team"
-msgstr ""
+msgstr "ทีมบัญชี Firefox"
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
-msgstr ""
+msgstr "ตรวจสอบบัญชีแล้ว!"
 
 #: templates/post_verify.html:3
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
+"คุณได้เชื่อมต่ออุปกรณ์แรกเข้ากับบัญชี Firefox เรียบร้อยแล้ว ตอนนี้คุณสามารถลงชื่อเข้า Sync จากอุปกรณ์อื่นรวมถึง Firefox สำหรับ <a %(androidLinkAttributes)s>Android</a> และ <a "
+"%(iosLinkAttributes)s>iOS</a>"
 
 #: templates/post_verify.html:5 templates/recovery.html:6 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
 #: templates/verify_login.html:6
 msgid "Alternatively:"
-msgstr ""
+msgstr "ความเป็นไปได้อื่น ๆ"
 
 #: templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
