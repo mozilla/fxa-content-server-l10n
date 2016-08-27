@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-08-27 08:02+0000\n"
-"Last-Translator: vsatayamas <vsatayamas@gmail.com>\n"
+"PO-Revision-Date: 2016-08-27 09:01+0000\n"
+"Last-Translator: teerapatxtop <teerapatxtop@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
@@ -41,7 +41,7 @@ msgstr "เชื่อมต่ออุปกรณ์อื่น"
 
 #: templates/_pending.txt:6
 msgid "Sign in to Sync"
-msgstr "ลงชื่อเข้าใช้ Sync"
+msgstr "ลงชื่อเข้า Sync"
 
 #: templates/new_device_login.html:1 templates/password_changed.html:1 templates/password_reset.html:1 templates/password_reset_required.html:1 templates/post_verify.html:1 templates/recovery.html:1
 #: templates/suspicious_location.html:1 templates/verification_reminder_first.html:1 templates/verification_reminder_second.html:1 templates/verify.html:1 templates/verify_login.html:1
@@ -159,7 +159,7 @@ msgstr "ทีมบัญชี Firefox"
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
-msgstr "ตรวจสอบบัญชีแล้ว!"
+msgstr "ยืนยันความถูกต้องบัญชีแล้ว!"
 
 #: templates/post_verify.html:3
 msgid ""
@@ -176,11 +176,11 @@ msgstr "ความเป็นไปได้อื่น ๆ"
 
 #: templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-msgstr ""
+msgstr "คุณได้เชื่อมต่ออุปกรณ์แรกของคุณกับบัญชี Firefox ของคุณเรียบร้อยแล้ว ตอนนี้คุณสามารถลงชื่อเข้า Sync จากอุปกรณ์อื่นได้รวมทั้ง Firefox สำหรับ Android และ iOS"
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr ""
+msgstr "ลงชื่อเข้า Sync:"
 
 #: templates/recovery.html:2 templates/recovery.txt:1
 msgid "Forgot your password?"
@@ -188,19 +188,19 @@ msgstr "ลืมรหัสผ่านของคุณ?"
 
 #: templates/recovery.html:3 templates/recovery.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account."
-msgstr ""
+msgstr "คลิกที่ปุ่มภายในหนึ่งชั่วโมงเพื่อตั้งรหัสผ่านใหม่สำหรับบัญชี Firefox ของคุณ"
 
 #: templates/recovery.html:4 templates/recovery.txt:3
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "จำรหัสผ่าน? ลงชื่อเข้า"
 
 #: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
-msgstr ""
+msgstr "ตั้งรหัสผ่านใหม่"
 
 #: templates/suspicious_location.html:2 templates/suspicious_location.txt:1
 msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
-msgstr ""
+msgstr "คุณได้ลงชื่อเข้าบัญชี Firefox ของคุณจากที่ไหนในสถานที่ต่อไปนี้ภายใน 60 วันหรือไม่ ? หากจำสถานที่เหล่านี้ไม่ได้ บุคคลอื่นอาจได้เข้าถึงบัญชี Firefox ของคุณ"
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
@@ -216,7 +216,7 @@ msgstr "ตำแหน่งที่ตั้ง:"
 
 #: templates/suspicious_location.html:6 templates/suspicious_location.txt:5
 msgid "If you don’t recognize the activity above:"
-msgstr ""
+msgstr "หากคุณจำกิจกรรมด้านบนไม่ได้"
 
 #: templates/suspicious_location.html:10 templates/suspicious_location.txt:9
 msgid "Why are you receiving this email?"
@@ -224,7 +224,7 @@ msgstr "ทำไมคุณจึงได้รับอีเมลนี้
 
 #: templates/suspicious_location.html:11 templates/suspicious_location.txt:10
 msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
-msgstr ""
+msgstr "เร็ว ๆ นี้เราพบการลงชื่อเข้าบัญชี Firefox จากสถานที่ที่ไม่ปกติ เราจึงแจ้งคุณเพื่อเป็นการระมัดระวัง"
 
 #: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:516
 msgid "Hello again."
@@ -235,26 +235,28 @@ msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
 " email address to activate your account."
 msgstr ""
+"เมื่อไม่กี่วันมานี้คุณสร้างบัญชี Firefox แต่ไม่เคยได้รับการตรวจสอบ การตรวจสอบบัญชีทำให้คุณเข้าถึงแท็บ ที่คั่นหน้า รหัสผ่าน และประวัติของคุณบนอุปกรณ์ที่เชื่อมต่อกับบัญชี "
+"เพียงยืนยันที่อยู่อีเมลนี้เพื่อเปิดใช้บัญชี"
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "เปิดใช้งานเดี๋ยวนี้"
 
 #: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9
 msgid "Verify Email"
-msgstr ""
+msgstr "ยืนยันความถูกต้องอีเมล"
 
 #: templates/verification_reminder_first.html:10 templates/verification_reminder_second.html:10 templates/verify.html:10
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
+msgstr "ตรวจสอบอีเมลขอบคุณเพื่อลงทะเบียนบัญชี Firefox ให้เสร็จ"
 
 #: templates/verification_reminder_first.txt:3 templates/verification_reminder_second.txt:3 templates/verify.txt:3
 msgid "Activate now:"
-msgstr ""
+msgstr "เปิดใช้งานเดี๋ยวนี้:"
 
 #: templates/verification_reminder_second.html:3 templates/verification_reminder_second.txt:2
 msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
+msgstr "เมื่อสัปดาห์ที่แล้วคุณได้สร้างบัญชี Firefox แต่ไม่เคยตรวจสอบบัญชี เราเป็นห่วงคุณ ยืนยันที่อยู่อีเมลเพื่อเปิดใช้บัญชีและบอกเราคุณสบายดี"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
@@ -262,27 +264,27 @@ msgstr "ยินดีต้อนรับ!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "โปรดเปิดใช้งานบัญชีของคุณโดยการยืนยันที่อยู่อีเมลนี้"
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "เพื่อเพิ่มความปลอดภัย โปรดยืนยันโดยการลงชื่อเข้าเพื่อเริ่มซิงค์กับอุปกรณ์นี้"
 
 #: templates/verify_login.html:5 templates/verify_login.txt:4
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "ยืนยันการลงชื่อเข้า"
 
 #: templates/verify_login.html:7
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "ถ้าคุณสงสัยว่ามีใครพยายามเข้าถึงบัญชีของคุณ  <a %(passwordChangeLinkAttributes)s>โปรดเปลี่ยนรหัสผ่านของคุณ</a>"
 
 #: templates/verify_login.txt:5
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr ""
+msgstr "หากคุณสงสัยว่าใครพยายามเข้าถึงบัญชีของคุณ โปรดเปลี่ยนรหัสผ่านของคุณ"
 
 #: mailer.js:159
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s %(country)s (โดยประมาณ)"
 
 #: mailer.js:161
 msgid "%(country)s (estimated)"
@@ -290,35 +292,35 @@ msgstr "%(country)s (โดยประมาณ)"
 
 #: mailer.js:251
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "ยืนยันความถูกต้องบัญชี Firefox ของคุณ"
 
 #: mailer.js:290
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
+msgstr "ยืนยันการลงชื่อเข้า Firefox"
 
 #: mailer.js:331
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "ตั้งรหัสผ่านบัญชี Firefox ของคุณใหม่ "
 
 #: mailer.js:358
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "รหัสผ่านบัญชี Firefox ของคุณได้เปลี่ยนไปแล้ว"
 
 #: mailer.js:381
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "รหัสผ่านบัญชี Firefox ของคุณได้ตั้งใหม่แล้ว"
 
 #: mailer.js:404
 msgid "Firefox Account password reset required"
-msgstr ""
+msgstr "ต้องตั้งค่ารหัสผ่านบัญชี Firefox ใหม่"
 
 #: mailer.js:455
 msgid "Firefox Account Verified"
-msgstr ""
+msgstr "ได้ตรวจสอบบัญชี Firefox"
 
 #: mailer.js:494
 msgid "Suspicious activity with your Firefox Account"
-msgstr ""
+msgstr "บัญชี Firefox ของคุณมีกิจกรรมน่าสัยสัย"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -326,7 +328,7 @@ msgstr "ไม่พบหน้า"
 
 #: server/templates/pages/src/404.html:3
 msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
-msgstr ""
+msgstr "ไม่พบเพจที่คุณร้องขอ เราทราบเรื่องแล้วและจะแก้ไขลิงก์ที่อาจเสียหาย"
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -338,7 +340,7 @@ msgstr "ข้อผิดพลาด 500"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr ""
+msgstr "เราทราบถึงความผิดพลาดแล้วและจะดำเนินการแก้ไขต่อไป"
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -346,7 +348,7 @@ msgstr "ข้อผิดพลาด 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "เซิร์ฟเวอร์กำลังทำงานหนัก ลองอีกครั้งในเร็ว ๆ นี้"
 
 #: server/templates/pages/src/503.html:3
 msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."

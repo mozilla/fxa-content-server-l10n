@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-08-27 07:50+0000\n"
+"PO-Revision-Date: 2016-08-27 09:01+0000\n"
 "Last-Translator: vsatayamas <vsatayamas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: .es5/scripts/views/complete_reset_password.js:124 .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:131 .es5/scripts/views/confirm_reset_password.js:177
 msgid "Account verified successfully"
-msgstr "ตรวจสอบบัญชีเรียบร้อยแล้ว "
+msgstr "ยืนยันความถูกต้องบัญชีสำเร็จ"
 
 #: .es5/scripts/views/confirm_reset_password.js:169 .es5/scripts/views/ready.js:43
 msgid "Password reset"
@@ -56,7 +56,7 @@ msgstr "Firefox Sync จะทำงานต่อเร็ว ๆ นี้"
 
 #: .es5/scripts/views/ready.js:49
 msgid "Sign-in confirmed"
-msgstr "ยืนยันการลงชื่อเข้าใช้แล้ว"
+msgstr "ยืนยันการลงชื่อเข้าแล้ว"
 
 #: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55 .es5/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
@@ -64,7 +64,7 @@ msgstr "ขณะนี้คุณพร้อมใช้ %(serviceName)s แ�
 
 #: .es5/scripts/views/ready.js:54
 msgid "Account verified"
-msgstr "ได้ตรวจสอบบัญชีแล้ว"
+msgstr "ยืนยันความถูกต้องบัญชีแล้ว"
 
 #: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:152
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -156,49 +156,49 @@ msgstr "เปิด Outlook"
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:21
 msgid "8 characters minimum, but longer if you plan to sync passwords."
-msgstr ""
+msgstr "8 อักขระเป็นอย่างน้อยแต่ควรจะมากกว่าถ้าคุณมีแผนจะซิงค์รหัสผ่าน"
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/templates/sign_up.mustache:18
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr ""
+msgstr "รหัสผ่านที่แข็งแกร่งและมีเอกลักษณ์จะทำให้ข้อมูล Firefox ปลอดภัยจากผู้บุกรุก"
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:23
 msgid "This is a common password; please consider another one."
-msgstr ""
+msgstr "นี้เป็นรหัสผ่านที่ดาษดื่น โปรดพิจารณารหัสผ่านอื่น"
 
 #: .es5/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
-msgstr ""
+msgstr "ได้ลงชื่อออกสำเร็จแล้ว"
 
 #: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:79 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
 #: .es5/scripts/lib/profile-errors.js:47 .es5/scripts/lib/require-on-demand.js:33 .es5/scripts/lib/require-on-demand.js:37 .es5/scripts/lib/require-on-demand.js:41
 #: .es5/scripts/lib/require-on-demand.js:45
 msgid "Unexpected error"
-msgstr ""
+msgstr "มีความผิดพลาดที่ไม่ได้คาดหมาย"
 
 #: .es5/scripts/lib/auth-errors.js:29 .es5/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
-msgstr ""
+msgstr "โทเคนไม่ถูกต้อง"
 
 #: .es5/scripts/lib/auth-errors.js:33
 msgid "Invalid timestamp in request signature"
-msgstr ""
+msgstr "เวลาประทับไม่ถูกต้องในการร้องขอลายเซ็น"
 
 #: .es5/scripts/lib/auth-errors.js:37
 msgid "Invalid nonce in request signature"
-msgstr ""
+msgstr "nonce ไม่ถูกต้องในการร้องขอลายเซ็น"
 
 #: .es5/scripts/lib/auth-errors.js:41
 msgid "Account already exists"
-msgstr ""
+msgstr "มีบัญชีนี้อยู่แล้ว"
 
 #: .es5/scripts/lib/auth-errors.js:45
 msgid "Unknown account"
-msgstr ""
+msgstr "บัญชีที่ไม่รู้จัก"
 
 #: .es5/scripts/lib/auth-errors.js:49
 msgid "Incorrect email case"
-msgstr ""
+msgstr "อักษรตัวใหญ่ตัวเล็กในอีเมลไม่ถูกต้อง"
 
 #: .es5/scripts/lib/auth-errors.js:53
 msgid "Incorrect password"
@@ -206,56 +206,56 @@ msgstr "รหัสผ่านไม่ถูกต้อง"
 
 #: .es5/scripts/lib/auth-errors.js:57
 msgid "Unverified account"
-msgstr ""
+msgstr "บัญชียังไม่ได้รับการยืนยันความถูกต้อง"
 
 #: .es5/scripts/lib/auth-errors.js:61
 msgid "Invalid verification code"
-msgstr ""
+msgstr "รหัสยืนยันความถูกต้องไม่ถูกต้อง"
 
 #: .es5/scripts/lib/auth-errors.js:65
 msgid "Invalid JSON in request body"
-msgstr ""
+msgstr "JSON ในตัวการร้องขอไม่ถูกต้อง"
 
 #: .es5/scripts/lib/auth-errors.js:69
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "พารามิเตอร์ไม่ถูกต้อง: %(param)s"
 
 #: .es5/scripts/lib/auth-errors.js:73
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "ขาดพารามิเตอร์: %(param)s"
 
 #: .es5/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
-msgstr ""
+msgstr "การร้องขอลายเซ็นไม่ถูกต้อง"
 
 #: .es5/scripts/lib/auth-errors.js:81
 msgid "Missing content-length header"
-msgstr ""
+msgstr "ขาดหัว content-length"
 
 #: .es5/scripts/lib/auth-errors.js:85
 msgid "Request body too large"
-msgstr ""
+msgstr "ตัวการร้องขอใหญ่เกินไป"
 
 #: .es5/scripts/lib/auth-errors.js:89
 msgid "Attempt limit exceeded"
-msgstr ""
+msgstr "เกินจำนวนครั้งที่กำหนด"
 
 #: .es5/scripts/lib/auth-errors.js:103
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "การร้องขอถูกปิดกั้นด้วยเหตุผลด้านความปลอดภัย"
 
 #: .es5/scripts/lib/auth-errors.js:111 .es5/scripts/lib/auth-errors.js:288
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "เซิร์ฟเวอร์กำลังทำงานหนัก ลองอีกครั้งในเร็ว ๆ นี้"
 
 #: .es5/scripts/lib/auth-errors.js:115
 msgid "This endpoint is no longer supported"
-msgstr ""
+msgstr "ไม่รองรับปลายทางนี้อีกต่อไป"
 
 #: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:75 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
 #: .es5/scripts/lib/oauth-errors.js:80 .es5/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "ระบบไม่พร้อมใช้งาน ลองอีกครั้งหนึ่งเร็ว ๆ นี้"
 
 #: .es5/scripts/lib/auth-errors.js:123 .es5/scripts/lib/oauth-errors.js:104
 msgid "no message"
@@ -263,11 +263,11 @@ msgstr "ไม่มีข้อความ"
 
 #: .es5/scripts/lib/auth-errors.js:127
 msgid "Session expired. Sign in to continue."
-msgstr ""
+msgstr "วาระหมดอายุ ลงชื่อเข้าใหม่เพื่อดำเนินการต่อ"
 
 #: .es5/scripts/lib/auth-errors.js:131
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "คุกกี้ยังถูกปิดใช้งาน"
 
 #: .es5/scripts/lib/auth-errors.js:135
 msgid "Passwords do not match"
@@ -287,31 +287,31 @@ msgstr ""
 
 #: .es5/scripts/lib/auth-errors.js:151
 msgid "Your new password must be different"
-msgstr ""
+msgstr "รหัสผ่านใหม่ของคุณต้องไม่เหมือนเดิม"
 
 #: .es5/scripts/lib/auth-errors.js:155 .es5/scripts/templates/complete_reset_password.mustache:15 .es5/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
-msgstr ""
+msgstr "ต้องมีอย่างน้อย 8 อักขระ"
 
 #: .es5/scripts/lib/auth-errors.js:159
 msgid "Valid password required"
-msgstr ""
+msgstr "ต้องการรหัสผ่านที่ถูกต้อง"
 
 #: .es5/scripts/lib/auth-errors.js:163 .es5/scripts/lib/auth-errors.js:201 .es5/scripts/lib/auth-errors.js:217
 msgid "Valid email required"
-msgstr ""
+msgstr "ต้องการอีเมลที่ถูกต้อง"
 
 #: .es5/scripts/lib/auth-errors.js:174
 msgid "A usable image was not found"
-msgstr ""
+msgstr "ไม่พบภาพที่ใช้งานได้"
 
 #: .es5/scripts/lib/auth-errors.js:178
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "ไม่สามารถเริ่มใช้กล้องได้"
 
 #: .es5/scripts/lib/auth-errors.js:182
 msgid "Valid URL required"
-msgstr ""
+msgstr "ต้องการ URL ที่ถูกต้อง"
 
 #: .es5/scripts/lib/auth-errors.js:197
 msgid "Your verification email was just returned. Mistyped email?"
@@ -319,19 +319,19 @@ msgstr ""
 
 #: .es5/scripts/lib/auth-errors.js:205
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "โปรแกรดป้อนที่อยู่อีเมลที่ถูกต้อง firefox.com ไม่มีบริการอีเมล"
 
 #: .es5/scripts/lib/auth-errors.js:213
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "บัญชี Firefox สามารถใส่ใน IFRAME ได้เฉพาะเว็บได้รับอนุญาตแล้ว"
 
 #: .es5/scripts/lib/auth-errors.js:228 .es5/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
-msgstr ""
+msgstr "ลิงก์ที่คลิกเพื่อจะตรวจสอบอีเมลได้หมดอายุไปแล้ว"
 
 #: .es5/scripts/lib/auth-errors.js:232 .es5/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
-msgstr ""
+msgstr "ลิงก์สำหรับตรวจสอบได้รับความเสียหาย"
 
 #: .es5/scripts/lib/auth-errors.js:240
 msgid "The image dimensions must be at least 100x100px"
@@ -343,7 +343,7 @@ msgstr ""
 
 #: .es5/scripts/lib/auth-errors.js:255
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "คุณต้องป้อนอายุของคุณเพื่อลงทะเบียน"
 
 #: .es5/scripts/lib/auth-errors.js:259
 msgid "No Gravatar found"
@@ -455,7 +455,7 @@ msgstr ""
 
 #: .es5/scripts/lib/strings.js:32
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (โดยประมาณ)"
 
 #: .es5/scripts/lib/strings.js:33
 msgid "IP address: %(ip)s"
@@ -578,7 +578,7 @@ msgstr "แสดง"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:16
 msgid "Repeat password"
-msgstr ""
+msgstr "ทวนรหัสผ่าน"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:18
 msgid "Submit new password"
@@ -631,7 +631,7 @@ msgstr ""
 #: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:7
 #: .es5/scripts/templates/reset_password.mustache:9
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "จำรหัสผ่าน? ลงชื่อเข้า"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:9
 msgid "Resend email"
@@ -655,7 +655,7 @@ msgstr "ลองอีกครั้ง"
 
 #: .es5/scripts/templates/force_auth.mustache:1
 msgid "Sign in to continue"
-msgstr ""
+msgstr "ลงชื่อเข้าเพื่อดำเนินการต่อ"
 
 #: .es5/scripts/templates/force_auth.mustache:3 .es5/scripts/templates/sign_in.mustache:8 .es5/scripts/templates/sign_in.mustache:19 .es5/scripts/templates/sign_up.mustache:15
 #: .es5/scripts/templates/settings/change_password.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:4
@@ -665,7 +665,7 @@ msgstr "รหัสผ่าน"
 #: .es5/scripts/templates/force_auth.mustache:6 .es5/scripts/templates/sign_in.mustache:1 .es5/scripts/templates/sign_in.mustache:4 .es5/scripts/templates/sign_in.mustache:10
 #: .es5/scripts/templates/sign_in.mustache:14 .es5/scripts/templates/sign_in.mustache:22
 msgid "Sign in"
-msgstr ""
+msgstr "ลงชื่อเข้า"
 
 #: .es5/scripts/templates/force_auth.mustache:7 .es5/scripts/templates/sign_in.mustache:11 .es5/scripts/templates/sign_in.mustache:23 .es5/scripts/templates/settings/change_password.mustache:6
 msgid "Forgot password?"
@@ -681,7 +681,7 @@ msgstr "บริการกลุ่มเมฆ Firefox"
 
 #: .es5/scripts/templates/legal.mustache:2
 msgid "Legal"
-msgstr ""
+msgstr "ข้อกฎหมาย"
 
 #: .es5/scripts/templates/legal.mustache:3 .es5/scripts/templates/settings.mustache:5 .es5/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
@@ -689,7 +689,7 @@ msgstr "เงื่อนไขการให้บริการ"
 
 #: .es5/scripts/templates/legal.mustache:4 .es5/scripts/templates/pp.mustache:2 .es5/scripts/templates/settings.mustache:6
 msgid "Privacy Notice"
-msgstr ""
+msgstr "ประกาศความเป็นส่วนตัว"
 
 #: .es5/scripts/templates/marketing_snippet.mustache:1
 msgid "Stay in sync on the go:"
@@ -813,7 +813,7 @@ msgstr "สร้างบัญชี"
 
 #: .es5/scripts/templates/sign_up.mustache:27
 msgid "Have an account? Sign in."
-msgstr ""
+msgstr "มีบัญชี? ลงชื่อเข้า"
 
 #: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2
 #: .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/communication_preferences.mustache:4 .es5/scripts/templates/settings/display_name.mustache:2
@@ -913,7 +913,7 @@ msgstr "อุปกรณ์ปัจจุบัน"
 
 #: .es5/scripts/templates/settings/devices.mustache:8
 msgid "Disconnect"
-msgstr ""
+msgstr "ตัดการเชื่อมต่อ"
 
 #: .es5/scripts/templates/settings/devices.mustache:10
 msgid "Don't see all your devices?"
@@ -921,11 +921,11 @@ msgstr "ไม่เห็นอุปกรณ์ของคุณทั้ง
 
 #: .es5/scripts/templates/settings/devices.mustache:11
 msgid "Refresh"
-msgstr ""
+msgstr "เรียกใหม่"
 
 #: .es5/scripts/templates/settings/display_name.mustache:3
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr ""
+msgstr "เลือกชื่อที่จะแสดงใน Firefox และในการจัดการบัญชีของคุณ"
 
 #: .es5/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -933,11 +933,11 @@ msgstr "คุณอายุเท่าไร?"
 
 #: .es5/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "ลงชื่อเข้า Sync"
 
 #: .es5/scripts/templates/openid/start.mustache:2
 msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-msgstr ""
+msgstr "เลือกบัญชีที่คุณจะใช้ซิงค์แท็บ ที่คั่นหน้า รหัสผ่านและอื่น ๆ ของคุณ"
 
 #: .es5/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
