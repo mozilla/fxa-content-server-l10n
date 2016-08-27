@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-08-27 02:59+0000\n"
+"PO-Revision-Date: 2016-08-27 05:05+0000\n"
 "Last-Translator: pillarlee16 <pillarlee16@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -561,7 +561,7 @@ msgstr "새로운 비밀번호 입력"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:10
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "새로운 비밀번호를 제출하고 나면, 가지고 있는 기기들 중 어느 곳에도 있지 않은 Sync 데이터는 사라지게 됩니다."
 
 #: .es5/scripts/templates/complete_reset_password.mustache:11 .es5/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
@@ -627,7 +627,7 @@ msgstr "이메일 전송 재설정"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:4
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "새로운 비밀번호를 생성하려면 한 시간 내로 %(email)s 이메일로 보낸 링크를 클릭하세요."
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:7
 #: .es5/scripts/templates/reset_password.mustache:9
@@ -644,7 +644,7 @@ msgstr "쿠키와 로컬 저장소가 필요합니다."
 
 #: .es5/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr ""
+msgstr "Firefox 계정을 사용하려면 브라우저의 쿠키와 로컬 저장소를 활성화 하십시오. 세션 간의 연동과 같은 기능들이 동작하게 합니다."
 
 #: .es5/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -757,7 +757,7 @@ msgstr "비밀번호를 잊어버렸습니다"
 
 #: .es5/scripts/templates/reset_password.mustache:2
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "비밀번호를 다시 설정하는 경우, 가지고 있는 기기들 중 어느 곳에도 있지 않은 Sync 데이터는 사라지게 됩니다."
 
 #: .es5/scripts/templates/reset_password.mustache:5 .es5/scripts/templates/sign_in.mustache:18 .es5/scripts/templates/sign_up.mustache:13
 #: .es5/scripts/templates/settings/gravatar_permissions.mustache:3
@@ -802,7 +802,7 @@ msgstr "새 Firefox&nbsp;계정을 생성해서 동기화 데이터를 이전하
 
 #: .es5/scripts/templates/sign_up.mustache:10
 msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
-msgstr ""
+msgstr "다른 이메일을 사용하는 계정을 가지고 있나요? <a href=\"%(signinUri)s\">로그인</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Send me the monthly Firefox newsletter."

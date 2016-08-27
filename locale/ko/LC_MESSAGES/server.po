@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-01-15 12:42+0000\n"
-"Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
+"PO-Revision-Date: 2016-08-27 05:17+0000\n"
+"Last-Translator: pillarlee16 <pillarlee16@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -27,15 +27,13 @@ msgstr "Firefox 계정은 만들어졌지만, 본인 계정 확인이 완료되�
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
-msgstr ""
-"기기를 성공적으로 처음 Firefox Account와 연결하였습니다. 이제 <a href='%(androidUrl)s'>Android용 Firefox</a>와 <a href='%(iosUrl)s'>iOS용 Firefox</a>와 같은 다른 기기에서 Sync에 로그인 할 수 있습니"
-"다."
+msgstr "기기를 성공적으로 처음 Firefox Account와 연결하였습니다. 이제 <a href='%(androidUrl)s'>Android용 Firefox</a>와 <a href='%(iosUrl)s'>iOS용 Firefox</a>와 같은 다른 기기에서 Sync에 로그인 할 수 있습니다."
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
-msgstr ""
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
+msgstr "기기를 성공적으로 처음 Firefox Account와 연결하였습니다. Sync의 기능을 최대한으로 활용하려면, <a href='%(androidUrl)s'>Firefox for Android</a> 나 <a href='%(iosUrl)s'>Firefox for iOS</a> 와 연결하세요."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -58,7 +56,7 @@ msgstr ""
 
 #: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "IP 주소: %(ip)s"
 
 #: templates/new_device_login.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
@@ -74,7 +72,7 @@ msgstr ""
 #: templates/suspicious_location.html:14 templates/suspicious_location.txt:13 templates/verification_reminder_first.html:8 templates/verification_reminder_first.txt:6
 #: templates/verification_reminder_second.html:8 templates/verification_reminder_second.txt:6 templates/verify.html:8 templates/verify.txt:6 templates/verify_login.html:8 templates/verify_login.txt:6
 msgid "Mozilla Privacy Policy"
-msgstr ""
+msgstr "Mozilla 개인 정보 보호 정책"
 
 #: templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
@@ -116,15 +114,15 @@ msgstr "이는 자동 전송 메일입니다. 오류로 온 것이라면 아무 
 
 #: templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "비밀번호 재설정 성공"
 
 #: templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr ""
+msgstr "Firefox Account 비밀번호가 성공적으로 재설정되었습니다."
 
 #: templates/password_reset.txt:3
 msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "자동으로 발송된 이메일입니다; 만약 Firefox Account 비밀번호를 재설정한 적이 없다면, 바로 %(resetLink)s 링크를 통해 복구하세요"
 
 #: templates/password_reset_required.html:2 templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
@@ -136,7 +134,7 @@ msgstr ""
 
 #: templates/password_reset_required.html:4 templates/password_reset_required.txt:3
 msgid "What should you do?"
-msgstr ""
+msgstr "무엇을 해야 하나요?"
 
 #: templates/password_reset_required.html:5 templates/password_reset_required.txt:4 templates/suspicious_location.html:7 templates/suspicious_location.txt:6
 msgid "First, change your Firefox Account password."
@@ -149,15 +147,15 @@ msgstr ""
 
 #: templates/password_reset_required.html:7 templates/password_reset_required.txt:6 templates/suspicious_location.html:9 templates/suspicious_location.txt:8
 msgid "Learn how to see what passwords Firefox is storing for you."
-msgstr ""
+msgstr "Firefox에 저장되어 있는 비밀번호들을 확인하는 방법을 알아봅시다."
 
 #: templates/password_reset_required.html:8 templates/password_reset_required.txt:7 templates/suspicious_location.html:12 templates/suspicious_location.txt:11
 msgid "Best,"
-msgstr ""
+msgstr "최고,"
 
 #: templates/password_reset_required.html:9 templates/password_reset_required.txt:8 templates/suspicious_location.html:13 templates/suspicious_location.txt:12
 msgid "The Firefox Accounts team"
-msgstr ""
+msgstr "Firefox Account 팀"
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
@@ -167,7 +165,7 @@ msgstr "계정 인증됨!"
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
-msgstr ""
+msgstr "첫번째 기기를 성공적으로 Firefox Account에 연결했습니다. Firefox for <a %(androidLinkAttributes)s>Android</a> 와 <a %(iosLinkAttributes)s>iOS</a> 를 포함한 다른 기기에서 Sync로 로그인할 수 있습니다."
 
 #: templates/post_verify.html:5 templates/recovery.html:6 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
 #: templates/verify_login.html:6
@@ -232,8 +230,8 @@ msgstr ""
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
