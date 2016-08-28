@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-08-28 03:00+0000\n"
-"Last-Translator: vsatayamas <vsatayamas@gmail.com>\n"
+"PO-Revision-Date: 2016-08-28 03:29+0000\n"
+"Last-Translator: teerapatxtop <teerapatxtop@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
@@ -72,11 +72,11 @@ msgstr "ไม่รู้จักบัญชีนี้ <a href=\"/signup\">
 
 #: .es5/scripts/views/sign_up.js:61
 msgid "Account no longer exists. Recreate it?"
-msgstr "ไม่มีบัญชี้อีกแล้ว จะสร้างใหม่หรือไม่ ?"
+msgstr "บัญชีไม่มีอีกต่อไป สร้างใหม่?"
 
 #: .es5/scripts/views/sign_up.js:361
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr "บัญชีนี้มีอยู่แล้ว <a href=\"/signin\">ลงชื่อเข้าใช้</a>"
+msgstr "บัญชีนี้มีอยู่แล้ว <a href=\"/signin\">ลงชื่อเข้า</a>"
 
 #: .es5/scripts/views/settings/avatar_gravatar.js:89
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
@@ -315,7 +315,7 @@ msgstr "ต้องการ URL ที่ถูกต้อง"
 
 #: .es5/scripts/lib/auth-errors.js:197
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr "ตรวจสอบอีเมลไม่ผ่าน พิมพ์อีเมลพลาดหรือไม่"
+msgstr "อีเมลยืนยันความถูกต้องของคุณถูกตีกลับ พิมพ์อีเมลผิด?"
 
 #: .es5/scripts/lib/auth-errors.js:205
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -371,7 +371,7 @@ msgstr "ขาดแอตทริบิวต์ข้อมูล: %(property
 
 #: .es5/scripts/lib/mailcheck.js:60
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
-msgstr "คุณหมายถึง <span tabindex=\"1\">%(domain)s</span> ใช่หรือไม่ ?"
+msgstr "หรือคุณหมายถึง <span tabindex=\"1\">%(domain)s</span>?"
 
 #: .es5/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -618,7 +618,7 @@ msgstr "เพื่อปกป้องข้อมูล Firefox ได้ด
 
 #: .es5/scripts/templates/confirm.mustache:12 .es5/scripts/templates/confirm.mustache:14
 msgid "Didn't arrive? Resend"
-msgstr "ยังไม่ได้รับอีเมล ? ส่งซ้ำ"
+msgstr "ยังไม่ได้รับ? ส่งใหม่"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -631,7 +631,7 @@ msgstr "คลิกลิงก์ที่เราส่งอีเมลไ
 #: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:7
 #: .es5/scripts/templates/reset_password.mustache:9
 msgid "Remember password? Sign in."
-msgstr "จำรหัสผ่าน? ลงชื่อเข้า"
+msgstr "จำรหัสผ่านได้? ลงชื่อเข้า"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:9
 msgid "Resend email"
@@ -643,7 +643,7 @@ msgstr "ต้องการคุกกี้และที่เก็บข
 
 #: .es5/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr ""
+msgstr "โปรดเปิดใช้คุกกี้อละที่เก็บข้อมูลในเครื่องในเบราว์เซอร์ของคุณเพื่อเข้าถึงบัญชี FIrefox การเปิดใช้ดังกล่าวจะทำให้ความสามารถ เช่น เบราว์เซอร์จะจำคุณระหว่างวาระได้"
 
 #: .es5/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -673,7 +673,7 @@ msgstr "ลืมรหัสผ่าน?"
 
 #: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr ""
+msgstr "การดำเนินการต่อหมายถึงคุณยอมรับ<a id=\"fxa-tos\" href=\"/legal/terms\">เงื่อนไขการใช้บริการ</a>และ<a id=\"fxa-pp\" href=\"/legal/privacy\">ประกาศความเป็นส่วนบุคคล</a>ของบริการคลาวด์ Firefox"
 
 #: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -693,7 +693,7 @@ msgstr "ประกาศความเป็นส่วนตัว"
 
 #: .es5/scripts/templates/marketing_snippet.mustache:1
 msgid "Stay in sync on the go:"
-msgstr ""
+msgstr "ซิงก์แม้ในขณะเดินทาง"
 
 #: .es5/scripts/templates/marketing_snippet.mustache:2
 msgid "Get Firefox for Android"
@@ -793,7 +793,7 @@ msgstr "สร้างบัญชี Firefox"
 
 #: .es5/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
-msgstr ""
+msgstr "กำลังมองหา Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">เริ่มต้นที่นี่</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -801,7 +801,7 @@ msgstr "โยกย้ายข้อมูลซิงก์ของคุณ
 
 #: .es5/scripts/templates/sign_up.mustache:10
 msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
-msgstr "มีบัญชีที่ใช้อีเมลอื่นหรือไม่ ? <a href=\"%(signinUri)s\">ลงชื่อเข้า</a>"
+msgstr "มีบัญชีที่ใช้อีเมลอื่น? <a href=\"%(signinUri)s\">ลงชื่อเข้า</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Send me the monthly Firefox newsletter."
@@ -919,7 +919,7 @@ msgstr "ตัดการเชื่อมต่อ"
 
 #: .es5/scripts/templates/settings/devices.mustache:10
 msgid "Don't see all your devices?"
-msgstr "ไม่เห็นอุปกรณ์ของคุณทั้งหมด?"
+msgstr "ไม่เห็นอุปกรณ์ทั้งหมดของคุณ?"
 
 #: .es5/scripts/templates/settings/devices.mustache:11
 msgid "Refresh"

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-08-28 02:33+0000\n"
+"PO-Revision-Date: 2016-08-28 03:27+0000\n"
 "Last-Translator: teerapatxtop <teerapatxtop@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:519
 msgid "Still there?"
-msgstr "ยังอยู่ที่นั่นใช่ไหม ?"
+msgstr "ยังอยู่ที่นั่นใช่ไหม?"
 
 #: templates/_pending.txt:2
 msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
@@ -134,7 +134,7 @@ msgstr "เพื่อป้องกันการเข้าใช้บั
 
 #: templates/password_reset_required.html:4 templates/password_reset_required.txt:3
 msgid "What should you do?"
-msgstr "คุณควรทำอย่างไร ?"
+msgstr "คุณควรทำอย่างไร?"
 
 #: templates/password_reset_required.html:5 templates/password_reset_required.txt:4 templates/suspicious_location.html:7 templates/suspicious_location.txt:6
 msgid "First, change your Firefox Account password."
@@ -192,7 +192,7 @@ msgstr "คลิกที่ปุ่มภายในหนึ่งชั่
 
 #: templates/recovery.html:4 templates/recovery.txt:3
 msgid "Remember password? Sign in."
-msgstr "จำรหัสผ่าน? ลงชื่อเข้า"
+msgstr "จำรหัสผ่านได้? ลงชื่อเข้า"
 
 #: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
@@ -200,7 +200,7 @@ msgstr "ตั้งรหัสผ่านใหม่"
 
 #: templates/suspicious_location.html:2 templates/suspicious_location.txt:1
 msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
-msgstr "คุณได้ลงชื่อเข้าบัญชี Firefox ของคุณจากที่ไหนในสถานที่ต่อไปนี้ภายใน 60 วันหรือไม่ ? หากจำสถานที่เหล่านี้ไม่ได้ บุคคลอื่นอาจได้เข้าถึงบัญชี Firefox ของคุณ"
+msgstr "คุณได้ลงชื่อเข้าบัญชี Firefox ของคุณจากที่ไหนในสถานที่ต่อไปนี้ภายใน 60 วันหรือไม่? หากจำสถานที่เหล่านี้ไม่ได้ บุคคลอื่นอาจได้เข้าถึงบัญชี Firefox ของคุณ"
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
@@ -352,11 +352,11 @@ msgstr "เซิร์ฟเวอร์กำลังทำงานหนั
 
 #: server/templates/pages/src/503.html:3
 msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
-msgstr ""
+msgstr "เซิร์ฟเวอร์กำลังทำงานหนักเรากำลังแก้ไขให้เร็วที่สุด"
 
 #: server/templates/pages/src/index.html:2 server/templates/pages/src/privacy.html:5 server/templates/pages/src/terms.html:5
 msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr ""
+msgstr "คุณใช้เบราว์เซอร์<strong>ล้าสมัย</strong> โปรด<a href=\"http://browsehappy.com/\">อัพเกรดเบราว์เซอร์ของคุณ</a>เพื่อประสบการณ์ที่ดีขึ้น"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
