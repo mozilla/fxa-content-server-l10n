@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-08-27 09:01+0000\n"
+"PO-Revision-Date: 2016-08-28 03:00+0000\n"
 "Last-Translator: vsatayamas <vsatayamas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -174,7 +174,7 @@ msgstr "ได้ลงชื่อออกสำเร็จแล้ว"
 #: .es5/scripts/lib/profile-errors.js:47 .es5/scripts/lib/require-on-demand.js:33 .es5/scripts/lib/require-on-demand.js:37 .es5/scripts/lib/require-on-demand.js:41
 #: .es5/scripts/lib/require-on-demand.js:45
 msgid "Unexpected error"
-msgstr "มีความผิดพลาดที่ไม่ได้คาดหมาย"
+msgstr "ข้อผิดพลาดที่ไม่คาดคิด"
 
 #: .es5/scripts/lib/auth-errors.js:29 .es5/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
@@ -279,11 +279,11 @@ msgstr "กำลังทำงาน…"
 
 #: .es5/scripts/lib/auth-errors.js:143
 msgid "Could not get Privacy Notice"
-msgstr ""
+msgstr "ไม่สามารถนำประกาศความเป็นส่วนตัวมาได้"
 
 #: .es5/scripts/lib/auth-errors.js:147
 msgid "Could not get Terms of Service"
-msgstr ""
+msgstr "ไม่สามารถนำเงื่อนไขการให้บริการมาได้"
 
 #: .es5/scripts/lib/auth-errors.js:151
 msgid "Your new password must be different"
@@ -315,7 +315,7 @@ msgstr "ต้องการ URL ที่ถูกต้อง"
 
 #: .es5/scripts/lib/auth-errors.js:197
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "ตรวจสอบอีเมลไม่ผ่าน พิมพ์อีเมลพลาดหรือไม่"
 
 #: .es5/scripts/lib/auth-errors.js:205
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -327,19 +327,19 @@ msgstr "บัญชี Firefox สามารถใส่ใน IFRAME ได�
 
 #: .es5/scripts/lib/auth-errors.js:228 .es5/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
-msgstr "ลิงก์ที่คลิกเพื่อจะตรวจสอบอีเมลได้หมดอายุไปแล้ว"
+msgstr "ลิงก์ที่คุณได้คลิกเพื่อยืนยันความถูกต้องอีเมลของคุณหมดอายุแล้ว"
 
 #: .es5/scripts/lib/auth-errors.js:232 .es5/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
-msgstr "ลิงก์สำหรับตรวจสอบได้รับความเสียหาย"
+msgstr "ลิงก์ยืนยันความถูกต้องได้รับความเสียหาย"
 
 #: .es5/scripts/lib/auth-errors.js:240
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "ภาพต้องมีขนาดอย่างน้อย 100x100 จุด"
 
 #: .es5/scripts/lib/auth-errors.js:244
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "Firefox สำหรับ iOS จะลงทะเบียนได้เร็ว ๆ นี้"
 
 #: .es5/scripts/lib/auth-errors.js:255
 msgid "You must enter your age to sign up"
@@ -351,107 +351,107 @@ msgstr "ไม่พบ Gravatar"
 
 #: .es5/scripts/lib/auth-errors.js:267
 msgid "Account no longer exists."
-msgstr ""
+msgstr "ไม่มีบัญชีนี้อีกแล้ว"
 
 #: .es5/scripts/lib/auth-errors.js:271
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "คุณสมบัติของโทเคนสำหรับดำเนินการต่อไม่ถูกต้อง: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:275
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "ขาดคุณสมบัติของโทเคนสำหรับดำเนินการต่อ: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:279
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "แอตทริบิวต์ข้อมูลไม่ถูกต้อง: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:283
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "ขาดแอตทริบิวต์ข้อมูล: %(property)s"
 
 #: .es5/scripts/lib/mailcheck.js:60
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
-msgstr ""
+msgstr "คุณหมายถึง <span tabindex=\"1\">%(domain)s</span> ใช่หรือไม่ ?"
 
 #: .es5/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
-msgstr ""
+msgstr "เครื่องลูกข่ายที่ไม่รู้จัก"
 
 #: .es5/scripts/lib/oauth-errors.js:30
 msgid "Incorrect redirect_uri"
-msgstr ""
+msgstr "redirect_uri ไม่ถูกต้อง"
 
 #: .es5/scripts/lib/oauth-errors.js:34
 msgid "Invalid assertion"
-msgstr ""
+msgstr "การตรวจสอบยืนยันไม่ถูกต้อง"
 
 #: .es5/scripts/lib/oauth-errors.js:38
 msgid "Unknown code"
-msgstr ""
+msgstr "รหัสที่ไม่รู้จัก"
 
 #: .es5/scripts/lib/oauth-errors.js:42
 msgid "Incorrect code"
-msgstr ""
+msgstr "รหัสไม่ถูกต้อง"
 
 #: .es5/scripts/lib/oauth-errors.js:46
 msgid "Expired code"
-msgstr ""
+msgstr "รหัสหมดอายุ"
 
 #: .es5/scripts/lib/oauth-errors.js:54 .es5/scripts/lib/oauth-errors.js:76
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr ""
+msgstr "พารามิเตอร์ OAuth ไม่ถูกต้อง: %(param)s"
 
 #: .es5/scripts/lib/oauth-errors.js:62 .es5/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
-msgstr ""
+msgstr "ไม่ได้รับอนุญาต"
 
 #: .es5/scripts/lib/oauth-errors.js:66
 msgid "Forbidden"
-msgstr ""
+msgstr "ห้ามเข้าใช้"
 
 #: .es5/scripts/lib/oauth-errors.js:88
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "มีความผิดพลาดบางประการ โปรดปิดแท็บนี้และลองใหม่อีกครั้ง"
 
 #: .es5/scripts/lib/oauth-errors.js:108
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "ขาดพารามิเตอร์ OAuth: %(param)s"
 
 #: .es5/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
-msgstr ""
+msgstr "โทเคนไม่ถูกต้อง"
 
 #: .es5/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
-msgstr ""
+msgstr "พารามิเตอร์ในตัวการร้องขอไม่ถูกต้อง: %(param)s"
 
 #: .es5/scripts/lib/profile-errors.js:31
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "ผู้ให้บริการภาพที่ไม่ได้รองรับ"
 
 #: .es5/scripts/lib/profile-errors.js:35
 msgid "Image processing error"
-msgstr ""
+msgstr "ข้อผิดพลาดในการประมวลผลภาพ"
 
 #: .es5/scripts/lib/service-name.js:15
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:17
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr ""
+msgstr "การดำเนินการหมายถึงคุณยอมรับ<a id=\"service-tos\" href=\"%(termsUri)s\">เงื่อนไขการใช้บริการ</a>และ<a id=\"service-pp\" href=\"%(privacyUri)s\">ประกาศความเป็นส่วนบุคคล</a>ของ%(serviceName)s (%(serviceUri)s)"
 
 #: .es5/scripts/lib/strings.js:24
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
-msgstr ""
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">ช่วยเหลือ</a>"
 
 #: .es5/scripts/lib/strings.js:28
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "สมัครรับข่าวสารล่าสุดเกี่ยวกับ Mozilla และ Firefox"
 
 #: .es5/scripts/lib/strings.js:31
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s %(country)s (โดยประมาณ)"
 
 #: .es5/scripts/lib/strings.js:32
 msgid "%(country)s (estimated)"
@@ -463,11 +463,11 @@ msgstr "ที่อยู่ IP: %(ip)s"
 
 #: .es5/scripts/lib/strings.js:34
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "เพื่อความปลอดภัยเพิ่มเติม โปรดยืนยันการลงชื่อเข้านี้เพื่อเริ่มซิงค์กับอุปกรณ์นี้:"
 
 #: .es5/scripts/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "การร้องขอไม่ถูกต้อง"
 
 #: .es5/scripts/templates/500.mustache:1
 msgid "500 Error"
@@ -475,7 +475,7 @@ msgstr "ข้อผิดพลาด 500"
 
 #: .es5/scripts/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr ""
+msgstr "เราทราบถึงความผิดพลาดแล้วและจะดำเนินการแก้ไขต่อไป"
 
 #: .es5/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -483,7 +483,7 @@ msgstr "ไม่สามารถสร้างบัญชี"
 
 #: .es5/scripts/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr ""
+msgstr "คุณต้องผ่านข้อกำหนดด้านอายุเพื่อสร้างบัญชี&nbsp;Firefox"
 
 #: .es5/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
@@ -519,7 +519,7 @@ msgstr "การตั้งค่า"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr ""
+msgstr "ส่วนเสริมและการปรับแต่งยังไม่ได้ซิงค์บนอุปกรณ์มือถือ"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
@@ -531,28 +531,28 @@ msgstr "ย้อนกลับ"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
-msgstr ""
+msgstr "ลิงค์สำหรับตั้งรหัสผ่านใหม่หมดอายุ"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:2 .es5/scripts/templates/complete_sign_up.mustache:2 .es5/scripts/templates/confirm.mustache:5
 #: .es5/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email resent"
-msgstr ""
+msgstr "ได้ส่งอีเมลอีกครั้งแล้ว"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
-msgstr ""
+msgstr "ลิงก์ที่คุณได้คลิกเพื่อตั้งรหัสผ่านของคุณใหม่ดอายุแล้ว"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr ""
+msgstr "คลิกที่นี่เพื่อรับลิงก์สำหรับตั้งค่ารหัสผ่านใหม่"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:6
 msgid "Reset password link damaged"
-msgstr ""
+msgstr "ลิงค์สำหรับตั้งรหัสผ่านใหม่เสียหาย"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:7 .es5/scripts/templates/complete_sign_up.mustache:8
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr ""
+msgstr "ลิงก์ที่คุณคลิกมีอักขระไม่ครบซึ่งอาจจะเพราะโปรแกรมอ่านอีเมลของคุณ คัดลอกที่อยู่อย่างระมัดระวัง และลองอีกครั้งหนึ่ง"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:9
 msgid "Enter new password"
@@ -560,11 +560,11 @@ msgstr "ป้อนรหัสผ่านใหม่"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:10
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "เมื่อคุณส่งรหัสผ่านใหม่ของคุณ คุณจะสูญเสียข้อมูลใด ๆ ใน Sync ที่ไม่ถูกในอุปกรณ์ของคุณเครื่องใดเลย"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:11 .es5/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
-msgstr ""
+msgstr "เรียนรู้เพิ่มเติมว่า Sync ทำงานอย่างไร"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:13 .es5/scripts/templates/settings/change_password.mustache:7
 msgid "New password"
@@ -586,15 +586,15 @@ msgstr "ส่งรหัสผ่านใหม่"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:1
 msgid "Verification link expired"
-msgstr ""
+msgstr "ลิงก์สำหรับยืนยันความถูกต้องหมดอายุ"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:4
 msgid "Click here to receive a new verification link"
-msgstr ""
+msgstr "คลิกที่นี่เพื่อรับลิงก์สำหรับยืนยันความถูกต้องใหม่"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:10
 msgid "Verification error"
-msgstr ""
+msgstr "ข้อผิดพลาดในการตรวจความถูกต้อง"
 
 #: .es5/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -602,7 +602,7 @@ msgstr "ยืนยันบัญชีของคุณ"
 
 #: .es5/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "ยืนยันการลงชื่อเข้านี้"
 
 #: .es5/scripts/templates/confirm.mustache:6 .es5/scripts/templates/confirm_reset_password.mustache:3
 msgid "Email Sent"
@@ -610,23 +610,23 @@ msgstr "ส่งอีเมลแล้ว"
 
 #: .es5/scripts/templates/confirm.mustache:7
 msgid "A verification link has been sent&nbsp;to %(email)s"
-msgstr ""
+msgstr "ลิงก์สำหรับยืนยันถูกส่ง&nbsp;ไปยัง %(email)s แล้ว"
 
 #: .es5/scripts/templates/confirm.mustache:9
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr ""
+msgstr "เพื่อปกป้องข้อมูล Firefox ได้ดีขึ้น เราส่งเมลพร้อมลิงก์สำหรับยืนยันไปที่ %(email)s"
 
 #: .es5/scripts/templates/confirm.mustache:12 .es5/scripts/templates/confirm.mustache:14
 msgid "Didn't arrive? Resend"
-msgstr ""
+msgstr "ยังไม่ได้รับอีเมล ? ส่งซ้ำ"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr ""
+msgstr "ส่งอีเมลสำหรับตั้งรหัสผ่านใหม่แล้ว"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:4
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "คลิกลิงก์ที่เราส่งอีเมลไปให้คุณที่ %(email)s ภายใน 1 ชั่วโมงถัดไปเพื่อสร้างรหัสผ่านใหม่"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:7
 #: .es5/scripts/templates/reset_password.mustache:9
@@ -639,7 +639,7 @@ msgstr "ส่งอีเมลใหม่"
 
 #: .es5/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
-msgstr ""
+msgstr "ต้องการคุกกี้และที่เก็บข้อมูลในเครื่อง"
 
 #: .es5/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
@@ -701,7 +701,7 @@ msgstr "รับ Firefox สำหรับ Android"
 
 #: .es5/scripts/templates/marketing_snippet_ios.mustache:1 .es5/scripts/templates/marketing_snippet_ios.mustache:5 .es5/scripts/templates/marketing_snippet_ios.mustache:9
 msgid "Get the full Sync experience."
-msgstr ""
+msgstr "สัมผัสประสบการณ์การ Sync เต็มรูปแบบ"
 
 #: .es5/scripts/templates/marketing_snippet_ios.mustache:2 .es5/scripts/templates/marketing_snippet_ios.mustache:3 .es5/scripts/templates/marketing_snippet_ios.mustache:12
 msgid "Download Firefox for iOS!"
@@ -717,11 +717,11 @@ msgstr "ดาวน์โหลด Firefox สำหรับอุปกรณ
 
 #: .es5/scripts/templates/permissions.mustache:1 .es5/scripts/templates/settings/gravatar_permissions.mustache:1
 msgid "Request for permission"
-msgstr ""
+msgstr "ร้องขอสิทธิ"
 
 #: .es5/scripts/templates/permissions.mustache:2 .es5/scripts/templates/settings/gravatar_permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr ""
+msgstr "%(serviceName)s ต้องการข้อมูลดังต่อปนี้จากบัญชีของคุณ"
 
 #: .es5/scripts/templates/permissions.mustache:3 .es5/scripts/templates/settings/gravatar_permissions.mustache:4
 msgid "Accept"
@@ -744,7 +744,7 @@ msgstr "การตั้งค่า Sync"
 
 #: .es5/scripts/templates/ready.mustache:6
 msgid "Proceed"
-msgstr ""
+msgstr "ดำเนินการ"
 
 #: .es5/scripts/templates/ready.mustache:9
 msgid "Your account is ready!"
@@ -756,7 +756,7 @@ msgstr "ลืมรหัสผ่าน"
 
 #: .es5/scripts/templates/reset_password.mustache:2
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "เมื่อคุณตั้งรหัสผ่านของคุณใหม่ คุณจะสูญเสียข้อมูลใด ๆ ใน Sync ที่ไม่มีอยู่ในอุปกรณ์ของคุณเครื่องใดเลย"
 
 #: .es5/scripts/templates/reset_password.mustache:5 .es5/scripts/templates/sign_in.mustache:18 .es5/scripts/templates/sign_up.mustache:13
 #: .es5/scripts/templates/settings/gravatar_permissions.mustache:3
@@ -769,7 +769,7 @@ msgstr "บัญชี Firefox"
 
 #: .es5/scripts/templates/settings.mustache:2
 msgid "Sign out"
-msgstr ""
+msgstr "ลงชื่อออก"
 
 #: .es5/scripts/templates/sign_in.mustache:2 .es5/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
@@ -777,11 +777,11 @@ msgstr "ดำเนินการต่อไปยัง %(serviceName)s"
 
 #: .es5/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr ""
+msgstr "โยกย้ายข้อมูลซิงก์ของคุณโดยลงชื่อเข้าสู่บัญชี Firefox"
 
 #: .es5/scripts/templates/sign_in.mustache:12 .es5/scripts/templates/sign_in.mustache:15
 msgid "Use a different account"
-msgstr ""
+msgstr "ใช้บัญชีอื่น"
 
 #: .es5/scripts/templates/sign_in.mustache:24
 msgid "Create an account"
@@ -797,15 +797,15 @@ msgstr ""
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr ""
+msgstr "โยกย้ายข้อมูลซิงก์ของคุณโดยสร้างบัญชี &nbsp; Firefox ใหม่"
 
 #: .es5/scripts/templates/sign_up.mustache:10
 msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
-msgstr ""
+msgstr "มีบัญชีที่ใช้อีเมลอื่นหรือไม่ ? <a href=\"%(signinUri)s\">ลงชื่อเข้า</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Send me the monthly Firefox newsletter."
-msgstr ""
+msgstr "ส่งจดหมายข่าวรายเดือนให้ฉัน"
 
 #: .es5/scripts/templates/sign_up.mustache:22
 msgid "Create account"
@@ -839,7 +839,7 @@ msgstr "กล้อง"
 
 #: .es5/scripts/templates/settings/avatar_change.mustache:3
 msgid "Gravatar"
-msgstr ""
+msgstr "Gravatar"
 
 #: .es5/scripts/templates/settings/avatar_change.mustache:4
 msgid "Clear"
@@ -851,7 +851,7 @@ msgstr "เสร็จสิ้น"
 
 #: .es5/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
-msgstr ""
+msgstr "จัดตำแหน่งและหมุนภาพของคุณตามต้องการ"
 
 #: .es5/scripts/templates/settings/avatar_gravatar.mustache:2
 msgid "Save"
@@ -859,7 +859,7 @@ msgstr "บันทึก"
 
 #: .es5/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr ""
+msgstr "เมื่อเสร็จแล้วคุณสามารถใช้รหัสผ่านใหม่เพื่อลงชื่อเข้าบนอุปกรณ์ทุกเครื่องของคุณ"
 
 #: .es5/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
@@ -867,7 +867,7 @@ msgstr "รหัสผ่านเก่า"
 
 #: .es5/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
-msgstr ""
+msgstr "ตัวเลือกด้านการสื่อสาร"
 
 #: .es5/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
@@ -891,7 +891,7 @@ msgstr "ลบ"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
-msgstr ""
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบบัญชีของคุณ? การกระทำนี้ไม่สามารถเลิกทำ"
 
 #: .es5/scripts/templates/settings/devices.mustache:2
 msgid "Devices"
@@ -902,10 +902,12 @@ msgid ""
 "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
 "href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
+"Firefox พร้อมใช้งานสำหรับ <a href=\"%(linkWindows)s\">Windows</a> <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>  <a href=\"%(linkIOS)s\">iOS</a> และ <a "
+"href=\"%(linkLinux)s\">Linux</a>"
 
 #: .es5/scripts/templates/settings/devices.mustache:5
 msgid "You can manage your devices below."
-msgstr ""
+msgstr "คุณสามารถจัดการอุปกรณ์ของคุณได้จากด้านล่าง"
 
 #: .es5/scripts/templates/settings/devices.mustache:6
 msgid "current device"

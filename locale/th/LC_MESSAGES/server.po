@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-08-27 09:04+0000\n"
+"PO-Revision-Date: 2016-08-28 02:33+0000\n"
 "Last-Translator: teerapatxtop <teerapatxtop@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -20,7 +20,7 @@ msgstr "ยังอยู่ที่นั่นใช่ไหม ?"
 
 #: templates/_pending.txt:2
 msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
-msgstr "คุณได้สร้างบัญชี Firefox มาสักพักหนึ่งแล้ว แต่ยังไม่ได้ยืนยันความถูกต้อง คลิกที่ลิงก์ด้านล่างเพื่อใช้งานบัญชีของคุณ"
+msgstr "คุณได้สร้างบัญชี Firefox มาสักพักหนึ่งแล้ว แต่ยังไม่ได้ยืนยันความถูกต้อง คลิกที่ลิงก์ด้านล่างเพื่อเปิดใช้งานบัญชีของคุณ"
 
 #: templates/_pending.txt:3
 msgid ""
@@ -172,7 +172,7 @@ msgstr ""
 #: templates/post_verify.html:5 templates/recovery.html:6 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
 #: templates/verify_login.html:6
 msgid "Alternatively:"
-msgstr "ความเป็นไปได้อื่น ๆ"
+msgstr "ความเป็นไปได้อื่น ๆ:"
 
 #: templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
@@ -216,7 +216,7 @@ msgstr "ตำแหน่งที่ตั้ง:"
 
 #: templates/suspicious_location.html:6 templates/suspicious_location.txt:5
 msgid "If you don’t recognize the activity above:"
-msgstr "หากคุณจำกิจกรรมด้านบนไม่ได้"
+msgstr "หากคุณไม่รู้จักกิจกรรมด้านบน:"
 
 #: templates/suspicious_location.html:10 templates/suspicious_location.txt:9
 msgid "Why are you receiving this email?"
@@ -235,8 +235,8 @@ msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
 " email address to activate your account."
 msgstr ""
-"เมื่อไม่กี่วันมานี้คุณสร้างบัญชี Firefox แต่ไม่เคยได้รับการตรวจสอบ การตรวจสอบบัญชีทำให้คุณเข้าถึงแท็บ ที่คั่นหน้า รหัสผ่าน และประวัติของคุณบนอุปกรณ์ที่เชื่อมต่อกับบัญชี "
-"เพียงยืนยันที่อยู่อีเมลนี้เพื่อเปิดใช้บัญชี"
+"เมื่อไม่กี่วันมานี้คุณสร้างบัญชี Firefox แต่ยังไม่ได้ยืนยันความถูกต้อง การยืนยันความถูกต้องบัญชีทำให้คุณเข้าถึงแท็บ ที่คั่นหน้า รหัสผ่าน และประวัติของคุณบนอุปกรณ์ใด ๆ ที่เชื่อมต่อกับบัญชี "
+"เพียงยืนยันที่อยู่อีเมลนี้เพื่อเปิดใช้งานบัญชีของคุณ"
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
 msgid "Activate now"
@@ -248,7 +248,7 @@ msgstr "ยืนยันความถูกต้องอีเมล"
 
 #: templates/verification_reminder_first.html:10 templates/verification_reminder_second.html:10 templates/verify.html:10
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr "ตรวจสอบอีเมลขอบคุณเพื่อลงทะเบียนบัญชี Firefox ให้เสร็จ"
+msgstr "ยืนยันความถูกต้องอีเมลของคุณเพื่อเสร็จสิ้นการลงทะเบียนบัญชี Firefox"
 
 #: templates/verification_reminder_first.txt:3 templates/verification_reminder_second.txt:3 templates/verify.txt:3
 msgid "Activate now:"
@@ -268,7 +268,7 @@ msgstr "โปรดเปิดใช้งานบัญชีของคุ
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "เพื่อเพิ่มความปลอดภัย โปรดยืนยันโดยการลงชื่อเข้าเพื่อเริ่มซิงค์กับอุปกรณ์นี้"
+msgstr "เพื่อความปลอดภัยเพิ่มเติม โปรดยืนยันการลงชื่อเข้านี้เพื่อเริ่มซิงค์กับอุปกรณ์นี้:"
 
 #: templates/verify_login.html:5 templates/verify_login.txt:4
 msgid "Confirm sign-in"
@@ -360,7 +360,7 @@ msgstr ""
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "บัญชี Firefox จำเป็นต้องใช้ JavaScript"
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
@@ -372,4 +372,4 @@ msgstr "บริการกลุ่มเมฆ Firefox"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
-msgstr ""
+msgstr "เงื่อนไขการให้บริการ"
