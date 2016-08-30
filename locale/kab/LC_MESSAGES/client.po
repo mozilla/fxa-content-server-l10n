@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-08-30 20:37+0000\n"
+"PO-Revision-Date: 2016-08-30 21:26+0000\n"
 "Last-Translator: belkacem77 <belkacem77@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -164,7 +164,7 @@ msgstr "Yiwen kan n wawal uffir uǧhid ad yegber Firefox inek d aɣelsan seg ije
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:23
 msgid "This is a common password; please consider another one."
-msgstr ""
+msgstr "Wagi d awal uffir amagnu; ma ulac aɣilif fren win nniḍen."
 
 #: .es5/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
