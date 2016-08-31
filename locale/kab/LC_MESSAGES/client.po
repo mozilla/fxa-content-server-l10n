@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-08-31 19:51+0000\n"
+"PO-Revision-Date: 2016-08-31 20:39+0000\n"
 "Last-Translator: belkacem77 <belkacem77@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -198,55 +198,55 @@ msgstr "Amiḍan arussin"
 
 #: .es5/scripts/lib/auth-errors.js:49
 msgid "Incorrect email case"
-msgstr ""
+msgstr "Amasal n yimayl mačči d ameɣtu"
 
 #: .es5/scripts/lib/auth-errors.js:53
 msgid "Incorrect password"
-msgstr ""
+msgstr "Awal uffir mačči d ameɣtu"
 
 #: .es5/scripts/lib/auth-errors.js:57
 msgid "Unverified account"
-msgstr ""
+msgstr "Amiḍan ur yettwasenqed ara"
 
 #: .es5/scripts/lib/auth-errors.js:61
 msgid "Invalid verification code"
-msgstr ""
+msgstr "Tangalt n usenqed mačči d tameɣtut"
 
 #: .es5/scripts/lib/auth-errors.js:65
 msgid "Invalid JSON in request body"
-msgstr ""
+msgstr "JSON Mačči d ameɣtu di tfekka n tuttra"
 
 #: .es5/scripts/lib/auth-errors.js:69
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "Aɣewwaṛ mačči d ameɣtu: %(param)s"
 
 #: .es5/scripts/lib/auth-errors.js:73
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "Aɣewwaṛ yettwattu: %(param)s"
 
 #: .es5/scripts/lib/auth-errors.js:77
 msgid "Invalid request signature"
-msgstr ""
+msgstr "Azmul n tuttra mačči d ameɣtu"
 
 #: .es5/scripts/lib/auth-errors.js:81
 msgid "Missing content-length header"
-msgstr ""
+msgstr "Aqeṛṛu content-length ulac-it"
 
 #: .es5/scripts/lib/auth-errors.js:85
 msgid "Request body too large"
-msgstr ""
+msgstr "Tafekka n tuttra meqqert aṭas"
 
 #: .es5/scripts/lib/auth-errors.js:89
 msgid "Attempt limit exceeded"
-msgstr ""
+msgstr "Tewweḍ talast n uɛraḍ"
 
 #: .es5/scripts/lib/auth-errors.js:103
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "Tuttra tewḥel ɣef sebba n tɣellist"
 
 #: .es5/scripts/lib/auth-errors.js:111 .es5/scripts/lib/auth-errors.js:288
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Aqeddac ur yestuffi ara, ɛered tikelt nniḍen ticki"
 
 #: .es5/scripts/lib/auth-errors.js:115
 msgid "This endpoint is no longer supported"
@@ -255,27 +255,27 @@ msgstr ""
 #: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:75 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
 #: .es5/scripts/lib/oauth-errors.js:80 .es5/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Ulac anagraw, ɛreḍ tikelt nniḍen ticki"
 
 #: .es5/scripts/lib/auth-errors.js:123 .es5/scripts/lib/oauth-errors.js:104
 msgid "no message"
-msgstr ""
+msgstr "ulac izen"
 
 #: .es5/scripts/lib/auth-errors.js:127
 msgid "Session expired. Sign in to continue."
-msgstr ""
+msgstr "Tiɣimit tezri. Qqen tikelt nniden akken ad tkemleḍ."
 
 #: .es5/scripts/lib/auth-errors.js:131
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Inagan n tuqqna ur ttwaremden ara yakan"
 
 #: .es5/scripts/lib/auth-errors.js:135
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Awalen uffiren ur mṣadan ara"
 
 #: .es5/scripts/lib/auth-errors.js:139
 msgid "Working…"
-msgstr ""
+msgstr "Iteddu…"
 
 #: .es5/scripts/lib/auth-errors.js:143
 msgid "Could not get Privacy Notice"
@@ -283,27 +283,27 @@ msgstr ""
 
 #: .es5/scripts/lib/auth-errors.js:147
 msgid "Could not get Terms of Service"
-msgstr ""
+msgstr "Ur izmir ara ad d-yawi tiwtilin n useqdec"
 
 #: .es5/scripts/lib/auth-errors.js:151
 msgid "Your new password must be different"
-msgstr ""
+msgstr "Yessefk awal inek uffir ad yili akken nniden"
 
 #: .es5/scripts/lib/auth-errors.js:155 .es5/scripts/templates/complete_reset_password.mustache:15 .es5/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
-msgstr ""
+msgstr "Yessefk ad yili ma drus 8 n isekkilen"
 
 #: .es5/scripts/lib/auth-errors.js:159
 msgid "Valid password required"
-msgstr ""
+msgstr "Awal uffir ameqtu yettwasra"
 
 #: .es5/scripts/lib/auth-errors.js:163 .es5/scripts/lib/auth-errors.js:201 .es5/scripts/lib/auth-errors.js:217
 msgid "Valid email required"
-msgstr ""
+msgstr "Imayl ameɣtu yettwasra"
 
 #: .es5/scripts/lib/auth-errors.js:174
 msgid "A usable image was not found"
-msgstr ""
+msgstr "Tugna yettwasqedcen ula-itt"
 
 #: .es5/scripts/lib/auth-errors.js:178
 msgid "Could not initialize camera"
@@ -311,7 +311,7 @@ msgstr ""
 
 #: .es5/scripts/lib/auth-errors.js:182
 msgid "Valid URL required"
-msgstr ""
+msgstr "Tansa URL tameɣtut tettwasra"
 
 #: .es5/scripts/lib/auth-errors.js:197
 msgid "Your verification email was just returned. Mistyped email?"
@@ -343,7 +343,7 @@ msgstr ""
 
 #: .es5/scripts/lib/auth-errors.js:255
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "Yessefk ad tmuddeḍ awtay inek akken ad ternud amiḍan"
 
 #: .es5/scripts/lib/auth-errors.js:259
 msgid "No Gravatar found"
@@ -351,7 +351,7 @@ msgstr ""
 
 #: .es5/scripts/lib/auth-errors.js:267
 msgid "Account no longer exists."
-msgstr ""
+msgstr "Amiḍan ur yezgi yella."
 
 #: .es5/scripts/lib/auth-errors.js:271
 msgid "Invalid property in resume token: %(property)s"
@@ -363,23 +363,23 @@ msgstr ""
 
 #: .es5/scripts/lib/auth-errors.js:279
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "Imyerr n isefka mačči d ameɣtu: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:283
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "Imyerr n isefka mačči ulac-it: %(property)s"
 
 #: .es5/scripts/lib/mailcheck.js:60
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
-msgstr ""
+msgstr "Tebɣidad tiniḍ <span tabindex=\"1\">%(domain)s</span>?"
 
 #: .es5/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
-msgstr ""
+msgstr "Amsaɣ arussin"
 
 #: .es5/scripts/lib/oauth-errors.js:30
 msgid "Incorrect redirect_uri"
-msgstr ""
+msgstr "redirect_uri mačči d ameɣtu"
 
 #: .es5/scripts/lib/oauth-errors.js:34
 msgid "Invalid assertion"
@@ -387,15 +387,15 @@ msgstr ""
 
 #: .es5/scripts/lib/oauth-errors.js:38
 msgid "Unknown code"
-msgstr ""
+msgstr "Tangalt tarussint"
 
 #: .es5/scripts/lib/oauth-errors.js:42
 msgid "Incorrect code"
-msgstr ""
+msgstr "Tangalt mačči tameɣtut"
 
 #: .es5/scripts/lib/oauth-errors.js:46
 msgid "Expired code"
-msgstr ""
+msgstr "Tangalt tezri"
 
 #: .es5/scripts/lib/oauth-errors.js:54 .es5/scripts/lib/oauth-errors.js:76
 msgid "Invalid OAuth parameter: %(param)s"
@@ -435,7 +435,7 @@ msgstr ""
 
 #: .es5/scripts/lib/service-name.js:15
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:17
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
@@ -451,15 +451,15 @@ msgstr ""
 
 #: .es5/scripts/lib/strings.js:31
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (ahat)"
 
 #: .es5/scripts/lib/strings.js:32
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (ahat)"
 
 #: .es5/scripts/lib/strings.js:33
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "Tansa IP: %(ip)s"
 
 #: .es5/scripts/lib/strings.js:34
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
@@ -471,7 +471,7 @@ msgstr ""
 
 #: .es5/scripts/templates/500.mustache:1
 msgid "500 Error"
-msgstr ""
+msgstr "Tuccḍa 500"
 
 #: .es5/scripts/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
@@ -487,19 +487,19 @@ msgstr ""
 
 #: .es5/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
-msgstr ""
+msgstr "Issin ugar."
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:1 .es5/scripts/templates/sign_up.mustache:24
 msgid "Choose what to sync"
-msgstr ""
+msgstr "Fren ayen ara temtawiḍ"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Tabs"
-msgstr ""
+msgstr "Iccaren"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
-msgstr ""
+msgstr "Ticraḍ n isebtar"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
