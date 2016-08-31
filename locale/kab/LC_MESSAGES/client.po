@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-08-31 17:14+0000\n"
+"PO-Revision-Date: 2016-08-31 19:51+0000\n"
 "Last-Translator: belkacem77 <belkacem77@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -186,15 +186,15 @@ msgstr "Azemzakud mačči d ameɣtu deg uzmul n tuttra"
 
 #: .es5/scripts/lib/auth-errors.js:37
 msgid "Invalid nonce in request signature"
-msgstr ""
+msgstr "Awal mačči d ameɣtu deg uzmul n tutta"
 
 #: .es5/scripts/lib/auth-errors.js:41
 msgid "Account already exists"
-msgstr ""
+msgstr "Amiḍan yella yakan"
 
 #: .es5/scripts/lib/auth-errors.js:45
 msgid "Unknown account"
-msgstr ""
+msgstr "Amiḍan arussin"
 
 #: .es5/scripts/lib/auth-errors.js:49
 msgid "Incorrect email case"
