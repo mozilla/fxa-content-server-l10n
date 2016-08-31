@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-08-31 13:39+0000\n"
+"PO-Revision-Date: 2016-08-31 14:31+0000\n"
 "Last-Translator: belkacem77 <belkacem77@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -52,7 +52,7 @@ msgstr "Ferḥeɣ imi d-uɣaleḍ"
 
 #: .es5/scripts/views/ready.js:39
 msgid "Firefox Sync will resume momentarily"
-msgstr "Firefox Sunc ad ikemmel akka kra n wakud"
+msgstr "Firefox Sync ad ikemmel akka kra n wakud"
 
 #: .es5/scripts/views/ready.js:49
 msgid "Sign-in confirmed"
