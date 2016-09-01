@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-09-01 09:29+0000\n"
+"PO-Revision-Date: 2016-09-01 10:57+0000\n"
 "Last-Translator: belkacem77 <belkacem77@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -315,23 +315,23 @@ msgstr "Tansa URL tameɣtut tettwasra"
 
 #: .es5/scripts/lib/auth-errors.js:197
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Asenqed n yimayl inek akken kan i d-yuɣal. Ahat mačči d ameɣtu?"
 
 #: .es5/scripts/lib/auth-errors.js:205
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "Sekcem tansa imayl tameɣtut. firefox.com ur yettmuddu ara imaylen."
 
 #: .es5/scripts/lib/auth-errors.js:213
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Imiḍanen Firefox zemren kan ad ttusersen di IFRAME n yesmal imeɣta"
 
 #: .es5/scripts/lib/auth-errors.js:228 .es5/scripts/templates/complete_sign_up.mustache:3
 msgid "The link you clicked to verify your email is expired."
-msgstr ""
+msgstr "Aseɣwen fiɣef tsiteḍ akken ad tesneqdeḍ imay inek yezri."
 
 #: .es5/scripts/lib/auth-errors.js:232 .es5/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Aseɣwen n usenqed yexṣeṛ"
 
 #: .es5/scripts/lib/auth-errors.js:240
 msgid "The image dimensions must be at least 100x100px"
