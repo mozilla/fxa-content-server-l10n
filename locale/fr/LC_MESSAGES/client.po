@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-03 14:58+0000\n"
-"PO-Revision-Date: 2016-08-09 16:05+0000\n"
+"PO-Revision-Date: 2016-09-03 22:39+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -89,7 +89,7 @@ msgstr "Changement de mot de passe réussi"
 
 #: .es5/scripts/views/settings/clients.js:53
 msgid "Last active: %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Dernière activité : %(translatedTimeAgo)s"
 
 #: .es5/scripts/views/settings/clients.js:90
 msgid "Devices"
@@ -97,7 +97,7 @@ msgstr "Appareils"
 
 #: .es5/scripts/views/settings/clients.js:93
 msgid "Devices & apps"
-msgstr ""
+msgstr "Appareils et applications"
 
 #: .es5/scripts/views/settings/clients.js:100
 msgid "You can manage your devices below."
@@ -105,7 +105,7 @@ msgstr "Vous pouvez gérer vos appareils ci-dessous."
 
 #: .es5/scripts/views/settings/clients.js:103
 msgid "You can manage your devices and apps below."
-msgstr ""
+msgstr "Vous pouvez gérer vos appareils et vos applications ci-dessous."
 
 #: .es5/scripts/views/settings/communication_preferences.js:111
 msgid "Subscribed successfully"
@@ -161,7 +161,7 @@ msgstr "Ce mot de passe est très simple ; veuillez en considérer un différen
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:27
 msgid "This is a common password; please consider another one. %(moreInfoLink)s"
-msgstr ""
+msgstr "Ce mot de passe est très simple ; vous devriez en choisir un autre. %(moreInfoLink)s"
 
 #: .es5/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
@@ -435,9 +435,7 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:17
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "En continuant, vous acceptez les <a id=\"service-tos\" href=\"%(termsUri)s\">conditions d’utilisation</a> et la <a id=\"service-pp\" href=\"%(privacyUri)s\">politique de confidentialité</a> de "
 "%(serviceName)s (%(serviceUri)s).                "
@@ -632,11 +630,11 @@ msgstr "Cliquez sur le lien que nous vous avons envoyé à l’adresse %(email)s
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "Vous vous souvenez de votre mot de passe ? Connectez-vous"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:9
 msgid "Didn’t arrive? Resend"
-msgstr ""
+msgstr "Rien reçu ? Réessayez"
 
 #: .es5/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -801,6 +799,8 @@ msgstr "Créer un compte Firefox"
 #: .es5/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 msgstr ""
+"Vous recherchez Firefox Sync ? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Apprenez-en davantage "
+"ici</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -812,7 +812,7 @@ msgstr "Vous disposez d’un compte avec une autre adresse électronique ? <a hr
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
-msgstr ""
+msgstr "Recevoir la lettre d’information mensuelle Firefox."
 
 #: .es5/scripts/templates/sign_up.mustache:22
 msgid "Create account"
@@ -820,7 +820,7 @@ msgstr "Créer un compte"
 
 #: .es5/scripts/templates/sign_up.mustache:27
 msgid "Have an account? Sign in"
-msgstr ""
+msgstr "Vous possédez déjà un compte ? Connectez-vous"
 
 #: .es5/scripts/templates/support/create_secure_password.mustache:1
 msgid "Create secure passwords to keep your identity safe"
@@ -878,11 +878,11 @@ msgstr "Ancien mot de passe"
 
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox est disponible pour <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> et <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox est disponible pour <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> et <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 
 #: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
@@ -1161,8 +1161,8 @@ msgstr "Utiliser un compte Firefox"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Veuillez autoriser les cookies dans votre navigateur&nbsp;; ceux-ci sont nécessaires pour les comptes Firefox. Les cookies sont des données enregistrées dans votre navigateur qui nous permettent "
-#~ "de nous souvenir de vous entre vos sessions.                "
+#~ "Veuillez autoriser les cookies dans votre navigateur&nbsp;; ceux-ci sont nécessaires pour les comptes Firefox. Les cookies sont des données enregistrées dans votre navigateur qui nous permettent de "
+#~ "nous souvenir de vous entre vos sessions.                "
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox sera bientôt disponible sur iOS !"
@@ -1308,9 +1308,7 @@ msgstr "Utiliser un compte Firefox"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Vous possédez déjà un compte ? Connectez-vous."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
 #~ "En continuant, j'accepte les <a id=\"service-tos\" href=\"%(termsUri)s\">conditions d'utilisation</a> et la <a id=\"service-pp\" href=\"%(privacyUri)s\">politique de confidentialité</a> de "
 #~ "%(serviceName)s (%(serviceUri)s)."
