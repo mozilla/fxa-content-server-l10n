@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-03 14:58+0000\n"
-"PO-Revision-Date: 2016-08-10 16:48+0200\n"
+"PO-Revision-Date: 2016-09-03 19:00+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -78,7 +78,7 @@ msgstr "O polityce prywatności Mozilli"
 
 #: templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr ""
+msgstr "Wiadomość wygenerowana automatycznie. Jeśli nie dodano nowego urządzenia do konta Firefoksa, to należy natychmiast zmienić hasło pod adresem %(passwordChangeLink)s"
 
 #: templates/new_device_login.txt:4 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5
@@ -375,6 +375,3 @@ msgstr "Usługi Firefox cloud"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Regulamin usługi"
-
-#~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-#~ msgstr "Wiadomość wygenerowana automatycznie. Jeśli nie dodano nowego urządzenia do konta Firefoksa, to należy natychmiast zmienić hasło pod adresem %(passwordChangeLink)s"

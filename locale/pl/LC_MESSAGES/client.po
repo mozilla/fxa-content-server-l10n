@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-03 14:58+0000\n"
-"PO-Revision-Date: 2016-08-10 16:48+0200\n"
+"PO-Revision-Date: 2016-09-03 19:00+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -87,7 +87,7 @@ msgstr "Pomyślnie zmieniono hasło"
 
 #: .es5/scripts/views/settings/clients.js:53
 msgid "Last active: %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Ostatnia aktywność: %(translatedTimeAgo)s"
 
 #: .es5/scripts/views/settings/clients.js:90
 msgid "Devices"
@@ -95,7 +95,7 @@ msgstr "Urządzenia"
 
 #: .es5/scripts/views/settings/clients.js:93
 msgid "Devices & apps"
-msgstr ""
+msgstr "Urządzenia i aplikacje"
 
 #: .es5/scripts/views/settings/clients.js:100
 msgid "You can manage your devices below."
@@ -103,7 +103,7 @@ msgstr "Poniżej można zarządzać urządzeniami."
 
 #: .es5/scripts/views/settings/clients.js:103
 msgid "You can manage your devices and apps below."
-msgstr ""
+msgstr "Poniżej można zarządzać urządzeniami i aplikacjami."
 
 #: .es5/scripts/views/settings/communication_preferences.js:111
 msgid "Subscribed successfully"
@@ -159,7 +159,7 @@ msgstr "To często spotykane hasło. Proszę rozważyć użycie innego."
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:27
 msgid "This is a common password; please consider another one. %(moreInfoLink)s"
-msgstr ""
+msgstr "To często spotykane hasło. Proszę rozważyć użycie innego. %(moreInfoLink)s"
 
 #: .es5/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
@@ -630,11 +630,11 @@ msgstr "Kliknij odnośnik wysłany do %(email)s w ciągu godziny, aby utworzyć
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "Pamiętasz hasło? Zaloguj się"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:9
 msgid "Didn’t arrive? Resend"
-msgstr ""
+msgstr "Nie przyszło? Wyślij ponownie"
 
 #: .es5/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -798,7 +798,7 @@ msgstr "Utwórz konto Firefoksa"
 
 #: .es5/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-msgstr ""
+msgstr "Szukasz usługi Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Załóż konto</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -810,7 +810,7 @@ msgstr "Masz już konto z innym adresem e-mail? <a href=\"%(signinUri)s\">Zalog
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
-msgstr ""
+msgstr "Chcę otrzymywać comiesięczny newsletter Firefoksa."
 
 #: .es5/scripts/templates/sign_up.mustache:22
 msgid "Create account"
@@ -818,11 +818,11 @@ msgstr "Utwórz konto"
 
 #: .es5/scripts/templates/sign_up.mustache:27
 msgid "Have an account? Sign in"
-msgstr ""
+msgstr "Już posiadasz konto? Zaloguj się"
 
 #: .es5/scripts/templates/support/create_secure_password.mustache:1
 msgid "Create secure passwords to keep your identity safe"
-msgstr ""
+msgstr "Wybieraj bezpieczne hasła, aby uniknąć kradzieży tożsamości"
 
 #: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2
 #: .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/communication_preferences.mustache:4 .es5/scripts/templates/settings/display_name.mustache:2
@@ -892,7 +892,7 @@ msgstr "Rozłącz"
 
 #: .es5/scripts/templates/settings/clients.mustache:8
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "Brak elementu lub jakieś są podwójne?"
 
 #: .es5/scripts/templates/settings/clients.mustache:9
 msgid "Refresh"
@@ -949,39 +949,3 @@ msgstr "Użyj OpenID"
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Użyj konta Firefoksa"
-
-#~ msgid "Last active: days ago"
-#~ msgstr "Ostatnia aktywność: w ciągu ostatniego tygodnia"
-
-#~ msgid "Last active: hours ago"
-#~ msgstr "Ostatnia aktywność: w ciągu ostatniej doby"
-
-#~ msgid "Last active: minutes ago"
-#~ msgstr "Ostatnia aktywność: w ciągu ostatniej godziny"
-
-#~ msgid "Last active: months ago"
-#~ msgstr "Ostatnia aktywność: w ciągu ostatniego roku"
-
-#~ msgid "Last active: seconds ago"
-#~ msgstr "Ostatnia aktywność: w ciągu ostatniej minuty"
-
-#~ msgid "Last active: weeks ago"
-#~ msgstr "Ostatnia aktywność: w ciągu ostatniego miesiąca"
-
-#~ msgid "Last active: years ago"
-#~ msgstr "Ostatnia aktywność: ponad rok temu"
-
-#~ msgid "Resend email"
-#~ msgstr "Ponownie wyślij e-mail"
-
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
-#~ msgstr "Szukasz usługi Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Załóż konto.</a>"
-
-#~ msgid "Send me the monthly Firefox newsletter."
-#~ msgstr "Chcę otrzymywać comiesięczny newsletter Firefoksa."
-
-#~ msgid "Have an account? Sign in."
-#~ msgstr "Już posiadasz konto? Zaloguj się."
-
-#~ msgid "Don't see all your devices?"
-#~ msgstr "Nie widać wszystkich urządzeń?"
