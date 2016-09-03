@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-07-09 13:32+0000\n"
-"Last-Translator: Marko Kostić (Marko Kostić) <marko.m.kostic@gmail.com>\n"
+"POT-Creation-Date: 2016-09-03 14:58+0000\n"
+"PO-Revision-Date: 2016-08-11 13:03+0000\n"
+"Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
 "MIME-Version: 1.0\n"
@@ -80,7 +80,7 @@ msgstr "Nova Firefox prijava"
 #: templates/new_device_login.html:3 templates/new_device_login.txt:2
 #: templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "IP adresa: %(ip)s"
 
 #: templates/new_device_login.html:4
 msgid ""
@@ -120,7 +120,7 @@ msgstr "Mozilla polisa privatnosti"
 
 #: templates/new_device_login.txt:3
 msgid ""
-"This is an automated email; if you didn't add a new device to your Firefox "
+"This is an automated email; if you didn’t add a new device to your Firefox "
 "Account, you should change your password immediately at "
 "%(passwordChangeLink)s"
 msgstr ""
@@ -153,6 +153,8 @@ msgid ""
 "This is an automated email; if you didn’t change the password to your "
 "Firefox Account, you should reset it immediately at %(resetLink)s"
 msgstr ""
+"Ovo je automatska e-pošta; Ukoliko niste vi promenili lozinku vašeg Firefox "
+"naloga, trebalo bi da je odmah resetujete na %(resetLink)s"
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
@@ -193,6 +195,8 @@ msgid ""
 "This is an automated email; if you didn’t reset the password to your Firefox "
 "Account, you should reset it immediately at %(resetLink)s"
 msgstr ""
+"Ovo je automatska e-pošta; Ukoliko niste vi resetovali lozinku vašeg Firefox "
+"naloga, trebalo bi da je odmah resetujete na %(resetLink)s"
 
 #: templates/password_reset_required.html:2
 #: templates/password_reset_required.txt:1
@@ -407,6 +411,8 @@ msgid ""
 "For added security, please confirm this sign-in to begin syncing with this "
 "device:"
 msgstr ""
+"Za dodatnu bezbednost, potvrdite prijavu da započnete sinhronizovanje sa "
+"ovim uređajem:"
 
 #: templates/verify_login.html:5 templates/verify_login.txt:4
 msgid "Confirm sign-in"
@@ -430,11 +436,11 @@ msgstr ""
 
 #: mailer.js:159
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (procenjeno)"
 
 #: mailer.js:161
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (procenjeno)"
 
 #: mailer.js:251
 msgid "Verify your Firefox Account"
@@ -541,6 +547,15 @@ msgstr "Firefox cloud servisi"
 #: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Uslovi korišćenja"
+
+#~ msgid ""
+#~ "This is an automated email; if you didn't add a new device to your "
+#~ "Firefox Account, you should change your password immediately at "
+#~ "%(passwordChangeLink)s"
+#~ msgstr ""
+#~ "Ovo je automatska e-pošta; Ukoliko niste dodali novi uređaj na vaš "
+#~ "Firefox nalog, trebalo bi odmah da promenite vašu lozinku na "
+#~ "%(passwordChangeLink)s"
 
 #~ msgid ""
 #~ "This is an automated email; if you didn't add a new device to your "

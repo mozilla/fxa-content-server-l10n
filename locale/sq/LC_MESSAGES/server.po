@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-09 14:02+0000\n"
+"POT-Creation-Date: 2016-09-03 14:58+0000\n"
 "PO-Revision-Date: 2016-08-18 08:22+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,8 +33,8 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
 "Lidhët me sukses pajisjen tuaj të parë me Llogarinë tuaj Firefox. Që të përfitoni maksimumin nga Sync-u, lidhni çfarëdo pajisje me <a href='%(androidUrl)s'>Firefox për Android</a> ose <a "
 "href='%(iosUrl)s'>Firefox për iOS</a>."
@@ -79,8 +79,8 @@ msgid "Mozilla Privacy Policy"
 msgstr "Rregulla Privatësie të Mozilla-s"
 
 #: templates/new_device_login.txt:3
-msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr "Ky është një email i automatizuar; nëse s’keni shtuar ndonjë pajisje të re te Llogaria juaj Firefox, do të duhej të ndryshonit menjëherë fjalëkalimin tuaj te %(passwordChangeLink)s"
+msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+msgstr ""
 
 #: templates/new_device_login.txt:4 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5
@@ -148,8 +148,8 @@ msgstr "Së pari, ndryshoni fjalëkalimin për Llogarinë tuaj Firefox."
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 msgstr ""
-"Së dyti, nëse Firefox-i juaj depoziton fjalëkalime në sajte, duhet të ndryshoni edhe këto fjalëkalime. Agresorët mund të kenë përfituar edhe këto fjalëkalime, ndaj duhet t’i kontrolloni këto llogari"
-" për veprimtari të dyshimtë."
+"Së dyti, nëse Firefox-i juaj depoziton fjalëkalime në sajte, duhet të ndryshoni edhe këto fjalëkalime. Agresorët mund të kenë përfituar edhe këto fjalëkalime, ndaj duhet t’i kontrolloni këto "
+"llogari për veprimtari të dyshimtë."
 
 #: templates/password_reset_required.html:7 templates/password_reset_required.txt:6 templates/suspicious_location.html:9 templates/suspicious_location.txt:8
 msgid "Learn how to see what passwords Firefox is storing for you."
@@ -238,8 +238,8 @@ msgstr "Tungjatjeta sërish."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-" email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+"this email address to activate your account."
 msgstr ""
 "Pak ditë më parë krijuat një Llogari Firefox, por s’e verifikuat kurrë atë. Një llogari e verifikuar ju lejon të përdorni skedat tuaja, faqerojtësit, fjalëkalimet dhe historikun në çdo pajisje të "
 "lidhur me të. Thjesht ripohoni këtë adresë email dhe aktivizoni llogarinë tuaj."
@@ -381,6 +381,9 @@ msgstr "Shërbime reje nga Firefox-i"
 msgid "Terms of Service"
 msgstr "Kushte Shërbimi"
 
+#~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "Ky është një email i automatizuar; nëse s’keni shtuar ndonjë pajisje të re te Llogaria juaj Firefox, do të duhej të ndryshonit menjëherë fjalëkalimin tuaj te %(passwordChangeLink)s"
+
 #~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(resetLink)s."
 #~ msgstr "Ky është një email i automatizuar; nëse nuk shtuat ndonjë pajisje të re te Llogaria juaj Firefox, do të duhej të ndryshonit menjëherë fjalëkalimin tuaj te %(resetLink)s."
 
@@ -418,8 +421,8 @@ msgstr "Kushte Shërbimi"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Një javë më parë krijuat një Llogari Firefox, por s’e verifikuat kurrë atë. U bëmë merak. Firefox-i është i gatshëm për Windows, Mac, Linux, Android dhe iOS. Mund të njëkohësoni fjalëkalimet tuaja "
-#~ "të Firefox-it, faqerojtësit dhe historikun nëpër krejt ata. Ripohoni këtë adresë email që të aktivizoni llogarinë tuaj dhe të na thoni se jeni mirë."
+#~ "Një javë më parë krijuat një Llogari Firefox, por s’e verifikuat kurrë atë. U bëmë merak. Firefox-i është i gatshëm për Windows, Mac, Linux, Android dhe iOS. Mund të njëkohësoni fjalëkalimet "
+#~ "tuaja të Firefox-it, faqerojtësit dhe historikun nëpër krejt ata. Ripohoni këtë adresë email që të aktivizoni llogarinë tuaj dhe të na thoni se jeni mirë."
 
 #~ msgid "contentServer.url"
 #~ msgstr "contentServer.url"

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-09 14:02+0000\n"
+"POT-Creation-Date: 2016-09-03 14:58+0000\n"
 "PO-Revision-Date: 2016-08-10 18:59+0000\n"
 "Last-Translator: Inma Barrios <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,16 +27,16 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Has conectado correctamente tu primer dispositivo a la cuenta de Firefox. Ahora puedes iniciar sesión en Sync desde tus otros dispositivos, incluido Firefox para <a href='%(androidUrl)s'>Android</a>"
-" y <a href='%(iosUrl)s'>iOS</a>."
+"Has conectado correctamente tu primer dispositivo a la cuenta de Firefox. Ahora puedes iniciar sesión en Sync desde tus otros dispositivos, incluido Firefox para <a href='%(androidUrl)s'>Android</"
+"a> y <a href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
-"Has conectado correctamente tu primer dispositivo a la cuenta de Firefox. Para sacarle el máximo provecho a Sync, conecta cualquier dispositivo <a href='%(androidUrl)s'>Firefox para Android</a> o <a"
-" href='%(iosUrl)s'>Firefox para iOS</a>."
+"Has conectado correctamente tu primer dispositivo a la cuenta de Firefox. Para sacarle el máximo provecho a Sync, conecta cualquier dispositivo <a href='%(androidUrl)s'>Firefox para Android</a> o "
+"<a href='%(iosUrl)s'>Firefox para iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -78,8 +78,8 @@ msgid "Mozilla Privacy Policy"
 msgstr "Política de privacidad de Mozilla"
 
 #: templates/new_device_login.txt:3
-msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr "Este es un correo automático; si no has agregado ningún dispositivo nuevo a tu cuenta de Firefox, debes cambiar la contraseña inmediatamente en %(passwordChangeLink)s"
+msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+msgstr ""
 
 #: templates/new_device_login.txt:4 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5
@@ -236,8 +236,8 @@ msgstr "Hola de nuevo."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-" email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+"this email address to activate your account."
 msgstr ""
 "Hace unos días creaste una cuenta de Firefox, pero nunca la verificaste. Una cuenta verificada te permite acceder a tus pestañas, marcadores, contraseñas e historial en cualquier dispositivo "
 "conectado a ella. Para activarla solo tienes que confirmar tu correo."
@@ -378,6 +378,9 @@ msgstr "Firefox cloud services"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Términos del servicio"
+
+#~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "Este es un correo automático; si no has agregado ningún dispositivo nuevo a tu cuenta de Firefox, debes cambiar la contraseña inmediatamente en %(passwordChangeLink)s"
 
 #~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(resetLink)s."
 #~ msgstr "Este es un correo automático; si no has agregado ningún dispositivo nuevo a tu cuenta de Firefox, debes cambiar la contraseña inmediatamente aquí: %(resetLink)s."

@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-09 14:02+0000\n"
-"PO-Revision-Date: 2016-07-03 08:49+0000\n"
+"POT-Creation-Date: 2016-09-03 14:58+0000\n"
+"PO-Revision-Date: 2016-08-16 23:11+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -44,7 +44,7 @@ msgstr "Ligar outro dispositivo"
 
 #: templates/_pending.txt:6
 msgid "Sign in to Sync"
-msgstr "Inicie sessão para sincronizar"
+msgstr "Iniciar sessão no Sync"
 
 #: templates/new_device_login.html:1 templates/password_changed.html:1 templates/password_reset.html:1 templates/password_reset_required.html:1 templates/post_verify.html:1 templates/recovery.html:1
 #: templates/suspicious_location.html:1 templates/verification_reminder_first.html:1 templates/verification_reminder_second.html:1 templates/verify.html:1 templates/verify_login.html:1
@@ -59,7 +59,7 @@ msgstr "Novo início de sessão no Firefox"
 
 #: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "Endereço de IP: %(ip)s"
 
 #: templates/new_device_login.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
@@ -78,7 +78,7 @@ msgid "Mozilla Privacy Policy"
 msgstr "Política de privacidade da Mozilla"
 
 #: templates/new_device_login.txt:3
-msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
 msgstr ""
 
 #: templates/new_device_login.txt:4 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
@@ -100,7 +100,7 @@ msgstr "Este é um email automático; se não autorizou esta ação, então <a %
 
 #: templates/password_changed.txt:3
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Este é um email automático; se não alterou a sua palavra-passe da sua conta Firefox, deve repor a mesma imediatamente em %(resetLink)s"
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
@@ -125,7 +125,7 @@ msgstr "A palavra-passe da sua Conta Firefox foi reposta com sucesso."
 
 #: templates/password_reset.txt:3
 msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Este é um email automático; se não fez a reposição da palavra-passe da sua conta Firefox, deve repor a mesma imediatamente em %(resetLink)s"
 
 #: templates/password_reset_required.html:2 templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
@@ -273,11 +273,11 @@ msgstr "Por favor ative a sua conta confirmando este endereço de e-mail."
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "Para uma segurança adicional, por favor confirme este início de sessão para começar a sincronização com este dispositivo:"
 
 #: templates/verify_login.html:5 templates/verify_login.txt:4
 msgid "Confirm sign-in"
-msgstr "Confirmar novo inicio de sessão"
+msgstr "Confirmar novo início de sessão"
 
 #: templates/verify_login.html:7
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -289,11 +289,11 @@ msgstr "Se suspeita que alguém está a tentar obter acesso à sua conta, por fa
 
 #: mailer.js:159
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (estimado)"
 
 #: mailer.js:161
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (estimado)"
 
 #: mailer.js:251
 msgid "Verify your Firefox Account"
@@ -301,7 +301,7 @@ msgstr "Confirme a sua Conta Firefox"
 
 #: mailer.js:290
 msgid "Confirm new sign-in to Firefox"
-msgstr "Confirmar novo inicio de sessão no Firefox"
+msgstr "Confirmar novo início de sessão no Firefox"
 
 #: mailer.js:331
 msgid "Reset your Firefox Account password"
@@ -377,7 +377,10 @@ msgstr "Serviços do Firefox na cloud"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
-msgstr "Termos de utilização"
+msgstr "Termos do serviço"
+
+#~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "Este é um email automático; se não adicionou um novo dispositivo à sua conta Firefox, deve alterar imediatamente a sua palavra-passe em %(passwordChangeLink)s"
 
 #~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(resetLink)s."
 #~ msgstr "Este é um email automático; se não adicionou um novo dispositivo à sua Conta Firefox, deve mudar a sua palavra-passe imediatamente através de %(resetLink)s."
