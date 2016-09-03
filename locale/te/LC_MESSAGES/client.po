@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-09 14:02+0000\n"
+"POT-Creation-Date: 2016-09-03 14:58+0000\n"
 "PO-Revision-Date: 2016-08-14 13:44+0000\n"
 "Last-Translator: Dinesh <dineshmv38@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,6 +86,26 @@ msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a>సౌజన్యం"
 msgid "Password changed successfully"
 msgstr "పాస్వర్డ్ విజయవంతంగా మార్పుబడినది"
 
+#: .es5/scripts/views/settings/clients.js:53
+msgid "Last active: %(translatedTimeAgo)s"
+msgstr ""
+
+#: .es5/scripts/views/settings/clients.js:90
+msgid "Devices"
+msgstr "పరికరాల"
+
+#: .es5/scripts/views/settings/clients.js:93
+msgid "Devices & apps"
+msgstr ""
+
+#: .es5/scripts/views/settings/clients.js:100
+msgid "You can manage your devices below."
+msgstr "క్రింద మీరు మీ పరికరాల నిర్వహించవచ్చు."
+
+#: .es5/scripts/views/settings/clients.js:103
+msgid "You can manage your devices and apps below."
+msgstr ""
+
 #: .es5/scripts/views/settings/communication_preferences.js:111
 msgid "Subscribed successfully"
 msgstr "విజయవంతంగా సబ్స్క్రైబ్ అయ్యారు"
@@ -98,39 +118,11 @@ msgstr "విజయవంతంగా అన్సబ్స్క్రైబ�
 msgid "Account deleted successfully"
 msgstr "ఖాతా విజయవంతంగా తొలగించబడింది"
 
-#: .es5/scripts/views/settings/devices.js:28
-msgid "Last active: days ago"
-msgstr "క్రియాశీల చివరి: రోజుల క్రితం"
-
-#: .es5/scripts/views/settings/devices.js:29
-msgid "Last active: hours ago"
-msgstr "క్రియాశీల చివరి: గంటలు క్రితం"
-
-#: .es5/scripts/views/settings/devices.js:30
-msgid "Last active: minutes ago"
-msgstr "క్రియాశీల చివరి: నిమిషాల క్రితం"
-
-#: .es5/scripts/views/settings/devices.js:31
-msgid "Last active: months ago"
-msgstr "క్రియాశీల చివరి: నెలల క్రితం"
-
-#: .es5/scripts/views/settings/devices.js:32
-msgid "Last active: seconds ago"
-msgstr "క్రియాశీల చివరి: గంటలు క్రితం"
-
-#: .es5/scripts/views/settings/devices.js:34
-msgid "Last active: weeks ago"
-msgstr "క్రియాశీల చివరి: రోజుల క్రితం"
-
-#: .es5/scripts/views/settings/devices.js:35
-msgid "Last active: years ago"
-msgstr "క్రియాశీల చివరి: రోజుల క్రితం"
-
 #: .es5/scripts/views/settings/display_name.js:50
 msgid "Display name updated"
 msgstr "ప్రదర్శన పేరు నవీకరించబడింది"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/lib/auth-errors.js:107
+#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/lib/auth-errors.js:108
 msgid "Your account has been locked for security reasons"
 msgstr "మీ ఖాతా భద్రతా కారణాల కోసం లాక్ చేయబడింది"
 
@@ -154,17 +146,21 @@ msgstr "యాహూ తెరువు"
 msgid "Open Outlook"
 msgstr "అవుట్లుక్ తెరువు"
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:21
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:24
 msgid "8 characters minimum, but longer if you plan to sync passwords."
 msgstr "8 అక్షరాలు కనీస, కానీ మీరు పాస్వర్డ్లను సమకాలీకరిస్తుంది కుంటే ఇక."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/templates/sign_up.mustache:18
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:25 .es5/scripts/templates/sign_up.mustache:18
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "ఒక బలమైన, ఏకైక పాస్వర్డ్ను మీ ఫైర్ఫాక్స్ లోకి చొరబాటు నుండి సురక్షితంగా ఉంచుతాయి."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:23
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:26
 msgid "This is a common password; please consider another one."
 msgstr "ఈ ఒక సాధారణ పాస్వర్డ్; దయచేసి మరో దాన్ని పరిగణలోకి తీసుకోండి."
+
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:27
+msgid "This is a common password; please consider another one. %(moreInfoLink)s"
+msgstr ""
 
 #: .es5/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
@@ -176,196 +172,196 @@ msgstr "విజయవంతంగా సైన్ అవుట్ అయ్
 msgid "Unexpected error"
 msgstr "ఊహించని దోషం"
 
-#: .es5/scripts/lib/auth-errors.js:29 .es5/scripts/lib/oauth-errors.js:50
+#: .es5/scripts/lib/auth-errors.js:20 .es5/scripts/templates/complete_sign_up.mustache:3
+msgid "The link you clicked to verify your email is expired."
+msgstr "మీరు మీ ఇమెయిల్ ధ్రువీకరించడం క్లిక్ చేసిన లింక్ గడువు ముగిసింది."
+
+#: .es5/scripts/lib/auth-errors.js:30 .es5/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
 msgstr "చెల్లని టోకేను"
 
-#: .es5/scripts/lib/auth-errors.js:33
+#: .es5/scripts/lib/auth-errors.js:34
 msgid "Invalid timestamp in request signature"
 msgstr "అభ్యర్థన సంతకంలో చెల్లని స్టాంప్"
 
-#: .es5/scripts/lib/auth-errors.js:37
+#: .es5/scripts/lib/auth-errors.js:38
 msgid "Invalid nonce in request signature"
 msgstr "అభ్యర్థన సంతకంలో చెల్లని సమయము"
 
-#: .es5/scripts/lib/auth-errors.js:41
+#: .es5/scripts/lib/auth-errors.js:42
 msgid "Account already exists"
 msgstr "ఖాతా ఇప్పటికే ఉనికిలో ఉంది"
 
-#: .es5/scripts/lib/auth-errors.js:45
+#: .es5/scripts/lib/auth-errors.js:46
 msgid "Unknown account"
 msgstr "తెలియని ఖాతా"
 
-#: .es5/scripts/lib/auth-errors.js:49
+#: .es5/scripts/lib/auth-errors.js:50
 msgid "Incorrect email case"
 msgstr "సరికాని ఇమెయిల్ కేసు"
 
-#: .es5/scripts/lib/auth-errors.js:53
+#: .es5/scripts/lib/auth-errors.js:54
 msgid "Incorrect password"
 msgstr "సరికాని పాస్వర్డ్"
 
-#: .es5/scripts/lib/auth-errors.js:57
+#: .es5/scripts/lib/auth-errors.js:58
 msgid "Unverified account"
 msgstr "ధ్రువీకరించని ఖాతా"
 
-#: .es5/scripts/lib/auth-errors.js:61
+#: .es5/scripts/lib/auth-errors.js:62
 msgid "Invalid verification code"
 msgstr "చెల్లని ధృవీకరణ కోడ్"
 
-#: .es5/scripts/lib/auth-errors.js:65
+#: .es5/scripts/lib/auth-errors.js:66
 msgid "Invalid JSON in request body"
 msgstr "రిక్వస్ట్ బాడీ లో‌ చెల్లని JSON"
 
-#: .es5/scripts/lib/auth-errors.js:69
+#: .es5/scripts/lib/auth-errors.js:70
 msgid "Invalid parameter: %(param)s"
 msgstr "చెల్లని పరామితి: %(param)s"
 
-#: .es5/scripts/lib/auth-errors.js:73
+#: .es5/scripts/lib/auth-errors.js:74
 msgid "Missing parameter: %(param)s"
 msgstr "కనబడని పరామితి: %(param)s"
 
-#: .es5/scripts/lib/auth-errors.js:77
+#: .es5/scripts/lib/auth-errors.js:78
 msgid "Invalid request signature"
 msgstr "చెల్లని అభ్యర్థన సంతకం"
 
-#: .es5/scripts/lib/auth-errors.js:81
+#: .es5/scripts/lib/auth-errors.js:82
 msgid "Missing content-length header"
 msgstr "క్ంటెంట్ లెంథ్ హెడర్ కనబడుటలేదు"
 
-#: .es5/scripts/lib/auth-errors.js:85
+#: .es5/scripts/lib/auth-errors.js:86
 msgid "Request body too large"
 msgstr "అభ్యర్థన శరీరం చాలా పెద్ద"
 
-#: .es5/scripts/lib/auth-errors.js:89
+#: .es5/scripts/lib/auth-errors.js:90
 msgid "Attempt limit exceeded"
 msgstr "ప్రయత్నం పరిమితి మించిపోయింది"
 
-#: .es5/scripts/lib/auth-errors.js:103
+#: .es5/scripts/lib/auth-errors.js:104
 msgid "The request was blocked for security reasons"
 msgstr "అభ్యర్థన భద్రతా కారణాల వల్ల నిరోధించబడింది"
 
-#: .es5/scripts/lib/auth-errors.js:111 .es5/scripts/lib/auth-errors.js:288
+#: .es5/scripts/lib/auth-errors.js:112 .es5/scripts/lib/auth-errors.js:289
 msgid "Server busy, try again soon"
 msgstr "సర్వర్ బిజీగా ఉంది, త్వరలో మళ్లీ ప్రయత్నించండి"
 
-#: .es5/scripts/lib/auth-errors.js:115
+#: .es5/scripts/lib/auth-errors.js:116
 msgid "This endpoint is no longer supported"
 msgstr "ఈ తుది స్థానం ఇకపై మద్దతు ఇవ్వబడదు"
 
-#: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:75 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
+#: .es5/scripts/lib/auth-errors.js:120 .es5/scripts/lib/config-loader.js:75 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
 #: .es5/scripts/lib/oauth-errors.js:80 .es5/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "వ్యవస్థ అందుబాటులో లేవు, త్వరలో మళ్లీ ప్రయత్నించండి"
 
-#: .es5/scripts/lib/auth-errors.js:123 .es5/scripts/lib/oauth-errors.js:104
+#: .es5/scripts/lib/auth-errors.js:124 .es5/scripts/lib/oauth-errors.js:104
 msgid "no message"
 msgstr "సందేశం లేదు"
 
-#: .es5/scripts/lib/auth-errors.js:127
+#: .es5/scripts/lib/auth-errors.js:128
 msgid "Session expired. Sign in to continue."
 msgstr "సెషన్ ముగిసిపోయింది. కొనసాగడానికి సైన్ అవండి."
 
-#: .es5/scripts/lib/auth-errors.js:131
+#: .es5/scripts/lib/auth-errors.js:132
 msgid "Cookies are still disabled"
 msgstr "కుకీలు ఇప్పటికీ డిసేబుల్ అయిఉన్నవి"
 
-#: .es5/scripts/lib/auth-errors.js:135
+#: .es5/scripts/lib/auth-errors.js:136
 msgid "Passwords do not match"
 msgstr "గుప్త పదములు సరి పోవట్లేదు"
 
-#: .es5/scripts/lib/auth-errors.js:139
+#: .es5/scripts/lib/auth-errors.js:140
 msgid "Working…"
 msgstr "పని జరుగుతోంది..."
 
-#: .es5/scripts/lib/auth-errors.js:143
+#: .es5/scripts/lib/auth-errors.js:144
 msgid "Could not get Privacy Notice"
 msgstr "గోప్యతా నోటీసు పొందడం సాధ్యం కాలేదు"
 
-#: .es5/scripts/lib/auth-errors.js:147
+#: .es5/scripts/lib/auth-errors.js:148
 msgid "Could not get Terms of Service"
 msgstr "సేవా నిబంధనలు పొందుటకు కాలేదు"
 
-#: .es5/scripts/lib/auth-errors.js:151
+#: .es5/scripts/lib/auth-errors.js:152
 msgid "Your new password must be different"
 msgstr "మీ కొత్త పాస్వర్డ్ భిన్నంగా ఉండాలి"
 
-#: .es5/scripts/lib/auth-errors.js:155 .es5/scripts/templates/complete_reset_password.mustache:15 .es5/scripts/templates/settings/change_password.mustache:9
+#: .es5/scripts/lib/auth-errors.js:156 .es5/scripts/templates/complete_reset_password.mustache:15 .es5/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "కనీసం 8 అక్షరాల పొడవు ఉండాలి"
 
-#: .es5/scripts/lib/auth-errors.js:159
+#: .es5/scripts/lib/auth-errors.js:160
 msgid "Valid password required"
 msgstr "చెల్లుబాటు అయ్యే పాస్వర్డ్ అవసరం"
 
-#: .es5/scripts/lib/auth-errors.js:163 .es5/scripts/lib/auth-errors.js:201 .es5/scripts/lib/auth-errors.js:217
+#: .es5/scripts/lib/auth-errors.js:164 .es5/scripts/lib/auth-errors.js:202 .es5/scripts/lib/auth-errors.js:218
 msgid "Valid email required"
 msgstr "చెల్లుబాటు అయ్యే ఇమెయిల్ అవసరం"
 
-#: .es5/scripts/lib/auth-errors.js:174
+#: .es5/scripts/lib/auth-errors.js:175
 msgid "A usable image was not found"
 msgstr "ఒక ఉపయోగపడే చిత్రం దొరకలేదు"
 
-#: .es5/scripts/lib/auth-errors.js:178
+#: .es5/scripts/lib/auth-errors.js:179
 msgid "Could not initialize camera"
 msgstr "కెమెరా ప్రారంభించడం సాధ్యం కాలేదు"
 
-#: .es5/scripts/lib/auth-errors.js:182
+#: .es5/scripts/lib/auth-errors.js:183
 msgid "Valid URL required"
 msgstr "చెల్లుబాటు అయ్యే URL అవసరం"
 
-#: .es5/scripts/lib/auth-errors.js:197
+#: .es5/scripts/lib/auth-errors.js:198
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "మీ ధృవీకరణ ఇమెయిల్ తిరిగి. ఇమెయిల్ తప్పుగా టైప్ చేసారా?"
 
-#: .es5/scripts/lib/auth-errors.js:205
+#: .es5/scripts/lib/auth-errors.js:206
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "ఒక చెల్లుబాటు అయ్యే ఇమెయిల్ చిరునామాను నమోదు చేయండి. firefox.com ఇమెయిల్ అందించడం లేదు."
 
-#: .es5/scripts/lib/auth-errors.js:213
+#: .es5/scripts/lib/auth-errors.js:214
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "ఫైర్ఫాక్స్ ఖాతాలను ఆమోదం సైట్లలో ఒక iframe లోకి ఉంచవచ్చు"
 
-#: .es5/scripts/lib/auth-errors.js:228 .es5/scripts/templates/complete_sign_up.mustache:3
-msgid "The link you clicked to verify your email is expired."
-msgstr "మీరు మీ ఇమెయిల్ ధ్రువీకరించడం క్లిక్ చేసిన లింక్ గడువు ముగిసింది."
-
-#: .es5/scripts/lib/auth-errors.js:232 .es5/scripts/templates/complete_sign_up.mustache:7
+#: .es5/scripts/lib/auth-errors.js:233 .es5/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "ధృవీకరణ లింక్ దెబ్బతింది"
 
-#: .es5/scripts/lib/auth-errors.js:240
+#: .es5/scripts/lib/auth-errors.js:241
 msgid "The image dimensions must be at least 100x100px"
 msgstr "చిత్రం కొలతలు 100x100px కనీసం ఉండాలి"
 
-#: .es5/scripts/lib/auth-errors.js:244
+#: .es5/scripts/lib/auth-errors.js:245
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "సైన్ అప్ ఫైర్ఫాక్స్ iOS కోసం త్వరలో వస్తోంది"
 
-#: .es5/scripts/lib/auth-errors.js:255
+#: .es5/scripts/lib/auth-errors.js:256
 msgid "You must enter your age to sign up"
 msgstr "మీరు సైన్ అప్ మీ వయస్సు నమోదు చేయాలి"
 
-#: .es5/scripts/lib/auth-errors.js:259
+#: .es5/scripts/lib/auth-errors.js:260
 msgid "No Gravatar found"
 msgstr "గ్రావతార్ దొరకలేదు"
 
-#: .es5/scripts/lib/auth-errors.js:267
+#: .es5/scripts/lib/auth-errors.js:268
 msgid "Account no longer exists."
 msgstr "ఖాతా ఇకపై ఉనికిలో లేదు."
 
-#: .es5/scripts/lib/auth-errors.js:271
+#: .es5/scripts/lib/auth-errors.js:272
 msgid "Invalid property in resume token: %(property)s"
 msgstr "పునఃప్రారంభం టోకెన్లోని చెల్లని ప్రాపర్టీ: %(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:275
+#: .es5/scripts/lib/auth-errors.js:276
 msgid "Missing property in resume token: %(property)s"
 msgstr "పునఃప్రారంభం టోకెన్ ప్రాపర్టీ లేనివి: %(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:279
+#: .es5/scripts/lib/auth-errors.js:280
 msgid "Invalid data attribute: %(property)s"
 msgstr "చెల్లని డేటా ఎట్ట్రిబ్యూట్: %(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:283
+#: .es5/scripts/lib/auth-errors.js:284
 msgid "Missing data attribute: %(property)s"
 msgstr "చెల్లని డేటా ఎట్ట్రిబ్యూట్: %(property)s"
 
@@ -438,7 +434,9 @@ msgid "Firefox Sync"
 msgstr "ఫైర్ఫాక్స్ సింక్"
 
 #: .es5/scripts/lib/strings.js:17
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr "కొనసాగింతే, మీరు మా <a id=\"service-tos\" href=\"%(termsUri)s\">సేవా షరతులు</a> మరియు <a id=\"service-pp\" href=\"%(privacyUri)s\">గోప్యతా నోటీసు</a> యొక్క %(serviceName)s(%(serviceUri)s)."
 
 #: .es5/scripts/lib/strings.js:24
@@ -526,6 +524,7 @@ msgid "Save settings"
 msgstr "సెట్టింగులను సేవ్ చేయండి"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:16 .es5/scripts/templates/confirm.mustache:13 .es5/scripts/templates/pp.mustache:3 .es5/scripts/templates/tos.mustache:3
+#: .es5/scripts/templates/support/create_secure_password.mustache:2
 msgid "Back"
 msgstr "వెనక్కి"
 
@@ -572,7 +571,7 @@ msgstr "కొత్త పాస్వర్డ్"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:14 .es5/scripts/templates/complete_reset_password.mustache:17 .es5/scripts/templates/force_auth.mustache:5
 #: .es5/scripts/templates/sign_in.mustache:9 .es5/scripts/templates/sign_in.mustache:21 .es5/scripts/templates/sign_up.mustache:17 .es5/scripts/templates/settings/change_password.mustache:5
-#: .es5/scripts/templates/settings/change_password.mustache:8 .es5/scripts/templates/settings/delete_account.mustache:5 .es5/scripts/templates/settings/devices.mustache:3
+#: .es5/scripts/templates/settings/change_password.mustache:8 .es5/scripts/templates/settings/clients.mustache:2 .es5/scripts/templates/settings/delete_account.mustache:5
 msgid "Show"
 msgstr "చూపు"
 
@@ -628,14 +627,13 @@ msgstr "రీసెట్ ఇమెయిల్ పంపబడింది"
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
 msgstr "మేము ఒక కొత్త పాస్వర్డ్ సృష్టించడానికి ఒక గంటలోపు మీకు ఇమెయిల్ %(email)s చేసిన లింక్పై క్లిక్ చేయండి."
 
-#: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:7
-#: .es5/scripts/templates/reset_password.mustache:9
-msgid "Remember password? Sign in."
-msgstr "పాస్వర్డ్ గుర్తుందా? సైన్ ఇన్."
+#: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7
+msgid "Remember password? Sign in"
+msgstr ""
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:9
-msgid "Resend email"
-msgstr "ఇమెయిల్ తిరిగి పంపండి"
+msgid "Didn’t arrive? Resend"
+msgstr ""
 
 #: .es5/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -763,6 +761,10 @@ msgstr "మీరు మీ పాస్వర్డ్ను రీసెట్
 msgid "Email"
 msgstr "ఈమేయిల్"
 
+#: .es5/scripts/templates/reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:9
+msgid "Remember password? Sign in."
+msgstr "పాస్వర్డ్ గుర్తుందా? సైన్ ఇన్."
+
 #: .es5/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
 msgstr "ఫైర్ఫాక్స్ ఖాతాలు"
@@ -792,8 +794,8 @@ msgid "Create a Firefox Account"
 msgstr "ఒక ఫైర్ఫాక్స్ ఖాతా సృష్టించు"
 
 #: .es5/scripts/templates/sign_up.mustache:6
-msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
-msgstr "ఫైర్ఫాక్స్ సింక్ కోసం చూస్తున్నారా? <a href=\"https://mozilla.org/firefox/sync\">ఇక్కడ మొదలు పెట్టండి</a>"
+msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+msgstr ""
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -804,16 +806,20 @@ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in
 msgstr "వేరొక ఈమయిల్ తో ఖాతా ఉన్నదా? <a href=\"%(signinUri)s\">సైన్ ఇన్ అవండి</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
-msgid "Send me the monthly Firefox newsletter."
-msgstr "నాకు నెలసరి ఫైర్ఫాక్స్ వార్తాలేఖను పంపు."
+msgid "Receive the monthly Firefox newsletter."
+msgstr ""
 
 #: .es5/scripts/templates/sign_up.mustache:22
 msgid "Create account"
 msgstr "ఖాతా సృష్టించు"
 
 #: .es5/scripts/templates/sign_up.mustache:27
-msgid "Have an account? Sign in."
-msgstr "ఖాతా ఉందా? సైన్ ఇన్ అవండి."
+msgid "Have an account? Sign in"
+msgstr ""
+
+#: .es5/scripts/templates/support/create_secure_password.mustache:1
+msgid "Create secure passwords to keep your identity safe"
+msgstr ""
 
 #: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2
 #: .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/communication_preferences.mustache:4 .es5/scripts/templates/settings/display_name.mustache:2
@@ -845,7 +851,7 @@ msgstr "గ్రావతార్"
 msgid "Clear"
 msgstr "క్లియర్"
 
-#: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/devices.mustache:12
+#: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/clients.mustache:10
 msgid "Done"
 msgstr "అయింది"
 
@@ -864,6 +870,30 @@ msgstr "ఒకసారి మీరు పూర్తి చేసిన త�
 #: .es5/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
 msgstr "పాత పాస్వర్డ్"
+
+#: .es5/scripts/templates/settings/clients.mustache:3
+msgid ""
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+"\"%(linkLinux)s\">Linux</a>."
+msgstr ""
+"ఫైర్ఫాక్స్ <a href=\"%(linkWindows)s\">విండోస్</a>, <a href=\"%(linkOSX)s\">ఓయస్ ఎక్స్</a>, <a href=\"%(linkAndroid)s\">ఆండ్రాయిడ్</a>,<a href=\"%(linkIOS)s\">ఐఓయస్</a>, <a href=\"%(linkLinux)s\">లినక్స్</a> కి "
+"లభిస్తుంది."
+
+#: .es5/scripts/templates/settings/clients.mustache:4
+msgid "current device"
+msgstr "ప్రస్తుత పరికరం"
+
+#: .es5/scripts/templates/settings/clients.mustache:6
+msgid "Disconnect"
+msgstr "డిస్కనెక్ట్"
+
+#: .es5/scripts/templates/settings/clients.mustache:8
+msgid "Missing or duplicate items?"
+msgstr ""
+
+#: .es5/scripts/templates/settings/clients.mustache:9
+msgid "Refresh"
+msgstr "రిఫ్రెష్"
 
 #: .es5/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
@@ -893,38 +923,6 @@ msgstr "తొలగించు"
 msgid "Are you sure you want to delete your account? This action cannot be undone."
 msgstr "మీరు మీ ఖాతా తొలగించాలనుకుంటున్నారా? ఈ చర్యను రద్దు చేయడం సాధ్యం కాదు."
 
-#: .es5/scripts/templates/settings/devices.mustache:2
-msgid "Devices"
-msgstr "పరికరాల"
-
-#: .es5/scripts/templates/settings/devices.mustache:4
-msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-"href=\"%(linkLinux)s\">Linux</a>."
-msgstr ""
-"ఫైర్ఫాక్స్ <a href=\"%(linkWindows)s\">విండోస్</a>, <a href=\"%(linkOSX)s\">ఓయస్ ఎక్స్</a>, <a href=\"%(linkAndroid)s\">ఆండ్రాయిడ్</a>,<a href=\"%(linkIOS)s\">ఐఓయస్</a>, <a "
-"href=\"%(linkLinux)s\">లినక్స్</a> కి లభిస్తుంది."
-
-#: .es5/scripts/templates/settings/devices.mustache:5
-msgid "You can manage your devices below."
-msgstr "క్రింద మీరు మీ పరికరాల నిర్వహించవచ్చు."
-
-#: .es5/scripts/templates/settings/devices.mustache:6
-msgid "current device"
-msgstr "ప్రస్తుత పరికరం"
-
-#: .es5/scripts/templates/settings/devices.mustache:8
-msgid "Disconnect"
-msgstr "డిస్కనెక్ట్"
-
-#: .es5/scripts/templates/settings/devices.mustache:10
-msgid "Don't see all your devices?"
-msgstr "మీ అన్ని పరికరాల్లో కనిపించలేదా?"
-
-#: .es5/scripts/templates/settings/devices.mustache:11
-msgid "Refresh"
-msgstr "రిఫ్రెష్"
-
 #: .es5/scripts/templates/settings/display_name.mustache:3
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "మీ ఖాతా మేనేజింగ్ మీరు ఫైఫాక్స్లో కనిపించడానికి ఇష్ట పేరును ఎంచుకోండి."
@@ -948,6 +946,42 @@ msgstr "OPenID వాడండి"
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "ఫైర్ఫాక్స్ ఖాతా వాడు"
+
+#~ msgid "Last active: days ago"
+#~ msgstr "క్రియాశీల చివరి: రోజుల క్రితం"
+
+#~ msgid "Last active: hours ago"
+#~ msgstr "క్రియాశీల చివరి: గంటలు క్రితం"
+
+#~ msgid "Last active: minutes ago"
+#~ msgstr "క్రియాశీల చివరి: నిమిషాల క్రితం"
+
+#~ msgid "Last active: months ago"
+#~ msgstr "క్రియాశీల చివరి: నెలల క్రితం"
+
+#~ msgid "Last active: seconds ago"
+#~ msgstr "క్రియాశీల చివరి: గంటలు క్రితం"
+
+#~ msgid "Last active: weeks ago"
+#~ msgstr "క్రియాశీల చివరి: రోజుల క్రితం"
+
+#~ msgid "Last active: years ago"
+#~ msgstr "క్రియాశీల చివరి: రోజుల క్రితం"
+
+#~ msgid "Resend email"
+#~ msgstr "ఇమెయిల్ తిరిగి పంపండి"
+
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
+#~ msgstr "ఫైర్ఫాక్స్ సింక్ కోసం చూస్తున్నారా? <a href=\"https://mozilla.org/firefox/sync\">ఇక్కడ మొదలు పెట్టండి</a>"
+
+#~ msgid "Send me the monthly Firefox newsletter."
+#~ msgstr "నాకు నెలసరి ఫైర్ఫాక్స్ వార్తాలేఖను పంపు."
+
+#~ msgid "Have an account? Sign in."
+#~ msgstr "ఖాతా ఉందా? సైన్ ఇన్ అవండి."
+
+#~ msgid "Don't see all your devices?"
+#~ msgstr "మీ అన్ని పరికరాల్లో కనిపించలేదా?"
 
 #~ msgid "days ago"
 #~ msgstr "రోజుల క్రితం"

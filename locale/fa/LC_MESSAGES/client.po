@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-09 14:02+0000\n"
+"POT-Creation-Date: 2016-09-03 14:58+0000\n"
 "PO-Revision-Date: 2016-08-12 08:11+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,6 +87,26 @@ msgstr "با کسب اجازه از <a href=\"https://www.gravatar.com\">گرا�
 msgid "Password changed successfully"
 msgstr "گذرواژه با موفقیت تغییر کرد"
 
+#: .es5/scripts/views/settings/clients.js:53
+msgid "Last active: %(translatedTimeAgo)s"
+msgstr ""
+
+#: .es5/scripts/views/settings/clients.js:90
+msgid "Devices"
+msgstr "دستگاه‌ها"
+
+#: .es5/scripts/views/settings/clients.js:93
+msgid "Devices & apps"
+msgstr ""
+
+#: .es5/scripts/views/settings/clients.js:100
+msgid "You can manage your devices below."
+msgstr "شما می‌توانید دستگاه‌های خود را در زیر مدیریت کنید."
+
+#: .es5/scripts/views/settings/clients.js:103
+msgid "You can manage your devices and apps below."
+msgstr ""
+
 #: .es5/scripts/views/settings/communication_preferences.js:111
 msgid "Subscribed successfully"
 msgstr "با موفقیت عضو شدید"
@@ -99,39 +119,11 @@ msgstr "لغو عضویت با موفقیت انجام شد"
 msgid "Account deleted successfully"
 msgstr "حساب با موفقیت حذف شد"
 
-#: .es5/scripts/views/settings/devices.js:28
-msgid "Last active: days ago"
-msgstr "آخرین فعالیت: چند روز قبل"
-
-#: .es5/scripts/views/settings/devices.js:29
-msgid "Last active: hours ago"
-msgstr "آخرین فعالیت: چند ساعت قبل"
-
-#: .es5/scripts/views/settings/devices.js:30
-msgid "Last active: minutes ago"
-msgstr "آخرین فعالیت: چند دقیق قبل"
-
-#: .es5/scripts/views/settings/devices.js:31
-msgid "Last active: months ago"
-msgstr "آخرین فعالیت: چند ماه قبل"
-
-#: .es5/scripts/views/settings/devices.js:32
-msgid "Last active: seconds ago"
-msgstr "آخرین فعالیت: چند ثانیه قبل"
-
-#: .es5/scripts/views/settings/devices.js:34
-msgid "Last active: weeks ago"
-msgstr "آخرین فعالیت: چند هفته قبل"
-
-#: .es5/scripts/views/settings/devices.js:35
-msgid "Last active: years ago"
-msgstr "آخرین فعالیت: چند سال قبل"
-
 #: .es5/scripts/views/settings/display_name.js:50
 msgid "Display name updated"
 msgstr "نمایش نام به روز شد"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/lib/auth-errors.js:107
+#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/lib/auth-errors.js:108
 msgid "Your account has been locked for security reasons"
 msgstr "حساب شما به دلایل امنیتی قفل شده است"
 
@@ -155,17 +147,21 @@ msgstr "باز کردن Yahoo"
 msgid "Open Outlook"
 msgstr "باز کردن Outlook"
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:21
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:24
 msgid "8 characters minimum, but longer if you plan to sync passwords."
 msgstr "حداقل ۸ کاراکتر، اما بیشتر اگر می‌خواهید گذرواژه‌های خود را همگام‌سازی کنید."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/templates/sign_up.mustache:18
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:25 .es5/scripts/templates/sign_up.mustache:18
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "یک گذرواژه یکتا و قوی می‌توانید اطلاعات فایرفاکس شما را از مزاحمان در امان نگه دارد."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:23
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:26
 msgid "This is a common password; please consider another one."
 msgstr "این یک گذرواژه معمولی است؛ لطفا سعی کنید یکی دیگر انتخاب کنید."
+
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:27
+msgid "This is a common password; please consider another one. %(moreInfoLink)s"
+msgstr ""
 
 #: .es5/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
@@ -177,196 +173,196 @@ msgstr "با موفقیت خارج شد"
 msgid "Unexpected error"
 msgstr "خطای غیرمترقبه"
 
-#: .es5/scripts/lib/auth-errors.js:29 .es5/scripts/lib/oauth-errors.js:50
+#: .es5/scripts/lib/auth-errors.js:20 .es5/scripts/templates/complete_sign_up.mustache:3
+msgid "The link you clicked to verify your email is expired."
+msgstr "پیوندی که برای تایید ایمیل خود روی آن کلیک کردید منقضی شده است."
+
+#: .es5/scripts/lib/auth-errors.js:30 .es5/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
 msgstr "ژتون نامعتبر"
 
-#: .es5/scripts/lib/auth-errors.js:33
+#: .es5/scripts/lib/auth-errors.js:34
 msgid "Invalid timestamp in request signature"
 msgstr "برچسب زمان در امضای درخواست نامعتبر است"
 
-#: .es5/scripts/lib/auth-errors.js:37
+#: .es5/scripts/lib/auth-errors.js:38
 msgid "Invalid nonce in request signature"
 msgstr "مقدار نامعتبر در امضا درخواست"
 
-#: .es5/scripts/lib/auth-errors.js:41
+#: .es5/scripts/lib/auth-errors.js:42
 msgid "Account already exists"
 msgstr "حساب از پیش وجود داشته"
 
-#: .es5/scripts/lib/auth-errors.js:45
+#: .es5/scripts/lib/auth-errors.js:46
 msgid "Unknown account"
 msgstr "حساب ناشناخته"
 
-#: .es5/scripts/lib/auth-errors.js:49
+#: .es5/scripts/lib/auth-errors.js:50
 msgid "Incorrect email case"
 msgstr "بزرگی و کوچکی حروف ایمیل نادرست است"
 
-#: .es5/scripts/lib/auth-errors.js:53
+#: .es5/scripts/lib/auth-errors.js:54
 msgid "Incorrect password"
 msgstr "گذرواژه نادرست است"
 
-#: .es5/scripts/lib/auth-errors.js:57
+#: .es5/scripts/lib/auth-errors.js:58
 msgid "Unverified account"
 msgstr "حساب تایید نشده"
 
-#: .es5/scripts/lib/auth-errors.js:61
+#: .es5/scripts/lib/auth-errors.js:62
 msgid "Invalid verification code"
 msgstr "کد تایید نامعتبر"
 
-#: .es5/scripts/lib/auth-errors.js:65
+#: .es5/scripts/lib/auth-errors.js:66
 msgid "Invalid JSON in request body"
 msgstr "JSON نامعتبر در متن درخواست"
 
-#: .es5/scripts/lib/auth-errors.js:69
+#: .es5/scripts/lib/auth-errors.js:70
 msgid "Invalid parameter: %(param)s"
 msgstr "پارامتر نا معتبر : %(param)s"
 
-#: .es5/scripts/lib/auth-errors.js:73
+#: .es5/scripts/lib/auth-errors.js:74
 msgid "Missing parameter: %(param)s"
 msgstr "پارامتر گم شده: %(param)s"
 
-#: .es5/scripts/lib/auth-errors.js:77
+#: .es5/scripts/lib/auth-errors.js:78
 msgid "Invalid request signature"
 msgstr "امضا درخواست نامعتبر است"
 
-#: .es5/scripts/lib/auth-errors.js:81
+#: .es5/scripts/lib/auth-errors.js:82
 msgid "Missing content-length header"
 msgstr "سرصفحه content-length موجود نیست"
 
-#: .es5/scripts/lib/auth-errors.js:85
+#: .es5/scripts/lib/auth-errors.js:86
 msgid "Request body too large"
 msgstr "متن درخواست بسیار بزرگ است"
 
-#: .es5/scripts/lib/auth-errors.js:89
+#: .es5/scripts/lib/auth-errors.js:90
 msgid "Attempt limit exceeded"
 msgstr "از حداکثر حد درخواست تجاوز کردید"
 
-#: .es5/scripts/lib/auth-errors.js:103
+#: .es5/scripts/lib/auth-errors.js:104
 msgid "The request was blocked for security reasons"
 msgstr "این درخواست بنا بر مسائل امنیتی مسدود شد"
 
-#: .es5/scripts/lib/auth-errors.js:111 .es5/scripts/lib/auth-errors.js:288
+#: .es5/scripts/lib/auth-errors.js:112 .es5/scripts/lib/auth-errors.js:289
 msgid "Server busy, try again soon"
 msgstr "کارگزار مشغول است، کمی بعد مجددا تلاش کنید"
 
-#: .es5/scripts/lib/auth-errors.js:115
+#: .es5/scripts/lib/auth-errors.js:116
 msgid "This endpoint is no longer supported"
 msgstr "از این مقصد دیگر پشتیبانی نمی‌شود"
 
-#: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:75 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
+#: .es5/scripts/lib/auth-errors.js:120 .es5/scripts/lib/config-loader.js:75 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
 #: .es5/scripts/lib/oauth-errors.js:80 .es5/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "سیستم در دسترس نیست، کمی بعد مجددا تلاش کنید"
 
-#: .es5/scripts/lib/auth-errors.js:123 .es5/scripts/lib/oauth-errors.js:104
+#: .es5/scripts/lib/auth-errors.js:124 .es5/scripts/lib/oauth-errors.js:104
 msgid "no message"
 msgstr "بدون پیام"
 
-#: .es5/scripts/lib/auth-errors.js:127
+#: .es5/scripts/lib/auth-errors.js:128
 msgid "Session expired. Sign in to continue."
 msgstr "نشست منقضی شده است. برای ادامه وارد شوید."
 
-#: .es5/scripts/lib/auth-errors.js:131
+#: .es5/scripts/lib/auth-errors.js:132
 msgid "Cookies are still disabled"
 msgstr "کوکی‌ها هنوز غیرفعال هستند"
 
-#: .es5/scripts/lib/auth-errors.js:135
+#: .es5/scripts/lib/auth-errors.js:136
 msgid "Passwords do not match"
 msgstr "گذرواژه‌ها منطبق نیستند"
 
-#: .es5/scripts/lib/auth-errors.js:139
+#: .es5/scripts/lib/auth-errors.js:140
 msgid "Working…"
 msgstr "درحال کار…"
 
-#: .es5/scripts/lib/auth-errors.js:143
+#: .es5/scripts/lib/auth-errors.js:144
 msgid "Could not get Privacy Notice"
 msgstr "امکان دریافت اطلاعیه حریم‌خصوصی نبود"
 
-#: .es5/scripts/lib/auth-errors.js:147
+#: .es5/scripts/lib/auth-errors.js:148
 msgid "Could not get Terms of Service"
 msgstr "امکان دریافت قوانین استفاده از سرویس نبود"
 
-#: .es5/scripts/lib/auth-errors.js:151
+#: .es5/scripts/lib/auth-errors.js:152
 msgid "Your new password must be different"
 msgstr "گذرواژه جدید شما باید متفاوت باشد"
 
-#: .es5/scripts/lib/auth-errors.js:155 .es5/scripts/templates/complete_reset_password.mustache:15 .es5/scripts/templates/settings/change_password.mustache:9
+#: .es5/scripts/lib/auth-errors.js:156 .es5/scripts/templates/complete_reset_password.mustache:15 .es5/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "حداقل باید دارای ۸ حرف باشد"
 
-#: .es5/scripts/lib/auth-errors.js:159
+#: .es5/scripts/lib/auth-errors.js:160
 msgid "Valid password required"
 msgstr "گذرواژه معتبر لازم است"
 
-#: .es5/scripts/lib/auth-errors.js:163 .es5/scripts/lib/auth-errors.js:201 .es5/scripts/lib/auth-errors.js:217
+#: .es5/scripts/lib/auth-errors.js:164 .es5/scripts/lib/auth-errors.js:202 .es5/scripts/lib/auth-errors.js:218
 msgid "Valid email required"
 msgstr "ایمیل معتبر مورد نیاز است"
 
-#: .es5/scripts/lib/auth-errors.js:174
+#: .es5/scripts/lib/auth-errors.js:175
 msgid "A usable image was not found"
 msgstr "تصویر قابل استفاده‌ای پیدا نشد"
 
-#: .es5/scripts/lib/auth-errors.js:178
+#: .es5/scripts/lib/auth-errors.js:179
 msgid "Could not initialize camera"
 msgstr "نمی‌توان دوربین را راه‌اندازی کرد"
 
-#: .es5/scripts/lib/auth-errors.js:182
+#: .es5/scripts/lib/auth-errors.js:183
 msgid "Valid URL required"
 msgstr "آدرس اینترنتی معتبر لازم است"
 
-#: .es5/scripts/lib/auth-errors.js:197
+#: .es5/scripts/lib/auth-errors.js:198
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "ایمیل تایید شما هم‌اکنون مرجوع شد. ایمیل خود را اشتباه تایپ کردید؟"
 
-#: .es5/scripts/lib/auth-errors.js:205
+#: .es5/scripts/lib/auth-errors.js:206
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "یک ایمیل معتبر وارد کنید. firefox.com سرویس ایمیل ارائه نمی‌کند."
 
-#: .es5/scripts/lib/auth-errors.js:213
+#: .es5/scripts/lib/auth-errors.js:214
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "حساب‌های فایرفاکس تنها می‌توانند در یک IFRAME در سایت‌های تایید شده قرار بگیرند"
 
-#: .es5/scripts/lib/auth-errors.js:228 .es5/scripts/templates/complete_sign_up.mustache:3
-msgid "The link you clicked to verify your email is expired."
-msgstr "پیوندی که برای تایید ایمیل خود روی آن کلیک کردید منقضی شده است."
-
-#: .es5/scripts/lib/auth-errors.js:232 .es5/scripts/templates/complete_sign_up.mustache:7
+#: .es5/scripts/lib/auth-errors.js:233 .es5/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "پیوندِ تایید معیوب است"
 
-#: .es5/scripts/lib/auth-errors.js:240
+#: .es5/scripts/lib/auth-errors.js:241
 msgid "The image dimensions must be at least 100x100px"
 msgstr "ابعاد تصویر باید حداقل ۱۰۰×۱۰۰ پیکسل باشد"
 
-#: .es5/scripts/lib/auth-errors.js:244
+#: .es5/scripts/lib/auth-errors.js:245
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "ثبت‌نام به زودی برای فایرفاکس iOS خواهد آمد"
 
-#: .es5/scripts/lib/auth-errors.js:255
+#: .es5/scripts/lib/auth-errors.js:256
 msgid "You must enter your age to sign up"
 msgstr "باید سن خود را وارد کنید تا ثبت‌نام کنید"
 
-#: .es5/scripts/lib/auth-errors.js:259
+#: .es5/scripts/lib/auth-errors.js:260
 msgid "No Gravatar found"
 msgstr "هیچ آواتاری پیدا نشد"
 
-#: .es5/scripts/lib/auth-errors.js:267
+#: .es5/scripts/lib/auth-errors.js:268
 msgid "Account no longer exists."
 msgstr "این حساب دیگر وجود ندارد."
 
-#: .es5/scripts/lib/auth-errors.js:271
+#: .es5/scripts/lib/auth-errors.js:272
 msgid "Invalid property in resume token: %(property)s"
 msgstr "موارد نامعتبر در رزومه نشانه: %(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:275
+#: .es5/scripts/lib/auth-errors.js:276
 msgid "Missing property in resume token: %(property)s"
 msgstr "موارد گم‌شده در رزومه نشانه: %(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:279
+#: .es5/scripts/lib/auth-errors.js:280
 msgid "Invalid data attribute: %(property)s"
 msgstr "متغیر داده نامعتبر: %(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:283
+#: .es5/scripts/lib/auth-errors.js:284
 msgid "Missing data attribute: %(property)s"
 msgstr "متغیر داده ذکر نشده: %(property)s"
 
@@ -439,7 +435,9 @@ msgid "Firefox Sync"
 msgstr "بهنگام‌سازی فایرفاکس"
 
 #: .es5/scripts/lib/strings.js:17
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "با ادامه دادن شما<a id=\"service-tos\" href=\"%(termsUri)s\">شرایط استفاده از سرویس</a>و<a id=\"service-pp\" href=\"%(privacyUri)s\">اطلاعیه‌ی حریم‌خصوصی</a>مربوط به %(serviceName)s "
 "(%(serviceUri)s)را می‌پذیرید."
@@ -529,6 +527,7 @@ msgid "Save settings"
 msgstr "ذخیره تنظیمات"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:16 .es5/scripts/templates/confirm.mustache:13 .es5/scripts/templates/pp.mustache:3 .es5/scripts/templates/tos.mustache:3
+#: .es5/scripts/templates/support/create_secure_password.mustache:2
 msgid "Back"
 msgstr "بازگشت"
 
@@ -575,7 +574,7 @@ msgstr "گذرواژه جدید"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:14 .es5/scripts/templates/complete_reset_password.mustache:17 .es5/scripts/templates/force_auth.mustache:5
 #: .es5/scripts/templates/sign_in.mustache:9 .es5/scripts/templates/sign_in.mustache:21 .es5/scripts/templates/sign_up.mustache:17 .es5/scripts/templates/settings/change_password.mustache:5
-#: .es5/scripts/templates/settings/change_password.mustache:8 .es5/scripts/templates/settings/delete_account.mustache:5 .es5/scripts/templates/settings/devices.mustache:3
+#: .es5/scripts/templates/settings/change_password.mustache:8 .es5/scripts/templates/settings/clients.mustache:2 .es5/scripts/templates/settings/delete_account.mustache:5
 msgid "Show"
 msgstr "نمایش"
 
@@ -631,14 +630,13 @@ msgstr "ایمیل بازنشانی ارسال شد"
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
 msgstr "بر روی پیوندی که برای شما به %(email)s در یک ساعت آینده ارسال می‌شود کلیک کنید تا یک گذرواژه جدید بسازید."
 
-#: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:7
-#: .es5/scripts/templates/reset_password.mustache:9
-msgid "Remember password? Sign in."
-msgstr "به یاد سپردن گذرواژه؟ وارد شوید."
+#: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7
+msgid "Remember password? Sign in"
+msgstr ""
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:9
-msgid "Resend email"
-msgstr "ارسال دوباره ایمیل"
+msgid "Didn’t arrive? Resend"
+msgstr ""
 
 #: .es5/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -766,6 +764,10 @@ msgstr "هنگامی که گذرواژه خود را مجددا تنظیم می�
 msgid "Email"
 msgstr "پست الکترونیکی"
 
+#: .es5/scripts/templates/reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:9
+msgid "Remember password? Sign in."
+msgstr "به یاد سپردن گذرواژه؟ وارد شوید."
+
 #: .es5/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
 msgstr "حساب‌های فایرفاکس"
@@ -795,8 +797,8 @@ msgid "Create a Firefox Account"
 msgstr "ایجاد یک حساب فایرفاکس"
 
 #: .es5/scripts/templates/sign_up.mustache:6
-msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
-msgstr "دنبال همگام‌سازی فایرفاکس می‌گردید؟ <a href=\"https://mozilla.org/firefox/sync\">اینجا شروع کنید.</a>"
+msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+msgstr ""
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -807,16 +809,20 @@ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in
 msgstr "یک حساب با رایانامه متفاوت دارید؟ <a href=\"%(signinUri)s\">وارد شوید</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
-msgid "Send me the monthly Firefox newsletter."
-msgstr "خبرنامه ماهانه فایرفاکس برای من ارسال شود."
+msgid "Receive the monthly Firefox newsletter."
+msgstr ""
 
 #: .es5/scripts/templates/sign_up.mustache:22
 msgid "Create account"
 msgstr "ایجاد حساب کاربری"
 
 #: .es5/scripts/templates/sign_up.mustache:27
-msgid "Have an account? Sign in."
-msgstr "حساب کاربری دارید؟ ثبت ‌نام کنید."
+msgid "Have an account? Sign in"
+msgstr ""
+
+#: .es5/scripts/templates/support/create_secure_password.mustache:1
+msgid "Create secure passwords to keep your identity safe"
+msgstr ""
 
 #: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2
 #: .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/communication_preferences.mustache:4 .es5/scripts/templates/settings/display_name.mustache:2
@@ -848,7 +854,7 @@ msgstr "Gravatar"
 msgid "Clear"
 msgstr "پاک کردن"
 
-#: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/devices.mustache:12
+#: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/clients.mustache:10
 msgid "Done"
 msgstr "انجام شد"
 
@@ -867,6 +873,30 @@ msgstr "هنگامی که کار شما پایان یافت، از گذرواژ�
 #: .es5/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
 msgstr "گذرواژه پیشین"
+
+#: .es5/scripts/templates/settings/clients.mustache:3
+msgid ""
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+"\"%(linkLinux)s\">Linux</a>."
+msgstr ""
+"فایرفاکس برای <a href=\"%(linkWindows)s\">ویندوز</a>، <a href=\"%(linkOSX)s\">OS X</a>، <a href=\"%(linkAndroid)s\">اندروید</a>، <a href=\"%(linkIOS)s\">iOS</a> و <a href=\"%(linkLinux)s\">لینوکس</"
+"a> در دسترس است."
+
+#: .es5/scripts/templates/settings/clients.mustache:4
+msgid "current device"
+msgstr "دستگاه فعلی"
+
+#: .es5/scripts/templates/settings/clients.mustache:6
+msgid "Disconnect"
+msgstr "قطع تماس"
+
+#: .es5/scripts/templates/settings/clients.mustache:8
+msgid "Missing or duplicate items?"
+msgstr ""
+
+#: .es5/scripts/templates/settings/clients.mustache:9
+msgid "Refresh"
+msgstr "نوسازی"
 
 #: .es5/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
@@ -896,38 +926,6 @@ msgstr "حذف"
 msgid "Are you sure you want to delete your account? This action cannot be undone."
 msgstr "آیا مطمئن هستید که می‌خواهید حساب خود را حذف کنید؟ این عمل قابل برگشت نیست."
 
-#: .es5/scripts/templates/settings/devices.mustache:2
-msgid "Devices"
-msgstr "دستگاه‌ها"
-
-#: .es5/scripts/templates/settings/devices.mustache:4
-msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-"href=\"%(linkLinux)s\">Linux</a>."
-msgstr ""
-"فایرفاکس برای <a href=\"%(linkWindows)s\">ویندوز</a>، <a href=\"%(linkOSX)s\">OS X</a>، <a href=\"%(linkAndroid)s\">اندروید</a>، <a href=\"%(linkIOS)s\">iOS</a> و <a "
-"href=\"%(linkLinux)s\">لینوکس</a> در دسترس است."
-
-#: .es5/scripts/templates/settings/devices.mustache:5
-msgid "You can manage your devices below."
-msgstr "شما می‌توانید دستگاه‌های خود را در زیر مدیریت کنید."
-
-#: .es5/scripts/templates/settings/devices.mustache:6
-msgid "current device"
-msgstr "دستگاه فعلی"
-
-#: .es5/scripts/templates/settings/devices.mustache:8
-msgid "Disconnect"
-msgstr "قطع تماس"
-
-#: .es5/scripts/templates/settings/devices.mustache:10
-msgid "Don't see all your devices?"
-msgstr "تمام دستگاه‌های خود را نمی‌بینید؟"
-
-#: .es5/scripts/templates/settings/devices.mustache:11
-msgid "Refresh"
-msgstr "نوسازی"
-
 #: .es5/scripts/templates/settings/display_name.mustache:3
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "انتخاب یک نام دلخواه جهت نمایش در هنگام مدیریت حساب کاربری خود در فایرفاکس."
@@ -951,6 +949,42 @@ msgstr "استفاده از OpenID"
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "استفاده از حساب فایرفاکس"
+
+#~ msgid "Last active: days ago"
+#~ msgstr "آخرین فعالیت: چند روز قبل"
+
+#~ msgid "Last active: hours ago"
+#~ msgstr "آخرین فعالیت: چند ساعت قبل"
+
+#~ msgid "Last active: minutes ago"
+#~ msgstr "آخرین فعالیت: چند دقیق قبل"
+
+#~ msgid "Last active: months ago"
+#~ msgstr "آخرین فعالیت: چند ماه قبل"
+
+#~ msgid "Last active: seconds ago"
+#~ msgstr "آخرین فعالیت: چند ثانیه قبل"
+
+#~ msgid "Last active: weeks ago"
+#~ msgstr "آخرین فعالیت: چند هفته قبل"
+
+#~ msgid "Last active: years ago"
+#~ msgstr "آخرین فعالیت: چند سال قبل"
+
+#~ msgid "Resend email"
+#~ msgstr "ارسال دوباره ایمیل"
+
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
+#~ msgstr "دنبال همگام‌سازی فایرفاکس می‌گردید؟ <a href=\"https://mozilla.org/firefox/sync\">اینجا شروع کنید.</a>"
+
+#~ msgid "Send me the monthly Firefox newsletter."
+#~ msgstr "خبرنامه ماهانه فایرفاکس برای من ارسال شود."
+
+#~ msgid "Have an account? Sign in."
+#~ msgstr "حساب کاربری دارید؟ ثبت ‌نام کنید."
+
+#~ msgid "Don't see all your devices?"
+#~ msgstr "تمام دستگاه‌های خود را نمی‌بینید؟"
 
 #~ msgid "days ago"
 #~ msgstr "روز قبل"

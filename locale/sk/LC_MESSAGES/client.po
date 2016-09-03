@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-09 14:02+0000\n"
+"POT-Creation-Date: 2016-09-03 14:58+0000\n"
 "PO-Revision-Date: 2016-08-12 21:38+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,6 +87,26 @@ msgstr "So súhlasom <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgid "Password changed successfully"
 msgstr "Heslo bolo úspešne zmenené"
 
+#: .es5/scripts/views/settings/clients.js:53
+msgid "Last active: %(translatedTimeAgo)s"
+msgstr ""
+
+#: .es5/scripts/views/settings/clients.js:90
+msgid "Devices"
+msgstr "Zariadenia"
+
+#: .es5/scripts/views/settings/clients.js:93
+msgid "Devices & apps"
+msgstr ""
+
+#: .es5/scripts/views/settings/clients.js:100
+msgid "You can manage your devices below."
+msgstr "Nižšie môžete spravovať svoje zariadenia."
+
+#: .es5/scripts/views/settings/clients.js:103
+msgid "You can manage your devices and apps below."
+msgstr ""
+
 #: .es5/scripts/views/settings/communication_preferences.js:111
 msgid "Subscribed successfully"
 msgstr "Prihlásenie bolo úspešné"
@@ -99,39 +119,11 @@ msgstr "Odhlásenie bolo úspešné"
 msgid "Account deleted successfully"
 msgstr "Účet bol úspešne odstránený"
 
-#: .es5/scripts/views/settings/devices.js:28
-msgid "Last active: days ago"
-msgstr "Posledná aktivita: pred niekoľkými dňami"
-
-#: .es5/scripts/views/settings/devices.js:29
-msgid "Last active: hours ago"
-msgstr "Posledná aktivita: pred niekoľkými hodinami"
-
-#: .es5/scripts/views/settings/devices.js:30
-msgid "Last active: minutes ago"
-msgstr "Posledná aktivita: pred niekoľkými minútami"
-
-#: .es5/scripts/views/settings/devices.js:31
-msgid "Last active: months ago"
-msgstr "Posledná aktivita: pred niekoľkými mesiacmi"
-
-#: .es5/scripts/views/settings/devices.js:32
-msgid "Last active: seconds ago"
-msgstr "Posledná aktivita: pred niekoľkými sekundami"
-
-#: .es5/scripts/views/settings/devices.js:34
-msgid "Last active: weeks ago"
-msgstr "Posledná aktivita: pred niekoľkými týždňami"
-
-#: .es5/scripts/views/settings/devices.js:35
-msgid "Last active: years ago"
-msgstr "Posledná aktivita: pred niekoľkými rokmi"
-
 #: .es5/scripts/views/settings/display_name.js:50
 msgid "Display name updated"
 msgstr "Zobrazované meno aktualizované"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/lib/auth-errors.js:107
+#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/lib/auth-errors.js:108
 msgid "Your account has been locked for security reasons"
 msgstr "Váš účet bol z bezpečnostných dôvodov uzamknutý"
 
@@ -155,17 +147,21 @@ msgstr "Otvoriť Yahoo"
 msgid "Open Outlook"
 msgstr "Otvoriť Outlook"
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:21
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:24
 msgid "8 characters minimum, but longer if you plan to sync passwords."
 msgstr "Minimum je 8 znakov; dlhšie heslo je nutné v prípade, že plánujete synchronizovať heslá."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/templates/sign_up.mustache:18
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:25 .es5/scripts/templates/sign_up.mustache:18
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "Silné a jedinečné heslo ochráni vaše údaje pred narušiteľmi."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:23
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:26
 msgid "This is a common password; please consider another one."
 msgstr "Toto je bežné heslo. Zvážte použitie iného."
+
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:27
+msgid "This is a common password; please consider another one. %(moreInfoLink)s"
+msgstr ""
 
 #: .es5/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
@@ -177,196 +173,196 @@ msgstr "Odhlásenie bolo úspešné"
 msgid "Unexpected error"
 msgstr "Neočakávaná chyba"
 
-#: .es5/scripts/lib/auth-errors.js:29 .es5/scripts/lib/oauth-errors.js:50
+#: .es5/scripts/lib/auth-errors.js:20 .es5/scripts/templates/complete_sign_up.mustache:3
+msgid "The link you clicked to verify your email is expired."
+msgstr "Platnosť odkazu, na ktorý ste klikli s cieľom obnoviť heslo, už vypršala."
+
+#: .es5/scripts/lib/auth-errors.js:30 .es5/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
 msgstr "Neplatný token"
 
-#: .es5/scripts/lib/auth-errors.js:33
+#: .es5/scripts/lib/auth-errors.js:34
 msgid "Invalid timestamp in request signature"
 msgstr "Neplatná časová známka v podpise požiadavky"
 
-#: .es5/scripts/lib/auth-errors.js:37
+#: .es5/scripts/lib/auth-errors.js:38
 msgid "Invalid nonce in request signature"
 msgstr "Neplatné číslo nonce v podpise požiadavky"
 
-#: .es5/scripts/lib/auth-errors.js:41
+#: .es5/scripts/lib/auth-errors.js:42
 msgid "Account already exists"
 msgstr "Účet už existuje"
 
-#: .es5/scripts/lib/auth-errors.js:45
+#: .es5/scripts/lib/auth-errors.js:46
 msgid "Unknown account"
 msgstr "Neznámy účet"
 
-#: .es5/scripts/lib/auth-errors.js:49
+#: .es5/scripts/lib/auth-errors.js:50
 msgid "Incorrect email case"
 msgstr "Neplatný tvar e-mailovej adresy"
 
-#: .es5/scripts/lib/auth-errors.js:53
+#: .es5/scripts/lib/auth-errors.js:54
 msgid "Incorrect password"
 msgstr "Neplatné heslo"
 
-#: .es5/scripts/lib/auth-errors.js:57
+#: .es5/scripts/lib/auth-errors.js:58
 msgid "Unverified account"
 msgstr "Neoverený účet"
 
-#: .es5/scripts/lib/auth-errors.js:61
+#: .es5/scripts/lib/auth-errors.js:62
 msgid "Invalid verification code"
 msgstr "Neplatný overovací kód"
 
-#: .es5/scripts/lib/auth-errors.js:65
+#: .es5/scripts/lib/auth-errors.js:66
 msgid "Invalid JSON in request body"
 msgstr "Neplatný kód JSON v tele požiadavky"
 
-#: .es5/scripts/lib/auth-errors.js:69
+#: .es5/scripts/lib/auth-errors.js:70
 msgid "Invalid parameter: %(param)s"
 msgstr "Neplatný parameter: %(param)s"
 
-#: .es5/scripts/lib/auth-errors.js:73
+#: .es5/scripts/lib/auth-errors.js:74
 msgid "Missing parameter: %(param)s"
 msgstr "Chýbajúci parameter: %(param)s"
 
-#: .es5/scripts/lib/auth-errors.js:77
+#: .es5/scripts/lib/auth-errors.js:78
 msgid "Invalid request signature"
 msgstr "Neplatný podpis požiadavky"
 
-#: .es5/scripts/lib/auth-errors.js:81
+#: .es5/scripts/lib/auth-errors.js:82
 msgid "Missing content-length header"
 msgstr "Chýbajúca hlavička content-length"
 
-#: .es5/scripts/lib/auth-errors.js:85
+#: .es5/scripts/lib/auth-errors.js:86
 msgid "Request body too large"
 msgstr "Telo požiadavky je príliš veľké"
 
-#: .es5/scripts/lib/auth-errors.js:89
+#: .es5/scripts/lib/auth-errors.js:90
 msgid "Attempt limit exceeded"
 msgstr "Bol prekročený počet možných pokusov"
 
-#: .es5/scripts/lib/auth-errors.js:103
+#: .es5/scripts/lib/auth-errors.js:104
 msgid "The request was blocked for security reasons"
 msgstr "Z bezpečnostných dôvodov bola požiadavka zablokovaná"
 
-#: .es5/scripts/lib/auth-errors.js:111 .es5/scripts/lib/auth-errors.js:288
+#: .es5/scripts/lib/auth-errors.js:112 .es5/scripts/lib/auth-errors.js:289
 msgid "Server busy, try again soon"
 msgstr "Server je zaneprázdnený, skúste to znova neskôr."
 
-#: .es5/scripts/lib/auth-errors.js:115
+#: .es5/scripts/lib/auth-errors.js:116
 msgid "This endpoint is no longer supported"
 msgstr "Tento koncový bod už nie je podporovaný"
 
-#: .es5/scripts/lib/auth-errors.js:119 .es5/scripts/lib/config-loader.js:75 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
+#: .es5/scripts/lib/auth-errors.js:120 .es5/scripts/lib/config-loader.js:75 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
 #: .es5/scripts/lib/oauth-errors.js:80 .es5/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Systém nie je dostupný, skúste to znova neskôr."
 
-#: .es5/scripts/lib/auth-errors.js:123 .es5/scripts/lib/oauth-errors.js:104
+#: .es5/scripts/lib/auth-errors.js:124 .es5/scripts/lib/oauth-errors.js:104
 msgid "no message"
 msgstr "žiadna správa"
 
-#: .es5/scripts/lib/auth-errors.js:127
+#: .es5/scripts/lib/auth-errors.js:128
 msgid "Session expired. Sign in to continue."
 msgstr "Čas relácie vypršal. Ak chcete pokračovať, prihláste sa."
 
-#: .es5/scripts/lib/auth-errors.js:131
+#: .es5/scripts/lib/auth-errors.js:132
 msgid "Cookies are still disabled"
 msgstr "Cookies sú stále zakázané"
 
-#: .es5/scripts/lib/auth-errors.js:135
+#: .es5/scripts/lib/auth-errors.js:136
 msgid "Passwords do not match"
 msgstr "Heslá sa nezhodujú"
 
-#: .es5/scripts/lib/auth-errors.js:139
+#: .es5/scripts/lib/auth-errors.js:140
 msgid "Working…"
 msgstr "Prebieha…"
 
-#: .es5/scripts/lib/auth-errors.js:143
+#: .es5/scripts/lib/auth-errors.js:144
 msgid "Could not get Privacy Notice"
 msgstr "Nebolo možné získať Zásady ochrany osobných údajov"
 
-#: .es5/scripts/lib/auth-errors.js:147
+#: .es5/scripts/lib/auth-errors.js:148
 msgid "Could not get Terms of Service"
 msgstr "Nebolo možné získať Podmienky používania služby"
 
-#: .es5/scripts/lib/auth-errors.js:151
+#: .es5/scripts/lib/auth-errors.js:152
 msgid "Your new password must be different"
 msgstr "Staré a nové heslo sa musia líšiť"
 
-#: .es5/scripts/lib/auth-errors.js:155 .es5/scripts/templates/complete_reset_password.mustache:15 .es5/scripts/templates/settings/change_password.mustache:9
+#: .es5/scripts/lib/auth-errors.js:156 .es5/scripts/templates/complete_reset_password.mustache:15 .es5/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "Minimálny počet znakov: 8"
 
-#: .es5/scripts/lib/auth-errors.js:159
+#: .es5/scripts/lib/auth-errors.js:160
 msgid "Valid password required"
 msgstr "Vyžaduje sa zadanie platného hesla"
 
-#: .es5/scripts/lib/auth-errors.js:163 .es5/scripts/lib/auth-errors.js:201 .es5/scripts/lib/auth-errors.js:217
+#: .es5/scripts/lib/auth-errors.js:164 .es5/scripts/lib/auth-errors.js:202 .es5/scripts/lib/auth-errors.js:218
 msgid "Valid email required"
 msgstr "Vyžaduje sa platná e-mailová adresa"
 
-#: .es5/scripts/lib/auth-errors.js:174
+#: .es5/scripts/lib/auth-errors.js:175
 msgid "A usable image was not found"
 msgstr "Nebol nájdený žiadny vhodný obrázok"
 
-#: .es5/scripts/lib/auth-errors.js:178
+#: .es5/scripts/lib/auth-errors.js:179
 msgid "Could not initialize camera"
 msgstr "Nepodarilo sa aktivovať fotoaparát"
 
-#: .es5/scripts/lib/auth-errors.js:182
+#: .es5/scripts/lib/auth-errors.js:183
 msgid "Valid URL required"
 msgstr "Vyžaduje sa platná URL adresa"
 
-#: .es5/scripts/lib/auth-errors.js:197
+#: .es5/scripts/lib/auth-errors.js:198
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "E-mailová správa pre overenie sa vrátila. Zadali ste adresu správne?"
 
-#: .es5/scripts/lib/auth-errors.js:205
+#: .es5/scripts/lib/auth-errors.js:206
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Zadajte platnú e-mailovú adresu. firefox.com e-mailové adresy neposkytuje."
 
-#: .es5/scripts/lib/auth-errors.js:213
+#: .es5/scripts/lib/auth-errors.js:214
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Účet Firefox môže byť umiestnený len do IFRAME na schválených stránkach"
 
-#: .es5/scripts/lib/auth-errors.js:228 .es5/scripts/templates/complete_sign_up.mustache:3
-msgid "The link you clicked to verify your email is expired."
-msgstr "Platnosť odkazu, na ktorý ste klikli s cieľom obnoviť heslo, už vypršala."
-
-#: .es5/scripts/lib/auth-errors.js:232 .es5/scripts/templates/complete_sign_up.mustache:7
+#: .es5/scripts/lib/auth-errors.js:233 .es5/scripts/templates/complete_sign_up.mustache:7
 msgid "Verification link damaged"
 msgstr "Overovací odkaz je poškodený"
 
-#: .es5/scripts/lib/auth-errors.js:240
+#: .es5/scripts/lib/auth-errors.js:241
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Rozmery obrázka musia byť minimálne 100x100px"
 
-#: .es5/scripts/lib/auth-errors.js:244
+#: .es5/scripts/lib/auth-errors.js:245
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Prihlásenie s Firefox pre iOS už čoskoro"
 
-#: .es5/scripts/lib/auth-errors.js:255
+#: .es5/scripts/lib/auth-errors.js:256
 msgid "You must enter your age to sign up"
 msgstr "Pre prihlásenie musíte zadať váš vek"
 
-#: .es5/scripts/lib/auth-errors.js:259
+#: .es5/scripts/lib/auth-errors.js:260
 msgid "No Gravatar found"
 msgstr "Nenájdený žiadny Gravatar"
 
-#: .es5/scripts/lib/auth-errors.js:267
+#: .es5/scripts/lib/auth-errors.js:268
 msgid "Account no longer exists."
 msgstr "Účet už dlhšiu dobu neexistuje."
 
-#: .es5/scripts/lib/auth-errors.js:271
+#: .es5/scripts/lib/auth-errors.js:272
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Neplatná vlastnosť v tokene pre pokračovanie: %(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:275
+#: .es5/scripts/lib/auth-errors.js:276
 msgid "Missing property in resume token: %(property)s"
 msgstr "Chýbajúca vlastnosť v tokene pre pokračovanie: %(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:279
+#: .es5/scripts/lib/auth-errors.js:280
 msgid "Invalid data attribute: %(property)s"
 msgstr "Neplatný dátový atribút: %(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:283
+#: .es5/scripts/lib/auth-errors.js:284
 msgid "Missing data attribute: %(property)s"
 msgstr "Chýbajúci dátový atribút: %(property)s"
 
@@ -439,7 +435,9 @@ msgid "Firefox Sync"
 msgstr "Služba Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:17
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Pokračovaním súhlasíte s <a id=\"service-tos\" href=\"%(termsUri)s\">Podmienkami využívania služby</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">Zásadami o ochrane osobných údajov</a> "
 "%(serviceName)s (%(serviceUri)s)."
@@ -529,6 +527,7 @@ msgid "Save settings"
 msgstr "Uložiť nastavenia"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:16 .es5/scripts/templates/confirm.mustache:13 .es5/scripts/templates/pp.mustache:3 .es5/scripts/templates/tos.mustache:3
+#: .es5/scripts/templates/support/create_secure_password.mustache:2
 msgid "Back"
 msgstr "Naspäť"
 
@@ -575,7 +574,7 @@ msgstr "Nové heslo"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:14 .es5/scripts/templates/complete_reset_password.mustache:17 .es5/scripts/templates/force_auth.mustache:5
 #: .es5/scripts/templates/sign_in.mustache:9 .es5/scripts/templates/sign_in.mustache:21 .es5/scripts/templates/sign_up.mustache:17 .es5/scripts/templates/settings/change_password.mustache:5
-#: .es5/scripts/templates/settings/change_password.mustache:8 .es5/scripts/templates/settings/delete_account.mustache:5 .es5/scripts/templates/settings/devices.mustache:3
+#: .es5/scripts/templates/settings/change_password.mustache:8 .es5/scripts/templates/settings/clients.mustache:2 .es5/scripts/templates/settings/delete_account.mustache:5
 msgid "Show"
 msgstr "Zobraziť"
 
@@ -631,14 +630,13 @@ msgstr "E-mailová správa na obnovu hesla bola odoslaná"
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
 msgstr "Pre vytvorenie nového hesla, najneskôr do jednej hodiny kliknite na odkaz, ktorý sme vám poslali e-mailom na adresu %(email)s."
 
-#: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:7
-#: .es5/scripts/templates/reset_password.mustache:9
-msgid "Remember password? Sign in."
-msgstr "Zapamätať heslo? Prihlásiť."
+#: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7
+msgid "Remember password? Sign in"
+msgstr ""
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:9
-msgid "Resend email"
-msgstr "Znova odoslať"
+msgid "Didn’t arrive? Resend"
+msgstr ""
 
 #: .es5/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -676,7 +674,9 @@ msgstr "Zabudli ste heslo?"
 
 #: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Pokračovaním súhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmienkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Podmienkami ochrany osobných údajov</a> cloudových služieb Firefoxu."
+msgstr ""
+"Pokračovaním súhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmienkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Podmienkami ochrany osobných údajov</a> cloudových služieb "
+"Firefoxu."
 
 #: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -766,6 +766,10 @@ msgstr "Ak obnovíte svoje heslo, stratíte údaje v službe Sync, ktoré nie s�
 msgid "Email"
 msgstr "E-mailová adresa"
 
+#: .es5/scripts/templates/reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:9
+msgid "Remember password? Sign in."
+msgstr "Zapamätať heslo? Prihlásiť."
+
 #: .es5/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
 msgstr "Účty Firefox Account"
@@ -795,8 +799,8 @@ msgid "Create a Firefox Account"
 msgstr "Vytvorenie účtu Firefox Account"
 
 #: .es5/scripts/templates/sign_up.mustache:6
-msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
-msgstr "Hľadáte Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Začnite tu.</a>"
+msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+msgstr ""
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -807,16 +811,20 @@ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in
 msgstr "Máte účet s inou e-mailovou adresou? <a href=\"%(signinUri)s\">Prihláste sa</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
-msgid "Send me the monthly Firefox newsletter."
-msgstr "Posielajte mi mesačník Firefoxu."
+msgid "Receive the monthly Firefox newsletter."
+msgstr ""
 
 #: .es5/scripts/templates/sign_up.mustache:22
 msgid "Create account"
 msgstr "Vytvoriť účet"
 
 #: .es5/scripts/templates/sign_up.mustache:27
-msgid "Have an account? Sign in."
-msgstr "Máte už účet? Prihláste sa."
+msgid "Have an account? Sign in"
+msgstr ""
+
+#: .es5/scripts/templates/support/create_secure_password.mustache:1
+msgid "Create secure passwords to keep your identity safe"
+msgstr ""
 
 #: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2
 #: .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/communication_preferences.mustache:4 .es5/scripts/templates/settings/display_name.mustache:2
@@ -848,7 +856,7 @@ msgstr "Gravatar"
 msgid "Clear"
 msgstr "Vyčistiť"
 
-#: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/devices.mustache:12
+#: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/clients.mustache:10
 msgid "Done"
 msgstr "Hotovo"
 
@@ -867,6 +875,30 @@ msgstr "Keď skončíte, použite nové heslo na prihlásenie všetkých svojich
 #: .es5/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
 msgstr "Staré heslo"
+
+#: .es5/scripts/templates/settings/clients.mustache:3
+msgid ""
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+"\"%(linkLinux)s\">Linux</a>."
+msgstr ""
+"Firefox je k dispozícii pre <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a href="
+"\"%(linkLinux)s\">Linux</a>."
+
+#: .es5/scripts/templates/settings/clients.mustache:4
+msgid "current device"
+msgstr "aktuálne zariadenie"
+
+#: .es5/scripts/templates/settings/clients.mustache:6
+msgid "Disconnect"
+msgstr "Odpojiť"
+
+#: .es5/scripts/templates/settings/clients.mustache:8
+msgid "Missing or duplicate items?"
+msgstr ""
+
+#: .es5/scripts/templates/settings/clients.mustache:9
+msgid "Refresh"
+msgstr "Obnoviť"
 
 #: .es5/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
@@ -896,38 +928,6 @@ msgstr "Odstrániť"
 msgid "Are you sure you want to delete your account? This action cannot be undone."
 msgstr "Naozaj chcete odstrániť svoj účet? Akciu nie je možné vrátiť späť."
 
-#: .es5/scripts/templates/settings/devices.mustache:2
-msgid "Devices"
-msgstr "Zariadenia"
-
-#: .es5/scripts/templates/settings/devices.mustache:4
-msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-"href=\"%(linkLinux)s\">Linux</a>."
-msgstr ""
-"Firefox je k dispozícii pre <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a "
-"href=\"%(linkLinux)s\">Linux</a>."
-
-#: .es5/scripts/templates/settings/devices.mustache:5
-msgid "You can manage your devices below."
-msgstr "Nižšie môžete spravovať svoje zariadenia."
-
-#: .es5/scripts/templates/settings/devices.mustache:6
-msgid "current device"
-msgstr "aktuálne zariadenie"
-
-#: .es5/scripts/templates/settings/devices.mustache:8
-msgid "Disconnect"
-msgstr "Odpojiť"
-
-#: .es5/scripts/templates/settings/devices.mustache:10
-msgid "Don't see all your devices?"
-msgstr "Nevidíte všetky svoje zariadenia?"
-
-#: .es5/scripts/templates/settings/devices.mustache:11
-msgid "Refresh"
-msgstr "Obnoviť"
-
 #: .es5/scripts/templates/settings/display_name.mustache:3
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Nastavte si meno, ktoré chcete, aby sa zobrazovalo vo Firefoxe pri správe vášho účtu."
@@ -951,6 +951,42 @@ msgstr "Použiť OpenID"
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Použiť konto Firefox Account"
+
+#~ msgid "Last active: days ago"
+#~ msgstr "Posledná aktivita: pred niekoľkými dňami"
+
+#~ msgid "Last active: hours ago"
+#~ msgstr "Posledná aktivita: pred niekoľkými hodinami"
+
+#~ msgid "Last active: minutes ago"
+#~ msgstr "Posledná aktivita: pred niekoľkými minútami"
+
+#~ msgid "Last active: months ago"
+#~ msgstr "Posledná aktivita: pred niekoľkými mesiacmi"
+
+#~ msgid "Last active: seconds ago"
+#~ msgstr "Posledná aktivita: pred niekoľkými sekundami"
+
+#~ msgid "Last active: weeks ago"
+#~ msgstr "Posledná aktivita: pred niekoľkými týždňami"
+
+#~ msgid "Last active: years ago"
+#~ msgstr "Posledná aktivita: pred niekoľkými rokmi"
+
+#~ msgid "Resend email"
+#~ msgstr "Znova odoslať"
+
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
+#~ msgstr "Hľadáte Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Začnite tu.</a>"
+
+#~ msgid "Send me the monthly Firefox newsletter."
+#~ msgstr "Posielajte mi mesačník Firefoxu."
+
+#~ msgid "Have an account? Sign in."
+#~ msgstr "Máte už účet? Prihláste sa."
+
+#~ msgid "Don't see all your devices?"
+#~ msgstr "Nevidíte všetky svoje zariadenia?"
 
 #~ msgid "days ago"
 #~ msgstr "dní naspäť"
@@ -1082,8 +1118,8 @@ msgstr "Použiť konto Firefox Account"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Služba Firefox Accounts vyžaduje povolené cookies v vašom prehliadači. Cookies sú malé kúsky a údajmi uložené v prehliadači, ktoré poskytujú funkcionalitu, ako napr. zapamätanie si prihlásenia medzi"
-#~ " reláciami."
+#~ "Služba Firefox Accounts vyžaduje povolené cookies v vašom prehliadači. Cookies sú malé kúsky a údajmi uložené v prehliadači, ktoré poskytujú funkcionalitu, ako napr. zapamätanie si prihlásenia "
+#~ "medzi reláciami."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox prichádza na iOS!"
@@ -1229,13 +1265,17 @@ msgstr "Použiť konto Firefox Account"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Už máte účet? Prihláste sa."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
 #~ "Pokračovaním súhlasíte s <a id=\"service-tos\" href=\"%(termsUri)s\">Podmienkami služby</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">Zásadami o ochrane osobných údajov</a> %(serviceName)s "
 #~ "(%(serviceUri)s)."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Pokračovaním súhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmienkami používania služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Zásadami ochrany súkromia</a> cloudových služieb Firefoxu."
+#~ msgstr ""
+#~ "Pokračovaním súhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmienkami používania služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Zásadami ochrany súkromia</a> cloudových služieb "
+#~ "Firefoxu."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Prihláste sa k odberu noviniek a tipov pre Firefox"

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-09 14:02+0000\n"
+"POT-Creation-Date: 2016-09-03 14:58+0000\n"
 "PO-Revision-Date: 2016-08-10 16:01+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,13 +28,13 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Rydych wedi cysylltu eich dyfais cyntaf yn llwyddiannus i'ch Cyfrif Firefox. Nawr mae modd chi fewngofnodi i Sync o'ch dyfeisiau eraill, gan gynnwys Firefox <a href='%(androidUrl)s'>Android</a> a <a"
-" href='%(iosUrl)s'>iOS</a>."
+"Rydych wedi cysylltu eich dyfais cyntaf yn llwyddiannus i'ch Cyfrif Firefox. Nawr mae modd chi fewngofnodi i Sync o'ch dyfeisiau eraill, gan gynnwys Firefox <a href='%(androidUrl)s'>Android</a> a "
+"<a href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
 "Rydych wedi cysylltu eich dyfais cyntaf yn llwyddiannus i'ch Cyfrif Firefox. I wneud y gorau o Sync, cysylltwch ag unrhyw <a href='%(androidUrl)s'>Firefox  Android</a> neu <a "
 "href='%(iosUrl)s'>Firefox iOS</a>."
@@ -79,8 +79,8 @@ msgid "Mozilla Privacy Policy"
 msgstr "Polisi Preifatrwydd Mozilla"
 
 #: templates/new_device_login.txt:3
-msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr "E-bost awtomatig yw hwn; os nad ydych wedi ychwanegu dyfais newydd i'ch Cyfrif Firefox, dylech newid eich cyfrinair yn syth yn %(passwordChangeLink)s"
+msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+msgstr ""
 
 #: templates/new_device_login.txt:4 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5
@@ -240,8 +240,8 @@ msgstr "Helo eto."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-" email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+"this email address to activate your account."
 msgstr ""
 "Ychydig ddyddiau'n ôl, roeddech wedi creu Cyfrif Firefox ond heb ei wirio. Mae cyfrif wedi ei wirio'n caniatáu i chi gael mynediad at eich tabiau, nodau tudalen, cyfrineiriau a hanes ar unrhyw "
 "ddyfais sydd wedi cysylltu iddo. Cadarnhewch y cyfeiriad e-bost hwn i wirio eich cyfrif."
@@ -381,6 +381,9 @@ msgstr "Gwasanaethau cwmwl Firefox"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Amodau Gwasanaeth"
+
+#~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "E-bost awtomatig yw hwn; os nad ydych wedi ychwanegu dyfais newydd i'ch Cyfrif Firefox, dylech newid eich cyfrinair yn syth yn %(passwordChangeLink)s"
 
 #~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(resetLink)s."
 #~ msgstr "E-bost awtomatig yw hwn: os nad ydych wedi ychwanegu dyfais i'ch Cyfrif Firefox, dylech newid eich cyfrinair ar unwaith yn %(resetLink)s."

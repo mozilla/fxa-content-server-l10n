@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-09 14:02+0000\n"
+"POT-Creation-Date: 2016-09-03 14:58+0000\n"
 "PO-Revision-Date: 2016-08-11 13:03+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,11 +32,11 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
-"Успешно сте повезали први уређај на Firefox налог. Да максимално искористите Sync, повежите се са било којим <a href='%(androidUrl)s'>Firefox за Android</a> или <a href='%(iosUrl)s'>Firefox за "
-"iOS</a>."
+"Успешно сте повезали први уређај на Firefox налог. Да максимално искористите Sync, повежите се са било којим <a href='%(androidUrl)s'>Firefox за Android</a> или <a href='%(iosUrl)s'>Firefox за iOS</"
+"a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -78,8 +78,8 @@ msgid "Mozilla Privacy Policy"
 msgstr "Mozilla полиса приватности"
 
 #: templates/new_device_login.txt:3
-msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr "Ово је аутоматска е-пошта; Уколико нисте додали нови уређај на ваш Firefox налог, требало би одмах да промените вашу лозинку на %(passwordChangeLink)s"
+msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+msgstr ""
 
 #: templates/new_device_login.txt:4 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5
@@ -236,8 +236,8 @@ msgstr "Поздрав."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-" email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+"this email address to activate your account."
 msgstr ""
 "Направили сте Firefox налог, али га нисте потврдили. Потврђен налог вам омогућава да приступите вашим језичцима, забелешкама, лозинкама и историји претраге на повезаном уређају. Једноставно "
 "потврдите ову адресу е-поште да активирате налог."
@@ -378,6 +378,9 @@ msgstr "Firefox cloud сервиси"
 msgid "Terms of Service"
 msgstr "Услови коришћења"
 
+#~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "Ово је аутоматска е-пошта; Уколико нисте додали нови уређај на ваш Firefox налог, требало би одмах да промените вашу лозинку на %(passwordChangeLink)s"
+
 #~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(resetLink)s."
 #~ msgstr "Ово је аутоматска порука; ако нисте додали нови уређај на Firefox налог, треба одмах да промените лозинку на %(resetLink)s."
 
@@ -415,8 +418,8 @@ msgstr "Услови коришћења"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Направили сте Firefox налог пре недељу дана, али га нисте потврдили. Забринути смо за вас. Firefox је доступан на Windows, Mac, Linux, Android и iOS. Можете синхронизовати Firefox лозинке, забелешке"
-#~ " и историју претраге на свим уређајима. Потврдите ову адресу е-поште да активирате налог и да нам кажете да сте ок."
+#~ "Направили сте Firefox налог пре недељу дана, али га нисте потврдили. Забринути смо за вас. Firefox је доступан на Windows, Mac, Linux, Android и iOS. Можете синхронизовати Firefox лозинке, "
+#~ "забелешке и историју претраге на свим уређајима. Потврдите ову адресу е-поште да активирате налог и да нам кажете да сте ок."
 
 #~ msgid "env"
 #~ msgstr "env"
