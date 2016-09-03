@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-03 14:58+0000\n"
-"PO-Revision-Date: 2016-08-10 20:58+0000\n"
+"PO-Revision-Date: 2016-09-03 19:29+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -89,7 +89,7 @@ msgstr "Hesło je so wuspěšnje změniło"
 
 #: .es5/scripts/views/settings/clients.js:53
 msgid "Last active: %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Posledni raz aktiwny: %(translatedTimeAgo)s"
 
 #: .es5/scripts/views/settings/clients.js:90
 msgid "Devices"
@@ -97,7 +97,7 @@ msgstr "Graty"
 
 #: .es5/scripts/views/settings/clients.js:93
 msgid "Devices & apps"
-msgstr ""
+msgstr "Graty a nałoženja"
 
 #: .es5/scripts/views/settings/clients.js:100
 msgid "You can manage your devices below."
@@ -105,7 +105,7 @@ msgstr "Móžeće swoje graty deleka rjadować."
 
 #: .es5/scripts/views/settings/clients.js:103
 msgid "You can manage your devices and apps below."
-msgstr ""
+msgstr "Móžeće swoje graty a nałoženja deleka rjadować."
 
 #: .es5/scripts/views/settings/communication_preferences.js:111
 msgid "Subscribed successfully"
@@ -161,7 +161,7 @@ msgstr "To je huste hesło: Prošu wubjerće druhe."
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:27
 msgid "This is a common password; please consider another one. %(moreInfoLink)s"
-msgstr ""
+msgstr "To je časte hesło: prošu wubjerće druhe. %(moreInfoLink)s"
 
 #: .es5/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
@@ -435,9 +435,7 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:17
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Přez to, zo pokročujeće, zwoliće do <a id=\"service-tos\" href=\"%(termsUri)s\">wužiwanskich wuměnjenjow</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">prawidłow priwatnosće</a> %(serviceName)s "
 "(%(serviceUri)s)."
@@ -632,11 +630,11 @@ msgstr "Klikńće na wotkaz, kotryž smy wam přez e-mejl %(email)s pósłali, w
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "Dopominaće so na hesło? Přizjewće so"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:9
 msgid "Didn’t arrive? Resend"
-msgstr ""
+msgstr "Njeje dóšło? Znowa słać"
 
 #: .es5/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -674,9 +672,7 @@ msgstr "Sće hesło zabył?"
 
 #: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr ""
-"Přez to, zo pokročujeće, zwoliće do <a id=\"fxa-tos\" href=\"/legal/terms\">wužiwanskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">prawidłow priwatnosće</a> mróčelowych słužbow "
-"Firefox."
+msgstr "Přez to, zo pokročujeće, zwoliće do <a id=\"fxa-tos\" href=\"/legal/terms\">wužiwanskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">prawidłow priwatnosće</a> mróčelowych słužbow Firefox."
 
 #: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -800,7 +796,7 @@ msgstr "Konto Firefox załožić"
 
 #: .es5/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-msgstr ""
+msgstr "Pytaće Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Započńće tu</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -812,7 +808,7 @@ msgstr "Maće konto z druhej e-mejlowej adresu? <a href=\"%(signinUri)s\">Přizj
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
-msgstr ""
+msgstr "Dóstańće měsačny powěsćowy list Firefox."
 
 #: .es5/scripts/templates/sign_up.mustache:22
 msgid "Create account"
@@ -820,11 +816,11 @@ msgstr "Konto załožić"
 
 #: .es5/scripts/templates/sign_up.mustache:27
 msgid "Have an account? Sign in"
-msgstr ""
+msgstr "Maće konto? Přizjewće so"
 
 #: .es5/scripts/templates/support/create_secure_password.mustache:1
 msgid "Create secure passwords to keep your identity safe"
-msgstr ""
+msgstr "Wutworće wěste hesła, zo byšće swoju identitu škitał"
 
 #: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2
 #: .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/communication_preferences.mustache:4 .es5/scripts/templates/settings/display_name.mustache:2
@@ -878,11 +874,11 @@ msgstr "Stare hesło"
 
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox je za <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a href=\"%(linkLinux)s\">Linux</"
-"a> k dispoziciji."
+"Firefox je za <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a "
+"href=\"%(linkLinux)s\">Linux</a> k dispoziciji."
 
 #: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
@@ -894,7 +890,7 @@ msgstr "Zwisk dźělić"
 
 #: .es5/scripts/templates/settings/clients.mustache:8
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "Falowace abo dwójne elementy?"
 
 #: .es5/scripts/templates/settings/clients.mustache:9
 msgid "Refresh"
@@ -1032,8 +1028,7 @@ msgstr "Konto Firefox wužiwać"
 
 #~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
 #~ msgstr ""
-#~ "Waše konto je so z wěstotnych přičinow zawrěło. Zo byšće aktiwity ze swojim kontom přewjedł, wobkrućće prošu swoje konto hišće raz, kliknjo na wobkrućenski wotkaz, kotryž je so na %(email)s "
-#~ "pósłał"
+#~ "Waše konto je so z wěstotnych přičinow zawrěło. Zo byšće aktiwity ze swojim kontom přewjedł, wobkrućće prošu swoje konto hišće raz, kliknjo na wobkrućenski wotkaz, kotryž je so na %(email)s pósłał"
 
 #~ msgid "Signup has been disabled"
 #~ msgstr "Registrowanje je so znjemóžniło"
@@ -1123,8 +1118,8 @@ msgstr "Konto Firefox wužiwać"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Prošu zmóžńće placki w swojim wobhladowaku, kotrež su trěbne za Firefox Accounts. Placki su małe datowe elementy, kotrež so we wašim wobhladowaku składuja, zo bychu wěstu funkcionalnosć "
-#~ "zmóžnili, kaž na přikład zasospóznawanje w nowym posedźenju."
+#~ "Prošu zmóžńće placki w swojim wobhladowaku, kotrež su trěbne za Firefox Accounts. Placki su małe datowe elementy, kotrež so we wašim wobhladowaku składuja, zo bychu wěstu funkcionalnosć zmóžnili, "
+#~ "kaž na přikład zasospóznawanje w nowym posedźenju."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox budźe bórze na iOS!"
@@ -1263,8 +1258,8 @@ msgstr "Konto Firefox wužiwać"
 
 #~ msgid "For security reasons, resetting your password will erase your Sync data from our servers. A new Sync backup will be created from your local browsing data."
 #~ msgstr ""
-#~ "Z wěstotnych přičinow budu so wšě waše synchronizaciske daty z našich serwerow hašeć, hdyž swoje hesło wróćo stajeće. Nowe synchronizaciske zawěsćenje wutwori so z wašich lokalnych "
-#~ "přehladowanskich datow."
+#~ "Z wěstotnych přičinow budu so wšě waše synchronizaciske daty z našich serwerow hašeć, hdyž swoje hesło wróćo stajeće. Nowe synchronizaciske zawěsćenje wutwori so z wašich lokalnych přehladowanskich "
+#~ "datow."
 
 #~ msgid "You are signed in as"
 #~ msgstr "Sće přizjewjeny jako"
@@ -1272,17 +1267,11 @@ msgstr "Konto Firefox wužiwać"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Maće hižo konto? Přizjewće so."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
-#~ msgstr ""
-#~ "Pokročujo přihłosuju <a id=\"service-tos\" href=\"%(termsUri)s\">wužiwanskim wuměnjenjam</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">prawidłam priwatnosće</a> słužby %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgstr "Pokročujo přihłosuju <a id=\"service-tos\" href=\"%(termsUri)s\">wužiwanskim wuměnjenjam</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">prawidłam priwatnosće</a> słužby %(serviceName)s (%(serviceUri)s)."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "Jeli z tym pokročujeće, zwoliće do <a id=\"fxa-tos\" href=\"/legal/terms\">wužiwanskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">zdźělenki priwatnosće </a> mróčelowych słužbow "
-#~ "Firefox."
+#~ msgstr "Jeli z tym pokročujeće, zwoliće do <a id=\"fxa-tos\" href=\"/legal/terms\">wužiwanskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">zdźělenki priwatnosće </a> mróčelowych słužbow Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Nowinki a pokiwy za Firefox abonować"
