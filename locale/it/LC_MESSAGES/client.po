@@ -887,7 +887,7 @@ msgstr ""
 
 #: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
-msgstr "Sei interessato a Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Ecco come iniziare</a>."
+msgstr ""
 
 #: .es5/scripts/templates/settings/clients.mustache:6
 msgid "Disconnect"
