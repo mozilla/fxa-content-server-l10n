@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-03 14:58+0000\n"
-"PO-Revision-Date: 2016-08-10 05:33+0000\n"
+"PO-Revision-Date: 2016-09-03 18:54+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -33,8 +33,8 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Ви успішно підключили свій перший пристрій до облікового запису Firefox. Щоб зробити синхронізацію повноцінною, під'єднайте будь-який пристрій з Firefox для <a href='%(androidUrl)s'>Android</a> чи "
 "<a href='%(iosUrl)s'>iOS</a>."
@@ -80,7 +80,7 @@ msgstr "Політика Приватності Mozilla"
 
 #: templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr ""
+msgstr "Це автоматичний лист; якщо ви не додавали новий пристрій до свого облікового запису Firefox, вам потрібно негайно змінити свій пароль на %(passwordChangeLink)s"
 
 #: templates/new_device_login.txt:4 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5
@@ -172,8 +172,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
-"Ви успішно під'єднали свій перший пристрій до облікового запису Firefox. Тепер ви можете увійти в синхронізацію з інших пристроїв, в тому числі з Firefox для <a %(androidLinkAttributes)s>Android</"
-"a> та <a %(iosLinkAttributes)s>iOS</a>."
+"Ви успішно під'єднали свій перший пристрій до облікового запису Firefox. Тепер ви можете увійти в синхронізацію з інших пристроїв, в тому числі з Firefox для <a %(androidLinkAttributes)s>Android</a>"
+" та <a %(iosLinkAttributes)s>iOS</a>."
 
 #: templates/post_verify.html:5 templates/recovery.html:6 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
 #: templates/verify_login.html:6
@@ -240,8 +240,8 @@ msgstr "Вітаємо знову."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 "Кілька днів тому ви створили обліковий запис Firefox, але досі не затвердили його. Затверджений обліковий запис дозволяє вам отримувати доступ до своїх вкладок, закладок, паролів та історії на будь-"
 "якому пристрої, під'єднаному до нього. Для активації свого облікового запису, просто підтвердіть цю адресу електронної пошти."
@@ -423,8 +423,8 @@ msgstr "Умови надання послуги"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Тиждень тому ви створили обліковий запис Firefox, але досі не затвердили його. Ми хвилюємося за вас. Firefox доступний для Windows, Mac, Linux, Android та iOS. Ви можете синхронізувати свої "
-#~ "паролі, закладки та історію на всіх пристроях. Для активації облікового запису підтвердіть цю адресу електронної пошти, даючи нам знати, що все в порядку."
+#~ "Тиждень тому ви створили обліковий запис Firefox, але досі не затвердили його. Ми хвилюємося за вас. Firefox доступний для Windows, Mac, Linux, Android та iOS. Ви можете синхронізувати свої паролі, "
+#~ "закладки та історію на всіх пристроях. Для активації облікового запису підтвердіть цю адресу електронної пошти, даючи нам знати, що все в порядку."
 
 #~ msgid "env"
 #~ msgstr "env"
