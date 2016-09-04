@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-03 14:58+0000\n"
-"PO-Revision-Date: 2016-08-11 13:05+0000\n"
+"PO-Revision-Date: 2016-09-04 18:34+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -89,7 +89,7 @@ msgstr "Лозинка је успешно промењена"
 
 #: .es5/scripts/views/settings/clients.js:53
 msgid "Last active: %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Последња активност: %(translatedTimeAgo)s"
 
 #: .es5/scripts/views/settings/clients.js:90
 msgid "Devices"
@@ -97,7 +97,7 @@ msgstr "Уређаји"
 
 #: .es5/scripts/views/settings/clients.js:93
 msgid "Devices & apps"
-msgstr ""
+msgstr "Уређаји и апликације"
 
 #: .es5/scripts/views/settings/clients.js:100
 msgid "You can manage your devices below."
@@ -105,7 +105,7 @@ msgstr "Испод можете да управљате са уређајима.
 
 #: .es5/scripts/views/settings/clients.js:103
 msgid "You can manage your devices and apps below."
-msgstr ""
+msgstr "Можете управљати вашим уређајима и апликацијама испод."
 
 #: .es5/scripts/views/settings/communication_preferences.js:111
 msgid "Subscribed successfully"
@@ -161,7 +161,7 @@ msgstr "Ово је уобичајена лозинка; унесите неку
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:27
 msgid "This is a common password; please consider another one. %(moreInfoLink)s"
-msgstr ""
+msgstr "Ово је често употребљивана лозинка; размислите о некој другој. %(moreInfoLink)s"
 
 #: .es5/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
@@ -435,9 +435,7 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:17
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Ако наставите, слажете се са <a id=\"service-tos\" href=\"%(termsUri)s\">Условима коришћења услуге</a> и<a id=\"service-pp\" href=\"%(privacyUri)s\">Обавештењем о приватности</a> од %(serviceName)s "
 "(%(serviceUri)s)."
@@ -632,11 +630,11 @@ msgstr "Кликните на везу коју смо вам послали н�
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "Сећате се лозинке? Пријавите се"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:9
 msgid "Didn’t arrive? Resend"
-msgstr ""
+msgstr "Није вам стигла? Пошаљи поново"
 
 #: .es5/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -674,8 +672,7 @@ msgstr "Заборавили сте лозинку?"
 
 #: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr ""
-"Ако наставите, слажете се са <a id=\"fxa-tos\" href=\"/legal/terms\">Условима коришћења услуге</a> и <a id=\"fxa-pp\" href=\"/legal/privacy\">Обавештењем о приватности</a> Firefox cloud сервиса."
+msgstr "Ако наставите, слажете се са <a id=\"fxa-tos\" href=\"/legal/terms\">Условима коришћења услуге</a> и <a id=\"fxa-pp\" href=\"/legal/privacy\">Обавештењем о приватности</a> Firefox cloud сервиса."
 
 #: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -799,7 +796,7 @@ msgstr "Направи Firefox налог"
 
 #: .es5/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-msgstr ""
+msgstr "Тражите Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Започните овде</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -811,7 +808,7 @@ msgstr "Имате налог са другом адресом е-поште? <a
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
-msgstr ""
+msgstr "Примајте месечни Firefox билтен."
 
 #: .es5/scripts/templates/sign_up.mustache:22
 msgid "Create account"
@@ -819,11 +816,11 @@ msgstr "Направи налог"
 
 #: .es5/scripts/templates/sign_up.mustache:27
 msgid "Have an account? Sign in"
-msgstr ""
+msgstr "Имате налог? Пријавите се"
 
 #: .es5/scripts/templates/support/create_secure_password.mustache:1
 msgid "Create secure passwords to keep your identity safe"
-msgstr ""
+msgstr "Креирајте безбедне лозинке како бисте сачували ваш идентитет сигурним"
 
 #: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2
 #: .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/communication_preferences.mustache:4 .es5/scripts/templates/settings/display_name.mustache:2
@@ -877,11 +874,9 @@ msgstr "Стара лозинка"
 
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
-msgstr ""
-"Firefox је доступан за <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> и <a href=\"%(linkLinux)s"
-"\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
+msgstr "Firefox је доступан за <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> и <a href=\"%(linkLinux)s\">Linux</a>."
 
 #: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
@@ -893,7 +888,7 @@ msgstr "Прекини везу"
 
 #: .es5/scripts/templates/settings/clients.mustache:8
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "Ставке недостају или има дупликата?"
 
 #: .es5/scripts/templates/settings/clients.mustache:9
 msgid "Refresh"
@@ -1255,8 +1250,7 @@ msgstr "Користи Firefox Account"
 #~ msgstr "Унесите Вашу е-пошту да бисте обновили лозинку налога."
 
 #~ msgid "For security reasons, resetting your password will erase your Sync data from our servers. A new Sync backup will be created from your local browsing data."
-#~ msgstr ""
-#~ "Из безбедносних разлога, ресетовање лозинке ће избрисати све синхронизоване податке са наших сервера. Створиће се нова резерва синхронизованих података из Ваших локалних података прегледања."
+#~ msgstr "Из безбедносних разлога, ресетовање лозинке ће избрисати све синхронизоване податке са наших сервера. Створиће се нова резерва синхронизованих података из Ваших локалних података прегледања."
 
 #~ msgid "You are signed in as"
 #~ msgstr "Пријављени сте као"
@@ -1264,9 +1258,7 @@ msgstr "Користи Firefox Account"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Већ имате налог? Пријавите се."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
 #~ "Ако наставите, слажете се са <a id=\"service-tos\" href=\"%(termsUri)s\">условима коришћења услуге</a> и <a id=\"service-pp\" href=\"%(privacyUri)s\">обавештењем о приватности</a> сервиса "
 #~ "%(serviceName)s (%(serviceUri)s)."
