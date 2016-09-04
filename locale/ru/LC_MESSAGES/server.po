@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-03 14:58+0000\n"
-"PO-Revision-Date: 2016-09-03 20:23+0000\n"
+"PO-Revision-Date: 2016-09-04 15:51+0000\n"
 "Last-Translator: Victor Bychek <a@bychek.ru>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
 "Language: ru\n"
@@ -130,7 +130,7 @@ msgstr "Это автоматическое сообщение; если вы н
 
 #: templates/password_reset_required.html:2 templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-msgstr "Мы заметили подозрительную активность в вашей учетной записи Firefox. Возможно, ваша учетная запись взломана."
+msgstr "Мы заметили подозрительную активность в вашем Аккаунте Firefox. Возможно, он был взломан."
 
 #: templates/password_reset_required.html:3 templates/password_reset_required.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
@@ -207,8 +207,8 @@ msgstr "Восстановить пароль"
 #: templates/suspicious_location.html:2 templates/suspicious_location.txt:1
 msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 msgstr ""
-"Возможно, за последние 60 дней вы входили в учетную запись Firefox из одного из нижеуказанных местоположений? Если вы не узнаете указанные местоположения, возможно, кто-то другой пытался получить "
-"доступ к вашей учетной записи Firefox."
+"Входили ли вы в свой Аккаунт Firefox из одного из нижеуказанных местоположений за последние 60 дней? Если вы не узнаете указанные местоположения, возможно, кто-то другой пытался получить доступ к "
+"вашему Аккаунту Firefox."
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
@@ -232,7 +232,7 @@ msgstr "Почему вы получили этот e-mail?"
 
 #: templates/suspicious_location.html:11 templates/suspicious_location.txt:10
 msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
-msgstr "Недавно мы заметили, что вход в учетную запись Firefox осуществляется из необычных местоположений. Мы хотим предупредить вас об этом."
+msgstr "Недавно мы заметили, что вход в Аккаунт Firefox осуществляется из необычных местоположений. Мы хотим предупредить вас об этом."
 
 #: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:516
 msgid "Hello again."
@@ -264,9 +264,7 @@ msgstr "Активировать сейчас:"
 
 #: templates/verification_reminder_second.html:3 templates/verification_reminder_second.txt:2
 msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
-"Неделю назад вы создали учетную запись Firefox, но ещё не подтвердили её. Мы обеспокоены. Подтвердите этот адрес электронной почты для активации вашей учетной записи и дайте нам знать, что вы в "
-"порядке."
+msgstr "Неделю назад вы создали Аккаунт Firefox, но ещё не подтвердили его. Мы обеспокоены. Подтвердите этот адрес электронной почты для активации вашего аккаунта и дайте нам знать, что вы в порядке."
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
@@ -302,7 +300,7 @@ msgstr "%(country)s (приблизительно)"
 
 #: mailer.js:251
 msgid "Verify your Firefox Account"
-msgstr "Подтвердить ваш Аккаунт Firefox"
+msgstr "Подтвердите ваш Аккаунт Firefox"
 
 #: mailer.js:290
 msgid "Confirm new sign-in to Firefox"
