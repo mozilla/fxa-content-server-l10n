@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-03 14:58+0000\n"
-"PO-Revision-Date: 2016-08-28 03:29+0000\n"
+"PO-Revision-Date: 2016-09-04 17:47+0000\n"
 "Last-Translator: teerapatxtop <teerapatxtop@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -96,7 +96,7 @@ msgstr "อุปกรณ์"
 
 #: .es5/scripts/views/settings/clients.js:93
 msgid "Devices & apps"
-msgstr ""
+msgstr "อุปกรณ์และแอป"
 
 #: .es5/scripts/views/settings/clients.js:100
 msgid "You can manage your devices below."
@@ -104,7 +104,7 @@ msgstr "คุณสามารถจัดการอุปกรณ์ขอ
 
 #: .es5/scripts/views/settings/clients.js:103
 msgid "You can manage your devices and apps below."
-msgstr ""
+msgstr "คุณสามารถจัดการอุปกรณ์และแอปของคุณได้จากด้านล่าง"
 
 #: .es5/scripts/views/settings/communication_preferences.js:111
 msgid "Subscribed successfully"
@@ -434,11 +434,8 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:17
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"การดำเนินการหมายถึงคุณยอมรับ<a id=\"service-tos\" href=\"%(termsUri)s\">เงื่อนไขการใช้บริการ</a>และ<a id=\"service-pp\" href=\"%(privacyUri)s\">ประกาศความเป็นส่วนบุคคล</a>ของ%(serviceName)s (%(serviceUri)s)"
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "การดำเนินการหมายถึงคุณยอมรับ<a id=\"service-tos\" href=\"%(termsUri)s\">เงื่อนไขการใช้บริการ</a>และ<a id=\"service-pp\" href=\"%(privacyUri)s\">ประกาศความเป็นส่วนบุคคล</a>ของ%(serviceName)s (%(serviceUri)s)"
 
 #: .es5/scripts/lib/strings.js:24
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -518,7 +515,7 @@ msgstr "การตั้งค่า"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr "ส่วนเสริมและการปรับแต่งยังไม่ได้ซิงค์บนอุปกรณ์มือถือ"
+msgstr "ส่วนเสริมและการตั้งค่ายังไม่มีการซิงค์บนอุปกรณ์มือถือ"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
@@ -540,15 +537,15 @@ msgstr "ได้ส่งอีเมลอีกครั้งแล้ว"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
-msgstr "ลิงก์ที่คุณได้คลิกเพื่อตั้งรหัสผ่านของคุณใหม่ดอายุแล้ว"
+msgstr "ลิงก์ที่คุณได้คลิกเพื่อตั้งรหัสผ่านใหม่ของคุณหมดอายุแล้ว"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:4
 msgid "Click here to receive a new reset link"
-msgstr "คลิกที่นี่เพื่อรับลิงก์สำหรับตั้งค่ารหัสผ่านใหม่"
+msgstr "คลิกที่นี่เพื่อรับลิงก์สำหรับตั้งรหัสผ่านใหม่"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:6
 msgid "Reset password link damaged"
-msgstr "ลิงค์สำหรับตั้งรหัสผ่านใหม่เสียหาย"
+msgstr "ลิงก์สำหรับตั้งรหัสผ่านใหม่ได้รับความเสียหาย"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:7 .es5/scripts/templates/complete_sign_up.mustache:8
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
@@ -564,7 +561,7 @@ msgstr "เมื่อคุณส่งรหัสผ่านใหม่ข
 
 #: .es5/scripts/templates/complete_reset_password.mustache:11 .es5/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
-msgstr "เรียนรู้เพิ่มเติมว่า Sync ทำงานอย่างไร"
+msgstr "เรียนรู้ว่า Sync ทำงานอย่างไร"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:13 .es5/scripts/templates/settings/change_password.mustache:7
 msgid "New password"
@@ -630,7 +627,7 @@ msgstr "คลิกลิงก์ที่เราส่งอีเมลไ
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "จำรหัสผ่านได้? ลงชื่อเข้า"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:9
 msgid "Didn’t arrive? Resend"
@@ -642,7 +639,7 @@ msgstr "ต้องการคุกกี้และที่เก็บข
 
 #: .es5/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "โปรดเปิดใช้คุกกี้อละที่เก็บข้อมูลในเครื่องในเบราว์เซอร์ของคุณเพื่อเข้าถึงบัญชี FIrefox การเปิดใช้ดังกล่าวจะทำให้ความสามารถ เช่น เบราว์เซอร์จะจำคุณระหว่างวาระได้"
+msgstr "โปรดเปิดใช้งานคุกกี้และที่เก็บข้อมูลในเครื่องในเบราว์เซอร์ของคุณเพื่อเข้าถึงบัญชี Firefox การทำเช่นนั้นจะเปิดใช้งานฟังก์ชันอย่างการจดจำคุณระหว่างวาระ"
 
 #: .es5/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -672,7 +669,7 @@ msgstr "ลืมรหัสผ่าน?"
 
 #: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "การดำเนินการต่อหมายถึงคุณยอมรับ<a id=\"fxa-tos\" href=\"/legal/terms\">เงื่อนไขการใช้บริการ</a>และ<a id=\"fxa-pp\" href=\"/legal/privacy\">ประกาศความเป็นส่วนบุคคล</a>ของบริการคลาวด์ Firefox"
+msgstr "การดำเนินการต่อหมายถึงคุณยอมรับใน <a id=\"fxa-tos\" href=\"/legal/terms\">เงื่อนไขการให้บริการ</a> และ <a id=\"fxa-pp\" href=\"/legal/privacy\">ประกาศความเป็นส่วนตัว</a> ของบริการกลุ่มเมฆ Firefox"
 
 #: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -692,7 +689,7 @@ msgstr "ประกาศความเป็นส่วนตัว"
 
 #: .es5/scripts/templates/marketing_snippet.mustache:1
 msgid "Stay in sync on the go:"
-msgstr "ซิงก์แม้ในขณะเดินทาง"
+msgstr "ซิงค์แม้ในขณะเดินทาง:"
 
 #: .es5/scripts/templates/marketing_snippet.mustache:2
 msgid "Get Firefox for Android"
@@ -808,7 +805,7 @@ msgstr "มีบัญชีที่ใช้อีเมลอื่น? <a h
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
-msgstr ""
+msgstr "รับจดหมายข่าว Firefox รายเดือน"
 
 #: .es5/scripts/templates/sign_up.mustache:22
 msgid "Create account"
@@ -816,7 +813,7 @@ msgstr "สร้างบัญชี"
 
 #: .es5/scripts/templates/sign_up.mustache:27
 msgid "Have an account? Sign in"
-msgstr ""
+msgstr "มีบัญชี? ลงชื่อเข้า"
 
 #: .es5/scripts/templates/support/create_secure_password.mustache:1
 msgid "Create secure passwords to keep your identity safe"
@@ -874,11 +871,11 @@ msgstr "รหัสผ่านเก่า"
 
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox พร้อมใช้งานสำหรับ <a href=\"%(linkWindows)s\">Windows</a> <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>  <a href=\"%(linkIOS)s\">iOS</a> และ <a href=\"%(linkLinux)s"
-"\">Linux</a>"
+"Firefox พร้อมใช้งานสำหรับ <a href=\"%(linkWindows)s\">Windows</a> <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>  <a href=\"%(linkIOS)s\">iOS</a> และ <a "
+"href=\"%(linkLinux)s\">Linux</a>"
 
 #: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
@@ -890,7 +887,7 @@ msgstr "ตัดการเชื่อมต่อ"
 
 #: .es5/scripts/templates/settings/clients.mustache:8
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "รายการขาดหายหรือซ้ำ?"
 
 #: .es5/scripts/templates/settings/clients.mustache:9
 msgid "Refresh"
@@ -898,7 +895,7 @@ msgstr "เรียกใหม่"
 
 #: .es5/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
-msgstr "ตัวเลือกด้านการสื่อสาร"
+msgstr "การตั้งค่าการสื่อสาร"
 
 #: .es5/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
@@ -938,7 +935,7 @@ msgstr "ลงชื่อเข้า Sync"
 
 #: .es5/scripts/templates/openid/start.mustache:2
 msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-msgstr "เลือกบัญชีที่คุณจะใช้ซิงค์แท็บ ที่คั่นหน้า รหัสผ่านและอื่น ๆ ของคุณ"
+msgstr "เลือกบัญชีที่คุณต้องการใช้ซิงค์แท็บ ที่คั่นหน้า รหัสผ่าน และอื่น ๆ ของคุณ"
 
 #: .es5/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
