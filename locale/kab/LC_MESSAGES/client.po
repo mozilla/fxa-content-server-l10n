@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-03 14:58+0000\n"
-"PO-Revision-Date: 2016-09-05 14:40+0000\n"
+"PO-Revision-Date: 2016-09-05 16:52+0000\n"
 "Last-Translator: belkacem77 <belkacem77@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -88,7 +88,7 @@ msgstr "Awal uffir yettwasnifel akken iwata"
 
 #: .es5/scripts/views/settings/clients.js:53
 msgid "Last active: %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Armud aneggaru: %(translatedTimeAgo)s"
 
 #: .es5/scripts/views/settings/clients.js:90
 msgid "Devices"
