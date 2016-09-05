@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-03 14:58+0000\n"
-"PO-Revision-Date: 2016-09-05 17:01+0000\n"
+"PO-Revision-Date: 2016-09-05 17:50+0000\n"
 "Last-Translator: belkacem77 <belkacem77@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -261,7 +261,7 @@ msgstr "Rmed tura:"
 
 #: templates/verification_reminder_second.html:3 templates/verification_reminder_second.txt:2
 msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
+msgstr "Tezri dduṛt aya seg mi ternid amiḍan Firefox, acukan weṛgin tesneqdeṭ. Ihi aqlaɣ nettxemmim fell-ak. Sentem tansa agi imayl akken ad tremdeḍ amiḍan inek udiɣ anẓeṛ d akken kulec iteddu."
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
@@ -273,7 +273,7 @@ msgstr "Ma ulac aɣilif, rmed amiḍan n usentem n tensa agi imayl."
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "Uga n tɣellist, ma ulac aɣilif, sentem tuqqna agi akken ad tessenkreḍ amtawi akked yibenk agi:"
 
 #: templates/verify_login.html:5 templates/verify_login.txt:4
 msgid "Confirm sign-in"
@@ -281,11 +281,11 @@ msgstr "Sentem tuqqna"
 
 #: templates/verify_login.html:7
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Ma tcukeḍ yella win yettawṛaḍen ad yekcem ɣer umiḍan inek, <a %(passwordChangeLinkAttributes)s>snifel awal inek uffir ma ulac aɣilif</a>."
 
 #: templates/verify_login.txt:5
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr ""
+msgstr "Ma tcukeḍ yella win yettawṛaḍen ad yekcem ɣer umiḍan inek, snifel awal inek uffir ma ulac aɣilif."
 
 #: mailer.js:159
 msgid "%(city)s, %(country)s (estimated)"
@@ -333,7 +333,7 @@ msgstr "Asebter ulac-it"
 
 #: server/templates/pages/src/404.html:3
 msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
-msgstr ""
+msgstr "Asebter i d-sutreḍ ulac-it. Aqlaɣ neẓra udiɣ ad nseggem yal aseɣwen yeṛzen."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -345,7 +345,7 @@ msgstr "Tuccḍa 500"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr ""
+msgstr "Teḍra-d tuccḍa. Yebbeḍ-aɣ-d ulɣu udiɣ anteddu anseɣti ayagi."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -357,11 +357,11 @@ msgstr "Aqeddac ur yestuffi ara, ɛered tikelt nniḍen ticki"
 
 #: server/templates/pages/src/503.html:3
 msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
-msgstr ""
+msgstr "Aqlaɣ tura n ɛebba deqs n tuzna d urmas n isefka, ihi ad nwali amek ad d-nerr anagraw iteddu akken iwata s zreb."
 
 #: server/templates/pages/src/index.html:2 server/templates/pages/src/privacy.html:5 server/templates/pages/src/terms.html:5
 msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr ""
+msgstr "Tesseqdaceḍ iminig <strong>aqbuṛ</strong>. Ma ulac aɣilif, <a href=\"http://browsehappy.com/\"> leqqem iminig inek</a> akken ad tfarṣeḍ si termit inek."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -373,7 +373,7 @@ msgstr "Tasertit n tbaḍnit"
 
 #: server/templates/pages/src/privacy.html:3 server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "Imeẓla n usigna n Firefox"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"

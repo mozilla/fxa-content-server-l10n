@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-03 14:58+0000\n"
-"PO-Revision-Date: 2016-09-05 16:52+0000\n"
+"PO-Revision-Date: 2016-09-05 17:54+0000\n"
 "Last-Translator: belkacem77 <belkacem77@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -331,11 +331,11 @@ msgstr "Aseɣwen n usenqed yexṣeṛ"
 
 #: .es5/scripts/lib/auth-errors.js:241
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "Yessefk tisektiwin n tugna ad ilint ɣarṣum 100 x 100 px"
 
 #: .es5/scripts/lib/auth-errors.js:245
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "Timirna n umiḍan ad tewjeḍ akka ɣer zdat di Firefox i iOS"
 
 #: .es5/scripts/lib/auth-errors.js:256
 msgid "You must enter your age to sign up"
@@ -351,11 +351,11 @@ msgstr "Amiḍan ur yezgi yella."
 
 #: .es5/scripts/lib/auth-errors.js:272
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "Imyerr mačči d ameɣtu deg ujiṭun n ukemmel: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:276
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "Imyerr mačči d ameɣtu deg ujiṭun n ukemmel: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:280
 msgid "Invalid data attribute: %(property)s"
@@ -395,7 +395,7 @@ msgstr "Tangalt tezri"
 
 #: .es5/scripts/lib/oauth-errors.js:54 .es5/scripts/lib/oauth-errors.js:76
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Aɣewwaṛ OAuth mačči d ameɣtu: %(param)s"
 
 #: .es5/scripts/lib/oauth-errors.js:62 .es5/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
@@ -607,7 +607,7 @@ msgstr "Imayl yettwazen"
 
 #: .es5/scripts/templates/confirm.mustache:7
 msgid "A verification link has been sent&nbsp;to %(email)s"
-msgstr ""
+msgstr "Aseɣwen n usenqed yettwazen&nbsp;ɣer %(email)s"
 
 #: .es5/scripts/templates/confirm.mustache:9
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
@@ -615,7 +615,7 @@ msgstr ""
 
 #: .es5/scripts/templates/confirm.mustache:12 .es5/scripts/templates/confirm.mustache:14
 msgid "Didn't arrive? Resend"
-msgstr ""
+msgstr "Ur d-yebbid ara? Azen tikelt nniḍen"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -635,7 +635,7 @@ msgstr "Ur d-yebbid ara? Azen tikelt nniḍen"
 
 #: .es5/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
-msgstr ""
+msgstr "Inagan n tuqqna akked usekles adigan ttwasran."
 
 #: .es5/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
@@ -673,7 +673,7 @@ msgstr ""
 
 #: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "Imeẓla n usigna n Firefox"
 
 #: .es5/scripts/templates/legal.mustache:2
 msgid "Legal"
@@ -757,15 +757,15 @@ msgstr ""
 #: .es5/scripts/templates/reset_password.mustache:5 .es5/scripts/templates/sign_in.mustache:18 .es5/scripts/templates/sign_up.mustache:13
 #: .es5/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
-msgstr ""
+msgstr "Imayl"
 
 #: .es5/scripts/templates/reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:9
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "Cfu ɣef awal uffir? Kcem."
 
 #: .es5/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Imiḍanen Firefox"
 
 #: .es5/scripts/templates/settings.mustache:2
 msgid "Sign out"
@@ -793,7 +793,7 @@ msgstr "Rnu amiḍan Firefox"
 
 #: .es5/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-msgstr ""
+msgstr "Tettnadiḍ Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Bdu dagi</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -805,7 +805,7 @@ msgstr ""
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
-msgstr ""
+msgstr "Rmes yal aggur izen n telɣutn Firefox."
 
 #: .es5/scripts/templates/sign_up.mustache:22
 msgid "Create account"
@@ -817,7 +817,7 @@ msgstr "Ɛur-k amiḍan? Kcem"
 
 #: .es5/scripts/templates/support/create_secure_password.mustache:1
 msgid "Create secure passwords to keep your identity safe"
-msgstr ""
+msgstr "Rnu awalen uffiren iɣelsanen akken ad tḥerzen tamagit"
 
 #: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2
 #: .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/communication_preferences.mustache:4 .es5/scripts/templates/settings/display_name.mustache:2
@@ -893,7 +893,7 @@ msgstr "Smiren"
 
 #: .es5/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
-msgstr ""
+msgstr "Ismenyifen n teywalt"
 
 #: .es5/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
