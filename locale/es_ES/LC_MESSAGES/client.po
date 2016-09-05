@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-03 14:58+0000\n"
-"PO-Revision-Date: 2016-08-10 18:56+0000\n"
+"PO-Revision-Date: 2016-09-05 15:37+0000\n"
 "Last-Translator: Inma Barrios <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_ES\n"
@@ -88,7 +88,7 @@ msgstr "La contraseña se cambió correctamente"
 
 #: .es5/scripts/views/settings/clients.js:53
 msgid "Last active: %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Últ. vez activo: %(translatedTimeAgo)s"
 
 #: .es5/scripts/views/settings/clients.js:90
 msgid "Devices"
@@ -96,7 +96,7 @@ msgstr "Dispositivos"
 
 #: .es5/scripts/views/settings/clients.js:93
 msgid "Devices & apps"
-msgstr ""
+msgstr "Dispositivos y aplicaciones"
 
 #: .es5/scripts/views/settings/clients.js:100
 msgid "You can manage your devices below."
@@ -104,7 +104,7 @@ msgstr "Puedes administrar tus dispositivos más abajo."
 
 #: .es5/scripts/views/settings/clients.js:103
 msgid "You can manage your devices and apps below."
-msgstr ""
+msgstr "Puedes gestionar tus dispositivos y aplicaciones desde aquí."
 
 #: .es5/scripts/views/settings/communication_preferences.js:111
 msgid "Subscribed successfully"
@@ -160,7 +160,7 @@ msgstr "Esa es una contraseña común; piensa en otra."
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:27
 msgid "This is a common password; please consider another one. %(moreInfoLink)s"
-msgstr ""
+msgstr "Esa contraseña es muy común; piensa en otra. %(moreInfoLink)s"
 
 #: .es5/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
@@ -434,12 +434,8 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:17
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Si continúas, aceptas los <a id=\"service-tos\" href=\"%(termsUri)s\">Términos del servicio</a> y el <a id=\"service-pp\" href=\"%(privacyUri)s\">Aviso de privacidad</a> de %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Si continúas, aceptas los <a id=\"service-tos\" href=\"%(termsUri)s\">Términos del servicio</a> y el <a id=\"service-pp\" href=\"%(privacyUri)s\">Aviso de privacidad</a> de %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/scripts/lib/strings.js:24
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -631,11 +627,11 @@ msgstr "Haz clic en el enlace que te hemos enviado a %(email)s dentro de la pró
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "¿Recuerdas tu contraseña? Inicia sesión"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:9
 msgid "Didn’t arrive? Resend"
-msgstr ""
+msgstr "¿No te ha llegado? Reenvía"
 
 #: .es5/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -797,7 +793,7 @@ msgstr "Crear una cuenta de Firefox"
 
 #: .es5/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-msgstr ""
+msgstr "¿Buscas Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Empieza por aquí</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -809,7 +805,7 @@ msgstr "¿Tienes una cuenta con un correo diferente? <a href=\"%(signinUri)s\">I
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
-msgstr ""
+msgstr "Recibe el boletín mensual de Firefox."
 
 #: .es5/scripts/templates/sign_up.mustache:22
 msgid "Create account"
@@ -817,11 +813,11 @@ msgstr "Crear cuenta"
 
 #: .es5/scripts/templates/sign_up.mustache:27
 msgid "Have an account? Sign in"
-msgstr ""
+msgstr "¿Ya tienes una cuenta? Inicia sesión"
 
 #: .es5/scripts/templates/support/create_secure_password.mustache:1
 msgid "Create secure passwords to keep your identity safe"
-msgstr ""
+msgstr "Crea contraseñas seguras para mantener tu identidad a salvo"
 
 #: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2
 #: .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/communication_preferences.mustache:4 .es5/scripts/templates/settings/display_name.mustache:2
@@ -875,11 +871,11 @@ msgstr "Contraseña antigua"
 
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox está disponible para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> y <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox está disponible para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> y <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 
 #: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
@@ -891,7 +887,7 @@ msgstr "Desconectar"
 
 #: .es5/scripts/templates/settings/clients.mustache:8
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "¿Falta o está duplicado algún elemento?"
 
 #: .es5/scripts/templates/settings/clients.mustache:9
 msgid "Refresh"
@@ -1095,8 +1091,8 @@ msgstr "Usar cuenta de Firefox"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr ""
-#~ "Si la restableces, se eliminarán los datos de navegación de nuestros servidores. Los datos almacenados en tus dispositivos no se eliminarán. Para restablecer la contraseña, introduce tu "
-#~ "dirección de correo más abajo."
+#~ "Si la restableces, se eliminarán los datos de navegación de nuestros servidores. Los datos almacenados en tus dispositivos no se eliminarán. Para restablecer la contraseña, introduce tu dirección de"
+#~ " correo más abajo."
 
 #~ msgid "Begin reset"
 #~ msgstr "Iniciar restablecimiento"
