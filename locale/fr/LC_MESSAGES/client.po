@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-03 14:58+0000\n"
-"PO-Revision-Date: 2016-09-03 22:39+0000\n"
+"PO-Revision-Date: 2016-09-05 14:31+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -824,7 +824,7 @@ msgstr "Vous possédez déjà un compte ? Connectez-vous"
 
 #: .es5/scripts/templates/support/create_secure_password.mustache:1
 msgid "Create secure passwords to keep your identity safe"
-msgstr ""
+msgstr "Créez des mots de passe sûrs pour protéger votre identité"
 
 #: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2
 #: .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/communication_preferences.mustache:4 .es5/scripts/templates/settings/display_name.mustache:2
@@ -894,7 +894,7 @@ msgstr "Déconnecter"
 
 #: .es5/scripts/templates/settings/clients.mustache:8
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "Éléments manquants ou dupliqués ?"
 
 #: .es5/scripts/templates/settings/clients.mustache:9
 msgid "Refresh"
