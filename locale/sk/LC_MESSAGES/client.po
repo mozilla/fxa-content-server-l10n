@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-03 14:58+0000\n"
-"PO-Revision-Date: 2016-09-06 15:00+0000\n"
+"PO-Revision-Date: 2016-09-06 15:43+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -808,7 +808,7 @@ msgstr "Máte účet s inou e-mailovou adresou? <a href=\"%(signinUri)s\">Prihl�
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
-msgstr ""
+msgstr "Dajte si posielať mesačník Firefoxu."
 
 #: .es5/scripts/templates/sign_up.mustache:22
 msgid "Create account"
