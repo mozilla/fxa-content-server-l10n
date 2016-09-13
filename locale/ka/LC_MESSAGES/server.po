@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-03 14:58+0000\n"
-"PO-Revision-Date: 2016-07-29 13:51+0000\n"
+"PO-Revision-Date: 2016-09-13 20:42+0000\n"
 "Last-Translator: ბექა არაბული <arabulibeqa@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -32,8 +32,8 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "თქვენ წარმატებით დაამატეთ თქვენი პირველი მოწყობილობა Firefox ანგარიშზე. Sync-ით სრულყოფილად სარგებლობისთვის, დაუკავშირეთ ნებისმიერი <a href='%(androidUrl)s'>Firefox Android</a> ან <a "
 "href='%(iosUrl)s'>Firefox iOS ვერსია</a>"
@@ -59,7 +59,7 @@ msgstr "ახალი შემოსვლა Firefox ანგარიშ�
 
 #: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "IP მისამართი: %(ip)s"
 
 #: templates/new_device_login.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
@@ -169,8 +169,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
-"თქვენ წარმატებით დაუკავშირეთ თქვენს Firefox ანგარიშს  პირველი მოწყობილობა. ახლა Sync-ში შესვლა სხვა მოწყობილობებიდანაც შეგიძლიათ, მათ შორის Firefox <a %(androidLinkAttributes)s>Android-ისთვის</a> "
-"და <a %(iosLinkAttributes)s>iOS-ისთვის</a>."
+"თქვენ წარმატებით დაუკავშირეთ თქვენს Firefox ანგარიშს  პირველი მოწყობილობა. ახლა Sync-ში შესვლა სხვა მოწყობილობებიდანაც შეგიძლიათ, მათ შორის Firefox <a %(androidLinkAttributes)s>Android-ისთვის</a> და"
+" <a %(iosLinkAttributes)s>iOS-ისთვის</a>."
 
 #: templates/post_verify.html:5 templates/recovery.html:6 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
 #: templates/verify_login.html:6
@@ -235,11 +235,11 @@ msgstr "კვლავ მოგესალმებით."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
-"რამდენიმე დღის წინ, თქვენ უკვე შექმენით Firefox ანგარიში, მაგრამ არ დაგიმოწმებიათ. დამოწმებული ანგარიშის საშუალებით წვდომა გექნებათ თქვენს ჩანართებზე, სანიშნეებზე, პაროლებსა და ისტორიაზე, "
-"ნებისმიერი დაკავშირებული მოწყობილობიდან. უბრალოდ დაადასტურეთ ელ-ფოსტის ეს მისამართი ანგარიშის ასამოქმედებლად."
+"რამდენიმე დღის წინ, თქვენ უკვე შექმენით Firefox ანგარიში, მაგრამ არ დაგიმოწმებიათ. დამოწმებული ანგარიშის საშუალებით წვდომა გექნებათ თქვენს ჩანართებზე, სანიშნეებზე, პაროლებსა და ისტორიაზე, ნებისმიერი"
+" დაკავშირებული მოწყობილობიდან. უბრალოდ დაადასტურეთ ელ-ფოსტის ეს მისამართი ანგარიშის ასამოქმედებლად."
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
 msgid "Activate now"
@@ -414,8 +414,8 @@ msgstr "მომსახურების პირობები"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "ერთი კვირის წინ, თქვენ უკვე შექმენით Firefox ანგარიში, მაგრამ არ დაგიმოწმებიათ, რაც ძალიან გვაღელვებს. Firefox ხელმისაწვდომია Windows, Mac, Lonux, Android და iOS სისტემებზე. შეგიძლიათ "
-#~ "დაასინქრონოთ თქვენი ჩანართები, სანიშნეები და ისტორია, თითოეულ მათგანზე. დაადასტურეთ ელ-ფოსტის ეს მისამართი ანგარიშის ასამოქმედებლად და გვეცოდინება რომ ყველაფერი რიგზეა."
+#~ "ერთი კვირის წინ, თქვენ უკვე შექმენით Firefox ანგარიში, მაგრამ არ დაგიმოწმებიათ, რაც ძალიან გვაღელვებს. Firefox ხელმისაწვდომია Windows, Mac, Lonux, Android და iOS სისტემებზე. შეგიძლიათ დაასინქრონოთ "
+#~ "თქვენი ჩანართები, სანიშნეები და ისტორია, თითოეულ მათგანზე. დაადასტურეთ ელ-ფოსტის ეს მისამართი ანგარიშის ასამოქმედებლად და გვეცოდინება რომ ყველაფერი რიგზეა."
 
 #~ msgid "env"
 #~ msgstr "env"
