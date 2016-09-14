@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-03 14:58+0000\n"
-"PO-Revision-Date: 2016-08-23 22:22+0000\n"
+"PO-Revision-Date: 2016-09-14 10:14+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -89,7 +89,7 @@ msgstr "Parola a fost schimbată cu succes"
 
 #: .es5/scripts/views/settings/clients.js:53
 msgid "Last active: %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Activ ultima dată: %(translatedTimeAgo)s"
 
 #: .es5/scripts/views/settings/clients.js:90
 msgid "Devices"
@@ -97,7 +97,7 @@ msgstr "Dispozitive"
 
 #: .es5/scripts/views/settings/clients.js:93
 msgid "Devices & apps"
-msgstr ""
+msgstr "Dispozitive și aplicații"
 
 #: .es5/scripts/views/settings/clients.js:100
 msgid "You can manage your devices below."
@@ -105,7 +105,7 @@ msgstr "Poți gestiona dispozitivele de mai jos."
 
 #: .es5/scripts/views/settings/clients.js:103
 msgid "You can manage your devices and apps below."
-msgstr ""
+msgstr "Poți gestiona dispozitivele și aplicațiile mai jos."
 
 #: .es5/scripts/views/settings/communication_preferences.js:111
 msgid "Subscribed successfully"
@@ -445,9 +445,7 @@ msgid "Firefox Sync"
 msgstr "Sincronizare Firefox"
 
 #: .es5/scripts/lib/strings.js:17
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Continuând, ești de acord cu <a id=\"service-tos\" href=\"%(termsUri)s\">termenii de utilizare a serviciului</a> și <a id=\"service-pp\" href=\"%(privacyUri)s\">politica de confidențialitate</a> a "
 "%(serviceName)s (%(serviceUri)s)."
@@ -824,7 +822,7 @@ msgstr "Ai un cont cu o adresă de e-mail diferită? <a href=\"%(signinUri)s\">A
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
-msgstr ""
+msgstr "Primește buletinul de știri lunar Firefox."
 
 #: .es5/scripts/templates/sign_up.mustache:22
 msgid "Create account"
@@ -832,7 +830,7 @@ msgstr "Creează cont"
 
 #: .es5/scripts/templates/sign_up.mustache:27
 msgid "Have an account? Sign in"
-msgstr ""
+msgstr "Ai un cont? Autentifică-te"
 
 #: .es5/scripts/templates/support/create_secure_password.mustache:1
 msgid "Create secure passwords to keep your identity safe"
@@ -890,11 +888,11 @@ msgstr "Parola veche"
 
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox este disponibil pentru <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> și <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox este disponibil pentru <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> și <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 
 #: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
@@ -906,7 +904,7 @@ msgstr "Deconectare"
 
 #: .es5/scripts/templates/settings/clients.mustache:8
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "Obiecte lipsă sau duplicate?"
 
 #: .es5/scripts/templates/settings/clients.mustache:9
 msgid "Refresh"
