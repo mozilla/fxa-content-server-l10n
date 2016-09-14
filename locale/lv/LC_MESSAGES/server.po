@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-03 14:58+0000\n"
-"PO-Revision-Date: 2016-07-07 18:33+0000\n"
-"Last-Translator: Jānis Marks Gailis - Jean-Marc <jm-gailis@fai-vianet.fr>\n"
+"PO-Revision-Date: 2016-09-14 13:38+0000\n"
+"Last-Translator: orvils <orvils@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
@@ -32,8 +32,8 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Jūs veiksmīgi savienojāt savu pirmo ierīci ar savu Firefox kontu. Lai pilnvērtīgi izmantot Sync, pievienojiet jebkuru <a href='%(androidUrl)s'>Firefox Android ierīcēm</a> vai <a "
 "href='%(iosUrl)s'>Firefox iOS ierīcēm</a>."
@@ -59,7 +59,7 @@ msgstr "Jauna pierakstīšanās uz Firefox"
 
 #: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "IP adrese: %(ip)s"
 
 #: templates/new_device_login.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
@@ -68,7 +68,7 @@ msgstr "Šis ir automātisks epasts; ja jūs šo darbību neatļāvāt, <a %(pas
 #: templates/new_device_login.html:5 templates/password_changed.html:5 templates/password_reset.html:5 templates/post_verify.html:7 templates/recovery.html:8
 #: templates/verification_reminder_first.html:7 templates/verification_reminder_second.html:7 templates/verify.html:7
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr ""
+msgstr "Lai saņemtu vairāk informāciju, lūdzu apmeklējiet <a %(supportLinkAttributes)s>Mozilla Support</a>."
 
 #: templates/new_device_login.html:6 templates/new_device_login.txt:5 templates/password_changed.html:6 templates/password_changed.txt:5 templates/password_reset.html:6 templates/password_reset.txt:5
 #: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:8 templates/post_verify.txt:6 templates/recovery.html:9 templates/recovery.txt:7
@@ -96,7 +96,7 @@ msgstr "Jūsu Firefox konta parole tika veiksmīgi nomainīta."
 
 #: templates/password_changed.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr ""
+msgstr "Šis ir automatizēts e-pasts; ja jūs neesat autorizējušies šai rīcībai, tad <a %(resetLinkAttributes)s>lūdzu atjaunojiet savu paroli</a>."
 
 #: templates/password_changed.txt:3
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
@@ -108,7 +108,7 @@ msgstr "Jūsu parole tika atstatīta"
 
 #: templates/password_reset.html:3
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+msgstr "Jūsu Firefox konta parole ir mainīta. Ja jūs to nemainījāt, lūdzu <a %(resetLinkAttributes)s>atjaunojiet savu paroli</a> tagad."
 
 #: templates/password_reset.html:4 templates/post_verify.html:6 templates/post_verify.txt:4 templates/recovery.html:7 templates/recovery.txt:5 templates/verification_reminder_first.html:6
 #: templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:6 templates/verification_reminder_second.txt:4 templates/verify.html:6 templates/verify.txt:4
@@ -171,6 +171,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
+"Jūs veiksmīgi savienojāt savu ierīci ar jūsu Firefox kontu. Tagad jūs varat pieslēgties lai sinhronizētu no citām jūsu ierīcēm, tajā skaitā Firefox <a %(androidLinkAttributes)s>Android</a> un <a "
+"%(iosLinkAttributes)s>iOS</a> ierīcēm."
 
 #: templates/post_verify.html:5 templates/recovery.html:6 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
 #: templates/verify_login.html:6
@@ -235,8 +237,8 @@ msgstr "Vēlreiz sveiki."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 "Pirms dažām dienām jūs izveidojāt Firefox kontu, bet to nepārbaudījāt. Pārbaudīti konts jums ļauj piekļūt savām cilnēm, grāmatzīmem, parolem un vēsturei uz jebkuru ierīci, kas ar to savienots. "
 "Vienkārši apstipriniet šo e-pasta adresi, lai aktivizētu savu kontu."
@@ -415,8 +417,8 @@ msgstr "Lietošanas noteikumi"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Jūs izveidojāt Firefox kontu pirms nedēļas, bet to nekad nepārbaudījāt. Mēs uztraucamies par jums. Firefox ir pieejams uz Windows, Mac, GNU/Linux, Android un iOS. Jūs varat sinhronizēt savas "
-#~ "Firefox paroles, grāmatzīmes un vēsturi visās šajās ierīcēs. Apstipriniet šo epasta adresi lai aktivizētu savu kontu un lai mēs zinātu ka ar jums viss ir kārtībā."
+#~ "Jūs izveidojāt Firefox kontu pirms nedēļas, bet to nekad nepārbaudījāt. Mēs uztraucamies par jums. Firefox ir pieejams uz Windows, Mac, GNU/Linux, Android un iOS. Jūs varat sinhronizēt savas Firefox"
+#~ " paroles, grāmatzīmes un vēsturi visās šajās ierīcēs. Apstipriniet šo epasta adresi lai aktivizētu savu kontu un lai mēs zinātu ka ar jums viss ir kārtībā."
 
 #~ msgid "Bad Request"
 #~ msgstr "Nederīgs pieprasījums"
