@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-03 14:58+0000\n"
-"PO-Revision-Date: 2016-09-17 10:54+0000\n"
+"PO-Revision-Date: 2016-09-19 08:59+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -450,11 +450,11 @@ msgstr "Mozilla ve Firefox hakkındaki son haberleri alın."
 
 #: .es5/scripts/lib/strings.js:31
 msgid "%(city)s, %(country)s (estimated)"
-msgstr "%(city)s, %(country)s (tahmin)"
+msgstr "%(city)s, %(country)s (tahmini)"
 
 #: .es5/scripts/lib/strings.js:32
 msgid "%(country)s (estimated)"
-msgstr "%(country)s (tahmin)"
+msgstr "%(country)s (tahmini)"
 
 #: .es5/scripts/lib/strings.js:33
 msgid "IP address: %(ip)s"
@@ -602,7 +602,7 @@ msgstr "Hesabınızı onaylayın"
 
 #: .es5/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
-msgstr "Bu girişi onayla"
+msgstr "Bu girişi onaylayın"
 
 #: .es5/scripts/templates/confirm.mustache:6 .es5/scripts/templates/confirm_reset_password.mustache:3
 msgid "Email Sent"

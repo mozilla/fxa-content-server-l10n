@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-03 14:58+0000\n"
-"PO-Revision-Date: 2016-09-17 10:54+0000\n"
+"PO-Revision-Date: 2016-09-19 08:59+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -278,7 +278,7 @@ msgstr "Ek bir güvenlik önlemi olarak lütfen bu cihazla eşitlemeyi başlatma
 
 #: templates/verify_login.html:5 templates/verify_login.txt:4
 msgid "Confirm sign-in"
-msgstr "Girişi onaylayın"
+msgstr "Girişi onayla"
 
 #: templates/verify_login.html:7
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -290,11 +290,11 @@ msgstr "Birisinin hesabınızı ele geçirmeye çalıştığını düşünüyors
 
 #: mailer.js:159
 msgid "%(city)s, %(country)s (estimated)"
-msgstr "%(city)s, %(country)s (tahmin)"
+msgstr "%(city)s, %(country)s (tahmini)"
 
 #: mailer.js:161
 msgid "%(country)s (estimated)"
-msgstr "%(country)s (tahmin)"
+msgstr "%(country)s (tahmini)"
 
 #: mailer.js:251
 msgid "Verify your Firefox Account"
