@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-03 14:58+0000\n"
-"PO-Revision-Date: 2016-09-05 14:29+0000\n"
+"PO-Revision-Date: 2016-09-19 19:51+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -29,15 +29,15 @@ msgid ""
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
 "Vous avez connecté votre premier appareil à votre compte Firefox avec succès. Vous pouvez à présent vous connecter à Sync depuis vos autres appareils, y compris depuis Firefox pour <a "
-"href='%(androidUrl)s'>Android</a> et Firefox pour <a href='%(iosUrl)s'>iOS</a>."
+"href=’%(androidUrl)s’>Android</a> et Firefox pour <a href=’%(iosUrl)s’>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
 "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 "iOS</a>."
 msgstr ""
-"Vous avez connecté votre premier appareil à votre compte Firefox avec succès. Pour tirer le meilleur parti de Sync, connectez-vous depuis <a href='%(androidUrl)s'>Firefox pour Android</a> ou <a "
-"href='%(iosUrl)s'>Firefox pour iOS</a>."
+"Vous avez connecté votre premier appareil à votre compte Firefox avec succès. Pour tirer le meilleur parti de Sync, connectez-vous depuis <a href=’%(androidUrl)s’>Firefox pour Android</a> ou <a "
+"href=’%(iosUrl)s’>Firefox pour iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -258,7 +258,7 @@ msgstr "Confirmer l’adresse électronique"
 
 #: templates/verification_reminder_first.html:10 templates/verification_reminder_second.html:10 templates/verify.html:10
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr "Confirmez votre adresse électronique afin de terminer l'enregistrement de votre compte Firefox"
+msgstr "Confirmez votre adresse électronique afin de terminer l’enregistrement de votre compte Firefox"
 
 #: templates/verification_reminder_first.txt:3 templates/verification_reminder_second.txt:3 templates/verify.txt:3
 msgid "Activate now:"
