@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-03 14:58+0000\n"
-"PO-Revision-Date: 2016-09-18 08:43+0000\n"
-"Last-Translator: La Min Ko (လမင်းကို) <lminko.lmk@gmail.com>\n"
+"PO-Revision-Date: 2016-09-19 08:17+0000\n"
+"Last-Translator: tinaunglinn.eng91 <tinaunglinn.eng91@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: my\n"
 "MIME-Version: 1.0\n"
@@ -60,23 +60,23 @@ msgstr "လက်မှတ်ထိုးဝင်ရောက်မှု အ�
 
 #: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55 .es5/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
-msgstr ""
+msgstr "%(serviceName)s အား သုံးဆွဲရန် အသင့်ဖြစ်ပြီ"
 
 #: .es5/scripts/views/ready.js:54
 msgid "Account verified"
-msgstr ""
+msgstr "အကောင့်အား အတည်ပြုပြီး"
 
 #: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:152
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "မသိရသော အကောင့် <a href=\"/signup\">မှတ်ပုံတင်ပါ</a>"
 
 #: .es5/scripts/views/sign_up.js:61
 msgid "Account no longer exists. Recreate it?"
-msgstr ""
+msgstr "အကောင့်မတည်ရှိတော့ပါ။ ပြန်လည်တည်ဆောက်မည်လား?"
 
 #: .es5/scripts/views/sign_up.js:361
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr ""
+msgstr "အကောင့်တည်ရှိပြီး <a href=\"/signin\">ဝင်ရောက်ပါ</a>"
 
 #: .es5/scripts/views/settings/avatar_gravatar.js:89
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
