@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-03 14:58+0000\n"
+"POT-Creation-Date: 2016-09-20 13:48+0000\n"
 "PO-Revision-Date: 2016-09-17 08:15+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,15 +15,15 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1422478993.0\n"
 
-#: .es5/scripts/views/complete_reset_password.js:124 .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:131 .es5/scripts/views/confirm_reset_password.js:177
+#: .es5/scripts/views/complete_reset_password.js:121 .es5/scripts/views/complete_sign_up.js:117 .es5/scripts/views/confirm.js:124 .es5/scripts/views/confirm_reset_password.js:173
 msgid "Account verified successfully"
 msgstr "Llogaria u verifikua me sukses"
 
-#: .es5/scripts/views/confirm_reset_password.js:169 .es5/scripts/views/ready.js:43
+#: .es5/scripts/views/confirm_reset_password.js:165 .es5/scripts/views/ready.js:43
 msgid "Password reset"
 msgstr "Ricaktim fjalëkalimi"
 
-#: .es5/scripts/views/confirm_reset_password.js:196
+#: .es5/scripts/views/confirm_reset_password.js:192
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Fjalëkalimi u ricaktua me sukses. Hyni që të vazhdoni."
 
@@ -87,23 +87,31 @@ msgstr "Me lejen dashamirëse të <a href=\"https://www.gravatar.com\">Gravatar<
 msgid "Password changed successfully"
 msgstr "Fjalëkalimi u ndryshua me sukses"
 
+#: .es5/scripts/views/settings/client_disconnect.js:18
+msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
+msgstr ""
+
+#: .es5/scripts/views/settings/client_disconnect.js:19
+msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
+msgstr ""
+
 #: .es5/scripts/views/settings/clients.js:53
 msgid "Last active: %(translatedTimeAgo)s"
 msgstr "Së fundi aktiv: %(translatedTimeAgo)s"
 
-#: .es5/scripts/views/settings/clients.js:90
+#: .es5/scripts/views/settings/clients.js:91
 msgid "Devices"
 msgstr "Pajisje"
 
-#: .es5/scripts/views/settings/clients.js:93
+#: .es5/scripts/views/settings/clients.js:94
 msgid "Devices & apps"
 msgstr "Pajisje & aplikacione"
 
-#: .es5/scripts/views/settings/clients.js:100
+#: .es5/scripts/views/settings/clients.js:101
 msgid "You can manage your devices below."
 msgstr "Pajisjet tuaja mund t’i administroni më poshtë."
 
-#: .es5/scripts/views/settings/clients.js:103
+#: .es5/scripts/views/settings/clients.js:104
 msgid "You can manage your devices and apps below."
 msgstr "Pajisjet dhe aplikacionet tuaja mund t’i administroni më poshtë."
 
@@ -123,7 +131,7 @@ msgstr "Llogaria u fshi me sukses"
 msgid "Display name updated"
 msgstr "Emri për në ekran u përditësua"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/lib/auth-errors.js:108
+#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
 msgstr "Llogaria juaj është kyçur për arsye sigurie"
 
@@ -149,241 +157,252 @@ msgstr "Hap Yahoo-n"
 msgid "Open Outlook"
 msgstr "Hap Outlook-un"
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:24
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:22
 msgid "8 characters minimum, but longer if you plan to sync passwords."
 msgstr "8 shenja e pakta. por edhe më tepër, në rast se planifikoni njëkohësim fjalëkalimesh."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:25 .es5/scripts/templates/sign_up.mustache:18
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:23 .es5/scripts/templates/sign_up.mustache:18
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "Një fjalëkalim i fortë, unik, do t’i ruajë të dhënat tuaja Firefox të parrezikuara nga hundëfutësit."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:26
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:24
 msgid "This is a common password; please consider another one."
 msgstr "Ky është një fjalëkalim i rëndomtë; ju lutemi, shihni mundësinë e përdorimit të një tjetri."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:27
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:25
 msgid "This is a common password; please consider another one. %(moreInfoLink)s"
 msgstr "Ky është një fjalëkalim i rëndomtë; ju lutemi, shihni mundësinë e përdorimit të një tjetri. %(moreInfoLink)s"
+
+#: .es5/scripts/views/mixins/resend-mixin.js:53
+msgid "Email resent"
+msgstr "Email-i u ridërgua"
 
 #: .es5/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
 msgstr "Dolët me sukses"
 
-#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:79 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
-#: .es5/scripts/lib/profile-errors.js:47 .es5/scripts/lib/require-on-demand.js:33 .es5/scripts/lib/require-on-demand.js:37 .es5/scripts/lib/require-on-demand.js:41
-#: .es5/scripts/lib/require-on-demand.js:45
+#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39 .es5/scripts/lib/profile-errors.js:47
+#: .es5/scripts/lib/require-on-demand.js:33 .es5/scripts/lib/require-on-demand.js:37 .es5/scripts/lib/require-on-demand.js:41 .es5/scripts/lib/require-on-demand.js:45
 msgid "Unexpected error"
 msgstr "Gabim i papritur"
 
-#: .es5/scripts/lib/auth-errors.js:20 .es5/scripts/templates/complete_sign_up.mustache:3
+#: .es5/scripts/lib/auth-errors.js:20 .es5/scripts/templates/complete_sign_up.mustache:2
 msgid "The link you clicked to verify your email is expired."
 msgstr "Lidhja që klikuat për verifikimin e email-it tuaj ka skaduar."
 
-#: .es5/scripts/lib/auth-errors.js:30 .es5/scripts/lib/oauth-errors.js:50
+#: .es5/scripts/lib/auth-errors.js:21
+msgid "You've tried too many times. Try again later."
+msgstr ""
+
+#: .es5/scripts/lib/auth-errors.js:25
+msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
+msgstr ""
+
+#: .es5/scripts/lib/auth-errors.js:35 .es5/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
 msgstr "Token i pavlefshëm"
 
-#: .es5/scripts/lib/auth-errors.js:34
+#: .es5/scripts/lib/auth-errors.js:39
 msgid "Invalid timestamp in request signature"
 msgstr "Vulë e pavlefshme kohore te nënshkrimi i kërkesës"
 
-#: .es5/scripts/lib/auth-errors.js:38
+#: .es5/scripts/lib/auth-errors.js:43
 msgid "Invalid nonce in request signature"
 msgstr "Varg i pavlefshëm te nënshkrimi i kërkesës"
 
-#: .es5/scripts/lib/auth-errors.js:42
+#: .es5/scripts/lib/auth-errors.js:47
 msgid "Account already exists"
 msgstr "Ka tashmë një llogari të tillë"
 
-#: .es5/scripts/lib/auth-errors.js:46
+#: .es5/scripts/lib/auth-errors.js:51
 msgid "Unknown account"
 msgstr "Llogari e panjohur"
 
-#: .es5/scripts/lib/auth-errors.js:50
+#: .es5/scripts/lib/auth-errors.js:55
 msgid "Incorrect email case"
 msgstr "Ngatërresë shkronjash të mëdha me të vogla te email-i"
 
-#: .es5/scripts/lib/auth-errors.js:54
+#: .es5/scripts/lib/auth-errors.js:59
 msgid "Incorrect password"
 msgstr "Fjalëkalim i pasaktë"
 
-#: .es5/scripts/lib/auth-errors.js:58
+#: .es5/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
 msgstr "Llogari e paverifikuar"
 
-#: .es5/scripts/lib/auth-errors.js:62
+#: .es5/scripts/lib/auth-errors.js:67
 msgid "Invalid verification code"
 msgstr "Kod verifikimi i pavlefshëm"
 
-#: .es5/scripts/lib/auth-errors.js:66
+#: .es5/scripts/lib/auth-errors.js:71
 msgid "Invalid JSON in request body"
 msgstr "JSON i pavlefshëm te lënda e kërkesës"
 
-#: .es5/scripts/lib/auth-errors.js:70
+#: .es5/scripts/lib/auth-errors.js:75
 msgid "Invalid parameter: %(param)s"
 msgstr "Parametër i pavlefshëm: %(param)s"
 
-#: .es5/scripts/lib/auth-errors.js:74
+#: .es5/scripts/lib/auth-errors.js:79
 msgid "Missing parameter: %(param)s"
 msgstr "Parametër që mungon: %(param)s"
 
-#: .es5/scripts/lib/auth-errors.js:78
+#: .es5/scripts/lib/auth-errors.js:83
 msgid "Invalid request signature"
 msgstr "Nënshkrim i pavlefshëm kërkese"
 
-#: .es5/scripts/lib/auth-errors.js:82
+#: .es5/scripts/lib/auth-errors.js:87
 msgid "Missing content-length header"
 msgstr "Mungon krye gjatësie lënde"
 
-#: .es5/scripts/lib/auth-errors.js:86
+#: .es5/scripts/lib/auth-errors.js:91
 msgid "Request body too large"
 msgstr "Lëndë shumë e madhe për kërkesa"
 
-# ORVATJE f.
-#     Përpjekje me të gjitha forcat për të arritur a për të bërë diçka,
-# mundim.
-# 
-# Nuk besoj se konteksti këtu, dhe në të gjitha rastet në kompjutera, përfshin
-# elemente mundimi. Përveç kësaj, në Shqipen e derisotme (të Shqipërisë)
-# "prova" është e mirëngulitur. Ndaj nuk gjej arsye përse duhet zëvendësuar me
-# orvatje. Gabim qofsha!
-#: .es5/scripts/lib/auth-errors.js:90
-msgid "Attempt limit exceeded"
-msgstr "U tejkalua kufiri i provave"
-
-#: .es5/scripts/lib/auth-errors.js:104
+#: .es5/scripts/lib/auth-errors.js:109
 msgid "The request was blocked for security reasons"
 msgstr "Kërkesa u bllokua për arsye sigurie"
 
-#: .es5/scripts/lib/auth-errors.js:112 .es5/scripts/lib/auth-errors.js:289
+#: .es5/scripts/lib/auth-errors.js:117 .es5/scripts/lib/auth-errors.js:294
 msgid "Server busy, try again soon"
 msgstr "Shërbyesi është i zënë, riprovoni së shpejti"
 
-#: .es5/scripts/lib/auth-errors.js:116
+#: .es5/scripts/lib/auth-errors.js:121
 msgid "This endpoint is no longer supported"
 msgstr "Kjo pikë mbarimi s’mbulohet më"
 
 # riprovoni
 # ndaj përpiquni sërish
-# 
+#
 # Siç mund të shihet, edhe sikur nga ana e domethënies të ishte i
 # përshtatshëm, përkthimi "përpiquni sërish" thuajse dyfishon "riprovoni". Nga
 # pikëpamja e ekonomisë në përkthim, kjo nuk përligjet.
 # Nga ana e domethënies "përpiquni sërish" e zgjeron fokusin e veprimeve të
 # mundshme pas dështimit. Kurse "riprovoni" do të thotë të bësh edhe një provë
 # tjetër, të po atij veprimi që kishe bërë më parë.
-#: .es5/scripts/lib/auth-errors.js:120 .es5/scripts/lib/config-loader.js:75 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79
-#: .es5/scripts/lib/oauth-errors.js:80 .es5/scripts/lib/profile-errors.js:43
+#: .es5/scripts/lib/auth-errors.js:125 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79 .es5/scripts/lib/oauth-errors.js:80
+#: .es5/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Sistemi s’është në punë, riprovoni së shpejti"
 
-#: .es5/scripts/lib/auth-errors.js:124 .es5/scripts/lib/oauth-errors.js:104
+#: .es5/scripts/lib/auth-errors.js:129 .es5/scripts/lib/oauth-errors.js:104
 msgid "no message"
 msgstr "pa mesazh"
 
-#: .es5/scripts/lib/auth-errors.js:128
+#: .es5/scripts/lib/auth-errors.js:133
 msgid "Session expired. Sign in to continue."
 msgstr "Sesioni skadoi. Që të vazhdohet, bëni hyrjen."
 
-#: .es5/scripts/lib/auth-errors.js:132
+#: .es5/scripts/lib/auth-errors.js:137
 msgid "Cookies are still disabled"
 msgstr "Cookie-t janë ende të çaktivizuara"
 
-#: .es5/scripts/lib/auth-errors.js:136
+#: .es5/scripts/lib/auth-errors.js:141
 msgid "Passwords do not match"
 msgstr "Fjalëkalimet nuk përputhen"
 
-#: .es5/scripts/lib/auth-errors.js:140
+#: .es5/scripts/lib/auth-errors.js:145
 msgid "Working…"
 msgstr "Po punohet…"
 
-#: .es5/scripts/lib/auth-errors.js:144
+#: .es5/scripts/lib/auth-errors.js:149
 msgid "Could not get Privacy Notice"
 msgstr "Nuk u mor dot Shënim mbi Privatësinë"
 
-#: .es5/scripts/lib/auth-errors.js:148
+#: .es5/scripts/lib/auth-errors.js:153
 msgid "Could not get Terms of Service"
 msgstr "Nuk u morën dot Kushtet e Shërbimit"
 
-#: .es5/scripts/lib/auth-errors.js:152
+#: .es5/scripts/lib/auth-errors.js:157
 msgid "Your new password must be different"
 msgstr "Fjalëkalimi juaj i ri duhet të jetë i ndryshëm"
 
-#: .es5/scripts/lib/auth-errors.js:156 .es5/scripts/templates/complete_reset_password.mustache:15 .es5/scripts/templates/settings/change_password.mustache:9
+#: .es5/scripts/lib/auth-errors.js:161 .es5/scripts/templates/complete_reset_password.mustache:14 .es5/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "Duhet të jetë të paktën 8 shenja"
 
-#: .es5/scripts/lib/auth-errors.js:160
+#: .es5/scripts/lib/auth-errors.js:165
 msgid "Valid password required"
 msgstr "Lyp fjalëkalim të vlefshëm"
 
-#: .es5/scripts/lib/auth-errors.js:164 .es5/scripts/lib/auth-errors.js:202 .es5/scripts/lib/auth-errors.js:218
+#: .es5/scripts/lib/auth-errors.js:169 .es5/scripts/lib/auth-errors.js:207 .es5/scripts/lib/auth-errors.js:223
 msgid "Valid email required"
 msgstr "Lypset email i vlefshëm"
 
-#: .es5/scripts/lib/auth-errors.js:175
+#: .es5/scripts/lib/auth-errors.js:180
 msgid "A usable image was not found"
 msgstr "Nuk u gjet një figurë e përdorshme"
 
-#: .es5/scripts/lib/auth-errors.js:179
+#: .es5/scripts/lib/auth-errors.js:184
 msgid "Could not initialize camera"
 msgstr "Nuk u gatit dot kamera"
 
-#: .es5/scripts/lib/auth-errors.js:183
+#: .es5/scripts/lib/auth-errors.js:188
 msgid "Valid URL required"
 msgstr "Lypset URL e vlefshme"
 
-#: .es5/scripts/lib/auth-errors.js:198
+#: .es5/scripts/lib/auth-errors.js:203
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Email-i juaj i verifikimit sapo u kthye mbrapsht. E shkruat keq email-in?"
 
-#: .es5/scripts/lib/auth-errors.js:206
+#: .es5/scripts/lib/auth-errors.js:211
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Jepni një adresë email të vlefshme. firefox.com nuk ofron email."
 
-#: .es5/scripts/lib/auth-errors.js:214
+#: .es5/scripts/lib/auth-errors.js:219
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Llogaritë Firefox mund të vendosen vetëm brenda një IFRAME në sajte të miratuar"
 
-#: .es5/scripts/lib/auth-errors.js:233 .es5/scripts/templates/complete_sign_up.mustache:7
+#: .es5/scripts/lib/auth-errors.js:238 .es5/scripts/templates/complete_sign_up.mustache:6
 msgid "Verification link damaged"
 msgstr "Lidhja për verifikimin është e dëmtuar"
 
-#: .es5/scripts/lib/auth-errors.js:241
+#: .es5/scripts/lib/auth-errors.js:246
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Përmasat e figurës duhet të jenë e pakta 100x100px"
 
-#: .es5/scripts/lib/auth-errors.js:245
+#: .es5/scripts/lib/auth-errors.js:250
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Regjistrimi po vjen së shpejti edhe te Firefox-i për iOS"
 
-#: .es5/scripts/lib/auth-errors.js:256
+#: .es5/scripts/lib/auth-errors.js:261
 msgid "You must enter your age to sign up"
 msgstr "Duhet të jepni moshën tuaj që të regjistroheni"
 
-#: .es5/scripts/lib/auth-errors.js:260
+#: .es5/scripts/lib/auth-errors.js:265
 msgid "No Gravatar found"
 msgstr "Nuk u gjet Gravatar"
 
-#: .es5/scripts/lib/auth-errors.js:268
+#: .es5/scripts/lib/auth-errors.js:273
 msgid "Account no longer exists."
 msgstr "Llogaria s’ekziston më."
 
-#: .es5/scripts/lib/auth-errors.js:272
+#: .es5/scripts/lib/auth-errors.js:277
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Veti e pavlefshme te token-i i rimarrjes: %(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:276
+#: .es5/scripts/lib/auth-errors.js:281
 msgid "Missing property in resume token: %(property)s"
 msgstr "Token-it të rimarrjes i mungon një veti: %(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:280
+#: .es5/scripts/lib/auth-errors.js:285
 msgid "Invalid data attribute: %(property)s"
 msgstr "Atribut i pavlefshëm të dhënash: %(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:284
+#: .es5/scripts/lib/auth-errors.js:289
 msgid "Missing data attribute: %(property)s"
 msgstr "Atribut të dhënash që mungon: %(property)s"
+
+#: .es5/scripts/lib/auth-errors.js:306
+msgid "This is a required field"
+msgstr ""
+
+#: .es5/scripts/lib/config-loader.js:81
+msgid "Missing configuration"
+msgstr ""
+
+#: .es5/scripts/lib/config-loader.js:85
+msgid "Invalid configuration"
+msgstr ""
 
 #: .es5/scripts/lib/mailcheck.js:60
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -454,10 +473,12 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:17
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"Duke vazhduar më tej, pajtoheni me <a id=\"service-tos\" href=\"%(termsUri)s\">Kushtet e Shërbimit</a> dhe<a id=\"service-pp\" href=\"%(privacyUri)s\">Shënimet Mbi Privatësinë</a> të %(serviceName)s"
-" (%(serviceUri)s)."
+"Duke vazhduar më tej, pajtoheni me <a id=\"service-tos\" href=\"%(termsUri)s\">Kushtet e Shërbimit</a> dhe<a id=\"service-pp\" href=\"%(privacyUri)s\">Shënimet Mbi Privatësinë</a> të "
+"%(serviceName)s (%(serviceUri)s)."
 
 #: .es5/scripts/lib/strings.js:24
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -512,8 +533,8 @@ msgid "Choose what to sync"
 msgstr "Zgjidhni çfarë të njëkohësohet"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:2
-msgid "Tabs"
-msgstr "Skeda"
+msgid "Open tabs"
+msgstr ""
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
@@ -543,7 +564,7 @@ msgstr "Shtesat dhe Parapëlqimet hëpërhë nuk njëkohësohen në pajisje celu
 msgid "Save settings"
 msgstr "Ruaji rregullimet"
 
-#: .es5/scripts/templates/choose_what_to_sync.mustache:16 .es5/scripts/templates/confirm.mustache:13 .es5/scripts/templates/pp.mustache:3 .es5/scripts/templates/tos.mustache:3
+#: .es5/scripts/templates/choose_what_to_sync.mustache:16 .es5/scripts/templates/confirm.mustache:12 .es5/scripts/templates/pp.mustache:3 .es5/scripts/templates/tos.mustache:3
 #: .es5/scripts/templates/support/create_secure_password.mustache:2
 msgid "Back"
 msgstr "Mbrapsht"
@@ -554,22 +575,17 @@ msgstr "Mbrapsht"
 msgid "Reset password link expired"
 msgstr "Lidhja e ricaktimit të fjalëkalimit skadoi"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:2 .es5/scripts/templates/complete_sign_up.mustache:2 .es5/scripts/templates/confirm.mustache:5
-#: .es5/scripts/templates/confirm_reset_password.mustache:2
-msgid "Email resent"
-msgstr "Email-i u ridërgua"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:3
+#: .es5/scripts/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
 msgstr "Lidhja që klikuat për ricaktimin e fjalëkalimit tuaj ka skaduar."
 
-#: .es5/scripts/templates/complete_reset_password.mustache:4
+#: .es5/scripts/templates/complete_reset_password.mustache:3
 msgid "Click here to receive a new reset link"
 msgstr "Klikoni këtu që të merrni një lidhje të re ricaktimi"
 
 # Një kërkim i shpejtë te http://fjalori.shkenca.org/ për termin "rivendos"
 # "rivendosje" do të heqë çdo mëdyshje për propozimin e këtushëm.
-#: .es5/scripts/templates/complete_reset_password.mustache:6
+#: .es5/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
 msgstr "Lidhja e ricaktimit të fjalëkalimit është e dëmtuar"
 
@@ -579,7 +595,7 @@ msgstr "Lidhja e ricaktimit të fjalëkalimit është e dëmtuar"
 # pse fjala në Anglisht ka një grafemë edhe në Shqip. Puna është që kuptimet
 # që "karakteri" ka në Shqip janë tmerrësisht larg atij që po i vishet
 # "character"-it të Anglishtes:
-# 
+#
 # KARAKTER m.
 #     1. Tërësia e veçorive psikike më kryesore, që shfaqen në veprimtarinë e
 # në sjelljen e njeriut në shoqëri dhe që e shquajnë personalitetin e tij;
@@ -598,42 +614,42 @@ msgstr "Lidhja e ricaktimit të fjalëkalimit është e dëmtuar"
 # Karakter letrar. Karakter i plotë (i gjallë). Karakter dramatik (tragjik).
 # Karakter në letërsi (në art). Karakteret në prozën e Migjenit. Krijoi (dha)
 # një karakter të ri.
-# 
+#
 # Mjerisht, shumë shpesh, gomarllëqe të tilla nga të paditur të patëkeq lihen
 # të kalojnë me një syleshllëk të çuditshëm...
-# 
+#
 # P.S. Se kush e përdori i pari si "karaktere", nuk dihet.
-#: .es5/scripts/templates/complete_reset_password.mustache:7 .es5/scripts/templates/complete_sign_up.mustache:8
+#: .es5/scripts/templates/complete_reset_password.mustache:6 .es5/scripts/templates/complete_sign_up.mustache:7
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
 msgstr "Lidhjes që klikuat i mungonin shenja, dhe mund të jetë dëmtuar nga klienti juaj email. Kopjojeni adresën me kujdes, dhe riprovoni."
 
-#: .es5/scripts/templates/complete_reset_password.mustache:9
+#: .es5/scripts/templates/complete_reset_password.mustache:8
 msgid "Enter new password"
 msgstr "Jepni fjalëkalimin e ri"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:10
+#: .es5/scripts/templates/complete_reset_password.mustache:9
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
 msgstr "Pasi të parashtroni fjalëkalimin tuaj të ri, do të humbni çfarëdo të dhënash Sync-u që s’gjendet në ndonjë nga pajisjet tuaja."
 
-#: .es5/scripts/templates/complete_reset_password.mustache:11 .es5/scripts/templates/reset_password.mustache:3
+#: .es5/scripts/templates/complete_reset_password.mustache:10 .es5/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
 msgstr "Mësoni se si funksion Sync-u."
 
-#: .es5/scripts/templates/complete_reset_password.mustache:13 .es5/scripts/templates/settings/change_password.mustache:7
+#: .es5/scripts/templates/complete_reset_password.mustache:12 .es5/scripts/templates/settings/change_password.mustache:7
 msgid "New password"
 msgstr "Fjalëkalimi i ri"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:14 .es5/scripts/templates/complete_reset_password.mustache:17 .es5/scripts/templates/force_auth.mustache:5
+#: .es5/scripts/templates/complete_reset_password.mustache:13 .es5/scripts/templates/complete_reset_password.mustache:16 .es5/scripts/templates/force_auth.mustache:5
 #: .es5/scripts/templates/sign_in.mustache:9 .es5/scripts/templates/sign_in.mustache:21 .es5/scripts/templates/sign_up.mustache:17 .es5/scripts/templates/settings/change_password.mustache:5
 #: .es5/scripts/templates/settings/change_password.mustache:8 .es5/scripts/templates/settings/clients.mustache:2 .es5/scripts/templates/settings/delete_account.mustache:5
 msgid "Show"
 msgstr "Shfaqe"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:16
+#: .es5/scripts/templates/complete_reset_password.mustache:15
 msgid "Repeat password"
 msgstr "Rijepeni fjalëkalimin"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:18
+#: .es5/scripts/templates/complete_reset_password.mustache:17
 msgid "Submit new password"
 msgstr "Parashtroni fjalëkalimin e ri"
 
@@ -641,11 +657,11 @@ msgstr "Parashtroni fjalëkalimin e ri"
 msgid "Verification link expired"
 msgstr "Lidhja për verifikimin skadoi"
 
-#: .es5/scripts/templates/complete_sign_up.mustache:4
+#: .es5/scripts/templates/complete_sign_up.mustache:3
 msgid "Click here to receive a new verification link"
 msgstr "Klikoni këtu që të merrni një lidhje të re verifikimi"
 
-#: .es5/scripts/templates/complete_sign_up.mustache:10
+#: .es5/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification error"
 msgstr "Gabim verifikimi"
 
@@ -657,19 +673,19 @@ msgstr "Ripohoni llogarinë tuaj"
 msgid "Confirm this sign-in"
 msgstr "Ripohoni këtë hyrje"
 
-#: .es5/scripts/templates/confirm.mustache:6 .es5/scripts/templates/confirm_reset_password.mustache:3
+#: .es5/scripts/templates/confirm.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email Sent"
 msgstr "Email-i u Dërgua"
 
-#: .es5/scripts/templates/confirm.mustache:7
+#: .es5/scripts/templates/confirm.mustache:6
 msgid "A verification link has been sent&nbsp;to %(email)s"
 msgstr "Sapo u dërgua një lidhje verifikimi&nbsp;te %(email)s"
 
-#: .es5/scripts/templates/confirm.mustache:9
+#: .es5/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
 msgstr "Për mbrojtje më të mirë të të dhënave tuaja Firefox, ju kemi dërguar një lidhje ripohimi te %(email)s"
 
-#: .es5/scripts/templates/confirm.mustache:12 .es5/scripts/templates/confirm.mustache:14
+#: .es5/scripts/templates/confirm.mustache:11 .es5/scripts/templates/confirm.mustache:13
 msgid "Didn't arrive? Resend"
 msgstr "S’mbërriti? Kërkoni ridërgim"
 
@@ -677,15 +693,15 @@ msgstr "S’mbërriti? Kërkoni ridërgim"
 msgid "Reset email sent"
 msgstr "Email-i për ricaktim u dërgua"
 
-#: .es5/scripts/templates/confirm_reset_password.mustache:4
+#: .es5/scripts/templates/confirm_reset_password.mustache:3
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
 msgstr "Klikoni mbi lidhjen që ju dërguam me email te %(email)s brenda orës pasuese që të krijoni një fjalëkalim të ri."
 
-#: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7
+#: .es5/scripts/templates/confirm_reset_password.mustache:4 .es5/scripts/templates/confirm_reset_password.mustache:6
 msgid "Remember password? Sign in"
 msgstr "E mbani mend fjalëkalimin? Hyni"
 
-#: .es5/scripts/templates/confirm_reset_password.mustache:9
+#: .es5/scripts/templates/confirm_reset_password.mustache:8
 msgid "Didn’t arrive? Resend"
 msgstr "S’erdhi? Rimerreni"
 
@@ -726,7 +742,9 @@ msgstr "Harruat  fjalëkalimin?"
 
 #: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Duke vazhduar më tej, pajtoheni me <a id=\"fxa-tos\" href=\"/legal/terms\">Kushtet e Shërbimit</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy\">Shënimet Mbi Privatësinë</a> të shërbimeve re të Firefox-it."
+msgstr ""
+"Duke vazhduar më tej, pajtoheni me <a id=\"fxa-tos\" href=\"/legal/terms\">Kushtet e Shërbimit</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy\">Shënimet Mbi Privatësinë</a> të shërbimeve re të "
+"Firefox-it."
 
 #: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -781,9 +799,9 @@ msgid "Accept"
 msgstr "Pranojeni"
 
 #: .es5/scripts/templates/permissions.mustache:4 .es5/scripts/templates/settings/avatar_camera.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:3
-#: .es5/scripts/templates/settings/avatar_gravatar.mustache:3 .es5/scripts/templates/settings/change_password.mustache:11 .es5/scripts/templates/settings/communication_preferences.mustache:5
-#: .es5/scripts/templates/settings/communication_preferences.mustache:13 .es5/scripts/templates/settings/delete_account.mustache:7 .es5/scripts/templates/settings/display_name.mustache:6
-#: .es5/scripts/templates/settings/gravatar_permissions.mustache:5
+#: .es5/scripts/templates/settings/avatar_gravatar.mustache:3 .es5/scripts/templates/settings/change_password.mustache:11 .es5/scripts/templates/settings/client_disconnect.mustache:9
+#: .es5/scripts/templates/settings/communication_preferences.mustache:5 .es5/scripts/templates/settings/communication_preferences.mustache:13 .es5/scripts/templates/settings/delete_account.mustache:7
+#: .es5/scripts/templates/settings/display_name.mustache:6 .es5/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
 msgstr "Anuloje"
 
@@ -850,7 +868,8 @@ msgstr "Krijoni një Llogari Firefox"
 
 #: .es5/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-msgstr "Po kërkoni për Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Fillojani këtu</a>"
+msgstr ""
+"Po kërkoni për Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Fillojani këtu</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -926,21 +945,57 @@ msgstr "Pasi të përfundoni, përdorni fjalëkalimin tuaj të ri për të hyrë
 msgid "Old password"
 msgstr "Fjalëkalimi i vjetër"
 
+#: .es5/scripts/templates/settings/client_disconnect.mustache:1
+msgid "Disconnect from Sync?"
+msgstr ""
+
+#: .es5/scripts/templates/settings/client_disconnect.mustache:2
+msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
+msgstr ""
+
+#: .es5/scripts/templates/settings/client_disconnect.mustache:3
+msgid "Reason for disconnecting&hellip;"
+msgstr ""
+
+#: .es5/scripts/templates/settings/client_disconnect.mustache:4
+msgid "Suspicious device"
+msgstr ""
+
+#: .es5/scripts/templates/settings/client_disconnect.mustache:5
+msgid "Lost or stolen device"
+msgstr ""
+
+#: .es5/scripts/templates/settings/client_disconnect.mustache:6
+msgid "Old or replaced device"
+msgstr ""
+
+#: .es5/scripts/templates/settings/client_disconnect.mustache:7
+msgid "Rather not say"
+msgstr ""
+
+#: .es5/scripts/templates/settings/client_disconnect.mustache:8
+msgid "Disconnect"
+msgstr "Shkëpute"
+
+#: .es5/scripts/templates/settings/client_disconnect.mustache:10
+msgid "Disconnection Successful"
+msgstr ""
+
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-"href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+"\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox-i është i gatshëm për <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> dhe <a "
-"href=\"%(linkLinux)s\">Linux</a>."
+"Firefox-i është i gatshëm për <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> dhe <a href="
+"\"%(linkLinux)s\">Linux</a>."
 
 #: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
 msgstr "pajisja e tanishme"
 
 #: .es5/scripts/templates/settings/clients.mustache:6
-msgid "Disconnect"
-msgstr "Shkëpute"
+msgid "Disconnect&hellip;"
+msgstr ""
 
 #: .es5/scripts/templates/settings/clients.mustache:8
 msgid "Missing or duplicate items?"
@@ -1001,6 +1056,20 @@ msgstr "Përdor OpenID"
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Përdor Llogari Firefox"
+
+# ORVATJE f.
+#     Përpjekje me të gjitha forcat për të arritur a për të bërë diçka,
+# mundim.
+#
+# Nuk besoj se konteksti këtu, dhe në të gjitha rastet në kompjutera, përfshin
+# elemente mundimi. Përveç kësaj, në Shqipen e derisotme (të Shqipërisë)
+# "prova" është e mirëngulitur. Ndaj nuk gjej arsye përse duhet zëvendësuar me
+# orvatje. Gabim qofsha!
+#~ msgid "Attempt limit exceeded"
+#~ msgstr "U tejkalua kufiri i provave"
+
+#~ msgid "Tabs"
+#~ msgstr "Skeda"
 
 #~ msgid "Last active: days ago"
 #~ msgstr "Aktive së fundi: ditë më parë"
@@ -1206,5 +1275,5 @@ msgstr "Përdor Llogari Firefox"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Ju lutemi, aktivizoni cookie-t te shfletuesi juaj, të cilat janë të domosdoshme për Llogari Firefox. Cookie-t janë copëza të vogla të dhënash, të depozituara në shfletuesin tuaj, që bëjnë të mundur "
-#~ "funksione të tillë si mbajtja mend e sesioneve tuaj nga njëri në tjetrin."
+#~ "Ju lutemi, aktivizoni cookie-t te shfletuesi juaj, të cilat janë të domosdoshme për Llogari Firefox. Cookie-t janë copëza të vogla të dhënash, të depozituara në shfletuesin tuaj, që bëjnë të "
+#~ "mundur funksione të tillë si mbajtja mend e sesioneve tuaj nga njëri në tjetrin."

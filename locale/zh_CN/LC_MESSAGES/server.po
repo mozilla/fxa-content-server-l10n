@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-03 14:58+0000\n"
+"POT-Creation-Date: 2016-09-20 13:48+0000\n"
 "PO-Revision-Date: 2016-09-04 07:15+0000\n"
 "Last-Translator: YFdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444933939.0\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:519
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:527
 msgid "Still there?"
 msgstr "还在吗？"
 
@@ -31,8 +31,8 @@ msgstr "您已成功连接了首台设备到您的 Firefox 账号。现在您可
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr "您已成功连接了首台设备到您的 Firefox 账号。为了充分使用同步，连接任何 <a href='%(androidUrl)s'>Firefox Android 版</a> 或者 <a href='%(iosUrl)s'>Firefox iOS 版</a>吧。"
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
@@ -50,7 +50,7 @@ msgstr "登录“同步”"
 msgid "Firefox Accounts"
 msgstr "Firefox 账号"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:426
+#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:434
 msgid "New sign-in to Firefox"
 msgstr "新一次登录 Firefox"
 
@@ -62,13 +62,13 @@ msgstr "IP 地址：%(ip)s"
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr "这是一封自动发送的电子邮件。如果您没有进行此操作，<a %(passwordChangeLinkAttributes)s>请更改您的密码</a>。"
 
-#: templates/new_device_login.html:5 templates/password_changed.html:5 templates/password_reset.html:5 templates/post_verify.html:7 templates/recovery.html:8
+#: templates/new_device_login.html:5 templates/password_changed.html:5 templates/password_reset.html:5 templates/post_verify.html:7 templates/recovery.html:7
 #: templates/verification_reminder_first.html:7 templates/verification_reminder_second.html:7 templates/verify.html:7
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr "更多信息请访问 <a %(supportLinkAttributes)s>Mozilla 支持</a>。"
 
 #: templates/new_device_login.html:6 templates/new_device_login.txt:5 templates/password_changed.html:6 templates/password_changed.txt:5 templates/password_reset.html:6 templates/password_reset.txt:5
-#: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:8 templates/post_verify.txt:6 templates/recovery.html:9 templates/recovery.txt:7
+#: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:8 templates/post_verify.txt:6 templates/recovery.html:8 templates/recovery.txt:6
 #: templates/suspicious_location.html:14 templates/suspicious_location.txt:13 templates/verification_reminder_first.html:8 templates/verification_reminder_first.txt:6
 #: templates/verification_reminder_second.html:8 templates/verification_reminder_second.txt:6 templates/verify.html:8 templates/verify.txt:6 templates/verify_login.html:8 templates/verify_login.txt:6
 msgid "Mozilla Privacy Policy"
@@ -78,7 +78,7 @@ msgstr "Mozilla 隐私政策"
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
 msgstr "这是一封自动发送的邮件。如果您并未将一个新设备添加到您的 Firefox 账号，您应该立即在 %(passwordChangeLink)s 更改您的密码"
 
-#: templates/new_device_login.txt:4 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
+#: templates/new_device_login.txt:4 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:5 templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "更多信息请访问 %(supportUrl)s"
@@ -107,7 +107,7 @@ msgstr "您的密码已重置"
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
 msgstr "您的 Firefox 账号密码已更改；如果您并未更改，请立即<a %(resetLinkAttributes)s>重置您的密码</a>。"
 
-#: templates/password_reset.html:4 templates/post_verify.html:6 templates/post_verify.txt:4 templates/recovery.html:7 templates/recovery.txt:5 templates/verification_reminder_first.html:6
+#: templates/password_reset.html:4 templates/post_verify.html:6 templates/post_verify.txt:4 templates/recovery.html:6 templates/recovery.txt:4 templates/verification_reminder_first.html:6
 #: templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:6 templates/verification_reminder_second.txt:4 templates/verify.html:6 templates/verify.txt:4
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "这是一封自动发送的邮件；如果您并未要求但收到这封信件，您不需要进行任何操作。"
@@ -167,7 +167,7 @@ msgid ""
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr "您已成功连接您的首个设备到您的 Firefox 账号。现在您可以在您的其他设备上登录“同步”功能，包括 Firefox 的 <a %(androidLinkAttributes)s>Android</a> 和 <a %(iosLinkAttributes)s>iOS</a> 版。"
 
-#: templates/post_verify.html:5 templates/recovery.html:6 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
+#: templates/post_verify.html:5 templates/recovery.html:5 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
 #: templates/verify_login.html:6
 msgid "Alternatively:"
 msgstr "或者："
@@ -189,10 +189,6 @@ msgid "Click the button within the next hour to set a new password for your Fire
 msgstr "在一小时内点击按钮，为您的 Firefox 账号设置一个新密码。"
 
 #: templates/recovery.html:4 templates/recovery.txt:3
-msgid "Remember password? Sign in."
-msgstr "想起了密码？登录。"
-
-#: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
 msgstr "重置密码"
 
@@ -224,14 +220,14 @@ msgstr "为什么您会收到这封邮件？"
 msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
 msgstr "最近我们注意到 Firefox 账号从异常地点登录。作为预防措施我们现在给您发送通知。"
 
-#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:516
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:524
 msgid "Hello again."
 msgstr "我们又见面了。"
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-" email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+"this email address to activate your account."
 msgstr "几天前您创建了一个 Firefox 账号，但还没有验证它。已验证的账号使您可以在任何已连接账号的设备上访问您的标签页、书签、密码和历史记录。激活您的账号，只需确认这个电子邮件地址。"
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
@@ -278,43 +274,43 @@ msgstr "如果您怀疑有人在试图访问您的账号，<a %(passwordChangeLi
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr "如果您怀疑有人在试图访问您的账号，请更改您的密码。"
 
-#: mailer.js:159
+#: mailer.js:158
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(country)s，%(city)s（估计）"
 
-#: mailer.js:161
+#: mailer.js:160
 msgid "%(country)s (estimated)"
 msgstr "%(country)s（估计）"
 
-#: mailer.js:251
+#: mailer.js:260
 msgid "Verify your Firefox Account"
 msgstr "验证您的 Firefox 账号"
 
-#: mailer.js:290
+#: mailer.js:299
 msgid "Confirm new sign-in to Firefox"
 msgstr "确认新的 Firefox 登录"
 
-#: mailer.js:331
+#: mailer.js:340
 msgid "Reset your Firefox Account password"
 msgstr "重置您的 Firefox 账号密码"
 
-#: mailer.js:358
+#: mailer.js:366
 msgid "Your Firefox Account password has been changed"
 msgstr "您的 Firefox 账号密码已被更改"
 
-#: mailer.js:381
+#: mailer.js:389
 msgid "Your Firefox Account password has been reset"
 msgstr "您的 Firefox 账号密码已被重置"
 
-#: mailer.js:404
+#: mailer.js:412
 msgid "Firefox Account password reset required"
 msgstr "Firefox 账号密码必须重置"
 
-#: mailer.js:455
+#: mailer.js:463
 msgid "Firefox Account Verified"
 msgstr "Firefox 账号已验证"
 
-#: mailer.js:494
+#: mailer.js:502
 msgid "Suspicious activity with your Firefox Account"
 msgstr "您的 Firefox 账号有可疑活动"
 
@@ -370,6 +366,9 @@ msgstr "Firefox 云服务"
 msgid "Terms of Service"
 msgstr "服务条款"
 
+#~ msgid "Remember password? Sign in."
+#~ msgstr "想起了密码？登录。"
+
 #~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
 #~ msgstr "这是一封自动发送的邮件。如果您没有添加新设备到您的 Firefox 账号，请立即在 %(passwordChangeLink)s 更改您的密码"
 
@@ -409,7 +408,9 @@ msgstr "服务条款"
 #~ msgid ""
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr "几周前您创建了一个 Firefox 账号，但还没有验证它。我们很想念你。Firefox 可以在 Windows、Mac、Linux、Android 和 iOS 系统上使用。您可以用账号同步您的 Firefox 密码、书签和历史记录。我们渴望您确认这个电子邮件地址，以激活您的账号。"
+#~ msgstr ""
+#~ "几周前您创建了一个 Firefox 账号，但还没有验证它。我们很想念你。Firefox 可以在 Windows、Mac、Linux、Android 和 iOS 系统上使用。您可以用账号同步您的 Firefox 密码、书签和历史记录。我们渴望您确认这个"
+#~ "电子邮件地址，以激活您的账号。"
 
 #~ msgid "env"
 #~ msgstr "env"

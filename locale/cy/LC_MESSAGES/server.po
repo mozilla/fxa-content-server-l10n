@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-03 14:58+0000\n"
+"POT-Creation-Date: 2016-09-20 13:48+0000\n"
 "PO-Revision-Date: 2016-08-10 16:01+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1426193839.0\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:519
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:527
 msgid "Still there?"
 msgstr "Dal yna?"
 
@@ -54,7 +54,7 @@ msgstr "Mewngofnodwch i Sync"
 msgid "Firefox Accounts"
 msgstr "Cyfrifon Firefox"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:426
+#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:434
 msgid "New sign-in to Firefox"
 msgstr "Mewngofnodiad newydd i Firefox"
 
@@ -66,13 +66,13 @@ msgstr "Cyfeiriad IP: %(ip)s"
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr "E-bost awtomatig yw hwn; os nad ydych wedi awdurdodi'r weithred hon, yna <a %(passwordChangeLinkAttributes)s>newidiwch eich cyfrinair.</a>"
 
-#: templates/new_device_login.html:5 templates/password_changed.html:5 templates/password_reset.html:5 templates/post_verify.html:7 templates/recovery.html:8
+#: templates/new_device_login.html:5 templates/password_changed.html:5 templates/password_reset.html:5 templates/post_verify.html:7 templates/recovery.html:7
 #: templates/verification_reminder_first.html:7 templates/verification_reminder_second.html:7 templates/verify.html:7
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr "Am wybodaeth bellach, ewch i <a %(supportLinkAttributes)s>Mozilla Support</a>."
 
 #: templates/new_device_login.html:6 templates/new_device_login.txt:5 templates/password_changed.html:6 templates/password_changed.txt:5 templates/password_reset.html:6 templates/password_reset.txt:5
-#: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:8 templates/post_verify.txt:6 templates/recovery.html:9 templates/recovery.txt:7
+#: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:8 templates/post_verify.txt:6 templates/recovery.html:8 templates/recovery.txt:6
 #: templates/suspicious_location.html:14 templates/suspicious_location.txt:13 templates/verification_reminder_first.html:8 templates/verification_reminder_first.txt:6
 #: templates/verification_reminder_second.html:8 templates/verification_reminder_second.txt:6 templates/verify.html:8 templates/verify.txt:6 templates/verify_login.html:8 templates/verify_login.txt:6
 msgid "Mozilla Privacy Policy"
@@ -82,7 +82,7 @@ msgstr "Polisi Preifatrwydd Mozilla"
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
 msgstr ""
 
-#: templates/new_device_login.txt:4 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
+#: templates/new_device_login.txt:4 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:5 templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Am ragor o wybodaeth, ewch i %(supportUrl)s"
@@ -111,7 +111,7 @@ msgstr "Mae eich cyfrinair wedi ei ailosod"
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
 msgstr "Mae cyfrinair eich Cyfrif Firefox wedi newid. Os nad chi sydd wedi ei newid, <a %(resetLinkAttributes)s>newidiwch eich cyfrinair</a> nawr."
 
-#: templates/password_reset.html:4 templates/post_verify.html:6 templates/post_verify.txt:4 templates/recovery.html:7 templates/recovery.txt:5 templates/verification_reminder_first.html:6
+#: templates/password_reset.html:4 templates/post_verify.html:6 templates/post_verify.txt:4 templates/recovery.html:6 templates/recovery.txt:4 templates/verification_reminder_first.html:6
 #: templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:6 templates/verification_reminder_second.txt:4 templates/verify.html:6 templates/verify.txt:4
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "E-bost awtomatig yw hwn; os ydych wedi derbyn yr e-bost hwn ar gam, nid oes angen gweithredu."
@@ -175,7 +175,7 @@ msgstr ""
 "Rydych wedi cysylltu eich dyfais cyntaf yn llwyddiannus i'ch cyfrif Firefox. Nawr gallwch fewngofnodi er mwyn cydweddu eich dyfeisiau eraill, gan gynnwys Firefox ar gyfer <a "
 "%(androidLinkAttributes)s>Android</a> ac <a %(iosLinkAttributes)s>iOS</a>."
 
-#: templates/post_verify.html:5 templates/recovery.html:6 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
+#: templates/post_verify.html:5 templates/recovery.html:5 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
 #: templates/verify_login.html:6
 msgid "Alternatively:"
 msgstr "Yn lle hynny:"
@@ -197,10 +197,6 @@ msgid "Click the button within the next hour to set a new password for your Fire
 msgstr "Cliciwch y botwm o fewn yr awr nesaf i osod cyfrinair newydd ar eich Cyfrif Firefox."
 
 #: templates/recovery.html:4 templates/recovery.txt:3
-msgid "Remember password? Sign in."
-msgstr "Cofio eich cyfrinair? Mewngofnodwch."
-
-#: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
 msgstr "Ailosod y cyfrinair"
 
@@ -234,7 +230,7 @@ msgstr "Pam rydych chi'n cael e-bost hwn?"
 msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
 msgstr "Yn ddiweddar, rydym wedi sylwi ar fewngofnodi i Gyfrifon Firefox o leoliadau anarferol. Rydym yn eich hysbysu rhag ofn."
 
-#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:516
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:524
 msgid "Hello again."
 msgstr "Helo eto."
 
@@ -290,43 +286,43 @@ msgstr "Os ydych yn amau fod rhywun yn ceisio cael mynediad at eich cyfrif, <a %
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr "Os ydych yn amau bod rhywun yn ceisio cael mynediad at eich cyfrif, newidiwch eich cyfrinair."
 
-#: mailer.js:159
+#: mailer.js:158
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (amcan)"
 
-#: mailer.js:161
+#: mailer.js:160
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (amcan)"
 
-#: mailer.js:251
+#: mailer.js:260
 msgid "Verify your Firefox Account"
 msgstr "Gwiriwch eich Cyfrif Firefox"
 
-#: mailer.js:290
+#: mailer.js:299
 msgid "Confirm new sign-in to Firefox"
 msgstr "Cadarnhewch fewngofnodiad newydd i Firefox"
 
-#: mailer.js:331
+#: mailer.js:340
 msgid "Reset your Firefox Account password"
 msgstr "Ailosodwch gyfrinair eich Cyfrif Firefox"
 
-#: mailer.js:358
+#: mailer.js:366
 msgid "Your Firefox Account password has been changed"
 msgstr "Mae cyfrinair eich cyfrif Firefox wedi ei newid"
 
-#: mailer.js:381
+#: mailer.js:389
 msgid "Your Firefox Account password has been reset"
 msgstr "Mae cyfrinair eich Cyfrif Firefox wedi ei ailosod"
 
-#: mailer.js:404
+#: mailer.js:412
 msgid "Firefox Account password reset required"
 msgstr "Mae angen ailosod cyfrinair eich Cyfrif Firefox"
 
-#: mailer.js:455
+#: mailer.js:463
 msgid "Firefox Account Verified"
 msgstr "Cyfrif Firefox Wedi ei Wirio"
 
-#: mailer.js:494
+#: mailer.js:502
 msgid "Suspicious activity with your Firefox Account"
 msgstr "Mae ôl gweithgaredd amheus yn eich Cyfrif Firefox"
 
@@ -381,6 +377,9 @@ msgstr "Gwasanaethau cwmwl Firefox"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Amodau Gwasanaeth"
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "Cofio eich cyfrinair? Mewngofnodwch."
 
 #~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
 #~ msgstr "E-bost awtomatig yw hwn; os nad ydych wedi ychwanegu dyfais newydd i'ch Cyfrif Firefox, dylech newid eich cyfrinair yn syth yn %(passwordChangeLink)s"
