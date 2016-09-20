@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-03 14:58+0000\n"
-"PO-Revision-Date: 2016-09-14 13:38+0000\n"
+"PO-Revision-Date: 2016-09-20 12:10+0000\n"
 "Last-Translator: orvils <orvils@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lv\n"
@@ -148,19 +148,19 @@ msgstr "Atvērt Outlook"
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:24
 msgid "8 characters minimum, but longer if you plan to sync passwords."
-msgstr ""
+msgstr "8 simboli ir minimums, bet garāku ja plānojat sinhronizēt paroles."
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:25 .es5/scripts/templates/sign_up.mustache:18
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr ""
+msgstr "Stipra, unikāla parole saglabās jūsu Firefox datus drošus."
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:26
 msgid "This is a common password; please consider another one."
-msgstr ""
+msgstr "Šī ir populāra parole; lūdzu apsveriet citu paroli."
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:27
 msgid "This is a common password; please consider another one. %(moreInfoLink)s"
-msgstr ""
+msgstr "Šī ir populāra paroli; lūdzu apsveriet citu paroli. %(moreInfoLink)s"
 
 #: .es5/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
@@ -449,11 +449,11 @@ msgstr "Saņemt jaunākās ziņas par Mozilla un Firefox."
 
 #: .es5/scripts/lib/strings.js:31
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (saskaitītas)"
 
 #: .es5/scripts/lib/strings.js:32
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (saskaitītas)"
 
 #: .es5/scripts/lib/strings.js:33
 msgid "IP address: %(ip)s"
@@ -461,7 +461,7 @@ msgstr "IP adrese: %(ip)s"
 
 #: .es5/scripts/lib/strings.js:34
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "Pievienotai drošībai, lūdzu apstipriniet šo pieslēgumu lai sinhronizētos ar šo ierīci:"
 
 #: .es5/scripts/templates/400.mustache:1
 msgid "Bad Request"
@@ -629,11 +629,11 @@ msgstr "Lai izveidotu jaunu paroli, noklikšķiniet uz saites mēs esam jums aiz
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "Atceries paroli? Pieslēdzies"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:9
 msgid "Didn’t arrive? Resend"
-msgstr ""
+msgstr "Neatnāca? Pārsūtīt"
 
 #: .es5/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -795,7 +795,7 @@ msgstr "Izveidot Firefox kontu"
 
 #: .es5/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-msgstr ""
+msgstr "Meklē Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Sāc šeit</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
