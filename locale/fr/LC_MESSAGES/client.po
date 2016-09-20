@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-20 13:48+0000\n"
-"PO-Revision-Date: 2016-09-20 15:17+0000\n"
+"PO-Revision-Date: 2016-09-20 15:59+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -90,10 +90,13 @@ msgstr "Changement de mot de passe réussi"
 #: .es5/scripts/views/settings/client_disconnect.js:18
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
 msgstr ""
+"Nous sommes navrés d’apprendre cela. Vous devriez changer le mot de passe de votre compte Firefox et consulter les instructions du fabricant de votre appareil afin d’effacer vos données à distance."
 
 #: .es5/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr ""
+"Nous sommes navrés d’apprendre cela. S’il s’agissait d’un appareil vraiment suspect, vous devriez changer le mot de passe de votre compte Firefox, ainsi que l’ensemble des mots de passe enregistrés "
+"dans Firefox."
 
 #: .es5/scripts/views/settings/clients.js:53
 msgid "Last active: %(translatedTimeAgo)s"
@@ -190,11 +193,11 @@ msgstr "Le lien de confirmation de l’adresse électronique sur lequel vous ven
 
 #: .es5/scripts/lib/auth-errors.js:21
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "Vous avez effectué trop d’essais. Veuillez réessayer plus tard."
 
 #: .es5/scripts/lib/auth-errors.js:25
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "Vous avez effectué trop d’essais. Veuillez réessayer %(retryAfterLocalized)s."
 
 #: .es5/scripts/lib/auth-errors.js:35 .es5/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
@@ -904,11 +907,11 @@ msgstr "Se déconnecter de Sync ?"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr ""
+msgstr "Vos données de navigation seront conservées sur %(deviceName)s, cependant la synchronisation avec votre compte n’aura plus lieu."
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Reason for disconnecting&hellip;"
-msgstr ""
+msgstr "Raison de la déconnexion&hellip;"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
