@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-20 13:48+0000\n"
-"PO-Revision-Date: 2016-09-05 14:31+0000\n"
+"PO-Revision-Date: 2016-09-20 15:17+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -383,15 +383,15 @@ msgstr "Attribut de données manquant : %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:306
 msgid "This is a required field"
-msgstr ""
+msgstr "Ce champ est requis"
 
 #: .es5/scripts/lib/config-loader.js:81
 msgid "Missing configuration"
-msgstr ""
+msgstr "Configuration manquante"
 
 #: .es5/scripts/lib/config-loader.js:85
 msgid "Invalid configuration"
-msgstr ""
+msgstr "Configuration invalide"
 
 #: .es5/scripts/lib/mailcheck.js:60
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -462,9 +462,7 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:17
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "En continuant, vous acceptez les <a id=\"service-tos\" href=\"%(termsUri)s\">conditions d’utilisation</a> et la <a id=\"service-pp\" href=\"%(privacyUri)s\">politique de confidentialité</a> de "
 "%(serviceName)s (%(serviceUri)s).                "
@@ -523,7 +521,7 @@ msgstr "Choisir les informations à synchroniser"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Open tabs"
-msgstr ""
+msgstr "Onglets ouverts"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
@@ -902,7 +900,7 @@ msgstr "Ancien mot de passe"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
-msgstr ""
+msgstr "Se déconnecter de Sync ?"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
@@ -914,19 +912,19 @@ msgstr ""
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
-msgstr ""
+msgstr "Appareil suspect"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen device"
-msgstr ""
+msgstr "Appareil perdu ou volé"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced device"
-msgstr ""
+msgstr "Ancien appareil ou appareil remplacé"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
-msgstr ""
+msgstr "Je préfère ne rien indiquer"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:8
 msgid "Disconnect"
@@ -934,15 +932,15 @@ msgstr "Déconnecter"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
-msgstr ""
+msgstr "Déconnexion réussie"
 
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox est disponible pour <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> et <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox est disponible pour <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> et <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 
 #: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
@@ -950,7 +948,7 @@ msgstr "cet appareil"
 
 #: .es5/scripts/templates/settings/clients.mustache:6
 msgid "Disconnect&hellip;"
-msgstr ""
+msgstr "Déconnecter&hellip;"
 
 #: .es5/scripts/templates/settings/clients.mustache:8
 msgid "Missing or duplicate items?"
@@ -1227,8 +1225,8 @@ msgstr "Utiliser un compte Firefox"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Veuillez autoriser les cookies dans votre navigateur&nbsp;; ceux-ci sont nécessaires pour les comptes Firefox. Les cookies sont des données enregistrées dans votre navigateur qui nous permettent "
-#~ "de nous souvenir de vous entre vos sessions.                "
+#~ "Veuillez autoriser les cookies dans votre navigateur&nbsp;; ceux-ci sont nécessaires pour les comptes Firefox. Les cookies sont des données enregistrées dans votre navigateur qui nous permettent de "
+#~ "nous souvenir de vous entre vos sessions.                "
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox sera bientôt disponible sur iOS !"
@@ -1374,9 +1372,7 @@ msgstr "Utiliser un compte Firefox"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Vous possédez déjà un compte ? Connectez-vous."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
 #~ "En continuant, j'accepte les <a id=\"service-tos\" href=\"%(termsUri)s\">conditions d'utilisation</a> et la <a id=\"service-pp\" href=\"%(privacyUri)s\">politique de confidentialité</a> de "
 #~ "%(serviceName)s (%(serviceUri)s)."
