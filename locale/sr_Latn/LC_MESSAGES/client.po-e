@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-03 14:58+0000\n"
-"PO-Revision-Date: 2016-08-11 13:05+0000\n"
+"POT-Creation-Date: 2016-09-20 13:48+0000\n"
+"PO-Revision-Date: 2016-09-04 18:34+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -16,18 +16,18 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1438059120.0\n"
 
-#: .es5/scripts/views/complete_reset_password.js:124
-#: .es5/scripts/views/complete_sign_up.js:123 .es5/scripts/views/confirm.js:131
-#: .es5/scripts/views/confirm_reset_password.js:177
+#: .es5/scripts/views/complete_reset_password.js:121
+#: .es5/scripts/views/complete_sign_up.js:117 .es5/scripts/views/confirm.js:124
+#: .es5/scripts/views/confirm_reset_password.js:173
 msgid "Account verified successfully"
 msgstr "Nalog je uspešno potvrđen"
 
-#: .es5/scripts/views/confirm_reset_password.js:169
+#: .es5/scripts/views/confirm_reset_password.js:165
 #: .es5/scripts/views/ready.js:43
 msgid "Password reset"
 msgstr "Resetovanje lozinke"
 
-#: .es5/scripts/views/confirm_reset_password.js:196
+#: .es5/scripts/views/confirm_reset_password.js:192
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Lozinka je uspešno resetovana. Prijavite se da biste nastavili."
 
@@ -95,25 +95,39 @@ msgstr "Ljubaznost <a href=\"https://www.gravatar.com\">Gravatar-a</a>"
 msgid "Password changed successfully"
 msgstr "Lozinka je uspešno promenjena"
 
-#: .es5/scripts/views/settings/clients.js:53
-msgid "Last active: %(translatedTimeAgo)s"
+#: .es5/scripts/views/settings/client_disconnect.js:18
+msgid ""
+"We're sorry to hear about this. You should change your Firefox Account "
+"password, and look for information from your device manufacturer about "
+"erasing your data remotely."
 msgstr ""
 
-#: .es5/scripts/views/settings/clients.js:90
+#: .es5/scripts/views/settings/client_disconnect.js:19
+msgid ""
+"We're sorry to hear about this. If this was a device you really don't trust, "
+"you should change your Firefox Account password, and change any passwords "
+"saved in Firefox."
+msgstr ""
+
+#: .es5/scripts/views/settings/clients.js:53
+msgid "Last active: %(translatedTimeAgo)s"
+msgstr "Poslednja aktivnost: %(translatedTimeAgo)s"
+
+#: .es5/scripts/views/settings/clients.js:91
 msgid "Devices"
 msgstr "Uređaji"
 
-#: .es5/scripts/views/settings/clients.js:93
+#: .es5/scripts/views/settings/clients.js:94
 msgid "Devices & apps"
-msgstr ""
+msgstr "Uređaji i aplikacije"
 
-#: .es5/scripts/views/settings/clients.js:100
+#: .es5/scripts/views/settings/clients.js:101
 msgid "You can manage your devices below."
 msgstr "Ispod možete da upravljate sa uređajima."
 
-#: .es5/scripts/views/settings/clients.js:103
+#: .es5/scripts/views/settings/clients.js:104
 msgid "You can manage your devices and apps below."
-msgstr ""
+msgstr "Možete upravljati vašim uređajima i aplikacijama ispod."
 
 #: .es5/scripts/views/settings/communication_preferences.js:111
 msgid "Subscribed successfully"
@@ -132,7 +146,7 @@ msgid "Display name updated"
 msgstr "Prikaži ažurirano ime"
 
 #: .es5/scripts/views/mixins/account-reset-mixin.js:41
-#: .es5/scripts/lib/auth-errors.js:108
+#: .es5/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
 msgstr "Nalog je zaključan zbog sigurnosnih razloga"
 
@@ -157,30 +171,36 @@ msgstr "Otvori Yahoo"
 msgid "Open Outlook"
 msgstr "Otvori Outlook"
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:24
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:22
 msgid "8 characters minimum, but longer if you plan to sync passwords."
 msgstr "8 karaktera minimum, ali duža ako planirate da sinhronizujete lozinke."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:25
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:23
 #: .es5/scripts/templates/sign_up.mustache:18
 msgid ""
 "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "Jaka i jedinstvena lozinka će čuvati vaše podatke sigurnim od uljeza."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:26
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:24
 msgid "This is a common password; please consider another one."
 msgstr "Ovo je uobičajena lozinka; unesite neku drugu."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:27
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:25
 msgid ""
 "This is a common password; please consider another one. %(moreInfoLink)s"
 msgstr ""
+"Ovo je često upotrebljivana lozinka; razmislite o nekoj drugoj. "
+"%(moreInfoLink)s"
+
+#: .es5/scripts/views/mixins/resend-mixin.js:53
+msgid "Email resent"
+msgstr "E-pošta je ponovo poslata"
 
 #: .es5/scripts/views/mixins/signed-out-notification-mixin.js:39
 msgid "Signed out successfully"
 msgstr "Odjavili ste se usešno"
 
-#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/config-loader.js:79
+#: .es5/scripts/lib/auth-errors.js:19
 #: .es5/scripts/lib/marketing-email-errors.js:17
 #: .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39
 #: .es5/scripts/lib/profile-errors.js:47
@@ -192,205 +212,221 @@ msgid "Unexpected error"
 msgstr "Neočekivana greška"
 
 #: .es5/scripts/lib/auth-errors.js:20
-#: .es5/scripts/templates/complete_sign_up.mustache:3
+#: .es5/scripts/templates/complete_sign_up.mustache:2
 msgid "The link you clicked to verify your email is expired."
 msgstr "Veza koju ste kliknuli za potvrdu e-pošte je istekla."
 
-#: .es5/scripts/lib/auth-errors.js:30 .es5/scripts/lib/oauth-errors.js:50
+#: .es5/scripts/lib/auth-errors.js:21
+msgid "You've tried too many times. Try again later."
+msgstr ""
+
+#: .es5/scripts/lib/auth-errors.js:25
+msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
+msgstr ""
+
+#: .es5/scripts/lib/auth-errors.js:35 .es5/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
 msgstr "Nevažeći token"
 
-#: .es5/scripts/lib/auth-errors.js:34
+#: .es5/scripts/lib/auth-errors.js:39
 msgid "Invalid timestamp in request signature"
 msgstr "Nevažeće vremensko organičenje u zahtevu za potpis"
 
-#: .es5/scripts/lib/auth-errors.js:38
+#: .es5/scripts/lib/auth-errors.js:43
 msgid "Invalid nonce in request signature"
 msgstr "Nevažeći uzorak u zahtevu za potpis"
 
-#: .es5/scripts/lib/auth-errors.js:42
+#: .es5/scripts/lib/auth-errors.js:47
 msgid "Account already exists"
 msgstr "Nalog već postoji"
 
-#: .es5/scripts/lib/auth-errors.js:46
+#: .es5/scripts/lib/auth-errors.js:51
 msgid "Unknown account"
 msgstr "Nepoznat nalog"
 
-#: .es5/scripts/lib/auth-errors.js:50
+#: .es5/scripts/lib/auth-errors.js:55
 msgid "Incorrect email case"
 msgstr "Pogrešna e-pošta"
 
-#: .es5/scripts/lib/auth-errors.js:54
+#: .es5/scripts/lib/auth-errors.js:59
 msgid "Incorrect password"
 msgstr "Pogrešna lozinka"
 
-#: .es5/scripts/lib/auth-errors.js:58
+#: .es5/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
 msgstr "Nepotvrđen nalog"
 
-#: .es5/scripts/lib/auth-errors.js:62
+#: .es5/scripts/lib/auth-errors.js:67
 msgid "Invalid verification code"
 msgstr "Nevažeći kod za potvrdu"
 
-#: .es5/scripts/lib/auth-errors.js:66
+#: .es5/scripts/lib/auth-errors.js:71
 msgid "Invalid JSON in request body"
 msgstr "Nevažeći JSON u telu za zahtev"
 
-#: .es5/scripts/lib/auth-errors.js:70
+#: .es5/scripts/lib/auth-errors.js:75
 msgid "Invalid parameter: %(param)s"
 msgstr "Nevažeći parametar: %(param)s"
 
-#: .es5/scripts/lib/auth-errors.js:74
+#: .es5/scripts/lib/auth-errors.js:79
 msgid "Missing parameter: %(param)s"
 msgstr "Nedostaje parametar: %(param)s"
 
-#: .es5/scripts/lib/auth-errors.js:78
+#: .es5/scripts/lib/auth-errors.js:83
 msgid "Invalid request signature"
 msgstr "Nevažeći zahtev potpisa"
 
-#: .es5/scripts/lib/auth-errors.js:82
+#: .es5/scripts/lib/auth-errors.js:87
 msgid "Missing content-length header"
 msgstr "Nedostaje dužina sadržaja zaglavlja"
 
-#: .es5/scripts/lib/auth-errors.js:86
+#: .es5/scripts/lib/auth-errors.js:91
 msgid "Request body too large"
 msgstr "Telo zahteva je preveliko"
 
-#: .es5/scripts/lib/auth-errors.js:90
-msgid "Attempt limit exceeded"
-msgstr "Broj pokušaja prekoračen"
-
-#: .es5/scripts/lib/auth-errors.js:104
+#: .es5/scripts/lib/auth-errors.js:109
 msgid "The request was blocked for security reasons"
 msgstr "Zahtev je blokiran iz sigurnosnih razloga"
 
-#: .es5/scripts/lib/auth-errors.js:112 .es5/scripts/lib/auth-errors.js:289
+#: .es5/scripts/lib/auth-errors.js:117 .es5/scripts/lib/auth-errors.js:294
 msgid "Server busy, try again soon"
 msgstr "Server zauzet, pokušajte ponovo za par minuta"
 
-#: .es5/scripts/lib/auth-errors.js:116
+#: .es5/scripts/lib/auth-errors.js:121
 msgid "This endpoint is no longer supported"
 msgstr "Krajnja tačka više nije podržana"
 
-#: .es5/scripts/lib/auth-errors.js:120 .es5/scripts/lib/config-loader.js:75
+#: .es5/scripts/lib/auth-errors.js:125
 #: .es5/scripts/lib/marketing-email-errors.js:25
 #: .es5/scripts/lib/marketing-email-errors.js:79
 #: .es5/scripts/lib/oauth-errors.js:80 .es5/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Sistem nedostupan, pokušajte ponovo za par minuta"
 
-#: .es5/scripts/lib/auth-errors.js:124 .es5/scripts/lib/oauth-errors.js:104
+#: .es5/scripts/lib/auth-errors.js:129 .es5/scripts/lib/oauth-errors.js:104
 msgid "no message"
 msgstr "nema poruka"
 
-#: .es5/scripts/lib/auth-errors.js:128
+#: .es5/scripts/lib/auth-errors.js:133
 msgid "Session expired. Sign in to continue."
 msgstr "Sesija je istekla. Prijavite se da biste nastavili."
 
-#: .es5/scripts/lib/auth-errors.js:132
+#: .es5/scripts/lib/auth-errors.js:137
 msgid "Cookies are still disabled"
 msgstr "Kolačići su još uvek onemogućeni"
 
-#: .es5/scripts/lib/auth-errors.js:136
+#: .es5/scripts/lib/auth-errors.js:141
 msgid "Passwords do not match"
 msgstr "Lozinke se ne poklapaju"
 
-#: .es5/scripts/lib/auth-errors.js:140
+#: .es5/scripts/lib/auth-errors.js:145
 msgid "Working…"
 msgstr "Radim..."
 
-#: .es5/scripts/lib/auth-errors.js:144
+#: .es5/scripts/lib/auth-errors.js:149
 msgid "Could not get Privacy Notice"
 msgstr "Nismo mogli dobaviti Obaveštenje o privatnosti"
 
-#: .es5/scripts/lib/auth-errors.js:148
+#: .es5/scripts/lib/auth-errors.js:153
 msgid "Could not get Terms of Service"
 msgstr "Nismo mogli dobaviti Uslove usluga"
 
-#: .es5/scripts/lib/auth-errors.js:152
+#: .es5/scripts/lib/auth-errors.js:157
 msgid "Your new password must be different"
 msgstr "Nova lozinka mora biti drugačija"
 
-#: .es5/scripts/lib/auth-errors.js:156
-#: .es5/scripts/templates/complete_reset_password.mustache:15
+#: .es5/scripts/lib/auth-errors.js:161
+#: .es5/scripts/templates/complete_reset_password.mustache:14
 #: .es5/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "Mora biti najmanje 8 karaktera"
 
-#: .es5/scripts/lib/auth-errors.js:160
+#: .es5/scripts/lib/auth-errors.js:165
 msgid "Valid password required"
 msgstr "Potrebna je ispravna lozinka"
 
-#: .es5/scripts/lib/auth-errors.js:164 .es5/scripts/lib/auth-errors.js:202
-#: .es5/scripts/lib/auth-errors.js:218
+#: .es5/scripts/lib/auth-errors.js:169 .es5/scripts/lib/auth-errors.js:207
+#: .es5/scripts/lib/auth-errors.js:223
 msgid "Valid email required"
 msgstr "Potrebna je ispravna e-pošta"
 
-#: .es5/scripts/lib/auth-errors.js:175
+#: .es5/scripts/lib/auth-errors.js:180
 msgid "A usable image was not found"
 msgstr "Upotrebljiva slika nije pronađena"
 
-#: .es5/scripts/lib/auth-errors.js:179
+#: .es5/scripts/lib/auth-errors.js:184
 msgid "Could not initialize camera"
 msgstr "Nije moguće pokrenuti kameru"
 
-#: .es5/scripts/lib/auth-errors.js:183
+#: .es5/scripts/lib/auth-errors.js:188
 msgid "Valid URL required"
 msgstr "Potrebna je ispravna URL adresa"
 
-#: .es5/scripts/lib/auth-errors.js:198
+#: .es5/scripts/lib/auth-errors.js:203
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "E-pošta za potvrdu se upravo vratila. Pogrešna e-pošta?"
 
-#: .es5/scripts/lib/auth-errors.js:206
+#: .es5/scripts/lib/auth-errors.js:211
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Unesite validnu adresu e-pošte. firefox.com ne nudi e-pošte."
 
-#: .es5/scripts/lib/auth-errors.js:214
+#: .es5/scripts/lib/auth-errors.js:219
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 "Firefox nalozi mogu biti postavljeni samo u IFRAME-u na odobrenim sajtovima"
 
-#: .es5/scripts/lib/auth-errors.js:233
-#: .es5/scripts/templates/complete_sign_up.mustache:7
+#: .es5/scripts/lib/auth-errors.js:238
+#: .es5/scripts/templates/complete_sign_up.mustache:6
 msgid "Verification link damaged"
 msgstr "Veza za potvrdu je oštećena"
 
-#: .es5/scripts/lib/auth-errors.js:241
+#: .es5/scripts/lib/auth-errors.js:246
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Dimenzije slike moraju biti najmanje 100x100px"
 
-#: .es5/scripts/lib/auth-errors.js:245
+#: .es5/scripts/lib/auth-errors.js:250
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Uskoro stiže prijava za Firefox za iOS"
 
-#: .es5/scripts/lib/auth-errors.js:256
+#: .es5/scripts/lib/auth-errors.js:261
 msgid "You must enter your age to sign up"
 msgstr "Morate da unesete godine da biste se registrovali"
 
-#: .es5/scripts/lib/auth-errors.js:260
+#: .es5/scripts/lib/auth-errors.js:265
 msgid "No Gravatar found"
 msgstr "Gravatar nije pronađen"
 
-#: .es5/scripts/lib/auth-errors.js:268
+#: .es5/scripts/lib/auth-errors.js:273
 msgid "Account no longer exists."
 msgstr "Nalog više ne postoji."
 
-#: .es5/scripts/lib/auth-errors.js:272
+#: .es5/scripts/lib/auth-errors.js:277
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Neispravano svojstvo u resume tokenu: %(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:276
+#: .es5/scripts/lib/auth-errors.js:281
 msgid "Missing property in resume token: %(property)s"
 msgstr "Svojstvo nedostaje u resume tokenu: %(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:280
+#: .es5/scripts/lib/auth-errors.js:285
 msgid "Invalid data attribute: %(property)s"
 msgstr "Neispravna osobina podatka: %(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:284
+#: .es5/scripts/lib/auth-errors.js:289
 msgid "Missing data attribute: %(property)s"
 msgstr "Nedostaje osobina podatka: %(property)s"
+
+#: .es5/scripts/lib/auth-errors.js:306
+msgid "This is a required field"
+msgstr ""
+
+#: .es5/scripts/lib/config-loader.js:81
+msgid "Missing configuration"
+msgstr ""
+
+#: .es5/scripts/lib/config-loader.js:85
+msgid "Invalid configuration"
+msgstr ""
 
 #: .es5/scripts/lib/mailcheck.js:60
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -538,8 +574,8 @@ msgid "Choose what to sync"
 msgstr "Odaberite šta želite da uskladite"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:2
-msgid "Tabs"
-msgstr "Jezičci"
+msgid "Open tabs"
+msgstr ""
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
@@ -570,7 +606,7 @@ msgid "Save settings"
 msgstr "Snimi postavke"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:16
-#: .es5/scripts/templates/confirm.mustache:13
+#: .es5/scripts/templates/confirm.mustache:12
 #: .es5/scripts/templates/pp.mustache:3 .es5/scripts/templates/tos.mustache:3
 #: .es5/scripts/templates/support/create_secure_password.mustache:2
 msgid "Back"
@@ -581,26 +617,19 @@ msgid "Reset password link expired"
 msgstr "Veza za resetovanje lozinke je istekla"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:2
-#: .es5/scripts/templates/complete_sign_up.mustache:2
-#: .es5/scripts/templates/confirm.mustache:5
-#: .es5/scripts/templates/confirm_reset_password.mustache:2
-msgid "Email resent"
-msgstr "E-pošta je ponovo poslata"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:3
 msgid "The link you clicked to reset your password is expired."
 msgstr "Vezu koju ste kliknuli za obnavljanje lozinke je istekla."
 
-#: .es5/scripts/templates/complete_reset_password.mustache:4
+#: .es5/scripts/templates/complete_reset_password.mustache:3
 msgid "Click here to receive a new reset link"
 msgstr "Kliknite ovde da biste primili novu vezu za obnavljanje"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:6
+#: .es5/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
 msgstr "Veza za resetovanje lozinke je oštećena"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:7
-#: .es5/scripts/templates/complete_sign_up.mustache:8
+#: .es5/scripts/templates/complete_reset_password.mustache:6
+#: .es5/scripts/templates/complete_sign_up.mustache:7
 msgid ""
 "The link you clicked was missing characters, and may have been broken by "
 "your email client. Copy the address carefully, and try again."
@@ -608,11 +637,11 @@ msgstr ""
 "Vezi na koju ste kliknuli fale karakteri, i možda ju je oštetio vaš klijent "
 "za e-poštu. Pažljivo prekopirajte adresu, i pokušajte ponovo."
 
-#: .es5/scripts/templates/complete_reset_password.mustache:9
+#: .es5/scripts/templates/complete_reset_password.mustache:8
 msgid "Enter new password"
 msgstr "Unesite novu lozinku"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:10
+#: .es5/scripts/templates/complete_reset_password.mustache:9
 msgid ""
 "Once you submit your new password, you will lose any Sync data that is not "
 "on one of your devices."
@@ -620,18 +649,18 @@ msgstr ""
 "Kada uneste novu lozinku, izgubićete one Sync podatke koji nisu ni na jednom "
 "vašem uređaju."
 
-#: .es5/scripts/templates/complete_reset_password.mustache:11
+#: .es5/scripts/templates/complete_reset_password.mustache:10
 #: .es5/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
 msgstr "Saznajte kako Sync radi."
 
-#: .es5/scripts/templates/complete_reset_password.mustache:13
+#: .es5/scripts/templates/complete_reset_password.mustache:12
 #: .es5/scripts/templates/settings/change_password.mustache:7
 msgid "New password"
 msgstr "Nova lozinka"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:14
-#: .es5/scripts/templates/complete_reset_password.mustache:17
+#: .es5/scripts/templates/complete_reset_password.mustache:13
+#: .es5/scripts/templates/complete_reset_password.mustache:16
 #: .es5/scripts/templates/force_auth.mustache:5
 #: .es5/scripts/templates/sign_in.mustache:9
 #: .es5/scripts/templates/sign_in.mustache:21
@@ -643,11 +672,11 @@ msgstr "Nova lozinka"
 msgid "Show"
 msgstr "Prikaži"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:16
+#: .es5/scripts/templates/complete_reset_password.mustache:15
 msgid "Repeat password"
 msgstr "Ponovite lozinku"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:18
+#: .es5/scripts/templates/complete_reset_password.mustache:17
 msgid "Submit new password"
 msgstr "Pošalji novu lozinku"
 
@@ -655,11 +684,11 @@ msgstr "Pošalji novu lozinku"
 msgid "Verification link expired"
 msgstr "Veza za potvrdu je istekla"
 
-#: .es5/scripts/templates/complete_sign_up.mustache:4
+#: .es5/scripts/templates/complete_sign_up.mustache:3
 msgid "Click here to receive a new verification link"
 msgstr "Kliknite ovde da biste primili novu vezu za potvrdu"
 
-#: .es5/scripts/templates/complete_sign_up.mustache:10
+#: .es5/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification error"
 msgstr "Greška u verifikaciji"
 
@@ -671,16 +700,16 @@ msgstr "Potvrdite nalog"
 msgid "Confirm this sign-in"
 msgstr "Potvrdi ovu prijavu"
 
-#: .es5/scripts/templates/confirm.mustache:6
-#: .es5/scripts/templates/confirm_reset_password.mustache:3
+#: .es5/scripts/templates/confirm.mustache:5
+#: .es5/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email Sent"
 msgstr "E-pošta je poslata"
 
-#: .es5/scripts/templates/confirm.mustache:7
+#: .es5/scripts/templates/confirm.mustache:6
 msgid "A verification link has been sent&nbsp;to %(email)s"
 msgstr "Veza za potvrdu je poslata&nbsp;%(email)s"
 
-#: .es5/scripts/templates/confirm.mustache:9
+#: .es5/scripts/templates/confirm.mustache:8
 msgid ""
 "To better protect your Firefox data, we've emailed a confirmation link to "
 "%(email)s"
@@ -688,8 +717,8 @@ msgstr ""
 "Da bismo bolje zaštitili Firefox podatke, poslali smo vam vezu za potvrdu na "
 "%(email)s"
 
-#: .es5/scripts/templates/confirm.mustache:12
-#: .es5/scripts/templates/confirm.mustache:14
+#: .es5/scripts/templates/confirm.mustache:11
+#: .es5/scripts/templates/confirm.mustache:13
 msgid "Didn't arrive? Resend"
 msgstr "Nije stigla? Pošalji ponovo"
 
@@ -697,7 +726,7 @@ msgstr "Nije stigla? Pošalji ponovo"
 msgid "Reset email sent"
 msgstr "E-pošta za resetovanje je poslata"
 
-#: .es5/scripts/templates/confirm_reset_password.mustache:4
+#: .es5/scripts/templates/confirm_reset_password.mustache:3
 msgid ""
 "Click on the link we've emailed you at %(email)s within the next hour to "
 "create a new password."
@@ -705,14 +734,14 @@ msgstr ""
 "Kliknite na vezu koju smo vam poslali na %(email)s u roku od sat vremena da "
 "napravite novu lozinku."
 
-#: .es5/scripts/templates/confirm_reset_password.mustache:5
-#: .es5/scripts/templates/confirm_reset_password.mustache:7
+#: .es5/scripts/templates/confirm_reset_password.mustache:4
+#: .es5/scripts/templates/confirm_reset_password.mustache:6
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "Sećate se lozinke? Prijavite se"
 
-#: .es5/scripts/templates/confirm_reset_password.mustache:9
+#: .es5/scripts/templates/confirm_reset_password.mustache:8
 msgid "Didn’t arrive? Resend"
-msgstr ""
+msgstr "Nije vam stigla? Pošalji ponovo"
 
 #: .es5/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -847,6 +876,7 @@ msgstr "Prihvati"
 #: .es5/scripts/templates/settings/avatar_crop.mustache:3
 #: .es5/scripts/templates/settings/avatar_gravatar.mustache:3
 #: .es5/scripts/templates/settings/change_password.mustache:11
+#: .es5/scripts/templates/settings/client_disconnect.mustache:9
 #: .es5/scripts/templates/settings/communication_preferences.mustache:5
 #: .es5/scripts/templates/settings/communication_preferences.mustache:13
 #: .es5/scripts/templates/settings/delete_account.mustache:7
@@ -934,6 +964,9 @@ msgid ""
 "utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-"
 "signup&utm_content=fx-sync-get-started\">Get started here</a>"
 msgstr ""
+"Tražite Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?"
+"utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-"
+"signup&utm_content=fx-sync-get-started\">Započnite ovde</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -951,7 +984,7 @@ msgstr ""
 #: .es5/scripts/templates/sign_up.mustache:20
 #: .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
-msgstr ""
+msgstr "Primajte mesečni Firefox bilten."
 
 #: .es5/scripts/templates/sign_up.mustache:22
 msgid "Create account"
@@ -959,11 +992,11 @@ msgstr "Napravi nalog"
 
 #: .es5/scripts/templates/sign_up.mustache:27
 msgid "Have an account? Sign in"
-msgstr ""
+msgstr "Imate nalog? Prijavite se"
 
 #: .es5/scripts/templates/support/create_secure_password.mustache:1
 msgid "Create secure passwords to keep your identity safe"
-msgstr ""
+msgstr "Kreirajte bezbedne lozinke kako biste sačuvali vaš identitet sigurnim"
 
 #: .es5/scripts/templates/settings/avatar.mustache:2
 #: .es5/scripts/templates/settings/avatar_crop.mustache:2
@@ -1024,6 +1057,44 @@ msgstr ""
 msgid "Old password"
 msgstr "Stara lozinka"
 
+#: .es5/scripts/templates/settings/client_disconnect.mustache:1
+msgid "Disconnect from Sync?"
+msgstr ""
+
+#: .es5/scripts/templates/settings/client_disconnect.mustache:2
+msgid ""
+"Your browsing data will remain on %(deviceName)s, but it will no longer sync "
+"with your account."
+msgstr ""
+
+#: .es5/scripts/templates/settings/client_disconnect.mustache:3
+msgid "Reason for disconnecting&hellip;"
+msgstr ""
+
+#: .es5/scripts/templates/settings/client_disconnect.mustache:4
+msgid "Suspicious device"
+msgstr ""
+
+#: .es5/scripts/templates/settings/client_disconnect.mustache:5
+msgid "Lost or stolen device"
+msgstr ""
+
+#: .es5/scripts/templates/settings/client_disconnect.mustache:6
+msgid "Old or replaced device"
+msgstr ""
+
+#: .es5/scripts/templates/settings/client_disconnect.mustache:7
+msgid "Rather not say"
+msgstr ""
+
+#: .es5/scripts/templates/settings/client_disconnect.mustache:8
+msgid "Disconnect"
+msgstr "Prekini vezu"
+
+#: .es5/scripts/templates/settings/client_disconnect.mustache:10
+msgid "Disconnection Successful"
+msgstr ""
+
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
 "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href="
@@ -1039,12 +1110,12 @@ msgid "current device"
 msgstr "trenutni uređaj"
 
 #: .es5/scripts/templates/settings/clients.mustache:6
-msgid "Disconnect"
-msgstr "Prekini vezu"
+msgid "Disconnect&hellip;"
+msgstr ""
 
 #: .es5/scripts/templates/settings/clients.mustache:8
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "Stavke nedostaju ili ima duplikata?"
 
 #: .es5/scripts/templates/settings/clients.mustache:9
 msgid "Refresh"
@@ -1113,6 +1184,12 @@ msgstr "Koristi OpenID"
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Koristi Firefox Account"
+
+#~ msgid "Attempt limit exceeded"
+#~ msgstr "Broj pokušaja prekoračen"
+
+#~ msgid "Tabs"
+#~ msgstr "Jezičci"
 
 #~ msgid "Last active: days ago"
 #~ msgstr "Poslednja aktivnost: pre nekoliko dana"
