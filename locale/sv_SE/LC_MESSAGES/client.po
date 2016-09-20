@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-20 13:48+0000\n"
-"PO-Revision-Date: 2016-09-20 16:55+0000\n"
-"Last-Translator: Luna Jernberg <bittin@cafe8bitar.se>\n"
+"PO-Revision-Date: 2016-09-20 21:00+0000\n"
+"Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
@@ -89,11 +89,11 @@ msgstr "Lösenordet ändrades"
 
 #: .es5/scripts/views/settings/client_disconnect.js:18
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr ""
+msgstr "Det var tråkigt att höra. Du bör byta lösenord till ditt Firefox-konto och söka information från enhetens tillverkare om att radera data från distans."
 
 #: .es5/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
+msgstr "Det var tråkigt att höra. Om detta var en enhet som du verkligen inte litar på, bör du ändra lösenordet till ditt Firefox-konto och ändra de lösenord som sparats i Firefox."
 
 #: .es5/scripts/views/settings/clients.js:53
 msgid "Last active: %(translatedTimeAgo)s"
@@ -194,7 +194,7 @@ msgstr "Du har försökt för många gånger. Försök igen senare."
 
 #: .es5/scripts/lib/auth-errors.js:25
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "Du har försökt för många gånger. Försök igen om %(retryAfterLocalized)s."
 
 #: .es5/scripts/lib/auth-errors.js:35 .es5/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
@@ -894,15 +894,15 @@ msgstr "Gammalt lösenord"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
-msgstr ""
+msgstr "Koppla från Sync?"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr ""
+msgstr "Din webbinformation kommer att finnas kvar på %(deviceName)s, men den kommer inte längre att synkroniseras med ditt konto."
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Reason for disconnecting&hellip;"
-msgstr ""
+msgstr "Anledning för bortkoppling&hellip;"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
@@ -918,7 +918,7 @@ msgstr "Gammal eller utbytt enhet"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
-msgstr ""
+msgstr "Vill helst inte berätta"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:8
 msgid "Disconnect"
@@ -926,7 +926,7 @@ msgstr "Koppla från"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
-msgstr ""
+msgstr "Nedkopplad"
 
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
