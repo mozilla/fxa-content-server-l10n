@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-20 13:48+0000\n"
-"PO-Revision-Date: 2016-09-21 08:01+0000\n"
+"PO-Revision-Date: 2016-09-21 08:03+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -28,7 +28,7 @@ msgstr "పాస్వర్డ్ విజయవంతంగా రీసె�
 
 #: .es5/scripts/views/permissions.js:26
 msgid "%(permissionName)s (required)"
-msgstr "%(permissionName)s (అవసరం)"
+msgstr "%(permissionName)s (తప్పనిసరి)"
 
 #: .es5/scripts/views/permissions.js:31
 msgid "Email address"
@@ -36,7 +36,7 @@ msgstr "ఈమెయిల్ చిరునామా"
 
 #: .es5/scripts/views/permissions.js:35 .es5/scripts/templates/settings/display_name.mustache:1 .es5/scripts/templates/settings/display_name.mustache:4
 msgid "Display name"
-msgstr "ప్రదర్శిత నామం"
+msgstr "చూపించే పేరు"
 
 #: .es5/scripts/views/permissions.js:38 .es5/scripts/templates/settings/avatar.mustache:1
 msgid "Account picture"
@@ -100,7 +100,7 @@ msgstr "చివరిసారి క్రియాశీలం: %(translated
 
 #: .es5/scripts/views/settings/clients.js:91
 msgid "Devices"
-msgstr "పరికరాల"
+msgstr "పరికరాలు"
 
 #: .es5/scripts/views/settings/clients.js:94
 msgid "Devices & apps"
@@ -193,7 +193,7 @@ msgstr "మీరు చాలాసార్లు ప్రయత్నిం�
 
 #: .es5/scripts/lib/auth-errors.js:25
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "మీరు చాలాసార్ల ప్రయత్నించారు. %(retryAfterLocalized)s మళ్ళీ ప్రయత్నించండి."
 
 #: .es5/scripts/lib/auth-errors.js:35 .es5/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
