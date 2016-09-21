@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-20 13:48+0000\n"
-"PO-Revision-Date: 2016-09-21 19:58+0000\n"
+"PO-Revision-Date: 2016-09-21 20:05+0000\n"
 "Last-Translator: Tymur Faradzhev <faradzhev.timur@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -89,11 +89,11 @@ msgstr "Пароль успішно змінено"
 
 #: .es5/scripts/views/settings/client_disconnect.js:18
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr ""
+msgstr "Нам шкода чути про це. Ви повинні змінити пароль облікового запису Firefox і знайти інформацію від виробника пристрою про віддалене стирання даних."
 
 #: .es5/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
+msgstr "Нам шкода чути про це. Якщо це пристрій, якому ви дійсно не довіряєте, ви маєте змінити пароль облікового запису Firefox і змінити паролі, що зберігаються в Firefox."
 
 #: .es5/scripts/views/settings/clients.js:53
 msgid "Last active: %(translatedTimeAgo)s"
@@ -904,7 +904,7 @@ msgstr "Дані перегляду залишаться на %(deviceName)s, а
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Reason for disconnecting&hellip;"
-msgstr ""
+msgstr "Причина від'єднання&hellip;"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
@@ -920,7 +920,7 @@ msgstr "Старий або замінений пристрій"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
-msgstr ""
+msgstr "Не вказувати"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:8
 msgid "Disconnect"
@@ -928,7 +928,7 @@ msgstr "Від'єднати"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
-msgstr ""
+msgstr "Від'єднання успішно завершено"
 
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
@@ -942,7 +942,7 @@ msgstr "поточний пристрій"
 
 #: .es5/scripts/templates/settings/clients.mustache:6
 msgid "Disconnect&hellip;"
-msgstr ""
+msgstr "Від’єднати&hellip;"
 
 #: .es5/scripts/templates/settings/clients.mustache:8
 msgid "Missing or duplicate items?"
