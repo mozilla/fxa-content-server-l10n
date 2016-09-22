@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-20 13:48+0000\n"
-"PO-Revision-Date: 2016-09-03 17:14+0000\n"
+"PO-Revision-Date: 2016-09-22 13:18+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -89,11 +89,11 @@ msgstr "成功變更密碼"
 
 #: .es5/scripts/views/settings/client_disconnect.js:18
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr ""
+msgstr "很抱歉聽到這個消息。您應該立刻更換 Firefox 帳號密碼，並且向您的裝置製造商確認遠端清除資料的方式。"
 
 #: .es5/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
+msgstr "很抱歉聽到這個消息。若這是您不信任的裝置，就應該立刻修改 Firefox 帳號密碼，並修改所有儲存在 Firefox 瀏覽器密碼管理員當中的密碼。"
 
 #: .es5/scripts/views/settings/clients.js:53
 msgid "Last active: %(translatedTimeAgo)s"
@@ -190,11 +190,11 @@ msgstr "您點擊的密碼重設驗證鏈結已過期。"
 
 #: .es5/scripts/lib/auth-errors.js:21
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "您已嘗試太多次，請稍候再試。"
 
 #: .es5/scripts/lib/auth-errors.js:25
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "您已嘗試太多次，請等 %(retryAfterLocalized)s 後再試。"
 
 #: .es5/scripts/lib/auth-errors.js:35 .es5/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
@@ -383,15 +383,15 @@ msgstr "缺少 data 屬性: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:306
 msgid "This is a required field"
-msgstr ""
+msgstr "這是必填欄位"
 
 #: .es5/scripts/lib/config-loader.js:81
 msgid "Missing configuration"
-msgstr ""
+msgstr "缺少設定"
 
 #: .es5/scripts/lib/config-loader.js:85
 msgid "Invalid configuration"
-msgstr ""
+msgstr "設定無效"
 
 #: .es5/scripts/lib/mailcheck.js:60
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -462,9 +462,7 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:17
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr "若繼續，代表您同意 %(serviceName)s（%(serviceUri)s）的<a id=\"service-tos\" href=\"%(termsUri)s\">服務條款</a>及<a id=\"service-pp\" href=\"%(privacyUri)s\">隱私權公告</a>"
 
 #: .es5/scripts/lib/strings.js:24
@@ -521,7 +519,7 @@ msgstr "選擇要同步的內容"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Open tabs"
-msgstr ""
+msgstr "開啟分頁"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
@@ -896,31 +894,31 @@ msgstr "舊密碼"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
-msgstr ""
+msgstr "要中斷與 Sync 的連結嗎？"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr ""
+msgstr "您 %(deviceName)s 上的瀏覽資料將保留，但不再與您的裝置同步。"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Reason for disconnecting&hellip;"
-msgstr ""
+msgstr "取消連結原因&hellip;"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
-msgstr ""
+msgstr "可疑的裝置"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen device"
-msgstr ""
+msgstr "裝置遺失或失竊"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced device"
-msgstr ""
+msgstr "裝置已換新"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
-msgstr ""
+msgstr "我不想說"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:8
 msgid "Disconnect"
@@ -928,15 +926,13 @@ msgstr "取消連線"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
-msgstr ""
+msgstr "已成功取消連結"
 
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
-msgstr ""
-"Firefox 有 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> 及 <a href=\"%(linkLinux)s\">Linux</a> "
-"版本可供使用。"
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
+msgstr "Firefox 有 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> 及 <a href=\"%(linkLinux)s\">Linux</a> 版本可供使用。"
 
 #: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
@@ -944,7 +940,7 @@ msgstr "目前裝置"
 
 #: .es5/scripts/templates/settings/clients.mustache:6
 msgid "Disconnect&hellip;"
-msgstr ""
+msgstr "取消連結&hellip;"
 
 #: .es5/scripts/templates/settings/clients.mustache:8
 msgid "Missing or duplicate items?"
@@ -1362,9 +1358,7 @@ msgstr "使用 Firefox 帳戶登入"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "已經有帳號了？請登入。"
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr "若繼續，代表我同意 %(serviceName)s（%(serviceUri)s）的 <a id=\"service-tos\" href=\"%(termsUri)s\">服務條款</a> 及 <a id=\"service-pp\" href=\"%(privacyUri)s\">隱私權公告</a>。"
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
