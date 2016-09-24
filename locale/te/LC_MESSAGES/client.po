@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-20 13:48+0000\n"
-"PO-Revision-Date: 2016-09-24 09:58+0000\n"
+"PO-Revision-Date: 2016-09-24 10:21+0000\n"
 "Last-Translator: sumanth1594 <sumanth1594@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -386,11 +386,11 @@ msgstr "ఇది తప్పనిసరి ఖాళీ"
 
 #: .es5/scripts/lib/config-loader.js:81
 msgid "Missing configuration"
-msgstr ""
+msgstr "ఆకృతీకరణలు తప్పినది"
 
 #: .es5/scripts/lib/config-loader.js:85
 msgid "Invalid configuration"
-msgstr ""
+msgstr "ఆకృతీకరణలు సరిఅయినవి కాదు"
 
 #: .es5/scripts/lib/mailcheck.js:60
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -895,31 +895,31 @@ msgstr "పాత పాస్వర్డ్"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
-msgstr ""
+msgstr "సమకాలీకరణ నున్డీ డిస్కనెక్ట్ చెయ్యన్డి?"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr ""
+msgstr "మీ బ్రౌజింగ్ నమచరమ్ అలానె ఉంటుంది %(deviceName)s, కాని అది మీ ఖాతాతొ సమకాలీకరన అవ్వదు."
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Reason for disconnecting&hellip;"
-msgstr ""
+msgstr "డిస్కనెక్ట్ అవ్వడానికి గల కారనమ్ &hellip;"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
-msgstr ""
+msgstr "అనుమానాస్పద పరికరం"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen device"
-msgstr ""
+msgstr "కోల్పోయిన లేదా దోచుకున్న పరికరం"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced device"
-msgstr ""
+msgstr "పాత లేదా భర్తీ పరికరం"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
-msgstr ""
+msgstr "అయితే చెప్పలేను"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:8
 msgid "Disconnect"
@@ -927,7 +927,7 @@ msgstr "డిస్కనెక్ట్"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
-msgstr ""
+msgstr "పొందిక విజయవంతం"
 
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
@@ -943,7 +943,7 @@ msgstr "ప్రస్తుత పరికరం"
 
 #: .es5/scripts/templates/settings/clients.mustache:6
 msgid "Disconnect&hellip;"
-msgstr ""
+msgstr "డిస్కనెక్ట్&hellip;"
 
 #: .es5/scripts/templates/settings/clients.mustache:8
 msgid "Missing or duplicate items?"
