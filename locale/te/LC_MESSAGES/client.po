@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-20 13:48+0000\n"
-"PO-Revision-Date: 2016-09-21 08:03+0000\n"
-"Last-Translator: వీవెన్ <veeven@gmail.com>\n"
+"PO-Revision-Date: 2016-09-24 09:58+0000\n"
+"Last-Translator: sumanth1594 <sumanth1594@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
 "MIME-Version: 1.0\n"
@@ -88,11 +88,11 @@ msgstr "పాస్వర్డ్ విజయవంతంగా మార్�
 
 #: .es5/scripts/views/settings/client_disconnect.js:18
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr ""
+msgstr "దీని గురిన్చి తెలుసుకొని ఛిన్తిస్తున్నమ్. మీరు మీ ఫైర్ఫాక్స్ యొక్క ఖాతా పాస్వర్డ్ మరియు మీ పరికరమ్ యొక్క తయరిదారి లొ రిమోట్గా సమచారమ్ ఎలా తొలగిచాలొ చూడండి."
 
 #: .es5/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
+msgstr "దీని గురిన్చి తెలుసుకొని ఛిన్తిస్తున్నమ్. మీరు ఒకవెల ఈ పరికరాని నమ్మకపొతె, మీ ఫైర్ఫాక్స్ ఖాత యొక్క పాస్వర్డ్ మర్చుకొవలెను మరియు  ఫైర్ఫాక్స్ లో సేవ్ చేయబడిన పాస్వర్డ్లను మార్చoడీ."
 
 #: .es5/scripts/views/settings/clients.js:53
 msgid "Last active: %(translatedTimeAgo)s"
