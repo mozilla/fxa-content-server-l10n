@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-20 13:48+0000\n"
-"PO-Revision-Date: 2016-09-20 17:59+0000\n"
+"PO-Revision-Date: 2016-09-24 01:18+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -32,7 +32,7 @@ msgstr "%(permissionName)s (obrigatório)"
 
 #: .es5/scripts/views/permissions.js:31
 msgid "Email address"
-msgstr "Endereço de e-mail"
+msgstr "Endereço de email"
 
 #: .es5/scripts/views/permissions.js:35 .es5/scripts/templates/settings/display_name.mustache:1 .es5/scripts/templates/settings/display_name.mustache:4
 msgid "Display name"
@@ -220,7 +220,7 @@ msgstr "Conta desconhecida"
 
 #: .es5/scripts/lib/auth-errors.js:55
 msgid "Incorrect email case"
-msgstr "E-mail incorreto (remova as maiúsculas)"
+msgstr "Email incorreto (remova as maiúsculas)"
 
 #: .es5/scripts/lib/auth-errors.js:59
 msgid "Incorrect password"
@@ -317,7 +317,7 @@ msgstr "É necessária uma palavra-passe válida"
 
 #: .es5/scripts/lib/auth-errors.js:169 .es5/scripts/lib/auth-errors.js:207 .es5/scripts/lib/auth-errors.js:223
 msgid "Valid email required"
-msgstr "É necessário um e-mail válido"
+msgstr "É necessário um email válido"
 
 #: .es5/scripts/lib/auth-errors.js:180
 msgid "A usable image was not found"
@@ -830,7 +830,7 @@ msgstr "Migre os seus dados de sincronização criando uma nova Conta&nbsp;Firef
 
 #: .es5/scripts/templates/sign_up.mustache:10
 msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
-msgstr "Tem uma conta com outro e-mail? <a href=\"%(signinUri)s\">Inicie sessão</a>"
+msgstr "Tem uma conta com um email diferente? <a href=\"%(signinUri)s\">Inicie sessão</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
