@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-20 13:48+0000\n"
-"PO-Revision-Date: 2016-09-25 17:32+0000\n"
+"PO-Revision-Date: 2016-09-25 17:55+0000\n"
 "Last-Translator: Marcelo Poli <enzomatrix@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -278,11 +278,11 @@ msgstr ""
 
 #: mailer.js:158
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (estimado)"
 
 #: mailer.js:160
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (estimado)"
 
 #: mailer.js:260
 msgid "Verify your Firefox Account"
