@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-20 13:48+0000\n"
-"PO-Revision-Date: 2016-09-21 12:52+0000\n"
+"PO-Revision-Date: 2016-09-29 10:44+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -558,7 +558,7 @@ msgstr "Tebek"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
-msgstr "Werinisjalisaasjekeppeling ferrûn"
+msgstr "Keppeling foar opnij ynstellen is ferrûn"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
@@ -566,11 +566,11 @@ msgstr "De keppeling wêrop jo klikt hawwe foar it opnij ynstellen fan jo wachtw
 
 #: .es5/scripts/templates/complete_reset_password.mustache:3
 msgid "Click here to receive a new reset link"
-msgstr "Klik hjir om in nije werinisjalisaasjekeppeling te ûntfangen"
+msgstr "Klik hjir om in nije keppeling foar opnij ynstellen te ûntfangen"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
-msgstr "Werinisjalisaasjekeppeling skansearre"
+msgstr "Keppeling foar opnij ynstellen skansearre"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:6 .es5/scripts/templates/complete_sign_up.mustache:7
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
@@ -600,7 +600,7 @@ msgstr "Toane"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:15
 msgid "Repeat password"
-msgstr "Werhelje wachtwurd"
+msgstr "Nochris it wachtwurd"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:17
 msgid "Submit new password"
@@ -644,7 +644,7 @@ msgstr "Net oankommen? Opnij ferstjoere"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr "Werinisjalisaasjeberjocht ferstjoerd"
+msgstr "Keppeling foar opnij ynstellen ferstjoerd"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:3
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
@@ -777,7 +777,7 @@ msgstr "Wachtwurd ferjitten"
 
 #: .es5/scripts/templates/reset_password.mustache:2
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr "As jo jo wachtwurd werinisjalisearje, ferlieze jo alle Sync-gegevens dy't net op ien fan jo apparaten binne."
+msgstr "As jo jo wachtwurd opnij ynstelle, ferlieze jo alle Sync-gegevens dy't net op ien fan jo apparaten binne."
 
 #: .es5/scripts/templates/reset_password.mustache:5 .es5/scripts/templates/sign_in.mustache:18 .es5/scripts/templates/sign_up.mustache:13
 #: .es5/scripts/templates/settings/gravatar_permissions.mustache:3
