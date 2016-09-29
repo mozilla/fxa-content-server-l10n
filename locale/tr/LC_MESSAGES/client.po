@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-20 13:48+0000\n"
-"PO-Revision-Date: 2016-09-29 11:39+0000\n"
+"PO-Revision-Date: 2016-09-29 11:44+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -89,11 +89,11 @@ msgstr "Parola başarıyla değiştirildi"
 
 #: .es5/scripts/views/settings/client_disconnect.js:18
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr ""
+msgstr "Bunu duyduğumuza üzüldük. Firefox Hesabı parolanızı değiştirmeli, sonra da cihazdaki verilerinizi uzaktan nasıl silebileceğinizi cihaz üreticinizden öğrenmelisiniz."
 
 #: .es5/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
+msgstr "Bunu duyduğumuza üzüldük. Bu cihaza gerçekten güvenmiyorsanız hem Firefox Hesabı parolanızı hem de Firefox'ta kayıtlı olan parolalarınızı değiştirmelisiniz."
 
 #: .es5/scripts/views/settings/clients.js:53
 msgid "Last active: %(translatedTimeAgo)s"
@@ -521,7 +521,7 @@ msgstr "Nelerin eşitleneceğini seçin"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Open tabs"
-msgstr ""
+msgstr "Açık sekmeler"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
@@ -897,31 +897,31 @@ msgstr "Eski parola"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
-msgstr ""
+msgstr "Sync bağlantısı kesilsin mi?"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr ""
+msgstr "%(deviceName)s üzerindeki mevcut verileriniz aynen kalacaktır ama bundan sonra hesabınızla eşitlenmeyecektir."
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Reason for disconnecting&hellip;"
-msgstr ""
+msgstr "Bağlantıyı kesme nedeniniz&hellip;"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
-msgstr ""
+msgstr "Şüpheli cihaz"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen device"
-msgstr ""
+msgstr "Bu cihaz kayboldu veya çalındı"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced device"
-msgstr ""
+msgstr "Bu cihazı artık kullanmıyorum"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
-msgstr ""
+msgstr "Söylemek istemiyorum"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:8
 msgid "Disconnect"
@@ -929,7 +929,7 @@ msgstr "Bağlantıyı kes"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
-msgstr ""
+msgstr "Bağlantı başarıyla kesildi"
 
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
@@ -945,7 +945,7 @@ msgstr "geçerli cihaz"
 
 #: .es5/scripts/templates/settings/clients.mustache:6
 msgid "Disconnect&hellip;"
-msgstr ""
+msgstr "Bağlantıyı kes&hellip;"
 
 #: .es5/scripts/templates/settings/clients.mustache:8
 msgid "Missing or duplicate items?"
