@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-20 13:48+0000\n"
-"PO-Revision-Date: 2016-09-21 14:01+0000\n"
+"PO-Revision-Date: 2016-09-29 10:40+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -198,11 +198,12 @@ msgstr "Klik binnen in oere op de knop om in nij wachtwurd yn te stellen foar jo
 
 #: templates/recovery.html:4 templates/recovery.txt:3
 msgid "Reset password"
-msgstr "Wachtwurd werinisjalisearje"
+msgstr "Wachtwurd opnij ynstelle"
 
 #: templates/suspicious_location.html:2 templates/suspicious_location.txt:1
 msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
-msgstr "Hawwe jo jo de ôfrûne 60 dagen fan ien fan de folgjende lokaasjes ôf by jo Firefox-account oanmeld? As jo dizze lokaasjes net werkenne, kin in oar tagong ta jo Firefox-account krigen hawwe."
+msgstr ""
+"Hawwe jo jo de ôfrûne 60 dagen fan ien fan de folgjende lokaasjes ôf by jo Firefox-account oanmeld? As jo dizze lokaasjes net bekend foar komt, kin in oar tagong ta jo Firefox-account krigen hawwe."
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
@@ -218,7 +219,7 @@ msgstr "Lokaasje:"
 
 #: templates/suspicious_location.html:6 templates/suspicious_location.txt:5
 msgid "If you don’t recognize the activity above:"
-msgstr "As jo de boppesteande aktiviteit net werkenne:"
+msgstr "As jo de boppesteande aktiviteit net bekend foar komt:"
 
 #: templates/suspicious_location.html:10 templates/suspicious_location.txt:9
 msgid "Why are you receiving this email?"
