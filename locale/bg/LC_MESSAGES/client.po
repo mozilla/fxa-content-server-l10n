@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-20 13:48+0000\n"
-"PO-Revision-Date: 2016-09-26 08:52+0000\n"
+"PO-Revision-Date: 2016-09-30 15:05+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -57,7 +57,7 @@ msgstr "Firefox Sync ще продължи веднага"
 
 #: .es5/scripts/views/ready.js:49
 msgid "Sign-in confirmed"
-msgstr "Вписването потвърдено"
+msgstr "Вписването е потвърдено"
 
 #: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55 .es5/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
