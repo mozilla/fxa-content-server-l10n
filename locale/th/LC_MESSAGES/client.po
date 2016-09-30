@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-30 17:52+0000\n"
-"PO-Revision-Date: 2016-09-30 21:00+0000\n"
+"PO-Revision-Date: 2016-09-30 21:10+0000\n"
 "Last-Translator: teerapatxtop <teerapatxtop@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -185,11 +185,11 @@ msgstr "ลิงก์ที่คุณได้คลิกเพื่อย
 
 #: .es5/scripts/lib/auth-errors.js:21
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "คุณได้พยายามหลายครั้งเกินไป ลองอีกครั้งในภายหลัง"
 
 #: .es5/scripts/lib/auth-errors.js:25
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "คุณได้พยายามหลายครั้งเกินไป ลองอีกครั้ง %(retryAfterLocalized)s"
 
 #: .es5/scripts/lib/auth-errors.js:35 .es5/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
@@ -378,7 +378,7 @@ msgstr "ขาดแอตทริบิวต์ข้อมูล: %(property
 
 #: .es5/scripts/lib/auth-errors.js:302 .es5/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "ลิงก์สำหรับยืนยันนั้นถูกใช้ไปแล้ว และสามารถใช้ได้แค่ครั้งเดียว"
 
 #: .es5/scripts/lib/auth-errors.js:306
 msgid "This is a required field"
@@ -604,7 +604,7 @@ msgstr "ส่งรหัสผ่านใหม่"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:1
 msgid "Sign-in already confirmed"
-msgstr ""
+msgstr "ยืนยันการลงชื่อเข้าแล้ว"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
@@ -899,7 +899,7 @@ msgstr "ตัดการเชื่อมต่อจาก Sync?"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr ""
+msgstr "ข้อมูลการท่องเว็บของคุณจะยังคงอยู่บน %(deviceName)s แต่จะไม่ซิงค์กับบัญชีของคุณอีกต่อไป"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Reason for disconnecting…"
@@ -919,7 +919,7 @@ msgstr "อุปกรณ์เก่าหรือถูกทดแทน"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
-msgstr ""
+msgstr "ไม่ระบุ"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:8
 msgid "Disconnect"
