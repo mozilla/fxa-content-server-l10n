@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-20 13:48+0000\n"
+"POT-Creation-Date: 2016-09-30 17:52+0000\n"
 "PO-Revision-Date: 2016-09-24 14:35+0000\n"
 "Last-Translator: Vanja Tumbas <tumbas93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,11 +15,11 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1438059120.0\n"
 
-#: .es5/scripts/views/complete_reset_password.js:121 .es5/scripts/views/complete_sign_up.js:117 .es5/scripts/views/confirm.js:124 .es5/scripts/views/confirm_reset_password.js:173
+#: .es5/scripts/views/complete_reset_password.js:130 .es5/scripts/views/complete_sign_up.js:117 .es5/scripts/views/confirm.js:126 .es5/scripts/views/confirm_reset_password.js:173
 msgid "Account verified successfully"
 msgstr "Налог је успешно потврђен"
 
-#: .es5/scripts/views/confirm_reset_password.js:165 .es5/scripts/views/ready.js:43
+#: .es5/scripts/views/confirm_reset_password.js:165 .es5/scripts/views/ready.js:44
 msgid "Password reset"
 msgstr "Ресетовање лозинке"
 
@@ -43,31 +43,31 @@ msgstr "Прикажи име"
 msgid "Account picture"
 msgstr "Слика налога"
 
-#: .es5/scripts/views/ready.js:29
+#: .es5/scripts/views/ready.js:30
 msgid "Firefox Sync will begin momentarily"
 msgstr "Firefox Sync ће одмах почети"
 
-#: .es5/scripts/views/ready.js:38
+#: .es5/scripts/views/ready.js:39
 msgid "Welcome back"
 msgstr "Добродошли назад"
 
-#: .es5/scripts/views/ready.js:39
+#: .es5/scripts/views/ready.js:40
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync ће одмах наставити"
 
-#: .es5/scripts/views/ready.js:49
+#: .es5/scripts/views/ready.js:50
 msgid "Sign-in confirmed"
 msgstr "Пријава потврђена"
 
-#: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55 .es5/scripts/templates/ready.mustache:5
+#: .es5/scripts/views/ready.js:51 .es5/scripts/views/ready.js:56 .es5/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Сада сте спремни да користите %(serviceName)s"
 
-#: .es5/scripts/views/ready.js:54
+#: .es5/scripts/views/ready.js:55
 msgid "Account verified"
 msgstr "Налог је потврђен"
 
-#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:152
+#: .es5/scripts/views/reset_password.js:72 .es5/scripts/views/sign_in.js:152
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Непознат налог. <a href=\"/signup\">Пријави се</a>"
 
@@ -79,7 +79,7 @@ msgstr "Налог више не постоји. Поново га направ�
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Налог већ постоји. <a href=\"/signin\">Пријави се</a>"
 
-#: .es5/scripts/views/settings/avatar_gravatar.js:89
+#: .es5/scripts/views/settings/avatar_gravatar.js:93
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "Љубазност <a href=\"https://www.gravatar.com\">Gravatar-а</a>"
 
@@ -155,21 +155,17 @@ msgstr "Отвори Yahoo"
 msgid "Open Outlook"
 msgstr "Отвори Outlook"
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:22
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:20
 msgid "8 characters minimum, but longer if you plan to sync passwords."
 msgstr "8 карактера минимум, али дужа ако планирате да синхронизујете лозинке."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:23 .es5/scripts/templates/sign_up.mustache:18
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:21 .es5/scripts/templates/sign_up.mustache:18
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "Јака и јединствена лозинка ће чувати ваше податке сигурним од уљеза."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:24
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/views/mixins/password-prompt-mixin.js:23
 msgid "This is a common password; please consider another one."
 msgstr "Ово је уобичајена лозинка; унесите неку другу."
-
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:25
-msgid "This is a common password; please consider another one. %(moreInfoLink)s"
-msgstr "Ово је често употребљивана лозинка; размислите о некој другој. %(moreInfoLink)s"
 
 #: .es5/scripts/views/mixins/resend-mixin.js:53
 msgid "Email resent"
@@ -184,7 +180,7 @@ msgstr "Одјавили сте се усешно"
 msgid "Unexpected error"
 msgstr "Неочекивана грешка"
 
-#: .es5/scripts/lib/auth-errors.js:20 .es5/scripts/templates/complete_sign_up.mustache:2
+#: .es5/scripts/lib/auth-errors.js:20 .es5/scripts/templates/complete_sign_up.mustache:5
 msgid "The link you clicked to verify your email is expired."
 msgstr "Веза коју сте кликнули за потврду е-поште је истекла."
 
@@ -341,7 +337,7 @@ msgstr "Унесите валидну адресу е-поште. firefox.com н
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox налози могу бити постављени само у IFRAME-у на одобреним сајтовима"
 
-#: .es5/scripts/lib/auth-errors.js:238 .es5/scripts/templates/complete_sign_up.mustache:6
+#: .es5/scripts/lib/auth-errors.js:238 .es5/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
 msgstr "Веза за потврду је оштећена"
 
@@ -380,6 +376,10 @@ msgstr "Неисправна особина податка: %(property)s"
 #: .es5/scripts/lib/auth-errors.js:289
 msgid "Missing data attribute: %(property)s"
 msgstr "Недостаје особина податка: %(property)s"
+
+#: .es5/scripts/lib/auth-errors.js:302 .es5/scripts/templates/complete_sign_up.mustache:2
+msgid "That confirmation link was already used, and can only be used once."
+msgstr ""
 
 #: .es5/scripts/lib/auth-errors.js:306
 msgid "This is a required field"
@@ -462,7 +462,9 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:17
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Ако наставите, слажете се са <a id=\"service-tos\" href=\"%(termsUri)s\">Условима коришћења услуге</a> и<a id=\"service-pp\" href=\"%(privacyUri)s\">Обавештењем о приватности</a> од %(serviceName)s "
 "(%(serviceUri)s)."
@@ -552,7 +554,6 @@ msgid "Save settings"
 msgstr "Сними поставке"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:16 .es5/scripts/templates/confirm.mustache:12 .es5/scripts/templates/pp.mustache:3 .es5/scripts/templates/tos.mustache:3
-#: .es5/scripts/templates/support/create_secure_password.mustache:2
 msgid "Back"
 msgstr "Назад"
 
@@ -572,7 +573,7 @@ msgstr "Кликните овде да бисте примили нову вез
 msgid "Reset password link damaged"
 msgstr "Веза за ресетовање лозинке је оштећена"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:6 .es5/scripts/templates/complete_sign_up.mustache:7
+#: .es5/scripts/templates/complete_reset_password.mustache:6 .es5/scripts/templates/complete_sign_up.mustache:10
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
 msgstr "Вези на коју сте кликнули фале карактери, и можда ју је оштетио ваш клијент за е-пошту. Пажљиво прекопирајте адресу, и покушајте поново."
 
@@ -607,14 +608,18 @@ msgid "Submit new password"
 msgstr "Пошаљи нову лозинку"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:1
+msgid "Sign-in already confirmed"
+msgstr ""
+
+#: .es5/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
 msgstr "Веза за потврду је истекла"
 
-#: .es5/scripts/templates/complete_sign_up.mustache:3
+#: .es5/scripts/templates/complete_sign_up.mustache:6
 msgid "Click here to receive a new verification link"
 msgstr "Кликните овде да бисте примили нову везу за потврду"
 
-#: .es5/scripts/templates/complete_sign_up.mustache:9
+#: .es5/scripts/templates/complete_sign_up.mustache:12
 msgid "Verification error"
 msgstr "Грешка у верификацији"
 
@@ -694,7 +699,8 @@ msgstr "Заборавили сте лозинку?"
 
 #: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Ако наставите, слажете се са <a id=\"fxa-tos\" href=\"/legal/terms\">Условима коришћења услуге</a> и <a id=\"fxa-pp\" href=\"/legal/privacy\">Обавештењем о приватности</a> Firefox cloud сервиса."
+msgstr ""
+"Ако наставите, слажете се са <a id=\"fxa-tos\" href=\"/legal/terms\">Условима коришћења услуге</a> и <a id=\"fxa-pp\" href=\"/legal/privacy\">Обавештењем о приватности</a> Firefox cloud сервиса."
 
 #: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -840,19 +846,14 @@ msgstr "Направи налог"
 msgid "Have an account? Sign in"
 msgstr "Имате налог? Пријавите се"
 
-#: .es5/scripts/templates/support/create_secure_password.mustache:1
-msgid "Create secure passwords to keep your identity safe"
-msgstr "Креирајте безбедне лозинке како бисте сачували ваш идентитет сигурним"
-
-#: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2
-#: .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/communication_preferences.mustache:4 .es5/scripts/templates/settings/display_name.mustache:2
-#: .es5/scripts/templates/settings/display_name.mustache:5
-msgid "Change"
-msgstr "Измени"
+#: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2 .es5/scripts/templates/settings/communication_preferences.mustache:4
+#: .es5/scripts/templates/settings/display_name.mustache:2
+msgid "Change…"
+msgstr ""
 
 #: .es5/scripts/templates/settings/avatar.mustache:4
-msgid "Add"
-msgstr "Додај"
+msgid "Add…"
+msgstr ""
 
 #: .es5/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -882,6 +883,10 @@ msgstr "Готово"
 msgid "Position and rotate your picture as needed"
 msgstr "Позиционирајте и ротирајте Вашу слику по Вашим потребама"
 
+#: .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/display_name.mustache:5
+msgid "Change"
+msgstr "Измени"
+
 #: .es5/scripts/templates/settings/avatar_gravatar.mustache:2
 msgid "Save"
 msgstr "Сачувај"
@@ -903,8 +908,8 @@ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer s
 msgstr "Ваши подаци прегледања ће остати на %(deviceName)s, али више неће бити синхронизовани на ваш налог."
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:3
-msgid "Reason for disconnecting&hellip;"
-msgstr "Разлог за прекидање везе са &hellip;"
+msgid "Reason for disconnecting…"
+msgstr ""
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
@@ -932,16 +937,18 @@ msgstr ""
 
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-"href=\"%(linkLinux)s\">Linux</a>."
-msgstr "Firefox је доступан за <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> и <a href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+"\"%(linkLinux)s\">Linux</a>."
+msgstr ""
+"Firefox је доступан за <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> и <a href=\"%(linkLinux)s"
+"\">Linux</a>."
 
 #: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
 msgstr "тренутни уређај"
 
 #: .es5/scripts/templates/settings/clients.mustache:6
-msgid "Disconnect&hellip;"
+msgid "Disconnect…"
 msgstr ""
 
 #: .es5/scripts/templates/settings/clients.mustache:8
@@ -973,8 +980,8 @@ msgid "Delete account"
 msgstr "Обриши налог"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:2
-msgid "Delete"
-msgstr "Обриши"
+msgid "Delete…"
+msgstr ""
 
 #: .es5/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
@@ -1003,6 +1010,21 @@ msgstr "Користи OpenID"
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Користи Firefox Account"
+
+#~ msgid "This is a common password; please consider another one. %(moreInfoLink)s"
+#~ msgstr "Ово је често употребљивана лозинка; размислите о некој другој. %(moreInfoLink)s"
+
+#~ msgid "Create secure passwords to keep your identity safe"
+#~ msgstr "Креирајте безбедне лозинке како бисте сачували ваш идентитет сигурним"
+
+#~ msgid "Add"
+#~ msgstr "Додај"
+
+#~ msgid "Reason for disconnecting&hellip;"
+#~ msgstr "Разлог за прекидање везе са &hellip;"
+
+#~ msgid "Delete"
+#~ msgstr "Обриши"
 
 #~ msgid "Attempt limit exceeded"
 #~ msgstr "Број покушаја прекорачен"
@@ -1314,7 +1336,8 @@ msgstr "Користи Firefox Account"
 #~ msgstr "Унесите Вашу е-пошту да бисте обновили лозинку налога."
 
 #~ msgid "For security reasons, resetting your password will erase your Sync data from our servers. A new Sync backup will be created from your local browsing data."
-#~ msgstr "Из безбедносних разлога, ресетовање лозинке ће избрисати све синхронизоване податке са наших сервера. Створиће се нова резерва синхронизованих података из Ваших локалних података прегледања."
+#~ msgstr ""
+#~ "Из безбедносних разлога, ресетовање лозинке ће избрисати све синхронизоване податке са наших сервера. Створиће се нова резерва синхронизованих података из Ваших локалних података прегледања."
 
 #~ msgid "You are signed in as"
 #~ msgstr "Пријављени сте као"
@@ -1322,7 +1345,9 @@ msgstr "Користи Firefox Account"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Већ имате налог? Пријавите се."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
 #~ "Ако наставите, слажете се са <a id=\"service-tos\" href=\"%(termsUri)s\">условима коришћења услуге</a> и <a id=\"service-pp\" href=\"%(privacyUri)s\">обавештењем о приватности</a> сервиса "
 #~ "%(serviceName)s (%(serviceUri)s)."

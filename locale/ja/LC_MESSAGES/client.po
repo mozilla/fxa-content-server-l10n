@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-20 13:48+0000\n"
+"POT-Creation-Date: 2016-09-30 17:52+0000\n"
 "PO-Revision-Date: 2016-09-21 01:54+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -15,11 +15,11 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1429765208.0\n"
 
-#: .es5/scripts/views/complete_reset_password.js:121 .es5/scripts/views/complete_sign_up.js:117 .es5/scripts/views/confirm.js:124 .es5/scripts/views/confirm_reset_password.js:173
+#: .es5/scripts/views/complete_reset_password.js:130 .es5/scripts/views/complete_sign_up.js:117 .es5/scripts/views/confirm.js:126 .es5/scripts/views/confirm_reset_password.js:173
 msgid "Account verified successfully"
 msgstr "アカウントの確認が完了しました"
 
-#: .es5/scripts/views/confirm_reset_password.js:165 .es5/scripts/views/ready.js:43
+#: .es5/scripts/views/confirm_reset_password.js:165 .es5/scripts/views/ready.js:44
 msgid "Password reset"
 msgstr "パスワードをリセットする"
 
@@ -43,32 +43,32 @@ msgstr "表示名"
 msgid "Account picture"
 msgstr "アカウント写真"
 
-#: .es5/scripts/views/ready.js:29
+#: .es5/scripts/views/ready.js:30
 msgid "Firefox Sync will begin momentarily"
 msgstr "Firefox Sync はすぐに開始されます"
 
-#: .es5/scripts/views/ready.js:38
+#: .es5/scripts/views/ready.js:39
 msgid "Welcome back"
 msgstr "お帰りなさい"
 
-#: .es5/scripts/views/ready.js:39
+#: .es5/scripts/views/ready.js:40
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync はすぐに再開されます"
 
-#: .es5/scripts/views/ready.js:49
+#: .es5/scripts/views/ready.js:50
 msgid "Sign-in confirmed"
 msgstr "ログインが確認されました"
 
 # %(serviceName)s を利用できるようになりました。だと「た。」だけ2行目になって残念だったので短めに
-#: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55 .es5/scripts/templates/ready.mustache:5
+#: .es5/scripts/views/ready.js:51 .es5/scripts/views/ready.js:56 .es5/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
 msgstr "%(serviceName)s が使えるようになりました"
 
-#: .es5/scripts/views/ready.js:54
+#: .es5/scripts/views/ready.js:55
 msgid "Account verified"
 msgstr "アカウントが認証されました"
 
-#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:152
+#: .es5/scripts/views/reset_password.js:72 .es5/scripts/views/sign_in.js:152
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "不明なアカウントです。<a href=\"/signup\">サインアップ</a>"
 
@@ -80,7 +80,7 @@ msgstr "アカウントはもう存在しません。再度作成しますか？
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "このアカウントは既に存在します。<a href=\"/signin\">サインイン</a>"
 
-#: .es5/scripts/views/settings/avatar_gravatar.js:89
+#: .es5/scripts/views/settings/avatar_gravatar.js:93
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> による提供"
 
@@ -156,21 +156,17 @@ msgstr "Yahoo を開く"
 msgid "Open Outlook"
 msgstr "Outlook を開く"
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:22
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:20
 msgid "8 characters minimum, but longer if you plan to sync passwords."
 msgstr "最低 8 文字ですが、パスワードを同期するつもりならそれ以上にしてください。"
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:23 .es5/scripts/templates/sign_up.mustache:18
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:21 .es5/scripts/templates/sign_up.mustache:18
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "強力で固有のパスワードを設定することで、あなたの Firefox データを第三者から保護できます。"
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:24
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/views/mixins/password-prompt-mixin.js:23
 msgid "This is a common password; please consider another one."
 msgstr "これは一般的なパスワードです。別のパスワードを選んでください。"
-
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:25
-msgid "This is a common password; please consider another one. %(moreInfoLink)s"
-msgstr "これは一般的なパスワードです。別のものを検討してください。%(moreInfoLink)s"
 
 #: .es5/scripts/views/mixins/resend-mixin.js:53
 msgid "Email resent"
@@ -185,7 +181,7 @@ msgstr "ログアウトが完了しました"
 msgid "Unexpected error"
 msgstr "予期しないエラー"
 
-#: .es5/scripts/lib/auth-errors.js:20 .es5/scripts/templates/complete_sign_up.mustache:2
+#: .es5/scripts/lib/auth-errors.js:20 .es5/scripts/templates/complete_sign_up.mustache:5
 msgid "The link you clicked to verify your email is expired."
 msgstr "クリックされたメールアドレス認証リンクの有効期限が切れています。"
 
@@ -342,7 +338,7 @@ msgstr "正しいメールアドレスを入力してください。firefox.com 
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox アカウントは承認済みサイトの IFRAME 内にのみ設置できます。"
 
-#: .es5/scripts/lib/auth-errors.js:238 .es5/scripts/templates/complete_sign_up.mustache:6
+#: .es5/scripts/lib/auth-errors.js:238 .es5/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
 msgstr "認証リンクが壊れています"
 
@@ -381,6 +377,10 @@ msgstr "不正なデータ属性: %(property)s"
 #: .es5/scripts/lib/auth-errors.js:289
 msgid "Missing data attribute: %(property)s"
 msgstr "不足しているデータ属性: %(property)s"
+
+#: .es5/scripts/lib/auth-errors.js:302 .es5/scripts/templates/complete_sign_up.mustache:2
+msgid "That confirmation link was already used, and can only be used once."
+msgstr ""
 
 #: .es5/scripts/lib/auth-errors.js:306
 msgid "This is a required field"
@@ -463,8 +463,12 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:17
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "続けることで、%(serviceName)s (%(serviceUri)s) の <a id=\"service-tos\" href=\"%(termsUri)s\">利用規約</a> と <a id=\"service-pp\" href=\"%(privacyUri)s\">プライバシー通知</a> に同意したものとみなされます。"
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"続けることで、%(serviceName)s (%(serviceUri)s) の <a id=\"service-tos\" href=\"%(termsUri)s\">利用規約</a> と <a id=\"service-pp\" href=\"%(privacyUri)s\">プライバシー通知</a> に同意したものとみなさ"
+"れます。"
 
 #: .es5/scripts/lib/strings.js:24
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -552,7 +556,6 @@ msgid "Save settings"
 msgstr "設定を保存"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:16 .es5/scripts/templates/confirm.mustache:12 .es5/scripts/templates/pp.mustache:3 .es5/scripts/templates/tos.mustache:3
-#: .es5/scripts/templates/support/create_secure_password.mustache:2
 msgid "Back"
 msgstr "戻る"
 
@@ -572,7 +575,7 @@ msgstr "クリックするとパスワードをリセットするリンクを再
 msgid "Reset password link damaged"
 msgstr "パスワードをリセットするリンクが壊れています"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:6 .es5/scripts/templates/complete_sign_up.mustache:7
+#: .es5/scripts/templates/complete_reset_password.mustache:6 .es5/scripts/templates/complete_sign_up.mustache:10
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
 msgstr "認証リンク URL の長さが足りません。受信したメールクライアントにより、リンクが途中で切れている可能性があります。正しい URL を確認の上コピーし、再度お試しください。"
 
@@ -607,14 +610,18 @@ msgid "Submit new password"
 msgstr "新しいパスワードを送信"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:1
+msgid "Sign-in already confirmed"
+msgstr ""
+
+#: .es5/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
 msgstr "認証リンクの有効期限が切れています"
 
-#: .es5/scripts/templates/complete_sign_up.mustache:3
+#: .es5/scripts/templates/complete_sign_up.mustache:6
 msgid "Click here to receive a new verification link"
 msgstr "クリックすると認証リンクを再発行できます"
 
-#: .es5/scripts/templates/complete_sign_up.mustache:9
+#: .es5/scripts/templates/complete_sign_up.mustache:12
 msgid "Verification error"
 msgstr "認証エラー"
 
@@ -821,7 +828,9 @@ msgstr "Firefox アカウントの作成"
 
 #: .es5/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-msgstr "Firefox Sync をお探しですか？ <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">こちらを参照してください</a>"
+msgstr ""
+"Firefox Sync をお探しですか？ <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">こちらを参照してくださ"
+"い</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -843,19 +852,14 @@ msgstr "アカウントを作成"
 msgid "Have an account? Sign in"
 msgstr "アカウントをお持ちですか？ ログイン"
 
-#: .es5/scripts/templates/support/create_secure_password.mustache:1
-msgid "Create secure passwords to keep your identity safe"
-msgstr "個人情報を守るために安全なパスワードを生成"
-
-#: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2
-#: .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/communication_preferences.mustache:4 .es5/scripts/templates/settings/display_name.mustache:2
-#: .es5/scripts/templates/settings/display_name.mustache:5
-msgid "Change"
-msgstr "変更"
+#: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2 .es5/scripts/templates/settings/communication_preferences.mustache:4
+#: .es5/scripts/templates/settings/display_name.mustache:2
+msgid "Change…"
+msgstr ""
 
 #: .es5/scripts/templates/settings/avatar.mustache:4
-msgid "Add"
-msgstr "追加"
+msgid "Add…"
+msgstr ""
 
 #: .es5/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -885,6 +889,10 @@ msgstr "完了"
 msgid "Position and rotate your picture as needed"
 msgstr "必要に応じて、写真の位置や角度を調整してください"
 
+#: .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/display_name.mustache:5
+msgid "Change"
+msgstr "変更"
+
 #: .es5/scripts/templates/settings/avatar_gravatar.mustache:2
 msgid "Save"
 msgstr "保存"
@@ -906,8 +914,8 @@ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer s
 msgstr "あなたのブラウジングデータは %(deviceName)s に残りますが、あなたのアカウントとは同期されなくなります。"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:3
-msgid "Reason for disconnecting&hellip;"
-msgstr "接続を解除する理由..."
+msgid "Reason for disconnecting…"
+msgstr ""
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
@@ -935,17 +943,19 @@ msgstr "接続が解除されました"
 
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-"href=\"%(linkLinux)s\">Linux</a>."
-msgstr "Firefox は、<a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> および <a href=\"%(linkLinux)s\">Linux</a> に対応しています。"
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+"\"%(linkLinux)s\">Linux</a>."
+msgstr ""
+"Firefox は、<a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> および <a href=\"%(linkLinux)s"
+"\">Linux</a> に対応しています。"
 
 #: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
 msgstr "現在の端末"
 
 #: .es5/scripts/templates/settings/clients.mustache:6
-msgid "Disconnect&hellip;"
-msgstr "接続を解除..."
+msgid "Disconnect…"
+msgstr ""
 
 #: .es5/scripts/templates/settings/clients.mustache:8
 msgid "Missing or duplicate items?"
@@ -976,8 +986,8 @@ msgid "Delete account"
 msgstr "アカウントを削除"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:2
-msgid "Delete"
-msgstr "削除"
+msgid "Delete…"
+msgstr ""
 
 #: .es5/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
@@ -1006,6 +1016,24 @@ msgstr "OpenID を使用"
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Firefox アカウントを使用"
+
+#~ msgid "This is a common password; please consider another one. %(moreInfoLink)s"
+#~ msgstr "これは一般的なパスワードです。別のものを検討してください。%(moreInfoLink)s"
+
+#~ msgid "Create secure passwords to keep your identity safe"
+#~ msgstr "個人情報を守るために安全なパスワードを生成"
+
+#~ msgid "Add"
+#~ msgstr "追加"
+
+#~ msgid "Reason for disconnecting&hellip;"
+#~ msgstr "接続を解除する理由..."
+
+#~ msgid "Disconnect&hellip;"
+#~ msgstr "接続を解除..."
+
+#~ msgid "Delete"
+#~ msgstr "削除"
 
 #~ msgid "Attempt limit exceeded"
 #~ msgstr "連続試行回数の上限に達しました"
@@ -1158,7 +1186,9 @@ msgstr "Firefox アカウントを使用"
 #~ msgstr "本当にアカウントのパスワードをリセットしますか？"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
-#~ msgstr "パスワードをリセットすると、Mozilla のサーバからブラウジングデータが消去されます。お使いの端末上のデータはすべてそのまま残ります。リセット手続きを始めるにはまず以下にメールアドレスを入力してください。"
+#~ msgstr ""
+#~ "パスワードをリセットすると、Mozilla のサーバからブラウジングデータが消去されます。お使いの端末上のデータはすべてそのまま残ります。リセット手続きを始めるにはまず以下にメールアドレスを入力してくだ"
+#~ "さい。"
 
 #~ msgid "Begin reset"
 #~ msgstr "リセットを開始"

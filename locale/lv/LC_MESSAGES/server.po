@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-20 13:48+0000\n"
+"POT-Creation-Date: 2016-09-30 17:52+0000\n"
 "PO-Revision-Date: 2016-09-14 13:38+0000\n"
 "Last-Translator: orvils <orvils@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:527
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:532
 msgid "Still there?"
 msgstr "Vai jūs te joprojām esat?"
 
@@ -53,7 +53,7 @@ msgstr "Pieslēgties uz Sync"
 msgid "Firefox Accounts"
 msgstr "Firefox Konti"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:434
+#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:439
 msgid "New sign-in to Firefox"
 msgstr "Jauna pierakstīšanās uz Firefox"
 
@@ -227,7 +227,7 @@ msgstr "Kāpēc jūs saņemat šo e-pastu?"
 msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
 msgstr "Mēs nesen pamanījām ieiešanas Firefox kontos no neparastām vietām. Mēs jūs pabrīdinām lai neņemtu riskus."
 
-#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:524
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:529
 msgid "Hello again."
 msgstr "Vēlreiz sveiki."
 
@@ -285,42 +285,50 @@ msgid "If you suspect that someone is trying to gain access to your account, ple
 msgstr "Ja jums ir aizdomas ka kāds cenšas piekļūt jūsu kontam, lūdzu izmainiet savu paroli."
 
 #: mailer.js:158
-msgid "%(city)s, %(country)s (estimated)"
+msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr ""
 
 #: mailer.js:160
+msgid "%(city)s, %(country)s (estimated)"
+msgstr ""
+
+#: mailer.js:162
+msgid "%(stateCode)s, %(country)s (estimated)"
+msgstr ""
+
+#: mailer.js:164
 msgid "%(country)s (estimated)"
 msgstr ""
 
-#: mailer.js:260
+#: mailer.js:265
 msgid "Verify your Firefox Account"
 msgstr "Pārbaudiet savu Firefox kontu"
 
-#: mailer.js:299
+#: mailer.js:304
 msgid "Confirm new sign-in to Firefox"
 msgstr "Apstiprināt jauno pierakstīšanos uz Firefox"
 
-#: mailer.js:340
+#: mailer.js:345
 msgid "Reset your Firefox Account password"
 msgstr "Atstatiet sava Firefox konta paroli"
 
-#: mailer.js:366
+#: mailer.js:371
 msgid "Your Firefox Account password has been changed"
 msgstr "Jūsu Firefox konta parole tika mainīta"
 
-#: mailer.js:389
+#: mailer.js:394
 msgid "Your Firefox Account password has been reset"
 msgstr "Jūsu Firefox konta parole tika atstatīta"
 
-#: mailer.js:412
+#: mailer.js:417
 msgid "Firefox Account password reset required"
 msgstr "Firefox konta paroles atstatīšana nepieciešama"
 
-#: mailer.js:463
+#: mailer.js:468
 msgid "Firefox Account Verified"
 msgstr "Firefox konts ir pārbaudīts"
 
-#: mailer.js:502
+#: mailer.js:507
 msgid "Suspicious activity with your Firefox Account"
 msgstr "Aizdomīgas aktivitātes ar jūsu Firefox kontu"
 
