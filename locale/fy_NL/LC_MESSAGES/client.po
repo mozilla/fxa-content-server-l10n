@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-20 13:48+0000\n"
+"POT-Creation-Date: 2016-09-30 17:52+0000\n"
 "PO-Revision-Date: 2016-09-29 10:44+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
@@ -15,11 +15,11 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444650468.0\n"
 
-#: .es5/scripts/views/complete_reset_password.js:121 .es5/scripts/views/complete_sign_up.js:117 .es5/scripts/views/confirm.js:124 .es5/scripts/views/confirm_reset_password.js:173
+#: .es5/scripts/views/complete_reset_password.js:130 .es5/scripts/views/complete_sign_up.js:117 .es5/scripts/views/confirm.js:126 .es5/scripts/views/confirm_reset_password.js:173
 msgid "Account verified successfully"
 msgstr "Account mei sukses ferifiearre"
 
-#: .es5/scripts/views/confirm_reset_password.js:165 .es5/scripts/views/ready.js:43
+#: .es5/scripts/views/confirm_reset_password.js:165 .es5/scripts/views/ready.js:44
 msgid "Password reset"
 msgstr "Wachtwurd opnij ynsteld"
 
@@ -43,31 +43,31 @@ msgstr "Werjeftenamme"
 msgid "Account picture"
 msgstr "Accountôfbylding"
 
-#: .es5/scripts/views/ready.js:29
+#: .es5/scripts/views/ready.js:30
 msgid "Firefox Sync will begin momentarily"
 msgstr "Firefox Sync sil ynkoarten begjinne"
 
-#: .es5/scripts/views/ready.js:38
+#: .es5/scripts/views/ready.js:39
 msgid "Welcome back"
 msgstr "Wolkom werom"
 
-#: .es5/scripts/views/ready.js:39
+#: .es5/scripts/views/ready.js:40
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync sil ynkoarten trochgean"
 
-#: .es5/scripts/views/ready.js:49
+#: .es5/scripts/views/ready.js:50
 msgid "Sign-in confirmed"
 msgstr "Oanmelding befêstige"
 
-#: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55 .es5/scripts/templates/ready.mustache:5
+#: .es5/scripts/views/ready.js:51 .es5/scripts/views/ready.js:56 .es5/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Jo kinne %(serviceName)s no brûke"
 
-#: .es5/scripts/views/ready.js:54
+#: .es5/scripts/views/ready.js:55
 msgid "Account verified"
 msgstr "Account ferifiearre"
 
-#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:152
+#: .es5/scripts/views/reset_password.js:72 .es5/scripts/views/sign_in.js:152
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Unbekende account. <a href=\"/signup\">Registrearje</a>"
 
@@ -79,7 +79,7 @@ msgstr "Account bestiet net mear. Opnij oanmeitsje?"
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Account bestiet al. <a href=\"/signin\">Oanmelde</a>"
 
-#: .es5/scripts/views/settings/avatar_gravatar.js:89
+#: .es5/scripts/views/settings/avatar_gravatar.js:93
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "Mei tank oan <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
@@ -155,21 +155,17 @@ msgstr "Yahoo iepenje"
 msgid "Open Outlook"
 msgstr "Outlook iepenje"
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:22
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:20
 msgid "8 characters minimum, but longer if you plan to sync passwords."
 msgstr "Minimaal 8 tekens, mar langer as jo fan doel binne wachtwurden te syngronisearjen."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:23 .es5/scripts/templates/sign_up.mustache:18
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:21 .es5/scripts/templates/sign_up.mustache:18
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "In sterk, unyk wachtwurd hâldt jo Firefox-gegevens feilich tsjin ynkringers."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:24
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/views/mixins/password-prompt-mixin.js:23
 msgid "This is a common password; please consider another one."
 msgstr "Dit is in gebrûklik wachtwurd; oerweagje in oar."
-
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:25
-msgid "This is a common password; please consider another one. %(moreInfoLink)s"
-msgstr "Dit is in gebrûklik wachtwurd; oerwaach in oar. %(moreInfoLink)s"
 
 #: .es5/scripts/views/mixins/resend-mixin.js:53
 msgid "Email resent"
@@ -184,7 +180,7 @@ msgstr "Jo binne ôfmeld"
 msgid "Unexpected error"
 msgstr "Unferwachte flater"
 
-#: .es5/scripts/lib/auth-errors.js:20 .es5/scripts/templates/complete_sign_up.mustache:2
+#: .es5/scripts/lib/auth-errors.js:20 .es5/scripts/templates/complete_sign_up.mustache:5
 msgid "The link you clicked to verify your email is expired."
 msgstr "De keppeling wêrop jo klikt hawwe om jo e-mailadres te ferifiearjen is ferrûn."
 
@@ -341,7 +337,7 @@ msgstr "Fier in jildich e-mailadres yn. firefox.com biedt gjin e-mail."
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox-accounts kinne allinnich yn in IFRAME op goedkarde websites pleatst wurde"
 
-#: .es5/scripts/lib/auth-errors.js:238 .es5/scripts/templates/complete_sign_up.mustache:6
+#: .es5/scripts/lib/auth-errors.js:238 .es5/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
 msgstr "Ferifikaasjekeppeling skansearre"
 
@@ -380,6 +376,10 @@ msgstr "Gegevenskenmerk ûnjildich: %(property)s"
 #: .es5/scripts/lib/auth-errors.js:289
 msgid "Missing data attribute: %(property)s"
 msgstr "Gegevenskenmerk ûntbrekt: %(property)s"
+
+#: .es5/scripts/lib/auth-errors.js:302 .es5/scripts/templates/complete_sign_up.mustache:2
+msgid "That confirmation link was already used, and can only be used once."
+msgstr ""
 
 #: .es5/scripts/lib/auth-errors.js:306
 msgid "This is a required field"
@@ -462,7 +462,9 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:17
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Troch fierder te gean gean jo akkoard me de <a id=\"service-tos\" href=\"%(termsUri)s\">Servicebetingsten</a> en <a id=\"service-pp\" href=\"%(privacyUri)s\">Privacyferklearring</a> fan de "
 "(%(serviceUri)s) fan %(serviceName)."
@@ -552,7 +554,6 @@ msgid "Save settings"
 msgstr "Ynstellingen bewarje"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:16 .es5/scripts/templates/confirm.mustache:12 .es5/scripts/templates/pp.mustache:3 .es5/scripts/templates/tos.mustache:3
-#: .es5/scripts/templates/support/create_secure_password.mustache:2
 msgid "Back"
 msgstr "Tebek"
 
@@ -572,7 +573,7 @@ msgstr "Klik hjir om in nije keppeling foar opnij ynstellen te ûntfangen"
 msgid "Reset password link damaged"
 msgstr "Keppeling foar opnij ynstellen skansearre"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:6 .es5/scripts/templates/complete_sign_up.mustache:7
+#: .es5/scripts/templates/complete_reset_password.mustache:6 .es5/scripts/templates/complete_sign_up.mustache:10
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
 msgstr "De keppeling wêrop jo klikt hawwe miste tekens en is mooglik defekt rekke troch jo e-mailclient. Kopiearje foarsichtich it adres en probearje it opnij."
 
@@ -607,14 +608,18 @@ msgid "Submit new password"
 msgstr "Nij wachtwurd ferstjoere"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:1
+msgid "Sign-in already confirmed"
+msgstr ""
+
+#: .es5/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
 msgstr "Ferifikaasjekeppeling ferrûn"
 
-#: .es5/scripts/templates/complete_sign_up.mustache:3
+#: .es5/scripts/templates/complete_sign_up.mustache:6
 msgid "Click here to receive a new verification link"
 msgstr "Klik hjir om in nije ferifikaasjekeppeling te ûntfangen"
 
-#: .es5/scripts/templates/complete_sign_up.mustache:9
+#: .es5/scripts/templates/complete_sign_up.mustache:12
 msgid "Verification error"
 msgstr "Ferifikaasjeflater"
 
@@ -694,7 +699,9 @@ msgstr "Wachtwurd ferjitten?"
 
 #: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Troch fierder te gean gean jo akkoard mei de <a id=\"fxa-tos\" href=\"/legal/terms\">Servicebetingsten</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyferklearring</a> fan Firefox-cloudtsjinten."
+msgstr ""
+"Troch fierder te gean gean jo akkoard mei de <a id=\"fxa-tos\" href=\"/legal/terms\">Servicebetingsten</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyferklearring</a> fan Firefox-"
+"cloudtsjinten."
 
 #: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -840,19 +847,14 @@ msgstr "Account oanmeitsje"
 msgid "Have an account? Sign in"
 msgstr "Hawwe jo in account? Oanmelde"
 
-#: .es5/scripts/templates/support/create_secure_password.mustache:1
-msgid "Create secure passwords to keep your identity safe"
-msgstr "Feilige wachtwurden meitsje om jo identiteit feilich te hâlden"
-
-#: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2
-#: .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/communication_preferences.mustache:4 .es5/scripts/templates/settings/display_name.mustache:2
-#: .es5/scripts/templates/settings/display_name.mustache:5
-msgid "Change"
-msgstr "Wizigje"
+#: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2 .es5/scripts/templates/settings/communication_preferences.mustache:4
+#: .es5/scripts/templates/settings/display_name.mustache:2
+msgid "Change…"
+msgstr ""
 
 #: .es5/scripts/templates/settings/avatar.mustache:4
-msgid "Add"
-msgstr "Tafoegje"
+msgid "Add…"
+msgstr ""
 
 #: .es5/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -882,6 +884,10 @@ msgstr "Dien"
 msgid "Position and rotate your picture as needed"
 msgstr "Pleats en draai sa nedich jo foto"
 
+#: .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/display_name.mustache:5
+msgid "Change"
+msgstr "Wizigje"
+
 #: .es5/scripts/templates/settings/avatar_gravatar.mustache:2
 msgid "Save"
 msgstr "Bewarje"
@@ -903,8 +909,8 @@ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer s
 msgstr "Jo navigaasjegegevens bliuwe op %(deviceName)s bestean, mar der wurdt net mear mei jo account syngronisearre."
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:3
-msgid "Reason for disconnecting&hellip;"
-msgstr "Reden foar ferbrekke&hellip;"
+msgid "Reason for disconnecting…"
+msgstr ""
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
@@ -932,19 +938,19 @@ msgstr "Ferbrekken suksesfol"
 
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-"href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+"\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"Firefox is beskikber foar <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> en <a "
-"href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is beskikber foar <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> en <a href="
+"\"%(linkLinux)s\">Linux</a>."
 
 #: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
 msgstr "aktueel apparaat"
 
 #: .es5/scripts/templates/settings/clients.mustache:6
-msgid "Disconnect&hellip;"
-msgstr "Ferbrekke&hellip;"
+msgid "Disconnect…"
+msgstr ""
 
 #: .es5/scripts/templates/settings/clients.mustache:8
 msgid "Missing or duplicate items?"
@@ -975,8 +981,8 @@ msgid "Delete account"
 msgstr "Account fuortsmite"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:2
-msgid "Delete"
-msgstr "Fuortsmite"
+msgid "Delete…"
+msgstr ""
 
 #: .es5/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
@@ -1005,6 +1011,24 @@ msgstr "OpenID brûke"
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Firefox Account brûke"
+
+#~ msgid "This is a common password; please consider another one. %(moreInfoLink)s"
+#~ msgstr "Dit is in gebrûklik wachtwurd; oerwaach in oar. %(moreInfoLink)s"
+
+#~ msgid "Create secure passwords to keep your identity safe"
+#~ msgstr "Feilige wachtwurden meitsje om jo identiteit feilich te hâlden"
+
+#~ msgid "Add"
+#~ msgstr "Tafoegje"
+
+#~ msgid "Reason for disconnecting&hellip;"
+#~ msgstr "Reden foar ferbrekke&hellip;"
+
+#~ msgid "Disconnect&hellip;"
+#~ msgstr "Ferbrekke&hellip;"
+
+#~ msgid "Delete"
+#~ msgstr "Fuortsmite"
 
 #~ msgid "Attempt limit exceeded"
 #~ msgstr "Maksimaal oantal mooglikheden berikt"
@@ -1092,8 +1116,8 @@ msgstr "Firefox Account brûke"
 
 #~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
 #~ msgstr ""
-#~ "Om feilichheidsredenen is jo account beskoattele. Foar it útfieren fan aktiviteiten op accountniveau ferifiearje jo jo account opnij troch op de ferifikaasjekeppeling te klikken dy't nei %(email)s "
-#~ "ferstjoerd is"
+#~ "Om feilichheidsredenen is jo account beskoattele. Foar it útfieren fan aktiviteiten op accountniveau ferifiearje jo jo account opnij troch op de ferifikaasjekeppeling te klikken dy't nei "
+#~ "%(email)s ferstjoerd is"
 
 #~ msgid "Signup has been disabled"
 #~ msgstr "Registraasje is útskeakele"
@@ -1160,8 +1184,8 @@ msgstr "Firefox Account brûke"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr ""
-#~ "Opnij ynstellen fan jo wachtwurd sil jo navigaasjegegevens fan ús servers wiskje. Gegevens op jo apparaten bliuwe ûnoantaast. Begjin it werinisjalisaasjeproses troch hjirûnder jo e-mailadres yn te "
-#~ "fieren."
+#~ "Opnij ynstellen fan jo wachtwurd sil jo navigaasjegegevens fan ús servers wiskje. Gegevens op jo apparaten bliuwe ûnoantaast. Begjin it werinisjalisaasjeproses troch hjirûnder jo e-mailadres yn "
+#~ "te fieren."
 
 #~ msgid "Begin reset"
 #~ msgstr "Werinisjalisaasje begjinne"
@@ -1221,8 +1245,8 @@ msgstr "Firefox Account brûke"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Skeakel cookies yn jo browser yn; dizze binne fereaske troch Firefox Accounts. Cookies binne lytse stikjes gegevens dy't yn jo browser bewarre wurde en funksjonaliteiten biede, lykas it ûnthâlden "
-#~ "fan jo tusken sesjes."
+#~ "Skeakel cookies yn jo browser yn; dizze binne fereaske troch Firefox Accounts. Cookies binne lytse stikjes gegevens dy't yn jo browser bewarre wurde en funksjonaliteiten biede, lykas it "
+#~ "ûnthâlden fan jo tusken sesjes."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox komt nei iOS!"
@@ -1368,13 +1392,17 @@ msgstr "Firefox Account brûke"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Hawwe jo al in account? Meld jo oan."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
-#~ "Troch fierder te gean, gean ik akkoard mei de <a id=\"service-tos\" href=\"%(termsUri)s\">Tsjinstbetingsten</a> en<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacybelied</a> fan de %(serviceName)"
-#~ " fan (%(serviceUri)s)."
+#~ "Troch fierder te gean, gean ik akkoard mei de <a id=\"service-tos\" href=\"%(termsUri)s\">Tsjinstbetingsten</a> en<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacybelied</a> fan de "
+#~ "%(serviceName) fan (%(serviceUri)s)."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Troch fierder te gean gean ik akkoard mei de <a id=\"fxa-tos\" href=\"/legal/terms\">Servicebetingsten</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyferklearring</a> fan Firefox-cloudservices."
+#~ msgstr ""
+#~ "Troch fierder te gean gean ik akkoard mei de <a id=\"fxa-tos\" href=\"/legal/terms\">Servicebetingsten</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyferklearring</a> fan Firefox-"
+#~ "cloudservices."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Meld jo oan foar Firefox-nijs en tips"

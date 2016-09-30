@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-20 13:48+0000\n"
-"PO-Revision-Date: 2016-03-20 17:04+0000\n"
+"POT-Creation-Date: 2016-09-30 17:52+0000\n"
+"PO-Revision-Date: 2016-09-24 11:13+0000\n"
 "Last-Translator: umesh.agarwal1 <umesh.agarwal1@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -15,11 +15,11 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1440858924.0\n"
 
-#: .es5/scripts/views/complete_reset_password.js:121 .es5/scripts/views/complete_sign_up.js:117 .es5/scripts/views/confirm.js:124 .es5/scripts/views/confirm_reset_password.js:173
+#: .es5/scripts/views/complete_reset_password.js:130 .es5/scripts/views/complete_sign_up.js:117 .es5/scripts/views/confirm.js:126 .es5/scripts/views/confirm_reset_password.js:173
 msgid "Account verified successfully"
 msgstr "खाता सफलतापूर्वक सत्यापित"
 
-#: .es5/scripts/views/confirm_reset_password.js:165 .es5/scripts/views/ready.js:43
+#: .es5/scripts/views/confirm_reset_password.js:165 .es5/scripts/views/ready.js:44
 msgid "Password reset"
 msgstr "कूटशब्द पुनः तैयार करें"
 
@@ -45,43 +45,43 @@ msgstr "प्रदर्शित होने वाला नाम"
 msgid "Account picture"
 msgstr "खाते की तस्वीर"
 
-#: .es5/scripts/views/ready.js:29
+#: .es5/scripts/views/ready.js:30
 msgid "Firefox Sync will begin momentarily"
 msgstr "Firefox सिंक क्षण भर शुरू हो जाएगा"
 
-#: .es5/scripts/views/ready.js:38
+#: .es5/scripts/views/ready.js:39
 msgid "Welcome back"
 msgstr "आपका फिर स्वागत है"
 
-#: .es5/scripts/views/ready.js:39
+#: .es5/scripts/views/ready.js:40
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox सिंक क्षण भर शुरू हो जाएगा"
 
-#: .es5/scripts/views/ready.js:49
+#: .es5/scripts/views/ready.js:50
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "साइन इन पुष्टि हो गई"
 
-#: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55 .es5/scripts/templates/ready.mustache:5
+#: .es5/scripts/views/ready.js:51 .es5/scripts/views/ready.js:56 .es5/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
 msgstr "अब आप %(serviceName)s उपयोग करने के लिए तैयार हैं"
 
-#: .es5/scripts/views/ready.js:54
+#: .es5/scripts/views/ready.js:55
 msgid "Account verified"
 msgstr "खाता सत्यापित"
 
-#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:152
+#: .es5/scripts/views/reset_password.js:72 .es5/scripts/views/sign_in.js:152
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "अज्ञात खाता.<a href=\"/signup\">साइन अप</a>"
 
 #: .es5/scripts/views/sign_up.js:61
 msgid "Account no longer exists. Recreate it?"
-msgstr ""
+msgstr "खाता अब मौजूद नहीं है. इसका पुनः निर्माण करे?"
 
 #: .es5/scripts/views/sign_up.js:361
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "खाता पहले से मौजूद है. <a href=\"/signin\">साइन इन</a>"
 
-#: .es5/scripts/views/settings/avatar_gravatar.js:89
+#: .es5/scripts/views/settings/avatar_gravatar.js:93
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "सौजन्य से <a href=\"https://www.gravatar.com\">ग्रावतार</a>"
 
@@ -99,15 +99,15 @@ msgstr ""
 
 #: .es5/scripts/views/settings/clients.js:53
 msgid "Last active: %(translatedTimeAgo)s"
-msgstr ""
+msgstr "पिछले सक्रिय : %(translatedTimeAgo)s"
 
 #: .es5/scripts/views/settings/clients.js:91
 msgid "Devices"
-msgstr ""
+msgstr "उपकरण"
 
 #: .es5/scripts/views/settings/clients.js:94
 msgid "Devices & apps"
-msgstr ""
+msgstr "उपकरण और क्षुधा"
 
 #: .es5/scripts/views/settings/clients.js:101
 msgid "You can manage your devices below."
@@ -143,34 +143,30 @@ msgstr "कूटशब्द पुनः तैयार करें"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:17
 msgid "Open Gmail"
-msgstr ""
+msgstr "Gmail खुले"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:22
 msgid "Open Hotmail"
-msgstr ""
+msgstr "Hotmail खुले"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:27
 msgid "Open Yahoo"
-msgstr ""
+msgstr "Yahoo खुले"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:32
 msgid "Open Outlook"
-msgstr ""
+msgstr "Outlook खुले"
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:22
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:20
 msgid "8 characters minimum, but longer if you plan to sync passwords."
 msgstr ""
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:23 .es5/scripts/templates/sign_up.mustache:18
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:21 .es5/scripts/templates/sign_up.mustache:18
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr ""
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:24
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/views/mixins/password-prompt-mixin.js:23
 msgid "This is a common password; please consider another one."
-msgstr ""
-
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:25
-msgid "This is a common password; please consider another one. %(moreInfoLink)s"
 msgstr ""
 
 #: .es5/scripts/views/mixins/resend-mixin.js:53
@@ -186,7 +182,7 @@ msgstr "सफलतापूर्वक साइन आउट किया �
 msgid "Unexpected error"
 msgstr "अप्रत्याशित त्रुटि"
 
-#: .es5/scripts/lib/auth-errors.js:20 .es5/scripts/templates/complete_sign_up.mustache:2
+#: .es5/scripts/lib/auth-errors.js:20 .es5/scripts/templates/complete_sign_up.mustache:5
 msgid "The link you clicked to verify your email is expired."
 msgstr "ईमेल सत्यापन के लिए चुने हुए लिंक की वैधता समाप्त हो चुकी है."
 
@@ -240,11 +236,11 @@ msgstr "अनुरोध क्षेत्र में अमान्य JS
 
 #: .es5/scripts/lib/auth-errors.js:75
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "अमान्य मापदंड: %(param)s"
 
 #: .es5/scripts/lib/auth-errors.js:79
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "अमान्य मापदंड: %(param)s"
 
 #: .es5/scripts/lib/auth-errors.js:83
 msgid "Invalid request signature"
@@ -343,7 +339,7 @@ msgstr "एक वैध ईमेल प्रविष्ट करें. fir
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "फ़ायरफ़ॉक्स खातों कों केवल अनुमोदित साइटों पर एक IFRAME में ही रखा जा सकता है"
 
-#: .es5/scripts/lib/auth-errors.js:238 .es5/scripts/templates/complete_sign_up.mustache:6
+#: .es5/scripts/lib/auth-errors.js:238 .es5/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
 msgstr "सत्यापन लिंक क्षतिग्रस्त"
 
@@ -365,11 +361,11 @@ msgstr "कोई ग्रावतार नहीं मिला"
 
 #: .es5/scripts/lib/auth-errors.js:273
 msgid "Account no longer exists."
-msgstr ""
+msgstr "खाता अब मौजूद नहीं हैं."
 
 #: .es5/scripts/lib/auth-errors.js:277
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "रिज्यूम टोकन में अवैध संपत्ति: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:281
 msgid "Missing property in resume token: %(property)s"
@@ -377,15 +373,19 @@ msgstr ""
 
 #: .es5/scripts/lib/auth-errors.js:285
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "अमान्य डेटा विशेषता: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:289
 msgid "Missing data attribute: %(property)s"
+msgstr "डेटा विशेषता अनुपलब्ध: %(property)s"
+
+#: .es5/scripts/lib/auth-errors.js:302 .es5/scripts/templates/complete_sign_up.mustache:2
+msgid "That confirmation link was already used, and can only be used once."
 msgstr ""
 
 #: .es5/scripts/lib/auth-errors.js:306
 msgid "This is a required field"
-msgstr ""
+msgstr "यह एक ज़रूरी जगह हैं"
 
 #: .es5/scripts/lib/config-loader.js:81
 msgid "Missing configuration"
@@ -445,7 +445,7 @@ msgstr "अनुपस्थित OAuth मापदण्ड: %(param)s"
 
 #: .es5/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
-msgstr ""
+msgstr "अमान्य टोकन"
 
 #: .es5/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
@@ -471,7 +471,7 @@ msgstr "कार्यवाही आगे बढ़ा के, आप स्व
 
 #: .es5/scripts/lib/strings.js:24
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
-msgstr ""
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">मदद</a>"
 
 #: .es5/scripts/lib/strings.js:28
 msgid "Get the latest news about Mozilla and Firefox."
@@ -479,15 +479,15 @@ msgstr "मोज़िला और फ़ायरफ़ॉक्स के विष�
 
 #: .es5/scripts/lib/strings.js:31
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (अनुमान)"
 
 #: .es5/scripts/lib/strings.js:32
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (अनुमान)"
 
 #: .es5/scripts/lib/strings.js:33
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "IP एड्रेस: %(ip)s"
 
 #: .es5/scripts/lib/strings.js:34
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
@@ -495,11 +495,11 @@ msgstr ""
 
 #: .es5/scripts/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "गलत अनुरोध"
 
 #: .es5/scripts/templates/500.mustache:1
 msgid "500 Error"
-msgstr ""
+msgstr "500 त्रुटि"
 
 #: .es5/scripts/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
@@ -523,7 +523,7 @@ msgstr "चुनें क्या साथ करना है"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Open tabs"
-msgstr ""
+msgstr "टैब्स खोले"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
@@ -551,10 +551,9 @@ msgstr "Add-ons और प्राथमिकताएं वर्तमा�
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
-msgstr ""
+msgstr "सेटिंग्स सहेजें"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:16 .es5/scripts/templates/confirm.mustache:12 .es5/scripts/templates/pp.mustache:3 .es5/scripts/templates/tos.mustache:3
-#: .es5/scripts/templates/support/create_secure_password.mustache:2
 msgid "Back"
 msgstr "पीछे"
 
@@ -574,7 +573,7 @@ msgstr "एक नया पुनः तैयार करने का लि
 msgid "Reset password link damaged"
 msgstr "कूटशब्द पुनः तैयार करने हेतु लिंक क्षतिग्रस्त"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:6 .es5/scripts/templates/complete_sign_up.mustache:7
+#: .es5/scripts/templates/complete_reset_password.mustache:6 .es5/scripts/templates/complete_sign_up.mustache:10
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
 msgstr "जिस लिंक पर आपने क्लिक किया है उसमें अक्षर अनुपस्थित हैं, एवं शायद आपके ईमेल यजमान द्वारा तोड़ दिया गया. ध्यानपूर्वक पता कॉपी करें, एवं पुनः प्रयास करें."
 
@@ -609,14 +608,18 @@ msgid "Submit new password"
 msgstr "नया कूटशब्द करें"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:1
+msgid "Sign-in already confirmed"
+msgstr ""
+
+#: .es5/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
 msgstr "सत्यापन लिंक की वैधता समाप्त"
 
-#: .es5/scripts/templates/complete_sign_up.mustache:3
+#: .es5/scripts/templates/complete_sign_up.mustache:6
 msgid "Click here to receive a new verification link"
 msgstr "नया सत्यापन लिंक प्राप्त करने के लिए यहाँ दबाएं"
 
-#: .es5/scripts/templates/complete_sign_up.mustache:9
+#: .es5/scripts/templates/complete_sign_up.mustache:12
 msgid "Verification error"
 msgstr "सत्यापन त्रुटि"
 
@@ -842,19 +845,14 @@ msgstr ""
 msgid "Have an account? Sign in"
 msgstr ""
 
-#: .es5/scripts/templates/support/create_secure_password.mustache:1
-msgid "Create secure passwords to keep your identity safe"
+#: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2 .es5/scripts/templates/settings/communication_preferences.mustache:4
+#: .es5/scripts/templates/settings/display_name.mustache:2
+msgid "Change…"
 msgstr ""
 
-#: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2
-#: .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/communication_preferences.mustache:4 .es5/scripts/templates/settings/display_name.mustache:2
-#: .es5/scripts/templates/settings/display_name.mustache:5
-msgid "Change"
-msgstr "बदली करें"
-
 #: .es5/scripts/templates/settings/avatar.mustache:4
-msgid "Add"
-msgstr "जोड़िये"
+msgid "Add…"
+msgstr ""
 
 #: .es5/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -884,6 +882,10 @@ msgstr "समाप्त"
 msgid "Position and rotate your picture as needed"
 msgstr "अपने चित्र को उपयुक्त स्थान पर रखें एवं आवश्यकतानुसार घुमायें"
 
+#: .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/display_name.mustache:5
+msgid "Change"
+msgstr "बदली करें"
+
 #: .es5/scripts/templates/settings/avatar_gravatar.mustache:2
 msgid "Save"
 msgstr "सुरक्षित करें"
@@ -905,7 +907,7 @@ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer s
 msgstr ""
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:3
-msgid "Reason for disconnecting&hellip;"
+msgid "Reason for disconnecting…"
 msgstr ""
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:4
@@ -943,7 +945,7 @@ msgid "current device"
 msgstr ""
 
 #: .es5/scripts/templates/settings/clients.mustache:6
-msgid "Disconnect&hellip;"
+msgid "Disconnect…"
 msgstr ""
 
 #: .es5/scripts/templates/settings/clients.mustache:8
@@ -975,8 +977,8 @@ msgid "Delete account"
 msgstr "खाता नष्ट करें"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:2
-msgid "Delete"
-msgstr "मिटा दें"
+msgid "Delete…"
+msgstr ""
 
 #: .es5/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
@@ -1005,6 +1007,12 @@ msgstr ""
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr ""
+
+#~ msgid "Add"
+#~ msgstr "जोड़िये"
+
+#~ msgid "Delete"
+#~ msgstr "मिटा दें"
 
 #~ msgid "Attempt limit exceeded"
 #~ msgstr "प्रयास सीमा पार हो गई"

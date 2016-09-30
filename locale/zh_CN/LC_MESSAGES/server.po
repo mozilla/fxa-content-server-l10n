@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-20 13:48+0000\n"
+"POT-Creation-Date: 2016-09-30 17:52+0000\n"
 "PO-Revision-Date: 2016-09-04 07:15+0000\n"
 "Last-Translator: YFdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444933939.0\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:527
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:532
 msgid "Still there?"
 msgstr "还在吗？"
 
@@ -50,7 +50,7 @@ msgstr "登录“同步”"
 msgid "Firefox Accounts"
 msgstr "Firefox 账号"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:434
+#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:439
 msgid "New sign-in to Firefox"
 msgstr "新一次登录 Firefox"
 
@@ -220,7 +220,7 @@ msgstr "为什么您会收到这封邮件？"
 msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
 msgstr "最近我们注意到 Firefox 账号从异常地点登录。作为预防措施我们现在给您发送通知。"
 
-#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:524
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:529
 msgid "Hello again."
 msgstr "我们又见面了。"
 
@@ -275,42 +275,50 @@ msgid "If you suspect that someone is trying to gain access to your account, ple
 msgstr "如果您怀疑有人在试图访问您的账号，请更改您的密码。"
 
 #: mailer.js:158
+msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
+msgstr ""
+
+#: mailer.js:160
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(country)s，%(city)s（估计）"
 
-#: mailer.js:160
+#: mailer.js:162
+msgid "%(stateCode)s, %(country)s (estimated)"
+msgstr ""
+
+#: mailer.js:164
 msgid "%(country)s (estimated)"
 msgstr "%(country)s（估计）"
 
-#: mailer.js:260
+#: mailer.js:265
 msgid "Verify your Firefox Account"
 msgstr "验证您的 Firefox 账号"
 
-#: mailer.js:299
+#: mailer.js:304
 msgid "Confirm new sign-in to Firefox"
 msgstr "确认新的 Firefox 登录"
 
-#: mailer.js:340
+#: mailer.js:345
 msgid "Reset your Firefox Account password"
 msgstr "重置您的 Firefox 账号密码"
 
-#: mailer.js:366
+#: mailer.js:371
 msgid "Your Firefox Account password has been changed"
 msgstr "您的 Firefox 账号密码已被更改"
 
-#: mailer.js:389
+#: mailer.js:394
 msgid "Your Firefox Account password has been reset"
 msgstr "您的 Firefox 账号密码已被重置"
 
-#: mailer.js:412
+#: mailer.js:417
 msgid "Firefox Account password reset required"
 msgstr "Firefox 账号密码必须重置"
 
-#: mailer.js:463
+#: mailer.js:468
 msgid "Firefox Account Verified"
 msgstr "Firefox 账号已验证"
 
-#: mailer.js:502
+#: mailer.js:507
 msgid "Suspicious activity with your Firefox Account"
 msgstr "您的 Firefox 账号有可疑活动"
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-20 13:48+0000\n"
+"POT-Creation-Date: 2016-09-30 17:52+0000\n"
 "PO-Revision-Date: 2016-08-27 05:05+0000\n"
 "Last-Translator: pillarlee16 <pillarlee16@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,11 +15,11 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1424658195.0\n"
 
-#: .es5/scripts/views/complete_reset_password.js:121 .es5/scripts/views/complete_sign_up.js:117 .es5/scripts/views/confirm.js:124 .es5/scripts/views/confirm_reset_password.js:173
+#: .es5/scripts/views/complete_reset_password.js:130 .es5/scripts/views/complete_sign_up.js:117 .es5/scripts/views/confirm.js:126 .es5/scripts/views/confirm_reset_password.js:173
 msgid "Account verified successfully"
 msgstr "계정 확인 성공"
 
-#: .es5/scripts/views/confirm_reset_password.js:165 .es5/scripts/views/ready.js:43
+#: .es5/scripts/views/confirm_reset_password.js:165 .es5/scripts/views/ready.js:44
 msgid "Password reset"
 msgstr "암호 재설정"
 
@@ -43,31 +43,31 @@ msgstr "이름 표시"
 msgid "Account picture"
 msgstr "계정 사진"
 
-#: .es5/scripts/views/ready.js:29
+#: .es5/scripts/views/ready.js:30
 msgid "Firefox Sync will begin momentarily"
 msgstr "Firefox Sync가 곧 시작됩니다."
 
-#: .es5/scripts/views/ready.js:38
+#: .es5/scripts/views/ready.js:39
 msgid "Welcome back"
 msgstr "환영합니다"
 
-#: .es5/scripts/views/ready.js:39
+#: .es5/scripts/views/ready.js:40
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync가 곧 다시 계속됩니다."
 
-#: .es5/scripts/views/ready.js:49
+#: .es5/scripts/views/ready.js:50
 msgid "Sign-in confirmed"
 msgstr "로그인 확인"
 
-#: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55 .es5/scripts/templates/ready.mustache:5
+#: .es5/scripts/views/ready.js:51 .es5/scripts/views/ready.js:56 .es5/scripts/templates/ready.mustache:5
 msgid "You are now ready to use %(serviceName)s"
 msgstr "%(serviceName)s를 지금부터 사용할 수 있습니다."
 
-#: .es5/scripts/views/ready.js:54
+#: .es5/scripts/views/ready.js:55
 msgid "Account verified"
 msgstr "계정 확인"
 
-#: .es5/scripts/views/reset_password.js:73 .es5/scripts/views/sign_in.js:152
+#: .es5/scripts/views/reset_password.js:72 .es5/scripts/views/sign_in.js:152
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "잘못된 계정입니다. <a href=\"/signup\">회원가입</a>"
 
@@ -79,7 +79,7 @@ msgstr "계정이 더이상 존재하지 않습니다. 다시 만드시겠습니
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "존재하고 있는 계정입니다. <a href=\"/signin\">회원가입</a>"
 
-#: .es5/scripts/views/settings/avatar_gravatar.js:89
+#: .es5/scripts/views/settings/avatar_gravatar.js:93
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "무료 <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
@@ -155,21 +155,17 @@ msgstr "Yahoo 열기"
 msgid "Open Outlook"
 msgstr "Outlook 열기"
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:22
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:20
 msgid "8 characters minimum, but longer if you plan to sync passwords."
 msgstr "최소 8자를 필요로합니다, 그러나 동기화를 사용할 생각이라면 더 길어야 합니다."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:23 .es5/scripts/templates/sign_up.mustache:18
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:21 .es5/scripts/templates/sign_up.mustache:18
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "강력하고, 고유한 암호를 사용하시면 침입자로 부터 여러분의 Firefox 데이터를 지킬 수 있습니다."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:24
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/views/mixins/password-prompt-mixin.js:23
 msgid "This is a common password; please consider another one."
 msgstr "너무 일반적인 암호입니다; 다른 것을 생각해보세요."
-
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:25
-msgid "This is a common password; please consider another one. %(moreInfoLink)s"
-msgstr ""
 
 #: .es5/scripts/views/mixins/resend-mixin.js:53
 msgid "Email resent"
@@ -184,7 +180,7 @@ msgstr "로그아웃 성공"
 msgid "Unexpected error"
 msgstr "알수없는 에러"
 
-#: .es5/scripts/lib/auth-errors.js:20 .es5/scripts/templates/complete_sign_up.mustache:2
+#: .es5/scripts/lib/auth-errors.js:20 .es5/scripts/templates/complete_sign_up.mustache:5
 msgid "The link you clicked to verify your email is expired."
 msgstr "이메일 주소 확인을 위해 클릭한 링크가 만료되었습니다."
 
@@ -341,7 +337,7 @@ msgstr "유효한 이메일 주소를 입력해 주세요. firefox.com에서 이
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox 계정은 승인된 웹 사이트의 IFRAME 에만 위치할 수 있습니다"
 
-#: .es5/scripts/lib/auth-errors.js:238 .es5/scripts/templates/complete_sign_up.mustache:6
+#: .es5/scripts/lib/auth-errors.js:238 .es5/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
 msgstr "확인 링크가 손상됨"
 
@@ -380,6 +376,10 @@ msgstr "유효하지 않은 데이터 속성: %(property)s"
 #: .es5/scripts/lib/auth-errors.js:289
 msgid "Missing data attribute: %(property)s"
 msgstr "누락된 데이터 속성: %(property)s"
+
+#: .es5/scripts/lib/auth-errors.js:302 .es5/scripts/templates/complete_sign_up.mustache:2
+msgid "That confirmation link was already used, and can only be used once."
+msgstr ""
 
 #: .es5/scripts/lib/auth-errors.js:306
 msgid "This is a required field"
@@ -554,7 +554,6 @@ msgid "Save settings"
 msgstr "설정 저장"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:16 .es5/scripts/templates/confirm.mustache:12 .es5/scripts/templates/pp.mustache:3 .es5/scripts/templates/tos.mustache:3
-#: .es5/scripts/templates/support/create_secure_password.mustache:2
 msgid "Back"
 msgstr "뒤로"
 
@@ -574,7 +573,7 @@ msgstr "새로운 초기화 링크 생성"
 msgid "Reset password link damaged"
 msgstr "암호 재설정 링크 문제 있음"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:6 .es5/scripts/templates/complete_sign_up.mustache:7
+#: .es5/scripts/templates/complete_reset_password.mustache:6 .es5/scripts/templates/complete_sign_up.mustache:10
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
 msgstr "클릭한 링크에 빠진 글자가 있습니다, 메일 클라이언트가 링크를 손상시켰을 수 있습니다. 주소를 다시 복사해서 시도해 주세요."
 
@@ -609,14 +608,18 @@ msgid "Submit new password"
 msgstr "새로운 비밀번호 제출"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:1
+msgid "Sign-in already confirmed"
+msgstr ""
+
+#: .es5/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
 msgstr "확인 링크가 만료됨"
 
-#: .es5/scripts/templates/complete_sign_up.mustache:3
+#: .es5/scripts/templates/complete_sign_up.mustache:6
 msgid "Click here to receive a new verification link"
 msgstr "새로운 확인 링크 받기"
 
-#: .es5/scripts/templates/complete_sign_up.mustache:9
+#: .es5/scripts/templates/complete_sign_up.mustache:12
 msgid "Verification error"
 msgstr "확인 오류"
 
@@ -843,19 +846,14 @@ msgstr "계정 생성"
 msgid "Have an account? Sign in"
 msgstr ""
 
-#: .es5/scripts/templates/support/create_secure_password.mustache:1
-msgid "Create secure passwords to keep your identity safe"
+#: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2 .es5/scripts/templates/settings/communication_preferences.mustache:4
+#: .es5/scripts/templates/settings/display_name.mustache:2
+msgid "Change…"
 msgstr ""
 
-#: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2
-#: .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/communication_preferences.mustache:4 .es5/scripts/templates/settings/display_name.mustache:2
-#: .es5/scripts/templates/settings/display_name.mustache:5
-msgid "Change"
-msgstr "변경"
-
 #: .es5/scripts/templates/settings/avatar.mustache:4
-msgid "Add"
-msgstr "추가"
+msgid "Add…"
+msgstr ""
 
 #: .es5/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -885,6 +883,10 @@ msgstr "완료"
 msgid "Position and rotate your picture as needed"
 msgstr "필요한 만큼 사진의 위치나 회전을 수정"
 
+#: .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/display_name.mustache:5
+msgid "Change"
+msgstr "변경"
+
 #: .es5/scripts/templates/settings/avatar_gravatar.mustache:2
 msgid "Save"
 msgstr "저장"
@@ -906,7 +908,7 @@ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer s
 msgstr ""
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:3
-msgid "Reason for disconnecting&hellip;"
+msgid "Reason for disconnecting…"
 msgstr ""
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:4
@@ -946,7 +948,7 @@ msgid "current device"
 msgstr "현재 기기"
 
 #: .es5/scripts/templates/settings/clients.mustache:6
-msgid "Disconnect&hellip;"
+msgid "Disconnect…"
 msgstr ""
 
 #: .es5/scripts/templates/settings/clients.mustache:8
@@ -978,8 +980,8 @@ msgid "Delete account"
 msgstr "계정 삭제"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:2
-msgid "Delete"
-msgstr "삭제"
+msgid "Delete…"
+msgstr ""
 
 #: .es5/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
@@ -1008,6 +1010,12 @@ msgstr "OpenID 사용"
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Firefox Account 사용"
+
+#~ msgid "Add"
+#~ msgstr "추가"
+
+#~ msgid "Delete"
+#~ msgstr "삭제"
 
 #~ msgid "Attempt limit exceeded"
 #~ msgstr "재시도 횟수 초과"

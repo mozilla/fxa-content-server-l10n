@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-20 13:48+0000\n"
+"POT-Creation-Date: 2016-09-30 17:52+0000\n"
 "PO-Revision-Date: 2016-09-17 12:06+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:527
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:532
 msgid "Still there?"
 msgstr "Framleis der?"
 
@@ -53,7 +53,7 @@ msgstr "Logg inn på Sync"
 msgid "Firefox Accounts"
 msgstr "Firefox-kontoar"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:434
+#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:439
 msgid "New sign-in to Firefox"
 msgstr "Ny innlogging på Firefox"
 
@@ -227,7 +227,7 @@ msgstr "Kvifor får du denne e-posten?"
 msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
 msgstr "Vi oppdaga nyleg inloggningar på Firefox-kontoen din frå uvanlege stadar. Vi sender deg denne meldinga slik at du kan reagera om dei er mistenkelege."
 
-#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:524
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:529
 msgid "Hello again."
 msgstr "Hei igjen."
 
@@ -284,42 +284,50 @@ msgid "If you suspect that someone is trying to gain access to your account, ple
 msgstr "Om du mistenkjer at nokon prøver å få tilgang til kontoen din, må du endra passordet ditt."
 
 #: mailer.js:158
+msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
+msgstr ""
+
+#: mailer.js:160
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (estimert)"
 
-#: mailer.js:160
+#: mailer.js:162
+msgid "%(stateCode)s, %(country)s (estimated)"
+msgstr ""
+
+#: mailer.js:164
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (estimert)"
 
-#: mailer.js:260
+#: mailer.js:265
 msgid "Verify your Firefox Account"
 msgstr "Stadfest Firefox-kontoen din"
 
-#: mailer.js:299
+#: mailer.js:304
 msgid "Confirm new sign-in to Firefox"
 msgstr "Stadfest ny innlogging på Firefox"
 
-#: mailer.js:340
+#: mailer.js:345
 msgid "Reset your Firefox Account password"
 msgstr "Tilbakestill passordet for Firefox-kontoen din"
 
-#: mailer.js:366
+#: mailer.js:371
 msgid "Your Firefox Account password has been changed"
 msgstr "Passordet for Firefox-kontoen din er endra"
 
-#: mailer.js:389
+#: mailer.js:394
 msgid "Your Firefox Account password has been reset"
 msgstr "Passordet til Firefox-kontoen din er endra"
 
-#: mailer.js:412
+#: mailer.js:417
 msgid "Firefox Account password reset required"
 msgstr "Tilbakestilling av passord for Firefox-kontoen er påkravd"
 
-#: mailer.js:463
+#: mailer.js:468
 msgid "Firefox Account Verified"
 msgstr "Firefox-kontoen stadfesta"
 
-#: mailer.js:502
+#: mailer.js:507
 msgid "Suspicious activity with your Firefox Account"
 msgstr "Mistenkjeleg aktivitet på Firefox-kontoen din"
 
