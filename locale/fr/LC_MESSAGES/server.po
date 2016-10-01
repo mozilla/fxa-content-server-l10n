@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-30 17:52+0000\n"
-"PO-Revision-Date: 2016-10-01 08:26+0000\n"
-"Last-Translator: Sphinx / Julien G <sphinx_knight@hotmail.fr>\n"
+"PO-Revision-Date: 2016-10-01 15:29+0000\n"
+"Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -291,19 +291,19 @@ msgstr "Si vous avez des raisons de penser que quelqu’un essaie d’accéder �
 
 #: mailer.js:158
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr "%(city)s, %(stateCode)s, %(country)s (estimé)"
+msgstr "%(city)s, %(stateCode)s, %(country)s (approximatif)"
 
 #: mailer.js:160
 msgid "%(city)s, %(country)s (estimated)"
-msgstr "%(city)s, %(country)s (approximation)"
+msgstr "%(city)s, %(country)s (approximatif)"
 
 #: mailer.js:162
 msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr "%(stateCode)s, %(country)s (estimé)"
+msgstr "%(stateCode)s, %(country)s (approximatif)"
 
 #: mailer.js:164
 msgid "%(country)s (estimated)"
-msgstr "%(country)s (approximation)"
+msgstr "%(country)s (approximatif)"
 
 #: mailer.js:265
 msgid "Verify your Firefox Account"
