@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-30 17:52+0000\n"
-"PO-Revision-Date: 2016-09-20 16:02+0000\n"
+"PO-Revision-Date: 2016-10-01 10:21+0000\n"
 "Last-Translator: YFdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -380,7 +380,7 @@ msgstr "缺少数据属性：%(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:302 .es5/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "此确认链接已被使用，并只能使用一次。"
 
 #: .es5/scripts/lib/auth-errors.js:306
 msgid "This is a required field"
@@ -463,9 +463,7 @@ msgid "Firefox Sync"
 msgstr "Firefox 同步"
 
 #: .es5/scripts/lib/strings.js:17
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr "继续提交即代表您同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos\" href=\"%(termsUri)s\">服务条款</a>和<a id=\"service-pp\" href=\"%(privacyUri)s\">隐私声明</a>。"
 
 #: .es5/scripts/lib/strings.js:24
@@ -608,7 +606,7 @@ msgstr "提交新密码"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:1
 msgid "Sign-in already confirmed"
-msgstr ""
+msgstr "登录已确认"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
@@ -847,11 +845,11 @@ msgstr "已有账号？登录"
 #: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2 .es5/scripts/templates/settings/communication_preferences.mustache:4
 #: .es5/scripts/templates/settings/display_name.mustache:2
 msgid "Change…"
-msgstr ""
+msgstr "更改…"
 
 #: .es5/scripts/templates/settings/avatar.mustache:4
 msgid "Add…"
-msgstr ""
+msgstr "添加…"
 
 #: .es5/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -907,7 +905,7 @@ msgstr "您的浏览数据将继续留在 %(deviceName)s 上，但它将不再�
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Reason for disconnecting…"
-msgstr ""
+msgstr "断开原因…"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
@@ -935,11 +933,9 @@ msgstr "断开成功"
 
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
-msgstr ""
-"Firefox 可以在 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> 以及 <a href=\"%(linkLinux)s"
-"\">Linux</a> 上使用。"
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
+msgstr "Firefox 可以在 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> 以及 <a href=\"%(linkLinux)s\">Linux</a> 上使用。"
 
 #: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
@@ -947,7 +943,7 @@ msgstr "当前设备"
 
 #: .es5/scripts/templates/settings/clients.mustache:6
 msgid "Disconnect…"
-msgstr ""
+msgstr "断开…"
 
 #: .es5/scripts/templates/settings/clients.mustache:8
 msgid "Missing or duplicate items?"
@@ -979,7 +975,7 @@ msgstr "删除账号"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete…"
-msgstr ""
+msgstr "删除…"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
@@ -1383,9 +1379,7 @@ msgstr "使用 Firefox 账号"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "已有账号？登录。"
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr "继续则代表我同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos\" href=\"%(termsUri)s\">服务条款</a> 和 <a id=\"service-pp\" href=\"%(privacyUri)s\">隐私声明</a>。"
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
