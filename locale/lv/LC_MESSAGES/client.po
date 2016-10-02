@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-30 17:52+0000\n"
-"PO-Revision-Date: 2016-10-02 14:00+0000\n"
+"PO-Revision-Date: 2016-10-02 14:06+0000\n"
 "Last-Translator: iesalnieksdavis <iesalnieksdavis@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lv\n"
@@ -897,31 +897,31 @@ msgstr "Vecā parole"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
-msgstr ""
+msgstr "Atvienoties no pakalpojuma Sync?"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr ""
+msgstr "Jūsu meklējumu dati paliks %(deviceName)s, bet tas vairs nesinhronizēsies ar jūsu kontu."
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Reason for disconnecting…"
-msgstr ""
+msgstr "Atvienošanās iespējas…"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
-msgstr ""
+msgstr "Aizdomīga iekārta"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen device"
-msgstr ""
+msgstr "Pazaudēta vai zagta iekārta"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced device"
-msgstr ""
+msgstr "Veca vai mainīta iekārta"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
-msgstr ""
+msgstr "Labāk neizpaudīšu"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:8
 msgid "Disconnect"
@@ -945,7 +945,7 @@ msgstr "pašreizējā iekārta"
 
 #: .es5/scripts/templates/settings/clients.mustache:6
 msgid "Disconnect…"
-msgstr ""
+msgstr "Atslēgt…"
 
 #: .es5/scripts/templates/settings/clients.mustache:8
 msgid "Missing or duplicate items?"
@@ -977,7 +977,7 @@ msgstr "Dzēst kontu"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete…"
-msgstr ""
+msgstr "Dzēst…"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
