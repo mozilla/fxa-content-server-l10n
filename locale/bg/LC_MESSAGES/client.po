@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-30 17:52+0000\n"
-"PO-Revision-Date: 2016-09-30 15:05+0000\n"
+"PO-Revision-Date: 2016-10-04 08:33+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -379,7 +379,7 @@ msgstr "Липсващ атрибут за данни: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:302 .es5/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "Тази препратка за потвърждаване вече е използвана и не може да бъде отваряна повторно."
 
 #: .es5/scripts/lib/auth-errors.js:306
 msgid "This is a required field"
@@ -462,9 +462,7 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:17
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Продължавайки, вие се съгласявате с <a id=\"service-tos\" href=\"%(termsUri)s\">Условията на услугата</a> и <a id=\"service-pp\" href=\"%(privacyUri)s\">Политиката за личните данни</a> на "
 "%(serviceName)s (%(serviceUri)s)."
@@ -609,7 +607,7 @@ msgstr "Изпращане на нова парола"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:1
 msgid "Sign-in already confirmed"
-msgstr ""
+msgstr "Вписването вече е потвърдено"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
@@ -850,11 +848,11 @@ msgstr "Имате сметка? Впишете се"
 #: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2 .es5/scripts/templates/settings/communication_preferences.mustache:4
 #: .es5/scripts/templates/settings/display_name.mustache:2
 msgid "Change…"
-msgstr ""
+msgstr "Промяна…"
 
 #: .es5/scripts/templates/settings/avatar.mustache:4
 msgid "Add…"
-msgstr ""
+msgstr "Добавяне…"
 
 #: .es5/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -910,7 +908,7 @@ msgstr "Данните за сърфиранетo ще останат на %(dev
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Reason for disconnecting…"
-msgstr ""
+msgstr "Причина за изключването…"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
@@ -938,11 +936,9 @@ msgstr "Връзката е прекъсната успешно"
 
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
-msgstr ""
-"Има Firefox за <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> и <a href=\"%(linkLinux)s\">Linux</"
-"a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
+msgstr "Има Firefox за <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> и <a href=\"%(linkLinux)s\">Linux</a>."
 
 #: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
@@ -950,7 +946,7 @@ msgstr "текущо устройство"
 
 #: .es5/scripts/templates/settings/clients.mustache:6
 msgid "Disconnect…"
-msgstr ""
+msgstr "Изключване…"
 
 #: .es5/scripts/templates/settings/clients.mustache:8
 msgid "Missing or duplicate items?"
@@ -982,7 +978,7 @@ msgstr "Изтриване на сметка"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete…"
-msgstr ""
+msgstr "Изтриване…"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
@@ -1115,8 +1111,7 @@ msgstr "Използване на Firefox Account"
 #~ msgstr "Писмото за отключване е изпратено"
 
 #~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
-#~ msgstr ""
-#~ "От съображения за сигурност вашият Firefox Account беше заключен. За да извършите действия на ниво сметка, моля посетете връзката за повторно потвърждаване на сметката изпратена до %(email)s"
+#~ msgstr "От съображения за сигурност вашият Firefox Account беше заключен. За да извършите действия на ниво сметка, моля посетете връзката за повторно потвърждаване на сметката изпратена до %(email)s"
 
 #~ msgid "Signup has been disabled"
 #~ msgstr "Регистрация е забранена"
@@ -1156,8 +1151,8 @@ msgstr "Използване на Firefox Account"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr ""
-#~ "Анулирането на паролата ще изтрие данните за браузването от нашите сървъри. Всички данни на вашите устройства ще останат незасегнати. Започнете процеса на анулиране с въвеждането на вашия имейл "
-#~ "по-долу."
+#~ "Анулирането на паролата ще изтрие данните за браузването от нашите сървъри. Всички данни на вашите устройства ще останат незасегнати. Започнете процеса на анулиране с въвеждането на вашия имейл по-"
+#~ "долу."
 
 #~ msgid "Begin reset"
 #~ msgstr "Започване на анулирането"
@@ -1318,9 +1313,7 @@ msgstr "Използване на Firefox Account"
 #~ msgstr "Вече имате профил? Вписване."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "Продължавайки, се съгласявате с <a id=\"fxa-tos\" href=\"/legal/terms\">условията на услугата</a> и<a id=\"fxa-pp\" href=\"/legal/privacy\">политиката за лични данни</a> на облачните услуги на "
-#~ "Firefox."
+#~ msgstr "Продължавайки, се съгласявате с <a id=\"fxa-tos\" href=\"/legal/terms\">условията на услугата</a> и<a id=\"fxa-pp\" href=\"/legal/privacy\">политиката за лични данни</a> на облачните услуги на Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Абонирайте се за новини и съвети за Firefox"
