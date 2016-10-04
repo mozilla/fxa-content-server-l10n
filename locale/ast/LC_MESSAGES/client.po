@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-30 17:52+0000\n"
-"PO-Revision-Date: 2016-10-01 02:38+0000\n"
+"PO-Revision-Date: 2016-10-04 22:46+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -386,7 +386,7 @@ msgstr "Esti ye un campu riquíu"
 
 #: .es5/scripts/lib/config-loader.js:81
 msgid "Missing configuration"
-msgstr ""
+msgstr "Falta la configuración"
 
 #: .es5/scripts/lib/config-loader.js:85
 msgid "Invalid configuration"
@@ -520,7 +520,7 @@ msgstr "Escueyi qué sincronizar"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Open tabs"
-msgstr ""
+msgstr "Llingüetes abiertes"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
@@ -832,7 +832,7 @@ msgstr "¿Tienes una cuenta con un corréu diferente? <a href=\"%(signinUri)s\">
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
-msgstr ""
+msgstr "Recibi'l boletín mensual de Firefox."
 
 #: .es5/scripts/templates/sign_up.mustache:22
 msgid "Create account"
