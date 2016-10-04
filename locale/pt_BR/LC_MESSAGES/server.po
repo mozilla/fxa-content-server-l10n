@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-30 17:52+0000\n"
-"PO-Revision-Date: 2016-09-05 15:23+0000\n"
-"Last-Translator: Cynthia Pereira <cynthiacpereira@gmail.com>\n"
+"PO-Revision-Date: 2016-10-04 01:58+0000\n"
+"Last-Translator: Marco Aurélio <fxhelp@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -33,11 +33,11 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
-"Você conectou com sucesso seu primeiro dispositivo na sua conta Firefox. Para tirar mais do Sync, conecte outro <a href='%(androidUrl)s'>Firefox para Android</a> ou <a href='%(iosUrl)s'>Firefox "
-"para iOS</a>."
+"Você conectou com sucesso seu primeiro dispositivo na sua conta Firefox. Para tirar mais do Sync, conecte outro <a href='%(androidUrl)s'>Firefox para Android</a> ou <a href='%(iosUrl)s'>Firefox para"
+" iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -233,8 +233,8 @@ msgstr "Olá novamente."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 "Alguns dias atrás criou uma conta Firefox, mas nunca a confirmou. Uma conta verificada permite-lhe acessar suas abas, favoritos, senhas e histórico em qualquer dispositivo conectado à sua conta. "
 "Simplesmente confirme este endereço de e-mail para ativar sua conta."
@@ -285,7 +285,7 @@ msgstr "Se suspeitar que alguém está tentando obter acesso a sua conta, por fa
 
 #: mailer.js:158
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(stateCode)s, %(country)s (estimado)"
 
 #: mailer.js:160
 msgid "%(city)s, %(country)s (estimated)"
@@ -293,7 +293,7 @@ msgstr "%(city)s, %(country)s (estimado)"
 
 #: mailer.js:162
 msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(stateCode)s, %(country)s (estimado)"
 
 #: mailer.js:164
 msgid "%(country)s (estimated)"
@@ -426,8 +426,8 @@ msgstr "Termos do serviço"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Uma semana atrás você criou uma conta Firefox, mas nunca a confirmou. Nós estamos preocupados com você. O Firefox está disponível para Windows, Mac, Linux, Android e iOS. Você pode sincronizar "
-#~ "suas senhas, favoritos e históricos do Firefox entre todas estas plataformas. Confirme este endereço de e-mail para ativar sua conta e nos informar se está tudo bem com você."
+#~ "Uma semana atrás você criou uma conta Firefox, mas nunca a confirmou. Nós estamos preocupados com você. O Firefox está disponível para Windows, Mac, Linux, Android e iOS. Você pode sincronizar suas "
+#~ "senhas, favoritos e históricos do Firefox entre todas estas plataformas. Confirme este endereço de e-mail para ativar sua conta e nos informar se está tudo bem com você."
 
 #~ msgid "env"
 #~ msgstr "env"
