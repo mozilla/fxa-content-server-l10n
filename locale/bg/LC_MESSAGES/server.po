@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-30 17:52+0000\n"
-"PO-Revision-Date: 2016-10-04 08:34+0000\n"
+"PO-Revision-Date: 2016-10-05 14:30+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -274,7 +274,7 @@ msgstr "За по-голяма сигурност, моля потвърдете
 
 #: templates/verify_login.html:5 templates/verify_login.txt:4
 msgid "Confirm sign-in"
-msgstr "Потвърждаване на вписване"
+msgstr "Потвърждаване на вписването"
 
 #: templates/verify_login.html:7
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
