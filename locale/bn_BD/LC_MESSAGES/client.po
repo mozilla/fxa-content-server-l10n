@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-30 17:52+0000\n"
-"PO-Revision-Date: 2016-10-07 15:01+0000\n"
+"PO-Revision-Date: 2016-10-07 15:06+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_BD\n"
@@ -391,7 +391,7 @@ msgstr "কনফিগারেশন পাওয়া যায়নি"
 
 #: .es5/scripts/lib/config-loader.js:85
 msgid "Invalid configuration"
-msgstr ""
+msgstr "অকার্যকর কনফিগারেশন"
 
 #: .es5/scripts/lib/mailcheck.js:60
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -519,7 +519,7 @@ msgstr "কি সিঙ্ক করতে হবে তা পছন্দ ক
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Open tabs"
-msgstr ""
+msgstr "ট্যাব খুলুন"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
@@ -605,7 +605,7 @@ msgstr "নতুন পাসওয়ার্ড প্রবেশ করান
 
 #: .es5/scripts/templates/complete_sign_up.mustache:1
 msgid "Sign-in already confirmed"
-msgstr ""
+msgstr "ইতোমধ্যে সাইন-ইন নিশ্চিত হয়েছে"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
@@ -844,11 +844,11 @@ msgstr "অ্যাকাউন্ট রয়েছে? সাইন ইন ক�
 #: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2 .es5/scripts/templates/settings/communication_preferences.mustache:4
 #: .es5/scripts/templates/settings/display_name.mustache:2
 msgid "Change…"
-msgstr ""
+msgstr "পরিবর্তন হচ্ছে…"
 
 #: .es5/scripts/templates/settings/avatar.mustache:4
 msgid "Add…"
-msgstr ""
+msgstr "যোগ হচ্ছে…"
 
 #: .es5/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -896,31 +896,31 @@ msgstr "পুরাতন পাসওয়ার্ড"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
-msgstr ""
+msgstr "সিঙ্ক থেকে বিচ্ছিন্ন করা হবে?"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr ""
+msgstr "%(deviceName)s এ আপনার ব্রাউজিং ডাটা থাকবে, কিন্তু তা আপনার অ্যাকাউন্টে সিঙ্ক হবে না।"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Reason for disconnecting…"
-msgstr ""
+msgstr "বিচ্ছিন্নকরণের কারণ…"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
-msgstr ""
+msgstr "সন্দেহজনক ডিভাইস"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen device"
-msgstr ""
+msgstr "হারিয়ে বা চুরি যাওয়া ডিভাইস"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced device"
-msgstr ""
+msgstr "পুরাতন বা বদল করা ডিভাইস"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
-msgstr ""
+msgstr "না বলাই ভাল"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:8
 msgid "Disconnect"
@@ -928,7 +928,7 @@ msgstr "বিচ্ছিন্ন"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
-msgstr ""
+msgstr "সফল ভাবে বিচ্ছিন্ন হয়েছে"
 
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
@@ -942,7 +942,7 @@ msgstr "বর্তমান ডিভাইস"
 
 #: .es5/scripts/templates/settings/clients.mustache:6
 msgid "Disconnect…"
-msgstr ""
+msgstr "বিচ্ছিন্ন হচ্ছে…"
 
 #: .es5/scripts/templates/settings/clients.mustache:8
 msgid "Missing or duplicate items?"
@@ -974,7 +974,7 @@ msgstr "অ্যাকাউন্ট মুছে ফেলুন"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete…"
-msgstr ""
+msgstr "মুছে ফেলা হচ্ছে…"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
