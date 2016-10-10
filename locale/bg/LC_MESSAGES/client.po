@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-30 17:52+0000\n"
-"PO-Revision-Date: 2016-10-10 09:36+0000\n"
+"PO-Revision-Date: 2016-10-10 09:47+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -639,11 +639,11 @@ msgstr "Изпратена е връзка за потвърждаване&nbsp;
 
 #: .es5/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr "За да защитим по-добре вашите данни от Firefox, изпратихме връзка за потвърждаване на %(email)s"
+msgstr "За да защитим по-добре данните ви във Firefox, изпратихме връзка за потвърждаване на %(email)s"
 
 #: .es5/scripts/templates/confirm.mustache:11 .es5/scripts/templates/confirm.mustache:13
 msgid "Didn't arrive? Resend"
-msgstr "Още го няма? Повторно изпращане"
+msgstr "Още я няма? Повторно изпращане"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
