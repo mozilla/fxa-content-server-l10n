@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-30 17:52+0000\n"
-"PO-Revision-Date: 2016-10-10 09:38+0000\n"
+"PO-Revision-Date: 2016-10-10 09:49+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -88,11 +88,11 @@ msgstr "Passordet er endra"
 
 #: .es5/scripts/views/settings/client_disconnect.js:18
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr ""
+msgstr "Det var ikkje kjekt å høyra. Du bør byta passord på Firefox-kontoen din, og søkja opp informasjon frå produsenten av eininga om korleis du fjernslettar data."
 
 #: .es5/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
+msgstr "Det var ikkje kjekt å høyra. Om dette var ei eining du verkeleg ikkje stolar på, bør du byta passord på Firefox-kontoen din, og endra alle andre passord lagra i Firefox."
 
 #: .es5/scripts/views/settings/clients.js:53
 msgid "Last active: %(translatedTimeAgo)s"
