@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-30 17:52+0000\n"
-"PO-Revision-Date: 2016-10-12 23:40+0000\n"
+"PO-Revision-Date: 2016-10-12 23:45+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -93,7 +93,7 @@ msgstr "Ne pare rău să auzim asta. Ar trebui să schimbi parola contului Firef
 
 #: .es5/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
+msgstr "Ne pare rău să auzim asta. Dacă acesta a fost un dispozitiv în care chiar nu ai încredere, ar trebui să schimbi parola contului Firefox și să schimbi toate parolele salvate în Firefox."
 
 #: .es5/scripts/views/settings/clients.js:53
 msgid "Last active: %(translatedTimeAgo)s"
