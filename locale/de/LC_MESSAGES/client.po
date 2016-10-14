@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-30 17:52+0000\n"
-"PO-Revision-Date: 2016-10-14 20:33+0000\n"
+"PO-Revision-Date: 2016-10-14 20:56+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -230,7 +230,7 @@ msgstr "Ungültiger Verifizierungscode"
 
 #: .es5/scripts/lib/auth-errors.js:71
 msgid "Invalid JSON in request body"
-msgstr "Ungültiges JSON in Anfragekörper"
+msgstr "Ungültiges JSON im Anfragekörper"
 
 #: .es5/scripts/lib/auth-errors.js:75
 msgid "Invalid parameter: %(param)s"
@@ -343,7 +343,7 @@ msgstr "Bestätigungs-Link fehlerhaft"
 
 #: .es5/scripts/lib/auth-errors.js:246
 msgid "The image dimensions must be at least 100x100px"
-msgstr "Die Ausmaße der Grafik müssen mindestens 100×100px betragen"
+msgstr "Die Abmessung der Grafik muss mindestens 100×100px betragen"
 
 #: .es5/scripts/lib/auth-errors.js:250
 msgid "Signup is coming soon to Firefox for iOS"
@@ -447,7 +447,7 @@ msgstr "Ungültiger Schlüssel"
 
 #: .es5/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
-msgstr "Ungültiger Parameter in Anfragekörper: %(param)s"
+msgstr "Ungültiger Parameter im Anfragekörper: %(param)s"
 
 #: .es5/scripts/lib/profile-errors.js:31
 msgid "Unsupported image provider"
