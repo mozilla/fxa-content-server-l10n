@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-30 17:52+0000\n"
-"PO-Revision-Date: 2016-09-30 18:29+0000\n"
+"PO-Revision-Date: 2016-10-14 20:33+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -459,7 +459,7 @@ msgstr "Fehler bei der Bildverarbeitung"
 
 #: .es5/scripts/lib/service-name.js:15
 msgid "Firefox Sync"
-msgstr "Firefox-Sync"
+msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:17
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
@@ -489,7 +489,7 @@ msgstr "IP-Adresse: %(ip)s"
 
 #: .es5/scripts/lib/strings.js:34
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "Bestätigen Sie zur Verbesserung der Sicherheit bitte diese Anmeldung, bevor Sie mit diesem Gerät synchronisieren:"
+msgstr "Zur zusätzlichen Sicherheit bestätigen Sie bitte diese Anmeldung, bevor Sie mit diesem Gerät synchronisieren:"
 
 #: .es5/scripts/templates/400.mustache:1
 msgid "Bad Request"
@@ -641,7 +641,7 @@ msgstr "Ein Bestätigungslink wurde an %(email)s versandt"
 
 #: .es5/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr "Um Ihre Firefox-Daten besser zu schützen, haben wir einen Bestätigung-Link an %(email)s geschickt."
+msgstr "Um Ihre Firefox-Daten besser zu schützen, haben wir einen Bestätigungs-Link an %(email)s geschickt."
 
 #: .es5/scripts/templates/confirm.mustache:11 .es5/scripts/templates/confirm.mustache:13
 msgid "Didn't arrive? Resend"
@@ -653,7 +653,7 @@ msgstr "E-Mail zum Zurücksetzen gesendet"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:3
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-msgstr "Klicken Sie auf den Link, den wir innerhalb einer Stunde per E-Mail an %(email)s schicken, um ein neues Passwort zu erstellen."
+msgstr "Klicken Sie innerhalb einer Stunde auf den Link, den wir per E-Mail an %(email)s schicken, um ein neues Passwort zu erstellen."
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:4 .es5/scripts/templates/confirm_reset_password.mustache:6
 msgid "Remember password? Sign in"
@@ -823,7 +823,7 @@ msgstr "Ein Firefox-Konto erstellen"
 
 #: .es5/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-msgstr "Suchen Sie Firefox-Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Hier geht es los</a>"
+msgstr "Suchen Sie Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Hier geht es los</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
