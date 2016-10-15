@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-30 17:52+0000\n"
-"PO-Revision-Date: 2016-09-30 21:10+0000\n"
-"Last-Translator: teerapatxtop <teerapatxtop@yahoo.com>\n"
+"PO-Revision-Date: 2016-10-15 09:54+0000\n"
+"Last-Translator: Top <teerapatxtop@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: .es5/scripts/views/complete_reset_password.js:130 .es5/scripts/views/complete_sign_up.js:117 .es5/scripts/views/confirm.js:126 .es5/scripts/views/confirm_reset_password.js:173
 msgid "Account verified successfully"
-msgstr "ยืนยันความถูกต้องบัญชีสำเร็จ"
+msgstr "ตรวจสอบบัญชีสำเร็จ"
 
 #: .es5/scripts/views/confirm_reset_password.js:165 .es5/scripts/views/ready.js:44
 msgid "Password reset"
@@ -64,7 +64,7 @@ msgstr "ขณะนี้คุณพร้อมใช้ %(serviceName)s แ�
 
 #: .es5/scripts/views/ready.js:55
 msgid "Account verified"
-msgstr "ยืนยันความถูกต้องบัญชีแล้ว"
+msgstr "ตรวจสอบบัญชีแล้ว"
 
 #: .es5/scripts/views/reset_password.js:72 .es5/scripts/views/sign_in.js:152
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -88,11 +88,11 @@ msgstr "ได้เปลี่ยนรหัสผ่านสำเร็จ
 
 #: .es5/scripts/views/settings/client_disconnect.js:18
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr ""
+msgstr "เราเสียใจที่ได้ยินเกี่ยวกับสิ่งนี้ คุณควรเปลี่ยนรหัสผ่านบัญชี Firefox ของคุณ และมองหาข้อมูลจากผู้ผลิตอุปกรณ์ของคุณเกี่ยวกับการล้างข้อมูลของคุณระยะไกล"
 
 #: .es5/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
+msgstr "เราเสียใจที่ได้ยินเกี่ยวกับสิ่งนี้ หากนี่เป็นอุปกรณ์ที่คุณไม่เชื่อถือ คุณควรเปลี่ยนรหัสผ่านบัญชี Firefox ของคุณ และเปลี่ยนรหัสผ่านใด ๆ ที่บันทึกไว้ใน Firefox"
 
 #: .es5/scripts/views/settings/clients.js:53
 msgid "Last active: %(translatedTimeAgo)s"
@@ -181,7 +181,7 @@ msgstr "ข้อผิดพลาดที่ไม่คาดคิด"
 
 #: .es5/scripts/lib/auth-errors.js:20 .es5/scripts/templates/complete_sign_up.mustache:5
 msgid "The link you clicked to verify your email is expired."
-msgstr "ลิงก์ที่คุณได้คลิกเพื่อยืนยันความถูกต้องอีเมลของคุณหมดอายุแล้ว"
+msgstr "ลิงก์ที่คุณได้คลิกเพื่อตรวจสอบอีเมลของคุณหมดอายุแล้ว"
 
 #: .es5/scripts/lib/auth-errors.js:21
 msgid "You've tried too many times. Try again later."
@@ -221,11 +221,11 @@ msgstr "รหัสผ่านไม่ถูกต้อง"
 
 #: .es5/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
-msgstr "บัญชียังไม่ได้รับการยืนยันความถูกต้อง"
+msgstr "บัญชีที่ยังไม่ได้ตรวจสอบ"
 
 #: .es5/scripts/lib/auth-errors.js:67
 msgid "Invalid verification code"
-msgstr "รหัสยืนยันความถูกต้องไม่ถูกต้อง"
+msgstr "รหัสตรวจสอบไม่ถูกต้อง"
 
 #: .es5/scripts/lib/auth-errors.js:71
 msgid "Invalid JSON in request body"
@@ -326,7 +326,7 @@ msgstr "ต้องการ URL ที่ถูกต้อง"
 
 #: .es5/scripts/lib/auth-errors.js:203
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr "อีเมลยืนยันความถูกต้องของคุณถูกตีกลับ พิมพ์อีเมลผิด?"
+msgstr "อีเมลตรวจสอบของคุณถูกตีกลับ พิมพ์อีเมลผิด?"
 
 #: .es5/scripts/lib/auth-errors.js:211
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -338,7 +338,7 @@ msgstr "บัญชี Firefox สามารถใส่ใน IFRAME ได�
 
 #: .es5/scripts/lib/auth-errors.js:238 .es5/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
-msgstr "ลิงก์ยืนยันความถูกต้องได้รับความเสียหาย"
+msgstr "ลิงก์ตรวจสอบได้รับความเสียหาย"
 
 #: .es5/scripts/lib/auth-errors.js:246
 msgid "The image dimensions must be at least 100x100px"
@@ -608,15 +608,15 @@ msgstr "ยืนยันการลงชื่อเข้าแล้ว"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
-msgstr "ลิงก์สำหรับยืนยันความถูกต้องหมดอายุ"
+msgstr "ลิงก์ตรวจสอบหมดอายุ"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:6
 msgid "Click here to receive a new verification link"
-msgstr "คลิกที่นี่เพื่อรับลิงก์สำหรับยืนยันความถูกต้องใหม่"
+msgstr "คลิกที่นี่เพื่อรับลิงก์ตรวจสอบใหม่"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:12
 msgid "Verification error"
-msgstr "ข้อผิดพลาดในการตรวจความถูกต้อง"
+msgstr "ข้อผิดพลาดการตรวจสอบ"
 
 #: .es5/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -632,7 +632,7 @@ msgstr "ส่งอีเมลแล้ว"
 
 #: .es5/scripts/templates/confirm.mustache:6
 msgid "A verification link has been sent&nbsp;to %(email)s"
-msgstr "ลิงก์สำหรับยืนยันถูกส่ง&nbsp;ไปยัง %(email)s แล้ว"
+msgstr "ลิงก์ตรวจสอบถูกส่ง&nbsp;ไปยัง %(email)s แล้ว"
 
 #: .es5/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
