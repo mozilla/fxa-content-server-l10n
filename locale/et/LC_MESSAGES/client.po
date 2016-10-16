@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-30 17:52+0000\n"
-"PO-Revision-Date: 2016-10-01 11:11+0000\n"
+"PO-Revision-Date: 2016-10-16 19:52+0000\n"
 "Last-Translator: Merike Sell <merikes@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -687,7 +687,7 @@ msgstr "Parool"
 #: .es5/scripts/templates/force_auth.mustache:6 .es5/scripts/templates/sign_in.mustache:1 .es5/scripts/templates/sign_in.mustache:4 .es5/scripts/templates/sign_in.mustache:10
 #: .es5/scripts/templates/sign_in.mustache:14 .es5/scripts/templates/sign_in.mustache:22
 msgid "Sign in"
-msgstr "Logi sisse"
+msgstr "Sisselogimine"
 
 #: .es5/scripts/templates/force_auth.mustache:7 .es5/scripts/templates/sign_in.mustache:11 .es5/scripts/templates/sign_in.mustache:23 .es5/scripts/templates/settings/change_password.mustache:6
 msgid "Forgot password?"
