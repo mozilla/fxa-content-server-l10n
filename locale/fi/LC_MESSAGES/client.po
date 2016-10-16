@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-30 17:52+0000\n"
-"PO-Revision-Date: 2016-10-15 18:15+0000\n"
+"PO-Revision-Date: 2016-10-16 11:30+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -105,7 +105,7 @@ msgstr "Laitteet"
 
 #: .es5/scripts/views/settings/clients.js:94
 msgid "Devices & apps"
-msgstr ""
+msgstr "Laitteet ja sovellukset"
 
 #: .es5/scripts/views/settings/clients.js:101
 msgid "You can manage your devices below."
@@ -186,11 +186,11 @@ msgstr "Avaamasi vahvistuslinkki on vanhentunut."
 
 #: .es5/scripts/lib/auth-errors.js:21
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "Olet yrittänyt liian monta kertaa. Yritä uudestaan myöhemmin."
 
 #: .es5/scripts/lib/auth-errors.js:25
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "Olet yrittänyt liian monta kertaa. Yritä uudestaan %(retryAfterLocalized)s."
 
 #: .es5/scripts/lib/auth-errors.js:35 .es5/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
@@ -379,7 +379,7 @@ msgstr "Puuttuva data-attribuutti: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:302 .es5/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "Tämä vahvistuslinkki on jo käytetty, ja linkkiä voi käyttää vain kerran."
 
 #: .es5/scripts/lib/auth-errors.js:306
 msgid "This is a required field"
@@ -605,7 +605,7 @@ msgstr "Lähetä uusi salasana"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:1
 msgid "Sign-in already confirmed"
-msgstr ""
+msgstr "Kirjautuminen on jo vahvistettu"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
@@ -653,7 +653,7 @@ msgstr "Napsauta osoitteeseen %(email)s lähettämäämme linkkiä tunnin kulues
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:4 .es5/scripts/templates/confirm_reset_password.mustache:6
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "Muistatko salasanan? Kirjaudu sisään"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:8
 msgid "Didn’t arrive? Resend"
@@ -691,7 +691,7 @@ msgstr "Kirjaudu sisään"
 
 #: .es5/scripts/templates/force_auth.mustache:7 .es5/scripts/templates/sign_in.mustache:11 .es5/scripts/templates/sign_in.mustache:23 .es5/scripts/templates/settings/change_password.mustache:6
 msgid "Forgot password?"
-msgstr "Unohditko salasanasi?"
+msgstr "Unohditko salasanan?"
 
 #: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
@@ -896,7 +896,7 @@ msgstr "Vanha salasana"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
-msgstr ""
+msgstr "Katkaistaanko yhteys Sync-palveluun?"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
@@ -904,23 +904,23 @@ msgstr ""
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Reason for disconnecting…"
-msgstr ""
+msgstr "Syy yhteyden katkaisemiselle…"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
-msgstr ""
+msgstr "Epäilyttävä laite"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen device"
-msgstr ""
+msgstr "Kadonnut tai varastettu laite"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced device"
-msgstr ""
+msgstr "Vanha tai vaihdettu laite"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
-msgstr ""
+msgstr "En halua sanoa"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:8
 msgid "Disconnect"
@@ -928,7 +928,7 @@ msgstr "Katkaise yhteys"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
-msgstr ""
+msgstr "Yhteyden katkaiseminen onnistui"
 
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
@@ -944,7 +944,7 @@ msgstr "nykyinen laite"
 
 #: .es5/scripts/templates/settings/clients.mustache:6
 msgid "Disconnect…"
-msgstr ""
+msgstr "Katkaise yhteys…"
 
 #: .es5/scripts/templates/settings/clients.mustache:8
 msgid "Missing or duplicate items?"

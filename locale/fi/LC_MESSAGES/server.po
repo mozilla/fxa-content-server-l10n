@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-30 17:52+0000\n"
-"PO-Revision-Date: 2016-10-15 18:14+0000\n"
+"PO-Revision-Date: 2016-10-16 11:41+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -80,7 +80,7 @@ msgstr "Mozillan tietosuojakäytäntö"
 
 #: templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr ""
+msgstr "Tämä on automaattisesti lähetetty viesti. Jos et lisännyt uutta laitetta Firefox-tiliisi, vaihda salasanasi heti osoitteessa %(passwordChangeLink)s"
 
 #: templates/new_device_login.txt:4 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:5 templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5
@@ -101,7 +101,7 @@ msgstr "Tämä on automaattisesti lähetetty viesti. Jos et sallinut tätä tapa
 
 #: templates/password_changed.txt:3
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Tämä on automaattisesti lähetetty viesti. Jos et vaihtanut Firefox-tilisi salasanaa, nollaa se heti osoitteessa %(resetLink)s"
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
@@ -126,7 +126,7 @@ msgstr "Firefox-tilisi salasanan nollaus onnistui."
 
 #: templates/password_reset.txt:3
 msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Tämä on automaattisesti lähetetty viesti. Jos et nollannut Firefox-tilisi salasanaa, nollaa se heti osoitteessa %(resetLink)s"
 
 #: templates/password_reset_required.html:2 templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
