@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-30 17:52+0000\n"
-"PO-Revision-Date: 2016-10-16 08:17+0000\n"
+"PO-Revision-Date: 2016-10-16 08:24+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
@@ -89,11 +89,11 @@ msgstr "گذرواژه با موفقیت تغییر کرد"
 
 #: .es5/scripts/views/settings/client_disconnect.js:18
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr ""
+msgstr "متاسفیم که این اتفاق افتاده. شما باید گذرواژه حساب فایرفاکس خود را تغییر دهید، و اطلاعاتی در مورد چگونگی پاک کردن داده‌های خود از راه دور از طریق تولیدکننده دستگاه خود بدست آورید."
 
 #: .es5/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
+msgstr "متاسفیم که این اتفاق پیش آمده. اگر این واقعا دستگاهی است که به آن اعتماد ندارید، شما باید گذرواژه حساب فایرفاکس خود را تغییر دهید، و تمام گذرواژهای ذخیره شده در فایرفاکس را عوض کنید."
 
 #: .es5/scripts/views/settings/clients.js:53
 msgid "Last active: %(translatedTimeAgo)s"
