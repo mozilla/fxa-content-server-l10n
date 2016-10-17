@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-17 17:58+0000\n"
+"PO-Revision-Date: 2016-10-17 18:04+0000\n"
 "Last-Translator: Inma Barrios <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -28,8 +28,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"¡Has conectado tu primer dispositivo con tu cuenta de Firefox! Ahora ya puedes iniciar sesión en Sync desde tus otros dispositivos, incluidos Firefox para <a href='%(androidUrl)s'>Android</a> y para"
-" <a href='%(iosUrl)s'>iOS</a>."
+"¡Has conectado tu primer dispositivo con tu cuenta de Firefox! Ahora ya puedes identificarte en Sync desde tus otros dispositivos, incluidos Firefox para <a href='%(androidUrl)s'>Android</a> y para "
+"<a href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
@@ -233,7 +233,7 @@ msgstr "Hemos notado el acceso a tu cuenta de Firefox desde ubicaciones inusuale
 
 #: templates/unblock_code.html:2 templates/unblock_code.txt:1
 msgid "Is this you signing in?"
-msgstr ""
+msgstr "¿Eres tú identificándote?"
 
 #: templates/unblock_code.html:4 templates/unblock_code.txt:3
 msgid "If yes, here is the authorization code you need:"
@@ -241,11 +241,11 @@ msgstr "Si es así, el código de autorización que necesitas es este:"
 
 #: templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr ""
+msgstr "Si no es así, ayúdanos a mantener a raya a los intrusos e <a %(reportSignInLinkAttributes)s>infórmanos.</a>"
 
 #: templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "Si no es así, ayúdanos a mantener a raya a los intrusos e infórmanos."
 
 #: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:569
 msgid "Hello again."
