@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-17 19:00+0000\n"
+"PO-Revision-Date: 2016-10-17 19:03+0000\n"
 "Last-Translator: Alberto de Castro <albertdecastro@tutanota.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -238,11 +238,11 @@ msgstr "Se sim, aqui está o código de autorização de que necessita:"
 
 #: templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr ""
+msgstr "Se não, ajude-nos a afastar os intrusos e <a %(reportSignInLinkAttributes)s>denuncie à nossa equipa.</a>"
 
 #: templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "Se não, ajude-nos a afastar os intrusos e denuncie-nos a atividade."
 
 #: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:569
 msgid "Hello again."
@@ -322,7 +322,7 @@ msgstr "Confirme a sua Conta Firefox"
 
 #: mailer.js:303
 msgid "Firefox Account authorization code"
-msgstr ""
+msgstr "Código de autorização da Conta Firefox"
 
 #: mailer.js:344
 msgid "Confirm new sign-in to Firefox"
@@ -346,7 +346,7 @@ msgstr "Reposição de palavra-passe da Conta Firefox necessária"
 
 #: mailer.js:508
 msgid "Firefox Account verified"
-msgstr ""
+msgstr "Conta Firefox verificada"
 
 #: mailer.js:547
 msgid "Suspicious activity with your Firefox Account"
