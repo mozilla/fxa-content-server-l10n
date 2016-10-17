@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-17 13:58+0000\n"
+"PO-Revision-Date: 2016-10-17 14:07+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -240,7 +240,7 @@ msgstr "As ja, dan is hjir de autorisaasjekoade dy't jo nedich hawwe:"
 
 #: templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr "As nee, help ús ynkringer tsjin te hâlden en <a %(reportSignInLinkAttributes)s>rapportearje it oan ús.</a>"
+msgstr "As nee, help ús ynkringers tsjin te hâlden en <a %(reportSignInLinkAttributes)s>rapportearje it oan ús.</a>"
 
 #: templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
