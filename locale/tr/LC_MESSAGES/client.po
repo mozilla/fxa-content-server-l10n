@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-30 17:52+0000\n"
+"POT-Creation-Date: 2016-10-17 12:20+0000\n"
 "PO-Revision-Date: 2016-10-07 07:54+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,15 +15,15 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444482586.0\n"
 
-#: .es5/scripts/views/complete_reset_password.js:130 .es5/scripts/views/complete_sign_up.js:117 .es5/scripts/views/confirm.js:126 .es5/scripts/views/confirm_reset_password.js:173
+#: .es5/scripts/views/complete_reset_password.js:125 .es5/scripts/views/complete_sign_up.js:115 .es5/scripts/views/confirm.js:119 .es5/scripts/views/confirm_reset_password.js:170
 msgid "Account verified successfully"
 msgstr "Hesap başarıyla doğrulandı"
 
-#: .es5/scripts/views/confirm_reset_password.js:165 .es5/scripts/views/ready.js:44
+#: .es5/scripts/views/confirm_reset_password.js:162 .es5/scripts/views/ready.js:44
 msgid "Password reset"
 msgstr "Parola sıfırlama"
 
-#: .es5/scripts/views/confirm_reset_password.js:192
+#: .es5/scripts/views/confirm_reset_password.js:186
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Parola başarıyla sıfırlandı. Devam etmek için giriş yapın."
 
@@ -67,23 +67,23 @@ msgstr "%(serviceName)s artık kullanıma hazır"
 msgid "Account verified"
 msgstr "Hesap doğrulandı"
 
-#: .es5/scripts/views/reset_password.js:72 .es5/scripts/views/sign_in.js:152
+#: .es5/scripts/views/reset_password.js:68 .es5/scripts/views/sign_in.js:143
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Bilinmeyen hesap. <a href=\"/signup\">Kaydolun</a>"
 
-#: .es5/scripts/views/sign_up.js:61
+#: .es5/scripts/views/sign_up.js:60
 msgid "Account no longer exists. Recreate it?"
 msgstr "Bu hesap artık yok. Yeniden oluşturulsun mu?"
 
-#: .es5/scripts/views/sign_up.js:361
+#: .es5/scripts/views/sign_up.js:339
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Hesap zaten var. <a href=\"/signin\">Giriş yapın</a>"
 
-#: .es5/scripts/views/settings/avatar_gravatar.js:93
+#: .es5/scripts/views/settings/avatar_gravatar.js:89
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> desteğiyle"
 
-#: .es5/scripts/views/settings/change_password.js:47
+#: .es5/scripts/views/settings/change_password.js:46
 msgid "Password changed successfully"
 msgstr "Parola başarıyla değiştirildi"
 
@@ -95,9 +95,9 @@ msgstr "Bunu duyduğumuza üzüldük. Firefox Hesabı parolanızı değiştirmel
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Bunu duyduğumuza üzüldük. Bu cihaza gerçekten güvenmiyorsanız hem Firefox Hesabı parolanızı hem de Firefox'ta kayıtlı olan parolalarınızı değiştirmelisiniz."
 
-#: .es5/scripts/views/settings/clients.js:53
-msgid "Last active: %(translatedTimeAgo)s"
-msgstr "Son etkinlik: %(translatedTimeAgo)s"
+#: .es5/scripts/views/settings/clients.js:52
+msgid "Last active %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/scripts/views/settings/clients.js:91
 msgid "Devices"
@@ -107,19 +107,19 @@ msgstr "Cihazlar"
 msgid "Devices & apps"
 msgstr "Cihazlar ve uygulamalar"
 
-#: .es5/scripts/views/settings/clients.js:101
+#: .es5/scripts/views/settings/clients.js:100
 msgid "You can manage your devices below."
 msgstr "Cihazlarınızı aşağıdan yönetebilirsiniz."
 
-#: .es5/scripts/views/settings/clients.js:104
+#: .es5/scripts/views/settings/clients.js:103
 msgid "You can manage your devices and apps below."
 msgstr "Cihazlarınızı ve uygulamalarınızı aşağıdan yönetebilirsiniz."
 
-#: .es5/scripts/views/settings/communication_preferences.js:111
+#: .es5/scripts/views/settings/communication_preferences.js:106
 msgid "Subscribed successfully"
 msgstr "Başarıyla abone olundu"
 
-#: .es5/scripts/views/settings/communication_preferences.js:111
+#: .es5/scripts/views/settings/communication_preferences.js:106
 msgid "Unsubscribed successfully"
 msgstr "Abonelik iptal edildi"
 
@@ -127,15 +127,15 @@ msgstr "Abonelik iptal edildi"
 msgid "Account deleted successfully"
 msgstr "Hesap başarıyla silindi"
 
-#: .es5/scripts/views/settings/display_name.js:50
+#: .es5/scripts/views/settings/display_name.js:49
 msgid "Display name updated"
 msgstr "Görünen ad güncellendi"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/lib/auth-errors.js:113
+#: .es5/scripts/views/mixins/account-reset-mixin.js:42 .es5/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
 msgstr "Hesabınız güvenlik nedeniyle kilitlenmiştir"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/templates/reset_password.mustache:6
+#: .es5/scripts/views/mixins/account-reset-mixin.js:42 .es5/scripts/templates/reset_password.mustache:6
 msgid "Reset password"
 msgstr "Parolayı sıfırla"
 
@@ -171,7 +171,7 @@ msgstr "Bu parola çok sık kullanılan bir şey. Değiştirmenizi öneririz."
 msgid "Email resent"
 msgstr "E-posta tekrar gönderildi"
 
-#: .es5/scripts/views/mixins/signed-out-notification-mixin.js:39
+#: .es5/scripts/views/mixins/signed-out-notification-mixin.js:38
 msgid "Signed out successfully"
 msgstr "Başarıyla çıkış yapıldı"
 
@@ -217,8 +217,8 @@ msgid "Incorrect email case"
 msgstr "Hatalı e-posta yazımı"
 
 #: .es5/scripts/lib/auth-errors.js:59
-msgid "Incorrect password"
-msgstr "Parola yanlış"
+msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
+msgstr ""
 
 #: .es5/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
@@ -256,134 +256,146 @@ msgstr "İstek gövdesi fazla büyük"
 msgid "The request was blocked for security reasons"
 msgstr "Bu istek güvenlik nedeniyle engellendi"
 
-#: .es5/scripts/lib/auth-errors.js:117 .es5/scripts/lib/auth-errors.js:294
+#: .es5/scripts/lib/auth-errors.js:117 .es5/scripts/lib/auth-errors.js:318
+msgid "Invalid authorization code"
+msgstr ""
+
+#: .es5/scripts/lib/auth-errors.js:121 .es5/scripts/lib/auth-errors.js:298
 msgid "Server busy, try again soon"
 msgstr "Sistem meşgul, daha sonra tekrar deneyin"
 
-#: .es5/scripts/lib/auth-errors.js:121
+#: .es5/scripts/lib/auth-errors.js:125
 msgid "This endpoint is no longer supported"
 msgstr "Bu uç nokta artık desteklenmiyor"
 
-#: .es5/scripts/lib/auth-errors.js:125 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79 .es5/scripts/lib/oauth-errors.js:80
+#: .es5/scripts/lib/auth-errors.js:129 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79 .es5/scripts/lib/oauth-errors.js:80
 #: .es5/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Sistem şu an kullanılamıyor, daha sonra tekrar deneyin"
 
-#: .es5/scripts/lib/auth-errors.js:129 .es5/scripts/lib/oauth-errors.js:104
+#: .es5/scripts/lib/auth-errors.js:133 .es5/scripts/lib/oauth-errors.js:104
 msgid "no message"
 msgstr "mesaj yok"
 
-#: .es5/scripts/lib/auth-errors.js:133
+#: .es5/scripts/lib/auth-errors.js:137
 msgid "Session expired. Sign in to continue."
 msgstr "Oturum zaman aşımına uğradı. Devam etmek için giriş yapın."
 
-#: .es5/scripts/lib/auth-errors.js:137
+#: .es5/scripts/lib/auth-errors.js:141
 msgid "Cookies are still disabled"
 msgstr "Çerezler hâlâ devre dışı"
 
-#: .es5/scripts/lib/auth-errors.js:141
+#: .es5/scripts/lib/auth-errors.js:145
 msgid "Passwords do not match"
 msgstr "Parolalar uyuşmuyor"
 
-#: .es5/scripts/lib/auth-errors.js:145
+#: .es5/scripts/lib/auth-errors.js:149
 msgid "Working…"
 msgstr "Çalışıyor…"
 
-#: .es5/scripts/lib/auth-errors.js:149
+#: .es5/scripts/lib/auth-errors.js:153
 msgid "Could not get Privacy Notice"
 msgstr "Gizlilik Bildirimi alınamadı"
 
-#: .es5/scripts/lib/auth-errors.js:153
+#: .es5/scripts/lib/auth-errors.js:157
 msgid "Could not get Terms of Service"
 msgstr "Hizmet Koşulları alınamadı"
 
-#: .es5/scripts/lib/auth-errors.js:157
+#: .es5/scripts/lib/auth-errors.js:161
 msgid "Your new password must be different"
 msgstr "Yeni parolanız farklı olmalıdır"
 
-#: .es5/scripts/lib/auth-errors.js:161 .es5/scripts/templates/complete_reset_password.mustache:14 .es5/scripts/templates/settings/change_password.mustache:9
+#: .es5/scripts/lib/auth-errors.js:165 .es5/scripts/templates/complete_reset_password.mustache:14 .es5/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "En az 8 karakter olmalı"
 
-#: .es5/scripts/lib/auth-errors.js:165
+#: .es5/scripts/lib/auth-errors.js:169
 msgid "Valid password required"
 msgstr "Geçerli parola gerekli"
 
-#: .es5/scripts/lib/auth-errors.js:169 .es5/scripts/lib/auth-errors.js:207 .es5/scripts/lib/auth-errors.js:223
+#: .es5/scripts/lib/auth-errors.js:173 .es5/scripts/lib/auth-errors.js:211 .es5/scripts/lib/auth-errors.js:227
 msgid "Valid email required"
 msgstr "Geçerli e-posta gerekli"
 
-#: .es5/scripts/lib/auth-errors.js:180
+#: .es5/scripts/lib/auth-errors.js:184
 msgid "A usable image was not found"
 msgstr "Kullanılabilir bir resim bulunamadı"
 
-#: .es5/scripts/lib/auth-errors.js:184
+#: .es5/scripts/lib/auth-errors.js:188
 msgid "Could not initialize camera"
 msgstr "Kamera başlatılamadı"
 
-#: .es5/scripts/lib/auth-errors.js:188
+#: .es5/scripts/lib/auth-errors.js:192
 msgid "Valid URL required"
 msgstr "Geçerli bir adres gerekli"
 
-#: .es5/scripts/lib/auth-errors.js:203
+#: .es5/scripts/lib/auth-errors.js:207
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Doğrulama e-postanız geri döndü. Adresinizi yanlış yazmış olabilir misiniz?"
 
-#: .es5/scripts/lib/auth-errors.js:211
+#: .es5/scripts/lib/auth-errors.js:215
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Geçerli bir e-posta adresi girin. firefox.com e-posta hizmeti sunmaz."
 
-#: .es5/scripts/lib/auth-errors.js:219
+#: .es5/scripts/lib/auth-errors.js:223
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox Hesapları yalnızca onaylanmış sitelerde IFRAME içine yerleştirilebilir"
 
-#: .es5/scripts/lib/auth-errors.js:238 .es5/scripts/templates/complete_sign_up.mustache:9
+#: .es5/scripts/lib/auth-errors.js:242 .es5/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
 msgstr "Doğrulama linki zarar görmüş"
 
-#: .es5/scripts/lib/auth-errors.js:246
+#: .es5/scripts/lib/auth-errors.js:250
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Resim boyutları en az 100x100 piksel olmalıdır"
 
-#: .es5/scripts/lib/auth-errors.js:250
+#: .es5/scripts/lib/auth-errors.js:254
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Kaydolma desteği yakında iOS için Firefox’a geliyor"
 
-#: .es5/scripts/lib/auth-errors.js:261
+#: .es5/scripts/lib/auth-errors.js:265
 msgid "You must enter your age to sign up"
 msgstr "Kaydolmak için yaşınızı belirtmelisiniz"
 
-#: .es5/scripts/lib/auth-errors.js:265
+#: .es5/scripts/lib/auth-errors.js:269
 msgid "No Gravatar found"
 msgstr "Gravatar bulunamadı"
 
-#: .es5/scripts/lib/auth-errors.js:273
+#: .es5/scripts/lib/auth-errors.js:277
 msgid "Account no longer exists."
 msgstr "Hesap artık mevcut değil."
 
-#: .es5/scripts/lib/auth-errors.js:277
+#: .es5/scripts/lib/auth-errors.js:281
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Sürdürme jetonunda geçersiz özellik: %(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:281
+#: .es5/scripts/lib/auth-errors.js:285
 msgid "Missing property in resume token: %(property)s"
 msgstr "Sürdürme jetonunda eksik özellik: %(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:285
+#: .es5/scripts/lib/auth-errors.js:289
 msgid "Invalid data attribute: %(property)s"
 msgstr "Geçersiz veri özniteliği: %(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:289
+#: .es5/scripts/lib/auth-errors.js:293
 msgid "Missing data attribute: %(property)s"
 msgstr "Eksik veri özniteliği: %(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:302 .es5/scripts/templates/complete_sign_up.mustache:2
+#: .es5/scripts/lib/auth-errors.js:306 .es5/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Bu onay bağlantısı daha önce kullanılmış ve yeniden kullanılamaz."
 
-#: .es5/scripts/lib/auth-errors.js:306
+#: .es5/scripts/lib/auth-errors.js:310
 msgid "This is a required field"
 msgstr "Bu alan zorunludur"
+
+#: .es5/scripts/lib/auth-errors.js:314
+msgid "Authorization code required"
+msgstr ""
+
+#: .es5/scripts/lib/auth-errors.js:322 .es5/scripts/templates/report_sign_in.mustache:1
+msgid "Link damaged"
+msgstr ""
 
 #: .es5/scripts/lib/config-loader.js:81
 msgid "Missing configuration"
@@ -462,7 +474,9 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:17
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Devam ederek %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Hizmet Koşullarını</a> ve <a id=\"service-pp\" href=\"%(privacyUri)s\">Gizlilik Bildirimini</a> kabul etmiş "
 "oluyorsunuz."
@@ -571,7 +585,7 @@ msgstr "Yeni bir sıfırlama linki almak için buraya tıklayın"
 msgid "Reset password link damaged"
 msgstr "Parolayı sıfırlama bağlantısı hasarlı"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:6 .es5/scripts/templates/complete_sign_up.mustache:10
+#: .es5/scripts/templates/complete_reset_password.mustache:6 .es5/scripts/templates/complete_sign_up.mustache:10 .es5/scripts/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
 msgstr "Tıkladığınız linkte bazı karakterler eksikti. Link, e-posta istemciniz tarafından bozulmuş olabilir. Adresi dikkatle kopyalayıp tekrar deneyin."
 
@@ -641,7 +655,7 @@ msgstr "%(email)s adresine bir doğrulama bağlantısı gönderildi"
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
 msgstr "Firefox verilerinizi daha iyi koruyabilmek için %(email)s adresine bir onay bağlantısı gönderdik"
 
-#: .es5/scripts/templates/confirm.mustache:11 .es5/scripts/templates/confirm.mustache:13
+#: .es5/scripts/templates/confirm.mustache:11 .es5/scripts/templates/confirm.mustache:13 .es5/scripts/templates/sign_in_unblock.mustache:6 .es5/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive? Resend"
 msgstr "Gelmedi mi? Yeniden gönder"
 
@@ -697,7 +711,8 @@ msgstr "Parolanızı unuttunuz mu?"
 
 #: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Devam ederek Firefox bulut hizmetlerinin <a id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşullarını</a> ve <a id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimini</a> kabul etmiş oluyorsunuz."
+msgstr ""
+"Devam ederek Firefox bulut hizmetlerinin <a id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşullarını</a> ve <a id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimini</a> kabul etmiş oluyorsunuz."
 
 #: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -774,6 +789,22 @@ msgstr "Devam et"
 msgid "Your account is ready!"
 msgstr "Hesabınız hazır!"
 
+#: .es5/scripts/templates/report_sign_in.mustache:4
+msgid "Report unauthorized sign-in?"
+msgstr ""
+
+#: .es5/scripts/templates/report_sign_in.mustache:5
+msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
+msgstr ""
+
+#: .es5/scripts/templates/report_sign_in.mustache:6
+msgid "Report activity"
+msgstr ""
+
+#: .es5/scripts/templates/report_sign_in.mustache:7 .es5/scripts/templates/sign_in_unblock.mustache:7
+msgid "Why is this happening?"
+msgstr ""
+
 #: .es5/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
 msgstr "Parolamı unuttum"
@@ -814,6 +845,30 @@ msgstr "Farklı bir hesap kullan"
 #: .es5/scripts/templates/sign_in.mustache:24
 msgid "Create an account"
 msgstr "Hesap oluştur"
+
+#: .es5/scripts/templates/sign_in_reported.mustache:1
+msgid "Thank you for your vigilance"
+msgstr ""
+
+#: .es5/scripts/templates/sign_in_reported.mustache:2
+msgid "Our team has been notified. Reports like this help us fend off intruders."
+msgstr ""
+
+#: .es5/scripts/templates/sign_in_unblock.mustache:1 .es5/scripts/templates/sign_in_unblock.mustache:2
+msgid "Authorize this sign-in"
+msgstr ""
+
+#: .es5/scripts/templates/sign_in_unblock.mustache:3
+msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
+msgstr ""
+
+#: .es5/scripts/templates/sign_in_unblock.mustache:4
+msgid "Enter authorization code"
+msgstr ""
+
+#: .es5/scripts/templates/sign_in_unblock.mustache:5
+msgid "Continue"
+msgstr ""
 
 #: .es5/scripts/templates/sign_up.mustache:1 .es5/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
@@ -935,8 +990,8 @@ msgstr "Bağlantı başarıyla kesildi"
 
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-"href=\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+"\"%(linkLinux)s\">Linux</a>."
 msgstr ""
 "Firefox’un <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> ve <a href=\"%(linkLinux)s\">Linux</a> "
 "sürümleri mevcuttur."
@@ -1008,6 +1063,12 @@ msgstr "OpenID kullan"
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Firefox Hesabı’mı kullan"
+
+#~ msgid "Last active: %(translatedTimeAgo)s"
+#~ msgstr "Son etkinlik: %(translatedTimeAgo)s"
+
+#~ msgid "Incorrect password"
+#~ msgstr "Parola yanlış"
 
 #~ msgid "This is a common password; please consider another one. %(moreInfoLink)s"
 #~ msgstr "Bu çok sık kullanılan bir parola. Lütfen başka bir parola düşünün. %(moreInfoLink)s"
@@ -1385,13 +1446,17 @@ msgstr "Firefox Hesabı’mı kullan"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Zaten hesabınız var mı? Oturum açın."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
 #~ "Devam ederek %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Hizmet Kouşllarını</a> ve<a id=\"service-pp\" href=\"%(privacyUri)s\">Gizlilik Bildirimini</a> kabul "
 #~ "ettiğimi onaylıyorum."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Devam ederek, Firefox bulut servislerinin <a id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşullarını</a> ve <a id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimini</a> kabul ettiğimi onaylıyorum."
+#~ msgstr ""
+#~ "Devam ederek, Firefox bulut servislerinin <a id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşullarını</a> ve <a id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimini</a> kabul ettiğimi "
+#~ "onaylıyorum."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Firefox haberlerine ve ipuçlarına abone olun"

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-30 17:52+0000\n"
+"POT-Creation-Date: 2016-10-17 12:20+0000\n"
 "PO-Revision-Date: 2016-10-09 05:17+0000\n"
 "Last-Translator: xcffl <xcffl@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,15 +15,15 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444354764.0\n"
 
-#: .es5/scripts/views/complete_reset_password.js:130 .es5/scripts/views/complete_sign_up.js:117 .es5/scripts/views/confirm.js:126 .es5/scripts/views/confirm_reset_password.js:173
+#: .es5/scripts/views/complete_reset_password.js:125 .es5/scripts/views/complete_sign_up.js:115 .es5/scripts/views/confirm.js:119 .es5/scripts/views/confirm_reset_password.js:170
 msgid "Account verified successfully"
 msgstr "账号验证成功"
 
-#: .es5/scripts/views/confirm_reset_password.js:165 .es5/scripts/views/ready.js:44
+#: .es5/scripts/views/confirm_reset_password.js:162 .es5/scripts/views/ready.js:44
 msgid "Password reset"
 msgstr "密码已重置"
 
-#: .es5/scripts/views/confirm_reset_password.js:192
+#: .es5/scripts/views/confirm_reset_password.js:186
 msgid "Password reset successfully. Sign in to continue."
 msgstr "密码重置成功。请登录以继续。"
 
@@ -68,23 +68,23 @@ msgid "Account verified"
 msgstr "账号已验证"
 
 # see https://bugzilla.mozilla.org/show_bug.cgi?id=1131472
-#: .es5/scripts/views/reset_password.js:72 .es5/scripts/views/sign_in.js:152
+#: .es5/scripts/views/reset_password.js:68 .es5/scripts/views/sign_in.js:143
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "未知账号。<a href=\"/signup\">注册</a>"
 
-#: .es5/scripts/views/sign_up.js:61
+#: .es5/scripts/views/sign_up.js:60
 msgid "Account no longer exists. Recreate it?"
 msgstr "账号已不存在。重新创建？"
 
-#: .es5/scripts/views/sign_up.js:361
+#: .es5/scripts/views/sign_up.js:339
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "账号已存在。<a href=\"/signin\">登录</a>"
 
-#: .es5/scripts/views/settings/avatar_gravatar.js:93
+#: .es5/scripts/views/settings/avatar_gravatar.js:89
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "感谢 <a href=\"https://www.gravatar.com\">Gravatar</a> 提供"
 
-#: .es5/scripts/views/settings/change_password.js:47
+#: .es5/scripts/views/settings/change_password.js:46
 msgid "Password changed successfully"
 msgstr "密码更改成功"
 
@@ -96,9 +96,9 @@ msgstr "我们很遗憾听到此事。您应该更改您的 Firefox 账号密码
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "我们很遗憾听到此事。如果这的确是一个您不知道的设备，您应该更改您的 Firefox 账号密码，并换行任何保存在 Firefox 中的密码。"
 
-#: .es5/scripts/views/settings/clients.js:53
-msgid "Last active: %(translatedTimeAgo)s"
-msgstr "最后活动：%(translatedTimeAgo)s"
+#: .es5/scripts/views/settings/clients.js:52
+msgid "Last active %(translatedTimeAgo)s"
+msgstr ""
 
 #: .es5/scripts/views/settings/clients.js:91
 msgid "Devices"
@@ -108,19 +108,19 @@ msgstr "设备"
 msgid "Devices & apps"
 msgstr "设备和应用"
 
-#: .es5/scripts/views/settings/clients.js:101
+#: .es5/scripts/views/settings/clients.js:100
 msgid "You can manage your devices below."
 msgstr "您可以在下面管理您的设备。"
 
-#: .es5/scripts/views/settings/clients.js:104
+#: .es5/scripts/views/settings/clients.js:103
 msgid "You can manage your devices and apps below."
 msgstr "您可以在下方管理您的设备和应用。"
 
-#: .es5/scripts/views/settings/communication_preferences.js:111
+#: .es5/scripts/views/settings/communication_preferences.js:106
 msgid "Subscribed successfully"
 msgstr "订阅成功"
 
-#: .es5/scripts/views/settings/communication_preferences.js:111
+#: .es5/scripts/views/settings/communication_preferences.js:106
 msgid "Unsubscribed successfully"
 msgstr "退订成功"
 
@@ -128,15 +128,15 @@ msgstr "退订成功"
 msgid "Account deleted successfully"
 msgstr "账号删除已成功"
 
-#: .es5/scripts/views/settings/display_name.js:50
+#: .es5/scripts/views/settings/display_name.js:49
 msgid "Display name updated"
 msgstr "显示名称已更新"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/lib/auth-errors.js:113
+#: .es5/scripts/views/mixins/account-reset-mixin.js:42 .es5/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
 msgstr "您的账号已因安全原因被锁定"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/templates/reset_password.mustache:6
+#: .es5/scripts/views/mixins/account-reset-mixin.js:42 .es5/scripts/templates/reset_password.mustache:6
 msgid "Reset password"
 msgstr "重置密码"
 
@@ -172,7 +172,7 @@ msgstr "这是一个常见密码。请考虑换一个。"
 msgid "Email resent"
 msgstr "邮件已重发"
 
-#: .es5/scripts/views/mixins/signed-out-notification-mixin.js:39
+#: .es5/scripts/views/mixins/signed-out-notification-mixin.js:38
 msgid "Signed out successfully"
 msgstr "退出成功"
 
@@ -218,8 +218,8 @@ msgid "Incorrect email case"
 msgstr "邮件地址大小写错误"
 
 #: .es5/scripts/lib/auth-errors.js:59
-msgid "Incorrect password"
-msgstr "密码错误"
+msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
+msgstr ""
 
 #: .es5/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
@@ -257,134 +257,146 @@ msgstr "请求内容太大"
 msgid "The request was blocked for security reasons"
 msgstr "请求已因安全原因拦截"
 
-#: .es5/scripts/lib/auth-errors.js:117 .es5/scripts/lib/auth-errors.js:294
+#: .es5/scripts/lib/auth-errors.js:117 .es5/scripts/lib/auth-errors.js:318
+msgid "Invalid authorization code"
+msgstr ""
+
+#: .es5/scripts/lib/auth-errors.js:121 .es5/scripts/lib/auth-errors.js:298
 msgid "Server busy, try again soon"
 msgstr "系统繁忙，请稍后再试"
 
-#: .es5/scripts/lib/auth-errors.js:121
+#: .es5/scripts/lib/auth-errors.js:125
 msgid "This endpoint is no longer supported"
 msgstr "不再支持这个端点"
 
-#: .es5/scripts/lib/auth-errors.js:125 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79 .es5/scripts/lib/oauth-errors.js:80
+#: .es5/scripts/lib/auth-errors.js:129 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79 .es5/scripts/lib/oauth-errors.js:80
 #: .es5/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "系统不可用，请稍后再试"
 
-#: .es5/scripts/lib/auth-errors.js:129 .es5/scripts/lib/oauth-errors.js:104
+#: .es5/scripts/lib/auth-errors.js:133 .es5/scripts/lib/oauth-errors.js:104
 msgid "no message"
 msgstr "无消息"
 
-#: .es5/scripts/lib/auth-errors.js:133
+#: .es5/scripts/lib/auth-errors.js:137
 msgid "Session expired. Sign in to continue."
 msgstr "会话已过期。请登录以继续。"
 
-#: .es5/scripts/lib/auth-errors.js:137
+#: .es5/scripts/lib/auth-errors.js:141
 msgid "Cookies are still disabled"
 msgstr "Cookie 仍然被禁用"
 
-#: .es5/scripts/lib/auth-errors.js:141
+#: .es5/scripts/lib/auth-errors.js:145
 msgid "Passwords do not match"
 msgstr "密码不匹配"
 
-#: .es5/scripts/lib/auth-errors.js:145
+#: .es5/scripts/lib/auth-errors.js:149
 msgid "Working…"
 msgstr "处理中…"
 
-#: .es5/scripts/lib/auth-errors.js:149
+#: .es5/scripts/lib/auth-errors.js:153
 msgid "Could not get Privacy Notice"
 msgstr "无法获取隐私政策"
 
-#: .es5/scripts/lib/auth-errors.js:153
+#: .es5/scripts/lib/auth-errors.js:157
 msgid "Could not get Terms of Service"
 msgstr "无法获取服务条款"
 
-#: .es5/scripts/lib/auth-errors.js:157
+#: .es5/scripts/lib/auth-errors.js:161
 msgid "Your new password must be different"
 msgstr "新旧密码不能相同"
 
-#: .es5/scripts/lib/auth-errors.js:161 .es5/scripts/templates/complete_reset_password.mustache:14 .es5/scripts/templates/settings/change_password.mustache:9
+#: .es5/scripts/lib/auth-errors.js:165 .es5/scripts/templates/complete_reset_password.mustache:14 .es5/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "至少8个字符"
 
-#: .es5/scripts/lib/auth-errors.js:165
+#: .es5/scripts/lib/auth-errors.js:169
 msgid "Valid password required"
 msgstr "需要有效的密码"
 
-#: .es5/scripts/lib/auth-errors.js:169 .es5/scripts/lib/auth-errors.js:207 .es5/scripts/lib/auth-errors.js:223
+#: .es5/scripts/lib/auth-errors.js:173 .es5/scripts/lib/auth-errors.js:211 .es5/scripts/lib/auth-errors.js:227
 msgid "Valid email required"
 msgstr "需要有效的电子邮件地址"
 
-#: .es5/scripts/lib/auth-errors.js:180
+#: .es5/scripts/lib/auth-errors.js:184
 msgid "A usable image was not found"
 msgstr "没有找到可使用的图像"
 
-#: .es5/scripts/lib/auth-errors.js:184
+#: .es5/scripts/lib/auth-errors.js:188
 msgid "Could not initialize camera"
 msgstr "无法初始化摄像头"
 
-#: .es5/scripts/lib/auth-errors.js:188
+#: .es5/scripts/lib/auth-errors.js:192
 msgid "Valid URL required"
 msgstr "需要有效的 URL"
 
-#: .es5/scripts/lib/auth-errors.js:203
+#: .es5/scripts/lib/auth-errors.js:207
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "您的验证邮件刚被退回了。邮件地址输错了吗？"
 
-#: .es5/scripts/lib/auth-errors.js:211
+#: .es5/scripts/lib/auth-errors.js:215
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "请输入一个有效的电子邮件地址。firefox.com 不提供电子邮件服务。"
 
-#: .es5/scripts/lib/auth-errors.js:219
+#: .es5/scripts/lib/auth-errors.js:223
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox 账号网站只允许在经过授权的网站上被放入 IFRAME"
 
-#: .es5/scripts/lib/auth-errors.js:238 .es5/scripts/templates/complete_sign_up.mustache:9
+#: .es5/scripts/lib/auth-errors.js:242 .es5/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
 msgstr "验证链接损坏"
 
-#: .es5/scripts/lib/auth-errors.js:246
+#: .es5/scripts/lib/auth-errors.js:250
 msgid "The image dimensions must be at least 100x100px"
 msgstr "图像尺寸至少要 100x100px"
 
-#: .es5/scripts/lib/auth-errors.js:250
+#: .es5/scripts/lib/auth-errors.js:254
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Firefox for iOS 的注册即将到来"
 
-#: .es5/scripts/lib/auth-errors.js:261
+#: .es5/scripts/lib/auth-errors.js:265
 msgid "You must enter your age to sign up"
 msgstr "您必须输入您的年龄才能注册"
 
-#: .es5/scripts/lib/auth-errors.js:265
+#: .es5/scripts/lib/auth-errors.js:269
 msgid "No Gravatar found"
 msgstr "未找到 Gravatar"
 
-#: .es5/scripts/lib/auth-errors.js:273
+#: .es5/scripts/lib/auth-errors.js:277
 msgid "Account no longer exists."
 msgstr "账号已不存在。"
 
-#: .es5/scripts/lib/auth-errors.js:277
+#: .es5/scripts/lib/auth-errors.js:281
 msgid "Invalid property in resume token: %(property)s"
 msgstr "恢复令牌中的属性无效：%(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:281
+#: .es5/scripts/lib/auth-errors.js:285
 msgid "Missing property in resume token: %(property)s"
 msgstr "恢复令牌中缺失属性：%(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:285
+#: .es5/scripts/lib/auth-errors.js:289
 msgid "Invalid data attribute: %(property)s"
 msgstr "无效数据属性：%(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:289
+#: .es5/scripts/lib/auth-errors.js:293
 msgid "Missing data attribute: %(property)s"
 msgstr "缺少数据属性：%(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:302 .es5/scripts/templates/complete_sign_up.mustache:2
+#: .es5/scripts/lib/auth-errors.js:306 .es5/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "此确认链接已被使用，并只能使用一次。"
 
-#: .es5/scripts/lib/auth-errors.js:306
+#: .es5/scripts/lib/auth-errors.js:310
 msgid "This is a required field"
 msgstr "这是必填项"
+
+#: .es5/scripts/lib/auth-errors.js:314
+msgid "Authorization code required"
+msgstr ""
+
+#: .es5/scripts/lib/auth-errors.js:322 .es5/scripts/templates/report_sign_in.mustache:1
+msgid "Link damaged"
+msgstr ""
 
 #: .es5/scripts/lib/config-loader.js:81
 msgid "Missing configuration"
@@ -463,7 +475,9 @@ msgid "Firefox Sync"
 msgstr "Firefox 同步"
 
 #: .es5/scripts/lib/strings.js:17
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr "继续提交即代表您同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos\" href=\"%(termsUri)s\">服务条款</a>和<a id=\"service-pp\" href=\"%(privacyUri)s\">隐私声明</a>。"
 
 #: .es5/scripts/lib/strings.js:24
@@ -570,7 +584,7 @@ msgstr "点击这里接收新的重置链接"
 msgid "Reset password link damaged"
 msgstr "重置密码链接已损坏"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:6 .es5/scripts/templates/complete_sign_up.mustache:10
+#: .es5/scripts/templates/complete_reset_password.mustache:6 .es5/scripts/templates/complete_sign_up.mustache:10 .es5/scripts/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
 msgstr "您点击的链接缺少字符，可能由于您的邮件客户端的原因损坏了。请确保复制了完整的网址，然后再试一次。"
 
@@ -640,7 +654,7 @@ msgstr "验证链接已发送到：%(email)s"
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
 msgstr "为了保护您的 Firefox 数据，我们已经发送确认邮件到 %(email)s"
 
-#: .es5/scripts/templates/confirm.mustache:11 .es5/scripts/templates/confirm.mustache:13
+#: .es5/scripts/templates/confirm.mustache:11 .es5/scripts/templates/confirm.mustache:13 .es5/scripts/templates/sign_in_unblock.mustache:6 .es5/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive? Resend"
 msgstr "没收到？重新发送"
 
@@ -773,6 +787,22 @@ msgstr "继续"
 msgid "Your account is ready!"
 msgstr "您的账号已经准备好！"
 
+#: .es5/scripts/templates/report_sign_in.mustache:4
+msgid "Report unauthorized sign-in?"
+msgstr ""
+
+#: .es5/scripts/templates/report_sign_in.mustache:5
+msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
+msgstr ""
+
+#: .es5/scripts/templates/report_sign_in.mustache:6
+msgid "Report activity"
+msgstr ""
+
+#: .es5/scripts/templates/report_sign_in.mustache:7 .es5/scripts/templates/sign_in_unblock.mustache:7
+msgid "Why is this happening?"
+msgstr ""
+
 #: .es5/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
 msgstr "忘记密码"
@@ -813,6 +843,30 @@ msgstr "使用另一个账号"
 #: .es5/scripts/templates/sign_in.mustache:24
 msgid "Create an account"
 msgstr "创建账号"
+
+#: .es5/scripts/templates/sign_in_reported.mustache:1
+msgid "Thank you for your vigilance"
+msgstr ""
+
+#: .es5/scripts/templates/sign_in_reported.mustache:2
+msgid "Our team has been notified. Reports like this help us fend off intruders."
+msgstr ""
+
+#: .es5/scripts/templates/sign_in_unblock.mustache:1 .es5/scripts/templates/sign_in_unblock.mustache:2
+msgid "Authorize this sign-in"
+msgstr ""
+
+#: .es5/scripts/templates/sign_in_unblock.mustache:3
+msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
+msgstr ""
+
+#: .es5/scripts/templates/sign_in_unblock.mustache:4
+msgid "Enter authorization code"
+msgstr ""
+
+#: .es5/scripts/templates/sign_in_unblock.mustache:5
+msgid "Continue"
+msgstr ""
 
 #: .es5/scripts/templates/sign_up.mustache:1 .es5/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
@@ -933,9 +987,11 @@ msgstr "断开成功"
 
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-"href=\"%(linkLinux)s\">Linux</a>."
-msgstr "Firefox 可以在 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> 以及 <a href=\"%(linkLinux)s\">Linux</a> 上使用。"
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+"\"%(linkLinux)s\">Linux</a>."
+msgstr ""
+"Firefox 可以在 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> 以及 <a href=\"%(linkLinux)s"
+"\">Linux</a> 上使用。"
 
 #: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
@@ -1004,6 +1060,12 @@ msgstr "使用 OpenID"
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "使用 Firefox 账号"
+
+#~ msgid "Last active: %(translatedTimeAgo)s"
+#~ msgstr "最后活动：%(translatedTimeAgo)s"
+
+#~ msgid "Incorrect password"
+#~ msgstr "密码错误"
 
 #~ msgid "This is a common password; please consider another one. %(moreInfoLink)s"
 #~ msgstr "这是一个常见密码。请考虑换一个。%(moreInfoLink)s"
@@ -1379,7 +1441,9 @@ msgstr "使用 Firefox 账号"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "已有账号？登录。"
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr "继续则代表我同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos\" href=\"%(termsUri)s\">服务条款</a> 和 <a id=\"service-pp\" href=\"%(privacyUri)s\">隐私声明</a>。"
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."

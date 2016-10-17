@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-30 17:52+0000\n"
+"POT-Creation-Date: 2016-10-17 12:20+0000\n"
 "PO-Revision-Date: 2016-09-30 20:28+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1442482729.0\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:532
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:572
 msgid "Still there?"
 msgstr "Ste tu ešte?"
 
@@ -33,11 +33,11 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
-"Úspešne ste pripojili svoje prvé zariadenie k svojmu účtu Firefox Account. Aby ste službu Sync čo najlepšie využili, pripojte sa k nej aj z aplikácie <a href='%(androidUrl)s'>Firefox pre Android</a>"
-" alebo <a href='%(iosUrl)s'>Firefox pre iOS</a>."
+"Úspešne ste pripojili svoje prvé zariadenie k svojmu účtu Firefox Account. Aby ste službu Sync čo najlepšie využili, pripojte sa k nej aj z aplikácie <a href='%(androidUrl)s'>Firefox pre Android</"
+"a> alebo <a href='%(iosUrl)s'>Firefox pre iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -48,17 +48,17 @@ msgid "Sign in to Sync"
 msgstr "Prihlásiť sa k službe Sync"
 
 #: templates/new_device_login.html:1 templates/password_changed.html:1 templates/password_reset.html:1 templates/password_reset_required.html:1 templates/post_verify.html:1 templates/recovery.html:1
-#: templates/suspicious_location.html:1 templates/verification_reminder_first.html:1 templates/verification_reminder_second.html:1 templates/verify.html:1 templates/verify_login.html:1
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
+#: templates/suspicious_location.html:1 templates/unblock_code.html:1 templates/verification_reminder_first.html:1 templates/verification_reminder_second.html:1 templates/verify.html:1
+#: templates/verify_login.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
+#: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Účty Firefox Account"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:439
+#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:479
 msgid "New sign-in to Firefox"
 msgstr "Nové prihlásenie k Firefoxu"
 
-#: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3
+#: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/unblock_code.html:3 templates/unblock_code.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "IP address: %(ip)s"
 msgstr "IP adresa: %(ip)s"
 
@@ -73,8 +73,9 @@ msgstr "Pre viac informácií prosím navštívte stránku <a %(supportLinkAttri
 
 #: templates/new_device_login.html:6 templates/new_device_login.txt:5 templates/password_changed.html:6 templates/password_changed.txt:5 templates/password_reset.html:6 templates/password_reset.txt:5
 #: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:8 templates/post_verify.txt:6 templates/recovery.html:8 templates/recovery.txt:6
-#: templates/suspicious_location.html:14 templates/suspicious_location.txt:13 templates/verification_reminder_first.html:8 templates/verification_reminder_first.txt:6
-#: templates/verification_reminder_second.html:8 templates/verification_reminder_second.txt:6 templates/verify.html:8 templates/verify.txt:6 templates/verify_login.html:8 templates/verify_login.txt:6
+#: templates/suspicious_location.html:14 templates/suspicious_location.txt:13 templates/unblock_code.html:6 templates/unblock_code.txt:5 templates/verification_reminder_first.html:8
+#: templates/verification_reminder_first.txt:6 templates/verification_reminder_second.html:8 templates/verification_reminder_second.txt:6 templates/verify.html:8 templates/verify.txt:6
+#: templates/verify_login.html:8 templates/verify_login.txt:6
 msgid "Mozilla Privacy Policy"
 msgstr "Zásady ochrany súkromia"
 
@@ -203,8 +204,8 @@ msgstr "Obnoviť heslo"
 #: templates/suspicious_location.html:2 templates/suspicious_location.txt:1
 msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 msgstr ""
-"Prihlásili ste sa v posledných 60-tich dňoch ku svojmu účtu Firefoxu Account z niektorého z týchto miest? Ak túto aktivitu nespoznávate, môže to znamenať, že k vášmu účtu mohol získať prístup niekto"
-" ďalší."
+"Prihlásili ste sa v posledných 60-tich dňoch ku svojmu účtu Firefoxu Account z niektorého z týchto miest? Ak túto aktivitu nespoznávate, môže to znamenať, že k vášmu účtu mohol získať prístup "
+"niekto ďalší."
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
@@ -230,14 +231,30 @@ msgstr "Prečo ste dostali tento e-mail?"
 msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
 msgstr "Nedávno sme si všimli prihlásenie k účtu Firefox Account z neobvyklých miest a preto vás o tom radšej informujeme."
 
-#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:529
+#: templates/unblock_code.html:2 templates/unblock_code.txt:1
+msgid "Is this you signing in?"
+msgstr ""
+
+#: templates/unblock_code.html:4 templates/unblock_code.txt:3
+msgid "If yes, here is the authorization code you need:"
+msgstr ""
+
+#: templates/unblock_code.html:5
+msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
+msgstr ""
+
+#: templates/unblock_code.txt:4
+msgid "If no, help us fend off intruders and report it to us."
+msgstr ""
+
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:569
 msgid "Hello again."
 msgstr "Vitajte späť."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-" email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+"this email address to activate your account."
 msgstr ""
 "Pred pár dňami ste si vytvorili účet Firefox Account, ale zatiaľ ste ho neoverili. Overený účet vám umožní prístup k vašim kartám, záložkám, heslám a histórii na všetkých vašich zariadeniach, ktoré "
 "k nemu pripojíte. Pre aktiváciu jednoducho stačí potvrdiť túto e-mailovú adresu."
@@ -288,51 +305,55 @@ msgstr "Ak máte podozrenie, že sa niekto pokúša neoprávnene získať príst
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr "Ak máte podozrenie, že sa niekto pokúša neoprávnene získať prístup k vášmu účtu, zmeňte si svoje heslo."
 
-#: mailer.js:158
+#: mailer.js:161
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (odhad)"
 
-#: mailer.js:160
+#: mailer.js:163
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (odhad)"
 
-#: mailer.js:162
+#: mailer.js:165
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (odhad)"
 
-#: mailer.js:164
+#: mailer.js:167
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (odhad)"
 
-#: mailer.js:265
+#: mailer.js:268
 msgid "Verify your Firefox Account"
 msgstr "Overiť váš účet Firefox Account"
 
-#: mailer.js:304
+#: mailer.js:303
+msgid "Firefox Account authorization code"
+msgstr ""
+
+#: mailer.js:344
 msgid "Confirm new sign-in to Firefox"
 msgstr "Potvrdenie nového prihlásenia k Firefoxu"
 
-#: mailer.js:345
+#: mailer.js:385
 msgid "Reset your Firefox Account password"
 msgstr "Obnoviť heslo vášho účtu Firefox Account"
 
-#: mailer.js:371
+#: mailer.js:411
 msgid "Your Firefox Account password has been changed"
 msgstr "Heslo vášho účtu Firefox Account bolo zmenené"
 
-#: mailer.js:394
+#: mailer.js:434
 msgid "Your Firefox Account password has been reset"
 msgstr "Heslo vášho účtu Firefox Account bolo obnovené"
 
-#: mailer.js:417
+#: mailer.js:457
 msgid "Firefox Account password reset required"
 msgstr "Je požadovaná obnova hesla k účtu Firefox Account"
 
-#: mailer.js:468
-msgid "Firefox Account Verified"
-msgstr "Účet Firefox Account bol overený"
+#: mailer.js:508
+msgid "Firefox Account verified"
+msgstr ""
 
-#: mailer.js:507
+#: mailer.js:547
 msgid "Suspicious activity with your Firefox Account"
 msgstr "Podozrivá aktivita na vašom účte Firefox Account"
 
@@ -387,6 +408,9 @@ msgstr "Cloudové služby Firefox"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Podmienky používania služby"
+
+#~ msgid "Firefox Account Verified"
+#~ msgstr "Účet Firefox Account bol overený"
 
 #~ msgid "Remember password? Sign in."
 #~ msgstr "Zapamätať heslo? Prihlásiť."

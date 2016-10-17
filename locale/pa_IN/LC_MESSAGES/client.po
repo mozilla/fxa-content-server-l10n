@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-30 17:52+0000\n"
+"POT-Creation-Date: 2016-10-17 12:20+0000\n"
 "PO-Revision-Date: 2016-08-08 12:41+0000\n"
 "Last-Translator: Amanpreet Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,15 +15,15 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444737687.0\n"
 
-#: .es5/scripts/views/complete_reset_password.js:130 .es5/scripts/views/complete_sign_up.js:117 .es5/scripts/views/confirm.js:126 .es5/scripts/views/confirm_reset_password.js:173
+#: .es5/scripts/views/complete_reset_password.js:125 .es5/scripts/views/complete_sign_up.js:115 .es5/scripts/views/confirm.js:119 .es5/scripts/views/confirm_reset_password.js:170
 msgid "Account verified successfully"
 msgstr "ਖਾਤਾ ਕਾਮਯਾਬੀ ਨਾਲ ਜਾਂਚਿਆ"
 
-#: .es5/scripts/views/confirm_reset_password.js:165 .es5/scripts/views/ready.js:44
+#: .es5/scripts/views/confirm_reset_password.js:162 .es5/scripts/views/ready.js:44
 msgid "Password reset"
 msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ"
 
-#: .es5/scripts/views/confirm_reset_password.js:192
+#: .es5/scripts/views/confirm_reset_password.js:186
 msgid "Password reset successfully. Sign in to continue."
 msgstr "ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਮੁੜ-ਸੈਟ ਕੀਤਾ। ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਇਨ ਇਨ ਕਰੋ।"
 
@@ -67,23 +67,23 @@ msgstr "ਤੁਸੀਂ ਹੁਣ %(serviceName)s ਵਰਤਣ ਲਈ ਤਿਆ�
 msgid "Account verified"
 msgstr "ਖਾਤੇ ਦੀ ਜਾਂਚ ਪੂਰੀ ਹੋਈ"
 
-#: .es5/scripts/views/reset_password.js:72 .es5/scripts/views/sign_in.js:152
+#: .es5/scripts/views/reset_password.js:68 .es5/scripts/views/sign_in.js:143
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "ਅਣਜਾਣ ਖਾਤਾ। <a href=\"/signup\">ਮੈਂਬਰ ਬਣੋ</a>"
 
-#: .es5/scripts/views/sign_up.js:61
+#: .es5/scripts/views/sign_up.js:60
 msgid "Account no longer exists. Recreate it?"
 msgstr "ਖਾਤਾ ਹੁਣ ਮੌਜੂਦ ਨਹੀਂ ਹੈ। ਮੁੜ-ਬਣਾਉਣਾ ਹੈ?"
 
-#: .es5/scripts/views/sign_up.js:361
+#: .es5/scripts/views/sign_up.js:339
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "ਖਾਤਾ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ। <a href=\"/signin\">ਸਾਈਨ ਇਨ</a>"
 
-#: .es5/scripts/views/settings/avatar_gravatar.js:93
+#: .es5/scripts/views/settings/avatar_gravatar.js:89
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> ਦੇ ਸਹਿਯੋਗ ਨਾਲ"
 
-#: .es5/scripts/views/settings/change_password.js:47
+#: .es5/scripts/views/settings/change_password.js:46
 msgid "Password changed successfully"
 msgstr "ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ"
 
@@ -95,8 +95,8 @@ msgstr ""
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr ""
 
-#: .es5/scripts/views/settings/clients.js:53
-msgid "Last active: %(translatedTimeAgo)s"
+#: .es5/scripts/views/settings/clients.js:52
+msgid "Last active %(translatedTimeAgo)s"
 msgstr ""
 
 #: .es5/scripts/views/settings/clients.js:91
@@ -107,19 +107,19 @@ msgstr "ਡਿਵਾਈਸ"
 msgid "Devices & apps"
 msgstr ""
 
-#: .es5/scripts/views/settings/clients.js:101
+#: .es5/scripts/views/settings/clients.js:100
 msgid "You can manage your devices below."
 msgstr "ਤੁਸੀਂ ਹੇਠ ਦਿੱਤੇ ਡਿਵਾਈਸਾਂ ਦਾ ਪ੍ਰਬੰਧ ਕਰ ਸਕਦੇ ਹੋ।"
 
-#: .es5/scripts/views/settings/clients.js:104
+#: .es5/scripts/views/settings/clients.js:103
 msgid "You can manage your devices and apps below."
 msgstr ""
 
-#: .es5/scripts/views/settings/communication_preferences.js:111
+#: .es5/scripts/views/settings/communication_preferences.js:106
 msgid "Subscribed successfully"
 msgstr "ਕਾਮਯਾਬੀ ਨਾਲ ਮੈਂਬਰ ਬਣੇ"
 
-#: .es5/scripts/views/settings/communication_preferences.js:111
+#: .es5/scripts/views/settings/communication_preferences.js:106
 msgid "Unsubscribed successfully"
 msgstr "ਕਾਮਯਾਬੀ ਨਾਲ ਮੈਂਬਰੀ ਹਟਾਈ"
 
@@ -127,15 +127,15 @@ msgstr "ਕਾਮਯਾਬੀ ਨਾਲ ਮੈਂਬਰੀ ਹਟਾਈ"
 msgid "Account deleted successfully"
 msgstr "ਖਾਤਾ ਠੀਕ ਤਰ੍ਹਾਂ ਹਟਾਇਆ ਗਿਆ"
 
-#: .es5/scripts/views/settings/display_name.js:50
+#: .es5/scripts/views/settings/display_name.js:49
 msgid "Display name updated"
 msgstr "ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ ਅੱਪਡੇਟ ਕੀਤਾ"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/lib/auth-errors.js:113
+#: .es5/scripts/views/mixins/account-reset-mixin.js:42 .es5/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
 msgstr "ਸੁਰੱਖਿਆ ਕਾਰਨਾਂ ਕਰਕੇ ਤੁਹਾਡਾ ਖਾਤਾ ਲਾਕ ਕੀਤਾ ਗਿਆ ਹੈ"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:41 .es5/scripts/templates/reset_password.mustache:6
+#: .es5/scripts/views/mixins/account-reset-mixin.js:42 .es5/scripts/templates/reset_password.mustache:6
 msgid "Reset password"
 msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ"
 
@@ -171,7 +171,7 @@ msgstr ""
 msgid "Email resent"
 msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਲਿੰਕ ਦੀ ਮਿਆਦ ਪੁੱਗੀ"
 
-#: .es5/scripts/views/mixins/signed-out-notification-mixin.js:39
+#: .es5/scripts/views/mixins/signed-out-notification-mixin.js:38
 msgid "Signed out successfully"
 msgstr "ਕਾਮਯਾਬੀ ਨਾਲ ਸਾਇਨ ਆਉਟ ਕਰੋ"
 
@@ -217,8 +217,8 @@ msgid "Incorrect email case"
 msgstr "ਗਲਤ ਈਮੇਲ ਕੇਸ"
 
 #: .es5/scripts/lib/auth-errors.js:59
-msgid "Incorrect password"
-msgstr "ਗਲਤ ਪਾਸਵਰਡ"
+msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
+msgstr ""
 
 #: .es5/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
@@ -256,133 +256,145 @@ msgstr "ਬੇਨਤੀ ਭਾਗ ਜਿਆਦਾ ਵੱਡਾ"
 msgid "The request was blocked for security reasons"
 msgstr ""
 
-#: .es5/scripts/lib/auth-errors.js:117 .es5/scripts/lib/auth-errors.js:294
+#: .es5/scripts/lib/auth-errors.js:117 .es5/scripts/lib/auth-errors.js:318
+msgid "Invalid authorization code"
+msgstr ""
+
+#: .es5/scripts/lib/auth-errors.js:121 .es5/scripts/lib/auth-errors.js:298
 msgid "Server busy, try again soon"
 msgstr "ਸਰਵਰ ਰੁੱਝਿਆ ਹੈ, ਛੇਤੀ ਹੀ ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
 
-#: .es5/scripts/lib/auth-errors.js:121
+#: .es5/scripts/lib/auth-errors.js:125
 msgid "This endpoint is no longer supported"
 msgstr "ਇਹ ਅੰਤ ਬਿੰਦੂ ਹੁਣ ਸਹਾਇਕ ਨਹੀਂ ਰਿਹਾ"
 
-#: .es5/scripts/lib/auth-errors.js:125 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79 .es5/scripts/lib/oauth-errors.js:80
+#: .es5/scripts/lib/auth-errors.js:129 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79 .es5/scripts/lib/oauth-errors.js:80
 #: .es5/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "ਸਿਸਟਮ ਉਪਲੱਬਧ ਨਹੀਂ, ਛੇਤੀ ਹੀ ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
 
-#: .es5/scripts/lib/auth-errors.js:129 .es5/scripts/lib/oauth-errors.js:104
+#: .es5/scripts/lib/auth-errors.js:133 .es5/scripts/lib/oauth-errors.js:104
 msgid "no message"
 msgstr "ਕੋਈ ਸੁਨੇਹਾ ਨਹੀਂ"
 
-#: .es5/scripts/lib/auth-errors.js:133
+#: .es5/scripts/lib/auth-errors.js:137
 msgid "Session expired. Sign in to continue."
 msgstr "ਸ਼ੈਸ਼ਨ ਦੀ ਮਿਆਦ ਪੁੱਗੀ। ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਇਨ ਇਨ ਕਰੋ।"
 
-#: .es5/scripts/lib/auth-errors.js:137
+#: .es5/scripts/lib/auth-errors.js:141
 msgid "Cookies are still disabled"
 msgstr "ਕੂਕੀਜ਼ ਹਾਲੇ ਤੱਕ ਬੰਦ ਹਨ"
 
-#: .es5/scripts/lib/auth-errors.js:141
+#: .es5/scripts/lib/auth-errors.js:145
 msgid "Passwords do not match"
 msgstr "ਪਾਸਵਰਡ ਮਿਲਦੇ ਨਹੀਂ ਹਨ"
 
-#: .es5/scripts/lib/auth-errors.js:145
+#: .es5/scripts/lib/auth-errors.js:149
 msgid "Working…"
 msgstr "...ਕੰਮ ਜਾਰੀ ਹੈ"
 
-#: .es5/scripts/lib/auth-errors.js:149
+#: .es5/scripts/lib/auth-errors.js:153
 msgid "Could not get Privacy Notice"
 msgstr "ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ"
 
-#: .es5/scripts/lib/auth-errors.js:153
+#: .es5/scripts/lib/auth-errors.js:157
 msgid "Could not get Terms of Service"
 msgstr "ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕੀਤੀਆਂ ਜਾ ਸਕੀਆਂ"
 
-#: .es5/scripts/lib/auth-errors.js:157
+#: .es5/scripts/lib/auth-errors.js:161
 msgid "Your new password must be different"
 msgstr "ਤੁਹਾਡਾ ਨਵਾਂ ਪਾਸਵਰਡ ਵੱਖਰਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ"
 
-#: .es5/scripts/lib/auth-errors.js:161 .es5/scripts/templates/complete_reset_password.mustache:14 .es5/scripts/templates/settings/change_password.mustache:9
+#: .es5/scripts/lib/auth-errors.js:165 .es5/scripts/templates/complete_reset_password.mustache:14 .es5/scripts/templates/settings/change_password.mustache:9
 msgid "Must be at least 8 characters"
 msgstr "ਘੱਟੋ-ਘੱਟ 8 ਅੱਖਰ ਲੰਮਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ"
 
-#: .es5/scripts/lib/auth-errors.js:165
+#: .es5/scripts/lib/auth-errors.js:169
 msgid "Valid password required"
 msgstr "ਠੀਕ ਪਾਸਵਰਡ ਚਾਹੀਦਾ ਹੈ"
 
-#: .es5/scripts/lib/auth-errors.js:169 .es5/scripts/lib/auth-errors.js:207 .es5/scripts/lib/auth-errors.js:223
+#: .es5/scripts/lib/auth-errors.js:173 .es5/scripts/lib/auth-errors.js:211 .es5/scripts/lib/auth-errors.js:227
 msgid "Valid email required"
 msgstr "ਠੀਕ ਈਮੇਲ ਚਾਹੀਦਾ ਹੈ"
 
-#: .es5/scripts/lib/auth-errors.js:180
+#: .es5/scripts/lib/auth-errors.js:184
 msgid "A usable image was not found"
 msgstr "ਵਰਤੋਂਯੋਗ ਚਿੱਤਰ ਨਹੀਂ ਲੱਭਿਆ"
 
-#: .es5/scripts/lib/auth-errors.js:184
+#: .es5/scripts/lib/auth-errors.js:188
 msgid "Could not initialize camera"
 msgstr "ਕੈਮਰਾ ਸ਼ੁਰੂ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ"
 
-#: .es5/scripts/lib/auth-errors.js:188
+#: .es5/scripts/lib/auth-errors.js:192
 msgid "Valid URL required"
 msgstr "ਠੀਕ URL ਚਾਹੀਦਾ ਹੈ"
 
-#: .es5/scripts/lib/auth-errors.js:203
+#: .es5/scripts/lib/auth-errors.js:207
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "ਤੁਹਾਡੀ ਤਸਦੀਕ ਈਮੇਲ ਵਾਪਿਸ ਪਰਤ ਆਈ ਹੈ। ਕੀ ਈਮੇਲ ਗਲਤ ਲਿਖਿਆ ਸੀ?"
 
-#: .es5/scripts/lib/auth-errors.js:211
+#: .es5/scripts/lib/auth-errors.js:215
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "ਠੀਕ ਈਮੇਲ ਐਡਰੈਸ ਦਿਉ। firefox.com ਈਮੇਲ ਨਹੀਂ ਦਿੰਦਾ ਹੈ।"
 
-#: .es5/scripts/lib/auth-errors.js:219
+#: .es5/scripts/lib/auth-errors.js:223
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਕੇਵਲ ਮਨਜ਼ੂਰੀ ਪ੍ਰਾਪਤ ਸਾਈਟਾਂ ਉੱਤੇ IFRAME ਵਿੱਚ ਹੀ ਰੱਖਿਆ ਜਾ ਸਕਦਾ ਹੈ"
 
-#: .es5/scripts/lib/auth-errors.js:238 .es5/scripts/templates/complete_sign_up.mustache:9
+#: .es5/scripts/lib/auth-errors.js:242 .es5/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
 msgstr "ਜਾਂਚ ਲਿੰਕ ਨੁਕਾਸਿਆ"
 
-#: .es5/scripts/lib/auth-errors.js:246
+#: .es5/scripts/lib/auth-errors.js:250
 msgid "The image dimensions must be at least 100x100px"
 msgstr "ਤਸਵੀਰ ਦਾ ਪਸਾਰ ਘੱਟੋੇ ਘੱਟ 100x100 ਪਿਕਸਲ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ ।"
 
-#: .es5/scripts/lib/auth-errors.js:250
+#: .es5/scripts/lib/auth-errors.js:254
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "iOS ਦੇ Firefox ਲਈ ਸਾਈਨ-ਅੱਪ ਜਲਦ ਆ ਰਿਹਾ ਹੈ ।"
 
-#: .es5/scripts/lib/auth-errors.js:261
+#: .es5/scripts/lib/auth-errors.js:265
 msgid "You must enter your age to sign up"
 msgstr "ਸਾਈਨ ਅੱਪ ਲਈ ਤੁਹਾਨੂੰ ਆਪਣੀ ਉਮਰ ਦੇਣੀ ਪਵੇਗੀ"
 
-#: .es5/scripts/lib/auth-errors.js:265
+#: .es5/scripts/lib/auth-errors.js:269
 msgid "No Gravatar found"
 msgstr "ਕੋਈ ਗਰਵਤਾਰ ਨਹੀਂ ਲੱਭਿਆ"
 
-#: .es5/scripts/lib/auth-errors.js:273
+#: .es5/scripts/lib/auth-errors.js:277
 msgid "Account no longer exists."
 msgstr "ਖਾਤਾ ਹੁਣ ਮੌਜੂਦ ਨਹੀਂ ਹੈ।"
 
-#: .es5/scripts/lib/auth-errors.js:277
+#: .es5/scripts/lib/auth-errors.js:281
 msgid "Invalid property in resume token: %(property)s"
 msgstr ""
 
-#: .es5/scripts/lib/auth-errors.js:281
+#: .es5/scripts/lib/auth-errors.js:285
 msgid "Missing property in resume token: %(property)s"
 msgstr ""
 
-#: .es5/scripts/lib/auth-errors.js:285
+#: .es5/scripts/lib/auth-errors.js:289
 msgid "Invalid data attribute: %(property)s"
 msgstr ""
 
-#: .es5/scripts/lib/auth-errors.js:289
+#: .es5/scripts/lib/auth-errors.js:293
 msgid "Missing data attribute: %(property)s"
 msgstr ""
 
-#: .es5/scripts/lib/auth-errors.js:302 .es5/scripts/templates/complete_sign_up.mustache:2
+#: .es5/scripts/lib/auth-errors.js:306 .es5/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
 msgstr ""
 
-#: .es5/scripts/lib/auth-errors.js:306
+#: .es5/scripts/lib/auth-errors.js:310
 msgid "This is a required field"
+msgstr ""
+
+#: .es5/scripts/lib/auth-errors.js:314
+msgid "Authorization code required"
+msgstr ""
+
+#: .es5/scripts/lib/auth-errors.js:322 .es5/scripts/templates/report_sign_in.mustache:1
+msgid "Link damaged"
 msgstr ""
 
 #: .es5/scripts/lib/config-loader.js:81
@@ -572,7 +584,7 @@ msgstr "ਨਵਾਂ ਮੁੜ-ਸੈੱਟ ਲਿੰਕ ਪ੍ਰਾਪਤ ਕ�
 msgid "Reset password link damaged"
 msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਲਿੰਕ ਖ਼ਰਾਬ ਹੋ ਗਿਆ"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:6 .es5/scripts/templates/complete_sign_up.mustache:10
+#: .es5/scripts/templates/complete_reset_password.mustache:6 .es5/scripts/templates/complete_sign_up.mustache:10 .es5/scripts/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
 msgstr "ਤੁਹਾਡੇ ਵਲੋਂ ਕਲਿਕ ਕੀਤੇ ਗਏ ਲਿੰਕ ਵਿੱਚ ਅੱਖਰ ਗੁੰਮ ਹਨ ਅਤੇ ਤੁਹਾਡੇ ਈਮੇਲ ਕਲਾਇਟ ਵਲੋਂ ਖ਼ਰਾਬ ਕੀਤੇ ਗਏ ਹੋ ਸਕਦੇ ਹਨ। ਸਿਰਨਾਵਾਂ ਲਿੰਕ ਨੂੰ ਧਿਆਨ ਨਾਲ ਕਾਪੀ ਕਰੋ ਅਤੇ ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
 
@@ -642,7 +654,7 @@ msgstr "ਜਾਂਚ ਲਿੰਕ &nbsp; %(email)s ਨੂੰ ਭੇਜਿਆ ਜ
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
 msgstr ""
 
-#: .es5/scripts/templates/confirm.mustache:11 .es5/scripts/templates/confirm.mustache:13
+#: .es5/scripts/templates/confirm.mustache:11 .es5/scripts/templates/confirm.mustache:13 .es5/scripts/templates/sign_in_unblock.mustache:6 .es5/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive? Resend"
 msgstr ""
 
@@ -775,6 +787,22 @@ msgstr "ਜਾਰੀ ਰੱਖੋ"
 msgid "Your account is ready!"
 msgstr "ਤੁਹਾਡਾ ਖਾਤਾ ਤਿਆਰ ਹੈ!"
 
+#: .es5/scripts/templates/report_sign_in.mustache:4
+msgid "Report unauthorized sign-in?"
+msgstr ""
+
+#: .es5/scripts/templates/report_sign_in.mustache:5
+msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
+msgstr ""
+
+#: .es5/scripts/templates/report_sign_in.mustache:6
+msgid "Report activity"
+msgstr ""
+
+#: .es5/scripts/templates/report_sign_in.mustache:7 .es5/scripts/templates/sign_in_unblock.mustache:7
+msgid "Why is this happening?"
+msgstr ""
+
 #: .es5/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
 msgstr "ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ"
@@ -815,6 +843,30 @@ msgstr "ਵੱਖਰੇ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ"
 #: .es5/scripts/templates/sign_in.mustache:24
 msgid "Create an account"
 msgstr "ਖਾਤਾ ਬਣਾਓ"
+
+#: .es5/scripts/templates/sign_in_reported.mustache:1
+msgid "Thank you for your vigilance"
+msgstr ""
+
+#: .es5/scripts/templates/sign_in_reported.mustache:2
+msgid "Our team has been notified. Reports like this help us fend off intruders."
+msgstr ""
+
+#: .es5/scripts/templates/sign_in_unblock.mustache:1 .es5/scripts/templates/sign_in_unblock.mustache:2
+msgid "Authorize this sign-in"
+msgstr ""
+
+#: .es5/scripts/templates/sign_in_unblock.mustache:3
+msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
+msgstr ""
+
+#: .es5/scripts/templates/sign_in_unblock.mustache:4
+msgid "Enter authorization code"
+msgstr ""
+
+#: .es5/scripts/templates/sign_in_unblock.mustache:5
+msgid "Continue"
+msgstr ""
 
 #: .es5/scripts/templates/sign_up.mustache:1 .es5/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
@@ -1008,6 +1060,9 @@ msgstr "OpenID ਵਰਤੋ"
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ"
+
+#~ msgid "Incorrect password"
+#~ msgstr "ਗਲਤ ਪਾਸਵਰਡ"
 
 #~ msgid "Add"
 #~ msgstr "ਜੋੜੋ"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-30 17:52+0000\n"
+"POT-Creation-Date: 2016-10-17 12:20+0000\n"
 "PO-Revision-Date: 2016-10-01 01:52+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 1.8.5\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:532
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:572
 msgid "Still there?"
 msgstr "Nadal z nami?"
 
@@ -46,17 +46,17 @@ msgid "Sign in to Sync"
 msgstr "Zaloguj się do usługi Sync"
 
 #: templates/new_device_login.html:1 templates/password_changed.html:1 templates/password_reset.html:1 templates/password_reset_required.html:1 templates/post_verify.html:1 templates/recovery.html:1
-#: templates/suspicious_location.html:1 templates/verification_reminder_first.html:1 templates/verification_reminder_second.html:1 templates/verify.html:1 templates/verify_login.html:1
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
+#: templates/suspicious_location.html:1 templates/unblock_code.html:1 templates/verification_reminder_first.html:1 templates/verification_reminder_second.html:1 templates/verify.html:1
+#: templates/verify_login.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
+#: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Konta Firefoksa"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:439
+#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:479
 msgid "New sign-in to Firefox"
 msgstr "Nowe logowanie do Firefoksa"
 
-#: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3
+#: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/unblock_code.html:3 templates/unblock_code.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "IP address: %(ip)s"
 msgstr "Adres IP: %(ip)s"
 
@@ -71,8 +71,9 @@ msgstr "Więcej informacji można znaleźć w <a %(supportLinkAttributes)s>pomo
 
 #: templates/new_device_login.html:6 templates/new_device_login.txt:5 templates/password_changed.html:6 templates/password_changed.txt:5 templates/password_reset.html:6 templates/password_reset.txt:5
 #: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:8 templates/post_verify.txt:6 templates/recovery.html:8 templates/recovery.txt:6
-#: templates/suspicious_location.html:14 templates/suspicious_location.txt:13 templates/verification_reminder_first.html:8 templates/verification_reminder_first.txt:6
-#: templates/verification_reminder_second.html:8 templates/verification_reminder_second.txt:6 templates/verify.html:8 templates/verify.txt:6 templates/verify_login.html:8 templates/verify_login.txt:6
+#: templates/suspicious_location.html:14 templates/suspicious_location.txt:13 templates/unblock_code.html:6 templates/unblock_code.txt:5 templates/verification_reminder_first.html:8
+#: templates/verification_reminder_first.txt:6 templates/verification_reminder_second.html:8 templates/verification_reminder_second.txt:6 templates/verify.html:8 templates/verify.txt:6
+#: templates/verify_login.html:8 templates/verify_login.txt:6
 msgid "Mozilla Privacy Policy"
 msgstr "O polityce prywatności Mozilli"
 
@@ -224,7 +225,23 @@ msgstr "Czemu dostaję tę wiadomość?"
 msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
 msgstr "Niedawno zalogowano do konta Firefoksa z nietypowych miejsc. To powiadomienie zostało wysłane w ramach środków ostrożności."
 
-#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:529
+#: templates/unblock_code.html:2 templates/unblock_code.txt:1
+msgid "Is this you signing in?"
+msgstr ""
+
+#: templates/unblock_code.html:4 templates/unblock_code.txt:3
+msgid "If yes, here is the authorization code you need:"
+msgstr ""
+
+#: templates/unblock_code.html:5
+msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
+msgstr ""
+
+#: templates/unblock_code.txt:4
+msgid "If no, help us fend off intruders and report it to us."
+msgstr ""
+
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:569
 msgid "Hello again."
 msgstr "Witamy ponownie."
 
@@ -280,51 +297,55 @@ msgstr "Jeśli istnieją podejrzenia, że ktoś próbuje uzyskać dostęp do kon
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr "Jeśli istnieją podejrzenia, że ktoś próbuje uzyskać dostęp do konta, to prosimy zmienić hasło."
 
-#: mailer.js:158
+#: mailer.js:161
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (przybliżone)"
 
-#: mailer.js:160
+#: mailer.js:163
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (przybliżone)"
 
-#: mailer.js:162
+#: mailer.js:165
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (przybliżone)"
 
-#: mailer.js:164
+#: mailer.js:167
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (przybliżone)"
 
-#: mailer.js:265
+#: mailer.js:268
 msgid "Verify your Firefox Account"
 msgstr "Zweryfikuj konto Firefoksa"
 
-#: mailer.js:304
+#: mailer.js:303
+msgid "Firefox Account authorization code"
+msgstr ""
+
+#: mailer.js:344
 msgid "Confirm new sign-in to Firefox"
 msgstr "Potwierdź nowe logowanie do Firefoksa"
 
-#: mailer.js:345
+#: mailer.js:385
 msgid "Reset your Firefox Account password"
 msgstr "Zmień hasło konta Firefoksa"
 
-#: mailer.js:371
+#: mailer.js:411
 msgid "Your Firefox Account password has been changed"
 msgstr "Zmieniono hasło konta Firefoksa"
 
-#: mailer.js:394
+#: mailer.js:434
 msgid "Your Firefox Account password has been reset"
 msgstr "Zmieniono hasło konta Firefoksa"
 
-#: mailer.js:417
+#: mailer.js:457
 msgid "Firefox Account password reset required"
 msgstr "Wymagana jest zmiana hasła konta Firefoksa"
 
-#: mailer.js:468
-msgid "Firefox Account Verified"
-msgstr "Zweryfikowano konto Firefoksa"
+#: mailer.js:508
+msgid "Firefox Account verified"
+msgstr ""
 
-#: mailer.js:507
+#: mailer.js:547
 msgid "Suspicious activity with your Firefox Account"
 msgstr "Podejrzana działalność na koncie Firefoksa"
 
@@ -379,3 +400,6 @@ msgstr "Usługi Firefox cloud"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Regulamin usługi"
+
+#~ msgid "Firefox Account Verified"
+#~ msgstr "Zweryfikowano konto Firefoksa"
