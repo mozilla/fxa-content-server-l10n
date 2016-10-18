@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-17 15:08+0000\n"
+"PO-Revision-Date: 2016-10-17 15:09+0000\n"
 "Last-Translator: Joergen <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
@@ -321,7 +321,7 @@ msgstr "Bekræft din Firefox-konto"
 
 #: mailer.js:303
 msgid "Firefox Account authorization code"
-msgstr ""
+msgstr "Godkendelseskode til Firefox-konto"
 
 #: mailer.js:344
 msgid "Confirm new sign-in to Firefox"
@@ -345,7 +345,7 @@ msgstr "Nulstilling af din adgangskode til Firefox-konti er påkrævet"
 
 #: mailer.js:508
 msgid "Firefox Account verified"
-msgstr ""
+msgstr "Firefox-konto bekræftet"
 
 #: mailer.js:547
 msgid "Suspicious activity with your Firefox Account"
