@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-20 07:54+0000\n"
+"PO-Revision-Date: 2016-10-20 08:33+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
@@ -792,15 +792,15 @@ msgstr "گزارش ورود بدون دسترسی؟"
 
 #: .es5/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr ""
+msgstr "شما رایانامه‌ای درباره تلاش برای دسترسی به حساب خود دریافت کردید. آیا مایلید این حرکت را به عنوان یک فعالیت مشکوک گزارش کنید؟"
 
 #: .es5/scripts/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr ""
+msgstr "گزارش فعالیت"
 
 #: .es5/scripts/templates/report_sign_in.mustache:7 .es5/scripts/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr ""
+msgstr "چرا این اتفاق میافتد؟"
 
 #: .es5/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
@@ -845,27 +845,27 @@ msgstr "ایجاد یک حساب"
 
 #: .es5/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
-msgstr ""
+msgstr "بابت هوشیاری شما از شما متشکریم"
 
 #: .es5/scripts/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr ""
+msgstr "تیم ما با خبر شده‌اند. گزارش‌هایی مانند این به ما در جهت دفع مزاحمان شما کمک می‌کنند."
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:1 .es5/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
-msgstr ""
+msgstr "تایید این ورود"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr ""
+msgstr "برای محافظت بهتر اطلاعات فایرفاکس خود، یک کد تایید هویت برای شما در %(email)s ارسال شده است."
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "ورود کد تایید هویت"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"
-msgstr ""
+msgstr "ادامه"
 
 #: .es5/scripts/templates/sign_up.mustache:1 .es5/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
