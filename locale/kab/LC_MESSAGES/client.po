@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-02 19:14+0000\n"
-"Last-Translator: belkacem77 <belkacem77@gmail.com>\n"
+"PO-Revision-Date: 2016-10-20 15:21+0000\n"
+"Last-Translator: Moḥend Belqasem <belkacem77@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
 "MIME-Version: 1.0\n"
@@ -96,7 +96,7 @@ msgstr "Suref-aɣ ɣef aya. Ma d ibenk ur nettwaman ara, yessefk ad tesnifleḍ 
 
 #: .es5/scripts/views/settings/clients.js:52
 msgid "Last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Armud aneggaru: %(translatedTimeAgo)s"
 
 #: .es5/scripts/views/settings/clients.js:91
 msgid "Devices"
@@ -217,7 +217,7 @@ msgstr "Amasal n yimayl mačči d ameɣtu"
 
 #: .es5/scripts/lib/auth-errors.js:59
 msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
-msgstr ""
+msgstr "Awal uffir mačči d ameɣtu. Akken ad tesneqdeḍ ayen tettaruḍ, senned ɣef tqeffalt Sken, eǧǧ afus-ik fell-as."
 
 #: .es5/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
@@ -257,7 +257,7 @@ msgstr "Tuttra tewḥel ɣef sebba n tɣellist"
 
 #: .es5/scripts/lib/auth-errors.js:117 .es5/scripts/lib/auth-errors.js:318
 msgid "Invalid authorization code"
-msgstr ""
+msgstr "Tangalt n tsiregt mačči d tameɣtut"
 
 #: .es5/scripts/lib/auth-errors.js:121 .es5/scripts/lib/auth-errors.js:298
 msgid "Server busy, try again soon"
@@ -390,11 +390,11 @@ msgstr "Urti agi yettwasra"
 
 #: .es5/scripts/lib/auth-errors.js:314
 msgid "Authorization code required"
-msgstr ""
+msgstr "Tangalt n tsiregt tettwasra"
 
 #: .es5/scripts/lib/auth-errors.js:322 .es5/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
-msgstr ""
+msgstr "Aseqwen yexṣeṛ"
 
 #: .es5/scripts/lib/config-loader.js:81
 msgid "Missing configuration"
@@ -473,11 +473,8 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:17
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Ma tkemleḍ, ad tqebleḍ <a id=\"service-tos\" href=\"%(termsUri)s\">tiwtilin n useqdec</a> akkeda <a id=\"service-pp\" href=\"%(privacyUri)s\">tsertit tabaḍnit</a> n %(serviceName)s (%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Ma tkemleḍ, ad tqebleḍ <a id=\"service-tos\" href=\"%(termsUri)s\">tiwtilin n useqdec</a> akkeda <a id=\"service-pp\" href=\"%(privacyUri)s\">tsertit tabaḍnit</a> n %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/scripts/lib/strings.js:24
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -788,7 +785,7 @@ msgstr "Amiḍan inek ihegga!"
 
 #: .es5/scripts/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "Azen-d tuqqna ur nettwasireg ara?"
 
 #: .es5/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
@@ -893,7 +890,7 @@ msgstr "Rnu amiḍan"
 
 #: .es5/scripts/templates/sign_up.mustache:27
 msgid "Have an account? Sign in"
-msgstr "Ɛur-k amiḍan? Kcem"
+msgstr "Ɣur-k amiḍan? Kcem"
 
 #: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2 .es5/scripts/templates/settings/communication_preferences.mustache:4
 #: .es5/scripts/templates/settings/display_name.mustache:2
@@ -986,11 +983,9 @@ msgstr "Tuffɣa tedda akken iwata"
 
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
-msgstr ""
-"Firefox yella i <a href=\"%(linkWindows)s\">windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> akked <a href=\"%(linkLinux)s"
-"\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
+msgstr "Firefox yella i <a href=\"%(linkWindows)s\">windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> akked <a href=\"%(linkLinux)s\">Linux</a>."
 
 #: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
