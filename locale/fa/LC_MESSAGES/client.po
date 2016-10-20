@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-16 08:24+0000\n"
+"PO-Revision-Date: 2016-10-20 07:54+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
@@ -97,7 +97,7 @@ msgstr "متاسفیم که این اتفاق پیش آمده. اگر این و�
 
 #: .es5/scripts/views/settings/clients.js:52
 msgid "Last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "آخرین فعالیت %(translatedTimeAgo)s"
 
 #: .es5/scripts/views/settings/clients.js:91
 msgid "Devices"
@@ -218,7 +218,7 @@ msgstr "بزرگی و کوچکی حروف ایمیل نادرست است"
 
 #: .es5/scripts/lib/auth-errors.js:59
 msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
-msgstr ""
+msgstr "گذرواژه نادرست. برای بررسی مجدد چیزی که وارد کرده‌اید، دکمه نمایش را فشار و نگه دارید."
 
 #: .es5/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
@@ -258,7 +258,7 @@ msgstr "این درخواست بنا بر مسائل امنیتی مسدود ش�
 
 #: .es5/scripts/lib/auth-errors.js:117 .es5/scripts/lib/auth-errors.js:318
 msgid "Invalid authorization code"
-msgstr ""
+msgstr "کد تصدیق هویت نامعتبر است"
 
 #: .es5/scripts/lib/auth-errors.js:121 .es5/scripts/lib/auth-errors.js:298
 msgid "Server busy, try again soon"
@@ -391,11 +391,11 @@ msgstr "پر کردن این فیلد اجباری است"
 
 #: .es5/scripts/lib/auth-errors.js:314
 msgid "Authorization code required"
-msgstr ""
+msgstr "کد تصدیق هویت لازم است"
 
 #: .es5/scripts/lib/auth-errors.js:322 .es5/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
-msgstr ""
+msgstr "پیوند خراب است"
 
 #: .es5/scripts/lib/config-loader.js:81
 msgid "Missing configuration"
@@ -474,9 +474,7 @@ msgid "Firefox Sync"
 msgstr "بهنگام‌سازی فایرفاکس"
 
 #: .es5/scripts/lib/strings.js:17
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "با ادامه دادن شما<a id=\"service-tos\" href=\"%(termsUri)s\">شرایط استفاده از سرویس</a>و<a id=\"service-pp\" href=\"%(privacyUri)s\">اطلاعیه‌ی حریم‌خصوصی</a>مربوط به %(serviceName)s "
 "(%(serviceUri)s)را می‌پذیرید."
@@ -790,7 +788,7 @@ msgstr "حساب شما آماده است!"
 
 #: .es5/scripts/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "گزارش ورود بدون دسترسی؟"
 
 #: .es5/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
@@ -989,11 +987,11 @@ msgstr "قطع ارتباط موفقیت‌آمیز بود"
 
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
-"فایرفاکس برای <a href=\"%(linkWindows)s\">ویندوز</a>، <a href=\"%(linkOSX)s\">OS X</a>، <a href=\"%(linkAndroid)s\">اندروید</a>، <a href=\"%(linkIOS)s\">iOS</a> و <a href=\"%(linkLinux)s\">لینوکس</"
-"a> در دسترس است."
+"فایرفاکس برای <a href=\"%(linkWindows)s\">ویندوز</a>، <a href=\"%(linkOSX)s\">OS X</a>، <a href=\"%(linkAndroid)s\">اندروید</a>، <a href=\"%(linkIOS)s\">iOS</a> و <a "
+"href=\"%(linkLinux)s\">لینوکس</a> در دسترس است."
 
 #: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
