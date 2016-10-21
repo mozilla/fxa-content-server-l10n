@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-02 19:13+0000\n"
-"Last-Translator: belkacem77 <belkacem77@gmail.com>\n"
+"PO-Revision-Date: 2016-10-21 11:22+0000\n"
+"Last-Translator: Moḥend Belqasem <belkacem77@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
 "MIME-Version: 1.0\n"
@@ -32,11 +32,11 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
-"Teqqned akken iwata ibenk inek amezwaru ɣer umiḍn inek Firefox. Akken ad temtawid ugar, qqen ibenk tebɣid ɣer <a href='%(androidUrl)s'>Firefox i Android</a> neɣ <a href='%(iosUrl)s'>Firefox i iOS</"
-"a>."
+"Teqqned akken iwata ibenk inek amezwaru ɣer umiḍn inek Firefox. Akken ad temtawid ugar, qqen ibenk tebɣid ɣer <a href='%(androidUrl)s'>Firefox i Android</a> neɣ <a href='%(iosUrl)s'>Firefox i "
+"iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -230,19 +230,19 @@ msgstr "Nwal melmi kan tuqqniwin ɣe umiḍan inek Firefox seg imeḍqan ur nuɣ
 
 #: templates/unblock_code.html:2 templates/unblock_code.txt:1
 msgid "Is this you signing in?"
-msgstr ""
+msgstr "D kečč i d-yessutren tuqqna agi?"
 
 #: templates/unblock_code.html:4 templates/unblock_code.txt:3
 msgid "If yes, here is the authorization code you need:"
-msgstr ""
+msgstr "Ma yella ih, hattan tengalt n tsiregt i tesriḍ:"
 
 #: templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr ""
+msgstr "Ma ulac, mmel-aɣ-d amek ad neḥwi yir imdanen <a %(reportSignInLinkAttributes)s>mmel-aɣ-tid</a>."
 
 #: templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "Ma ulac, mudd-aɣ-d afus akken ad neḥwi yir imdanen udiɣ mmel-aɣ-tid."
 
 #: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:569
 msgid "Hello again."
@@ -250,11 +250,11 @@ msgstr "Azul fell-ak tikelt nniḍen."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
-"Kra n wussan ɣer deffir, terniḍ amiḍan Firefox, acukan weṛǧin tessentmeṭ. Amiḍan yettwasentmenad isireg ad tkecmeḍ ɣer yiccaren inek, ticṛaḍ n isebtar, awalen inek uffiren akked umazray inek seg "
-"yal ibenk yeqqnen ɣer umiḍan agi. Sentem kan tansa agi imayl akken ad tremdeḍ amiḍan inek."
+"Kra n wussan ɣer deffir, terniḍ amiḍan Firefox, acukan weṛǧin tessentmeṭ. Amiḍan yettwasentmenad isireg ad tkecmeḍ ɣer yiccaren inek, ticṛaḍ n isebtar, awalen inek uffiren akked umazray inek seg yal"
+" ibenk yeqqnen ɣer umiḍan agi. Sentem kan tansa agi imayl akken ad tremdeḍ amiḍan inek."
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
 msgid "Activate now"
@@ -322,7 +322,7 @@ msgstr "Senqed amidan inek Firefox"
 
 #: mailer.js:303
 msgid "Firefox Account authorization code"
-msgstr ""
+msgstr "Tangalt n tsiregt n umidan Firefox"
 
 #: mailer.js:344
 msgid "Confirm new sign-in to Firefox"
@@ -346,7 +346,7 @@ msgstr "Awennez n wawal uffir n umidan Firefox yettwasra"
 
 #: mailer.js:508
 msgid "Firefox Account verified"
-msgstr ""
+msgstr "Amiḍan Firefox yettwasenqed"
 
 #: mailer.js:547
 msgid "Suspicious activity with your Firefox Account"
