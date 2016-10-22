@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2015-05-24 04:58+0000\n"
-"Last-Translator: Ayan <ayay700@gmail.com>\n"
+"PO-Revision-Date: 2016-10-22 04:41+0000\n"
+"Last-Translator: Ayan Choudhury <ping2ayan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_IN\n"
 "MIME-Version: 1.0\n"
@@ -29,15 +29,15 @@ msgstr "পাসওয়ার্ড সফলভাবে রিসেট কর
 
 #: .es5/scripts/views/permissions.js:26
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName)s (প্রয়োজনীয়)"
 
 #: .es5/scripts/views/permissions.js:31
 msgid "Email address"
-msgstr ""
+msgstr "ইমেইল"
 
 #: .es5/scripts/views/permissions.js:35 .es5/scripts/templates/settings/display_name.mustache:1 .es5/scripts/templates/settings/display_name.mustache:4
 msgid "Display name"
-msgstr ""
+msgstr "নাম প্রদর্শন করুন"
 
 #: .es5/scripts/views/permissions.js:38 .es5/scripts/templates/settings/avatar.mustache:1
 msgid "Account picture"
@@ -49,7 +49,7 @@ msgstr ""
 
 #: .es5/scripts/views/ready.js:39
 msgid "Welcome back"
-msgstr ""
+msgstr "পুনরায় স্বাগতম"
 
 #: .es5/scripts/views/ready.js:40
 msgid "Firefox Sync will resume momentarily"
@@ -141,7 +141,7 @@ msgstr "পাসওয়ার্ড পুনরায় সেট করুন।
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:17
 msgid "Open Gmail"
-msgstr ""
+msgstr "Gmail খুলুন"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:22
 msgid "Open Hotmail"
@@ -474,9 +474,7 @@ msgid "Firefox Sync"
 msgstr "Firefox সিঙ্ক"
 
 #: .es5/scripts/lib/strings.js:17
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/scripts/lib/strings.js:24
@@ -537,23 +535,23 @@ msgstr ""
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
-msgstr ""
+msgstr "বুকমার্কসমূহ"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
-msgstr ""
+msgstr "অ্যাড-অন"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:8
 msgid "Passwords"
-msgstr ""
+msgstr "পাসওয়ার্ড"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:10
 msgid "History"
-msgstr ""
+msgstr "ইতিহাস"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Preferences"
-msgstr ""
+msgstr "পছন্দসমূহ"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
@@ -986,8 +984,8 @@ msgstr ""
 
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
+"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+"href=\"%(linkLinux)s\">Linux</a>."
 msgstr ""
 
 #: .es5/scripts/templates/settings/clients.mustache:4
@@ -1115,7 +1113,8 @@ msgstr ""
 #~ msgid ""
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
-#~ msgstr "দয়া করে আপনার ব্রাউজারের কুকিজগুলো সক্রিয় করুন যা Firefox অ্যাকাউন্টের প্রয়োজন। কুকিজ হল ছোটো তথ্যের টুকরো যা আপনার ব্রাউজারে সংরক্ষিত থাকে যা আপনাকে সেশনের মধ্যে মনে রাখার কার্যকারিতা প্রদান করে।"
+#~ msgstr ""
+#~ "দয়া করে আপনার ব্রাউজারের কুকিজগুলো সক্রিয় করুন যা Firefox অ্যাকাউন্টের প্রয়োজন। কুকিজ হল ছোটো তথ্যের টুকরো যা আপনার ব্রাউজারে সংরক্ষিত থাকে যা আপনাকে সেশনের মধ্যে মনে রাখার কার্যকারিতা প্রদান করে।"
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox খুবই শীঘ্রই আসছে iOS-এ!"
