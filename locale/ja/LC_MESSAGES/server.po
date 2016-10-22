@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-22 08:00+0000\n"
+"PO-Revision-Date: 2016-10-22 09:39+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -60,7 +60,7 @@ msgstr "IP アドレス: %(ip)s"
 
 #: templates/new_device_login.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr "これは自動送信メールです。あなたがこのアクションを許可していない場合は、<a %(passwordChangeLinkAttributes)s>パスワードを変更してください</a>。"
+msgstr "これは自動送信メールです。あなたがこの操作を許可していない場合は、<a %(passwordChangeLinkAttributes)s>パスワードを変更してください</a>。"
 
 #: templates/new_device_login.html:5 templates/password_changed.html:5 templates/password_reset.html:5 templates/post_verify.html:7 templates/recovery.html:7
 #: templates/verification_reminder_first.html:7 templates/verification_reminder_second.html:7 templates/verify.html:7
@@ -195,23 +195,23 @@ msgstr "パスワードをリセット"
 
 #: templates/suspicious_location.html:2 templates/suspicious_location.txt:1
 msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
-msgstr "過去60日以内に下記の場所からご自身のFirefoxアカウントにサインインしましたか？あなたがこれらの場所に覚えがない場合は、他の誰かがあなたの Firefox アカウントにアクセスした可能性があります。"
+msgstr "過去 60 日以内に下記の場所から自分の Firefox アカウントにサインインしましたか？あなたがこれらの場所に覚えがない場合は、他の誰かがあなたの Firefox アカウントにアクセスした可能性があります。"
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
-msgstr "日時："
+msgstr "日時:"
 
 #: templates/suspicious_location.html:4 templates/suspicious_location.txt:3
 msgid "Device:"
-msgstr "デバイス："
+msgstr "端末:"
 
 #: templates/suspicious_location.html:5 templates/suspicious_location.txt:4
 msgid "Location:"
-msgstr "場所："
+msgstr "場所:"
 
 #: templates/suspicious_location.html:6 templates/suspicious_location.txt:5
 msgid "If you don’t recognize the activity above:"
-msgstr "上記のアクティビティに覚えがない場合："
+msgstr "上記のアクティビティに覚えがない場合:"
 
 #: templates/suspicious_location.html:10 templates/suspicious_location.txt:9
 msgid "Why are you receiving this email?"
@@ -219,7 +219,7 @@ msgstr "このメールを受信した理由"
 
 #: templates/suspicious_location.html:11 templates/suspicious_location.txt:10
 msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
-msgstr "通常とは異なる場所からの、Firefox アカウントへのログインが最近検知されたので、念のためお知らせています。"
+msgstr "普段とは異なる場所からの Firefox アカウントへのログインが最近検知されたので、念のためお知らせています。"
 
 #: templates/unblock_code.html:2 templates/unblock_code.txt:1
 msgid "Is this you signing in?"
