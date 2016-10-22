@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-22 06:44+0000\n"
+"PO-Revision-Date: 2016-10-22 07:20+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -352,7 +352,7 @@ msgstr "画像のサイズは最低でも 100 × 100px でなければなりま�
 
 #: .es5/scripts/lib/auth-errors.js:254
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr "iOS 版 Firefox からのユーザ登録は後日可能となります"
+msgstr "iOS 版 Firefox からのユーザー登録は後日可能となります"
 
 #: .es5/scripts/lib/auth-errors.js:265
 msgid "You must enter your age to sign up"

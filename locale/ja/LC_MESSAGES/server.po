@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-22 06:44+0000\n"
+"PO-Revision-Date: 2016-10-22 07:20+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -377,7 +377,7 @@ msgstr "現在サーバに過度な負担が掛かっており、できる限り
 
 #: server/templates/pages/src/index.html:2 server/templates/pages/src/privacy.html:5 server/templates/pages/src/terms.html:5
 msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr "あなたは <strong>古い</strong> ブラウザーをお使いです。ユーザ体験を向上させるために<a href=\"http://browsehappy.com/\">ブラウザをアップグレードしてください</a>。"
+msgstr "あなたは <strong>古い</strong> ブラウザーをお使いです。ユーザー体験を向上させるために<a href=\"http://browsehappy.com/\">ブラウザをアップグレードしてください</a>。"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
