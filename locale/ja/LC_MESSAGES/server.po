@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-22 09:39+0000\n"
+"PO-Revision-Date: 2016-10-22 09:41+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -166,7 +166,7 @@ msgstr "アカウント認証が完了しました！"
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
-msgstr "Firefox アカウントに初めて端末が接続されました。<a %(androidLinkAttributes)s>Android</a> 版や <a %(iosLinkAttributes)s>iOS</a> 版 Firefox を含め、他の端末からも Sync にサインインできます。"
+msgstr "Firefox アカウントに初めて端末が接続されました。<a %(androidLinkAttributes)s>Android</a> 版や <a %(iosLinkAttributes)s>iOS</a> 版 Firefox を含め、他の端末からも Sync にログインできます。"
 
 #: templates/post_verify.html:5 templates/recovery.html:5 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
 #: templates/verify_login.html:6
@@ -195,7 +195,7 @@ msgstr "パスワードをリセット"
 
 #: templates/suspicious_location.html:2 templates/suspicious_location.txt:1
 msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
-msgstr "過去 60 日以内に下記の場所から自分の Firefox アカウントにサインインしましたか？あなたがこれらの場所に覚えがない場合は、他の誰かがあなたの Firefox アカウントにアクセスした可能性があります。"
+msgstr "過去 60 日以内に下記の場所から自分の Firefox アカウントにログインしましたか？あなたがこれらの場所に覚えがない場合は、他の誰かがあなたの Firefox アカウントにアクセスした可能性があります。"
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
