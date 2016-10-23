@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-23 06:39+0000\n"
-"Last-Translator: Umesh Agarwal <umesh.agarwal1@gmail.com>\n"
+"PO-Revision-Date: 2016-09-25 10:00+0000\n"
+"Last-Translator: meghakhosla6 <meghakhosla6@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
 "MIME-Version: 1.0\n"
@@ -405,7 +405,7 @@ msgstr "लापता विन्यास"
 
 #: .es5/scripts/lib/config-loader.js:85
 msgid "Invalid configuration"
-msgstr ""
+msgstr "अवैध विन्यास"
 
 #: .es5/scripts/lib/mailcheck.js:60
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
