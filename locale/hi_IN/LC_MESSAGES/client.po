@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-09-25 10:00+0000\n"
-"Last-Translator: meghakhosla6 <meghakhosla6@gmail.com>\n"
+"PO-Revision-Date: 2016-10-23 21:32+0000\n"
+"Last-Translator: Dhiraj Kumar Singh <singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
 "MIME-Version: 1.0\n"
@@ -188,11 +188,11 @@ msgstr "ईमेल सत्यापन के लिए चुने हु�
 
 #: .es5/scripts/lib/auth-errors.js:21
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "आपने बहुत बार की कोशिश की है. बाद में पुन: प्रयास करें."
 
 #: .es5/scripts/lib/auth-errors.js:25
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "आपने बहुत बार कोशिश की है. पुनः कोशिश करें %(retryAfterLocalized)s."
 
 #: .es5/scripts/lib/auth-errors.js:35 .es5/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
@@ -385,7 +385,7 @@ msgstr "डेटा विशेषता अनुपलब्ध: %(property)
 
 #: .es5/scripts/lib/auth-errors.js:306 .es5/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "वह सत्यापन लिंक पहले उपयोग हो गया था, और केवल एक बार उपयोग किया जा सकता है."
 
 #: .es5/scripts/lib/auth-errors.js:310
 msgid "This is a required field"
