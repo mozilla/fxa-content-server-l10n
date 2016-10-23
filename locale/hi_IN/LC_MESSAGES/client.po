@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-23 21:32+0000\n"
+"PO-Revision-Date: 2016-10-22 23:15+0000\n"
 "Last-Translator: Dhiraj Kumar Singh <singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -804,7 +804,7 @@ msgstr "क्यों यह हो रहा है?"
 
 #: .es5/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
-msgstr ""
+msgstr "पासवर्ड भूल गए"
 
 #: .es5/scripts/templates/reset_password.mustache:2
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
@@ -1028,7 +1028,7 @@ msgstr "खाता नष्ट करें"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete…"
-msgstr ""
+msgstr "मिटाएँ…"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
@@ -1056,7 +1056,7 @@ msgstr ""
 
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr ""
+msgstr "Firefox खाते का प्रयोग करें"
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "पिछले सक्रिय : %(translatedTimeAgo)s"
