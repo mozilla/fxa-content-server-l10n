@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-22 05:25+0000\n"
+"PO-Revision-Date: 2016-10-23 18:54+0000\n"
 "Last-Translator: Ayan Choudhury <ping2ayan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_IN\n"
@@ -161,11 +161,11 @@ msgstr "8-টা অক্ষর নূন্যতম, যদি আপনি �
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:21 .es5/scripts/templates/sign_up.mustache:18
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr ""
+msgstr "একটা শক্তিশালী, স্বতন্ত্র পাসওয়ার্ড আপনার Firefox তথ্য কে সুরক্ষিত রাখবে অনধিকারপ্রবেশকারী দের থেকে।"
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/views/mixins/password-prompt-mixin.js:23
 msgid "This is a common password; please consider another one."
-msgstr ""
+msgstr "এটি একটি সাধারণ পাসওয়ার্ড; দয়া করে আর একটি বিবেচনা করুন।"
 
 #: .es5/scripts/views/mixins/resend-mixin.js:53
 msgid "Email resent"
