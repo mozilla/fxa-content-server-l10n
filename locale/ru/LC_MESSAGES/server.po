@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-09-30 19:33+0000\n"
+"PO-Revision-Date: 2016-10-19 12:57+0000\n"
 "Last-Translator: Victor Bychek <a@bychek.ru>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
 "Language: ru\n"
@@ -33,8 +33,8 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Вы успешно подключили первое устройство к своему Аккаунту Firefox. Чтобы использовать Синхронизацию по полной, подключите к ней свой <a href='%(androidUrl)s'>Firefox для Android</a> или <a "
 "href='%(iosUrl)s'>Firefox для iOS</a>."
@@ -233,19 +233,19 @@ msgstr "Недавно мы заметили, что вход в Аккаунт 
 
 #: templates/unblock_code.html:2 templates/unblock_code.txt:1
 msgid "Is this you signing in?"
-msgstr ""
+msgstr "Это входили вы?"
 
 #: templates/unblock_code.html:4 templates/unblock_code.txt:3
 msgid "If yes, here is the authorization code you need:"
-msgstr ""
+msgstr "Если да, вот - код авторизации, который вам понадобится:"
 
 #: templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr ""
+msgstr "Если нет, помогите нам в борьбе со злоумышленниками и <a %(reportSignInLinkAttributes)s>сообщите нам об этом.</a>"
 
 #: templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "Если нет, помогите нам в борьбе со злоумышленниками и сообщите нам об этом."
 
 #: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:569
 msgid "Hello again."
@@ -253,8 +253,8 @@ msgstr "И снова привет."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 "Несколько дней назад вы создали аккаунт Firefox, но не подтвердили его. Подтверждённый аккаунт позволит вам получить доступ к вкладкам, закладкам, паролям и истории на любом подключенном к нему "
 "устройстве. Просто подтвердите этот адрес электронной почты, чтобы активировать ваш аккаунт."
@@ -325,7 +325,7 @@ msgstr "Подтвердите ваш Аккаунт Firefox"
 
 #: mailer.js:303
 msgid "Firefox Account authorization code"
-msgstr ""
+msgstr "Код авторизации Аккаунта Firefox"
 
 #: mailer.js:344
 msgid "Confirm new sign-in to Firefox"
@@ -349,7 +349,7 @@ msgstr "Необходимо сменить пароль Аккаунта Firefo
 
 #: mailer.js:508
 msgid "Firefox Account verified"
-msgstr ""
+msgstr "Аккаунт Firefox подтверждён"
 
 #: mailer.js:547
 msgid "Suspicious activity with your Firefox Account"
@@ -429,8 +429,7 @@ msgstr "Условия службы"
 #~ msgstr "Уведомление об активности Аккаунта"
 
 #~ msgid "For security reasons your Firefox Account was put on lockdown. To perform account-level activities, please click the link to re-verify your account now."
-#~ msgstr ""
-#~ "По соображениям безопасности ваш Аккаунт Firefox был поставлен на блокировку. Для выполнения действий на уровне аккаунта, пожалуйста, щёлкните по ссылке, чтобы вновь подтвердить свой аккаунт."
+#~ msgstr "По соображениям безопасности ваш Аккаунт Firefox был поставлен на блокировку. Для выполнения действий на уровне аккаунта, пожалуйста, щёлкните по ссылке, чтобы вновь подтвердить свой аккаунт."
 
 #~ msgid "Verify account"
 #~ msgstr "Подтвердить аккаунт"
