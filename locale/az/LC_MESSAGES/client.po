@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-24 10:27+0000\n"
+"PO-Revision-Date: 2016-10-24 10:54+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: az\n"
@@ -93,7 +93,7 @@ msgstr "Bunu eşitdiyimizə üzüldük. Firefox Hesabınızın parolunu dəyişd
 
 #: .es5/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
+msgstr "Bunu eşitdiyimizə üzüldük. Əgər bu heç güvənmədiyiniz cihazdırsa Firefox Hesabınızın parolunu dəyişdirin və Firefox-da saxlanılmış parollarınızı dəyişdirin."
 
 #: .es5/scripts/views/settings/clients.js:52
 msgid "Last active %(translatedTimeAgo)s"
@@ -857,7 +857,7 @@ msgstr "Bu daxil olmaya icazə ver"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr ""
+msgstr "Firefox məlumatlarınızı daha yaxşı qorumaq üçün %(email)s ünvanınızda avtorizasiya kodu gözləyir."
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
