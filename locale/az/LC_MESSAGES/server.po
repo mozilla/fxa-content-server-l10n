@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-24 10:59+0000\n"
+"PO-Revision-Date: 2016-10-24 11:11+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: az\n"
@@ -243,7 +243,7 @@ msgstr "Belə deyilsə, zərərvericilərlə mübarizəmizə kömək edin və bu
 
 #: templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "Belə deyilsə, zərərvericilərlə mübarizəmizə kömək edin və bunu bizə bildirin."
 
 #: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:569
 msgid "Hello again."
@@ -303,7 +303,7 @@ msgstr "Əgər birilərinin hesabınıza girmək üçün əlləşdiyini düşün
 
 #: mailer.js:161
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(stateCode)s, %(country)s (təxmini)"
 
 #: mailer.js:163
 msgid "%(city)s, %(country)s (estimated)"
@@ -311,7 +311,7 @@ msgstr "%(city)s, %(country)s (təxmini)"
 
 #: mailer.js:165
 msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(stateCode)s, %(country)s (təxmini)"
 
 #: mailer.js:167
 msgid "%(country)s (estimated)"
@@ -323,7 +323,7 @@ msgstr "Firefox Hesabınızı təsdiqləyin"
 
 #: mailer.js:303
 msgid "Firefox Account authorization code"
-msgstr ""
+msgstr "Firefox Hesabı avtorizasiya kodu"
 
 #: mailer.js:344
 msgid "Confirm new sign-in to Firefox"
@@ -347,7 +347,7 @@ msgstr "Firefox Hesabı parolunu sıfırlamaq tələb edilir"
 
 #: mailer.js:508
 msgid "Firefox Account verified"
-msgstr ""
+msgstr "Firefox Hesabı təsdiqləndi"
 
 #: mailer.js:547
 msgid "Suspicious activity with your Firefox Account"
