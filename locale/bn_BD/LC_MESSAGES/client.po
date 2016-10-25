@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-23 22:58+0000\n"
-"Last-Translator: S M Sarwar Nobin <smsarwar1996@gmail.com>\n"
+"PO-Revision-Date: 2016-10-25 15:36+0000\n"
+"Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_BD\n"
 "MIME-Version: 1.0\n"
@@ -97,7 +97,7 @@ msgstr "আমার তা শুনে দুঃখিত। যদি ডি�
 
 #: .es5/scripts/views/settings/clients.js:52
 msgid "Last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "সর্বশেষ সক্রিয় %(translatedTimeAgo)s"
 
 #: .es5/scripts/views/settings/clients.js:91
 msgid "Devices"
@@ -218,7 +218,7 @@ msgstr "ভুল ইমেইল কেস"
 
 #: .es5/scripts/lib/auth-errors.js:59
 msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
-msgstr ""
+msgstr "ভুল পাসওয়ার্ড। আপনি কি লিখেছেন তা ডবল-চেক করতে, Show বোতামটি চেপে ধরুন।"
 
 #: .es5/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
@@ -258,7 +258,7 @@ msgstr "নিরপত্তার কারণে অনুরোধটি ব
 
 #: .es5/scripts/lib/auth-errors.js:117 .es5/scripts/lib/auth-errors.js:318
 msgid "Invalid authorization code"
-msgstr ""
+msgstr "অকার্যকর অনুমোদন কোড"
 
 #: .es5/scripts/lib/auth-errors.js:121 .es5/scripts/lib/auth-errors.js:298
 msgid "Server busy, try again soon"
@@ -391,11 +391,11 @@ msgstr "এটা একটি আবশ্যকীয় ফিল্ড"
 
 #: .es5/scripts/lib/auth-errors.js:314
 msgid "Authorization code required"
-msgstr ""
+msgstr "অনুমোদন কোড প্রয়োজন"
 
 #: .es5/scripts/lib/auth-errors.js:322 .es5/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
-msgstr ""
+msgstr "নষ্ট লিঙ্ক"
 
 #: .es5/scripts/lib/config-loader.js:81
 msgid "Missing configuration"
@@ -786,19 +786,19 @@ msgstr "আপনার অ্যাকাউন্ট প্রস্তুত!
 
 #: .es5/scripts/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "অবৈধ সাইন-ইন সম্পর্কে রিপোর্ট করবেন?"
 
 #: .es5/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr ""
+msgstr "আপনার অ্যাকাউন্টে অবৈধ প্রবেশের চেষ্টা সম্পর্কে আপনি একটি ইমেইল পেয়েছেন। আপনি কি এই অবৈধ কার্যকলাপকে সন্দেহজনক হিসেবে রিপোর্ট করবেন?"
 
 #: .es5/scripts/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr ""
+msgstr "কার্যকলাপ রিপোর্ট করুন"
 
 #: .es5/scripts/templates/report_sign_in.mustache:7 .es5/scripts/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr ""
+msgstr "এটা কেন ঘটছে?"
 
 #: .es5/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
@@ -843,27 +843,27 @@ msgstr "একটি অ্যাকাউন্ট খুলুন"
 
 #: .es5/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
-msgstr ""
+msgstr "আপনার সতর্কতার জন্য আপনাকে ধন্যবাদ"
 
 #: .es5/scripts/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr ""
+msgstr "আমাদের দল অবহিত হয়েছে। এ ধরনের রিপোর্ট অনুপ্রবেশকারীদের বাধাদানে আমাদের সহায়তা করে।"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:1 .es5/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
-msgstr ""
+msgstr "এই সাইন-ইন অনুমোদন করুন"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr ""
+msgstr "আপনার Firefox ডাটা সুরক্ষিত রাখতে, আপনার জন্য একটি অনুমোদন কোড %(email)s এ অপেক্ষা করছে।"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "অনুমোদন কোডটি লিখুন"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"
-msgstr ""
+msgstr "চালিয়ে যান"
 
 #: .es5/scripts/templates/sign_up.mustache:1 .es5/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
