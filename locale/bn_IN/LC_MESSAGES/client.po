@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-23 18:54+0000\n"
+"PO-Revision-Date: 2016-10-25 15:36+0000\n"
 "Last-Translator: Ayan Choudhury <ping2ayan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_IN\n"
@@ -186,11 +186,11 @@ msgstr "আপনি আপনার ইমেইল যাচাই করব�
 
 #: .es5/scripts/lib/auth-errors.js:21
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "আপনি অনেকবার চেষ্টা করে ফেলেছেন। কিছুক্ষণ পর চেষ্টা করুন।"
 
 #: .es5/scripts/lib/auth-errors.js:25
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "আপনি অনেকবার চেষ্টা করেছেন। আবার চেষ্টা করুন %(retryAfterLocalized)s।"
 
 #: .es5/scripts/lib/auth-errors.js:35 .es5/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
@@ -218,7 +218,7 @@ msgstr "ভুল ইমেইল কেস"
 
 #: .es5/scripts/lib/auth-errors.js:59
 msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
-msgstr ""
+msgstr "ভুল পাসওয়ার্ড। নিশ্চিত হতে দুবার পরীক্ষা করুন এবং প্রদর্শন বোতাম চেপে ধরে নিচের দিকে আসুন।"
 
 #: .es5/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
@@ -234,11 +234,11 @@ msgstr "অবৈধ JSON রিকোয়েস্ট বডিতে"
 
 #: .es5/scripts/lib/auth-errors.js:75
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "ভুল প্যারামিটার: %(param)s"
 
 #: .es5/scripts/lib/auth-errors.js:79
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "নিখোঁজ প্যারামিটার: %(param)s"
 
 #: .es5/scripts/lib/auth-errors.js:83
 msgid "Invalid request signature"
@@ -254,11 +254,11 @@ msgstr "আবেদন বডি খুব বড়ো"
 
 #: .es5/scripts/lib/auth-errors.js:109
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "নিরাপত্তার কারণে আপনার আবেদন ব্লক করা হয়েছে"
 
 #: .es5/scripts/lib/auth-errors.js:117 .es5/scripts/lib/auth-errors.js:318
 msgid "Invalid authorization code"
-msgstr ""
+msgstr "অবৈধ অথোরাইজেশন কোড"
 
 #: .es5/scripts/lib/auth-errors.js:121 .es5/scripts/lib/auth-errors.js:298
 msgid "Server busy, try again soon"
@@ -347,15 +347,15 @@ msgstr "যাচাই করবার লিঙ্ক নষ্ট হয়ে �
 
 #: .es5/scripts/lib/auth-errors.js:250
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "ছবির দিক মাত্রা অবশ্যই কমপক্ষে 100 x 100 px হতে হবে"
 
 #: .es5/scripts/lib/auth-errors.js:254
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "Firefox for iOS-এর জন্য শীঘ্রই সাইন আপ আসছে"
 
 #: .es5/scripts/lib/auth-errors.js:265
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "আপনাকে সাইন আপ করার জন্য আপনার বয়স দিতেই হবে"
 
 #: .es5/scripts/lib/auth-errors.js:269
 msgid "No Gravatar found"
@@ -363,47 +363,47 @@ msgstr "কোন Gravatar পাওয়া যায়নি"
 
 #: .es5/scripts/lib/auth-errors.js:277
 msgid "Account no longer exists."
-msgstr ""
+msgstr "অ্যাকাউন্ট আর উপস্থিত নেই।"
 
 #: .es5/scripts/lib/auth-errors.js:281
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "নমুনায় অবৈধ বৈশিষ্ট্য: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:285
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "নমুনায় লুপ্ত বৈশিষ্ট্য: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:289
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "অবৈধ ডেটা অ্যাট্রিবিউট: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:293
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "তথ্য বৈশিষ্ট্য নিখোঁজ: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:306 .es5/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "ওই নিশ্চিতকরণ লিঙ্কটি ইতিমধ্যে ব্যবহৃত, এবং একবারই ব্যবহার করা যাবে।"
 
 #: .es5/scripts/lib/auth-errors.js:310
 msgid "This is a required field"
-msgstr ""
+msgstr "এটি একটি প্রয়োজনীয় ক্ষেত্র"
 
 #: .es5/scripts/lib/auth-errors.js:314
 msgid "Authorization code required"
-msgstr ""
+msgstr "অনুমোদন কোড প্রয়োজন"
 
 #: .es5/scripts/lib/auth-errors.js:322 .es5/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
-msgstr ""
+msgstr "লিংক ক্ষতিগ্রস্ত"
 
 #: .es5/scripts/lib/config-loader.js:81
 msgid "Missing configuration"
-msgstr ""
+msgstr "অনুপস্থিত কনফিগারেশন"
 
 #: .es5/scripts/lib/config-loader.js:85
 msgid "Invalid configuration"
-msgstr ""
+msgstr "ভুল কনফিগারেশন"
 
 #: .es5/scripts/lib/mailcheck.js:60
 msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
@@ -455,7 +455,7 @@ msgstr "OAuth parameter: %(param)s মিস হচ্ছে"
 
 #: .es5/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
-msgstr ""
+msgstr "অবৈধ টোকেন"
 
 #: .es5/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
@@ -475,43 +475,43 @@ msgstr "Firefox সিঙ্ক"
 
 #: .es5/scripts/lib/strings.js:17
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr ""
+msgstr "এগিয়ে যাওয়ার মাধ্যমে আপনি সম্মত হন <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)।"
 
 #: .es5/scripts/lib/strings.js:24
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
-msgstr ""
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">সাহায্য</a>"
 
 #: .es5/scripts/lib/strings.js:28
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Mozilla ও FIrefox সম্পর্কে সর্বশেষ খবর পান।"
 
 #: .es5/scripts/lib/strings.js:31
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (আনুমানিক)"
 
 #: .es5/scripts/lib/strings.js:32
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (আনুমানিক)"
 
 #: .es5/scripts/lib/strings.js:33
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "IP ঠিকানা: %(ip)s"
 
 #: .es5/scripts/lib/strings.js:34
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "অতিরিক্ত নিরাপত্তার জন্য, এই ডিভাইস এর সাথে সিঙ্ক শুরু করতে সাইন-ইন দয়া করে নিশ্চিত করুন:"
 
 #: .es5/scripts/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "অগ্রহণযোগ্য অনুরোধ"
 
 #: .es5/scripts/templates/500.mustache:1
 msgid "500 Error"
-msgstr ""
+msgstr "500 ত্রুটি"
 
 #: .es5/scripts/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr ""
+msgstr "ওহো, কিছু একটা ভুল হয়েছিল। যা আমাদের জানানো হয় এবং আমরা তা সংশোধনের কাজে লেগে পরি।"
 
 #: .es5/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -531,7 +531,7 @@ msgstr "চয়ন করুন কি সিঙ্ক করতে হবে"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Open tabs"
-msgstr ""
+msgstr "ট্যাব খুলুন"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
@@ -555,11 +555,11 @@ msgstr "পছন্দসমূহ"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr ""
+msgstr "অ্যাড-অন এবং পছন্দসমূহ বর্তমানে মোবাইল ডিভাইসে সিঙ্ক করে না।"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
-msgstr ""
+msgstr "সেটিংস্‌গুলি সেভ করুন"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:16 .es5/scripts/templates/confirm.mustache:12 .es5/scripts/templates/pp.mustache:3 .es5/scripts/templates/tos.mustache:3
 msgid "Back"
@@ -587,15 +587,15 @@ msgstr "যে লিঙ্কটি আপনি চাপ দিয়েছে�
 
 #: .es5/scripts/templates/complete_reset_password.mustache:8
 msgid "Enter new password"
-msgstr ""
+msgstr "নতুন পাসওয়ার্ড লিখুন"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:9
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "নতুন পাসওয়ার্ড জমা দিলেই, আপনি আপনার কোন না কোন ডিভাইস এর সিঙ্ক ডেটা হারাবেন।"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:10 .es5/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
-msgstr ""
+msgstr "জানুন কিভাবে সিঙ্ক কাজ করে।"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:12 .es5/scripts/templates/settings/change_password.mustache:7
 msgid "New password"
@@ -613,11 +613,11 @@ msgstr "পাসওয়ার্ড পুনরাবৃত্তি করু�
 
 #: .es5/scripts/templates/complete_reset_password.mustache:17
 msgid "Submit new password"
-msgstr ""
+msgstr "নতুন পাসওয়ার্ড দিন"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:1
 msgid "Sign-in already confirmed"
-msgstr ""
+msgstr "সাইন-ইন ইতিমধ্যে নিশ্চিত"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
@@ -637,7 +637,7 @@ msgstr "আপনার অ্যাকাউন্টকে নিশ্চি�
 
 #: .es5/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "সাইন-ইন নিশ্চিত করুন"
 
 #: .es5/scripts/templates/confirm.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email Sent"
@@ -649,11 +649,11 @@ msgstr "একটি যাচাইকরণ লিঙ্ক পাঠানো
 
 #: .es5/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr ""
+msgstr "আপনার Firefox তথ্য রক্ষা করার জন্য, আমরা একটি কনফার্মেশন লিঙ্ক ইমেল করেছি %(email)s"
 
 #: .es5/scripts/templates/confirm.mustache:11 .es5/scripts/templates/confirm.mustache:13 .es5/scripts/templates/sign_in_unblock.mustache:6 .es5/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive? Resend"
-msgstr ""
+msgstr "যায়নি? আবার পাঠান"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -661,19 +661,19 @@ msgstr "রিসেট করার ইমেইল পাঠানো হয়�
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:3
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "পরবর্তী ঘন্টার মধ্যে একটি নতুন পাসওয়ার্ড তৈরি করতে আমরা আপনাকে %(email)s এ ইমেল করেছি লিঙ্কটি ক্লিক করুন।"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:4 .es5/scripts/templates/confirm_reset_password.mustache:6
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "পাসওয়ার্ড মনে আছে? প্রবেশ করুন"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:8
 msgid "Didn’t arrive? Resend"
-msgstr ""
+msgstr "আসেনি? আবার পাঠান"
 
 #: .es5/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
-msgstr ""
+msgstr "কুকিজ এবং স্থানীয় স্টোরেজ প্রয়োজন হয়।"
 
 #: .es5/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
