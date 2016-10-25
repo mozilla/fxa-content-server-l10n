@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-25 01:41+0000\n"
+"PO-Revision-Date: 2016-10-25 01:44+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -96,7 +96,7 @@ msgstr "Sentimos oyer eso. Si esti foi un preséu nel que nun t'enfotabes muncho
 
 #: .es5/scripts/views/settings/clients.js:52
 msgid "Last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Cabera actividá %(translatedTimeAgo)s"
 
 #: .es5/scripts/views/settings/clients.js:91
 msgid "Devices"
@@ -217,7 +217,7 @@ msgstr "Formatu incorreutu de corréu"
 
 #: .es5/scripts/lib/auth-errors.js:59
 msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
-msgstr ""
+msgstr "Contraseña incorreuta. Pa volver a comprobar lo qu'introduxesti, ten primíu'l botón Amosar."
 
 #: .es5/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
@@ -390,7 +390,7 @@ msgstr "Esti ye un campu riquíu"
 
 #: .es5/scripts/lib/auth-errors.js:314
 msgid "Authorization code required"
-msgstr "Ríqueses'l códigu d'autorización"
+msgstr "Ríquese'l códigu d'autorización"
 
 #: .es5/scripts/lib/auth-errors.js:322 .es5/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
@@ -848,23 +848,23 @@ msgstr "Gracies pola to vixilancia"
 
 #: .es5/scripts/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr ""
+msgstr "Avisóse al nuesu equipu. Los informes como esti ayúdennos a defendenos d'intrusos."
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:1 .es5/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
-msgstr ""
+msgstr "Autorizar esti aniciu de sesión"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr ""
+msgstr "Pa protexer meyor los tos datos de Firefox, hai un códigu d'autorización esperándote en %(email)s."
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "Introducir códigu d'autorización"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"
-msgstr ""
+msgstr "Siguir"
 
 #: .es5/scripts/templates/sign_up.mustache:1 .es5/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
