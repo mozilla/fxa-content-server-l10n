@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-17 18:36+0000\n"
-"Last-Translator: Vojta Galda <galdavojta@gmail.com>\n"
+"PO-Revision-Date: 2016-10-26 10:01+0000\n"
+"Last-Translator: Tomáš Zelina <zelitomas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -325,7 +325,7 @@ msgstr "Ověřte svůj účet Firefox Account"
 
 #: mailer.js:303
 msgid "Firefox Account authorization code"
-msgstr ""
+msgstr "Autorizační kód účtu Firefox Accounts"
 
 #: mailer.js:344
 msgid "Confirm new sign-in to Firefox"
@@ -349,7 +349,7 @@ msgstr "Je vyžadována obnova hesla k účtu Firefox Account"
 
 #: mailer.js:508
 msgid "Firefox Account verified"
-msgstr ""
+msgstr "Účet Firefox Accounts ověřen"
 
 #: mailer.js:547
 msgid "Suspicious activity with your Firefox Account"
