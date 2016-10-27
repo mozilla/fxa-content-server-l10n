@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-25 15:21+0000\n"
+"PO-Revision-Date: 2016-10-27 09:01+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -109,7 +109,7 @@ msgstr "Устройства и приложения"
 
 #: .es5/scripts/views/settings/clients.js:100
 msgid "You can manage your devices below."
-msgstr "По-долу можете да управлявате устройствата си."
+msgstr "По-долу можете да управлявате своите устройства."
 
 #: .es5/scripts/views/settings/clients.js:103
 msgid "You can manage your devices and apps below."
