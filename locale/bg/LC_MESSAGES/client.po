@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-27 09:01+0000\n"
+"PO-Revision-Date: 2016-10-27 09:17+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -37,7 +37,7 @@ msgstr "Имейл адрес"
 
 #: .es5/scripts/views/permissions.js:35 .es5/scripts/templates/settings/display_name.mustache:1 .es5/scripts/templates/settings/display_name.mustache:4
 msgid "Display name"
-msgstr "Показвано име"
+msgstr "Наименование"
 
 #: .es5/scripts/views/permissions.js:38 .es5/scripts/templates/settings/avatar.mustache:1
 msgid "Account picture"
@@ -69,7 +69,7 @@ msgstr "Сметката е потвърдена"
 
 #: .es5/scripts/views/reset_password.js:68 .es5/scripts/views/sign_in.js:143
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr "Неизвестна сметка. <a href=\"/signup\">Регистрирация</a>"
+msgstr "Непозната сметка. <a href=\"/signup\">Регистриране</a>"
 
 #: .es5/scripts/views/sign_up.js:60
 msgid "Account no longer exists. Recreate it?"
@@ -129,7 +129,7 @@ msgstr "Сметката е успешно изтрита"
 
 #: .es5/scripts/views/settings/display_name.js:49
 msgid "Display name updated"
-msgstr "Името е обновено"
+msgstr "Наименованието е обновено"
 
 #: .es5/scripts/views/mixins/account-reset-mixin.js:42 .es5/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -210,7 +210,7 @@ msgstr "Сметката съществува"
 
 #: .es5/scripts/lib/auth-errors.js:51
 msgid "Unknown account"
-msgstr "Неизвестна сметка"
+msgstr "Непозната сметка"
 
 #: .es5/scripts/lib/auth-errors.js:55
 msgid "Incorrect email case"
@@ -705,7 +705,7 @@ msgstr "Вписване"
 
 #: .es5/scripts/templates/force_auth.mustache:7 .es5/scripts/templates/sign_in.mustache:11 .es5/scripts/templates/sign_in.mustache:23 .es5/scripts/templates/settings/change_password.mustache:6
 msgid "Forgot password?"
-msgstr "Забравили сте паролата?"
+msgstr "Забравили сте паролата си?"
 
 #: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
@@ -1038,7 +1038,7 @@ msgstr "Сигурни ли сте, че искате да изтриете св
 
 #: .es5/scripts/templates/settings/display_name.mustache:3
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr "Изберете името, което бихте искали да се показва при управлението на сметката."
+msgstr "Изберете наименование, което бихте искали да се показва при управлението на сметката."
 
 #: .es5/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"

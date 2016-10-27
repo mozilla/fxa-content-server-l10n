@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-05 14:30+0000\n"
+"PO-Revision-Date: 2016-10-27 09:18+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -21,7 +21,7 @@ msgstr "Още ли сте тук?"
 
 #: templates/_pending.txt:2
 msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
-msgstr "Преди време създадохте Firefox Account без да го потвърдите. Посетете връзката по-долу, за да го потвърдите."
+msgstr "Преди време създадохте Firefox Account без да го активирате. Посетете връзката по-долу, за да го направите сега."
 
 #: templates/_pending.txt:3
 msgid ""
@@ -33,8 +33,8 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Успешно свързахте първото си устройство към своя Firefox Account. За да извлечете най-много от Sync, свържете <a href='%(androidUrl)s'>Firefox за Android</a> или <a href='%(iosUrl)s'>Firefox за "
 "iOS</a>."
@@ -231,7 +231,7 @@ msgstr "Наскоро забелязахме вписвания във ваши
 
 #: templates/unblock_code.html:2 templates/unblock_code.txt:1
 msgid "Is this you signing in?"
-msgstr ""
+msgstr "Вие ли се вписахте?"
 
 #: templates/unblock_code.html:4 templates/unblock_code.txt:3
 msgid "If yes, here is the authorization code you need:"
@@ -251,15 +251,15 @@ msgstr "Здравейте отново."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
-"Преди няколко дена създадохте Firefox Account, но така и не го потвърдихте. Потвърдената сметка ви дава достъп до разделите, отметките, паролите и историята от всяко устройство свързано с нея. "
+"Преди няколко дена създадохте Firefox Account, но така и не го активирахте. Потвърдената сметка ви дава достъп до разделите, отметките, паролите и историята от всяко устройство свързано с нея. "
 "Просто потвърдете този имейл адрес, за да активирате своята сметка."
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
 msgid "Activate now"
-msgstr "Потвърждаване"
+msgstr "Активиране"
 
 #: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9
 msgid "Verify Email"
@@ -271,11 +271,11 @@ msgstr "Потвърдете имейла си, за да завършите р�
 
 #: templates/verification_reminder_first.txt:3 templates/verification_reminder_second.txt:3 templates/verify.txt:3
 msgid "Activate now:"
-msgstr "Потвърждаване:"
+msgstr "Активиране:"
 
 #: templates/verification_reminder_second.html:3 templates/verification_reminder_second.txt:2
 msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-msgstr "Преди седмица създадохте Firefox Account, но така и не го потвърдихте. Притесняваме се за вас. Потвърдете този имейл адрес, за да активирате своята сметка и да знаем че сте добре."
+msgstr "Преди седмица създадохте Firefox Account, но така и не го активирахте. Притесняваме се за вас. Потвърдете този имейл адрес, за да активирате своята сметка и да знаем че сте добре."
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
@@ -283,7 +283,7 @@ msgstr "Добре дошли!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr "Моля, потвърдете сметката си като потвърдите своя имейл адрес."
+msgstr "Моля, активирайте сметката си като потвърдите своя имейл адрес."
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
