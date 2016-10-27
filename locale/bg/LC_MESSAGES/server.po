@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-27 09:18+0000\n"
+"PO-Revision-Date: 2016-10-27 09:40+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -235,15 +235,15 @@ msgstr "Вие ли се вписахте?"
 
 #: templates/unblock_code.html:4 templates/unblock_code.txt:3
 msgid "If yes, here is the authorization code you need:"
-msgstr ""
+msgstr "Ако е така, ето кода за упълномощаване:"
 
 #: templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr ""
+msgstr "Ако ли пък не – ни помогнете да отблъснем натрапниците ни ги <a %(reportSignInLinkAttributes)s>докладвайте.</a>"
 
 #: templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "Ако ли пък не – ни помогнете да отблъснем натрапниците ни ги докладвайте."
 
 #: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:569
 msgid "Hello again."
@@ -323,7 +323,7 @@ msgstr "Препотвърждаване на Firefox Account"
 
 #: mailer.js:303
 msgid "Firefox Account authorization code"
-msgstr ""
+msgstr "Код за упълномощаване във Firefox Account"
 
 #: mailer.js:344
 msgid "Confirm new sign-in to Firefox"
@@ -347,7 +347,7 @@ msgstr "Необходимо е нулиране на паролата за Fire
 
 #: mailer.js:508
 msgid "Firefox Account verified"
-msgstr ""
+msgstr "Потвърден Firefox Account"
 
 #: mailer.js:547
 msgid "Suspicious activity with your Firefox Account"

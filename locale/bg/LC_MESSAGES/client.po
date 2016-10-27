@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-27 09:17+0000\n"
+"PO-Revision-Date: 2016-10-27 09:40+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -218,7 +218,7 @@ msgstr "Неправилен мейл"
 
 #: .es5/scripts/lib/auth-errors.js:59
 msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
-msgstr ""
+msgstr "Грешна парола. За да проверите какво сте въвели натиснете и задръжте бутона „Показване“."
 
 #: .es5/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
@@ -391,7 +391,7 @@ msgstr "Това е задължително поле"
 
 #: .es5/scripts/lib/auth-errors.js:314
 msgid "Authorization code required"
-msgstr ""
+msgstr "Необходим е код за упълномощаване"
 
 #: .es5/scripts/lib/auth-errors.js:322 .es5/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
