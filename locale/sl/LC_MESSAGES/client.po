@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-18 17:08+0000\n"
+"PO-Revision-Date: 2016-10-18 17:11+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -97,7 +97,7 @@ msgstr "Žal nam je. Če je to naprava, ki ji ne zaupate, spremenite geslo za Fi
 
 #: .es5/scripts/views/settings/clients.js:52
 msgid "Last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Zadnja aktivnost %(translatedTimeAgo)s"
 
 #: .es5/scripts/views/settings/clients.js:91
 msgid "Devices"
@@ -218,7 +218,7 @@ msgstr "Napačna velikost črk e-pošte"
 
 #: .es5/scripts/lib/auth-errors.js:59
 msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
-msgstr ""
+msgstr "Nepravilno geslo. Da še enkrat preverite, kaj ste vnesli, pridržite gumb Prikaži."
 
 #: .es5/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
@@ -391,11 +391,11 @@ msgstr "To je zahtevano polje"
 
 #: .es5/scripts/lib/auth-errors.js:314
 msgid "Authorization code required"
-msgstr ""
+msgstr "Zahtevana je overitvena koda"
 
 #: .es5/scripts/lib/auth-errors.js:322 .es5/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
-msgstr ""
+msgstr "Povezava poškodovana"
 
 #: .es5/scripts/lib/config-loader.js:81
 msgid "Missing configuration"
@@ -786,15 +786,15 @@ msgstr "Vaš račun je pripravljen!"
 
 #: .es5/scripts/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "Prijavi nepooblaščeno prijavo?"
 
 #: .es5/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr ""
+msgstr "Prejeli ste sporočilo o poskusu dostopa do vašega računa. Želite to dejavnost prijaviti kot sumljivo?"
 
 #: .es5/scripts/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr ""
+msgstr "Prijavi sumljivo dejavnost"
 
 #: .es5/scripts/templates/report_sign_in.mustache:7 .es5/scripts/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
@@ -843,27 +843,27 @@ msgstr "Ustvari račun"
 
 #: .es5/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
-msgstr ""
+msgstr "Hvala za vašo opreznost"
 
 #: .es5/scripts/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr ""
+msgstr "Naša ekipa je bila obveščena. Takšna poročila nam pomagajo odgnati vsiljivce."
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:1 .es5/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
-msgstr ""
+msgstr "Overi to prijavo"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr ""
+msgstr "Za večjo varnost vaših podatkov vas na %(email)s čaka e-pošta s potrditveno kodo."
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "Vnesite overitveno kodo"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"
-msgstr ""
+msgstr "Nadaljuj"
 
 #: .es5/scripts/templates/sign_up.mustache:1 .es5/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
