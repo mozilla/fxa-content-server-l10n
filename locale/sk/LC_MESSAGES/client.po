@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-24 16:24+0000\n"
+"PO-Revision-Date: 2016-10-29 16:22+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -395,7 +395,7 @@ msgstr ""
 
 #: .es5/scripts/lib/auth-errors.js:322 .es5/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
-msgstr ""
+msgstr "Odkaz je poškodený"
 
 #: .es5/scripts/lib/config-loader.js:81
 msgid "Missing configuration"
@@ -857,11 +857,11 @@ msgstr "Autorizovať toto prihlásenie"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr ""
+msgstr "Za účelom lepšej ochrany vašich údajov sme vám na váš e-mail %(email)s odoslali autorizačný kód."
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "Zadajte autorizačný kód"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"
