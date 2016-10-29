@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-22 23:15+0000\n"
-"Last-Translator: Dhiraj Kumar Singh <singhdhiraj255@gmail.com>\n"
+"PO-Revision-Date: 2016-10-29 19:20+0000\n"
+"Last-Translator: ravi.103151 <ravi.103151@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
 "MIME-Version: 1.0\n"
@@ -256,7 +256,7 @@ msgstr "अनुरोध क्षेत्र अत्यधिक बड़ा
 
 #: .es5/scripts/lib/auth-errors.js:109
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "अनुरोध सुरक्षा कारणों से अवरुद्ध किया गया था"
 
 #: .es5/scripts/lib/auth-errors.js:117 .es5/scripts/lib/auth-errors.js:318
 msgid "Invalid authorization code"
@@ -655,7 +655,7 @@ msgstr ""
 
 #: .es5/scripts/templates/confirm.mustache:11 .es5/scripts/templates/confirm.mustache:13 .es5/scripts/templates/sign_in_unblock.mustache:6 .es5/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive? Resend"
-msgstr ""
+msgstr "नही पंहुचा ? पुन: भेजें"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -667,11 +667,11 @@ msgstr ""
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:4 .es5/scripts/templates/confirm_reset_password.mustache:6
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "कूटशब्द याद रखें? साइन इन करें"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:8
 msgid "Didn’t arrive? Resend"
-msgstr ""
+msgstr "नही पंहुचा? पुन: भेजें"
 
 #: .es5/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -776,7 +776,7 @@ msgstr "सफल"
 
 #: .es5/scripts/templates/ready.mustache:2
 msgid "Sync preferences"
-msgstr ""
+msgstr "सिंक वरीयताओं"
 
 #: .es5/scripts/templates/ready.mustache:6
 msgid "Proceed"
@@ -788,7 +788,7 @@ msgstr "आपका खाता तैयार है!"
 
 #: .es5/scripts/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "अनधिकृत प्रवेश की शिकायत करें?"
 
 #: .es5/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
@@ -817,7 +817,7 @@ msgstr "ईमेल"
 
 #: .es5/scripts/templates/reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:9
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "कूटशब्द याद रखें? साइन इन करें."
 
 #: .es5/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
@@ -853,7 +853,7 @@ msgstr ""
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:1 .es5/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
-msgstr ""
+msgstr "इस प्रवेश को अधिकृत करें"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
@@ -861,7 +861,7 @@ msgstr ""
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "प्राधिकार कूट दर्ज करें"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"
@@ -902,7 +902,7 @@ msgstr "बदलें..."
 
 #: .es5/scripts/templates/settings/avatar.mustache:4
 msgid "Add…"
-msgstr ""
+msgstr "जोड़ें…"
 
 #: .es5/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -962,7 +962,7 @@ msgstr ""
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
-msgstr ""
+msgstr "संदिग्ध उपकरण"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen device"
@@ -970,7 +970,7 @@ msgstr ""
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced device"
-msgstr ""
+msgstr "पुराना या बदला गया उपकरण"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
@@ -992,7 +992,7 @@ msgstr ""
 
 #: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
-msgstr ""
+msgstr "वर्तमान उपकरण"
 
 #: .es5/scripts/templates/settings/clients.mustache:6
 msgid "Disconnect…"
@@ -1000,7 +1000,7 @@ msgstr ""
 
 #: .es5/scripts/templates/settings/clients.mustache:8
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "खोयी हुई या दोहरी वस्तु?"
 
 #: .es5/scripts/templates/settings/clients.mustache:9
 msgid "Refresh"
