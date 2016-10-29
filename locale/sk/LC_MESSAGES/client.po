@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-29 21:39+0000\n"
+"PO-Revision-Date: 2016-10-29 21:47+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -709,7 +709,7 @@ msgstr "Zabudli ste heslo?"
 
 #: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Pokračovaním súhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmienkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Podmienkami ochrany osobných údajov</a> cloudových služieb Firefoxu."
+msgstr "Pokračovaním súhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmienkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Zásadami ochrany osobných údajov</a> cloudových služieb Firefoxu."
 
 #: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -788,11 +788,11 @@ msgstr "Váš účet je pripravený."
 
 #: .es5/scripts/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "Nahlásiť neoprávnené prihlásenie?"
 
 #: .es5/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr ""
+msgstr "Dostali ste e-mail o pokuse o prihlásenie sa k vášmu účtu. Chcete túto aktivitu nahlásiť ako podozrivú?"
 
 #: .es5/scripts/templates/report_sign_in.mustache:6
 msgid "Report activity"
@@ -800,7 +800,7 @@ msgstr "Nahlásiť aktivitu"
 
 #: .es5/scripts/templates/report_sign_in.mustache:7 .es5/scripts/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr ""
+msgstr "Prečo sa to stalo?"
 
 #: .es5/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
@@ -817,7 +817,7 @@ msgstr "E-mailová adresa"
 
 #: .es5/scripts/templates/reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:9
 msgid "Remember password? Sign in."
-msgstr "Zapamätať heslo? Prihlásiť."
+msgstr "Pamätáte si svoje heslo? Prihláste sa."
 
 #: .es5/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
@@ -849,7 +849,7 @@ msgstr "Ďakujeme za vašu ostražitosť"
 
 #: .es5/scripts/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr "Náš tím bol informovaný. Podobné hlásenia nám pomáhajú odrážať útočníkov."
+msgstr "Náš tím bol informovaný. Podobné hlásenia nám pomáhajú odrážať narušiteľov."
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:1 .es5/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
