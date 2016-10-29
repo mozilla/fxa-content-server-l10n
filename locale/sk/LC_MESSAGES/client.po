@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 12:20+0000\n"
-"PO-Revision-Date: 2016-10-29 16:22+0000\n"
+"PO-Revision-Date: 2016-10-29 21:05+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -845,7 +845,7 @@ msgstr "Vytvoriť účet"
 
 #: .es5/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
-msgstr ""
+msgstr "Ďakujeme za vašu ostražitosť"
 
 #: .es5/scripts/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
