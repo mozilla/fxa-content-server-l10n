@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-17 12:20+0000\n"
+"POT-Creation-Date: 2016-11-01 14:26+0000\n"
 "PO-Revision-Date: 2016-10-12 23:30+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1440954004.0\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:572
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:568
 msgid "Still there?"
 msgstr "Mai ești aici?"
 
@@ -54,7 +54,7 @@ msgstr "Autentifică-te la Sincronizare"
 msgid "Firefox Accounts"
 msgstr "Conturi Firefox"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:479
+#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:476
 msgid "New sign-in to Firefox"
 msgstr "Autentificare nouă în Firefox"
 
@@ -66,16 +66,16 @@ msgstr "Adresă IP: %(ip)s"
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr "Acesta este un e-mail automat; dacă nu ai autorizat această acțiune, atunci <a %(passwordChangeLinkAttributes)s>te rugăm să îți schimbi parola.</a>"
 
-#: templates/new_device_login.html:5 templates/password_changed.html:5 templates/password_reset.html:5 templates/post_verify.html:7 templates/recovery.html:7
-#: templates/verification_reminder_first.html:7 templates/verification_reminder_second.html:7 templates/verify.html:7
+#: templates/new_device_login.html:5 templates/password_changed.html:5 templates/password_reset.html:5 templates/post_verify.html:6 templates/recovery.html:6
+#: templates/verification_reminder_first.html:6 templates/verification_reminder_second.html:6 templates/verify.html:6
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr "Pentru mai multe informații te rugăm să vizitezi <a %(supportLinkAttributes)s>Mozilla Support</a>."
 
 #: templates/new_device_login.html:6 templates/new_device_login.txt:5 templates/password_changed.html:6 templates/password_changed.txt:5 templates/password_reset.html:6 templates/password_reset.txt:5
-#: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:8 templates/post_verify.txt:6 templates/recovery.html:8 templates/recovery.txt:6
-#: templates/suspicious_location.html:14 templates/suspicious_location.txt:13 templates/unblock_code.html:6 templates/unblock_code.txt:5 templates/verification_reminder_first.html:8
-#: templates/verification_reminder_first.txt:6 templates/verification_reminder_second.html:8 templates/verification_reminder_second.txt:6 templates/verify.html:8 templates/verify.txt:6
-#: templates/verify_login.html:8 templates/verify_login.txt:6
+#: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:7 templates/post_verify.txt:6 templates/recovery.html:7 templates/recovery.txt:6
+#: templates/suspicious_location.html:14 templates/suspicious_location.txt:13 templates/unblock_code.html:6 templates/unblock_code.txt:5 templates/verification_reminder_first.html:7
+#: templates/verification_reminder_first.txt:6 templates/verification_reminder_second.html:7 templates/verification_reminder_second.txt:6 templates/verify.html:7 templates/verify.txt:6
+#: templates/verify_login.html:7 templates/verify_login.txt:6
 msgid "Mozilla Privacy Policy"
 msgstr "Politica de confidențialitate Mozilla"
 
@@ -112,8 +112,8 @@ msgstr "Parola ta a fost resetată"
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
 msgstr "Parola contului tău Firefox a fost schimbată. Dacă nu ai schimbat-o, te rugăm <a %(resetLinkAttributes)s>să îți resetezi parola</a> acum."
 
-#: templates/password_reset.html:4 templates/post_verify.html:6 templates/post_verify.txt:4 templates/recovery.html:6 templates/recovery.txt:4 templates/verification_reminder_first.html:6
-#: templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:6 templates/verification_reminder_second.txt:4 templates/verify.html:6 templates/verify.txt:4
+#: templates/password_reset.html:4 templates/post_verify.html:5 templates/post_verify.txt:4 templates/recovery.html:5 templates/recovery.txt:4 templates/verification_reminder_first.html:5
+#: templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:5 templates/verification_reminder_second.txt:4 templates/verify.html:5 templates/verify.txt:4
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Acesta este un e-mail automat; dacă l-ai primit din greșeală nu este necesară nicio acțiune."
 
@@ -175,11 +175,6 @@ msgid ""
 msgstr ""
 "Ai conectat cu succes primul tău dispozitiv pe contul tău Firefox. Acum te poți autentifica pentru a sincroniza de pe celelalte dispozitive, inclusiv Firefox pentru <a "
 "%(androidLinkAttributes)s>Android</a> și <a %(iosLinkAttributes)s>iOS</a>."
-
-#: templates/post_verify.html:5 templates/recovery.html:5 templates/verification_reminder_first.html:5 templates/verification_reminder_second.html:5 templates/verify.html:5
-#: templates/verify_login.html:6
-msgid "Alternatively:"
-msgstr "Ca alternativă:"
 
 #: templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
@@ -246,7 +241,7 @@ msgstr ""
 msgid "If no, help us fend off intruders and report it to us."
 msgstr ""
 
-#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:569
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:565
 msgid "Hello again."
 msgstr "Bună din nou."
 
@@ -262,11 +257,11 @@ msgstr ""
 msgid "Activate now"
 msgstr "Activează acum"
 
-#: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9
+#: templates/verification_reminder_first.html:8 templates/verification_reminder_second.html:8 templates/verify.html:8
 msgid "Verify Email"
 msgstr "Verifică e-mailul"
 
-#: templates/verification_reminder_first.html:10 templates/verification_reminder_second.html:10 templates/verify.html:10
+#: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr "Verifică adresa ta de e-mail pentru a finaliza înregistrarea contului Firefox"
 
@@ -296,7 +291,7 @@ msgstr "Pentru mai multă securitate, te rugăm să confirmi această autentific
 msgid "Confirm sign-in"
 msgstr "Confirmă autentificarea"
 
-#: templates/verify_login.html:7
+#: templates/verify_login.html:6
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Dacă suspectezi că cineva încearcă să obțină acces la contul tău, <a %(passwordChangeLinkAttributes)s>te rugăm să îți schimbi parola</a>."
 
@@ -324,35 +319,35 @@ msgstr "%(country)s (estimativ)"
 msgid "Verify your Firefox Account"
 msgstr "Verifică-ți contul Firefox"
 
-#: mailer.js:303
+#: mailer.js:302
 msgid "Firefox Account authorization code"
 msgstr ""
 
-#: mailer.js:344
+#: mailer.js:343
 msgid "Confirm new sign-in to Firefox"
 msgstr "Confirmă autentificarea nouă în Firefox"
 
-#: mailer.js:385
+#: mailer.js:383
 msgid "Reset your Firefox Account password"
 msgstr "Resetează-ți parola contului Firefox"
 
-#: mailer.js:411
+#: mailer.js:408
 msgid "Your Firefox Account password has been changed"
 msgstr "Parola contului tău Firefox a fost schimbată"
 
-#: mailer.js:434
+#: mailer.js:431
 msgid "Your Firefox Account password has been reset"
 msgstr "Parola contului tău Firefox a fost resetată"
 
-#: mailer.js:457
+#: mailer.js:454
 msgid "Firefox Account password reset required"
 msgstr "Este necesară resetarea parolei pentru contul Firefox"
 
-#: mailer.js:508
+#: mailer.js:505
 msgid "Firefox Account verified"
 msgstr ""
 
-#: mailer.js:547
+#: mailer.js:543
 msgid "Suspicious activity with your Firefox Account"
 msgstr "Activitate suspicioasă cu contul tău Firefox"
 
@@ -407,6 +402,9 @@ msgstr "Servicii cloud Firefox"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Termeni de utilizare a serviciului"
+
+#~ msgid "Alternatively:"
+#~ msgstr "Ca alternativă:"
 
 #~ msgid "Firefox Account Verified"
 #~ msgstr "Cont Firefox verificat"

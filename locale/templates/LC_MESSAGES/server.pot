@@ -8,12 +8,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2016-10-17 12:20+0000\n"
+"POT-Creation-Date: 2016-11-01 14:26+0000\n"
 
 #: templates/_pending.txt:1
 #: templates/verification_reminder_second.html:2
 #: templates/verification_reminder_second.txt:1
-#: mailer.js:572
+#: mailer.js:568
 msgid "Still there?"
 msgstr ""
 
@@ -72,7 +72,7 @@ msgstr ""
 #: templates/new_device_login.txt:1
 #: templates/verify_login.html:2
 #: templates/verify_login.txt:1
-#: mailer.js:479
+#: mailer.js:476
 msgid "New sign-in to Firefox"
 msgstr ""
 
@@ -94,11 +94,11 @@ msgstr ""
 #: templates/new_device_login.html:5
 #: templates/password_changed.html:5
 #: templates/password_reset.html:5
-#: templates/post_verify.html:7
-#: templates/recovery.html:7
-#: templates/verification_reminder_first.html:7
-#: templates/verification_reminder_second.html:7
-#: templates/verify.html:7
+#: templates/post_verify.html:6
+#: templates/recovery.html:6
+#: templates/verification_reminder_first.html:6
+#: templates/verification_reminder_second.html:6
+#: templates/verify.html:6
 msgid ""
 "For more information, please visit <a %(supportLinkAttributes)s>Mozilla "
 "Support</a>."
@@ -112,21 +112,21 @@ msgstr ""
 #: templates/password_reset.txt:5
 #: templates/password_reset_required.html:10
 #: templates/password_reset_required.txt:9
-#: templates/post_verify.html:8
+#: templates/post_verify.html:7
 #: templates/post_verify.txt:6
-#: templates/recovery.html:8
+#: templates/recovery.html:7
 #: templates/recovery.txt:6
 #: templates/suspicious_location.html:14
 #: templates/suspicious_location.txt:13
 #: templates/unblock_code.html:6
 #: templates/unblock_code.txt:5
-#: templates/verification_reminder_first.html:8
+#: templates/verification_reminder_first.html:7
 #: templates/verification_reminder_first.txt:6
-#: templates/verification_reminder_second.html:8
+#: templates/verification_reminder_second.html:7
 #: templates/verification_reminder_second.txt:6
-#: templates/verify.html:8
+#: templates/verify.html:7
 #: templates/verify.txt:6
-#: templates/verify_login.html:8
+#: templates/verify_login.html:7
 #: templates/verify_login.txt:6
 msgid "Mozilla Privacy Policy"
 msgstr ""
@@ -182,15 +182,15 @@ msgid ""
 msgstr ""
 
 #: templates/password_reset.html:4
-#: templates/post_verify.html:6
+#: templates/post_verify.html:5
 #: templates/post_verify.txt:4
-#: templates/recovery.html:6
+#: templates/recovery.html:5
 #: templates/recovery.txt:4
-#: templates/verification_reminder_first.html:6
+#: templates/verification_reminder_first.html:5
 #: templates/verification_reminder_first.txt:4
-#: templates/verification_reminder_second.html:6
+#: templates/verification_reminder_second.html:5
 #: templates/verification_reminder_second.txt:4
-#: templates/verify.html:6
+#: templates/verify.html:5
 #: templates/verify.txt:4
 msgid ""
 "This is an automated email; if you received it in error, no action is "
@@ -278,15 +278,6 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now "
 "you can sign in to Sync from your other devices, including Firefox for <a "
 "%(androidLinkAttributes)s>Android</a> and <a %(iosLinkAttributes)s>iOS</a>."
-msgstr ""
-
-#: templates/post_verify.html:5
-#: templates/recovery.html:5
-#: templates/verification_reminder_first.html:5
-#: templates/verification_reminder_second.html:5
-#: templates/verify.html:5
-#: templates/verify_login.html:6
-msgid "Alternatively:"
 msgstr ""
 
 #: templates/post_verify.txt:2
@@ -379,7 +370,7 @@ msgstr ""
 
 #: templates/verification_reminder_first.html:2
 #: templates/verification_reminder_first.txt:1
-#: mailer.js:569
+#: mailer.js:565
 msgid "Hello again."
 msgstr ""
 
@@ -398,15 +389,15 @@ msgstr ""
 msgid "Activate now"
 msgstr ""
 
-#: templates/verification_reminder_first.html:9
-#: templates/verification_reminder_second.html:9
-#: templates/verify.html:9
+#: templates/verification_reminder_first.html:8
+#: templates/verification_reminder_second.html:8
+#: templates/verify.html:8
 msgid "Verify Email"
 msgstr ""
 
-#: templates/verification_reminder_first.html:10
-#: templates/verification_reminder_second.html:10
-#: templates/verify.html:10
+#: templates/verification_reminder_first.html:9
+#: templates/verification_reminder_second.html:9
+#: templates/verify.html:9
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr ""
 
@@ -446,7 +437,7 @@ msgstr ""
 msgid "Confirm sign-in"
 msgstr ""
 
-#: templates/verify_login.html:7
+#: templates/verify_login.html:6
 msgid ""
 "If you suspect that someone is trying to gain access to your account, <a "
 "%(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -478,35 +469,35 @@ msgstr ""
 msgid "Verify your Firefox Account"
 msgstr ""
 
-#: mailer.js:303
+#: mailer.js:302
 msgid "Firefox Account authorization code"
 msgstr ""
 
-#: mailer.js:344
+#: mailer.js:343
 msgid "Confirm new sign-in to Firefox"
 msgstr ""
 
-#: mailer.js:385
+#: mailer.js:383
 msgid "Reset your Firefox Account password"
 msgstr ""
 
-#: mailer.js:411
+#: mailer.js:408
 msgid "Your Firefox Account password has been changed"
 msgstr ""
 
-#: mailer.js:434
+#: mailer.js:431
 msgid "Your Firefox Account password has been reset"
 msgstr ""
 
-#: mailer.js:457
+#: mailer.js:454
 msgid "Firefox Account password reset required"
 msgstr ""
 
-#: mailer.js:508
+#: mailer.js:505
 msgid "Firefox Account verified"
 msgstr ""
 
-#: mailer.js:547
+#: mailer.js:543
 msgid "Suspicious activity with your Firefox Account"
 msgstr ""
 
