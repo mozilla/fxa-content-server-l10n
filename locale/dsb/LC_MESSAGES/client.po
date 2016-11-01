@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-01 14:26+0000\n"
-"PO-Revision-Date: 2016-11-01 19:20+0000\n"
+"PO-Revision-Date: 2016-11-01 19:23+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -403,7 +403,7 @@ msgstr "Njepłaśiwa konfiguracija"
 
 #: .es5/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "Sćo <span tabindex=\"1\">%(escapedDomain)s</span> měnił?"
 
 #: .es5/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -643,7 +643,7 @@ msgstr "Mailka jo se pósłała"
 
 #: .es5/scripts/templates/confirm.mustache:6
 msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Wobkšuśeński wótkaz jo se&nbsp;na %(escapedEmail)s pósłał"
 
 #: .es5/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
@@ -865,7 +865,7 @@ msgstr "Konto Firefox załožyś"
 
 #: .es5/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-msgstr ""
+msgstr "Pytaśo Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Zachopśo how</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -873,7 +873,7 @@ msgstr "Pśenosujśo swóje synchronizaciske daty, z tym až napórajośo nowe k
 
 #: .es5/scripts/templates/sign_up.mustache:10
 msgid "Have an account with a different email? <a href=\"%(escapedSignInUri)s\">Sign in</a>"
-msgstr ""
+msgstr "Maśo konto z drugeju e-mailoweju adresu? <a href=\"%(escapedSignInUri)s\">Pśizjawśo se</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
@@ -986,15 +986,15 @@ msgstr "Źěliś…"
 
 #: .es5/scripts/templates/settings/clients.mustache:9
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "Firefox za iOS"
 
 #: .es5/scripts/templates/settings/clients.mustache:10 .es5/scripts/templates/settings/clients.mustache:12
 msgid "Get app"
-msgstr ""
+msgstr "Nałoženje ześěgnuś"
 
 #: .es5/scripts/templates/settings/clients.mustache:11
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Firefox za Android"
 
 #: .es5/scripts/templates/settings/clients.mustache:14
 msgid "Missing or duplicate items?"
