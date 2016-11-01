@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-01 14:26+0000\n"
-"PO-Revision-Date: 2016-10-17 16:56+0000\n"
+"PO-Revision-Date: 2016-11-01 18:05+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
@@ -149,7 +149,7 @@ msgstr "Öppna Outlook"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:37
 msgid "Open Restmail"
-msgstr ""
+msgstr "Öppna Restmail"
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:22
 msgid "8 characters minimum, but longer if you plan to sync passwords."
@@ -403,7 +403,7 @@ msgstr "Ogiltig konfiguration"
 
 #: .es5/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "Menade du <span tabindex=\"1\">%(escapedDomain)s</span>?"
 
 #: .es5/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -470,12 +470,8 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:24
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Genom att fortsätta godkänner du <a id=\"service-tos\" href=\"%(termsUri)s\">användarvillkoren</a> och <a id=\"service-pp\" href=\"%(privacyUri)s\">sekretesspolicy</a> för %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Genom att fortsätta godkänner du <a id=\"service-tos\" href=\"%(termsUri)s\">användarvillkoren</a> och <a id=\"service-pp\" href=\"%(privacyUri)s\">sekretesspolicy</a> för %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/scripts/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -645,7 +641,7 @@ msgstr "E-post har skickats"
 
 #: .es5/scripts/templates/confirm.mustache:6
 msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "En verifieringslänk har skickats&nbsp;till %(escapedEmail)s"
 
 #: .es5/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
@@ -867,7 +863,7 @@ msgstr "Skapa ett Firefox-konto"
 
 #: .es5/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-msgstr ""
+msgstr "Letar du efter Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Kom igång här</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -875,7 +871,7 @@ msgstr "Migrera dina synkroniseringsuppgifter genom att skapa en nytt Firefox-ko
 
 #: .es5/scripts/templates/sign_up.mustache:10
 msgid "Have an account with a different email? <a href=\"%(escapedSignInUri)s\">Sign in</a>"
-msgstr ""
+msgstr "Har du ett konto med en annan e-post? <a href=\"%(escapedSignInUri)s\">Logga in</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
@@ -988,15 +984,15 @@ msgstr "Koppla ifrån…"
 
 #: .es5/scripts/templates/settings/clients.mustache:9
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "Firefox för iOS"
 
 #: .es5/scripts/templates/settings/clients.mustache:10 .es5/scripts/templates/settings/clients.mustache:12
 msgid "Get app"
-msgstr ""
+msgstr "Hämta app"
 
 #: .es5/scripts/templates/settings/clients.mustache:11
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Firefox för Android"
 
 #: .es5/scripts/templates/settings/clients.mustache:14
 msgid "Missing or duplicate items?"
@@ -1073,20 +1069,18 @@ msgstr "Använd Firefox Konto"
 #~ msgid "Sync preferences"
 #~ msgstr "Sync-inställningar"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr ""
-#~ "Letar du efter Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Kom igång här</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr "Letar du efter Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Kom igång här</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Har du ett konto med en annan e-post? <a href=\"%(signinUri)s\">Logga in</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox finns tillgänglig för <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> och <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox finns tillgänglig för <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> och <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Senast aktiv: %(translatedTimeAgo)s"
@@ -1325,8 +1319,7 @@ msgstr "Använd Firefox Konto"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Du måste aktivera kakor i webbläsaren som behövs för Firefox-konton. Kakor är små bitar av data som lagras i webbläsaren och som bland annat gör det möjligt att komma ihåg dig från gång till "
-#~ "gång."
+#~ "Du måste aktivera kakor i webbläsaren som behövs för Firefox-konton. Kakor är små bitar av data som lagras i webbläsaren och som bland annat gör det möjligt att komma ihåg dig från gång till gång."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox kommer snart till iOS!"
@@ -1472,9 +1465,7 @@ msgstr "Använd Firefox Konto"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Har du redan ett konto? Logga in."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
 #~ "Genom att fortsätta, godkänner jag <a id=\"service-tos\" href=\"%(termsUri)s\">användarvillkoren</a> och <a id=\"service-pp\" href=\"%(privacyUri)s\">sekretesspolicyn</a> för %(serviceName)s "
 #~ "(%(serviceUri)s)."
