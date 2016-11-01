@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-17 12:20+0000\n"
+"POT-Creation-Date: 2016-11-01 14:26+0000\n"
 "PO-Revision-Date: 2016-08-11 11:12+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,15 +14,15 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
 "X-Generator: Pontoon\n"
 
-#: .es5/scripts/views/complete_reset_password.js:125 .es5/scripts/views/complete_sign_up.js:115 .es5/scripts/views/confirm.js:119 .es5/scripts/views/confirm_reset_password.js:170
+#: .es5/scripts/views/complete_reset_password.js:125 .es5/scripts/views/complete_sign_up.js:115 .es5/scripts/views/confirm.js:121 .es5/scripts/views/confirm_reset_password.js:171
 msgid "Account verified successfully"
 msgstr "اُكّد الحساب بنجاح"
 
-#: .es5/scripts/views/confirm_reset_password.js:162 .es5/scripts/views/ready.js:44
+#: .es5/scripts/views/confirm_reset_password.js:163 .es5/scripts/views/ready.js:43
 msgid "Password reset"
 msgstr "تم إعادة تعيين كلمة السرّ"
 
-#: .es5/scripts/views/confirm_reset_password.js:186
+#: .es5/scripts/views/confirm_reset_password.js:187
 msgid "Password reset successfully. Sign in to continue."
 msgstr "تم إعادة تعيين كلمة السرّ بنجاح. سجل الدخول للاستمرار."
 
@@ -42,39 +42,39 @@ msgstr "أسم الحساب"
 msgid "Account picture"
 msgstr "صورة الحساب"
 
-#: .es5/scripts/views/ready.js:30
+#: .es5/scripts/views/ready.js:29
 msgid "Firefox Sync will begin momentarily"
 msgstr "سيبدأ فَيَرفُكس في المزامنة حالًا"
 
-#: .es5/scripts/views/ready.js:39
+#: .es5/scripts/views/ready.js:38
 msgid "Welcome back"
 msgstr "مرحبًا بعودتك مرة أخرى"
 
-#: .es5/scripts/views/ready.js:40
+#: .es5/scripts/views/ready.js:39
 msgid "Firefox Sync will resume momentarily"
 msgstr "تزامُن فَيَرفُكس سيُستكمل تلقائيًا"
 
-#: .es5/scripts/views/ready.js:50
+#: .es5/scripts/views/ready.js:49
 msgid "Sign-in confirmed"
 msgstr "أكُد تسجيل الدخول"
 
-#: .es5/scripts/views/ready.js:51 .es5/scripts/views/ready.js:56 .es5/scripts/templates/ready.mustache:5
+#: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55 .es5/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "أنت الآن جاهز للاستخدام %(serviceName)s"
 
-#: .es5/scripts/views/ready.js:55
+#: .es5/scripts/views/ready.js:54
 msgid "Account verified"
 msgstr "اُكّد الحساب"
 
-#: .es5/scripts/views/reset_password.js:68 .es5/scripts/views/sign_in.js:143
+#: .es5/scripts/views/reset_password.js:69 .es5/scripts/views/sign_in.js:144
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "الحساب غير معروف. <a href=\"/signup\">أنشئ حسابًا</a>"
 
-#: .es5/scripts/views/sign_up.js:60
+#: .es5/scripts/views/sign_up.js:61
 msgid "Account no longer exists. Recreate it?"
 msgstr "الحساب لم يعد موجود. أعد أنشأة؟"
 
-#: .es5/scripts/views/sign_up.js:339
+#: .es5/scripts/views/sign_up.js:341
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "الحساب موجودٌ مسبقًا. <a href=\"/signin\">سجل الدخول</a>"
 
@@ -94,24 +94,16 @@ msgstr ""
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr ""
 
-#: .es5/scripts/views/settings/clients.js:52
+#: .es5/scripts/views/settings/clients.js:51
 msgid "Last active %(translatedTimeAgo)s"
 msgstr ""
 
-#: .es5/scripts/views/settings/clients.js:91
+#: .es5/scripts/views/settings/clients.js:110
 msgid "Devices"
 msgstr "الأجهزة"
 
-#: .es5/scripts/views/settings/clients.js:94
+#: .es5/scripts/views/settings/clients.js:113
 msgid "Devices & apps"
-msgstr ""
-
-#: .es5/scripts/views/settings/clients.js:100
-msgid "You can manage your devices below."
-msgstr "يمكنك إدارة الأجهزة الخاصة بك أدناه."
-
-#: .es5/scripts/views/settings/clients.js:103
-msgid "You can manage your devices and apps below."
 msgstr ""
 
 #: .es5/scripts/views/settings/communication_preferences.js:106
@@ -154,19 +146,23 @@ msgstr "أفتح Yahoo"
 msgid "Open Outlook"
 msgstr "أفتح Outlook"
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:20
+#: .es5/scripts/views/mixins/open-webmail-mixin.js:37
+msgid "Open Restmail"
+msgstr ""
+
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:22
 msgid "8 characters minimum, but longer if you plan to sync passwords."
 msgstr "يجب ألا تقل كلمة السرّ عن 8 أحرف أو ربما أكثر أذا كنت تنوى مزامنة كلمات السرّ."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:21 .es5/scripts/templates/sign_up.mustache:18
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:23 .es5/scripts/templates/sign_up.mustache:18
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "اِستخدام كلمة سرّ قوية و فريدة سوف يحمي بيانات فَيَرفُكس الخاصة بك من الدخلاء."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/views/mixins/password-prompt-mixin.js:23
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:24
 msgid "This is a common password; please consider another one."
 msgstr "كلمة السرّ هذه شائعة، يرجى أختيار واحدة أخري."
 
-#: .es5/scripts/views/mixins/resend-mixin.js:53
+#: .es5/scripts/views/mixins/resend-mixin.js:51
 msgid "Email resent"
 msgstr "اُعيد إرسال البريد الإلكتروني"
 
@@ -404,9 +400,9 @@ msgstr ""
 msgid "Invalid configuration"
 msgstr ""
 
-#: .es5/scripts/lib/mailcheck.js:60
-msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
-msgstr "هل تقصد <span tabindex=\"1\">%(domain)s</span>؟"
+#: .es5/scripts/lib/mailcheck.js:25
+msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
+msgstr ""
 
 #: .es5/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -472,34 +468,34 @@ msgstr "فشل في معالجة الصورة"
 msgid "Firefox Sync"
 msgstr "تزامُن فَيَرفُكس"
 
-#: .es5/scripts/lib/strings.js:17
+#: .es5/scripts/lib/strings.js:24
 msgid ""
 "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
 "(%(serviceUri)s)."
 msgstr ""
 "بالمتابعة، أنت توافق على <a id=\"service-tos\" href=\"%(termsUri)s\">شروط الخدمة</a> و <a id=\"service-pp\" href=\"%(privacyUri)s\">سياسة الخصوصيّة</a> من خدمات %(serviceName)s (%(serviceUri)s)."
 
-#: .es5/scripts/lib/strings.js:24
+#: .es5/scripts/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">المساعدة</a>"
 
-#: .es5/scripts/lib/strings.js:28
+#: .es5/scripts/lib/strings.js:35
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "احصل على آخر الأخبار موزيلا و فَيَرفُكس."
 
-#: .es5/scripts/lib/strings.js:31
+#: .es5/scripts/lib/strings.js:38
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s، %(country)s (تقريبًا)"
 
-#: .es5/scripts/lib/strings.js:32
+#: .es5/scripts/lib/strings.js:39
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (تقريبًا)"
 
-#: .es5/scripts/lib/strings.js:33
+#: .es5/scripts/lib/strings.js:40
 msgid "IP address: %(ip)s"
 msgstr "عنوان الـIP: %(ip)s"
 
-#: .es5/scripts/lib/strings.js:34
+#: .es5/scripts/lib/strings.js:41
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "لمزيد من الأمان، رجاءً أكّد تسجيل دخولك لبداء علمية التزامُن مع هذا الجهاز:"
 
@@ -646,8 +642,8 @@ msgid "Email Sent"
 msgstr "أُرسِل بريد الإلكتروني"
 
 #: .es5/scripts/templates/confirm.mustache:6
-msgid "A verification link has been sent&nbsp;to %(email)s"
-msgstr "أُرسل رابط التأكيد&nbsp;إلى %(email)s"
+msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: .es5/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
@@ -665,11 +661,11 @@ msgstr "أُرسِل بريد إعادة تعيين كلمة السرّ"
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
 msgstr "أنقر علي الرابط المُرسل ألي بريدك الإلكتروني %(email)s في خلال ساعة لنشاء كلمة سرّ جديدة."
 
-#: .es5/scripts/templates/confirm_reset_password.mustache:4 .es5/scripts/templates/confirm_reset_password.mustache:6
+#: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7
 msgid "Remember password? Sign in"
 msgstr ""
 
-#: .es5/scripts/templates/confirm_reset_password.mustache:8
+#: .es5/scripts/templates/confirm_reset_password.mustache:9
 msgid "Didn’t arrive? Resend"
 msgstr ""
 
@@ -774,15 +770,11 @@ msgstr "ألغِ"
 msgid "Success"
 msgstr "تم"
 
-#: .es5/scripts/templates/ready.mustache:2
-msgid "Sync preferences"
-msgstr "تفضيلات التزامُن"
-
-#: .es5/scripts/templates/ready.mustache:6
+#: .es5/scripts/templates/ready.mustache:4
 msgid "Proceed"
 msgstr "الأستمرار"
 
-#: .es5/scripts/templates/ready.mustache:9
+#: .es5/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
 msgstr "حسابك مفعّل!"
 
@@ -872,7 +864,7 @@ msgid "Create a Firefox Account"
 msgstr "أنشئ حسابَ فَيَرفُكس"
 
 #: .es5/scripts/templates/sign_up.mustache:6
-msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
 msgstr ""
 
 #: .es5/scripts/templates/sign_up.mustache:8
@@ -880,8 +872,8 @@ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr "رحّل بيانات المزامنة الخاصة بك عن طريق إنشاء حساب فَيَرفُكس جديد."
 
 #: .es5/scripts/templates/sign_up.mustache:10
-msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
-msgstr "لديك حساب بواسطة بريد إلكتروني آخر؟ <a href=\"%(signinUri)s\">سجل الدخول</a>"
+msgid "Have an account with a different email? <a href=\"%(escapedSignInUri)s\">Sign in</a>"
+msgstr ""
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
@@ -924,7 +916,7 @@ msgstr "Gravatar"
 msgid "Clear"
 msgstr "امسح"
 
-#: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/clients.mustache:10
+#: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/clients.mustache:16
 msgid "Done"
 msgstr "تمّ"
 
@@ -976,7 +968,7 @@ msgstr ""
 msgid "Rather not say"
 msgstr ""
 
-#: .es5/scripts/templates/settings/client_disconnect.mustache:8
+#: .es5/scripts/templates/settings/client_disconnect.mustache:8 .es5/scripts/templates/settings/clients.mustache:7
 msgid "Disconnect"
 msgstr "اقطع الاتصال"
 
@@ -985,26 +977,30 @@ msgid "Disconnection Successful"
 msgstr ""
 
 #: .es5/scripts/templates/settings/clients.mustache:3
-msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
-msgstr ""
-"فَيَرفُكس متوفر لنظام تشغيل <a href=\"%(linkWindows)s\">ويندوز</a> و <a href=\"%(linkOSX)s\">أو إس أكس</a> و <a href=\"%(linkAndroid)s\">أندرويد</a> و <a href=\"%(linkIOS)s\">أي أو إس</a> و <a href="
-"\"%(linkLinux)s\">لينكس</a>."
-
-#: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
 msgstr "الجهاز الحالي"
 
-#: .es5/scripts/templates/settings/clients.mustache:6
+#: .es5/scripts/templates/settings/clients.mustache:5
 msgid "Disconnect…"
 msgstr ""
 
-#: .es5/scripts/templates/settings/clients.mustache:8
+#: .es5/scripts/templates/settings/clients.mustache:9
+msgid "Firefox for iOS"
+msgstr ""
+
+#: .es5/scripts/templates/settings/clients.mustache:10 .es5/scripts/templates/settings/clients.mustache:12
+msgid "Get app"
+msgstr ""
+
+#: .es5/scripts/templates/settings/clients.mustache:11
+msgid "Firefox for Android"
+msgstr ""
+
+#: .es5/scripts/templates/settings/clients.mustache:14
 msgid "Missing or duplicate items?"
 msgstr ""
 
-#: .es5/scripts/templates/settings/clients.mustache:9
+#: .es5/scripts/templates/settings/clients.mustache:15
 msgid "Refresh"
 msgstr "أعِد التّحميل"
 
@@ -1059,6 +1055,28 @@ msgstr "استخدام OpenID"
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "استخدام حساب فَيَرفُكس"
+
+#~ msgid "You can manage your devices below."
+#~ msgstr "يمكنك إدارة الأجهزة الخاصة بك أدناه."
+
+#~ msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
+#~ msgstr "هل تقصد <span tabindex=\"1\">%(domain)s</span>؟"
+
+#~ msgid "A verification link has been sent&nbsp;to %(email)s"
+#~ msgstr "أُرسل رابط التأكيد&nbsp;إلى %(email)s"
+
+#~ msgid "Sync preferences"
+#~ msgstr "تفضيلات التزامُن"
+
+#~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+#~ msgstr "لديك حساب بواسطة بريد إلكتروني آخر؟ <a href=\"%(signinUri)s\">سجل الدخول</a>"
+
+#~ msgid ""
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "فَيَرفُكس متوفر لنظام تشغيل <a href=\"%(linkWindows)s\">ويندوز</a> و <a href=\"%(linkOSX)s\">أو إس أكس</a> و <a href=\"%(linkAndroid)s\">أندرويد</a> و <a href=\"%(linkIOS)s\">أي أو إس</a> و <a href="
+#~ "\"%(linkLinux)s\">لينكس</a>."
 
 #~ msgid "Incorrect password"
 #~ msgstr "كلمة السرّ غير صحيحة"

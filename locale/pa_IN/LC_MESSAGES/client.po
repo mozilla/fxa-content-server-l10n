@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-17 12:20+0000\n"
+"POT-Creation-Date: 2016-11-01 14:26+0000\n"
 "PO-Revision-Date: 2016-08-08 12:41+0000\n"
 "Last-Translator: Amanpreet Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,15 +15,15 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444737687.0\n"
 
-#: .es5/scripts/views/complete_reset_password.js:125 .es5/scripts/views/complete_sign_up.js:115 .es5/scripts/views/confirm.js:119 .es5/scripts/views/confirm_reset_password.js:170
+#: .es5/scripts/views/complete_reset_password.js:125 .es5/scripts/views/complete_sign_up.js:115 .es5/scripts/views/confirm.js:121 .es5/scripts/views/confirm_reset_password.js:171
 msgid "Account verified successfully"
 msgstr "ਖਾਤਾ ਕਾਮਯਾਬੀ ਨਾਲ ਜਾਂਚਿਆ"
 
-#: .es5/scripts/views/confirm_reset_password.js:162 .es5/scripts/views/ready.js:44
+#: .es5/scripts/views/confirm_reset_password.js:163 .es5/scripts/views/ready.js:43
 msgid "Password reset"
 msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ"
 
-#: .es5/scripts/views/confirm_reset_password.js:186
+#: .es5/scripts/views/confirm_reset_password.js:187
 msgid "Password reset successfully. Sign in to continue."
 msgstr "ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਮੁੜ-ਸੈਟ ਕੀਤਾ। ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਇਨ ਇਨ ਕਰੋ।"
 
@@ -43,39 +43,39 @@ msgstr "ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ"
 msgid "Account picture"
 msgstr "ਖਾਤੇ ਦੀ ਤਸਵੀਰ"
 
-#: .es5/scripts/views/ready.js:30
+#: .es5/scripts/views/ready.js:29
 msgid "Firefox Sync will begin momentarily"
 msgstr "Firefox ਸਿੰਕ ਪਲਾਂ 'ਚ ਸ਼ੁਰੂ ਹੋਵੇਗਾ।"
 
-#: .es5/scripts/views/ready.js:39
+#: .es5/scripts/views/ready.js:38
 msgid "Welcome back"
 msgstr "ਫਿਰ ਜੀ ਆਇਆਂ ਨੂੰ"
 
-#: .es5/scripts/views/ready.js:40
+#: .es5/scripts/views/ready.js:39
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox ਸਿੰਕ ਪਲਾਂ 'ਚ ਮੁੜ ਚਾਲੂ ਹੋਵੇਗਾ"
 
-#: .es5/scripts/views/ready.js:50
+#: .es5/scripts/views/ready.js:49
 msgid "Sign-in confirmed"
 msgstr "ਸਾਈਨ ਇਨ ਦੀ ਪੁਸ਼ਟੀ"
 
-#: .es5/scripts/views/ready.js:51 .es5/scripts/views/ready.js:56 .es5/scripts/templates/ready.mustache:5
+#: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55 .es5/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "ਤੁਸੀਂ ਹੁਣ %(serviceName)s ਵਰਤਣ ਲਈ ਤਿਆਰ ਹੋ"
 
-#: .es5/scripts/views/ready.js:55
+#: .es5/scripts/views/ready.js:54
 msgid "Account verified"
 msgstr "ਖਾਤੇ ਦੀ ਜਾਂਚ ਪੂਰੀ ਹੋਈ"
 
-#: .es5/scripts/views/reset_password.js:68 .es5/scripts/views/sign_in.js:143
+#: .es5/scripts/views/reset_password.js:69 .es5/scripts/views/sign_in.js:144
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "ਅਣਜਾਣ ਖਾਤਾ। <a href=\"/signup\">ਮੈਂਬਰ ਬਣੋ</a>"
 
-#: .es5/scripts/views/sign_up.js:60
+#: .es5/scripts/views/sign_up.js:61
 msgid "Account no longer exists. Recreate it?"
 msgstr "ਖਾਤਾ ਹੁਣ ਮੌਜੂਦ ਨਹੀਂ ਹੈ। ਮੁੜ-ਬਣਾਉਣਾ ਹੈ?"
 
-#: .es5/scripts/views/sign_up.js:339
+#: .es5/scripts/views/sign_up.js:341
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "ਖਾਤਾ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ। <a href=\"/signin\">ਸਾਈਨ ਇਨ</a>"
 
@@ -95,24 +95,16 @@ msgstr ""
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr ""
 
-#: .es5/scripts/views/settings/clients.js:52
+#: .es5/scripts/views/settings/clients.js:51
 msgid "Last active %(translatedTimeAgo)s"
 msgstr ""
 
-#: .es5/scripts/views/settings/clients.js:91
+#: .es5/scripts/views/settings/clients.js:110
 msgid "Devices"
 msgstr "ਡਿਵਾਈਸ"
 
-#: .es5/scripts/views/settings/clients.js:94
+#: .es5/scripts/views/settings/clients.js:113
 msgid "Devices & apps"
-msgstr ""
-
-#: .es5/scripts/views/settings/clients.js:100
-msgid "You can manage your devices below."
-msgstr "ਤੁਸੀਂ ਹੇਠ ਦਿੱਤੇ ਡਿਵਾਈਸਾਂ ਦਾ ਪ੍ਰਬੰਧ ਕਰ ਸਕਦੇ ਹੋ।"
-
-#: .es5/scripts/views/settings/clients.js:103
-msgid "You can manage your devices and apps below."
 msgstr ""
 
 #: .es5/scripts/views/settings/communication_preferences.js:106
@@ -155,19 +147,23 @@ msgstr "Yahoo ਨੂੰ ਖੋਲ੍ਹੋ"
 msgid "Open Outlook"
 msgstr ""
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:20
+#: .es5/scripts/views/mixins/open-webmail-mixin.js:37
+msgid "Open Restmail"
+msgstr ""
+
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:22
 msgid "8 characters minimum, but longer if you plan to sync passwords."
 msgstr ""
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:21 .es5/scripts/templates/sign_up.mustache:18
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:23 .es5/scripts/templates/sign_up.mustache:18
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr ""
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/views/mixins/password-prompt-mixin.js:23
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:24
 msgid "This is a common password; please consider another one."
 msgstr ""
 
-#: .es5/scripts/views/mixins/resend-mixin.js:53
+#: .es5/scripts/views/mixins/resend-mixin.js:51
 msgid "Email resent"
 msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਲਿੰਕ ਦੀ ਮਿਆਦ ਪੁੱਗੀ"
 
@@ -405,9 +401,9 @@ msgstr ""
 msgid "Invalid configuration"
 msgstr ""
 
-#: .es5/scripts/lib/mailcheck.js:60
-msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
-msgstr "ਕੀ ਤੁਹਾਡਾ ਭਾਵ <span tabindex=\"1\">%(domain)s</span> ਤੋਂ ਸੀ?"
+#: .es5/scripts/lib/mailcheck.js:25
+msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
+msgstr ""
 
 #: .es5/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -473,34 +469,34 @@ msgstr "ਚਿੱਤਰ ਕਾਰਵਾਈ ਗਲਤੀ"
 msgid "Firefox Sync"
 msgstr "ਫਾਇਰਫਾਕਸ ਸਿੰਕ"
 
-#: .es5/scripts/lib/strings.js:17
+#: .es5/scripts/lib/strings.js:24
 msgid ""
 "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
 "(%(serviceUri)s)."
 msgstr ""
 "ਜਾਰੀ ਰੱਖਣ ਲਈ ਤੁਹਾਨੂੰ %(serviceName)s (%(serviceUri)s) ਦੀਆਂ <a id=\"service-tos\" href=\"%(termsUri)s\">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</a> ਅਤੇ <a id=\"service-pp\" href=\"%(privacyUri)s\">ਪਰਦੇਦਾਰੀ ਨੋਟਿਸ</a> ਨਾਲ ਸਹਿਮਤ ਹੋ ਹੋਵੇਗਾ।"
 
-#: .es5/scripts/lib/strings.js:24
+#: .es5/scripts/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">ਮਦਦ</a>"
 
-#: .es5/scripts/lib/strings.js:28
+#: .es5/scripts/lib/strings.js:35
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "ਮੋਜ਼ੀਲਾ ਤੇ ਫਾਇਰਫਾਕਸ ਬਾਰੇ ਨਵੀਆਂ ਖ਼ਬਰਾਂ ਲਵੋ।"
 
-#: .es5/scripts/lib/strings.js:31
+#: .es5/scripts/lib/strings.js:38
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (ਅੰਦਾਜ਼ਨ)"
 
-#: .es5/scripts/lib/strings.js:32
+#: .es5/scripts/lib/strings.js:39
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (ਅੰਦਾਜ਼ਨ)"
 
-#: .es5/scripts/lib/strings.js:33
+#: .es5/scripts/lib/strings.js:40
 msgid "IP address: %(ip)s"
 msgstr "IP ਸਿਰਨਾਵਾਂ: %(ip)s"
 
-#: .es5/scripts/lib/strings.js:34
+#: .es5/scripts/lib/strings.js:41
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr ""
 
@@ -647,8 +643,8 @@ msgid "Email Sent"
 msgstr "ਈਮੇਲ ਭੇਜੋ"
 
 #: .es5/scripts/templates/confirm.mustache:6
-msgid "A verification link has been sent&nbsp;to %(email)s"
-msgstr "ਜਾਂਚ ਲਿੰਕ &nbsp; %(email)s ਨੂੰ ਭੇਜਿਆ ਜਾ ਚੁੱਕਾ ਹੈ"
+msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: .es5/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
@@ -666,11 +662,11 @@ msgstr "ਮੁੜ-ਸੈੱਟ ਈਮੇਲ ਭੇਜੀ ਗਈ"
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
 msgstr ""
 
-#: .es5/scripts/templates/confirm_reset_password.mustache:4 .es5/scripts/templates/confirm_reset_password.mustache:6
+#: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7
 msgid "Remember password? Sign in"
 msgstr ""
 
-#: .es5/scripts/templates/confirm_reset_password.mustache:8
+#: .es5/scripts/templates/confirm_reset_password.mustache:9
 msgid "Didn’t arrive? Resend"
 msgstr ""
 
@@ -775,15 +771,11 @@ msgstr "ਰੱਦ ਕਰੋ"
 msgid "Success"
 msgstr "ਕਾਮਯਾਬ"
 
-#: .es5/scripts/templates/ready.mustache:2
-msgid "Sync preferences"
-msgstr "ਸਿੰਕ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ"
-
-#: .es5/scripts/templates/ready.mustache:6
+#: .es5/scripts/templates/ready.mustache:4
 msgid "Proceed"
 msgstr "ਜਾਰੀ ਰੱਖੋ"
 
-#: .es5/scripts/templates/ready.mustache:9
+#: .es5/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
 msgstr "ਤੁਹਾਡਾ ਖਾਤਾ ਤਿਆਰ ਹੈ!"
 
@@ -873,7 +865,7 @@ msgid "Create a Firefox Account"
 msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਬਣਾਓ"
 
 #: .es5/scripts/templates/sign_up.mustache:6
-msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
 msgstr ""
 
 #: .es5/scripts/templates/sign_up.mustache:8
@@ -881,8 +873,8 @@ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr "ਨਵਾਂ ਫਾਇਰਫਾਕਸ ਖਾਤਾ ਬਣਾ ਕੇ ਆਪਣੇ ਸਿੰਕ ਡਾਟੇ ਨੂੰ ਮਾਈਗਰੇਟ ਕਰੋ।"
 
 #: .es5/scripts/templates/sign_up.mustache:10
-msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
-msgstr "ਵੱਖਰੇ ਈਮੇਲ ਨਾਲ ਖਾਤਾ ਹੈ? <a href=\"%(signinUri)s\">ਸਾਈਨ ਇਨ ਕਰੋ</a>"
+msgid "Have an account with a different email? <a href=\"%(escapedSignInUri)s\">Sign in</a>"
+msgstr ""
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
@@ -925,7 +917,7 @@ msgstr "ਗਵਤਾਰ"
 msgid "Clear"
 msgstr "ਸਾਫ਼ ਕਰੋ"
 
-#: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/clients.mustache:10
+#: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/clients.mustache:16
 msgid "Done"
 msgstr "ਮੁਕੰਮਲ"
 
@@ -977,7 +969,7 @@ msgstr ""
 msgid "Rather not say"
 msgstr ""
 
-#: .es5/scripts/templates/settings/client_disconnect.mustache:8
+#: .es5/scripts/templates/settings/client_disconnect.mustache:8 .es5/scripts/templates/settings/clients.mustache:7
 msgid "Disconnect"
 msgstr "ਡਿਸ-ਕਨੈਕਟ ਕਰੋ"
 
@@ -986,26 +978,30 @@ msgid "Disconnection Successful"
 msgstr ""
 
 #: .es5/scripts/templates/settings/clients.mustache:3
-msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-"\"%(linkLinux)s\">Linux</a>."
-msgstr ""
-"ਫਾਇਰਫਾਕਸ <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">ਐਂਡਰਾਈਡ</a>, <a href=\"%(linkIOS)s\">iOS</a> ਅਤੇ <a href=\"%(linkLinux)s\">ਲੀਨਕਸ</a> ਲਈ "
-"ਮੌਜੂਦ ਹੈ।"
-
-#: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
 msgstr "ਮੌਜੂਦਾ ਡਿਵਾਈਸ"
 
-#: .es5/scripts/templates/settings/clients.mustache:6
+#: .es5/scripts/templates/settings/clients.mustache:5
 msgid "Disconnect…"
 msgstr ""
 
-#: .es5/scripts/templates/settings/clients.mustache:8
+#: .es5/scripts/templates/settings/clients.mustache:9
+msgid "Firefox for iOS"
+msgstr ""
+
+#: .es5/scripts/templates/settings/clients.mustache:10 .es5/scripts/templates/settings/clients.mustache:12
+msgid "Get app"
+msgstr ""
+
+#: .es5/scripts/templates/settings/clients.mustache:11
+msgid "Firefox for Android"
+msgstr ""
+
+#: .es5/scripts/templates/settings/clients.mustache:14
 msgid "Missing or duplicate items?"
 msgstr ""
 
-#: .es5/scripts/templates/settings/clients.mustache:9
+#: .es5/scripts/templates/settings/clients.mustache:15
 msgid "Refresh"
 msgstr "ਤਾਜ਼ਾ ਕਰੋ"
 
@@ -1060,6 +1056,28 @@ msgstr "OpenID ਵਰਤੋ"
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ"
+
+#~ msgid "You can manage your devices below."
+#~ msgstr "ਤੁਸੀਂ ਹੇਠ ਦਿੱਤੇ ਡਿਵਾਈਸਾਂ ਦਾ ਪ੍ਰਬੰਧ ਕਰ ਸਕਦੇ ਹੋ।"
+
+#~ msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
+#~ msgstr "ਕੀ ਤੁਹਾਡਾ ਭਾਵ <span tabindex=\"1\">%(domain)s</span> ਤੋਂ ਸੀ?"
+
+#~ msgid "A verification link has been sent&nbsp;to %(email)s"
+#~ msgstr "ਜਾਂਚ ਲਿੰਕ &nbsp; %(email)s ਨੂੰ ਭੇਜਿਆ ਜਾ ਚੁੱਕਾ ਹੈ"
+
+#~ msgid "Sync preferences"
+#~ msgstr "ਸਿੰਕ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ"
+
+#~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+#~ msgstr "ਵੱਖਰੇ ਈਮੇਲ ਨਾਲ ਖਾਤਾ ਹੈ? <a href=\"%(signinUri)s\">ਸਾਈਨ ਇਨ ਕਰੋ</a>"
+
+#~ msgid ""
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "ਫਾਇਰਫਾਕਸ <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">ਐਂਡਰਾਈਡ</a>, <a href=\"%(linkIOS)s\">iOS</a> ਅਤੇ <a href=\"%(linkLinux)s\">ਲੀਨਕਸ</a> "
+#~ "ਲਈ ਮੌਜੂਦ ਹੈ।"
 
 #~ msgid "Incorrect password"
 #~ msgstr "ਗਲਤ ਪਾਸਵਰਡ"

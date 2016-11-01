@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-17 12:20+0000\n"
+"POT-Creation-Date: 2016-11-01 14:26+0000\n"
 "PO-Revision-Date: 2016-10-23 12:15+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
@@ -16,15 +16,15 @@ msgstr ""
 "X-POOTLE-MTIME: 1448126634.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: .es5/scripts/views/complete_reset_password.js:125 .es5/scripts/views/complete_sign_up.js:115 .es5/scripts/views/confirm.js:119 .es5/scripts/views/confirm_reset_password.js:170
+#: .es5/scripts/views/complete_reset_password.js:125 .es5/scripts/views/complete_sign_up.js:115 .es5/scripts/views/confirm.js:121 .es5/scripts/views/confirm_reset_password.js:171
 msgid "Account verified successfully"
 msgstr "Аккаунт успешно подтверждён"
 
-#: .es5/scripts/views/confirm_reset_password.js:162 .es5/scripts/views/ready.js:44
+#: .es5/scripts/views/confirm_reset_password.js:163 .es5/scripts/views/ready.js:43
 msgid "Password reset"
 msgstr "Пароль восстановлен"
 
-#: .es5/scripts/views/confirm_reset_password.js:186
+#: .es5/scripts/views/confirm_reset_password.js:187
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Пароль успешно сброшен. Войти, чтобы продолжить."
 
@@ -44,39 +44,39 @@ msgstr "Отображаемое имя"
 msgid "Account picture"
 msgstr "Фото аккаунта"
 
-#: .es5/scripts/views/ready.js:30
+#: .es5/scripts/views/ready.js:29
 msgid "Firefox Sync will begin momentarily"
 msgstr "Через несколько мгновений начнётся Синхронизация Firefox"
 
-#: .es5/scripts/views/ready.js:39
+#: .es5/scripts/views/ready.js:38
 msgid "Welcome back"
 msgstr "С возвращением"
 
-#: .es5/scripts/views/ready.js:40
+#: .es5/scripts/views/ready.js:39
 msgid "Firefox Sync will resume momentarily"
 msgstr "Через несколько мгновений возобновится Синхронизация Firefox"
 
-#: .es5/scripts/views/ready.js:50
+#: .es5/scripts/views/ready.js:49
 msgid "Sign-in confirmed"
 msgstr "Вход подтвержден"
 
-#: .es5/scripts/views/ready.js:51 .es5/scripts/views/ready.js:56 .es5/scripts/templates/ready.mustache:5
+#: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55 .es5/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Теперь вы готовы использовать %(serviceName)s"
 
-#: .es5/scripts/views/ready.js:55
+#: .es5/scripts/views/ready.js:54
 msgid "Account verified"
 msgstr "Аккаунт подтверждён"
 
-#: .es5/scripts/views/reset_password.js:68 .es5/scripts/views/sign_in.js:143
+#: .es5/scripts/views/reset_password.js:69 .es5/scripts/views/sign_in.js:144
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Неизвестный аккаунт. <a href=\"/signup\">Зарегистрироваться</a>"
 
-#: .es5/scripts/views/sign_up.js:60
+#: .es5/scripts/views/sign_up.js:61
 msgid "Account no longer exists. Recreate it?"
 msgstr "Аккаунт больше не существует. Пересоздать?"
 
-#: .es5/scripts/views/sign_up.js:339
+#: .es5/scripts/views/sign_up.js:341
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Аккаунт уже существует. <a href=\"/signin\">Войти</a>"
 
@@ -96,25 +96,17 @@ msgstr "Нам очень жаль. Вам следует изменить па�
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Нам очень жаль. Если это было устройство, которому вы действительно не доверяете, вы должны сменить пароль вашего Аккаунта Firefox, и изменить любые пароли, сохранённые в Firefox."
 
-#: .es5/scripts/views/settings/clients.js:52
+#: .es5/scripts/views/settings/clients.js:51
 msgid "Last active %(translatedTimeAgo)s"
 msgstr "Последняя активность %(translatedTimeAgo)s"
 
-#: .es5/scripts/views/settings/clients.js:91
+#: .es5/scripts/views/settings/clients.js:110
 msgid "Devices"
 msgstr "Устройства"
 
-#: .es5/scripts/views/settings/clients.js:94
+#: .es5/scripts/views/settings/clients.js:113
 msgid "Devices & apps"
 msgstr "Устройства и приложения"
-
-#: .es5/scripts/views/settings/clients.js:100
-msgid "You can manage your devices below."
-msgstr "Вы можете управлять вашими устройствами ниже."
-
-#: .es5/scripts/views/settings/clients.js:103
-msgid "You can manage your devices and apps below."
-msgstr "Вы можете управлять вашими устройствами и приложениями ниже."
 
 #: .es5/scripts/views/settings/communication_preferences.js:106
 msgid "Subscribed successfully"
@@ -156,19 +148,23 @@ msgstr "Открыть Yahoo"
 msgid "Open Outlook"
 msgstr "Открыть Outlook"
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:20
+#: .es5/scripts/views/mixins/open-webmail-mixin.js:37
+msgid "Open Restmail"
+msgstr ""
+
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:22
 msgid "8 characters minimum, but longer if you plan to sync passwords."
 msgstr "минимум 8 символов, но длиннее, если вы планируете синхронизировать пароли."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:21 .es5/scripts/templates/sign_up.mustache:18
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:23 .es5/scripts/templates/sign_up.mustache:18
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "Сильный, уникальный пароль обеспечит защиту данных вашего Firefox от злоумышленников."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:22 .es5/scripts/views/mixins/password-prompt-mixin.js:23
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:24
 msgid "This is a common password; please consider another one."
 msgstr "Это слишком популярный пароль; пожалуйста, используйте другой."
 
-#: .es5/scripts/views/mixins/resend-mixin.js:53
+#: .es5/scripts/views/mixins/resend-mixin.js:51
 msgid "Email resent"
 msgstr "Письмо повторно отправлено"
 
@@ -406,9 +402,9 @@ msgstr "Отсутствует конфигурация"
 msgid "Invalid configuration"
 msgstr "Некорректная конфигурация"
 
-#: .es5/scripts/lib/mailcheck.js:60
-msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
-msgstr "Вы имели в виду <span tabindex=\"1\">%(domain)s</span>?"
+#: .es5/scripts/lib/mailcheck.js:25
+msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
+msgstr ""
 
 #: .es5/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -474,31 +470,35 @@ msgstr "Ошибка обработки изображения"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: .es5/scripts/lib/strings.js:17
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Продолжая, вы принимаете <a id=\"service-tos\" href=\"%(termsUri)s\">Условия службы</a> и <a id=\"service-pp\" href=\"%(privacyUri)s\">Уведомление о конфиденциальности</a> %(serviceName)s (%(serviceUri)s)."
-
 #: .es5/scripts/lib/strings.js:24
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Продолжая, вы принимаете <a id=\"service-tos\" href=\"%(termsUri)s\">Условия службы</a> и <a id=\"service-pp\" href=\"%(privacyUri)s\">Уведомление о конфиденциальности</a> %(serviceName)s "
+"(%(serviceUri)s)."
+
+#: .es5/scripts/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Помощь</a>"
 
-#: .es5/scripts/lib/strings.js:28
+#: .es5/scripts/lib/strings.js:35
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Получать последние новости о Mozilla и Firefox."
 
-#: .es5/scripts/lib/strings.js:31
+#: .es5/scripts/lib/strings.js:38
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (приблизительно)"
 
-#: .es5/scripts/lib/strings.js:32
+#: .es5/scripts/lib/strings.js:39
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (приблизительно)"
 
-#: .es5/scripts/lib/strings.js:33
+#: .es5/scripts/lib/strings.js:40
 msgid "IP address: %(ip)s"
 msgstr "IP-адрес: %(ip)s"
 
-#: .es5/scripts/lib/strings.js:34
+#: .es5/scripts/lib/strings.js:41
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Для повышения безопасности, пожалуйста, подтвердите этот вход для начала синхронизации с этим устройством:"
 
@@ -645,8 +645,8 @@ msgid "Email Sent"
 msgstr "Письмо отправлено"
 
 #: .es5/scripts/templates/confirm.mustache:6
-msgid "A verification link has been sent&nbsp;to %(email)s"
-msgstr "Ссылка для подтверждения была отправлена на %(email)s"
+msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: .es5/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
@@ -664,11 +664,11 @@ msgstr "Письмо о сбросе пароля отправлено"
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
 msgstr "Щёлкните по ссылке, которую мы отправили вам на %(email)s в течение часа, чтобы создать новый пароль."
 
-#: .es5/scripts/templates/confirm_reset_password.mustache:4 .es5/scripts/templates/confirm_reset_password.mustache:6
+#: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7
 msgid "Remember password? Sign in"
 msgstr "Помните пароль? Войти"
 
-#: .es5/scripts/templates/confirm_reset_password.mustache:8
+#: .es5/scripts/templates/confirm_reset_password.mustache:9
 msgid "Didn’t arrive? Resend"
 msgstr "Не пришло? Отправить снова"
 
@@ -773,15 +773,11 @@ msgstr "Отмена"
 msgid "Success"
 msgstr "Сделано"
 
-#: .es5/scripts/templates/ready.mustache:2
-msgid "Sync preferences"
-msgstr "Настройки синхронизации"
-
-#: .es5/scripts/templates/ready.mustache:6
+#: .es5/scripts/templates/ready.mustache:4
 msgid "Proceed"
 msgstr "Продолжить"
 
-#: .es5/scripts/templates/ready.mustache:9
+#: .es5/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
 msgstr "Ваш аккаунт готов!"
 
@@ -871,16 +867,16 @@ msgid "Create a Firefox Account"
 msgstr "Создать Аккаунт Firefox"
 
 #: .es5/scripts/templates/sign_up.mustache:6
-msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-msgstr "Ищете синхронизацию Firefox? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Начните здесь</a>"
+msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
+msgstr ""
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr "Мигрируйте свои данные синхронизации, создав новый Аккаунт&nbsp;Firefox"
 
 #: .es5/scripts/templates/sign_up.mustache:10
-msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
-msgstr "У вас аккаунт с другим адресом эл. почты? <a href=\"%(signinUri)s\">Войти</a>"
+msgid "Have an account with a different email? <a href=\"%(escapedSignInUri)s\">Sign in</a>"
+msgstr ""
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
@@ -923,7 +919,7 @@ msgstr "Gravatar"
 msgid "Clear"
 msgstr "Очистить"
 
-#: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/clients.mustache:10
+#: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/clients.mustache:16
 msgid "Done"
 msgstr "Готово"
 
@@ -975,7 +971,7 @@ msgstr "Старое или заменённое устройство"
 msgid "Rather not say"
 msgstr "Предпочитаю не говорить"
 
-#: .es5/scripts/templates/settings/client_disconnect.mustache:8
+#: .es5/scripts/templates/settings/client_disconnect.mustache:8 .es5/scripts/templates/settings/clients.mustache:7
 msgid "Disconnect"
 msgstr "Отсоединить"
 
@@ -984,24 +980,30 @@ msgid "Disconnection Successful"
 msgstr "Отсоединение прошло успешно"
 
 #: .es5/scripts/templates/settings/clients.mustache:3
-msgid ""
-"Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-"href=\"%(linkLinux)s\">Linux</a>."
-msgstr "Firefox доступен на <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> и <a href=\"%(linkLinux)s\">Linux</a>."
-
-#: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
 msgstr "текущее устройство"
 
-#: .es5/scripts/templates/settings/clients.mustache:6
+#: .es5/scripts/templates/settings/clients.mustache:5
 msgid "Disconnect…"
 msgstr "Отсоединить…"
 
-#: .es5/scripts/templates/settings/clients.mustache:8
+#: .es5/scripts/templates/settings/clients.mustache:9
+msgid "Firefox for iOS"
+msgstr ""
+
+#: .es5/scripts/templates/settings/clients.mustache:10 .es5/scripts/templates/settings/clients.mustache:12
+msgid "Get app"
+msgstr ""
+
+#: .es5/scripts/templates/settings/clients.mustache:11
+msgid "Firefox for Android"
+msgstr ""
+
+#: .es5/scripts/templates/settings/clients.mustache:14
 msgid "Missing or duplicate items?"
 msgstr "Отсутствующие или повторяющиеся элементы?"
 
-#: .es5/scripts/templates/settings/clients.mustache:9
+#: .es5/scripts/templates/settings/clients.mustache:15
 msgid "Refresh"
 msgstr "Обновить"
 
@@ -1056,6 +1058,36 @@ msgstr "Использовать OpenID"
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Использовать Аккаунт Firefox"
+
+#~ msgid "You can manage your devices below."
+#~ msgstr "Вы можете управлять вашими устройствами ниже."
+
+#~ msgid "You can manage your devices and apps below."
+#~ msgstr "Вы можете управлять вашими устройствами и приложениями ниже."
+
+#~ msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
+#~ msgstr "Вы имели в виду <span tabindex=\"1\">%(domain)s</span>?"
+
+#~ msgid "A verification link has been sent&nbsp;to %(email)s"
+#~ msgstr "Ссылка для подтверждения была отправлена на %(email)s"
+
+#~ msgid "Sync preferences"
+#~ msgstr "Настройки синхронизации"
+
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr ""
+#~ "Ищете синхронизацию Firefox? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Начните здесь</a>"
+
+#~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+#~ msgstr "У вас аккаунт с другим адресом эл. почты? <a href=\"%(signinUri)s\">Войти</a>"
+
+#~ msgid ""
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox доступен на <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> и <a href=\"%(linkLinux)s"
+#~ "\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Последняя активность: %(translatedTimeAgo)s"
@@ -1167,8 +1199,8 @@ msgstr "Использовать Аккаунт Firefox"
 
 #~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
 #~ msgstr ""
-#~ "По соображениям безопасности ваш аккаунт был поставлен на блокировку. Для выполнения действий на уровне аккаунта, пожалуйста, повторно подтвердите свой аккаунт, щёлкнув по ссылке для подтверждения, "
-#~ "отправленной на %(email)s"
+#~ "По соображениям безопасности ваш аккаунт был поставлен на блокировку. Для выполнения действий на уровне аккаунта, пожалуйста, повторно подтвердите свой аккаунт, щёлкнув по ссылке для "
+#~ "подтверждения, отправленной на %(email)s"
 
 #~ msgid "Signup has been disabled"
 #~ msgstr "Регистрация была отключена"
@@ -1234,7 +1266,8 @@ msgstr "Использовать Аккаунт Firefox"
 #~ msgstr "Вы уверены, что хотите сбросить пароль своего аккаунта?"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
-#~ msgstr "Сброс пароля приведёт к стиранию данных вашего веб-сёрфинга с наших серверов. Все данные на ваших устройствах останутся нетронутыми. Начните процесс сброса, введя ниже свой адрес эл. почты."
+#~ msgstr ""
+#~ "Сброс пароля приведёт к стиранию данных вашего веб-сёрфинга с наших серверов. Все данные на ваших устройствах останутся нетронутыми. Начните процесс сброса, введя ниже свой адрес эл. почты."
 
 #~ msgid "Begin reset"
 #~ msgstr "Начать сброс"
@@ -1434,8 +1467,8 @@ msgstr "Использовать Аккаунт Firefox"
 
 #~ msgid "For security reasons, resetting your password will erase your Sync data from our servers. A new Sync backup will be created from your local browsing data."
 #~ msgstr ""
-#~ "По соображениям безопасности, восстановление вашего пароля сотрёт ваши данные Синхронизации с наших серверов. Новая резервная копия Синхронизации будет создана на основе ваших локальных данных веб-"
-#~ "сёрфинга."
+#~ "По соображениям безопасности, восстановление вашего пароля сотрёт ваши данные Синхронизации с наших серверов. Новая резервная копия Синхронизации будет создана на основе ваших локальных данных "
+#~ "веб-сёрфинга."
 
 #~ msgid "You are signed in as"
 #~ msgstr "Вы вошли как"
@@ -1443,8 +1476,12 @@ msgstr "Использовать Аккаунт Firefox"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Уже есть аккаунт? Войти."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-#~ msgstr "Продолжив, я принимаю <a id=\"service-tos\" href=\"%(termsUri)s\"> Условия Службы</a> и<a id=\"service-pp\" href=\"%(privacyUri)s\">Уведомление о приватности</a> от %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
+#~ msgstr ""
+#~ "Продолжив, я принимаю <a id=\"service-tos\" href=\"%(termsUri)s\"> Условия Службы</a> и<a id=\"service-pp\" href=\"%(privacyUri)s\">Уведомление о приватности</a> от %(serviceName)s "
+#~ "(%(serviceUri)s)."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr "Продолжая, я согласен с <a id=\"fxa-tos\" href=\"/legal/terms\">Условиями Службы</a> и <a id=\"fxa-pp\" href=\"/legal/privacy\">Уведомлением о приватности</a> Интернет-сервисов Firefox."
