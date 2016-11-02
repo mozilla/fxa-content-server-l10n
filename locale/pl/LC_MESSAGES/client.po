@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-01 14:26+0000\n"
-"PO-Revision-Date: 2016-10-17 17:32+0200\n"
+"PO-Revision-Date: 2016-11-02 17:40+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -147,7 +147,7 @@ msgstr "Otwórz Outlooka"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:37
 msgid "Open Restmail"
-msgstr ""
+msgstr "Otwórz Restmail"
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:22
 msgid "8 characters minimum, but longer if you plan to sync passwords."
@@ -401,7 +401,7 @@ msgstr "Nieprawidłowa konfiguracja"
 
 #: .es5/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "Czy chodziło o <span tabindex=\"1\">%(escapedDomain)s</span>?"
 
 #: .es5/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -643,7 +643,7 @@ msgstr "Wysłano wiadomość e-mail"
 
 #: .es5/scripts/templates/confirm.mustache:6
 msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Wysłano odnośnik weryfikacyjny na adres „%(escapedEmail)s”"
 
 #: .es5/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
@@ -867,7 +867,7 @@ msgstr "Utwórz konto Firefoksa"
 
 #: .es5/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-msgstr ""
+msgstr "Szukasz usługi Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Załóż konto</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -875,7 +875,7 @@ msgstr "Przenieś dane synchronizacji tworząc konto&nbsp;Firefoksa."
 
 #: .es5/scripts/templates/sign_up.mustache:10
 msgid "Have an account with a different email? <a href=\"%(escapedSignInUri)s\">Sign in</a>"
-msgstr ""
+msgstr "Masz już konto z innym adresem e-mail? <a href=\"%(escapedSignInUri)s\">Zaloguj się</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
@@ -988,15 +988,15 @@ msgstr "Rozłącz…"
 
 #: .es5/scripts/templates/settings/clients.mustache:9
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "Firefox na iOS"
 
 #: .es5/scripts/templates/settings/clients.mustache:10 .es5/scripts/templates/settings/clients.mustache:12
 msgid "Get app"
-msgstr ""
+msgstr "Pobierz aplikację"
 
 #: .es5/scripts/templates/settings/clients.mustache:11
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Firefox na Androida"
 
 #: .es5/scripts/templates/settings/clients.mustache:14
 msgid "Missing or duplicate items?"
@@ -1057,33 +1057,3 @@ msgstr "Użyj OpenID"
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Użyj konta Firefoksa"
-
-#~ msgid "You can manage your devices below."
-#~ msgstr "Poniżej można zarządzać urządzeniami."
-
-#~ msgid "You can manage your devices and apps below."
-#~ msgstr "Poniżej można zarządzać urządzeniami i aplikacjami."
-
-#~ msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
-#~ msgstr "Czy chodziło o <span tabindex=\"1\">%(domain)s</span>?"
-
-#~ msgid "A verification link has been sent&nbsp;to %(email)s"
-#~ msgstr "Wysłano odnośnik weryfikacyjny na adres „%(email)s”"
-
-#~ msgid "Sync preferences"
-#~ msgstr "Preferencje usługi Sync"
-
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr ""
-#~ "Szukasz usługi Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Załóż konto</a>"
-
-#~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
-#~ msgstr "Masz już konto z innym adresem e-mail? <a href=\"%(signinUri)s\">Zaloguj się</a>"
-
-#~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
-#~ msgstr ""
-#~ "Firefox jest dostępny dla systemów <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> i <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
