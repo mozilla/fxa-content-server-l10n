@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-01 14:26+0000\n"
-"PO-Revision-Date: 2016-11-03 08:21+0000\n"
+"PO-Revision-Date: 2016-11-03 08:22+0000\n"
 "Last-Translator: Dinesh <dineshmv38@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -870,7 +870,7 @@ msgstr "మే సింక్ డేటా తరలించడానికి
 
 #: .es5/scripts/templates/sign_up.mustache:10
 msgid "Have an account with a different email? <a href=\"%(escapedSignInUri)s\">Sign in</a>"
-msgstr ""
+msgstr "వేరొక ఈమయిల్ తో ఖాతా ఉన్నదా? <a href=\"%(escapedSignInUri)s\">సైన్ ఇన్ అవ్వండి</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
@@ -983,15 +983,15 @@ msgstr "అనుసంధానాన్ని తీసివేయి…"
 
 #: .es5/scripts/templates/settings/clients.mustache:9
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "iOS కోసం Firefox"
 
 #: .es5/scripts/templates/settings/clients.mustache:10 .es5/scripts/templates/settings/clients.mustache:12
 msgid "Get app"
-msgstr ""
+msgstr "అనుమర్తను పొందండి"
 
 #: .es5/scripts/templates/settings/clients.mustache:11
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Android కోసం Firefox"
 
 #: .es5/scripts/templates/settings/clients.mustache:14
 msgid "Missing or duplicate items?"
