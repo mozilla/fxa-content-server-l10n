@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-01 14:26+0000\n"
-"PO-Revision-Date: 2016-11-01 14:57+0000\n"
+"PO-Revision-Date: 2016-11-03 18:53+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -831,7 +831,7 @@ msgstr "Übernehmen Sie Ihre Sync-Daten, indem Sie sich mit Ihrem Firefox-Konto 
 
 #: .es5/scripts/templates/sign_in.mustache:12 .es5/scripts/templates/sign_in.mustache:15
 msgid "Use a different account"
-msgstr "Verwenden Sie ein anderes Konto"
+msgstr "Ein anderes Konto verwenden"
 
 #: .es5/scripts/templates/sign_in.mustache:24
 msgid "Create an account"
