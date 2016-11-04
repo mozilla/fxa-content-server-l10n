@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-01 14:26+0000\n"
-"PO-Revision-Date: 2016-10-07 07:50+0000\n"
+"PO-Revision-Date: 2016-11-04 17:30+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -33,8 +33,8 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Firefox Hesabı’nıza ilk cihazınızı başarıyla bağladınız. Sync’ten daha iyi yararlanmak için, kullanıyorsanız <a href='%(androidUrl)s'>Android için Firefox</a> veya <a href='%(iosUrl)s'>iOS için "
 "Firefox</a>’u da bağlayın."
@@ -173,8 +173,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
-"İlk cihazınızı Firefox Hesabı’nıza başlarıyla bağladınız. Artık hem diğer bilgisayarınızdan hem de <a %(androidLinkAttributes)s>Android</a> ve <a %(iosLinkAttributes)s>iOS</a> için Firefox’tan "
-"Snc’e giriş yapabilirsiniz."
+"İlk cihazınızı Firefox Hesabı’nıza başlarıyla bağladınız. Artık hem diğer bilgisayarınızdan hem de <a %(androidLinkAttributes)s>Android</a> ve <a %(iosLinkAttributes)s>iOS</a> için Firefox’tan Snc’e"
+" giriş yapabilirsiniz."
 
 #: templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
@@ -226,19 +226,19 @@ msgstr "Yakın zamanda olağan dışı yerlerden Firefox Hesapları’na giriş 
 
 #: templates/unblock_code.html:2 templates/unblock_code.txt:1
 msgid "Is this you signing in?"
-msgstr ""
+msgstr "Giriş yapan siz misiniz?"
 
 #: templates/unblock_code.html:4 templates/unblock_code.txt:3
 msgid "If yes, here is the authorization code you need:"
-msgstr ""
+msgstr "Sizseniz bu yetkilendirme kodunu kullanabilirsiniz:"
 
 #: templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr ""
+msgstr "Değilseniz, saldırganları kapı dışarı edebilmemiz için <a %(reportSignInLinkAttributes)s>bize rapor edin</a>."
 
 #: templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "Değilseniz, saldırganları kapı dışarı edebilmemiz için bize rapor edin."
 
 #: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:565
 msgid "Hello again."
@@ -246,8 +246,8 @@ msgstr "Yeniden merhaba."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 "Birkaç gün önce bir Firefox Hesabı oluşturdunuz ama hesabınızı doğrulamadınız. Hesabınızı doğruladıktan sonra sekmelerinize, yer imlerinize, parolalarınızı ve geçmişinize tüm cihazlarınızdan "
 "erişebilirsiniz. Hesabınızı etkinleştirmek için bu e-posta adresini doğrulamanız yeterlidir."
@@ -318,7 +318,7 @@ msgstr "Firefox Hesabı’nızı doğrulayın"
 
 #: mailer.js:302
 msgid "Firefox Account authorization code"
-msgstr ""
+msgstr "Firefox Hesabı yetkilendirme kodu"
 
 #: mailer.js:343
 msgid "Confirm new sign-in to Firefox"
@@ -342,7 +342,7 @@ msgstr "Firefox Hesabı parolanızı sıfırlamanız gerekiyor"
 
 #: mailer.js:505
 msgid "Firefox Account verified"
-msgstr ""
+msgstr "Firefox Hesabı doğrulandı"
 
 #: mailer.js:543
 msgid "Suspicious activity with your Firefox Account"
