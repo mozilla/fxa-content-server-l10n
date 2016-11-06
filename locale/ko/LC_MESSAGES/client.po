@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-01 14:26+0000\n"
-"PO-Revision-Date: 2016-08-27 05:05+0000\n"
-"Last-Translator: pillarlee16 <pillarlee16@gmail.com>\n"
+"PO-Revision-Date: 2016-11-06 00:34+0000\n"
+"Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -89,15 +89,15 @@ msgstr "비밀번호 변경 성공"
 
 #: .es5/scripts/views/settings/client_disconnect.js:18
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr ""
+msgstr "죄송합니다. Firefox 계정의 비밀번호가 바꾸고, 원격으로 데이터를 지우는 방법을 제조사로부터 확인해야 합니다."
 
 #: .es5/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
+msgstr "죄송합니다. 이 기기를 신뢰하지 못한다면, Firefox 계정의 비밀번호를 바꾸고, Firefox에 저장된 비밀번호를 바꿔야 합니다."
 
 #: .es5/scripts/views/settings/clients.js:51
 msgid "Last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "마지막 사용시간 %(translatedTimeAgo)s 전"
 
 #: .es5/scripts/views/settings/clients.js:110
 msgid "Devices"
@@ -105,7 +105,7 @@ msgstr "장치"
 
 #: .es5/scripts/views/settings/clients.js:113
 msgid "Devices & apps"
-msgstr ""
+msgstr "기기와 앱"
 
 #: .es5/scripts/views/settings/communication_preferences.js:106
 msgid "Subscribed successfully"
@@ -182,11 +182,11 @@ msgstr "이메일 주소 확인을 위해 클릭한 링크가 만료되었습니
 
 #: .es5/scripts/lib/auth-errors.js:21
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "너무 많이 시도하였습니다. 잠시 후에 다시 시도하세요."
 
 #: .es5/scripts/lib/auth-errors.js:25
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "너무 많이 시도하셨습니다. %(retryAfterLocalized)s 후에 다시 시도하세요."
 
 #: .es5/scripts/lib/auth-errors.js:35 .es5/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
@@ -214,7 +214,7 @@ msgstr "잘못된 이메일"
 
 #: .es5/scripts/lib/auth-errors.js:59
 msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
-msgstr ""
+msgstr "잘못된 비밀번호입니다. 입력한 내용을 확인하시려면 보여주기 버튼을 누르고 있어 주세요."
 
 #: .es5/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
@@ -254,7 +254,7 @@ msgstr "보안상의 이유로 요청이 차단 되었습니다"
 
 #: .es5/scripts/lib/auth-errors.js:117 .es5/scripts/lib/auth-errors.js:318
 msgid "Invalid authorization code"
-msgstr ""
+msgstr "잘못된 인증 코드"
 
 #: .es5/scripts/lib/auth-errors.js:121 .es5/scripts/lib/auth-errors.js:298
 msgid "Server busy, try again soon"
@@ -379,27 +379,27 @@ msgstr "누락된 데이터 속성: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:306 .es5/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "이 승인 링크는 벌써 사용되어 졌고, 한번만 사용할 수 있습니다."
 
 #: .es5/scripts/lib/auth-errors.js:310
 msgid "This is a required field"
-msgstr ""
+msgstr "필수 필드입니다"
 
 #: .es5/scripts/lib/auth-errors.js:314
 msgid "Authorization code required"
-msgstr ""
+msgstr "인증 코드 필요"
 
 #: .es5/scripts/lib/auth-errors.js:322 .es5/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
-msgstr ""
+msgstr "손상된 링크"
 
 #: .es5/scripts/lib/config-loader.js:81
 msgid "Missing configuration"
-msgstr ""
+msgstr "누락된 설정"
 
 #: .es5/scripts/lib/config-loader.js:85
 msgid "Invalid configuration"
-msgstr ""
+msgstr "잘못된 설정"
 
 #: .es5/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
@@ -470,12 +470,8 @@ msgid "Firefox Sync"
 msgstr "Firefox 동기화"
 
 #: .es5/scripts/lib/strings.js:24
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"계속 진행하면 <a id=\"service-tos\" href=\"%(termsUri)s\">이용 약관</a>과 %(serviceName)s (%(serviceUri)s)의 <a id=\"service-pp\" href=\"%(privacyUri)s\">개인정보 보호정책</a>에 동의한 것으로 간주 "
-"합니다."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "계속 진행하면 <a id=\"service-tos\" href=\"%(termsUri)s\">이용 약관</a>과 %(serviceName)s (%(serviceUri)s)의 <a id=\"service-pp\" href=\"%(privacyUri)s\">개인정보 보호정책</a>에 동의한 것으로 간주 합니다."
 
 #: .es5/scripts/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -617,7 +613,7 @@ msgstr "새로운 비밀번호 제출"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:1
 msgid "Sign-in already confirmed"
-msgstr ""
+msgstr "이 로그인은 이미 승인됨"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
@@ -645,7 +641,7 @@ msgstr "이메일 전송"
 
 #: .es5/scripts/templates/confirm.mustache:6
 msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "확인 링크가 %(escapedEmail)s로 보내졌습니다"
 
 #: .es5/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
@@ -669,7 +665,7 @@ msgstr ""
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:9
 msgid "Didn’t arrive? Resend"
-msgstr ""
+msgstr "도착하지 않았나요? 다시 보내기"
 
 #: .es5/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -707,8 +703,7 @@ msgstr "암호 분실?"
 
 #: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr ""
-"계속 진행하면 Firefox 클라우드 서비스의 <a id=\"fxa-tos\" href=\"/legal/terms\">서비스 이용약관</a> 및 <a id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 취급방침</a>에 동의하는 것으로 간주합니다."
+msgstr "계속 진행하면 Firefox 클라우드 서비스의 <a id=\"fxa-tos\" href=\"/legal/terms\">서비스 이용약관</a> 및 <a id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 취급방침</a>에 동의하는 것으로 간주합니다."
 
 #: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -783,19 +778,19 @@ msgstr "계정이 준비되어 있습니다!"
 
 #: .es5/scripts/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "승인되지 않은 로그인을 보고하시겠습니까?"
 
 #: .es5/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr ""
+msgstr "계정에 접속하려는 시도에 대한 메일을 받았습니다. 의심스러운 활동으로 보고하시겠습니까?"
 
 #: .es5/scripts/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr ""
+msgstr "활동내역 리포트"
 
 #: .es5/scripts/templates/report_sign_in.mustache:7 .es5/scripts/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr ""
+msgstr "이런 일이 왜 일어나나요?"
 
 #: .es5/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
@@ -840,11 +835,11 @@ msgstr "계정 생성"
 
 #: .es5/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
-msgstr ""
+msgstr "경각심을 가지고 알려주셔서 감사합니다"
 
 #: .es5/scripts/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr ""
+msgstr "우리 팀에 통보되었습니다. 이와 같은 보고서는 우리가 침입자를 방어하는데 도움이 됩니다."
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:1 .es5/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
@@ -856,11 +851,11 @@ msgstr ""
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "인증코드 입력하기"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"
-msgstr ""
+msgstr "계속"
 
 #: .es5/scripts/templates/sign_up.mustache:1 .es5/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
@@ -880,7 +875,7 @@ msgstr ""
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
-msgstr ""
+msgstr "월간 Firefox 뉴스레터 받기."
 
 #: .es5/scripts/templates/sign_up.mustache:22
 msgid "Create account"
@@ -888,16 +883,16 @@ msgstr "계정 생성"
 
 #: .es5/scripts/templates/sign_up.mustache:27
 msgid "Have an account? Sign in"
-msgstr ""
+msgstr "계정을 가지고 계신가요? 로그인"
 
 #: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2 .es5/scripts/templates/settings/communication_preferences.mustache:4
 #: .es5/scripts/templates/settings/display_name.mustache:2
 msgid "Change…"
-msgstr ""
+msgstr "변경…"
 
 #: .es5/scripts/templates/settings/avatar.mustache:4
 msgid "Add…"
-msgstr ""
+msgstr "추가…"
 
 #: .es5/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -957,15 +952,15 @@ msgstr ""
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
-msgstr ""
+msgstr "의심스러운 기기"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen device"
-msgstr ""
+msgstr "분실 또는 도난 당한 장치"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced device"
-msgstr ""
+msgstr "예전 혹은 변경된 기기"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
@@ -985,11 +980,11 @@ msgstr "현재 기기"
 
 #: .es5/scripts/templates/settings/clients.mustache:5
 msgid "Disconnect…"
-msgstr ""
+msgstr "연결끊기…"
 
 #: .es5/scripts/templates/settings/clients.mustache:9
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "iOS용 Firefox"
 
 #: .es5/scripts/templates/settings/clients.mustache:10 .es5/scripts/templates/settings/clients.mustache:12
 msgid "Get app"
@@ -997,11 +992,11 @@ msgstr ""
 
 #: .es5/scripts/templates/settings/clients.mustache:11
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Android용 Firefox"
 
 #: .es5/scripts/templates/settings/clients.mustache:14
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "누락되었거나 중복된 항목이 있나요?"
 
 #: .es5/scripts/templates/settings/clients.mustache:15
 msgid "Refresh"
@@ -1029,7 +1024,7 @@ msgstr "계정 삭제"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete…"
-msgstr ""
+msgstr "삭제…"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
@@ -1075,11 +1070,9 @@ msgstr "Firefox Account 사용"
 #~ msgstr "다른 이메일을 사용하는 계정을 가지고 있나요? <a href=\"%(signinUri)s\">로그인</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
-#~ msgstr ""
-#~ "Firefox는 <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> 그리고 <a href=\"%(linkLinux)s"
-#~ "\">Linux</a>를 지원합니다."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ msgstr "Firefox는 <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> 그리고 <a href=\"%(linkLinux)s\">Linux</a>를 지원합니다."
 
 #~ msgid "Incorrect password"
 #~ msgstr "맞지 않는 암호"
