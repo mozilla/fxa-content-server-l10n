@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-01 14:26+0000\n"
-"PO-Revision-Date: 2016-11-06 11:56+0000\n"
-"Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
+"PO-Revision-Date: 2016-11-06 12:22+0000\n"
+"Last-Translator: paul.trevor <paul.trevor@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -330,7 +330,7 @@ msgstr "Neue Anmeldung bei Firefox bestätigen"
 
 #: mailer.js:383
 msgid "Reset your Firefox Account password"
-msgstr "Setzten Sie das Passwort Ihres Firefox-Kontos zurück"
+msgstr "Setzen Sie das Passwort Ihres Firefox-Kontos zurück"
 
 #: mailer.js:408
 msgid "Your Firefox Account password has been changed"
