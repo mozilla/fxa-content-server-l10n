@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-01 14:26+0000\n"
-"PO-Revision-Date: 2016-11-02 16:15+0000\n"
+"PO-Revision-Date: 2016-11-06 00:26+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -555,7 +555,7 @@ msgstr "Preferências"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr "As Preferências e os Extras não são atualmente sincronizados em dispositivos móveis."
+msgstr "As Preferências e Extras não são atualmente sincronizados em dispositivos móveis."
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
