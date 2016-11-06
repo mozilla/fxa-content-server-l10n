@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-01 14:26+0000\n"
-"PO-Revision-Date: 2016-11-06 12:22+0000\n"
+"PO-Revision-Date: 2016-11-06 13:37+0000\n"
 "Last-Translator: paul.trevor <paul.trevor@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -232,7 +232,7 @@ msgstr "Sind Sie das, der sich da anmeldet?"
 
 #: templates/unblock_code.html:4 templates/unblock_code.txt:3
 msgid "If yes, here is the authorization code you need:"
-msgstr "Wenn ja, ist hier der benötigte Autorisierungcode:"
+msgstr "Wenn ja, ist hier der benötigte Autorisierungscode:"
 
 #: templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
