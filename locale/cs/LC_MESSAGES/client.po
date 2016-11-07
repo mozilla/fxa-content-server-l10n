@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-01 14:26+0000\n"
-"PO-Revision-Date: 2016-11-01 22:37+0000\n"
+"PO-Revision-Date: 2016-11-07 17:51+0000\n"
 "Last-Translator: Tomáš Zelina <zelitomas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -1038,7 +1038,7 @@ msgstr "Nastavte si jméno, které chcete, aby se zobrazovalo ve Firefoxu při s
 
 #: .es5/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
-msgstr "Jak jste staří?"
+msgstr "Kolik vám je let?"
 
 #: .es5/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
