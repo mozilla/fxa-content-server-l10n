@@ -395,6 +395,3 @@ msgstr "Usługi Firefox cloud"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Regulamin usługi"
-
-#~ msgid "Alternatively:"
-#~ msgstr "Lub odwiedź:"
