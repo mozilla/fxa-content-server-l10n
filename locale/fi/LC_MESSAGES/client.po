@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-01 14:26+0000\n"
-"PO-Revision-Date: 2016-11-07 18:40+0000\n"
+"PO-Revision-Date: 2016-11-07 18:59+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -395,11 +395,11 @@ msgstr "Linkki vioittunut"
 
 #: .es5/scripts/lib/config-loader.js:81
 msgid "Missing configuration"
-msgstr ""
+msgstr "Puuttuvat asetukset"
 
 #: .es5/scripts/lib/config-loader.js:85
 msgid "Invalid configuration"
-msgstr ""
+msgstr "Virheelliset asetukset"
 
 #: .es5/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
@@ -641,7 +641,7 @@ msgstr "Sähköposti lähetetty"
 
 #: .es5/scripts/templates/confirm.mustache:6
 msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Vahvistuslinkki on lähetetty osoitteeseen %(escapedEmail)s"
 
 #: .es5/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
@@ -863,7 +863,7 @@ msgstr "Luo Firefox-tili"
 
 #: .es5/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-msgstr ""
+msgstr "Etsitkö Firefox Sync -palvelua? <a href=\"%(escapedSyncSuggestionUrl)s\">Aloita täältä</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -980,7 +980,7 @@ msgstr "nykyinen laite"
 
 #: .es5/scripts/templates/settings/clients.mustache:5
 msgid "Disconnect…"
-msgstr "Katkaise yhteys…"
+msgstr "Katkaise…"
 
 #: .es5/scripts/templates/settings/clients.mustache:9
 msgid "Firefox for iOS"
@@ -996,7 +996,7 @@ msgstr "Firefox Androidille"
 
 #: .es5/scripts/templates/settings/clients.mustache:14
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "Puuttuuko jokin tai onko jokin kahteen kertaan?"
 
 #: .es5/scripts/templates/settings/clients.mustache:15
 msgid "Refresh"
