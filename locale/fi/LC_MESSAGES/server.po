@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-01 14:26+0000\n"
-"PO-Revision-Date: 2016-11-07 12:42+0000\n"
+"PO-Revision-Date: 2016-11-07 18:20+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -342,7 +342,7 @@ msgstr "Firefox-tilin salasanan nollaus vaaditaan"
 
 #: mailer.js:505
 msgid "Firefox Account verified"
-msgstr ""
+msgstr "Firefox-tili vahvistettu"
 
 #: mailer.js:543
 msgid "Suspicious activity with your Firefox Account"
