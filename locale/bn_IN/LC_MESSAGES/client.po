@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-01 14:26+0000\n"
-"PO-Revision-Date: 2016-11-08 05:40+0000\n"
+"PO-Revision-Date: 2016-11-08 05:49+0000\n"
 "Last-Translator: Ayan Choudhury <ping2ayan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_IN\n"
@@ -149,7 +149,7 @@ msgstr "Outlook খুলুন"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:37
 msgid "Open Restmail"
-msgstr ""
+msgstr "Restmail খুলুন"
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:22
 msgid "8 characters minimum, but longer if you plan to sync passwords."
@@ -403,7 +403,7 @@ msgstr "ভুল কনফিগারেশন"
 
 #: .es5/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "আপনি কি <span tabindex=\"1\"> %(escapedDomain)s </span> এটা মানে করতে চেয়েছিলেন?"
 
 #: .es5/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -641,7 +641,7 @@ msgstr "ইমেইল পাঠানো হয়েছে"
 
 #: .es5/scripts/templates/confirm.mustache:6
 msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "একটা যাচাইকরণ লিঙ্ক পাঠানো হয়েছে &nbsp; থেকে %(escapedEmail)s-এ"
 
 #: .es5/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
@@ -847,15 +847,15 @@ msgstr "এই সাইন-ইন করার অনুমতি দিন"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr ""
+msgstr "আপনার Firefox তথ্য রক্ষা করার জন্য, একটি অনুমোদিত কোড আপনার জন্য অপেক্ষা করছে %(email)s-এ।"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "অনুমোদন কোড টি দিন"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"
-msgstr ""
+msgstr "চালু রাখুন"
 
 #: .es5/scripts/templates/sign_up.mustache:1 .es5/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
@@ -863,36 +863,36 @@ msgstr "একটি Firefox অ্যাকাউন্ট তৈরি কর�
 
 #: .es5/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-msgstr ""
+msgstr "Firefox সিঙ্কের জন্য দেখছেন? <a href=\"%(escapedSyncSuggestionUrl)s\">এখানে শুরু করুন</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr ""
+msgstr "একটি নতুন Firefox &nbsp; অ্যাকাউন্ট খুলে আপনার সিঙ্ক ডেটা স্থানান্তর করুন।"
 
 #: .es5/scripts/templates/sign_up.mustache:10
 msgid "Have an account with a different email? <a href=\"%(escapedSignInUri)s\">Sign in</a>"
-msgstr ""
+msgstr "অন্য ইমেইল দিয়ে অ্যাকাউন্ট আছে? <a href=\"%(escapedSignInUri)s\">সাইন ইন</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
-msgstr ""
+msgstr "মাসিক Firefox নিউজলেটার গ্রহন করুন।"
 
 #: .es5/scripts/templates/sign_up.mustache:22
 msgid "Create account"
-msgstr ""
+msgstr "অ্যাকাউন্ট তৈরি করুন"
 
 #: .es5/scripts/templates/sign_up.mustache:27
 msgid "Have an account? Sign in"
-msgstr ""
+msgstr "অ্যাকাউন্ট আছে? সাইন ইন করুন"
 
 #: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2 .es5/scripts/templates/settings/communication_preferences.mustache:4
 #: .es5/scripts/templates/settings/display_name.mustache:2
 msgid "Change…"
-msgstr ""
+msgstr "পরিবর্তন…"
 
 #: .es5/scripts/templates/settings/avatar.mustache:4
 msgid "Add…"
-msgstr ""
+msgstr "যুক্ত করুন…"
 
 #: .es5/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -912,11 +912,11 @@ msgstr "গ্র্যাভ্যাতার"
 
 #: .es5/scripts/templates/settings/avatar_change.mustache:4
 msgid "Clear"
-msgstr ""
+msgstr "মুছে ফেলুন"
 
 #: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/clients.mustache:16
 msgid "Done"
-msgstr ""
+msgstr "সমাপ্ত"
 
 #: .es5/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
@@ -940,83 +940,83 @@ msgstr "পুরোনো পাসওয়ার্ড"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
-msgstr ""
+msgstr "সিঙ্ক থেকে সংযোগ বিচ্ছিন্ন করবেন?"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr ""
+msgstr "আপনার ব্রাউজিং ডেটা থাকবে এতে %(deviceName)s, কিন্তু এটা এখন আর আপনার অ্যাকাউন্টের সাথে সিঙ্ক হবে না।"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Reason for disconnecting…"
-msgstr ""
+msgstr "সংযোগ বিচ্ছিন্ন করার কারণ…"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
-msgstr ""
+msgstr "সন্দেহজনক ডিভাইস"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen device"
-msgstr ""
+msgstr "হারিয়ে অথবা চুরি যাওয়া ডিভাইস"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced device"
-msgstr ""
+msgstr "পুরনো বা পাল্টানো ডিভাইস"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
-msgstr ""
+msgstr "না বলাই ভালো"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:8 .es5/scripts/templates/settings/clients.mustache:7
 msgid "Disconnect"
-msgstr ""
+msgstr "বিচ্ছিন্ন করা"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
-msgstr ""
+msgstr "বিচ্ছিন্ন সফল"
 
 #: .es5/scripts/templates/settings/clients.mustache:3
 msgid "current device"
-msgstr ""
+msgstr "বর্তমান ডিভাইস"
 
 #: .es5/scripts/templates/settings/clients.mustache:5
 msgid "Disconnect…"
-msgstr ""
+msgstr "বিযুক্ত করুন…"
 
 #: .es5/scripts/templates/settings/clients.mustache:9
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "iOS-র জন্য Firefox"
 
 #: .es5/scripts/templates/settings/clients.mustache:10 .es5/scripts/templates/settings/clients.mustache:12
 msgid "Get app"
-msgstr ""
+msgstr "অ্যাপ পান"
 
 #: .es5/scripts/templates/settings/clients.mustache:11
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Android-র জন্য Firefox"
 
 #: .es5/scripts/templates/settings/clients.mustache:14
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "হারিয়ে যাওয়া বা অনুরূপ উপাদান?"
 
 #: .es5/scripts/templates/settings/clients.mustache:15
 msgid "Refresh"
-msgstr ""
+msgstr "রিফ্রেশ"
 
 #: .es5/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
-msgstr ""
+msgstr "যোগাযোগের অগ্রাধিকারসমূহ"
 
 #: .es5/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
-msgstr ""
+msgstr "ইমেইলের পছন্দসমূহ"
 
 #: .es5/scripts/templates/settings/communication_preferences.mustache:10
 msgid "Unsubscribe"
-msgstr ""
+msgstr "আনসাবস্ক্রাইব"
 
 #: .es5/scripts/templates/settings/communication_preferences.mustache:12
 msgid "Subscribe"
-msgstr ""
+msgstr "সাবস্ক্রাইব"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:6
 msgid "Delete account"
@@ -1024,7 +1024,7 @@ msgstr "অ্যাকাউন্ট মুছে ফেলুন।"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete…"
-msgstr ""
+msgstr "মুছে ফেলুন…"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
@@ -1032,27 +1032,27 @@ msgstr "আপনি কি নিশ্চিত যে আপনি আপন�
 
 #: .es5/scripts/templates/settings/display_name.mustache:3
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr ""
+msgstr "আপনি আপনার অ্যাকাউন্ট পরিচালনার সময় Firefox এ যে নাম প্রদর্শিত করতে চান তা চয়ন করুন।"
 
 #: .es5/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
-msgstr ""
+msgstr "আপনার বয়স কত?"
 
 #: .es5/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "সিঙ্ক করতে সাইন ইন করুন"
 
 #: .es5/scripts/templates/openid/start.mustache:2
 msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-msgstr ""
+msgstr "আপনার ট্যাগ, বুকমার্ক, পাসওয়ার্ড এবং আরও কিছু সিঙ্ক করার জন্য আপনার পছন্দের অ্যাকাউন্ট টি নির্বাচন করুন।"
 
 #: .es5/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
-msgstr ""
+msgstr "ব্যবহার করুন OpenID"
 
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr ""
+msgstr "Firefox অ্যাকাউন্ট ব্যবহার করুন"
 
 #~ msgid "You can manage your devices below."
 #~ msgstr "আপনি নিজে আপনার ডিভাইস পরিচালনা করতে পারবেন।"
