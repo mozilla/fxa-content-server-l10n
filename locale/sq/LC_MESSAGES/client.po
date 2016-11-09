@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-01 14:26+0000\n"
-"PO-Revision-Date: 2016-11-09 11:07+0000\n"
+"PO-Revision-Date: 2016-11-09 12:46+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -474,7 +474,7 @@ msgstr "Parametër i pavlefshëm te lënda e kërkesës: %(param)s"
 
 #: .es5/scripts/lib/profile-errors.js:31
 msgid "Unsupported image provider"
-msgstr "Mundësues i pambuluar figurash"
+msgstr "Furnizues figurash i pambuluar"
 
 #: .es5/scripts/lib/profile-errors.js:35
 msgid "Image processing error"
