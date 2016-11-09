@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-01 14:26+0000\n"
-"PO-Revision-Date: 2016-11-02 19:01+0000\n"
+"PO-Revision-Date: 2016-11-09 00:46+0000\n"
 "Last-Translator: Moḥend Belqasem <belkacem77@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -586,7 +586,7 @@ msgstr "Sekcem awal uffir amaynut"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:9
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-msgstr "Ticki tuzneḍ-d awal inek uffir amaynut, Ak-ṛuḥen akk isefka ur nelli ara qef ibenkan inek."
+msgstr "Ticki tuzneḍ-d awal inek uffir amaynut, Ak-ṛuḥen akk isefka ur nelli ara ɣef ibenkan inek."
 
 #: .es5/scripts/templates/complete_reset_password.mustache:10 .es5/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
@@ -797,7 +797,7 @@ msgstr "Tettuḍ awal uffir"
 
 #: .es5/scripts/templates/reset_password.mustache:2
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr "Ticki yettuwennez wawal inek uffir, Ak-ṛuḥen akk isefka ur nelli ara qef ibenkan inek."
+msgstr "Ticki yettuwennez wawal inek uffir, Ak-ṛuḥen akk isefka ur nelli ara ɣef ibenkan inek."
 
 #: .es5/scripts/templates/reset_password.mustache:5 .es5/scripts/templates/sign_in.mustache:18 .es5/scripts/templates/sign_up.mustache:13
 #: .es5/scripts/templates/settings/gravatar_permissions.mustache:3
