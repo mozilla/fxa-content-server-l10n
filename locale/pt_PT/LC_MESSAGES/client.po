@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-01 14:26+0000\n"
-"PO-Revision-Date: 2016-11-06 00:26+0000\n"
+"PO-Revision-Date: 2016-11-10 22:11+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -151,7 +151,7 @@ msgstr "Abrir Outlook"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:37
 msgid "Open Restmail"
-msgstr ""
+msgstr "Abrir Restmail"
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:22
 msgid "8 characters minimum, but longer if you plan to sync passwords."
