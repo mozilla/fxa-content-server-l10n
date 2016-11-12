@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-01 14:26+0000\n"
-"PO-Revision-Date: 2016-11-12 12:41+0000\n"
+"PO-Revision-Date: 2016-11-12 13:33+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -784,7 +784,7 @@ msgstr "İzinsiz giriş rapor edilsin mi?"
 
 #: .es5/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr ""
+msgstr "Hesabınıza yapılan bir giriş denemesiyle ilgili bir e-posta aldınız. Bu denemeyi şüpheli etkinlik olarak rapor etmek ister misiniz?"
 
 #: .es5/scripts/templates/report_sign_in.mustache:6
 msgid "Report activity"
@@ -849,11 +849,11 @@ msgstr "Bu girişe izin ver"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr ""
+msgstr "Firefox verilerinizi daha iyi koruyabilmek için %(email)s adresine bir yetkilendirme kodu gönderdik."
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "Yetkilendirme kodunu girin"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"
@@ -865,7 +865,7 @@ msgstr "Firefox Hesabı Oluştur"
 
 #: .es5/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-msgstr ""
+msgstr "Firefox Sync'i mi arıyorsunuz? <a href=\"%(escapedSyncSuggestionUrl)s\">Buradan başlayın</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -873,7 +873,7 @@ msgstr "Yeni bir Firefox&nbsp;Hesabı oluşturarak eşitleme verilerinizi taşı
 
 #: .es5/scripts/templates/sign_up.mustache:10
 msgid "Have an account with a different email? <a href=\"%(escapedSignInUri)s\">Sign in</a>"
-msgstr ""
+msgstr "Başka bir e-posta adresiyle hesabınız mı var? <a href=\"%(escapedSignInUri)s\">Giriş yapın</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
