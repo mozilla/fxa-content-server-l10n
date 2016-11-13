@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-01 14:26+0000\n"
-"PO-Revision-Date: 2016-09-04 18:28+0000\n"
-"Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
+"PO-Revision-Date: 2016-11-13 13:45+0000\n"
+"Last-Translator: Vanja Tumbas <tumbas93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
@@ -32,11 +32,11 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
-"Успешно сте повезали први уређај на Firefox налог. Да максимално искористите Sync, повежите се са било којим <a href='%(androidUrl)s'>Firefox за Android</a> или <a href='%(iosUrl)s'>Firefox за iOS</"
-"a>."
+"Успешно сте повезали први уређај на Firefox налог. Да максимално искористите Sync, повежите се са било којим <a href='%(androidUrl)s'>Firefox за Android</a> или <a href='%(iosUrl)s'>Firefox за "
+"iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -244,8 +244,8 @@ msgstr "Поздрав."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 "Направили сте Firefox налог, али га нисте потврдили. Потврђен налог вам омогућава да приступите вашим језичцима, забелешкама, лозинкама и историји претраге на повезаном уређају. Једноставно "
 "потврдите ову адресу е-поште да активирате налог."
@@ -296,7 +296,7 @@ msgstr "Ако сумњате да неко покушава да приступ
 
 #: mailer.js:161
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(stateCode)s, %(country)s (процењено)"
 
 #: mailer.js:163
 msgid "%(city)s, %(country)s (estimated)"
@@ -304,7 +304,7 @@ msgstr "%(city)s, %(country)s (процењено)"
 
 #: mailer.js:165
 msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(stateCode)s, %(country)s (процењено)"
 
 #: mailer.js:167
 msgid "%(country)s (estimated)"
@@ -340,7 +340,7 @@ msgstr "Потребно је да ресетујете лозинку Firefox �
 
 #: mailer.js:505
 msgid "Firefox Account verified"
-msgstr ""
+msgstr "Firefox налог потврђен"
 
 #: mailer.js:543
 msgid "Suspicious activity with your Firefox Account"
@@ -447,8 +447,8 @@ msgstr "Услови коришћења"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Направили сте Firefox налог пре недељу дана, али га нисте потврдили. Забринути смо за вас. Firefox је доступан на Windows, Mac, Linux, Android и iOS. Можете синхронизовати Firefox лозинке, "
-#~ "забелешке и историју претраге на свим уређајима. Потврдите ову адресу е-поште да активирате налог и да нам кажете да сте ок."
+#~ "Направили сте Firefox налог пре недељу дана, али га нисте потврдили. Забринути смо за вас. Firefox је доступан на Windows, Mac, Linux, Android и iOS. Можете синхронизовати Firefox лозинке, забелешке"
+#~ " и историју претраге на свим уређајима. Потврдите ову адресу е-поште да активирате налог и да нам кажете да сте ок."
 
 #~ msgid "env"
 #~ msgstr "env"
