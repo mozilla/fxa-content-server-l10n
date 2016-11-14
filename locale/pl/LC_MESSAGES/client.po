@@ -1043,12 +1043,3 @@ msgstr "Użyj OpenID"
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Użyj konta Firefoksa"
-
-#~ msgid "Devices"
-#~ msgstr "Urządzenia"
-
-#~ msgid "Stay in sync on the go:"
-#~ msgstr "Synchronizuj między urządzeniami:"
-
-#~ msgid "Get Firefox for Android"
-#~ msgstr "Pobierz Firefoksa na Androida"
