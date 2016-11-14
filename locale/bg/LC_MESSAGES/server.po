@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-01 14:26+0000\n"
+"POT-Creation-Date: 2016-11-14 16:19+0000\n"
 "PO-Revision-Date: 2016-10-27 09:40+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1426228038.0\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:568
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:580
 msgid "Still there?"
 msgstr "Още ли сте тук?"
 
@@ -54,7 +54,7 @@ msgstr "Впишете се в Sync"
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:476
+#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:488
 msgid "New sign-in to Firefox"
 msgstr "Ново вписване във Firefox"
 
@@ -240,7 +240,7 @@ msgstr "Ако ли пък не – ни помогнете да отблъсн�
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Ако ли пък не – ни помогнете да отблъснем натрапниците ни ги докладвайте."
 
-#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:565
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:577
 msgid "Hello again."
 msgstr "Здравейте отново."
 
@@ -296,55 +296,63 @@ msgstr "Ако подозирате, че някой се опитва да по
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr "Ако подозирате, че някой се опитва да получи достъп до вашата сметка, моля, сменете паролата си."
 
-#: mailer.js:161
+#: mailer.js:143
+msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
+msgstr ""
+
+#: mailer.js:146
+msgid "%(uaBrowser)s on %(uaOS)s"
+msgstr ""
+
+#: mailer.js:173
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (приблизително)"
 
-#: mailer.js:163
+#: mailer.js:175
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (приблизително)"
 
-#: mailer.js:165
+#: mailer.js:177
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (приблизително)"
 
-#: mailer.js:167
+#: mailer.js:179
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (приблизително)"
 
-#: mailer.js:268
+#: mailer.js:280
 msgid "Verify your Firefox Account"
 msgstr "Препотвърждаване на Firefox Account"
 
-#: mailer.js:302
+#: mailer.js:314
 msgid "Firefox Account authorization code"
 msgstr "Код за упълномощаване във Firefox Account"
 
-#: mailer.js:343
+#: mailer.js:355
 msgid "Confirm new sign-in to Firefox"
 msgstr "Потвърждение на вписване във Firefox"
 
-#: mailer.js:383
+#: mailer.js:395
 msgid "Reset your Firefox Account password"
 msgstr "Нулиране на парола за Firefox Account"
 
-#: mailer.js:408
+#: mailer.js:420
 msgid "Your Firefox Account password has been changed"
 msgstr "Паролата ви за Firefox Account беше сменена"
 
-#: mailer.js:431
+#: mailer.js:443
 msgid "Your Firefox Account password has been reset"
 msgstr "Паролата ви за Firefox Account беше нулирана"
 
-#: mailer.js:454
+#: mailer.js:466
 msgid "Firefox Account password reset required"
 msgstr "Необходимо е нулиране на паролата за Firefox Account"
 
-#: mailer.js:505
+#: mailer.js:517
 msgid "Firefox Account verified"
 msgstr "Потвърден Firefox Account"
 
-#: mailer.js:543
+#: mailer.js:555
 msgid "Suspicious activity with your Firefox Account"
 msgstr "Подозрителна активност с вашия Firefox Account"
 
