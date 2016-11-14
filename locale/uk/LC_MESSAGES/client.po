@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-01 14:26+0000\n"
+"POT-Creation-Date: 2016-11-14 16:19+0000\n"
 "PO-Revision-Date: 2016-11-01 20:23+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 msgid "Account verified successfully"
 msgstr "Обліковий запис успішно перевірено"
 
-#: .es5/scripts/views/confirm_reset_password.js:163 .es5/scripts/views/ready.js:43
+#: .es5/scripts/views/confirm_reset_password.js:163 .es5/scripts/views/ready.js:42
 msgid "Password reset"
 msgstr "Відновлення пароля"
 
@@ -43,27 +43,27 @@ msgstr "Ім'я для показу"
 msgid "Account picture"
 msgstr "Зображення облікового запису"
 
-#: .es5/scripts/views/ready.js:29
+#: .es5/scripts/views/ready.js:28
 msgid "Firefox Sync will begin momentarily"
 msgstr "Синхронізація Firefox розпочнеться за мить"
 
-#: .es5/scripts/views/ready.js:38
+#: .es5/scripts/views/ready.js:37
 msgid "Welcome back"
 msgstr "З поверненням"
 
-#: .es5/scripts/views/ready.js:39
+#: .es5/scripts/views/ready.js:38
 msgid "Firefox Sync will resume momentarily"
 msgstr "Синхронізація Firefox продовжиться за мить"
 
-#: .es5/scripts/views/ready.js:49
+#: .es5/scripts/views/ready.js:48
 msgid "Sign-in confirmed"
 msgstr "Вхід підтверджено"
 
-#: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55 .es5/scripts/templates/ready.mustache:3
+#: .es5/scripts/views/ready.js:49 .es5/scripts/views/ready.js:54 .es5/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Тепер ви готові використовувати Синхронізацію Firefox"
 
-#: .es5/scripts/views/ready.js:54
+#: .es5/scripts/views/ready.js:53
 msgid "Account verified"
 msgstr "Обліковий запис підтверджено"
 
@@ -75,7 +75,7 @@ msgstr "Невідомий обліковий запис. <a href=\"/signup\">З
 msgid "Account no longer exists. Recreate it?"
 msgstr "Обліковий запис більше не існує. Повторно створити його?"
 
-#: .es5/scripts/views/sign_up.js:341
+#: .es5/scripts/views/sign_up.js:346
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Обліковий запис вже існує. <a href=\"/signin\">Увійти</a>"
 
@@ -95,17 +95,9 @@ msgstr "Нам шкода чути про це. Ви повинні змінит
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Нам шкода чути про це. Якщо це пристрій, якому ви дійсно не довіряєте, ви маєте змінити пароль облікового запису Firefox і змінити паролі, що зберігаються в Firefox."
 
-#: .es5/scripts/views/settings/clients.js:51
+#: .es5/scripts/views/settings/clients.js:50
 msgid "Last active %(translatedTimeAgo)s"
 msgstr "Остання активність %(translatedTimeAgo)s"
-
-#: .es5/scripts/views/settings/clients.js:110
-msgid "Devices"
-msgstr "Пристрої"
-
-#: .es5/scripts/views/settings/clients.js:113
-msgid "Devices & apps"
-msgstr "Пристрої та програми"
 
 #: .es5/scripts/views/settings/communication_preferences.js:106
 msgid "Subscribed successfully"
@@ -155,7 +147,7 @@ msgstr "Відкрити Restmail"
 msgid "8 characters minimum, but longer if you plan to sync passwords."
 msgstr "Не менше 8 символів, але більше якщо ви плануєте синхронізувати паролі."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:23 .es5/scripts/templates/sign_up.mustache:18
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:23 .es5/scripts/templates/sign_up.mustache:17
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "Сильний, унікальний пароль захистить дані вашого Firefox від зловмисників."
 
@@ -301,7 +293,7 @@ msgstr "Не вдалося отримати умови користування
 msgid "Your new password must be different"
 msgstr "Ваш новий пароль повинен бути іншим"
 
-#: .es5/scripts/lib/auth-errors.js:165 .es5/scripts/templates/complete_reset_password.mustache:14 .es5/scripts/templates/settings/change_password.mustache:9
+#: .es5/scripts/lib/auth-errors.js:165 .es5/scripts/templates/complete_reset_password.mustache:13 .es5/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "Повинно бути не менше 8 символів"
 
@@ -470,10 +462,12 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:24
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"Продовжуючи, ви погоджуєтесь із <a id=\"service-tos\" href=\"%(termsUri)s\">Умовами використання</a> та <a id=\"service-pp\" href=\"%(privacyUri)s\">Повідомленням про приватність</a> %(serviceName)s"
-" (%(serviceUri)s)."
+"Продовжуючи, ви погоджуєтесь із <a id=\"service-tos\" href=\"%(termsUri)s\">Умовами використання</a> та <a id=\"service-pp\" href=\"%(privacyUri)s\">Повідомленням про приватність</a> "
+"%(serviceName)s (%(serviceUri)s)."
 
 #: .es5/scripts/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -523,7 +517,7 @@ msgstr "Ви повинні відповідати віковим вимогам
 msgid "Learn more."
 msgstr "Дізнатись більше."
 
-#: .es5/scripts/templates/choose_what_to_sync.mustache:1 .es5/scripts/templates/sign_up.mustache:24
+#: .es5/scripts/templates/choose_what_to_sync.mustache:1 .es5/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
 msgstr "Виберіть що синхронізувати"
 
@@ -595,21 +589,15 @@ msgstr "Як тільки ви відправите новий пароль, в�
 msgid "Learn how Sync works."
 msgstr "Дізнатися, як працює Синхронізація."
 
-#: .es5/scripts/templates/complete_reset_password.mustache:12 .es5/scripts/templates/settings/change_password.mustache:7
+#: .es5/scripts/templates/complete_reset_password.mustache:12 .es5/scripts/templates/settings/change_password.mustache:6
 msgid "New password"
 msgstr "Новий пароль"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:13 .es5/scripts/templates/complete_reset_password.mustache:16 .es5/scripts/templates/force_auth.mustache:5
-#: .es5/scripts/templates/sign_in.mustache:9 .es5/scripts/templates/sign_in.mustache:21 .es5/scripts/templates/sign_up.mustache:17 .es5/scripts/templates/settings/change_password.mustache:5
-#: .es5/scripts/templates/settings/change_password.mustache:8 .es5/scripts/templates/settings/clients.mustache:2 .es5/scripts/templates/settings/delete_account.mustache:5
-msgid "Show"
-msgstr "Показати"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:15
+#: .es5/scripts/templates/complete_reset_password.mustache:14
 msgid "Repeat password"
 msgstr "Повторити пароль"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:17
+#: .es5/scripts/templates/complete_reset_password.mustache:15
 msgid "Submit new password"
 msgstr "Відправити новий пароль"
 
@@ -689,23 +677,25 @@ msgstr "Спробувати знову"
 msgid "Sign in to continue"
 msgstr "Увійти для продовження"
 
-#: .es5/scripts/templates/force_auth.mustache:3 .es5/scripts/templates/sign_in.mustache:8 .es5/scripts/templates/sign_in.mustache:19 .es5/scripts/templates/sign_up.mustache:15
+#: .es5/scripts/templates/force_auth.mustache:3 .es5/scripts/templates/sign_in.mustache:8 .es5/scripts/templates/sign_in.mustache:18 .es5/scripts/templates/sign_up.mustache:15
 #: .es5/scripts/templates/settings/change_password.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Пароль"
 
-#: .es5/scripts/templates/force_auth.mustache:6 .es5/scripts/templates/sign_in.mustache:1 .es5/scripts/templates/sign_in.mustache:4 .es5/scripts/templates/sign_in.mustache:10
-#: .es5/scripts/templates/sign_in.mustache:14 .es5/scripts/templates/sign_in.mustache:22
+#: .es5/scripts/templates/force_auth.mustache:5 .es5/scripts/templates/sign_in.mustache:1 .es5/scripts/templates/sign_in.mustache:4 .es5/scripts/templates/sign_in.mustache:9
+#: .es5/scripts/templates/sign_in.mustache:13 .es5/scripts/templates/sign_in.mustache:20
 msgid "Sign in"
 msgstr "Увійти"
 
-#: .es5/scripts/templates/force_auth.mustache:7 .es5/scripts/templates/sign_in.mustache:11 .es5/scripts/templates/sign_in.mustache:23 .es5/scripts/templates/settings/change_password.mustache:6
+#: .es5/scripts/templates/force_auth.mustache:6 .es5/scripts/templates/sign_in.mustache:10 .es5/scripts/templates/sign_in.mustache:21 .es5/scripts/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "Забули пароль?"
 
-#: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
+#: .es5/scripts/templates/force_auth.mustache:7 .es5/scripts/templates/sign_in.mustache:23 .es5/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Продовжуючи, ви погоджуєтесь із <a id=\"fxa-tos\" href=\"/legal/terms\">Умовами використання</a> та <a id=\"fxa-pp\" href=\"/legal/privacy\">Повідомленням про приватність</a> хмарних сервісів Firefox."
+msgstr ""
+"Продовжуючи, ви погоджуєтесь із <a id=\"fxa-tos\" href=\"/legal/terms\">Умовами використання</a> та <a id=\"fxa-pp\" href=\"/legal/privacy\">Повідомленням про приватність</a> хмарних сервісів "
+"Firefox."
 
 #: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -723,27 +713,19 @@ msgstr "Умови надання послуги"
 msgid "Privacy Notice"
 msgstr "Повідомлення про приватність"
 
-#: .es5/scripts/templates/marketing_snippet.mustache:1
-msgid "Stay in sync on the go:"
-msgstr "Залишайтесь синхронізованим де б ви не були:"
-
-#: .es5/scripts/templates/marketing_snippet.mustache:2
-msgid "Get Firefox for Android"
-msgstr "Отримати Firefox для Android"
-
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:1 .es5/scripts/templates/marketing_snippet_ios.mustache:5 .es5/scripts/templates/marketing_snippet_ios.mustache:9
+#: .es5/scripts/templates/marketing_snippet.mustache:1 .es5/scripts/templates/marketing_snippet.mustache:5 .es5/scripts/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
 msgstr "Отримайте повну віддачу від синхронізації."
 
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:2 .es5/scripts/templates/marketing_snippet_ios.mustache:3 .es5/scripts/templates/marketing_snippet_ios.mustache:12
+#: .es5/scripts/templates/marketing_snippet.mustache:2 .es5/scripts/templates/marketing_snippet.mustache:3 .es5/scripts/templates/marketing_snippet.mustache:11
 msgid "Download Firefox for iOS!"
 msgstr "Завантажити Firefox для iOS!"
 
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:6 .es5/scripts/templates/marketing_snippet_ios.mustache:7 .es5/scripts/templates/marketing_snippet_ios.mustache:11
+#: .es5/scripts/templates/marketing_snippet.mustache:6 .es5/scripts/templates/marketing_snippet.mustache:7 .es5/scripts/templates/marketing_snippet.mustache:12
 msgid "Download Firefox for Android."
 msgstr "Завантажити Firefox для Android."
 
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:10
+#: .es5/scripts/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
 msgstr "Завантажте Firefox для мобільних пристроїв."
 
@@ -760,8 +742,8 @@ msgid "Accept"
 msgstr "Погодитись"
 
 #: .es5/scripts/templates/permissions.mustache:4 .es5/scripts/templates/settings/avatar_camera.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:3
-#: .es5/scripts/templates/settings/avatar_gravatar.mustache:3 .es5/scripts/templates/settings/change_password.mustache:11 .es5/scripts/templates/settings/client_disconnect.mustache:9
-#: .es5/scripts/templates/settings/communication_preferences.mustache:5 .es5/scripts/templates/settings/communication_preferences.mustache:13 .es5/scripts/templates/settings/delete_account.mustache:7
+#: .es5/scripts/templates/settings/avatar_gravatar.mustache:3 .es5/scripts/templates/settings/change_password.mustache:9 .es5/scripts/templates/settings/client_disconnect.mustache:9
+#: .es5/scripts/templates/settings/communication_preferences.mustache:5 .es5/scripts/templates/settings/communication_preferences.mustache:13 .es5/scripts/templates/settings/delete_account.mustache:6
 #: .es5/scripts/templates/settings/display_name.mustache:6 .es5/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
 msgstr "Скасувати"
@@ -802,7 +784,7 @@ msgstr "Забули пароль"
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "При скиданні паролю, ви втратите будь-які дані синхронізації, яких немає на одному з ваших пристроїв."
 
-#: .es5/scripts/templates/reset_password.mustache:5 .es5/scripts/templates/sign_in.mustache:18 .es5/scripts/templates/sign_up.mustache:13
+#: .es5/scripts/templates/reset_password.mustache:5 .es5/scripts/templates/sign_in.mustache:17 .es5/scripts/templates/sign_up.mustache:13
 #: .es5/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "Електронна пошта"
@@ -827,11 +809,11 @@ msgstr "Продовжити в %(serviceName)s"
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr "Перенесіть свої синхронізовані дані, увійшовши в обліковий запис&nbsp;Firefox."
 
-#: .es5/scripts/templates/sign_in.mustache:12 .es5/scripts/templates/sign_in.mustache:15
+#: .es5/scripts/templates/sign_in.mustache:11 .es5/scripts/templates/sign_in.mustache:14
 msgid "Use a different account"
 msgstr "Використати інший обліковий запис"
 
-#: .es5/scripts/templates/sign_in.mustache:24
+#: .es5/scripts/templates/sign_in.mustache:22
 msgid "Create an account"
 msgstr "Створити обліковий запис"
 
@@ -875,15 +857,15 @@ msgstr "Перенесіть свої синхронізовані дані, с�
 msgid "Have an account with a different email? <a href=\"%(escapedSignInUri)s\">Sign in</a>"
 msgstr "Маєте обліковий запис з іншою адресою е-пошти? <a href=\"%(escapedSignInUri)s\">Увійти</a>"
 
-#: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
+#: .es5/scripts/templates/sign_up.mustache:19 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
 msgstr "Отримувати щомісячну розсилку новин про Firefox."
 
-#: .es5/scripts/templates/sign_up.mustache:22
+#: .es5/scripts/templates/sign_up.mustache:21
 msgid "Create account"
 msgstr "Створити обліковий запис"
 
-#: .es5/scripts/templates/sign_up.mustache:27
+#: .es5/scripts/templates/sign_up.mustache:26
 msgid "Have an account? Sign in"
 msgstr "Маєте обліковий запис? Увійдіть"
 
@@ -916,7 +898,7 @@ msgstr "Gravatar"
 msgid "Clear"
 msgstr "Очистити"
 
-#: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/clients.mustache:16
+#: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/clients.mustache:17
 msgid "Done"
 msgstr "Готово"
 
@@ -924,7 +906,7 @@ msgstr "Готово"
 msgid "Position and rotate your picture as needed"
 msgstr "Налаштуйте розташування зображення"
 
-#: .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/display_name.mustache:5
+#: .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:8 .es5/scripts/templates/settings/display_name.mustache:5
 msgid "Change"
 msgstr "Змінити"
 
@@ -968,7 +950,7 @@ msgstr "Старий або замінений пристрій"
 msgid "Rather not say"
 msgstr "Не вказувати"
 
-#: .es5/scripts/templates/settings/client_disconnect.mustache:8 .es5/scripts/templates/settings/clients.mustache:7
+#: .es5/scripts/templates/settings/client_disconnect.mustache:8 .es5/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect"
 msgstr "Від'єднати"
 
@@ -976,31 +958,39 @@ msgstr "Від'єднати"
 msgid "Disconnection Successful"
 msgstr "Від'єднання успішно завершено"
 
-#: .es5/scripts/templates/settings/clients.mustache:3
+#: .es5/scripts/templates/settings/clients.mustache:2
+msgid "Devices & apps"
+msgstr "Пристрої та програми"
+
+#: .es5/scripts/templates/settings/clients.mustache:3 .es5/scripts/templates/partial/show-password.mustache:1
+msgid "Show"
+msgstr "Показати"
+
+#: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
 msgstr "поточний пристрій"
 
-#: .es5/scripts/templates/settings/clients.mustache:5
+#: .es5/scripts/templates/settings/clients.mustache:6
 msgid "Disconnect…"
 msgstr "Від'єднати…"
 
-#: .es5/scripts/templates/settings/clients.mustache:9
+#: .es5/scripts/templates/settings/clients.mustache:10
 msgid "Firefox for iOS"
 msgstr "Firefox для iOS"
 
-#: .es5/scripts/templates/settings/clients.mustache:10 .es5/scripts/templates/settings/clients.mustache:12
+#: .es5/scripts/templates/settings/clients.mustache:11 .es5/scripts/templates/settings/clients.mustache:13
 msgid "Get app"
 msgstr "Отримати застосунок"
 
-#: .es5/scripts/templates/settings/clients.mustache:11
+#: .es5/scripts/templates/settings/clients.mustache:12
 msgid "Firefox for Android"
 msgstr "Firefox для Android"
 
-#: .es5/scripts/templates/settings/clients.mustache:14
+#: .es5/scripts/templates/settings/clients.mustache:15
 msgid "Missing or duplicate items?"
 msgstr "Втрачені елементи чи дублікати?"
 
-#: .es5/scripts/templates/settings/clients.mustache:15
+#: .es5/scripts/templates/settings/clients.mustache:16
 msgid "Refresh"
 msgstr "Оновити"
 
@@ -1020,7 +1010,7 @@ msgstr "Відписатися"
 msgid "Subscribe"
 msgstr "Підписатися"
 
-#: .es5/scripts/templates/settings/delete_account.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:6
+#: .es5/scripts/templates/settings/delete_account.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:5
 msgid "Delete account"
 msgstr "Видалити обліковий запис"
 
@@ -1056,6 +1046,15 @@ msgstr "Використати OpenID"
 msgid "Use Firefox Account"
 msgstr "Використати обліковий запис Firefox"
 
+#~ msgid "Devices"
+#~ msgstr "Пристрої"
+
+#~ msgid "Stay in sync on the go:"
+#~ msgstr "Залишайтесь синхронізованим де б ви не були:"
+
+#~ msgid "Get Firefox for Android"
+#~ msgstr "Отримати Firefox для Android"
+
 #~ msgid "You can manage your devices below."
 #~ msgstr "Ви можете керувати своїми пристроями внизу."
 
@@ -1071,16 +1070,20 @@ msgstr "Використати обліковий запис Firefox"
 #~ msgid "Sync preferences"
 #~ msgstr "Налаштування синхронізації"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr "Шукаєте Синхронізацію Firefox? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Почніть тут</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr ""
+#~ "Шукаєте Синхронізацію Firefox? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Почніть тут</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Маєте обліковий запис з іншою адресою електронної пошти? <a href=\"%(signinUri)s\">Увійти</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "Firefox доступний для <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> та <a href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox доступний для <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> та <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Остання активність: %(translatedTimeAgo)s"
@@ -1259,7 +1262,8 @@ msgstr "Використати обліковий запис Firefox"
 #~ msgstr "Ви дійсно хочете скинути пароль свого облікового запису?"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
-#~ msgstr "Скидання пароля знищить ваші дані перегляду з наших серверів. Будь-які дані на ваших пристроях залишаться неушкодженими. Почніть процес скидання, ввівши свою адресу електронної пошти внизу."
+#~ msgstr ""
+#~ "Скидання пароля знищить ваші дані перегляду з наших серверів. Будь-які дані на ваших пристроях залишаться неушкодженими. Почніть процес скидання, ввівши свою адресу електронної пошти внизу."
 
 #~ msgid "Begin reset"
 #~ msgstr "Почати скидання"
@@ -1467,13 +1471,17 @@ msgstr "Використати обліковий запис Firefox"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Вже є обліковий запис? Увійти."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-#~ msgstr ""
-#~ "Продовжуючи, я погоджуюсь із <a id=\"service-tos\" href=\"%(termsUri)s\">Умовами надання послуги</a> та<a id=\"service-pp\" href=\"%(privacyUri)s\">Повідомленням про приватність</a> %(serviceName)s "
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
 #~ "(%(serviceUri)s)."
+#~ msgstr ""
+#~ "Продовжуючи, я погоджуюсь із <a id=\"service-tos\" href=\"%(termsUri)s\">Умовами надання послуги</a> та<a id=\"service-pp\" href=\"%(privacyUri)s\">Повідомленням про приватність</a> "
+#~ "%(serviceName)s (%(serviceUri)s)."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Продовжуючи, я погоджуюсь із <a id=\"fxa-tos\" href=\"/legal/terms\">Умовами надання послуг</a> та <a id=\"fxa-pp\" href=\"/legal/privacy\">повідомленням про приватність</a> хмарних сервісів Firefox."
+#~ msgstr ""
+#~ "Продовжуючи, я погоджуюсь із <a id=\"fxa-tos\" href=\"/legal/terms\">Умовами надання послуг</a> та <a id=\"fxa-pp\" href=\"/legal/privacy\">повідомленням про приватність</a> хмарних сервісів "
+#~ "Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Підписатись на новини та поради від Firefox"

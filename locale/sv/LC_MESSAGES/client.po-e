@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-01 14:26+0000\n"
-"PO-Revision-Date: 2016-10-17 16:56+0000\n"
+"POT-Creation-Date: 2016-11-14 16:19+0000\n"
+"PO-Revision-Date: 2016-11-01 18:05+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
@@ -19,7 +19,7 @@ msgstr ""
 msgid "Account verified successfully"
 msgstr "Konto verifierat"
 
-#: .es5/scripts/views/confirm_reset_password.js:163 .es5/scripts/views/ready.js:43
+#: .es5/scripts/views/confirm_reset_password.js:163 .es5/scripts/views/ready.js:42
 msgid "Password reset"
 msgstr "Lösenordet återställdes"
 
@@ -43,27 +43,27 @@ msgstr "Visningsnamn"
 msgid "Account picture"
 msgstr "Kontobild"
 
-#: .es5/scripts/views/ready.js:29
+#: .es5/scripts/views/ready.js:28
 msgid "Firefox Sync will begin momentarily"
 msgstr "Firefox Sync startar om ett ögonblick"
 
-#: .es5/scripts/views/ready.js:38
+#: .es5/scripts/views/ready.js:37
 msgid "Welcome back"
 msgstr "Välkommen tillbaka"
 
-#: .es5/scripts/views/ready.js:39
+#: .es5/scripts/views/ready.js:38
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync återupptas om ett ögonblick"
 
-#: .es5/scripts/views/ready.js:49
+#: .es5/scripts/views/ready.js:48
 msgid "Sign-in confirmed"
 msgstr "Inloggning bekräftad"
 
-#: .es5/scripts/views/ready.js:50 .es5/scripts/views/ready.js:55 .es5/scripts/templates/ready.mustache:3
+#: .es5/scripts/views/ready.js:49 .es5/scripts/views/ready.js:54 .es5/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Du kan nu använda %(serviceName)s"
 
-#: .es5/scripts/views/ready.js:54
+#: .es5/scripts/views/ready.js:53
 msgid "Account verified"
 msgstr "Konto verifierat"
 
@@ -75,7 +75,7 @@ msgstr "Okänt konto. <a href=\"/signup\">Registrera dig</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "Kontot existerar inte längre. Återskapa det?"
 
-#: .es5/scripts/views/sign_up.js:341
+#: .es5/scripts/views/sign_up.js:346
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Kontot finns redan. <a href=\"/signin\">Logga in</a>"
 
@@ -95,17 +95,9 @@ msgstr "Det var tråkigt att höra. Du bör byta lösenord till ditt Firefox-kon
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Det var tråkigt att höra. Om detta var en enhet som du verkligen inte litar på, bör du ändra lösenordet till ditt Firefox-konto och ändra de lösenord som sparats i Firefox."
 
-#: .es5/scripts/views/settings/clients.js:51
+#: .es5/scripts/views/settings/clients.js:50
 msgid "Last active %(translatedTimeAgo)s"
 msgstr "Senast aktiv %(translatedTimeAgo)s"
-
-#: .es5/scripts/views/settings/clients.js:110
-msgid "Devices"
-msgstr "Enheter"
-
-#: .es5/scripts/views/settings/clients.js:113
-msgid "Devices & apps"
-msgstr "Enheter & appar"
 
 #: .es5/scripts/views/settings/communication_preferences.js:106
 msgid "Subscribed successfully"
@@ -149,13 +141,13 @@ msgstr "Öppna Outlook"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:37
 msgid "Open Restmail"
-msgstr ""
+msgstr "Öppna Restmail"
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:22
 msgid "8 characters minimum, but longer if you plan to sync passwords."
 msgstr "minst 8 tecken, men längre om du planerar att synkronisera lösenord."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:23 .es5/scripts/templates/sign_up.mustache:18
+#: .es5/scripts/views/mixins/password-prompt-mixin.js:23 .es5/scripts/templates/sign_up.mustache:17
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "Ett starkt och unikt lösenord kommer att skydda din Firefox-data från inkräktare."
 
@@ -301,7 +293,7 @@ msgstr "Kunde inte hämta tjänstevillkoren"
 msgid "Your new password must be different"
 msgstr "Det måste vara ett nytt lösenord"
 
-#: .es5/scripts/lib/auth-errors.js:165 .es5/scripts/templates/complete_reset_password.mustache:14 .es5/scripts/templates/settings/change_password.mustache:9
+#: .es5/scripts/lib/auth-errors.js:165 .es5/scripts/templates/complete_reset_password.mustache:13 .es5/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "Måste vara minst 8 tecken"
 
@@ -403,7 +395,7 @@ msgstr "Ogiltig konfiguration"
 
 #: .es5/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "Menade du <span tabindex=\"1\">%(escapedDomain)s</span>?"
 
 #: .es5/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -525,7 +517,7 @@ msgstr "Du måste uppfylla vissa ålderskrav för att få skapa ett Firefox-kont
 msgid "Learn more."
 msgstr "Läs mer."
 
-#: .es5/scripts/templates/choose_what_to_sync.mustache:1 .es5/scripts/templates/sign_up.mustache:24
+#: .es5/scripts/templates/choose_what_to_sync.mustache:1 .es5/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
 msgstr "Välj vad som ska synkas"
 
@@ -597,21 +589,15 @@ msgstr "När du skickar in ditt nya lösenord, kommer du förlora all Sync data 
 msgid "Learn how Sync works."
 msgstr "Läs om hur Sync fungerar."
 
-#: .es5/scripts/templates/complete_reset_password.mustache:12 .es5/scripts/templates/settings/change_password.mustache:7
+#: .es5/scripts/templates/complete_reset_password.mustache:12 .es5/scripts/templates/settings/change_password.mustache:6
 msgid "New password"
 msgstr "Nytt lösenord"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:13 .es5/scripts/templates/complete_reset_password.mustache:16 .es5/scripts/templates/force_auth.mustache:5
-#: .es5/scripts/templates/sign_in.mustache:9 .es5/scripts/templates/sign_in.mustache:21 .es5/scripts/templates/sign_up.mustache:17 .es5/scripts/templates/settings/change_password.mustache:5
-#: .es5/scripts/templates/settings/change_password.mustache:8 .es5/scripts/templates/settings/clients.mustache:2 .es5/scripts/templates/settings/delete_account.mustache:5
-msgid "Show"
-msgstr "Visa"
-
-#: .es5/scripts/templates/complete_reset_password.mustache:15
+#: .es5/scripts/templates/complete_reset_password.mustache:14
 msgid "Repeat password"
 msgstr "Upprepa lösenordet"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:17
+#: .es5/scripts/templates/complete_reset_password.mustache:15
 msgid "Submit new password"
 msgstr "Ange nytt lösenord"
 
@@ -645,7 +631,7 @@ msgstr "E-post har skickats"
 
 #: .es5/scripts/templates/confirm.mustache:6
 msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "En verifieringslänk har skickats&nbsp;till %(escapedEmail)s"
 
 #: .es5/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
@@ -691,21 +677,21 @@ msgstr "Försök igen"
 msgid "Sign in to continue"
 msgstr "Logga in för att fortsätta"
 
-#: .es5/scripts/templates/force_auth.mustache:3 .es5/scripts/templates/sign_in.mustache:8 .es5/scripts/templates/sign_in.mustache:19 .es5/scripts/templates/sign_up.mustache:15
+#: .es5/scripts/templates/force_auth.mustache:3 .es5/scripts/templates/sign_in.mustache:8 .es5/scripts/templates/sign_in.mustache:18 .es5/scripts/templates/sign_up.mustache:15
 #: .es5/scripts/templates/settings/change_password.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Lösenord"
 
-#: .es5/scripts/templates/force_auth.mustache:6 .es5/scripts/templates/sign_in.mustache:1 .es5/scripts/templates/sign_in.mustache:4 .es5/scripts/templates/sign_in.mustache:10
-#: .es5/scripts/templates/sign_in.mustache:14 .es5/scripts/templates/sign_in.mustache:22
+#: .es5/scripts/templates/force_auth.mustache:5 .es5/scripts/templates/sign_in.mustache:1 .es5/scripts/templates/sign_in.mustache:4 .es5/scripts/templates/sign_in.mustache:9
+#: .es5/scripts/templates/sign_in.mustache:13 .es5/scripts/templates/sign_in.mustache:20
 msgid "Sign in"
 msgstr "Logga in"
 
-#: .es5/scripts/templates/force_auth.mustache:7 .es5/scripts/templates/sign_in.mustache:11 .es5/scripts/templates/sign_in.mustache:23 .es5/scripts/templates/settings/change_password.mustache:6
+#: .es5/scripts/templates/force_auth.mustache:6 .es5/scripts/templates/sign_in.mustache:10 .es5/scripts/templates/sign_in.mustache:21 .es5/scripts/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "Glömt lösenordet?"
 
-#: .es5/scripts/templates/force_auth.mustache:8 .es5/scripts/templates/sign_in.mustache:25 .es5/scripts/templates/sign_up.mustache:19
+#: .es5/scripts/templates/force_auth.mustache:7 .es5/scripts/templates/sign_in.mustache:23 .es5/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr "Genom att fortsätta godkänner du <a id=\"fxa-tos\" href=\"/legal/terms\">användarvillkoren</a> och <a id=\"fxa-pp\" href=\"/legal/privacy\">sekretesspolicy</a> för Firefox molntjänster."
 
@@ -725,27 +711,19 @@ msgstr "Tjänstevillkor"
 msgid "Privacy Notice"
 msgstr "Sekretesspolicy"
 
-#: .es5/scripts/templates/marketing_snippet.mustache:1
-msgid "Stay in sync on the go:"
-msgstr "Var synkad, hela tiden:"
-
-#: .es5/scripts/templates/marketing_snippet.mustache:2
-msgid "Get Firefox for Android"
-msgstr "Hämta Firefox för Android"
-
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:1 .es5/scripts/templates/marketing_snippet_ios.mustache:5 .es5/scripts/templates/marketing_snippet_ios.mustache:9
+#: .es5/scripts/templates/marketing_snippet.mustache:1 .es5/scripts/templates/marketing_snippet.mustache:5 .es5/scripts/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
 msgstr "Få den fulla Sync upplevelsen."
 
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:2 .es5/scripts/templates/marketing_snippet_ios.mustache:3 .es5/scripts/templates/marketing_snippet_ios.mustache:12
+#: .es5/scripts/templates/marketing_snippet.mustache:2 .es5/scripts/templates/marketing_snippet.mustache:3 .es5/scripts/templates/marketing_snippet.mustache:11
 msgid "Download Firefox for iOS!"
 msgstr "Hämta Firefox för iOS!"
 
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:6 .es5/scripts/templates/marketing_snippet_ios.mustache:7 .es5/scripts/templates/marketing_snippet_ios.mustache:11
+#: .es5/scripts/templates/marketing_snippet.mustache:6 .es5/scripts/templates/marketing_snippet.mustache:7 .es5/scripts/templates/marketing_snippet.mustache:12
 msgid "Download Firefox for Android."
 msgstr "Ladda ner Firefox för Android."
 
-#: .es5/scripts/templates/marketing_snippet_ios.mustache:10
+#: .es5/scripts/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
 msgstr "Ladda ner Firefox för mobila enheter."
 
@@ -762,8 +740,8 @@ msgid "Accept"
 msgstr "Godkänn"
 
 #: .es5/scripts/templates/permissions.mustache:4 .es5/scripts/templates/settings/avatar_camera.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:3
-#: .es5/scripts/templates/settings/avatar_gravatar.mustache:3 .es5/scripts/templates/settings/change_password.mustache:11 .es5/scripts/templates/settings/client_disconnect.mustache:9
-#: .es5/scripts/templates/settings/communication_preferences.mustache:5 .es5/scripts/templates/settings/communication_preferences.mustache:13 .es5/scripts/templates/settings/delete_account.mustache:7
+#: .es5/scripts/templates/settings/avatar_gravatar.mustache:3 .es5/scripts/templates/settings/change_password.mustache:9 .es5/scripts/templates/settings/client_disconnect.mustache:9
+#: .es5/scripts/templates/settings/communication_preferences.mustache:5 .es5/scripts/templates/settings/communication_preferences.mustache:13 .es5/scripts/templates/settings/delete_account.mustache:6
 #: .es5/scripts/templates/settings/display_name.mustache:6 .es5/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
 msgstr "Avbryt"
@@ -804,7 +782,7 @@ msgstr "Glömt lösenord"
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "När du återställer ditt lösenord, kommer du förlora all Sync data som inte finns på någon av dina enheter."
 
-#: .es5/scripts/templates/reset_password.mustache:5 .es5/scripts/templates/sign_in.mustache:18 .es5/scripts/templates/sign_up.mustache:13
+#: .es5/scripts/templates/reset_password.mustache:5 .es5/scripts/templates/sign_in.mustache:17 .es5/scripts/templates/sign_up.mustache:13
 #: .es5/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "E-post"
@@ -829,11 +807,11 @@ msgstr "Fortsätt till %(serviceName)s"
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr "Migrera dina synkroniseringsuppgifter genom att logga in på ditt Firefox-konto."
 
-#: .es5/scripts/templates/sign_in.mustache:12 .es5/scripts/templates/sign_in.mustache:15
+#: .es5/scripts/templates/sign_in.mustache:11 .es5/scripts/templates/sign_in.mustache:14
 msgid "Use a different account"
 msgstr "Använd ett annat konto"
 
-#: .es5/scripts/templates/sign_in.mustache:24
+#: .es5/scripts/templates/sign_in.mustache:22
 msgid "Create an account"
 msgstr "Skapa ett konto"
 
@@ -867,7 +845,7 @@ msgstr "Skapa ett Firefox-konto"
 
 #: .es5/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-msgstr ""
+msgstr "Letar du efter Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Kom igång här</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -875,17 +853,17 @@ msgstr "Migrera dina synkroniseringsuppgifter genom att skapa en nytt Firefox-ko
 
 #: .es5/scripts/templates/sign_up.mustache:10
 msgid "Have an account with a different email? <a href=\"%(escapedSignInUri)s\">Sign in</a>"
-msgstr ""
+msgstr "Har du ett konto med en annan e-post? <a href=\"%(escapedSignInUri)s\">Logga in</a>"
 
-#: .es5/scripts/templates/sign_up.mustache:20 .es5/scripts/templates/settings/communication_preferences.mustache:7
+#: .es5/scripts/templates/sign_up.mustache:19 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
 msgstr "Skicka mig Firefox månatliga nyhetsbrev."
 
-#: .es5/scripts/templates/sign_up.mustache:22
+#: .es5/scripts/templates/sign_up.mustache:21
 msgid "Create account"
 msgstr "Skapa konto"
 
-#: .es5/scripts/templates/sign_up.mustache:27
+#: .es5/scripts/templates/sign_up.mustache:26
 msgid "Have an account? Sign in"
 msgstr "Har du ett konto? Logga in"
 
@@ -918,7 +896,7 @@ msgstr "Gravatar"
 msgid "Clear"
 msgstr "Rensa"
 
-#: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/clients.mustache:16
+#: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/clients.mustache:17
 msgid "Done"
 msgstr "Klar"
 
@@ -926,7 +904,7 @@ msgstr "Klar"
 msgid "Position and rotate your picture as needed"
 msgstr "Placera och rotera bilden efter behov"
 
-#: .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:10 .es5/scripts/templates/settings/display_name.mustache:5
+#: .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:8 .es5/scripts/templates/settings/display_name.mustache:5
 msgid "Change"
 msgstr "Ändra"
 
@@ -970,7 +948,7 @@ msgstr "Gammal eller utbytt enhet"
 msgid "Rather not say"
 msgstr "Vill helst inte berätta"
 
-#: .es5/scripts/templates/settings/client_disconnect.mustache:8 .es5/scripts/templates/settings/clients.mustache:7
+#: .es5/scripts/templates/settings/client_disconnect.mustache:8 .es5/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect"
 msgstr "Koppla från"
 
@@ -978,31 +956,39 @@ msgstr "Koppla från"
 msgid "Disconnection Successful"
 msgstr "Nedkopplad"
 
-#: .es5/scripts/templates/settings/clients.mustache:3
+#: .es5/scripts/templates/settings/clients.mustache:2
+msgid "Devices & apps"
+msgstr "Enheter & appar"
+
+#: .es5/scripts/templates/settings/clients.mustache:3 .es5/scripts/templates/partial/show-password.mustache:1
+msgid "Show"
+msgstr "Visa"
+
+#: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
 msgstr "aktuell enhet"
 
-#: .es5/scripts/templates/settings/clients.mustache:5
+#: .es5/scripts/templates/settings/clients.mustache:6
 msgid "Disconnect…"
 msgstr "Koppla ifrån…"
 
-#: .es5/scripts/templates/settings/clients.mustache:9
+#: .es5/scripts/templates/settings/clients.mustache:10
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "Firefox för iOS"
 
-#: .es5/scripts/templates/settings/clients.mustache:10 .es5/scripts/templates/settings/clients.mustache:12
+#: .es5/scripts/templates/settings/clients.mustache:11 .es5/scripts/templates/settings/clients.mustache:13
 msgid "Get app"
-msgstr ""
+msgstr "Hämta app"
 
-#: .es5/scripts/templates/settings/clients.mustache:11
+#: .es5/scripts/templates/settings/clients.mustache:12
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Firefox för Android"
 
-#: .es5/scripts/templates/settings/clients.mustache:14
+#: .es5/scripts/templates/settings/clients.mustache:15
 msgid "Missing or duplicate items?"
 msgstr "Saknas eller duplicerade poster?"
 
-#: .es5/scripts/templates/settings/clients.mustache:15
+#: .es5/scripts/templates/settings/clients.mustache:16
 msgid "Refresh"
 msgstr "Uppdatera"
 
@@ -1022,7 +1008,7 @@ msgstr "Avsluta prenumeration"
 msgid "Subscribe"
 msgstr "Prenumerera"
 
-#: .es5/scripts/templates/settings/delete_account.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:6
+#: .es5/scripts/templates/settings/delete_account.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:5
 msgid "Delete account"
 msgstr "Ta bort konto"
 
@@ -1057,6 +1043,15 @@ msgstr "Använd OpenID"
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Använd Firefox Konto"
+
+#~ msgid "Devices"
+#~ msgstr "Enheter"
+
+#~ msgid "Stay in sync on the go:"
+#~ msgstr "Var synkad, hela tiden:"
+
+#~ msgid "Get Firefox for Android"
+#~ msgstr "Hämta Firefox för Android"
 
 #~ msgid "You can manage your devices below."
 #~ msgstr "Du kan hantera dina enheter nedan."

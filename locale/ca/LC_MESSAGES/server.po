@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-01 14:26+0000\n"
+"POT-Creation-Date: 2016-11-14 16:19+0000\n"
 "PO-Revision-Date: 2014-04-28 08:41+0000\n"
 "Last-Translator: Eduard <edu@eduard-gamonal.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1398674485.0\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:568
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:580
 msgid "Still there?"
 msgstr ""
 
@@ -49,7 +49,7 @@ msgstr ""
 msgid "Firefox Accounts"
 msgstr "Comptes del Firefox"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:476
+#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:488
 msgid "New sign-in to Firefox"
 msgstr ""
 
@@ -231,7 +231,7 @@ msgstr ""
 msgid "If no, help us fend off intruders and report it to us."
 msgstr ""
 
-#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:565
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:577
 msgid "Hello again."
 msgstr ""
 
@@ -285,55 +285,63 @@ msgstr ""
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr ""
 
-#: mailer.js:161
+#: mailer.js:143
+msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
+msgstr ""
+
+#: mailer.js:146
+msgid "%(uaBrowser)s on %(uaOS)s"
+msgstr ""
+
+#: mailer.js:173
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr ""
 
-#: mailer.js:163
+#: mailer.js:175
 msgid "%(city)s, %(country)s (estimated)"
 msgstr ""
 
-#: mailer.js:165
+#: mailer.js:177
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr ""
 
-#: mailer.js:167
+#: mailer.js:179
 msgid "%(country)s (estimated)"
 msgstr ""
 
-#: mailer.js:268
+#: mailer.js:280
 msgid "Verify your Firefox Account"
 msgstr ""
 
-#: mailer.js:302
+#: mailer.js:314
 msgid "Firefox Account authorization code"
 msgstr ""
 
-#: mailer.js:343
+#: mailer.js:355
 msgid "Confirm new sign-in to Firefox"
 msgstr ""
 
-#: mailer.js:383
+#: mailer.js:395
 msgid "Reset your Firefox Account password"
 msgstr ""
 
-#: mailer.js:408
+#: mailer.js:420
 msgid "Your Firefox Account password has been changed"
 msgstr ""
 
-#: mailer.js:431
+#: mailer.js:443
 msgid "Your Firefox Account password has been reset"
 msgstr ""
 
-#: mailer.js:454
+#: mailer.js:466
 msgid "Firefox Account password reset required"
 msgstr ""
 
-#: mailer.js:505
+#: mailer.js:517
 msgid "Firefox Account verified"
 msgstr ""
 
-#: mailer.js:543
+#: mailer.js:555
 msgid "Suspicious activity with your Firefox Account"
 msgstr ""
 

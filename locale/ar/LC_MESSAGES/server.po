@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-01 14:26+0000\n"
+"POT-Creation-Date: 2016-11-14 16:19+0000\n"
 "PO-Revision-Date: 2016-08-11 11:11+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
 "X-Generator: Pontoon\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:568
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:580
 msgid "Still there?"
 msgstr "لا تزال هناك؟"
 
@@ -50,7 +50,7 @@ msgstr "سجل الدخول للمزامنة"
 msgid "Firefox Accounts"
 msgstr "حسابات فَيَرفُكس"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:476
+#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:488
 msgid "New sign-in to Firefox"
 msgstr "تسجيل دخول جديد لفَيَرفٌكس"
 
@@ -234,7 +234,7 @@ msgstr ""
 msgid "If no, help us fend off intruders and report it to us."
 msgstr ""
 
-#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:565
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:577
 msgid "Hello again."
 msgstr "مرحبًا مرة أخرى."
 
@@ -288,55 +288,63 @@ msgstr "إذا كنت تظن أن شخصا أخر يحاول الوصول إلي
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr "إذا كنت تظن أن شخصا أخر يحاول الوصول إلي حسابك، فرجاءً غير كلمة السرّ الخاصة بك."
 
-#: mailer.js:161
+#: mailer.js:143
+msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
+msgstr ""
+
+#: mailer.js:146
+msgid "%(uaBrowser)s on %(uaOS)s"
+msgstr ""
+
+#: mailer.js:173
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr ""
 
-#: mailer.js:163
+#: mailer.js:175
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s، %(country)s (تقريبًا)"
 
-#: mailer.js:165
+#: mailer.js:177
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr ""
 
-#: mailer.js:167
+#: mailer.js:179
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (تقريبًا)"
 
-#: mailer.js:268
+#: mailer.js:280
 msgid "Verify your Firefox Account"
 msgstr "أكّد حساب فَيَرفُكس الخاص بك"
 
-#: mailer.js:302
+#: mailer.js:314
 msgid "Firefox Account authorization code"
 msgstr ""
 
-#: mailer.js:343
+#: mailer.js:355
 msgid "Confirm new sign-in to Firefox"
 msgstr "أكّد تسجيل دخولك الجديد لفَيَرفٌكس"
 
-#: mailer.js:383
+#: mailer.js:395
 msgid "Reset your Firefox Account password"
 msgstr "إعادة تعيين كلمة السرّ الخاصة بحساب فَيَرفُكس"
 
-#: mailer.js:408
+#: mailer.js:420
 msgid "Your Firefox Account password has been changed"
 msgstr "غُيّرت كلمة السرّ الخاصة بحساب فَيَرفُكس"
 
-#: mailer.js:431
+#: mailer.js:443
 msgid "Your Firefox Account password has been reset"
 msgstr "تم إعادة تعيين كلمة السرّ الخاصة بحساب فَيَرفُكس"
 
-#: mailer.js:454
+#: mailer.js:466
 msgid "Firefox Account password reset required"
 msgstr "إعادة تعيين كلمة السرّ لحساب فَيَرفُكس مطلوب"
 
-#: mailer.js:505
+#: mailer.js:517
 msgid "Firefox Account verified"
 msgstr ""
 
-#: mailer.js:543
+#: mailer.js:555
 msgid "Suspicious activity with your Firefox Account"
 msgstr "نشاط مُشتبَه به في حساب فَيَرفُكس الخاص بك"
 
