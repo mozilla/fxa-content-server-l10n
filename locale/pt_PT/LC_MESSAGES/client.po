@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-14 16:19+0000\n"
-"PO-Revision-Date: 2016-11-10 22:11+0000\n"
+"PO-Revision-Date: 2016-11-15 20:16+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -464,9 +464,7 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:24
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Ao continuar, está concordar com os <a id=\"service-tos\" href=\"%(termsUri)s\">Termos de utilização</a> e com a <a id=\"service-pp\" href=\"%(privacyUri)s\">Política de privacidade</a> do "
 "%(serviceName)s (%(serviceUri)s)."
@@ -721,15 +719,15 @@ msgstr "Obtenha a experiência completa do Sync."
 
 #: .es5/scripts/templates/marketing_snippet.mustache:2 .es5/scripts/templates/marketing_snippet.mustache:3 .es5/scripts/templates/marketing_snippet.mustache:11
 msgid "Download Firefox for iOS!"
-msgstr "Descarregar o Firefox para iOS!"
+msgstr "Descarregue o Firefox para iOS!"
 
 #: .es5/scripts/templates/marketing_snippet.mustache:6 .es5/scripts/templates/marketing_snippet.mustache:7 .es5/scripts/templates/marketing_snippet.mustache:12
 msgid "Download Firefox for Android."
-msgstr "Descarregar o Firefox para Android."
+msgstr "Descarregue o Firefox para Android."
 
 #: .es5/scripts/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr "Descarregar o Firefox para dispositivos móveis."
+msgstr "Descarregue o Firefox para dispositivos móveis."
 
 #: .es5/scripts/templates/permissions.mustache:1 .es5/scripts/templates/settings/gravatar_permissions.mustache:1
 msgid "Request for permission"
@@ -982,7 +980,7 @@ msgstr "Firefox para iOS"
 
 #: .es5/scripts/templates/settings/clients.mustache:11 .es5/scripts/templates/settings/clients.mustache:13
 msgid "Get app"
-msgstr "Obter aplicação"
+msgstr "Obter app"
 
 #: .es5/scripts/templates/settings/clients.mustache:12
 msgid "Firefox for Android"
@@ -1072,19 +1070,18 @@ msgstr "Utilizar Conta Firefox"
 #~ msgid "Sync preferences"
 #~ msgstr "Preferências do Sync"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "À procura do Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Comece aqui</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Tem uma conta com um email diferente? <a href=\"%(signinUri)s\">Inicie sessão</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "O Firefox está disponível para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> e <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "O Firefox está disponível para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> e <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Ativo pela última vez: %(translatedTimeAgo)s"
@@ -1196,8 +1193,7 @@ msgstr "Utilizar Conta Firefox"
 
 #~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
 #~ msgstr ""
-#~ "Por questões de segurança a sua conta foi bloqueada. Para executar atividades ao nível da conta, por favor verifique novamente a sua conta clicando na ligação de verificação enviada para "
-#~ "%(email)s"
+#~ "Por questões de segurança a sua conta foi bloqueada. Para executar atividades ao nível da conta, por favor verifique novamente a sua conta clicando na ligação de verificação enviada para %(email)s"
 
 #~ msgid "Signup has been disabled"
 #~ msgstr "O registo foi desativado"
