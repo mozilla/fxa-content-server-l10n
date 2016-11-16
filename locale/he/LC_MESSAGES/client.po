@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-14 16:19+0000\n"
-"PO-Revision-Date: 2016-11-16 17:49+0000\n"
+"PO-Revision-Date: 2016-11-16 19:14+0000\n"
 "Last-Translator: Tomer Cohen <tomer.mozilla@tomercohen.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -922,7 +922,7 @@ msgstr "האם להתנתק מ־Sync?"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr ""
+msgstr "נתוני הגלישה שלך יישארו ב־%(deviceName)s, אך לא יסתנכרנו עוד עם החשבון שלך."
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Reason for disconnecting…"
@@ -930,11 +930,11 @@ msgstr ""
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
-msgstr ""
+msgstr "התקן חשוד"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen device"
-msgstr ""
+msgstr "התקן אבוד או גנוב"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced device"
@@ -950,11 +950,11 @@ msgstr "התנתקות"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
-msgstr ""
+msgstr "התנתקות מוצלחת"
 
 #: .es5/scripts/templates/settings/clients.mustache:2
 msgid "Devices & apps"
-msgstr ""
+msgstr "התקנים ויישומים"
 
 #: .es5/scripts/templates/settings/clients.mustache:3 .es5/scripts/templates/partial/show-password.mustache:1
 msgid "Show"
@@ -962,11 +962,11 @@ msgstr "הצגה"
 
 #: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
-msgstr ""
+msgstr "התקן נוכחי"
 
 #: .es5/scripts/templates/settings/clients.mustache:6
 msgid "Disconnect…"
-msgstr ""
+msgstr "התנתקות…"
 
 #: .es5/scripts/templates/settings/clients.mustache:10
 msgid "Firefox for iOS"
@@ -982,7 +982,7 @@ msgstr ""
 
 #: .es5/scripts/templates/settings/clients.mustache:15
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "פריטים חסרים או כפולים?"
 
 #: .es5/scripts/templates/settings/clients.mustache:16
 msgid "Refresh"
@@ -1010,7 +1010,7 @@ msgstr "מחיקת חשבון"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete…"
-msgstr ""
+msgstr "מחיקה…"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
@@ -1030,7 +1030,7 @@ msgstr "התחברות אל Sync"
 
 #: .es5/scripts/templates/openid/start.mustache:2
 msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-msgstr ""
+msgstr "נא לבחור את החשבון בו ברצונך להשתמש לשם סנכרון הלשוניות, סימניות, ססמאות ועוד."
 
 #: .es5/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
