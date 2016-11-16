@@ -68,7 +68,7 @@ msgstr "এটি একটি স্বয়ংক্রিয় ইমেল
 #: templates/new_device_login.html:5 templates/password_changed.html:5 templates/password_reset.html:5 templates/post_verify.html:6 templates/recovery.html:6
 #: templates/verification_reminder_first.html:6 templates/verification_reminder_second.html:6 templates/verify.html:6
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr "আরো তথ্যের জন্য, দয়া করে <a %(supportLink Attributes)s>Mozilla সহায়তাতে</a> যান।"
+msgstr "আরো তথ্যের জন্য, দয়া করে <a %(supportLinkAttributes)s>Mozilla সহায়তাতে</a> যান।"
 
 #: templates/new_device_login.html:6 templates/new_device_login.txt:5 templates/password_changed.html:6 templates/password_changed.txt:5 templates/password_reset.html:6 templates/password_reset.txt:5
 #: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:7 templates/post_verify.txt:6 templates/recovery.html:7 templates/recovery.txt:6
