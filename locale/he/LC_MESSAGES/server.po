@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-14 16:19+0000\n"
-"PO-Revision-Date: 2016-11-16 17:40+0000\n"
+"PO-Revision-Date: 2016-11-16 17:47+0000\n"
 "Last-Translator: Tomer Cohen <tomer.mozilla@tomercohen.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -242,10 +242,12 @@ msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
 " email address to activate your account."
 msgstr ""
+"לפני מספר ימים יצרת חשבון Firefox, אך מעולם לא הושלם האימות שלו. חשבון מאומת מאפשר גישה ללשוניות, סימניות, ססמאות ולהיסטוריה שלך מכל התקן המחובר אליו. כל שעליך לעשות זה לאמת את כתובת הדואר האלקטרוני"
+" שלך כדי להפעיל את החשבון."
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "הפעלה כעת"
 
 #: templates/verification_reminder_first.html:8 templates/verification_reminder_second.html:8 templates/verify.html:8
 msgid "Verify Email"
@@ -257,11 +259,11 @@ msgstr ""
 
 #: templates/verification_reminder_first.txt:3 templates/verification_reminder_second.txt:3 templates/verify.txt:3
 msgid "Activate now:"
-msgstr ""
+msgstr "הפעלה כעת:"
 
 #: templates/verification_reminder_second.html:3 templates/verification_reminder_second.txt:2
 msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
+msgstr "לפני כשבוע יצרת חשבון Firefox, אך מעולם לא הושלם האימות שלו.  אנחנו מודאגים לגביך. כל שעליך לעשות זה לאמת את כתובת הדואר האלקטרוני שלך כדי להפעיל את החשבון, כדי שנדע שהכול מתפקד כשורה אצלך."
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
@@ -281,11 +283,11 @@ msgstr ""
 
 #: templates/verify_login.html:6
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "אם קיים חשש שמישהו מנסה להשיג גישה לחשבונך, עליך <a %(passwordChangeLinkAttributes)s>לאפס את הססמה שלך</a>."
 
 #: templates/verify_login.txt:5
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr ""
+msgstr "אם קיים חשש  שמישהו מנסה להשיג גישה לחשבונך, עליך לאפס את הססמה שלך."
 
 #: mailer.js:143
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -297,23 +299,23 @@ msgstr ""
 
 #: mailer.js:173
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(stateCode)s, %(country)s (מוערך)"
 
 #: mailer.js:175
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (מוערך)"
 
 #: mailer.js:177
 msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(stateCode)s, %(country)s (מוערך)"
 
 #: mailer.js:179
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (מוערך)"
 
 #: mailer.js:280
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "אימות חשבון ה־Firefox שלך"
 
 #: mailer.js:314
 msgid "Firefox Account authorization code"
@@ -329,15 +331,15 @@ msgstr "איפוס ססמת חשבון ה־Firefox שלך"
 
 #: mailer.js:420
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "ססמת חשבון ה־Firefox שלך שונתה"
 
 #: mailer.js:443
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "ססמת חשבון ה־Firefox שלך אופסה"
 
 #: mailer.js:466
 msgid "Firefox Account password reset required"
-msgstr ""
+msgstr "נדרש איפוס לססמת חשבון ה־Firefox שלך"
 
 #: mailer.js:517
 msgid "Firefox Account verified"
@@ -373,15 +375,15 @@ msgstr "שגיאה 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "השרת עמוס, נא לנסות שוב במועד מאוחר יותר"
 
 #: server/templates/pages/src/503.html:3
 msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
-msgstr ""
+msgstr "אנחנו כרגע תחת עומס כבד ופועלים כדי להחזיר את המערכת לפעילות רגילה במהירות האפשרית."
 
 #: server/templates/pages/src/index.html:2 server/templates/pages/src/privacy.html:5 server/templates/pages/src/terms.html:5
 msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr ""
+msgstr "נראה שברשותך דפדפן <strong>שאינו עדכני</strong>. נא <a href=\"http://browsehappy.com/\">לשדרג את הדפדפן שברשותך</a> כדי לשפר את החוויה."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -389,7 +391,7 @@ msgstr "Firefox Accounts דורש JavaScript."
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
-msgstr ""
+msgstr "הצהרת פרטיות"
 
 #: server/templates/pages/src/privacy.html:3 server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
@@ -397,7 +399,7 @@ msgstr "Firefox Accounts"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
-msgstr ""
+msgstr "תנאי שירות"
 
 #~ msgid "Alternatively:"
 #~ msgstr "לחלופין:"
