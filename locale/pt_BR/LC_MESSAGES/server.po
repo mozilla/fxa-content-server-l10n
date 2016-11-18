@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-14 16:19+0000\n"
-"PO-Revision-Date: 2016-11-14 20:18+0000\n"
-"Last-Translator: Maykon Chagas <mchagas@riseup.net>\n"
+"PO-Revision-Date: 2016-11-18 15:40+0000\n"
+"Last-Translator: Marco Aurélio <fxhelp@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -28,8 +28,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Você conectou com sucesso o seu primeiro dispositivo à sua Conta Firefox. Agora pode entrar no Sync nos seus outros dispositivos, incluindo o Firefox para o <a href='%(androidUrl)s'>Android</a> e <a"
-" href='%(iosUrl)s'>iOS</a>."
+"Você conectou com sucesso o seu primeiro dispositivo à sua Conta Firefox. Agora identifique-se no Sync em seus outros dispositivos, incluindo o Firefox para o <a href='%(androidUrl)s'>Android</a> e "
+"<a href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
@@ -45,7 +45,7 @@ msgstr "Conecte outro dispositivo"
 
 #: templates/_pending.txt:6
 msgid "Sign in to Sync"
-msgstr "Entre para sincronizar"
+msgstr "Identifique-se no Sync"
 
 #: templates/new_device_login.html:1 templates/password_changed.html:1 templates/password_reset.html:1 templates/password_reset_required.html:1 templates/post_verify.html:1 templates/recovery.html:1
 #: templates/suspicious_location.html:1 templates/unblock_code.html:1 templates/verification_reminder_first.html:1 templates/verification_reminder_second.html:1 templates/verify.html:1
@@ -172,12 +172,12 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
-"Você conectou com sucesso o seu primeiro dispositivo à sua Conta do Firefox. Agora você pode usar o Sync em outros dispositivos, incluindo o Firefox para <a %(androidLinkAttributes)s>Android</a> e "
-"<a %(iosLinkAttributes)s>iOS</a>."
+"Você conectou com sucesso o seu primeiro dispositivo à sua conta do Firefox. Agora identifique-se no Sync em seus outros dispositivos, incluindo o Firefox para <a "
+"%(androidLinkAttributes)s>Android</a> e <a %(iosLinkAttributes)s>iOS</a>."
 
 #: templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-msgstr "Você conectou com sucesso seu primeiro dispositivo na sua conta Firefox. Agora você pode entrar para sincronizar outros dispositivos, incluindo o Firefox para Android e iOS."
+msgstr "Você conectou com sucesso o seu primeiro dispositivo na sua conta Firefox. Agora identifique-se no Sync em seus outros dispositivos, incluindo o Firefox para Android e iOS."
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
