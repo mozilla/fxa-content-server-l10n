@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-14 16:19+0000\n"
-"PO-Revision-Date: 2016-11-18 15:38+0000\n"
+"PO-Revision-Date: 2016-11-18 15:54+0000\n"
 "Last-Translator: Marco Aurélio <fxhelp@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -57,7 +57,7 @@ msgstr "O Firefox Sync retornará em instantes"
 
 #: .es5/scripts/views/ready.js:48
 msgid "Sign-in confirmed"
-msgstr "Entrada confirmada"
+msgstr "Identificação confirmada"
 
 #: .es5/scripts/views/ready.js:49 .es5/scripts/views/ready.js:54 .es5/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
@@ -267,7 +267,7 @@ msgstr "nenhuma mensagem"
 
 #: .es5/scripts/lib/auth-errors.js:137
 msgid "Session expired. Sign in to continue."
-msgstr "Sessão expirada. Entre para continuar."
+msgstr "Sessão expirada. Identifique-se para continuar."
 
 #: .es5/scripts/lib/auth-errors.js:141
 msgid "Cookies are still disabled"
@@ -489,7 +489,7 @@ msgstr "Endereço IP: %(ip)s"
 
 #: .es5/scripts/lib/strings.js:41
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "Para segurança adicional, por favor, confirme esta sessão para começar a sincronizar este dispositivo:"
+msgstr "Para segurança adicional, por favor, confirme esta identificação para começar a sincronizar com este dispositivo:"
 
 #: .es5/scripts/templates/400.mustache:1
 msgid "Bad Request"
@@ -601,7 +601,7 @@ msgstr "Enviar a nova senha"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:1
 msgid "Sign-in already confirmed"
-msgstr "Entrada já confirmada"
+msgstr "Identificação já confirmada"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
@@ -621,7 +621,7 @@ msgstr "Confirme sua conta"
 
 #: .es5/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
-msgstr "Confirmar esta entrada"
+msgstr "Confirmar esta identificação"
 
 #: .es5/scripts/templates/confirm.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email Sent"
@@ -649,7 +649,7 @@ msgstr "Clique no link que enviado para %(email)s dentro da próxima hora para c
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7
 msgid "Remember password? Sign in"
-msgstr "Lembrar senha? Entrar"
+msgstr "Lembrar senha? Identifique-se"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:9
 msgid "Didn’t arrive? Resend"
@@ -673,7 +673,7 @@ msgstr "Tentar novamente"
 
 #: .es5/scripts/templates/force_auth.mustache:1
 msgid "Sign in to continue"
-msgstr "Entre para continuar"
+msgstr "Identifique-se para continuar"
 
 #: .es5/scripts/templates/force_auth.mustache:3 .es5/scripts/templates/sign_in.mustache:8 .es5/scripts/templates/sign_in.mustache:18 .es5/scripts/templates/sign_up.mustache:15
 #: .es5/scripts/templates/settings/change_password.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:4
@@ -683,7 +683,7 @@ msgstr "Senha"
 #: .es5/scripts/templates/force_auth.mustache:5 .es5/scripts/templates/sign_in.mustache:1 .es5/scripts/templates/sign_in.mustache:4 .es5/scripts/templates/sign_in.mustache:9
 #: .es5/scripts/templates/sign_in.mustache:13 .es5/scripts/templates/sign_in.mustache:20
 msgid "Sign in"
-msgstr "Entrar"
+msgstr "Identifique-se"
 
 #: .es5/scripts/templates/force_auth.mustache:6 .es5/scripts/templates/sign_in.mustache:10 .es5/scripts/templates/sign_in.mustache:21 .es5/scripts/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
@@ -758,7 +758,7 @@ msgstr "Sua conta está pronta!"
 
 #: .es5/scripts/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr "Relatar acesso não autorizado?"
+msgstr "Relatar identificação não autorizada?"
 
 #: .es5/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
@@ -787,7 +787,7 @@ msgstr "E-mail"
 
 #: .es5/scripts/templates/reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:9
 msgid "Remember password? Sign in."
-msgstr "Lembrar senha? Entrar."
+msgstr "Lembrar senha? Identifique-se."
 
 #: .es5/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
@@ -823,7 +823,7 @@ msgstr "A nossa equipa foi notificada. Relatos como este, nos ajudam a afastar i
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:1 .es5/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
-msgstr "Autorizar este acesso"
+msgstr "Autorizar esta identificação"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
@@ -851,7 +851,7 @@ msgstr "Migre os dados do sync criando uma nova conta Firefox."
 
 #: .es5/scripts/templates/sign_up.mustache:10
 msgid "Have an account with a different email? <a href=\"%(escapedSignInUri)s\">Sign in</a>"
-msgstr "Tem uma conta com um e-mail diferente? <a href=\"%(escapedSignInUri)s\">Entre</a>"
+msgstr "Tem uma conta com um e-mail diferente? <a href=\"%(escapedSignInUri)s\">Identifique-se</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:19 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
@@ -863,7 +863,7 @@ msgstr "Criar conta"
 
 #: .es5/scripts/templates/sign_up.mustache:26
 msgid "Have an account? Sign in"
-msgstr "Tem uma conta? Entre"
+msgstr "Tem uma conta? Identifique-se"
 
 #: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2 .es5/scripts/templates/settings/communication_preferences.mustache:4
 #: .es5/scripts/templates/settings/display_name.mustache:2
@@ -912,7 +912,7 @@ msgstr "Salvar"
 
 #: .es5/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "Após ter terminado, use a sua nova senha para entrar em todos os seus dispositivos."
+msgstr "Após ter terminado, use a sua nova senha para identificar-se em todos os seus dispositivos."
 
 #: .es5/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
@@ -1028,7 +1028,7 @@ msgstr "Quantos anos tem?"
 
 #: .es5/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr "Entrar no Sync"
+msgstr "Identifique-se no Sync"
 
 #: .es5/scripts/templates/openid/start.mustache:2
 msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."

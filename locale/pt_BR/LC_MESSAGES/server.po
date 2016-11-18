@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-14 16:19+0000\n"
-"PO-Revision-Date: 2016-11-18 15:40+0000\n"
+"PO-Revision-Date: 2016-11-18 15:53+0000\n"
 "Last-Translator: Marco Aurélio <fxhelp@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -56,7 +56,7 @@ msgstr "Contas Firefox"
 
 #: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:488
 msgid "New sign-in to Firefox"
-msgstr "Entrar com o Firefox"
+msgstr "Nova identificação no Firefox"
 
 #: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/unblock_code.html:3 templates/unblock_code.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "IP address: %(ip)s"
@@ -181,7 +181,7 @@ msgstr "Você conectou com sucesso o seu primeiro dispositivo na sua conta Firef
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr "Entre para sincronizar:"
+msgstr "Identifique-se no Sync:"
 
 #: templates/recovery.html:2 templates/recovery.txt:1
 msgid "Forgot your password?"
@@ -281,11 +281,11 @@ msgstr "Por favor, ative sua conta, confirmando este endereço de e-mail."
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "Para segurança adicional, por favor, confirme esta sessão para começar a sincronizar com este dispositivo:"
+msgstr "Para segurança adicional, por favor, confirme esta identificação para começar a sincronizar com este dispositivo:"
 
 #: templates/verify_login.html:5 templates/verify_login.txt:4
 msgid "Confirm sign-in"
-msgstr "Confirmar entrada"
+msgstr "Confirmar identificação"
 
 #: templates/verify_login.html:6
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -329,7 +329,7 @@ msgstr "Código de autorização da Conta Firefox"
 
 #: mailer.js:355
 msgid "Confirm new sign-in to Firefox"
-msgstr "Confirmar novo cadastro para o Firefox"
+msgstr "Confirmar nova identificação no Firefox"
 
 #: mailer.js:395
 msgid "Reset your Firefox Account password"
