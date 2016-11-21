@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-14 16:19+0000\n"
-"PO-Revision-Date: 2016-11-03 08:22+0000\n"
-"Last-Translator: Dinesh <dineshmv38@gmail.com>\n"
+"PO-Revision-Date: 2016-11-21 10:40+0000\n"
+"Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
 "MIME-Version: 1.0\n"
@@ -461,9 +461,7 @@ msgid "Firefox Sync"
 msgstr "ఫైర్ఫాక్స్ సింక్"
 
 #: .es5/scripts/lib/strings.js:24
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr "కొనసాగింతే, మీరు మా <a id=\"service-tos\" href=\"%(termsUri)s\">సేవా షరతులు</a> మరియు <a id=\"service-pp\" href=\"%(privacyUri)s\">గోప్యతా నోటీసు</a> యొక్క %(serviceName)s(%(serviceUri)s)."
 
 #: .es5/scripts/lib/strings.js:31
@@ -532,7 +530,7 @@ msgstr "ఆడ్-ఆన్స్"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:8
 msgid "Passwords"
-msgstr "పాస్వర్డ్స్"
+msgstr "సంకేతపదాలు"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:10
 msgid "History"
@@ -576,7 +574,7 @@ msgstr "మీరు క్లిక్ చేసిన లింక్ పా�
 
 #: .es5/scripts/templates/complete_reset_password.mustache:8
 msgid "Enter new password"
-msgstr "కొత్త పాస్వర్డ్ ప్రవేశపెట్టండి"
+msgstr "కొత్త సంకేతపదం ఇవ్వండి"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:9
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
@@ -588,7 +586,7 @@ msgstr "సింక్ ఎలా పనిచేస్తుందో నేర
 
 #: .es5/scripts/templates/complete_reset_password.mustache:12 .es5/scripts/templates/settings/change_password.mustache:6
 msgid "New password"
-msgstr "కొత్త పాస్వర్డ్"
+msgstr "కొత్త సంకేతపదం"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:14
 msgid "Repeat password"
@@ -620,7 +618,7 @@ msgstr "మీ ఖాతాను నిర్ధారించండి"
 
 #: .es5/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
-msgstr "ఈ సైన్ ఇన్ నిర్ధారించండి"
+msgstr "ఈ ప్రవేశాన్ని నిర్ధారించండి"
 
 #: .es5/scripts/templates/confirm.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email Sent"
@@ -677,7 +675,7 @@ msgstr "కొనసాగడానికి సైన్ ఇన్ అవ్
 #: .es5/scripts/templates/force_auth.mustache:3 .es5/scripts/templates/sign_in.mustache:8 .es5/scripts/templates/sign_in.mustache:18 .es5/scripts/templates/sign_up.mustache:15
 #: .es5/scripts/templates/settings/change_password.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
-msgstr "పాస్వర్డ్"
+msgstr "సంకేతపదం"
 
 #: .es5/scripts/templates/force_auth.mustache:5 .es5/scripts/templates/sign_in.mustache:1 .es5/scripts/templates/sign_in.mustache:4 .es5/scripts/templates/sign_in.mustache:9
 #: .es5/scripts/templates/sign_in.mustache:13 .es5/scripts/templates/sign_in.mustache:20
@@ -686,7 +684,7 @@ msgstr "సైన్ ఇన్"
 
 #: .es5/scripts/templates/force_auth.mustache:6 .es5/scripts/templates/sign_in.mustache:10 .es5/scripts/templates/sign_in.mustache:21 .es5/scripts/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
-msgstr "పాస్వర్డ్ మరిచిపోయారా?"
+msgstr "సంకేతపదం మరిచిపోయారా?"
 
 #: .es5/scripts/templates/force_auth.mustache:7 .es5/scripts/templates/sign_in.mustache:23 .es5/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
@@ -722,7 +720,7 @@ msgstr "ఆండ్రాయిడ్ కోసం ఫైర్ఫాక్స�
 
 #: .es5/scripts/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr "మొబైల్ పరికరాల కోసం ఫైర్ఫాక్స్ డౌన్లోడ్ చేయండి."
+msgstr "మొబైల్ పరికరాల కోసం Firefox దించుకోండి."
 
 #: .es5/scripts/templates/permissions.mustache:1 .es5/scripts/templates/settings/gravatar_permissions.mustache:1
 msgid "Request for permission"
@@ -773,7 +771,7 @@ msgstr "ఇలా ఎందుకు జరుగుతోంది?"
 
 #: .es5/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
-msgstr "పాస్వర్డ్ మరిచిపోయారా"
+msgstr "సంకేతపదం మరిచిపోయారా"
 
 #: .es5/scripts/templates/reset_password.mustache:2
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
@@ -782,11 +780,11 @@ msgstr "మీరు మీ పాస్వర్డ్ను రీసెట్
 #: .es5/scripts/templates/reset_password.mustache:5 .es5/scripts/templates/sign_in.mustache:17 .es5/scripts/templates/sign_up.mustache:13
 #: .es5/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
-msgstr "ఈమేయిల్"
+msgstr "ఈమెయిలు"
 
 #: .es5/scripts/templates/reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:9
 msgid "Remember password? Sign in."
-msgstr "పాస్వర్డ్ గుర్తుందా? సైన్ ఇన్."
+msgstr "సంకేతపదం గుర్తుందా? ప్రవేశించండి."
 
 #: .es5/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
@@ -810,7 +808,7 @@ msgstr "వేరే ఖాతాను ఉపయోగించండి"
 
 #: .es5/scripts/templates/sign_in.mustache:22
 msgid "Create an account"
-msgstr "ఒక అకౌంటు సృష్టించు"
+msgstr "ఒక ఖాతా సృష్టించు"
 
 #: .es5/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -895,7 +893,7 @@ msgstr "క్లియర్"
 
 #: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/clients.mustache:17
 msgid "Done"
-msgstr "అయింది"
+msgstr "పూర్తయింది"
 
 #: .es5/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
@@ -915,15 +913,15 @@ msgstr "ఒకసారి మీరు పూర్తి చేసిన త�
 
 #: .es5/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
-msgstr "పాత పాస్వర్డ్"
+msgstr "పాత సంకేతపదం"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
-msgstr "సమకాలీకరణ నున్డీ డిస్కనెక్ట్ చెయ్యన్డి?"
+msgstr "Sync నుండి సంధానం తెంచివేయాలా?"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr "మీ బ్రౌజింగ్ నమచరమ్ అలానె ఉంటుంది %(deviceName)s, కాని అది మీ ఖాతాతొ సమకాలీకరన అవ్వదు."
+msgstr "%(deviceName)s లలో ఈ విహారణ డేటా అలానే ఉంటుంది, కానీ అది మీ ఖాతాతో సింక్ అవ్వదు."
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Reason for disconnecting…"
@@ -959,7 +957,7 @@ msgstr "పరికరాలు & అనువర్తనాలు"
 
 #: .es5/scripts/templates/settings/clients.mustache:3 .es5/scripts/templates/partial/show-password.mustache:1
 msgid "Show"
-msgstr "చూపు"
+msgstr "చూపించు"
 
 #: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
@@ -975,7 +973,7 @@ msgstr "iOS కోసం Firefox"
 
 #: .es5/scripts/templates/settings/clients.mustache:11 .es5/scripts/templates/settings/clients.mustache:13
 msgid "Get app"
-msgstr "అనుమర్తను పొందండి"
+msgstr "ఆప్‌ను పొందండి"
 
 #: .es5/scripts/templates/settings/clients.mustache:12
 msgid "Firefox for Android"
@@ -1065,19 +1063,20 @@ msgstr "ఫైర్ఫాక్స్ ఖాతా వాడు"
 #~ msgid "Sync preferences"
 #~ msgstr "Sync అభిరుచులు"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr "ఫైర్‌ఫాక్స్ సింక్ కోసం చూస్తున్నారా? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">ఇక్కడ మొదలుపెట్టండి</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr ""
+#~ "ఫైర్‌ఫాక్స్ సింక్ కోసం చూస్తున్నారా? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">ఇక్కడ "
+#~ "మొదలుపెట్టండి</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "వేరొక ఈమయిల్ తో ఖాతా ఉన్నదా? <a href=\"%(signinUri)s\">సైన్ ఇన్ అవండి</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "ఫైర్ఫాక్స్ <a href=\"%(linkWindows)s\">విండోస్</a>, <a href=\"%(linkOSX)s\">ఓయస్ ఎక్స్</a>, <a href=\"%(linkAndroid)s\">ఆండ్రాయిడ్</a>,<a href=\"%(linkIOS)s\">ఐఓయస్</a>, <a href=\"%(linkLinux)s\">లినక్స్</a> కి "
-#~ "లభిస్తుంది."
+#~ "ఫైర్ఫాక్స్ <a href=\"%(linkWindows)s\">విండోస్</a>, <a href=\"%(linkOSX)s\">ఓయస్ ఎక్స్</a>, <a href=\"%(linkAndroid)s\">ఆండ్రాయిడ్</a>,<a href=\"%(linkIOS)s\">ఐఓయస్</a>, <a "
+#~ "href=\"%(linkLinux)s\">లినక్స్</a> కి లభిస్తుంది."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "చివరిసారి క్రియాశీలం: %(translatedTimeAgo)s"
