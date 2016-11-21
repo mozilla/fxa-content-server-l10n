@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-14 16:19+0000\n"
-"PO-Revision-Date: 2016-11-21 10:43+0000\n"
+"PO-Revision-Date: 2016-09-13 10:21+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -997,11 +997,11 @@ msgstr "ఇమెయిల్ ప్రాధాన్యతలను"
 
 #: .es5/scripts/templates/settings/communication_preferences.mustache:10
 msgid "Unsubscribe"
-msgstr "అన్ సబ్స్క్రైబ్"
+msgstr "చందా విరమించు"
 
 #: .es5/scripts/templates/settings/communication_preferences.mustache:12
 msgid "Subscribe"
-msgstr "సబ్స్క్రిబ్"
+msgstr "చందాచేరు"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:5
 msgid "Delete account"
