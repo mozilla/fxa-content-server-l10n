@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-14 16:19+0000\n"
-"PO-Revision-Date: 2016-11-21 10:40+0000\n"
+"PO-Revision-Date: 2016-11-21 10:43+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -510,7 +510,7 @@ msgstr "మీరు ఒక ఫైర్ఫాక్స్ &nbsp ఖాతాస
 
 #: .es5/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
-msgstr "ఇంకా నేర్చుకో."
+msgstr "ఇంకా తెలుసుకోండి."
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:1 .es5/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
@@ -522,7 +522,7 @@ msgstr "తెరిచివున్న ట్యాబులు"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
-msgstr "బుక్మార్క్స్"
+msgstr "ఇష్టాంశాలు"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
@@ -941,7 +941,7 @@ msgstr "పాత లేదా భర్తీ పరికరం"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
-msgstr "అయితే చెప్పలేను"
+msgstr "చెప్పకూడదని అనుకుంటున్నాను"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:8 .es5/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect"
