@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-14 16:19+0000\n"
-"PO-Revision-Date: 2016-07-29 08:55+0000\n"
+"PO-Revision-Date: 2016-11-25 04:00+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -96,7 +96,7 @@ msgstr ""
 
 #: .es5/scripts/views/settings/clients.js:50
 msgid "Last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Соңғы белсенділік %(translatedTimeAgo)s"
 
 #: .es5/scripts/views/settings/communication_preferences.js:106
 msgid "Subscribed successfully"
@@ -140,7 +140,7 @@ msgstr "Outlook ашу"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:37
 msgid "Open Restmail"
-msgstr ""
+msgstr "Restmail ашу"
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:22
 msgid "8 characters minimum, but longer if you plan to sync passwords."
@@ -461,9 +461,7 @@ msgid "Firefox Sync"
 msgstr "Firefox синхрондауы"
 
 #: .es5/scripts/lib/strings.js:24
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Жалғастыру нәтижесінде, сіз %(serviceName)s (%(serviceUri)s) қызметінің <a id=\"service-tos\" href=\"%(termsUri)s\">Қолдану шарттары</a> және <a id=\"service-pp\" href=\"%(privacyUri)s\">Жекелік "
 "ескертуімен</a> келісесіз."
@@ -522,7 +520,7 @@ msgstr "Нені синхрондауды таңдаңыз"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Open tabs"
-msgstr ""
+msgstr "Беттерді ашу"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
@@ -692,9 +690,7 @@ msgstr "Пароліңізді ұмыттыңыз ба?"
 
 #: .es5/scripts/templates/force_auth.mustache:7 .es5/scripts/templates/sign_in.mustache:23 .es5/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr ""
-"Жалғастыру нәтижесінде, сіз Firefox бұлттық қызметтерінің <a id=\"fxa-tos\" href=\"/legal/terms\">Қолдану шарттары</a> және <a id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуімен</a> "
-"келісесіз."
+msgstr "Жалғастыру нәтижесінде, сіз Firefox бұлттық қызметтерінің <a id=\"fxa-tos\" href=\"/legal/terms\">Қолдану шарттары</a> және <a id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуімен</a> келісесіз."
 
 #: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -1070,11 +1066,11 @@ msgstr "Firefox тіркелгісін қолдану"
 #~ msgstr "Басқа эл. поштаға байланысқан тіркелгіңіз бар ма? <a href=\"%(signinUri)s\">Кіріңіз</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox браузері <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> және <a href=\"%(linkLinux)s"
-#~ "\">Linux</a> үшін қолжетерлік."
+#~ "Firefox браузері <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> және <a "
+#~ "href=\"%(linkLinux)s\">Linux</a> үшін қолжетерлік."
 
 #~ msgid "Incorrect password"
 #~ msgstr "Пароль қате"
@@ -1216,8 +1212,8 @@ msgstr "Firefox тіркелгісін қолдану"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr ""
-#~ "Пароліңізді тастау нәтижесінде сіздің барлық шолу деректеріңіз біздің серверлерімізден өшіріледі. Ал, құрылғыларыңыздағы барлық шолу деректері сақталады. Парольді тастауды бастау үшін, төменде "
-#~ "өз эл. пошта адресіңізді енгіңіз."
+#~ "Пароліңізді тастау нәтижесінде сіздің барлық шолу деректеріңіз біздің серверлерімізден өшіріледі. Ал, құрылғыларыңыздағы барлық шолу деректері сақталады. Парольді тастауды бастау үшін, төменде өз "
+#~ "эл. пошта адресіңізді енгіңіз."
 
 #~ msgid "Begin reset"
 #~ msgstr "Парольді тастауды бастау"
