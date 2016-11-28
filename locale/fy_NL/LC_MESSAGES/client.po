@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-14 16:19+0000\n"
+"POT-Creation-Date: 2016-11-28 17:12+0000\n"
 "PO-Revision-Date: 2016-11-02 07:57+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
@@ -15,15 +15,15 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444650468.0\n"
 
-#: .es5/scripts/views/complete_reset_password.js:125 .es5/scripts/views/complete_sign_up.js:115 .es5/scripts/views/confirm.js:121 .es5/scripts/views/confirm_reset_password.js:171
+#: .es5/scripts/views/complete_reset_password.js:125 .es5/scripts/views/complete_sign_up.js:115 .es5/scripts/views/confirm.js:120 .es5/scripts/views/confirm_reset_password.js:170
 msgid "Account verified successfully"
 msgstr "Account mei sukses ferifiearre"
 
-#: .es5/scripts/views/confirm_reset_password.js:163 .es5/scripts/views/ready.js:42
+#: .es5/scripts/views/confirm_reset_password.js:162 .es5/scripts/views/ready.js:41
 msgid "Password reset"
 msgstr "Wachtwurd opnij ynsteld"
 
-#: .es5/scripts/views/confirm_reset_password.js:187
+#: .es5/scripts/views/confirm_reset_password.js:186
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Wachtwurd is opnij ynsteld. Meld jo oan om troch te gean."
 
@@ -43,27 +43,27 @@ msgstr "Werjeftenamme"
 msgid "Account picture"
 msgstr "Accountôfbylding"
 
-#: .es5/scripts/views/ready.js:28
+#: .es5/scripts/views/ready.js:27
 msgid "Firefox Sync will begin momentarily"
 msgstr "Firefox Sync sil ynkoarten begjinne"
 
-#: .es5/scripts/views/ready.js:37
+#: .es5/scripts/views/ready.js:36
 msgid "Welcome back"
 msgstr "Wolkom werom"
 
-#: .es5/scripts/views/ready.js:38
+#: .es5/scripts/views/ready.js:37
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync sil ynkoarten trochgean"
 
-#: .es5/scripts/views/ready.js:48
+#: .es5/scripts/views/ready.js:47
 msgid "Sign-in confirmed"
 msgstr "Oanmelding befêstige"
 
-#: .es5/scripts/views/ready.js:49 .es5/scripts/views/ready.js:54 .es5/scripts/templates/ready.mustache:3
+#: .es5/scripts/views/ready.js:48 .es5/scripts/views/ready.js:53 .es5/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Jo kinne %(serviceName)s no brûke"
 
-#: .es5/scripts/views/ready.js:53
+#: .es5/scripts/views/ready.js:52
 msgid "Account verified"
 msgstr "Account ferifiearre"
 
@@ -99,11 +99,11 @@ msgstr "Wy fine it spitich om dit te hearen. As dit in apparaat wie dat jo echt 
 msgid "Last active %(translatedTimeAgo)s"
 msgstr "Lêst aktyf %(translatedTimeAgo)s"
 
-#: .es5/scripts/views/settings/communication_preferences.js:106
+#: .es5/scripts/views/settings/communication_preferences.js:101
 msgid "Subscribed successfully"
 msgstr "Ynskriuwen slagge"
 
-#: .es5/scripts/views/settings/communication_preferences.js:106
+#: .es5/scripts/views/settings/communication_preferences.js:101
 msgid "Unsubscribed successfully"
 msgstr "Utskriuwen slagge"
 
@@ -742,7 +742,7 @@ msgid "Accept"
 msgstr "Akseptearje"
 
 #: .es5/scripts/templates/permissions.mustache:4 .es5/scripts/templates/settings/avatar_camera.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:3
-#: .es5/scripts/templates/settings/avatar_gravatar.mustache:3 .es5/scripts/templates/settings/change_password.mustache:9 .es5/scripts/templates/settings/client_disconnect.mustache:9
+#: .es5/scripts/templates/settings/avatar_gravatar.mustache:3 .es5/scripts/templates/settings/change_password.mustache:9 .es5/scripts/templates/settings/client_disconnect.mustache:10
 #: .es5/scripts/templates/settings/communication_preferences.mustache:5 .es5/scripts/templates/settings/communication_preferences.mustache:13 .es5/scripts/templates/settings/delete_account.mustache:6
 #: .es5/scripts/templates/settings/display_name.mustache:6 .es5/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
@@ -947,14 +947,18 @@ msgid "Old or replaced device"
 msgstr "Ald of ferfongen apparaat"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:7
+msgid "Duplicate device"
+msgstr ""
+
+#: .es5/scripts/templates/settings/client_disconnect.mustache:8
 msgid "Rather not say"
 msgstr "Wol ik leaver net melde"
 
-#: .es5/scripts/templates/settings/client_disconnect.mustache:8 .es5/scripts/templates/settings/clients.mustache:8
+#: .es5/scripts/templates/settings/client_disconnect.mustache:9 .es5/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect"
 msgstr "Ferbining ferbrekke"
 
-#: .es5/scripts/templates/settings/client_disconnect.mustache:10
+#: .es5/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Disconnection Successful"
 msgstr "Ferbrekken suksesfol"
 

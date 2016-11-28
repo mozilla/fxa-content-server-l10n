@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-14 16:19+0000\n"
-"PO-Revision-Date: 2016-10-17 16:58+0000\n"
+"POT-Creation-Date: 2016-11-28 17:12+0000\n"
+"PO-Revision-Date: 2016-11-14 22:02+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv_SE\n"
@@ -297,11 +297,11 @@ msgstr "Om du misstänker att någon försöker få åtkomst till ditt konto, ä
 
 #: mailer.js:143
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
-msgstr ""
+msgstr "%(uaBrowser)s på %(uaOS)s %(uaOSVersion)s"
 
 #: mailer.js:146
 msgid "%(uaBrowser)s on %(uaOS)s"
-msgstr ""
+msgstr "%(uaBrowser)s på %(uaOS)s"
 
 #: mailer.js:173
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"

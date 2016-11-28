@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-14 16:19+0000\n"
-"PO-Revision-Date: 2016-11-13 13:45+0000\n"
+"POT-Creation-Date: 2016-11-28 17:12+0000\n"
+"PO-Revision-Date: 2016-11-26 11:50+0000\n"
 "Last-Translator: Vanja Tumbas <tumbas93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -447,11 +447,11 @@ msgstr ""
 
 #: mailer.js:143
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
-msgstr ""
+msgstr "%(uaBrowser)s na %(uaOS)s %(uaOSVersion)s"
 
 #: mailer.js:146
 msgid "%(uaBrowser)s on %(uaOS)s"
-msgstr ""
+msgstr "%(uaBrowser)s na %(uaOS)s"
 
 #: mailer.js:173
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
