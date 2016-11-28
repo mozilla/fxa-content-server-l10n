@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-14 16:19+0000\n"
+"POT-Creation-Date: 2016-11-28 17:12+0000\n"
 "PO-Revision-Date: 2016-11-16 19:14+0000\n"
 "Last-Translator: Tomer Cohen <tomer.mozilla@tomercohen.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,15 +15,15 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1394715825.0\n"
 
-#: .es5/scripts/views/complete_reset_password.js:125 .es5/scripts/views/complete_sign_up.js:115 .es5/scripts/views/confirm.js:121 .es5/scripts/views/confirm_reset_password.js:171
+#: .es5/scripts/views/complete_reset_password.js:125 .es5/scripts/views/complete_sign_up.js:115 .es5/scripts/views/confirm.js:120 .es5/scripts/views/confirm_reset_password.js:170
 msgid "Account verified successfully"
 msgstr "החשבון אומת בהצלחה"
 
-#: .es5/scripts/views/confirm_reset_password.js:163 .es5/scripts/views/ready.js:42
+#: .es5/scripts/views/confirm_reset_password.js:162 .es5/scripts/views/ready.js:41
 msgid "Password reset"
 msgstr "איפוס ססמה"
 
-#: .es5/scripts/views/confirm_reset_password.js:187
+#: .es5/scripts/views/confirm_reset_password.js:186
 msgid "Password reset successfully. Sign in to continue."
 msgstr "איפוס הססמה הושלם בהצלחה. נא להיכנס לחשבון כדי להמשיך."
 
@@ -43,27 +43,27 @@ msgstr "שם תצוגה"
 msgid "Account picture"
 msgstr "החשבון אומת"
 
-#: .es5/scripts/views/ready.js:28
+#: .es5/scripts/views/ready.js:27
 msgid "Firefox Sync will begin momentarily"
 msgstr "Firefox Sync יתחיל בתוך מספר רגעים"
 
-#: .es5/scripts/views/ready.js:37
+#: .es5/scripts/views/ready.js:36
 msgid "Welcome back"
 msgstr "ברוכים השבים"
 
-#: .es5/scripts/views/ready.js:38
+#: .es5/scripts/views/ready.js:37
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync יחדש את פעולתו בעוד מספר רגעים"
 
-#: .es5/scripts/views/ready.js:48
+#: .es5/scripts/views/ready.js:47
 msgid "Sign-in confirmed"
 msgstr ""
 
-#: .es5/scripts/views/ready.js:49 .es5/scripts/views/ready.js:54 .es5/scripts/templates/ready.mustache:3
+#: .es5/scripts/views/ready.js:48 .es5/scripts/views/ready.js:53 .es5/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "כעת ניתן להשתמש ב־%(serviceName)s."
 
-#: .es5/scripts/views/ready.js:53
+#: .es5/scripts/views/ready.js:52
 msgid "Account verified"
 msgstr "החשבון אומת"
 
@@ -99,11 +99,11 @@ msgstr "מצטערים לשמוע. אם מדובר התקן שאינו מוכר 
 msgid "Last active %(translatedTimeAgo)s"
 msgstr ""
 
-#: .es5/scripts/views/settings/communication_preferences.js:106
+#: .es5/scripts/views/settings/communication_preferences.js:101
 msgid "Subscribed successfully"
 msgstr "נרשם כמנוי בהצלחה"
 
-#: .es5/scripts/views/settings/communication_preferences.js:106
+#: .es5/scripts/views/settings/communication_preferences.js:101
 msgid "Unsubscribed successfully"
 msgstr "הרישום למנוי בוטל בהצלחה"
 
@@ -462,7 +462,9 @@ msgid "Firefox Sync"
 msgstr "Firefox Accounts"
 
 #: .es5/scripts/lib/strings.js:24
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 
 #: .es5/scripts/lib/strings.js:31
@@ -736,7 +738,7 @@ msgid "Accept"
 msgstr "אישור"
 
 #: .es5/scripts/templates/permissions.mustache:4 .es5/scripts/templates/settings/avatar_camera.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:3
-#: .es5/scripts/templates/settings/avatar_gravatar.mustache:3 .es5/scripts/templates/settings/change_password.mustache:9 .es5/scripts/templates/settings/client_disconnect.mustache:9
+#: .es5/scripts/templates/settings/avatar_gravatar.mustache:3 .es5/scripts/templates/settings/change_password.mustache:9 .es5/scripts/templates/settings/client_disconnect.mustache:10
 #: .es5/scripts/templates/settings/communication_preferences.mustache:5 .es5/scripts/templates/settings/communication_preferences.mustache:13 .es5/scripts/templates/settings/delete_account.mustache:6
 #: .es5/scripts/templates/settings/display_name.mustache:6 .es5/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
@@ -941,14 +943,18 @@ msgid "Old or replaced device"
 msgstr ""
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:7
+msgid "Duplicate device"
+msgstr ""
+
+#: .es5/scripts/templates/settings/client_disconnect.mustache:8
 msgid "Rather not say"
 msgstr ""
 
-#: .es5/scripts/templates/settings/client_disconnect.mustache:8 .es5/scripts/templates/settings/clients.mustache:8
+#: .es5/scripts/templates/settings/client_disconnect.mustache:9 .es5/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect"
 msgstr "התנתקות"
 
-#: .es5/scripts/templates/settings/client_disconnect.mustache:10
+#: .es5/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Disconnection Successful"
 msgstr "התנתקות מוצלחת"
 
@@ -1062,9 +1068,11 @@ msgstr "שימוש בחשבון Firefox"
 #~ msgstr "ברשותך חשבון עם כתובת דוא״ל שונה? <a href=\"%(signinUri)s\">נא ללחוץ כאן כדי להתחבר</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "Firefox זמין עבור <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> ו־<a href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox זמין עבור <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> ו־<a href=\"%(linkLinux)s"
+#~ "\">Linux</a>."
 
 #~ msgid "Incorrect password"
 #~ msgstr "ססמה שגויה "

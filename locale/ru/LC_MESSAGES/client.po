@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-14 16:19+0000\n"
+"POT-Creation-Date: 2016-11-28 17:12+0000\n"
 "PO-Revision-Date: 2016-11-02 11:48+0000\n"
 "Last-Translator: Victor Bychek <a@bychek.ru>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
@@ -16,15 +16,15 @@ msgstr ""
 "X-POOTLE-MTIME: 1448126634.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: .es5/scripts/views/complete_reset_password.js:125 .es5/scripts/views/complete_sign_up.js:115 .es5/scripts/views/confirm.js:121 .es5/scripts/views/confirm_reset_password.js:171
+#: .es5/scripts/views/complete_reset_password.js:125 .es5/scripts/views/complete_sign_up.js:115 .es5/scripts/views/confirm.js:120 .es5/scripts/views/confirm_reset_password.js:170
 msgid "Account verified successfully"
 msgstr "Аккаунт успешно подтверждён"
 
-#: .es5/scripts/views/confirm_reset_password.js:163 .es5/scripts/views/ready.js:42
+#: .es5/scripts/views/confirm_reset_password.js:162 .es5/scripts/views/ready.js:41
 msgid "Password reset"
 msgstr "Пароль восстановлен"
 
-#: .es5/scripts/views/confirm_reset_password.js:187
+#: .es5/scripts/views/confirm_reset_password.js:186
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Пароль успешно сброшен. Войти, чтобы продолжить."
 
@@ -44,27 +44,27 @@ msgstr "Отображаемое имя"
 msgid "Account picture"
 msgstr "Фото аккаунта"
 
-#: .es5/scripts/views/ready.js:28
+#: .es5/scripts/views/ready.js:27
 msgid "Firefox Sync will begin momentarily"
 msgstr "Через несколько мгновений начнётся Синхронизация Firefox"
 
-#: .es5/scripts/views/ready.js:37
+#: .es5/scripts/views/ready.js:36
 msgid "Welcome back"
 msgstr "С возвращением"
 
-#: .es5/scripts/views/ready.js:38
+#: .es5/scripts/views/ready.js:37
 msgid "Firefox Sync will resume momentarily"
 msgstr "Через несколько мгновений возобновится Синхронизация Firefox"
 
-#: .es5/scripts/views/ready.js:48
+#: .es5/scripts/views/ready.js:47
 msgid "Sign-in confirmed"
 msgstr "Вход подтвержден"
 
-#: .es5/scripts/views/ready.js:49 .es5/scripts/views/ready.js:54 .es5/scripts/templates/ready.mustache:3
+#: .es5/scripts/views/ready.js:48 .es5/scripts/views/ready.js:53 .es5/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Теперь вы готовы использовать %(serviceName)s"
 
-#: .es5/scripts/views/ready.js:53
+#: .es5/scripts/views/ready.js:52
 msgid "Account verified"
 msgstr "Аккаунт подтверждён"
 
@@ -100,11 +100,11 @@ msgstr "Нам очень жаль. Если это было устройств�
 msgid "Last active %(translatedTimeAgo)s"
 msgstr "Последняя активность %(translatedTimeAgo)s"
 
-#: .es5/scripts/views/settings/communication_preferences.js:106
+#: .es5/scripts/views/settings/communication_preferences.js:101
 msgid "Subscribed successfully"
 msgstr "Вы были успешно подписаны"
 
-#: .es5/scripts/views/settings/communication_preferences.js:106
+#: .es5/scripts/views/settings/communication_preferences.js:101
 msgid "Unsubscribed successfully"
 msgstr "Вы были успешно отписаны"
 
@@ -741,7 +741,7 @@ msgid "Accept"
 msgstr "Принять"
 
 #: .es5/scripts/templates/permissions.mustache:4 .es5/scripts/templates/settings/avatar_camera.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:3
-#: .es5/scripts/templates/settings/avatar_gravatar.mustache:3 .es5/scripts/templates/settings/change_password.mustache:9 .es5/scripts/templates/settings/client_disconnect.mustache:9
+#: .es5/scripts/templates/settings/avatar_gravatar.mustache:3 .es5/scripts/templates/settings/change_password.mustache:9 .es5/scripts/templates/settings/client_disconnect.mustache:10
 #: .es5/scripts/templates/settings/communication_preferences.mustache:5 .es5/scripts/templates/settings/communication_preferences.mustache:13 .es5/scripts/templates/settings/delete_account.mustache:6
 #: .es5/scripts/templates/settings/display_name.mustache:6 .es5/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
@@ -946,14 +946,18 @@ msgid "Old or replaced device"
 msgstr "Старое или заменённое устройство"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:7
+msgid "Duplicate device"
+msgstr ""
+
+#: .es5/scripts/templates/settings/client_disconnect.mustache:8
 msgid "Rather not say"
 msgstr "Предпочитаю не говорить"
 
-#: .es5/scripts/templates/settings/client_disconnect.mustache:8 .es5/scripts/templates/settings/clients.mustache:8
+#: .es5/scripts/templates/settings/client_disconnect.mustache:9 .es5/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect"
 msgstr "Отсоединить"
 
-#: .es5/scripts/templates/settings/client_disconnect.mustache:10
+#: .es5/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Disconnection Successful"
 msgstr "Отсоединение прошло успешно"
 
