@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-28 17:12+0000\n"
-"PO-Revision-Date: 2016-11-28 19:19+0000\n"
+"PO-Revision-Date: 2016-11-28 19:23+0000\n"
 "Last-Translator: Mauricio Navarro Miranda <mauricio@navarromiranda.mx>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_MX\n"
@@ -850,7 +850,7 @@ msgstr "Migra tus datos sincronizados creando una nueva cuenta de&nbsp;Firefox."
 
 #: .es5/scripts/templates/sign_up.mustache:10
 msgid "Have an account with a different email? <a href=\"%(escapedSignInUri)s\">Sign in</a>"
-msgstr ""
+msgstr "¿Tienes una cuenta con otro email? <a href=\"%(escapedSignInUri)s\">Iniciar sesión</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:19 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
@@ -943,7 +943,7 @@ msgstr "Dispositivo antiguo o reemplazado"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Duplicate device"
-msgstr ""
+msgstr "Dispositivo duplicado"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:8
 msgid "Rather not say"
@@ -975,15 +975,15 @@ msgstr "Desconectar…"
 
 #: .es5/scripts/templates/settings/clients.mustache:10
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "Firefox para iOS"
 
 #: .es5/scripts/templates/settings/clients.mustache:11 .es5/scripts/templates/settings/clients.mustache:13
 msgid "Get app"
-msgstr ""
+msgstr "Obtener aplicación"
 
 #: .es5/scripts/templates/settings/clients.mustache:12
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Firefox para Android"
 
 #: .es5/scripts/templates/settings/clients.mustache:15
 msgid "Missing or duplicate items?"
