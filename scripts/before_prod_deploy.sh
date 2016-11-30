@@ -35,6 +35,11 @@ cp -r $L10N_DIR/locale/pt_PT/* $L10N_DIR/locale/pt
 sed -i'' -e 's/Language: pt_PT/Language: pt/g' "$L10N_DIR/locale/pt/LC_MESSAGES/client.po"
 sed -i'' -e 's/Language: pt_PT/Language: pt/g' "$L10N_DIR/locale/pt/LC_MESSAGES/server.po"
 
+cp -r $L10N_DIR/locale/fy_NL/* $L10N_DIR/locale/fy
+sed -i'' -e 's/Language: fy_NL/Language: fy/g' "$L10N_DIR/locale/fy/LC_MESSAGES/client.po"
+sed -i'' -e 's/Language: fy_NL/Language: fy/g' "$L10N_DIR/locale/fy/LC_MESSAGES/server.po"
+
+
 
 # see https://github.com/mozilla/zippy/blob/180f746cd84cb3e409c76649e810485acb4512dc/locale/omg_new_l10n.sh#L90
 # also see https://bugzilla.mozilla.org/show_bug.cgi?id=1168488
