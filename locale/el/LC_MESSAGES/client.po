@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-28 17:12+0000\n"
-"PO-Revision-Date: 2016-12-11 15:01+0000\n"
+"PO-Revision-Date: 2016-12-11 15:04+0000\n"
 "Last-Translator: Jim Spentzos <jamesspentzos@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -828,11 +828,11 @@ msgstr ""
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "Εισάγετε κωδικό πιστοποίησης"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"
-msgstr ""
+msgstr "Συνέχεια"
 
 #: .es5/scripts/templates/sign_up.mustache:1 .es5/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
@@ -860,16 +860,16 @@ msgstr "Δημιουργία λογαριασμού"
 
 #: .es5/scripts/templates/sign_up.mustache:26
 msgid "Have an account? Sign in"
-msgstr ""
+msgstr "Έχετε λογαριασμό; Είσοδος"
 
 #: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2 .es5/scripts/templates/settings/communication_preferences.mustache:4
 #: .es5/scripts/templates/settings/display_name.mustache:2
 msgid "Change…"
-msgstr ""
+msgstr "Αλλαγή…"
 
 #: .es5/scripts/templates/settings/avatar.mustache:4
 msgid "Add…"
-msgstr ""
+msgstr "Προσθήκη…"
 
 #: .es5/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -897,7 +897,7 @@ msgstr "Τέλος"
 
 #: .es5/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
-msgstr ""
+msgstr "Τοποθετήστε και περιστρέψτε την εικόνα σας, όπως επιθυμείτε"
 
 #: .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:8 .es5/scripts/templates/settings/display_name.mustache:5
 msgid "Change"
@@ -909,7 +909,7 @@ msgstr "Αποθήκευση"
 
 #: .es5/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr ""
+msgstr "Μόλις τελειώσετε, χρησιμοποιήστε το νέο σας κωδικό πρόσβασης για να συνδεθείτε σε όλες σας τις συσκευές."
 
 #: .es5/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
@@ -917,11 +917,11 @@ msgstr "Παλιός κωδικός"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
-msgstr ""
+msgstr "Αποσύνδεση από το Sync;"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr ""
+msgstr "Τα δεδομένα περιήγησής σας θα παραμείνουν στο %(deviceName)s, αλλά δεν θα συγχρονίζονται πλέον με το λογαριασμό σας."
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Reason for disconnecting…"
@@ -941,7 +941,7 @@ msgstr "Παλιά ή αντικαταστημένη συσκευή"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Duplicate device"
-msgstr ""
+msgstr "Διπλή συσκευή"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:8
 msgid "Rather not say"
