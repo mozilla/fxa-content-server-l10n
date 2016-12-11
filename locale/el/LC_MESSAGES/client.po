@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-28 17:12+0000\n"
-"PO-Revision-Date: 2016-06-12 13:41+0000\n"
+"PO-Revision-Date: 2016-12-11 15:01+0000\n"
 "Last-Translator: Jim Spentzos <jamesspentzos@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -56,7 +56,7 @@ msgstr "Ο Συγχρονισμός Firefox Sync θα συνεχίσει εντ�
 
 #: .es5/scripts/views/ready.js:47
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "Η είσοδος επιβεβαιώθηκε"
 
 #: .es5/scripts/views/ready.js:48 .es5/scripts/views/ready.js:53 .es5/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
@@ -124,23 +124,23 @@ msgstr "Επαναφορά κωδικού πρόσβασης"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:17
 msgid "Open Gmail"
-msgstr ""
+msgstr "Άνοιγμα Gmail"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:22
 msgid "Open Hotmail"
-msgstr ""
+msgstr "Άνοιγμα Hotmail"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:27
 msgid "Open Yahoo"
-msgstr ""
+msgstr "Άνοιγμα Yahoo"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:32
 msgid "Open Outlook"
-msgstr ""
+msgstr "Άνοιγμα Outlook"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:37
 msgid "Open Restmail"
-msgstr ""
+msgstr "Άνοιγμα Restmail"
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:22
 msgid "8 characters minimum, but longer if you plan to sync passwords."
@@ -278,7 +278,7 @@ msgstr ""
 
 #: .es5/scripts/lib/auth-errors.js:149
 msgid "Working…"
-msgstr ""
+msgstr "Εργασία…"
 
 #: .es5/scripts/lib/auth-errors.js:153
 msgid "Could not get Privacy Notice"
@@ -461,9 +461,7 @@ msgid "Firefox Sync"
 msgstr ""
 
 #: .es5/scripts/lib/strings.js:24
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/scripts/lib/strings.js:31
@@ -694,7 +692,7 @@ msgstr ""
 
 #: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "Υπηρεσίες cloud του Firefox"
 
 #: .es5/scripts/templates/legal.mustache:2
 msgid "Legal"
@@ -710,15 +708,15 @@ msgstr "Πολιτική Απορρήτου"
 
 #: .es5/scripts/templates/marketing_snippet.mustache:1 .es5/scripts/templates/marketing_snippet.mustache:5 .es5/scripts/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
-msgstr ""
+msgstr "Λάβετε την πλήρη εμπειρία του Sync."
 
 #: .es5/scripts/templates/marketing_snippet.mustache:2 .es5/scripts/templates/marketing_snippet.mustache:3 .es5/scripts/templates/marketing_snippet.mustache:11
 msgid "Download Firefox for iOS!"
-msgstr ""
+msgstr "Λήψη του Firefox για iOS!"
 
 #: .es5/scripts/templates/marketing_snippet.mustache:6 .es5/scripts/templates/marketing_snippet.mustache:7 .es5/scripts/templates/marketing_snippet.mustache:12
 msgid "Download Firefox for Android."
-msgstr ""
+msgstr "Λήψη του Firefox για Android."
 
 #: .es5/scripts/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
@@ -765,11 +763,11 @@ msgstr ""
 
 #: .es5/scripts/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr ""
+msgstr "Αναφορά δραστηριότητας"
 
 #: .es5/scripts/templates/report_sign_in.mustache:7 .es5/scripts/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr ""
+msgstr "Γιατί συμβαίνει αυτό;"
 
 #: .es5/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
@@ -927,19 +925,19 @@ msgstr ""
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Reason for disconnecting…"
-msgstr ""
+msgstr "Λόγος αποσύνδεσης…"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
-msgstr ""
+msgstr "Ύποπτη συσκευή"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen device"
-msgstr ""
+msgstr "Χαμένη ή κλεμμένη συσκευή"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced device"
-msgstr ""
+msgstr "Παλιά ή αντικαταστημένη συσκευή"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Duplicate device"
@@ -947,7 +945,7 @@ msgstr ""
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:8
 msgid "Rather not say"
-msgstr ""
+msgstr "Προτιμώ να μην πω"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:9 .es5/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect"
@@ -955,11 +953,11 @@ msgstr "Αποσύνδεση"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Disconnection Successful"
-msgstr ""
+msgstr "Επιτυχής αποσύνδεση"
 
 #: .es5/scripts/templates/settings/clients.mustache:2
 msgid "Devices & apps"
-msgstr ""
+msgstr "Συσκευές & εφαρμογές"
 
 #: .es5/scripts/templates/settings/clients.mustache:3 .es5/scripts/templates/partial/show-password.mustache:1
 msgid "Show"
@@ -971,23 +969,23 @@ msgstr ""
 
 #: .es5/scripts/templates/settings/clients.mustache:6
 msgid "Disconnect…"
-msgstr ""
+msgstr "Αποσύνδεση…"
 
 #: .es5/scripts/templates/settings/clients.mustache:10
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "Firefox για iOS"
 
 #: .es5/scripts/templates/settings/clients.mustache:11 .es5/scripts/templates/settings/clients.mustache:13
 msgid "Get app"
-msgstr ""
+msgstr "Λήψη εφαρμογής"
 
 #: .es5/scripts/templates/settings/clients.mustache:12
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Firefox για Android"
 
 #: .es5/scripts/templates/settings/clients.mustache:15
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "Χαμένα ή διπλά στοιχεία;"
 
 #: .es5/scripts/templates/settings/clients.mustache:16
 msgid "Refresh"
@@ -1015,11 +1013,11 @@ msgstr "Διαγραφή λογαριασμού"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete…"
-msgstr ""
+msgstr "Διαγραφή…"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
-msgstr ""
+msgstr "Θέλετε σίγουρα να διαγράψετε το λογαριασμό σας; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί."
 
 #: .es5/scripts/templates/settings/display_name.mustache:3
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
