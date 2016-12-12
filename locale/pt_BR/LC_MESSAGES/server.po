@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-28 17:12+0000\n"
-"PO-Revision-Date: 2016-12-12 01:20+0000\n"
+"PO-Revision-Date: 2016-12-12 01:40+0000\n"
 "Last-Translator: Maykon Chagas <mchagas@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -162,7 +162,7 @@ msgstr "Atentamente,"
 
 #: templates/password_reset_required.html:9 templates/password_reset_required.txt:8 templates/suspicious_location.html:13 templates/suspicious_location.txt:12
 msgid "The Firefox Accounts team"
-msgstr "Equipe Firefox Account"
+msgstr "Equipe Conta Firefox"
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
@@ -178,7 +178,7 @@ msgstr ""
 
 #: templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-msgstr "Você conectou com sucesso o seu primeiro dispositivo na sua conta Firefox. Agora identifique-se no Sync em seus outros dispositivos, incluindo o Firefox para Android e iOS."
+msgstr "Você conectou com sucesso o seu primeiro dispositivo na sua Conta Firefox. Agora identifique-se no Sync em seus outros dispositivos, incluindo o Firefox para Android e iOS."
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
@@ -190,7 +190,7 @@ msgstr "Esqueceu sua senha?"
 
 #: templates/recovery.html:3 templates/recovery.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account."
-msgstr "Clique no botão dentro da próxima hora para definir uma nova senha para sua conta Firefox."
+msgstr "Clique no botão dentro da próxima hora para definir uma nova senha para sua Conta Firefox."
 
 #: templates/recovery.html:4 templates/recovery.txt:3
 msgid "Reset password"
@@ -198,7 +198,7 @@ msgstr "Redefinir senha"
 
 #: templates/suspicious_location.html:2 templates/suspicious_location.txt:1
 msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
-msgstr "Você acessou sua Conta do Firefox a partir de um dos seguintes locais nos últimos 60 dias? Se você não reconhecer estes locais, alguém pode ter acessado sua conta Firefox."
+msgstr "Você acessou sua Conta Firefox a partir de um dos seguintes locais nos últimos 60 dias? Se você não reconhecer estes locais, alguém pode ter acessado sua Conta Firefox."
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
@@ -222,7 +222,7 @@ msgstr "Por que você está recebendo este e-mail?"
 
 #: templates/suspicious_location.html:11 templates/suspicious_location.txt:10
 msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
-msgstr "Notamos acessos na sua conta Firefox de locais incomuns recentemente. Estamos notificando-o como medida de precaução."
+msgstr "Notamos acessos na sua Conta Firefox de locais incomuns recentemente. Estamos notificando-o como medida de precaução."
 
 #: templates/unblock_code.html:2 templates/unblock_code.txt:1
 msgid "Is this you signing in?"
@@ -249,7 +249,7 @@ msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
 " email address to activate your account."
 msgstr ""
-"Alguns dias atrás criou uma conta Firefox, mas nunca a confirmou. Uma conta verificada permite-lhe acessar suas abas, favoritos, senhas e histórico em qualquer dispositivo conectado à sua conta. "
+"Alguns dias atrás você criou uma Conta Firefox, mas nunca a confirmou. Uma conta verificada permite acessar suas abas, favoritos, senhas e histórico em qualquer dispositivo conectado à sua conta. "
 "Simplesmente confirme este endereço de e-mail para ativar sua conta."
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
@@ -262,7 +262,7 @@ msgstr "Verificar e-mail"
 
 #: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr "Verifique seu e-mail para concluir seu registro da conta Firefox"
+msgstr "Verifique seu e-mail para concluir seu registro da Conta Firefox"
 
 #: templates/verification_reminder_first.txt:3 templates/verification_reminder_second.txt:3 templates/verify.txt:3
 msgid "Activate now:"
@@ -270,7 +270,7 @@ msgstr "Ativar agora:"
 
 #: templates/verification_reminder_second.html:3 templates/verification_reminder_second.txt:2
 msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-msgstr "Uma semana atrás você criou uma conta Firefox, mas nunca confirmou. Estamos preocupados com você. Confirme esse endereço de e-mail para ativar sua conta."
+msgstr "Uma semana atrás você criou uma Conta Firefox, mas não a confirmou. Estamos preocupados com você. Confirme esse endereço de e-mail para ativar sua conta."
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
@@ -322,11 +322,11 @@ msgstr "%(country)s (estimado)"
 
 #: mailer.js:280
 msgid "Verify your Firefox Account"
-msgstr "Verifique sua conta Firefox"
+msgstr "Verifique sua Conta Firefox"
 
 #: mailer.js:314
 msgid "Firefox Account authorization code"
-msgstr "Código de autorização da conta Firefox"
+msgstr "Código de autorização da Conta Firefox"
 
 #: mailer.js:355
 msgid "Confirm new sign-in to Firefox"
@@ -334,19 +334,19 @@ msgstr "Confirmar nova identificação no Firefox"
 
 #: mailer.js:395
 msgid "Reset your Firefox Account password"
-msgstr "Redefina sua senha da conta Firefox"
+msgstr "Redefina sua senha da Conta Firefox"
 
 #: mailer.js:420
 msgid "Your Firefox Account password has been changed"
-msgstr "Sua senha da conta Firefox foi alterada"
+msgstr "Sua senha da Conta Firefox foi alterada"
 
 #: mailer.js:443
 msgid "Your Firefox Account password has been reset"
-msgstr "Sua senha da conta Firefox foi redefinida"
+msgstr "Sua senha da Conta Firefox foi redefinida"
 
 #: mailer.js:466
 msgid "Firefox Account password reset required"
-msgstr "Redefinição de senha de Firefox Account exigido"
+msgstr "Redefinição de senha da Conta Firefox exigido"
 
 #: mailer.js:517
 msgid "Firefox Account verified"
@@ -354,7 +354,7 @@ msgstr "Conta Firefox verificada"
 
 #: mailer.js:555
 msgid "Suspicious activity with your Firefox Account"
-msgstr "Atividade suspeita na sua conta Firefox"
+msgstr "Atividade suspeita na sua Conta Firefox"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
