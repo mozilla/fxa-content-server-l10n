@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-28 17:12+0000\n"
-"PO-Revision-Date: 2016-12-12 02:35+0000\n"
+"PO-Revision-Date: 2016-12-12 02:55+0000\n"
 "Last-Translator: Maykon Chagas <mchagas@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -803,7 +803,7 @@ msgstr "Continuar para %(serviceName)s"
 
 #: .es5/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr "Migre os dados do sync entrando na sua conta Firefox."
+msgstr "Migrar os dados sincronizados entrando na sua Conta Firefox."
 
 #: .es5/scripts/templates/sign_in.mustache:11 .es5/scripts/templates/sign_in.mustache:14
 msgid "Use a different account"
@@ -827,11 +827,11 @@ msgstr "Autorizar esta identificação"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr "Para uma melhor proteção dos seus dados Firefox, existe um código de autorização à sua espera em %(email)s."
+msgstr "Para proteção dos seus dados da Conta Firefox, existe um código de autorização à sua espera em %(email)s."
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr "Entrar com o código de autorização"
+msgstr "Digite o código de autorização"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"
@@ -839,7 +839,7 @@ msgstr "Continuar"
 
 #: .es5/scripts/templates/sign_up.mustache:1 .es5/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
-msgstr "Criar uma conta Firefox"
+msgstr "Criar uma Conta Firefox"
 
 #: .es5/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
@@ -847,7 +847,7 @@ msgstr "Procurando o Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Come
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr "Migre os dados do sync criando uma nova conta Firefox."
+msgstr "Migrar os dados sincronizados criando uma nova Conta Firefox."
 
 #: .es5/scripts/templates/sign_up.mustache:10
 msgid "Have an account with a different email? <a href=\"%(escapedSignInUri)s\">Sign in</a>"
@@ -900,7 +900,7 @@ msgstr "Concluído"
 
 #: .es5/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
-msgstr "Posicione e gire sua foto conforme necessário"
+msgstr "Posicionar e girar sua foto como desejar"
 
 #: .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:8 .es5/scripts/templates/settings/display_name.mustache:5
 msgid "Change"
@@ -1024,11 +1024,11 @@ msgstr "Tem certeza de que deseja excluir a sua conta? Esta ação não pode ser
 
 #: .es5/scripts/templates/settings/display_name.mustache:3
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr "Escolha o nome que você gostaria de aparecer no Firefox e ao gerenciar sua conta."
+msgstr "Escolha o nome que você gostaria que aparecesse no Firefox e ao gerenciar sua conta."
 
 #: .es5/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
-msgstr "Quantos anos tem?"
+msgstr "Quantos anos você tem?"
 
 #: .es5/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
@@ -1044,7 +1044,7 @@ msgstr "Usar o OpenID"
 
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr "Usar a conta Firefox"
+msgstr "Usar a Conta Firefox"
 
 #~ msgid "Devices"
 #~ msgstr "Dispositivos"
