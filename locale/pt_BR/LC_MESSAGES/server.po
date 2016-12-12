@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-28 17:12+0000\n"
-"PO-Revision-Date: 2016-11-30 01:07+0000\n"
-"Last-Translator: Marco Aurélio <fxhelp@yahoo.com>\n"
+"PO-Revision-Date: 2016-12-12 01:01+0000\n"
+"Last-Translator: Maykon Chagas <mchagas@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -28,15 +28,15 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Você conectou com sucesso o seu primeiro dispositivo à sua Conta Firefox. Agora identifique-se no Sync em seus outros dispositivos, incluindo o Firefox para o <a href='%(androidUrl)s'>Android</a> e "
-"<a href='%(iosUrl)s'>iOS</a>."
+"Você conectou com sucesso o seu primeiro dispositivo à sua Conta Firefox. Agora identifique-se no Sync em seus outros dispositivos, incluindo o Firefox para <a href='%(androidUrl)s'>Android</a> e <a"
+" href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
 "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 "iOS</a>."
 msgstr ""
-"Você conectou com sucesso o seu primeiro dispositivo na sua conta Firefox. Para tirar mais do Sync, conecte outro <a href='%(androidUrl)s'>Firefox para Android</a> ou <a href='%(iosUrl)s'>Firefox "
+"Você conectou com sucesso o seu primeiro dispositivo na sua conta Firefox. Para aproveitar mais o Sync, conecte no <a href='%(androidUrl)s'>Firefox para Android</a> ou <a href='%(iosUrl)s'>Firefox "
 "para iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
@@ -94,7 +94,7 @@ msgstr "Senha alterada com sucesso"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password has been successfully changed."
-msgstr "Sua senha da conta Firefox foi alterada com sucesso."
+msgstr "Sua senha da Conta Firefox foi alterada com sucesso."
 
 #: templates/password_changed.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
@@ -110,7 +110,7 @@ msgstr "Sua senha foi redefinida"
 
 #: templates/password_reset.html:3
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr "A senha da sua conta Firefox foi alterada. Se você não realizou esta alteração, por favor <a %(resetLinkAttributes)s>altere sua senha </a> agora."
+msgstr "A senha da sua Conta Firefox foi alterada. Se você não realizou esta alteração, por favor <a %(resetLinkAttributes)s>altere sua senha</a> agora."
 
 #: templates/password_reset.html:4 templates/post_verify.html:5 templates/post_verify.txt:4 templates/recovery.html:5 templates/recovery.txt:4 templates/verification_reminder_first.html:5
 #: templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:5 templates/verification_reminder_second.txt:4 templates/verify.html:5 templates/verify.txt:4
@@ -123,7 +123,7 @@ msgstr "Senha redefinida com sucesso"
 
 #: templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr "Sua senha da conta Firefox foi redefinida com sucesso."
+msgstr "Sua senha da Conta Firefox foi redefinida com sucesso."
 
 #: templates/password_reset.txt:3
 msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
