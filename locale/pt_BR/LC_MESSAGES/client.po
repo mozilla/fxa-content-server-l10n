@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-28 17:12+0000\n"
-"PO-Revision-Date: 2016-11-30 00:58+0000\n"
-"Last-Translator: Marco Aurélio <fxhelp@yahoo.com>\n"
+"PO-Revision-Date: 2016-12-12 02:01+0000\n"
+"Last-Translator: Maykon Chagas <mchagas@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -85,15 +85,15 @@ msgstr "Cortesia de <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
 #: .es5/scripts/views/settings/change_password.js:46
 msgid "Password changed successfully"
-msgstr "Senha redefinida"
+msgstr "Senha redefinida com sucesso"
 
 #: .es5/scripts/views/settings/client_disconnect.js:18
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr "Lamentamos ouvir sobre isso. Você deve alterar sua senha da conta Firefox e procurar por informações com o fabricante do seu dispositivo sobre como apagar os dados remotamente."
+msgstr "Lamentamos ouvir sobre isso. Você deve alterar sua senha da Conta Firefox e procurar por informações com o fabricante do seu dispositivo sobre como apagar os dados remotamente."
 
 #: .es5/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "Lamentos ouvir sobre isso. Se trata de um dispositivo que não confia, você deve alterar a senha da conta Firefox e alterar todas as senhas salvas no Firefox."
+msgstr "Lamentos ouvir sobre isso. Se este é um dispositivo que você não confia, você deve alterar a senha da Conta Firefox e alterar todas as senhas salvas no Firefox."
 
 #: .es5/scripts/views/settings/clients.js:50
 msgid "Last active %(translatedTimeAgo)s"
@@ -109,7 +109,7 @@ msgstr "Inscrição cancelada"
 
 #: .es5/scripts/views/settings/delete_account.js:44
 msgid "Account deleted successfully"
-msgstr "Conta excluída"
+msgstr "Conta excluída com sucesso"
 
 #: .es5/scripts/views/settings/display_name.js:49
 msgid "Display name updated"
@@ -186,7 +186,7 @@ msgstr "Token inválido"
 
 #: .es5/scripts/lib/auth-errors.js:39
 msgid "Invalid timestamp in request signature"
-msgstr "Timestamp inválido na assinatura do pedido"
+msgstr "Data e hora inválidos na assinatura do pedido"
 
 #: .es5/scripts/lib/auth-errors.js:43
 msgid "Invalid nonce in request signature"
