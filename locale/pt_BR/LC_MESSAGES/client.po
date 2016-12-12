@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-28 17:12+0000\n"
-"PO-Revision-Date: 2016-12-12 02:20+0000\n"
+"PO-Revision-Date: 2016-12-12 02:35+0000\n"
 "Last-Translator: Maykon Chagas <mchagas@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -529,7 +529,7 @@ msgstr "Favoritos"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
-msgstr "Complementos"
+msgstr "Extensões"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:8
 msgid "Passwords"
@@ -545,7 +545,7 @@ msgstr "Preferências"
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr "Atualmente, complementos e preferências não são sincronizados em dispositivos móveis."
+msgstr "Atualmente, extensões e preferências não são sincronizados em dispositivos móveis."
 
 #: .es5/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
@@ -573,7 +573,7 @@ msgstr "Link para redefinir senha danificado"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:6 .es5/scripts/templates/complete_sign_up.mustache:10 .es5/scripts/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "O link que você clicou tem caracteres ausentes e pode ter sido quebrado pelo seu cliente de e-mail. Copie o endereço com cuidado e tente novamente."
+msgstr "O link que você clicou tem caracteres faltando e pode ter sido quebrado pelo seu cliente de e-mail. Copie o endereço com cuidado e tente novamente."
 
 #: .es5/scripts/templates/complete_reset_password.mustache:8
 msgid "Enter new password"
@@ -637,7 +637,7 @@ msgstr "Para proteger melhor os seus dados no Firefox, enviamos por e-mail um li
 
 #: .es5/scripts/templates/confirm.mustache:11 .es5/scripts/templates/confirm.mustache:13 .es5/scripts/templates/sign_in_unblock.mustache:6 .es5/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive? Resend"
-msgstr "Não chegou? Reenvie"
+msgstr "Não chegou? Reenviar"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -645,7 +645,7 @@ msgstr "E-mail de redefinição enviado"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:3
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-msgstr "Clique no link que enviado para %(email)s dentro da próxima hora para criar uma nova senha."
+msgstr "Clique no link que enviamos para %(email)s dentro da próxima hora para criar uma nova senha."
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7
 msgid "Remember password? Sign in"
@@ -661,7 +661,7 @@ msgstr "Cookies e armazenamento local são necessários."
 
 #: .es5/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Por favor, habilite os cookies e armazenamento local em seu navegador para acessar as contas Firefox. Se o fizer, irá permitir funcionalidades como memorizá-lo entre sessões."
+msgstr "Por favor, habilite os cookies e armazenamento local em seu navegador para acessar as Contas Firefox. Se o fizer, irá permitir funcionalidades como memorizá-lo entre sessões."
 
 #: .es5/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -691,7 +691,7 @@ msgstr "Esqueceu sua senha?"
 
 #: .es5/scripts/templates/force_auth.mustache:7 .es5/scripts/templates/sign_in.mustache:23 .es5/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Ao continuar, concorda com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy\">Política de privacidade</a> dos serviços na cloud do Firefox."
+msgstr "Ao continuar, concorda com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy\">Política de privacidade</a> dos serviços na nuvem do Firefox."
 
 #: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -699,7 +699,7 @@ msgstr "Serviços na nuvem do Firefox"
 
 #: .es5/scripts/templates/legal.mustache:2
 msgid "Legal"
-msgstr "Legal"
+msgstr "Jurídico"
 
 #: .es5/scripts/templates/legal.mustache:3 .es5/scripts/templates/settings.mustache:5 .es5/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
@@ -711,7 +711,7 @@ msgstr "Política de privacidade"
 
 #: .es5/scripts/templates/marketing_snippet.mustache:1 .es5/scripts/templates/marketing_snippet.mustache:5 .es5/scripts/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
-msgstr "Obtenha a experiência de sincronização completa."
+msgstr "Obtenha a experiência completa com o Sync."
 
 #: .es5/scripts/templates/marketing_snippet.mustache:2 .es5/scripts/templates/marketing_snippet.mustache:3 .es5/scripts/templates/marketing_snippet.mustache:11
 msgid "Download Firefox for iOS!"
@@ -727,11 +727,11 @@ msgstr "Baixe o Firefox para dispositivos móveis."
 
 #: .es5/scripts/templates/permissions.mustache:1 .es5/scripts/templates/settings/gravatar_permissions.mustache:1
 msgid "Request for permission"
-msgstr "Pedido de autorização"
+msgstr "Permissões solicitadas"
 
 #: .es5/scripts/templates/permissions.mustache:2 .es5/scripts/templates/settings/gravatar_permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr "%(serviceName)s quer as seguintes informações da sua conta:"
+msgstr "%(serviceName)s solicita as seguintes informações da sua conta:"
 
 #: .es5/scripts/templates/permissions.mustache:3 .es5/scripts/templates/settings/gravatar_permissions.mustache:4
 msgid "Accept"
@@ -787,7 +787,7 @@ msgstr "E-mail"
 
 #: .es5/scripts/templates/reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:9
 msgid "Remember password? Sign in."
-msgstr "Lembra da senha? Identifique-se."
+msgstr "Lembrar senha? Identifique-se."
 
 #: .es5/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
