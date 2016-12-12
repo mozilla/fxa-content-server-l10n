@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-28 17:12+0000\n"
-"PO-Revision-Date: 2016-12-12 01:01+0000\n"
+"PO-Revision-Date: 2016-12-12 01:20+0000\n"
 "Last-Translator: Maykon Chagas <mchagas@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -127,15 +127,15 @@ msgstr "Sua senha da Conta Firefox foi redefinida com sucesso."
 
 #: templates/password_reset.txt:3
 msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr "Este é um e-mail automático; se você não redefiniu a senha da sua conta Firefox, você deve redefini-la imediatamente em %(resetLink)s"
+msgstr "Este é um e-mail automático; se você não redefiniu a senha da sua Conta Firefox, você deve redefini-la imediatamente em %(resetLink)s"
 
 #: templates/password_reset_required.html:2 templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-msgstr "Detectamos uma atividade suspeita em sua conta do Firefox. Sua conta pode ter sido comprometida."
+msgstr "Detectamos uma atividade suspeita em sua Conta Firefox. Sua conta pode ter sido comprometida."
 
 #: templates/password_reset_required.html:3 templates/password_reset_required.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-msgstr "Para evitar ainda mais o acesso não autorizado à sua conta do Firefox, nós já a redefinimos a sua senha e estão notificando-o como medida de precaução."
+msgstr "Para impedir o acesso não autorizado à sua Conta Firefox, nós redefinimos a sua senha e estamos notificando-o como medida de precaução."
 
 #: templates/password_reset_required.html:4 templates/password_reset_required.txt:3
 msgid "What should you do?"
@@ -143,13 +143,14 @@ msgstr "O que você deve fazer?"
 
 #: templates/password_reset_required.html:5 templates/password_reset_required.txt:4 templates/suspicious_location.html:7 templates/suspicious_location.txt:6
 msgid "First, change your Firefox Account password."
-msgstr "Primeiro, redefina sua senha do Firefox Account."
+msgstr "Primeiro, redefina sua senha da Conta Firefox."
 
 #: templates/password_reset_required.html:6 templates/password_reset_required.txt:5 templates/suspicious_location.html:8 templates/suspicious_location.txt:7
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 msgstr ""
-"Segundo, se o Firefox armazena suas senhas de sites, você deve mudar as senhas também. Os atacantes podem ter acesso a essas senhas, então você deve verificar essas contas para atividades suspeitas."
+"Segundo, se o Firefox armazena suas senhas de sites, você deve mudar estas senhas também. Os atacantes podem ter acesso a estas senhas, então você deve verificar estas contas para atividades "
+"suspeitas."
 
 #: templates/password_reset_required.html:7 templates/password_reset_required.txt:6 templates/suspicious_location.html:9 templates/suspicious_location.txt:8
 msgid "Learn how to see what passwords Firefox is storing for you."
