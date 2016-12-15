@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-28 17:12+0000\n"
-"PO-Revision-Date: 2016-12-05 01:48+0000\n"
+"PO-Revision-Date: 2016-12-15 14:57+0000\n"
 "Last-Translator: nuttapong2539 <nuttapong2539@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -140,7 +140,7 @@ msgstr "เปิด Outlook"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:37
 msgid "Open Restmail"
-msgstr ""
+msgstr "เปิด Restmail"
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:22
 msgid "8 characters minimum, but longer if you plan to sync passwords."
@@ -205,7 +205,7 @@ msgstr "อักษรตัวใหญ่ตัวเล็กในอีเ
 
 #: .es5/scripts/lib/auth-errors.js:59
 msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
-msgstr ""
+msgstr "รหัสผ่านผิด ถ้าต้องการตรวจสอบสิ่งที่คุณใส่ซ้ำ กดค้างปุ่มแสดง"
 
 #: .es5/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
@@ -626,7 +626,7 @@ msgstr "ส่งอีเมลแล้ว"
 
 #: .es5/scripts/templates/confirm.mustache:6
 msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "ลิงก์ยืนยันถูกส่ง&nbsp;ไปยัง %(escapedEmail)s"
 
 #: .es5/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
@@ -755,19 +755,19 @@ msgstr "บัญชีของคุณพร้อมแล้ว!"
 
 #: .es5/scripts/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "รายงานการลงชื่อเข้าใช้ที่ไม่ได้รับอนุญาต?"
 
 #: .es5/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr ""
+msgstr "คุณได้รับอีเมลเกี่ยวกับความพยายามเข้าถึงบัญชีของคุณ คุณต้องการรายงานกิจกรรมนี้เป็นสิ่งน่าสงสัยหรือไม่?"
 
 #: .es5/scripts/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr ""
+msgstr "รายงานกิจกรรม"
 
 #: .es5/scripts/templates/report_sign_in.mustache:7 .es5/scripts/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr ""
+msgstr "ทำไมสิ่งนี้จึงเกิดขึ้น?"
 
 #: .es5/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
@@ -816,7 +816,7 @@ msgstr "ขอบคุณสำหรับการเฝ้าระวัง
 
 #: .es5/scripts/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr ""
+msgstr "คณะทำงานได้รับคำแจ้งแล้ว รายงานสิ่งที่คล้ายกันเพื่อช่วยเรากำจัดผู้บุกรุก"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:1 .es5/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
@@ -824,11 +824,11 @@ msgstr "อนุญาตการลงชื่อเข้านี้"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr ""
+msgstr "เพื่อการปกป้องข้อมูล Firefox ของคุณให้ดีขึ้น มีรหัสอนุญาตรอคุณอยู่ที่ %(email)s"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "ใส่รหัสอนุญา"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"
@@ -840,7 +840,7 @@ msgstr "สร้างบัญชี Firefox"
 
 #: .es5/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-msgstr ""
+msgstr "กำลังหา Firefox ซิงค์? <a href=\"%(escapedSyncSuggestionUrl)s\">เริ่มต้นที่นี่</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -941,7 +941,7 @@ msgstr "อุปกรณ์เก่าหรือถูกทดแทน"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Duplicate device"
-msgstr ""
+msgstr "อุปกรณ์ซ้ำ"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:8
 msgid "Rather not say"
