@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-28 17:12+0000\n"
-"PO-Revision-Date: 2016-11-28 20:30+0000\n"
+"PO-Revision-Date: 2016-12-16 21:55+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -327,7 +327,7 @@ msgstr "Vnesite veljaven elektronski naslov. firefox.com ne ponuja e-pošte."
 
 #: .es5/scripts/lib/auth-errors.js:223
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "Storitev Računi Firefox lahko namestite samo v IFRAME odobrenih strani"
+msgstr "Firefox Račune lahko umestite samo v okvir IFRAME odobrenih strani"
 
 #: .es5/scripts/lib/auth-errors.js:242 .es5/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
@@ -789,7 +789,7 @@ msgstr "Ste se spomnili gesla? Prijavite se."
 
 #: .es5/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr "Računi Firefox"
+msgstr "Firefox Računi"
 
 #: .es5/scripts/templates/settings.mustache:2
 msgid "Sign out"
@@ -837,7 +837,7 @@ msgstr "Nadaljuj"
 
 #: .es5/scripts/templates/sign_up.mustache:1 .es5/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
-msgstr "Ustvarite Račun Firefox"
+msgstr "Ustvarite Firefox Račun"
 
 #: .es5/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
@@ -1042,7 +1042,7 @@ msgstr "Uporabi OpenID"
 
 #: .es5/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr "Uporabi Račun Firefox"
+msgstr "Uporabi Firefox Račun"
 
 #~ msgid "Devices"
 #~ msgstr "Naprave"
