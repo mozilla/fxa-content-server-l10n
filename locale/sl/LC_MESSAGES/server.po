@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-28 17:12+0000\n"
-"PO-Revision-Date: 2016-12-16 22:01+0000\n"
+"PO-Revision-Date: 2016-12-16 22:23+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -28,15 +28,15 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Uspešno ste povezali svojo prvo napravo z Računom Firefox. Zdaj se lahko prijavite in jo sinhronizirate z vašimi drugimi napravami, med drugim s Firefoxom za <a href='%(androidUrl)s'>Android</a> in "
-"<a href='%(iosUrl)s'>iOS</a>."
+"Uspešno ste povezali svojo prvo napravo v Firefox Račun. Sedaj se lahko prijavite v Sync z drugih naprav, vključno s Firefoxom za <a href='%(androidUrl)s'>Android</a> in <a "
+"href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
 "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 "iOS</a>."
 msgstr ""
-"Uspešno ste povezali svojo prvo napravo z Računom Firefox. Da bi Sync izkoristili v polni meri, se povežite s <a href='%(androidUrl)s'>Firefoxom za Android</a> ali <a href='%(iosUrl)s'>Firefoxom za "
+"Uspešno ste povezali svojo prvo napravo s Firefox Računom. Da bi Sync izkoristili v polni meri, se povežite s <a href='%(androidUrl)s'>Firefoxom za Android</a> ali <a href='%(iosUrl)s'>Firefoxom za "
 "iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
@@ -171,12 +171,12 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
-"Uspešno ste povezali svojo prvo napravo v Račun Firefox. Sedaj se lahko prijavite v Sync iz drugih naprav, vključno s Firefoxom za <a %(androidLinkAttributes)s>Android</a> in <a "
+"Uspešno ste povezali svojo prvo napravo v Firefox Račun. Sedaj se lahko prijavite v Sync z drugih naprav, vključno s Firefoxom za <a %(androidLinkAttributes)s>Android</a> in <a "
 "%(iosLinkAttributes)s>iOS</a>."
 
 #: templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-msgstr "Uspešno ste povezali vašo prvo napravo z Računom Firefox. Zdaj se lahko prijavite in jo sinhronizirate z vašimi drugimi napravami, med drugim s Firefoxom za Android in iOS."
+msgstr "Uspešno ste povezali svojo prvo napravo v Firefox Račun. Sedaj se lahko prijavite v Sync z drugih naprav, vključno s Firefoxom za Android in iOS."
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
@@ -188,7 +188,7 @@ msgstr "Pozabljeno geslo?"
 
 #: templates/recovery.html:3 templates/recovery.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account."
-msgstr "Kliknite na gumb v naslednji uri, da nastavite novo geslo za svoj Račun Firefox."
+msgstr "V roku ene ure kliknite gumb, da nastavite novo geslo za svoj Firefox Račun."
 
 #: templates/recovery.html:4 templates/recovery.txt:3
 msgid "Reset password"
@@ -196,7 +196,7 @@ msgstr "Ponastavi geslo"
 
 #: templates/suspicious_location.html:2 templates/suspicious_location.txt:1
 msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
-msgstr "Ali ste se v svoj Račun Firefox prijavili z ene od naslednjih lokacij v zadnjih 60-ih dneh? Če teh lokacij ne prepoznate, ima lahko nekdo drug dostop do vašega Računa Firefox."
+msgstr "Ali ste se v svoj Firefox Račun v zadnjih 60-ih dneh prijavili s katere od naslednjih lokacij? Če teh lokacij ne prepoznate, ima morda nekdo drug dostop do vašega računa."
 
 #: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
 msgid "Date & Time:"
@@ -220,7 +220,7 @@ msgstr "Zakaj prejemate to e-pošto?"
 
 #: templates/suspicious_location.html:11 templates/suspicious_location.txt:10
 msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
-msgstr "Nedavno smo opazili prijave v Račun Firefox iz neobičajnih lokacij. Za vsak primer vas o tem obveščamo."
+msgstr "Nedavno smo opazili prijave v vaš Firefox Račun z neobičajnih lokacij. Za vsak primer vas o tem obveščamo."
 
 #: templates/unblock_code.html:2 templates/unblock_code.txt:1
 msgid "Is this you signing in?"
@@ -260,7 +260,7 @@ msgstr "Potrdi e-poštni naslov"
 
 #: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr "Potrdite e-poštni naslov za dokončanje registracije Računa Firefox"
+msgstr "Potrdite e-poštni naslov za dokončanje registracije Firefox Računa"
 
 #: templates/verification_reminder_first.txt:3 templates/verification_reminder_second.txt:3 templates/verify.txt:3
 msgid "Activate now:"
@@ -269,7 +269,7 @@ msgstr "Aktiviraj zdaj:"
 #: templates/verification_reminder_second.html:3 templates/verification_reminder_second.txt:2
 msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 msgstr ""
-"Pred tednom dni ste ustvarili Firefox Račun, a ga še niste potrdili. Zato smo v skrbeh za vas. S potrditvijo tega e-poštnega naslova boste aktivirali vaš račun. In nam sporočili, da ste v redu."
+"Pred tednom dni ste ustvarili Firefox Račun, a ga še niste potrdili. Zato smo v skrbeh za vas. S potrditvijo tega e-poštnega naslova boste aktivirali svoj račun. In nam sporočili, da ste v redu."
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
@@ -321,7 +321,7 @@ msgstr "%(country)s (ocena)"
 
 #: mailer.js:280
 msgid "Verify your Firefox Account"
-msgstr "Potrdite svoj Račun Firefox"
+msgstr "Potrdite svoj Firefox Račun"
 
 #: mailer.js:314
 msgid "Firefox Account authorization code"
@@ -333,19 +333,19 @@ msgstr "Potrdite novo prijavo v Firefox"
 
 #: mailer.js:395
 msgid "Reset your Firefox Account password"
-msgstr "Ponastavite svoje geslo za Račun Firefox"
+msgstr "Ponastavite geslo Firefox Računa"
 
 #: mailer.js:420
 msgid "Your Firefox Account password has been changed"
-msgstr "Vaše geslo za Račun Firefox je bilo spremenjeno"
+msgstr "Vaše geslo za Firefox Račun je bilo spremenjeno"
 
 #: mailer.js:443
 msgid "Your Firefox Account password has been reset"
-msgstr "Vaše geslo za Račun Firefox je bilo ponastavljeno"
+msgstr "Vaše geslo za Firefox Račun je bilo ponastavljeno"
 
 #: mailer.js:466
 msgid "Firefox Account password reset required"
-msgstr "Zahtevana je ponastavitev gesla Računa Firefox"
+msgstr "Zahtevana je ponastavitev gesla Firefox Računa"
 
 #: mailer.js:517
 msgid "Firefox Account verified"
@@ -353,7 +353,7 @@ msgstr "Firefox Račun potrjen"
 
 #: mailer.js:555
 msgid "Suspicious activity with your Firefox Account"
-msgstr "Sumljiva dejavnost v vašem Računu Firefox"
+msgstr "Sumljiva dejavnost v vašem Firefox Računu"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -393,7 +393,7 @@ msgstr "Uporabljate <strong>zastarel</strong> brskalnik. <a href=\"http://browse
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr "Storitev Računi Firefox zahteva JavaScript."
+msgstr "Firefox Računi zahtevajo JavaScript."
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
