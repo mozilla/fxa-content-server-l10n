@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-28 17:12+0000\n"
-"PO-Revision-Date: 2016-12-18 15:40+0000\n"
+"PO-Revision-Date: 2016-12-18 15:42+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gd\n"
@@ -968,7 +968,7 @@ msgstr "Chaidh a dhì-cheangal"
 
 #: .es5/scripts/templates/settings/clients.mustache:2
 msgid "Devices & apps"
-msgstr ""
+msgstr "Uidheaman ⁊ aplacaidean"
 
 #: .es5/scripts/templates/settings/clients.mustache:3 .es5/scripts/templates/partial/show-password.mustache:1
 msgid "Show"
@@ -976,27 +976,27 @@ msgstr "Seall"
 
 #: .es5/scripts/templates/settings/clients.mustache:4
 msgid "current device"
-msgstr ""
+msgstr "uidheam làithreach"
 
 #: .es5/scripts/templates/settings/clients.mustache:6
 msgid "Disconnect…"
-msgstr ""
+msgstr "Dì-cheangail…"
 
 #: .es5/scripts/templates/settings/clients.mustache:10
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "Firefox airson iOS"
 
 #: .es5/scripts/templates/settings/clients.mustache:11 .es5/scripts/templates/settings/clients.mustache:13
 msgid "Get app"
-msgstr ""
+msgstr "Faigh an aplacaid"
 
 #: .es5/scripts/templates/settings/clients.mustache:12
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Firefox airson Android"
 
 #: .es5/scripts/templates/settings/clients.mustache:15
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "Rudan a tha a dhìth no dùblaichte?"
 
 #: .es5/scripts/templates/settings/clients.mustache:16
 msgid "Refresh"
@@ -1024,7 +1024,7 @@ msgstr "Sguab às an cunntas"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete…"
-msgstr ""
+msgstr "Sguab às…"
 
 #: .es5/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
