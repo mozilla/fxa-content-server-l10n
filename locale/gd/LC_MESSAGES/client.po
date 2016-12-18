@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-28 17:12+0000\n"
-"PO-Revision-Date: 2016-12-18 12:12+0000\n"
+"PO-Revision-Date: 2016-12-18 13:02+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gd\n"
@@ -374,31 +374,31 @@ msgstr "Buaidh dàta a dhìth: %(property)s"
 
 #: .es5/scripts/lib/auth-errors.js:306 .es5/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "Chaidh an ceangal dearbhaidh seo a chleachdadh mu thràth ’s cha ghabh a chleachdadh ach aon turas."
 
 #: .es5/scripts/lib/auth-errors.js:310
 msgid "This is a required field"
-msgstr ""
+msgstr "Tha an raon seo riatanach"
 
 #: .es5/scripts/lib/auth-errors.js:314
 msgid "Authorization code required"
-msgstr ""
+msgstr "Tha feum air còd ùghdarrachaidh"
 
 #: .es5/scripts/lib/auth-errors.js:322 .es5/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
-msgstr ""
+msgstr "Ceangal briste"
 
 #: .es5/scripts/lib/config-loader.js:81
 msgid "Missing configuration"
-msgstr ""
+msgstr "Rèiteachadh a dhìth"
 
 #: .es5/scripts/lib/config-loader.js:85
 msgid "Invalid configuration"
-msgstr ""
+msgstr "Rèiteachadh mì-dhligheach"
 
 #: .es5/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "An e <span tabindex=\"1\">%(escapedDomain)s</span> a bha fa-near dhut?"
 
 #: .es5/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -446,7 +446,7 @@ msgstr "Paramadair OAuth a dhìth: %(param)s"
 
 #: .es5/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
-msgstr ""
+msgstr "Tòcan mì-dhligheach"
 
 #: .es5/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
@@ -480,15 +480,15 @@ msgstr "Faigh na naidheachdan as ùire mu Mozilla is Firefox."
 
 #: .es5/scripts/lib/strings.js:38
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (tuairmse)"
 
 #: .es5/scripts/lib/strings.js:39
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (tuairmse)"
 
 #: .es5/scripts/lib/strings.js:40
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "Seòladh IP: %(ip)s"
 
 #: .es5/scripts/lib/strings.js:41
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
