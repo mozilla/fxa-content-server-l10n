@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-28 17:12+0000\n"
-"PO-Revision-Date: 2016-12-18 15:20+0000\n"
+"PO-Revision-Date: 2016-12-18 15:40+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gd\n"
@@ -835,15 +835,15 @@ msgstr "Ceadaich an clàradh a-steach seo"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr ""
+msgstr "Airson an dàta Firefox agad a dhìon nas fhearr, tha còd ùghdarrachaidh a’ feitheamh ort aig %(email)s."
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "Cuir a-steach an còd ùghdarrachaidh"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"
-msgstr ""
+msgstr "Air adhart"
 
 #: .es5/scripts/templates/sign_up.mustache:1 .es5/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
@@ -851,7 +851,7 @@ msgstr "Cruthaich cunntas Firefox"
 
 #: .es5/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-msgstr ""
+msgstr "An tòir sioncronachadh Firefox? <a href=\"%(escapedSyncSuggestionUrl)s\">Dèan toiseach-tòiseachaidh an-seo</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -859,28 +859,28 @@ msgstr "Imrich an dàta sioncronachaidh agad ’s tu a’ cruthachadh cunntas Fi
 
 #: .es5/scripts/templates/sign_up.mustache:10
 msgid "Have an account with a different email? <a href=\"%(escapedSignInUri)s\">Sign in</a>"
-msgstr ""
+msgstr "A bheil cunntas agad air post-d eile? <a href=\"%(escapedSignInUri)s\">Clàraich a-steach</a>"
 
 #: .es5/scripts/templates/sign_up.mustache:19 .es5/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
-msgstr ""
+msgstr "Faigh cuairt-litir mhìosail Firefox."
 
 #: .es5/scripts/templates/sign_up.mustache:21
 msgid "Create account"
-msgstr ""
+msgstr "Cruthaich cunntas"
 
 #: .es5/scripts/templates/sign_up.mustache:26
 msgid "Have an account? Sign in"
-msgstr ""
+msgstr "A bheil cunntas agad? Clàraich a-steach"
 
 #: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2 .es5/scripts/templates/settings/communication_preferences.mustache:4
 #: .es5/scripts/templates/settings/display_name.mustache:2
 msgid "Change…"
-msgstr ""
+msgstr "Atharraich…"
 
 #: .es5/scripts/templates/settings/avatar.mustache:4
 msgid "Add…"
-msgstr ""
+msgstr "Cuir ris…"
 
 #: .es5/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -928,35 +928,35 @@ msgstr "An seann fhacal-faire"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
-msgstr ""
+msgstr "Dì-cheangail on t-sioncronachadh?"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr ""
+msgstr "Bidh an dàta brabhsaidh agad air %(deviceName)s fhathast ach cha dèan e sioncronachadh leis a’ chunntas agad tuilleadh."
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Reason for disconnecting…"
-msgstr ""
+msgstr "Carson a tha thu a’ dì-cheangal…"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
-msgstr ""
+msgstr "Uidheam amharasach"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen device"
-msgstr ""
+msgstr "Uidheam a chaidh air chall no ghoid"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced device"
-msgstr ""
+msgstr "Seann-uidheam"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Duplicate device"
-msgstr ""
+msgstr "Dùblachadh uidheim"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:8
 msgid "Rather not say"
-msgstr ""
+msgstr "Cha bu toigh leam innse"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:9 .es5/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect"
@@ -964,7 +964,7 @@ msgstr "Dì-cheangail"
 
 #: .es5/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Disconnection Successful"
-msgstr ""
+msgstr "Chaidh a dhì-cheangal"
 
 #: .es5/scripts/templates/settings/clients.mustache:2
 msgid "Devices & apps"
