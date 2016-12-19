@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-28 17:12+0000\n"
-"PO-Revision-Date: 2016-10-22 10:55+0000\n"
-"Last-Translator: Umesh Agarwal <umesh.agarwal1@gmail.com>\n"
+"PO-Revision-Date: 2016-09-11 06:20+0000\n"
+"Last-Translator: Ankita Tiwari <ankitatiw23@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: templates/_pending.txt:2
 msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
-msgstr ""
+msgstr "एक समय पहले आपने एक Firefox खाता बनाया है, लेकिन उसे कभी नहीं सत्यापित किया. अपने खाते को सक्रिय करने के लिए नीचे दिए गए लिंक पर क्लिक करें."
 
 #: templates/_pending.txt:3
 msgid ""
@@ -31,13 +31,13 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "अन्य उपकरण से जोड़े"
 
 #: templates/_pending.txt:6
 msgid "Sign in to Sync"
@@ -238,8 +238,8 @@ msgstr ""
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
@@ -477,7 +477,8 @@ msgstr "सेवा की शर्तें"
 #~ msgstr "आपके फ़ायरफ़ॉक्स खाते से संयोजित समस्त यंत्रों के साथ एक नया यंत्र समकालिक हो गया है."
 
 #~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
-#~ msgstr "यह एक स्वाचालित ईमेल है; यदि आपने अपने किसी नए यंत्र को अपने फ़ायरफ़ॉक्स खाते से नही जोड़ा है, तो आपको तत्काल ही यहाँ जाकर अपना कूटशब्द परिवर्तित करना चाहिए <a href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgstr ""
+#~ "यह एक स्वाचालित ईमेल है; यदि आपने अपने किसी नए यंत्र को अपने फ़ायरफ़ॉक्स खाते से नही जोड़ा है, तो आपको तत्काल ही यहाँ जाकर अपना कूटशब्द परिवर्तित करना चाहिए <a href='%(resetLink)s'>%(resetLink)s</a>."
 
 #~ msgid "This is an automated email; if you didn't change the password to your Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr "यह एक स्वाचालित ईमेल है; यदि आपने अपने फ़ायरफ़ॉक्स खाते का कूटशब्द पुनः तैयार नहीं किया है, तो आपको तत्काल ही उसे यहाँ जाकर पुनः तैयार करना चाहिए <a href='%(resetLink)s'>%(resetLink)s</a>."
