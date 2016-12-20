@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-28 17:12+0000\n"
-"PO-Revision-Date: 2016-12-20 22:20+0000\n"
+"PO-Revision-Date: 2016-12-20 22:39+0000\n"
 "Last-Translator: Tomer Cohen <tomer.mozilla@tomercohen.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -182,7 +182,7 @@ msgstr "ניסית להתחבר יותר מידי פעמים. נא לנסות ש
 
 #: .es5/scripts/lib/auth-errors.js:35 .es5/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
-msgstr "ססמה שגויה"
+msgstr "אסימון לא חוקי"
 
 #: .es5/scripts/lib/auth-errors.js:39
 msgid "Invalid timestamp in request signature"
@@ -399,15 +399,15 @@ msgstr "האם התכוונת ל־<span tabindex=\"1\">%(escapedDomain)s</span>?
 
 #: .es5/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
-msgstr "חשבון לא מוכר"
+msgstr "לקוח לא מוכר"
 
 #: .es5/scripts/lib/oauth-errors.js:30
 msgid "Incorrect redirect_uri"
-msgstr "ססמה שגויה "
+msgstr "כתובת הפניה לא תקינה"
 
 #: .es5/scripts/lib/oauth-errors.js:34
 msgid "Invalid assertion"
-msgstr "ססמה שגויה"
+msgstr "טענה לא חוקית"
 
 #: .es5/scripts/lib/oauth-errors.js:38
 msgid "Unknown code"
@@ -459,7 +459,7 @@ msgstr "שגיאת עיבוד תמונה"
 
 #: .es5/scripts/lib/service-name.js:15
 msgid "Firefox Sync"
-msgstr "Firefox Accounts"
+msgstr "Firefox Sync"
 
 #: .es5/scripts/lib/strings.js:24
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
@@ -507,7 +507,7 @@ msgstr "לא ניתן ליצור חשבון"
 
 #: .es5/scripts/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr "עליך לעמוד בדרישות הגיל כדי ליצור חשבון Firefox."
+msgstr "עליך לעמוד בדרישות הגיל כדי ליצור חשבון&nbsp;Firefox."
 
 #: .es5/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
@@ -555,11 +555,11 @@ msgstr "חזרה"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
-msgstr "איפוס ססמה"
+msgstr "פג תוקף הקישור לאיפוס הססמה"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
-msgstr "פג תוקף קישור זה לאיפוס הססמה."
+msgstr "פג תוקף הקישור לאיפוס הססמה עליו לחצת."
 
 #: .es5/scripts/templates/complete_reset_password.mustache:3
 msgid "Click here to receive a new reset link"
@@ -639,7 +639,7 @@ msgstr "לא הגיע? שליחה מחדש"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr "הודעת דואר אלקטרוני נשלחה שוב"
+msgstr "הודעת דואר אלקטרוני לאיפוס נשלחה"
 
 #: .es5/scripts/templates/confirm_reset_password.mustache:3
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
@@ -752,7 +752,7 @@ msgstr "בוצע"
 
 #: .es5/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
-msgstr "החשבון מוכן!"
+msgstr "החשבון שלך מוכן!"
 
 #: .es5/scripts/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
