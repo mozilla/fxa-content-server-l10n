@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-28 17:12+0000\n"
-"PO-Revision-Date: 2016-12-20 22:39+0000\n"
-"Last-Translator: ItielMaN <itiel_yn8@walla.com>\n"
+"PO-Revision-Date: 2016-12-20 22:21+0000\n"
+"Last-Translator: Tomer Cohen <tomer.mozilla@tomercohen.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
@@ -141,7 +141,7 @@ msgstr "פתיחת Outlook"
 
 #: .es5/scripts/views/mixins/open-webmail-mixin.js:37
 msgid "Open Restmail"
-msgstr ""
+msgstr "פתיחת Restmail"
 
 #: .es5/scripts/views/mixins/password-prompt-mixin.js:22
 msgid "8 characters minimum, but longer if you plan to sync passwords."
@@ -487,7 +487,7 @@ msgstr "כתובת IP:‏ %(ip)s"
 
 #: .es5/scripts/lib/strings.js:41
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "לצורך אבטחה מוגברת, נא לאשר התחברות זו על מנת להתחיל בסנכרון עם התקן זה:"
 
 #: .es5/scripts/templates/400.mustache:1
 msgid "Bad Request"
@@ -571,7 +571,7 @@ msgstr "קישור לאיפוס ססמה פגום"
 
 #: .es5/scripts/templates/complete_reset_password.mustache:6 .es5/scripts/templates/complete_sign_up.mustache:10 .es5/scripts/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr ""
+msgstr "לקישור שלחצת חסרים תווים, ויתכן שנפגם על ידי לקוח הדואר האלקטרוני שלך. יש להעתיק את כתובת הקישור בזהירות, ולבדוק שנית."
 
 #: .es5/scripts/templates/complete_reset_password.mustache:8
 msgid "Enter new password"
@@ -599,7 +599,7 @@ msgstr ""
 
 #: .es5/scripts/templates/complete_sign_up.mustache:1
 msgid "Sign-in already confirmed"
-msgstr ""
+msgstr "ההתחברות כבר אושרה"
 
 #: .es5/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
@@ -619,7 +619,7 @@ msgstr "אימות החשבון שלך"
 
 #: .es5/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "אישור התחברות זו"
 
 #: .es5/scripts/templates/confirm.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email Sent"
@@ -825,11 +825,11 @@ msgstr ""
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr ""
+msgstr "על מנת להגן על נתוני ה־Firefox שלך בצורה טובה יותר, מחכה לך קוד הרשאה בדואר האלקטרוני %(email)s."
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "נא להכניס את קוד ההרשאה"
 
 #: .es5/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"

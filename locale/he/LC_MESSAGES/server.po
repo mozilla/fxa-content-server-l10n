@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-28 17:12+0000\n"
-"PO-Revision-Date: 2016-12-20 22:20+0000\n"
+"PO-Revision-Date: 2016-12-20 18:50+0000\n"
 "Last-Translator: ItielMaN <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -52,7 +52,7 @@ msgstr "Firefox Accounts"
 
 #: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:488
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "התחברות חדשה ל־Firefox"
 
 #: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/unblock_code.html:3 templates/unblock_code.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3
 msgid "IP address: %(ip)s"
@@ -219,19 +219,19 @@ msgstr "הבחנו לאחרונה בהתחברויות של חשבון ה־Firef
 
 #: templates/unblock_code.html:2 templates/unblock_code.txt:1
 msgid "Is this you signing in?"
-msgstr ""
+msgstr "האם התחברות זו מוכרת לך?"
 
 #: templates/unblock_code.html:4 templates/unblock_code.txt:3
 msgid "If yes, here is the authorization code you need:"
-msgstr ""
+msgstr "אם כן, להלן קוד ההרשאה בו יש לך צורך:"
 
 #: templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr ""
+msgstr "אם לא, עזרו לנו להדוף פורצים <a %(reportSignInLinkAttributes)s>ודווחו לנו על זה.</a>"
 
 #: templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "אם לא, עזרו לנו להדוף פורצים ודווחו לנו על זה."
 
 #: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:577
 msgid "Hello again."
@@ -275,11 +275,11 @@ msgstr "עליך להפעיל את חשבונך באמצעות אישור כתו
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "לצורך אבטחה מוגברת, נא לאשר התחברות זו על מנת להתחיל בסנכרון עם התקן זה:"
 
 #: templates/verify_login.html:5 templates/verify_login.txt:4
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "אישור התחברות"
 
 #: templates/verify_login.html:6
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -323,7 +323,7 @@ msgstr "קוד הרשאה ל־Firefox Account"
 
 #: mailer.js:355
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
+msgstr "אישור התחברות חדשה ל־Firefox"
 
 #: mailer.js:395
 msgid "Reset your Firefox Account password"
