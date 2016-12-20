@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-28 17:12+0000\n"
-"PO-Revision-Date: 2016-11-29 03:07+0000\n"
+"PO-Revision-Date: 2016-12-20 16:26+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -985,7 +985,7 @@ msgstr "Firefox pour iOS"
 
 #: .es5/scripts/templates/settings/clients.mustache:11 .es5/scripts/templates/settings/clients.mustache:13
 msgid "Get app"
-msgstr "Obtenir l’application"
+msgstr "Obtenir l’appli"
 
 #: .es5/scripts/templates/settings/clients.mustache:12
 msgid "Firefox for Android"
