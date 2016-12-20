@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-28 17:12+0000\n"
 "PO-Revision-Date: 2016-12-20 22:39+0000\n"
-"Last-Translator: Tomer Cohen <tomer.mozilla@tomercohen.com>\n"
+"Last-Translator: ItielMaN <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
@@ -797,7 +797,7 @@ msgstr "התנתקות"
 
 #: .es5/scripts/templates/sign_in.mustache:2 .es5/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
-msgstr "כעת ניתן להשתמש ב־%(serviceName)s."
+msgstr "המשך אל %(serviceName)s"
 
 #: .es5/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
