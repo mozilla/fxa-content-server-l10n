@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-12-23 22:04+0000\n"
+"PO-Revision-Date: 2016-12-23 22:05+0000\n"
 "Last-Translator: Tomáš Zelina <zelitomas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -69,11 +69,11 @@ msgstr "Účet ověřen"
 
 #: app/scripts/views/reset_password.js:72 app/scripts/views/sign_in.js:158
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr "Neznámý účet. <a href=\"/signup\">Přihlášení</a>"
+msgstr "Neznámý účet. <a href=\"/signup\">Registrace</a>"
 
 #: app/scripts/views/sign_in.js:155
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr "Neznámý účet Firefoxu. Pro přístup k datům doplňků se <a href=\"/signup\">přihlaste</a> pomocí e-mailové adresy předchozího účtu Doplňků."
+msgstr "Neznámý účet Firefoxu. Pro přístup k datům Doplňků se <a href=\"/signup\">zaregistrujte</a> pomocí e-mailové adresy předchozího účtu Doplňků."
 
 #: app/scripts/views/sign_up.js:62
 msgid "Account no longer exists. Recreate it?"
