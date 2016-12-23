@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-12-23 22:15+0000\n"
+"PO-Revision-Date: 2016-12-23 22:30+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -95,7 +95,7 @@ msgstr "Modification du mot de passe"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr ""
+msgstr "Le mot de passe de votre compte Firefox a été correctement changé depuis cet appareil :"
 
 #: templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
@@ -194,7 +194,7 @@ msgstr "Vous avez oublié votre mot de passe ?"
 
 #: templates/recovery.html:3 templates/recovery.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
-msgstr ""
+msgstr "Cliquez sur le bouton d’ici moins d’une heure pour définir un nouveau mot de passe pour votre compte Firefox. La demande a été effectuée depuis cet appareil :"
 
 #: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
@@ -305,19 +305,19 @@ msgstr "Si vous avez des raisons de penser que quelqu’un essaie d’accéder �
 
 #: templates/verify_sync.html:2 templates/verify_sync.txt:1
 msgid "Ready, set, sync"
-msgstr ""
+msgstr "À vos marques… Prêts ? Synchronisez !"
 
 #: templates/verify_sync.html:3 templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "Confirmez que vous avez reçu ce message et nous vous aiderons à installer et synchroniser Firefox sur tous vos appareils, en commençant par :"
 
 #: templates/verify_sync.html:5 templates/verify_sync.txt:4
 msgid "Verify email "
-msgstr ""
+msgstr "Vérifier l’adresse électronique"
 
 #: templates/verify_sync.html:6 templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "Une fois confirmé, nous vous aiderons à installer et connecter Firefox sur au moins un autre appareil."
 
 #: mailer.js:145
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
