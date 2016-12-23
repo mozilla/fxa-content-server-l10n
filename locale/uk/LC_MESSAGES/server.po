@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-28 17:12+0000\n"
+"POT-Creation-Date: 2016-12-23 17:06+0000\n"
 "PO-Revision-Date: 2016-11-14 20:34+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1434740560.0\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:580
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:670
 msgid "Still there?"
 msgstr "Досі тут?"
 
@@ -49,16 +49,17 @@ msgstr "Увійти до Синхронізації"
 
 #: templates/new_device_login.html:1 templates/password_changed.html:1 templates/password_reset.html:1 templates/password_reset_required.html:1 templates/post_verify.html:1 templates/recovery.html:1
 #: templates/suspicious_location.html:1 templates/unblock_code.html:1 templates/verification_reminder_first.html:1 templates/verification_reminder_second.html:1 templates/verify.html:1
-#: templates/verify_login.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
-#: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
+#: templates/verify_login.html:1 templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
+#: server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Облікові записи Firefox"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:488
+#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:564
 msgid "New sign-in to Firefox"
 msgstr "Новий вхід в Firefox"
 
-#: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/unblock_code.html:3 templates/unblock_code.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3
+#: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/password_changed.html:4 templates/password_changed.txt:3 templates/recovery.html:4 templates/recovery.txt:3
+#: templates/unblock_code.html:3 templates/unblock_code.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3 templates/verify_sync.html:4 templates/verify_sync.txt:3
 msgid "IP address: %(ip)s"
 msgstr "IP адреса: %(ip)s"
 
@@ -66,16 +67,16 @@ msgstr "IP адреса: %(ip)s"
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr "Це автоматичний лист; якщо ви не дозволяли цю дію, тоді <a %(passwordChangeLinkAttributes)s>будь ласка, змініть свій пароль.</a>"
 
-#: templates/new_device_login.html:5 templates/password_changed.html:5 templates/password_reset.html:5 templates/post_verify.html:6 templates/recovery.html:6
-#: templates/verification_reminder_first.html:6 templates/verification_reminder_second.html:6 templates/verify.html:6
+#: templates/new_device_login.html:5 templates/password_changed.html:6 templates/password_reset.html:5 templates/post_verify.html:6 templates/recovery.html:7
+#: templates/verification_reminder_first.html:6 templates/verification_reminder_second.html:6 templates/verify.html:6 templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr "Для отримання докладної інформації, відвідайте <a %(supportLinkAttributes)s>Підтримку Mozilla</a>."
 
-#: templates/new_device_login.html:6 templates/new_device_login.txt:5 templates/password_changed.html:6 templates/password_changed.txt:5 templates/password_reset.html:6 templates/password_reset.txt:5
-#: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:7 templates/post_verify.txt:6 templates/recovery.html:7 templates/recovery.txt:6
+#: templates/new_device_login.html:6 templates/new_device_login.txt:5 templates/password_changed.html:7 templates/password_changed.txt:6 templates/password_reset.html:6 templates/password_reset.txt:5
+#: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:7 templates/post_verify.txt:6 templates/recovery.html:8 templates/recovery.txt:7
 #: templates/suspicious_location.html:14 templates/suspicious_location.txt:13 templates/unblock_code.html:6 templates/unblock_code.txt:5 templates/verification_reminder_first.html:7
 #: templates/verification_reminder_first.txt:6 templates/verification_reminder_second.html:7 templates/verification_reminder_second.txt:6 templates/verify.html:7 templates/verify.txt:6
-#: templates/verify_login.html:7 templates/verify_login.txt:6
+#: templates/verify_login.html:7 templates/verify_login.txt:6 templates/verify_sync.html:9 templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
 msgstr "Політика Приватності Mozilla"
 
@@ -83,8 +84,8 @@ msgstr "Політика Приватності Mozilla"
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
 msgstr "Це автоматичний лист; якщо ви не додавали новий пристрій до свого облікового запису Firefox, вам потрібно негайно змінити свій пароль на %(passwordChangeLink)s"
 
-#: templates/new_device_login.txt:4 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:5 templates/verification_reminder_first.txt:5
-#: templates/verification_reminder_second.txt:5 templates/verify.txt:5
+#: templates/new_device_login.txt:4 templates/password_changed.txt:5 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
+#: templates/verification_reminder_second.txt:5 templates/verify.txt:5 templates/verify_sync.txt:7
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Для отримання додаткової інформації, відвідайте %(supportUrl)s"
 
@@ -93,14 +94,14 @@ msgid "Password changed successfully"
 msgstr "Пароль успішно змінено"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
-msgid "Your Firefox Account password has been successfully changed."
-msgstr "Пароль вашого облікового запису Firefox був успішно змінений."
+msgid "Your Firefox Account password was successfully changed from the following device:"
+msgstr ""
 
-#: templates/password_changed.html:4
+#: templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
 msgstr "Це автоматичний лист; якщо ви не дозволяли цю дію, тоді <a %(resetLinkAttributes)s>відновіть свій пароль</a>."
 
-#: templates/password_changed.txt:3
+#: templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
 msgstr "Це автоматичний електронний лист; якщо ви не змінювали пароль свого облікового запису Firefox, вам необхідно негайно відновити його на %(resetLink)s"
 
@@ -112,8 +113,9 @@ msgstr "Ваш пароль було відновлено"
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
 msgstr "Пароль вашого облікового запису Firefox було змінено. Якщо ви не робили цього, будь ласка <a %(resetLinkAttributes)s>скиньте свій пароль</a> зараз."
 
-#: templates/password_reset.html:4 templates/post_verify.html:5 templates/post_verify.txt:4 templates/recovery.html:5 templates/recovery.txt:4 templates/verification_reminder_first.html:5
+#: templates/password_reset.html:4 templates/post_verify.html:5 templates/post_verify.txt:4 templates/recovery.html:6 templates/recovery.txt:5 templates/verification_reminder_first.html:5
 #: templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:5 templates/verification_reminder_second.txt:4 templates/verify.html:5 templates/verify.txt:4
+#: templates/verify_sync.html:7 templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Це автоматичне повідомлення; якщо ви отримали його помилково, не реагуйте на нього."
 
@@ -189,10 +191,10 @@ msgid "Forgot your password?"
 msgstr "Забули свій пароль?"
 
 #: templates/recovery.html:3 templates/recovery.txt:2
-msgid "Click the button within the next hour to set a new password for your Firefox Account."
-msgstr "Натисніть на кнопку протягом наступної години, щоб встановити новий пароль для свого облікового запису Firefox."
+msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
+msgstr ""
 
-#: templates/recovery.html:4 templates/recovery.txt:3
+#: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
 msgstr "Відновити пароль"
 
@@ -242,7 +244,7 @@ msgstr "Якщо ні, допоможіть нам не допустити зл�
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Якщо ні, допоможіть нам не допустити зловмисників і повідомте про це нас."
 
-#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:577
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:667
 msgid "Hello again."
 msgstr "Вітаємо знову."
 
@@ -258,11 +260,11 @@ msgstr ""
 msgid "Activate now"
 msgstr "Активувати"
 
-#: templates/verification_reminder_first.html:8 templates/verification_reminder_second.html:8 templates/verify.html:8
+#: templates/verification_reminder_first.html:8 templates/verification_reminder_second.html:8 templates/verify.html:8 templates/verify_sync.html:10
 msgid "Verify Email"
 msgstr "Підтвердити адресу електронної пошти"
 
-#: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9
+#: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9 templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr "Підтвердіть свою адресу електронної пошти для завершення реєстрації облікового запису Firefox"
 
@@ -299,63 +301,83 @@ msgstr "Якщо ви підозрюєте, що хтось намагаєтьс
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr "Якщо ви підозрюєте, що хтось намагається здобути доступ до вашого облікового запису, будь ласка, змініть свій пароль."
 
-#: mailer.js:143
+#: templates/verify_sync.html:2 templates/verify_sync.txt:1
+msgid "Ready, set, sync"
+msgstr ""
+
+#: templates/verify_sync.html:3 templates/verify_sync.txt:2
+msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
+msgstr ""
+
+#: templates/verify_sync.html:5 templates/verify_sync.txt:4
+msgid "Verify email "
+msgstr ""
+
+#: templates/verify_sync.html:6 templates/verify_sync.txt:5
+msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
+msgstr ""
+
+#: mailer.js:145
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s на %(uaOS)s %(uaOSVersion)s"
 
-#: mailer.js:146
+#: mailer.js:148
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s на %(uaOS)s"
 
-#: mailer.js:173
+#: mailer.js:175
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (приблизно)"
 
-#: mailer.js:175
+#: mailer.js:177
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (приблизно)"
 
-#: mailer.js:177
+#: mailer.js:179
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (приблизно)"
 
-#: mailer.js:179
+#: mailer.js:181
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (приблизно)"
 
-#: mailer.js:280
+#: mailer.js:262
 msgid "Verify your Firefox Account"
 msgstr "Підтвердження облікового запису Firefox"
 
-#: mailer.js:314
+#: mailer.js:287
+msgid "Confirm your email and start to sync!"
+msgstr ""
+
+#: mailer.js:340
 msgid "Firefox Account authorization code"
 msgstr "Код авторизації облікового запису Firefox"
 
-#: mailer.js:355
+#: mailer.js:388
 msgid "Confirm new sign-in to Firefox"
 msgstr "Підтвердити новий вхід в Firefox"
 
-#: mailer.js:395
+#: mailer.js:435
 msgid "Reset your Firefox Account password"
 msgstr "Відновити пароль свого облікового запису Firefox"
 
-#: mailer.js:420
+#: mailer.js:471
 msgid "Your Firefox Account password has been changed"
 msgstr "Пароль вашого облікового запису Firefox був змінений"
 
-#: mailer.js:443
+#: mailer.js:505
 msgid "Your Firefox Account password has been reset"
 msgstr "Пароль вашого облікового запису Firefox був відновлений"
 
-#: mailer.js:466
+#: mailer.js:535
 msgid "Firefox Account password reset required"
 msgstr "Необхідно скинути пароль облікового запису Firefox"
 
-#: mailer.js:517
+#: mailer.js:600
 msgid "Firefox Account verified"
 msgstr "Обліковий запис Firefox засвідчено"
 
-#: mailer.js:555
+#: mailer.js:645
 msgid "Suspicious activity with your Firefox Account"
 msgstr "Підозріла активність з вашим обліковим записом Firefox"
 
@@ -410,6 +432,12 @@ msgstr "Хмарні сервіси Firefox"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Умови надання послуги"
+
+#~ msgid "Your Firefox Account password has been successfully changed."
+#~ msgstr "Пароль вашого облікового запису Firefox був успішно змінений."
+
+#~ msgid "Click the button within the next hour to set a new password for your Firefox Account."
+#~ msgstr "Натисніть на кнопку протягом наступної години, щоб встановити новий пароль для свого облікового запису Firefox."
 
 #~ msgid "Alternatively:"
 #~ msgstr "Альтернативно:"
