@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-23 17:06+0000\n"
+"POT-Creation-Date: 2016-12-23 21:50+0000\n"
 "PO-Revision-Date: 2016-05-15 14:42+0000\n"
 "Last-Translator: rimas <rimas@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -919,12 +919,16 @@ msgid "Have an account? Sign in"
 msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
+msgid "Why Sync two (or more!) devices?"
+msgstr ""
+
+#: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
 "Firefox for desktop will appear."
 msgstr ""
 
-#: app/scripts/templates/why_connect_another_device.mustache:2
+#: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
 "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."

@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2016-12-23 17:06+0000\n"
+"POT-Creation-Date: 2016-12-23 21:50+0000\n"
 
 #: app/scripts/views/complete_reset_password.js:133
 #: app/scripts/views/complete_sign_up.js:168
@@ -1054,6 +1054,10 @@ msgid "Have an account? Sign in"
 msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
+msgid "Why Sync two (or more!) devices?"
+msgstr ""
+
+#: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to "
 "Firefox on one device with Firefox on other devices. Sign in to Firefox on "
@@ -1061,7 +1065,7 @@ msgid ""
 "will appear."
 msgstr ""
 
-#: app/scripts/templates/why_connect_another_device.mustache:2
+#: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
 "Sync isn't designed as a permanent backup – it's just sharing what is saved "
 "locally. If you reset your password and your data isn't stored on at least "
