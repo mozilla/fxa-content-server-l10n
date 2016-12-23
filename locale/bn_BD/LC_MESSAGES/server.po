@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-28 17:12+0000\n"
+"POT-Creation-Date: 2016-12-23 17:06+0000\n"
 "PO-Revision-Date: 2016-11-16 15:26+0000\n"
 "Last-Translator: S M Sarwar Nobin <smsarwar1996@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1413953192.0\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:580
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:670
 msgid "Still there?"
 msgstr "এখনও এখানে?"
 
@@ -31,8 +31,8 @@ msgstr "আপনি Firefox Account আপনার প্রথম ডিভ�
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr "আপনি Firefox Account এ আপনার প্রথম ডিভাইসের সাথে সফলভাবে সংযুক্ত হয়েছেন। Sync কে সর্বোচ্চ কার্যকর করতে, যেকোনো Android এর জন্য Firefox অথবা iOS এর জন্য Firefox এ সংযোগ করুন।"
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
@@ -45,16 +45,17 @@ msgstr "Sync এ সাইন ইন করুন"
 
 #: templates/new_device_login.html:1 templates/password_changed.html:1 templates/password_reset.html:1 templates/password_reset_required.html:1 templates/post_verify.html:1 templates/recovery.html:1
 #: templates/suspicious_location.html:1 templates/unblock_code.html:1 templates/verification_reminder_first.html:1 templates/verification_reminder_second.html:1 templates/verify.html:1
-#: templates/verify_login.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
-#: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
+#: templates/verify_login.html:1 templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
+#: server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:488
+#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:564
 msgid "New sign-in to Firefox"
 msgstr "Firefox এ নতুন সাইন-ইন"
 
-#: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/unblock_code.html:3 templates/unblock_code.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3
+#: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/password_changed.html:4 templates/password_changed.txt:3 templates/recovery.html:4 templates/recovery.txt:3
+#: templates/unblock_code.html:3 templates/unblock_code.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3 templates/verify_sync.html:4 templates/verify_sync.txt:3
 msgid "IP address: %(ip)s"
 msgstr "IP ঠিকানা: %(ip)s"
 
@@ -62,16 +63,16 @@ msgstr "IP ঠিকানা: %(ip)s"
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr "এটি একটি স্বয়ংক্রিয় ইমেইল। যদি আপনি এই পদক্ষেপ অনুমোদন না করে থাকেন, তাহলে <a %(passwordChangeLinkAttributes)s>অনুগ্রহ করে পাসওয়ার্ড পরিবর্তন করুন।</a>"
 
-#: templates/new_device_login.html:5 templates/password_changed.html:5 templates/password_reset.html:5 templates/post_verify.html:6 templates/recovery.html:6
-#: templates/verification_reminder_first.html:6 templates/verification_reminder_second.html:6 templates/verify.html:6
+#: templates/new_device_login.html:5 templates/password_changed.html:6 templates/password_reset.html:5 templates/post_verify.html:6 templates/recovery.html:7
+#: templates/verification_reminder_first.html:6 templates/verification_reminder_second.html:6 templates/verify.html:6 templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr "আরও তথ্যের জন্য, দেখুন <a %(supportLinkAttributes)s>Mozilla Support</a>।"
 
-#: templates/new_device_login.html:6 templates/new_device_login.txt:5 templates/password_changed.html:6 templates/password_changed.txt:5 templates/password_reset.html:6 templates/password_reset.txt:5
-#: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:7 templates/post_verify.txt:6 templates/recovery.html:7 templates/recovery.txt:6
+#: templates/new_device_login.html:6 templates/new_device_login.txt:5 templates/password_changed.html:7 templates/password_changed.txt:6 templates/password_reset.html:6 templates/password_reset.txt:5
+#: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:7 templates/post_verify.txt:6 templates/recovery.html:8 templates/recovery.txt:7
 #: templates/suspicious_location.html:14 templates/suspicious_location.txt:13 templates/unblock_code.html:6 templates/unblock_code.txt:5 templates/verification_reminder_first.html:7
 #: templates/verification_reminder_first.txt:6 templates/verification_reminder_second.html:7 templates/verification_reminder_second.txt:6 templates/verify.html:7 templates/verify.txt:6
-#: templates/verify_login.html:7 templates/verify_login.txt:6
+#: templates/verify_login.html:7 templates/verify_login.txt:6 templates/verify_sync.html:9 templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
 msgstr "Mozilla গোপনীয়তা নীতি"
 
@@ -79,8 +80,8 @@ msgstr "Mozilla গোপনীয়তা নীতি"
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
 msgstr "এটি একটি সংক্রিয় ইমেইল; যদি আপনার Firefox Account এ নতুন কোন ডিভাইস যুক্ত না করে থাকেন, তাহলে এখনই আপনার পার্সওয়ার্ড %(passwordChangeLink)s এ পরিবর্তন করুন"
 
-#: templates/new_device_login.txt:4 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:5 templates/verification_reminder_first.txt:5
-#: templates/verification_reminder_second.txt:5 templates/verify.txt:5
+#: templates/new_device_login.txt:4 templates/password_changed.txt:5 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
+#: templates/verification_reminder_second.txt:5 templates/verify.txt:5 templates/verify_sync.txt:7
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "আরও তথ্যের জন্য, ভিজিট করুন %(supportUrl)s"
 
@@ -89,14 +90,14 @@ msgid "Password changed successfully"
 msgstr "সফলভাবে পাসওয়ার্ড পরিবর্তন হয়েছে"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
-msgid "Your Firefox Account password has been successfully changed."
-msgstr "আপনার Firefox Account এর পাসওয়ার্ড সফলভাবে পরিবর্তন হয়েছে।"
+msgid "Your Firefox Account password was successfully changed from the following device:"
+msgstr ""
 
-#: templates/password_changed.html:4
+#: templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
 msgstr "এটা একটি স্বয়ংক্রিয় ইমেইল; যদি এই পদক্ষেপটি অনুমোদন না করে থাকেন; তাহলে <a %(resetLinkAttributes)s>অনুগ্রহ করে পাসওয়ার্ডটি পরিবর্তন করুন</a>।"
 
-#: templates/password_changed.txt:3
+#: templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
 msgstr "এটা একটি স্বয়ংক্রিয় ইমেইল; যদি আপনি আপনার Firefox Account এর পাসওয়ার্ড পরিবর্তন না করে থাকেন, তাহলে আপনি এখনই %(passwordChangeLink)s এ আপনার পাসওয়ার্ড পরিবর্তন করুন"
 
@@ -108,8 +109,9 @@ msgstr "আপনার পাসওয়ার্ড রিসেট হয়েছ
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
 msgstr "আপনার Firefox Account এর পাসওয়ার্ড পরিবর্তন হয়েছে। যদি আপনি এটা পরিবর্তন না করে থাকেন, অনুগ্রহ করে এখনই <a %(resetLinkAttributes)s> পাসওয়ার্ডটি রিসেট করুন</a>।"
 
-#: templates/password_reset.html:4 templates/post_verify.html:5 templates/post_verify.txt:4 templates/recovery.html:5 templates/recovery.txt:4 templates/verification_reminder_first.html:5
+#: templates/password_reset.html:4 templates/post_verify.html:5 templates/post_verify.txt:4 templates/recovery.html:6 templates/recovery.txt:5 templates/verification_reminder_first.html:5
 #: templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:5 templates/verification_reminder_second.txt:4 templates/verify.html:5 templates/verify.txt:4
+#: templates/verify_sync.html:7 templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "এটি একটি স্বয়ংক্রিয় ইমেইল; যদি কোন ত্রুটির কারণে আপনি এটি পেয়ে থাকেন, কিছু করার প্রয়োজন নেই।"
 
@@ -183,10 +185,10 @@ msgid "Forgot your password?"
 msgstr "পাসওয়ার্ড ভুলে গেছেন?"
 
 #: templates/recovery.html:3 templates/recovery.txt:2
-msgid "Click the button within the next hour to set a new password for your Firefox Account."
-msgstr "আপনার Firefox Account এ নতুন পাসওয়ার্ড সেট করতে পরবর্তী ঘণ্টার মধ্যে বোতামে ক্লিক করুন।"
+msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
+msgstr ""
 
-#: templates/recovery.html:4 templates/recovery.txt:3
+#: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
 msgstr "রিসেট পাসওয়ার্ড"
 
@@ -234,27 +236,27 @@ msgstr "যদি না হয়, অামাদের সাহায্য ক
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "যদি না হয়, অামাদের সাহায্য করুন অবৈধ অনুপ্রবেশকারী ঠেকাতে এবং আমাদের তা রিপোর্ট করুন।"
 
-#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:577
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:667
 msgid "Hello again."
 msgstr "পুনরায় স্বাগতম।"
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-" email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+"this email address to activate your account."
 msgstr ""
-"কিছু দিন আগে আপনি Firefox Account খুলেছেন, কিন্তু এখনও যাচাই করেনি। যাচাইকৃত অ্যাকাউন্ট আপনাকে আপনার ট্যাব, বুকমার্ক, পাসওয়ার্ড এবং ইতিহাসে যেকোন স্থান থেকে প্রবেশ করতে দিবে। আপনার অ্যাকাউন্টটি "
-"সক্রিয় করতে শুধু ইমেইল ঠিকানাটি নিশ্চিত করুন।"
+"কিছু দিন আগে আপনি Firefox Account খুলেছেন, কিন্তু এখনও যাচাই করেনি। যাচাইকৃত অ্যাকাউন্ট আপনাকে আপনার ট্যাব, বুকমার্ক, পাসওয়ার্ড এবং ইতিহাসে যেকোন স্থান থেকে প্রবেশ করতে দিবে। আপনার অ্যাকাউন্টটি সক্রিয় করতে শুধু "
+"ইমেইল ঠিকানাটি নিশ্চিত করুন।"
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
 msgid "Activate now"
 msgstr "এখনই সক্রিয় করুন"
 
-#: templates/verification_reminder_first.html:8 templates/verification_reminder_second.html:8 templates/verify.html:8
+#: templates/verification_reminder_first.html:8 templates/verification_reminder_second.html:8 templates/verify.html:8 templates/verify_sync.html:10
 msgid "Verify Email"
 msgstr "ইমেল যাচাই করুন"
 
-#: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9
+#: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9 templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr "আপনার Firefox Account নিবন্ধন সম্পূর্ণ করতে আপনার ইমেইল যাচাই করুন"
 
@@ -264,8 +266,7 @@ msgstr "এখনই সক্রিয় করুন:"
 
 #: templates/verification_reminder_second.html:3 templates/verification_reminder_second.txt:2
 msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
-"সপ্তাহ আগে আপনি Firefox Account তৈরি করেছিলেন, কিন্তু যাচাই করেননি। আমরা আপনার সম্পর্কে উদ্বিগ্ন। অ্যাকাউন্টটি সক্রিয় করার জন্য ইমেইল ঠিকানাটি নিশ্চিত করুন এবং আপনি ঠিক আছেন কি না আমাদের জানান।"
+msgstr "সপ্তাহ আগে আপনি Firefox Account তৈরি করেছিলেন, কিন্তু যাচাই করেননি। আমরা আপনার সম্পর্কে উদ্বিগ্ন। অ্যাকাউন্টটি সক্রিয় করার জন্য ইমেইল ঠিকানাটি নিশ্চিত করুন এবং আপনি ঠিক আছেন কি না আমাদের জানান।"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
@@ -291,63 +292,83 @@ msgstr "যদি সন্দেহ করেন আপনার অ্যা�
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr "যদি সন্দেহ করেন আপনার অ্যাকাউন্টে অন্য কেউ প্রবেশের চেষ্টা করছে, অনুগ্রহ করে পাসওয়ার্ড পরিবর্তন করুন।"
 
-#: mailer.js:143
+#: templates/verify_sync.html:2 templates/verify_sync.txt:1
+msgid "Ready, set, sync"
+msgstr ""
+
+#: templates/verify_sync.html:3 templates/verify_sync.txt:2
+msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
+msgstr ""
+
+#: templates/verify_sync.html:5 templates/verify_sync.txt:4
+msgid "Verify email "
+msgstr ""
+
+#: templates/verify_sync.html:6 templates/verify_sync.txt:5
+msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
+msgstr ""
+
+#: mailer.js:145
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaOS)s %(uaOSVersion)s এ %(uaBrowser)s"
 
-#: mailer.js:146
+#: mailer.js:148
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaOS)s এ %(uaBrowser)s"
 
-#: mailer.js:173
+#: mailer.js:175
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (আনুমানিক)"
 
-#: mailer.js:175
+#: mailer.js:177
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (আনুমানিক)"
 
-#: mailer.js:177
+#: mailer.js:179
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (আনুমানিক)"
 
-#: mailer.js:179
+#: mailer.js:181
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (আনুমানিক)"
 
-#: mailer.js:280
+#: mailer.js:262
 msgid "Verify your Firefox Account"
 msgstr "আপনার Firefox Account যাচাই করুন"
 
-#: mailer.js:314
+#: mailer.js:287
+msgid "Confirm your email and start to sync!"
+msgstr ""
+
+#: mailer.js:340
 msgid "Firefox Account authorization code"
 msgstr "Firefox Account অনুমোদন কোড"
 
-#: mailer.js:355
+#: mailer.js:388
 msgid "Confirm new sign-in to Firefox"
 msgstr "Firefox-এ নতুন সাইন-ইন নিশ্চিত করুন"
 
-#: mailer.js:395
+#: mailer.js:435
 msgid "Reset your Firefox Account password"
 msgstr "আপনার Firefox Account পাসওয়ার্ড পরিবর্তন করুন"
 
-#: mailer.js:420
+#: mailer.js:471
 msgid "Your Firefox Account password has been changed"
 msgstr "আপনার Firefox Account পাসওয়ার্ড পরিবর্তন করা হয়েছে"
 
-#: mailer.js:443
+#: mailer.js:505
 msgid "Your Firefox Account password has been reset"
 msgstr "আপনার Firefox Account পাসওয়ার্ড রিসেট করা হয়েছে"
 
-#: mailer.js:466
+#: mailer.js:535
 msgid "Firefox Account password reset required"
 msgstr "আপনার Firefox Account পাসওয়ার্ড রিসেট প্রয়োজন"
 
-#: mailer.js:517
+#: mailer.js:600
 msgid "Firefox Account verified"
 msgstr "যাচাইকৃত Firefox Account"
 
-#: mailer.js:555
+#: mailer.js:645
 msgid "Suspicious activity with your Firefox Account"
 msgstr "আপনার Firefox Account এ সন্দেহজনক কার্যক্রম"
 
@@ -402,6 +423,12 @@ msgstr "Firefox ক্লাউড সেবা সমূহ"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "সেবার শর্ত সমূহ"
+
+#~ msgid "Your Firefox Account password has been successfully changed."
+#~ msgstr "আপনার Firefox Account এর পাসওয়ার্ড সফলভাবে পরিবর্তন হয়েছে।"
+
+#~ msgid "Click the button within the next hour to set a new password for your Firefox Account."
+#~ msgstr "আপনার Firefox Account এ নতুন পাসওয়ার্ড সেট করতে পরবর্তী ঘণ্টার মধ্যে বোতামে ক্লিক করুন।"
 
 #~ msgid "Alternatively:"
 #~ msgstr "বিকল্প:"

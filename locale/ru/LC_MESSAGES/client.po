@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-28 17:12+0000\n"
+"POT-Creation-Date: 2016-12-23 17:06+0000\n"
 "PO-Revision-Date: 2016-11-30 21:13+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
@@ -16,1034 +16,1108 @@ msgstr ""
 "X-POOTLE-MTIME: 1448126634.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: .es5/scripts/views/complete_reset_password.js:125 .es5/scripts/views/complete_sign_up.js:115 .es5/scripts/views/confirm.js:120 .es5/scripts/views/confirm_reset_password.js:170
+#: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:168 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
 msgid "Account verified successfully"
 msgstr "Аккаунт успешно подтверждён"
 
-#: .es5/scripts/views/confirm_reset_password.js:162 .es5/scripts/views/ready.js:41
+#: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38
 msgid "Password reset"
 msgstr "Пароль восстановлен"
 
-#: .es5/scripts/views/confirm_reset_password.js:186
+#: app/scripts/views/confirm_reset_password.js:194
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Пароль успешно сброшен. Войти, чтобы продолжить."
 
-#: .es5/scripts/views/permissions.js:26
+#: app/scripts/views/permissions.js:26
 msgid "%(permissionName)s (required)"
 msgstr "%(permissionName)s (обязательно)"
 
-#: .es5/scripts/views/permissions.js:31
+#: app/scripts/views/permissions.js:32
 msgid "Email address"
 msgstr "Адрес электронной почты"
 
-#: .es5/scripts/views/permissions.js:35 .es5/scripts/templates/settings/display_name.mustache:1 .es5/scripts/templates/settings/display_name.mustache:4
+#: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:4
 msgid "Display name"
 msgstr "Отображаемое имя"
 
-#: .es5/scripts/views/permissions.js:38 .es5/scripts/templates/settings/avatar.mustache:1
+#: app/scripts/views/permissions.js:41 app/scripts/templates/settings/avatar.mustache:1
 msgid "Account picture"
 msgstr "Фото аккаунта"
 
-#: .es5/scripts/views/ready.js:27
-msgid "Firefox Sync will begin momentarily"
-msgstr "Через несколько мгновений начнётся Синхронизация Firefox"
-
-#: .es5/scripts/views/ready.js:36
+#: app/scripts/views/ready.js:33
 msgid "Welcome back"
 msgstr "С возвращением"
 
-#: .es5/scripts/views/ready.js:37
+#: app/scripts/views/ready.js:34
 msgid "Firefox Sync will resume momentarily"
 msgstr "Через несколько мгновений возобновится Синхронизация Firefox"
 
-#: .es5/scripts/views/ready.js:47
+#: app/scripts/views/ready.js:39
+msgid "Complete set-up by entering the new password on your other Firefox devices."
+msgstr ""
+
+#: app/scripts/views/ready.js:44
 msgid "Sign-in confirmed"
 msgstr "Вход подтвержден"
 
-#: .es5/scripts/views/ready.js:48 .es5/scripts/views/ready.js:53 .es5/scripts/templates/ready.mustache:3
+#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Теперь вы готовы использовать %(serviceName)s"
 
-#: .es5/scripts/views/ready.js:52
+#: app/scripts/views/ready.js:49
 msgid "Account verified"
 msgstr "Аккаунт подтверждён"
 
-#: .es5/scripts/views/reset_password.js:69 .es5/scripts/views/sign_in.js:144
+#: app/scripts/views/reset_password.js:72 app/scripts/views/sign_in.js:158
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Неизвестный аккаунт. <a href=\"/signup\">Зарегистрироваться</a>"
 
-#: .es5/scripts/views/sign_up.js:61
+#: app/scripts/views/sign_in.js:155
+msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
+msgstr ""
+
+#: app/scripts/views/sign_up.js:62
 msgid "Account no longer exists. Recreate it?"
 msgstr "Аккаунт больше не существует. Пересоздать?"
 
-#: .es5/scripts/views/sign_up.js:346
+#: app/scripts/views/sign_up.js:365
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Аккаунт уже существует. <a href=\"/signin\">Войти</a>"
 
-#: .es5/scripts/views/settings/avatar_gravatar.js:89
+#: app/scripts/views/settings/avatar_gravatar.js:93
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "Предоставлено <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
-#: .es5/scripts/views/settings/change_password.js:46
+#: app/scripts/views/settings/change_password.js:52
 msgid "Password changed successfully"
 msgstr "Пароль успешно изменён"
 
-#: .es5/scripts/views/settings/client_disconnect.js:18
+#: app/scripts/views/settings/client_disconnect.js:18
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
 msgstr "Нам очень жаль. Вам следует изменить пароль своего Аккаунта Firefox, и поискать информацию от производителя вашего устройства о том, как удалённо стереть ваши данные."
 
-#: .es5/scripts/views/settings/client_disconnect.js:19
+#: app/scripts/views/settings/client_disconnect.js:20
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Нам очень жаль. Если это было устройство, которому вы действительно не доверяете, вы должны сменить пароль вашего Аккаунта Firefox, и изменить любые пароли, сохранённые в Firefox."
 
-#: .es5/scripts/views/settings/clients.js:50
+#: app/scripts/views/settings/clients.js:58
 msgid "Last active %(translatedTimeAgo)s"
 msgstr "Последняя активность %(translatedTimeAgo)s"
 
-#: .es5/scripts/views/settings/communication_preferences.js:101
+#: app/scripts/views/settings/communication_preferences.js:104
 msgid "Subscribed successfully"
 msgstr "Вы были успешно подписаны"
 
-#: .es5/scripts/views/settings/communication_preferences.js:101
+#: app/scripts/views/settings/communication_preferences.js:105
 msgid "Unsubscribed successfully"
 msgstr "Вы были успешно отписаны"
 
-#: .es5/scripts/views/settings/delete_account.js:44
+#: app/scripts/views/settings/delete_account.js:45
 msgid "Account deleted successfully"
 msgstr "Аккаунт успешно удалён"
 
-#: .es5/scripts/views/settings/display_name.js:49
+#: app/scripts/views/settings/display_name.js:66
 msgid "Display name updated"
 msgstr "Отображаемое имя обновлено"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:42 .es5/scripts/lib/auth-errors.js:113
+#: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
 msgstr "Ваш аккаунт был заблокирован по соображениям безопасности"
 
-#: .es5/scripts/views/mixins/account-reset-mixin.js:42 .es5/scripts/templates/reset_password.mustache:6
+#: app/scripts/views/mixins/account-reset-mixin.js:44 app/scripts/templates/reset_password.mustache:6
 msgid "Reset password"
 msgstr "Восстановить пароль"
 
-#: .es5/scripts/views/mixins/open-webmail-mixin.js:17
+#: app/scripts/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
 msgstr "Открыть Gmail"
 
-#: .es5/scripts/views/mixins/open-webmail-mixin.js:22
+#: app/scripts/views/mixins/open-webmail-mixin.js:25
 msgid "Open Hotmail"
 msgstr "Открыть Hotmail"
 
-#: .es5/scripts/views/mixins/open-webmail-mixin.js:27
+#: app/scripts/views/mixins/open-webmail-mixin.js:31
 msgid "Open Yahoo"
 msgstr "Открыть Yahoo"
 
-#: .es5/scripts/views/mixins/open-webmail-mixin.js:32
+#: app/scripts/views/mixins/open-webmail-mixin.js:37
 msgid "Open Outlook"
 msgstr "Открыть Outlook"
 
-#: .es5/scripts/views/mixins/open-webmail-mixin.js:37
+#: app/scripts/views/mixins/open-webmail-mixin.js:43
 msgid "Open Restmail"
 msgstr "Открыть Restmail"
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:22
+#: app/scripts/views/mixins/password-prompt-mixin.js:20
 msgid "8 characters minimum, but longer if you plan to sync passwords."
 msgstr "минимум 8 символов, но длиннее, если вы планируете синхронизировать пароли."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:23 .es5/scripts/templates/sign_up.mustache:17
+#: app/scripts/views/mixins/password-prompt-mixin.js:21 app/scripts/templates/sign_up.mustache:17
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "Сильный, уникальный пароль обеспечит защиту данных вашего Firefox от злоумышленников."
 
-#: .es5/scripts/views/mixins/password-prompt-mixin.js:24
+#: app/scripts/views/mixins/password-prompt-mixin.js:22
 msgid "This is a common password; please consider another one."
 msgstr "Это слишком популярный пароль; пожалуйста, используйте другой."
 
-#: .es5/scripts/views/mixins/resend-mixin.js:51
+#: app/scripts/views/mixins/resend-mixin.js:45
 msgid "Email resent"
 msgstr "Письмо повторно отправлено"
 
-#: .es5/scripts/views/mixins/signed-out-notification-mixin.js:38
+#: app/scripts/views/mixins/signed-out-notification-mixin.js:38
 msgid "Signed out successfully"
 msgstr "Выход успешно произведён"
 
-#: .es5/scripts/lib/auth-errors.js:19 .es5/scripts/lib/marketing-email-errors.js:17 .es5/scripts/lib/oauth-errors.js:20 .es5/scripts/lib/profile-errors.js:39 .es5/scripts/lib/profile-errors.js:47
-#: .es5/scripts/lib/require-on-demand.js:33 .es5/scripts/lib/require-on-demand.js:37 .es5/scripts/lib/require-on-demand.js:41 .es5/scripts/lib/require-on-demand.js:45
+#: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
+#: app/scripts/lib/require-on-demand.js:33 app/scripts/lib/require-on-demand.js:37 app/scripts/lib/require-on-demand.js:41 app/scripts/lib/require-on-demand.js:45
 msgid "Unexpected error"
 msgstr "Непредвиденная ошибка"
 
-#: .es5/scripts/lib/auth-errors.js:20 .es5/scripts/templates/complete_sign_up.mustache:5
+#: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:5
 msgid "The link you clicked to verify your email is expired."
 msgstr "Срок жизни ссылки, по которой вы щёлкаете, чтобы подтвердить вашу почту, истёк."
 
-#: .es5/scripts/lib/auth-errors.js:21
+#: app/scripts/lib/auth-errors.js:21
 msgid "You've tried too many times. Try again later."
 msgstr "Вы произвели слишком много попыток. Попробуйте снова позже."
 
-#: .es5/scripts/lib/auth-errors.js:25
+#: app/scripts/lib/auth-errors.js:25
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
 msgstr "Вы произвели слишком много попыток. Попробуйте снова через %(retryAfterLocalized)s."
 
-#: .es5/scripts/lib/auth-errors.js:35 .es5/scripts/lib/oauth-errors.js:50
+#: app/scripts/lib/auth-errors.js:35 app/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
 msgstr "Неправильный токен"
 
-#: .es5/scripts/lib/auth-errors.js:39
+#: app/scripts/lib/auth-errors.js:39
 msgid "Invalid timestamp in request signature"
 msgstr "Неверная временная марка в подписи запроса"
 
-#: .es5/scripts/lib/auth-errors.js:43
+#: app/scripts/lib/auth-errors.js:43
 msgid "Invalid nonce in request signature"
 msgstr "Неверный случайный код в подписи запроса"
 
-#: .es5/scripts/lib/auth-errors.js:47
+#: app/scripts/lib/auth-errors.js:47
 msgid "Account already exists"
 msgstr "Аккаунт уже существует"
 
-#: .es5/scripts/lib/auth-errors.js:51
+#: app/scripts/lib/auth-errors.js:51
 msgid "Unknown account"
 msgstr "Неизвестный аккаунт"
 
-#: .es5/scripts/lib/auth-errors.js:55
+#: app/scripts/lib/auth-errors.js:55
 msgid "Incorrect email case"
 msgstr "Неправильный регистр букв электронной почты"
 
-#: .es5/scripts/lib/auth-errors.js:59
+#: app/scripts/lib/auth-errors.js:59
 msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
 msgstr "Неверный пароль. Чтобы проверить, что вы ввели, нажмите и удерживайте кнопку Показать."
 
-#: .es5/scripts/lib/auth-errors.js:63
+#: app/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
 msgstr "Неподтвержденный аккаунт"
 
-#: .es5/scripts/lib/auth-errors.js:67
+#: app/scripts/lib/auth-errors.js:67
 msgid "Invalid verification code"
 msgstr "Неверный код подтверждения"
 
-#: .es5/scripts/lib/auth-errors.js:71
+#: app/scripts/lib/auth-errors.js:71
 msgid "Invalid JSON in request body"
 msgstr "Поврежденный JSON в теле запроса"
 
-#: .es5/scripts/lib/auth-errors.js:75
+#: app/scripts/lib/auth-errors.js:75
 msgid "Invalid parameter: %(param)s"
 msgstr "Некорректный параметр: %(param)s"
 
-#: .es5/scripts/lib/auth-errors.js:79
+#: app/scripts/lib/auth-errors.js:79
 msgid "Missing parameter: %(param)s"
 msgstr "Отсутствует параметр: %(param)s"
 
-#: .es5/scripts/lib/auth-errors.js:83
+#: app/scripts/lib/auth-errors.js:83
 msgid "Invalid request signature"
 msgstr "Неверная подпись запроса"
 
-#: .es5/scripts/lib/auth-errors.js:87
+#: app/scripts/lib/auth-errors.js:87
 msgid "Missing content-length header"
 msgstr "Заголовок content-length отсутствует"
 
-#: .es5/scripts/lib/auth-errors.js:91
+#: app/scripts/lib/auth-errors.js:91
 msgid "Request body too large"
 msgstr "Слишком большое тело запроса"
 
-#: .es5/scripts/lib/auth-errors.js:109
+#: app/scripts/lib/auth-errors.js:109
 msgid "The request was blocked for security reasons"
 msgstr "Запрос заблокирован по соображениям безопасности"
 
-#: .es5/scripts/lib/auth-errors.js:117 .es5/scripts/lib/auth-errors.js:318
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:318
 msgid "Invalid authorization code"
 msgstr "Неверный код авторизации"
 
-#: .es5/scripts/lib/auth-errors.js:121 .es5/scripts/lib/auth-errors.js:298
+#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/auth-errors.js:298
 msgid "Server busy, try again soon"
 msgstr "Сервер занят, подождите и повторите попытку"
 
-#: .es5/scripts/lib/auth-errors.js:125
+#: app/scripts/lib/auth-errors.js:125
 msgid "This endpoint is no longer supported"
 msgstr "Этот адрес запроса больше не поддерживается"
 
-#: .es5/scripts/lib/auth-errors.js:129 .es5/scripts/lib/marketing-email-errors.js:25 .es5/scripts/lib/marketing-email-errors.js:79 .es5/scripts/lib/oauth-errors.js:80
-#: .es5/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/auth-errors.js:129 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Система недоступна, подождите и повторите попытку"
 
-#: .es5/scripts/lib/auth-errors.js:133 .es5/scripts/lib/oauth-errors.js:104
+#: app/scripts/lib/auth-errors.js:133 app/scripts/lib/oauth-errors.js:104
 msgid "no message"
 msgstr "нет сообщения"
 
-#: .es5/scripts/lib/auth-errors.js:137
+#: app/scripts/lib/auth-errors.js:137
 msgid "Session expired. Sign in to continue."
 msgstr "Время сессии истекло. Войдите, чтобы продолжить."
 
-#: .es5/scripts/lib/auth-errors.js:141
+#: app/scripts/lib/auth-errors.js:141
 msgid "Cookies are still disabled"
 msgstr "Куки все ещё отключены"
 
-#: .es5/scripts/lib/auth-errors.js:145
+#: app/scripts/lib/auth-errors.js:145
 msgid "Passwords do not match"
 msgstr "Пароли не совпадают"
 
-#: .es5/scripts/lib/auth-errors.js:149
+#: app/scripts/lib/auth-errors.js:149
 msgid "Working…"
 msgstr "Работаю…"
 
-#: .es5/scripts/lib/auth-errors.js:153
+#: app/scripts/lib/auth-errors.js:153
 msgid "Could not get Privacy Notice"
 msgstr "Не удалось получить Уведомление о приватности"
 
-#: .es5/scripts/lib/auth-errors.js:157
+#: app/scripts/lib/auth-errors.js:157
 msgid "Could not get Terms of Service"
 msgstr "Не удалось получить Условия службы"
 
-#: .es5/scripts/lib/auth-errors.js:161
+#: app/scripts/lib/auth-errors.js:161
 msgid "Your new password must be different"
 msgstr "Ваш новый пароль должен быть другим"
 
-#: .es5/scripts/lib/auth-errors.js:165 .es5/scripts/templates/complete_reset_password.mustache:13 .es5/scripts/templates/settings/change_password.mustache:7
+#: app/scripts/lib/auth-errors.js:165 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "Должен быть не менее 8 символов"
 
-#: .es5/scripts/lib/auth-errors.js:169
+#: app/scripts/lib/auth-errors.js:169
 msgid "Valid password required"
 msgstr "Введите правильный пароль"
 
-#: .es5/scripts/lib/auth-errors.js:173 .es5/scripts/lib/auth-errors.js:211 .es5/scripts/lib/auth-errors.js:227
+#: app/scripts/lib/auth-errors.js:173 app/scripts/lib/auth-errors.js:211 app/scripts/lib/auth-errors.js:227
 msgid "Valid email required"
 msgstr "Введите действующий адрес электронной почты"
 
-#: .es5/scripts/lib/auth-errors.js:184
+#: app/scripts/lib/auth-errors.js:184
 msgid "A usable image was not found"
 msgstr "Нужное изображение не найдено"
 
-#: .es5/scripts/lib/auth-errors.js:188
+#: app/scripts/lib/auth-errors.js:188
 msgid "Could not initialize camera"
 msgstr "Не удалось инициализировать камеру"
 
-#: .es5/scripts/lib/auth-errors.js:192
+#: app/scripts/lib/auth-errors.js:192
 msgid "Valid URL required"
 msgstr "Введите корректный URL"
 
-#: .es5/scripts/lib/auth-errors.js:207
+#: app/scripts/lib/auth-errors.js:207
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Ваше письмо с подтверждением только что вернулось. Опечатка в электронной почте?"
 
-#: .es5/scripts/lib/auth-errors.js:215
+#: app/scripts/lib/auth-errors.js:215
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Введите корректный адрес электронной почты. firefox.com не предлагает службу электронной почты."
 
-#: .es5/scripts/lib/auth-errors.js:223
+#: app/scripts/lib/auth-errors.js:223
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Аккаунты Firefox могут быть помещены внутри IFRAME только на одобренных сайтах"
 
-#: .es5/scripts/lib/auth-errors.js:242 .es5/scripts/templates/complete_sign_up.mustache:9
+#: app/scripts/lib/auth-errors.js:242 app/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
 msgstr "Ссылка для подтверждения повреждена"
 
-#: .es5/scripts/lib/auth-errors.js:250
+#: app/scripts/lib/auth-errors.js:250
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Размеры изображение должны быть не менее 100x100px"
 
-#: .es5/scripts/lib/auth-errors.js:254
+#: app/scripts/lib/auth-errors.js:254
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Скоро будет доступна регистрация в Firefox для iOS"
 
-#: .es5/scripts/lib/auth-errors.js:265
+#: app/scripts/lib/auth-errors.js:265
 msgid "You must enter your age to sign up"
 msgstr "Вы должны ввести свой возраст, чтобы зарегистрироваться"
 
-#: .es5/scripts/lib/auth-errors.js:269
+#: app/scripts/lib/auth-errors.js:269
 msgid "No Gravatar found"
 msgstr "Gravatar не найден"
 
-#: .es5/scripts/lib/auth-errors.js:277
+#: app/scripts/lib/auth-errors.js:277
 msgid "Account no longer exists."
 msgstr "Аккаунт больше не существует."
 
-#: .es5/scripts/lib/auth-errors.js:281
+#: app/scripts/lib/auth-errors.js:281
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Свойство в токене возобновления некорректно: %(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:285
+#: app/scripts/lib/auth-errors.js:285
 msgid "Missing property in resume token: %(property)s"
 msgstr "Свойство в токене возобновления отсутствует: %(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:289
+#: app/scripts/lib/auth-errors.js:289
 msgid "Invalid data attribute: %(property)s"
 msgstr "Некорректный атрибут данных: %(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:293
+#: app/scripts/lib/auth-errors.js:293
 msgid "Missing data attribute: %(property)s"
 msgstr "Отсутствующий атрибут данных: %(property)s"
 
-#: .es5/scripts/lib/auth-errors.js:306 .es5/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/lib/auth-errors.js:306 app/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Эта ссылка подтверждения уже была использована, и может использоваться только один раз."
 
-#: .es5/scripts/lib/auth-errors.js:310
+#: app/scripts/lib/auth-errors.js:310
 msgid "This is a required field"
 msgstr "Это обязательное поле"
 
-#: .es5/scripts/lib/auth-errors.js:314
+#: app/scripts/lib/auth-errors.js:314
 msgid "Authorization code required"
 msgstr "Требуется ввести код авторизации"
 
-#: .es5/scripts/lib/auth-errors.js:322 .es5/scripts/templates/report_sign_in.mustache:1
+#: app/scripts/lib/auth-errors.js:322 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Ссылка повреждена"
 
-#: .es5/scripts/lib/config-loader.js:81
+#: app/scripts/lib/config-loader.js:87
 msgid "Missing configuration"
 msgstr "Отсутствует конфигурация"
 
-#: .es5/scripts/lib/config-loader.js:85
+#: app/scripts/lib/config-loader.js:91
 msgid "Invalid configuration"
 msgstr "Некорректная конфигурация"
 
-#: .es5/scripts/lib/mailcheck.js:25
+#: app/scripts/lib/mailcheck.js:26
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
 msgstr "Вы имели в виду <span tabindex=\"1\">%(escapedDomain)s</span>?"
 
-#: .es5/scripts/lib/oauth-errors.js:26
+#: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
 msgstr "Неизвестный клиент"
 
-#: .es5/scripts/lib/oauth-errors.js:30
+#: app/scripts/lib/oauth-errors.js:30
 msgid "Incorrect redirect_uri"
 msgstr "Некорректный redirect_uri"
 
-#: .es5/scripts/lib/oauth-errors.js:34
+#: app/scripts/lib/oauth-errors.js:34
 msgid "Invalid assertion"
 msgstr "Неверное утверждение"
 
-#: .es5/scripts/lib/oauth-errors.js:38
+#: app/scripts/lib/oauth-errors.js:38
 msgid "Unknown code"
 msgstr "Неизвестный код"
 
-#: .es5/scripts/lib/oauth-errors.js:42
+#: app/scripts/lib/oauth-errors.js:42
 msgid "Incorrect code"
 msgstr "Некорректный код"
 
-#: .es5/scripts/lib/oauth-errors.js:46
+#: app/scripts/lib/oauth-errors.js:46
 msgid "Expired code"
 msgstr "Истёкший код"
 
-#: .es5/scripts/lib/oauth-errors.js:54 .es5/scripts/lib/oauth-errors.js:76
+#: app/scripts/lib/oauth-errors.js:54 app/scripts/lib/oauth-errors.js:76
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "Недействительный параметр OAuth: %(param)s"
 
-#: .es5/scripts/lib/oauth-errors.js:62 .es5/scripts/lib/profile-errors.js:19
+#: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
 msgstr "Не авторизован"
 
-#: .es5/scripts/lib/oauth-errors.js:66
+#: app/scripts/lib/oauth-errors.js:66
 msgid "Forbidden"
 msgstr "Запрещено"
 
-#: .es5/scripts/lib/oauth-errors.js:88
+#: app/scripts/lib/oauth-errors.js:88
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Что-то пошло не так. Пожалуйста, закройте эту вкладку и попробуйте ещё раз."
 
-#: .es5/scripts/lib/oauth-errors.js:108
+#: app/scripts/lib/oauth-errors.js:108
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Отсутствует параметр OAuth: %(param)s"
 
-#: .es5/scripts/lib/profile-errors.js:23
+#: app/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
 msgstr "Некорректный токен"
 
-#: .es5/scripts/lib/profile-errors.js:27
+#: app/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Недопустимый параметр в теле запроса: %(param)s"
 
-#: .es5/scripts/lib/profile-errors.js:31
+#: app/scripts/lib/profile-errors.js:31
 msgid "Unsupported image provider"
 msgstr "Неподдерживаемый провайдер изображений"
 
-#: .es5/scripts/lib/profile-errors.js:35
+#: app/scripts/lib/profile-errors.js:35
 msgid "Image processing error"
 msgstr "Ошибка обработки изображения"
 
-#: .es5/scripts/lib/service-name.js:15
+#: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: .es5/scripts/lib/strings.js:24
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Продолжая, вы принимаете <a id=\"service-tos\" href=\"%(termsUri)s\">Условия службы</a> и <a id=\"service-pp\" href=\"%(privacyUri)s\">Уведомление о конфиденциальности</a> %(serviceName)s (%(serviceUri)s)."
+#: app/scripts/lib/strings.js:22
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Продолжая, вы принимаете <a id=\"service-tos\" href=\"%(termsUri)s\">Условия службы</a> и <a id=\"service-pp\" href=\"%(privacyUri)s\">Уведомление о конфиденциальности</a> %(serviceName)s "
+"(%(serviceUri)s)."
 
-#: .es5/scripts/lib/strings.js:31
+#: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Помощь</a>"
 
-#: .es5/scripts/lib/strings.js:35
+#: app/scripts/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Получать последние новости о Mozilla и Firefox."
 
-#: .es5/scripts/lib/strings.js:38
+#: app/scripts/lib/strings.js:37
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (приблизительно)"
 
-#: .es5/scripts/lib/strings.js:39
+#: app/scripts/lib/strings.js:38
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (приблизительно)"
 
-#: .es5/scripts/lib/strings.js:40
+#: app/scripts/lib/strings.js:39
 msgid "IP address: %(ip)s"
 msgstr "IP-адрес: %(ip)s"
 
-#: .es5/scripts/lib/strings.js:41
+#: app/scripts/lib/strings.js:40
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Для повышения безопасности, пожалуйста, подтвердите этот вход для начала синхронизации с этим устройством:"
 
-#: .es5/scripts/templates/400.mustache:1
+#: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
 msgstr "Неверный запрос"
 
-#: .es5/scripts/templates/500.mustache:1
+#: app/scripts/templates/500.mustache:1
 msgid "500 Error"
 msgstr "Ошибка 500"
 
-#: .es5/scripts/templates/500.mustache:2
+#: app/scripts/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
 msgstr "О Боже мой, что-то пошло не так. Мы уведомлены об этом и начнём работу над исправлением."
 
-#: .es5/scripts/templates/cannot_create_account.mustache:1
+#: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
 msgstr "Не удалось создать аккаунт"
 
-#: .es5/scripts/templates/cannot_create_account.mustache:2
+#: app/scripts/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr "Для создания Аккаунта Firefox ваш возраст должен соответствовать определенным требованиям."
 
-#: .es5/scripts/templates/cannot_create_account.mustache:4
+#: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
 msgstr "Узнать больше."
 
-#: .es5/scripts/templates/choose_what_to_sync.mustache:1 .es5/scripts/templates/sign_up.mustache:23
+#: app/scripts/templates/choose_what_to_sync.mustache:1 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
 msgstr "Выбрать что синхронизировать"
 
-#: .es5/scripts/templates/choose_what_to_sync.mustache:2
+#: app/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Open tabs"
 msgstr "Открытые вкладки"
 
-#: .es5/scripts/templates/choose_what_to_sync.mustache:4
+#: app/scripts/templates/choose_what_to_sync.mustache:4
 msgid "Bookmarks"
 msgstr "Закладки"
 
-#: .es5/scripts/templates/choose_what_to_sync.mustache:6
+#: app/scripts/templates/choose_what_to_sync.mustache:6
 msgid "Add-ons"
 msgstr "Дополнения"
 
-#: .es5/scripts/templates/choose_what_to_sync.mustache:8
+#: app/scripts/templates/choose_what_to_sync.mustache:8
 msgid "Passwords"
 msgstr "Пароли"
 
-#: .es5/scripts/templates/choose_what_to_sync.mustache:10
+#: app/scripts/templates/choose_what_to_sync.mustache:10
 msgid "History"
 msgstr "История"
 
-#: .es5/scripts/templates/choose_what_to_sync.mustache:12
+#: app/scripts/templates/choose_what_to_sync.mustache:12
 msgid "Preferences"
 msgstr "Настройки"
 
-#: .es5/scripts/templates/choose_what_to_sync.mustache:14
+#: app/scripts/templates/choose_what_to_sync.mustache:14
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
 msgstr "В настоящее время дополнения и настройки не синхронизируются на мобильных устройствах."
 
-#: .es5/scripts/templates/choose_what_to_sync.mustache:15
+#: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
 msgstr "Сохранить параметры"
 
-#: .es5/scripts/templates/choose_what_to_sync.mustache:16 .es5/scripts/templates/confirm.mustache:12 .es5/scripts/templates/pp.mustache:3 .es5/scripts/templates/tos.mustache:3
+#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Назад"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:1
+#: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
 msgstr "Срок жизни ссылки для восстановления пароля истёк"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:2
+#: app/scripts/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
 msgstr "Срок жизни ссылки, по которой вы щёлкаете, чтобы восстановить пароль, истёк."
 
-#: .es5/scripts/templates/complete_reset_password.mustache:3
+#: app/scripts/templates/complete_reset_password.mustache:3
 msgid "Click here to receive a new reset link"
 msgstr "Щёлкните здесь, чтобы получить новую ссылку для восстановления"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:5
+#: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
 msgstr "Ссылка для восстановления пароля повреждена"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:6 .es5/scripts/templates/complete_sign_up.mustache:10 .es5/scripts/templates/report_sign_in.mustache:2
+#: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:10 app/scripts/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
 msgstr "В ссылке, по которой вы щёлкнули, отсутствуют символы, и возможно она была повреждена вашим почтовым клиентом. Внимательно скопируйте адрес и попробуйте ещё раз."
 
-#: .es5/scripts/templates/complete_reset_password.mustache:8
+#: app/scripts/templates/complete_reset_password.mustache:8
 msgid "Enter new password"
 msgstr "Введите новый пароль"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:9
+#: app/scripts/templates/complete_reset_password.mustache:9
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
 msgstr "Как только вы отправите свой новый пароль, вы потеряете все данные синхронизации, не находящиеся на одном из ваших устройств."
 
-#: .es5/scripts/templates/complete_reset_password.mustache:10 .es5/scripts/templates/reset_password.mustache:3
+#: app/scripts/templates/complete_reset_password.mustache:10 app/scripts/templates/reset_password.mustache:3
 msgid "Learn how Sync works."
 msgstr "Узнайте, как работает синхронизация."
 
-#: .es5/scripts/templates/complete_reset_password.mustache:12 .es5/scripts/templates/settings/change_password.mustache:6
+#: app/scripts/templates/complete_reset_password.mustache:12 app/scripts/templates/settings/change_password.mustache:6
 msgid "New password"
 msgstr "Новый пароль"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:14
+#: app/scripts/templates/complete_reset_password.mustache:14
 msgid "Repeat password"
 msgstr "Повторите пароль"
 
-#: .es5/scripts/templates/complete_reset_password.mustache:15
+#: app/scripts/templates/complete_reset_password.mustache:15
 msgid "Submit new password"
 msgstr "Отправить новый пароль"
 
-#: .es5/scripts/templates/complete_sign_up.mustache:1
+#: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Sign-in already confirmed"
 msgstr "Вход уже подтверждён"
 
-#: .es5/scripts/templates/complete_sign_up.mustache:4
+#: app/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
 msgstr "Срок жизни ссылки для подтверждения истёк"
 
-#: .es5/scripts/templates/complete_sign_up.mustache:6
+#: app/scripts/templates/complete_sign_up.mustache:6
 msgid "Click here to receive a new verification link"
 msgstr "Щёлкните здесь, чтобы получить новую ссылку для подтверждения"
 
-#: .es5/scripts/templates/complete_sign_up.mustache:12
+#: app/scripts/templates/complete_sign_up.mustache:12
 msgid "Verification error"
 msgstr "Ошибка подтверждения"
 
-#: .es5/scripts/templates/confirm.mustache:1
+#: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
 msgstr "Подтвердите ваш аккаунт"
 
-#: .es5/scripts/templates/confirm.mustache:3
+#: app/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
 msgstr "Подтвердить этот вход"
 
-#: .es5/scripts/templates/confirm.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:2
+#: app/scripts/templates/confirm.mustache:5 app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email Sent"
 msgstr "Письмо отправлено"
 
-#: .es5/scripts/templates/confirm.mustache:6
+#: app/scripts/templates/confirm.mustache:6
 msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
 msgstr "Ссылка для подтверждения была отправлена&nbsp;на %(escapedEmail)s"
 
-#: .es5/scripts/templates/confirm.mustache:8
+#: app/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
 msgstr "Чтобы лучше защищать данные вашего Firefox, мы отправили ссылку подтверждения на %(email)s"
 
-#: .es5/scripts/templates/confirm.mustache:11 .es5/scripts/templates/confirm.mustache:13 .es5/scripts/templates/sign_in_unblock.mustache:6 .es5/scripts/templates/sign_in_unblock.mustache:9
+#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/sign_in_unblock.mustache:6 app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive? Resend"
 msgstr "Не пришло? Отправить снова"
 
-#: .es5/scripts/templates/confirm_reset_password.mustache:1
+#: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
 msgstr "Письмо о сбросе пароля отправлено"
 
-#: .es5/scripts/templates/confirm_reset_password.mustache:3
+#: app/scripts/templates/confirm_reset_password.mustache:3
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
 msgstr "Щёлкните по ссылке, которую мы отправили вам на %(email)s в течение часа, чтобы создать новый пароль."
 
-#: .es5/scripts/templates/confirm_reset_password.mustache:5 .es5/scripts/templates/confirm_reset_password.mustache:7
+#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7
 msgid "Remember password? Sign in"
 msgstr "Помните пароль? Войти"
 
-#: .es5/scripts/templates/confirm_reset_password.mustache:9
+#: app/scripts/templates/confirm_reset_password.mustache:9
 msgid "Didn’t arrive? Resend"
 msgstr "Не пришло? Отправить снова"
 
-#: .es5/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required."
-msgstr "Требуется поддержка cookies и локального хранилища."
+#: app/scripts/templates/connect_another_device.mustache:1
+msgid "Connect another device"
+msgstr ""
 
-#: .es5/scripts/templates/cookies_disabled.mustache:2
-msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Пожалуйста, включите cookies и локальное хранилище в вашем браузере для доступа к Firefox аккаунтам. Если вы включите их, браузер сможет запоминать ваши сессии."
+#: app/scripts/templates/connect_another_device.mustache:2
+msgid "This device is connected"
+msgstr ""
 
-#: .es5/scripts/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "Узнать больше"
+#: app/scripts/templates/connect_another_device.mustache:4
+msgid "Email verified"
+msgstr ""
 
-#: .es5/scripts/templates/cookies_disabled.mustache:4
-msgid "Try again"
-msgstr "Попробовать снова"
-
-#: .es5/scripts/templates/force_auth.mustache:1
-msgid "Sign in to continue"
-msgstr "Войдите, чтобы продолжить"
-
-#: .es5/scripts/templates/force_auth.mustache:3 .es5/scripts/templates/sign_in.mustache:8 .es5/scripts/templates/sign_in.mustache:18 .es5/scripts/templates/sign_up.mustache:15
-#: .es5/scripts/templates/settings/change_password.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:4
-msgid "Password"
-msgstr "Пароль"
-
-#: .es5/scripts/templates/force_auth.mustache:5 .es5/scripts/templates/sign_in.mustache:1 .es5/scripts/templates/sign_in.mustache:4 .es5/scripts/templates/sign_in.mustache:9
-#: .es5/scripts/templates/sign_in.mustache:13 .es5/scripts/templates/sign_in.mustache:20
-msgid "Sign in"
-msgstr "Войти"
-
-#: .es5/scripts/templates/force_auth.mustache:6 .es5/scripts/templates/sign_in.mustache:10 .es5/scripts/templates/sign_in.mustache:21 .es5/scripts/templates/settings/change_password.mustache:5
-msgid "Forgot password?"
-msgstr "Забыли пароль?"
-
-#: .es5/scripts/templates/force_auth.mustache:7 .es5/scripts/templates/sign_in.mustache:23 .es5/scripts/templates/sign_up.mustache:18
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Продолжая, вы принимаете <a id=\"fxa-tos\" href=\"/legal/terms\">Условия службы</a> и <a id=\"fxa-pp\" href=\"/legal/privacy\">Уведомление о конфиденциальности</a> облачных сервисов Firefox."
-
-#: .es5/scripts/templates/legal.mustache:1 .es5/scripts/templates/pp.mustache:1 .es5/scripts/templates/tos.mustache:1
-msgid "Firefox cloud services"
-msgstr "Облачные сервисы Firefox"
-
-#: .es5/scripts/templates/legal.mustache:2
-msgid "Legal"
-msgstr "Право"
-
-#: .es5/scripts/templates/legal.mustache:3 .es5/scripts/templates/settings.mustache:5 .es5/scripts/templates/tos.mustache:2
-msgid "Terms of Service"
-msgstr "Условия службы"
-
-#: .es5/scripts/templates/legal.mustache:4 .es5/scripts/templates/pp.mustache:2 .es5/scripts/templates/settings.mustache:6
-msgid "Privacy Notice"
-msgstr "Уведомление о конфиденциальности"
-
-#: .es5/scripts/templates/marketing_snippet.mustache:1 .es5/scripts/templates/marketing_snippet.mustache:5 .es5/scripts/templates/marketing_snippet.mustache:9
-msgid "Get the full Sync experience."
-msgstr "Используйте синхронизацию по полной."
-
-#: .es5/scripts/templates/marketing_snippet.mustache:2 .es5/scripts/templates/marketing_snippet.mustache:3 .es5/scripts/templates/marketing_snippet.mustache:11
-msgid "Download Firefox for iOS!"
-msgstr "Загрузите Firefox для iOS!"
-
-#: .es5/scripts/templates/marketing_snippet.mustache:6 .es5/scripts/templates/marketing_snippet.mustache:7 .es5/scripts/templates/marketing_snippet.mustache:12
-msgid "Download Firefox for Android."
-msgstr "Загрузите Firefox для Android."
-
-#: .es5/scripts/templates/marketing_snippet.mustache:10
-msgid "Download Firefox for mobile devices."
-msgstr "Загрузите Firefox для мобильных устройств."
-
-#: .es5/scripts/templates/permissions.mustache:1 .es5/scripts/templates/settings/gravatar_permissions.mustache:1
-msgid "Request for permission"
-msgstr "Запрос разрешения"
-
-#: .es5/scripts/templates/permissions.mustache:2 .es5/scripts/templates/settings/gravatar_permissions.mustache:2
-msgid "%(serviceName)s wants the following information from your account:"
-msgstr "%(serviceName)s хочет получить следующую информацию из вашего аккаунта:"
-
-#: .es5/scripts/templates/permissions.mustache:3 .es5/scripts/templates/settings/gravatar_permissions.mustache:4
-msgid "Accept"
-msgstr "Принять"
-
-#: .es5/scripts/templates/permissions.mustache:4 .es5/scripts/templates/settings/avatar_camera.mustache:2 .es5/scripts/templates/settings/avatar_crop.mustache:3
-#: .es5/scripts/templates/settings/avatar_gravatar.mustache:3 .es5/scripts/templates/settings/change_password.mustache:9 .es5/scripts/templates/settings/client_disconnect.mustache:10
-#: .es5/scripts/templates/settings/communication_preferences.mustache:5 .es5/scripts/templates/settings/communication_preferences.mustache:13 .es5/scripts/templates/settings/delete_account.mustache:6
-#: .es5/scripts/templates/settings/display_name.mustache:6 .es5/scripts/templates/settings/gravatar_permissions.mustache:5
-msgid "Cancel"
-msgstr "Отмена"
-
-#: .es5/scripts/templates/ready.mustache:1
+#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1
 msgid "Success"
 msgstr "Сделано"
 
-#: .es5/scripts/templates/ready.mustache:4
+#: app/scripts/templates/connect_another_device.mustache:6
+msgid "Sign in to this Firefox to complete set-up"
+msgstr ""
+
+#: app/scripts/templates/connect_another_device.mustache:7
+msgid "Sign in &rarr;"
+msgstr ""
+
+#: app/scripts/templates/connect_another_device.mustache:9
+msgid "Open settings and select Sign in to Firefox to complete set-up"
+msgstr ""
+
+#: app/scripts/templates/connect_another_device.mustache:11
+msgid "Sign in to Firefox for iOS to complete set-up"
+msgstr ""
+
+#: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:17
+msgid "Sign in to Firefox on another device to complete set-up"
+msgstr ""
+
+#: app/scripts/templates/connect_another_device.mustache:15
+msgid "Sign in to Firefox for Android to complete set-up"
+msgstr ""
+
+#: app/scripts/templates/connect_another_device.mustache:19
+msgid "Why is this required?"
+msgstr ""
+
+#: app/scripts/templates/cookies_disabled.mustache:1
+msgid "Cookies and local storage are required."
+msgstr "Требуется поддержка cookies и локального хранилища."
+
+#: app/scripts/templates/cookies_disabled.mustache:2
+msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
+msgstr "Пожалуйста, включите cookies и локальное хранилище в вашем браузере для доступа к Firefox аккаунтам. Если вы включите их, браузер сможет запоминать ваши сессии."
+
+#: app/scripts/templates/cookies_disabled.mustache:3
+msgid "Learn more"
+msgstr "Узнать больше"
+
+#: app/scripts/templates/cookies_disabled.mustache:4
+msgid "Try again"
+msgstr "Попробовать снова"
+
+#: app/scripts/templates/force_auth.mustache:1
+msgid "Sign in to continue"
+msgstr "Войдите, чтобы продолжить"
+
+#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/settings/change_password.mustache:1 app/scripts/templates/settings/delete_account.mustache:4
+msgid "Password"
+msgstr "Пароль"
+
+#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in.mustache:4 app/scripts/templates/sign_in.mustache:11
+#: app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_in.mustache:22
+msgid "Sign in"
+msgstr "Войти"
+
+#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:12 app/scripts/templates/sign_in.mustache:23 app/scripts/templates/settings/change_password.mustache:5
+msgid "Forgot password?"
+msgstr "Забыли пароль?"
+
+#: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:25 app/scripts/templates/sign_up.mustache:18
+msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
+msgstr "Продолжая, вы принимаете <a id=\"fxa-tos\" href=\"/legal/terms\">Условия службы</a> и <a id=\"fxa-pp\" href=\"/legal/privacy\">Уведомление о конфиденциальности</a> облачных сервисов Firefox."
+
+#: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
+msgid "Firefox cloud services"
+msgstr "Облачные сервисы Firefox"
+
+#: app/scripts/templates/legal.mustache:2
+msgid "Legal"
+msgstr "Право"
+
+#: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:5 app/scripts/templates/tos.mustache:2
+msgid "Terms of Service"
+msgstr "Условия службы"
+
+#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:6
+msgid "Privacy Notice"
+msgstr "Уведомление о конфиденциальности"
+
+#: app/scripts/templates/marketing_snippet.mustache:1 app/scripts/templates/marketing_snippet.mustache:5 app/scripts/templates/marketing_snippet.mustache:9
+msgid "Get the full Sync experience."
+msgstr "Используйте синхронизацию по полной."
+
+#: app/scripts/templates/marketing_snippet.mustache:2 app/scripts/templates/marketing_snippet.mustache:3 app/scripts/templates/marketing_snippet.mustache:11
+#: app/scripts/templates/marketing_snippet.mustache:15 app/scripts/templates/marketing_snippet.mustache:19
+msgid "Download Firefox for iOS!"
+msgstr "Загрузите Firefox для iOS!"
+
+#: app/scripts/templates/marketing_snippet.mustache:6 app/scripts/templates/marketing_snippet.mustache:7 app/scripts/templates/marketing_snippet.mustache:12
+#: app/scripts/templates/marketing_snippet.mustache:17 app/scripts/templates/marketing_snippet.mustache:20
+msgid "Download Firefox for Android."
+msgstr "Загрузите Firefox для Android."
+
+#: app/scripts/templates/marketing_snippet.mustache:10
+msgid "Download Firefox for mobile devices."
+msgstr "Загрузите Firefox для мобильных устройств."
+
+#: app/scripts/templates/permissions.mustache:1 app/scripts/templates/settings/gravatar_permissions.mustache:1
+msgid "Request for permission"
+msgstr "Запрос разрешения"
+
+#: app/scripts/templates/permissions.mustache:2 app/scripts/templates/settings/gravatar_permissions.mustache:2
+msgid "%(serviceName)s wants the following information from your account:"
+msgstr "%(serviceName)s хочет получить следующую информацию из вашего аккаунта:"
+
+#: app/scripts/templates/permissions.mustache:3 app/scripts/templates/settings/gravatar_permissions.mustache:4
+msgid "Accept"
+msgstr "Принять"
+
+#: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
+#: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:10
+#: app/scripts/templates/settings/communication_preferences.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6
+#: app/scripts/templates/settings/display_name.mustache:6 app/scripts/templates/settings/gravatar_permissions.mustache:5
+msgid "Cancel"
+msgstr "Отмена"
+
+#: app/scripts/templates/ready.mustache:4
 msgid "Proceed"
 msgstr "Продолжить"
 
-#: .es5/scripts/templates/ready.mustache:7
+#: app/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
 msgstr "Ваш аккаунт готов!"
 
-#: .es5/scripts/templates/report_sign_in.mustache:4
+#: app/scripts/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
 msgstr "Сообщить о несанкционированном входе?"
 
-#: .es5/scripts/templates/report_sign_in.mustache:5
+#: app/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
 msgstr "Вы получили письмо о попытке доступа к вашему аккаунту. Хотите ли вы сообщить об этой подозрительной активности?"
 
-#: .es5/scripts/templates/report_sign_in.mustache:6
+#: app/scripts/templates/report_sign_in.mustache:6
 msgid "Report activity"
 msgstr "Сообщить о подозрительной активности"
 
-#: .es5/scripts/templates/report_sign_in.mustache:7 .es5/scripts/templates/sign_in_unblock.mustache:7
+#: app/scripts/templates/report_sign_in.mustache:7 app/scripts/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
 msgstr "Почему это происходит?"
 
-#: .es5/scripts/templates/reset_password.mustache:1
+#: app/scripts/templates/reset_password.mustache:1
 msgid "Forgot password"
 msgstr "Забыли пароль"
 
-#: .es5/scripts/templates/reset_password.mustache:2
+#: app/scripts/templates/reset_password.mustache:2
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "Когда вы сбросите свой пароль, вы потеряете все данные синхронизации, не находящиеся на одном из ваших устройств."
 
-#: .es5/scripts/templates/reset_password.mustache:5 .es5/scripts/templates/sign_in.mustache:17 .es5/scripts/templates/sign_up.mustache:13
-#: .es5/scripts/templates/settings/gravatar_permissions.mustache:3
+#: app/scripts/templates/reset_password.mustache:5 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "Электронная почта"
 
-#: .es5/scripts/templates/reset_password.mustache:7 .es5/scripts/templates/reset_password.mustache:9
+#: app/scripts/templates/reset_password.mustache:7 app/scripts/templates/reset_password.mustache:9
 msgid "Remember password? Sign in."
 msgstr "Помните пароль? Войти."
 
-#: .es5/scripts/templates/settings.mustache:1
+#: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
 msgstr "Аккаунты Firefox"
 
-#: .es5/scripts/templates/settings.mustache:2
+#: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
 msgstr "Выйти"
 
-#: .es5/scripts/templates/sign_in.mustache:2 .es5/scripts/templates/sign_up.mustache:2
+#: app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Продолжить в %(serviceName)s"
 
-#: .es5/scripts/templates/sign_in.mustache:6
+#: app/scripts/templates/sign_in.mustache:6
+msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
+msgstr ""
+
+#: app/scripts/templates/sign_in.mustache:8
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr "Мигрируйте свои данные синхронизации, войдя в свой Аккаунт&nbsp;Firefox"
 
-#: .es5/scripts/templates/sign_in.mustache:11 .es5/scripts/templates/sign_in.mustache:14
+#: app/scripts/templates/sign_in.mustache:13 app/scripts/templates/sign_in.mustache:16
 msgid "Use a different account"
 msgstr "Использовать другой аккаунт"
 
-#: .es5/scripts/templates/sign_in.mustache:22
+#: app/scripts/templates/sign_in.mustache:24
 msgid "Create an account"
 msgstr "Создать аккаунт"
 
-#: .es5/scripts/templates/sign_in_reported.mustache:1
+#: app/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
 msgstr "Спасибо за вашу бдительность"
 
-#: .es5/scripts/templates/sign_in_reported.mustache:2
+#: app/scripts/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
 msgstr "Наша команда оповещена. Ваши сообщения помогают нам бороться со злоумышленниками."
 
-#: .es5/scripts/templates/sign_in_unblock.mustache:1 .es5/scripts/templates/sign_in_unblock.mustache:2
+#: app/scripts/templates/sign_in_unblock.mustache:1 app/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
 msgstr "Разрешить этот вход"
 
-#: .es5/scripts/templates/sign_in_unblock.mustache:3
+#: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
 msgstr "Чтобы лучше защитить данные вашего Firefox, мы отправили на вашу электронную почту %(email)s код авторизации."
 
-#: .es5/scripts/templates/sign_in_unblock.mustache:4
+#: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
 msgstr "Введите код авторизации"
 
-#: .es5/scripts/templates/sign_in_unblock.mustache:5
+#: app/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"
 msgstr "Продолжить"
 
-#: .es5/scripts/templates/sign_up.mustache:1 .es5/scripts/templates/sign_up.mustache:4
+#: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
 msgstr "Создать Аккаунт Firefox"
 
-#: .es5/scripts/templates/sign_up.mustache:6
+#: app/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
 msgstr "Ищете Синхронизацию Firefox? <a href=\"%(escapedSyncSuggestionUrl)s\">Начните здесь</a>"
 
-#: .es5/scripts/templates/sign_up.mustache:8
+#: app/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr "Мигрируйте свои данные синхронизации, создав новый Аккаунт&nbsp;Firefox"
 
-#: .es5/scripts/templates/sign_up.mustache:10
-msgid "Have an account with a different email? <a href=\"%(escapedSignInUri)s\">Sign in</a>"
-msgstr "У вас есть аккаунт с другим адресом эл. почты? <a href=\"%(escapedSignInUri)s\">Войти</a>"
+#: app/scripts/templates/sign_up.mustache:10
+msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
+msgstr ""
 
-#: .es5/scripts/templates/sign_up.mustache:19 .es5/scripts/templates/settings/communication_preferences.mustache:7
+#: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
 msgstr "Получать ежемесячную новостную рассылку о Firefox."
 
-#: .es5/scripts/templates/sign_up.mustache:21
+#: app/scripts/templates/sign_up.mustache:21
 msgid "Create account"
 msgstr "Создать аккаунт"
 
-#: .es5/scripts/templates/sign_up.mustache:26
+#: app/scripts/templates/sign_up.mustache:26
 msgid "Have an account? Sign in"
 msgstr "Уже есть аккаунт? Войти"
 
-#: .es5/scripts/templates/settings/avatar.mustache:2 .es5/scripts/templates/settings/change_password.mustache:2 .es5/scripts/templates/settings/communication_preferences.mustache:4
-#: .es5/scripts/templates/settings/display_name.mustache:2
+#: app/scripts/templates/why_connect_another_device.mustache:1
+msgid ""
+"Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+"Firefox for desktop will appear."
+msgstr ""
+
+#: app/scripts/templates/why_connect_another_device.mustache:2
+msgid ""
+"Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
+"information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+msgstr ""
+
+#: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
+#: app/scripts/templates/settings/display_name.mustache:2
 msgid "Change…"
 msgstr "Изменить…"
 
-#: .es5/scripts/templates/settings/avatar.mustache:4
+#: app/scripts/templates/settings/avatar.mustache:4
 msgid "Add…"
 msgstr "Добавить…"
 
-#: .es5/scripts/templates/settings/avatar_camera.mustache:1
+#: app/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
 msgstr "Сделать фото"
 
-#: .es5/scripts/templates/settings/avatar_change.mustache:1
+#: app/scripts/templates/settings/avatar_change.mustache:1
 msgid "Upload"
 msgstr "Загрузить"
 
-#: .es5/scripts/templates/settings/avatar_change.mustache:2
+#: app/scripts/templates/settings/avatar_change.mustache:2
 msgid "Camera"
 msgstr "Камера"
 
-#: .es5/scripts/templates/settings/avatar_change.mustache:3
+#: app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Gravatar"
 msgstr "Gravatar"
 
-#: .es5/scripts/templates/settings/avatar_change.mustache:4
+#: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Clear"
 msgstr "Очистить"
 
-#: .es5/scripts/templates/settings/avatar_change.mustache:6 .es5/scripts/templates/settings/clients.mustache:17
+#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:20
 msgid "Done"
 msgstr "Готово"
 
-#: .es5/scripts/templates/settings/avatar_crop.mustache:1
+#: app/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
 msgstr "Переместите и поверните свое фото, если это необходимо"
 
-#: .es5/scripts/templates/settings/avatar_crop.mustache:2 .es5/scripts/templates/settings/change_password.mustache:8 .es5/scripts/templates/settings/display_name.mustache:5
+#: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:5
 msgid "Change"
 msgstr "Изменить"
 
-#: .es5/scripts/templates/settings/avatar_gravatar.mustache:2
+#: app/scripts/templates/settings/avatar_gravatar.mustache:2
 msgid "Save"
 msgstr "Сохранить"
 
-#: .es5/scripts/templates/settings/change_password.mustache:3
+#: app/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
 msgstr "После того, как вы закончите, используйте новый пароль для входа на всех ваших устройствах."
 
-#: .es5/scripts/templates/settings/change_password.mustache:4
+#: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
 msgstr "Старый пароль"
 
-#: .es5/scripts/templates/settings/client_disconnect.mustache:1
+#: app/scripts/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
 msgstr "Отсоединиться от Синхронизации?"
 
-#: .es5/scripts/templates/settings/client_disconnect.mustache:2
+#: app/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
 msgstr "Ваши данные веб-сёрфинга останутся на %(deviceName)s, но он больше не будет синхронизироваться с вашим аккаунтом."
 
-#: .es5/scripts/templates/settings/client_disconnect.mustache:3
+#: app/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Reason for disconnecting…"
 msgstr "Причина для отсоединения…"
 
-#: .es5/scripts/templates/settings/client_disconnect.mustache:4
+#: app/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
 msgstr "Подозрительное устройство"
 
-#: .es5/scripts/templates/settings/client_disconnect.mustache:5
+#: app/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen device"
 msgstr "Потерянное или украденное устройство"
 
-#: .es5/scripts/templates/settings/client_disconnect.mustache:6
+#: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced device"
 msgstr "Старое или заменённое устройство"
 
-#: .es5/scripts/templates/settings/client_disconnect.mustache:7
+#: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Duplicate device"
 msgstr "Дубликат устройства"
 
-#: .es5/scripts/templates/settings/client_disconnect.mustache:8
+#: app/scripts/templates/settings/client_disconnect.mustache:8
 msgid "Rather not say"
 msgstr "Предпочитаю не говорить"
 
-#: .es5/scripts/templates/settings/client_disconnect.mustache:9 .es5/scripts/templates/settings/clients.mustache:8
+#: app/scripts/templates/settings/client_disconnect.mustache:9 app/scripts/templates/settings/clients.mustache:9
 msgid "Disconnect"
 msgstr "Отсоединить"
 
-#: .es5/scripts/templates/settings/client_disconnect.mustache:11
+#: app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Disconnection Successful"
 msgstr "Отсоединение прошло успешно"
 
-#: .es5/scripts/templates/settings/clients.mustache:2
+#: app/scripts/templates/settings/clients.mustache:2
 msgid "Devices & apps"
 msgstr "Устройства и приложения"
 
-#: .es5/scripts/templates/settings/clients.mustache:3 .es5/scripts/templates/partial/show-password.mustache:1
+#: app/scripts/templates/settings/clients.mustache:3 app/scripts/templates/partial/show-password.mustache:1
 msgid "Show"
 msgstr "Показать"
 
-#: .es5/scripts/templates/settings/clients.mustache:4
+#: app/scripts/templates/settings/clients.mustache:5
 msgid "current device"
 msgstr "текущее устройство"
 
-#: .es5/scripts/templates/settings/clients.mustache:6
+#: app/scripts/templates/settings/clients.mustache:7
 msgid "Disconnect…"
 msgstr "Отсоединить…"
 
-#: .es5/scripts/templates/settings/clients.mustache:10
+#: app/scripts/templates/settings/clients.mustache:11
 msgid "Firefox for iOS"
 msgstr "Firefox для iOS"
 
-#: .es5/scripts/templates/settings/clients.mustache:11 .es5/scripts/templates/settings/clients.mustache:13
+#: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15
+msgid "none connected"
+msgstr ""
+
+#: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Get app"
 msgstr "Загрузить приложение"
 
-#: .es5/scripts/templates/settings/clients.mustache:12
+#: app/scripts/templates/settings/clients.mustache:14
 msgid "Firefox for Android"
 msgstr "Firefox для Android"
 
-#: .es5/scripts/templates/settings/clients.mustache:15
+#: app/scripts/templates/settings/clients.mustache:18
 msgid "Missing or duplicate items?"
 msgstr "Отсутствующие или повторяющиеся элементы?"
 
-#: .es5/scripts/templates/settings/clients.mustache:16
+#: app/scripts/templates/settings/clients.mustache:19
 msgid "Refresh"
 msgstr "Обновить"
 
-#: .es5/scripts/templates/settings/communication_preferences.mustache:3
+#: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
 msgstr "Настройки коммуникации"
 
-#: .es5/scripts/templates/settings/communication_preferences.mustache:8
+#: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
 msgstr "Настройки эл. почты"
 
-#: .es5/scripts/templates/settings/communication_preferences.mustache:10
+#: app/scripts/templates/settings/communication_preferences.mustache:10
 msgid "Unsubscribe"
 msgstr "Отписаться"
 
-#: .es5/scripts/templates/settings/communication_preferences.mustache:12
+#: app/scripts/templates/settings/communication_preferences.mustache:12
 msgid "Subscribe"
 msgstr "Подписаться"
 
-#: .es5/scripts/templates/settings/delete_account.mustache:1 .es5/scripts/templates/settings/delete_account.mustache:5
+#: app/scripts/templates/settings/delete_account.mustache:1 app/scripts/templates/settings/delete_account.mustache:5
 msgid "Delete account"
 msgstr "Удалить аккаунт"
 
-#: .es5/scripts/templates/settings/delete_account.mustache:2
+#: app/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete…"
 msgstr "Удалить…"
 
-#: .es5/scripts/templates/settings/delete_account.mustache:3
+#: app/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
 msgstr "Вы уверены что хотите удалить свой аккаунт? Это действие нельзя отменить."
 
-#: .es5/scripts/templates/settings/display_name.mustache:3
+#: app/scripts/templates/settings/display_name.mustache:3
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Выберите имя, которое вы хотели бы видеть в Firefox и при управлении своим аккаунтом."
 
-#: .es5/scripts/templates/partial/coppa-age-input.mustache:1
+#: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
 msgstr "Сколько вам лет?"
 
-#: .es5/scripts/templates/openid/start.mustache:1
+#: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
 msgstr "Войти в Синхронизацию"
 
-#: .es5/scripts/templates/openid/start.mustache:2
+#: app/scripts/templates/openid/start.mustache:2
 msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
 msgstr "Выберите аккаунт, который вы хотите использовать, чтобы синхронизировать свои вкладки, закладки, пароли и другое."
 
-#: .es5/scripts/templates/openid/start.mustache:3
+#: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
 msgstr "Использовать OpenID"
 
-#: .es5/scripts/templates/openid/start.mustache:4
+#: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Использовать Аккаунт Firefox"
+
+#~ msgid "Firefox Sync will begin momentarily"
+#~ msgstr "Через несколько мгновений начнётся Синхронизация Firefox"
+
+#~ msgid "Have an account with a different email? <a href=\"%(escapedSignInUri)s\">Sign in</a>"
+#~ msgstr "У вас есть аккаунт с другим адресом эл. почты? <a href=\"%(escapedSignInUri)s\">Войти</a>"
 
 #~ msgid "Devices"
 #~ msgstr "Устройства"
@@ -1069,16 +1143,20 @@ msgstr "Использовать Аккаунт Firefox"
 #~ msgid "Sync preferences"
 #~ msgstr "Настройки синхронизации"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr "Ищете синхронизацию Firefox? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Начните здесь</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr ""
+#~ "Ищете синхронизацию Firefox? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Начните здесь</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "У вас аккаунт с другим адресом эл. почты? <a href=\"%(signinUri)s\">Войти</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "Firefox доступен на <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> и <a href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox доступен на <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> и <a href=\"%(linkLinux)s"
+#~ "\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Последняя активность: %(translatedTimeAgo)s"
@@ -1190,8 +1268,8 @@ msgstr "Использовать Аккаунт Firefox"
 
 #~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
 #~ msgstr ""
-#~ "По соображениям безопасности ваш аккаунт был поставлен на блокировку. Для выполнения действий на уровне аккаунта, пожалуйста, повторно подтвердите свой аккаунт, щёлкнув по ссылке для подтверждения, "
-#~ "отправленной на %(email)s"
+#~ "По соображениям безопасности ваш аккаунт был поставлен на блокировку. Для выполнения действий на уровне аккаунта, пожалуйста, повторно подтвердите свой аккаунт, щёлкнув по ссылке для "
+#~ "подтверждения, отправленной на %(email)s"
 
 #~ msgid "Signup has been disabled"
 #~ msgstr "Регистрация была отключена"
@@ -1257,7 +1335,8 @@ msgstr "Использовать Аккаунт Firefox"
 #~ msgstr "Вы уверены, что хотите сбросить пароль своего аккаунта?"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
-#~ msgstr "Сброс пароля приведёт к стиранию данных вашего веб-сёрфинга с наших серверов. Все данные на ваших устройствах останутся нетронутыми. Начните процесс сброса, введя ниже свой адрес эл. почты."
+#~ msgstr ""
+#~ "Сброс пароля приведёт к стиранию данных вашего веб-сёрфинга с наших серверов. Все данные на ваших устройствах останутся нетронутыми. Начните процесс сброса, введя ниже свой адрес эл. почты."
 
 #~ msgid "Begin reset"
 #~ msgstr "Начать сброс"
@@ -1457,8 +1536,8 @@ msgstr "Использовать Аккаунт Firefox"
 
 #~ msgid "For security reasons, resetting your password will erase your Sync data from our servers. A new Sync backup will be created from your local browsing data."
 #~ msgstr ""
-#~ "По соображениям безопасности, восстановление вашего пароля сотрёт ваши данные Синхронизации с наших серверов. Новая резервная копия Синхронизации будет создана на основе ваших локальных данных веб-"
-#~ "сёрфинга."
+#~ "По соображениям безопасности, восстановление вашего пароля сотрёт ваши данные Синхронизации с наших серверов. Новая резервная копия Синхронизации будет создана на основе ваших локальных данных "
+#~ "веб-сёрфинга."
 
 #~ msgid "You are signed in as"
 #~ msgstr "Вы вошли как"
@@ -1466,8 +1545,12 @@ msgstr "Использовать Аккаунт Firefox"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Уже есть аккаунт? Войти."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-#~ msgstr "Продолжив, я принимаю <a id=\"service-tos\" href=\"%(termsUri)s\"> Условия Службы</a> и<a id=\"service-pp\" href=\"%(privacyUri)s\">Уведомление о приватности</a> от %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
+#~ msgstr ""
+#~ "Продолжив, я принимаю <a id=\"service-tos\" href=\"%(termsUri)s\"> Условия Службы</a> и<a id=\"service-pp\" href=\"%(privacyUri)s\">Уведомление о приватности</a> от %(serviceName)s "
+#~ "(%(serviceUri)s)."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr "Продолжая, я согласен с <a id=\"fxa-tos\" href=\"/legal/terms\">Условиями Службы</a> и <a id=\"fxa-pp\" href=\"/legal/privacy\">Уведомлением о приватности</a> Интернет-сервисов Firefox."

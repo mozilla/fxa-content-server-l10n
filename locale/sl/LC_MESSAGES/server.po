@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-28 17:12+0000\n"
+"POT-Creation-Date: 2016-12-23 17:06+0000\n"
 "PO-Revision-Date: 2016-12-16 22:23+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1426152018.0\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:580
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:670
 msgid "Still there?"
 msgstr "Še vedno tu?"
 
@@ -28,13 +28,13 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Uspešno ste povezali svojo prvo napravo v Firefox Račun. Sedaj se lahko prijavite v Sync z drugih naprav, vključno s Firefoxom za <a href='%(androidUrl)s'>Android</a> in <a "
-"href='%(iosUrl)s'>iOS</a>."
+"Uspešno ste povezali svojo prvo napravo v Firefox Račun. Sedaj se lahko prijavite v Sync z drugih naprav, vključno s Firefoxom za <a href='%(androidUrl)s'>Android</a> in <a href='%(iosUrl)s'>iOS</"
+"a>."
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
 "Uspešno ste povezali svojo prvo napravo s Firefox Računom. Da bi Sync izkoristili v polni meri, se povežite s <a href='%(androidUrl)s'>Firefoxom za Android</a> ali <a href='%(iosUrl)s'>Firefoxom za "
 "iOS</a>."
@@ -49,16 +49,17 @@ msgstr "Prijavite se za sinhronizacijo"
 
 #: templates/new_device_login.html:1 templates/password_changed.html:1 templates/password_reset.html:1 templates/password_reset_required.html:1 templates/post_verify.html:1 templates/recovery.html:1
 #: templates/suspicious_location.html:1 templates/unblock_code.html:1 templates/verification_reminder_first.html:1 templates/verification_reminder_second.html:1 templates/verify.html:1
-#: templates/verify_login.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
-#: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
+#: templates/verify_login.html:1 templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
+#: server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Računi"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:488
+#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:564
 msgid "New sign-in to Firefox"
 msgstr "Nova prijava v Firefox"
 
-#: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/unblock_code.html:3 templates/unblock_code.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3
+#: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/password_changed.html:4 templates/password_changed.txt:3 templates/recovery.html:4 templates/recovery.txt:3
+#: templates/unblock_code.html:3 templates/unblock_code.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3 templates/verify_sync.html:4 templates/verify_sync.txt:3
 msgid "IP address: %(ip)s"
 msgstr "IP-naslov: %(ip)s"
 
@@ -66,16 +67,16 @@ msgstr "IP-naslov: %(ip)s"
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr "To je samodejno sporočilo. Če niste sprožili tega dejanja, <a %(passwordChangeLinkAttributes)s>spremenite geslo</a>."
 
-#: templates/new_device_login.html:5 templates/password_changed.html:5 templates/password_reset.html:5 templates/post_verify.html:6 templates/recovery.html:6
-#: templates/verification_reminder_first.html:6 templates/verification_reminder_second.html:6 templates/verify.html:6
+#: templates/new_device_login.html:5 templates/password_changed.html:6 templates/password_reset.html:5 templates/post_verify.html:6 templates/recovery.html:7
+#: templates/verification_reminder_first.html:6 templates/verification_reminder_second.html:6 templates/verify.html:6 templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr "Za več informacij obiščite <a %(supportLinkAttributes)s>strani s podporo</a>."
 
-#: templates/new_device_login.html:6 templates/new_device_login.txt:5 templates/password_changed.html:6 templates/password_changed.txt:5 templates/password_reset.html:6 templates/password_reset.txt:5
-#: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:7 templates/post_verify.txt:6 templates/recovery.html:7 templates/recovery.txt:6
+#: templates/new_device_login.html:6 templates/new_device_login.txt:5 templates/password_changed.html:7 templates/password_changed.txt:6 templates/password_reset.html:6 templates/password_reset.txt:5
+#: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:7 templates/post_verify.txt:6 templates/recovery.html:8 templates/recovery.txt:7
 #: templates/suspicious_location.html:14 templates/suspicious_location.txt:13 templates/unblock_code.html:6 templates/unblock_code.txt:5 templates/verification_reminder_first.html:7
 #: templates/verification_reminder_first.txt:6 templates/verification_reminder_second.html:7 templates/verification_reminder_second.txt:6 templates/verify.html:7 templates/verify.txt:6
-#: templates/verify_login.html:7 templates/verify_login.txt:6
+#: templates/verify_login.html:7 templates/verify_login.txt:6 templates/verify_sync.html:9 templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
 msgstr "Mozillina politika zasebnosti"
 
@@ -83,8 +84,8 @@ msgstr "Mozillina politika zasebnosti"
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
 msgstr "To sporočilo je bilo poslano samodejno. Če niste dodali nove naprave v svoj Firefox Račun, takoj spremenite geslo na %(passwordChangeLink)s"
 
-#: templates/new_device_login.txt:4 templates/password_changed.txt:4 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:5 templates/verification_reminder_first.txt:5
-#: templates/verification_reminder_second.txt:5 templates/verify.txt:5
+#: templates/new_device_login.txt:4 templates/password_changed.txt:5 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
+#: templates/verification_reminder_second.txt:5 templates/verify.txt:5 templates/verify_sync.txt:7
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Za več informacij obiščite %(supportUrl)s"
 
@@ -93,14 +94,14 @@ msgid "Password changed successfully"
 msgstr "Geslo uspešno spremenjeno"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
-msgid "Your Firefox Account password has been successfully changed."
-msgstr "Vaše geslo za Firefox Račun je bilo uspešno spremenjeno."
+msgid "Your Firefox Account password was successfully changed from the following device:"
+msgstr ""
 
-#: templates/password_changed.html:4
+#: templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
 msgstr "To je samodejno sporočilo. Če niste sprožili tega dejanja, <a %(resetLinkAttributes)s>spremenite geslo.</a>"
 
-#: templates/password_changed.txt:3
+#: templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
 msgstr "To sporočilo je bilo poslano samodejno. Če niste spremenili gesla za Firefox Račun, ga takoj ponastavite na %(resetLink)s"
 
@@ -112,8 +113,9 @@ msgstr "Vaše geslo je bilo ponastavljeno"
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
 msgstr "Geslo vašega Firefox Računa se je spremenilo. Če ga niste spremenili, ga <a %(resetLinkAttributes)s>ponastavite</a> zdaj."
 
-#: templates/password_reset.html:4 templates/post_verify.html:5 templates/post_verify.txt:4 templates/recovery.html:5 templates/recovery.txt:4 templates/verification_reminder_first.html:5
+#: templates/password_reset.html:4 templates/post_verify.html:5 templates/post_verify.txt:4 templates/recovery.html:6 templates/recovery.txt:5 templates/verification_reminder_first.html:5
 #: templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:5 templates/verification_reminder_second.txt:4 templates/verify.html:5 templates/verify.txt:4
+#: templates/verify_sync.html:7 templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Sporočilo je bilo poslano samodejno. Če ste ga prejeli po pomoti, vam ni potrebno storiti ničesar."
 
@@ -187,10 +189,10 @@ msgid "Forgot your password?"
 msgstr "Pozabljeno geslo?"
 
 #: templates/recovery.html:3 templates/recovery.txt:2
-msgid "Click the button within the next hour to set a new password for your Firefox Account."
-msgstr "V roku ene ure kliknite gumb, da nastavite novo geslo za svoj Firefox Račun."
+msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
+msgstr ""
 
-#: templates/recovery.html:4 templates/recovery.txt:3
+#: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
 msgstr "Ponastavi geslo"
 
@@ -238,14 +240,14 @@ msgstr "Če to niste vi, nam pomagajte odgnati vsiljivce in <a %(reportSignInLin
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Če to niste vi, nam pomagajte odgnati vsiljivce in nam prijavite poskus zlorabe."
 
-#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:577
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:667
 msgid "Hello again."
 msgstr "Pozdravljeni še enkrat."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-" email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+"this email address to activate your account."
 msgstr ""
 "Pred nekaj dnevi ste ustvarili Firefox Račun, a ga še niste potrdili. Potrjen račun vam omogoča dostop do vaših zavihkov, zaznamkov, gesel in zgodovine na vseh povezanih napravah. Za aktivacijo "
 "računa potrdite ta e-poštni naslov."
@@ -254,11 +256,11 @@ msgstr ""
 msgid "Activate now"
 msgstr "Aktiviraj zdaj"
 
-#: templates/verification_reminder_first.html:8 templates/verification_reminder_second.html:8 templates/verify.html:8
+#: templates/verification_reminder_first.html:8 templates/verification_reminder_second.html:8 templates/verify.html:8 templates/verify_sync.html:10
 msgid "Verify Email"
 msgstr "Potrdi e-poštni naslov"
 
-#: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9
+#: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9 templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr "Potrdite e-poštni naslov za dokončanje registracije Firefox Računa"
 
@@ -295,63 +297,83 @@ msgstr "Če slutite, da nekdo poskuša pridobiti dostop do vašega računa, <a %
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr "Če slutite, da nekdo poskuša pridobiti dostop do vašega računa, spremenite geslo."
 
-#: mailer.js:143
+#: templates/verify_sync.html:2 templates/verify_sync.txt:1
+msgid "Ready, set, sync"
+msgstr ""
+
+#: templates/verify_sync.html:3 templates/verify_sync.txt:2
+msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
+msgstr ""
+
+#: templates/verify_sync.html:5 templates/verify_sync.txt:4
+msgid "Verify email "
+msgstr ""
+
+#: templates/verify_sync.html:6 templates/verify_sync.txt:5
+msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
+msgstr ""
+
+#: mailer.js:145
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s v %(uaOS)s %(uaOSVersion)s"
 
-#: mailer.js:146
+#: mailer.js:148
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s v %(uaOS)s"
 
-#: mailer.js:173
+#: mailer.js:175
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (ocena)"
 
-#: mailer.js:175
+#: mailer.js:177
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (ocena)"
 
-#: mailer.js:177
+#: mailer.js:179
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (ocena)"
 
-#: mailer.js:179
+#: mailer.js:181
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (ocena)"
 
-#: mailer.js:280
+#: mailer.js:262
 msgid "Verify your Firefox Account"
 msgstr "Potrdite svoj Firefox Račun"
 
-#: mailer.js:314
+#: mailer.js:287
+msgid "Confirm your email and start to sync!"
+msgstr ""
+
+#: mailer.js:340
 msgid "Firefox Account authorization code"
 msgstr "Overitvena koda za Firefox Račun"
 
-#: mailer.js:355
+#: mailer.js:388
 msgid "Confirm new sign-in to Firefox"
 msgstr "Potrdite novo prijavo v Firefox"
 
-#: mailer.js:395
+#: mailer.js:435
 msgid "Reset your Firefox Account password"
 msgstr "Ponastavite geslo Firefox Računa"
 
-#: mailer.js:420
+#: mailer.js:471
 msgid "Your Firefox Account password has been changed"
 msgstr "Vaše geslo za Firefox Račun je bilo spremenjeno"
 
-#: mailer.js:443
+#: mailer.js:505
 msgid "Your Firefox Account password has been reset"
 msgstr "Vaše geslo za Firefox Račun je bilo ponastavljeno"
 
-#: mailer.js:466
+#: mailer.js:535
 msgid "Firefox Account password reset required"
 msgstr "Zahtevana je ponastavitev gesla Firefox Računa"
 
-#: mailer.js:517
+#: mailer.js:600
 msgid "Firefox Account verified"
 msgstr "Firefox Račun potrjen"
 
-#: mailer.js:555
+#: mailer.js:645
 msgid "Suspicious activity with your Firefox Account"
 msgstr "Sumljiva dejavnost v vašem Firefox Računu"
 
@@ -407,6 +429,12 @@ msgstr "Storitve Firefox v oblaku"
 msgid "Terms of Service"
 msgstr "Pogoji uporabe"
 
+#~ msgid "Your Firefox Account password has been successfully changed."
+#~ msgstr "Vaše geslo za Firefox Račun je bilo uspešno spremenjeno."
+
+#~ msgid "Click the button within the next hour to set a new password for your Firefox Account."
+#~ msgstr "V roku ene ure kliknite gumb, da nastavite novo geslo za svoj Firefox Račun."
+
 #~ msgid "Alternatively:"
 #~ msgstr "Ali pa:"
 
@@ -456,8 +484,8 @@ msgstr "Pogoji uporabe"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Pred tednom dni ste ustvarili Firefox Račun, a ga še niste potrdili. Zato smo v skrbeh za vas. Firefox je na voljo za Windows, Mac, Linux, Android in iOS. Med vsemi njimi lahko sinhronizirate vaša "
-#~ "gesla, zaznamke in zgodovino. S potrditvijo tega e-poštnega naslova boste aktivirali vaš račun. In nam sporočili, da ste v redu."
+#~ "Pred tednom dni ste ustvarili Firefox Račun, a ga še niste potrdili. Zato smo v skrbeh za vas. Firefox je na voljo za Windows, Mac, Linux, Android in iOS. Med vsemi njimi lahko sinhronizirate "
+#~ "vaša gesla, zaznamke in zgodovino. S potrditvijo tega e-poštnega naslova boste aktivirali vaš račun. In nam sporočili, da ste v redu."
 
 #~ msgid "env"
 #~ msgstr "env"
