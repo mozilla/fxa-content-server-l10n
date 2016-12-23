@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 17:06+0000\n"
-"PO-Revision-Date: 2016-12-23 19:01+0000\n"
+"PO-Revision-Date: 2016-12-23 19:04+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -73,7 +73,7 @@ msgstr "Unbekanntes Konto. <a href=\"/signup\">Registrieren</a>"
 
 #: app/scripts/views/sign_in.js:155
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr "Unbekanntes Firefox-Konto. Sie können Sie mit der E-Mail-Adresse Ihres alten Add-ons-Kontos <a href=\"/signup\">anmelden</a>, um auf Ihre Add-ons-Daten zuzugreifen."
+msgstr "Unbekanntes Firefox-Konto. Sie können Sie mit der E-Mail-Adresse Ihres alten Add-ons-Kontos <a href=\"/signup\">registrieren</a>, um auf Ihre Add-ons-Daten zuzugreifen."
 
 #: app/scripts/views/sign_up.js:62
 msgid "Account no longer exists. Recreate it?"
@@ -849,7 +849,7 @@ msgstr "Weiter zu %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "Suchen Sie Ihre Add-ons-Daten? Sie können sich mit der E-Mail-Adresse Ihres alten Add-ons-Kontos für ein Firefox-Konto <a href=\"/signup\">registrieren</a>."
 
 #: app/scripts/templates/sign_in.mustache:8
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
@@ -901,7 +901,7 @@ msgstr "Übernehmen Sie Ihre Sync-Daten, indem Sie ein neues Firefox-Konto erste
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "Suchen Sie Ihre Add-ons-Daten? Sie können sich mit der E-Mail-Adresse Ihres alten Add-ons-Kontos für ein Firefox-Konto registrieren."
 
 #: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
@@ -1046,7 +1046,7 @@ msgstr "Firefox für iOS"
 
 #: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15
 msgid "none connected"
-msgstr ""
+msgstr "keine verbunden"
 
 #: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Get app"

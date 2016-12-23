@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 17:06+0000\n"
-"PO-Revision-Date: 2016-12-23 18:55+0000\n"
+"PO-Revision-Date: 2016-12-23 19:06+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -95,7 +95,7 @@ msgstr "Passwort erfolgreich geändert"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr ""
+msgstr "Das Passwort Ihres Firefox-Kontos wurde erfolgreich von folgendem Gerät geändert:"
 
 #: templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
@@ -304,19 +304,19 @@ msgstr "Wenn Sie den Verdacht haben, dass jemand auf Ihr Konto zugreifen möchte
 
 #: templates/verify_sync.html:2 templates/verify_sync.txt:1
 msgid "Ready, set, sync"
-msgstr ""
+msgstr "Auf die Plätze, fertig, sync"
 
 #: templates/verify_sync.html:3 templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "Bestätigen Sie den Erhalt dieser E-Mail, dann helfen wir Ihren bei der Installation und Synchronisation von Firefox auf all Ihren Geräten, angefangen von:"
 
 #: templates/verify_sync.html:5 templates/verify_sync.txt:4
 msgid "Verify email "
-msgstr ""
+msgstr "E-Mail-Adresse bestätigen "
 
 #: templates/verify_sync.html:6 templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "Nach der Bestätigung helfen wir Ihnen bei der Installation und Verbindung von Firefox auf mindestens einem anderen Gerät."
 
 #: mailer.js:145
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -348,7 +348,7 @@ msgstr "Bestätigen Sie Ihr Firefox-Konto"
 
 #: mailer.js:287
 msgid "Confirm your email and start to sync!"
-msgstr ""
+msgstr "Bestätigen Sie Ihre E-Mail-Adresse und beginnen Sie mit der Synchronisation!"
 
 #: mailer.js:340
 msgid "Firefox Account authorization code"
