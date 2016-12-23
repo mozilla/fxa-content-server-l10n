@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-11-15 16:57+0000\n"
+"PO-Revision-Date: 2016-12-23 21:58+0000\n"
 "Last-Translator: Tomáš Zelina <zelitomas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -28,16 +28,16 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Úspěšně jste připojili své první zařízení ke svému účtu Firefox Account. Nyní se můžete přihlásit ke službě Sync i ze svých dalších zařízení, včetně Firefoxu pro <a href='%(androidUrl)s'>Android</"
-"a> nebo <a href='%(iosUrl)s'>iOS</a>."
+"Úspěšně jste připojili své první zařízení ke svému účtu Firefox Account. Nyní se můžete přihlásit ke službě Sync i ze svých dalších zařízení, včetně Firefoxu pro <a href='%(androidUrl)s'>Android</a>"
+" nebo <a href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
-"Úspěšně jste připojili své první zařízení ke svému účtu Firefox Account. Abyste využili služby Sync co nejlépe, připojte se k ní také z aplikace Firefox pro <a href='%(androidUrl)s'>Android</a> "
-"nebo <a href='%(iosUrl)s'>iOS</a>."
+"Úspěšně jste připojili své první zařízení ke svému účtu Firefox Account. Abyste využili služby Sync co nejlépe, připojte se k ní také z aplikace Firefox pro <a href='%(androidUrl)s'>Android</a> nebo"
+" <a href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -95,7 +95,7 @@ msgstr "Heslo bylo úspěšně změněno"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr ""
+msgstr "Heslo k vašemu účtu Firefoxu bylo úspěšně změněno z následujícího zařízení:"
 
 #: templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
@@ -192,7 +192,7 @@ msgstr "Zapomněli jste své heslo?"
 
 #: templates/recovery.html:3 templates/recovery.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
-msgstr ""
+msgstr "Pro nastavení nového hesla účtu Firefoxu klepněte na tlačítko během následující hodiny. Požadavek na změnu hesla přišel z následujícího zařízení:"
 
 #: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
@@ -248,8 +248,8 @@ msgstr "Vítejte zpět."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 "Před pár dny jste si vytvořili účet Firefox Account, ale zatím jste jej neověřili. Díky ověřenému účtu budete moct přistupovat ke svém panelům, záložkám, historii a uloženým heslům z jakéhokoli "
 "zařízení, které k němu připojíte. Pro aktivaci vašeho účtu stačí pouze potvrdit tento e-mail."
@@ -302,19 +302,19 @@ msgstr "Máte-li podezření, že se někdo pokouší neoprávněně získat př
 
 #: templates/verify_sync.html:2 templates/verify_sync.txt:1
 msgid "Ready, set, sync"
-msgstr ""
+msgstr "Připravte se, pozor, synchronizujeme"
 
 #: templates/verify_sync.html:3 templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "Potvrďte, že jste obdrželi tento e-mail a my vám pomůžeme s instalací a synchronizací Firefoxu na všech vašich zařízení včetně:"
 
 #: templates/verify_sync.html:5 templates/verify_sync.txt:4
 msgid "Verify email "
-msgstr ""
+msgstr "Ověřit e-mail "
 
 #: templates/verify_sync.html:6 templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "Jakmile bude ověření dokončeno, pomůžeme vám nainstalovat a připojit Firefox na alespoň jednom dalším zařízení."
 
 #: mailer.js:145
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -346,7 +346,7 @@ msgstr "Ověřte svůj účet Firefox Account"
 
 #: mailer.js:287
 msgid "Confirm your email and start to sync!"
-msgstr ""
+msgstr "Potvrďte svůj e-mail a začněte synchronizovat!"
 
 #: mailer.js:340
 msgid "Firefox Account authorization code"
