@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-12-24 21:21+0000\n"
+"PO-Revision-Date: 2016-12-24 21:23+0000\n"
 "Last-Translator: Moḥend Belqasem <belkacem77@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -685,7 +685,7 @@ msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:11
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
+msgstr "Kcem ar Firefox iOS akken ad tkemleḍ asebded"
 
 #: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:17
 msgid "Sign in to Firefox on another device to complete set-up"
@@ -912,7 +912,7 @@ msgstr "Ɣur-k amiḍan? Kcem"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
-msgstr ""
+msgstr "Acuɛe amtawi n sin (neɣ ugar!) n ibenkan?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
