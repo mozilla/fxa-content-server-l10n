@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-11-29 15:44+0000\n"
+"PO-Revision-Date: 2016-12-24 07:00+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -53,7 +53,7 @@ msgstr "Firefox 稍後將會恢復同步"
 
 #: app/scripts/views/ready.js:39
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "請到您另一台 Firefox 裝置中輸入新密碼完成設定。"
 
 #: app/scripts/views/ready.js:44
 msgid "Sign-in confirmed"
@@ -73,7 +73,7 @@ msgstr "未知的帳號。<a href=\"/signup\">註冊</a>"
 
 #: app/scripts/views/sign_in.js:155
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr ""
+msgstr "未知的 Firefox 帳號。請使用您先前的附加元件站帳號的電子郵件地址 <a href=\"/signup\">註冊</a> Firefox 帳號，即可取回原先的資料。"
 
 #: app/scripts/views/sign_up.js:62
 msgid "Account no longer exists. Recreate it?"
@@ -465,9 +465,7 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr "若繼續，代表您同意 %(serviceName)s（%(serviceUri)s）的<a id=\"service-tos\" href=\"%(termsUri)s\">服務條款</a>及<a id=\"service-pp\" href=\"%(privacyUri)s\">隱私權公告</a>"
 
 #: app/scripts/lib/strings.js:30
@@ -660,15 +658,15 @@ msgstr "沒收到嗎？再寄一次"
 
 #: app/scripts/templates/connect_another_device.mustache:1
 msgid "Connect another device"
-msgstr ""
+msgstr "連結其他裝置"
 
 #: app/scripts/templates/connect_another_device.mustache:2
 msgid "This device is connected"
-msgstr ""
+msgstr "已連結此裝置"
 
 #: app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
-msgstr ""
+msgstr "已驗證信箱"
 
 #: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1
 msgid "Success"
@@ -676,31 +674,31 @@ msgstr "成功"
 
 #: app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign in to this Firefox to complete set-up"
-msgstr ""
+msgstr "登入至此 Firefox 帳號完成設定"
 
 #: app/scripts/templates/connect_another_device.mustache:7
 msgid "Sign in &rarr;"
-msgstr ""
+msgstr "登入 &rarr;"
 
 #: app/scripts/templates/connect_another_device.mustache:9
 msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr ""
+msgstr "開啟設定，選擇「登入至 Firefox」完成設定"
 
 #: app/scripts/templates/connect_another_device.mustache:11
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
+msgstr "登入至 Firefox for iOS 完成設定"
 
 #: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:17
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "在其他裝置登入至 Firefox 完成設定"
 
 #: app/scripts/templates/connect_another_device.mustache:15
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
+msgstr "登入至 Firefox for Android 完成設定"
 
 #: app/scripts/templates/connect_another_device.mustache:19
 msgid "Why is this required?"
-msgstr ""
+msgstr "為什麼要這樣做？"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -847,7 +845,7 @@ msgstr "繼續前往 %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "在找您原本在附加元件站上的資料嗎？請使用您原先使用的電子郵件地址<a href=\"/signup\">註冊</a> Firefox 帳號。"
 
 #: app/scripts/templates/sign_in.mustache:8
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
@@ -899,7 +897,7 @@ msgstr "註冊新的 Firefox 帳號來轉移您的同步資料。"
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "在找您原本在附加元件站上的資料嗎？請使用您原先使用的電子郵件地址註冊 Firefox 帳號。"
 
 #: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
@@ -915,19 +913,19 @@ msgstr "已經有帳號嗎？請登入"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
-msgstr ""
+msgstr "為什麼要同步兩台（或者更多台）裝置？"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
 "Firefox for desktop will appear."
-msgstr ""
+msgstr "Sync 功能可讓您將一台裝置上的 Firefox 所儲存的書籤、瀏覽紀錄、網頁密碼等資料同步到其他裝置。在手機或平板電腦登入至 Firefox 後，桌面板上的東西也會出現。"
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
 "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
-msgstr ""
+msgstr "Sync 不是設計用作永久備份之用，而是單純用來將本機上的資料分享到其他裝置。若您重設了密碼，而資料在其他裝置上沒有另存一份的話，就可能會遺失所有使用舊密碼儲存的資訊。這就是為什麼您會需要安裝 Firefox，並同步至少兩台裝置。"
 
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2
@@ -1044,7 +1042,7 @@ msgstr "Firefox for iOS"
 
 #: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15
 msgid "none connected"
-msgstr ""
+msgstr "未連結任何裝置"
 
 #: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Get app"
@@ -1144,19 +1142,16 @@ msgstr "使用 Firefox 帳戶登入"
 #~ msgid "Sync preferences"
 #~ msgstr "同步設定"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "在尋找 Firefox Sync 嗎？<a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">從此處開始</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "有使用不同電子郵件地址的帳號嗎？<a href=\"%(signinUri)s\">請登入</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
-#~ msgstr ""
-#~ "Firefox 有 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> 及 <a href=\"%(linkLinux)s\">Linux</"
-#~ "a> 版本可供使用。"
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ msgstr "Firefox 有 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> 及 <a href=\"%(linkLinux)s\">Linux</a> 版本可供使用。"
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "最後使用: %(translatedTimeAgo)s"
@@ -1538,9 +1533,7 @@ msgstr "使用 Firefox 帳戶登入"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "已經有帳號了？請登入。"
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr "若繼續，代表我同意 %(serviceName)s（%(serviceUri)s）的 <a id=\"service-tos\" href=\"%(termsUri)s\">服務條款</a> 及 <a id=\"service-pp\" href=\"%(privacyUri)s\">隱私權公告</a>。"
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
