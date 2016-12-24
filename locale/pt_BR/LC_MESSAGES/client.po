@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-12-24 02:21+0000\n"
+"PO-Revision-Date: 2016-12-24 02:29+0000\n"
 "Last-Translator: Cynthia Pereira <cynthiacpereira@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -53,7 +53,7 @@ msgstr "O Firefox Sync retornará em instantes"
 
 #: app/scripts/views/ready.js:39
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "Complete a configuração digitando a nova senha em seus outros dispositivos Firefox."
 
 #: app/scripts/views/ready.js:44
 msgid "Sign-in confirmed"
@@ -660,7 +660,7 @@ msgstr "Não chegou? Reenviar"
 
 #: app/scripts/templates/connect_another_device.mustache:1
 msgid "Connect another device"
-msgstr ""
+msgstr "Conectar outro dispositivo"
 
 #: app/scripts/templates/connect_another_device.mustache:2
 msgid "This device is connected"
@@ -676,7 +676,7 @@ msgstr "Sucesso"
 
 #: app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign in to this Firefox to complete set-up"
-msgstr ""
+msgstr "Identifique-se neste Firefox para concluir a configuração"
 
 #: app/scripts/templates/connect_another_device.mustache:7
 msgid "Sign in &rarr;"
@@ -684,19 +684,19 @@ msgstr "Identifique-se &rarr;"
 
 #: app/scripts/templates/connect_another_device.mustache:9
 msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr ""
+msgstr "Abra as configurações e selecione Identifique-se no Firefox para concluir a configuração"
 
 #: app/scripts/templates/connect_another_device.mustache:11
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
+msgstr "Identifique-se no Firefox para iOS para concluir a configuração"
 
 #: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:17
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Identifique-se no Firefox em um outro dispositivo para concluir a configuração"
 
 #: app/scripts/templates/connect_another_device.mustache:15
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
+msgstr "Identifique-se no Firefox para Android para concluir a configuração"
 
 #: app/scripts/templates/connect_another_device.mustache:19
 msgid "Why is this required?"
