@@ -698,7 +698,7 @@ msgstr "Prijavite se v Firefox za Android, da dokončate nastavitev"
 
 #: app/scripts/templates/connect_another_device.mustache:19
 msgid "Why is this required?"
-msgstr ""
+msgstr "Zakaj je to zahtevano?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
