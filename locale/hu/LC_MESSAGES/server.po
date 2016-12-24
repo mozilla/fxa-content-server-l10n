@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-12-24 08:44+0000\n"
+"PO-Revision-Date: 2016-12-24 09:21+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -192,7 +192,7 @@ msgstr "Elfelejtette a jelszavát?"
 
 #: templates/recovery.html:3 templates/recovery.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
-msgstr ""
+msgstr "Kattintson a gombra egy órán belül, hogy új jelszót állítson be a Firefox fiókjához. A kérés a következő eszközről érkezett:"
 
 #: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
@@ -304,7 +304,7 @@ msgstr "Vigyázz, kész, Sync"
 
 #: templates/verify_sync.html:3 templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "Erősítse meg hogy megkapta ezt e-mailt, és segítünk telepíteni és szinkronizálni a Firefoxát az összes eszközén, ezzel kezdve:"
 
 #: templates/verify_sync.html:5 templates/verify_sync.txt:4
 msgid "Verify email "
@@ -312,7 +312,7 @@ msgstr "E-mail cím megerősítése"
 
 #: templates/verify_sync.html:6 templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "Ha megerősítette, akkor segítünk telepíteni és legalább egy másik eszközzel összekapcsolni a Firefoxot."
 
 #: mailer.js:145
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
