@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-12-23 22:52+0000\n"
+"PO-Revision-Date: 2016-12-24 08:37+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -53,7 +53,7 @@ msgstr "A Firefox Sync mindjárt folytatódik"
 
 #: app/scripts/views/ready.js:39
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "Fejezze be a beállítást az új jelszó megadásával a többi Firefoxos eszközén."
 
 #: app/scripts/views/ready.js:44
 msgid "Sign-in confirmed"
@@ -73,7 +73,7 @@ msgstr "Ismeretlen fiók. <a href=\"/signup\">Feliratkozás</a>"
 
 #: app/scripts/views/sign_in.js:155
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr ""
+msgstr "Ismeretlen Firefox fiók. <a href=\"/signup\">Jelentkezzen be</a> az előző Kiegészítők fiókjának e-mail címével, hogy elérje a Kiegészítők adatait."
 
 #: app/scripts/views/sign_up.js:62
 msgid "Account no longer exists. Recreate it?"
@@ -848,7 +848,7 @@ msgstr "Tovább erre: %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "A Kiegészítők adatait keresi? <a href=\"/signup\">Regisztráljon</a> egy Firefox fiókot a régi Kiegészítők fiókja e-mail címével."
 
 #: app/scripts/templates/sign_in.mustache:8
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
@@ -900,7 +900,7 @@ msgstr "Migrálja szinkronizálási adatait új Firefox fiók létrehozásával.
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "A Kiegészítők adatait keresi? Regisztráljon egy Firefox fiókot a régi Kiegészítők fiókja e-mail címével."
 
 #: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
