@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-12-23 19:04+0000\n"
+"PO-Revision-Date: 2016-12-24 09:06+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -465,9 +465,7 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Indem Sie fortfahren, stimmen Sie den <a id=\"service-tos\" href=\"%(termsUri)s\">Nutzungsbedingungen</a> sowie dem <a id=\"service-pp\" href=\"%(privacyUri)s\">Datenschutzhinweis</a> von "
 "%(serviceName)s (%(serviceUri)s) zu."
@@ -742,9 +740,7 @@ msgstr "Passwort vergessen?"
 
 #: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:25 app/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr ""
-"Indem Sie fortfahren, stimmen Sie den <a id=\"fxa-tos\" href=\"/legal/terms\">Nutzungsbedingungen</a> sowie dem <a id=\"fxa-pp\" href=\"/legal/privacy\">Datenschutzhinweis</a> der Firefox-Cloud-"
-"Dienste zu."
+msgstr "Indem Sie fortfahren, stimmen Sie den <a id=\"fxa-tos\" href=\"/legal/terms\">Nutzungsbedingungen</a> sowie dem <a id=\"fxa-pp\" href=\"/legal/privacy\">Datenschutzhinweis</a> der Firefox-Cloud-Dienste zu."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -921,15 +917,15 @@ msgstr "Haben Sie ein Konto? Melden Sie sich an"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
-msgstr ""
+msgstr "Warum zwei (oder mehr!) Geräte synchronisieren?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
 "Firefox for desktop will appear."
 msgstr ""
-"Mit Sync können Sie die Lesezeichen, Chronik und Passwörter, die Sie in Firefox auf einem Gerät gespeichert haben, mit Firefox auf anderen Geräten teilen. Melden Sie sich mit Firefox auf Ihrem "
-"Handy oder Tablet an und alle Daten in Ihrem Firefox für Desktop stehen zur Verfügung."
+"Mit Sync können Sie die Lesezeichen, Chronik und Passwörter, die Sie in Firefox auf einem Gerät gespeichert haben, mit Firefox auf anderen Geräten teilen. Melden Sie sich mit Firefox auf Ihrem Handy"
+" oder Tablet an und alle Daten in Ihrem Firefox für Desktop stehen zur Verfügung."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
@@ -1154,20 +1150,18 @@ msgstr "Firefox-Konto verwenden"
 #~ msgid "Sync preferences"
 #~ msgstr "Sync-Einstellungen"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr ""
-#~ "Suchen Sie Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Hier geht es los</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr "Suchen Sie Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Hier geht es los</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Haben Sie ein Konto mit anderer E-Mail-Adresse? <a href=\"%(signinUri)s\">Melden Sie sich an</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox ist verfügbar für <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> und <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox ist verfügbar für <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> und <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Letzte Aktivität: %(translatedTimeAgo)s"
@@ -1408,8 +1402,8 @@ msgstr "Firefox-Konto verwenden"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Bitte aktivieren Sie Cookies in Ihrem Browser, die für Firefox-Konten erforderlich sind. Cookies sind kleine Datenelemente, die Ihr Browser speichert, was Funktionen wie die Wiedererkennung in "
-#~ "einer neuen Sitzung ermöglicht."
+#~ "Bitte aktivieren Sie Cookies in Ihrem Browser, die für Firefox-Konten erforderlich sind. Cookies sind kleine Datenelemente, die Ihr Browser speichert, was Funktionen wie die Wiedererkennung in einer"
+#~ " neuen Sitzung ermöglicht."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox gibt es bald auch für iOS!"
@@ -1555,17 +1549,13 @@ msgstr "Firefox-Konto verwenden"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Haben Sie schon ein Konto? Melden Sie sich an."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
 #~ "Indem ich fortfahre, stimme ich den <a id=\"service-tos\" href=\"%(termsUri)s\">Nutzungsbedingungen</a> und der <a id=\"service-pp\" href=\"%(privacyUri)s\">Datenschutzerklärung</a> von "
 #~ "%(serviceName)s (%(serviceUri)s) zu."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "Indem ich fortfahre, stimme ich den <a id=\"fxa-tos\" href=\"/legal/terms\">Nutzungsbedingungen</a> und dem <a id=\"fxa-pp\" href=\"/legal/privacy\">Datenschutzhinweis</a> der Firefox-Online-"
-#~ "Dienste zu."
+#~ msgstr "Indem ich fortfahre, stimme ich den <a id=\"fxa-tos\" href=\"/legal/terms\">Nutzungsbedingungen</a> und dem <a id=\"fxa-pp\" href=\"/legal/privacy\">Datenschutzhinweis</a> der Firefox-Online-Dienste zu."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Abonnieren Sie den Newsletter für Neuigkeiten und Tipps zu Firefox"
