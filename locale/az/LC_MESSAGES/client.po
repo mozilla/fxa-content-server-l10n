@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-12-24 01:03+0000\n"
+"PO-Revision-Date: 2016-12-24 01:04+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: az\n"
@@ -700,7 +700,7 @@ msgstr "Quraşdırmanı tamamlamaq üçün Android üçün Firefox-a daxil olun"
 
 #: app/scripts/templates/connect_another_device.mustache:19
 msgid "Why is this required?"
-msgstr ""
+msgstr "Bu niyə tələb olunur?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -915,7 +915,7 @@ msgstr "Hesabınız var? Daxil olun"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
-msgstr ""
+msgstr "Niyə birdən çox cihaz Sinxronizasiya edilməlidir?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
@@ -1044,7 +1044,7 @@ msgstr "iOS üçün Firefox"
 
 #: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15
 msgid "none connected"
-msgstr ""
+msgstr "heç biri qoşulmayıb"
 
 #: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Get app"
