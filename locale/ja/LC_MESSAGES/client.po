@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-12-25 03:14+0000\n"
+"PO-Revision-Date: 2016-12-25 03:32+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -21,7 +21,7 @@ msgstr "アカウントの確認が完了しました"
 
 #: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38
 msgid "Password reset"
-msgstr "パスワードをリセットする"
+msgstr "パスワードをリセット"
 
 #: app/scripts/views/confirm_reset_password.js:194
 msgid "Password reset successfully. Sign in to continue."
@@ -66,7 +66,7 @@ msgstr "%(serviceName)s が使えるようになりました"
 
 #: app/scripts/views/ready.js:49
 msgid "Account verified"
-msgstr "アカウントが認証されました"
+msgstr "アカウントの確認が完了しました"
 
 #: app/scripts/views/reset_password.js:72 app/scripts/views/sign_in.js:158
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -175,7 +175,7 @@ msgstr "予期しないエラー"
 
 #: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:5
 msgid "The link you clicked to verify your email is expired."
-msgstr "クリックされたメールアドレス認証リンクの有効期限が切れています。"
+msgstr "クリックされたメールアドレス確認リンクの有効期限が切れています。"
 
 #: app/scripts/lib/auth-errors.js:21
 msgid "You've tried too many times. Try again later."
@@ -215,11 +215,11 @@ msgstr "パスワードが間違っています。入力された内容を確認
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
-msgstr "未認証のアカウントです"
+msgstr "未確認のアカウントです"
 
 #: app/scripts/lib/auth-errors.js:67
 msgid "Invalid verification code"
-msgstr "認証コードが正しくありません"
+msgstr "確認コードが正しくありません"
 
 #: app/scripts/lib/auth-errors.js:71
 msgid "Invalid JSON in request body"
@@ -335,7 +335,7 @@ msgstr "Firefox アカウントは承認済みサイトの IFRAME 内にのみ�
 
 #: app/scripts/lib/auth-errors.js:242 app/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
-msgstr "認証リンクが壊れています"
+msgstr "確認リンクが壊れています"
 
 #: app/scripts/lib/auth-errors.js:250
 msgid "The image dimensions must be at least 100x100px"
@@ -608,15 +608,15 @@ msgstr "ログインはすでに確認されています"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
-msgstr "認証リンクの有効期限が切れています"
+msgstr "確認リンクの有効期限が切れています"
 
 #: app/scripts/templates/complete_sign_up.mustache:6
 msgid "Click here to receive a new verification link"
-msgstr "クリックすると認証リンクを再発行できます"
+msgstr "クリックすると確認リンクを再発行できます"
 
 #: app/scripts/templates/complete_sign_up.mustache:12
 msgid "Verification error"
-msgstr "認証エラー"
+msgstr "確認エラー"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -668,7 +668,7 @@ msgstr "この端末は接続されています"
 
 #: app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
-msgstr "メールが確認されました"
+msgstr "メールアドレスが確認されました"
 
 #: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1
 msgid "Success"
@@ -930,7 +930,7 @@ msgstr "Sync を使えば、ひとつの端末上の Firefox に保存したブ�
 msgid ""
 "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
-msgstr ""
+msgstr "Sync は永続的バックアップとしては設計されておらず、ローカルに保存された情報を共有するためのサービスに過ぎません。パスワードをリセットし、他の少なくともひとつの端末上にデータが保存されていない場合、古いパスワードに関連付けられたすべての情報が失われる可能性があります。それが、複数の端末上で Firefox をインストールし Sync を使うことをお勧めする理由です。"
 
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2

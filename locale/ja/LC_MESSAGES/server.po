@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-12-25 03:19+0000\n"
+"PO-Revision-Date: 2016-12-25 03:30+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -21,7 +21,7 @@ msgstr "まだお使いになりますか？"
 
 #: templates/_pending.txt:2
 msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
-msgstr "あなたはしばらく前に Firefox アカウントを作成されましたが、一度も認証を済ませていません。以下のリンクをクリックしてアカウントを有効化してください。"
+msgstr "あなたはしばらく前に Firefox アカウントを作成されましたが、一度も確認を済ませていません。以下のリンクをクリックしてアカウントを有効化してください。"
 
 #: templates/_pending.txt:3
 msgid ""
@@ -162,7 +162,7 @@ msgstr "Firefox アカウントチーム"
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
-msgstr "アカウント認証が完了しました！"
+msgstr "アカウントの確認が完了しました！"
 
 #: templates/post_verify.html:3
 msgid ""
@@ -242,7 +242,7 @@ msgstr "お帰りなさい。"
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
 " email address to activate your account."
-msgstr "あなたは数日前に Firefox アカウントを作成されましたが、まだ認証を済ませていません。アカウントの認証が完了すると、接続されているあらゆる端末から、タブやブックマーク、パスワード、履歴にアクセスできるようになります。アカウントはこのメールアドレスを確認するだけで有効化されます。"
+msgstr "あなたは数日前に Firefox アカウントを作成されましたが、まだ確認を済ませていません。アカウントの確認が完了すると、接続されているあらゆる端末から、タブやブックマーク、パスワード、履歴にアクセスできるようになります。アカウントはこのメールアドレスを確認するだけで有効化されます。"
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
 msgid "Activate now"
@@ -250,11 +250,11 @@ msgstr "今すぐ有効化"
 
 #: templates/verification_reminder_first.html:8 templates/verification_reminder_second.html:8 templates/verify.html:8 templates/verify_sync.html:10
 msgid "Verify Email"
-msgstr "メールアドレスを認証"
+msgstr "メールアドレスを確認"
 
 #: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9 templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr "メールアドレスを認証して Firefox アカウントの登録を完了してください"
+msgstr "メールアドレスを確認して Firefox アカウントの登録を完了してください"
 
 #: templates/verification_reminder_first.txt:3 templates/verification_reminder_second.txt:3 templates/verify.txt:3
 msgid "Activate now:"
@@ -262,7 +262,7 @@ msgstr "今すぐ有効化:"
 
 #: templates/verification_reminder_second.html:3 templates/verification_reminder_second.txt:2
 msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-msgstr "あなたは 1 週間前に Firefox アカウントを作成しましたが、まだ認証を済ませていません。私たちはあなたのことが気に掛かっています。このメールアドレスを確認してアカウントを有効化し、私たちにあなたの無事を知らせてください。"
+msgstr "あなたは 1 週間前に Firefox アカウントを作成しましたが、まだ確認を済ませていません。私たちはあなたのことが気に掛かっています。このメールアドレスを確認してアカウントを有効化し、私たちにあなたの無事を知らせてください。"
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
@@ -330,7 +330,7 @@ msgstr "%(country)s (おおよその位置)"
 
 #: mailer.js:262
 msgid "Verify your Firefox Account"
-msgstr "Firefox アカウントを認証"
+msgstr "Firefox アカウントを確認"
 
 #: mailer.js:287
 msgid "Confirm your email and start to sync!"
