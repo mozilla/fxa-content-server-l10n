@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-12-24 02:29+0000\n"
-"Last-Translator: Cynthia Pereira <cynthiacpereira@gmail.com>\n"
+"PO-Revision-Date: 2016-12-26 02:03+0000\n"
+"Last-Translator: Maykon Chagas <mchagas@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -899,7 +899,7 @@ msgstr "Migrar os dados sincronizados criando uma nova Conta Firefox."
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "Procurando suas extensões? Identifique-se através da sua Conta Firefox com seu endereço de e-mail antigo."
 
 #: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
@@ -1046,7 +1046,7 @@ msgstr "Firefox para iOS"
 
 #: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15
 msgid "none connected"
-msgstr ""
+msgstr "nenhum conectado"
 
 #: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Get app"
