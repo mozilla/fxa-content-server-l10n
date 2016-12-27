@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-12-27 09:21+0000\n"
+"PO-Revision-Date: 2016-12-27 09:35+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
@@ -920,12 +920,16 @@ msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
 "Firefox for desktop will appear."
 msgstr ""
+"Sync låter dig dela bokmärken, historik och lösenord som du sparar i Firefox på en enhet med Firefox på andra enheter. Logga in i Firefox på din telefon eller surfplatta och allt du har sparat i "
+"Firefox på din dator visas."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
 "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 msgstr ""
+"Sync är inte utformad som en permanent backup – den delar bara det som sparats lokalt. Om du återställer ditt lösenord och data lagras inte på åtminstone en annan enhet, kan du förlora all "
+"information associerat med det gamla lösenordet. Det är därför du vill installera Firefox och använda Sync på fler än en enhet."
 
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2
