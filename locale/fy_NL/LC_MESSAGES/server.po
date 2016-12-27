@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-12-27 08:41+0000\n"
+"PO-Revision-Date: 2016-12-27 08:42+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -315,7 +315,7 @@ msgstr "E-mailadres ferifiearje "
 
 #: templates/verify_sync.html:6 templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "Sa gau as dit befêstige is, helpe wy jo Firefox op op syn minst ien oar apparaat te ynstallearjen en te keppeljen."
 
 #: mailer.js:145
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -347,7 +347,7 @@ msgstr "Ferifiearje jo Firefox-account"
 
 #: mailer.js:287
 msgid "Confirm your email and start to sync!"
-msgstr ""
+msgstr "Befêstigje jo e-mailadres en begjin mei syngronisearjen!"
 
 #: mailer.js:340
 msgid "Firefox Account authorization code"
