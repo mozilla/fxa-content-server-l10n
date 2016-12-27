@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-12-23 22:05+0000\n"
+"PO-Revision-Date: 2016-12-27 11:06+0000\n"
 "Last-Translator: Tomáš Zelina <zelitomas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -915,7 +915,7 @@ msgstr "Máte účet? Přihlaste se"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
-msgstr ""
+msgstr "Proč synchronizovat dvě (nebo i více!) zařízení?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
