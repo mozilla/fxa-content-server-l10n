@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-11-14 22:02+0000\n"
+"PO-Revision-Date: 2016-12-27 09:11+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv_SE\n"
@@ -33,8 +33,8 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Du har anslutit din första enhet till ditt Firefox-konto. För att få ut det mesta av Sync, anslut <a href='%(androidUrl)s'>Firefox för Android</a> eller <a href='%(iosUrl)s'>Firefox för iOS</a>."
 
@@ -94,7 +94,7 @@ msgstr "Lösenord har ändrats"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr ""
+msgstr "Ditt lösenord har ändrats från följande enhet:"
 
 #: templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
@@ -191,7 +191,7 @@ msgstr "Glömt ditt lösenord?"
 
 #: templates/recovery.html:3 templates/recovery.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
-msgstr ""
+msgstr "Klicka på knappen inom den närmaste timmen för att ange ett nytt lösenord för ditt Firefox-konto. Begäran kom från följande enhet:"
 
 #: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
@@ -247,8 +247,8 @@ msgstr "Hej igen."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 "För några dagar sedan skapade du ett Firefox-konto, men du verifierade aldrig det. Ett verifierat konto låter dig öppna dina flikar, bokmärken, lösenord och historik på alla enheter ansluten till "
 "den. Bekräfta denna e-postadress för att aktivera ditt konto."
@@ -299,19 +299,19 @@ msgstr "Om du misstänker att någon försöker få åtkomst till ditt konto, ä
 
 #: templates/verify_sync.html:2 templates/verify_sync.txt:1
 msgid "Ready, set, sync"
-msgstr ""
+msgstr "Klara, färdiga, synka"
 
 #: templates/verify_sync.html:3 templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "Bekräfta att du har fått det här e-postmeddelandet och vi kommer att hjälpa dig att installera och synkronisera Firefox på alla dina enheter och börjar med:"
 
 #: templates/verify_sync.html:5 templates/verify_sync.txt:4
 msgid "Verify email "
-msgstr ""
+msgstr "Verifiera e-post "
 
 #: templates/verify_sync.html:6 templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "När det är bekräftat, hjälper vi dig att installera och ansluta Firefox på åtminstone en annan enhet."
 
 #: mailer.js:145
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -343,7 +343,7 @@ msgstr "Verifiera ditt Firefox-konto"
 
 #: mailer.js:287
 msgid "Confirm your email and start to sync!"
-msgstr ""
+msgstr "Bekräfta din e-post och börja synkronisera!"
 
 #: mailer.js:340
 msgid "Firefox Account authorization code"

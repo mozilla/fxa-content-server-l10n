@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-12-27 09:02+0000\n"
+"PO-Revision-Date: 2016-12-27 09:21+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
@@ -53,7 +53,7 @@ msgstr "Firefox Sync återupptas om ett ögonblick"
 
 #: app/scripts/views/ready.js:39
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "Slutför konfigurationen genom att ange det nya lösenordet på dina andra Firefox-enheter."
 
 #: app/scripts/views/ready.js:44
 msgid "Sign-in confirmed"
@@ -73,7 +73,7 @@ msgstr "Okänt konto. <a href=\"/signup\">Registrera dig</a>"
 
 #: app/scripts/views/sign_in.js:155
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr ""
+msgstr "Okänt Firefox-konto. <a href=\"/signup\">Registrera dig</a> med din e-postadress du tidigare använt för tillägg för att komma åt tilläggsdata."
 
 #: app/scripts/views/sign_up.js:62
 msgid "Account no longer exists. Recreate it?"
@@ -682,23 +682,23 @@ msgstr "Logga in &rarr;"
 
 #: app/scripts/templates/connect_another_device.mustache:9
 msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr ""
+msgstr "Öppna inställningar och välj Logga in i Firefox för att slutföra konfigurationen"
 
 #: app/scripts/templates/connect_another_device.mustache:11
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr "Logga in på Firefox för iOS att slutföra konfigurationen"
+msgstr "Logga in i Firefox för iOS för att slutföra konfigurationen"
 
 #: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:17
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Logga in i Firefox på en annan enhet för att slutföra konfigurationen"
 
 #: app/scripts/templates/connect_another_device.mustache:15
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
+msgstr "Logga in i Firefox för Android för att slutföra konfigurationen"
 
 #: app/scripts/templates/connect_another_device.mustache:19
 msgid "Why is this required?"
-msgstr ""
+msgstr "Varför behövs detta?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -845,7 +845,7 @@ msgstr "Fortsätt till %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "Letar du efter tilläggsdata? <a href=\"/signup\">Registrera dig</a> för ett Firefox-konto med din gamla e-postadress för tilläggskonto."
 
 #: app/scripts/templates/sign_in.mustache:8
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
@@ -897,7 +897,7 @@ msgstr "Migrera dina synkroniseringsuppgifter genom att skapa en nytt Firefox-ko
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "Letar du efter tilläggsdata? Registrera dig för ett Firefox-konto med din gamla e-postadress för tilläggskonto."
 
 #: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
@@ -913,7 +913,7 @@ msgstr "Har du ett konto? Logga in"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
-msgstr ""
+msgstr "Varför synkronisera två (eller fler) enheter?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
