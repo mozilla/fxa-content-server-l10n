@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-11-19 20:45+0000\n"
+"PO-Revision-Date: 2016-12-28 20:15+0000\n"
 "Last-Translator: Moḥend Belqasem <belkacem77@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -32,11 +32,11 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
-"Teqqned akken iwata ibenk inek amezwaru ɣer umiḍn inek Firefox. Akken ad temtawid ugar, qqen ibenk tebɣid ɣer <a href='%(androidUrl)s'>Firefox i Android</a> neɣ <a href='%(iosUrl)s'>Firefox i iOS</"
-"a>."
+"Teqqned akken iwata ibenk inek amezwaru ɣer umiḍn inek Firefox. Akken ad temtawid ugar, qqen ibenk tebɣid ɣer <a href='%(androidUrl)s'>Firefox i Android</a> neɣ <a href='%(iosUrl)s'>Firefox i "
+"iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -94,7 +94,7 @@ msgstr "Awal uffir yettusnifel akken iwata"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr ""
+msgstr "Awal uffir n umiḍan inek Firefox yettusnifel akken iwata seg ibenkan-agi:"
 
 #: templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
@@ -191,7 +191,7 @@ msgstr "Tettuḍ awal inek uffir?"
 
 #: templates/recovery.html:3 templates/recovery.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
-msgstr ""
+msgstr "Sit ɣef tqaffalt akka kra n usrag akken ad tesbaduḍ awal uffir amaynut n umiḍan inek Firefox. Tuttra tettwag seg ibenk-agi:"
 
 #: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
@@ -247,11 +247,11 @@ msgstr "Azul fell-ak tikelt nniḍen."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
-"Kra n wussan ɣer deffir, terniḍ amiḍan Firefox, acukan weṛǧin tessentmeṭ. Amiḍan yettwasentmenad isireg ad tkecmeḍ ɣer yiccaren inek, ticṛaḍ n isebtar, awalen inek uffiren akked umazray inek seg "
-"yal ibenk yeqqnen ɣer umiḍan agi. Sentem kan tansa agi imayl akken ad tremdeḍ amiḍan inek."
+"Kra n wussan ɣer deffir, terniḍ amiḍan Firefox, acukan weṛǧin tessentmeṭ. Amiḍan yettwasentmenad isireg ad tkecmeḍ ɣer yiccaren inek, ticṛaḍ n isebtar, awalen inek uffiren akked umazray inek seg yal"
+" ibenk yeqqnen ɣer umiḍan agi. Sentem kan tansa agi imayl akken ad tremdeḍ amiḍan inek."
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
 msgid "Activate now"
@@ -299,19 +299,19 @@ msgstr "Ma tcukeḍ yella win yettawṛaḍen ad yekcem ɣer umiḍan inek, snif
 
 #: templates/verify_sync.html:2 templates/verify_sync.txt:1
 msgid "Ready, set, sync"
-msgstr ""
+msgstr "Theggaḍ, Sbadu, Mtawi"
 
 #: templates/verify_sync.html:3 templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "Ini-yaq-d ma yella tremseḍ-d izen-agi udiq ak-d-nefk afus deg usebded akked umtawi n Firefox ɣer ibenkan inek meṛṛa, ad nebdu si:"
 
 #: templates/verify_sync.html:5 templates/verify_sync.txt:4
 msgid "Verify email "
-msgstr ""
+msgstr "Seqed tansa yinek imayl"
 
 #: templates/verify_sync.html:6 templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "Ticki yentem, ak-d-mudd afus deg usebded akked tuqqna n Firefox xaṛsum ɣef yiwen n yibenk nniḍen."
 
 #: mailer.js:145
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -343,7 +343,7 @@ msgstr "Senqed amidan inek Firefox"
 
 #: mailer.js:287
 msgid "Confirm your email and start to sync!"
-msgstr ""
+msgstr "Sentem tansa-ik imayl akked ad temtawiḍ!"
 
 #: mailer.js:340
 msgid "Firefox Account authorization code"
