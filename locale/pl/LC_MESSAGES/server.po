@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-11-14 21:14+0100\n"
+"PO-Revision-Date: 2016-12-25 20:48+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -92,7 +92,7 @@ msgstr "Pomyślnie zmieniono hasło"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr ""
+msgstr "Pomyślnie zmieniono hasło konta Firefoksa z poniższego urządzenia:"
 
 #: templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
@@ -187,7 +187,7 @@ msgstr "Nie pamiętasz hasła?"
 
 #: templates/recovery.html:3 templates/recovery.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
-msgstr ""
+msgstr "Kliknij przycisk w ciągu godziny, aby ustawić nowe hasło konta Firefoksa. Żądanie przyszło z poniższego urządzenia:"
 
 #: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
@@ -295,19 +295,19 @@ msgstr "Jeśli istnieją podejrzenia, że ktoś próbuje uzyskać dostęp do kon
 
 #: templates/verify_sync.html:2 templates/verify_sync.txt:1
 msgid "Ready, set, sync"
-msgstr ""
+msgstr "Gotowi, do startu, synchronizuj"
 
 #: templates/verify_sync.html:3 templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "Potwierdź otrzymanie tej wiadomości, a pomożemy zainstalować i synchronizować Firefoksa na wszystkich urządzeniach, zaczynając od:"
 
 #: templates/verify_sync.html:5 templates/verify_sync.txt:4
 msgid "Verify email "
-msgstr ""
+msgstr "Zweryfikuj adres e-mail "
 
 #: templates/verify_sync.html:6 templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "Po potwierdzeniu pomożemy zainstalować i połączyć Firefoksa na co najmniej jednym innym urządzeniu."
 
 #: mailer.js:145
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -339,7 +339,7 @@ msgstr "Zweryfikuj konto Firefoksa"
 
 #: mailer.js:287
 msgid "Confirm your email and start to sync!"
-msgstr ""
+msgstr "Potwierdź adres e-mail i zacznij synchronizować!"
 
 #: mailer.js:340
 msgid "Firefox Account authorization code"
@@ -424,9 +424,3 @@ msgstr "Usługi Firefox cloud"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Regulamin usługi"
-
-#~ msgid "Your Firefox Account password has been successfully changed."
-#~ msgstr "Pomyślnie zmieniono hasło konta Firefoksa."
-
-#~ msgid "Click the button within the next hour to set a new password for your Firefox Account."
-#~ msgstr "Kliknij przycisk w ciągu godziny, aby ustawić nowe hasło konta Firefoksa."

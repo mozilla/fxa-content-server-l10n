@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-11-29 00:33+0100\n"
+"PO-Revision-Date: 2016-12-25 20:48+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -50,7 +50,7 @@ msgstr "Firefox Sync za chwilę wznowi synchronizację"
 
 #: app/scripts/views/ready.js:39
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "Dokończ ustawianie wprowadzając nowe hasło na pozostałych urządzeniach z Firefoksem."
 
 #: app/scripts/views/ready.js:44
 msgid "Sign-in confirmed"
@@ -70,7 +70,7 @@ msgstr "Nieznane konto. <a href=\"/signup\">Zarejestruj się</a>"
 
 #: app/scripts/views/sign_in.js:155
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr ""
+msgstr "Nieznane konto Firefoksa. <a href=\"/signup\">Zarejestruj się</a> za pomocą adresu e-mail poprzedniego konta dodatków, aby uzyskać dostęp do jego danych."
 
 #: app/scripts/views/sign_up.js:62
 msgid "Account no longer exists. Recreate it?"
@@ -659,15 +659,15 @@ msgstr "Nie przyszło? Wyślij ponownie"
 
 #: app/scripts/templates/connect_another_device.mustache:1
 msgid "Connect another device"
-msgstr ""
+msgstr "Połącz inne urządzenie"
 
 #: app/scripts/templates/connect_another_device.mustache:2
 msgid "This device is connected"
-msgstr ""
+msgstr "To urządzenie jest połączone"
 
 #: app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
-msgstr ""
+msgstr "Zweryfikowano adres e-mail"
 
 #: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1
 msgid "Success"
@@ -675,31 +675,31 @@ msgstr "Powodzenie"
 
 #: app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign in to this Firefox to complete set-up"
-msgstr ""
+msgstr "Zaloguj się do tego Firefoksa, aby dokończyć ustawianie"
 
 #: app/scripts/templates/connect_another_device.mustache:7
 msgid "Sign in &rarr;"
-msgstr ""
+msgstr "Zaloguj się &rarr;"
 
 #: app/scripts/templates/connect_another_device.mustache:9
 msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr ""
+msgstr "Otwórz ustawienia i wybierz „Zaloguj się do Firefoksa”, aby dokończyć ustawianie"
 
 #: app/scripts/templates/connect_another_device.mustache:11
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
+msgstr "Zaloguj się do Firefoksa na iOS, aby dokończyć ustawianie"
 
 #: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:17
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Zaloguj się do Firefoksa na innym urządzeniu, aby dokończyć ustawianie"
 
 #: app/scripts/templates/connect_another_device.mustache:15
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
+msgstr "Zaloguj się do Firefoksa na Androida, aby dokończyć ustawianie"
 
 #: app/scripts/templates/connect_another_device.mustache:19
 msgid "Why is this required?"
-msgstr ""
+msgstr "Dlaczego jest to wymagane?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -848,11 +848,11 @@ msgstr "Przejdź do usługi %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "Szukasz danych dodatków? <a href=\"/signup\">Zarejestruj</a> konto Firefoksa za pomocą adresu e-mail poprzedniego konta dodatków."
 
 #: app/scripts/templates/sign_in.mustache:8
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr "Przenieś dane synchronizacji logując w Koncie&nbsp;Firefoksa."
+msgstr "Przenieś dane synchronizacji logując w koncie&nbsp;Firefoksa."
 
 #: app/scripts/templates/sign_in.mustache:13 app/scripts/templates/sign_in.mustache:16
 msgid "Use a different account"
@@ -900,7 +900,7 @@ msgstr "Przenieś dane synchronizacji tworząc konto&nbsp;Firefoksa."
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "Szukasz danych dodatków? Zarejestruj konto Firefoksa za pomocą adresu e-mail poprzedniego konta dodatków."
 
 #: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
@@ -916,19 +916,19 @@ msgstr "Już posiadasz konto? Zaloguj się"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
-msgstr ""
+msgstr "Dlaczego synchronizować dwa urządzenia (lub więcej!)?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
 "Firefox for desktop will appear."
-msgstr ""
+msgstr "Synchronizacja umożliwia współdzielenie zakładek, historii i haseł zachowywanych w Firefoksie na jednym urządzeniu z Firefoksem na innych urządzeniach. Zaloguj się do Firefoksa na telefonie lub tablecie, a pojawi się na nim wszystko, co zachowano w Firefoksie na komputerze."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
 "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
-msgstr ""
+msgstr "Synchronizacja nie została zaprojektowana jako trwała kopia zapasowa — współdzieli ona tylko lokalnie zachowane dane. Jeśli hasło zostanie zmienione, a dane nie są przechowywane na co najmniej jednym innym urządzeniu, można stracić wszystkie informacje powiązane z poprzednim hasłem. Dlatego warto zainstalować Firefoksa i używać synchronizacji na więcej niż jednym urządzeniu."
 
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2
@@ -1045,7 +1045,7 @@ msgstr "Firefox na iOS"
 
 #: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15
 msgid "none connected"
-msgstr ""
+msgstr "brak połączonych"
 
 #: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Get app"
@@ -1114,9 +1114,3 @@ msgstr "Użyj OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Użyj konta Firefoksa"
-
-#~ msgid "Firefox Sync will begin momentarily"
-#~ msgstr "Firefox Sync za chwilę zacznie synchronizację"
-
-#~ msgid "Have an account with a different email? <a href=\"%(escapedSignInUri)s\">Sign in</a>"
-#~ msgstr "Masz już konto z innym adresem e-mail? <a href=\"%(escapedSignInUri)s\">Zaloguj się</a>"
