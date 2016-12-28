@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-12-28 12:25+0000\n"
+"PO-Revision-Date: 2016-12-28 19:59+0000\n"
 "Last-Translator: Moḥend Belqasem <belkacem77@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -72,7 +72,7 @@ msgstr "Amiḍan arussin. <a href=\"/signup\">Rnu amiḍan</a>"
 
 #: app/scripts/views/sign_in.js:155
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr ""
+msgstr "Amiḍan Firefox arussin. <a href=\"/signup\">Jerred</a> s useqdec n tensa imayl i tesqedceḍ yakan ɣef usmel n izegrar akken ad tkecmeḍ ar isefka inek."
 
 #: app/scripts/views/sign_up.js:62
 msgid "Account no longer exists. Recreate it?"
@@ -681,7 +681,7 @@ msgstr "Kcem ar &rarr;"
 
 #: app/scripts/templates/connect_another_device.mustache:9
 msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr ""
+msgstr "Ldi iɣewwaṛen sakin fren Qqen s Firefox akken ad fakeḍ tawila"
 
 #: app/scripts/templates/connect_another_device.mustache:11
 msgid "Sign in to Firefox for iOS to complete set-up"
@@ -689,11 +689,11 @@ msgstr "Kcem ar Firefox iOS akken ad tkemleḍ asebded"
 
 #: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:17
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Kcem ar Firefox deg ibenk nniḍen akken ad tkemleḍ asebded"
 
 #: app/scripts/templates/connect_another_device.mustache:15
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
+msgstr "Kcem ar Firefox i Android akken ad tkemleḍ asebded"
 
 #: app/scripts/templates/connect_another_device.mustache:19
 msgid "Why is this required?"
@@ -844,7 +844,7 @@ msgstr "Kemmel di %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "Tettnadiḍ ad tkecmeḍ ar isefka inek ɣef usmel n Izegrar? <a href=\"/signup\">Rnu amiḍan Firefox</a> s tensa imayl yettwasqedcen ɣef usmel n Izegrar."
 
 #: app/scripts/templates/sign_in.mustache:8
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
@@ -896,7 +896,7 @@ msgstr "Rnu amiḍan n Firefox akken ad tawiḍ isefka yinek n umatwi aniɣeṛ 
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "Tettnadiḍ ad tkecmeḍ ar isefka inek ɣef usmel n Izegrar?  Rnu amiḍan Firefox s tensa imayl yettwasqedcen ɣef usmel n Izegrar."
 
 #: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
@@ -919,6 +919,8 @@ msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
 "Firefox for desktop will appear."
 msgstr ""
+"Sekles di Firefox ticṛaḍ-ik n isebtar, amazray-ik akken wawalen-ik uffiren, sakin bṭu-ten s useqdec n Sync ɣef ibenkan-ik nniḍen. Qqen s Firefox di tiliɣriyin-ik neɣ tifelwiyin inek n uselkem, sakin"
+" ad twaliḍ akk ayen tsekelsed di Firefox i uselkim."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
