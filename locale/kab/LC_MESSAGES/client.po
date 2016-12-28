@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-12-24 21:23+0000\n"
+"PO-Revision-Date: 2016-12-28 12:25+0000\n"
 "Last-Translator: Moḥend Belqasem <belkacem77@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -52,7 +52,7 @@ msgstr "Firefox Sync ad ikemmel akka kra n wakud"
 
 #: app/scripts/views/ready.js:39
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "Fak tawilla s usekcem n wawal uffir amaynutɣef ibenkan inek Firefox."
 
 #: app/scripts/views/ready.js:44
 msgid "Sign-in confirmed"
