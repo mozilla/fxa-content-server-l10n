@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-12-24 12:21+0000\n"
+"PO-Revision-Date: 2016-12-24 12:50+0000\n"
 "Last-Translator: Peter Klofutar <peter_klofutar@telemach.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -73,7 +73,7 @@ msgstr "Neznan račun. <a href=\"/signup\">Registracija</a>"
 
 #: app/scripts/views/sign_in.js:155
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr ""
+msgstr "Neznan Firefox Račun. Za dostop do podatkov o svojih dodatkih <a href=\"/signup\">se registrirajte</a> z e-poštnim naslovom prejšnjega računa za dodatke."
 
 #: app/scripts/views/sign_up.js:62
 msgid "Account no longer exists. Recreate it?"
@@ -845,7 +845,7 @@ msgstr "Nadaljujte v %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "Iščete podatke o svojih dodatkih? <a href=\"/signup\">Registrirajte se</a> za Firefox Račun z e-poštnim naslovom svojega starega računa za dodatke."
 
 #: app/scripts/templates/sign_in.mustache:8
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
@@ -897,7 +897,7 @@ msgstr "Prenesite podatke za sinhronizacijo, tako da ustvarite nov Firefox&nbsp;
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "Iščete podatke o svojih dodatkih? Registrirajte se za Firefox Račun z e-poštnim naslovom svojega starega računa za dodatke."
 
 #: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
@@ -913,7 +913,7 @@ msgstr "Imate račun? Prijavite se"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
-msgstr ""
+msgstr "Zakaj naj sinhroniziram več naprav?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
