@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-12-24 12:51+0000\n"
+"PO-Revision-Date: 2016-12-24 12:18+0000\n"
 "Last-Translator: Peter Klofutar <peter_klofutar@telemach.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -346,7 +346,7 @@ msgstr "Prijava bo kmalu na voljo v Firefoxu za iOS"
 
 #: app/scripts/lib/auth-errors.js:265
 msgid "You must enter your age to sign up"
-msgstr "Za prijavo morate vnesti vašo starost"
+msgstr "Za registracijo morate vnesti svojo starost"
 
 #: app/scripts/lib/auth-errors.js:269
 msgid "No Gravatar found"
