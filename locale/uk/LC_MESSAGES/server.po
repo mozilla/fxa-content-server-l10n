@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-12-30 10:19+0000\n"
+"PO-Revision-Date: 2016-12-30 10:24+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -307,15 +307,15 @@ msgstr "На старт, увага, синхронізація"
 
 #: templates/verify_sync.html:3 templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "Підтвердіть, що ви отримали цей лист, і ми допоможемо вам встановити і синхронізувати Firefox на всіх ваших пристроях, починаючи з:"
 
 #: templates/verify_sync.html:5 templates/verify_sync.txt:4
 msgid "Verify email "
-msgstr ""
+msgstr "Підтвердити е-пошту "
 
 #: templates/verify_sync.html:6 templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "Одразу після підтвердження ми допоможемо вам встановити і під'єднати Firefox принаймні на одному іншому пристрої."
 
 #: mailer.js:145
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -347,7 +347,7 @@ msgstr "Підтвердження облікового запису Firefox"
 
 #: mailer.js:287
 msgid "Confirm your email and start to sync!"
-msgstr ""
+msgstr "Підтвердіть свою адресу електронної пошти й почніть синхронізацію!"
 
 #: mailer.js:340
 msgid "Firefox Account authorization code"
