@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-12-25 19:58+0000\n"
-"Last-Translator: Joergen <joergenr@stofanet.dk>\n"
+"PO-Revision-Date: 2017-01-02 04:45+0000\n"
+"Last-Translator: Kim Ludvigsen <ludvigs@kimludvigsen.dk>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
@@ -95,7 +95,7 @@ msgstr "Adgangskoden blev ændret"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr ""
+msgstr "Adgangskoden til din Firefox-konto blev ændret fra følgende enhed:"
 
 #: templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
@@ -190,7 +190,7 @@ msgstr "Glemt din adgangskode?"
 
 #: templates/recovery.html:3 templates/recovery.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
-msgstr ""
+msgstr "Klik på knappen indenfor den næste time for at oprette en ny adgangskode til din Firefox-konto. Anmodningen kom fra følgende enhed:"
 
 #: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
@@ -298,11 +298,11 @@ msgstr "Hvis du har mistanke om, at nogen forsøger at få adgang til din konto,
 
 #: templates/verify_sync.html:2 templates/verify_sync.txt:1
 msgid "Ready, set, sync"
-msgstr ""
+msgstr "Klar, parat, synkronisér"
 
 #: templates/verify_sync.html:3 templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "Bekræft, at du har modtaget denne mail, så hjælper vi dig med at installere og synkronisere Firefox på alle dine enheder, begyndende med:"
 
 #: templates/verify_sync.html:5 templates/verify_sync.txt:4
 msgid "Verify email "
@@ -310,7 +310,7 @@ msgstr "Bekræft mailadresse "
 
 #: templates/verify_sync.html:6 templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "Efter bekræftelsen hjælper vi dig med at installere og forbinde Firefox på mindst én anden enhed."
 
 #: mailer.js:145
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -342,7 +342,7 @@ msgstr "Bekræft din Firefox-konto"
 
 #: mailer.js:287
 msgid "Confirm your email and start to sync!"
-msgstr ""
+msgstr "Bekræft din mailadresse og begynd at synkronisere!"
 
 #: mailer.js:340
 msgid "Firefox Account authorization code"
