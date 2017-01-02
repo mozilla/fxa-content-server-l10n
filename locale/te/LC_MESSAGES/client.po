@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-12-27 09:15+0000\n"
-"Last-Translator: వీవెన్ <veeven@gmail.com>\n"
+"PO-Revision-Date: 2017-01-01 13:03+0000\n"
+"Last-Translator: Ranjith Raj Vasam <ranjithraj@swecha.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
 "MIME-Version: 1.0\n"
@@ -52,7 +52,7 @@ msgstr "ఫైర్ఫాక్స్ సింక్ కొంతసేప�
 
 #: app/scripts/views/ready.js:39
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "మీ ఇతర పరికరాలలో కొత్త పాస్‌వర్డ్ నమోదు చేసి ఏర్పాటు పూర్తి చేయండి."
 
 #: app/scripts/views/ready.js:44
 msgid "Sign-in confirmed"
@@ -72,7 +72,7 @@ msgstr "తెలియని ఖాతా. <a href=\"/signup\">సైన్ అ
 
 #: app/scripts/views/sign_in.js:155
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr ""
+msgstr "గుర్తుతెలియని Firefox ఖాతా. మీ ఆడ్-ఆన్స్ డాటా పొందుటకు మీ మునుపటి ఆడ్-ఆన్స్ ఖాతాతో <a href=\"/signup\">సైన్-అప్</a> అవ్వండి."
 
 #: app/scripts/views/sign_up.js:62
 msgid "Account no longer exists. Recreate it?"
