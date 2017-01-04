@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2017-01-02 14:17+0000\n"
+"PO-Revision-Date: 2017-01-04 13:30+0000\n"
 "Last-Translator: Joergen <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
@@ -994,7 +994,7 @@ msgstr "Dine browsing-data vil stadig blive gemt på %(deviceName)s, men vil ikk
 
 #: app/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Reason for disconnecting…"
-msgstr "Årsag til afbrydelse af forbindelse…"
+msgstr "Årsag til afbrydelse af forbindelsen…"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
@@ -1038,7 +1038,7 @@ msgstr "denne enhed"
 
 #: app/scripts/templates/settings/clients.mustache:7
 msgid "Disconnect…"
-msgstr "Afbryd forbindelse…"
+msgstr "Afbryd forbindelsen…"
 
 #: app/scripts/templates/settings/clients.mustache:11
 msgid "Firefox for iOS"
