@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2017-01-04 21:18+0000\n"
+"PO-Revision-Date: 2017-01-04 21:26+0000\n"
 "Last-Translator: Jim Spentzos <jamesspentzos@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -148,7 +148,7 @@ msgstr "Άνοιγμα Restmail"
 
 #: app/scripts/views/mixins/password-prompt-mixin.js:20
 msgid "8 characters minimum, but longer if you plan to sync passwords."
-msgstr ""
+msgstr "Τουλάχιστον 8 χαρακτήρες, αλλά περισσότεροι αν σκοπεύετε να συγχρονίσετε κωδικούς πρόσβασης."
 
 #: app/scripts/views/mixins/password-prompt-mixin.js:21 app/scripts/templates/sign_up.mustache:17
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
@@ -265,7 +265,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:133 app/scripts/lib/oauth-errors.js:104
 msgid "no message"
-msgstr ""
+msgstr "κανένα μήνυμα"
 
 #: app/scripts/lib/auth-errors.js:137
 msgid "Session expired. Sign in to continue."
@@ -277,7 +277,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:145
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Οι κωδικοί πρόσβασης δεν ταιριάζουν"
 
 #: app/scripts/lib/auth-errors.js:149
 msgid "Working…"
@@ -293,7 +293,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:161
 msgid "Your new password must be different"
-msgstr ""
+msgstr "Ο νέος κωδικός πρόσβασής σας πρέπει να είναι διαφορετικός"
 
 #: app/scripts/lib/auth-errors.js:165 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
@@ -413,19 +413,19 @@ msgstr ""
 
 #: app/scripts/lib/oauth-errors.js:38
 msgid "Unknown code"
-msgstr ""
+msgstr "Άγνωστος κωδικός"
 
 #: app/scripts/lib/oauth-errors.js:42
 msgid "Incorrect code"
-msgstr ""
+msgstr "Εσφαλμένος κωδικός"
 
 #: app/scripts/lib/oauth-errors.js:46
 msgid "Expired code"
-msgstr ""
+msgstr "Ληγμένος κωδικός"
 
 #: app/scripts/lib/oauth-errors.js:54 app/scripts/lib/oauth-errors.js:76
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Μη έγκυρη παράμετρος OAuth: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
@@ -485,7 +485,7 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:39
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "Διεύθυνση IP: %(ip)s"
 
 #: app/scripts/lib/strings.js:40
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
@@ -497,7 +497,7 @@ msgstr "Κακό αίτημα"
 
 #: app/scripts/templates/500.mustache:1
 msgid "500 Error"
-msgstr ""
+msgstr "Σφάλμα 500"
 
 #: app/scripts/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
@@ -517,7 +517,7 @@ msgstr "Μάθετε περισσότερα."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
-msgstr ""
+msgstr "Επιλέξτε τι θα συγχρονίζεται"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2
 msgid "Open tabs"
@@ -553,7 +553,7 @@ msgstr "Αποθήκευση ρυθμίσεων"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
-msgstr ""
+msgstr "Πίσω"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -1029,7 +1029,7 @@ msgstr "Εμφάνιση"
 
 #: app/scripts/templates/settings/clients.mustache:5
 msgid "current device"
-msgstr ""
+msgstr "τρέχουσα συσκευή"
 
 #: app/scripts/templates/settings/clients.mustache:7
 msgid "Disconnect…"
