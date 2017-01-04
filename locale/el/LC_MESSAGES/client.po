@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-12-16 19:06+0000\n"
+"PO-Revision-Date: 2017-01-04 21:18+0000\n"
 "Last-Translator: Jim Spentzos <jamesspentzos@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -349,11 +349,11 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:269
 msgid "No Gravatar found"
-msgstr ""
+msgstr "Δεν βρέθηκε Gravatar"
 
 #: app/scripts/lib/auth-errors.js:277
 msgid "Account no longer exists."
-msgstr ""
+msgstr "Ο λογαριασμός δεν υπάρχει πλέον."
 
 #: app/scripts/lib/auth-errors.js:281
 msgid "Invalid property in resume token: %(property)s"
@@ -377,7 +377,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:310
 msgid "This is a required field"
-msgstr ""
+msgstr "Αυτό είναι ένα υποχρεωτικό πεδίο"
 
 #: app/scripts/lib/auth-errors.js:314
 msgid "Authorization code required"
@@ -397,7 +397,7 @@ msgstr ""
 
 #: app/scripts/lib/mailcheck.js:26
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "Εννοείτε <span tabindex=\"1\">%(escapedDomain)s</span>;"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -461,17 +461,15 @@ msgstr ""
 
 #: app/scripts/lib/service-name.js:16
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
-msgstr ""
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Βοήθεια</a>"
 
 #: app/scripts/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
@@ -495,7 +493,7 @@ msgstr ""
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "Κακό αίτημα"
 
 #: app/scripts/templates/500.mustache:1
 msgid "500 Error"
@@ -507,7 +505,7 @@ msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
-msgstr ""
+msgstr "Αδυναμία δημιουργίας λογαριασμού"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
@@ -699,11 +697,11 @@ msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:19
 msgid "Why is this required?"
-msgstr ""
+msgstr "Γιατί απαιτείται αυτό;"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
-msgstr ""
+msgstr "Απαιτούνται τα cookies και η τοπική αποθήκευση."
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
