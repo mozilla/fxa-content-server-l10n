@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-12-28 23:22+0000\n"
+"PO-Revision-Date: 2017-01-06 23:20+0000\n"
 "Last-Translator: Branislav Rozbora <rozbora@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -53,7 +53,7 @@ msgstr "Firefox Sync bude za chvíľu pokračovať v synchronizácii"
 
 #: app/scripts/views/ready.js:39
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "Dokončite nastavenia zadaním nového hesla na ostatné zariadenia s Firefoxom."
 
 #: app/scripts/views/ready.js:44
 msgid "Sign-in confirmed"
@@ -73,7 +73,7 @@ msgstr "Neznámy účet. <a href=\"/signup\">Zaregistrujte sa</a>"
 
 #: app/scripts/views/sign_in.js:155
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr ""
+msgstr "Neznámy účet Firefoxu. Pre prístup k údajom Doplnkov sa <a href=\"/signup\">zaregistrujte</a> pomocou e-mailovej adresy predchádzajúceho účtu Doplnkov."
 
 #: app/scripts/views/sign_up.js:62
 msgid "Account no longer exists. Recreate it?"
@@ -676,7 +676,7 @@ msgstr "Úspešné"
 
 #: app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign in to this Firefox to complete set-up"
-msgstr ""
+msgstr "Pre dokončenie nastavení sa prihláste k Firefoxu"
 
 #: app/scripts/templates/connect_another_device.mustache:7
 msgid "Sign in &rarr;"
@@ -684,19 +684,19 @@ msgstr "Prihlásiť sa &rarr;"
 
 #: app/scripts/templates/connect_another_device.mustache:9
 msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr ""
+msgstr "Pre dokončenie nastavení otvorte nastavenia a vyberte Prihlásiť sa k Firefoxu"
 
 #: app/scripts/templates/connect_another_device.mustache:11
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
+msgstr "Pre dokončenie nastavení sa prihláste k Firefoxu pre iOS"
 
 #: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:17
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Pre dokončenie nastavení sa prihláste k Firefoxu na inom zariadení"
 
 #: app/scripts/templates/connect_another_device.mustache:15
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
+msgstr "Pre dokončenie nastavení sa prihláste k Firefoxu pre Android"
 
 #: app/scripts/templates/connect_another_device.mustache:19
 msgid "Why is this required?"
@@ -847,7 +847,7 @@ msgstr "Pokračovať na %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "Hľadáte údaje Doplnkov? <a href=\"/signup\">Zaregistrujte si</a> účet Firefox Account pomocou e-mailovej adresy bývalého účtu Doplnkov."
 
 #: app/scripts/templates/sign_in.mustache:8
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
@@ -899,7 +899,7 @@ msgstr "Presuňte svoje synchronizované údaje vytvorením nového účtu Firef
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "Hľadáte údaje Doplnkov? Zaregistrujte si účet Firefox Account pomocou e-mailovej adresy bývalého účtu Doplnkov."
 
 #: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
@@ -915,19 +915,23 @@ msgstr "Máte už účet? Prihláste sa"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
-msgstr ""
+msgstr "Prečo synchronizovať dve (alebo aj viac!) zariadení?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
 "Firefox for desktop will appear."
 msgstr ""
+"Vďaka službe Sync môžete zdieľať heslá, záložky a históriu, ktoré vytvoríte vo Firefoxe na jednom zariadení, s Firefoxom na všetkých vašich iných zariadeniach. Prihláste sa k službe Firefox Sync na "
+"svojom telefóne alebo tablete, a ihneď uvidíte všetko, čo ste si uložili vo Firefoxe na svojom počítači."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
 "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 msgstr ""
+"Sync nie je určený k trvalému zálohovaniu – len pomáha zdieľať to, čo je uložené lokálne. Ak obnovíte svoje heslo a vaše údaje nebudú uložené ani na jednom zariadení, mohli by ste stratiť všetky "
+"informácie, ktoré sú spojené so starým heslom. Preto by ste možno mohli chcieť nainštalovať Firefox a používať službu Sync na viacerých zariadeniach."
 
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2
@@ -1044,7 +1048,7 @@ msgstr "Firefox pre iOS"
 
 #: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15
 msgid "none connected"
-msgstr ""
+msgstr "nič nepripojené"
 
 #: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Get app"
