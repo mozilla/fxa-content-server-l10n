@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-10-23 18:13+0000\n"
+"PO-Revision-Date: 2017-01-08 17:44+0000\n"
 "Last-Translator: Marcelo Poli <enzomatrix@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -31,8 +31,8 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
@@ -242,8 +242,8 @@ msgstr "Hola de nuevo."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
@@ -300,11 +300,11 @@ msgstr ""
 
 #: templates/verify_sync.html:5 templates/verify_sync.txt:4
 msgid "Verify email "
-msgstr ""
+msgstr "Verificar correo electrónico "
 
 #: templates/verify_sync.html:6 templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "Una vez confirmado, te ayudaremos a instalar y conectar Firefox en al menos otro dispositivo."
 
 #: mailer.js:145
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -336,7 +336,7 @@ msgstr ""
 
 #: mailer.js:287
 msgid "Confirm your email and start to sync!"
-msgstr ""
+msgstr "¡Confirmá tu correo electrónico y empezá a sincronizar!"
 
 #: mailer.js:340
 msgid "Firefox Account authorization code"
