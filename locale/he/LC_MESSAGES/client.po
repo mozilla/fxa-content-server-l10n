@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-23 21:50+0000\n"
+"POT-Creation-Date: 2017-01-09 19:41+0000\n"
 "PO-Revision-Date: 2017-01-03 22:01+0000\n"
 "Last-Translator: Tomer Cohen <tomer.mozilla@tomercohen.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,7 +67,7 @@ msgstr "כעת ניתן להשתמש ב־%(serviceName)s."
 msgid "Account verified"
 msgstr "החשבון אומת"
 
-#: app/scripts/views/reset_password.js:72 app/scripts/views/sign_in.js:158
+#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:158
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "חשבון לא מוכר. <a href=\"/signup\">הרשמה</a>"
 
@@ -79,7 +79,7 @@ msgstr ""
 msgid "Account no longer exists. Recreate it?"
 msgstr "החשבון כבר אינו קיים. האם ליצור אותו מחדש?"
 
-#: app/scripts/views/sign_up.js:365
+#: app/scripts/views/sign_up.js:370
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "חשבון זה כבר קיים. <a href=\"/signin\">התחברות</a>"
 
@@ -123,7 +123,7 @@ msgstr "שם התצוגה עודכן"
 msgid "Your account has been locked for security reasons"
 msgstr "חשבונך ננעל מסיבות אבטחה"
 
-#: app/scripts/views/mixins/account-reset-mixin.js:44 app/scripts/templates/reset_password.mustache:6
+#: app/scripts/views/mixins/account-reset-mixin.js:44
 msgid "Reset password"
 msgstr "איפוס ססמה"
 
@@ -465,7 +465,9 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
@@ -584,7 +586,7 @@ msgstr "הכנסת ססמה חדשה"
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
 msgstr ""
 
-#: app/scripts/templates/complete_reset_password.mustache:10 app/scripts/templates/reset_password.mustache:3
+#: app/scripts/templates/complete_reset_password.mustache:10 app/scripts/templates/reset_password.mustache:6
 msgid "Learn how Sync works."
 msgstr "מידע על אופן העבודה של Sync."
 
@@ -637,8 +639,8 @@ msgid "To better protect your Firefox data, we've emailed a confirmation link to
 msgstr "על מנת להגן על נתוני ה־Firefox שלך, שלחנו קישור אימות אל כתובת הדואר האלקטרוני %(email)s"
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/sign_in_unblock.mustache:6 app/scripts/templates/sign_in_unblock.mustache:9
-msgid "Didn't arrive? Resend"
-msgstr "לא הגיע? שליחה מחדש"
+msgid "Didn't arrive and not in spam folder? Resend"
+msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -815,19 +817,27 @@ msgstr "דיווח פעילות"
 msgid "Why is this happening?"
 msgstr "מדוע זה קורה?"
 
-#: app/scripts/templates/reset_password.mustache:1
-msgid "Forgot password"
-msgstr "שכחתי את הססמה"
+#: app/scripts/templates/reset_password.mustache:1 app/scripts/templates/reset_password.mustache:4
+msgid "Reset account"
+msgstr ""
 
-#: app/scripts/templates/reset_password.mustache:2
+#: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
+msgid "Continue to %(serviceName)s"
+msgstr "המשך אל %(serviceName)s"
+
+#: app/scripts/templates/reset_password.mustache:5
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr ""
 
-#: app/scripts/templates/reset_password.mustache:5 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
+#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "דואר אלקטרוני"
 
-#: app/scripts/templates/reset_password.mustache:7 app/scripts/templates/reset_password.mustache:9
+#: app/scripts/templates/reset_password.mustache:9
+msgid "Begin reset"
+msgstr "התחלת איפוס"
+
+#: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
 msgid "Remember password? Sign in."
 msgstr "ססמתך ידוע לך? ניתן להתחבר מכאן."
 
@@ -838,10 +848,6 @@ msgstr "Firefox Accounts"
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
 msgstr "התנתקות"
-
-#: app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "המשך אל %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
@@ -1045,7 +1051,7 @@ msgid "none connected"
 msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
-msgid "Get app"
+msgid "Download"
 msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:14
@@ -1112,6 +1118,12 @@ msgstr "שימוש ב־OpenID"
 msgid "Use Firefox Account"
 msgstr "שימוש בחשבון Firefox"
 
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "לא הגיע? שליחה מחדש"
+
+#~ msgid "Forgot password"
+#~ msgstr "שכחתי את הססמה"
+
 #~ msgid "Firefox Sync will begin momentarily"
 #~ msgstr "Firefox Sync יתחיל בתוך מספר רגעים"
 
@@ -1137,9 +1149,11 @@ msgstr "שימוש בחשבון Firefox"
 #~ msgstr "ברשותך חשבון עם כתובת דוא״ל שונה? <a href=\"%(signinUri)s\">נא ללחוץ כאן כדי להתחבר</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "Firefox זמין עבור <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> ו־<a href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox זמין עבור <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> ו־<a href=\"%(linkLinux)s"
+#~ "\">Linux</a>."
 
 #~ msgid "Incorrect password"
 #~ msgstr "ססמה שגויה "
@@ -1224,9 +1238,6 @@ msgstr "שימוש בחשבון Firefox"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr "איפוס הססמה ימחק את כל נתוני הגלישה שלך מהשרתים שלנו. כל הנתונים על ההתקנים שלך יישאר ללא שינוי. כדי להתחיל את תהליך האיפוס, נא להקליד להלן את כתובת הדואר האלקטרוני שלך."
-
-#~ msgid "Begin reset"
-#~ msgstr "התחלת איפוס"
 
 #~ msgid "Age is required"
 #~ msgstr "נדרש גיל"

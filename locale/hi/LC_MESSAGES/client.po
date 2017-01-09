@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-23 21:50+0000\n"
+"POT-Creation-Date: 2017-01-09 19:41+0000\n"
 "PO-Revision-Date: 2016-10-22 23:14+0000\n"
 "Last-Translator: Dhiraj Kumar Singh <singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,7 +69,7 @@ msgstr "अब आप %(serviceName)s उपयोग करने के लि
 msgid "Account verified"
 msgstr "खाता सत्यापित"
 
-#: app/scripts/views/reset_password.js:72 app/scripts/views/sign_in.js:158
+#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:158
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "अज्ञात खाता.<a href=\"/signup\">साइन अप</a>"
 
@@ -81,7 +81,7 @@ msgstr ""
 msgid "Account no longer exists. Recreate it?"
 msgstr "खाता अब मौजूद नहीं है. इसका पुनः निर्माण करे?"
 
-#: app/scripts/views/sign_up.js:365
+#: app/scripts/views/sign_up.js:370
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "खाता पहले से मौजूद है. <a href=\"/signin\">साइन इन</a>"
 
@@ -125,7 +125,7 @@ msgstr "प्रदर्शित होने वाले नाम का �
 msgid "Your account has been locked for security reasons"
 msgstr "आपका खाता सुरक्षा कारणों से बंद कर दिया गया है"
 
-#: app/scripts/views/mixins/account-reset-mixin.js:44 app/scripts/templates/reset_password.mustache:6
+#: app/scripts/views/mixins/account-reset-mixin.js:44
 msgid "Reset password"
 msgstr "कूटशब्द पुनः तैयार करें"
 
@@ -588,7 +588,7 @@ msgstr "नया कूटशब्द करें"
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
 msgstr ""
 
-#: app/scripts/templates/complete_reset_password.mustache:10 app/scripts/templates/reset_password.mustache:3
+#: app/scripts/templates/complete_reset_password.mustache:10 app/scripts/templates/reset_password.mustache:6
 msgid "Learn how Sync works."
 msgstr "जानें कैसे सिंक काम करता है."
 
@@ -641,8 +641,8 @@ msgid "To better protect your Firefox data, we've emailed a confirmation link to
 msgstr ""
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/sign_in_unblock.mustache:6 app/scripts/templates/sign_in_unblock.mustache:9
-msgid "Didn't arrive? Resend"
-msgstr "नही पंहुचा ? पुन: भेजें"
+msgid "Didn't arrive and not in spam folder? Resend"
+msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -819,19 +819,27 @@ msgstr ""
 msgid "Why is this happening?"
 msgstr "क्यों यह हो रहा है?"
 
-#: app/scripts/templates/reset_password.mustache:1
-msgid "Forgot password"
-msgstr "पासवर्ड भूल गए"
+#: app/scripts/templates/reset_password.mustache:1 app/scripts/templates/reset_password.mustache:4
+msgid "Reset account"
+msgstr ""
 
-#: app/scripts/templates/reset_password.mustache:2
+#: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
+msgid "Continue to %(serviceName)s"
+msgstr "जारी रखें %(serviceName)s"
+
+#: app/scripts/templates/reset_password.mustache:5
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr ""
 
-#: app/scripts/templates/reset_password.mustache:5 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
+#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "ईमेल"
 
-#: app/scripts/templates/reset_password.mustache:7 app/scripts/templates/reset_password.mustache:9
+#: app/scripts/templates/reset_password.mustache:9
+msgid "Begin reset"
+msgstr "रीसेट शुरू करें"
+
+#: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
 msgid "Remember password? Sign in."
 msgstr "कूटशब्द याद रखें? साइन इन करें."
 
@@ -842,10 +850,6 @@ msgstr ""
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
 msgstr "साइन आउट"
-
-#: app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "जारी रखें %(serviceName)s"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
@@ -1049,7 +1053,7 @@ msgid "none connected"
 msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
-msgid "Get app"
+msgid "Download"
 msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:14
@@ -1115,6 +1119,12 @@ msgstr ""
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Firefox खाते का प्रयोग करें"
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "नही पंहुचा ? पुन: भेजें"
+
+#~ msgid "Forgot password"
+#~ msgstr "पासवर्ड भूल गए"
 
 #~ msgid "Firefox Sync will begin momentarily"
 #~ msgstr "Firefox सिंक क्षण भर शुरू हो जाएगा"
@@ -1226,9 +1236,6 @@ msgstr "Firefox खाते का प्रयोग करें"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr "पासवर्ड रीसेट करने पर हमारे सर्वर से आपका ब्राउज़िंग डाटा मिट जायेगा. आपके उपकरणों पर कोई डेटा अछूता रहेगा. नीचे अपना ईमेल दर्ज करके रीसेट प्रक्रिया शुरू करते हैं."
-
-#~ msgid "Begin reset"
-#~ msgstr "रीसेट शुरू करें"
 
 #~ msgid "Age is required"
 #~ msgstr "उम्र की आवश्यकता है"

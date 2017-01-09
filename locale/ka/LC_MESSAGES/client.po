@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-23 21:50+0000\n"
+"POT-Creation-Date: 2017-01-09 19:41+0000\n"
 "PO-Revision-Date: 2016-09-13 20:42+0000\n"
 "Last-Translator: ბექა არაბული <arabulibeqa@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,7 +66,7 @@ msgstr "თქვენ უკვე მზად ხართ %(serviceName)s-�
 msgid "Account verified"
 msgstr "ანგარიში დამოწმდა"
 
-#: app/scripts/views/reset_password.js:72 app/scripts/views/sign_in.js:158
+#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:158
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "უცნობი ანგარიში. <a href=\"/signup\">რეგისტრაცია</a>"
 
@@ -78,7 +78,7 @@ msgstr ""
 msgid "Account no longer exists. Recreate it?"
 msgstr "ანგარიში აღარ არსებობს. შეიქმნას ხელახლა?"
 
-#: app/scripts/views/sign_up.js:365
+#: app/scripts/views/sign_up.js:370
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "ანგარიში უკვე არსებობს. <a href=\"/signin\">შესვლა</a>"
 
@@ -122,7 +122,7 @@ msgstr "ნაჩვენები სახელი განახლდა"
 msgid "Your account has been locked for security reasons"
 msgstr "თქვენი ანგარიში დაბლოკილია უსაფრთხოების მიზნით"
 
-#: app/scripts/views/mixins/account-reset-mixin.js:44 app/scripts/templates/reset_password.mustache:6
+#: app/scripts/views/mixins/account-reset-mixin.js:44
 msgid "Reset password"
 msgstr "პაროლის აღდგენა"
 
@@ -587,7 +587,7 @@ msgstr "შეიყვანეთ ახალი პაროლი"
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
 msgstr "როგორც კი ახალ პაროლს გადასცემთ, Sync-ის ყველა ის მონაცემი დაიკარგება, რაც მოწყობილობებზე არ გაქვთ."
 
-#: app/scripts/templates/complete_reset_password.mustache:10 app/scripts/templates/reset_password.mustache:3
+#: app/scripts/templates/complete_reset_password.mustache:10 app/scripts/templates/reset_password.mustache:6
 msgid "Learn how Sync works."
 msgstr "გაიგეთ როგორ მუშაობს Sync."
 
@@ -640,8 +640,8 @@ msgid "To better protect your Firefox data, we've emailed a confirmation link to
 msgstr "თქვენი Firefox მონაცემების უკეთ დასაცავად, დასადასტურებელი ბმული %(email)s ელფოსტაზე გამოგიგზავნეთ."
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/sign_in_unblock.mustache:6 app/scripts/templates/sign_in_unblock.mustache:9
-msgid "Didn't arrive? Resend"
-msgstr "არ მოსულა? ხელახლა გაგზავნა"
+msgid "Didn't arrive and not in spam folder? Resend"
+msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -820,19 +820,27 @@ msgstr ""
 msgid "Why is this happening?"
 msgstr ""
 
-#: app/scripts/templates/reset_password.mustache:1
-msgid "Forgot password"
-msgstr "დაგავიწყდათ პაროლი"
+#: app/scripts/templates/reset_password.mustache:1 app/scripts/templates/reset_password.mustache:4
+msgid "Reset account"
+msgstr ""
 
-#: app/scripts/templates/reset_password.mustache:2
+#: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
+msgid "Continue to %(serviceName)s"
+msgstr "%(serviceName)s-ზე გაგრძელება"
+
+#: app/scripts/templates/reset_password.mustache:5
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "პაროლის აღდგენის შემთხვევაში, Sync-ის ყველა ის მონაცემი დაიკარგება, რაც მოწყობილობებზე არ გაქვთ."
 
-#: app/scripts/templates/reset_password.mustache:5 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
+#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "ელ-ფოსტა"
 
-#: app/scripts/templates/reset_password.mustache:7 app/scripts/templates/reset_password.mustache:9
+#: app/scripts/templates/reset_password.mustache:9
+msgid "Begin reset"
+msgstr ""
+
+#: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
 msgid "Remember password? Sign in."
 msgstr "პაროლის დამახსოვრება? შესვლა."
 
@@ -843,10 +851,6 @@ msgstr "Firefox ანგარიშები"
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
 msgstr "გასვლა"
-
-#: app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "%(serviceName)s-ზე გაგრძელება"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
@@ -1050,7 +1054,7 @@ msgid "none connected"
 msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
-msgid "Get app"
+msgid "Download"
 msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:14
@@ -1116,6 +1120,12 @@ msgstr "გამოიყენეთ OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "გამოიყენეთ Firefox ანგარიში"
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "არ მოსულა? ხელახლა გაგზავნა"
+
+#~ msgid "Forgot password"
+#~ msgstr "დაგავიწყდათ პაროლი"
 
 #~ msgid "Firefox Sync will begin momentarily"
 #~ msgstr "Firefox Sync ახლავე დაიწყება"

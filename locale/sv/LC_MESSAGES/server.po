@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-23 21:50+0000\n"
-"PO-Revision-Date: 2016-11-14 22:02+0000\n"
+"POT-Creation-Date: 2017-01-09 19:41+0000\n"
+"PO-Revision-Date: 2016-12-27 09:11+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1437572463.0\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:670
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:628
 msgid "Still there?"
 msgstr "Fortfarande där?"
 
@@ -47,13 +47,13 @@ msgid "Sign in to Sync"
 msgstr "Logga in till Sync"
 
 #: templates/new_device_login.html:1 templates/password_changed.html:1 templates/password_reset.html:1 templates/password_reset_required.html:1 templates/post_verify.html:1 templates/recovery.html:1
-#: templates/suspicious_location.html:1 templates/unblock_code.html:1 templates/verification_reminder_first.html:1 templates/verification_reminder_second.html:1 templates/verify.html:1
-#: templates/verify_login.html:1 templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
-#: server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
+#: templates/unblock_code.html:1 templates/verification_reminder_first.html:1 templates/verification_reminder_second.html:1 templates/verify.html:1 templates/verify_login.html:1
+#: templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
+#: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox-konton"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:564
+#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:562
 msgid "New sign-in to Firefox"
 msgstr "Ny inloggning till Firefox"
 
@@ -73,9 +73,9 @@ msgstr "För mer information, besök <a %(supportLinkAttributes)s>Mozilla Suppor
 
 #: templates/new_device_login.html:6 templates/new_device_login.txt:5 templates/password_changed.html:7 templates/password_changed.txt:6 templates/password_reset.html:6 templates/password_reset.txt:5
 #: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:7 templates/post_verify.txt:6 templates/recovery.html:8 templates/recovery.txt:7
-#: templates/suspicious_location.html:14 templates/suspicious_location.txt:13 templates/unblock_code.html:6 templates/unblock_code.txt:5 templates/verification_reminder_first.html:7
-#: templates/verification_reminder_first.txt:6 templates/verification_reminder_second.html:7 templates/verification_reminder_second.txt:6 templates/verify.html:7 templates/verify.txt:6
-#: templates/verify_login.html:7 templates/verify_login.txt:6 templates/verify_sync.html:9 templates/verify_sync.txt:8
+#: templates/unblock_code.html:6 templates/unblock_code.txt:5 templates/verification_reminder_first.html:7 templates/verification_reminder_first.txt:6 templates/verification_reminder_second.html:7
+#: templates/verification_reminder_second.txt:6 templates/verify.html:7 templates/verify.txt:6 templates/verify_login.html:7 templates/verify_login.txt:6 templates/verify_sync.html:9
+#: templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
 msgstr "Mozilla sekretesspolicy"
 
@@ -94,7 +94,7 @@ msgstr "Lösenord har ändrats"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr ""
+msgstr "Ditt lösenord har ändrats från följande enhet:"
 
 #: templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
@@ -142,26 +142,26 @@ msgstr "För att förhindra ytterligare obehörig åtkomst till ditt Firefox-kon
 msgid "What should you do?"
 msgstr "Vad ska du göra?"
 
-#: templates/password_reset_required.html:5 templates/password_reset_required.txt:4 templates/suspicious_location.html:7 templates/suspicious_location.txt:6
+#: templates/password_reset_required.html:5 templates/password_reset_required.txt:4
 msgid "First, change your Firefox Account password."
 msgstr "För det första, ändra lösenordet för ditt Firefox-konto."
 
-#: templates/password_reset_required.html:6 templates/password_reset_required.txt:5 templates/suspicious_location.html:8 templates/suspicious_location.txt:7
+#: templates/password_reset_required.html:6 templates/password_reset_required.txt:5
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 msgstr ""
 "För det andra, om Firefox sparar lösenord till webbplatser, bör du ändra dessa lösenord också. Angripare kan få tillgång till dessa lösenord, så du bör kontrollera dessa konton för misstänkt "
 "aktivitet."
 
-#: templates/password_reset_required.html:7 templates/password_reset_required.txt:6 templates/suspicious_location.html:9 templates/suspicious_location.txt:8
+#: templates/password_reset_required.html:7 templates/password_reset_required.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "Lär dig att se vilka lösenord Firefox lagrar åt dig."
 
-#: templates/password_reset_required.html:8 templates/password_reset_required.txt:7 templates/suspicious_location.html:12 templates/suspicious_location.txt:11
+#: templates/password_reset_required.html:8 templates/password_reset_required.txt:7
 msgid "Best,"
 msgstr "Bästa,"
 
-#: templates/password_reset_required.html:9 templates/password_reset_required.txt:8 templates/suspicious_location.html:13 templates/suspicious_location.txt:12
+#: templates/password_reset_required.html:9 templates/password_reset_required.txt:8
 msgid "The Firefox Accounts team"
 msgstr "Gruppen Firefox-konto"
 
@@ -191,39 +191,11 @@ msgstr "Glömt ditt lösenord?"
 
 #: templates/recovery.html:3 templates/recovery.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
-msgstr ""
+msgstr "Klicka på knappen inom den närmaste timmen för att ange ett nytt lösenord för ditt Firefox-konto. Begäran kom från följande enhet:"
 
 #: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
 msgstr "Återställ lösenordet"
-
-#: templates/suspicious_location.html:2 templates/suspicious_location.txt:1
-msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
-msgstr "Har du loggat in på ditt Firefox-konto från någon av följande platser under de senaste 60 dagarna? Om du inte känner igen dessa platser, kan någon annan ha tillgång till ditt Firefox-konto."
-
-#: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
-msgid "Date & Time:"
-msgstr "Datum och tid:"
-
-#: templates/suspicious_location.html:4 templates/suspicious_location.txt:3
-msgid "Device:"
-msgstr "Enhet:"
-
-#: templates/suspicious_location.html:5 templates/suspicious_location.txt:4
-msgid "Location:"
-msgstr "Plats:"
-
-#: templates/suspicious_location.html:6 templates/suspicious_location.txt:5
-msgid "If you don’t recognize the activity above:"
-msgstr "Om du inte känner igen aktiviteten ovan:"
-
-#: templates/suspicious_location.html:10 templates/suspicious_location.txt:9
-msgid "Why are you receiving this email?"
-msgstr "Varför får du detta mejl?"
-
-#: templates/suspicious_location.html:11 templates/suspicious_location.txt:10
-msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
-msgstr "Vi märkte nyligen inloggningar till ditt Firefox-konto från ovanliga platser. Vi meddelar dig som en försiktighetsåtgärd."
 
 #: templates/unblock_code.html:2 templates/unblock_code.txt:1
 msgid "Is this you signing in?"
@@ -241,7 +213,7 @@ msgstr "Om nej, hjälpa oss att avvärja inkräktare och <a %(reportSignInLinkAt
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Om nej, hjälp oss att avvärja inkräktare och rapportera detta till oss."
 
-#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:667
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:625
 msgid "Hello again."
 msgstr "Hej igen."
 
@@ -299,83 +271,79 @@ msgstr "Om du misstänker att någon försöker få åtkomst till ditt konto, ä
 
 #: templates/verify_sync.html:2 templates/verify_sync.txt:1
 msgid "Ready, set, sync"
-msgstr ""
+msgstr "Klara, färdiga, synka"
 
 #: templates/verify_sync.html:3 templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "Bekräfta att du har fått det här e-postmeddelandet och vi kommer att hjälpa dig att installera och synkronisera Firefox på alla dina enheter och börjar med:"
 
 #: templates/verify_sync.html:5 templates/verify_sync.txt:4
 msgid "Verify email "
-msgstr ""
+msgstr "Verifiera e-post "
 
 #: templates/verify_sync.html:6 templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "När det är bekräftat, hjälper vi dig att installera och ansluta Firefox på åtminstone en annan enhet."
 
-#: mailer.js:145
+#: mailer.js:143
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s på %(uaOS)s %(uaOSVersion)s"
 
-#: mailer.js:148
+#: mailer.js:146
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s på %(uaOS)s"
 
-#: mailer.js:175
+#: mailer.js:173
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (uppskattad)"
 
-#: mailer.js:177
+#: mailer.js:175
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (uppskattad)"
 
-#: mailer.js:179
+#: mailer.js:177
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (uppskattad)"
 
-#: mailer.js:181
+#: mailer.js:179
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (uppskattad)"
 
-#: mailer.js:262
+#: mailer.js:260
 msgid "Verify your Firefox Account"
 msgstr "Verifiera ditt Firefox-konto"
 
-#: mailer.js:287
+#: mailer.js:285
 msgid "Confirm your email and start to sync!"
-msgstr ""
+msgstr "Bekräfta din e-post och börja synkronisera!"
 
-#: mailer.js:340
+#: mailer.js:338
 msgid "Firefox Account authorization code"
 msgstr "Firefox-konto behörighetskod"
 
-#: mailer.js:388
+#: mailer.js:386
 msgid "Confirm new sign-in to Firefox"
 msgstr "Bekräfta ny inloggning till Firefox"
 
-#: mailer.js:435
+#: mailer.js:433
 msgid "Reset your Firefox Account password"
 msgstr "Återställ lösenordet för ditt Firefox-konto"
 
-#: mailer.js:471
+#: mailer.js:469
 msgid "Your Firefox Account password has been changed"
 msgstr "Lösenordet till ditt Firefox-konto har ändrats"
 
-#: mailer.js:505
+#: mailer.js:503
 msgid "Your Firefox Account password has been reset"
 msgstr "Lösenordet till ditt Firefox-konto har återställts"
 
-#: mailer.js:535
+#: mailer.js:533
 msgid "Firefox Account password reset required"
 msgstr "Återställning av lösenord för Firefox-konto krävs"
 
-#: mailer.js:600
+#: mailer.js:598
 msgid "Firefox Account verified"
 msgstr "Firefox-konto verifierat"
-
-#: mailer.js:645
-msgid "Suspicious activity with your Firefox Account"
-msgstr "Misstänkt aktivitet med ditt Firefox-konto"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -428,6 +396,31 @@ msgstr "Firefox molntjänster"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Tjänstevillkor"
+
+#~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
+#~ msgstr ""
+#~ "Har du loggat in på ditt Firefox-konto från någon av följande platser under de senaste 60 dagarna? Om du inte känner igen dessa platser, kan någon annan ha tillgång till ditt Firefox-konto."
+
+#~ msgid "Date & Time:"
+#~ msgstr "Datum och tid:"
+
+#~ msgid "Device:"
+#~ msgstr "Enhet:"
+
+#~ msgid "Location:"
+#~ msgstr "Plats:"
+
+#~ msgid "If you don’t recognize the activity above:"
+#~ msgstr "Om du inte känner igen aktiviteten ovan:"
+
+#~ msgid "Why are you receiving this email?"
+#~ msgstr "Varför får du detta mejl?"
+
+#~ msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
+#~ msgstr "Vi märkte nyligen inloggningar till ditt Firefox-konto från ovanliga platser. Vi meddelar dig som en försiktighetsåtgärd."
+
+#~ msgid "Suspicious activity with your Firefox Account"
+#~ msgstr "Misstänkt aktivitet med ditt Firefox-konto"
 
 #~ msgid "Your Firefox Account password has been successfully changed."
 #~ msgstr "Lösenordet till ditt Firefox-konto har ändrats."
