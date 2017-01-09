@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-23 21:50+0000\n"
+"POT-Creation-Date: 2017-01-09 19:41+0000\n"
 "PO-Revision-Date: 2016-12-28 20:15+0000\n"
 "Last-Translator: Moḥend Belqasem <belkacem77@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pontoon\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:670
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:628
 msgid "Still there?"
 msgstr "Aqla-k da?"
 
@@ -32,11 +32,11 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
-"Teqqned akken iwata ibenk inek amezwaru ɣer umiḍn inek Firefox. Akken ad temtawid ugar, qqen ibenk tebɣid ɣer <a href='%(androidUrl)s'>Firefox i Android</a> neɣ <a href='%(iosUrl)s'>Firefox i "
-"iOS</a>."
+"Teqqned akken iwata ibenk inek amezwaru ɣer umiḍn inek Firefox. Akken ad temtawid ugar, qqen ibenk tebɣid ɣer <a href='%(androidUrl)s'>Firefox i Android</a> neɣ <a href='%(iosUrl)s'>Firefox i iOS</"
+"a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -47,13 +47,13 @@ msgid "Sign in to Sync"
 msgstr "Kcem ɣer Sync"
 
 #: templates/new_device_login.html:1 templates/password_changed.html:1 templates/password_reset.html:1 templates/password_reset_required.html:1 templates/post_verify.html:1 templates/recovery.html:1
-#: templates/suspicious_location.html:1 templates/unblock_code.html:1 templates/verification_reminder_first.html:1 templates/verification_reminder_second.html:1 templates/verify.html:1
-#: templates/verify_login.html:1 templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1
-#: server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
+#: templates/unblock_code.html:1 templates/verification_reminder_first.html:1 templates/verification_reminder_second.html:1 templates/verify.html:1 templates/verify_login.html:1
+#: templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
+#: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Imiḍanen Firefox"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:564
+#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:562
 msgid "New sign-in to Firefox"
 msgstr "Tuqqna nniḍen ɣer Firefox"
 
@@ -73,9 +73,9 @@ msgstr "Ugar n telɣut, rzu ɣer <a %(supportLinkAttributes)s>Tallalt n Mozilla<
 
 #: templates/new_device_login.html:6 templates/new_device_login.txt:5 templates/password_changed.html:7 templates/password_changed.txt:6 templates/password_reset.html:6 templates/password_reset.txt:5
 #: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:7 templates/post_verify.txt:6 templates/recovery.html:8 templates/recovery.txt:7
-#: templates/suspicious_location.html:14 templates/suspicious_location.txt:13 templates/unblock_code.html:6 templates/unblock_code.txt:5 templates/verification_reminder_first.html:7
-#: templates/verification_reminder_first.txt:6 templates/verification_reminder_second.html:7 templates/verification_reminder_second.txt:6 templates/verify.html:7 templates/verify.txt:6
-#: templates/verify_login.html:7 templates/verify_login.txt:6 templates/verify_sync.html:9 templates/verify_sync.txt:8
+#: templates/unblock_code.html:6 templates/unblock_code.txt:5 templates/verification_reminder_first.html:7 templates/verification_reminder_first.txt:6 templates/verification_reminder_second.html:7
+#: templates/verification_reminder_second.txt:6 templates/verify.html:7 templates/verify.txt:6 templates/verify_login.html:7 templates/verify_login.txt:6 templates/verify_sync.html:9
+#: templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
 msgstr "Tasertit tabaḍnit n Mozilla"
 
@@ -142,26 +142,26 @@ msgstr "Akken ad tesweḥleḍ inekcam nniḍen ur yettwasirgen ara ɣer umiḍa
 msgid "What should you do?"
 msgstr "D acu i yessefk ad txedmeḍ?"
 
-#: templates/password_reset_required.html:5 templates/password_reset_required.txt:4 templates/suspicious_location.html:7 templates/suspicious_location.txt:6
+#: templates/password_reset_required.html:5 templates/password_reset_required.txt:4
 msgid "First, change your Firefox Account password."
 msgstr "Di tazwara, snifel awal uffir n umiḍan inek Firefox."
 
-#: templates/password_reset_required.html:6 templates/password_reset_required.txt:5 templates/suspicious_location.html:8 templates/suspicious_location.txt:7
+#: templates/password_reset_required.html:6 templates/password_reset_required.txt:5
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 msgstr ""
 "Sakin, ma yella Firefox yesseklas awalen inek uffiren i yesmal web, yessefk ad tesnifleḍ ula d awalen agi uffiren. Imakwaren zemren ad kecmen ɣer wawalen agi uffiren, ihi yessefk ad tesneqdeḍ "
 "imiḍanen agi akken ad teḍmen ma mačči d aɛraḍ n takweṛḍa."
 
-#: templates/password_reset_required.html:7 templates/password_reset_required.txt:6 templates/suspicious_location.html:9 templates/suspicious_location.txt:8
+#: templates/password_reset_required.html:7 templates/password_reset_required.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "Issin amek ara twalid anwa awalen uffiren i yesseklas Firefox i kečč."
 
-#: templates/password_reset_required.html:8 templates/password_reset_required.txt:7 templates/suspicious_location.html:12 templates/suspicious_location.txt:11
+#: templates/password_reset_required.html:8 templates/password_reset_required.txt:7
 msgid "Best,"
 msgstr "S tegmatt,"
 
-#: templates/password_reset_required.html:9 templates/password_reset_required.txt:8 templates/suspicious_location.html:13 templates/suspicious_location.txt:12
+#: templates/password_reset_required.html:9 templates/password_reset_required.txt:8
 msgid "The Firefox Accounts team"
 msgstr "Tarbaɛt n imiḍanen n Firefox"
 
@@ -197,34 +197,6 @@ msgstr "Sit ɣef tqaffalt akka kra n usrag akken ad tesbaduḍ awal uffir amaynu
 msgid "Reset password"
 msgstr "Wennez awal uffir"
 
-#: templates/suspicious_location.html:2 templates/suspicious_location.txt:1
-msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
-msgstr "Tkecmeḍ yakan ɣer umiḍan inek Firefox seg wadigen agi di 60 n wussan agi ineggura? MA yella ur teɛqiled ara adigen agi, ahat d yiwen nniḍen i yekcmen ɣer umiḍan inek Firefox."
-
-#: templates/suspicious_location.html:3 templates/suspicious_location.txt:2
-msgid "Date & Time:"
-msgstr "Azem & Akud:"
-
-#: templates/suspicious_location.html:4 templates/suspicious_location.txt:3
-msgid "Device:"
-msgstr "Ibenk:"
-
-#: templates/suspicious_location.html:5 templates/suspicious_location.txt:4
-msgid "Location:"
-msgstr "Adig:"
-
-#: templates/suspicious_location.html:6 templates/suspicious_location.txt:5
-msgid "If you don’t recognize the activity above:"
-msgstr "Ma yella ur teɛqiled ara armud n daw-a:"
-
-#: templates/suspicious_location.html:10 templates/suspicious_location.txt:9
-msgid "Why are you receiving this email?"
-msgstr "Acuɣer i d-remsed imayl agi?"
-
-#: templates/suspicious_location.html:11 templates/suspicious_location.txt:10
-msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
-msgstr "Nwal melmi kan tuqqniwin ɣe umiḍan inek Firefox seg imeḍqan ur nuɣ ara tanumi nettwali-ten. Akken anseḥbiber falla-k, aqla-ɣ nenna-yak-d."
-
 #: templates/unblock_code.html:2 templates/unblock_code.txt:1
 msgid "Is this you signing in?"
 msgstr "D kečč i d-yessutren tuqqna agi?"
@@ -241,17 +213,17 @@ msgstr "Ma ulac, mmel-aɣ-d amek ad neḥwi yir imdanen <a %(reportSignInLinkAtt
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Ma ulac, mudd-aɣ-d afus akken ad neḥwi yir imdanen udiɣ mmel-aɣ-tid."
 
-#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:667
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:625
 msgid "Hello again."
 msgstr "Azul fell-ak tikelt nniḍen."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-" email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+"this email address to activate your account."
 msgstr ""
-"Kra n wussan ɣer deffir, terniḍ amiḍan Firefox, acukan weṛǧin tessentmeṭ. Amiḍan yettwasentmenad isireg ad tkecmeḍ ɣer yiccaren inek, ticṛaḍ n isebtar, awalen inek uffiren akked umazray inek seg yal"
-" ibenk yeqqnen ɣer umiḍan agi. Sentem kan tansa agi imayl akken ad tremdeḍ amiḍan inek."
+"Kra n wussan ɣer deffir, terniḍ amiḍan Firefox, acukan weṛǧin tessentmeṭ. Amiḍan yettwasentmenad isireg ad tkecmeḍ ɣer yiccaren inek, ticṛaḍ n isebtar, awalen inek uffiren akked umazray inek seg "
+"yal ibenk yeqqnen ɣer umiḍan agi. Sentem kan tansa agi imayl akken ad tremdeḍ amiḍan inek."
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
 msgid "Activate now"
@@ -313,69 +285,65 @@ msgstr "Seqed tansa yinek imayl"
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Ticki yentem, ak-d-mudd afus deg usebded akked tuqqna n Firefox xaṛsum ɣef yiwen n yibenk nniḍen."
 
-#: mailer.js:145
+#: mailer.js:143
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s di %(uaOS)s %(uaOSVersion)s"
 
-#: mailer.js:148
+#: mailer.js:146
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s di %(uaOS)s"
 
-#: mailer.js:175
+#: mailer.js:173
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (ahat)"
 
-#: mailer.js:177
+#: mailer.js:175
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (ahat)"
 
-#: mailer.js:179
+#: mailer.js:177
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (ahat)"
 
-#: mailer.js:181
+#: mailer.js:179
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (ahat)"
 
-#: mailer.js:262
+#: mailer.js:260
 msgid "Verify your Firefox Account"
 msgstr "Senqed amidan inek Firefox"
 
-#: mailer.js:287
+#: mailer.js:285
 msgid "Confirm your email and start to sync!"
 msgstr "Sentem tansa-ik imayl akked ad temtawiḍ!"
 
-#: mailer.js:340
+#: mailer.js:338
 msgid "Firefox Account authorization code"
 msgstr "Tangalt n tsiregt n umidan Firefox"
 
-#: mailer.js:388
+#: mailer.js:386
 msgid "Confirm new sign-in to Firefox"
 msgstr "Sentem tuqqna tamaynut ɣer Firefox"
 
-#: mailer.js:435
+#: mailer.js:433
 msgid "Reset your Firefox Account password"
 msgstr "Wennez awal inek uffir n umiḍan Firefox"
 
-#: mailer.js:471
+#: mailer.js:469
 msgid "Your Firefox Account password has been changed"
 msgstr "Awal uffir n umiḍan inek Firefox yettusnifel"
 
-#: mailer.js:505
+#: mailer.js:503
 msgid "Your Firefox Account password has been reset"
 msgstr "Awal uffir n umiḍan inek Firefox yettuwennez"
 
-#: mailer.js:535
+#: mailer.js:533
 msgid "Firefox Account password reset required"
 msgstr "Awennez n wawal uffir n umidan Firefox yettwasra"
 
-#: mailer.js:600
+#: mailer.js:598
 msgid "Firefox Account verified"
 msgstr "Amiḍan Firefox yettwasenqed"
-
-#: mailer.js:645
-msgid "Suspicious activity with your Firefox Account"
-msgstr "Yir armud akked umiḍan inek Firefox"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -428,6 +396,30 @@ msgstr "Imeẓla n usigna n Firefox"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Tiwtilin n useqdec"
+
+#~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
+#~ msgstr "Tkecmeḍ yakan ɣer umiḍan inek Firefox seg wadigen agi di 60 n wussan agi ineggura? MA yella ur teɛqiled ara adigen agi, ahat d yiwen nniḍen i yekcmen ɣer umiḍan inek Firefox."
+
+#~ msgid "Date & Time:"
+#~ msgstr "Azem & Akud:"
+
+#~ msgid "Device:"
+#~ msgstr "Ibenk:"
+
+#~ msgid "Location:"
+#~ msgstr "Adig:"
+
+#~ msgid "If you don’t recognize the activity above:"
+#~ msgstr "Ma yella ur teɛqiled ara armud n daw-a:"
+
+#~ msgid "Why are you receiving this email?"
+#~ msgstr "Acuɣer i d-remsed imayl agi?"
+
+#~ msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
+#~ msgstr "Nwal melmi kan tuqqniwin ɣe umiḍan inek Firefox seg imeḍqan ur nuɣ ara tanumi nettwali-ten. Akken anseḥbiber falla-k, aqla-ɣ nenna-yak-d."
+
+#~ msgid "Suspicious activity with your Firefox Account"
+#~ msgstr "Yir armud akked umiḍan inek Firefox"
 
 #~ msgid "Your Firefox Account password has been successfully changed."
 #~ msgstr "Awal uffir n umiḍan inek Firefox yettusnifel akken iwata."

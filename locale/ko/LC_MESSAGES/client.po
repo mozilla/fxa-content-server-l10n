@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-23 21:50+0000\n"
+"POT-Creation-Date: 2017-01-09 19:41+0000\n"
 "PO-Revision-Date: 2016-12-07 03:15+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,7 +67,7 @@ msgstr "%(serviceName)s를 지금부터 사용할 수 있습니다."
 msgid "Account verified"
 msgstr "계정 확인"
 
-#: app/scripts/views/reset_password.js:72 app/scripts/views/sign_in.js:158
+#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:158
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "잘못된 계정입니다. <a href=\"/signup\">회원가입</a>"
 
@@ -79,7 +79,7 @@ msgstr ""
 msgid "Account no longer exists. Recreate it?"
 msgstr "계정이 더이상 존재하지 않습니다. 다시 만드시겠습니까?"
 
-#: app/scripts/views/sign_up.js:365
+#: app/scripts/views/sign_up.js:370
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "존재하고 있는 계정입니다. <a href=\"/signin\">회원가입</a>"
 
@@ -123,7 +123,7 @@ msgstr "표시 이름 갱신됨"
 msgid "Your account has been locked for security reasons"
 msgstr "보안상의 이유로 계정 잠김"
 
-#: app/scripts/views/mixins/account-reset-mixin.js:44 app/scripts/templates/reset_password.mustache:6
+#: app/scripts/views/mixins/account-reset-mixin.js:44
 msgid "Reset password"
 msgstr "암호 초기화"
 
@@ -588,7 +588,7 @@ msgstr "새로운 비밀번호 입력"
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
 msgstr "새로운 비밀번호를 제출하고 나면, 가지고 있는 기기들 중 어느 곳에도 있지 않은 Sync 데이터는 사라지게 됩니다."
 
-#: app/scripts/templates/complete_reset_password.mustache:10 app/scripts/templates/reset_password.mustache:3
+#: app/scripts/templates/complete_reset_password.mustache:10 app/scripts/templates/reset_password.mustache:6
 msgid "Learn how Sync works."
 msgstr "동기화 작동법을 배워봅시다."
 
@@ -641,8 +641,8 @@ msgid "To better protect your Firefox data, we've emailed a confirmation link to
 msgstr "당신의 Firefox 데이터를 더 안전하게 보호하기 위해, %(email)s 로 확인 메일을 보냈습니다"
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/sign_in_unblock.mustache:6 app/scripts/templates/sign_in_unblock.mustache:9
-msgid "Didn't arrive? Resend"
-msgstr "도착하지 않았나요? 다시 전송"
+msgid "Didn't arrive and not in spam folder? Resend"
+msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -820,19 +820,27 @@ msgstr "활동내역 리포트"
 msgid "Why is this happening?"
 msgstr "이런 일이 왜 일어나나요?"
 
-#: app/scripts/templates/reset_password.mustache:1
-msgid "Forgot password"
-msgstr "비밀번호를 잊어버렸습니다"
+#: app/scripts/templates/reset_password.mustache:1 app/scripts/templates/reset_password.mustache:4
+msgid "Reset account"
+msgstr ""
 
-#: app/scripts/templates/reset_password.mustache:2
+#: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
+msgid "Continue to %(serviceName)s"
+msgstr "%(serviceName)s으로 계속"
+
+#: app/scripts/templates/reset_password.mustache:5
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "비밀번호를 다시 설정하는 경우, 가지고 있는 기기들 중 어느 곳에도 있지 않은 Sync 데이터는 사라지게 됩니다."
 
-#: app/scripts/templates/reset_password.mustache:5 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
+#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "이메일"
 
-#: app/scripts/templates/reset_password.mustache:7 app/scripts/templates/reset_password.mustache:9
+#: app/scripts/templates/reset_password.mustache:9
+msgid "Begin reset"
+msgstr "초기화 시작"
+
+#: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
 msgid "Remember password? Sign in."
 msgstr "비밀번호를 기억하십니까? 로그인 하십시오."
 
@@ -843,10 +851,6 @@ msgstr "Firefox Account"
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
 msgstr "로그 아웃"
-
-#: app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "%(serviceName)s으로 계속"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
@@ -1050,8 +1054,8 @@ msgid "none connected"
 msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
-msgid "Get app"
-msgstr "앱 받기"
+msgid "Download"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:14
 msgid "Firefox for Android"
@@ -1116,6 +1120,15 @@ msgstr "OpenID 사용"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Firefox Account 사용"
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "도착하지 않았나요? 다시 전송"
+
+#~ msgid "Forgot password"
+#~ msgstr "비밀번호를 잊어버렸습니다"
+
+#~ msgid "Get app"
+#~ msgstr "앱 받기"
 
 #~ msgid "Firefox Sync will begin momentarily"
 #~ msgstr "Firefox Sync가 곧 시작됩니다."
@@ -1282,9 +1295,6 @@ msgstr "Firefox Account 사용"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr "비밀번호를 초기화하면 서버에 있는 탐색 데이터가 삭제됩니다. 장치의 데이터는 유지됩니다. 초기화를 시작하려면 아래에 이메일을 입력해주세요."
-
-#~ msgid "Begin reset"
-#~ msgstr "초기화 시작"
 
 #~ msgid "Age is required"
 #~ msgstr "나이는 필수항목"

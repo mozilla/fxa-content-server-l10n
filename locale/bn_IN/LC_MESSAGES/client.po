@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-23 21:50+0000\n"
+"POT-Creation-Date: 2017-01-09 19:41+0000\n"
 "PO-Revision-Date: 2016-11-08 05:49+0000\n"
 "Last-Translator: Ayan Choudhury <ping2ayan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,7 +67,7 @@ msgstr "আপনি এখন %(serviceName)s ব্যবহার করত�
 msgid "Account verified"
 msgstr "অ্যাকাউন্ট যাচাইকরণ হয়েছে"
 
-#: app/scripts/views/reset_password.js:72 app/scripts/views/sign_in.js:158
+#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:158
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "অপরিচিত অ্যাকাউন্ট। <a href=\"/signup\">সাইন আপ</a>"
 
@@ -79,7 +79,7 @@ msgstr ""
 msgid "Account no longer exists. Recreate it?"
 msgstr "অ্যাকাউন্টের আর অস্থিত্ব নেই। পুনরায় তৈরি করবেন?"
 
-#: app/scripts/views/sign_up.js:365
+#: app/scripts/views/sign_up.js:370
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "অ্যাকাউন্ট ইতিমধ্যেই আছে। <a href=\"/signin\">সাইন ইন</a>"
 
@@ -123,7 +123,7 @@ msgstr "পরিদর্শনের নাম আপডেট করা হ�
 msgid "Your account has been locked for security reasons"
 msgstr "নিরাপত্তার কারণে আপনার অ্যাকাউন্ট লক করা হয়েছে"
 
-#: app/scripts/views/mixins/account-reset-mixin.js:44 app/scripts/templates/reset_password.mustache:6
+#: app/scripts/views/mixins/account-reset-mixin.js:44
 msgid "Reset password"
 msgstr "পাসওয়ার্ড পুনরায় সেট করুন।"
 
@@ -588,7 +588,7 @@ msgstr "নতুন পাসওয়ার্ড লিখুন"
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
 msgstr "নতুন পাসওয়ার্ড জমা দিলেই, আপনি আপনার কোন না কোন ডিভাইস এর সিঙ্ক ডেটা হারাবেন।"
 
-#: app/scripts/templates/complete_reset_password.mustache:10 app/scripts/templates/reset_password.mustache:3
+#: app/scripts/templates/complete_reset_password.mustache:10 app/scripts/templates/reset_password.mustache:6
 msgid "Learn how Sync works."
 msgstr "জানুন কিভাবে সিঙ্ক কাজ করে।"
 
@@ -641,8 +641,8 @@ msgid "To better protect your Firefox data, we've emailed a confirmation link to
 msgstr "আপনার Firefox তথ্য রক্ষা করার জন্য, আমরা একটি কনফার্মেশন লিঙ্ক ইমেল করেছি %(email)s"
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/sign_in_unblock.mustache:6 app/scripts/templates/sign_in_unblock.mustache:9
-msgid "Didn't arrive? Resend"
-msgstr "যায়নি? আবার পাঠান"
+msgid "Didn't arrive and not in spam folder? Resend"
+msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -820,19 +820,27 @@ msgstr "কার্যকলাপ জানান"
 msgid "Why is this happening?"
 msgstr "এটা কেন হচ্ছে?"
 
-#: app/scripts/templates/reset_password.mustache:1
-msgid "Forgot password"
-msgstr "পাসওয়ার্ড ভুলে গেছেন"
+#: app/scripts/templates/reset_password.mustache:1 app/scripts/templates/reset_password.mustache:4
+msgid "Reset account"
+msgstr ""
 
-#: app/scripts/templates/reset_password.mustache:2
+#: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
+msgid "Continue to %(serviceName)s"
+msgstr "%(serviceName)সমূহতে চালিয়ে যান"
+
+#: app/scripts/templates/reset_password.mustache:5
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "যখন আপনি আপনার পাসওয়ার্ড রিসেট করেন, আপনি আপনার ডিভাইসের কোন না কোন সিঙ্ক ডেটা হারাবেন।"
 
-#: app/scripts/templates/reset_password.mustache:5 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
+#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "ইমেইল"
 
-#: app/scripts/templates/reset_password.mustache:7 app/scripts/templates/reset_password.mustache:9
+#: app/scripts/templates/reset_password.mustache:9
+msgid "Begin reset"
+msgstr ""
+
+#: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
 msgid "Remember password? Sign in."
 msgstr "পাসওয়ার্ড মনে আছে? সাইন-ইন করুন।"
 
@@ -843,10 +851,6 @@ msgstr "Firefox অ্যাকাউন্ট"
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
 msgstr "সাইন আউট"
-
-#: app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "%(serviceName)সমূহতে চালিয়ে যান"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
@@ -1050,8 +1054,8 @@ msgid "none connected"
 msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
-msgid "Get app"
-msgstr "অ্যাপ পান"
+msgid "Download"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:14
 msgid "Firefox for Android"
@@ -1116,6 +1120,15 @@ msgstr "ব্যবহার করুন OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Firefox অ্যাকাউন্ট ব্যবহার করুন"
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "যায়নি? আবার পাঠান"
+
+#~ msgid "Forgot password"
+#~ msgstr "পাসওয়ার্ড ভুলে গেছেন"
+
+#~ msgid "Get app"
+#~ msgstr "অ্যাপ পান"
 
 #~ msgid "Firefox Sync will begin momentarily"
 #~ msgstr "এক্ষুণি Firefox Sync শুরু হবে"
