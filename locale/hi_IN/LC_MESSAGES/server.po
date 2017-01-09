@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -65,12 +65,12 @@ msgstr "आईपी ​​पता: %(ip)s"
 
 #: templates/new_device_login.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr "यह एक स्वचालित ईमेल है; यदि आपने इस क्रिया को अधिकृत नहीं किया है, तो <a%(passwordChangeLinkAttributes)s>कृपया अपना पासवर्ड बदल लें.</a>"
+msgstr "यह एक स्वचालित ईमेल है; यदि आपने इस क्रिया को अधिकृत नहीं किया है, तो <a %(passwordChangeLinkAttributes)s>कृपया अपना पासवर्ड बदल लें.</a>"
 
 #: templates/new_device_login.html:5 templates/password_changed.html:6 templates/password_reset.html:5 templates/post_verify.html:6 templates/recovery.html:7
 #: templates/verification_reminder_first.html:6 templates/verification_reminder_second.html:6 templates/verify.html:6 templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr "अधिक जानकारी के लिए, कृपया<a%(supportLinkAttributes)s>मोज़िला सपोर्ट</a>जाएँ."
+msgstr "अधिक जानकारी के लिए, कृपया<a %(supportLinkAttributes)s>मोज़िला सपोर्ट</a>जाएँ."
 
 #: templates/new_device_login.html:6 templates/new_device_login.txt:5 templates/password_changed.html:7 templates/password_changed.txt:6 templates/password_reset.html:6 templates/password_reset.txt:5
 #: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:7 templates/post_verify.txt:6 templates/recovery.html:8 templates/recovery.txt:7
@@ -99,11 +99,11 @@ msgstr ""
 
 #: templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "यह एक स्वचालित ईमेल है; यदि आपने इस क्रिया को अधिकृत नहीं किया है, तो <a%(resetLinkAttributes)s>अपना पासवर्ड पुनः तैयार करे </a>."
+msgstr "यह एक स्वचालित ईमेल है; यदि आपने इस क्रिया को अधिकृत नहीं किया है, तो <a %(resetLinkAttributes)s>अपना पासवर्ड पुनः तैयार करे </a>."
 
 #: templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr "यह एक स्वचालित ईमेल है; यदि आप अपने Firefox खाते का पासवर्ड नहीं बदला है, तो आपको इसे तुरंत%(resetLink)s पर बदल लेना चाहिए"
+msgstr "यह एक स्वचालित ईमेल है; यदि आप अपने Firefox खाते का पासवर्ड नहीं बदला है, तो आपको इसे तुरंत %(resetLink)s पर बदल लेना चाहिए"
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
@@ -111,7 +111,7 @@ msgstr "आपका पासवर्ड पुनः तैयार कर �
 
 #: templates/password_reset.html:3
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr "आपके Firefox खाते का पासवर्ड बदल गया है. अगर आपने इसे नहीं बदला है, तो कृपया अब <a%(resetLinkAttributes)s> अपना पासवर्ड पुनः तैयार करें </a>."
+msgstr "आपके Firefox खाते का पासवर्ड बदल गया है. अगर आपने इसे नहीं बदला है, तो कृपया अब <a %(resetLinkAttributes)s> अपना पासवर्ड पुनः तैयार करें </a>."
 
 #: templates/password_reset.html:4 templates/post_verify.html:5 templates/post_verify.txt:4 templates/recovery.html:6 templates/recovery.txt:5 templates/verification_reminder_first.html:5
 #: templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:5 templates/verification_reminder_second.txt:4 templates/verify.html:5 templates/verify.txt:4

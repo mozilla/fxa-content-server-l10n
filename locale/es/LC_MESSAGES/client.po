@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -901,7 +901,7 @@ msgstr "Migra tus datos de Sync creando una cuenta de Firefox nueva."
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr "¿Buscas tus datos de Complementos? <Crea una cuenta de Firefox con la dirección de correo de tu cuenta de Complementos."
+msgstr "¿Buscas tus datos de Complementos? Crea una cuenta de Firefox con la dirección de correo de tu cuenta de Complementos."
 
 #: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
