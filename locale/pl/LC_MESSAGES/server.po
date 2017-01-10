@@ -392,27 +392,3 @@ msgstr "Usługi Firefox cloud"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Regulamin usługi"
-
-#~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
-#~ msgstr "Czy zalogowano do konta Firefoksa z poniższych miejsc w ciągu ostatnich 60 dni? Jeśli nie rozpoznajesz tych miejsc, to ktoś inny mógł mieć dostęp do tego konta Firefoksa."
-
-#~ msgid "Date & Time:"
-#~ msgstr "Data i czas:"
-
-#~ msgid "Device:"
-#~ msgstr "Urządzenie:"
-
-#~ msgid "Location:"
-#~ msgstr "Położenie:"
-
-#~ msgid "If you don’t recognize the activity above:"
-#~ msgstr "Jeśli nie rozpoznajesz powyższej działalności:"
-
-#~ msgid "Why are you receiving this email?"
-#~ msgstr "Czemu dostaję tę wiadomość?"
-
-#~ msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
-#~ msgstr "Niedawno zalogowano do konta Firefoksa z nietypowych miejsc. To powiadomienie zostało wysłane w ramach środków ostrożności."
-
-#~ msgid "Suspicious activity with your Firefox Account"
-#~ msgstr "Podejrzana działalność na koncie Firefoksa"
