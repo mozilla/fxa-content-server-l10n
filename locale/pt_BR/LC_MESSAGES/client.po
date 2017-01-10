@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-09 19:41+0000\n"
-"PO-Revision-Date: 2016-12-26 13:09+0000\n"
+"PO-Revision-Date: 2017-01-09 23:58+0000\n"
 "Last-Translator: Maykon Chagas <mchagas@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -465,9 +465,7 @@ msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Ao continuar, você concorda com os <a id=\"service-tos\" href=\"%(termsUri)s\">Termos do serviço</a> e com a <a id=\"service-pp\" href=\"%(privacyUri)s\">Política de privacidade</a> de "
 "%(serviceName)s (%(serviceUri)s)."
@@ -642,7 +640,7 @@ msgstr "Para proteger melhor os seus dados no Firefox, enviamos por e-mail um li
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/sign_in_unblock.mustache:6 app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive and not in spam folder? Resend"
-msgstr ""
+msgstr "Não chegou e não na pasta de spam? Reenviar"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -740,9 +738,7 @@ msgstr "Esqueceu sua senha?"
 
 #: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:25 app/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr ""
-"Ao continuar, concorda com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy\">Política de privacidade</a> dos serviços na nuvem do "
-"Firefox."
+msgstr "Ao continuar, concorda com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy\">Política de privacidade</a> dos serviços na nuvem do Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -823,7 +819,7 @@ msgstr "Por que isso está acontecendo?"
 
 #: app/scripts/templates/reset_password.mustache:1 app/scripts/templates/reset_password.mustache:4
 msgid "Reset account"
-msgstr ""
+msgstr "Redefinir a conta"
 
 #: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
@@ -1060,7 +1056,7 @@ msgstr "nenhum conectado"
 
 #: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Download"
-msgstr ""
+msgstr "Baixar"
 
 #: app/scripts/templates/settings/clients.mustache:14
 msgid "Firefox for Android"
@@ -1165,20 +1161,18 @@ msgstr "Usar a Conta Firefox"
 #~ msgid "Sync preferences"
 #~ msgstr "Preferências do Sync"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr ""
-#~ "Procurando pelo Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Comece aqui</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr "Procurando pelo Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Comece aqui</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Tem uma conta com um e-mail diferente? <a href=\"%(signinUri)s\">Entre</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "O Firefox está disponível para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> e <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "O Firefox está disponível para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> e <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Última atividade: %(translatedTimeAgo)s"
@@ -1414,8 +1408,8 @@ msgstr "Usar a Conta Firefox"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Por favor, habilite os cookies em seu navegador, pois são necessários para o funcionamento do Firefox Accounts. Os cookies são pedaços de dados armazenados em seu navegador que permitem lembrar "
-#~ "seu usuário entre uma sessão e outra."
+#~ "Por favor, habilite os cookies em seu navegador, pois são necessários para o funcionamento do Firefox Accounts. Os cookies são pedaços de dados armazenados em seu navegador que permitem lembrar seu "
+#~ "usuário entre uma sessão e outra."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "O Firefox estará disponível em breve para iOS!"
@@ -1561,17 +1555,13 @@ msgstr "Usar a Conta Firefox"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Já tem uma conta? Entre."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
 #~ "Ao prosseguir, eu concordo com o <a id=\"service-tos\" href=\"%(termsUri)s\">Termos do serviço</a> e <a id=\"service-pp\" href=\"%(privacyUri)s\">política de privacidade</a> de %(serviceName)s "
 #~ "(%(serviceUri)s)."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "Ao prosseguir, concordo com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy\">Política de privacidade</a> dos serviços na nuvem do "
-#~ "Firefox."
+#~ msgstr "Ao prosseguir, concordo com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy\">Política de privacidade</a> dos serviços na nuvem do Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Assine às notícias e dicas do Firefox"
