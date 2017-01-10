@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-09 19:41+0000\n"
-"PO-Revision-Date: 2017-01-09 22:47+0000\n"
+"PO-Revision-Date: 2017-01-10 06:28+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: az\n"
@@ -246,7 +246,7 @@ msgstr "İstək bədəni çox böyükdür"
 
 #: app/scripts/lib/auth-errors.js:109
 msgid "The request was blocked for security reasons"
-msgstr "İstək təhlükəsizlik səbəblərindən bloklandı"
+msgstr "İstək təhlükəsizlik səbəblərindən əngəlləndi"
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:318
 msgid "Invalid authorization code"
