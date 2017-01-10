@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-09 19:41+0000\n"
-"PO-Revision-Date: 2017-01-10 19:59+0000\n"
+"PO-Revision-Date: 2017-01-10 20:13+0000\n"
 "Last-Translator: Merike Sell <merikes@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -817,7 +817,7 @@ msgstr "Miks see juhtus?"
 
 #: app/scripts/templates/reset_password.mustache:1 app/scripts/templates/reset_password.mustache:4
 msgid "Reset account"
-msgstr ""
+msgstr "Konto lähtestamine"
 
 #: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
@@ -1054,7 +1054,7 @@ msgstr "ühendatuid pole"
 
 #: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Download"
-msgstr ""
+msgstr "Laadi alla"
 
 #: app/scripts/templates/settings/clients.mustache:14
 msgid "Firefox for Android"
