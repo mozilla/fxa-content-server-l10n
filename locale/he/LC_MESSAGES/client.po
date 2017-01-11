@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-09 19:41+0000\n"
-"PO-Revision-Date: 2017-01-11 20:34+0000\n"
+"PO-Revision-Date: 2017-01-11 20:25+0000\n"
 "Last-Translator: ItielMaN <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -638,7 +638,7 @@ msgstr "על מנת להגן על נתוני ה־Firefox שלך, שלחנו קי
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/sign_in_unblock.mustache:6 app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive and not in spam folder? Resend"
-msgstr ""
+msgstr "הדוא״ל לא הגיע ולא נמצא בתיקיית דואר הזבל? שליחה מחדש"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-09 19:41+0000\n"
-"PO-Revision-Date: 2017-01-11 20:13+0000\n"
+"PO-Revision-Date: 2017-01-11 20:15+0000\n"
 "Last-Translator: ItielMaN <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -129,7 +129,7 @@ msgstr ""
 
 #: templates/password_reset_required.html:2 templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-msgstr ""
+msgstr "איתרנו פעילות חשודה בחשבון ה־Firefox שלך. חשבונך עלול להיות חשוף בפני גורמי צד שלישי."
 
 #: templates/password_reset_required.html:3 templates/password_reset_required.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
@@ -229,7 +229,7 @@ msgstr "אימות דוא״ל"
 
 #: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9 templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
+msgstr "יש לאמת את הדוא״ל לסיום ההרשמה של חשבון ה־Firefox שלך"
 
 #: templates/verification_reminder_first.txt:3 templates/verification_reminder_second.txt:3 templates/verify.txt:3
 msgid "Activate now:"
