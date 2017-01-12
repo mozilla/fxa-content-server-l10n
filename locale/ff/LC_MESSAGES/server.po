@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-09 19:41+0000\n"
-"PO-Revision-Date: 2017-01-11 19:57+0000\n"
+"PO-Revision-Date: 2017-01-12 10:02+0000\n"
 "Last-Translator: ibrahima.sarr <ibrahima.sarr@pulaagu.com>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -154,11 +154,11 @@ msgstr "So ɗum ɓennii, so Firefox ena moofti finndeeji lowe geese, aɗa foti w
 
 #: templates/password_reset_required.html:7 templates/password_reset_required.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
-msgstr ""
+msgstr "Humpito no yiyretee finndeeji ɗi Firefox mooftan-maa."
 
 #: templates/password_reset_required.html:8 templates/password_reset_required.txt:7
 msgid "Best,"
-msgstr ""
+msgstr "Buri fof,"
 
 #: templates/password_reset_required.html:9 templates/password_reset_required.txt:8
 msgid "The Firefox Accounts team"
@@ -190,7 +190,7 @@ msgstr "A yejjitii finnde maa?"
 
 #: templates/recovery.html:3 templates/recovery.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
-msgstr ""
+msgstr "Dobo e butoŋ oo e nder waktu garoowo oo ngam suɓaade finnde hesere Konte Firefox maa. Ɗaɓɓitannde ndee ummii ko e ngol-ɗoo kaɓirgol:"
 
 #: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
@@ -198,29 +198,31 @@ msgstr "Firlit finnde"
 
 #: templates/unblock_code.html:2 templates/unblock_code.txt:1
 msgid "Is this you signing in?"
-msgstr ""
+msgstr "Ko aan woni ceŋiiɗo ɗoo oo?"
 
 #: templates/unblock_code.html:4 templates/unblock_code.txt:3
 msgid "If yes, here is the authorization code you need:"
-msgstr ""
+msgstr "So tawii ko aan, kod jamirgol oo nani:"
 
 #: templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr ""
+msgstr "So wonaa een, wallu min surde wujjittooɓe tee <a %(reportSignInLinkAttributes)s>jaŋtano min.</a>"
 
 #: templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "So wonaa aan wallu-min falaade wijjittooɓe tee jaŋtano min."
 
 #: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:625
 msgid "Hello again."
-msgstr ""
+msgstr "A salminaama dadi."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
 " email address to activate your account."
 msgstr ""
+"E balɗe ɓennuɗe ɗee, a sosiino konte Firefox, kono haa jooni e ƴaawtaaki ɗe. Konte ƴeewtaaɗe mbaɗat-maa heɓde tabbe maa, maantore, finndeeji e aslol e kaɓirgol ceŋingol e majje kala. Teeŋtin nde "
+"ñiiɓirde iimeel tan ngam hurminde konte maa."
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
 msgid "Activate now"
@@ -232,7 +234,7 @@ msgstr "Ƴeewto Iimeel"
 
 #: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9 templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
+msgstr "Ƴeewto iimeel maa ngam gaynude binnditagol Konte Firefox maa"
 
 #: templates/verification_reminder_first.txt:3 templates/verification_reminder_second.txt:3 templates/verify.txt:3
 msgid "Activate now:"
