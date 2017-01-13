@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-09 19:41+0000\n"
-"PO-Revision-Date: 2017-01-13 10:01+0000\n"
+"PO-Revision-Date: 2017-01-13 10:18+0000\n"
 "Last-Translator: chengings <chengings@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -52,7 +52,7 @@ msgstr "Firefox Sync จะทำงานต่อเร็ว ๆ นี้"
 
 #: app/scripts/views/ready.js:39
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "ตั้งค่าให้สมบูรณ์ โดยการป้อนรหัสผ่านใหม่บน Firefox ในอุปกรณ์อื่น ๆ"
 
 #: app/scripts/views/ready.js:44
 msgid "Sign-in confirmed"
@@ -681,19 +681,19 @@ msgstr "ลงชื่อเข้า &rarr;"
 
 #: app/scripts/templates/connect_another_device.mustache:9
 msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr ""
+msgstr "เปิดการตั้งค่า และเลือก ลงชื่อเข้าใช้ ใน Firefox เพื่อการติดตั้งที่สมบูรณ์"
 
 #: app/scripts/templates/connect_another_device.mustache:11
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
+msgstr "ลงชื่อเข้าใช้ Firefox สำหรับ iOS เพื่อการติดตั้งที่สมบูรณ์"
 
 #: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:17
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "ลงชื่อเข้าใช้ Firefox บนอุปกรณ์อื่นเพื่อการติดตั้งที่สมบูรณ์"
 
 #: app/scripts/templates/connect_another_device.mustache:15
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
+msgstr "ลงชื่อเข้าใช้ Firefox สำหรับ Android เพื่อการติดตั้งที่สมบูรณ์"
 
 #: app/scripts/templates/connect_another_device.mustache:19
 msgid "Why is this required?"
