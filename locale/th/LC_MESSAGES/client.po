@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-09 19:41+0000\n"
-"PO-Revision-Date: 2017-01-13 10:18+0000\n"
+"PO-Revision-Date: 2017-01-13 10:24+0000\n"
 "Last-Translator: chengings <chengings@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -72,7 +72,7 @@ msgstr "ไม่รู้จักบัญชีนี้ <a href=\"/signup\">
 
 #: app/scripts/views/sign_in.js:155
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr ""
+msgstr "ไม่รู้จัก Firefox Account นี้ <a href=\"/signup\">ลงทะเบียน</a> ด้วยการใช้บัญชีอีเมล Add-ons อันก่อนเพื่อเข้าถึงข้อมูล Add-ons ของคุณ"
 
 #: app/scripts/views/sign_up.js:62
 msgid "Account no longer exists. Recreate it?"
@@ -697,7 +697,7 @@ msgstr "ลงชื่อเข้าใช้ Firefox สำหรับ Andro
 
 #: app/scripts/templates/connect_another_device.mustache:19
 msgid "Why is this required?"
-msgstr ""
+msgstr "ทำไมจึงเป็นสิ่งที่จำเป็น?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -1045,7 +1045,7 @@ msgstr "Firefox สำหรับ iOS"
 
 #: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15
 msgid "none connected"
-msgstr ""
+msgstr "ไม่มีการเชื่อมต่อ"
 
 #: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Download"
