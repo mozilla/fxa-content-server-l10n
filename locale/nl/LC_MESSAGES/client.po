@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-09 19:41+0000\n"
+"POT-Creation-Date: 2017-01-20 20:55+0000\n"
 "PO-Revision-Date: 2017-01-09 22:35+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1447423715.0\n"
 
-#: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:168 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
+#: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
 msgid "Account verified successfully"
 msgstr "Account met succes geverifieerd"
 
@@ -67,11 +67,11 @@ msgstr "U kunt %(serviceName)s nu gebruiken"
 msgid "Account verified"
 msgstr "Account geverifieerd"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:158
+#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:167
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Onbekende account. <a href=\"/signup\">Registreren</a>"
 
-#: app/scripts/views/sign_in.js:155
+#: app/scripts/views/sign_in.js:164
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Onbekende Firefox-account. <a href=\"/signup\">Registreer</a> met behulp van het e-mailadres van uw eerdere Add-ons-account om uw add-on-gegevens te benaderen."
 
@@ -91,11 +91,11 @@ msgstr "Met dank aan <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgid "Password changed successfully"
 msgstr "Wachtwoord met succes gewijzigd"
 
-#: app/scripts/views/settings/client_disconnect.js:18
+#: app/scripts/views/settings/client_disconnect.js:17
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
 msgstr "Het spijt ons dit te horen. U dient uw Firefox-accountwachtwoord te wijzigen en informatie van uw apparaatfabrikant over het op afstand wissen van uw gegevens te raadplegen."
 
-#: app/scripts/views/settings/client_disconnect.js:20
+#: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Het spijt ons dit te horen. Als dit een apparaat was dat u echt niet vertrouwt, dient u zowel uw Firefox-accountwachtwoord als alle opgeslagen wachtwoorden in Firefox te wijzigen."
 
@@ -167,8 +167,12 @@ msgstr "E-mailbericht opnieuw verzonden"
 msgid "Signed out successfully"
 msgstr "U bent afgemeld"
 
+#: app/scripts/models/reliers/sync.js:50
+msgid "Firefox Sync"
+msgstr "Firefox Sync"
+
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
-#: app/scripts/lib/require-on-demand.js:33 app/scripts/lib/require-on-demand.js:37 app/scripts/lib/require-on-demand.js:41 app/scripts/lib/require-on-demand.js:45
+#: app/scripts/lib/require-on-demand.js:35
 msgid "Unexpected error"
 msgstr "Onverwachte fout"
 
@@ -460,12 +464,22 @@ msgstr "Niet-ondersteunde afbeeldingsprovider"
 msgid "Image processing error"
 msgstr "Fout bij verwerken van afbeelding"
 
-#: app/scripts/lib/service-name.js:16
-msgid "Firefox Sync"
-msgstr "Firefox Sync"
+#: app/scripts/lib/require-on-demand.js:39
+msgid "Resources failed to load"
+msgstr ""
+
+#: app/scripts/lib/require-on-demand.js:43
+msgid "Unexpected resource error"
+msgstr ""
+
+#: app/scripts/lib/require-on-demand.js:47
+msgid "Script error"
+msgstr ""
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Door verder te gaan, gaat u akkoord met de <a id=\"service-tos\" href=\"%(termsUri)s\">Servicevoorwaarden</a> en <a id=\"service-pp\" href=\"%(privacyUri)s\">Privacyverklaring</a> van "
 "%(serviceName)s (%(serviceUri)s)."
@@ -518,43 +532,47 @@ msgstr "U moet aan bepaalde leeftijdscriteria voldoen om een Firefox-account aan
 msgid "Learn more."
 msgstr "Meer lezen."
 
-#: app/scripts/templates/choose_what_to_sync.mustache:1 app/scripts/templates/sign_up.mustache:23
+#: app/scripts/templates/choose_what_to_sync.mustache:1
+msgid "%(email)s created"
+msgstr ""
+
+#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
 msgstr "Kies wat u wilt synchroniseren"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:2
+#: app/scripts/templates/choose_what_to_sync.mustache:3
 msgid "Open tabs"
 msgstr "Open tabbladen"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:4
+#: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Bookmarks"
 msgstr "Bladwijzers"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:6
+#: app/scripts/templates/choose_what_to_sync.mustache:7
 msgid "Add-ons"
 msgstr "Add-ons"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:8
+#: app/scripts/templates/choose_what_to_sync.mustache:9
 msgid "Passwords"
 msgstr "Wachtwoorden"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:10
+#: app/scripts/templates/choose_what_to_sync.mustache:11
 msgid "History"
 msgstr "Geschiedenis"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:12
+#: app/scripts/templates/choose_what_to_sync.mustache:13
 msgid "Preferences"
 msgstr "Voorkeuren"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:14
+#: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
 msgstr "Add-ons en voorkeuren worden op mobiele apparaten momenteel niet gesynchroniseerd."
 
-#: app/scripts/templates/choose_what_to_sync.mustache:15
+#: app/scripts/templates/choose_what_to_sync.mustache:16
 msgid "Save settings"
 msgstr "Instellingen opslaan"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+#: app/scripts/templates/choose_what_to_sync.mustache:17 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Terug"
 
@@ -638,7 +656,8 @@ msgstr "Er is een verificatiekoppeling verzonden&nbsp;naar %(escapedEmail)s"
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
 msgstr "Om uw Firefox-gegevens beter te beschermen, hebben we een bevestigingskoppeling naar %(email)s gestuurd"
 
-#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/sign_in_unblock.mustache:6 app/scripts/templates/sign_in_unblock.mustache:9
+#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
+#: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive and not in spam folder? Resend"
 msgstr "Niet aangekomen en niet in de map met spam? Opnieuw verzenden"
 
@@ -653,10 +672,6 @@ msgstr "Klik binnen een uur op de koppeling die we via %(email)s naar u hebben v
 #: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7
 msgid "Remember password? Sign in"
 msgstr "Weet u uw wachtwoord nog? Aanmelden"
-
-#: app/scripts/templates/confirm_reset_password.mustache:9
-msgid "Didn’t arrive? Resend"
-msgstr "Niet aangekomen? Opnieuw verzenden"
 
 #: app/scripts/templates/connect_another_device.mustache:1
 msgid "Connect another device"
@@ -738,7 +753,8 @@ msgstr "Wachtwoord vergeten?"
 
 #: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:25 app/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Door verder te gaan, gaat u akkoord met de <a id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a> van Firefox-cloudservices."
+msgstr ""
+"Door verder te gaan, gaat u akkoord met de <a id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a> van Firefox-cloudservices."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -788,7 +804,7 @@ msgid "Accept"
 msgstr "Accepteren"
 
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
-#: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:10
+#: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9
 #: app/scripts/templates/settings/communication_preferences.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6
 #: app/scripts/templates/settings/display_name.mustache:6 app/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
@@ -927,8 +943,8 @@ msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
 "Firefox for desktop will appear."
 msgstr ""
-"Met Sync kunt u de bladwijzers, geschiedenis en wachtwoorden die u in Firefox op één apparaat opslaat, delen met Firefox op andere apparaten. Meld u aan bij Firefox op uw telefoon of tablet, en alle"
-" in Firefox voor desktop opgeslagen gegevens verschijnen vanzelf."
+"Met Sync kunt u de bladwijzers, geschiedenis en wachtwoorden die u in Firefox op één apparaat opslaat, delen met Firefox op andere apparaten. Meld u aan bij Firefox op uw telefoon of tablet, en "
+"alle in Firefox voor desktop opgeslagen gegevens verschijnen vanzelf."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
@@ -937,6 +953,10 @@ msgid ""
 msgstr ""
 "Sync is niet ontworpen als permanent back-upsysteem – het deelt alleen wat lokaal is opgeslagen. Als u uw wachtwoord opnieuw instelt en uw gegevens niet op minstens één ander apparaat zijn "
 "opgeslagen, kunt u alle gegevens verliezen die met het oude wachtwoord zijn gekoppeld. Om die reden kunt u Firefox op meerdere apparaten installeren en Sync gebruiken."
+
+#: app/scripts/templates/why_connect_another_device.mustache:4
+msgid "Got it"
+msgstr ""
 
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2
@@ -1000,34 +1020,30 @@ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer s
 msgstr "Uw navigatiegegevens blijven op %(deviceName)s bestaan, maar er wordt niet meer met uw account gesynchroniseerd."
 
 #: app/scripts/templates/settings/client_disconnect.mustache:3
-msgid "Reason for disconnecting…"
-msgstr "Reden voor verbreken…"
-
-#: app/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
 msgstr "Verdacht apparaat"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:5
+#: app/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Lost or stolen device"
 msgstr "Verloren of gestolen apparaat"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:6
+#: app/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Old or replaced device"
 msgstr "Oud of vervangen apparaat"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:7
-msgid "Duplicate device"
-msgstr "Dubbel apparaat"
+#: app/scripts/templates/settings/client_disconnect.mustache:6
+msgid "Duplicate Device"
+msgstr ""
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8
+#: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
 msgstr "Zeg ik liever niet"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:9 app/scripts/templates/settings/clients.mustache:9
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:9
 msgid "Disconnect"
 msgstr "Verbinding verbreken"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:11
+#: app/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
 msgstr "Verbreken is gelukt"
 
@@ -1123,6 +1139,15 @@ msgstr "OpenID gebruiken"
 msgid "Use Firefox Account"
 msgstr "Firefox-account gebruiken"
 
+#~ msgid "Didn’t arrive? Resend"
+#~ msgstr "Niet aangekomen? Opnieuw verzenden"
+
+#~ msgid "Reason for disconnecting…"
+#~ msgstr "Reden voor verbreken…"
+
+#~ msgid "Duplicate device"
+#~ msgstr "Dubbel apparaat"
+
 #~ msgid "Didn't arrive? Resend"
 #~ msgstr "Niet aangekomen? Opnieuw verzenden"
 
@@ -1162,18 +1187,19 @@ msgstr "Firefox-account gebruiken"
 #~ msgid "Sync preferences"
 #~ msgstr "Sync-voorkeuren"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Zoekt u Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Begin hier</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Hebt u een account met een ander e-mailadres? <a href=\"%(signinUri)s\">Aanmelden</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox is beschikbaar voor <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> en <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is beschikbaar voor <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> en <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Laatst actief: %(translatedTimeAgo)s"
@@ -1285,8 +1311,8 @@ msgstr "Firefox-account gebruiken"
 
 #~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
 #~ msgstr ""
-#~ "Om veiligheidsredenen is uw account vergrendeld. Voor het uitvoeren van activiteiten op accountniveau verifieert u uw account opnieuw door op de verificatiekoppeling te klikken die naar %(email)s is"
-#~ " verzonden"
+#~ "Om veiligheidsredenen is uw account vergrendeld. Voor het uitvoeren van activiteiten op accountniveau verifieert u uw account opnieuw door op de verificatiekoppeling te klikken die naar "
+#~ "%(email)s is verzonden"
 
 #~ msgid "Signup has been disabled"
 #~ msgstr "Registratie is uitgeschakeld"
@@ -1353,8 +1379,8 @@ msgstr "Firefox-account gebruiken"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr ""
-#~ "Opnieuw instellen van uw wachtwoord zal uw navigatiegegevens van onze servers wissen. Gegevens op uw apparaten blijven onaangetast. Begin het herinitialisatieproces door hieronder uw e-mailadres in "
-#~ "te voeren."
+#~ "Opnieuw instellen van uw wachtwoord zal uw navigatiegegevens van onze servers wissen. Gegevens op uw apparaten blijven onaangetast. Begin het herinitialisatieproces door hieronder uw e-mailadres "
+#~ "in te voeren."
 
 #~ msgid "a day"
 #~ msgstr "een dag"
@@ -1411,8 +1437,8 @@ msgstr "Firefox-account gebruiken"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Schakel cookies in uw browser in; deze zijn vereist door Firefox Accounts. Cookies zijn kleine stukjes gegevens die in uw browser worden opgeslagen en functionaliteiten bieden, zoals het onthouden "
-#~ "van u tussen sessies."
+#~ "Schakel cookies in uw browser in; deze zijn vereist door Firefox Accounts. Cookies zijn kleine stukjes gegevens die in uw browser worden opgeslagen en functionaliteiten bieden, zoals het "
+#~ "onthouden van u tussen sessies."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Binnenkort komt Firefox naar iOS!"
@@ -1558,13 +1584,17 @@ msgstr "Firefox-account gebruiken"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Hebt u al een account? Meld u aan."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-#~ msgstr ""
-#~ "Door verder te gaan ga ik akkoord met de <a id=\"service-tos\" href=\"%(termsUri)s\">Servicevoorwaarden</a> en het <a id=\"service-pp\" href=\"%(privacyUri)s\">Privacybeleid</a> van %(serviceName)s "
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
 #~ "(%(serviceUri)s)."
+#~ msgstr ""
+#~ "Door verder te gaan ga ik akkoord met de <a id=\"service-tos\" href=\"%(termsUri)s\">Servicevoorwaarden</a> en het <a id=\"service-pp\" href=\"%(privacyUri)s\">Privacybeleid</a> van "
+#~ "%(serviceName)s (%(serviceUri)s)."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Door verder te gaan ga ik akkoord met de <a id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a> van Firefox-cloudservices."
+#~ msgstr ""
+#~ "Door verder te gaan ga ik akkoord met de <a id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a> van Firefox-"
+#~ "cloudservices."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Abonneren op Firefox-nieuws en -tips"

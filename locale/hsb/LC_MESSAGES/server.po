@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-09 19:41+0000\n"
+"POT-Creation-Date: 2017-01-20 20:55+0000\n"
 "PO-Revision-Date: 2016-12-23 18:37+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444481448.0\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:628
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:679
 msgid "Still there?"
 msgstr "Sće hišće tu?"
 
@@ -54,7 +54,7 @@ msgstr "Pola Sync přizjewić"
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:562
+#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:609
 msgid "New sign-in to Firefox"
 msgstr "Nowe přizjewjenje pola Firefox"
 
@@ -214,7 +214,7 @@ msgstr "Jeli nic, pomhajće nam zadobywarjow wotwobarać a <a %(reportSignInLink
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Jeli nic, pomhajće nam zadobywarjow wotwobarać a zdźělće nam to."
 
-#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:625
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:676
 msgid "Hello again."
 msgstr "Witaj hišće raz."
 
@@ -288,63 +288,63 @@ msgstr "E-mejl přepruwować"
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Hdyž je wobkrućena, budźemy wam pomhać, Firefox na znajmjeńša jednym druhim graće instalować a zwjazać."
 
-#: mailer.js:143
+#: mailer.js:151
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s na %(uaOS)s %(uaOSVersion)s"
 
-#: mailer.js:146
+#: mailer.js:154
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s na %(uaOS)s"
 
-#: mailer.js:173
+#: mailer.js:181
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (trochowane)"
 
-#: mailer.js:175
+#: mailer.js:183
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (trochowane)"
 
-#: mailer.js:177
+#: mailer.js:185
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (trochowane)"
 
-#: mailer.js:179
+#: mailer.js:187
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (trochowany)"
 
-#: mailer.js:260
+#: mailer.js:275
 msgid "Verify your Firefox Account"
 msgstr "Wobkrućće swoje konto Firefox"
 
-#: mailer.js:285
+#: mailer.js:304
 msgid "Confirm your email and start to sync!"
 msgstr "Wobkrućće swoju e-mejl a započńće synchronizować!"
 
-#: mailer.js:338
+#: mailer.js:361
 msgid "Firefox Account authorization code"
 msgstr "Awtorizowanski kod konta Firefox"
 
-#: mailer.js:386
+#: mailer.js:413
 msgid "Confirm new sign-in to Firefox"
 msgstr "Nowe přizjewjenje pola Firefox wobkrućić"
 
-#: mailer.js:433
+#: mailer.js:464
 msgid "Reset your Firefox Account password"
 msgstr "Stajće hesło swojeho konta Firefox wróćo"
 
-#: mailer.js:469
+#: mailer.js:504
 msgid "Your Firefox Account password has been changed"
 msgstr "Hesło wašeho konta Firefox je so změniło"
 
-#: mailer.js:503
+#: mailer.js:542
 msgid "Your Firefox Account password has been reset"
 msgstr "Hesło wašeho konta Firefox je so wróćo stajiło"
 
-#: mailer.js:533
+#: mailer.js:576
 msgid "Firefox Account password reset required"
 msgstr "Hesło konta Firefox dyrbi so wróćo stajić"
 
-#: mailer.js:598
+#: mailer.js:649
 msgid "Firefox Account verified"
 msgstr "Konto Firefox wobkrućene"
 

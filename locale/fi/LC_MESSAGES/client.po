@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-09 19:41+0000\n"
+"POT-Creation-Date: 2017-01-20 20:55+0000\n"
 "PO-Revision-Date: 2017-01-14 12:09+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1430042344.0\n"
 
-#: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:168 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
+#: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
 msgid "Account verified successfully"
 msgstr "Tilin vahvistaminen onnistui"
 
@@ -67,11 +67,11 @@ msgstr "Voit nyt aloittaa palvelun %(serviceName)s käyttämisen"
 msgid "Account verified"
 msgstr "Tili on vahvistettu"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:158
+#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:167
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Tuntematon tili. <a href=\"/signup\">Luo uusi tili</a>"
 
-#: app/scripts/views/sign_in.js:155
+#: app/scripts/views/sign_in.js:164
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr ""
 
@@ -91,11 +91,11 @@ msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a>-palvelusta"
 msgid "Password changed successfully"
 msgstr "Salasana vaihdettu"
 
-#: app/scripts/views/settings/client_disconnect.js:18
+#: app/scripts/views/settings/client_disconnect.js:17
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
 msgstr ""
 
-#: app/scripts/views/settings/client_disconnect.js:20
+#: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr ""
 
@@ -167,8 +167,12 @@ msgstr "Sähköposti on lähetetty uudelleen"
 msgid "Signed out successfully"
 msgstr "Kirjauduttu ulos"
 
+#: app/scripts/models/reliers/sync.js:50
+msgid "Firefox Sync"
+msgstr "Firefox Sync"
+
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
-#: app/scripts/lib/require-on-demand.js:33 app/scripts/lib/require-on-demand.js:37 app/scripts/lib/require-on-demand.js:41 app/scripts/lib/require-on-demand.js:45
+#: app/scripts/lib/require-on-demand.js:35
 msgid "Unexpected error"
 msgstr "Odottamaton virhe"
 
@@ -460,13 +464,24 @@ msgstr "Ei tuettu kuvapalvelu"
 msgid "Image processing error"
 msgstr "Kuvaa käsitellessä tapahtui virhe"
 
-#: app/scripts/lib/service-name.js:16
-msgid "Firefox Sync"
-msgstr "Firefox Sync"
+#: app/scripts/lib/require-on-demand.js:39
+msgid "Resources failed to load"
+msgstr ""
+
+#: app/scripts/lib/require-on-demand.js:43
+msgid "Unexpected resource error"
+msgstr ""
+
+#: app/scripts/lib/require-on-demand.js:47
+msgid "Script error"
+msgstr ""
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Jatkamalla hyväksyt palvelun %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">käyttöehdot</a> ja <a id=\"service-pp\" href=\"%(privacyUri)s\">tietosuojakäytännön</a>."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Jatkamalla hyväksyt palvelun %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">käyttöehdot</a> ja <a id=\"service-pp\" href=\"%(privacyUri)s\">tietosuojakäytännön</a>."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -516,43 +531,47 @@ msgstr "Voidaksesi luoda Firefox-tilin, sinun on täytettävä ikävaatimukset."
 msgid "Learn more."
 msgstr "Lue lisää."
 
-#: app/scripts/templates/choose_what_to_sync.mustache:1 app/scripts/templates/sign_up.mustache:23
+#: app/scripts/templates/choose_what_to_sync.mustache:1
+msgid "%(email)s created"
+msgstr ""
+
+#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
 msgstr "Valitse, mitä synkronoidaan"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:2
+#: app/scripts/templates/choose_what_to_sync.mustache:3
 msgid "Open tabs"
 msgstr "Avoimet välilehdet"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:4
+#: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Bookmarks"
 msgstr "Kirjanmerkit"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:6
+#: app/scripts/templates/choose_what_to_sync.mustache:7
 msgid "Add-ons"
 msgstr "Lisäosat"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:8
+#: app/scripts/templates/choose_what_to_sync.mustache:9
 msgid "Passwords"
 msgstr "Salasanat"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:10
+#: app/scripts/templates/choose_what_to_sync.mustache:11
 msgid "History"
 msgstr "Historia"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:12
+#: app/scripts/templates/choose_what_to_sync.mustache:13
 msgid "Preferences"
 msgstr "Asetukset"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:14
+#: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
 msgstr "Lisäosia ja asetuksia ei nykyisin synkronoida mobiililaitteilla."
 
-#: app/scripts/templates/choose_what_to_sync.mustache:15
+#: app/scripts/templates/choose_what_to_sync.mustache:16
 msgid "Save settings"
 msgstr "Tallenna asetukset"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+#: app/scripts/templates/choose_what_to_sync.mustache:17 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Takaisin"
 
@@ -636,7 +655,8 @@ msgstr "Vahvistuslinkki on lähetetty osoitteeseen %(escapedEmail)s"
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
 msgstr "Suojellaksemme Firefox-tietojasi olemme lähettäneet vahvistuslinkin osoitteeseen %(email)s"
 
-#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/sign_in_unblock.mustache:6 app/scripts/templates/sign_in_unblock.mustache:9
+#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
+#: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive and not in spam folder? Resend"
 msgstr ""
 
@@ -651,10 +671,6 @@ msgstr "Napsauta osoitteeseen %(email)s lähettämäämme linkkiä tunnin kulues
 #: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7
 msgid "Remember password? Sign in"
 msgstr "Muistatko salasanan? Kirjaudu sisään"
-
-#: app/scripts/templates/confirm_reset_password.mustache:9
-msgid "Didn’t arrive? Resend"
-msgstr "Eikö viesti saapunut? Lähetä uudestaan"
 
 #: app/scripts/templates/connect_another_device.mustache:1
 msgid "Connect another device"
@@ -785,7 +801,7 @@ msgid "Accept"
 msgstr "Hyväksy"
 
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
-#: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:10
+#: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9
 #: app/scripts/templates/settings/communication_preferences.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6
 #: app/scripts/templates/settings/display_name.mustache:6 app/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
@@ -931,6 +947,10 @@ msgid ""
 "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 msgstr ""
 
+#: app/scripts/templates/why_connect_another_device.mustache:4
+msgid "Got it"
+msgstr ""
+
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2
 msgid "Change…"
@@ -993,34 +1013,30 @@ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer s
 msgstr "Selaustietosi säilyvät laitteella %(deviceName)s, mutta niitä ei enää synkronoida tilisi kanssa."
 
 #: app/scripts/templates/settings/client_disconnect.mustache:3
-msgid "Reason for disconnecting…"
-msgstr "Syy yhteyden katkaisemiselle…"
-
-#: app/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
 msgstr "Epäilyttävä laite"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:5
+#: app/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Lost or stolen device"
 msgstr "Kadonnut tai varastettu laite"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:6
+#: app/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Old or replaced device"
 msgstr "Vanha tai vaihdettu laite"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:7
-msgid "Duplicate device"
+#: app/scripts/templates/settings/client_disconnect.mustache:6
+msgid "Duplicate Device"
 msgstr ""
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8
+#: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
 msgstr "En halua sanoa"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:9 app/scripts/templates/settings/clients.mustache:9
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:9
 msgid "Disconnect"
 msgstr "Katkaise yhteys"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:11
+#: app/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
 msgstr "Yhteyden katkaiseminen onnistui"
 
@@ -1116,6 +1132,12 @@ msgstr "Käytä OpenID:tä"
 msgid "Use Firefox Account"
 msgstr "Käytä Firefox-tiliä"
 
+#~ msgid "Didn’t arrive? Resend"
+#~ msgstr "Eikö viesti saapunut? Lähetä uudestaan"
+
+#~ msgid "Reason for disconnecting…"
+#~ msgstr "Syy yhteyden katkaisemiselle…"
+
 #~ msgid "Didn't arrive? Resend"
 #~ msgstr "Eikö viesti saapunut? Lähetä uudestaan"
 
@@ -1149,15 +1171,16 @@ msgstr "Käytä Firefox-tiliä"
 #~ msgid "Sync preferences"
 #~ msgstr "Synkronointiasetukset"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Etsitkö Firefox Synciä? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Aloita täältä</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Onko sinulla tili eri sähköpostilla? <a href=\"%(signinUri)s\">Kirjaudu sisään</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
 #~ "Firefox on saatavilla <a href=\"%(linkWindows)s\">Windowsille</a>, <a href=\"%(linkOSX)s\">OS X:lle</a>, <a href=\"%(linkAndroid)s\">Androidille</a>, <a href=\"%(linkIOS)s\">iOS:lle</a> ja <a "
 #~ "href=\"%(linkLinux)s\">Linuxille</a>."

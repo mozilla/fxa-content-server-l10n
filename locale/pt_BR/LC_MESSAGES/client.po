@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-09 19:41+0000\n"
+"POT-Creation-Date: 2017-01-20 20:55+0000\n"
 "PO-Revision-Date: 2017-01-09 23:58+0000\n"
 "Last-Translator: Maykon Chagas <mchagas@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1433624931.0\n"
 
-#: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:168 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
+#: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
 msgid "Account verified successfully"
 msgstr "Conta verificada com sucesso"
 
@@ -67,11 +67,11 @@ msgstr "Agora você está pronto para usar o %(serviceName)s."
 msgid "Account verified"
 msgstr "Conta verificada"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:158
+#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:167
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Conta desconhecida. <a href=\"/signup\">Registre-se</a>"
 
-#: app/scripts/views/sign_in.js:155
+#: app/scripts/views/sign_in.js:164
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Conta Firefox desconhecida. <a href=\"/signup\">Identifique-se</a> utilizando seu endereço de e-mail antigo para acessar suas extensões."
 
@@ -91,11 +91,11 @@ msgstr "Cortesia de <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgid "Password changed successfully"
 msgstr "Senha redefinida com sucesso"
 
-#: app/scripts/views/settings/client_disconnect.js:18
+#: app/scripts/views/settings/client_disconnect.js:17
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
 msgstr "Lamentamos ouvir sobre isso. Você deve alterar sua senha da Conta Firefox e procurar por informações com o fabricante do seu dispositivo sobre como apagar os dados remotamente."
 
-#: app/scripts/views/settings/client_disconnect.js:20
+#: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Lamentos ouvir sobre isso. Se este é um dispositivo que você não confia, você deve alterar a senha da Conta Firefox e alterar todas as senhas salvas no Firefox."
 
@@ -167,8 +167,12 @@ msgstr "E-mail reenviado"
 msgid "Signed out successfully"
 msgstr "Saiu"
 
+#: app/scripts/models/reliers/sync.js:50
+msgid "Firefox Sync"
+msgstr "Firefox Sync"
+
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
-#: app/scripts/lib/require-on-demand.js:33 app/scripts/lib/require-on-demand.js:37 app/scripts/lib/require-on-demand.js:41 app/scripts/lib/require-on-demand.js:45
+#: app/scripts/lib/require-on-demand.js:35
 msgid "Unexpected error"
 msgstr "Erro inesperado"
 
@@ -460,12 +464,22 @@ msgstr "Provedor de imagem não suportado"
 msgid "Image processing error"
 msgstr "Erro no processamento da imagem"
 
-#: app/scripts/lib/service-name.js:16
-msgid "Firefox Sync"
-msgstr "Firefox Sync"
+#: app/scripts/lib/require-on-demand.js:39
+msgid "Resources failed to load"
+msgstr ""
+
+#: app/scripts/lib/require-on-demand.js:43
+msgid "Unexpected resource error"
+msgstr ""
+
+#: app/scripts/lib/require-on-demand.js:47
+msgid "Script error"
+msgstr ""
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Ao continuar, você concorda com os <a id=\"service-tos\" href=\"%(termsUri)s\">Termos do serviço</a> e com a <a id=\"service-pp\" href=\"%(privacyUri)s\">Política de privacidade</a> de "
 "%(serviceName)s (%(serviceUri)s)."
@@ -518,43 +532,47 @@ msgstr "Você deve atender a certos requisitos de idade para criar uma Conta Fir
 msgid "Learn more."
 msgstr "Saiba mais."
 
-#: app/scripts/templates/choose_what_to_sync.mustache:1 app/scripts/templates/sign_up.mustache:23
+#: app/scripts/templates/choose_what_to_sync.mustache:1
+msgid "%(email)s created"
+msgstr ""
+
+#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
 msgstr "Escolher o que sincronizar"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:2
+#: app/scripts/templates/choose_what_to_sync.mustache:3
 msgid "Open tabs"
 msgstr "Abas abertas"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:4
+#: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Bookmarks"
 msgstr "Favoritos"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:6
+#: app/scripts/templates/choose_what_to_sync.mustache:7
 msgid "Add-ons"
 msgstr "Extensões"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:8
+#: app/scripts/templates/choose_what_to_sync.mustache:9
 msgid "Passwords"
 msgstr "Senhas"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:10
+#: app/scripts/templates/choose_what_to_sync.mustache:11
 msgid "History"
 msgstr "Histórico"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:12
+#: app/scripts/templates/choose_what_to_sync.mustache:13
 msgid "Preferences"
 msgstr "Preferências"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:14
+#: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
 msgstr "Atualmente, extensões e preferências não são sincronizados em dispositivos móveis."
 
-#: app/scripts/templates/choose_what_to_sync.mustache:15
+#: app/scripts/templates/choose_what_to_sync.mustache:16
 msgid "Save settings"
 msgstr "Salvar configurações"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+#: app/scripts/templates/choose_what_to_sync.mustache:17 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Voltar"
 
@@ -638,7 +656,8 @@ msgstr "Um link de verificação foi enviado&nbsp;para: %(escapedEmail)s"
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
 msgstr "Para proteger melhor os seus dados no Firefox, enviamos por e-mail um link de confirmação para %(email)s"
 
-#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/sign_in_unblock.mustache:6 app/scripts/templates/sign_in_unblock.mustache:9
+#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
+#: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive and not in spam folder? Resend"
 msgstr "Não chegou e não na pasta de spam? Reenviar"
 
@@ -653,10 +672,6 @@ msgstr "Clique no link que enviamos para %(email)s dentro da próxima hora para 
 #: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7
 msgid "Remember password? Sign in"
 msgstr "Lembrar senha? Identifique-se"
-
-#: app/scripts/templates/confirm_reset_password.mustache:9
-msgid "Didn’t arrive? Resend"
-msgstr "Não chegou? Reenviar"
 
 #: app/scripts/templates/connect_another_device.mustache:1
 msgid "Connect another device"
@@ -738,7 +753,9 @@ msgstr "Esqueceu sua senha?"
 
 #: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:25 app/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Ao continuar, concorda com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy\">Política de privacidade</a> dos serviços na nuvem do Firefox."
+msgstr ""
+"Ao continuar, concorda com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy\">Política de privacidade</a> dos serviços na nuvem do "
+"Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -787,7 +804,7 @@ msgid "Accept"
 msgstr "Aceitar"
 
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
-#: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:10
+#: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9
 #: app/scripts/templates/settings/communication_preferences.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6
 #: app/scripts/templates/settings/display_name.mustache:6 app/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
@@ -937,6 +954,10 @@ msgstr ""
 "O Sync não é projetado como um backup permanente – apenas compartilha o que é salvo localmente. Se você redefinir sua senha e seus dados não foram salvos em pelo menos um outro dispositivo, você "
 "pode perder todas as informações associadas à senha antiga. É por isso que você vai querer instalar o Firefox e usar o Sync em mais de um dispositivo."
 
+#: app/scripts/templates/why_connect_another_device.mustache:4
+msgid "Got it"
+msgstr ""
+
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2
 msgid "Change…"
@@ -999,34 +1020,30 @@ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer s
 msgstr "Seus dados de navegação serão mantidos em %(deviceName)s, mas não serão sincronizados."
 
 #: app/scripts/templates/settings/client_disconnect.mustache:3
-msgid "Reason for disconnecting…"
-msgstr "Motivo para desconexão…"
-
-#: app/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
 msgstr "Dispositivo suspeito"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:5
+#: app/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Lost or stolen device"
 msgstr "Dispositivo perdido ou roubado"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:6
+#: app/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Old or replaced device"
 msgstr "Dispositivo antigo ou substituído"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:7
-msgid "Duplicate device"
-msgstr "Dispositivo duplicado"
+#: app/scripts/templates/settings/client_disconnect.mustache:6
+msgid "Duplicate Device"
+msgstr ""
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8
+#: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
 msgstr "Prefiro não dizer"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:9 app/scripts/templates/settings/clients.mustache:9
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:9
 msgid "Disconnect"
 msgstr "Desconectar"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:11
+#: app/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
 msgstr "Desconectado com sucesso"
 
@@ -1122,6 +1139,15 @@ msgstr "Usar o OpenID"
 msgid "Use Firefox Account"
 msgstr "Usar a Conta Firefox"
 
+#~ msgid "Didn’t arrive? Resend"
+#~ msgstr "Não chegou? Reenviar"
+
+#~ msgid "Reason for disconnecting…"
+#~ msgstr "Motivo para desconexão…"
+
+#~ msgid "Duplicate device"
+#~ msgstr "Dispositivo duplicado"
+
 #~ msgid "Didn't arrive? Resend"
 #~ msgstr "Não chegou? Reenviar"
 
@@ -1161,18 +1187,20 @@ msgstr "Usar a Conta Firefox"
 #~ msgid "Sync preferences"
 #~ msgstr "Preferências do Sync"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr "Procurando pelo Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Comece aqui</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr ""
+#~ "Procurando pelo Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Comece aqui</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Tem uma conta com um e-mail diferente? <a href=\"%(signinUri)s\">Entre</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "O Firefox está disponível para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> e <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "O Firefox está disponível para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> e <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Última atividade: %(translatedTimeAgo)s"
@@ -1408,8 +1436,8 @@ msgstr "Usar a Conta Firefox"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Por favor, habilite os cookies em seu navegador, pois são necessários para o funcionamento do Firefox Accounts. Os cookies são pedaços de dados armazenados em seu navegador que permitem lembrar seu "
-#~ "usuário entre uma sessão e outra."
+#~ "Por favor, habilite os cookies em seu navegador, pois são necessários para o funcionamento do Firefox Accounts. Os cookies são pedaços de dados armazenados em seu navegador que permitem lembrar "
+#~ "seu usuário entre uma sessão e outra."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "O Firefox estará disponível em breve para iOS!"
@@ -1555,13 +1583,17 @@ msgstr "Usar a Conta Firefox"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Já tem uma conta? Entre."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
 #~ "Ao prosseguir, eu concordo com o <a id=\"service-tos\" href=\"%(termsUri)s\">Termos do serviço</a> e <a id=\"service-pp\" href=\"%(privacyUri)s\">política de privacidade</a> de %(serviceName)s "
 #~ "(%(serviceUri)s)."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Ao prosseguir, concordo com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy\">Política de privacidade</a> dos serviços na nuvem do Firefox."
+#~ msgstr ""
+#~ "Ao prosseguir, concordo com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com a <a id=\"fxa-pp\" href=\"/legal/privacy\">Política de privacidade</a> dos serviços na nuvem do "
+#~ "Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Assine às notícias e dicas do Firefox"

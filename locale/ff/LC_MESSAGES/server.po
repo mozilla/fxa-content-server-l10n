@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-09 19:41+0000\n"
+"POT-Creation-Date: 2017-01-20 20:55+0000\n"
 "PO-Revision-Date: 2017-01-12 10:09+0000\n"
 "Last-Translator: ibrahima.sarr <ibrahima.sarr@pulaagu.com>\n"
 "Language-Team: FULAH LOCALIZATION\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1425732953.0\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:628
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:679
 msgid "Still there?"
 msgstr "Aɗa ɗoo tawo?"
 
@@ -33,8 +33,8 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
 "A seŋondirii kaɓirgol maa gadanol e Konte Firefox maa no haanirta. Ngam heɓde ɓure fannu Sync oo, seŋondir kaɓirgol kala baɗngol <a href='%(androidUrl)s'>Firefox mo Android</a> walla <a "
 "href='%(iosUrl)s'>Firefox mo iOS</a>."
@@ -54,7 +54,7 @@ msgstr "Seŋo nga Syncude"
 msgid "Firefox Accounts"
 msgstr "Konte Firefox"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:562
+#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:609
 msgid "New sign-in to Firefox"
 msgstr "Ceŋagol kesol e Firefox"
 
@@ -212,14 +212,14 @@ msgstr "So wonaa een, wallu min surde wujjittooɓe tee <a %(reportSignInLinkAttr
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "So wonaa aan wallu-min falaade wijjittooɓe tee jaŋtano min."
 
-#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:625
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:676
 msgid "Hello again."
 msgstr "A salminaama dadi."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-" email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+"this email address to activate your account."
 msgstr ""
 "E balɗe ɓennuɗe ɗee, a sosiino konte Firefox, kono haa jooni e ƴaawtaaki ɗe. Konte ƴeewtaaɗe mbaɗat-maa heɓde tabbe maa, maantore, finndeeji e aslol e kaɓirgol ceŋingol e majje kala. Teeŋtin nde "
 "ñiiɓirde iimeel tan ngam hurminde konte maa."
@@ -284,63 +284,63 @@ msgstr "Ƴeewto iimeel "
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Caggal teeŋtingol, ma min mballu-ma aafde seŋde Firefox e kaɓirgol gootol ko famɗi fof."
 
-#: mailer.js:143
+#: mailer.js:151
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s e %(uaOS)s %(uaOSVersion)s"
 
-#: mailer.js:146
+#: mailer.js:154
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s e %(uaOS)s"
 
-#: mailer.js:173
+#: mailer.js:181
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (e ko hiisaa)"
 
-#: mailer.js:175
+#: mailer.js:183
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (e ko hiisaa)"
 
-#: mailer.js:177
+#: mailer.js:185
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (e ko hiisaa)"
 
-#: mailer.js:179
+#: mailer.js:187
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (e ko hiisaa)"
 
-#: mailer.js:260
+#: mailer.js:275
 msgid "Verify your Firefox Account"
 msgstr "Ƴeewto Konte Firefox maa"
 
-#: mailer.js:285
+#: mailer.js:304
 msgid "Confirm your email and start to sync!"
 msgstr "Teeŋtin iimeel maa kisa puɗɗo-ɗaa syncude!"
 
-#: mailer.js:338
+#: mailer.js:361
 msgid "Firefox Account authorization code"
 msgstr "Kod jamirgol Konte Firefox"
 
-#: mailer.js:386
+#: mailer.js:413
 msgid "Confirm new sign-in to Firefox"
 msgstr "Teeŋtin ceŋagol kesol e Firefox"
 
-#: mailer.js:433
+#: mailer.js:464
 msgid "Reset your Firefox Account password"
 msgstr "Firlit finnde Konte Firefox maa"
 
-#: mailer.js:469
+#: mailer.js:504
 msgid "Your Firefox Account password has been changed"
 msgstr "Finnde Konte Firefox maa waylaama"
 
-#: mailer.js:503
+#: mailer.js:542
 msgid "Your Firefox Account password has been reset"
 msgstr "Finnde Konte Firefox maa firlitaama"
 
-#: mailer.js:533
+#: mailer.js:576
 msgid "Firefox Account password reset required"
 msgstr "Finnde Konte Firefox ena waɗɗii"
 
-#: mailer.js:598
+#: mailer.js:649
 msgid "Firefox Account verified"
 msgstr "Konte Firefox ƴeewtaama"
 

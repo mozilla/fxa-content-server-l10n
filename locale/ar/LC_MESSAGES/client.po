@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-09 19:41+0000\n"
+"POT-Creation-Date: 2017-01-20 20:55+0000\n"
 "PO-Revision-Date: 2016-08-11 11:12+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
 "X-Generator: Pontoon\n"
 
-#: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:168 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
+#: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
 msgid "Account verified successfully"
 msgstr "اُكّد الحساب بنجاح"
 
@@ -66,11 +66,11 @@ msgstr "أنت الآن جاهز للاستخدام %(serviceName)s"
 msgid "Account verified"
 msgstr "اُكّد الحساب"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:158
+#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:167
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "الحساب غير معروف. <a href=\"/signup\">أنشئ حسابًا</a>"
 
-#: app/scripts/views/sign_in.js:155
+#: app/scripts/views/sign_in.js:164
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr ""
 
@@ -90,11 +90,11 @@ msgstr "الصورة مأخوذة من <a href=\"https://www.gravatar.com\">Grav
 msgid "Password changed successfully"
 msgstr "غُيّرت كلمة السرّ بنجاح"
 
-#: app/scripts/views/settings/client_disconnect.js:18
+#: app/scripts/views/settings/client_disconnect.js:17
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
 msgstr ""
 
-#: app/scripts/views/settings/client_disconnect.js:20
+#: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr ""
 
@@ -166,8 +166,12 @@ msgstr "اُعيد إرسال البريد الإلكتروني"
 msgid "Signed out successfully"
 msgstr "سُجل الخروج بنجاح"
 
+#: app/scripts/models/reliers/sync.js:50
+msgid "Firefox Sync"
+msgstr "تزامُن فَيَرفُكس"
+
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
-#: app/scripts/lib/require-on-demand.js:33 app/scripts/lib/require-on-demand.js:37 app/scripts/lib/require-on-demand.js:41 app/scripts/lib/require-on-demand.js:45
+#: app/scripts/lib/require-on-demand.js:35
 msgid "Unexpected error"
 msgstr "خطأ غير متوقّع"
 
@@ -459,9 +463,17 @@ msgstr "مزوّد الصورة غير مدعوم"
 msgid "Image processing error"
 msgstr "فشل في معالجة الصورة"
 
-#: app/scripts/lib/service-name.js:16
-msgid "Firefox Sync"
-msgstr "تزامُن فَيَرفُكس"
+#: app/scripts/lib/require-on-demand.js:39
+msgid "Resources failed to load"
+msgstr ""
+
+#: app/scripts/lib/require-on-demand.js:43
+msgid "Unexpected resource error"
+msgstr ""
+
+#: app/scripts/lib/require-on-demand.js:47
+msgid "Script error"
+msgstr ""
 
 #: app/scripts/lib/strings.js:22
 msgid ""
@@ -518,43 +530,47 @@ msgstr "يجب أن تتخطى سنًا معينة لإنشاء حساب فَي�
 msgid "Learn more."
 msgstr "اطّلع على المزيد."
 
-#: app/scripts/templates/choose_what_to_sync.mustache:1 app/scripts/templates/sign_up.mustache:23
+#: app/scripts/templates/choose_what_to_sync.mustache:1
+msgid "%(email)s created"
+msgstr ""
+
+#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
 msgstr "اختر ما الذي تريد مزامنة"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:2
+#: app/scripts/templates/choose_what_to_sync.mustache:3
 msgid "Open tabs"
 msgstr ""
 
-#: app/scripts/templates/choose_what_to_sync.mustache:4
+#: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Bookmarks"
 msgstr "علاماتي"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:6
+#: app/scripts/templates/choose_what_to_sync.mustache:7
 msgid "Add-ons"
 msgstr "الإضافات"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:8
+#: app/scripts/templates/choose_what_to_sync.mustache:9
 msgid "Passwords"
 msgstr "كلمات السرّ"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:10
+#: app/scripts/templates/choose_what_to_sync.mustache:11
 msgid "History"
 msgstr "تأريخي"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:12
+#: app/scripts/templates/choose_what_to_sync.mustache:13
 msgid "Preferences"
 msgstr "تفضيلاتي"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:14
+#: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
 msgstr "الإضافات و التفضيلات لا تزامُن على الأجهزة النقالة حاليًا."
 
-#: app/scripts/templates/choose_what_to_sync.mustache:15
+#: app/scripts/templates/choose_what_to_sync.mustache:16
 msgid "Save settings"
 msgstr "حفظ الإعدادات"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+#: app/scripts/templates/choose_what_to_sync.mustache:17 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "رجوع"
 
@@ -638,7 +654,8 @@ msgstr ""
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
 msgstr "لمزيد من الحماية لبياناتك، أُرسِل رابط تأكيد لبريدك الإلكتروني %(email)s"
 
-#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/sign_in_unblock.mustache:6 app/scripts/templates/sign_in_unblock.mustache:9
+#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
+#: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive and not in spam folder? Resend"
 msgstr ""
 
@@ -652,10 +669,6 @@ msgstr "أنقر علي الرابط المُرسل ألي بريدك الإلك
 
 #: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7
 msgid "Remember password? Sign in"
-msgstr ""
-
-#: app/scripts/templates/confirm_reset_password.mustache:9
-msgid "Didn’t arrive? Resend"
 msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:1
@@ -787,7 +800,7 @@ msgid "Accept"
 msgstr "اقبل"
 
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
-#: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:10
+#: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9
 #: app/scripts/templates/settings/communication_preferences.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6
 #: app/scripts/templates/settings/display_name.mustache:6 app/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
@@ -933,6 +946,10 @@ msgid ""
 "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 msgstr ""
 
+#: app/scripts/templates/why_connect_another_device.mustache:4
+msgid "Got it"
+msgstr ""
+
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2
 msgid "Change…"
@@ -995,34 +1012,30 @@ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer s
 msgstr ""
 
 #: app/scripts/templates/settings/client_disconnect.mustache:3
-msgid "Reason for disconnecting…"
-msgstr ""
-
-#: app/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious device"
 msgstr ""
 
-#: app/scripts/templates/settings/client_disconnect.mustache:5
+#: app/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Lost or stolen device"
 msgstr ""
 
-#: app/scripts/templates/settings/client_disconnect.mustache:6
+#: app/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Old or replaced device"
 msgstr ""
 
-#: app/scripts/templates/settings/client_disconnect.mustache:7
-msgid "Duplicate device"
+#: app/scripts/templates/settings/client_disconnect.mustache:6
+msgid "Duplicate Device"
 msgstr ""
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8
+#: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
 msgstr ""
 
-#: app/scripts/templates/settings/client_disconnect.mustache:9 app/scripts/templates/settings/clients.mustache:9
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:9
 msgid "Disconnect"
 msgstr "اقطع الاتصال"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:11
+#: app/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
 msgstr ""
 
