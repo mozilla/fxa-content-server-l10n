@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-20 20:55+0000\n"
-"PO-Revision-Date: 2017-01-20 23:20+0000\n"
+"PO-Revision-Date: 2017-01-21 03:47+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -535,7 +535,7 @@ msgstr "En savoir plus."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s created"
-msgstr ""
+msgstr "%(email)s créé"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
