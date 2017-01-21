@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-20 20:55+0000\n"
-"PO-Revision-Date: 2017-01-10 13:50+0000\n"
+"PO-Revision-Date: 2017-01-21 11:38+0000\n"
 "Last-Translator: Jim Spentzos <jamesspentzos@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -16,11 +16,11 @@ msgstr ""
 
 #: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
 msgid "Account verified successfully"
-msgstr "Ο λογαριασμός επαληθεύτηκε επιτυχώς"
+msgstr "Επιτυχής επαλήθευση λογαριασμού"
 
 #: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38
 msgid "Password reset"
-msgstr "Επαναφορά κωδικού"
+msgstr "Επαναφορά κωδικού πρόσβασης"
 
 #: app/scripts/views/confirm_reset_password.js:194
 msgid "Password reset successfully. Sign in to continue."
@@ -32,7 +32,7 @@ msgstr "%(permissionName)s (απαιτείται)"
 
 #: app/scripts/views/permissions.js:32
 msgid "Email address"
-msgstr "Ηλ. Διεύθυνση"
+msgstr "Διεύθυνση email"
 
 #: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:4
 msgid "Display name"
@@ -40,19 +40,19 @@ msgstr "Εμφανιζόμενο όνομα"
 
 #: app/scripts/views/permissions.js:41 app/scripts/templates/settings/avatar.mustache:1
 msgid "Account picture"
-msgstr "Εικόνα προφίλ"
+msgstr "Εικόνα λογαριασμού"
 
 #: app/scripts/views/ready.js:33
 msgid "Welcome back"
-msgstr "Καλώς επιστρέψατε"
+msgstr "Καλώς ορίσατε και πάλι"
 
 #: app/scripts/views/ready.js:34
 msgid "Firefox Sync will resume momentarily"
-msgstr "Ο Συγχρονισμός Firefox Sync θα συνεχίσει εντός ολίγου"
+msgstr "Το Firefox Sync θα συνεχίσει εντός ολίγου"
 
 #: app/scripts/views/ready.js:39
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "Ολοκληρώστε τη ρύθμιση εισάγοντας το νέο κωδικό πρόσβασης στις άλλες σας συσκευές με Firefox."
 
 #: app/scripts/views/ready.js:44
 msgid "Sign-in confirmed"
@@ -72,11 +72,11 @@ msgstr "Άγνωστος λογαριασμός. <a href=\"/signup\">Εγγρα�
 
 #: app/scripts/views/sign_in.js:164
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr ""
+msgstr "Άγνωστος λογαριασμός Firefox. <a href=\"/signup\">Συνδεθείτε</a> με τη διεύθυνση email του προηγούμενου λογαριασμού προσθέτων για πρόσβαση στα δεδομένα προσθέτων σας."
 
 #: app/scripts/views/sign_up.js:62
 msgid "Account no longer exists. Recreate it?"
-msgstr ""
+msgstr "Ο λογαριασμός δεν υπάρχει πλέον. Επαναδημιουργία;"
 
 #: app/scripts/views/sign_up.js:370
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
@@ -88,7 +88,7 @@ msgstr "Παραχώρηση του<a href=\"https://www.gravatar.com\">Gravatar
 
 #: app/scripts/views/settings/change_password.js:52
 msgid "Password changed successfully"
-msgstr "Ο κωδικός πρόσβασης άλλαξε επιτυχώς"
+msgstr "Επιτυχής αλλαγή κωδικού πρόσβασης"
 
 #: app/scripts/views/settings/client_disconnect.js:17
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
@@ -100,7 +100,7 @@ msgstr ""
 
 #: app/scripts/views/settings/clients.js:58
 msgid "Last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Τελευταία δραστηριότητα %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/communication_preferences.js:104
 msgid "Subscribed successfully"
@@ -120,7 +120,7 @@ msgstr "Το εμφανιζόμενο όνομα άλλαξε"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "Ο λογαριασμός σας έχει κλειδωθεί για λόγους ασφαλείας"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:44
 msgid "Reset password"
@@ -160,7 +160,7 @@ msgstr ""
 
 #: app/scripts/views/mixins/resend-mixin.js:45
 msgid "Email resent"
-msgstr ""
+msgstr "Το email εστάλη ξανά"
 
 #: app/scripts/views/mixins/signed-out-notification-mixin.js:38
 msgid "Signed out successfully"
@@ -229,7 +229,7 @@ msgstr "Μη έγκυρο JSON στο σώμα του αιτήματος"
 
 #: app/scripts/lib/auth-errors.js:75
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "Μη έγκυρη παράμετρος: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:79
 msgid "Missing parameter: %(param)s"
@@ -237,7 +237,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:83
 msgid "Invalid request signature"
-msgstr ""
+msgstr "Μη έγκυρη υπογραφή αιτήματος"
 
 #: app/scripts/lib/auth-errors.js:87
 msgid "Missing content-length header"
@@ -265,7 +265,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:129 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Μη διαθέσιμο σύστημα, δοκιμάστε πάλι ξανά"
 
 #: app/scripts/lib/auth-errors.js:133 app/scripts/lib/oauth-errors.js:104
 msgid "no message"
@@ -273,11 +273,11 @@ msgstr "κανένα μήνυμα"
 
 #: app/scripts/lib/auth-errors.js:137
 msgid "Session expired. Sign in to continue."
-msgstr ""
+msgstr "Η συνεδρία έληξε. Συνδεθείτε για να συνεχίσετε."
 
 #: app/scripts/lib/auth-errors.js:141
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Τα cookies είναι ακόμη ανενεργά"
 
 #: app/scripts/lib/auth-errors.js:145
 msgid "Passwords do not match"
@@ -321,7 +321,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:192
 msgid "Valid URL required"
-msgstr ""
+msgstr "Απαιτείται έγκυρο URL"
 
 #: app/scripts/lib/auth-errors.js:207
 msgid "Your verification email was just returned. Mistyped email?"
@@ -437,7 +437,7 @@ msgstr ""
 
 #: app/scripts/lib/oauth-errors.js:66
 msgid "Forbidden"
-msgstr ""
+msgstr "Απαγορεύεται"
 
 #: app/scripts/lib/oauth-errors.js:88
 msgid "Something went wrong. Please close this tab and try again."
@@ -476,9 +476,7 @@ msgid "Script error"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
@@ -692,7 +690,7 @@ msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:7
 msgid "Sign in &rarr;"
-msgstr ""
+msgstr "Είσοδος &rarr;"
 
 #: app/scripts/templates/connect_another_device.mustache:9
 msgid "Open settings and select Sign in to Firefox to complete set-up"
@@ -847,11 +845,11 @@ msgstr "Ηλ. διεύθυνση"
 
 #: app/scripts/templates/reset_password.mustache:9
 msgid "Begin reset"
-msgstr ""
+msgstr "Έναρξη επαναφοράς"
 
 #: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "Θυμάστε τον κωδικό πρόσβασης; Συνδεθείτε."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
@@ -887,7 +885,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:1 app/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
-msgstr ""
+msgstr "Πιστοποίηση σύνδεσης"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
@@ -919,7 +917,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
-msgstr ""
+msgstr "Λήψη του μηνιαίου Firefox newsletter."
 
 #: app/scripts/templates/sign_up.mustache:21
 msgid "Create account"
@@ -931,7 +929,7 @@ msgstr "Έχετε λογαριασμό; Είσοδος"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
-msgstr ""
+msgstr "Γιατί να συγχρονίσω δύο (ή περισσότερες!) συσκευές;"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
@@ -947,7 +945,7 @@ msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:4
 msgid "Got it"
-msgstr ""
+msgstr "Το 'πιασα"
 
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2
@@ -1024,7 +1022,7 @@ msgstr "Παλιά ή αντικαταστημένη συσκευή"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate Device"
-msgstr ""
+msgstr "Διπλή συσκευή"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
@@ -1120,7 +1118,7 @@ msgstr "Είσοδος στο Συγχρονισμό"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-msgstr ""
+msgstr "Επιλέξτε το λογαριασμό που θέλετε να χρησιμοποιήσετε για το συγχρονισμό των καρτελών, των σελιδοδεικτών, των κωδικών πρόσβασης και πολλών άλλων."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
