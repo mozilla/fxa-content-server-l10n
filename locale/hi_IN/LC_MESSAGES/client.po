@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-20 20:55+0000\n"
-"PO-Revision-Date: 2017-01-21 12:01+0000\n"
+"PO-Revision-Date: 2017-01-21 12:08+0000\n"
 "Last-Translator: Dhiraj Kumar Singh <singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -640,7 +640,7 @@ msgstr "अपना खाता स्थायी करें"
 
 #: app/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
-msgstr "साइन -इन की पुष्टि"
+msgstr "इस साइन-इन की पुष्टि करें"
 
 #: app/scripts/templates/confirm.mustache:5 app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email Sent"
