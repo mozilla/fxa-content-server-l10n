@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-20 20:55+0000\n"
-"PO-Revision-Date: 2017-01-21 12:08+0000\n"
+"PO-Revision-Date: 2017-01-21 12:31+0000\n"
 "Last-Translator: Dhiraj Kumar Singh <singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -920,7 +920,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
-msgstr ""
+msgstr "मासिक Firefox समाचार पत्र प्राप्त करें."
 
 #: app/scripts/templates/sign_up.mustache:21
 msgid "Create account"
@@ -1053,11 +1053,11 @@ msgstr "वर्तमान उपकरण"
 
 #: app/scripts/templates/settings/clients.mustache:7
 msgid "Disconnect…"
-msgstr ""
+msgstr "संपर्क तोड़ें…"
 
 #: app/scripts/templates/settings/clients.mustache:11
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "Firefox लिए iOS"
 
 #: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15
 msgid "none connected"
@@ -1069,7 +1069,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:14
 msgid "Firefox for Android"
-msgstr ""
+msgstr "एंड्रॉयड के लिए Firefox"
 
 #: app/scripts/templates/settings/clients.mustache:18
 msgid "Missing or duplicate items?"
@@ -1077,7 +1077,7 @@ msgstr "खोयी हुई या दोहरी वस्तु?"
 
 #: app/scripts/templates/settings/clients.mustache:19
 msgid "Refresh"
-msgstr ""
+msgstr "ताज़ा करें"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
@@ -1117,7 +1117,7 @@ msgstr "आपकी उम्र क्या है?"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "साइन इन के लिए सिंक करें"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
@@ -1125,7 +1125,7 @@ msgstr ""
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
-msgstr ""
+msgstr "OpenID उपयोग करें"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
