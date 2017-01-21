@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-20 20:55+0000\n"
-"PO-Revision-Date: 2017-01-21 11:41+0000\n"
+"PO-Revision-Date: 2017-01-21 11:45+0000\n"
 "Last-Translator: Jim Spentzos <jamesspentzos@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -81,7 +81,7 @@ msgstr "Πολιτική Απορρήτου της Mozilla"
 
 #: templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr ""
+msgstr "Αυτό είναι ένα αυτοματοποιημένο email· αν δεν προσθέσατε μια νέα συσκευή στο λογαριασμό Firefox σας, θα πρέπει να αλλάξετε αμέσως τον κωδικό πρόσβασής σας στο %(passwordChangeLink)s"
 
 #: templates/new_device_login.txt:4 templates/password_changed.txt:5 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5 templates/verify_sync.txt:7
@@ -94,7 +94,7 @@ msgstr "Επιτυχής αλλαγή κωδικού πρόσβασης"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr ""
+msgstr "Ο κωδικός πρόσβασης του λογαριασμού Firefox σας άλλαξε επιτυχώς από την ακόλουθη συσκευή:"
 
 #: templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
@@ -191,7 +191,7 @@ msgstr "Ξεχάσατε τον κωδικό πρόσβασής σας;"
 
 #: templates/recovery.html:3 templates/recovery.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
-msgstr ""
+msgstr "Κάντε κλικ στο κουμπί μέσα στην επόμενη ώρα για να ορίσετε ένα νέο κωδικό πρόσβασης για το λογαριασμό Firefox σας. Το αίτημα ήρθε από την ακόλουθη συσκευή:"
 
 #: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
