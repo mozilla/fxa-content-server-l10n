@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-20 20:55+0000\n"
-"PO-Revision-Date: 2017-01-10 11:00+0100\n"
+"PO-Revision-Date: 2017-01-21 16:28+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -463,15 +463,15 @@ msgstr "Błąd podczas przetwarzania obrazu"
 
 #: app/scripts/lib/require-on-demand.js:39
 msgid "Resources failed to load"
-msgstr ""
+msgstr "Wczytanie zasobu się nie powiodło"
 
 #: app/scripts/lib/require-on-demand.js:43
 msgid "Unexpected resource error"
-msgstr ""
+msgstr "Nieoczekiwany błąd zasobu"
 
 #: app/scripts/lib/require-on-demand.js:47
 msgid "Script error"
-msgstr ""
+msgstr "Błąd skryptu"
 
 #: app/scripts/lib/strings.js:22
 msgid ""
@@ -531,7 +531,7 @@ msgstr "Więcej informacji."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s created"
-msgstr ""
+msgstr "Utworzono konto %(email)s"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
@@ -953,7 +953,7 @@ msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:4
 msgid "Got it"
-msgstr ""
+msgstr "Rozumiem"
 
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2
@@ -1030,7 +1030,7 @@ msgstr "Stare lub zastąpione urządzenie"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate Device"
-msgstr ""
+msgstr "Podwójne urządzenie"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
@@ -1135,12 +1135,3 @@ msgstr "Użyj OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Użyj konta Firefoksa"
-
-#~ msgid "Didn’t arrive? Resend"
-#~ msgstr "Nie przyszło? Wyślij ponownie"
-
-#~ msgid "Reason for disconnecting…"
-#~ msgstr "Powód rozłączenia…"
-
-#~ msgid "Duplicate device"
-#~ msgstr "Podwójne urządzenie"
