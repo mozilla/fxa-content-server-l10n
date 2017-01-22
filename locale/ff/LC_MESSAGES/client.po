@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-20 20:55+0000\n"
-"PO-Revision-Date: 2017-01-10 14:33+0000\n"
+"PO-Revision-Date: 2017-01-22 14:08+0000\n"
 "Last-Translator: ibrahima.sarr <ibrahima.sarr@pulaagu.com>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -93,7 +93,7 @@ msgstr "Finnde wayliraama no haaniri"
 
 #: app/scripts/views/settings/client_disconnect.js:17
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr "Ɗum deh welaani nanade. Wadde aɗa foti waylude finnde maa Konte Firefox, tee njiylo-ɗaa humpito to peewnuɗo kabirgol maa baɗte momtude keɓa maa e goɗɗol."
+msgstr "Ɗum deh welaani nanade. Wadde aɗa foti waylude finnde maa Konte Firefox, tee njiylo-ɗaa humpito to peewnuɗo kabirgol maa baɗte momtude keɓe maa e goɗɗol."
 
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
@@ -466,22 +466,19 @@ msgstr "Juumre lijjitgol natal"
 
 #: app/scripts/lib/require-on-demand.js:39
 msgid "Resources failed to load"
-msgstr ""
+msgstr "Kattane koriima loowaade"
 
 #: app/scripts/lib/require-on-demand.js:43
 msgid "Unexpected resource error"
-msgstr ""
+msgstr "Juumre kattanɗe nde tijjaaka"
 
 #: app/scripts/lib/require-on-demand.js:47
 msgid "Script error"
-msgstr ""
+msgstr "Juumre dokkorol"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Jokkude e ɗuum firti ko a jaɓii <a id=\"service-tos\" href=\"%(termsUri)s\">Sarɗiiji Carwol</a> e <a id=\"service-pp\" href=\"%(privacyUri)s\">Tintinol Suturo</a> %(serviceName)s (%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Jokkude e ɗuum firti ko a jaɓii <a id=\"service-tos\" href=\"%(termsUri)s\">Sarɗiiji Carwol</a> e <a id=\"service-pp\" href=\"%(privacyUri)s\">Tintinol Suturo</a> %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -533,7 +530,7 @@ msgstr "Ɓeydu humpito."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s created"
-msgstr ""
+msgstr "%(email)s cosaama"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
@@ -653,7 +650,7 @@ msgstr "Jokkol ƴeewtagol neldaama &nbsp;to %(escapedEmail)s"
 
 #: app/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr "Ngam ɓeydude ndeenka keɓa maa Firefox, min neldii jokkol teeŋtinirgol to %(email)s"
+msgstr "Ngam ɓeydude ndeenka keɓe maa Firefox, min neldii jokkol teeŋtinirgol to %(email)s"
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
@@ -953,7 +950,7 @@ msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:4
 msgid "Got it"
-msgstr ""
+msgstr "Famii"
 
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2
@@ -1030,7 +1027,7 @@ msgstr "Kaɓirgol nayewol walla goɗngol"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate Device"
-msgstr ""
+msgstr "Kaɓirgol punol"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
