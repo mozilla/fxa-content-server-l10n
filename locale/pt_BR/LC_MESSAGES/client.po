@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-20 20:55+0000\n"
-"PO-Revision-Date: 2017-01-21 01:41+0000\n"
+"PO-Revision-Date: 2017-01-26 04:15+0000\n"
 "Last-Translator: Maykon Chagas <mchagas@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -657,7 +657,7 @@ msgstr "Para proteger melhor os seus dados no Firefox, enviamos por e-mail um li
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive and not in spam folder? Resend"
-msgstr "Não chegou e não na pasta de spam? Reenviar"
+msgstr "Não chegou e não está na pasta de spam? Reenviar"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
