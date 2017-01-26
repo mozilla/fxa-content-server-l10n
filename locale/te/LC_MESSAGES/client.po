@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-20 20:55+0000\n"
-"PO-Revision-Date: 2017-01-26 08:26+0000\n"
+"PO-Revision-Date: 2017-01-26 08:42+0000\n"
 "Last-Translator: Dinesh <dineshmv38@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -829,7 +829,7 @@ msgstr "ఇలా ఎందుకు జరుగుతోంది?"
 
 #: app/scripts/templates/reset_password.mustache:1 app/scripts/templates/reset_password.mustache:4
 msgid "Reset account"
-msgstr ""
+msgstr "ఖాతాని పునఃఅమర్చు"
 
 #: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
@@ -845,7 +845,7 @@ msgstr "ఈమెయిలు"
 
 #: app/scripts/templates/reset_password.mustache:9
 msgid "Begin reset"
-msgstr ""
+msgstr "రీసెట్ ను ప్రారంభించు"
 
 #: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
 msgid "Remember password? Sign in."
@@ -936,16 +936,20 @@ msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
 "Firefox for desktop will appear."
 msgstr ""
+"సమకాలీకరణ మీరు ఒక పరికరం యొక్క Firefox లో నిల్వ చేసిన బుక్మార్క్లు, చరిత్ర మరియు పాస్వర్డ్లను మీ ఇతర పరికరాల్లో Firefox కు భాగస్వామ్యం చేస్తుంది. మీ ఫోన్ లేదా టాబ్లెట్ లో Firefox కు సైన్ ఇన్ చేస్తే "
+"మీరు Firefox యొక్క డెస్క్టాప్ లో సేవ్ చేసిన ప్రతిదీ కనిపిస్తుంది."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
 "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 msgstr ""
+"సమకాలీకరణ శాశ్వత బ్యాకప్ వలె రూపొందించబడినది కాదు - కేవలం స్థానికంగా సేవ్ చేయబడినవి భాగస్వామ్యం చేస్తుంది. మీరు మీ పాస్వర్డ్ను రీసెట్ చేస్తే మీ డేటాను కనీసం ఒక ఇతర పరికరంలో నిల్వ చేయకపోతే, మీరు పాత "
+"పాస్వర్డ్ తో సంబంధించిన మొత్తం సమాచారం కోల్పోతారు. అందుకే మీరు Firefox ఇన్స్టాల్ చేసి ఒకటి కంటే ఎక్కువ పరికరాలలో సమకాలీకరణ ఉపయోగించవలెను."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4
 msgid "Got it"
-msgstr ""
+msgstr "అర్థమైంది"
 
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2
@@ -1022,7 +1026,7 @@ msgstr "పాత లేదా భర్తీ పరికరం"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate Device"
-msgstr ""
+msgstr "నకలీ పరికరము"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
@@ -1062,7 +1066,7 @@ msgstr "ఏమీ అనుసంధానమయి లేవు"
 
 #: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Download"
-msgstr ""
+msgstr "దిగుమతి చేయండి"
 
 #: app/scripts/templates/settings/clients.mustache:14
 msgid "Firefox for Android"
