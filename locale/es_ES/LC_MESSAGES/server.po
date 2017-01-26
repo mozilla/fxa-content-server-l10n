@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-20 20:55+0000\n"
-"PO-Revision-Date: 2016-12-27 11:39+0000\n"
-"Last-Translator: Inma Barrios <inma.barrios@mozilla-hispano.org>\n"
+"PO-Revision-Date: 2017-01-26 15:58+0000\n"
+"Last-Translator: avelper <avelper@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
@@ -27,16 +27,16 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Has conectado correctamente tu primer dispositivo a la cuenta de Firefox. Ahora puedes iniciar sesión en Sync desde tus otros dispositivos, incluido Firefox para <a href='%(androidUrl)s'>Android</"
-"a> y <a href='%(iosUrl)s'>iOS</a>."
+"Has conectado correctamente tu primer dispositivo a la cuenta de Firefox. Ahora puedes iniciar sesión en Sync desde tus otros dispositivos, incluido Firefox para <a href='%(androidUrl)s'>Android</a>"
+" y <a href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
-"Has conectado correctamente tu primer dispositivo a la cuenta de Firefox. Para sacarle el máximo provecho a Sync, conecta cualquier dispositivo <a href='%(androidUrl)s'>Firefox para Android</a> o "
-"<a href='%(iosUrl)s'>Firefox para iOS</a>."
+"Has conectado correctamente tu primer dispositivo a la cuenta de Firefox. Para sacarle el máximo provecho a Sync, conecta cualquier dispositivo <a href='%(androidUrl)s'>Firefox para Android</a> o <a"
+" href='%(iosUrl)s'>Firefox para iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -140,7 +140,7 @@ msgstr "Para evitar accesos no autorizados a tu cuenta de Firefox, hemos restabl
 
 #: templates/password_reset_required.html:4 templates/password_reset_required.txt:3
 msgid "What should you do?"
-msgstr "¿Qué debería hacer?"
+msgstr "¿Qué deberías hacer?"
 
 #: templates/password_reset_required.html:5 templates/password_reset_required.txt:4
 msgid "First, change your Firefox Account password."
@@ -218,10 +218,10 @@ msgstr "Hola de nuevo."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
-"Hace unos días creaste una cuenta de Firefox, pero nunca la verificaste. Una cuenta verificada te permite acceder a tus pestañas, marcadores, contraseñas e historial en cualquier dispositivo "
+"Hace unos días creaste una cuenta de Firefox, pero nunca la confirmaste. Confirmar una cuenta te permite acceder a tus pestañas, marcadores, contraseñas e historial en cualquier dispositivo "
 "conectado a ella. Para activarla solo tienes que confirmar tu correo."
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
@@ -363,7 +363,7 @@ msgstr "Error 500"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "¡Oh, oh! Hubo un problema. Tomamos nota y trabajaremos para solucionarlo."
+msgstr "¡Oh, oh! Hubo un problema. Tomamos nota e intentaremos solucionarlo."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -379,7 +379,7 @@ msgstr "Estamos ahora mismo bajo mucha presión y trabajando para restablecer el
 
 #: server/templates/pages/src/index.html:2 server/templates/pages/src/privacy.html:5 server/templates/pages/src/terms.html:5
 msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr "Estás usando un navegador <strong>obsoleto</strong>. Por favor, <a href=\"http://browsehappy.com/\">acutalízalo</a> para mejorar tu experiencia."
+msgstr "Estás usando un navegador <strong>obsoleto</strong>. Por favor, <a href=\"http://browsehappy.com/\">actualízalo</a> para mejorar tu experiencia."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
