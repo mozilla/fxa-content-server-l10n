@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-20 20:55+0000\n"
-"PO-Revision-Date: 2017-01-24 13:46+0000\n"
+"PO-Revision-Date: 2017-01-28 18:30+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -52,7 +52,7 @@ msgstr "Firefox Sync vil halde fram snart"
 
 #: app/scripts/views/ready.js:39
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "Fullfør oppsettet ved å skriva inn det nye passordet å dei andre Firefox-einingane dine."
+msgstr "Fullfør oppsettet ved å skriva inn det nye passordet på dei andre Firefox-einingane dine."
 
 #: app/scripts/views/ready.js:44
 msgid "Sign-in confirmed"
@@ -710,7 +710,7 @@ msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:19
 msgid "Why is this required?"
-msgstr ""
+msgstr "Kvifor er det påkravd?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
