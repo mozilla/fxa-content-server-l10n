@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-20 20:55+0000\n"
-"PO-Revision-Date: 2017-01-28 18:30+0000\n"
-"Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
+"PO-Revision-Date: 2017-01-28 23:45+0000\n"
+"Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
 "MIME-Version: 1.0\n"
@@ -1086,7 +1086,7 @@ msgstr "E-post innstillingar"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:10
 msgid "Unsubscribe"
-msgstr "Abonner"
+msgstr "Stopp abonnent"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:12
 msgid "Subscribe"
