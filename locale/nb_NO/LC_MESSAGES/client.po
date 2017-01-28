@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-20 20:55+0000\n"
-"PO-Revision-Date: 2017-01-28 17:41+0000\n"
+"PO-Revision-Date: 2017-01-28 18:08+0000\n"
 "Last-Translator: havar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -29,15 +29,15 @@ msgstr "Passord tilbakestilt. Logg inn for å fortsette."
 
 #: app/scripts/views/permissions.js:26
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName)s (påkrevd)"
 
 #: app/scripts/views/permissions.js:32
 msgid "Email address"
-msgstr ""
+msgstr "E-postadresse"
 
 #: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:4
 msgid "Display name"
-msgstr ""
+msgstr "Visningsnavn"
 
 #: app/scripts/views/permissions.js:41 app/scripts/templates/settings/avatar.mustache:1
 msgid "Account picture"
@@ -45,19 +45,19 @@ msgstr "Kontobilde"
 
 #: app/scripts/views/ready.js:33
 msgid "Welcome back"
-msgstr ""
+msgstr "Velkommen tilbake"
 
 #: app/scripts/views/ready.js:34
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "Firefox Sync vil gjenoppta om et øyeblikk"
 
 #: app/scripts/views/ready.js:39
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "Fullfør oppsettet ved å skrive inn det nye passordet på de andre Firefox-enhetene dine."
 
 #: app/scripts/views/ready.js:44
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "Innlogging bekreftet"
 
 #: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
