@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-20 20:55+0000\n"
-"PO-Revision-Date: 2017-01-28 18:50+0000\n"
+"PO-Revision-Date: 2017-01-28 19:06+0000\n"
 "Last-Translator: havar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -331,11 +331,11 @@ msgstr "Bekreftelsesmeldingen kom i retur. Feil i e-postadressen?"
 
 #: app/scripts/lib/auth-errors.js:215
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "Skriv inn en gyldig e-postadresse. firefox.com tilbyr ikke e-post."
 
 #: app/scripts/lib/auth-errors.js:223
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Firefox-kontoer kan bare plasseres i en IFRAME på godkjente nettsteder"
 
 #: app/scripts/lib/auth-errors.js:242 app/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
@@ -343,15 +343,15 @@ msgstr "Bekreftelseslenken er skadet"
 
 #: app/scripts/lib/auth-errors.js:250
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "Bildets dimensjoner må være på minst 100 x 100 px"
 
 #: app/scripts/lib/auth-errors.js:254
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "Registrering kommer snart til Firefox for iOS"
 
 #: app/scripts/lib/auth-errors.js:265
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "Du må oppgi alder for å registrere deg"
 
 #: app/scripts/lib/auth-errors.js:269
 msgid "No Gravatar found"
@@ -359,51 +359,51 @@ msgstr "Ingen Gravatar funnet"
 
 #: app/scripts/lib/auth-errors.js:277
 msgid "Account no longer exists."
-msgstr ""
+msgstr "Kontoen finnes ikke lenger."
 
 #: app/scripts/lib/auth-errors.js:281
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "Ugyldig egenskap i resume-token: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:285
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "Mangler egenskap i resume-token: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:289
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "Ugyldig data-attributt: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:293
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "Manglende data-attributt: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:306 app/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "Denne bekreftelseslenken er allerede brukt, og kan kun brukes én gang."
 
 #: app/scripts/lib/auth-errors.js:310
 msgid "This is a required field"
-msgstr ""
+msgstr "Dette feltet er påkrevd"
 
 #: app/scripts/lib/auth-errors.js:314
 msgid "Authorization code required"
-msgstr ""
+msgstr "Godkjenningskode påkrevd"
 
 #: app/scripts/lib/auth-errors.js:322 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
-msgstr ""
+msgstr "Ødelagt lenke"
 
 #: app/scripts/lib/config-loader.js:87
 msgid "Missing configuration"
-msgstr ""
+msgstr "Manglende konfigurasjon"
 
 #: app/scripts/lib/config-loader.js:91
 msgid "Invalid configuration"
-msgstr ""
+msgstr "Ugyldig konfigurasjon"
 
 #: app/scripts/lib/mailcheck.js:26
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "Mente du <span tabindex=\"1\">%(escapedDomain)s</span>?"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -420,19 +420,19 @@ msgstr "Ugyldig påstand"
 
 #: app/scripts/lib/oauth-errors.js:38
 msgid "Unknown code"
-msgstr ""
+msgstr "Ukjent kode"
 
 #: app/scripts/lib/oauth-errors.js:42
 msgid "Incorrect code"
-msgstr ""
+msgstr "Feil kode"
 
 #: app/scripts/lib/oauth-errors.js:46
 msgid "Expired code"
-msgstr ""
+msgstr "Utløpt kode"
 
 #: app/scripts/lib/oauth-errors.js:54 app/scripts/lib/oauth-errors.js:76
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Ugyldig OAuth-parameter: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
@@ -440,7 +440,7 @@ msgstr "Uautorisert"
 
 #: app/scripts/lib/oauth-errors.js:66
 msgid "Forbidden"
-msgstr ""
+msgstr "Forbudt"
 
 #: app/scripts/lib/oauth-errors.js:88
 msgid "Something went wrong. Please close this tab and try again."
@@ -448,11 +448,11 @@ msgstr "Noe gikk galt. Lukk denne fanen og prøv igjen."
 
 #: app/scripts/lib/oauth-errors.js:108
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Manglende OAuth-parameter: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
-msgstr ""
+msgstr "Ugyldig token"
 
 #: app/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
@@ -468,15 +468,15 @@ msgstr "Bildebehandlingsfeil"
 
 #: app/scripts/lib/require-on-demand.js:39
 msgid "Resources failed to load"
-msgstr ""
+msgstr "Klarte ikke å laste ressurser"
 
 #: app/scripts/lib/require-on-demand.js:43
 msgid "Unexpected resource error"
-msgstr ""
+msgstr "Uventet resursfeil"
 
 #: app/scripts/lib/require-on-demand.js:47
 msgid "Script error"
-msgstr ""
+msgstr "Skriptfeil"
 
 #: app/scripts/lib/strings.js:22
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
