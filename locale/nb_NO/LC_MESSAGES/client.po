@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-20 20:55+0000\n"
-"PO-Revision-Date: 2017-01-28 22:47+0000\n"
+"PO-Revision-Date: 2017-01-28 23:11+0000\n"
 "Last-Translator: havar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -542,35 +542,35 @@ msgstr "Velg hva som skal synkroniseres"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:3
 msgid "Open tabs"
-msgstr ""
+msgstr "Åpne faner"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Bookmarks"
-msgstr ""
+msgstr "Bokmerker"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:7
 msgid "Add-ons"
-msgstr ""
+msgstr "Utvidelser"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:9
 msgid "Passwords"
-msgstr ""
+msgstr "Passord"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:11
 msgid "History"
-msgstr ""
+msgstr "Historikk"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:13
 msgid "Preferences"
-msgstr ""
+msgstr "Innstillinger"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr ""
+msgstr "Utvidelser og innstillinger kan for øyeblikket ikke synkroniseres på mobile enheter."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:16
 msgid "Save settings"
-msgstr ""
+msgstr "Lagre innstillinger"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:17 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
@@ -598,15 +598,15 @@ msgstr "Linken du klikket på mangler noen tegn, og kan ha blitt skadet av e-pos
 
 #: app/scripts/templates/complete_reset_password.mustache:8
 msgid "Enter new password"
-msgstr ""
+msgstr "Skriv inn nytt passord"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "Når du sender inn det nye passordet ditt, vil du miste alle Sync-data som ikke er på noen av enhetene dine."
 
 #: app/scripts/templates/complete_reset_password.mustache:10 app/scripts/templates/reset_password.mustache:6
 msgid "Learn how Sync works."
-msgstr ""
+msgstr "Les hvordan Sync virker."
 
 #: app/scripts/templates/complete_reset_password.mustache:12 app/scripts/templates/settings/change_password.mustache:6
 msgid "New password"
@@ -618,11 +618,11 @@ msgstr "Gjenta passord"
 
 #: app/scripts/templates/complete_reset_password.mustache:15
 msgid "Submit new password"
-msgstr ""
+msgstr "Spesifiser nytt passord"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Sign-in already confirmed"
-msgstr ""
+msgstr "Innlogging allerede bekreftet"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
@@ -642,7 +642,7 @@ msgstr "Bekreft kontoen"
 
 #: app/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "Bekreft denne innloggingen"
 
 #: app/scripts/templates/confirm.mustache:5 app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email Sent"
@@ -650,16 +650,16 @@ msgstr "E-post sent"
 
 #: app/scripts/templates/confirm.mustache:6
 msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "En bekreftelseslenke er sendt&nbsp;til %(escapedEmail)s"
 
 #: app/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr ""
+msgstr "For å bedre beskytte dine Firefox-data, har vi sendt en bekreftelseslenke til %(email)s"
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive and not in spam folder? Resend"
-msgstr ""
+msgstr "Ikke ankommet og ikke i mappen uønsket e-post (spam)? Send på nytt"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
