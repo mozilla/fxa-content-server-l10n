@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-20 20:55+0000\n"
-"PO-Revision-Date: 2017-01-29 01:37+0000\n"
+"PO-Revision-Date: 2017-01-29 08:40+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -21,7 +21,7 @@ msgstr "Fortsatt der?"
 
 #: templates/_pending.txt:2
 msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
-msgstr ""
+msgstr "For en stund siden opprettet du en Firefox-konto, men du verifiserte den aldri. Trykk på lenken nedenfor for å aktivere kontoen din."
 
 #: templates/_pending.txt:3
 msgid ""
