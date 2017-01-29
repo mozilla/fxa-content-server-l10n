@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-20 20:55+0000\n"
-"PO-Revision-Date: 2017-01-29 20:15+0000\n"
+"PO-Revision-Date: 2017-01-29 23:36+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -502,7 +502,7 @@ msgstr "%(country)s (estimert)"
 
 #: app/scripts/lib/strings.js:39
 msgid "IP address: %(ip)s"
-msgstr "IP-addresse: %(ip)s"
+msgstr "IP-adresse: %(ip)s"
 
 #: app/scripts/lib/strings.js:40
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
@@ -1123,7 +1123,7 @@ msgstr "Logg inn på Sync"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-msgstr ""
+msgstr "Velg kontoen du vil bruke for å synkronisere faner, bokmerker, passord, og mye mer."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"

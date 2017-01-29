@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-20 20:55+0000\n"
-"PO-Revision-Date: 2017-01-29 20:17+0000\n"
+"PO-Revision-Date: 2017-01-29 23:37+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -61,7 +61,7 @@ msgstr "Ny innlogging på Firefox"
 #: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/password_changed.html:4 templates/password_changed.txt:3 templates/recovery.html:4 templates/recovery.txt:3
 #: templates/unblock_code.html:3 templates/unblock_code.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3 templates/verify_sync.html:4 templates/verify_sync.txt:3
 msgid "IP address: %(ip)s"
-msgstr "IP-addresse: %(ip)s"
+msgstr "IP-adresse: %(ip)s"
 
 #: templates/new_device_login.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
@@ -232,7 +232,7 @@ msgstr "Bekreft e-post"
 
 #: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9 templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
+msgstr "Bekreft din e-postadresse for å fullføre registreringen av Firefox-kontoen din."
 
 #: templates/verification_reminder_first.txt:3 templates/verification_reminder_second.txt:3 templates/verify.txt:3
 msgid "Activate now:"
@@ -240,7 +240,7 @@ msgstr "Aktiver nå:"
 
 #: templates/verification_reminder_second.html:3 templates/verification_reminder_second.txt:2
 msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
+msgstr "For en uke siden opprettet du en Firefox-konto, men bekreftet den aldri. Vi er bekymret for deg. Bekreft denne e-postadressen for å aktivere din konto og la oss vite, at du er ok."
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
@@ -248,7 +248,7 @@ msgstr "Velkommen!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "Aktiver din konto ved å bekrefte denne e-postadressen."
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
