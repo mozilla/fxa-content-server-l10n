@@ -1,22 +1,23 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-20 20:55+0000\n"
-"PO-Revision-Date: 2015-01-24 23:00+0000\n"
-"Last-Translator: Håvar <havar@firefox.no>\n"
+"PO-Revision-Date: 2017-01-29 00:10+0000\n"
+"Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1422140409.0\n"
 
 #: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:679
 msgid "Still there?"
-msgstr ""
+msgstr "Fortsatt der?"
 
 #: templates/_pending.txt:2
 msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
@@ -30,17 +31,17 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "Koble til en annen enhet"
 
 #: templates/_pending.txt:6
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Logg inn på Sync"
 
 #: templates/new_device_login.html:1 templates/password_changed.html:1 templates/password_reset.html:1 templates/password_reset_required.html:1 templates/post_verify.html:1 templates/recovery.html:1
 #: templates/unblock_code.html:1 templates/verification_reminder_first.html:1 templates/verification_reminder_second.html:1 templates/verify.html:1 templates/verify_login.html:1
@@ -51,12 +52,12 @@ msgstr "Firefox-konti"
 
 #: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:609
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "Ny innlogging på Firefox"
 
 #: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/password_changed.html:4 templates/password_changed.txt:3 templates/recovery.html:4 templates/recovery.txt:3
 #: templates/unblock_code.html:3 templates/unblock_code.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3 templates/verify_sync.html:4 templates/verify_sync.txt:3
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "IP-addresse: %(ip)s"
 
 #: templates/new_device_login.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
@@ -73,7 +74,7 @@ msgstr ""
 #: templates/verification_reminder_second.txt:6 templates/verify.html:7 templates/verify.txt:6 templates/verify_login.html:7 templates/verify_login.txt:6 templates/verify_sync.html:9
 #: templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
-msgstr ""
+msgstr "Mozilla personvernbestemmelser"
 
 #: templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
@@ -82,15 +83,15 @@ msgstr ""
 #: templates/new_device_login.txt:4 templates/password_changed.txt:5 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5 templates/verify_sync.txt:7
 msgid "For more information, please visit %(supportUrl)s"
-msgstr ""
+msgstr "For mere informasjon, besøk %(supportUrl)s"
 
 #: templates/password_changed.html:2 templates/password_changed.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Passordet er endret"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr ""
+msgstr "Passordet for din Firefox-konto ble endret fra følgende enhet:"
 
 #: templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
@@ -102,7 +103,7 @@ msgstr ""
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
-msgstr ""
+msgstr "Passordet ditt er tilbakestilt"
 
 #: templates/password_reset.html:3
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
@@ -116,7 +117,7 @@ msgstr "Dette er en automatisert e-postmelding; hvis du har mottatt denne e-post
 
 #: templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Passordet er tilbakestilt"
 
 #: templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
@@ -136,11 +137,11 @@ msgstr ""
 
 #: templates/password_reset_required.html:4 templates/password_reset_required.txt:3
 msgid "What should you do?"
-msgstr ""
+msgstr "Hva bør du gjøre?"
 
 #: templates/password_reset_required.html:5 templates/password_reset_required.txt:4
 msgid "First, change your Firefox Account password."
-msgstr ""
+msgstr "Først endrer du passordet for Firefox-kontoen din."
 
 #: templates/password_reset_required.html:6 templates/password_reset_required.txt:5
 msgid ""
@@ -153,15 +154,15 @@ msgstr ""
 
 #: templates/password_reset_required.html:8 templates/password_reset_required.txt:7
 msgid "Best,"
-msgstr ""
+msgstr "Med vennlig hilsen"
 
 #: templates/password_reset_required.html:9 templates/password_reset_required.txt:8
 msgid "The Firefox Accounts team"
-msgstr ""
+msgstr "Firefox-kontoteamet"
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
-msgstr ""
+msgstr "Kontoen er bekreftet!"
 
 #: templates/post_verify.html:3
 msgid ""
@@ -175,11 +176,11 @@ msgstr ""
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr ""
+msgstr "Logg inn på Sync:"
 
 #: templates/recovery.html:2 templates/recovery.txt:1
 msgid "Forgot your password?"
-msgstr ""
+msgstr "Glemt ditt passord?"
 
 #: templates/recovery.html:3 templates/recovery.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
@@ -191,7 +192,7 @@ msgstr "Tilbakestill passord"
 
 #: templates/unblock_code.html:2 templates/unblock_code.txt:1
 msgid "Is this you signing in?"
-msgstr ""
+msgstr "Er det du som logger inn?"
 
 #: templates/unblock_code.html:4 templates/unblock_code.txt:3
 msgid "If yes, here is the authorization code you need:"
@@ -207,21 +208,21 @@ msgstr ""
 
 #: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:676
 msgid "Hello again."
-msgstr ""
+msgstr "Hei igjen."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "Aktiver nå"
 
 #: templates/verification_reminder_first.html:8 templates/verification_reminder_second.html:8 templates/verify.html:8 templates/verify_sync.html:10
 msgid "Verify Email"
-msgstr ""
+msgstr "Bekreft e-post"
 
 #: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9 templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
@@ -229,7 +230,7 @@ msgstr ""
 
 #: templates/verification_reminder_first.txt:3 templates/verification_reminder_second.txt:3 templates/verify.txt:3
 msgid "Activate now:"
-msgstr ""
+msgstr "Aktiver nå:"
 
 #: templates/verification_reminder_second.html:3 templates/verification_reminder_second.txt:2
 msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
@@ -237,7 +238,7 @@ msgstr ""
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
-msgstr ""
+msgstr "Velkommen!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
@@ -249,7 +250,7 @@ msgstr ""
 
 #: templates/verify_login.html:5 templates/verify_login.txt:4
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "Bekreft innlogging"
 
 #: templates/verify_login.html:6
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -261,7 +262,7 @@ msgstr ""
 
 #: templates/verify_sync.html:2 templates/verify_sync.txt:1
 msgid "Ready, set, sync"
-msgstr ""
+msgstr "Klar, ferdig, synkroniser"
 
 #: templates/verify_sync.html:3 templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
@@ -269,7 +270,7 @@ msgstr ""
 
 #: templates/verify_sync.html:5 templates/verify_sync.txt:4
 msgid "Verify email "
-msgstr ""
+msgstr "Bekreft e-post "
 
 #: templates/verify_sync.html:6 templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
@@ -277,63 +278,63 @@ msgstr ""
 
 #: mailer.js:151
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
-msgstr ""
+msgstr "%(uaBrowser)s på %(uaOS)s %(uaOSVersion)s"
 
 #: mailer.js:154
 msgid "%(uaBrowser)s on %(uaOS)s"
-msgstr ""
+msgstr "%(uaBrowser)s på %(uaOS)s"
 
 #: mailer.js:181
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(stateCode)s, %(country)s (estimert)"
 
 #: mailer.js:183
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (estimert)"
 
 #: mailer.js:185
 msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(stateCode)s, %(country)s (estimert)"
 
 #: mailer.js:187
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (estimert)"
 
 #: mailer.js:275
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "Verifiser din Firefox-konto"
 
 #: mailer.js:304
 msgid "Confirm your email and start to sync!"
-msgstr ""
+msgstr "Bekreft din e-postadresse og begynn å synkronisere!"
 
 #: mailer.js:361
 msgid "Firefox Account authorization code"
-msgstr ""
+msgstr "Firefox-konto godkjenningskode"
 
 #: mailer.js:413
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
+msgstr "Bekreft ny innlogging på Firefox"
 
 #: mailer.js:464
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "Tilbakestill passordet for Firefox-kontoen din"
 
 #: mailer.js:504
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "Passordet for Firefox-kontoen din er endret"
 
 #: mailer.js:542
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "Passordet til Firefox-kontoen din har blitt tilbakestilt"
 
 #: mailer.js:576
 msgid "Firefox Account password reset required"
-msgstr ""
+msgstr "Tilbakestilling av passord for Firefox-kontoen er påkrevd"
 
 #: mailer.js:649
 msgid "Firefox Account verified"
-msgstr ""
+msgstr "Firefox-konto verifisert"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -357,7 +358,7 @@ msgstr "Å nei, noe gikk galt. Vi har blitt informert og vil gå i gang med å f
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "Feil 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"

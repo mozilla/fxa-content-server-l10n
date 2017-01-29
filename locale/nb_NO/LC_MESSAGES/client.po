@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-20 20:55+0000\n"
-"PO-Revision-Date: 2017-01-28 23:50+0000\n"
+"PO-Revision-Date: 2017-01-29 00:07+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -910,7 +910,7 @@ msgstr "Opprett en Firefox-konto"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-msgstr ""
+msgstr "Ser du etter Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Kom i gang her</a>"
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -934,7 +934,7 @@ msgstr "Har du en konto? Logg inn"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
-msgstr ""
+msgstr "Hvorfor synkronisere to (eller flere!) enheter?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
@@ -1131,7 +1131,7 @@ msgstr "Bruk OpenID"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr ""
+msgstr "Bruk Firefox-konto"
 
 #~ msgid "Stay in sync on the go:"
 #~ msgstr "Hold deg synkronisert på farten:"
