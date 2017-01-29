@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-20 20:55+0000\n"
-"PO-Revision-Date: 2017-01-29 08:40+0000\n"
+"PO-Revision-Date: 2017-01-29 20:05+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -28,12 +28,16 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
+"Du har nå koblet til din første enhet til din Firefox-konto. Nå kan du logge inn på Sync fra dine andre enheter, inkludert Firefox for <a href='%(androidUrl)s'>Android</a> og <a "
+"href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
 "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 "iOS</a>."
 msgstr ""
+"Du har nå koblet til din første enhet til din Firefox-konto. For å få mest mulig ut av Sync, koble til <a href='%(androidUrl)s'>Firefox for Android</a> eller <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -61,12 +65,12 @@ msgstr "IP-addresse: %(ip)s"
 
 #: templates/new_device_login.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr ""
+msgstr "Dette er en automatisk e-postmelding; om du ikke godkjente denne handlingen må du <a %(passwordChangeLinkAttributes)s>bytte passordet ditt.</a>"
 
 #: templates/new_device_login.html:5 templates/password_changed.html:6 templates/password_reset.html:5 templates/post_verify.html:6 templates/recovery.html:7
 #: templates/verification_reminder_first.html:6 templates/verification_reminder_second.html:6 templates/verify.html:6 templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr ""
+msgstr "For mer informasjon, besøk <a %(supportLinkAttributes)s>Mozilla Support</a>."
 
 #: templates/new_device_login.html:6 templates/new_device_login.txt:5 templates/password_changed.html:7 templates/password_changed.txt:6 templates/password_reset.html:6 templates/password_reset.txt:5
 #: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:7 templates/post_verify.txt:6 templates/recovery.html:8 templates/recovery.txt:7
@@ -78,7 +82,7 @@ msgstr "Mozilla personvernbestemmelser"
 
 #: templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr ""
+msgstr "Dette er en automatisk e-postmelding; om du ikke la til en ny enhet i Firefox-kontoen din, bør du endre passordet ditt med en gang på %(passwordChangeLink)s"
 
 #: templates/new_device_login.txt:4 templates/password_changed.txt:5 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5 templates/verify_sync.txt:7
@@ -95,11 +99,11 @@ msgstr "Passordet for din Firefox-konto ble endret fra følgende enhet:"
 
 #: templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr ""
+msgstr "Dette er en automatisk e-postmelding; om du ikke godkjente denne handlingen må du <a %(resetLinkAttributes)s>tilbakestille passordet ditt</a>."
 
 #: templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Dette er en automatisk e-postmelding; om du ikke endret passordet ditt for Firefox-kontoen din, bør du tilbakestille det med en gang på %(resetLink)s"
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
@@ -107,7 +111,7 @@ msgstr "Passordet ditt er tilbakestilt"
 
 #: templates/password_reset.html:3
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+msgstr "Passordet for Firefox-kontoen din er endret. Om du ikke endret det, <a %(resetLinkAttributes)s>tilbakestill passordet</a> nå."
 
 #: templates/password_reset.html:4 templates/post_verify.html:5 templates/post_verify.txt:4 templates/recovery.html:6 templates/recovery.txt:5 templates/verification_reminder_first.html:5
 #: templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:5 templates/verification_reminder_second.txt:4 templates/verify.html:5 templates/verify.txt:4
@@ -125,11 +129,11 @@ msgstr "Passordet for Firefox-kontoen din er tilbakestilt."
 
 #: templates/password_reset.txt:3
 msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Dette er en automatisk e-postmelding; om du ikke tilbakestilte passordet ditt for Firefox-kontoen din, bør du tilbakestille det med en gang på %(resetLink)s"
 
 #: templates/password_reset_required.html:2 templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-msgstr ""
+msgstr "Vi har oppdaget mistenkelig aktivitet på Firefox-kontoen din. Kontoen din kan ha blitt kompromittert."
 
 #: templates/password_reset_required.html:3 templates/password_reset_required.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
@@ -158,7 +162,7 @@ msgstr "Med vennlig hilsen"
 
 #: templates/password_reset_required.html:9 templates/password_reset_required.txt:8
 msgid "The Firefox Accounts team"
-msgstr "Firefox-kontoteamet"
+msgstr "Teamet for Firefox-konto"
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
