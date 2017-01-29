@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-20 20:55+0000\n"
-"PO-Revision-Date: 2017-01-29 20:10+0000\n"
+"PO-Revision-Date: 2017-01-29 20:15+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -866,7 +866,7 @@ msgstr "Logg ut"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-msgstr "Ser du etter data fra din utvidelse? <a href=\"/signup\">Opprett</a> en Firefox-konto med din gamle Utvidelser-konto e-postadresse."
+msgstr "Ser du etter data fra din utvidelse? <a href=\"/signup\">Opprett</a> en Firefox-konto med e-postadressen brukt på din gamle Utvidelser-konto."
 
 #: app/scripts/templates/sign_in.mustache:8
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
@@ -918,7 +918,7 @@ msgstr "Migrer dine sync-data ved å opprette en ny Firefox-konto."
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "Ser du etter data fra din utvidelse? Opprett en Firefox-konto med e-postadressen brukt på din gamle Utvidelser-konto."
 
 #: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
@@ -999,7 +999,7 @@ msgstr "Lagre"
 
 #: app/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr ""
+msgstr "Når du er ferdig, bruk det nye passordet ditt for å logge inn på alle enhetene dine."
 
 #: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
@@ -1111,7 +1111,7 @@ msgstr "Er du sikker på at du vil slette kontoen din? Denne handlingen kan ikke
 
 #: app/scripts/templates/settings/display_name.mustache:3
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr ""
+msgstr "Velg navnet du vil skal vises i Firefox og når du håndterer din konto."
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-20 20:55+0000\n"
-"PO-Revision-Date: 2017-01-29 20:05+0000\n"
+"PO-Revision-Date: 2017-01-29 20:17+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -151,10 +151,12 @@ msgstr "Først endrer du passordet for Firefox-kontoen din."
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 msgstr ""
+"Deretter, om Firefox lagrer passord for nettsider, bør du også endre disse passordene. Angripere kan få tilgang til disse passordene, og du bør derfor kontrollere disse kontoene for mistenkelig "
+"aktivitet."
 
 #: templates/password_reset_required.html:7 templates/password_reset_required.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
-msgstr ""
+msgstr "Les, hvordan du kan se, hvilke passord Firefox har lagret for deg."
 
 #: templates/password_reset_required.html:8 templates/password_reset_required.txt:7
 msgid "Best,"
@@ -200,7 +202,7 @@ msgstr "Er det du som logger inn?"
 
 #: templates/unblock_code.html:4 templates/unblock_code.txt:3
 msgid "If yes, here is the authorization code you need:"
-msgstr ""
+msgstr "Hvis ja, her er godkjenningskoden du trenger:"
 
 #: templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
