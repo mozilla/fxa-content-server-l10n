@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-20 20:55+0000\n"
-"PO-Revision-Date: 2017-01-30 08:31+0000\n"
+"PO-Revision-Date: 2017-01-30 08:34+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -264,11 +264,11 @@ msgstr "Bekreft innlogging"
 
 #: templates/verify_login.html:6
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Hvis du mistenker at noen prøver å få tilgang til kontoen din, <a %(passwordChangeLinkAttributes)s>må du endre passordet ditt</a>."
 
 #: templates/verify_login.txt:5
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr ""
+msgstr "Hvis du mistenker at noen prøver å få tilgang til kontoen din, må du endre passordet ditt."
 
 #: templates/verify_sync.html:2 templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -276,7 +276,7 @@ msgstr "Klar, ferdig, synkroniser"
 
 #: templates/verify_sync.html:3 templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "Bekreft, at du har mottatt denne e-post, så hjelper vi deg med å installere og synkronisere Firefox på alle dine enheter, og begynner med:"
 
 #: templates/verify_sync.html:5 templates/verify_sync.txt:4
 msgid "Verify email "
@@ -284,7 +284,7 @@ msgstr "Bekreft e-post "
 
 #: templates/verify_sync.html:6 templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "Etter bekreftelsen hjelper vi deg med å installere og koble til Firefox på minst én annen enhet."
 
 #: mailer.js:151
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
