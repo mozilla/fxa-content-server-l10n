@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-20 20:55+0000\n"
-"PO-Revision-Date: 2017-01-21 11:38+0000\n"
+"PO-Revision-Date: 2017-01-30 09:23+0000\n"
 "Last-Translator: Jim Spentzos <jamesspentzos@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -152,11 +152,11 @@ msgstr "Τουλάχιστον 8 χαρακτήρες, αλλά περισσότ
 
 #: app/scripts/views/mixins/password-prompt-mixin.js:21 app/scripts/templates/sign_up.mustache:17
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr ""
+msgstr "Ένας ισχυρός, μοναδικός κωδικός πρόσβασης θα διατηρήσει τα δεδομένα του Firefox σας ασφαλή από εισβολείς."
 
 #: app/scripts/views/mixins/password-prompt-mixin.js:22
 msgid "This is a common password; please consider another one."
-msgstr ""
+msgstr "Αυτός είναι ένας κοινός κωδικός πρόσβασης· παρακαλώ σκεφτείτε έναν άλλο."
 
 #: app/scripts/views/mixins/resend-mixin.js:45
 msgid "Email resent"
@@ -233,7 +233,7 @@ msgstr "Μη έγκυρη παράμετρος: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:79
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "Παράμετρος που λείπει: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:83
 msgid "Invalid request signature"
@@ -561,7 +561,7 @@ msgstr "Προτιμήσεις"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr ""
+msgstr "Τα πρόσθετα και οι προτιμήσεις δεν συγχρονίζονται σε κινητές συσκευές προς το παρόν."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:16
 msgid "Save settings"
@@ -601,7 +601,7 @@ msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:10 app/scripts/templates/reset_password.mustache:6
 msgid "Learn how Sync works."
-msgstr ""
+msgstr "Μάθετε πώς λειτουργεί το Sync."
 
 #: app/scripts/templates/complete_reset_password.mustache:12 app/scripts/templates/settings/change_password.mustache:6
 msgid "New password"
