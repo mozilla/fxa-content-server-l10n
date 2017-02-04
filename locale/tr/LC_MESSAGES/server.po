@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-20 20:55+0000\n"
+"POT-Creation-Date: 2017-02-04 00:49+0000\n"
 "PO-Revision-Date: 2017-01-07 12:36+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1445256872.0\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:679
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:680
 msgid "Still there?"
 msgstr "Orada mısınız?"
 
@@ -54,7 +54,7 @@ msgstr "Sync’e giriş yap"
 msgid "Firefox Accounts"
 msgstr "Firefox Hesapları"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:609
+#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:610
 msgid "New sign-in to Firefox"
 msgstr "Firefox’a yeni giriş"
 
@@ -214,7 +214,7 @@ msgstr "Değilseniz, saldırganları kapı dışarı edebilmemiz için <a %(repo
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Değilseniz, saldırganları kapı dışarı edebilmemiz için bize rapor edin."
 
-#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:676
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:677
 msgid "Hello again."
 msgstr "Yeniden merhaba."
 
@@ -286,63 +286,63 @@ msgstr "E-postayı doğrula "
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Doğrulamadan sonra Firefox'u en az bir cihazınıza daha yüklemenize ve hesabınıza bağlamanıza yardım edeceğiz."
 
-#: mailer.js:151
+#: mailer.js:152
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s - %(uaOS)s %(uaOSVersion)s"
 
-#: mailer.js:154
+#: mailer.js:155
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s - %(uaOS)s"
 
-#: mailer.js:181
+#: mailer.js:182
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (tahmini)"
 
-#: mailer.js:183
+#: mailer.js:184
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (tahmini)"
 
-#: mailer.js:185
+#: mailer.js:186
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (tahmini)"
 
-#: mailer.js:187
+#: mailer.js:188
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (tahmini)"
 
-#: mailer.js:275
+#: mailer.js:276
 msgid "Verify your Firefox Account"
 msgstr "Firefox Hesabı’nızı doğrulayın"
 
-#: mailer.js:304
+#: mailer.js:305
 msgid "Confirm your email and start to sync!"
 msgstr "E-postanızı doğrulayarak eşitlemeyi başlatın!"
 
-#: mailer.js:361
+#: mailer.js:362
 msgid "Firefox Account authorization code"
 msgstr "Firefox Hesabı yetkilendirme kodu"
 
-#: mailer.js:413
+#: mailer.js:414
 msgid "Confirm new sign-in to Firefox"
 msgstr "Firefox'a yeni girişi onaylayın"
 
-#: mailer.js:464
+#: mailer.js:465
 msgid "Reset your Firefox Account password"
 msgstr "Firefox Hesabı parolanızı sıfırlayın"
 
-#: mailer.js:504
+#: mailer.js:505
 msgid "Your Firefox Account password has been changed"
 msgstr "Firefox Hesabı parolanız değiştirildi"
 
-#: mailer.js:542
+#: mailer.js:543
 msgid "Your Firefox Account password has been reset"
 msgstr "Firefox Hesabı parolanız sıfırlandı"
 
-#: mailer.js:576
+#: mailer.js:577
 msgid "Firefox Account password reset required"
 msgstr "Firefox Hesabı parolanızı sıfırlamanız gerekiyor"
 
-#: mailer.js:649
+#: mailer.js:650
 msgid "Firefox Account verified"
 msgstr "Firefox Hesabı doğrulandı"
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-20 20:55+0000\n"
+"POT-Creation-Date: 2017-02-04 00:49+0000\n"
 "PO-Revision-Date: 2017-01-22 14:26+0000\n"
 "Last-Translator: ibrahima.sarr <ibrahima.sarr@pulaagu.com>\n"
 "Language-Team: FULAH LOCALIZATION\n"
@@ -79,7 +79,7 @@ msgstr "Konte Firefox ɗee nganndaaka. <a href=\"/signup\">Winndito</a> huutoraa
 msgid "Account no longer exists. Recreate it?"
 msgstr "Konte ɗee nattii woodde. Sostu-ɗe?"
 
-#: app/scripts/views/sign_up.js:370
+#: app/scripts/views/sign_up.js:370 app/scripts/views/sign_up.js:369
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Konte ena ngoodi kisa. <a href=\"/signin\">Seŋo</a>"
 
@@ -99,7 +99,7 @@ msgstr "Ɗum deh welaani nanade. Wadde aɗa foti waylude finnde maa Konte Firefo
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Ɗum deh welaani nande. So ɗum ko kaɓirgol ngol a hoolaaki e jaati, pot-ɗaa ko waylude finnde maa Konte Firefox, e finndeeji danndaaɗi e Firefox fof."
 
-#: app/scripts/views/settings/clients.js:58
+#: app/scripts/views/settings/clients.js:58 app/scripts/views/settings/clients.js:62
 msgid "Last active %(translatedTimeAgo)s"
 msgstr "Ceŋiiɗo sakke %(translatedTimeAgo)s"
 
@@ -477,8 +477,11 @@ msgid "Script error"
 msgstr "Juumre dokkorol"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Jokkude e ɗuum firti ko a jaɓii <a id=\"service-tos\" href=\"%(termsUri)s\">Sarɗiiji Carwol</a> e <a id=\"service-pp\" href=\"%(privacyUri)s\">Tintinol Suturo</a> %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Jokkude e ɗuum firti ko a jaɓii <a id=\"service-tos\" href=\"%(termsUri)s\">Sarɗiiji Carwol</a> e <a id=\"service-pp\" href=\"%(privacyUri)s\">Tintinol Suturo</a> %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -693,15 +696,16 @@ msgstr "Seŋo e Firefox ngam timminde teeltagol"
 msgid "Sign in &rarr;"
 msgstr "Seŋo &rarr;"
 
-#: app/scripts/templates/connect_another_device.mustache:9
+#: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:13
 msgid "Open settings and select Sign in to Firefox to complete set-up"
 msgstr "Uddit teelte kisa labo-ɗaa Seŋo e Firefox ngam timminde teeltagol"
 
-#: app/scripts/templates/connect_another_device.mustache:11
+#: app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:17
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "Seŋo e Firefox mo iOS ngam timminde teeltagol"
 
-#: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:17
+#: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:17 app/scripts/templates/connect_another_device.mustache:9
+#: app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Seŋo e Firefox e kaɓirgol goɗngol ngam timminde teeltagol"
 
@@ -709,7 +713,7 @@ msgstr "Seŋo e Firefox e kaɓirgol goɗngol ngam timminde teeltagol"
 msgid "Sign in to Firefox for Android to complete set-up"
 msgstr "Seŋo e Firefox mo Android ngam timminde teeltagol"
 
-#: app/scripts/templates/connect_another_device.mustache:19
+#: app/scripts/templates/connect_another_device.mustache:19 app/scripts/templates/connect_another_device.mustache:21
 msgid "Why is this required?"
 msgstr "Hol ko waɗi ena waɗɗii?"
 
@@ -948,7 +952,7 @@ msgstr ""
 "Sync waɗiraaka dannorde duumiinde – ko danndude tan ko lollinaa e nokkuure ndee. So a firlitii finnde maa tee keɓe maa ndesaaka e kaɓirgol hay so gootol goɗngol, aɗa waawi momtoreede humpito kala "
 "jokkinooɗo e finnde hiiɗnde ndee. Ko ɗum waɗi aɗa foti aafde Firefox tee kuutoro-ɗaa Sync e ko ɓuri kaɓirgolo gootol."
 
-#: app/scripts/templates/why_connect_another_device.mustache:4
+#: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
 msgstr "Famii"
 
