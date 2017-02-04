@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-20 20:55+0000\n"
+"POT-Creation-Date: 2017-02-04 00:49+0000\n"
 "PO-Revision-Date: 2016-11-29 09:05+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,7 +79,7 @@ msgstr ""
 msgid "Account no longer exists. Recreate it?"
 msgstr "Сметката вече не съществува. Създаване наново?"
 
-#: app/scripts/views/sign_up.js:370
+#: app/scripts/views/sign_up.js:370 app/scripts/views/sign_up.js:369
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Сметката съществува. <a href=\"/signin\">Вписване</a>"
 
@@ -99,7 +99,7 @@ msgstr "Много съжаляваме. Сменете паролата на с
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Много съжаляваме. Ако на това устройство наистина не вярвате по-добре сменете паролата на своя Firefox Account и всички запазени пароли във Firefox."
 
-#: app/scripts/views/settings/clients.js:58
+#: app/scripts/views/settings/clients.js:58 app/scripts/views/settings/clients.js:62
 msgid "Last active %(translatedTimeAgo)s"
 msgstr "Последна активност %(translatedTimeAgo)s"
 
@@ -697,15 +697,16 @@ msgstr ""
 msgid "Sign in &rarr;"
 msgstr ""
 
-#: app/scripts/templates/connect_another_device.mustache:9
+#: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:13
 msgid "Open settings and select Sign in to Firefox to complete set-up"
 msgstr ""
 
-#: app/scripts/templates/connect_another_device.mustache:11
+#: app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:17
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr ""
 
-#: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:17
+#: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:17 app/scripts/templates/connect_another_device.mustache:9
+#: app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr ""
 
@@ -713,7 +714,7 @@ msgstr ""
 msgid "Sign in to Firefox for Android to complete set-up"
 msgstr ""
 
-#: app/scripts/templates/connect_another_device.mustache:19
+#: app/scripts/templates/connect_another_device.mustache:19 app/scripts/templates/connect_another_device.mustache:21
 msgid "Why is this required?"
 msgstr ""
 
@@ -950,7 +951,7 @@ msgid ""
 "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 msgstr ""
 
-#: app/scripts/templates/why_connect_another_device.mustache:4
+#: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
 msgstr ""
 

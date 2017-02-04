@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-20 20:55+0000\n"
+"POT-Creation-Date: 2017-02-04 00:49+0000\n"
 "PO-Revision-Date: 2017-01-26 15:58+0000\n"
 "Last-Translator: avelper <avelper@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:679
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:680
 msgid "Still there?"
 msgstr "¿Sigues ahí?"
 
@@ -27,16 +27,16 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Has conectado correctamente tu primer dispositivo a la cuenta de Firefox. Ahora puedes iniciar sesión en Sync desde tus otros dispositivos, incluido Firefox para <a href='%(androidUrl)s'>Android</a>"
-" y <a href='%(iosUrl)s'>iOS</a>."
+"Has conectado correctamente tu primer dispositivo a la cuenta de Firefox. Ahora puedes iniciar sesión en Sync desde tus otros dispositivos, incluido Firefox para <a href='%(androidUrl)s'>Android</"
+"a> y <a href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
-"Has conectado correctamente tu primer dispositivo a la cuenta de Firefox. Para sacarle el máximo provecho a Sync, conecta cualquier dispositivo <a href='%(androidUrl)s'>Firefox para Android</a> o <a"
-" href='%(iosUrl)s'>Firefox para iOS</a>."
+"Has conectado correctamente tu primer dispositivo a la cuenta de Firefox. Para sacarle el máximo provecho a Sync, conecta cualquier dispositivo <a href='%(androidUrl)s'>Firefox para Android</a> o "
+"<a href='%(iosUrl)s'>Firefox para iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -53,7 +53,7 @@ msgstr "Iniciar sesión en Sync"
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:609
+#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:610
 msgid "New sign-in to Firefox"
 msgstr "Nuevo inicio de sesión en Firefox"
 
@@ -212,14 +212,14 @@ msgstr "Si no es así, ayúdanos a mantener a raya a los intrusos e <a %(reportS
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Si no es así, ayúdanos a mantener a raya a los intrusos e infórmanos."
 
-#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:676
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:677
 msgid "Hello again."
 msgstr "Hola de nuevo."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-" email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+"this email address to activate your account."
 msgstr ""
 "Hace unos días creaste una cuenta de Firefox, pero nunca la confirmaste. Confirmar una cuenta te permite acceder a tus pestañas, marcadores, contraseñas e historial en cualquier dispositivo "
 "conectado a ella. Para activarla solo tienes que confirmar tu correo."
@@ -285,63 +285,63 @@ msgstr "Verificar correo electrónico "
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Una vez confirmado, te ayudaremos a instalar y conectar Firefox al menos en un dispositivo adicional."
 
-#: mailer.js:151
+#: mailer.js:152
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s en %(uaOS)s%(uaOSVersion)s"
 
-#: mailer.js:154
+#: mailer.js:155
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s en %(uaOS)s"
 
-#: mailer.js:181
+#: mailer.js:182
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (estimado)"
 
-#: mailer.js:183
+#: mailer.js:184
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (aproximado)"
 
-#: mailer.js:185
+#: mailer.js:186
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (estimado)"
 
-#: mailer.js:187
+#: mailer.js:188
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (aproximado)"
 
-#: mailer.js:275
+#: mailer.js:276
 msgid "Verify your Firefox Account"
 msgstr "Confirma tu cuenta de Firefox"
 
-#: mailer.js:304
+#: mailer.js:305
 msgid "Confirm your email and start to sync!"
 msgstr "¡Confirma tu correo electrónico y empieza a sincronizar!"
 
-#: mailer.js:361
+#: mailer.js:362
 msgid "Firefox Account authorization code"
 msgstr "Código de autorización de la cuenta de Firefox"
 
-#: mailer.js:413
+#: mailer.js:414
 msgid "Confirm new sign-in to Firefox"
 msgstr "Confirmar nuevo inicio de sesión en Firefox"
 
-#: mailer.js:464
+#: mailer.js:465
 msgid "Reset your Firefox Account password"
 msgstr "Restablece la contraseña de tu cuenta de Firefox"
 
-#: mailer.js:504
+#: mailer.js:505
 msgid "Your Firefox Account password has been changed"
 msgstr "Se ha cambiado la contraseña de tu cuenta de Firefox"
 
-#: mailer.js:542
+#: mailer.js:543
 msgid "Your Firefox Account password has been reset"
 msgstr "Se ha restablecido la contraseña de tu cuenta de Firefox"
 
-#: mailer.js:576
+#: mailer.js:577
 msgid "Firefox Account password reset required"
 msgstr "Se requiere restablecer la contraseña de la cuenta de Firefox"
 
-#: mailer.js:649
+#: mailer.js:650
 msgid "Firefox Account verified"
 msgstr "Cuenta de Firefox verificada"
 

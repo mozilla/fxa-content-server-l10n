@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-20 20:55+0000\n"
+"POT-Creation-Date: 2017-02-04 00:49+0000\n"
 "PO-Revision-Date: 2016-09-14 13:38+0000\n"
 "Last-Translator: orvils <orvils@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:679
+#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:680
 msgid "Still there?"
 msgstr "Vai jūs te joprojām esat?"
 
@@ -53,7 +53,7 @@ msgstr "Pieslēgties uz Sync"
 msgid "Firefox Accounts"
 msgstr "Firefox Konti"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:609
+#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:610
 msgid "New sign-in to Firefox"
 msgstr "Jauna pierakstīšanās uz Firefox"
 
@@ -213,7 +213,7 @@ msgstr ""
 msgid "If no, help us fend off intruders and report it to us."
 msgstr ""
 
-#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:676
+#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:677
 msgid "Hello again."
 msgstr "Vēlreiz sveiki."
 
@@ -286,63 +286,63 @@ msgstr ""
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr ""
 
-#: mailer.js:151
+#: mailer.js:152
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr ""
 
-#: mailer.js:154
+#: mailer.js:155
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr ""
 
-#: mailer.js:181
+#: mailer.js:182
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr ""
 
-#: mailer.js:183
+#: mailer.js:184
 msgid "%(city)s, %(country)s (estimated)"
 msgstr ""
 
-#: mailer.js:185
+#: mailer.js:186
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr ""
 
-#: mailer.js:187
+#: mailer.js:188
 msgid "%(country)s (estimated)"
 msgstr ""
 
-#: mailer.js:275
+#: mailer.js:276
 msgid "Verify your Firefox Account"
 msgstr "Pārbaudiet savu Firefox kontu"
 
-#: mailer.js:304
+#: mailer.js:305
 msgid "Confirm your email and start to sync!"
 msgstr ""
 
-#: mailer.js:361
+#: mailer.js:362
 msgid "Firefox Account authorization code"
 msgstr ""
 
-#: mailer.js:413
+#: mailer.js:414
 msgid "Confirm new sign-in to Firefox"
 msgstr "Apstiprināt jauno pierakstīšanos uz Firefox"
 
-#: mailer.js:464
+#: mailer.js:465
 msgid "Reset your Firefox Account password"
 msgstr "Atstatiet sava Firefox konta paroli"
 
-#: mailer.js:504
+#: mailer.js:505
 msgid "Your Firefox Account password has been changed"
 msgstr "Jūsu Firefox konta parole tika mainīta"
 
-#: mailer.js:542
+#: mailer.js:543
 msgid "Your Firefox Account password has been reset"
 msgstr "Jūsu Firefox konta parole tika atstatīta"
 
-#: mailer.js:576
+#: mailer.js:577
 msgid "Firefox Account password reset required"
 msgstr "Firefox konta paroles atstatīšana nepieciešama"
 
-#: mailer.js:649
+#: mailer.js:650
 msgid "Firefox Account verified"
 msgstr ""
 
