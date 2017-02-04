@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-04 00:49+0000\n"
-"PO-Revision-Date: 2017-01-30 09:23+0000\n"
+"PO-Revision-Date: 2017-02-04 11:16+0000\n"
 "Last-Translator: Jim Spentzos <jamesspentzos@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -309,7 +309,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:173 app/scripts/lib/auth-errors.js:211 app/scripts/lib/auth-errors.js:227
 msgid "Valid email required"
-msgstr ""
+msgstr "Απαιτείται έγκυρο email"
 
 #: app/scripts/lib/auth-errors.js:184
 msgid "A usable image was not found"
@@ -317,7 +317,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:188
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "Αδυναμία εκκίνησης κάμερας"
 
 #: app/scripts/lib/auth-errors.js:192
 msgid "Valid URL required"
@@ -473,12 +473,10 @@ msgstr ""
 
 #: app/scripts/lib/require-on-demand.js:47
 msgid "Script error"
-msgstr ""
+msgstr "Σφάλμα σεναρίου"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
@@ -491,11 +489,11 @@ msgstr "Λάβετε τα τελευταία νέα του Mozilla και του
 
 #: app/scripts/lib/strings.js:37
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (εκτίμηση)"
 
 #: app/scripts/lib/strings.js:38
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (εκτίμηση)"
 
 #: app/scripts/lib/strings.js:39
 msgid "IP address: %(ip)s"
@@ -635,7 +633,7 @@ msgstr "Σφάλμα επαλήθευσης"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
-msgstr ""
+msgstr "Επιβεβαίωση του λογαριασμού σας"
 
 #: app/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
@@ -643,7 +641,7 @@ msgstr "Επιβεβαίωση εισόδου"
 
 #: app/scripts/templates/confirm.mustache:5 app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email Sent"
-msgstr ""
+msgstr "Το email απεστάλη"
 
 #: app/scripts/templates/confirm.mustache:6
 msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
@@ -672,15 +670,15 @@ msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:1
 msgid "Connect another device"
-msgstr ""
+msgstr "Σύνδεση μιας άλλης συσκευής"
 
 #: app/scripts/templates/connect_another_device.mustache:2
 msgid "This device is connected"
-msgstr ""
+msgstr "Αυτή η συσκευή έχει συνδεθεί"
 
 #: app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
-msgstr ""
+msgstr "Το email επαληθεύτηκε"
 
 #: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1
 msgid "Success"
@@ -688,7 +686,7 @@ msgstr "Επιτυχία"
 
 #: app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign in to this Firefox to complete set-up"
-msgstr ""
+msgstr "Συνδεθείτε σε αυτό το Firefox για ολοκλήρωση ρύθμισης"
 
 #: app/scripts/templates/connect_another_device.mustache:7
 msgid "Sign in &rarr;"
@@ -700,7 +698,7 @@ msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:17
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
+msgstr "Συνδεθείτε στο Firefox για iOS για ολοκλήρωση ρύθμισης"
 
 #: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:17 app/scripts/templates/connect_another_device.mustache:9
 #: app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
@@ -793,7 +791,7 @@ msgstr "Αίτηση για άδεια"
 
 #: app/scripts/templates/permissions.mustache:2 app/scripts/templates/settings/gravatar_permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr ""
+msgstr "Το %(serviceName)s θέλει τις ακόλουθες πληροφορίες από το λογαριασμό σας:"
 
 #: app/scripts/templates/permissions.mustache:3 app/scripts/templates/settings/gravatar_permissions.mustache:4
 msgid "Accept"
