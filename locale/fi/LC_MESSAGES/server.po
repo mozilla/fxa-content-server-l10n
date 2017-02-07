@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-04 00:49+0000\n"
-"PO-Revision-Date: 2017-02-07 21:30+0000\n"
+"PO-Revision-Date: 2017-02-07 21:35+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -272,7 +272,7 @@ msgstr "Jos epäilet, että joku yrittää murtautua tilillesi, vaihda salasanas
 
 #: templates/verify_sync.html:2 templates/verify_sync.txt:1
 msgid "Ready, set, sync"
-msgstr ""
+msgstr "Paikoillanne, valmiit, synkronoikaa"
 
 #: templates/verify_sync.html:3 templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
@@ -288,11 +288,11 @@ msgstr ""
 
 #: mailer.js:152
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
-msgstr ""
+msgstr "%(uaBrowser)s alustalla %(uaOS)s %(uaOSVersion)s"
 
 #: mailer.js:155
 msgid "%(uaBrowser)s on %(uaOS)s"
-msgstr ""
+msgstr "%(uaBrowser)s alustalla %(uaOS)s"
 
 #: mailer.js:182
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
