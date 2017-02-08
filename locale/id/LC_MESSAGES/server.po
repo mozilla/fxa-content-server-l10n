@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-04 00:49+0000\n"
-"PO-Revision-Date: 2016-08-31 15:22+0000\n"
-"Last-Translator: Fauzan Alfi <fauzanalfi@mozilla.web.id>\n"
+"PO-Revision-Date: 2017-02-08 14:02+0000\n"
+"Last-Translator: Romi Hardiyanto <romihardiyanto@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -21,23 +21,23 @@ msgstr "Masih di sana?"
 
 #: templates/_pending.txt:2
 msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
-msgstr "Beberapa saat lalu Anda membuat Akun Firefox, tapi belum pernah memverifikasi. Klik tautan di bawah untuk mengaktifkan akun."
+msgstr "Beberapa saat lalu Anda membuat Firefox Account, tapi belum pernah memverifikasi. Klik tautan di bawah untuk mengaktifkan akun."
 
 #: templates/_pending.txt:3
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Anda sukses menghubungkan perangkat pertama Anda dengan akun Firefox Anda. Sekarang Anda bisa masuk untuk menyinkronkan perangkat yang lain, termasuk Firefox untuk <a href='%(androidUrl)s'>Android</"
-"a> dan <a href='%(iosUrl)s'>iOS</a>."
+"Anda sukses menghubungkan perangkat pertama Anda dengan Firefox Account Anda. Sekarang Anda bisa masuk untuk menyinkronkan perangkat yang lain, termasuk Firefox untuk <a "
+"href='%(androidUrl)s'>Android</a> dan <a href='%(iosUrl)s'>iOS</a>."
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
-"Anda berhasil menghubungkan perangkat pertama Anda dengan akun Firefox. Untuk melakukan sinkronisasi, hubungkan <a href='%(androidUrl)s'>Firefox untuk Android</a> atau <a href='%(iosUrl)s'>Firefox "
-"untuk iOS</a>."
+"Anda berhasil menghubungkan perangkat pertama Anda dengan Firefox Account. Untuk melakukan sinkronisasi, hubungkan <a href='%(androidUrl)s'>Firefox untuk Android</a> atau <a "
+"href='%(iosUrl)s'>Firefox untuk iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -52,7 +52,7 @@ msgstr "Masuk untuk sinkronisasi"
 #: templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
-msgstr "Akun Firefox"
+msgstr "Firefox Account"
 
 #: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:610
 msgid "New sign-in to Firefox"
@@ -82,7 +82,7 @@ msgstr "Kebijakan Privasi Mozilla"
 
 #: templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr ""
+msgstr "Ini adalah email otomatis; jika Anda tidak menambahkan perangkat baru ke Firefox Account Anda, Anda harus mengubah sandi Anda segera di %(passwordChangeLink)s"
 
 #: templates/new_device_login.txt:4 templates/password_changed.txt:5 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5 templates/verify_sync.txt:7
@@ -95,7 +95,7 @@ msgstr "Sandi sukses diganti"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr ""
+msgstr "Firefox Account Anda telah berhasil diubah untuk perangkat berikut ini:"
 
 #: templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
@@ -111,7 +111,7 @@ msgstr "Sandi Anda telah diset ulang"
 
 #: templates/password_reset.html:3
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr "Kata sandi Akun Firefox Anda diubah. Jika Anda tidak mengubahnya, <a %(resetLinkAttributes)s> silahkan setel ulang kata sandi Anda </a>."
+msgstr "Kata sandi Firefox Account Anda diubah. Jika Anda tidak mengubahnya, <a %(resetLinkAttributes)s> setel ulang kata sandi Anda </a>."
 
 #: templates/password_reset.html:4 templates/post_verify.html:5 templates/post_verify.txt:4 templates/recovery.html:6 templates/recovery.txt:5 templates/verification_reminder_first.html:5
 #: templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:5 templates/verification_reminder_second.txt:4 templates/verify.html:5 templates/verify.txt:4
@@ -125,11 +125,11 @@ msgstr "Penyetelan ulang sandi sukses"
 
 #: templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr "Sandi akun Firefox Anda berhasil disetel ulang."
+msgstr "Sandi Firefox Account Anda berhasil disetel ulang."
 
 #: templates/password_reset.txt:3
 msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Ini adalah email otomatis; jika Anda tidak mengubah sandi Firefox Account Anda, Anda harus mengubahnya segera di %(resetLink)s"
 
 #: templates/password_reset_required.html:2 templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
@@ -175,12 +175,12 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
-"Anda sukses menghubungkan perangkat pertama Anda dengan Akun Firefox Anda. Sekarang Anda dapat masuk untuk sinkronisasi dari perangkat lainnya, termasuk Firefox untuk <a "
+"Anda sukses menghubungkan perangkat pertama Anda dengan Firefox Account Anda. Sekarang Anda dapat masuk untuk sinkronisasi dari perangkat lainnya, termasuk Firefox untuk <a "
 "%(androidLinkAttributes)s>Android</a> dan <a %(iosLinkAttributes)s>iOS</a>."
 
 #: templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-msgstr "Anda sukses menghubungkan perangkat pertama Anda ke akun Firefox. Sekarang Anda dapat masuk untuk menyinkronkan dari perangkat yang lain, termasuk Firefox untuk Android dan iOS."
+msgstr "Anda sukses menghubungkan perangkat pertama Anda ke Firefox Account. Sekarang Anda dapat masuk untuk menyinkronkan dari perangkat yang lain, termasuk Firefox untuk Android dan iOS."
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
@@ -192,7 +192,7 @@ msgstr "Anda lupa sandi?"
 
 #: templates/recovery.html:3 templates/recovery.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
-msgstr ""
+msgstr "Klik tombol tersebut pada jam berikutnya untuk mengubah kata sandi Firefox Account Anda. Permintaan berasal dari perangkat berikut:"
 
 #: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
@@ -220,10 +220,10 @@ msgstr "Jumpa lagi."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
-"Beberapa hari lalu Anda membuat akun Firefox, namun tidak pernah memverifikasinya. Akun terverifikasi memungkinkan Anda mengakses tab, markah, sandi, dan sejarah perangkat yang terhubung. "
+"Beberapa hari lalu Anda membuat Firefox Account, namun tidak pernah memverifikasinya. Akun terverifikasi memungkinkan Anda mengakses tab, markah, sandi, dan sejarah perangkat yang terhubung. "
 "Konfirmasi alamat email ini untuk mengaktifkan akun Anda."
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
@@ -236,7 +236,7 @@ msgstr "Verifikasi Email"
 
 #: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9 templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr "Verifikasi email Anda untuk menyelesaikan pendaftaran akun Firefox Anda"
+msgstr "Verifikasi email Anda untuk menyelesaikan pendaftaran Firefox Account Anda"
 
 #: templates/verification_reminder_first.txt:3 templates/verification_reminder_second.txt:3 templates/verify.txt:3
 msgid "Activate now:"
@@ -314,7 +314,7 @@ msgstr "%(country)s (estimasi)"
 
 #: mailer.js:276
 msgid "Verify your Firefox Account"
-msgstr "Verifikasi akun Firefox Anda"
+msgstr "Verifikasi Firefox Account Anda"
 
 #: mailer.js:305
 msgid "Confirm your email and start to sync!"
@@ -330,15 +330,15 @@ msgstr "Konfirmasi proses masuk baru ke Firefox"
 
 #: mailer.js:465
 msgid "Reset your Firefox Account password"
-msgstr "Setel ulang sandi akun Firefox Anda"
+msgstr "Setel ulang sandi Firefox Account Anda"
 
 #: mailer.js:505
 msgid "Your Firefox Account password has been changed"
-msgstr "Sandi akun Firefox Anda telah diubah"
+msgstr "Sandi Firefox Account Anda telah diubah"
 
 #: mailer.js:543
 msgid "Your Firefox Account password has been reset"
-msgstr "Sandi akun Firefox Anda telah disetel-ulang"
+msgstr "Sandi Firefox Account Anda telah disetel-ulang"
 
 #: mailer.js:577
 msgid "Firefox Account password reset required"
@@ -386,7 +386,7 @@ msgstr "Anda sedang menggunakan peramban <strong>versi lawas</strong>. <a href=\
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr "Akun Firefox membutuhkan JavaScript."
+msgstr "Firefox Account membutuhkan JavaScript."
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
