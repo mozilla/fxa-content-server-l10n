@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-04 00:49+0000\n"
-"PO-Revision-Date: 2017-02-08 14:04+0000\n"
+"PO-Revision-Date: 2017-02-08 14:46+0000\n"
 "Last-Translator: Romi Hardiyanto <romihardiyanto@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -334,7 +334,7 @@ msgstr "Masukkan alamat email yang valid. firefox.com tidak menawarkan email."
 
 #: app/scripts/lib/auth-errors.js:223
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "Firefox Accounts hanya bisa ditempatkan pada IFRAME pada situs yang telah disetujui"
+msgstr "Firefox Account hanya bisa ditempatkan pada IFRAME pada situs yang telah disetujui"
 
 #: app/scripts/lib/auth-errors.js:242 app/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
@@ -720,7 +720,7 @@ msgstr "Reremah dan penyimpanan lokal diperlukan."
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Harap mungkinkan reremah dan penyimpanan lokal dalam peramban anda untuk mengakses Firefox Accounts. Melakukan hal ini akan memungkinkan fungsi seperti mengingat anda di antara sesi-sesi."
+msgstr "Aktifkan kuki dan penyimpanan lokal peramban Anda untuk mengakses Firefox Account. Jika diaktifkan, fungsi mengingat antarsesi akan berfungsi."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -1004,19 +1004,19 @@ msgstr "Sandi lawas"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
-msgstr ""
+msgstr "Putuskan dari Sync?"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr ""
+msgstr "Data penjelajahan Anda akan tetap berada %(deviceName)s, namun tidak akan tersinkronisasi lagi dengan akun Anda."
 
 #: app/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Suspicious device"
-msgstr ""
+msgstr "Perangkat mencurigakan"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Lost or stolen device"
-msgstr ""
+msgstr "Perangkat hilang atau dicuri"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Old or replaced device"
@@ -1036,7 +1036,7 @@ msgstr "Putuskan"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
-msgstr ""
+msgstr "Pemutusan Berhasil"
 
 #: app/scripts/templates/settings/clients.mustache:2
 msgid "Devices & apps"
@@ -1052,27 +1052,27 @@ msgstr "perangkat saat ini"
 
 #: app/scripts/templates/settings/clients.mustache:7
 msgid "Disconnect…"
-msgstr ""
+msgstr "Putuskan…"
 
 #: app/scripts/templates/settings/clients.mustache:11
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "Firefox untuk iOS"
 
 #: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15
 msgid "none connected"
-msgstr ""
+msgstr "tidak ada yang terhubung"
 
 #: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Download"
-msgstr ""
+msgstr "Unduh"
 
 #: app/scripts/templates/settings/clients.mustache:14
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Firefox untuk Android"
 
 #: app/scripts/templates/settings/clients.mustache:18
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "Item hilang atau terduplikasi?"
 
 #: app/scripts/templates/settings/clients.mustache:19
 msgid "Refresh"
