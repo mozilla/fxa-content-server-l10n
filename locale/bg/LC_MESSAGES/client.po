@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-04 00:49+0000\n"
-"PO-Revision-Date: 2017-02-09 14:50+0000\n"
+"PO-Revision-Date: 2017-02-10 13:29+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -73,7 +73,7 @@ msgstr "Непозната сметка. <a href=\"/signup\">Регистрир�
 
 #: app/scripts/views/sign_in.js:164
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr ""
+msgstr "Непознат Firefox Account. <a href=\"/signup\">Впишете се</a> с електронния си адрес от стария профил в Добавки, за да получите достъп до данните си в Добавки."
 
 #: app/scripts/views/sign_up.js:62
 msgid "Account no longer exists. Recreate it?"
