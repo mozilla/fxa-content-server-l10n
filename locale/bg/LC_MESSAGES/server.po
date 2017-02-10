@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-04 00:49+0000\n"
-"PO-Revision-Date: 2017-02-09 14:51+0000\n"
+"PO-Revision-Date: 2017-02-10 13:48+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -314,7 +314,7 @@ msgstr "Препотвърждаване на Firefox Account"
 
 #: mailer.js:305
 msgid "Confirm your email and start to sync!"
-msgstr ""
+msgstr "Потвърдете своя имейл и започнете синхронизиране!"
 
 #: mailer.js:362
 msgid "Firefox Account authorization code"
