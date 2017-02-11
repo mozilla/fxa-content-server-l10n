@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-04 00:49+0000\n"
-"PO-Revision-Date: 2017-02-11 07:03+0000\n"
+"PO-Revision-Date: 2017-02-11 07:30+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -449,7 +449,7 @@ msgstr ""
 
 #: app/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
-msgstr ""
+msgstr "‏‏ناجائز ٹوکن"
 
 #: app/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
@@ -525,7 +525,7 @@ msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
-msgstr ""
+msgstr "مزید سیکھیں۔"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s created"
@@ -549,15 +549,15 @@ msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:9
 msgid "Passwords"
-msgstr ""
+msgstr "پاس ورڈ"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:11
 msgid "History"
-msgstr ""
+msgstr "تاریخ"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:13
 msgid "Preferences"
-msgstr ""
+msgstr "ترجیحات"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
@@ -565,7 +565,7 @@ msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:16
 msgid "Save settings"
-msgstr ""
+msgstr "سیٹنگیں محفوظ کريں"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:17 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
@@ -593,7 +593,7 @@ msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:8
 msgid "Enter new password"
-msgstr ""
+msgstr "نیا پاس ورڈ داخل کریں"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
@@ -605,7 +605,7 @@ msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:12 app/scripts/templates/settings/change_password.mustache:6
 msgid "New password"
-msgstr ""
+msgstr "نیا پاس ورڈ"
 
 #: app/scripts/templates/complete_reset_password.mustache:14
 msgid "Repeat password"
@@ -641,7 +641,7 @@ msgstr ""
 
 #: app/scripts/templates/confirm.mustache:5 app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email Sent"
-msgstr ""
+msgstr "اى ميل ارسال کر دی گئى"
 
 #: app/scripts/templates/confirm.mustache:6
 msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
@@ -682,7 +682,7 @@ msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1
 msgid "Success"
-msgstr ""
+msgstr "کامیابی"
 
 #: app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign in to this Firefox to complete set-up"
@@ -736,7 +736,7 @@ msgstr ""
 #: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:15
 #: app/scripts/templates/settings/change_password.mustache:1 app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
-msgstr ""
+msgstr "پاس ورڈ"
 
 #: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in.mustache:4 app/scripts/templates/sign_in.mustache:11
 #: app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_in.mustache:22
@@ -795,7 +795,7 @@ msgstr ""
 
 #: app/scripts/templates/permissions.mustache:3 app/scripts/templates/settings/gravatar_permissions.mustache:4
 msgid "Accept"
-msgstr ""
+msgstr "قبول کریں"
 
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9
@@ -842,7 +842,7 @@ msgstr ""
 
 #: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
-msgstr ""
+msgstr "ای میل"
 
 #: app/scripts/templates/reset_password.mustache:9
 msgid "Begin reset"
@@ -898,7 +898,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"
-msgstr ""
+msgstr "جاری رکھیں"
 
 #: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
@@ -967,7 +967,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/avatar_change.mustache:2
 msgid "Camera"
-msgstr ""
+msgstr "کیمرہ"
 
 #: app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Gravatar"
@@ -975,7 +975,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Clear"
-msgstr ""
+msgstr "صاف کریں"
 
 #: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:20
 msgid "Done"
@@ -987,11 +987,11 @@ msgstr ""
 
 #: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:5
 msgid "Change"
-msgstr ""
+msgstr "تبدیل کریں"
 
 #: app/scripts/templates/settings/avatar_gravatar.mustache:2
 msgid "Save"
-msgstr ""
+msgstr "محفوظ کریں"
 
 #: app/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
@@ -999,7 +999,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
-msgstr ""
+msgstr "پرانا پاس ورڈ"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
@@ -1095,7 +1095,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/delete_account.mustache:1 app/scripts/templates/settings/delete_account.mustache:5
 msgid "Delete account"
-msgstr ""
+msgstr "اکاؤنٹ حذف کريں"
 
 #: app/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete…"
