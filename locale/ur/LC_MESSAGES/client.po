@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-04 00:49+0000\n"
-"PO-Revision-Date: 2017-02-11 14:48+0000\n"
+"PO-Revision-Date: 2017-02-11 15:06+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -806,7 +806,7 @@ msgstr "منسوخ کریں"
 
 #: app/scripts/templates/ready.mustache:4
 msgid "Proceed"
-msgstr ""
+msgstr "آگے بڑھیں"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
@@ -822,7 +822,7 @@ msgstr ""
 
 #: app/scripts/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr ""
+msgstr "سرگرمی رپورٹ کریں"
 
 #: app/scripts/templates/report_sign_in.mustache:7 app/scripts/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
