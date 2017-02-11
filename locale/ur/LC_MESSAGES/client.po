@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-04 00:49+0000\n"
-"PO-Revision-Date: 2017-02-11 07:58+0000\n"
+"PO-Revision-Date: 2017-02-11 08:28+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -201,11 +201,11 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:47
 msgid "Account already exists"
-msgstr ""
+msgstr "اکائونٹ پہلے سے موجود ہے"
 
 #: app/scripts/lib/auth-errors.js:51
 msgid "Unknown account"
-msgstr ""
+msgstr "‏‏نامعلوم اکاؤنٹ"
 
 #: app/scripts/lib/auth-errors.js:55
 msgid "Incorrect email case"
@@ -674,7 +674,7 @@ msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:2
 msgid "This device is connected"
-msgstr ""
+msgstr "آلہ جڑا ہوا ہے"
 
 #: app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
