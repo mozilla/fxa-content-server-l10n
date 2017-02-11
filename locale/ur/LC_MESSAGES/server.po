@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-04 00:49+0000\n"
-"PO-Revision-Date: 2017-02-11 14:07+0000\n"
+"PO-Revision-Date: 2017-02-11 14:12+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -241,7 +241,7 @@ msgstr "خوش آمد ید!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "براہ مہربانی اپنے اکاؤنٹ کو چالو کرنے کے لِئے اس ای میل کے پتہ کی تصدیق کریں۔"
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
