@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-04 00:49+0000\n"
-"PO-Revision-Date: 2017-02-11 08:21+0000\n"
+"PO-Revision-Date: 2017-02-11 09:49+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -337,7 +337,7 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "صفہہ نہیں ملا"
 
 #: server/templates/pages/src/404.html:3
 msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
