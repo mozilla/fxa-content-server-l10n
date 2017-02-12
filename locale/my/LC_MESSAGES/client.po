@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-04 00:49+0000\n"
-"PO-Revision-Date: 2017-02-12 06:50+0000\n"
+"PO-Revision-Date: 2017-02-12 06:51+0000\n"
 "Last-Translator: La Min Ko (လမင်းကို) <lminko.lmk@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: my\n"
@@ -337,11 +337,11 @@ msgstr "အီးမေးလ်လိပ်စာအမှန်ကို ရ�
 
 #: app/scripts/lib/auth-errors.js:223
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Firefox အကောင့်များကို အတည်ပြုပြီး ဝဘ်ဆိုက်များရှိ IFRAME ထဲတွင်သာ ထားနိုင်သည်။"
 
 #: app/scripts/lib/auth-errors.js:242 app/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
-msgstr ""
+msgstr "အတည်ပြုလင့် ပျက်ပြယ်သွားသည်"
 
 #: app/scripts/lib/auth-errors.js:250
 msgid "The image dimensions must be at least 100x100px"
