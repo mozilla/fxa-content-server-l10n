@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-04 00:49+0000\n"
-"PO-Revision-Date: 2017-02-16 11:10+0000\n"
+"PO-Revision-Date: 2017-02-16 11:11+0000\n"
 "Last-Translator: Romi Hardiyanto <romihardiyanto@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -200,19 +200,19 @@ msgstr "Setel ulang sandi"
 
 #: templates/unblock_code.html:2 templates/unblock_code.txt:1
 msgid "Is this you signing in?"
-msgstr ""
+msgstr "Apakah Anda benar-benar sedang masuk?"
 
 #: templates/unblock_code.html:4 templates/unblock_code.txt:3
 msgid "If yes, here is the authorization code you need:"
-msgstr ""
+msgstr "Jika ya, ini adalah kode otorisasi yang Anda butuhkan:"
 
 #: templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr ""
+msgstr "Jika tidak, mohon bantu kami untuk menangkis penyusup dan <a %(reportSignInLinkAttributes)s>melaporkannya pada kami</a>."
 
 #: templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "Jika tidak, mohon bantu kami untuk menangkis penyusup dan melaporkannya pada kami."
 
 #: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:677
 msgid "Hello again."
@@ -286,7 +286,7 @@ msgstr "Konfirmasi surel "
 
 #: templates/verify_sync.html:6 templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "Setelah terkonfirmasi, kami akan membantu Anda memasang dan menyambungkan Firefox paling tidak pada sebuah perangkat."
 
 #: mailer.js:152
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
