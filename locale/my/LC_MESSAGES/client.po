@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-04 00:49+0000\n"
+"POT-Creation-Date: 2017-02-17 18:48+0000\n"
 "PO-Revision-Date: 2017-02-12 06:51+0000\n"
 "Last-Translator: La Min Ko (လမင်းကို) <lminko.lmk@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,10 +15,11 @@ msgstr ""
 "X-Generator: Pontoon\n"
 
 #: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
+#: app/scripts/views/confirm.js:126
 msgid "Account verified successfully"
 msgstr "အကောင့်ကို အောင်မြင်စွာ အတည်ပြုပြီးပါပြီ"
 
-#: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38
+#: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38 app/scripts/views/ready.js:39
 msgid "Password reset"
 msgstr "စကားဝှက် ပြန်သတ်မှတ်ရန်"
 
@@ -42,27 +43,27 @@ msgstr "ပြသရန် အမည်"
 msgid "Account picture"
 msgstr "အကောင့်ဓါတ်ပုံ"
 
-#: app/scripts/views/ready.js:33
+#: app/scripts/views/ready.js:33 app/scripts/views/ready.js:34
 msgid "Welcome back"
 msgstr "ကြိုဆိုပါတယ်"
 
-#: app/scripts/views/ready.js:34
+#: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync သည် အချိန်တိုအတွင်း ပြန်လည်စတင်ပါလိမ့်မည်"
 
-#: app/scripts/views/ready.js:39
+#: app/scripts/views/ready.js:39 app/scripts/views/ready.js:40
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "အခြား Firefox ကိရိယာများတွင် စကားဝှက်အသစ် ရိုက်ခြင်းဖြင့် စီမံပြင်ဆင်မှုကို အပြီးသတ်ပါ။"
 
-#: app/scripts/views/ready.js:44
+#: app/scripts/views/ready.js:44 app/scripts/views/ready.js:45
 msgid "Sign-in confirmed"
 msgstr "လက်မှတ်ထိုးဝင်ရောက်မှု အတည်ပြုပြီးပါပြီ"
 
-#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 app/scripts/templates/ready.mustache:3
+#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 app/scripts/templates/ready.mustache:3 app/scripts/views/ready.js:46 app/scripts/views/ready.js:51
 msgid "You are now ready to use %(serviceName)s"
 msgstr "%(serviceName)s အား သုံးဆွဲရန် အသင့်ဖြစ်ပြီ"
 
-#: app/scripts/views/ready.js:49
+#: app/scripts/views/ready.js:49 app/scripts/views/ready.js:50
 msgid "Account verified"
 msgstr "အကောင့်အား အတည်ပြုပြီး"
 
@@ -92,15 +93,11 @@ msgstr "စကားဝှက်ကို အောင်မြင်စွာ �
 
 #: app/scripts/views/settings/client_disconnect.js:17
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr ""
-"ဒီအကြောင်းနှင့် ပတ်သက်ပြီး ကြားရတာ စိတ်မကောင်းပါ။ မီးမြေခွေးအကောင့်ကို ပြောင်းလဲသင့်သည်၊ ထို့ပြင် အချက်အလက်များကို အဝေးထိန်းဖယ်ရှားနိုင်မှုအကြောင်း ကိရိယာထုတ်လုပ်သူများ၏ သတင်းအချက်အလက်များကို "
-"ရှာဖွေကြည့်ရှုပါ။"
+msgstr "ဒီအကြောင်းနှင့် ပတ်သက်ပြီး ကြားရတာ စိတ်မကောင်းပါ။ မီးမြေခွေးအကောင့်ကို ပြောင်းလဲသင့်သည်၊ ထို့ပြင် အချက်အလက်များကို အဝေးထိန်းဖယ်ရှားနိုင်မှုအကြောင်း ကိရိယာထုတ်လုပ်သူများ၏ သတင်းအချက်အလက်များကို ရှာဖွေကြည့်ရှုပါ။"
 
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
-"ဒီအကြောင်းနှင့်ပတ်သက်ပြီး ကြားရတာ စိတ်မကောင်းပါ။ အကယ်၍ ဒီကိရိယာသည် သင်မယုံကြည်သော ကိရိယာ ဖြစ်နေပါက Firefox အကောင့်စကားဝှက်ကို ပြောင်းလဲသင့်ပါသည်။ ထို့ပြင် Firefox ထဲတွင် သိမ်းထားသော "
-"စကားဝှက်အားလုံးကိုလည်း ပြောင်းလဲသင့်ပါသည်။"
+msgstr "ဒီအကြောင်းနှင့်ပတ်သက်ပြီး ကြားရတာ စိတ်မကောင်းပါ။ အကယ်၍ ဒီကိရိယာသည် သင်မယုံကြည်သော ကိရိယာ ဖြစ်နေပါက Firefox အကောင့်စကားဝှက်ကို ပြောင်းလဲသင့်ပါသည်။ ထို့ပြင် Firefox ထဲတွင် သိမ်းထားသော စကားဝှက်အားလုံးကိုလည်း ပြောင်းလဲသင့်ပါသည်။"
 
 #: app/scripts/views/settings/clients.js:58 app/scripts/views/settings/clients.js:62
 msgid "Last active %(translatedTimeAgo)s"
@@ -480,7 +477,9 @@ msgid "Script error"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
@@ -1131,6 +1130,14 @@ msgstr ""
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
+msgstr ""
+
+#: app/scripts/lib/strings.js:43
+msgid "Web Session"
+msgstr ""
+
+#: app/scripts/templates/settings/client_disconnect.mustache:6
+msgid "Duplicate device"
 msgstr ""
 
 #~ msgid "Firefox Sync will begin momentarily"

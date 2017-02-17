@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-04 00:49+0000\n"
+"POT-Creation-Date: 2017-02-17 18:48+0000\n"
 "PO-Revision-Date: 2016-12-24 07:08+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -189,6 +189,10 @@ msgstr "請在一個小時內點擊下面的按鈕來重設您 Firefox 帳號的
 #: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
 msgstr "重設密碼"
+
+#: templates/sms.installFirefox.txt:1
+msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
+msgstr ""
 
 #: templates/unblock_code.html:2 templates/unblock_code.txt:1
 msgid "Is this you signing in?"

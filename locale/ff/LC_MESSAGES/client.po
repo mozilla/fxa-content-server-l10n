@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-04 00:49+0000\n"
+"POT-Creation-Date: 2017-02-17 18:48+0000\n"
 "PO-Revision-Date: 2017-01-22 14:26+0000\n"
 "Last-Translator: ibrahima.sarr <ibrahima.sarr@pulaagu.com>\n"
 "Language-Team: FULAH LOCALIZATION\n"
@@ -16,10 +16,11 @@ msgstr ""
 "X-POOTLE-MTIME: 1426092424.0\n"
 
 #: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
+#: app/scripts/views/confirm.js:126
 msgid "Account verified successfully"
 msgstr "Konte ƴeewtoraama no haaniri"
 
-#: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38
+#: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38 app/scripts/views/ready.js:39
 msgid "Password reset"
 msgstr "Finnde firlitaama"
 
@@ -43,27 +44,27 @@ msgstr "Innde jaytino"
 msgid "Account picture"
 msgstr "Natal konte"
 
-#: app/scripts/views/ready.js:33
+#: app/scripts/views/ready.js:33 app/scripts/views/ready.js:34
 msgid "Welcome back"
 msgstr "A jaɓɓaama kadi"
 
-#: app/scripts/views/ready.js:34
+#: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync maa jokku ko leelaani"
 
-#: app/scripts/views/ready.js:39
+#: app/scripts/views/ready.js:39 app/scripts/views/ready.js:40
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Timmin teeltol so naatnude finnde hesere ndee e kaɓirɗi maa Firefox goɗɗe."
 
-#: app/scripts/views/ready.js:44
+#: app/scripts/views/ready.js:44 app/scripts/views/ready.js:45
 msgid "Sign-in confirmed"
 msgstr "Ceŋagol teeŋtinaama"
 
-#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 app/scripts/templates/ready.mustache:3
+#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 app/scripts/templates/ready.mustache:3 app/scripts/views/ready.js:46 app/scripts/views/ready.js:51
 msgid "You are now ready to use %(serviceName)s"
 msgstr "A hebiima haŋkadi huutoraade %(serviceName)s"
 
-#: app/scripts/views/ready.js:49
+#: app/scripts/views/ready.js:49 app/scripts/views/ready.js:50
 msgid "Account verified"
 msgstr "Konte ƴeewtaama"
 
@@ -1137,14 +1138,19 @@ msgstr "Huutoro OpenID"
 msgid "Use Firefox Account"
 msgstr "Huutoro Konte Firefox"
 
+#: app/scripts/lib/strings.js:43
+msgid "Web Session"
+msgstr ""
+
+#: app/scripts/templates/settings/client_disconnect.mustache:6
+msgid "Duplicate device"
+msgstr "Kaɓirgol ɗiɗabol"
+
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "Yettaaki? Neltir"
 
 #~ msgid "Reason for disconnecting…"
 #~ msgstr "Daliilu ceŋtagol…"
-
-#~ msgid "Duplicate device"
-#~ msgstr "Kaɓirgol ɗiɗabol"
 
 #~ msgid "Stay in sync on the go:"
 #~ msgstr "Heddo e ceŋol sahaa kala:"

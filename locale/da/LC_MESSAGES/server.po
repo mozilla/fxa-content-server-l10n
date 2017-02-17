@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-04 00:49+0000\n"
+"POT-Creation-Date: 2017-02-17 18:48+0000\n"
 "PO-Revision-Date: 2017-01-02 04:45+0000\n"
 "Last-Translator: Kim Ludvigsen <ludvigs@kimludvigsen.dk>\n"
 "Language-Team: MozillaDanmark\n"
@@ -195,6 +195,10 @@ msgstr "Klik på knappen indenfor den næste time for at oprette en ny adgangsko
 #: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
 msgstr "Nulstil adgangskode"
+
+#: templates/sms.installFirefox.txt:1
+msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
+msgstr ""
 
 #: templates/unblock_code.html:2 templates/unblock_code.txt:1
 msgid "Is this you signing in?"

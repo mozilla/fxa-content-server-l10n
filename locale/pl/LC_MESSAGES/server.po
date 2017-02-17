@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-04 00:49+0000\n"
+"POT-Creation-Date: 2017-02-17 18:48+0000\n"
 "PO-Revision-Date: 2016-12-25 20:48+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
@@ -192,6 +192,10 @@ msgstr "Kliknij przycisk w ciągu godziny, aby ustawić nowe hasło konta Firef
 #: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
 msgstr "Zmień hasło"
+
+#: templates/sms.installFirefox.txt:1
+msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
+msgstr ""
 
 #: templates/unblock_code.html:2 templates/unblock_code.txt:1
 msgid "Is this you signing in?"
