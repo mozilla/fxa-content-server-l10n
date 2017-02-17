@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-04 00:49+0000\n"
-"PO-Revision-Date: 2016-12-26 00:53+0000\n"
+"PO-Revision-Date: 2017-02-17 03:50+0000\n"
 "Last-Translator: ravmn <ravmn@ravmn.cl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_CL\n"
@@ -466,20 +466,18 @@ msgstr "Error de procesamiento de imagen"
 
 #: app/scripts/lib/require-on-demand.js:39
 msgid "Resources failed to load"
-msgstr ""
+msgstr "Falló la carga de los recursos"
 
 #: app/scripts/lib/require-on-demand.js:43
 msgid "Unexpected resource error"
-msgstr ""
+msgstr "Error de recurso inesperado"
 
 #: app/scripts/lib/require-on-demand.js:47
 msgid "Script error"
-msgstr ""
+msgstr "Error de script"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Al proceder, estás de acuerdo con los <a id=\"service-tos\" href=\"%(termsUri)s\">Términos del servicio</a> y el <a id=\"service-pp\" href=\"%(privacyUri)s\">Aviso de privacidad</a> de "
 "%(serviceName)s (%(serviceUri)s)."
@@ -536,7 +534,7 @@ msgstr "Aprender más."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s created"
-msgstr ""
+msgstr "%(email)s creada"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
@@ -661,7 +659,7 @@ msgstr "Para proteger mejor tus datos de Firefox, te mandamos un enlace de confi
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive and not in spam folder? Resend"
-msgstr ""
+msgstr "¿No llegó y no está en la carpeta de spam? Reenviar"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -839,7 +837,7 @@ msgstr "¿Por qué sucede esto?"
 
 #: app/scripts/templates/reset_password.mustache:1 app/scripts/templates/reset_password.mustache:4
 msgid "Reset account"
-msgstr ""
+msgstr "Reiniciar cuenta"
 
 #: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
@@ -959,7 +957,7 @@ msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
-msgstr ""
+msgstr "Entendido"
 
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2
@@ -1036,7 +1034,7 @@ msgstr "Dispositivo antiguo o reemplazado"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate Device"
-msgstr ""
+msgstr "Dispositivo duplicado"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
@@ -1076,7 +1074,7 @@ msgstr "ninguno conectado"
 
 #: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Download"
-msgstr ""
+msgstr "Descargar"
 
 #: app/scripts/templates/settings/clients.mustache:14
 msgid "Firefox for Android"
@@ -1190,19 +1188,18 @@ msgstr "Usar una cuenta de Firefox"
 #~ msgid "Sync preferences"
 #~ msgstr "Preferencias de Sync"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "¿Buscar Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Empieza por aquí</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "¿Tienes una cuenta con un correo distinto? <a href=\"%(signinUri)s\">Conéctate</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox está disponible para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> y <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox está disponible para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> y <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Última actividad: %(translatedTimeAgo)s"
@@ -1382,8 +1379,8 @@ msgstr "Usar una cuenta de Firefox"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr ""
-#~ "Restablecer tu contraseña borrará los datos de navegación de nuestros servidores. Cualquier dato en tus dispositivos permanecerá intacto. Inicia el proceso de restablecimiento ingresando tu "
-#~ "correo a continuación."
+#~ "Restablecer tu contraseña borrará los datos de navegación de nuestros servidores. Cualquier dato en tus dispositivos permanecerá intacto. Inicia el proceso de restablecimiento ingresando tu correo a"
+#~ " continuación."
 
 #~ msgid "a day"
 #~ msgstr "un día"
@@ -1588,9 +1585,7 @@ msgstr "Usar una cuenta de Firefox"
 #~ msgstr "¿Ya tienes una cuenta? Conéctate."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "Al proceder, acepto los <a id=\"fxa-tos\" href=\"/legal/terms\">Términos del servicio</a> y la <a id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de Privacidad </a> de los servicios en la nube de "
-#~ "Firefox."
+#~ msgstr "Al proceder, acepto los <a id=\"fxa-tos\" href=\"/legal/terms\">Términos del servicio</a> y la <a id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de Privacidad </a> de los servicios en la nube de Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Suscríete a noticias y consejos de Firefox"
