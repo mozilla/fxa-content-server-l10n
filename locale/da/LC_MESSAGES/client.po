@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-04 00:49+0000\n"
+"POT-Creation-Date: 2017-02-17 18:48+0000\n"
 "PO-Revision-Date: 2017-01-22 11:36+0000\n"
 "Last-Translator: Joergen <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
@@ -16,10 +16,11 @@ msgstr ""
 "X-POOTLE-MTIME: 1448305874.0\n"
 
 #: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
+#: app/scripts/views/confirm.js:126
 msgid "Account verified successfully"
 msgstr "Konto bekræftet"
 
-#: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38
+#: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38 app/scripts/views/ready.js:39
 msgid "Password reset"
 msgstr "Adgangskode nulstillet"
 
@@ -43,27 +44,27 @@ msgstr "Vis navn"
 msgid "Account picture"
 msgstr "Kontobillede"
 
-#: app/scripts/views/ready.js:33
+#: app/scripts/views/ready.js:33 app/scripts/views/ready.js:34
 msgid "Welcome back"
 msgstr "Velkommen tilbage"
 
-#: app/scripts/views/ready.js:34
+#: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync vil begynde igen om et øjeblik"
 
-#: app/scripts/views/ready.js:39
+#: app/scripts/views/ready.js:39 app/scripts/views/ready.js:40
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Indtast den nye adgangskode på dine andre Firefox-enheder for at færdiggøre opsætningen."
 
-#: app/scripts/views/ready.js:44
+#: app/scripts/views/ready.js:44 app/scripts/views/ready.js:45
 msgid "Sign-in confirmed"
 msgstr "Login er bekræftet"
 
-#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 app/scripts/templates/ready.mustache:3
+#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 app/scripts/templates/ready.mustache:3 app/scripts/views/ready.js:46 app/scripts/views/ready.js:51
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Du er nu klar til at bruge %(serviceName)s"
 
-#: app/scripts/views/ready.js:49
+#: app/scripts/views/ready.js:49 app/scripts/views/ready.js:50
 msgid "Account verified"
 msgstr "Konto bekræftet"
 
@@ -1136,14 +1137,19 @@ msgstr "Brug OpenID"
 msgid "Use Firefox Account"
 msgstr "Brug Firefox-konto"
 
+#: app/scripts/lib/strings.js:43
+msgid "Web Session"
+msgstr ""
+
+#: app/scripts/templates/settings/client_disconnect.mustache:6
+msgid "Duplicate device"
+msgstr "Gentaget enhed"
+
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "Ikke ankommet? Send igen"
 
 #~ msgid "Reason for disconnecting…"
 #~ msgstr "Årsag til afbrydelse af forbindelsen…"
-
-#~ msgid "Duplicate device"
-#~ msgstr "Gentaget enhed"
 
 #~ msgid "Didn't arrive? Resend"
 #~ msgstr "Ikke ankommet? Send igen"

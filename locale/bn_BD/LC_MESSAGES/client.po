@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-04 00:49+0000\n"
+"POT-Creation-Date: 2017-02-17 18:48+0000\n"
 "PO-Revision-Date: 2017-01-10 11:14+0000\n"
 "Last-Translator: Khalid Syfullah Zaman <khalid.z547@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,10 +16,11 @@ msgstr ""
 "X-POOTLE-MTIME: 1420625507.0\n"
 
 #: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
+#: app/scripts/views/confirm.js:126
 msgid "Account verified successfully"
 msgstr "অ্যাকাউন্ট যাচাই সফল হয়েছে"
 
-#: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38
+#: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38 app/scripts/views/ready.js:39
 msgid "Password reset"
 msgstr "পাসওয়ার্ড রিসেট"
 
@@ -43,27 +44,27 @@ msgstr "প্রদর্শিত নাম"
 msgid "Account picture"
 msgstr "অ্যাকাউন্ট ছবি"
 
-#: app/scripts/views/ready.js:33
+#: app/scripts/views/ready.js:33 app/scripts/views/ready.js:34
 msgid "Welcome back"
 msgstr "পুনরায় স্বাগতম"
 
-#: app/scripts/views/ready.js:34
+#: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35
 msgid "Firefox Sync will resume momentarily"
 msgstr "কিছুক্ষণের মধ্যে Firefox Sync শুরু হবে"
 
-#: app/scripts/views/ready.js:39
+#: app/scripts/views/ready.js:39 app/scripts/views/ready.js:40
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "আপনার ভিন্ন Firefox ডিভাইসে নতুন পাসওয়ার্ড দিয়ে সেট-আপটি সম্পন্ন করুন।"
 
-#: app/scripts/views/ready.js:44
+#: app/scripts/views/ready.js:44 app/scripts/views/ready.js:45
 msgid "Sign-in confirmed"
 msgstr "সাইন-ইন নিশ্চিত"
 
-#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 app/scripts/templates/ready.mustache:3
+#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 app/scripts/templates/ready.mustache:3 app/scripts/views/ready.js:46 app/scripts/views/ready.js:51
 msgid "You are now ready to use %(serviceName)s"
 msgstr "%(serviceName)sটি ব্যবহার করতে আপনি এখন প্রস্তুত"
 
-#: app/scripts/views/ready.js:49
+#: app/scripts/views/ready.js:49 app/scripts/views/ready.js:50
 msgid "Account verified"
 msgstr "যাচাইকৃত একাউন্ট"
 
@@ -1133,14 +1134,19 @@ msgstr "OpenID ব্যবহার করুন"
 msgid "Use Firefox Account"
 msgstr "Firefox Account ব্যবহার করুন"
 
+#: app/scripts/lib/strings.js:43
+msgid "Web Session"
+msgstr ""
+
+#: app/scripts/templates/settings/client_disconnect.mustache:6
+msgid "Duplicate device"
+msgstr "নকল ডিভাইস"
+
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "পৌঁছায়নি? আবার পাঠাও"
 
 #~ msgid "Reason for disconnecting…"
 #~ msgstr "বিচ্ছিন্নকরণের কারণ…"
-
-#~ msgid "Duplicate device"
-#~ msgstr "নকল ডিভাইস"
 
 #~ msgid "Didn't arrive? Resend"
 #~ msgstr "পৌঁছায়নি? আবার পাঠাও"

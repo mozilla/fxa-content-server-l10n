@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-04 00:49+0000\n"
+"POT-Creation-Date: 2017-02-17 18:48+0000\n"
 "PO-Revision-Date: 2017-01-22 11:25+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,10 +16,11 @@ msgstr ""
 "X-POOTLE-MTIME: 1433578926.0\n"
 
 #: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
+#: app/scripts/views/confirm.js:126
 msgid "Account verified successfully"
 msgstr "Обліковий запис успішно перевірено"
 
-#: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38
+#: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38 app/scripts/views/ready.js:39
 msgid "Password reset"
 msgstr "Відновлення пароля"
 
@@ -43,27 +44,27 @@ msgstr "Ім'я для показу"
 msgid "Account picture"
 msgstr "Зображення облікового запису"
 
-#: app/scripts/views/ready.js:33
+#: app/scripts/views/ready.js:33 app/scripts/views/ready.js:34
 msgid "Welcome back"
 msgstr "З поверненням"
 
-#: app/scripts/views/ready.js:34
+#: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35
 msgid "Firefox Sync will resume momentarily"
 msgstr "Синхронізація Firefox продовжиться за мить"
 
-#: app/scripts/views/ready.js:39
+#: app/scripts/views/ready.js:39 app/scripts/views/ready.js:40
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Завершіть налаштування, ввівши новий пароль на ваших інших пристроях Firefox."
 
-#: app/scripts/views/ready.js:44
+#: app/scripts/views/ready.js:44 app/scripts/views/ready.js:45
 msgid "Sign-in confirmed"
 msgstr "Вхід підтверджено"
 
-#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 app/scripts/templates/ready.mustache:3
+#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 app/scripts/templates/ready.mustache:3 app/scripts/views/ready.js:46 app/scripts/views/ready.js:51
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Тепер ви готові використовувати Синхронізацію Firefox"
 
-#: app/scripts/views/ready.js:49
+#: app/scripts/views/ready.js:49 app/scripts/views/ready.js:50
 msgid "Account verified"
 msgstr "Обліковий запис підтверджено"
 
@@ -1142,14 +1143,19 @@ msgstr "Використати OpenID"
 msgid "Use Firefox Account"
 msgstr "Використати обліковий запис Firefox"
 
+#: app/scripts/lib/strings.js:43
+msgid "Web Session"
+msgstr ""
+
+#: app/scripts/templates/settings/client_disconnect.mustache:6
+msgid "Duplicate device"
+msgstr "Дублювати пристрій"
+
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "Не прийшов? Надіслати повторно"
 
 #~ msgid "Reason for disconnecting…"
 #~ msgstr "Причина від'єднання…"
-
-#~ msgid "Duplicate device"
-#~ msgstr "Дублювати пристрій"
 
 #~ msgid "Didn't arrive? Resend"
 #~ msgstr "Не прийшов? Надіслати повторно"

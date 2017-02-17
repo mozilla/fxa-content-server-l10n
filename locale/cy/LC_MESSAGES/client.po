@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-04 00:49+0000\n"
+"POT-Creation-Date: 2017-02-17 18:48+0000\n"
 "PO-Revision-Date: 2016-08-10 15:52+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,10 +16,11 @@ msgstr ""
 "X-POOTLE-MTIME: 1432911472.0\n"
 
 #: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
+#: app/scripts/views/confirm.js:126
 msgid "Account verified successfully"
 msgstr "Dilyswyd y cyfrif yn llwyddiannus"
 
-#: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38
+#: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38 app/scripts/views/ready.js:39
 msgid "Password reset"
 msgstr "Ailosod cyfrinair"
 
@@ -43,27 +44,27 @@ msgstr "Enw dangos"
 msgid "Account picture"
 msgstr "Llun cyfrif"
 
-#: app/scripts/views/ready.js:33
+#: app/scripts/views/ready.js:33 app/scripts/views/ready.js:34
 msgid "Welcome back"
 msgstr "Croeso nôl"
 
-#: app/scripts/views/ready.js:34
+#: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35
 msgid "Firefox Sync will resume momentarily"
 msgstr "Bydd Firefox Sync yn cychwyn cyn bo hir"
 
-#: app/scripts/views/ready.js:39
+#: app/scripts/views/ready.js:39 app/scripts/views/ready.js:40
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr ""
 
-#: app/scripts/views/ready.js:44
+#: app/scripts/views/ready.js:44 app/scripts/views/ready.js:45
 msgid "Sign-in confirmed"
 msgstr "Mewngofnodi wedi ei gadarnhau"
 
-#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 app/scripts/templates/ready.mustache:3
+#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 app/scripts/templates/ready.mustache:3 app/scripts/views/ready.js:46 app/scripts/views/ready.js:51
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Rydych nawr yn barod i ddefnyddio %(serviceName)s"
 
-#: app/scripts/views/ready.js:49
+#: app/scripts/views/ready.js:49 app/scripts/views/ready.js:50
 msgid "Account verified"
 msgstr "Cyfrif wedi ei ddilysu"
 
@@ -1133,6 +1134,14 @@ msgstr "Defnyddio OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Defnyddio Cyfrif Firefox"
+
+#: app/scripts/lib/strings.js:43
+msgid "Web Session"
+msgstr ""
+
+#: app/scripts/templates/settings/client_disconnect.mustache:6
+msgid "Duplicate device"
+msgstr ""
 
 #~ msgid "Didn't arrive? Resend"
 #~ msgstr "Heb gyrraedd? Ail anfon"

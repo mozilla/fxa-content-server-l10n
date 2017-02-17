@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-04 00:49+0000\n"
-"PO-Revision-Date: 2016-11-13 13:44+0000\n"
+"POT-Creation-Date: 2017-02-17 18:48+0000\n"
+"PO-Revision-Date: 2017-02-06 18:55+0000\n"
 "Last-Translator: Vanja Tumbas <tumbas93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -19,11 +19,12 @@ msgstr ""
 #: app/scripts/views/complete_reset_password.js:133
 #: app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129
 #: app/scripts/views/confirm_reset_password.js:176
+#: app/scripts/views/confirm.js:126
 msgid "Account verified successfully"
 msgstr "Nalog je uspešno potvrđen"
 
 #: app/scripts/views/confirm_reset_password.js:166
-#: app/scripts/views/ready.js:38
+#: app/scripts/views/ready.js:38 app/scripts/views/ready.js:39
 msgid "Password reset"
 msgstr "Resetovanje lozinke"
 
@@ -50,29 +51,30 @@ msgstr "Prikaži ime"
 msgid "Account picture"
 msgstr "Slika naloga"
 
-#: app/scripts/views/ready.js:33
+#: app/scripts/views/ready.js:33 app/scripts/views/ready.js:34
 msgid "Welcome back"
 msgstr "Dobrodošli nazad"
 
-#: app/scripts/views/ready.js:34
+#: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync će odmah nastaviti"
 
-#: app/scripts/views/ready.js:39
+#: app/scripts/views/ready.js:39 app/scripts/views/ready.js:40
 msgid ""
 "Complete set-up by entering the new password on your other Firefox devices."
 msgstr ""
 
-#: app/scripts/views/ready.js:44
+#: app/scripts/views/ready.js:44 app/scripts/views/ready.js:45
 msgid "Sign-in confirmed"
 msgstr "Prijava potvrđena"
 
 #: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50
-#: app/scripts/templates/ready.mustache:3
+#: app/scripts/templates/ready.mustache:3 app/scripts/views/ready.js:46
+#: app/scripts/views/ready.js:51
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Sada ste spremni da koristite %(serviceName)s"
 
-#: app/scripts/views/ready.js:49
+#: app/scripts/views/ready.js:49 app/scripts/views/ready.js:50
 msgid "Account verified"
 msgstr "Nalog je potvrđen"
 
@@ -510,7 +512,7 @@ msgstr ""
 
 #: app/scripts/lib/require-on-demand.js:47
 msgid "Script error"
-msgstr ""
+msgstr "Greška u skripti"
 
 #: app/scripts/lib/strings.js:22
 msgid ""
@@ -755,11 +757,11 @@ msgstr "Sećate se lozinke? Prijavite se"
 
 #: app/scripts/templates/connect_another_device.mustache:1
 msgid "Connect another device"
-msgstr ""
+msgstr "Poveži drugi uređaj"
 
 #: app/scripts/templates/connect_another_device.mustache:2
 msgid "This device is connected"
-msgstr ""
+msgstr "Ovaj uređaj je povezan"
 
 #: app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -1256,7 +1258,7 @@ msgstr ""
 #: app/scripts/templates/settings/clients.mustache:13
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Download"
-msgstr ""
+msgstr "Preuzmi"
 
 #: app/scripts/templates/settings/clients.mustache:14
 msgid "Firefox for Android"
@@ -1333,6 +1335,14 @@ msgstr "Koristi OpenID"
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
 msgstr "Koristi Firefox Account"
+
+#: app/scripts/lib/strings.js:43
+msgid "Web Session"
+msgstr ""
+
+#: app/scripts/templates/settings/client_disconnect.mustache:6
+msgid "Duplicate device"
+msgstr ""
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "Nije vam stigla? Pošalji ponovo"

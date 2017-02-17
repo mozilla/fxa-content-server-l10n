@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-04 00:49+0000\n"
+"POT-Creation-Date: 2017-02-17 18:48+0000\n"
 "PO-Revision-Date: 2017-01-25 22:05+0000\n"
 "Last-Translator: alex_mayorga <alex_mayorga@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -196,6 +196,10 @@ msgstr "Haz clic en el botón dentro de la siguiente hora para establecer una nu
 #: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
 msgstr "Restablecer contraseña"
+
+#: templates/sms.installFirefox.txt:1
+msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
+msgstr ""
 
 #: templates/unblock_code.html:2 templates/unblock_code.txt:1
 msgid "Is this you signing in?"
