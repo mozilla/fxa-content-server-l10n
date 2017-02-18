@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2016-12-23 20:53+0000\n"
+"PO-Revision-Date: 2017-02-18 20:46+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -33,11 +33,11 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
-"U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. Koppel <a href='%(androidUrl)s'>Firefox voor Android</a> of <a href='%(iosUrl)s'>Firefox voor iOS</a> om het meeste uit Sync "
-"te halen."
+"U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. Koppel <a href='%(androidUrl)s'>Firefox voor Android</a> of <a href='%(iosUrl)s'>Firefox voor iOS</a> om het meeste uit Sync te"
+" halen."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -175,8 +175,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
-"U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. U kunt zich nu aanmelden bij Sync vanaf uw andere apparaten, waaronder Firefox voor <a %(androidLinkAttributes)s>Android</a> "
-"en <a %(iosLinkAttributes)s>iOS</a>."
+"U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. U kunt zich nu aanmelden bij Sync vanaf uw andere apparaten, waaronder Firefox voor <a %(androidLinkAttributes)s>Android</a> en"
+" <a %(iosLinkAttributes)s>iOS</a>."
 
 #: templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
@@ -200,7 +200,7 @@ msgstr "Wachtwoord herinitialiseren"
 
 #: templates/sms.installFirefox.txt:1
 msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
-msgstr ""
+msgstr "Zoals gevraagd, is hier een koppeling voor het installeren van Firefox op uw mobiele apparaat: %(link)s"
 
 #: templates/unblock_code.html:2 templates/unblock_code.txt:1
 msgid "Is this you signing in?"
@@ -224,8 +224,8 @@ msgstr "Wederom hallo."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 "Enkele dagen geleden hebt u een Firefox-account aangemaakt, maar nooit geverifieerd. Met een geverifieerde account hebt u op alle apparaten die ermee zijn verbonden toegang tot uw tabbladen, "
 "bladwijzers, wachtwoorden en geschiedenis. Bevestig eenvoudig dit e-mailadres om uw account te activeren."
@@ -485,8 +485,8 @@ msgstr "Servicevoorwaarden"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Een week geleden hebt u een Firefox-account aangemaakt, maar nooit geverifieerd. We maken ons zorgen om u. Firefox is beschikbaar voor Windows, Mac, Linux, Android en iOS. U kunt uw "
-#~ "wachtwoorden, bladwijzers en geschiedenis van Firefox hiertussen synchroniseren. Bevestig dit e-mailadres om uw account te activeren en te laten weten of alles goed met u is."
+#~ "Een week geleden hebt u een Firefox-account aangemaakt, maar nooit geverifieerd. We maken ons zorgen om u. Firefox is beschikbaar voor Windows, Mac, Linux, Android en iOS. U kunt uw wachtwoorden, "
+#~ "bladwijzers en geschiedenis van Firefox hiertussen synchroniseren. Bevestig dit e-mailadres om uw account te activeren en te laten weten of alles goed met u is."
 
 #~ msgid "env"
 #~ msgstr "env"
@@ -579,8 +579,8 @@ msgstr "Servicevoorwaarden"
 
 #~ msgid "This is an automated email; if you didn't reset the password to your Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr ""
-#~ "Dit is een geautomatiseerd e-mailbericht; als u het wachtwoord voor uw Firefox-account niet opnieuw hebt ingesteld, dient u het direct opnieuw in te stellen op <a href='%(resetLink)s'>"
-#~ "%(resetLink)s</a>."
+#~ "Dit is een geautomatiseerd e-mailbericht; als u het wachtwoord voor uw Firefox-account niet opnieuw hebt ingesteld, dient u het direct opnieuw in te stellen op <a "
+#~ "href='%(resetLink)s'>%(resetLink)s</a>."
 
 #~ msgid "A new device is now syncing to your Firefox Account"
 #~ msgstr "Er wordt nu een nieuw apparaat met uw Firefox-account gesynchroniseerd"
