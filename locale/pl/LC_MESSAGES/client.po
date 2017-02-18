@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2017-01-21 16:28+0100\n"
+"PO-Revision-Date: 2017-02-18 16:48+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -564,7 +564,7 @@ msgstr "Preferencje"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr "Dodatki i preferencje nie są obecnie synchronizowane na urządzeniach mobilnych."
+msgstr "Dodatki i preferencje nie są obecnie synchronizowane na urządzeniach przenośnych."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:16
 msgid "Save settings"
@@ -788,7 +788,7 @@ msgstr "Pobierz Firefoksa na Androida."
 
 #: app/scripts/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr "Pobierz Firefoksa na urządzenia mobilne."
+msgstr "Pobierz Firefoksa na urządzenia przenośne."
 
 #: app/scripts/templates/permissions.mustache:1 app/scripts/templates/settings/gravatar_permissions.mustache:1
 msgid "Request for permission"
@@ -1140,8 +1140,8 @@ msgstr "Użyj konta Firefoksa"
 
 #: app/scripts/lib/strings.js:43
 msgid "Web Session"
-msgstr ""
+msgstr "Sesja"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
-msgstr ""
+msgstr "Podwójne urządzenie"
