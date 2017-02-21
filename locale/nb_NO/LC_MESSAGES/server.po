@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2017-01-30 08:34+0000\n"
+"PO-Revision-Date: 2017-02-21 12:02+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -33,11 +33,11 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
-"Du har nå koblet til din første enhet til din Firefox-konto. For å få mest mulig ut av Sync, koble til <a href='%(androidUrl)s'>Firefox for Android</a> eller <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"Du har nå koblet til din første enhet til din Firefox-konto. For å få mest mulig ut av Sync, koble til <a href='%(androidUrl)s'>Firefox for Android</a> eller <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
@@ -200,7 +200,7 @@ msgstr "Tilbakestill passord"
 
 #: templates/sms.installFirefox.txt:1
 msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
-msgstr ""
+msgstr "Som førespurt, her er en lenke for å installere Firefox på mobilenheten din: %(link)s"
 
 #: templates/unblock_code.html:2 templates/unblock_code.txt:1
 msgid "Is this you signing in?"
@@ -224,11 +224,11 @@ msgstr "Hei igjen."
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
-"For et par dager siden opprettet du en Firefox-konto, men bekreftet den aldri. Med en bekreftet konto får du adgang til dine faner, bokmerker, passord og historikk på alle enheter, som er koblet "
-"til den. Bekreft denne e-postadressen for å aktivere din konto."
+"For et par dager siden opprettet du en Firefox-konto, men bekreftet den aldri. Med en bekreftet konto får du adgang til dine faner, bokmerker, passord og historikk på alle enheter, som er koblet til"
+" den. Bekreft denne e-postadressen for å aktivere din konto."
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
 msgid "Activate now"
