@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2017-02-13 12:40+0000\n"
+"PO-Revision-Date: 2017-02-23 13:28+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: templates/_pending.txt:2
 msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
-msgstr ""
+msgstr "تھوڑی دیر پہلے آپ ایک Firefox اکاؤنٹ بنایا، لیکن کبھی بھی اس کی تصدیق ہے ۔ اپنے اکاؤنٹ کو چالو کرنے کے لئے نیچے دیئے گئے ربط پر کلک کریں۔"
 
 #: templates/_pending.txt:3
 msgid ""
@@ -30,8 +30,8 @@ msgstr ""
 
 #: templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
@@ -116,7 +116,7 @@ msgstr ""
 
 #: templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "پاس ورڈ کو کامیابی سے پھر سیٹ کر دیا گیا ہے"
 
 #: templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
@@ -215,8 +215,8 @@ msgstr ""
 
 #: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
@@ -253,7 +253,7 @@ msgstr ""
 
 #: templates/verify_login.html:5 templates/verify_login.txt:4
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "سائن کی تصدیق کریں"
 
 #: templates/verify_login.html:6
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -321,7 +321,7 @@ msgstr ""
 
 #: mailer.js:465
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "اپنےFirefox اکاؤنٹ کا پاس ورڈ پھر سیٹ کریں"
 
 #: mailer.js:505
 msgid "Your Firefox Account password has been changed"
