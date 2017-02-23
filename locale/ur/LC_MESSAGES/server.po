@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2017-02-23 13:28+0000\n"
+"PO-Revision-Date: 2017-02-23 13:33+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -140,7 +140,7 @@ msgstr "آپ کو کیا کرنا چاہیے؟"
 
 #: templates/password_reset_required.html:5 templates/password_reset_required.txt:4
 msgid "First, change your Firefox Account password."
-msgstr ""
+msgstr "سب سے پہلے, اپنےFirefox اکاؤنٹ کا پاس ورڈ تبدیل کریں۔"
 
 #: templates/password_reset_required.html:6 templates/password_reset_required.txt:5
 msgid ""

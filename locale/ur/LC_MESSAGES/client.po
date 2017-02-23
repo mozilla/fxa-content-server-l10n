@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2017-02-13 14:30+0000\n"
-"Last-Translator: Mohammad Yaseen Khan <myaseen.khan@hotmail.com>\n"
+"PO-Revision-Date: 2017-02-23 13:51+0000\n"
+"Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
 "MIME-Version: 1.0\n"
@@ -250,7 +250,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:109
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "درخواست کو سلامتی کی وجوہات کی بنا پر بلاک کیا گیا تھا"
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:318
 msgid "Invalid authorization code"
@@ -258,7 +258,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/auth-errors.js:298
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "پیش کار مصروف ہے، کچھ دیر میں پھر کوشش کریں"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "This endpoint is no longer supported"
@@ -358,7 +358,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:277
 msgid "Account no longer exists."
-msgstr ""
+msgstr "اکاؤنٹ اب موجود نہیں۔"
 
 #: app/scripts/lib/auth-errors.js:281
 msgid "Invalid property in resume token: %(property)s"
@@ -477,9 +477,7 @@ msgid "Script error"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
@@ -714,7 +712,7 @@ msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:19 app/scripts/templates/connect_another_device.mustache:21
 msgid "Why is this required?"
-msgstr ""
+msgstr "یہ کیوں ضروری ہے؟"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -813,7 +811,7 @@ msgstr "آگے بڑھیں"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
-msgstr ""
+msgstr "آپ کا اکاؤنٹ کے لئے تیار ہے!"
 
 #: app/scripts/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -829,11 +827,11 @@ msgstr "سرگرمی رپورٹ کریں"
 
 #: app/scripts/templates/report_sign_in.mustache:7 app/scripts/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr ""
+msgstr "ایسا کیوں ہو رہا ہے؟"
 
 #: app/scripts/templates/reset_password.mustache:1 app/scripts/templates/reset_password.mustache:4
 msgid "Reset account"
-msgstr ""
+msgstr "اکاؤنٹ پھر سیٹ کریں"
 
 #: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
@@ -921,7 +919,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
-msgstr ""
+msgstr "ماہانہ Firefox نیوز لیٹر حاصل کریں ۔"
 
 #: app/scripts/templates/sign_up.mustache:21
 msgid "Create account"
@@ -949,7 +947,7 @@ msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
-msgstr ""
+msgstr "‏‏سمجھ گیا"
 
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2
@@ -1066,7 +1064,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Download"
-msgstr ""
+msgstr "ڈاؤن لوڈ"
 
 #: app/scripts/templates/settings/clients.mustache:14
 msgid "Firefox for Android"
@@ -1134,7 +1132,7 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:43
 msgid "Web Session"
-msgstr ""
+msgstr "ویب سیشن"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
