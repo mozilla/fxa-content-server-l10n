@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2017-02-24 00:00+0000\n"
+"PO-Revision-Date: 2017-02-25 22:03+0000\n"
 "Last-Translator: paul.trevor <paul.trevor@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -627,7 +627,7 @@ msgstr "Anmeldung bereits bestätigt"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
-msgstr "Bestätigungs-Link abgelaufen"
+msgstr "Bestätigungslink abgelaufen"
 
 #: app/scripts/templates/complete_sign_up.mustache:6
 msgid "Click here to receive a new verification link"
@@ -655,7 +655,7 @@ msgstr "Ein Bestätigungslink wurde an %(escapedEmail)s versandt"
 
 #: app/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr "Um Ihre Firefox-Daten besser zu schützen, haben wir einen Bestätigungs-Link an %(email)s geschickt."
+msgstr "Um Ihre Firefox-Daten besser zu schützen, haben wir einen Bestätigungslink an %(email)s geschickt."
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
