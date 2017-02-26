@@ -350,7 +350,7 @@ msgstr "Būtina atkurti „Firefox“ paskyros slaptažodį"
 
 #: mailer.js:650
 msgid "Firefox Account verified"
-msgstr ""
+msgstr "„Firefox“ paskyra patvirtinta"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
