@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2017-02-26 19:49+0000\n"
+"PO-Revision-Date: 2017-02-26 20:10+0000\n"
 "Last-Translator: rimas <rimas@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lt\n"
@@ -227,6 +227,8 @@ msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
 " email address to activate your account."
 msgstr ""
+"Prieš keletą dienų jūs susikūrėte „Firefox“ paskyrą, tačiau jos taip ir nepatvirtinote. Patvirtinę paskyrą, turėsite prieigą prie savo naršyklėje atvertų kortelių, įrašytų slaptodžių, adresyno ir "
+"žurnalo bet kuriame su paskyra susietame įrenginyje. Paskyros aktyvinimui tereikia, kad patvirtintumėte šį savo el. pašto adresą."
 
 #: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
 msgid "Activate now"
@@ -238,7 +240,7 @@ msgstr "Patvirtinti el. paštą"
 
 #: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9 templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
+msgstr "Patvirtinkite savo el. pašto adresą, kad užbaigtumėte „Firefox“ paskyros registraciją"
 
 #: templates/verification_reminder_first.txt:3 templates/verification_reminder_second.txt:3 templates/verify.txt:3
 msgid "Activate now:"
@@ -247,6 +249,8 @@ msgstr "Aktyvinti dabar:"
 #: templates/verification_reminder_second.html:3 templates/verification_reminder_second.txt:2
 msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 msgstr ""
+"Prieš savaitę jūs susikūrėte „Firefox“ paskyrą, tačiau jos taip ir nepatvirtinote. Mes pradedame dėl jūsų nerimauti. Jei patvirtinsite šį el. pašto adresą, ir aktyvinsite susikurtą paskyrą, mes "
+"žinosime, kad galime nusiraminti."
 
 #: templates/verify.html:2 templates/verify.txt:1
 msgid "Welcome!"
@@ -254,95 +258,95 @@ msgstr "Sveiki!"
 
 #: templates/verify.html:3 templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "Aktyvinkite savo paskyrą, patvirtindami šį el. pašto adresą."
 
 #: templates/verify_login.html:3 templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "Papildomo saugumo vardan, prieš pradedant sinchronizuoti šį įrenginį, prašome patvirtinti šį prisijungimą:"
 
 #: templates/verify_login.html:5 templates/verify_login.txt:4
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "Patvirtinti prisijungimą"
 
 #: templates/verify_login.html:6
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Jeigu įtariate, kad kažkas kitas bando gauti prieigą prie jūsų paskyros, <a %(passwordChangeLinkAttributes)s>patarime pakeisti jos slaptažodį</a>."
 
 #: templates/verify_login.txt:5
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr ""
+msgstr "Jeigu įtariate, kad kažkas kitas bando gauti prieigą prie jūsų paskyros, patarime pakeisti jos slaptažodį."
 
 #: templates/verify_sync.html:2 templates/verify_sync.txt:1
 msgid "Ready, set, sync"
-msgstr ""
+msgstr "Pasiruošti, dėmesio, sinchronizuojam!"
 
 #: templates/verify_sync.html:3 templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "Patvirtinkite, jog gavote šį laišką, o mes padėsime jums įdiegti ir sinchronizuoti „Firefox“ naršyklę visuose jūsų įrenginiuose, pradedant šiuo:"
 
 #: templates/verify_sync.html:5 templates/verify_sync.txt:4
 msgid "Verify email "
-msgstr ""
+msgstr "Patvirtinti el. paštą "
 
 #: templates/verify_sync.html:6 templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "Sulaukę patvirtinimo, mes jums padėsime įdiegti ir susieti su šia paskyra „Firefox“ naršyklę dar bent viename įrenginyje."
 
 #: mailer.js:152
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
-msgstr ""
+msgstr "„%(uaBrowser)s“ „%(uaOS)s %(uaOSVersion)s“ įrenginyje"
 
 #: mailer.js:155
 msgid "%(uaBrowser)s on %(uaOS)s"
-msgstr ""
+msgstr "„%(uaBrowser)s“ „%(uaOS)s“ įrenginyje"
 
 #: mailer.js:182
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(stateCode)s, %(country)s (apskaičiuota)"
 
 #: mailer.js:184
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (apskaičiuota)"
 
 #: mailer.js:186
 msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(stateCode)s, %(country)s (apskaičiuota)"
 
 #: mailer.js:188
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (apskaičiuota)"
 
 #: mailer.js:276
 msgid "Verify your Firefox Account"
-msgstr "Patvirtinti „Firefox“ paskyrą"
+msgstr "Patvirtinkite savo „Firefox“ paskyrą"
 
 #: mailer.js:305
 msgid "Confirm your email and start to sync!"
-msgstr ""
+msgstr "Patvirtinkite savo el. pašto adresą ir pradėkite sinchronizavimą!"
 
 #: mailer.js:362
 msgid "Firefox Account authorization code"
-msgstr ""
+msgstr "Patvirtinimo kodas „Firefox“ paskyrai"
 
 #: mailer.js:414
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
+msgstr "Patvirtinkite naują prisijungimą prie „Firefox“ paskyros"
 
 #: mailer.js:465
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "„Firefox“ paskyros slaptažodžio atkūrimas"
 
 #: mailer.js:505
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "Jūsų „Firefox“ paskyros slaptažodis pakeistas"
 
 #: mailer.js:543
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "Jūsų „Firefox“ paskyros slaptažodis atkurtas"
 
 #: mailer.js:577
 msgid "Firefox Account password reset required"
-msgstr ""
+msgstr "Būtina atkurti „Firefox“ paskyros slaptažodį"
 
 #: mailer.js:650
 msgid "Firefox Account verified"
