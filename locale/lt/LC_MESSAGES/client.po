@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2017-02-26 16:07+0000\n"
+"PO-Revision-Date: 2017-02-26 16:50+0000\n"
 "Last-Translator: rimas <rimas@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lt\n"
@@ -1037,7 +1037,7 @@ msgstr "Įrenginys paseno ar nebenaudojamas"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate Device"
-msgstr "Įrenginys dubliuojasi"
+msgstr "Įrenginys kartojasi"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
@@ -1073,19 +1073,19 @@ msgstr "„Firefox“ „iOS“ įrenginiams"
 
 #: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15
 msgid "none connected"
-msgstr ""
+msgstr "prijungtų įrenginių nėra"
 
 #: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Download"
-msgstr ""
+msgstr "Parsisiųsti"
 
 #: app/scripts/templates/settings/clients.mustache:14
 msgid "Firefox for Android"
-msgstr ""
+msgstr "„Firefox“ „Android“ įrenginiams"
 
 #: app/scripts/templates/settings/clients.mustache:18
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "Trūkstami arba besikartojantys įrašai?"
 
 #: app/scripts/templates/settings/clients.mustache:19
 msgid "Refresh"
@@ -1113,7 +1113,7 @@ msgstr "Pašalinti paskyrą"
 
 #: app/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete…"
-msgstr ""
+msgstr "Šalinti…"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
@@ -1121,7 +1121,7 @@ msgstr "Ar tikrai norite pašalinti savo paskyrą? Šis veiksmas negrįžtamas."
 
 #: app/scripts/templates/settings/display_name.mustache:3
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr ""
+msgstr "Įveskite vardą, kuris turėtų matytis „Firefox“ naršyklėje ir tvarkant jūsų paskyrą."
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1133,7 +1133,7 @@ msgstr "Prisijungimas prie „Sync“"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-msgstr ""
+msgstr "Pasirinkite paskyrą, kurią norite naudoti savo kortelėms, adresyno įrašams, slaptažodžiams ir kitkam sinchronizuoti"
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
@@ -1145,7 +1145,7 @@ msgstr "Naudoti „Firefox“ paskyrą"
 
 #: app/scripts/lib/strings.js:43
 msgid "Web Session"
-msgstr ""
+msgstr "Saityno sesija"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
