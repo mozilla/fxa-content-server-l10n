@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2017-02-26 11:55+0000\n"
+"PO-Revision-Date: 2017-02-26 15:31+0000\n"
 "Last-Translator: rimas <rimas@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lt\n"
@@ -260,7 +260,7 @@ msgstr "Užklausa užblokuota saugumo sumetimais"
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:318
 msgid "Invalid authorization code"
-msgstr "Netinkamas autorizacijos kodas"
+msgstr "Netinkamas patvirtinimo kodas"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/auth-errors.js:298
 msgid "Server busy, try again soon"
@@ -394,7 +394,7 @@ msgstr "Šis laukas privalomas"
 
 #: app/scripts/lib/auth-errors.js:314
 msgid "Authorization code required"
-msgstr "Būtinas autorizacijos kodas"
+msgstr "Būtinas patvirtinimo kodas"
 
 #: app/scripts/lib/auth-errors.js:322 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
@@ -442,7 +442,7 @@ msgstr "Neteisingas OAuth parametras: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
-msgstr "Nenustatyta tapatybė"
+msgstr "Prieiga nesuteikta"
 
 #: app/scripts/lib/oauth-errors.js:66
 msgid "Forbidden"
@@ -875,7 +875,7 @@ msgstr "Ieškote duomenų apie savo priedus? <a href=\"/signup\">Užregistruokit
 
 #: app/scripts/templates/sign_in.mustache:8
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr ""
+msgstr "Perkelkite savo sinchronizuotus duomenis, prisijungdami prie „Firefox“&nbsp;paskyros."
 
 #: app/scripts/templates/sign_in.mustache:13 app/scripts/templates/sign_in.mustache:16
 msgid "Use a different account"
@@ -887,15 +887,15 @@ msgstr "Sukurti paskyrą"
 
 #: app/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
-msgstr ""
+msgstr "Dėkojame už jūsų akylumą"
 
 #: app/scripts/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr ""
+msgstr "Mūsų komandai pranešta. Tokie pranešimai mums padeda kovoti su įsilaužėliais."
 
 #: app/scripts/templates/sign_in_unblock.mustache:1 app/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
-msgstr ""
+msgstr "Patvirtinkite šį prisijungimą"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
