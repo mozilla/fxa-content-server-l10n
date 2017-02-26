@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2017-02-26 16:13+0000\n"
+"PO-Revision-Date: 2017-02-26 16:54+0000\n"
 "Last-Translator: rimas <rimas@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lt\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:680
 msgid "Still there?"
-msgstr "Vis dar čia?"
+msgstr "Ar nepamiršote?"
 
 #: templates/_pending.txt:2
 msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
