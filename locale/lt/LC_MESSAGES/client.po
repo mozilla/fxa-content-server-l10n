@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2016-05-15 14:42+0000\n"
+"PO-Revision-Date: 2017-02-26 10:29+0000\n"
 "Last-Translator: rimas <rimas@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lt\n"
@@ -30,7 +30,7 @@ msgstr "Slaptažodis atkurtas sėkmingai. Norėdami tęsti, prisijunkite."
 
 #: app/scripts/views/permissions.js:26
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName)s (būtina)"
 
 #: app/scripts/views/permissions.js:32
 msgid "Email address"
@@ -54,15 +54,15 @@ msgstr "„Firefox“ sinchronizavimas bus pratęstas netrukus"
 
 #: app/scripts/views/ready.js:39 app/scripts/views/ready.js:40
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "Užbaikite konfigūravimą, įvesdami naująjį slaptažodį visuose savo įrenginiuose su „Firefox“ naršykle."
 
 #: app/scripts/views/ready.js:44 app/scripts/views/ready.js:45
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "Prisijungimas patvirtintas"
 
 #: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 app/scripts/templates/ready.mustache:3 app/scripts/views/ready.js:46 app/scripts/views/ready.js:51
 msgid "You are now ready to use %(serviceName)s"
-msgstr "Galite pradėti naudotis %(serviceName)s"
+msgstr "Galite pradėti naudotis „%(serviceName)s“"
 
 #: app/scripts/views/ready.js:49 app/scripts/views/ready.js:50
 msgid "Account verified"
@@ -75,6 +75,8 @@ msgstr "Paskyra nežinoma. <a href=\"/signup\">Registruotis</a>"
 #: app/scripts/views/sign_in.js:164
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr ""
+"„Firefox“ paskyra nežinoma. Jei norite pasiekti turimus savo priedų duomenis, <a href=\"/signup\">užsiregistruokite</a>, naudodamiesi savo anksčiau Priedų svetainės paskyroje naudotu el. pašto "
+"adresu."
 
 #: app/scripts/views/sign_up.js:62
 msgid "Account no longer exists. Recreate it?"
@@ -480,12 +482,8 @@ msgid "Script error"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Tęsdami, jūs sutinkate su <a id=\"service-tos\" href=\"%(termsUri)s\">Paslaugų teikimo sąlygomis</a> ir %(serviceName)s (%(serviceUri)s) <a id=\"service-pp\" href=\"%(privacyUri)s\">Privatumo "
-"nuostatais</a>."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Tęsdami, jūs sutinkate su <a id=\"service-tos\" href=\"%(termsUri)s\">Paslaugų teikimo sąlygomis</a> ir %(serviceName)s (%(serviceUri)s) <a id=\"service-pp\" href=\"%(privacyUri)s\">Privatumo nuostatais</a>."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -757,8 +755,7 @@ msgstr "Pamiršote slaptažodį?"
 
 #: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:25 app/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr ""
-"Tęsdami jūs sutinkate su <a id=\"fxa-tos\" href=\"/legal/terms\">Paslaugos teikimo sąlygomis</a> ir „Firefox“ debesijos paslaugų <a id=\"fxa-pp\" href=\"/legal/privacy\">Privatumo nuostatais</a>."
+msgstr "Tęsdami jūs sutinkate su <a id=\"fxa-tos\" href=\"/legal/terms\">Paslaugos teikimo sąlygomis</a> ir „Firefox“ debesijos paslaugų <a id=\"fxa-pp\" href=\"/legal/privacy\">Privatumo nuostatais</a>."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -1230,7 +1227,6 @@ msgstr ""
 #~ msgid "Welcome to Sync"
 #~ msgstr "Sveiki! Tai – „Sync“"
 
-# Gal geriau Pradžia?
 #~ msgid "Home"
 #~ msgstr "Namai"
 
@@ -1262,8 +1258,8 @@ msgstr ""
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Įjunkite sausainėlių palaikymą savo naršyklėje, nes jie reikalingi „Firefox“ paskyroms. Sausainėliai yra maži duomenų gabaliukai, saugomi jūsų naršyklėje, kurie užtikrina tam tikrų funkcijų "
-#~ "veikimą, pvz., atsiminti jus tarp sesijų."
+#~ "Įjunkite sausainėlių palaikymą savo naršyklėje, nes jie reikalingi „Firefox“ paskyroms. Sausainėliai yra maži duomenų gabaliukai, saugomi jūsų naršyklėje, kurie užtikrina tam tikrų funkcijų veikimą,"
+#~ " pvz., atsiminti jus tarp sesijų."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "„Firefox“ greitai pasirodys iOS!"
