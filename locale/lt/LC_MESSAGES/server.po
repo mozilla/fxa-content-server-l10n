@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2017-02-26 16:54+0000\n"
+"PO-Revision-Date: 2017-02-26 19:31+0000\n"
 "Last-Translator: rimas <rimas@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lt\n"
@@ -21,23 +21,27 @@ msgstr "Ar nepamiršote?"
 
 #: templates/_pending.txt:2
 msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
-msgstr ""
+msgstr "Prieš kurį laiką jūs susikūrėte „Firefox“ paskyrą, tačiau jos taip ir nepatvirtinote. Jei norite paskyrą aktyvinti, spustelėkite žemiau esantį saitą."
 
 #: templates/_pending.txt:3
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
+"Jūs sėkmingai susiejote su savo „Firefox“ paskyra pirmąjį įrenginį. Dabar galite su ja susieti ir kitus įrenginius, pavyzdžiui, „Firefox“, skirtą <a href='%(androidUrl)s'>„Android“</a> ar <a "
+"href='%(iosUrl)s'>„iOS“</a> platformai."
 
 #: templates/_pending.txt:4
 msgid ""
 "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 "iOS</a>."
 msgstr ""
+"Jūs sėkmingai susiejote su savo „Firefox“ paskyra pirmąjį įrenginį. Kad „Sync“ paslauga jums būtų tikrai naudinga, susiekite su šia paskyra ir kitus įrenginius, pavyzdžiui, „Firefox“, skirtą <a "
+"href='%(androidUrl)s'>„Android“</a> ar <a href='%(iosUrl)s'>„iOS“</a> platformai."
 
 #: templates/_pending.txt:5 templates/post_verify.html:4
 msgid "Connect another device"
-msgstr "Prijungti kitą įrenginį"
+msgstr "Susieti kitą įrenginį"
 
 #: templates/_pending.txt:6
 msgid "Sign in to Sync"
@@ -52,21 +56,21 @@ msgstr "„Firefox“ paskyros"
 
 #: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:610
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "Naujas prisijungimas prie „Firefox“"
 
 #: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/password_changed.html:4 templates/password_changed.txt:3 templates/recovery.html:4 templates/recovery.txt:3
 #: templates/unblock_code.html:3 templates/unblock_code.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3 templates/verify_sync.html:4 templates/verify_sync.txt:3
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "IP adresas – %(ip)s"
 
 #: templates/new_device_login.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr ""
+msgstr "Tai – automatiškai išsiųstas laiškas. Jei šis veiksmas nesankcionuotas, patariame <a %(passwordChangeLinkAttributes)s>pasikeisti savo paskyros slaptažodį</a>."
 
 #: templates/new_device_login.html:5 templates/password_changed.html:6 templates/password_reset.html:5 templates/post_verify.html:6 templates/recovery.html:7
 #: templates/verification_reminder_first.html:6 templates/verification_reminder_second.html:6 templates/verify.html:6 templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr ""
+msgstr "Išsamesnės informacijos ieškokite <a %(supportLinkAttributes)s>„Mozillos“ žinyne</a>."
 
 #: templates/new_device_login.html:6 templates/new_device_login.txt:5 templates/password_changed.html:7 templates/password_changed.txt:6 templates/password_reset.html:6 templates/password_reset.txt:5
 #: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:7 templates/post_verify.txt:6 templates/recovery.html:8 templates/recovery.txt:7
@@ -78,7 +82,7 @@ msgstr "„Mozillos“ privatumo nuostatai"
 
 #: templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr ""
+msgstr "Tai – automatiškai išsiųstas laiškas. Jei šio įrenginio su savo „Firefox“ paskyra jūs nesiejote, patariame nedelsiant pasikeisti savo paskyros slaptažodį: %(passwordChangeLink)s"
 
 #: templates/new_device_login.txt:4 templates/password_changed.txt:5 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
 #: templates/verification_reminder_second.txt:5 templates/verify.txt:5 templates/verify_sync.txt:7
@@ -91,29 +95,29 @@ msgstr "Slaptažodis pakeistas sėkmingai"
 
 #: templates/password_changed.html:3 templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr ""
+msgstr "Jūsų „Firefox“ paskyros slaptažodis buvo pakeistas, naudojantis šiuo įrenginiu:"
 
 #: templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr ""
+msgstr "Tai – automatiškai išsiųstas laiškas. Jei šis veiksmas nesankcionuotas, patariame <a %(resetLinkAttributes)s>atkurti savo paskyros slaptažodį</a>."
 
 #: templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Tai – automatiškai išsiųstas laiškas. Jei jūs nekeitėte savo „Firefox“ paskyros slaptažodžio, patariame nedelsiant jį atkurti: %(resetLink)s"
 
 #: templates/password_reset.html:2
 msgid "Your password has been reset"
-msgstr ""
+msgstr "Jūsų slaptažodis atkurtas"
 
 #: templates/password_reset.html:3
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+msgstr "Jūsų „Firefox“ paskyros slaptažodis pakeistas. Jei šio pakeitimo jūs nesankcionavote, patariame nedelsiant <a %(resetLinkAttributes)s>paskyros slaptažodį atkurti</a>."
 
 #: templates/password_reset.html:4 templates/post_verify.html:5 templates/post_verify.txt:4 templates/recovery.html:6 templates/recovery.txt:5 templates/verification_reminder_first.html:5
 #: templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:5 templates/verification_reminder_second.txt:4 templates/verify.html:5 templates/verify.txt:4
 #: templates/verify_sync.html:7 templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
-msgstr "Tai automatiškai sugeneruotas laiškas, todėl jei gavote šį laišką per klaidą, nieko daryti nereikia."
+msgstr "Tai – automatiškai išsiųstas laiškas. Jei jį gavote per klaidą, nieko daryti nereikia."
 
 #: templates/password_reset.txt:1
 msgid "Password reset successfully"
@@ -121,7 +125,7 @@ msgstr "Slaptažodis atkurtas sėkmingai"
 
 #: templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr ""
+msgstr "Jūsų „Firefox“ paskyros slaptažodis sėkmingai atkurtas."
 
 #: templates/password_reset.txt:3
 msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
