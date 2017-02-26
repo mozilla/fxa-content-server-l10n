@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2017-02-26 19:31+0000\n"
+"PO-Revision-Date: 2017-02-26 19:49+0000\n"
 "Last-Translator: rimas <rimas@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lt\n"
@@ -129,40 +129,42 @@ msgstr "Jūsų „Firefox“ paskyros slaptažodis sėkmingai atkurtas."
 
 #: templates/password_reset.txt:3
 msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Tai – automatiškai išsiųstas laiškas. Jei jūs nepageidavote atkurti savo „Firefox“ paskyros slaptažodžio, patariame nedelsiant jį atkurti iš naujo: %(resetLink)s"
 
 #: templates/password_reset_required.html:2 templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-msgstr ""
+msgstr "Jūsų „Firefox“ paskyroje pastebėta įtartina veikla. Gali būti, kad paskyra sukompromituota."
 
 #: templates/password_reset_required.html:3 templates/password_reset_required.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-msgstr ""
+msgstr "Siekdami užkirsti kelią tolesnei nesankcionuotai prieigai prie jūsų „Firefox“ paskyros, mes pakeitėme jos slaptažodį, ir apie tai informuojame jus."
 
 #: templates/password_reset_required.html:4 templates/password_reset_required.txt:3
 msgid "What should you do?"
-msgstr ""
+msgstr "Ką turėtumėte daryti?"
 
 #: templates/password_reset_required.html:5 templates/password_reset_required.txt:4
 msgid "First, change your Firefox Account password."
-msgstr ""
+msgstr "Pirmiausia, pakeiskite savo „Firefox“ paskyros slaptažodį."
 
 #: templates/password_reset_required.html:6 templates/password_reset_required.txt:5
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 msgstr ""
+"Antra, jei savo „Firefox“ naršyklėje turite įsiminę svetainių slaptažodžių, juos derėtų taip pat pakeisti. Įsilaužėliai gali turėti prie šių slaptažodžių prieigą, tad patariame taip pat patikrinti, "
+"ar su šiomis paskyromis neįvyko nieko įtartino."
 
 #: templates/password_reset_required.html:7 templates/password_reset_required.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
-msgstr ""
+msgstr "Sužinokite, kaip pamatyti „Firefox“ naršyklės įsimintus slaptažodžius."
 
 #: templates/password_reset_required.html:8 templates/password_reset_required.txt:7
 msgid "Best,"
-msgstr ""
+msgstr "Iki,"
 
 #: templates/password_reset_required.html:9 templates/password_reset_required.txt:8
 msgid "The Firefox Accounts team"
-msgstr ""
+msgstr "„Firefox Accounts“ komanda"
 
 #: templates/post_verify.html:2 templates/post_verify.txt:1
 msgid "Account verified!"
@@ -173,22 +175,24 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
+"Jūs sėkmingai susiejote su savo „Firefox“ paskyra pirmąjį įrenginį. Dabar galite su ja susieti ir kitus įrenginius, pavyzdžiui, „Firefox“, skirtą <a %(androidLinkAttributes)s>„Android“</a> ar <a "
+"%(iosLinkAttributes)s>„iOS“</a> platformai."
 
 #: templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-msgstr ""
+msgstr "Jūs sėkmingai susiejote su savo „Firefox“ paskyra pirmąjį įrenginį. Dabar galite su ja susieti ir kitus įrenginius, pavyzdžiui, „Firefox“, skirtą „Android“ ar „iOS“ platformai."
 
 #: templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr ""
+msgstr "Prisijunkite prie „Sync“:"
 
 #: templates/recovery.html:2 templates/recovery.txt:1
 msgid "Forgot your password?"
-msgstr ""
+msgstr "Pamiršote slaptažodį?"
 
 #: templates/recovery.html:3 templates/recovery.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
-msgstr ""
+msgstr "Spustelėkite mygtuką per artimiausią valandą, jei norite pakeisti savo „Firefox“ paskyros slaptažodį. Užklausa gauta iš šio įrenginio:"
 
 #: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
@@ -196,23 +200,23 @@ msgstr "Atkurti slaptažodį"
 
 #: templates/sms.installFirefox.txt:1
 msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
-msgstr ""
+msgstr "Kaip ir pageidavote, štai saitas „Firefox“ įdiegimui į jūsų mobilųjį įrenginį: %(link)s"
 
 #: templates/unblock_code.html:2 templates/unblock_code.txt:1
 msgid "Is this you signing in?"
-msgstr ""
+msgstr "Ar tai jūs bandote prisijungti?"
 
 #: templates/unblock_code.html:4 templates/unblock_code.txt:3
 msgid "If yes, here is the authorization code you need:"
-msgstr ""
+msgstr "Jei taip, štai tam reikalingas patvirtinimo kodas:"
 
 #: templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr ""
+msgstr "Jei ne, padėkite mums kovoti su įsilaužėliais – <a %(reportSignInLinkAttributes)s>praneškite apie juos</a>."
 
 #: templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "Jei ne, padėkite mums kovoti su įsilaužėliais – praneškite apie juos."
 
 #: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:677
 msgid "Hello again."
