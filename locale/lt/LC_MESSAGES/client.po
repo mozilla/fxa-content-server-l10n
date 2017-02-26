@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2017-02-26 11:28+0000\n"
+"PO-Revision-Date: 2017-02-26 11:50+0000\n"
 "Last-Translator: rimas <rimas@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lt\n"
@@ -703,32 +703,32 @@ msgstr "Prisijungti &rarr;"
 
 #: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:13
 msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr ""
+msgstr "Diegimui užbaigti atverkite nuostatas  ir pasirinkite „Prisijungti prie „Firefox“"
 
 #: app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:17
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
+msgstr "Diegimui užbaigti prisijunkite prie „Firefox“ naršyklės „iOS“ įrenginyje"
 
 #: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:17 app/scripts/templates/connect_another_device.mustache:9
 #: app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Diegimui užbaigti prisijunkite prie „Firefox“ naršyklės kitame įrenginyje"
 
 #: app/scripts/templates/connect_another_device.mustache:15
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
+msgstr "Diegimui užbaigti prisijunkite prie „Firefox“ naršyklės „Android“ įrenginyje"
 
 #: app/scripts/templates/connect_another_device.mustache:19 app/scripts/templates/connect_another_device.mustache:21
 msgid "Why is this required?"
-msgstr ""
+msgstr "Kodėl tai būtina?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
-msgstr ""
+msgstr "Paslaugai veikti būtini slapukai ir vietinė saugykla."
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr ""
+msgstr "Prieigai prie „Firefox“ paskyros prašome įgalinti slapukus ir vietinę saugyklą. Tai atlikus, bus įgalintos tokios funkcijos, kaip galimybė jus įsiminti tarp seansų."
 
 #: app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -783,16 +783,16 @@ msgstr "Išbandykite visus Sync privalumus."
 #: app/scripts/templates/marketing_snippet.mustache:2 app/scripts/templates/marketing_snippet.mustache:3 app/scripts/templates/marketing_snippet.mustache:11
 #: app/scripts/templates/marketing_snippet.mustache:15 app/scripts/templates/marketing_snippet.mustache:19
 msgid "Download Firefox for iOS!"
-msgstr ""
+msgstr "Parsisiųskite „Firefox“ „iOS“ įrenginiams!"
 
 #: app/scripts/templates/marketing_snippet.mustache:6 app/scripts/templates/marketing_snippet.mustache:7 app/scripts/templates/marketing_snippet.mustache:12
 #: app/scripts/templates/marketing_snippet.mustache:17 app/scripts/templates/marketing_snippet.mustache:20
 msgid "Download Firefox for Android."
-msgstr "Atsisiųsti „Firefox“ Android įrenginiams."
+msgstr "Parsiųsti „Firefox“ „Android“ įrenginiams."
 
 #: app/scripts/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr "Atsisiųsti „Firefox“ mobiliems įrenginiams."
+msgstr "Parsiųsti „Firefox“ mobiliesiems įrenginiams."
 
 #: app/scripts/templates/permissions.mustache:1 app/scripts/templates/settings/gravatar_permissions.mustache:1
 msgid "Request for permission"
@@ -823,15 +823,15 @@ msgstr "Jūsų paskyra parengta darbui!"
 
 #: app/scripts/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "Pranešti apie nesankcionuotą prisijungimą?"
 
 #: app/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr ""
+msgstr "Jūs gavote pranešimą apie mėginimą jungtis prie jūsų paskyros. Ar norite apie tai pranešti kaip apie įtartiną veiklą?"
 
 #: app/scripts/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr ""
+msgstr "Pranešti"
 
 #: app/scripts/templates/report_sign_in.mustache:7 app/scripts/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
