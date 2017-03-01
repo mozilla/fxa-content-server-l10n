@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2017-02-20 21:40+0000\n"
+"PO-Revision-Date: 2016-12-24 02:08+0000\n"
 "Last-Translator: Cynthia Pereira <cynthiacpereira@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -192,7 +192,7 @@ msgstr "Esqueceu sua senha?"
 
 #: templates/recovery.html:3 templates/recovery.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
-msgstr "Clique no botão para definir uma nova senha para sua Conta Firefox. A solicitação tem validade de uma hora e veio do seguinte dispositivo:"
+msgstr "Clique no botão dentro da próxima hora para definir uma nova senha para sua Conta Firefox. A solicitação veio do seguinte dispositivo:"
 
 #: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
