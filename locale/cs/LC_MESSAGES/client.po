@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2017-03-02 21:31+0000\n"
+"PO-Revision-Date: 2017-03-02 21:33+0000\n"
 "Last-Translator: Tomáš Zelina <zelitomas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -906,7 +906,7 @@ msgstr "Pokračovat"
 
 #: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
-msgstr "Vytvořit Firefox Account"
+msgstr "Vytvořit účet Firefoxu"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
@@ -914,7 +914,7 @@ msgstr "Hledáte Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Začnět
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr "Přesuňte svá synchronizovaná data vytvořením nového účtu Firefox&nbsp;Account."
+msgstr "Přesuňte svá synchronizovaná data vytvořením nového účtu&nbsp;Firefoxu."
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
@@ -1135,7 +1135,7 @@ msgstr "Použít OpenID"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr "Použít Firefox Account"
+msgstr "Použít účet Firefoxu"
 
 #: app/scripts/lib/strings.js:43
 msgid "Web Session"
