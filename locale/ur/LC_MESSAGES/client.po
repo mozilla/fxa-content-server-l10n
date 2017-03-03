@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2017-02-23 13:52+0000\n"
+"PO-Revision-Date: 2017-03-03 06:50+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -266,11 +266,11 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:129 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "نظام دستیاب نہیں، جلد ہی دوبارہ کوشش کریں"
 
 #: app/scripts/lib/auth-errors.js:133 app/scripts/lib/oauth-errors.js:104
 msgid "no message"
-msgstr ""
+msgstr "کوئی پیغام نہیں"
 
 #: app/scripts/lib/auth-errors.js:137
 msgid "Session expired. Sign in to continue."
@@ -306,11 +306,11 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:169
 msgid "Valid password required"
-msgstr ""
+msgstr "جائز پاس ورڈ کی ظرورت ہے"
 
 #: app/scripts/lib/auth-errors.js:173 app/scripts/lib/auth-errors.js:211 app/scripts/lib/auth-errors.js:227
 msgid "Valid email required"
-msgstr ""
+msgstr "جائز ای میل کی ظرورت ہے"
 
 #: app/scripts/lib/auth-errors.js:184
 msgid "A usable image was not found"
@@ -691,7 +691,7 @@ msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:7
 msgid "Sign in &rarr;"
-msgstr ""
+msgstr "سائن ان &rarr;"
 
 #: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:13
 msgid "Open settings and select Sign in to Firefox to complete set-up"
