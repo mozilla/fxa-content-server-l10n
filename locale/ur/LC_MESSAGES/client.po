@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2017-03-03 16:09+0000\n"
+"PO-Revision-Date: 2017-03-03 16:23+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -534,7 +534,7 @@ msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
-msgstr ""
+msgstr "چنیں کیا ہمہ وقت ساز کرنا ہے"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:3
 msgid "Open tabs"
@@ -610,7 +610,7 @@ msgstr "نیا پاس ورڈ"
 
 #: app/scripts/templates/complete_reset_password.mustache:14
 msgid "Repeat password"
-msgstr ""
+msgstr "پاسورڈ دہرائیں"
 
 #: app/scripts/templates/complete_reset_password.mustache:15
 msgid "Submit new password"
@@ -634,7 +634,7 @@ msgstr ""
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
-msgstr ""
+msgstr "اپنے اکائونٹ کی تصدیق کریں"
 
 #: app/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
@@ -667,7 +667,7 @@ msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "پاس ورڈ یاد ہے؟ سائن ان کریں"
 
 #: app/scripts/templates/connect_another_device.mustache:1
 msgid "Connect another device"
@@ -746,7 +746,7 @@ msgstr "سائن ان کریں"
 
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:12 app/scripts/templates/sign_in.mustache:23 app/scripts/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
-msgstr ""
+msgstr "پاس ورڈ بھول چکے ہيں؟"
 
 #: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:25 app/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
