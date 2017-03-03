@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2017-03-03 16:23+0000\n"
+"PO-Revision-Date: 2017-03-03 16:36+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -792,7 +792,7 @@ msgstr "اجازت کے لیے درخواست کریں"
 
 #: app/scripts/templates/permissions.mustache:2 app/scripts/templates/settings/gravatar_permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr ""
+msgstr "%(serviceName)s کو آپ کے اکائوںٹ سے مدندرجی زیل مولعومات درکار ہیں"
 
 #: app/scripts/templates/permissions.mustache:3 app/scripts/templates/settings/gravatar_permissions.mustache:4
 msgid "Accept"
@@ -851,7 +851,7 @@ msgstr ""
 
 #: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "پاس ورڈ یاد ہے؟ سائن ان کریں۔"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
@@ -1052,7 +1052,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:7
 msgid "Disconnect…"
-msgstr ""
+msgstr "منقطع کریں…"
 
 #: app/scripts/templates/settings/clients.mustache:11
 msgid "Firefox for iOS"
