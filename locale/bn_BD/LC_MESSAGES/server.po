@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2017-01-28 22:56+0000\n"
-"Last-Translator: S M Sarwar Nobin <smsarwar1996@gmail.com>\n"
+"PO-Revision-Date: 2017-03-03 04:25+0000\n"
+"Last-Translator: Mahay Alam Khan <mahayalamkhan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_BD\n"
 "MIME-Version: 1.0\n"
@@ -186,7 +186,7 @@ msgstr "পাসওয়ার্ড ভুলে গেছেন?"
 
 #: templates/recovery.html:3 templates/recovery.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
-msgstr ""
+msgstr "আপনার Firefox একাউন্টের জন্যে আগামী এক ঘন্টার মধ্যে বাটনটি ক্লিক করে একটি নতুন পাসওয়ার্ড নির্ধারণ করুন। নিম্নোক্ত ডিভাইস থেকে অনুরোধটি এসেছে:"
 
 #: templates/recovery.html:5 templates/recovery.txt:4
 msgid "Reset password"
@@ -194,7 +194,7 @@ msgstr "রিসেট পাসওয়ার্ড"
 
 #: templates/sms.installFirefox.txt:1
 msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
-msgstr ""
+msgstr "আপনার অনুরোধানুযায়ী, এই নিন আপনার মোবাইল ডিভাইসে Firefox ইনস্টল করার লিংক: %(link)s"
 
 #: templates/unblock_code.html:2 templates/unblock_code.txt:1
 msgid "Is this you signing in?"
@@ -275,15 +275,15 @@ msgstr "প্রস্তুত, সেট, সিঙ্ক"
 
 #: templates/verify_sync.html:3 templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "নিশ্চিত করুন আপনি ইমেইলটি পেয়েছেন, তাহলে আমরা আপনার সব ডিভাইসে Firefox ইন্সটল এবং সিঙ্ক করতে সাহায্য করতে পারবো:"
 
 #: templates/verify_sync.html:5 templates/verify_sync.txt:4
 msgid "Verify email "
-msgstr ""
+msgstr "ইমেইল যাচাই করুন "
 
 #: templates/verify_sync.html:6 templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "একবার নিশ্চিত করলে, আমরা আপনার অন্তঃত একটি ডিভাইসে Firefox ইন্সটল ও কানেক্ট করতে সহায়তা করতে পারবো।"
 
 #: mailer.js:152
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -315,7 +315,7 @@ msgstr "আপনার Firefox Account যাচাই করুন"
 
 #: mailer.js:305
 msgid "Confirm your email and start to sync!"
-msgstr ""
+msgstr "আপনার ইমেইল নিশ্চিত করুন এবং সিঙ্ক শুরু করুন!"
 
 #: mailer.js:362
 msgid "Firefox Account authorization code"
