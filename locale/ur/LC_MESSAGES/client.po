@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2017-03-03 16:36+0000\n"
+"PO-Revision-Date: 2017-03-03 17:09+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -101,7 +101,7 @@ msgstr ""
 
 #: app/scripts/views/settings/clients.js:58 app/scripts/views/settings/clients.js:62
 msgid "Last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "آخری مرتبہ فعال %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/communication_preferences.js:104
 msgid "Subscribed successfully"
@@ -302,7 +302,7 @@ msgstr "آپ کا نیا پاس ورڈ طرور مختلف ہونا چاہیئے
 
 #: app/scripts/lib/auth-errors.js:165 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
-msgstr ""
+msgstr "کم از کم 8 حروف کا ہونا چاہیئے"
 
 #: app/scripts/lib/auth-errors.js:169
 msgid "Valid password required"
