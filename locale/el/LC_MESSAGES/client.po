@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2017-03-04 14:10+0000\n"
+"PO-Revision-Date: 2017-03-04 14:16+0000\n"
 "Last-Translator: Jim Spentzos <jamesspentzos@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -330,7 +330,7 @@ msgstr "Απαιτείται έγκυρο URL"
 
 #: app/scripts/lib/auth-errors.js:207
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Το email επικύρωσής σας μόλις επιστράφηκε. Μήπως πληκτρολογήσατε λάθος το email;"
 
 #: app/scripts/lib/auth-errors.js:215
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -712,7 +712,7 @@ msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:15
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
+msgstr "Συνδεθείτε στο Firefox για Android για ολοκλήρωση ρύθμισης"
 
 #: app/scripts/templates/connect_another_device.mustache:19 app/scripts/templates/connect_another_device.mustache:21
 msgid "Why is this required?"
@@ -911,7 +911,7 @@ msgstr "Δημιουργία Λογαριασμού Firefox"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-msgstr ""
+msgstr "Ψάχνετε για το Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Ξεκινήστε εδώ</a>"
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -948,6 +948,9 @@ msgid ""
 "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 msgstr ""
+"Το Sync δεν έχει σχεδιαστεί ως υπηρεσία μόνιμων αντιγράφων ασφαλείας – απλά μοιράζει τα δεδομένα που έχουν αποθηκευτεί τοπικά. Αν επαναφέρετε τον κωδικό πρόσβασής σας και τα δεδομένα σας δεν είναι "
+"αποθηκευμένα σε μια τουλάχιστον συσκευή, ενδέχεται να χάσετε όλες τις πληροφορίες που έχουν συσχετιστεί με τον παλιό κωδικό πρόσβασης. Γι' αυτό, είναι καλό να κάνετε εγκατάσταση του Firefox και "
+"χρήση του Sync σε περισσότερες από μία συσκευές."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1064,7 +1067,7 @@ msgstr "Firefox για iOS"
 
 #: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15
 msgid "none connected"
-msgstr ""
+msgstr "καμία σύνδεση"
 
 #: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Download"
