@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2017-03-04 05:01+0000\n"
-"Last-Translator: Mahay Alam Khan <mahayalamkhan@gmail.com>\n"
+"PO-Revision-Date: 2017-01-28 23:01+0000\n"
+"Last-Translator: S M Sarwar Nobin <smsarwar1996@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_BD\n"
 "MIME-Version: 1.0\n"
@@ -864,7 +864,7 @@ msgstr "সাইন আউট"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "আপনি অ্যাড-অনের ডাটার জন্য খুঁজছেন? আপনার আগের অ্যাড-অনের অ্যাকাউন্টের ইমেইল ঠিকানা দিয়ে Firefox অ্যাকাউন্টে <a href=\"/signup\">সাইন আপ</a> করুন।"
 
 #: app/scripts/templates/sign_in.mustache:8
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
@@ -916,7 +916,7 @@ msgstr "নতুন Firefox&nbsp;Account তৈরি করে সিঙ্ক
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "আপনি অ্যাড-অনের ডাটার জন্য খুঁজছেন? আপনার আগের অ্যাড-অনের অ্যাকাউন্টের ইমেইল ঠিকানা দিয়ে Firefox অ্যাকাউন্টে সাইন আপ করুন।"
 
 #: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
@@ -932,7 +932,7 @@ msgstr "অ্যাকাউন্ট রয়েছে? সাইন ইন ক�
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
-msgstr ""
+msgstr "কেন দুটি (অথাব আরো অনেক!) ডিভাইস সিঙ্ক করবেন?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
@@ -948,7 +948,7 @@ msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
-msgstr ""
+msgstr "পেয়েছেন"
 
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2
