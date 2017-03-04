@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2017-03-04 10:49+0000\n"
+"PO-Revision-Date: 2017-03-04 10:59+0000\n"
 "Last-Translator: Jim Spentzos <jamesspentzos@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -218,7 +218,7 @@ msgstr "Λανθασμένη περίπτωση ηλ. διεύθυνσης"
 
 #: app/scripts/lib/auth-errors.js:59
 msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
-msgstr ""
+msgstr "Λάθος κωδικός πρόσβασης. Για να ελέγξετε πάλι όσα έχετε εισάγει, πατήστε παρατεταμένα το κουμπί \"Show\" (\"Εμφάνιση\")."
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
@@ -254,15 +254,15 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:109
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "Το αίτημα αποκλείστηκε για λόγους ασφαλείας"
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:318
 msgid "Invalid authorization code"
-msgstr ""
+msgstr "Μη έγκυρος κωδικός πιστοποίησης"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/auth-errors.js:298
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Απασχολημένος διακομιστής, δοκιμάστε ξανά σύντομα"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "This endpoint is no longer supported"
@@ -294,11 +294,11 @@ msgstr "Εργασία…"
 
 #: app/scripts/lib/auth-errors.js:153
 msgid "Could not get Privacy Notice"
-msgstr ""
+msgstr "Αδυναμία λήψης σημειώσεων απορρήτου"
 
 #: app/scripts/lib/auth-errors.js:157
 msgid "Could not get Terms of Service"
-msgstr ""
+msgstr "Αδυναμία λήψης όρων υπηρεσίας"
 
 #: app/scripts/lib/auth-errors.js:161
 msgid "Your new password must be different"
@@ -310,7 +310,7 @@ msgstr "Πρέπει να περιέχει τουλάχιστον 8 χαρακτ
 
 #: app/scripts/lib/auth-errors.js:169
 msgid "Valid password required"
-msgstr ""
+msgstr "Απαιτείται ένας έγκυρος κωδικός πρόσβασης"
 
 #: app/scripts/lib/auth-errors.js:173 app/scripts/lib/auth-errors.js:211 app/scripts/lib/auth-errors.js:227
 msgid "Valid email required"
@@ -318,7 +318,7 @@ msgstr "Απαιτείται έγκυρο email"
 
 #: app/scripts/lib/auth-errors.js:184
 msgid "A usable image was not found"
-msgstr ""
+msgstr "Δεν βρέθηκε καμία αξιοποιήσιμη εικόνα"
 
 #: app/scripts/lib/auth-errors.js:188
 msgid "Could not initialize camera"
@@ -342,19 +342,19 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:242 app/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Ο σύνδεσμος επικύρωσης καταστράφηκε"
 
 #: app/scripts/lib/auth-errors.js:250
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "Οι διαστάσεις της εικόνας πρέπει να είναι τουλάχιστον 100x100px"
 
 #: app/scripts/lib/auth-errors.js:254
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "Η δυνατότητα εγγραφής έρχεται σύντομα στο Firefox για iOS"
 
 #: app/scripts/lib/auth-errors.js:265
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "Πρέπει να εισάγετε την ηλικία σας για εγγραφή"
 
 #: app/scripts/lib/auth-errors.js:269
 msgid "No Gravatar found"
@@ -390,7 +390,7 @@ msgstr "Αυτό είναι ένα υποχρεωτικό πεδίο"
 
 #: app/scripts/lib/auth-errors.js:314
 msgid "Authorization code required"
-msgstr ""
+msgstr "Απαιτείται κωδικός πιστοποίησης"
 
 #: app/scripts/lib/auth-errors.js:322 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
@@ -534,7 +534,7 @@ msgstr "Μάθετε περισσότερα."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s created"
-msgstr ""
+msgstr "Δημιουργήθηκε %(email)s"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
@@ -578,7 +578,7 @@ msgstr "Πίσω"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
-msgstr ""
+msgstr "Ο σύνδεσμος επαναφοράς κωδικού πρόσβασης έληξε"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
@@ -614,19 +614,19 @@ msgstr "Νέος κωδικός"
 
 #: app/scripts/templates/complete_reset_password.mustache:14
 msgid "Repeat password"
-msgstr ""
+msgstr "Επανάληψη κωδικού πρόσβασης"
 
 #: app/scripts/templates/complete_reset_password.mustache:15
 msgid "Submit new password"
-msgstr ""
+msgstr "Υποβολή νέου κωδικού πρόσβασης"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Sign-in already confirmed"
-msgstr ""
+msgstr "Η είσοδος έχει ήδη επιβεβαιωθεί"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
-msgstr ""
+msgstr "Ο σύνδεσμος επικύρωσης έληξε"
 
 #: app/scripts/templates/complete_sign_up.mustache:6
 msgid "Click here to receive a new verification link"
@@ -819,7 +819,7 @@ msgstr "Ο λογαριασμός σας είναι έτοιμος!"
 
 #: app/scripts/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "Αναφορά μη πιστοποιημένης σύνδεσης;"
 
 #: app/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
