@@ -24,7 +24,7 @@ if [[ $# -lt 1 ]]; then
     usage;
 fi
 
-MAILER_DIR="./fxa-auth-mailer"
+MAILER_DIR="./fxa-auth-server"
 CONTENT_DIR="./fxa-content-server"
 L10N_DIR="./fxa-content-server-l10n"
 
