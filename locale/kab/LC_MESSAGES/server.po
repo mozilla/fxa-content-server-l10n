@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-17 18:48+0000\n"
+"POT-Creation-Date: 2017-03-05 22:21+0000\n"
 "PO-Revision-Date: 2017-02-18 19:41+0000\n"
 "Last-Translator: Moḥend Belqasem <belkacem77@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,15 +14,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pontoon\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:680
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:680
 msgid "Still there?"
 msgstr "Aqla-k da?"
 
-#: templates/_pending.txt:2
+#: lib/senders/templates/_pending.txt:2
 msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
 msgstr "Memli kan id terniḍ amiḍan Firefox, acukan, weṛǧin yettwasenqed. Sit ɣef useqwen daw-a akken ad tremded amiḍan inek."
 
-#: templates/_pending.txt:3
+#: lib/senders/templates/_pending.txt:3
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
@@ -30,146 +30,153 @@ msgstr ""
 "Teqqned akken iwata ibenk inek amezwaru ɣer umiḍan inek Firefox. Tura tzemred ad tkecmeḍ akken ad temtawid seg ibenkan nniḍen, ula si Firefox i <a href='%(androidUrl)s'>Android</a> akke <a "
 "href='%(iosUrl)s'>iOS</a>."
 
-#: templates/_pending.txt:4
+#: lib/senders/templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
-"Teqqned akken iwata ibenk inek amezwaru ɣer umiḍn inek Firefox. Akken ad temtawid ugar, qqen ibenk tebɣid ɣer <a href='%(androidUrl)s'>Firefox i Android</a> neɣ <a href='%(iosUrl)s'>Firefox i "
-"iOS</a>."
+"Teqqned akken iwata ibenk inek amezwaru ɣer umiḍn inek Firefox. Akken ad temtawid ugar, qqen ibenk tebɣid ɣer <a href='%(androidUrl)s'>Firefox i Android</a> neɣ <a href='%(iosUrl)s'>Firefox i iOS</"
+"a>."
 
-#: templates/_pending.txt:5 templates/post_verify.html:4
+#: lib/senders/templates/_pending.txt:5 lib/senders/templates/post_verify.html:4
 msgid "Connect another device"
 msgstr "Qqen ibenk nniḍen"
 
-#: templates/_pending.txt:6
+#: lib/senders/templates/_pending.txt:6
 msgid "Sign in to Sync"
 msgstr "Kcem ɣer Sync"
 
-#: templates/new_device_login.html:1 templates/password_changed.html:1 templates/password_reset.html:1 templates/password_reset_required.html:1 templates/post_verify.html:1 templates/recovery.html:1
-#: templates/unblock_code.html:1 templates/verification_reminder_first.html:1 templates/verification_reminder_second.html:1 templates/verify.html:1 templates/verify_login.html:1
-#: templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
-#: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
+#: lib/senders/templates/new_device_login.html:1 lib/senders/templates/password_changed.html:1 lib/senders/templates/password_reset.html:1 lib/senders/templates/password_reset_required.html:1
+#: lib/senders/templates/post_verify.html:1 lib/senders/templates/recovery.html:1 lib/senders/templates/unblock_code.html:1 lib/senders/templates/verification_reminder_first.html:1
+#: lib/senders/templates/verification_reminder_second.html:1 lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_sync.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Imiḍanen Firefox"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:610
+#: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
+#: lib/senders/email.js:610
 msgid "New sign-in to Firefox"
 msgstr "Tuqqna nniḍen ɣer Firefox"
 
-#: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/password_changed.html:4 templates/password_changed.txt:3 templates/recovery.html:4 templates/recovery.txt:3
-#: templates/unblock_code.html:3 templates/unblock_code.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3 templates/verify_sync.html:4 templates/verify_sync.txt:3
+#: lib/senders/templates/new_device_login.html:3 lib/senders/templates/new_device_login.txt:2 lib/senders/templates/password_changed.html:4 lib/senders/templates/password_changed.txt:3
+#: lib/senders/templates/recovery.html:4 lib/senders/templates/recovery.txt:3 lib/senders/templates/unblock_code.html:3 lib/senders/templates/unblock_code.txt:2
+#: lib/senders/templates/verify_login.html:4 lib/senders/templates/verify_login.txt:3 lib/senders/templates/verify_sync.html:4 lib/senders/templates/verify_sync.txt:3
 msgid "IP address: %(ip)s"
 msgstr "Tansa IP: %(ip)s"
 
-#: templates/new_device_login.html:4
+#: lib/senders/templates/new_device_login.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr "Wagi d izen imayl awurman; ma yella ur tessirged ara tigawt agi, ihi <a %(passwordChangeLinkAttributes)s>snifel awal inek uffir.</a>"
 
-#: templates/new_device_login.html:5 templates/password_changed.html:6 templates/password_reset.html:5 templates/post_verify.html:6 templates/recovery.html:7
-#: templates/verification_reminder_first.html:6 templates/verification_reminder_second.html:6 templates/verify.html:6 templates/verify_sync.html:8
+#: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5 lib/senders/templates/post_verify.html:6
+#: lib/senders/templates/recovery.html:7 lib/senders/templates/verification_reminder_first.html:6 lib/senders/templates/verification_reminder_second.html:6 lib/senders/templates/verify.html:6
+#: lib/senders/templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr "Ugar n telɣut, rzu ɣer <a %(supportLinkAttributes)s>Tallalt n Mozilla</a>."
 
-#: templates/new_device_login.html:6 templates/new_device_login.txt:5 templates/password_changed.html:7 templates/password_changed.txt:6 templates/password_reset.html:6 templates/password_reset.txt:5
-#: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:7 templates/post_verify.txt:6 templates/recovery.html:8 templates/recovery.txt:7
-#: templates/unblock_code.html:6 templates/unblock_code.txt:5 templates/verification_reminder_first.html:7 templates/verification_reminder_first.txt:6 templates/verification_reminder_second.html:7
-#: templates/verification_reminder_second.txt:6 templates/verify.html:7 templates/verify.txt:6 templates/verify_login.html:7 templates/verify_login.txt:6 templates/verify_sync.html:9
-#: templates/verify_sync.txt:8
+#: lib/senders/templates/new_device_login.html:6 lib/senders/templates/new_device_login.txt:5 lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6
+#: lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5 lib/senders/templates/password_reset_required.html:10 lib/senders/templates/password_reset_required.txt:9
+#: lib/senders/templates/post_verify.html:7 lib/senders/templates/post_verify.txt:6 lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6
+#: lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verification_reminder_first.html:7 lib/senders/templates/verification_reminder_first.txt:6
+#: lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verification_reminder_second.txt:6 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6
+#: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
 msgstr "Tasertit tabaḍnit n Mozilla"
 
-#: templates/new_device_login.txt:3
+#: lib/senders/templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
 msgstr "Wagi d izen awurman ; ma yella ur terniḍ ara ibenk amaynut ɣer umiḍan inek Firefox, yessefk ad tesnifleḍ awal inek uffir tura yakan seg %(passwordChangeLink)s"
 
-#: templates/new_device_login.txt:4 templates/password_changed.txt:5 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
-#: templates/verification_reminder_second.txt:5 templates/verify.txt:5 templates/verify_sync.txt:7
+#: lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4 lib/senders/templates/post_verify.txt:5
+#: lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:5 lib/senders/templates/verification_reminder_second.txt:5 lib/senders/templates/verify.txt:5
+#: lib/senders/templates/verify_sync.txt:7
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Ugar n telɣut, ddu ɣer %(supportUrl)s"
 
-#: templates/password_changed.html:2 templates/password_changed.txt:1
+#: lib/senders/templates/password_changed.html:2 lib/senders/templates/password_changed.txt:1
 msgid "Password changed successfully"
 msgstr "Awal uffir yettusnifel akken iwata"
 
-#: templates/password_changed.html:3 templates/password_changed.txt:2
+#: lib/senders/templates/password_changed.html:3 lib/senders/templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
 msgstr "Awal uffir n umiḍan inek Firefox yettusnifel akken iwata seg ibenkan-agi:"
 
-#: templates/password_changed.html:5
+#: lib/senders/templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
 msgstr "Wagi d izen imayl awurman; ma yella ur tessirged ara tigawt agi, ihi <a %(resetLinkAttributes)s>snifel awal inek uffir</a>."
 
-#: templates/password_changed.txt:4
+#: lib/senders/templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
 msgstr "Wagi d izen imayl awurman; ma yella ur tesnifled ara awal inek uffir deg umiḍan Firefox, yessefk ad twennzeḍ tura yakan di %(resetLink)s"
 
-#: templates/password_reset.html:2
+#: lib/senders/templates/password_reset.html:2
 msgid "Your password has been reset"
 msgstr "Awla inek uffir yettuwennez"
 
-#: templates/password_reset.html:3
+#: lib/senders/templates/password_reset.html:3
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
 msgstr "Awal uffir n umiḍan inek Firefox yettusnifel. Ma yella mačči d kečč id tyesniflen, <a %(resetLinkAttributes)s>wennez awal inek uffir</a> tura yakan."
 
-#: templates/password_reset.html:4 templates/post_verify.html:5 templates/post_verify.txt:4 templates/recovery.html:6 templates/recovery.txt:5 templates/verification_reminder_first.html:5
-#: templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:5 templates/verification_reminder_second.txt:4 templates/verify.html:5 templates/verify.txt:4
-#: templates/verify_sync.html:7 templates/verify_sync.txt:6
+#: lib/senders/templates/password_reset.html:4 lib/senders/templates/post_verify.html:5 lib/senders/templates/post_verify.txt:4 lib/senders/templates/recovery.html:6
+#: lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_first.txt:4
+#: lib/senders/templates/verification_reminder_second.html:5 lib/senders/templates/verification_reminder_second.txt:4 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
+#: lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Wagi d iymayl awurman; ma yella d tuccḍa, ulac ayen ara txedmeḍ."
 
-#: templates/password_reset.txt:1
+#: lib/senders/templates/password_reset.txt:1
 msgid "Password reset successfully"
 msgstr "Awal uffir yettuwennez akken iwata"
 
-#: templates/password_reset.txt:2
+#: lib/senders/templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
 msgstr "Awal uffir n umiḍan Firefox yettuwennez akken iwatan."
 
-#: templates/password_reset.txt:3
+#: lib/senders/templates/password_reset.txt:3
 msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
 msgstr "Wagi d izen imayl awurman; ma yella ur twennezḍ ara awal inek uffir deg umiḍan Firefox, yessefk ad twennezeḍ tura yakan di %(resetLink)s"
 
-#: templates/password_reset_required.html:2 templates/password_reset_required.txt:1
+#: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
 msgstr "Nufa-d armud ur nelhi ara ɣef umidan inek Firefox. Ahat amiḍan inek yettwakcem kečč ur teẓriḍ ara."
 
-#: templates/password_reset_required.html:3 templates/password_reset_required.txt:2
+#: lib/senders/templates/password_reset_required.html:3 lib/senders/templates/password_reset_required.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
 msgstr "Akken ad tesweḥleḍ inekcam nniḍen ur yettwasirgen ara ɣer umiḍan inek Firefox,, nwennez awal inek uffir udiɣ nuzen-ak-d alɣu."
 
-#: templates/password_reset_required.html:4 templates/password_reset_required.txt:3
+#: lib/senders/templates/password_reset_required.html:4 lib/senders/templates/password_reset_required.txt:3
 msgid "What should you do?"
 msgstr "D acu i yessefk ad txedmeḍ?"
 
-#: templates/password_reset_required.html:5 templates/password_reset_required.txt:4
+#: lib/senders/templates/password_reset_required.html:5 lib/senders/templates/password_reset_required.txt:4
 msgid "First, change your Firefox Account password."
 msgstr "Di tazwara, snifel awal uffir n umiḍan inek Firefox."
 
-#: templates/password_reset_required.html:6 templates/password_reset_required.txt:5
+#: lib/senders/templates/password_reset_required.html:6 lib/senders/templates/password_reset_required.txt:5
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 msgstr ""
 "Sakin, ma yella Firefox yesseklas awalen inek uffiren i yesmal web, yessefk ad tesnifleḍ ula d awalen agi uffiren. Imakwaren zemren ad kecmen ɣer wawalen agi uffiren, ihi yessefk ad tesneqdeḍ "
 "imiḍanen agi akken ad teḍmen ma mačči d aɛraḍ n takweṛḍa."
 
-#: templates/password_reset_required.html:7 templates/password_reset_required.txt:6
+#: lib/senders/templates/password_reset_required.html:7 lib/senders/templates/password_reset_required.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "Issin amek ara twalid anwa awalen uffiren i yesseklas Firefox i kečč."
 
-#: templates/password_reset_required.html:8 templates/password_reset_required.txt:7
+#: lib/senders/templates/password_reset_required.html:8 lib/senders/templates/password_reset_required.txt:7
 msgid "Best,"
 msgstr "S tegmatt,"
 
-#: templates/password_reset_required.html:9 templates/password_reset_required.txt:8
+#: lib/senders/templates/password_reset_required.html:9 lib/senders/templates/password_reset_required.txt:8
 msgid "The Firefox Accounts team"
 msgstr "Tarbaɛt n imiḍanen n Firefox"
 
-#: templates/post_verify.html:2 templates/post_verify.txt:1
+#: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
 msgstr "Amiḍan yettwasenqed!"
 
-#: templates/post_verify.html:3
+#: lib/senders/templates/post_verify.html:3
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
@@ -177,175 +184,175 @@ msgstr ""
 "Teqqned akken iwata ibenk inek amezwaru ɣer umiḍan inek Firefox. Tura tzemred ad tkecmeḍ akken ad temtawid seg ibenkan nniḍen, ula si Firefox i <a %(androidLinkAttributes)s>Android</a> akke <a "
 "%(iosLinkAttributes)s>iOS</a>."
 
-#: templates/post_verify.txt:2
+#: lib/senders/templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 msgstr "Teqqned akken iwata ibenk inek amezwaru ɣer umiḍan inek Firefox. Tura tzemred ad tkecmeḍ akken ad temtawid seg ibenkan nniḍen, ula si Firefox i akked iOS."
 
-#: templates/post_verify.txt:3
+#: lib/senders/templates/post_verify.txt:3
 msgid "Sign in to Sync:"
 msgstr "Kcem ɣer Syc:"
 
-#: templates/recovery.html:2 templates/recovery.txt:1
+#: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Forgot your password?"
 msgstr "Tettuḍ awal inek uffir?"
 
-#: templates/recovery.html:3 templates/recovery.txt:2
+#: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
 msgstr "Sit ɣef tqaffalt akka kra n usrag akken ad tesbaduḍ awal uffir amaynut n umiḍan inek Firefox. Tuttra tettwag seg ibenk-agi:"
 
-#: templates/recovery.html:5 templates/recovery.txt:4
+#: lib/senders/templates/recovery.html:5 lib/senders/templates/recovery.txt:4
 msgid "Reset password"
 msgstr "Wennez awal uffir"
 
-#: templates/sms.installFirefox.txt:1
+#: lib/senders/templates/sms.installFirefox.txt:1
 msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 msgstr "Akken d-ittusuter, wagi d aseɣwen akken ad tesbeddeḍ Firefox ɣef yibenk aziraz: %(link)s"
 
-#: templates/unblock_code.html:2 templates/unblock_code.txt:1
+#: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1
 msgid "Is this you signing in?"
 msgstr "D kečč i d-yessutren tuqqna agi?"
 
-#: templates/unblock_code.html:4 templates/unblock_code.txt:3
+#: lib/senders/templates/unblock_code.html:4 lib/senders/templates/unblock_code.txt:3
 msgid "If yes, here is the authorization code you need:"
 msgstr "Ma yella ih, hattan tengalt n tsiregt i tesriḍ:"
 
-#: templates/unblock_code.html:5
+#: lib/senders/templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
 msgstr "Ma ulac, mmel-aɣ-d amek ad neḥwi yir imdanen <a %(reportSignInLinkAttributes)s>mmel-aɣ-tid</a>."
 
-#: templates/unblock_code.txt:4
+#: lib/senders/templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Ma ulac, mudd-aɣ-d afus akken ad neḥwi yir imdanen udiɣ mmel-aɣ-tid."
 
-#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:677
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:677
 msgid "Hello again."
 msgstr "Azul fell-ak tikelt nniḍen."
 
-#: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
+#: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-" email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+"this email address to activate your account."
 msgstr ""
-"Kra n wussan ɣer deffir, terniḍ amiḍan Firefox, acukan weṛǧin tessentmeṭ. Amiḍan yettwasentmenad isireg ad tkecmeḍ ɣer yiccaren inek, ticṛaḍ n isebtar, awalen inek uffiren akked umazray inek seg yal"
-" ibenk yeqqnen ɣer umiḍan agi. Sentem kan tansa agi imayl akken ad tremdeḍ amiḍan inek."
+"Kra n wussan ɣer deffir, terniḍ amiḍan Firefox, acukan weṛǧin tessentmeṭ. Amiḍan yettwasentmenad isireg ad tkecmeḍ ɣer yiccaren inek, ticṛaḍ n isebtar, awalen inek uffiren akked umazray inek seg "
+"yal ibenk yeqqnen ɣer umiḍan agi. Sentem kan tansa agi imayl akken ad tremdeḍ amiḍan inek."
 
-#: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
+#: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verify.html:4
 msgid "Activate now"
 msgstr "Rmed tura"
 
-#: templates/verification_reminder_first.html:8 templates/verification_reminder_second.html:8 templates/verify.html:8 templates/verify_sync.html:10
+#: lib/senders/templates/verification_reminder_first.html:8 lib/senders/templates/verification_reminder_second.html:8 lib/senders/templates/verify.html:8 lib/senders/templates/verify_sync.html:10
 msgid "Verify Email"
 msgstr "Senqed imayl"
 
-#: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9 templates/verify_sync.html:11
+#: lib/senders/templates/verification_reminder_first.html:9 lib/senders/templates/verification_reminder_second.html:9 lib/senders/templates/verify.html:9 lib/senders/templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr "Senqed imayl inek akked ad tfakeḍ asekles n umiḍan inek Firefox"
 
-#: templates/verification_reminder_first.txt:3 templates/verification_reminder_second.txt:3 templates/verify.txt:3
+#: lib/senders/templates/verification_reminder_first.txt:3 lib/senders/templates/verification_reminder_second.txt:3 lib/senders/templates/verify.txt:3
 msgid "Activate now:"
 msgstr "Rmed tura:"
 
-#: templates/verification_reminder_second.html:3 templates/verification_reminder_second.txt:2
+#: lib/senders/templates/verification_reminder_second.html:3 lib/senders/templates/verification_reminder_second.txt:2
 msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 msgstr "Tezri dduṛt aya seg mi ternid amiḍan Firefox, acukan weṛgin tesneqdeṭ. Ihi aqlaɣ nettxemmim fell-ak. Sentem tansa agi imayl akken ad tremdeḍ amiḍan inek udiɣ anẓeṛ d akken kulec iteddu."
 
-#: templates/verify.html:2 templates/verify.txt:1
+#: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome!"
 msgstr "Ansuf!"
 
-#: templates/verify.html:3 templates/verify.txt:2
+#: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
 msgstr "Ma ulac aɣilif, rmed amiḍan n usentem n tensa agi imayl."
 
-#: templates/verify_login.html:3 templates/verify_login.txt:2
+#: lib/senders/templates/verify_login.html:3 lib/senders/templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Uga n tɣellist, ma ulac aɣilif, sentem tuqqna agi akken ad tessenkreḍ amtawi akked yibenk agi:"
 
-#: templates/verify_login.html:5 templates/verify_login.txt:4
+#: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
 msgid "Confirm sign-in"
 msgstr "Sentem tuqqna"
 
-#: templates/verify_login.html:6
+#: lib/senders/templates/verify_login.html:6
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Ma tcukeḍ yella win yettawṛaḍen ad yekcem ɣer umiḍan inek, <a %(passwordChangeLinkAttributes)s>snifel awal inek uffir ma ulac aɣilif</a>."
 
-#: templates/verify_login.txt:5
+#: lib/senders/templates/verify_login.txt:5
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr "Ma tcukeḍ yella win yettawṛaḍen ad yekcem ɣer umiḍan inek, snifel awal inek uffir ma ulac aɣilif."
 
-#: templates/verify_sync.html:2 templates/verify_sync.txt:1
+#: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
 msgstr "Theggaḍ, Sbadu, Mtawi"
 
-#: templates/verify_sync.html:3 templates/verify_sync.txt:2
+#: lib/senders/templates/verify_sync.html:3 lib/senders/templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
 msgstr "Ini-yaq-d ma yella tremseḍ-d izen-agi udiq ak-d-nefk afus deg usebded akked umtawi n Firefox ɣer ibenkan inek meṛṛa, ad nebdu si:"
 
-#: templates/verify_sync.html:5 templates/verify_sync.txt:4
+#: lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
 msgid "Verify email "
 msgstr "Seqed tansa yinek imayl"
 
-#: templates/verify_sync.html:6 templates/verify_sync.txt:5
+#: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Ticki yentem, ak-d-mudd afus deg usebded akked tuqqna n Firefox xaṛsum ɣef yiwen n yibenk nniḍen."
 
-#: mailer.js:152
+#: lib/senders/email.js:152
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s di %(uaOS)s %(uaOSVersion)s"
 
-#: mailer.js:155
+#: lib/senders/email.js:155
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s di %(uaOS)s"
 
-#: mailer.js:182
+#: lib/senders/email.js:182
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (ahat)"
 
-#: mailer.js:184
+#: lib/senders/email.js:184
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (ahat)"
 
-#: mailer.js:186
+#: lib/senders/email.js:186
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (ahat)"
 
-#: mailer.js:188
+#: lib/senders/email.js:188
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (ahat)"
 
-#: mailer.js:276
+#: lib/senders/email.js:276
 msgid "Verify your Firefox Account"
 msgstr "Senqed amidan inek Firefox"
 
-#: mailer.js:305
+#: lib/senders/email.js:305
 msgid "Confirm your email and start to sync!"
 msgstr "Sentem tansa-ik imayl akked ad temtawiḍ!"
 
-#: mailer.js:362
+#: lib/senders/email.js:362
 msgid "Firefox Account authorization code"
 msgstr "Tangalt n tsiregt n umidan Firefox"
 
-#: mailer.js:414
+#: lib/senders/email.js:414
 msgid "Confirm new sign-in to Firefox"
 msgstr "Sentem tuqqna tamaynut ɣer Firefox"
 
-#: mailer.js:465
+#: lib/senders/email.js:465
 msgid "Reset your Firefox Account password"
 msgstr "Wennez awal inek uffir n umiḍan Firefox"
 
-#: mailer.js:505
+#: lib/senders/email.js:505
 msgid "Your Firefox Account password has been changed"
 msgstr "Awal uffir n umiḍan inek Firefox yettusnifel"
 
-#: mailer.js:543
+#: lib/senders/email.js:543
 msgid "Your Firefox Account password has been reset"
 msgstr "Awal uffir n umiḍan inek Firefox yettuwennez"
 
-#: mailer.js:577
+#: lib/senders/email.js:577
 msgid "Firefox Account password reset required"
 msgstr "Awennez n wawal uffir n umidan Firefox yettwasra"
 
-#: mailer.js:650
+#: lib/senders/email.js:650
 msgid "Firefox Account verified"
 msgstr "Amiḍan Firefox yettwasenqed"
 

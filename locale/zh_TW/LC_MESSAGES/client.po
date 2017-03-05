@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-17 18:48+0000\n"
+"POT-Creation-Date: 2017-03-05 22:21+0000\n"
 "PO-Revision-Date: 2017-02-18 05:53+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,15 +16,15 @@ msgstr ""
 "X-POOTLE-MTIME: 1444361176.0\n"
 
 #: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
-#: app/scripts/views/confirm.js:126
+#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
 msgid "Account verified successfully"
 msgstr "成功驗證帳號"
 
-#: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38 app/scripts/views/ready.js:39
+#: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38 app/scripts/views/ready.js:39 app/scripts/views/confirm_reset_password.js:160
 msgid "Password reset"
 msgstr "已重設密碼"
 
-#: app/scripts/views/confirm_reset_password.js:194
+#: app/scripts/views/confirm_reset_password.js:194 app/scripts/views/confirm_reset_password.js:188
 msgid "Password reset successfully. Sign in to continue."
 msgstr "成功重設密碼，請登入以繼續。"
 
@@ -80,7 +80,7 @@ msgstr "未知的 Firefox 帳號。請使用您先前的附加元件站帳號的
 msgid "Account no longer exists. Recreate it?"
 msgstr "帳號已不存在，要重新建立嗎？"
 
-#: app/scripts/views/sign_up.js:370 app/scripts/views/sign_up.js:369
+#: app/scripts/views/sign_up.js:370 app/scripts/views/sign_up.js:369 app/scripts/views/sign_up.js:380
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "帳號已存在。<a href=\"/signin\">登入</a>"
 
@@ -160,7 +160,7 @@ msgstr "設定一組夠強、夠獨特的密碼能保護您的 Firefox 資料不
 msgid "This is a common password; please consider another one."
 msgstr "這是太常見的密碼，建議改用別組。"
 
-#: app/scripts/views/mixins/resend-mixin.js:45
+#: app/scripts/views/mixins/resend-mixin.js:45 app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "郵件已重寄"
 
@@ -181,7 +181,7 @@ msgstr "未預期的錯誤"
 msgid "The link you clicked to verify your email is expired."
 msgstr "您點擊的密碼重設驗證鏈結已過期。"
 
-#: app/scripts/lib/auth-errors.js:21
+#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/sms-errors.js:17
 msgid "You've tried too many times. Try again later."
 msgstr "您已嘗試太多次，請稍候再試。"
 
@@ -253,143 +253,145 @@ msgstr "請求內容太大"
 msgid "The request was blocked for security reasons"
 msgstr "因為安全性因素，已封鎖請求"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:318
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:335
 msgid "Invalid authorization code"
 msgstr "授權碼無效"
 
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/auth-errors.js:298
+#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/auth-errors.js:298 app/scripts/lib/auth-errors.js:138 app/scripts/lib/auth-errors.js:315
 msgid "Server busy, try again soon"
 msgstr "伺服器忙碌中，請稍後再試一次"
 
-#: app/scripts/lib/auth-errors.js:125
+#: app/scripts/lib/auth-errors.js:125 app/scripts/lib/auth-errors.js:142
 msgid "This endpoint is no longer supported"
 msgstr "不再支援此端點"
 
 #: app/scripts/lib/auth-errors.js:129 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/auth-errors.js:146
 msgid "System unavailable, try again soon"
 msgstr "系統暫時無法使用，請稍後再試一次"
 
-#: app/scripts/lib/auth-errors.js:133 app/scripts/lib/oauth-errors.js:104
+#: app/scripts/lib/auth-errors.js:133 app/scripts/lib/oauth-errors.js:104 app/scripts/lib/auth-errors.js:150
 msgid "no message"
 msgstr "無訊息"
 
-#: app/scripts/lib/auth-errors.js:137
+#: app/scripts/lib/auth-errors.js:137 app/scripts/lib/auth-errors.js:154
 msgid "Session expired. Sign in to continue."
 msgstr "登入階段已結束，請登入以繼續。"
 
-#: app/scripts/lib/auth-errors.js:141
+#: app/scripts/lib/auth-errors.js:141 app/scripts/lib/auth-errors.js:158
 msgid "Cookies are still disabled"
 msgstr "Cookie 仍然被停用"
 
-#: app/scripts/lib/auth-errors.js:145
+#: app/scripts/lib/auth-errors.js:145 app/scripts/lib/auth-errors.js:162
 msgid "Passwords do not match"
 msgstr "密碼不符合"
 
-#: app/scripts/lib/auth-errors.js:149
+#: app/scripts/lib/auth-errors.js:149 app/scripts/lib/auth-errors.js:166
 msgid "Working…"
 msgstr "處理中…"
 
-#: app/scripts/lib/auth-errors.js:153
+#: app/scripts/lib/auth-errors.js:153 app/scripts/lib/auth-errors.js:170
 msgid "Could not get Privacy Notice"
 msgstr "無法取得隱私權保護政策"
 
-#: app/scripts/lib/auth-errors.js:157
+#: app/scripts/lib/auth-errors.js:157 app/scripts/lib/auth-errors.js:174
 msgid "Could not get Terms of Service"
 msgstr "無法取得服務條款"
 
-#: app/scripts/lib/auth-errors.js:161
+#: app/scripts/lib/auth-errors.js:161 app/scripts/lib/auth-errors.js:178
 msgid "Your new password must be different"
 msgstr "您的新密碼必須與舊密碼不同"
 
-#: app/scripts/lib/auth-errors.js:165 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
+#: app/scripts/lib/auth-errors.js:165 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7 app/scripts/lib/auth-errors.js:182
 msgid "Must be at least 8 characters"
 msgstr "至少要 8 個字元長"
 
-#: app/scripts/lib/auth-errors.js:169
+#: app/scripts/lib/auth-errors.js:169 app/scripts/lib/auth-errors.js:186
 msgid "Valid password required"
 msgstr "必須輸入有效的密碼"
 
-#: app/scripts/lib/auth-errors.js:173 app/scripts/lib/auth-errors.js:211 app/scripts/lib/auth-errors.js:227
+#: app/scripts/lib/auth-errors.js:173 app/scripts/lib/auth-errors.js:211 app/scripts/lib/auth-errors.js:227 app/scripts/lib/auth-errors.js:190 app/scripts/lib/auth-errors.js:228
+#: app/scripts/lib/auth-errors.js:244
 msgid "Valid email required"
 msgstr "必須輸入有效的電子郵件地址"
 
-#: app/scripts/lib/auth-errors.js:184
+#: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:201
 msgid "A usable image was not found"
 msgstr "找不到可用的圖片"
 
-#: app/scripts/lib/auth-errors.js:188
+#: app/scripts/lib/auth-errors.js:188 app/scripts/lib/auth-errors.js:205
 msgid "Could not initialize camera"
 msgstr "無法初始化攝影機"
 
-#: app/scripts/lib/auth-errors.js:192
+#: app/scripts/lib/auth-errors.js:192 app/scripts/lib/auth-errors.js:209
 msgid "Valid URL required"
 msgstr "必須輸入有效的網址"
 
-#: app/scripts/lib/auth-errors.js:207
+#: app/scripts/lib/auth-errors.js:207 app/scripts/lib/auth-errors.js:224
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "您的驗證信被退了，是不是輸錯電子郵件地址了？"
 
-#: app/scripts/lib/auth-errors.js:215
+#: app/scripts/lib/auth-errors.js:215 app/scripts/lib/auth-errors.js:232
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "請輸入有效的電子郵件地址，firefox.com 不提供郵件服務。"
 
-#: app/scripts/lib/auth-errors.js:223
+#: app/scripts/lib/auth-errors.js:223 app/scripts/lib/auth-errors.js:240
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox 帳號僅能被嵌入至經審查的網站的 IFRAME 當中"
 
-#: app/scripts/lib/auth-errors.js:242 app/scripts/templates/complete_sign_up.mustache:9
+#: app/scripts/lib/auth-errors.js:242 app/scripts/templates/complete_sign_up.mustache:9 app/scripts/lib/auth-errors.js:259
 msgid "Verification link damaged"
 msgstr "驗證鏈結已毀損"
 
-#: app/scripts/lib/auth-errors.js:250
+#: app/scripts/lib/auth-errors.js:250 app/scripts/lib/auth-errors.js:267
 msgid "The image dimensions must be at least 100x100px"
 msgstr "圖片尺寸需大於 100x100 像素"
 
-#: app/scripts/lib/auth-errors.js:254
+#: app/scripts/lib/auth-errors.js:254 app/scripts/lib/auth-errors.js:271
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "即將可在 Firefox for iOS 上註冊"
 
-#: app/scripts/lib/auth-errors.js:265
+#: app/scripts/lib/auth-errors.js:265 app/scripts/lib/auth-errors.js:282
 msgid "You must enter your age to sign up"
 msgstr "您必須輸入年齡才能註冊"
 
-#: app/scripts/lib/auth-errors.js:269
+#: app/scripts/lib/auth-errors.js:269 app/scripts/lib/auth-errors.js:286
 msgid "No Gravatar found"
 msgstr "找不到 Gravatar"
 
-#: app/scripts/lib/auth-errors.js:277
+#: app/scripts/lib/auth-errors.js:277 app/scripts/lib/auth-errors.js:294
 msgid "Account no longer exists."
 msgstr "帳號已不存在。"
 
-#: app/scripts/lib/auth-errors.js:281
+#: app/scripts/lib/auth-errors.js:281 app/scripts/lib/auth-errors.js:298
 msgid "Invalid property in resume token: %(property)s"
 msgstr "resume token 中有無效屬性: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:285
+#: app/scripts/lib/auth-errors.js:285 app/scripts/lib/auth-errors.js:302
 msgid "Missing property in resume token: %(property)s"
 msgstr "resume token 中缺少屬性: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:289
+#: app/scripts/lib/auth-errors.js:289 app/scripts/lib/auth-errors.js:306
 msgid "Invalid data attribute: %(property)s"
 msgstr "無效 data 屬性: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:293
+#: app/scripts/lib/auth-errors.js:293 app/scripts/lib/auth-errors.js:310
 msgid "Missing data attribute: %(property)s"
 msgstr "缺少 data 屬性: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:306 app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/lib/auth-errors.js:306 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/lib/auth-errors.js:323
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "該確認鏈結只能使用一次，已經被使用過了。"
 
-#: app/scripts/lib/auth-errors.js:310
+#: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:327
 msgid "This is a required field"
 msgstr "這是必填欄位"
 
-#: app/scripts/lib/auth-errors.js:314
+#: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:331
 msgid "Authorization code required"
 msgstr "需要輸入授權碼"
 
-#: app/scripts/lib/auth-errors.js:322 app/scripts/templates/report_sign_in.mustache:1
+#: app/scripts/lib/auth-errors.js:322 app/scripts/templates/report_sign_in.mustache:1 app/scripts/lib/auth-errors.js:339
 msgid "Link damaged"
 msgstr "鏈結毀損"
 
@@ -401,7 +403,7 @@ msgstr "缺少設定"
 msgid "Invalid configuration"
 msgstr "設定無效"
 
-#: app/scripts/lib/mailcheck.js:26
+#: app/scripts/lib/mailcheck.js:26 app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
 msgstr "您指的是 <span tabindex=\"1\">%(escapedDomain)s</span> 嗎？"
 
@@ -478,7 +480,9 @@ msgid "Script error"
 msgstr "指令碼錯誤"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr "若繼續，代表您同意 %(serviceName)s（%(serviceUri)s）的<a id=\"service-tos\" href=\"%(termsUri)s\">服務條款</a>及<a id=\"service-pp\" href=\"%(privacyUri)s\">隱私權公告</a>"
 
 #: app/scripts/lib/strings.js:30
@@ -682,7 +686,7 @@ msgstr "已連結此裝置"
 msgid "Email verified"
 msgstr "已驗證信箱"
 
-#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1
+#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:2
 msgid "Success"
 msgstr "成功"
 
@@ -711,7 +715,7 @@ msgstr "在其他裝置登入至 Firefox 完成設定"
 msgid "Sign in to Firefox for Android to complete set-up"
 msgstr "登入至 Firefox for Android 完成設定"
 
-#: app/scripts/templates/connect_another_device.mustache:19 app/scripts/templates/connect_another_device.mustache:21
+#: app/scripts/templates/connect_another_device.mustache:19 app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
 msgid "Why is this required?"
 msgstr "為什麼要這樣做？"
 
@@ -761,11 +765,11 @@ msgstr "Firefox 雲端服務"
 msgid "Legal"
 msgstr "法律資訊"
 
-#: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:5 app/scripts/templates/tos.mustache:2
+#: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:5 app/scripts/templates/tos.mustache:2 app/scripts/templates/settings.mustache:4
 msgid "Terms of Service"
 msgstr "服務條款"
 
-#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:6
+#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:6 app/scripts/templates/settings.mustache:5
 msgid "Privacy Notice"
 msgstr "隱私權保護政策"
 
@@ -944,7 +948,9 @@ msgstr "Sync 功能可讓您將一台裝置上的 Firefox 所儲存的書籤、�
 msgid ""
 "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
-msgstr "Sync 不是設計用作永久備份之用，而是單純用來將本機上的資料分享到其他裝置。若您重設了密碼，而資料在其他裝置上沒有另存一份的話，就可能會遺失所有使用舊密碼儲存的資訊。這就是為什麼您會需要安裝 Firefox，並同步至少兩台裝置。"
+msgstr ""
+"Sync 不是設計用作永久備份之用，而是單純用來將本機上的資料分享到其他裝置。若您重設了密碼，而資料在其他裝置上沒有另存一份的話，就可能會遺失所有使用舊密碼儲存的資訊。這就是為什麼您會需要安裝 Firefox，"
+"並同步至少兩台裝置。"
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1139,6 +1145,67 @@ msgstr "網頁使用階段"
 msgid "Duplicate device"
 msgstr "重複裝置"
 
+#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
+msgid "Invalid phone number"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:125
+msgid "Cannot send to this country"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:134
+msgid "Could not send a message to this number"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:362
+msgid "Phone number required"
+msgstr ""
+
+#: app/scripts/lib/sms-errors.js:23
+msgid "SMS sent"
+msgstr ""
+
+#: app/scripts/lib/sms-errors.js:55
+msgid "Your number has been blocked"
+msgstr ""
+
+#: app/scripts/lib/sms-errors.js:79
+msgid "SMS not sent, please try again"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
+msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:5
+msgid "Mobile phone number"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:6
+msgid "Send"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:7
+msgid ""
+"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:9
+msgid "Maybe later"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
+msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:4
+msgid "If you are not receiving the text message, you can also download the apps manually."
+msgstr ""
+
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "沒收到嗎？再寄一次"
 
@@ -1184,16 +1251,19 @@ msgstr "重複裝置"
 #~ msgid "Sync preferences"
 #~ msgstr "同步設定"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "在尋找 Firefox Sync 嗎？<a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">從此處開始</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "有使用不同電子郵件地址的帳號嗎？<a href=\"%(signinUri)s\">請登入</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "Firefox 有 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> 及 <a href=\"%(linkLinux)s\">Linux</a> 版本可供使用。"
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox 有 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> 及 <a href=\"%(linkLinux)s\">Linux</"
+#~ "a> 版本可供使用。"
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "最後使用: %(translatedTimeAgo)s"
@@ -1572,7 +1642,9 @@ msgstr "重複裝置"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "已經有帳號了？請登入。"
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr "若繼續，代表我同意 %(serviceName)s（%(serviceUri)s）的 <a id=\"service-tos\" href=\"%(termsUri)s\">服務條款</a> 及 <a id=\"service-pp\" href=\"%(privacyUri)s\">隱私權公告</a>。"
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."

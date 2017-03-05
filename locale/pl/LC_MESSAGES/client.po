@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-17 18:48+0000\n"
+"POT-Creation-Date: 2017-03-05 22:21+0000\n"
 "PO-Revision-Date: 2017-02-18 16:48+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
@@ -13,15 +13,15 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
-#: app/scripts/views/confirm.js:126
+#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
 msgid "Account verified successfully"
 msgstr "Pomyślnie zweryfikowano konto"
 
-#: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38 app/scripts/views/ready.js:39
+#: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38 app/scripts/views/ready.js:39 app/scripts/views/confirm_reset_password.js:160
 msgid "Password reset"
 msgstr "Zmiana hasła"
 
-#: app/scripts/views/confirm_reset_password.js:194
+#: app/scripts/views/confirm_reset_password.js:194 app/scripts/views/confirm_reset_password.js:188
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Pomyślnie zmieniono hasło. Zaloguj się, aby kontynuować."
 
@@ -77,7 +77,7 @@ msgstr "Nieznane konto Firefoksa. <a href=\"/signup\">Zarejestruj się</a> za po
 msgid "Account no longer exists. Recreate it?"
 msgstr "Konto już nie istnieje. Utworzyć je ponownie?"
 
-#: app/scripts/views/sign_up.js:370 app/scripts/views/sign_up.js:369
+#: app/scripts/views/sign_up.js:370 app/scripts/views/sign_up.js:369 app/scripts/views/sign_up.js:380
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Konto już istnieje. <a href=\"/signin\">Zaloguj się</a>"
 
@@ -157,7 +157,7 @@ msgstr "Silne, unikalne hasło ochroni dane użytkownika Firefoksa przed włamyw
 msgid "This is a common password; please consider another one."
 msgstr "To często spotykane hasło. Proszę rozważyć użycie innego."
 
-#: app/scripts/views/mixins/resend-mixin.js:45
+#: app/scripts/views/mixins/resend-mixin.js:45 app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "Ponownie wysłano wiadomość e-mail"
 
@@ -178,7 +178,7 @@ msgstr "Nieznany błąd"
 msgid "The link you clicked to verify your email is expired."
 msgstr "Kliknięty odnośnik weryfikacyjny adresu e-mail wygasł."
 
-#: app/scripts/lib/auth-errors.js:21
+#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/sms-errors.js:17
 msgid "You've tried too many times. Try again later."
 msgstr "Próbowano za wiele razy. Spróbuj ponownie później."
 
@@ -250,143 +250,145 @@ msgstr "Treść żądania jest za duża"
 msgid "The request was blocked for security reasons"
 msgstr "Żądanie zostało zablokowane z powodów bezpieczeństwa"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:318
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:335
 msgid "Invalid authorization code"
 msgstr "Nieprawidłowy kod upoważnienia"
 
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/auth-errors.js:298
+#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/auth-errors.js:298 app/scripts/lib/auth-errors.js:138 app/scripts/lib/auth-errors.js:315
 msgid "Server busy, try again soon"
 msgstr "Serwer jest zajęty, spróbuj ponownie później"
 
-#: app/scripts/lib/auth-errors.js:125
+#: app/scripts/lib/auth-errors.js:125 app/scripts/lib/auth-errors.js:142
 msgid "This endpoint is no longer supported"
 msgstr "Ten punkt końcowy nie jest już obsługiwany"
 
 #: app/scripts/lib/auth-errors.js:129 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/auth-errors.js:146
 msgid "System unavailable, try again soon"
 msgstr "System jest niedostępny, spróbuj ponownie później"
 
-#: app/scripts/lib/auth-errors.js:133 app/scripts/lib/oauth-errors.js:104
+#: app/scripts/lib/auth-errors.js:133 app/scripts/lib/oauth-errors.js:104 app/scripts/lib/auth-errors.js:150
 msgid "no message"
 msgstr "brak wiadomości"
 
-#: app/scripts/lib/auth-errors.js:137
+#: app/scripts/lib/auth-errors.js:137 app/scripts/lib/auth-errors.js:154
 msgid "Session expired. Sign in to continue."
 msgstr "Sesja wygasła. Zaloguj się, aby kontynuować."
 
-#: app/scripts/lib/auth-errors.js:141
+#: app/scripts/lib/auth-errors.js:141 app/scripts/lib/auth-errors.js:158
 msgid "Cookies are still disabled"
 msgstr "Ciasteczka nadal są wyłączone"
 
-#: app/scripts/lib/auth-errors.js:145
+#: app/scripts/lib/auth-errors.js:145 app/scripts/lib/auth-errors.js:162
 msgid "Passwords do not match"
 msgstr "Hasła się nie zgadzają"
 
-#: app/scripts/lib/auth-errors.js:149
+#: app/scripts/lib/auth-errors.js:149 app/scripts/lib/auth-errors.js:166
 msgid "Working…"
 msgstr "Działanie…"
 
-#: app/scripts/lib/auth-errors.js:153
+#: app/scripts/lib/auth-errors.js:153 app/scripts/lib/auth-errors.js:170
 msgid "Could not get Privacy Notice"
 msgstr "Nie można pobrać „Informacji o prywatności”"
 
-#: app/scripts/lib/auth-errors.js:157
+#: app/scripts/lib/auth-errors.js:157 app/scripts/lib/auth-errors.js:174
 msgid "Could not get Terms of Service"
 msgstr "Nie można pobrać „Regulaminu usługi”"
 
-#: app/scripts/lib/auth-errors.js:161
+#: app/scripts/lib/auth-errors.js:161 app/scripts/lib/auth-errors.js:178
 msgid "Your new password must be different"
 msgstr "Nowe hasło musi być inne niż poprzednie"
 
-#: app/scripts/lib/auth-errors.js:165 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
+#: app/scripts/lib/auth-errors.js:165 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7 app/scripts/lib/auth-errors.js:182
 msgid "Must be at least 8 characters"
 msgstr "Musi mieć co najmniej 8 znaków"
 
-#: app/scripts/lib/auth-errors.js:169
+#: app/scripts/lib/auth-errors.js:169 app/scripts/lib/auth-errors.js:186
 msgid "Valid password required"
 msgstr "Wymagane jest prawidłowe hasło"
 
-#: app/scripts/lib/auth-errors.js:173 app/scripts/lib/auth-errors.js:211 app/scripts/lib/auth-errors.js:227
+#: app/scripts/lib/auth-errors.js:173 app/scripts/lib/auth-errors.js:211 app/scripts/lib/auth-errors.js:227 app/scripts/lib/auth-errors.js:190 app/scripts/lib/auth-errors.js:228
+#: app/scripts/lib/auth-errors.js:244
 msgid "Valid email required"
 msgstr "Wymagany jest prawidłowy adres e-mail"
 
-#: app/scripts/lib/auth-errors.js:184
+#: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:201
 msgid "A usable image was not found"
 msgstr "Nie odnaleziono odpowiedniego obrazu"
 
-#: app/scripts/lib/auth-errors.js:188
+#: app/scripts/lib/auth-errors.js:188 app/scripts/lib/auth-errors.js:205
 msgid "Could not initialize camera"
 msgstr "Nie można zainicjować kamery"
 
-#: app/scripts/lib/auth-errors.js:192
+#: app/scripts/lib/auth-errors.js:192 app/scripts/lib/auth-errors.js:209
 msgid "Valid URL required"
 msgstr "Wymagany jest prawidłowy adres URL"
 
-#: app/scripts/lib/auth-errors.js:207
+#: app/scripts/lib/auth-errors.js:207 app/scripts/lib/auth-errors.js:224
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Wiadomość weryfikacyjna została właśnie zwrócona. Błąd w adresie e-mail?"
 
-#: app/scripts/lib/auth-errors.js:215
+#: app/scripts/lib/auth-errors.js:215 app/scripts/lib/auth-errors.js:232
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Wprowadź prawidłowy adres e-mail. Witryna firefox.com nie oferuje usługi poczty."
 
-#: app/scripts/lib/auth-errors.js:223
+#: app/scripts/lib/auth-errors.js:223 app/scripts/lib/auth-errors.js:240
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Konta Firefoksa mogą być umieszczane w elementach „iframe” tylko w zatwierdzonych witrynach"
 
-#: app/scripts/lib/auth-errors.js:242 app/scripts/templates/complete_sign_up.mustache:9
+#: app/scripts/lib/auth-errors.js:242 app/scripts/templates/complete_sign_up.mustache:9 app/scripts/lib/auth-errors.js:259
 msgid "Verification link damaged"
 msgstr "Odnośnik weryfikacyjny jest uszkodzony"
 
-#: app/scripts/lib/auth-errors.js:250
+#: app/scripts/lib/auth-errors.js:250 app/scripts/lib/auth-errors.js:267
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Obraz musi mieć co najmniej 100×100 pikseli"
 
-#: app/scripts/lib/auth-errors.js:254
+#: app/scripts/lib/auth-errors.js:254 app/scripts/lib/auth-errors.js:271
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Rejestracja będzie wkrótce dostępna w Firefoksie na iOS"
 
-#: app/scripts/lib/auth-errors.js:265
+#: app/scripts/lib/auth-errors.js:265 app/scripts/lib/auth-errors.js:282
 msgid "You must enter your age to sign up"
 msgstr "Należy podać swój wiek przed zarejestrowaniem"
 
-#: app/scripts/lib/auth-errors.js:269
+#: app/scripts/lib/auth-errors.js:269 app/scripts/lib/auth-errors.js:286
 msgid "No Gravatar found"
 msgstr "Nie odnaleziono awatara w serwisie Gravatar"
 
-#: app/scripts/lib/auth-errors.js:277
+#: app/scripts/lib/auth-errors.js:277 app/scripts/lib/auth-errors.js:294
 msgid "Account no longer exists."
 msgstr "Konto już nie istnieje."
 
-#: app/scripts/lib/auth-errors.js:281
+#: app/scripts/lib/auth-errors.js:281 app/scripts/lib/auth-errors.js:298
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Nieprawidłowa właściwość w tokenie wznowienia: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:285
+#: app/scripts/lib/auth-errors.js:285 app/scripts/lib/auth-errors.js:302
 msgid "Missing property in resume token: %(property)s"
 msgstr "Brakująca właściwość w tokenie wznowienia: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:289
+#: app/scripts/lib/auth-errors.js:289 app/scripts/lib/auth-errors.js:306
 msgid "Invalid data attribute: %(property)s"
 msgstr "Nieprawidłowy atrybut danych: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:293
+#: app/scripts/lib/auth-errors.js:293 app/scripts/lib/auth-errors.js:310
 msgid "Missing data attribute: %(property)s"
 msgstr "Brakujący atrybut danych: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:306 app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/lib/auth-errors.js:306 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/lib/auth-errors.js:323
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Ten odnośnik weryfikujący został już użyty, a może być używany tylko raz."
 
-#: app/scripts/lib/auth-errors.js:310
+#: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:327
 msgid "This is a required field"
 msgstr "Wymagane pole"
 
-#: app/scripts/lib/auth-errors.js:314
+#: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:331
 msgid "Authorization code required"
 msgstr "Wymagany jest kod upoważnienia"
 
-#: app/scripts/lib/auth-errors.js:322 app/scripts/templates/report_sign_in.mustache:1
+#: app/scripts/lib/auth-errors.js:322 app/scripts/templates/report_sign_in.mustache:1 app/scripts/lib/auth-errors.js:339
 msgid "Link damaged"
 msgstr "Uszkodzony odnośnik"
 
@@ -398,7 +400,7 @@ msgstr "Brak konfiguracji"
 msgid "Invalid configuration"
 msgstr "Nieprawidłowa konfiguracja"
 
-#: app/scripts/lib/mailcheck.js:26
+#: app/scripts/lib/mailcheck.js:26 app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
 msgstr "Czy chodziło o <span tabindex=\"1\">%(escapedDomain)s</span>?"
 
@@ -683,7 +685,7 @@ msgstr "To urządzenie jest połączone"
 msgid "Email verified"
 msgstr "Zweryfikowano adres e-mail"
 
-#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1
+#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:2
 msgid "Success"
 msgstr "Powodzenie"
 
@@ -712,7 +714,7 @@ msgstr "Zaloguj się do Firefoksa na innym urządzeniu, aby dokończyć ustawian
 msgid "Sign in to Firefox for Android to complete set-up"
 msgstr "Zaloguj się do Firefoksa na Androida, aby dokończyć ustawianie"
 
-#: app/scripts/templates/connect_another_device.mustache:19 app/scripts/templates/connect_another_device.mustache:21
+#: app/scripts/templates/connect_another_device.mustache:19 app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
 msgid "Why is this required?"
 msgstr "Dlaczego jest to wymagane?"
 
@@ -764,11 +766,11 @@ msgstr "Usługi Firefox cloud"
 msgid "Legal"
 msgstr "Podstawa prawna"
 
-#: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:5 app/scripts/templates/tos.mustache:2
+#: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:5 app/scripts/templates/tos.mustache:2 app/scripts/templates/settings.mustache:4
 msgid "Terms of Service"
 msgstr "Regulamin usługi"
 
-#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:6
+#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:6 app/scripts/templates/settings.mustache:5
 msgid "Privacy Notice"
 msgstr "Informacje o prywatności"
 
@@ -1145,3 +1147,64 @@ msgstr "Sesja"
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
 msgstr "Podwójne urządzenie"
+
+#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
+msgid "Invalid phone number"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:125
+msgid "Cannot send to this country"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:134
+msgid "Could not send a message to this number"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:362
+msgid "Phone number required"
+msgstr ""
+
+#: app/scripts/lib/sms-errors.js:23
+msgid "SMS sent"
+msgstr ""
+
+#: app/scripts/lib/sms-errors.js:55
+msgid "Your number has been blocked"
+msgstr ""
+
+#: app/scripts/lib/sms-errors.js:79
+msgid "SMS not sent, please try again"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
+msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:5
+msgid "Mobile phone number"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:6
+msgid "Send"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:7
+msgid ""
+"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:9
+msgid "Maybe later"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
+msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:4
+msgid "If you are not receiving the text message, you can also download the apps manually."
+msgstr ""

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-17 18:48+0000\n"
+"POT-Creation-Date: 2017-03-05 22:21+0000\n"
 "PO-Revision-Date: 2017-02-24 06:18+0000\n"
 "Last-Translator: Dinesh <dineshmv38@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,339 +14,335 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: templates/_pending.txt:1 templates/verification_reminder_second.html:2 templates/verification_reminder_second.txt:1 mailer.js:680
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:680
 msgid "Still there?"
 msgstr "ఇంకా ఉన్నారా?"
 
-#: templates/_pending.txt:2
+#: lib/senders/templates/_pending.txt:2
 msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
 msgstr "క్రితం మీరు ఒక Firefox ఖాతా సృష్టించారు, కానీ తనిఖీ ఎప్పుడూ చేయలేదు. మీ ఖాతాను సక్రియం చేయడానికి క్రింద లింక్ క్లిక్ చేయండి."
 
-#: templates/_pending.txt:3
+#: lib/senders/templates/_pending.txt:3
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
-msgstr ""
-"మీరు విజయవంతంగా మీ Firefox ఖాతాకు మీ మొదటి పరికరం కనెక్ట్ చేశారు. ఇప్పుడు మీరు <a href='%(androidUrl)s'>ఆండ్రాయిడ్</a> మరియు <a href='%(iosUrl)s'>iOS </a>కోసం Firefox సహా, మీ ఇతర పరికరాల నుండి సింక్"
-" చేయడానికి సైన్ ఇన్ చేయవచ్చు."
+msgstr "మీరు విజయవంతంగా మీ Firefox ఖాతాకు మీ మొదటి పరికరం కనెక్ట్ చేశారు. ఇప్పుడు మీరు <a href='%(androidUrl)s'>ఆండ్రాయిడ్</a> మరియు <a href='%(iosUrl)s'>iOS </a>కోసం Firefox సహా, మీ ఇతర పరికరాల నుండి సింక్ చేయడానికి సైన్ ఇన్ చేయవచ్చు."
 
-#: templates/_pending.txt:4
+#: lib/senders/templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
-msgstr ""
-"మీరు విజయవంతంగా మీ Firefox ఖాతాకు మీ మొదటి పరికరం కనెక్ట్ చేశారు. మరింత సింక్ చేయడానికి, <a href='%(androidUrl)s'>ఆండ్రాయిడ్</a> మరియు <a href='%(iosUrl)s'>iOS </a>కోసం Firefox ను కనెక్ట్ చేయండి."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
+msgstr "మీరు విజయవంతంగా మీ Firefox ఖాతాకు మీ మొదటి పరికరం కనెక్ట్ చేశారు. మరింత సింక్ చేయడానికి, <a href='%(androidUrl)s'>ఆండ్రాయిడ్</a> మరియు <a href='%(iosUrl)s'>iOS </a>కోసం Firefox ను కనెక్ట్ చేయండి."
 
-#: templates/_pending.txt:5 templates/post_verify.html:4
+#: lib/senders/templates/_pending.txt:5 lib/senders/templates/post_verify.html:4
 msgid "Connect another device"
 msgstr "మరొక పరికరానికి కనెక్ట్ చేయి"
 
-#: templates/_pending.txt:6
+#: lib/senders/templates/_pending.txt:6
 msgid "Sign in to Sync"
 msgstr "Sync లోనికి ప్రవేశించండి"
 
-#: templates/new_device_login.html:1 templates/password_changed.html:1 templates/password_reset.html:1 templates/password_reset_required.html:1 templates/post_verify.html:1 templates/recovery.html:1
-#: templates/unblock_code.html:1 templates/verification_reminder_first.html:1 templates/verification_reminder_second.html:1 templates/verify.html:1 templates/verify_login.html:1
-#: templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
-#: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
+#: lib/senders/templates/new_device_login.html:1 lib/senders/templates/password_changed.html:1 lib/senders/templates/password_reset.html:1 lib/senders/templates/password_reset_required.html:1
+#: lib/senders/templates/post_verify.html:1 lib/senders/templates/recovery.html:1 lib/senders/templates/unblock_code.html:1 lib/senders/templates/verification_reminder_first.html:1
+#: lib/senders/templates/verification_reminder_second.html:1 lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_sync.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "ఫైర్‌ఫాక్స్ ఖాతాలు"
 
-#: templates/new_device_login.html:2 templates/new_device_login.txt:1 templates/verify_login.html:2 templates/verify_login.txt:1 mailer.js:610
+#: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
+#: lib/senders/email.js:610
 msgid "New sign-in to Firefox"
 msgstr "ఫైర్ఫాక్సుకు ప్రవేశించండి"
 
-#: templates/new_device_login.html:3 templates/new_device_login.txt:2 templates/password_changed.html:4 templates/password_changed.txt:3 templates/recovery.html:4 templates/recovery.txt:3
-#: templates/unblock_code.html:3 templates/unblock_code.txt:2 templates/verify_login.html:4 templates/verify_login.txt:3 templates/verify_sync.html:4 templates/verify_sync.txt:3
+#: lib/senders/templates/new_device_login.html:3 lib/senders/templates/new_device_login.txt:2 lib/senders/templates/password_changed.html:4 lib/senders/templates/password_changed.txt:3
+#: lib/senders/templates/recovery.html:4 lib/senders/templates/recovery.txt:3 lib/senders/templates/unblock_code.html:3 lib/senders/templates/unblock_code.txt:2
+#: lib/senders/templates/verify_login.html:4 lib/senders/templates/verify_login.txt:3 lib/senders/templates/verify_sync.html:4 lib/senders/templates/verify_sync.txt:3
 msgid "IP address: %(ip)s"
 msgstr "IP చిరునామా: %(ip)s"
 
-#: templates/new_device_login.html:4
+#: lib/senders/templates/new_device_login.html:4
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr "ఇది ఒక స్వయంచాలక ఇమెయిల్; మీరు ఈ చర్య అనుమతించకపోతే, అప్పుడు <a %(passwordChangeLinkAttributes)s>మీ పాస్వర్డ్ను మార్చండి.</a>"
 
-#: templates/new_device_login.html:5 templates/password_changed.html:6 templates/password_reset.html:5 templates/post_verify.html:6 templates/recovery.html:7
-#: templates/verification_reminder_first.html:6 templates/verification_reminder_second.html:6 templates/verify.html:6 templates/verify_sync.html:8
+#: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5 lib/senders/templates/post_verify.html:6
+#: lib/senders/templates/recovery.html:7 lib/senders/templates/verification_reminder_first.html:6 lib/senders/templates/verification_reminder_second.html:6 lib/senders/templates/verify.html:6
+#: lib/senders/templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr "మరింత సమాచారం కోసం, దయచేసి సంప్రదించండి <a %(supportLinkAttributes)s>Mozilla మద్దత్తు</a>."
 
-#: templates/new_device_login.html:6 templates/new_device_login.txt:5 templates/password_changed.html:7 templates/password_changed.txt:6 templates/password_reset.html:6 templates/password_reset.txt:5
-#: templates/password_reset_required.html:10 templates/password_reset_required.txt:9 templates/post_verify.html:7 templates/post_verify.txt:6 templates/recovery.html:8 templates/recovery.txt:7
-#: templates/unblock_code.html:6 templates/unblock_code.txt:5 templates/verification_reminder_first.html:7 templates/verification_reminder_first.txt:6 templates/verification_reminder_second.html:7
-#: templates/verification_reminder_second.txt:6 templates/verify.html:7 templates/verify.txt:6 templates/verify_login.html:7 templates/verify_login.txt:6 templates/verify_sync.html:9
-#: templates/verify_sync.txt:8
+#: lib/senders/templates/new_device_login.html:6 lib/senders/templates/new_device_login.txt:5 lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6
+#: lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5 lib/senders/templates/password_reset_required.html:10 lib/senders/templates/password_reset_required.txt:9
+#: lib/senders/templates/post_verify.html:7 lib/senders/templates/post_verify.txt:6 lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6
+#: lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verification_reminder_first.html:7 lib/senders/templates/verification_reminder_first.txt:6
+#: lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verification_reminder_second.txt:6 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6
+#: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
 msgstr "మొజిల్లా ప్రైవసీ విధానం"
 
-#: templates/new_device_login.txt:3
+#: lib/senders/templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
 msgstr "ఇది ఒక స్వయంచాలక ఇమెయిల్; మీరు మీ ఫైర్ఫాక్స్ ఖాతాకు క్రొత్త పరికర చేర్చకపోతే, మీరు మీ పాస్వర్డ్ను వెంటనే %(passwordChangeLink)s వద్ద మార్చాలి"
 
-#: templates/new_device_login.txt:4 templates/password_changed.txt:5 templates/password_reset.txt:4 templates/post_verify.txt:5 templates/recovery.txt:6 templates/verification_reminder_first.txt:5
-#: templates/verification_reminder_second.txt:5 templates/verify.txt:5 templates/verify_sync.txt:7
+#: lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4 lib/senders/templates/post_verify.txt:5
+#: lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:5 lib/senders/templates/verification_reminder_second.txt:5 lib/senders/templates/verify.txt:5
+#: lib/senders/templates/verify_sync.txt:7
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "మరింత సమాచారం కోసం, దయచేసి సందర్శించండి %(supportUrl)s"
 
-#: templates/password_changed.html:2 templates/password_changed.txt:1
+#: lib/senders/templates/password_changed.html:2 lib/senders/templates/password_changed.txt:1
 msgid "Password changed successfully"
 msgstr "పాస్వర్డ్ విజయవంతంగా మార్పుబడినది"
 
-#: templates/password_changed.html:3 templates/password_changed.txt:2
+#: lib/senders/templates/password_changed.html:3 lib/senders/templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
 msgstr "మీ Firefox ఖాతా పాస్వర్డు ఈ పరికరం నుండి విజయవంతంగా మార్చబడినది:"
 
-#: templates/password_changed.html:5
+#: lib/senders/templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
 msgstr "ఇది ఒక స్వయంచాలక ఇమెయిల్; మీరు ఈ చర్య అనుమతించకపోతే, అప్పుడు <a %(resetLinkAttributes)s>మీ పాస్వర్డ్ను రీసెట్ చేయండి</a>."
 
-#: templates/password_changed.txt:4
+#: lib/senders/templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
 msgstr "ఇది స్వయంచలిత ఈమెయిల్; ఒక వేళ మీరు మీ ఫైర్ఫాక్స్ ఖాతా పాస్వర్డ్ సరిచేయకపోతే, వెంటనే ఇక్కడ %(resetLink)s రీసెట్ చేయండి"
 
-#: templates/password_reset.html:2
+#: lib/senders/templates/password_reset.html:2
 msgid "Your password has been reset"
 msgstr "మీ పాస్వర్డ్ రీసెట్ చేయబడింది"
 
-#: templates/password_reset.html:3
+#: lib/senders/templates/password_reset.html:3
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
 msgstr "మీ ఫైర్ఫాక్స్ ఖాతా పాస్వర్డ్ మార్చబడింది. మీరు మార్చలేరు, దయచేసి <a %(resetLinkAttributes)s>పాస్వర్డ్ రేసెట్ చేయండి</a> ఇప్పుడే."
 
-#: templates/password_reset.html:4 templates/post_verify.html:5 templates/post_verify.txt:4 templates/recovery.html:6 templates/recovery.txt:5 templates/verification_reminder_first.html:5
-#: templates/verification_reminder_first.txt:4 templates/verification_reminder_second.html:5 templates/verification_reminder_second.txt:4 templates/verify.html:5 templates/verify.txt:4
-#: templates/verify_sync.html:7 templates/verify_sync.txt:6
+#: lib/senders/templates/password_reset.html:4 lib/senders/templates/post_verify.html:5 lib/senders/templates/post_verify.txt:4 lib/senders/templates/recovery.html:6
+#: lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_first.txt:4
+#: lib/senders/templates/verification_reminder_second.html:5 lib/senders/templates/verification_reminder_second.txt:4 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
+#: lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "ఈ స్వయంచాలక ఇమెయిల్; మీకు పొరపాటున ఇది అంది ఉంటే, ఏ చర్య అవసరం లేదు."
 
-#: templates/password_reset.txt:1
+#: lib/senders/templates/password_reset.txt:1
 msgid "Password reset successfully"
 msgstr "పాస్వర్డ్ విజయవంతంగా రీసెట్ చేయబడింది"
 
-#: templates/password_reset.txt:2
+#: lib/senders/templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
 msgstr "మీ ఫైర్ఫాక్స్ ఖాతా పాస్వర్డ్ రీసెట్ విజయవంతంగా ఉంది."
 
-#: templates/password_reset.txt:3
+#: lib/senders/templates/password_reset.txt:3
 msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
 msgstr "ఇది స్వయంచలిత ఈమెయిల్; ఒక వేళ మీరు మీ ఫైర్ఫాక్స్ ఖాతా పాస్వర్డ్ సరిచేయకపోతే, వెంటనే ఇక్కడ %(resetLink)s రీసెట్ చేయండి"
 
-#: templates/password_reset_required.html:2 templates/password_reset_required.txt:1
+#: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
 msgstr "మేము మీ ఫైర్ఫాక్స్ ఖాతా న అనుమానాస్పద కార్యాచరణను గుర్తించాము. మీ ఖాతా రాజీపడి ఉండవచ్చు."
 
-#: templates/password_reset_required.html:3 templates/password_reset_required.txt:2
+#: lib/senders/templates/password_reset_required.html:3 lib/senders/templates/password_reset_required.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
 msgstr "మీ ఫైర్ఫాక్స్ ఖాతా కు మరింత అనధికార యాక్సెస్ నివారించడానికి, మేము మీ పాస్వర్డ్ను రీసెట్ చేసిన మరియు ఒక ముందు జాగ్రత్త చర్యగా తెలియజేస్తున్నాము."
 
-#: templates/password_reset_required.html:4 templates/password_reset_required.txt:3
+#: lib/senders/templates/password_reset_required.html:4 lib/senders/templates/password_reset_required.txt:3
 msgid "What should you do?"
 msgstr "నీవు ఏమి చేయాలి?"
 
-#: templates/password_reset_required.html:5 templates/password_reset_required.txt:4
+#: lib/senders/templates/password_reset_required.html:5 lib/senders/templates/password_reset_required.txt:4
 msgid "First, change your Firefox Account password."
 msgstr "ముందుగ, మీ ఫైర్ఫాక్స్ ఖాతా పాస్వర్డ్ మార్చండి."
 
-#: templates/password_reset_required.html:6 templates/password_reset_required.txt:5
+#: lib/senders/templates/password_reset_required.html:6 lib/senders/templates/password_reset_required.txt:5
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
-msgstr ""
-"రెండవది, ఫైర్ఫాక్స్ పాస్వర్డ్ను వెబ్సైట్లకు  భద్రపరుస్తుంది , మీరు ఆ పాస్ వర్డ్ అలాగే మార్చాలి. దాడిచేసిన ఆ పాస్ వర్డ్ ప్రాప్తి కలిగి ఉండవచ్చు, కాబట్టి మీరు అనుమానాస్పద కార్యాచరణ కోసం ఆ ఖాతాలను "
-"తనిఖీ చేయాలి."
+msgstr "రెండవది, ఫైర్ఫాక్స్ పాస్వర్డ్ను వెబ్సైట్లకు  భద్రపరుస్తుంది , మీరు ఆ పాస్ వర్డ్ అలాగే మార్చాలి. దాడిచేసిన ఆ పాస్ వర్డ్ ప్రాప్తి కలిగి ఉండవచ్చు, కాబట్టి మీరు అనుమానాస్పద కార్యాచరణ కోసం ఆ ఖాతాలను తనిఖీ చేయాలి."
 
-#: templates/password_reset_required.html:7 templates/password_reset_required.txt:6
+#: lib/senders/templates/password_reset_required.html:7 lib/senders/templates/password_reset_required.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "ఫైర్ఫాక్స్ మీ కోసం ఏమి పాస్వర్డ్లను నిల్వ ఉంచిందో‌ చూడటం నేర్చుకోండి."
 
-#: templates/password_reset_required.html:8 templates/password_reset_required.txt:7
+#: lib/senders/templates/password_reset_required.html:8 lib/senders/templates/password_reset_required.txt:7
 msgid "Best,"
 msgstr "ఉత్తమ"
 
-#: templates/password_reset_required.html:9 templates/password_reset_required.txt:8
+#: lib/senders/templates/password_reset_required.html:9 lib/senders/templates/password_reset_required.txt:8
 msgid "The Firefox Accounts team"
 msgstr "Firefox ఖాతాల టీం"
 
-#: templates/post_verify.html:2 templates/post_verify.txt:1
+#: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
 msgstr "ఖాతా ధృవీకరించబడింది!"
 
-#: templates/post_verify.html:3
+#: lib/senders/templates/post_verify.html:3
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
-msgstr ""
-"మీరు విజయవంతంగా మీ ఫైర్ఫాక్స్ ఖాతా మీ మొదటి పరికరం కనెక్ట్ అయింది. ఇప్పుడు మీరు మీ ఇతర పరికరాల నుండి సింక్ కు సైన్ ఇన్ చేయవచ్చు, ఫైర్ఫాక్స్ తో సహా <a %(androidLinkAttributes)s>ఆండ్రాయిడ్ </a>మరియు "
-"<a %(iosLinkAttributes)s>ఐఓయస్</a>."
+msgstr "మీరు విజయవంతంగా మీ ఫైర్ఫాక్స్ ఖాతా మీ మొదటి పరికరం కనెక్ట్ అయింది. ఇప్పుడు మీరు మీ ఇతర పరికరాల నుండి సింక్ కు సైన్ ఇన్ చేయవచ్చు, ఫైర్ఫాక్స్ తో సహా <a %(androidLinkAttributes)s>ఆండ్రాయిడ్ </a>మరియు <a %(iosLinkAttributes)s>ఐఓయస్</a>."
 
-#: templates/post_verify.txt:2
+#: lib/senders/templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 msgstr "విజయవంతంగా మీ Firefox ఖాతా మీ మొదటి పరికరం కనెక్ట్ అయింది. ఇప్పుడు మీరు ఆండ్రాయిడ్ మరియు iOS కోసం ఫైర్ఫాక్స్ సహా, మీ ఇతర పరికరాల నుండి సింక్ కు సైన్ ఇన్ చేయవచ్చు."
 
-#: templates/post_verify.txt:3
+#: lib/senders/templates/post_verify.txt:3
 msgid "Sign in to Sync:"
 msgstr "Sync లోనికి ప్రవేశించండి:"
 
-#: templates/recovery.html:2 templates/recovery.txt:1
+#: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Forgot your password?"
 msgstr "పాస్వర్డ్ మరచిపోయారా?"
 
-#: templates/recovery.html:3 templates/recovery.txt:2
+#: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
 msgstr "మీ Firefox ఖాతాకు కొత్త పస్స్వర్డ్ సెట్ చేసుకుకొనుటకు ఒక గంట సమయం లోపు ఈ బటన్ ను నొక్కండి. ఈ అభ్యర్థన క్రింది పరికరం నుండి వచ్చింది:"
 
-#: templates/recovery.html:5 templates/recovery.txt:4
+#: lib/senders/templates/recovery.html:5 lib/senders/templates/recovery.txt:4
 msgid "Reset password"
 msgstr "పాస్‌వర్డ్‌ని రీసెట్ చేయి"
 
-#: templates/sms.installFirefox.txt:1
+#: lib/senders/templates/sms.installFirefox.txt:1
 msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 msgstr "అభ్యర్థించిన విధంగా, ఇది మీ మొబైల్ పరికరంలో Firefox ను ఇన్స్టాల్ చేయడానికి లింకు: %(link)s"
 
-#: templates/unblock_code.html:2 templates/unblock_code.txt:1
+#: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1
 msgid "Is this you signing in?"
 msgstr "ప్రవేశిస్తున్నది నువ్వేనా?"
 
-#: templates/unblock_code.html:4 templates/unblock_code.txt:3
+#: lib/senders/templates/unblock_code.html:4 lib/senders/templates/unblock_code.txt:3
 msgid "If yes, here is the authorization code you need:"
 msgstr "అవును అయితే, ఇదే నీకు కావల్సిన అధికారిక కోడ్:"
 
-#: templates/unblock_code.html:5
+#: lib/senders/templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
 msgstr "ఒకవేళ కాకపోతే, మాకు చొరబాటు తప్పించడానికి సహాయం చేయండి మరియు <a %(reportSignInLinkAttributes)s>దాన్ని మాకు నివేదించండి.</a>"
 
-#: templates/unblock_code.txt:4
+#: lib/senders/templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "ఒకవేళ కాకపోతే, మాకు చొరబాటు తప్పించడానికి సహాయం చేయండి మరియు దాన్ని మాకు నివేదించండి."
 
-#: templates/verification_reminder_first.html:2 templates/verification_reminder_first.txt:1 mailer.js:677
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:677
 msgid "Hello again."
 msgstr "మళ్ళీ హెలో."
 
-#: templates/verification_reminder_first.html:3 templates/verification_reminder_first.txt:2
+#: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-" email address to activate your account."
-msgstr ""
-"కొన్ని రోజుల క్రితం మీరు ఒక Firefox ఖాతా రూపొందించారు, కానీ తనిఖీ ఎప్పుడూ చేయలేదు. ఒక ధృవీకరించిన ఖాతా మీరు సంబంధించిన ఏదైనా పరికరంలో మీ టాబ్లు, బుక్మార్క్లు, పాస్వర్డ్లు మరియు చరిత్రను ప్రాప్యత "
-"చెయ్యవచ్చు. మీ ఖాతాను సక్రియం ఈ-మెయిలు చిరునామా ధృవీకరించాలి."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+"this email address to activate your account."
+msgstr "కొన్ని రోజుల క్రితం మీరు ఒక Firefox ఖాతా రూపొందించారు, కానీ తనిఖీ ఎప్పుడూ చేయలేదు. ఒక ధృవీకరించిన ఖాతా మీరు సంబంధించిన ఏదైనా పరికరంలో మీ టాబ్లు, బుక్మార్క్లు, పాస్వర్డ్లు మరియు చరిత్రను ప్రాప్యత చెయ్యవచ్చు. మీ ఖాతాను సక్రియం ఈ-మెయిలు చిరునామా ధృవీకరించాలి."
 
-#: templates/verification_reminder_first.html:4 templates/verification_reminder_second.html:4 templates/verify.html:4
+#: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verify.html:4
 msgid "Activate now"
 msgstr "ఇప్పుడే క్రియాశీలం చెయ్యి"
 
-#: templates/verification_reminder_first.html:8 templates/verification_reminder_second.html:8 templates/verify.html:8 templates/verify_sync.html:10
+#: lib/senders/templates/verification_reminder_first.html:8 lib/senders/templates/verification_reminder_second.html:8 lib/senders/templates/verify.html:8 lib/senders/templates/verify_sync.html:10
 msgid "Verify Email"
 msgstr "ఈమెయిల్ నిర్థారించు"
 
-#: templates/verification_reminder_first.html:9 templates/verification_reminder_second.html:9 templates/verify.html:9 templates/verify_sync.html:11
+#: lib/senders/templates/verification_reminder_first.html:9 lib/senders/templates/verification_reminder_second.html:9 lib/senders/templates/verify.html:9 lib/senders/templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
 msgstr "మీ Firefox ఖాతా నమోదు పూర్తి చేయడానికి మీ ఇమెయిల్ చిరునామాను ధృవీకరించండి"
 
-#: templates/verification_reminder_first.txt:3 templates/verification_reminder_second.txt:3 templates/verify.txt:3
+#: lib/senders/templates/verification_reminder_first.txt:3 lib/senders/templates/verification_reminder_second.txt:3 lib/senders/templates/verify.txt:3
 msgid "Activate now:"
 msgstr "ఇప్పుడే క్రియాశీలం చేయి:"
 
-#: templates/verification_reminder_second.html:3 templates/verification_reminder_second.txt:2
+#: lib/senders/templates/verification_reminder_second.html:3 lib/senders/templates/verification_reminder_second.txt:2
 msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
-"ఒక వారం క్రితం ఒక Firefox ఖాతా రూపొందించినవారు, కానీ తనిఖీ ఎప్పుడూ. మేము మీరు గురించి ఆందోళన చేందుతున్నాము. మీ ఖాతాను సక్రియం చేయడానికి మరియు మాకు మీరు ఓకే తెలియజేయడానికి ఈ ఇమెయిల్ చిరునామాను "
-"ధృవీకరించండి."
+msgstr "ఒక వారం క్రితం ఒక Firefox ఖాతా రూపొందించినవారు, కానీ తనిఖీ ఎప్పుడూ. మేము మీరు గురించి ఆందోళన చేందుతున్నాము. మీ ఖాతాను సక్రియం చేయడానికి మరియు మాకు మీరు ఓకే తెలియజేయడానికి ఈ ఇమెయిల్ చిరునామాను ధృవీకరించండి."
 
-#: templates/verify.html:2 templates/verify.txt:1
+#: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome!"
 msgstr "స్వాగతం!"
 
-#: templates/verify.html:3 templates/verify.txt:2
+#: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
 msgstr "దయచేసి ఈ ఈమెయిల్ చిరునామా నిర్ధారిస్తూ మీ ఖాతాను సక్రియం చేయండి."
 
-#: templates/verify_login.html:3 templates/verify_login.txt:2
+#: lib/senders/templates/verify_login.html:3 lib/senders/templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "అదనపు భద్రత కోసం, ఈ పరికరంతో సింక్ ప్రారంభించడానికి సైన్ ఇన్ నిర్ధారించుకోండి:"
 
-#: templates/verify_login.html:5 templates/verify_login.txt:4
+#: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
 msgid "Confirm sign-in"
 msgstr "సైన్ ఇన్ నిర్ధారించండి"
 
-#: templates/verify_login.html:6
+#: lib/senders/templates/verify_login.html:6
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "ఎవరైనా మీ ఖాతాను పొందటం ప్రయత్నిస్తున్నారు మీరు అనుమానిస్తే, <a %(passwordChangeLinkAttributes)s>దయచేసి మీ పాస్వర్డ్ మార్చుకోండి</a>."
 
-#: templates/verify_login.txt:5
+#: lib/senders/templates/verify_login.txt:5
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr "ఎవరైనా మీ ఖాతాను పొందటం ప్రయత్నిస్తున్నారు అనుమానిస్తున్నారు ఉంటే, దయచేసి మీ పాస్వర్డ్ను మార్చండి."
 
-#: templates/verify_sync.html:2 templates/verify_sync.txt:1
+#: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
 msgstr "రెడీ, సెట్, సమకాలీకరణ"
 
-#: templates/verify_sync.html:3 templates/verify_sync.txt:2
+#: lib/senders/templates/verify_sync.html:3 lib/senders/templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
 msgstr "మీరు ఈ ఇమెయిల్ అందుకున్నట్లు నిర్థారించుకోవాలి మరియు మేము మీ అన్ని పరికరాల్లో Firefox ను ఇన్స్టాల్ చేసి సమకాలీకరించడానికి ప్రారంభిస్తాము:"
 
-#: templates/verify_sync.html:5 templates/verify_sync.txt:4
+#: lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
 msgid "Verify email "
 msgstr "ఇమెయిల్ ని నిర్ధారించండి:  "
 
-#: templates/verify_sync.html:6 templates/verify_sync.txt:5
+#: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "ఒకసారి ధ్రువీకరించినట్లైతే, మేము మీకు కనీసం ఒక ఇతర పరికరంలో Firefox ను ఇన్స్టాల్ చేసి కనెక్ట్ చేయడానికి సహాయం చేయగలము."
 
-#: mailer.js:152
+#: lib/senders/email.js:152
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaOS)s %(uaOSVersion)s పై %(uaBrowser)s"
 
-#: mailer.js:155
+#: lib/senders/email.js:155
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaOS)s పై %(uaBrowser)s"
 
-#: mailer.js:182
+#: lib/senders/email.js:182
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (అంచనా)"
 
-#: mailer.js:184
+#: lib/senders/email.js:184
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (అంచనా)"
 
-#: mailer.js:186
+#: lib/senders/email.js:186
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (అంచనా)"
 
-#: mailer.js:188
+#: lib/senders/email.js:188
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (అంచనా)"
 
-#: mailer.js:276
+#: lib/senders/email.js:276
 msgid "Verify your Firefox Account"
 msgstr "మీ ఫైర్ఫాక్సు ఖాతాను నిర్ధారించండి"
 
-#: mailer.js:305
+#: lib/senders/email.js:305
 msgid "Confirm your email and start to sync!"
 msgstr "మీ ఇమెయిల్ ని నిర్ధారించి సమకాలీకరించడానికి ప్రారంభించండి!"
 
-#: mailer.js:362
+#: lib/senders/email.js:362
 msgid "Firefox Account authorization code"
 msgstr "Firefox ఖాతా అధికార కోడ్"
 
-#: mailer.js:414
+#: lib/senders/email.js:414
 msgid "Confirm new sign-in to Firefox"
 msgstr "ఫైర్ఫాక్సుకు ప్రవేశించడాన్ని నిర్థారించండి"
 
-#: mailer.js:465
+#: lib/senders/email.js:465
 msgid "Reset your Firefox Account password"
 msgstr "ఫైర్ఫాక్స్ ఖాతా పాస్వర్డ్ రీసెట్ చేయండి"
 
-#: mailer.js:505
+#: lib/senders/email.js:505
 msgid "Your Firefox Account password has been changed"
 msgstr "మీ ఫైర్ఫాక్స్ ఖాతా పాస్వర్డ్ మార్చబడింది"
 
-#: mailer.js:543
+#: lib/senders/email.js:543
 msgid "Your Firefox Account password has been reset"
 msgstr "మీ ఫైర్ఫాక్స్ ఖాతా పాస్వర్డ్ రీసెట్ అయింది"
 
-#: mailer.js:577
+#: lib/senders/email.js:577
 msgid "Firefox Account password reset required"
 msgstr "మీ ఫైర్ఫాక్స్ ఖాతా పాస్వర్డ్ రీసెట్ అవసరం"
 
-#: mailer.js:650
+#: lib/senders/email.js:650
 msgid "Firefox Account verified"
 msgstr "Firefox ఖాతా ధ్రువీకరించబడినది"
 

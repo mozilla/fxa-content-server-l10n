@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-17 18:48+0000\n"
+"POT-Creation-Date: 2017-03-05 22:21+0000\n"
 "PO-Revision-Date: 2017-01-21 09:07+0000\n"
 "Last-Translator: nuttapong2539 <nuttapong2539@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,15 +15,15 @@ msgstr ""
 "X-Generator: Pontoon\n"
 
 #: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
-#: app/scripts/views/confirm.js:126
+#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
 msgid "Account verified successfully"
 msgstr "ตรวจสอบบัญชีสำเร็จ"
 
-#: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38 app/scripts/views/ready.js:39
+#: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38 app/scripts/views/ready.js:39 app/scripts/views/confirm_reset_password.js:160
 msgid "Password reset"
 msgstr "ตั้งรหัสผ่านใหม่"
 
-#: app/scripts/views/confirm_reset_password.js:194
+#: app/scripts/views/confirm_reset_password.js:194 app/scripts/views/confirm_reset_password.js:188
 msgid "Password reset successfully. Sign in to continue."
 msgstr "ตั้งรหัสผ่านใหม่สำเร็จแล้ว ลงชื่อเข้าใช้เพื่อดำเนินการต่อ"
 
@@ -79,7 +79,7 @@ msgstr "ไม่รู้จัก Firefox Account นี้ <a href=\"/signup\
 msgid "Account no longer exists. Recreate it?"
 msgstr "บัญชีไม่มีอีกต่อไป สร้างใหม่?"
 
-#: app/scripts/views/sign_up.js:370 app/scripts/views/sign_up.js:369
+#: app/scripts/views/sign_up.js:370 app/scripts/views/sign_up.js:369 app/scripts/views/sign_up.js:380
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "บัญชีนี้มีอยู่แล้ว <a href=\"/signin\">ลงชื่อเข้า</a>"
 
@@ -159,7 +159,7 @@ msgstr "รหัสผ่านที่แข็งแกร่งและม
 msgid "This is a common password; please consider another one."
 msgstr "นี้เป็นรหัสผ่านที่ดาษดื่น โปรดพิจารณารหัสผ่านอื่น"
 
-#: app/scripts/views/mixins/resend-mixin.js:45
+#: app/scripts/views/mixins/resend-mixin.js:45 app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "ได้ส่งอีเมลอีกครั้งแล้ว"
 
@@ -180,7 +180,7 @@ msgstr "ข้อผิดพลาดที่ไม่คาดคิด"
 msgid "The link you clicked to verify your email is expired."
 msgstr "ลิงก์ที่คุณได้คลิกเพื่อตรวจสอบอีเมลของคุณหมดอายุแล้ว"
 
-#: app/scripts/lib/auth-errors.js:21
+#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/sms-errors.js:17
 msgid "You've tried too many times. Try again later."
 msgstr "คุณได้พยายามหลายครั้งเกินไป ลองอีกครั้งในภายหลัง"
 
@@ -252,143 +252,145 @@ msgstr "ตัวการร้องขอใหญ่เกินไป"
 msgid "The request was blocked for security reasons"
 msgstr "การร้องขอถูกปิดกั้นด้วยเหตุผลด้านความปลอดภัย"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:318
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:335
 msgid "Invalid authorization code"
 msgstr "รหัสยืนยันตัวตนผิดพลาด"
 
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/auth-errors.js:298
+#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/auth-errors.js:298 app/scripts/lib/auth-errors.js:138 app/scripts/lib/auth-errors.js:315
 msgid "Server busy, try again soon"
 msgstr "เซิร์ฟเวอร์กำลังทำงานหนัก ลองอีกครั้งในเร็ว ๆ นี้"
 
-#: app/scripts/lib/auth-errors.js:125
+#: app/scripts/lib/auth-errors.js:125 app/scripts/lib/auth-errors.js:142
 msgid "This endpoint is no longer supported"
 msgstr "ไม่รองรับปลายทางนี้อีกต่อไป"
 
 #: app/scripts/lib/auth-errors.js:129 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/auth-errors.js:146
 msgid "System unavailable, try again soon"
 msgstr "ระบบไม่พร้อมใช้งาน ลองอีกครั้งหนึ่งเร็ว ๆ นี้"
 
-#: app/scripts/lib/auth-errors.js:133 app/scripts/lib/oauth-errors.js:104
+#: app/scripts/lib/auth-errors.js:133 app/scripts/lib/oauth-errors.js:104 app/scripts/lib/auth-errors.js:150
 msgid "no message"
 msgstr "ไม่มีข้อความ"
 
-#: app/scripts/lib/auth-errors.js:137
+#: app/scripts/lib/auth-errors.js:137 app/scripts/lib/auth-errors.js:154
 msgid "Session expired. Sign in to continue."
 msgstr "วาระหมดอายุ ลงชื่อเข้าใหม่เพื่อดำเนินการต่อ"
 
-#: app/scripts/lib/auth-errors.js:141
+#: app/scripts/lib/auth-errors.js:141 app/scripts/lib/auth-errors.js:158
 msgid "Cookies are still disabled"
 msgstr "คุกกี้ยังถูกปิดใช้งาน"
 
-#: app/scripts/lib/auth-errors.js:145
+#: app/scripts/lib/auth-errors.js:145 app/scripts/lib/auth-errors.js:162
 msgid "Passwords do not match"
 msgstr "รหัสผ่านไม่ตรงกัน"
 
-#: app/scripts/lib/auth-errors.js:149
+#: app/scripts/lib/auth-errors.js:149 app/scripts/lib/auth-errors.js:166
 msgid "Working…"
 msgstr "กำลังทำงาน…"
 
-#: app/scripts/lib/auth-errors.js:153
+#: app/scripts/lib/auth-errors.js:153 app/scripts/lib/auth-errors.js:170
 msgid "Could not get Privacy Notice"
 msgstr "ไม่สามารถนำประกาศความเป็นส่วนตัวมาได้"
 
-#: app/scripts/lib/auth-errors.js:157
+#: app/scripts/lib/auth-errors.js:157 app/scripts/lib/auth-errors.js:174
 msgid "Could not get Terms of Service"
 msgstr "ไม่สามารถนำเงื่อนไขการให้บริการมาได้"
 
-#: app/scripts/lib/auth-errors.js:161
+#: app/scripts/lib/auth-errors.js:161 app/scripts/lib/auth-errors.js:178
 msgid "Your new password must be different"
 msgstr "รหัสผ่านใหม่ของคุณต้องไม่เหมือนเดิม"
 
-#: app/scripts/lib/auth-errors.js:165 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
+#: app/scripts/lib/auth-errors.js:165 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7 app/scripts/lib/auth-errors.js:182
 msgid "Must be at least 8 characters"
 msgstr "ต้องมีอย่างน้อย 8 อักขระ"
 
-#: app/scripts/lib/auth-errors.js:169
+#: app/scripts/lib/auth-errors.js:169 app/scripts/lib/auth-errors.js:186
 msgid "Valid password required"
 msgstr "ต้องการรหัสผ่านที่ถูกต้อง"
 
-#: app/scripts/lib/auth-errors.js:173 app/scripts/lib/auth-errors.js:211 app/scripts/lib/auth-errors.js:227
+#: app/scripts/lib/auth-errors.js:173 app/scripts/lib/auth-errors.js:211 app/scripts/lib/auth-errors.js:227 app/scripts/lib/auth-errors.js:190 app/scripts/lib/auth-errors.js:228
+#: app/scripts/lib/auth-errors.js:244
 msgid "Valid email required"
 msgstr "ต้องการอีเมลที่ถูกต้อง"
 
-#: app/scripts/lib/auth-errors.js:184
+#: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:201
 msgid "A usable image was not found"
 msgstr "ไม่พบภาพที่ใช้งานได้"
 
-#: app/scripts/lib/auth-errors.js:188
+#: app/scripts/lib/auth-errors.js:188 app/scripts/lib/auth-errors.js:205
 msgid "Could not initialize camera"
 msgstr "ไม่สามารถเริ่มใช้กล้องได้"
 
-#: app/scripts/lib/auth-errors.js:192
+#: app/scripts/lib/auth-errors.js:192 app/scripts/lib/auth-errors.js:209
 msgid "Valid URL required"
 msgstr "ต้องการ URL ที่ถูกต้อง"
 
-#: app/scripts/lib/auth-errors.js:207
+#: app/scripts/lib/auth-errors.js:207 app/scripts/lib/auth-errors.js:224
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "อีเมลตรวจสอบของคุณถูกตีกลับ พิมพ์อีเมลผิด?"
 
-#: app/scripts/lib/auth-errors.js:215
+#: app/scripts/lib/auth-errors.js:215 app/scripts/lib/auth-errors.js:232
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "โปรแกรดป้อนที่อยู่อีเมลที่ถูกต้อง firefox.com ไม่มีบริการอีเมล"
 
-#: app/scripts/lib/auth-errors.js:223
+#: app/scripts/lib/auth-errors.js:223 app/scripts/lib/auth-errors.js:240
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "บัญชี Firefox สามารถใส่ใน IFRAME ได้เฉพาะเว็บได้รับอนุญาตแล้ว"
 
-#: app/scripts/lib/auth-errors.js:242 app/scripts/templates/complete_sign_up.mustache:9
+#: app/scripts/lib/auth-errors.js:242 app/scripts/templates/complete_sign_up.mustache:9 app/scripts/lib/auth-errors.js:259
 msgid "Verification link damaged"
 msgstr "ลิงก์ตรวจสอบได้รับความเสียหาย"
 
-#: app/scripts/lib/auth-errors.js:250
+#: app/scripts/lib/auth-errors.js:250 app/scripts/lib/auth-errors.js:267
 msgid "The image dimensions must be at least 100x100px"
 msgstr "ภาพต้องมีขนาดอย่างน้อย 100x100 จุด"
 
-#: app/scripts/lib/auth-errors.js:254
+#: app/scripts/lib/auth-errors.js:254 app/scripts/lib/auth-errors.js:271
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Firefox สำหรับ iOS จะลงทะเบียนได้เร็ว ๆ นี้"
 
-#: app/scripts/lib/auth-errors.js:265
+#: app/scripts/lib/auth-errors.js:265 app/scripts/lib/auth-errors.js:282
 msgid "You must enter your age to sign up"
 msgstr "คุณต้องป้อนอายุของคุณเพื่อลงทะเบียน"
 
-#: app/scripts/lib/auth-errors.js:269
+#: app/scripts/lib/auth-errors.js:269 app/scripts/lib/auth-errors.js:286
 msgid "No Gravatar found"
 msgstr "ไม่พบ Gravatar"
 
-#: app/scripts/lib/auth-errors.js:277
+#: app/scripts/lib/auth-errors.js:277 app/scripts/lib/auth-errors.js:294
 msgid "Account no longer exists."
 msgstr "ไม่มีบัญชีนี้อีกแล้ว"
 
-#: app/scripts/lib/auth-errors.js:281
+#: app/scripts/lib/auth-errors.js:281 app/scripts/lib/auth-errors.js:298
 msgid "Invalid property in resume token: %(property)s"
 msgstr "คุณสมบัติของโทเคนสำหรับดำเนินการต่อไม่ถูกต้อง: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:285
+#: app/scripts/lib/auth-errors.js:285 app/scripts/lib/auth-errors.js:302
 msgid "Missing property in resume token: %(property)s"
 msgstr "ขาดคุณสมบัติของโทเคนสำหรับดำเนินการต่อ: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:289
+#: app/scripts/lib/auth-errors.js:289 app/scripts/lib/auth-errors.js:306
 msgid "Invalid data attribute: %(property)s"
 msgstr "แอตทริบิวต์ข้อมูลไม่ถูกต้อง: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:293
+#: app/scripts/lib/auth-errors.js:293 app/scripts/lib/auth-errors.js:310
 msgid "Missing data attribute: %(property)s"
 msgstr "ขาดแอตทริบิวต์ข้อมูล: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:306 app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/lib/auth-errors.js:306 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/lib/auth-errors.js:323
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "ลิงก์สำหรับยืนยันนั้นถูกใช้ไปแล้ว และสามารถใช้ได้แค่ครั้งเดียว"
 
-#: app/scripts/lib/auth-errors.js:310
+#: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:327
 msgid "This is a required field"
 msgstr "ช่องนี้จำเป็นต้องกรอก"
 
-#: app/scripts/lib/auth-errors.js:314
+#: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:331
 msgid "Authorization code required"
 msgstr "ต้องการรหัสยืนยันตัวตน"
 
-#: app/scripts/lib/auth-errors.js:322 app/scripts/templates/report_sign_in.mustache:1
+#: app/scripts/lib/auth-errors.js:322 app/scripts/templates/report_sign_in.mustache:1 app/scripts/lib/auth-errors.js:339
 msgid "Link damaged"
 msgstr "ลิงก์เสียหาย"
 
@@ -400,7 +402,7 @@ msgstr "การกำหนดค่าขาดหาย"
 msgid "Invalid configuration"
 msgstr "การกำหนดค่าไม่ถูกต้อง"
 
-#: app/scripts/lib/mailcheck.js:26
+#: app/scripts/lib/mailcheck.js:26 app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
 msgstr "หรือคุณหมายถึง<span tabindex=\"1\">%(escapedDomain)s</span>?"
 
@@ -684,7 +686,7 @@ msgstr "อุปกรณ์นี้ถูกเชื่อมต่อแล
 msgid "Email verified"
 msgstr "อีเมลได้รับการยืนยันแล้ว"
 
-#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1
+#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:2
 msgid "Success"
 msgstr "สำเร็จ"
 
@@ -713,7 +715,7 @@ msgstr "ลงชื่อเข้าใช้ Firefox บนอุปกรณ
 msgid "Sign in to Firefox for Android to complete set-up"
 msgstr "ลงชื่อเข้าใช้ Firefox สำหรับ Android เพื่อการติดตั้งที่สมบูรณ์"
 
-#: app/scripts/templates/connect_another_device.mustache:19 app/scripts/templates/connect_another_device.mustache:21
+#: app/scripts/templates/connect_another_device.mustache:19 app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
 msgid "Why is this required?"
 msgstr "ทำไมจึงเป็นสิ่งที่จำเป็น?"
 
@@ -763,11 +765,11 @@ msgstr "บริการกลุ่มเมฆ Firefox"
 msgid "Legal"
 msgstr "ข้อกฎหมาย"
 
-#: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:5 app/scripts/templates/tos.mustache:2
+#: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:5 app/scripts/templates/tos.mustache:2 app/scripts/templates/settings.mustache:4
 msgid "Terms of Service"
 msgstr "เงื่อนไขการให้บริการ"
 
-#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:6
+#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:6 app/scripts/templates/settings.mustache:5
 msgid "Privacy Notice"
 msgstr "ประกาศความเป็นส่วนตัว"
 
@@ -1142,6 +1144,67 @@ msgstr ""
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
 msgstr "อุปกรณ์ซ้ำ"
+
+#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
+msgid "Invalid phone number"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:125
+msgid "Cannot send to this country"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:134
+msgid "Could not send a message to this number"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:362
+msgid "Phone number required"
+msgstr ""
+
+#: app/scripts/lib/sms-errors.js:23
+msgid "SMS sent"
+msgstr ""
+
+#: app/scripts/lib/sms-errors.js:55
+msgid "Your number has been blocked"
+msgstr ""
+
+#: app/scripts/lib/sms-errors.js:79
+msgid "SMS not sent, please try again"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
+msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:5
+msgid "Mobile phone number"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:6
+msgid "Send"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:7
+msgid ""
+"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:9
+msgid "Maybe later"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
+msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:4
+msgid "If you are not receiving the text message, you can also download the apps manually."
+msgstr ""
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "ยังไม่ได้รับ? ส่งใหม่"

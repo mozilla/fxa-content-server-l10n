@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2017-01-23 07:33+0000\n"
+"POT-Creation-Date: 2017-03-05 22:21+0000\n"
+"PO-Revision-Date: 2017-02-27 08:42+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -16,15 +16,15 @@ msgstr ""
 "X-POOTLE-MTIME: 1444650468.0\n"
 
 #: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
-#: app/scripts/views/confirm.js:126
+#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
 msgid "Account verified successfully"
 msgstr "Account mei sukses ferifiearre"
 
-#: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38 app/scripts/views/ready.js:39
+#: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38 app/scripts/views/ready.js:39 app/scripts/views/confirm_reset_password.js:160
 msgid "Password reset"
 msgstr "Wachtwurd opnij ynsteld"
 
-#: app/scripts/views/confirm_reset_password.js:194
+#: app/scripts/views/confirm_reset_password.js:194 app/scripts/views/confirm_reset_password.js:188
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Wachtwurd is opnij ynsteld. Meld jo oan om troch te gean."
 
@@ -80,7 +80,7 @@ msgstr "Unbekende Firefox-account. <a href=\"/signup\">Registrearje</a> mei help
 msgid "Account no longer exists. Recreate it?"
 msgstr "Account bestiet net mear. Opnij oanmeitsje?"
 
-#: app/scripts/views/sign_up.js:370 app/scripts/views/sign_up.js:369
+#: app/scripts/views/sign_up.js:370 app/scripts/views/sign_up.js:369 app/scripts/views/sign_up.js:380
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Account bestiet al. <a href=\"/signin\">Oanmelde</a>"
 
@@ -160,7 +160,7 @@ msgstr "In sterk, unyk wachtwurd hâldt jo Firefox-gegevens feilich tsjin ynkrin
 msgid "This is a common password; please consider another one."
 msgstr "Dit is in gebrûklik wachtwurd; oerweagje in oar."
 
-#: app/scripts/views/mixins/resend-mixin.js:45
+#: app/scripts/views/mixins/resend-mixin.js:45 app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "E-mailberjocht opnij ferstjoerd"
 
@@ -181,7 +181,7 @@ msgstr "Unferwachte flater"
 msgid "The link you clicked to verify your email is expired."
 msgstr "De keppeling wêrop jo klikt hawwe om jo e-mailadres te ferifiearjen is ferrûn."
 
-#: app/scripts/lib/auth-errors.js:21
+#: app/scripts/lib/auth-errors.js:21 app/scripts/lib/sms-errors.js:17
 msgid "You've tried too many times. Try again later."
 msgstr "Jo hawwe te faaks besocht. Probearje letter opnij."
 
@@ -253,143 +253,145 @@ msgstr "Oanfraachtekst te lang"
 msgid "The request was blocked for security reasons"
 msgstr "De oanfraach is om reden fan feilichheid blokkearre"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:318
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:335
 msgid "Invalid authorization code"
 msgstr "Unjildige autorisaasjekoade"
 
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/auth-errors.js:298
+#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/auth-errors.js:298 app/scripts/lib/auth-errors.js:138 app/scripts/lib/auth-errors.js:315
 msgid "Server busy, try again soon"
 msgstr "Server beset, probearje it letter opnij"
 
-#: app/scripts/lib/auth-errors.js:125
+#: app/scripts/lib/auth-errors.js:125 app/scripts/lib/auth-errors.js:142
 msgid "This endpoint is no longer supported"
 msgstr "Dit einpunt wurdt net mear stipe"
 
 #: app/scripts/lib/auth-errors.js:129 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/auth-errors.js:146
 msgid "System unavailable, try again soon"
 msgstr "Systeem net beskikber, probearje it letter opnij"
 
-#: app/scripts/lib/auth-errors.js:133 app/scripts/lib/oauth-errors.js:104
+#: app/scripts/lib/auth-errors.js:133 app/scripts/lib/oauth-errors.js:104 app/scripts/lib/auth-errors.js:150
 msgid "no message"
 msgstr "gjin melding"
 
-#: app/scripts/lib/auth-errors.js:137
+#: app/scripts/lib/auth-errors.js:137 app/scripts/lib/auth-errors.js:154
 msgid "Session expired. Sign in to continue."
 msgstr "Sesje ferrûn. Meld jo oan om troch te gean."
 
-#: app/scripts/lib/auth-errors.js:141
+#: app/scripts/lib/auth-errors.js:141 app/scripts/lib/auth-errors.js:158
 msgid "Cookies are still disabled"
 msgstr "Cookies binne noch útskeakele"
 
-#: app/scripts/lib/auth-errors.js:145
+#: app/scripts/lib/auth-errors.js:145 app/scripts/lib/auth-errors.js:162
 msgid "Passwords do not match"
 msgstr "Wachtwurden komme net oerien"
 
-#: app/scripts/lib/auth-errors.js:149
+#: app/scripts/lib/auth-errors.js:149 app/scripts/lib/auth-errors.js:166
 msgid "Working…"
 msgstr "Dwaande…"
 
-#: app/scripts/lib/auth-errors.js:153
+#: app/scripts/lib/auth-errors.js:153 app/scripts/lib/auth-errors.js:170
 msgid "Could not get Privacy Notice"
 msgstr "Kin privacybetingsten net ophelje"
 
-#: app/scripts/lib/auth-errors.js:157
+#: app/scripts/lib/auth-errors.js:157 app/scripts/lib/auth-errors.js:174
 msgid "Could not get Terms of Service"
 msgstr "Kin servicebetingsten net ophelje"
 
-#: app/scripts/lib/auth-errors.js:161
+#: app/scripts/lib/auth-errors.js:161 app/scripts/lib/auth-errors.js:178
 msgid "Your new password must be different"
 msgstr "Jo nije wachtwurd moat ferskille"
 
-#: app/scripts/lib/auth-errors.js:165 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
+#: app/scripts/lib/auth-errors.js:165 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7 app/scripts/lib/auth-errors.js:182
 msgid "Must be at least 8 characters"
 msgstr "Moat op syn minst 8 tekens befetsje"
 
-#: app/scripts/lib/auth-errors.js:169
+#: app/scripts/lib/auth-errors.js:169 app/scripts/lib/auth-errors.js:186
 msgid "Valid password required"
 msgstr "Jildich wachtwurd fereaske"
 
-#: app/scripts/lib/auth-errors.js:173 app/scripts/lib/auth-errors.js:211 app/scripts/lib/auth-errors.js:227
+#: app/scripts/lib/auth-errors.js:173 app/scripts/lib/auth-errors.js:211 app/scripts/lib/auth-errors.js:227 app/scripts/lib/auth-errors.js:190 app/scripts/lib/auth-errors.js:228
+#: app/scripts/lib/auth-errors.js:244
 msgid "Valid email required"
 msgstr "Jildich e-mailadres fereaske"
 
-#: app/scripts/lib/auth-errors.js:184
+#: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:201
 msgid "A usable image was not found"
 msgstr "Der is gjin brûkbere ôfbylding fûn"
 
-#: app/scripts/lib/auth-errors.js:188
+#: app/scripts/lib/auth-errors.js:188 app/scripts/lib/auth-errors.js:205
 msgid "Could not initialize camera"
 msgstr "Koe kamera net inisjalisearje"
 
-#: app/scripts/lib/auth-errors.js:192
+#: app/scripts/lib/auth-errors.js:192 app/scripts/lib/auth-errors.js:209
 msgid "Valid URL required"
 msgstr "Jildige URL fereaske"
 
-#: app/scripts/lib/auth-errors.js:207
+#: app/scripts/lib/auth-errors.js:207 app/scripts/lib/auth-errors.js:224
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Jo ferifikaasje-e-mail is sakrekt werom kaam. Typflater yn e-mailadres?"
 
-#: app/scripts/lib/auth-errors.js:215
+#: app/scripts/lib/auth-errors.js:215 app/scripts/lib/auth-errors.js:232
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Fier in jildich e-mailadres yn. firefox.com biedt gjin e-mail."
 
-#: app/scripts/lib/auth-errors.js:223
+#: app/scripts/lib/auth-errors.js:223 app/scripts/lib/auth-errors.js:240
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox-accounts kinne allinnich yn in IFRAME op goedkarde websites pleatst wurde"
 
-#: app/scripts/lib/auth-errors.js:242 app/scripts/templates/complete_sign_up.mustache:9
+#: app/scripts/lib/auth-errors.js:242 app/scripts/templates/complete_sign_up.mustache:9 app/scripts/lib/auth-errors.js:259
 msgid "Verification link damaged"
 msgstr "Ferifikaasjekeppeling skansearre"
 
-#: app/scripts/lib/auth-errors.js:250
+#: app/scripts/lib/auth-errors.js:250 app/scripts/lib/auth-errors.js:267
 msgid "The image dimensions must be at least 100x100px"
 msgstr "De ôfmjittingen fan de ôfbylding moatte op syn minst 100x100px wêze"
 
-#: app/scripts/lib/auth-errors.js:254
+#: app/scripts/lib/auth-errors.js:254 app/scripts/lib/auth-errors.js:271
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Ynkoarten komt registraasje nei Firefox foar iOS"
 
-#: app/scripts/lib/auth-errors.js:265
+#: app/scripts/lib/auth-errors.js:265 app/scripts/lib/auth-errors.js:282
 msgid "You must enter your age to sign up"
 msgstr "Jo moatte jo leeftyd ynfiere om te registrearjen"
 
-#: app/scripts/lib/auth-errors.js:269
+#: app/scripts/lib/auth-errors.js:269 app/scripts/lib/auth-errors.js:286
 msgid "No Gravatar found"
 msgstr "Gjin Gravatar fûn"
 
-#: app/scripts/lib/auth-errors.js:277
+#: app/scripts/lib/auth-errors.js:277 app/scripts/lib/auth-errors.js:294
 msgid "Account no longer exists."
 msgstr "Account bestiet net mear."
 
-#: app/scripts/lib/auth-errors.js:281
+#: app/scripts/lib/auth-errors.js:281 app/scripts/lib/auth-errors.js:298
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Ynfalide eigenskip yn ferfette token: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:285
+#: app/scripts/lib/auth-errors.js:285 app/scripts/lib/auth-errors.js:302
 msgid "Missing property in resume token: %(property)s"
 msgstr "Missende eigenskip yn ferfette token: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:289
+#: app/scripts/lib/auth-errors.js:289 app/scripts/lib/auth-errors.js:306
 msgid "Invalid data attribute: %(property)s"
 msgstr "Gegevenskenmerk ûnjildich: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:293
+#: app/scripts/lib/auth-errors.js:293 app/scripts/lib/auth-errors.js:310
 msgid "Missing data attribute: %(property)s"
 msgstr "Gegevenskenmerk ûntbrekt: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:306 app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/lib/auth-errors.js:306 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/lib/auth-errors.js:323
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Dy befêstigingskeppeling is al brûkt en kin mar ien kear brûkt wurde."
 
-#: app/scripts/lib/auth-errors.js:310
+#: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:327
 msgid "This is a required field"
 msgstr "Dit is in fereaske fjild"
 
-#: app/scripts/lib/auth-errors.js:314
+#: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:331
 msgid "Authorization code required"
 msgstr "Autorisaasjekoade fereaske"
 
-#: app/scripts/lib/auth-errors.js:322 app/scripts/templates/report_sign_in.mustache:1
+#: app/scripts/lib/auth-errors.js:322 app/scripts/templates/report_sign_in.mustache:1 app/scripts/lib/auth-errors.js:339
 msgid "Link damaged"
 msgstr "Keppeling skansearre"
 
@@ -401,7 +403,7 @@ msgstr "Konfiguraasje mist"
 msgid "Invalid configuration"
 msgstr "Ferkearde konfiguraasje"
 
-#: app/scripts/lib/mailcheck.js:26
+#: app/scripts/lib/mailcheck.js:26 app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
 msgstr "Bedoelden jo <span tabindex=\"1\">%(escapedDomain)s</span>?"
 
@@ -686,7 +688,7 @@ msgstr "Dit apparaat is keppele"
 msgid "Email verified"
 msgstr "E-mailadres ferifiearre"
 
-#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1
+#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:2
 msgid "Success"
 msgstr "Slagge"
 
@@ -715,7 +717,7 @@ msgstr "Meld jo oan by Firefox op in oar apparaat om de ynstallaasje te foltôgj
 msgid "Sign in to Firefox for Android to complete set-up"
 msgstr "Meld jo oan by Firefox foar Android om de ynstallaasje te foltôgjen"
 
-#: app/scripts/templates/connect_another_device.mustache:19 app/scripts/templates/connect_another_device.mustache:21
+#: app/scripts/templates/connect_another_device.mustache:19 app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
 msgid "Why is this required?"
 msgstr "Wêrom is dit fereaske?"
 
@@ -767,11 +769,11 @@ msgstr "Firefox-cloudservices"
 msgid "Legal"
 msgstr "Juridysk"
 
-#: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:5 app/scripts/templates/tos.mustache:2
+#: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:5 app/scripts/templates/tos.mustache:2 app/scripts/templates/settings.mustache:4
 msgid "Terms of Service"
 msgstr "Servicebetingsten"
 
-#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:6
+#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:6 app/scripts/templates/settings.mustache:5
 msgid "Privacy Notice"
 msgstr "Privacybetingsten"
 
@@ -1143,11 +1145,72 @@ msgstr "Firefox Account brûke"
 
 #: app/scripts/lib/strings.js:43
 msgid "Web Session"
-msgstr ""
+msgstr "Websesje"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
 msgstr "Dûbeld apparaat"
+
+#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
+msgid "Invalid phone number"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:125
+msgid "Cannot send to this country"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:134
+msgid "Could not send a message to this number"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:362
+msgid "Phone number required"
+msgstr ""
+
+#: app/scripts/lib/sms-errors.js:23
+msgid "SMS sent"
+msgstr ""
+
+#: app/scripts/lib/sms-errors.js:55
+msgid "Your number has been blocked"
+msgstr ""
+
+#: app/scripts/lib/sms-errors.js:79
+msgid "SMS not sent, please try again"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
+msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:5
+msgid "Mobile phone number"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:6
+msgid "Send"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:7
+msgid ""
+"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:9
+msgid "Maybe later"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
+msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:4
+msgid "If you are not receiving the text message, you can also download the apps manually."
+msgstr ""
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "Net oankommen? Opnij ferstjoere"
