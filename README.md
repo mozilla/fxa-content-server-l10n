@@ -25,8 +25,8 @@ Ubuntu: `sudo apt-get install gettext`
 The process to work with strings:
 
 * Make sure you installed the dependencies and `msgfilter` (from `gettext`) command is available in your shell.
-* Have the `fxa-auth-mailer` and `fxa-content-server` repos at the same directory level as `fxa-content-server-l10n`.
-* Have all the dependencies be up to date in the fxa-auth-mailer and fxa-content-server repos using `npm install`.
+* Have the `fxa-auth-server` and `fxa-content-server` repos at the same directory level as `fxa-content-server-l10n`.
+* Have all the dependencies be up to date in the fxa-auth-server and fxa-content-server repos using `npm install`.
 
 ## Locale Normalization
 > Before Release Build
@@ -40,11 +40,11 @@ Some locales need to be copied over into a different directory. Run this script 
 ## String extraction
 > After Production Deploy
 
-Source strings are extracted from the [fxa-content-server](https://github.com/mozilla/fxa-content-server/) and [fxa-auth-mailer](https://github.com/mozilla/fxa-auth-mailer/) repos. Make sure you to `git pull` the latest changes from `master` for both of those repositories.
+Source strings are extracted from the [fxa-content-server](https://github.com/mozilla/fxa-content-server/) and [fxa-auth-server](https://github.com/mozilla/fxa-auth-server/) repos. Make sure you to `git pull` the latest changes from `master` for both of those repositories.
 
 * `cd` into this project directory and run:
 ```
-./scripts/extract_strings.sh --mailer-repo ../fxa-auth-mailer --content-repo ../fxa-content-server --l10n-repo . TRAIN_NUMBER
+./scripts/extract_strings.sh --mailer-repo ../fxa-auth-server --content-repo ../fxa-content-server --l10n-repo . TRAIN_NUMBER
 ```
 where `TRAIN_NUMBER` is the train you are cutting strings for.
 
