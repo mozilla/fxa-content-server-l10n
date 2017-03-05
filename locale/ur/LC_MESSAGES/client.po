@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-17 18:48+0000\n"
-"PO-Revision-Date: 2017-03-05 08:59+0000\n"
+"PO-Revision-Date: 2017-03-05 09:17+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -153,7 +153,7 @@ msgstr "کم از کم 8 حروف، لہکن لمبا اگر آپ پاسورڈ �
 
 #: app/scripts/views/mixins/password-prompt-mixin.js:21 app/scripts/templates/sign_up.mustache:17
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr ""
+msgstr "ایک مضبوط اور منفرد پاس ورڈ آپ کے Firefox کوائف کو گھسپیٹیوں سے محفوظ رکھے گا۔"
 
 #: app/scripts/views/mixins/password-prompt-mixin.js:22
 msgid "This is a common password; please consider another one."
@@ -570,7 +570,7 @@ msgstr "سیٹنگیں محفوظ کريں"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:17 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
-msgstr ""
+msgstr "پیچھے"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
