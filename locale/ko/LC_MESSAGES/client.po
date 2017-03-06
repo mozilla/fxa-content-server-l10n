@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-05 22:21+0000\n"
-"PO-Revision-Date: 2017-03-06 09:54+0000\n"
+"PO-Revision-Date: 2017-03-06 10:09+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -658,7 +658,7 @@ msgstr "당신의 Firefox 데이터를 더 안전하게 보호하기 위해, %(e
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive and not in spam folder? Resend"
-msgstr ""
+msgstr "도착하지 않았고 스팸 폴더에도 없나요? 다시 보내세요"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -934,23 +934,23 @@ msgstr "계정을 가지고 계신가요? 로그인"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
-msgstr ""
+msgstr "여러 개의 장치에 동기화를 사용하는 이유가 있나요?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
 "Firefox for desktop will appear."
-msgstr ""
+msgstr "동기화를 사용하면 동기화를 사용하는 스마트폰이나 태블릿, 심지어 데스크탑의 북마크와 방문 기록, 그리고 비밀번호를 공유할 수 있습니다. Firefox에 로그인하여 동기화를 시작하세요."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
 "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
-msgstr ""
+msgstr "동기화는 영구적인 백업을 목적으로 설계된 것이 아닙니다–다른 곳에 저장되지 않고 오로지 본인의 기기에만 저장됩니다. 때문에 비밀번호를 바꾸고 어딘가에 저장하지 않았다면 이전 비밀번호와 관련된 모든 정보를 잃을 수도 있습니다. Firefox를 설치한 모든 기기에 동기화를 사용하는 이유가 바로 이것입니다."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
-msgstr ""
+msgstr "알겠습니다"
 
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2
@@ -1027,7 +1027,7 @@ msgstr "예전 혹은 변경된 기기"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate Device"
-msgstr ""
+msgstr "기기 복사"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
@@ -1063,11 +1063,11 @@ msgstr "iOS용 Firefox"
 
 #: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15
 msgid "none connected"
-msgstr ""
+msgstr "연결된 것 없음"
 
 #: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Download"
-msgstr ""
+msgstr "다운로드"
 
 #: app/scripts/templates/settings/clients.mustache:14
 msgid "Firefox for Android"
@@ -1135,7 +1135,7 @@ msgstr "Firefox Account 사용"
 
 #: app/scripts/lib/strings.js:43
 msgid "Web Session"
-msgstr ""
+msgstr "웹 세션"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
@@ -1143,47 +1143,47 @@ msgstr "중복된 기기"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr ""
+msgstr "올바르지 않은 전화번호"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "이 나라로는 보낼 수 없습니다"
 
 #: app/scripts/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "이 번호로는 보낼 수 없습니다"
 
 #: app/scripts/lib/auth-errors.js:362
 msgid "Phone number required"
-msgstr ""
+msgstr "전화번호를 입력하세요"
 
 #: app/scripts/lib/sms-errors.js:23
 msgid "SMS sent"
-msgstr ""
+msgstr "SMS 보냄"
 
 #: app/scripts/lib/sms-errors.js:55
 msgid "Your number has been blocked"
-msgstr ""
+msgstr "차단된 번호입니다"
 
 #: app/scripts/lib/sms-errors.js:79
 msgid "SMS not sent, please try again"
-msgstr ""
+msgstr "SMS 전송에 실패했습니다. 다시 시도해주세요"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Firefox를 스마트폰에 전송하고, 로그인하여 설정을 완료하세요"
 
 #: app/scripts/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
-msgstr ""
+msgstr "이 Firefox는 연결되었습니다"
 
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
-msgstr ""
+msgstr "핸드폰 번호"
 
 #: app/scripts/templates/sms_send.mustache:6
 msgid "Send"
-msgstr ""
+msgstr "보내기"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
@@ -1192,15 +1192,15 @@ msgstr ""
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
-msgstr ""
+msgstr "나중에요"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
-msgstr ""
+msgstr "%(phoneNumber)s로 보낸 링크를 사용해 Firefox의 설치를 완료하세요"
 
 #: app/scripts/templates/sms_sent.mustache:4
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "만약 문자가 오지 않았다면, 앱을 수동으로 받을 수도 있습니다."
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "도착하지 않았나요? 다시 보내기"
