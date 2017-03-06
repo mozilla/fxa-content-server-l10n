@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-05 22:21+0000\n"
-"PO-Revision-Date: 2017-03-05 23:50+0000\n"
+"PO-Revision-Date: 2017-03-05 23:54+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -1183,36 +1183,38 @@ msgstr "Le SMS n’a pas été envoyé, veuillez réessayer"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Envoyez Firefox directement sur votre téléphone et connectez-vous pour terminer la configuration"
 
 #: app/scripts/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
-msgstr ""
+msgstr "Cette version de Firefox est connectée"
 
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
-msgstr ""
+msgstr "Numéro de téléphone portable"
 
 #: app/scripts/templates/sms_send.mustache:6
 msgid "Send"
-msgstr ""
+msgstr "Envoyer"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"Le service SMS est uniquement disponible pour les numéros de téléphone aux États-Unis. Des frais liés aux SMS et aux données peuvent s’appliquer. Le destinataire du courrier électronique ou du SMS "
+"doit avoir donné son accord. <a %(escapedLearnMoreAttributes)s>En savoir plus</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
-msgstr ""
+msgstr "Peut-être plus tard"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
-msgstr ""
+msgstr "Terminez la configuration en installant Firefox grâce au lien envoyé à %(phoneNumber)s"
 
 #: app/scripts/templates/sms_sent.mustache:4
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Si vous ne recevez pas de message, vous pouvez également télécharger l’application manuellement."
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "Rien reçu ? Réessayez"
