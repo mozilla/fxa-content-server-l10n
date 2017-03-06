@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-05 22:21+0000\n"
-"PO-Revision-Date: 2017-03-06 06:31+0000\n"
+"PO-Revision-Date: 2017-03-06 06:33+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1201,11 +1201,11 @@ msgstr "後で考えます"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
-msgstr ""
+msgstr "%(phoneNumber)s へ送信されたリンクを使って Firefox をインストールし、設定を完了しましょう"
 
 #: app/scripts/templates/sms_sent.mustache:4
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "テキストメッセージを受信していない場合は、アプリを手作業でダウンロードすることもできます。"
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "受信していませんか？ 再送信"
