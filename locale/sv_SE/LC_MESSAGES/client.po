@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-05 22:21+0000\n"
-"PO-Revision-Date: 2017-03-06 17:50+0000\n"
+"PO-Revision-Date: 2017-03-06 17:55+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
@@ -1175,15 +1175,15 @@ msgstr "SMS kunde inte skickas, vänligen försök igen"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Skicka Firefox direkt till din smartphone och logga in för att slutföra konfigurationen"
 
 #: app/scripts/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
-msgstr "Denna Firefox är ansluten"
+msgstr "Firefox är ansluten"
 
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
-msgstr "Mobil telefonnummer"
+msgstr "Mobiltelefonnummer"
 
 #: app/scripts/templates/sms_send.mustache:6
 msgid "Send"
@@ -1193,6 +1193,8 @@ msgstr "Skicka"
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"SMS-tjänsten är endast tillgänglig för US-telefonnummer. SMS &amp; datapriser kan tillkomma. Den avsedda mottagaren av e-post eller SMS måste ha samtyckt. <a %(escapedLearnMoreAttributes)s>Läs "
+"mer</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
@@ -1200,11 +1202,11 @@ msgstr "Kanske senare"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
-msgstr ""
+msgstr "Slutför konfigurationen genom att installera Firefox med länken som skickats till %(phoneNumber)s"
 
 #: app/scripts/templates/sms_sent.mustache:4
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Om du inte får ett textmeddelande, kan du också ladda ner appar manuellt."
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "Kom det inte fram? Skicka igen"
