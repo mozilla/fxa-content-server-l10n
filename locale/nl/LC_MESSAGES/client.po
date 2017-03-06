@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-05 22:21+0000\n"
-"PO-Revision-Date: 2017-03-06 15:31+0000\n"
+"PO-Revision-Date: 2017-03-06 15:41+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -1178,11 +1178,11 @@ msgstr "Sms is niet verzonden, probeer het opnieuw"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Stuur Firefox rechtstreeks naar uw smartphone en meld u aan om het instellen te voltooien"
 
 #: app/scripts/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
-msgstr "Deze kopie van Firefox is verbonden"
+msgstr "Dit exemplaar van Firefox is gekoppeld"
 
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
@@ -1190,24 +1190,26 @@ msgstr "Mobieletelefoonnummer"
 
 #: app/scripts/templates/sms_send.mustache:6
 msgid "Send"
-msgstr ""
+msgstr "Verzenden"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"Sms-service is alleen voor telefoonnummers in de VS beschikbaar. Mogelijk zijn er kosten voor sms en gegevens van toepassing. De bedoelde ontvanger van het e-mail- of sms-bericht moet hiermee "
+"akkoord zijn gegaan. <a %(escapedLearnMoreAttributes)s>Meer info</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
-msgstr ""
+msgstr "Misschien later"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
-msgstr ""
+msgstr "Voltooi het instellen door Firefox te installeren via de koppeling die naar %(phoneNumber)s is verzonden"
 
 #: app/scripts/templates/sms_sent.mustache:4
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Als u het sms-bericht niet ontvangt, kunt u de apps ook handmatig downloaden."
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "Niet aangekomen? Opnieuw verzenden"
