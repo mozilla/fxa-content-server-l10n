@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-05 22:21+0000\n"
-"PO-Revision-Date: 2017-03-06 13:31+0000\n"
+"PO-Revision-Date: 2017-03-06 13:36+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -1188,19 +1188,19 @@ msgstr "傳送"
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
+msgstr "僅可傳送簡訊到美國的手機門號，可能會收取簡訊與數據傳輸費用。傳送前，請務必取得電子郵件或簡訊收件者的同意。<a %(escapedLearnMoreAttributes)s>了解更多</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
-msgstr ""
+msgstr "之後再寄"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
-msgstr ""
+msgstr "請點擊發送到 %(phoneNumber)s 的鏈結，完成安裝 Firefox"
 
 #: app/scripts/templates/sms_sent.mustache:4
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "若您沒收到簡訊，也可以手動下載程式。"
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "沒收到嗎？再寄一次"
