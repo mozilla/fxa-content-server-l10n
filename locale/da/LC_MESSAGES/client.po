@@ -1204,7 +1204,7 @@ msgstr "Gør opsætningen færdig ved at installere Firefox sendt til %(phoneNum
 
 #: app/scripts/templates/sms_sent.mustache:4
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Hvis du ikke har modtaget SMS'en kan du hente apps manuelt. "
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "Ikke ankommet? Send igen"
