@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-05 22:21+0000\n"
-"PO-Revision-Date: 2017-03-06 03:50+0000\n"
+"PO-Revision-Date: 2017-03-06 03:57+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -108,7 +108,7 @@ msgstr "Ativo pela última vez %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/communication_preferences.js:104
 msgid "Subscribed successfully"
-msgstr "Subscrição efetuada"
+msgstr "Subscrição efetuada com sucesso"
 
 #: app/scripts/views/settings/communication_preferences.js:105
 msgid "Unsubscribed successfully"
@@ -1199,18 +1199,20 @@ msgstr "Enviar"
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"Serviço de SMS disponível apenas para números de telefone dos EUA. Taxas de dados &amp; de SMS poderão ser aplicadas. O destinatário pretendido do email ou SMS deve ter consentido. <a "
+"%(escapedLearnMoreAttributes)s>Saber mais</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
-msgstr ""
+msgstr "Talvez mais tarde"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
-msgstr ""
+msgstr "Complete a configuração ao instalar o Firefox utilizando a ligação enviada para %(phoneNumber)s"
 
 #: app/scripts/templates/sms_sent.mustache:4
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Se não está a receber a mensagem de texto, pode também descarregar as aplicações manualmente."
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "Não chegou? Reenviar"
