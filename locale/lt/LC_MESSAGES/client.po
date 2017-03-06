@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-05 22:21+0000\n"
-"PO-Revision-Date: 2017-03-06 06:31+0000\n"
+"PO-Revision-Date: 2017-03-06 06:35+0000\n"
 "Last-Translator: rimas <rimas@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lt\n"
@@ -1201,18 +1201,20 @@ msgstr "Siųsti"
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"SMS paslauga galima tik JAV telefono numeriams. Gali būti taikomi SMS ir duomenų mokesčiai. El. laiško ar SMS pranešimo gavėjas privalo būti sutikęs jį gauti. <a "
+"%(escapedLearnMoreAttributes)s>Sužinokite daugiau</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
-msgstr ""
+msgstr "Gal vėliau"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
-msgstr ""
+msgstr "Užbaikite diegimą, įdiegdami „Firefox“, pasinaudodami saitu, išsiųstu numeriu %(phoneNumber)s"
 
 #: app/scripts/templates/sms_sent.mustache:4
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Jeigu SMS pranešimo negaunate, galite programą parsisiųsti savarankiškai."
 
 #~ msgid "Forgot password"
 #~ msgstr "Pamiršau slaptažodį"
