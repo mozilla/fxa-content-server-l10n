@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-05 22:21+0000\n"
-"PO-Revision-Date: 2017-03-06 14:47+0000\n"
+"PO-Revision-Date: 2017-03-06 14:54+0000\n"
 "Last-Translator: Cynthia Pereira <cynthiacpereira@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1194,11 +1194,13 @@ msgstr "Enviar"
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr "Serviço de SMS disponível apenas para números de telefone dos EUA. Taxas de SMS e dados podem ser aplicadas. O destinatário do e-mail ou SMS deve ter consentido."
+msgstr ""
+"Serviço de SMS disponível apenas para números de telefone dos EUA. Cobranças de dados e SMS podem ser aplicadas. O destinatário do e-mail ou SMS deve ter dado seu consentimento. <a "
+"%(escapedLearnMoreAttributes)s>Saiba mais</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
-msgstr ""
+msgstr "Talvez mais tarde"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
