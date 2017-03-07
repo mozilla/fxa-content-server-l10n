@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-05 22:21+0000\n"
-"PO-Revision-Date: 2017-03-06 09:06+0000\n"
+"PO-Revision-Date: 2017-03-07 07:44+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -1157,7 +1157,7 @@ msgstr "Net mooglik nei dit lân te ferstjioeren"
 
 #: app/scripts/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "Kin gjin berjocht nei dit nûmer ferstjoere"
 
 #: app/scripts/lib/auth-errors.js:362
 msgid "Phone number required"
@@ -1195,6 +1195,8 @@ msgstr "Ferstjoere"
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"Sms-tsjinst is allinnich foar telefoannûmers yn de FS beskikber. Mooglik binne der kosten foar sms en gegevens fan tapassing. De bedoelde ûntfanger fan it e-mail- of sms-berjocht moat hjirmei "
+"akkoard gean wêze. <a %(escapedLearnMoreAttributes)s>Mear ynfo</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
@@ -1202,11 +1204,11 @@ msgstr "Miskien letter"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
-msgstr ""
+msgstr "Foltôgje it ynstellen troch Firefox te ynstallearjen fia de keppeling dy't nei %(phoneNumber)s ferstjoerd is"
 
 #: app/scripts/templates/sms_sent.mustache:4
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "As jo it sms-berjocht net ûntfange, kinne jo de apps ek hânmjittich downloade."
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "Net oankommen? Opnij ferstjoere"
