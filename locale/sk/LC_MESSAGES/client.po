@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-05 22:21+0000\n"
-"PO-Revision-Date: 2017-03-07 19:41+0000\n"
+"PO-Revision-Date: 2017-03-07 21:18+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -1195,18 +1195,20 @@ msgstr "Odoslať"
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"SMS služba je dostupná len pre telefónne čísla z USA. Môžu sa účtovať poplatky za SMS a mobilné dáta. Prijímateľ e-mailu alebo SMS musí s prijatím súhlasiť. <a %(escapedLearnMoreAttributes)s>Ďalšie "
+"informácie</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
-msgstr ""
+msgstr "Možno neskôr"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
-msgstr ""
+msgstr "Vytvorenie dokončíte nainštalovaním Firefoxu pomocou odkazu poslaného na telefónne číslo %(phoneNumber)s"
 
 #: app/scripts/templates/sms_sent.mustache:4
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Ak ste nedostali správu, môžete aplikáciu prevziať aj ručne."
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "Neprišlo? Odoslať znova"
