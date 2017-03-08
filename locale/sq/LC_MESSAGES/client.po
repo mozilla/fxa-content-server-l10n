@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-05 22:21+0000\n"
-"PO-Revision-Date: 2017-03-08 16:30+0000\n"
+"PO-Revision-Date: 2017-03-08 16:34+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -1246,18 +1246,20 @@ msgstr "Dërgoje"
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"Shërbim SMS i passhëm vetëm nga numra celularësh në ShBA. Mund të ketë tarifa shtesë SMS-sh &amp; të dhënash. Marrësi i synuar për email-in ose për SMS-në duhet të ketë dhënë pëlqimin e tij. <a "
+"%(escapedLearnMoreAttributes)s>Mësoni më tepër</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
-msgstr ""
+msgstr "Ndoshta më vonë"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
-msgstr ""
+msgstr "Plotësojeni rregullimin me instalimin e Firefox-it duke përdorur lidhjen e dërguar te %(phoneNumber)s"
 
 #: app/scripts/templates/sms_sent.mustache:4
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Nëse s’po ju vjen mesazhi tekst, mundeni edhe t’i shkarkoni aplikacionet dorazi."
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "S’erdhi? Rimerreni"
