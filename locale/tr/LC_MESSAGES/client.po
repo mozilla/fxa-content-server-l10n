@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-05 22:21+0000\n"
-"PO-Revision-Date: 2017-03-07 12:20+0000\n"
+"PO-Revision-Date: 2017-03-09 10:35+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -1177,7 +1177,7 @@ msgstr "SMS gönderilmedi. Lütfen yeniden deneyin"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Firefox'u doğrudan akıllı telefonunuza gönderip giriş yaparak kurulumu tamamlayın"
 
 #: app/scripts/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
@@ -1195,18 +1195,20 @@ msgstr "Gönder"
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"SMS hizmeti yalnızca Amerika telefon numaralarıyla kullanılabilir. SMS ücreti uygulanabilir. E-posta veya SMS'in alıcısı bunu kabul etmiş olmalıdır. <a %(escapedLearnMoreAttributes)s>Daha fazla "
+"bilgi alın</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
-msgstr ""
+msgstr "Daha sonra"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
-msgstr ""
+msgstr "%(phoneNumber)s numarasına gönderilen bağlantıyı kullanarak Firefox'u yükleyin"
 
 #: app/scripts/templates/sms_sent.mustache:4
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Mesaj gelmediyse uygulamaları kendiniz de indirebilirsiniz."
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "Gelmedi mi? Yeniden gönderelim"
