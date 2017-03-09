@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-05 22:21+0000\n"
-"PO-Revision-Date: 2017-03-09 08:07+0000\n"
+"PO-Revision-Date: 2017-03-09 08:46+0000\n"
 "Last-Translator: Mahay Alam Khan <mahayalamkhan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_BD\n"
@@ -1193,6 +1193,7 @@ msgstr "প্রেরণ"
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"SMS সেবা শুধুমাত্র যুক্তরাষ্ট্রের ফোন নম্বরের জন্যে দেওয়া হয়। SMS &amp; ডাটা রেট প্রযোজ্য হতে পারে। ইমেইল অথবা SMS এর গ্রহীতার সম্মতি থাকতে হবে। <a %(escapedLearnMoreAttributes)s>আরও জানুন</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
@@ -1204,7 +1205,7 @@ msgstr "%(phoneNumber)s নম্বরে পাঠানো লিংক ব�
 
 #: app/scripts/templates/sms_sent.mustache:4
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "আপনি যদি ক্ষুদেবার্তা না পেয়ে থাকেন, আপনি তাহলে অ্যাপটি নিজে ডাউনলোড করে নিতে পারেন।"
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "পৌঁছায়নি? আবার পাঠাও"
