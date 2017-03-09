@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-05 22:21+0000\n"
-"PO-Revision-Date: 2017-03-09 11:08+0000\n"
+"PO-Revision-Date: 2017-03-09 11:20+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
@@ -951,10 +951,13 @@ msgid ""
 "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 msgstr ""
+"سیستم همگام‌سازی به عنوان یک سیستم پشتیبان‌گیری همیشگی طراحی نشده است – این فقط یک سیستم اشتراک‌گذاری چیزهایی است که بطور محلی ذخیره کرده‌اید. اگر شما یکی گذرواژه‌های خود را دوباره تنظیم کنید و "
+"اطلاعات شما حداقل در یک دستگاه دیگر ذخیره نشده باشد، امکان دارد تمام اطلاعات مرتبط با گذرواژه قبلی را از دست بدهید. به همین دلیل است که ممکن است بخواهید فایرفاکس در حداقل در یک دستگاه دیگر نصب و از "
+"سیستم همگام‌سازی استفاده کنید."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
-msgstr ""
+msgstr "گرفتم"
 
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2
@@ -1031,7 +1034,7 @@ msgstr "دستگاه قدیمی یا تعویض شده"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate Device"
-msgstr ""
+msgstr "دستگاه تکراری"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
@@ -1067,11 +1070,11 @@ msgstr "فایرفاکس برای iOS"
 
 #: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15
 msgid "none connected"
-msgstr ""
+msgstr "هیچکدام وصل نشد"
 
 #: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Download"
-msgstr ""
+msgstr "بارگیری"
 
 #: app/scripts/templates/settings/clients.mustache:14
 msgid "Firefox for Android"
@@ -1139,72 +1142,74 @@ msgstr "استفاده از حساب فایرفاکس"
 
 #: app/scripts/lib/strings.js:43
 msgid "Web Session"
-msgstr ""
+msgstr "نشست وب"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
-msgstr ""
+msgstr "دستگاه تکراری"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr ""
+msgstr "شماره تلفن نامعتبر"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "نمی‌توان به این کشور ارسال کرد"
 
 #: app/scripts/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "امکان ارسال پیام به این شماره نبود"
 
 #: app/scripts/lib/auth-errors.js:362
 msgid "Phone number required"
-msgstr ""
+msgstr "شماره تلفن لازم است"
 
 #: app/scripts/lib/sms-errors.js:23
 msgid "SMS sent"
-msgstr ""
+msgstr "پیامک ارسال شد"
 
 #: app/scripts/lib/sms-errors.js:55
 msgid "Your number has been blocked"
-msgstr ""
+msgstr "شماره شما مسدود شده است"
 
 #: app/scripts/lib/sms-errors.js:79
 msgid "SMS not sent, please try again"
-msgstr ""
+msgstr "پیامک ارسال نشد، لطفا دوباره تلاش کنید"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "فایرفاکس را مستقیما به تلفن هوشمند خود ارسال کنید و برای تکمیل برپاسازی وارد حساب خود شوید"
 
 #: app/scripts/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
-msgstr ""
+msgstr "این فایرفاکس متصل شده است"
 
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
-msgstr ""
+msgstr "شماره تلفن موبایل"
 
 #: app/scripts/templates/sms_send.mustache:6
 msgid "Send"
-msgstr ""
+msgstr "ارسال"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"سرویس پیامک تنها برای شماره‌های ایالات متحده در دسترس است. هزینه پیامک یا دیتا ممکن است لحاظ شود. دریافت کننده پست‌الکترونیکی یا پیامک باید راضی باشد. <a %(escapedLearnMoreAttributes)s>اطلاعات "
+"بیشتر</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
-msgstr ""
+msgstr "شاید بعداً"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
-msgstr ""
+msgstr "برپاسازی را از طریق ارسال پیوند نصب فایرفاکس به %(phoneNumber)s تکمیل کنید"
 
 #: app/scripts/templates/sms_sent.mustache:4
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "چنانچه پیامکی دریافت نمی‌کنید، می‌توانید برنامه را به طور دستی نصب کنید."
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "به دستتان نرسید؟ ارسال مجدد"
