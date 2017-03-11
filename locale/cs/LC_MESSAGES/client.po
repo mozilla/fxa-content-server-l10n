@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-05 22:21+0000\n"
-"PO-Revision-Date: 2017-03-11 10:10+0000\n"
+"PO-Revision-Date: 2017-03-11 10:11+0000\n"
 "Last-Translator: Michal Vašíček <michalvasicek@icloud.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -1149,11 +1149,11 @@ msgstr "Duplicitní zařízení"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Neplatné telefonní číslo"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "Do této země nelze odeslat"
 
 #: app/scripts/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
@@ -1208,7 +1208,7 @@ msgstr "Dokončete nastavení instalací Firefoxu za použití odkazu odeslanéh
 
 #: app/scripts/templates/sms_sent.mustache:4
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Pokud jste textovou zprávu neobdrželi, můžete si také aplikace stáhnout manuálně."
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "Nedorazilo? Odeslat znovu"
