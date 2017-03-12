@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-05 22:21+0000\n"
-"PO-Revision-Date: 2017-01-28 21:39+0000\n"
-"Last-Translator: hernanadc <hernanadc@gmail.com>\n"
+"PO-Revision-Date: 2017-03-12 16:43+0000\n"
+"Last-Translator: Marcelo Poli <enzomatrix@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
 "MIME-Version: 1.0\n"
@@ -480,9 +480,7 @@ msgid "Script error"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Al continuar, acuerda con los <a id=\"service-tos\" href=\"%(termsUri)s\">Términos de servicio</a> y<a id=\"service-pp\" href=\"%(privacyUri)s\">las notas de privacidad</a> de %(serviceName)s "
 "(%(serviceUri)s)."
@@ -1141,39 +1139,39 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:43
 msgid "Web Session"
-msgstr ""
+msgstr "Sesión web"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
-msgstr ""
+msgstr "Dispositivo duplicado"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Número de teléfono no válido"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "No se puede enviar a este país"
 
 #: app/scripts/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "No se puede enviar un mensaje a este número"
 
 #: app/scripts/lib/auth-errors.js:362
 msgid "Phone number required"
-msgstr ""
+msgstr "Número de teléfono requerido"
 
 #: app/scripts/lib/sms-errors.js:23
 msgid "SMS sent"
-msgstr ""
+msgstr "SMS enviado"
 
 #: app/scripts/lib/sms-errors.js:55
 msgid "Your number has been blocked"
-msgstr ""
+msgstr "Ese número ha sido bloqueado"
 
 #: app/scripts/lib/sms-errors.js:79
 msgid "SMS not sent, please try again"
-msgstr ""
+msgstr "SMS no enviado, probá de nuevo"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
@@ -1181,15 +1179,15 @@ msgstr ""
 
 #: app/scripts/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
-msgstr ""
+msgstr "Este Firefox está conectado"
 
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
-msgstr ""
+msgstr "Número de teléfono celular"
 
 #: app/scripts/templates/sms_send.mustache:6
 msgid "Send"
-msgstr ""
+msgstr "Enviar"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
@@ -1198,7 +1196,7 @@ msgstr ""
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
-msgstr ""
+msgstr "Quizás más tarde"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
@@ -1206,7 +1204,7 @@ msgstr ""
 
 #: app/scripts/templates/sms_sent.mustache:4
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Si no estás recibiendo el mensaje de texto, podés descargar las aplicaciones manualmente."
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "¿No llegó? Reenviar"
@@ -1254,11 +1252,11 @@ msgstr ""
 #~ msgstr "¿Tenés una cuenta con diferente correo electrónico? <a href=\"%(signinUri)s\">Iniciá sesión</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox está disponible para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> y <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox está disponible para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> y <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Última vez activo: %(translatedTimeAgo)s"
@@ -1363,8 +1361,8 @@ msgstr ""
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Habilitá las cookies en tu navegador ya que es necesario para el funcionamiento de Firefox Accounts. Las cookies son pequeñas piezas de información guardadas en tu navegador que brindan "
-#~ "distintas funciones, como la de recordarte entre sesiones."
+#~ "Habilitá las cookies en tu navegador ya que es necesario para el funcionamiento de Firefox Accounts. Las cookies son pequeñas piezas de información guardadas en tu navegador que brindan distintas "
+#~ "funciones, como la de recordarte entre sesiones."
 
 #~ msgid "1991"
 #~ msgstr "1991"
@@ -1445,9 +1443,7 @@ msgstr ""
 #~ msgstr "¿Ya tenés cuenta? Ingresá."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "Al continuar, aceptás los <a id=\"fxa-tos\" href=\"/legal/terms\">términos del servicio</a> y la <a id=\"fxa-pp\" href=\"/legal/privacy\">política de privacidad</a> de los servicios en la nube "
-#~ "de Firefox."
+#~ msgstr "Al continuar, aceptás los <a id=\"fxa-tos\" href=\"/legal/terms\">términos del servicio</a> y la <a id=\"fxa-pp\" href=\"/legal/privacy\">política de privacidad</a> de los servicios en la nube de Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Suscribite a novedades y sugerencias de Firefox"
