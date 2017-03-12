@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-05 22:21+0000\n"
-"PO-Revision-Date: 2017-03-11 20:23+0000\n"
+"PO-Revision-Date: 2017-03-12 09:57+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -1167,7 +1167,7 @@ msgstr "SMS poslan"
 
 #: app/scripts/lib/sms-errors.js:55
 msgid "Your number has been blocked"
-msgstr ""
+msgstr "Vaša številka je zavrnjena"
 
 #: app/scripts/lib/sms-errors.js:79
 msgid "SMS not sent, please try again"
@@ -1202,11 +1202,11 @@ msgstr "Morda pozneje"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
-msgstr ""
+msgstr "Zaključite nastavitev z namestitvijo Firefoxa prek povezave, poslane na %(phoneNumber)s"
 
 #: app/scripts/templates/sms_sent.mustache:4
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Če ne morete prejeti sporočila, lahko aplikaciji prenesete tudi ročno."
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "Ni prispelo? Pošlji ponovno"
