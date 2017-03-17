@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-05 22:21+0000\n"
-"PO-Revision-Date: 2017-02-21 12:01+0000\n"
+"PO-Revision-Date: 2017-03-17 11:44+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -482,9 +482,7 @@ msgid "Script error"
 msgstr "Skriptfeil"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Ved å fortsette, aksepterer du <a id=\"service-tos\" href=\"%(termsUri)s\">tjenestevilkårene</a> og <a id=\"service-pp\" href=\"%(privacyUri)s\">personvernsbestemmelser</a> for %(serviceName)s "
 "(%(serviceUri)s)."
@@ -1153,31 +1151,31 @@ msgstr "Duplikatenhet"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Ugyldig telefonnummer"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "Kan ikke sende til dette landet"
 
 #: app/scripts/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "Kan ikke sende en melding til dette nummeret"
 
 #: app/scripts/lib/auth-errors.js:362
 msgid "Phone number required"
-msgstr ""
+msgstr "Telefonnummer påkrevd"
 
 #: app/scripts/lib/sms-errors.js:23
 msgid "SMS sent"
-msgstr ""
+msgstr "SMS sendt"
 
 #: app/scripts/lib/sms-errors.js:55
 msgid "Your number has been blocked"
-msgstr ""
+msgstr "Nummeret ditt har blitt blokkert"
 
 #: app/scripts/lib/sms-errors.js:79
 msgid "SMS not sent, please try again"
-msgstr ""
+msgstr "SMS ikke sendt, prøv igjen"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
@@ -1255,8 +1253,8 @@ msgstr ""
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "For å bruke Firefox-konti må du aktiver informasjonskapsler i nettleseren din. Informasjonskapsler er små biter av data som er lagret i nettleseren din, som gir funksjonalitet som å huske deg "
-#~ "mellom øktene."
+#~ "For å bruke Firefox-konti må du aktiver informasjonskapsler i nettleseren din. Informasjonskapsler er små biter av data som er lagret i nettleseren din, som gir funksjonalitet som å huske deg mellom"
+#~ " øktene."
 
 #~ msgid "1991"
 #~ msgstr "1991"
