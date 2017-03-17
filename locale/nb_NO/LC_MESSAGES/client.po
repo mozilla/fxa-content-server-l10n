@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-05 22:21+0000\n"
-"PO-Revision-Date: 2017-03-17 11:44+0000\n"
+"PO-Revision-Date: 2017-03-17 11:57+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -1179,36 +1179,38 @@ msgstr "SMS ikke sendt, prøv igjen"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Send Firefox direkte til din smarttelefonen og logg inn for å fullføre oppsettet"
 
 #: app/scripts/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
-msgstr ""
+msgstr "Firefox er tilkoblet"
 
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
-msgstr ""
+msgstr "Mobilnummer"
 
 #: app/scripts/templates/sms_send.mustache:6
 msgid "Send"
-msgstr ""
+msgstr "Send"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"SMS-tjeneste kun tilgjengelig for amerikanske telefonnumre. Du må kanskje betale for SMS og data. Mottakeren av e-posten eller SMS-en må ha gitt samtykke. <a %(escapedLearnMoreAttributes)s>Les "
+"mer</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
-msgstr ""
+msgstr "Kanskje senere"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
-msgstr ""
+msgstr "Fullfør oppsett ved å installere Firefox med lenken sendt til %(phoneNumber)s"
 
 #: app/scripts/templates/sms_sent.mustache:4
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Hvis du ikke mottar tekstmeldingen, kan du også laste ned appen manuelt."
 
 #~ msgid "Stay in sync on the go:"
 #~ msgstr "Hold deg synkronisert på farten:"
