@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-05 22:21+0000\n"
-"PO-Revision-Date: 2017-03-09 11:21+0000\n"
+"PO-Revision-Date: 2017-03-18 15:20+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
@@ -199,7 +199,7 @@ msgstr "گذرواژه خود را فراموش کرده‌اید؟"
 
 #: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
-msgstr ""
+msgstr "تا یک ساعت دیگر بر روی دکمه کلیک کنید تا گذرواژه‌ای جدید برای حساب فایرفاکس خود تعیین کنید. درخواست از دستگاه مقابل ارسال شده است:"
 
 #: lib/senders/templates/recovery.html:5 lib/senders/templates/recovery.txt:4
 msgid "Reset password"
@@ -207,7 +207,7 @@ msgstr "بازنشانی گذرواژه"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
-msgstr ""
+msgstr "همان‌طور که درخواست دادید، این پیوندی است که از طریق آن می‌توانید فایرفاکس را بر روی دستگاه موبایل خود نصب کنید: %(link)s"
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1
 msgid "Is this you signing in?"
@@ -285,19 +285,19 @@ msgstr "اگر شما مشکوک هستید که فرد دیگری قصد ورو
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
-msgstr ""
+msgstr "آماده، درجا، همگام‌سازی"
 
 #: lib/senders/templates/verify_sync.html:3 lib/senders/templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "تایید کنید که این ایمیل را دریافت کرده‌اید و پس از آن ما به شما کمک خواهیم کرد تا فایرفاکس را در تمام دستگاه‌های خود نصب و همگام‌سازی کنید، با شروع از:"
 
 #: lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
 msgid "Verify email "
-msgstr ""
+msgstr "تایید ایمیل "
 
 #: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "پس از تایید، ما ه شما کمک می‌کنیم تا فایرفاکس را حداقل در یک دستگاه دیگر نصب و متصل کنید."
 
 #: lib/senders/email.js:152
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -329,7 +329,7 @@ msgstr "حساب فایرفاکس خود را تایید کنید"
 
 #: lib/senders/email.js:305
 msgid "Confirm your email and start to sync!"
-msgstr ""
+msgstr "ایمیل خود را تایید و شروع به همگام‌سازی کنید!"
 
 #: lib/senders/email.js:362
 msgid "Firefox Account authorization code"
