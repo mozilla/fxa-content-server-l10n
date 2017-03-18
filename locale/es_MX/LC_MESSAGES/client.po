@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-05 22:21+0000\n"
-"PO-Revision-Date: 2017-03-18 03:27+0000\n"
+"PO-Revision-Date: 2017-03-18 03:38+0000\n"
 "Last-Translator: Breana Gonzales <breanajones@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_MX\n"
@@ -1194,18 +1194,20 @@ msgstr "Enviar"
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"Servicio de SMS disponible sólo para números telefónicos de EEUU. Pueden aplicar cobros de datos y SMS. El receptor del correo o SMS debe haber dado su consentimiento. <a "
+"%(escapedLearnMoreAttributes)s>Aprender más</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
-msgstr ""
+msgstr "Quizás después"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
-msgstr ""
+msgstr "Completa la configuración instalando Firefox a través del enlace enviado al %(phoneNumber)s"
 
 #: app/scripts/templates/sms_sent.mustache:4
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Si no estás recibiendo el mensaje de texto, puedes descargar las aplicaciones manualmente."
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "¿No llego? Reenvíalo"
