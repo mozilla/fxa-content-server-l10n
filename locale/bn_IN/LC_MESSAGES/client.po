@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-05 22:21+0000\n"
+"POT-Creation-Date: 2017-03-20 23:23+0000\n"
 "PO-Revision-Date: 2016-11-08 05:49+0000\n"
 "Last-Translator: Ayan Choudhury <ping2ayan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-POOTLE-MTIME: 1432443511.0\n"
 
 #: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
-#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
+#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170 app/scripts/views/complete_sign_up.js:184
 msgid "Account verified successfully"
 msgstr "অ্যাকাউন্ট সফলভাবে যাচাই করা হয়েছে"
 
@@ -37,6 +37,7 @@ msgid "Email address"
 msgstr "ইমেইল"
 
 #: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:4
+#: app/scripts/templates/settings/display_name.mustache:6
 msgid "Display name"
 msgstr "নাম প্রদর্শন করুন"
 
@@ -68,11 +69,11 @@ msgstr "আপনি এখন %(serviceName)s ব্যবহার করত�
 msgid "Account verified"
 msgstr "অ্যাকাউন্ট যাচাইকরণ হয়েছে"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:167
+#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:167 app/scripts/views/sign_in.js:169
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "অপরিচিত অ্যাকাউন্ট। <a href=\"/signup\">সাইন আপ</a>"
 
-#: app/scripts/views/sign_in.js:164
+#: app/scripts/views/sign_in.js:164 app/scripts/views/sign_in.js:166
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr ""
 
@@ -88,7 +89,7 @@ msgstr "অ্যাকাউন্ট ইতিমধ্যেই আছে। 
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> এর সৌজন্যে"
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:52 app/scripts/views/settings/change_password.js:53
 msgid "Password changed successfully"
 msgstr "সফলভাবে পাসওয়ার্ড বদল করা হয়েছে"
 
@@ -100,7 +101,7 @@ msgstr "আমরা এটা শোনাতে দুঃখিত। আপ�
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "আমরা এটা শোনাতে দুঃখিত। যদি এটাই সেই ডিভাইস হয়ে থাকে যাকে আপনি একদম বিশ্বাস করেননা, আপনার Firefox অ্যাকাউন্টের পাসওয়ার্ড বদলানো উচিত, এবং Firefox-এ সংরক্ষিত যেকোনো পাসওয়ার্ড বদল করুন।"
 
-#: app/scripts/views/settings/clients.js:58 app/scripts/views/settings/clients.js:62
+#: app/scripts/views/settings/clients.js:58 app/scripts/views/settings/clients.js:62 app/scripts/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s"
 msgstr "শেষ সক্রিয় %(translatedTimeAgo)s"
 
@@ -689,6 +690,7 @@ msgid "Email verified"
 msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:2
+#: app/scripts/templates/sms_sent.mustache:3
 msgid "Success"
 msgstr "সাফল্য"
 
@@ -809,7 +811,7 @@ msgstr "স্বীকার করুন"
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9
 #: app/scripts/templates/settings/communication_preferences.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6
-#: app/scripts/templates/settings/display_name.mustache:6 app/scripts/templates/settings/gravatar_permissions.mustache:5
+#: app/scripts/templates/settings/display_name.mustache:6 app/scripts/templates/settings/gravatar_permissions.mustache:5 app/scripts/templates/settings/display_name.mustache:8
 msgid "Cancel"
 msgstr "বাতিল করুন"
 
@@ -962,7 +964,7 @@ msgstr ""
 msgid "Change…"
 msgstr "পরিবর্তন…"
 
-#: app/scripts/templates/settings/avatar.mustache:4
+#: app/scripts/templates/settings/avatar.mustache:4 app/scripts/templates/settings/display_name.mustache:4
 msgid "Add…"
 msgstr "যুক্ত করুন…"
 
@@ -986,7 +988,7 @@ msgstr "গ্র্যাভ্যাতার"
 msgid "Clear"
 msgstr "মুছে ফেলুন"
 
-#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:26
 msgid "Done"
 msgstr "সমাপ্ত"
 
@@ -995,6 +997,7 @@ msgid "Position and rotate your picture as needed"
 msgstr "আপনার ছবি প্রয়োজন মতোন পজিশন করুন ও ঘোরান"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:5
+#: app/scripts/templates/settings/display_name.mustache:7
 msgid "Change"
 msgstr "পাল্টান"
 
@@ -1038,7 +1041,8 @@ msgstr ""
 msgid "Rather not say"
 msgstr "না বলাই ভালো"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:9
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:9 app/scripts/templates/settings/clients.mustache:11
+#: app/scripts/templates/settings/clients.mustache:14
 msgid "Disconnect"
 msgstr "বিচ্ছিন্ন করা"
 
@@ -1062,27 +1066,29 @@ msgstr "বর্তমান ডিভাইস"
 msgid "Disconnect…"
 msgstr "বিযুক্ত করুন…"
 
-#: app/scripts/templates/settings/clients.mustache:11
+#: app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:17
 msgid "Firefox for iOS"
 msgstr "iOS-র জন্য Firefox"
 
-#: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15
+#: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15 app/scripts/templates/settings/clients.mustache:18
+#: app/scripts/templates/settings/clients.mustache:21
 msgid "none connected"
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
+#: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16 app/scripts/templates/settings/clients.mustache:19
+#: app/scripts/templates/settings/clients.mustache:22
 msgid "Download"
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:14
+#: app/scripts/templates/settings/clients.mustache:14 app/scripts/templates/settings/clients.mustache:20
 msgid "Firefox for Android"
 msgstr "Android-র জন্য Firefox"
 
-#: app/scripts/templates/settings/clients.mustache:18
+#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:24
 msgid "Missing or duplicate items?"
 msgstr "হারিয়ে যাওয়া বা অনুরূপ উপাদান?"
 
-#: app/scripts/templates/settings/clients.mustache:19
+#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:25
 msgid "Refresh"
 msgstr "রিফ্রেশ"
 
@@ -1114,7 +1120,7 @@ msgstr "মুছে ফেলুন…"
 msgid "Are you sure you want to delete your account? This action cannot be undone."
 msgstr "আপনি কি নিশ্চিত যে আপনি আপনার অ্যাকাউন্ট মুছে ফেলতে চান? এই প্রক্রিয়াকে কিন্তু পূর্বাবস্থায় আনা যাবে না।"
 
-#: app/scripts/templates/settings/display_name.mustache:3
+#: app/scripts/templates/settings/display_name.mustache:3 app/scripts/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "আপনি আপনার অ্যাকাউন্ট পরিচালনার সময় Firefox এ যে নাম প্রদর্শিত করতে চান তা চয়ন করুন।"
 
@@ -1203,8 +1209,52 @@ msgstr ""
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
 msgstr ""
 
-#: app/scripts/templates/sms_sent.mustache:4
+#: app/scripts/templates/sms_sent.mustache:4 app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
+msgstr ""
+
+#: app/scripts/views/sms_sent.js:24
+msgid "App link resent to %(phoneNumber)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:63
+msgid "Web Session, %(userAgent)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:65
+msgid "%(translatedTimeAgo)s"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:59
+msgid "Incorrect password"
+msgstr "বেঠিক পাসওয়ার্ড"
+
+#: app/scripts/lib/auth-errors.js:150
+msgid "Login attempt cancelled"
+msgstr ""
+
+#: app/scripts/lib/marketing-email-errors.js:41
+msgid "Please try again later"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:19
+msgid "Receive the monthly Firefox newsletter"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
+msgid "Install Firefox on your smartphone and sign in to complete set-up"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:2
+msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:6
+msgid "Didn't arrive? Resend"
+msgstr "যায়নি? আবার পাঠান"
+
+#: app/scripts/templates/settings/clients.mustache:9
+msgid "current session"
 msgstr ""
 
 #~ msgid "Didn’t arrive? Resend"
@@ -1212,9 +1262,6 @@ msgstr ""
 
 #~ msgid "Reason for disconnecting…"
 #~ msgstr "সংযোগ বিচ্ছিন্ন করার কারণ…"
-
-#~ msgid "Didn't arrive? Resend"
-#~ msgstr "যায়নি? আবার পাঠান"
 
 #~ msgid "Forgot password"
 #~ msgstr "পাসওয়ার্ড ভুলে গেছেন"
@@ -1248,9 +1295,6 @@ msgstr ""
 
 #~ msgid "A verification link has been sent&nbsp;to %(email)s"
 #~ msgstr "একটি যাচাইকরণ লিঙ্ক পাঠানো হয়েছে &nbsp;%(email)s এ"
-
-#~ msgid "Incorrect password"
-#~ msgstr "বেঠিক পাসওয়ার্ড"
 
 #~ msgid "Attempt limit exceeded"
 #~ msgstr "আপনার অ্যাকাউন্ট নিরাপত্তার কারণে বন্ধ রাখা হয়েছে"

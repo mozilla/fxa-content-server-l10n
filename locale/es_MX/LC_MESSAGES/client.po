@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-05 22:21+0000\n"
+"POT-Creation-Date: 2017-03-20 23:23+0000\n"
 "PO-Revision-Date: 2017-03-18 03:38+0000\n"
 "Last-Translator: Breana Gonzales <breanajones@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 
 #: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
-#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
+#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170 app/scripts/views/complete_sign_up.js:184
 msgid "Account verified successfully"
 msgstr "Cuenta verificada correctamente"
 
@@ -36,6 +36,7 @@ msgid "Email address"
 msgstr "Dirección de correo electrónico"
 
 #: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:4
+#: app/scripts/templates/settings/display_name.mustache:6
 msgid "Display name"
 msgstr "Nombre para mostrar"
 
@@ -67,11 +68,11 @@ msgstr "Ya tienes todo listo para usar %(serviceName)s"
 msgid "Account verified"
 msgstr "Cuenta verificada"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:167
+#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:167 app/scripts/views/sign_in.js:169
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Cuenta desconocida. <a href=\"/signup\">Registro</a>"
 
-#: app/scripts/views/sign_in.js:164
+#: app/scripts/views/sign_in.js:164 app/scripts/views/sign_in.js:166
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Cuenta de Firefox desconocida. <a href=\"/signup\">Regístrate</a> usando tu anterior correo de la cuenta de complementos para acceder a tus datos de complementos."
 
@@ -87,7 +88,7 @@ msgstr "La cuenta ya existe. <a href=\"/signin\">Iniciar sesión</a>"
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "Cortesía de <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:52 app/scripts/views/settings/change_password.js:53
 msgid "Password changed successfully"
 msgstr "Contraseña cambiada exitosamente"
 
@@ -99,7 +100,7 @@ msgstr "Lamentamos escuchar esto. Deberías cambiar la contraseña de tu cuenta 
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Lamentamos escuchar esto. Si este es un dispositivo en el que no confías, deberías cambiar la contraseña de tu cuenta de Firefox y cambiar toda contraseña que tengas guardada en Firefox."
 
-#: app/scripts/views/settings/clients.js:58 app/scripts/views/settings/clients.js:62
+#: app/scripts/views/settings/clients.js:58 app/scripts/views/settings/clients.js:62 app/scripts/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s"
 msgstr "Última actividad %(translatedTimeAgo)s"
 
@@ -479,7 +480,9 @@ msgid "Script error"
 msgstr "Error de script"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Al continuar, concuerdas con los <a id=\"service-tos\" href=\"%(termsUri)s\">Términos de servicio</a> y<a id=\"service-pp\" href=\"%(privacyUri)s\">las notas de privacidad</a> de %(serviceName)s "
 "(%(serviceUri)s)."
@@ -686,6 +689,7 @@ msgid "Email verified"
 msgstr "Correo electrónico verificado"
 
 #: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:2
+#: app/scripts/templates/sms_sent.mustache:3
 msgid "Success"
 msgstr "Éxito"
 
@@ -805,7 +809,7 @@ msgstr "Aceptar"
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9
 #: app/scripts/templates/settings/communication_preferences.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6
-#: app/scripts/templates/settings/display_name.mustache:6 app/scripts/templates/settings/gravatar_permissions.mustache:5
+#: app/scripts/templates/settings/display_name.mustache:6 app/scripts/templates/settings/gravatar_permissions.mustache:5 app/scripts/templates/settings/display_name.mustache:8
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -962,7 +966,7 @@ msgstr "Lo tengo"
 msgid "Change…"
 msgstr "Cambiar…"
 
-#: app/scripts/templates/settings/avatar.mustache:4
+#: app/scripts/templates/settings/avatar.mustache:4 app/scripts/templates/settings/display_name.mustache:4
 msgid "Add…"
 msgstr "Agregar…"
 
@@ -986,7 +990,7 @@ msgstr "Gravatar"
 msgid "Clear"
 msgstr "Limpiar"
 
-#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:26
 msgid "Done"
 msgstr "Hecho"
 
@@ -995,6 +999,7 @@ msgid "Position and rotate your picture as needed"
 msgstr "Posiciona y rota tu imagen como creas conveniente"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:5
+#: app/scripts/templates/settings/display_name.mustache:7
 msgid "Change"
 msgstr "Cambiar"
 
@@ -1038,7 +1043,8 @@ msgstr "Dispositivo Duplicado"
 msgid "Rather not say"
 msgstr "Prefiero no decirlo"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:9
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:9 app/scripts/templates/settings/clients.mustache:11
+#: app/scripts/templates/settings/clients.mustache:14
 msgid "Disconnect"
 msgstr "Desconectar"
 
@@ -1062,27 +1068,29 @@ msgstr "dispositivo actual"
 msgid "Disconnect…"
 msgstr "Desconectar…"
 
-#: app/scripts/templates/settings/clients.mustache:11
+#: app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:17
 msgid "Firefox for iOS"
 msgstr "Firefox para iOS"
 
-#: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15
+#: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15 app/scripts/templates/settings/clients.mustache:18
+#: app/scripts/templates/settings/clients.mustache:21
 msgid "none connected"
 msgstr "ninguno conectado"
 
-#: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
+#: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16 app/scripts/templates/settings/clients.mustache:19
+#: app/scripts/templates/settings/clients.mustache:22
 msgid "Download"
 msgstr "Descargar"
 
-#: app/scripts/templates/settings/clients.mustache:14
+#: app/scripts/templates/settings/clients.mustache:14 app/scripts/templates/settings/clients.mustache:20
 msgid "Firefox for Android"
 msgstr "Firefox para Android"
 
-#: app/scripts/templates/settings/clients.mustache:18
+#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:24
 msgid "Missing or duplicate items?"
 msgstr "¿Artículos faltantes o duplicados?"
 
-#: app/scripts/templates/settings/clients.mustache:19
+#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:25
 msgid "Refresh"
 msgstr "Refrescar"
 
@@ -1114,7 +1122,7 @@ msgstr "Eliminar…"
 msgid "Are you sure you want to delete your account? This action cannot be undone."
 msgstr "¿Estás seguro que deseas eliminar tu cuenta? Esta acción no podrá deshacerse."
 
-#: app/scripts/templates/settings/display_name.mustache:3
+#: app/scripts/templates/settings/display_name.mustache:3 app/scripts/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Elige el nombre con el que te gustaría aparecer en Firefox y cuando estés administrando tu cuenta."
 
@@ -1205,18 +1213,59 @@ msgstr "Quizás después"
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
 msgstr "Completa la configuración instalando Firefox a través del enlace enviado al %(phoneNumber)s"
 
-#: app/scripts/templates/sms_sent.mustache:4
+#: app/scripts/templates/sms_sent.mustache:4 app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
 msgstr "Si no estás recibiendo el mensaje de texto, puedes descargar las aplicaciones manualmente."
+
+#: app/scripts/views/sms_sent.js:24
+msgid "App link resent to %(phoneNumber)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:63
+msgid "Web Session, %(userAgent)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:65
+msgid "%(translatedTimeAgo)s"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:59
+msgid "Incorrect password"
+msgstr "Contraseña incorrecta"
+
+#: app/scripts/lib/auth-errors.js:150
+msgid "Login attempt cancelled"
+msgstr ""
+
+#: app/scripts/lib/marketing-email-errors.js:41
+msgid "Please try again later"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:19
+msgid "Receive the monthly Firefox newsletter"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
+msgid "Install Firefox on your smartphone and sign in to complete set-up"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:2
+msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:6
+msgid "Didn't arrive? Resend"
+msgstr "¿No llegó? Reenvíalo"
+
+#: app/scripts/templates/settings/clients.mustache:9
+msgid "current session"
+msgstr ""
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "¿No llego? Reenvíalo"
 
 #~ msgid "Reason for disconnecting…"
 #~ msgstr "Razón para desconectarse…"
-
-#~ msgid "Didn't arrive? Resend"
-#~ msgstr "¿No llegó? Reenvíalo"
 
 #~ msgid "Forgot password"
 #~ msgstr "Olvidé mi contraseña"
@@ -1254,24 +1303,22 @@ msgstr "Si no estás recibiendo el mensaje de texto, puedes descargar las aplica
 #~ msgid "Sync preferences"
 #~ msgstr "Preferencias de Sync"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "¿Buscando Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Empezar aquí</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "¿Tienes una cuenta con diferente correo electrónico? <a href=\"%(signinUri)s\">Inicia sesión</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox está disponible para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> y <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox está disponible para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> y <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Última actividad: %(translatedTimeAgo)s"
-
-#~ msgid "Incorrect password"
-#~ msgstr "Contraseña incorrecta"
 
 #~ msgid "This is a common password; please consider another one. %(moreInfoLink)s"
 #~ msgstr "Esta es una contraseña común; por favor, considera otra. %(moreInfoLink)s"

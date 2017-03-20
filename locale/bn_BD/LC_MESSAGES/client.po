@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-05 22:21+0000\n"
+"POT-Creation-Date: 2017-03-20 23:23+0000\n"
 "PO-Revision-Date: 2017-03-09 08:46+0000\n"
 "Last-Translator: Mahay Alam Khan <mahayalamkhan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-POOTLE-MTIME: 1420625507.0\n"
 
 #: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
-#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
+#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170 app/scripts/views/complete_sign_up.js:184
 msgid "Account verified successfully"
 msgstr "অ্যাকাউন্ট যাচাই সফল হয়েছে"
 
@@ -37,6 +37,7 @@ msgid "Email address"
 msgstr "ইমেইল ঠিকানা"
 
 #: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:4
+#: app/scripts/templates/settings/display_name.mustache:6
 msgid "Display name"
 msgstr "প্রদর্শিত নাম"
 
@@ -68,11 +69,11 @@ msgstr "%(serviceName)sটি ব্যবহার করতে আপনি �
 msgid "Account verified"
 msgstr "যাচাইকৃত একাউন্ট"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:167
+#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:167 app/scripts/views/sign_in.js:169
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "অচেনা অ্যাকাউন্ট। <a href=\"/signup\">সাইন আপ</a> "
 
-#: app/scripts/views/sign_in.js:164
+#: app/scripts/views/sign_in.js:164 app/scripts/views/sign_in.js:166
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "অচেনা Firefox Account। Add-onsএর ডাটা পাওয়ার জন্য আপনার আগের Add-ons accountএর ইমেইল দ্বারা <a href=\"/signup\">সাইন-আপ</a> করুন।"
 
@@ -88,7 +89,7 @@ msgstr "অ্যাকাউন্ট আগেই আছে। <a href=\"/sign
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "<a href=\"https://www.gravatar.com\">গ্রাভাটার</a> এর সৌজন্যে"
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:52 app/scripts/views/settings/change_password.js:53
 msgid "Password changed successfully"
 msgstr "পাসওয়ার্ড সাফল্যের সাথে পরিবর্তন করা হয়েছে"
 
@@ -100,7 +101,7 @@ msgstr "আমার তা শুনে দুঃখিত। আপনার �
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "আমার তা শুনে দুঃখিত। যদি ডিভাইসটিকে বিশ্বাসযোগ্য না হয়, তাহলে আপনার উচিত Firefox Account এর পাসওয়ার্ড পরিবর্তন করা এবং Firefox এ সংরক্ষিত সব পাসওয়ার্ড পরিবর্তন করুন।"
 
-#: app/scripts/views/settings/clients.js:58 app/scripts/views/settings/clients.js:62
+#: app/scripts/views/settings/clients.js:58 app/scripts/views/settings/clients.js:62 app/scripts/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s"
 msgstr "সর্বশেষ সক্রিয় %(translatedTimeAgo)s"
 
@@ -480,8 +481,11 @@ msgid "Script error"
 msgstr "স্ক্রিপ্ট ত্রুটি"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "এটা দ্বারা, আপনি %(serviceName)s (%(serviceUri)s) এর <a id=\"service-tos\" href=\"%(termsUri)s\">সেবার শর্তাবলী</a> এবং<a id=\"service-pp\" href=\"%(privacyUri)s\">গোপনীয়তা নোটিশ</a> এ সম্মত হবেন।"
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"এটা দ্বারা, আপনি %(serviceName)s (%(serviceUri)s) এর <a id=\"service-tos\" href=\"%(termsUri)s\">সেবার শর্তাবলী</a> এবং<a id=\"service-pp\" href=\"%(privacyUri)s\">গোপনীয়তা নোটিশ</a> এ সম্মত হবেন।"
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -685,6 +689,7 @@ msgid "Email verified"
 msgstr "ইমেইল যাচাই সম্পূর্ণ"
 
 #: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:2
+#: app/scripts/templates/sms_sent.mustache:3
 msgid "Success"
 msgstr "সফল"
 
@@ -804,7 +809,7 @@ msgstr "গ্রহণ"
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9
 #: app/scripts/templates/settings/communication_preferences.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6
-#: app/scripts/templates/settings/display_name.mustache:6 app/scripts/templates/settings/gravatar_permissions.mustache:5
+#: app/scripts/templates/settings/display_name.mustache:6 app/scripts/templates/settings/gravatar_permissions.mustache:5 app/scripts/templates/settings/display_name.mustache:8
 msgid "Cancel"
 msgstr "বাতিল"
 
@@ -941,16 +946,16 @@ msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
 "Firefox for desktop will appear."
 msgstr ""
-"সিঙ্ক আপনাকে Firefox সহ কোন ডিভাইসে সংরক্ষিত বুকমার্ক, ইতিহাস এবং পাসওয়ার্ড অন্য ডিভাসে শেয়ার করার ব্যবস্থা করে। ফোন বা ট্যাবলেটে থাকা Firefox এ লগইন করুন, আপনার ডেস্কটপে থাকা Firefox এ সংরক্ষিত "
-"সবকিছু আপনার সামনে উপস্থাপিত হবে।"
+"সিঙ্ক আপনাকে Firefox সহ কোন ডিভাইসে সংরক্ষিত বুকমার্ক, ইতিহাস এবং পাসওয়ার্ড অন্য ডিভাসে শেয়ার করার ব্যবস্থা করে। ফোন বা ট্যাবলেটে থাকা Firefox এ লগইন করুন, আপনার ডেস্কটপে থাকা Firefox এ সংরক্ষিত সবকিছু আপনার "
+"সামনে উপস্থাপিত হবে।"
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
 "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 msgstr ""
-"সিঙ্ক কোন স্থায়ী ব্যাকআপ ব্যবস্থা নয় – এটি শুধুমাত্র শেয়ার করতে দেয় যা লোকালী সংরক্ষিত রয়েছে। যদি আপনি পাসওয়ার্ড রিসেট করেন এবং আপনার ডাটা অন্তত একটি ডিভাইসে সংরক্ষিত না থাকে, আপনার পুরাতন পাসওয়ার্ড"
-" সংশ্লিষ্ট সকল তথ্য হাড়িয়ে ফেলতে পারেন। এ কারনে আপনি Firefox ইন্সটল করতে চাইবেন এবং একাধিন অন্য ডিভাইসে সিঙ্ক ব্যবহার করবেন।"
+"সিঙ্ক কোন স্থায়ী ব্যাকআপ ব্যবস্থা নয় – এটি শুধুমাত্র শেয়ার করতে দেয় যা লোকালী সংরক্ষিত রয়েছে। যদি আপনি পাসওয়ার্ড রিসেট করেন এবং আপনার ডাটা অন্তত একটি ডিভাইসে সংরক্ষিত না থাকে, আপনার পুরাতন পাসওয়ার্ড সংশ্লিষ্ট সকল "
+"তথ্য হাড়িয়ে ফেলতে পারেন। এ কারনে আপনি Firefox ইন্সটল করতে চাইবেন এবং একাধিন অন্য ডিভাইসে সিঙ্ক ব্যবহার করবেন।"
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -961,7 +966,7 @@ msgstr "পেয়েছেন"
 msgid "Change…"
 msgstr "পরিবর্তন হচ্ছে…"
 
-#: app/scripts/templates/settings/avatar.mustache:4
+#: app/scripts/templates/settings/avatar.mustache:4 app/scripts/templates/settings/display_name.mustache:4
 msgid "Add…"
 msgstr "যোগ হচ্ছে…"
 
@@ -985,7 +990,7 @@ msgstr "গ্রাভাটার"
 msgid "Clear"
 msgstr "পরিষ্কার"
 
-#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:26
 msgid "Done"
 msgstr "সম্পন্ন"
 
@@ -994,6 +999,7 @@ msgid "Position and rotate your picture as needed"
 msgstr "প্রয়োজন মত অবস্থান এবং দিক ঠিক করুন"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:5
+#: app/scripts/templates/settings/display_name.mustache:7
 msgid "Change"
 msgstr "পরিবর্তন"
 
@@ -1037,7 +1043,8 @@ msgstr "নকল ডিভাইস"
 msgid "Rather not say"
 msgstr "না বলাই ভাল"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:9
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:9 app/scripts/templates/settings/clients.mustache:11
+#: app/scripts/templates/settings/clients.mustache:14
 msgid "Disconnect"
 msgstr "বিচ্ছিন্ন"
 
@@ -1061,27 +1068,29 @@ msgstr "বর্তমান ডিভাইস"
 msgid "Disconnect…"
 msgstr "বিচ্ছিন্ন হচ্ছে…"
 
-#: app/scripts/templates/settings/clients.mustache:11
+#: app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:17
 msgid "Firefox for iOS"
 msgstr "iOS এর জন্য Firefox"
 
-#: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15
+#: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15 app/scripts/templates/settings/clients.mustache:18
+#: app/scripts/templates/settings/clients.mustache:21
 msgid "none connected"
 msgstr "কোনটিই সংযুক্ত নয়"
 
-#: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
+#: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16 app/scripts/templates/settings/clients.mustache:19
+#: app/scripts/templates/settings/clients.mustache:22
 msgid "Download"
 msgstr "ডাউনলোড"
 
-#: app/scripts/templates/settings/clients.mustache:14
+#: app/scripts/templates/settings/clients.mustache:14 app/scripts/templates/settings/clients.mustache:20
 msgid "Firefox for Android"
 msgstr "Android এর জন্য Firefox"
 
-#: app/scripts/templates/settings/clients.mustache:18
+#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:24
 msgid "Missing or duplicate items?"
 msgstr "নিখোঁজ বা একই ধরনের আইটেম?"
 
-#: app/scripts/templates/settings/clients.mustache:19
+#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:25
 msgid "Refresh"
 msgstr "রিফ্রেশ করুন"
 
@@ -1113,7 +1122,7 @@ msgstr "মুছে ফেলা হচ্ছে…"
 msgid "Are you sure you want to delete your account? This action cannot be undone."
 msgstr "আপনি কি একাউন্ট মুছে ফেলার ব্যাপারে নিশ্চিত? এটি পুনরায় ফেরত আনা যাবে না।"
 
-#: app/scripts/templates/settings/display_name.mustache:3
+#: app/scripts/templates/settings/display_name.mustache:3 app/scripts/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Firefox এ ও আপনার অ্যাকাউন্ট পরিচলানার জন্য যে নাম আপনি দেখতে চান তা নির্বাচন করুন।"
 
@@ -1192,8 +1201,7 @@ msgstr "প্রেরণ"
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
-"SMS সেবা শুধুমাত্র যুক্তরাষ্ট্রের ফোন নম্বরের জন্যে দেওয়া হয়। SMS &amp; ডাটা রেট প্রযোজ্য হতে পারে। ইমেইল অথবা SMS এর গ্রহীতার সম্মতি থাকতে হবে। <a %(escapedLearnMoreAttributes)s>আরও জানুন</a>"
+msgstr "SMS সেবা শুধুমাত্র যুক্তরাষ্ট্রের ফোন নম্বরের জন্যে দেওয়া হয়। SMS &amp; ডাটা রেট প্রযোজ্য হতে পারে। ইমেইল অথবা SMS এর গ্রহীতার সম্মতি থাকতে হবে। <a %(escapedLearnMoreAttributes)s>আরও জানুন</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
@@ -1203,18 +1211,59 @@ msgstr "পরে হতে পারে"
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
 msgstr "%(phoneNumber)s নম্বরে পাঠানো লিংক ব্যবহার করে Firefox ইন্সটল করে সেট-আপ সম্পন্ন করুন"
 
-#: app/scripts/templates/sms_sent.mustache:4
+#: app/scripts/templates/sms_sent.mustache:4 app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
 msgstr "আপনি যদি ক্ষুদেবার্তা না পেয়ে থাকেন, আপনি তাহলে অ্যাপটি নিজে ডাউনলোড করে নিতে পারেন।"
+
+#: app/scripts/views/sms_sent.js:24
+msgid "App link resent to %(phoneNumber)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:63
+msgid "Web Session, %(userAgent)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:65
+msgid "%(translatedTimeAgo)s"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:59
+msgid "Incorrect password"
+msgstr "ভুল পাসওয়ার্ড"
+
+#: app/scripts/lib/auth-errors.js:150
+msgid "Login attempt cancelled"
+msgstr ""
+
+#: app/scripts/lib/marketing-email-errors.js:41
+msgid "Please try again later"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:19
+msgid "Receive the monthly Firefox newsletter"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
+msgid "Install Firefox on your smartphone and sign in to complete set-up"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:2
+msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:6
+msgid "Didn't arrive? Resend"
+msgstr "পৌঁছায়নি? আবার পাঠাও"
+
+#: app/scripts/templates/settings/clients.mustache:9
+msgid "current session"
+msgstr ""
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "পৌঁছায়নি? আবার পাঠাও"
 
 #~ msgid "Reason for disconnecting…"
 #~ msgstr "বিচ্ছিন্নকরণের কারণ…"
-
-#~ msgid "Didn't arrive? Resend"
-#~ msgstr "পৌঁছায়নি? আবার পাঠাও"
 
 #~ msgid "Forgot password"
 #~ msgstr "পাসওয়ার্ড ভুলে গেছেন"
@@ -1252,22 +1301,22 @@ msgstr "আপনি যদি ক্ষুদেবার্তা না প�
 #~ msgid "Sync preferences"
 #~ msgstr "সিঙ্ক পছন্দসমূহ"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Firefox সিঙ্ক খুঁজছেন? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">এখান থেকে শুরু করুন</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "অন্য ইমেইল দিয়ে অ্যাকাউন্ট আছে? <a href=\"%(signinUri)s\">সাইন ইন করুন</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "<a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> এবং <a href=\"%(linkLinux)s\">Linux</a> এর জন্য Firefox পাবেন।"
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "<a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> এবং <a href=\"%(linkLinux)s\">Linux</a> এর জন্য "
+#~ "Firefox পাবেন।"
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "সর্বশেষ সক্রিয়: %(translatedTimeAgo)s"
-
-#~ msgid "Incorrect password"
-#~ msgstr "ভুল পাসওয়ার্ড"
 
 #~ msgid "This is a common password; please consider another one. %(moreInfoLink)s"
 #~ msgstr "এটা একটি সাধারণ পাসওয়ার্ড; অনুগ্রহ করে অন্য আরেকটি দিন। %(moreInfoLink)s"

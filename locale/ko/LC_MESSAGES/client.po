@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-05 22:21+0000\n"
+"POT-Creation-Date: 2017-03-20 23:23+0000\n"
 "PO-Revision-Date: 2017-03-06 10:09+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-POOTLE-MTIME: 1424658195.0\n"
 
 #: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
-#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
+#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170 app/scripts/views/complete_sign_up.js:184
 msgid "Account verified successfully"
 msgstr "계정 확인 성공"
 
@@ -37,6 +37,7 @@ msgid "Email address"
 msgstr "이메일 주소"
 
 #: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:4
+#: app/scripts/templates/settings/display_name.mustache:6
 msgid "Display name"
 msgstr "이름 표시"
 
@@ -68,11 +69,11 @@ msgstr "%(serviceName)s를 지금부터 사용할 수 있습니다."
 msgid "Account verified"
 msgstr "계정 확인"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:167
+#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:167 app/scripts/views/sign_in.js:169
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "잘못된 계정입니다. <a href=\"/signup\">회원가입</a>"
 
-#: app/scripts/views/sign_in.js:164
+#: app/scripts/views/sign_in.js:164 app/scripts/views/sign_in.js:166
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "알 수 없는 Firefox 계정입니다. 이 추가 기능의 데이터에 접근하려면 이전에 사용했던 계정의 이메일 주소로 <a href=\"/signup\">가입</a>하세요."
 
@@ -88,7 +89,7 @@ msgstr "존재하고 있는 계정입니다. <a href=\"/signin\">회원가입</a
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "무료 <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:52 app/scripts/views/settings/change_password.js:53
 msgid "Password changed successfully"
 msgstr "비밀번호 변경 성공"
 
@@ -100,7 +101,7 @@ msgstr "죄송합니다. Firefox 계정의 비밀번호가 바꾸고, 원격으�
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "죄송합니다. 이 기기를 신뢰하지 못한다면, Firefox 계정의 비밀번호를 바꾸고, Firefox에 저장된 비밀번호를 바꿔야 합니다."
 
-#: app/scripts/views/settings/clients.js:58 app/scripts/views/settings/clients.js:62
+#: app/scripts/views/settings/clients.js:58 app/scripts/views/settings/clients.js:62 app/scripts/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s"
 msgstr "마지막 사용시간 %(translatedTimeAgo)s 전"
 
@@ -480,8 +481,12 @@ msgid "Script error"
 msgstr "스크립트 오류"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "계속 진행하면 <a id=\"service-tos\" href=\"%(termsUri)s\">이용 약관</a>과 %(serviceName)s (%(serviceUri)s)의 <a id=\"service-pp\" href=\"%(privacyUri)s\">개인정보 보호정책</a>에 동의한 것으로 간주 합니다."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"계속 진행하면 <a id=\"service-tos\" href=\"%(termsUri)s\">이용 약관</a>과 %(serviceName)s (%(serviceUri)s)의 <a id=\"service-pp\" href=\"%(privacyUri)s\">개인정보 보호정책</a>에 동의한 것으로 간주 "
+"합니다."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -685,6 +690,7 @@ msgid "Email verified"
 msgstr "이메일 인증됨"
 
 #: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:2
+#: app/scripts/templates/sms_sent.mustache:3
 msgid "Success"
 msgstr "성공"
 
@@ -753,7 +759,8 @@ msgstr "암호 분실?"
 
 #: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:25 app/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "계속 진행하면 Firefox 클라우드 서비스의 <a id=\"fxa-tos\" href=\"/legal/terms\">서비스 이용약관</a> 및 <a id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 취급방침</a>에 동의하는 것으로 간주합니다."
+msgstr ""
+"계속 진행하면 Firefox 클라우드 서비스의 <a id=\"fxa-tos\" href=\"/legal/terms\">서비스 이용약관</a> 및 <a id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 취급방침</a>에 동의하는 것으로 간주합니다."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -804,7 +811,7 @@ msgstr "동의"
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9
 #: app/scripts/templates/settings/communication_preferences.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6
-#: app/scripts/templates/settings/display_name.mustache:6 app/scripts/templates/settings/gravatar_permissions.mustache:5
+#: app/scripts/templates/settings/display_name.mustache:6 app/scripts/templates/settings/gravatar_permissions.mustache:5 app/scripts/templates/settings/display_name.mustache:8
 msgid "Cancel"
 msgstr "취소"
 
@@ -946,7 +953,9 @@ msgstr "동기화를 사용하면 동기화를 사용하는 스마트폰이나 �
 msgid ""
 "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
-msgstr "동기화는 영구적인 백업을 목적으로 설계된 것이 아닙니다–다른 곳에 저장되지 않고 오로지 본인의 기기에만 저장됩니다. 때문에 비밀번호를 바꾸고 어딘가에 저장하지 않았다면 이전 비밀번호와 관련된 모든 정보를 잃을 수도 있습니다. Firefox를 설치한 모든 기기에 동기화를 사용하는 이유가 바로 이것입니다."
+msgstr ""
+"동기화는 영구적인 백업을 목적으로 설계된 것이 아닙니다–다른 곳에 저장되지 않고 오로지 본인의 기기에만 저장됩니다. 때문에 비밀번호를 바꾸고 어딘가에 저장하지 않았다면 이전 비밀번호와 관련된 모든 정보"
+"를 잃을 수도 있습니다. Firefox를 설치한 모든 기기에 동기화를 사용하는 이유가 바로 이것입니다."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -957,7 +966,7 @@ msgstr "알겠습니다"
 msgid "Change…"
 msgstr "변경…"
 
-#: app/scripts/templates/settings/avatar.mustache:4
+#: app/scripts/templates/settings/avatar.mustache:4 app/scripts/templates/settings/display_name.mustache:4
 msgid "Add…"
 msgstr "추가…"
 
@@ -981,7 +990,7 @@ msgstr "Gravatar"
 msgid "Clear"
 msgstr "지우기"
 
-#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:26
 msgid "Done"
 msgstr "완료"
 
@@ -990,6 +999,7 @@ msgid "Position and rotate your picture as needed"
 msgstr "필요한 만큼 사진의 위치나 회전을 수정"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:5
+#: app/scripts/templates/settings/display_name.mustache:7
 msgid "Change"
 msgstr "변경"
 
@@ -1033,7 +1043,8 @@ msgstr "기기 복사"
 msgid "Rather not say"
 msgstr "답변하지 않음"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:9
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:9 app/scripts/templates/settings/clients.mustache:11
+#: app/scripts/templates/settings/clients.mustache:14
 msgid "Disconnect"
 msgstr "연결 끊기"
 
@@ -1057,27 +1068,29 @@ msgstr "현재 기기"
 msgid "Disconnect…"
 msgstr "연결끊기…"
 
-#: app/scripts/templates/settings/clients.mustache:11
+#: app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:17
 msgid "Firefox for iOS"
 msgstr "iOS용 Firefox"
 
-#: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15
+#: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15 app/scripts/templates/settings/clients.mustache:18
+#: app/scripts/templates/settings/clients.mustache:21
 msgid "none connected"
 msgstr "연결된 것 없음"
 
-#: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
+#: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16 app/scripts/templates/settings/clients.mustache:19
+#: app/scripts/templates/settings/clients.mustache:22
 msgid "Download"
 msgstr "다운로드"
 
-#: app/scripts/templates/settings/clients.mustache:14
+#: app/scripts/templates/settings/clients.mustache:14 app/scripts/templates/settings/clients.mustache:20
 msgid "Firefox for Android"
 msgstr "Android용 Firefox"
 
-#: app/scripts/templates/settings/clients.mustache:18
+#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:24
 msgid "Missing or duplicate items?"
 msgstr "누락되었거나 중복된 항목이 있나요?"
 
-#: app/scripts/templates/settings/clients.mustache:19
+#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:25
 msgid "Refresh"
 msgstr "새로고침"
 
@@ -1109,7 +1122,7 @@ msgstr "삭제…"
 msgid "Are you sure you want to delete your account? This action cannot be undone."
 msgstr "계정을 삭제하겠습니까? 이 작업은 취소할 수 없습니다."
 
-#: app/scripts/templates/settings/display_name.mustache:3
+#: app/scripts/templates/settings/display_name.mustache:3 app/scripts/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Firefox 또는 계정 관리시 표시할 이름을 선택해주세요."
 
@@ -1198,18 +1211,59 @@ msgstr "나중에요"
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
 msgstr "%(phoneNumber)s로 보낸 링크를 사용해 Firefox의 설치를 완료하세요"
 
-#: app/scripts/templates/sms_sent.mustache:4
+#: app/scripts/templates/sms_sent.mustache:4 app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
 msgstr "만약 문자가 오지 않았다면, 앱을 수동으로 받을 수도 있습니다."
+
+#: app/scripts/views/sms_sent.js:24
+msgid "App link resent to %(phoneNumber)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:63
+msgid "Web Session, %(userAgent)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:65
+msgid "%(translatedTimeAgo)s"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:59
+msgid "Incorrect password"
+msgstr "맞지 않는 암호"
+
+#: app/scripts/lib/auth-errors.js:150
+msgid "Login attempt cancelled"
+msgstr ""
+
+#: app/scripts/lib/marketing-email-errors.js:41
+msgid "Please try again later"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:19
+msgid "Receive the monthly Firefox newsletter"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
+msgid "Install Firefox on your smartphone and sign in to complete set-up"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:2
+msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:6
+msgid "Didn't arrive? Resend"
+msgstr "도착하지 않았나요? 다시 전송"
+
+#: app/scripts/templates/settings/clients.mustache:9
+msgid "current session"
+msgstr ""
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "도착하지 않았나요? 다시 보내기"
 
 #~ msgid "Reason for disconnecting…"
 #~ msgstr "연결 해제 이유…"
-
-#~ msgid "Didn't arrive? Resend"
-#~ msgstr "도착하지 않았나요? 다시 전송"
 
 #~ msgid "Forgot password"
 #~ msgstr "비밀번호를 잊어버렸습니다"
@@ -1248,12 +1302,11 @@ msgstr "만약 문자가 오지 않았다면, 앱을 수동으로 받을 수도 
 #~ msgstr "다른 이메일을 사용하는 계정을 가지고 있나요? <a href=\"%(signinUri)s\">로그인</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "Firefox는 <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> 그리고 <a href=\"%(linkLinux)s\">Linux</a>를 지원합니다."
-
-#~ msgid "Incorrect password"
-#~ msgstr "맞지 않는 암호"
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox는 <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> 그리고 <a href=\"%(linkLinux)s"
+#~ "\">Linux</a>를 지원합니다."
 
 #~ msgid "Add"
 #~ msgstr "추가"
