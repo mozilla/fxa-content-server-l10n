@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-05 22:21+0000\n"
-"PO-Revision-Date: 2017-02-27 08:42+0000\n"
+"POT-Creation-Date: 2017-03-20 23:23+0000\n"
+"PO-Revision-Date: 2017-03-07 07:44+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-POOTLE-MTIME: 1444650468.0\n"
 
 #: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
-#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
+#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170 app/scripts/views/complete_sign_up.js:184
 msgid "Account verified successfully"
 msgstr "Account mei sukses ferifiearre"
 
@@ -37,6 +37,7 @@ msgid "Email address"
 msgstr "E-mailadres"
 
 #: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:4
+#: app/scripts/templates/settings/display_name.mustache:6
 msgid "Display name"
 msgstr "Werjeftenamme"
 
@@ -68,11 +69,11 @@ msgstr "Jo kinne %(serviceName)s no brûke"
 msgid "Account verified"
 msgstr "Account ferifiearre"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:167
+#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:167 app/scripts/views/sign_in.js:169
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Unbekende account. <a href=\"/signup\">Registrearje</a>"
 
-#: app/scripts/views/sign_in.js:164
+#: app/scripts/views/sign_in.js:164 app/scripts/views/sign_in.js:166
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Unbekende Firefox-account. <a href=\"/signup\">Registrearje</a> mei help fan it e-mailadres fan jo eardere Add-ons-account om jo add-on-gegevens te benaderjen."
 
@@ -88,7 +89,7 @@ msgstr "Account bestiet al. <a href=\"/signin\">Oanmelde</a>"
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "Mei tank oan <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:52 app/scripts/views/settings/change_password.js:53
 msgid "Password changed successfully"
 msgstr "Wachtwurd mei sukses wizige"
 
@@ -100,7 +101,7 @@ msgstr "Wy fine it spitich om dit te hearen. Jo moatte jo wachtwurd foar Firefox
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Wy fine it spitich om dit te hearen. As dit in apparaat wie dat jo echt net fertrouwe, dan moatte jo it wachtwurd foar Firefox Account wizigje, en elk wachtwurd bewarre yn Firefox wizigje."
 
-#: app/scripts/views/settings/clients.js:58 app/scripts/views/settings/clients.js:62
+#: app/scripts/views/settings/clients.js:58 app/scripts/views/settings/clients.js:62 app/scripts/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s"
 msgstr "Lêst aktyf %(translatedTimeAgo)s"
 
@@ -689,6 +690,7 @@ msgid "Email verified"
 msgstr "E-mailadres ferifiearre"
 
 #: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:2
+#: app/scripts/templates/sms_sent.mustache:3
 msgid "Success"
 msgstr "Slagge"
 
@@ -810,7 +812,7 @@ msgstr "Akseptearje"
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9
 #: app/scripts/templates/settings/communication_preferences.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6
-#: app/scripts/templates/settings/display_name.mustache:6 app/scripts/templates/settings/gravatar_permissions.mustache:5
+#: app/scripts/templates/settings/display_name.mustache:6 app/scripts/templates/settings/gravatar_permissions.mustache:5 app/scripts/templates/settings/display_name.mustache:8
 msgid "Cancel"
 msgstr "Annulearje"
 
@@ -967,7 +969,7 @@ msgstr "Begrepen"
 msgid "Change…"
 msgstr "Wizigje…"
 
-#: app/scripts/templates/settings/avatar.mustache:4
+#: app/scripts/templates/settings/avatar.mustache:4 app/scripts/templates/settings/display_name.mustache:4
 msgid "Add…"
 msgstr "Tafoegje…"
 
@@ -991,7 +993,7 @@ msgstr "Gravatar"
 msgid "Clear"
 msgstr "Wiskje"
 
-#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:26
 msgid "Done"
 msgstr "Dien"
 
@@ -1000,6 +1002,7 @@ msgid "Position and rotate your picture as needed"
 msgstr "Pleats en draai sa nedich jo foto"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:5
+#: app/scripts/templates/settings/display_name.mustache:7
 msgid "Change"
 msgstr "Wizigje"
 
@@ -1043,7 +1046,8 @@ msgstr "Dûbeld apparaat"
 msgid "Rather not say"
 msgstr "Wol ik leaver net melde"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:9
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:9 app/scripts/templates/settings/clients.mustache:11
+#: app/scripts/templates/settings/clients.mustache:14
 msgid "Disconnect"
 msgstr "Ferbining ferbrekke"
 
@@ -1067,27 +1071,29 @@ msgstr "aktueel apparaat"
 msgid "Disconnect…"
 msgstr "Ferbrekke…"
 
-#: app/scripts/templates/settings/clients.mustache:11
+#: app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:17
 msgid "Firefox for iOS"
 msgstr "Firefox foar iOS"
 
-#: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15
+#: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15 app/scripts/templates/settings/clients.mustache:18
+#: app/scripts/templates/settings/clients.mustache:21
 msgid "none connected"
 msgstr "neat keppele"
 
-#: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
+#: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16 app/scripts/templates/settings/clients.mustache:19
+#: app/scripts/templates/settings/clients.mustache:22
 msgid "Download"
 msgstr "Downloade"
 
-#: app/scripts/templates/settings/clients.mustache:14
+#: app/scripts/templates/settings/clients.mustache:14 app/scripts/templates/settings/clients.mustache:20
 msgid "Firefox for Android"
 msgstr "Firefox foar Android"
 
-#: app/scripts/templates/settings/clients.mustache:18
+#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:24
 msgid "Missing or duplicate items?"
 msgstr "Untbrekkende of dûbele items?"
 
-#: app/scripts/templates/settings/clients.mustache:19
+#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:25
 msgid "Refresh"
 msgstr "Ferfarskje"
 
@@ -1119,7 +1125,7 @@ msgstr "Fuortsmite…"
 msgid "Are you sure you want to delete your account? This action cannot be undone."
 msgstr "Binne jo wis dat jo jo account fuortsmite wiolle? Dizze aksje kin net ûngedien makke wurde."
 
-#: app/scripts/templates/settings/display_name.mustache:3
+#: app/scripts/templates/settings/display_name.mustache:3 app/scripts/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Kies de namme dy't jo yn Firefox en by it behearen fan jo account ferskine litte wolle."
 
@@ -1153,63 +1159,109 @@ msgstr "Dûbeld apparaat"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Unjildich telefoannûmer"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "Net mooglik nei dit lân te ferstjioeren"
 
 #: app/scripts/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "Kin gjin berjocht nei dit nûmer ferstjoere"
 
 #: app/scripts/lib/auth-errors.js:362
 msgid "Phone number required"
-msgstr ""
+msgstr "Telefoannûmer fereaske"
 
 #: app/scripts/lib/sms-errors.js:23
 msgid "SMS sent"
-msgstr ""
+msgstr "Sms ferstjoerd"
 
 #: app/scripts/lib/sms-errors.js:55
 msgid "Your number has been blocked"
-msgstr ""
+msgstr "Jo nûmer is blokkearre"
 
 #: app/scripts/lib/sms-errors.js:79
 msgid "SMS not sent, please try again"
-msgstr ""
+msgstr "Sms net ferstjoerd, probearje opnij"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Stjoer Firefox daliks nei jo snoadfoan en meld jo oan om it ynstellen te foltôgjen"
 
 #: app/scripts/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
-msgstr ""
+msgstr "Dizze Firefox is ferbûn"
 
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
-msgstr ""
+msgstr "Mobile telefoannûmer"
 
 #: app/scripts/templates/sms_send.mustache:6
 msgid "Send"
-msgstr ""
+msgstr "Ferstjoere"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"Sms-tsjinst is allinnich foar telefoannûmers yn de FS beskikber. Mooglik binne der kosten foar sms en gegevens fan tapassing. De bedoelde ûntfanger fan it e-mail- of sms-berjocht moat hjirmei "
+"akkoard gean wêze. <a %(escapedLearnMoreAttributes)s>Mear ynfo</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
-msgstr ""
+msgstr "Miskien letter"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
+msgstr "Foltôgje it ynstellen troch Firefox te ynstallearjen fia de keppeling dy't nei %(phoneNumber)s ferstjoerd is"
+
+#: app/scripts/templates/sms_sent.mustache:4 app/scripts/templates/sms_sent.mustache:5
+msgid "If you are not receiving the text message, you can also download the apps manually."
+msgstr "As jo it sms-berjocht net ûntfange, kinne jo de apps ek hânmjittich downloade."
+
+#: app/scripts/views/sms_sent.js:24
+msgid "App link resent to %(phoneNumber)s"
 msgstr ""
 
-#: app/scripts/templates/sms_sent.mustache:4
-msgid "If you are not receiving the text message, you can also download the apps manually."
+#: app/scripts/views/settings/clients.js:63
+msgid "Web Session, %(userAgent)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:65
+msgid "%(translatedTimeAgo)s"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:59
+msgid "Incorrect password"
+msgstr "Ferkeard wachtwurd"
+
+#: app/scripts/lib/auth-errors.js:150
+msgid "Login attempt cancelled"
+msgstr ""
+
+#: app/scripts/lib/marketing-email-errors.js:41
+msgid "Please try again later"
+msgstr ""
+
+#: app/scripts/templates/sign_up.mustache:19
+msgid "Receive the monthly Firefox newsletter"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
+msgid "Install Firefox on your smartphone and sign in to complete set-up"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:2
+msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:6
+msgid "Didn't arrive? Resend"
+msgstr "Net oankommen? Opnij ferstjoere"
+
+#: app/scripts/templates/settings/clients.mustache:9
+msgid "current session"
 msgstr ""
 
 #~ msgid "Didn’t arrive? Resend"
@@ -1217,9 +1269,6 @@ msgstr ""
 
 #~ msgid "Reason for disconnecting…"
 #~ msgstr "Reden foar ferbrekken…"
-
-#~ msgid "Didn't arrive? Resend"
-#~ msgstr "Net oankommen? Opnij ferstjoere"
 
 #~ msgid "Forgot password"
 #~ msgstr "Wachtwurd ferjitten"
@@ -1273,9 +1322,6 @@ msgstr ""
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Lêst aktyf: %(translatedTimeAgo)s"
-
-#~ msgid "Incorrect password"
-#~ msgstr "Ferkeard wachtwurd"
 
 #~ msgid "This is a common password; please consider another one. %(moreInfoLink)s"
 #~ msgstr "Dit is in gebrûklik wachtwurd; oerwaach in oar. %(moreInfoLink)s"

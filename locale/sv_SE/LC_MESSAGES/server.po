@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-05 22:21+0000\n"
+"POT-Creation-Date: 2017-03-20 23:23+0000\n"
 "PO-Revision-Date: 2017-02-18 00:39+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1437572463.0\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:680
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:685
 msgid "Still there?"
 msgstr "Fortfarande där?"
 
@@ -55,7 +55,7 @@ msgid "Firefox Accounts"
 msgstr "Firefox-konton"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:610
+#: lib/senders/email.js:615
 msgid "New sign-in to Firefox"
 msgstr "Ny inloggning till Firefox"
 
@@ -224,7 +224,7 @@ msgstr "Om nej, hjälpa oss att avvärja inkräktare och <a %(reportSignInLinkAt
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Om nej, hjälp oss att avvärja inkräktare och rapportera detta till oss."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:677
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:682
 msgid "Hello again."
 msgstr "Hej igen."
 
@@ -296,63 +296,63 @@ msgstr "Verifiera e-post "
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "När det är bekräftat, hjälper vi dig att installera och ansluta Firefox på åtminstone en annan enhet."
 
-#: lib/senders/email.js:152
+#: lib/senders/email.js:153
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s på %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:155
+#: lib/senders/email.js:156
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s på %(uaOS)s"
 
-#: lib/senders/email.js:182
+#: lib/senders/email.js:183
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (uppskattad)"
 
-#: lib/senders/email.js:184
+#: lib/senders/email.js:185
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (uppskattad)"
 
-#: lib/senders/email.js:186
+#: lib/senders/email.js:187
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (uppskattad)"
 
-#: lib/senders/email.js:188
+#: lib/senders/email.js:189
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (uppskattad)"
 
-#: lib/senders/email.js:276
+#: lib/senders/email.js:281
 msgid "Verify your Firefox Account"
 msgstr "Verifiera ditt Firefox-konto"
 
-#: lib/senders/email.js:305
+#: lib/senders/email.js:310
 msgid "Confirm your email and start to sync!"
 msgstr "Bekräfta din e-post och börja synkronisera!"
 
-#: lib/senders/email.js:362
+#: lib/senders/email.js:367
 msgid "Firefox Account authorization code"
 msgstr "Firefox-konto behörighetskod"
 
-#: lib/senders/email.js:414
+#: lib/senders/email.js:419
 msgid "Confirm new sign-in to Firefox"
 msgstr "Bekräfta ny inloggning till Firefox"
 
-#: lib/senders/email.js:465
+#: lib/senders/email.js:470
 msgid "Reset your Firefox Account password"
 msgstr "Återställ lösenordet för ditt Firefox-konto"
 
-#: lib/senders/email.js:505
+#: lib/senders/email.js:510
 msgid "Your Firefox Account password has been changed"
 msgstr "Lösenordet till ditt Firefox-konto har ändrats"
 
-#: lib/senders/email.js:543
+#: lib/senders/email.js:548
 msgid "Your Firefox Account password has been reset"
 msgstr "Lösenordet till ditt Firefox-konto har återställts"
 
-#: lib/senders/email.js:577
+#: lib/senders/email.js:582
 msgid "Firefox Account password reset required"
 msgstr "Återställning av lösenord för Firefox-konto krävs"
 
-#: lib/senders/email.js:650
+#: lib/senders/email.js:655
 msgid "Firefox Account verified"
 msgstr "Firefox-konto verifierat"
 

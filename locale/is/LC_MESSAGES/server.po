@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-05 22:21+0000\n"
+"POT-Creation-Date: 2017-03-20 23:23+0000\n"
 "PO-Revision-Date: 2015-06-10 12:34+0000\n"
 "Last-Translator: Kristján Bjarni <kristjanbjarni@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1433939697.0\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:680
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:685
 msgid "Still there?"
 msgstr ""
 
@@ -51,7 +51,7 @@ msgid "Firefox Accounts"
 msgstr "Firefox reikningar"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:610
+#: lib/senders/email.js:615
 msgid "New sign-in to Firefox"
 msgstr ""
 
@@ -216,7 +216,7 @@ msgstr ""
 msgid "If no, help us fend off intruders and report it to us."
 msgstr ""
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:677
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:682
 msgid "Hello again."
 msgstr ""
 
@@ -286,63 +286,63 @@ msgstr ""
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr ""
 
-#: lib/senders/email.js:152
+#: lib/senders/email.js:153
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr ""
 
-#: lib/senders/email.js:155
+#: lib/senders/email.js:156
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr ""
 
-#: lib/senders/email.js:182
+#: lib/senders/email.js:183
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr ""
 
-#: lib/senders/email.js:184
+#: lib/senders/email.js:185
 msgid "%(city)s, %(country)s (estimated)"
 msgstr ""
 
-#: lib/senders/email.js:186
+#: lib/senders/email.js:187
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr ""
 
-#: lib/senders/email.js:188
+#: lib/senders/email.js:189
 msgid "%(country)s (estimated)"
 msgstr ""
 
-#: lib/senders/email.js:276
+#: lib/senders/email.js:281
 msgid "Verify your Firefox Account"
 msgstr ""
 
-#: lib/senders/email.js:305
+#: lib/senders/email.js:310
 msgid "Confirm your email and start to sync!"
 msgstr ""
 
-#: lib/senders/email.js:362
+#: lib/senders/email.js:367
 msgid "Firefox Account authorization code"
 msgstr ""
 
-#: lib/senders/email.js:414
+#: lib/senders/email.js:419
 msgid "Confirm new sign-in to Firefox"
 msgstr ""
 
-#: lib/senders/email.js:465
+#: lib/senders/email.js:470
 msgid "Reset your Firefox Account password"
 msgstr ""
 
-#: lib/senders/email.js:505
+#: lib/senders/email.js:510
 msgid "Your Firefox Account password has been changed"
 msgstr ""
 
-#: lib/senders/email.js:543
+#: lib/senders/email.js:548
 msgid "Your Firefox Account password has been reset"
 msgstr ""
 
-#: lib/senders/email.js:577
+#: lib/senders/email.js:582
 msgid "Firefox Account password reset required"
 msgstr ""
 
-#: lib/senders/email.js:650
+#: lib/senders/email.js:655
 msgid "Firefox Account verified"
 msgstr ""
 
