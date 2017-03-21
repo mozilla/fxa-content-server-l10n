@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2017-03-06 11:57+0000\n"
+"PO-Revision-Date: 2017-03-21 09:40+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -481,9 +481,7 @@ msgid "Script error"
 msgstr "Parancsfájl hiba"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "A folytatással elfogadja a %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Felhasználási feltételeit</a> és az <a id=\"service-pp\" href=\"%(privacyUri)s\">Adatvédelmi "
 "irányelveket</a>."
@@ -760,9 +758,7 @@ msgstr "Elfelejtette a jelszót?"
 
 #: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:25 app/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr ""
-"A folytatással elfogadja a Firefox felhőszolgáltatások <a id=\"fxa-tos\" href=\"/legal/terms\">Felhasználási feltételeit</a> és az <a id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi irányelveket</"
-"a>."
+msgstr "A folytatással elfogadja a Firefox felhőszolgáltatások <a id=\"fxa-tos\" href=\"/legal/terms\">Felhasználási feltételeit</a> és az <a id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi irányelveket</a>."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -1223,15 +1219,15 @@ msgstr "Ha nem kapta meg a szöveges üzenetet, akkor kézzel is letöltheti az 
 
 #: app/scripts/views/sms_sent.js:24
 msgid "App link resent to %(phoneNumber)s"
-msgstr ""
+msgstr "App hivatkozás újraküldve ide: %(phoneNumber)s"
 
 #: app/scripts/views/settings/clients.js:63
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "Webes munkamenetet, %(userAgent)s"
 
 #: app/scripts/views/settings/clients.js:65
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/lib/auth-errors.js:59
 msgid "Incorrect password"
@@ -1239,23 +1235,23 @@ msgstr "Helytelen jelszó"
 
 #: app/scripts/lib/auth-errors.js:150
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Bejelentkezési kísérlet megszakítva"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
-msgstr ""
+msgstr "Próbálja újra később"
 
 #: app/scripts/templates/sign_up.mustache:19
 msgid "Receive the monthly Firefox newsletter"
-msgstr ""
+msgstr "Kapja meg a havi Firefox hírlevelet"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Telepítse a Firefoxot közvetlenül az okostelefonjára, és jelentkezzen be a befejezéshez"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr ""
+msgstr "App hivatkozás elküldve ide: %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Elírt telefonszám?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
@@ -1263,7 +1259,7 @@ msgstr "Nem érkezett meg? Újraküldés"
 
 #: app/scripts/templates/settings/clients.mustache:9
 msgid "current session"
-msgstr ""
+msgstr "jelenlegi munkamenet"
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "Nem érkezett meg? Újraküldés"
@@ -1307,19 +1303,18 @@ msgstr ""
 #~ msgid "Sync preferences"
 #~ msgstr "Sync beállításai"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "A Firefox Syncet keresi? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Kezdje itt</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Van fiókja más e-mailcímmel? <a href=\"%(signinUri)s\">Jelentkezzen be</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "A Firefox elérhető <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> és <a href=\"%(linkLinux)s"
-#~ "\">Linux</a> rendszereken."
+#~ "A Firefox elérhető <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> és <a "
+#~ "href=\"%(linkLinux)s\">Linux</a> rendszereken."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Legutóbb aktív: %(translatedTimeAgo)s"
@@ -1550,8 +1545,8 @@ msgstr ""
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Engedélyezze a sütiket a böngészőjében, mert ez szükséges a Firefox fiók használatához. A sütik a böngészőben tárolt kis adatdarabok, amelyek olyan funkcionalitást biztosítanak, mint a "
-#~ "felhasználók munkamenetek közti megjegyzése."
+#~ "Engedélyezze a sütiket a böngészőjében, mert ez szükséges a Firefox fiók használatához. A sütik a böngészőben tárolt kis adatdarabok, amelyek olyan funkcionalitást biztosítanak, mint a felhasználók "
+#~ "munkamenetek közti megjegyzése."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "A Firefox hamarosan érkezik iOS-re!"
@@ -1697,17 +1692,13 @@ msgstr ""
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Van felhasználói fiókja? Jelentkezzen be."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
-#~ "A folytatással elfogadom a(z) %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Felhasználási feltételeit</a> és az <a id=\"service-pp\" href=\"%(privacyUri)s"
-#~ "\">Adatvédelmi irányelveit</a>."
+#~ "A folytatással elfogadom a(z) %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Felhasználási feltételeit</a> és az <a id=\"service-pp\" "
+#~ "href=\"%(privacyUri)s\">Adatvédelmi irányelveit</a>."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "A folytatással elfogadom a Firefox felhő szolgáltatások <a id=\"fxa-tos\" href=\"/legal/terms\">felhasználási feltételeit</a> és <a id=\"fxa-pp\" href=\"/legal/privacy\">adatvédelmi "
-#~ "nyilatkozatát</a>."
+#~ msgstr "A folytatással elfogadom a Firefox felhő szolgáltatások <a id=\"fxa-tos\" href=\"/legal/terms\">felhasználási feltételeit</a> és <a id=\"fxa-pp\" href=\"/legal/privacy\">adatvédelmi nyilatkozatát</a>."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Iratkozzon fel a Firefox hírekre és tippekre"
