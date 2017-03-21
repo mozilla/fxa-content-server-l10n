@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2017-03-21 11:51+0000\n"
+"PO-Revision-Date: 2017-03-21 11:52+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -1236,7 +1236,7 @@ msgstr "Неправилна парола"
 
 #: app/scripts/lib/auth-errors.js:150
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Опитът за вписване е отказан"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
@@ -1244,15 +1244,15 @@ msgstr "Моля, опитайте отново по-късно."
 
 #: app/scripts/templates/sign_up.mustache:19
 msgid "Receive the monthly Firefox newsletter"
-msgstr ""
+msgstr "Получавайте месечния бюлетин на Firefox."
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Инсталирайте Firefox на мобилния си телефон и се впишете, за да завършите настройката"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr ""
+msgstr "Препратка е изпратена до %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Грешен номер?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
@@ -1260,7 +1260,7 @@ msgstr "Още я няма? Повторно изпращане"
 
 #: app/scripts/templates/settings/clients.mustache:9
 msgid "current session"
-msgstr ""
+msgstr "текуща сесия"
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "Няма ли го още? Повторно изпращане"
