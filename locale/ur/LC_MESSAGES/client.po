@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2017-03-21 11:44+0000\n"
+"PO-Revision-Date: 2017-03-21 12:00+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -565,7 +565,7 @@ msgstr "ترجیحات"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr ""
+msgstr "ایڈ اون اور ترجیحات اس وقت موبائل آلات پر ہمہ وقت ساز نہیں ہو رہی ہیں۔"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:16
 msgid "Save settings"
@@ -720,7 +720,7 @@ msgstr "یہ کیوں ضروری ہے؟"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
-msgstr ""
+msgstr "مقامی ذخیرہ اور کوکیاں درکار ہیں ۔"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
@@ -1067,7 +1067,7 @@ msgstr ""
 #: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15 app/scripts/templates/settings/clients.mustache:18
 #: app/scripts/templates/settings/clients.mustache:21
 msgid "none connected"
-msgstr ""
+msgstr "کوئی بھی نہیں جڑا ہوا"
 
 #: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16 app/scripts/templates/settings/clients.mustache:19
 #: app/scripts/templates/settings/clients.mustache:22
@@ -1088,7 +1088,7 @@ msgstr "تازہ کریں"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
-msgstr ""
+msgstr "مواصلاتی ترجیحات"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
@@ -1156,11 +1156,11 @@ msgstr "اس ملک کو نہیں بھیج سکتے"
 
 #: app/scripts/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "اس نمبر میں ایک پیغام نہیں بھیج سکا"
 
 #: app/scripts/lib/auth-errors.js:362
 msgid "Phone number required"
-msgstr ""
+msgstr "فون نمبر درکار پے"
 
 #: app/scripts/lib/sms-errors.js:23
 msgid "SMS sent"
@@ -1217,7 +1217,7 @@ msgstr ""
 
 #: app/scripts/views/settings/clients.js:65
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/lib/auth-errors.js:59
 msgid "Incorrect password"
@@ -1225,7 +1225,7 @@ msgstr "غلط پاسورڈ"
 
 #: app/scripts/lib/auth-errors.js:150
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "لاگ ان کی کوشش کو منسوخ کر دی گئی"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
@@ -1245,7 +1245,7 @@ msgstr ""
 
 #: app/scripts/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
-msgstr ""
+msgstr "آمد نہیں ہوئی؟ پھر بھیجیں"
 
 #: app/scripts/templates/settings/clients.mustache:9
 msgid "current session"

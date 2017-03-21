@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2017-03-21 11:49+0000\n"
+"PO-Revision-Date: 2017-03-21 11:51+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -36,7 +36,7 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:5 lib/senders/templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "اہک اور آلہ جوڑیں"
 
 #: lib/senders/templates/_pending.txt:6
 msgid "Sign in to Sync"
