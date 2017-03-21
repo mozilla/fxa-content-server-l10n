@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -1242,7 +1242,7 @@ msgstr "到您的智慧型手機上安裝 Firefox 並登入以完成設定"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr "已寄送應用程式鏈結至 %(escapedPhoneNumber)s。 <a %(escapedBackLinkAttrs)s>打錯號碼了嗎？></a>"
+msgstr "已寄送應用程式鏈結至 %(escapedPhoneNumber)s。 <a %(escapedBackLinkAttrs)s>打錯號碼了嗎？</a>"
 
 #: app/scripts/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
