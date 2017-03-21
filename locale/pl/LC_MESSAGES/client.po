@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2017-03-06 07:51+0000\n"
+"PO-Revision-Date: 2017-03-21 01:44+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -480,9 +480,7 @@ msgid "Script error"
 msgstr "Błąd skryptu"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Kontynuując, wyrażasz zgodę na <a id=\"service-tos\" href=\"%(termsUri)s\">Regulamin usługi</a> oraz <a id=\"service-pp\" href=\"%(privacyUri)s\">Informacje o prywatności</a> usługi %(serviceName)s "
 "(%(serviceUri)s)."
@@ -1204,8 +1202,8 @@ msgstr "Wyślij"
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-"Usługa wiadomości SMS jest dostępna tylko dla numerów telefonów w Stanach Zjednoczonych. Mogą zostać pobrane opłaty za wiadomości SMS i transmisję danych. Odbiorca docelowy wiadomości e-mail lub "
-"SMS musi wyrażać zgodę. <a %(escapedLearnMoreAttributes)s>Więcej informacji</a>"
+"Usługa wiadomości SMS jest dostępna tylko dla numerów telefonów w Stanach Zjednoczonych. Mogą zostać pobrane opłaty za wiadomości SMS i transmisję danych. Odbiorca docelowy wiadomości e-mail lub SMS"
+" musi wyrażać zgodę. <a %(escapedLearnMoreAttributes)s>Więcej informacji</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
@@ -1221,44 +1219,44 @@ msgstr "Jeśli nie otrzymano wiadomości SMS, można pobrać aplikacje ręcznie.
 
 #: app/scripts/views/sms_sent.js:24
 msgid "App link resent to %(phoneNumber)s"
-msgstr ""
+msgstr "Wysłano odnośnik do aplikacji na numer %(phoneNumber)s"
 
 #: app/scripts/views/settings/clients.js:63
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "Sesja, %(userAgent)s"
 
 #: app/scripts/views/settings/clients.js:65
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/lib/auth-errors.js:59
 msgid "Incorrect password"
-msgstr ""
+msgstr "Niepoprawne hasło"
 
 #: app/scripts/lib/auth-errors.js:150
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Anulowano próbę logowania"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
-msgstr ""
+msgstr "Proszę spróbować ponownie później"
 
 #: app/scripts/templates/sign_up.mustache:19
 msgid "Receive the monthly Firefox newsletter"
-msgstr ""
+msgstr "Chcę otrzymywać comiesięczny newsletter Firefoksa"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Zainstaluj Firefoksa na telefonie i zaloguj się, aby dokończyć ustawianie"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr ""
+msgstr "Wysłano odnośnik do aplikacji na numer %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Błędny numer?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
-msgstr ""
+msgstr "Nie przyszło? Wyślij jeszcze raz"
 
 #: app/scripts/templates/settings/clients.mustache:9
 msgid "current session"
-msgstr ""
+msgstr "bieżąca sesja"
