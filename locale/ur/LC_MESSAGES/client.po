@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2017-03-22 11:22+0000\n"
+"PO-Revision-Date: 2017-03-22 12:30+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -231,7 +231,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:75
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "ناجائز پیرامیٹر: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:79
 msgid "Missing parameter: %(param)s"
