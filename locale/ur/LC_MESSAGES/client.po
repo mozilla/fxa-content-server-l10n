@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2017-03-22 10:50+0000\n"
+"PO-Revision-Date: 2017-03-22 11:10+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -255,7 +255,7 @@ msgstr "درخواست کو سلامتی کی وجوہات کی بنا پر بل
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:335
 msgid "Invalid authorization code"
-msgstr ""
+msgstr "ناجائز اختیار دہی کوڈ"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/auth-errors.js:298 app/scripts/lib/auth-errors.js:138 app/scripts/lib/auth-errors.js:315
 msgid "Server busy, try again soon"
@@ -417,7 +417,7 @@ msgstr ""
 
 #: app/scripts/lib/oauth-errors.js:34
 msgid "Invalid assertion"
-msgstr ""
+msgstr "ناجائز اشرشن"
 
 #: app/scripts/lib/oauth-errors.js:38
 msgid "Unknown code"
@@ -445,7 +445,7 @@ msgstr "ممنوع"
 
 #: app/scripts/lib/oauth-errors.js:88
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "کچھ غلط ہو گیا پے۔ براہ مہربانی اس ٹیب کو بند کریں اور پھر کوشش کریں۔"
 
 #: app/scripts/lib/oauth-errors.js:108
 msgid "Missing OAuth parameter: %(param)s"
