@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2017-03-22 10:04+0000\n"
+"PO-Revision-Date: 2017-03-22 10:16+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -98,7 +98,7 @@ msgstr ""
 
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
+msgstr "ہمیں اس بارے میں سن کر افسوس ہوا۔اگر اس آلہ پر آپ کو بلکلی بھروسہ نہیں۔ آپ کو اپنے Firefox اکائونٹ کا پاسورڈ اور کوئی بھی پاسوورڈ جو Firefox میں محفوظ ہیں ان کو تبدیل کریں۔"
 
 #: app/scripts/views/settings/clients.js:58 app/scripts/views/settings/clients.js:62 app/scripts/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s"
@@ -158,7 +158,7 @@ msgstr "ایک مضبوط اور منفرد پاس ورڈ آپ کے Firefox کو
 
 #: app/scripts/views/mixins/password-prompt-mixin.js:22
 msgid "This is a common password; please consider another one."
-msgstr ""
+msgstr "یہ ایک عام پاس ورڈ ہے۔ براہ مہربانی کسی اور پر غور کریں۔"
 
 #: app/scripts/views/mixins/resend-mixin.js:45 app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
