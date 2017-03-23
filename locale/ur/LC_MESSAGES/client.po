@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2017-03-22 12:33+0000\n"
+"PO-Revision-Date: 2017-03-23 15:49+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -505,7 +505,7 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:40
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "اظاافی سلامتی کے لئے،،براہ مہربانی اس اس آلہ کے ساتھ ہمہ وقت سازی شروع کرنے کے لئے سائن کی تصدیق کریں:"
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
@@ -1046,7 +1046,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:2
 msgid "Devices & apps"
-msgstr ""
+msgstr "آلات اور ایپلیکیشن"
 
 #: app/scripts/templates/settings/clients.mustache:3 app/scripts/templates/partial/show-password.mustache:1
 msgid "Show"
@@ -1054,7 +1054,7 @@ msgstr "دکھائیں"
 
 #: app/scripts/templates/settings/clients.mustache:5
 msgid "current device"
-msgstr ""
+msgstr "موجودہ آلہ"
 
 #: app/scripts/templates/settings/clients.mustache:7
 msgid "Disconnect…"
@@ -1197,7 +1197,7 @@ msgstr ""
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
-msgstr ""
+msgstr "‏‏شاید بعد میں"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
@@ -1249,4 +1249,4 @@ msgstr "آمد نہیں ہوئی؟ پھر بھیجیں"
 
 #: app/scripts/templates/settings/clients.mustache:9
 msgid "current session"
-msgstr ""
+msgstr "موجودہ سیشن"
