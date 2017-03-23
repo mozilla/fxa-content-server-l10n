@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2017-03-23 18:30+0000\n"
+"PO-Revision-Date: 2017-03-23 18:31+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -1269,7 +1269,7 @@ msgstr "Nëse s’po ju vjen mesazhi tekst, mundeni edhe t’i shkarkoni aplikac
 
 #: app/scripts/views/sms_sent.js:24
 msgid "App link resent to %(phoneNumber)s"
-msgstr ""
+msgstr "Lidhje aplikacioni e ridërguar te %(phoneNumber)s"
 
 #: app/scripts/views/settings/clients.js:63
 msgid "Web Session, %(userAgent)s"
@@ -1309,7 +1309,7 @@ msgstr "S’mbërriti? Kërkoni ridërgim"
 
 #: app/scripts/templates/settings/clients.mustache:9
 msgid "current session"
-msgstr ""
+msgstr "sesioni i tanishëm"
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "S’erdhi? Rimerreni"
