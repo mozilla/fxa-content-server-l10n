@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2017-03-25 12:45+0000\n"
+"PO-Revision-Date: 2017-03-25 13:04+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -754,7 +754,7 @@ msgstr "Gløymt passordet?"
 
 #: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:25 app/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Ved å fortsetta seier du deg samd i <a id=\"fxa-tos\" href=\"/legal/terms\">tenestevilkåra</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\">personvernmerknaden</a> of Firefox cloud services."
+msgstr "Ved å fortsetje seier du deg samd i <a id=\"fxa-tos\" href=\"/legal/terms\">tenestevilkåra</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\">personvernmerknaden</a> for Firefox sine skytenester."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -923,7 +923,7 @@ msgstr "Ser du etter utvidingsdata? Registrer ein Firefox-konto med den gamle e-
 
 #: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
-msgstr "Send meg Firefox-nyheitsbrev ein gong i månaden."
+msgstr "Send meg Firefox sitt månadlege nyhendebrev."
 
 #: app/scripts/templates/sign_up.mustache:21
 msgid "Create account"
@@ -1219,11 +1219,11 @@ msgstr "App-lenke sendt til %(phoneNumber)s"
 
 #: app/scripts/views/settings/clients.js:63
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "Nett-økt, %(userAgent)s"
 
 #: app/scripts/views/settings/clients.js:65
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/lib/auth-errors.js:59
 msgid "Incorrect password"
@@ -1231,23 +1231,23 @@ msgstr "Feil passord"
 
 #: app/scripts/lib/auth-errors.js:150
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Innloggingsforsøket avbrote"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
-msgstr ""
+msgstr "Prøv igjen seinare"
 
 #: app/scripts/templates/sign_up.mustache:19
 msgid "Receive the monthly Firefox newsletter"
-msgstr ""
+msgstr "Send meg Firefox sitt månadlege nyhendebrev"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Installer Firefox på smarttelefonen din og logg inn for å fullføre oppsettet"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr ""
+msgstr "App-lenke sendt til %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Feilskrive nummer?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
@@ -1255,7 +1255,7 @@ msgstr "Ikkje komen? Send på nytt"
 
 #: app/scripts/templates/settings/clients.mustache:9
 msgid "current session"
-msgstr ""
+msgstr "gjeldande økt"
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "Kom det ikkje fram? Sen på nytt"
