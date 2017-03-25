@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2017-03-25 17:12+0000\n"
+"PO-Revision-Date: 2017-03-25 22:45+0000\n"
 "Last-Translator: Mahay Alam Khan <mahayalamkhan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_BD\n"
@@ -1239,15 +1239,15 @@ msgstr "অনুগ্রহ করে পরে আবার চেষ্ট�
 
 #: app/scripts/templates/sign_up.mustache:19
 msgid "Receive the monthly Firefox newsletter"
-msgstr ""
+msgstr "মাসিক Firefox নিউজলেটার গ্রহন করুন"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "আপনার স্মার্টফোনে Firefox ইনস্টল করুন আর সাইন করে সেটাপ সম্পন্ন করুন"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr ""
+msgstr "অ্যাপের লিংক %(escapedPhoneNumber)s নম্বরে পাঠানো হয়েছে। <a %(escapedBackLinkAttrs)s>ভুল নম্বর টাইপ করেছেন?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
@@ -1255,7 +1255,7 @@ msgstr "পৌঁছায়নি? আবার পাঠাও"
 
 #: app/scripts/templates/settings/clients.mustache:9
 msgid "current session"
-msgstr ""
+msgstr "বর্তমান সেশন"
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "পৌঁছায়নি? আবার পাঠাও"
