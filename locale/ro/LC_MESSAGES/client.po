@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2017-03-25 16:07+0000\n"
+"PO-Revision-Date: 2017-03-25 16:25+0000\n"
 "Last-Translator: Jobava <jobaval10n@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -75,7 +75,7 @@ msgstr "Cont necunoscut. <a href=\"/signup\">Înregistrare</a>"
 
 #: app/scripts/views/sign_in.js:164 app/scripts/views/sign_in.js:166
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr ""
+msgstr "Cont Firefox necunoscut. <a href=\"/signup\">Înregistrează-te</a> folosind e-mailul anterior asociat contului de Add-ons (Suplimente) pentru a accesa datele tale din site-ul Add-ons."
 
 #: app/scripts/views/sign_up.js:62
 msgid "Account no longer exists. Recreate it?"
@@ -484,7 +484,7 @@ msgstr "Resursele nu s-au putut încărca"
 
 #: app/scripts/lib/require-on-demand.js:43
 msgid "Unexpected resource error"
-msgstr ""
+msgstr "Eroare neașteptată asociată unei resurse"
 
 #: app/scripts/lib/require-on-demand.js:47
 msgid "Script error"
@@ -546,7 +546,7 @@ msgstr "Află mai multe."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s created"
-msgstr ""
+msgstr "%(email)s creat"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
@@ -671,7 +671,7 @@ msgstr "Pentru o mai bună protejare a datelor tale Firefox, ți-am trimis prin 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive and not in spam folder? Resend"
-msgstr ""
+msgstr "N-ai primit încă e-mailul și nici nu-l găsești în dosarul de spam? Retrimite"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -704,11 +704,11 @@ msgstr "Succes"
 
 #: app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign in to this Firefox to complete set-up"
-msgstr ""
+msgstr "Autentifică-te în acest Firefox pentru a completa configurarea"
 
 #: app/scripts/templates/connect_another_device.mustache:7
 msgid "Sign in &rarr;"
-msgstr ""
+msgstr "Autentifică-te &rarr;"
 
 #: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:13
 msgid "Open settings and select Sign in to Firefox to complete set-up"
