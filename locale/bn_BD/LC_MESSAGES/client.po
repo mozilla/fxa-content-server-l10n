@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2017-03-25 14:45+0000\n"
+"PO-Revision-Date: 2017-03-25 15:54+0000\n"
 "Last-Translator: Mahay Alam Khan <mahayalamkhan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_BD\n"
@@ -1231,7 +1231,7 @@ msgstr "ভুল পাসওয়ার্ড"
 
 #: app/scripts/lib/auth-errors.js:150
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "লগিনের চেষ্টা বাতিল করা হয়েছে"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
