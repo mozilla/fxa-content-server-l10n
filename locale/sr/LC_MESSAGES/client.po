@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2017-03-26 15:30+0000\n"
+"PO-Revision-Date: 2017-03-26 15:37+0000\n"
 "Last-Translator: Марко Костић (Marko Kostić) <marko.m.kostic@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -1183,7 +1183,7 @@ msgstr "SMS није послат, покушајте поново"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Пошаљите Firefox право на ваш паметни телефон и пријавите се да завршите подешавање"
 
 #: app/scripts/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
@@ -1208,23 +1208,23 @@ msgstr "Можда касније"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
-msgstr ""
+msgstr "Завршите подешавање инсталирањем Firefox-a преко везе послате на %(phoneNumber)s"
 
 #: app/scripts/templates/sms_sent.mustache:4 app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Уколико нисте примили текстуалну поруку, можете такође преузети апликације ручно."
 
 #: app/scripts/views/sms_sent.js:24
 msgid "App link resent to %(phoneNumber)s"
-msgstr ""
+msgstr "Веза до апликације поново послата на %(phoneNumber)s"
 
 #: app/scripts/views/settings/clients.js:63
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "Веб сесија, %(userAgent)s"
 
 #: app/scripts/views/settings/clients.js:65
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/lib/auth-errors.js:59
 msgid "Incorrect password"
@@ -1232,23 +1232,23 @@ msgstr "Погрешна лозинка"
 
 #: app/scripts/lib/auth-errors.js:150
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Покушај пријаве отказан"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
-msgstr ""
+msgstr "Пробајте поново касније"
 
 #: app/scripts/templates/sign_up.mustache:19
 msgid "Receive the monthly Firefox newsletter"
-msgstr ""
+msgstr "Примајте месечни Firefox билтен"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Инсталирајте Firefox на вашем паметном телефону и пријавите се да бисте завршили подешавање"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr ""
+msgstr "Веза до апликације послата на %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Погрешан број?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
@@ -1256,7 +1256,7 @@ msgstr "Није стигла? Пошаљи поново"
 
 #: app/scripts/templates/settings/clients.mustache:9
 msgid "current session"
-msgstr ""
+msgstr "тренутна сесија"
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "Није вам стигла? Пошаљи поново"
