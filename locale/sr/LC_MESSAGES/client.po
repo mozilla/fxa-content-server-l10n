@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2017-03-26 13:10+0000\n"
+"PO-Revision-Date: 2017-03-26 13:18+0000\n"
 "Last-Translator: Марко Костић (Marko Kostić) <marko.m.kostic@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -95,11 +95,11 @@ msgstr "Лозинка је успешно промењена"
 
 #: app/scripts/views/settings/client_disconnect.js:17
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr "Жао нам је што се ово догодило. Неопходно једа промените лозинку вашег Firefox налога и да потражите помоћ од вашег произвођача уређаја о томе како да обришете ваше податке удаљено."
+msgstr "Жао нам је што се то догодило. Неопходно је да промените лозинку вашег Firefox налога и да потражите помоћ од вашег произвођача уређаја о томе како да обришете ваше податке удаљено."
 
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
+msgstr "Жао нам је што се то догодило. Ако не верујете том уређају, неопходно је да промените лозинку вашег Firefox налога и да промените све лозинке које сте сачували у Firefox-у."
 
 #: app/scripts/views/settings/clients.js:58 app/scripts/views/settings/clients.js:62 app/scripts/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s"
@@ -184,11 +184,11 @@ msgstr "Веза коју сте кликнули за потврду е-пош�
 
 #: app/scripts/lib/auth-errors.js:21 app/scripts/lib/sms-errors.js:17
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "Сувише покушаја је направљено. Пробајте поново касније."
 
 #: app/scripts/lib/auth-errors.js:25
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "Сувише покушаја је направљено. Пробајте поново за %(retryAfterLocalized)s."
 
 #: app/scripts/lib/auth-errors.js:35 app/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
@@ -216,7 +216,7 @@ msgstr "Погрешна е-пошта"
 
 #: app/scripts/lib/auth-errors.js:59
 msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
-msgstr ""
+msgstr "Нетачна лозинка. Да бисте проверили унесено, притисните и држите дугме „Прикажи“."
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
@@ -256,11 +256,11 @@ msgstr "Захтев је блокиран из сигурносних разл�
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:335
 msgid "Invalid authorization code"
-msgstr ""
+msgstr "Неважећи ауторизациони код"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/auth-errors.js:298 app/scripts/lib/auth-errors.js:138 app/scripts/lib/auth-errors.js:315
 msgid "Server busy, try again soon"
-msgstr "Сервер заузет, покушајте поново за пар минута"
+msgstr "Сервер је заузет, покушајте поново ускоро"
 
 #: app/scripts/lib/auth-errors.js:125 app/scripts/lib/auth-errors.js:142
 msgid "This endpoint is no longer supported"
@@ -382,7 +382,7 @@ msgstr "Недостаје особина податка: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:306 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/lib/auth-errors.js:323
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "Ова потврдна веза је већ искоришћена, може се искористити само једном."
 
 #: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:327
 msgid "This is a required field"
@@ -390,7 +390,7 @@ msgstr "Ово је обавезно поље"
 
 #: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:331
 msgid "Authorization code required"
-msgstr ""
+msgstr "Потребан је ауторизациони код"
 
 #: app/scripts/lib/auth-errors.js:322 app/scripts/templates/report_sign_in.mustache:1 app/scripts/lib/auth-errors.js:339
 msgid "Link damaged"
