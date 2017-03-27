@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2017-03-27 17:30+0000\n"
+"PO-Revision-Date: 2017-03-27 17:35+0000\n"
 "Last-Translator: Lovegaming <contact@lovegaming.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -1093,7 +1093,7 @@ msgstr ""
 #: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16 app/scripts/templates/settings/clients.mustache:19
 #: app/scripts/templates/settings/clients.mustache:22
 msgid "Download"
-msgstr ""
+msgstr "Descarcă"
 
 #: app/scripts/templates/settings/clients.mustache:14 app/scripts/templates/settings/clients.mustache:20
 msgid "Firefox for Android"
@@ -1173,15 +1173,15 @@ msgstr "Numărul de telefon nu este valid"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "Nu poate fi trimis către această țară"
 
 #: app/scripts/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "Nu se poate trimite un mesaj la acest număr"
 
 #: app/scripts/lib/auth-errors.js:362
 msgid "Phone number required"
-msgstr ""
+msgstr "Numărul de telefon este necesar"
 
 #: app/scripts/lib/sms-errors.js:23
 msgid "SMS sent"
@@ -1270,7 +1270,7 @@ msgstr "Nu a ajuns? Retrimite"
 
 #: app/scripts/templates/settings/clients.mustache:9
 msgid "current session"
-msgstr ""
+msgstr "sesiunea curentă"
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "Nu a ajuns? Retrimite"
