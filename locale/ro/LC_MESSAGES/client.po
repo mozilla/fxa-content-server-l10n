@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2017-03-26 15:33+0000\n"
+"PO-Revision-Date: 2017-03-27 17:09+0000\n"
 "Last-Translator: Lovegaming <contact@lovegaming.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -1169,7 +1169,7 @@ msgstr "Dispozitiv duplicat"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Numărul de telefon nu este valid"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
@@ -1189,7 +1189,7 @@ msgstr ""
 
 #: app/scripts/lib/sms-errors.js:55
 msgid "Your number has been blocked"
-msgstr ""
+msgstr "Numărul tău de telefon a fost blocat"
 
 #: app/scripts/lib/sms-errors.js:79
 msgid "SMS not sent, please try again"
@@ -1209,7 +1209,7 @@ msgstr ""
 
 #: app/scripts/templates/sms_send.mustache:6
 msgid "Send"
-msgstr ""
+msgstr "Trimite"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
