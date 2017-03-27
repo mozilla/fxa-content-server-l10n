@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2017-03-27 17:09+0000\n"
+"PO-Revision-Date: 2017-03-27 17:30+0000\n"
 "Last-Translator: Lovegaming <contact@lovegaming.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -1218,7 +1218,7 @@ msgstr ""
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
-msgstr ""
+msgstr "Poate mai târziu"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
@@ -1226,7 +1226,7 @@ msgstr ""
 
 #: app/scripts/templates/sms_sent.mustache:4 app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Dacă nu primești mesajul text, poți descărca de asemenea aplicațiile manual."
 
 #: app/scripts/views/sms_sent.js:24
 msgid "App link resent to %(phoneNumber)s"
@@ -1238,7 +1238,7 @@ msgstr ""
 
 #: app/scripts/views/settings/clients.js:65
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/lib/auth-errors.js:59
 msgid "Incorrect password"
@@ -1250,7 +1250,7 @@ msgstr ""
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
-msgstr ""
+msgstr "Te rugăm să încerci din nou mai târziu"
 
 #: app/scripts/templates/sign_up.mustache:19
 msgid "Receive the monthly Firefox newsletter"
@@ -1258,7 +1258,7 @@ msgstr ""
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Instalează Firefox pe smartphone și conectează-te pentru a încheia configurarea"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
