@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2017-03-04 14:16+0000\n"
+"PO-Revision-Date: 2017-03-29 18:56+0000\n"
 "Last-Translator: Jim Spentzos <jamesspentzos@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -251,7 +251,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:91
 msgid "Request body too large"
-msgstr ""
+msgstr "Πολύ μεγάλο κύριο μέρος αιτήματος"
 
 #: app/scripts/lib/auth-errors.js:109
 msgid "The request was blocked for security reasons"
@@ -484,9 +484,7 @@ msgid "Script error"
 msgstr "Σφάλμα σεναρίου"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
@@ -1206,7 +1204,7 @@ msgstr ""
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
-msgstr ""
+msgstr "Ίσως αργότερα"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
@@ -1218,15 +1216,15 @@ msgstr ""
 
 #: app/scripts/views/sms_sent.js:24
 msgid "App link resent to %(phoneNumber)s"
-msgstr ""
+msgstr "Ο σύνδεσμος εφαρμογής απεστάλη ξανά στο %(phoneNumber)s"
 
 #: app/scripts/views/settings/clients.js:63
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "Διαδικτυακή συνεδρία, %(userAgent)s"
 
 #: app/scripts/views/settings/clients.js:65
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/lib/auth-errors.js:59
 msgid "Incorrect password"
@@ -1234,31 +1232,31 @@ msgstr "Λανθασμένος κωδικός"
 
 #: app/scripts/lib/auth-errors.js:150
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Η προσπάθεια σύνδεσης ακυρώθηκε"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
-msgstr ""
+msgstr "Παρακαλώ δοκιμάστε ξανά αργότερα"
 
 #: app/scripts/templates/sign_up.mustache:19
 msgid "Receive the monthly Firefox newsletter"
-msgstr ""
+msgstr "Λήψη του μηνιαίου Firefox newsletter"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Εγκαταστήστε το Firefox στο smartphone σας και συνδεθείτε για να ολοκληρώσετε τη ρύθμιση"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr ""
+msgstr "Ο σύνδεσμος εφαρμογής απεστάλη στο %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Λάθος αριθμός;</a>"
 
 #: app/scripts/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
-msgstr ""
+msgstr "Δεν έφτασε; Εκ νέου αποστολή"
 
 #: app/scripts/templates/settings/clients.mustache:9
 msgid "current session"
-msgstr ""
+msgstr "τρέχουσα συνεδρία"
 
 #~ msgid "Reason for disconnecting…"
 #~ msgstr "Λόγος αποσύνδεσης…"
