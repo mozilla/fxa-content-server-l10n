@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2017-03-21 01:44+0000\n"
+"PO-Revision-Date: 2017-03-30 19:39+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -539,7 +539,7 @@ msgstr "Utworzono konto %(email)s"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
-msgstr "Wybierz, co powinno być synchronizowane"
+msgstr "Wybierz, co ma być synchronizowane"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:3
 msgid "Open tabs"
