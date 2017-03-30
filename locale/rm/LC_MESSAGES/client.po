@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2017-03-30 21:10+0000\n"
+"PO-Revision-Date: 2017-03-30 21:19+0000\n"
 "Last-Translator: Gion-Andri Cantieni <gion-andri@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
@@ -95,7 +95,7 @@ msgstr "Midà il pled-clav cun success"
 
 #: app/scripts/views/settings/client_disconnect.js:17
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr ""
+msgstr "Nus stain mal dad udir quai. Il meglier midas ti tes pled-clav da tes conto da Firefox e tschertgar infurmaziuns tar il producent da tes apparat davart il stizzar las datas ord il lontan."
 
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
@@ -367,47 +367,47 @@ msgstr "Il conto n'exista betg pli."
 
 #: app/scripts/lib/auth-errors.js:281 app/scripts/lib/auth-errors.js:298
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "Caracteristica nunvalida en il token: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:285 app/scripts/lib/auth-errors.js:302
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "Caracteristica manca en il token: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:289 app/scripts/lib/auth-errors.js:306
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "Attribut da data nunvalid: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:293 app/scripts/lib/auth-errors.js:310
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "Attribut da data mancant: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:306 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/lib/auth-errors.js:323
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "Quest link da confirmaziun è gia vegnì duvrà e po be vegnir duvrà ina giada."
 
 #: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:327
 msgid "This is a required field"
-msgstr ""
+msgstr "Quest è in champ necessari"
 
 #: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:331
 msgid "Authorization code required"
-msgstr ""
+msgstr "Code dad autorisaziun è necessari"
 
 #: app/scripts/lib/auth-errors.js:322 app/scripts/templates/report_sign_in.mustache:1 app/scripts/lib/auth-errors.js:339
 msgid "Link damaged"
-msgstr ""
+msgstr "Colliaziun rutta"
 
 #: app/scripts/lib/config-loader.js:87
 msgid "Missing configuration"
-msgstr ""
+msgstr "Configuraziun manca"
 
 #: app/scripts/lib/config-loader.js:91
 msgid "Invalid configuration"
-msgstr ""
+msgstr "Configuraziun nunvalida"
 
 #: app/scripts/lib/mailcheck.js:26 app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "Has ti manegià <span tabindex=\"1\">%(escapedDomain)s</span>?"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -455,7 +455,7 @@ msgstr "Parameter dad OAuth mancant: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
-msgstr ""
+msgstr "Token nunvalid"
 
 #: app/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
@@ -471,15 +471,15 @@ msgstr "Errur cun elavurar il maletg"
 
 #: app/scripts/lib/require-on-demand.js:39
 msgid "Resources failed to load"
-msgstr ""
+msgstr "Betg reussì da chargiar las resursas"
 
 #: app/scripts/lib/require-on-demand.js:43
 msgid "Unexpected resource error"
-msgstr ""
+msgstr "Errur da resursa nunspetgada"
 
 #: app/scripts/lib/require-on-demand.js:47
 msgid "Script error"
-msgstr ""
+msgstr "Errur da script"
 
 #: app/scripts/lib/strings.js:22
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
@@ -497,27 +497,27 @@ msgstr "Retschaiver novitads davart Mozilla e Firefox."
 
 #: app/scripts/lib/strings.js:37
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (schazegià)"
 
 #: app/scripts/lib/strings.js:38
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (schazegià)"
 
 #: app/scripts/lib/strings.js:39
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "Adressa IP: %(ip)s"
 
 #: app/scripts/lib/strings.js:40
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "Per pli gronda segirezza, conferma p.pl. questa annunzia per cumenzar a sincronisar cun quest apparat:"
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "Dumonda nuncorrecta"
 
 #: app/scripts/templates/500.mustache:1
 msgid "500 Error"
-msgstr ""
+msgstr "Errur 500"
 
 #: app/scripts/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
@@ -695,19 +695,19 @@ msgstr "Success"
 
 #: app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign in to this Firefox to complete set-up"
-msgstr ""
+msgstr "T'annunzia en quest Firefox per cumplettar la configuraziun"
 
 #: app/scripts/templates/connect_another_device.mustache:7
 msgid "Sign in &rarr;"
-msgstr ""
+msgstr "S'annunziar &rarr;"
 
 #: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:13
 msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr ""
+msgstr "Avrir «parameters » e tscherner «S'annunziar en Firefox» per cumplettar l'installaziun"
 
 #: app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:17
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
+msgstr "S'annunziar en Firefox per iOS per cumplettar l'installaziun"
 
 #: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:17 app/scripts/templates/connect_another_device.mustache:9
 #: app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
@@ -825,23 +825,23 @@ msgstr "Tes conto è pront!"
 
 #: app/scripts/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "Vuls ti rapportar in'annunzia betg autorisada?"
 
 #: app/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr ""
+msgstr "Ti has survegnì in email davart in'emprova dad access a tes conto. Vuls ti rapportar questa activitad sco suspectus?"
 
 #: app/scripts/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr ""
+msgstr "Rapportar l'activitad"
 
 #: app/scripts/templates/report_sign_in.mustache:7 app/scripts/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr ""
+msgstr "Pertge capita quai?"
 
 #: app/scripts/templates/reset_password.mustache:1 app/scripts/templates/reset_password.mustache:4
 msgid "Reset account"
-msgstr ""
+msgstr "Reinizialisar il conto"
 
 #: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
@@ -849,7 +849,7 @@ msgstr "Cuntinuar cun %(serviceName)s"
 
 #: app/scripts/templates/reset_password.mustache:5
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "Cun reinizialisar tes pled-clav perdas ti tut las datas da Sync che n'èn sin nagin da tes apparats."
 
 #: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
@@ -861,7 +861,7 @@ msgstr "Cumenzar da redefinir"
 
 #: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "Ta regordas dal pled-clav? T'annunzia."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
@@ -1146,55 +1146,55 @@ msgstr "Utilisar il conto da Firefox"
 
 #: app/scripts/lib/strings.js:43
 msgid "Web Session"
-msgstr ""
+msgstr "Sesida web"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
-msgstr ""
+msgstr "Apparat dubel"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Numer da telefon nunvalaivel"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "Impussibel da trametter en quest pajais"
 
 #: app/scripts/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "Impussibel da trametter il messadi a quest numer"
 
 #: app/scripts/lib/auth-errors.js:362
 msgid "Phone number required"
-msgstr ""
+msgstr "Numer da telefon necessari"
 
 #: app/scripts/lib/sms-errors.js:23
 msgid "SMS sent"
-msgstr ""
+msgstr "Tramess il SMS"
 
 #: app/scripts/lib/sms-errors.js:55
 msgid "Your number has been blocked"
-msgstr ""
+msgstr "Tes numer e vegnì bloccà"
 
 #: app/scripts/lib/sms-errors.js:79
 msgid "SMS not sent, please try again"
-msgstr ""
+msgstr "SMS n'è betg vegnì tramess, emprova p.pl. pli tard anc ina giada"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Trametta Firefox directamain a tes smartphone e t'annunzia per cumplettar la configuraziun"
 
 #: app/scripts/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
-msgstr ""
+msgstr "Quest Firefox è connectà"
 
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
-msgstr ""
+msgstr "Numer dal telefonin"
 
 #: app/scripts/templates/sms_send.mustache:6
 msgid "Send"
-msgstr ""
+msgstr "Trametter"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
@@ -1203,7 +1203,7 @@ msgstr ""
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
-msgstr ""
+msgstr "Forsa pli tard"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
@@ -1255,7 +1255,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:9
 msgid "current session"
-msgstr ""
+msgstr "sesida actuala"
 
 #~ msgid "Firefox Sync will begin momentarily"
 #~ msgstr "Firefox Sync cumenza immediatamain"
