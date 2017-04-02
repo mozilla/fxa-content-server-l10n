@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2016-08-08 12:41+0000\n"
+"PO-Revision-Date: 2017-04-02 13:50+0000\n"
 "Last-Translator: Amanpreet Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -103,7 +103,7 @@ msgstr ""
 
 #: app/scripts/views/settings/clients.js:58 app/scripts/views/settings/clients.js:62 app/scripts/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s ਪਹਿਲਾਂ ਸਰਗਰਮ"
 
 #: app/scripts/views/settings/communication_preferences.js:104
 msgid "Subscribed successfully"
@@ -143,11 +143,11 @@ msgstr "Yahoo ਨੂੰ ਖੋਲ੍ਹੋ"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:37
 msgid "Open Outlook"
-msgstr ""
+msgstr "Outlook ਨੂੰ ਖੋਲ੍ਹੋ"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:43
 msgid "Open Restmail"
-msgstr ""
+msgstr "Restmail ਨੂੰ ਖੋਲ੍ਹੋ"
 
 #: app/scripts/views/mixins/password-prompt-mixin.js:20
 msgid "8 characters minimum, but longer if you plan to sync passwords."
@@ -394,15 +394,15 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:322 app/scripts/templates/report_sign_in.mustache:1 app/scripts/lib/auth-errors.js:339
 msgid "Link damaged"
-msgstr ""
+msgstr "ਨੁਕਸਾਨਿਆ ਲਿੰਕ"
 
 #: app/scripts/lib/config-loader.js:87
 msgid "Missing configuration"
-msgstr ""
+msgstr "ਗੁੰਮ ਸੰਰਚਨਾ"
 
 #: app/scripts/lib/config-loader.js:91
 msgid "Invalid configuration"
-msgstr ""
+msgstr "ਗ਼ਲਤ ਸੰਰਚਨਾ"
 
 #: app/scripts/lib/mailcheck.js:26 app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
@@ -481,11 +481,10 @@ msgid "Script error"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"ਜਾਰੀ ਰੱਖਣ ਲਈ ਤੁਹਾਨੂੰ %(serviceName)s (%(serviceUri)s) ਦੀਆਂ <a id=\"service-tos\" href=\"%(termsUri)s\">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</a> ਅਤੇ <a id=\"service-pp\" href=\"%(privacyUri)s\">ਪਰਦੇਦਾਰੀ ਨੋਟਿਸ</a> ਨਾਲ ਸਹਿਮਤ ਹੋ ਹੋਵੇਗਾ।"
+"ਜਾਰੀ ਰੱਖਣ ਲਈ ਤੁਹਾਨੂੰ %(serviceName)s (%(serviceUri)s) ਦੀਆਂ <a id=\"service-tos\" href=\"%(termsUri)s\">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</a> ਅਤੇ <a id=\"service-pp\" href=\"%(privacyUri)s\">ਪਰਦੇਦਾਰੀ ਨੋਟਿਸ</a> ਨਾਲ "
+"ਸਹਿਮਤ ਹੋ ਹੋਵੇਗਾ।"
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -517,7 +516,7 @@ msgstr ""
 
 #: app/scripts/templates/500.mustache:1
 msgid "500 Error"
-msgstr ""
+msgstr "500 ਗ਼ਲਤੀ"
 
 #: app/scripts/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
@@ -545,7 +544,7 @@ msgstr "ਚੁਣੋ ਕਿ ਕੀ ਸਿੰਕ ਕਰਨਾ ਹੈ"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:3
 msgid "Open tabs"
-msgstr ""
+msgstr "ਟੈਬਾਂ ਨੂੰ ਖੋਲ੍ਹੋ"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Bookmarks"
@@ -625,7 +624,7 @@ msgstr "ਨਵਾਂ ਪਾਸਵਰਡ ਦਿਓ"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Sign-in already confirmed"
-msgstr ""
+msgstr "ਸਾਈਨ-ਇਨ ਨੂੰ ਪਹਿਲਾਂ ਹੀ ਤਸਦੀਕ ਕੀਤਾ ਹੈ"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
@@ -674,19 +673,19 @@ msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "ਪਾਸਵਰਡ ਯਾਦ ਰੱਖਣਾ ਹੈ? ਸਾਈਨ ਇਨ ਕਰੋ"
 
 #: app/scripts/templates/connect_another_device.mustache:1
 msgid "Connect another device"
-msgstr ""
+msgstr "ਹੋਰ ਡਿਵਾਈਸ ਨੂੰ ਕਨੈਕਟ ਕਰੋ"
 
 #: app/scripts/templates/connect_another_device.mustache:2
 msgid "This device is connected"
-msgstr ""
+msgstr "ਇਹ ਡਿਵਾਈਸ ਕਨੈਕਟ ਹੈ"
 
 #: app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
-msgstr ""
+msgstr "ਈਮੇਲ ਤਸਦੀਕ ਕੀਤੀ"
 
 #: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:2
 #: app/scripts/templates/sms_sent.mustache:3
@@ -695,19 +694,19 @@ msgstr "ਕਾਮਯਾਬ"
 
 #: app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign in to this Firefox to complete set-up"
-msgstr ""
+msgstr "ਸੈੱਟ-ਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਵਾਸਤੇ ਇਸ ਫਾਇਰਫਾਕਸ ਵਿੱਚ ਸਾਈਨ-ਇਨ ਕਰੋ"
 
 #: app/scripts/templates/connect_another_device.mustache:7
 msgid "Sign in &rarr;"
-msgstr ""
+msgstr "&rarr; ਸਾਇਨ-ਇਨ"
 
 #: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:13
 msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr ""
+msgstr "ਸੈੱਟ-ਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਵਾਸਤੇ ਸੈਟਿੰਗਾਂ ਨੂੰ ਖੋਲ੍ਹੋ ਅਤੇ ਫਾਇਰਫਾਕਸ ਵਿੱਚ ਸਾਇਨ-ਇਨ ਕਰਨ ਨੂੰ ਚੁਣੋ"
 
 #: app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:17
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
+msgstr "ਸੈੱਟ-ਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ iOS ਲਈ ਫਾਇਰਫਾਕਸ ਨੂੰ ਸਾਇਨ ਚੁਣੋ"
 
 #: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:17 app/scripts/templates/connect_another_device.mustache:9
 #: app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
@@ -720,7 +719,7 @@ msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:19 app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
 msgid "Why is this required?"
-msgstr ""
+msgstr "ਇਹ ਕਿਉਂ ਚਾਹੀਦਾ ਹੈ?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -831,15 +830,15 @@ msgstr ""
 
 #: app/scripts/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr ""
+msgstr "ਸਰਗਰਮੀ ਦੀ ਜਾਣਕਾਰੀ ਦਿਓ"
 
 #: app/scripts/templates/report_sign_in.mustache:7 app/scripts/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr ""
+msgstr "ਇਹ ਕਿਓ ਵਾਪਰਿਆ ਹੈ?"
 
 #: app/scripts/templates/reset_password.mustache:1 app/scripts/templates/reset_password.mustache:4
 msgid "Reset account"
-msgstr ""
+msgstr "ਖਾਤੇ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰੋ"
 
 #: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
@@ -907,7 +906,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"
-msgstr ""
+msgstr "ਜਾਰੀ ਰੱਖੋ"
 
 #: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
@@ -955,16 +954,16 @@ msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
-msgstr ""
+msgstr "ਸਮਝੇ"
 
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2
 msgid "Change…"
-msgstr ""
+msgstr "…ਬਦਲੋ"
 
 #: app/scripts/templates/settings/avatar.mustache:4 app/scripts/templates/settings/display_name.mustache:4
 msgid "Add…"
-msgstr ""
+msgstr "…ਜੋੜੋ"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -1013,7 +1012,7 @@ msgstr "ਪੁਰਾਣਾ ਪਾਸਵਰਡ"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
-msgstr ""
+msgstr "ਸਿੰਕ ਤੋਂ ਡਿਸ-ਕਨੈਕਟ ਕਰਨਾ ਹੈ?"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
@@ -1021,23 +1020,23 @@ msgstr ""
 
 #: app/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Suspicious device"
-msgstr ""
+msgstr "ਸ਼ੱਕੀ ਡਿਵਾਈਸ"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Lost or stolen device"
-msgstr ""
+msgstr "ਡਿਵਾਈਸ ਗੁੰਮ ਜਾਂ ਚੋਰੀ ਹੋਇਆ"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Old or replaced device"
-msgstr ""
+msgstr "ਪੁਰਾਣਾ ਜਾਂ ਬਦਲਿਆ ਗਿਆ ਡਿਵਾਈਸ"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate Device"
-msgstr ""
+msgstr "ਡੁਪਲੀਕੇਟ ਡਿਵਾਈਸ"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
-msgstr ""
+msgstr "ਦੱਸਣਾ ਨਹੀਂ ਹੈ"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:9 app/scripts/templates/settings/clients.mustache:11
 #: app/scripts/templates/settings/clients.mustache:14
@@ -1046,11 +1045,11 @@ msgstr "ਡਿਸ-ਕਨੈਕਟ ਕਰੋ"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
-msgstr ""
+msgstr "ਡਿਸ-ਕਨੈਕਸ਼ਨ ਸਫ਼ਲ ਹੈ"
 
 #: app/scripts/templates/settings/clients.mustache:2
 msgid "Devices & apps"
-msgstr ""
+msgstr "ਡਿਵਾਈਸ ਤੇ ਐਪਾਂ"
 
 #: app/scripts/templates/settings/clients.mustache:3 app/scripts/templates/partial/show-password.mustache:1
 msgid "Show"
@@ -1286,11 +1285,9 @@ msgstr ""
 #~ msgstr "ਵੱਖਰੇ ਈਮੇਲ ਨਾਲ ਖਾਤਾ ਹੈ? <a href=\"%(signinUri)s\">ਸਾਈਨ ਇਨ ਕਰੋ</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
-#~ msgstr ""
-#~ "ਫਾਇਰਫਾਕਸ <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">ਐਂਡਰਾਈਡ</a>, <a href=\"%(linkIOS)s\">iOS</a> ਅਤੇ <a href=\"%(linkLinux)s\">ਲੀਨਕਸ</a> "
-#~ "ਲਈ ਮੌਜੂਦ ਹੈ।"
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ msgstr "ਫਾਇਰਫਾਕਸ <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">ਐਂਡਰਾਈਡ</a>, <a href=\"%(linkIOS)s\">iOS</a> ਅਤੇ <a href=\"%(linkLinux)s\">ਲੀਨਕਸ</a> ਲਈ ਮੌਜੂਦ ਹੈ।"
 
 #~ msgid "Add"
 #~ msgstr "ਜੋੜੋ"
@@ -1398,7 +1395,9 @@ msgstr ""
 #~ msgstr "ਕੀ ਤੁਸੀਂ ਆਪਣੇ ਖਾਤੇ ਦਾ ਪਾਸਵਰਡ ਦੁਬਾਰਾ ਸੈੱਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ?"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
-#~ msgstr "ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਦੁਬਾਰਾ ਸੈੱਟ ਕਰਨ ਵੇਲੇ ਸਾਡਾ ਸਰਵਰ ਤੁਹਾਡੇ ਬਰਾਊਜ਼ਿੰਗ ਅੰਕੜਿਆਂ ਨੂੰ ਮਿਟਾ ਦੇਵੇਗਾ । ਤੁਹਾਡੇ ਉਪਕਰਨ ਉਤੇ ਹੋਰ ਕੋਈ ਵੀ ਅੰਕੜਾ ਅਣਛੂਹਿਆ ਰਹੇਗਾ । ਦੁਬਾਰਾ ਸੈੱਟ ਕਰਨ ਦੀ ਕਿਰਿਆ ਨੂੰ ਥੱਲੇ ਆਪਣੀ ਈ-ਮੇਲ ਭਰਨ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ ।"
+#~ msgstr ""
+#~ "ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਦੁਬਾਰਾ ਸੈੱਟ ਕਰਨ ਵੇਲੇ ਸਾਡਾ ਸਰਵਰ ਤੁਹਾਡੇ ਬਰਾਊਜ਼ਿੰਗ ਅੰਕੜਿਆਂ ਨੂੰ ਮਿਟਾ ਦੇਵੇਗਾ । ਤੁਹਾਡੇ ਉਪਕਰਨ ਉਤੇ ਹੋਰ ਕੋਈ ਵੀ ਅੰਕੜਾ ਅਣਛੂਹਿਆ ਰਹੇਗਾ । ਦੁਬਾਰਾ ਸੈੱਟ ਕਰਨ ਦੀ ਕਿਰਿਆ ਨੂੰ ਥੱਲੇ ਆਪਣੀ ਈ-ਮੇਲ ਭਰਨ ਨਾਲ "
+#~ "ਸ਼ੁਰੂ ਕਰੋ ।"
 
 #~ msgid "Age is required"
 #~ msgstr "ਉਮਰ ਲੋੜੀਂਦੀ ਹੈ ।"
