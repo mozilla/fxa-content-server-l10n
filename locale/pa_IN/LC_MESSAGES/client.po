@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2017-04-02 13:50+0000\n"
+"PO-Revision-Date: 2017-04-02 13:52+0000\n"
 "Last-Translator: Amanpreet Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -1061,25 +1061,25 @@ msgstr "ਮੌਜੂਦਾ ਡਿਵਾਈਸ"
 
 #: app/scripts/templates/settings/clients.mustache:7
 msgid "Disconnect…"
-msgstr ""
+msgstr "…ਡਿਸ-ਕਨੈਕਟ ਕਰੋ"
 
 #: app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:17
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "iOS ਲਈ ਫਾਇਰਫਾਕਸ"
 
 #: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15 app/scripts/templates/settings/clients.mustache:18
 #: app/scripts/templates/settings/clients.mustache:21
 msgid "none connected"
-msgstr ""
+msgstr "ਕੋਈ ਵੀ ਕਨੈਕਟ ਨਹੀਂ ਹੈ"
 
 #: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16 app/scripts/templates/settings/clients.mustache:19
 #: app/scripts/templates/settings/clients.mustache:22
 msgid "Download"
-msgstr ""
+msgstr "ਡਾਊਨਲੋਡ"
 
 #: app/scripts/templates/settings/clients.mustache:14 app/scripts/templates/settings/clients.mustache:20
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Android ਲਈ ਫਾਇਰਫਾਕਸ"
 
 #: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:24
 msgid "Missing or duplicate items?"
@@ -1111,7 +1111,7 @@ msgstr "ਖਾਤਾ ਹਟਾਓ"
 
 #: app/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete…"
-msgstr ""
+msgstr "…ਨੂੰ ਹਟਾਓ"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
@@ -1143,19 +1143,19 @@ msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ"
 
 #: app/scripts/lib/strings.js:43
 msgid "Web Session"
-msgstr ""
+msgstr "ਵੈੱਬ ਸ਼ੈਸ਼ਨ"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
-msgstr ""
+msgstr "ਡੁਪਲੀਕੇਟ ਡਿਵਾਈਸ"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr ""
+msgstr "ਗ਼ਲਤ ਫ਼ੋਨ ਨੰਬਰ"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "ਇਸ ਦੇਸ਼ ਲਈ ਨਹੀਂ ਭੇਜਿਆ ਜਾ ਸਕਦਾ"
 
 #: app/scripts/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
@@ -1183,15 +1183,15 @@ msgstr ""
 
 #: app/scripts/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
-msgstr ""
+msgstr "ਫਾਇਰਫਾਕਸ ਕਨੈਕਟ ਹੈ"
 
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
-msgstr ""
+msgstr "ਮੋਬਾਈਲ ਫ਼ੋਨ ਨੰਬਰ"
 
 #: app/scripts/templates/sms_send.mustache:6
 msgid "Send"
-msgstr ""
+msgstr "ਭੇਜੋ"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
@@ -1200,7 +1200,7 @@ msgstr ""
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
-msgstr ""
+msgstr "ਸ਼ਾਇਦ ਬਾਦ 'ਚ"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
@@ -1252,7 +1252,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:9
 msgid "current session"
-msgstr ""
+msgstr "ਮੌਜੂਦਾ ਸ਼ੈਸ਼ਨ"
 
 #~ msgid "Forgot password"
 #~ msgstr "ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ"
