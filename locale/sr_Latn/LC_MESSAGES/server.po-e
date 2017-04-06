@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2017-03-11 07:56+0000\n"
-"Last-Translator: Vanja Tumbas <tumbas93@gmail.com>\n"
+"POT-Creation-Date: 2017-04-06 00:05+0000\n"
+"PO-Revision-Date: 2017-03-26 15:29+0000\n"
+"Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
@@ -180,6 +180,7 @@ msgid ""
 "Your Firefox Account password was successfully changed from the following "
 "device:"
 msgstr ""
+"Lozinka vašeg Firefox naloga je uspešno promenjena sa sledećeg uređaja:"
 
 #: lib/senders/templates/password_changed.html:5
 msgid ""
@@ -334,6 +335,8 @@ msgid ""
 "Click the button within the next hour to set a new password for your Firefox "
 "Account. The request came from the following device:"
 msgstr ""
+"Kliknite na dugme u sledećih sat vremena da biste postavili novu lozinku za "
+"vaš Firefox nalog. Zahtev je poslao sledeći uređaj:"
 
 #: lib/senders/templates/recovery.html:5 lib/senders/templates/recovery.txt:4
 msgid "Reset password"
@@ -344,26 +347,30 @@ msgid ""
 "As requested, here is a link to install Firefox on your mobile device: "
 "%(link)s"
 msgstr ""
+"Kao što je zahtevano, evo veze za instalaciju Firefox-a na vaš mobilni: "
+"%(link)s"
 
 #: lib/senders/templates/unblock_code.html:2
 #: lib/senders/templates/unblock_code.txt:1
 msgid "Is this you signing in?"
-msgstr ""
+msgstr "Da li ste se ovo vi prijavili?"
 
 #: lib/senders/templates/unblock_code.html:4
 #: lib/senders/templates/unblock_code.txt:3
 msgid "If yes, here is the authorization code you need:"
-msgstr ""
+msgstr "Ako jeste, evo autorizacionog koda koji vam je potreban:"
 
 #: lib/senders/templates/unblock_code.html:5
 msgid ""
 "If no, help us fend off intruders and <a "
 "%(reportSignInLinkAttributes)s>report it to us.</a>"
 msgstr ""
+"Ako niste, pomozite nam da odbijemo uljeza i <a "
+"%(reportSignInLinkAttributes)s>prijavite nam to.</a>"
 
 #: lib/senders/templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "Ako niste, pomozite nam da odbijemo uljeza i prijavite nam to."
 
 #: lib/senders/templates/verification_reminder_first.html:2
 #: lib/senders/templates/verification_reminder_first.txt:1
@@ -462,7 +469,7 @@ msgstr ""
 #: lib/senders/templates/verify_sync.html:2
 #: lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
-msgstr ""
+msgstr "Spremni, pozor, sinhronizuj"
 
 #: lib/senders/templates/verify_sync.html:3
 #: lib/senders/templates/verify_sync.txt:2
@@ -470,6 +477,8 @@ msgid ""
 "Confirm you’ve received this email and we’ll help you install and sync "
 "Firefox on all your devices starting with:"
 msgstr ""
+"Potvrdite da ste primili e-poštu i pomoćićemo vam da instalirate i "
+"sinhronizujete Firefox na svim vašim uređajima počeći od:"
 
 #: lib/senders/templates/verify_sync.html:5
 #: lib/senders/templates/verify_sync.txt:4
@@ -482,6 +491,8 @@ msgid ""
 "Once confirmed, we will help you install and connect Firefox on at least one "
 "other device."
 msgstr ""
+"Jednom kada potvrdite, pomoćićemo vam da instalirate i povežete Firefox na "
+"barem jedan uređaj."
 
 #: lib/senders/email.js:153
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -513,11 +524,11 @@ msgstr "Potvrdite Firefox nalog"
 
 #: lib/senders/email.js:310
 msgid "Confirm your email and start to sync!"
-msgstr ""
+msgstr "Potvrdite vašu elektronsku adresu i počnite sa sinhronizacijom!"
 
 #: lib/senders/email.js:367
 msgid "Firefox Account authorization code"
-msgstr ""
+msgstr "Autorazicioni kod Firefox naloga"
 
 #: lib/senders/email.js:419
 msgid "Confirm new sign-in to Firefox"
