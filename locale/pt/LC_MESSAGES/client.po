@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-20 23:23+0000\n"
-"PO-Revision-Date: 2017-03-06 03:57+0000\n"
+"POT-Creation-Date: 2017-04-06 00:05+0000\n"
+"PO-Revision-Date: 2017-03-21 19:19+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 
 #: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
-#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170 app/scripts/views/complete_sign_up.js:184
+#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170 app/scripts/views/complete_sign_up.js:184 app/scripts/views/complete_sign_up.js:186
 msgid "Account verified successfully"
 msgstr "Conta verificada com sucesso"
 
@@ -80,7 +80,7 @@ msgstr "Conta Firefox desconhecida. <a href=\"/signup\">Inicie sessão</a> utili
 msgid "Account no longer exists. Recreate it?"
 msgstr "A conta já não existe. Pretende recreá-la?"
 
-#: app/scripts/views/sign_up.js:370 app/scripts/views/sign_up.js:369 app/scripts/views/sign_up.js:380
+#: app/scripts/views/sign_up.js:370 app/scripts/views/sign_up.js:369 app/scripts/views/sign_up.js:380 app/scripts/views/sign_up.js:381
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "A conta já existe. <a href=\"/signin\">Inicie sessão</a>"
 
@@ -171,7 +171,7 @@ msgstr "Email reenviado"
 msgid "Signed out successfully"
 msgstr "Terminou sessão com sucesso"
 
-#: app/scripts/models/reliers/sync.js:50
+#: app/scripts/models/reliers/sync.js:50 app/scripts/models/reliers/sync.js:51
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
@@ -1224,15 +1224,15 @@ msgstr "Se não está a receber a mensagem de texto, pode também descarregar as
 
 #: app/scripts/views/sms_sent.js:24
 msgid "App link resent to %(phoneNumber)s"
-msgstr ""
+msgstr "Ligação de aplicação reenviada para %(phoneNumber)s"
 
 #: app/scripts/views/settings/clients.js:63
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "Sessão Web, %(userAgent)s"
 
 #: app/scripts/views/settings/clients.js:65
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/lib/auth-errors.js:59
 msgid "Incorrect password"
@@ -1240,23 +1240,23 @@ msgstr "Palavra-passe incorreta"
 
 #: app/scripts/lib/auth-errors.js:150
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Tentativa de início de sessão cancelada"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
-msgstr ""
+msgstr "Por favor tente novamente mais tarde"
 
 #: app/scripts/templates/sign_up.mustache:19
 msgid "Receive the monthly Firefox newsletter"
-msgstr ""
+msgstr "Receber o newsletter mensal do Firefox"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Instale o Firefox no seu smartphone e registe-se para completar a configuração"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr ""
+msgstr "Ligação de aplicação enviada para %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Enganou-se no número?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
@@ -1264,7 +1264,7 @@ msgstr "Não chegou? Reenviar"
 
 #: app/scripts/templates/settings/clients.mustache:9
 msgid "current session"
-msgstr ""
+msgstr "sessão atual"
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "Não chegou? Reenviar"

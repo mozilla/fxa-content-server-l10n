@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-20 23:23+0000\n"
+"POT-Creation-Date: 2017-04-06 00:05+0000\n"
 "PO-Revision-Date: 2015-10-13 12:01+0000\n"
 "Last-Translator: Matjaž <m@owca.info>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-POOTLE-MTIME: 1444737687.0\n"
 
 #: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
-#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170 app/scripts/views/complete_sign_up.js:184
+#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170 app/scripts/views/complete_sign_up.js:184 app/scripts/views/complete_sign_up.js:186
 msgid "Account verified successfully"
 msgstr "ਖਾਤਾ ਕਾਮਯਾਬੀ ਨਾਲ ਜਾਂਚਿਆ"
 
@@ -80,7 +80,7 @@ msgstr ""
 msgid "Account no longer exists. Recreate it?"
 msgstr ""
 
-#: app/scripts/views/sign_up.js:370 app/scripts/views/sign_up.js:369 app/scripts/views/sign_up.js:380
+#: app/scripts/views/sign_up.js:370 app/scripts/views/sign_up.js:369 app/scripts/views/sign_up.js:380 app/scripts/views/sign_up.js:381
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "ਖਾਤਾ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ। <a href=\"/signin\">ਸਾਇਨ ਇਨ</a>"
 
@@ -168,7 +168,7 @@ msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਲਿੰਕ ਦੀ ਮਿਆ�
 msgid "Signed out successfully"
 msgstr "ਕਾਮਯਾਬੀ ਨਾਲ ਸਾਇਨ ਆਉਟ ਕਰੋ"
 
-#: app/scripts/models/reliers/sync.js:50
+#: app/scripts/models/reliers/sync.js:50 app/scripts/models/reliers/sync.js:51
 msgid "Firefox Sync"
 msgstr "ਫਾਇਰਫਾਕਸ ਸਿੰਕ"
 

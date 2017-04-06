@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-20 23:23+0000\n"
+"POT-Creation-Date: 2017-04-06 00:05+0000\n"
 "PO-Revision-Date: 2017-03-30 19:39+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 
 #: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
-#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170 app/scripts/views/complete_sign_up.js:184
+#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170 app/scripts/views/complete_sign_up.js:184 app/scripts/views/complete_sign_up.js:186
 msgid "Account verified successfully"
 msgstr "Pomyślnie zweryfikowano konto"
 
@@ -80,7 +80,7 @@ msgstr "Nieznane konto Firefoksa. <a href=\"/signup\">Zarejestruj się</a> za po
 msgid "Account no longer exists. Recreate it?"
 msgstr "Konto już nie istnieje. Utworzyć je ponownie?"
 
-#: app/scripts/views/sign_up.js:370 app/scripts/views/sign_up.js:369 app/scripts/views/sign_up.js:380
+#: app/scripts/views/sign_up.js:370 app/scripts/views/sign_up.js:369 app/scripts/views/sign_up.js:380 app/scripts/views/sign_up.js:381
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Konto już istnieje. <a href=\"/signin\">Zaloguj się</a>"
 
@@ -168,7 +168,7 @@ msgstr "Ponownie wysłano wiadomość e-mail"
 msgid "Signed out successfully"
 msgstr "Pomyślnie wylogowano"
 
-#: app/scripts/models/reliers/sync.js:50
+#: app/scripts/models/reliers/sync.js:50 app/scripts/models/reliers/sync.js:51
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
@@ -480,7 +480,9 @@ msgid "Script error"
 msgstr "Błąd skryptu"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Kontynuując, wyrażasz zgodę na <a id=\"service-tos\" href=\"%(termsUri)s\">Regulamin usługi</a> oraz <a id=\"service-pp\" href=\"%(privacyUri)s\">Informacje o prywatności</a> usługi %(serviceName)s "
 "(%(serviceUri)s)."
@@ -1202,8 +1204,8 @@ msgstr "Wyślij"
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-"Usługa wiadomości SMS jest dostępna tylko dla numerów telefonów w Stanach Zjednoczonych. Mogą zostać pobrane opłaty za wiadomości SMS i transmisję danych. Odbiorca docelowy wiadomości e-mail lub SMS"
-" musi wyrażać zgodę. <a %(escapedLearnMoreAttributes)s>Więcej informacji</a>"
+"Usługa wiadomości SMS jest dostępna tylko dla numerów telefonów w Stanach Zjednoczonych. Mogą zostać pobrane opłaty za wiadomości SMS i transmisję danych. Odbiorca docelowy wiadomości e-mail lub "
+"SMS musi wyrażać zgodę. <a %(escapedLearnMoreAttributes)s>Więcej informacji</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"

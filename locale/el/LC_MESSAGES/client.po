@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-20 23:23+0000\n"
+"POT-Creation-Date: 2017-04-06 00:05+0000\n"
 "PO-Revision-Date: 2017-03-29 18:56+0000\n"
 "Last-Translator: Jim Spentzos <jamesspentzos@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 
 #: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
-#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170 app/scripts/views/complete_sign_up.js:184
+#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170 app/scripts/views/complete_sign_up.js:184 app/scripts/views/complete_sign_up.js:186
 msgid "Account verified successfully"
 msgstr "Επιτυχής επαλήθευση λογαριασμού"
 
@@ -80,7 +80,7 @@ msgstr "Άγνωστος λογαριασμός Firefox. <a href=\"/signup\">Σ�
 msgid "Account no longer exists. Recreate it?"
 msgstr "Ο λογαριασμός δεν υπάρχει πλέον. Επαναδημιουργία;"
 
-#: app/scripts/views/sign_up.js:370 app/scripts/views/sign_up.js:369 app/scripts/views/sign_up.js:380
+#: app/scripts/views/sign_up.js:370 app/scripts/views/sign_up.js:369 app/scripts/views/sign_up.js:380 app/scripts/views/sign_up.js:381
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Ο λογαριασμός υπάρχει ήδη. <a href=\"/signin\">Σύνδεση</a>"
 
@@ -172,7 +172,7 @@ msgstr "Το email εστάλη ξανά"
 msgid "Signed out successfully"
 msgstr "Επιτυχής έξοδος"
 
-#: app/scripts/models/reliers/sync.js:50
+#: app/scripts/models/reliers/sync.js:50 app/scripts/models/reliers/sync.js:51
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
@@ -484,7 +484,9 @@ msgid "Script error"
 msgstr "Σφάλμα σεναρίου"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
