@@ -1234,11 +1234,11 @@ msgstr "Parola yanlış"
 
 #: app/scripts/lib/auth-errors.js:150
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Giriş denemesi iptal edildi"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
-msgstr ""
+msgstr "Lütfen daha sonra tekrar deneyin"
 
 #: app/scripts/templates/sign_up.mustache:19
 msgid "Receive the monthly Firefox newsletter"
@@ -1250,7 +1250,7 @@ msgstr "Firefox'u akıllı telefonunuza yükleyin ve kurulumu tamamlamak için g
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr ""
+msgstr "Uygulama bağlantısı %(escapedPhoneNumber)s numarasına gönderildi. <a %(escapedBackLinkAttrs)s>Numarayı yanlış mı yazdınız?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
