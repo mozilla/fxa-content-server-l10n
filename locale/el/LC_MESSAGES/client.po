@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-06 00:05+0000\n"
-"PO-Revision-Date: 2017-04-08 21:08+0000\n"
+"PO-Revision-Date: 2017-04-08 21:13+0000\n"
 "Last-Translator: Jim Spentzos <jamesspentzos@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -405,7 +405,7 @@ msgstr ""
 
 #: app/scripts/lib/config-loader.js:91
 msgid "Invalid configuration"
-msgstr ""
+msgstr "Μη έγκυρη ρύθμιση"
 
 #: app/scripts/lib/mailcheck.js:26 app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
@@ -413,11 +413,11 @@ msgstr "Εννοείτε <span tabindex=\"1\">%(escapedDomain)s</span>;"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
-msgstr ""
+msgstr "Άγνωστος δέκτης"
 
 #: app/scripts/lib/oauth-errors.js:30
 msgid "Incorrect redirect_uri"
-msgstr ""
+msgstr "Εσφαλμένο redirect_uri"
 
 #: app/scripts/lib/oauth-errors.js:34
 msgid "Invalid assertion"
@@ -1212,7 +1212,7 @@ msgstr ""
 
 #: app/scripts/templates/sms_sent.mustache:4 app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Αν δεν λάβετε το μήνυμα κειμένου, μπορείτε επίσης να κάνετε χειροκίνητη λήψη των εφαρμογών."
 
 #: app/scripts/views/sms_sent.js:24
 msgid "App link resent to %(phoneNumber)s"
