@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-06 00:05+0000\n"
+"POT-Creation-Date: 2017-04-10 14:39+0000\n"
 "PO-Revision-Date: 2017-04-08 10:37+0000\n"
 "Last-Translator: Paulius <paulius@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,16 +15,15 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1447609426.0\n"
 
-#: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
-#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170 app/scripts/views/complete_sign_up.js:184 app/scripts/views/complete_sign_up.js:186
+#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:186 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
 msgid "Account verified successfully"
 msgstr "Paskyra patvirtinta sėkmingai"
 
-#: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38 app/scripts/views/ready.js:39 app/scripts/views/confirm_reset_password.js:160
+#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:39
 msgid "Password reset"
 msgstr "Slaptažodžio atkūrimas"
 
-#: app/scripts/views/confirm_reset_password.js:194 app/scripts/views/confirm_reset_password.js:188
+#: app/scripts/views/confirm_reset_password.js:188
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Slaptažodis atkurtas sėkmingai. Norėdami tęsti, prisijunkite."
 
@@ -36,8 +35,7 @@ msgstr "%(permissionName)s (būtina)"
 msgid "Email address"
 msgstr "El. pašto adresas"
 
-#: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:4
-#: app/scripts/templates/settings/display_name.mustache:6
+#: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:6
 msgid "Display name"
 msgstr "Rodomas vardas"
 
@@ -45,53 +43,57 @@ msgstr "Rodomas vardas"
 msgid "Account picture"
 msgstr "Paskyros nuotrauka"
 
-#: app/scripts/views/ready.js:33 app/scripts/views/ready.js:34
+#: app/scripts/views/ready.js:34
 msgid "Welcome back"
 msgstr "Sveiki sugrįžę"
 
-#: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35
+#: app/scripts/views/ready.js:35
 msgid "Firefox Sync will resume momentarily"
 msgstr "„Firefox“ sinchronizavimas bus pratęstas netrukus"
 
-#: app/scripts/views/ready.js:39 app/scripts/views/ready.js:40
+#: app/scripts/views/ready.js:40
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Užbaikite konfigūravimą, įvesdami naująjį slaptažodį visuose savo įrenginiuose su „Firefox“ naršykle."
 
-#: app/scripts/views/ready.js:44 app/scripts/views/ready.js:45
+#: app/scripts/views/ready.js:45
 msgid "Sign-in confirmed"
 msgstr "Prisijungimas patvirtintas"
 
-#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 app/scripts/templates/ready.mustache:3 app/scripts/views/ready.js:46 app/scripts/views/ready.js:51
+#: app/scripts/views/ready.js:46 app/scripts/views/ready.js:51 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Galite pradėti naudotis „%(serviceName)s“"
 
-#: app/scripts/views/ready.js:49 app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:50
 msgid "Account verified"
 msgstr "Paskyra patvirtinta"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:167 app/scripts/views/sign_in.js:169
+#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Paskyra nežinoma. <a href=\"/signup\">Registruotis</a>"
 
-#: app/scripts/views/sign_in.js:164 app/scripts/views/sign_in.js:166
+#: app/scripts/views/sign_in.js:174
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr ""
 "„Firefox“ paskyra nežinoma. Jei norite pasiekti turimus savo priedų duomenis, <a href=\"/signup\">užsiregistruokite</a>, naudodamiesi savo anksčiau Priedų svetainės paskyroje naudotu el. pašto "
 "adresu."
 
-#: app/scripts/views/sign_up.js:62
+#: app/scripts/views/sign_up.js:61
 msgid "Account no longer exists. Recreate it?"
 msgstr "Jūsų paskyra nebeegzistuoja. Atkurti paskyrą?"
 
-#: app/scripts/views/sign_up.js:370 app/scripts/views/sign_up.js:369 app/scripts/views/sign_up.js:380 app/scripts/views/sign_up.js:381
+#: app/scripts/views/sign_up.js:374
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Paskyra jau egzistuoja. <a href=\"/signin\">Prisijungti</a>"
+
+#: app/scripts/views/sms_sent.js:24
+msgid "App link resent to %(phoneNumber)s"
+msgstr "Programėlės saitas nusiųstas į %(phoneNumber)s"
 
 #: app/scripts/views/settings/avatar_gravatar.js:93
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "Gauta iš <a href=\"https://www.gravatar.com\">„Gravatar“</a>"
 
-#: app/scripts/views/settings/change_password.js:52 app/scripts/views/settings/change_password.js:53
+#: app/scripts/views/settings/change_password.js:52
 msgid "Password changed successfully"
 msgstr "Slaptažodis sėkmingai pakeistas"
 
@@ -106,7 +108,15 @@ msgid "We're sorry to hear about this. If this was a device you really don't tru
 msgstr ""
 "Apgailestaujame, jog taip nutiko. Jei tai įrenginys, kuriuo tikrai nepasitikite, rekomenduojame jums pakeisti savo „Firefox“ paskyros slaptažodį ir visus „Firefox“ naršyklėje įrašytus slaptažodžius."
 
-#: app/scripts/views/settings/clients.js:58 app/scripts/views/settings/clients.js:62 app/scripts/views/settings/clients.js:68
+#: app/scripts/views/settings/clients.js:63
+msgid "Web Session, %(userAgent)s"
+msgstr "Saityno seansas, %(userAgent)s"
+
+#: app/scripts/views/settings/clients.js:65
+msgid "%(translatedTimeAgo)s"
+msgstr "%(translatedTimeAgo)s"
+
+#: app/scripts/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s"
 msgstr "Paskiausiai jungtasi %(translatedTimeAgo)s"
 
@@ -154,27 +164,11 @@ msgstr "Atverti „Outlook“"
 msgid "Open Restmail"
 msgstr "Atverti „Restmail“"
 
-#: app/scripts/views/mixins/password-prompt-mixin.js:20
-msgid "8 characters minimum, but longer if you plan to sync passwords."
-msgstr "Bent 8 simboliai, tačiau turėtų būti ilgesnis, jei planuojate sinchronizuoti slaptažodžius."
-
-#: app/scripts/views/mixins/password-prompt-mixin.js:21 app/scripts/templates/sign_up.mustache:17
-msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr "Stiprus ir unikalus slaptažodis padės apsaugoti jūsų „Firefox“ duomenis nuo pašalinių."
-
-#: app/scripts/views/mixins/password-prompt-mixin.js:22
-msgid "This is a common password; please consider another one."
-msgstr "Šis slaptažodis naudojamas per dažnai – rekomenduojame sugalvoti kitą."
-
-#: app/scripts/views/mixins/resend-mixin.js:45 app/scripts/views/mixins/resend-mixin.js:40
+#: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "Laiškas išsiųstas pakartotinai"
 
-#: app/scripts/views/mixins/signed-out-notification-mixin.js:38
-msgid "Signed out successfully"
-msgstr "Atsijungėte sėkmingai"
-
-#: app/scripts/models/reliers/sync.js:50 app/scripts/models/reliers/sync.js:51
+#: app/scripts/models/reliers/sync.js:51
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
@@ -220,8 +214,8 @@ msgid "Incorrect email case"
 msgstr "Neteisingas raidžių registras el. pašto adrese"
 
 #: app/scripts/lib/auth-errors.js:59
-msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
-msgstr "Slaptažodis neteisingas. Pasitikrinti ką įvedėte galite, palaikydami nuspaustą mygtuką „Rodyti“."
+msgid "Incorrect password"
+msgstr "Neteisingas slaptažodis"
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
@@ -259,149 +253,175 @@ msgstr "Užklausos apimtis yra per didelė"
 msgid "The request was blocked for security reasons"
 msgstr "Užklausa užblokuota saugumo sumetimais"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:335
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347
 msgid "Invalid authorization code"
 msgstr "Netinkamas patvirtinimo kodas"
 
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/auth-errors.js:298 app/scripts/lib/auth-errors.js:138 app/scripts/lib/auth-errors.js:315
+#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
+msgid "Invalid phone number"
+msgstr "Netinkamas telefono numeris"
+
+#: app/scripts/lib/auth-errors.js:125
+msgid "Cannot send to this country"
+msgstr "SMS pranešimų į šią šalį siųsti negalime"
+
+#: app/scripts/lib/auth-errors.js:134
+msgid "Could not send a message to this number"
+msgstr "Šiuo numeriu SMS pranešimo nepavyko išsiųsti"
+
+#: app/scripts/lib/auth-errors.js:138
+msgid "Your email was just returned"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:142
+msgid "Your email was just returned. Mistyped email?"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:146
+msgid "Unable to deliver email"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327
 msgid "Server busy, try again soon"
 msgstr "Serveris užimtas, bandykite vėliau"
 
 # Communication endpoint, the entity on one end of a transport layer
 # connection
-#: app/scripts/lib/auth-errors.js:125 app/scripts/lib/auth-errors.js:142
+#: app/scripts/lib/auth-errors.js:154
 msgid "This endpoint is no longer supported"
 msgstr "Šis galinis tašas (endpoint) nebepalaikomas"
 
-#: app/scripts/lib/auth-errors.js:129 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
-#: app/scripts/lib/auth-errors.js:146
+#: app/scripts/lib/auth-errors.js:158 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Sistema nepasiekiama, bandykite vėliau"
 
-#: app/scripts/lib/auth-errors.js:133 app/scripts/lib/oauth-errors.js:104 app/scripts/lib/auth-errors.js:150
-msgid "no message"
-msgstr "pranešimų nėra"
+#: app/scripts/lib/auth-errors.js:162
+msgid "Login attempt cancelled"
+msgstr "Prisijungimo bandymas atšauktas"
 
-#: app/scripts/lib/auth-errors.js:137 app/scripts/lib/auth-errors.js:154
+#: app/scripts/lib/auth-errors.js:166
 msgid "Session expired. Sign in to continue."
 msgstr "Jūsų sesija baigėsi. Norėdami tęsti, prisijunkite."
 
-#: app/scripts/lib/auth-errors.js:141 app/scripts/lib/auth-errors.js:158
+#: app/scripts/lib/auth-errors.js:170
 msgid "Cookies are still disabled"
 msgstr "Sausainiukai vis dar išjungti"
 
-#: app/scripts/lib/auth-errors.js:145 app/scripts/lib/auth-errors.js:162
+#: app/scripts/lib/auth-errors.js:174
 msgid "Passwords do not match"
 msgstr "Slaptažodžiai nesutampa"
 
-#: app/scripts/lib/auth-errors.js:149 app/scripts/lib/auth-errors.js:166
+#: app/scripts/lib/auth-errors.js:178
 msgid "Working…"
 msgstr "Dirbama..."
 
-#: app/scripts/lib/auth-errors.js:153 app/scripts/lib/auth-errors.js:170
+#: app/scripts/lib/auth-errors.js:182
 msgid "Could not get Privacy Notice"
 msgstr "Neįmanoma pasiekti privatumo nuostatų"
 
-#: app/scripts/lib/auth-errors.js:157 app/scripts/lib/auth-errors.js:174
+#: app/scripts/lib/auth-errors.js:186
 msgid "Could not get Terms of Service"
 msgstr "Neįmanoma pasiekti paslaugos teikimo sąlygų"
 
-#: app/scripts/lib/auth-errors.js:161 app/scripts/lib/auth-errors.js:178
+#: app/scripts/lib/auth-errors.js:190
 msgid "Your new password must be different"
 msgstr "Senas ir naujas slaptažodžiai turi skirtis"
 
-#: app/scripts/lib/auth-errors.js:165 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7 app/scripts/lib/auth-errors.js:182
+#: app/scripts/lib/auth-errors.js:194 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "Turi būti bent 8 simbolių ilgio"
 
-#: app/scripts/lib/auth-errors.js:169 app/scripts/lib/auth-errors.js:186
+#: app/scripts/lib/auth-errors.js:198
 msgid "Valid password required"
 msgstr "Reikalingas galiojantis slaptažodis"
 
-#: app/scripts/lib/auth-errors.js:173 app/scripts/lib/auth-errors.js:211 app/scripts/lib/auth-errors.js:227 app/scripts/lib/auth-errors.js:190 app/scripts/lib/auth-errors.js:228
-#: app/scripts/lib/auth-errors.js:244
+#: app/scripts/lib/auth-errors.js:202 app/scripts/lib/auth-errors.js:240 app/scripts/lib/auth-errors.js:256
 msgid "Valid email required"
 msgstr "Reikalingas galiojantis el. pašto adresas"
 
-#: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:201
+#: app/scripts/lib/auth-errors.js:213
 msgid "A usable image was not found"
 msgstr "Naudotinas paveiksliukas nerastas"
 
-#: app/scripts/lib/auth-errors.js:188 app/scripts/lib/auth-errors.js:205
+#: app/scripts/lib/auth-errors.js:217
 msgid "Could not initialize camera"
 msgstr "Nepavyko inicijuoti kameros"
 
-#: app/scripts/lib/auth-errors.js:192 app/scripts/lib/auth-errors.js:209
+#: app/scripts/lib/auth-errors.js:221
 msgid "Valid URL required"
 msgstr "Reikalingas galiojantis URL"
 
-#: app/scripts/lib/auth-errors.js:207 app/scripts/lib/auth-errors.js:224
+#: app/scripts/lib/auth-errors.js:236
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Jūsų patvirtinimo laiškas sugrįžo. El. pašto adresas su klaida?"
 
-#: app/scripts/lib/auth-errors.js:215 app/scripts/lib/auth-errors.js:232
+#: app/scripts/lib/auth-errors.js:244
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Nurodykite veikiantį el. pašto adresą. firefox.com neteikia el. pašto paslaugos."
 
-#: app/scripts/lib/auth-errors.js:223 app/scripts/lib/auth-errors.js:240
+#: app/scripts/lib/auth-errors.js:252
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "„Firefox“ paskyros gali būti talpinamos į „IFRAME“ rėmelį tik patvirtintose svetainėse"
 
-#: app/scripts/lib/auth-errors.js:242 app/scripts/templates/complete_sign_up.mustache:9 app/scripts/lib/auth-errors.js:259
+#: app/scripts/lib/auth-errors.js:271 app/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
 msgstr "Patvirtinimo saitas sugadintas"
 
-#: app/scripts/lib/auth-errors.js:250 app/scripts/lib/auth-errors.js:267
+#: app/scripts/lib/auth-errors.js:279
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Paveikslėlis turi būti bent 100x100 taškų dydžio"
 
-#: app/scripts/lib/auth-errors.js:254 app/scripts/lib/auth-errors.js:271
+#: app/scripts/lib/auth-errors.js:283
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Netrukus galėsite registruotis ir naudodamiesi „Firefox“ naršykle „iOS“ įrenginiuose"
 
-#: app/scripts/lib/auth-errors.js:265 app/scripts/lib/auth-errors.js:282
+#: app/scripts/lib/auth-errors.js:294
 msgid "You must enter your age to sign up"
 msgstr "Jei norite užsiregistruoti, turite įvesti savo amžių"
 
-#: app/scripts/lib/auth-errors.js:269 app/scripts/lib/auth-errors.js:286
+#: app/scripts/lib/auth-errors.js:298
 msgid "No Gravatar found"
 msgstr "Gravataras nerastas"
 
-#: app/scripts/lib/auth-errors.js:277 app/scripts/lib/auth-errors.js:294
+#: app/scripts/lib/auth-errors.js:306
 msgid "Account no longer exists."
 msgstr "Paskyra nebeegzistuoja."
 
-#: app/scripts/lib/auth-errors.js:281 app/scripts/lib/auth-errors.js:298
+#: app/scripts/lib/auth-errors.js:310
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Neleistina savybė pratęsimo prieigos rakte: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:285 app/scripts/lib/auth-errors.js:302
+#: app/scripts/lib/auth-errors.js:314
 msgid "Missing property in resume token: %(property)s"
 msgstr "Trūksta savybės pratęsimo prieigos rakte: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:289 app/scripts/lib/auth-errors.js:306
+#: app/scripts/lib/auth-errors.js:318
 msgid "Invalid data attribute: %(property)s"
 msgstr "Neleistinas duomenų atributas: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:293 app/scripts/lib/auth-errors.js:310
+#: app/scripts/lib/auth-errors.js:322
 msgid "Missing data attribute: %(property)s"
 msgstr "Trūksta duomenų atributo: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:306 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/lib/auth-errors.js:323
+#: app/scripts/lib/auth-errors.js:335 app/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Šis vienkartinis patvirtinimo saitas jau buvo panaudotas."
 
-#: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:327
+#: app/scripts/lib/auth-errors.js:339
 msgid "This is a required field"
 msgstr "Šis laukas privalomas"
 
-#: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:331
+#: app/scripts/lib/auth-errors.js:343
 msgid "Authorization code required"
 msgstr "Būtinas patvirtinimo kodas"
 
-#: app/scripts/lib/auth-errors.js:322 app/scripts/templates/report_sign_in.mustache:1 app/scripts/lib/auth-errors.js:339
+#: app/scripts/lib/auth-errors.js:351 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Saitas sugadintas"
+
+#: app/scripts/lib/auth-errors.js:374
+msgid "Phone number required"
+msgstr "Būtina įvesti telefono numerį"
 
 #: app/scripts/lib/config-loader.js:87
 msgid "Missing configuration"
@@ -411,9 +431,13 @@ msgstr "Trūksta konfigūracijos"
 msgid "Invalid configuration"
 msgstr "Netinkama konfigūracija"
 
-#: app/scripts/lib/mailcheck.js:26 app/scripts/lib/mailcheck.js:25
+#: app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
 msgstr "Ar turėjote omenyje <span tabindex=\"1\">%(escapedDomain)s</span>?"
+
+#: app/scripts/lib/marketing-email-errors.js:41
+msgid "Please try again later"
+msgstr "Prašome bandyti vėliau"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -455,6 +479,10 @@ msgstr "Draudžiama"
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Kažkas nutiko. Prašome užverti šią kortelę ir bandyti dar kartą."
 
+#: app/scripts/lib/oauth-errors.js:104
+msgid "no message"
+msgstr "pranešimų nėra"
+
 #: app/scripts/lib/oauth-errors.js:108
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Trūksta „OAuth“ parametro: %(param)s"
@@ -487,9 +515,25 @@ msgstr "Netikėta ištekliaus klaida"
 msgid "Script error"
 msgstr "Scenarijaus klaida"
 
+#: app/scripts/lib/sms-errors.js:23
+msgid "SMS sent"
+msgstr "SMS pranešimas išsiųstas"
+
+#: app/scripts/lib/sms-errors.js:55
+msgid "Your number has been blocked"
+msgstr "Jūsų numeris užblokuotas"
+
+#: app/scripts/lib/sms-errors.js:79
+msgid "SMS not sent, please try again"
+msgstr "SMS pranešimas neišsiųstas, bandykite dar kartą"
+
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Tęsdami, jūs sutinkate su <a id=\"service-tos\" href=\"%(termsUri)s\">Paslaugų teikimo sąlygomis</a> ir %(serviceName)s (%(serviceUri)s) <a id=\"service-pp\" href=\"%(privacyUri)s\">Privatumo nuostatais</a>."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Tęsdami, jūs sutinkate su <a id=\"service-tos\" href=\"%(termsUri)s\">Paslaugų teikimo sąlygomis</a> ir %(serviceName)s (%(serviceUri)s) <a id=\"service-pp\" href=\"%(privacyUri)s\">Privatumo "
+"nuostatais</a>."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -514,6 +558,10 @@ msgstr "IP adresas: %(ip)s"
 #: app/scripts/lib/strings.js:40
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Papildomo saugumo vardan, prieš pradedant sinchronizuoti šį įrenginį, prašome patvirtinti šį prisijungimą:"
+
+#: app/scripts/lib/strings.js:43
+msgid "Web Session"
+msgstr "Saityno sesija"
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
@@ -692,8 +740,7 @@ msgstr "Šis įrenginys prijungtas"
 msgid "Email verified"
 msgstr "El. pašto adresas patvirtintas"
 
-#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:2
-#: app/scripts/templates/sms_sent.mustache:3
+#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:3
 msgid "Success"
 msgstr "Atlikta sėkmingai"
 
@@ -705,24 +752,23 @@ msgstr "Prisijunkite prie šios „Firefox“ naršyklės, kad užbaigtumėte di
 msgid "Sign in &rarr;"
 msgstr "Prisijungti &rarr;"
 
-#: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:13
-msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr "Diegimui užbaigti atverkite nuostatas  ir pasirinkite „Prisijungti prie „Firefox“"
-
-#: app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:17
-msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr "Diegimui užbaigti prisijunkite prie „Firefox“ naršyklės „iOS“ įrenginyje"
-
-#: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:17 app/scripts/templates/connect_another_device.mustache:9
-#: app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
+#: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Diegimui užbaigti prisijunkite prie „Firefox“ naršyklės kitame įrenginyje"
+
+#: app/scripts/templates/connect_another_device.mustache:13
+msgid "Open settings and select Sign in to Firefox to complete set-up"
+msgstr "Diegimui užbaigti atverkite nuostatas  ir pasirinkite „Prisijungti prie „Firefox“"
 
 #: app/scripts/templates/connect_another_device.mustache:15
 msgid "Sign in to Firefox for Android to complete set-up"
 msgstr "Diegimui užbaigti prisijunkite prie „Firefox“ naršyklės „Android“ įrenginyje"
 
-#: app/scripts/templates/connect_another_device.mustache:19 app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
+#: app/scripts/templates/connect_another_device.mustache:17
+msgid "Sign in to Firefox for iOS to complete set-up"
+msgstr "Diegimui užbaigti prisijunkite prie „Firefox“ naršyklės „iOS“ įrenginyje"
+
+#: app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
 msgid "Why is this required?"
 msgstr "Kodėl tai būtina?"
 
@@ -746,23 +792,19 @@ msgstr "Bandykite dar kartą"
 msgid "Sign in to continue"
 msgstr "Norėdami tęsti, prisijunkite"
 
-#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_up.mustache:15
 #: app/scripts/templates/settings/change_password.mustache:1 app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Slaptažodis"
 
-#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in.mustache:4 app/scripts/templates/sign_in.mustache:11
-#: app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_in.mustache:22
-msgid "Sign in"
-msgstr "Prisijungti"
-
-#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:12 app/scripts/templates/sign_in.mustache:23 app/scripts/templates/settings/change_password.mustache:5
+#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:18 app/scripts/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "Pamiršote slaptažodį?"
 
-#: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:25 app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Tęsdami jūs sutinkate su <a id=\"fxa-tos\" href=\"/legal/terms\">Paslaugos teikimo sąlygomis</a> ir „Firefox“ debesijos paslaugų <a id=\"fxa-pp\" href=\"/legal/privacy\">Privatumo nuostatais</a>."
+msgstr ""
+"Tęsdami jūs sutinkate su <a id=\"fxa-tos\" href=\"/legal/terms\">Paslaugos teikimo sąlygomis</a> ir „Firefox“ debesijos paslaugų <a id=\"fxa-pp\" href=\"/legal/privacy\">Privatumo nuostatais</a>."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -772,11 +814,11 @@ msgstr "„Firefox“ debesijos paslaugos"
 msgid "Legal"
 msgstr "Teisinė informacija"
 
-#: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:5 app/scripts/templates/tos.mustache:2 app/scripts/templates/settings.mustache:4
+#: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:4 app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "Paslaugos teikimo sąlygos"
 
-#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:6 app/scripts/templates/settings.mustache:5
+#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:5
 msgid "Privacy Notice"
 msgstr "Privatumo nuostatai"
 
@@ -813,7 +855,7 @@ msgstr "Priimti"
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9
 #: app/scripts/templates/settings/communication_preferences.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6
-#: app/scripts/templates/settings/display_name.mustache:6 app/scripts/templates/settings/gravatar_permissions.mustache:5 app/scripts/templates/settings/display_name.mustache:8
+#: app/scripts/templates/settings/display_name.mustache:8 app/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
 msgstr "Atsisakyti"
 
@@ -845,7 +887,7 @@ msgstr "Kodėl taip nutiko?"
 msgid "Reset account"
 msgstr "Paskyros atkūrimas"
 
-#: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
+#: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Tęsti į „%(serviceName)s“"
 
@@ -853,7 +895,7 @@ msgstr "Tęsti į „%(serviceName)s“"
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "Atkūrus slaptažodį, bus prarasti visi „Sync“ duomenys, nesantys bent viename jūsų įrenginyje."
 
-#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
+#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "El. paštas"
 
@@ -873,19 +915,19 @@ msgstr "„Firefox“ paskyros"
 msgid "Sign out"
 msgstr "Atsijungti"
 
-#: app/scripts/templates/sign_in.mustache:6
+#: app/scripts/templates/sign_in.mustache:4
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
 msgstr "Ieškote duomenų apie savo priedus? <a href=\"/signup\">Užregistruokite</a> „Firefox“ paskyrą naudodamiesi ankstesnės Priedų svetainės paskyros el. pašto adresu."
 
-#: app/scripts/templates/sign_in.mustache:8
+#: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr "Perkelkite savo sinchronizuotus duomenis, prisijungdami prie „Firefox“&nbsp;paskyros."
 
-#: app/scripts/templates/sign_in.mustache:13 app/scripts/templates/sign_in.mustache:16
+#: app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:12
 msgid "Use a different account"
 msgstr "Naudoti kitą paskyrą"
 
-#: app/scripts/templates/sign_in.mustache:24
+#: app/scripts/templates/sign_in.mustache:19
 msgid "Create an account"
 msgstr "Sukurti paskyrą"
 
@@ -929,9 +971,13 @@ msgstr "Perkelkite savo sinchronizuotus duomenis, susikurdami naują „Firefox�
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr "Ieškote duomenų apie savo priedus? Užregistruokite „Firefox“ paskyrą naudodamiesi ankstesnės Priedų svetainės paskyros el. pašto adresu."
 
-#: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/settings/communication_preferences.mustache:7
-msgid "Receive the monthly Firefox newsletter."
-msgstr "Gaukite mėnesinį „Firefox“ naujienlaiškį."
+#: app/scripts/templates/sign_up.mustache:17
+msgid "A strong, unique password will keep your Firefox data safe from intruders."
+msgstr "Stiprus ir unikalus slaptažodis padės apsaugoti jūsų „Firefox“ duomenis nuo pašalinių."
+
+#: app/scripts/templates/sign_up.mustache:19
+msgid "Receive the monthly Firefox newsletter"
+msgstr "Gaukite mėnesinį „Firefox“ naujienlaiškį"
 
 #: app/scripts/templates/sign_up.mustache:21
 msgid "Create account"
@@ -940,6 +986,49 @@ msgstr "Kurti paskyrą"
 #: app/scripts/templates/sign_up.mustache:26
 msgid "Have an account? Sign in"
 msgstr "Jau turite paskyrą? Prisijunkite"
+
+#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
+msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+msgstr "Diegimui užbaigti, nusiųskite „Firefox“ tiesiai į savo išmanųjį telefoną ir prisijunkite"
+
+#: app/scripts/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
+msgstr "„Firefox“ naršyklė prijungta"
+
+#: app/scripts/templates/sms_send.mustache:5
+msgid "Mobile phone number"
+msgstr "Mobiliojo telefono numeris"
+
+#: app/scripts/templates/sms_send.mustache:6
+msgid "Send"
+msgstr "Siųsti"
+
+#: app/scripts/templates/sms_send.mustache:7
+msgid ""
+"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+msgstr ""
+"SMS paslauga galima tik JAV telefono numeriams. Gali būti taikomi SMS ir duomenų mokesčiai. El. laiško ar SMS pranešimo gavėjas privalo būti sutikęs jį gauti. <a "
+"%(escapedLearnMoreAttributes)s>Sužinokite daugiau</a>"
+
+#: app/scripts/templates/sms_send.mustache:9
+msgid "Maybe later"
+msgstr "Gal vėliau"
+
+#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
+msgid "Install Firefox on your smartphone and sign in to complete set-up"
+msgstr "Įsidiekite „Firefox“ savo išmaniajame įrenginyje bei prisijunkite, norėdami užbaigti paruošimą"
+
+#: app/scripts/templates/sms_sent.mustache:2
+msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+msgstr "Programėlės saitas nusiųstas į %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Neteisingas numeris?</a>"
+
+#: app/scripts/templates/sms_sent.mustache:5
+msgid "If you are not receiving the text message, you can also download the apps manually."
+msgstr "Jeigu SMS pranešimo negaunate, galite programą parsisiųsti savarankiškai."
+
+#: app/scripts/templates/sms_sent.mustache:6
+msgid "Didn't arrive? Resend"
+msgstr "Negavote? Nusiųskite iš naujo"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
@@ -995,7 +1084,7 @@ msgstr "Gravataras"
 msgid "Clear"
 msgstr "Išvalyti"
 
-#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:26
+#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:26
 msgid "Done"
 msgstr "Baigta"
 
@@ -1003,8 +1092,7 @@ msgstr "Baigta"
 msgid "Position and rotate your picture as needed"
 msgstr "Apdorokite ir paverskite savo nuotrauką pagal poreikį"
 
-#: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:5
-#: app/scripts/templates/settings/display_name.mustache:7
+#: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:7
 msgid "Change"
 msgstr "Keisti"
 
@@ -1041,15 +1129,14 @@ msgid "Old or replaced device"
 msgstr "Įrenginys paseno ar nebenaudojamas"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
-msgid "Duplicate Device"
+msgid "Duplicate device"
 msgstr "Įrenginys kartojasi"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
 msgstr "Priežasties nenoriu atskleisti"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:9 app/scripts/templates/settings/clients.mustache:11
-#: app/scripts/templates/settings/clients.mustache:14
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:14
 msgid "Disconnect"
 msgstr "Atjungti"
 
@@ -1073,35 +1160,41 @@ msgstr "šis įrenginys"
 msgid "Disconnect…"
 msgstr "Atjungti…"
 
-#: app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:17
+#: app/scripts/templates/settings/clients.mustache:9
+msgid "current session"
+msgstr "dabartinis seansas"
+
+#: app/scripts/templates/settings/clients.mustache:17
 msgid "Firefox for iOS"
 msgstr "„Firefox“ „iOS“ įrenginiams"
 
-#: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15 app/scripts/templates/settings/clients.mustache:18
-#: app/scripts/templates/settings/clients.mustache:21
+#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21
 msgid "none connected"
 msgstr "prijungtų įrenginių nėra"
 
-#: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16 app/scripts/templates/settings/clients.mustache:19
-#: app/scripts/templates/settings/clients.mustache:22
+#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22
 msgid "Download"
 msgstr "Parsisiųsti"
 
-#: app/scripts/templates/settings/clients.mustache:14 app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/clients.mustache:20
 msgid "Firefox for Android"
 msgstr "„Firefox“ „Android“ įrenginiams"
 
-#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:24
+#: app/scripts/templates/settings/clients.mustache:24
 msgid "Missing or duplicate items?"
 msgstr "Trūkstami arba besikartojantys įrašai?"
 
-#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:25
+#: app/scripts/templates/settings/clients.mustache:25
 msgid "Refresh"
 msgstr "Atnaujinti"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
 msgstr "Bendravimo parinktys"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:7
+msgid "Receive the monthly Firefox newsletter."
+msgstr "Gaukite mėnesinį „Firefox“ naujienlaiškį."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
@@ -1127,7 +1220,7 @@ msgstr "Šalinti…"
 msgid "Are you sure you want to delete your account? This action cannot be undone."
 msgstr "Ar tikrai norite pašalinti savo paskyrą? Šis veiksmas negrįžtamas."
 
-#: app/scripts/templates/settings/display_name.mustache:3 app/scripts/templates/settings/display_name.mustache:5
+#: app/scripts/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Įveskite vardą, kuris turėtų matytis „Firefox“ naršyklėje ir tvarkant jūsų paskyrą."
 
@@ -1151,120 +1244,38 @@ msgstr "Naudoti „OpenID“"
 msgid "Use Firefox Account"
 msgstr "Naudoti „Firefox“ paskyrą"
 
-#: app/scripts/lib/strings.js:43
-msgid "Web Session"
-msgstr "Saityno sesija"
-
-#: app/scripts/templates/settings/client_disconnect.mustache:6
-msgid "Duplicate device"
-msgstr "Įrenginys kartojasi"
-
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
-msgid "Invalid phone number"
-msgstr "Netinkamas telefono numeris"
-
-#: app/scripts/lib/auth-errors.js:125
-msgid "Cannot send to this country"
-msgstr "SMS pranešimų į šią šalį siųsti negalime"
-
-#: app/scripts/lib/auth-errors.js:134
-msgid "Could not send a message to this number"
-msgstr "Šiuo numeriu SMS pranešimo nepavyko išsiųsti"
-
-#: app/scripts/lib/auth-errors.js:362
-msgid "Phone number required"
-msgstr "Būtina įvesti telefono numerį"
-
-#: app/scripts/lib/sms-errors.js:23
-msgid "SMS sent"
-msgstr "SMS pranešimas išsiųstas"
-
-#: app/scripts/lib/sms-errors.js:55
-msgid "Your number has been blocked"
-msgstr "Jūsų numeris užblokuotas"
-
-#: app/scripts/lib/sms-errors.js:79
-msgid "SMS not sent, please try again"
-msgstr "SMS pranešimas neišsiųstas, bandykite dar kartą"
-
-#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
-msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr "Diegimui užbaigti, nusiųskite „Firefox“ tiesiai į savo išmanųjį telefoną ir prisijunkite"
-
-#: app/scripts/templates/sms_send.mustache:2
-msgid "This Firefox is connected"
-msgstr "„Firefox“ naršyklė prijungta"
-
-#: app/scripts/templates/sms_send.mustache:5
-msgid "Mobile phone number"
-msgstr "Mobiliojo telefono numeris"
-
-#: app/scripts/templates/sms_send.mustache:6
-msgid "Send"
-msgstr "Siųsti"
-
-#: app/scripts/templates/sms_send.mustache:7
-msgid ""
-"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#. button text
+#: app/scripts/views/force_auth.js:154 app/scripts/views/sign_in.js:90
+msgctxt "button text"
+msgid "Sign in"
 msgstr ""
-"SMS paslauga galima tik JAV telefono numeriams. Gali būti taikomi SMS ir duomenų mokesčiai. El. laiško ar SMS pranešimo gavėjas privalo būti sutikęs jį gauti. <a "
-"%(escapedLearnMoreAttributes)s>Sužinokite daugiau</a>"
 
-#: app/scripts/templates/sms_send.mustache:9
-msgid "Maybe later"
-msgstr "Gal vėliau"
+#. header text
+#: app/scripts/views/sign_in.js:93
+msgctxt "header text"
+msgid "Sign in"
+msgstr ""
 
-#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
-msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
-msgstr "Užbaikite diegimą, įdiegdami „Firefox“, pasinaudodami saitu, išsiųstu numeriu %(phoneNumber)s"
+#~ msgid "8 characters minimum, but longer if you plan to sync passwords."
+#~ msgstr "Bent 8 simboliai, tačiau turėtų būti ilgesnis, jei planuojate sinchronizuoti slaptažodžius."
 
-#: app/scripts/templates/sms_sent.mustache:4 app/scripts/templates/sms_sent.mustache:5
-msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr "Jeigu SMS pranešimo negaunate, galite programą parsisiųsti savarankiškai."
+#~ msgid "This is a common password; please consider another one."
+#~ msgstr "Šis slaptažodis naudojamas per dažnai – rekomenduojame sugalvoti kitą."
 
-#: app/scripts/views/sms_sent.js:24
-msgid "App link resent to %(phoneNumber)s"
-msgstr "Programėlės saitas nusiųstas į %(phoneNumber)s"
+#~ msgid "Signed out successfully"
+#~ msgstr "Atsijungėte sėkmingai"
 
-#: app/scripts/views/settings/clients.js:63
-msgid "Web Session, %(userAgent)s"
-msgstr "Saityno seansas, %(userAgent)s"
+#~ msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
+#~ msgstr "Slaptažodis neteisingas. Pasitikrinti ką įvedėte galite, palaikydami nuspaustą mygtuką „Rodyti“."
 
-#: app/scripts/views/settings/clients.js:65
-msgid "%(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s"
+#~ msgid "Sign in"
+#~ msgstr "Prisijungti"
 
-#: app/scripts/lib/auth-errors.js:59
-msgid "Incorrect password"
-msgstr "Neteisingas slaptažodis"
+#~ msgid "Duplicate Device"
+#~ msgstr "Įrenginys kartojasi"
 
-#: app/scripts/lib/auth-errors.js:150
-msgid "Login attempt cancelled"
-msgstr "Prisijungimo bandymas atšauktas"
-
-#: app/scripts/lib/marketing-email-errors.js:41
-msgid "Please try again later"
-msgstr "Prašome bandyti vėliau"
-
-#: app/scripts/templates/sign_up.mustache:19
-msgid "Receive the monthly Firefox newsletter"
-msgstr "Gaukite mėnesinį „Firefox“ naujienlaiškį"
-
-#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
-msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr "Įsidiekite „Firefox“ savo išmaniajame įrenginyje bei prisijunkite, norėdami užbaigti paruošimą"
-
-#: app/scripts/templates/sms_sent.mustache:2
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr "Programėlės saitas nusiųstas į %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Neteisingas numeris?</a>"
-
-#: app/scripts/templates/sms_sent.mustache:6
-msgid "Didn't arrive? Resend"
-msgstr "Negavote? Nusiųskite iš naujo"
-
-#: app/scripts/templates/settings/clients.mustache:9
-msgid "current session"
-msgstr "dabartinis seansas"
+#~ msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
+#~ msgstr "Užbaikite diegimą, įdiegdami „Firefox“, pasinaudodami saitu, išsiųstu numeriu %(phoneNumber)s"
 
 #~ msgid "Forgot password"
 #~ msgstr "Pamiršau slaptažodį"
@@ -1378,8 +1389,8 @@ msgstr "dabartinis seansas"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Įjunkite sausainėlių palaikymą savo naršyklėje, nes jie reikalingi „Firefox“ paskyroms. Sausainėliai yra maži duomenų gabaliukai, saugomi jūsų naršyklėje, kurie užtikrina tam tikrų funkcijų veikimą,"
-#~ " pvz., atsiminti jus tarp sesijų."
+#~ "Įjunkite sausainėlių palaikymą savo naršyklėje, nes jie reikalingi „Firefox“ paskyroms. Sausainėliai yra maži duomenų gabaliukai, saugomi jūsų naršyklėje, kurie užtikrina tam tikrų funkcijų "
+#~ "veikimą, pvz., atsiminti jus tarp sesijų."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "„Firefox“ greitai pasirodys iOS!"
