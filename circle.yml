@@ -4,6 +4,7 @@ dependencies:
     # openssl aes-256-cbc -e -in secret-env-plain -out secret-env-cipher -k $KEY
     - openssl aes-256-cbc -d -in secret-env-cipher -k $KEY >> ~/.circlerc
     - sudo apt-get update; sudo apt-get install gettext
+    - npm install -g grunt-cli
 
 machine:
   node:
