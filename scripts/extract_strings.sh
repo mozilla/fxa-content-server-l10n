@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # syntax:
 # extract_strings.sh [--mailer-repo ./fxa-auth-server] [--content-repo ./fxa-content-server] [--l10n-repo ./fxa-content-server-l10n] train_number
