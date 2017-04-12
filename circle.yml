@@ -4,7 +4,8 @@ dependencies:
     # openssl aes-256-cbc -e -in secret-env-plain -out secret-env-cipher -k $KEY
     - openssl aes-256-cbc -d -in secret-env-cipher -k $KEY >> ~/.circlerc
     - sudo apt-get update; sudo apt-get install gettext
-    - npm install -g grunt-cli
+    - npm install -g grunt-cli gh
+    - node scripts/ci-creds.js
 
 machine:
   node:
@@ -14,5 +15,5 @@ test:
   override:
     - >
       if [ -n "${RUN_NIGHTLY_BUILD}" ]; then
-        GITHUB_USERNAME=$GITHUB_USERNAME GITHUB_API_KEY=$GITHUB_API_KEY ./scripts/extract-and-pull-request.sh;
+        ./scripts/extract-and-pull-request.sh; gh pr --submit mozilla --branch master;
       fi
