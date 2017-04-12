@@ -1,3 +1,4 @@
 node_modules
 workspace
 secret-env-plain
+.gh.json
