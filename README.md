@@ -65,5 +65,5 @@ The script above will generate an email for the l10n mailing list. Read through 
 
 ## Submitting Translations
 
-Please find your locale on [Pontoon - Firefox Accounts](https://pontoon.mozilla.org/projects/firefox-accounts/) or [Verbatim - Firefox Accounts](https://localize.mozilla.org/projects/accounts).
+Please find your locale on [Pontoon - Firefox Accounts](https://pontoon.mozilla.org/projects/firefox-accounts/).
 Follow the instructions on those sites to submit your translations.
