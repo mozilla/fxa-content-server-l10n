@@ -13,4 +13,4 @@ cd ..
 
 # random release number, avoids collision with old trains or branches
 r=$(( $RANDOM + $RANDOM + 1000 ))
-./scripts/extract_strings.sh --mailer-repo workspace/fxa-auth-server --content-repo workspace/fxa-content-server --l10n-repo . $r
+NODE_ENV=development ./scripts/extract_strings.sh --mailer-repo workspace/fxa-auth-server --content-repo workspace/fxa-content-server --l10n-repo . $r

@@ -5,7 +5,7 @@ dependencies:
     - openssl aes-256-cbc -d -in secret-env-cipher -k $KEY >> ~/.circlerc
     - sudo apt-get update; sudo apt-get install gettext
     - npm install -g grunt-cli gh
-    - node scripts/ci-creds.js
+    - GITHUB_TOKEN=$GITHUB_TOKEN GITHUB_USER=$GITHUB_USER node scripts/ci-creds.js
     - mkdir -p ~/.config/configstore/
     - echo optOut: true > ~/.config/configstore/insight-gh.yml
 
