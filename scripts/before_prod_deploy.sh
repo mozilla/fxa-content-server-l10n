@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # syntax:
 # before_prod_deploy.sh [--l10n-repo ./fxa-content-server-l10n]
