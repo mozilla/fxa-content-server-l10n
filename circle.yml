@@ -32,5 +32,5 @@ test:
       ssh-add ~/.ssh/id_bug_mirror;
 
       if [ -n "${RUN_NIGHTLY_BUILD}" ]; then
-        bash ./scripts/extract-and-pull-request.sh; gh pr --submit mozilla --branch master;
+        bash ./scripts/extract-and-pull-request.sh; gh pr --submit mozilla --branch master --browser false;
       fi
