@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-06 00:05+0000\n"
-"PO-Revision-Date: 2017-04-08 21:13+0000\n"
+"PO-Revision-Date: 2017-04-13 11:55+0000\n"
 "Last-Translator: Jim Spentzos <jamesspentzos@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -377,15 +377,15 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:289 app/scripts/lib/auth-errors.js:306
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "Μη έγκυρη ιδιότητα δεδομένων: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:293 app/scripts/lib/auth-errors.js:310
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "Απουσία ιδιότητας δεδομένων: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:306 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/lib/auth-errors.js:323
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "Αυτός ο σύνδεσμος επιβεβαίωσης έχει χρησιμοποιηθεί ήδη και μπορεί να χρησιμοποιηθεί μόνο μία φορά."
 
 #: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:327
 msgid "This is a required field"
@@ -401,7 +401,7 @@ msgstr "Κατεστραμμένος σύνδεσμος"
 
 #: app/scripts/lib/config-loader.js:87
 msgid "Missing configuration"
-msgstr ""
+msgstr "Απουσία ρύθμισης"
 
 #: app/scripts/lib/config-loader.js:91
 msgid "Invalid configuration"
@@ -441,7 +441,7 @@ msgstr "Μη έγκυρη παράμετρος OAuth: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
-msgstr ""
+msgstr "Μη πιστοποιημένο"
 
 #: app/scripts/lib/oauth-errors.js:66
 msgid "Forbidden"
@@ -449,35 +449,35 @@ msgstr "Απαγορεύεται"
 
 #: app/scripts/lib/oauth-errors.js:88
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "Κάτι πήγε στραβά. Παρακαλώ κλείστε αυτή την καρτέλα και δοκιμάστε ξανά."
 
 #: app/scripts/lib/oauth-errors.js:108
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Απουσία παραμέτρου OAuth: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
-msgstr ""
+msgstr "Μη έγκυρο σύμβολο"
 
 #: app/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
-msgstr ""
+msgstr "Μη έγκυρη παράμετρος στο κυρίως μέρος του αιτήματος: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:31
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "Μη υποστηριζόμενος πάροχος εικόνας"
 
 #: app/scripts/lib/profile-errors.js:35
 msgid "Image processing error"
-msgstr ""
+msgstr "Σφάλμα επεξεργασίας εικόνας"
 
 #: app/scripts/lib/require-on-demand.js:39
 msgid "Resources failed to load"
-msgstr ""
+msgstr "Αποτυχία φόρτωσης πόρων"
 
 #: app/scripts/lib/require-on-demand.js:43
 msgid "Unexpected resource error"
-msgstr ""
+msgstr "Σφάλμα μη αναμενόμενου πόρου"
 
 #: app/scripts/lib/require-on-demand.js:47
 msgid "Script error"
@@ -589,11 +589,11 @@ msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "Click here to receive a new reset link"
-msgstr ""
+msgstr "Κάντε κλικ εδώ για να λάβετε ένα νέο σύνδεσμο επαναφοράς"
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
-msgstr ""
+msgstr "Κατεστραμμένος σύνδεσμος επαναφοράς κωδικού πρόσβασης"
 
 #: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:10 app/scripts/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
@@ -662,11 +662,11 @@ msgstr ""
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive and not in spam folder? Resend"
-msgstr ""
+msgstr "Δεν έφτασε και δεν είναι στα ανεπιθύμητα; Εκ νέου αποστολή"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr ""
+msgstr "Απεστάλη email επαναφοράς"
 
 #: app/scripts/templates/confirm_reset_password.mustache:3
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
@@ -674,7 +674,7 @@ msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "Θυμάστε τον κωδικό πρόσβασης; Σύνδεση"
 
 #: app/scripts/templates/connect_another_device.mustache:1
 msgid "Connect another device"
@@ -875,7 +875,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_in.mustache:8
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr ""
+msgstr "Μεταφέρετε τα δεδομένα συγχρονισμού κάνοντας σύνδεση στο Λογαριασμό&nbsp;Firefox σας."
 
 #: app/scripts/templates/sign_in.mustache:13 app/scripts/templates/sign_in.mustache:16
 msgid "Use a different account"
@@ -899,7 +899,7 @@ msgstr "Πιστοποίηση σύνδεσης"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr ""
+msgstr "Για να προστατέψετε καλύτερα τα δεδομένα Firefox σας, υπάρχει ένας κωδικός πιστοποίησης που σάς περιμένει στο %(email)s."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -946,6 +946,8 @@ msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
 "Firefox for desktop will appear."
 msgstr ""
+"Το Sync σάς επιτρέπει να μοιράζεστε τους σελιδοδείκτες, το ιστορικό και τους κωδικούς πρόσβασης που αποθηκεύετε στο Firefox σε μια συσκευή με το Firefox σε άλλες συσκευές. Συνδεθείτε στο Firefox στο"
+" τηλέφωνο ή το tablet σας και θα εμφανιστεί ό,τι έχετε αποθηκεύσει στο Firefox του υπολογιστή σας."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
@@ -1183,7 +1185,7 @@ msgstr "Το SMS δεν απεστάλη, παρακαλώ δοκιμάστε ξ
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Στείλτε το Firefox απευθείας στο smartphone σας και συνδεθείτε για να ολοκληρώσετε τη ρύθμιση"
 
 #: app/scripts/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
@@ -1201,6 +1203,8 @@ msgstr "Αποστολή"
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"Η υπηρεσία SMS είναι διαθέσιμη μόνο για τηλεφωνικούς αριθμούς των ΗΠΑ. Ενδέχεται να χρεώσεις SMS &amp; δεδομένων. Ο παραλήπτης του email ή του SMS πρέπει να έχει συναινέσει. <a "
+"%(escapedLearnMoreAttributes)s>Μάθετε περισσότερα</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
@@ -1208,7 +1212,7 @@ msgstr "Ίσως αργότερα"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
 msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
-msgstr ""
+msgstr "Ολοκληρώστε τη ρύθμιση εγκαθιστώντας το Firefox με το σύνδεσμο που απεστάλη στο %(phoneNumber)s"
 
 #: app/scripts/templates/sms_sent.mustache:4 app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
