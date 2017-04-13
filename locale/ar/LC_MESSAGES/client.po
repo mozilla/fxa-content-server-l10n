@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-06 00:05+0000\n"
-"PO-Revision-Date: 2017-04-13 07:29+0000\n"
+"PO-Revision-Date: 2017-04-13 07:46+0000\n"
 "Last-Translator: Mohamed Hafez <mohamed7afezz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -146,7 +146,7 @@ msgstr "أفتح Outlook"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:43
 msgid "Open Restmail"
-msgstr ""
+msgstr "أفتح بريد إعادة تعيين"
 
 #: app/scripts/views/mixins/password-prompt-mixin.js:20
 msgid "8 characters minimum, but longer if you plan to sync passwords."
@@ -215,7 +215,7 @@ msgstr "صيغة البريد الإلكتروني غير صحيحة"
 
 #: app/scripts/lib/auth-errors.js:59
 msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
-msgstr ""
+msgstr "كلمة السرّ غير صحيحة. أضغط باستمرار علي زر إظهار للتأكّد من كلمة السرّ التي قمت بإدخالها."
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
@@ -255,7 +255,7 @@ msgstr "حُظر هذا الطلب لأسباب أمنيّة"
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:335
 msgid "Invalid authorization code"
-msgstr ""
+msgstr "رمز التخويل غير صحيح"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/auth-errors.js:298 app/scripts/lib/auth-errors.js:138 app/scripts/lib/auth-errors.js:315
 msgid "Server busy, try again soon"
@@ -405,7 +405,7 @@ msgstr ""
 
 #: app/scripts/lib/mailcheck.js:26 app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "هل كنت تقصد <span tabindex=\"1\">%(escapedDomain)s</span>؟"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -477,7 +477,7 @@ msgstr ""
 
 #: app/scripts/lib/require-on-demand.js:47
 msgid "Script error"
-msgstr ""
+msgstr "خطأ نصّ برمجي"
 
 #: app/scripts/lib/strings.js:22
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
@@ -541,7 +541,7 @@ msgstr "اختر ما الذي تريد مزامنة"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:3
 msgid "Open tabs"
-msgstr ""
+msgstr "الألسنة المفتوحة"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Bookmarks"
@@ -682,7 +682,7 @@ msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
-msgstr ""
+msgstr "اُكّد البريد الإلكتروني"
 
 #: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:2
 #: app/scripts/templates/sms_sent.mustache:3
@@ -895,11 +895,11 @@ msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr ""
+msgstr "لحماية أفضل لبيانات فَيَرفُكس الخاصة بك، أُرسل كود التخويل الي بريدك الإلكتروني %(email)s."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "أدخل رمز التخويل"
 
 #: app/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"
