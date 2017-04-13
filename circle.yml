@@ -6,7 +6,8 @@ dependencies:
     - sudo apt-get update; sudo apt-get install gettext
     - npm install -g grunt-cli gh
     - node scripts/ci-creds.js
-    - "echo optOut: true > ~/.config/configstore/insight-gh.yml"
+    - mkdir -p ~/.config/configstore/
+    - echo optOut: true > ~/.config/configstore/insight-gh.yml
 
 
 machine:
