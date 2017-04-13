@@ -16,7 +16,19 @@ machine:
 
 test:
   override:
+    - git config --global user.email "bugmirror@restmail.net"
+    - git config --global user.name "Bug Mirror"
+    - git remote rm origin
+    - git remote add origin git@github.com:bug-mirror/fxa-content-server-l10n.git
     - >
+      ssh-agent -s > ~/.ssh_agent_conf;
+      source ~/.ssh_agent_conf;
+
+      ssh-add -D;
+      openssl aes-256-cbc -d -in id_bug_mirror.enc -k $KEY >> ~/.ssh/id_bug_mirror;
+      chmod 0600 ~/.ssh/id_bug_mirror;
+      ssh-add ~/.ssh/id_bug_mirror;
+
       if [ -n "${RUN_NIGHTLY_BUILD}" ]; then
-        ./scripts/extract-and-pull-request.sh; gh pr --submit mozilla --branch master;
+        bash ./scripts/extract-and-pull-request.sh; gh pr --submit mozilla --branch master;
       fi
