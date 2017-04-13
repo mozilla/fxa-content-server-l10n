@@ -16,6 +16,8 @@ machine:
 
 test:
   override:
+    - cat ~/.ssh/config
+    - rm  ~/.ssh/config
     - git config --global user.email "bugmirror@restmail.net"
     - git config --global user.name "Bug Mirror"
     - git remote rm origin
