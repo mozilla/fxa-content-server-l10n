@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-06 00:05+0000\n"
-"PO-Revision-Date: 2017-04-07 16:51+0000\n"
+"PO-Revision-Date: 2017-04-16 12:15+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -155,7 +155,7 @@ msgstr "En az 8 karakter, ama parolalarınızı eşitlemeyi düşünüyorsanız 
 
 #: app/scripts/views/mixins/password-prompt-mixin.js:21 app/scripts/templates/sign_up.mustache:17
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr "Güç ve başka yerde kullanmadığınız bir parola, Firefox verilerinizi saldırganlardan korur."
+msgstr "Güçlü ve başka yerde kullanmadığınız bir parola, Firefox verilerinizi saldırganlardan korur."
 
 #: app/scripts/views/mixins/password-prompt-mixin.js:22
 msgid "This is a common password; please consider another one."
