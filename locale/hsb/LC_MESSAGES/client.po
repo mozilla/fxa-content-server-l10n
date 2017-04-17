@@ -1243,7 +1243,7 @@ msgstr "Přizjewić"
 #: app/scripts/views/sign_in.js:93
 msgctxt "header text"
 msgid "Sign in"
-msgstr ""
+msgstr "Přizjewić"
 
 #~ msgid "8 characters minimum, but longer if you plan to sync passwords."
 #~ msgstr "Znjajmjeńša 8 znamješkow, ale wjace, jeli chceće hesła synchronizować."
