@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-06 00:05+0000\n"
+"POT-Creation-Date: 2017-04-17 16:35+0000\n"
 "PO-Revision-Date: 2017-03-25 13:04+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,16 +14,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
-#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170 app/scripts/views/complete_sign_up.js:184 app/scripts/views/complete_sign_up.js:186
+#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:186 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
 msgid "Account verified successfully"
 msgstr "Vellukka stadfesting av konto"
 
-#: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38 app/scripts/views/ready.js:39 app/scripts/views/confirm_reset_password.js:160
+#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:39
 msgid "Password reset"
 msgstr "Tilbakestilling av passord"
 
-#: app/scripts/views/confirm_reset_password.js:194 app/scripts/views/confirm_reset_password.js:188
+#: app/scripts/views/confirm_reset_password.js:188
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Passordet et er tilbakestilt. Logg inn for å fortsetta."
 
@@ -35,8 +34,7 @@ msgstr "%(permissionName)s (påkravd)"
 msgid "Email address"
 msgstr "E-postadresse"
 
-#: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:4
-#: app/scripts/templates/settings/display_name.mustache:6
+#: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:6
 msgid "Display name"
 msgstr "Visingsnamn"
 
@@ -44,51 +42,55 @@ msgstr "Visingsnamn"
 msgid "Account picture"
 msgstr "Kontobilde"
 
-#: app/scripts/views/ready.js:33 app/scripts/views/ready.js:34
+#: app/scripts/views/ready.js:34
 msgid "Welcome back"
 msgstr "Velkomen tilbake"
 
-#: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35
+#: app/scripts/views/ready.js:35
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync vil halde fram snart"
 
-#: app/scripts/views/ready.js:39 app/scripts/views/ready.js:40
+#: app/scripts/views/ready.js:40
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Fullfør oppsettet ved å skriva inn det nye passordet på dei andre Firefox-einingane dine."
 
-#: app/scripts/views/ready.js:44 app/scripts/views/ready.js:45
+#: app/scripts/views/ready.js:45
 msgid "Sign-in confirmed"
 msgstr "Innlogging stadfesta"
 
-#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 app/scripts/templates/ready.mustache:3 app/scripts/views/ready.js:46 app/scripts/views/ready.js:51
+#: app/scripts/views/ready.js:46 app/scripts/views/ready.js:51 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Du kan no bruka %(serviceName)s"
 
-#: app/scripts/views/ready.js:49 app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:50
 msgid "Account verified"
 msgstr "Konto stadfesta"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:167 app/scripts/views/sign_in.js:169
+#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Ukjend konto. <a href=\"/signup\">Registrer deg</a>"
 
-#: app/scripts/views/sign_in.js:164 app/scripts/views/sign_in.js:166
+#: app/scripts/views/sign_in.js:174
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Ukjend Firefox-konto. <a href=\"/signup\">Registrer deg</a> med e-postadressa di som du tidlegare har brukt for å få tilgang til dataa dine på nettstaden Utvidingar."
 
-#: app/scripts/views/sign_up.js:62
+#: app/scripts/views/sign_up.js:63
 msgid "Account no longer exists. Recreate it?"
 msgstr "Kontoen finst ikkje lenger. Vil du gjenskapa han?"
 
-#: app/scripts/views/sign_up.js:370 app/scripts/views/sign_up.js:369 app/scripts/views/sign_up.js:380 app/scripts/views/sign_up.js:381
+#: app/scripts/views/sign_up.js:383
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Kontoen finst allereie. <a href=\"/signin\">Logg inn</a>"
+
+#: app/scripts/views/sms_sent.js:24
+msgid "App link resent to %(phoneNumber)s"
+msgstr "App-lenke sendt til %(phoneNumber)s"
 
 #: app/scripts/views/settings/avatar_gravatar.js:93
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "Med velvillig løyve frå <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
-#: app/scripts/views/settings/change_password.js:52 app/scripts/views/settings/change_password.js:53
+#: app/scripts/views/settings/change_password.js:52
 msgid "Password changed successfully"
 msgstr "Passordet er endra"
 
@@ -100,7 +102,15 @@ msgstr "Det var ikkje kjekt å høyra. Du bør byta passord på Firefox-kontoen 
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Det var ikkje kjekt å høyra. Om dette var ei eining du verkeleg ikkje stolar på, bør du byta passord på Firefox-kontoen din, og endra alle andre passord lagra i Firefox."
 
-#: app/scripts/views/settings/clients.js:58 app/scripts/views/settings/clients.js:62 app/scripts/views/settings/clients.js:68
+#: app/scripts/views/settings/clients.js:63
+msgid "Web Session, %(userAgent)s"
+msgstr "Nett-økt, %(userAgent)s"
+
+#: app/scripts/views/settings/clients.js:65
+msgid "%(translatedTimeAgo)s"
+msgstr "%(translatedTimeAgo)s"
+
+#: app/scripts/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s"
 msgstr "Sist aktiv %(translatedTimeAgo)s"
 
@@ -148,27 +158,11 @@ msgstr "Opna Outlook"
 msgid "Open Restmail"
 msgstr "Opna Restmail"
 
-#: app/scripts/views/mixins/password-prompt-mixin.js:20
-msgid "8 characters minimum, but longer if you plan to sync passwords."
-msgstr "MInst 8 teikn, men lenger om du vil synkronisera passord."
-
-#: app/scripts/views/mixins/password-prompt-mixin.js:21 app/scripts/templates/sign_up.mustache:17
-msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr "Eit sterkt, unikt passord vil halde dine Firefox-data trygge frå inntrengarar."
-
-#: app/scripts/views/mixins/password-prompt-mixin.js:22
-msgid "This is a common password; please consider another one."
-msgstr "Dette er eit vanleg passord. Du bør vurdera å bruka eit anna."
-
-#: app/scripts/views/mixins/resend-mixin.js:45 app/scripts/views/mixins/resend-mixin.js:40
+#: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "E-post sendt på nytt"
 
-#: app/scripts/views/mixins/signed-out-notification-mixin.js:38
-msgid "Signed out successfully"
-msgstr "Du er utlogga"
-
-#: app/scripts/models/reliers/sync.js:50 app/scripts/models/reliers/sync.js:51
+#: app/scripts/models/reliers/sync.js:50
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
@@ -214,8 +208,8 @@ msgid "Incorrect email case"
 msgstr "Ugyldig e-post tilfelle"
 
 #: app/scripts/lib/auth-errors.js:59
-msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
-msgstr "Feil passord. For å dobbelsjekka det du har skrive inn, trykk og hald ned knappen Visa."
+msgid "Incorrect password"
+msgstr "Feil passord"
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
@@ -253,147 +247,173 @@ msgstr "Førespurnadsinnhald er for stort"
 msgid "The request was blocked for security reasons"
 msgstr "Førespurnaden vart blokkert pga. tryggingsårsaker"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:335
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347
 msgid "Invalid authorization code"
 msgstr "Ugyldig godkjenningskode"
 
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/auth-errors.js:298 app/scripts/lib/auth-errors.js:138 app/scripts/lib/auth-errors.js:315
+#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
+msgid "Invalid phone number"
+msgstr "Ugyldig telefonnummer"
+
+#: app/scripts/lib/auth-errors.js:125
+msgid "Cannot send to this country"
+msgstr "Kan ikkje sende til dette landet"
+
+#: app/scripts/lib/auth-errors.js:134
+msgid "Could not send a message to this number"
+msgstr "Klarte ikkje å sende ei melding til dette nummeret"
+
+#: app/scripts/lib/auth-errors.js:138
+msgid "Your email was just returned"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:142
+msgid "Your email was just returned. Mistyped email?"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:146
+msgid "Unable to deliver email"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327
 msgid "Server busy, try again soon"
 msgstr "Tenaren er opptatt, prøv på nytt seinare"
 
-#: app/scripts/lib/auth-errors.js:125 app/scripts/lib/auth-errors.js:142
+#: app/scripts/lib/auth-errors.js:154
 msgid "This endpoint is no longer supported"
 msgstr "Dette endepunktet er ikkje lenger støtta"
 
-#: app/scripts/lib/auth-errors.js:129 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
-#: app/scripts/lib/auth-errors.js:146
+#: app/scripts/lib/auth-errors.js:158 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Systemet utilgjengeleg, prøv igjen seinare"
 
-#: app/scripts/lib/auth-errors.js:133 app/scripts/lib/oauth-errors.js:104 app/scripts/lib/auth-errors.js:150
-msgid "no message"
-msgstr "inga melding"
+#: app/scripts/lib/auth-errors.js:162
+msgid "Login attempt cancelled"
+msgstr "Innloggingsforsøket avbrote"
 
-#: app/scripts/lib/auth-errors.js:137 app/scripts/lib/auth-errors.js:154
+#: app/scripts/lib/auth-errors.js:166
 msgid "Session expired. Sign in to continue."
 msgstr "Økta er slutt. Logg inn for å fortsetja."
 
-#: app/scripts/lib/auth-errors.js:141 app/scripts/lib/auth-errors.js:158
+#: app/scripts/lib/auth-errors.js:170
 msgid "Cookies are still disabled"
 msgstr "Infokapslar er framleis slått av"
 
-#: app/scripts/lib/auth-errors.js:145 app/scripts/lib/auth-errors.js:162
+#: app/scripts/lib/auth-errors.js:174
 msgid "Passwords do not match"
 msgstr "Passorda samsvarar ikkje"
 
-#: app/scripts/lib/auth-errors.js:149 app/scripts/lib/auth-errors.js:166
+#: app/scripts/lib/auth-errors.js:178
 msgid "Working…"
 msgstr "Arbeider …"
 
-#: app/scripts/lib/auth-errors.js:153 app/scripts/lib/auth-errors.js:170
+#: app/scripts/lib/auth-errors.js:182
 msgid "Could not get Privacy Notice"
 msgstr "Klarte ikkje å henta personvernmelding"
 
-#: app/scripts/lib/auth-errors.js:157 app/scripts/lib/auth-errors.js:174
+#: app/scripts/lib/auth-errors.js:186
 msgid "Could not get Terms of Service"
 msgstr "Klarte ikkje å henta tenestevilkåra"
 
-#: app/scripts/lib/auth-errors.js:161 app/scripts/lib/auth-errors.js:178
+#: app/scripts/lib/auth-errors.js:190
 msgid "Your new password must be different"
 msgstr "Det nye passordet ditt må vera annleis"
 
-#: app/scripts/lib/auth-errors.js:165 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7 app/scripts/lib/auth-errors.js:182
+#: app/scripts/lib/auth-errors.js:194 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "Må ha minst 8 teikn"
 
-#: app/scripts/lib/auth-errors.js:169 app/scripts/lib/auth-errors.js:186
+#: app/scripts/lib/auth-errors.js:198
 msgid "Valid password required"
 msgstr "Gyldig passord påkravd"
 
-#: app/scripts/lib/auth-errors.js:173 app/scripts/lib/auth-errors.js:211 app/scripts/lib/auth-errors.js:227 app/scripts/lib/auth-errors.js:190 app/scripts/lib/auth-errors.js:228
-#: app/scripts/lib/auth-errors.js:244
+#: app/scripts/lib/auth-errors.js:202 app/scripts/lib/auth-errors.js:240 app/scripts/lib/auth-errors.js:256
 msgid "Valid email required"
 msgstr "Gyldig e-postadresse påkravd"
 
-#: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:201
+#: app/scripts/lib/auth-errors.js:213
 msgid "A usable image was not found"
 msgstr "Fann ikkje brukande bilde"
 
-#: app/scripts/lib/auth-errors.js:188 app/scripts/lib/auth-errors.js:205
+#: app/scripts/lib/auth-errors.js:217
 msgid "Could not initialize camera"
 msgstr "Klarte ikkje å starta kameraet"
 
-#: app/scripts/lib/auth-errors.js:192 app/scripts/lib/auth-errors.js:209
+#: app/scripts/lib/auth-errors.js:221
 msgid "Valid URL required"
 msgstr "Gyldig URL påkravd"
 
-#: app/scripts/lib/auth-errors.js:207 app/scripts/lib/auth-errors.js:224
+#: app/scripts/lib/auth-errors.js:236
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Stadfestings e-posten din kom i retur. Feil i e-postadressa?"
 
-#: app/scripts/lib/auth-errors.js:215 app/scripts/lib/auth-errors.js:232
+#: app/scripts/lib/auth-errors.js:244
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Skriv inn ei gyldig e-postadresse. firefox.com tilbyr ikkje e-post."
 
-#: app/scripts/lib/auth-errors.js:223 app/scripts/lib/auth-errors.js:240
+#: app/scripts/lib/auth-errors.js:252
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox-kontoar kan berre plasserast i ei IFRAME på godkjende nettstadar"
 
-#: app/scripts/lib/auth-errors.js:242 app/scripts/templates/complete_sign_up.mustache:9 app/scripts/lib/auth-errors.js:259
+#: app/scripts/lib/auth-errors.js:271 app/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
 msgstr "Stadfestingslenka er skadd"
 
-#: app/scripts/lib/auth-errors.js:250 app/scripts/lib/auth-errors.js:267
+#: app/scripts/lib/auth-errors.js:279
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Dimensjonar på bildet må vera minst 100 x 100 px"
 
-#: app/scripts/lib/auth-errors.js:254 app/scripts/lib/auth-errors.js:271
+#: app/scripts/lib/auth-errors.js:283
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Registrering kjem snart til Firefox for iOS"
 
-#: app/scripts/lib/auth-errors.js:265 app/scripts/lib/auth-errors.js:282
+#: app/scripts/lib/auth-errors.js:294
 msgid "You must enter your age to sign up"
 msgstr "Du må skriva inn alder for å registrera deg"
 
-#: app/scripts/lib/auth-errors.js:269 app/scripts/lib/auth-errors.js:286
+#: app/scripts/lib/auth-errors.js:298
 msgid "No Gravatar found"
 msgstr "Fann ingen Gravatar"
 
-#: app/scripts/lib/auth-errors.js:277 app/scripts/lib/auth-errors.js:294
+#: app/scripts/lib/auth-errors.js:306
 msgid "Account no longer exists."
 msgstr "Kontoen finst ikkje lenger."
 
-#: app/scripts/lib/auth-errors.js:281 app/scripts/lib/auth-errors.js:298
+#: app/scripts/lib/auth-errors.js:310
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Ugyldig eigenskap i resume token: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:285 app/scripts/lib/auth-errors.js:302
+#: app/scripts/lib/auth-errors.js:314
 msgid "Missing property in resume token: %(property)s"
 msgstr "Manglande eigenskap i resume token: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:289 app/scripts/lib/auth-errors.js:306
+#: app/scripts/lib/auth-errors.js:318
 msgid "Invalid data attribute: %(property)s"
 msgstr "Ugyldig data-attributt: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:293 app/scripts/lib/auth-errors.js:310
+#: app/scripts/lib/auth-errors.js:322
 msgid "Missing data attribute: %(property)s"
 msgstr "Manglande data-attributt: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:306 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/lib/auth-errors.js:323
+#: app/scripts/lib/auth-errors.js:335 app/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Denne stadfestingslenka er allereie brukt, og kan berre brukast ein gong."
 
-#: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:327
+#: app/scripts/lib/auth-errors.js:339
 msgid "This is a required field"
 msgstr "Dette feltet er påkravd"
 
-#: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:331
+#: app/scripts/lib/auth-errors.js:343
 msgid "Authorization code required"
 msgstr "Godkjenningskode påkravd"
 
-#: app/scripts/lib/auth-errors.js:322 app/scripts/templates/report_sign_in.mustache:1 app/scripts/lib/auth-errors.js:339
+#: app/scripts/lib/auth-errors.js:351 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Øydelagd lenke"
+
+#: app/scripts/lib/auth-errors.js:374
+msgid "Phone number required"
+msgstr "Telefonnummer påkravd"
 
 #: app/scripts/lib/config-loader.js:87
 msgid "Missing configuration"
@@ -403,9 +423,13 @@ msgstr "Manglande konfigurasjon"
 msgid "Invalid configuration"
 msgstr "Ugyldig konfigurasjon"
 
-#: app/scripts/lib/mailcheck.js:26 app/scripts/lib/mailcheck.js:25
+#: app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
 msgstr "Meinte du <span tabindex=\"1\">%(escapedDomain)s</span>?"
+
+#: app/scripts/lib/marketing-email-errors.js:41
+msgid "Please try again later"
+msgstr "Prøv igjen seinare"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -447,6 +471,10 @@ msgstr "Forbode"
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Noko gjekk gale. Lat att fana og prøv på nytt."
 
+#: app/scripts/lib/oauth-errors.js:104
+msgid "no message"
+msgstr "inga melding"
+
 #: app/scripts/lib/oauth-errors.js:108
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Manglande OAuth parameter: %(param)s"
@@ -479,6 +507,18 @@ msgstr "Uventa resursfeil"
 msgid "Script error"
 msgstr "Skriptfeil"
 
+#: app/scripts/lib/sms-errors.js:23
+msgid "SMS sent"
+msgstr "SMS sendt"
+
+#: app/scripts/lib/sms-errors.js:55
+msgid "Your number has been blocked"
+msgstr "Nummeret ditt har blitt blokkert"
+
+#: app/scripts/lib/sms-errors.js:79
+msgid "SMS not sent, please try again"
+msgstr "SMS ikkje sendt, prøv igjen"
+
 #: app/scripts/lib/strings.js:22
 msgid ""
 "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
@@ -510,6 +550,14 @@ msgstr "IP-addresse: %(ip)s"
 #: app/scripts/lib/strings.js:40
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "For ekstra sikkerheit, stadfest denne innlogginga for å begynna synkroniseringa med denne eininga:"
+
+#: app/scripts/lib/strings.js:43
+msgid "Web Session"
+msgstr "Webøkt"
+
+#: app/scripts/lib/strings.js:49
+msgid "Sign in"
+msgstr "Logg inn"
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
@@ -688,8 +736,7 @@ msgstr "Denne eininga er tilkopla"
 msgid "Email verified"
 msgstr "E-post stadfesta"
 
-#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:2
-#: app/scripts/templates/sms_sent.mustache:3
+#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:3
 msgid "Success"
 msgstr "Vellykka"
 
@@ -701,24 +748,23 @@ msgstr "Logg inn på Firefox for å fullføra oppsettet"
 msgid "Sign in &rarr;"
 msgstr "Logg inn &rarr;"
 
-#: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:13
-msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr "Opna innstillingar og vel Logg inn på Firefox for å fullføra oppsettet"
-
-#: app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:17
-msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr "Logg inn på Firefox for iOS for å fullføra oppsettet"
-
-#: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:17 app/scripts/templates/connect_another_device.mustache:9
-#: app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
+#: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Logg inn på Firefox på ei anna eining for å fullføra oppsettet"
+
+#: app/scripts/templates/connect_another_device.mustache:13
+msgid "Open settings and select Sign in to Firefox to complete set-up"
+msgstr "Opna innstillingar og vel Logg inn på Firefox for å fullføra oppsettet"
 
 #: app/scripts/templates/connect_another_device.mustache:15
 msgid "Sign in to Firefox for Android to complete set-up"
 msgstr "Logg inn på Firefox for Android for å fullføra oppsettet"
 
-#: app/scripts/templates/connect_another_device.mustache:19 app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
+#: app/scripts/templates/connect_another_device.mustache:17
+msgid "Sign in to Firefox for iOS to complete set-up"
+msgstr "Logg inn på Firefox for iOS for å fullføra oppsettet"
+
+#: app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
 msgid "Why is this required?"
 msgstr "Kvifor er det påkravd?"
 
@@ -742,21 +788,16 @@ msgstr "Prøv på nytt"
 msgid "Sign in to continue"
 msgstr "Logg inn for å halda fram"
 
-#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_up.mustache:15
 #: app/scripts/templates/settings/change_password.mustache:1 app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Passord"
 
-#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in.mustache:4 app/scripts/templates/sign_in.mustache:11
-#: app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_in.mustache:22
-msgid "Sign in"
-msgstr "Logg inn"
-
-#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:12 app/scripts/templates/sign_in.mustache:23 app/scripts/templates/settings/change_password.mustache:5
+#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:18 app/scripts/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "Gløymt passordet?"
 
-#: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:25 app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
 "Ved å fortsetje seier du deg samd i <a id=\"fxa-tos\" href=\"/legal/terms\">tenestevilkåra</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\">personvernmerknaden</a> for Firefox sine skytenester."
@@ -769,11 +810,11 @@ msgstr "Firefox skytenester"
 msgid "Legal"
 msgstr "Juridisk"
 
-#: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:5 app/scripts/templates/tos.mustache:2 app/scripts/templates/settings.mustache:4
+#: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:4 app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "Tenestevilkår"
 
-#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:6 app/scripts/templates/settings.mustache:5
+#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:5
 msgid "Privacy Notice"
 msgstr "Personvernmerknad"
 
@@ -810,15 +851,11 @@ msgstr "Godta"
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9
 #: app/scripts/templates/settings/communication_preferences.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6
-#: app/scripts/templates/settings/display_name.mustache:6 app/scripts/templates/settings/gravatar_permissions.mustache:5 app/scripts/templates/settings/display_name.mustache:8
+#: app/scripts/templates/settings/display_name.mustache:8 app/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: app/scripts/templates/ready.mustache:4
-msgid "Proceed"
-msgstr "Hald fram"
-
-#: app/scripts/templates/ready.mustache:7
+#: app/scripts/templates/ready.mustache:5
 msgid "Your account is ready!"
 msgstr "Kontoen din er klar!"
 
@@ -842,7 +879,7 @@ msgstr "Kvifor skjer dette?"
 msgid "Reset account"
 msgstr "Tilbakestill kontoen"
 
-#: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
+#: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Fortset til %(serviceName)s"
 
@@ -850,7 +887,7 @@ msgstr "Fortset til %(serviceName)s"
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "Når du tilbakestiller passordet ditt, vil du mista alle Sync-data som ikkje er på nokon av einingane dine."
 
-#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
+#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "E-post"
 
@@ -870,19 +907,19 @@ msgstr "Firefox-kontoar"
 msgid "Sign out"
 msgstr "Logg ut"
 
-#: app/scripts/templates/sign_in.mustache:6
+#: app/scripts/templates/sign_in.mustache:4
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
 msgstr "Ser du etter utvidingsdata? <a href=\"/signup\">Registrer deg</a> for ein Firefox-konto med den gamle e-postadressa for tilleggskonto."
 
-#: app/scripts/templates/sign_in.mustache:8
+#: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr "Migrer dine sync-data ved å logga inn på Firefox-kontoen din."
 
-#: app/scripts/templates/sign_in.mustache:13 app/scripts/templates/sign_in.mustache:16
+#: app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:12
 msgid "Use a different account"
 msgstr "Bruk ein annan konto"
 
-#: app/scripts/templates/sign_in.mustache:24
+#: app/scripts/templates/sign_in.mustache:19
 msgid "Create an account"
 msgstr "Opprett ein konto"
 
@@ -926,9 +963,13 @@ msgstr "Migrer sync-data ved å oppretta ein ny Firefox-konto."
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr "Ser du etter utvidingsdata? Registrer ein Firefox-konto med den gamle e-postadressa di for ein tilleggskonto."
 
-#: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/settings/communication_preferences.mustache:7
-msgid "Receive the monthly Firefox newsletter."
-msgstr "Send meg Firefox sitt månadlege nyhendebrev."
+#: app/scripts/templates/sign_up.mustache:17
+msgid "A strong, unique password will keep your Firefox data safe from intruders."
+msgstr "Eit sterkt, unikt passord vil halde dine Firefox-data trygge frå inntrengarar."
+
+#: app/scripts/templates/sign_up.mustache:19
+msgid "Receive the monthly Firefox newsletter"
+msgstr "Send meg Firefox sitt månadlege nyhendebrev"
 
 #: app/scripts/templates/sign_up.mustache:21
 msgid "Create account"
@@ -937,6 +978,49 @@ msgstr "Opprett konto"
 #: app/scripts/templates/sign_up.mustache:26
 msgid "Have an account? Sign in"
 msgstr "Har du ein konto? Logg inn"
+
+#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
+msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+msgstr "Send Firefox direkte til smartmobilen din og logg inn for å fullføre oppsettet"
+
+#: app/scripts/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
+msgstr "Firefox er tilkopla"
+
+#: app/scripts/templates/sms_send.mustache:5
+msgid "Mobile phone number"
+msgstr "Mobilnummer"
+
+#: app/scripts/templates/sms_send.mustache:6
+msgid "Send"
+msgstr "Send"
+
+#: app/scripts/templates/sms_send.mustache:7
+msgid ""
+"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+msgstr ""
+"SMS-tenesta er berre tilgjengeleg for amerikanske telefonnummer. Du må kanskje betale for SMS og data. Mottakarane av e-posten eller SMS-en må ha gitt samtykke. <a "
+"%(escapedLearnMoreAttributes)s>Les meir</a>"
+
+#: app/scripts/templates/sms_send.mustache:9
+msgid "Maybe later"
+msgstr "Kanskje seinare"
+
+#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
+msgid "Install Firefox on your smartphone and sign in to complete set-up"
+msgstr "Installer Firefox på smarttelefonen din og logg inn for å fullføre oppsettet"
+
+#: app/scripts/templates/sms_sent.mustache:2
+msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+msgstr "App-lenke sendt til %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Feilskrive nummer?</a>"
+
+#: app/scripts/templates/sms_sent.mustache:5
+msgid "If you are not receiving the text message, you can also download the apps manually."
+msgstr "Om du ikkje får ei tekstmelding, kan du også laste ned appar manuelt."
+
+#: app/scripts/templates/sms_sent.mustache:6
+msgid "Didn't arrive? Resend"
+msgstr "Ikkje komen? Send på nytt"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
@@ -991,7 +1075,7 @@ msgstr "Gravatar"
 msgid "Clear"
 msgstr "Tøm"
 
-#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:26
+#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:26
 msgid "Done"
 msgstr "Ferdig"
 
@@ -999,8 +1083,7 @@ msgstr "Ferdig"
 msgid "Position and rotate your picture as needed"
 msgstr "Plasser og roter bildet etter behov"
 
-#: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:5
-#: app/scripts/templates/settings/display_name.mustache:7
+#: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:7
 msgid "Change"
 msgstr "Endra"
 
@@ -1037,15 +1120,14 @@ msgid "Old or replaced device"
 msgstr "Gammal eller utskifta eining"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
-msgid "Duplicate Device"
+msgid "Duplicate device"
 msgstr "Duplikateining"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
 msgstr "Vil helst ikkje fortelja"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:9 app/scripts/templates/settings/clients.mustache:11
-#: app/scripts/templates/settings/clients.mustache:14
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:14
 msgid "Disconnect"
 msgstr "Kopla frå"
 
@@ -1069,35 +1151,41 @@ msgstr "denne eininga"
 msgid "Disconnect…"
 msgstr "Kopla frå…"
 
-#: app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:17
+#: app/scripts/templates/settings/clients.mustache:9
+msgid "current session"
+msgstr "gjeldande økt"
+
+#: app/scripts/templates/settings/clients.mustache:17
 msgid "Firefox for iOS"
 msgstr "Firefox for iOS"
 
-#: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15 app/scripts/templates/settings/clients.mustache:18
-#: app/scripts/templates/settings/clients.mustache:21
+#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21
 msgid "none connected"
 msgstr "ingen tilkopla"
 
-#: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16 app/scripts/templates/settings/clients.mustache:19
-#: app/scripts/templates/settings/clients.mustache:22
+#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22
 msgid "Download"
 msgstr "Last ned"
 
-#: app/scripts/templates/settings/clients.mustache:14 app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/clients.mustache:20
 msgid "Firefox for Android"
 msgstr "Firefox for Android"
 
-#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:24
+#: app/scripts/templates/settings/clients.mustache:24
 msgid "Missing or duplicate items?"
 msgstr "Manglande- eller duplikatelement?"
 
-#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:25
+#: app/scripts/templates/settings/clients.mustache:25
 msgid "Refresh"
 msgstr "Oppdater"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
 msgstr "Kommunikasjonsinnstillingar"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:7
+msgid "Receive the monthly Firefox newsletter."
+msgstr "Send meg Firefox sitt månadlege nyhendebrev."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
@@ -1123,7 +1211,7 @@ msgstr "Slett…"
 msgid "Are you sure you want to delete your account? This action cannot be undone."
 msgstr "Er du sikker på at du vil sletta kontoen? Dette kan ikkje gjerast om."
 
-#: app/scripts/templates/settings/display_name.mustache:3 app/scripts/templates/settings/display_name.mustache:5
+#: app/scripts/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Vel namnet du vil skal visast i Firefox og når du handterar kontoen din."
 
@@ -1147,120 +1235,38 @@ msgstr "Bruk OpenID"
 msgid "Use Firefox Account"
 msgstr "Bruk Firefox-kontoen"
 
-#: app/scripts/lib/strings.js:43
-msgid "Web Session"
-msgstr "Webøkt"
-
-#: app/scripts/templates/settings/client_disconnect.mustache:6
-msgid "Duplicate device"
-msgstr "Duplikateining"
-
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
-msgid "Invalid phone number"
-msgstr "Ugyldig telefonnummer"
-
-#: app/scripts/lib/auth-errors.js:125
-msgid "Cannot send to this country"
-msgstr "Kan ikkje sende til dette landet"
-
-#: app/scripts/lib/auth-errors.js:134
-msgid "Could not send a message to this number"
-msgstr "Klarte ikkje å sende ei melding til dette nummeret"
-
-#: app/scripts/lib/auth-errors.js:362
-msgid "Phone number required"
-msgstr "Telefonnummer påkravd"
-
-#: app/scripts/lib/sms-errors.js:23
-msgid "SMS sent"
-msgstr "SMS sendt"
-
-#: app/scripts/lib/sms-errors.js:55
-msgid "Your number has been blocked"
-msgstr "Nummeret ditt har blitt blokkert"
-
-#: app/scripts/lib/sms-errors.js:79
-msgid "SMS not sent, please try again"
-msgstr "SMS ikkje sendt, prøv igjen"
-
-#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
-msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr "Send Firefox direkte til smartmobilen din og logg inn for å fullføre oppsettet"
-
-#: app/scripts/templates/sms_send.mustache:2
-msgid "This Firefox is connected"
-msgstr "Firefox er tilkopla"
-
-#: app/scripts/templates/sms_send.mustache:5
-msgid "Mobile phone number"
-msgstr "Mobilnummer"
-
-#: app/scripts/templates/sms_send.mustache:6
-msgid "Send"
-msgstr "Send"
-
-#: app/scripts/templates/sms_send.mustache:7
-msgid ""
-"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#. submit button
+#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:90
+msgctxt "submit button"
+msgid "Sign in"
 msgstr ""
-"SMS-tenesta er berre tilgjengeleg for amerikanske telefonnummer. Du må kanskje betale for SMS og data. Mottakarane av e-posten eller SMS-en må ha gitt samtykke. <a "
-"%(escapedLearnMoreAttributes)s>Les meir</a>"
 
-#: app/scripts/templates/sms_send.mustache:9
-msgid "Maybe later"
-msgstr "Kanskje seinare"
+#. header text
+#: app/scripts/views/sign_in.js:93
+msgctxt "header text"
+msgid "Sign in"
+msgstr ""
 
-#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
-msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
-msgstr "Fullfør oppsettet ved å installere Firefox med lenka som er sendt til %(phoneNumber)s"
+#~ msgid "8 characters minimum, but longer if you plan to sync passwords."
+#~ msgstr "MInst 8 teikn, men lenger om du vil synkronisera passord."
 
-#: app/scripts/templates/sms_sent.mustache:4 app/scripts/templates/sms_sent.mustache:5
-msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr "Om du ikkje får ei tekstmelding, kan du også laste ned appar manuelt."
+#~ msgid "This is a common password; please consider another one."
+#~ msgstr "Dette er eit vanleg passord. Du bør vurdera å bruka eit anna."
 
-#: app/scripts/views/sms_sent.js:24
-msgid "App link resent to %(phoneNumber)s"
-msgstr "App-lenke sendt til %(phoneNumber)s"
+#~ msgid "Signed out successfully"
+#~ msgstr "Du er utlogga"
 
-#: app/scripts/views/settings/clients.js:63
-msgid "Web Session, %(userAgent)s"
-msgstr "Nett-økt, %(userAgent)s"
+#~ msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
+#~ msgstr "Feil passord. For å dobbelsjekka det du har skrive inn, trykk og hald ned knappen Visa."
 
-#: app/scripts/views/settings/clients.js:65
-msgid "%(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s"
+#~ msgid "Proceed"
+#~ msgstr "Hald fram"
 
-#: app/scripts/lib/auth-errors.js:59
-msgid "Incorrect password"
-msgstr "Feil passord"
+#~ msgid "Duplicate Device"
+#~ msgstr "Duplikateining"
 
-#: app/scripts/lib/auth-errors.js:150
-msgid "Login attempt cancelled"
-msgstr "Innloggingsforsøket avbrote"
-
-#: app/scripts/lib/marketing-email-errors.js:41
-msgid "Please try again later"
-msgstr "Prøv igjen seinare"
-
-#: app/scripts/templates/sign_up.mustache:19
-msgid "Receive the monthly Firefox newsletter"
-msgstr "Send meg Firefox sitt månadlege nyhendebrev"
-
-#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
-msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr "Installer Firefox på smarttelefonen din og logg inn for å fullføre oppsettet"
-
-#: app/scripts/templates/sms_sent.mustache:2
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr "App-lenke sendt til %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Feilskrive nummer?</a>"
-
-#: app/scripts/templates/sms_sent.mustache:6
-msgid "Didn't arrive? Resend"
-msgstr "Ikkje komen? Send på nytt"
-
-#: app/scripts/templates/settings/clients.mustache:9
-msgid "current session"
-msgstr "gjeldande økt"
+#~ msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
+#~ msgstr "Fullfør oppsettet ved å installere Firefox med lenka som er sendt til %(phoneNumber)s"
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "Kom det ikkje fram? Sen på nytt"

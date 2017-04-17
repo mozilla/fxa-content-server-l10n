@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-06 00:05+0000\n"
+"POT-Creation-Date: 2017-04-17 16:35+0000\n"
 "PO-Revision-Date: 2017-03-21 07:50+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,16 +15,15 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444481345.0\n"
 
-#: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
-#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170 app/scripts/views/complete_sign_up.js:184 app/scripts/views/complete_sign_up.js:186
+#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:186 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
 msgid "Account verified successfully"
 msgstr "Konto je so wuspěšnje přepruwowało"
 
-#: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38 app/scripts/views/ready.js:39 app/scripts/views/confirm_reset_password.js:160
+#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:39
 msgid "Password reset"
 msgstr "Hesło je so wróćo stajiło"
 
-#: app/scripts/views/confirm_reset_password.js:194 app/scripts/views/confirm_reset_password.js:188
+#: app/scripts/views/confirm_reset_password.js:188
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Hesło je so wuspěšnje wróćo stajiło. Přizjewće so, zo byšće pokročował."
 
@@ -36,8 +35,7 @@ msgstr "%(permissionName)s (trěbne)"
 msgid "Email address"
 msgstr "E-mejlowa adresa"
 
-#: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:4
-#: app/scripts/templates/settings/display_name.mustache:6
+#: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:6
 msgid "Display name"
 msgstr "Zwobraznjenske mjeno"
 
@@ -45,51 +43,55 @@ msgstr "Zwobraznjenske mjeno"
 msgid "Account picture"
 msgstr "Kontowy wobraz"
 
-#: app/scripts/views/ready.js:33 app/scripts/views/ready.js:34
+#: app/scripts/views/ready.js:34
 msgid "Welcome back"
 msgstr "Witajće wróćo"
 
-#: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35
+#: app/scripts/views/ready.js:35
 msgid "Firefox Sync will resume momentarily"
 msgstr "Z Firefox Sync so bórze pokročuje"
 
-#: app/scripts/views/ready.js:39 app/scripts/views/ready.js:40
+#: app/scripts/views/ready.js:40
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Zapodajće nowe hesło na swojich druhich gratach Firefox, zo byšće zarjadowanje dokónčił."
 
-#: app/scripts/views/ready.js:44 app/scripts/views/ready.js:45
+#: app/scripts/views/ready.js:45
 msgid "Sign-in confirmed"
 msgstr "Přizjewjenje je so wobkrućiło"
 
-#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 app/scripts/templates/ready.mustache:3 app/scripts/views/ready.js:46 app/scripts/views/ready.js:51
+#: app/scripts/views/ready.js:46 app/scripts/views/ready.js:51 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Móžeće nětko %(serviceName)s wužiwać"
 
-#: app/scripts/views/ready.js:49 app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:50
 msgid "Account verified"
 msgstr "Konto je wobkrućene"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:167 app/scripts/views/sign_in.js:169
+#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Njeznate konto. <a href=\"/signup\">Registrować</a>"
 
-#: app/scripts/views/sign_in.js:164 app/scripts/views/sign_in.js:166
+#: app/scripts/views/sign_in.js:174
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Njeznate konto Firefox. <a href=\"/signup\">Registrujće so</a> z e-mejlowej adresu swojeho předchadneho přidatkoweho konta, zo byšće přistup na swoje přidatkowe daty měł."
 
-#: app/scripts/views/sign_up.js:62
+#: app/scripts/views/sign_up.js:63
 msgid "Account no longer exists. Recreate it?"
 msgstr "Konto hižo njeeksistuje. Znowa załožić?"
 
-#: app/scripts/views/sign_up.js:370 app/scripts/views/sign_up.js:369 app/scripts/views/sign_up.js:380 app/scripts/views/sign_up.js:381
+#: app/scripts/views/sign_up.js:383
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Konto hižo eksistuje. <a href=\"/signin\">Přizjewić</a>"
+
+#: app/scripts/views/sms_sent.js:24
+msgid "App link resent to %(phoneNumber)s"
+msgstr "Wotkaz k nałoženju na čisło %(phoneNumber)s wróćo pósłał"
 
 #: app/scripts/views/settings/avatar_gravatar.js:93
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "K dispoziciji stajeny wot <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
-#: app/scripts/views/settings/change_password.js:52 app/scripts/views/settings/change_password.js:53
+#: app/scripts/views/settings/change_password.js:52
 msgid "Password changed successfully"
 msgstr "Hesło je so wuspěšnje změniło"
 
@@ -101,7 +103,15 @@ msgstr "Je nam žel to słyšeć. Wy měł hesło swojeho konta Firefox změnić
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Je nam žel to słyšeć. Jeli to bě grat, kotremuž woprawdźe njedowěrjeće, wy měł hesło swojeho konta Firefox a hesła, kotrež su w Fiefox składowane, změnić."
 
-#: app/scripts/views/settings/clients.js:58 app/scripts/views/settings/clients.js:62 app/scripts/views/settings/clients.js:68
+#: app/scripts/views/settings/clients.js:63
+msgid "Web Session, %(userAgent)s"
+msgstr "Webposedźenje, %(userAgent)s"
+
+#: app/scripts/views/settings/clients.js:65
+msgid "%(translatedTimeAgo)s"
+msgstr "%(translatedTimeAgo)s"
+
+#: app/scripts/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s"
 msgstr "Posledni raz aktiwny: %(translatedTimeAgo)s"
 
@@ -149,27 +159,11 @@ msgstr "Outlook wočinić"
 msgid "Open Restmail"
 msgstr "Restmail wočinić"
 
-#: app/scripts/views/mixins/password-prompt-mixin.js:20
-msgid "8 characters minimum, but longer if you plan to sync passwords."
-msgstr "Znjajmjeńša 8 znamješkow, ale wjace, jeli chceće hesła synchronizować."
-
-#: app/scripts/views/mixins/password-prompt-mixin.js:21 app/scripts/templates/sign_up.mustache:17
-msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr "Mócne jónkróćne hesło budźe waš Firefox před zadobywarjemi škitać."
-
-#: app/scripts/views/mixins/password-prompt-mixin.js:22
-msgid "This is a common password; please consider another one."
-msgstr "To je huste hesło: Prošu wubjerće druhe."
-
-#: app/scripts/views/mixins/resend-mixin.js:45 app/scripts/views/mixins/resend-mixin.js:40
+#: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "E-mejlka je so znowa pósłała"
 
-#: app/scripts/views/mixins/signed-out-notification-mixin.js:38
-msgid "Signed out successfully"
-msgstr "Wuspěšnje wotzjewjeny"
-
-#: app/scripts/models/reliers/sync.js:50 app/scripts/models/reliers/sync.js:51
+#: app/scripts/models/reliers/sync.js:50
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
@@ -215,8 +209,8 @@ msgid "Incorrect email case"
 msgstr "Njekorektna e-mejlowa adresa"
 
 #: app/scripts/lib/auth-errors.js:59
-msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
-msgstr "Wopačne hesło. Zo by dwójce přepruwował, štož sće zapodał, klikńće na a dźeržće tłóčatko Pokazać."
+msgid "Incorrect password"
+msgstr "Njekorektne hesło"
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
@@ -254,147 +248,173 @@ msgstr "Naprašowanske ćěleso je předołhe"
 msgid "The request was blocked for security reasons"
 msgstr "Naprašowanje je so z přičinow wěstoty zablokowało"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:335
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347
 msgid "Invalid authorization code"
 msgstr "Njepłaćiwy awtorizowanski kod"
 
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/auth-errors.js:298 app/scripts/lib/auth-errors.js:138 app/scripts/lib/auth-errors.js:315
+#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
+msgid "Invalid phone number"
+msgstr "Njepłaćiwe telefonowe čisło"
+
+#: app/scripts/lib/auth-errors.js:125
+msgid "Cannot send to this country"
+msgstr "Njeje móžno do tutoho kraja pósłać"
+
+#: app/scripts/lib/auth-errors.js:134
+msgid "Could not send a message to this number"
+msgstr "Powěsć njeda na tute čisło pósłać"
+
+#: app/scripts/lib/auth-errors.js:138
+msgid "Your email was just returned"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:142
+msgid "Your email was just returned. Mistyped email?"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:146
+msgid "Unable to deliver email"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327
 msgid "Server busy, try again soon"
 msgstr "Serwer je přećeženy, spytajće za krótki čas hišće raz"
 
-#: app/scripts/lib/auth-errors.js:125 app/scripts/lib/auth-errors.js:142
+#: app/scripts/lib/auth-errors.js:154
 msgid "This endpoint is no longer supported"
 msgstr "Tutón kónčny dypk so hižo njepodpěruje"
 
-#: app/scripts/lib/auth-errors.js:129 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
-#: app/scripts/lib/auth-errors.js:146
+#: app/scripts/lib/auth-errors.js:158 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "System k dispoziciji njesteji, spytajće za krótki čas hišće raz"
 
-#: app/scripts/lib/auth-errors.js:133 app/scripts/lib/oauth-errors.js:104 app/scripts/lib/auth-errors.js:150
-msgid "no message"
-msgstr "žana powěsć"
+#: app/scripts/lib/auth-errors.js:162
+msgid "Login attempt cancelled"
+msgstr "Přizjewjenski pospyt přetorhnjeny"
 
-#: app/scripts/lib/auth-errors.js:137 app/scripts/lib/auth-errors.js:154
+#: app/scripts/lib/auth-errors.js:166
 msgid "Session expired. Sign in to continue."
 msgstr "Posedźenje jo wotběžało. Přizjewće so, zo byšće pokročował."
 
-#: app/scripts/lib/auth-errors.js:141 app/scripts/lib/auth-errors.js:158
+#: app/scripts/lib/auth-errors.js:170
 msgid "Cookies are still disabled"
 msgstr "Placki su hišće znjemóžnjene"
 
-#: app/scripts/lib/auth-errors.js:145 app/scripts/lib/auth-errors.js:162
+#: app/scripts/lib/auth-errors.js:174
 msgid "Passwords do not match"
 msgstr "Hesle jenakej njejstej"
 
-#: app/scripts/lib/auth-errors.js:149 app/scripts/lib/auth-errors.js:166
+#: app/scripts/lib/auth-errors.js:178
 msgid "Working…"
 msgstr "Je hišće w dźěle…"
 
-#: app/scripts/lib/auth-errors.js:153 app/scripts/lib/auth-errors.js:170
+#: app/scripts/lib/auth-errors.js:182
 msgid "Could not get Privacy Notice"
 msgstr "Zdźělenka priwatnosće njeje so namakała"
 
-#: app/scripts/lib/auth-errors.js:157 app/scripts/lib/auth-errors.js:174
+#: app/scripts/lib/auth-errors.js:186
 msgid "Could not get Terms of Service"
 msgstr "Wužiwanske wuměnjenja njejsu so namakali"
 
-#: app/scripts/lib/auth-errors.js:161 app/scripts/lib/auth-errors.js:178
+#: app/scripts/lib/auth-errors.js:190
 msgid "Your new password must be different"
 msgstr "Waše nowe hesło dyrbi druhe być"
 
-#: app/scripts/lib/auth-errors.js:165 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7 app/scripts/lib/auth-errors.js:182
+#: app/scripts/lib/auth-errors.js:194 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "Dyrbi znajmjeńša 8 znamješkow dołhe być"
 
-#: app/scripts/lib/auth-errors.js:169 app/scripts/lib/auth-errors.js:186
+#: app/scripts/lib/auth-errors.js:198
 msgid "Valid password required"
 msgstr "Płaćiwe hesło trěbne"
 
-#: app/scripts/lib/auth-errors.js:173 app/scripts/lib/auth-errors.js:211 app/scripts/lib/auth-errors.js:227 app/scripts/lib/auth-errors.js:190 app/scripts/lib/auth-errors.js:228
-#: app/scripts/lib/auth-errors.js:244
+#: app/scripts/lib/auth-errors.js:202 app/scripts/lib/auth-errors.js:240 app/scripts/lib/auth-errors.js:256
 msgid "Valid email required"
 msgstr "Płaćiwa e-mejlowa adresa trěbna"
 
-#: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:201
+#: app/scripts/lib/auth-errors.js:213
 msgid "A usable image was not found"
 msgstr "Wužiwajomny wobraz njeje so namakał"
 
-#: app/scripts/lib/auth-errors.js:188 app/scripts/lib/auth-errors.js:205
+#: app/scripts/lib/auth-errors.js:217
 msgid "Could not initialize camera"
 msgstr "Kamera njeda so inicializować"
 
-#: app/scripts/lib/auth-errors.js:192 app/scripts/lib/auth-errors.js:209
+#: app/scripts/lib/auth-errors.js:221
 msgid "Valid URL required"
 msgstr "Płaćiwy URL trěbny"
 
-#: app/scripts/lib/auth-errors.js:207 app/scripts/lib/auth-errors.js:224
+#: app/scripts/lib/auth-errors.js:236
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Waša wobkrućenska e-mejl je so runje wróćiła. Je e-mejlowa adresa wopak?"
 
-#: app/scripts/lib/auth-errors.js:215 app/scripts/lib/auth-errors.js:232
+#: app/scripts/lib/auth-errors.js:244
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Zapodajće płaćiwu e-mejlowu adresu. firefox.com e-mejlowe adresy njeposkića."
 
-#: app/scripts/lib/auth-errors.js:223 app/scripts/lib/auth-errors.js:240
+#: app/scripts/lib/auth-errors.js:252
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox Accounts da so jenož na schwalenych sydłach do IFRAME stajić"
 
-#: app/scripts/lib/auth-errors.js:242 app/scripts/templates/complete_sign_up.mustache:9 app/scripts/lib/auth-errors.js:259
+#: app/scripts/lib/auth-errors.js:271 app/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
 msgstr "Wobkrućenski wotkaz wobškodźeny"
 
-#: app/scripts/lib/auth-errors.js:250 app/scripts/lib/auth-errors.js:267
+#: app/scripts/lib/auth-errors.js:279
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Wotměraj wobraza dyrbitej znajmjeńša 100x100px być"
 
-#: app/scripts/lib/auth-errors.js:254 app/scripts/lib/auth-errors.js:271
+#: app/scripts/lib/auth-errors.js:283
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Bórze registrowanje za Firefox za iOS přińdźe"
 
-#: app/scripts/lib/auth-errors.js:265 app/scripts/lib/auth-errors.js:282
+#: app/scripts/lib/auth-errors.js:294
 msgid "You must enter your age to sign up"
 msgstr "Dyrbiće swoju starobu zapodać, zo byšće so registrował"
 
-#: app/scripts/lib/auth-errors.js:269 app/scripts/lib/auth-errors.js:286
+#: app/scripts/lib/auth-errors.js:298
 msgid "No Gravatar found"
 msgstr "Žadyn gravatar namakany"
 
-#: app/scripts/lib/auth-errors.js:277 app/scripts/lib/auth-errors.js:294
+#: app/scripts/lib/auth-errors.js:306
 msgid "Account no longer exists."
 msgstr "Konto hižo njeeksistuje."
 
-#: app/scripts/lib/auth-errors.js:281 app/scripts/lib/auth-errors.js:298
+#: app/scripts/lib/auth-errors.js:310
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Njepłaćiwa kajkosć w pokročowanskim tokenje: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:285 app/scripts/lib/auth-errors.js:302
+#: app/scripts/lib/auth-errors.js:314
 msgid "Missing property in resume token: %(property)s"
 msgstr "Falowaca kajkosć w pokročowanskim tokenje: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:289 app/scripts/lib/auth-errors.js:306
+#: app/scripts/lib/auth-errors.js:318
 msgid "Invalid data attribute: %(property)s"
 msgstr "Njepłaćiwy datowy atribut: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:293 app/scripts/lib/auth-errors.js:310
+#: app/scripts/lib/auth-errors.js:322
 msgid "Missing data attribute: %(property)s"
 msgstr "Falowacy datowy atribut: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:306 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/lib/auth-errors.js:323
+#: app/scripts/lib/auth-errors.js:335 app/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Tutón wobkrućenski wotkaz je so hižo wužił a da so jenož jónkróć wužiwać."
 
-#: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:327
+#: app/scripts/lib/auth-errors.js:339
 msgid "This is a required field"
 msgstr "To je trěbne polo"
 
-#: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:331
+#: app/scripts/lib/auth-errors.js:343
 msgid "Authorization code required"
 msgstr "Awtorizowanski kod trěbny"
 
-#: app/scripts/lib/auth-errors.js:322 app/scripts/templates/report_sign_in.mustache:1 app/scripts/lib/auth-errors.js:339
+#: app/scripts/lib/auth-errors.js:351 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Wotkaz je wobškodźeny"
+
+#: app/scripts/lib/auth-errors.js:374
+msgid "Phone number required"
+msgstr "Telefonowe čisło trěbne"
 
 #: app/scripts/lib/config-loader.js:87
 msgid "Missing configuration"
@@ -404,9 +424,13 @@ msgstr "Falowaca konfiguracija"
 msgid "Invalid configuration"
 msgstr "Njepłaćiwa konfiguracija"
 
-#: app/scripts/lib/mailcheck.js:26 app/scripts/lib/mailcheck.js:25
+#: app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
 msgstr "Měnišće <span tabindex=\"1\">%(escapedDomain)s</span>?"
+
+#: app/scripts/lib/marketing-email-errors.js:41
+msgid "Please try again later"
+msgstr "Prošu spytajće pozdźišo hišće raz"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -448,6 +472,10 @@ msgstr "Zakazany"
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Něšto je so nimokuliło. Prošu začińće tutón rajtark a spytajće hišće raz."
 
+#: app/scripts/lib/oauth-errors.js:104
+msgid "no message"
+msgstr "žana powěsć"
+
 #: app/scripts/lib/oauth-errors.js:108
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Falowacy OAuth-parameter: %(param)s"
@@ -480,6 +508,18 @@ msgstr "Njewočakowany resursowy zmylk"
 msgid "Script error"
 msgstr "Skriptowy zmylk"
 
+#: app/scripts/lib/sms-errors.js:23
+msgid "SMS sent"
+msgstr "SMS pósłany"
+
+#: app/scripts/lib/sms-errors.js:55
+msgid "Your number has been blocked"
+msgstr "Waše čisło je so zablokowało"
+
+#: app/scripts/lib/sms-errors.js:79
+msgid "SMS not sent, please try again"
+msgstr "SMS njeje so pósłał, prošu spytajće hišće raz"
+
 #: app/scripts/lib/strings.js:22
 msgid ""
 "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
@@ -511,6 +551,14 @@ msgstr "IP-adresa: %(ip)s"
 #: app/scripts/lib/strings.js:40
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Prošu wobkrućće přizjewjenje za přidatnu wěstotu, zo byšće z tutym gratom synchronizował:"
+
+#: app/scripts/lib/strings.js:43
+msgid "Web Session"
+msgstr "Webposedźenje"
+
+#: app/scripts/lib/strings.js:49
+msgid "Sign in"
+msgstr "Přizjewić"
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
@@ -689,8 +737,7 @@ msgstr "Tutón grat je zwjazany"
 msgid "Email verified"
 msgstr "E-mejl je so wobkrućiła"
 
-#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:2
-#: app/scripts/templates/sms_sent.mustache:3
+#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:3
 msgid "Success"
 msgstr "Wuspěch"
 
@@ -702,24 +749,23 @@ msgstr "Přizjewće so pola tutoho Firefox, zo byšće zarjadowanje dokónčił"
 msgid "Sign in &rarr;"
 msgstr "Přizjewić &rarr;"
 
-#: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:13
-msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr "Wočińće nastajenja a wubjerće Přizjewić pola Firefox, zo byšće zarjadowanje dokónčił"
-
-#: app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:17
-msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr "Přizjewće so pola Firefox za iOS, zo byšće zarjadowanje dokónčił"
-
-#: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:17 app/scripts/templates/connect_another_device.mustache:9
-#: app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
+#: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Přizjewće so pola Firefox, na druhim graće zo byšće zarjadowanje dokónčił"
+
+#: app/scripts/templates/connect_another_device.mustache:13
+msgid "Open settings and select Sign in to Firefox to complete set-up"
+msgstr "Wočińće nastajenja a wubjerće Přizjewić pola Firefox, zo byšće zarjadowanje dokónčił"
 
 #: app/scripts/templates/connect_another_device.mustache:15
 msgid "Sign in to Firefox for Android to complete set-up"
 msgstr "Přizjewće so pola Firefox za Android, zo byšće zarjadowanje dokónčił"
 
-#: app/scripts/templates/connect_another_device.mustache:19 app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
+#: app/scripts/templates/connect_another_device.mustache:17
+msgid "Sign in to Firefox for iOS to complete set-up"
+msgstr "Přizjewće so pola Firefox za iOS, zo byšće zarjadowanje dokónčił"
+
+#: app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
 msgid "Why is this required?"
 msgstr "Čehodla je to trěbne?"
 
@@ -743,21 +789,16 @@ msgstr "Spytajće hišće raz"
 msgid "Sign in to continue"
 msgstr "Přizjewće so, zo byšće pokročował"
 
-#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_up.mustache:15
 #: app/scripts/templates/settings/change_password.mustache:1 app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Hesło"
 
-#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in.mustache:4 app/scripts/templates/sign_in.mustache:11
-#: app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_in.mustache:22
-msgid "Sign in"
-msgstr "Přizjewić"
-
-#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:12 app/scripts/templates/sign_in.mustache:23 app/scripts/templates/settings/change_password.mustache:5
+#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:18 app/scripts/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "Sće hesło zabył?"
 
-#: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:25 app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
 "Přez to, zo pokročujeće, zwoliće do <a id=\"fxa-tos\" href=\"/legal/terms\">wužiwanskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">prawidłow priwatnosće</a> mróčelowych słužbow "
@@ -771,11 +812,11 @@ msgstr "Mróčelowe słužby Firefox"
 msgid "Legal"
 msgstr "Prawniske wěcy"
 
-#: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:5 app/scripts/templates/tos.mustache:2 app/scripts/templates/settings.mustache:4
+#: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:4 app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "Wužiwanske wuměnjenja"
 
-#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:6 app/scripts/templates/settings.mustache:5
+#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:5
 msgid "Privacy Notice"
 msgstr "Zdźělenka priwatnosće"
 
@@ -812,15 +853,11 @@ msgstr "Akceptować"
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9
 #: app/scripts/templates/settings/communication_preferences.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6
-#: app/scripts/templates/settings/display_name.mustache:6 app/scripts/templates/settings/gravatar_permissions.mustache:5 app/scripts/templates/settings/display_name.mustache:8
+#: app/scripts/templates/settings/display_name.mustache:8 app/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
 msgstr "Přetorhnyć"
 
-#: app/scripts/templates/ready.mustache:4
-msgid "Proceed"
-msgstr "Pokročować"
-
-#: app/scripts/templates/ready.mustache:7
+#: app/scripts/templates/ready.mustache:5
 msgid "Your account is ready!"
 msgstr "Waše konto je hotowe!"
 
@@ -844,7 +881,7 @@ msgstr "Čehodla so to stawa?"
 msgid "Reset account"
 msgstr "Konto wróćo stajić"
 
-#: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
+#: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Dale k %(serviceName)s"
 
@@ -852,7 +889,7 @@ msgstr "Dale k %(serviceName)s"
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "Hdyž swoje hesło wróćo stajeće, zhubiće synchronizowańske daty, kotrež na jednym ze swojich gratow njejsu."
 
-#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
+#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "E-mejlowa adresa"
 
@@ -872,19 +909,19 @@ msgstr "Konta Firefox"
 msgid "Sign out"
 msgstr "Wotzjewić"
 
-#: app/scripts/templates/sign_in.mustache:6
+#: app/scripts/templates/sign_in.mustache:4
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
 msgstr "Pytaće za swojimi přidatkowymi datami? <a href=\"/signup\">Registrujće so</a> za konto Firefox z e-mejlowej adresu swojeho stareho přidatkoweho konta."
 
-#: app/scripts/templates/sign_in.mustache:8
+#: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr "Přenošujće swoje synchronizaciske daty přizjewjejo so pola swojeho konta&nbsp;Firefox."
 
-#: app/scripts/templates/sign_in.mustache:13 app/scripts/templates/sign_in.mustache:16
+#: app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:12
 msgid "Use a different account"
 msgstr "Wužiwajće druhe konto"
 
-#: app/scripts/templates/sign_in.mustache:24
+#: app/scripts/templates/sign_in.mustache:19
 msgid "Create an account"
 msgstr "Konto załožić"
 
@@ -928,9 +965,13 @@ msgstr "Přenošujće swoje synchronizaciske daty wutworjejo nowe konto &nbsp;Fi
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr "Pytaće za swojimi přidatkowymi datami? Registrujće so za konto Firefox z e-mejlowej adresu swojeho stareho přidatkoweho konta."
 
-#: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/settings/communication_preferences.mustache:7
-msgid "Receive the monthly Firefox newsletter."
-msgstr "Dóstańće měsačny powěsćowy list Firefox."
+#: app/scripts/templates/sign_up.mustache:17
+msgid "A strong, unique password will keep your Firefox data safe from intruders."
+msgstr "Mócne jónkróćne hesło budźe waš Firefox před zadobywarjemi škitać."
+
+#: app/scripts/templates/sign_up.mustache:19
+msgid "Receive the monthly Firefox newsletter"
+msgstr "Abonujće měsačny powěsćowy list Firefox"
 
 #: app/scripts/templates/sign_up.mustache:21
 msgid "Create account"
@@ -939,6 +980,49 @@ msgstr "Konto załožić"
 #: app/scripts/templates/sign_up.mustache:26
 msgid "Have an account? Sign in"
 msgstr "Maće konto? Přizjewće so"
+
+#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
+msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+msgstr "Pósćelće Firefox direktnje na waš smartfon a přizjew so, zo byšće instalaciju dokónčił"
+
+#: app/scripts/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
+msgstr "Tutón Firefox je zwjazany"
+
+#: app/scripts/templates/sms_send.mustache:5
+msgid "Mobile phone number"
+msgstr "Čisło mobilneho telefona"
+
+#: app/scripts/templates/sms_send.mustache:6
+msgid "Send"
+msgstr "Pósłać"
+
+#: app/scripts/templates/sms_send.mustache:7
+msgid ""
+"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+msgstr ""
+"SMS-słužba je jenož US-ameriske telefonowe čisła k dispoziciji. Móža kóšty za SMS a daty nastać. Přijimar e-mejlki abo SMS dyrbi přezjedny być. <a %(escapedLearnMoreAttributes)s>Dalše informacije</"
+"a>"
+
+#: app/scripts/templates/sms_send.mustache:9
+msgid "Maybe later"
+msgstr "Snano pozdźišo"
+
+#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
+msgid "Install Firefox on your smartphone and sign in to complete set-up"
+msgstr "Instalujće Firefox na swojim smartfonje a přizjewće so, zo byšće konfiguraciju dokónčił"
+
+#: app/scripts/templates/sms_sent.mustache:2
+msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+msgstr "Wotkaz k nałoženju na %(escapedPhoneNumber)s pósłany. <a %(escapedBackLinkAttrs)s>Sće wopačne čisło zapodał?</a>"
+
+#: app/scripts/templates/sms_sent.mustache:5
+msgid "If you are not receiving the text message, you can also download the apps manually."
+msgstr "Jeli tekstowu zdźělenku njedóstanjeće, móžeće tež nałoženja manuelnje sćahnyć."
+
+#: app/scripts/templates/sms_sent.mustache:6
+msgid "Didn't arrive? Resend"
+msgstr "Njeje dóšło? Znowa słać"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
@@ -993,7 +1077,7 @@ msgstr "Gravatar"
 msgid "Clear"
 msgstr "Zhašeć"
 
-#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:26
+#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:26
 msgid "Done"
 msgstr "Hotowo"
 
@@ -1001,8 +1085,7 @@ msgstr "Hotowo"
 msgid "Position and rotate your picture as needed"
 msgstr "Zaměstńće a wjerćće swój wobraz po swojim dobrozdaću"
 
-#: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:5
-#: app/scripts/templates/settings/display_name.mustache:7
+#: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:7
 msgid "Change"
 msgstr "Změnić"
 
@@ -1039,15 +1122,14 @@ msgid "Old or replaced device"
 msgstr "Stary abo wuměnjeny grat"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
-msgid "Duplicate Device"
+msgid "Duplicate device"
 msgstr "Dwójny grat"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
 msgstr "Bjez podaća"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:9 app/scripts/templates/settings/clients.mustache:11
-#: app/scripts/templates/settings/clients.mustache:14
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:14
 msgid "Disconnect"
 msgstr "Zwisk dźělić"
 
@@ -1071,35 +1153,41 @@ msgstr "aktualny grat"
 msgid "Disconnect…"
 msgstr "Dźělić…"
 
-#: app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:17
+#: app/scripts/templates/settings/clients.mustache:9
+msgid "current session"
+msgstr "aktualne posedźenje"
+
+#: app/scripts/templates/settings/clients.mustache:17
 msgid "Firefox for iOS"
 msgstr "Firefox za iOS"
 
-#: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15 app/scripts/templates/settings/clients.mustache:18
-#: app/scripts/templates/settings/clients.mustache:21
+#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21
 msgid "none connected"
 msgstr "njezwjazany"
 
-#: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16 app/scripts/templates/settings/clients.mustache:19
-#: app/scripts/templates/settings/clients.mustache:22
+#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22
 msgid "Download"
 msgstr "Sćahnyć"
 
-#: app/scripts/templates/settings/clients.mustache:14 app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/clients.mustache:20
 msgid "Firefox for Android"
 msgstr "Firefox za Android"
 
-#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:24
+#: app/scripts/templates/settings/clients.mustache:24
 msgid "Missing or duplicate items?"
 msgstr "Falowace abo dwójne elementy?"
 
-#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:25
+#: app/scripts/templates/settings/clients.mustache:25
 msgid "Refresh"
 msgstr "Aktualizować"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
 msgstr "Komunikaciske nastajenja"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:7
+msgid "Receive the monthly Firefox newsletter."
+msgstr "Dóstańće měsačny powěsćowy list Firefox."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
@@ -1125,7 +1213,7 @@ msgstr "Zhašeć…"
 msgid "Are you sure you want to delete your account? This action cannot be undone."
 msgstr "Chceće woprawdźe swoje konto zhašeć? Tuta akcija njeda so anulować."
 
-#: app/scripts/templates/settings/display_name.mustache:3 app/scripts/templates/settings/display_name.mustache:5
+#: app/scripts/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Wubjerće mjeno, kotrež ma so w Firefox jewić a hdyž swoje konto rjadujeće."
 
@@ -1149,120 +1237,38 @@ msgstr "OpenID wužiwać"
 msgid "Use Firefox Account"
 msgstr "Konto Firefox wužiwać"
 
-#: app/scripts/lib/strings.js:43
-msgid "Web Session"
-msgstr "Webposedźenje"
-
-#: app/scripts/templates/settings/client_disconnect.mustache:6
-msgid "Duplicate device"
-msgstr "Dwójny grat"
-
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
-msgid "Invalid phone number"
-msgstr "Njepłaćiwe telefonowe čisło"
-
-#: app/scripts/lib/auth-errors.js:125
-msgid "Cannot send to this country"
-msgstr "Njeje móžno do tutoho kraja pósłać"
-
-#: app/scripts/lib/auth-errors.js:134
-msgid "Could not send a message to this number"
-msgstr "Powěsć njeda na tute čisło pósłać"
-
-#: app/scripts/lib/auth-errors.js:362
-msgid "Phone number required"
-msgstr "Telefonowe čisło trěbne"
-
-#: app/scripts/lib/sms-errors.js:23
-msgid "SMS sent"
-msgstr "SMS pósłany"
-
-#: app/scripts/lib/sms-errors.js:55
-msgid "Your number has been blocked"
-msgstr "Waše čisło je so zablokowało"
-
-#: app/scripts/lib/sms-errors.js:79
-msgid "SMS not sent, please try again"
-msgstr "SMS njeje so pósłał, prošu spytajće hišće raz"
-
-#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
-msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr "Pósćelće Firefox direktnje na waš smartfon a přizjew so, zo byšće instalaciju dokónčił"
-
-#: app/scripts/templates/sms_send.mustache:2
-msgid "This Firefox is connected"
-msgstr "Tutón Firefox je zwjazany"
-
-#: app/scripts/templates/sms_send.mustache:5
-msgid "Mobile phone number"
-msgstr "Čisło mobilneho telefona"
-
-#: app/scripts/templates/sms_send.mustache:6
-msgid "Send"
-msgstr "Pósłać"
-
-#: app/scripts/templates/sms_send.mustache:7
-msgid ""
-"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#. submit button
+#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:90
+msgctxt "submit button"
+msgid "Sign in"
 msgstr ""
-"SMS-słužba je jenož US-ameriske telefonowe čisła k dispoziciji. Móža kóšty za SMS a daty nastać. Přijimar e-mejlki abo SMS dyrbi přezjedny być. <a %(escapedLearnMoreAttributes)s>Dalše informacije</"
-"a>"
 
-#: app/scripts/templates/sms_send.mustache:9
-msgid "Maybe later"
-msgstr "Snano pozdźišo"
+#. header text
+#: app/scripts/views/sign_in.js:93
+msgctxt "header text"
+msgid "Sign in"
+msgstr ""
 
-#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
-msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
-msgstr "Instalujće Firefox z pomocu wotkaza, kotryž so na %(phoneNumber)s sćele, zo byšće konfiguraciju dokónčił"
+#~ msgid "8 characters minimum, but longer if you plan to sync passwords."
+#~ msgstr "Znjajmjeńša 8 znamješkow, ale wjace, jeli chceće hesła synchronizować."
 
-#: app/scripts/templates/sms_sent.mustache:4 app/scripts/templates/sms_sent.mustache:5
-msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr "Jeli tekstowu zdźělenku njedóstanjeće, móžeće tež nałoženja manuelnje sćahnyć."
+#~ msgid "This is a common password; please consider another one."
+#~ msgstr "To je huste hesło: Prošu wubjerće druhe."
 
-#: app/scripts/views/sms_sent.js:24
-msgid "App link resent to %(phoneNumber)s"
-msgstr "Wotkaz k nałoženju na čisło %(phoneNumber)s wróćo pósłał"
+#~ msgid "Signed out successfully"
+#~ msgstr "Wuspěšnje wotzjewjeny"
 
-#: app/scripts/views/settings/clients.js:63
-msgid "Web Session, %(userAgent)s"
-msgstr "Webposedźenje, %(userAgent)s"
+#~ msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
+#~ msgstr "Wopačne hesło. Zo by dwójce přepruwował, štož sće zapodał, klikńće na a dźeržće tłóčatko Pokazać."
 
-#: app/scripts/views/settings/clients.js:65
-msgid "%(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s"
+#~ msgid "Proceed"
+#~ msgstr "Pokročować"
 
-#: app/scripts/lib/auth-errors.js:59
-msgid "Incorrect password"
-msgstr "Njekorektne hesło"
+#~ msgid "Duplicate Device"
+#~ msgstr "Dwójny grat"
 
-#: app/scripts/lib/auth-errors.js:150
-msgid "Login attempt cancelled"
-msgstr "Přizjewjenski pospyt přetorhnjeny"
-
-#: app/scripts/lib/marketing-email-errors.js:41
-msgid "Please try again later"
-msgstr "Prošu spytajće pozdźišo hišće raz"
-
-#: app/scripts/templates/sign_up.mustache:19
-msgid "Receive the monthly Firefox newsletter"
-msgstr "Abonujće měsačny powěsćowy list Firefox"
-
-#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
-msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr "Instalujće Firefox na swojim smartfonje a přizjewće so, zo byšće konfiguraciju dokónčił"
-
-#: app/scripts/templates/sms_sent.mustache:2
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr "Wotkaz k nałoženju na %(escapedPhoneNumber)s pósłany. <a %(escapedBackLinkAttrs)s>Sće wopačne čisło zapodał?</a>"
-
-#: app/scripts/templates/sms_sent.mustache:6
-msgid "Didn't arrive? Resend"
-msgstr "Njeje dóšło? Znowa słać"
-
-#: app/scripts/templates/settings/clients.mustache:9
-msgid "current session"
-msgstr "aktualne posedźenje"
+#~ msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
+#~ msgstr "Instalujće Firefox z pomocu wotkaza, kotryž so na %(phoneNumber)s sćele, zo byšće konfiguraciju dokónčił"
 
 #~ msgid "Didn’t arrive? Resend"
 #~ msgstr "Njeje dóšło? Znowa słać"

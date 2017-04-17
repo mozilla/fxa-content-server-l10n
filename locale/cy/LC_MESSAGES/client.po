@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-06 00:05+0000\n"
+"POT-Creation-Date: 2017-04-17 16:35+0000\n"
 "PO-Revision-Date: 2016-08-10 15:52+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,16 +15,15 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1432911472.0\n"
 
-#: app/scripts/views/complete_reset_password.js:133 app/scripts/views/complete_sign_up.js:175 app/scripts/views/confirm.js:129 app/scripts/views/confirm_reset_password.js:176
-#: app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170 app/scripts/views/complete_sign_up.js:184 app/scripts/views/complete_sign_up.js:186
+#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:186 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
 msgid "Account verified successfully"
 msgstr "Dilyswyd y cyfrif yn llwyddiannus"
 
-#: app/scripts/views/confirm_reset_password.js:166 app/scripts/views/ready.js:38 app/scripts/views/ready.js:39 app/scripts/views/confirm_reset_password.js:160
+#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:39
 msgid "Password reset"
 msgstr "Ailosod cyfrinair"
 
-#: app/scripts/views/confirm_reset_password.js:194 app/scripts/views/confirm_reset_password.js:188
+#: app/scripts/views/confirm_reset_password.js:188
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Ailosodwyd y cyfrinair yn llwyddiannus. Mewngofnodwch i barhau."
 
@@ -36,8 +35,7 @@ msgstr "(Mae angen) %(permissionName)s"
 msgid "Email address"
 msgstr "Cyfeiriad e-bost"
 
-#: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:4
-#: app/scripts/templates/settings/display_name.mustache:6
+#: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:6
 msgid "Display name"
 msgstr "Enw dangos"
 
@@ -45,51 +43,55 @@ msgstr "Enw dangos"
 msgid "Account picture"
 msgstr "Llun cyfrif"
 
-#: app/scripts/views/ready.js:33 app/scripts/views/ready.js:34
+#: app/scripts/views/ready.js:34
 msgid "Welcome back"
 msgstr "Croeso nôl"
 
-#: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35
+#: app/scripts/views/ready.js:35
 msgid "Firefox Sync will resume momentarily"
 msgstr "Bydd Firefox Sync yn cychwyn cyn bo hir"
 
-#: app/scripts/views/ready.js:39 app/scripts/views/ready.js:40
+#: app/scripts/views/ready.js:40
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr ""
 
-#: app/scripts/views/ready.js:44 app/scripts/views/ready.js:45
+#: app/scripts/views/ready.js:45
 msgid "Sign-in confirmed"
 msgstr "Mewngofnodi wedi ei gadarnhau"
 
-#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50 app/scripts/templates/ready.mustache:3 app/scripts/views/ready.js:46 app/scripts/views/ready.js:51
+#: app/scripts/views/ready.js:46 app/scripts/views/ready.js:51 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Rydych nawr yn barod i ddefnyddio %(serviceName)s"
 
-#: app/scripts/views/ready.js:49 app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:50
 msgid "Account verified"
 msgstr "Cyfrif wedi ei ddilysu"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:167 app/scripts/views/sign_in.js:169
+#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Cyfrif anhysbys. <a href=\"/signup\">Ymunwch</a>"
 
-#: app/scripts/views/sign_in.js:164 app/scripts/views/sign_in.js:166
+#: app/scripts/views/sign_in.js:174
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr ""
 
-#: app/scripts/views/sign_up.js:62
+#: app/scripts/views/sign_up.js:63
 msgid "Account no longer exists. Recreate it?"
 msgstr "Nid yw'r cyfrif yn bodoli bellach. Ei ail-greu?"
 
-#: app/scripts/views/sign_up.js:370 app/scripts/views/sign_up.js:369 app/scripts/views/sign_up.js:380 app/scripts/views/sign_up.js:381
+#: app/scripts/views/sign_up.js:383
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Mae cyfrif yn bodoli'n barod. <a href=\"/signin\">Mewngofnodwch</a>"
+
+#: app/scripts/views/sms_sent.js:24
+msgid "App link resent to %(phoneNumber)s"
+msgstr ""
 
 #: app/scripts/views/settings/avatar_gravatar.js:93
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 msgstr "Trwy garedigrwydd <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
-#: app/scripts/views/settings/change_password.js:52 app/scripts/views/settings/change_password.js:53
+#: app/scripts/views/settings/change_password.js:52
 msgid "Password changed successfully"
 msgstr "Newidiwyd y cyfrinair yn llwyddiannus"
 
@@ -101,7 +103,15 @@ msgstr ""
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:58 app/scripts/views/settings/clients.js:62 app/scripts/views/settings/clients.js:68
+#: app/scripts/views/settings/clients.js:63
+msgid "Web Session, %(userAgent)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:65
+msgid "%(translatedTimeAgo)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s"
 msgstr ""
 
@@ -149,27 +159,11 @@ msgstr "Agor Outlook"
 msgid "Open Restmail"
 msgstr ""
 
-#: app/scripts/views/mixins/password-prompt-mixin.js:20
-msgid "8 characters minimum, but longer if you plan to sync passwords."
-msgstr "Lleiafswm o 8 nod, ond hirach os ydych am gydweddu cyfrineiriau."
-
-#: app/scripts/views/mixins/password-prompt-mixin.js:21 app/scripts/templates/sign_up.mustache:17
-msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr "Bydd cyfrinair cryf, unigryw yn cadw eich data Firefox yn ddiogel rhag drygioni."
-
-#: app/scripts/views/mixins/password-prompt-mixin.js:22
-msgid "This is a common password; please consider another one."
-msgstr "Mae hyn yn gyfrinair cyffredin, ystyriwch un arall."
-
-#: app/scripts/views/mixins/resend-mixin.js:45 app/scripts/views/mixins/resend-mixin.js:40
+#: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "Ail anfonwyd yr e-bost"
 
-#: app/scripts/views/mixins/signed-out-notification-mixin.js:38
-msgid "Signed out successfully"
-msgstr "Allgofnodwyd yn llwyddiannus"
-
-#: app/scripts/models/reliers/sync.js:50 app/scripts/models/reliers/sync.js:51
+#: app/scripts/models/reliers/sync.js:50
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
@@ -215,8 +209,8 @@ msgid "Incorrect email case"
 msgstr "Maint nodau e-bost anghywir"
 
 #: app/scripts/lib/auth-errors.js:59
-msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
-msgstr ""
+msgid "Incorrect password"
+msgstr "Cyfrinair anghywir"
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
@@ -254,146 +248,172 @@ msgstr "Corff gofyn yn rhy fawr"
 msgid "The request was blocked for security reasons"
 msgstr "Cafodd y cais ei rwystro am resymau diogelwch"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:335
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347
 msgid "Invalid authorization code"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/auth-errors.js:298 app/scripts/lib/auth-errors.js:138 app/scripts/lib/auth-errors.js:315
+#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
+msgid "Invalid phone number"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:125
+msgid "Cannot send to this country"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:134
+msgid "Could not send a message to this number"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:138
+msgid "Your email was just returned"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:142
+msgid "Your email was just returned. Mistyped email?"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:146
+msgid "Unable to deliver email"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327
 msgid "Server busy, try again soon"
 msgstr "Gweinydd yn brysur, ceisiwch eto"
 
-#: app/scripts/lib/auth-errors.js:125 app/scripts/lib/auth-errors.js:142
+#: app/scripts/lib/auth-errors.js:154
 msgid "This endpoint is no longer supported"
 msgstr "Nid yw'r pwynt diwedd yn cael ei gynnal bellach"
 
-#: app/scripts/lib/auth-errors.js:129 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
-#: app/scripts/lib/auth-errors.js:146
+#: app/scripts/lib/auth-errors.js:158 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Nid yw'r system ar gael, ceisiwch eto cyn bo hir."
 
-#: app/scripts/lib/auth-errors.js:133 app/scripts/lib/oauth-errors.js:104 app/scripts/lib/auth-errors.js:150
-msgid "no message"
-msgstr "dim neges"
+#: app/scripts/lib/auth-errors.js:162
+msgid "Login attempt cancelled"
+msgstr ""
 
-#: app/scripts/lib/auth-errors.js:137 app/scripts/lib/auth-errors.js:154
+#: app/scripts/lib/auth-errors.js:166
 msgid "Session expired. Sign in to continue."
 msgstr "Daeth y sesiwn i ben. Mewngofnodi i barhau."
 
-#: app/scripts/lib/auth-errors.js:141 app/scripts/lib/auth-errors.js:158
+#: app/scripts/lib/auth-errors.js:170
 msgid "Cookies are still disabled"
 msgstr "Mae'r cwcis wedi eu hanalluogi"
 
-#: app/scripts/lib/auth-errors.js:145 app/scripts/lib/auth-errors.js:162
+#: app/scripts/lib/auth-errors.js:174
 msgid "Passwords do not match"
 msgstr "Nid yw'r cyfrineiriau'n cydweddu"
 
-#: app/scripts/lib/auth-errors.js:149 app/scripts/lib/auth-errors.js:166
+#: app/scripts/lib/auth-errors.js:178
 msgid "Working…"
 msgstr "Gweithio…"
 
-#: app/scripts/lib/auth-errors.js:153 app/scripts/lib/auth-errors.js:170
+#: app/scripts/lib/auth-errors.js:182
 msgid "Could not get Privacy Notice"
 msgstr "Methu estyn Hysbysiad Preifatrwydd"
 
-#: app/scripts/lib/auth-errors.js:157 app/scripts/lib/auth-errors.js:174
+#: app/scripts/lib/auth-errors.js:186
 msgid "Could not get Terms of Service"
 msgstr "Methu estyn yr Amodau Gwasanaeth"
 
-#: app/scripts/lib/auth-errors.js:161 app/scripts/lib/auth-errors.js:178
+#: app/scripts/lib/auth-errors.js:190
 msgid "Your new password must be different"
 msgstr "Rhaid i gyfrinair newydd fod yn wahanol"
 
-#: app/scripts/lib/auth-errors.js:165 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7 app/scripts/lib/auth-errors.js:182
+#: app/scripts/lib/auth-errors.js:194 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "Rhaid bod o leiaf 8 nod"
 
-#: app/scripts/lib/auth-errors.js:169 app/scripts/lib/auth-errors.js:186
+#: app/scripts/lib/auth-errors.js:198
 msgid "Valid password required"
 msgstr "Rhaid darparu cyfrinair dilys"
 
-#: app/scripts/lib/auth-errors.js:173 app/scripts/lib/auth-errors.js:211 app/scripts/lib/auth-errors.js:227 app/scripts/lib/auth-errors.js:190 app/scripts/lib/auth-errors.js:228
-#: app/scripts/lib/auth-errors.js:244
+#: app/scripts/lib/auth-errors.js:202 app/scripts/lib/auth-errors.js:240 app/scripts/lib/auth-errors.js:256
 msgid "Valid email required"
 msgstr "Mae angen e-bost dilys"
 
-#: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:201
+#: app/scripts/lib/auth-errors.js:213
 msgid "A usable image was not found"
 msgstr "Nid oes delwedd ddefnyddiol wedi ei chanfod"
 
-#: app/scripts/lib/auth-errors.js:188 app/scripts/lib/auth-errors.js:205
+#: app/scripts/lib/auth-errors.js:217
 msgid "Could not initialize camera"
 msgstr "Methu cychwyn y camera"
 
-#: app/scripts/lib/auth-errors.js:192 app/scripts/lib/auth-errors.js:209
+#: app/scripts/lib/auth-errors.js:221
 msgid "Valid URL required"
 msgstr "Mae angen URL dilys"
 
-#: app/scripts/lib/auth-errors.js:207 app/scripts/lib/auth-errors.js:224
+#: app/scripts/lib/auth-errors.js:236
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Dychwelwyd eich e-bost dilysu. Camdeipio'r e-bost?"
 
-#: app/scripts/lib/auth-errors.js:215 app/scripts/lib/auth-errors.js:232
+#: app/scripts/lib/auth-errors.js:244
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Rhowch gyfeiriad e-bost dilys. Nid yw firefox.com yn cynnig e-bost."
 
-#: app/scripts/lib/auth-errors.js:223 app/scripts/lib/auth-errors.js:240
+#: app/scripts/lib/auth-errors.js:252
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Dim ond ar wefannau cymeradwy y mae modd gosod Cyfrifon Firefox mewn IFRAME"
 
-#: app/scripts/lib/auth-errors.js:242 app/scripts/templates/complete_sign_up.mustache:9 app/scripts/lib/auth-errors.js:259
+#: app/scripts/lib/auth-errors.js:271 app/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
 msgstr "Mae'r ddolen dilysu wedi ei difrodi"
 
-#: app/scripts/lib/auth-errors.js:250 app/scripts/lib/auth-errors.js:267
+#: app/scripts/lib/auth-errors.js:279
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Rhaid i ddimensiynau'r ddelwedd fod o leiaf 100x100px"
 
-#: app/scripts/lib/auth-errors.js:254 app/scripts/lib/auth-errors.js:271
+#: app/scripts/lib/auth-errors.js:283
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Bydd modd ymuno yn dod i Firefox iOS cyn bo hir"
 
-#: app/scripts/lib/auth-errors.js:265 app/scripts/lib/auth-errors.js:282
+#: app/scripts/lib/auth-errors.js:294
 msgid "You must enter your age to sign up"
 msgstr "Mae'n rhaid i chi nodi eich oed er mwyn ymuno"
 
-#: app/scripts/lib/auth-errors.js:269 app/scripts/lib/auth-errors.js:286
+#: app/scripts/lib/auth-errors.js:298
 msgid "No Gravatar found"
 msgstr "Heb ganfod Grafatar"
 
-#: app/scripts/lib/auth-errors.js:277 app/scripts/lib/auth-errors.js:294
+#: app/scripts/lib/auth-errors.js:306
 msgid "Account no longer exists."
 msgstr "Nid yw'r cyfrif yn bodoli bellach."
 
-#: app/scripts/lib/auth-errors.js:281 app/scripts/lib/auth-errors.js:298
+#: app/scripts/lib/auth-errors.js:310
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Priodwedd annilys yn y tocyn ailgychwyn: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:285 app/scripts/lib/auth-errors.js:302
+#: app/scripts/lib/auth-errors.js:314
 msgid "Missing property in resume token: %(property)s"
 msgstr "Priodwedd coll yn y tocyn ail gychwyn: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:289 app/scripts/lib/auth-errors.js:306
+#: app/scripts/lib/auth-errors.js:318
 msgid "Invalid data attribute: %(property)s"
 msgstr "Priodweddau data annilys: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:293 app/scripts/lib/auth-errors.js:310
+#: app/scripts/lib/auth-errors.js:322
 msgid "Missing data attribute: %(property)s"
 msgstr "Priodwedd data coll: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:306 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/lib/auth-errors.js:323
+#: app/scripts/lib/auth-errors.js:335 app/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:327
+#: app/scripts/lib/auth-errors.js:339
 msgid "This is a required field"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:331
+#: app/scripts/lib/auth-errors.js:343
 msgid "Authorization code required"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:322 app/scripts/templates/report_sign_in.mustache:1 app/scripts/lib/auth-errors.js:339
+#: app/scripts/lib/auth-errors.js:351 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:374
+msgid "Phone number required"
 msgstr ""
 
 #: app/scripts/lib/config-loader.js:87
@@ -404,8 +424,12 @@ msgstr ""
 msgid "Invalid configuration"
 msgstr ""
 
-#: app/scripts/lib/mailcheck.js:26 app/scripts/lib/mailcheck.js:25
+#: app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
+msgstr ""
+
+#: app/scripts/lib/marketing-email-errors.js:41
+msgid "Please try again later"
 msgstr ""
 
 #: app/scripts/lib/oauth-errors.js:26
@@ -448,6 +472,10 @@ msgstr "Gwaharddedig"
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Aeth rhywbeth o'i le. Caewch y tab hwn a cheisio eto."
 
+#: app/scripts/lib/oauth-errors.js:104
+msgid "no message"
+msgstr "dim neges"
+
 #: app/scripts/lib/oauth-errors.js:108
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Paramedr OAuth coll: %(param)s"
@@ -478,6 +506,18 @@ msgstr ""
 
 #: app/scripts/lib/require-on-demand.js:47
 msgid "Script error"
+msgstr ""
+
+#: app/scripts/lib/sms-errors.js:23
+msgid "SMS sent"
+msgstr ""
+
+#: app/scripts/lib/sms-errors.js:55
+msgid "Your number has been blocked"
+msgstr ""
+
+#: app/scripts/lib/sms-errors.js:79
+msgid "SMS not sent, please try again"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22
@@ -511,6 +551,14 @@ msgstr "Cyfeiriad IP: %(ip)s"
 #: app/scripts/lib/strings.js:40
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Er mwyn cryfhau eich diogelwch, cadarnhewch y mewngofnodi er mwyn cychwyn cydweddu gyda'r ddyfais hon:"
+
+#: app/scripts/lib/strings.js:43
+msgid "Web Session"
+msgstr ""
+
+#: app/scripts/lib/strings.js:49
+msgid "Sign in"
+msgstr "Mewngofnodi"
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
@@ -689,8 +737,7 @@ msgstr ""
 msgid "Email verified"
 msgstr ""
 
-#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:2
-#: app/scripts/templates/sms_sent.mustache:3
+#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:3
 msgid "Success"
 msgstr "Llwyddiant"
 
@@ -702,24 +749,23 @@ msgstr ""
 msgid "Sign in &rarr;"
 msgstr ""
 
-#: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:13
-msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr ""
-
-#: app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:17
-msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
-
-#: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:17 app/scripts/templates/connect_another_device.mustache:9
-#: app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
+#: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
 msgid "Sign in to Firefox on another device to complete set-up"
+msgstr ""
+
+#: app/scripts/templates/connect_another_device.mustache:13
+msgid "Open settings and select Sign in to Firefox to complete set-up"
 msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:15
 msgid "Sign in to Firefox for Android to complete set-up"
 msgstr ""
 
-#: app/scripts/templates/connect_another_device.mustache:19 app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
+#: app/scripts/templates/connect_another_device.mustache:17
+msgid "Sign in to Firefox for iOS to complete set-up"
+msgstr ""
+
+#: app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
 msgid "Why is this required?"
 msgstr ""
 
@@ -743,21 +789,16 @@ msgstr "Ceisiwch eto"
 msgid "Sign in to continue"
 msgstr "Mewngofnodi i barhau"
 
-#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_up.mustache:15
 #: app/scripts/templates/settings/change_password.mustache:1 app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Cyfrinair"
 
-#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in.mustache:4 app/scripts/templates/sign_in.mustache:11
-#: app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_in.mustache:22
-msgid "Sign in"
-msgstr "Mewngofnodi"
-
-#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:12 app/scripts/templates/sign_in.mustache:23 app/scripts/templates/settings/change_password.mustache:5
+#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:18 app/scripts/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "Wedi anghofio'r cyfrinair?"
 
-#: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:25 app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr "Drwy barhau, rydych yn cytuno i <a id=\"fxa-tos\" href=\"/legal/terms\">Amodau Gwasanaeth</a> a<a id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</a> gwasanaethau cwmwl Firefox."
 
@@ -769,11 +810,11 @@ msgstr "Gwasanaethau cwmwl Firefox"
 msgid "Legal"
 msgstr "Cyfreithiol"
 
-#: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:5 app/scripts/templates/tos.mustache:2 app/scripts/templates/settings.mustache:4
+#: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:4 app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
 msgstr "Amodau'r Gwasanaeth"
 
-#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:6 app/scripts/templates/settings.mustache:5
+#: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:5
 msgid "Privacy Notice"
 msgstr "Hysbysiad Preifatrwydd"
 
@@ -810,15 +851,11 @@ msgstr "Derbyn"
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9
 #: app/scripts/templates/settings/communication_preferences.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6
-#: app/scripts/templates/settings/display_name.mustache:6 app/scripts/templates/settings/gravatar_permissions.mustache:5 app/scripts/templates/settings/display_name.mustache:8
+#: app/scripts/templates/settings/display_name.mustache:8 app/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
 msgstr "Diddymu"
 
-#: app/scripts/templates/ready.mustache:4
-msgid "Proceed"
-msgstr "Parhau"
-
-#: app/scripts/templates/ready.mustache:7
+#: app/scripts/templates/ready.mustache:5
 msgid "Your account is ready!"
 msgstr "Mae eich gwasanaeth yn barod!"
 
@@ -842,7 +879,7 @@ msgstr ""
 msgid "Reset account"
 msgstr ""
 
-#: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:2 app/scripts/templates/sign_up.mustache:2
+#: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Parhewch i %(serviceName)s."
 
@@ -850,7 +887,7 @@ msgstr "Parhewch i %(serviceName)s."
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "Pan fyddwch yn ailosod eich cyfrinair, byddwch yn colli unrhyw ddata Sync nad yw ar un o'ch dyfeisiau."
 
-#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
+#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "E-bost"
 
@@ -870,19 +907,19 @@ msgstr "Cyfrifon Firefox"
 msgid "Sign out"
 msgstr "Allgofnodi"
 
-#: app/scripts/templates/sign_in.mustache:6
+#: app/scripts/templates/sign_in.mustache:4
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
 msgstr ""
 
-#: app/scripts/templates/sign_in.mustache:8
+#: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr "Mudwch eich data cydweddu drwy mewngofnodi i'ch Cyfrif &nbsp;Firefox."
 
-#: app/scripts/templates/sign_in.mustache:13 app/scripts/templates/sign_in.mustache:16
+#: app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:12
 msgid "Use a different account"
 msgstr "Defnyddiwch gyfrif gwahanol"
 
-#: app/scripts/templates/sign_in.mustache:24
+#: app/scripts/templates/sign_in.mustache:19
 msgid "Create an account"
 msgstr "Creu cyfrif"
 
@@ -926,8 +963,12 @@ msgstr "Mudwch eich data cydweddu drwy greu Cyfrif &nbsp;Firefox newydd."
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr ""
 
-#: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/settings/communication_preferences.mustache:7
-msgid "Receive the monthly Firefox newsletter."
+#: app/scripts/templates/sign_up.mustache:17
+msgid "A strong, unique password will keep your Firefox data safe from intruders."
+msgstr "Bydd cyfrinair cryf, unigryw yn cadw eich data Firefox yn ddiogel rhag drygioni."
+
+#: app/scripts/templates/sign_up.mustache:19
+msgid "Receive the monthly Firefox newsletter"
 msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:21
@@ -937,6 +978,47 @@ msgstr "Creu cyfrif"
 #: app/scripts/templates/sign_up.mustache:26
 msgid "Have an account? Sign in"
 msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
+msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:5
+msgid "Mobile phone number"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:6
+msgid "Send"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:7
+msgid ""
+"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:9
+msgid "Maybe later"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
+msgid "Install Firefox on your smartphone and sign in to complete set-up"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:2
+msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:5
+msgid "If you are not receiving the text message, you can also download the apps manually."
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:6
+msgid "Didn't arrive? Resend"
+msgstr "Heb gyrraedd? Ail anfon"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
@@ -987,7 +1069,7 @@ msgstr "Gravatar"
 msgid "Clear"
 msgstr "Clirio"
 
-#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:26
+#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:26
 msgid "Done"
 msgstr "Gorffen"
 
@@ -995,8 +1077,7 @@ msgstr "Gorffen"
 msgid "Position and rotate your picture as needed"
 msgstr "Gosodwch a throi eich llun yn ôl y galw"
 
-#: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:5
-#: app/scripts/templates/settings/display_name.mustache:7
+#: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:7
 msgid "Change"
 msgstr "Newid"
 
@@ -1033,15 +1114,14 @@ msgid "Old or replaced device"
 msgstr ""
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
-msgid "Duplicate Device"
+msgid "Duplicate device"
 msgstr ""
 
 #: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
 msgstr ""
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:9 app/scripts/templates/settings/clients.mustache:11
-#: app/scripts/templates/settings/clients.mustache:14
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:14
 msgid "Disconnect"
 msgstr "Datgysylltu"
 
@@ -1065,35 +1145,41 @@ msgstr "dyfais gyfredol"
 msgid "Disconnect…"
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:17
+#: app/scripts/templates/settings/clients.mustache:9
+msgid "current session"
+msgstr ""
+
+#: app/scripts/templates/settings/clients.mustache:17
 msgid "Firefox for iOS"
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:12 app/scripts/templates/settings/clients.mustache:15 app/scripts/templates/settings/clients.mustache:18
-#: app/scripts/templates/settings/clients.mustache:21
+#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21
 msgid "none connected"
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16 app/scripts/templates/settings/clients.mustache:19
-#: app/scripts/templates/settings/clients.mustache:22
+#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22
 msgid "Download"
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:14 app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/clients.mustache:20
 msgid "Firefox for Android"
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:24
+#: app/scripts/templates/settings/clients.mustache:24
 msgid "Missing or duplicate items?"
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:25
+#: app/scripts/templates/settings/clients.mustache:25
 msgid "Refresh"
 msgstr "Adnewyddu"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
 msgstr "Dewisiadau cyfathrebu"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:7
+msgid "Receive the monthly Firefox newsletter."
+msgstr ""
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
@@ -1119,7 +1205,7 @@ msgstr ""
 msgid "Are you sure you want to delete your account? This action cannot be undone."
 msgstr "Ydych chi'n siŵr eich bod eisiau dileu eich cyfrif? Nid oes modd dadwneud hyn."
 
-#: app/scripts/templates/settings/display_name.mustache:3 app/scripts/templates/settings/display_name.mustache:5
+#: app/scripts/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Dewiswch enw yr hoffech chi ei ddangos yn Firefox ac wrth reoli eich cyfrif."
 
@@ -1143,118 +1229,29 @@ msgstr "Defnyddio OpenID"
 msgid "Use Firefox Account"
 msgstr "Defnyddio Cyfrif Firefox"
 
-#: app/scripts/lib/strings.js:43
-msgid "Web Session"
+#. submit button
+#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:90
+msgctxt "submit button"
+msgid "Sign in"
 msgstr ""
 
-#: app/scripts/templates/settings/client_disconnect.mustache:6
-msgid "Duplicate device"
+#. header text
+#: app/scripts/views/sign_in.js:93
+msgctxt "header text"
+msgid "Sign in"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
-msgid "Invalid phone number"
-msgstr ""
+#~ msgid "8 characters minimum, but longer if you plan to sync passwords."
+#~ msgstr "Lleiafswm o 8 nod, ond hirach os ydych am gydweddu cyfrineiriau."
 
-#: app/scripts/lib/auth-errors.js:125
-msgid "Cannot send to this country"
-msgstr ""
+#~ msgid "This is a common password; please consider another one."
+#~ msgstr "Mae hyn yn gyfrinair cyffredin, ystyriwch un arall."
 
-#: app/scripts/lib/auth-errors.js:134
-msgid "Could not send a message to this number"
-msgstr ""
+#~ msgid "Signed out successfully"
+#~ msgstr "Allgofnodwyd yn llwyddiannus"
 
-#: app/scripts/lib/auth-errors.js:362
-msgid "Phone number required"
-msgstr ""
-
-#: app/scripts/lib/sms-errors.js:23
-msgid "SMS sent"
-msgstr ""
-
-#: app/scripts/lib/sms-errors.js:55
-msgid "Your number has been blocked"
-msgstr ""
-
-#: app/scripts/lib/sms-errors.js:79
-msgid "SMS not sent, please try again"
-msgstr ""
-
-#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
-msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
-
-#: app/scripts/templates/sms_send.mustache:2
-msgid "This Firefox is connected"
-msgstr ""
-
-#: app/scripts/templates/sms_send.mustache:5
-msgid "Mobile phone number"
-msgstr ""
-
-#: app/scripts/templates/sms_send.mustache:6
-msgid "Send"
-msgstr ""
-
-#: app/scripts/templates/sms_send.mustache:7
-msgid ""
-"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
-
-#: app/scripts/templates/sms_send.mustache:9
-msgid "Maybe later"
-msgstr ""
-
-#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:3
-msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
-msgstr ""
-
-#: app/scripts/templates/sms_sent.mustache:4 app/scripts/templates/sms_sent.mustache:5
-msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
-
-#: app/scripts/views/sms_sent.js:24
-msgid "App link resent to %(phoneNumber)s"
-msgstr ""
-
-#: app/scripts/views/settings/clients.js:63
-msgid "Web Session, %(userAgent)s"
-msgstr ""
-
-#: app/scripts/views/settings/clients.js:65
-msgid "%(translatedTimeAgo)s"
-msgstr ""
-
-#: app/scripts/lib/auth-errors.js:59
-msgid "Incorrect password"
-msgstr "Cyfrinair anghywir"
-
-#: app/scripts/lib/auth-errors.js:150
-msgid "Login attempt cancelled"
-msgstr ""
-
-#: app/scripts/lib/marketing-email-errors.js:41
-msgid "Please try again later"
-msgstr ""
-
-#: app/scripts/templates/sign_up.mustache:19
-msgid "Receive the monthly Firefox newsletter"
-msgstr ""
-
-#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
-msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
-
-#: app/scripts/templates/sms_sent.mustache:2
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr ""
-
-#: app/scripts/templates/sms_sent.mustache:6
-msgid "Didn't arrive? Resend"
-msgstr "Heb gyrraedd? Ail anfon"
-
-#: app/scripts/templates/settings/clients.mustache:9
-msgid "current session"
-msgstr ""
+#~ msgid "Proceed"
+#~ msgstr "Parhau"
 
 #~ msgid "Forgot password"
 #~ msgstr "Anghofio cyfrinair"
