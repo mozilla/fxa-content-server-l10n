@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-03-21 10:21+0000\n"
+"POT-Creation-Date: 2017-04-18 20:00+0000\n"
+"PO-Revision-Date: 2017-04-18 09:21+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -266,15 +266,15 @@ msgstr "Kin gjin berjocht nei dit nûmer ferstjoere"
 
 #: app/scripts/lib/auth-errors.js:138
 msgid "Your email was just returned"
-msgstr ""
+msgstr "Jo e-mailberjocht is sakrekt weromkommen"
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Jo e-mailberjocht is sakrekt weromkommen. E-mailadres ferkeard ynfierd?"
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "E-mail koe net ôflevere wurde"
 
 #: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327
 msgid "Server busy, try again soon"
@@ -1241,13 +1241,13 @@ msgstr "Firefox Account brûke"
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:90
 msgctxt "submit button"
 msgid "Sign in"
-msgstr ""
+msgstr "Oanmelde"
 
 #. header text
 #: app/scripts/views/sign_in.js:93
 msgctxt "header text"
 msgid "Sign in"
-msgstr ""
+msgstr "Oanmelde"
 
 #~ msgid "8 characters minimum, but longer if you plan to sync passwords."
 #~ msgstr "Minimaal 8 tekens, mar langer as jo fan doel binne wachtwurden te syngronisearjen."
