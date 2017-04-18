@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-03-30 19:39+0000\n"
+"PO-Revision-Date: 2017-04-18 13:59+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -265,15 +265,15 @@ msgstr "Nie można wysłać wiadomości SMS na ten numer"
 
 #: app/scripts/lib/auth-errors.js:138
 msgid "Your email was just returned"
-msgstr ""
+msgstr "Wiadomość została zwrócona"
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Wiadomość została zwrócona. Błąd w adresie e-mail?"
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "Nie można dostarczyć wiadomości e-mail"
 
 #: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327
 msgid "Server busy, try again soon"
@@ -345,7 +345,7 @@ msgstr "Wymagany jest prawidłowy adres URL"
 
 #: app/scripts/lib/auth-errors.js:236
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr "Wiadomość weryfikacyjna została właśnie zwrócona. Błąd w adresie e-mail?"
+msgstr "Wiadomość weryfikacyjna została zwrócona. Błąd w adresie e-mail?"
 
 #: app/scripts/lib/auth-errors.js:244
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -520,9 +520,7 @@ msgid "SMS not sent, please try again"
 msgstr "Nie wysłano wiadomości SMS, proszę spróbować ponownie"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Kontynuując, wyrażasz zgodę na <a id=\"service-tos\" href=\"%(termsUri)s\">Regulamin usługi</a> oraz <a id=\"service-pp\" href=\"%(privacyUri)s\">Informacje o prywatności</a> usługi %(serviceName)s "
 "(%(serviceUri)s)."
@@ -1000,8 +998,8 @@ msgstr "Wyślij"
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-"Usługa wiadomości SMS jest dostępna tylko dla numerów telefonów w Stanach Zjednoczonych. Mogą zostać pobrane opłaty za wiadomości SMS i transmisję danych. Odbiorca docelowy wiadomości e-mail lub "
-"SMS musi wyrażać zgodę. <a %(escapedLearnMoreAttributes)s>Więcej informacji</a>"
+"Usługa wiadomości SMS jest dostępna tylko dla numerów telefonów w Stanach Zjednoczonych. Mogą zostać pobrane opłaty za wiadomości SMS i transmisję danych. Odbiorca docelowy wiadomości e-mail lub SMS"
+" musi wyrażać zgodę. <a %(escapedLearnMoreAttributes)s>Więcej informacji</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
@@ -1240,13 +1238,13 @@ msgstr "Użyj konta Firefoksa"
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:90
 msgctxt "submit button"
 msgid "Sign in"
-msgstr ""
+msgstr "Zaloguj się"
 
 #. header text
 #: app/scripts/views/sign_in.js:93
 msgctxt "header text"
 msgid "Sign in"
-msgstr ""
+msgstr "Zaloguj się"
 
 #~ msgid "8 characters minimum, but longer if you plan to sync passwords."
 #~ msgstr "Minimum 8 znaków, ale więcej, jeśli będą synchronizowane hasła."
