@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-04-19 09:11+0000\n"
+"PO-Revision-Date: 2017-04-19 09:18+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -265,7 +265,7 @@ msgstr "Бұл нөмірге хабарламаны жіберу мүмкін �
 
 #: app/scripts/lib/auth-errors.js:138
 msgid "Your email was just returned"
-msgstr "Сіздің эл. пошта хатыңыз жаңа ғана қайта оралды"
+msgstr "Сіздің хатыңыз қайтарылды"
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
@@ -273,7 +273,7 @@ msgstr "Сіздің хатыңыз қайтарылды. Эл. пошта ад�
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "Хатыңызды жеткізу мүмкін емес"
 
 #: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327
 msgid "Server busy, try again soon"
@@ -413,7 +413,7 @@ msgstr "Сілтеме зақымдалған"
 
 #: app/scripts/lib/auth-errors.js:374
 msgid "Phone number required"
-msgstr ""
+msgstr "Телефон нөмірі керек"
 
 #: app/scripts/lib/config-loader.js:87
 msgid "Missing configuration"
@@ -429,7 +429,7 @@ msgstr ""
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
-msgstr ""
+msgstr "Кейінірек қайталап көріңіз"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -509,7 +509,7 @@ msgstr ""
 
 #: app/scripts/lib/sms-errors.js:23
 msgid "SMS sent"
-msgstr ""
+msgstr "SMS жіберілді"
 
 #: app/scripts/lib/sms-errors.js:55
 msgid "Your number has been blocked"
@@ -551,7 +551,7 @@ msgstr "Қосымша қауіпсіздік үшін, басқа құрылғ�
 
 #: app/scripts/lib/strings.js:43
 msgid "Web Session"
-msgstr ""
+msgstr "Веб сессиясы"
 
 #: app/scripts/lib/strings.js:49
 msgid "Sign in"
@@ -583,7 +583,7 @@ msgstr "Көбірек білу."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s created"
-msgstr ""
+msgstr "%(email)s жасалды"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
@@ -671,7 +671,7 @@ msgstr "Жаңа парольді жіберу"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Sign-in already confirmed"
-msgstr ""
+msgstr "Кіру расталған болып тұр"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
@@ -764,7 +764,7 @@ msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
 msgid "Why is this required?"
-msgstr ""
+msgstr "Бұл не үшін керек?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -870,11 +870,11 @@ msgstr ""
 
 #: app/scripts/templates/report_sign_in.mustache:7 app/scripts/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr ""
+msgstr "Бұл неліктен орын алады?"
 
 #: app/scripts/templates/reset_password.mustache:1 app/scripts/templates/reset_password.mustache:4
 msgid "Reset account"
-msgstr ""
+msgstr "Тіркелгіні тастау"
 
 #: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
@@ -938,11 +938,11 @@ msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "Авторизация кодын енгізіңіз"
 
 #: app/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"
-msgstr ""
+msgstr "Жалғастыру"
 
 #: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
@@ -974,7 +974,7 @@ msgstr "Тіркелгіні жасау"
 
 #: app/scripts/templates/sign_up.mustache:26
 msgid "Have an account? Sign in"
-msgstr ""
+msgstr "Тіркелгіңіз бар ма? Кіріңіз"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
@@ -982,11 +982,11 @@ msgstr ""
 
 #: app/scripts/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
-msgstr ""
+msgstr "Бұл Firefox байланысқан"
 
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
-msgstr ""
+msgstr "Мобильді телефон нөмірі"
 
 #: app/scripts/templates/sms_send.mustache:6
 msgid "Send"
@@ -999,7 +999,7 @@ msgstr ""
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
-msgstr ""
+msgstr "Мүмкін, кейінірек"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1104,11 +1104,11 @@ msgstr ""
 
 #: app/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Lost or stolen device"
-msgstr ""
+msgstr "Жоғалған немесе ұрланған құрылғы"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Old or replaced device"
-msgstr ""
+msgstr "Ескі немесе алмастырылған құрылғы"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
@@ -1116,7 +1116,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
-msgstr ""
+msgstr "Айтпауды қалаймын"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:14
 msgid "Disconnect"
