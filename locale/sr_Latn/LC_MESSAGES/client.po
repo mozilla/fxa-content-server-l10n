@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-03-26 15:57+0000\n"
-"Last-Translator: Marko Kostić (Marko Kostić) <marko.m.kostic@gmail.com>\n"
+"POT-Creation-Date: 2017-04-21 16:10+0000\n"
+"PO-Revision-Date: 2017-04-18 10:47+0000\n"
+"Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
 "MIME-Version: 1.0\n"
@@ -300,15 +300,15 @@ msgstr "Ne može se poslati poruka na ovaj broj telefona"
 
 #: app/scripts/lib/auth-errors.js:138
 msgid "Your email was just returned"
-msgstr ""
+msgstr "Vaša e-adresa se vratila"
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Vaša e-adresa se vratila. Pogrešna e-adresa?"
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "Ne mogu da dostavim poruku"
 
 #: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327
 msgid "Server busy, try again soon"
@@ -1290,7 +1290,7 @@ msgid "Clear"
 msgstr "Očisti"
 
 #: app/scripts/templates/settings/avatar_change.mustache:6
-#: app/scripts/templates/settings/clients.mustache:26
+#: app/scripts/templates/settings/clients.mustache:25
 msgid "Done"
 msgstr "Gotovo"
 
@@ -1354,7 +1354,7 @@ msgstr "Radije ne bih rekao"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:8
 #: app/scripts/templates/settings/clients.mustache:11
-#: app/scripts/templates/settings/clients.mustache:14
+#: app/scripts/templates/settings/clients.mustache:13
 msgid "Disconnect"
 msgstr "Prekini vezu"
 
@@ -1383,29 +1383,29 @@ msgstr "Prekini vezu…"
 msgid "current session"
 msgstr "trenutna sesija"
 
-#: app/scripts/templates/settings/clients.mustache:17
+#: app/scripts/templates/settings/clients.mustache:16
 msgid "Firefox for iOS"
 msgstr "Firefox za iOS"
 
-#: app/scripts/templates/settings/clients.mustache:18
-#: app/scripts/templates/settings/clients.mustache:21
+#: app/scripts/templates/settings/clients.mustache:17
+#: app/scripts/templates/settings/clients.mustache:20
 msgid "none connected"
 msgstr "nije povezano"
 
-#: app/scripts/templates/settings/clients.mustache:19
-#: app/scripts/templates/settings/clients.mustache:22
+#: app/scripts/templates/settings/clients.mustache:18
+#: app/scripts/templates/settings/clients.mustache:21
 msgid "Download"
 msgstr "Preuzmi"
 
-#: app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for Android"
 msgstr "Firefox za Android"
 
-#: app/scripts/templates/settings/clients.mustache:24
+#: app/scripts/templates/settings/clients.mustache:23
 msgid "Missing or duplicate items?"
 msgstr "Stavke nedostaju ili ima duplikata?"
 
-#: app/scripts/templates/settings/clients.mustache:25
+#: app/scripts/templates/settings/clients.mustache:24
 msgid "Refresh"
 msgstr "Osveži"
 
@@ -1481,13 +1481,13 @@ msgstr "Koristi Firefox Account"
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:90
 msgctxt "submit button"
 msgid "Sign in"
-msgstr ""
+msgstr "Prijavi se"
 
 #. header text
 #: app/scripts/views/sign_in.js:93
 msgctxt "header text"
 msgid "Sign in"
-msgstr ""
+msgstr "Prijavi se"
 
 #~ msgid "8 characters minimum, but longer if you plan to sync passwords."
 #~ msgstr ""

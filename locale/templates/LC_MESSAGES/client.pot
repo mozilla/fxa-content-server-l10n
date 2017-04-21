@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2017-04-17 16:35+0000\n"
+"POT-Creation-Date: 2017-04-21 16:10+0000\n"
 
 #: app/scripts/views/complete_reset_password.js:132
 #: app/scripts/views/complete_sign_up.js:186
@@ -1220,7 +1220,7 @@ msgid "Clear"
 msgstr ""
 
 #: app/scripts/templates/settings/avatar_change.mustache:6
-#: app/scripts/templates/settings/clients.mustache:26
+#: app/scripts/templates/settings/clients.mustache:25
 msgid "Done"
 msgstr ""
 
@@ -1280,7 +1280,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/client_disconnect.mustache:8
 #: app/scripts/templates/settings/clients.mustache:11
-#: app/scripts/templates/settings/clients.mustache:14
+#: app/scripts/templates/settings/clients.mustache:13
 msgid "Disconnect"
 msgstr ""
 
@@ -1309,29 +1309,29 @@ msgstr ""
 msgid "current session"
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:17
+#: app/scripts/templates/settings/clients.mustache:16
 msgid "Firefox for iOS"
+msgstr ""
+
+#: app/scripts/templates/settings/clients.mustache:17
+#: app/scripts/templates/settings/clients.mustache:20
+msgid "none connected"
 msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:18
 #: app/scripts/templates/settings/clients.mustache:21
-msgid "none connected"
-msgstr ""
-
-#: app/scripts/templates/settings/clients.mustache:19
-#: app/scripts/templates/settings/clients.mustache:22
 msgid "Download"
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for Android"
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:24
+#: app/scripts/templates/settings/clients.mustache:23
 msgid "Missing or duplicate items?"
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:25
+#: app/scripts/templates/settings/clients.mustache:24
 msgid "Refresh"
 msgstr ""
 

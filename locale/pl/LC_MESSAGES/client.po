@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-17 16:35+0000\n"
+"POT-Creation-Date: 2017-04-21 16:10+0000\n"
 "PO-Revision-Date: 2017-04-18 13:59+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
@@ -520,7 +520,9 @@ msgid "SMS not sent, please try again"
 msgstr "Nie wysłano wiadomości SMS, proszę spróbować ponownie"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Kontynuując, wyrażasz zgodę na <a id=\"service-tos\" href=\"%(termsUri)s\">Regulamin usługi</a> oraz <a id=\"service-pp\" href=\"%(privacyUri)s\">Informacje o prywatności</a> usługi %(serviceName)s "
 "(%(serviceUri)s)."
@@ -998,8 +1000,8 @@ msgstr "Wyślij"
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-"Usługa wiadomości SMS jest dostępna tylko dla numerów telefonów w Stanach Zjednoczonych. Mogą zostać pobrane opłaty za wiadomości SMS i transmisję danych. Odbiorca docelowy wiadomości e-mail lub SMS"
-" musi wyrażać zgodę. <a %(escapedLearnMoreAttributes)s>Więcej informacji</a>"
+"Usługa wiadomości SMS jest dostępna tylko dla numerów telefonów w Stanach Zjednoczonych. Mogą zostać pobrane opłaty za wiadomości SMS i transmisję danych. Odbiorca docelowy wiadomości e-mail lub "
+"SMS musi wyrażać zgodę. <a %(escapedLearnMoreAttributes)s>Więcej informacji</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
@@ -1074,7 +1076,7 @@ msgstr "Gravatar"
 msgid "Clear"
 msgstr "Wyczyść"
 
-#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:26
+#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:25
 msgid "Done"
 msgstr "Gotowe"
 
@@ -1126,7 +1128,7 @@ msgstr "Podwójne urządzenie"
 msgid "Rather not say"
 msgstr "Nie chcę powiedzieć"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:14
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:13
 msgid "Disconnect"
 msgstr "Rozłącz"
 
@@ -1154,27 +1156,27 @@ msgstr "Rozłącz…"
 msgid "current session"
 msgstr "bieżąca sesja"
 
-#: app/scripts/templates/settings/clients.mustache:17
+#: app/scripts/templates/settings/clients.mustache:16
 msgid "Firefox for iOS"
 msgstr "Firefox na iOS"
 
-#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21
+#: app/scripts/templates/settings/clients.mustache:17 app/scripts/templates/settings/clients.mustache:20
 msgid "none connected"
 msgstr "brak połączonych"
 
-#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22
+#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21
 msgid "Download"
 msgstr "Pobierz"
 
-#: app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for Android"
 msgstr "Firefox na Androida"
 
-#: app/scripts/templates/settings/clients.mustache:24
+#: app/scripts/templates/settings/clients.mustache:23
 msgid "Missing or duplicate items?"
 msgstr "Brak elementu lub jakieś są podwójne?"
 
-#: app/scripts/templates/settings/clients.mustache:25
+#: app/scripts/templates/settings/clients.mustache:24
 msgid "Refresh"
 msgstr "Odśwież"
 

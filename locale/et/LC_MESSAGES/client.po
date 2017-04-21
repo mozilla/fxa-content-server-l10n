@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-17 16:35+0000\n"
+"POT-Creation-Date: 2017-04-21 16:10+0000\n"
 "PO-Revision-Date: 2017-03-21 17:37+0000\n"
 "Last-Translator: Merike Sell <merikes@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1074,7 +1074,7 @@ msgstr "Gravatar"
 msgid "Clear"
 msgstr "Eemalda"
 
-#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:26
+#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:25
 msgid "Done"
 msgstr "Valmis"
 
@@ -1126,7 +1126,7 @@ msgstr "Topelt seade"
 msgid "Rather not say"
 msgstr "Ei soovi öelda"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:14
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:13
 msgid "Disconnect"
 msgstr "Katkesta ühendus"
 
@@ -1154,27 +1154,27 @@ msgstr "Ühenduse katkestamine…"
 msgid "current session"
 msgstr "praegune seanss"
 
-#: app/scripts/templates/settings/clients.mustache:17
+#: app/scripts/templates/settings/clients.mustache:16
 msgid "Firefox for iOS"
 msgstr "Firefox iOS-ile"
 
-#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21
+#: app/scripts/templates/settings/clients.mustache:17 app/scripts/templates/settings/clients.mustache:20
 msgid "none connected"
 msgstr "ühendatuid pole"
 
-#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22
+#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21
 msgid "Download"
 msgstr "Laadi alla"
 
-#: app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for Android"
 msgstr "Firefox Androidile"
 
-#: app/scripts/templates/settings/clients.mustache:24
+#: app/scripts/templates/settings/clients.mustache:23
 msgid "Missing or duplicate items?"
 msgstr "Puuduvad või topeltkirjed?"
 
-#: app/scripts/templates/settings/clients.mustache:25
+#: app/scripts/templates/settings/clients.mustache:24
 msgid "Refresh"
 msgstr "Värskenda"
 

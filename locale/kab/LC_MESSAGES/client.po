@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-17 16:35+0000\n"
+"POT-Creation-Date: 2017-04-21 16:10+0000\n"
 "PO-Revision-Date: 2017-03-27 08:59+0000\n"
 "Last-Translator: Moḥend Belqasem <belkacem77@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1073,7 +1073,7 @@ msgstr "Gravatar"
 msgid "Clear"
 msgstr "Sfeḍ"
 
-#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:26
+#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:25
 msgid "Done"
 msgstr "Immed"
 
@@ -1125,7 +1125,7 @@ msgstr "Ibenk yettwasleg"
 msgid "Rather not say"
 msgstr "Axiṛ ur d-qqaṛeɣ ara"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:14
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:13
 msgid "Disconnect"
 msgstr "Ffeɣ"
 
@@ -1153,27 +1153,27 @@ msgstr "Tuffɣa…"
 msgid "current session"
 msgstr "tiɣimit tamirant"
 
-#: app/scripts/templates/settings/clients.mustache:17
+#: app/scripts/templates/settings/clients.mustache:16
 msgid "Firefox for iOS"
 msgstr "Firefox i iOS"
 
-#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21
+#: app/scripts/templates/settings/clients.mustache:17 app/scripts/templates/settings/clients.mustache:20
 msgid "none connected"
 msgstr "ula d yiwen ur iqqin"
 
-#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22
+#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21
 msgid "Download"
 msgstr "Sider"
 
-#: app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for Android"
 msgstr "Firefox i Android"
 
-#: app/scripts/templates/settings/clients.mustache:24
+#: app/scripts/templates/settings/clients.mustache:23
 msgid "Missing or duplicate items?"
 msgstr "Iferdisen ttwakksen neɣ d usligen?"
 
-#: app/scripts/templates/settings/clients.mustache:25
+#: app/scripts/templates/settings/clients.mustache:24
 msgid "Refresh"
 msgstr "Smiren"
 

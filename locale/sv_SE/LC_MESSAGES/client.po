@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-17 16:35+0000\n"
+"POT-Creation-Date: 2017-04-21 16:10+0000\n"
 "PO-Revision-Date: 2017-04-17 18:44+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
@@ -521,8 +521,12 @@ msgid "SMS not sent, please try again"
 msgstr "SMS kunde inte skickas, vänligen försök igen"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Genom att fortsätta godkänner du <a id=\"service-tos\" href=\"%(termsUri)s\">användarvillkoren</a> och <a id=\"service-pp\" href=\"%(privacyUri)s\">sekretesspolicy</a> för %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Genom att fortsätta godkänner du <a id=\"service-tos\" href=\"%(termsUri)s\">användarvillkoren</a> och <a id=\"service-pp\" href=\"%(privacyUri)s\">sekretesspolicy</a> för %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -995,8 +999,8 @@ msgstr "Skicka"
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-"SMS-tjänsten är endast tillgänglig för US-telefonnummer. SMS &amp; datapriser kan tillkomma. Den avsedda mottagaren av e-post eller SMS måste ha samtyckt. <a %(escapedLearnMoreAttributes)s>Läs "
-"mer</a>"
+"SMS-tjänsten är endast tillgänglig för US-telefonnummer. SMS &amp; datapriser kan tillkomma. Den avsedda mottagaren av e-post eller SMS måste ha samtyckt. <a %(escapedLearnMoreAttributes)s>Läs mer</"
+"a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
@@ -1071,7 +1075,7 @@ msgstr "Gravatar"
 msgid "Clear"
 msgstr "Rensa"
 
-#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:26
+#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:25
 msgid "Done"
 msgstr "Klar"
 
@@ -1123,7 +1127,7 @@ msgstr "Dubblettenhet"
 msgid "Rather not say"
 msgstr "Vill helst inte berätta"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:14
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:13
 msgid "Disconnect"
 msgstr "Koppla från"
 
@@ -1151,27 +1155,27 @@ msgstr "Koppla ifrån…"
 msgid "current session"
 msgstr "aktuell session"
 
-#: app/scripts/templates/settings/clients.mustache:17
+#: app/scripts/templates/settings/clients.mustache:16
 msgid "Firefox for iOS"
 msgstr "Firefox för iOS"
 
-#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21
+#: app/scripts/templates/settings/clients.mustache:17 app/scripts/templates/settings/clients.mustache:20
 msgid "none connected"
 msgstr "ingen ansluten"
 
-#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22
+#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21
 msgid "Download"
 msgstr "Hämta"
 
-#: app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for Android"
 msgstr "Firefox för Android"
 
-#: app/scripts/templates/settings/clients.mustache:24
+#: app/scripts/templates/settings/clients.mustache:23
 msgid "Missing or duplicate items?"
 msgstr "Saknas eller duplicerade poster?"
 
-#: app/scripts/templates/settings/clients.mustache:25
+#: app/scripts/templates/settings/clients.mustache:24
 msgid "Refresh"
 msgstr "Uppdatera"
 
@@ -1306,18 +1310,20 @@ msgstr "Logga in"
 #~ msgid "Sync preferences"
 #~ msgstr "Sync-inställningar"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr "Letar du efter Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Kom igång här</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr ""
+#~ "Letar du efter Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Kom igång här</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Har du ett konto med en annan e-post? <a href=\"%(signinUri)s\">Logga in</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox finns tillgänglig för <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> och <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox finns tillgänglig för <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> och <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Senast aktiv: %(translatedTimeAgo)s"
@@ -1550,7 +1556,8 @@ msgstr "Logga in"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Du måste aktivera kakor i webbläsaren som behövs för Firefox-konton. Kakor är små bitar av data som lagras i webbläsaren och som bland annat gör det möjligt att komma ihåg dig från gång till gång."
+#~ "Du måste aktivera kakor i webbläsaren som behövs för Firefox-konton. Kakor är små bitar av data som lagras i webbläsaren och som bland annat gör det möjligt att komma ihåg dig från gång till "
+#~ "gång."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox kommer snart till iOS!"
@@ -1696,7 +1703,9 @@ msgstr "Logga in"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Har du redan ett konto? Logga in."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
 #~ "Genom att fortsätta, godkänner jag <a id=\"service-tos\" href=\"%(termsUri)s\">användarvillkoren</a> och <a id=\"service-pp\" href=\"%(privacyUri)s\">sekretesspolicyn</a> för %(serviceName)s "
 #~ "(%(serviceUri)s)."

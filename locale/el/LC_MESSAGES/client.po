@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-17 16:35+0000\n"
+"POT-Creation-Date: 2017-04-21 16:10+0000\n"
 "PO-Revision-Date: 2017-04-19 19:15+0000\n"
 "Last-Translator: Jim Spentzos <jamesspentzos@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -524,7 +524,9 @@ msgid "SMS not sent, please try again"
 msgstr "Το SMS δεν απεστάλη, παρακαλώ δοκιμάστε ξανά"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Προχωρώντας, συμφωνείτε με <a id=\"service-tos\" href=\"%(termsUri)s\">τους Όρους Χρήσης</a> και <a id=\"service-pp\" href=\"%(privacyUri)s\">την Πολιτική Απορρήτου</a> της υπηρεσίας "
 "%(serviceName)s(%(serviceUri)s)."
@@ -803,7 +805,8 @@ msgstr "Ξεχάσατε τον κωδικό σας;"
 
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Συνεχίζοντας, συμφωνείτε με τους <a id=\"fxa-tos\" href=\"/legal/terms\">Όρους Υπηρεσίας</a> και τη <a id=\"fxa-pp\" href=\"/legal/privacy\">Σημείωση Απορρήτου</a> των υπηρεσιών cloud του Firefox."
+msgstr ""
+"Συνεχίζοντας, συμφωνείτε με τους <a id=\"fxa-tos\" href=\"/legal/terms\">Όρους Υπηρεσίας</a> και τη <a id=\"fxa-pp\" href=\"/legal/privacy\">Σημείωση Απορρήτου</a> των υπηρεσιών cloud του Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -1034,8 +1037,8 @@ msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
 "Firefox for desktop will appear."
 msgstr ""
-"Το Sync σάς επιτρέπει να μοιράζεστε τους σελιδοδείκτες, το ιστορικό και τους κωδικούς πρόσβασης που αποθηκεύετε στο Firefox σε μια συσκευή με το Firefox σε άλλες συσκευές. Συνδεθείτε στο Firefox στο"
-" τηλέφωνο ή το tablet σας και θα εμφανιστεί ό,τι έχετε αποθηκεύσει στο Firefox του υπολογιστή σας."
+"Το Sync σάς επιτρέπει να μοιράζεστε τους σελιδοδείκτες, το ιστορικό και τους κωδικούς πρόσβασης που αποθηκεύετε στο Firefox σε μια συσκευή με το Firefox σε άλλες συσκευές. Συνδεθείτε στο Firefox "
+"στο τηλέφωνο ή το tablet σας και θα εμφανιστεί ό,τι έχετε αποθηκεύσει στο Firefox του υπολογιστή σας."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
@@ -1079,7 +1082,7 @@ msgstr "Gravatar"
 msgid "Clear"
 msgstr "Εκκαθάριση"
 
-#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:26
+#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:25
 msgid "Done"
 msgstr "Τέλος"
 
@@ -1131,7 +1134,7 @@ msgstr "Διπλή συσκευή"
 msgid "Rather not say"
 msgstr "Προτιμώ να μην πω"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:14
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:13
 msgid "Disconnect"
 msgstr "Αποσύνδεση"
 
@@ -1159,27 +1162,27 @@ msgstr "Αποσύνδεση…"
 msgid "current session"
 msgstr "τρέχουσα συνεδρία"
 
-#: app/scripts/templates/settings/clients.mustache:17
+#: app/scripts/templates/settings/clients.mustache:16
 msgid "Firefox for iOS"
 msgstr "Firefox για iOS"
 
-#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21
+#: app/scripts/templates/settings/clients.mustache:17 app/scripts/templates/settings/clients.mustache:20
 msgid "none connected"
 msgstr "καμία σύνδεση"
 
-#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22
+#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21
 msgid "Download"
 msgstr "Λήψη"
 
-#: app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for Android"
 msgstr "Firefox για Android"
 
-#: app/scripts/templates/settings/clients.mustache:24
+#: app/scripts/templates/settings/clients.mustache:23
 msgid "Missing or duplicate items?"
 msgstr "Χαμένα ή διπλά στοιχεία;"
 
-#: app/scripts/templates/settings/clients.mustache:25
+#: app/scripts/templates/settings/clients.mustache:24
 msgid "Refresh"
 msgstr "Ανανέωση"
 

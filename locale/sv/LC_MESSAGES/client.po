@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-03-21 22:19+0000\n"
+"POT-Creation-Date: 2017-04-21 16:10+0000\n"
+"PO-Revision-Date: 2017-04-17 18:44+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
@@ -266,15 +266,15 @@ msgstr "Kan inte skicka ett meddelande till detta nummer"
 
 #: app/scripts/lib/auth-errors.js:138
 msgid "Your email was just returned"
-msgstr ""
+msgstr "Din e-post kom precis tillbaka"
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Din e-post kom precis tillbaka. Stämmer e-postadressen?"
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "Det gick inte att leverera e-post"
 
 #: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327
 msgid "Server busy, try again soon"
@@ -1075,7 +1075,7 @@ msgstr "Gravatar"
 msgid "Clear"
 msgstr "Rensa"
 
-#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:26
+#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:25
 msgid "Done"
 msgstr "Klar"
 
@@ -1127,7 +1127,7 @@ msgstr "Dubblettenhet"
 msgid "Rather not say"
 msgstr "Vill helst inte berätta"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:14
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:13
 msgid "Disconnect"
 msgstr "Koppla från"
 
@@ -1155,27 +1155,27 @@ msgstr "Koppla ifrån…"
 msgid "current session"
 msgstr "aktuell session"
 
-#: app/scripts/templates/settings/clients.mustache:17
+#: app/scripts/templates/settings/clients.mustache:16
 msgid "Firefox for iOS"
 msgstr "Firefox för iOS"
 
-#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21
+#: app/scripts/templates/settings/clients.mustache:17 app/scripts/templates/settings/clients.mustache:20
 msgid "none connected"
 msgstr "ingen ansluten"
 
-#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22
+#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21
 msgid "Download"
 msgstr "Hämta"
 
-#: app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for Android"
 msgstr "Firefox för Android"
 
-#: app/scripts/templates/settings/clients.mustache:24
+#: app/scripts/templates/settings/clients.mustache:23
 msgid "Missing or duplicate items?"
 msgstr "Saknas eller duplicerade poster?"
 
-#: app/scripts/templates/settings/clients.mustache:25
+#: app/scripts/templates/settings/clients.mustache:24
 msgid "Refresh"
 msgstr "Uppdatera"
 
@@ -1239,13 +1239,13 @@ msgstr "Använd Firefox Konto"
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:90
 msgctxt "submit button"
 msgid "Sign in"
-msgstr ""
+msgstr "Logga in"
 
 #. header text
 #: app/scripts/views/sign_in.js:93
 msgctxt "header text"
 msgid "Sign in"
-msgstr ""
+msgstr "Logga in"
 
 #~ msgid "8 characters minimum, but longer if you plan to sync passwords."
 #~ msgstr "minst 8 tecken, men längre om du planerar att synkronisera lösenord."
