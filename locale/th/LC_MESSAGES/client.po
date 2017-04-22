@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-04-22 07:10+0000\n"
+"PO-Revision-Date: 2017-04-22 07:12+0000\n"
 "Last-Translator: Chengings <chengings@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -104,7 +104,7 @@ msgstr "เราเสียใจที่ได้ยินเกี่ยว
 
 #: app/scripts/views/settings/clients.js:63
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "เว็บเซสชัน %(userAgent)s"
 
 #: app/scripts/views/settings/clients.js:65
 msgid "%(translatedTimeAgo)s"
@@ -549,7 +549,7 @@ msgstr "เพื่อความปลอดภัยเพิ่มเติ
 
 #: app/scripts/lib/strings.js:43
 msgid "Web Session"
-msgstr ""
+msgstr "เว็บเซสชัน"
 
 #: app/scripts/lib/strings.js:49
 msgid "Sign in"
