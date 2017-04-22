@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-04-22 06:50+0000\n"
+"PO-Revision-Date: 2017-04-22 07:10+0000\n"
 "Last-Translator: Chengings <chengings@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -108,7 +108,7 @@ msgstr ""
 
 #: app/scripts/views/settings/clients.js:65
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s"
@@ -265,11 +265,11 @@ msgstr "ไม่สามารถส่งข้อความไปยัง
 
 #: app/scripts/lib/auth-errors.js:138
 msgid "Your email was just returned"
-msgstr ""
+msgstr "อีเมลของคุณถูกตีกลับมา"
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "อีเมลของคุณถูกตีกลับมา พิมพ์อีเมลผิด?"
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
@@ -993,7 +993,7 @@ msgstr "ส่ง"
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
+msgstr "บริการ SMS ให้บริการเฉพาะหมายเลขโทรศัพท์สหรัฐฯ เท่านั้น ค่าบริการ SMS และดาต้าอาจถูกคิด ผู้รับอีเมลหรือ SMS ต้องยอมรับด้วย <a %(escapedLearnMoreAttributes)s>เรียนรู้เพิ่มเติม</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
@@ -1001,11 +1001,11 @@ msgstr "ไว้ภายหลัง"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "ติดตั้ง Firefox บนสมาร์ทโฟนของคุณ และลงชื่อเข้าใช้เพื่อตั้งค่าให้เสร็จสมบูรณ์"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr ""
+msgstr "ลิงก์แอปถูกส่งไป %(escapedPhoneNumber)s <a %(escapedBackLinkAttrs)s>พิมพ์หมายเลขผิด?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1146,7 +1146,7 @@ msgstr "ตัดการเชื่อมต่อ…"
 
 #: app/scripts/templates/settings/clients.mustache:9
 msgid "current session"
-msgstr ""
+msgstr "วาระปัจจุบัน"
 
 #: app/scripts/templates/settings/clients.mustache:17
 msgid "Firefox for iOS"
