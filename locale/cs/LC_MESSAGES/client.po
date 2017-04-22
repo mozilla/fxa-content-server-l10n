@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-04-18 05:53+0000\n"
+"PO-Revision-Date: 2017-04-22 11:03+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -1171,7 +1171,7 @@ msgstr "Firefox pro Android"
 
 #: app/scripts/templates/settings/clients.mustache:24
 msgid "Missing or duplicate items?"
-msgstr "Chybějící nebo duplikátní položky?"
+msgstr "Chybějící nebo duplicitní položky?"
 
 #: app/scripts/templates/settings/clients.mustache:25
 msgid "Refresh"
