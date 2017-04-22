@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-03-14 03:48+0000\n"
-"Last-Translator: nuttapong2539 <nuttapong2539@gmail.com>\n"
+"PO-Revision-Date: 2017-04-22 06:50+0000\n"
+"Last-Translator: Chengings <chengings@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
@@ -84,7 +84,7 @@ msgstr "บัญชีนี้มีอยู่แล้ว <a href=\"/signin
 
 #: app/scripts/views/sms_sent.js:24
 msgid "App link resent to %(phoneNumber)s"
-msgstr ""
+msgstr "ลิงก์แอปถูกส่งไปยัง %(phoneNumber)s"
 
 #: app/scripts/views/settings/avatar_gravatar.js:93
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
@@ -273,7 +273,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "ไม่สามารถส่งอีเมล"
 
 #: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327
 msgid "Server busy, try again soon"
@@ -289,7 +289,7 @@ msgstr "ระบบไม่พร้อมใช้งาน ลองอี�
 
 #: app/scripts/lib/auth-errors.js:162
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "ความพยายามในการเข้าสู่ระบบถูกยกเลิก"
 
 #: app/scripts/lib/auth-errors.js:166
 msgid "Session expired. Sign in to continue."
@@ -429,7 +429,7 @@ msgstr "หรือคุณหมายถึง<span tabindex=\"1\">%(escaped
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
-msgstr ""
+msgstr "โปรดลองอีกครั้งในภายหลัง"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -520,11 +520,8 @@ msgid "SMS not sent, please try again"
 msgstr "SMS ไม่สามารถส่งได้ โปรดลองอีกครั้ง"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"การดำเนินการหมายถึงคุณยอมรับ<a id=\"service-tos\" href=\"%(termsUri)s\">เงื่อนไขการใช้บริการ</a>และ<a id=\"service-pp\" href=\"%(privacyUri)s\">ประกาศความเป็นส่วนบุคคล</a>ของ%(serviceName)s (%(serviceUri)s)"
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "การดำเนินการหมายถึงคุณยอมรับ<a id=\"service-tos\" href=\"%(termsUri)s\">เงื่อนไขการใช้บริการ</a>และ<a id=\"service-pp\" href=\"%(privacyUri)s\">ประกาศความเป็นส่วนบุคคล</a>ของ%(serviceName)s (%(serviceUri)s)"
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -967,7 +964,7 @@ msgstr "รหัสผ่านที่แข็งแกร่งและม
 
 #: app/scripts/templates/sign_up.mustache:19
 msgid "Receive the monthly Firefox newsletter"
-msgstr ""
+msgstr "รับจดหมายข่าว Firefox รายเดือน"
 
 #: app/scripts/templates/sign_up.mustache:21
 msgid "Create account"
@@ -979,7 +976,7 @@ msgstr "มีบัญชี? ลงชื่อเข้า"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "ส่ง Firefox ตรงไปยังสมาร์ทโฟนของคุณ และลงชื่อเข้าใช้เพื่อตั้งค่าให้เสร็จสมบูรณ์"
 
 #: app/scripts/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
@@ -1000,7 +997,7 @@ msgstr ""
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
-msgstr ""
+msgstr "ไว้ภายหลัง"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1026,15 +1023,17 @@ msgstr "ทำไมต้องซิงค์สองอุปกรณ์ (�
 msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
 "Firefox for desktop will appear."
-msgstr "ซิงค์ให้คุณแบ่งปันที่คั่นหน้า, ประวัติการเข้าชม และรหัสผ่านที่คุณบันทึกไว้กับ Firefox บนอุปกรณ์หนึ่งกับ Firefox บนอุปกรณ์อื่น ลงชื่อเข้าใช้ Firefox บนโทรศัพท์หรือแท็บเล็ตของคุณและทุกอย่างที่คุณบันทึกบน Firefox สำหรับคอมพิวเตอร์ตั้งโต๊ะจะแสดงขึ้นมา"
+msgstr ""
+"ซิงค์ให้คุณแบ่งปันที่คั่นหน้า, ประวัติการเข้าชม และรหัสผ่านที่คุณบันทึกไว้กับ Firefox บนอุปกรณ์หนึ่งกับ Firefox บนอุปกรณ์อื่น ลงชื่อเข้าใช้ Firefox "
+"บนโทรศัพท์หรือแท็บเล็ตของคุณและทุกอย่างที่คุณบันทึกบน Firefox สำหรับคอมพิวเตอร์ตั้งโต๊ะจะแสดงขึ้นมา"
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
 "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 msgstr ""
-"ซิงค์ไม่ได้ถูกออกแบบมาสำหรับการสำรองข้อมูลถาวร มันเป็นเพียงการแบ่งปันข้อมูลที่บันทึกไว้เฉพาะที่ ถ้าคุณตั้งรหัสผ่านใหม่และข้อมูลของคุณไม่ได้ถูกเก็บไว้บนอุปกรณ์อย่างน้อยหนึ่งเครื่อง คุณอาจจะเสียข้อมูลทั้งหมดที่เกี่ยวข้องกับรหัสผ่านเก่า นั่นคือทำไมคุณจึงต้องติดตั้ง "
-"Firefox และใช้งานซิงค์มากกว่าหนึ่งอุปกรณ์"
+"ซิงค์ไม่ได้ถูกออกแบบมาสำหรับการสำรองข้อมูลถาวร มันเป็นเพียงการแบ่งปันข้อมูลที่บันทึกไว้เฉพาะที่ ถ้าคุณตั้งรหัสผ่านใหม่และข้อมูลของคุณไม่ได้ถูกเก็บไว้บนอุปกรณ์อย่างน้อยหนึ่งเครื่อง "
+"คุณอาจจะเสียข้อมูลทั้งหมดที่เกี่ยวข้องกับรหัสผ่านเก่า นั่นคือทำไมคุณจึงต้องติดตั้ง Firefox และใช้งานซิงค์มากกว่าหนึ่งอุปกรณ์"
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1233,13 +1232,13 @@ msgstr "ใช้บัญชี Firefox"
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:90
 msgctxt "submit button"
 msgid "Sign in"
-msgstr ""
+msgstr "ลงชื่อเข้า"
 
 #. header text
 #: app/scripts/views/sign_in.js:93
 msgctxt "header text"
 msgid "Sign in"
-msgstr ""
+msgstr "ลงชื่อเข้า"
 
 #~ msgid "8 characters minimum, but longer if you plan to sync passwords."
 #~ msgstr "8 อักขระเป็นอย่างน้อยแต่ควรจะมากกว่าถ้าคุณมีแผนจะซิงค์รหัสผ่าน"
@@ -1298,19 +1297,18 @@ msgstr ""
 #~ msgid "Sync preferences"
 #~ msgstr "การตั้งค่า Sync"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "กำลังมองหา Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">เริ่มต้นที่นี่</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "มีบัญชีที่ใช้อีเมลอื่น? <a href=\"%(signinUri)s\">ลงชื่อเข้า</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox พร้อมใช้งานสำหรับ <a href=\"%(linkWindows)s\">Windows</a> <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>  <a href=\"%(linkIOS)s\">iOS</a> และ <a href="
-#~ "\"%(linkLinux)s\">Linux</a>"
+#~ "Firefox พร้อมใช้งานสำหรับ <a href=\"%(linkWindows)s\">Windows</a> <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>  <a href=\"%(linkIOS)s\">iOS</a> และ <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>"
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "ใช้งานล่าสุด: %(translatedTimeAgo)s"
