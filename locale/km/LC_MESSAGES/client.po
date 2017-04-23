@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-04-23 05:26+0000\n"
+"PO-Revision-Date: 2017-04-23 05:51+0000\n"
 "Last-Translator: piseth.kheng <piseth.kheng@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: km\n"
@@ -166,32 +166,32 @@ msgstr "បាន​ផ្ញើ​អ៊ីមែល​ឡើងវិញ"
 
 #: app/scripts/models/reliers/sync.js:50
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox សមកាលកម្ម"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:35
 msgid "Unexpected error"
-msgstr ""
+msgstr "បញ្ហា​ដែល​មិន​គិតថា​មាន"
 
 #: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:5
 msgid "The link you clicked to verify your email is expired."
-msgstr ""
+msgstr "តំណ​ដែល​អ្នក​បាន​ចុច​ដើម្បី​ផ្ទៀងផ្ទាត់​អ៊ីមែល​របស់​អ្នក​បាន​ផុត​កំណត់។"
 
 #: app/scripts/lib/auth-errors.js:21 app/scripts/lib/sms-errors.js:17
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "អ្នក​បាន​ព្យាយាម​ច្រើន​ដង​ពេក។ ព្យាយាម​ម្ដង​ទៀត​នៅ​ពេល​ក្រោយ។"
 
 #: app/scripts/lib/auth-errors.js:25
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "អ្នក​បាន​ព្យាយាម​ច្រើន​ដង​ពេក។ ព្យាយាម​ម្ដង​ទៀត %(retryAfterLocalized)s ។"
 
 #: app/scripts/lib/auth-errors.js:35 app/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
-msgstr ""
+msgstr "សញ្ញា​មិន​ត្រឹមត្រូវ"
 
 #: app/scripts/lib/auth-errors.js:39
 msgid "Invalid timestamp in request signature"
-msgstr ""
+msgstr "ពេលវេលា​មិន​ត្រឹមត្រូវ​នៅ​ក្នុង​ហត្ថលេខា​ដែល​ស្នើ"
 
 #: app/scripts/lib/auth-errors.js:43
 msgid "Invalid nonce in request signature"
@@ -199,115 +199,115 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:47
 msgid "Account already exists"
-msgstr ""
+msgstr "គណនី​មាន​រួច​ហើយ"
 
 #: app/scripts/lib/auth-errors.js:51
 msgid "Unknown account"
-msgstr ""
+msgstr "មិន​ស្គាល់​គណនី"
 
 #: app/scripts/lib/auth-errors.js:55
 msgid "Incorrect email case"
-msgstr ""
+msgstr "អ៊ីមែល​មិន​ត្រឹមត្រូវ"
 
 #: app/scripts/lib/auth-errors.js:59
 msgid "Incorrect password"
-msgstr ""
+msgstr "ពាក្យ​សម្ងាត់​មិន​ត្រឹមត្រូវ"
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
-msgstr ""
+msgstr "គណនី​មិន​បាន​ផ្ទៀងផ្ទាត់"
 
 #: app/scripts/lib/auth-errors.js:67
 msgid "Invalid verification code"
-msgstr ""
+msgstr "កូដ​ផ្ទៀងផ្ទាត់​មិន​ត្រឹមត្រូវ"
 
 #: app/scripts/lib/auth-errors.js:71
 msgid "Invalid JSON in request body"
-msgstr ""
+msgstr "JSON មិន​ត្រឹមត្រូវ​នៅ​ក្នុង​តួអត្ថបទ​ដែល​ស្នើ"
 
 #: app/scripts/lib/auth-errors.js:75
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "ប៉ារ៉ាម៉ែត្រ​មិន​ត្រឹមត្រូវ៖ %(param)s"
 
 #: app/scripts/lib/auth-errors.js:79
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "ប៉ារ៉ាម៉ែត្រ​បាន​បាត់៖ %(param)s"
 
 #: app/scripts/lib/auth-errors.js:83
 msgid "Invalid request signature"
-msgstr ""
+msgstr "ហត្ថលេខា​ដែល​ស្នើ​មិន​ត្រឹមត្រូវ"
 
 #: app/scripts/lib/auth-errors.js:87
 msgid "Missing content-length header"
-msgstr ""
+msgstr "បាត់​​ក្បាល​ប្រវែង​មាតិកា"
 
 #: app/scripts/lib/auth-errors.js:91
 msgid "Request body too large"
-msgstr ""
+msgstr "តួអត្ថបទ​ដែល​ស្នើ​ច្រើន​ពេក"
 
 #: app/scripts/lib/auth-errors.js:109
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "ការ​ស្នើ​ត្រូវបាន​បិទ​ដោយសារ​បញ្ហា​សុវត្ថិភាព"
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347
 msgid "Invalid authorization code"
-msgstr ""
+msgstr "កូដ​អនុញ្ញាត​មិន​ត្រឹមត្រូវ"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr ""
+msgstr "លេខ​ទូរសព្ទ​មិន​ត្រឹមត្រូវ"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "មិន​អាច​ផ្ញើ​ទៅ​ប្រទេស​នេះ​បាន​ទេ"
 
 #: app/scripts/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "មិន​អាច​ផ្ញើ​សារ​ទៅ​លេខ​នេះ​បាន​ទេ"
 
 #: app/scripts/lib/auth-errors.js:138
 msgid "Your email was just returned"
-msgstr ""
+msgstr "អ៊ីមែល​របស់​អ្នក​ទើបតែ​​ផ្ញើ​ត្រឡប់​មកវិញ"
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "អ៊ីមែល​របស់​អ្នក​ទើបតែ​ផ្ញើ​ត្រឡប់​មក​វិញ។ វាយ​អ៊ីមែល​ខុស​មែន​ទេ?"
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "មិន​អាច​បញ្ជូន​អ៊ីមែល​បាន​ទេ"
 
 #: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "ម៉ាស៊ីនមេ​ជាប់រវល់ ព្យាយាម​ម្ដង​ទៀត​ឆាប់ៗ"
 
 #: app/scripts/lib/auth-errors.js:154
 msgid "This endpoint is no longer supported"
-msgstr ""
+msgstr "ចំណុច​បញ្ចប់​នេះ​មិន​ស្គាល់​ទៀត​ទេ"
 
 #: app/scripts/lib/auth-errors.js:158 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "ប្រព័ន្ធ​មិន​ដំណើរការ សូម​ព្យាយាម​ម្ដង​ទៀត​នៅ​ពេល​ឆាប់ៗ"
 
 #: app/scripts/lib/auth-errors.js:162
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "បាន​​បោះបង់​ការព្យាយាម​ចូល"
 
 #: app/scripts/lib/auth-errors.js:166
 msgid "Session expired. Sign in to continue."
-msgstr ""
+msgstr "សម័យ​បាន​ផុតកំណត់។ ចូល ដើម្បី​បន្ត។"
 
 #: app/scripts/lib/auth-errors.js:170
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "ខូគី​​នៅតែ​ត្រូវបាន​បិទ"
 
 #: app/scripts/lib/auth-errors.js:174
 msgid "Passwords do not match"
-msgstr ""
+msgstr "ពាក្យ​សម្ងាត់​មិន​ត្រូវគ្នា"
 
 #: app/scripts/lib/auth-errors.js:178
 msgid "Working…"
-msgstr ""
+msgstr "កំពុង​ដំណើរការ..."
 
 #: app/scripts/lib/auth-errors.js:182
 msgid "Could not get Privacy Notice"
