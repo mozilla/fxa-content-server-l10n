@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-04-18 06:47+0000\n"
+"PO-Revision-Date: 2017-04-23 05:31+0000\n"
 "Last-Translator: Benny Chandra <bennychandra@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -25,7 +25,7 @@ msgstr "Penyetelan ulang sandi"
 
 #: app/scripts/views/confirm_reset_password.js:188
 msgid "Password reset successfully. Sign in to continue."
-msgstr "Password sukses disetel ulang. Masuk untuk melanjutkan."
+msgstr "Sandi sukses disetel ulang. Masuk untuk melanjutkan."
 
 #: app/scripts/views/permissions.js:26
 msgid "%(permissionName)s (required)"
@@ -206,7 +206,7 @@ msgstr "Akun tidak dikenal"
 
 #: app/scripts/lib/auth-errors.js:55
 msgid "Incorrect email case"
-msgstr "Email salah"
+msgstr "Surel salah"
 
 #: app/scripts/lib/auth-errors.js:59
 msgid "Incorrect password"
@@ -330,7 +330,7 @@ msgstr "Sandi harus valid"
 
 #: app/scripts/lib/auth-errors.js:202 app/scripts/lib/auth-errors.js:240 app/scripts/lib/auth-errors.js:256
 msgid "Valid email required"
-msgstr "Email harus valid"
+msgstr "Surel harus valid"
 
 #: app/scripts/lib/auth-errors.js:213
 msgid "A usable image was not found"
@@ -346,11 +346,11 @@ msgstr "Dibutuhkan URL yang valid"
 
 #: app/scripts/lib/auth-errors.js:236
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr "Email verifikasi Anda dikembalikan. Salah ketik email?"
+msgstr "Surel verifikasi Anda dikembalikan. Salah tik surel?"
 
 #: app/scripts/lib/auth-errors.js:244
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr "Masukkan alamat email yang valid. firefox.com tidak menawarkan email."
+msgstr "Masukkan alamat surel yang valid. firefox.com tidak menawarkan surel."
 
 #: app/scripts/lib/auth-errors.js:252
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
@@ -694,7 +694,7 @@ msgstr "Konfirmasikan proses masuk ini"
 
 #: app/scripts/templates/confirm.mustache:5 app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email Sent"
-msgstr "Email Dikirim"
+msgstr "Surel Dikirim"
 
 #: app/scripts/templates/confirm.mustache:6
 msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
@@ -957,7 +957,7 @@ msgstr "Migrasi data sinkronisasi Anda dengan membuat Firefox Account baru."
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr "Mencari data pengaya anda? Daftar Firefox Account dengan akun surel pengaya Anda sebelumnya."
+msgstr "Mencari data pengaya Anda? Daftar Firefox Account dengan akun surel pengaya Anda sebelumnya."
 
 #: app/scripts/templates/sign_up.mustache:17
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
