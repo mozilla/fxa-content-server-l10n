@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-04-23 05:51+0000\n"
+"PO-Revision-Date: 2017-04-23 05:53+0000\n"
 "Last-Translator: piseth.kheng <piseth.kheng@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: km\n"
@@ -311,39 +311,39 @@ msgstr "កំពុង​ដំណើរការ..."
 
 #: app/scripts/lib/auth-errors.js:182
 msgid "Could not get Privacy Notice"
-msgstr ""
+msgstr "មិន​អាច​ទទួល​បាន​ការជូនដំណឹង​អំពី​ឯកជនភាព​បាន​ទេ"
 
 #: app/scripts/lib/auth-errors.js:186
 msgid "Could not get Terms of Service"
-msgstr ""
+msgstr "មិន​អាច​ទទួល​លក្ខខណ្ឌ​ប្រើប្រាស់​បាន​ទេ"
 
 #: app/scripts/lib/auth-errors.js:190
 msgid "Your new password must be different"
-msgstr ""
+msgstr "ពាក្យ​សម្ងាត់​ថ្មី​របស់​អ្នក​ត្រូវតែ​ខុសពី​មុន"
 
 #: app/scripts/lib/auth-errors.js:194 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
-msgstr ""
+msgstr "ត្រូវតែ​មាន​យ៉ាងហោចណាស់ 8 តួអក្សរ"
 
 #: app/scripts/lib/auth-errors.js:198
 msgid "Valid password required"
-msgstr ""
+msgstr "តម្រូវ​ឲ្យ​បញ្ចូល​ពាក្យ​សម្ងាត់​ត្រឹមត្រូវ"
 
 #: app/scripts/lib/auth-errors.js:202 app/scripts/lib/auth-errors.js:240 app/scripts/lib/auth-errors.js:256
 msgid "Valid email required"
-msgstr ""
+msgstr "តម្រូវឲ្យ​មាន​អ៊ីមែល​ត្រឹមត្រូវ"
 
 #: app/scripts/lib/auth-errors.js:213
 msgid "A usable image was not found"
-msgstr ""
+msgstr "រក​មិន​ឃើញ​រូបភាព​ដែល​អាច​ប្រើប្រាស់​បាន"
 
 #: app/scripts/lib/auth-errors.js:217
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "មិន​អាច​ចាប់ផ្ដើម​កាមេរ៉ា"
 
 #: app/scripts/lib/auth-errors.js:221
 msgid "Valid URL required"
-msgstr ""
+msgstr "តម្រូវ​ឲ្យ​មាន URL ត្រឹមត្រូវ"
 
 #: app/scripts/lib/auth-errors.js:236
 msgid "Your verification email was just returned. Mistyped email?"
