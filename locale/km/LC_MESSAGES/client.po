@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-04-23 02:29+0000\n"
+"PO-Revision-Date: 2017-04-23 05:26+0000\n"
 "Last-Translator: piseth.kheng <piseth.kheng@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: km\n"
@@ -76,15 +76,15 @@ msgstr "មិន​ស្គាល់​គណនី Firefox ។ <a href=\"/si
 
 #: app/scripts/views/sign_up.js:63
 msgid "Account no longer exists. Recreate it?"
-msgstr ""
+msgstr "គណនី​លែង​មាន​ទៀត​ហើយ។ បង្កើត​វា​ឡើងវិញ?"
 
 #: app/scripts/views/sign_up.js:383
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr ""
+msgstr "គណនី​មាន​រួច​ហើយ។ <a href=\"/signin\">ចូល</a>"
 
 #: app/scripts/views/sms_sent.js:24
 msgid "App link resent to %(phoneNumber)s"
-msgstr ""
+msgstr "បាន​ផ្ញើ​តំណ​កម្មវិធី​​​ទៅ​កាន់ %(phoneNumber)s ឡើងវិញ"
 
 #: app/scripts/views/settings/avatar_gravatar.js:93
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
@@ -92,75 +92,77 @@ msgstr ""
 
 #: app/scripts/views/settings/change_password.js:52
 msgid "Password changed successfully"
-msgstr ""
+msgstr "បាន​ផ្លាស់ប្ដូរ​ពាក្យសម្ងាត់​ដោយ​ជោគជ័យ"
 
 #: app/scripts/views/settings/client_disconnect.js:17
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr ""
+msgstr "យើង​សោកស្ដាយ​ដែល​បាន​ដឹង​អំពី​រឿង​នេះ។ អ្នក​គួរតែ​ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​គណនី Firefox របស់​អ្នក រួច​​រក​មើល​ព័ត៌មាន​ពី​រោងចក្រ​ឧបករណ៍​របស់​អ្នក​អំពី​ការលុប​ទិន្នន័យ​របស់​អ្នក​ពី​ចម្ងាយ។"
 
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr ""
+"យើង​សោកស្ដាយ​ដែល​បាន​ដឹង​អំពី​រឿង​នេះ។ បើ​នេះ​ជា​ឧបករណ៍​ដែល​អ្នក​មិន​ទុកចិត្ត​ទេ អ្នក​គួរតែ​ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​គណនី Firefox របស់​អ្នក "
+"និង​ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​ទាំងឡាយ​​ដែល​បាន​រក្សាទុក​នៅ​ក្នុង Firefox ។"
 
 #: app/scripts/views/settings/clients.js:63
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "សម័យ​​បណ្ដាញ %(userAgent)s"
 
 #: app/scripts/views/settings/clients.js:65
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "សកម្ម​ចុងក្រោយ %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/communication_preferences.js:104
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "បាន​ជាវ​ដោយ​ជោគជ័យ"
 
 #: app/scripts/views/settings/communication_preferences.js:105
 msgid "Unsubscribed successfully"
-msgstr ""
+msgstr "បាន​ឈប់​ជាវ​ដោយ​ជោគជ័យ"
 
 #: app/scripts/views/settings/delete_account.js:45
 msgid "Account deleted successfully"
-msgstr ""
+msgstr "បាន​លុប​គណនី​ដោយ​ជោគជ័យ"
 
 #: app/scripts/views/settings/display_name.js:66
 msgid "Display name updated"
-msgstr ""
+msgstr "បាន​ប្ដូរ​ឈ្មោះ​បង្ហាញ​ថ្មី"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "គណនី​របស់​អ្នក​ត្រូវបាន​បិទ​ដោយ​សារ​បញ្ហា​សុវត្ថិភាព"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:44
 msgid "Reset password"
-msgstr ""
+msgstr "កំណត់​ពាក្យ​សម្ងាត់​ឡើងវិញ"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
-msgstr ""
+msgstr "បើក Gmail"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:25
 msgid "Open Hotmail"
-msgstr ""
+msgstr "បើក Hotmail"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:31
 msgid "Open Yahoo"
-msgstr ""
+msgstr "បើក Yahoo"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:37
 msgid "Open Outlook"
-msgstr ""
+msgstr "បើក Outlook"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:43
 msgid "Open Restmail"
-msgstr ""
+msgstr "បើក Restmail"
 
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
-msgstr ""
+msgstr "បាន​ផ្ញើ​អ៊ីមែល​ឡើងវិញ"
 
 #: app/scripts/models/reliers/sync.js:50
 msgid "Firefox Sync"
