@@ -1,74 +1,78 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-04-23 02:29+0000\n"
+"Last-Translator: piseth.kheng <piseth.kheng@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: km\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pontoon\n"
 
 #: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:186 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
 msgid "Account verified successfully"
-msgstr ""
+msgstr "គណនី​ត្រូវបាន​ផ្ទៀងផ្ទាត់​ដោយ​ជោគជ័យ"
 
 #: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:39
 msgid "Password reset"
-msgstr ""
+msgstr "ពាក្យ​សម្ងាត់​ត្រូវបាន​កំណត់​ឡើងវិញ"
 
 #: app/scripts/views/confirm_reset_password.js:188
 msgid "Password reset successfully. Sign in to continue."
-msgstr ""
+msgstr "ពាក្យ​សម្ងាត់​ត្រូវបាន​កំណត់​ឡើងវិញ​ដោយ​ជោគជ័យ។ សូម​ចូល ដើម្បី​បន្ត។"
 
 #: app/scripts/views/permissions.js:26
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName)s (តម្រូវឲ្យមាន)"
 
 #: app/scripts/views/permissions.js:32
 msgid "Email address"
-msgstr ""
+msgstr "អាសយដ្ឋាន​អ៊ីមែល"
 
 #: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:6
 msgid "Display name"
-msgstr ""
+msgstr "ឈ្មោះ​ដែល​បង្ហាញ"
 
 #: app/scripts/views/permissions.js:41 app/scripts/templates/settings/avatar.mustache:1
 msgid "Account picture"
-msgstr ""
+msgstr "រូបភាព​គណនី"
 
 #: app/scripts/views/ready.js:34
 msgid "Welcome back"
-msgstr ""
+msgstr "ស្វាគមន៍​ការ​ត្រឡប់​មកវិញ"
 
 #: app/scripts/views/ready.js:35
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "Firefox Sync នឹង​បន្ត​ឆាប់ៗ"
 
 #: app/scripts/views/ready.js:40
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "បញ្ចប់​ការដំឡើង​ដោយ​បញ្ចូល​ពាក្យ​សម្ងាត់​ថ្មី​នៅ​លើ​ឧបករណ៍ Firefox ផ្សេង​ទៀត​របស់​អ្នក។"
 
 #: app/scripts/views/ready.js:45
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "ការ​ចូល​ត្រូវបាន​បញ្ជាក់"
 
 #: app/scripts/views/ready.js:46 app/scripts/views/ready.js:51 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
-msgstr ""
+msgstr "ឥឡូវ អ្នក​អាច​ប្រើ​ប្រាស់​ %(serviceName)s បាន​ហើយ"
 
 #: app/scripts/views/ready.js:50
 msgid "Account verified"
-msgstr ""
+msgstr "គណនី​ត្រូវបាន​ផ្ទៀងផ្ទាត់"
 
 #: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "មិន​ស្គាល់​គណនី។ <a href=\"/signup\">ចុះឈ្មោះ</a>"
 
 #: app/scripts/views/sign_in.js:174
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr ""
+msgstr "មិន​ស្គាល់​គណនី Firefox ។ <a href=\"/signup\">ចុះឈ្មោះ</a> ប្រើប្រាស់​អាសយដ្ឋាន​អ៊ីមែល​​គណនី​កម្មវិធី​បន្ថែម​មុនៗ​របស់​អ្នក ដើម្បី​ចូលប្រើប្រាស់​ទិន្នន័យ​កម្មវិធី​បន្ថែម​របស់​អ្នក។"
 
 #: app/scripts/views/sign_up.js:63
 msgid "Account no longer exists. Recreate it?"
@@ -516,9 +520,7 @@ msgid "SMS not sent, please try again"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
