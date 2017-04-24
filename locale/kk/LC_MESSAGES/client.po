@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-04-19 09:18+0000\n"
+"PO-Revision-Date: 2017-04-24 07:39+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -52,7 +52,7 @@ msgstr "Firefox синхронизациясы қазір жалғастырыл
 
 #: app/scripts/views/ready.js:40
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "Баптауды аяқтау үшін басқа Firefox құрылғыларыңызда жаңа парольді енгізіңіз."
 
 #: app/scripts/views/ready.js:45
 msgid "Sign-in confirmed"
@@ -177,11 +177,11 @@ msgstr "Эл. пошта адресін растау үшін сіз шертк�
 
 #: app/scripts/lib/auth-errors.js:21 app/scripts/lib/sms-errors.js:17
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "Тым көп талаптар санын жасадыңыз. Кейінірек қайталап көріңіз."
 
 #: app/scripts/lib/auth-errors.js:25
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "Тым көп талаптар санын жасадыңыз. %(retryAfterLocalized)s кейін қайталап көріңіз."
 
 #: app/scripts/lib/auth-errors.js:35 app/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
@@ -289,7 +289,7 @@ msgstr "Жүйе бос емес, біраздан кейін қайталап �
 
 #: app/scripts/lib/auth-errors.js:162
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Кіру талабынан бас тартылды"
 
 #: app/scripts/lib/auth-errors.js:166
 msgid "Session expired. Sign in to continue."
@@ -505,7 +505,7 @@ msgstr ""
 
 #: app/scripts/lib/require-on-demand.js:47
 msgid "Script error"
-msgstr ""
+msgstr "Скрипт қатесі"
 
 #: app/scripts/lib/sms-errors.js:23
 msgid "SMS sent"
@@ -513,7 +513,7 @@ msgstr "SMS жіберілді"
 
 #: app/scripts/lib/sms-errors.js:55
 msgid "Your number has been blocked"
-msgstr ""
+msgstr "Сіздің нөміріңіз блокталған"
 
 #: app/scripts/lib/sms-errors.js:79
 msgid "SMS not sent, please try again"
