@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-04-17 21:55+0000\n"
+"PO-Revision-Date: 2017-04-25 14:15+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -266,11 +266,11 @@ msgstr "До този номер съобщение не може да бъде 
 
 #: app/scripts/lib/auth-errors.js:138
 msgid "Your email was just returned"
-msgstr ""
+msgstr "Писмо е върнато"
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Писмо е върнато. Може би адресът на ел. поща е сгрешен?"
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
@@ -346,7 +346,7 @@ msgstr "Необходим е валиден URL"
 
 #: app/scripts/lib/auth-errors.js:236
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr "Потвърждаващото писмо беше върнато. Сгрешен адрес на ел. поща?"
+msgstr "Потвърждаващото писмо е върнато. Може би адресът на ел. поща е сгрешен?"
 
 #: app/scripts/lib/auth-errors.js:244
 msgid "Enter a valid email address. firefox.com does not offer email."
