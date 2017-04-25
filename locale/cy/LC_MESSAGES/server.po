@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2016-08-10 16:01+0000\n"
+"PO-Revision-Date: 2017-04-25 19:14+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -28,13 +28,13 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Rydych wedi cysylltu eich dyfais cyntaf yn llwyddiannus i'ch Cyfrif Firefox. Nawr mae modd chi fewngofnodi i Sync o'ch dyfeisiau eraill, gan gynnwys Firefox <a href='%(androidUrl)s'>Android</a> a "
-"<a href='%(iosUrl)s'>iOS</a>."
+"Rydych wedi cysylltu eich dyfais cyntaf yn llwyddiannus i'ch Cyfrif Firefox. Nawr mae modd chi fewngofnodi i Sync o'ch dyfeisiau eraill, gan gynnwys Firefox <a href='%(androidUrl)s'>Android</a> a <a"
+" href='%(iosUrl)s'>iOS</a>."
 
 #: lib/senders/templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Rydych wedi cysylltu eich dyfais cyntaf yn llwyddiannus i'ch Cyfrif Firefox. I wneud y gorau o Sync, cysylltwch ag unrhyw <a href='%(androidUrl)s'>Firefox  Android</a> neu <a "
 "href='%(iosUrl)s'>Firefox iOS</a>."
@@ -78,8 +78,8 @@ msgstr "Am wybodaeth bellach, ewch i <a %(supportLinkAttributes)s>Mozilla Suppor
 
 #: lib/senders/templates/new_device_login.html:6 lib/senders/templates/new_device_login.txt:5 lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6
 #: lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5 lib/senders/templates/password_reset_required.html:10 lib/senders/templates/password_reset_required.txt:9
-#: lib/senders/templates/post_verify.html:7 lib/senders/templates/post_verify.txt:6 lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7
-#: lib/senders/templates/unblock_code.html:6 lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verification_reminder_first.html:7 lib/senders/templates/verification_reminder_first.txt:6
+#: lib/senders/templates/post_verify.html:7 lib/senders/templates/post_verify.txt:6 lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6
+#: lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verification_reminder_first.html:7 lib/senders/templates/verification_reminder_first.txt:6
 #: lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verification_reminder_second.txt:6 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6
 #: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
@@ -87,7 +87,7 @@ msgstr "Polisi Preifatrwydd Mozilla"
 
 #: lib/senders/templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr ""
+msgstr "Mae hwn yn e-bost awtomatig; os nad oeddech wedi ychwanegu dyfais newydd i'ch Cyfrif Firefox, dylech newid eich cyfrinair yn syth yn %(passwordChangeLink)s"
 
 #: lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4 lib/senders/templates/post_verify.txt:5
 #: lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:5 lib/senders/templates/verification_reminder_second.txt:5 lib/senders/templates/verify.txt:5
@@ -101,7 +101,7 @@ msgstr "Mae'r cyfrinair wedi ei newid yn llwyddiannus"
 
 #: lib/senders/templates/password_changed.html:3 lib/senders/templates/password_changed.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr ""
+msgstr "Mae eich cyfrinair Cyfrif Firefox wedi ei newid yn llwyddiannus o'r ddyfais ganlynol:"
 
 #: lib/senders/templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
@@ -199,7 +199,7 @@ msgstr "Wedi anghofio eich cyfrinair?"
 
 #: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
-msgstr ""
+msgstr "Cliciwch y botwm o fewn yr awr nesaf i osod cyfrinair newydd ar gyfer eich Cyfrif Firefox. Daeth y cais o'r ddyfais ganlynol:"
 
 #: lib/senders/templates/recovery.html:5 lib/senders/templates/recovery.txt:4
 msgid "Reset password"
@@ -207,15 +207,15 @@ msgstr "Ailosod y cyfrinair"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
-msgstr ""
+msgstr "Yn ôl eich cais, dyma ddolen i osod Firefox ar eich dyfais symudol: %(link)s"
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1
 msgid "Is this you signing in?"
-msgstr ""
+msgstr "Ai hwn yw chi'n allgofnodi?"
 
 #: lib/senders/templates/unblock_code.html:4 lib/senders/templates/unblock_code.txt:3
 msgid "If yes, here is the authorization code you need:"
-msgstr ""
+msgstr "Os ie, dyma'r cod awdurdodi sydd ei angen arnoch:"
 
 #: lib/senders/templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
@@ -231,8 +231,8 @@ msgstr "Helo eto."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 "Ychydig ddyddiau'n ôl, roeddech wedi creu Cyfrif Firefox ond heb ei wirio. Mae cyfrif wedi ei wirio'n caniatáu i chi gael mynediad at eich tabiau, nodau tudalen, cyfrineiriau a hanes ar unrhyw "
 "ddyfais sydd wedi cysylltu iddo. Cadarnhewch y cyfeiriad e-bost hwn i wirio eich cyfrif."
