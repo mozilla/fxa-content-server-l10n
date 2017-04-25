@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-04-25 19:17+0000\n"
+"PO-Revision-Date: 2017-04-25 20:23+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -287,27 +287,27 @@ msgstr "Un, dau, tri, cydweddu"
 
 #: lib/senders/templates/verify_sync.html:3 lib/senders/templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "Cadarnhewch eich bod wedi derbyn yr e-bost hwn ac mi wnawn ni eich cynorthwyo i osod a chydweddu Firefox ar eich holl ddyfeisiau gan gychwyn gyda:"
 
 #: lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
 msgid "Verify email "
-msgstr ""
+msgstr "Dilysu'r e-bost "
 
 #: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "Unwaith iddo gael ei gadarnhau, byddwn yn eich cynorthwyo i osod a chysylltu Firefox ar o leiaf un ddyfais arall."
 
 #: lib/senders/email.js:153
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
-msgstr ""
+msgstr "%(uaBrowser)s ar %(uaOS)s %(uaOSVersion)s"
 
 #: lib/senders/email.js:156
 msgid "%(uaBrowser)s on %(uaOS)s"
-msgstr ""
+msgstr "%(uaBrowser)s ar %(uaOS)s"
 
 #: lib/senders/email.js:183
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(stateCode)s, %(country)s (amcan)"
 
 #: lib/senders/email.js:185
 msgid "%(city)s, %(country)s (estimated)"
@@ -315,7 +315,7 @@ msgstr "%(city)s, %(country)s (amcan)"
 
 #: lib/senders/email.js:187
 msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(stateCode)s, %(country)s (amcan)"
 
 #: lib/senders/email.js:189
 msgid "%(country)s (estimated)"
@@ -327,11 +327,11 @@ msgstr "Gwiriwch eich Cyfrif Firefox"
 
 #: lib/senders/email.js:310
 msgid "Confirm your email and start to sync!"
-msgstr ""
+msgstr "Cadarnewch eich e-bost a chychwyn cydweddu!"
 
 #: lib/senders/email.js:367
 msgid "Firefox Account authorization code"
-msgstr ""
+msgstr "Cod awdurdodi Cyfrif Firefox"
 
 #: lib/senders/email.js:419
 msgid "Confirm new sign-in to Firefox"
@@ -355,7 +355,7 @@ msgstr "Mae angen ailosod cyfrinair eich Cyfrif Firefox"
 
 #: lib/senders/email.js:655
 msgid "Firefox Account verified"
-msgstr ""
+msgstr "Cyfrif Firefox wedi ei wirio"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
