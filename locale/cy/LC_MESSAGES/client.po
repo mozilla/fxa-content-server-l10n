@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-04-25 13:51+0000\n"
+"PO-Revision-Date: 2017-04-25 13:56+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -582,7 +582,7 @@ msgstr "Dysgu rhagor."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s created"
-msgstr ""
+msgstr "Crëwyd %(email)s"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
@@ -590,7 +590,7 @@ msgstr "Dewis beth i gydweddu"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:3
 msgid "Open tabs"
-msgstr ""
+msgstr "Agor tabiau"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Bookmarks"
@@ -670,7 +670,7 @@ msgstr "Cyflwynwch gyfrinair newydd"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Sign-in already confirmed"
-msgstr ""
+msgstr "Mae'r mewngofnod eisoes wedi ei gadarnhau"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
@@ -698,7 +698,7 @@ msgstr "Anfonwyd yr e-bost"
 
 #: app/scripts/templates/confirm.mustache:6
 msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Mae dolen dilysu wedi ei hanfon &nbsp; at %(escapedEmail)s"
 
 #: app/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
@@ -707,7 +707,7 @@ msgstr "I diogelu eich data Firefox yn well, rydym wedi e-bostio dolen yn cadarn
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive and not in spam folder? Resend"
-msgstr ""
+msgstr "Heb gyrraedd a ddim yn y ffolder sbam? Ail anfon"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -719,19 +719,19 @@ msgstr "Cliciwch ar y ddolen rydym wedi ei hanfon atoch i %(email)s o fewn yr aw
 
 #: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "Cofio eich cyfrinair? Mewngofnodwch"
 
 #: app/scripts/templates/connect_another_device.mustache:1
 msgid "Connect another device"
-msgstr ""
+msgstr "Cysylltu i ddyfais arall"
 
 #: app/scripts/templates/connect_another_device.mustache:2
 msgid "This device is connected"
-msgstr ""
+msgstr "Mae'r ddyfais hon wedi ei chysylltu"
 
 #: app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
-msgstr ""
+msgstr "Dilyswyd yr e-bost"
 
 #: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:3
 msgid "Success"
@@ -739,27 +739,27 @@ msgstr "Llwyddiant"
 
 #: app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign in to this Firefox to complete set-up"
-msgstr ""
+msgstr "Mewngofnodwch i'r Firefox hwn i gwblhau'r gosod"
 
 #: app/scripts/templates/connect_another_device.mustache:7
 msgid "Sign in &rarr;"
-msgstr ""
+msgstr "Mewngofnodi &rarr;"
 
 #: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Mewngofnodwch i Firefox ar ddyfais arall i gwblhau'r gosod"
 
 #: app/scripts/templates/connect_another_device.mustache:13
 msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr ""
+msgstr "Agorwch y gosodiadau a dewis Mewngofnodi i Firefox i gwblhau'r gosod"
 
 #: app/scripts/templates/connect_another_device.mustache:15
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
+msgstr "Mewngofnodwch i Firefox Android i gwblhau'r gosod"
 
 #: app/scripts/templates/connect_another_device.mustache:17
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
+msgstr "Mewngofnodwch i Firefox iOS i gwblhau'r gosod"
 
 #: app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
 msgid "Why is this required?"
