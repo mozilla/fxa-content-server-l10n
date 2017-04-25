@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-04-25 13:30+0000\n"
+"PO-Revision-Date: 2017-04-25 13:51+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -157,7 +157,7 @@ msgstr "Agor Outlook"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:43
 msgid "Open Restmail"
-msgstr ""
+msgstr "Agor Restmail"
 
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
@@ -178,11 +178,11 @@ msgstr "Mae'r ddolen rydych newydd ei chlicio i ddilysu eich e-bost wedi dod i b
 
 #: app/scripts/lib/auth-errors.js:21 app/scripts/lib/sms-errors.js:17
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "Rydych wedi cynnig gormod o weithiau. Ceisiwch yn hwyrach."
 
 #: app/scripts/lib/auth-errors.js:25
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "Rydych wedi cynnig gormod o weithiau. Ceisiwch yn hwyrach %(retryAfterLocalized)s."
 
 #: app/scripts/lib/auth-errors.js:35 app/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
@@ -250,31 +250,31 @@ msgstr "Cafodd y cais ei rwystro am resymau diogelwch"
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347
 msgid "Invalid authorization code"
-msgstr ""
+msgstr "Cod awdurdodi annilys"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Rhif ffôn annilys"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "Methu anfon i'r wlad hon"
 
 #: app/scripts/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "Methu anfon neges i'r rhif yma"
 
 #: app/scripts/lib/auth-errors.js:138
 msgid "Your email was just returned"
-msgstr ""
+msgstr "Cafodd eich e-bost ei ddychwelyd"
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Cafodd eich e-bost ei ddychwelyd. E-bost wedi ei gam-deipio?"
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "Methu anfon yr e-bost"
 
 #: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327
 msgid "Server busy, try again soon"
@@ -290,7 +290,7 @@ msgstr "Nid yw'r system ar gael, ceisiwch eto cyn bo hir."
 
 #: app/scripts/lib/auth-errors.js:162
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Diddymwyd yr ymgais i fewngofnodi"
 
 #: app/scripts/lib/auth-errors.js:166
 msgid "Session expired. Sign in to continue."
@@ -398,39 +398,39 @@ msgstr "Priodwedd data coll: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:335 app/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "Mae'r ddolen cadarnhau honno wedi ei defnyddio eisoes a dim ond unwaith mae modd ie defnyddio."
 
 #: app/scripts/lib/auth-errors.js:339
 msgid "This is a required field"
-msgstr ""
+msgstr "Mae hwn yn faes angenrheidiol"
 
 #: app/scripts/lib/auth-errors.js:343
 msgid "Authorization code required"
-msgstr ""
+msgstr "Mae angen cod awdurdodi"
 
 #: app/scripts/lib/auth-errors.js:351 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
-msgstr ""
+msgstr "Mae'r ddolen wedi ei difrodi"
 
 #: app/scripts/lib/auth-errors.js:374
 msgid "Phone number required"
-msgstr ""
+msgstr "Mae angen rhif ffôn"
 
 #: app/scripts/lib/config-loader.js:87
 msgid "Missing configuration"
-msgstr ""
+msgstr "Ffurfweddiad coll"
 
 #: app/scripts/lib/config-loader.js:91
 msgid "Invalid configuration"
-msgstr ""
+msgstr "Ffurfweddiad annilys"
 
 #: app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "A oeddech chi'n golygu <span tabindex=\"1\">%(escapedDomain)s</span>?"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
-msgstr ""
+msgstr "Ceisiwch eto'n hwyrach"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -498,27 +498,27 @@ msgstr "Gwall prosesu delwedd"
 
 #: app/scripts/lib/require-on-demand.js:39
 msgid "Resources failed to load"
-msgstr ""
+msgstr "Methodd yr adnoddau â llwytho"
 
 #: app/scripts/lib/require-on-demand.js:43
 msgid "Unexpected resource error"
-msgstr ""
+msgstr "Gwall adnodd annisgwyl"
 
 #: app/scripts/lib/require-on-demand.js:47
 msgid "Script error"
-msgstr ""
+msgstr "Gwall sgript"
 
 #: app/scripts/lib/sms-errors.js:23
 msgid "SMS sent"
-msgstr ""
+msgstr "Anfonwyd yr sms"
 
 #: app/scripts/lib/sms-errors.js:55
 msgid "Your number has been blocked"
-msgstr ""
+msgstr "Mae eich rhif wedi ei rwystro"
 
 #: app/scripts/lib/sms-errors.js:79
 msgid "SMS not sent, please try again"
-msgstr ""
+msgstr "Heb anfon SMS, ceisiwch eto"
 
 #: app/scripts/lib/strings.js:22
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
@@ -550,7 +550,7 @@ msgstr "Er mwyn cryfhau eich diogelwch, cadarnhewch y mewngofnodi er mwyn cychwy
 
 #: app/scripts/lib/strings.js:43
 msgid "Web Session"
-msgstr ""
+msgstr "Sesiwn Gwe"
 
 #: app/scripts/lib/strings.js:49
 msgid "Sign in"
