@@ -996,7 +996,7 @@ msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
 "Mae'r gwasanaeth SMS ar gael i rifau ffôn yr UDA yn unig. Gall graddfeydd talu SMS&amp; gael eu defnyddio. Rhaid i dderbyniwr bwriadol yr e-bost neu SMS fod wedi cydsynio. "
-"<a%(escapedLearnMoreAttributes)s >Dysgu rhagor</a>"
+"<a %(escapedLearnMoreAttributes)s >Dysgu rhagor</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
@@ -1008,7 +1008,7 @@ msgstr "Gosodwch Firefox ar eich ffôn clyfar a mewngofnodwch i gwblhau'r gosod"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr "Anfonwyd dolen yr ap i %(escapedPhoneNumber)s. <a%(escapedBackLinkAttrs)s> Rhif wedi ei gam deipio?</a>"
+msgstr "Anfonwyd dolen yr ap i %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s> Rhif wedi ei gam deipio?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
