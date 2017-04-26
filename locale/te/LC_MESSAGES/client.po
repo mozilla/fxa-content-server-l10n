@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-04-24 11:18+0000\n"
+"PO-Revision-Date: 2017-04-26 09:48+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -429,7 +429,7 @@ msgstr "అంటే మీరు అనేది <span tabindex=\"1\">%(escaped
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
-msgstr ""
+msgstr "దయచేసి కాసేపాగి ప్రయత్నించండి"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -964,7 +964,7 @@ msgstr "ఒక బలమైన, ఏకైక పాస్వర్డ్�
 
 #: app/scripts/templates/sign_up.mustache:19
 msgid "Receive the monthly Firefox newsletter"
-msgstr ""
+msgstr "నెలసరి ఫైర్‌ఫాక్స్ న్యూస్‌లెటర్ అందుకోండి"
 
 #: app/scripts/templates/sign_up.mustache:21
 msgid "Create account"
@@ -1003,11 +1003,11 @@ msgstr "బహుశా తర్వాత"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "అమర్పును పూర్తిచెయ్యడానికి Firefoxని మీ స్మార్టుఫోనులో స్థాపించుకుని, ప్రవేశించండి"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr ""
+msgstr "అప్ లింక్ %(escapedPhoneNumber)sకి పంపించాము. <a %(escapedBackLinkAttrs)s>నెంబర్ తప్పుగా నొక్కారా?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
