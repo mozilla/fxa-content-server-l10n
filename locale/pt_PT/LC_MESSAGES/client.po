@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-04-23 21:27+0000\n"
+"PO-Revision-Date: 2017-04-27 22:07+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -68,11 +68,11 @@ msgstr "Conta verificada"
 
 #: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr "Conta desconhecida. <a href=\"/signup\">Criar conta</a>"
+msgstr "Conta desconhecida. <a href=\"/signup\">Registar</a>"
 
 #: app/scripts/views/sign_in.js:174
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr "Conta Firefox desconhecida. <a href=\"/signup\">Inicie sessão</a> utilizando o endereço de email da sua conta Extras anterior para aceder aos seus dados de Extras."
+msgstr "Conta Firefox desconhecida. <a href=\"/signup\">Registe-se</a> utilizando o endereço de email da sua conta Extras anterior para aceder aos seus dados de Extras."
 
 #: app/scripts/views/sign_up.js:63
 msgid "Account no longer exists. Recreate it?"
@@ -372,7 +372,7 @@ msgstr "O registo chegará em breve ao Firefox para iOS"
 
 #: app/scripts/lib/auth-errors.js:294
 msgid "You must enter your age to sign up"
-msgstr "Deve inserir a sua idade para registar"
+msgstr "Deve inserir a sua idade para se registar"
 
 #: app/scripts/lib/auth-errors.js:298
 msgid "No Gravatar found"
@@ -911,7 +911,7 @@ msgstr "Terminar sessão"
 
 #: app/scripts/templates/sign_in.mustache:4
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-msgstr "À procura dos seus dados de Extras? <a href=\"/signup\">Inicie sessão</a> para uma Conta Firefox com o endereço de email da sua conta Extras antiga."
+msgstr "À procura dos seus dados de Extras? <a href=\"/signup\">Registe-se</a> para uma Conta Firefox com o endereço de email da sua conta Extras antiga."
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
@@ -963,7 +963,7 @@ msgstr "Migre os seus dados de sincronização criando uma nova Conta&nbsp;Firef
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr "À procura dos seus dados de Extras? Inicie sessão para uma Conta Firefox com o endereço de email da sua conta Extras antiga."
+msgstr "À procura dos seus dados de Extras? Registe-se para uma Conta Firefox com o endereço de email da sua conta Extras antiga."
 
 #: app/scripts/templates/sign_up.mustache:17
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
