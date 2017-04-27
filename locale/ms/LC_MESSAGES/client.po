@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-04-27 03:28+0000\n"
+"PO-Revision-Date: 2017-04-27 03:47+0000\n"
 "Last-Translator: manxmensch <manxmensch@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ms\n"
@@ -201,435 +201,435 @@ msgstr "Akaun telah wujud"
 
 #: app/scripts/lib/auth-errors.js:51
 msgid "Unknown account"
-msgstr ""
+msgstr "Akaun tidak dikenali"
 
 #: app/scripts/lib/auth-errors.js:55
 msgid "Incorrect email case"
-msgstr ""
+msgstr "Bentuk emel salah"
 
 #: app/scripts/lib/auth-errors.js:59
 msgid "Incorrect password"
-msgstr ""
+msgstr "Kata laluan salah"
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
-msgstr ""
+msgstr "Akaun tidak disahkan"
 
 #: app/scripts/lib/auth-errors.js:67
 msgid "Invalid verification code"
-msgstr ""
+msgstr "Kod pengesahan tidak sah"
 
 #: app/scripts/lib/auth-errors.js:71
 msgid "Invalid JSON in request body"
-msgstr ""
+msgstr "Permintaan JSON tidah sah di dalam permintaan"
 
 #: app/scripts/lib/auth-errors.js:75
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "Parameter tidak sah: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:79
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "Parameter tidak dijumpai: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:83
 msgid "Invalid request signature"
-msgstr ""
+msgstr "Permintaan tanda tangan tidak sah"
 
 #: app/scripts/lib/auth-errors.js:87
 msgid "Missing content-length header"
-msgstr ""
+msgstr "Content-length pengepala tidak dijumpai"
 
 #: app/scripts/lib/auth-errors.js:91
 msgid "Request body too large"
-msgstr ""
+msgstr "Permintaan terlalu besar"
 
 #: app/scripts/lib/auth-errors.js:109
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "Permintaan dihalang atas faktor keselamatan"
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347
 msgid "Invalid authorization code"
-msgstr ""
+msgstr "Kod pengesahan tidah sah"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Nombor telefon tidak sah"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "Tidak boleh menghantar ke negara ini"
 
 #: app/scripts/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "Tidak dapat menghantar mesej ke nombor ini"
 
 #: app/scripts/lib/auth-errors.js:138
 msgid "Your email was just returned"
-msgstr ""
+msgstr "E-mel anda telah dikembalikan semula"
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "E-mel anda telah dikembalikan semula. Ralat e-mel?"
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "E-mel tidak berjaya dihantar"
 
 #: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Pelayan sedang sibuk, cuba lagi sebentar lagi"
 
 #: app/scripts/lib/auth-errors.js:154
 msgid "This endpoint is no longer supported"
-msgstr ""
+msgstr "Endpoint ini tidak lagi disokong"
 
 #: app/scripts/lib/auth-errors.js:158 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Sistem tidak ada, sila cuba sebentar lagi"
 
 #: app/scripts/lib/auth-errors.js:162
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Cubaan log masuk dibatalkan"
 
 #: app/scripts/lib/auth-errors.js:166
 msgid "Session expired. Sign in to continue."
-msgstr ""
+msgstr "Sesi telah luput. Daftar masuk untuk menyambung."
 
 #: app/scripts/lib/auth-errors.js:170
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Kuki masih lagi dinyahdayakan"
 
 #: app/scripts/lib/auth-errors.js:174
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Kata laluan tidak padan"
 
 #: app/scripts/lib/auth-errors.js:178
 msgid "Working…"
-msgstr ""
+msgstr "Memproses…"
 
 #: app/scripts/lib/auth-errors.js:182
 msgid "Could not get Privacy Notice"
-msgstr ""
+msgstr "Tidak berjaya mendapatkan Notis Privasi"
 
 #: app/scripts/lib/auth-errors.js:186
 msgid "Could not get Terms of Service"
-msgstr ""
+msgstr "Tidak berjaya mendapatkan Terma Servis"
 
 #: app/scripts/lib/auth-errors.js:190
 msgid "Your new password must be different"
-msgstr ""
+msgstr "Kata laluan baharu anda hendaklah berbeza"
 
 #: app/scripts/lib/auth-errors.js:194 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
-msgstr ""
+msgstr "Hendaklah sekurang-kurangnya 8 aksara"
 
 #: app/scripts/lib/auth-errors.js:198
 msgid "Valid password required"
-msgstr ""
+msgstr "Kata laluan yang sah diperlukan"
 
 #: app/scripts/lib/auth-errors.js:202 app/scripts/lib/auth-errors.js:240 app/scripts/lib/auth-errors.js:256
 msgid "Valid email required"
-msgstr ""
+msgstr "Email yang sah diperlukan"
 
 #: app/scripts/lib/auth-errors.js:213
 msgid "A usable image was not found"
-msgstr ""
+msgstr "Imej yang berguna tidak dijumpai"
 
 #: app/scripts/lib/auth-errors.js:217
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "Tidak berjaya mengasal kamera"
 
 #: app/scripts/lib/auth-errors.js:221
 msgid "Valid URL required"
-msgstr ""
+msgstr "URL yang sah diperlukan"
 
 #: app/scripts/lib/auth-errors.js:236
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "E-mel pengesahan anda baru sahaja dikembalikan. Ralat e-mel?"
 
 #: app/scripts/lib/auth-errors.js:244
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "Masukkan alamat e-mel yang sah. firefox.com tidak menawarkan e-mel."
 
 #: app/scripts/lib/auth-errors.js:252
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Akaun Firefox hanya boleh diletakkan di IFRAME pada laman yang dibenarkan sahaja"
 
 #: app/scripts/lib/auth-errors.js:271 app/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Pautan pengesahan telah rosak"
 
 #: app/scripts/lib/auth-errors.js:279
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "Dimensi imej mestilah sekurang-kurangnya 100x100px"
 
 #: app/scripts/lib/auth-errors.js:283
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "Pendaftaran akan datang pada Firefox untuk iOS"
 
 #: app/scripts/lib/auth-errors.js:294
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "Anda hendaklah memasukkan umur untuk mendaftar"
 
 #: app/scripts/lib/auth-errors.js:298
 msgid "No Gravatar found"
-msgstr ""
+msgstr "Gravatar tidak dijumpai"
 
 #: app/scripts/lib/auth-errors.js:306
 msgid "Account no longer exists."
-msgstr ""
+msgstr "Akaun tidak lagi wujud."
 
 #: app/scripts/lib/auth-errors.js:310
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "Pemilikan tidak sah pada token penyambungan: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:314
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "Pemilikan tidak dijumpai di dalam token penyambungan: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:318
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "Data atribut tidak sah: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:322
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "Data atribut tidak dijumpai: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:335 app/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "Pautan pengesahan telah digunakan, ia hanya boleh digunakan sekali sahaja."
 
 #: app/scripts/lib/auth-errors.js:339
 msgid "This is a required field"
-msgstr ""
+msgstr "Ruangan ini wajib dipenuhkan"
 
 #: app/scripts/lib/auth-errors.js:343
 msgid "Authorization code required"
-msgstr ""
+msgstr "Kod pengesahan diperlukan"
 
 #: app/scripts/lib/auth-errors.js:351 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
-msgstr ""
+msgstr "Pautan rosak"
 
 #: app/scripts/lib/auth-errors.js:374
 msgid "Phone number required"
-msgstr ""
+msgstr "Nombor telefon diperlukan"
 
 #: app/scripts/lib/config-loader.js:87
 msgid "Missing configuration"
-msgstr ""
+msgstr "Konfigurasi tidak dijumpai"
 
 #: app/scripts/lib/config-loader.js:91
 msgid "Invalid configuration"
-msgstr ""
+msgstr "Konfigurasi tidak sah"
 
 #: app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "Adakah anda bermaksud <span tabindex=\"1\">%(escapedDomain)s</span>?"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
-msgstr ""
+msgstr "Sila cuba sebentar lagi"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
-msgstr ""
+msgstr "Pelanggan tidak dikenali"
 
 #: app/scripts/lib/oauth-errors.js:30
 msgid "Incorrect redirect_uri"
-msgstr ""
+msgstr "Redirect_uri salah"
 
 #: app/scripts/lib/oauth-errors.js:34
 msgid "Invalid assertion"
-msgstr ""
+msgstr "Penerapan tidak sah"
 
 #: app/scripts/lib/oauth-errors.js:38
 msgid "Unknown code"
-msgstr ""
+msgstr "Kod tidak dikenali"
 
 #: app/scripts/lib/oauth-errors.js:42
 msgid "Incorrect code"
-msgstr ""
+msgstr "Kod salah"
 
 #: app/scripts/lib/oauth-errors.js:46
 msgid "Expired code"
-msgstr ""
+msgstr "Kod telah luput"
 
 #: app/scripts/lib/oauth-errors.js:54 app/scripts/lib/oauth-errors.js:76
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr ""
+msgstr "OAuth tidak sah parameter: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
-msgstr ""
+msgstr "Tidak dibenarkan"
 
 #: app/scripts/lib/oauth-errors.js:66
 msgid "Forbidden"
-msgstr ""
+msgstr "Dihalang"
 
 #: app/scripts/lib/oauth-errors.js:88
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "Berlaku masalah. Sila tutup tan ini dan cuba lagi."
 
 #: app/scripts/lib/oauth-errors.js:104
 msgid "no message"
-msgstr ""
+msgstr "tiada mesej"
 
 #: app/scripts/lib/oauth-errors.js:108
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "OAuth tidak dijumpai parameter: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
-msgstr ""
+msgstr "Token tidak sah"
 
 #: app/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
-msgstr ""
+msgstr "Parameter tidak sah pada bahagian permintaan: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:31
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "Penyedia imej tidak disokong"
 
 #: app/scripts/lib/profile-errors.js:35
 msgid "Image processing error"
-msgstr ""
+msgstr "Imej pemprosesan ralat"
 
 #: app/scripts/lib/require-on-demand.js:39
 msgid "Resources failed to load"
-msgstr ""
+msgstr "Sumber gagal untuk dimuatkan"
 
 #: app/scripts/lib/require-on-demand.js:43
 msgid "Unexpected resource error"
-msgstr ""
+msgstr "Ralat sumber tidak dijangka"
 
 #: app/scripts/lib/require-on-demand.js:47
 msgid "Script error"
-msgstr ""
+msgstr "Ralat skrip"
 
 #: app/scripts/lib/sms-errors.js:23
 msgid "SMS sent"
-msgstr ""
+msgstr "SMS dihantar"
 
 #: app/scripts/lib/sms-errors.js:55
 msgid "Your number has been blocked"
-msgstr ""
+msgstr "Nombor anda telah disekat"
 
 #: app/scripts/lib/sms-errors.js:79
 msgid "SMS not sent, please try again"
-msgstr ""
+msgstr "SMS tidak dihantar, sila cuba lagi"
 
 #: app/scripts/lib/strings.js:22
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr ""
+msgstr "Dengan meneruskan, anda bersetuju dengan <a id=\"service-tos\" href=\"%(termsUri)s\">Terma Perkhidmatan</a> dan<a id=\"service-pp\" href=\"%(privacyUri)s\">Notis Privasi</a> %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
-msgstr ""
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Bantuan</a>"
 
 #: app/scripts/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Dapatkan berita terkini mengenai Mozilla dan Firefox."
 
 #: app/scripts/lib/strings.js:37
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (anggaran)"
 
 #: app/scripts/lib/strings.js:38
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (anggaran)"
 
 #: app/scripts/lib/strings.js:39
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "Alamat IP: %(ip)s"
 
 #: app/scripts/lib/strings.js:40
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "Untuk keselamatan tambahan, sila sahkan daftar masuk ini untuk mulakan sync dengan peranti ini:"
 
 #: app/scripts/lib/strings.js:43
 msgid "Web Session"
-msgstr ""
+msgstr "Sesi Web"
 
 #: app/scripts/lib/strings.js:49
 msgid "Sign in"
-msgstr ""
+msgstr "Daftar masuk"
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "Bad Request"
 
 #: app/scripts/templates/500.mustache:1
 msgid "500 Error"
-msgstr ""
+msgstr "500 Ralat"
 
 #: app/scripts/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr ""
+msgstr "Alamak, ada sesuatu tidak kena. Kami telah dimaklumkan dan akan mula mencari penyelesaiannya."
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
-msgstr ""
+msgstr "Tidak dapat membuat akaun"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr ""
+msgstr "Anda mesti telah mencapai keperluan sesuatu umur untuk mencipta Akaun Firefox."
 
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
-msgstr ""
+msgstr "Ketahui lanjut."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s created"
-msgstr ""
+msgstr "%(email)s dicipta"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
-msgstr ""
+msgstr "Pilih apa yang hendak disync"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:3
 msgid "Open tabs"
-msgstr ""
+msgstr "Buka tab"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Bookmarks"
-msgstr ""
+msgstr "Tanda buku"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:7
 msgid "Add-ons"
-msgstr ""
+msgstr "Add-ons"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:9
 msgid "Passwords"
-msgstr ""
+msgstr "Kata laluan"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:11
 msgid "History"
-msgstr ""
+msgstr "Sejarah"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:13
 msgid "Preferences"
-msgstr ""
+msgstr "Keutamaan"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr ""
+msgstr "Add-ons dan Keutamaan tidak disync pada peranti mudah alih."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:16
 msgid "Save settings"
-msgstr ""
+msgstr "Simpan tetapan"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:17 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
-msgstr ""
+msgstr "Kembali"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
-msgstr ""
+msgstr "Pautan set semula kata laluan telah tamat tempoh"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
-msgstr ""
+msgstr "Pautan yang anda klik untuk set semua kata laluan anda telah tamat tempoh."
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "Click here to receive a new reset link"
