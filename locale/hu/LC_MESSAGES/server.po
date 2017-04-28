@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-28 16:12+0000\n"
-"PO-Revision-Date: 2017-04-28 18:43+0000\n"
+"PO-Revision-Date: 2017-04-28 19:01+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -401,7 +401,7 @@ msgstr "Firefox fiók ellenőrizve"
 
 #: lib/senders/email.js:769
 msgid "Secondary Firefox Account email added"
-msgstr ""
+msgstr "Másodlagos Firefox fiók e-mail hozzáadva"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
