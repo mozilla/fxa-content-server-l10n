@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-04-28 01:38+0000\n"
+"PO-Revision-Date: 2017-04-28 02:00+0000\n"
 "Last-Translator: xcffl <xcffl@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -102,7 +102,7 @@ msgstr "我们很遗憾听到此事。您应该更改您 Firefox 账户的密码
 
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "我们很遗憾听到此事。如果这的确是一个您不知道的设备，您应该更改您的 Firefox 账号密码，并换行任何保存在 Firefox 中的密码。"
+msgstr "我们很遗憾听到此事。如果这的确是一个您不知道的设备，您应该更改您的 Firefox 账号密码，并修改所有保存在 Firefox 中的密码。"
 
 #: app/scripts/views/settings/clients.js:63
 msgid "Web Session, %(userAgent)s"
