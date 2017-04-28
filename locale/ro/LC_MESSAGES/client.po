@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-28 16:12+0000\n"
-"PO-Revision-Date: 2017-03-27 17:35+0000\n"
-"Last-Translator: Lovegaming <contact@lovegaming.net>\n"
+"PO-Revision-Date: 2017-04-28 22:42+0000\n"
+"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -101,7 +101,7 @@ msgstr "Ne pare rău să auzim asta. Dacă acesta a fost un dispozitiv în care 
 
 #: app/scripts/views/settings/clients.js:63
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "Sesiune web, %(userAgent)s"
 
 #: app/scripts/views/settings/clients.js:65
 msgid "%(translatedTimeAgo)s"
@@ -295,7 +295,7 @@ msgstr "Sistem indisponibil, încearcă din nou mai târziu"
 
 #: app/scripts/lib/auth-errors.js:162
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Încercare de autentificare anulată"
 
 #: app/scripts/lib/auth-errors.js:166
 msgid "Session expired. Sign in to continue."
@@ -512,7 +512,7 @@ msgstr "Eroare de script"
 
 #: app/scripts/lib/sms-errors.js:23
 msgid "SMS sent"
-msgstr ""
+msgstr "SMS trimis"
 
 #: app/scripts/lib/sms-errors.js:55
 msgid "Your number has been blocked"
@@ -520,12 +520,10 @@ msgstr "Numărul tău de telefon a fost blocat"
 
 #: app/scripts/lib/sms-errors.js:79
 msgid "SMS not sent, please try again"
-msgstr ""
+msgstr "SMS netrimis, te rugăm să încerci din nou"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Continuând, ești de acord cu <a id=\"service-tos\" href=\"%(termsUri)s\">termenii de utilizare a serviciului</a> și <a id=\"service-pp\" href=\"%(privacyUri)s\">politica de confidențialitate</a> a "
 "%(serviceName)s (%(serviceUri)s)."
@@ -556,7 +554,7 @@ msgstr "Ca o măsură de securitate suplimentară, te rugăm să confirmi aceast
 
 #: app/scripts/lib/strings.js:43
 msgid "Web Session"
-msgstr ""
+msgstr "Sesiune web"
 
 #: app/scripts/lib/strings.js:49
 msgid "Sign in"
@@ -990,11 +988,11 @@ msgstr ""
 
 #: app/scripts/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
-msgstr ""
+msgstr "Acest Firefox este conectat"
 
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
-msgstr ""
+msgstr "Număr de telefon mobil"
 
 #: app/scripts/templates/sms_send.mustache:6
 msgid "Send"
@@ -1034,16 +1032,16 @@ msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
 "Firefox for desktop will appear."
 msgstr ""
-"Sincronizarea îți permite să partajezi între dispozitive semnele de carte, istoricul și parolele pe care le salvezi în Firefox de pe un dispozitiv cu Firefox. Autentifică-te în Firefox de pe "
-"telefon sau tabletă, iar tot ce-ai salvat în Firefox pe desktop va apărea."
+"Sincronizarea îți permite să partajezi între dispozitive semnele de carte, istoricul și parolele pe care le salvezi în Firefox de pe un dispozitiv cu Firefox. Autentifică-te în Firefox de pe telefon"
+" sau tabletă, iar tot ce-ai salvat în Firefox pe desktop va apărea."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
 "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 msgstr ""
-"Sincronizarea nu este concepută ca o copie de siguranță permanentă – partajează ceea ce este salvat local. Dacă îți resetezi parola și datele tale nu sunt stocate pe cel puțin un alt dispozitiv, s-"
-"ar putea să pierzi toate informațiile asociate cu vechea parolă. De aceea vei dori să instalezi Firefox și să utilizezi funcția de sincronizare pe mai multe dispozitive."
+"Sincronizarea nu este concepută ca o copie de siguranță permanentă – partajează ceea ce este salvat local. Dacă îți resetezi parola și datele tale nu sunt stocate pe cel puțin un alt dispozitiv, "
+"s-ar putea să pierzi toate informațiile asociate cu vechea parolă. De aceea vei dori să instalezi Firefox și să utilizezi funcția de sincronizare pe mai multe dispozitive."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1311,19 +1309,18 @@ msgstr ""
 #~ msgid "Sync preferences"
 #~ msgstr "Preferințe de sincronizare"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Cauți Sincronizare Firefox? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Începe aici</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Ai un cont cu o adresă de e-mail diferită? <a href=\"%(signinUri)s\">Autentifică-te</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox este disponibil pentru <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> și <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox este disponibil pentru <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> și <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Activ ultima dată: %(translatedTimeAgo)s"
