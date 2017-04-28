@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-04-28 02:00+0000\n"
+"PO-Revision-Date: 2017-04-28 15:08+0000\n"
 "Last-Translator: xcffl <xcffl@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -215,7 +215,7 @@ msgstr "密码错误"
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
-msgstr "未验证的账号"
+msgstr "未验证的账户"
 
 #: app/scripts/lib/auth-errors.js:67
 msgid "Invalid verification code"
@@ -235,7 +235,7 @@ msgstr "缺少参数：%(param)s"
 
 #: app/scripts/lib/auth-errors.js:83
 msgid "Invalid request signature"
-msgstr "无效的请求签名"
+msgstr "请求签名无效"
 
 #: app/scripts/lib/auth-errors.js:87
 msgid "Missing content-length header"
@@ -247,15 +247,15 @@ msgstr "请求内容太大"
 
 #: app/scripts/lib/auth-errors.js:109
 msgid "The request was blocked for security reasons"
-msgstr "请求已因安全原因拦截"
+msgstr "因为安全性因素，已拦截请求"
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347
 msgid "Invalid authorization code"
-msgstr "授权码不正确"
+msgstr "授权码无效"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr "无效手机号码"
+msgstr "手机号码无效"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
@@ -355,7 +355,7 @@ msgstr "请输入一个有效的电子邮件地址。firefox.com 不提供电子
 
 #: app/scripts/lib/auth-errors.js:252
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "Firefox 账号网站只允许在经过授权的网站上被放入 IFRAME"
+msgstr "Firefox 账户网站只允许在经过授权的网站上被放入 IFRAME"
 
 #: app/scripts/lib/auth-errors.js:271 app/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
@@ -379,11 +379,11 @@ msgstr "未找到 Gravatar"
 
 #: app/scripts/lib/auth-errors.js:306
 msgid "Account no longer exists."
-msgstr "账号已不存在。"
+msgstr "账户已不存在。"
 
 #: app/scripts/lib/auth-errors.js:310
 msgid "Invalid property in resume token: %(property)s"
-msgstr "恢复令牌中的属性无效：%(property)s"
+msgstr "恢复令牌中有无效属性：%(property)s"
 
 #: app/scripts/lib/auth-errors.js:314
 msgid "Missing property in resume token: %(property)s"
@@ -571,7 +571,7 @@ msgstr "很抱歉，某些地方出现问题。我们已经通知并将尝试修
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
-msgstr "无法创建账号"
+msgstr "无法创建账户"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
