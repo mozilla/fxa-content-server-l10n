@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-04-24 07:39+0000\n"
+"PO-Revision-Date: 2017-04-28 12:11+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -517,7 +517,7 @@ msgstr "Сіздің нөміріңіз блокталған"
 
 #: app/scripts/lib/sms-errors.js:79
 msgid "SMS not sent, please try again"
-msgstr ""
+msgstr "SMS жіберілмеген, қайталап көріңіз"
 
 #: app/scripts/lib/strings.js:22
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
@@ -732,7 +732,7 @@ msgstr "Бұл құрылғы байланысқан"
 
 #: app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
-msgstr ""
+msgstr "Эл. пошта адресі расталды"
 
 #: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:3
 msgid "Success"
@@ -1100,7 +1100,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Suspicious device"
-msgstr ""
+msgstr "Күмәнді құрылғы"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Lost or stolen device"
@@ -1112,7 +1112,7 @@ msgstr "Ескі немесе алмастырылған құрылғы"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
-msgstr ""
+msgstr "Қайталанатын құрылғы"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
@@ -1124,11 +1124,11 @@ msgstr "Байланысты үзу"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
-msgstr ""
+msgstr "Байланысты үзу сәтті аяқталды"
 
 #: app/scripts/templates/settings/clients.mustache:2
 msgid "Devices & apps"
-msgstr ""
+msgstr "Құрылғылар және қолданбалар"
 
 #: app/scripts/templates/settings/clients.mustache:3 app/scripts/templates/partial/show-password.mustache:1
 msgid "Show"
@@ -1140,15 +1140,15 @@ msgstr "ағымдағы құрылғы"
 
 #: app/scripts/templates/settings/clients.mustache:7
 msgid "Disconnect…"
-msgstr ""
+msgstr "Байланысты үзу…"
 
 #: app/scripts/templates/settings/clients.mustache:9
 msgid "current session"
-msgstr ""
+msgstr "ағымдағы сессия"
 
 #: app/scripts/templates/settings/clients.mustache:17
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "iOS үшін Firefox"
 
 #: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21
 msgid "none connected"
@@ -1156,11 +1156,11 @@ msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22
 msgid "Download"
-msgstr ""
+msgstr "Жүктеп алу"
 
 #: app/scripts/templates/settings/clients.mustache:20
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Android үшін Firefox"
 
 #: app/scripts/templates/settings/clients.mustache:24
 msgid "Missing or duplicate items?"
@@ -1176,7 +1176,7 @@ msgstr "Байланысу баптаулары"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
-msgstr ""
+msgstr "Ай сайынғы Firefox жаңалықтарын алу."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
@@ -1196,7 +1196,7 @@ msgstr "Тіркелгіні өшіру"
 
 #: app/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete…"
-msgstr ""
+msgstr "Өшіру…"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
@@ -1230,13 +1230,13 @@ msgstr "Firefox тіркелгісін қолдану"
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:90
 msgctxt "submit button"
 msgid "Sign in"
-msgstr ""
+msgstr "Кіру"
 
 #. header text
 #: app/scripts/views/sign_in.js:93
 msgctxt "header text"
 msgid "Sign in"
-msgstr ""
+msgstr "Кіру"
 
 #~ msgid "8 characters minimum, but longer if you plan to sync passwords."
 #~ msgstr "8 таңба кем дегенде, ал, синхрондауды қолданамын десеңіз, ұзынырақ парольді қолданыңыз."
