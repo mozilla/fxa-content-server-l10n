@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-03-26 15:57+0000\n"
-"Last-Translator: Marko Kostić (Marko Kostić) <marko.m.kostic@gmail.com>\n"
+"POT-Creation-Date: 2017-04-28 16:12+0000\n"
+"PO-Revision-Date: 2017-04-18 10:47+0000\n"
+"Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-POOTLE-MTIME: 1438059120.0\n"
 
 #: app/scripts/views/complete_reset_password.js:132
-#: app/scripts/views/complete_sign_up.js:186 app/scripts/views/confirm.js:126
+#: app/scripts/views/complete_sign_up.js:174 app/scripts/views/confirm.js:126
 #: app/scripts/views/confirm_reset_password.js:170
 msgid "Account verified successfully"
 msgstr "Nalog je uspešno potvrđen"
@@ -102,10 +102,6 @@ msgstr "Nalog već postoji. <a href=\"/signin\">Prijavi se</a>"
 #: app/scripts/views/sms_sent.js:24
 msgid "App link resent to %(phoneNumber)s"
 msgstr "Veza do aplikacije ponovo poslata na %(phoneNumber)s"
-
-#: app/scripts/views/settings/avatar_gravatar.js:93
-msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr "Ljubaznost <a href=\"https://www.gravatar.com\">Gravatar-a</a>"
 
 #: app/scripts/views/settings/change_password.js:52
 msgid "Password changed successfully"
@@ -282,7 +278,7 @@ msgstr "Telo zahteva je preveliko"
 msgid "The request was blocked for security reasons"
 msgstr "Zahtev je blokiran iz sigurnosnih razloga"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:350
 msgid "Invalid authorization code"
 msgstr "Nevažeći autorizacioni kod"
 
@@ -300,17 +296,17 @@ msgstr "Ne može se poslati poruka na ovaj broj telefona"
 
 #: app/scripts/lib/auth-errors.js:138
 msgid "Your email was just returned"
-msgstr ""
+msgstr "Vaša e-adresa se vratila"
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Vaša e-adresa se vratila. Pogrešna e-adresa?"
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "Ne mogu da dostavim poruku"
 
-#: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327
+#: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:330
 msgid "Server busy, try again soon"
 msgstr "Server je zauzet, pokušajte ponovo uskoro"
 
@@ -414,49 +410,45 @@ msgstr "Uskoro stiže prijava za Firefox za iOS"
 msgid "You must enter your age to sign up"
 msgstr "Morate da unesete godine da biste se registrovali"
 
-#: app/scripts/lib/auth-errors.js:298
-msgid "No Gravatar found"
-msgstr "Gravatar nije pronađen"
-
-#: app/scripts/lib/auth-errors.js:306
+#: app/scripts/lib/auth-errors.js:309
 msgid "Account no longer exists."
 msgstr "Nalog više ne postoji."
 
-#: app/scripts/lib/auth-errors.js:310
+#: app/scripts/lib/auth-errors.js:313
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Neispravano svojstvo u resume tokenu: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:314
+#: app/scripts/lib/auth-errors.js:317
 msgid "Missing property in resume token: %(property)s"
 msgstr "Svojstvo nedostaje u resume tokenu: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:318
+#: app/scripts/lib/auth-errors.js:321
 msgid "Invalid data attribute: %(property)s"
 msgstr "Neispravna osobina podatka: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:322
+#: app/scripts/lib/auth-errors.js:325
 msgid "Missing data attribute: %(property)s"
 msgstr "Nedostaje osobina podatka: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:335
+#: app/scripts/lib/auth-errors.js:338
 #: app/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Ova potvrdna veza je već iskorišćena, može se iskoristiti samo jednom."
 
-#: app/scripts/lib/auth-errors.js:339
+#: app/scripts/lib/auth-errors.js:342
 msgid "This is a required field"
 msgstr "Ovo je obavezno polje"
 
-#: app/scripts/lib/auth-errors.js:343
+#: app/scripts/lib/auth-errors.js:346
 msgid "Authorization code required"
 msgstr "Potreban je autorizacioni kod"
 
-#: app/scripts/lib/auth-errors.js:351
+#: app/scripts/lib/auth-errors.js:354
 #: app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Veza je oštećena"
 
-#: app/scripts/lib/auth-errors.js:374
+#: app/scripts/lib/auth-errors.js:377
 msgid "Phone number required"
 msgstr "Potreban je broj telefona"
 
@@ -967,31 +959,26 @@ msgid "Download Firefox for mobile devices."
 msgstr "Preuzmite Firefox za mobilne uređaje."
 
 #: app/scripts/templates/permissions.mustache:1
-#: app/scripts/templates/settings/gravatar_permissions.mustache:1
 msgid "Request for permission"
 msgstr "Zahtev za pristup"
 
 #: app/scripts/templates/permissions.mustache:2
-#: app/scripts/templates/settings/gravatar_permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
 msgstr "%(serviceName)s žele sledeće informacije od naloga:"
 
 #: app/scripts/templates/permissions.mustache:3
-#: app/scripts/templates/settings/gravatar_permissions.mustache:4
 msgid "Accept"
 msgstr "Prihvati"
 
 #: app/scripts/templates/permissions.mustache:4
 #: app/scripts/templates/settings/avatar_camera.mustache:2
 #: app/scripts/templates/settings/avatar_crop.mustache:3
-#: app/scripts/templates/settings/avatar_gravatar.mustache:3
 #: app/scripts/templates/settings/change_password.mustache:9
 #: app/scripts/templates/settings/client_disconnect.mustache:9
 #: app/scripts/templates/settings/communication_preferences.mustache:5
 #: app/scripts/templates/settings/communication_preferences.mustache:13
 #: app/scripts/templates/settings/delete_account.mustache:6
 #: app/scripts/templates/settings/display_name.mustache:8
-#: app/scripts/templates/settings/gravatar_permissions.mustache:5
 msgid "Cancel"
 msgstr "Otkaži"
 
@@ -1042,7 +1029,6 @@ msgstr ""
 #: app/scripts/templates/reset_password.mustache:8
 #: app/scripts/templates/sign_in.mustache:15
 #: app/scripts/templates/sign_up.mustache:13
-#: app/scripts/templates/settings/gravatar_permissions.mustache:3
 msgid "Email"
 msgstr "E-pošta"
 
@@ -1282,15 +1268,11 @@ msgid "Camera"
 msgstr "Kamera"
 
 #: app/scripts/templates/settings/avatar_change.mustache:3
-msgid "Gravatar"
-msgstr "Gravatar"
-
-#: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Clear"
 msgstr "Očisti"
 
-#: app/scripts/templates/settings/avatar_change.mustache:6
-#: app/scripts/templates/settings/clients.mustache:26
+#: app/scripts/templates/settings/avatar_change.mustache:5
+#: app/scripts/templates/settings/clients.mustache:28
 msgid "Done"
 msgstr "Gotovo"
 
@@ -1303,10 +1285,6 @@ msgstr "Pozicionirajte i rotirajte Vašu sliku po Vašim potrebama"
 #: app/scripts/templates/settings/display_name.mustache:7
 msgid "Change"
 msgstr "Izmeni"
-
-#: app/scripts/templates/settings/avatar_gravatar.mustache:2
-msgid "Save"
-msgstr "Sačuvaj"
 
 #: app/scripts/templates/settings/change_password.mustache:3
 msgid ""
@@ -1353,8 +1331,8 @@ msgid "Rather not say"
 msgstr "Radije ne bih rekao"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:8
-#: app/scripts/templates/settings/clients.mustache:11
-#: app/scripts/templates/settings/clients.mustache:14
+#: app/scripts/templates/settings/clients.mustache:13
+#: app/scripts/templates/settings/clients.mustache:16
 msgid "Disconnect"
 msgstr "Prekini vezu"
 
@@ -1371,41 +1349,41 @@ msgstr "Uređaji i aplikacije"
 msgid "Show"
 msgstr "Prikaži"
 
-#: app/scripts/templates/settings/clients.mustache:5
+#: app/scripts/templates/settings/clients.mustache:6
 msgid "current device"
 msgstr "trenutni uređaj"
 
-#: app/scripts/templates/settings/clients.mustache:7
+#: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
 msgstr "Prekini vezu…"
 
-#: app/scripts/templates/settings/clients.mustache:9
+#: app/scripts/templates/settings/clients.mustache:11
 msgid "current session"
 msgstr "trenutna sesija"
 
-#: app/scripts/templates/settings/clients.mustache:17
+#: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
 msgstr "Firefox za iOS"
 
-#: app/scripts/templates/settings/clients.mustache:18
-#: app/scripts/templates/settings/clients.mustache:21
+#: app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/clients.mustache:23
 msgid "none connected"
 msgstr "nije povezano"
 
-#: app/scripts/templates/settings/clients.mustache:19
-#: app/scripts/templates/settings/clients.mustache:22
+#: app/scripts/templates/settings/clients.mustache:21
+#: app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
 msgstr "Preuzmi"
 
-#: app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/clients.mustache:22
 msgid "Firefox for Android"
 msgstr "Firefox za Android"
 
-#: app/scripts/templates/settings/clients.mustache:24
+#: app/scripts/templates/settings/clients.mustache:26
 msgid "Missing or duplicate items?"
 msgstr "Stavke nedostaju ili ima duplikata?"
 
-#: app/scripts/templates/settings/clients.mustache:25
+#: app/scripts/templates/settings/clients.mustache:27
 msgid "Refresh"
 msgstr "Osveži"
 
@@ -1481,13 +1459,25 @@ msgstr "Koristi Firefox Account"
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:90
 msgctxt "submit button"
 msgid "Sign in"
-msgstr ""
+msgstr "Prijavi se"
 
 #. header text
 #: app/scripts/views/sign_in.js:93
 msgctxt "header text"
 msgid "Sign in"
-msgstr ""
+msgstr "Prijavi se"
+
+#~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
+#~ msgstr "Ljubaznost <a href=\"https://www.gravatar.com\">Gravatar-a</a>"
+
+#~ msgid "No Gravatar found"
+#~ msgstr "Gravatar nije pronađen"
+
+#~ msgid "Gravatar"
+#~ msgstr "Gravatar"
+
+#~ msgid "Save"
+#~ msgstr "Sačuvaj"
 
 #~ msgid "8 characters minimum, but longer if you plan to sync passwords."
 #~ msgstr ""

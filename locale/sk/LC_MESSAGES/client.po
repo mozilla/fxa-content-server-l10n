@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-17 16:35+0000\n"
+"POT-Creation-Date: 2017-04-28 16:12+0000\n"
 "PO-Revision-Date: 2017-04-18 09:11+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1440878496.0\n"
 
-#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:186 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
+#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:174 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
 msgid "Account verified successfully"
 msgstr "Účet bol úspešne overený"
 
@@ -86,10 +86,6 @@ msgstr "Účet už existuje. <a href=\"/signin\">Prihláste sa</a>"
 #: app/scripts/views/sms_sent.js:24
 msgid "App link resent to %(phoneNumber)s"
 msgstr "Odkaz na aplikáciu bol znova odoslaný na %(phoneNumber)s"
-
-#: app/scripts/views/settings/avatar_gravatar.js:93
-msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr "So súhlasom <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
 #: app/scripts/views/settings/change_password.js:52
 msgid "Password changed successfully"
@@ -248,7 +244,7 @@ msgstr "Telo požiadavky je príliš veľké"
 msgid "The request was blocked for security reasons"
 msgstr "Z bezpečnostných dôvodov bola požiadavka zablokovaná"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:350
 msgid "Invalid authorization code"
 msgstr "Neplatný autorizačný kód"
 
@@ -276,7 +272,7 @@ msgstr "E-mailová správa sa vrátila. Zadali ste adresu správne?"
 msgid "Unable to deliver email"
 msgstr "E-mail nebolo možné doručiť"
 
-#: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327
+#: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:330
 msgid "Server busy, try again soon"
 msgstr "Server je zaneprázdnený, skúste to znova neskôr."
 
@@ -372,47 +368,43 @@ msgstr "Prihlásenie s Firefox pre iOS už čoskoro"
 msgid "You must enter your age to sign up"
 msgstr "Pre prihlásenie musíte zadať váš vek"
 
-#: app/scripts/lib/auth-errors.js:298
-msgid "No Gravatar found"
-msgstr "Nenájdený žiadny Gravatar"
-
-#: app/scripts/lib/auth-errors.js:306
+#: app/scripts/lib/auth-errors.js:309
 msgid "Account no longer exists."
 msgstr "Účet už dlhšiu dobu neexistuje."
 
-#: app/scripts/lib/auth-errors.js:310
+#: app/scripts/lib/auth-errors.js:313
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Neplatná vlastnosť v tokene pre pokračovanie: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:314
+#: app/scripts/lib/auth-errors.js:317
 msgid "Missing property in resume token: %(property)s"
 msgstr "Chýbajúca vlastnosť v tokene pre pokračovanie: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:318
+#: app/scripts/lib/auth-errors.js:321
 msgid "Invalid data attribute: %(property)s"
 msgstr "Neplatný dátový atribút: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:322
+#: app/scripts/lib/auth-errors.js:325
 msgid "Missing data attribute: %(property)s"
 msgstr "Chýbajúci dátový atribút: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:335 app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/lib/auth-errors.js:338 app/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Tento potvrdzovací odkaz bol už použitý (dá sa použiť len raz)."
 
-#: app/scripts/lib/auth-errors.js:339
+#: app/scripts/lib/auth-errors.js:342
 msgid "This is a required field"
 msgstr "Toto pole je povinné"
 
-#: app/scripts/lib/auth-errors.js:343
+#: app/scripts/lib/auth-errors.js:346
 msgid "Authorization code required"
 msgstr "Je vyžadovaný autorizačný kód"
 
-#: app/scripts/lib/auth-errors.js:351 app/scripts/templates/report_sign_in.mustache:1
+#: app/scripts/lib/auth-errors.js:354 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Odkaz je poškodený"
 
-#: app/scripts/lib/auth-errors.js:374
+#: app/scripts/lib/auth-errors.js:377
 msgid "Phone number required"
 msgstr "Telefónne číslo je vyžadované"
 
@@ -521,7 +513,9 @@ msgid "SMS not sent, please try again"
 msgstr "SMS nebola odoslaná, skúste to znova, prosím"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Pokračovaním súhlasíte s <a id=\"service-tos\" href=\"%(termsUri)s\">Podmienkami využívania služby</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">Zásadami o ochrane osobných údajov</a> "
 "%(serviceName)s (%(serviceUri)s)."
@@ -798,7 +792,8 @@ msgstr "Zabudli ste heslo?"
 
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Pokračovaním súhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmienkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Zásadami ochrany osobných údajov</a> cloudových služieb Firefoxu."
+msgstr ""
+"Pokračovaním súhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmienkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Zásadami ochrany osobných údajov</a> cloudových služieb Firefoxu."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -834,22 +829,21 @@ msgstr "Prevziať Firefox pre Android."
 msgid "Download Firefox for mobile devices."
 msgstr "Prevziať Firefox pre mobilné zariadenia."
 
-#: app/scripts/templates/permissions.mustache:1 app/scripts/templates/settings/gravatar_permissions.mustache:1
+#: app/scripts/templates/permissions.mustache:1
 msgid "Request for permission"
 msgstr "Požiadavka na povolenie"
 
-#: app/scripts/templates/permissions.mustache:2 app/scripts/templates/settings/gravatar_permissions.mustache:2
+#: app/scripts/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
 msgstr "%(serviceName)s chce použiť nasledujúce informácie z vášho účtu:"
 
-#: app/scripts/templates/permissions.mustache:3 app/scripts/templates/settings/gravatar_permissions.mustache:4
+#: app/scripts/templates/permissions.mustache:3
 msgid "Accept"
 msgstr "Povoliť"
 
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
-#: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9
-#: app/scripts/templates/settings/communication_preferences.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6
-#: app/scripts/templates/settings/display_name.mustache:8 app/scripts/templates/settings/gravatar_permissions.mustache:5
+#: app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9 app/scripts/templates/settings/communication_preferences.mustache:5
+#: app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6 app/scripts/templates/settings/display_name.mustache:8
 msgid "Cancel"
 msgstr "Zrušiť"
 
@@ -885,7 +879,7 @@ msgstr "Pokračovať na %(serviceName)s"
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "Ak obnovíte svoje heslo, stratíte údaje v službe Sync, ktoré nie sú uložené na žiadnom z vašich zariadení."
 
-#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
+#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13
 msgid "Email"
 msgstr "E-mailová adresa"
 
@@ -1066,14 +1060,10 @@ msgid "Camera"
 msgstr "Fotoaparát"
 
 #: app/scripts/templates/settings/avatar_change.mustache:3
-msgid "Gravatar"
-msgstr "Gravatar"
-
-#: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Clear"
 msgstr "Vyčistiť"
 
-#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:26
+#: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28
 msgid "Done"
 msgstr "Hotovo"
 
@@ -1084,10 +1074,6 @@ msgstr "Pozícia a otočenie vášho obrázka, ak je to potrebné"
 #: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:7
 msgid "Change"
 msgstr "Zmeniť"
-
-#: app/scripts/templates/settings/avatar_gravatar.mustache:2
-msgid "Save"
-msgstr "Uložiť"
 
 #: app/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
@@ -1125,7 +1111,7 @@ msgstr "Duplikovať zariadenie"
 msgid "Rather not say"
 msgstr "Neželám si odpovedať"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:14
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Disconnect"
 msgstr "Odpojiť"
 
@@ -1141,39 +1127,39 @@ msgstr "Zariadenia a aplikácie"
 msgid "Show"
 msgstr "Zobraziť"
 
-#: app/scripts/templates/settings/clients.mustache:5
+#: app/scripts/templates/settings/clients.mustache:6
 msgid "current device"
 msgstr "aktuálne zariadenie"
 
-#: app/scripts/templates/settings/clients.mustache:7
+#: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
 msgstr "Odpojiť…"
 
-#: app/scripts/templates/settings/clients.mustache:9
+#: app/scripts/templates/settings/clients.mustache:11
 msgid "current session"
 msgstr "aktuálna relácia"
 
-#: app/scripts/templates/settings/clients.mustache:17
+#: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
 msgstr "Firefox pre iOS"
 
-#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21
+#: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
 msgid "none connected"
 msgstr "nič nepripojené"
 
-#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22
+#: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
 msgstr "Prevziať"
 
-#: app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/clients.mustache:22
 msgid "Firefox for Android"
 msgstr "Firefox pre Android"
 
-#: app/scripts/templates/settings/clients.mustache:24
+#: app/scripts/templates/settings/clients.mustache:26
 msgid "Missing or duplicate items?"
 msgstr "Chýbajúce alebo duplicitné položky?"
 
-#: app/scripts/templates/settings/clients.mustache:25
+#: app/scripts/templates/settings/clients.mustache:27
 msgid "Refresh"
 msgstr "Obnoviť"
 
@@ -1245,6 +1231,18 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr "Prihlásiť sa"
 
+#~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
+#~ msgstr "So súhlasom <a href=\"https://www.gravatar.com\">Gravatar</a>"
+
+#~ msgid "No Gravatar found"
+#~ msgstr "Nenájdený žiadny Gravatar"
+
+#~ msgid "Gravatar"
+#~ msgstr "Gravatar"
+
+#~ msgid "Save"
+#~ msgstr "Uložiť"
+
 #~ msgid "8 characters minimum, but longer if you plan to sync passwords."
 #~ msgstr "Minimum je 8 znakov; dlhšie heslo je nutné v prípade, že plánujete synchronizovať heslá."
 
@@ -1308,18 +1306,20 @@ msgstr "Prihlásiť sa"
 #~ msgid "Sync preferences"
 #~ msgstr "Nastavenia synchronizácie"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr "Hľadáte Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Začnite kliknutím sem</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr ""
+#~ "Hľadáte Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Začnite kliknutím sem</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Máte účet s inou e-mailovou adresou? <a href=\"%(signinUri)s\">Prihláste sa</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox je k dispozícii pre <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox je k dispozícii pre <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Posledná aktivita: %(translatedTimeAgo)s"
@@ -1505,8 +1505,8 @@ msgstr "Prihlásiť sa"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Služba Firefox Accounts vyžaduje povolené cookies v vašom prehliadači. Cookies sú malé kúsky a údajmi uložené v prehliadači, ktoré poskytujú funkcionalitu, ako napr. zapamätanie si prihlásenia medzi"
-#~ " reláciami."
+#~ "Služba Firefox Accounts vyžaduje povolené cookies v vašom prehliadači. Cookies sú malé kúsky a údajmi uložené v prehliadači, ktoré poskytujú funkcionalitu, ako napr. zapamätanie si prihlásenia "
+#~ "medzi reláciami."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox prichádza na iOS!"
@@ -1652,13 +1652,17 @@ msgstr "Prihlásiť sa"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Už máte účet? Prihláste sa."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
 #~ "Pokračovaním súhlasíte s <a id=\"service-tos\" href=\"%(termsUri)s\">Podmienkami služby</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">Zásadami o ochrane osobných údajov</a> %(serviceName)s "
 #~ "(%(serviceUri)s)."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Pokračovaním súhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmienkami používania služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Zásadami ochrany súkromia</a> cloudových služieb Firefoxu."
+#~ msgstr ""
+#~ "Pokračovaním súhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmienkami používania služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Zásadami ochrany súkromia</a> cloudových služieb "
+#~ "Firefoxu."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Prihláste sa k odberu noviniek a tipov pre Firefox"

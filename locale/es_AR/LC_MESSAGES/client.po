@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-17 16:35+0000\n"
+"POT-Creation-Date: 2017-04-28 16:12+0000\n"
 "PO-Revision-Date: 2017-04-25 11:47+0000\n"
 "Last-Translator: gmontagu <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1400464022.0\n"
 
-#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:186 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
+#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:174 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
 msgid "Account verified successfully"
 msgstr "Cuenta verificada exitosamente"
 
@@ -86,10 +86,6 @@ msgstr "La cuenta ya existe. <a href=\"/signin\">Ingresá</a>"
 #: app/scripts/views/sms_sent.js:24
 msgid "App link resent to %(phoneNumber)s"
 msgstr "Enlace de aplicación reenviado a %(phoneNumber)s"
-
-#: app/scripts/views/settings/avatar_gravatar.js:93
-msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr "Cortesía de <a href=\"https://www.gravatar.com\"> Gravatar </a>"
 
 #: app/scripts/views/settings/change_password.js:52
 msgid "Password changed successfully"
@@ -248,7 +244,7 @@ msgstr "El cuerpo de la solicitud es muy largo"
 msgid "The request was blocked for security reasons"
 msgstr "Este pedido fue bloqueado por razones de seguridad"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:350
 msgid "Invalid authorization code"
 msgstr "Codigo de autorización inválido"
 
@@ -276,7 +272,7 @@ msgstr "Su correo electrónico fue rechazado. ¿Tendrá algún error de tipeo?"
 msgid "Unable to deliver email"
 msgstr "No se pudo enviar su correo electrónico"
 
-#: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327
+#: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:330
 msgid "Server busy, try again soon"
 msgstr "Servidor ocupado, intentá después"
 
@@ -372,47 +368,43 @@ msgstr "Falta poco para poder usar Firefox Account en Firefox para iOS"
 msgid "You must enter your age to sign up"
 msgstr "Para inscribirse debe ingresar su edad"
 
-#: app/scripts/lib/auth-errors.js:298
-msgid "No Gravatar found"
-msgstr "No se encontró un Gravatar"
-
-#: app/scripts/lib/auth-errors.js:306
+#: app/scripts/lib/auth-errors.js:309
 msgid "Account no longer exists."
 msgstr "La cuenta ya no existe."
 
-#: app/scripts/lib/auth-errors.js:310
+#: app/scripts/lib/auth-errors.js:313
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Hay una propiedad inválida en el token: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:314
+#: app/scripts/lib/auth-errors.js:317
 msgid "Missing property in resume token: %(property)s"
 msgstr "Hay una propiedad que falta en el token: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:318
+#: app/scripts/lib/auth-errors.js:321
 msgid "Invalid data attribute: %(property)s"
 msgstr "Atributo de datos inválido: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:322
+#: app/scripts/lib/auth-errors.js:325
 msgid "Missing data attribute: %(property)s"
 msgstr "Atributo de datos faltante: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:335 app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/lib/auth-errors.js:338 app/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "El enlace de confirmación ya fue utilizado y se puede usar una sola vez."
 
-#: app/scripts/lib/auth-errors.js:339
+#: app/scripts/lib/auth-errors.js:342
 msgid "This is a required field"
 msgstr "Este campo es obligatorio"
 
-#: app/scripts/lib/auth-errors.js:343
+#: app/scripts/lib/auth-errors.js:346
 msgid "Authorization code required"
 msgstr "Código de autorización requerido"
 
-#: app/scripts/lib/auth-errors.js:351 app/scripts/templates/report_sign_in.mustache:1
+#: app/scripts/lib/auth-errors.js:354 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Enlace dañado"
 
-#: app/scripts/lib/auth-errors.js:374
+#: app/scripts/lib/auth-errors.js:377
 msgid "Phone number required"
 msgstr "Número de teléfono requerido"
 
@@ -521,7 +513,9 @@ msgid "SMS not sent, please try again"
 msgstr "SMS no enviado, probá de nuevo"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Al continuar, acuerda con los <a id=\"service-tos\" href=\"%(termsUri)s\">Términos de servicio</a> y<a id=\"service-pp\" href=\"%(privacyUri)s\">las notas de privacidad</a> de %(serviceName)s "
 "(%(serviceUri)s)."
@@ -836,22 +830,21 @@ msgstr "Descargá Firefox para Android."
 msgid "Download Firefox for mobile devices."
 msgstr "Descargá Firefox para dispositivos móviles."
 
-#: app/scripts/templates/permissions.mustache:1 app/scripts/templates/settings/gravatar_permissions.mustache:1
+#: app/scripts/templates/permissions.mustache:1
 msgid "Request for permission"
 msgstr "Solicitá permiso"
 
-#: app/scripts/templates/permissions.mustache:2 app/scripts/templates/settings/gravatar_permissions.mustache:2
+#: app/scripts/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
 msgstr "%(serviceName)s quiere la siguiente información de tu cuenta:"
 
-#: app/scripts/templates/permissions.mustache:3 app/scripts/templates/settings/gravatar_permissions.mustache:4
+#: app/scripts/templates/permissions.mustache:3
 msgid "Accept"
 msgstr "Aceptar"
 
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
-#: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9
-#: app/scripts/templates/settings/communication_preferences.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6
-#: app/scripts/templates/settings/display_name.mustache:8 app/scripts/templates/settings/gravatar_permissions.mustache:5
+#: app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9 app/scripts/templates/settings/communication_preferences.mustache:5
+#: app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6 app/scripts/templates/settings/display_name.mustache:8
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -887,7 +880,7 @@ msgstr "Ya estás listo para usar %(serviceName)s."
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "Cuando reiniciás tu contraseña, perderás los datos de Sync que no estén en alguno de tus dispositivos."
 
-#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
+#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13
 msgid "Email"
 msgstr "Correo electrónico"
 
@@ -1068,14 +1061,10 @@ msgid "Camera"
 msgstr "Cámara"
 
 #: app/scripts/templates/settings/avatar_change.mustache:3
-msgid "Gravatar"
-msgstr "Gravatar"
-
-#: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Clear"
 msgstr "Limpiar"
 
-#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:26
+#: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28
 msgid "Done"
 msgstr "Listo"
 
@@ -1086,10 +1075,6 @@ msgstr "Posicioná y rotá la imagen"
 #: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:7
 msgid "Change"
 msgstr "Cambiar"
-
-#: app/scripts/templates/settings/avatar_gravatar.mustache:2
-msgid "Save"
-msgstr "Guardar"
 
 #: app/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
@@ -1127,7 +1112,7 @@ msgstr "Dispositivo duplicado"
 msgid "Rather not say"
 msgstr "Prefiero no decirlo"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:14
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Disconnect"
 msgstr "Desconectar"
 
@@ -1143,39 +1128,39 @@ msgstr "Dispositivos y aplicaciones"
 msgid "Show"
 msgstr "Mostrar"
 
-#: app/scripts/templates/settings/clients.mustache:5
+#: app/scripts/templates/settings/clients.mustache:6
 msgid "current device"
 msgstr "dispositivo actual"
 
-#: app/scripts/templates/settings/clients.mustache:7
+#: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
 msgstr "Desconectar…"
 
-#: app/scripts/templates/settings/clients.mustache:9
+#: app/scripts/templates/settings/clients.mustache:11
 msgid "current session"
 msgstr "sesión actual"
 
-#: app/scripts/templates/settings/clients.mustache:17
+#: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
 msgstr "Firefox para iOS"
 
-#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21
+#: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
 msgid "none connected"
 msgstr "ninguno conectado"
 
-#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22
+#: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
 msgstr "Descargar"
 
-#: app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/clients.mustache:22
 msgid "Firefox for Android"
 msgstr "Firefox para Android"
 
-#: app/scripts/templates/settings/clients.mustache:24
+#: app/scripts/templates/settings/clients.mustache:26
 msgid "Missing or duplicate items?"
 msgstr "¿Faltan elementos o están duplicados?"
 
-#: app/scripts/templates/settings/clients.mustache:25
+#: app/scripts/templates/settings/clients.mustache:27
 msgid "Refresh"
 msgstr "Refrescar"
 
@@ -1247,6 +1232,18 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr "Inicie la sesión"
 
+#~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
+#~ msgstr "Cortesía de <a href=\"https://www.gravatar.com\"> Gravatar </a>"
+
+#~ msgid "No Gravatar found"
+#~ msgstr "No se encontró un Gravatar"
+
+#~ msgid "Gravatar"
+#~ msgstr "Gravatar"
+
+#~ msgid "Save"
+#~ msgstr "Guardar"
+
 #~ msgid "8 characters minimum, but longer if you plan to sync passwords."
 #~ msgstr "8 caracteres mínimo; pero más larga si pensás sincronizar las contraseñas."
 
@@ -1311,11 +1308,11 @@ msgstr "Inicie la sesión"
 #~ msgstr "¿Tenés una cuenta con diferente correo electrónico? <a href=\"%(signinUri)s\">Iniciá sesión</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox está disponible para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> y <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox está disponible para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> y <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Última vez activo: %(translatedTimeAgo)s"
@@ -1417,8 +1414,8 @@ msgstr "Inicie la sesión"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Habilitá las cookies en tu navegador ya que es necesario para el funcionamiento de Firefox Accounts. Las cookies son pequeñas piezas de información guardadas en tu navegador que brindan distintas "
-#~ "funciones, como la de recordarte entre sesiones."
+#~ "Habilitá las cookies en tu navegador ya que es necesario para el funcionamiento de Firefox Accounts. Las cookies son pequeñas piezas de información guardadas en tu navegador que brindan "
+#~ "distintas funciones, como la de recordarte entre sesiones."
 
 #~ msgid "1991"
 #~ msgstr "1991"
@@ -1499,7 +1496,9 @@ msgstr "Inicie la sesión"
 #~ msgstr "¿Ya tenés cuenta? Ingresá."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Al continuar, aceptás los <a id=\"fxa-tos\" href=\"/legal/terms\">términos del servicio</a> y la <a id=\"fxa-pp\" href=\"/legal/privacy\">política de privacidad</a> de los servicios en la nube de Firefox."
+#~ msgstr ""
+#~ "Al continuar, aceptás los <a id=\"fxa-tos\" href=\"/legal/terms\">términos del servicio</a> y la <a id=\"fxa-pp\" href=\"/legal/privacy\">política de privacidad</a> de los servicios en la nube "
+#~ "de Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Suscribite a novedades y sugerencias de Firefox"

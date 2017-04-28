@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-17 16:35+0000\n"
+"POT-Creation-Date: 2017-04-28 16:12+0000\n"
 "PO-Revision-Date: 2017-03-03 04:25+0000\n"
 "Last-Translator: Mahay Alam Khan <mahayalamkhan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1413953192.0\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:685
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:798
 msgid "Still there?"
 msgstr "এখনও এখানে?"
 
@@ -44,40 +44,45 @@ msgid "Sign in to Sync"
 msgstr "Sync এ সাইন ইন করুন"
 
 #: lib/senders/templates/new_device_login.html:1 lib/senders/templates/password_changed.html:1 lib/senders/templates/password_reset.html:1 lib/senders/templates/password_reset_required.html:1
-#: lib/senders/templates/post_verify.html:1 lib/senders/templates/recovery.html:1 lib/senders/templates/unblock_code.html:1 lib/senders/templates/verification_reminder_first.html:1
-#: lib/senders/templates/verification_reminder_second.html:1 lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_sync.html:1
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
+#: lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1 lib/senders/templates/post_verify_secondary_email.html:1 lib/senders/templates/recovery.html:1
+#: lib/senders/templates/unblock_code.html:1 lib/senders/templates/verification_reminder_first.html:1 lib/senders/templates/verification_reminder_second.html:1 lib/senders/templates/verify.html:1
+#: lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1
+#: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:615
+#: lib/senders/email.js:690
 msgid "New sign-in to Firefox"
 msgstr "Firefox এ নতুন সাইন-ইন"
 
 #: lib/senders/templates/new_device_login.html:3 lib/senders/templates/new_device_login.txt:2 lib/senders/templates/password_changed.html:4 lib/senders/templates/password_changed.txt:3
 #: lib/senders/templates/recovery.html:4 lib/senders/templates/recovery.txt:3 lib/senders/templates/unblock_code.html:3 lib/senders/templates/unblock_code.txt:2
-#: lib/senders/templates/verify_login.html:4 lib/senders/templates/verify_login.txt:3 lib/senders/templates/verify_sync.html:4 lib/senders/templates/verify_sync.txt:3
+#: lib/senders/templates/verify_login.html:4 lib/senders/templates/verify_login.txt:3 lib/senders/templates/verify_secondary.html:4 lib/senders/templates/verify_secondary.txt:3
+#: lib/senders/templates/verify_sync.html:4 lib/senders/templates/verify_sync.txt:3
 msgid "IP address: %(ip)s"
 msgstr "IP ঠিকানা: %(ip)s"
 
-#: lib/senders/templates/new_device_login.html:4
+#: lib/senders/templates/new_device_login.html:4 lib/senders/templates/verify_secondary.html:7
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr "এটি একটি স্বয়ংক্রিয় ইমেইল। যদি আপনি এই পদক্ষেপ অনুমোদন না করে থাকেন, তাহলে <a %(passwordChangeLinkAttributes)s>অনুগ্রহ করে পাসওয়ার্ড পরিবর্তন করুন।</a>"
 
 #: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5 lib/senders/templates/post_verify.html:6
-#: lib/senders/templates/recovery.html:7 lib/senders/templates/verification_reminder_first.html:6 lib/senders/templates/verification_reminder_second.html:6 lib/senders/templates/verify.html:6
+#: lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/post_verify_secondary_email.html:6 lib/senders/templates/recovery.html:7
+#: lib/senders/templates/verification_reminder_first.html:6 lib/senders/templates/verification_reminder_second.html:6 lib/senders/templates/verify.html:6 lib/senders/templates/verify_secondary.html:8
 #: lib/senders/templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr "আরও তথ্যের জন্য, দেখুন <a %(supportLinkAttributes)s>Mozilla Support</a>।"
 
 #: lib/senders/templates/new_device_login.html:6 lib/senders/templates/new_device_login.txt:5 lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6
 #: lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5 lib/senders/templates/password_reset_required.html:10 lib/senders/templates/password_reset_required.txt:9
-#: lib/senders/templates/post_verify.html:7 lib/senders/templates/post_verify.txt:6 lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7
-#: lib/senders/templates/unblock_code.html:6 lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verification_reminder_first.html:7 lib/senders/templates/verification_reminder_first.txt:6
+#: lib/senders/templates/post_verify.html:7 lib/senders/templates/post_verify.txt:6 lib/senders/templates/post_verify_secondary.html:7 lib/senders/templates/post_verify_secondary.txt:6
+#: lib/senders/templates/post_verify_secondary_email.html:7 lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6
+#: lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verification_reminder_first.html:7 lib/senders/templates/verification_reminder_first.txt:6
 #: lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verification_reminder_second.txt:6 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6
-#: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
+#: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:6
+#: lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
 msgstr "Mozilla গোপনীয়তা নীতি"
 
@@ -86,8 +91,8 @@ msgid "This is an automated email; if you didn’t add a new device to your Fire
 msgstr "এটি একটি সংক্রিয় ইমেইল; যদি আপনার Firefox Account এ নতুন কোন ডিভাইস যুক্ত না করে থাকেন, তাহলে এখনই আপনার পার্সওয়ার্ড %(passwordChangeLink)s এ পরিবর্তন করুন"
 
 #: lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4 lib/senders/templates/post_verify.txt:5
-#: lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:5 lib/senders/templates/verification_reminder_second.txt:5 lib/senders/templates/verify.txt:5
-#: lib/senders/templates/verify_sync.txt:7
+#: lib/senders/templates/post_verify_secondary.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:5
+#: lib/senders/templates/verification_reminder_second.txt:5 lib/senders/templates/verify.txt:5 lib/senders/templates/verify_sync.txt:7
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "আরও তথ্যের জন্য, ভিজিট করুন %(supportUrl)s"
 
@@ -115,10 +120,11 @@ msgstr "আপনার পাসওয়ার্ড রিসেট হয়েছ
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
 msgstr "আপনার Firefox Account এর পাসওয়ার্ড পরিবর্তন হয়েছে। যদি আপনি এটা পরিবর্তন না করে থাকেন, অনুগ্রহ করে এখনই <a %(resetLinkAttributes)s> পাসওয়ার্ডটি রিসেট করুন</a>।"
 
-#: lib/senders/templates/password_reset.html:4 lib/senders/templates/post_verify.html:5 lib/senders/templates/post_verify.txt:4 lib/senders/templates/recovery.html:6
-#: lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_first.txt:4
-#: lib/senders/templates/verification_reminder_second.html:5 lib/senders/templates/verification_reminder_second.txt:4 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
-#: lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
+#: lib/senders/templates/password_reset.html:4 lib/senders/templates/post_verify.html:5 lib/senders/templates/post_verify.txt:4 lib/senders/templates/post_verify_secondary.html:5
+#: lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/post_verify_secondary_email.html:5 lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5
+#: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.html:5
+#: lib/senders/templates/verification_reminder_second.txt:4 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4 lib/senders/templates/verify_sync.html:7
+#: lib/senders/templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "এটি একটি স্বয়ংক্রিয় ইমেইল; যদি কোন ত্রুটির কারণে আপনি এটি পেয়ে থাকেন, কিছু করার প্রয়োজন নেই।"
 
@@ -187,6 +193,22 @@ msgstr "আপনি সফলভাবে Firefox Account এ আপনার �
 msgid "Sign in to Sync:"
 msgstr "সিঙ্ক করতে সাইন ইন করুন:"
 
+#: lib/senders/templates/post_verify_secondary.html:2 lib/senders/templates/post_verify_secondary.txt:1 lib/senders/templates/post_verify_secondary_email.html:2
+msgid "Secondary email added"
+msgstr ""
+
+#: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2 lib/senders/templates/post_verify_secondary_email.html:3
+msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+msgstr ""
+
+#: lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
+msgid "Manage account"
+msgstr ""
+
+#: lib/senders/templates/post_verify_secondary.txt:3
+msgid "Manage account:"
+msgstr ""
+
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Forgot your password?"
 msgstr "পাসওয়ার্ড ভুলে গেছেন?"
@@ -219,7 +241,7 @@ msgstr "যদি না হয়, অামাদের সাহায্য ক
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "যদি না হয়, অামাদের সাহায্য করুন অবৈধ অনুপ্রবেশকারী ঠেকাতে এবং আমাদের তা রিপোর্ট করুন।"
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:682
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:795
 msgid "Hello again."
 msgstr "পুনরায় স্বাগতম।"
 
@@ -271,9 +293,29 @@ msgstr "সাইন-ইন নিশ্চিত করুন"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "যদি সন্দেহ করেন আপনার অ্যাকাউন্ট অন্য কেউ প্রবেশের চেষ্টা করছে, <a %(passwordChangeLinkAttributes)s>অনুগ্রহ করে পাসওয়ার্ড পরিবর্তন করুন</a>।"
 
-#: lib/senders/templates/verify_login.txt:5
+#: lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_secondary.txt:5
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr "যদি সন্দেহ করেন আপনার অ্যাকাউন্টে অন্য কেউ প্রবেশের চেষ্টা করছে, অনুগ্রহ করে পাসওয়ার্ড পরিবর্তন করুন।"
+
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
+msgid "Verify secondary email"
+msgstr ""
+
+#: lib/senders/templates/verify_secondary.html:3 lib/senders/templates/verify_secondary.txt:2
+msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
+msgstr ""
+
+#: lib/senders/templates/verify_secondary.html:5 lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
+msgid "Verify email "
+msgstr "ইমেইল যাচাই করুন "
+
+#: lib/senders/templates/verify_secondary.html:6
+msgid "Once verified, this address will begin receiving security notifications and confirmations."
+msgstr ""
+
+#: lib/senders/templates/verify_secondary.txt:4
+msgid "Verify email: "
+msgstr ""
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -283,73 +325,77 @@ msgstr "প্রস্তুত, সেট, সিঙ্ক"
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
 msgstr "নিশ্চিত করুন আপনি ইমেইলটি পেয়েছেন, তাহলে আমরা আপনার সব ডিভাইসে Firefox ইন্সটল এবং সিঙ্ক করতে সাহায্য করতে পারবো:"
 
-#: lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
-msgid "Verify email "
-msgstr "ইমেইল যাচাই করুন "
-
 #: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "একবার নিশ্চিত করলে, আমরা আপনার অন্তঃত একটি ডিভাইসে Firefox ইন্সটল ও কানেক্ট করতে সহায়তা করতে পারবো।"
 
-#: lib/senders/email.js:153
+#: lib/senders/email.js:159
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaOS)s %(uaOSVersion)s এ %(uaBrowser)s"
 
-#: lib/senders/email.js:156
+#: lib/senders/email.js:162
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaOS)s এ %(uaBrowser)s"
 
-#: lib/senders/email.js:183
+#: lib/senders/email.js:189
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (আনুমানিক)"
 
-#: lib/senders/email.js:185
+#: lib/senders/email.js:191
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (আনুমানিক)"
 
-#: lib/senders/email.js:187
+#: lib/senders/email.js:193
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (আনুমানিক)"
 
-#: lib/senders/email.js:189
+#: lib/senders/email.js:195
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (আনুমানিক)"
 
-#: lib/senders/email.js:281
+#: lib/senders/email.js:293
 msgid "Verify your Firefox Account"
 msgstr "আপনার Firefox Account যাচাই করুন"
 
-#: lib/senders/email.js:310
+#: lib/senders/email.js:322
 msgid "Confirm your email and start to sync!"
 msgstr "আপনার ইমেইল নিশ্চিত করুন এবং সিঙ্ক শুরু করুন!"
 
-#: lib/senders/email.js:367
+#: lib/senders/email.js:380
 msgid "Firefox Account authorization code"
 msgstr "Firefox Account অনুমোদন কোড"
 
-#: lib/senders/email.js:419
+#: lib/senders/email.js:433
 msgid "Confirm new sign-in to Firefox"
 msgstr "Firefox-এ নতুন সাইন-ইন নিশ্চিত করুন"
 
-#: lib/senders/email.js:470
+#: lib/senders/email.js:489
+msgid "Verify email for Firefox Accounts"
+msgstr ""
+
+#: lib/senders/email.js:542
 msgid "Reset your Firefox Account password"
 msgstr "আপনার Firefox Account পাসওয়ার্ড পরিবর্তন করুন"
 
-#: lib/senders/email.js:510
+#: lib/senders/email.js:583
 msgid "Your Firefox Account password has been changed"
 msgstr "আপনার Firefox Account পাসওয়ার্ড পরিবর্তন করা হয়েছে"
 
-#: lib/senders/email.js:548
+#: lib/senders/email.js:622
 msgid "Your Firefox Account password has been reset"
 msgstr "আপনার Firefox Account পাসওয়ার্ড রিসেট করা হয়েছে"
 
-#: lib/senders/email.js:582
+#: lib/senders/email.js:656
 msgid "Firefox Account password reset required"
 msgstr "আপনার Firefox Account পাসওয়ার্ড রিসেট প্রয়োজন"
 
-#: lib/senders/email.js:655
+#: lib/senders/email.js:730
 msgid "Firefox Account verified"
 msgstr "যাচাইকৃত Firefox Account"
+
+#: lib/senders/email.js:769
+msgid "Secondary Firefox Account email added"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
