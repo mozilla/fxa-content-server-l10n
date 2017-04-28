@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-04-28 15:08+0000\n"
+"PO-Revision-Date: 2017-04-28 15:24+0000\n"
 "Last-Translator: xcffl <xcffl@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -126,7 +126,7 @@ msgstr "退订成功"
 
 #: app/scripts/views/settings/delete_account.js:45
 msgid "Account deleted successfully"
-msgstr "账号删除已成功"
+msgstr "已成功删除账户"
 
 #: app/scripts/views/settings/display_name.js:66
 msgid "Display name updated"
@@ -134,7 +134,7 @@ msgstr "显示名称已更新"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
-msgstr "您的账号已因安全原因被锁定"
+msgstr "由于安全性因素，您的账户已被冻结"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:44
 msgid "Reset password"
@@ -199,11 +199,11 @@ msgstr "请求签名中的随机数无效"
 
 #: app/scripts/lib/auth-errors.js:47
 msgid "Account already exists"
-msgstr "账号已经存在"
+msgstr "账户已经存在"
 
 #: app/scripts/lib/auth-errors.js:51
 msgid "Unknown account"
-msgstr "未知账号"
+msgstr "未知账户"
 
 #: app/scripts/lib/auth-errors.js:55
 msgid "Incorrect email case"
@@ -575,7 +575,7 @@ msgstr "无法创建账户"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr "您必须符合年龄要求才能创建 Firefox 账号。"
+msgstr "您必须符合年龄要求才能创建 Firefox 账户。"
 
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
@@ -687,7 +687,7 @@ msgstr "验证错误"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
-msgstr "确认您的账号"
+msgstr "确认您的账户"
 
 #: app/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
@@ -839,7 +839,7 @@ msgstr "请求权限"
 
 #: app/scripts/templates/permissions.mustache:2 app/scripts/templates/settings/gravatar_permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr "%(serviceName)s 想要获知您的账号的如下信息："
+msgstr "%(serviceName)s 想要获知您的账户的如下信息："
 
 #: app/scripts/templates/permissions.mustache:3 app/scripts/templates/settings/gravatar_permissions.mustache:4
 msgid "Accept"
@@ -854,7 +854,7 @@ msgstr "取消"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Your account is ready!"
-msgstr "您的账号已经准备好！"
+msgstr "您的账户准备好了！"
 
 #: app/scripts/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -862,7 +862,7 @@ msgstr "报告未授权的登录？"
 
 #: app/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr "您收到一封邮件，有关有人尝试访问您的账号。要将此事件举报为可疑活动吗？"
+msgstr "您收到一封邮件，提醒您有人尝试访问您的账户。要将此次登录举报为可疑活动吗？"
 
 #: app/scripts/templates/report_sign_in.mustache:6
 msgid "Report activity"
@@ -874,7 +874,7 @@ msgstr "因何发生？"
 
 #: app/scripts/templates/reset_password.mustache:1 app/scripts/templates/reset_password.mustache:4
 msgid "Reset account"
-msgstr "重置账号"
+msgstr "重置账户"
 
 #: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
@@ -898,7 +898,7 @@ msgstr "还记得密码？登录"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr "Firefox 账号"
+msgstr "Firefox 账户"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
@@ -906,19 +906,19 @@ msgstr "退出"
 
 #: app/scripts/templates/sign_in.mustache:4
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-msgstr "在找您的附加组件网站数据？用您旧的网站账号的邮箱<a href=\"/signup\">注册</a>一个 Firefox 账号就可以了。"
+msgstr "在找您的附加组件网站数据？用您原先在附加组件网站注册过的电子邮件地址<a href=\"/signup\">注册</a>一个 Firefox 账号就可以了。"
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr "登录以迁移您的同步数据到 Firefox 账号。"
+msgstr "登录以迁移您的同步数据到 Firefox 账户。"
 
 #: app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:12
 msgid "Use a different account"
-msgstr "使用另一个账号"
+msgstr "使用另一个账户"
 
 #: app/scripts/templates/sign_in.mustache:19
 msgid "Create an account"
-msgstr "创建账号"
+msgstr "创建账户"
 
 #: app/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -946,7 +946,7 @@ msgstr "继续"
 
 #: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
-msgstr "创建 Firefox 账号"
+msgstr "创建 Firefox 账户"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
@@ -954,11 +954,11 @@ msgstr "在找 Firefox 同步？<a href=\"%(escapedSyncSuggestionUrl)s\">从这�
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr "创建一个 Firefox 账号以迁移您的同步数据。"
+msgstr "创建一个 Firefox 账户以迁移您的同步数据。"
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr "在找您的附加组件网站数据？使用您在旧的附加组件网站的账号邮箱注册一个 Firefox 账号。"
+msgstr "在找您的附加组件网站数据？用您原先在附加组件网站注册过的电子邮件地址注册一个 Firefox 账号就可以了。"
 
 #: app/scripts/templates/sign_up.mustache:17
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
@@ -970,11 +970,11 @@ msgstr "接收每月 Firefox 新闻报"
 
 #: app/scripts/templates/sign_up.mustache:21
 msgid "Create account"
-msgstr "创建账号"
+msgstr "创建账户"
 
 #: app/scripts/templates/sign_up.mustache:26
 msgid "Have an account? Sign in"
-msgstr "已有账号？登录"
+msgstr "已有账户？登录"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
@@ -1096,7 +1096,7 @@ msgstr "断开同步？"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr "您的浏览数据将继续留在 %(deviceName)s 上，但它将不再与您的账号同步。"
+msgstr "您的浏览数据将继续留在 %(deviceName)s 上，但它将不再与您的账户同步。"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Suspicious device"
@@ -1192,7 +1192,7 @@ msgstr "订阅"
 
 #: app/scripts/templates/settings/delete_account.mustache:1 app/scripts/templates/settings/delete_account.mustache:5
 msgid "Delete account"
-msgstr "删除账号"
+msgstr "删除账户"
 
 #: app/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete…"
@@ -1200,11 +1200,11 @@ msgstr "删除…"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
-msgstr "您确认要删除自己的账号？这个操作无法撤销。"
+msgstr "您确认要删除自己的账户？这个操作无法撤销。"
 
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr "请选择您想要在 Firefox 和管理账号时显示的名称。"
+msgstr "请选择您想要在 Firefox 和管理账户时显示的名称。"
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1216,7 +1216,7 @@ msgstr "登录到同步"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-msgstr "选择您想与其同步标签页、书签、密码等信息的账号。"
+msgstr "选择您想与其同步标签页、书签、密码等信息的账户。"
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
@@ -1224,7 +1224,7 @@ msgstr "使用 OpenID"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr "使用 Firefox 账号"
+msgstr "使用 Firefox 账户"
 
 #. submit button
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:90
