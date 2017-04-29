@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-28 16:12+0000\n"
-"PO-Revision-Date: 2017-04-29 00:30+0000\n"
+"PO-Revision-Date: 2017-04-29 00:50+0000\n"
 "Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -96,27 +96,27 @@ msgstr "نأسف لهذا. عليك تغيير كلمة سر حساب فَيَر
 
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
+msgstr "نأسف لهذا. إذا كان هذا جهازًا لا تثق بع فعلًا، فعليك تغيير كلمة سر حساب فَيَرفُكس، و تغيير أي كلمات سر محفوظة في فَيَرفُكس."
 
 #: app/scripts/views/settings/clients.js:63
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "جلسة وب، %(userAgent)s"
 
 #: app/scripts/views/settings/clients.js:65
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "آخر نشاط %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/communication_preferences.js:104
 msgid "Subscribed successfully"
-msgstr "تم الاشتراك بنجاح"
+msgstr "اشتركت بنجاح"
 
 #: app/scripts/views/settings/communication_preferences.js:105
 msgid "Unsubscribed successfully"
-msgstr "تم إلغاء اشتراكك بنجاح"
+msgstr "أُلغِيَ اشتراكك بنجاح"
 
 #: app/scripts/views/settings/delete_account.js:45
 msgid "Account deleted successfully"
@@ -124,43 +124,43 @@ msgstr "حُذف الحساب بنجاح"
 
 #: app/scripts/views/settings/display_name.js:66
 msgid "Display name updated"
-msgstr "حُدّث أسم الحساب"
+msgstr "حُدّث اسم الحساب"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
-msgstr "حُظر حسابك لأسباب أمنيّة"
+msgstr "حسابك موصد لأسباب أمنيّة"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:44
 msgid "Reset password"
-msgstr "إعادة تعيين كلمة السرّ"
+msgstr "صفِّر كلمة السرّ"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
-msgstr "افتح بريد Gmail"
+msgstr "افتح جيميل"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:25
 msgid "Open Hotmail"
-msgstr "أفتح Hotmail"
+msgstr "افتح هوتميل"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:31
 msgid "Open Yahoo"
-msgstr "أفتح Yahoo"
+msgstr "افتح ياهو"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:37
 msgid "Open Outlook"
-msgstr "أفتح Outlook"
+msgstr "افتح أوتلوك"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:43
 msgid "Open Restmail"
-msgstr "أفتح بريد إعادة تعيين"
+msgstr "افتح بريد إعادة تعيين"
 
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
-msgstr "اُعيد إرسال البريد الإلكتروني"
+msgstr "أُعيد إرسال البريد الإلكتروني"
 
 #: app/scripts/models/reliers/sync.js:50
 msgid "Firefox Sync"
-msgstr "تزامُن فَيَرفُكس"
+msgstr "«تزامُن فَيَرفُكس»"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:35
@@ -169,27 +169,27 @@ msgstr "خطأ غير متوقّع"
 
 #: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:5
 msgid "The link you clicked to verify your email is expired."
-msgstr "انتهت مُدة صلاحية الرابط الذي قمت بالنقر علية لتأكيد بريدك الإلكتروني."
+msgstr "انتهت صلاحية الرابط الذي نقرت علية لتأكيد بريدك الإلكتروني."
 
 #: app/scripts/lib/auth-errors.js:21 app/scripts/lib/sms-errors.js:17
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "لقد حاولت مرات كثيرة. حاول مرة أخرى في وقت لاحق."
 
 #: app/scripts/lib/auth-errors.js:25
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "لقد حاولت مرات كثيرة. حاول مرة أخرى %(retryAfterLocalized)s."
 
 #: app/scripts/lib/auth-errors.js:35 app/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
-msgstr "رمز التسجيل غير صالح"
+msgstr "رمز التسجيل غير صحيح"
 
 #: app/scripts/lib/auth-errors.js:39
 msgid "Invalid timestamp in request signature"
-msgstr "ختم الوقت غير صحيح في طلب التوقيع"
+msgstr "ختم الوقت غير صحيح في توقيع الطلب"
 
 #: app/scripts/lib/auth-errors.js:43
 msgid "Invalid nonce in request signature"
-msgstr "الرقم الاعتباطي غير صالح في طلب التوقيع"
+msgstr "الرقم الاعتباطي غير صالح في توقيع الطلب"
 
 #: app/scripts/lib/auth-errors.js:47
 msgid "Account already exists"
@@ -217,31 +217,31 @@ msgstr "رمز التأكيد غير صحيح"
 
 #: app/scripts/lib/auth-errors.js:71
 msgid "Invalid JSON in request body"
-msgstr "JSONغير صالح في متن الطلب"
+msgstr "‏JSON غير صالح في متن الطلب"
 
 #: app/scripts/lib/auth-errors.js:75
 msgid "Invalid parameter: %(param)s"
-msgstr "معاملات غير صالحة: %(param)s"
+msgstr "معامل غير صالح: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:79
 msgid "Missing parameter: %(param)s"
-msgstr "معاملات مفقودة: %(param)s"
+msgstr "معامل مفقود: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:83
 msgid "Invalid request signature"
-msgstr "طلب التوقيع غير صالح"
+msgstr "توقيع الطلب غير صحيح"
 
 #: app/scripts/lib/auth-errors.js:87
 msgid "Missing content-length header"
-msgstr "فُقد عنوان خاصية content-length"
+msgstr "ترويسة content-length مفقودة"
 
 #: app/scripts/lib/auth-errors.js:91
 msgid "Request body too large"
-msgstr "متن الطلب كبير جداً"
+msgstr "متن الطلب كبير جدًا"
 
 #: app/scripts/lib/auth-errors.js:109
 msgid "The request was blocked for security reasons"
-msgstr "حُظر هذا الطلب لأسباب أمنيّة"
+msgstr "حُظر الطلب لأسباب أمنيّة"
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:350
 msgid "Invalid authorization code"
@@ -249,27 +249,27 @@ msgstr "رمز التخويل غير صحيح"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr ""
+msgstr "رقم الهاتف غير صحيح"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "تعذّر الإرسال لهذه الدولة"
 
 #: app/scripts/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "تعذّر إرسال رسالة لهذا الرقم"
 
 #: app/scripts/lib/auth-errors.js:138
 msgid "Your email was just returned"
-msgstr ""
+msgstr "أُعيد بريدك لتوِّه"
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "أُعيد بريدك لتوِّه. هل أخطأت في كتابة البريد الإلكتروني؟"
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "تعذّر توصيل البريد"
 
 #: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:330
 msgid "Server busy, try again soon"
@@ -277,7 +277,7 @@ msgstr "الخادوم مشغول، حاول مرة أخرى قريبًا"
 
 #: app/scripts/lib/auth-errors.js:154
 msgid "This endpoint is no longer supported"
-msgstr "نقطة النهاية هذه لم تعد مدعومة"
+msgstr "لم تعد نقطة النهاية هذه مدعومة"
 
 #: app/scripts/lib/auth-errors.js:158 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
@@ -285,15 +285,15 @@ msgstr "النظام غير متوفر، حاول مرة أخرى قريبًا"
 
 #: app/scripts/lib/auth-errors.js:162
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "أُلغِيت محاولة الولوج"
 
 #: app/scripts/lib/auth-errors.js:166
 msgid "Session expired. Sign in to continue."
-msgstr "انتهت مُدة صلاحية الجلسة. سجل الدخول للاستمرار."
+msgstr "انتهت صلاحية الجلسة. سجّل الدخول للاستمرار."
 
 #: app/scripts/lib/auth-errors.js:170
 msgid "Cookies are still disabled"
-msgstr "الكوكيز لا تزال معطّلة"
+msgstr "لا تزال الكعكات معطّلة"
 
 #: app/scripts/lib/auth-errors.js:174
 msgid "Passwords do not match"
@@ -301,31 +301,31 @@ msgstr "كلمات السرّ غير متطابقة"
 
 #: app/scripts/lib/auth-errors.js:178
 msgid "Working…"
-msgstr "قيد العمل…"
+msgstr "يعمل…"
 
 #: app/scripts/lib/auth-errors.js:182
 msgid "Could not get Privacy Notice"
-msgstr "تعذّر الحصول على سياسة الخصوصيّة"
+msgstr "تعذّر جلب تنويه الخصوصيّة"
 
 #: app/scripts/lib/auth-errors.js:186
 msgid "Could not get Terms of Service"
-msgstr "لا يمكن الحصول على شروط الخدمة"
+msgstr "تعذّر جلب شروط الخدمة"
 
 #: app/scripts/lib/auth-errors.js:190
 msgid "Your new password must be different"
-msgstr "كلمة السرّ الجديدة يجب أن تكون مختلفة"
+msgstr "يجب أن تكون كلمة السرّ الجديدة مختلفة"
 
 #: app/scripts/lib/auth-errors.js:194 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
-msgstr "يجب ألا تقل كلمة السرّ عن 8 أحرف"
+msgstr "يجب ألا تقل كلمة السرّ عن ٨ حروف"
 
 #: app/scripts/lib/auth-errors.js:198
 msgid "Valid password required"
-msgstr "أدخل كلمة سرّ صالحة"
+msgstr "مطلوب كلمة سرّ صالحة"
 
 #: app/scripts/lib/auth-errors.js:202 app/scripts/lib/auth-errors.js:240 app/scripts/lib/auth-errors.js:256
 msgid "Valid email required"
-msgstr "أدخل بريد إلكتروني صالح"
+msgstr "مطلوب بريد إلكتروني صالح"
 
 #: app/scripts/lib/auth-errors.js:213
 msgid "A usable image was not found"
@@ -333,15 +333,15 @@ msgstr "لم يُعثر على صورة قابلة للاستخدام"
 
 #: app/scripts/lib/auth-errors.js:217
 msgid "Could not initialize camera"
-msgstr "تعذّر تشغيل الكاميرة"
+msgstr "تعذّر تشغيل الكمرة"
 
 #: app/scripts/lib/auth-errors.js:221
 msgid "Valid URL required"
-msgstr "مطلوب URL صالح"
+msgstr "مطلوب مسار صالح"
 
 #: app/scripts/lib/auth-errors.js:236
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr "لم نجد بريدك الإلكتروني. هناك خطأ في كتابة البريد الإلكتروني؟"
+msgstr "لم نجد بريدك الإلكتروني. هل أخطأت في كتابة البريد الإلكتروني؟"
 
 #: app/scripts/lib/auth-errors.js:244
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -357,7 +357,7 @@ msgstr "تضرّر رابط التأكيد"
 
 #: app/scripts/lib/auth-errors.js:279
 msgid "The image dimensions must be at least 100x100px"
-msgstr "يجب أن تكون أبعاد الصورة على الأقل 100×100 بكسل"
+msgstr "يجب أن تكون أبعاد الصورة على الأقل ١٠٠×١٠٠ بكسل"
 
 #: app/scripts/lib/auth-errors.js:283
 msgid "Signup is coming soon to Firefox for iOS"
