@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-28 16:12+0000\n"
-"PO-Revision-Date: 2017-04-29 11:28+0000\n"
+"PO-Revision-Date: 2017-04-29 11:34+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -309,7 +309,7 @@ msgstr "İkinci e-postayı doğrula"
 
 #: lib/senders/templates/verify_secondary.html:3 lib/senders/templates/verify_secondary.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr ""
+msgstr "%(email)s adresini ikinci e-posta adresi olarak kullanmak için aşağıdaki Firefox Hesabından bir istek yapıldı:"
 
 #: lib/senders/templates/verify_secondary.html:5 lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
 msgid "Verify email "
@@ -317,11 +317,11 @@ msgstr "E-postayı doğrula "
 
 #: lib/senders/templates/verify_secondary.html:6
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "Adres doğrulandıktan sonra güvenlik bildirimleri ve onaylar bu adrese de gönderilecektir."
 
 #: lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
-msgstr ""
+msgstr "E-postayı doğrula: "
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -377,7 +377,7 @@ msgstr "Firefox'a yeni girişi onaylayın"
 
 #: lib/senders/email.js:489
 msgid "Verify email for Firefox Accounts"
-msgstr ""
+msgstr "Firefox Hesabı e-posta doğrulaması"
 
 #: lib/senders/email.js:542
 msgid "Reset your Firefox Account password"
@@ -401,7 +401,7 @@ msgstr "Firefox Hesabı doğrulandı"
 
 #: lib/senders/email.js:769
 msgid "Secondary Firefox Account email added"
-msgstr ""
+msgstr "Firefox Hesabı'na ikinci e-posta eklendi"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
