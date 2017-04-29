@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-28 16:12+0000\n"
-"PO-Revision-Date: 2017-04-29 00:50+0000\n"
+"PO-Revision-Date: 2017-04-29 00:53+0000\n"
 "Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -365,27 +365,27 @@ msgstr "سيتوفر قريبًا إنشاء حساب فَيَرفُكس على 
 
 #: app/scripts/lib/auth-errors.js:294
 msgid "You must enter your age to sign up"
-msgstr "يجب أدخال عمرك حتي يتم أنشاء الحساب"
+msgstr "يجب إدخال عمرك حتي يُنشأ الحساب"
 
 #: app/scripts/lib/auth-errors.js:309
 msgid "Account no longer exists."
-msgstr "الحساب لم يعد موجود."
+msgstr "لم يعد الحساب موجودًا."
 
 #: app/scripts/lib/auth-errors.js:313
 msgid "Invalid property in resume token: %(property)s"
-msgstr "خاصية غير صالحة للاستكمال رمز التسجيل: %(property)s"
+msgstr "خاصية غير صالحة في رمز استكمال التسجيل: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:317
 msgid "Missing property in resume token: %(property)s"
-msgstr "خاصية مفقودة للاستكمال رمز التسجيل: %(property)s"
+msgstr "خاصية مفقودة في رمز استكمال التسجيل: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:321
 msgid "Invalid data attribute: %(property)s"
-msgstr "خاصية غير صالحة من البيانات: %(property)s"
+msgstr "خاصية بيانات غير صالحة: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:325
 msgid "Missing data attribute: %(property)s"
-msgstr "خاصية مفقودة من البيانات: %(property)s"
+msgstr "خاصية بيانات مفقودة: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:338 app/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
