@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-28 16:12+0000\n"
-"PO-Revision-Date: 2017-04-29 01:48+0000\n"
+"PO-Revision-Date: 2017-04-29 01:57+0000\n"
 "Last-Translator: manxmensch <manxmensch@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ms\n"
@@ -319,11 +319,11 @@ msgstr "Sahkan emel "
 
 #: lib/senders/templates/verify_secondary.html:6
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "Apabila disahkan, alamat ini akan mula menerima notifikasi dan pengesahan."
 
 #: lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
-msgstr ""
+msgstr "Sahkan e-mel: "
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -379,7 +379,7 @@ msgstr "Sahkan daftar masuk baru ke Firefox"
 
 #: lib/senders/email.js:489
 msgid "Verify email for Firefox Accounts"
-msgstr ""
+msgstr "Sahkan e-mel untuk Akaun Firefox"
 
 #: lib/senders/email.js:542
 msgid "Reset your Firefox Account password"
@@ -403,7 +403,7 @@ msgstr "Akaun Firefox disahkan"
 
 #: lib/senders/email.js:769
 msgid "Secondary Firefox Account email added"
-msgstr ""
+msgstr "E-mel sekunder Akaun Firefox telah ditambah"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
