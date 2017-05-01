@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-28 16:12+0000\n"
-"PO-Revision-Date: 2017-05-01 06:59+0000\n"
+"PO-Revision-Date: 2017-05-01 07:45+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -320,11 +320,11 @@ msgstr "E-mailadres ferifiearje "
 
 #: lib/senders/templates/verify_secondary.html:6
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "Nei ferifikaasje wurde op dit adres befeiligingsmeldingen en befêstigingen ûntfongen."
 
 #: lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
-msgstr ""
+msgstr "E-mailadres ferifiearje: "
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -380,7 +380,7 @@ msgstr "Befêstigje nije oanmelding by Firefox"
 
 #: lib/senders/email.js:489
 msgid "Verify email for Firefox Accounts"
-msgstr ""
+msgstr "E-mailadres foar Firefox Accounts ferifiearje"
 
 #: lib/senders/email.js:542
 msgid "Reset your Firefox Account password"
@@ -404,7 +404,7 @@ msgstr "Firefox Account ferifiearre"
 
 #: lib/senders/email.js:769
 msgid "Secondary Firefox Account email added"
-msgstr ""
+msgstr "Sekundêr e-mailadres foar Firefox-account tafoege"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
