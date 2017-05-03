@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-28 16:12+0000\n"
-"PO-Revision-Date: 2017-05-03 14:25+0000\n"
+"PO-Revision-Date: 2017-05-03 14:47+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -203,7 +203,7 @@ msgstr "Добавен е допълнителен имейл"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2 lib/senders/templates/post_verify_secondary_email.html:3
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr ""
+msgstr "Успешно потвърдихте %(secondaryEmail)s като допълнителен имейл за вашия Firefox Account. Известия по сигурността и потвърждения за влизане вече ще бъдат изпращани и до двата адреса."
 
 #: lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
 msgid "Manage account"
@@ -315,7 +315,7 @@ msgstr "Потвърдете своя имейл"
 
 #: lib/senders/templates/verify_secondary.html:6
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "След като потвърдите този имейл до него ще бъдат изпращани известия по сигурността и потвърждения за влизане."
 
 #: lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
