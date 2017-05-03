@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-28 16:12+0000\n"
-"PO-Revision-Date: 2017-05-03 15:11+0000\n"
+"PO-Revision-Date: 2017-05-03 15:17+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -319,7 +319,7 @@ msgstr "След като потвърдите този имейл до него
 
 #: lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
-msgstr ""
+msgstr "Потвърждаване:"
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -375,7 +375,7 @@ msgstr "Потвърждение на вписване във Firefox"
 
 #: lib/senders/email.js:489
 msgid "Verify email for Firefox Accounts"
-msgstr ""
+msgstr "Потвърждаване имейл за Firefox Account"
 
 #: lib/senders/email.js:542
 msgid "Reset your Firefox Account password"
@@ -399,7 +399,7 @@ msgstr "Потвърден Firefox Account"
 
 #: lib/senders/email.js:769
 msgid "Secondary Firefox Account email added"
-msgstr ""
+msgstr "Добавен допълнителен имейл към Firefox Account"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
