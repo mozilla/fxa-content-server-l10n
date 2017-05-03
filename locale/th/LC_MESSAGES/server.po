@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-28 16:12+0000\n"
-"PO-Revision-Date: 2017-03-14 03:49+0000\n"
-"Last-Translator: nuttapong2539 <nuttapong2539@gmail.com>\n"
+"PO-Revision-Date: 2017-05-03 07:00+0000\n"
+"Last-Translator: Chengings <chengings@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
@@ -26,12 +26,13 @@ msgstr "คุณได้สร้างบัญชี Firefox มาสัก
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
-msgstr "คุณเชื่อมต่ออุปกรณ์แรกเข้ากับบัญชี Firefox สำเร็จแล้ว ตอนนี้คุณสามารถลงชื่อเข้าใช้ Sync จากอุปกรณ์อื่น ซึ่งรวมถึง Firefox สำหรับ <a href='%(androidUrl)s'>Android</a> และ <a href='%(iosUrl)s'>iOS</a>"
+msgstr ""
+"คุณเชื่อมต่ออุปกรณ์แรกเข้ากับบัญชี Firefox สำเร็จแล้ว ตอนนี้คุณสามารถลงชื่อเข้าใช้ Sync จากอุปกรณ์อื่น ซึ่งรวมถึง Firefox สำหรับ <a href='%(androidUrl)s'>Android</a> และ <a href='%(iosUrl)s'>iOS</a>"
 
 #: lib/senders/templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr "คุณเชื่อมต่อกับอุปกรณ์แรกกับบัญชี Firefox สำเร็จแล้ว เพื่อที่จะใช้งานส่วนมากใน Sync เชื่อมต่อกับ <a href='%(androidUrl)s'>Firefox for Android</a> หรือ <a href='%(iosUrl)s'>Firefox for iOS</a>"
 
 #: lib/senders/templates/_pending.txt:5 lib/senders/templates/post_verify.html:4
@@ -180,7 +181,9 @@ msgstr "ตรวจสอบบัญชีแล้ว!"
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
-msgstr "คุณได้เชื่อมต่ออุปกรณ์แรกเข้ากับบัญชี Firefox เรียบร้อยแล้ว ตอนนี้คุณสามารถลงชื่อเข้า Sync จากอุปกรณ์อื่นรวมถึง Firefox สำหรับ <a %(androidLinkAttributes)s>Android</a> และ <a %(iosLinkAttributes)s>iOS</a>"
+msgstr ""
+"คุณได้เชื่อมต่ออุปกรณ์แรกเข้ากับบัญชี Firefox เรียบร้อยแล้ว ตอนนี้คุณสามารถลงชื่อเข้า Sync จากอุปกรณ์อื่นรวมถึง Firefox สำหรับ <a %(androidLinkAttributes)s>Android</a> และ <a "
+"%(iosLinkAttributes)s>iOS</a>"
 
 #: lib/senders/templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
@@ -200,11 +203,11 @@ msgstr ""
 
 #: lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
 msgid "Manage account"
-msgstr ""
+msgstr "จัดการบัญชี"
 
 #: lib/senders/templates/post_verify_secondary.txt:3
 msgid "Manage account:"
-msgstr ""
+msgstr "จัดการบัญชี:"
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Forgot your password?"
@@ -244,9 +247,11 @@ msgstr "สวัสดีอีกครั้ง"
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
-msgstr "เมื่อไม่กี่วันมานี้คุณสร้างบัญชี Firefox แต่ยังไม่ได้ตรวจสอบ การตรวจสอบบัญชีทำให้คุณเข้าถึงแท็บ ที่คั่นหน้า รหัสผ่าน และประวัติของคุณบนอุปกรณ์ใด ๆ ที่เชื่อมต่อกับบัญชี เพียงยืนยันที่อยู่อีเมลนี้เพื่อเปิดใช้งานบัญชีของคุณ"
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
+msgstr ""
+"เมื่อไม่กี่วันมานี้คุณสร้างบัญชี Firefox แต่ยังไม่ได้ตรวจสอบ การตรวจสอบบัญชีทำให้คุณเข้าถึงแท็บ ที่คั่นหน้า รหัสผ่าน และประวัติของคุณบนอุปกรณ์ใด ๆ ที่เชื่อมต่อกับบัญชี "
+"เพียงยืนยันที่อยู่อีเมลนี้เพื่อเปิดใช้งานบัญชีของคุณ"
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verify.html:4
 msgid "Activate now"
@@ -310,7 +315,7 @@ msgstr ""
 
 #: lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
-msgstr ""
+msgstr "ยืนยันอีเมล: "
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -366,7 +371,7 @@ msgstr "ยืนยันการลงชื่อเข้า Firefox"
 
 #: lib/senders/email.js:489
 msgid "Verify email for Firefox Accounts"
-msgstr ""
+msgstr "ยืนยันความถูกต้อง Firefox Accounts ของคุณ"
 
 #: lib/senders/email.js:542
 msgid "Reset your Firefox Account password"
