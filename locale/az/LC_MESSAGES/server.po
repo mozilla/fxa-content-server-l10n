@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-28 16:12+0000\n"
-"PO-Revision-Date: 2017-02-23 23:28+0000\n"
+"PO-Revision-Date: 2017-05-04 10:01+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: az\n"
@@ -33,8 +33,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "İlk cihazınızı müvəffəqiyyətlə Fiefox Hesabınıza qoşdunuz. Sync-dən daha yaxşı faydalanmaq üçün hər hansı bir <a href='%(androidUrl)s'>Android üçün Firefox</a> və ya <a href='%(iosUrl)s'>iOS üçün "
 "Firefox</a> qoşun."
@@ -201,19 +201,19 @@ msgstr "Sinxronlaşdırmaq üçün daxil olun:"
 
 #: lib/senders/templates/post_verify_secondary.html:2 lib/senders/templates/post_verify_secondary.txt:1 lib/senders/templates/post_verify_secondary_email.html:2
 msgid "Secondary email added"
-msgstr ""
+msgstr "İkinci e-poçt əlavə edildi"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2 lib/senders/templates/post_verify_secondary_email.html:3
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr ""
+msgstr "%(secondaryEmail)s ünvanını Firefox Hesabınızın ikinci e-poçtu olaraq təsdiqlədiniz. Təhlükəsizlik bildirişləri və daxil-olma təsdiqləmələri artıq hər iki e-poçt ünvanına çatdırılacaq."
 
 #: lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
 msgid "Manage account"
-msgstr ""
+msgstr "Hesabı idarə et"
 
 #: lib/senders/templates/post_verify_secondary.txt:3
 msgid "Manage account:"
-msgstr ""
+msgstr "Hesabı idarə et:"
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Forgot your password?"
@@ -253,8 +253,8 @@ msgstr "Təkrar salam."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 "Bir neçə gün əvvəl Firefox Hesabı yaratdınız, amma aktivləşdirməmisiniz. Təsdiqlənmiş hesab ona qoşulu bütün cihazlarda vərəq, əlfəcin, parol və tarixçənizi əlçatan edir. Hesabınızı aktivləşdirmək "
 "üçün sadəcə bu e-poçt ünvanını təsdiqləyin."
@@ -305,11 +305,11 @@ msgstr "Əgər birilərinin hesabınıza girmək üçün əlləşdiyini düşün
 
 #: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
 msgid "Verify secondary email"
-msgstr ""
+msgstr "İkinci e-poçtu təsdiqlə"
 
 #: lib/senders/templates/verify_secondary.html:3 lib/senders/templates/verify_secondary.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr ""
+msgstr "Bu Firefox Hesabından %(email)s ünvanını ikinci e-poçt olaraq işlətmə istəyi gəldi:"
 
 #: lib/senders/templates/verify_secondary.html:5 lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
 msgid "Verify email "
@@ -317,11 +317,11 @@ msgstr "E-poçtu təsdiqlər "
 
 #: lib/senders/templates/verify_secondary.html:6
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "Təsdiqləndiyində, bu e-poçt təhlükəsizlik bildirişləri və təsdiqləmələri almağa başlayacaq."
 
 #: lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
-msgstr ""
+msgstr "E-poçtu təsdiqlə: "
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -377,7 +377,7 @@ msgstr "Firefox-a yeni daxil olmanı təsdiqlə"
 
 #: lib/senders/email.js:489
 msgid "Verify email for Firefox Accounts"
-msgstr ""
+msgstr "E-poçtu Firefox Hesabları üçün təsdiqlə"
 
 #: lib/senders/email.js:542
 msgid "Reset your Firefox Account password"
@@ -401,7 +401,7 @@ msgstr "Firefox Hesabı təsdiqləndi"
 
 #: lib/senders/email.js:769
 msgid "Secondary Firefox Account email added"
-msgstr ""
+msgstr "İkinci Firefox Hesabı e-poçtu əlavə edildi"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -534,8 +534,8 @@ msgstr "İstifadə Şərtləri"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Bir neçə gün əvvəl Firefox Hesabı yaratdınız, amma aktivləşdirməmisiniz. Sizin üçün narahatıq. Firefox Windows, Mac, Linux, Android və iOS üçün mövcuddur. Bunların arasında Firefox parol, "
-#~ "əlfəcin və tarixçənizi sinxronlaşdıra bilərsiniz. Bu e-poçt ünvanını təsdiqləyərək hesabı aktiv edin və sağ-salamat olduğunuzu bildirin."
+#~ "Bir neçə gün əvvəl Firefox Hesabı yaratdınız, amma aktivləşdirməmisiniz. Sizin üçün narahatıq. Firefox Windows, Mac, Linux, Android və iOS üçün mövcuddur. Bunların arasında Firefox parol, əlfəcin və"
+#~ " tarixçənizi sinxronlaşdıra bilərsiniz. Bu e-poçt ünvanını təsdiqləyərək hesabı aktiv edin və sağ-salamat olduğunuzu bildirin."
 
 #~ msgid "env"
 #~ msgstr "env"
