@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-28 16:12+0000\n"
+"POT-Creation-Date: 2017-05-05 16:08+0000\n"
 "PO-Revision-Date: 2017-03-21 17:37+0000\n"
 "Last-Translator: Merike Sell <merikes@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1448538766.0\n"
 
-#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:174 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
+#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:174 app/scripts/views/confirm.js:121 app/scripts/views/confirm_reset_password.js:170
 msgid "Account verified successfully"
 msgstr "Konto kinnitamine õnnestus"
 
@@ -67,11 +67,11 @@ msgstr "%(serviceName)s on kasutamiseks valmis."
 msgid "Account verified"
 msgstr "Konto on kinnitatud"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177
+#: app/scripts/views/reset_password.js:65 app/scripts/views/sign_in.js:172
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Tundmatu konto. <a href=\"/signup\">Registreeru</a>"
 
-#: app/scripts/views/sign_in.js:174
+#: app/scripts/views/sign_in.js:169
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Tundmatu Firefoxi konto. <a href=\"/signup\">Registreeru</a>, kasutades oma eelmist lisade konto e-postiaadressi, ning pääsed ligi oma lisade andmetele."
 
@@ -79,7 +79,7 @@ msgstr "Tundmatu Firefoxi konto. <a href=\"/signup\">Registreeru</a>, kasutades 
 msgid "Account no longer exists. Recreate it?"
 msgstr "Kontot pole enam olemas. Kas soovid selle uuesti luua?"
 
-#: app/scripts/views/sign_up.js:383
+#: app/scripts/views/sign_up.js:379
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Konto on juba olemas. <a href=\"/signin\">Logi sisse</a>"
 
@@ -720,9 +720,9 @@ msgstr "Mäletad parooli? Logi sisse."
 msgid "Connect another device"
 msgstr "Ühenda teine seade"
 
-#: app/scripts/templates/connect_another_device.mustache:2
-msgid "This device is connected"
-msgstr "See seade on ühendatud"
+#: app/scripts/templates/connect_another_device.mustache:2 app/scripts/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
+msgstr "See Firefox on ühendatud"
 
 #: app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -973,10 +973,6 @@ msgstr "Sul on konto olemas? Logi sisse."
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr "Seadistamise lõpetamiseks saada Firefox enda telefoni ning logi sisse"
 
-#: app/scripts/templates/sms_send.mustache:2
-msgid "This Firefox is connected"
-msgstr "See Firefox on ühendatud"
-
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
 msgstr "Mobiiltelefoni number"
@@ -987,10 +983,8 @@ msgstr "Saada"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
-"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-"SMS-teenus on saadaval vaid Ameerika Ühendriikide numbritele. Lisanduda võivad SMS-i ja andmesidetasud. Kirja või sõnumi saaja peab olema nõusoleku andnud. <a %(escapedLearnMoreAttributes)s>Rohkem "
-"teavet</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
@@ -1228,6 +1222,15 @@ msgstr ""
 msgctxt "header text"
 msgid "Sign in"
 msgstr ""
+
+#~ msgid "This device is connected"
+#~ msgstr "See seade on ühendatud"
+
+#~ msgid ""
+#~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "SMS-teenus on saadaval vaid Ameerika Ühendriikide numbritele. Lisanduda võivad SMS-i ja andmesidetasud. Kirja või sõnumi saaja peab olema nõusoleku andnud. <a "
+#~ "%(escapedLearnMoreAttributes)s>Rohkem teavet</a>"
 
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "<a href=\"https://www.gravatar.com\">Gravatari</a> kaudu"

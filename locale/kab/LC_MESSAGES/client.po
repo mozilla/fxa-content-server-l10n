@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-28 16:12+0000\n"
+"POT-Creation-Date: 2017-05-05 16:08+0000\n"
 "PO-Revision-Date: 2017-04-23 19:23+0000\n"
 "Last-Translator: Moḥend Belqasem <belkacem77@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pontoon\n"
 
-#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:174 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
+#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:174 app/scripts/views/confirm.js:121 app/scripts/views/confirm_reset_password.js:170
 msgid "Account verified successfully"
 msgstr "Amiḍan yettwasenqed akken iwata"
 
@@ -66,11 +66,11 @@ msgstr "Aqla-k tura theggad i useqdec n %(serviceName)s"
 msgid "Account verified"
 msgstr "Amiḍan yettwasenqed"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177
+#: app/scripts/views/reset_password.js:65 app/scripts/views/sign_in.js:172
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Amiḍan arussin. <a href=\"/signup\">Rnu amiḍan</a>"
 
-#: app/scripts/views/sign_in.js:174
+#: app/scripts/views/sign_in.js:169
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Amiḍan Firefox arussin. <a href=\"/signup\">Jerred</a> s useqdec n tensa imayl i tesqedceḍ yakan ɣef usmel n izegrar akken ad tkecmeḍ ar isefka inek."
 
@@ -78,7 +78,7 @@ msgstr "Amiḍan Firefox arussin. <a href=\"/signup\">Jerred</a> s useqdec n ten
 msgid "Account no longer exists. Recreate it?"
 msgstr "Amidan ur yezgi yella. Ad ternuḍ tura?"
 
-#: app/scripts/views/sign_up.js:383
+#: app/scripts/views/sign_up.js:379
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Amidan yella yakan. <a href=\"/signin\">Kcem</a>"
 
@@ -719,9 +719,9 @@ msgstr "Cfu ɣef wawal uffir? Kcem"
 msgid "Connect another device"
 msgstr "Qqen ibenk nniḍen"
 
-#: app/scripts/templates/connect_another_device.mustache:2
-msgid "This device is connected"
-msgstr "Ibenk-agi yeqqen"
+#: app/scripts/templates/connect_another_device.mustache:2 app/scripts/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
+msgstr "Firefox-agi ittwaqen"
 
 #: app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -972,10 +972,6 @@ msgstr "Ɣur-k amiḍan? Kcem"
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr "Azen Firefox srid γeṛ tiliγṛi inek sakin qqen akken ad tkemleḍ asbeded"
 
-#: app/scripts/templates/sms_send.mustache:2
-msgid "This Firefox is connected"
-msgstr "Firefox-agi ittwaqen"
-
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
 msgstr "Uṭṭun n tiliγṛi"
@@ -986,10 +982,8 @@ msgstr "Azen"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
-"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-"Tanfa tella kan i uṭṭunen n tiliγṛi n tmurt n Marikan. SMS &amp; Isefka zemren ad awin kra n tedrimt. Inermasen n imayl neγ SMS ilaq ad qeblen aya.  <a %(escapedLearnMoreAttributes)s> Issin ugar </"
-"a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
@@ -1227,6 +1221,15 @@ msgstr "Kcem"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Kcem"
+
+#~ msgid "This device is connected"
+#~ msgstr "Ibenk-agi yeqqen"
+
+#~ msgid ""
+#~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "Tanfa tella kan i uṭṭunen n tiliγṛi n tmurt n Marikan. SMS &amp; Isefka zemren ad awin kra n tedrimt. Inermasen n imayl neγ SMS ilaq ad qeblen aya.  <a %(escapedLearnMoreAttributes)s> Issin ugar "
+#~ "</a>"
 
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "Yefka-t-id <a href=\"https://www.gravatar.com\">Gravatar</a>"
