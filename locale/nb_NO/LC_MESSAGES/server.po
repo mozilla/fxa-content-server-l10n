@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-28 16:12+0000\n"
-"PO-Revision-Date: 2017-02-21 12:02+0000\n"
+"PO-Revision-Date: 2017-05-05 09:48+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -33,11 +33,11 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
-"Du har nå koblet til din første enhet til din Firefox-konto. For å få mest mulig ut av Sync, koble til <a href='%(androidUrl)s'>Firefox for Android</a> eller <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"Du har nå koblet til din første enhet til din Firefox-konto. For å få mest mulig ut av Sync, koble til <a href='%(androidUrl)s'>Firefox for Android</a> eller <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 
 #: lib/senders/templates/_pending.txt:5 lib/senders/templates/post_verify.html:4
 msgid "Connect another device"
@@ -201,7 +201,7 @@ msgstr "Logg inn på Sync:"
 
 #: lib/senders/templates/post_verify_secondary.html:2 lib/senders/templates/post_verify_secondary.txt:1 lib/senders/templates/post_verify_secondary_email.html:2
 msgid "Secondary email added"
-msgstr ""
+msgstr "Sekundær e-post lagt til"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2 lib/senders/templates/post_verify_secondary_email.html:3
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
@@ -209,11 +209,11 @@ msgstr ""
 
 #: lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
 msgid "Manage account"
-msgstr ""
+msgstr "Behandle konto"
 
 #: lib/senders/templates/post_verify_secondary.txt:3
 msgid "Manage account:"
-msgstr ""
+msgstr "Behandle konto:"
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Forgot your password?"
@@ -253,11 +253,11 @@ msgstr "Hei igjen."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
-"For et par dager siden opprettet du en Firefox-konto, men bekreftet den aldri. Med en bekreftet konto får du adgang til dine faner, bokmerker, passord og historikk på alle enheter, som er koblet "
-"til den. Bekreft denne e-postadressen for å aktivere din konto."
+"For et par dager siden opprettet du en Firefox-konto, men bekreftet den aldri. Med en bekreftet konto får du adgang til dine faner, bokmerker, passord og historikk på alle enheter, som er koblet til"
+" den. Bekreft denne e-postadressen for å aktivere din konto."
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verify.html:4
 msgid "Activate now"
@@ -305,7 +305,7 @@ msgstr "Hvis du mistenker at noen prøver å få tilgang til kontoen din, må du
 
 #: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
 msgid "Verify secondary email"
-msgstr ""
+msgstr "Verifiser sekundær e-post"
 
 #: lib/senders/templates/verify_secondary.html:3 lib/senders/templates/verify_secondary.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
@@ -317,11 +317,11 @@ msgstr "Bekreft e-post "
 
 #: lib/senders/templates/verify_secondary.html:6
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "Når e-postadressen er verifisert, vil den begynne å motta sikkerhetsvarsler og bekreftelser."
 
 #: lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
-msgstr ""
+msgstr "Bekreft e-post: "
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -377,7 +377,7 @@ msgstr "Bekreft ny innlogging på Firefox"
 
 #: lib/senders/email.js:489
 msgid "Verify email for Firefox Accounts"
-msgstr ""
+msgstr "Verifiser e-post for Firefox-konto"
 
 #: lib/senders/email.js:542
 msgid "Reset your Firefox Account password"
@@ -401,7 +401,7 @@ msgstr "Firefox-konto verifisert"
 
 #: lib/senders/email.js:769
 msgid "Secondary Firefox Account email added"
-msgstr ""
+msgstr "Sekundær e-post for Firefox-konto lagt til"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
