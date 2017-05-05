@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-28 16:12+0000\n"
+"POT-Creation-Date: 2017-05-05 16:08+0000\n"
 "PO-Revision-Date: 2017-02-24 06:18+0000\n"
 "Last-Translator: Dinesh <dineshmv38@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:798
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:801
 msgid "Still there?"
 msgstr "ఇంకా ఉన్నారా?"
 
@@ -52,7 +52,7 @@ msgid "Firefox Accounts"
 msgstr "ఫైర్‌ఫాక్స్ ఖాతాలు"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:690
+#: lib/senders/email.js:693
 msgid "New sign-in to Firefox"
 msgstr "ఫైర్ఫాక్సుకు ప్రవేశించండి"
 
@@ -238,7 +238,7 @@ msgstr "ఒకవేళ కాకపోతే, మాకు చొరబాట�
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "ఒకవేళ కాకపోతే, మాకు చొరబాటు తప్పించడానికి సహాయం చేయండి మరియు దాన్ని మాకు నివేదించండి."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:795
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:798
 msgid "Hello again."
 msgstr "మళ్ళీ హెలో."
 
@@ -324,71 +324,71 @@ msgstr "మీరు ఈ ఇమెయిల్ అందుకున్నట్
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "ఒకసారి ధ్రువీకరించినట్లైతే, మేము మీకు కనీసం ఒక ఇతర పరికరంలో Firefox ను ఇన్స్టాల్ చేసి కనెక్ట్ చేయడానికి సహాయం చేయగలము."
 
-#: lib/senders/email.js:159
+#: lib/senders/email.js:160
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaOS)s %(uaOSVersion)s పై %(uaBrowser)s"
 
-#: lib/senders/email.js:162
+#: lib/senders/email.js:163
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaOS)s పై %(uaBrowser)s"
 
-#: lib/senders/email.js:189
+#: lib/senders/email.js:190
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (అంచనా)"
 
-#: lib/senders/email.js:191
+#: lib/senders/email.js:192
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (అంచనా)"
 
-#: lib/senders/email.js:193
+#: lib/senders/email.js:194
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (అంచనా)"
 
-#: lib/senders/email.js:195
+#: lib/senders/email.js:196
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (అంచనా)"
 
-#: lib/senders/email.js:293
+#: lib/senders/email.js:295
 msgid "Verify your Firefox Account"
 msgstr "మీ ఫైర్ఫాక్సు ఖాతాను నిర్ధారించండి"
 
-#: lib/senders/email.js:322
+#: lib/senders/email.js:324
 msgid "Confirm your email and start to sync!"
 msgstr "మీ ఇమెయిల్ ని నిర్ధారించి సమకాలీకరించడానికి ప్రారంభించండి!"
 
-#: lib/senders/email.js:380
+#: lib/senders/email.js:382
 msgid "Firefox Account authorization code"
 msgstr "Firefox ఖాతా అధికార కోడ్"
 
-#: lib/senders/email.js:433
+#: lib/senders/email.js:435
 msgid "Confirm new sign-in to Firefox"
 msgstr "ఫైర్ఫాక్సుకు ప్రవేశించడాన్ని నిర్థారించండి"
 
-#: lib/senders/email.js:489
+#: lib/senders/email.js:492
 msgid "Verify email for Firefox Accounts"
 msgstr ""
 
-#: lib/senders/email.js:542
+#: lib/senders/email.js:545
 msgid "Reset your Firefox Account password"
 msgstr "ఫైర్ఫాక్స్ ఖాతా పాస్వర్డ్ రీసెట్ చేయండి"
 
-#: lib/senders/email.js:583
+#: lib/senders/email.js:586
 msgid "Your Firefox Account password has been changed"
 msgstr "మీ ఫైర్ఫాక్స్ ఖాతా పాస్వర్డ్ మార్చబడింది"
 
-#: lib/senders/email.js:622
+#: lib/senders/email.js:625
 msgid "Your Firefox Account password has been reset"
 msgstr "మీ ఫైర్ఫాక్స్ ఖాతా పాస్వర్డ్ రీసెట్ అయింది"
 
-#: lib/senders/email.js:656
+#: lib/senders/email.js:659
 msgid "Firefox Account password reset required"
 msgstr "మీ ఫైర్ఫాక్స్ ఖాతా పాస్వర్డ్ రీసెట్ అవసరం"
 
-#: lib/senders/email.js:730
+#: lib/senders/email.js:733
 msgid "Firefox Account verified"
 msgstr "Firefox ఖాతా ధ్రువీకరించబడినది"
 
-#: lib/senders/email.js:769
+#: lib/senders/email.js:772
 msgid "Secondary Firefox Account email added"
 msgstr ""
 

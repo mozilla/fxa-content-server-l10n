@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-28 16:12+0000\n"
+"POT-Creation-Date: 2017-05-05 16:08+0000\n"
 "PO-Revision-Date: 2017-04-22 07:12+0000\n"
 "Last-Translator: Chengings <chengings@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:174 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
+#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:174 app/scripts/views/confirm.js:121 app/scripts/views/confirm_reset_password.js:170
 msgid "Account verified successfully"
 msgstr "ตรวจสอบบัญชีสำเร็จ"
 
@@ -66,11 +66,11 @@ msgstr "ขณะนี้คุณพร้อมใช้ %(serviceName)s แ�
 msgid "Account verified"
 msgstr "ตรวจสอบบัญชีแล้ว"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177
+#: app/scripts/views/reset_password.js:65 app/scripts/views/sign_in.js:172
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "ไม่รู้จักบัญชีนี้ <a href=\"/signup\">ลงทะเบียน</a>"
 
-#: app/scripts/views/sign_in.js:174
+#: app/scripts/views/sign_in.js:169
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "ไม่รู้จัก Firefox Account นี้ <a href=\"/signup\">ลงทะเบียน</a> ด้วยการใช้บัญชีอีเมล Add-ons อันก่อนเพื่อเข้าถึงข้อมูล Add-ons ของคุณ"
 
@@ -78,7 +78,7 @@ msgstr "ไม่รู้จัก Firefox Account นี้ <a href=\"/signup\
 msgid "Account no longer exists. Recreate it?"
 msgstr "บัญชีไม่มีอีกต่อไป สร้างใหม่?"
 
-#: app/scripts/views/sign_up.js:383
+#: app/scripts/views/sign_up.js:379
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "บัญชีนี้มีอยู่แล้ว <a href=\"/signin\">ลงชื่อเข้า</a>"
 
@@ -719,9 +719,9 @@ msgstr "จำรหัสผ่านได้? ลงชื่อเข้า"
 msgid "Connect another device"
 msgstr "เชื่อมต่ออุปกรณ์อื่น"
 
-#: app/scripts/templates/connect_another_device.mustache:2
-msgid "This device is connected"
-msgstr "อุปกรณ์นี้ถูกเชื่อมต่อแล้ว"
+#: app/scripts/templates/connect_another_device.mustache:2 app/scripts/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
+msgstr "Firefox นี้เชื่อมต่อแล้ว"
 
 #: app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -972,10 +972,6 @@ msgstr "มีบัญชี? ลงชื่อเข้า"
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr "ส่ง Firefox ตรงไปยังสมาร์ทโฟนของคุณ และลงชื่อเข้าใช้เพื่อตั้งค่าให้เสร็จสมบูรณ์"
 
-#: app/scripts/templates/sms_send.mustache:2
-msgid "This Firefox is connected"
-msgstr "Firefox นี้เชื่อมต่อแล้ว"
-
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
 msgstr "เบอร์โทรศัพท์มือถือ"
@@ -986,8 +982,8 @@ msgstr "ส่ง"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
-"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr "บริการ SMS ให้บริการเฉพาะหมายเลขโทรศัพท์สหรัฐฯ เท่านั้น ค่าบริการ SMS และดาต้าอาจถูกคิด ผู้รับอีเมลหรือ SMS ต้องยอมรับด้วย <a %(escapedLearnMoreAttributes)s>เรียนรู้เพิ่มเติม</a>"
+"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+msgstr ""
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
@@ -1223,6 +1219,13 @@ msgstr "ลงชื่อเข้า"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "ลงชื่อเข้า"
+
+#~ msgid "This device is connected"
+#~ msgstr "อุปกรณ์นี้ถูกเชื่อมต่อแล้ว"
+
+#~ msgid ""
+#~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr "บริการ SMS ให้บริการเฉพาะหมายเลขโทรศัพท์สหรัฐฯ เท่านั้น ค่าบริการ SMS และดาต้าอาจถูกคิด ผู้รับอีเมลหรือ SMS ต้องยอมรับด้วย <a %(escapedLearnMoreAttributes)s>เรียนรู้เพิ่มเติม</a>"
 
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "ความเอื้อเฟื้อจาก <a href=\"https://www.gravatar.com\">Gravatar</a>"

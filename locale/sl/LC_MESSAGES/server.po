@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-28 16:12+0000\n"
+"POT-Creation-Date: 2017-05-05 16:08+0000\n"
 "PO-Revision-Date: 2017-04-28 20:00+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1426152018.0\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:798
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:801
 msgid "Still there?"
 msgstr "Ste še tu?"
 
@@ -28,13 +28,13 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Uspešno ste povezali svojo prvo napravo v Firefox Račun. Sedaj se lahko prijavite v Sync z drugih naprav, vključno s Firefoxom za <a href='%(androidUrl)s'>Android</a> in <a "
-"href='%(iosUrl)s'>iOS</a>."
+"Uspešno ste povezali svojo prvo napravo v Firefox Račun. Sedaj se lahko prijavite v Sync z drugih naprav, vključno s Firefoxom za <a href='%(androidUrl)s'>Android</a> in <a href='%(iosUrl)s'>iOS</"
+"a>."
 
 #: lib/senders/templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
 "Uspešno ste povezali svojo prvo napravo s Firefox Računom. Da bi Sync izkoristili v polni meri, se povežite s <a href='%(androidUrl)s'>Firefoxom za Android</a> ali <a href='%(iosUrl)s'>Firefoxom za "
 "iOS</a>."
@@ -57,7 +57,7 @@ msgid "Firefox Accounts"
 msgstr "Firefox Računi"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:690
+#: lib/senders/email.js:693
 msgid "New sign-in to Firefox"
 msgstr "Nova prijava v Firefox"
 
@@ -245,14 +245,14 @@ msgstr "Če to niste vi, nam pomagajte odgnati vsiljivce in <a %(reportSignInLin
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Če to niste vi, nam pomagajte odgnati vsiljivce in nam prijavite poskus zlorabe."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:795
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:798
 msgid "Hello again."
 msgstr "Pozdravljeni še enkrat."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-" email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+"this email address to activate your account."
 msgstr ""
 "Pred nekaj dnevi ste ustvarili Firefox Račun, a ga še niste potrdili. Potrjen račun vam omogoča dostop do vaših zavihkov, zaznamkov, gesel in zgodovine na vseh povezanih napravah. Za aktivacijo "
 "računa potrdite ta e-poštni naslov."
@@ -334,71 +334,71 @@ msgstr "Potrdite prejem te e-pošte, nakar vam bomo pomagali namestiti in sinhro
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Ko potrdite, vam bomo pomagali namestiti in povezati Firefox na vsaj eni drugi napravi."
 
-#: lib/senders/email.js:159
+#: lib/senders/email.js:160
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s v %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:162
+#: lib/senders/email.js:163
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s v %(uaOS)s"
 
-#: lib/senders/email.js:189
+#: lib/senders/email.js:190
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (ocena)"
 
-#: lib/senders/email.js:191
+#: lib/senders/email.js:192
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (ocena)"
 
-#: lib/senders/email.js:193
+#: lib/senders/email.js:194
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (ocena)"
 
-#: lib/senders/email.js:195
+#: lib/senders/email.js:196
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (ocena)"
 
-#: lib/senders/email.js:293
+#: lib/senders/email.js:295
 msgid "Verify your Firefox Account"
 msgstr "Potrdite svoj Firefox Račun"
 
-#: lib/senders/email.js:322
+#: lib/senders/email.js:324
 msgid "Confirm your email and start to sync!"
 msgstr "Potrdite e-pošto in začnite sinhronizirati!"
 
-#: lib/senders/email.js:380
+#: lib/senders/email.js:382
 msgid "Firefox Account authorization code"
 msgstr "Overitvena koda za Firefox Račun"
 
-#: lib/senders/email.js:433
+#: lib/senders/email.js:435
 msgid "Confirm new sign-in to Firefox"
 msgstr "Potrdite novo prijavo v Firefox"
 
-#: lib/senders/email.js:489
+#: lib/senders/email.js:492
 msgid "Verify email for Firefox Accounts"
 msgstr "Potrdi e-poštni naslov za Firefox Račune"
 
-#: lib/senders/email.js:542
+#: lib/senders/email.js:545
 msgid "Reset your Firefox Account password"
 msgstr "Ponastavite geslo Firefox Računa"
 
-#: lib/senders/email.js:583
+#: lib/senders/email.js:586
 msgid "Your Firefox Account password has been changed"
 msgstr "Vaše geslo za Firefox Račun je bilo spremenjeno"
 
-#: lib/senders/email.js:622
+#: lib/senders/email.js:625
 msgid "Your Firefox Account password has been reset"
 msgstr "Vaše geslo za Firefox Račun je bilo ponastavljeno"
 
-#: lib/senders/email.js:656
+#: lib/senders/email.js:659
 msgid "Firefox Account password reset required"
 msgstr "Zahtevana je ponastavitev gesla Firefox Računa"
 
-#: lib/senders/email.js:730
+#: lib/senders/email.js:733
 msgid "Firefox Account verified"
 msgstr "Firefox Račun potrjen"
 
-#: lib/senders/email.js:769
+#: lib/senders/email.js:772
 msgid "Secondary Firefox Account email added"
 msgstr "Drugi e-poštni naslov za Firefox Račun dodan"
 
@@ -533,8 +533,8 @@ msgstr "Pogoji uporabe"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Pred tednom dni ste ustvarili Firefox Račun, a ga še niste potrdili. Zato smo v skrbeh za vas. Firefox je na voljo za Windows, Mac, Linux, Android in iOS. Med vsemi njimi lahko sinhronizirate vaša "
-#~ "gesla, zaznamke in zgodovino. S potrditvijo tega e-poštnega naslova boste aktivirali vaš račun. In nam sporočili, da ste v redu."
+#~ "Pred tednom dni ste ustvarili Firefox Račun, a ga še niste potrdili. Zato smo v skrbeh za vas. Firefox je na voljo za Windows, Mac, Linux, Android in iOS. Med vsemi njimi lahko sinhronizirate "
+#~ "vaša gesla, zaznamke in zgodovino. S potrditvijo tega e-poštnega naslova boste aktivirali vaš račun. In nam sporočili, da ste v redu."
 
 #~ msgid "env"
 #~ msgstr "env"

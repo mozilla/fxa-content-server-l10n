@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-28 16:12+0000\n"
+"POT-Creation-Date: 2017-05-05 16:08+0000\n"
 "PO-Revision-Date: 2017-04-22 19:04+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1422140392.0\n"
 
-#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:174 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
+#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:174 app/scripts/views/confirm.js:121 app/scripts/views/confirm_reset_password.js:170
 msgid "Account verified successfully"
 msgstr "Konto verifisert"
 
@@ -67,11 +67,11 @@ msgstr "Du er nå klar til å bruke %(serviceName)s"
 msgid "Account verified"
 msgstr "Konto verifisert"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177
+#: app/scripts/views/reset_password.js:65 app/scripts/views/sign_in.js:172
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Ukjent konto. <a href=\"/signup\">Registrer deg</a>"
 
-#: app/scripts/views/sign_in.js:174
+#: app/scripts/views/sign_in.js:169
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Ukjent Firefox-konto. <a href=\"/signup\">Registrer deg</a> med e-postadressen som du tidligere har brukt for å få tilgang til dine data på nettstedet Utvidelser."
 
@@ -79,7 +79,7 @@ msgstr "Ukjent Firefox-konto. <a href=\"/signup\">Registrer deg</a> med e-postad
 msgid "Account no longer exists. Recreate it?"
 msgstr "Kontoen finnes ikke lenger. Vil du gjenskape den?"
 
-#: app/scripts/views/sign_up.js:383
+#: app/scripts/views/sign_up.js:379
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Kontoen finnes allerede. <a href=\"/signin\">Logg inn</a>"
 
@@ -723,9 +723,9 @@ msgstr "Husker du passordet ditt? Logg inn"
 msgid "Connect another device"
 msgstr "Koble til en annen enhet"
 
-#: app/scripts/templates/connect_another_device.mustache:2
-msgid "This device is connected"
-msgstr "Denne enheten er tilkoblet"
+#: app/scripts/templates/connect_another_device.mustache:2 app/scripts/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
+msgstr "Firefox er tilkoblet"
 
 #: app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -976,10 +976,6 @@ msgstr "Har du en konto? Logg inn"
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr "Send Firefox direkte til din smarttelefonen og logg inn for å fullføre oppsettet"
 
-#: app/scripts/templates/sms_send.mustache:2
-msgid "This Firefox is connected"
-msgstr "Firefox er tilkoblet"
-
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
 msgstr "Mobilnummer"
@@ -990,10 +986,8 @@ msgstr "Send"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
-"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-"SMS-tjeneste kun tilgjengelig for amerikanske telefonnumre. Du må kanskje betale for SMS og data. Mottakeren av e-posten eller SMS-en må ha gitt samtykke. <a %(escapedLearnMoreAttributes)s>Les mer</"
-"a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
@@ -1231,6 +1225,15 @@ msgstr "Logg inn"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Logg inn"
+
+#~ msgid "This device is connected"
+#~ msgstr "Denne enheten er tilkoblet"
+
+#~ msgid ""
+#~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "SMS-tjeneste kun tilgjengelig for amerikanske telefonnumre. Du må kanskje betale for SMS og data. Mottakeren av e-posten eller SMS-en må ha gitt samtykke. <a %(escapedLearnMoreAttributes)s>Les "
+#~ "mer</a>"
 
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "Levert av <a href=\"https://www.gravatar.com\">Gravatar</a>"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-28 16:12+0000\n"
+"POT-Creation-Date: 2017-05-05 16:08+0000\n"
 "PO-Revision-Date: 2017-02-28 23:09+0000\n"
 "Last-Translator: hee <ilmag2@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1424658074.0\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:798
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:801
 msgid "Still there?"
 msgstr "아직 계신가요?"
 
@@ -57,7 +57,7 @@ msgid "Firefox Accounts"
 msgstr "Firefox 계정"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:690
+#: lib/senders/email.js:693
 msgid "New sign-in to Firefox"
 msgstr "Firefox에 새롭게 로그인하기"
 
@@ -245,7 +245,7 @@ msgstr "그렇지 않다면 침입자를 방어할 수 있도록 <a %(reportSign
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "그렇지 않다면 침입자를 방어할 수 있도록 우리에게 알려 주세요."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:795
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:798
 msgid "Hello again."
 msgstr "다시 만나서 반가워요."
 
@@ -333,71 +333,71 @@ msgstr "메일을 받았는지 확인 후에 다음 기기를 시작으로 모�
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "확인 후에 최소 한개의 다른 기기에서 Firefox를 설치하고 연결하는데 도움을 드립니다."
 
-#: lib/senders/email.js:159
+#: lib/senders/email.js:160
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaOS)s %(uaOSVersion)s %(uaBrowser)s"
 
-#: lib/senders/email.js:162
+#: lib/senders/email.js:163
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaOS)s %(uaBrowser)s"
 
-#: lib/senders/email.js:189
+#: lib/senders/email.js:190
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (추정)"
 
-#: lib/senders/email.js:191
+#: lib/senders/email.js:192
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (추정)"
 
-#: lib/senders/email.js:193
+#: lib/senders/email.js:194
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (추정)"
 
-#: lib/senders/email.js:195
+#: lib/senders/email.js:196
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (추정)"
 
-#: lib/senders/email.js:293
+#: lib/senders/email.js:295
 msgid "Verify your Firefox Account"
 msgstr "Firefox Account 확인"
 
-#: lib/senders/email.js:322
+#: lib/senders/email.js:324
 msgid "Confirm your email and start to sync!"
 msgstr "이메일 확인하고 동기화를 시작하세요!"
 
-#: lib/senders/email.js:380
+#: lib/senders/email.js:382
 msgid "Firefox Account authorization code"
 msgstr "Firefox 계정 인증 코드"
 
-#: lib/senders/email.js:433
+#: lib/senders/email.js:435
 msgid "Confirm new sign-in to Firefox"
 msgstr "Firefox 새로운 로그인 확인"
 
-#: lib/senders/email.js:489
+#: lib/senders/email.js:492
 msgid "Verify email for Firefox Accounts"
 msgstr ""
 
-#: lib/senders/email.js:542
+#: lib/senders/email.js:545
 msgid "Reset your Firefox Account password"
 msgstr "Firefox Account 비밀번호 재설정"
 
-#: lib/senders/email.js:583
+#: lib/senders/email.js:586
 msgid "Your Firefox Account password has been changed"
 msgstr "Firefox Account 비밀번호가 바뀌었습니다."
 
-#: lib/senders/email.js:622
+#: lib/senders/email.js:625
 msgid "Your Firefox Account password has been reset"
 msgstr "Firefox Account 비밀번호가 재설정되었습니다"
 
-#: lib/senders/email.js:656
+#: lib/senders/email.js:659
 msgid "Firefox Account password reset required"
 msgstr "Firefox Account 비밀번호 재설정 필요"
 
-#: lib/senders/email.js:730
+#: lib/senders/email.js:733
 msgid "Firefox Account verified"
 msgstr "Firefox 계정 확인됨"
 
-#: lib/senders/email.js:769
+#: lib/senders/email.js:772
 msgid "Secondary Firefox Account email added"
 msgstr ""
 

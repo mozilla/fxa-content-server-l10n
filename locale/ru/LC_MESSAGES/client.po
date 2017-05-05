@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-28 16:12+0000\n"
+"POT-Creation-Date: 2017-05-05 16:08+0000\n"
 "PO-Revision-Date: 2017-04-17 21:08+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-POOTLE-MTIME: 1448126634.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:174 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
+#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:174 app/scripts/views/confirm.js:121 app/scripts/views/confirm_reset_password.js:170
 msgid "Account verified successfully"
 msgstr "Аккаунт успешно подтверждён"
 
@@ -68,11 +68,11 @@ msgstr "Теперь вы готовы использовать %(serviceName)s"
 msgid "Account verified"
 msgstr "Аккаунт подтверждён"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177
+#: app/scripts/views/reset_password.js:65 app/scripts/views/sign_in.js:172
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Неизвестный аккаунт. <a href=\"/signup\">Зарегистрироваться</a>"
 
-#: app/scripts/views/sign_in.js:174
+#: app/scripts/views/sign_in.js:169
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Неизвестный Аккаунт Firefox. <a href=\"/signup\">Зарегистрируйтесь</a>, используя ваш предыдущий адрес электронной почты учётной записи дополнений, чтобы получить доступ к вашим данным."
 
@@ -80,7 +80,7 @@ msgstr "Неизвестный Аккаунт Firefox. <a href=\"/signup\">За�
 msgid "Account no longer exists. Recreate it?"
 msgstr "Аккаунт больше не существует. Пересоздать?"
 
-#: app/scripts/views/sign_up.js:383
+#: app/scripts/views/sign_up.js:379
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Аккаунт уже существует. <a href=\"/signin\">Войти</a>"
 
@@ -722,9 +722,9 @@ msgstr "Помните пароль? Войти"
 msgid "Connect another device"
 msgstr "Подключить другое устройство"
 
-#: app/scripts/templates/connect_another_device.mustache:2
-msgid "This device is connected"
-msgstr "Это устройство подключено"
+#: app/scripts/templates/connect_another_device.mustache:2 app/scripts/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
+msgstr "Этот Firefox подключен"
 
 #: app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -975,10 +975,6 @@ msgstr "Уже есть аккаунт? Войти"
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr "Отправьте Firefox прямо на ваш смартфон и войдите, чтобы завершить настройку"
 
-#: app/scripts/templates/sms_send.mustache:2
-msgid "This Firefox is connected"
-msgstr "Этот Firefox подключен"
-
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
 msgstr "Номер мобильного телефона"
@@ -989,9 +985,8 @@ msgstr "Отправить"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
-"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-"Услуга SMS доступна только для телефонных номеров США. Может взиматься плата за SMS. Получатель электронного письма или SMS должен дать согласие. <a %(escapedLearnMoreAttributes)s>Узнать больше</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
@@ -1229,6 +1224,15 @@ msgstr "Войти"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Войти"
+
+#~ msgid "This device is connected"
+#~ msgstr "Это устройство подключено"
+
+#~ msgid ""
+#~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "Услуга SMS доступна только для телефонных номеров США. Может взиматься плата за SMS. Получатель электронного письма или SMS должен дать согласие. <a %(escapedLearnMoreAttributes)s>Узнать больше</"
+#~ "a>"
 
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "Предоставлено <a href=\"https://www.gravatar.com\">Gravatar</a>"
