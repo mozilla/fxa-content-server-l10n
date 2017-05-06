@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-28 16:12+0000\n"
-"PO-Revision-Date: 2017-05-03 07:20+0000\n"
-"Last-Translator: Vee Satayamas <vsatayamas@gmail.com>\n"
+"PO-Revision-Date: 2017-05-06 03:39+0000\n"
+"Last-Translator: Chengings <chengings@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
@@ -395,7 +395,7 @@ msgstr "บัญชี Firefox ได้รับการยืนยันแ
 
 #: lib/senders/email.js:769
 msgid "Secondary Firefox Account email added"
-msgstr ""
+msgstr "อีเมลสำรองของ Firefox Account ได้ถูกเพิ่มแล้ว"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
