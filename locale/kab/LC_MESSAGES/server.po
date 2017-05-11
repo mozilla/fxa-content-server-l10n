@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-28 16:12+0000\n"
-"PO-Revision-Date: 2017-05-11 10:10+0000\n"
+"PO-Revision-Date: 2017-05-11 10:12+0000\n"
 "Last-Translator: Slimane Amiri <slimane.amiri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -204,7 +204,7 @@ msgstr "Imay wis sin ittwarna"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2 lib/senders/templates/post_verify_secondary_email.html:3
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr ""
+msgstr "Asenqed n %(secondaryEmail)s idda akken iwata am imayl wis sin i wemiḍan-ik Firafox. Ilγa n tγellist akked isentam n tuqna ad ttwaznen γer i sin n tansiwin sya d assawen."
 
 #: lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
 msgid "Manage account"
