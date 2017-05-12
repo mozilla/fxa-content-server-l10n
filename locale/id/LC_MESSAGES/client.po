@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-28 16:12+0000\n"
+"POT-Creation-Date: 2017-05-12 19:57+0000\n"
 "PO-Revision-Date: 2017-04-23 05:31+0000\n"
 "Last-Translator: Benny Chandra <bennychandra@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1434890279.0\n"
 
-#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:174 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
+#: app/scripts/views/complete_sign_up.js:174 app/scripts/models/auth_brokers/web.js:22
 msgid "Account verified successfully"
 msgstr "Akun sukses terverifikasi"
 
@@ -23,7 +23,7 @@ msgstr "Akun sukses terverifikasi"
 msgid "Password reset"
 msgstr "Penyetelan ulang sandi"
 
-#: app/scripts/views/confirm_reset_password.js:188
+#: app/scripts/views/confirm_reset_password.js:180
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Sandi sukses disetel ulang. Masuk untuk melanjutkan."
 
@@ -67,11 +67,11 @@ msgstr "Kini Anda siap menggunakan %(serviceName)s"
 msgid "Account verified"
 msgstr "Akun diverifikasi"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177
+#: app/scripts/views/reset_password.js:65 app/scripts/views/sign_in.js:172
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Akun tidak dikenal. <a href=\"/signup\">Daftar</a>"
 
-#: app/scripts/views/sign_in.js:174
+#: app/scripts/views/sign_in.js:169
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Firefox Account tidak dikenal. <a href=\"/signup\">Daftar</a> menggunakan alamat surel Pengaya Anda sebelumnya untuk mengakses data Pengaya."
 
@@ -79,7 +79,7 @@ msgstr "Firefox Account tidak dikenal. <a href=\"/signup\">Daftar</a> menggunaka
 msgid "Account no longer exists. Recreate it?"
 msgstr "Akun sudah tidak ada. Buat ulang?"
 
-#: app/scripts/views/sign_up.js:383
+#: app/scripts/views/sign_up.js:379
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Akun sudah ada. <a href=\"/signin\">Masuk</a>"
 
@@ -721,9 +721,9 @@ msgstr "Ingat sandi? Masuk"
 msgid "Connect another device"
 msgstr "Hubungan perangkat lainnya"
 
-#: app/scripts/templates/connect_another_device.mustache:2
-msgid "This device is connected"
-msgstr "Perangkat ini telah terhubung"
+#: app/scripts/templates/connect_another_device.mustache:2 app/scripts/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
+msgstr "Firefox ini telah terhubung"
 
 #: app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -975,10 +975,6 @@ msgstr "Sudah memiliki akun? Masuk"
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr "Kirim Firefox langsung ke ponsel pintar Anda dan masuk untuk melengkapi persiapan"
 
-#: app/scripts/templates/sms_send.mustache:2
-msgid "This Firefox is connected"
-msgstr "Firefox ini telah terhubung"
-
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
 msgstr "Nomor ponsel"
@@ -989,14 +985,8 @@ msgstr "Kirim"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
-"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-"Layanan SMS hanya tersedia untuk nomor telepon AS. Tarif SMS &amp; data mungkin berlaku. Penerima email atau SMS dimaksud harus sudah menyetujui. <a %(escapedLearnMoreAttributes)s>Pelajari lebih "
-"lanjut</a>"
-
-#: app/scripts/templates/sms_send.mustache:9
-msgid "Maybe later"
-msgstr "Mungkin nanti"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1230,6 +1220,18 @@ msgstr "Masuk"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Masuk"
+
+#~ msgid "This device is connected"
+#~ msgstr "Perangkat ini telah terhubung"
+
+#~ msgid ""
+#~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "Layanan SMS hanya tersedia untuk nomor telepon AS. Tarif SMS &amp; data mungkin berlaku. Penerima email atau SMS dimaksud harus sudah menyetujui. <a %(escapedLearnMoreAttributes)s>Pelajari lebih "
+#~ "lanjut</a>"
+
+#~ msgid "Maybe later"
+#~ msgstr "Mungkin nanti"
 
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "Dibuat oleh <a href=\"https://www.gravatar.com\">Gravatar</a>"

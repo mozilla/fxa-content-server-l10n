@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-28 16:12+0000\n"
+"POT-Creation-Date: 2017-05-12 19:57+0000\n"
 "PO-Revision-Date: 2017-04-17 18:15+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444338461.0\n"
 
-#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:174 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
+#: app/scripts/views/complete_sign_up.js:174 app/scripts/models/auth_brokers/web.js:22
 msgid "Account verified successfully"
 msgstr "Konto erfolgreich verifiziert"
 
@@ -23,7 +23,7 @@ msgstr "Konto erfolgreich verifiziert"
 msgid "Password reset"
 msgstr "Passwort zurückgesetzt"
 
-#: app/scripts/views/confirm_reset_password.js:188
+#: app/scripts/views/confirm_reset_password.js:180
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Passwort erfolgreich zurückgesetzt. Melden Sie sich an, um fortzufahren."
 
@@ -67,11 +67,11 @@ msgstr "Sie können jetzt %(serviceName)s verwenden"
 msgid "Account verified"
 msgstr "Konto bestätigt"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177
+#: app/scripts/views/reset_password.js:65 app/scripts/views/sign_in.js:172
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Unbekanntes Konto. <a href=\"/signup\">Registrieren</a>"
 
-#: app/scripts/views/sign_in.js:174
+#: app/scripts/views/sign_in.js:169
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Unbekanntes Firefox-Konto. Sie können sich mit der E-Mail-Adresse Ihres alten Add-ons-Kontos <a href=\"/signup\">registrieren</a>, um auf Ihre Add-ons-Daten zuzugreifen."
 
@@ -79,7 +79,7 @@ msgstr "Unbekanntes Firefox-Konto. Sie können sich mit der E-Mail-Adresse Ihres
 msgid "Account no longer exists. Recreate it?"
 msgstr "Konto existiert nicht mehr. Erneut erstellen?"
 
-#: app/scripts/views/sign_up.js:383
+#: app/scripts/views/sign_up.js:379
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Konto existiert bereits. <a href=\"/signin\">Anmelden</a>"
 
@@ -723,9 +723,9 @@ msgstr "Kennen Sie Ihr Passwort noch? Melden Sie sich an"
 msgid "Connect another device"
 msgstr "Anderes Gerät verbinden"
 
-#: app/scripts/templates/connect_another_device.mustache:2
-msgid "This device is connected"
-msgstr "Dieses Gerät ist verbunden"
+#: app/scripts/templates/connect_another_device.mustache:2 app/scripts/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
+msgstr "Dieser Firefox ist verbunden"
 
 #: app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -978,10 +978,6 @@ msgstr "Haben Sie ein Konto? Melden Sie sich an"
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr "Senden Sie Firefox direkt an Ihr Smartphone und melden Sie sich an, um die Einrichtung abzuschließen"
 
-#: app/scripts/templates/sms_send.mustache:2
-msgid "This Firefox is connected"
-msgstr "Dieser Firefox ist verbunden"
-
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
 msgstr "Handynummer"
@@ -992,14 +988,8 @@ msgstr "Senden"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
-"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-"SMS-Dienst nur für US-Handynummern verfügbar. Es können Gebühren für SMS und Datentransfer anfallen. Der gewünschte Empfänger der E-Mail oder SMS muss einverstanden sein. <a "
-"%(escapedLearnMoreAttributes)s>Mehr erfahren</a>"
-
-#: app/scripts/templates/sms_send.mustache:9
-msgid "Maybe later"
-msgstr "Vielleicht später"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1233,6 +1223,18 @@ msgstr "Anmelden"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Anmelden"
+
+#~ msgid "This device is connected"
+#~ msgstr "Dieses Gerät ist verbunden"
+
+#~ msgid ""
+#~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "SMS-Dienst nur für US-Handynummern verfügbar. Es können Gebühren für SMS und Datentransfer anfallen. Der gewünschte Empfänger der E-Mail oder SMS muss einverstanden sein. <a "
+#~ "%(escapedLearnMoreAttributes)s>Mehr erfahren</a>"
+
+#~ msgid "Maybe later"
+#~ msgstr "Vielleicht später"
 
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "Zur Verfügung gestellt von <a href=\"https://www.gravatar.com\">Gravatar</a>"

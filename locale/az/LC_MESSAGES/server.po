@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-28 16:12+0000\n"
+"POT-Creation-Date: 2017-05-12 19:57+0000\n"
 "PO-Revision-Date: 2017-05-04 10:01+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1429902145.0\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:798
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:803
 msgid "Still there?"
 msgstr "Hələ də buradasınız?"
 
@@ -33,8 +33,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
 "İlk cihazınızı müvəffəqiyyətlə Fiefox Hesabınıza qoşdunuz. Sync-dən daha yaxşı faydalanmaq üçün hər hansı bir <a href='%(androidUrl)s'>Android üçün Firefox</a> və ya <a href='%(iosUrl)s'>iOS üçün "
 "Firefox</a> qoşun."
@@ -57,7 +57,7 @@ msgid "Firefox Accounts"
 msgstr "Firefox Hesabları"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:690
+#: lib/senders/email.js:695
 msgid "New sign-in to Firefox"
 msgstr "Firefox-a yeni daxil olma"
 
@@ -247,14 +247,14 @@ msgstr "Belə deyilsə, zərərvericilərlə mübarizəmizə kömək edin və bu
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Belə deyilsə, zərərvericilərlə mübarizəmizə kömək edin və bunu bizə bildirin."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:795
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:800
 msgid "Hello again."
 msgstr "Təkrar salam."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-" email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+"this email address to activate your account."
 msgstr ""
 "Bir neçə gün əvvəl Firefox Hesabı yaratdınız, amma aktivləşdirməmisiniz. Təsdiqlənmiş hesab ona qoşulu bütün cihazlarda vərəq, əlfəcin, parol və tarixçənizi əlçatan edir. Hesabınızı aktivləşdirmək "
 "üçün sadəcə bu e-poçt ünvanını təsdiqləyin."
@@ -335,71 +335,71 @@ msgstr "Bu e-poçt-u aldığınızı təsdiqlədikdən sonra digər cihazların�
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Təsdiqlədikdən sonra, Firefox-u ən az daha bir cihazda quraşdırıb qoşmağınıza kömək edəcik."
 
-#: lib/senders/email.js:159
+#: lib/senders/email.js:160
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaOS)s üçün %(uaBrowser)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:162
+#: lib/senders/email.js:163
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaOS)s üçün %(uaBrowser)s"
 
-#: lib/senders/email.js:189
+#: lib/senders/email.js:190
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (təxmini)"
 
-#: lib/senders/email.js:191
+#: lib/senders/email.js:192
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (təxmini)"
 
-#: lib/senders/email.js:193
+#: lib/senders/email.js:194
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (təxmini)"
 
-#: lib/senders/email.js:195
+#: lib/senders/email.js:196
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (təxmini)"
 
-#: lib/senders/email.js:293
+#: lib/senders/email.js:295
 msgid "Verify your Firefox Account"
 msgstr "Firefox Hesabınızı təsdiqləyin"
 
-#: lib/senders/email.js:322
+#: lib/senders/email.js:324
 msgid "Confirm your email and start to sync!"
 msgstr "E-poçtunuzu dəsdiqləyin və sinxronlaşdırmağa başlayın!"
 
-#: lib/senders/email.js:380
+#: lib/senders/email.js:382
 msgid "Firefox Account authorization code"
 msgstr "Firefox Hesabı avtorizasiya kodu"
 
-#: lib/senders/email.js:433
+#: lib/senders/email.js:435
 msgid "Confirm new sign-in to Firefox"
 msgstr "Firefox-a yeni daxil olmanı təsdiqlə"
 
-#: lib/senders/email.js:489
+#: lib/senders/email.js:492
 msgid "Verify email for Firefox Accounts"
 msgstr "E-poçtu Firefox Hesabları üçün təsdiqlə"
 
-#: lib/senders/email.js:542
+#: lib/senders/email.js:547
 msgid "Reset your Firefox Account password"
 msgstr "Firefox Hesab parolunuzu sıfırlayın"
 
-#: lib/senders/email.js:583
+#: lib/senders/email.js:588
 msgid "Your Firefox Account password has been changed"
 msgstr "Firefox Hesab parolunuz dəyişdirildi"
 
-#: lib/senders/email.js:622
+#: lib/senders/email.js:627
 msgid "Your Firefox Account password has been reset"
 msgstr "Firefox Hesab parolunuz sıfırlandı"
 
-#: lib/senders/email.js:656
+#: lib/senders/email.js:661
 msgid "Firefox Account password reset required"
 msgstr "Firefox Hesabı parolunu sıfırlamaq tələb edilir"
 
-#: lib/senders/email.js:730
+#: lib/senders/email.js:735
 msgid "Firefox Account verified"
 msgstr "Firefox Hesabı təsdiqləndi"
 
-#: lib/senders/email.js:769
+#: lib/senders/email.js:774
 msgid "Secondary Firefox Account email added"
 msgstr "İkinci Firefox Hesabı e-poçtu əlavə edildi"
 
@@ -534,8 +534,8 @@ msgstr "İstifadə Şərtləri"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Bir neçə gün əvvəl Firefox Hesabı yaratdınız, amma aktivləşdirməmisiniz. Sizin üçün narahatıq. Firefox Windows, Mac, Linux, Android və iOS üçün mövcuddur. Bunların arasında Firefox parol, əlfəcin və"
-#~ " tarixçənizi sinxronlaşdıra bilərsiniz. Bu e-poçt ünvanını təsdiqləyərək hesabı aktiv edin və sağ-salamat olduğunuzu bildirin."
+#~ "Bir neçə gün əvvəl Firefox Hesabı yaratdınız, amma aktivləşdirməmisiniz. Sizin üçün narahatıq. Firefox Windows, Mac, Linux, Android və iOS üçün mövcuddur. Bunların arasında Firefox parol, "
+#~ "əlfəcin və tarixçənizi sinxronlaşdıra bilərsiniz. Bu e-poçt ünvanını təsdiqləyərək hesabı aktiv edin və sağ-salamat olduğunuzu bildirin."
 
 #~ msgid "env"
 #~ msgstr "env"

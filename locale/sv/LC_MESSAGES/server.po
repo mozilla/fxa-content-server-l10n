@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-28 16:12+0000\n"
-"PO-Revision-Date: 2017-02-18 00:39+0000\n"
+"POT-Creation-Date: 2017-05-12 19:57+0000\n"
+"PO-Revision-Date: 2017-05-01 17:20+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1437572463.0\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:798
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:803
 msgid "Still there?"
 msgstr "Fortfarande där?"
 
@@ -56,7 +56,7 @@ msgid "Firefox Accounts"
 msgstr "Firefox-konton"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:690
+#: lib/senders/email.js:695
 msgid "New sign-in to Firefox"
 msgstr "Ny inloggning till Firefox"
 
@@ -200,19 +200,19 @@ msgstr "Logga in till Sync:"
 
 #: lib/senders/templates/post_verify_secondary.html:2 lib/senders/templates/post_verify_secondary.txt:1 lib/senders/templates/post_verify_secondary_email.html:2
 msgid "Secondary email added"
-msgstr ""
+msgstr "Sekundär e-post tillagd"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2 lib/senders/templates/post_verify_secondary_email.html:3
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr ""
+msgstr "Du har verifierat %(secondaryEmail)s som en sekundär e-post till ditt Firefox-konto. Säkerhetsmeddelanden och inloggningsbekräftelser kommer nu att levereras till båda e-postadresser."
 
 #: lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
 msgid "Manage account"
-msgstr ""
+msgstr "Hantera konto"
 
 #: lib/senders/templates/post_verify_secondary.txt:3
 msgid "Manage account:"
-msgstr ""
+msgstr "Hantera konto:"
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Forgot your password?"
@@ -246,7 +246,7 @@ msgstr "Om nej, hjälpa oss att avvärja inkräktare och <a %(reportSignInLinkAt
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Om nej, hjälp oss att avvärja inkräktare och rapportera detta till oss."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:795
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:800
 msgid "Hello again."
 msgstr "Hej igen."
 
@@ -304,11 +304,11 @@ msgstr "Om du misstänker att någon försöker få åtkomst till ditt konto, ä
 
 #: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
 msgid "Verify secondary email"
-msgstr ""
+msgstr "Verifiera sekundär e-post"
 
 #: lib/senders/templates/verify_secondary.html:3 lib/senders/templates/verify_secondary.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr ""
+msgstr "En begäran om att använda %(email)s som en sekundär e-postadress har gjorts från följande Firefox-konto:"
 
 #: lib/senders/templates/verify_secondary.html:5 lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
 msgid "Verify email "
@@ -316,11 +316,11 @@ msgstr "Verifiera e-post "
 
 #: lib/senders/templates/verify_secondary.html:6
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "När den är verifierad, kommer att denna adress börja ta emot säkerhetsmeddelanden och bekräftelser."
 
 #: lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
-msgstr ""
+msgstr "Verifiera e-post: "
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -334,73 +334,73 @@ msgstr "Bekräfta att du har fått det här e-postmeddelandet och vi kommer att 
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "När det är bekräftat, hjälper vi dig att installera och ansluta Firefox på åtminstone en annan enhet."
 
-#: lib/senders/email.js:159
+#: lib/senders/email.js:160
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s på %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:162
+#: lib/senders/email.js:163
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s på %(uaOS)s"
 
-#: lib/senders/email.js:189
+#: lib/senders/email.js:190
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (uppskattad)"
 
-#: lib/senders/email.js:191
+#: lib/senders/email.js:192
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (uppskattad)"
 
-#: lib/senders/email.js:193
+#: lib/senders/email.js:194
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (uppskattad)"
 
-#: lib/senders/email.js:195
+#: lib/senders/email.js:196
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (uppskattad)"
 
-#: lib/senders/email.js:293
+#: lib/senders/email.js:295
 msgid "Verify your Firefox Account"
 msgstr "Verifiera ditt Firefox-konto"
 
-#: lib/senders/email.js:322
+#: lib/senders/email.js:324
 msgid "Confirm your email and start to sync!"
 msgstr "Bekräfta din e-post och börja synkronisera!"
 
-#: lib/senders/email.js:380
+#: lib/senders/email.js:382
 msgid "Firefox Account authorization code"
 msgstr "Firefox-konto behörighetskod"
 
-#: lib/senders/email.js:433
+#: lib/senders/email.js:435
 msgid "Confirm new sign-in to Firefox"
 msgstr "Bekräfta ny inloggning till Firefox"
 
-#: lib/senders/email.js:489
+#: lib/senders/email.js:492
 msgid "Verify email for Firefox Accounts"
-msgstr ""
+msgstr "Verifiera e-post för Firefox-konton"
 
-#: lib/senders/email.js:542
+#: lib/senders/email.js:547
 msgid "Reset your Firefox Account password"
 msgstr "Återställ lösenordet för ditt Firefox-konto"
 
-#: lib/senders/email.js:583
+#: lib/senders/email.js:588
 msgid "Your Firefox Account password has been changed"
 msgstr "Lösenordet till ditt Firefox-konto har ändrats"
 
-#: lib/senders/email.js:622
+#: lib/senders/email.js:627
 msgid "Your Firefox Account password has been reset"
 msgstr "Lösenordet till ditt Firefox-konto har återställts"
 
-#: lib/senders/email.js:656
+#: lib/senders/email.js:661
 msgid "Firefox Account password reset required"
 msgstr "Återställning av lösenord för Firefox-konto krävs"
 
-#: lib/senders/email.js:730
+#: lib/senders/email.js:735
 msgid "Firefox Account verified"
 msgstr "Firefox-konto verifierat"
 
-#: lib/senders/email.js:769
+#: lib/senders/email.js:774
 msgid "Secondary Firefox Account email added"
-msgstr ""
+msgstr "Sekundär e-post för Firefox-konto tillagd"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"

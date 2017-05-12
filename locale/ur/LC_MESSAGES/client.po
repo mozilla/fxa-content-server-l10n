@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-28 16:12+0000\n"
+"POT-Creation-Date: 2017-05-12 19:57+0000\n"
 "PO-Revision-Date: 2017-03-25 06:50+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:174 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
+#: app/scripts/views/complete_sign_up.js:174 app/scripts/models/auth_brokers/web.js:22
 msgid "Account verified successfully"
 msgstr "اکاؤنٹ کامیابی سے تصدیق کردہ"
 
@@ -22,7 +22,7 @@ msgstr "اکاؤنٹ کامیابی سے تصدیق کردہ"
 msgid "Password reset"
 msgstr "پاس ورڈ دوبارہ سیٹ کریں"
 
-#: app/scripts/views/confirm_reset_password.js:188
+#: app/scripts/views/confirm_reset_password.js:180
 msgid "Password reset successfully. Sign in to continue."
 msgstr "پاس ورڈ کامیابی سے پھر سیٹ ہو چکا ہے۔ جاری رکھنے کے لئے سائن ان کرے۔"
 
@@ -66,11 +66,11 @@ msgstr "آپ %(serviceName)s استعمال کرنے کے لئے تیار ہے"
 msgid "Account verified"
 msgstr "اکاؤنٹ توثیق شدہ"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177
+#: app/scripts/views/reset_password.js:65 app/scripts/views/sign_in.js:172
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "نامعلوم اکاؤنٹ ۔ <a href=\"/signup\">سائن اپ کریں</a>"
 
-#: app/scripts/views/sign_in.js:174
+#: app/scripts/views/sign_in.js:169
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr ""
 
@@ -78,7 +78,7 @@ msgstr ""
 msgid "Account no longer exists. Recreate it?"
 msgstr "اکاؤنٹ اب موجود نہیں ۔ اس کو دوبارہ تخلیق کریں؟"
 
-#: app/scripts/views/sign_up.js:383
+#: app/scripts/views/sign_up.js:379
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "اکائونٹ پہلے سے موجود ہے۔ <a href=\"/signin\">سائن ان کریں</a>"
 
@@ -718,9 +718,9 @@ msgstr "پاس ورڈ یاد ہے؟ سائن ان کریں"
 msgid "Connect another device"
 msgstr "اہک اور آلہ جوڑیں"
 
-#: app/scripts/templates/connect_another_device.mustache:2
-msgid "This device is connected"
-msgstr "آلہ جڑا ہوا ہے"
+#: app/scripts/templates/connect_another_device.mustache:2 app/scripts/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
+msgstr "یہ Firefox جڑا ہوا ہے"
 
 #: app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -971,10 +971,6 @@ msgstr "آپ کا اکاؤنٹ ہے؟ سائن ان کریں"
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr ""
 
-#: app/scripts/templates/sms_send.mustache:2
-msgid "This Firefox is connected"
-msgstr "یہ Firefox جڑا ہوا ہے"
-
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
 msgstr "موبائل فون نمبر"
@@ -985,12 +981,8 @@ msgstr "ارسال کریں"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
-"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-
-#: app/scripts/templates/sms_send.mustache:9
-msgid "Maybe later"
-msgstr "‏‏شاید بعد میں"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1220,6 +1212,12 @@ msgstr ""
 msgctxt "header text"
 msgid "Sign in"
 msgstr ""
+
+#~ msgid "This device is connected"
+#~ msgstr "آلہ جڑا ہوا ہے"
+
+#~ msgid "Maybe later"
+#~ msgstr "‏‏شاید بعد میں"
 
 #~ msgid "Save"
 #~ msgstr "محفوظ کریں"
