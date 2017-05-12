@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-28 16:12+0000\n"
+"POT-Creation-Date: 2017-05-12 19:57+0000\n"
 "PO-Revision-Date: 2017-04-21 21:07+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1423490224.0\n"
 
-#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:174 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
+#: app/scripts/views/complete_sign_up.js:174 app/scripts/models/auth_brokers/web.js:22
 msgid "Account verified successfully"
 msgstr "حساب با موفقیت تایید شد"
 
@@ -23,7 +23,7 @@ msgstr "حساب با موفقیت تایید شد"
 msgid "Password reset"
 msgstr "بازنشانی گذرواژه"
 
-#: app/scripts/views/confirm_reset_password.js:188
+#: app/scripts/views/confirm_reset_password.js:180
 msgid "Password reset successfully. Sign in to continue."
 msgstr "بازنشانی گذرواژه با موفقیت انجام شد. برای ادامه وارد شوید."
 
@@ -67,11 +67,11 @@ msgstr "حالا شما برای استفاده از %(serviceName)s آماده 
 msgid "Account verified"
 msgstr "حساب تایید شد"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177
+#: app/scripts/views/reset_password.js:65 app/scripts/views/sign_in.js:172
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "حساب ناشناس. <a href=\"/signup\">ثبت‌نام</a>"
 
-#: app/scripts/views/sign_in.js:174
+#: app/scripts/views/sign_in.js:169
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "حساب فایرفاکس ناشناس. با استفاده از پست‌الکترونیکی حساب افزونه‌های قبلی خود <a href=\"/signup\">ثبت‌نام</a> کنید تا به اطلاعات افزونه‌های خود دسترسی پیدا کنید."
 
@@ -79,7 +79,7 @@ msgstr "حساب فایرفاکس ناشناس. با استفاده از پست�
 msgid "Account no longer exists. Recreate it?"
 msgstr "این حساب دیگر وجود ندارد. دوباره ساخته شود؟"
 
-#: app/scripts/views/sign_up.js:383
+#: app/scripts/views/sign_up.js:379
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "حساب از قبل وجود دارد. <a href=\"/signin\">وارد شوید</a>"
 
@@ -721,9 +721,9 @@ msgstr "گذرواژه یادتان است؟ وارد شوید"
 msgid "Connect another device"
 msgstr "اتصالِ دستگاهی دیگر"
 
-#: app/scripts/templates/connect_another_device.mustache:2
-msgid "This device is connected"
-msgstr "این دستگاه متصل شده"
+#: app/scripts/templates/connect_another_device.mustache:2 app/scripts/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
+msgstr "این فایرفاکس متصل شده است"
 
 #: app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -974,10 +974,6 @@ msgstr "حساب دارید؟ وارد شوید"
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr "فایرفاکس را مستقیما به تلفن هوشمند خود ارسال کنید و برای تکمیل برپاسازی وارد حساب خود شوید"
 
-#: app/scripts/templates/sms_send.mustache:2
-msgid "This Firefox is connected"
-msgstr "این فایرفاکس متصل شده است"
-
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
 msgstr "شماره تلفن موبایل"
@@ -988,14 +984,8 @@ msgstr "ارسال"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
-"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-"سرویس پیامک تنها برای شماره‌های ایالات متحده در دسترس است. هزینه پیامک یا دیتا ممکن است لحاظ شود. دریافت کننده پست‌الکترونیکی یا پیامک باید راضی باشد. <a %(escapedLearnMoreAttributes)s>اطلاعات بیشتر</"
-"a>"
-
-#: app/scripts/templates/sms_send.mustache:9
-msgid "Maybe later"
-msgstr "شاید بعداً"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1230,6 +1220,18 @@ msgstr "ورود"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "ورود"
+
+#~ msgid "This device is connected"
+#~ msgstr "این دستگاه متصل شده"
+
+#~ msgid ""
+#~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "سرویس پیامک تنها برای شماره‌های ایالات متحده در دسترس است. هزینه پیامک یا دیتا ممکن است لحاظ شود. دریافت کننده پست‌الکترونیکی یا پیامک باید راضی باشد. <a %(escapedLearnMoreAttributes)s>اطلاعات "
+#~ "بیشتر</a>"
+
+#~ msgid "Maybe later"
+#~ msgstr "شاید بعداً"
 
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "با کسب اجازه از <a href=\"https://www.gravatar.com\">گراواتار</a>"

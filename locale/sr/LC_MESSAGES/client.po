@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-28 16:12+0000\n"
+"POT-Creation-Date: 2017-05-12 19:57+0000\n"
 "PO-Revision-Date: 2017-04-18 10:47+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1438059120.0\n"
 
-#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:174 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
+#: app/scripts/views/complete_sign_up.js:174 app/scripts/models/auth_brokers/web.js:22
 msgid "Account verified successfully"
 msgstr "Налог је успешно потврђен"
 
@@ -23,7 +23,7 @@ msgstr "Налог је успешно потврђен"
 msgid "Password reset"
 msgstr "Ресетовање лозинке"
 
-#: app/scripts/views/confirm_reset_password.js:188
+#: app/scripts/views/confirm_reset_password.js:180
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Лозинка је успешно ресетована. Пријавите се да бисте наставили."
 
@@ -67,11 +67,11 @@ msgstr "Сада сте спремни да користите %(serviceName)s"
 msgid "Account verified"
 msgstr "Налог је потврђен"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177
+#: app/scripts/views/reset_password.js:65 app/scripts/views/sign_in.js:172
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Непознат налог. <a href=\"/signup\">Пријави се</a>"
 
-#: app/scripts/views/sign_in.js:174
+#: app/scripts/views/sign_in.js:169
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Непознат Firefox налог. <a href=\"/signup\">Пријавите се</a> користећи вашу претходну адресу е-поште за додатке да бисте приступили вашим подацима о додацима."
 
@@ -79,7 +79,7 @@ msgstr "Непознат Firefox налог. <a href=\"/signup\">Пријави�
 msgid "Account no longer exists. Recreate it?"
 msgstr "Налог више не постоји. Поново га направити?"
 
-#: app/scripts/views/sign_up.js:383
+#: app/scripts/views/sign_up.js:379
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Налог већ постоји. <a href=\"/signin\">Пријави се</a>"
 
@@ -721,9 +721,9 @@ msgstr "Сећате се лозинке? Пријавите се"
 msgid "Connect another device"
 msgstr "Повежи други уређај"
 
-#: app/scripts/templates/connect_another_device.mustache:2
-msgid "This device is connected"
-msgstr "Овај уређај је повезан"
+#: app/scripts/templates/connect_another_device.mustache:2 app/scripts/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
+msgstr "Овај Firefox је повезан"
 
 #: app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -975,10 +975,6 @@ msgstr "Имате налог? Пријавите се"
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr "Пошаљите Firefox право на ваш паметни телефон и пријавите се да завршите подешавање"
 
-#: app/scripts/templates/sms_send.mustache:2
-msgid "This Firefox is connected"
-msgstr "Овај Firefox је повезан"
-
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
 msgstr "Број мобилног телефона"
@@ -989,14 +985,8 @@ msgstr "Пошаљи"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
-"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-"SMS услуга је доступна само мобилним бројевима у САД. SMS &amp; трошкови преноса података могу настати. Жељени прималац е-поруке или SMS -а се мора претходно сложити са овим. <a "
-"%(escapedLearnMoreAttributes)s>Сазнајте више</a>"
-
-#: app/scripts/templates/sms_send.mustache:9
-msgid "Maybe later"
-msgstr "Можда касније"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1230,6 +1220,18 @@ msgstr "Пријави се"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Пријави се"
+
+#~ msgid "This device is connected"
+#~ msgstr "Овај уређај је повезан"
+
+#~ msgid ""
+#~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "SMS услуга је доступна само мобилним бројевима у САД. SMS &amp; трошкови преноса података могу настати. Жељени прималац е-поруке или SMS -а се мора претходно сложити са овим. <a "
+#~ "%(escapedLearnMoreAttributes)s>Сазнајте више</a>"
+
+#~ msgid "Maybe later"
+#~ msgstr "Можда касније"
 
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "Љубазност <a href=\"https://www.gravatar.com\">Gravatar-а</a>"

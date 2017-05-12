@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-28 16:12+0000\n"
+"POT-Creation-Date: 2017-05-12 19:57+0000\n"
 "PO-Revision-Date: 2017-04-18 17:48+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1447423715.0\n"
 
-#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:174 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
+#: app/scripts/views/complete_sign_up.js:174 app/scripts/models/auth_brokers/web.js:22
 msgid "Account verified successfully"
 msgstr "Account met succes geverifieerd"
 
@@ -23,7 +23,7 @@ msgstr "Account met succes geverifieerd"
 msgid "Password reset"
 msgstr "Wachtwoord opnieuw ingesteld"
 
-#: app/scripts/views/confirm_reset_password.js:188
+#: app/scripts/views/confirm_reset_password.js:180
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Wachtwoord is opnieuw ingesteld. Meld u aan om door te gaan."
 
@@ -67,11 +67,11 @@ msgstr "U kunt %(serviceName)s nu gebruiken"
 msgid "Account verified"
 msgstr "Account geverifieerd"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177
+#: app/scripts/views/reset_password.js:65 app/scripts/views/sign_in.js:172
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Onbekende account. <a href=\"/signup\">Registreren</a>"
 
-#: app/scripts/views/sign_in.js:174
+#: app/scripts/views/sign_in.js:169
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Onbekende Firefox-account. <a href=\"/signup\">Registreer</a> met behulp van het e-mailadres van uw eerdere Add-ons-account om uw add-on-gegevens te benaderen."
 
@@ -79,7 +79,7 @@ msgstr "Onbekende Firefox-account. <a href=\"/signup\">Registreer</a> met behulp
 msgid "Account no longer exists. Recreate it?"
 msgstr "Account bestaat niet meer. Opnieuw aanmaken?"
 
-#: app/scripts/views/sign_up.js:383
+#: app/scripts/views/sign_up.js:379
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Account bestaat al. <a href=\"/signin\">Aanmelden</a>"
 
@@ -721,9 +721,9 @@ msgstr "Weet u uw wachtwoord nog? Aanmelden"
 msgid "Connect another device"
 msgstr "Ander apparaat koppelen"
 
-#: app/scripts/templates/connect_another_device.mustache:2
-msgid "This device is connected"
-msgstr "Dit apparaat is gekoppeld"
+#: app/scripts/templates/connect_another_device.mustache:2 app/scripts/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
+msgstr "Dit exemplaar van Firefox is gekoppeld"
 
 #: app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -976,10 +976,6 @@ msgstr "Hebt u een account? Aanmelden"
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr "Stuur Firefox rechtstreeks naar uw smartphone en meld u aan om het instellen te voltooien"
 
-#: app/scripts/templates/sms_send.mustache:2
-msgid "This Firefox is connected"
-msgstr "Dit exemplaar van Firefox is gekoppeld"
-
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
 msgstr "Mobieletelefoonnummer"
@@ -990,14 +986,8 @@ msgstr "Verzenden"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
-"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-"Sms-service is alleen voor telefoonnummers in de VS beschikbaar. Mogelijk zijn er kosten voor sms en gegevens van toepassing. De bedoelde ontvanger van het e-mail- of sms-bericht moet hiermee "
-"akkoord zijn gegaan. <a %(escapedLearnMoreAttributes)s>Meer info</a>"
-
-#: app/scripts/templates/sms_send.mustache:9
-msgid "Maybe later"
-msgstr "Misschien later"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1231,6 +1221,18 @@ msgstr "Aanmelden"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Aanmelden"
+
+#~ msgid "This device is connected"
+#~ msgstr "Dit apparaat is gekoppeld"
+
+#~ msgid ""
+#~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "Sms-service is alleen voor telefoonnummers in de VS beschikbaar. Mogelijk zijn er kosten voor sms en gegevens van toepassing. De bedoelde ontvanger van het e-mail- of sms-bericht moet hiermee "
+#~ "akkoord zijn gegaan. <a %(escapedLearnMoreAttributes)s>Meer info</a>"
+
+#~ msgid "Maybe later"
+#~ msgstr "Misschien later"
 
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "Met dank aan <a href=\"https://www.gravatar.com\">Gravatar</a>"

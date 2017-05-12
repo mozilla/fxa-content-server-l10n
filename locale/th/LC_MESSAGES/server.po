@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-28 16:12+0000\n"
+"POT-Creation-Date: 2017-05-12 19:57+0000\n"
 "PO-Revision-Date: 2017-05-06 03:39+0000\n"
 "Last-Translator: Chengings <chengings@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:798
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:803
 msgid "Still there?"
 msgstr "ยังอยู่ที่นั่นใช่ไหม?"
 
@@ -26,13 +26,12 @@ msgstr "คุณได้สร้างบัญชี Firefox มาสัก
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
-msgstr ""
-"คุณเชื่อมต่ออุปกรณ์แรกเข้ากับบัญชี Firefox สำเร็จแล้ว ตอนนี้คุณสามารถลงชื่อเข้าใช้ Sync จากอุปกรณ์อื่น ซึ่งรวมถึง Firefox สำหรับ <a href='%(androidUrl)s'>Android</a> และ <a href='%(iosUrl)s'>iOS</a>"
+msgstr "คุณเชื่อมต่ออุปกรณ์แรกเข้ากับบัญชี Firefox สำเร็จแล้ว ตอนนี้คุณสามารถลงชื่อเข้าใช้ Sync จากอุปกรณ์อื่น ซึ่งรวมถึง Firefox สำหรับ <a href='%(androidUrl)s'>Android</a> และ <a href='%(iosUrl)s'>iOS</a>"
 
 #: lib/senders/templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr "คุณเชื่อมต่อกับอุปกรณ์แรกกับบัญชี Firefox สำเร็จแล้ว เพื่อที่จะใช้งานส่วนมากใน Sync เชื่อมต่อกับ <a href='%(androidUrl)s'>Firefox for Android</a> หรือ <a href='%(iosUrl)s'>Firefox for iOS</a>"
 
 #: lib/senders/templates/_pending.txt:5 lib/senders/templates/post_verify.html:4
@@ -53,7 +52,7 @@ msgid "Firefox Accounts"
 msgstr "Firefox Account"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:690
+#: lib/senders/email.js:695
 msgid "New sign-in to Firefox"
 msgstr "เข้าสู่ระบบ Firefox ใหม่"
 
@@ -181,9 +180,7 @@ msgstr "ตรวจสอบบัญชีแล้ว!"
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
-msgstr ""
-"คุณได้เชื่อมต่ออุปกรณ์แรกเข้ากับบัญชี Firefox เรียบร้อยแล้ว ตอนนี้คุณสามารถลงชื่อเข้า Sync จากอุปกรณ์อื่นรวมถึง Firefox สำหรับ <a %(androidLinkAttributes)s>Android</a> และ <a "
-"%(iosLinkAttributes)s>iOS</a>"
+msgstr "คุณได้เชื่อมต่ออุปกรณ์แรกเข้ากับบัญชี Firefox เรียบร้อยแล้ว ตอนนี้คุณสามารถลงชื่อเข้า Sync จากอุปกรณ์อื่นรวมถึง Firefox สำหรับ <a %(androidLinkAttributes)s>Android</a> และ <a %(iosLinkAttributes)s>iOS</a>"
 
 #: lib/senders/templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
@@ -241,17 +238,15 @@ msgstr "ถ้าไม่ใช่ ช่วยเรากำจัดผู�
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "ถ้าไม่ใช่ ช่วยเรากำจัดผู้บุกรุกและรายงานมายังเรา"
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:795
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:800
 msgid "Hello again."
 msgstr "สวัสดีอีกครั้ง"
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-" email address to activate your account."
-msgstr ""
-"เมื่อไม่กี่วันมานี้คุณสร้างบัญชี Firefox แต่ยังไม่ได้ตรวจสอบ การตรวจสอบบัญชีทำให้คุณเข้าถึงแท็บ ที่คั่นหน้า รหัสผ่าน และประวัติของคุณบนอุปกรณ์ใด ๆ ที่เชื่อมต่อกับบัญชี "
-"เพียงยืนยันที่อยู่อีเมลนี้เพื่อเปิดใช้งานบัญชีของคุณ"
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+"this email address to activate your account."
+msgstr "เมื่อไม่กี่วันมานี้คุณสร้างบัญชี Firefox แต่ยังไม่ได้ตรวจสอบ การตรวจสอบบัญชีทำให้คุณเข้าถึงแท็บ ที่คั่นหน้า รหัสผ่าน และประวัติของคุณบนอุปกรณ์ใด ๆ ที่เชื่อมต่อกับบัญชี เพียงยืนยันที่อยู่อีเมลนี้เพื่อเปิดใช้งานบัญชีของคุณ"
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verify.html:4
 msgid "Activate now"
@@ -329,71 +324,71 @@ msgstr "ยืนยันว่าคุณได้รับอีเมลน
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "เมื่อยืนยันแล้ว เราจะช่วยคุณติดตั้งและเชื่อมต่อ Firefox อย่างน้อยหนึ่งอุปกรณ์"
 
-#: lib/senders/email.js:159
+#: lib/senders/email.js:160
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s บน %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:162
+#: lib/senders/email.js:163
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s บน %(uaOS)s"
 
-#: lib/senders/email.js:189
+#: lib/senders/email.js:190
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s %(stateCode)s %(country)s (โดยประมาณ)"
 
-#: lib/senders/email.js:191
+#: lib/senders/email.js:192
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s %(country)s (โดยประมาณ)"
 
-#: lib/senders/email.js:193
+#: lib/senders/email.js:194
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s %(country)s (โดยประมาณ)"
 
-#: lib/senders/email.js:195
+#: lib/senders/email.js:196
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (โดยประมาณ)"
 
-#: lib/senders/email.js:293
+#: lib/senders/email.js:295
 msgid "Verify your Firefox Account"
 msgstr "ตรวจสอบบัญชี Firefox ของคุณ"
 
-#: lib/senders/email.js:322
+#: lib/senders/email.js:324
 msgid "Confirm your email and start to sync!"
 msgstr "ยืนยันอีเมลของคุณและเริ่มการซิงค์!"
 
-#: lib/senders/email.js:380
+#: lib/senders/email.js:382
 msgid "Firefox Account authorization code"
 msgstr "รหัสอนุญาตของบัญชี Firefox"
 
-#: lib/senders/email.js:433
+#: lib/senders/email.js:435
 msgid "Confirm new sign-in to Firefox"
 msgstr "ยืนยันการลงชื่อเข้า Firefox"
 
-#: lib/senders/email.js:489
+#: lib/senders/email.js:492
 msgid "Verify email for Firefox Accounts"
 msgstr "ยืนยันความถูกต้อง Firefox Accounts ของคุณ"
 
-#: lib/senders/email.js:542
+#: lib/senders/email.js:547
 msgid "Reset your Firefox Account password"
 msgstr "ตั้งรหัสผ่านบัญชี Firefox ของคุณใหม่ "
 
-#: lib/senders/email.js:583
+#: lib/senders/email.js:588
 msgid "Your Firefox Account password has been changed"
 msgstr "รหัสผ่านบัญชี Firefox ของคุณได้เปลี่ยนไปแล้ว"
 
-#: lib/senders/email.js:622
+#: lib/senders/email.js:627
 msgid "Your Firefox Account password has been reset"
 msgstr "รหัสผ่านบัญชี Firefox ของคุณได้ตั้งใหม่แล้ว"
 
-#: lib/senders/email.js:656
+#: lib/senders/email.js:661
 msgid "Firefox Account password reset required"
 msgstr "ต้องตั้งค่ารหัสผ่านบัญชี Firefox ใหม่"
 
-#: lib/senders/email.js:730
+#: lib/senders/email.js:735
 msgid "Firefox Account verified"
 msgstr "บัญชี Firefox ได้รับการยืนยันแล้ว"
 
-#: lib/senders/email.js:769
+#: lib/senders/email.js:774
 msgid "Secondary Firefox Account email added"
 msgstr "อีเมลสำรองของ Firefox Account ได้ถูกเพิ่มแล้ว"
 

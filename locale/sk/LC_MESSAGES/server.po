@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1442482729.0\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:798
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:803
 msgid "Still there?"
 msgstr "Ste tu ešte?"
 
@@ -33,11 +33,11 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
-"Úspešne ste pripojili svoje prvé zariadenie k svojmu účtu Firefox Account. Aby ste službu Sync čo najlepšie využili, pripojte sa k nej aj z aplikácie <a href='%(androidUrl)s'>Firefox pre Android</a>"
-" alebo <a href='%(iosUrl)s'>Firefox pre iOS</a>."
+"Úspešne ste pripojili svoje prvé zariadenie k svojmu účtu Firefox Account. Aby ste službu Sync čo najlepšie využili, pripojte sa k nej aj z aplikácie <a href='%(androidUrl)s'>Firefox pre Android</"
+"a> alebo <a href='%(iosUrl)s'>Firefox pre iOS</a>."
 
 #: lib/senders/templates/_pending.txt:5 lib/senders/templates/post_verify.html:4
 msgid "Connect another device"
@@ -57,7 +57,7 @@ msgid "Firefox Accounts"
 msgstr "Účty Firefox Account"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:690
+#: lib/senders/email.js:695
 msgid "New sign-in to Firefox"
 msgstr "Nové prihlásenie k Firefoxu"
 
@@ -247,14 +247,14 @@ msgstr "Ak nie, pomôžte nám odraziť útočníkov a <a %(reportSignInLinkAttr
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Ak nie, pomôžte nám odraziť útočníkov a nahláste nám to."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:795
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:800
 msgid "Hello again."
 msgstr "Vitajte späť."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-" email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+"this email address to activate your account."
 msgstr ""
 "Pred pár dňami ste si vytvorili účet Firefox Account, ale zatiaľ ste ho neoverili. Overený účet vám umožní prístup k vašim kartám, záložkám, heslám a histórii na všetkých vašich zariadeniach, ktoré "
 "k nemu pripojíte. Pre aktiváciu jednoducho stačí potvrdiť túto e-mailovú adresu."
@@ -337,71 +337,71 @@ msgstr "Potvrďte, že ste dostali tento e-mail a my vám pomôžeme s inštalá
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Okamžite, ako bude overenie dokončené, pomôžeme vám nainštalovať a pripojiť Firefox na aspoň jednom ďalšom zariadení."
 
-#: lib/senders/email.js:159
+#: lib/senders/email.js:160
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s na %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:162
+#: lib/senders/email.js:163
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s na %(uaOS)s"
 
-#: lib/senders/email.js:189
+#: lib/senders/email.js:190
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (odhad)"
 
-#: lib/senders/email.js:191
+#: lib/senders/email.js:192
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (odhad)"
 
-#: lib/senders/email.js:193
+#: lib/senders/email.js:194
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (odhad)"
 
-#: lib/senders/email.js:195
+#: lib/senders/email.js:196
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (odhad)"
 
-#: lib/senders/email.js:293
+#: lib/senders/email.js:295
 msgid "Verify your Firefox Account"
 msgstr "Overiť váš účet Firefox Account"
 
-#: lib/senders/email.js:322
+#: lib/senders/email.js:324
 msgid "Confirm your email and start to sync!"
 msgstr "Potvrďte svoj e-mail a začnite synchronizovať!"
 
-#: lib/senders/email.js:380
+#: lib/senders/email.js:382
 msgid "Firefox Account authorization code"
 msgstr "Autorizačný kód účtu Firefox Accounts"
 
-#: lib/senders/email.js:433
+#: lib/senders/email.js:435
 msgid "Confirm new sign-in to Firefox"
 msgstr "Potvrdenie nového prihlásenia k Firefoxu"
 
-#: lib/senders/email.js:489
+#: lib/senders/email.js:492
 msgid "Verify email for Firefox Accounts"
 msgstr "Overiť e-mailovú adresu pre účet Firefox Account"
 
-#: lib/senders/email.js:542
+#: lib/senders/email.js:547
 msgid "Reset your Firefox Account password"
 msgstr "Obnoviť heslo vášho účtu Firefox Account"
 
-#: lib/senders/email.js:583
+#: lib/senders/email.js:588
 msgid "Your Firefox Account password has been changed"
 msgstr "Heslo vášho účtu Firefox Account bolo zmenené"
 
-#: lib/senders/email.js:622
+#: lib/senders/email.js:627
 msgid "Your Firefox Account password has been reset"
 msgstr "Heslo vášho účtu Firefox Account bolo obnovené"
 
-#: lib/senders/email.js:656
+#: lib/senders/email.js:661
 msgid "Firefox Account password reset required"
 msgstr "Je požadovaná obnova hesla k účtu Firefox Account"
 
-#: lib/senders/email.js:730
+#: lib/senders/email.js:735
 msgid "Firefox Account verified"
 msgstr "Účet Firefox Account bol overený"
 
-#: lib/senders/email.js:769
+#: lib/senders/email.js:774
 msgid "Secondary Firefox Account email added"
 msgstr ""
 
@@ -459,8 +459,8 @@ msgstr "Podmienky používania služby"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 #~ msgstr ""
-#~ "Prihlásili ste sa v posledných 60-tich dňoch ku svojmu účtu Firefoxu Account z niektorého z týchto miest? Ak túto aktivitu nespoznávate, môže to znamenať, že k vášmu účtu mohol získať prístup niekto"
-#~ " ďalší."
+#~ "Prihlásili ste sa v posledných 60-tich dňoch ku svojmu účtu Firefoxu Account z niektorého z týchto miest? Ak túto aktivitu nespoznávate, môže to znamenať, že k vášmu účtu mohol získať prístup "
+#~ "niekto ďalší."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Dátum a čas:"
