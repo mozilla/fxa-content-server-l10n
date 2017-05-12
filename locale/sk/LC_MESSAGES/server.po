@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-28 16:12+0000\n"
-"PO-Revision-Date: 2017-05-12 18:56+0000\n"
+"PO-Revision-Date: 2017-05-12 19:37+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -323,7 +323,7 @@ msgstr "Po overení začnete na túto e-mailovú adresu dostávať bezpečnostn�
 
 #: lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
-msgstr ""
+msgstr "Overenie e-mailu: "
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -379,7 +379,7 @@ msgstr "Potvrdenie nového prihlásenia k Firefoxu"
 
 #: lib/senders/email.js:489
 msgid "Verify email for Firefox Accounts"
-msgstr ""
+msgstr "Overiť e-mailovú adresu pre účet Firefox Account"
 
 #: lib/senders/email.js:542
 msgid "Reset your Firefox Account password"
