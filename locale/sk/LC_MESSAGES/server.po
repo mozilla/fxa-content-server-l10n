@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-28 16:12+0000\n"
-"PO-Revision-Date: 2017-05-09 18:24+0000\n"
+"PO-Revision-Date: 2017-05-12 18:56+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -315,11 +315,11 @@ msgstr ""
 
 #: lib/senders/templates/verify_secondary.html:5 lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
 msgid "Verify email "
-msgstr "Overenie e-mailu "
+msgstr "Overiť e-mail "
 
 #: lib/senders/templates/verify_secondary.html:6
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "Po overení začnete na túto e-mailovú adresu dostávať bezpečnostné upozornenia a potvrdenia."
 
 #: lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
