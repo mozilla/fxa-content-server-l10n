@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-12 19:57+0000\n"
-"PO-Revision-Date: 2017-05-13 06:07+0000\n"
+"PO-Revision-Date: 2017-05-13 06:14+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -105,11 +105,11 @@ msgstr ""
 
 #: app/scripts/views/settings/clients.js:65
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Käytetty viimeksi %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/communication_preferences.js:104
 msgid "Subscribed successfully"
@@ -250,7 +250,7 @@ msgstr "Virheellinen valtuuskoodi"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Virheellinen puhelinnumero"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
