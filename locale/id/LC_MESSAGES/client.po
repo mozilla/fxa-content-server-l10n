@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-12 19:57+0000\n"
-"PO-Revision-Date: 2017-04-23 05:31+0000\n"
-"Last-Translator: Benny Chandra <bennychandra@gmail.com>\n"
+"PO-Revision-Date: 2017-05-13 09:00+0000\n"
+"Last-Translator: Fauzan Alfi <fauzanalfi@mozilla.web.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -513,12 +513,8 @@ msgid "SMS not sent, please try again"
 msgstr "SMS tidak terkirim, silakan coba lagi"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Dengan melanjutkan, Anda menyetujui untuk <a id=\"service-tos\" href=\"%(termsUri)s\">Ketentuan Layanan</a> dan <a id=\"service-pp\" href=\"%(privacyUri)s\">Privasi</a> dari %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Dengan melanjutkan, Anda menyetujui untuk <a id=\"service-tos\" href=\"%(termsUri)s\">Ketentuan Layanan</a> dan <a id=\"service-pp\" href=\"%(privacyUri)s\">Privasi</a> dari %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -792,8 +788,7 @@ msgstr "Lupa sandi?"
 
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr ""
-"Bila melanjutkan, anda setuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\">Kebijakan Privasi</a> untuk layanan awan Firefox."
+msgstr "Bila melanjutkan, anda setuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\">Kebijakan Privasi</a> untuk layanan awan Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -987,6 +982,8 @@ msgstr "Kirim"
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"Layanan SMS hanya tersedia di negara tertentu. Bisa dikenakan tarif SMS &amp; data. Penerima surel atau SMS yang dimaksudkan harus telah menyetujui. <a%(escapedLearnMoreAttributes)s>Pelajari lebih "
+"lanjut</a>"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1300,11 +1297,9 @@ msgstr "Masuk"
 #~ msgstr "Memiliki akun dengan alamat surel berbeda? <a href=\"%(signinUri)s\">Masuk</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
-#~ msgstr ""
-#~ "Firefox tersedia untuk <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> dan <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ msgstr "Firefox tersedia untuk <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> dan <a href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Terakhir aktif: %(translatedTimeAgo)s"
@@ -1466,8 +1461,7 @@ msgstr "Masuk"
 #~ msgstr "Apakah anda yakin untuk menyetel ulang sandi akun anda?"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
-#~ msgstr ""
-#~ "Menyetel ulang sandi akan menghapus data perambanan Anda dari server kami. Data pada perangkat Anda akan tetap tak tersentuh. Memulai proses reset dengan memasukkan email Anda di bawah ini."
+#~ msgstr "Menyetel ulang sandi akan menghapus data perambanan Anda dari server kami. Data pada perangkat Anda akan tetap tak tersentuh. Memulai proses reset dengan memasukkan email Anda di bawah ini."
 
 #~ msgid "a day"
 #~ msgstr "satu hari"
@@ -1524,8 +1518,7 @@ msgstr "Masuk"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Aktifkan kuki pada peramban Anda karena dibutuhkan oleh Akun Firefox. Kuki merupakan data kecil yang disimpan pada peramban Anda, untuk menyediakan fungsionalitas misalnya mengingat Anda antar "
-#~ "sesi."
+#~ "Aktifkan kuki pada peramban Anda karena dibutuhkan oleh Akun Firefox. Kuki merupakan data kecil yang disimpan pada peramban Anda, untuk menyediakan fungsionalitas misalnya mengingat Anda antar sesi."
 
 #~ msgid "1991"
 #~ msgstr "1991"
