@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-12 19:57+0000\n"
-"PO-Revision-Date: 2017-05-13 07:20+0000\n"
+"PO-Revision-Date: 2017-05-13 09:15+0000\n"
 "Last-Translator: Vee Satayamas <vsatayamas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -199,7 +199,7 @@ msgstr "เพิ่มอีเมลสำรองแล้ว"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2 lib/senders/templates/post_verify_secondary_email.html:3
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr ""
+msgstr "คุณยืนยันว่า %(secondaryEmail)s เป็นอีเมลสำรองของ Firefox Account ของคุณเรียบร้อยแล้ว การแจ้งเตือนด้านความปลอดภัยและการยืนยันการลงชื่อเข้าใช้จะถูกส่งไปยังอีเมลทั้งสองที่"
 
 #: lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
 msgid "Manage account"
@@ -299,7 +299,7 @@ msgstr "หากคุณสงสัยว่าใครพยายามเ
 
 #: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
 msgid "Verify secondary email"
-msgstr "ตรวจสอบอีเมลสำรอง"
+msgstr "ยืนยันอีเมลสำรอง"
 
 #: lib/senders/templates/verify_secondary.html:3 lib/senders/templates/verify_secondary.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
