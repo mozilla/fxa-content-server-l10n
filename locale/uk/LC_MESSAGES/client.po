@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-12 19:57+0000\n"
-"PO-Revision-Date: 2017-05-13 15:28+0000\n"
-"Last-Translator: Tymur Faradzhev <faradzhev.timur@gmail.com>\n"
+"PO-Revision-Date: 2017-05-16 07:10+0000\n"
+"Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -686,7 +686,7 @@ msgstr "Підтвердження облікового запису"
 
 #: app/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
-msgstr "Підтвердити цей вхід"
+msgstr "Підтвердіть цей вхід"
 
 #: app/scripts/templates/confirm.mustache:5 app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email Sent"
@@ -817,12 +817,12 @@ msgstr "Отримайте повну віддачу від синхроніза
 #: app/scripts/templates/marketing_snippet.mustache:2 app/scripts/templates/marketing_snippet.mustache:3 app/scripts/templates/marketing_snippet.mustache:11
 #: app/scripts/templates/marketing_snippet.mustache:15 app/scripts/templates/marketing_snippet.mustache:19
 msgid "Download Firefox for iOS!"
-msgstr "Завантажити Firefox для iOS!"
+msgstr "Завантажте Firefox для iOS!"
 
 #: app/scripts/templates/marketing_snippet.mustache:6 app/scripts/templates/marketing_snippet.mustache:7 app/scripts/templates/marketing_snippet.mustache:12
 #: app/scripts/templates/marketing_snippet.mustache:17 app/scripts/templates/marketing_snippet.mustache:20
 msgid "Download Firefox for Android."
-msgstr "Завантажити Firefox для Android."
+msgstr "Завантажте Firefox для Android."
 
 #: app/scripts/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
@@ -940,7 +940,7 @@ msgstr "Продовжити"
 
 #: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
-msgstr "Створити обліковий запис Firefox"
+msgstr "Створення облікового запису Firefox"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
@@ -1220,7 +1220,7 @@ msgstr "Увійти"
 #: app/scripts/views/sign_in.js:93
 msgctxt "header text"
 msgid "Sign in"
-msgstr "Увійти"
+msgstr "Вхід"
 
 #~ msgid "This device is connected"
 #~ msgstr "Цей пристрій під'єднано"
