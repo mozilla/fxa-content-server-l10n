@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-12 19:57+0000\n"
-"PO-Revision-Date: 2017-05-17 07:10+0000\n"
+"PO-Revision-Date: 2017-05-17 07:26+0000\n"
 "Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
@@ -454,39 +454,39 @@ msgstr ""
 
 #: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
-msgstr ""
+msgstr "அங்கீகரிக்கபடாதது"
 
 #: app/scripts/lib/oauth-errors.js:66
 msgid "Forbidden"
-msgstr ""
+msgstr "தடை செய்யப்பட்டது"
 
 #: app/scripts/lib/oauth-errors.js:88
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "ஏதோ தவறு நடந்துவிட்டது. இந்தக் கீற்றை மூடி மீண்டும் முயற்சிக்கவும்."
 
 #: app/scripts/lib/oauth-errors.js:104
 msgid "no message"
-msgstr ""
+msgstr "தகவல் ஏதும் இல்லை"
 
 #: app/scripts/lib/oauth-errors.js:108
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "காணாமல் போன OAuth அளவுரு: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
-msgstr ""
+msgstr "செல்லுபடியாகாத குறி"
 
 #: app/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
-msgstr ""
+msgstr "கோரிக்கையில் உள்ள தவறான அளவுரு: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:31
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "ஆதரிக்கப்படாத பட வழங்குநர்"
 
 #: app/scripts/lib/profile-errors.js:35
 msgid "Image processing error"
-msgstr ""
+msgstr "பட செயலாக்க பிழை"
 
 #: app/scripts/lib/require-on-demand.js:39
 msgid "Resources failed to load"
@@ -570,7 +570,7 @@ msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
-msgstr ""
+msgstr "மேலும் அறிய."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s created"
@@ -578,7 +578,7 @@ msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
-msgstr ""
+msgstr "எதை ஒத்திசைக்க வேண்டும் என்பதைத் தேர்"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:3
 msgid "Open tabs"
@@ -586,51 +586,51 @@ msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Bookmarks"
-msgstr ""
+msgstr "புத்தகக்குறிகள்"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:7
 msgid "Add-ons"
-msgstr ""
+msgstr "கூடுதல் இணைப்புகள்"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:9
 msgid "Passwords"
-msgstr ""
+msgstr "கடவுச்சொற்கள்"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:11
 msgid "History"
-msgstr ""
+msgstr "வரலாறு"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:13
 msgid "Preferences"
-msgstr ""
+msgstr "முன்னுரிமைகள்"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr ""
+msgstr "கூடுதல் நிரல்களும் முன்னுரிமைகளும் தற்போது செல்பேசி சாதனங்களில் ஒத்திசைப்பதில்லை."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:16
 msgid "Save settings"
-msgstr ""
+msgstr "அமைவுகளைச் சேமி"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:17 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
-msgstr ""
+msgstr "பின்செல்"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
-msgstr ""
+msgstr "கடவுச்சொல்லை மீட்டமைக்கும் தொடுப்பு காலாவதியானது"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
-msgstr ""
+msgstr "உங்கள் கடவுச்சொல்லை மீட்டமைக்க சொடுக்கிய தொடுப்பு காலாவதியானது."
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "Click here to receive a new reset link"
-msgstr ""
+msgstr "ஒரு புதிய மீட்டமைக்கும் தொடுப்பைப் பெற இங்கே சொடுக்கவும்"
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
-msgstr ""
+msgstr "கடவுச்சொல்லை மீட்டமைக்கும் தொடுப்பு சேதமடைந்தது"
 
 #: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:10 app/scripts/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
@@ -771,49 +771,49 @@ msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "மீண்டும் முயற்சி"
 
 #: app/scripts/templates/force_auth.mustache:1
 msgid "Sign in to continue"
-msgstr ""
+msgstr "தொடர்வதற்கு உள்நுழையவும்"
 
 #: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_up.mustache:15
 #: app/scripts/templates/settings/change_password.mustache:1 app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
-msgstr ""
+msgstr "கடவுச்சொல்"
 
 #: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:18 app/scripts/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
-msgstr ""
+msgstr "கடவுச்சொல்லை மறந்துவிட்டீர்களா?"
 
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr ""
+msgstr "தொடர்வதன் மூலம், பயர்பாக்ஸ் முகில்கணிமச் சேவைகளின் <a id=\"fxa-tos\" href=\"/legal/terms\">விதிமுறைகளையும்</a> தனியுரிமை <a id=\"fxa-pp\" href=\"/legal/privacy\">அறிகைளையும்</a> ஒப்புக்குகொள்கிறோம்."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "பயர்பாக்ஸ் முகில்கணிமச் சேவைகள்"
 
 #: app/scripts/templates/legal.mustache:2
 msgid "Legal"
-msgstr ""
+msgstr "சட்டபூர்வ"
 
 #: app/scripts/templates/legal.mustache:3 app/scripts/templates/settings.mustache:4 app/scripts/templates/tos.mustache:2
 msgid "Terms of Service"
-msgstr ""
+msgstr "சேவை விதிமுறைகள்"
 
 #: app/scripts/templates/legal.mustache:4 app/scripts/templates/pp.mustache:2 app/scripts/templates/settings.mustache:5
 msgid "Privacy Notice"
-msgstr ""
+msgstr "தனியுரிமை அறிவிப்பு"
 
 #: app/scripts/templates/marketing_snippet.mustache:1 app/scripts/templates/marketing_snippet.mustache:5 app/scripts/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
-msgstr ""
+msgstr "முழு ஒத்திசைவு அனுபவம் கிடைக்கும்."
 
 #: app/scripts/templates/marketing_snippet.mustache:2 app/scripts/templates/marketing_snippet.mustache:3 app/scripts/templates/marketing_snippet.mustache:11
 #: app/scripts/templates/marketing_snippet.mustache:15 app/scripts/templates/marketing_snippet.mustache:19
 msgid "Download Firefox for iOS!"
-msgstr ""
+msgstr "iOS இயங்கு தளத்திற்ககான பயர்பாக்சைப் பதிவிறக்குக!"
 
 #: app/scripts/templates/marketing_snippet.mustache:6 app/scripts/templates/marketing_snippet.mustache:7 app/scripts/templates/marketing_snippet.mustache:12
 #: app/scripts/templates/marketing_snippet.mustache:17 app/scripts/templates/marketing_snippet.mustache:20
