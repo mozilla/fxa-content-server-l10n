@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-12 19:57+0000\n"
-"PO-Revision-Date: 2017-05-17 06:38+0000\n"
+"PO-Revision-Date: 2017-05-17 07:10+0000\n"
 "Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
@@ -137,19 +137,19 @@ msgstr "கடவுச்சொல் மீட்டமை"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
-msgstr ""
+msgstr "கூகுள் மடலைத் திற"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:25
 msgid "Open Hotmail"
-msgstr ""
+msgstr "ஹாட்மெயிலைத் திற"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:31
 msgid "Open Yahoo"
-msgstr ""
+msgstr "யாகூவைத் திற"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:37
 msgid "Open Outlook"
-msgstr ""
+msgstr "அவுட்லுக்கைத் திற"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:43
 msgid "Open Restmail"
@@ -157,11 +157,11 @@ msgstr ""
 
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
-msgstr ""
+msgstr "மின்னஞ்சல் மீண்டும் அனுப்பப்பட்டது"
 
 #: app/scripts/models/reliers/sync.js:50
 msgid "Firefox Sync"
-msgstr ""
+msgstr "பயர்பாக்ஸ் ஒத்திசைவு"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:35
@@ -170,7 +170,7 @@ msgstr "எதிர்பாராத பிழை"
 
 #: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:5
 msgid "The link you clicked to verify your email is expired."
-msgstr ""
+msgstr "உங்கள் மின்னஞ்சலை சரிபார்க்க சொடுக்கிய தொடுப்பு காலாவதியானது."
 
 #: app/scripts/lib/auth-errors.js:21 app/scripts/lib/sms-errors.js:17
 msgid "You've tried too many times. Try again later."
@@ -182,7 +182,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:35 app/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
-msgstr ""
+msgstr "செல்லுபடியாகாத டோக்கன்"
 
 #: app/scripts/lib/auth-errors.js:39
 msgid "Invalid timestamp in request signature"
@@ -302,15 +302,15 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:178
 msgid "Working…"
-msgstr ""
+msgstr "பணியில்…"
 
 #: app/scripts/lib/auth-errors.js:182
 msgid "Could not get Privacy Notice"
-msgstr ""
+msgstr "தனியுரிம அறிகையைப் பெற முடியவில்லை"
 
 #: app/scripts/lib/auth-errors.js:186
 msgid "Could not get Terms of Service"
-msgstr ""
+msgstr "சேவை நிபந்தனைகளைப் பெற முடியவில்லை"
 
 #: app/scripts/lib/auth-errors.js:190
 msgid "Your new password must be different"
