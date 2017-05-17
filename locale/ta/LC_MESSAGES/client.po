@@ -69,7 +69,7 @@ msgstr "கணக்கு சரிபார்க்கப்பட்டத�
 
 #: app/scripts/views/reset_password.js:65 app/scripts/views/sign_in.js:172
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "தெரியாத கணக்கு. <a href=\"/signup\">பதிவு செய்</a>"
 
 #: app/scripts/views/sign_in.js:169
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
