@@ -1,26 +1,27 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-12 19:57+0000\n"
-"PO-Revision-Date: 2015-04-13 14:41+0000\n"
-"Last-Translator: venkat <hsetaknev@gmail.com>\n"
+"PO-Revision-Date: 2016-07-12 15:06+0000\n"
+"Last-Translator: VAISHANAVIDEVI R <vaishnavidevir@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1428936110.0\n"
 
 #: app/scripts/views/complete_sign_up.js:174 app/scripts/models/auth_brokers/web.js:22
 msgid "Account verified successfully"
-msgstr ""
+msgstr "கணக்கு வெற்றிகரமாகச் சரிபார்க்கப்பட்டது"
 
 #: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:39
 msgid "Password reset"
-msgstr ""
+msgstr "கடவுச்சொல்லை மீட்டமை"
 
 #: app/scripts/views/confirm_reset_password.js:180
 msgid "Password reset successfully. Sign in to continue."
@@ -512,9 +513,7 @@ msgid "SMS not sent, please try again"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
