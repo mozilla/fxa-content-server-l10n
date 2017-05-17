@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-12 19:57+0000\n"
-"PO-Revision-Date: 2016-07-19 09:27+0000\n"
-"Last-Translator: Dhevendhiran M <dhevendhirancs.dgct@gmail.com>\n"
+"PO-Revision-Date: 2017-05-17 06:38+0000\n"
+"Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
@@ -77,7 +77,7 @@ msgstr ""
 
 #: app/scripts/views/sign_up.js:63
 msgid "Account no longer exists. Recreate it?"
-msgstr ""
+msgstr "கணக்கை நீண்ட காலம் பாவிக்கல. மீண்டும் உருவாக்க வேண்டுமா?"
 
 #: app/scripts/views/sign_up.js:379
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
@@ -89,7 +89,7 @@ msgstr ""
 
 #: app/scripts/views/settings/change_password.js:52
 msgid "Password changed successfully"
-msgstr ""
+msgstr "கடவுச்சொல் வெற்றிகரமாக மாற்றப்பட்டது"
 
 #: app/scripts/views/settings/client_disconnect.js:17
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
@@ -125,15 +125,15 @@ msgstr "கணக்கு வெற்றிகரமாக நீக்கப�
 
 #: app/scripts/views/settings/display_name.js:66
 msgid "Display name updated"
-msgstr ""
+msgstr "காட்சி பெயர் புதுப்பிக்கப்பட்டது"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "பாதுகாப்பு காரணத்தால் தங்களின் கணக்கு மூடப்பட்டது"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:44
 msgid "Reset password"
-msgstr ""
+msgstr "கடவுச்சொல் மீட்டமை"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
@@ -834,13 +834,13 @@ msgstr ""
 
 #: app/scripts/templates/permissions.mustache:3
 msgid "Accept"
-msgstr ""
+msgstr "ஏற்றுக்கொள்"
 
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9 app/scripts/templates/settings/communication_preferences.mustache:5
 #: app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6 app/scripts/templates/settings/display_name.mustache:8
 msgid "Cancel"
-msgstr ""
+msgstr "ரத்து செய்"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Your account is ready!"
@@ -876,7 +876,7 @@ msgstr ""
 
 #: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13
 msgid "Email"
-msgstr ""
+msgstr "மின்னஞ்சல்"
 
 #: app/scripts/templates/reset_password.mustache:9
 msgid "Begin reset"
