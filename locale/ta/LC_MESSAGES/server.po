@@ -406,7 +406,7 @@ msgstr "முகப்பு"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr "பிழை 500"
+msgstr ""
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
