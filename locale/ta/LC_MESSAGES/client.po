@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-12 19:57+0000\n"
-"PO-Revision-Date: 2017-05-19 01:23+0000\n"
+"PO-Revision-Date: 2017-05-19 04:34+0000\n"
 "Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
@@ -952,7 +952,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:17
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr ""
+msgstr "உங்கள் பயர்பாக்ஸ் தகவல்களை எவரும் ஊடுருவாமல் பாதுகாக்க வலுவான தனித்த கடவுச்சொல்லை வைத்திருக்கவும்."
 
 #: app/scripts/templates/sign_up.mustache:19
 msgid "Receive the monthly Firefox newsletter"
@@ -960,11 +960,11 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:21
 msgid "Create account"
-msgstr ""
+msgstr "கணக்கை உருவாக்கு"
 
 #: app/scripts/templates/sign_up.mustache:26
 msgid "Have an account? Sign in"
-msgstr ""
+msgstr "ஒரு கணக்கு உள்ளதா? உள்நுழையவும்"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
@@ -1030,15 +1030,15 @@ msgstr ""
 
 #: app/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
-msgstr ""
+msgstr "படம் எடு"
 
 #: app/scripts/templates/settings/avatar_change.mustache:1
 msgid "Upload"
-msgstr ""
+msgstr "பதிவேற்று"
 
 #: app/scripts/templates/settings/avatar_change.mustache:2
 msgid "Camera"
-msgstr ""
+msgstr "படக்கருவி"
 
 #: app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Clear"
