@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-12 19:57+0000\n"
-"PO-Revision-Date: 2017-05-17 07:26+0000\n"
+"PO-Revision-Date: 2017-05-19 01:23+0000\n"
 "Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
@@ -892,7 +892,7 @@ msgstr ""
 
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
-msgstr ""
+msgstr "வெளியேறு"
 
 #: app/scripts/templates/sign_in.mustache:4
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
@@ -900,15 +900,15 @@ msgstr ""
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr ""
+msgstr "உங்கள் பயர்பாக்ஸ்&nbsp;கணக்கில் நுழைந்து ஒத்திசைவு தரவை நகரத்து."
 
 #: app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:12
 msgid "Use a different account"
-msgstr ""
+msgstr "வேறு கணக்கைப் பயன்படுத்து"
 
 #: app/scripts/templates/sign_in.mustache:19
 msgid "Create an account"
-msgstr ""
+msgstr "ஒரு கணக்கை உருவாக்கு"
 
 #: app/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -936,7 +936,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
-msgstr ""
+msgstr "ஒரு பயர்பாக்ஸ் கணக்கை உருவாக்கு"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
@@ -944,7 +944,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr ""
+msgstr "ஒரு புதிய பயர்பாக்ஸ்&nbsp;கணக்கை உருவாக்குவதன் மூலம் உங்கள் ஒத்திசைவு தரவை நகரத்து."
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
