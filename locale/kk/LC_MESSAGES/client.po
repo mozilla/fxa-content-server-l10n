@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-12 19:57+0000\n"
-"PO-Revision-Date: 2017-05-20 10:23+0000\n"
+"PO-Revision-Date: 2017-05-20 17:29+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -744,15 +744,15 @@ msgstr "Баптауды аяқтау үшін басқа құрылғыдағы
 
 #: app/scripts/templates/connect_another_device.mustache:13
 msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr ""
+msgstr "Баптауды аяқтау үшін, Баптауларды ашып, Firefox-қа кіруді таңдаңыз"
 
 #: app/scripts/templates/connect_another_device.mustache:15
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
+msgstr "Баптауды аяқтау үшін Android үшін Firefox ішіне кіріңіз"
 
 #: app/scripts/templates/connect_another_device.mustache:17
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
+msgstr "Баптауды аяқтау үшін iOS үшін Firefox ішіне кіріңіз"
 
 #: app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
 msgid "Why is this required?"
@@ -849,7 +849,7 @@ msgstr "Сіздің тіркелгіңіз дайын!"
 
 #: app/scripts/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "Авторизацияланбаған кіруді хабарлау керек пе?"
 
 #: app/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
@@ -857,7 +857,7 @@ msgstr ""
 
 #: app/scripts/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr ""
+msgstr "Белсенділік туралы хабарлау"
 
 #: app/scripts/templates/report_sign_in.mustache:7 app/scripts/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
@@ -921,7 +921,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:1 app/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
-msgstr ""
+msgstr "Бұл кіруді авторизациялау"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
@@ -957,7 +957,7 @@ msgstr "Мықты, бірегей пароль сіздің Firefox дерек�
 
 #: app/scripts/templates/sign_up.mustache:19
 msgid "Receive the monthly Firefox newsletter"
-msgstr ""
+msgstr "Ай сайынғы Firefox жаңалықтарын алу"
 
 #: app/scripts/templates/sign_up.mustache:21
 msgid "Create account"
