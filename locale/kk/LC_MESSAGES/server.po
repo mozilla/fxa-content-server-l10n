@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-12 19:57+0000\n"
-"PO-Revision-Date: 2017-05-20 17:30+0000\n"
+"PO-Revision-Date: 2017-05-20 17:32+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -377,7 +377,7 @@ msgstr "Firefox-қа жаңа кіруді растаңыз"
 
 #: lib/senders/email.js:492
 msgid "Verify email for Firefox Accounts"
-msgstr ""
+msgstr "Firefox тіркелгілері үшін эл. поштаны растаңыз"
 
 #: lib/senders/email.js:547
 msgid "Reset your Firefox Account password"
