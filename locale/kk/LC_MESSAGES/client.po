@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-12 19:57+0000\n"
-"PO-Revision-Date: 2017-05-20 17:29+0000\n"
+"PO-Revision-Date: 2017-05-21 02:44+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -96,7 +96,7 @@ msgstr "Бұл туралы есту өкінішті. Сізге Firefox тір
 
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
+msgstr "Бұл туралы естуге өкініштіміз. Егер ол құрылғыға толығымен сенбеген болсаңыз, онда Firefox тіркелгі паролін, және Firefox-та сақталған барлық парольдерді өзгерту керек."
 
 #: app/scripts/views/settings/clients.js:63
 msgid "Web Session, %(userAgent)s"
@@ -853,7 +853,7 @@ msgstr "Авторизацияланбаған кіруді хабарлау к�
 
 #: app/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr ""
+msgstr "Сіз тіркелгіңізге қатынау талабы жөнінде хат алдыңыз. Бұл белсенділікті күмәнді ретінде хабарлауды қалайсыз ба?"
 
 #: app/scripts/templates/report_sign_in.mustache:6
 msgid "Report activity"
@@ -897,7 +897,7 @@ msgstr "Шығу"
 
 #: app/scripts/templates/sign_in.mustache:4
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "Қосымшалар деректерін іздедіңіз бе? Өзіңіздің ескі қосымшалар эл. адресіңізбен Firefox тіркелгісін <a href=\"/signup\">жасаңыз</a>."
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
@@ -913,11 +913,11 @@ msgstr "Тіркелгіні жасау"
 
 #: app/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
-msgstr ""
+msgstr "Қырағылығыңыз үшін рахмет"
 
 #: app/scripts/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr ""
+msgstr "Біздің топ хабарды алды. Шағымдарыңыз алаяқтылармен күресуге көмектеседі."
 
 #: app/scripts/templates/sign_in_unblock.mustache:1 app/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
@@ -925,7 +925,7 @@ msgstr "Бұл кіруді авторизациялау"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr ""
+msgstr "Firefox деректеріңізді жақсырақ қорғау үшін, %(email)s адресіңізге авторизация кодын жібердік."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -941,7 +941,7 @@ msgstr "Firefox тіркелгісін жасау"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-msgstr ""
+msgstr "Firefox синхрондауын іздедіңіз бе? <a href=\"%(escapedSyncSuggestionUrl)s\">Осында бастаңыз</a>"
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -949,7 +949,7 @@ msgstr "Жаңа Firefox&nbsp;тіркелгіңізді жасау арқылы
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "Қосымшалар деректерін іздедіңіз бе? Өзіңіздің ескі қосымшалар эл. адресіңізбен Firefox тіркелгісін жасаңыз."
 
 #: app/scripts/templates/sign_up.mustache:17
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
@@ -969,7 +969,7 @@ msgstr "Тіркелгіңіз бар ма? Кіріңіз"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Баптауды аяқтау үшін, Firefox-ты тура өз смартфоныңызға жіберіп, кіріңіз"
 
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
@@ -983,18 +983,20 @@ msgstr "Жіберу"
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"SMS қызметі тек кейбір елдерде қолжетерлік. SMS және деректерді тасымалдау үшін ақы алынуы мүмкін. Эл. пошта немесе SMS алушы оны алуға келісуі керек. <a %(escapedLearnMoreAttributes)s>Көбірек "
+"білу</a>"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Баптауды аяқтау үшін, Firefox-ты өз смартфоныңызға орнатып, кіріңіз"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr ""
+msgstr "Қолданба сілтемесі %(escapedPhoneNumber)s нөміріне жіберілді. <a %(escapedBackLinkAttrs)s>Нөмірді қате көрсеттіңіз бе?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Егер сіз мәтіндік хабарламаны алмасаңыз, қолданбаларды қолмен жүктеп алуға болады."
 
 #: app/scripts/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
@@ -1002,7 +1004,7 @@ msgstr "Жеткен жоқ па? Қайта жіберу"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
-msgstr ""
+msgstr "Екі (не көбірек) құрылғыларды неге синхрондау керек?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
