@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-12 19:57+0000\n"
-"PO-Revision-Date: 2017-05-21 02:44+0000\n"
+"PO-Revision-Date: 2017-05-21 10:46+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -1129,7 +1129,7 @@ msgstr "iOS үшін Firefox"
 
 #: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
 msgid "none connected"
-msgstr ""
+msgstr "ешнәрсе қосылмаған"
 
 #: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
@@ -1141,7 +1141,7 @@ msgstr "Android үшін Firefox"
 
 #: app/scripts/templates/settings/clients.mustache:26
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "Жоқ немесе қайталанған элемент?"
 
 #: app/scripts/templates/settings/clients.mustache:27
 msgid "Refresh"
