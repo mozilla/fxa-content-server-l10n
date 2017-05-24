@@ -1,17 +1,18 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-12 19:57+0000\n"
-"PO-Revision-Date: 2014-04-28 08:37+0000\n"
-"Last-Translator: Eduard <edu@eduard-gamonal.net>\n"
+"PO-Revision-Date: 2017-05-24 21:07+0000\n"
+"Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1398674276.0\n"
 
 #: app/scripts/views/complete_sign_up.js:174 app/scripts/models/auth_brokers/web.js:22
@@ -521,9 +522,7 @@ msgid "SMS not sent, please try again"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
@@ -588,7 +587,7 @@ msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
-msgstr "Escolliu què sincronitzar"
+msgstr "Trieu què voleu sincronitzar"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:3
 msgid "Open tabs"
@@ -1231,7 +1230,6 @@ msgstr ""
 #~ msgid "A verification link has been sent&nbsp;to %(email)s"
 #~ msgstr "S'ha enviat un enllaç de verificació&nbsp;a: %(email)s"
 
-#, fuzzy
 #~ msgid "Attempt limit exceeded"
 #~ msgstr "S'ha excedit el límit d'intents. Proveu-ho de nou més tard."
 
@@ -1241,7 +1239,6 @@ msgstr ""
 #~ msgid "Missing parameter in request body: %(param)s"
 #~ msgstr "Falta un paràmetre en el cos de la sol·licitud: %(param)s"
 
-#, fuzzy
 #~ msgid "Sign up"
 #~ msgstr "Finalitza la sessió"
 
@@ -1254,7 +1251,6 @@ msgstr ""
 #~ msgid "A reset link has been sent to %(email)s"
 #~ msgstr "S'ha enviat un enllaç per a reiniciar la contrasenya a %(email)s"
 
-#, fuzzy
 #~ msgid "Cookies required"
 #~ msgstr "El camp d'adreça electrònica és obligatori"
 
@@ -1312,7 +1308,6 @@ msgstr ""
 #~ msgid "Year of birth required"
 #~ msgstr "El camp de l'any de naixement és obligatori"
 
-#, fuzzy
 #~ msgid "Valid birthday required"
 #~ msgstr "El camp d'adreça electrònica és obligatori"
 
@@ -1331,7 +1326,6 @@ msgstr ""
 #~ msgid "Enter your email to reset&nbsp;the account password."
 #~ msgstr "Introduïu la vostra adreça electrònica per a reiniciar&nbsp;la contrasenya del compte."
 
-#, fuzzy
 #~ msgid "You are signed in as"
 #~ msgstr "Heu iniciat la sessió com: %(email)s"
 
@@ -1339,18 +1333,14 @@ msgstr ""
 #~ msgstr "Ja teniu un compte? Inicieu la sessió"
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "En continuar, accepto les <a id=\"fxa-tos\" href=\"/legal/terms\">condicions del servei</a> i l'<a id=\"fxa-pp\" href=\"/legal/privacy\">avís de privadesa</a> dels serveis en el núvol del "
-#~ "Firefox."
+#~ msgstr "En continuar, accepto les <a id=\"fxa-tos\" href=\"/legal/terms\">condicions del servei</a> i l'<a id=\"fxa-pp\" href=\"/legal/privacy\">avís de privadesa</a> dels serveis en el núvol del Firefox."
 
 #~ msgid "Password changed"
 #~ msgstr "Contrasenya canviada."
 
-#, fuzzy
 #~ msgid "Password reset. Sign in to continue."
 #~ msgstr "Inicieu la sessió per a continuar"
 
-#, fuzzy
 #~ msgid "Signed out"
 #~ msgstr "Finalitza la sessió"
 
@@ -1381,7 +1371,6 @@ msgstr ""
 #~ msgid "Signed in successfully"
 #~ msgstr "S'ha iniciat la sessió correctament"
 
-#, fuzzy
 #~ msgid "Create a Firefox Account for %(serviceName)s"
 #~ msgstr "Crea un compte del Firefox"
 
