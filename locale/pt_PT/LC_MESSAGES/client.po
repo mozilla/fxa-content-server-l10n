@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-12 19:57+0000\n"
-"PO-Revision-Date: 2017-05-13 15:49+0000\n"
+"PO-Revision-Date: 2017-05-24 21:18+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -618,7 +618,7 @@ msgstr "Guardar definições"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:17 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
-msgstr "Voltar"
+msgstr "Retroceder"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -775,7 +775,7 @@ msgstr "Saber mais"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr "Voltar a tentar"
+msgstr "Tentar novamente"
 
 #: app/scripts/templates/force_auth.mustache:1
 msgid "Sign in to continue"
@@ -1186,7 +1186,7 @@ msgstr "Apagar…"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
-msgstr "Tem certeza de que pretende apagar a sua conta? Esta ação é irreversível."
+msgstr "Tem a certeza de que pretende apagar a sua conta? Esta ação não pode ser desfeita."
 
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
