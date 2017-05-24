@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-12 19:57+0000\n"
-"PO-Revision-Date: 2017-01-11 20:25+0000\n"
-"Last-Translator: ItielMaN <itiel_yn8@walla.com>\n"
+"PO-Revision-Date: 2017-05-17 13:19+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
@@ -53,7 +53,7 @@ msgstr "Firefox Sync יחדש את פעולתו בעוד מספר רגעים"
 
 #: app/scripts/views/ready.js:40
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "ניתן להשלים את ההתקנה על ידי הקלדת הססמה החדשה בהתקני ה־Firefox הנוספים שלך."
 
 #: app/scripts/views/ready.js:45
 msgid "Sign-in confirmed"
@@ -73,7 +73,7 @@ msgstr "חשבון לא מוכר. <a href=\"/signup\">הרשמה</a>"
 
 #: app/scripts/views/sign_in.js:169
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr ""
+msgstr "חשבון Firefox בלתי ידוע. ניתן <a href=\"/signup\">להירשם</a> באמצעות כתובת הדוא״ל של החשבון מהתוספות הקודמות שלך כדי לגשת לנתוני התוספות שלך."
 
 #: app/scripts/views/sign_up.js:63
 msgid "Account no longer exists. Recreate it?"
@@ -85,7 +85,7 @@ msgstr "חשבון זה כבר קיים. <a href=\"/signin\">התחברות</a>"
 
 #: app/scripts/views/sms_sent.js:24
 msgid "App link resent to %(phoneNumber)s"
-msgstr ""
+msgstr "הקישור ליישומון נשלח מחדש אל %(phoneNumber)s"
 
 #: app/scripts/views/settings/change_password.js:52
 msgid "Password changed successfully"
@@ -109,7 +109,7 @@ msgstr ""
 
 #: app/scripts/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "פעילות אחרונה: %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/communication_preferences.js:104
 msgid "Subscribed successfully"
@@ -218,7 +218,7 @@ msgstr "קוד אימות שגוי"
 
 #: app/scripts/lib/auth-errors.js:71
 msgid "Invalid JSON in request body"
-msgstr ""
+msgstr "JSON שגוי בגוף ההודעה"
 
 #: app/scripts/lib/auth-errors.js:75
 msgid "Invalid parameter: %(param)s"
@@ -230,15 +230,15 @@ msgstr "פרמטר חסר: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:83
 msgid "Invalid request signature"
-msgstr ""
+msgstr "חתימת הבקשה שגויה"
 
 #: app/scripts/lib/auth-errors.js:87
 msgid "Missing content-length header"
-msgstr ""
+msgstr "הכותרת content-length חסרה"
 
 #: app/scripts/lib/auth-errors.js:91
 msgid "Request body too large"
-msgstr ""
+msgstr "גוף הבקשה גדול מדי"
 
 #: app/scripts/lib/auth-errors.js:109
 msgid "The request was blocked for security reasons"
@@ -250,27 +250,27 @@ msgstr "קוד הרשאה שגוי"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr ""
+msgstr "מספר טלפון שגוי"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "לא ניתן לשלוח למדינה זו"
 
 #: app/scripts/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "לא ניתן לשלוח הודעה למספר זה"
 
 #: app/scripts/lib/auth-errors.js:138
 msgid "Your email was just returned"
-msgstr ""
+msgstr "הודעת הדוא״ל שלך חזרה"
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "הודעת הדוא״ל שלך חזרה. הכתובת שגויה?"
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "לא ניתן למסור דוא״ל"
 
 #: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:330
 msgid "Server busy, try again soon"
@@ -286,7 +286,7 @@ msgstr "מערכת לא זמינה, נא לנסות שנית במועד מאוח
 
 #: app/scripts/lib/auth-errors.js:162
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "ניסיון ההתחברות בוטל"
 
 #: app/scripts/lib/auth-errors.js:166
 msgid "Session expired. Sign in to continue."
@@ -330,7 +330,7 @@ msgstr "נדרשת כתובת דואר אלקטרוני חוקית"
 
 #: app/scripts/lib/auth-errors.js:213
 msgid "A usable image was not found"
-msgstr ""
+msgstr "לא נמצאה תמונה שמישה"
 
 #: app/scripts/lib/auth-errors.js:217
 msgid "Could not initialize camera"
@@ -406,7 +406,7 @@ msgstr "קישור פגום"
 
 #: app/scripts/lib/auth-errors.js:377
 msgid "Phone number required"
-msgstr ""
+msgstr "נדרש מספר טלפון"
 
 #: app/scripts/lib/config-loader.js:87
 msgid "Missing configuration"
@@ -422,7 +422,7 @@ msgstr "האם התכוונת ל־<span tabindex=\"1\">%(escapedDomain)s</span>?
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
-msgstr ""
+msgstr "נא לנסות שנית מאוחר יותר"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -478,7 +478,7 @@ msgstr "אסימון לא חוקי"
 
 #: app/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
-msgstr ""
+msgstr "משתנה שגוי בגוף הבקשה: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:31
 msgid "Unsupported image provider"
@@ -490,32 +490,30 @@ msgstr "שגיאת עיבוד תמונה"
 
 #: app/scripts/lib/require-on-demand.js:39
 msgid "Resources failed to load"
-msgstr ""
+msgstr "כישלון בטעינת משאבים"
 
 #: app/scripts/lib/require-on-demand.js:43
 msgid "Unexpected resource error"
-msgstr ""
+msgstr "שגיאת משאב בלתי צפויה"
 
 #: app/scripts/lib/require-on-demand.js:47
 msgid "Script error"
-msgstr ""
+msgstr "שגיאת תסריט"
 
 #: app/scripts/lib/sms-errors.js:23
 msgid "SMS sent"
-msgstr ""
+msgstr "הודעת SMS נשלחה"
 
 #: app/scripts/lib/sms-errors.js:55
 msgid "Your number has been blocked"
-msgstr ""
+msgstr "המספר שלך נחסם"
 
 #: app/scripts/lib/sms-errors.js:79
 msgid "SMS not sent, please try again"
-msgstr ""
+msgstr "הודעת SMS לא נשלחה, נא לנסות שנית"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
@@ -660,7 +658,7 @@ msgstr "חזרה על הססמה"
 
 #: app/scripts/templates/complete_reset_password.mustache:15
 msgid "Submit new password"
-msgstr ""
+msgstr "שליחת ססמה חדשה"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Sign-in already confirmed"
@@ -737,7 +735,7 @@ msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:7
 msgid "Sign in &rarr;"
-msgstr ""
+msgstr "כניסה &larr;"
 
 #: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
 msgid "Sign in to Firefox on another device to complete set-up"
@@ -974,11 +972,11 @@ msgstr ""
 
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
-msgstr ""
+msgstr "מספר טלפון נייד"
 
 #: app/scripts/templates/sms_send.mustache:6
 msgid "Send"
-msgstr ""
+msgstr "שליחה"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
@@ -1019,7 +1017,7 @@ msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
-msgstr ""
+msgstr "הבנתי"
 
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2
@@ -1092,7 +1090,7 @@ msgstr "התקן כפול"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
-msgstr ""
+msgstr "אעדיף שלא לומר"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Disconnect"
@@ -1120,7 +1118,7 @@ msgstr "התנתקות…"
 
 #: app/scripts/templates/settings/clients.mustache:11
 msgid "current session"
-msgstr ""
+msgstr "הפעלה נוכחית"
 
 #: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
@@ -1206,13 +1204,13 @@ msgstr "שימוש בחשבון Firefox"
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:90
 msgctxt "submit button"
 msgid "Sign in"
-msgstr ""
+msgstr "כניסה"
 
 #. header text
 #: app/scripts/views/sign_in.js:93
 msgctxt "header text"
 msgid "Sign in"
-msgstr ""
+msgstr "כניסה"
 
 #~ msgid "This device is connected"
 #~ msgstr "התקן זה מחובר"
@@ -1272,11 +1270,9 @@ msgstr ""
 #~ msgstr "ברשותך חשבון עם כתובת דוא״ל שונה? <a href=\"%(signinUri)s\">נא ללחוץ כאן כדי להתחבר</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
-#~ msgstr ""
-#~ "Firefox זמין עבור <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> ו־<a href=\"%(linkLinux)s"
-#~ "\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ msgstr "Firefox זמין עבור <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> ו־<a href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Add"
 #~ msgstr "הוספה"
