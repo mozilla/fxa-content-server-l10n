@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-26 16:09+0000\n"
-"PO-Revision-Date: 2017-05-27 12:28+0000\n"
+"PO-Revision-Date: 2017-05-27 12:36+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -129,7 +129,7 @@ msgstr "A sua palavra-passe da Conta Firefox foi alterada. Se não a alterou, po
 #: lib/senders/templates/verification_reminder_second.txt:4 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4 lib/senders/templates/verify_sync.html:7
 #: lib/senders/templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
-msgstr "Este é um email automático; se recebeu o mesmo por engano, nenhuma ação é necessária."
+msgstr "Este é um email automático; se o recebeu por erro, nenhuma ação é requerida."
 
 #: lib/senders/templates/password_reset.txt:1
 msgid "Password reset successfully"
@@ -394,7 +394,7 @@ msgstr "A palavra-passe da sua Conta Firefox foi reposta"
 
 #: lib/senders/email.js:661
 msgid "Firefox Account password reset required"
-msgstr "Reposição de palavra-passe da Conta Firefox necessária"
+msgstr "Reposição de palavra-passe da Conta Firefox requerida"
 
 #: lib/senders/email.js:735
 msgid "Firefox Account verified"
