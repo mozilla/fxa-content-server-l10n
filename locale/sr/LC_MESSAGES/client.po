@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-26 16:09+0000\n"
-"PO-Revision-Date: 2017-05-27 18:33+0000\n"
+"PO-Revision-Date: 2017-05-27 19:13+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -290,11 +290,11 @@ msgstr "Не могу да доставим поруку"
 
 #: app/scripts/lib/auth-errors.js:151
 msgid "This email was already verified by another user"
-msgstr ""
+msgstr "Ову адресу је већ потврдио други корисник"
 
 #: app/scripts/lib/auth-errors.js:155
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "Секундарна адреса мора бити другачија од адресе вашег налога"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
