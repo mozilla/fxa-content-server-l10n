@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-26 16:09+0000\n"
-"PO-Revision-Date: 2017-05-27 09:08+0000\n"
+"PO-Revision-Date: 2017-05-27 09:14+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -294,7 +294,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:155
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "Drugi e-poštni naslov mora biti drugačen od naslova računa"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
