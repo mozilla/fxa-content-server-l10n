@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-26 16:09+0000\n"
-"PO-Revision-Date: 2017-05-28 15:48+0000\n"
+"PO-Revision-Date: 2017-05-28 15:53+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -113,11 +113,11 @@ msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:71
 msgid "started syncing %(translatedTimeAgo)s"
-msgstr ""
+msgstr "eşitleme başlangıcı: %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:76
 msgid "last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "son etkinlik: %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/communication_preferences.js:104
 msgid "Subscribed successfully"
@@ -137,11 +137,11 @@ msgstr "Görünen ad güncellendi"
 
 #: app/scripts/views/settings/emails.js:137
 msgid "A verification link has been sent to %(email)s"
-msgstr ""
+msgstr "%(email)s adresine doğrulama bağlantısı gönderildi"
 
 #: app/scripts/views/settings/emails.js:150
 msgid "Verification emailed to %(email)s"
-msgstr ""
+msgstr "%(email)s adresine doğrulama gönderildi"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -1155,7 +1155,7 @@ msgstr "Göster"
 
 #: app/scripts/templates/settings/clients.mustache:6
 msgid "current device"
-msgstr "geçerli cihaz"
+msgstr "kullandığınız cihaz"
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
