@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-26 16:09+0000\n"
-"PO-Revision-Date: 2017-05-27 15:51+0000\n"
+"PO-Revision-Date: 2017-05-28 15:48+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -290,15 +290,15 @@ msgstr "E-posta teslim edilemedi"
 
 #: app/scripts/lib/auth-errors.js:151
 msgid "This email was already verified by another user"
-msgstr ""
+msgstr "Bu e-posta başka bir kullanıcı tarafından daha önce doğrulanmış"
 
 #: app/scripts/lib/auth-errors.js:155
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "İkinci e-posta, hesap e-posta adresinizden farklı olmalıdır"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "Giriş yapmak için ana hesap e-posta adresinizi kullanmalısınız"
 
 #: app/scripts/lib/auth-errors.js:171
 msgid "Address in use by another account"
@@ -306,7 +306,7 @@ msgstr "Bu adres başka bir hesap tarafından kullanılıyor"
 
 #: app/scripts/lib/auth-errors.js:175
 msgid "Primary account email required for reset"
-msgstr ""
+msgstr "Sıfırlamak için ana hesap e-posta adresinizi kullanmalısınız"
 
 #: app/scripts/lib/auth-errors.js:180 app/scripts/lib/auth-errors.js:360
 msgid "Server busy, try again soon"
@@ -879,7 +879,7 @@ msgstr "İptal"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr ""
+msgstr "Hesap bildirimleri artık %(secondaryEmailVerified)s adresine de gönderilecek"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
@@ -1231,7 +1231,7 @@ msgstr "İkinci e-posta"
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-msgstr ""
+msgstr "İkinci e-posta, güvenlik bildirimlerini alabileceğiniz ve yeni Sync cihazlarını onaylayabileceğiniz ek bir adrestir."
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
