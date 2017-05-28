@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-26 16:09+0000\n"
-"PO-Revision-Date: 2017-05-28 03:50+0000\n"
+"PO-Revision-Date: 2017-05-28 03:55+0000\n"
 "Last-Translator: Norman Haikal <normanh876@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ms\n"
@@ -293,19 +293,19 @@ msgstr "Emel ini telah disahkan oleh pengguna lain"
 
 #: app/scripts/lib/auth-errors.js:155
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "Emel kedua tidak boleh sama dengan emel akaun anda"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "Emel utama akaun diperlukan untuk daftar masuk"
 
 #: app/scripts/lib/auth-errors.js:171
 msgid "Address in use by another account"
-msgstr ""
+msgstr "Alamat sedang digunakan oleh akaun lain"
 
 #: app/scripts/lib/auth-errors.js:175
 msgid "Primary account email required for reset"
-msgstr ""
+msgstr "Emel utama akaun diperlukan untuk set semula"
 
 #: app/scripts/lib/auth-errors.js:180 app/scripts/lib/auth-errors.js:360
 msgid "Server busy, try again soon"
@@ -876,7 +876,7 @@ msgstr "Batal"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr ""
+msgstr "Notifikasi akaun akan juga dihantar ke %(secondaryEmailVerified)s"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
@@ -1224,31 +1224,31 @@ msgstr "Pilih nama anda yang anda ingin paparkan di Firefox dan apabila mengurus
 
 #: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:14
 msgid "Secondary email"
-msgstr ""
+msgstr "Emel kedua"
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-msgstr ""
+msgstr "Emel kedua adalah alamat tambahan untuk menerima notis keselamatan dan mengesahkan peranti baru Sync."
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
-msgstr ""
+msgstr "disahkan"
 
 #: app/scripts/templates/settings/emails.mustache:9
 msgid "verification required"
-msgstr ""
+msgstr "pengesahan diperlukan"
 
 #: app/scripts/templates/settings/emails.mustache:10
 msgid "Remove"
-msgstr ""
+msgstr "Buang"
 
 #: app/scripts/templates/settings/emails.mustache:11
 msgid "Didn't arrive and not in spam folder? Resend?"
-msgstr ""
+msgstr "Tak sampai dan bukan di dalam folder spam? Hantar semula?"
 
 #: app/scripts/templates/settings/emails.mustache:19
 msgid "Add"
-msgstr ""
+msgstr "Tambah"
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
