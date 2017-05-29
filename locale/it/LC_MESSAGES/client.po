@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-26 16:09+0000\n"
-"PO-Revision-Date: 2017-05-28 15:12+0000\n"
-"Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
+"PO-Revision-Date: 2017-05-29 07:41+0000\n"
+"Last-Translator: Francesco Lodolo <francesco.lodolo@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -298,7 +298,7 @@ msgstr "Questo indirizzo email è già stato verificato da un altro utente"
 
 #: app/scripts/lib/auth-errors.js:155
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "L’email secondaria deve essere diversa dall’email principale associata all’account"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
@@ -1252,7 +1252,7 @@ msgstr "Rimuovi"
 
 #: app/scripts/templates/settings/emails.mustache:11
 msgid "Didn't arrive and not in spam folder? Resend?"
-msgstr ""
+msgstr "Non trovi l’email di verifica, neanche nella cartella spam? Desideri inviarla nuovamente?"
 
 #: app/scripts/templates/settings/emails.mustache:19
 msgid "Add"
