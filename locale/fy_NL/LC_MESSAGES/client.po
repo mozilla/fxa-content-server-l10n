@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-26 16:09+0000\n"
-"PO-Revision-Date: 2017-05-29 06:30+0000\n"
+"PO-Revision-Date: 2017-05-29 06:33+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -306,7 +306,7 @@ msgstr "Adres yn gebrûk troch oar account"
 
 #: app/scripts/lib/auth-errors.js:175
 msgid "Primary account email required for reset"
-msgstr ""
+msgstr "Primêr e-mailadres fan account fereaske foar werinisjalisaasje"
 
 #: app/scripts/lib/auth-errors.js:180 app/scripts/lib/auth-errors.js:360
 msgid "Server busy, try again soon"
@@ -879,7 +879,7 @@ msgstr "Annulearje"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr ""
+msgstr "Accountmeldingen wurde no ek nei %(secondaryEmailVerified)s ferstjoerd"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
@@ -1227,27 +1227,27 @@ msgstr "Kies de namme dy't jo yn Firefox en by it behearen fan jo account ferski
 
 #: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:14
 msgid "Secondary email"
-msgstr ""
+msgstr "Sekundêr e-mailadres"
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-msgstr ""
+msgstr "In sekundêr e-mailadres is in ekstra adres foar it ûntfangen fan befeiligingsmeldingen en it befêstigjen fan nije Sync-apparaten."
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
-msgstr ""
+msgstr "ferifiearre"
 
 #: app/scripts/templates/settings/emails.mustache:9
 msgid "verification required"
-msgstr ""
+msgstr "ferifikaasje fereaske"
 
 #: app/scripts/templates/settings/emails.mustache:10
 msgid "Remove"
-msgstr ""
+msgstr "Fuortsmite"
 
 #: app/scripts/templates/settings/emails.mustache:11
 msgid "Didn't arrive and not in spam folder? Resend?"
-msgstr ""
+msgstr "Net oankommen en net yn de map mei spam? Opnij ferstjoere?"
 
 #: app/scripts/templates/settings/emails.mustache:19
 msgid "Add"
