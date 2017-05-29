@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-26 16:09+0000\n"
-"PO-Revision-Date: 2017-05-16 09:09+0000\n"
+"PO-Revision-Date: 2017-05-29 06:30+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -113,11 +113,11 @@ msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:71
 msgid "started syncing %(translatedTimeAgo)s"
-msgstr ""
+msgstr "syngronisaasje start: %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:76
 msgid "last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "lêst aktyf: %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/communication_preferences.js:104
 msgid "Subscribed successfully"
@@ -137,11 +137,11 @@ msgstr "Werjeftenamme bywurke"
 
 #: app/scripts/views/settings/emails.js:137
 msgid "A verification link has been sent to %(email)s"
-msgstr ""
+msgstr "Der is in ferifikaasjekeppeling ferstjoerd nei %(email)s"
 
 #: app/scripts/views/settings/emails.js:150
 msgid "Verification emailed to %(email)s"
-msgstr ""
+msgstr "Ferifikaasje nei %(email)s ferstjoerd"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -290,19 +290,19 @@ msgstr "E-mail koe net ôflevere wurde"
 
 #: app/scripts/lib/auth-errors.js:151
 msgid "This email was already verified by another user"
-msgstr ""
+msgstr "Dit e-mailadres is al troch in oare brûker ferifiearre"
 
 #: app/scripts/lib/auth-errors.js:155
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "Sekundêr e-mailadres moat oars wêze as jo account-e-mailadres"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "Primêr e-mailadres fan account fereaske foar oanmelding"
 
 #: app/scripts/lib/auth-errors.js:171
 msgid "Address in use by another account"
-msgstr ""
+msgstr "Adres yn gebrûk troch oar account"
 
 #: app/scripts/lib/auth-errors.js:175
 msgid "Primary account email required for reset"
@@ -549,9 +549,7 @@ msgid "SMS not sent, please try again"
 msgstr "Sms net ferstjoerd, probearje opnij"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Troch fierder te gean gean jo akkoard me de <a id=\"service-tos\" href=\"%(termsUri)s\">Servicebetingsten</a> en <a id=\"service-pp\" href=\"%(privacyUri)s\">Privacyferklearring</a> fan de "
 "(%(serviceUri)s) fan %(serviceName)."
@@ -824,9 +822,7 @@ msgstr "Wachtwurd ferjitten?"
 
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr ""
-"Troch fierder te gean gean jo akkoard mei de <a id=\"fxa-tos\" href=\"/legal/terms\">Servicebetingsten</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyferklearring</a> fan Firefox-"
-"cloudtsjinten."
+msgstr "Troch fierder te gean gean jo akkoard mei de <a id=\"fxa-tos\" href=\"/legal/terms\">Servicebetingsten</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyferklearring</a> fan Firefox-cloudtsjinten."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -1379,19 +1375,18 @@ msgstr "Oanmelde"
 #~ msgid "Sync preferences"
 #~ msgstr "Sync-opsjes"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Sykje jo Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Begjin hjir</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Hawwe jo in account mei in oar e-mailadres? <a href=\"%(signinUri)s\">Oanmelde</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox is beskikber foar <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> en <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is beskikber foar <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> en <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Lêst aktyf: %(translatedTimeAgo)s"
@@ -1497,8 +1492,8 @@ msgstr "Oanmelde"
 
 #~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
 #~ msgstr ""
-#~ "Om feilichheidsredenen is jo account beskoattele. Foar it útfieren fan aktiviteiten op accountniveau ferifiearje jo jo account opnij troch op de ferifikaasjekeppeling te klikken dy't nei "
-#~ "%(email)s ferstjoerd is"
+#~ "Om feilichheidsredenen is jo account beskoattele. Foar it útfieren fan aktiviteiten op accountniveau ferifiearje jo jo account opnij troch op de ferifikaasjekeppeling te klikken dy't nei %(email)s "
+#~ "ferstjoerd is"
 
 #~ msgid "Signup has been disabled"
 #~ msgstr "Registraasje is útskeakele"
@@ -1565,8 +1560,8 @@ msgstr "Oanmelde"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr ""
-#~ "Opnij ynstellen fan jo wachtwurd sil jo navigaasjegegevens fan ús servers wiskje. Gegevens op jo apparaten bliuwe ûnoantaast. Begjin it werinisjalisaasjeproses troch hjirûnder jo e-mailadres yn "
-#~ "te fieren."
+#~ "Opnij ynstellen fan jo wachtwurd sil jo navigaasjegegevens fan ús servers wiskje. Gegevens op jo apparaten bliuwe ûnoantaast. Begjin it werinisjalisaasjeproses troch hjirûnder jo e-mailadres yn te "
+#~ "fieren."
 
 #~ msgid "a day"
 #~ msgstr "ien dei"
@@ -1623,8 +1618,8 @@ msgstr "Oanmelde"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Skeakel cookies yn jo browser yn; dizze binne fereaske troch Firefox Accounts. Cookies binne lytse stikjes gegevens dy't yn jo browser bewarre wurde en funksjonaliteiten biede, lykas it "
-#~ "ûnthâlden fan jo tusken sesjes."
+#~ "Skeakel cookies yn jo browser yn; dizze binne fereaske troch Firefox Accounts. Cookies binne lytse stikjes gegevens dy't yn jo browser bewarre wurde en funksjonaliteiten biede, lykas it ûnthâlden "
+#~ "fan jo tusken sesjes."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox komt nei iOS!"
@@ -1770,17 +1765,13 @@ msgstr "Oanmelde"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Hawwe jo al in account? Meld jo oan."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
-#~ "Troch fierder te gean, gean ik akkoard mei de <a id=\"service-tos\" href=\"%(termsUri)s\">Tsjinstbetingsten</a> en<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacybelied</a> fan de "
-#~ "%(serviceName) fan (%(serviceUri)s)."
+#~ "Troch fierder te gean, gean ik akkoard mei de <a id=\"service-tos\" href=\"%(termsUri)s\">Tsjinstbetingsten</a> en<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacybelied</a> fan de %(serviceName)"
+#~ " fan (%(serviceUri)s)."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "Troch fierder te gean gean ik akkoard mei de <a id=\"fxa-tos\" href=\"/legal/terms\">Servicebetingsten</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyferklearring</a> fan Firefox-"
-#~ "cloudservices."
+#~ msgstr "Troch fierder te gean gean ik akkoard mei de <a id=\"fxa-tos\" href=\"/legal/terms\">Servicebetingsten</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyferklearring</a> fan Firefox-cloudservices."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Meld jo oan foar Firefox-nijs en tips"
