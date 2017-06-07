@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-26 16:09+0000\n"
-"PO-Revision-Date: 2017-05-19 04:34+0000\n"
-"Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
+"PO-Revision-Date: 2016-03-18 09:25+0000\n"
+"Last-Translator: Khaleel Jageer <jskcse4@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: app/scripts/views/complete_sign_up.js:177 app/scripts/models/auth_brokers/web.js:22
 msgid "Account verified successfully"
-msgstr "கணக்கு வெற்றிகரமாகச் சரிபார்க்கப்பட்டது"
+msgstr "கணக்கு வெற்றிகரமாக சரிபார்க்கப்பட்டது"
 
 #: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:39
 msgid "Password reset"
@@ -549,9 +549,7 @@ msgid "SMS not sent, please try again"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
