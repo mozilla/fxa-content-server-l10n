@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-26 16:09+0000\n"
-"PO-Revision-Date: 2017-06-07 07:45+0000\n"
+"PO-Revision-Date: 2017-06-07 08:10+0000\n"
 "Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
@@ -1079,11 +1079,11 @@ msgstr "படக்கருவி"
 
 #: app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Clear"
-msgstr ""
+msgstr "துடை"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:17
 msgid "Done"
-msgstr ""
+msgstr "முடிந்தது"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
@@ -1091,19 +1091,19 @@ msgstr ""
 
 #: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:7
 msgid "Change"
-msgstr ""
+msgstr "மாற்று"
 
 #: app/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr ""
+msgstr "நீங்கள் கடவுச்சொல்லை மாற்றியதும், உங்கள் சாதனங்கள் அனைத்திலிருந்தும் புதிய கடவுச்சொல்லைப் பயன்படுத்தி உள்நுழையவும்."
 
 #: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
-msgstr ""
+msgstr "பழைய கடவுச்சொல்"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
-msgstr ""
+msgstr "ஒத்திசைவிலிருந்து துண்டிக்கவா?"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
@@ -1119,15 +1119,15 @@ msgstr ""
 
 #: app/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Old or replaced device"
-msgstr ""
+msgstr "பழைய (அ) மாற்று சாதனம்"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
-msgstr ""
+msgstr "போலியான சாதனம்"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
-msgstr ""
+msgstr "அதற்கு சொல்லாமலே இருக்கலாம்"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Disconnect"
@@ -1135,11 +1135,11 @@ msgstr "துண்டி"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
-msgstr ""
+msgstr "வெற்றிகரமாக துண்டிக்கப்பட்டது"
 
 #: app/scripts/templates/settings/clients.mustache:2
 msgid "Devices & apps"
-msgstr ""
+msgstr "சாதனங்களும் செயலிகளும்"
 
 #: app/scripts/templates/settings/clients.mustache:3 app/scripts/templates/partial/show-password.mustache:1
 msgid "Show"
