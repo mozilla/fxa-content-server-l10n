@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-26 16:09+0000\n"
-"PO-Revision-Date: 2017-06-07 06:12+0000\n"
+"PO-Revision-Date: 2017-06-07 07:45+0000\n"
 "Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
@@ -1131,7 +1131,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Disconnect"
-msgstr ""
+msgstr "துண்டி"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
@@ -1143,19 +1143,19 @@ msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:3 app/scripts/templates/partial/show-password.mustache:1
 msgid "Show"
-msgstr ""
+msgstr "காண்பி"
 
 #: app/scripts/templates/settings/clients.mustache:6
 msgid "current device"
-msgstr ""
+msgstr "தற்போதைய சாதனம்"
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
-msgstr ""
+msgstr "துண்டி…"
 
 #: app/scripts/templates/settings/clients.mustache:11
 msgid "current session"
-msgstr ""
+msgstr "தற்போதைய அமர்வு"
 
 #: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
