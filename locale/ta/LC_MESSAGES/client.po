@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-26 16:09+0000\n"
-"PO-Revision-Date: 2017-06-07 08:10+0000\n"
+"PO-Revision-Date: 2017-06-07 08:25+0000\n"
 "Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
@@ -105,27 +105,27 @@ msgstr ""
 
 #: app/scripts/views/settings/clients.js:64
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "வலை அமர்வு, %(userAgent)s"
 
 #: app/scripts/views/settings/clients.js:66
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:71
 msgid "started syncing %(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s ஒத்திசைக்க துவங்கியது"
 
 #: app/scripts/views/settings/clients.js:76
 msgid "last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "கடைசியாக கண்டது %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/communication_preferences.js:104
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "வெற்றிகரமாக சந்தாபடுத்தப்பட்டது"
 
 #: app/scripts/views/settings/communication_preferences.js:105
 msgid "Unsubscribed successfully"
-msgstr ""
+msgstr "வெற்றிகரமாக சந்தா நீக்கப்பட்டது"
 
 #: app/scripts/views/settings/delete_account.js:45
 msgid "Account deleted successfully"
@@ -137,11 +137,11 @@ msgstr "காட்சி பெயர் புதுப்பிக்கப�
 
 #: app/scripts/views/settings/emails.js:137
 msgid "A verification link has been sent to %(email)s"
-msgstr ""
+msgstr "%(email)s முகவரிக்கு சரிபார்க்கும் அஞ்சல் ஒன்று அனுப்பப்பட்டுள்ளது"
 
 #: app/scripts/views/settings/emails.js:150
 msgid "Verification emailed to %(email)s"
-msgstr ""
+msgstr "%(email)s முகவரிக்கு சரிபார்ப்பு மின்னஞ்சல் அனுப்பப்பட்டுள்ளது"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -374,7 +374,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:251
 msgid "Valid URL required"
-msgstr ""
+msgstr "செல்லுபடியாகும் உரலி தேவை"
 
 #: app/scripts/lib/auth-errors.js:266
 msgid "Your verification email was just returned. Mistyped email?"
@@ -1087,7 +1087,7 @@ msgstr "முடிந்தது"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
-msgstr ""
+msgstr "உங்கள் படத்தைத் தேவைகேற்ப நிறுத்தலாம் சுழற்றுலாம்"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:7
 msgid "Change"
@@ -1107,15 +1107,15 @@ msgstr "ஒத்திசைவிலிருந்து துண்டி�
 
 #: app/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr ""
+msgstr "உங்களின் உலாவல் தரவானது %(deviceName)s சாதனத்தில் தான் இருக்கும், ஆனால் உங்கள் கணக்குடன் ஒத்திசைக்கப்படாது."
 
 #: app/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Suspicious device"
-msgstr ""
+msgstr "சந்தேகத்திற்குரிய சாதனம்"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Lost or stolen device"
-msgstr ""
+msgstr "இழந்த அல்லது திருடப்பட்ட சாதனம்"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Old or replaced device"
@@ -1159,35 +1159,35 @@ msgstr "தற்போதைய அமர்வு"
 
 #: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "iOS தளத்திற்கான பயர்பாஃசு"
 
 #: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
 msgid "none connected"
-msgstr ""
+msgstr "எதுவும் இணயவில்லை"
 
 #: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
-msgstr ""
+msgstr "பதிவிறக்கம்"
 
 #: app/scripts/templates/settings/clients.mustache:22
 msgid "Firefox for Android"
-msgstr ""
+msgstr "ஆண்ட்ராய்டுக்கான பயர்பாஃசு"
 
 #: app/scripts/templates/settings/clients.mustache:26
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "காணாமல் போன (அ) போலியான உருப்படிகள்?"
 
 #: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:15
 msgid "Refresh"
-msgstr ""
+msgstr "புதுப்பி"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
-msgstr ""
+msgstr "தொடர்பு முன்னுரிமைகள்"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
-msgstr ""
+msgstr "மாதாந்திர பயர்பாஃசு செய்திமடலைப் பெறுக."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
