@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-26 16:09+0000\n"
-"PO-Revision-Date: 2017-06-07 08:25+0000\n"
+"PO-Revision-Date: 2017-06-08 07:05+0000\n"
 "Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
@@ -89,7 +89,7 @@ msgstr "கணக்கு ஏற்கனவே உள்ளது. <a href=\"/
 
 #: app/scripts/views/sms_sent.js:24
 msgid "App link resent to %(phoneNumber)s"
-msgstr ""
+msgstr "%(phoneNumber)s எண்ணிற்கு செயலித் தொடுப்பு மீண்டும் அனுப்பியுள்ளோம்"
 
 #: app/scripts/views/settings/change_password.js:52
 msgid "Password changed successfully"
