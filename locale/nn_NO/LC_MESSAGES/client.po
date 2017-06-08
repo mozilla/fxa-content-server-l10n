@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-26 16:09+0000\n"
-"PO-Revision-Date: 2017-05-18 09:14+0000\n"
+"PO-Revision-Date: 2017-06-08 00:50+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -112,11 +112,11 @@ msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:71
 msgid "started syncing %(translatedTimeAgo)s"
-msgstr ""
+msgstr "starta synkronisering %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:76
 msgid "last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "sist aktiv %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/communication_preferences.js:104
 msgid "Subscribed successfully"
@@ -136,11 +136,11 @@ msgstr "Visingsnamn oppdatert"
 
 #: app/scripts/views/settings/emails.js:137
 msgid "A verification link has been sent to %(email)s"
-msgstr ""
+msgstr "Ei stadfestingslenke er sendt til %(email)s"
 
 #: app/scripts/views/settings/emails.js:150
 msgid "Verification emailed to %(email)s"
-msgstr ""
+msgstr "Stadfesting sendt til %(email)s"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -289,7 +289,7 @@ msgstr "Klarte ikkje å levere e-posten"
 
 #: app/scripts/lib/auth-errors.js:151
 msgid "This email was already verified by another user"
-msgstr ""
+msgstr "Denne e-postadressa er allereie stadfesta av ein annan bruker"
 
 #: app/scripts/lib/auth-errors.js:155
 msgid "Secondary email must be different than your account email"
@@ -297,15 +297,15 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "Primær e-postadresse for konto vert kravd for innlogging"
 
 #: app/scripts/lib/auth-errors.js:171
 msgid "Address in use by another account"
-msgstr ""
+msgstr "Adressa er i bruk av ein annan konto"
 
 #: app/scripts/lib/auth-errors.js:175
 msgid "Primary account email required for reset"
-msgstr ""
+msgstr "Primær e-postadresse for kontoen er påkravd for tilbakestilling"
 
 #: app/scripts/lib/auth-errors.js:180 app/scripts/lib/auth-errors.js:360
 msgid "Server busy, try again soon"
@@ -548,12 +548,8 @@ msgid "SMS not sent, please try again"
 msgstr "SMS ikkje sendt, prøv igjen"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Ved å fortsetta godkjenner du <a id=\"service-tos\" href=\"%(termsUri)s\">tenestevilkåra</a> og<a id=\"service-pp\" href=\"%(privacyUri)s\">personvernmerknaden</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Ved å fortsetta godkjenner du <a id=\"service-tos\" href=\"%(termsUri)s\">tenestevilkåra</a> og<a id=\"service-pp\" href=\"%(privacyUri)s\">personvernmerknaden</a> of %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -823,8 +819,7 @@ msgstr "Gløymt passordet?"
 
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr ""
-"Ved å fortsetje seier du deg samd i <a id=\"fxa-tos\" href=\"/legal/terms\">tenestevilkåra</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\">personvernmerknaden</a> for Firefox sine skytenester."
+msgstr "Ved å fortsetje seier du deg samd i <a id=\"fxa-tos\" href=\"/legal/terms\">tenestevilkåra</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\">personvernmerknaden</a> for Firefox sine skytenester."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -1051,8 +1046,8 @@ msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
 "Firefox for desktop will appear."
 msgstr ""
-"Sync lèt deg dela bokmerke, historikk og passord som du lagrar i Firefox på ei eining, med Firefox på andre einingar. Logg inn på Firefox på telefonen din eller nettbrettet ditt og allt du har "
-"lagra i Firefox på datamaskina di vert vist."
+"Sync lèt deg dela bokmerke, historikk og passord som du lagrar i Firefox på ei eining, med Firefox på andre einingar. Logg inn på Firefox på telefonen din eller nettbrettet ditt og allt du har lagra"
+" i Firefox på datamaskina di vert vist."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
@@ -1229,7 +1224,7 @@ msgstr "Vel namnet du vil skal visast i Firefox og når du handterar kontoen din
 
 #: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:14
 msgid "Secondary email"
-msgstr ""
+msgstr "Sekundær e-postadresse"
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
@@ -1237,15 +1232,15 @@ msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
-msgstr ""
+msgstr "stadfesta"
 
 #: app/scripts/templates/settings/emails.mustache:9
 msgid "verification required"
-msgstr ""
+msgstr "stadfesting påkravd"
 
 #: app/scripts/templates/settings/emails.mustache:10
 msgid "Remove"
-msgstr ""
+msgstr "Fjern"
 
 #: app/scripts/templates/settings/emails.mustache:11
 msgid "Didn't arrive and not in spam folder? Resend?"
@@ -1296,8 +1291,8 @@ msgstr "Logg inn"
 #~ msgid ""
 #~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr ""
-#~ "SMS-tenesta er berre tilgjengeleg for amerikanske telefonnummer. Du må kanskje betale for SMS og data. Mottakarane av e-posten eller SMS-en må ha gitt samtykke. <a "
-#~ "%(escapedLearnMoreAttributes)s>Les meir</a>"
+#~ "SMS-tenesta er berre tilgjengeleg for amerikanske telefonnummer. Du må kanskje betale for SMS og data. Mottakarane av e-posten eller SMS-en må ha gitt samtykke. <a %(escapedLearnMoreAttributes)s>Les"
+#~ " meir</a>"
 
 #~ msgid "Maybe later"
 #~ msgstr "Kanskje seinare"
@@ -1377,20 +1372,18 @@ msgstr "Logg inn"
 #~ msgid "Sync preferences"
 #~ msgstr "Sync-innstillingar"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr ""
-#~ "Ser du etter Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Kom i gang her</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr "Ser du etter Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Kom i gang her</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Har du ein konto med ein annan e-post? <a href=\"%(signinUri)s\">Logg inn</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox er tilgjengeleg for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> og <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox er tilgjengeleg for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> og <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Sist aktiv: %(translatedTimeAgo)s"
