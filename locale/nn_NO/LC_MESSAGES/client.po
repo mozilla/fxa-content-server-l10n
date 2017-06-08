@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-26 16:09+0000\n"
-"PO-Revision-Date: 2017-06-08 00:50+0000\n"
+"PO-Revision-Date: 2017-06-08 00:56+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -293,7 +293,7 @@ msgstr "Denne e-postadressa er allereie stadfesta av ein annan bruker"
 
 #: app/scripts/lib/auth-errors.js:155
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "Sekundær e-post må vere forskjellig frå e-postadressa til kontoen din"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
@@ -876,7 +876,7 @@ msgstr "Avbryt"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr ""
+msgstr "Kontovarsel vil no også bli sendt til %(secondaryEmailVerified)s"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
@@ -1228,7 +1228,7 @@ msgstr "Sekundær e-postadresse"
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-msgstr ""
+msgstr "Ei sekundær e-postadresse er ei tilleggsadresse for mottak av tryggingsvarsel og stadfesting av nye synkroniseringseiningar."
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
@@ -1244,7 +1244,7 @@ msgstr "Fjern"
 
 #: app/scripts/templates/settings/emails.mustache:11
 msgid "Didn't arrive and not in spam folder? Resend?"
-msgstr ""
+msgstr "Kom ikkje fram og ikkje i mappa for uønskt e-post (spam)? Sende på nytt?"
 
 #: app/scripts/templates/settings/emails.mustache:19
 msgid "Add"
