@@ -20,6 +20,8 @@ test:
     - rm  ~/.ssh/config
     - git config --global user.email "bugmirror@restmail.net"
     - git config --global user.name "Bug Mirror"
+    # pull latest changes
+    - git fetch --depth=20000
     - git remote rm origin
     - git remote add origin git@github.com:bug-mirror/fxa-content-server-l10n.git
     - >
