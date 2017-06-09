@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-26 16:09+0000\n"
+"POT-Creation-Date: 2017-06-09 20:00+0000\n"
 "PO-Revision-Date: 2017-06-08 08:49+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 msgid "Account verified successfully"
 msgstr "Konto verifisert"
 
-#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:39
+#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:40
 msgid "Password reset"
 msgstr "Passordtilbakestilling"
 
@@ -43,39 +43,39 @@ msgstr "Visningsnavn"
 msgid "Account picture"
 msgstr "Kontobilde"
 
-#: app/scripts/views/ready.js:34
+#: app/scripts/views/ready.js:35
 msgid "Welcome back"
 msgstr "Velkommen tilbake"
 
-#: app/scripts/views/ready.js:35
+#: app/scripts/views/ready.js:36
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync vil gjenoppta om et øyeblikk"
 
-#: app/scripts/views/ready.js:40
+#: app/scripts/views/ready.js:41
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Fullfør oppsettet ved å skrive inn det nye passordet på de andre Firefox-enhetene dine."
 
-#: app/scripts/views/ready.js:44 app/scripts/templates/connect_another_device.mustache:4
+#: app/scripts/views/ready.js:45 app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
 msgstr "E-post bekreftet"
 
-#: app/scripts/views/ready.js:49
+#: app/scripts/views/ready.js:50
 msgid "Sign-in confirmed"
 msgstr "Innlogging bekreftet"
 
-#: app/scripts/views/ready.js:50 app/scripts/views/ready.js:55 app/scripts/templates/ready.mustache:3
+#: app/scripts/views/ready.js:51 app/scripts/views/ready.js:56 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Du er nå klar til å bruke %(serviceName)s"
 
-#: app/scripts/views/ready.js:54
+#: app/scripts/views/ready.js:55
 msgid "Account verified"
 msgstr "Konto verifisert"
 
-#: app/scripts/views/reset_password.js:65 app/scripts/views/sign_in.js:172
+#: app/scripts/views/reset_password.js:65 app/scripts/views/sign_in.js:171
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Ukjent konto. <a href=\"/signup\">Registrer deg</a>"
 
-#: app/scripts/views/sign_in.js:169
+#: app/scripts/views/sign_in.js:168
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Ukjent Firefox-konto. <a href=\"/signup\">Registrer deg</a> med e-postadressen som du tidligere har brukt for å få tilgang til dine data på nettstedet Utvidelser."
 
@@ -83,11 +83,11 @@ msgstr "Ukjent Firefox-konto. <a href=\"/signup\">Registrer deg</a> med e-postad
 msgid "Account no longer exists. Recreate it?"
 msgstr "Kontoen finnes ikke lenger. Vil du gjenskape den?"
 
-#: app/scripts/views/sign_up.js:379
+#: app/scripts/views/sign_up.js:382
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Kontoen finnes allerede. <a href=\"/signin\">Logg inn</a>"
 
-#: app/scripts/views/sms_sent.js:24
+#: app/scripts/views/sms_sent.js:26
 msgid "App link resent to %(phoneNumber)s"
 msgstr "App-lenke sendt på nytt til %(phoneNumber)s"
 
@@ -175,7 +175,7 @@ msgstr "Åpne Restmail"
 msgid "Email resent"
 msgstr "E-post sendt på nytt"
 
-#: app/scripts/models/reliers/sync.js:51
+#: app/scripts/models/reliers/sync.js:60
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
@@ -261,7 +261,7 @@ msgstr "Forespørselsinnhold er for stort"
 msgid "The request was blocked for security reasons"
 msgstr "Forespørselen ble blokkert av sikkerhetsmessige årsaker"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:380
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:384
 msgid "Invalid authorization code"
 msgstr "Ugyldig godkjenningskode"
 
@@ -309,139 +309,143 @@ msgstr "Adressen er i bruk av en annen konto"
 msgid "Primary account email required for reset"
 msgstr "Primær e-postadresse for konto kreves for tilbakestilling"
 
-#: app/scripts/lib/auth-errors.js:180 app/scripts/lib/auth-errors.js:360
+#: app/scripts/lib/auth-errors.js:179
+msgid "Invalid signin code"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
 msgid "Server busy, try again soon"
 msgstr "Serveren er opptatt, prøv igjen senere"
 
-#: app/scripts/lib/auth-errors.js:184
+#: app/scripts/lib/auth-errors.js:188
 msgid "This endpoint is no longer supported"
 msgstr "Dette endepunktet er ikke lenger støttet"
 
-#: app/scripts/lib/auth-errors.js:188 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/auth-errors.js:192 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Systemet er utilgjengelig, prøv igjen senere"
 
-#: app/scripts/lib/auth-errors.js:192
+#: app/scripts/lib/auth-errors.js:196
 msgid "Login attempt cancelled"
 msgstr "Innloggingsforsøk avbrutt"
 
-#: app/scripts/lib/auth-errors.js:196
+#: app/scripts/lib/auth-errors.js:200
 msgid "Session expired. Sign in to continue."
 msgstr "Sesjon utløpt. Logg inn for å fortsette."
 
-#: app/scripts/lib/auth-errors.js:200
+#: app/scripts/lib/auth-errors.js:204
 msgid "Cookies are still disabled"
 msgstr "Cookies er fortsatt deaktivert"
 
-#: app/scripts/lib/auth-errors.js:204
+#: app/scripts/lib/auth-errors.js:208
 msgid "Passwords do not match"
 msgstr "Passordene er ikke like"
 
-#: app/scripts/lib/auth-errors.js:208
+#: app/scripts/lib/auth-errors.js:212
 msgid "Working…"
 msgstr "Arbeider …"
 
-#: app/scripts/lib/auth-errors.js:212
+#: app/scripts/lib/auth-errors.js:216
 msgid "Could not get Privacy Notice"
 msgstr "Kunne ikke hente personvernserklæring"
 
-#: app/scripts/lib/auth-errors.js:216
+#: app/scripts/lib/auth-errors.js:220
 msgid "Could not get Terms of Service"
 msgstr "Kunne ikke hente vilkår for bruk"
 
-#: app/scripts/lib/auth-errors.js:220
+#: app/scripts/lib/auth-errors.js:224
 msgid "Your new password must be different"
 msgstr "Ditt nye passord må være forskjellig"
 
-#: app/scripts/lib/auth-errors.js:224 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
+#: app/scripts/lib/auth-errors.js:228 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "Må være på minst 8 tegn"
 
-#: app/scripts/lib/auth-errors.js:228
+#: app/scripts/lib/auth-errors.js:232
 msgid "Valid password required"
 msgstr "Gyldig passord er nødvendig"
 
-#: app/scripts/lib/auth-errors.js:232 app/scripts/lib/auth-errors.js:270 app/scripts/lib/auth-errors.js:286
+#: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:274 app/scripts/lib/auth-errors.js:290
 msgid "Valid email required"
 msgstr "Gyldig e-post er nødvendig"
 
-#: app/scripts/lib/auth-errors.js:243
+#: app/scripts/lib/auth-errors.js:247
 msgid "A usable image was not found"
 msgstr "Et brukbart bilde ble ikke funnet"
 
-#: app/scripts/lib/auth-errors.js:247
+#: app/scripts/lib/auth-errors.js:251
 msgid "Could not initialize camera"
 msgstr "Kunne ikke starte kameraet"
 
-#: app/scripts/lib/auth-errors.js:251
+#: app/scripts/lib/auth-errors.js:255
 msgid "Valid URL required"
 msgstr "Gyldig URL er nødvendig"
 
-#: app/scripts/lib/auth-errors.js:266
+#: app/scripts/lib/auth-errors.js:270
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Bekreftelsesmeldingen kom i retur. Feil i e-postadressen?"
 
-#: app/scripts/lib/auth-errors.js:274
+#: app/scripts/lib/auth-errors.js:278
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Skriv inn en gyldig e-postadresse. firefox.com tilbyr ikke e-post."
 
-#: app/scripts/lib/auth-errors.js:282
+#: app/scripts/lib/auth-errors.js:286
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox-kontoer kan bare plasseres i en IFRAME på godkjente nettsteder"
 
-#: app/scripts/lib/auth-errors.js:301 app/scripts/templates/complete_sign_up.mustache:9
+#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
 msgstr "Bekreftelseslenken er skadet"
 
-#: app/scripts/lib/auth-errors.js:309
+#: app/scripts/lib/auth-errors.js:313
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Bildets dimensjoner må være på minst 100 x 100 px"
 
-#: app/scripts/lib/auth-errors.js:313
+#: app/scripts/lib/auth-errors.js:317
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Registrering kommer snart til Firefox for iOS"
 
-#: app/scripts/lib/auth-errors.js:324
+#: app/scripts/lib/auth-errors.js:328
 msgid "You must enter your age to sign up"
 msgstr "Du må oppgi alder for å registrere deg"
 
-#: app/scripts/lib/auth-errors.js:339
+#: app/scripts/lib/auth-errors.js:343
 msgid "Account no longer exists."
 msgstr "Kontoen finnes ikke lenger."
 
-#: app/scripts/lib/auth-errors.js:343
+#: app/scripts/lib/auth-errors.js:347
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Ugyldig egenskap i resume-token: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:347
+#: app/scripts/lib/auth-errors.js:351
 msgid "Missing property in resume token: %(property)s"
 msgstr "Mangler egenskap i resume-token: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:351
+#: app/scripts/lib/auth-errors.js:355
 msgid "Invalid data attribute: %(property)s"
 msgstr "Ugyldig data-attributt: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:355
+#: app/scripts/lib/auth-errors.js:359
 msgid "Missing data attribute: %(property)s"
 msgstr "Manglende data-attributt: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:368 app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/lib/auth-errors.js:372 app/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Denne bekreftelseslenken er allerede brukt, og kan kun brukes én gang."
 
-#: app/scripts/lib/auth-errors.js:372
+#: app/scripts/lib/auth-errors.js:376
 msgid "This is a required field"
 msgstr "Dette feltet er påkrevd"
 
-#: app/scripts/lib/auth-errors.js:376
+#: app/scripts/lib/auth-errors.js:380
 msgid "Authorization code required"
 msgstr "Godkjenningskode påkrevd"
 
-#: app/scripts/lib/auth-errors.js:384 app/scripts/templates/report_sign_in.mustache:1
+#: app/scripts/lib/auth-errors.js:388 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Ødelagt lenke"
 
-#: app/scripts/lib/auth-errors.js:407
+#: app/scripts/lib/auth-errors.js:411
 msgid "Phone number required"
 msgstr "Telefonnummer påkrevd"
 
@@ -551,7 +555,9 @@ msgid "SMS not sent, please try again"
 msgstr "SMS ikke sendt, prøv igjen"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Ved å fortsette, aksepterer du <a id=\"service-tos\" href=\"%(termsUri)s\">tjenestevilkårene</a> og <a id=\"service-pp\" href=\"%(privacyUri)s\">personvernsbestemmelser</a> for %(serviceName)s "
 "(%(serviceUri)s)."
@@ -980,8 +986,8 @@ msgid "Create a Firefox Account"
 msgstr "Opprett en Firefox-konto"
 
 #: app/scripts/templates/sign_up.mustache:6
-msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-msgstr "Ser du etter Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Kom i gang her</a>"
+msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
+msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -1024,6 +1030,10 @@ msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
 "SMS-tjenesten er bare tilgjengelig i enkelte land. SMS- og datakostnader kan forekomme. Den tiltenkte mottakeren av e-post eller SMS må ha samtykket. <a %(escapedLearnMoreAttributes)s>Les mer</a>"
+
+#: app/scripts/templates/sms_send.mustache:9
+msgid "Maybe later"
+msgstr "Kanskje senere"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1275,16 +1285,19 @@ msgid "Use Firefox Account"
 msgstr "Bruk Firefox-konto"
 
 #. submit button
-#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:95
+#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:94
 msgctxt "submit button"
 msgid "Sign in"
 msgstr "Logg inn"
 
 #. header text
-#: app/scripts/views/sign_in.js:98
+#: app/scripts/views/sign_in.js:97
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Logg inn"
+
+#~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
+#~ msgstr "Ser du etter Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Kom i gang her</a>"
 
 #~ msgid "Last active %(translatedTimeAgo)s"
 #~ msgstr "Sist aktiv %(translatedTimeAgo)s"
@@ -1297,9 +1310,6 @@ msgstr "Logg inn"
 #~ msgstr ""
 #~ "SMS-tjeneste kun tilgjengelig for amerikanske telefonnumre. Du må kanskje betale for SMS og data. Mottakeren av e-posten eller SMS-en må ha gitt samtykke. <a %(escapedLearnMoreAttributes)s>Les "
 #~ "mer</a>"
-
-#~ msgid "Maybe later"
-#~ msgstr "Kanskje senere"
 
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "Levert av <a href=\"https://www.gravatar.com\">Gravatar</a>"
@@ -1374,8 +1384,8 @@ msgstr "Logg inn"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "For å bruke Firefox-konti må du aktiver informasjonskapsler i nettleseren din. Informasjonskapsler er små biter av data som er lagret i nettleseren din, som gir funksjonalitet som å huske deg mellom"
-#~ " øktene."
+#~ "For å bruke Firefox-konti må du aktiver informasjonskapsler i nettleseren din. Informasjonskapsler er små biter av data som er lagret i nettleseren din, som gir funksjonalitet som å huske deg "
+#~ "mellom øktene."
 
 #~ msgid "1991"
 #~ msgstr "1991"

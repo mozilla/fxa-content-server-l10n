@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-26 16:09+0000\n"
-"PO-Revision-Date: 2017-05-15 13:55+0000\n"
+"POT-Creation-Date: 2017-06-09 20:00+0000\n"
+"PO-Revision-Date: 2017-05-30 13:48+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
@@ -22,7 +22,7 @@ msgid "Account verified successfully"
 msgstr "Nalog je uspešno potvrđen"
 
 #: app/scripts/views/confirm_reset_password.js:160
-#: app/scripts/views/ready.js:39
+#: app/scripts/views/ready.js:40
 msgid "Password reset"
 msgstr "Resetovanje lozinke"
 
@@ -49,44 +49,44 @@ msgstr "Prikaži ime"
 msgid "Account picture"
 msgstr "Slika naloga"
 
-#: app/scripts/views/ready.js:34
+#: app/scripts/views/ready.js:35
 msgid "Welcome back"
 msgstr "Dobrodošli nazad"
 
-#: app/scripts/views/ready.js:35
+#: app/scripts/views/ready.js:36
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync će odmah nastaviti"
 
-#: app/scripts/views/ready.js:40
+#: app/scripts/views/ready.js:41
 msgid ""
 "Complete set-up by entering the new password on your other Firefox devices."
 msgstr ""
 "Završite podešavanje tako što ćete uneti novu lozinku na vašim ostalim "
 "Firefox uređajima."
 
-#: app/scripts/views/ready.js:44
+#: app/scripts/views/ready.js:45
 #: app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
 msgstr "Adresa e-pošte je potvrđena"
 
-#: app/scripts/views/ready.js:49
+#: app/scripts/views/ready.js:50
 msgid "Sign-in confirmed"
 msgstr "Prijava potvrđena"
 
-#: app/scripts/views/ready.js:50 app/scripts/views/ready.js:55
+#: app/scripts/views/ready.js:51 app/scripts/views/ready.js:56
 #: app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Sada ste spremni da koristite %(serviceName)s"
 
-#: app/scripts/views/ready.js:54
+#: app/scripts/views/ready.js:55
 msgid "Account verified"
 msgstr "Nalog je potvrđen"
 
-#: app/scripts/views/reset_password.js:65 app/scripts/views/sign_in.js:172
+#: app/scripts/views/reset_password.js:65 app/scripts/views/sign_in.js:171
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Nepoznat nalog. <a href=\"/signup\">Prijavi se</a>"
 
-#: app/scripts/views/sign_in.js:169
+#: app/scripts/views/sign_in.js:168
 msgid ""
 "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous "
 "Add-ons account email address to access your Add-ons data."
@@ -99,11 +99,11 @@ msgstr ""
 msgid "Account no longer exists. Recreate it?"
 msgstr "Nalog više ne postoji. Ponovo ga napraviti?"
 
-#: app/scripts/views/sign_up.js:379
+#: app/scripts/views/sign_up.js:382
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Nalog već postoji. <a href=\"/signin\">Prijavi se</a>"
 
-#: app/scripts/views/sms_sent.js:24
+#: app/scripts/views/sms_sent.js:26
 msgid "App link resent to %(phoneNumber)s"
 msgstr "Veza do aplikacije ponovo poslata na %(phoneNumber)s"
 
@@ -141,11 +141,11 @@ msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:71
 msgid "started syncing %(translatedTimeAgo)s"
-msgstr ""
+msgstr "sinronizacija započeta %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:76
 msgid "last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "poslednji put aktivan %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/communication_preferences.js:104
 msgid "Subscribed successfully"
@@ -165,11 +165,11 @@ msgstr "Prikaži ažurirano ime"
 
 #: app/scripts/views/settings/emails.js:137
 msgid "A verification link has been sent to %(email)s"
-msgstr ""
+msgstr "Veza potvrde je poslata na %(email)s"
 
 #: app/scripts/views/settings/emails.js:150
 msgid "Verification emailed to %(email)s"
-msgstr ""
+msgstr "Potvrda je poslata na %(email)s"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43
 #: app/scripts/lib/auth-errors.js:113
@@ -204,7 +204,7 @@ msgstr "Otvori Restmail"
 msgid "Email resent"
 msgstr "E-pošta je ponovo poslata"
 
-#: app/scripts/models/reliers/sync.js:51
+#: app/scripts/models/reliers/sync.js:60
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
@@ -295,7 +295,7 @@ msgstr "Telo zahteva je preveliko"
 msgid "The request was blocked for security reasons"
 msgstr "Zahtev je blokiran iz sigurnosnih razloga"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:380
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:384
 msgid "Invalid authorization code"
 msgstr "Nevažeći autorizacioni kod"
 
@@ -325,167 +325,171 @@ msgstr "Ne mogu da dostavim poruku"
 
 #: app/scripts/lib/auth-errors.js:151
 msgid "This email was already verified by another user"
-msgstr ""
+msgstr "Ovu adresu je već potvrdio drugi korisnik"
 
 #: app/scripts/lib/auth-errors.js:155
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "Sekundarna adresa mora biti drugačija od adrese vašeg naloga"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "Primarna adresa naloga je potrebna za pristup"
 
 #: app/scripts/lib/auth-errors.js:171
 msgid "Address in use by another account"
-msgstr ""
+msgstr "Adresa je već iskorišćena"
 
 #: app/scripts/lib/auth-errors.js:175
 msgid "Primary account email required for reset"
+msgstr "Primarna adresa naloga je potrebna za resetovanje"
+
+#: app/scripts/lib/auth-errors.js:179
+msgid "Invalid signin code"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:180 app/scripts/lib/auth-errors.js:360
+#: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
 msgid "Server busy, try again soon"
 msgstr "Server je zauzet, pokušajte ponovo uskoro"
 
-#: app/scripts/lib/auth-errors.js:184
+#: app/scripts/lib/auth-errors.js:188
 msgid "This endpoint is no longer supported"
 msgstr "Krajnja tačka više nije podržana"
 
-#: app/scripts/lib/auth-errors.js:188
+#: app/scripts/lib/auth-errors.js:192
 #: app/scripts/lib/marketing-email-errors.js:25
 #: app/scripts/lib/marketing-email-errors.js:79
 #: app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Sistem nedostupan, pokušajte ponovo za par minuta"
 
-#: app/scripts/lib/auth-errors.js:192
+#: app/scripts/lib/auth-errors.js:196
 msgid "Login attempt cancelled"
 msgstr "Pokušaj prijave otkazan"
 
-#: app/scripts/lib/auth-errors.js:196
+#: app/scripts/lib/auth-errors.js:200
 msgid "Session expired. Sign in to continue."
 msgstr "Sesija je istekla. Prijavite se da biste nastavili."
 
-#: app/scripts/lib/auth-errors.js:200
+#: app/scripts/lib/auth-errors.js:204
 msgid "Cookies are still disabled"
 msgstr "Kolačići su još uvek onemogućeni"
 
-#: app/scripts/lib/auth-errors.js:204
+#: app/scripts/lib/auth-errors.js:208
 msgid "Passwords do not match"
 msgstr "Lozinke se ne poklapaju"
 
-#: app/scripts/lib/auth-errors.js:208
+#: app/scripts/lib/auth-errors.js:212
 msgid "Working…"
 msgstr "Radim..."
 
-#: app/scripts/lib/auth-errors.js:212
+#: app/scripts/lib/auth-errors.js:216
 msgid "Could not get Privacy Notice"
 msgstr "Nismo mogli dobaviti Obaveštenje o privatnosti"
 
-#: app/scripts/lib/auth-errors.js:216
+#: app/scripts/lib/auth-errors.js:220
 msgid "Could not get Terms of Service"
 msgstr "Nismo mogli dobaviti Uslove usluga"
 
-#: app/scripts/lib/auth-errors.js:220
+#: app/scripts/lib/auth-errors.js:224
 msgid "Your new password must be different"
 msgstr "Nova lozinka mora biti drugačija"
 
-#: app/scripts/lib/auth-errors.js:224
+#: app/scripts/lib/auth-errors.js:228
 #: app/scripts/templates/complete_reset_password.mustache:13
 #: app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "Mora biti najmanje 8 karaktera"
 
-#: app/scripts/lib/auth-errors.js:228
+#: app/scripts/lib/auth-errors.js:232
 msgid "Valid password required"
 msgstr "Potrebna je ispravna lozinka"
 
-#: app/scripts/lib/auth-errors.js:232 app/scripts/lib/auth-errors.js:270
-#: app/scripts/lib/auth-errors.js:286
+#: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:274
+#: app/scripts/lib/auth-errors.js:290
 msgid "Valid email required"
 msgstr "Potrebna je ispravna e-pošta"
 
-#: app/scripts/lib/auth-errors.js:243
+#: app/scripts/lib/auth-errors.js:247
 msgid "A usable image was not found"
 msgstr "Upotrebljiva slika nije pronađena"
 
-#: app/scripts/lib/auth-errors.js:247
+#: app/scripts/lib/auth-errors.js:251
 msgid "Could not initialize camera"
 msgstr "Nije moguće pokrenuti kameru"
 
-#: app/scripts/lib/auth-errors.js:251
+#: app/scripts/lib/auth-errors.js:255
 msgid "Valid URL required"
 msgstr "Potrebna je ispravna URL adresa"
 
-#: app/scripts/lib/auth-errors.js:266
+#: app/scripts/lib/auth-errors.js:270
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "E-pošta za potvrdu se upravo vratila. Pogrešna e-pošta?"
 
-#: app/scripts/lib/auth-errors.js:274
+#: app/scripts/lib/auth-errors.js:278
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Unesite validnu adresu e-pošte. firefox.com ne nudi e-pošte."
 
-#: app/scripts/lib/auth-errors.js:282
+#: app/scripts/lib/auth-errors.js:286
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 "Firefox nalozi mogu biti postavljeni samo u IFRAME-u na odobrenim sajtovima"
 
-#: app/scripts/lib/auth-errors.js:301
+#: app/scripts/lib/auth-errors.js:305
 #: app/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
 msgstr "Veza za potvrdu je oštećena"
 
-#: app/scripts/lib/auth-errors.js:309
+#: app/scripts/lib/auth-errors.js:313
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Dimenzije slike moraju biti najmanje 100x100px"
 
-#: app/scripts/lib/auth-errors.js:313
+#: app/scripts/lib/auth-errors.js:317
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Uskoro stiže prijava za Firefox za iOS"
 
-#: app/scripts/lib/auth-errors.js:324
+#: app/scripts/lib/auth-errors.js:328
 msgid "You must enter your age to sign up"
 msgstr "Morate da unesete godine da biste se registrovali"
 
-#: app/scripts/lib/auth-errors.js:339
+#: app/scripts/lib/auth-errors.js:343
 msgid "Account no longer exists."
 msgstr "Nalog više ne postoji."
 
-#: app/scripts/lib/auth-errors.js:343
+#: app/scripts/lib/auth-errors.js:347
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Neispravano svojstvo u resume tokenu: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:347
+#: app/scripts/lib/auth-errors.js:351
 msgid "Missing property in resume token: %(property)s"
 msgstr "Svojstvo nedostaje u resume tokenu: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:351
+#: app/scripts/lib/auth-errors.js:355
 msgid "Invalid data attribute: %(property)s"
 msgstr "Neispravna osobina podatka: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:355
+#: app/scripts/lib/auth-errors.js:359
 msgid "Missing data attribute: %(property)s"
 msgstr "Nedostaje osobina podatka: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:368
+#: app/scripts/lib/auth-errors.js:372
 #: app/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Ova potvrdna veza je već iskorišćena, može se iskoristiti samo jednom."
 
-#: app/scripts/lib/auth-errors.js:372
+#: app/scripts/lib/auth-errors.js:376
 msgid "This is a required field"
 msgstr "Ovo je obavezno polje"
 
-#: app/scripts/lib/auth-errors.js:376
+#: app/scripts/lib/auth-errors.js:380
 msgid "Authorization code required"
 msgstr "Potreban je autorizacioni kod"
 
-#: app/scripts/lib/auth-errors.js:384
+#: app/scripts/lib/auth-errors.js:388
 #: app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Veza je oštećena"
 
-#: app/scripts/lib/auth-errors.js:407
+#: app/scripts/lib/auth-errors.js:411
 msgid "Phone number required"
 msgstr "Potreban je broj telefona"
 
@@ -1021,6 +1025,7 @@ msgstr "Otkaži"
 msgid ""
 "Account notifications will now also be sent to %(secondaryEmailVerified)s"
 msgstr ""
+"Obaveštenja naloga će se sada takođe slati i na %(secondaryEmailVerified)s"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
@@ -1150,11 +1155,9 @@ msgstr "Napravi Firefox nalog"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid ""
-"Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get "
-"started here</a>"
+"Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started "
+"here</a>"
 msgstr ""
-"Tražite Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Započnite "
-"ovde</a>"
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -1211,6 +1214,10 @@ msgstr ""
 "SMS usluga je moguća samo u određenim državama. SMS &amp; usluge se mogu "
 "naplatiti. Primalac e-pošte ili SMS poruke mora biti saglasan sa time. <a "
 "%(escapedLearnMoreAttributes)s>Saznajte više</a>"
+
+#: app/scripts/templates/sms_send.mustache:9
+msgid "Maybe later"
+msgstr "Možda kasnije"
 
 #: app/scripts/templates/sms_sent.mustache:1
 #: app/scripts/templates/sms_sent.mustache:4
@@ -1469,29 +1476,31 @@ msgstr ""
 #: app/scripts/templates/settings/emails.mustache:2
 #: app/scripts/templates/settings/emails.mustache:14
 msgid "Secondary email"
-msgstr ""
+msgstr "Sekundarna adresa"
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid ""
 "A secondary email is an additional address for receiving security notices "
 "and confirming new Sync devices."
 msgstr ""
+"Sekundarna adresa je dodatna adresa za primanje bezbednosnih obaveštenja i "
+"potvrđivanje novih uređaja za sinhronizovanje."
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
-msgstr ""
+msgstr "potvrđena"
 
 #: app/scripts/templates/settings/emails.mustache:9
 msgid "verification required"
-msgstr ""
+msgstr "potvrda je potrebna"
 
 #: app/scripts/templates/settings/emails.mustache:10
 msgid "Remove"
-msgstr ""
+msgstr "Ukloni"
 
 #: app/scripts/templates/settings/emails.mustache:11
 msgid "Didn't arrive and not in spam folder? Resend?"
-msgstr ""
+msgstr "Nije vam stigla niti je u neželjenoj pošti? Poslati ponovo?"
 
 #: app/scripts/templates/settings/emails.mustache:19
 msgid "Add"
@@ -1522,16 +1531,23 @@ msgid "Use Firefox Account"
 msgstr "Koristi Firefox Account"
 
 #. submit button
-#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:95
+#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:94
 msgctxt "submit button"
 msgid "Sign in"
 msgstr "Prijavi se"
 
 #. header text
-#: app/scripts/views/sign_in.js:98
+#: app/scripts/views/sign_in.js:97
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Prijavi se"
+
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get "
+#~ "started here</a>"
+#~ msgstr ""
+#~ "Tražite Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Započnite "
+#~ "ovde</a>"
 
 #~ msgid "Last active %(translatedTimeAgo)s"
 #~ msgstr "Poslednja aktivnost %(translatedTimeAgo)s"
@@ -1548,9 +1564,6 @@ msgstr "Prijavi se"
 #~ "prenosa podataka mogu nastati. Željeni primalac e-poruke ili SMS -a se "
 #~ "mora prethodno složiti sa ovim. <a "
 #~ "%(escapedLearnMoreAttributes)s>Saznajte više</a>"
-
-#~ msgid "Maybe later"
-#~ msgstr "Možda kasnije"
 
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "Ljubaznost <a href=\"https://www.gravatar.com\">Gravatar-a</a>"
