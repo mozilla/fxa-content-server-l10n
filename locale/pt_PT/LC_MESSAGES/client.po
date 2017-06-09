@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: 2017-05-27 12:35+0000\n"
+"PO-Revision-Date: 2017-06-09 22:11+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -312,7 +312,7 @@ msgstr "Email primário da conta requerido para reposição"
 
 #: app/scripts/lib/auth-errors.js:179
 msgid "Invalid signin code"
-msgstr ""
+msgstr "Código de início de sessão inválido"
 
 #: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
 msgid "Server busy, try again soon"
@@ -555,9 +555,7 @@ msgid "SMS not sent, please try again"
 msgstr "SMS não enviado, por favor tente novamente"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Ao proceder, está concordar com os <a id=\"service-tos\" href=\"%(termsUri)s\">Termos do serviço</a> e com o <a id=\"service-pp\" href=\"%(privacyUri)s\">Aviso de privacidade</a> do %(serviceName)s "
 "(%(serviceUri)s)."
@@ -830,9 +828,7 @@ msgstr "Repor palavra-passe"
 
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr ""
-"Ao proceder, está a concordar com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com o <a id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de privacidade</a> dos serviços do Firefox "
-"na nuvem."
+msgstr "Ao proceder, está a concordar com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com o <a id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de privacidade</a> dos serviços do Firefox na nuvem."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -989,7 +985,7 @@ msgstr "Criar uma Conta Firefox"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr ""
+msgstr "À procura do Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Comece aqui</a>"
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -1031,8 +1027,8 @@ msgstr "Enviar"
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-"Serviço SMS apenas disponível em certos países. Taxas de SMS e dados podem ser aplicadas. O destinatário intendido do email ou SMS deve ter consentido. <a %(escapedLearnMoreAttributes)s>Saber mais</"
-"a>"
+"Serviço SMS apenas disponível em certos países. Taxas de SMS e dados podem ser aplicadas. O destinatário intendido do email ou SMS deve ter consentido. <a %(escapedLearnMoreAttributes)s>Saber "
+"mais</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
@@ -1389,19 +1385,18 @@ msgstr "Iniciar sessão"
 #~ msgid "Sync preferences"
 #~ msgstr "Preferências do Sync"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "À procura do Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Comece aqui</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Tem uma conta com um email diferente? <a href=\"%(signinUri)s\">Inicie sessão</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "O Firefox está disponível para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> e <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "O Firefox está disponível para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> e <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Ativo pela última vez: %(translatedTimeAgo)s"
@@ -1507,8 +1502,7 @@ msgstr "Iniciar sessão"
 
 #~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
 #~ msgstr ""
-#~ "Por questões de segurança a sua conta foi bloqueada. Para executar atividades ao nível da conta, por favor verifique novamente a sua conta clicando na ligação de verificação enviada para "
-#~ "%(email)s"
+#~ "Por questões de segurança a sua conta foi bloqueada. Para executar atividades ao nível da conta, por favor verifique novamente a sua conta clicando na ligação de verificação enviada para %(email)s"
 
 #~ msgid "Signup has been disabled"
 #~ msgstr "O registo foi desativado"
