@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-03-26 15:29+0000\n"
+"POT-Creation-Date: 2017-05-26 16:09+0000\n"
+"PO-Revision-Date: 2017-05-01 18:46+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1438060065.0\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:685
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:803
 msgid "Still there?"
 msgstr "Још увек сте овде?"
 
@@ -47,40 +47,45 @@ msgid "Sign in to Sync"
 msgstr "Пријави се на Sync"
 
 #: lib/senders/templates/new_device_login.html:1 lib/senders/templates/password_changed.html:1 lib/senders/templates/password_reset.html:1 lib/senders/templates/password_reset_required.html:1
-#: lib/senders/templates/post_verify.html:1 lib/senders/templates/recovery.html:1 lib/senders/templates/unblock_code.html:1 lib/senders/templates/verification_reminder_first.html:1
-#: lib/senders/templates/verification_reminder_second.html:1 lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_sync.html:1
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
+#: lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1 lib/senders/templates/post_verify_secondary_email.html:1 lib/senders/templates/recovery.html:1
+#: lib/senders/templates/unblock_code.html:1 lib/senders/templates/verification_reminder_first.html:1 lib/senders/templates/verification_reminder_second.html:1 lib/senders/templates/verify.html:1
+#: lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1
+#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1
+#: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox налози"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:615
+#: lib/senders/email.js:695
 msgid "New sign-in to Firefox"
 msgstr "Нова Firefox пријава"
 
 #: lib/senders/templates/new_device_login.html:3 lib/senders/templates/new_device_login.txt:2 lib/senders/templates/password_changed.html:4 lib/senders/templates/password_changed.txt:3
 #: lib/senders/templates/recovery.html:4 lib/senders/templates/recovery.txt:3 lib/senders/templates/unblock_code.html:3 lib/senders/templates/unblock_code.txt:2
-#: lib/senders/templates/verify_login.html:4 lib/senders/templates/verify_login.txt:3 lib/senders/templates/verify_sync.html:4 lib/senders/templates/verify_sync.txt:3
+#: lib/senders/templates/verify_login.html:4 lib/senders/templates/verify_login.txt:3 lib/senders/templates/verify_secondary.html:4 lib/senders/templates/verify_secondary.txt:3
+#: lib/senders/templates/verify_sync.html:4 lib/senders/templates/verify_sync.txt:3
 msgid "IP address: %(ip)s"
 msgstr "IP адреса: %(ip)s"
 
-#: lib/senders/templates/new_device_login.html:4
+#: lib/senders/templates/new_device_login.html:4 lib/senders/templates/verify_secondary.html:7
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr "Ово је аутоматска е-пошта; ако нисте затражили ову акцију, онда <a %(passwordChangeLinkAttributes)s>промените лозинку.</a>"
 
 #: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5 lib/senders/templates/post_verify.html:6
-#: lib/senders/templates/recovery.html:7 lib/senders/templates/verification_reminder_first.html:6 lib/senders/templates/verification_reminder_second.html:6 lib/senders/templates/verify.html:6
+#: lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/post_verify_secondary_email.html:6 lib/senders/templates/recovery.html:7
+#: lib/senders/templates/verification_reminder_first.html:6 lib/senders/templates/verification_reminder_second.html:6 lib/senders/templates/verify.html:6 lib/senders/templates/verify_secondary.html:8
 #: lib/senders/templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
 msgstr "За више информација, посетите <a %(supportLinkAttributes)s>Mozilla подршка</a> сајт."
 
 #: lib/senders/templates/new_device_login.html:6 lib/senders/templates/new_device_login.txt:5 lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6
 #: lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5 lib/senders/templates/password_reset_required.html:10 lib/senders/templates/password_reset_required.txt:9
-#: lib/senders/templates/post_verify.html:7 lib/senders/templates/post_verify.txt:6 lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7
-#: lib/senders/templates/unblock_code.html:6 lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verification_reminder_first.html:7 lib/senders/templates/verification_reminder_first.txt:6
+#: lib/senders/templates/post_verify.html:7 lib/senders/templates/post_verify.txt:6 lib/senders/templates/post_verify_secondary.html:7 lib/senders/templates/post_verify_secondary.txt:6
+#: lib/senders/templates/post_verify_secondary_email.html:7 lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6
+#: lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verification_reminder_first.html:7 lib/senders/templates/verification_reminder_first.txt:6
 #: lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verification_reminder_second.txt:6 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6
-#: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
+#: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:6
+#: lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
 msgstr "Mozilla полиса приватности"
 
@@ -89,8 +94,8 @@ msgid "This is an automated email; if you didn’t add a new device to your Fire
 msgstr "Ово је аутоматска е-пошта; Уколико нисте додали ниједан уређај на ваш Firefox налог, требало би одмах да промените вашу лозинку на %(passwordChangeLink)s"
 
 #: lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4 lib/senders/templates/post_verify.txt:5
-#: lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:5 lib/senders/templates/verification_reminder_second.txt:5 lib/senders/templates/verify.txt:5
-#: lib/senders/templates/verify_sync.txt:7
+#: lib/senders/templates/post_verify_secondary.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:5
+#: lib/senders/templates/verification_reminder_second.txt:5 lib/senders/templates/verify.txt:5 lib/senders/templates/verify_sync.txt:7
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "За више информација, посетите %(supportUrl)s"
 
@@ -118,10 +123,11 @@ msgstr "Ваша лозинка је ресетована"
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
 msgstr "Лозинка за ваш Firefox налог је промењена. Уколико је нисте ви променили, <a %(resetLinkAttributes)s>ресетујте вашу лозинку</a> одмах."
 
-#: lib/senders/templates/password_reset.html:4 lib/senders/templates/post_verify.html:5 lib/senders/templates/post_verify.txt:4 lib/senders/templates/recovery.html:6
-#: lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_first.txt:4
-#: lib/senders/templates/verification_reminder_second.html:5 lib/senders/templates/verification_reminder_second.txt:4 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
-#: lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
+#: lib/senders/templates/password_reset.html:4 lib/senders/templates/post_verify.html:5 lib/senders/templates/post_verify.txt:4 lib/senders/templates/post_verify_secondary.html:5
+#: lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/post_verify_secondary_email.html:5 lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5
+#: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.html:5
+#: lib/senders/templates/verification_reminder_second.txt:4 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4 lib/senders/templates/verify_sync.html:7
+#: lib/senders/templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Ово је аутоматска е-пошта; ако сте је грешком примили, ни једна радња није потребна."
 
@@ -191,6 +197,22 @@ msgstr "Успешно сте повезали први уређај на Firefo
 msgid "Sign in to Sync:"
 msgstr "Пријави се на Sync:"
 
+#: lib/senders/templates/post_verify_secondary.html:2 lib/senders/templates/post_verify_secondary.txt:1 lib/senders/templates/post_verify_secondary_email.html:2
+msgid "Secondary email added"
+msgstr "Секундарна адреса додата"
+
+#: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2 lib/senders/templates/post_verify_secondary_email.html:3
+msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+msgstr "Успешно сте верификовали %(secondaryEmail)s као секундарну адресу вашег Firefox налога. Безбедносне нотификације и потврде пријава ће бити достављене на ове адресе."
+
+#: lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
+msgid "Manage account"
+msgstr "Управљај налогом"
+
+#: lib/senders/templates/post_verify_secondary.txt:3
+msgid "Manage account:"
+msgstr "Управљај налогом:"
+
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Forgot your password?"
 msgstr "Заборавили сте лозинку?"
@@ -223,7 +245,7 @@ msgstr "Ако нисте, помозите нам да одбијемо уље�
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Ако нисте, помозите нам да одбијемо уљеза и пријавите нам то."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:682
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:800
 msgid "Hello again."
 msgstr "Поздрав."
 
@@ -275,9 +297,29 @@ msgstr "Потврди пријаву"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Ако сумњате да неко покушава да приступи вашем налогу, <a %(passwordChangeLinkAttributes)s>молимо вас да промените лозинку</a>."
 
-#: lib/senders/templates/verify_login.txt:5
+#: lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_secondary.txt:5
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
 msgstr "Ако сумњате да неко покушава да приступи вашем налогу, молимо вас да промените лозинку."
+
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
+msgid "Verify secondary email"
+msgstr "Верификуј секундарну адресу"
+
+#: lib/senders/templates/verify_secondary.html:3 lib/senders/templates/verify_secondary.txt:2
+msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
+msgstr "Захтев за коришћење %(email)s као секундарне адресе је послат са следећег Firefox налога:"
+
+#: lib/senders/templates/verify_secondary.html:5 lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
+msgid "Verify email "
+msgstr "Потврди е-пошту "
+
+#: lib/senders/templates/verify_secondary.html:6
+msgid "Once verified, this address will begin receiving security notifications and confirmations."
+msgstr "Једном када је верификујете, адреса ће добијати безбедносне нотификације и потврде о пријавама."
+
+#: lib/senders/templates/verify_secondary.txt:4
+msgid "Verify email: "
+msgstr "Верификуј адресу: "
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -287,73 +329,77 @@ msgstr "Спремни, позор, синхронизуј"
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
 msgstr "Потврдите да сте примили е-пошту и помоћићемо вам да инсталирате и синхронизујете Firefox на свим вашим уређајима почећи од:"
 
-#: lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
-msgid "Verify email "
-msgstr "Потврди е-пошту "
-
 #: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Једном када потврдите, помоћићемо вам да инсталирате и повежете Firefox на барем један уређај."
 
-#: lib/senders/email.js:153
+#: lib/senders/email.js:160
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s на %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:156
+#: lib/senders/email.js:163
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s на %(uaOS)s"
 
-#: lib/senders/email.js:183
+#: lib/senders/email.js:190
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (процењено)"
 
-#: lib/senders/email.js:185
+#: lib/senders/email.js:192
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (процењено)"
 
-#: lib/senders/email.js:187
+#: lib/senders/email.js:194
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (процењено)"
 
-#: lib/senders/email.js:189
+#: lib/senders/email.js:196
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (процењено)"
 
-#: lib/senders/email.js:281
+#: lib/senders/email.js:295
 msgid "Verify your Firefox Account"
 msgstr "Потврдите Firefox налог"
 
-#: lib/senders/email.js:310
+#: lib/senders/email.js:324
 msgid "Confirm your email and start to sync!"
 msgstr "Потврдите вашу електронску адресу и почните са синхронизацијом!"
 
-#: lib/senders/email.js:367
+#: lib/senders/email.js:382
 msgid "Firefox Account authorization code"
 msgstr "Ауторазициони код Firefox налога"
 
-#: lib/senders/email.js:419
+#: lib/senders/email.js:435
 msgid "Confirm new sign-in to Firefox"
 msgstr "Потврди нову Firefox пријаву"
 
-#: lib/senders/email.js:470
+#: lib/senders/email.js:492
+msgid "Verify email for Firefox Accounts"
+msgstr "Верификујте адресу за Firefox налоге"
+
+#: lib/senders/email.js:547
 msgid "Reset your Firefox Account password"
 msgstr "Ресетујте лозинку Firefox налога"
 
-#: lib/senders/email.js:510
+#: lib/senders/email.js:588
 msgid "Your Firefox Account password has been changed"
 msgstr "Лозинка Firefox налога је промењена"
 
-#: lib/senders/email.js:548
+#: lib/senders/email.js:627
 msgid "Your Firefox Account password has been reset"
 msgstr "Лозинка Firefox налога је ресетована"
 
-#: lib/senders/email.js:582
+#: lib/senders/email.js:661
 msgid "Firefox Account password reset required"
 msgstr "Потребно је да ресетујете лозинку Firefox налога"
 
-#: lib/senders/email.js:655
+#: lib/senders/email.js:735
 msgid "Firefox Account verified"
 msgstr "Firefox налог потврђен"
+
+#: lib/senders/email.js:774
+msgid "Secondary Firefox Account email added"
+msgstr "Секундарна адреса Firefox налога додата"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"

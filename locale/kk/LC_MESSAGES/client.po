@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-04-24 07:39+0000\n"
+"POT-Creation-Date: 2017-05-26 16:09+0000\n"
+"PO-Revision-Date: 2017-05-29 15:48+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:186 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
+#: app/scripts/views/complete_sign_up.js:177 app/scripts/models/auth_brokers/web.js:22
 msgid "Account verified successfully"
 msgstr "Тіркелгі сәтті расталды"
 
@@ -22,7 +22,7 @@ msgstr "Тіркелгі сәтті расталды"
 msgid "Password reset"
 msgstr "Парольді тастау"
 
-#: app/scripts/views/confirm_reset_password.js:188
+#: app/scripts/views/confirm_reset_password.js:180
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Парольді тастау сәтті аяқталды. Жалғастыру үшін кіріңіз."
 
@@ -54,41 +54,41 @@ msgstr "Firefox синхронизациясы қазір жалғастырыл
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Баптауды аяқтау үшін басқа Firefox құрылғыларыңызда жаңа парольді енгізіңіз."
 
-#: app/scripts/views/ready.js:45
+#: app/scripts/views/ready.js:44 app/scripts/templates/connect_another_device.mustache:4
+msgid "Email verified"
+msgstr "Эл. пошта адресі расталды"
+
+#: app/scripts/views/ready.js:49
 msgid "Sign-in confirmed"
 msgstr "Кіру расталды"
 
-#: app/scripts/views/ready.js:46 app/scripts/views/ready.js:51 app/scripts/templates/ready.mustache:3
+#: app/scripts/views/ready.js:50 app/scripts/views/ready.js:55 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Сіз енді %(serviceName)s қолдануға дайынсыз"
 
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:54
 msgid "Account verified"
 msgstr "Тіркелгі расталды"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177
+#: app/scripts/views/reset_password.js:65 app/scripts/views/sign_in.js:172
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Белгісіз тіркелгі. <a href=\"/signup\">Тіркелгіні жасау</a>"
 
-#: app/scripts/views/sign_in.js:174
+#: app/scripts/views/sign_in.js:169
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr ""
+msgstr "Белгісіз Firefox тіркелгісі. Қосымшаларыңыздың деректеріне қатынау үшін, өзіңіздің алдыңғы тіркелгі эл. пошта адресін қолданып, <a href=\"/signup\">тіркелгіні жасаңыз</a>."
 
 #: app/scripts/views/sign_up.js:63
 msgid "Account no longer exists. Recreate it?"
 msgstr "Тіркелгі енді жоқ болып тұр. Оны қайта жасау керек пе?"
 
-#: app/scripts/views/sign_up.js:383
+#: app/scripts/views/sign_up.js:379
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Тіркелгі бар болып тұр. <a href=\"/signin\">Кіру</a>"
 
 #: app/scripts/views/sms_sent.js:24
 msgid "App link resent to %(phoneNumber)s"
-msgstr ""
-
-#: app/scripts/views/settings/avatar_gravatar.js:93
-msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> ұсынған"
+msgstr "Қолданбаны тастау сілтемесі %(phoneNumber)s нөміріне жіберілді"
 
 #: app/scripts/views/settings/change_password.js:52
 msgid "Password changed successfully"
@@ -96,23 +96,27 @@ msgstr "Пароль сәтті өзгертілді"
 
 #: app/scripts/views/settings/client_disconnect.js:17
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr ""
+msgstr "Бұл туралы есту өкінішті. Сізге Firefox тіркелгіңіздің паролін ауыстыру керек, және деректеріңізді қашықтан өшіру мүмкіндігі туралы құрылғы шығарушысы ақпаратын қарау керек."
 
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
+msgstr "Бұл туралы естуге өкініштіміз. Егер ол құрылғыға толығымен сенбеген болсаңыз, онда Firefox тіркелгі паролін, және Firefox-та сақталған барлық парольдерді өзгерту керек."
 
-#: app/scripts/views/settings/clients.js:63
+#: app/scripts/views/settings/clients.js:64
 msgid "Web Session, %(userAgent)s"
 msgstr "Веб сессиясы, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:65
+#: app/scripts/views/settings/clients.js:66
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:68
-msgid "Last active %(translatedTimeAgo)s"
-msgstr "Соңғы белсенділік %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:71
+msgid "started syncing %(translatedTimeAgo)s"
+msgstr "синхрондау басталды %(translatedTimeAgo)s"
+
+#: app/scripts/views/settings/clients.js:76
+msgid "last active %(translatedTimeAgo)s"
+msgstr "соңғы белсенділік %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/communication_preferences.js:104
 msgid "Subscribed successfully"
@@ -129,6 +133,14 @@ msgstr "Тіркелгі сәтті өшірілді"
 #: app/scripts/views/settings/display_name.js:66
 msgid "Display name updated"
 msgstr "Көрсетілетін аты жаңартылды"
+
+#: app/scripts/views/settings/emails.js:137
+msgid "A verification link has been sent to %(email)s"
+msgstr "Растау сілтемесі %(email)s адресіне жіберілді"
+
+#: app/scripts/views/settings/emails.js:150
+msgid "Verification emailed to %(email)s"
+msgstr "Растау %(email)s адресіне жіберілді"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -162,7 +174,7 @@ msgstr "Restmail ашу"
 msgid "Email resent"
 msgstr "Эл. пошта хаты қайта жіберілді"
 
-#: app/scripts/models/reliers/sync.js:50
+#: app/scripts/models/reliers/sync.js:51
 msgid "Firefox Sync"
 msgstr "Firefox синхрондауы"
 
@@ -195,7 +207,7 @@ msgstr "Сұранымның уақыт белгісі қате"
 msgid "Invalid nonce in request signature"
 msgstr "Сұранымның кездейсоқ коды қате"
 
-#: app/scripts/lib/auth-errors.js:47
+#: app/scripts/lib/auth-errors.js:47 app/scripts/lib/auth-errors.js:159 app/scripts/lib/auth-errors.js:163
 msgid "Account already exists"
 msgstr "Тіркелгі бар болып тұр"
 
@@ -247,7 +259,7 @@ msgstr "Сұраным денесі тым үлкен"
 msgid "The request was blocked for security reasons"
 msgstr "Сұраным қауіпсіздік салдарынан блокталды"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:380
 msgid "Invalid authorization code"
 msgstr "Авторизация коды қате"
 
@@ -275,143 +287,159 @@ msgstr "Сіздің хатыңыз қайтарылды. Эл. пошта ад�
 msgid "Unable to deliver email"
 msgstr "Хатыңызды жеткізу мүмкін емес"
 
-#: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327
+#: app/scripts/lib/auth-errors.js:151
+msgid "This email was already verified by another user"
+msgstr "Бұл эл. пошта хатын басқа пайдаланушы растаған болып тұр"
+
+#: app/scripts/lib/auth-errors.js:155
+msgid "Secondary email must be different than your account email"
+msgstr "Екіншілік эл. пошта адресі негізгі адрестен басқа болуы тиіс"
+
+#: app/scripts/lib/auth-errors.js:167
+msgid "Primary account email required for sign-in"
+msgstr "Кіру үшін тіркелгінің негізгі эл. пошта адресі керек"
+
+#: app/scripts/lib/auth-errors.js:171
+msgid "Address in use by another account"
+msgstr "Адресті басқа тіркелгі қолданып тұр"
+
+#: app/scripts/lib/auth-errors.js:175
+msgid "Primary account email required for reset"
+msgstr "Тастау үшін тіркелгінің негізгі эл. пошта адресі керек"
+
+#: app/scripts/lib/auth-errors.js:180 app/scripts/lib/auth-errors.js:360
 msgid "Server busy, try again soon"
 msgstr "Сервер бос емес, біраздан кейін қайталап көріңіз"
 
-#: app/scripts/lib/auth-errors.js:154
+#: app/scripts/lib/auth-errors.js:184
 msgid "This endpoint is no longer supported"
 msgstr "Бұл сұраным адресіне енді қолдау жоқ"
 
-#: app/scripts/lib/auth-errors.js:158 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/auth-errors.js:188 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Жүйе бос емес, біраздан кейін қайталап көріңіз"
 
-#: app/scripts/lib/auth-errors.js:162
+#: app/scripts/lib/auth-errors.js:192
 msgid "Login attempt cancelled"
 msgstr "Кіру талабынан бас тартылды"
 
-#: app/scripts/lib/auth-errors.js:166
+#: app/scripts/lib/auth-errors.js:196
 msgid "Session expired. Sign in to continue."
 msgstr "Сессия мерзімі бітті. Жалғастыру үшін кіріңіз."
 
-#: app/scripts/lib/auth-errors.js:170
+#: app/scripts/lib/auth-errors.js:200
 msgid "Cookies are still disabled"
 msgstr "Cookies әлі де сөндірулі тұр"
 
-#: app/scripts/lib/auth-errors.js:174
+#: app/scripts/lib/auth-errors.js:204
 msgid "Passwords do not match"
 msgstr "Парольдер өзара сәйкес келмейді!"
 
-#: app/scripts/lib/auth-errors.js:178
+#: app/scripts/lib/auth-errors.js:208
 msgid "Working…"
 msgstr "Жұмыс істеуде…"
 
-#: app/scripts/lib/auth-errors.js:182
+#: app/scripts/lib/auth-errors.js:212
 msgid "Could not get Privacy Notice"
 msgstr "Жекелік ескертуін алу мүмкін емес"
 
-#: app/scripts/lib/auth-errors.js:186
+#: app/scripts/lib/auth-errors.js:216
 msgid "Could not get Terms of Service"
 msgstr "Қолдану шарттарын алу мүмкін емес"
 
-#: app/scripts/lib/auth-errors.js:190
+#: app/scripts/lib/auth-errors.js:220
 msgid "Your new password must be different"
 msgstr "Жаңа пароль ескі парольден өзгеше болуы тиіс"
 
-#: app/scripts/lib/auth-errors.js:194 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
+#: app/scripts/lib/auth-errors.js:224 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "Ұзындығы кем дегенде 8 таңба болуы тиіс"
 
-#: app/scripts/lib/auth-errors.js:198
+#: app/scripts/lib/auth-errors.js:228
 msgid "Valid password required"
 msgstr "Жарамды пароль керек"
 
-#: app/scripts/lib/auth-errors.js:202 app/scripts/lib/auth-errors.js:240 app/scripts/lib/auth-errors.js:256
+#: app/scripts/lib/auth-errors.js:232 app/scripts/lib/auth-errors.js:270 app/scripts/lib/auth-errors.js:286
 msgid "Valid email required"
 msgstr "Жарамды эл. пошта адресі керек"
 
-#: app/scripts/lib/auth-errors.js:213
+#: app/scripts/lib/auth-errors.js:243
 msgid "A usable image was not found"
 msgstr "Қолдануға жарамды сурет табылмады"
 
-#: app/scripts/lib/auth-errors.js:217
+#: app/scripts/lib/auth-errors.js:247
 msgid "Could not initialize camera"
 msgstr "Камераны іске қосу мүмкін емес"
 
-#: app/scripts/lib/auth-errors.js:221
+#: app/scripts/lib/auth-errors.js:251
 msgid "Valid URL required"
 msgstr "Жарамды сілтеме керек"
 
-#: app/scripts/lib/auth-errors.js:236
+#: app/scripts/lib/auth-errors.js:266
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Сіздің растау хатыңыз қайтарылды. Эл. пошта адресін қате тердіңіз бе?"
 
-#: app/scripts/lib/auth-errors.js:244
+#: app/scripts/lib/auth-errors.js:274
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Жарамды эл. пошта адресін енгізіңіз. firefox.com эл. поштаны ұсынбайды."
 
-#: app/scripts/lib/auth-errors.js:252
+#: app/scripts/lib/auth-errors.js:282
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox тіркелгілерін тек расталған сайттарда IFRAME-ге орналастыруға болады."
 
-#: app/scripts/lib/auth-errors.js:271 app/scripts/templates/complete_sign_up.mustache:9
+#: app/scripts/lib/auth-errors.js:301 app/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
 msgstr "Растау сілтемесі зақымдалған"
 
-#: app/scripts/lib/auth-errors.js:279
+#: app/scripts/lib/auth-errors.js:309
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Сурет өлшемдері кем дегенде  100x100пикс болуы тиіс"
 
-#: app/scripts/lib/auth-errors.js:283
+#: app/scripts/lib/auth-errors.js:313
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Тіркелгіні жасау жақында iOS үшін Firefox-тан да мүмкін болады"
 
-#: app/scripts/lib/auth-errors.js:294
+#: app/scripts/lib/auth-errors.js:324
 msgid "You must enter your age to sign up"
 msgstr "Тіркелгіні жасау үшін өз жасыңызды көрсетуіңіз керек"
 
-#: app/scripts/lib/auth-errors.js:298
-msgid "No Gravatar found"
-msgstr "Gravatar табылмады"
-
-#: app/scripts/lib/auth-errors.js:306
+#: app/scripts/lib/auth-errors.js:339
 msgid "Account no longer exists."
 msgstr "Тіркелгі енді жоқ болып тұр."
 
-#: app/scripts/lib/auth-errors.js:310
+#: app/scripts/lib/auth-errors.js:343
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Жалғастыру токеніндегі қате қасиет: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:314
+#: app/scripts/lib/auth-errors.js:347
 msgid "Missing property in resume token: %(property)s"
 msgstr "Жалғастыру токеніндегі жоқ қасиет: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:318
+#: app/scripts/lib/auth-errors.js:351
 msgid "Invalid data attribute: %(property)s"
 msgstr "Деректер атрибуты қате: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:322
+#: app/scripts/lib/auth-errors.js:355
 msgid "Missing data attribute: %(property)s"
 msgstr "Деректер атрибуты жоқ: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:335 app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/lib/auth-errors.js:368 app/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "Бұл растау сілтемесі қолданылған, және оны тек бір рет қолдануға болады."
 
-#: app/scripts/lib/auth-errors.js:339
+#: app/scripts/lib/auth-errors.js:372
 msgid "This is a required field"
 msgstr "Бұл - міндетті өріс"
 
-#: app/scripts/lib/auth-errors.js:343
+#: app/scripts/lib/auth-errors.js:376
 msgid "Authorization code required"
 msgstr "Авторизация коды керек"
 
-#: app/scripts/lib/auth-errors.js:351 app/scripts/templates/report_sign_in.mustache:1
+#: app/scripts/lib/auth-errors.js:384 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Сілтеме зақымдалған"
 
-#: app/scripts/lib/auth-errors.js:374
+#: app/scripts/lib/auth-errors.js:407
 msgid "Phone number required"
 msgstr "Телефон нөмірі керек"
 
@@ -425,7 +453,7 @@ msgstr "Баптауы жарамсыз"
 
 #: app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "<span tabindex=\"1\">%(escapedDomain)s</span> деп жазғыңыз келді ме?"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
@@ -497,11 +525,11 @@ msgstr "Суретті өңдеу қатесі"
 
 #: app/scripts/lib/require-on-demand.js:39
 msgid "Resources failed to load"
-msgstr ""
+msgstr "Ресурстарды жүктеу қатесі"
 
 #: app/scripts/lib/require-on-demand.js:43
 msgid "Unexpected resource error"
-msgstr ""
+msgstr "Ресурстың күтпеген қатесі"
 
 #: app/scripts/lib/require-on-demand.js:47
 msgid "Script error"
@@ -517,7 +545,7 @@ msgstr "Сіздің нөміріңіз блокталған"
 
 #: app/scripts/lib/sms-errors.js:79
 msgid "SMS not sent, please try again"
-msgstr ""
+msgstr "SMS жіберілмеген, қайталап көріңіз"
 
 #: app/scripts/lib/strings.js:22
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
@@ -591,7 +619,7 @@ msgstr "Нені синхрондауды таңдаңыз"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:3
 msgid "Open tabs"
-msgstr "Беттерді ашу"
+msgstr "Ашық беттер"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Bookmarks"
@@ -699,7 +727,7 @@ msgstr "Эл. пошта хаты жіберілді"
 
 #: app/scripts/templates/confirm.mustache:6
 msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Растау сілтемесі %(escapedEmail)s адресіне жіберілді"
 
 #: app/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
@@ -708,7 +736,7 @@ msgstr "Firefox деректеріңізді қорғау үшін, біз %(ema
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive and not in spam folder? Resend"
-msgstr ""
+msgstr "Жеткен жоқ па, және спам бумасында жоқ па? Қайта жіберу"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -726,13 +754,9 @@ msgstr "Пароль есіңізде бар ма? Кіріңіз"
 msgid "Connect another device"
 msgstr "Басқа құрылғыны байланыстыру"
 
-#: app/scripts/templates/connect_another_device.mustache:2
-msgid "This device is connected"
-msgstr "Бұл құрылғы байланысқан"
-
-#: app/scripts/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr ""
+#: app/scripts/templates/connect_another_device.mustache:2 app/scripts/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
+msgstr "Бұл Firefox байланысқан"
 
 #: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:3
 msgid "Success"
@@ -740,27 +764,27 @@ msgstr "Сәтті"
 
 #: app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign in to this Firefox to complete set-up"
-msgstr ""
+msgstr "Баптауды аяқтау үшін бұл Firefox ішіне кіріңіз"
 
 #: app/scripts/templates/connect_another_device.mustache:7
 msgid "Sign in &rarr;"
-msgstr ""
+msgstr "Кіру &rarr;"
 
 #: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Баптауды аяқтау үшін басқа құрылғыдағы Firefox ішіне кіріңіз"
 
 #: app/scripts/templates/connect_another_device.mustache:13
 msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr ""
+msgstr "Баптауды аяқтау үшін, Баптауларды ашып, Firefox-қа кіруді таңдаңыз"
 
 #: app/scripts/templates/connect_another_device.mustache:15
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
+msgstr "Баптауды аяқтау үшін Android үшін Firefox ішіне кіріңіз"
 
 #: app/scripts/templates/connect_another_device.mustache:17
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
+msgstr "Баптауды аяқтау үшін iOS үшін Firefox ішіне кіріңіз"
 
 #: app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
 msgid "Why is this required?"
@@ -833,40 +857,44 @@ msgstr "Android үшін Firefox-ты жүктеп алу."
 msgid "Download Firefox for mobile devices."
 msgstr "Мобильді құрылғылар үшін Firefox-ты жүктеп алу."
 
-#: app/scripts/templates/permissions.mustache:1 app/scripts/templates/settings/gravatar_permissions.mustache:1
+#: app/scripts/templates/permissions.mustache:1
 msgid "Request for permission"
 msgstr "Рұқсатқа сұраным"
 
-#: app/scripts/templates/permissions.mustache:2 app/scripts/templates/settings/gravatar_permissions.mustache:2
+#: app/scripts/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
 msgstr "%(serviceName)s тіркелгіңізден келесі ақпаратты талап етеді:"
 
-#: app/scripts/templates/permissions.mustache:3 app/scripts/templates/settings/gravatar_permissions.mustache:4
+#: app/scripts/templates/permissions.mustache:3
 msgid "Accept"
 msgstr "Қабылдау"
 
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
-#: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9
-#: app/scripts/templates/settings/communication_preferences.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6
-#: app/scripts/templates/settings/display_name.mustache:8 app/scripts/templates/settings/gravatar_permissions.mustache:5
+#: app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9 app/scripts/templates/settings/communication_preferences.mustache:5
+#: app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6 app/scripts/templates/settings/display_name.mustache:8
+#: app/scripts/templates/settings/emails.mustache:20
 msgid "Cancel"
 msgstr "Болдырмау"
 
 #: app/scripts/templates/ready.mustache:5
+msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
+msgstr "Тіркелгі хабарламалары енді %(secondaryEmailVerified)s адресіне де жіберілетін болады"
+
+#: app/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
 msgstr "Сіздің тіркелгіңіз дайын!"
 
 #: app/scripts/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "Авторизацияланбаған кіруді хабарлау керек пе?"
 
 #: app/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr ""
+msgstr "Сіз тіркелгіңізге қатынау талабы жөнінде хат алдыңыз. Бұл белсенділікті күмәнді ретінде хабарлауды қалайсыз ба?"
 
 #: app/scripts/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr ""
+msgstr "Белсенділік туралы хабарлау"
 
 #: app/scripts/templates/report_sign_in.mustache:7 app/scripts/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
@@ -884,7 +912,7 @@ msgstr "%(serviceName)s қызметіне жалғастыру"
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "Парольді тастау кезінде, сіз сіздің құрылғыларыңызда жоқ болып тұрған синхрондау деректерін жоғалтасыз."
 
-#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
+#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13
 msgid "Email"
 msgstr "Эл. пошта"
 
@@ -906,7 +934,7 @@ msgstr "Шығу"
 
 #: app/scripts/templates/sign_in.mustache:4
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "Қосымшалар деректерін іздедіңіз бе? Өзіңіздің ескі қосымшалар эл. адресіңізбен Firefox тіркелгісін <a href=\"/signup\">жасаңыз</a>."
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
@@ -922,19 +950,19 @@ msgstr "Тіркелгіні жасау"
 
 #: app/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
-msgstr ""
+msgstr "Қырағылығыңыз үшін рахмет"
 
 #: app/scripts/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr ""
+msgstr "Біздің топ хабарды алды. Шағымдарыңыз алаяқтылармен күресуге көмектеседі."
 
 #: app/scripts/templates/sign_in_unblock.mustache:1 app/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
-msgstr ""
+msgstr "Бұл кіруді авторизациялау"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr ""
+msgstr "Firefox деректеріңізді жақсырақ қорғау үшін, %(email)s адресіңізге авторизация кодын жібердік."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -950,7 +978,7 @@ msgstr "Firefox тіркелгісін жасау"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-msgstr ""
+msgstr "Firefox синхрондауын іздедіңіз бе? <a href=\"%(escapedSyncSuggestionUrl)s\">Осында бастаңыз</a>"
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -958,7 +986,7 @@ msgstr "Жаңа Firefox&nbsp;тіркелгіңізді жасау арқылы
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "Қосымшалар деректерін іздедіңіз бе? Өзіңіздің ескі қосымшалар эл. адресіңізбен Firefox тіркелгісін жасаңыз."
 
 #: app/scripts/templates/sign_up.mustache:17
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
@@ -966,7 +994,7 @@ msgstr "Мықты, бірегей пароль сіздің Firefox дерек�
 
 #: app/scripts/templates/sign_up.mustache:19
 msgid "Receive the monthly Firefox newsletter"
-msgstr ""
+msgstr "Ай сайынғы Firefox жаңалықтарын алу"
 
 #: app/scripts/templates/sign_up.mustache:21
 msgid "Create account"
@@ -978,11 +1006,7 @@ msgstr "Тіркелгіңіз бар ма? Кіріңіз"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
-
-#: app/scripts/templates/sms_send.mustache:2
-msgid "This Firefox is connected"
-msgstr "Бұл Firefox байланысқан"
+msgstr "Баптауды аяқтау үшін, Firefox-ты тура өз смартфоныңызға жіберіп, кіріңіз"
 
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
@@ -994,24 +1018,22 @@ msgstr "Жіберу"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
-"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-
-#: app/scripts/templates/sms_send.mustache:9
-msgid "Maybe later"
-msgstr "Мүмкін, кейінірек"
+"SMS қызметі тек кейбір елдерде қолжетерлік. SMS және деректерді тасымалдау үшін ақы алынуы мүмкін. Эл. пошта немесе SMS алушы оны алуға келісуі керек. <a %(escapedLearnMoreAttributes)s>Көбірек "
+"білу</a>"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Баптауды аяқтау үшін, Firefox-ты өз смартфоныңызға орнатып, кіріңіз"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr ""
+msgstr "Қолданба сілтемесі %(escapedPhoneNumber)s нөміріне жіберілді. <a %(escapedBackLinkAttrs)s>Нөмірді қате көрсеттіңіз бе?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Егер сіз мәтіндік хабарламаны алмасаңыз, қолданбаларды қолмен жүктеп алуға болады."
 
 #: app/scripts/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
@@ -1019,30 +1041,34 @@ msgstr "Жеткен жоқ па? Қайта жіберу"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
-msgstr ""
+msgstr "Екі (не көбірек) құрылғыларды неге синхрондау керек?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
 "Firefox for desktop will appear."
 msgstr ""
+"Синхрондау көмегімен бір құрылғыдағы Firefox-та сақталған бетбелгілер, шолу тарихы және парольдерді басқа құрылғыдағы Firefox-та қолдануға болады. Телефон немесе планшетіңізде Firefox-қа кіріңіз, "
+"одан кейін жұмыс үстелі үшін Firefox-та сақталған барлық нәрсені көре аласыз."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
 "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 msgstr ""
+"Синхрондау тұрақты қор көшірме емес - ол тек жергілікті сақталғанымен бөліседі. Егер пароліңізді тастасаңыз, және сіздің деректер кем дегенде бір құрылғыда сақталмаған болса, онда ескі парольмен "
+"сәйкестелген барлық деректерді жоғалта аласыз. Сондықтан, бірден көп құрылғыда Firefox-ты орнатып, синхрондауды қолдану дұрыс болады."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
 msgstr "Түсіндім"
 
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
-#: app/scripts/templates/settings/display_name.mustache:2
+#: app/scripts/templates/settings/display_name.mustache:2 app/scripts/templates/settings/emails.mustache:3
 msgid "Change…"
 msgstr "Өзгерту…"
 
-#: app/scripts/templates/settings/avatar.mustache:4 app/scripts/templates/settings/display_name.mustache:4
+#: app/scripts/templates/settings/avatar.mustache:4 app/scripts/templates/settings/display_name.mustache:4 app/scripts/templates/settings/emails.mustache:5
 msgid "Add…"
 msgstr "Қосу…"
 
@@ -1059,14 +1085,10 @@ msgid "Camera"
 msgstr "Камера"
 
 #: app/scripts/templates/settings/avatar_change.mustache:3
-msgid "Gravatar"
-msgstr "Gravatar"
-
-#: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Clear"
 msgstr "Тазарту"
 
-#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:26
+#: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:17
 msgid "Done"
 msgstr "Дайын"
 
@@ -1077,10 +1099,6 @@ msgstr "Керек болса, суретіңізді жылжытып, бұры
 #: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:7
 msgid "Change"
 msgstr "Өзгерту"
-
-#: app/scripts/templates/settings/avatar_gravatar.mustache:2
-msgid "Save"
-msgstr "Сақтау"
 
 #: app/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
@@ -1096,11 +1114,11 @@ msgstr "Синхрондаумен байланысты үзу керек пе?"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr ""
+msgstr "Сіздің шолу деректеріңіз %(deviceName)s ішінде қалады, бірақ, тіркелгіңізбен енді синхрондалмайтын болады."
 
 #: app/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Suspicious device"
-msgstr ""
+msgstr "Күмәнді құрылғы"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Lost or stolen device"
@@ -1112,61 +1130,61 @@ msgstr "Ескі немесе алмастырылған құрылғы"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
-msgstr ""
+msgstr "Қайталанатын құрылғы"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
 msgstr "Айтпауды қалаймын"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:14
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Disconnect"
 msgstr "Байланысты үзу"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
-msgstr ""
+msgstr "Байланысты үзу сәтті аяқталды"
 
 #: app/scripts/templates/settings/clients.mustache:2
 msgid "Devices & apps"
-msgstr ""
+msgstr "Құрылғылар және қолданбалар"
 
 #: app/scripts/templates/settings/clients.mustache:3 app/scripts/templates/partial/show-password.mustache:1
 msgid "Show"
 msgstr "Көрсету"
 
-#: app/scripts/templates/settings/clients.mustache:5
+#: app/scripts/templates/settings/clients.mustache:6
 msgid "current device"
 msgstr "ағымдағы құрылғы"
 
-#: app/scripts/templates/settings/clients.mustache:7
+#: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
-msgstr ""
+msgstr "Байланысты үзу…"
 
-#: app/scripts/templates/settings/clients.mustache:9
+#: app/scripts/templates/settings/clients.mustache:11
 msgid "current session"
-msgstr ""
+msgstr "ағымдағы сессия"
 
-#: app/scripts/templates/settings/clients.mustache:17
+#: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "iOS үшін Firefox"
 
-#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21
+#: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
 msgid "none connected"
-msgstr ""
+msgstr "ешнәрсе қосылмаған"
 
-#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22
+#: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
-msgstr ""
+msgstr "Жүктеп алу"
 
-#: app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/clients.mustache:22
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Android үшін Firefox"
 
-#: app/scripts/templates/settings/clients.mustache:24
+#: app/scripts/templates/settings/clients.mustache:26
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "Жоқ немесе қайталанған элемент?"
 
-#: app/scripts/templates/settings/clients.mustache:25
+#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:15
 msgid "Refresh"
 msgstr "Жаңарту"
 
@@ -1176,7 +1194,7 @@ msgstr "Байланысу баптаулары"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
-msgstr ""
+msgstr "Ай сайынғы Firefox жаңалықтарын алу."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
@@ -1196,7 +1214,7 @@ msgstr "Тіркелгіні өшіру"
 
 #: app/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete…"
-msgstr ""
+msgstr "Өшіру…"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
@@ -1205,6 +1223,34 @@ msgstr "Тіркелгіні өшіруді шынымен қалайсыз ба
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Firefox-та және тіркелгіңізді басқару кезінде көрсетілетін атыңызды таңдаңыз."
+
+#: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:14
+msgid "Secondary email"
+msgstr "Екіншілік эл. пошта адресі"
+
+#: app/scripts/templates/settings/emails.mustache:6
+msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
+msgstr "Екіншілік эл. пошта адресі қауіпсіздік хабарламаларын және жаңа синхрондау құрылғыларын растау үшін қолданылатын қосымша адресі болып табылады."
+
+#: app/scripts/templates/settings/emails.mustache:7
+msgid "verified"
+msgstr "расталған"
+
+#: app/scripts/templates/settings/emails.mustache:9
+msgid "verification required"
+msgstr "растау керек"
+
+#: app/scripts/templates/settings/emails.mustache:10
+msgid "Remove"
+msgstr "Өшіру"
+
+#: app/scripts/templates/settings/emails.mustache:11
+msgid "Didn't arrive and not in spam folder? Resend?"
+msgstr "Жеткен жоқ па, және спам бумасында жоқ па? Қайта жіберу керек пе?"
+
+#: app/scripts/templates/settings/emails.mustache:19
+msgid "Add"
+msgstr "Қосу"
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1227,16 +1273,37 @@ msgid "Use Firefox Account"
 msgstr "Firefox тіркелгісін қолдану"
 
 #. submit button
-#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:90
+#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:95
 msgctxt "submit button"
 msgid "Sign in"
-msgstr ""
+msgstr "Кіру"
 
 #. header text
-#: app/scripts/views/sign_in.js:93
+#: app/scripts/views/sign_in.js:98
 msgctxt "header text"
 msgid "Sign in"
-msgstr ""
+msgstr "Кіру"
+
+#~ msgid "Last active %(translatedTimeAgo)s"
+#~ msgstr "Соңғы белсенділік %(translatedTimeAgo)s"
+
+#~ msgid "This device is connected"
+#~ msgstr "Бұл құрылғы байланысқан"
+
+#~ msgid "Maybe later"
+#~ msgstr "Мүмкін, кейінірек"
+
+#~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
+#~ msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> ұсынған"
+
+#~ msgid "No Gravatar found"
+#~ msgstr "Gravatar табылмады"
+
+#~ msgid "Gravatar"
+#~ msgstr "Gravatar"
+
+#~ msgid "Save"
+#~ msgstr "Сақтау"
 
 #~ msgid "8 characters minimum, but longer if you plan to sync passwords."
 #~ msgstr "8 таңба кем дегенде, ал, синхрондауды қолданамын десеңіз, ұзынырақ парольді қолданыңыз."
@@ -1286,9 +1353,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Firefox браузері <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> және <a "
 #~ "href=\"%(linkLinux)s\">Linux</a> үшін қолжетерлік."
-
-#~ msgid "Add"
-#~ msgstr "Қосу"
 
 #~ msgid "Delete"
 #~ msgstr "Өшіру"

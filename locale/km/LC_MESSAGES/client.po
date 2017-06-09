@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-17 16:35+0000\n"
+"POT-Creation-Date: 2017-05-26 16:09+0000\n"
 "PO-Revision-Date: 2017-04-23 05:53+0000\n"
 "Last-Translator: piseth.kheng <piseth.kheng@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:186 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
+#: app/scripts/views/complete_sign_up.js:177 app/scripts/models/auth_brokers/web.js:22
 msgid "Account verified successfully"
 msgstr "គណនី​ត្រូវបាន​ផ្ទៀងផ្ទាត់​ដោយ​ជោគជ័យ"
 
@@ -22,7 +22,7 @@ msgstr "គណនី​ត្រូវបាន​ផ្ទៀងផ្ទាត
 msgid "Password reset"
 msgstr "ពាក្យ​សម្ងាត់​ត្រូវបាន​កំណត់​ឡើងវិញ"
 
-#: app/scripts/views/confirm_reset_password.js:188
+#: app/scripts/views/confirm_reset_password.js:180
 msgid "Password reset successfully. Sign in to continue."
 msgstr "ពាក្យ​សម្ងាត់​ត្រូវបាន​កំណត់​ឡើងវិញ​ដោយ​ជោគជ័យ។ សូម​ចូល ដើម្បី​បន្ត។"
 
@@ -54,23 +54,27 @@ msgstr "Firefox Sync នឹង​បន្ត​ឆាប់ៗ"
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "បញ្ចប់​ការដំឡើង​ដោយ​បញ្ចូល​ពាក្យ​សម្ងាត់​ថ្មី​នៅ​លើ​ឧបករណ៍ Firefox ផ្សេង​ទៀត​របស់​អ្នក។"
 
-#: app/scripts/views/ready.js:45
+#: app/scripts/views/ready.js:44 app/scripts/templates/connect_another_device.mustache:4
+msgid "Email verified"
+msgstr ""
+
+#: app/scripts/views/ready.js:49
 msgid "Sign-in confirmed"
 msgstr "ការ​ចូល​ត្រូវបាន​បញ្ជាក់"
 
-#: app/scripts/views/ready.js:46 app/scripts/views/ready.js:51 app/scripts/templates/ready.mustache:3
+#: app/scripts/views/ready.js:50 app/scripts/views/ready.js:55 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "ឥឡូវ អ្នក​អាច​ប្រើ​ប្រាស់​ %(serviceName)s បាន​ហើយ"
 
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:54
 msgid "Account verified"
 msgstr "គណនី​ត្រូវបាន​ផ្ទៀងផ្ទាត់"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177
+#: app/scripts/views/reset_password.js:65 app/scripts/views/sign_in.js:172
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "មិន​ស្គាល់​គណនី។ <a href=\"/signup\">ចុះឈ្មោះ</a>"
 
-#: app/scripts/views/sign_in.js:174
+#: app/scripts/views/sign_in.js:169
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "មិន​ស្គាល់​គណនី Firefox ។ <a href=\"/signup\">ចុះឈ្មោះ</a> ប្រើប្រាស់​អាសយដ្ឋាន​អ៊ីមែល​​គណនី​កម្មវិធី​បន្ថែម​មុនៗ​របស់​អ្នក ដើម្បី​ចូលប្រើប្រាស់​ទិន្នន័យ​កម្មវិធី​បន្ថែម​របស់​អ្នក។"
 
@@ -78,17 +82,13 @@ msgstr "មិន​ស្គាល់​គណនី Firefox ។ <a href=\"/si
 msgid "Account no longer exists. Recreate it?"
 msgstr "គណនី​លែង​មាន​ទៀត​ហើយ។ បង្កើត​វា​ឡើងវិញ?"
 
-#: app/scripts/views/sign_up.js:383
+#: app/scripts/views/sign_up.js:379
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "គណនី​មាន​រួច​ហើយ។ <a href=\"/signin\">ចូល</a>"
 
 #: app/scripts/views/sms_sent.js:24
 msgid "App link resent to %(phoneNumber)s"
 msgstr "បាន​ផ្ញើ​តំណ​កម្មវិធី​​​ទៅ​កាន់ %(phoneNumber)s ឡើងវិញ"
-
-#: app/scripts/views/settings/avatar_gravatar.js:93
-msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr ""
 
 #: app/scripts/views/settings/change_password.js:52
 msgid "Password changed successfully"
@@ -100,21 +100,23 @@ msgstr "យើង​សោកស្ដាយ​ដែល​បាន​ដឹង
 
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
-"យើង​សោកស្ដាយ​ដែល​បាន​ដឹង​អំពី​រឿង​នេះ។ បើ​នេះ​ជា​ឧបករណ៍​ដែល​អ្នក​មិន​ទុកចិត្ត​ទេ អ្នក​គួរតែ​ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​គណនី Firefox របស់​អ្នក "
-"និង​ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​ទាំងឡាយ​​ដែល​បាន​រក្សាទុក​នៅ​ក្នុង Firefox ។"
+msgstr "យើង​សោកស្ដាយ​ដែល​បាន​ដឹង​អំពី​រឿង​នេះ។ បើ​នេះ​ជា​ឧបករណ៍​ដែល​អ្នក​មិន​ទុកចិត្ត​ទេ អ្នក​គួរតែ​ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​គណនី Firefox របស់​អ្នក និង​ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​ទាំងឡាយ​​ដែល​បាន​រក្សាទុក​នៅ​ក្នុង Firefox ។"
 
-#: app/scripts/views/settings/clients.js:63
+#: app/scripts/views/settings/clients.js:64
 msgid "Web Session, %(userAgent)s"
 msgstr "សម័យ​​បណ្ដាញ %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:65
+#: app/scripts/views/settings/clients.js:66
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:68
-msgid "Last active %(translatedTimeAgo)s"
-msgstr "សកម្ម​ចុងក្រោយ %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:71
+msgid "started syncing %(translatedTimeAgo)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:76
+msgid "last active %(translatedTimeAgo)s"
+msgstr ""
 
 #: app/scripts/views/settings/communication_preferences.js:104
 msgid "Subscribed successfully"
@@ -131,6 +133,14 @@ msgstr "បាន​លុប​គណនី​ដោយ​ជោគជ័យ"
 #: app/scripts/views/settings/display_name.js:66
 msgid "Display name updated"
 msgstr "បាន​ប្ដូរ​ឈ្មោះ​បង្ហាញ​ថ្មី"
+
+#: app/scripts/views/settings/emails.js:137
+msgid "A verification link has been sent to %(email)s"
+msgstr ""
+
+#: app/scripts/views/settings/emails.js:150
+msgid "Verification emailed to %(email)s"
+msgstr ""
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -164,7 +174,7 @@ msgstr "បើក Restmail"
 msgid "Email resent"
 msgstr "បាន​ផ្ញើ​អ៊ីមែល​ឡើងវិញ"
 
-#: app/scripts/models/reliers/sync.js:50
+#: app/scripts/models/reliers/sync.js:51
 msgid "Firefox Sync"
 msgstr "Firefox សមកាលកម្ម"
 
@@ -197,7 +207,7 @@ msgstr "ពេលវេលា​មិន​ត្រឹមត្រូវ​ន
 msgid "Invalid nonce in request signature"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:47
+#: app/scripts/lib/auth-errors.js:47 app/scripts/lib/auth-errors.js:159 app/scripts/lib/auth-errors.js:163
 msgid "Account already exists"
 msgstr "គណនី​មាន​រួច​ហើយ"
 
@@ -249,7 +259,7 @@ msgstr "តួអត្ថបទ​ដែល​ស្នើ​ច្រើន​
 msgid "The request was blocked for security reasons"
 msgstr "ការ​ស្នើ​ត្រូវបាន​បិទ​ដោយសារ​បញ្ហា​សុវត្ថិភាព"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:380
 msgid "Invalid authorization code"
 msgstr "កូដ​អនុញ្ញាត​មិន​ត្រឹមត្រូវ"
 
@@ -277,143 +287,159 @@ msgstr "អ៊ីមែល​របស់​អ្នក​ទើបតែ​ផ
 msgid "Unable to deliver email"
 msgstr "មិន​អាច​បញ្ជូន​អ៊ីមែល​បាន​ទេ"
 
-#: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327
+#: app/scripts/lib/auth-errors.js:151
+msgid "This email was already verified by another user"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:155
+msgid "Secondary email must be different than your account email"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:167
+msgid "Primary account email required for sign-in"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:171
+msgid "Address in use by another account"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:175
+msgid "Primary account email required for reset"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:180 app/scripts/lib/auth-errors.js:360
 msgid "Server busy, try again soon"
 msgstr "ម៉ាស៊ីនមេ​ជាប់រវល់ ព្យាយាម​ម្ដង​ទៀត​ឆាប់ៗ"
 
-#: app/scripts/lib/auth-errors.js:154
+#: app/scripts/lib/auth-errors.js:184
 msgid "This endpoint is no longer supported"
 msgstr "ចំណុច​បញ្ចប់​នេះ​មិន​ស្គាល់​ទៀត​ទេ"
 
-#: app/scripts/lib/auth-errors.js:158 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/auth-errors.js:188 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "ប្រព័ន្ធ​មិន​ដំណើរការ សូម​ព្យាយាម​ម្ដង​ទៀត​នៅ​ពេល​ឆាប់ៗ"
 
-#: app/scripts/lib/auth-errors.js:162
+#: app/scripts/lib/auth-errors.js:192
 msgid "Login attempt cancelled"
 msgstr "បាន​​បោះបង់​ការព្យាយាម​ចូល"
 
-#: app/scripts/lib/auth-errors.js:166
+#: app/scripts/lib/auth-errors.js:196
 msgid "Session expired. Sign in to continue."
 msgstr "សម័យ​បាន​ផុតកំណត់។ ចូល ដើម្បី​បន្ត។"
 
-#: app/scripts/lib/auth-errors.js:170
+#: app/scripts/lib/auth-errors.js:200
 msgid "Cookies are still disabled"
 msgstr "ខូគី​​នៅតែ​ត្រូវបាន​បិទ"
 
-#: app/scripts/lib/auth-errors.js:174
+#: app/scripts/lib/auth-errors.js:204
 msgid "Passwords do not match"
 msgstr "ពាក្យ​សម្ងាត់​មិន​ត្រូវគ្នា"
 
-#: app/scripts/lib/auth-errors.js:178
+#: app/scripts/lib/auth-errors.js:208
 msgid "Working…"
 msgstr "កំពុង​ដំណើរការ..."
 
-#: app/scripts/lib/auth-errors.js:182
+#: app/scripts/lib/auth-errors.js:212
 msgid "Could not get Privacy Notice"
 msgstr "មិន​អាច​ទទួល​បាន​ការជូនដំណឹង​អំពី​ឯកជនភាព​បាន​ទេ"
 
-#: app/scripts/lib/auth-errors.js:186
+#: app/scripts/lib/auth-errors.js:216
 msgid "Could not get Terms of Service"
 msgstr "មិន​អាច​ទទួល​លក្ខខណ្ឌ​ប្រើប្រាស់​បាន​ទេ"
 
-#: app/scripts/lib/auth-errors.js:190
+#: app/scripts/lib/auth-errors.js:220
 msgid "Your new password must be different"
 msgstr "ពាក្យ​សម្ងាត់​ថ្មី​របស់​អ្នក​ត្រូវតែ​ខុសពី​មុន"
 
-#: app/scripts/lib/auth-errors.js:194 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
+#: app/scripts/lib/auth-errors.js:224 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "ត្រូវតែ​មាន​យ៉ាងហោចណាស់ 8 តួអក្សរ"
 
-#: app/scripts/lib/auth-errors.js:198
+#: app/scripts/lib/auth-errors.js:228
 msgid "Valid password required"
 msgstr "តម្រូវ​ឲ្យ​បញ្ចូល​ពាក្យ​សម្ងាត់​ត្រឹមត្រូវ"
 
-#: app/scripts/lib/auth-errors.js:202 app/scripts/lib/auth-errors.js:240 app/scripts/lib/auth-errors.js:256
+#: app/scripts/lib/auth-errors.js:232 app/scripts/lib/auth-errors.js:270 app/scripts/lib/auth-errors.js:286
 msgid "Valid email required"
 msgstr "តម្រូវឲ្យ​មាន​អ៊ីមែល​ត្រឹមត្រូវ"
 
-#: app/scripts/lib/auth-errors.js:213
+#: app/scripts/lib/auth-errors.js:243
 msgid "A usable image was not found"
 msgstr "រក​មិន​ឃើញ​រូបភាព​ដែល​អាច​ប្រើប្រាស់​បាន"
 
-#: app/scripts/lib/auth-errors.js:217
+#: app/scripts/lib/auth-errors.js:247
 msgid "Could not initialize camera"
 msgstr "មិន​អាច​ចាប់ផ្ដើម​កាមេរ៉ា"
 
-#: app/scripts/lib/auth-errors.js:221
+#: app/scripts/lib/auth-errors.js:251
 msgid "Valid URL required"
 msgstr "តម្រូវ​ឲ្យ​មាន URL ត្រឹមត្រូវ"
 
-#: app/scripts/lib/auth-errors.js:236
+#: app/scripts/lib/auth-errors.js:266
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:244
+#: app/scripts/lib/auth-errors.js:274
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:252
+#: app/scripts/lib/auth-errors.js:282
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:271 app/scripts/templates/complete_sign_up.mustache:9
+#: app/scripts/lib/auth-errors.js:301 app/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:279
+#: app/scripts/lib/auth-errors.js:309
 msgid "The image dimensions must be at least 100x100px"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:283
+#: app/scripts/lib/auth-errors.js:313
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:294
+#: app/scripts/lib/auth-errors.js:324
 msgid "You must enter your age to sign up"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:298
-msgid "No Gravatar found"
-msgstr ""
-
-#: app/scripts/lib/auth-errors.js:306
+#: app/scripts/lib/auth-errors.js:339
 msgid "Account no longer exists."
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:310
+#: app/scripts/lib/auth-errors.js:343
 msgid "Invalid property in resume token: %(property)s"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:314
+#: app/scripts/lib/auth-errors.js:347
 msgid "Missing property in resume token: %(property)s"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:318
+#: app/scripts/lib/auth-errors.js:351
 msgid "Invalid data attribute: %(property)s"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:322
+#: app/scripts/lib/auth-errors.js:355
 msgid "Missing data attribute: %(property)s"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:335 app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/lib/auth-errors.js:368 app/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:339
+#: app/scripts/lib/auth-errors.js:372
 msgid "This is a required field"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:343
+#: app/scripts/lib/auth-errors.js:376
 msgid "Authorization code required"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:351 app/scripts/templates/report_sign_in.mustache:1
+#: app/scripts/lib/auth-errors.js:384 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:374
+#: app/scripts/lib/auth-errors.js:407
 msgid "Phone number required"
 msgstr ""
 
@@ -522,7 +548,9 @@ msgid "SMS not sent, please try again"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
@@ -726,12 +754,8 @@ msgstr ""
 msgid "Connect another device"
 msgstr ""
 
-#: app/scripts/templates/connect_another_device.mustache:2
-msgid "This device is connected"
-msgstr ""
-
-#: app/scripts/templates/connect_another_device.mustache:4
-msgid "Email verified"
+#: app/scripts/templates/connect_another_device.mustache:2 app/scripts/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
 msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:3
@@ -833,26 +857,30 @@ msgstr ""
 msgid "Download Firefox for mobile devices."
 msgstr ""
 
-#: app/scripts/templates/permissions.mustache:1 app/scripts/templates/settings/gravatar_permissions.mustache:1
+#: app/scripts/templates/permissions.mustache:1
 msgid "Request for permission"
 msgstr ""
 
-#: app/scripts/templates/permissions.mustache:2 app/scripts/templates/settings/gravatar_permissions.mustache:2
+#: app/scripts/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
 msgstr ""
 
-#: app/scripts/templates/permissions.mustache:3 app/scripts/templates/settings/gravatar_permissions.mustache:4
+#: app/scripts/templates/permissions.mustache:3
 msgid "Accept"
 msgstr ""
 
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
-#: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9
-#: app/scripts/templates/settings/communication_preferences.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6
-#: app/scripts/templates/settings/display_name.mustache:8 app/scripts/templates/settings/gravatar_permissions.mustache:5
+#: app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9 app/scripts/templates/settings/communication_preferences.mustache:5
+#: app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6 app/scripts/templates/settings/display_name.mustache:8
+#: app/scripts/templates/settings/emails.mustache:20
 msgid "Cancel"
 msgstr ""
 
 #: app/scripts/templates/ready.mustache:5
+msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
+msgstr ""
+
+#: app/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
 msgstr ""
 
@@ -884,7 +912,7 @@ msgstr ""
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr ""
 
-#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
+#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13
 msgid "Email"
 msgstr ""
 
@@ -980,10 +1008,6 @@ msgstr ""
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr ""
 
-#: app/scripts/templates/sms_send.mustache:2
-msgid "This Firefox is connected"
-msgstr ""
-
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
 msgstr ""
@@ -994,11 +1018,7 @@ msgstr ""
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
-"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
-
-#: app/scripts/templates/sms_send.mustache:9
-msgid "Maybe later"
+"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
@@ -1038,11 +1058,11 @@ msgid "Got it"
 msgstr ""
 
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
-#: app/scripts/templates/settings/display_name.mustache:2
+#: app/scripts/templates/settings/display_name.mustache:2 app/scripts/templates/settings/emails.mustache:3
 msgid "Change…"
 msgstr ""
 
-#: app/scripts/templates/settings/avatar.mustache:4 app/scripts/templates/settings/display_name.mustache:4
+#: app/scripts/templates/settings/avatar.mustache:4 app/scripts/templates/settings/display_name.mustache:4 app/scripts/templates/settings/emails.mustache:5
 msgid "Add…"
 msgstr ""
 
@@ -1059,14 +1079,10 @@ msgid "Camera"
 msgstr ""
 
 #: app/scripts/templates/settings/avatar_change.mustache:3
-msgid "Gravatar"
-msgstr ""
-
-#: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Clear"
 msgstr ""
 
-#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:26
+#: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:17
 msgid "Done"
 msgstr ""
 
@@ -1076,10 +1092,6 @@ msgstr ""
 
 #: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:7
 msgid "Change"
-msgstr ""
-
-#: app/scripts/templates/settings/avatar_gravatar.mustache:2
-msgid "Save"
 msgstr ""
 
 #: app/scripts/templates/settings/change_password.mustache:3
@@ -1118,7 +1130,7 @@ msgstr ""
 msgid "Rather not say"
 msgstr ""
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:14
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Disconnect"
 msgstr ""
 
@@ -1134,39 +1146,39 @@ msgstr ""
 msgid "Show"
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:5
+#: app/scripts/templates/settings/clients.mustache:6
 msgid "current device"
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:7
+#: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:9
+#: app/scripts/templates/settings/clients.mustache:11
 msgid "current session"
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:17
+#: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21
+#: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
 msgid "none connected"
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22
+#: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/clients.mustache:22
 msgid "Firefox for Android"
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:24
+#: app/scripts/templates/settings/clients.mustache:26
 msgid "Missing or duplicate items?"
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:25
+#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:15
 msgid "Refresh"
 msgstr ""
 
@@ -1206,6 +1218,34 @@ msgstr ""
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr ""
 
+#: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:14
+msgid "Secondary email"
+msgstr ""
+
+#: app/scripts/templates/settings/emails.mustache:6
+msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
+msgstr ""
+
+#: app/scripts/templates/settings/emails.mustache:7
+msgid "verified"
+msgstr ""
+
+#: app/scripts/templates/settings/emails.mustache:9
+msgid "verification required"
+msgstr ""
+
+#: app/scripts/templates/settings/emails.mustache:10
+msgid "Remove"
+msgstr ""
+
+#: app/scripts/templates/settings/emails.mustache:11
+msgid "Didn't arrive and not in spam folder? Resend?"
+msgstr ""
+
+#: app/scripts/templates/settings/emails.mustache:19
+msgid "Add"
+msgstr ""
+
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
 msgstr ""
@@ -1227,13 +1267,16 @@ msgid "Use Firefox Account"
 msgstr ""
 
 #. submit button
-#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:90
+#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:95
 msgctxt "submit button"
 msgid "Sign in"
 msgstr ""
 
 #. header text
-#: app/scripts/views/sign_in.js:93
+#: app/scripts/views/sign_in.js:98
 msgctxt "header text"
 msgid "Sign in"
 msgstr ""
+
+#~ msgid "Last active %(translatedTimeAgo)s"
+#~ msgstr "សកម្ម​ចុងក្រោយ %(translatedTimeAgo)s"

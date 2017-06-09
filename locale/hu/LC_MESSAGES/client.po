@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-17 16:35+0000\n"
-"PO-Revision-Date: 2017-04-18 19:17+0000\n"
-"Last-Translator: Kalman \"KAMI\" Szalai <kami911@gmail.com>\n"
+"POT-Creation-Date: 2017-05-26 16:09+0000\n"
+"PO-Revision-Date: 2017-05-29 08:29+0000\n"
+"Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1441541945.0\n"
 
-#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:186 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
+#: app/scripts/views/complete_sign_up.js:177 app/scripts/models/auth_brokers/web.js:22
 msgid "Account verified successfully"
 msgstr "A fiók sikeresen ellenőrizve"
 
@@ -23,7 +23,7 @@ msgstr "A fiók sikeresen ellenőrizve"
 msgid "Password reset"
 msgstr "Jelszó visszaállítása"
 
-#: app/scripts/views/confirm_reset_password.js:188
+#: app/scripts/views/confirm_reset_password.js:180
 msgid "Password reset successfully. Sign in to continue."
 msgstr "A jelszó sikeresen visszaállítva. Jelentkezzen be a folytatáshoz."
 
@@ -55,23 +55,27 @@ msgstr "A Firefox Sync mindjárt folytatódik"
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Fejezze be a beállítást az új jelszó megadásával a többi Firefoxos eszközén."
 
-#: app/scripts/views/ready.js:45
+#: app/scripts/views/ready.js:44 app/scripts/templates/connect_another_device.mustache:4
+msgid "Email verified"
+msgstr "E-mail megerősítve"
+
+#: app/scripts/views/ready.js:49
 msgid "Sign-in confirmed"
 msgstr "Bejelentkezés megerősítve"
 
-#: app/scripts/views/ready.js:46 app/scripts/views/ready.js:51 app/scripts/templates/ready.mustache:3
+#: app/scripts/views/ready.js:50 app/scripts/views/ready.js:55 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Most már készen áll a %(serviceName)s használatára"
 
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:54
 msgid "Account verified"
 msgstr "Fiók ellenőrizve"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177
+#: app/scripts/views/reset_password.js:65 app/scripts/views/sign_in.js:172
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Ismeretlen fiók. <a href=\"/signup\">Feliratkozás</a>"
 
-#: app/scripts/views/sign_in.js:174
+#: app/scripts/views/sign_in.js:169
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Ismeretlen Firefox fiók. <a href=\"/signup\">Jelentkezzen be</a> az előző Kiegészítők fiókjának e-mail címével, hogy elérje a Kiegészítők adatait."
 
@@ -79,17 +83,13 @@ msgstr "Ismeretlen Firefox fiók. <a href=\"/signup\">Jelentkezzen be</a> az el�
 msgid "Account no longer exists. Recreate it?"
 msgstr "A fiók már nem létezik. Újra létrehozza?"
 
-#: app/scripts/views/sign_up.js:383
+#: app/scripts/views/sign_up.js:379
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "A fiók már létezik. <a href=\"/signin\">Bejelentkezés</a>"
 
 #: app/scripts/views/sms_sent.js:24
 msgid "App link resent to %(phoneNumber)s"
 msgstr "App hivatkozás újraküldve ide: %(phoneNumber)s"
-
-#: app/scripts/views/settings/avatar_gravatar.js:93
-msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr "A <a href=\"https://www.gravatar.com\">Gravatar</a> jóvoltából"
 
 #: app/scripts/views/settings/change_password.js:52
 msgid "Password changed successfully"
@@ -103,17 +103,21 @@ msgstr "Sajnálattal halljuk. Célszerű megváltoztatnia a Firefox fiókja jels
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Sajnálattal halljuk. Ha tényleg nem bízik ebben az eszközben, akkor változtassa meg a Firefox fiókja jelszavát, és minden olyan jelszót, amit mentett a Firefoxban."
 
-#: app/scripts/views/settings/clients.js:63
+#: app/scripts/views/settings/clients.js:64
 msgid "Web Session, %(userAgent)s"
 msgstr "Webes munkamenetet, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:65
+#: app/scripts/views/settings/clients.js:66
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:68
-msgid "Last active %(translatedTimeAgo)s"
-msgstr "Legutóbb aktív: %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:71
+msgid "started syncing %(translatedTimeAgo)s"
+msgstr "szinkronizálás elkezdve: %(translatedTimeAgo)s"
+
+#: app/scripts/views/settings/clients.js:76
+msgid "last active %(translatedTimeAgo)s"
+msgstr "legutóbb aktív: %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/communication_preferences.js:104
 msgid "Subscribed successfully"
@@ -130,6 +134,14 @@ msgstr "Fiók sikeresen törölve"
 #: app/scripts/views/settings/display_name.js:66
 msgid "Display name updated"
 msgstr "A megjelenő név frissítve"
+
+#: app/scripts/views/settings/emails.js:137
+msgid "A verification link has been sent to %(email)s"
+msgstr "Ellenőrzési hivatkozás elküldve ide: %(email)s"
+
+#: app/scripts/views/settings/emails.js:150
+msgid "Verification emailed to %(email)s"
+msgstr "Ellenőrző e-mail elküldve ide: %(email)s"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -163,7 +175,7 @@ msgstr "Restmail megnyitása"
 msgid "Email resent"
 msgstr "E-mail újraküldve"
 
-#: app/scripts/models/reliers/sync.js:50
+#: app/scripts/models/reliers/sync.js:51
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
@@ -196,7 +208,7 @@ msgstr "Érvénytelen időbélyeg a kérés aláírásában"
 msgid "Invalid nonce in request signature"
 msgstr "Érvénytelen nonce kód a kérés aláírásában"
 
-#: app/scripts/lib/auth-errors.js:47
+#: app/scripts/lib/auth-errors.js:47 app/scripts/lib/auth-errors.js:159 app/scripts/lib/auth-errors.js:163
 msgid "Account already exists"
 msgstr "A fiók már létezik"
 
@@ -248,7 +260,7 @@ msgstr "A kérés törzse túl nagy"
 msgid "The request was blocked for security reasons"
 msgstr "A kérés biztonsági okokból blokkolva lett"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:380
 msgid "Invalid authorization code"
 msgstr "Érvénytelen engedélyezési kód"
 
@@ -276,143 +288,159 @@ msgstr "Az e-mail visszapattant. Talán elgépelte a címet?"
 msgid "Unable to deliver email"
 msgstr "Az e-mail nem kézbesíthető"
 
-#: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327
+#: app/scripts/lib/auth-errors.js:151
+msgid "This email was already verified by another user"
+msgstr "Az e-mailt már egy másik felhasználó megerősítette"
+
+#: app/scripts/lib/auth-errors.js:155
+msgid "Secondary email must be different than your account email"
+msgstr "A másodlagos e-mail címnek különböznie kell a fiók e-mail címétől"
+
+#: app/scripts/lib/auth-errors.js:167
+msgid "Primary account email required for sign-in"
+msgstr "A fiók elsődleges e-mail címe szükséges a bejelentkezéshez"
+
+#: app/scripts/lib/auth-errors.js:171
+msgid "Address in use by another account"
+msgstr "A címet már használja egy másik fiók"
+
+#: app/scripts/lib/auth-errors.js:175
+msgid "Primary account email required for reset"
+msgstr "A fiók elsődleges e-mail címe szükséges a helyreállításhoz"
+
+#: app/scripts/lib/auth-errors.js:180 app/scripts/lib/auth-errors.js:360
 msgid "Server busy, try again soon"
 msgstr "A kiszolgáló elfoglalt, próbálja újra később"
 
-#: app/scripts/lib/auth-errors.js:154
+#: app/scripts/lib/auth-errors.js:184
 msgid "This endpoint is no longer supported"
 msgstr "Ez a végpont már nem támogatott"
 
-#: app/scripts/lib/auth-errors.js:158 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/auth-errors.js:188 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "A rendszer nem érhető el, próbálja újra később"
 
-#: app/scripts/lib/auth-errors.js:162
+#: app/scripts/lib/auth-errors.js:192
 msgid "Login attempt cancelled"
 msgstr "Bejelentkezési kísérlet megszakítva"
 
-#: app/scripts/lib/auth-errors.js:166
+#: app/scripts/lib/auth-errors.js:196
 msgid "Session expired. Sign in to continue."
 msgstr "A munkamenet lejárt. Jelentkezzen be a folytatáshoz."
 
-#: app/scripts/lib/auth-errors.js:170
+#: app/scripts/lib/auth-errors.js:200
 msgid "Cookies are still disabled"
 msgstr "A sütik még mindig le vannak tiltva"
 
-#: app/scripts/lib/auth-errors.js:174
+#: app/scripts/lib/auth-errors.js:204
 msgid "Passwords do not match"
 msgstr "A jelszavak nem egyeznek"
 
-#: app/scripts/lib/auth-errors.js:178
+#: app/scripts/lib/auth-errors.js:208
 msgid "Working…"
 msgstr "Dolgozunk…"
 
-#: app/scripts/lib/auth-errors.js:182
+#: app/scripts/lib/auth-errors.js:212
 msgid "Could not get Privacy Notice"
 msgstr "Az Adatvédelmi nyilatkozat nem kérhető le"
 
-#: app/scripts/lib/auth-errors.js:186
+#: app/scripts/lib/auth-errors.js:216
 msgid "Could not get Terms of Service"
 msgstr "A Felhasználási feltételek nem kérhetők le"
 
-#: app/scripts/lib/auth-errors.js:190
+#: app/scripts/lib/auth-errors.js:220
 msgid "Your new password must be different"
 msgstr "Az új jelszónak különbözőnek kell lennie"
 
-#: app/scripts/lib/auth-errors.js:194 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
+#: app/scripts/lib/auth-errors.js:224 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "Legalább 8 karakter hosszú kell legyen"
 
-#: app/scripts/lib/auth-errors.js:198
+#: app/scripts/lib/auth-errors.js:228
 msgid "Valid password required"
 msgstr "Érvényes jelszó szükséges"
 
-#: app/scripts/lib/auth-errors.js:202 app/scripts/lib/auth-errors.js:240 app/scripts/lib/auth-errors.js:256
+#: app/scripts/lib/auth-errors.js:232 app/scripts/lib/auth-errors.js:270 app/scripts/lib/auth-errors.js:286
 msgid "Valid email required"
 msgstr "Érvényes e-mail szükséges"
 
-#: app/scripts/lib/auth-errors.js:213
+#: app/scripts/lib/auth-errors.js:243
 msgid "A usable image was not found"
 msgstr "Nem található használható kép"
 
-#: app/scripts/lib/auth-errors.js:217
+#: app/scripts/lib/auth-errors.js:247
 msgid "Could not initialize camera"
 msgstr "Nem készíthető elő a kamera"
 
-#: app/scripts/lib/auth-errors.js:221
+#: app/scripts/lib/auth-errors.js:251
 msgid "Valid URL required"
 msgstr "Érvényes URL szükséges"
 
-#: app/scripts/lib/auth-errors.js:236
+#: app/scripts/lib/auth-errors.js:266
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Az ellenőrző e-mail visszapattant. Talán elgépelte?"
 
-#: app/scripts/lib/auth-errors.js:244
+#: app/scripts/lib/auth-errors.js:274
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Írjon be egy érvényes e-mail címet. A firefox.com nem nyújt e-mail szolgáltatást."
 
-#: app/scripts/lib/auth-errors.js:252
+#: app/scripts/lib/auth-errors.js:282
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "A Firefox fiókok csak egy IFRAME-be helyezhető el a jóváhagyott oldalakon"
 
-#: app/scripts/lib/auth-errors.js:271 app/scripts/templates/complete_sign_up.mustache:9
+#: app/scripts/lib/auth-errors.js:301 app/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
 msgstr "Az ellenőrzési hivatkozás sérült"
 
-#: app/scripts/lib/auth-errors.js:279
+#: app/scripts/lib/auth-errors.js:309
 msgid "The image dimensions must be at least 100x100px"
 msgstr "A kép méreteinek legalább 100x100 képpontnak kell lenniük."
 
-#: app/scripts/lib/auth-errors.js:283
+#: app/scripts/lib/auth-errors.js:313
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "A regisztráció hamarosan érkezik a Firefox for iOS-re"
 
-#: app/scripts/lib/auth-errors.js:294
+#: app/scripts/lib/auth-errors.js:324
 msgid "You must enter your age to sign up"
 msgstr "A feliratkozáshoz meg kell adnia életkorát"
 
-#: app/scripts/lib/auth-errors.js:298
-msgid "No Gravatar found"
-msgstr "Nem található Gravatar"
-
-#: app/scripts/lib/auth-errors.js:306
+#: app/scripts/lib/auth-errors.js:339
 msgid "Account no longer exists."
 msgstr "A fiók már nem létezik."
 
-#: app/scripts/lib/auth-errors.js:310
+#: app/scripts/lib/auth-errors.js:343
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Érvénytelen tulajdonság a folytatási tokenben: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:314
+#: app/scripts/lib/auth-errors.js:347
 msgid "Missing property in resume token: %(property)s"
 msgstr "Hiányzó tulajdonság a folytatási tokenben: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:318
+#: app/scripts/lib/auth-errors.js:351
 msgid "Invalid data attribute: %(property)s"
 msgstr "Érvénytelen adatattribútum: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:322
+#: app/scripts/lib/auth-errors.js:355
 msgid "Missing data attribute: %(property)s"
 msgstr "Hiányzó adatattribútum: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:335 app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/lib/auth-errors.js:368 app/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "A megerősítési hivatkozás már volt használva, és csak egyszer használható."
 
-#: app/scripts/lib/auth-errors.js:339
+#: app/scripts/lib/auth-errors.js:372
 msgid "This is a required field"
 msgstr "Ez egy kötelező mező"
 
-#: app/scripts/lib/auth-errors.js:343
+#: app/scripts/lib/auth-errors.js:376
 msgid "Authorization code required"
 msgstr "Engedélyezési kód szükséges"
 
-#: app/scripts/lib/auth-errors.js:351 app/scripts/templates/report_sign_in.mustache:1
+#: app/scripts/lib/auth-errors.js:384 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Sérült hivatkozás"
 
-#: app/scripts/lib/auth-errors.js:374
+#: app/scripts/lib/auth-errors.js:407
 msgid "Phone number required"
 msgstr "Telefonszám szükséges"
 
@@ -727,13 +755,9 @@ msgstr "Emlékszik a jelszavára? Jelentkezzen be"
 msgid "Connect another device"
 msgstr "Másik eszköz csatlakoztatása"
 
-#: app/scripts/templates/connect_another_device.mustache:2
-msgid "This device is connected"
-msgstr "Ez az eszköz csatlakoztatva van"
-
-#: app/scripts/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "E-mail megerősítve"
+#: app/scripts/templates/connect_another_device.mustache:2 app/scripts/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
+msgstr "Ez a Firefox csatlakoztatva van"
 
 #: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:3
 msgid "Success"
@@ -835,26 +859,30 @@ msgstr "Töltse le a Firefox for Androidot."
 msgid "Download Firefox for mobile devices."
 msgstr "A Firefox letöltése mobil eszközökre."
 
-#: app/scripts/templates/permissions.mustache:1 app/scripts/templates/settings/gravatar_permissions.mustache:1
+#: app/scripts/templates/permissions.mustache:1
 msgid "Request for permission"
 msgstr "Engedélykérés"
 
-#: app/scripts/templates/permissions.mustache:2 app/scripts/templates/settings/gravatar_permissions.mustache:2
+#: app/scripts/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
 msgstr "%(serviceName)s a következő információkat kéri a fiókjáról:"
 
-#: app/scripts/templates/permissions.mustache:3 app/scripts/templates/settings/gravatar_permissions.mustache:4
+#: app/scripts/templates/permissions.mustache:3
 msgid "Accept"
 msgstr "Elfogadás"
 
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
-#: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9
-#: app/scripts/templates/settings/communication_preferences.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6
-#: app/scripts/templates/settings/display_name.mustache:8 app/scripts/templates/settings/gravatar_permissions.mustache:5
+#: app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9 app/scripts/templates/settings/communication_preferences.mustache:5
+#: app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6 app/scripts/templates/settings/display_name.mustache:8
+#: app/scripts/templates/settings/emails.mustache:20
 msgid "Cancel"
 msgstr "Mégse"
 
 #: app/scripts/templates/ready.mustache:5
+msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
+msgstr "A fiókértesítések most már ide is el lesznek küldve: %(secondaryEmailVerified)s"
+
+#: app/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
 msgstr "A fiókja elkészült!"
 
@@ -886,7 +914,7 @@ msgstr "Tovább erre: %(serviceName)s"
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "Amikor visszaállítja a jelszavát, akkor elveszít minden Sync adatot, amely nincs az eszközei valamelyikén."
 
-#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
+#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13
 msgid "Email"
 msgstr "E-mail"
 
@@ -982,10 +1010,6 @@ msgstr "Van fiókja? Jelentkezzen be"
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr "Küldje a Firefoxot közvetlenül az okostelefonjára, és jelentkezzen be a befejezéshez"
 
-#: app/scripts/templates/sms_send.mustache:2
-msgid "This Firefox is connected"
-msgstr "Ez a Firefox csatlakoztatva van"
-
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
 msgstr "Mobiltelefonszám szükséges"
@@ -996,14 +1020,10 @@ msgstr "Küldés"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
-"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-"Az SMS szolgáltatás csak U.S.A. telefonszámok esetén elérhető. SMS és adathasználati költségek léphetnek fel. Az e-mail vagy az SMS fogadójának engedélye szükséges. <a "
+"Az SMS szolgáltatás csak bizonyos országokban érhető el. SMS és adatforgalmi díjak merülhetnek fel. Az SMS vagy e-mail címzettjének a beleegyezését kell adnia. <a "
 "%(escapedLearnMoreAttributes)s>Tudjon meg többet</a>"
-
-#: app/scripts/templates/sms_send.mustache:9
-msgid "Maybe later"
-msgstr "Talán később"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1046,11 +1066,11 @@ msgid "Got it"
 msgstr "Megértettem!"
 
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
-#: app/scripts/templates/settings/display_name.mustache:2
+#: app/scripts/templates/settings/display_name.mustache:2 app/scripts/templates/settings/emails.mustache:3
 msgid "Change…"
 msgstr "Módosítás…"
 
-#: app/scripts/templates/settings/avatar.mustache:4 app/scripts/templates/settings/display_name.mustache:4
+#: app/scripts/templates/settings/avatar.mustache:4 app/scripts/templates/settings/display_name.mustache:4 app/scripts/templates/settings/emails.mustache:5
 msgid "Add…"
 msgstr "Hozzáadás…"
 
@@ -1067,14 +1087,10 @@ msgid "Camera"
 msgstr "Kamera"
 
 #: app/scripts/templates/settings/avatar_change.mustache:3
-msgid "Gravatar"
-msgstr "Gravatar"
-
-#: app/scripts/templates/settings/avatar_change.mustache:4
 msgid "Clear"
 msgstr "Törlés"
 
-#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:26
+#: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:17
 msgid "Done"
 msgstr "Kész"
 
@@ -1085,10 +1101,6 @@ msgstr "Mozgassa és forgassa képét ahogy szeretné"
 #: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:7
 msgid "Change"
 msgstr "Módosítás"
-
-#: app/scripts/templates/settings/avatar_gravatar.mustache:2
-msgid "Save"
-msgstr "Mentés"
 
 #: app/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
@@ -1126,7 +1138,7 @@ msgstr "Ismétlődő eszköz"
 msgid "Rather not say"
 msgstr "Inkább nem mondja meg"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:14
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Disconnect"
 msgstr "Leválasztás"
 
@@ -1142,39 +1154,39 @@ msgstr "Eszközök és appok"
 msgid "Show"
 msgstr "Megjelenítés"
 
-#: app/scripts/templates/settings/clients.mustache:5
+#: app/scripts/templates/settings/clients.mustache:6
 msgid "current device"
 msgstr "jelenlegi eszköz"
 
-#: app/scripts/templates/settings/clients.mustache:7
+#: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
 msgstr "Bontás…"
 
-#: app/scripts/templates/settings/clients.mustache:9
+#: app/scripts/templates/settings/clients.mustache:11
 msgid "current session"
 msgstr "jelenlegi munkamenet"
 
-#: app/scripts/templates/settings/clients.mustache:17
+#: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
 msgstr "Firefox for iOS"
 
-#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21
+#: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
 msgid "none connected"
 msgstr "nincs csatlakoztatva"
 
-#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22
+#: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
 msgstr "Letöltés"
 
-#: app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/clients.mustache:22
 msgid "Firefox for Android"
 msgstr "Firefox for Android"
 
-#: app/scripts/templates/settings/clients.mustache:24
+#: app/scripts/templates/settings/clients.mustache:26
 msgid "Missing or duplicate items?"
 msgstr "Hiányzó vagy ismétlődő elemek?"
 
-#: app/scripts/templates/settings/clients.mustache:25
+#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:15
 msgid "Refresh"
 msgstr "Frissítés"
 
@@ -1214,6 +1226,34 @@ msgstr "Biztosan törölni szeretné fiókját? Ez a művelet nem vonható vissz
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Válassza ki, hogy hogyan jelenjen meg a neve a Firefoxban és a fiókja kezelésekor."
 
+#: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:14
+msgid "Secondary email"
+msgstr "Másodlagos e-mail"
+
+#: app/scripts/templates/settings/emails.mustache:6
+msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
+msgstr "A másodlagos e-mail cím egy további cím, amelyre megkapja a biztonsági értesítéseket és az új Sync eszközök megerősítéseit."
+
+#: app/scripts/templates/settings/emails.mustache:7
+msgid "verified"
+msgstr "ellenőrizve"
+
+#: app/scripts/templates/settings/emails.mustache:9
+msgid "verification required"
+msgstr "ellenőrzés szükséges"
+
+#: app/scripts/templates/settings/emails.mustache:10
+msgid "Remove"
+msgstr "Eltávolítás"
+
+#: app/scripts/templates/settings/emails.mustache:11
+msgid "Didn't arrive and not in spam folder? Resend?"
+msgstr "Nem érkezett meg és nincs a levélszemét mappában? Újraküldi?"
+
+#: app/scripts/templates/settings/emails.mustache:19
+msgid "Add"
+msgstr "Hozzáadás"
+
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
 msgstr "Hány éves?"
@@ -1235,16 +1275,43 @@ msgid "Use Firefox Account"
 msgstr "Firefox fiók használata"
 
 #. submit button
-#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:90
+#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:95
 msgctxt "submit button"
 msgid "Sign in"
 msgstr "Bejelentkezés"
 
 #. header text
-#: app/scripts/views/sign_in.js:93
+#: app/scripts/views/sign_in.js:98
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Jelentkezzen be"
+
+#~ msgid "Last active %(translatedTimeAgo)s"
+#~ msgstr "Legutóbb aktív: %(translatedTimeAgo)s"
+
+#~ msgid "This device is connected"
+#~ msgstr "Ez az eszköz csatlakoztatva van"
+
+#~ msgid ""
+#~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "Az SMS szolgáltatás csak U.S.A. telefonszámok esetén elérhető. SMS és adathasználati költségek léphetnek fel. Az e-mail vagy az SMS fogadójának engedélye szükséges. <a "
+#~ "%(escapedLearnMoreAttributes)s>Tudjon meg többet</a>"
+
+#~ msgid "Maybe later"
+#~ msgstr "Talán később"
+
+#~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
+#~ msgstr "A <a href=\"https://www.gravatar.com\">Gravatar</a> jóvoltából"
+
+#~ msgid "No Gravatar found"
+#~ msgstr "Nem található Gravatar"
+
+#~ msgid "Gravatar"
+#~ msgstr "Gravatar"
+
+#~ msgid "Save"
+#~ msgstr "Mentés"
 
 #~ msgid "8 characters minimum, but longer if you plan to sync passwords."
 #~ msgstr "Legalább 8 karakter, de legyen hosszabb ha jelszavakat is szeretne szinkronizálni."
@@ -1330,9 +1397,6 @@ msgstr "Jelentkezzen be"
 
 #~ msgid "Create secure passwords to keep your identity safe"
 #~ msgstr "Hozzon létre biztonságos jelszavakat, hogy biztonságban tartsa a személyazonosságát"
-
-#~ msgid "Add"
-#~ msgstr "Hozzáadás"
 
 #~ msgid "Reason for disconnecting&hellip;"
 #~ msgstr "Leválasztás oka&hellip;"
