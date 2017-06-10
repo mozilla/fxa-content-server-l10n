@@ -980,7 +980,7 @@ msgstr "Rnu amiḍan Firefox"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr "Tettnadiḍ Firefox Sync? <a%(escapedSyncSuggestionAttrs)s>bdu dagi</a>"
+msgstr "Tettnadiḍ Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>bdu dagi</a>"
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
