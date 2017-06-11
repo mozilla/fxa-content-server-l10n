@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: 2017-03-25 06:50+0000\n"
-"Last-Translator: um.qshi <um.qshi@gmail.com>\n"
+"PO-Revision-Date: 2017-06-11 11:21+0000\n"
+"Last-Translator: Mohammad Yaseen Khan <myaseen.khan@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
 "MIME-Version: 1.0\n"
@@ -156,7 +156,7 @@ msgstr "Gmail کھولیں"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:25
 msgid "Open Hotmail"
-msgstr ""
+msgstr "ہاٹ میل کھولیں"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:31
 msgid "Open Yahoo"
@@ -249,11 +249,11 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:87
 msgid "Missing content-length header"
-msgstr ""
+msgstr "کانٹینٹ لینتھ ہیڈر موجود نہیں"
 
 #: app/scripts/lib/auth-errors.js:91
 msgid "Request body too large"
-msgstr ""
+msgstr "درخواست کردہ body بہت بڑی ہے"
 
 #: app/scripts/lib/auth-errors.js:109
 msgid "The request was blocked for security reasons"
@@ -317,7 +317,7 @@ msgstr "پیش کار مصروف ہے، کچھ دیر میں پھر کوشش ک�
 
 #: app/scripts/lib/auth-errors.js:188
 msgid "This endpoint is no longer supported"
-msgstr ""
+msgstr "اختتامی نقطہ اب کارآمد نہیں ہے"
 
 #: app/scripts/lib/auth-errors.js:192 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
@@ -381,7 +381,7 @@ msgstr "جائزURL کی ظرورت ہے"
 
 #: app/scripts/lib/auth-errors.js:270
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "آپ کا تصدیقی ای میل واپس کیا گیا۔ کیا آپ نے ای میل غلت ٹائپ کیا؟"
 
 #: app/scripts/lib/auth-errors.js:278
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -389,7 +389,7 @@ msgstr "ایک جائز ای میل پتا داخل کریں ۔ firefox.com ای
 
 #: app/scripts/lib/auth-errors.js:286
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "فائر فاکس کا اکاؤنٹ صرف تصدیق کردہ ویب سائٹس کے IFRAME میں ہی رکھا جاسکتا ہے"
 
 #: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
@@ -552,9 +552,7 @@ msgid "SMS not sent, please try again"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
