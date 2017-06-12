@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: 2017-05-12 19:37+0000\n"
+"PO-Revision-Date: 2017-06-12 20:46+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -33,11 +33,11 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
-"Úspešne ste pripojili svoje prvé zariadenie k svojmu účtu Firefox Account. Aby ste službu Sync čo najlepšie využili, pripojte sa k nej aj z aplikácie <a href='%(androidUrl)s'>Firefox pre Android</"
-"a> alebo <a href='%(iosUrl)s'>Firefox pre iOS</a>."
+"Úspešne ste pripojili svoje prvé zariadenie k svojmu účtu Firefox Account. Aby ste službu Sync čo najlepšie využili, pripojte sa k nej aj z aplikácie <a href='%(androidUrl)s'>Firefox pre Android</a>"
+" alebo <a href='%(iosUrl)s'>Firefox pre iOS</a>."
 
 #: lib/senders/templates/_pending.txt:5 lib/senders/templates/post_verify.html:4
 msgid "Connect another device"
@@ -201,11 +201,13 @@ msgstr "Prihlásiť sa k službe Sync:"
 
 #: lib/senders/templates/post_verify_secondary.html:2 lib/senders/templates/post_verify_secondary.txt:1 lib/senders/templates/post_verify_secondary_email.html:2
 msgid "Secondary email added"
-msgstr ""
+msgstr "Sekundárna e-mailová adresa bola pridaná"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2 lib/senders/templates/post_verify_secondary_email.html:3
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 msgstr ""
+"Úspešne ste overili adresu %(secondaryEmail)s ako vašu sekundárnu e-mailovú adresu pre váš účet Firefox Account. Bezpečnostné upozornenia a potvrdenia prihlásenia vám budeme zasielať na obe "
+"e-mailové adresy."
 
 #: lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
 msgid "Manage account"
@@ -253,8 +255,8 @@ msgstr "Vitajte späť."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 "Pred pár dňami ste si vytvorili účet Firefox Account, ale zatiaľ ste ho neoverili. Overený účet vám umožní prístup k vašim kartám, záložkám, heslám a histórii na všetkých vašich zariadeniach, ktoré "
 "k nemu pripojíte. Pre aktiváciu jednoducho stačí potvrdiť túto e-mailovú adresu."
@@ -307,7 +309,7 @@ msgstr "Ak máte podozrenie, že sa niekto pokúša neoprávnene získať príst
 
 #: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
 msgid "Verify secondary email"
-msgstr ""
+msgstr "Overiť sekundárnu e-mailovú adresu"
 
 #: lib/senders/templates/verify_secondary.html:3 lib/senders/templates/verify_secondary.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
@@ -403,7 +405,7 @@ msgstr "Účet Firefox Account bol overený"
 
 #: lib/senders/email.js:774
 msgid "Secondary Firefox Account email added"
-msgstr ""
+msgstr "Sekundárna e-mailová adresa bola úspešne pridaná k účtu"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -459,8 +461,8 @@ msgstr "Podmienky používania služby"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 #~ msgstr ""
-#~ "Prihlásili ste sa v posledných 60-tich dňoch ku svojmu účtu Firefoxu Account z niektorého z týchto miest? Ak túto aktivitu nespoznávate, môže to znamenať, že k vášmu účtu mohol získať prístup "
-#~ "niekto ďalší."
+#~ "Prihlásili ste sa v posledných 60-tich dňoch ku svojmu účtu Firefoxu Account z niektorého z týchto miest? Ak túto aktivitu nespoznávate, môže to znamenať, že k vášmu účtu mohol získať prístup niekto"
+#~ " ďalší."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Dátum a čas:"
