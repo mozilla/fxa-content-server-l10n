@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: 2017-06-12 20:41+0000\n"
+"PO-Revision-Date: 2017-06-12 21:06+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -294,11 +294,11 @@ msgstr "Táto e-mailová adresa už bola overená iným používateľom"
 
 #: app/scripts/lib/auth-errors.js:155
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "Sekundárna e-mailová adresa musí byť iná ako adresa účtu"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "Na prihlásenie je nutná primárna e-mailová adresa"
 
 #: app/scripts/lib/auth-errors.js:171
 msgid "Address in use by another account"
@@ -306,7 +306,7 @@ msgstr "Túto e-mailovú adresu používa iný účet"
 
 #: app/scripts/lib/auth-errors.js:175
 msgid "Primary account email required for reset"
-msgstr ""
+msgstr "Pre obnovu je nutná primárna e-mailová adresa"
 
 #: app/scripts/lib/auth-errors.js:179
 msgid "Invalid signin code"
@@ -883,7 +883,7 @@ msgstr "Zrušiť"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr ""
+msgstr "Upozornenia budú odteraz posielané taktiež na adresu %(secondaryEmailVerified)s"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
@@ -1235,11 +1235,11 @@ msgstr "Nastavte si meno, ktoré chcete, aby sa zobrazovalo vo Firefoxe pri spr�
 
 #: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:14
 msgid "Secondary email"
-msgstr ""
+msgstr "Sekundárna e-mailová adresa"
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-msgstr ""
+msgstr "Sekundárna e-mailová adresa je záložná adresa pre prijímanie bezpečnostných upozornení a potvrdzovanie nových zariadení pre synchronizáciu."
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
