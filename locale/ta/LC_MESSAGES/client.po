@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: 2017-06-08 07:05+0000\n"
+"PO-Revision-Date: 2017-06-13 02:08+0000\n"
 "Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
@@ -53,7 +53,7 @@ msgstr "பாயர்பாக்ஸ் ஒத்திசைவு சிற�
 
 #: app/scripts/views/ready.js:41
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "மற்ற பயர்பாஃசு சாதனங்களில் உங்களின் புதிய கடவுச்சொல்லை உள்ளிட்டு அமைத்தலை முடிக்கவும்."
 
 #: app/scripts/views/ready.js:45 app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -77,7 +77,7 @@ msgstr "தெரியாத கணக்கு. <a href=\"/signup\">பதி�
 
 #: app/scripts/views/sign_in.js:168
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr ""
+msgstr "தெரியாத பயர்பாஃசு கணக்கு. கூடுதல் நிரல் கணக்கின் மூலம் <a href=\"/signup\">உள்நுழைந்து</a> கூடுதல் நிரல் தகவலை அணுகவும்."
 
 #: app/scripts/views/sign_up.js:63
 msgid "Account no longer exists. Recreate it?"
@@ -97,7 +97,7 @@ msgstr "கடவுச்சொல் வெற்றிகரமாக மா�
 
 #: app/scripts/views/settings/client_disconnect.js:17
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr ""
+msgstr "கேட்பதற்கு சங்கடமாக உள்ளது. உங்கள் பயர்பாஃசு கணக்கின் கடவுச்சொல்லை மாற்றவும், மேலும் உங்கள் சாதன தாயரிப்பாளர் தகவலின் உதவிகொண்டு தொலைநிலை மூலம் தரவை அகற்ற முடியுமா எனப் பாருங்கள்."
 
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
@@ -169,7 +169,7 @@ msgstr "அவுட்லுக்கைத் திற"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:43
 msgid "Open Restmail"
-msgstr ""
+msgstr "ரெஸ்ட்மடலைத் திற"
 
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
@@ -190,11 +190,11 @@ msgstr "உங்கள் மின்னஞ்சலை சரிபார்�
 
 #: app/scripts/lib/auth-errors.js:21 app/scripts/lib/sms-errors.js:17
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "அதிக முயற்சிகள் செய்துவிட்டீர்கள். சிறிது நேரத்திற்கு கழித்து முயற்சிக்கவும்."
 
 #: app/scripts/lib/auth-errors.js:25
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "அதிக முயற்சிகள் செய்துவிட்டீர்கள். %(retryAfterLocalized)s கழித்து முயற்சிக்கவும்."
 
 #: app/scripts/lib/auth-errors.js:35 app/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
@@ -553,9 +553,7 @@ msgid "SMS not sent, please try again"
 msgstr "குறுந்செய்தி செல்லவில்லை, மீண்டும் முயற்சி"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
