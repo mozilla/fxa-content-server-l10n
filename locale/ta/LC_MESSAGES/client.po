@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: 2017-06-13 02:08+0000\n"
+"PO-Revision-Date: 2017-06-13 02:17+0000\n"
 "Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
@@ -101,7 +101,7 @@ msgstr "கேட்பதற்கு சங்கடமாக உள்ளத�
 
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
+msgstr "கேட்பதற்கு சங்கடமாக உள்ளது. நீங்கள் நம்பக்கூடிய சாதனமாக இல்லையெனில்  உங்கள் பயர்பாஃசு கணக்கின் கடவுச்சொல்லை கணடிப்பாக மாற்றுவதுடன் பயர்பாஃசில் சேமித்த கடவுச்சொற்களையும் மாற்றவும்."
 
 #: app/scripts/views/settings/clients.js:64
 msgid "Web Session, %(userAgent)s"
@@ -286,7 +286,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "மின்னஞ்சலை வழங்க இயலவில்லை"
 
 #: app/scripts/lib/auth-errors.js:151
 msgid "This email was already verified by another user"
@@ -310,7 +310,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:179
 msgid "Invalid signin code"
-msgstr ""
+msgstr "செல்லாத உள்நுழைவு குறியீடு"
 
 #: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
 msgid "Server busy, try again soon"
@@ -358,15 +358,15 @@ msgstr "புதிய கடவுச்சொல் வேறாக இரு
 
 #: app/scripts/lib/auth-errors.js:228 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
-msgstr ""
+msgstr "குறைந்தது 8 எழுத்துக்கள் இருக்கணும்"
 
 #: app/scripts/lib/auth-errors.js:232
 msgid "Valid password required"
-msgstr "செல்லும் கடவுச்சொல் தேவை "
+msgstr "செல்லும் கடவுச்சொல் தேவை"
 
 #: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:274 app/scripts/lib/auth-errors.js:290
 msgid "Valid email required"
-msgstr ""
+msgstr "செல்லுபடியாகும் மின்னஞ்சல் தேவை"
 
 #: app/scripts/lib/auth-errors.js:247
 msgid "A usable image was not found"
@@ -374,7 +374,7 @@ msgstr "பயன்படுத்த கூடிய பிம்பம் க
 
 #: app/scripts/lib/auth-errors.js:251
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "நிழற்படக்கருவியை துவக்க முடியவில்லை"
 
 #: app/scripts/lib/auth-errors.js:255
 msgid "Valid URL required"
@@ -410,7 +410,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:343
 msgid "Account no longer exists."
-msgstr ""
+msgstr "கணக்கு இனி இருக்காது."
 
 #: app/scripts/lib/auth-errors.js:347
 msgid "Invalid property in resume token: %(property)s"
@@ -442,15 +442,15 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:388 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
-msgstr ""
+msgstr "பாதிப்படைந்த தொடுப்ப"
 
 #: app/scripts/lib/auth-errors.js:411
 msgid "Phone number required"
-msgstr ""
+msgstr "தொலைப்பேசி எண் தேவை"
 
 #: app/scripts/lib/config-loader.js:87
 msgid "Missing configuration"
-msgstr ""
+msgstr "கட்டமைப்பு தொலைந்தது"
 
 #: app/scripts/lib/config-loader.js:91
 msgid "Invalid configuration"
@@ -566,11 +566,11 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:37
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (தோராயமாக)"
 
 #: app/scripts/lib/strings.js:38
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (தோராயமாக)"
 
 #: app/scripts/lib/strings.js:39
 msgid "IP address: %(ip)s"
@@ -602,7 +602,7 @@ msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
-msgstr ""
+msgstr "கணக்கை உருவாக்க முடியாது"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
