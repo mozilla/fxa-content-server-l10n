@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-09 20:00+0000\n"
+"POT-Creation-Date: 2017-06-16 16:09+0000\n"
 "PO-Revision-Date: 2017-06-11 18:25+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,11 +79,11 @@ msgstr "Ukjent konto. <a href=\"/signup\">Registrer deg</a>"
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Ukjent Firefox-konto. <a href=\"/signup\">Registrer deg</a> med e-postadressen som du tidligere har brukt for å få tilgang til dine data på nettstedet Utvidelser."
 
-#: app/scripts/views/sign_up.js:63
+#: app/scripts/views/sign_up.js:61
 msgid "Account no longer exists. Recreate it?"
 msgstr "Kontoen finnes ikke lenger. Vil du gjenskape den?"
 
-#: app/scripts/views/sign_up.js:382
+#: app/scripts/views/sign_up.js:380
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Kontoen finnes allerede. <a href=\"/signin\">Logg inn</a>"
 
@@ -103,19 +103,19 @@ msgstr "Det var kjedelig å høre. Du bør endre passordet på Firefox-kontoen d
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Det var kjedelig å høre. Om dette var en enhet du virkelig ikke stoler på, bør du bytte passord på Firefox-kontoen din, og endre alle passord lagret i Firefox."
 
-#: app/scripts/views/settings/clients.js:64
+#: app/scripts/views/settings/clients.js:63
 msgid "Web Session, %(userAgent)s"
 msgstr "Nett-økt, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:66
+#: app/scripts/views/settings/clients.js:65
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:71
+#: app/scripts/views/settings/clients.js:70
 msgid "started syncing %(translatedTimeAgo)s"
 msgstr "startet synkronisering %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:76
+#: app/scripts/views/settings/clients.js:75
 msgid "last active %(translatedTimeAgo)s"
 msgstr "sist aktiv %(translatedTimeAgo)s"
 
@@ -135,13 +135,9 @@ msgstr "Kontoen er nå slettet"
 msgid "Display name updated"
 msgstr "Visningsnavn oppdatert"
 
-#: app/scripts/views/settings/emails.js:137
-msgid "A verification link has been sent to %(email)s"
-msgstr "En bekreftelseslenke er sendt til %(email)s"
-
-#: app/scripts/views/settings/emails.js:150
-msgid "Verification emailed to %(email)s"
-msgstr "Bekreftelse sendt til %(email)s"
+#: app/scripts/views/settings/emails.js:136 app/scripts/views/settings/emails.js:149
+msgid "Verification email sent"
+msgstr ""
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -555,7 +551,9 @@ msgid "SMS not sent, please try again"
 msgstr "SMS ikke sendt, prøv igjen"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Ved å fortsette, aksepterer du <a id=\"service-tos\" href=\"%(termsUri)s\">tjenestevilkårene</a> og <a id=\"service-pp\" href=\"%(privacyUri)s\">personvernsbestemmelser</a> for %(serviceName)s "
 "(%(serviceUri)s)."
@@ -733,12 +731,12 @@ msgid "Email Sent"
 msgstr "E-post sent"
 
 #: app/scripts/templates/confirm.mustache:6
-msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr "En bekreftelseslenke er sendt&nbsp;til %(escapedEmail)s"
+msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: app/scripts/templates/confirm.mustache:8
-msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr "For å bedre beskytte dine Firefox-data, har vi sendt en bekreftelseslenke til %(email)s"
+msgid "Check your email for the sign-in confirmation link sent to %(email)s"
+msgstr ""
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
@@ -968,8 +966,8 @@ msgid "Authorize this sign-in"
 msgstr "Godkjenn denne innloggingen"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
-msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr "For å bedre beskytte Firefox-dataene dine, har vi sendt en godkjenningskode til deg på %(email)s."
+msgid "Check your email for the authorization code sent to %(email)s."
+msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1050,24 +1048,16 @@ msgid "Didn't arrive? Resend"
 msgstr "Kom den ikke fram? Send på nytt"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
-msgid "Why Sync two (or more!) devices?"
-msgstr "Hvorfor synkronisere to (eller flere!) enheter?"
+msgid "Why sync multiple devices?"
+msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
-msgid ""
-"Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-"Firefox for desktop will appear."
+msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
 msgstr ""
-"Med Sync kan du dele bokmerker, historikk og passord, du lagrer i Firefox på én enhet, med Firefox på andre enheter. Logg inn på Firefox på din telefon eller nettbrett, og alt hva du har lagret på "
-"Firefox for PC vil dukke opp."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
-msgid ""
-"Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
-"information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr ""
-"Sync er ikke beregnet som en permanent backup – tjenesten deler kun hva som lagres lokalt. Hvis du nullstiller ditt passord, og dine data ikke er lagret på minst én annen enhet, kan du miste alle "
-"data, som er lagret med ditt gamle passord."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1294,6 +1284,38 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr "Logg inn"
 
+#~ msgid "A verification link has been sent to %(email)s"
+#~ msgstr "En bekreftelseslenke er sendt til %(email)s"
+
+#~ msgid "Verification emailed to %(email)s"
+#~ msgstr "Bekreftelse sendt til %(email)s"
+
+#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "En bekreftelseslenke er sendt&nbsp;til %(escapedEmail)s"
+
+#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+#~ msgstr "For å bedre beskytte dine Firefox-data, har vi sendt en bekreftelseslenke til %(email)s"
+
+#~ msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
+#~ msgstr "For å bedre beskytte Firefox-dataene dine, har vi sendt en godkjenningskode til deg på %(email)s."
+
+#~ msgid "Why Sync two (or more!) devices?"
+#~ msgstr "Hvorfor synkronisere to (eller flere!) enheter?"
+
+#~ msgid ""
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
+#~ msgstr ""
+#~ "Med Sync kan du dele bokmerker, historikk og passord, du lagrer i Firefox på én enhet, med Firefox på andre enheter. Logg inn på Firefox på din telefon eller nettbrett, og alt hva du har lagret "
+#~ "på Firefox for PC vil dukke opp."
+
+#~ msgid ""
+#~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
+#~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+#~ msgstr ""
+#~ "Sync er ikke beregnet som en permanent backup – tjenesten deler kun hva som lagres lokalt. Hvis du nullstiller ditt passord, og dine data ikke er lagret på minst én annen enhet, kan du miste "
+#~ "alle data, som er lagret med ditt gamle passord."
+
 #~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
 #~ msgstr "Ser du etter Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Kom i gang her</a>"
 
@@ -1382,8 +1404,8 @@ msgstr "Logg inn"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "For å bruke Firefox-konti må du aktiver informasjonskapsler i nettleseren din. Informasjonskapsler er små biter av data som er lagret i nettleseren din, som gir funksjonalitet som å huske deg mellom"
-#~ " øktene."
+#~ "For å bruke Firefox-konti må du aktiver informasjonskapsler i nettleseren din. Informasjonskapsler er små biter av data som er lagret i nettleseren din, som gir funksjonalitet som å huske deg "
+#~ "mellom øktene."
 
 #~ msgid "1991"
 #~ msgstr "1991"

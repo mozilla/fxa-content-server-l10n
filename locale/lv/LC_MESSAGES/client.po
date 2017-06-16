@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-09 20:00+0000\n"
+"POT-Creation-Date: 2017-06-16 16:09+0000\n"
 "PO-Revision-Date: 2016-10-02 14:06+0000\n"
 "Last-Translator: iesalnieksdavis <iesalnieksdavis@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,11 +78,11 @@ msgstr "Nezināms konts. <a href=\"/signup\">Reģistrējieties</a>"
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr ""
 
-#: app/scripts/views/sign_up.js:63
+#: app/scripts/views/sign_up.js:61
 msgid "Account no longer exists. Recreate it?"
 msgstr "Konts vairs nepastāv. Vai to atkārtoti izveidot?"
 
-#: app/scripts/views/sign_up.js:382
+#: app/scripts/views/sign_up.js:380
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Konts jau pastāv. <a href=\"/signin\">Ieiet</a>"
 
@@ -102,19 +102,19 @@ msgstr "Mums ir nepatīkami šo dzirdēt. Jums vajadzētu mainīt sava Firefox A
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Mums ir nepatīkami šo dzirdēt. Ja jūs šai iekārtai neuzticaties, jums vajadzētu nomainīt jūsu Firefox Account paroli, un mainīt jebkādas citas paroles saglabātas Firefox."
 
-#: app/scripts/views/settings/clients.js:64
+#: app/scripts/views/settings/clients.js:63
 msgid "Web Session, %(userAgent)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:66
+#: app/scripts/views/settings/clients.js:65
 msgid "%(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:71
+#: app/scripts/views/settings/clients.js:70
 msgid "started syncing %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:76
+#: app/scripts/views/settings/clients.js:75
 msgid "last active %(translatedTimeAgo)s"
 msgstr ""
 
@@ -134,12 +134,8 @@ msgstr "Konts tika veiksmīgi izdzēsts"
 msgid "Display name updated"
 msgstr "Attēlotais vārds atjaunināts"
 
-#: app/scripts/views/settings/emails.js:137
-msgid "A verification link has been sent to %(email)s"
-msgstr ""
-
-#: app/scripts/views/settings/emails.js:150
-msgid "Verification emailed to %(email)s"
+#: app/scripts/views/settings/emails.js:136 app/scripts/views/settings/emails.js:149
+msgid "Verification email sent"
 msgstr ""
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
@@ -732,12 +728,12 @@ msgid "Email Sent"
 msgstr "Epasts aizsūtīts"
 
 #: app/scripts/templates/confirm.mustache:6
-msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
 msgstr ""
 
 #: app/scripts/templates/confirm.mustache:8
-msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr "Lai labāk aizsargātu jūsu Firefox datus, mēs jums nosūtījām apstiprinājuma saiti uz %(email)s"
+msgid "Check your email for the sign-in confirmation link sent to %(email)s"
+msgstr ""
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
@@ -967,7 +963,7 @@ msgid "Authorize this sign-in"
 msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
-msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
+msgid "Check your email for the authorization code sent to %(email)s."
 msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
@@ -1048,19 +1044,15 @@ msgid "Didn't arrive? Resend"
 msgstr "Nesaņēmi? Nosūtīt atkal"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
-msgid "Why Sync two (or more!) devices?"
+msgid "Why sync multiple devices?"
 msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
-msgid ""
-"Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-"Firefox for desktop will appear."
+msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
 msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
-msgid ""
-"Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
-"information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
@@ -1287,6 +1279,9 @@ msgstr ""
 msgctxt "header text"
 msgid "Sign in"
 msgstr ""
+
+#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+#~ msgstr "Lai labāk aizsargātu jūsu Firefox datus, mēs jums nosūtījām apstiprinājuma saiti uz %(email)s"
 
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "Pateicoties <a href=\"https://www.gravatar.com\">Gravatar</a>"
