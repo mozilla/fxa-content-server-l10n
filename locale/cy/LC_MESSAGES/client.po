@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-09 20:00+0000\n"
+"POT-Creation-Date: 2017-06-16 16:09+0000\n"
 "PO-Revision-Date: 2017-05-18 09:19+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,11 +79,11 @@ msgstr "Cyfrif anhysbys. <a href=\"/signup\">Ymunwch</a>"
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Cyfrif Firefox anhysbys. <a href=\"/signup\">Ymunwch</a> gan ddefnyddio eich cyfrif Ychwanegion cyfeiriad e-bost blaenorol i gael mynediad at eich data Ychwanegion."
 
-#: app/scripts/views/sign_up.js:63
+#: app/scripts/views/sign_up.js:61
 msgid "Account no longer exists. Recreate it?"
 msgstr "Nid yw'r cyfrif yn bodoli bellach. Ei ail-greu?"
 
-#: app/scripts/views/sign_up.js:382
+#: app/scripts/views/sign_up.js:380
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Mae cyfrif yn bodoli'n barod. <a href=\"/signin\">Mewngofnodwch</a>"
 
@@ -103,19 +103,19 @@ msgstr "Rydym yn flin i glywed am hyn. Rhaid i chi newid cyfrinair eich Cyfrif F
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Rydym yn flin i glywed am hyn. Os yw hwn yn ddyfais nad ydych yn ymddiried ynddo, rhaid i chi newid cyfrinair eich Cyfrif Firefox, a newid unrhyw gyfrinair sydd wedi ei gadw o fewn Firefox."
 
-#: app/scripts/views/settings/clients.js:64
+#: app/scripts/views/settings/clients.js:63
 msgid "Web Session, %(userAgent)s"
 msgstr "Sesiwn Gwe, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:66
+#: app/scripts/views/settings/clients.js:65
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:71
+#: app/scripts/views/settings/clients.js:70
 msgid "started syncing %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:76
+#: app/scripts/views/settings/clients.js:75
 msgid "last active %(translatedTimeAgo)s"
 msgstr ""
 
@@ -135,12 +135,8 @@ msgstr "Cyfrif wedi ei ddileu'n llwyddiannus"
 msgid "Display name updated"
 msgstr "Diweddarwyd yr enw dangos"
 
-#: app/scripts/views/settings/emails.js:137
-msgid "A verification link has been sent to %(email)s"
-msgstr ""
-
-#: app/scripts/views/settings/emails.js:150
-msgid "Verification emailed to %(email)s"
+#: app/scripts/views/settings/emails.js:136 app/scripts/views/settings/emails.js:149
+msgid "Verification email sent"
 msgstr ""
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
@@ -733,12 +729,12 @@ msgid "Email Sent"
 msgstr "Anfonwyd yr e-bost"
 
 #: app/scripts/templates/confirm.mustache:6
-msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr "Mae dolen dilysu wedi ei hanfon &nbsp; at %(escapedEmail)s"
+msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: app/scripts/templates/confirm.mustache:8
-msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr "I diogelu eich data Firefox yn well, rydym wedi e-bostio dolen yn cadarnhau i %(email)s"
+msgid "Check your email for the sign-in confirmation link sent to %(email)s"
+msgstr ""
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
@@ -968,8 +964,8 @@ msgid "Authorize this sign-in"
 msgstr "Awdurdodi'r mewngofnod hwn"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
-msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr "Er mwyn diogelu eich data Firefox yn well, mae yna god awdurdodiyn aros amdanoch yn %(email)s."
+msgid "Check your email for the authorization code sent to %(email)s."
+msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1051,24 +1047,16 @@ msgid "Didn't arrive? Resend"
 msgstr "Heb gyrraedd? Ail anfon"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
-msgid "Why Sync two (or more!) devices?"
-msgstr "Pam cydweddu dwy ddyfais (neu fwy)?"
+msgid "Why sync multiple devices?"
+msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
-msgid ""
-"Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-"Firefox for desktop will appear."
+msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
 msgstr ""
-"Mae Sync yn caniatau i chi rannu nodau tudalen, hanes a chyfrineiriau rydych wedi eu cadw i Firefox ar un dyfais gyda Firefox ar ddyfais arall. Mewngofnodwch i Firefox ar eich ffôn neu dabled a "
-"bydd popeth rydych wedi eu cadw i Firefox y bwrdd gwaith yn ymddangos."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
-msgid ""
-"Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
-"information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr ""
-"Nid yw Sync wedi ei gynllunio fel modd i gadw stwff wrth gefn yn barhaol - dim ond ar gyfer rhannu beth sydd wedi ei gadw'n lleol. Os fyddwch yn ailosod eich cyfrinair ac nid yw eich data wedi ei "
-"gadw ar o leiaf un ddyfais arall, mae'n bosib i chi golli'r holl fanylion sy'n gysylltiedig â'r hen gyfrinair. Dyna pam fyddwch chi eisiau gosod Firefox a defnyddio Sync ar fwyn nag un ddyfais."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1294,6 +1282,33 @@ msgstr "Mewngofnodi"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Mewngofnodi"
+
+#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Mae dolen dilysu wedi ei hanfon &nbsp; at %(escapedEmail)s"
+
+#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+#~ msgstr "I diogelu eich data Firefox yn well, rydym wedi e-bostio dolen yn cadarnhau i %(email)s"
+
+#~ msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
+#~ msgstr "Er mwyn diogelu eich data Firefox yn well, mae yna god awdurdodiyn aros amdanoch yn %(email)s."
+
+#~ msgid "Why Sync two (or more!) devices?"
+#~ msgstr "Pam cydweddu dwy ddyfais (neu fwy)?"
+
+#~ msgid ""
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
+#~ msgstr ""
+#~ "Mae Sync yn caniatau i chi rannu nodau tudalen, hanes a chyfrineiriau rydych wedi eu cadw i Firefox ar un dyfais gyda Firefox ar ddyfais arall. Mewngofnodwch i Firefox ar eich ffôn neu dabled a "
+#~ "bydd popeth rydych wedi eu cadw i Firefox y bwrdd gwaith yn ymddangos."
+
+#~ msgid ""
+#~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
+#~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+#~ msgstr ""
+#~ "Nid yw Sync wedi ei gynllunio fel modd i gadw stwff wrth gefn yn barhaol - dim ond ar gyfer rhannu beth sydd wedi ei gadw'n lleol. Os fyddwch yn ailosod eich cyfrinair ac nid yw eich data wedi "
+#~ "ei gadw ar o leiaf un ddyfais arall, mae'n bosib i chi golli'r holl fanylion sy'n gysylltiedig â'r hen gyfrinair. Dyna pam fyddwch chi eisiau gosod Firefox a defnyddio Sync ar fwyn nag un "
+#~ "ddyfais."
 
 #~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
 #~ msgstr "Chwilio am Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Cychwyn yma</a>"
