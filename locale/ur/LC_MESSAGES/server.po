@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: 2017-06-21 21:10+0000\n"
+"PO-Revision-Date: 2017-06-21 21:22+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -366,7 +366,7 @@ msgstr "Firefox میں نئے سائن ان کی تصدیق کریں"
 
 #: lib/senders/email.js:492
 msgid "Verify email for Firefox Accounts"
-msgstr ""
+msgstr "Firefox اکائوبٹس کے لیئے ای میل کی تصدیق کریں"
 
 #: lib/senders/email.js:547
 msgid "Reset your Firefox Account password"
@@ -378,7 +378,7 @@ msgstr "آپ کے Firefox اکاؤنٹ کا پاس ورڈ تبدیل کر دیا
 
 #: lib/senders/email.js:627
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "آپ کے Firefox اکاؤنٹ کا پاس ورڈ پھر سیٹ کر دیا گیا ہے"
 
 #: lib/senders/email.js:661
 msgid "Firefox Account password reset required"
@@ -414,7 +414,7 @@ msgstr ""
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "502 نقص"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
