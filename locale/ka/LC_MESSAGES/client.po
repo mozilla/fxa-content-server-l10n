@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: 2017-06-21 22:44+0000\n"
+"PO-Revision-Date: 2017-06-21 23:02+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -579,7 +579,7 @@ msgstr "IP მისამართი: %(ip)s"
 
 #: app/scripts/lib/strings.js:40
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "დამატებითი უსაფრთხოებისთვის, დაამოწმეთ ეს შესვლა, ამ მოწყობილობასთან სინქრონიზაციის დასაწყებად:"
+msgstr "დამატებითი უსაფრთხოებისთვის, გთხოვთ, დაამოწმოთ ეს შესვლა, ამ მოწყობილობასთან სინქრონიზაციის დასაწყებად:"
 
 #: app/scripts/lib/strings.js:43
 msgid "Web Session"
@@ -683,7 +683,7 @@ msgstr "შეიყვანეთ ახალი პაროლი"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-msgstr "როგორც კი ახალ პაროლს გადასცემთ, Sync-ის ყველა ის მონაცემი დაიკარგება, რაც მოწყობილობებზე არ გაქვთ."
+msgstr "როგორც კი ახალ პაროლს დააყენებთ, Sync-ის ყველა ის მონაცემი დაიკარგება, რაც მოწყობილობებზე არ გაქვთ."
 
 #: app/scripts/templates/complete_reset_password.mustache:10 app/scripts/templates/reset_password.mustache:6
 msgid "Learn how Sync works."
@@ -1056,12 +1056,16 @@ msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
 "Firefox for desktop will appear."
 msgstr ""
+"სინქრონიზაცია საშუალებას გაძლევთ ერთ მოწყობილობაზე არსებული Firefox-ის სანიშნეები, ისტორია, პაროლები და ა.შ. გააზიაროთ სხვა მოწყობილობებზე დაყენებულ Firefox-ზეც. შედით ტელეფონიდან ან პალნშეტიდან "
+"Firefox ანგარიშზე და ყველაფერი გამოჩნდება, რაც სახლის კომპიუტერზე გაქვთ შენახული Firefox-ში."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
 "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 msgstr ""
+"სინქრონიზაცია არაა განკუთვნილი მუდმივი დამარქაფებისთვის – ის უბრალოდ არსებულ მონაცემებს აზიარებს. თუ პაროლის განულებისას, მონაცემები ერთ მოწყობილობაზე მაინც არ იქნება შენახული, ძველ პაროლთან ერთად, "
+"შეიძლება ყველაფერი დაკარგოთ. სწორედ ამიტომაა საჭირო Firefox-ის ორ ან მეტ მოწყობილობაზე დაყენება სინქრონიზაციის გამოსაყენებლად."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1114,11 +1118,11 @@ msgstr "ძველი პაროლი"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
-msgstr ""
+msgstr "გსურთ სინქრონიზაციის გაწყვეტა?"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr ""
+msgstr "ბრაუზერის მონაცემები დარჩება %(deviceName)s-ზე, მაგრამ აღარ დასინქრონდება თქვენს ანგარიშზე."
 
 #: app/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Suspicious device"
@@ -1234,7 +1238,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-msgstr ""
+msgstr "ელ-ფოსტის დამატებითი მისამართი გამოიყენება უსაფრთხოების შეტყობინებებისთვის და დასინქრონებისას, ახალი მოწყობილობების დასამოწმებლად."
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
