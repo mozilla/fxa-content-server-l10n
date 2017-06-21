@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: 2017-06-19 12:23+0000\n"
+"PO-Revision-Date: 2017-06-21 22:30+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -928,7 +928,7 @@ msgstr ""
 
 #: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
 msgid "Remember password? Sign in."
-msgstr "პაროლის დამახსოვრება? შესვლა."
+msgstr "გაგახსენდათ პაროლი? შესვლა."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
@@ -984,7 +984,7 @@ msgstr "Firefox ანგარიშის შექმნა"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr ""
+msgstr "Firefox სინქრონიზაციას ეძებთ? <a %(escapedSyncSuggestionAttrs)s>აქედან დაიწყეთ</a>"
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
