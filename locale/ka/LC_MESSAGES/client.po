@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: 2017-06-21 22:30+0000\n"
+"PO-Revision-Date: 2017-06-21 22:44+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -112,7 +112,7 @@ msgstr ""
 
 #: app/scripts/views/settings/clients.js:71
 msgid "started syncing %(translatedTimeAgo)s"
-msgstr ""
+msgstr "დასინქრონება დაიწყო %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:76
 msgid "last active %(translatedTimeAgo)s"
@@ -579,7 +579,7 @@ msgstr "IP მისამართი: %(ip)s"
 
 #: app/scripts/lib/strings.js:40
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "დამატებითი უსაფრთხოებისთვის, გთხოვთ დაადუსტროთ შესვლა, რათა ამ მოწყობილობასთან სინქრონიზაცია დაიწყოს:"
+msgstr "დამატებითი უსაფრთხოებისთვის, დაამოწმეთ ეს შესვლა, ამ მოწყობილობასთან სინქრონიზაციის დასაწყებად:"
 
 #: app/scripts/lib/strings.js:43
 msgid "Web Session"
@@ -1049,7 +1049,7 @@ msgstr "არ მოსულა? ხელახლა გაგზავნ�
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
-msgstr ""
+msgstr "რატომ უნდა დასინქრონდეს ორი (ან მეტი) მოწყობილობა?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
