@@ -1,38 +1,44 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-05-31 13:05+0000\n"
+"Last-Translator: ലാസിം ശഹാദ് <lazimshahad123@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: ml\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pontoon\n"
 
 #: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:803
 msgid "Still there?"
-msgstr ""
+msgstr "ഇപ്പളും അവിടെയുണ്ടോ?"
 
 #: lib/senders/templates/_pending.txt:2
 msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
-msgstr ""
+msgstr "കുറച്ച് മുമ്പ് നിങ്ങൾ ഒരു ഫയർഫോക്സ് അക്കൌണ്ട് സൃഷ്ടിച്ചു, പക്ഷേ അത് ഒരിക്കലും പരിശോധിച്ചിട്ടില്ല. നിങ്ങളുടെ അക്കൗണ്ട് സജീവമാക്കാൻ ചുവടെയുള്ള ലിങ്ക് ക്ലിക്കുചെയ്യുക."
 
 #: lib/senders/templates/_pending.txt:3
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
+"നിങ്ങളുടെ ആദ്യത്തെ ഉപകരണം നിങ്ങളുടെ ഫയർഫോക് അക്കൌണ്ടിലേക്ക് വിജയകരമായി ബന്ധിപ്പിച്ചു. ഇപ്പോൾ നിങ്ങൾക്ക് സമന്വയത്തിൽ <a href='%(androidUrl)s'>ആൻഡ്രോയിഡ്</a>, <a href='%(iosUrl)s'>ഐഒഎസ്</a> "
+"എന്നിവയ്ക്കുള്ള ഫയർഫോക്സ് കൂടാതെ മറ്റു ഉപകരണങ്ങിൽ നിന്നും പ്രവേശിക്കാനാകും."
 
 #: lib/senders/templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 
 #: lib/senders/templates/_pending.txt:5 lib/senders/templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "മറ്റൊരു ഉപകരണം കണക്റ്റുചെയ്യുക"
 
 #: lib/senders/templates/_pending.txt:6
 msgid "Sign in to Sync"
@@ -45,19 +51,19 @@ msgstr ""
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1
 #: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "ഫയർഫോക്സ് അക്കൗണ്ടുകൾ"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
 #: lib/senders/email.js:695
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "ഫയർഫോക്സിൽ പുതുതായി പ്രവേശിക്കൽ"
 
 #: lib/senders/templates/new_device_login.html:3 lib/senders/templates/new_device_login.txt:2 lib/senders/templates/password_changed.html:4 lib/senders/templates/password_changed.txt:3
 #: lib/senders/templates/recovery.html:4 lib/senders/templates/recovery.txt:3 lib/senders/templates/unblock_code.html:3 lib/senders/templates/unblock_code.txt:2
 #: lib/senders/templates/verify_login.html:4 lib/senders/templates/verify_login.txt:3 lib/senders/templates/verify_secondary.html:4 lib/senders/templates/verify_secondary.txt:3
 #: lib/senders/templates/verify_sync.html:4 lib/senders/templates/verify_sync.txt:3
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "ഐപി വിലാസം: %(ip)s"
 
 #: lib/senders/templates/new_device_login.html:4 lib/senders/templates/verify_secondary.html:7
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
@@ -79,7 +85,7 @@ msgstr ""
 #: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:6
 #: lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
-msgstr ""
+msgstr "മോസില്ലയുടെ സ്വകാര്യ വ്യവസ്ഥകള്‍"
 
 #: lib/senders/templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
@@ -240,8 +246,8 @@ msgstr ""
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verify.html:4

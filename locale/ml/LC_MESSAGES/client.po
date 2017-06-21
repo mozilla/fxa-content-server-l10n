@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: 2017-06-21 10:50+0000\n"
+"PO-Revision-Date: 2017-06-21 10:52+0000\n"
 "Last-Translator: Anivar Aravind <anivar.aravind@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ml\n"
@@ -120,15 +120,15 @@ msgstr ""
 
 #: app/scripts/views/settings/communication_preferences.js:104
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "വിജയകരമായി സബ്സ്ക്രൈബ് ചെയ്തു"
 
 #: app/scripts/views/settings/communication_preferences.js:105
 msgid "Unsubscribed successfully"
-msgstr ""
+msgstr "വിജയകരമായി അൺസബ്സ്ക്രൈബ് ചെയ്തു"
 
 #: app/scripts/views/settings/delete_account.js:45
 msgid "Account deleted successfully"
-msgstr ""
+msgstr "അക്കൗണ്ട് വിജയകരമായി നീക്കം ചെയ്തു"
 
 #: app/scripts/views/settings/display_name.js:66
 msgid "Display name updated"
@@ -144,35 +144,35 @@ msgstr ""
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "താങ്കളുടെ അക്കൗണ്ട് സുരക്ഷാ കാരണത്താൽ ലോക്ക് ചെയ്തു"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:44
 msgid "Reset password"
-msgstr ""
+msgstr "പ്രവേശന കോഡ് പുനഃക്രമീകരിക്കുക"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
-msgstr ""
+msgstr "Gmail തുറക്കുക"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:25
 msgid "Open Hotmail"
-msgstr ""
+msgstr "Hotmail തുറക്കുക"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:31
 msgid "Open Yahoo"
-msgstr ""
+msgstr "Yahoo തുറക്കുക"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:37
 msgid "Open Outlook"
-msgstr ""
+msgstr "Outlook തുറക്കുക"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:43
 msgid "Open Restmail"
-msgstr ""
+msgstr "Restmail തുറക്കുക"
 
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
-msgstr ""
+msgstr "ഈ-മെയിൽ വീണ്ടും അയച്ചു"
 
 #: app/scripts/models/reliers/sync.js:60
 msgid "Firefox Sync"
@@ -313,7 +313,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "സെർവർ തിരക്കിലാണ്, കുറച്ചു സമയത്തിനു ശേഷം വീണ്ടും ശ്രമിക്കുക"
 
 #: app/scripts/lib/auth-errors.js:188
 msgid "This endpoint is no longer supported"
@@ -341,7 +341,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:212
 msgid "Working…"
-msgstr ""
+msgstr "പ്രവര്‍ത്തിക്കുന്നു…"
 
 #: app/scripts/lib/auth-errors.js:216
 msgid "Could not get Privacy Notice"
@@ -457,7 +457,7 @@ msgstr ""
 
 #: app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "താങ്കൾ ഉദേശിച്ചത് <span tabindex=\"1\">%(escapedDomain)s</span> ആണോ?"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
@@ -481,7 +481,7 @@ msgstr ""
 
 #: app/scripts/lib/oauth-errors.js:42
 msgid "Incorrect code"
-msgstr ""
+msgstr "തെറ്റായ കോഡ്"
 
 #: app/scripts/lib/oauth-errors.js:46
 msgid "Expired code"
@@ -505,7 +505,7 @@ msgstr ""
 
 #: app/scripts/lib/oauth-errors.js:104
 msgid "no message"
-msgstr ""
+msgstr "സന്ദേശങ്ങളില്ല"
 
 #: app/scripts/lib/oauth-errors.js:108
 msgid "Missing OAuth parameter: %(param)s"
@@ -601,7 +601,7 @@ msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
-msgstr ""
+msgstr "അക്കൌണ്ട് സൃഷ്ടിക്കാൻ കഴിയില്ല"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
@@ -609,7 +609,7 @@ msgstr ""
 
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
-msgstr ""
+msgstr "കൂടുതൽ അറിയുക."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s created"
@@ -637,7 +637,7 @@ msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:11
 msgid "History"
-msgstr ""
+msgstr "ചരിത്രം"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:13
 msgid "Preferences"
@@ -717,7 +717,7 @@ msgstr ""
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
-msgstr ""
+msgstr "നിങ്ങളുടെ അക്കൗണ്ട് ഉറപ്പിക്കുക"
 
 #: app/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
@@ -725,7 +725,7 @@ msgstr ""
 
 #: app/scripts/templates/confirm.mustache:5 app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email Sent"
-msgstr ""
+msgstr "ഇമെയിൽ അയച്ചു"
 
 #: app/scripts/templates/confirm.mustache:6
 msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
@@ -976,7 +976,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4
 msgid "Create a Firefox Account"
-msgstr ""
+msgstr "ഒരു ഫയർഫോക്സ് അക്കൌണ്ട് സൃഷ്ടിക്കുക"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
@@ -992,7 +992,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:17
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr ""
+msgstr "ബലവുള്ളതും അതുല്യവുമായ പാസ്സ്‌വേർഡ് ഫയർഫോക്സ് വസ്തുതകൾ സുരക്ഷിതമായി വയ്ക്കാൻ സഹായിക്കും."
 
 #: app/scripts/templates/sign_up.mustache:19
 msgid "Receive the monthly Firefox newsletter"
@@ -1000,7 +1000,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:21
 msgid "Create account"
-msgstr ""
+msgstr "അക്കൌണ്ട് സൃഷ്ടിക്കുക"
 
 #: app/scripts/templates/sign_up.mustache:26
 msgid "Have an account? Sign in"
@@ -1070,11 +1070,11 @@ msgstr ""
 
 #: app/scripts/templates/settings/avatar.mustache:4 app/scripts/templates/settings/display_name.mustache:4 app/scripts/templates/settings/emails.mustache:5
 msgid "Add…"
-msgstr ""
+msgstr "ചേർക്കുക…"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
-msgstr ""
+msgstr "ചിത്രം എടുക്കുക"
 
 #: app/scripts/templates/settings/avatar_change.mustache:1
 msgid "Upload"
@@ -1150,7 +1150,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:3 app/scripts/templates/partial/show-password.mustache:1
 msgid "Show"
-msgstr ""
+msgstr "കാണിക്കുക"
 
 #: app/scripts/templates/settings/clients.mustache:6
 msgid "current device"
@@ -1254,7 +1254,7 @@ msgstr ""
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
-msgstr ""
+msgstr "നിങ്ങൾക്ക് എത്രവയസ്സുണ്ട്?"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
@@ -1266,11 +1266,11 @@ msgstr ""
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
-msgstr ""
+msgstr "OpenID ഉപയോഗിക്കുക"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr ""
+msgstr "ഫയര്‍ഫോക്സ് അക്കൌണ്ട് ഉപയോഗിക്കുക"
 
 #. submit button
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:94
