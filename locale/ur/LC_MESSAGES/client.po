@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: 2017-06-21 19:34+0000\n"
+"PO-Revision-Date: 2017-06-21 21:02+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -176,7 +176,7 @@ msgstr "ایمیل دوبارہ ارسال کر دی گئی ہے"
 
 #: app/scripts/models/reliers/sync.js:60
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox ہمہ وقت سازی"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:35
@@ -541,7 +541,7 @@ msgstr ""
 
 #: app/scripts/lib/sms-errors.js:23
 msgid "SMS sent"
-msgstr ""
+msgstr "SMS ارسال کر دیا گیا"
 
 #: app/scripts/lib/sms-errors.js:55
 msgid "Your number has been blocked"
@@ -549,7 +549,7 @@ msgstr "آپ کا نمبر بلاک کر دیا گیا ہے"
 
 #: app/scripts/lib/sms-errors.js:79
 msgid "SMS not sent, please try again"
-msgstr ""
+msgstr "SMS ارسال نہیں کیا گیا، براہ مہربانی دوبارہ کوشش کریں"
 
 #: app/scripts/lib/strings.js:22
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
@@ -853,7 +853,7 @@ msgstr "Firefox برائے iOS ڈائونلوڈ کریں!"
 #: app/scripts/templates/marketing_snippet.mustache:6 app/scripts/templates/marketing_snippet.mustache:7 app/scripts/templates/marketing_snippet.mustache:12
 #: app/scripts/templates/marketing_snippet.mustache:17 app/scripts/templates/marketing_snippet.mustache:20
 msgid "Download Firefox for Android."
-msgstr ""
+msgstr "Firefox برائےAndroid ڈائونلوڈ کریں۔"
 
 #: app/scripts/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
@@ -1166,7 +1166,7 @@ msgstr "موجودہ سیشن"
 
 #: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "Firefox برائے iOS"
 
 #: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
 msgid "none connected"
@@ -1178,7 +1178,7 @@ msgstr "ڈاؤن لوڈ"
 
 #: app/scripts/templates/settings/clients.mustache:22
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Firefox برائے Android"
 
 #: app/scripts/templates/settings/clients.mustache:26
 msgid "Missing or duplicate items?"
@@ -1246,7 +1246,7 @@ msgstr "ہٹائیں"
 
 #: app/scripts/templates/settings/emails.mustache:11
 msgid "Didn't arrive and not in spam folder? Resend?"
-msgstr ""
+msgstr "موصول نہیں ہوئی اور اسپیم فولڈر میں موجود نہیں ہے؟ دوبارہ ارسال کریں؟"
 
 #: app/scripts/templates/settings/emails.mustache:19
 msgid "Add"
@@ -1266,7 +1266,7 @@ msgstr ""
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
-msgstr ""
+msgstr "OpenID استعمال کریں"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
