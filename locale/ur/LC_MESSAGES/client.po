@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: 2017-06-21 19:02+0000\n"
+"PO-Revision-Date: 2017-06-21 19:24+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -160,11 +160,11 @@ msgstr "ہاٹ میل کھولیں"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:31
 msgid "Open Yahoo"
-msgstr ""
+msgstr "Yahoo کھولیں"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:37
 msgid "Open Outlook"
-msgstr ""
+msgstr "Outlook کھولیں"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:43
 msgid "Open Restmail"
@@ -301,7 +301,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:171
 msgid "Address in use by another account"
-msgstr ""
+msgstr "پتہ کسی دوسرے اکائونٹ کی جانب سے استعمال میں ہے"
 
 #: app/scripts/lib/auth-errors.js:175
 msgid "Primary account email required for reset"
@@ -848,7 +848,7 @@ msgstr "مکمل ہم وقت سازی کا تجربہ حاصل کرین۔"
 #: app/scripts/templates/marketing_snippet.mustache:2 app/scripts/templates/marketing_snippet.mustache:3 app/scripts/templates/marketing_snippet.mustache:11
 #: app/scripts/templates/marketing_snippet.mustache:15 app/scripts/templates/marketing_snippet.mustache:19
 msgid "Download Firefox for iOS!"
-msgstr ""
+msgstr "Firefox برائے iOS ڈائونلوڈ کریں!"
 
 #: app/scripts/templates/marketing_snippet.mustache:6 app/scripts/templates/marketing_snippet.mustache:7 app/scripts/templates/marketing_snippet.mustache:12
 #: app/scripts/templates/marketing_snippet.mustache:17 app/scripts/templates/marketing_snippet.mustache:20
@@ -908,7 +908,7 @@ msgstr "اکاؤنٹ پھر سیٹ کریں"
 
 #: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_up.mustache:2
 msgid "Continue to %(serviceName)s"
-msgstr ""
+msgstr "%(serviceName)s میں جاری رکھیں"
 
 #: app/scripts/templates/reset_password.mustache:5
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
@@ -1234,7 +1234,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
-msgstr ""
+msgstr "تصدیق شدہ"
 
 #: app/scripts/templates/settings/emails.mustache:9
 msgid "verification required"
@@ -1242,7 +1242,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:10
 msgid "Remove"
-msgstr ""
+msgstr "ہٹائیں"
 
 #: app/scripts/templates/settings/emails.mustache:11
 msgid "Didn't arrive and not in spam folder? Resend?"
@@ -1270,7 +1270,7 @@ msgstr ""
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr ""
+msgstr "Firefox اکائونٹ استعمال کریں"
 
 #. submit button
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:94
@@ -1282,7 +1282,7 @@ msgstr ""
 #: app/scripts/views/sign_in.js:97
 msgctxt "header text"
 msgid "Sign in"
-msgstr ""
+msgstr "سائن ان"
 
 #~ msgid "Last active %(translatedTimeAgo)s"
 #~ msgstr "آخری مرتبہ فعال %(translatedTimeAgo)s"
