@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: 2017-05-11 10:12+0000\n"
-"Last-Translator: Slimane Amiri <slimane.amiri@gmail.com>\n"
+"PO-Revision-Date: 2017-06-21 21:41+0000\n"
+"Last-Translator: FaresBs <pharess@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
 "MIME-Version: 1.0\n"
@@ -32,11 +32,11 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
-"Teqqned akken iwata ibenk inek amezwaru ɣer umiḍn inek Firefox. Akken ad temtawid ugar, qqen ibenk tebɣid ɣer <a href='%(androidUrl)s'>Firefox i Android</a> neɣ <a href='%(iosUrl)s'>Firefox i iOS</"
-"a>."
+"Teqqned akken iwata ibenk inek amezwaru ɣer umiḍn inek Firefox. Akken ad temtawid ugar, qqen ibenk tebɣid ɣer <a href='%(androidUrl)s'>Firefox i Android</a> neɣ <a href='%(iosUrl)s'>Firefox i "
+"iOS</a>."
 
 #: lib/senders/templates/_pending.txt:5 lib/senders/templates/post_verify.html:4
 msgid "Connect another device"
@@ -240,7 +240,7 @@ msgstr "Ma yella ih, hattan tengalt n tsiregt i tesriḍ:"
 
 #: lib/senders/templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr "Ma ulac, mmel-aɣ-d amek ad neḥwi yir imdanen <a %(reportSignInLinkAttributes)s>mmel-aɣ-tid</a>."
+msgstr "Ma ulac, mmel-aɣ-d amek ad neḥwi yir imdanen <a %(reportSignInLinkAttributes)s>mmel-aɣ-t-id</a>."
 
 #: lib/senders/templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
@@ -252,11 +252,11 @@ msgstr "Azul fell-ak tikelt nniḍen."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
-"Kra n wussan ɣer deffir, terniḍ amiḍan Firefox, acukan weṛǧin tessentmeṭ. Amiḍan yettwasentmenad isireg ad tkecmeḍ ɣer yiccaren inek, ticṛaḍ n isebtar, awalen inek uffiren akked umazray inek seg "
-"yal ibenk yeqqnen ɣer umiḍan agi. Sentem kan tansa agi imayl akken ad tremdeḍ amiḍan inek."
+"Kra n wussan ɣer deffir, terniḍ amiḍan Firefox, acukan weṛǧin tessentmeṭ. Amiḍan yettwasentmenad isireg ad tkecmeḍ ɣer yiccaren inek, ticṛaḍ n isebtar, awalen inek uffiren akked umazray inek seg yal"
+" ibenk yeqqnen ɣer umiḍan agi. Sentem kan tansa agi imayl akken ad tremdeḍ amiḍan inek."
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verify.html:4
 msgid "Activate now"
