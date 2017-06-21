@@ -105,7 +105,7 @@ msgstr ""
 
 #: lib/senders/templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "یہ ایک خودکار ای میل ہے؛ اگر آپ نے اس حرکت کا اختیار نہیں دیا، بھر <a %(resetLinkAttributes)sبراہ مہربانی اپنا پاسورڈ پھر سیٹ کریں</a>"
+msgstr "یہ ایک خودکار ای میل ہے؛ اگر آپ نے اس حرکت کا اختیار نہیں دیا، بھر <a %(resetLinkAttributes)s>براہ مہربانی اپنا پاسورڈ پھر سیٹ کریں</a>"
 
 #: lib/senders/templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
