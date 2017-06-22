@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: 2017-06-22 18:58+0000\n"
+"PO-Revision-Date: 2017-06-22 20:50+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -261,35 +261,35 @@ msgstr "მოთხოვნა დაბლოკილია უსაფრ�
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:384
 msgid "Invalid authorization code"
-msgstr ""
+msgstr "დამოწმების არასწორი კოდი"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr ""
+msgstr "ტელეფონის არასწორი ნომერი"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "ამ ქვეყანაში გაგზავნა შეუძლებელია"
 
 #: app/scripts/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "ამ ნომერზე შეტყობინების გაგზავნა ვერ მოხერხდა"
 
 #: app/scripts/lib/auth-errors.js:138
 msgid "Your email was just returned"
-msgstr ""
+msgstr "ელ-ფოსტაზე წერილის გამოგზავნა, ვერ მოხერდა"
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "ელ-ფოსტაზე წერილის გამოგზავნა, ვერ მოხერდა. მისამართი, შეცდომით ხომ არ აკრიფეთ?"
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "ელ-ფოსტაზე წერილის მიღება, ვერ მოხერხდა"
 
 #: app/scripts/lib/auth-errors.js:151
 msgid "This email was already verified by another user"
-msgstr ""
+msgstr "ეს ელ-ფოსტის მისამართი, უკვე დამოწმებულია სხვა მომხმარებლის მიერ"
 
 #: app/scripts/lib/auth-errors.js:155
 msgid "Secondary email must be different than your account email"
