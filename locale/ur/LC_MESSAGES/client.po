@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: 2017-06-22 04:49+0000\n"
+"PO-Revision-Date: 2017-06-22 04:58+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -136,7 +136,7 @@ msgstr ""
 
 #: app/scripts/views/settings/emails.js:137
 msgid "A verification link has been sent to %(email)s"
-msgstr ""
+msgstr "تصدیق کنندہ ربط %(email)s کو ارسال کر دیا گیا ہے"
 
 #: app/scripts/views/settings/emails.js:150
 msgid "Verification emailed to %(email)s"
@@ -229,7 +229,7 @@ msgstr "غیر مصدقہ اکاؤنٹ"
 
 #: app/scripts/lib/auth-errors.js:67
 msgid "Invalid verification code"
-msgstr ""
+msgstr "باجائز تصدیق کنندہ کوڈ"
 
 #: app/scripts/lib/auth-errors.js:71
 msgid "Invalid JSON in request body"
@@ -729,7 +729,7 @@ msgstr "اى ميل ارسال کر دی گئى"
 
 #: app/scripts/templates/confirm.mustache:6
 msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "تصدیق کنندہ ربط &nbsp; سے %(escapedEmail)s کو ارسال کر دیا گیا ہے"
 
 #: app/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
