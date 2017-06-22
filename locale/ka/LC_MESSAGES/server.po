@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: 2017-06-22 14:24+0000\n"
+"PO-Revision-Date: 2017-06-22 21:11+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -395,7 +395,7 @@ msgstr "საჭიროა Firefox ანგარიშის პარო�
 
 #: lib/senders/email.js:735
 msgid "Firefox Account verified"
-msgstr ""
+msgstr "Firefox ანგარიში დამოწმებულია"
 
 #: lib/senders/email.js:774
 msgid "Secondary Firefox Account email added"
