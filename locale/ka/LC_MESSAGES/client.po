@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: 2017-06-22 20:50+0000\n"
+"PO-Revision-Date: 2017-06-22 21:09+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -293,23 +293,23 @@ msgstr "ეს ელ-ფოსტის მისამართი, უკვ�
 
 #: app/scripts/lib/auth-errors.js:155
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "ელ-ფოსტის დამატებითი მისამართი უნდა განსხვავდებოდეს ანგარიშის ელ-ფოსტისგან"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "ანგარიშში შესვლისთვის, აუცილებელია მთავარი ელ-ფოსტის მითითება"
 
 #: app/scripts/lib/auth-errors.js:171
 msgid "Address in use by another account"
-msgstr ""
+msgstr "ეს მისამართი გამოყენებულია სხვა მომხმარებლის მიერ"
 
 #: app/scripts/lib/auth-errors.js:175
 msgid "Primary account email required for reset"
-msgstr ""
+msgstr "აღსადგენად აუცილებელია ანგარიშის მთავარი ელ-ფოსტის მითითება"
 
 #: app/scripts/lib/auth-errors.js:179
 msgid "Invalid signin code"
-msgstr ""
+msgstr "შესვლის არასწორი კოდი"
 
 #: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
 msgid "Server busy, try again soon"
@@ -325,7 +325,7 @@ msgstr "სისტემა მიუწვდომელია, ცადე
 
 #: app/scripts/lib/auth-errors.js:196
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "შესვლის მცდელობა აღკვეთილია"
 
 #: app/scripts/lib/auth-errors.js:200
 msgid "Session expired. Sign in to continue."
@@ -429,39 +429,39 @@ msgstr "მონაცემთა ნაკლული ატრიბუტ�
 
 #: app/scripts/lib/auth-errors.js:372 app/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "დადასტურების ბმული უკვე გამოყენებულია, მისი გამოყენება, მხოლოდ ერთხელ შეიძლება."
 
 #: app/scripts/lib/auth-errors.js:376
 msgid "This is a required field"
-msgstr ""
+msgstr "ეს აუცილებელი ველია"
 
 #: app/scripts/lib/auth-errors.js:380
 msgid "Authorization code required"
-msgstr ""
+msgstr "დამოწმების კოდი აუცილებელია"
 
 #: app/scripts/lib/auth-errors.js:388 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
-msgstr ""
+msgstr "ბმული დაზიანებულია"
 
 #: app/scripts/lib/auth-errors.js:411
 msgid "Phone number required"
-msgstr ""
+msgstr "ტელეფონის ნომერი აუცილებელია"
 
 #: app/scripts/lib/config-loader.js:87
 msgid "Missing configuration"
-msgstr ""
+msgstr "გამართვის მონაცემები დაკარგულია"
 
 #: app/scripts/lib/config-loader.js:91
 msgid "Invalid configuration"
-msgstr ""
+msgstr "არასწორი გამართვა"
 
 #: app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "<span tabindex=\"1\">%(escapedDomain)s</span>-ს იგულისხმეთ?"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
-msgstr ""
+msgstr "გთხოვთ, მოგვიანებით სცადოთ."
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -529,27 +529,27 @@ msgstr "შეცდომა სურათის დამუშავებ�
 
 #: app/scripts/lib/require-on-demand.js:39
 msgid "Resources failed to load"
-msgstr ""
+msgstr "ჩატვირთვა ვერ მოხერხდა"
 
 #: app/scripts/lib/require-on-demand.js:43
 msgid "Unexpected resource error"
-msgstr ""
+msgstr "მოულოდნელი შეცდომა"
 
 #: app/scripts/lib/require-on-demand.js:47
 msgid "Script error"
-msgstr ""
+msgstr "სკრიპტის შეცდომა"
 
 #: app/scripts/lib/sms-errors.js:23
 msgid "SMS sent"
-msgstr ""
+msgstr "SMS გაგზავნილია"
 
 #: app/scripts/lib/sms-errors.js:55
 msgid "Your number has been blocked"
-msgstr ""
+msgstr "თქვენი ნომერი დაბლოკილია"
 
 #: app/scripts/lib/sms-errors.js:79
 msgid "SMS not sent, please try again"
-msgstr ""
+msgstr "SMS არ გაიგზავნა, გთხოვთ სცადოთ მოგვიანებით"
 
 #: app/scripts/lib/strings.js:22
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
@@ -583,7 +583,7 @@ msgstr "დამატებითი უსაფრთხოებისთ�
 
 #: app/scripts/lib/strings.js:43
 msgid "Web Session"
-msgstr ""
+msgstr "ვებ-სეანსი"
 
 #: app/scripts/lib/strings.js:49
 msgid "Sign in"
@@ -615,7 +615,7 @@ msgstr "შეიტყვეთ მეტი."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s created"
-msgstr ""
+msgstr "%(email)s შექმნილია"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
@@ -623,7 +623,7 @@ msgstr "მონაცემების შერჩევა დასას�
 
 #: app/scripts/templates/choose_what_to_sync.mustache:3
 msgid "Open tabs"
-msgstr ""
+msgstr "გახსნილი ჩანართები"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Bookmarks"
@@ -703,7 +703,7 @@ msgstr "გადაეცით ახალი პაროლი"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Sign-in already confirmed"
-msgstr ""
+msgstr "შესვლა უკვე დამოწმებულია"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
@@ -731,7 +731,7 @@ msgstr "შეტყობინება გამოგზავნილი�
 
 #: app/scripts/templates/confirm.mustache:6
 msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "დასადასტურებელი ბმული გაგზავნილია&nbsp;%(escapedEmail)s-ზე"
 
 #: app/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
@@ -740,7 +740,7 @@ msgstr "თქვენი Firefox მონაცემების უკე�
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive and not in spam folder? Resend"
-msgstr ""
+msgstr "არ მიგიღიათ და არც სპამ საქაღალდეშია? გაგზავნეთ ხელახლა"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -752,15 +752,15 @@ msgstr "დააწკაპეთ %(email)s-ზე ჩვენს მიე�
 
 #: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "გაგახსენდათ პაროლი? შესვლა"
 
 #: app/scripts/templates/connect_another_device.mustache:1
 msgid "Connect another device"
-msgstr ""
+msgstr "სხვა მოწყობილობასთან დაკავშირება"
 
 #: app/scripts/templates/connect_another_device.mustache:2 app/scripts/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
-msgstr ""
+msgstr "ეს Firefox უკვე დაკავშირებულია"
 
 #: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:3
 msgid "Success"
@@ -768,31 +768,31 @@ msgstr "წარმატება"
 
 #: app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign in to this Firefox to complete set-up"
-msgstr ""
+msgstr "შედით ამ Firefox-ში გამართვის დასასრულებლად"
 
 #: app/scripts/templates/connect_another_device.mustache:7
 msgid "Sign in &rarr;"
-msgstr ""
+msgstr "&rarr;-ში შესვლა"
 
 #: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "შედით Firefox-ში მეორე მოწყობილობიდან გამართვის დასასრულებლად"
 
 #: app/scripts/templates/connect_another_device.mustache:13
 msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr ""
+msgstr "გახსენით პარამეტრები და აირჩიეთ \"Firefox ანგარიშში შესვლა\" გამართვის დასასრულებლად"
 
 #: app/scripts/templates/connect_another_device.mustache:15
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
+msgstr "შედით Firefox Android-ში გამართვის დასასრულებლად"
 
 #: app/scripts/templates/connect_another_device.mustache:17
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
+msgstr "შედით Firefox iOS-ში გამართვის დასასრულებლად"
 
 #: app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
 msgid "Why is this required?"
-msgstr ""
+msgstr "რატომაა ეს აუცილებელი?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
@@ -884,7 +884,7 @@ msgstr "გაუქმება"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr ""
+msgstr "ანგარიშის შეტყობინებები ახლა უკვე გამოიგზავნება %(secondaryEmailVerified)s მისამართზე"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
@@ -892,19 +892,19 @@ msgstr "თქვენი ანგარიში მზადაა!"
 
 #: app/scripts/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "გსურთ მოგვახსენოთ უკანონო შესვლის შესახებ?"
 
 #: app/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr ""
+msgstr "ეს არის შეტყობინება, თქვენს ანგარიშთან წვდომის მცდელობის შესახებ. მიგაჩნიათ საეჭვოდ და გსურთ მოხსენების გაგზავნა ამის თაობაზე?"
 
 #: app/scripts/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr ""
+msgstr "მოხსენების გაგზავნა საეჭვო მოქმედებაზე"
 
 #: app/scripts/templates/report_sign_in.mustache:7 app/scripts/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr ""
+msgstr "რატომ მოხდა ეს?"
 
 #: app/scripts/templates/reset_password.mustache:1 app/scripts/templates/reset_password.mustache:4
 msgid "Reset account"
