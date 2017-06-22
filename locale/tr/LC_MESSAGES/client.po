@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: 2017-06-09 22:25+0000\n"
+"PO-Revision-Date: 2017-06-22 23:01+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -868,7 +868,7 @@ msgstr "İzin isteği"
 
 #: app/scripts/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr "%(serviceName)s hesabınızdan aşağıdaki bilgileri istiyor:"
+msgstr "%(serviceName)s, hesabınızdan aşağıdaki bilgileri istiyor:"
 
 #: app/scripts/templates/permissions.mustache:3
 msgid "Accept"
