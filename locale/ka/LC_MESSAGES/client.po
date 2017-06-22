@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: 2017-06-22 14:30+0000\n"
+"PO-Revision-Date: 2017-06-22 14:40+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -20,15 +20,15 @@ msgstr "ანგარიში წარმატებით დამოწ�
 
 #: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:40
 msgid "Password reset"
-msgstr "პაროლის ჩამოგდება"
+msgstr "პაროლის განულება"
 
 #: app/scripts/views/confirm_reset_password.js:180
 msgid "Password reset successfully. Sign in to continue."
-msgstr "პაროლი წარმატებით ჩამოვარდა. შედით გასაგრძელებლად."
+msgstr "პაროლი წარმატებით განულდა. შედით გასაგრძელებლად."
 
 #: app/scripts/views/permissions.js:26
 msgid "%(permissionName)s (required)"
-msgstr "%(permissionName)s (აუცილებელი)"
+msgstr "%(permissionName)s (აუცილებელია)"
 
 #: app/scripts/views/permissions.js:32
 msgid "Email address"
@@ -52,11 +52,11 @@ msgstr "Firefox Sync ახლავე გაგრძელდება"
 
 #: app/scripts/views/ready.js:41
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "დაასრულეთ გამართვა ახალი პაროლის დანარჩენ მოწყობილობებზე შეყვანით."
 
 #: app/scripts/views/ready.js:45 app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
-msgstr ""
+msgstr "ელ-ფოსტა დამოწმებულია"
 
 #: app/scripts/views/ready.js:50
 msgid "Sign-in confirmed"
@@ -72,23 +72,23 @@ msgstr "ანგარიში დამოწმდა"
 
 #: app/scripts/views/reset_password.js:65 app/scripts/views/sign_in.js:171
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr "უცნობი ანგარიში. <a href=\"/signup\">რეგისტრაცია</a>"
+msgstr "ასეთი ანგარიში ვერ მოიძებნა <a href=\"/signup\">რეგისტრაცია</a>"
 
 #: app/scripts/views/sign_in.js:168
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr ""
+msgstr "Firefox ანგარიში ვერ მოიძებნა. <a href=\"/signup\">დარეგისტრირდით</a> დამატებების ძველი ანგარიშის ელ-ფოსტის მისამართით თქვენი დამატებების მონაცემებზე წვდომის მისაღებად."
 
 #: app/scripts/views/sign_up.js:63
 msgid "Account no longer exists. Recreate it?"
-msgstr "ანგარიში აღარ არსებობს. შეიქმნას ხელახლა?"
+msgstr "ასეთი ანგარიში აღარ არსებობს. გსურთ ახლიდან შექმნა?"
 
 #: app/scripts/views/sign_up.js:382
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr "ანგარიში უკვე არსებობს. <a href=\"/signin\">შესვლა</a>"
+msgstr "ასეთი ანგარიში უკვე არსებობს. <a href=\"/signin\">შესვლა</a>"
 
 #: app/scripts/views/sms_sent.js:26
 msgid "App link resent to %(phoneNumber)s"
-msgstr ""
+msgstr "პროგრამის ბმული გაგზავნილია %(phoneNumber)s-ზე"
 
 #: app/scripts/views/settings/change_password.js:52
 msgid "Password changed successfully"
