@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: 2017-06-22 14:40+0000\n"
+"PO-Revision-Date: 2017-06-22 18:50+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -96,19 +96,19 @@ msgstr "პაროლი წარმატებით შეიცვალ�
 
 #: app/scripts/views/settings/client_disconnect.js:17
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr ""
+msgstr "ვწუხვართ, ამის გამო. შეცვალეთ Firefox ანგარიშის პაროლი და მოიძიოთ ინფორმაცია თქვენი მოწყობილობის მწარმოებლისგან, თუ როგორ შეიძლება წაიშალოს მონაცემები დისტანციურად."
 
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
+msgstr "ვწუხვართ, ამის გამო. თუ ეს მოწყობილობა არაა სანდო, შეცვალეთ Firefox ანგარიშის პაროლი და ყველა სხვა დანარჩენი პაროლიც, რაც Firefox-ში ინახება."
 
 #: app/scripts/views/settings/clients.js:64
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "ვებ-სეანსი, %(userAgent)s"
 
 #: app/scripts/views/settings/clients.js:66
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:71
 msgid "started syncing %(translatedTimeAgo)s"
@@ -116,7 +116,7 @@ msgstr "დასინქრონება დაიწყო %(translatedTime
 
 #: app/scripts/views/settings/clients.js:76
 msgid "last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "ბოლო მოქმედება %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/communication_preferences.js:104
 msgid "Subscribed successfully"
@@ -136,11 +136,11 @@ msgstr "გამოსაჩენი სახელი განახლე�
 
 #: app/scripts/views/settings/emails.js:137
 msgid "A verification link has been sent to %(email)s"
-msgstr ""
+msgstr "დასადასტურებელი ბმული გამოგზავნილია %(email)s მისამართზე"
 
 #: app/scripts/views/settings/emails.js:150
 msgid "Verification emailed to %(email)s"
-msgstr ""
+msgstr "დამოწმების მოთხოვნის წერილი მოგივათ ფოსტაზე %(email)s"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
