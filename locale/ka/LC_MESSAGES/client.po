@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: 2017-06-22 18:50+0000\n"
+"PO-Revision-Date: 2017-06-22 18:58+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -148,7 +148,7 @@ msgstr "თქვენი ანგარიში დაბლოკილი�
 
 #: app/scripts/views/mixins/account-reset-mixin.js:44
 msgid "Reset password"
-msgstr "პაროლის აღდგენა"
+msgstr "პაროლის განულება"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
@@ -168,7 +168,7 @@ msgstr "Outlook-ის გახსნა"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:43
 msgid "Open Restmail"
-msgstr ""
+msgstr "Restmail-ის გახსნა"
 
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
@@ -189,11 +189,11 @@ msgstr "ელფოსტის დასამოწმებელი ბმ�
 
 #: app/scripts/lib/auth-errors.js:21 app/scripts/lib/sms-errors.js:17
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "ზემეტად ბევრჯერ შეგეშალათ. მოგვიანებით სცადეთ."
 
 #: app/scripts/lib/auth-errors.js:25
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "ზედმეტად ბევრჯერ შეგეშალათ. სცადეთ %(retryAfterLocalized)s-ის შემდეგ."
 
 #: app/scripts/lib/auth-errors.js:35 app/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
