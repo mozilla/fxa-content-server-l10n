@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: 2017-06-22 08:32+0000\n"
+"PO-Revision-Date: 2017-06-22 08:33+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -928,7 +928,7 @@ msgstr "پاس ورڈ یاد ہے؟ سائن ان کریں۔"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Firefox اکاؤنٹس"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
