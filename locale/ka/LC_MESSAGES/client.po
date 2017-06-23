@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 16:09+0000\n"
-"PO-Revision-Date: 2017-06-23 22:47+0000\n"
+"PO-Revision-Date: 2017-06-23 23:05+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -932,7 +932,7 @@ msgstr "გასვლა"
 
 #: app/scripts/templates/sign_in.mustache:4
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-msgstr "თქვენს დამატებების მონაცემებს ეძებთ? <a href=\"/signup\">შედით</a> Firefox ანგარიშში თქვენი ძველი დამატებების ანგარიშის ელ-ფოსტის მისამართის გამოყენებით."
+msgstr "თქვენი დამატებების მონაცემებს ეძებთ? <a href=\"/signup\">შექმენით</a> ახალი Firefox ანგარიში თქვენი ძველი დამატებების ანგარიშის ელ-ფოსტის მისამართის გამოყენებით."
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
@@ -984,7 +984,7 @@ msgstr "გადაიტანეთ თქვენი დასინქრ�
 
 #: app/scripts/templates/sign_up.mustache:10
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "თქვენი დამატებების მონაცემებს ეძებთ? შექმენით ახალი Firefox ანგარიში თქვენი ძველი დამატებების ანგარიშის ელ-ფოსტის მისამართის გამოყენებით."
 
 #: app/scripts/templates/sign_up.mustache:17
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
@@ -992,7 +992,7 @@ msgstr "ძლიერი, უნიკალური პაროლი თ�
 
 #: app/scripts/templates/sign_up.mustache:19
 msgid "Receive the monthly Firefox newsletter"
-msgstr ""
+msgstr "მიიღეთ ყოველთვიურად წერილები Firefox-ის სიახლეების შესახებ"
 
 #: app/scripts/templates/sign_up.mustache:21
 msgid "Create account"
@@ -1004,28 +1004,30 @@ msgstr "გაქვთ ანგარიში? შესვლა"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "გააგზავნეთ Firefox პირდაპირ თქვენს მობილურზე და შედით ანგარიშზე გამართვის დასასრულებლად"
 
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
-msgstr ""
+msgstr "ტელეფონის ნომერი"
 
 #: app/scripts/templates/sms_send.mustache:6
 msgid "Send"
-msgstr ""
+msgstr "გაგზავნა"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"SMS მომსახურება, მხოლოდ ზოგიერთ ქვეყნებშია ხელმისაწვდომი. SMS &amp; მიღების ღირებულება, შეიძლება ჩამოგეჭრათ ანგარიშიდან. ელ-ფოსტის ან SMS-ის მიმღების თანხმობა აუცილებელია. <a "
+"%(escapedLearnMoreAttributes)s>შეიტყვეთ მეტი</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
-msgstr ""
+msgstr "შესაძლოა მოგვიანებით"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "დააყენეთ Firefox თქვენს მობილურზე და შედით ანგარიშზე გამართვის დასასრულებლად"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
