@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 16:09+0000\n"
-"PO-Revision-Date: 2017-06-23 18:31+0000\n"
+"PO-Revision-Date: 2017-06-23 18:33+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -1045,11 +1045,11 @@ msgstr "Зашто синхронизовати више уређаја?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr ""
+msgstr "Синхронизација није трајна резервна копија, већ безбедан начин да се преносе сачуване забелешке, историјат и лозинке међу вашим уређајима."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
+msgstr "Требало би да инсталирате Firefox и синхронизујете барем два уређаја да се заштитите од губљења ваших података у случају да морате да их повратите али сте заборавили вашу лозинку."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
