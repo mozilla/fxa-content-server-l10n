@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: 2017-05-30 13:48+0000\n"
+"POT-Creation-Date: 2017-06-23 16:09+0000\n"
+"PO-Revision-Date: 2017-06-11 16:15+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
@@ -95,11 +95,11 @@ msgstr ""
 "prethodnu adresu e-pošte za dodatke da biste pristupili vašim podacima o "
 "dodacima."
 
-#: app/scripts/views/sign_up.js:63
+#: app/scripts/views/sign_up.js:61
 msgid "Account no longer exists. Recreate it?"
 msgstr "Nalog više ne postoji. Ponovo ga napraviti?"
 
-#: app/scripts/views/sign_up.js:382
+#: app/scripts/views/sign_up.js:380
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Nalog već postoji. <a href=\"/signin\">Prijavi se</a>"
 
@@ -131,27 +131,27 @@ msgstr ""
 "promenite lozinku vašeg Firefox naloga i da promenite sve lozinke koje ste "
 "sačuvali u Firefox-u."
 
-#: app/scripts/views/settings/clients.js:64
+#: app/scripts/views/settings/clients.js:63
 msgid "Web Session, %(userAgent)s"
 msgstr "Veb sesija, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:66
+#: app/scripts/views/settings/clients.js:65
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:71
+#: app/scripts/views/settings/clients.js:70
 msgid "started syncing %(translatedTimeAgo)s"
 msgstr "sinronizacija započeta %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:76
+#: app/scripts/views/settings/clients.js:75
 msgid "last active %(translatedTimeAgo)s"
 msgstr "poslednji put aktivan %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/communication_preferences.js:104
+#: app/scripts/views/settings/communication_preferences.js:118
 msgid "Subscribed successfully"
 msgstr "Uspešna pretplata"
 
-#: app/scripts/views/settings/communication_preferences.js:105
+#: app/scripts/views/settings/communication_preferences.js:119
 msgid "Unsubscribed successfully"
 msgstr "Pretplata je otkazana"
 
@@ -163,13 +163,10 @@ msgstr "Nalog uspešno obrisan"
 msgid "Display name updated"
 msgstr "Prikaži ažurirano ime"
 
-#: app/scripts/views/settings/emails.js:137
-msgid "A verification link has been sent to %(email)s"
-msgstr "Veza potvrde je poslata na %(email)s"
-
-#: app/scripts/views/settings/emails.js:150
-msgid "Verification emailed to %(email)s"
-msgstr "Potvrda je poslata na %(email)s"
+#: app/scripts/views/settings/emails.js:136
+#: app/scripts/views/settings/emails.js:149
+msgid "Verification email sent"
+msgstr ""
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43
 #: app/scripts/lib/auth-errors.js:113
@@ -345,7 +342,7 @@ msgstr "Primarna adresa naloga je potrebna za resetovanje"
 
 #: app/scripts/lib/auth-errors.js:179
 msgid "Invalid signin code"
-msgstr ""
+msgstr "Neispravan pristupni kod"
 
 #: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
 msgid "Server busy, try again soon"
@@ -711,14 +708,10 @@ msgid "Preferences"
 msgstr "Postavke"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
-msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr "Dodaci i postavke se ne sinhronizuju na mobilnim uređajima."
-
-#: app/scripts/templates/choose_what_to_sync.mustache:16
 msgid "Save settings"
 msgstr "Snimi postavke"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:17
+#: app/scripts/templates/choose_what_to_sync.mustache:16
 #: app/scripts/templates/confirm.mustache:12
 #: app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
@@ -810,16 +803,13 @@ msgid "Email Sent"
 msgstr "E-pošta je poslata"
 
 #: app/scripts/templates/confirm.mustache:6
-msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr "Potvrdna veza je poslata&nbsp;na adresu %(escapedEmail)s"
+msgid ""
+"Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: app/scripts/templates/confirm.mustache:8
-msgid ""
-"To better protect your Firefox data, we've emailed a confirmation link to "
-"%(email)s"
+msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 msgstr ""
-"Da bismo bolje zaštitili Firefox podatke, poslali smo vam vezu za potvrdu na "
-"%(email)s"
 
 #: app/scripts/templates/confirm.mustache:11
 #: app/scripts/templates/confirm.mustache:13
@@ -932,8 +922,8 @@ msgid "Password"
 msgstr "Lozinka"
 
 #: app/scripts/templates/force_auth.mustache:5
-#: app/scripts/templates/sign_in.mustache:9
-#: app/scripts/templates/sign_in.mustache:18
+#: app/scripts/templates/sign_in.mustache:10
+#: app/scripts/templates/sign_in.mustache:19
 #: app/scripts/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "Zaboravili ste lozinku?"
@@ -1108,12 +1098,12 @@ msgstr ""
 "Migrirajte svoje podatke za sinhronizaciju tako što ćete se prijaviti na "
 "svoj Firefox nalog."
 
-#: app/scripts/templates/sign_in.mustache:10
+#: app/scripts/templates/sign_in.mustache:9
 #: app/scripts/templates/sign_in.mustache:12
 msgid "Use a different account"
 msgstr "Koristi drugi nalog"
 
-#: app/scripts/templates/sign_in.mustache:19
+#: app/scripts/templates/sign_in.mustache:18
 msgid "Create an account"
 msgstr "Napravi nalog"
 
@@ -1133,12 +1123,8 @@ msgid "Authorize this sign-in"
 msgstr "Ovlasti ovo prijavljivanje"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
-msgid ""
-"To better protect your Firefox data, there is an authorization code waiting "
-"for you at %(email)s."
+msgid "Check your email for the authorization code sent to %(email)s."
 msgstr ""
-"Da bismo bolje zaštitili vaše Firefox podatke, poslali smo vam autorizacioni "
-"kod na adresu %(email)s."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1158,6 +1144,7 @@ msgid ""
 "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started "
 "here</a>"
 msgstr ""
+"Tražite Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Započnite ovde</a>"
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -1247,34 +1234,20 @@ msgid "Didn't arrive? Resend"
 msgstr "Nije stigla? Pošalji ponovo"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
-msgid "Why Sync two (or more!) devices?"
-msgstr "Zašto koristiti Sync na dva (ili više!) uređaja?"
+msgid "Why sync multiple devices?"
+msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
-"Sync lets you share the bookmarks, history and passwords you save to Firefox "
-"on one device with Firefox on other devices. Sign in to Firefox on your "
-"phone or tablet and everything you've saved to Firefox for desktop will "
-"appear."
+"The Sync service isn’t a permanent backup, it’s simply a secure way to "
+"transfer saved bookmarks, history and passwords between your own devices."
 msgstr ""
-"Sync vam omogućava da uskladite zabeleške, istorijat i lozinke koje ste "
-"sačuvali u Firefox-u na jednom uređaju, sa Firefox programima na drugim "
-"uređajima. Prijavite se u Firefox na vašem telefonu ili tabletu i sve što "
-"sačuvate u Firefox-u za stone računare će se pojaviti i na drugim uređajima."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
-"Sync isn't designed as a permanent backup – it's just sharing what is saved "
-"locally. If you reset your password and your data isn't stored on at least "
-"one other device, you could lose all the information associated with the old "
-"password. That's why you'll want to install Firefox and use Sync on more "
-"than one device."
+"You should install Firefox and sync at least two devices to protect against "
+"losing your data if you need to restore it but forget your password."
 msgstr ""
-"Sync nije zamišljen kao trajna rezerva podataka već je samo za deljenje "
-"onoga što sačuvate lokalno. Ukoliko resetujete lozinku a vaši podaci nisu "
-"uskladišteni barem na nekom drugom uređaju, možete izgubiti sve podatke "
-"vezane za staru lozinku. Zbog toga je preporučeno da instalirate Firefox i "
-"da koristite Sync na više uređaja."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4
 #: app/scripts/templates/settings/client_disconnect.mustache:11
@@ -1541,6 +1514,60 @@ msgstr "Prijavi se"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Prijavi se"
+
+#~ msgid "A verification link has been sent to %(email)s"
+#~ msgstr "Veza potvrde je poslata na %(email)s"
+
+#~ msgid "Verification emailed to %(email)s"
+#~ msgstr "Potvrda je poslata na %(email)s"
+
+#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
+#~ msgstr "Dodaci i postavke se ne sinhronizuju na mobilnim uređajima."
+
+#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Potvrdna veza je poslata&nbsp;na adresu %(escapedEmail)s"
+
+#~ msgid ""
+#~ "To better protect your Firefox data, we've emailed a confirmation link to "
+#~ "%(email)s"
+#~ msgstr ""
+#~ "Da bismo bolje zaštitili Firefox podatke, poslali smo vam vezu za potvrdu "
+#~ "na %(email)s"
+
+#~ msgid ""
+#~ "To better protect your Firefox data, there is an authorization code "
+#~ "waiting for you at %(email)s."
+#~ msgstr ""
+#~ "Da bismo bolje zaštitili vaše Firefox podatke, poslali smo vam "
+#~ "autorizacioni kod na adresu %(email)s."
+
+#~ msgid "Why Sync two (or more!) devices?"
+#~ msgstr "Zašto koristiti Sync na dva (ili više!) uređaja?"
+
+#~ msgid ""
+#~ "Sync lets you share the bookmarks, history and passwords you save to "
+#~ "Firefox on one device with Firefox on other devices. Sign in to Firefox "
+#~ "on your phone or tablet and everything you've saved to Firefox for "
+#~ "desktop will appear."
+#~ msgstr ""
+#~ "Sync vam omogućava da uskladite zabeleške, istorijat i lozinke koje ste "
+#~ "sačuvali u Firefox-u na jednom uređaju, sa Firefox programima na drugim "
+#~ "uređajima. Prijavite se u Firefox na vašem telefonu ili tabletu i sve što "
+#~ "sačuvate u Firefox-u za stone računare će se pojaviti i na drugim "
+#~ "uređajima."
+
+#~ msgid ""
+#~ "Sync isn't designed as a permanent backup – it's just sharing what is "
+#~ "saved locally. If you reset your password and your data isn't stored on "
+#~ "at least one other device, you could lose all the information associated "
+#~ "with the old password. That's why you'll want to install Firefox and use "
+#~ "Sync on more than one device."
+#~ msgstr ""
+#~ "Sync nije zamišljen kao trajna rezerva podataka već je samo za deljenje "
+#~ "onoga što sačuvate lokalno. Ukoliko resetujete lozinku a vaši podaci nisu "
+#~ "uskladišteni barem na nekom drugom uređaju, možete izgubiti sve podatke "
+#~ "vezane za staru lozinku. Zbog toga je preporučeno da instalirate Firefox "
+#~ "i da koristite Sync na više uređaja."
 
 #~ msgid ""
 #~ "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get "

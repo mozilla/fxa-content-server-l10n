@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-09 20:00+0000\n"
+"POT-Creation-Date: 2017-06-23 16:09+0000\n"
 "PO-Revision-Date: 2017-06-11 12:06+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,11 +78,11 @@ msgstr "Ukjend konto. <a href=\"/signup\">Registrer deg</a>"
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Ukjend Firefox-konto. <a href=\"/signup\">Registrer deg</a> med e-postadressa di som du tidlegare har brukt for å få tilgang til dataa dine på nettstaden Utvidingar."
 
-#: app/scripts/views/sign_up.js:63
+#: app/scripts/views/sign_up.js:61
 msgid "Account no longer exists. Recreate it?"
 msgstr "Kontoen finst ikkje lenger. Vil du gjenskapa han?"
 
-#: app/scripts/views/sign_up.js:382
+#: app/scripts/views/sign_up.js:380
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Kontoen finst allereie. <a href=\"/signin\">Logg inn</a>"
 
@@ -102,27 +102,27 @@ msgstr "Det var ikkje kjekt å høyra. Du bør byta passord på Firefox-kontoen 
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Det var ikkje kjekt å høyra. Om dette var ei eining du verkeleg ikkje stolar på, bør du byta passord på Firefox-kontoen din, og endra alle andre passord lagra i Firefox."
 
-#: app/scripts/views/settings/clients.js:64
+#: app/scripts/views/settings/clients.js:63
 msgid "Web Session, %(userAgent)s"
 msgstr "Nett-økt, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:66
+#: app/scripts/views/settings/clients.js:65
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:71
+#: app/scripts/views/settings/clients.js:70
 msgid "started syncing %(translatedTimeAgo)s"
 msgstr "starta synkronisering %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:76
+#: app/scripts/views/settings/clients.js:75
 msgid "last active %(translatedTimeAgo)s"
 msgstr "sist aktiv %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/communication_preferences.js:104
+#: app/scripts/views/settings/communication_preferences.js:118
 msgid "Subscribed successfully"
 msgstr "Abonnementet starta"
 
-#: app/scripts/views/settings/communication_preferences.js:105
+#: app/scripts/views/settings/communication_preferences.js:119
 msgid "Unsubscribed successfully"
 msgstr "Abonnementet stoppa"
 
@@ -134,13 +134,9 @@ msgstr "Kontoen er no sletta"
 msgid "Display name updated"
 msgstr "Visingsnamn oppdatert"
 
-#: app/scripts/views/settings/emails.js:137
-msgid "A verification link has been sent to %(email)s"
-msgstr "Ei stadfestingslenke er sendt til %(email)s"
-
-#: app/scripts/views/settings/emails.js:150
-msgid "Verification emailed to %(email)s"
-msgstr "Stadfesting sendt til %(email)s"
+#: app/scripts/views/settings/emails.js:136 app/scripts/views/settings/emails.js:149
+msgid "Verification email sent"
+msgstr ""
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -552,8 +548,12 @@ msgid "SMS not sent, please try again"
 msgstr "SMS ikkje sendt, prøv igjen"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Ved å fortsetta godkjenner du <a id=\"service-tos\" href=\"%(termsUri)s\">tenestevilkåra</a> og<a id=\"service-pp\" href=\"%(privacyUri)s\">personvernmerknaden</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Ved å fortsetta godkjenner du <a id=\"service-tos\" href=\"%(termsUri)s\">tenestevilkåra</a> og<a id=\"service-pp\" href=\"%(privacyUri)s\">personvernmerknaden</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -644,14 +644,10 @@ msgid "Preferences"
 msgstr "Innstillingar"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
-msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr "Utvidingar og innstillingar kan akkurat no ikkje synkroniserast på mobile einingar."
-
-#: app/scripts/templates/choose_what_to_sync.mustache:16
 msgid "Save settings"
 msgstr "Lagra innstillingar"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:17 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Tilbake"
 
@@ -728,12 +724,12 @@ msgid "Email Sent"
 msgstr "E-post sendt"
 
 #: app/scripts/templates/confirm.mustache:6
-msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr "Ein stadfestingskode er sendt&nbsp;til %(escapedEmail)s"
+msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: app/scripts/templates/confirm.mustache:8
-msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr "For å betre beskytta dine Firefox-data, har vi sendt ei stadfestingslenke på e-post til %(email)s"
+msgid "Check your email for the sign-in confirmation link sent to %(email)s"
+msgstr ""
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
@@ -817,13 +813,14 @@ msgstr "Logg inn for å halda fram"
 msgid "Password"
 msgstr "Passord"
 
-#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:18 app/scripts/templates/settings/change_password.mustache:5
+#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "Gløymt passordet?"
 
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Ved å fortsetje seier du deg samd i <a id=\"fxa-tos\" href=\"/legal/terms\">tenestevilkåra</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\">personvernmerknaden</a> for Firefox sine skytenester."
+msgstr ""
+"Ved å fortsetje seier du deg samd i <a id=\"fxa-tos\" href=\"/legal/terms\">tenestevilkåra</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\">personvernmerknaden</a> for Firefox sine skytenester."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -942,11 +939,11 @@ msgstr "Ser du etter utvidingsdata? <a href=\"/signup\">Registrer deg</a> for ei
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr "Migrer dine sync-data ved å logga inn på Firefox-kontoen din."
 
-#: app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:12
+#: app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:12
 msgid "Use a different account"
 msgstr "Bruk ein annan konto"
 
-#: app/scripts/templates/sign_in.mustache:19
+#: app/scripts/templates/sign_in.mustache:18
 msgid "Create an account"
 msgstr "Opprett ein konto"
 
@@ -963,8 +960,8 @@ msgid "Authorize this sign-in"
 msgstr "Godkjenn denne innlogginga"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
-msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr "For å betre beskytta Firefox-dataa dine, har vi sendt ein godkjenningskode til deg på %(email)s."
+msgid "Check your email for the authorization code sent to %(email)s."
+msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1046,24 +1043,16 @@ msgid "Didn't arrive? Resend"
 msgstr "Ikkje komen? Send på nytt"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
-msgid "Why Sync two (or more!) devices?"
-msgstr "Kvifor synkronisera två (eller fleire) einingar?"
+msgid "Why sync multiple devices?"
+msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
-msgid ""
-"Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-"Firefox for desktop will appear."
+msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
 msgstr ""
-"Sync lèt deg dela bokmerke, historikk og passord som du lagrar i Firefox på ei eining, med Firefox på andre einingar. Logg inn på Firefox på telefonen din eller nettbrettet ditt og allt du har lagra"
-" i Firefox på datamaskina di vert vist."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
-msgid ""
-"Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
-"information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr ""
-"Sync er ikkje utforma som permanent backup – men delar berre det som er lagra lokalt. Om du tilbakestiller passordet ditt og data ikkje vert lagra på minst ei anna eining, kan du mista all "
-"informasjon knytt til det gamle passordet. Det er grunnen til at du vil installera Firefox og bruka Sync på fleire enn ei eining."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1290,6 +1279,41 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr "Logg inn"
 
+#~ msgid "A verification link has been sent to %(email)s"
+#~ msgstr "Ei stadfestingslenke er sendt til %(email)s"
+
+#~ msgid "Verification emailed to %(email)s"
+#~ msgstr "Stadfesting sendt til %(email)s"
+
+#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
+#~ msgstr "Utvidingar og innstillingar kan akkurat no ikkje synkroniserast på mobile einingar."
+
+#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Ein stadfestingskode er sendt&nbsp;til %(escapedEmail)s"
+
+#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+#~ msgstr "For å betre beskytta dine Firefox-data, har vi sendt ei stadfestingslenke på e-post til %(email)s"
+
+#~ msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
+#~ msgstr "For å betre beskytta Firefox-dataa dine, har vi sendt ein godkjenningskode til deg på %(email)s."
+
+#~ msgid "Why Sync two (or more!) devices?"
+#~ msgstr "Kvifor synkronisera två (eller fleire) einingar?"
+
+#~ msgid ""
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
+#~ msgstr ""
+#~ "Sync lèt deg dela bokmerke, historikk og passord som du lagrar i Firefox på ei eining, med Firefox på andre einingar. Logg inn på Firefox på telefonen din eller nettbrettet ditt og allt du har "
+#~ "lagra i Firefox på datamaskina di vert vist."
+
+#~ msgid ""
+#~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
+#~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+#~ msgstr ""
+#~ "Sync er ikkje utforma som permanent backup – men delar berre det som er lagra lokalt. Om du tilbakestiller passordet ditt og data ikkje vert lagra på minst ei anna eining, kan du mista all "
+#~ "informasjon knytt til det gamle passordet. Det er grunnen til at du vil installera Firefox og bruka Sync på fleire enn ei eining."
+
 #~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
 #~ msgstr "Ser du etter Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Kom i gang her</a>"
 
@@ -1302,8 +1326,8 @@ msgstr "Logg inn"
 #~ msgid ""
 #~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr ""
-#~ "SMS-tenesta er berre tilgjengeleg for amerikanske telefonnummer. Du må kanskje betale for SMS og data. Mottakarane av e-posten eller SMS-en må ha gitt samtykke. <a %(escapedLearnMoreAttributes)s>Les"
-#~ " meir</a>"
+#~ "SMS-tenesta er berre tilgjengeleg for amerikanske telefonnummer. Du må kanskje betale for SMS og data. Mottakarane av e-posten eller SMS-en må ha gitt samtykke. <a "
+#~ "%(escapedLearnMoreAttributes)s>Les meir</a>"
 
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "Med velvillig løyve frå <a href=\"https://www.gravatar.com\">Gravatar</a>"
@@ -1380,18 +1404,20 @@ msgstr "Logg inn"
 #~ msgid "Sync preferences"
 #~ msgstr "Sync-innstillingar"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr "Ser du etter Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Kom i gang her</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr ""
+#~ "Ser du etter Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Kom i gang her</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Har du ein konto med ein annan e-post? <a href=\"%(signinUri)s\">Logg inn</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox er tilgjengeleg for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> og <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox er tilgjengeleg for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> og <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Sist aktiv: %(translatedTimeAgo)s"

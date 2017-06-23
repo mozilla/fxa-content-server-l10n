@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-09 20:00+0000\n"
+"POT-Creation-Date: 2017-06-23 16:09+0000\n"
 "PO-Revision-Date: 2017-06-17 05:33+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,11 +78,11 @@ msgstr "Conta desconhecida. <a href=\"/signup\">Registar</a>"
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Conta Firefox desconhecida. <a href=\"/signup\">Registe-se</a> utilizando o endereço de email da sua conta Extras anterior para aceder aos seus dados de Extras."
 
-#: app/scripts/views/sign_up.js:63
+#: app/scripts/views/sign_up.js:61
 msgid "Account no longer exists. Recreate it?"
 msgstr "A conta já não existe. Pretende recreá-la?"
 
-#: app/scripts/views/sign_up.js:382
+#: app/scripts/views/sign_up.js:380
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "A conta já existe. <a href=\"/signin\">Inicie sessão</a>"
 
@@ -105,27 +105,27 @@ msgid "We're sorry to hear about this. If this was a device you really don't tru
 msgstr ""
 "Pedimos desculpa por ouvirmos acerca disto. Se este era um dispositivo que não confiava, deverá alterar a palavra-passe da sua Conta Firefox, e alterar quaisquer palavras-passe guardadas no Firefox."
 
-#: app/scripts/views/settings/clients.js:64
+#: app/scripts/views/settings/clients.js:63
 msgid "Web Session, %(userAgent)s"
 msgstr "Sessão Web, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:66
+#: app/scripts/views/settings/clients.js:65
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:71
+#: app/scripts/views/settings/clients.js:70
 msgid "started syncing %(translatedTimeAgo)s"
 msgstr "começou a sincronizar %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:76
+#: app/scripts/views/settings/clients.js:75
 msgid "last active %(translatedTimeAgo)s"
 msgstr "última vez ativo %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/communication_preferences.js:104
+#: app/scripts/views/settings/communication_preferences.js:118
 msgid "Subscribed successfully"
 msgstr "Subscrição efetuada com sucesso"
 
-#: app/scripts/views/settings/communication_preferences.js:105
+#: app/scripts/views/settings/communication_preferences.js:119
 msgid "Unsubscribed successfully"
 msgstr "Subscrição anulada com sucesso"
 
@@ -137,13 +137,9 @@ msgstr "Conta apagada com sucesso"
 msgid "Display name updated"
 msgstr "Nome de apresentação atualizado"
 
-#: app/scripts/views/settings/emails.js:137
-msgid "A verification link has been sent to %(email)s"
-msgstr "Uma ligação de verificação foi enviada para %(email)s"
-
-#: app/scripts/views/settings/emails.js:150
-msgid "Verification emailed to %(email)s"
-msgstr "Verificação enviada por email para %(email)s"
+#: app/scripts/views/settings/emails.js:136 app/scripts/views/settings/emails.js:149
+msgid "Verification email sent"
+msgstr ""
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -555,7 +551,9 @@ msgid "SMS not sent, please try again"
 msgstr "SMS não enviado, por favor tente novamente"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Ao proceder, está concordar com os <a id=\"service-tos\" href=\"%(termsUri)s\">Termos do serviço</a> e com o <a id=\"service-pp\" href=\"%(privacyUri)s\">Aviso de privacidade</a> do %(serviceName)s "
 "(%(serviceUri)s)."
@@ -649,14 +647,10 @@ msgid "Preferences"
 msgstr "Preferências"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
-msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr "As Preferências e Extras não são atualmente sincronizados em dispositivos móveis."
-
-#: app/scripts/templates/choose_what_to_sync.mustache:16
 msgid "Save settings"
 msgstr "Guardar definições"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:17 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Retroceder"
 
@@ -733,12 +727,12 @@ msgid "Email Sent"
 msgstr "Email enviado"
 
 #: app/scripts/templates/confirm.mustache:6
-msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr "Uma ligação de verificação foi enviada&nbsp;para %(escapedEmail)s"
+msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: app/scripts/templates/confirm.mustache:8
-msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr "Para proteger melhor os seus dados Firefox, enviámos-lhe por email uma ligação de confirmação para %(email)s"
+msgid "Check your email for the sign-in confirmation link sent to %(email)s"
+msgstr ""
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
@@ -822,13 +816,15 @@ msgstr "Inicie sessão para continuar"
 msgid "Password"
 msgstr "Palavra-passe"
 
-#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:18 app/scripts/templates/settings/change_password.mustache:5
+#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "Esqueceu-se da palavra-passe?"
 
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Ao proceder, está a concordar com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com o <a id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de privacidade</a> dos serviços do Firefox na nuvem."
+msgstr ""
+"Ao proceder, está a concordar com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com o <a id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de privacidade</a> dos serviços do Firefox "
+"na nuvem."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -947,11 +943,11 @@ msgstr "À procura dos seus dados de Extras? <a href=\"/signup\">Registe-se</a> 
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr "Migre os seus dados de sincronização iniciando sessão na sua Conta&nbsp;Firefox."
 
-#: app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:12
+#: app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:12
 msgid "Use a different account"
 msgstr "Utilizar uma conta diferente"
 
-#: app/scripts/templates/sign_in.mustache:19
+#: app/scripts/templates/sign_in.mustache:18
 msgid "Create an account"
 msgstr "Criar uma conta"
 
@@ -968,8 +964,8 @@ msgid "Authorize this sign-in"
 msgstr "Autorizar este início de sessão"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
-msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr "Para proteger melhor os seus dados Firefox, existe um código de autorização à sua espera em %(email)s."
+msgid "Check your email for the authorization code sent to %(email)s."
+msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1027,8 +1023,8 @@ msgstr "Enviar"
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-"Serviço SMS apenas disponível em certos países. Taxas de SMS e dados podem ser aplicadas. O destinatário intendido do email ou SMS deve ter consentido. <a %(escapedLearnMoreAttributes)s>Saber "
-"mais</a>"
+"Serviço SMS apenas disponível em certos países. Taxas de SMS e dados podem ser aplicadas. O destinatário intendido do email ou SMS deve ter consentido. <a %(escapedLearnMoreAttributes)s>Saber mais</"
+"a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
@@ -1051,24 +1047,16 @@ msgid "Didn't arrive? Resend"
 msgstr "Não chegou? Reenviar"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
-msgid "Why Sync two (or more!) devices?"
-msgstr "Porquê sincronizar dois (ou mais!) dispositivos?"
+msgid "Why sync multiple devices?"
+msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
-msgid ""
-"Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-"Firefox for desktop will appear."
+msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
 msgstr ""
-"O Sync permite-lhe partilhar marcadores, histórico e palavras-passe que guarde no Firefox num dispositivo com o Firefox noutros dispositivos. Inicie sessão no Firefox no seu telemóvel ou tablet e "
-"tudo o que guardou no Firefox para computadores irá aparecer."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
-msgid ""
-"Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
-"information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr ""
-"O Sync não é desenhado como uma cópia de segurança permanente – apenas partilha o que é guardado localmente. Se repuser a sua palavra-passe e os seus dados não estiverem armazenados em, pelo menos, "
-"um outro dispositivo, poderá perder toda a informação associada com a palavra-passe antiga. É por isso que deverá querer instalar o Firefox e utilizar o Sync em mais de um dispositivo."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1295,6 +1283,41 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr "Iniciar sessão"
 
+#~ msgid "A verification link has been sent to %(email)s"
+#~ msgstr "Uma ligação de verificação foi enviada para %(email)s"
+
+#~ msgid "Verification emailed to %(email)s"
+#~ msgstr "Verificação enviada por email para %(email)s"
+
+#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
+#~ msgstr "As Preferências e Extras não são atualmente sincronizados em dispositivos móveis."
+
+#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Uma ligação de verificação foi enviada&nbsp;para %(escapedEmail)s"
+
+#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+#~ msgstr "Para proteger melhor os seus dados Firefox, enviámos-lhe por email uma ligação de confirmação para %(email)s"
+
+#~ msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
+#~ msgstr "Para proteger melhor os seus dados Firefox, existe um código de autorização à sua espera em %(email)s."
+
+#~ msgid "Why Sync two (or more!) devices?"
+#~ msgstr "Porquê sincronizar dois (ou mais!) dispositivos?"
+
+#~ msgid ""
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
+#~ msgstr ""
+#~ "O Sync permite-lhe partilhar marcadores, histórico e palavras-passe que guarde no Firefox num dispositivo com o Firefox noutros dispositivos. Inicie sessão no Firefox no seu telemóvel ou tablet "
+#~ "e tudo o que guardou no Firefox para computadores irá aparecer."
+
+#~ msgid ""
+#~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
+#~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+#~ msgstr ""
+#~ "O Sync não é desenhado como uma cópia de segurança permanente – apenas partilha o que é guardado localmente. Se repuser a sua palavra-passe e os seus dados não estiverem armazenados em, pelo "
+#~ "menos, um outro dispositivo, poderá perder toda a informação associada com a palavra-passe antiga. É por isso que deverá querer instalar o Firefox e utilizar o Sync em mais de um dispositivo."
+
 #~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
 #~ msgstr "À procura do Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Comece aqui</a>"
 
@@ -1385,18 +1408,19 @@ msgstr "Iniciar sessão"
 #~ msgid "Sync preferences"
 #~ msgstr "Preferências do Sync"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "À procura do Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Comece aqui</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Tem uma conta com um email diferente? <a href=\"%(signinUri)s\">Inicie sessão</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "O Firefox está disponível para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> e <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "O Firefox está disponível para <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> e <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Ativo pela última vez: %(translatedTimeAgo)s"
@@ -1502,7 +1526,8 @@ msgstr "Iniciar sessão"
 
 #~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
 #~ msgstr ""
-#~ "Por questões de segurança a sua conta foi bloqueada. Para executar atividades ao nível da conta, por favor verifique novamente a sua conta clicando na ligação de verificação enviada para %(email)s"
+#~ "Por questões de segurança a sua conta foi bloqueada. Para executar atividades ao nível da conta, por favor verifique novamente a sua conta clicando na ligação de verificação enviada para "
+#~ "%(email)s"
 
 #~ msgid "Signup has been disabled"
 #~ msgstr "O registo foi desativado"
