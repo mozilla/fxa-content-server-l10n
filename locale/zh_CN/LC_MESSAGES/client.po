@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 16:09+0000\n"
-"PO-Revision-Date: 2017-06-10 06:50+0000\n"
+"PO-Revision-Date: 2017-06-23 17:04+0000\n"
 "Last-Translator: YFdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -138,7 +138,7 @@ msgstr "显示名称已更新"
 
 #: app/scripts/views/settings/emails.js:136 app/scripts/views/settings/emails.js:149
 msgid "Verification email sent"
-msgstr ""
+msgstr "验证邮件已发送"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -550,9 +550,7 @@ msgid "SMS not sent, please try again"
 msgstr "短信未发送，请重试"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr "继续提交即代表您同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos\" href=\"%(termsUri)s\">服务条款</a>和<a id=\"service-pp\" href=\"%(privacyUri)s\">隐私声明</a>。"
 
 #: app/scripts/lib/strings.js:30
@@ -725,11 +723,11 @@ msgstr "邮件已发送"
 
 #: app/scripts/templates/confirm.mustache:6
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "检查您的电子邮箱，验证链接已发送到 %(escapedEmail)s"
 
 #: app/scripts/templates/confirm.mustache:8
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-msgstr ""
+msgstr "检查您的电子邮箱，登录确认链接已发送到 %(email)s"
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
@@ -960,7 +958,7 @@ msgstr "授权此次登录"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "检查您的电子邮箱，授权码已发送到 %(email)s。"
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1041,15 +1039,15 @@ msgstr "没收到？重新发送"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr ""
+msgstr "为什么是同步多个设备？"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr ""
+msgstr "同步服务不是一个持久备份服务，它只是在您自己的设备之间安全传输已保存的书签、历史记录和密码的一种方式。"
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
+msgstr "您应当在至少两台设备上安装 Firefox 并使用同步，以预防需要恢复时忘记了密码，那时将无法找回数据。"
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1298,16 +1296,14 @@ msgstr "登录"
 #~ msgstr "为什么要同步两台或以上的设备？"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr "同步使您可以共享书签、历史和密码，将一台设备上的 Firefox 数据同步到另一台设备的 Firefox 上。在您的手机或平板电脑上登录 Firefox，您保存到 Firefox 桌面版的所有内容也将显示。"
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
-#~ msgstr ""
-#~ "同步不是为永久备份设计——它只共享您在本地保存的东西。如果您重置密码并且您的数据未存储在至少一台其他设备上，您可能会丢失与旧密码相关的所有信息。这就是为什么你应该在多台设备上安装 Firefox 并使用同"
-#~ "步。"
+#~ msgstr "同步不是为永久备份设计——它只共享您在本地保存的东西。如果您重置密码并且您的数据未存储在至少一台其他设备上，您可能会丢失与旧密码相关的所有信息。这就是为什么你应该在多台设备上安装 Firefox 并使用同步。"
 
 #~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
 #~ msgstr "在找 Firefox 同步？<a href=\"%(escapedSyncSuggestionUrl)s\">从这里开始使用</a>"
@@ -1397,19 +1393,16 @@ msgstr "登录"
 #~ msgid "Sync preferences"
 #~ msgstr "同步选项"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "要使用 Firefox 同步？ <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">点此开始</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "已有另一个邮件地址的账号？<a href=\"%(signinUri)s\">登录</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
-#~ msgstr ""
-#~ "Firefox 可以在 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> 以及 <a href=\"%(linkLinux)s"
-#~ "\">Linux</a> 上使用。"
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ msgstr "Firefox 可以在 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> 以及 <a href=\"%(linkLinux)s\">Linux</a> 上使用。"
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "最后活动：%(translatedTimeAgo)s"
@@ -1782,9 +1775,7 @@ msgstr "登录"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "已有账号？登录。"
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr "继续则代表我同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos\" href=\"%(termsUri)s\">服务条款</a> 和 <a id=\"service-pp\" href=\"%(privacyUri)s\">隐私声明</a>。"
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
