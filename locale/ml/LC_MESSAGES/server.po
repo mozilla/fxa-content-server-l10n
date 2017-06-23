@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-09 20:00+0000\n"
+"POT-Creation-Date: 2017-06-23 16:09+0000\n"
 "PO-Revision-Date: 2017-05-31 13:05+0000\n"
 "Last-Translator: ലാസിം ശഹാദ് <lazimshahad123@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,13 +27,13 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"നിങ്ങളുടെ ആദ്യത്തെ ഉപകരണം നിങ്ങളുടെ ഫയർഫോക് അക്കൌണ്ടിലേക്ക് വിജയകരമായി ബന്ധിപ്പിച്ചു. ഇപ്പോൾ നിങ്ങൾക്ക് സമന്വയത്തിൽ <a href='%(androidUrl)s'>ആൻഡ്രോയിഡ്</a>, <a href='%(iosUrl)s'>ഐഒഎസ്</a> "
-"എന്നിവയ്ക്കുള്ള ഫയർഫോക്സ് കൂടാതെ മറ്റു ഉപകരണങ്ങിൽ നിന്നും പ്രവേശിക്കാനാകും."
+"നിങ്ങളുടെ ആദ്യത്തെ ഉപകരണം നിങ്ങളുടെ ഫയർഫോക് അക്കൌണ്ടിലേക്ക് വിജയകരമായി ബന്ധിപ്പിച്ചു. ഇപ്പോൾ നിങ്ങൾക്ക് സമന്വയത്തിൽ <a href='%(androidUrl)s'>ആൻഡ്രോയിഡ്</a>, <a href='%(iosUrl)s'>ഐഒഎസ്</a> എന്നിവയ്ക്കുള്ള ഫയർഫോക്സ് കൂടാതെ മറ്റു "
+"ഉപകരണങ്ങിൽ നിന്നും പ്രവേശിക്കാനാകും."
 
 #: lib/senders/templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
 
 #: lib/senders/templates/_pending.txt:5 lib/senders/templates/post_verify.html:4
@@ -246,8 +246,8 @@ msgstr ""
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-" email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+"this email address to activate your account."
 msgstr ""
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verify.html:4

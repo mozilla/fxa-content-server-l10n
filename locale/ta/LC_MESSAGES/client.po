@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-09 20:00+0000\n"
+"POT-Creation-Date: 2017-06-23 16:09+0000\n"
 "PO-Revision-Date: 2017-06-13 02:17+0000\n"
 "Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,11 +79,11 @@ msgstr "தெரியாத கணக்கு. <a href=\"/signup\">பதி�
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "தெரியாத பயர்பாஃசு கணக்கு. கூடுதல் நிரல் கணக்கின் மூலம் <a href=\"/signup\">உள்நுழைந்து</a> கூடுதல் நிரல் தகவலை அணுகவும்."
 
-#: app/scripts/views/sign_up.js:63
+#: app/scripts/views/sign_up.js:61
 msgid "Account no longer exists. Recreate it?"
 msgstr "கணக்கை நீண்ட காலம் பாவிக்கல. மீண்டும் உருவாக்க வேண்டுமா?"
 
-#: app/scripts/views/sign_up.js:382
+#: app/scripts/views/sign_up.js:380
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "கணக்கு ஏற்கனவே உள்ளது. <a href=\"/signin\">உள்நுழைக</a>"
 
@@ -103,27 +103,27 @@ msgstr "கேட்பதற்கு சங்கடமாக உள்ளத�
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "கேட்பதற்கு சங்கடமாக உள்ளது. நீங்கள் நம்பக்கூடிய சாதனமாக இல்லையெனில்  உங்கள் பயர்பாஃசு கணக்கின் கடவுச்சொல்லை கணடிப்பாக மாற்றுவதுடன் பயர்பாஃசில் சேமித்த கடவுச்சொற்களையும் மாற்றவும்."
 
-#: app/scripts/views/settings/clients.js:64
+#: app/scripts/views/settings/clients.js:63
 msgid "Web Session, %(userAgent)s"
 msgstr "வலை அமர்வு, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:66
+#: app/scripts/views/settings/clients.js:65
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:71
+#: app/scripts/views/settings/clients.js:70
 msgid "started syncing %(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s ஒத்திசைக்க துவங்கியது"
 
-#: app/scripts/views/settings/clients.js:76
+#: app/scripts/views/settings/clients.js:75
 msgid "last active %(translatedTimeAgo)s"
 msgstr "கடைசியாக கண்டது %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/communication_preferences.js:104
+#: app/scripts/views/settings/communication_preferences.js:118
 msgid "Subscribed successfully"
 msgstr "வெற்றிகரமாக சந்தாபடுத்தப்பட்டது"
 
-#: app/scripts/views/settings/communication_preferences.js:105
+#: app/scripts/views/settings/communication_preferences.js:119
 msgid "Unsubscribed successfully"
 msgstr "வெற்றிகரமாக சந்தா நீக்கப்பட்டது"
 
@@ -135,13 +135,9 @@ msgstr "கணக்கு வெற்றிகரமாக நீக்கப�
 msgid "Display name updated"
 msgstr "காட்சி பெயர் புதுப்பிக்கப்பட்டது"
 
-#: app/scripts/views/settings/emails.js:137
-msgid "A verification link has been sent to %(email)s"
-msgstr "%(email)s முகவரிக்கு சரிபார்க்கும் அஞ்சல் ஒன்று அனுப்பப்பட்டுள்ளது"
-
-#: app/scripts/views/settings/emails.js:150
-msgid "Verification emailed to %(email)s"
-msgstr "%(email)s முகவரிக்கு சரிபார்ப்பு மின்னஞ்சல் அனுப்பப்பட்டுள்ளது"
+#: app/scripts/views/settings/emails.js:136 app/scripts/views/settings/emails.js:149
+msgid "Verification email sent"
+msgstr ""
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -553,7 +549,9 @@ msgid "SMS not sent, please try again"
 msgstr "குறுந்செய்தி செல்லவில்லை, மீண்டும் முயற்சி"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
@@ -645,14 +643,10 @@ msgid "Preferences"
 msgstr "முன்னுரிமைகள்"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
-msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr "கூடுதல் நிரல்களும் முன்னுரிமைகளும் தற்போது செல்பேசி சாதனங்களில் ஒத்திசைப்பதில்லை."
-
-#: app/scripts/templates/choose_what_to_sync.mustache:16
 msgid "Save settings"
 msgstr "அமைவுகளைச் சேமி"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:17 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "பின்செல்"
 
@@ -729,11 +723,11 @@ msgid "Email Sent"
 msgstr ""
 
 #: app/scripts/templates/confirm.mustache:6
-msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
 msgstr ""
 
 #: app/scripts/templates/confirm.mustache:8
-msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 msgstr ""
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
@@ -818,7 +812,7 @@ msgstr "தொடர்வதற்கு உள்நுழையவும�
 msgid "Password"
 msgstr "கடவுச்சொல்"
 
-#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:18 app/scripts/templates/settings/change_password.mustache:5
+#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "கடவுச்சொல்லை மறந்துவிட்டீர்களா?"
 
@@ -943,11 +937,11 @@ msgstr ""
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr "உங்கள் பயர்பாக்ஸ்&nbsp;கணக்கில் நுழைந்து ஒத்திசைவு தரவை நகரத்து."
 
-#: app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:12
+#: app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:12
 msgid "Use a different account"
 msgstr "வேறு கணக்கைப் பயன்படுத்து"
 
-#: app/scripts/templates/sign_in.mustache:19
+#: app/scripts/templates/sign_in.mustache:18
 msgid "Create an account"
 msgstr "ஒரு கணக்கை உருவாக்கு"
 
@@ -964,7 +958,7 @@ msgid "Authorize this sign-in"
 msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
-msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
+msgid "Check your email for the authorization code sent to %(email)s."
 msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
@@ -1045,19 +1039,15 @@ msgid "Didn't arrive? Resend"
 msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
-msgid "Why Sync two (or more!) devices?"
+msgid "Why sync multiple devices?"
 msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
-msgid ""
-"Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-"Firefox for desktop will appear."
+msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
 msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
-msgid ""
-"Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
-"information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
@@ -1284,6 +1274,15 @@ msgstr "புகுப்பதிகை"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "புகுப்பதிகை"
+
+#~ msgid "A verification link has been sent to %(email)s"
+#~ msgstr "%(email)s முகவரிக்கு சரிபார்க்கும் அஞ்சல் ஒன்று அனுப்பப்பட்டுள்ளது"
+
+#~ msgid "Verification emailed to %(email)s"
+#~ msgstr "%(email)s முகவரிக்கு சரிபார்ப்பு மின்னஞ்சல் அனுப்பப்பட்டுள்ளது"
+
+#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
+#~ msgstr "கூடுதல் நிரல்களும் முன்னுரிமைகளும் தற்போது செல்பேசி சாதனங்களில் ஒத்திசைப்பதில்லை."
 
 #~ msgid "No Gravatar found"
 #~ msgstr "Gravatar காணப்படவில்லை"

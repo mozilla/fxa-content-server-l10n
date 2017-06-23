@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-09 20:00+0000\n"
+"POT-Creation-Date: 2017-06-23 16:09+0000\n"
 "PO-Revision-Date: 2017-01-22 14:26+0000\n"
 "Last-Translator: ibrahima.sarr <ibrahima.sarr@pulaagu.com>\n"
 "Language-Team: FULAH LOCALIZATION\n"
@@ -79,11 +79,11 @@ msgstr "Konte anndaaka. <a href=\"/signup\">Winndito</a>"
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Konte Firefox ɗee nganndaaka. <a href=\"/signup\">Winndito</a> huutoraade konte maa iimeel ɓeyditte jawtuɗe ngam naatde e keɓe Ɓeyditte."
 
-#: app/scripts/views/sign_up.js:63
+#: app/scripts/views/sign_up.js:61
 msgid "Account no longer exists. Recreate it?"
 msgstr "Konte ɗee nattii woodde. Sostu-ɗe?"
 
-#: app/scripts/views/sign_up.js:382
+#: app/scripts/views/sign_up.js:380
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Konte ena ngoodi kisa. <a href=\"/signin\">Seŋo</a>"
 
@@ -103,27 +103,27 @@ msgstr "Ɗum deh welaani nanade. Wadde aɗa foti waylude finnde maa Konte Firefo
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Ɗum deh welaani nande. So ɗum ko kaɓirgol ngol a hoolaaki e jaati, pot-ɗaa ko waylude finnde maa Konte Firefox, e finndeeji danndaaɗi e Firefox fof."
 
-#: app/scripts/views/settings/clients.js:64
+#: app/scripts/views/settings/clients.js:63
 msgid "Web Session, %(userAgent)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:66
+#: app/scripts/views/settings/clients.js:65
 msgid "%(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:71
+#: app/scripts/views/settings/clients.js:70
 msgid "started syncing %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:76
+#: app/scripts/views/settings/clients.js:75
 msgid "last active %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/communication_preferences.js:104
+#: app/scripts/views/settings/communication_preferences.js:118
 msgid "Subscribed successfully"
 msgstr "Lulniima no haaniri"
 
-#: app/scripts/views/settings/communication_preferences.js:105
+#: app/scripts/views/settings/communication_preferences.js:119
 msgid "Unsubscribed successfully"
 msgstr "Lultiniima no haaniri"
 
@@ -135,12 +135,8 @@ msgstr "Konte momtiraama no haanirta"
 msgid "Display name updated"
 msgstr "Innde jaytino hesɗitinaama"
 
-#: app/scripts/views/settings/emails.js:137
-msgid "A verification link has been sent to %(email)s"
-msgstr ""
-
-#: app/scripts/views/settings/emails.js:150
-msgid "Verification emailed to %(email)s"
+#: app/scripts/views/settings/emails.js:136 app/scripts/views/settings/emails.js:149
+msgid "Verification email sent"
 msgstr ""
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
@@ -648,14 +644,10 @@ msgid "Preferences"
 msgstr "Cuɓoraaɗe"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
-msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr "Ɓeyditte e Cuɓoraaɗe cynkataa oo sahaa e kaɓirɗi cinnde."
-
-#: app/scripts/templates/choose_what_to_sync.mustache:16
 msgid "Save settings"
 msgstr "Danndu teelte"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:17 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Caggal"
 
@@ -732,12 +724,12 @@ msgid "Email Sent"
 msgstr "Iimeel neldaama"
 
 #: app/scripts/templates/confirm.mustache:6
-msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr "Jokkol ƴeewtagol neldaama &nbsp;to %(escapedEmail)s"
+msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: app/scripts/templates/confirm.mustache:8
-msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr "Ngam ɓeydude ndeenka keɓe maa Firefox, min neldii jokkol teeŋtinirgol to %(email)s"
+msgid "Check your email for the sign-in confirmation link sent to %(email)s"
+msgstr ""
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
@@ -821,7 +813,7 @@ msgstr "Seŋo ngam jokkude"
 msgid "Password"
 msgstr "Finnde"
 
-#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:18 app/scripts/templates/settings/change_password.mustache:5
+#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "A yejjit finnde ndee?"
 
@@ -946,11 +938,11 @@ msgstr "Aɗa yiyloo kaɓe Ɓeyditte maa? <a href=\"/signup\">Seŋo</a> e Konte F
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr "Eggin keɓe maa sync so seŋaade e Konte&nbsp;Firefox."
 
-#: app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:12
+#: app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:12
 msgid "Use a different account"
 msgstr "Huutoro konte goɗɗe"
 
-#: app/scripts/templates/sign_in.mustache:19
+#: app/scripts/templates/sign_in.mustache:18
 msgid "Create an account"
 msgstr "Sos konte"
 
@@ -967,8 +959,8 @@ msgid "Authorize this sign-in"
 msgstr "Yamir ngol ceŋagol"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
-msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr "Ngam ɓeydude ndeenka keɓe Firefox, kod jamirgol nana fad-maa to %(email)s."
+msgid "Check your email for the authorization code sent to %(email)s."
+msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1048,24 +1040,16 @@ msgid "Didn't arrive? Resend"
 msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
-msgid "Why Sync two (or more!) devices?"
-msgstr "Ko addi Syncude kaɓirgol (walla keewɗi)?"
+msgid "Why sync multiple devices?"
+msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
-msgid ""
-"Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-"Firefox for desktop will appear."
+msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
 msgstr ""
-"Sync ena waawnu maa lollinde maantore maa, aslol e finndeeji ɗe ndanndu-ɗaa e Firefox ɗ kaɓirgol gootol huutoraade Firefox e kaɓirgol goɗngol. Seŋo e Firefox e cinndel walla taable maa kisa kala ko "
-"ndannduno-ɗaa e Firefox mo biro maa yaltu."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
-msgid ""
-"Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
-"information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr ""
-"Sync waɗiraaka dannorde duumiinde – ko danndude tan ko lollinaa e nokkuure ndee. So a firlitii finnde maa tee keɓe maa ndesaaka e kaɓirgol hay so gootol goɗngol, aɗa waawi momtoreede humpito kala "
-"jokkinooɗo e finnde hiiɗnde ndee. Ko ɗum waɗi aɗa foti aafde Firefox tee kuutoro-ɗaa Sync e ko ɓuri kaɓirgolo gootol."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1291,6 +1275,35 @@ msgstr ""
 msgctxt "header text"
 msgid "Sign in"
 msgstr ""
+
+#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
+#~ msgstr "Ɓeyditte e Cuɓoraaɗe cynkataa oo sahaa e kaɓirɗi cinnde."
+
+#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Jokkol ƴeewtagol neldaama &nbsp;to %(escapedEmail)s"
+
+#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+#~ msgstr "Ngam ɓeydude ndeenka keɓe maa Firefox, min neldii jokkol teeŋtinirgol to %(email)s"
+
+#~ msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
+#~ msgstr "Ngam ɓeydude ndeenka keɓe Firefox, kod jamirgol nana fad-maa to %(email)s."
+
+#~ msgid "Why Sync two (or more!) devices?"
+#~ msgstr "Ko addi Syncude kaɓirgol (walla keewɗi)?"
+
+#~ msgid ""
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
+#~ msgstr ""
+#~ "Sync ena waawnu maa lollinde maantore maa, aslol e finndeeji ɗe ndanndu-ɗaa e Firefox ɗ kaɓirgol gootol huutoraade Firefox e kaɓirgol goɗngol. Seŋo e Firefox e cinndel walla taable maa kisa kala "
+#~ "ko ndannduno-ɗaa e Firefox mo biro maa yaltu."
+
+#~ msgid ""
+#~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
+#~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+#~ msgstr ""
+#~ "Sync waɗiraaka dannorde duumiinde – ko danndude tan ko lollinaa e nokkuure ndee. So a firlitii finnde maa tee keɓe maa ndesaaka e kaɓirgol hay so gootol goɗngol, aɗa waawi momtoreede humpito "
+#~ "kala jokkinooɗo e finnde hiiɗnde ndee. Ko ɗum waɗi aɗa foti aafde Firefox tee kuutoro-ɗaa Sync e ko ɓuri kaɓirgolo gootol."
 
 #~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
 #~ msgstr "Aɗa yiyloo Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Fuɗɗo ɗoo</a>"

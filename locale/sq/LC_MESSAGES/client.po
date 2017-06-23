@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-09 20:00+0000\n"
+"POT-Creation-Date: 2017-06-23 16:09+0000\n"
 "PO-Revision-Date: 2017-06-01 09:35+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,11 +79,11 @@ msgstr "Llogari e panjohur. <a href=\"/signup\">Regjistrohuni</a>"
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Llogari Firefox e Panjohur. Që të mund të përdorni të dhënat tuaja prej Shtesash, <a href=\"/signup\">regjistrohuni</a> duke përdorur adresën email të llogarisë suaj të mëparshme te Shtesa."
 
-#: app/scripts/views/sign_up.js:63
+#: app/scripts/views/sign_up.js:61
 msgid "Account no longer exists. Recreate it?"
 msgstr "Llogaria s’ekziston më. Të rikrijohet?"
 
-#: app/scripts/views/sign_up.js:382
+#: app/scripts/views/sign_up.js:380
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Ka tashmë një llogari të tillë. <a href=\"/signin\">Hyni</a>"
 
@@ -107,27 +107,27 @@ msgstr ""
 "Na vjen keq që e dëgjojmë këtë. Nëse qe një pajisje së cilës nuk i zini vërtet besë, do të duhej të ndryshonit fjalëkalimin tuaj për te Llogari Firefox, dhe të ndryshoni çfarëdo fjalëkalimesh të "
 "ruajtur në Firefox."
 
-#: app/scripts/views/settings/clients.js:64
+#: app/scripts/views/settings/clients.js:63
 msgid "Web Session, %(userAgent)s"
 msgstr "Sesion Web, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:66
+#: app/scripts/views/settings/clients.js:65
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:71
+#: app/scripts/views/settings/clients.js:70
 msgid "started syncing %(translatedTimeAgo)s"
 msgstr "filloi njëkohësimin %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:76
+#: app/scripts/views/settings/clients.js:75
 msgid "last active %(translatedTimeAgo)s"
 msgstr "aktiv së fundi %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/communication_preferences.js:104
+#: app/scripts/views/settings/communication_preferences.js:118
 msgid "Subscribed successfully"
 msgstr "U pajtuat me sukses"
 
-#: app/scripts/views/settings/communication_preferences.js:105
+#: app/scripts/views/settings/communication_preferences.js:119
 msgid "Unsubscribed successfully"
 msgstr "U shpajtuat me sukses"
 
@@ -139,13 +139,9 @@ msgstr "Llogaria u fshi me sukses"
 msgid "Display name updated"
 msgstr "Emri për në ekran u përditësua"
 
-#: app/scripts/views/settings/emails.js:137
-msgid "A verification link has been sent to %(email)s"
-msgstr "U dërgua një lidhje verifikimi te %(email)s"
-
-#: app/scripts/views/settings/emails.js:150
-msgid "Verification emailed to %(email)s"
-msgstr "Verifikimi u dërgua me email te %(email)s"
+#: app/scripts/views/settings/emails.js:136 app/scripts/views/settings/emails.js:149
+msgid "Verification email sent"
+msgstr ""
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -664,14 +660,10 @@ msgid "Preferences"
 msgstr "Parapëlqime"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
-msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr "Shtesat dhe Parapëlqimet hëpërhë nuk njëkohësohen në pajisje celulare."
-
-#: app/scripts/templates/choose_what_to_sync.mustache:16
 msgid "Save settings"
 msgstr "Ruaji rregullimet"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:17 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Mbrapsht"
 
@@ -782,12 +774,12 @@ msgid "Email Sent"
 msgstr "Email-i u Dërgua"
 
 #: app/scripts/templates/confirm.mustache:6
-msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr "Një lidhje verifikimi u dërgua&nbsp;te %(escapedEmail)s"
+msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: app/scripts/templates/confirm.mustache:8
-msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr "Për mbrojtje më të mirë të të dhënave tuaja Firefox, ju kemi dërguar një lidhje ripohimi te %(email)s"
+msgid "Check your email for the sign-in confirmation link sent to %(email)s"
+msgstr ""
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
@@ -872,7 +864,7 @@ msgstr "Bëni hyrjen që të vazhdohet"
 msgid "Password"
 msgstr "Fjalëkalimi"
 
-#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:18 app/scripts/templates/settings/change_password.mustache:5
+#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "Harruat  fjalëkalimin?"
 
@@ -999,11 +991,11 @@ msgstr "Po shihni për të dhënat tuaja prej Shtesave? <a href=\"/signup\">Regj
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr "Migroni të dhënat tuaja të njëkohësimit duke bërë hyrjen te Llogaria juaj Firefox."
 
-#: app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:12
+#: app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:12
 msgid "Use a different account"
 msgstr "Përdorni një llogari tjetër"
 
-#: app/scripts/templates/sign_in.mustache:19
+#: app/scripts/templates/sign_in.mustache:18
 msgid "Create an account"
 msgstr "Krijoni një llogari"
 
@@ -1020,8 +1012,8 @@ msgid "Authorize this sign-in"
 msgstr "Autorizoje këtë hyrje"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
-msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr "Që të mbrohen më mirë të dhënat tuaja Firefox, ka një kod autorizimi për ju te %(email)s."
+msgid "Check your email for the authorization code sent to %(email)s."
+msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1101,25 +1093,16 @@ msgid "Didn't arrive? Resend"
 msgstr "S’mbërriti? Kërkoni ridërgim"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
-msgid "Why Sync two (or more!) devices?"
-msgstr "Pse të njëkohësohen dy (ose më tepër!) pajisje?"
+msgid "Why sync multiple devices?"
+msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
-msgid ""
-"Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-"Firefox for desktop will appear."
+msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
 msgstr ""
-"Sync-u ju lejon të përdorni faqerojtësit, historikun dhe fjalëkalimet që ruani te Firefox-i në një pajisje me Firefox-in në pajisje të tjera. Hyni te Firefox-i në telefonin ose tabletin tuaj dhe do "
-"të shfaqet gjithçka që keni ruajtur te Firefox-i për desktop."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
-msgid ""
-"Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
-"information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr ""
-"Sync-u s’është konceptuar si kopjeruajtje e përhershme – është thjesht një mjet për të përdorur në pajisje të tjera çfarë keni ruajtur lokalisht. Nëse ricaktoni fjalëkalimin tuaj dhe të dhënat "
-"tuaja s’janë ruajtur të paktën në një nga pajisjet e tjera, mund të humbni krejt informacionin përshoqëruar me fjalëkalimin e vjetër. Kjo është arsyeja pse do të doni të instaloni Firefox-in dhe të "
-"përdorni Sync-un në më shumë se një pajisje."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1345,6 +1328,42 @@ msgstr "Hyni"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Hyni"
+
+#~ msgid "A verification link has been sent to %(email)s"
+#~ msgstr "U dërgua një lidhje verifikimi te %(email)s"
+
+#~ msgid "Verification emailed to %(email)s"
+#~ msgstr "Verifikimi u dërgua me email te %(email)s"
+
+#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
+#~ msgstr "Shtesat dhe Parapëlqimet hëpërhë nuk njëkohësohen në pajisje celulare."
+
+#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Një lidhje verifikimi u dërgua&nbsp;te %(escapedEmail)s"
+
+#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+#~ msgstr "Për mbrojtje më të mirë të të dhënave tuaja Firefox, ju kemi dërguar një lidhje ripohimi te %(email)s"
+
+#~ msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
+#~ msgstr "Që të mbrohen më mirë të dhënat tuaja Firefox, ka një kod autorizimi për ju te %(email)s."
+
+#~ msgid "Why Sync two (or more!) devices?"
+#~ msgstr "Pse të njëkohësohen dy (ose më tepër!) pajisje?"
+
+#~ msgid ""
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
+#~ msgstr ""
+#~ "Sync-u ju lejon të përdorni faqerojtësit, historikun dhe fjalëkalimet që ruani te Firefox-i në një pajisje me Firefox-in në pajisje të tjera. Hyni te Firefox-i në telefonin ose tabletin tuaj dhe "
+#~ "do të shfaqet gjithçka që keni ruajtur te Firefox-i për desktop."
+
+#~ msgid ""
+#~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
+#~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+#~ msgstr ""
+#~ "Sync-u s’është konceptuar si kopjeruajtje e përhershme – është thjesht një mjet për të përdorur në pajisje të tjera çfarë keni ruajtur lokalisht. Nëse ricaktoni fjalëkalimin tuaj dhe të dhënat "
+#~ "tuaja s’janë ruajtur të paktën në një nga pajisjet e tjera, mund të humbni krejt informacionin përshoqëruar me fjalëkalimin e vjetër. Kjo është arsyeja pse do të doni të instaloni Firefox-in dhe "
+#~ "të përdorni Sync-un në më shumë se një pajisje."
 
 #~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
 #~ msgstr "Po shihni për Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Fillojani këtu</a>"

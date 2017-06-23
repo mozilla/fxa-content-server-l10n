@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-09 20:00+0000\n"
+"POT-Creation-Date: 2017-06-23 16:09+0000\n"
 "PO-Revision-Date: 2017-06-22 21:11+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,11 +78,11 @@ msgstr "ასეთი ანგარიში ვერ მოიძებნ
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Firefox ანგარიში ვერ მოიძებნა. <a href=\"/signup\">დარეგისტრირდით</a> დამატებების ძველი ანგარიშის ელ-ფოსტის მისამართით თქვენი დამატებების მონაცემებზე წვდომის მისაღებად."
 
-#: app/scripts/views/sign_up.js:63
+#: app/scripts/views/sign_up.js:61
 msgid "Account no longer exists. Recreate it?"
 msgstr "ასეთი ანგარიში აღარ არსებობს. გსურთ ახლიდან შექმნა?"
 
-#: app/scripts/views/sign_up.js:382
+#: app/scripts/views/sign_up.js:380
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "ასეთი ანგარიში უკვე არსებობს. <a href=\"/signin\">შესვლა</a>"
 
@@ -102,27 +102,27 @@ msgstr "ვწუხვართ, ამის გამო. შეცვალ�
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "ვწუხვართ, ამის გამო. თუ ეს მოწყობილობა არაა სანდო, შეცვალეთ Firefox ანგარიშის პაროლი და ყველა სხვა დანარჩენი პაროლიც, რაც Firefox-ში ინახება."
 
-#: app/scripts/views/settings/clients.js:64
+#: app/scripts/views/settings/clients.js:63
 msgid "Web Session, %(userAgent)s"
 msgstr "ვებ-სეანსი, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:66
+#: app/scripts/views/settings/clients.js:65
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:71
+#: app/scripts/views/settings/clients.js:70
 msgid "started syncing %(translatedTimeAgo)s"
 msgstr "დასინქრონება დაიწყო %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:76
+#: app/scripts/views/settings/clients.js:75
 msgid "last active %(translatedTimeAgo)s"
 msgstr "ბოლო მოქმედება %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/communication_preferences.js:104
+#: app/scripts/views/settings/communication_preferences.js:118
 msgid "Subscribed successfully"
 msgstr "გამოწერილია წარმატებით"
 
-#: app/scripts/views/settings/communication_preferences.js:105
+#: app/scripts/views/settings/communication_preferences.js:119
 msgid "Unsubscribed successfully"
 msgstr "გამოწერლა გაუქმებულია წარმატებით"
 
@@ -134,13 +134,9 @@ msgstr "ანგარიში წარმატებით წაიშა�
 msgid "Display name updated"
 msgstr "გამოსაჩენი სახელი განახლებულია"
 
-#: app/scripts/views/settings/emails.js:137
-msgid "A verification link has been sent to %(email)s"
-msgstr "დასადასტურებელი ბმული გამოგზავნილია %(email)s მისამართზე"
-
-#: app/scripts/views/settings/emails.js:150
-msgid "Verification emailed to %(email)s"
-msgstr "დამოწმების მოთხოვნის წერილი მოგივათ ფოსტაზე %(email)s"
+#: app/scripts/views/settings/emails.js:136 app/scripts/views/settings/emails.js:149
+msgid "Verification email sent"
+msgstr ""
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -552,10 +548,12 @@ msgid "SMS not sent, please try again"
 msgstr "SMS არ გაიგზავნა, გთხოვთ სცადოთ მოგვიანებით"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"გაგრძელების შემთხვევაში, თქვენ ეთანხმებით %(serviceName)s (%(serviceUri)s)-ის <a id=\"service-tos\" href=\"%(termsUri)s\">გამოყენების პირობებს</a> და <a id=\"service-pp\" "
-"href=\"%(privacyUri)s\">პირადი მონაცემების დებულებას</a>."
+"გაგრძელების შემთხვევაში, თქვენ ეთანხმებით %(serviceName)s (%(serviceUri)s)-ის <a id=\"service-tos\" href=\"%(termsUri)s\">გამოყენების პირობებს</a> და <a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">პირადი მონაცემების დებულებას</a>."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -646,14 +644,10 @@ msgid "Preferences"
 msgstr "პარამეტრები"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
-msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr "დამატებები და პარამეტრები ამჟამად არაა დასინქრონებული მობილურ მოწყობილობებზე."
-
-#: app/scripts/templates/choose_what_to_sync.mustache:16
 msgid "Save settings"
 msgstr "პარამეტრების შენახვა"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:17 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "უკან"
 
@@ -730,12 +724,12 @@ msgid "Email Sent"
 msgstr "შეტყობინება გამოგზავნილია"
 
 #: app/scripts/templates/confirm.mustache:6
-msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr "დასადასტურებელი ბმული გაგზავნილია&nbsp;%(escapedEmail)s-ზე"
+msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: app/scripts/templates/confirm.mustache:8
-msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr "თქვენი Firefox მონაცემების უკეთ დასაცავად, დასადასტურებელი ბმული %(email)s ელფოსტაზე გამოგიგზავნეთ."
+msgid "Check your email for the sign-in confirmation link sent to %(email)s"
+msgstr ""
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
@@ -819,7 +813,7 @@ msgstr "გასაგრძელებლად შედით ანგა�
 msgid "Password"
 msgstr "პაროლი"
 
-#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:18 app/scripts/templates/settings/change_password.mustache:5
+#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "დაგავიწყდათ პაროლი?"
 
@@ -946,11 +940,11 @@ msgstr "თქვენს დამატებების მონაცე�
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr "გადაიტანეთ თქვენი დასინქრონებული მონაცემები Firefox&nbsp;ანგარიშზე შესვლით."
 
-#: app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:12
+#: app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:12
 msgid "Use a different account"
 msgstr "სხვა ანგარიშის გამოყენება"
 
-#: app/scripts/templates/sign_in.mustache:19
+#: app/scripts/templates/sign_in.mustache:18
 msgid "Create an account"
 msgstr "ანგარიშის შექმნა"
 
@@ -967,7 +961,7 @@ msgid "Authorize this sign-in"
 msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
-msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
+msgid "Check your email for the authorization code sent to %(email)s."
 msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
@@ -1048,24 +1042,16 @@ msgid "Didn't arrive? Resend"
 msgstr "არ მოსულა? ხელახლა გაგზავნა"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
-msgid "Why Sync two (or more!) devices?"
-msgstr "რატომ უნდა დასინქრონდეს ორი (ან მეტი) მოწყობილობა?"
+msgid "Why sync multiple devices?"
+msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
-msgid ""
-"Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-"Firefox for desktop will appear."
+msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
 msgstr ""
-"სინქრონიზაცია საშუალებას გაძლევთ ერთ მოწყობილობაზე არსებული Firefox-ის სანიშნეები, ისტორია, პაროლები და ა.შ. გააზიაროთ სხვა მოწყობილობებზე დაყენებულ Firefox-ზეც. შედით ტელეფონიდან ან პალნშეტიდან "
-"Firefox ანგარიშზე და ყველაფერი გამოჩნდება, რაც სახლის კომპიუტერზე გაქვთ შენახული Firefox-ში."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
-msgid ""
-"Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
-"information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr ""
-"სინქრონიზაცია არაა განკუთვნილი მუდმივი დამარქაფებისთვის – ის უბრალოდ არსებულ მონაცემებს აზიარებს. თუ პაროლის განულებისას, მონაცემები ერთ მოწყობილობაზე მაინც არ იქნება შენახული, ძველ პაროლთან ერთად, "
-"შეიძლება ყველაფერი დაკარგოთ. სწორედ ამიტომაა საჭირო Firefox-ის ორ ან მეტ მოწყობილობაზე დაყენება სინქრონიზაციის გამოსაყენებლად."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1292,6 +1278,38 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr ""
 
+#~ msgid "A verification link has been sent to %(email)s"
+#~ msgstr "დასადასტურებელი ბმული გამოგზავნილია %(email)s მისამართზე"
+
+#~ msgid "Verification emailed to %(email)s"
+#~ msgstr "დამოწმების მოთხოვნის წერილი მოგივათ ფოსტაზე %(email)s"
+
+#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
+#~ msgstr "დამატებები და პარამეტრები ამჟამად არაა დასინქრონებული მობილურ მოწყობილობებზე."
+
+#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "დასადასტურებელი ბმული გაგზავნილია&nbsp;%(escapedEmail)s-ზე"
+
+#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+#~ msgstr "თქვენი Firefox მონაცემების უკეთ დასაცავად, დასადასტურებელი ბმული %(email)s ელფოსტაზე გამოგიგზავნეთ."
+
+#~ msgid "Why Sync two (or more!) devices?"
+#~ msgstr "რატომ უნდა დასინქრონდეს ორი (ან მეტი) მოწყობილობა?"
+
+#~ msgid ""
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
+#~ msgstr ""
+#~ "სინქრონიზაცია საშუალებას გაძლევთ ერთ მოწყობილობაზე არსებული Firefox-ის სანიშნეები, ისტორია, პაროლები და ა.შ. გააზიაროთ სხვა მოწყობილობებზე დაყენებულ Firefox-ზეც. შედით ტელეფონიდან ან პალნშეტიდან "
+#~ "Firefox ანგარიშზე და ყველაფერი გამოჩნდება, რაც სახლის კომპიუტერზე გაქვთ შენახული Firefox-ში."
+
+#~ msgid ""
+#~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
+#~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+#~ msgstr ""
+#~ "სინქრონიზაცია არაა განკუთვნილი მუდმივი დამარქაფებისთვის – ის უბრალოდ არსებულ მონაცემებს აზიარებს. თუ პაროლის განულებისას, მონაცემები ერთ მოწყობილობაზე მაინც არ იქნება შენახული, ძველ პაროლთან "
+#~ "ერთად, შეიძლება ყველაფერი დაკარგოთ. სწორედ ამიტომაა საჭირო Firefox-ის ორ ან მეტ მოწყობილობაზე დაყენება სინქრონიზაციის გამოსაყენებლად."
+
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "<a href=\"https://www.gravatar.com\">Gravatar-ის</a> თავაზიანობის წყალობით"
 
@@ -1347,11 +1365,11 @@ msgstr ""
 #~ msgstr "სხვა ელ-ფოსტაზე გაქვთ ანგარიში? <a href=\"%(signinUri)s\">შესვლა</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox ხელმისავდომია <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> და <a "
-#~ "href=\"%(linkLinux)s\">Linux</a> სისტემებზე."
+#~ "Firefox ხელმისავდომია <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> და <a href="
+#~ "\"%(linkLinux)s\">Linux</a> სისტემებზე."
 
 #~ msgid "Delete"
 #~ msgstr "წაშლა"

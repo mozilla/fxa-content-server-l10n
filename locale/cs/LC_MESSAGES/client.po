@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-09 20:00+0000\n"
+"POT-Creation-Date: 2017-06-23 16:09+0000\n"
 "PO-Revision-Date: 2017-06-10 09:02+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,11 +79,11 @@ msgstr "Neznámý účet. <a href=\"/signup\">Registrace</a>"
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Neznámý účet Firefoxu. Pro přístup k datům Doplňků se <a href=\"/signup\">zaregistrujte</a> pomocí e-mailové adresy předchozího účtu Doplňků."
 
-#: app/scripts/views/sign_up.js:63
+#: app/scripts/views/sign_up.js:61
 msgid "Account no longer exists. Recreate it?"
 msgstr "Účet již neexistuje. Znovu jej vytvořit?"
 
-#: app/scripts/views/sign_up.js:382
+#: app/scripts/views/sign_up.js:380
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Účet již existuje. <a href=\"/signin\">Přihlášení</a>"
 
@@ -103,27 +103,27 @@ msgstr "To je nám líto. Měli byste si změnit své heslo k účtu Firefoxu a 
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "To je nám líto. Pokud tomuto zařízení skutečně nedůvěřujete, měli byste si změnit nejen své heslo k účtu Firefoxu, ale také všechna hesla uložená ve Firefoxu."
 
-#: app/scripts/views/settings/clients.js:64
+#: app/scripts/views/settings/clients.js:63
 msgid "Web Session, %(userAgent)s"
 msgstr "Webová relace, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:66
+#: app/scripts/views/settings/clients.js:65
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:71
+#: app/scripts/views/settings/clients.js:70
 msgid "started syncing %(translatedTimeAgo)s"
 msgstr "začátek synchronizace: %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:76
+#: app/scripts/views/settings/clients.js:75
 msgid "last active %(translatedTimeAgo)s"
 msgstr "naposledy aktivní: %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/communication_preferences.js:104
+#: app/scripts/views/settings/communication_preferences.js:118
 msgid "Subscribed successfully"
 msgstr "Přihlášení bylo úspěšné"
 
-#: app/scripts/views/settings/communication_preferences.js:105
+#: app/scripts/views/settings/communication_preferences.js:119
 msgid "Unsubscribed successfully"
 msgstr "Odhlášení bylo úspěšné"
 
@@ -135,13 +135,9 @@ msgstr "Účet byl úspěšně smazán"
 msgid "Display name updated"
 msgstr "Zobrazované jméno aktualizováno"
 
-#: app/scripts/views/settings/emails.js:137
-msgid "A verification link has been sent to %(email)s"
-msgstr "Odkaz pro ověření byl odeslán na %(email)s"
-
-#: app/scripts/views/settings/emails.js:150
-msgid "Verification emailed to %(email)s"
-msgstr "Ověření bylo odesláno na %(email)s"
+#: app/scripts/views/settings/emails.js:136 app/scripts/views/settings/emails.js:149
+msgid "Verification email sent"
+msgstr ""
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -553,7 +549,9 @@ msgid "SMS not sent, please try again"
 msgstr "SMS nebyla odeslána, zkuste to prosím znovu"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Pokračování souhlasíte s <a id=\"service-tos\" href=\"%(termsUri)s\">Podmínkami využívání služby</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">Zásadami o ochraně osobních údajů</a> "
 "%(serviceName)s (%(serviceUri)s)."
@@ -647,14 +645,10 @@ msgid "Preferences"
 msgstr "Předvolby"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:15
-msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr "Doplňky a předvolby se momentálně nesynchronizují do mobilních zařízení."
-
-#: app/scripts/templates/choose_what_to_sync.mustache:16
 msgid "Save settings"
 msgstr "Uložit nastavení"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:17 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Zpět"
 
@@ -731,12 +725,12 @@ msgid "Email Sent"
 msgstr "E-mail odeslán"
 
 #: app/scripts/templates/confirm.mustache:6
-msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr "Odkaz pro ověření byl odeslán na %(escapedEmail)s"
+msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: app/scripts/templates/confirm.mustache:8
-msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr "Abychom lépe chránili data vašeho Firefoxu, zaslali jsme vám potvrzovací odkaz na %(email)s"
+msgid "Check your email for the sign-in confirmation link sent to %(email)s"
+msgstr ""
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
@@ -820,13 +814,14 @@ msgstr "Pro pokračování se přihlaste"
 msgid "Password"
 msgstr "Heslo"
 
-#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:18 app/scripts/templates/settings/change_password.mustache:5
+#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "Zapomněli jste heslo?"
 
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Pokračování souhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmínkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Podmínkami ochrany osobních údajů</a> cloudových služeb Firefoxu."
+msgstr ""
+"Pokračování souhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmínkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Podmínkami ochrany osobních údajů</a> cloudových služeb Firefoxu."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -945,11 +940,11 @@ msgstr "Hledáte data Doplňků? <a href=\"/signup\">Zaregistrujte si</a> účet
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr "Přesuňte svá synchronizovaná data přihlášením k vašemu účtu&nbsp;Firefoxu."
 
-#: app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:12
+#: app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:12
 msgid "Use a different account"
 msgstr "Použijte jiný účet"
 
-#: app/scripts/templates/sign_in.mustache:19
+#: app/scripts/templates/sign_in.mustache:18
 msgid "Create an account"
 msgstr "Vytvořit účet"
 
@@ -966,8 +961,8 @@ msgid "Authorize this sign-in"
 msgstr "Autorizovat toto přihlášení"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
-msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr "Abychom mohli lépe chránit vaše data z Firefoxu, poslali jsme vám na e-mail %(email)s autorizační kód."
+msgid "Check your email for the authorization code sent to %(email)s."
+msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1049,24 +1044,16 @@ msgid "Didn't arrive? Resend"
 msgstr "Nic nepřišlo? Znovu odeslat"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
-msgid "Why Sync two (or more!) devices?"
-msgstr "Proč synchronizovat dvě (nebo i více!) zařízení?"
+msgid "Why sync multiple devices?"
+msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
-msgid ""
-"Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-"Firefox for desktop will appear."
+msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
 msgstr ""
-"Díky službě Sync sdílet hesla, záložky a historii, které vytvoříte ve Firefoxu na jednom zařízení, s Firefoxem na všech ostatních zařízeních. Přihlaste se ke službě Firefox Sync na svém telefonu "
-"nebo tabletu, a hned uvidíte vše, co jste si uložili ve Firefoxu na svém počítači."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
-msgid ""
-"Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
-"information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr ""
-"Sync není určen k trvalému zálohování – pouze pomáhá sdílet to, co je uloženo lokálně. Pokud obnovíte své heslo a vaše data nebudou uložena ani na jednom zařízení, mohli byste ztratit všechny "
-"informace, které jsou spojeny se starým heslem. Proto byste možná mohli chtít nainstalovat Firefox a používat Sync na více než jednom zařízení."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1293,6 +1280,41 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr "Přihlášení"
 
+#~ msgid "A verification link has been sent to %(email)s"
+#~ msgstr "Odkaz pro ověření byl odeslán na %(email)s"
+
+#~ msgid "Verification emailed to %(email)s"
+#~ msgstr "Ověření bylo odesláno na %(email)s"
+
+#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
+#~ msgstr "Doplňky a předvolby se momentálně nesynchronizují do mobilních zařízení."
+
+#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Odkaz pro ověření byl odeslán na %(escapedEmail)s"
+
+#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+#~ msgstr "Abychom lépe chránili data vašeho Firefoxu, zaslali jsme vám potvrzovací odkaz na %(email)s"
+
+#~ msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
+#~ msgstr "Abychom mohli lépe chránit vaše data z Firefoxu, poslali jsme vám na e-mail %(email)s autorizační kód."
+
+#~ msgid "Why Sync two (or more!) devices?"
+#~ msgstr "Proč synchronizovat dvě (nebo i více!) zařízení?"
+
+#~ msgid ""
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
+#~ msgstr ""
+#~ "Díky službě Sync sdílet hesla, záložky a historii, které vytvoříte ve Firefoxu na jednom zařízení, s Firefoxem na všech ostatních zařízeních. Přihlaste se ke službě Firefox Sync na svém telefonu "
+#~ "nebo tabletu, a hned uvidíte vše, co jste si uložili ve Firefoxu na svém počítači."
+
+#~ msgid ""
+#~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
+#~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+#~ msgstr ""
+#~ "Sync není určen k trvalému zálohování – pouze pomáhá sdílet to, co je uloženo lokálně. Pokud obnovíte své heslo a vaše data nebudou uložena ani na jednom zařízení, mohli byste ztratit všechny "
+#~ "informace, které jsou spojeny se starým heslem. Proto byste možná mohli chtít nainstalovat Firefox a používat Sync na více než jednom zařízení."
+
 #~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
 #~ msgstr "Hledáte Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Začněte zde</a>"
 
@@ -1383,18 +1405,19 @@ msgstr "Přihlášení"
 #~ msgid "Sync preferences"
 #~ msgstr "Předvolby Sync"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Hledáte Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Začněte zde</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Máte účet s jinou e-mailovou adresou? <a href=\"%(signinUri)s\">Přihlaste se</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox je k dispozici pro <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox je k dispozici pro <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Naposledy aktivní: %(translatedTimeAgo)s"
@@ -1769,13 +1792,16 @@ msgstr "Přihlášení"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Máte již účet? Přihlaste se."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
 #~ "Pokračování souhlasíte s <a id=\"service-tos\" href=\"%(termsUri)s\">Podmínkami služby</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">Zásadami o ochraně osobních údajů</a> %(serviceName)s "
 #~ "(%(serviceUri)s)."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Pokračováním souhlasím s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmínkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Zásadami o ochraně osobních údajů</a> služeb Firefox cloud."
+#~ msgstr ""
+#~ "Pokračováním souhlasím s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmínkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Zásadami o ochraně osobních údajů</a> služeb Firefox cloud."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Přihlaste se k odběru novinek a tipů k Firefoxu"

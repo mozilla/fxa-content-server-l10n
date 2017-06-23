@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-09 20:00+0000\n"
-"PO-Revision-Date: 2017-05-27 12:36+0000\n"
+"POT-Creation-Date: 2017-06-23 16:09+0000\n"
+"PO-Revision-Date: 2017-06-17 05:33+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -218,7 +218,7 @@ msgstr "Gerir conta:"
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Forgot your password?"
-msgstr "Repor palavra-passe"
+msgstr "Esqueceu-se da sua palavra-passe?"
 
 #: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
