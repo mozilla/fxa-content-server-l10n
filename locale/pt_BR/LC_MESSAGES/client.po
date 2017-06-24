@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 16:09+0000\n"
-"PO-Revision-Date: 2017-06-24 00:49+0000\n"
+"PO-Revision-Date: 2017-06-24 15:11+0000\n"
 "Last-Translator: Marco Aurélio <fxhelp@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -25,7 +25,7 @@ msgstr "Redefinir senha"
 
 #: app/scripts/views/confirm_reset_password.js:180
 msgid "Password reset successfully. Sign in to continue."
-msgstr "Senha redefinida. Identifique-se."
+msgstr "Senha redefinida com sucesso. Identifique-se para continuar."
 
 #: app/scripts/views/permissions.js:26
 msgid "%(permissionName)s (required)"
@@ -101,7 +101,7 @@ msgstr "Lamentamos ouvir sobre isso. Você deve alterar sua senha da Conta Firef
 
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "Lamentos ouvir sobre isso. Se este é um dispositivo que você não confia, você deve alterar a senha da Conta Firefox e alterar todas as senhas salvas no Firefox."
+msgstr "Lamentamos ouvir sobre isso. Se este é um dispositivo que você não confia, você deve alterar a senha da Conta Firefox e alterar todas as senhas salvas no Firefox."
 
 #: app/scripts/views/settings/clients.js:63
 msgid "Web Session, %(userAgent)s"
@@ -246,7 +246,7 @@ msgstr "Assinatura do pedido inválida"
 
 #: app/scripts/lib/auth-errors.js:87
 msgid "Missing content-length header"
-msgstr "Faltando o cabeçalho content-length"
+msgstr "Cabeçalho content-length ausente"
 
 #: app/scripts/lib/auth-errors.js:91
 msgid "Request body too large"
