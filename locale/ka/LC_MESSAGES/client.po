@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 16:09+0000\n"
-"PO-Revision-Date: 2017-06-24 11:26+0000\n"
+"PO-Revision-Date: 2017-06-24 13:10+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -1104,7 +1104,7 @@ msgstr "ძველი პაროლი"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
-msgstr "გსურთ სინქრონიზაციის გაწყვეტა?"
+msgstr "გსურთ სინქრონიზაციის გათიშვა?"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
@@ -1124,19 +1124,19 @@ msgstr "ძველი ან შეცვლილი მოწყობილ
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
-msgstr ""
+msgstr "გამეორებული მოწყობილობები"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
-msgstr ""
+msgstr "დუმილს ვამჯობინებ"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Disconnect"
-msgstr "გაწყვეტა"
+msgstr "გათიშვა"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
-msgstr ""
+msgstr "წარმატებით გაითიშა"
 
 #: app/scripts/templates/settings/clients.mustache:2
 msgid "Devices & apps"
@@ -1152,11 +1152,11 @@ msgstr "მიმდინარე მოწყობილობა"
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
-msgstr ""
+msgstr "ითიშება…"
 
 #: app/scripts/templates/settings/clients.mustache:11
 msgid "current session"
-msgstr ""
+msgstr "მიმდინარე სეანსი"
 
 #: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
