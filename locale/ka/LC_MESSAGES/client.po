@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 16:09+0000\n"
-"PO-Revision-Date: 2017-06-23 23:05+0000\n"
+"PO-Revision-Date: 2017-06-24 11:26+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -1031,11 +1031,11 @@ msgstr "დააყენეთ Firefox თქვენს მობილუ�
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr ""
+msgstr "პროგრამის ბმული გამოგზავნილია ნომერზე %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>ნომერი არასწორადაა აკრეფილი?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "თუ ვერ ახერხებთ ტექსტური შეტყობინების მიღებას, პროგრამის ჩამოტვირთვა ხელითაც შეგიძლიათ."
 
 #: app/scripts/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
@@ -1043,24 +1043,24 @@ msgstr "არ მოსულა? ხელახლა გაგზავნ�
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr ""
+msgstr "რა საჭიროა რამდენიმე მოწყობილობაზე სინქრონიზაცია?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr ""
+msgstr "სიქრონიზაცია არ გამოიყენება დამარქაფებისთვის, ეს უბრალოდ არის, სანიშნეების, ისტორიის და პაროლების უსაფრთხო გადატანის გზა, თქვენს მოწყობილობებს შორის."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
+msgstr "Firefox უნდა დააყენოთ და დაასინქრონოთ მინიმუმ ორ მოწყობილობაზე, რომ შეძლოთ მონაცემების დაკარგვის თავიდან აცილება, პაროლის დავიწყების შემთხვევაში."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
-msgstr ""
+msgstr "გასაგებია"
 
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2 app/scripts/templates/settings/emails.mustache:3
 msgid "Change…"
-msgstr ""
+msgstr "შეცვლა…"
 
 #: app/scripts/templates/settings/avatar.mustache:4 app/scripts/templates/settings/display_name.mustache:4 app/scripts/templates/settings/emails.mustache:5
 msgid "Add…"
@@ -1112,15 +1112,15 @@ msgstr "ბრაუზერის მონაცემები დარჩ�
 
 #: app/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Suspicious device"
-msgstr ""
+msgstr "საეჭვო მოწყობილობა"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Lost or stolen device"
-msgstr ""
+msgstr "დაკარგული ან მოპარული მოწყობილობა"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Old or replaced device"
-msgstr ""
+msgstr "ძველი ან შეცვლილი მოწყობილობა"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
