@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 16:09+0000\n"
-"PO-Revision-Date: 2017-06-24 12:07+0000\n"
+"PO-Revision-Date: 2017-06-24 12:12+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -724,11 +724,11 @@ msgstr "メールが送信されました"
 
 #: app/scripts/templates/confirm.mustache:6
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr "確認リンクを %(escapedEmail)s に送りましたのでメールをチェックしてください。"
+msgstr "確認リンクを %(escapedEmail)s 宛にお送りしましたので、メールをチェックしてください。"
 
 #: app/scripts/templates/confirm.mustache:8
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-msgstr "ログイン確認リンクを %(email)s に送りましたのでメールをチェックしてください。"
+msgstr "ログイン確認リンクを %(email)s 宛にお送りしましたので、メールをチェックしてください。"
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
@@ -961,7 +961,7 @@ msgstr "このログインを承認"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr "認証コードを %(email)s に送りましたのでメールをチェックしてください。"
+msgstr "認証コードを %(email)s 宛にお送りしましたので、メールをチェックしてください。"
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1051,7 +1051,7 @@ msgstr "Sync サービスは恒久的なバックアップではなく、保存�
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
+msgstr "少なくとも 2 台の端末上で Firefox をインストールし同期することで、万が一データを復元する必要があり、その際にパスワードを忘れてしまっていた場合でも、データを失わずに済みます。"
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
