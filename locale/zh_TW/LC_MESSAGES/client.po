@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 16:09+0000\n"
-"PO-Revision-Date: 2017-06-24 11:31+0000\n"
+"PO-Revision-Date: 2017-06-24 11:52+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -61,7 +61,7 @@ msgstr "已驗證信箱"
 
 #: app/scripts/views/ready.js:50
 msgid "Sign-in confirmed"
-msgstr "已確認此登入"
+msgstr "登入完成"
 
 #: app/scripts/views/ready.js:51 app/scripts/views/ready.js:56 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
@@ -694,7 +694,7 @@ msgstr "送出新密碼"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Sign-in already confirmed"
-msgstr "已確認登入"
+msgstr "已確認過此次登入"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
