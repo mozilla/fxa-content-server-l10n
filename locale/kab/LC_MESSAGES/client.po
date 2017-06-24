@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 16:09+0000\n"
-"PO-Revision-Date: 2017-06-24 13:09+0000\n"
+"PO-Revision-Date: 2017-06-24 13:20+0000\n"
 "Last-Translator: Slimane Amiri <slimane.amiri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -725,7 +725,7 @@ msgstr "Wali tabbaṭ inek n imayl akken ad tkecmeḍ aseγwen n usenqed&nbsp;it
 
 #: app/scripts/templates/confirm.mustache:8
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-msgstr ""
+msgstr "Wali tabbaṭ inek n imayl akken ad tkecmeḍ γer useγwen n tuqna γer %(email)s"
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
@@ -956,7 +956,7 @@ msgstr "Sireg asesteb agi"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "Wali tabbaṭ inek n imayl akken ad tkecmeḍ γer tengalt n unekcum ittwarzan γer %(email)s."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1037,7 +1037,7 @@ msgstr "Ur d-yebbid ara? Azen tikelt nniḍen"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr ""
+msgstr "Ayγer illaq ad mtawiγ aṭas n ibenkan?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
