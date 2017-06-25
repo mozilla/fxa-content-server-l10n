@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 16:09+0000\n"
-"PO-Revision-Date: 2017-06-25 14:11+0000\n"
+"PO-Revision-Date: 2017-06-25 14:14+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -1045,11 +1045,11 @@ msgstr "Бірнеше құрылғыларды неге синхрондау к
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr ""
+msgstr "Синхрондау қызметі тұрақты қор көшірме емес, ол тек сіздің құрылғыларыңыздың арасында сақталған бетбелгілер, шолу тарихы және парольдерді синхрондаудың қауіпсіз түрі."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
+msgstr "Егер сізге қалпына келтіру керек болса, бірақ пароліңізді ұмытып қалған жағдайлардан қорғану үшін, сізге Firefox-ты кем дегенде екі құрылғыда орнатып, синхрондау керек."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
