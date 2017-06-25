@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 16:09+0000\n"
-"PO-Revision-Date: 2017-06-25 07:10+0000\n"
+"PO-Revision-Date: 2017-06-25 07:14+0000\n"
 "Last-Translator: Merike Sell <merikes@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -1044,11 +1044,11 @@ msgstr "Miks sünkroonida mitut seadet?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr ""
+msgstr "Sync'i teenus pole alaline tagavarakoopia, see on lihtsalt turvaline viis salvestatud järjehoidjate, ajaloo ja paroolide edastamiseks sinu seadmete vahel."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
+msgstr "Peaksid Firefoxi ja Sync'i paigaldama vähemalt kahele seadmele. Nii kaitsed end andmete kaotamise eest, kui pead neid taastama, kuid oled parooli unustanud."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
