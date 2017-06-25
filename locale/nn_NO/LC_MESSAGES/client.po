@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 16:09+0000\n"
-"PO-Revision-Date: 2017-06-25 17:16+0000\n"
+"PO-Revision-Date: 2017-06-25 19:45+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -24,7 +24,7 @@ msgstr "Tilbakestilling av passord"
 
 #: app/scripts/views/confirm_reset_password.js:180
 msgid "Password reset successfully. Sign in to continue."
-msgstr "Passordet et er tilbakestilt. Logg inn for å fortsetta."
+msgstr "Passordet et er tilbakestilt. Logg inn for å fortsetje."
 
 #: app/scripts/views/permissions.js:26
 msgid "%(permissionName)s (required)"
@@ -52,7 +52,7 @@ msgstr "Firefox Sync vil halde fram snart"
 
 #: app/scripts/views/ready.js:41
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "Fullfør oppsettet ved å skriva inn det nye passordet på dei andre Firefox-einingane dine."
+msgstr "Fullfør oppsettet ved å skrive inn det nye passordet på dei andre Firefox-einingane dine."
 
 #: app/scripts/views/ready.js:45 app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -64,7 +64,7 @@ msgstr "Innlogging stadfesta"
 
 #: app/scripts/views/ready.js:51 app/scripts/views/ready.js:56 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
-msgstr "Du kan no bruka %(serviceName)s"
+msgstr "Du kan no bruke %(serviceName)s"
 
 #: app/scripts/views/ready.js:55
 msgid "Account verified"
@@ -1047,7 +1047,7 @@ msgstr "Sync-tenesta er ikkje ein permanent backup. Ho er berre ein sikker måte
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr "Du bør installere Firefox og synkronisere minst to einingar for å unngå datatap, om du må gjenopprette nettlesaren og gløymer passordet ditt."
+msgstr "Du bør installere Firefox og synkronisere minst to einingar for å unngå datatap, om du må gjenopprette eininga og gløymer passordet ditt."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1056,7 +1056,7 @@ msgstr "Eg forstår"
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2 app/scripts/templates/settings/emails.mustache:3
 msgid "Change…"
-msgstr "Endra…"
+msgstr "Endre…"
 
 #: app/scripts/templates/settings/avatar.mustache:4 app/scripts/templates/settings/display_name.mustache:4 app/scripts/templates/settings/emails.mustache:5
 msgid "Add…"
@@ -1088,11 +1088,11 @@ msgstr "Plasser og roter bildet etter behov"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:7
 msgid "Change"
-msgstr "Endra"
+msgstr "Endre"
 
 #: app/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "Når du er ferdig, bruk det nye passordet ditt for å logga inn på alle einingane dine."
+msgstr "Når du er ferdig, bruk det nye passordet ditt for å logge inn på alle einingane dine."
 
 #: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
@@ -1124,11 +1124,11 @@ msgstr "Duplikateining"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
-msgstr "Vil helst ikkje fortelja"
+msgstr "Vil helst ikkje fortelje det"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
 msgid "Disconnect"
-msgstr "Kopla frå"
+msgstr "Kople frå"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
@@ -1148,7 +1148,7 @@ msgstr "denne eininga"
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
-msgstr "Kopla frå…"
+msgstr "Kople frå…"
 
 #: app/scripts/templates/settings/clients.mustache:11
 msgid "current session"
@@ -1252,7 +1252,7 @@ msgstr "Logg inn på Sync"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-msgstr "Vel kontoen du vil bruka for å synkronisera faner, bokmerke, passord, og mykje meir, med."
+msgstr "Vel kontoen du vil bruke for å synkronisera faner, bokmerke, passord, og mykje meir, med."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
