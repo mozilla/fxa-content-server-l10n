@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 16:09+0000\n"
-"PO-Revision-Date: 2017-06-25 17:10+0000\n"
+"PO-Revision-Date: 2017-06-25 17:16+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -721,11 +721,11 @@ msgstr "E-post sendt"
 
 #: app/scripts/templates/confirm.mustache:6
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Sjekk e-posten din for ei stadfestingslenka som er sendt&nbsp;til %(escapedEmail)s"
 
 #: app/scripts/templates/confirm.mustache:8
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-msgstr ""
+msgstr "Sjekk e-posten din for innlogging-stadfestingslenka som er sendt til %(email)s"
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
@@ -956,7 +956,7 @@ msgstr "Godkjenn denne innlogginga"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "Sjekk e-posten din for autorisasjonskoden som er sendt til %(email)s."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1043,11 +1043,11 @@ msgstr "Kvifor synkronisere fleire einingar?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr ""
+msgstr "Sync-tenesta er ikkje ein permanent backup. Ho er berre ein sikker måte å overføre lagra bokmerke, historikk og passord mellom einingane dine på."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr "Du bør installere Firefox og synkronisere minst to einingar for å unngå mot datatap, om du må gjenopprette nettlesaren og gløymer passordet ditt."
+msgstr "Du bør installere Firefox og synkronisere minst to einingar for å unngå datatap, om du må gjenopprette nettlesaren og gløymer passordet ditt."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
