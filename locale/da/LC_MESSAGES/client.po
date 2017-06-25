@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 16:09+0000\n"
-"PO-Revision-Date: 2017-06-25 13:44+0000\n"
+"PO-Revision-Date: 2017-06-25 13:57+0000\n"
 "Last-Translator: Joergen <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
@@ -726,7 +726,7 @@ msgstr "Tjek din mail for bekræftelseslinket sendt&nbsp;til %(escapedEmail)s"
 
 #: app/scripts/templates/confirm.mustache:8
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-msgstr "Tjek din mail for login-bekræfteleslink, der er sendt til %(email)s"
+msgstr "Tjek din mail for det login-bekræfteleslink, der er sendt til %(email)s"
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
@@ -1044,7 +1044,7 @@ msgstr "Hvorfor synkronisere flere enheder?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr "Sync servicen er ikke en permanent backup, det er simpelthen en sikker måde at overføre gemte bogmærker, historie og adgangskoder mellem dine enheder."
+msgstr "Sync-servicen er ikke en permanent backup. Det er blot en sikker måde at overføre gemte bogmærker, historik og adgangskoder mellem dine enheder."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
