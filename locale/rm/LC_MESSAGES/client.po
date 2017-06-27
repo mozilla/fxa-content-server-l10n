@@ -1031,7 +1031,7 @@ msgstr "Installescha Firefox sin tes telefonin e t'annunzia per cumplettar l'ins
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr "Tramess la colliaziun da l'applicaziun a %(escapedPhoneNumber)s. <a%(escapedBackLinkAttrs)s>Fatg in sbagl da tippar?</a>"
+msgstr "Tramess la colliaziun da l'applicaziun a %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Fatg in sbagl da tippar?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
