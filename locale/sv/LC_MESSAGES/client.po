@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-23 16:09+0000\n"
-"PO-Revision-Date: 2017-06-09 23:15+0000\n"
+"POT-Creation-Date: 2017-06-30 16:08+0000\n"
+"PO-Revision-Date: 2017-06-25 21:06+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
@@ -91,7 +91,7 @@ msgstr "Kontot finns redan. <a href=\"/signin\">Logga in</a>"
 msgid "App link resent to %(phoneNumber)s"
 msgstr "Applänk skickad åter till %(phoneNumber)s"
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
 msgstr "Lösenordet ändrades"
 
@@ -127,17 +127,17 @@ msgstr "Prenumeration startad"
 msgid "Unsubscribed successfully"
 msgstr "Prenumeration avslutad"
 
-#: app/scripts/views/settings/delete_account.js:45
+#: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
 msgstr "Kontot har tagits bort"
 
-#: app/scripts/views/settings/display_name.js:66
+#: app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
 msgstr "Visningsnamn uppdaterad"
 
 #: app/scripts/views/settings/emails.js:136 app/scripts/views/settings/emails.js:149
 msgid "Verification email sent"
-msgstr ""
+msgstr "Verifieringsmeddelande skickat"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -661,8 +661,8 @@ msgid "The link you clicked to reset your password is expired."
 msgstr "Länken du klickade på för att återställa lösenordet har förfallit."
 
 #: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Click here to receive a new reset link"
-msgstr "Klicka här för att få en ny återställningslänk"
+msgid "Receive new link"
+msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -726,11 +726,11 @@ msgstr "E-post har skickats"
 
 #: app/scripts/templates/confirm.mustache:6
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Kontrollera din e-post efter den verifieringslänk som skickas till %(escapedEmail)s"
 
 #: app/scripts/templates/confirm.mustache:8
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-msgstr ""
+msgstr "Kontrollera din e-post efter bekräftelselänken för inloggning som skickats till %(email)s"
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
@@ -961,7 +961,7 @@ msgstr "Auktorisera denna inloggning"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "Kontrollera din e-post efter behörighetskoden som skickas till %(email)s."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1043,15 +1043,15 @@ msgstr "Kom det inte fram? Skicka igen"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr ""
+msgstr "Varför synkronisera flera enheter?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr ""
+msgstr "Synkroniseringstjänsten är inte en permanent backup, det är helt enkelt ett säkert sätt att överföra sparade bokmärken, historik och lösenord mellan dina egna enheter."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
+msgstr "Du bör installera Firefox och synkronisera minst två enheter för att skydda dig mot att förlora din data om du behöver återställa men har glömt ditt lösenord."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1277,6 +1277,9 @@ msgstr "Logga in"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Logga in"
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "Klicka här för att få en ny återställningslänk"
 
 #~ msgid "A verification link has been sent to %(email)s"
 #~ msgstr "En verifieringslänk har skickats till %(email)s"

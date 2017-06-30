@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-23 16:09+0000\n"
+"POT-Creation-Date: 2017-06-30 16:08+0000\n"
 "PO-Revision-Date: 2017-04-23 05:53+0000\n"
 "Last-Translator: piseth.kheng <piseth.kheng@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -90,7 +90,7 @@ msgstr "គណនី​មាន​រួច​ហើយ។ <a href=\"/signin\">
 msgid "App link resent to %(phoneNumber)s"
 msgstr "បាន​ផ្ញើ​តំណ​កម្មវិធី​​​ទៅ​កាន់ %(phoneNumber)s ឡើងវិញ"
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
 msgstr "បាន​ផ្លាស់ប្ដូរ​ពាក្យសម្ងាត់​ដោយ​ជោគជ័យ"
 
@@ -126,11 +126,11 @@ msgstr "បាន​ជាវ​ដោយ​ជោគជ័យ"
 msgid "Unsubscribed successfully"
 msgstr "បាន​ឈប់​ជាវ​ដោយ​ជោគជ័យ"
 
-#: app/scripts/views/settings/delete_account.js:45
+#: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
 msgstr "បាន​លុប​គណនី​ដោយ​ជោគជ័យ"
 
-#: app/scripts/views/settings/display_name.js:66
+#: app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
 msgstr "បាន​ប្ដូរ​ឈ្មោះ​បង្ហាញ​ថ្មី"
 
@@ -658,7 +658,7 @@ msgid "The link you clicked to reset your password is expired."
 msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Click here to receive a new reset link"
+msgid "Receive new link"
 msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:5

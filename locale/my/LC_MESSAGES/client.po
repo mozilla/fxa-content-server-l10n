@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-23 16:09+0000\n"
+"POT-Creation-Date: 2017-06-30 16:08+0000\n"
 "PO-Revision-Date: 2017-02-12 06:51+0000\n"
 "Last-Translator: La Min Ko (လမင်းကို) <lminko.lmk@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -90,7 +90,7 @@ msgstr "အကောင့်ရှိပြီးဖြစ်နေသည်။
 msgid "App link resent to %(phoneNumber)s"
 msgstr ""
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
 msgstr "စကားဝှက်ကို အောင်မြင်စွာ ပြောင်းလဲပြီးပြီ။"
 
@@ -126,11 +126,11 @@ msgstr "စာရင်းပေးသွင်းမှု အောင်မ�
 msgid "Unsubscribed successfully"
 msgstr "စာရင်းပေးသွင်းထားခြင်းမှ ဖယ်ရှားခြင်း အောင်မြင်ပါသည်"
 
-#: app/scripts/views/settings/delete_account.js:45
+#: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
 msgstr "အကောင့်ဖယ်ရှားခြင်း အောင်မြင်ပါသည်"
 
-#: app/scripts/views/settings/display_name.js:66
+#: app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
 msgstr "ပြသမည့်အမည်ကို မွမ်းမံပြီးပြီ"
 
@@ -658,7 +658,7 @@ msgid "The link you clicked to reset your password is expired."
 msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Click here to receive a new reset link"
+msgid "Receive new link"
 msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:5

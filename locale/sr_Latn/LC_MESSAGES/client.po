@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-23 16:09+0000\n"
-"PO-Revision-Date: 2017-06-11 16:15+0000\n"
+"POT-Creation-Date: 2017-06-30 16:08+0000\n"
+"PO-Revision-Date: 2017-06-23 18:33+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
@@ -107,7 +107,7 @@ msgstr "Nalog već postoji. <a href=\"/signin\">Prijavi se</a>"
 msgid "App link resent to %(phoneNumber)s"
 msgstr "Veza do aplikacije ponovo poslata na %(phoneNumber)s"
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
 msgstr "Lozinka je uspešno promenjena"
 
@@ -155,18 +155,18 @@ msgstr "Uspešna pretplata"
 msgid "Unsubscribed successfully"
 msgstr "Pretplata je otkazana"
 
-#: app/scripts/views/settings/delete_account.js:45
+#: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
 msgstr "Nalog uspešno obrisan"
 
-#: app/scripts/views/settings/display_name.js:66
+#: app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
 msgstr "Prikaži ažurirano ime"
 
 #: app/scripts/views/settings/emails.js:136
 #: app/scripts/views/settings/emails.js:149
 msgid "Verification email sent"
-msgstr ""
+msgstr "Verifikaciona e-pošta poslata"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43
 #: app/scripts/lib/auth-errors.js:113
@@ -726,8 +726,8 @@ msgid "The link you clicked to reset your password is expired."
 msgstr "Vezu koju ste kliknuli za obnavljanje lozinke je istekla."
 
 #: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Click here to receive a new reset link"
-msgstr "Kliknite ovde da biste primili novu vezu za obnavljanje"
+msgid "Receive new link"
+msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -806,10 +806,13 @@ msgstr "E-pošta je poslata"
 msgid ""
 "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
 msgstr ""
+"Proverite vašu e-poštu radi verifikacione veze poslate&nbsp;na "
+"%(escapedEmail)s"
 
 #: app/scripts/templates/confirm.mustache:8
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 msgstr ""
+"Proverite vašu e-poštu radi potvrdne veze za pristup poslate na %(email)s"
 
 #: app/scripts/templates/confirm.mustache:11
 #: app/scripts/templates/confirm.mustache:13
@@ -1124,7 +1127,7 @@ msgstr "Ovlasti ovo prijavljivanje"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "Proverite vašu e-poštu radi potvrdnog koda poslatog na %(email)s."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1235,19 +1238,24 @@ msgstr "Nije stigla? Pošalji ponovo"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr ""
+msgstr "Zašto sinhronizovati više uređaja?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
 "The Sync service isn’t a permanent backup, it’s simply a secure way to "
 "transfer saved bookmarks, history and passwords between your own devices."
 msgstr ""
+"Sinhronizacija nije trajna rezervna kopija, već bezbedan način da se prenose "
+"sačuvane zabeleške, istorijat i lozinke među vašim uređajima."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
 "You should install Firefox and sync at least two devices to protect against "
 "losing your data if you need to restore it but forget your password."
 msgstr ""
+"Trebalo bi da instalirate Firefox i sinhronizujete barem dva uređaja da se "
+"zaštitite od gubljenja vaših podataka u slučaju da morate da ih povratite "
+"ali ste zaboravili vašu lozinku."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4
 #: app/scripts/templates/settings/client_disconnect.mustache:11
@@ -1514,6 +1522,9 @@ msgstr "Prijavi se"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Prijavi se"
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "Kliknite ovde da biste primili novu vezu za obnavljanje"
 
 #~ msgid "A verification link has been sent to %(email)s"
 #~ msgstr "Veza potvrde je poslata na %(email)s"

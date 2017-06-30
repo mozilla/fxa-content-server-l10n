@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-23 16:09+0000\n"
+"POT-Creation-Date: 2017-06-30 16:08+0000\n"
 "PO-Revision-Date: 2017-06-15 22:17+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,7 +91,7 @@ msgstr "Hesab artıq mövcuddur. <a href=\"/signin\">Daxil ol</a>"
 msgid "App link resent to %(phoneNumber)s"
 msgstr "Tətbiq keçidi %(phoneNumber)s üçün təkrar göndərildi"
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
 msgstr "Şifrə uğurla dəyişdirildi"
 
@@ -127,11 +127,11 @@ msgstr "Uğurla abunə olundu"
 msgid "Unsubscribed successfully"
 msgstr "Abunəlikdən çıxıldı"
 
-#: app/scripts/views/settings/delete_account.js:45
+#: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
 msgstr "Hesab uğurla silindi"
 
-#: app/scripts/views/settings/display_name.js:66
+#: app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
 msgstr "Görüntülənmə adı yeniləndi"
 
@@ -661,8 +661,8 @@ msgid "The link you clicked to reset your password is expired."
 msgstr "Şifrənizi sıfırlamaq üçün açdığınız keçidin vaxtı keçib."
 
 #: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Click here to receive a new reset link"
-msgstr "Yeni sıfırlama keçidi əldə etmək üçün buraya klikləyin"
+msgid "Receive new link"
+msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -1277,6 +1277,9 @@ msgstr "Daxil ol"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Daxil ol"
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "Yeni sıfırlama keçidi əldə etmək üçün buraya klikləyin"
 
 #~ msgid "A verification link has been sent to %(email)s"
 #~ msgstr "Təsdiqləmə keçidi %(email)s ünvanına göndərildi"

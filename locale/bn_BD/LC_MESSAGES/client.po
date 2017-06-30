@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-23 16:09+0000\n"
+"POT-Creation-Date: 2017-06-30 16:08+0000\n"
 "PO-Revision-Date: 2017-05-14 17:03+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,7 +91,7 @@ msgstr "অ্যাকাউন্ট আগেই আছে। <a href=\"/sign
 msgid "App link resent to %(phoneNumber)s"
 msgstr "অ্যাপ লিঙ্ক %(phoneNumber)s নম্বরে পাঠানো হয়েছে"
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
 msgstr "পাসওয়ার্ড সাফল্যের সাথে পরিবর্তন করা হয়েছে"
 
@@ -127,11 +127,11 @@ msgstr "সফলভাবে সাবসক্রাইব হয়েছে"
 msgid "Unsubscribed successfully"
 msgstr "সফলভাবে আনসাবসক্রাইব হয়েছে"
 
-#: app/scripts/views/settings/delete_account.js:45
+#: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
 msgstr "অ্যাকাউন্ট সফলভাবে মুছে ফেলা হয়েছে"
 
-#: app/scripts/views/settings/display_name.js:66
+#: app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
 msgstr "প্রদর্শননীয় নাম হালনাগাদ করা হয়েছে"
 
@@ -660,8 +660,8 @@ msgid "The link you clicked to reset your password is expired."
 msgstr "আপনার ক্লিক করা পাসওয়ার্ড পরিবর্তনের লিঙ্কটির মেয়াদ শেষ।"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Click here to receive a new reset link"
-msgstr "নতুন রিসেট লিঙ্ক পেতে এখানে ক্লিক করুন"
+msgid "Receive new link"
+msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -1275,6 +1275,9 @@ msgstr "সাইন ইন"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "সাইন ইন"
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "নতুন রিসেট লিঙ্ক পেতে এখানে ক্লিক করুন"
 
 #~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
 #~ msgstr "অ্যাড-অন ও পছন্দসমূহ মোবাইল ডিভাইসে বর্তমানে সিঙ্ক হবে না।"
