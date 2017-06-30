@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2017-06-23 16:09+0000\n"
+"POT-Creation-Date: 2017-06-30 16:08+0000\n"
 
 #: app/scripts/views/complete_sign_up.js:177
 #: app/scripts/models/auth_brokers/web.js:22
@@ -97,7 +97,7 @@ msgstr ""
 msgid "App link resent to %(phoneNumber)s"
 msgstr ""
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
 msgstr ""
 
@@ -139,11 +139,11 @@ msgstr ""
 msgid "Unsubscribed successfully"
 msgstr ""
 
-#: app/scripts/views/settings/delete_account.js:45
+#: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
 msgstr ""
 
-#: app/scripts/views/settings/display_name.js:66
+#: app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
 msgstr ""
 
@@ -711,7 +711,7 @@ msgid "The link you clicked to reset your password is expired."
 msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Click here to receive a new reset link"
+msgid "Receive new link"
 msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:5

@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-23 16:09+0000\n"
-"PO-Revision-Date: 2017-06-17 05:33+0000\n"
+"POT-Creation-Date: 2017-06-30 16:08+0000\n"
+"PO-Revision-Date: 2017-06-23 18:12+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -90,7 +90,7 @@ msgstr "A conta já existe. <a href=\"/signin\">Inicie sessão</a>"
 msgid "App link resent to %(phoneNumber)s"
 msgstr "Ligação de aplicação reenviada para %(phoneNumber)s"
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
 msgstr "Palavra-passe alterada com sucesso"
 
@@ -129,17 +129,17 @@ msgstr "Subscrição efetuada com sucesso"
 msgid "Unsubscribed successfully"
 msgstr "Subscrição anulada com sucesso"
 
-#: app/scripts/views/settings/delete_account.js:45
+#: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
 msgstr "Conta apagada com sucesso"
 
-#: app/scripts/views/settings/display_name.js:66
+#: app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
 msgstr "Nome de apresentação atualizado"
 
 #: app/scripts/views/settings/emails.js:136 app/scripts/views/settings/emails.js:149
 msgid "Verification email sent"
-msgstr ""
+msgstr "Email de verificação enviado"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -663,8 +663,8 @@ msgid "The link you clicked to reset your password is expired."
 msgstr "A ligação que utilizou para repor a palavra-passe expirou."
 
 #: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Click here to receive a new reset link"
-msgstr "Clique aqui para receber uma nova ligação de reposição"
+msgid "Receive new link"
+msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -728,11 +728,11 @@ msgstr "Email enviado"
 
 #: app/scripts/templates/confirm.mustache:6
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Verifique o seu email para a ligação de verificação enviada&nbsp;para %(escapedEmail)s"
 
 #: app/scripts/templates/confirm.mustache:8
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-msgstr ""
+msgstr "Verifique o seu email para a ligação de confirmação de início de sessão enviada para %(email)s"
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
@@ -965,7 +965,7 @@ msgstr "Autorizar este início de sessão"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "Verifique o seu email para o código de autorização enviado para %(email)s."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1048,15 +1048,15 @@ msgstr "Não chegou? Reenviar"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr ""
+msgstr "Porquê sincronizar múltiplos dispositivos?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr ""
+msgstr "O serviço Sync não é uma cópia de segurança permanente, é simplesmente uma maneira segura de transferir marcadores guardados, histórico e palavras-passe entre os seus próprios dispositivos."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
+msgstr "Deve instalar o Firefox e sincronizar pelo menos dois dispositivos para proteger contra perda dos seus dados se precisar de os restaurar mas se esqueceu da sua palavra-passe."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1282,6 +1282,9 @@ msgstr "Iniciar sessão"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Iniciar sessão"
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "Clique aqui para receber uma nova ligação de reposição"
 
 #~ msgid "A verification link has been sent to %(email)s"
 #~ msgstr "Uma ligação de verificação foi enviada para %(email)s"

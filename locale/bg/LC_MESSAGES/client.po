@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-23 16:09+0000\n"
+"POT-Creation-Date: 2017-06-30 16:08+0000\n"
 "PO-Revision-Date: 2017-06-10 06:26+0000\n"
 "Last-Translator: Ognyan Kulev <ognyan@ognyankulev.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,7 +91,7 @@ msgstr "Сметката съществува. <a href=\"/signin\">Вписва�
 msgid "App link resent to %(phoneNumber)s"
 msgstr "Препратката отново е изпратена до %(phoneNumber)s"
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
 msgstr "Паролата е сменена успешно"
 
@@ -127,11 +127,11 @@ msgstr "Успешно се абонирахте"
 msgid "Unsubscribed successfully"
 msgstr "Успешно отменихте абонамента"
 
-#: app/scripts/views/settings/delete_account.js:45
+#: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
 msgstr "Сметката е успешно изтрита"
 
-#: app/scripts/views/settings/display_name.js:66
+#: app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
 msgstr "Наименованието е обновено"
 
@@ -661,8 +661,8 @@ msgid "The link you clicked to reset your password is expired."
 msgstr "Връзката за нулиране на парола, която посетихте е с изтекла давност."
 
 #: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Click here to receive a new reset link"
-msgstr "Натиснете тук, за да получите нова връзка за нулиране"
+msgid "Receive new link"
+msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -1280,6 +1280,9 @@ msgstr "Вписване"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Вписване"
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "Натиснете тук, за да получите нова връзка за нулиране"
 
 #~ msgid "A verification link has been sent to %(email)s"
 #~ msgstr "Препратка за потвърждение е изпратена до %(email)s"

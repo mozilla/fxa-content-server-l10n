@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-23 16:09+0000\n"
+"POT-Creation-Date: 2017-06-30 16:08+0000\n"
 "PO-Revision-Date: 2017-06-13 02:17+0000\n"
 "Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,7 +91,7 @@ msgstr "கணக்கு ஏற்கனவே உள்ளது. <a href=\"/
 msgid "App link resent to %(phoneNumber)s"
 msgstr "%(phoneNumber)s எண்ணிற்கு செயலித் தொடுப்பு மீண்டும் அனுப்பியுள்ளோம்"
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
 msgstr "கடவுச்சொல் வெற்றிகரமாக மாற்றப்பட்டது"
 
@@ -127,11 +127,11 @@ msgstr "வெற்றிகரமாக சந்தாபடுத்தப�
 msgid "Unsubscribed successfully"
 msgstr "வெற்றிகரமாக சந்தா நீக்கப்பட்டது"
 
-#: app/scripts/views/settings/delete_account.js:45
+#: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
 msgstr "கணக்கு வெற்றிகரமாக நீக்கப்பட்டது"
 
-#: app/scripts/views/settings/display_name.js:66
+#: app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
 msgstr "காட்சி பெயர் புதுப்பிக்கப்பட்டது"
 
@@ -659,8 +659,8 @@ msgid "The link you clicked to reset your password is expired."
 msgstr "உங்கள் கடவுச்சொல்லை மீட்டமைக்க சொடுக்கிய தொடுப்பு காலாவதியானது."
 
 #: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Click here to receive a new reset link"
-msgstr "ஒரு புதிய மீட்டமைக்கும் தொடுப்பைப் பெற இங்கே சொடுக்கவும்"
+msgid "Receive new link"
+msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -1274,6 +1274,9 @@ msgstr "புகுப்பதிகை"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "புகுப்பதிகை"
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "ஒரு புதிய மீட்டமைக்கும் தொடுப்பைப் பெற இங்கே சொடுக்கவும்"
 
 #~ msgid "A verification link has been sent to %(email)s"
 #~ msgstr "%(email)s முகவரிக்கு சரிபார்க்கும் அஞ்சல் ஒன்று அனுப்பப்பட்டுள்ளது"

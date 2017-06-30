@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-23 16:09+0000\n"
+"POT-Creation-Date: 2017-06-30 16:08+0000\n"
 "PO-Revision-Date: 2017-05-18 09:19+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,7 +91,7 @@ msgstr "Mae cyfrif yn bodoli'n barod. <a href=\"/signin\">Mewngofnodwch</a>"
 msgid "App link resent to %(phoneNumber)s"
 msgstr "Dolen ap wedi ei ailosod i %(phoneNumber)s"
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
 msgstr "Newidiwyd y cyfrinair yn llwyddiannus"
 
@@ -127,11 +127,11 @@ msgstr "Tanysgrifiwyd yn llwyddiannus"
 msgid "Unsubscribed successfully"
 msgstr "Dad-tanysgrifiwyd yn llwyddiannus"
 
-#: app/scripts/views/settings/delete_account.js:45
+#: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
 msgstr "Cyfrif wedi ei ddileu'n llwyddiannus"
 
-#: app/scripts/views/settings/display_name.js:66
+#: app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
 msgstr "Diweddarwyd yr enw dangos"
 
@@ -661,8 +661,8 @@ msgid "The link you clicked to reset your password is expired."
 msgstr "Mae'r ddolen rydych wedi ei chlicio i ailosod eich cyfrinair wedi dod i ben."
 
 #: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Click here to receive a new reset link"
-msgstr "Cliciwch yma i dderbyn dolen ailosod newydd"
+msgid "Receive new link"
+msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -1278,6 +1278,9 @@ msgstr "Mewngofnodi"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Mewngofnodi"
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "Cliciwch yma i dderbyn dolen ailosod newydd"
 
 #~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
 #~ msgstr "Nid yw Ychwanegion a Dewisiadau yn cydweddu ar ddyfeisiau symudol, ar hyn o bryd."

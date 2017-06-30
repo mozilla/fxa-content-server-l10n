@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-23 16:09+0000\n"
+"POT-Creation-Date: 2017-06-30 16:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -86,7 +86,7 @@ msgstr "A conta xa existe. <a href=\"/signin\">Identificarse</a>"
 msgid "App link resent to %(phoneNumber)s"
 msgstr ""
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
 msgstr ""
 
@@ -122,11 +122,11 @@ msgstr ""
 msgid "Unsubscribed successfully"
 msgstr ""
 
-#: app/scripts/views/settings/delete_account.js:45
+#: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
 msgstr "Eliminouse a conta correctamente"
 
-#: app/scripts/views/settings/display_name.js:66
+#: app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
 msgstr ""
 
@@ -654,8 +654,8 @@ msgid "The link you clicked to reset your password is expired."
 msgstr "A ligazón que premeu para restabelecer o seu contrasinal está caducada."
 
 #: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Click here to receive a new reset link"
-msgstr "Prema aquí para recibir unha nova ligazón de restabelecemento"
+msgid "Receive new link"
+msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -1270,6 +1270,9 @@ msgstr ""
 msgctxt "header text"
 msgid "Sign in"
 msgstr ""
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "Prema aquí para recibir unha nova ligazón de restabelecemento"
 
 #~ msgid "Save"
 #~ msgstr "Gardar"

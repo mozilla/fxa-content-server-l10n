@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-23 16:09+0000\n"
+"POT-Creation-Date: 2017-06-30 16:08+0000\n"
 "PO-Revision-Date: 2017-01-22 14:26+0000\n"
 "Last-Translator: ibrahima.sarr <ibrahima.sarr@pulaagu.com>\n"
 "Language-Team: FULAH LOCALIZATION\n"
@@ -91,7 +91,7 @@ msgstr "Konte ena ngoodi kisa. <a href=\"/signin\">Seŋo</a>"
 msgid "App link resent to %(phoneNumber)s"
 msgstr ""
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
 msgstr "Finnde wayliraama no haaniri"
 
@@ -127,11 +127,11 @@ msgstr "Lulniima no haaniri"
 msgid "Unsubscribed successfully"
 msgstr "Lultiniima no haaniri"
 
-#: app/scripts/views/settings/delete_account.js:45
+#: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
 msgstr "Konte momtiraama no haanirta"
 
-#: app/scripts/views/settings/display_name.js:66
+#: app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
 msgstr "Innde jaytino hesɗitinaama"
 
@@ -660,8 +660,8 @@ msgid "The link you clicked to reset your password is expired."
 msgstr "Jokkol ndobi-ɗaa ngam firlitde finnde maa ngol hiiɗtii."
 
 #: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Click here to receive a new reset link"
-msgstr "Dobo ɗoo ngam heɓde jokkol kesol"
+msgid "Receive new link"
+msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -1275,6 +1275,9 @@ msgstr ""
 msgctxt "header text"
 msgid "Sign in"
 msgstr ""
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "Dobo ɗoo ngam heɓde jokkol kesol"
 
 #~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
 #~ msgstr "Ɓeyditte e Cuɓoraaɗe cynkataa oo sahaa e kaɓirɗi cinnde."
