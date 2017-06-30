@@ -1044,7 +1044,7 @@ msgstr "Не прийшов? Надіслати повторно"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr "Чому синхронізувати декілька пристроїв?"
+msgstr "Нащо синхронізувати декілька пристроїв?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
