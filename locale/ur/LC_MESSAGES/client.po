@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 16:09+0000\n"
-"PO-Revision-Date: 2017-06-30 06:24+0000\n"
+"PO-Revision-Date: 2017-07-01 07:10+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -88,7 +88,7 @@ msgstr "اکائونٹ پہلے سے موجود ہے۔ <a href=\"/signin\">سا�
 
 #: app/scripts/views/sms_sent.js:26
 msgid "App link resent to %(phoneNumber)s"
-msgstr ""
+msgstr "ایب کا ربط %(phoneNumber)s پردوبارہ ارسال کر دیا گیا ہے"
 
 #: app/scripts/views/settings/change_password.js:52
 msgid "Password changed successfully"
@@ -293,7 +293,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "سائن ان کرنے کے لیئے بنیادی اکائونٹ کی ای میل درکار ہے"
 
 #: app/scripts/lib/auth-errors.js:171
 msgid "Address in use by another account"
@@ -1238,7 +1238,7 @@ msgstr "موصول نہیں ہوئی اور اسپیم فولڈر میں موج�
 
 #: app/scripts/templates/settings/emails.mustache:19
 msgid "Add"
-msgstr ""
+msgstr "اظافہ کریں"
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
