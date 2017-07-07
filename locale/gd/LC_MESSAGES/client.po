@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-23 16:09+0000\n"
+"POT-Creation-Date: 2017-07-07 16:08+0000\n"
 "PO-Revision-Date: 2017-02-02 11:26+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,7 +91,7 @@ msgstr "Tha an cunntas seo ann mu thràth. <a href=\"/signin\">Clàraich a-steac
 msgid "App link resent to %(phoneNumber)s"
 msgstr ""
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
 msgstr "Chaidh am facal-faire atharrachadh"
 
@@ -131,11 +131,11 @@ msgstr "Rinn thu fo-sgrìobhadh"
 msgid "Unsubscribed successfully"
 msgstr "Chuir thu crìoch air an fho-sgrìobhadh"
 
-#: app/scripts/views/settings/delete_account.js:45
+#: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
 msgstr "Chaidh an cunntas a sguabadh às"
 
-#: app/scripts/views/settings/display_name.js:66
+#: app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
 msgstr "Chaidh an t-ainm-taisbeanaidh ùrachadh"
 
@@ -174,6 +174,38 @@ msgstr "Fosgail Restmail"
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "Chaidh am post-d a chur a-rithist"
+
+#: app/scripts/models/sync-engines.js:35
+msgid "Open tabs"
+msgstr "Tabaichean fosgailte"
+
+#: app/scripts/models/sync-engines.js:40
+msgid "Bookmarks"
+msgstr "Comharran-lìn"
+
+#: app/scripts/models/sync-engines.js:45
+msgid "Add-ons"
+msgstr "Tuilleadain"
+
+#: app/scripts/models/sync-engines.js:50
+msgid "Passwords"
+msgstr "Faclan-faire"
+
+#: app/scripts/models/sync-engines.js:55
+msgid "History"
+msgstr "An eachdraidh"
+
+#: app/scripts/models/sync-engines.js:60
+msgid "Preferences"
+msgstr "Roghainnean"
+
+#: app/scripts/models/sync-engines.js:72
+msgid "Addresses"
+msgstr ""
+
+#: app/scripts/models/sync-engines.js:79
+msgid "Credit cards"
+msgstr ""
 
 #: app/scripts/models/reliers/sync.js:60
 msgid "Firefox Sync"
@@ -612,9 +644,9 @@ msgstr "Cha ghabh an cunntas a chruthachadh"
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr "Feumaidh tu a bhith aosta gu leòr mus urrainn dhut cunntas Firefox a chruthachadh."
 
-#: app/scripts/templates/cannot_create_account.mustache:4
-msgid "Learn more."
-msgstr "Barrachd fiosrachaidh."
+#: app/scripts/templates/cannot_create_account.mustache:4 app/scripts/templates/cookies_disabled.mustache:3
+msgid "Learn more"
+msgstr "Barrachd fiosrachaidh"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s created"
@@ -624,35 +656,11 @@ msgstr "Chaidh %(email)s a chruthachadh"
 msgid "Choose what to sync"
 msgstr "Tagh na tha thu airson sioncronachadh"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:3
-msgid "Open tabs"
-msgstr "Tabaichean fosgailte"
-
 #: app/scripts/templates/choose_what_to_sync.mustache:5
-msgid "Bookmarks"
-msgstr "Comharran-lìn"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:7
-msgid "Add-ons"
-msgstr "Tuilleadain"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:9
-msgid "Passwords"
-msgstr "Faclan-faire"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:11
-msgid "History"
-msgstr "An eachdraidh"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:13
-msgid "Preferences"
-msgstr "Roghainnean"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
 msgstr "Sàbhail na roghainnean"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+#: app/scripts/templates/choose_what_to_sync.mustache:6 app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Air ais"
 
@@ -665,8 +673,8 @@ msgid "The link you clicked to reset your password is expired."
 msgstr "Bhriog thu air ceangal a dh’fhalbh an ùine air gus am facal-faire agad ath-shuidheachadh."
 
 #: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Click here to receive a new reset link"
-msgstr "Briog an-seo airson ceangal ùr airson ath-shuidheachadh"
+msgid "Receive new link"
+msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -737,10 +745,10 @@ msgstr ""
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 msgstr ""
 
-#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
+#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:12 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
-msgid "Didn't arrive and not in spam folder? Resend"
-msgstr "Nach do ràinig e agus chan eil e ann am pasgan an spama? Cuir às ùr"
+msgid "Not in inbox or spam folder? Resend"
+msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -750,7 +758,8 @@ msgstr "Chaidh am post-d ath-shuidheachaidh a chur"
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
 msgstr "Briog air a’ cheangal a chur sinn thugad gu %(email)s taobh a-staigh uair a thìde a chruthachadh facal-faire ùr."
 
-#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7
+#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7 app/scripts/templates/reset_password.mustache:10
+#: app/scripts/templates/reset_password.mustache:12
 msgid "Remember password? Sign in"
 msgstr "Cuimhne agad air an fhacal-fhaire? Clàraich a-steach"
 
@@ -795,18 +804,14 @@ msgid "Why is this required?"
 msgstr "Carson a tha agam ri seo a dhèanamh?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required."
-msgstr "Tha feum air briosgaidean is stòras ionadail."
+msgid "Cookies and local storage are required"
+msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
 msgstr ""
 "Cuir an comas briosgaidean is stòras ionadail sa bhrabhsair agad gus cothrom fhaighinn air cunntasan Firefox. Cha ghabh diofar rudan, can faclan-faire a chumail an cuimhne eadar seiseanan, a "
 "dhèanamh as an aonais."
-
-#: app/scripts/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "Barrachd fiosrachaidh"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -928,10 +933,6 @@ msgstr "Post-d"
 msgid "Begin reset"
 msgstr "Tòisich air an ath-shuidheachadh"
 
-#: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
-msgid "Remember password? Sign in."
-msgstr "Cuimhne air an fhacal-fhaire? Clàraich a-steach."
-
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
 msgstr "Cunntasan Firefox"
@@ -1038,7 +1039,7 @@ msgid "Install Firefox on your smartphone and sign in to complete set-up"
 msgstr ""
 
 #: app/scripts/templates/sms_sent.mustache:2
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
 msgstr ""
 
 #: app/scripts/templates/sms_sent.mustache:5
@@ -1247,7 +1248,7 @@ msgid "Remove"
 msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:11
-msgid "Didn't arrive and not in spam folder? Resend?"
+msgid "Not in inbox or spam folder? Resend?"
 msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:19
@@ -1285,6 +1286,21 @@ msgstr ""
 msgctxt "header text"
 msgid "Sign in"
 msgstr ""
+
+#~ msgid "Learn more."
+#~ msgstr "Barrachd fiosrachaidh."
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "Briog an-seo airson ceangal ùr airson ath-shuidheachadh"
+
+#~ msgid "Didn't arrive and not in spam folder? Resend"
+#~ msgstr "Nach do ràinig e agus chan eil e ann am pasgan an spama? Cuir às ùr"
+
+#~ msgid "Cookies and local storage are required."
+#~ msgstr "Tha feum air briosgaidean is stòras ionadail."
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "Cuimhne air an fhacal-fhaire? Clàraich a-steach."
 
 #~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
 #~ msgstr "Cha dèid na tuilleadain is na roghainnean a shioncronachadh air uidheaman mobile aig an àm seo."

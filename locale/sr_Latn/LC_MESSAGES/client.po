@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-23 16:09+0000\n"
-"PO-Revision-Date: 2017-06-11 16:15+0000\n"
+"POT-Creation-Date: 2017-07-07 16:08+0000\n"
+"PO-Revision-Date: 2017-06-23 18:33+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
@@ -107,7 +107,7 @@ msgstr "Nalog već postoji. <a href=\"/signin\">Prijavi se</a>"
 msgid "App link resent to %(phoneNumber)s"
 msgstr "Veza do aplikacije ponovo poslata na %(phoneNumber)s"
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
 msgstr "Lozinka je uspešno promenjena"
 
@@ -155,18 +155,18 @@ msgstr "Uspešna pretplata"
 msgid "Unsubscribed successfully"
 msgstr "Pretplata je otkazana"
 
-#: app/scripts/views/settings/delete_account.js:45
+#: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
 msgstr "Nalog uspešno obrisan"
 
-#: app/scripts/views/settings/display_name.js:66
+#: app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
 msgstr "Prikaži ažurirano ime"
 
 #: app/scripts/views/settings/emails.js:136
 #: app/scripts/views/settings/emails.js:149
 msgid "Verification email sent"
-msgstr ""
+msgstr "Verifikaciona e-pošta poslata"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43
 #: app/scripts/lib/auth-errors.js:113
@@ -200,6 +200,38 @@ msgstr "Otvori Restmail"
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "E-pošta je ponovo poslata"
+
+#: app/scripts/models/sync-engines.js:35
+msgid "Open tabs"
+msgstr "Otvori jezičke"
+
+#: app/scripts/models/sync-engines.js:40
+msgid "Bookmarks"
+msgstr "Zabeleške"
+
+#: app/scripts/models/sync-engines.js:45
+msgid "Add-ons"
+msgstr "Dodaci"
+
+#: app/scripts/models/sync-engines.js:50
+msgid "Passwords"
+msgstr "Lozinke"
+
+#: app/scripts/models/sync-engines.js:55
+msgid "History"
+msgstr "Istorijat"
+
+#: app/scripts/models/sync-engines.js:60
+msgid "Preferences"
+msgstr "Postavke"
+
+#: app/scripts/models/sync-engines.js:72
+msgid "Addresses"
+msgstr ""
+
+#: app/scripts/models/sync-engines.js:79
+msgid "Credit cards"
+msgstr ""
 
 #: app/scripts/models/reliers/sync.js:60
 msgid "Firefox Sync"
@@ -671,8 +703,9 @@ msgstr ""
 "Vi morate da ispunite određene uslove da biste napravili Firefox&nbsp;nalog."
 
 #: app/scripts/templates/cannot_create_account.mustache:4
-msgid "Learn more."
-msgstr "Saznajte više."
+#: app/scripts/templates/cookies_disabled.mustache:3
+msgid "Learn more"
+msgstr "Saznajte više"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s created"
@@ -683,36 +716,12 @@ msgstr "%(email)s napravljeno"
 msgid "Choose what to sync"
 msgstr "Odaberite šta želite da uskladite"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:3
-msgid "Open tabs"
-msgstr "Otvori jezičke"
-
 #: app/scripts/templates/choose_what_to_sync.mustache:5
-msgid "Bookmarks"
-msgstr "Zabeleške"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:7
-msgid "Add-ons"
-msgstr "Dodaci"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:9
-msgid "Passwords"
-msgstr "Lozinke"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:11
-msgid "History"
-msgstr "Istorijat"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:13
-msgid "Preferences"
-msgstr "Postavke"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
 msgstr "Snimi postavke"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:16
-#: app/scripts/templates/confirm.mustache:12
+#: app/scripts/templates/choose_what_to_sync.mustache:6
+#: app/scripts/templates/confirm.mustache:13
 #: app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Nazad"
@@ -726,8 +735,8 @@ msgid "The link you clicked to reset your password is expired."
 msgstr "Vezu koju ste kliknuli za obnavljanje lozinke je istekla."
 
 #: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Click here to receive a new reset link"
-msgstr "Kliknite ovde da biste primili novu vezu za obnavljanje"
+msgid "Receive new link"
+msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -806,18 +815,21 @@ msgstr "E-pošta je poslata"
 msgid ""
 "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
 msgstr ""
+"Proverite vašu e-poštu radi verifikacione veze poslate&nbsp;na "
+"%(escapedEmail)s"
 
 #: app/scripts/templates/confirm.mustache:8
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 msgstr ""
+"Proverite vašu e-poštu radi potvrdne veze za pristup poslate na %(email)s"
 
 #: app/scripts/templates/confirm.mustache:11
-#: app/scripts/templates/confirm.mustache:13
+#: app/scripts/templates/confirm.mustache:12
 #: app/scripts/templates/confirm_reset_password.mustache:9
 #: app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
-msgid "Didn't arrive and not in spam folder? Resend"
-msgstr "Poruka nije stigla ili nije u fascikli za nepoželjno? Pošalji ponovo"
+msgid "Not in inbox or spam folder? Resend"
+msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -833,6 +845,8 @@ msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:5
 #: app/scripts/templates/confirm_reset_password.mustache:7
+#: app/scripts/templates/reset_password.mustache:10
+#: app/scripts/templates/reset_password.mustache:12
 msgid "Remember password? Sign in"
 msgstr "Sećate se lozinke? Prijavite se"
 
@@ -887,8 +901,8 @@ msgid "Why is this required?"
 msgstr "Zašto je ovo potrebno?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required."
-msgstr "Potrebni su kolačići i lokalno skladište."
+msgid "Cookies and local storage are required"
+msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid ""
@@ -899,10 +913,6 @@ msgstr ""
 "Omogućite kolačiće i lokalno skladište u vašem pregledaču da pristupite "
 "Firefox nalozima. Ovo će omogućiti mogućnosti kao što je pamćenje korisnika "
 "kroz više sesija."
-
-#: app/scripts/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "Saznajte više"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -1071,11 +1081,6 @@ msgstr "E-pošta"
 msgid "Begin reset"
 msgstr "Započni resetovanje"
 
-#: app/scripts/templates/reset_password.mustache:10
-#: app/scripts/templates/reset_password.mustache:12
-msgid "Remember password? Sign in."
-msgstr "Sećate se lozinke? Prijavite se."
-
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
 msgstr "Firefox nalozi"
@@ -1124,7 +1129,7 @@ msgstr "Ovlasti ovo prijavljivanje"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "Proverite vašu e-poštu radi potvrdnog koda poslatog na %(email)s."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1216,10 +1221,8 @@ msgstr ""
 #: app/scripts/templates/sms_sent.mustache:2
 msgid ""
 "App link sent to %(escapedPhoneNumber)s. <a "
-"%(escapedBackLinkAttrs)s>Mistyped number?</a>"
+"%(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
 msgstr ""
-"Veza do aplikacije poslata na %(escapedPhoneNumber)s. <a "
-"%(escapedBackLinkAttrs)s>Pogrešan broj?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:5
 msgid ""
@@ -1235,19 +1238,24 @@ msgstr "Nije stigla? Pošalji ponovo"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr ""
+msgstr "Zašto sinhronizovati više uređaja?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
 "The Sync service isn’t a permanent backup, it’s simply a secure way to "
 "transfer saved bookmarks, history and passwords between your own devices."
 msgstr ""
+"Sinhronizacija nije trajna rezervna kopija, već bezbedan način da se prenose "
+"sačuvane zabeleške, istorijat i lozinke među vašim uređajima."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
 "You should install Firefox and sync at least two devices to protect against "
 "losing your data if you need to restore it but forget your password."
 msgstr ""
+"Trebalo bi da instalirate Firefox i sinhronizujete barem dva uređaja da se "
+"zaštitite od gubljenja vaših podataka u slučaju da morate da ih povratite "
+"ali ste zaboravili vašu lozinku."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4
 #: app/scripts/templates/settings/client_disconnect.mustache:11
@@ -1472,8 +1480,8 @@ msgid "Remove"
 msgstr "Ukloni"
 
 #: app/scripts/templates/settings/emails.mustache:11
-msgid "Didn't arrive and not in spam folder? Resend?"
-msgstr "Nije vam stigla niti je u neželjenoj pošti? Poslati ponovo?"
+msgid "Not in inbox or spam folder? Resend?"
+msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:19
 msgid "Add"
@@ -1514,6 +1522,32 @@ msgstr "Prijavi se"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Prijavi se"
+
+#~ msgid "Learn more."
+#~ msgstr "Saznajte više."
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "Kliknite ovde da biste primili novu vezu za obnavljanje"
+
+#~ msgid "Didn't arrive and not in spam folder? Resend"
+#~ msgstr ""
+#~ "Poruka nije stigla ili nije u fascikli za nepoželjno? Pošalji ponovo"
+
+#~ msgid "Cookies and local storage are required."
+#~ msgstr "Potrebni su kolačići i lokalno skladište."
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "Sećate se lozinke? Prijavite se."
+
+#~ msgid ""
+#~ "App link sent to %(escapedPhoneNumber)s. <a "
+#~ "%(escapedBackLinkAttrs)s>Mistyped number?</a>"
+#~ msgstr ""
+#~ "Veza do aplikacije poslata na %(escapedPhoneNumber)s. <a "
+#~ "%(escapedBackLinkAttrs)s>Pogrešan broj?</a>"
+
+#~ msgid "Didn't arrive and not in spam folder? Resend?"
+#~ msgstr "Nije vam stigla niti je u neželjenoj pošti? Poslati ponovo?"
 
 #~ msgid "A verification link has been sent to %(email)s"
 #~ msgstr "Veza potvrde je poslata na %(email)s"
