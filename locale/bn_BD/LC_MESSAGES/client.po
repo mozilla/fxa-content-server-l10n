@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-23 16:09+0000\n"
+"POT-Creation-Date: 2017-07-07 16:08+0000\n"
 "PO-Revision-Date: 2017-05-14 17:03+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,7 +91,7 @@ msgstr "অ্যাকাউন্ট আগেই আছে। <a href=\"/sign
 msgid "App link resent to %(phoneNumber)s"
 msgstr "অ্যাপ লিঙ্ক %(phoneNumber)s নম্বরে পাঠানো হয়েছে"
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
 msgstr "পাসওয়ার্ড সাফল্যের সাথে পরিবর্তন করা হয়েছে"
 
@@ -127,11 +127,11 @@ msgstr "সফলভাবে সাবসক্রাইব হয়েছে"
 msgid "Unsubscribed successfully"
 msgstr "সফলভাবে আনসাবসক্রাইব হয়েছে"
 
-#: app/scripts/views/settings/delete_account.js:45
+#: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
 msgstr "অ্যাকাউন্ট সফলভাবে মুছে ফেলা হয়েছে"
 
-#: app/scripts/views/settings/display_name.js:66
+#: app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
 msgstr "প্রদর্শননীয় নাম হালনাগাদ করা হয়েছে"
 
@@ -170,6 +170,38 @@ msgstr "Restmail খুলুন"
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "পুনরায় ইমেইল পাঠানো হয়েছে"
+
+#: app/scripts/models/sync-engines.js:35
+msgid "Open tabs"
+msgstr "ট্যাব খুলুন"
+
+#: app/scripts/models/sync-engines.js:40
+msgid "Bookmarks"
+msgstr "বুকমার্কস"
+
+#: app/scripts/models/sync-engines.js:45
+msgid "Add-ons"
+msgstr "অ্যাড-অন"
+
+#: app/scripts/models/sync-engines.js:50
+msgid "Passwords"
+msgstr "পাসওয়ার্ড"
+
+#: app/scripts/models/sync-engines.js:55
+msgid "History"
+msgstr "ইতিহাস"
+
+#: app/scripts/models/sync-engines.js:60
+msgid "Preferences"
+msgstr "পছন্দ"
+
+#: app/scripts/models/sync-engines.js:72
+msgid "Addresses"
+msgstr ""
+
+#: app/scripts/models/sync-engines.js:79
+msgid "Credit cards"
+msgstr ""
 
 #: app/scripts/models/reliers/sync.js:60
 msgid "Firefox Sync"
@@ -607,9 +639,9 @@ msgstr "একাউন্ট তৈরী করা যাচ্ছে না"
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr "Firefox অ্যাকাউন্ট খুলতে হলে আপনাকে অবশ্যই একটি বয়স সীমা পূর্ণ করতে হবে।"
 
-#: app/scripts/templates/cannot_create_account.mustache:4
-msgid "Learn more."
-msgstr "আরো জানুন।"
+#: app/scripts/templates/cannot_create_account.mustache:4 app/scripts/templates/cookies_disabled.mustache:3
+msgid "Learn more"
+msgstr "বিস্তারিত"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s created"
@@ -619,35 +651,11 @@ msgstr "%(email)s তৈরি করা হয়েছে"
 msgid "Choose what to sync"
 msgstr "কি সিঙ্ক করতে হবে তা পছন্দ করুন"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:3
-msgid "Open tabs"
-msgstr "ট্যাব খুলুন"
-
 #: app/scripts/templates/choose_what_to_sync.mustache:5
-msgid "Bookmarks"
-msgstr "বুকমার্কস"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:7
-msgid "Add-ons"
-msgstr "অ্যাড-অন"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:9
-msgid "Passwords"
-msgstr "পাসওয়ার্ড"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:11
-msgid "History"
-msgstr "ইতিহাস"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:13
-msgid "Preferences"
-msgstr "পছন্দ"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
 msgstr "সেটিংগুলি সংরক্ষণ করুন"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+#: app/scripts/templates/choose_what_to_sync.mustache:6 app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "পেছনে"
 
@@ -660,8 +668,8 @@ msgid "The link you clicked to reset your password is expired."
 msgstr "আপনার ক্লিক করা পাসওয়ার্ড পরিবর্তনের লিঙ্কটির মেয়াদ শেষ।"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Click here to receive a new reset link"
-msgstr "নতুন রিসেট লিঙ্ক পেতে এখানে ক্লিক করুন"
+msgid "Receive new link"
+msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -731,10 +739,10 @@ msgstr ""
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 msgstr ""
 
-#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
+#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:12 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
-msgid "Didn't arrive and not in spam folder? Resend"
-msgstr "আসেনি? স্প্যাম ফোল্ডারেও নেই? পুনরায় পাঠানো হবে"
+msgid "Not in inbox or spam folder? Resend"
+msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -744,7 +752,8 @@ msgstr "রিসেট করার ইমেইল পাঠানো হয়�
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
 msgstr "নতুন পাসওয়ার্ড তৈরির জন্য পরবর্তী ঘণ্টার মধ্যে লিঙ্কে ক্লিক করুন যা আমরা %(email)s মেইল করেছি।লিঙ্কে"
 
-#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7
+#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7 app/scripts/templates/reset_password.mustache:10
+#: app/scripts/templates/reset_password.mustache:12
 msgid "Remember password? Sign in"
 msgstr "পাসওয়ার্ড মনে রাখবেন? সাইন ইন।"
 
@@ -789,16 +798,12 @@ msgid "Why is this required?"
 msgstr "এটা কেন প্রয়োজন?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required."
-msgstr "কুকি এবং লোকাল স্টোরেজ আবশ্যক।"
+msgid "Cookies and local storage are required"
+msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
 msgstr "Firefox Account এ প্রবেশের জন্য অনুগ্রহ করে আপনার ব্রাউজারের কুকি ও স্থানীয় স্টোরেজ সক্রিয় করুন। এটা করার ফলে সেশনগুলোর মধ্যে আপনাকে মনে রাখার মত কার্যকারিতা সক্রিয় হবে।"
-
-#: app/scripts/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "বিস্তারিত"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -918,10 +923,6 @@ msgstr "ইমেইল"
 msgid "Begin reset"
 msgstr "রিসেট শুরু করুন"
 
-#: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
-msgid "Remember password? Sign in."
-msgstr "পাসওয়ার্ড মনে রাখবে? সাইন ইন করুন।"
-
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
 msgstr "ফায়ারফক্স অ্যাকাউন্ট"
@@ -1028,8 +1029,8 @@ msgid "Install Firefox on your smartphone and sign in to complete set-up"
 msgstr "আপনার স্মার্টফোনে Firefox ইনস্টল করুন আর সাইন করে সেটাপ সম্পন্ন করুন"
 
 #: app/scripts/templates/sms_sent.mustache:2
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr "অ্যাপের লিংক %(escapedPhoneNumber)s নম্বরে পাঠানো হয়েছে। <a %(escapedBackLinkAttrs)s>ভুল নম্বর টাইপ করেছেন?</a>"
+msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+msgstr ""
 
 #: app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1237,7 +1238,7 @@ msgid "Remove"
 msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:11
-msgid "Didn't arrive and not in spam folder? Resend?"
+msgid "Not in inbox or spam folder? Resend?"
 msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:19
@@ -1275,6 +1276,24 @@ msgstr "সাইন ইন"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "সাইন ইন"
+
+#~ msgid "Learn more."
+#~ msgstr "আরো জানুন।"
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "নতুন রিসেট লিঙ্ক পেতে এখানে ক্লিক করুন"
+
+#~ msgid "Didn't arrive and not in spam folder? Resend"
+#~ msgstr "আসেনি? স্প্যাম ফোল্ডারেও নেই? পুনরায় পাঠানো হবে"
+
+#~ msgid "Cookies and local storage are required."
+#~ msgstr "কুকি এবং লোকাল স্টোরেজ আবশ্যক।"
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "পাসওয়ার্ড মনে রাখবে? সাইন ইন করুন।"
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+#~ msgstr "অ্যাপের লিংক %(escapedPhoneNumber)s নম্বরে পাঠানো হয়েছে। <a %(escapedBackLinkAttrs)s>ভুল নম্বর টাইপ করেছেন?</a>"
 
 #~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
 #~ msgstr "অ্যাড-অন ও পছন্দসমূহ মোবাইল ডিভাইসে বর্তমানে সিঙ্ক হবে না।"

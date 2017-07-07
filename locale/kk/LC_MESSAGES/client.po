@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-23 16:09+0000\n"
+"POT-Creation-Date: 2017-07-07 16:08+0000\n"
 "PO-Revision-Date: 2017-06-25 14:14+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
@@ -90,7 +90,7 @@ msgstr "Тіркелгі бар болып тұр. <a href=\"/signin\">Кіру<
 msgid "App link resent to %(phoneNumber)s"
 msgstr "Қолданбаны тастау сілтемесі %(phoneNumber)s нөміріне жіберілді"
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
 msgstr "Пароль сәтті өзгертілді"
 
@@ -126,11 +126,11 @@ msgstr "Жазылу сәтті аяқталды"
 msgid "Unsubscribed successfully"
 msgstr "Жазылуды үзу сәтті аяқталды"
 
-#: app/scripts/views/settings/delete_account.js:45
+#: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
 msgstr "Тіркелгі сәтті өшірілді"
 
-#: app/scripts/views/settings/display_name.js:66
+#: app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
 msgstr "Көрсетілетін аты жаңартылды"
 
@@ -169,6 +169,38 @@ msgstr "Restmail ашу"
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "Эл. пошта хаты қайта жіберілді"
+
+#: app/scripts/models/sync-engines.js:35
+msgid "Open tabs"
+msgstr "Ашық беттер"
+
+#: app/scripts/models/sync-engines.js:40
+msgid "Bookmarks"
+msgstr "Бетбелгілер"
+
+#: app/scripts/models/sync-engines.js:45
+msgid "Add-ons"
+msgstr "Қосымшалар"
+
+#: app/scripts/models/sync-engines.js:50
+msgid "Passwords"
+msgstr "Парольдер"
+
+#: app/scripts/models/sync-engines.js:55
+msgid "History"
+msgstr "Тарихы"
+
+#: app/scripts/models/sync-engines.js:60
+msgid "Preferences"
+msgstr "Баптаулар"
+
+#: app/scripts/models/sync-engines.js:72
+msgid "Addresses"
+msgstr ""
+
+#: app/scripts/models/sync-engines.js:79
+msgid "Credit cards"
+msgstr ""
 
 #: app/scripts/models/reliers/sync.js:60
 msgid "Firefox Sync"
@@ -548,7 +580,9 @@ msgid "SMS not sent, please try again"
 msgstr "SMS жіберілмеген, қайталап көріңіз"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Жалғастыру нәтижесінде, сіз %(serviceName)s (%(serviceUri)s) қызметінің <a id=\"service-tos\" href=\"%(termsUri)s\">Қолдану шарттары</a> және <a id=\"service-pp\" href=\"%(privacyUri)s\">Жекелік "
 "ескертуімен</a> келісесіз."
@@ -605,9 +639,9 @@ msgstr "Тіркелгіні жасау мүмкін емес"
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr "Firefox&nbsp;тіркелгісін жасау үшін жасыңыз белгілі шамадан асуы тиіс."
 
-#: app/scripts/templates/cannot_create_account.mustache:4
-msgid "Learn more."
-msgstr "Көбірек білу."
+#: app/scripts/templates/cannot_create_account.mustache:4 app/scripts/templates/cookies_disabled.mustache:3
+msgid "Learn more"
+msgstr "Көбірек білу"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s created"
@@ -617,35 +651,11 @@ msgstr "%(email)s жасалды"
 msgid "Choose what to sync"
 msgstr "Нені синхрондауды таңдаңыз"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:3
-msgid "Open tabs"
-msgstr "Ашық беттер"
-
 #: app/scripts/templates/choose_what_to_sync.mustache:5
-msgid "Bookmarks"
-msgstr "Бетбелгілер"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:7
-msgid "Add-ons"
-msgstr "Қосымшалар"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:9
-msgid "Passwords"
-msgstr "Парольдер"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:11
-msgid "History"
-msgstr "Тарихы"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:13
-msgid "Preferences"
-msgstr "Баптаулар"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
 msgstr "Баптауларды сақтау"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+#: app/scripts/templates/choose_what_to_sync.mustache:6 app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Артқа"
 
@@ -658,8 +668,8 @@ msgid "The link you clicked to reset your password is expired."
 msgstr "Пароліңізді тастау үшін сіз шерткен сілтеменің мерзімі біткен."
 
 #: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Click here to receive a new reset link"
-msgstr "Жаңа тастау сілтемесін алу үшін осында шертіңіз"
+msgid "Receive new link"
+msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -729,10 +739,10 @@ msgstr "Эл. поштаңызды %(escapedEmail)s адресіне жібер�
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 msgstr "Эл. поштаңызды %(email)s адресіне жіберілген кіруді растау сілтемесіне тексеріңіз"
 
-#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
+#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:12 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
-msgid "Didn't arrive and not in spam folder? Resend"
-msgstr "Жеткен жоқ па, және спам бумасында жоқ па? Қайта жіберу"
+msgid "Not in inbox or spam folder? Resend"
+msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -742,7 +752,8 @@ msgstr "Тастау эл. пошта хаты жіберілді"
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
 msgstr "Жаңа парольді жасау үшін %(email)s адресіне жіберілген хаттағы сілтемеге көп ұзамай шертіңіз."
 
-#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7
+#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7 app/scripts/templates/reset_password.mustache:10
+#: app/scripts/templates/reset_password.mustache:12
 msgid "Remember password? Sign in"
 msgstr "Пароль есіңізде бар ма? Кіріңіз"
 
@@ -787,16 +798,12 @@ msgid "Why is this required?"
 msgstr "Бұл не үшін керек?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required."
-msgstr "Cookies және жергілікті қойма керек."
+msgid "Cookies and local storage are required"
+msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
 msgstr "Firefox тіркелгісіне қатынау үшін, браузеріңізде cookies және жергілікті қойманы іске қосыңыз. Оның нәтижесінде сессиялар арасында сізді есте сақтау сияқты мүмкіндіктер іске қосылады."
-
-#: app/scripts/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "Көбірек білу"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -817,7 +824,9 @@ msgstr "Пароліңізді ұмыттыңыз ба?"
 
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:18
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Жалғастыру нәтижесінде, сіз Firefox бұлттық қызметтерінің <a id=\"fxa-tos\" href=\"/legal/terms\">Қолдану шарттары</a> және <a id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуімен</a> келісесіз."
+msgstr ""
+"Жалғастыру нәтижесінде, сіз Firefox бұлттық қызметтерінің <a id=\"fxa-tos\" href=\"/legal/terms\">Қолдану шарттары</a> және <a id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуімен</a> "
+"келісесіз."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -915,10 +924,6 @@ msgstr "Эл. пошта"
 #: app/scripts/templates/reset_password.mustache:9
 msgid "Begin reset"
 msgstr "Парольді тастауды бастау"
-
-#: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
-msgid "Remember password? Sign in."
-msgstr "Пароль есіңізде бар ма? Кіріңіз."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
@@ -1028,8 +1033,8 @@ msgid "Install Firefox on your smartphone and sign in to complete set-up"
 msgstr "Баптауды аяқтау үшін, Firefox-ты өз смартфоныңызға орнатып, кіріңіз"
 
 #: app/scripts/templates/sms_sent.mustache:2
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr "Қолданба сілтемесі %(escapedPhoneNumber)s нөміріне жіберілді. <a %(escapedBackLinkAttrs)s>Нөмірді қате көрсеттіңіз бе?</a>"
+msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+msgstr ""
 
 #: app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1237,8 +1242,8 @@ msgid "Remove"
 msgstr "Өшіру"
 
 #: app/scripts/templates/settings/emails.mustache:11
-msgid "Didn't arrive and not in spam folder? Resend?"
-msgstr "Жеткен жоқ па, және спам бумасында жоқ па? Қайта жіберу керек пе?"
+msgid "Not in inbox or spam folder? Resend?"
+msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:19
 msgid "Add"
@@ -1276,6 +1281,27 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr "Кіру"
 
+#~ msgid "Learn more."
+#~ msgstr "Көбірек білу."
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "Жаңа тастау сілтемесін алу үшін осында шертіңіз"
+
+#~ msgid "Didn't arrive and not in spam folder? Resend"
+#~ msgstr "Жеткен жоқ па, және спам бумасында жоқ па? Қайта жіберу"
+
+#~ msgid "Cookies and local storage are required."
+#~ msgstr "Cookies және жергілікті қойма керек."
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "Пароль есіңізде бар ма? Кіріңіз."
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+#~ msgstr "Қолданба сілтемесі %(escapedPhoneNumber)s нөміріне жіберілді. <a %(escapedBackLinkAttrs)s>Нөмірді қате көрсеттіңіз бе?</a>"
+
+#~ msgid "Didn't arrive and not in spam folder? Resend?"
+#~ msgstr "Жеткен жоқ па, және спам бумасында жоқ па? Қайта жіберу керек пе?"
+
 #~ msgid "A verification link has been sent to %(email)s"
 #~ msgstr "Растау сілтемесі %(email)s адресіне жіберілді"
 
@@ -1298,11 +1324,11 @@ msgstr "Кіру"
 #~ msgstr "Екі (не көбірек) құрылғыларды неге синхрондау керек?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Синхрондау көмегімен бір құрылғыдағы Firefox-та сақталған бетбелгілер, шолу тарихы және парольдерді басқа құрылғыдағы Firefox-та қолдануға болады. Телефон немесе планшетіңізде Firefox-қа кіріңіз, "
-#~ "одан кейін жұмыс үстелі үшін Firefox-та сақталған барлық нәрсені көре аласыз."
+#~ "Синхрондау көмегімен бір құрылғыдағы Firefox-та сақталған бетбелгілер, шолу тарихы және парольдерді басқа құрылғыдағы Firefox-та қолдануға болады. Телефон немесе планшетіңізде Firefox-қа "
+#~ "кіріңіз, одан кейін жұмыс үстелі үшін Firefox-та сақталған барлық нәрсені көре аласыз."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
@@ -1375,11 +1401,11 @@ msgstr "Кіру"
 #~ msgstr "Басқа эл. поштаға байланысқан тіркелгіңіз бар ма? <a href=\"%(signinUri)s\">Кіріңіз</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox браузері <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> және <a "
-#~ "href=\"%(linkLinux)s\">Linux</a> үшін қолжетерлік."
+#~ "Firefox браузері <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> және <a href=\"%(linkLinux)s"
+#~ "\">Linux</a> үшін қолжетерлік."
 
 #~ msgid "Delete"
 #~ msgstr "Өшіру"
@@ -1515,8 +1541,8 @@ msgstr "Кіру"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr ""
-#~ "Пароліңізді тастау нәтижесінде сіздің барлық шолу деректеріңіз біздің серверлерімізден өшіріледі. Ал, құрылғыларыңыздағы барлық шолу деректері сақталады. Парольді тастауды бастау үшін, төменде өз "
-#~ "эл. пошта адресіңізді енгіңіз."
+#~ "Пароліңізді тастау нәтижесінде сіздің барлық шолу деректеріңіз біздің серверлерімізден өшіріледі. Ал, құрылғыларыңыздағы барлық шолу деректері сақталады. Парольді тастауды бастау үшін, төменде "
+#~ "өз эл. пошта адресіңізді енгіңіз."
 
 #~ msgid "a day"
 #~ msgstr "бір күн"

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-23 16:09+0000\n"
+"POT-Creation-Date: 2017-07-07 16:08+0000\n"
 "PO-Revision-Date: 2017-06-24 13:35+0000\n"
 "Last-Translator: Slimane Amiri <slimane.amiri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -90,7 +90,7 @@ msgstr "Amidan yella yakan. <a href=\"/signin\">Kcem</a>"
 msgid "App link resent to %(phoneNumber)s"
 msgstr "Aseɣwen n usnas yettazen ar %(phoneNumber)s"
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
 msgstr "Awal uffir yettwasnifel akken iwata"
 
@@ -126,11 +126,11 @@ msgstr "Ajerred yedda akken iwata"
 msgid "Unsubscribed successfully"
 msgstr "Tuffɣa seg ujerred yedda akken iwata"
 
-#: app/scripts/views/settings/delete_account.js:45
+#: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
 msgstr "Amiḍan yettwakkes akken iwata"
 
-#: app/scripts/views/settings/display_name.js:66
+#: app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
 msgstr "Isem n uskan yettusnifel"
 
@@ -169,6 +169,38 @@ msgstr "Ldi Restmail"
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "Imayl yettwazen tikelt nniḍen"
+
+#: app/scripts/models/sync-engines.js:35
+msgid "Open tabs"
+msgstr "Iccaren yeldin"
+
+#: app/scripts/models/sync-engines.js:40
+msgid "Bookmarks"
+msgstr "Ticraḍ n isebtar"
+
+#: app/scripts/models/sync-engines.js:45
+msgid "Add-ons"
+msgstr "Izegrar"
+
+#: app/scripts/models/sync-engines.js:50
+msgid "Passwords"
+msgstr "Awalen uffiren"
+
+#: app/scripts/models/sync-engines.js:55
+msgid "History"
+msgstr "Amazray"
+
+#: app/scripts/models/sync-engines.js:60
+msgid "Preferences"
+msgstr "Ismenyifen"
+
+#: app/scripts/models/sync-engines.js:72
+msgid "Addresses"
+msgstr ""
+
+#: app/scripts/models/sync-engines.js:79
+msgid "Credit cards"
+msgstr ""
 
 #: app/scripts/models/reliers/sync.js:60
 msgid "Firefox Sync"
@@ -548,8 +580,11 @@ msgid "SMS not sent, please try again"
 msgstr "SMS ur ittwazen ara .Ttxilek εreḍ tikelt nniḍen"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Ma tkemleḍ, ad tqebleḍ <a id=\"service-tos\" href=\"%(termsUri)s\">tiwtilin n useqdec</a> akkeda <a id=\"service-pp\" href=\"%(privacyUri)s\">tsertit tabaḍnit</a> n %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Ma tkemleḍ, ad tqebleḍ <a id=\"service-tos\" href=\"%(termsUri)s\">tiwtilin n useqdec</a> akkeda <a id=\"service-pp\" href=\"%(privacyUri)s\">tsertit tabaḍnit</a> n %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -603,9 +638,9 @@ msgstr "Ur yezmir ara ad yernu amiḍan"
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr "Yessefk awtay inek ad yaweḍ awtay ilaqen akken ad tizmired ad ternuḍ amiḍan Firefox."
 
-#: app/scripts/templates/cannot_create_account.mustache:4
-msgid "Learn more."
-msgstr "Issin ugar."
+#: app/scripts/templates/cannot_create_account.mustache:4 app/scripts/templates/cookies_disabled.mustache:3
+msgid "Learn more"
+msgstr "Issin ugar"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s created"
@@ -615,35 +650,11 @@ msgstr "%(email)s ittwarna"
 msgid "Choose what to sync"
 msgstr "Fren ayen ara temtawiḍ"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:3
-msgid "Open tabs"
-msgstr "Iccaren yeldin"
-
 #: app/scripts/templates/choose_what_to_sync.mustache:5
-msgid "Bookmarks"
-msgstr "Ticraḍ n isebtar"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:7
-msgid "Add-ons"
-msgstr "Izegrar"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:9
-msgid "Passwords"
-msgstr "Awalen uffiren"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:11
-msgid "History"
-msgstr "Amazray"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:13
-msgid "Preferences"
-msgstr "Ismenyifen"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
 msgstr "Sekles iɣewwaṛen"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+#: app/scripts/templates/choose_what_to_sync.mustache:6 app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Ɣer deffir"
 
@@ -656,8 +667,8 @@ msgid "The link you clicked to reset your password is expired."
 msgstr "Aseɣwen fiɣef tsiteḍ akken ad twennzeḍ awal inek uffir yezri."
 
 #: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Click here to receive a new reset link"
-msgstr "Sit akken ad d-remseḍ aseɣwen amaynut"
+msgid "Receive new link"
+msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -727,10 +738,10 @@ msgstr "Wali tabbaṭ inek n imayl akken ad tkecmeḍ aseγwen n usenqed&nbsp;it
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 msgstr "Wali tabbaṭ inek n imayl akken ad tkecmeḍ γer useγwen n tuqna γer %(email)s"
 
-#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
+#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:12 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
-msgid "Didn't arrive and not in spam folder? Resend"
-msgstr "IZen ur d-yewwiḍ ara udiɣ ulac-it deg ispamen? Azen-it-id"
+msgid "Not in inbox or spam folder? Resend"
+msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -740,7 +751,8 @@ msgstr "Wennez imayl yettwaznen"
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
 msgstr "Sit ɣef useqwen i k-d-nuzen ɣer %(email)s akka di kra n usrag akken ad ternuḍ awal uffir amaynut."
 
-#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7
+#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7 app/scripts/templates/reset_password.mustache:10
+#: app/scripts/templates/reset_password.mustache:12
 msgid "Remember password? Sign in"
 msgstr "Cfu ɣef wawal uffir? Kcem"
 
@@ -785,16 +797,12 @@ msgid "Why is this required?"
 msgstr "Acuɣer ilaq waya?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required."
-msgstr "Inagan n tuqqna akked usekles adigan ttwasran."
+msgid "Cookies and local storage are required"
+msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
 msgstr "Ma ulac aɣilif rmed inagan n tuqqna akked usekles adigan deg iminig inek akke ad tkecmeḍ ɣer Imiḍanen Firefox. Ma tegi-ḍ aya, tamahil am cfawat ɣef tɣimit inek ad teddu."
-
-#: app/scripts/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "Issin ugar"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -914,10 +922,6 @@ msgstr "Imayl"
 msgid "Begin reset"
 msgstr "Bdu awennez"
 
-#: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
-msgid "Remember password? Sign in."
-msgstr "Cfu ɣef awal uffir? Kcem."
-
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
 msgstr "Imiḍanen Firefox"
@@ -1024,8 +1028,8 @@ msgid "Install Firefox on your smartphone and sign in to complete set-up"
 msgstr "Sebded Firefox ɣeṛ tiliγṛi-ik sakin qqen akken ad tkemleḍ asbeded"
 
 #: app/scripts/templates/sms_sent.mustache:2
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr "Aseɣwen n usnas yettwazen ar %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Tuccḍa deg uṭṭun?</a>"
+msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+msgstr ""
 
 #: app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1233,8 +1237,8 @@ msgid "Remove"
 msgstr "Kkes"
 
 #: app/scripts/templates/settings/emails.mustache:11
-msgid "Didn't arrive and not in spam folder? Resend?"
-msgstr "Izen ur d-yewwiḍ ara udiɣ ulac-it deg ispamen? Azen-it-id"
+msgid "Not in inbox or spam folder? Resend?"
+msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:19
 msgid "Add"
@@ -1272,6 +1276,27 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr "Kcem"
 
+#~ msgid "Learn more."
+#~ msgstr "Issin ugar."
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "Sit akken ad d-remseḍ aseɣwen amaynut"
+
+#~ msgid "Didn't arrive and not in spam folder? Resend"
+#~ msgstr "IZen ur d-yewwiḍ ara udiɣ ulac-it deg ispamen? Azen-it-id"
+
+#~ msgid "Cookies and local storage are required."
+#~ msgstr "Inagan n tuqqna akked usekles adigan ttwasran."
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "Cfu ɣef awal uffir? Kcem."
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+#~ msgstr "Aseɣwen n usnas yettwazen ar %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Tuccḍa deg uṭṭun?</a>"
+
+#~ msgid "Didn't arrive and not in spam folder? Resend?"
+#~ msgstr "Izen ur d-yewwiḍ ara udiɣ ulac-it deg ispamen? Azen-it-id"
+
 #~ msgid "A verification link has been sent to %(email)s"
 #~ msgstr "Aseɣwen n usenqed yettwazen γer %(email)s"
 
@@ -1294,18 +1319,18 @@ msgstr "Kcem"
 #~ msgstr "Acuɛe amtawi n sin (neɣ ugar!) n ibenkan?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sekles di Firefox ticṛaḍ-ik n isebtar, amazray-ik akken wawalen-ik uffiren, sakin bṭu-ten s useqdec n Sync ɣef ibenkan-ik nniḍen. Qqen s Firefox di tiliɣriyin-ik neɣ tifelwiyin inek n uselkem, sakin"
-#~ " ad twaliḍ akk ayen tsekelsed di Firefox i uselkim."
+#~ "Sekles di Firefox ticṛaḍ-ik n isebtar, amazray-ik akken wawalen-ik uffiren, sakin bṭu-ten s useqdec n Sync ɣef ibenkan-ik nniḍen. Qqen s Firefox di tiliɣriyin-ik neɣ tifelwiyin inek n uselkem, "
+#~ "sakin ad twaliḍ akk ayen tsekelsed di Firefox i uselkim."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync ur yettwafṣel ara akken ad yli d asnas n usekles yezgan, yettaǧa kan beṭṭu n wayen yettwakelsen s wudem adigan. Ma yella tesnifled awal inek uffir udiɣ isefka inek ur ttwakelsen ara ɣaṛwum ɣef "
-#~ "yiwen n yibenk nniḍen, yezmer ad tṛuḥ telɣut icudden ar wawal uffir aqbuṛ. Ɣef aya, ahat tebɣiḍ ad tesbeddeḍ Firefox udiɣ ad tesqedceḍ Sync ɣef ugar n yibenk."
+#~ "Sync ur yettwafṣel ara akken ad yli d asnas n usekles yezgan, yettaǧa kan beṭṭu n wayen yettwakelsen s wudem adigan. Ma yella tesnifled awal inek uffir udiɣ isefka inek ur ttwakelsen ara ɣaṛwum "
+#~ "ɣef yiwen n yibenk nniḍen, yezmer ad tṛuḥ telɣut icudden ar wawal uffir aqbuṛ. Ɣef aya, ahat tebɣiḍ ad tesbeddeḍ Firefox udiɣ ad tesqedceḍ Sync ɣef ugar n yibenk."
 
 #~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
 #~ msgstr "Tettnadiḍ Firefox Sunc? <a href=\"%(escapedSyncSuggestionUrl)s\">Wal idagi</a>"
@@ -1397,16 +1422,19 @@ msgstr "Kcem"
 #~ msgid "Sync preferences"
 #~ msgstr "Ismenyifen n umtawi"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Tettnadiḍ Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Bdu dagi</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Ɛur-k amiḍan s yimayl nniḍen? <a href=\"%(signinUri)s\">Kcem</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "Firefox yella i <a href=\"%(linkWindows)s\">windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> akked <a href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox yella i <a href=\"%(linkWindows)s\">windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> akked <a href=\"%(linkLinux)s"
+#~ "\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Armud aneggaru: %(translatedTimeAgo)s"

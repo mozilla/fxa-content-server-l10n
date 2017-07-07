@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-23 16:09+0000\n"
+"POT-Creation-Date: 2017-07-07 16:08+0000\n"
 "PO-Revision-Date: 2017-06-25 13:57+0000\n"
 "Last-Translator: Joergen <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
@@ -91,7 +91,7 @@ msgstr "Kontoen findes allerede. <a href=\"/signin\">Log ind</a>"
 msgid "App link resent to %(phoneNumber)s"
 msgstr "Applink sendt til %(phoneNumber)s igen"
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
 msgstr "Adgangskode ændret korrekt"
 
@@ -127,11 +127,11 @@ msgstr "Abonnement startet"
 msgid "Unsubscribed successfully"
 msgstr "Abonnement stoppet"
 
-#: app/scripts/views/settings/delete_account.js:45
+#: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
 msgstr "Konto slettet korrekt"
 
-#: app/scripts/views/settings/display_name.js:66
+#: app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
 msgstr "Vis navn opdateret"
 
@@ -170,6 +170,38 @@ msgstr "Åbn Restmail"
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "Mail sendt igen"
+
+#: app/scripts/models/sync-engines.js:35
+msgid "Open tabs"
+msgstr "Åbne faneblade"
+
+#: app/scripts/models/sync-engines.js:40
+msgid "Bookmarks"
+msgstr "Bogmærker"
+
+#: app/scripts/models/sync-engines.js:45
+msgid "Add-ons"
+msgstr "Tilføjelser"
+
+#: app/scripts/models/sync-engines.js:50
+msgid "Passwords"
+msgstr "Adgangskoder"
+
+#: app/scripts/models/sync-engines.js:55
+msgid "History"
+msgstr "Historik"
+
+#: app/scripts/models/sync-engines.js:60
+msgid "Preferences"
+msgstr "Indstillinger"
+
+#: app/scripts/models/sync-engines.js:72
+msgid "Addresses"
+msgstr ""
+
+#: app/scripts/models/sync-engines.js:79
+msgid "Credit cards"
+msgstr ""
 
 #: app/scripts/models/reliers/sync.js:60
 msgid "Firefox Sync"
@@ -549,7 +581,9 @@ msgid "SMS not sent, please try again"
 msgstr "SMS blev ikke sendt. Prøv igen"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr "Fortsætter du, accepterer du <a id=\"service-tos\" href=\"%(termsUri)s\">vilkår</a> og <a id=\"service-pp\" href=\"%(privacyUri)s\">privatlivspolitik</a> for %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:30
@@ -604,9 +638,9 @@ msgstr "Kan ikke oprette en konto"
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr "Du skal opfylde visse alderskriterier for at oprette en Firefox-konto."
 
-#: app/scripts/templates/cannot_create_account.mustache:4
-msgid "Learn more."
-msgstr "Læs mere."
+#: app/scripts/templates/cannot_create_account.mustache:4 app/scripts/templates/cookies_disabled.mustache:3
+msgid "Learn more"
+msgstr "Læs mere"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s created"
@@ -616,35 +650,11 @@ msgstr "%(email)s oprettet"
 msgid "Choose what to sync"
 msgstr "Vælg, hvad der skal synkroniseres"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:3
-msgid "Open tabs"
-msgstr "Åbne faneblade"
-
 #: app/scripts/templates/choose_what_to_sync.mustache:5
-msgid "Bookmarks"
-msgstr "Bogmærker"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:7
-msgid "Add-ons"
-msgstr "Tilføjelser"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:9
-msgid "Passwords"
-msgstr "Adgangskoder"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:11
-msgid "History"
-msgstr "Historik"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:13
-msgid "Preferences"
-msgstr "Indstillinger"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
 msgstr "Gem indstillinger"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+#: app/scripts/templates/choose_what_to_sync.mustache:6 app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Tilbage"
 
@@ -657,8 +667,8 @@ msgid "The link you clicked to reset your password is expired."
 msgstr "Linket, du klikkede på for at nulstille din adgangskode, er udløbet."
 
 #: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Click here to receive a new reset link"
-msgstr "Klik her for at modtage et nyt link til nulstilling"
+msgid "Receive new link"
+msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -728,10 +738,10 @@ msgstr "Tjek din mail for bekræftelseslinket sendt&nbsp;til %(escapedEmail)s"
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 msgstr "Tjek din mail for det login-bekræfteleslink, der er sendt til %(email)s"
 
-#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
+#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:12 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
-msgid "Didn't arrive and not in spam folder? Resend"
-msgstr "Ikke ankommet og ikke i spam-mappen? Send igen"
+msgid "Not in inbox or spam folder? Resend"
+msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -741,7 +751,8 @@ msgstr "Mail til nulstilling sendt"
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
 msgstr "Klik på det link, vi har sendt til dig på %(email)s indenfor den næste time for at oprette en ny adgangskode."
 
-#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7
+#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7 app/scripts/templates/reset_password.mustache:10
+#: app/scripts/templates/reset_password.mustache:12
 msgid "Remember password? Sign in"
 msgstr "Kan du huske din adgangskode? Log ind"
 
@@ -786,16 +797,12 @@ msgid "Why is this required?"
 msgstr "Hvorfor er dette påkrævet?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required."
-msgstr "Cookies og lokalt lager er påkrævet."
+msgid "Cookies and local storage are required"
+msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
 msgstr "Du skal aktivere cookies og lokalt lager i din browser for at tilgå Firefox-konti. Dette vil aktivere funktioner som fx at huske dig mellem sessioner."
-
-#: app/scripts/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "Læs mere"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -915,10 +922,6 @@ msgstr "Mailadresse"
 msgid "Begin reset"
 msgstr "Start nulstilling"
 
-#: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
-msgid "Remember password? Sign in."
-msgstr "Kan du huske din adgangskode? Log ind."
-
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
 msgstr "Firefox-konti"
@@ -1027,8 +1030,8 @@ msgid "Install Firefox on your smartphone and sign in to complete set-up"
 msgstr "Installer Firefox på din smartphone og log ind for at færdiggøre opsætningen"
 
 #: app/scripts/templates/sms_sent.mustache:2
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr "Applink sendt til %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Fejlindtastet nummer?</a>"
+msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+msgstr ""
 
 #: app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1236,8 +1239,8 @@ msgid "Remove"
 msgstr "Fjern"
 
 #: app/scripts/templates/settings/emails.mustache:11
-msgid "Didn't arrive and not in spam folder? Resend?"
-msgstr "Ikke ankommet og ikke i spam-mappen? Send igen?"
+msgid "Not in inbox or spam folder? Resend?"
+msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:19
 msgid "Add"
@@ -1275,6 +1278,27 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr "Log ind"
 
+#~ msgid "Learn more."
+#~ msgstr "Læs mere."
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "Klik her for at modtage et nyt link til nulstilling"
+
+#~ msgid "Didn't arrive and not in spam folder? Resend"
+#~ msgstr "Ikke ankommet og ikke i spam-mappen? Send igen"
+
+#~ msgid "Cookies and local storage are required."
+#~ msgstr "Cookies og lokalt lager er påkrævet."
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "Kan du huske din adgangskode? Log ind."
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+#~ msgstr "Applink sendt til %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Fejlindtastet nummer?</a>"
+
+#~ msgid "Didn't arrive and not in spam folder? Resend?"
+#~ msgstr "Ikke ankommet og ikke i spam-mappen? Send igen?"
+
 #~ msgid "A verification link has been sent to %(email)s"
 #~ msgstr "Et bekræftelseslink er blevet sendt til %(email)s"
 
@@ -1297,18 +1321,18 @@ msgstr "Log ind"
 #~ msgstr "Hvorfor synkronisere to (eller flere) enheder?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Med Sync kan du dele bogmærker, historik og adgangskoder, du gemmer i Firefox på én enhed, med Firefox på andre enheder. Log ind på din Firefox-konto på din telefon eller tablet, og alt hvad du har "
-#~ "gemt på Firefox til computer vil dukke op."
+#~ "Med Sync kan du dele bogmærker, historik og adgangskoder, du gemmer i Firefox på én enhed, med Firefox på andre enheder. Log ind på din Firefox-konto på din telefon eller tablet, og alt hvad du "
+#~ "har gemt på Firefox til computer vil dukke op."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync er ikke beregnet som en permanent backup – funktionen deler blot, hvad der gemmes lokalt. Hvis du nulstiller din adgangskode, og dine data ikke er gemt på mindst én anden enhed, kan du miste "
-#~ "alle data, som er gemt med den gamle adgangskode."
+#~ "Sync er ikke beregnet som en permanent backup – funktionen deler blot, hvad der gemmes lokalt. Hvis du nulstiller din adgangskode, og dine data ikke er gemt på mindst én anden enhed, kan du "
+#~ "miste alle data, som er gemt med den gamle adgangskode."
 
 #~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
 #~ msgstr "Leder du efter Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Start her</a>"
@@ -1400,18 +1424,20 @@ msgstr "Log ind"
 #~ msgid "Sync preferences"
 #~ msgstr "Sync-indstillinger"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr "Leder du efter Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Kom i gang her</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr ""
+#~ "Leder du efter Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Kom i gang her</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Har du en konto med en anden mailadresse? <a href=\"%(signinUri)s\">Log ind</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox er tilgængelig til <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> og <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox er tilgængelig til <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> og <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Sidst aktiv: %(translatedTimeAgo)s"
@@ -1784,8 +1810,12 @@ msgstr "Log ind"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Har du allerede en konto? Log ind."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-#~ msgstr "Fortsætter du, accepterer du %(serviceName)s (%(serviceUri)s)s <a id=\"service-tos\" href=\"%(termsUri)s\">tjenestevilkår</a> og <a id=\"service-pp\" href=\"%(privacyUri)s\">privatlivspolitik</a>."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
+#~ msgstr ""
+#~ "Fortsætter du, accepterer du %(serviceName)s (%(serviceUri)s)s <a id=\"service-tos\" href=\"%(termsUri)s\">tjenestevilkår</a> og <a id=\"service-pp\" href=\"%(privacyUri)s\">privatlivspolitik</"
+#~ "a>."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr "Fortsætter du, accepterer du <a id=\"fxa-tos\" href=\"/legal/terms\">tjenestevilkår</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\">privatlivspolitik</a> for Firefox online-tjenester."

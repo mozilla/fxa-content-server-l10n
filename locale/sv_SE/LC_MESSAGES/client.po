@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-23 16:09+0000\n"
+"POT-Creation-Date: 2017-07-07 16:08+0000\n"
 "PO-Revision-Date: 2017-06-25 21:06+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
@@ -91,7 +91,7 @@ msgstr "Kontot finns redan. <a href=\"/signin\">Logga in</a>"
 msgid "App link resent to %(phoneNumber)s"
 msgstr "Applänk skickad åter till %(phoneNumber)s"
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
 msgstr "Lösenordet ändrades"
 
@@ -127,11 +127,11 @@ msgstr "Prenumeration startad"
 msgid "Unsubscribed successfully"
 msgstr "Prenumeration avslutad"
 
-#: app/scripts/views/settings/delete_account.js:45
+#: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
 msgstr "Kontot har tagits bort"
 
-#: app/scripts/views/settings/display_name.js:66
+#: app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
 msgstr "Visningsnamn uppdaterad"
 
@@ -170,6 +170,38 @@ msgstr "Öppna Restmail"
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "E-post har skickats"
+
+#: app/scripts/models/sync-engines.js:35
+msgid "Open tabs"
+msgstr "Öppna flikar"
+
+#: app/scripts/models/sync-engines.js:40
+msgid "Bookmarks"
+msgstr "Bokmärken"
+
+#: app/scripts/models/sync-engines.js:45
+msgid "Add-ons"
+msgstr "Tillägg"
+
+#: app/scripts/models/sync-engines.js:50
+msgid "Passwords"
+msgstr "Lösenord"
+
+#: app/scripts/models/sync-engines.js:55
+msgid "History"
+msgstr "Historik"
+
+#: app/scripts/models/sync-engines.js:60
+msgid "Preferences"
+msgstr "Inställningar"
+
+#: app/scripts/models/sync-engines.js:72
+msgid "Addresses"
+msgstr ""
+
+#: app/scripts/models/sync-engines.js:79
+msgid "Credit cards"
+msgstr ""
 
 #: app/scripts/models/reliers/sync.js:60
 msgid "Firefox Sync"
@@ -549,8 +581,12 @@ msgid "SMS not sent, please try again"
 msgstr "SMS kunde inte skickas, vänligen försök igen"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Genom att fortsätta godkänner du <a id=\"service-tos\" href=\"%(termsUri)s\">användarvillkoren</a> och <a id=\"service-pp\" href=\"%(privacyUri)s\">sekretesspolicy</a> för %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Genom att fortsätta godkänner du <a id=\"service-tos\" href=\"%(termsUri)s\">användarvillkoren</a> och <a id=\"service-pp\" href=\"%(privacyUri)s\">sekretesspolicy</a> för %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -604,9 +640,9 @@ msgstr "Kan inte skapa konto"
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr "Du måste uppfylla vissa ålderskrav för att få skapa ett Firefox-konto."
 
-#: app/scripts/templates/cannot_create_account.mustache:4
-msgid "Learn more."
-msgstr "Läs mer."
+#: app/scripts/templates/cannot_create_account.mustache:4 app/scripts/templates/cookies_disabled.mustache:3
+msgid "Learn more"
+msgstr "Läs mer"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s created"
@@ -616,35 +652,11 @@ msgstr "%(email)s skapade"
 msgid "Choose what to sync"
 msgstr "Välj vad som ska synkas"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:3
-msgid "Open tabs"
-msgstr "Öppna flikar"
-
 #: app/scripts/templates/choose_what_to_sync.mustache:5
-msgid "Bookmarks"
-msgstr "Bokmärken"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:7
-msgid "Add-ons"
-msgstr "Tillägg"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:9
-msgid "Passwords"
-msgstr "Lösenord"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:11
-msgid "History"
-msgstr "Historik"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:13
-msgid "Preferences"
-msgstr "Inställningar"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
 msgstr "Spara inställningar"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+#: app/scripts/templates/choose_what_to_sync.mustache:6 app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Bakåt"
 
@@ -657,8 +669,8 @@ msgid "The link you clicked to reset your password is expired."
 msgstr "Länken du klickade på för att återställa lösenordet har förfallit."
 
 #: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Click here to receive a new reset link"
-msgstr "Klicka här för att få en ny återställningslänk"
+msgid "Receive new link"
+msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -728,10 +740,10 @@ msgstr "Kontrollera din e-post efter den verifieringslänk som skickas till %(es
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 msgstr "Kontrollera din e-post efter bekräftelselänken för inloggning som skickats till %(email)s"
 
-#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
+#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:12 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
-msgid "Didn't arrive and not in spam folder? Resend"
-msgstr "Kom inte fram och inte i skräppostmappen? Skicka igen"
+msgid "Not in inbox or spam folder? Resend"
+msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -741,7 +753,8 @@ msgstr "Återställningsmejl skickat"
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
 msgstr "Klicka på länken som vi har skickat till dig på %(email)s inom den kommande timmen för att skapa ett nytt lösenord."
 
-#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7
+#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7 app/scripts/templates/reset_password.mustache:10
+#: app/scripts/templates/reset_password.mustache:12
 msgid "Remember password? Sign in"
 msgstr "Kom ihåg lösenord? Logga in"
 
@@ -786,16 +799,12 @@ msgid "Why is this required?"
 msgstr "Varför behövs detta?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required."
-msgstr "Kakor och lokal lagring krävs."
+msgid "Cookies and local storage are required"
+msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
 msgstr "Aktivera kakor och lokal lagring i din webbläsare för att komma åt Firefox-konton. Detta kommer att aktivera funktioner som att komma ihåg dig mellan sessioner."
-
-#: app/scripts/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "Läs mer"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -915,10 +924,6 @@ msgstr "E-post"
 msgid "Begin reset"
 msgstr "Starta återställ"
 
-#: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
-msgid "Remember password? Sign in."
-msgstr "Kom ihåg löseonord? Logga in."
-
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
 msgstr "Firefox-konton"
@@ -1026,8 +1031,8 @@ msgid "Install Firefox on your smartphone and sign in to complete set-up"
 msgstr "Installera Firefox på din smartphone och logga in för att slutföra konfigurationen"
 
 #: app/scripts/templates/sms_sent.mustache:2
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr "Applänk skickad till %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Felskrivet nummer?</a>"
+msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+msgstr ""
 
 #: app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1235,8 +1240,8 @@ msgid "Remove"
 msgstr "Ta bort"
 
 #: app/scripts/templates/settings/emails.mustache:11
-msgid "Didn't arrive and not in spam folder? Resend?"
-msgstr "Kom inte fram och inte i skräppostmappen? Skicka igen?"
+msgid "Not in inbox or spam folder? Resend?"
+msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:19
 msgid "Add"
@@ -1274,6 +1279,27 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr "Logga in"
 
+#~ msgid "Learn more."
+#~ msgstr "Läs mer."
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "Klicka här för att få en ny återställningslänk"
+
+#~ msgid "Didn't arrive and not in spam folder? Resend"
+#~ msgstr "Kom inte fram och inte i skräppostmappen? Skicka igen"
+
+#~ msgid "Cookies and local storage are required."
+#~ msgstr "Kakor och lokal lagring krävs."
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "Kom ihåg löseonord? Logga in."
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+#~ msgstr "Applänk skickad till %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Felskrivet nummer?</a>"
+
+#~ msgid "Didn't arrive and not in spam folder? Resend?"
+#~ msgstr "Kom inte fram och inte i skräppostmappen? Skicka igen?"
+
 #~ msgid "A verification link has been sent to %(email)s"
 #~ msgstr "En verifieringslänk har skickats till %(email)s"
 
@@ -1296,8 +1322,8 @@ msgstr "Logga in"
 #~ msgstr "Varför synkronisera två (eller fler) enheter?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
 #~ "Sync låter dig dela bokmärken, historik och lösenord som du sparar i Firefox på en enhet med Firefox på andra enheter. Logga in i Firefox på din telefon eller surfplatta och allt du har sparat i "
 #~ "Firefox på din dator visas."
@@ -1399,18 +1425,20 @@ msgstr "Logga in"
 #~ msgid "Sync preferences"
 #~ msgstr "Sync-inställningar"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr "Letar du efter Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Kom igång här</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr ""
+#~ "Letar du efter Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Kom igång här</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Har du ett konto med en annan e-post? <a href=\"%(signinUri)s\">Logga in</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox finns tillgänglig för <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> och <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox finns tillgänglig för <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> och <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Senast aktiv: %(translatedTimeAgo)s"
@@ -1640,7 +1668,8 @@ msgstr "Logga in"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Du måste aktivera kakor i webbläsaren som behövs för Firefox-konton. Kakor är små bitar av data som lagras i webbläsaren och som bland annat gör det möjligt att komma ihåg dig från gång till gång."
+#~ "Du måste aktivera kakor i webbläsaren som behövs för Firefox-konton. Kakor är små bitar av data som lagras i webbläsaren och som bland annat gör det möjligt att komma ihåg dig från gång till "
+#~ "gång."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox kommer snart till iOS!"
@@ -1786,7 +1815,9 @@ msgstr "Logga in"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Har du redan ett konto? Logga in."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
 #~ "Genom att fortsätta, godkänner jag <a id=\"service-tos\" href=\"%(termsUri)s\">användarvillkoren</a> och <a id=\"service-pp\" href=\"%(privacyUri)s\">sekretesspolicyn</a> för %(serviceName)s "
 #~ "(%(serviceUri)s)."

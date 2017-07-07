@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-23 16:09+0000\n"
+"POT-Creation-Date: 2017-07-07 16:08+0000\n"
 "PO-Revision-Date: 2017-06-24 12:12+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -92,7 +92,7 @@ msgstr "このアカウントは既に存在します。<a href=\"/signin\">ロ�
 msgid "App link resent to %(phoneNumber)s"
 msgstr "アプリのリンクを %(phoneNumber)s へ再送信しました"
 
-#: app/scripts/views/settings/change_password.js:52
+#: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
 msgstr "パスワードの変更が完了しました"
 
@@ -128,11 +128,11 @@ msgstr "購読を開始しました"
 msgid "Unsubscribed successfully"
 msgstr "購読を解除しました"
 
-#: app/scripts/views/settings/delete_account.js:45
+#: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
 msgstr "アカウントの削除が完了しました"
 
-#: app/scripts/views/settings/display_name.js:66
+#: app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
 msgstr "表示名が更新されました"
 
@@ -171,6 +171,38 @@ msgstr "Restmail を開く"
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "メールが再送されました"
+
+#: app/scripts/models/sync-engines.js:35
+msgid "Open tabs"
+msgstr "タブを開く"
+
+#: app/scripts/models/sync-engines.js:40
+msgid "Bookmarks"
+msgstr "ブックマーク"
+
+#: app/scripts/models/sync-engines.js:45
+msgid "Add-ons"
+msgstr "アドオン"
+
+#: app/scripts/models/sync-engines.js:50
+msgid "Passwords"
+msgstr "パスワード"
+
+#: app/scripts/models/sync-engines.js:55
+msgid "History"
+msgstr "履歴"
+
+#: app/scripts/models/sync-engines.js:60
+msgid "Preferences"
+msgstr "設定"
+
+#: app/scripts/models/sync-engines.js:72
+msgid "Addresses"
+msgstr ""
+
+#: app/scripts/models/sync-engines.js:79
+msgid "Credit cards"
+msgstr ""
 
 #: app/scripts/models/reliers/sync.js:60
 msgid "Firefox Sync"
@@ -550,8 +582,12 @@ msgid "SMS not sent, please try again"
 msgstr "SMS は送信されませんでした。もう一度試してください"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "続けることで、%(serviceName)s (%(serviceUri)s) の <a id=\"service-tos\" href=\"%(termsUri)s\">利用規約</a> と <a id=\"service-pp\" href=\"%(privacyUri)s\">プライバシー通知</a> に同意したものとみなされます。"
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"続けることで、%(serviceName)s (%(serviceUri)s) の <a id=\"service-tos\" href=\"%(termsUri)s\">利用規約</a> と <a id=\"service-pp\" href=\"%(privacyUri)s\">プライバシー通知</a> に同意したものとみなさ"
+"れます。"
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -605,9 +641,10 @@ msgstr "アカウントを作成できません"
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr "Firefox&nbsp;Account を作成するには、規定の年齢に達している必要があります。"
 
-#: app/scripts/templates/cannot_create_account.mustache:4
-msgid "Learn more."
-msgstr "詳細を確認。"
+# リンク先などは未確認だが多分 Cookie の説明？
+#: app/scripts/templates/cannot_create_account.mustache:4 app/scripts/templates/cookies_disabled.mustache:3
+msgid "Learn more"
+msgstr "詳細を確認"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s created"
@@ -618,35 +655,11 @@ msgstr "%(email)s が作成されました"
 msgid "Choose what to sync"
 msgstr "同期するデータを選択する"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:3
-msgid "Open tabs"
-msgstr "タブを開く"
-
 #: app/scripts/templates/choose_what_to_sync.mustache:5
-msgid "Bookmarks"
-msgstr "ブックマーク"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:7
-msgid "Add-ons"
-msgstr "アドオン"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:9
-msgid "Passwords"
-msgstr "パスワード"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:11
-msgid "History"
-msgstr "履歴"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:13
-msgid "Preferences"
-msgstr "設定"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:15
 msgid "Save settings"
 msgstr "設定を保存"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+#: app/scripts/templates/choose_what_to_sync.mustache:6 app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "戻る"
 
@@ -659,8 +672,8 @@ msgid "The link you clicked to reset your password is expired."
 msgstr "パスワードをリセットするリンクの有効期限が過ぎています。"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Click here to receive a new reset link"
-msgstr "クリックするとパスワードをリセットするリンクを再発行できます"
+msgid "Receive new link"
+msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -730,10 +743,10 @@ msgstr "確認リンクを %(escapedEmail)s 宛にお送りしましたので、
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 msgstr "ログイン確認リンクを %(email)s 宛にお送りしましたので、メールをチェックしてください。"
 
-#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
+#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:12 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
-msgid "Didn't arrive and not in spam folder? Resend"
-msgstr "未着で迷惑メールフォルダにも見当たりませんか？ 再送信"
+msgid "Not in inbox or spam folder? Resend"
+msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -743,7 +756,8 @@ msgstr "リセット用のメールが送信されました"
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
 msgstr "1 時間以内に %(email)s 宛にメールでお送りしたリンクをクリックして、新しいパスワードを作成してください。"
 
-#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7
+#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7 app/scripts/templates/reset_password.mustache:10
+#: app/scripts/templates/reset_password.mustache:12
 msgid "Remember password? Sign in"
 msgstr "パスワードを覚えていますか？ ログイン"
 
@@ -788,17 +802,13 @@ msgid "Why is this required?"
 msgstr "なぜこれが必要なのでしょうか？"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required."
-msgstr "Cookie とローカルストレージが必要です。"
+msgid "Cookies and local storage are required"
+msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Firefox アカウントへアクセスするには、お使いのブラウザーの Cookie とローカルストレージを有効にしてください。それによってセッションをまたいだログイン情報の記憶などの機能が使えるようになります。"
-
-# リンク先などは未確認だが多分 Cookie の説明？
-#: app/scripts/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "詳細を確認"
+msgstr ""
+"Firefox アカウントへアクセスするには、お使いのブラウザーの Cookie とローカルストレージを有効にしてください。それによってセッションをまたいだログイン情報の記憶などの機能が使えるようになります。"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -919,10 +929,6 @@ msgstr "メールアドレス"
 msgid "Begin reset"
 msgstr "リセットを開始"
 
-#: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
-msgid "Remember password? Sign in."
-msgstr "パスワードを覚えている場合はログインしてください。"
-
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
 msgstr "Firefox アカウント"
@@ -1030,8 +1036,8 @@ msgid "Install Firefox on your smartphone and sign in to complete set-up"
 msgstr "お使いのスマートフォンに Firefox をインストールし、ログインして設定を完了しましょう"
 
 #: app/scripts/templates/sms_sent.mustache:2
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr "アプリのリンクを %(escapedPhoneNumber)s へ送信しました。<a %(escapedBackLinkAttrs)s>番号を間違えた場合</a>"
+msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+msgstr ""
 
 #: app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1239,8 +1245,8 @@ msgid "Remove"
 msgstr "削除"
 
 #: app/scripts/templates/settings/emails.mustache:11
-msgid "Didn't arrive and not in spam folder? Resend?"
-msgstr "未着で迷惑メールフォルダーにもありませんか？ 再送信しますか？"
+msgid "Not in inbox or spam folder? Resend?"
+msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:19
 msgid "Add"
@@ -1278,6 +1284,27 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr "ログイン"
 
+#~ msgid "Learn more."
+#~ msgstr "詳細を確認。"
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "クリックするとパスワードをリセットするリンクを再発行できます"
+
+#~ msgid "Didn't arrive and not in spam folder? Resend"
+#~ msgstr "未着で迷惑メールフォルダにも見当たりませんか？ 再送信"
+
+#~ msgid "Cookies and local storage are required."
+#~ msgstr "Cookie とローカルストレージが必要です。"
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "パスワードを覚えている場合はログインしてください。"
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+#~ msgstr "アプリのリンクを %(escapedPhoneNumber)s へ送信しました。<a %(escapedBackLinkAttrs)s>番号を間違えた場合</a>"
+
+#~ msgid "Didn't arrive and not in spam folder? Resend?"
+#~ msgstr "未着で迷惑メールフォルダーにもありませんか？ 再送信しますか？"
+
 #~ msgid "A verification link has been sent to %(email)s"
 #~ msgstr "%(email)s に確認用リンクをお送りしました"
 
@@ -1300,14 +1327,18 @@ msgstr "ログイン"
 #~ msgstr "2 つ (あるいはそれ以上) の端末を同期する理由"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
-#~ msgstr "Sync を使えば、ひとつの端末上の Firefox に保存したブックマーク、履歴、パスワードを、他の端末上の Firefox と同期できます。お使いの携帯電話やタブレットで Firefox にログインすれば、デスクトップ版 Firefox に保存した情報が表示されます。"
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
+#~ msgstr ""
+#~ "Sync を使えば、ひとつの端末上の Firefox に保存したブックマーク、履歴、パスワードを、他の端末上の Firefox と同期できます。お使いの携帯電話やタブレットで Firefox にログインすれば、デスクトップ版 "
+#~ "Firefox に保存した情報が表示されます。"
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
-#~ msgstr "Sync は永続的バックアップとしては設計されておらず、ローカルに保存された情報を共有するためのサービスに過ぎません。パスワードをリセットし、他の少なくともひとつの端末上にデータが保存されていない場合、古いパスワードに関連付けられたすべての情報が失われる可能性があります。それが、複数の端末上で Firefox をインストールし Sync を使うことをお勧めする理由です。"
+#~ msgstr ""
+#~ "Sync は永続的バックアップとしては設計されておらず、ローカルに保存された情報を共有するためのサービスに過ぎません。パスワードをリセットし、他の少なくともひとつの端末上にデータが保存されていない場"
+#~ "合、古いパスワードに関連付けられたすべての情報が失われる可能性があります。それが、複数の端末上で Firefox をインストールし Sync を使うことをお勧めする理由です。"
 
 #~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
 #~ msgstr "Firefox Sync をお探しですか？ <a href=\"%(escapedSyncSuggestionUrl)s\">こちらをご覧ください</a>"
@@ -1320,7 +1351,8 @@ msgstr "ログイン"
 
 #~ msgid ""
 #~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-#~ msgstr "SMS サービスは米国の電話番号のみ使用可能です。SMS およびデータ料金が適用される場合があります。メールあるいは SMS の受取人が同意している必要があります。<a %(escapedLearnMoreAttributes)s>詳細</a>"
+#~ msgstr ""
+#~ "SMS サービスは米国の電話番号のみ使用可能です。SMS およびデータ料金が適用される場合があります。メールあるいは SMS の受取人が同意している必要があります。<a %(escapedLearnMoreAttributes)s>詳細</a>"
 
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> による提供"
@@ -1397,16 +1429,21 @@ msgstr "ログイン"
 #~ msgid "Sync preferences"
 #~ msgstr "Sync 設定"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr "Firefox Sync をお探しですか？ <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">こちらを参照してください</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr ""
+#~ "Firefox Sync をお探しですか？ <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">こちらを参照してくだ"
+#~ "さい</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "別のメールアドレスでアカウントをお持ちですか？ <a href=\"%(signinUri)s\">ログイン</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "Firefox は、<a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> および <a href=\"%(linkLinux)s\">Linux</a> に対応しています。"
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox は、<a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> および <a href=\"%(linkLinux)s"
+#~ "\">Linux</a> に対応しています。"
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "最終アクティブ日時: %(translatedTimeAgo)s"
@@ -1577,7 +1614,9 @@ msgstr "ログイン"
 #~ msgstr "本当にアカウントのパスワードをリセットしますか？"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
-#~ msgstr "パスワードをリセットすると、Mozilla のサーバからブラウジングデータが消去されます。お使いの端末上のデータはすべてそのまま残ります。リセット手続きを始めるにはまず以下にメールアドレスを入力してください。"
+#~ msgstr ""
+#~ "パスワードをリセットすると、Mozilla のサーバからブラウジングデータが消去されます。お使いの端末上のデータはすべてそのまま残ります。リセット手続きを始めるにはまず以下にメールアドレスを入力してくだ"
+#~ "さい。"
 
 #~ msgid "a day"
 #~ msgstr "1 日"
