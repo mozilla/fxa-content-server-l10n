@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-07 16:08+0000\n"
-"PO-Revision-Date: 2017-07-08 03:36+0000\n"
+"PO-Revision-Date: 2017-07-08 08:09+0000\n"
 "Last-Translator: Rok Žerdin <rok.zerdin1990@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -739,7 +739,7 @@ msgstr "Med svojo e-pošto poiščite povezavo za potrditev prijave, poslano na 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:12 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
-msgstr ""
+msgstr "Ni med prejeto ali vsiljeno pošto? Pošlji ponovno"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -1238,7 +1238,7 @@ msgstr "Odstrani"
 
 #: app/scripts/templates/settings/emails.mustache:11
 msgid "Not in inbox or spam folder? Resend?"
-msgstr ""
+msgstr "Ni med prejeto ali vsiljeno pošto? Pošlji ponovno?"
 
 #: app/scripts/templates/settings/emails.mustache:19
 msgid "Add"
