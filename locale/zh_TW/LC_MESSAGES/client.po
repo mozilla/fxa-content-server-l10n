@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-07 16:08+0000\n"
-"PO-Revision-Date: 2017-07-08 13:24+0000\n"
+"PO-Revision-Date: 2017-07-08 13:40+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -1027,7 +1027,7 @@ msgstr "到您的智慧型手機上安裝 Firefox 並登入以完成設定"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "已將程式下載鏈結傳送到 %(escapedPhoneNumber)s。<a %(escapedBackLinkAttrs)s>打錯號碼了？</a>"
 
 #: app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1236,7 +1236,7 @@ msgstr "移除"
 
 #: app/scripts/templates/settings/emails.mustache:11
 msgid "Not in inbox or spam folder? Resend?"
-msgstr ""
+msgstr "沒在收件匣或垃圾信件匣中找到嗎？點此重送"
 
 #: app/scripts/templates/settings/emails.mustache:19
 msgid "Add"
