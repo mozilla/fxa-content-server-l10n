@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-07 16:08+0000\n"
-"PO-Revision-Date: 2017-07-08 20:10+0000\n"
+"PO-Revision-Date: 2017-07-08 20:13+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -800,7 +800,7 @@ msgstr "Чому це обов'язково?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr ""
+msgstr "Необхідна підтримка куків і локального сховища"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
@@ -1033,7 +1033,7 @@ msgstr "Встановіть Firefox на свій смартфон та уві�
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Посилання на програму надіслано на %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Неправильний&nbsp;номер?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1242,7 +1242,7 @@ msgstr "Вилучити"
 
 #: app/scripts/templates/settings/emails.mustache:11
 msgid "Not in inbox or spam folder? Resend?"
-msgstr ""
+msgstr "Немає у вхідних чи у спамі? Надіслати ще раз?"
 
 #: app/scripts/templates/settings/emails.mustache:19
 msgid "Add"
