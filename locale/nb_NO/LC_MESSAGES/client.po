@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-07 16:08+0000\n"
-"PO-Revision-Date: 2017-06-25 15:13+0000\n"
+"PO-Revision-Date: 2017-07-08 14:01+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -197,11 +197,11 @@ msgstr "Innstillinger"
 
 #: app/scripts/models/sync-engines.js:72
 msgid "Addresses"
-msgstr ""
+msgstr "Adresser"
 
 #: app/scripts/models/sync-engines.js:79
 msgid "Credit cards"
-msgstr ""
+msgstr "Kredittkort"
 
 #: app/scripts/models/reliers/sync.js:60
 msgid "Firefox Sync"
@@ -583,9 +583,7 @@ msgid "SMS not sent, please try again"
 msgstr "SMS ikke sendt, prøv igjen"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Ved å fortsette, aksepterer du <a id=\"service-tos\" href=\"%(termsUri)s\">tjenestevilkårene</a> og <a id=\"service-pp\" href=\"%(privacyUri)s\">personvernsbestemmelser</a> for %(serviceName)s "
 "(%(serviceUri)s)."
@@ -672,7 +670,7 @@ msgstr "Linken du klikket på for å tilbakestille passordet ditt er utløpt."
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
-msgstr ""
+msgstr "Motta ny lenke"
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -745,7 +743,7 @@ msgstr "Sjekk din e-posten for påloggingsbekreftelseslenken som er sendt til %(
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:12 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
-msgstr ""
+msgstr "Ikke i innboks eller mappen for uønsket e-post («spam»)? Send på nytt"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -802,7 +800,7 @@ msgstr "Hvorfor er dette påkrevd?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr ""
+msgstr "Infokapsler og lokal lagring er påkrevd"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
@@ -1034,7 +1032,7 @@ msgstr "Installer Firefox på smarttelefonen din og logg inn for å fullføre op
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "App-lenke sent til %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Feiltastet&nbsp;nummer?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1243,7 +1241,7 @@ msgstr "Fjern"
 
 #: app/scripts/templates/settings/emails.mustache:11
 msgid "Not in inbox or spam folder? Resend?"
-msgstr ""
+msgstr "Ikke i innboks eller mappen for uønsket e-post («spam»)? Send på nytt?"
 
 #: app/scripts/templates/settings/emails.mustache:19
 msgid "Add"
@@ -1324,18 +1322,18 @@ msgstr "Logg inn"
 #~ msgstr "Hvorfor synkronisere to (eller flere!) enheter?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Med Sync kan du dele bokmerker, historikk og passord, du lagrer i Firefox på én enhet, med Firefox på andre enheter. Logg inn på Firefox på din telefon eller nettbrett, og alt hva du har lagret "
-#~ "på Firefox for PC vil dukke opp."
+#~ "Med Sync kan du dele bokmerker, historikk og passord, du lagrer i Firefox på én enhet, med Firefox på andre enheter. Logg inn på Firefox på din telefon eller nettbrett, og alt hva du har lagret på "
+#~ "Firefox for PC vil dukke opp."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync er ikke beregnet som en permanent backup – tjenesten deler kun hva som lagres lokalt. Hvis du nullstiller ditt passord, og dine data ikke er lagret på minst én annen enhet, kan du miste "
-#~ "alle data, som er lagret med ditt gamle passord."
+#~ "Sync er ikke beregnet som en permanent backup – tjenesten deler kun hva som lagres lokalt. Hvis du nullstiller ditt passord, og dine data ikke er lagret på minst én annen enhet, kan du miste alle "
+#~ "data, som er lagret med ditt gamle passord."
 
 #~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
 #~ msgstr "Ser du etter Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Kom i gang her</a>"
@@ -1425,8 +1423,8 @@ msgstr "Logg inn"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "For å bruke Firefox-konti må du aktiver informasjonskapsler i nettleseren din. Informasjonskapsler er små biter av data som er lagret i nettleseren din, som gir funksjonalitet som å huske deg "
-#~ "mellom øktene."
+#~ "For å bruke Firefox-konti må du aktiver informasjonskapsler i nettleseren din. Informasjonskapsler er små biter av data som er lagret i nettleseren din, som gir funksjonalitet som å huske deg mellom"
+#~ " øktene."
 
 #~ msgid "1991"
 #~ msgstr "1991"
