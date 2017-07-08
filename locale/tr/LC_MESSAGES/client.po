@@ -668,7 +668,7 @@ msgstr "Parolanızı sıfırlamak için tıkladığınız link zaman aşımına 
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
-msgstr ""
+msgstr "Yeni bağlantı iste"
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
