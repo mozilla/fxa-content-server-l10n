@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-07 16:08+0000\n"
-"PO-Revision-Date: 2017-06-24 13:13+0000\n"
+"PO-Revision-Date: 2017-07-09 10:30+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -196,11 +196,11 @@ msgstr "პარამეტრები"
 
 #: app/scripts/models/sync-engines.js:72
 msgid "Addresses"
-msgstr ""
+msgstr "მისამართები"
 
 #: app/scripts/models/sync-engines.js:79
 msgid "Credit cards"
-msgstr ""
+msgstr "საკრედიტო ბარათები"
 
 #: app/scripts/models/reliers/sync.js:60
 msgid "Firefox Sync"
@@ -580,12 +580,10 @@ msgid "SMS not sent, please try again"
 msgstr "SMS არ გაიგზავნა, გთხოვთ სცადოთ მოგვიანებით"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"გაგრძელების შემთხვევაში, თქვენ ეთანხმებით %(serviceName)s (%(serviceUri)s)-ის <a id=\"service-tos\" href=\"%(termsUri)s\">გამოყენების პირობებს</a> და <a id=\"service-pp\" href=\"%(privacyUri)s"
-"\">პირადი მონაცემების დებულებას</a>."
+"გაგრძელების შემთხვევაში, თქვენ ეთანხმებით %(serviceName)s (%(serviceUri)s)-ის <a id=\"service-tos\" href=\"%(termsUri)s\">გამოყენების პირობებს</a> და <a id=\"service-pp\" "
+"href=\"%(privacyUri)s\">პირადი მონაცემების დებულებას</a>."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -669,7 +667,7 @@ msgstr "პაროლის აღსადგენი ბმული, რ�
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
-msgstr ""
+msgstr "ახალი ბმულის მიღება"
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -742,7 +740,7 @@ msgstr "შეამოწმეთ თქვენი ელ-ფოსტა %(
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:12 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
-msgstr ""
+msgstr "არაა მიღებულებში და არც სპამებში? ხელახლა გაგზავნა"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -799,7 +797,7 @@ msgstr "რატომაა ეს აუცილებელი?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr ""
+msgstr "ჩართული უნდა იყოს ფუნთუშების და ჩანაწერების შენახვის შესაძლებლობა."
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
@@ -1034,7 +1032,7 @@ msgstr "დააყენეთ Firefox თქვენს მობილუ�
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "პროგრამის ბმული გამოგზავნილია ნომერზე %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>ნომერი არასწორადაა აკრეფილი?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1042,7 +1040,7 @@ msgstr "თუ ვერ ახერხებთ ტექსტური შ�
 
 #: app/scripts/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
-msgstr "არ მოსულა? ხელახლა გაგზავნა"
+msgstr "არ მიგიღიათ? ხელახლა გაგზავნა"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1243,7 +1241,7 @@ msgstr "წაშლა"
 
 #: app/scripts/templates/settings/emails.mustache:11
 msgid "Not in inbox or spam folder? Resend?"
-msgstr ""
+msgstr "არაა მიღებულებში და არც სპამებში? ხელახლა გაგზავნა"
 
 #: app/scripts/templates/settings/emails.mustache:19
 msgid "Add"
@@ -1321,8 +1319,8 @@ msgstr "შესვლა"
 #~ msgstr "რატომ უნდა დასინქრონდეს ორი (ან მეტი) მოწყობილობა?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
 #~ "სინქრონიზაცია საშუალებას გაძლევთ ერთ მოწყობილობაზე არსებული Firefox-ის სანიშნეები, ისტორია, პაროლები და ა.შ. გააზიაროთ სხვა მოწყობილობებზე დაყენებულ Firefox-ზეც. შედით ტელეფონიდან ან პალნშეტიდან "
 #~ "Firefox ანგარიშზე და ყველაფერი გამოჩნდება, რაც სახლის კომპიუტერზე გაქვთ შენახული Firefox-ში."
@@ -1331,8 +1329,8 @@ msgstr "შესვლა"
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "სინქრონიზაცია არაა განკუთვნილი მუდმივი დამარქაფებისთვის – ის უბრალოდ არსებულ მონაცემებს აზიარებს. თუ პაროლის განულებისას, მონაცემები ერთ მოწყობილობაზე მაინც არ იქნება შენახული, ძველ პაროლთან "
-#~ "ერთად, შეიძლება ყველაფერი დაკარგოთ. სწორედ ამიტომაა საჭირო Firefox-ის ორ ან მეტ მოწყობილობაზე დაყენება სინქრონიზაციის გამოსაყენებლად."
+#~ "სინქრონიზაცია არაა განკუთვნილი მუდმივი დამარქაფებისთვის – ის უბრალოდ არსებულ მონაცემებს აზიარებს. თუ პაროლის განულებისას, მონაცემები ერთ მოწყობილობაზე მაინც არ იქნება შენახული, ძველ პაროლთან ერთად, "
+#~ "შეიძლება ყველაფერი დაკარგოთ. სწორედ ამიტომაა საჭირო Firefox-ის ორ ან მეტ მოწყობილობაზე დაყენება სინქრონიზაციის გამოსაყენებლად."
 
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "<a href=\"https://www.gravatar.com\">Gravatar-ის</a> თავაზიანობის წყალობით"
@@ -1389,11 +1387,11 @@ msgstr "შესვლა"
 #~ msgstr "სხვა ელ-ფოსტაზე გაქვთ ანგარიში? <a href=\"%(signinUri)s\">შესვლა</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox ხელმისავდომია <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> და <a href="
-#~ "\"%(linkLinux)s\">Linux</a> სისტემებზე."
+#~ "Firefox ხელმისავდომია <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> და <a "
+#~ "href=\"%(linkLinux)s\">Linux</a> სისტემებზე."
 
 #~ msgid "Delete"
 #~ msgstr "წაშლა"
