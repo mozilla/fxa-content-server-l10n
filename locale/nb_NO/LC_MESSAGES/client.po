@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-07 16:08+0000\n"
-"PO-Revision-Date: 2017-07-08 14:01+0000\n"
+"PO-Revision-Date: 2017-07-09 14:29+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -1032,7 +1032,7 @@ msgstr "Installer Firefox på smarttelefonen din og logg inn for å fullføre op
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "App-lenke sent til %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Feiltastet&nbsp;nummer?</a>"
+msgstr "App-lenke sendt til %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Feiltastet&nbsp;nummer?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1241,7 +1241,7 @@ msgstr "Fjern"
 
 #: app/scripts/templates/settings/emails.mustache:11
 msgid "Not in inbox or spam folder? Resend?"
-msgstr "Ikke i innboks eller mappen for uønsket e-post («spam»)? Send på nytt?"
+msgstr "Ikke i innboks eller mappen for uønsket e-post («spam»)? Sende på nytt?"
 
 #: app/scripts/templates/settings/emails.mustache:19
 msgid "Add"
