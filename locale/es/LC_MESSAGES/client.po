@@ -1033,7 +1033,7 @@ msgstr "Instala Firefox en tu teléfono móvil e inicia sesión para completar l
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "Enlace de la aplicación enviado a %(escapedPhoneNumber)s. <a%(escapedBackLinkAttrs)s>¿Número&nbsp;equivocado?</a>"
+msgstr "Enlace de la aplicación enviado a %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>¿Número&nbsp;equivocado?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
