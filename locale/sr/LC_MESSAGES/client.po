@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-07 16:08+0000\n"
-"PO-Revision-Date: 2017-07-11 09:30+0000\n"
+"PO-Revision-Date: 2017-07-11 09:31+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -1239,7 +1239,7 @@ msgstr "Уклони"
 
 #: app/scripts/templates/settings/emails.mustache:11
 msgid "Not in inbox or spam folder? Resend?"
-msgstr ""
+msgstr "Није у сандучету или у нежељеној пошти? Послати поново?"
 
 #: app/scripts/templates/settings/emails.mustache:19
 msgid "Add"
