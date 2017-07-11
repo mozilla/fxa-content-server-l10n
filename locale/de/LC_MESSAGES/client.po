@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-07 16:08+0000\n"
-"PO-Revision-Date: 2017-07-11 19:36+0000\n"
+"PO-Revision-Date: 2017-07-11 20:03+0000\n"
 "Last-Translator: paul.trevor <paul.trevor@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -1050,12 +1050,12 @@ msgstr "Warum mehrere Geräte synchronisieren?"
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
 msgstr ""
-"Der Sync-Dienst dient nicht der dauerhaften Datensicherung sondern stellt nur eine sichere Möglichkeit dar, gespeicherte Lesezeichen, Chronik und Passwörter zwischen Ihren Geräten zu übertragen."
+"Der Sync-Dienst dient nicht der dauerhaften Datensicherung, sondern stellt nur eine sichere Möglichkeit dar, gespeicherte Lesezeichen, Chronik und Passwörter zwischen Ihren Geräten zu übertragen."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr ""
-"Sie sollten Firefox installieren und mindestens zwei Geräte synchronisieren, um sich vor Datenverlust in dem Fall zu schützen, dass Sie sie wiederherstellen müssen, aber Ihr Passwort vergessen "
+"Sie sollten Firefox installieren und mindestens zwei Geräte synchronisieren, um sich vor Datenverlust in dem Fall zu schützen, dass Sie Daten wiederherstellen müssen, aber Ihr Passwort vergessen "
 "haben."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
@@ -1065,11 +1065,11 @@ msgstr "Verstanden"
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2 app/scripts/templates/settings/emails.mustache:3
 msgid "Change…"
-msgstr "Ändern…"
+msgstr "Ändern …"
 
 #: app/scripts/templates/settings/avatar.mustache:4 app/scripts/templates/settings/display_name.mustache:4 app/scripts/templates/settings/emails.mustache:5
 msgid "Add…"
-msgstr "Hinzufügen…"
+msgstr "Hinzufügen …"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -1157,7 +1157,7 @@ msgstr "aktuelles Gerät"
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
-msgstr "Trennen…"
+msgstr "Trennen …"
 
 #: app/scripts/templates/settings/clients.mustache:11
 msgid "current session"
@@ -1213,7 +1213,7 @@ msgstr "Konto löschen"
 
 #: app/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete…"
-msgstr "Löschen…"
+msgstr "Löschen …"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
