@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-07 16:08+0000\n"
-"PO-Revision-Date: 2017-07-10 15:27+0000\n"
-"Last-Translator: Slimane Amiri <slimane.amiri@gmail.com>\n"
+"PO-Revision-Date: 2017-07-12 18:53+0000\n"
+"Last-Translator: Moḥend Belqasem <belkacem77@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
 "MIME-Version: 1.0\n"
@@ -200,7 +200,7 @@ msgstr "Tansiwin"
 
 #: app/scripts/models/sync-engines.js:79
 msgid "Credit cards"
-msgstr ""
+msgstr "Tikarḍiwin n usmad"
 
 #: app/scripts/models/reliers/sync.js:60
 msgid "Firefox Sync"
