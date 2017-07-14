@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-07 16:08+0000\n"
-"PO-Revision-Date: 2017-07-14 16:31+0000\n"
+"PO-Revision-Date: 2017-07-14 16:32+0000\n"
 "Last-Translator: Marcelo Poli <enzomatrix@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -1033,7 +1033,7 @@ msgstr "Instalá Firefox en tu smartphone e ingresá para completar la configura
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Enlace de aplicación enviado a %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>¿Número&nbsp;mal&nbsp;escrito?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1242,7 +1242,7 @@ msgstr "Eliminar"
 
 #: app/scripts/templates/settings/emails.mustache:11
 msgid "Not in inbox or spam folder? Resend?"
-msgstr ""
+msgstr "¿No está en la bandeja de entrada o correo basura? ¿Reenviar?"
 
 #: app/scripts/templates/settings/emails.mustache:19
 msgid "Add"
