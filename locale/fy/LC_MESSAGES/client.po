@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-07 16:08+0000\n"
-"PO-Revision-Date: 2017-06-27 11:09+0000\n"
+"POT-Creation-Date: 2017-07-14 16:10+0000\n"
+"PO-Revision-Date: 2017-07-09 17:22+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -103,19 +103,23 @@ msgstr "Wy fine it spitich om dit te hearen. Jo moatte jo wachtwurd foar Firefox
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Wy fine it spitich om dit te hearen. As dit in apparaat wie dat jo echt net fertrouwe, dan moatte jo it wachtwurd foar Firefox Account wizigje, en elk wachtwurd bewarre yn Firefox wizigje."
 
-#: app/scripts/views/settings/clients.js:63
+#: app/scripts/views/settings/clients.js:64
 msgid "Web Session, %(userAgent)s"
 msgstr "Websesje, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:65
+#: app/scripts/views/settings/clients.js:66 app/scripts/lib/strings.js:43
+msgid "Web Session"
+msgstr "Websesje"
+
+#: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:70
+#: app/scripts/views/settings/clients.js:74
 msgid "started syncing %(translatedTimeAgo)s"
 msgstr "syngronisaasje start: %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:75
+#: app/scripts/views/settings/clients.js:79
 msgid "last active %(translatedTimeAgo)s"
 msgstr "lêst aktyf: %(translatedTimeAgo)s"
 
@@ -135,7 +139,7 @@ msgstr "Account mei sukses fuortsmiten"
 msgid "Display name updated"
 msgstr "Werjeftenamme bywurke"
 
-#: app/scripts/views/settings/emails.js:136 app/scripts/views/settings/emails.js:149
+#: app/scripts/views/settings/emails.js:125 app/scripts/views/settings/emails.js:138
 msgid "Verification email sent"
 msgstr "Ferifikaasje-e-mail ferstjoerd"
 
@@ -197,11 +201,11 @@ msgstr "Foarkarren"
 
 #: app/scripts/models/sync-engines.js:72
 msgid "Addresses"
-msgstr ""
+msgstr "Adressen"
 
 #: app/scripts/models/sync-engines.js:79
 msgid "Credit cards"
-msgstr ""
+msgstr "Creditcards"
 
 #: app/scripts/models/reliers/sync.js:60
 msgid "Firefox Sync"
@@ -612,10 +616,6 @@ msgstr "IP-adres: %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Befêstigje foar ekstra befeiliging dizze oanmelding om mei it syngronisearjen mei dit apparaat te begjinnen:"
 
-#: app/scripts/lib/strings.js:43
-msgid "Web Session"
-msgstr "Websesje"
-
 #: app/scripts/lib/strings.js:49
 msgid "Sign in"
 msgstr "Oanmelde"
@@ -645,8 +645,8 @@ msgid "Learn more"
 msgstr "Mear ynfo"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-msgid "%(email)s created"
-msgstr "%(email)s makke"
+msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
+msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
@@ -655,10 +655,6 @@ msgstr "Kies wat jo syngronisearje wolle"
 #: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Save settings"
 msgstr "Ynstellingen bewarje"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:6 app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
-msgid "Back"
-msgstr "Tebek"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -670,7 +666,7 @@ msgstr "De keppeling wêrop jo klikt hawwe foar it opnij ynstellen fan jo wachtw
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
-msgstr ""
+msgstr "Nije keppeling ûntfange"
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -743,7 +739,11 @@ msgstr "Kontrolearje jo e-mail op de befêstigingskeppeling foar oanmelding dy't
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:12 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
-msgstr ""
+msgstr "Net yn Postfek YN of map mei net-winske? Opnij ferstjoere"
+
+#: app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+msgid "Back"
+msgstr "Tebek"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -800,7 +800,7 @@ msgstr "Wêrom is dit fereaske?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr ""
+msgstr "Cookies en lokale opslach binne fereaske"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
@@ -1035,7 +1035,7 @@ msgstr "Ynstallearje Firefox op jo snoadfoan en meld jo oan om it ynstellen te f
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "App-keppeling ferstjoerd nei %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Typflater yn&nbsp;nûmer?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1244,7 +1244,7 @@ msgstr "Fuortsmite"
 
 #: app/scripts/templates/settings/emails.mustache:11
 msgid "Not in inbox or spam folder? Resend?"
-msgstr ""
+msgstr "Net yn Postfek YN of map mei net-winske? Opnij ferstjoere?"
 
 #: app/scripts/templates/settings/emails.mustache:19
 msgid "Add"
@@ -1281,6 +1281,9 @@ msgstr "Oanmelde"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Oanmelde"
+
+#~ msgid "%(email)s created"
+#~ msgstr "%(email)s makke"
 
 #~ msgid "Learn more."
 #~ msgstr "Mear ynfo."

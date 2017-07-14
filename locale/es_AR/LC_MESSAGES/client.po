@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-07 16:08+0000\n"
+"POT-Creation-Date: 2017-07-14 16:10+0000\n"
 "PO-Revision-Date: 2017-06-25 17:21+0000\n"
 "Last-Translator: Marcelo Poli <enzomatrix@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,19 +103,23 @@ msgstr "Lo lamentamos. Debés cambiar la contraseña de tu cuenta Firefox y busc
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Lo lamentamos. Si es un dispositivo en el que no confias, debes cambiar la contraseña de tu cuenta Firefox y todas las contraseñas guardadas en Firefox."
 
-#: app/scripts/views/settings/clients.js:63
+#: app/scripts/views/settings/clients.js:64
 msgid "Web Session, %(userAgent)s"
 msgstr "Sesión web, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:65
+#: app/scripts/views/settings/clients.js:66 app/scripts/lib/strings.js:43
+msgid "Web Session"
+msgstr "Sesión web"
+
+#: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:70
+#: app/scripts/views/settings/clients.js:74
 msgid "started syncing %(translatedTimeAgo)s"
 msgstr "comenzó la sincronización hace %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:75
+#: app/scripts/views/settings/clients.js:79
 msgid "last active %(translatedTimeAgo)s"
 msgstr "última actividad hace %(translatedTimeAgo)s"
 
@@ -135,7 +139,7 @@ msgstr "La cuenta se eliminó correctamente"
 msgid "Display name updated"
 msgstr "Nombre actualizado"
 
-#: app/scripts/views/settings/emails.js:136 app/scripts/views/settings/emails.js:149
+#: app/scripts/views/settings/emails.js:125 app/scripts/views/settings/emails.js:138
 msgid "Verification email sent"
 msgstr "Correo electrónico de verificación enviado"
 
@@ -612,10 +616,6 @@ msgstr "Dirección IP: %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Para más seguridad, confirmá el inicio de sesión para empezar a sincronizar en este dispositivo:"
 
-#: app/scripts/lib/strings.js:43
-msgid "Web Session"
-msgstr "Sesión web"
-
 #: app/scripts/lib/strings.js:49
 msgid "Sign in"
 msgstr "Ingresar"
@@ -645,8 +645,8 @@ msgid "Learn more"
 msgstr "Descubrí más"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-msgid "%(email)s created"
-msgstr "%(email)s creado"
+msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
+msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
@@ -655,10 +655,6 @@ msgstr "Elegí qué sincronizar"
 #: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Save settings"
 msgstr "Guardar configuración"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:6 app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
-msgid "Back"
-msgstr "Atrás"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -744,6 +740,10 @@ msgstr "Fijate en tu correo electrónico el enlace de confirmación de ingreso e
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
 msgstr ""
+
+#: app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+msgid "Back"
+msgstr "Atrás"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -1281,6 +1281,9 @@ msgstr "Inicie la sesión"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Inicie la sesión"
+
+#~ msgid "%(email)s created"
+#~ msgstr "%(email)s creado"
 
 #~ msgid "Learn more."
 #~ msgstr "Aprendé más"

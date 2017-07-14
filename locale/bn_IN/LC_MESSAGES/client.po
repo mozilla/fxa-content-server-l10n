@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-07 16:08+0000\n"
+"POT-Creation-Date: 2017-07-14 16:10+0000\n"
 "PO-Revision-Date: 2016-11-08 05:49+0000\n"
 "Last-Translator: Ayan Choudhury <ping2ayan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,19 +103,23 @@ msgstr "আমরা এটা শোনাতে দুঃখিত। আপ�
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "আমরা এটা শোনাতে দুঃখিত। যদি এটাই সেই ডিভাইস হয়ে থাকে যাকে আপনি একদম বিশ্বাস করেননা, আপনার Firefox অ্যাকাউন্টের পাসওয়ার্ড বদলানো উচিত, এবং Firefox-এ সংরক্ষিত যেকোনো পাসওয়ার্ড বদল করুন।"
 
-#: app/scripts/views/settings/clients.js:63
+#: app/scripts/views/settings/clients.js:64
 msgid "Web Session, %(userAgent)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:65
+#: app/scripts/views/settings/clients.js:66 app/scripts/lib/strings.js:43
+msgid "Web Session"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:70
+#: app/scripts/views/settings/clients.js:74
 msgid "started syncing %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:75
+#: app/scripts/views/settings/clients.js:79
 msgid "last active %(translatedTimeAgo)s"
 msgstr ""
 
@@ -135,7 +139,7 @@ msgstr "অ্যাকাউন্ট সফলভাবে মুছে ফে
 msgid "Display name updated"
 msgstr "পরিদর্শনের নাম আপডেট করা হয়েছে"
 
-#: app/scripts/views/settings/emails.js:136 app/scripts/views/settings/emails.js:149
+#: app/scripts/views/settings/emails.js:125 app/scripts/views/settings/emails.js:138
 msgid "Verification email sent"
 msgstr ""
 
@@ -612,10 +616,6 @@ msgstr "IP ঠিকানা: %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "অতিরিক্ত নিরাপত্তার জন্য, এই ডিভাইস এর সাথে সিঙ্ক শুরু করতে সাইন-ইন দয়া করে নিশ্চিত করুন:"
 
-#: app/scripts/lib/strings.js:43
-msgid "Web Session"
-msgstr ""
-
 #: app/scripts/lib/strings.js:49
 msgid "Sign in"
 msgstr "সাইন ইন"
@@ -645,7 +645,7 @@ msgid "Learn more"
 msgstr "আরো জানুন"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-msgid "%(email)s created"
+msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
 msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
@@ -655,10 +655,6 @@ msgstr "চয়ন করুন কি সিঙ্ক করতে হবে"
 #: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Save settings"
 msgstr "সেটিংস্‌গুলি সেভ করুন"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:6 app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
-msgid "Back"
-msgstr "পিছনে যান।"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -744,6 +740,10 @@ msgstr ""
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
 msgstr ""
+
+#: app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+msgid "Back"
+msgstr "পিছনে যান।"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"

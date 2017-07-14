@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-07 16:08+0000\n"
+"POT-Creation-Date: 2017-07-14 16:10+0000\n"
 "PO-Revision-Date: 2017-07-01 07:10+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,19 +102,23 @@ msgstr ""
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "ہمیں اس بارے میں سن کر افسوس ہوا۔اگر اس آلہ پر آپ کو بلکلی بھروسہ نہیں۔ آپ کو اپنے Firefox اکائونٹ کا پاسورڈ اور کوئی بھی پاسوورڈ جو Firefox میں محفوظ ہیں ان کو تبدیل کریں۔"
 
-#: app/scripts/views/settings/clients.js:63
+#: app/scripts/views/settings/clients.js:64
 msgid "Web Session, %(userAgent)s"
 msgstr "یب سیشن، %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:65
+#: app/scripts/views/settings/clients.js:66 app/scripts/lib/strings.js:43
+msgid "Web Session"
+msgstr "ویب سیشن"
+
+#: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:70
+#: app/scripts/views/settings/clients.js:74
 msgid "started syncing %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:75
+#: app/scripts/views/settings/clients.js:79
 msgid "last active %(translatedTimeAgo)s"
 msgstr ""
 
@@ -134,7 +138,7 @@ msgstr "اکاؤنٹ کامیابی سے حزف کر دیا گیا ہے"
 msgid "Display name updated"
 msgstr ""
 
-#: app/scripts/views/settings/emails.js:136 app/scripts/views/settings/emails.js:149
+#: app/scripts/views/settings/emails.js:125 app/scripts/views/settings/emails.js:138
 msgid "Verification email sent"
 msgstr ""
 
@@ -609,10 +613,6 @@ msgstr ""
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "اظاافی سلامتی کے لئے،،براہ مہربانی اس اس آلہ کے ساتھ ہمہ وقت سازی شروع کرنے کے لئے سائن کی تصدیق کریں:"
 
-#: app/scripts/lib/strings.js:43
-msgid "Web Session"
-msgstr "ویب سیشن"
-
 #: app/scripts/lib/strings.js:49
 msgid "Sign in"
 msgstr "سائن ان کریں"
@@ -642,7 +642,7 @@ msgid "Learn more"
 msgstr "مزید سیکھیں"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-msgid "%(email)s created"
+msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
 msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
@@ -652,10 +652,6 @@ msgstr "چنیں کیا ہمہ وقت ساز کرنا ہے"
 #: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Save settings"
 msgstr "سیٹنگیں محفوظ کريں"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:6 app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
-msgid "Back"
-msgstr "پیچھے"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -741,6 +737,10 @@ msgstr ""
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
 msgstr ""
+
+#: app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+msgid "Back"
+msgstr "پیچھے"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
