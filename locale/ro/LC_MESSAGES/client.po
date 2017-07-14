@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-07 16:08+0000\n"
+"POT-Creation-Date: 2017-07-14 16:10+0000\n"
 "PO-Revision-Date: 2017-04-28 22:42+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,19 +103,23 @@ msgstr "Ne pare rău să auzim asta. Ar trebui să schimbi parola contului Firef
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Ne pare rău să auzim asta. Dacă acesta a fost un dispozitiv în care chiar nu ai încredere, ar trebui să schimbi parola contului Firefox și să schimbi toate parolele salvate în Firefox."
 
-#: app/scripts/views/settings/clients.js:63
+#: app/scripts/views/settings/clients.js:64
 msgid "Web Session, %(userAgent)s"
 msgstr "Sesiune web, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:65
+#: app/scripts/views/settings/clients.js:66 app/scripts/lib/strings.js:43
+msgid "Web Session"
+msgstr "Sesiune web"
+
+#: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:70
+#: app/scripts/views/settings/clients.js:74
 msgid "started syncing %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:75
+#: app/scripts/views/settings/clients.js:79
 msgid "last active %(translatedTimeAgo)s"
 msgstr ""
 
@@ -135,7 +139,7 @@ msgstr "Contul a fost șters cu succes"
 msgid "Display name updated"
 msgstr "Numele afișat actualizat"
 
-#: app/scripts/views/settings/emails.js:136 app/scripts/views/settings/emails.js:149
+#: app/scripts/views/settings/emails.js:125 app/scripts/views/settings/emails.js:138
 msgid "Verification email sent"
 msgstr ""
 
@@ -622,10 +626,6 @@ msgstr "Adresă IP: %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Ca o măsură de securitate suplimentară, te rugăm să confirmi această autentificare pentru a începe sincronizarea cu acest dispozitiv:"
 
-#: app/scripts/lib/strings.js:43
-msgid "Web Session"
-msgstr "Sesiune web"
-
 #: app/scripts/lib/strings.js:49
 msgid "Sign in"
 msgstr "Autentificare"
@@ -655,8 +655,8 @@ msgid "Learn more"
 msgstr "Află mai multe"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-msgid "%(email)s created"
-msgstr "%(email)s creat"
+msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
+msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
@@ -665,10 +665,6 @@ msgstr "Alege ce să sincronizezi"
 #: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Save settings"
 msgstr "Salvează setările"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:6 app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
-msgid "Back"
-msgstr "Înapoi"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -754,6 +750,10 @@ msgstr ""
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
 msgstr ""
+
+#: app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+msgid "Back"
+msgstr "Înapoi"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -1291,6 +1291,9 @@ msgstr ""
 msgctxt "header text"
 msgid "Sign in"
 msgstr ""
+
+#~ msgid "%(email)s created"
+#~ msgstr "%(email)s creat"
 
 #~ msgid "Learn more."
 #~ msgstr "Află mai multe."

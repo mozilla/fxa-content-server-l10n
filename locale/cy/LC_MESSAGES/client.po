@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-07 16:08+0000\n"
+"POT-Creation-Date: 2017-07-14 16:10+0000\n"
 "PO-Revision-Date: 2017-05-18 09:19+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,19 +103,23 @@ msgstr "Rydym yn flin i glywed am hyn. Rhaid i chi newid cyfrinair eich Cyfrif F
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Rydym yn flin i glywed am hyn. Os yw hwn yn ddyfais nad ydych yn ymddiried ynddo, rhaid i chi newid cyfrinair eich Cyfrif Firefox, a newid unrhyw gyfrinair sydd wedi ei gadw o fewn Firefox."
 
-#: app/scripts/views/settings/clients.js:63
+#: app/scripts/views/settings/clients.js:64
 msgid "Web Session, %(userAgent)s"
 msgstr "Sesiwn Gwe, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:65
+#: app/scripts/views/settings/clients.js:66 app/scripts/lib/strings.js:43
+msgid "Web Session"
+msgstr "Sesiwn Gwe"
+
+#: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:70
+#: app/scripts/views/settings/clients.js:74
 msgid "started syncing %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:75
+#: app/scripts/views/settings/clients.js:79
 msgid "last active %(translatedTimeAgo)s"
 msgstr ""
 
@@ -135,7 +139,7 @@ msgstr "Cyfrif wedi ei ddileu'n llwyddiannus"
 msgid "Display name updated"
 msgstr "Diweddarwyd yr enw dangos"
 
-#: app/scripts/views/settings/emails.js:136 app/scripts/views/settings/emails.js:149
+#: app/scripts/views/settings/emails.js:125 app/scripts/views/settings/emails.js:138
 msgid "Verification email sent"
 msgstr ""
 
@@ -612,10 +616,6 @@ msgstr "Cyfeiriad IP: %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Er mwyn cryfhau eich diogelwch, cadarnhewch y mewngofnodi er mwyn cychwyn cydweddu gyda'r ddyfais hon:"
 
-#: app/scripts/lib/strings.js:43
-msgid "Web Session"
-msgstr "Sesiwn Gwe"
-
 #: app/scripts/lib/strings.js:49
 msgid "Sign in"
 msgstr "Mewngofnodi"
@@ -645,8 +645,8 @@ msgid "Learn more"
 msgstr "Dysgu rhagor"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-msgid "%(email)s created"
-msgstr "Crëwyd %(email)s"
+msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
+msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
@@ -655,10 +655,6 @@ msgstr "Dewis beth i gydweddu"
 #: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Save settings"
 msgstr "Cadw'r gosodiadau"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:6 app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
-msgid "Back"
-msgstr "Nôl"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -744,6 +740,10 @@ msgstr ""
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
 msgstr ""
+
+#: app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+msgid "Back"
+msgstr "Nôl"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -1279,6 +1279,9 @@ msgstr "Mewngofnodi"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Mewngofnodi"
+
+#~ msgid "%(email)s created"
+#~ msgstr "Crëwyd %(email)s"
 
 #~ msgid "Learn more."
 #~ msgstr "Dysgu rhagor."

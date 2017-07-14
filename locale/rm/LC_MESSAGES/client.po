@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-07 16:08+0000\n"
+"POT-Creation-Date: 2017-07-14 16:10+0000\n"
 "PO-Revision-Date: 2017-06-27 19:01+0000\n"
 "Last-Translator: mcmartin <mcmartin@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,19 +104,23 @@ msgid "We're sorry to hear about this. If this was a device you really don't tru
 msgstr ""
 "Nus stain mal dad udir quai. Sche ti na ta fidas propi betg da quest apparat ta recumandain nus da midar tes pled-clav dal conto da Firefox e da midar tut ils pleds-clav memorisads en Firefox."
 
-#: app/scripts/views/settings/clients.js:63
+#: app/scripts/views/settings/clients.js:64
 msgid "Web Session, %(userAgent)s"
 msgstr "Sesida da web, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:65
+#: app/scripts/views/settings/clients.js:66 app/scripts/lib/strings.js:43
+msgid "Web Session"
+msgstr "Sesida web"
+
+#: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:70
+#: app/scripts/views/settings/clients.js:74
 msgid "started syncing %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:75
+#: app/scripts/views/settings/clients.js:79
 msgid "last active %(translatedTimeAgo)s"
 msgstr ""
 
@@ -136,7 +140,7 @@ msgstr "Stizzà cun success il conto"
 msgid "Display name updated"
 msgstr "Actualisà il num per visualisar"
 
-#: app/scripts/views/settings/emails.js:136 app/scripts/views/settings/emails.js:149
+#: app/scripts/views/settings/emails.js:125 app/scripts/views/settings/emails.js:138
 msgid "Verification email sent"
 msgstr ""
 
@@ -613,10 +617,6 @@ msgstr "Adressa IP: %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Per pli gronda segirezza, conferma p.pl. questa annunzia per cumenzar a sincronisar cun quest apparat:"
 
-#: app/scripts/lib/strings.js:43
-msgid "Web Session"
-msgstr "Sesida web"
-
 #: app/scripts/lib/strings.js:49
 msgid "Sign in"
 msgstr "S'annunziar"
@@ -646,8 +646,8 @@ msgid "Learn more"
 msgstr "Dapli infurmaziuns"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-msgid "%(email)s created"
-msgstr "%(email)s creà"
+msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
+msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
@@ -656,10 +656,6 @@ msgstr "Tscherna tge che duai vegnir sincronisà"
 #: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Save settings"
 msgstr "Memorisar ils parameters"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:6 app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
-msgid "Back"
-msgstr "Enavos"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -745,6 +741,10 @@ msgstr ""
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
 msgstr ""
+
+#: app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+msgid "Back"
+msgstr "Enavos"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -1280,6 +1280,9 @@ msgstr ""
 msgctxt "header text"
 msgid "Sign in"
 msgstr ""
+
+#~ msgid "%(email)s created"
+#~ msgstr "%(email)s creà"
 
 #~ msgid "Learn more."
 #~ msgstr "Dapli infurmaziuns."

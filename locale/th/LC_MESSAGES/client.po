@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-07 16:08+0000\n"
+"POT-Creation-Date: 2017-07-14 16:10+0000\n"
 "PO-Revision-Date: 2017-06-30 23:41+0000\n"
 "Last-Translator: nuttapong2539 <nuttapong2539@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,19 +102,23 @@ msgstr "เราเสียใจที่ได้ยินเกี่ยว
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "เราเสียใจที่ได้ยินเกี่ยวกับสิ่งนี้ หากนี่เป็นอุปกรณ์ที่คุณไม่เชื่อถือ คุณควรเปลี่ยนรหัสผ่านบัญชี Firefox ของคุณ และเปลี่ยนรหัสผ่านใด ๆ ที่บันทึกไว้ใน Firefox"
 
-#: app/scripts/views/settings/clients.js:63
+#: app/scripts/views/settings/clients.js:64
 msgid "Web Session, %(userAgent)s"
 msgstr "เว็บเซสชัน %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:65
+#: app/scripts/views/settings/clients.js:66 app/scripts/lib/strings.js:43
+msgid "Web Session"
+msgstr "เว็บเซสชัน"
+
+#: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:70
+#: app/scripts/views/settings/clients.js:74
 msgid "started syncing %(translatedTimeAgo)s"
 msgstr "เริ่มการซิงค์ไปแล้วเมื่อ %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:75
+#: app/scripts/views/settings/clients.js:79
 msgid "last active %(translatedTimeAgo)s"
 msgstr ""
 
@@ -134,7 +138,7 @@ msgstr "ได้ลบบัญชีเรียบร้อยแล้ว"
 msgid "Display name updated"
 msgstr "ปรับปรุงชื่อที่ใช้แสดงแล้ว"
 
-#: app/scripts/views/settings/emails.js:136 app/scripts/views/settings/emails.js:149
+#: app/scripts/views/settings/emails.js:125 app/scripts/views/settings/emails.js:138
 msgid "Verification email sent"
 msgstr "อีเมลยืนยันได้ถูกส่งแล้ว"
 
@@ -610,10 +614,6 @@ msgstr "ที่อยู่ IP: %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "เพื่อความปลอดภัยเพิ่มเติม โปรดยืนยันการลงชื่อเข้านี้เพื่อเริ่มซิงค์กับอุปกรณ์นี้:"
 
-#: app/scripts/lib/strings.js:43
-msgid "Web Session"
-msgstr "เว็บเซสชัน"
-
 #: app/scripts/lib/strings.js:49
 msgid "Sign in"
 msgstr "ลงชื่อเข้า"
@@ -643,8 +643,8 @@ msgid "Learn more"
 msgstr "เรียนรู้เพิ่มเติม"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-msgid "%(email)s created"
-msgstr "%(email)s ถูกสร้างแล้ว"
+msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
+msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
@@ -653,10 +653,6 @@ msgstr "เลือกสิ่งที่จะซิงค์"
 #: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Save settings"
 msgstr "บันทึกการตั้งค่า"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:6 app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
-msgid "Back"
-msgstr "ย้อนกลับ"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -742,6 +738,10 @@ msgstr "ตรวจสอบอีเมลของคุณสำหรับ
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
 msgstr ""
+
+#: app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+msgid "Back"
+msgstr "ย้อนกลับ"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -1275,6 +1275,9 @@ msgstr "ลงชื่อเข้า"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "ลงชื่อเข้า"
+
+#~ msgid "%(email)s created"
+#~ msgstr "%(email)s ถูกสร้างแล้ว"
 
 #~ msgid "Learn more."
 #~ msgstr "เรียนรู้เพิ่มเติม"

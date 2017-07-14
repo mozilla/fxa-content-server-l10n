@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-07 16:08+0000\n"
-"PO-Revision-Date: 2017-06-23 18:12+0000\n"
+"POT-Creation-Date: 2017-07-14 16:10+0000\n"
+"PO-Revision-Date: 2017-07-07 18:51+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -105,19 +105,23 @@ msgid "We're sorry to hear about this. If this was a device you really don't tru
 msgstr ""
 "Pedimos desculpa por ouvirmos acerca disto. Se este era um dispositivo que não confiava, deverá alterar a palavra-passe da sua Conta Firefox, e alterar quaisquer palavras-passe guardadas no Firefox."
 
-#: app/scripts/views/settings/clients.js:63
+#: app/scripts/views/settings/clients.js:64
 msgid "Web Session, %(userAgent)s"
 msgstr "Sessão Web, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:65
+#: app/scripts/views/settings/clients.js:66 app/scripts/lib/strings.js:43
+msgid "Web Session"
+msgstr "Sessão Web"
+
+#: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:70
+#: app/scripts/views/settings/clients.js:74
 msgid "started syncing %(translatedTimeAgo)s"
 msgstr "começou a sincronizar %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:75
+#: app/scripts/views/settings/clients.js:79
 msgid "last active %(translatedTimeAgo)s"
 msgstr "última vez ativo %(translatedTimeAgo)s"
 
@@ -137,7 +141,7 @@ msgstr "Conta apagada com sucesso"
 msgid "Display name updated"
 msgstr "Nome de apresentação atualizado"
 
-#: app/scripts/views/settings/emails.js:136 app/scripts/views/settings/emails.js:149
+#: app/scripts/views/settings/emails.js:125 app/scripts/views/settings/emails.js:138
 msgid "Verification email sent"
 msgstr "Email de verificação enviado"
 
@@ -199,11 +203,11 @@ msgstr "Preferências"
 
 #: app/scripts/models/sync-engines.js:72
 msgid "Addresses"
-msgstr ""
+msgstr "Endereços"
 
 #: app/scripts/models/sync-engines.js:79
 msgid "Credit cards"
-msgstr ""
+msgstr "Cartões de crédito"
 
 #: app/scripts/models/reliers/sync.js:60
 msgid "Firefox Sync"
@@ -614,10 +618,6 @@ msgstr "Endereço IP: %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Para segurança adicional, por favor confirme este início de sessão para começar a sincronizar com este dispositivo:"
 
-#: app/scripts/lib/strings.js:43
-msgid "Web Session"
-msgstr "Sessão Web"
-
 #: app/scripts/lib/strings.js:49
 msgid "Sign in"
 msgstr "Iniciar sessão"
@@ -647,8 +647,8 @@ msgid "Learn more"
 msgstr "Saber mais"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-msgid "%(email)s created"
-msgstr "%(email)s criado(s)"
+msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
+msgstr ""
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
 msgid "Choose what to sync"
@@ -657,10 +657,6 @@ msgstr "Escolha o que sincronizar"
 #: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Save settings"
 msgstr "Guardar definições"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:6 app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
-msgid "Back"
-msgstr "Retroceder"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -672,7 +668,7 @@ msgstr "A ligação que utilizou para repor a palavra-passe expirou."
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
-msgstr ""
+msgstr "Receber nova ligação"
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -745,7 +741,11 @@ msgstr "Verifique o seu email para a ligação de confirmação de início de se
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:12 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
-msgstr ""
+msgstr "Não está na caixa de entrada ou pasta de lixo? Reenviar"
+
+#: app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+msgid "Back"
+msgstr "Retroceder"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -802,7 +802,7 @@ msgstr "Porquê que isto é requerido?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr ""
+msgstr "Cookies e armazenamento local são requeridos"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
@@ -1037,7 +1037,7 @@ msgstr "Instale o Firefox no seu smartphone e registe-se para completar a config
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Ligação de aplicação enviada para %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Enganou-se a digitar&nbsp;o número?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1246,7 +1246,7 @@ msgstr "Remover"
 
 #: app/scripts/templates/settings/emails.mustache:11
 msgid "Not in inbox or spam folder? Resend?"
-msgstr ""
+msgstr "Não está na caixa de entrada ou pasta de lixo? Reenviar?"
 
 #: app/scripts/templates/settings/emails.mustache:19
 msgid "Add"
@@ -1283,6 +1283,9 @@ msgstr "Iniciar sessão"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Iniciar sessão"
+
+#~ msgid "%(email)s created"
+#~ msgstr "%(email)s criado(s)"
 
 #~ msgid "Learn more."
 #~ msgstr "Saber mais."
