@@ -377,7 +377,7 @@ msgstr "ఫైర్ఫాక్సుకు ప్రవేశించడా�
 
 #: lib/senders/email.js:492
 msgid "Verify email for Firefox Accounts"
-msgstr ""
+msgstr "Firefox ఖాతాల కోసం ఇ-మెయిలుని ధృవీకరించండి"
 
 #: lib/senders/email.js:547
 msgid "Reset your Firefox Account password"
