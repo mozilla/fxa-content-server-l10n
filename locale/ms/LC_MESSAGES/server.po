@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-07 16:08+0000\n"
-"PO-Revision-Date: 2017-04-29 01:57+0000\n"
+"PO-Revision-Date: 2017-07-16 14:04+0000\n"
 "Last-Translator: manxmensch <manxmensch@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ms\n"
@@ -27,13 +27,13 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Akaun Firefox anda telah berjaya disambungkan dengan peranti pertama anda. Kini anda boleh daftar masuk Sync di peranti anda yang lain termasuk Firefox untuk <a href='%(androidUrl)s'>Android</a> "
-"dan <a href='%(iosUrl)s'>iOS</a>."
+"Akaun Firefox anda telah berjaya disambungkan dengan peranti pertama anda. Kini anda boleh daftar masuk Sync di peranti anda yang lain termasuk Firefox untuk <a href='%(androidUrl)s'>Android</a> dan"
+" <a href='%(iosUrl)s'>iOS</a>."
 
 #: lib/senders/templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Akaun Firefox anda telah berjaya disambungkan dengan peranti pertama anda. Sambungkan mana-mana <a href='%(androidUrl)s'>Firefox untuk Android</a> atau <a href='%(iosUrl)s'>Firefox untuk iOS</a> "
 "lain untuk dapatkan kelebihannya."
@@ -76,7 +76,7 @@ msgstr "Ini adalah emel automatik; jika anda tidak membenarkan tindakan ini, mak
 #: lib/senders/templates/verification_reminder_first.html:6 lib/senders/templates/verification_reminder_second.html:6 lib/senders/templates/verify.html:6 lib/senders/templates/verify_secondary.html:8
 #: lib/senders/templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr "Untuk maklumat lanjut, layari <a %(supportLinkAttributes)s>Mozilla Support</a>."
+msgstr "Untuk maklumat lanjut, layari <a %(supportLinkAttributes)s>Sokongan Mozilla</a>."
 
 #: lib/senders/templates/new_device_login.html:6 lib/senders/templates/new_device_login.txt:5 lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6
 #: lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5 lib/senders/templates/password_reset_required.html:10 lib/senders/templates/password_reset_required.txt:9
@@ -187,8 +187,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
-"Akaun Firefox anda telah berjaya disambungkan dengan peranti pertama anda. Kini anda boleh daftar masuk Sync di peranti anda yang lain termasuk Firefox untuk <a %(androidLinkAttributes)s>Android</"
-"a> dan <a %(iosLinkAttributes)s>iOS</a>."
+"Akaun Firefox anda telah berjaya disambungkan dengan peranti pertama anda. Kini anda boleh daftar masuk Sync di peranti anda yang lain termasuk Firefox untuk <a %(androidLinkAttributes)s>Android</a>"
+" dan <a %(iosLinkAttributes)s>iOS</a>."
 
 #: lib/senders/templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
@@ -253,8 +253,8 @@ msgstr "Hello."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 "Beberapa hari yang lalu anda telah mencipta akaun Firefox, tetapi tidak pernah disahkan. Akaun yang telah disahkan membolehkan anda mencapai tab, tanda buku, kata laluan dan sejarah pada sebarang "
 "peranti yang disambungkan kepadanya. Anda hanya perlu mengesahkan alamat e-mel ini untuk mengaktifkan akaun anda."
