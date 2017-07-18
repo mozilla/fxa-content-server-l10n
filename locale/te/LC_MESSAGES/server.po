@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-07 16:08+0000\n"
-"PO-Revision-Date: 2017-07-16 06:50+0000\n"
-"Last-Translator: Ranjith Raj Vasam <ranjithraj@swecha.net>\n"
+"PO-Revision-Date: 2017-07-18 06:19+0000\n"
+"Last-Translator: భవభూతి <bhavabhuthi@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
 "MIME-Version: 1.0\n"
@@ -203,7 +203,7 @@ msgstr "రెండవ ఈమెయిలు చేర్చబడింది"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2 lib/senders/templates/post_verify_secondary_email.html:3
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr ""
+msgstr "మీ Firefox ఖాతాకి %(secondaryEmail)sని అదనపు ఈమెయిల్‌గా విజయవంతంగా ధ్రువీకరించారు. ఇప్పుడు రెండు ఈమెయిల్ చిరునామాలకు భద్రతా గమనికలు మరియు ప్రవేశ ధ్రువీకరణలు పంపిణీ చేయబడును."
 
 #: lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
 msgid "Manage account"
@@ -309,7 +309,7 @@ msgstr "రెండవ ఇ-మెయిలుని ధృవీకరించ
 
 #: lib/senders/templates/verify_secondary.html:3 lib/senders/templates/verify_secondary.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr ""
+msgstr "అదనపు ఈమెయిల్‌గా %(email)s వాడుటకు ఈ కింది Firefox ఖాతా నుండి అభ్యర్ధన చేయబడినది:"
 
 #: lib/senders/templates/verify_secondary.html:5 lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
 msgid "Verify email "
@@ -317,7 +317,7 @@ msgstr "ఇమెయిల్ ని నిర్ధారించండి:  "
 
 #: lib/senders/templates/verify_secondary.html:6
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "ధృవీకరించిన తర్వాత, ఈ చిరునామా భద్రతా నోటిఫికేషన్లు మరియు నిర్ధారణలను స్వీకరించడం ప్రారంభమవుతుంది."
 
 #: lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
@@ -401,7 +401,7 @@ msgstr "Firefox ఖాతా ధ్రువీకరించబడినది
 
 #: lib/senders/email.js:774
 msgid "Secondary Firefox Account email added"
-msgstr ""
+msgstr "రెండవ Firefox ఖాతా ఇమెయిల్ జోడించబడింది"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"

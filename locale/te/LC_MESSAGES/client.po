@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-07 16:08+0000\n"
-"PO-Revision-Date: 2017-07-16 06:52+0000\n"
-"Last-Translator: Ranjith Raj Vasam <ranjithraj@swecha.net>\n"
+"PO-Revision-Date: 2017-07-18 10:31+0000\n"
+"Last-Translator: Dinesh <dineshmv38@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
 "MIME-Version: 1.0\n"
@@ -325,7 +325,7 @@ msgstr "సెకండరీ ఇమెయిల్ మీ ఖాతా ఇమ�
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "సైన్ ఇన్ చేయడానికి ప్రాథమిక ఖాతా ఇమెయిల్ అవసరం"
 
 #: app/scripts/lib/auth-errors.js:171
 msgid "Address in use by another account"
@@ -665,7 +665,7 @@ msgstr "మీరు మీ పాస్వర్డ్ను రీసెట్
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
-msgstr ""
+msgstr "కొత్త లంకును స్వీకరించండి"
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -1219,7 +1219,7 @@ msgstr "ద్వితీయ ఇమెయిల్"
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-msgstr ""
+msgstr "భద్రత గమనికలు మరియు సరికొత్త సమకాలీకరణ పరికరాల ధ్రువీకరణ కోసం ఇచ్చే అదనపు చిరునామాని అదనపు ఈమెయిల్ అంటాము."
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
