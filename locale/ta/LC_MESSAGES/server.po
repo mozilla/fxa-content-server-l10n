@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-07 16:08+0000\n"
-"PO-Revision-Date: 2017-07-17 16:26+0000\n"
+"PO-Revision-Date: 2017-07-18 04:31+0000\n"
 "Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
@@ -229,11 +229,11 @@ msgstr "உள்நுழைவது நீங்கள் தானா?"
 
 #: lib/senders/templates/unblock_code.html:4 lib/senders/templates/unblock_code.txt:3
 msgid "If yes, here is the authorization code you need:"
-msgstr ""
+msgstr "ஆம் எனில், உங்களுக்குத் தேவையான அங்கீகாரக் குறியீடு இதோ இங்கே:"
 
 #: lib/senders/templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr ""
+msgstr "இல்லையெனில், எங்களை ஊடுருபவர்களை, <a %(reportSignInLinkAttributes)s>எங்களிடம் புகாரளித்து உதவுங்கள்.</a>"
 
 #: lib/senders/templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
@@ -303,7 +303,7 @@ msgstr ""
 
 #: lib/senders/templates/verify_secondary.html:5 lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
 msgid "Verify email "
-msgstr ""
+msgstr "மின்னஞ்சலை உறுதிசெய்யுங்கள் "
 
 #: lib/senders/templates/verify_secondary.html:6
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
@@ -311,11 +311,11 @@ msgstr ""
 
 #: lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
-msgstr ""
+msgstr "மின்னஞ்சலை உறுதிசெய்யுங்கள்: "
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
-msgstr ""
+msgstr "தயார், அமை, ஒத்திசை"
 
 #: lib/senders/templates/verify_sync.html:3 lib/senders/templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
@@ -367,7 +367,7 @@ msgstr ""
 
 #: lib/senders/email.js:492
 msgid "Verify email for Firefox Accounts"
-msgstr ""
+msgstr "பயர்பாஃசு கணக்குகிற்கான மின்னஞ்சலைச் சரிபார்க்கவும்"
 
 #: lib/senders/email.js:547
 msgid "Reset your Firefox Account password"
@@ -387,11 +387,11 @@ msgstr ""
 
 #: lib/senders/email.js:735
 msgid "Firefox Account verified"
-msgstr ""
+msgstr "பயர்பாஃசு கணக்கு சரிபார்க்கப்பட்டது"
 
 #: lib/senders/email.js:774
 msgid "Secondary Firefox Account email added"
-msgstr ""
+msgstr "இரண்டாம்நிலை பயர்பாஃசு கணக்கின் மின்னஞ்சல் சேர்க்கப்பட்டது"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
