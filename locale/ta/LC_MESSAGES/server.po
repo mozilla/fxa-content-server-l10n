@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-07 16:08+0000\n"
-"PO-Revision-Date: 2017-07-18 04:31+0000\n"
+"PO-Revision-Date: 2017-07-18 04:49+0000\n"
 "Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:803
 msgid "Still there?"
-msgstr ""
+msgstr "இருக்கிறீர்களா?"
 
 #: lib/senders/templates/_pending.txt:2
 msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
@@ -36,7 +36,7 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:5 lib/senders/templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "வேறொரு சாதனத்தை இணைக்கவும்"
 
 #: lib/senders/templates/_pending.txt:6
 msgid "Sign in to Sync"
@@ -49,7 +49,7 @@ msgstr ""
 #: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1
 #: server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "பயர்பாஃசு கணக்குகள்"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
 #: lib/senders/email.js:695
@@ -83,7 +83,7 @@ msgstr ""
 #: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:6
 #: lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
-msgstr ""
+msgstr "மொசில்லா தனியுரிமை கொள்கைகள்"
 
 #: lib/senders/templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
@@ -237,11 +237,11 @@ msgstr "இல்லையெனில், எங்களை ஊடுருப
 
 #: lib/senders/templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "இல்லையெனில், ஊடுருவல்களைத் தடுக்கவும் எங்களுக்கு அதை அறிவிக்கவும் உதவுங்கள்."
 
 #: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:800
 msgid "Hello again."
-msgstr ""
+msgstr "வணக்கம் வாங்க."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
@@ -251,7 +251,7 @@ msgstr ""
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verify.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "இப்பொழுதே செயல்படுத்தவும்"
 
 #: lib/senders/templates/verification_reminder_first.html:8 lib/senders/templates/verification_reminder_second.html:8 lib/senders/templates/verify.html:8 lib/senders/templates/verify_sync.html:10
 msgid "Verify Email"
@@ -263,7 +263,7 @@ msgstr ""
 
 #: lib/senders/templates/verification_reminder_first.txt:3 lib/senders/templates/verification_reminder_second.txt:3 lib/senders/templates/verify.txt:3
 msgid "Activate now:"
-msgstr ""
+msgstr "இப்பொழுதே செயல்படுத்தவும்:"
 
 #: lib/senders/templates/verification_reminder_second.html:3 lib/senders/templates/verification_reminder_second.txt:2
 msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
@@ -283,7 +283,7 @@ msgstr ""
 
 #: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "உள்நுழைவை உறுதி படுத்து"
 
 #: lib/senders/templates/verify_login.html:6
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -295,11 +295,11 @@ msgstr ""
 
 #: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
 msgid "Verify secondary email"
-msgstr ""
+msgstr "இரண்டாம் மின்னஞ்சலைச் சரிபார்க்கவும்"
 
 #: lib/senders/templates/verify_secondary.html:3 lib/senders/templates/verify_secondary.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr ""
+msgstr "%(email)s இரண்டாம் மின்னஞ்சல் முகவரியைப் பயன்படுத்துவதற்கான கோரிக்கையை பின்வரும் பயர்பாஃசு கணக்கிலிருந்து உருவாக்கப்பட்டது:"
 
 #: lib/senders/templates/verify_secondary.html:5 lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
 msgid "Verify email "
@@ -307,7 +307,7 @@ msgstr "மின்னஞ்சலை உறுதிசெய்யுங்�
 
 #: lib/senders/templates/verify_secondary.html:6
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "சரிபார்த்தவுடன், இந்த முகவரி பாதுகாப்பு அறிவிப்புகளையும், உறுதிப்படுத்துவதற்கான மின்னஞ்சலையும் பெற ஆரம்பிக்கும்."
 
 #: lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
@@ -319,23 +319,23 @@ msgstr "தயார், அமை, ஒத்திசை"
 
 #: lib/senders/templates/verify_sync.html:3 lib/senders/templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "மின்னஞ்சல் பெற்றுள்ளதை உறுதிப்படுத்தவும், பயர்பாஃசை உங்கள் சாதனங்களில் நிறுவவும் ஒத்திசைக்கவும் நாங்கள் உதவுவோம்:"
 
 #: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "உறுதிப்படுத்தியப் பின், பயர்பாஃசை மற்றொரு சாதனத்தில் நிறுவி இணைக்க உதவுவோம்."
 
 #: lib/senders/email.js:160
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
-msgstr ""
+msgstr "%(uaOS)s %(uaOSVersion)s இயங்குதள பதிப்பில் %(uaBrowser)s"
 
 #: lib/senders/email.js:163
 msgid "%(uaBrowser)s on %(uaOS)s"
-msgstr ""
+msgstr "%(uaOS)s இயங்குதளத்திலுள்ள %(uaBrowser)s"
 
 #: lib/senders/email.js:190
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(stateCode)s, %(country)s (கணக்கிட்டப்படி)"
 
 #: lib/senders/email.js:192
 msgid "%(city)s, %(country)s (estimated)"
@@ -343,7 +343,7 @@ msgstr ""
 
 #: lib/senders/email.js:194
 msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(stateCode)s, %(country)s (கணக்கிடப்பட்டது)"
 
 #: lib/senders/email.js:196
 msgid "%(country)s (estimated)"
@@ -355,11 +355,11 @@ msgstr ""
 
 #: lib/senders/email.js:324
 msgid "Confirm your email and start to sync!"
-msgstr ""
+msgstr "உங்கள் மின்னஞ்சலை உறுதிப்படுத்தி ஒத்திசைக்க தொடங்குங்கள்!"
 
 #: lib/senders/email.js:382
 msgid "Firefox Account authorization code"
-msgstr ""
+msgstr "பயர்பாஃசு கணக்கின் அங்கீகாரக் குறியீடு"
 
 #: lib/senders/email.js:435
 msgid "Confirm new sign-in to Firefox"
@@ -407,7 +407,7 @@ msgstr "முகப்பு"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr ""
+msgstr "பிழை 500"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
