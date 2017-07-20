@@ -974,7 +974,7 @@ msgstr "Creu Cyfrif Firefox"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr "Chwilio am Firefox Sync? <a%(escapedSyncSuggestionAttrs)s>Cychwyn arni yma</a>"
+msgstr "Chwilio am Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Cychwyn arni yma</a>"
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -1029,7 +1029,7 @@ msgstr "Gosodwch Firefox ar eich ffôn clyfar a mewngofnodwch i gwblhau'r gosod"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "Anfonwyd dolen yr ap i %(escapedPhoneNumber)s. <a%(escapedBackLinkAttrs)s>Camdeipio&nbsp;&nbsp;rhif?</a>"
+msgstr "Anfonwyd dolen yr ap i %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Camdeipio&nbsp;&nbsp;rhif?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:5
 msgid "If you are not receiving the text message, you can also download the apps manually."
