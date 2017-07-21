@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-21 16:09+0000\n"
-"PO-Revision-Date: 2017-07-21 20:09+0000\n"
+"PO-Revision-Date: 2017-07-21 20:13+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -317,7 +317,7 @@ msgstr "ელ-ფოსტაზე წერილის გამოგზა
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr "ელ-ფოსტაზე წერილის გამოგზავნა, ვერ მოხერდა. მისამართი, შეცდომით ხომ არ აკრიფეთ?"
+msgstr "ელ-ფოსტაზე წერილის გამოგზავნა, ვერ მოხერდა. მისამართი, შეცდომითაა აკრეფილი?"
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
@@ -417,7 +417,7 @@ msgstr "ბმულის მითითება აუცილებელ�
 
 #: app/scripts/lib/auth-errors.js:270
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr "დასამოწმებელი შეტყობინების გამოგზავნა, ვერ მოხერდა. მისამართი, შეცდომით ხომ არ აკრიფეთ?"
+msgstr "დასამოწმებელი შეტყობინების გამოგზავნა, ვერ მოხერდა. მისამართი, შეცდომითაა აკრეფილი?"
 
 #: app/scripts/lib/auth-errors.js:278
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -647,7 +647,7 @@ msgstr "შეიტყვეთ მეტი"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
-msgstr ""
+msgstr "%(escapedEmail)s დარეგისტრდა. <a %(escapedBackLinkParams)s>მისამართი შეცდომითაა აკრეფილი?</a>"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:21
 msgid "Choose what to sync"
@@ -1032,7 +1032,7 @@ msgstr "პროგრამის ბმული გამოგზავნ�
 
 #: app/scripts/templates/sms_sent.mustache:3
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "პროგრამის ბმული გამოგზავნილია ნომერზე %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>ნომერი&nbsp;არასწორადაა&nbsp;აკრეფილი?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1161,7 +1161,7 @@ msgstr "მიმდინარე სეანსი"
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
-msgstr ""
+msgstr "გაუქმება"
 
 #: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
