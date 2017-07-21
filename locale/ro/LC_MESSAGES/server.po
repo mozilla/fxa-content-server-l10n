@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-07 16:08+0000\n"
+"POT-Creation-Date: 2017-07-21 16:09+0000\n"
 "PO-Revision-Date: 2017-04-28 22:42+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1440954004.0\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:803
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:804
 msgid "Still there?"
 msgstr "Mai ești aici?"
 
@@ -57,7 +57,7 @@ msgid "Firefox Accounts"
 msgstr "Conturi Firefox"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:695
+#: lib/senders/email.js:696
 msgid "New sign-in to Firefox"
 msgstr "Autentificare nouă în Firefox"
 
@@ -247,7 +247,7 @@ msgstr "Dacă nu, ajută-ne să ținem departe intrușii și <a %(reportSignInLi
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Dacă nu, ajută-ne să ținem departe intrușii și raportează-ne."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:800
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:801
 msgid "Hello again."
 msgstr "Bună din nou."
 
@@ -381,27 +381,27 @@ msgstr "Confirmă autentificarea nouă în Firefox"
 msgid "Verify email for Firefox Accounts"
 msgstr "Verifică e-mailul pentru Conturi Firefox"
 
-#: lib/senders/email.js:547
+#: lib/senders/email.js:548
 msgid "Reset your Firefox Account password"
 msgstr "Resetează-ți parola contului Firefox"
 
-#: lib/senders/email.js:588
+#: lib/senders/email.js:589
 msgid "Your Firefox Account password has been changed"
 msgstr "Parola contului tău Firefox a fost schimbată"
 
-#: lib/senders/email.js:627
+#: lib/senders/email.js:628
 msgid "Your Firefox Account password has been reset"
 msgstr "Parola contului tău Firefox a fost resetată"
 
-#: lib/senders/email.js:661
+#: lib/senders/email.js:662
 msgid "Firefox Account password reset required"
 msgstr "Este necesară resetarea parolei pentru contul Firefox"
 
-#: lib/senders/email.js:735
+#: lib/senders/email.js:736
 msgid "Firefox Account verified"
 msgstr "Cont Firefox verificat"
 
-#: lib/senders/email.js:774
+#: lib/senders/email.js:775
 msgid "Secondary Firefox Account email added"
 msgstr "E-mail secundat pentru contul Firefox adăugat"
 

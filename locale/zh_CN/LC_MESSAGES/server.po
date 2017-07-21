@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-07 16:08+0000\n"
+"POT-Creation-Date: 2017-07-21 16:09+0000\n"
 "PO-Revision-Date: 2017-04-29 09:28+0000\n"
 "Last-Translator: YFdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444933939.0\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:803
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:804
 msgid "Still there?"
 msgstr "还在吗？"
 
@@ -53,7 +53,7 @@ msgid "Firefox Accounts"
 msgstr "Firefox 账户"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:695
+#: lib/senders/email.js:696
 msgid "New sign-in to Firefox"
 msgstr "新一次登录 Firefox"
 
@@ -239,7 +239,7 @@ msgstr "如果不是，请帮助我们防范入侵者，<a %(reportSignInLinkAtt
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "如果不是，请帮助我们防范入侵者，向我们报告此事例。"
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:800
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:801
 msgid "Hello again."
 msgstr "我们又见面了。"
 
@@ -369,27 +369,27 @@ msgstr "确认新的 Firefox 登录"
 msgid "Verify email for Firefox Accounts"
 msgstr "确认邮件地址用于 Firefox 账号"
 
-#: lib/senders/email.js:547
+#: lib/senders/email.js:548
 msgid "Reset your Firefox Account password"
 msgstr "重置您 Firefox 账户的密码"
 
-#: lib/senders/email.js:588
+#: lib/senders/email.js:589
 msgid "Your Firefox Account password has been changed"
 msgstr "您 Firefox 账号的密码已被更改"
 
-#: lib/senders/email.js:627
+#: lib/senders/email.js:628
 msgid "Your Firefox Account password has been reset"
 msgstr "您 Firefox 账户的密码已被重置"
 
-#: lib/senders/email.js:661
+#: lib/senders/email.js:662
 msgid "Firefox Account password reset required"
 msgstr "Firefox 账户的密码必须重置"
 
-#: lib/senders/email.js:735
+#: lib/senders/email.js:736
 msgid "Firefox Account verified"
 msgstr "已验证 Firefox 账户"
 
-#: lib/senders/email.js:774
+#: lib/senders/email.js:775
 msgid "Secondary Firefox Account email added"
 msgstr "已添加 Firefox 账号 次要邮件地址"
 

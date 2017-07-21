@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fxa-server\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-07 16:08+0000\n"
+"POT-Creation-Date: 2017-07-21 16:09+0000\n"
 "PO-Revision-Date: 2017-05-21 11:05+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:803
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:804
 msgid "Still there?"
 msgstr "Әлі осындасыз ба?"
 
@@ -56,7 +56,7 @@ msgid "Firefox Accounts"
 msgstr "Firefox тіркелгілері"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:695
+#: lib/senders/email.js:696
 msgid "New sign-in to Firefox"
 msgstr "Firefox-қа жаңа кіру"
 
@@ -247,7 +247,7 @@ msgstr "Жоқ болса, алаяқтылармен күресуге көме�
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Жоқ болса, алаяқтылармен күресуге көмектесу үшін ол туралы бізге хабарлаңыз."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:800
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:801
 msgid "Hello again."
 msgstr "Қайтадан, сәлем."
 
@@ -381,27 +381,27 @@ msgstr "Firefox-қа жаңа кіруді растаңыз"
 msgid "Verify email for Firefox Accounts"
 msgstr "Firefox тіркелгілері үшін эл. поштаны растаңыз"
 
-#: lib/senders/email.js:547
+#: lib/senders/email.js:548
 msgid "Reset your Firefox Account password"
 msgstr "Firefox тіркелгі паролін тастау"
 
-#: lib/senders/email.js:588
+#: lib/senders/email.js:589
 msgid "Your Firefox Account password has been changed"
 msgstr "Сіздің Firefox тіркелгісі паролі өзгертілді"
 
-#: lib/senders/email.js:627
+#: lib/senders/email.js:628
 msgid "Your Firefox Account password has been reset"
 msgstr "Сіздің Firefox тіркелгісі паролі тасталды"
 
-#: lib/senders/email.js:661
+#: lib/senders/email.js:662
 msgid "Firefox Account password reset required"
 msgstr "Firefox тіркелгісінің паролін тастау керек"
 
-#: lib/senders/email.js:735
+#: lib/senders/email.js:736
 msgid "Firefox Account verified"
 msgstr "Firefox тіркелгісі расталды"
 
-#: lib/senders/email.js:774
+#: lib/senders/email.js:775
 msgid "Secondary Firefox Account email added"
 msgstr "Firefox тіркелгісінің екіншілік эл. пошта адресі қосылды"
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-07 16:08+0000\n"
+"POT-Creation-Date: 2017-07-21 16:09+0000\n"
 "PO-Revision-Date: 2017-04-28 19:27+0000\n"
 "Last-Translator: Roberto Alvarado <ralv888@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:803
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:804
 msgid "Still there?"
 msgstr "¿Sigues ahí?"
 
@@ -56,7 +56,7 @@ msgid "Firefox Accounts"
 msgstr "Cuentas de Firefox"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:695
+#: lib/senders/email.js:696
 msgid "New sign-in to Firefox"
 msgstr "Nuevo inicio de sesión en Firefox"
 
@@ -248,7 +248,7 @@ msgstr "Si no es así, ayúdanos a defendernos de los intrusos e <a %(reportSign
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Si no es así, ayúdanos a defendernos de los intrusos e informarnos."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:800
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:801
 msgid "Hello again."
 msgstr "Hola de nuevo."
 
@@ -380,27 +380,27 @@ msgstr "Confirma nuevo inicio de sesión de Firefox"
 msgid "Verify email for Firefox Accounts"
 msgstr "Verificar correo electrónico para Firefox Accounts"
 
-#: lib/senders/email.js:547
+#: lib/senders/email.js:548
 msgid "Reset your Firefox Account password"
 msgstr "Restablece la contraseña de tu cuenta de Firefox"
 
-#: lib/senders/email.js:588
+#: lib/senders/email.js:589
 msgid "Your Firefox Account password has been changed"
 msgstr "La contraseña de tu cuenta de Firefox ha sido cambiada"
 
-#: lib/senders/email.js:627
+#: lib/senders/email.js:628
 msgid "Your Firefox Account password has been reset"
 msgstr "La contraseña de tu cuenta de Firefox ha sido cambiada"
 
-#: lib/senders/email.js:661
+#: lib/senders/email.js:662
 msgid "Firefox Account password reset required"
 msgstr "Se requiere restablecer la contraseña de tu cuenta de Firefox"
 
-#: lib/senders/email.js:735
+#: lib/senders/email.js:736
 msgid "Firefox Account verified"
 msgstr "Cuenta de Firefox verificada"
 
-#: lib/senders/email.js:774
+#: lib/senders/email.js:775
 msgid "Secondary Firefox Account email added"
 msgstr "Correo electrónico secundario para la cuenta de Firefox ha sido agregado"
 

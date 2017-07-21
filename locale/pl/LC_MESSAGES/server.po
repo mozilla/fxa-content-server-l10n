@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-07 16:08+0000\n"
+"POT-Creation-Date: 2017-07-21 16:09+0000\n"
 "PO-Revision-Date: 2017-04-28 22:46+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:803
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:804
 msgid "Still there?"
 msgstr "Nadal z nami?"
 
@@ -56,7 +56,7 @@ msgid "Firefox Accounts"
 msgstr "Konta Firefoksa"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:695
+#: lib/senders/email.js:696
 msgid "New sign-in to Firefox"
 msgstr "Nowe logowanie do Firefoksa"
 
@@ -244,7 +244,7 @@ msgstr "Jeśli nie, prosimy pomóc nam odpędzić intruzów <a %(reportSignInLin
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Jeśli nie, prosimy pomóc nam odpędzić intruzów zgłaszając to."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:800
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:801
 msgid "Hello again."
 msgstr "Witamy ponownie."
 
@@ -376,27 +376,27 @@ msgstr "Potwierdź nowe logowanie do Firefoksa"
 msgid "Verify email for Firefox Accounts"
 msgstr "Zweryfikuj adres e-mail dla konta Firefoksa"
 
-#: lib/senders/email.js:547
+#: lib/senders/email.js:548
 msgid "Reset your Firefox Account password"
 msgstr "Zmień hasło konta Firefoksa"
 
-#: lib/senders/email.js:588
+#: lib/senders/email.js:589
 msgid "Your Firefox Account password has been changed"
 msgstr "Zmieniono hasło konta Firefoksa"
 
-#: lib/senders/email.js:627
+#: lib/senders/email.js:628
 msgid "Your Firefox Account password has been reset"
 msgstr "Zmieniono hasło konta Firefoksa"
 
-#: lib/senders/email.js:661
+#: lib/senders/email.js:662
 msgid "Firefox Account password reset required"
 msgstr "Wymagana jest zmiana hasła konta Firefoksa"
 
-#: lib/senders/email.js:735
+#: lib/senders/email.js:736
 msgid "Firefox Account verified"
 msgstr "Zweryfikowano konto Firefoksa"
 
-#: lib/senders/email.js:774
+#: lib/senders/email.js:775
 msgid "Secondary Firefox Account email added"
 msgstr "Dodano drugi adres e-mail konta Firefoksa"
 

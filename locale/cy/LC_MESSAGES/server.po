@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-07 16:08+0000\n"
+"POT-Creation-Date: 2017-07-21 16:09+0000\n"
 "PO-Revision-Date: 2017-05-04 14:45+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1426193839.0\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:803
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:804
 msgid "Still there?"
 msgstr "Dal yna?"
 
@@ -57,7 +57,7 @@ msgid "Firefox Accounts"
 msgstr "Cyfrifon Firefox"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:695
+#: lib/senders/email.js:696
 msgid "New sign-in to Firefox"
 msgstr "Mewngofnodiad newydd i Firefox"
 
@@ -248,7 +248,7 @@ msgstr "Os nad, cynorthwywch ni i gadw ymyrwyr draw ac <a %(reportSignInLinkAttr
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Os nad, cynorthwywch ni i gadw ymyrwyr draw ac adrodd arno i ni."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:800
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:801
 msgid "Hello again."
 msgstr "Helo eto."
 
@@ -380,27 +380,27 @@ msgstr "Cadarnhewch fewngofnodiad newydd i Firefox"
 msgid "Verify email for Firefox Accounts"
 msgstr "Dilysu e-byst ar gyfer Cyfrif Firefox"
 
-#: lib/senders/email.js:547
+#: lib/senders/email.js:548
 msgid "Reset your Firefox Account password"
 msgstr "Ailosodwch gyfrinair eich Cyfrif Firefox"
 
-#: lib/senders/email.js:588
+#: lib/senders/email.js:589
 msgid "Your Firefox Account password has been changed"
 msgstr "Mae cyfrinair eich cyfrif Firefox wedi ei newid"
 
-#: lib/senders/email.js:627
+#: lib/senders/email.js:628
 msgid "Your Firefox Account password has been reset"
 msgstr "Mae cyfrinair eich Cyfrif Firefox wedi ei ailosod"
 
-#: lib/senders/email.js:661
+#: lib/senders/email.js:662
 msgid "Firefox Account password reset required"
 msgstr "Mae angen ailosod cyfrinair eich Cyfrif Firefox"
 
-#: lib/senders/email.js:735
+#: lib/senders/email.js:736
 msgid "Firefox Account verified"
 msgstr "Cyfrif Firefox wedi ei wirio"
 
-#: lib/senders/email.js:774
+#: lib/senders/email.js:775
 msgid "Secondary Firefox Account email added"
 msgstr "Ychwanegwyd e-bost newydd Cyfrif Firefox"
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-07 16:08+0000\n"
+"POT-Creation-Date: 2017-07-21 16:09+0000\n"
 "PO-Revision-Date: 2017-03-18 20:35+0000\n"
 "Last-Translator: Ian Neal <iann_bugzilla@blueyonder.co.uk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: app/scripts/views/complete_sign_up.js:177 app/scripts/models/auth_brokers/web.js:22
+#: app/scripts/views/complete_sign_up.js:174 app/scripts/models/auth_brokers/web.js:22
 msgid "Account verified successfully"
 msgstr "Account verified successfully"
 
@@ -70,25 +70,21 @@ msgstr "You are now ready to use %(serviceName)s"
 msgid "Account verified"
 msgstr "Account verified"
 
-#: app/scripts/views/reset_password.js:65 app/scripts/views/sign_in.js:171
+#: app/scripts/views/reset_password.js:64 app/scripts/views/sign_in.js:167
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Unknown account. <a href=\"/signup\">Sign up</a>"
 
-#: app/scripts/views/sign_in.js:168
+#: app/scripts/views/sign_in.js:164
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 
-#: app/scripts/views/sign_up.js:61
+#: app/scripts/views/sign_up.js:58
 msgid "Account no longer exists. Recreate it?"
 msgstr "Account no longer exists. Recreate it?"
 
-#: app/scripts/views/sign_up.js:380
+#: app/scripts/views/sign_up.js:357
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Account already exists. <a href=\"/signin\">Sign in</a>"
-
-#: app/scripts/views/sms_sent.js:26
-msgid "App link resent to %(phoneNumber)s"
-msgstr ""
 
 #: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
@@ -102,20 +98,32 @@ msgstr "We're sorry to hear about this. You should change your Firefox Account p
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 
-#: app/scripts/views/settings/clients.js:63
+#: app/scripts/views/settings/clients.js:64
 msgid "Web Session, %(userAgent)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:65
+#: app/scripts/views/settings/clients.js:66 app/scripts/lib/strings.js:43
+msgid "Web Session"
+msgstr "Web Session"
+
+#: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:70
-msgid "started syncing %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:75
+msgid "last sync %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:75
+#: app/scripts/views/settings/clients.js:78
+msgid "first sync %(translatedTimeAgo)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:84
 msgid "last active %(translatedTimeAgo)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:88
+msgid "last sync time unknown"
 msgstr ""
 
 #: app/scripts/views/settings/communication_preferences.js:118
@@ -134,7 +142,7 @@ msgstr "Account deleted successfully"
 msgid "Display name updated"
 msgstr "Display name updated"
 
-#: app/scripts/views/settings/emails.js:136 app/scripts/views/settings/emails.js:149
+#: app/scripts/views/settings/emails.js:125 app/scripts/views/settings/emails.js:138
 msgid "Verification email sent"
 msgstr ""
 
@@ -611,10 +619,6 @@ msgstr "IP address: %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "For added security, please confirm this sign-in to begin synchronising with this device:"
 
-#: app/scripts/lib/strings.js:43
-msgid "Web Session"
-msgstr "Web Session"
-
 #: app/scripts/lib/strings.js:49
 msgid "Sign in"
 msgstr "Sign in"
@@ -644,20 +648,16 @@ msgid "Learn more"
 msgstr "Learn more"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-msgid "%(email)s created"
-msgstr "%(email)s created"
+msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
+msgstr ""
 
-#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23
+#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:21
 msgid "Choose what to sync"
 msgstr "Choose what to synchronise"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Save settings"
 msgstr "Save settings"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:6 app/scripts/templates/confirm.mustache:13 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
-msgid "Back"
-msgstr "Back"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -727,32 +727,32 @@ msgstr "Confirm your account"
 msgid "Confirm this sign-in"
 msgstr "Confirm this sign-in"
 
-#: app/scripts/templates/confirm.mustache:5 app/scripts/templates/confirm_reset_password.mustache:2
-msgid "Email Sent"
-msgstr "Email Sent"
-
-#: app/scripts/templates/confirm.mustache:6
+#: app/scripts/templates/confirm.mustache:5
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
 msgstr ""
 
-#: app/scripts/templates/confirm.mustache:8
+#: app/scripts/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 msgstr ""
 
-#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:12 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
+#: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
 msgstr ""
+
+#: app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+msgid "Back"
+msgstr "Back"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
 msgstr "Reset email sent"
 
-#: app/scripts/templates/confirm_reset_password.mustache:3
+#: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
 msgstr "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
 
-#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7 app/scripts/templates/reset_password.mustache:10
+#: app/scripts/templates/confirm_reset_password.mustache:4 app/scripts/templates/confirm_reset_password.mustache:6 app/scripts/templates/reset_password.mustache:10
 #: app/scripts/templates/reset_password.mustache:12
 msgid "Remember password? Sign in"
 msgstr "Remember password? Sign in"
@@ -765,7 +765,7 @@ msgstr "Connect another device"
 msgid "This Firefox is connected"
 msgstr "This Firefox is connected"
 
-#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:3
+#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
 msgstr "Success"
 
@@ -813,7 +813,7 @@ msgstr "Try again"
 msgid "Sign in to continue"
 msgstr "Sign in to continue"
 
-#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_up.mustache:13
 #: app/scripts/templates/settings/change_password.mustache:1 app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Password"
@@ -822,7 +822,7 @@ msgstr "Password"
 msgid "Forgot password?"
 msgstr "Forgot password?"
 
-#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:18
+#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 
@@ -915,7 +915,7 @@ msgstr "Continue to %(serviceName)s"
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "When you reset your password, you will lose any Sync data that is not on one of your devices."
 
-#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:11
 msgid "Email"
 msgstr "Email"
 
@@ -976,30 +976,26 @@ msgid "Create a Firefox Account"
 msgstr "Create a Firefox Account"
 
 #: app/scripts/templates/sign_up.mustache:6
-msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr ""
-
-#: app/scripts/templates/sign_up.mustache:8
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr "Migrate your Sync data by creating a new Firefox&nbsp;Account."
 
-#: app/scripts/templates/sign_up.mustache:10
+#: app/scripts/templates/sign_up.mustache:8
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 
-#: app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/sign_up.mustache:15
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "A strong, unique password will keep your Firefox data safe from intruders."
 
-#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/sign_up.mustache:17
 msgid "Receive the monthly Firefox newsletter"
 msgstr ""
 
-#: app/scripts/templates/sign_up.mustache:21
+#: app/scripts/templates/sign_up.mustache:19
 msgid "Create account"
 msgstr "Create account"
 
-#: app/scripts/templates/sign_up.mustache:26
+#: app/scripts/templates/sign_up.mustache:24
 msgid "Have an account? Sign in"
 msgstr "Have an account? Sign in"
 
@@ -1024,7 +1020,7 @@ msgstr ""
 msgid "Maybe later"
 msgstr "Maybe later"
 
-#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4
+#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
 msgstr ""
 
@@ -1032,11 +1028,15 @@ msgstr ""
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
 msgstr ""
 
-#: app/scripts/templates/sms_sent.mustache:5
+#: app/scripts/templates/sms_sent.mustache:3
+msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
 msgstr "If you are not receiving the text message, you can also download the apps manually."
 
-#: app/scripts/templates/sms_sent.mustache:6
+#: app/scripts/templates/sms_sent.mustache:8
 msgid "Didn't arrive? Resend"
 msgstr "Didn't arrive? Resend"
 
@@ -1129,7 +1129,7 @@ msgstr "Duplicate device"
 msgid "Rather not say"
 msgstr "Rather not say"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:13 app/scripts/templates/settings/clients.mustache:16
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:13
 msgid "Disconnect"
 msgstr "Disconnect"
 
@@ -1155,6 +1155,10 @@ msgstr "Disconnect…"
 
 #: app/scripts/templates/settings/clients.mustache:11
 msgid "current session"
+msgstr ""
+
+#: app/scripts/templates/settings/clients.mustache:16
+msgid "Revoke"
 msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:19
@@ -1249,6 +1253,10 @@ msgstr "Add"
 msgid "How old are you?"
 msgstr "How old are you?"
 
+#: app/scripts/templates/partial/sync-suggestion.mustache:1
+msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
+msgstr ""
+
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
 msgstr "Sign in to Sync"
@@ -1266,16 +1274,22 @@ msgid "Use Firefox Account"
 msgstr "Use Firefox Account"
 
 #. submit button
-#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:94
+#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:91
 msgctxt "submit button"
 msgid "Sign in"
 msgstr ""
 
 #. header text
-#: app/scripts/views/sign_in.js:97
+#: app/scripts/views/sign_in.js:94
 msgctxt "header text"
 msgid "Sign in"
 msgstr ""
+
+#~ msgid "%(email)s created"
+#~ msgstr "%(email)s created"
+
+#~ msgid "Email Sent"
+#~ msgstr "Email Sent"
 
 #~ msgid "Learn more."
 #~ msgstr "Learn more."
