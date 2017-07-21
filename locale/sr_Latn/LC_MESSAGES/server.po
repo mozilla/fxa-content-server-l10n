@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-07 16:08+0000\n"
+"POT-Creation-Date: 2017-07-21 16:09+0000\n"
 "PO-Revision-Date: 2017-05-01 18:46+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 #: lib/senders/templates/_pending.txt:1
 #: lib/senders/templates/verification_reminder_second.html:2
 #: lib/senders/templates/verification_reminder_second.txt:1
-#: lib/senders/email.js:803
+#: lib/senders/email.js:804
 msgid "Still there?"
 msgstr "Još uvek ste ovde?"
 
@@ -86,7 +86,7 @@ msgstr "Firefox nalozi"
 #: lib/senders/templates/new_device_login.html:2
 #: lib/senders/templates/new_device_login.txt:1
 #: lib/senders/templates/verify_login.html:2
-#: lib/senders/templates/verify_login.txt:1 lib/senders/email.js:695
+#: lib/senders/templates/verify_login.txt:1 lib/senders/email.js:696
 msgid "New sign-in to Firefox"
 msgstr "Nova Firefox prijava"
 
@@ -421,7 +421,7 @@ msgstr "Ako niste, pomozite nam da odbijemo uljeza i prijavite nam to."
 
 #: lib/senders/templates/verification_reminder_first.html:2
 #: lib/senders/templates/verification_reminder_first.txt:1
-#: lib/senders/email.js:800
+#: lib/senders/email.js:801
 msgid "Hello again."
 msgstr "Pozdrav."
 
@@ -613,27 +613,27 @@ msgstr "Potvrdi novu Firefox prijavu"
 msgid "Verify email for Firefox Accounts"
 msgstr "Verifikujte adresu za Firefox naloge"
 
-#: lib/senders/email.js:547
+#: lib/senders/email.js:548
 msgid "Reset your Firefox Account password"
 msgstr "Resetujte lozinku Firefox naloga"
 
-#: lib/senders/email.js:588
+#: lib/senders/email.js:589
 msgid "Your Firefox Account password has been changed"
 msgstr "Lozinka Firefox naloga je promenjena"
 
-#: lib/senders/email.js:627
+#: lib/senders/email.js:628
 msgid "Your Firefox Account password has been reset"
 msgstr "Lozinka Firefox naloga je resetovana"
 
-#: lib/senders/email.js:661
+#: lib/senders/email.js:662
 msgid "Firefox Account password reset required"
 msgstr "Potrebno je da resetujete lozinku Firefox naloga"
 
-#: lib/senders/email.js:735
+#: lib/senders/email.js:736
 msgid "Firefox Account verified"
 msgstr "Firefox nalog potvrđen"
 
-#: lib/senders/email.js:774
+#: lib/senders/email.js:775
 msgid "Secondary Firefox Account email added"
 msgstr "Sekundarna adresa Firefox naloga dodata"
 
