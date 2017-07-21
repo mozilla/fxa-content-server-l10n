@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-21 16:09+0000\n"
-"PO-Revision-Date: 2017-07-21 22:11+0000\n"
+"PO-Revision-Date: 2017-07-21 22:12+0000\n"
 "Last-Translator: Amin Mahmudian <amin.mahmudian@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
@@ -1030,7 +1030,7 @@ msgstr "پیوند برنامه به %(escapedPhoneNumber)s ارسال شد، <a
 
 #: app/scripts/templates/sms_sent.mustache:3
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "پیوند برنامه دوباره به %(escapedPhoneNumber)s ارسال شد، <a %(escapedBackLinkAttrs)s>شماره را اشتباه وارد کرده‌اید؟</a>"
+msgstr "پیوند برنامه دوباره به %(escapedPhoneNumber)s ارسال شد، <a %(escapedBackLinkAttrs)s>شماره را &nbsp; اشتباه وارد کرده‌اید؟</a>"
 
 #: app/scripts/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
