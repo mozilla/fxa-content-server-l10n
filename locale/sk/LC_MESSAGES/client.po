@@ -1160,7 +1160,7 @@ msgstr "aktuálna relácia"
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
-msgstr ""
+msgstr "Odvolať"
 
 #: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
