@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-21 16:09+0000\n"
-"PO-Revision-Date: 2017-07-21 15:26+0000\n"
-"Last-Translator: deimidis <deimidis@deimidis.me>\n"
+"PO-Revision-Date: 2017-07-21 22:58+0000\n"
+"Last-Translator: Marcelo Poli <enzomatrix@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
 "MIME-Version: 1.0\n"
@@ -113,11 +113,11 @@ msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:75
 msgid "last sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "última sincronización %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:78
 msgid "first sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "primera sincronización %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:84
 msgid "last active %(translatedTimeAgo)s"
@@ -125,7 +125,7 @@ msgstr "última actividad hace %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:88
 msgid "last sync time unknown"
-msgstr ""
+msgstr "última sincronizacion hora desconocida"
 
 #: app/scripts/views/settings/communication_preferences.js:118
 msgid "Subscribed successfully"
@@ -648,7 +648,7 @@ msgstr "Descubrí más"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
-msgstr ""
+msgstr "%(escapedEmail)s registrado. <a %(escapedBackLinkParams)s>¿Dirección de correo mal escrita?</a>"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:21
 msgid "Choose what to sync"
@@ -1033,7 +1033,7 @@ msgstr "Enlace de aplicación enviado a %(escapedPhoneNumber)s. <a %(escapedBack
 
 #: app/scripts/templates/sms_sent.mustache:3
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Enlace de aplicación enviado a %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>¿Número mal escrito?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1162,7 +1162,7 @@ msgstr "sesión actual"
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
-msgstr ""
+msgstr "Revocar"
 
 #: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
