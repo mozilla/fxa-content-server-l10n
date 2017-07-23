@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -645,7 +645,7 @@ msgstr "Issin ugar"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
-msgstr "%(escapedEmail)s ittwasekles. <a%(escapedBackLinkParams)s>tucḍa di tira n imayl?</a>"
+msgstr "%(escapedEmail)s ittwasekles. <a %(escapedBackLinkParams)s>tucḍa di tira n imayl?</a>"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:21
 msgid "Choose what to sync"
