@@ -645,7 +645,7 @@ msgstr "Infórmate"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
-msgstr "%(escapedEmail)s registrado. <a%(escapedBackLinkParams)s>¿Correo erróneo?</a>"
+msgstr "%(escapedEmail)s registrado. <a %(escapedBackLinkParams)s>¿Correo erróneo?</a>"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:21
 msgid "Choose what to sync"
@@ -1024,11 +1024,11 @@ msgstr "Instala Firefox en tu teléfono móvil e inicia sesión para completar l
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "Se envió el enlace de la aplicación a %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>¿Número incorrecto?</a>"
+msgstr "Se envió el enlace de la aplicación a %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>¿Número equivocado?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:3
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "Enlace de la aplicación reenviado a %(escapedPhoneNumber)s. <a%(escapedBackLinkAttrs)s>¿Número equivocado?</a>"
+msgstr "Enlace de la aplicación reenviado a %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>¿Número equivocado?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
