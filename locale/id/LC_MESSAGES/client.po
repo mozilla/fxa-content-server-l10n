@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-21 16:09+0000\n"
-"PO-Revision-Date: 2017-07-25 06:06+0000\n"
+"PO-Revision-Date: 2017-07-25 06:36+0000\n"
 "Last-Translator: Fauzan Alfi <fauzanalfi@mozilla.web.id>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -878,7 +878,7 @@ msgstr "Batal"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr ""
+msgstr "Pemberitahuan akun akan dikirimkan ke %(secondaryEmailVerified)s sekarang juga"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
@@ -1025,11 +1025,11 @@ msgstr "Pasang Firefox pada ponsel pintar Anda dan masuk untuk melengkapi persia
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Tautan aplikasi dikirim ke %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Salah ketik&nbsp;nomor?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:3
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Tautan aplikasi dikirim ulang ke %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Salah ketik&nbsp;nomor?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1045,11 +1045,11 @@ msgstr "Kenapa sinkronkan banyak perangkat?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr ""
+msgstr "Layanan Sync bukan cadangan permanen, ini hanyalah sebuah cara yang aman untuk memindahkan markah tersimpan, riwayat dan sandi antar perangkat Anda."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
+msgstr "Anda harus memasang Firefox dan menyinkronkan setidaknya dua peranti untuk melindungi dari kehilangan data Anda jika Anda perlu memulihkannya tapi lupa sandi Anda."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1158,7 +1158,7 @@ msgstr "sesi terkini"
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
-msgstr ""
+msgstr "Cabut"
 
 #: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
@@ -1222,27 +1222,27 @@ msgstr "Pilih nama yang Anda inginkan tampil pada Firefox dan saat mengelola aku
 
 #: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:14
 msgid "Secondary email"
-msgstr ""
+msgstr "Surel kedua"
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-msgstr ""
+msgstr "Surel sekunder adalah alamat tambahan untuk menerima pemberitahuan keamanan dan mengonfirmasi sinkronisasi peranti baru."
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
-msgstr ""
+msgstr "terverifikasi"
 
 #: app/scripts/templates/settings/emails.mustache:9
 msgid "verification required"
-msgstr ""
+msgstr "verifikasi dibutuhkan"
 
 #: app/scripts/templates/settings/emails.mustache:10
 msgid "Remove"
-msgstr ""
+msgstr "Hapus"
 
 #: app/scripts/templates/settings/emails.mustache:11
 msgid "Not in inbox or spam folder? Resend?"
-msgstr ""
+msgstr "Tidak ada di kotak masuk atau folder spam? Kirim ulang?"
 
 #: app/scripts/templates/settings/emails.mustache:19
 msgid "Add"
@@ -1254,7 +1254,7 @@ msgstr "Berapa usia Anda?"
 
 #: app/scripts/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr ""
+msgstr "Mencari Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Mulailah di sini</a>"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
