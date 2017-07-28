@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-21 16:09+0000\n"
+"POT-Creation-Date: 2017-07-28 16:08+0000\n"
 "PO-Revision-Date: 2017-07-22 02:16+0000\n"
 "Last-Translator: YFdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,19 +72,19 @@ msgid "Account verified"
 msgstr "账户已验证"
 
 # see https://bugzilla.mozilla.org/show_bug.cgi?id=1131472
-#: app/scripts/views/reset_password.js:64 app/scripts/views/sign_in.js:167
+#: app/scripts/views/reset_password.js:55 app/scripts/views/sign_in.js:162
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "未知账户。<a href=\"/signup\">注册</a>"
 
-#: app/scripts/views/sign_in.js:164
+#: app/scripts/views/sign_in.js:159
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "未知 Firefox 账户。使用与您先前在附加组件网站上注册的账户相同的邮件地址<a href=\"/signup\">注册</a> Firefox 账户，即可取回原先的数据。"
 
-#: app/scripts/views/sign_up.js:58
+#: app/scripts/views/sign_up.js:57
 msgid "Account no longer exists. Recreate it?"
 msgstr "账户已不存在。重新创建？"
 
-#: app/scripts/views/sign_up.js:357
+#: app/scripts/views/sign_up.js:297
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "账户已存在。<a href=\"/signin\">登录</a>"
 
@@ -113,12 +113,12 @@ msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:75
-msgid "last sync %(translatedTimeAgo)s"
-msgstr "上次同步 %(translatedTimeAgo)s"
-
-#: app/scripts/views/settings/clients.js:78
 msgid "first sync %(translatedTimeAgo)s"
 msgstr "首次同步 %(translatedTimeAgo)s"
+
+#: app/scripts/views/settings/clients.js:78
+msgid "last sync %(translatedTimeAgo)s"
+msgstr "上次同步 %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:84
 msgid "last active %(translatedTimeAgo)s"
@@ -144,9 +144,13 @@ msgstr "已成功删除账户"
 msgid "Display name updated"
 msgstr "显示名称已更新"
 
-#: app/scripts/views/settings/emails.js:125 app/scripts/views/settings/emails.js:138
+#: app/scripts/views/settings/emails.js:138 app/scripts/views/settings/emails.js:151
 msgid "Verification email sent"
 msgstr "验证邮件已发送"
+
+#: app/scripts/views/settings/emails.js:166
+msgid "Primary email set to %(email)s"
+msgstr ""
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -180,35 +184,35 @@ msgstr "打开 Restmail"
 msgid "Email resent"
 msgstr "邮件已重发"
 
-#: app/scripts/models/sync-engines.js:35
+#: app/scripts/models/sync-engines.js:33
 msgid "Open tabs"
 msgstr "打开的标签页"
 
-#: app/scripts/models/sync-engines.js:40
+#: app/scripts/models/sync-engines.js:38
 msgid "Bookmarks"
 msgstr "书签"
 
-#: app/scripts/models/sync-engines.js:45
+#: app/scripts/models/sync-engines.js:43
 msgid "Add-ons"
 msgstr "附加组件"
 
-#: app/scripts/models/sync-engines.js:50
+#: app/scripts/models/sync-engines.js:48
 msgid "Passwords"
 msgstr "密码"
 
-#: app/scripts/models/sync-engines.js:55
+#: app/scripts/models/sync-engines.js:53
 msgid "History"
 msgstr "历史记录"
 
-#: app/scripts/models/sync-engines.js:60
+#: app/scripts/models/sync-engines.js:58
 msgid "Preferences"
 msgstr "首选项"
 
-#: app/scripts/models/sync-engines.js:72
+#: app/scripts/models/sync-engines.js:65
 msgid "Addresses"
 msgstr "地址"
 
-#: app/scripts/models/sync-engines.js:79
+#: app/scripts/models/sync-engines.js:72
 msgid "Credit cards"
 msgstr "信用卡"
 
@@ -590,7 +594,9 @@ msgid "SMS not sent, please try again"
 msgstr "短信未发送，请重试"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr "继续提交即代表您同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos\" href=\"%(termsUri)s\">服务条款</a>和<a id=\"service-pp\" href=\"%(privacyUri)s\">隐私声明</a>。"
 
 #: app/scripts/lib/strings.js:30
@@ -649,7 +655,7 @@ msgstr "详细了解。"
 msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
 msgstr "%(escapedEmail)s 已注册。<a %(escapedBackLinkParams)s>输错邮箱？</a>"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:21
+#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:19
 msgid "Choose what to sync"
 msgstr "选择要同步的内容"
 
@@ -811,7 +817,7 @@ msgstr "再试一次"
 msgid "Sign in to continue"
 msgstr "登录以继续"
 
-#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_up.mustache:12
 #: app/scripts/templates/settings/change_password.mustache:1 app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "密码"
@@ -820,7 +826,7 @@ msgstr "密码"
 msgid "Forgot password?"
 msgstr "忘记密码？"
 
-#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:14
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr "继续提交即代表您同意 Firefox 云服务的<a id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>和<a id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>。"
 
@@ -873,7 +879,7 @@ msgstr "接受"
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9 app/scripts/templates/settings/communication_preferences.mustache:5
 #: app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6 app/scripts/templates/settings/display_name.mustache:8
-#: app/scripts/templates/settings/emails.mustache:20
+#: app/scripts/templates/settings/emails.mustache:25
 msgid "Cancel"
 msgstr "取消"
 
@@ -981,19 +987,19 @@ msgstr "创建一个 Firefox 账户以迁移您的同步数据。"
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr "在找您的附加组件网站数据？用您原先在附加组件网站注册过的电子邮件地址注册一个 Firefox 账号就可以了。"
 
-#: app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/sign_up.mustache:13
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "一个高强度且唯一的密码有助于保证您的 Firefox 数据不受侵害。"
 
-#: app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/sign_up.mustache:15
 msgid "Receive the monthly Firefox newsletter"
 msgstr "接收每月 Firefox 新闻报"
 
-#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/sign_up.mustache:17
 msgid "Create account"
 msgstr "创建账户"
 
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:22
 msgid "Have an account? Sign in"
 msgstr "已有账户？登录"
 
@@ -1079,7 +1085,7 @@ msgstr "摄像头"
 msgid "Clear"
 msgstr "清除"
 
-#: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:17
+#: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:22
 msgid "Done"
 msgstr "完成"
 
@@ -1179,7 +1185,7 @@ msgstr "Firefox for Android"
 msgid "Missing or duplicate items?"
 msgstr "缺失或者项目重复？"
 
-#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:15
+#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20
 msgid "Refresh"
 msgstr "刷新"
 
@@ -1219,7 +1225,7 @@ msgstr "您确认要删除自己的账户？这个操作无法撤销。"
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "请选择您想要在 Firefox 和管理账户时显示的名称。"
 
-#: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:14
+#: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
 msgstr "次要电子邮件地址"
 
@@ -1235,15 +1241,19 @@ msgstr "已验证"
 msgid "verification required"
 msgstr "需要验证"
 
-#: app/scripts/templates/settings/emails.mustache:10
+#: app/scripts/templates/settings/emails.mustache:10 app/scripts/templates/settings/emails.mustache:13
+msgid "Make primary"
+msgstr ""
+
+#: app/scripts/templates/settings/emails.mustache:12 app/scripts/templates/settings/emails.mustache:15
 msgid "Remove"
 msgstr "移除"
 
-#: app/scripts/templates/settings/emails.mustache:11
+#: app/scripts/templates/settings/emails.mustache:16
 msgid "Not in inbox or spam folder? Resend?"
 msgstr "不在收件箱和垃圾邮件箱？重新发送？"
 
-#: app/scripts/templates/settings/emails.mustache:19
+#: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
 msgstr "添加"
 
@@ -1338,14 +1348,16 @@ msgstr "登录"
 #~ msgstr "为什么要同步两台或以上的设备？"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr "同步使您可以共享书签、历史和密码，将一台设备上的 Firefox 数据同步到另一台设备的 Firefox 上。在您的手机或平板电脑上登录 Firefox，您保存到 Firefox 桌面版的所有内容也将显示。"
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
-#~ msgstr "同步不是为永久备份设计——它只共享您在本地保存的东西。如果您重置密码并且您的数据未存储在至少一台其他设备上，您可能会丢失与旧密码相关的所有信息。这就是为什么你应该在多台设备上安装 Firefox 并使用同步。"
+#~ msgstr ""
+#~ "同步不是为永久备份设计——它只共享您在本地保存的东西。如果您重置密码并且您的数据未存储在至少一台其他设备上，您可能会丢失与旧密码相关的所有信息。这就是为什么你应该在多台设备上安装 Firefox 并使用同"
+#~ "步。"
 
 #~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
 #~ msgstr "在找 Firefox 同步？<a href=\"%(escapedSyncSuggestionUrl)s\">从这里开始使用</a>"
@@ -1435,16 +1447,19 @@ msgstr "登录"
 #~ msgid "Sync preferences"
 #~ msgstr "同步选项"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "要使用 Firefox 同步？ <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">点此开始</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "已有另一个邮件地址的账号？<a href=\"%(signinUri)s\">登录</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "Firefox 可以在 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> 以及 <a href=\"%(linkLinux)s\">Linux</a> 上使用。"
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox 可以在 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> 以及 <a href=\"%(linkLinux)s"
+#~ "\">Linux</a> 上使用。"
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "最后活动：%(translatedTimeAgo)s"
@@ -1817,7 +1832,9 @@ msgstr "登录"
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "已有账号？登录。"
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr "继续则代表我同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos\" href=\"%(termsUri)s\">服务条款</a> 和 <a id=\"service-pp\" href=\"%(privacyUri)s\">隐私声明</a>。"
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."

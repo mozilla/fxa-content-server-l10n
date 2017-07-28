@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fxa-server\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-21 16:09+0000\n"
+"POT-Creation-Date: 2017-07-28 16:08+0000\n"
 "PO-Revision-Date: 2017-05-21 11:05+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:804
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:845
 msgid "Still there?"
 msgstr "Әлі осындасыз ба?"
 
@@ -47,16 +47,16 @@ msgid "Sign in to Sync"
 msgstr "Синхрондауға кіру"
 
 #: lib/senders/templates/new_device_login.html:1 lib/senders/templates/password_changed.html:1 lib/senders/templates/password_reset.html:1 lib/senders/templates/password_reset_required.html:1
-#: lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1 lib/senders/templates/post_verify_secondary_email.html:1 lib/senders/templates/recovery.html:1
-#: lib/senders/templates/unblock_code.html:1 lib/senders/templates/verification_reminder_first.html:1 lib/senders/templates/verification_reminder_second.html:1 lib/senders/templates/verify.html:1
-#: lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1
-#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
+#: lib/senders/templates/post_remove_secondary.html:1 lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1
+#: lib/senders/templates/post_verify_secondary_email.html:1 lib/senders/templates/recovery.html:1 lib/senders/templates/unblock_code.html:1 lib/senders/templates/verification_reminder_first.html:1
+#: lib/senders/templates/verification_reminder_second.html:1 lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_secondary.html:1
+#: lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
+#: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox тіркелгілері"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:696
+#: lib/senders/email.js:698
 msgid "New sign-in to Firefox"
 msgstr "Firefox-қа жаңа кіру"
 
@@ -71,8 +71,8 @@ msgstr "IP адресі: %(ip)s"
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr "Бұл автоматтандырылған эл. пошта хаты; егер сіз бұл әрекетті растамаған болсаңыз, онда <a %(passwordChangeLinkAttributes)s>пароліңізді ауыстырыңыз.</a>"
 
-#: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5 lib/senders/templates/post_verify.html:6
-#: lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/post_verify_secondary_email.html:6 lib/senders/templates/recovery.html:7
+#: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5 lib/senders/templates/post_remove_secondary.html:6
+#: lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/post_verify_secondary_email.html:6 lib/senders/templates/recovery.html:7
 #: lib/senders/templates/verification_reminder_first.html:6 lib/senders/templates/verification_reminder_second.html:6 lib/senders/templates/verify.html:6 lib/senders/templates/verify_secondary.html:8
 #: lib/senders/templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -80,12 +80,12 @@ msgstr "Көбірек білу үшін, <a %(supportLinkAttributes)s>Mozilla �
 
 #: lib/senders/templates/new_device_login.html:6 lib/senders/templates/new_device_login.txt:5 lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6
 #: lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5 lib/senders/templates/password_reset_required.html:10 lib/senders/templates/password_reset_required.txt:9
-#: lib/senders/templates/post_verify.html:7 lib/senders/templates/post_verify.txt:6 lib/senders/templates/post_verify_secondary.html:7 lib/senders/templates/post_verify_secondary.txt:6
-#: lib/senders/templates/post_verify_secondary_email.html:7 lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6
-#: lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verification_reminder_first.html:7 lib/senders/templates/verification_reminder_first.txt:6
-#: lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verification_reminder_second.txt:6 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6
-#: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:6
-#: lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
+#: lib/senders/templates/post_remove_secondary.html:7 lib/senders/templates/post_remove_secondary.txt:6 lib/senders/templates/post_verify.html:7 lib/senders/templates/post_verify.txt:6
+#: lib/senders/templates/post_verify_secondary.html:7 lib/senders/templates/post_verify_secondary.txt:6 lib/senders/templates/post_verify_secondary_email.html:7 lib/senders/templates/recovery.html:8
+#: lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6 lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verification_reminder_first.html:7
+#: lib/senders/templates/verification_reminder_first.txt:6 lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verification_reminder_second.txt:6
+#: lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6 lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6
+#: lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:6 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
 msgstr "Mozilla-ның жекелік саясаты"
 
@@ -93,8 +93,8 @@ msgstr "Mozilla-ның жекелік саясаты"
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
 msgstr "Бұл автоматтандырылған эл. пошта хаты; егер сіз өз Firefox тіркелгіңізге жаңа құрылғыны қоспаған болсаңыз, пароліңізді тез арада %(passwordChangeLink)s бойынша ауыстырыңыз"
 
-#: lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4 lib/senders/templates/post_verify.txt:5
-#: lib/senders/templates/post_verify_secondary.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:5
+#: lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4 lib/senders/templates/post_remove_secondary.txt:5
+#: lib/senders/templates/post_verify.txt:5 lib/senders/templates/post_verify_secondary.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:5
 #: lib/senders/templates/verification_reminder_second.txt:5 lib/senders/templates/verify.txt:5 lib/senders/templates/verify_sync.txt:7
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Көбірек білу үшін, %(supportUrl)s шолыңыз"
@@ -123,11 +123,11 @@ msgstr "Пароліңіз тасталды"
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
 msgstr "Сіздің Firefox тіркелгіңіздің паролі өзгертілген. Егер сіз оны өзгертпеген болсаңыз, онда дәл қазір <a %(resetLinkAttributes)s>пароліңізді тастаңыз</a>."
 
-#: lib/senders/templates/password_reset.html:4 lib/senders/templates/post_verify.html:5 lib/senders/templates/post_verify.txt:4 lib/senders/templates/post_verify_secondary.html:5
-#: lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/post_verify_secondary_email.html:5 lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5
-#: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.html:5
-#: lib/senders/templates/verification_reminder_second.txt:4 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4 lib/senders/templates/verify_sync.html:7
-#: lib/senders/templates/verify_sync.txt:6
+#: lib/senders/templates/password_reset.html:4 lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5
+#: lib/senders/templates/post_verify.txt:4 lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/post_verify_secondary.txt:4
+#: lib/senders/templates/post_verify_secondary_email.html:5 lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:5
+#: lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.html:5 lib/senders/templates/verification_reminder_second.txt:4
+#: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4 lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Бұл автоматтандырылған эл. пошта хаты; осыны алғаныңыз қате деп ойласаңыз, еш әрекетті жасау керек емес."
 
@@ -177,6 +177,22 @@ msgstr "Құрметпен,"
 msgid "The Firefox Accounts team"
 msgstr "Firefox тіркелгілер тобы"
 
+#: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
+msgid "Secondary email removed"
+msgstr ""
+
+#: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
+msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+msgstr ""
+
+#: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
+msgid "Manage account"
+msgstr "Тіркелгіні басқару"
+
+#: lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_verify_secondary.txt:3
+msgid "Manage account:"
+msgstr "Тіркелгіні басқару:"
+
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
 msgstr "Тіркелгі расталды!"
@@ -207,14 +223,6 @@ msgstr ""
 "Сіз сәтті түрде %(secondaryEmail)s адресін Firefox тіркелгісінің екіншілік эл. пошта адресін ретінде растадыңыз. Қауіпсіздік ескертулер және кіруге растаулар енді эл. пошта адрестерінің екеуіге де "
 "жеткізілетін болады."
 
-#: lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
-msgid "Manage account"
-msgstr "Тіркелгіні басқару"
-
-#: lib/senders/templates/post_verify_secondary.txt:3
-msgid "Manage account:"
-msgstr "Тіркелгіні басқару:"
-
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Forgot your password?"
 msgstr "Пароліңізді ұмыттыңыз ба?"
@@ -228,8 +236,8 @@ msgid "Reset password"
 msgstr "Парольді тастау"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
-msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
-msgstr "Сұралғандай, Firefox-ты өз мобильді құрылғыңызға орнату сілтемесі: %(link)s"
+msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
+msgstr ""
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1
 msgid "Is this you signing in?"
@@ -247,7 +255,7 @@ msgstr "Жоқ болса, алаяқтылармен күресуге көме�
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Жоқ болса, алаяқтылармен күресуге көмектесу үшін ол туралы бізге хабарлаңыз."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:801
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:842
 msgid "Hello again."
 msgstr "Қайтадан, сәлем."
 
@@ -337,73 +345,77 @@ msgstr "Бұл поштаны алғаныңызды растаңыз, біз с
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Расталғаннан кейін, біз сізге Firefox-ты кем дегенде бір құрылғыда орнатып, байланыстыруға көмектесеміз."
 
-#: lib/senders/email.js:160
+#: lib/senders/email.js:162
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s, қолдануда %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:163
+#: lib/senders/email.js:165
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s, қолдануда %(uaOS)s"
 
-#: lib/senders/email.js:190
+#: lib/senders/email.js:192
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (шамамен)"
 
-#: lib/senders/email.js:192
+#: lib/senders/email.js:194
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (шамамен)"
 
-#: lib/senders/email.js:194
+#: lib/senders/email.js:196
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (шамамен)"
 
-#: lib/senders/email.js:196
+#: lib/senders/email.js:198
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (шамамен)"
 
-#: lib/senders/email.js:295
+#: lib/senders/email.js:297
 msgid "Verify your Firefox Account"
 msgstr "Firefox тіркелгіңізді растаңыз"
 
-#: lib/senders/email.js:324
+#: lib/senders/email.js:326
 msgid "Confirm your email and start to sync!"
 msgstr "Эл. пошта адресіңізді растап, синхрондауды бастаңыз!"
 
-#: lib/senders/email.js:382
+#: lib/senders/email.js:384
 msgid "Firefox Account authorization code"
 msgstr "Firefox тіркелгісі авторизация коды"
 
-#: lib/senders/email.js:435
+#: lib/senders/email.js:437
 msgid "Confirm new sign-in to Firefox"
 msgstr "Firefox-қа жаңа кіруді растаңыз"
 
-#: lib/senders/email.js:492
+#: lib/senders/email.js:494
 msgid "Verify email for Firefox Accounts"
 msgstr "Firefox тіркелгілері үшін эл. поштаны растаңыз"
 
-#: lib/senders/email.js:548
+#: lib/senders/email.js:550
 msgid "Reset your Firefox Account password"
 msgstr "Firefox тіркелгі паролін тастау"
 
-#: lib/senders/email.js:589
+#: lib/senders/email.js:591
 msgid "Your Firefox Account password has been changed"
 msgstr "Сіздің Firefox тіркелгісі паролі өзгертілді"
 
-#: lib/senders/email.js:628
+#: lib/senders/email.js:630
 msgid "Your Firefox Account password has been reset"
 msgstr "Сіздің Firefox тіркелгісі паролі тасталды"
 
-#: lib/senders/email.js:662
+#: lib/senders/email.js:664
 msgid "Firefox Account password reset required"
 msgstr "Firefox тіркелгісінің паролін тастау керек"
 
-#: lib/senders/email.js:736
+#: lib/senders/email.js:738
 msgid "Firefox Account verified"
 msgstr "Firefox тіркелгісі расталды"
 
-#: lib/senders/email.js:775
+#: lib/senders/email.js:777
 msgid "Secondary Firefox Account email added"
 msgstr "Firefox тіркелгісінің екіншілік эл. пошта адресі қосылды"
+
+#: lib/senders/email.js:816
+msgid "Secondary Firefox Account email removed"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -456,6 +468,9 @@ msgstr "Firefox бұлттық қызметтері"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Қолдану шарттары"
+
+#~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
+#~ msgstr "Сұралғандай, Firefox-ты өз мобильді құрылғыңызға орнату сілтемесі: %(link)s"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 #~ msgstr ""

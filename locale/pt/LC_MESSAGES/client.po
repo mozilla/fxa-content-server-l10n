@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-21 16:09+0000\n"
-"PO-Revision-Date: 2017-07-07 18:51+0000\n"
+"POT-Creation-Date: 2017-07-28 16:08+0000\n"
+"PO-Revision-Date: 2017-07-21 17:07+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -70,19 +70,19 @@ msgstr "Está pronto para utilizar o %(serviceName)s"
 msgid "Account verified"
 msgstr "Conta verificada"
 
-#: app/scripts/views/reset_password.js:64 app/scripts/views/sign_in.js:167
+#: app/scripts/views/reset_password.js:55 app/scripts/views/sign_in.js:162
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Conta desconhecida. <a href=\"/signup\">Registar</a>"
 
-#: app/scripts/views/sign_in.js:164
+#: app/scripts/views/sign_in.js:159
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Conta Firefox desconhecida. <a href=\"/signup\">Registe-se</a> utilizando o endereço de email da sua conta Extras anterior para aceder aos seus dados de Extras."
 
-#: app/scripts/views/sign_up.js:58
+#: app/scripts/views/sign_up.js:57
 msgid "Account no longer exists. Recreate it?"
 msgstr "A conta já não existe. Pretende recreá-la?"
 
-#: app/scripts/views/sign_up.js:357
+#: app/scripts/views/sign_up.js:297
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "A conta já existe. <a href=\"/signin\">Inicie sessão</a>"
 
@@ -114,12 +114,12 @@ msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:75
-msgid "last sync %(translatedTimeAgo)s"
-msgstr ""
+msgid "first sync %(translatedTimeAgo)s"
+msgstr "primeira sincronização %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:78
-msgid "first sync %(translatedTimeAgo)s"
-msgstr ""
+msgid "last sync %(translatedTimeAgo)s"
+msgstr "última sincronização %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:84
 msgid "last active %(translatedTimeAgo)s"
@@ -127,7 +127,7 @@ msgstr "última vez ativo %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:88
 msgid "last sync time unknown"
-msgstr ""
+msgstr "último tempo de sincronização desconhecido"
 
 #: app/scripts/views/settings/communication_preferences.js:118
 msgid "Subscribed successfully"
@@ -145,9 +145,13 @@ msgstr "Conta apagada com sucesso"
 msgid "Display name updated"
 msgstr "Nome de apresentação atualizado"
 
-#: app/scripts/views/settings/emails.js:125 app/scripts/views/settings/emails.js:138
+#: app/scripts/views/settings/emails.js:138 app/scripts/views/settings/emails.js:151
 msgid "Verification email sent"
 msgstr "Email de verificação enviado"
+
+#: app/scripts/views/settings/emails.js:166
+msgid "Primary email set to %(email)s"
+msgstr ""
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -181,35 +185,35 @@ msgstr "Abrir Restmail"
 msgid "Email resent"
 msgstr "Email reenviado"
 
-#: app/scripts/models/sync-engines.js:35
+#: app/scripts/models/sync-engines.js:33
 msgid "Open tabs"
 msgstr "Separadores abertos"
 
-#: app/scripts/models/sync-engines.js:40
+#: app/scripts/models/sync-engines.js:38
 msgid "Bookmarks"
 msgstr "Marcadores"
 
-#: app/scripts/models/sync-engines.js:45
+#: app/scripts/models/sync-engines.js:43
 msgid "Add-ons"
 msgstr "Extras"
 
-#: app/scripts/models/sync-engines.js:50
+#: app/scripts/models/sync-engines.js:48
 msgid "Passwords"
 msgstr "Palavras-passe"
 
-#: app/scripts/models/sync-engines.js:55
+#: app/scripts/models/sync-engines.js:53
 msgid "History"
 msgstr "Histórico"
 
-#: app/scripts/models/sync-engines.js:60
+#: app/scripts/models/sync-engines.js:58
 msgid "Preferences"
 msgstr "Preferências"
 
-#: app/scripts/models/sync-engines.js:72
+#: app/scripts/models/sync-engines.js:65
 msgid "Addresses"
 msgstr "Endereços"
 
-#: app/scripts/models/sync-engines.js:79
+#: app/scripts/models/sync-engines.js:72
 msgid "Credit cards"
 msgstr "Cartões de crédito"
 
@@ -652,9 +656,9 @@ msgstr "Saber mais"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
-msgstr ""
+msgstr "%(escapedEmail)s registado. <a %(escapedBackLinkParams)s>Email mal escrito?</a>"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:21
+#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:19
 msgid "Choose what to sync"
 msgstr "Escolha o que sincronizar"
 
@@ -816,7 +820,7 @@ msgstr "Tentar novamente"
 msgid "Sign in to continue"
 msgstr "Inicie sessão para continuar"
 
-#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_up.mustache:12
 #: app/scripts/templates/settings/change_password.mustache:1 app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Palavra-passe"
@@ -825,7 +829,7 @@ msgstr "Palavra-passe"
 msgid "Forgot password?"
 msgstr "Esqueceu-se da palavra-passe?"
 
-#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:14
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
 "Ao proceder, está a concordar com os <a id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e com o <a id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de privacidade</a> dos serviços do Firefox "
@@ -880,7 +884,7 @@ msgstr "Aceitar"
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9 app/scripts/templates/settings/communication_preferences.mustache:5
 #: app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6 app/scripts/templates/settings/display_name.mustache:8
-#: app/scripts/templates/settings/emails.mustache:20
+#: app/scripts/templates/settings/emails.mustache:25
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -988,19 +992,19 @@ msgstr "Migre os seus dados de sincronização criando uma nova Conta&nbsp;Firef
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr "À procura dos seus dados de Extras? Registe-se para uma Conta Firefox com o endereço de email da sua conta Extras antiga."
 
-#: app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/sign_up.mustache:13
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "Uma palavra-passe forte e única irá manter os seus dados do Firefox seguros de intrusos."
 
-#: app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/sign_up.mustache:15
 msgid "Receive the monthly Firefox newsletter"
 msgstr "Receber o newsletter mensal do Firefox"
 
-#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/sign_up.mustache:17
 msgid "Create account"
 msgstr "Criar conta"
 
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:22
 msgid "Have an account? Sign in"
 msgstr "Tem uma conta? Iniciar sessão"
 
@@ -1037,7 +1041,7 @@ msgstr "Ligação de aplicação enviada para %(escapedPhoneNumber)s. <a %(escap
 
 #: app/scripts/templates/sms_sent.mustache:3
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Ligação de aplicação reenviada para %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Número&nbsp;mal escrito?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1088,7 +1092,7 @@ msgstr "Câmara"
 msgid "Clear"
 msgstr "Limpar"
 
-#: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:17
+#: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:22
 msgid "Done"
 msgstr "Feito"
 
@@ -1166,7 +1170,7 @@ msgstr "sessão atual"
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
-msgstr ""
+msgstr "Revogar"
 
 #: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
@@ -1188,7 +1192,7 @@ msgstr "Firefox para Android"
 msgid "Missing or duplicate items?"
 msgstr "Itens em falta ou duplicados?"
 
-#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:15
+#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20
 msgid "Refresh"
 msgstr "Atualizar"
 
@@ -1228,7 +1232,7 @@ msgstr "Tem a certeza de que pretende apagar a sua conta? Esta ação não pode 
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Escolha o nome que gostaria que fosse apresentado no Firefox e quando gere a sua conta."
 
-#: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:14
+#: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
 msgstr "Email secundário"
 
@@ -1244,15 +1248,19 @@ msgstr "verificado"
 msgid "verification required"
 msgstr "verificação requerida"
 
-#: app/scripts/templates/settings/emails.mustache:10
+#: app/scripts/templates/settings/emails.mustache:10 app/scripts/templates/settings/emails.mustache:13
+msgid "Make primary"
+msgstr ""
+
+#: app/scripts/templates/settings/emails.mustache:12 app/scripts/templates/settings/emails.mustache:15
 msgid "Remove"
 msgstr "Remover"
 
-#: app/scripts/templates/settings/emails.mustache:11
+#: app/scripts/templates/settings/emails.mustache:16
 msgid "Not in inbox or spam folder? Resend?"
 msgstr "Não está na caixa de entrada ou pasta de lixo? Reenviar?"
 
-#: app/scripts/templates/settings/emails.mustache:19
+#: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
 msgstr "Adicionar"
 

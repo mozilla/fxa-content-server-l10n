@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-21 16:09+0000\n"
+"POT-Creation-Date: 2017-07-28 16:08+0000\n"
 "PO-Revision-Date: 2017-07-28 00:25+0000\n"
 "Last-Translator: manxmensch <manxmensch@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,19 +70,19 @@ msgstr "Anda kini sedia untuk menggunakan %(serviceName)s"
 msgid "Account verified"
 msgstr "Akaun disahkan"
 
-#: app/scripts/views/reset_password.js:64 app/scripts/views/sign_in.js:167
+#: app/scripts/views/reset_password.js:55 app/scripts/views/sign_in.js:162
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Akaun tidak diketahui. <a href=\"/signup\">Daftar</a>"
 
-#: app/scripts/views/sign_in.js:164
+#: app/scripts/views/sign_in.js:159
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Akaun Firefox tidak dikenali. <a href=\"/signup\">Daftar</a>menggunakan alamat e-mel akaun Add-ons terdahulu anda untuk mengakses data Add-ons."
 
-#: app/scripts/views/sign_up.js:58
+#: app/scripts/views/sign_up.js:57
 msgid "Account no longer exists. Recreate it?"
 msgstr "Akaun tidak lagi wujud. Cipta kembali?"
 
-#: app/scripts/views/sign_up.js:357
+#: app/scripts/views/sign_up.js:297
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Akaun telah wujud. <a href=\"/signin\">Daftar masuk</a>"
 
@@ -111,12 +111,12 @@ msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:75
-msgid "last sync %(translatedTimeAgo)s"
-msgstr "sync terakhir %(translatedTimeAgo)s"
-
-#: app/scripts/views/settings/clients.js:78
 msgid "first sync %(translatedTimeAgo)s"
 msgstr "sync pertama %(translatedTimeAgo)s"
+
+#: app/scripts/views/settings/clients.js:78
+msgid "last sync %(translatedTimeAgo)s"
+msgstr "sync terakhir %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:84
 msgid "last active %(translatedTimeAgo)s"
@@ -142,9 +142,13 @@ msgstr "Akaun berjaya dihapuskan"
 msgid "Display name updated"
 msgstr "Nama paparan dikemaskini"
 
-#: app/scripts/views/settings/emails.js:125 app/scripts/views/settings/emails.js:138
+#: app/scripts/views/settings/emails.js:138 app/scripts/views/settings/emails.js:151
 msgid "Verification email sent"
 msgstr "E-mel pengesahan telah dihantar"
+
+#: app/scripts/views/settings/emails.js:166
+msgid "Primary email set to %(email)s"
+msgstr ""
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -178,35 +182,35 @@ msgstr "Buka Restmail"
 msgid "Email resent"
 msgstr "E-mel telah dihantar semula"
 
-#: app/scripts/models/sync-engines.js:35
+#: app/scripts/models/sync-engines.js:33
 msgid "Open tabs"
 msgstr "Buka tab"
 
-#: app/scripts/models/sync-engines.js:40
+#: app/scripts/models/sync-engines.js:38
 msgid "Bookmarks"
 msgstr "Tanda buku"
 
-#: app/scripts/models/sync-engines.js:45
+#: app/scripts/models/sync-engines.js:43
 msgid "Add-ons"
 msgstr "Add-ons"
 
-#: app/scripts/models/sync-engines.js:50
+#: app/scripts/models/sync-engines.js:48
 msgid "Passwords"
 msgstr "Kata laluan"
 
-#: app/scripts/models/sync-engines.js:55
+#: app/scripts/models/sync-engines.js:53
 msgid "History"
 msgstr "Sejarah"
 
-#: app/scripts/models/sync-engines.js:60
+#: app/scripts/models/sync-engines.js:58
 msgid "Preferences"
 msgstr "Keutamaan"
 
-#: app/scripts/models/sync-engines.js:72
+#: app/scripts/models/sync-engines.js:65
 msgid "Addresses"
 msgstr "Alamat"
 
-#: app/scripts/models/sync-engines.js:79
+#: app/scripts/models/sync-engines.js:72
 msgid "Credit cards"
 msgstr "Kad kredit"
 
@@ -588,8 +592,12 @@ msgid "SMS not sent, please try again"
 msgstr "SMS tidak dihantar, sila cuba lagi"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Dengan meneruskan, anda bersetuju dengan <a id=\"service-tos\" href=\"%(termsUri)s\">Terma Perkhidmatan</a> dan<a id=\"service-pp\" href=\"%(privacyUri)s\">Notis Privasi</a> %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Dengan meneruskan, anda bersetuju dengan <a id=\"service-tos\" href=\"%(termsUri)s\">Terma Perkhidmatan</a> dan<a id=\"service-pp\" href=\"%(privacyUri)s\">Notis Privasi</a> %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -647,7 +655,7 @@ msgstr "Ketahui lanjut"
 msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
 msgstr "%(escapedEmail)s didaftarkan. <a %(escapedBackLinkParams)s>Silap taip e-mel?</a>"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:21
+#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:19
 msgid "Choose what to sync"
 msgstr "Pilih apa yang hendak disync"
 
@@ -809,7 +817,7 @@ msgstr "Cuba lagi"
 msgid "Sign in to continue"
 msgstr "Daftar masuk untuk terus"
 
-#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_up.mustache:12
 #: app/scripts/templates/settings/change_password.mustache:1 app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Kata laluan"
@@ -818,9 +826,10 @@ msgstr "Kata laluan"
 msgid "Forgot password?"
 msgstr "Lupa kata laluan?"
 
-#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:14
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Dengan meneruskan, anda bersetuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\">Terma Perkhidmatan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\">Notis Privasi</a> perkhidmatan cloud Firefox."
+msgstr ""
+"Dengan meneruskan, anda bersetuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\">Terma Perkhidmatan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\">Notis Privasi</a> perkhidmatan cloud Firefox."
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -871,7 +880,7 @@ msgstr "Terima"
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9 app/scripts/templates/settings/communication_preferences.mustache:5
 #: app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6 app/scripts/templates/settings/display_name.mustache:8
-#: app/scripts/templates/settings/emails.mustache:20
+#: app/scripts/templates/settings/emails.mustache:25
 msgid "Cancel"
 msgstr "Batal"
 
@@ -979,19 +988,19 @@ msgstr "Pindahkan data sync anda dengan mencipta Akaun Firefox baru."
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr "Sedang mencari data Add-on anda? Daftar Akaun Firefox menggunakan alamat emel akaun Add-on lama anda."
 
-#: app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/sign_up.mustache:13
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "Kata laluan yang unik dan kuat akan memastikan data Firefox anda selamat dari penceroboh."
 
-#: app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/sign_up.mustache:15
 msgid "Receive the monthly Firefox newsletter"
 msgstr "Dapatkan buletin bulanan Firefox"
 
-#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/sign_up.mustache:17
 msgid "Create account"
 msgstr "Cipta akaun"
 
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:22
 msgid "Have an account? Sign in"
 msgstr "Ada akaun? Daftar masuk"
 
@@ -1079,7 +1088,7 @@ msgstr "Kamera"
 msgid "Clear"
 msgstr "Buang"
 
-#: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:17
+#: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:22
 msgid "Done"
 msgstr "Selesai"
 
@@ -1179,7 +1188,7 @@ msgstr "Firefox untuk Android"
 msgid "Missing or duplicate items?"
 msgstr "Item hilang atau diduplikasi?"
 
-#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:15
+#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20
 msgid "Refresh"
 msgstr "Muat semula"
 
@@ -1219,7 +1228,7 @@ msgstr "Anda pasti mahu menghapuskan akaun anda? Tindakan ini tidak boleh dibata
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Pilih nama anda yang anda ingin paparkan di Firefox dan apabila menguruskan akaun anda."
 
-#: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:14
+#: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
 msgstr "Emel kedua"
 
@@ -1235,15 +1244,19 @@ msgstr "disahkan"
 msgid "verification required"
 msgstr "pengesahan diperlukan"
 
-#: app/scripts/templates/settings/emails.mustache:10
+#: app/scripts/templates/settings/emails.mustache:10 app/scripts/templates/settings/emails.mustache:13
+msgid "Make primary"
+msgstr ""
+
+#: app/scripts/templates/settings/emails.mustache:12 app/scripts/templates/settings/emails.mustache:15
 msgid "Remove"
 msgstr "Buang"
 
-#: app/scripts/templates/settings/emails.mustache:11
+#: app/scripts/templates/settings/emails.mustache:16
 msgid "Not in inbox or spam folder? Resend?"
 msgstr "Tiada dalam peti masuk atau folder spam? Hantar semula?"
 
-#: app/scripts/templates/settings/emails.mustache:19
+#: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
 msgstr "Tambah"
 
@@ -1338,18 +1351,18 @@ msgstr "Daftar masuk"
 #~ msgstr "Kenapa Sync dua (atau lebih!) peranti?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sync membolehkan anda berkongsi tanda buku, sejarah dan kata laluan yang anda simpan ke Firefox dalam satu peranti dengan Firefox dalam peranti yang lain. Daftar masuk ke Firefox dalam telefon atau "
-#~ "tablet anda dan semua yang anda telah simpan ke Firefox untuk desktop akan muncul."
+#~ "Sync membolehkan anda berkongsi tanda buku, sejarah dan kata laluan yang anda simpan ke Firefox dalam satu peranti dengan Firefox dalam peranti yang lain. Daftar masuk ke Firefox dalam telefon "
+#~ "atau tablet anda dan semua yang anda telah simpan ke Firefox untuk desktop akan muncul."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync tidak direka sebagai sandaran kekal – ia hanya untuk berkongsi apa yang telah disimpan secara lokal. Jika anda set semua kata laluan dan data anda tidak disimpan sekurang-kurangnya dalam satu "
-#~ "peranti lain, anda boleh hilang semua maklumat terikat dengan kata laluan lama. Itulah sebabnya mengapa anda perlu memasang Firefox dan gunakan Sync lebih dari satu peranti."
+#~ "Sync tidak direka sebagai sandaran kekal – ia hanya untuk berkongsi apa yang telah disimpan secara lokal. Jika anda set semua kata laluan dan data anda tidak disimpan sekurang-kurangnya dalam "
+#~ "satu peranti lain, anda boleh hilang semua maklumat terikat dengan kata laluan lama. Itulah sebabnya mengapa anda perlu memasang Firefox dan gunakan Sync lebih dari satu peranti."
 
 #~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
 #~ msgstr "Sedang mencari Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Mulakan disini</a>"

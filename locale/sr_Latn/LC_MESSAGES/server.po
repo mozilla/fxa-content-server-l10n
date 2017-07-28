@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-21 16:09+0000\n"
+"POT-Creation-Date: 2017-07-28 16:08+0000\n"
 "PO-Revision-Date: 2017-05-01 18:46+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 #: lib/senders/templates/_pending.txt:1
 #: lib/senders/templates/verification_reminder_second.html:2
 #: lib/senders/templates/verification_reminder_second.txt:1
-#: lib/senders/email.js:804
+#: lib/senders/email.js:845
 msgid "Still there?"
 msgstr "Još uvek ste ovde?"
 
@@ -64,6 +64,7 @@ msgstr "Prijavi se na Sync"
 #: lib/senders/templates/password_changed.html:1
 #: lib/senders/templates/password_reset.html:1
 #: lib/senders/templates/password_reset_required.html:1
+#: lib/senders/templates/post_remove_secondary.html:1
 #: lib/senders/templates/post_verify.html:1
 #: lib/senders/templates/post_verify_secondary.html:1
 #: lib/senders/templates/post_verify_secondary_email.html:1
@@ -86,7 +87,7 @@ msgstr "Firefox nalozi"
 #: lib/senders/templates/new_device_login.html:2
 #: lib/senders/templates/new_device_login.txt:1
 #: lib/senders/templates/verify_login.html:2
-#: lib/senders/templates/verify_login.txt:1 lib/senders/email.js:696
+#: lib/senders/templates/verify_login.txt:1 lib/senders/email.js:698
 msgid "New sign-in to Firefox"
 msgstr "Nova Firefox prijava"
 
@@ -118,6 +119,7 @@ msgstr ""
 #: lib/senders/templates/new_device_login.html:5
 #: lib/senders/templates/password_changed.html:6
 #: lib/senders/templates/password_reset.html:5
+#: lib/senders/templates/post_remove_secondary.html:6
 #: lib/senders/templates/post_verify.html:6
 #: lib/senders/templates/post_verify_secondary.html:6
 #: lib/senders/templates/post_verify_secondary_email.html:6
@@ -142,6 +144,8 @@ msgstr ""
 #: lib/senders/templates/password_reset.txt:5
 #: lib/senders/templates/password_reset_required.html:10
 #: lib/senders/templates/password_reset_required.txt:9
+#: lib/senders/templates/post_remove_secondary.html:7
+#: lib/senders/templates/post_remove_secondary.txt:6
 #: lib/senders/templates/post_verify.html:7
 #: lib/senders/templates/post_verify.txt:6
 #: lib/senders/templates/post_verify_secondary.html:7
@@ -177,6 +181,7 @@ msgstr ""
 #: lib/senders/templates/new_device_login.txt:4
 #: lib/senders/templates/password_changed.txt:5
 #: lib/senders/templates/password_reset.txt:4
+#: lib/senders/templates/post_remove_secondary.txt:5
 #: lib/senders/templates/post_verify.txt:5
 #: lib/senders/templates/post_verify_secondary.txt:5
 #: lib/senders/templates/recovery.txt:6
@@ -228,6 +233,8 @@ msgstr ""
 "<a %(resetLinkAttributes)s>resetujte vašu lozinku</a> odmah."
 
 #: lib/senders/templates/password_reset.html:4
+#: lib/senders/templates/post_remove_secondary.html:5
+#: lib/senders/templates/post_remove_secondary.txt:4
 #: lib/senders/templates/post_verify.html:5
 #: lib/senders/templates/post_verify.txt:4
 #: lib/senders/templates/post_verify_secondary.html:5
@@ -318,6 +325,30 @@ msgstr "Najbolje,"
 msgid "The Firefox Accounts team"
 msgstr "Tim Firefox naloga"
 
+#: lib/senders/templates/post_remove_secondary.html:2
+#: lib/senders/templates/post_remove_secondary.txt:1
+msgid "Secondary email removed"
+msgstr ""
+
+#: lib/senders/templates/post_remove_secondary.html:3
+#: lib/senders/templates/post_remove_secondary.txt:2
+msgid ""
+"You have successfully removed %(secondaryEmail)s as a secondary email to "
+"your Firefox Account. Security notifications and sign-in confirmations will "
+"no longer be delivered to this address."
+msgstr ""
+
+#: lib/senders/templates/post_remove_secondary.html:4
+#: lib/senders/templates/post_verify_secondary.html:4
+#: lib/senders/templates/post_verify_secondary_email.html:4
+msgid "Manage account"
+msgstr "Upravljaj nalogom"
+
+#: lib/senders/templates/post_remove_secondary.txt:3
+#: lib/senders/templates/post_verify_secondary.txt:3
+msgid "Manage account:"
+msgstr "Upravljaj nalogom:"
+
 #: lib/senders/templates/post_verify.html:2
 #: lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
@@ -364,15 +395,6 @@ msgstr ""
 "Firefox naloga. Bezbednosne notifikacije i potvrde prijava će biti "
 "dostavljene na ove adrese."
 
-#: lib/senders/templates/post_verify_secondary.html:4
-#: lib/senders/templates/post_verify_secondary_email.html:4
-msgid "Manage account"
-msgstr "Upravljaj nalogom"
-
-#: lib/senders/templates/post_verify_secondary.txt:3
-msgid "Manage account:"
-msgstr "Upravljaj nalogom:"
-
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Forgot your password?"
 msgstr "Zaboravili ste lozinku?"
@@ -391,11 +413,9 @@ msgstr "Resetuj lozinku"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid ""
-"As requested, here is a link to install Firefox on your mobile device: "
+"Thanks for choosing Firefox! You can install Firefox for mobile here: "
 "%(link)s"
 msgstr ""
-"Kao što je zahtevano, evo veze za instalaciju Firefox-a na vaš mobilni: "
-"%(link)s"
 
 #: lib/senders/templates/unblock_code.html:2
 #: lib/senders/templates/unblock_code.txt:1
@@ -421,7 +441,7 @@ msgstr "Ako niste, pomozite nam da odbijemo uljeza i prijavite nam to."
 
 #: lib/senders/templates/verification_reminder_first.html:2
 #: lib/senders/templates/verification_reminder_first.txt:1
-#: lib/senders/email.js:801
+#: lib/senders/email.js:842
 msgid "Hello again."
 msgstr "Pozdrav."
 
@@ -569,73 +589,77 @@ msgstr ""
 "Jednom kada potvrdite, pomoćićemo vam da instalirate i povežete Firefox na "
 "barem jedan uređaj."
 
-#: lib/senders/email.js:160
+#: lib/senders/email.js:162
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s na %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:163
+#: lib/senders/email.js:165
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s na %(uaOS)s"
 
-#: lib/senders/email.js:190
+#: lib/senders/email.js:192
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (procenjeno)"
 
-#: lib/senders/email.js:192
+#: lib/senders/email.js:194
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (procenjeno)"
 
-#: lib/senders/email.js:194
+#: lib/senders/email.js:196
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (procenjeno)"
 
-#: lib/senders/email.js:196
+#: lib/senders/email.js:198
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (procenjeno)"
 
-#: lib/senders/email.js:295
+#: lib/senders/email.js:297
 msgid "Verify your Firefox Account"
 msgstr "Potvrdite Firefox nalog"
 
-#: lib/senders/email.js:324
+#: lib/senders/email.js:326
 msgid "Confirm your email and start to sync!"
 msgstr "Potvrdite vašu elektronsku adresu i počnite sa sinhronizacijom!"
 
-#: lib/senders/email.js:382
+#: lib/senders/email.js:384
 msgid "Firefox Account authorization code"
 msgstr "Autorazicioni kod Firefox naloga"
 
-#: lib/senders/email.js:435
+#: lib/senders/email.js:437
 msgid "Confirm new sign-in to Firefox"
 msgstr "Potvrdi novu Firefox prijavu"
 
-#: lib/senders/email.js:492
+#: lib/senders/email.js:494
 msgid "Verify email for Firefox Accounts"
 msgstr "Verifikujte adresu za Firefox naloge"
 
-#: lib/senders/email.js:548
+#: lib/senders/email.js:550
 msgid "Reset your Firefox Account password"
 msgstr "Resetujte lozinku Firefox naloga"
 
-#: lib/senders/email.js:589
+#: lib/senders/email.js:591
 msgid "Your Firefox Account password has been changed"
 msgstr "Lozinka Firefox naloga je promenjena"
 
-#: lib/senders/email.js:628
+#: lib/senders/email.js:630
 msgid "Your Firefox Account password has been reset"
 msgstr "Lozinka Firefox naloga je resetovana"
 
-#: lib/senders/email.js:662
+#: lib/senders/email.js:664
 msgid "Firefox Account password reset required"
 msgstr "Potrebno je da resetujete lozinku Firefox naloga"
 
-#: lib/senders/email.js:736
+#: lib/senders/email.js:738
 msgid "Firefox Account verified"
 msgstr "Firefox nalog potvrđen"
 
-#: lib/senders/email.js:775
+#: lib/senders/email.js:777
 msgid "Secondary Firefox Account email added"
 msgstr "Sekundarna adresa Firefox naloga dodata"
+
+#: lib/senders/email.js:816
+msgid "Secondary Firefox Account email removed"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -710,6 +734,13 @@ msgstr "Firefox cloud servisi"
 #: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Uslovi korišćenja"
+
+#~ msgid ""
+#~ "As requested, here is a link to install Firefox on your mobile device: "
+#~ "%(link)s"
+#~ msgstr ""
+#~ "Kao što je zahtevano, evo veze za instalaciju Firefox-a na vaš mobilni: "
+#~ "%(link)s"
 
 #~ msgid ""
 #~ "Did you sign in to your Firefox Account from any of the following "

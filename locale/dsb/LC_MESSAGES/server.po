@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-21 16:09+0000\n"
+"POT-Creation-Date: 2017-07-28 16:08+0000\n"
 "PO-Revision-Date: 2017-04-28 21:11+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444481614.0\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:804
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:845
 msgid "Still there?"
 msgstr "Sćo hyšći how?"
 
@@ -47,16 +47,16 @@ msgid "Sign in to Sync"
 msgstr "Pla Sync pśizjawiś"
 
 #: lib/senders/templates/new_device_login.html:1 lib/senders/templates/password_changed.html:1 lib/senders/templates/password_reset.html:1 lib/senders/templates/password_reset_required.html:1
-#: lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1 lib/senders/templates/post_verify_secondary_email.html:1 lib/senders/templates/recovery.html:1
-#: lib/senders/templates/unblock_code.html:1 lib/senders/templates/verification_reminder_first.html:1 lib/senders/templates/verification_reminder_second.html:1 lib/senders/templates/verify.html:1
-#: lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_secondary.html:1 lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1
-#: server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1
-#: server/templates/pages/src/terms.html:1
+#: lib/senders/templates/post_remove_secondary.html:1 lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1
+#: lib/senders/templates/post_verify_secondary_email.html:1 lib/senders/templates/recovery.html:1 lib/senders/templates/unblock_code.html:1 lib/senders/templates/verification_reminder_first.html:1
+#: lib/senders/templates/verification_reminder_second.html:1 lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_secondary.html:1
+#: lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
+#: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
 msgstr "Konta Firefox"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:696
+#: lib/senders/email.js:698
 msgid "New sign-in to Firefox"
 msgstr "Nowe pśizjawjenje pla Firefox"
 
@@ -71,8 +71,8 @@ msgstr "IP-adresa: %(ip)s"
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
 msgstr "To jo awtomatizěrowana mejlka; jolic njejsćo toś tu akciju awtorizěrował, <a %(passwordChangeLinkAttributes)s>změńśo pšosym swójo gronidło.</a>"
 
-#: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5 lib/senders/templates/post_verify.html:6
-#: lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/post_verify_secondary_email.html:6 lib/senders/templates/recovery.html:7
+#: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5 lib/senders/templates/post_remove_secondary.html:6
+#: lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/post_verify_secondary_email.html:6 lib/senders/templates/recovery.html:7
 #: lib/senders/templates/verification_reminder_first.html:6 lib/senders/templates/verification_reminder_second.html:6 lib/senders/templates/verify.html:6 lib/senders/templates/verify_secondary.html:8
 #: lib/senders/templates/verify_sync.html:8
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -80,12 +80,12 @@ msgstr "Za dalšne informacije woglědajśo se pšosym k <a %(supportLinkAttribu
 
 #: lib/senders/templates/new_device_login.html:6 lib/senders/templates/new_device_login.txt:5 lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6
 #: lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5 lib/senders/templates/password_reset_required.html:10 lib/senders/templates/password_reset_required.txt:9
-#: lib/senders/templates/post_verify.html:7 lib/senders/templates/post_verify.txt:6 lib/senders/templates/post_verify_secondary.html:7 lib/senders/templates/post_verify_secondary.txt:6
-#: lib/senders/templates/post_verify_secondary_email.html:7 lib/senders/templates/recovery.html:8 lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6
-#: lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verification_reminder_first.html:7 lib/senders/templates/verification_reminder_first.txt:6
-#: lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verification_reminder_second.txt:6 lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6
-#: lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6 lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:6
-#: lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
+#: lib/senders/templates/post_remove_secondary.html:7 lib/senders/templates/post_remove_secondary.txt:6 lib/senders/templates/post_verify.html:7 lib/senders/templates/post_verify.txt:6
+#: lib/senders/templates/post_verify_secondary.html:7 lib/senders/templates/post_verify_secondary.txt:6 lib/senders/templates/post_verify_secondary_email.html:7 lib/senders/templates/recovery.html:8
+#: lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6 lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verification_reminder_first.html:7
+#: lib/senders/templates/verification_reminder_first.txt:6 lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verification_reminder_second.txt:6
+#: lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6 lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6
+#: lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:6 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
 msgid "Mozilla Privacy Policy"
 msgstr "Pšawidła priwatnosći Mozilla"
 
@@ -93,8 +93,8 @@ msgstr "Pšawidła priwatnosći Mozilla"
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
 msgstr "To jo awtomatiska mejlka; jolic njejsćo swójomu kontoju Firefox nowy rěd pśidał, změńśo pšosym ned swójo gronidło na %(passwordChangeLink)s"
 
-#: lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4 lib/senders/templates/post_verify.txt:5
-#: lib/senders/templates/post_verify_secondary.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:5
+#: lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4 lib/senders/templates/post_remove_secondary.txt:5
+#: lib/senders/templates/post_verify.txt:5 lib/senders/templates/post_verify_secondary.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:5
 #: lib/senders/templates/verification_reminder_second.txt:5 lib/senders/templates/verify.txt:5 lib/senders/templates/verify_sync.txt:7
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Za dalšne informacije glejśo %(supportUrl)s"
@@ -123,11 +123,11 @@ msgstr "Wašo gronidło jo se slědk stajiło"
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
 msgstr "Gronidło wašogo konta Firefox jo se změniło. Jolic njejsćo jo změnił, <a %(resetLinkAttributes)s>stajśo něnto swójo gronidło slědk</a>."
 
-#: lib/senders/templates/password_reset.html:4 lib/senders/templates/post_verify.html:5 lib/senders/templates/post_verify.txt:4 lib/senders/templates/post_verify_secondary.html:5
-#: lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/post_verify_secondary_email.html:5 lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5
-#: lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.html:5
-#: lib/senders/templates/verification_reminder_second.txt:4 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4 lib/senders/templates/verify_sync.html:7
-#: lib/senders/templates/verify_sync.txt:6
+#: lib/senders/templates/password_reset.html:4 lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5
+#: lib/senders/templates/post_verify.txt:4 lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/post_verify_secondary.txt:4
+#: lib/senders/templates/post_verify_secondary_email.html:5 lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:5
+#: lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.html:5 lib/senders/templates/verification_reminder_second.txt:4
+#: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4 lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "To jo awtomatizěrowana mailka; joli sćo ju zamólnje dostał, njetrjebaśo nic cyniś."
 
@@ -178,6 +178,22 @@ msgstr "Z pśijaśelnym póstrowom,"
 msgid "The Firefox Accounts team"
 msgstr "Team Firefox Accounts"
 
+#: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
+msgid "Secondary email removed"
+msgstr ""
+
+#: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
+msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+msgstr ""
+
+#: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
+msgid "Manage account"
+msgstr "Konto zastojaś"
+
+#: lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_verify_secondary.txt:3
+msgid "Manage account:"
+msgstr "Konto zastojaś:"
+
 #: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
 msgid "Account verified!"
 msgstr "Konto jo se wobkšuśiło!"
@@ -206,14 +222,6 @@ msgstr "Druga e-mailowa adresa jo se pśidała"
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 msgstr "Sćo swójomu kontoju Firefox wuspěšnje %(secondaryEmail)s ako drugu e-mailowu adresu wobkšuśił. Wěstotne powěźeńki a pśizjawjeńske wobkšuśenja se něnto na wobej e-mailowej adrese pósćelu."
 
-#: lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
-msgid "Manage account"
-msgstr "Konto zastojaś"
-
-#: lib/senders/templates/post_verify_secondary.txt:3
-msgid "Manage account:"
-msgstr "Konto zastojaś:"
-
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Forgot your password?"
 msgstr "Sćo swójo gronidło zabył?"
@@ -227,8 +235,8 @@ msgid "Reset password"
 msgstr "Gronidło slědk stajiś"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
-msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
-msgstr "Jolic pominane, how jo wótkaz za instalěrowanje Firefox na wašom mobilnem rěźe: %(link)s"
+msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
+msgstr ""
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1
 msgid "Is this you signing in?"
@@ -246,7 +254,7 @@ msgstr "Joli nic, pomagajśo nam zadobywarje wótwoboraś a <a %(reportSignInLin
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Jolic nic, pomagajśo nam zadobywarje wótwoboraś a dajśo nam to k wěsći."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:801
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:842
 msgid "Hello again."
 msgstr "Witaj hyšći raz."
 
@@ -336,73 +344,77 @@ msgstr "Wobkšuśćo, až sćo toś tu mejlku dostał a buźomy wam pomagaś, Fi
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Gaž jo wobkšuśona, buźomy wam pomagaś, Firefox na nanejmjenjej jadnom drugem rěźe instalěrowaś a zwězaś."
 
-#: lib/senders/email.js:160
+#: lib/senders/email.js:162
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s na %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:163
+#: lib/senders/email.js:165
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s na %(uaOS)s"
 
-#: lib/senders/email.js:190
+#: lib/senders/email.js:192
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (licone)"
 
-#: lib/senders/email.js:192
+#: lib/senders/email.js:194
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (licone)"
 
-#: lib/senders/email.js:194
+#: lib/senders/email.js:196
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (licone)"
 
-#: lib/senders/email.js:196
+#: lib/senders/email.js:198
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (licony)"
 
-#: lib/senders/email.js:295
+#: lib/senders/email.js:297
 msgid "Verify your Firefox Account"
 msgstr "Wobkšuśćo swójo konto Firefox"
 
-#: lib/senders/email.js:324
+#: lib/senders/email.js:326
 msgid "Confirm your email and start to sync!"
 msgstr "Wobkšuśćo swóju e-mail a zachopśo synchronizěrowaś!"
 
-#: lib/senders/email.js:382
+#: lib/senders/email.js:384
 msgid "Firefox Account authorization code"
 msgstr "Awtorizěrowański kod konta Firefox"
 
-#: lib/senders/email.js:435
+#: lib/senders/email.js:437
 msgid "Confirm new sign-in to Firefox"
 msgstr "Nowe pśizjawjenje pla Firefox wobkšuśiś"
 
-#: lib/senders/email.js:492
+#: lib/senders/email.js:494
 msgid "Verify email for Firefox Accounts"
 msgstr "E-mailowu adresu za Firefox Accounts wobkšuśiś"
 
-#: lib/senders/email.js:548
+#: lib/senders/email.js:550
 msgid "Reset your Firefox Account password"
 msgstr "Stajśo gronidło swójogo konta Firefox slědk"
 
-#: lib/senders/email.js:589
+#: lib/senders/email.js:591
 msgid "Your Firefox Account password has been changed"
 msgstr "Gronidło wašogo konta Firefox jo se změniło"
 
-#: lib/senders/email.js:628
+#: lib/senders/email.js:630
 msgid "Your Firefox Account password has been reset"
 msgstr "Gronidło wašogo konta Firefox jo se slědk stajiło"
 
-#: lib/senders/email.js:662
+#: lib/senders/email.js:664
 msgid "Firefox Account password reset required"
 msgstr "Gronidło konta Firefox musy se slědk stajiś"
 
-#: lib/senders/email.js:736
+#: lib/senders/email.js:738
 msgid "Firefox Account verified"
 msgstr "Konto Firefox wobkšuśone"
 
-#: lib/senders/email.js:775
+#: lib/senders/email.js:777
 msgid "Secondary Firefox Account email added"
 msgstr "Druga e-mailowa adresa konta Firefox jo se pśidała"
+
+#: lib/senders/email.js:816
+msgid "Secondary Firefox Account email removed"
+msgstr ""
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -455,6 +467,9 @@ msgstr "Mrokowsłužby Firefox"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Wužywańske wuměnenja"
+
+#~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
+#~ msgstr "Jolic pominane, how jo wótkaz za instalěrowanje Firefox na wašom mobilnem rěźe: %(link)s"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 #~ msgstr "Sćo se pla swójogo konta Firefox w zachadnych 60 dnjach ze slědujucych městnow pśizjawił? Jolic toś te městna njespóznawaśo, jo snaź něchten drugi pśistup na wašo konto Firefox měł."
