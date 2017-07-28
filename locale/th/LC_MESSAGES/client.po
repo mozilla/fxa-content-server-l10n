@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-21 16:09+0000\n"
+"POT-Creation-Date: 2017-07-28 16:08+0000\n"
 "PO-Revision-Date: 2017-06-30 23:41+0000\n"
 "Last-Translator: nuttapong2539 <nuttapong2539@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,19 +70,19 @@ msgstr "ขณะนี้คุณพร้อมใช้ %(serviceName)s แ�
 msgid "Account verified"
 msgstr "ตรวจสอบบัญชีแล้ว"
 
-#: app/scripts/views/reset_password.js:64 app/scripts/views/sign_in.js:167
+#: app/scripts/views/reset_password.js:55 app/scripts/views/sign_in.js:162
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "ไม่รู้จักบัญชีนี้ <a href=\"/signup\">ลงทะเบียน</a>"
 
-#: app/scripts/views/sign_in.js:164
+#: app/scripts/views/sign_in.js:159
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "ไม่รู้จัก Firefox Account นี้ <a href=\"/signup\">ลงทะเบียน</a> ด้วยการใช้บัญชีอีเมล Add-ons อันก่อนเพื่อเข้าถึงข้อมูล Add-ons ของคุณ"
 
-#: app/scripts/views/sign_up.js:58
+#: app/scripts/views/sign_up.js:57
 msgid "Account no longer exists. Recreate it?"
 msgstr "บัญชีไม่มีอีกต่อไป สร้างใหม่?"
 
-#: app/scripts/views/sign_up.js:357
+#: app/scripts/views/sign_up.js:297
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "บัญชีนี้มีอยู่แล้ว <a href=\"/signin\">ลงชื่อเข้า</a>"
 
@@ -111,11 +111,11 @@ msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:75
-msgid "last sync %(translatedTimeAgo)s"
+msgid "first sync %(translatedTimeAgo)s"
 msgstr ""
 
 #: app/scripts/views/settings/clients.js:78
-msgid "first sync %(translatedTimeAgo)s"
+msgid "last sync %(translatedTimeAgo)s"
 msgstr ""
 
 #: app/scripts/views/settings/clients.js:84
@@ -142,9 +142,13 @@ msgstr "ได้ลบบัญชีเรียบร้อยแล้ว"
 msgid "Display name updated"
 msgstr "ปรับปรุงชื่อที่ใช้แสดงแล้ว"
 
-#: app/scripts/views/settings/emails.js:125 app/scripts/views/settings/emails.js:138
+#: app/scripts/views/settings/emails.js:138 app/scripts/views/settings/emails.js:151
 msgid "Verification email sent"
 msgstr "อีเมลยืนยันได้ถูกส่งแล้ว"
+
+#: app/scripts/views/settings/emails.js:166
+msgid "Primary email set to %(email)s"
+msgstr ""
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -178,35 +182,35 @@ msgstr "เปิด Restmail"
 msgid "Email resent"
 msgstr "ได้ส่งอีเมลอีกครั้งแล้ว"
 
-#: app/scripts/models/sync-engines.js:35
+#: app/scripts/models/sync-engines.js:33
 msgid "Open tabs"
 msgstr "แท็บที่เปิด"
 
-#: app/scripts/models/sync-engines.js:40
+#: app/scripts/models/sync-engines.js:38
 msgid "Bookmarks"
 msgstr "ที่คั่นหน้า"
 
-#: app/scripts/models/sync-engines.js:45
+#: app/scripts/models/sync-engines.js:43
 msgid "Add-ons"
 msgstr "ส่วนเสริม"
 
-#: app/scripts/models/sync-engines.js:50
+#: app/scripts/models/sync-engines.js:48
 msgid "Passwords"
 msgstr "รหัสผ่าน"
 
-#: app/scripts/models/sync-engines.js:55
+#: app/scripts/models/sync-engines.js:53
 msgid "History"
 msgstr "ประวัติ"
 
-#: app/scripts/models/sync-engines.js:60
+#: app/scripts/models/sync-engines.js:58
 msgid "Preferences"
 msgstr "การตั้งค่า"
 
-#: app/scripts/models/sync-engines.js:72
+#: app/scripts/models/sync-engines.js:65
 msgid "Addresses"
 msgstr ""
 
-#: app/scripts/models/sync-engines.js:79
+#: app/scripts/models/sync-engines.js:72
 msgid "Credit cards"
 msgstr ""
 
@@ -650,7 +654,7 @@ msgstr "เรียนรู้เพิ่มเติม"
 msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
 msgstr ""
 
-#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:21
+#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:19
 msgid "Choose what to sync"
 msgstr "เลือกสิ่งที่จะซิงค์"
 
@@ -812,7 +816,7 @@ msgstr "ลองอีกครั้ง"
 msgid "Sign in to continue"
 msgstr "ลงชื่อเข้าเพื่อดำเนินการต่อ"
 
-#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_up.mustache:12
 #: app/scripts/templates/settings/change_password.mustache:1 app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "รหัสผ่าน"
@@ -821,7 +825,7 @@ msgstr "รหัสผ่าน"
 msgid "Forgot password?"
 msgstr "ลืมรหัสผ่าน?"
 
-#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:14
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr "การดำเนินการต่อหมายถึงคุณยอมรับใน <a id=\"fxa-tos\" href=\"/legal/terms\">เงื่อนไขการให้บริการ</a> และ <a id=\"fxa-pp\" href=\"/legal/privacy\">ประกาศความเป็นส่วนตัว</a> ของบริการกลุ่มเมฆ Firefox"
 
@@ -874,7 +878,7 @@ msgstr "ยอมรับ"
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9 app/scripts/templates/settings/communication_preferences.mustache:5
 #: app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6 app/scripts/templates/settings/display_name.mustache:8
-#: app/scripts/templates/settings/emails.mustache:20
+#: app/scripts/templates/settings/emails.mustache:25
 msgid "Cancel"
 msgstr "ยกเลิก"
 
@@ -982,19 +986,19 @@ msgstr "โยกย้ายข้อมูลซิงก์ของคุณ
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr "มองหาข้อมูลส่วนเสริมของคุณ? ลงชื่อเข้าร่วมสำหรับบัญชี Firefox ด้วยที่อยู่อีเมลบัญชีส่วนเสริมเก่าของคุณ"
 
-#: app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/sign_up.mustache:13
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "รหัสผ่านที่แข็งแกร่งและมีเอกลักษณ์จะทำให้ข้อมูล Firefox ปลอดภัยจากผู้บุกรุก"
 
-#: app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/sign_up.mustache:15
 msgid "Receive the monthly Firefox newsletter"
 msgstr "รับจดหมายข่าว Firefox รายเดือน"
 
-#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/sign_up.mustache:17
 msgid "Create account"
 msgstr "สร้างบัญชี"
 
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:22
 msgid "Have an account? Sign in"
 msgstr "มีบัญชี? ลงชื่อเข้า"
 
@@ -1080,7 +1084,7 @@ msgstr "กล้อง"
 msgid "Clear"
 msgstr "ล้าง"
 
-#: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:17
+#: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:22
 msgid "Done"
 msgstr "เสร็จสิ้น"
 
@@ -1180,7 +1184,7 @@ msgstr "Firefox สำหรับ Android"
 msgid "Missing or duplicate items?"
 msgstr "รายการขาดหายหรือซ้ำ?"
 
-#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:15
+#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20
 msgid "Refresh"
 msgstr "เรียกใหม่"
 
@@ -1220,7 +1224,7 @@ msgstr "คุณแน่ใจหรือไม่ว่าต้องกา
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "เลือกชื่อที่จะแสดงใน Firefox และในการจัดการบัญชีของคุณ"
 
-#: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:14
+#: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
 msgstr "อีเมลสำรอง"
 
@@ -1236,15 +1240,19 @@ msgstr "ยืนยันแล้ว"
 msgid "verification required"
 msgstr "ต้องการการยืนยัน"
 
-#: app/scripts/templates/settings/emails.mustache:10
+#: app/scripts/templates/settings/emails.mustache:10 app/scripts/templates/settings/emails.mustache:13
+msgid "Make primary"
+msgstr ""
+
+#: app/scripts/templates/settings/emails.mustache:12 app/scripts/templates/settings/emails.mustache:15
 msgid "Remove"
 msgstr "ลบ"
 
-#: app/scripts/templates/settings/emails.mustache:11
+#: app/scripts/templates/settings/emails.mustache:16
 msgid "Not in inbox or spam folder? Resend?"
 msgstr ""
 
-#: app/scripts/templates/settings/emails.mustache:19
+#: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
 msgstr "เพิ่ม"
 
