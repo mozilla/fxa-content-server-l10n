@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-21 16:09+0000\n"
-"PO-Revision-Date: 2017-07-21 20:13+0000\n"
+"PO-Revision-Date: 2017-07-31 13:28+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -56,7 +56,7 @@ msgstr "დაასრულეთ გამართვა ახალი პ
 
 #: app/scripts/views/ready.js:45 app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
-msgstr "ელ-ფოსტა დამოწმებულია"
+msgstr "ელფოსტა დამოწმებულია"
 
 #: app/scripts/views/ready.js:50
 msgid "Sign-in confirmed"
@@ -76,7 +76,7 @@ msgstr "ასეთი ანგარიში ვერ მოიძებნ
 
 #: app/scripts/views/sign_in.js:164
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr "Firefox ანგარიში ვერ მოიძებნა. <a href=\"/signup\">დარეგისტრირდით</a> დამატებების ძველი ანგარიშის ელ-ფოსტის მისამართით თქვენი დამატებების მონაცემებზე წვდომის მისაღებად."
+msgstr "Firefox ანგარიში ვერ მოიძებნა. <a href=\"/signup\">დარეგისტრირდით</a> დამატებების ძველი ანგარიშის ელფოსტის მისამართით თქვენი დამატებების მონაცემებზე წვდომის მისაღებად."
 
 #: app/scripts/views/sign_up.js:58
 msgid "Account no longer exists. Recreate it?"
@@ -100,11 +100,11 @@ msgstr "ვწუხვართ, ამის გამო. თუ ეს მ�
 
 #: app/scripts/views/settings/clients.js:64
 msgid "Web Session, %(userAgent)s"
-msgstr "ვებ-სეანსი, %(userAgent)s"
+msgstr "ვებსეანსი, %(userAgent)s"
 
 #: app/scripts/views/settings/clients.js:66 app/scripts/lib/strings.js:43
 msgid "Web Session"
-msgstr "ვებ-სეანსი"
+msgstr "ვებსეანსი"
 
 #: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
@@ -313,27 +313,27 @@ msgstr "ამ ნომერზე შეტყობინების გა
 
 #: app/scripts/lib/auth-errors.js:138
 msgid "Your email was just returned"
-msgstr "ელ-ფოსტაზე წერილის გამოგზავნა, ვერ მოხერდა"
+msgstr "ელფოსტაზე წერილის გამოგზავნა, ვერ მოხერდა"
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr "ელ-ფოსტაზე წერილის გამოგზავნა, ვერ მოხერდა. მისამართი, შეცდომითაა აკრეფილი?"
+msgstr "ელფოსტაზე წერილის გამოგზავნა, ვერ მოხერდა. მისამართი, შეცდომითაა აკრეფილი?"
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
-msgstr "ელ-ფოსტაზე წერილის მიღება, ვერ მოხერხდა"
+msgstr "ელფოსტაზე წერილის მიღება, ვერ მოხერხდა"
 
 #: app/scripts/lib/auth-errors.js:151
 msgid "This email was already verified by another user"
-msgstr "ეს ელ-ფოსტის მისამართი, უკვე დამოწმებულია სხვა მომხმარებლის მიერ"
+msgstr "ეს ელფოსტის მისამართი, უკვე დამოწმებულია სხვა მომხმარებლის მიერ"
 
 #: app/scripts/lib/auth-errors.js:155
 msgid "Secondary email must be different than your account email"
-msgstr "ელ-ფოსტის დამატებითი მისამართი უნდა განსხვავდებოდეს ანგარიშის ელ-ფოსტისგან"
+msgstr "ელფოსტის დამატებითი მისამართი უნდა განსხვავდებოდეს ანგარიშის ელფოსტისგან"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
-msgstr "ანგარიშში შესვლისთვის, აუცილებელია მთავარი ელ-ფოსტის მითითება"
+msgstr "ანგარიშში შესვლისთვის, აუცილებელია მთავარი ელფოსტის მითითება"
 
 #: app/scripts/lib/auth-errors.js:171
 msgid "Address in use by another account"
@@ -341,7 +341,7 @@ msgstr "ეს მისამართი გამოყენებული�
 
 #: app/scripts/lib/auth-errors.js:175
 msgid "Primary account email required for reset"
-msgstr "აღსადგენად აუცილებელია ანგარიშის მთავარი ელ-ფოსტის მითითება"
+msgstr "აღსადგენად აუცილებელია ანგარიშის მთავარი ელფოსტის მითითება"
 
 #: app/scripts/lib/auth-errors.js:179
 msgid "Invalid signin code"
@@ -401,7 +401,7 @@ msgstr "პაროლის მითითება აუცილებე�
 
 #: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:274 app/scripts/lib/auth-errors.js:290
 msgid "Valid email required"
-msgstr "ელ-ფოსტის სწორი მისამართის მითითება აუცილებელია"
+msgstr "ელფოსტის სწორი მისამართის მითითება აუცილებელია"
 
 #: app/scripts/lib/auth-errors.js:247
 msgid "A usable image was not found"
@@ -421,7 +421,7 @@ msgstr "დასამოწმებელი შეტყობინებ�
 
 #: app/scripts/lib/auth-errors.js:278
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr "შეიყვანეთ ელ-ფოსტის მართებული მისამართი. firefox.com-ს ფოსტის მომსახურება არ აქვს."
+msgstr "შეიყვანეთ ელფოსტის მართებული მისამართი. firefox.com-ს ფოსტის მომსახურება არ აქვს."
 
 #: app/scripts/lib/auth-errors.js:286
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
@@ -675,7 +675,7 @@ msgstr "პაროლის აღსადგენი ბმული და
 
 #: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:10 app/scripts/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "ბმულს, რომელზეც გადახვედით ან სიმბოლოები აკლია, ან დაზიანებულია თქვენი ელ-ფოსტის კლიენტის მიერ. ყურადღებით გადმოიტანეთ მისამართი და სცადეთ ხელახლა."
+msgstr "ბმულს, რომელზეც გადახვედით ან სიმბოლოები აკლია, ან დაზიანებულია თქვენი ელფოსტის კლიენტის მიერ. ყურადღებით გადმოიტანეთ მისამართი და სცადეთ ხელახლა."
 
 #: app/scripts/templates/complete_reset_password.mustache:8
 msgid "Enter new password"
@@ -727,11 +727,11 @@ msgstr "დაადასტურეთ ეს შესვლა"
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr "შეამოწმეთ თქვენი ელ-ფოსტა %(escapedEmail)s, რომელზეც გამოგზავნილია დასადასტურებელი ბმული&nbsp;"
+msgstr "შეამოწმეთ თქვენი ელფოსტა %(escapedEmail)s, რომელზეც გამოგზავნილია დასადასტურებელი ბმული&nbsp;"
 
 #: app/scripts/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-msgstr "შეამოწმეთ თქვენი ელ-ფოსტა %(email)s, რომელზეც გამოგზავნილია შესვლის დასადასტურებელი ბმული"
+msgstr "შეამოწმეთ თქვენი ელფოსტა %(email)s, რომელზეც გამოგზავნილია შესვლის დასადასტურებელი ბმული"
 
 #: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
@@ -917,7 +917,7 @@ msgstr "პაროლის აღდგენის შემთხვევ�
 
 #: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:11
 msgid "Email"
-msgstr "ელ-ფოსტა"
+msgstr "ელფოსტა"
 
 #: app/scripts/templates/reset_password.mustache:9
 msgid "Begin reset"
@@ -961,7 +961,7 @@ msgstr "ნებართვა შესვლაზე"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr "შეამოწმეთ თქვენი ელ-ფოსტა %(email)s, რომელზეც გამოგზავნილია დაშვების კოდი."
+msgstr "შეამოწმეთ თქვენი ელფოსტა %(email)s, რომელზეც გამოგზავნილია დაშვების კოდი."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1197,7 +1197,7 @@ msgstr "მიიღეთ ყოველთვიურად წერილ�
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
-msgstr "ელ-ფოსტის პარამეტრები"
+msgstr "ელფოსტის პარამეტრები"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:10
 msgid "Unsubscribe"
@@ -1225,11 +1225,11 @@ msgstr "აირჩიეთ სახელი, რომელიც გს�
 
 #: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:14
 msgid "Secondary email"
-msgstr "დამატებითი ელ-ფოსტა"
+msgstr "დამატებითი ელფოსტა"
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-msgstr "ელ-ფოსტის დამატებითი მისამართი გამოიყენება უსაფრთხოების შეტყობინებებისთვის და დასინქრონებისას, ახალი მოწყობილობების დასამოწმებლად."
+msgstr "ელფოსტის დამატებითი მისამართი გამოიყენება უსაფრთხოების შეტყობინებებისთვის და დასინქრონებისას, ახალი მოწყობილობების დასამოწმებლად."
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
