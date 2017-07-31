@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-21 16:09+0000\n"
-"PO-Revision-Date: 2017-05-24 21:07+0000\n"
+"PO-Revision-Date: 2017-07-31 12:26+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -25,7 +25,7 @@ msgstr "Reinicia la contrasenya"
 
 #: app/scripts/views/confirm_reset_password.js:180
 msgid "Password reset successfully. Sign in to continue."
-msgstr ""
+msgstr "S’ha reiniciat la contrasenya correctament. Inicieu una sessió per continuar."
 
 #: app/scripts/views/permissions.js:26
 msgid "%(permissionName)s (required)"
@@ -33,16 +33,15 @@ msgstr ""
 
 #: app/scripts/views/permissions.js:32
 msgid "Email address"
-msgstr ""
+msgstr "Adreça electrònica"
 
 #: app/scripts/views/permissions.js:37 app/scripts/templates/settings/display_name.mustache:1 app/scripts/templates/settings/display_name.mustache:6
 msgid "Display name"
 msgstr ""
 
 #: app/scripts/views/permissions.js:41 app/scripts/templates/settings/avatar.mustache:1
-#, fuzzy
 msgid "Account picture"
-msgstr "Compte verificat"
+msgstr "Imatge del compte"
 
 #: app/scripts/views/ready.js:35
 msgid "Welcome back"
@@ -65,9 +64,8 @@ msgid "Sign-in confirmed"
 msgstr ""
 
 #: app/scripts/views/ready.js:51 app/scripts/views/ready.js:56 app/scripts/templates/ready.mustache:3
-#, fuzzy
 msgid "You are now ready to use %(serviceName)s"
-msgstr "Ja podeu utilitzar %(serviceName)s."
+msgstr "Ja podeu utilitzar %(serviceName)s"
 
 #: app/scripts/views/ready.js:55
 msgid "Account verified"
@@ -83,7 +81,7 @@ msgstr ""
 
 #: app/scripts/views/sign_up.js:58
 msgid "Account no longer exists. Recreate it?"
-msgstr ""
+msgstr "El compte ja no existeix. Voleu tornar a crear-lo?"
 
 #: app/scripts/views/sign_up.js:357
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
@@ -138,9 +136,8 @@ msgid "Unsubscribed successfully"
 msgstr ""
 
 #: app/scripts/views/settings/delete_account.js:43
-#, fuzzy
 msgid "Account deleted successfully"
-msgstr "S'ha iniciat la sessió correctament"
+msgstr "El compte s'ha suprimit correctament"
 
 #: app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
@@ -184,31 +181,31 @@ msgstr "S'ha tornat a enviar el missatge"
 
 #: app/scripts/models/sync-engines.js:35
 msgid "Open tabs"
-msgstr ""
+msgstr "Pestanyes obertes"
 
 #: app/scripts/models/sync-engines.js:40
 msgid "Bookmarks"
-msgstr ""
+msgstr "Adreces d’interès"
 
 #: app/scripts/models/sync-engines.js:45
 msgid "Add-ons"
-msgstr ""
+msgstr "Complements"
 
 #: app/scripts/models/sync-engines.js:50
 msgid "Passwords"
-msgstr ""
+msgstr "Contrasenyes"
 
 #: app/scripts/models/sync-engines.js:55
 msgid "History"
-msgstr ""
+msgstr "Historial"
 
 #: app/scripts/models/sync-engines.js:60
 msgid "Preferences"
-msgstr ""
+msgstr "Preferències"
 
 #: app/scripts/models/sync-engines.js:72
 msgid "Addresses"
-msgstr ""
+msgstr "Adreces"
 
 #: app/scripts/models/sync-engines.js:79
 msgid "Credit cards"
@@ -236,9 +233,8 @@ msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
 msgstr ""
 
 #: app/scripts/lib/auth-errors.js:35 app/scripts/lib/oauth-errors.js:50
-#, fuzzy
 msgid "Invalid token"
-msgstr "La contrasenya no és vàlida."
+msgstr "El testimoni no és vàlid"
 
 #: app/scripts/lib/auth-errors.js:39
 msgid "Invalid timestamp in request signature"
@@ -302,11 +298,11 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:384
 msgid "Invalid authorization code"
-msgstr ""
+msgstr "El codi d'autorització no és vàlid"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr ""
+msgstr "El número de telèfon no és vàlid"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
@@ -369,9 +365,8 @@ msgid "Login attempt cancelled"
 msgstr ""
 
 #: app/scripts/lib/auth-errors.js:200
-#, fuzzy
 msgid "Session expired. Sign in to continue."
-msgstr "Inicieu la sessió per a continuar"
+msgstr "La sessió ha caducat. Inicieu la sessió per continuar."
 
 #: app/scripts/lib/auth-errors.js:204
 msgid "Cookies are still disabled"
@@ -383,7 +378,7 @@ msgstr "Les contrasenyes no coincideixen"
 
 #: app/scripts/lib/auth-errors.js:212
 msgid "Working…"
-msgstr ""
+msgstr "S'hi està treballant…"
 
 #: app/scripts/lib/auth-errors.js:216
 msgid "Could not get Privacy Notice"
@@ -418,9 +413,8 @@ msgid "Could not initialize camera"
 msgstr ""
 
 #: app/scripts/lib/auth-errors.js:255
-#, fuzzy
 msgid "Valid URL required"
-msgstr "El camp d'adreça electrònica és obligatori"
+msgstr "Es necessita un URL vàlid"
 
 #: app/scripts/lib/auth-errors.js:270
 msgid "Your verification email was just returned. Mistyped email?"
@@ -452,7 +446,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:343
 msgid "Account no longer exists."
-msgstr ""
+msgstr "El compte ja no existeix."
 
 #: app/scripts/lib/auth-errors.js:347
 msgid "Invalid property in resume token: %(property)s"
@@ -507,14 +501,12 @@ msgid "Please try again later"
 msgstr ""
 
 #: app/scripts/lib/oauth-errors.js:26
-#, fuzzy
 msgid "Unknown client"
-msgstr "El compte és desconegut"
+msgstr "Client desconegut"
 
 #: app/scripts/lib/oauth-errors.js:30
-#, fuzzy
 msgid "Incorrect redirect_uri"
-msgstr "El format de l'adreça electrònica és incorrecte"
+msgstr "redirect_uri incorrecte"
 
 #: app/scripts/lib/oauth-errors.js:34
 #, fuzzy
@@ -539,11 +531,11 @@ msgstr ""
 
 #: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
-msgstr ""
+msgstr "No autoritzat"
 
 #: app/scripts/lib/oauth-errors.js:66
 msgid "Forbidden"
-msgstr ""
+msgstr "Prohibit"
 
 #: app/scripts/lib/oauth-errors.js:88
 msgid "Something went wrong. Please close this tab and try again."
@@ -551,7 +543,7 @@ msgstr ""
 
 #: app/scripts/lib/oauth-errors.js:104
 msgid "no message"
-msgstr ""
+msgstr "no hi ha cap missatge"
 
 #: app/scripts/lib/oauth-errors.js:108
 msgid "Missing OAuth parameter: %(param)s"
@@ -559,7 +551,7 @@ msgstr ""
 
 #: app/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
-msgstr ""
+msgstr "El testimoni no és vàlid"
 
 #: app/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
@@ -598,9 +590,7 @@ msgid "SMS not sent, please try again"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
@@ -613,15 +603,15 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:37
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (estimació)"
 
 #: app/scripts/lib/strings.js:38
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (estimació)"
 
 #: app/scripts/lib/strings.js:39
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "Adreça IP: %(ip)s"
 
 #: app/scripts/lib/strings.js:40
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
@@ -652,9 +642,8 @@ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr "Cal que compliu uns requisits d'edat per a crear un compte del Firefox."
 
 #: app/scripts/templates/cannot_create_account.mustache:4 app/scripts/templates/cookies_disabled.mustache:3
-#, fuzzy
 msgid "Learn more"
-msgstr "Més informació."
+msgstr "Més informació"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
@@ -666,7 +655,7 @@ msgstr "Trieu què voleu sincronitzar"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Save settings"
-msgstr ""
+msgstr "Desa la configuració"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 #, fuzzy
@@ -727,9 +716,8 @@ msgid "Click here to receive a new verification link"
 msgstr ""
 
 #: app/scripts/templates/complete_sign_up.mustache:12
-#, fuzzy
 msgid "Verification error"
-msgstr "El codi de verificació no és vàlid"
+msgstr "Error de verificació"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
@@ -787,7 +775,7 @@ msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:7
 msgid "Sign in &rarr;"
-msgstr ""
+msgstr "Inicia la sessió &rarr;"
 
 #: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
 msgid "Sign in to Firefox on another device to complete set-up"
@@ -861,16 +849,16 @@ msgstr ""
 #: app/scripts/templates/marketing_snippet.mustache:2 app/scripts/templates/marketing_snippet.mustache:3 app/scripts/templates/marketing_snippet.mustache:11
 #: app/scripts/templates/marketing_snippet.mustache:15 app/scripts/templates/marketing_snippet.mustache:19
 msgid "Download Firefox for iOS!"
-msgstr ""
+msgstr "Baixeu el Firefox per a l'iOS!"
 
 #: app/scripts/templates/marketing_snippet.mustache:6 app/scripts/templates/marketing_snippet.mustache:7 app/scripts/templates/marketing_snippet.mustache:12
 #: app/scripts/templates/marketing_snippet.mustache:17 app/scripts/templates/marketing_snippet.mustache:20
 msgid "Download Firefox for Android."
-msgstr ""
+msgstr "Baixeu el Firefox per a l'Android."
 
 #: app/scripts/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr ""
+msgstr "Baixeu el Firefox per a dispositius mòbils."
 
 #: app/scripts/templates/permissions.mustache:1
 msgid "Request for permission"
@@ -882,14 +870,14 @@ msgstr ""
 
 #: app/scripts/templates/permissions.mustache:3
 msgid "Accept"
-msgstr ""
+msgstr "Accepta"
 
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9 app/scripts/templates/settings/communication_preferences.mustache:5
 #: app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6 app/scripts/templates/settings/display_name.mustache:8
 #: app/scripts/templates/settings/emails.mustache:20
 msgid "Cancel"
-msgstr ""
+msgstr "Cancel·la"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
@@ -917,12 +905,11 @@ msgstr ""
 
 #: app/scripts/templates/reset_password.mustache:1 app/scripts/templates/reset_password.mustache:4
 msgid "Reset account"
-msgstr ""
+msgstr "Reinicia el compte"
 
 #: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_up.mustache:2
-#, fuzzy
 msgid "Continue to %(serviceName)s"
-msgstr "Ja podeu utilitzar %(serviceName)s."
+msgstr "Continua a %(serviceName)s"
 
 #: app/scripts/templates/reset_password.mustache:5
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
@@ -934,11 +921,11 @@ msgstr "Adreça electrònica"
 
 #: app/scripts/templates/reset_password.mustache:9
 msgid "Begin reset"
-msgstr ""
+msgstr "Comença la reinicialització"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Comptes del Firefox"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
@@ -1068,16 +1055,16 @@ msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
-msgstr ""
+msgstr "Entesos"
 
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2 app/scripts/templates/settings/emails.mustache:3
 msgid "Change…"
-msgstr ""
+msgstr "Canvia…"
 
 #: app/scripts/templates/settings/avatar.mustache:4 app/scripts/templates/settings/display_name.mustache:4 app/scripts/templates/settings/emails.mustache:5
 msgid "Add…"
-msgstr ""
+msgstr "Afegeix…"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -1089,7 +1076,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/avatar_change.mustache:2
 msgid "Camera"
-msgstr ""
+msgstr "Càmera"
 
 #: app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Clear"
@@ -1097,7 +1084,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:17
 msgid "Done"
-msgstr ""
+msgstr "Fet"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
@@ -1105,11 +1092,11 @@ msgstr ""
 
 #: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:7
 msgid "Change"
-msgstr ""
+msgstr "Canvia"
 
 #: app/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr ""
+msgstr "Quan acabeu, utilitzeu la contrasenya nova per iniciar la sessió en tots els vostres dispositius."
 
 #: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
@@ -1153,7 +1140,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:2
 msgid "Devices & apps"
-msgstr ""
+msgstr "Dispositius i aplicacions"
 
 #: app/scripts/templates/settings/clients.mustache:3 app/scripts/templates/partial/show-password.mustache:1
 msgid "Show"
@@ -1161,11 +1148,11 @@ msgstr "Mostra"
 
 #: app/scripts/templates/settings/clients.mustache:6
 msgid "current device"
-msgstr ""
+msgstr "dispositiu actual"
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
-msgstr ""
+msgstr "Desconnecta…"
 
 #: app/scripts/templates/settings/clients.mustache:11
 msgid "current session"
@@ -1177,19 +1164,19 @@ msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "Firefox per a l'iOS"
 
 #: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
 msgid "none connected"
-msgstr ""
+msgstr "cap connectat"
 
 #: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
-msgstr ""
+msgstr "Baixa"
 
 #: app/scripts/templates/settings/clients.mustache:22
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Firefox per a l'Android"
 
 #: app/scripts/templates/settings/clients.mustache:26
 msgid "Missing or duplicate items?"
@@ -1221,15 +1208,15 @@ msgstr ""
 
 #: app/scripts/templates/settings/delete_account.mustache:1 app/scripts/templates/settings/delete_account.mustache:5
 msgid "Delete account"
-msgstr "Elimina el compte"
+msgstr "Suprimeix el compte"
 
 #: app/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete…"
-msgstr ""
+msgstr "Suprimeix…"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
-msgstr "Esteu segur que voleu esborrar el compte? Aquesta acció no es pot desfer."
+msgstr "Esteu segur que voleu suprimir el compte? Aquesta acció no es pot desfer."
 
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1411,9 +1398,7 @@ msgstr ""
 #~ msgstr "Ja teniu un compte? Inicieu la sessió"
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "En continuar, accepto les <a id=\"fxa-tos\" href=\"/legal/terms\">condicions del servei</a> i l'<a id=\"fxa-pp\" href=\"/legal/privacy\">avís de privadesa</a> dels serveis en el núvol del "
-#~ "Firefox."
+#~ msgstr "En continuar, accepto les <a id=\"fxa-tos\" href=\"/legal/terms\">condicions del servei</a> i l'<a id=\"fxa-pp\" href=\"/legal/privacy\">avís de privadesa</a> dels serveis en el núvol del Firefox."
 
 #~ msgid "Password changed"
 #~ msgstr "Contrasenya canviada."
