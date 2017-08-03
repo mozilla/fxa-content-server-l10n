@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-21 16:09+0000\n"
-"PO-Revision-Date: 2017-07-13 17:04+0000\n"
-"Last-Translator: meetadeel <meetadeel@gmail.com>\n"
+"PO-Revision-Date: 2017-08-03 04:50+0000\n"
+"Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
 "MIME-Version: 1.0\n"
@@ -204,7 +204,7 @@ msgstr "ترجیحات"
 
 #: app/scripts/models/sync-engines.js:72
 msgid "Addresses"
-msgstr ""
+msgstr "پتے"
 
 #: app/scripts/models/sync-engines.js:79
 msgid "Credit cards"
@@ -588,9 +588,7 @@ msgid "SMS not sent, please try again"
 msgstr "SMS ارسال نہیں کیا گیا، براہ مہربانی دوبارہ کوشش کریں"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
