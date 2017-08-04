@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-21 16:09+0000\n"
+"POT-Creation-Date: 2017-08-04 16:09+0000\n"
 "PO-Revision-Date: 2017-07-25 12:52+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,19 +70,19 @@ msgstr "Du kan no bruke %(serviceName)s"
 msgid "Account verified"
 msgstr "Konto stadfesta"
 
-#: app/scripts/views/reset_password.js:64 app/scripts/views/sign_in.js:167
+#: app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:163
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Ukjend konto. <a href=\"/signup\">Registrer deg</a>"
 
-#: app/scripts/views/sign_in.js:164
+#: app/scripts/views/sign_in.js:160
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Ukjend Firefox-konto. <a href=\"/signup\">Registrer deg</a> med e-postadressa di som du tidlegare har brukt for å få tilgang til dataa dine på nettstaden Utvidingar."
 
-#: app/scripts/views/sign_up.js:58
+#: app/scripts/views/sign_up.js:53
 msgid "Account no longer exists. Recreate it?"
 msgstr "Kontoen finst ikkje lenger. Vil du gjenskape han?"
 
-#: app/scripts/views/sign_up.js:357
+#: app/scripts/views/sign_up.js:293
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Kontoen finst allereie. <a href=\"/signin\">Logg inn</a>"
 
@@ -111,12 +111,12 @@ msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:75
-msgid "last sync %(translatedTimeAgo)s"
-msgstr "siste synkronisering %(translatedTimeAgo)s"
-
-#: app/scripts/views/settings/clients.js:78
 msgid "first sync %(translatedTimeAgo)s"
 msgstr "første synkronisering %(translatedTimeAgo)s"
+
+#: app/scripts/views/settings/clients.js:78
+msgid "last sync %(translatedTimeAgo)s"
+msgstr "siste synkronisering %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:84
 msgid "last active %(translatedTimeAgo)s"
@@ -142,9 +142,13 @@ msgstr "Kontoen er no sletta"
 msgid "Display name updated"
 msgstr "Visingsnamn oppdatert"
 
-#: app/scripts/views/settings/emails.js:125 app/scripts/views/settings/emails.js:138
+#: app/scripts/views/settings/emails.js:138 app/scripts/views/settings/emails.js:151
 msgid "Verification email sent"
 msgstr "Stadfestingsmelding sendt"
+
+#: app/scripts/views/settings/emails.js:166
+msgid "Primary email set to %(email)s"
+msgstr ""
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -178,39 +182,39 @@ msgstr "Opna Restmail"
 msgid "Email resent"
 msgstr "E-post sendt på nytt"
 
-#: app/scripts/models/sync-engines.js:35
+#: app/scripts/models/sync-engines.js:33
 msgid "Open tabs"
 msgstr "Opne faner"
 
-#: app/scripts/models/sync-engines.js:40
+#: app/scripts/models/sync-engines.js:38
 msgid "Bookmarks"
 msgstr "Bokmerke"
 
-#: app/scripts/models/sync-engines.js:45
+#: app/scripts/models/sync-engines.js:43
 msgid "Add-ons"
 msgstr "Utvidingar"
 
-#: app/scripts/models/sync-engines.js:50
+#: app/scripts/models/sync-engines.js:48
 msgid "Passwords"
 msgstr "Passord"
 
-#: app/scripts/models/sync-engines.js:55
+#: app/scripts/models/sync-engines.js:53
 msgid "History"
 msgstr "Historikk"
 
-#: app/scripts/models/sync-engines.js:60
+#: app/scripts/models/sync-engines.js:58
 msgid "Preferences"
 msgstr "Innstillingar"
 
-#: app/scripts/models/sync-engines.js:72
+#: app/scripts/models/sync-engines.js:65
 msgid "Addresses"
 msgstr "Adresser"
 
-#: app/scripts/models/sync-engines.js:79
+#: app/scripts/models/sync-engines.js:72
 msgid "Credit cards"
 msgstr "Kredittkort"
 
-#: app/scripts/models/reliers/sync.js:60
+#: app/scripts/models/reliers/sync.js:59
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
@@ -492,8 +496,8 @@ msgid "Invalid configuration"
 msgstr "Ugyldig konfigurasjon"
 
 #: app/scripts/lib/mailcheck.js:25
-msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-msgstr "Meinte du <span tabindex=\"1\">%(escapedDomain)s</span>?"
+msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
+msgstr ""
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
@@ -588,8 +592,12 @@ msgid "SMS not sent, please try again"
 msgstr "SMS ikkje sendt, prøv igjen"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Ved å fortsetta godkjenner du <a id=\"service-tos\" href=\"%(termsUri)s\">tenestevilkåra</a> og<a id=\"service-pp\" href=\"%(privacyUri)s\">personvernmerknaden</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Ved å fortsetta godkjenner du <a id=\"service-tos\" href=\"%(termsUri)s\">tenestevilkåra</a> og<a id=\"service-pp\" href=\"%(privacyUri)s\">personvernmerknaden</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -615,7 +623,7 @@ msgstr "IP-addresse: %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "For ekstra sikkerheit, stadfest denne innlogginga for å begynna synkroniseringa med denne eininga:"
 
-#: app/scripts/lib/strings.js:49
+#: app/scripts/lib/strings.js:49 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4 app/scripts/templates/sign_in_password.mustache:6
 msgid "Sign in"
 msgstr "Logg inn"
 
@@ -647,7 +655,7 @@ msgstr "Les meir"
 msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
 msgstr "%(escapedEmail)s registrert. <a %(escapedBackLinkParams)s>Feilskriven e-postadresse?</a>"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:21
+#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:19
 msgid "Choose what to sync"
 msgstr "Vel kva som skal synkroniserast"
 
@@ -736,7 +744,7 @@ msgstr "Sjekk e-posten din for innlogging-stadfestingslenka som er sendt til %(e
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Ikkje i innboks eller mappa for uønskt e-post («spam»)? Send på nytt"
 
-#: app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+#: app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/sign_in_bounced.mustache:6 app/scripts/templates/tos.mustache:3
 msgid "Back"
 msgstr "Tilbake"
 
@@ -749,7 +757,6 @@ msgid "Click on the link we've emailed you at %(email)s within the next hour to 
 msgstr "Trykk på lenka vi har sendt til deg på %(email)s innan ein time, for å laga eit nytt passord."
 
 #: app/scripts/templates/confirm_reset_password.mustache:4 app/scripts/templates/confirm_reset_password.mustache:6 app/scripts/templates/reset_password.mustache:10
-#: app/scripts/templates/reset_password.mustache:12
 msgid "Remember password? Sign in"
 msgstr "Hugsar du passordet ditt? Logg inn"
 
@@ -809,18 +816,39 @@ msgstr "Prøv på nytt"
 msgid "Sign in to continue"
 msgstr "Logg inn for å halda fram"
 
-#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_up.mustache:13
-#: app/scripts/templates/settings/change_password.mustache:1 app/scripts/templates/settings/delete_account.mustache:4
+#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_in_password.mustache:5
+#: app/scripts/templates/sign_up.mustache:12 app/scripts/templates/sign_up_password.mustache:5 app/scripts/templates/settings/change_password.mustache:1
+#: app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Passord"
 
-#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/settings/change_password.mustache:5
+#: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_in_password.mustache:8
+#: app/scripts/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "Gløymt passordet?"
 
-#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:16
+#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/sign_up_password.mustache:8
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Ved å fortsetje seier du deg samd i <a id=\"fxa-tos\" href=\"/legal/terms\">tenestevilkåra</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\">personvernmerknaden</a> for Firefox sine skytenester."
+msgstr ""
+"Ved å fortsetje seier du deg samd i <a id=\"fxa-tos\" href=\"/legal/terms\">tenestevilkåra</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\">personvernmerknaden</a> for Firefox sine skytenester."
+
+#: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
+msgid "Enter your email"
+msgstr ""
+
+#: app/scripts/templates/index.mustache:2 app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in_password.mustache:2
+#: app/scripts/templates/sign_up.mustache:2 app/scripts/templates/sign_up_password.mustache:2
+msgid "Continue to %(serviceName)s"
+msgstr "Fortset til %(serviceName)s"
+
+#: app/scripts/templates/index.mustache:5 app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:11
+msgid "Email"
+msgstr "E-post"
+
+#: app/scripts/templates/index.mustache:7
+msgid "Next"
+msgstr ""
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -871,7 +899,7 @@ msgstr "Godta"
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
 #: app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9 app/scripts/templates/settings/communication_preferences.mustache:5
 #: app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6 app/scripts/templates/settings/display_name.mustache:8
-#: app/scripts/templates/settings/emails.mustache:20
+#: app/scripts/templates/settings/emails.mustache:25
 msgid "Cancel"
 msgstr "Avbryt"
 
@@ -903,17 +931,9 @@ msgstr "Kvifor skjer dette?"
 msgid "Reset account"
 msgstr "Tilbakestill kontoen"
 
-#: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_up.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "Fortset til %(serviceName)s"
-
 #: app/scripts/templates/reset_password.mustache:5
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "Når du tilbakestiller passordet ditt, vil du mista alle Sync-data som ikkje er på nokon av einingane dine."
-
-#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:11
-msgid "Email"
-msgstr "E-post"
 
 #: app/scripts/templates/reset_password.mustache:9
 msgid "Begin reset"
@@ -943,6 +963,26 @@ msgstr "Bruk ein annan konto"
 msgid "Create an account"
 msgstr "Opprett ein konto"
 
+#: app/scripts/templates/sign_in_bounced.mustache:1
+msgid "Sorry. We’ve locked your&nbsp;account."
+msgstr ""
+
+#: app/scripts/templates/sign_in_bounced.mustache:2
+msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
+msgstr ""
+
+#: app/scripts/templates/sign_in_bounced.mustache:3
+msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
+msgstr ""
+
+#: app/scripts/templates/sign_in_bounced.mustache:5
+msgid "No longer own that email? Create a new account"
+msgstr ""
+
+#: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:12
+msgid "Mistyped email?"
+msgstr ""
+
 #: app/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
 msgstr "Takk før vaktsemda di"
@@ -967,7 +1007,7 @@ msgstr "Skriv inn godkjenningskode"
 msgid "Continue"
 msgstr "Hald fram"
 
-#: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4
+#: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4 app/scripts/templates/sign_up_password.mustache:1 app/scripts/templates/sign_up_password.mustache:4
 msgid "Create a Firefox Account"
 msgstr "Opprett ein Firefox-konto"
 
@@ -979,21 +1019,25 @@ msgstr "Migrer sync-data ved å oppretta ein ny Firefox-konto."
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr "Ser du etter utvidingsdata? Registrer ein Firefox-konto med den gamle e-postadressa di for ein tilleggskonto."
 
-#: app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/sign_up.mustache:13 app/scripts/templates/sign_up_password.mustache:6
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "Eit sterkt, unikt passord vil halde dine Firefox-data trygge frå inntrengarar."
 
-#: app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/sign_up.mustache:15 app/scripts/templates/sign_up_password.mustache:9
 msgid "Receive the monthly Firefox newsletter"
 msgstr "Send meg Firefox sitt månadlege nyhendebrev"
 
-#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/sign_up.mustache:17 app/scripts/templates/sign_up_password.mustache:11
 msgid "Create account"
 msgstr "Opprett konto"
 
-#: app/scripts/templates/sign_up.mustache:24
+#: app/scripts/templates/sign_up.mustache:22
 msgid "Have an account? Sign in"
 msgstr "Har du ein konto? Logg inn"
+
+#: app/scripts/templates/sign_up_password.mustache:7
+msgid "Verify password"
+msgstr ""
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
@@ -1079,7 +1123,7 @@ msgstr "Kamera"
 msgid "Clear"
 msgstr "Tøm"
 
-#: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:17
+#: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:22
 msgid "Done"
 msgstr "Ferdig"
 
@@ -1179,7 +1223,7 @@ msgstr "Firefox for Android"
 msgid "Missing or duplicate items?"
 msgstr "Manglande- eller duplikatelement?"
 
-#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:15
+#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20
 msgid "Refresh"
 msgstr "Oppdater"
 
@@ -1219,7 +1263,7 @@ msgstr "Er du sikker på at du vil sletta kontoen? Dette kan ikkje gjerast om."
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Vel namnet du vil skal visast i Firefox og når du handterar kontoen din."
 
-#: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:14
+#: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
 msgstr "Sekundær e-postadresse"
 
@@ -1235,15 +1279,19 @@ msgstr "stadfesta"
 msgid "verification required"
 msgstr "stadfesting påkravd"
 
-#: app/scripts/templates/settings/emails.mustache:10
+#: app/scripts/templates/settings/emails.mustache:10 app/scripts/templates/settings/emails.mustache:13
+msgid "Make primary"
+msgstr ""
+
+#: app/scripts/templates/settings/emails.mustache:12 app/scripts/templates/settings/emails.mustache:15
 msgid "Remove"
 msgstr "Fjern"
 
-#: app/scripts/templates/settings/emails.mustache:11
+#: app/scripts/templates/settings/emails.mustache:16
 msgid "Not in inbox or spam folder? Resend?"
 msgstr "Ikke i innboks eller mappa for uønskt e-post («spam»)? Sende på nytt?"
 
-#: app/scripts/templates/settings/emails.mustache:19
+#: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
 msgstr "Legg til"
 
@@ -1282,6 +1330,9 @@ msgstr "Logg inn"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Logg inn"
+
+#~ msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
+#~ msgstr "Meinte du <span tabindex=\"1\">%(escapedDomain)s</span>?"
 
 #~ msgid "App link resent to %(phoneNumber)s"
 #~ msgstr "App-lenke sendt til %(phoneNumber)s"
@@ -1338,11 +1389,11 @@ msgstr "Logg inn"
 #~ msgstr "Kvifor synkronisera två (eller fleire) einingar?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sync lèt deg dela bokmerke, historikk og passord som du lagrar i Firefox på ei eining, med Firefox på andre einingar. Logg inn på Firefox på telefonen din eller nettbrettet ditt og allt du har lagra"
-#~ " i Firefox på datamaskina di vert vist."
+#~ "Sync lèt deg dela bokmerke, historikk og passord som du lagrar i Firefox på ei eining, med Firefox på andre einingar. Logg inn på Firefox på telefonen din eller nettbrettet ditt og allt du har "
+#~ "lagra i Firefox på datamaskina di vert vist."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
@@ -1363,8 +1414,8 @@ msgstr "Logg inn"
 #~ msgid ""
 #~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr ""
-#~ "SMS-tenesta er berre tilgjengeleg for amerikanske telefonnummer. Du må kanskje betale for SMS og data. Mottakarane av e-posten eller SMS-en må ha gitt samtykke. <a %(escapedLearnMoreAttributes)s>Les"
-#~ " meir</a>"
+#~ "SMS-tenesta er berre tilgjengeleg for amerikanske telefonnummer. Du må kanskje betale for SMS og data. Mottakarane av e-posten eller SMS-en må ha gitt samtykke. <a "
+#~ "%(escapedLearnMoreAttributes)s>Les meir</a>"
 
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "Med velvillig løyve frå <a href=\"https://www.gravatar.com\">Gravatar</a>"
@@ -1441,18 +1492,20 @@ msgstr "Logg inn"
 #~ msgid "Sync preferences"
 #~ msgstr "Sync-innstillingar"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr "Ser du etter Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Kom i gang her</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr ""
+#~ "Ser du etter Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Kom i gang her</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Har du ein konto med ein annan e-post? <a href=\"%(signinUri)s\">Logg inn</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox er tilgjengeleg for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> og <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox er tilgjengeleg for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> og <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Sist aktiv: %(translatedTimeAgo)s"
