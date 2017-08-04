@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-05-25 17:27+0000\n"
+"PO-Revision-Date: 2017-08-04 21:13+0000\n"
 "Last-Translator: Marcelo Poli <enzomatrix@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -33,8 +33,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Conectaste correctamente tu primer dispositivo a la cuenta de Firefox. Para sacarle el máximo provecho a Sync, conectá cualquier dispositivo <a href='%(androidUrl)s'>Firefox para Android</a> o <a "
 "href='%(iosUrl)s'>Firefox para iOS</a>."
@@ -125,10 +125,10 @@ msgid "Your Firefox Account password has changed. If you did not change it, plea
 msgstr "Tu contraseña de cuenta de Firefox fue cambiada. Si no la cambiaste, <a %(resetLinkAttributes)s>restablecé tu contraseña</a> ahora."
 
 #: lib/senders/templates/password_reset.html:4 lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5
-#: lib/senders/templates/post_verify.txt:4 lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/post_verify_secondary.txt:4
-#: lib/senders/templates/post_verify_secondary_email.html:5 lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:5
-#: lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.html:5 lib/senders/templates/verification_reminder_second.txt:4
-#: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4 lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
+#: lib/senders/templates/post_verify.txt:4 lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/post_verify_secondary_email.html:5
+#: lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_first.txt:4
+#: lib/senders/templates/verification_reminder_second.html:5 lib/senders/templates/verification_reminder_second.txt:4 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
+#: lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Este es un correo electrónico automático; si lo recibiste por error, no debes hacer nada."
 
@@ -181,11 +181,12 @@ msgstr "El equipo de cuentas de Firefox"
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
-msgstr ""
+msgstr "Correo electrónico secundario eliminado"
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 msgstr ""
+"Eliminaste exitosamente %(secondaryEmail)s como correo electrónico secundario de tu cuenta de Firefox. Las notificaciones de seguridad y confirmaciones de ingreso no llegarán más a esta dirección."
 
 #: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
 msgid "Manage account"
@@ -239,7 +240,7 @@ msgstr "Restablecer contraseña"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr ""
+msgstr "¡Gracias por elegir Firefox! También podés instalar Firefox para móviles aquí: %(link)s"
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1
 msgid "Is this you signing in?"
@@ -263,8 +264,8 @@ msgstr "Hola de nuevo."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 "Hace unos días creaste una cuenta de Firefox, pero nunca la verificaste. Una cuenta verificada te permite acceder a tus pestañas, marcadores, contraseñas e historial en cualquier dispositivo "
 "conectado a ella. Para activarla solo tenés que confirmar tu dirección de correo electrónico."
@@ -417,7 +418,7 @@ msgstr "Correo electrónico secundario de Cuentas de Firefox agregada"
 
 #: lib/senders/email.js:816
 msgid "Secondary Firefox Account email removed"
-msgstr ""
+msgstr "Correo electrónico secundario de Firefox Account eliminado"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
