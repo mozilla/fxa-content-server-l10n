@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-08-05 04:10+0000\n"
+"PO-Revision-Date: 2017-08-05 04:15+0000\n"
 "Last-Translator: Cynthia Pereira <cynthiacpereira@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -971,15 +971,15 @@ msgstr "O e-mail de confirmação que enviamos para %(email)s retornou e nós bl
 
 #: app/scripts/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr ""
+msgstr "Se este for um endereço de e-mail válido, <a %(escapedSupportLinkAttrs)s>avise-nos</a> e poderemos ajudá-lo a desbloquear a sua conta."
 
 #: app/scripts/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr ""
+msgstr "Não possui mais este e-mail? Crie uma nova conta"
 
 #: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:12
 msgid "Mistyped email?"
-msgstr ""
+msgstr "Digitou errado o e-mail?"
 
 #: app/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1035,7 +1035,7 @@ msgstr "Tem uma conta? Identifique-se"
 
 #: app/scripts/templates/sign_up_password.mustache:7
 msgid "Verify password"
-msgstr ""
+msgstr "Verificar senha"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
@@ -1277,7 +1277,7 @@ msgstr "verificação necessária"
 
 #: app/scripts/templates/settings/emails.mustache:10 app/scripts/templates/settings/emails.mustache:13
 msgid "Make primary"
-msgstr ""
+msgstr "Definir como principal"
 
 #: app/scripts/templates/settings/emails.mustache:12 app/scripts/templates/settings/emails.mustache:15
 msgid "Remove"
