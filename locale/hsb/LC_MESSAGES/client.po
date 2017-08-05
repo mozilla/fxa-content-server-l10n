@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-08-05 19:28+0000\n"
+"PO-Revision-Date: 2017-08-05 19:39+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -967,11 +967,11 @@ msgstr "Bohužel je waše konto zawrjene."
 
 #: app/scripts/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr ""
+msgstr "Wobkrućenska e-mejlka, kotruž smy na %(email)s pósłali, je so wróćiła a smy waše konto zawrěli, zo bychmy waše daty Firefox škitali."
 
 #: app/scripts/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr ""
+msgstr "Jeli to je płaćiwa adresa, <a %(escapedSupportLinkAttrs)s>informujće nas</a> a móžemy pomhać, waše konto wotewrěć."
 
 #: app/scripts/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
