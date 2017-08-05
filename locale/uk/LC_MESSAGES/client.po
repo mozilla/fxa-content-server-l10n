@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-08-05 19:09+0000\n"
+"PO-Revision-Date: 2017-08-05 19:12+0000\n"
 "Last-Translator: Tymur Faradzhev <faradzhev.timur@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -151,7 +151,7 @@ msgstr "Відправлено лист для підтвердження"
 
 #: app/scripts/views/settings/emails.js:166
 msgid "Primary email set to %(email)s"
-msgstr ""
+msgstr "Встановити адресу %(email)s основною"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -500,7 +500,7 @@ msgstr "Некоректна конфігурація"
 
 #: app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "Ви мали на увазі <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
@@ -981,7 +981,7 @@ msgstr "Ця скринька вам більше не належить? Ств�
 
 #: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:12
 msgid "Mistyped email?"
-msgstr ""
+msgstr "Невірно ввели адресу?"
 
 #: app/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
