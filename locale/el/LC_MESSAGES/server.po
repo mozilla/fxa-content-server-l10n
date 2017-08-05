@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-08-05 20:10+0000\n"
+"PO-Revision-Date: 2017-08-05 20:15+0000\n"
 "Last-Translator: Jim Spentzos <jamesspentzos@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -180,11 +180,13 @@ msgstr "Η ομάδα των Λογαριασμών Firefox"
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
-msgstr ""
+msgstr "Το δευτερεύον e-mail αφαιρέθηκε"
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 msgstr ""
+"Έχετε αφαιρέσει επιτυχώς το %(secondaryEmail)s ως δευτερεύον e-mail του λογαριασμού Firefox σας. Οι ειδοποιήσεις ασφαλείας και οι επιβεβαιώσεις σύνδεσης δεν θα αποστέλλονται πλέον σε αυτή τη "
+"διεύθυνση."
 
 #: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
 msgid "Manage account"
@@ -238,7 +240,7 @@ msgstr "Επαναφορά κωδικού πρόσβασης"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr ""
+msgstr "Ευχαριστούμε που επιλέξατε το Firefox! Μπορείτε να εγκαταστήσετε το Firefox για κινητή συσκευή εδώ: %(link)s"
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1
 msgid "Is this you signing in?"

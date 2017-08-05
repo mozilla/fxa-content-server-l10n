@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-08-05 20:09+0000\n"
+"PO-Revision-Date: 2017-08-05 20:13+0000\n"
 "Last-Translator: Jim Spentzos <jamesspentzos@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -838,7 +838,7 @@ msgstr "Συνεχίζοντας, συμφωνείτε με τους <a id=\"fxa
 
 #: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
 msgid "Enter your email"
-msgstr ""
+msgstr "Εισάγετε το e-mail σας"
 
 #: app/scripts/templates/index.mustache:2 app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in_password.mustache:2
 #: app/scripts/templates/sign_up.mustache:2 app/scripts/templates/sign_up_password.mustache:2
@@ -851,7 +851,7 @@ msgstr "Ηλ. διεύθυνση"
 
 #: app/scripts/templates/index.mustache:7
 msgid "Next"
-msgstr ""
+msgstr "Επόμενο"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -972,11 +972,11 @@ msgstr "Συγγνώμη. Έχουμε κλειδώσει&nbsp;το λογαρι
 
 #: app/scripts/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr ""
+msgstr "Το e-mail επιβεβαίωσης που στείλαμε στο %(email)s επιστράφηκε και έχουμε κλειδώσει το λογαριασμό σας για να προστατέψουμε τα δεδομένα του Firefox σας."
 
 #: app/scripts/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr ""
+msgstr "Αν αυτή είναι μια έγκυρη διεύθυνση e-mail, <a %(escapedSupportLinkAttrs)s>ενημερώστε μας</a> και θα σάς βοηθήσουμε να ξεκλειδώσετε το λογαριασμό σας."
 
 #: app/scripts/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
@@ -1040,7 +1040,7 @@ msgstr "Έχετε λογαριασμό; Είσοδος"
 
 #: app/scripts/templates/sign_up_password.mustache:7
 msgid "Verify password"
-msgstr ""
+msgstr "Επαλήθευση κωδικού πρόσβασης"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
