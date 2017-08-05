@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-08-05 22:29+0000\n"
+"PO-Revision-Date: 2017-08-05 22:44+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -152,7 +152,7 @@ msgstr "ელფოსტის მთავარ მისამართა�
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
-msgstr "თქვენი ანგარიში დაბლოკილია უსაფრთხოების მიზნით"
+msgstr "თქვენი ანგარიშთან წვდომა შეზღუდულია უსაფრთხოების მიზნით"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:44
 msgid "Reset password"
@@ -297,7 +297,7 @@ msgstr "მოთხოვნილი შიგთავსი ზედმე�
 
 #: app/scripts/lib/auth-errors.js:109
 msgid "The request was blocked for security reasons"
-msgstr "მოთხოვნა დაბლოკილია უსაფრთხოების მიზნით"
+msgstr "მოთხოვნა უარყოფილია უსაფრთხოების მიზნით"
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:384
 msgid "Invalid authorization code"
@@ -497,7 +497,7 @@ msgstr "არასწორი გამართვა"
 
 #: app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "<span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span> იგულისხმეთ?"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
@@ -585,7 +585,7 @@ msgstr "SMS გაგზავნილია"
 
 #: app/scripts/lib/sms-errors.js:55
 msgid "Your number has been blocked"
-msgstr "თქვენი ნომერი დაბლოკილია"
+msgstr "თქვენი ნომერი შეზღუდულია"
 
 #: app/scripts/lib/sms-errors.js:79
 msgid "SMS not sent, please try again"
@@ -834,7 +834,7 @@ msgstr ""
 
 #: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
 msgid "Enter your email"
-msgstr ""
+msgstr "შეიყვანეთ თქვენი ელფოსტა"
 
 #: app/scripts/templates/index.mustache:2 app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in_password.mustache:2
 #: app/scripts/templates/sign_up.mustache:2 app/scripts/templates/sign_up_password.mustache:2
@@ -847,7 +847,7 @@ msgstr "ელფოსტა"
 
 #: app/scripts/templates/index.mustache:7
 msgid "Next"
-msgstr ""
+msgstr "შემდეგ"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -964,23 +964,23 @@ msgstr "ანგარიშის შექმნა"
 
 #: app/scripts/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr ""
+msgstr "ვწუხვართ. თქვენი&nbsp;ანგარიში შეზღუდულია."
 
 #: app/scripts/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr ""
+msgstr "დასადასტურებელი ბმულის %(email)s მისამართზე გამოგზავნა ვერ მოხერხდა, თქვენს ანგარიშთან წვდომა შეიზღუდება Firefox მონაცემების უსაფრთხოებისთვის."
 
 #: app/scripts/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr ""
+msgstr "თუ ელფოსტის მითითებული მისამართი მართებულია, <a %(escapedSupportLinkAttrs)s>გვაცნობეთ</a> და დაგეხმარებით თქვენს ანგარიშთან წვდომის დაბრუნებაში."
 
 #: app/scripts/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr ""
+msgstr "აღარ ფლობთ ელფოსტის ამ მისამართს? შექმენით ახალი ანგარიში"
 
 #: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:12
 msgid "Mistyped email?"
-msgstr ""
+msgstr "არასწორადაა აკრეფილი ელფოსტის მისამართი?"
 
 #: app/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1036,7 +1036,7 @@ msgstr "გაქვთ ანგარიში? შესვლა"
 
 #: app/scripts/templates/sign_up_password.mustache:7
 msgid "Verify password"
-msgstr ""
+msgstr "პაროლის დამოწმება"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
@@ -1280,7 +1280,7 @@ msgstr "საჭიროა დამოწმება"
 
 #: app/scripts/templates/settings/emails.mustache:10 app/scripts/templates/settings/emails.mustache:13
 msgid "Make primary"
-msgstr ""
+msgstr "მთავარ მისამართად დაყენება"
 
 #: app/scripts/templates/settings/emails.mustache:12 app/scripts/templates/settings/emails.mustache:15
 msgid "Remove"
