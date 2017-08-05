@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-08-05 08:07+0000\n"
+"PO-Revision-Date: 2017-08-05 08:13+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: az\n"
@@ -185,7 +185,7 @@ msgstr "İkinci e-poçt silindi"
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr ""
+msgstr "Firefox Hesabınızın ikinci e-poçtu %(secondaryEmail)s hesabınızdan silindi. Təhlükəsizlik bildirişləri və daxil-olma təsdiqləmələri artıq bu ünvana çatdırılmayacaq."
 
 #: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
 msgid "Manage account"
@@ -237,7 +237,7 @@ msgstr "Şifrəni sıfırla"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr ""
+msgstr "Firefox-u seçtiyiniz üçün təşəkkürlər! Mobil cihazlar üçün Firefox-u endirə bilərsiz: %(link)s"
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1
 msgid "Is this you signing in?"
@@ -413,7 +413,7 @@ msgstr "İkinci Firefox Hesabı e-poçtu əlavə edildi"
 
 #: lib/senders/email.js:816
 msgid "Secondary Firefox Account email removed"
-msgstr ""
+msgstr "İkinci Firefox Hesabı e-poçtu silindi"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
