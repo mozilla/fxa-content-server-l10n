@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-08-06 10:49+0000\n"
+"PO-Revision-Date: 2017-08-06 12:08+0000\n"
 "Last-Translator: Slimane Amiri <slimane.amiri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -964,11 +964,11 @@ msgstr "Suref-aγ. nsewḥel amiḍan-ik &nbsp;."
 
 #: app/scripts/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr ""
+msgstr "Asentem n imayl i nuzen γer %(email)s yuγal-d u nsewḥel amiḍan-ik akken ad naḥrez isefka inek Firefox."
 
 #: app/scripts/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr ""
+msgstr "Ma yella imayl-agi d ameγtu, <a%(escapedSupportLinkAttrs)s>Ini-aγ-d</a> sakin ad nekkes asewḥel n umiḍan."
 
 #: app/scripts/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
@@ -976,7 +976,7 @@ msgstr "Ur tesεiḍ ara imay-agi tura? Rnu yiwen d amaynut"
 
 #: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:12
 msgid "Mistyped email?"
-msgstr ""
+msgstr "Tucḍa deg imayl?"
 
 #: app/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
