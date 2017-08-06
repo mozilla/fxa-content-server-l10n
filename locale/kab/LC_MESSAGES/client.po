@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-08-06 12:08+0000\n"
-"Last-Translator: Slimane Amiri <slimane.amiri@gmail.com>\n"
+"PO-Revision-Date: 2017-08-06 20:46+0000\n"
+"Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
 "MIME-Version: 1.0\n"
@@ -968,7 +968,7 @@ msgstr "Asentem n imayl i nuzen γer %(email)s yuγal-d u nsewḥel amiḍan-ik 
 
 #: app/scripts/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr "Ma yella imayl-agi d ameγtu, <a%(escapedSupportLinkAttrs)s>Ini-aγ-d</a> sakin ad nekkes asewḥel n umiḍan."
+msgstr "Ma yella imayl-agi d ameγtu, <a %(escapedSupportLinkAttrs)s>Ini-aγ-d</a> sakin ad nekkes asewḥel n umiḍan."
 
 #: app/scripts/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
