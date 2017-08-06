@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-08-04 22:38+0000\n"
-"Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
+"PO-Revision-Date: 2017-08-06 10:43+0000\n"
+"Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
 "MIME-Version: 1.0\n"
@@ -1100,7 +1100,7 @@ msgstr "Endre…"
 
 #: app/scripts/templates/settings/avatar.mustache:4 app/scripts/templates/settings/display_name.mustache:4 app/scripts/templates/settings/emails.mustache:5
 msgid "Add…"
-msgstr "Lägg till…"
+msgstr "Legg til…"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
