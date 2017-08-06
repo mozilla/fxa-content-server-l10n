@@ -762,7 +762,7 @@ msgstr "Slaptažodį galėsite pasikeisti, jei per artimiausią valandą spustel
 
 #: app/scripts/templates/confirm_reset_password.mustache:4 app/scripts/templates/confirm_reset_password.mustache:6 app/scripts/templates/reset_password.mustache:10
 msgid "Remember password? Sign in"
-msgstr "Prisimenate slaptažodį? Prisijunkite"
+msgstr "Atsimenate slaptažodį? Prisijunkite"
 
 #: app/scripts/templates/connect_another_device.mustache:1
 msgid "Connect another device"
