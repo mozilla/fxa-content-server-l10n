@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-08-07 19:36+0000\n"
+"PO-Revision-Date: 2017-08-07 21:07+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -418,7 +418,7 @@ msgstr "Adresse électronique secondaire ajoutée au compte Firefox"
 
 #: lib/senders/email.js:816
 msgid "Secondary Firefox Account email removed"
-msgstr ""
+msgstr "Adresse électronique secondaire retirée du compte Firefox"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
