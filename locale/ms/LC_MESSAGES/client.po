@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-08-04 21:20+0000\n"
+"PO-Revision-Date: 2017-08-07 12:54+0000\n"
 "Last-Translator: manxmensch <manxmensch@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ms\n"
@@ -1140,7 +1140,7 @@ msgstr "Kata laluan lama"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
-msgstr "Putuskan Sync?"
+msgstr "Memutuskan Sync?"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
@@ -1168,11 +1168,11 @@ msgstr "Biarkan"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:13
 msgid "Disconnect"
-msgstr "Nyahsambung"
+msgstr "Memutuskan"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
-msgstr "Nyahsambung Berjaya"
+msgstr "Berjaya Memutuskan"
 
 #: app/scripts/templates/settings/clients.mustache:2
 msgid "Devices & apps"
@@ -1188,7 +1188,7 @@ msgstr "peranti semasa"
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
-msgstr "Nyahsambung…"
+msgstr "Memutuskan…"
 
 #: app/scripts/templates/settings/clients.mustache:11
 msgid "current session"
