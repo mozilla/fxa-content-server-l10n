@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2016-04-18 00:04+0000\n"
-"Last-Translator: ibai <ibai@oihanguren.com>\n"
+"PO-Revision-Date: 2017-08-08 22:58+0000\n"
+"Last-Translator: julenx <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
@@ -101,7 +101,7 @@ msgstr ""
 
 #: app/scripts/views/settings/clients.js:64
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "Web saioa, %(userAgent)s"
 
 #: app/scripts/views/settings/clients.js:66 app/scripts/lib/strings.js:43
 msgid "Web Session"
@@ -109,7 +109,7 @@ msgstr ""
 
 #: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:75
 msgid "first sync %(translatedTimeAgo)s"
@@ -165,19 +165,19 @@ msgstr "Ireki Gmail"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:25
 msgid "Open Hotmail"
-msgstr ""
+msgstr "Ireki Hotmail"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:31
 msgid "Open Yahoo"
-msgstr ""
+msgstr "Ireki Yahoo"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:37
 msgid "Open Outlook"
-msgstr ""
+msgstr "Ireki Outlook"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:43
 msgid "Open Restmail"
-msgstr ""
+msgstr "Ireki Restmail"
 
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
@@ -230,7 +230,7 @@ msgstr "Helbide elektronikoa egiaztatzeko klik egin duzun lotura iraungita dago.
 
 #: app/scripts/lib/auth-errors.js:21 app/scripts/lib/sms-errors.js:17
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "Gehiegitan saiatu zara. Saiatu berriro geroago."
 
 #: app/scripts/lib/auth-errors.js:25
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
@@ -306,7 +306,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Telefono-zenbaki baliogabea"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
@@ -322,7 +322,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Zure mezua itzuli egin da. Helbidea gaizki idatzi duzu?"
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
@@ -593,12 +593,10 @@ msgid "SMS not sent, please try again"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Jarraituz gero, %(serviceName)s (%(serviceUri)s)(r)en <a id=\"service-tos\" href=\"%(termsUri)s\">zerbitzuaren baldintzak</a> eta <a id=\"service-pp\" href=\"%(privacyUri)s\">pribatutasun oharra</"
-"a> onartzen dituzu."
+"Jarraituz gero, %(serviceName)s (%(serviceUri)s)(r)en <a id=\"service-tos\" href=\"%(termsUri)s\">zerbitzuaren baldintzak</a> eta <a id=\"service-pp\" href=\"%(privacyUri)s\">pribatutasun oharra</a>"
+" onartzen dituzu."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -1239,7 +1237,7 @@ msgstr "Posta-hobespenak"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:10
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Kendu harpidetza"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:12
 msgid "Subscribe"
@@ -1259,7 +1257,7 @@ msgstr "Ziur zaude zure kontua ezabatu nahi duzula? Ekintza hau ezin da desegin.
 
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr ""
+msgstr "Aukeratu Firefoxen eta zure kontua kudeatzean agertzea nahi duzun izena."
 
 #: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
@@ -1303,11 +1301,11 @@ msgstr ""
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Hasi saioa Sync-en"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-msgstr ""
+msgstr "Aukeratu zure fitxak, laster-markak, pasahitzak eta gehiago sinkronizatzeko erabili nahi duzun kontua."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
@@ -1622,17 +1620,15 @@ msgstr ""
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Kontua baduzu? Hasi saioa."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
+#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 #~ msgstr ""
 #~ "Jarraitzearekin bat, %(serviceName)s guneko (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Zerbitzuaren Baldintzak</a> eta <a id=\"service-pp\" href=\"%(privacyUri)s\">Pribatutasun-"
 #~ "oharra</a> onartzen ditut."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Jarraitzearekin bat, Firefoxen hodeieko zerbitzuen <a id=\"fxa-tos\" href=\"/legal/terms\">erabiltzeko baldintzak</a> eta <a id=\"fxa-pp\" href=\"/legal/privacy\">pribatutasun-politika</a> "
-#~ "onartzen ditudala berresten dut."
+#~ "Jarraitzearekin bat, Firefoxen hodeieko zerbitzuen <a id=\"fxa-tos\" href=\"/legal/terms\">erabiltzeko baldintzak</a> eta <a id=\"fxa-pp\" href=\"/legal/privacy\">pribatutasun-politika</a> onartzen "
+#~ "ditudala berresten dut."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Harpidetu Firefoxen berri eta iradokizunetara"
