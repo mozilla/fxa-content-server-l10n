@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-08-04 14:55+0000\n"
-"Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
+"PO-Revision-Date: 2017-08-05 15:15+0000\n"
+"Last-Translator: ahmad <ahmad@farghal.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -592,11 +592,8 @@ msgid "SMS not sent, please try again"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"بالمتابعة، أنت توافق على <a id=\"service-tos\" href=\"%(termsUri)s\">شروط الخدمة</a> و <a id=\"service-pp\" href=\"%(privacyUri)s\">سياسة الخصوصيّة</a> من خدمات %(serviceName)s (%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "بالمتابعة، أنت توافق على <a id=\"service-tos\" href=\"%(termsUri)s\">شروط الخدمة</a> و <a id=\"service-pp\" href=\"%(privacyUri)s\">سياسة الخصوصيّة</a> من خدمات %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -781,7 +778,7 @@ msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "لج إلى فَيَرفُكس من جهاز آخر لإكمال الإعداد"
 
 #: app/scripts/templates/connect_another_device.mustache:13
 msgid "Open settings and select Sign in to Firefox to complete set-up"
@@ -833,7 +830,7 @@ msgstr "بالمتابعة، أنت توافق على <a id=\"fxa-tos\" href=\"/
 
 #: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
 msgid "Enter your email"
-msgstr ""
+msgstr "أدخل بريدك الإلكتروني"
 
 #: app/scripts/templates/index.mustache:2 app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in_password.mustache:2
 #: app/scripts/templates/sign_up.mustache:2 app/scripts/templates/sign_up_password.mustache:2
@@ -935,7 +932,7 @@ msgstr "عند إعادة تعيين كلمة السرّ الخاصة بك، س�
 
 #: app/scripts/templates/reset_password.mustache:9
 msgid "Begin reset"
-msgstr ""
+msgstr "ابدأ التصفير"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
@@ -1418,11 +1415,11 @@ msgstr ""
 #~ msgstr "لديك حساب بواسطة بريد إلكتروني آخر؟ <a href=\"%(signinUri)s\">سجل الدخول</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "فَيَرفُكس متوفر لنظام تشغيل <a href=\"%(linkWindows)s\">ويندوز</a> و <a href=\"%(linkOSX)s\">أو إس أكس</a> و <a href=\"%(linkAndroid)s\">أندرويد</a> و <a href=\"%(linkIOS)s\">أي أو إس</a> و <a href="
-#~ "\"%(linkLinux)s\">لينكس</a>."
+#~ "فَيَرفُكس متوفر لنظام تشغيل <a href=\"%(linkWindows)s\">ويندوز</a> و <a href=\"%(linkOSX)s\">أو إس أكس</a> و <a href=\"%(linkAndroid)s\">أندرويد</a> و <a href=\"%(linkIOS)s\">أي أو إس</a> و <a "
+#~ "href=\"%(linkLinux)s\">لينكس</a>."
 
 #~ msgid "Delete"
 #~ msgstr "احذف"
