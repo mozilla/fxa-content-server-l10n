@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-08-10 18:10+0000\n"
+"PO-Revision-Date: 2017-08-10 18:13+0000\n"
 "Last-Translator: Merike Sell <merikes@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -236,7 +236,7 @@ msgstr "Lähtesta parool"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr ""
+msgstr "Täname, et valisid Firefoxi! Enda telefoni saad Firefoxi paigaldada siit: %(link)s"
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1
 msgid "Is this you signing in?"
@@ -413,7 +413,7 @@ msgstr "Firefoxi kontole lisati teine e-posti aadress"
 
 #: lib/senders/email.js:816
 msgid "Secondary Firefox Account email removed"
-msgstr ""
+msgstr "Firefoxi konto teine e-posti aadress eemaldati"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
