@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-04 16:09+0000\n"
+"POT-Creation-Date: 2017-08-11 16:08+0000\n"
 "PO-Revision-Date: 2017-04-28 22:42+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,19 +71,19 @@ msgstr "Ești acum pregătit să folosești %(serviceName)s"
 msgid "Account verified"
 msgstr "Cont verificat"
 
-#: app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:163
+#: app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:164
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Cont necunoscut. <a href=\"/signup\">Înregistrare</a>"
 
-#: app/scripts/views/sign_in.js:160
+#: app/scripts/views/sign_in.js:161
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Cont Firefox necunoscut. <a href=\"/signup\">Înregistrează-te</a> folosind e-mailul anterior asociat contului de Add-ons (Suplimente) pentru a accesa datele tale din site-ul Add-ons."
 
-#: app/scripts/views/sign_up.js:53
+#: app/scripts/views/sign_up.js:55
 msgid "Account no longer exists. Recreate it?"
 msgstr "Contul nu mai există. Îl recreezi?"
 
-#: app/scripts/views/sign_up.js:293
+#: app/scripts/views/sign_up.js:315
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Cont există deja. <a href=\"/signin\">Autentifică-te</a>"
 
@@ -99,31 +99,31 @@ msgstr "Ne pare rău să auzim asta. Ar trebui să schimbi parola contului Firef
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Ne pare rău să auzim asta. Dacă acesta a fost un dispozitiv în care chiar nu ai încredere, ar trebui să schimbi parola contului Firefox și să schimbi toate parolele salvate în Firefox."
 
-#: app/scripts/views/settings/clients.js:64
+#: app/scripts/views/settings/clients.js:73
 msgid "Web Session, %(userAgent)s"
 msgstr "Sesiune web, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:66 app/scripts/lib/strings.js:43
+#: app/scripts/views/settings/clients.js:75 app/scripts/lib/strings.js:43
 msgid "Web Session"
 msgstr "Sesiune web"
 
-#: app/scripts/views/settings/clients.js:69
+#: app/scripts/views/settings/clients.js:78
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:75
+#: app/scripts/views/settings/clients.js:84
 msgid "first sync %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:78
+#: app/scripts/views/settings/clients.js:87
 msgid "last sync %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:84
+#: app/scripts/views/settings/clients.js:93
 msgid "last active %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:88
+#: app/scripts/views/settings/clients.js:97
 msgid "last sync time unknown"
 msgstr ""
 
@@ -666,7 +666,7 @@ msgstr "Află mai multe"
 msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
 msgstr ""
 
-#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:22
 msgid "Choose what to sync"
 msgstr "Alege ce să sincronizezi"
 
@@ -710,7 +710,7 @@ msgstr "Află cum funcționează Sincronizare."
 msgid "New password"
 msgstr "Parola nouă"
 
-#: app/scripts/templates/complete_reset_password.mustache:14
+#: app/scripts/templates/complete_reset_password.mustache:14 app/scripts/templates/sign_up.mustache:15
 msgid "Repeat password"
 msgstr "Repetă parola"
 
@@ -839,7 +839,7 @@ msgstr "Parola"
 msgid "Forgot password?"
 msgstr "Ai pierdut parola?"
 
-#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:17
 #: app/scripts/templates/sign_up_password.mustache:8
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
@@ -1033,19 +1033,19 @@ msgstr "Migrează datele de sincronizare prin crearea unui cont&nbsp;Firefox."
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr "Cauți datele suplimentelor? Înregistrează-te pentru un cont Firefox cu adresa de e-mail a contului tău de Add-onuri vechi."
 
-#: app/scripts/templates/sign_up.mustache:13 app/scripts/templates/sign_up_password.mustache:6
+#: app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up_password.mustache:6
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "O parolă puternică, unică va păstra datele tale Firefox în siguranță de intruși."
 
-#: app/scripts/templates/sign_up.mustache:15 app/scripts/templates/sign_up_password.mustache:9
+#: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/sign_up_password.mustache:9
 msgid "Receive the monthly Firefox newsletter"
 msgstr ""
 
-#: app/scripts/templates/sign_up.mustache:17 app/scripts/templates/sign_up_password.mustache:11
+#: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:11
 msgid "Create account"
 msgstr "Creează cont"
 
-#: app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/sign_up.mustache:25
 msgid "Have an account? Sign in"
 msgstr "Ai un cont? Autentifică-te"
 
@@ -1332,13 +1332,13 @@ msgid "Use Firefox Account"
 msgstr "Folosește cont Firefox"
 
 #. submit button
-#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:91
+#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
 msgctxt "submit button"
 msgid "Sign in"
 msgstr ""
 
 #. header text
-#: app/scripts/views/sign_in.js:94
+#: app/scripts/views/sign_in.js:95
 msgctxt "header text"
 msgid "Sign in"
 msgstr ""

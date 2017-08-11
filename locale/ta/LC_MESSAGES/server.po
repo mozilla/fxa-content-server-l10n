@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-04 16:09+0000\n"
+"POT-Creation-Date: 2017-08-11 16:08+0000\n"
 "PO-Revision-Date: 2017-07-18 04:50+0000\n"
 "Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -177,7 +177,7 @@ msgid "Secondary email removed"
 msgstr ""
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
-msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 msgstr ""
 
 #: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
@@ -211,8 +211,8 @@ msgid "Secondary email added"
 msgstr "இரண்டாம்நிலை மின்னஞ்சல் சேர்க்கப்பட்டது"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2 lib/senders/templates/post_verify_secondary_email.html:3
-msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr "உங்கள் பயர்பாஃசு கணக்கின் 2ஆவது %(secondaryEmail)s மின்னஞ்சலை வெற்றிகரமாகச் சரிபார்த்தீர்கள். பாதுகாப்பு மற்றும் உள்நுழைவுகள் போன்ற அறிவிப்புகள் உங்கள் மின்னஞ்சல் முகவரிகளுக்கு கிடைக்கப்பெறும்."
+msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+msgstr ""
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Forgot your password?"
@@ -455,6 +455,10 @@ msgstr "பயர்பாக்ஸ் முகில்க் கணிம ச
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "சேவைக நிபந்தனைகள்"
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr "உங்கள் பயர்பாஃசு கணக்கின் 2ஆவது %(secondaryEmail)s மின்னஞ்சலை வெற்றிகரமாகச் சரிபார்த்தீர்கள். பாதுகாப்பு மற்றும் உள்நுழைவுகள் போன்ற அறிவிப்புகள் உங்கள் மின்னஞ்சல் முகவரிகளுக்கு கிடைக்கப்பெறும்."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "கோரிக்கைப்படி, உங்கள் செல்பேசியில் பயர்பாஃசை நிறுவுவதற்கான ஒரு தொடுப்பு: %(link)s"
