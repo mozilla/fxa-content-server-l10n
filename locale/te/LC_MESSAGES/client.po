@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-04 16:09+0000\n"
+"POT-Creation-Date: 2017-08-11 16:08+0000\n"
 "PO-Revision-Date: 2017-07-18 10:31+0000\n"
 "Last-Translator: Dinesh <dineshmv38@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,19 +70,19 @@ msgstr "మీరు ఇప్పుడు %(serviceName)s ఉపయోగిం
 msgid "Account verified"
 msgstr "ఖాతా నిర్ధారణ అయ్యింది"
 
-#: app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:163
+#: app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:164
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "తెలియని ఖాతా. <a href=\"/signup\">సైన్ అప్</a>"
 
-#: app/scripts/views/sign_in.js:160
+#: app/scripts/views/sign_in.js:161
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "గుర్తుతెలియని Firefox ఖాతా. మీ ఆడ్-ఆన్స్ డాటా పొందుటకు మీ మునుపటి ఆడ్-ఆన్స్ ఖాతాతో <a href=\"/signup\">సైన్-అప్</a> అవ్వండి."
 
-#: app/scripts/views/sign_up.js:53
+#: app/scripts/views/sign_up.js:55
 msgid "Account no longer exists. Recreate it?"
 msgstr "ఖాతా ఇకపై చెల్లదు. దీన్ని తిరిగి సృష్టించండి?"
 
-#: app/scripts/views/sign_up.js:293
+#: app/scripts/views/sign_up.js:315
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "ఖాతా ఇప్పటికే ఉనికిలో ఉంది. <a href=\"/signin\">సైన్ ఇన్</a>"
 
@@ -98,31 +98,31 @@ msgstr "దీని గురిన్చి తెలుసుకొని ఛ
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "దీని గురిన్చి తెలుసుకొని ఛిన్తిస్తున్నమ్. మీరు ఒకవెల ఈ పరికరాని నమ్మకపొతె, మీ ఫైర్ఫాక్స్ ఖాత యొక్క పాస్వర్డ్ మర్చుకొవలెను మరియు  ఫైర్ఫాక్స్ లో సేవ్ చేయబడిన పాస్వర్డ్లను మార్చoడీ."
 
-#: app/scripts/views/settings/clients.js:64
+#: app/scripts/views/settings/clients.js:73
 msgid "Web Session, %(userAgent)s"
 msgstr "జాల సెషన్, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:66 app/scripts/lib/strings.js:43
+#: app/scripts/views/settings/clients.js:75 app/scripts/lib/strings.js:43
 msgid "Web Session"
 msgstr "వెబ్ సెషన్"
 
-#: app/scripts/views/settings/clients.js:69
+#: app/scripts/views/settings/clients.js:78
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:75
+#: app/scripts/views/settings/clients.js:84
 msgid "first sync %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:78
+#: app/scripts/views/settings/clients.js:87
 msgid "last sync %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:84
+#: app/scripts/views/settings/clients.js:93
 msgid "last active %(translatedTimeAgo)s"
 msgstr "చివరిసారి క్రియాశీలం %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:88
+#: app/scripts/views/settings/clients.js:97
 msgid "last sync time unknown"
 msgstr ""
 
@@ -653,7 +653,7 @@ msgstr "మరింత తెలుసుకోండి"
 msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
 msgstr ""
 
-#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:22
 msgid "Choose what to sync"
 msgstr "ఏమి సింక్ చేయాలో ఎంచుకోండి"
 
@@ -697,7 +697,7 @@ msgstr "సింక్ ఎలా పనిచేస్తుందో నేర
 msgid "New password"
 msgstr "కొత్త సంకేతపదం"
 
-#: app/scripts/templates/complete_reset_password.mustache:14
+#: app/scripts/templates/complete_reset_password.mustache:14 app/scripts/templates/sign_up.mustache:15
 msgid "Repeat password"
 msgstr "పాస్వర్డ్ మళ్ళి చెప్పండి"
 
@@ -825,7 +825,7 @@ msgstr "సంకేతపదం"
 msgid "Forgot password?"
 msgstr "సంకేతపదం మరిచిపోయారా?"
 
-#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:17
 #: app/scripts/templates/sign_up_password.mustache:8
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr "కొనసాగడానికి, మేరు ఫైర్ఫాక్స్ క్లౌడ్ సేవల యొక్క <a id=\"fxa-tos\" href=\"/legal/terms\">సేవా షరతులు</a> మరియు <a id=\"fxa-pp\" href=\"/legal/privacy\">గోప్యతా నోటీసు</a> కు అంగీకరిచాలి."
@@ -1016,19 +1016,19 @@ msgstr "మే సింక్ డేటా తరలించడానికి
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr "మీ పొడిగింతల డేటా కోసం చూస్తున్నారా? మీ పాత పొడిగింతలున్న ఖాతా యొక్క ఇమెయిల్ చిరునామాతో ఒక Firefox ఖాతాలో చేరండి."
 
-#: app/scripts/templates/sign_up.mustache:13 app/scripts/templates/sign_up_password.mustache:6
+#: app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up_password.mustache:6
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "ఒక బలమైన, ఏకైక పాస్వర్డ్ను మీ ఫైర్ఫాక్స్ లోకి చొరబాటు నుండి సురక్షితంగా ఉంచుతాయి."
 
-#: app/scripts/templates/sign_up.mustache:15 app/scripts/templates/sign_up_password.mustache:9
+#: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/sign_up_password.mustache:9
 msgid "Receive the monthly Firefox newsletter"
 msgstr "నెలసరి ఫైర్‌ఫాక్స్ న్యూస్‌లెటర్ అందుకోండి"
 
-#: app/scripts/templates/sign_up.mustache:17 app/scripts/templates/sign_up_password.mustache:11
+#: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:11
 msgid "Create account"
 msgstr "ఖాతా సృష్టించు"
 
-#: app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/sign_up.mustache:25
 msgid "Have an account? Sign in"
 msgstr "ఖాతా ఉందా? ప్రవేశించండి"
 
@@ -1315,13 +1315,13 @@ msgid "Use Firefox Account"
 msgstr "ఫైర్ఫాక్స్ ఖాతా వాడు"
 
 #. submit button
-#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:91
+#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
 msgctxt "submit button"
 msgid "Sign in"
 msgstr "ప్రవేశించు"
 
 #. header text
-#: app/scripts/views/sign_in.js:94
+#: app/scripts/views/sign_in.js:95
 msgctxt "header text"
 msgid "Sign in"
 msgstr "ప్రవేశం"

@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2017-08-04 16:09+0000\n"
+"POT-Creation-Date: 2017-08-11 16:08+0000\n"
 
 #: lib/senders/templates/_pending.txt:1
 #: lib/senders/templates/verification_reminder_second.html:2
@@ -303,7 +303,7 @@ msgstr ""
 #: lib/senders/templates/post_remove_secondary.html:3
 #: lib/senders/templates/post_remove_secondary.txt:2
 msgid ""
-"You have successfully removed %(secondaryEmail)s as a secondary email to "
+"You have successfully removed %(secondaryEmail)s as a secondary email from "
 "your Firefox Account. Security notifications and sign-in confirmations will "
 "no longer be delivered to this address."
 msgstr ""
@@ -352,7 +352,7 @@ msgstr ""
 #: lib/senders/templates/post_verify_secondary.txt:2
 #: lib/senders/templates/post_verify_secondary_email.html:3
 msgid ""
-"You have successfully verified %(secondaryEmail)s as a secondary email to "
+"You have successfully verified %(secondaryEmail)s as a secondary email for "
 "your Firefox Account. Security notifications and sign-in confirmations will "
 "now be delivered to both email addresses."
 msgstr ""

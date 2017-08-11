@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-04 16:09+0000\n"
+"POT-Creation-Date: 2017-08-11 16:08+0000\n"
 "PO-Revision-Date: 2017-08-04 21:26+0000\n"
 "Last-Translator: manxmensch <manxmensch@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,13 +27,13 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Akaun Firefox anda telah berjaya disambungkan dengan peranti pertama anda. Kini anda boleh daftar masuk Sync di peranti anda yang lain termasuk Firefox untuk <a href='%(androidUrl)s'>Android</a> dan"
-" <a href='%(iosUrl)s'>iOS</a>."
+"Akaun Firefox anda telah berjaya disambungkan dengan peranti pertama anda. Kini anda boleh daftar masuk Sync di peranti anda yang lain termasuk Firefox untuk <a href='%(androidUrl)s'>Android</a> "
+"dan <a href='%(iosUrl)s'>iOS</a>."
 
 #: lib/senders/templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
 "Akaun Firefox anda telah berjaya disambungkan dengan peranti pertama anda. Sambungkan mana-mana <a href='%(androidUrl)s'>Firefox untuk Android</a> atau <a href='%(iosUrl)s'>Firefox untuk iOS</a> "
 "lain untuk dapatkan kelebihannya."
@@ -124,10 +124,10 @@ msgid "Your Firefox Account password has changed. If you did not change it, plea
 msgstr "Kata laluan Akaun Firefox anda telah diubah. Jika anda tidak mengubahnya, sila <a %(resetLinkAttributes)s>set semula kata laluan anda</a> sekarang."
 
 #: lib/senders/templates/password_reset.html:4 lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5
-#: lib/senders/templates/post_verify.txt:4 lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/post_verify_secondary_email.html:5
-#: lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_first.txt:4
-#: lib/senders/templates/verification_reminder_second.html:5 lib/senders/templates/verification_reminder_second.txt:4 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
-#: lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
+#: lib/senders/templates/post_verify.txt:4 lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/post_verify_secondary.txt:4
+#: lib/senders/templates/post_verify_secondary_email.html:5 lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:5
+#: lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.html:5 lib/senders/templates/verification_reminder_second.txt:4
+#: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4 lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Ini adalah emel automatik; jika anda tersilap terima, tiada tindakan diperlukan."
 
@@ -183,8 +183,8 @@ msgid "Secondary email removed"
 msgstr "E-mel sekunder dibuang"
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
-msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr "Anda telah berjaya membuang %(secondaryEmail)s sebagai e-mel sekunder Akaun Firefox anda. Notifikasi keselamatan dan pengesahan daftar masuk tidak lagi akan dihantar ke alamat ini."
+msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+msgstr ""
 
 #: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
 msgid "Manage account"
@@ -203,8 +203,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
-"Akaun Firefox anda telah berjaya disambungkan dengan peranti pertama anda. Kini anda boleh daftar masuk Sync di peranti anda yang lain termasuk Firefox untuk <a %(androidLinkAttributes)s>Android</a>"
-" dan <a %(iosLinkAttributes)s>iOS</a>."
+"Akaun Firefox anda telah berjaya disambungkan dengan peranti pertama anda. Kini anda boleh daftar masuk Sync di peranti anda yang lain termasuk Firefox untuk <a %(androidLinkAttributes)s>Android</"
+"a> dan <a %(iosLinkAttributes)s>iOS</a>."
 
 #: lib/senders/templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
@@ -219,9 +219,8 @@ msgid "Secondary email added"
 msgstr "E-mel sekunder ditambah"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2 lib/senders/templates/post_verify_secondary_email.html:3
-msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 msgstr ""
-"Anda telah berjaya mengesahkan %(secondaryEmail)s sebagai e-mel sekunder Akaun Firefox anda. Sekarang, notifikasi keselamatan dan pengesahan daftar masuk akan dihantar ke alamat e-mel berkenaan."
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Forgot your password?"
@@ -261,8 +260,8 @@ msgstr "Hello."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-" email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+"this email address to activate your account."
 msgstr ""
 "Beberapa hari yang lalu anda telah mencipta akaun Firefox, tetapi tidak pernah disahkan. Akaun yang telah disahkan membolehkan anda mencapai tab, tanda buku, kata laluan dan sejarah pada sebarang "
 "peranti yang disambungkan kepadanya. Anda hanya perlu mengesahkan alamat e-mel ini untuk mengaktifkan akaun anda."
@@ -468,6 +467,14 @@ msgstr "Perkhidmatan cloud Firefox"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Terma Perkhidmatan"
+
+#~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+#~ msgstr "Anda telah berjaya membuang %(secondaryEmail)s sebagai e-mel sekunder Akaun Firefox anda. Notifikasi keselamatan dan pengesahan daftar masuk tidak lagi akan dihantar ke alamat ini."
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr ""
+#~ "Anda telah berjaya mengesahkan %(secondaryEmail)s sebagai e-mel sekunder Akaun Firefox anda. Sekarang, notifikasi keselamatan dan pengesahan daftar masuk akan dihantar ke alamat e-mel berkenaan."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Seperti yang diminta, ini adalah pautan untuk memasang Firefox di peranti mudah alih anda: %(link)s"

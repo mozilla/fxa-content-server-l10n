@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-06-17 05:33+0000\n"
+"POT-Creation-Date: 2017-08-11 16:08+0000\n"
+"PO-Revision-Date: 2017-08-04 22:47+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -180,10 +180,10 @@ msgstr "A equipa do Contas Firefox"
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
-msgstr ""
+msgstr "Email secundário removido"
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
-msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 msgstr ""
 
 #: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
@@ -219,10 +219,8 @@ msgid "Secondary email added"
 msgstr "Email secundário adicionado"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2 lib/senders/templates/post_verify_secondary_email.html:3
-msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 msgstr ""
-"Verificou com sucesso %(secondaryEmail)s como email secundário para a sua Conta Firefox. Notificações de segurança e confirmações de início de sessºao serão agora entregues a ambos os endereços de "
-"email."
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Forgot your password?"
@@ -238,7 +236,7 @@ msgstr "Repor palavra-passe"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr ""
+msgstr "Obrigado por escolher o Firefox! Pode instalar o Firefox para dispositivos móveis aqui: %(link)s"
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1
 msgid "Is this you signing in?"
@@ -414,7 +412,7 @@ msgstr "Email secundário do Contas Firefox adicionado"
 
 #: lib/senders/email.js:816
 msgid "Secondary Firefox Account email removed"
-msgstr ""
+msgstr "Email secundário da Conta Firefox removido"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -467,6 +465,17 @@ msgstr "Serviços do Firefox na cloud"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Termos do serviço"
+
+#~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+#~ msgstr ""
+#~ "Removeu %(secondaryEmail)s com sucesso como um email secundário para a sua Conta Firefox. As notificações de segurança e confirmações de início de sessão não serão mais entregues para este "
+#~ "endereço."
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr ""
+#~ "Verificou com sucesso %(secondaryEmail)s como email secundário para a sua Conta Firefox. Notificações de segurança e confirmações de início de sessºao serão agora entregues a ambos os endereços "
+#~ "de email."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Como solicitado, aqui está uma ligação para instalar o Firefox no seu dispositivo móvel: %(link)s"
