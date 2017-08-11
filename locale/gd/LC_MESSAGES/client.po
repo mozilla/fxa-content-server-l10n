@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-08-08 21:19+0000\n"
+"PO-Revision-Date: 2017-08-11 11:15+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gd\n"
@@ -318,43 +318,43 @@ msgstr "Cha ghabh a chur dhan dùthaich seo"
 
 #: app/scripts/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "Cha b’ urrainn dhuinn teachdaireachd a chur gun àireamh seo"
 
 #: app/scripts/lib/auth-errors.js:138
 msgid "Your email was just returned"
-msgstr ""
+msgstr "Chaidh am post-d a thilleadh an-dràsta fhèin"
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Chaidh am post-d a thilleadh dhuinn. Saoil an robh mearachd ann?"
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "Cha ghabh am post-d a libhrigeadh"
 
 #: app/scripts/lib/auth-errors.js:151
 msgid "This email was already verified by another user"
-msgstr ""
+msgstr "Chaidh am post-d seo a dhearbhadh le cleachdaiche eile mu thràth"
 
 #: app/scripts/lib/auth-errors.js:155
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "Feumaidh am post-d dàrnach a bhith eadar-dhealaichte o phost-d a’ chunntais agad"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "Tha feum air a’ phrìomh phost-d airson clàradh a-steach"
 
 #: app/scripts/lib/auth-errors.js:171
 msgid "Address in use by another account"
-msgstr ""
+msgstr "Tha cunntas eile a’ cleachdadh an t-seòlaidh seo"
 
 #: app/scripts/lib/auth-errors.js:175
 msgid "Primary account email required for reset"
-msgstr ""
+msgstr "Tha feum air a’ phrìomh phost-d airson ath-shuidheachadh"
 
 #: app/scripts/lib/auth-errors.js:179
 msgid "Invalid signin code"
-msgstr ""
+msgstr "Tha an còd airson clàradh a-steach mì-dhligheach"
 
 #: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
 msgid "Server busy, try again soon"
@@ -370,7 +370,7 @@ msgstr "Chan eil an siostam ri làimh, feuch ris a-rithist a dh’aithghearr"
 
 #: app/scripts/lib/auth-errors.js:196
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Sguireadh dhen chlàradh a-steach"
 
 #: app/scripts/lib/auth-errors.js:200
 msgid "Session expired. Sign in to continue."
@@ -490,7 +490,7 @@ msgstr "Ceangal briste"
 
 #: app/scripts/lib/auth-errors.js:411
 msgid "Phone number required"
-msgstr ""
+msgstr "Tha feum air àireamh fòn"
 
 #: app/scripts/lib/config-loader.js:87
 msgid "Missing configuration"
@@ -502,11 +502,11 @@ msgstr "Rèiteachadh mì-dhligheach"
 
 #: app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "An e <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span> a bha fa-near dhut?"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
-msgstr ""
+msgstr "Feuch ris a-rithist an ceann greis"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -586,15 +586,15 @@ msgstr "Mearachd sgriobt"
 
 #: app/scripts/lib/sms-errors.js:23
 msgid "SMS sent"
-msgstr ""
+msgstr "Chaidh an SMS a chur"
 
 #: app/scripts/lib/sms-errors.js:55
 msgid "Your number has been blocked"
-msgstr ""
+msgstr "Chaidh an àireamh agad a bhacadh"
 
 #: app/scripts/lib/sms-errors.js:79
 msgid "SMS not sent, please try again"
-msgstr ""
+msgstr "Cha deach an SMS a chur, feuch ris a-rithist"
 
 #: app/scripts/lib/strings.js:22
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
@@ -656,7 +656,7 @@ msgstr "Barrachd fiosrachaidh"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
-msgstr ""
+msgstr "Chaidh %(escapedEmail)s a chlàradh. <a %(escapedBackLinkParams)s>Saoil an robh mearachd sa phost-d?</a>"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:19
 msgid "Choose what to sync"
