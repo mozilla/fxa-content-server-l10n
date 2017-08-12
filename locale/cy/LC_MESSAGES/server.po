@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-08-12 19:11+0000\n"
+"PO-Revision-Date: 2017-08-12 19:14+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -185,7 +185,7 @@ msgstr "Tynnwyd yr ail e-bost"
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr ""
+msgstr "Rydych wedi tynnu %(secondaryEmail)s yn llwyddiannus fel ail e-bost i'ch Cyfrif Firefox. Ni fydd hysbysiadau diogelwch na chadarnhad mewngofnodi bellach yn cael eu hanfon i'r cyfeiriad hwn."
 
 #: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
 msgid "Manage account"
@@ -238,7 +238,7 @@ msgstr "Ailosod y cyfrinair"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr ""
+msgstr "Diolch am ddewis Firefox! Gallwch osod Firefox ar gyfer symudol yma: %(link)s"
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1
 msgid "Is this you signing in?"
@@ -414,7 +414,7 @@ msgstr "Ychwanegwyd e-bost newydd Cyfrif Firefox"
 
 #: lib/senders/email.js:816
 msgid "Secondary Firefox Account email removed"
-msgstr ""
+msgstr "Ail e-bost Cyfrif Firefox wedi ei dynnu"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
