@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-08-14 14:06+0000\n"
+"PO-Revision-Date: 2017-08-14 14:24+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -80,7 +80,7 @@ msgstr "Ukjend Firefox-konto. <a href=\"/signup\">Registrer deg</a> med e-postad
 
 #: app/scripts/views/sign_up.js:53
 msgid "Account no longer exists. Recreate it?"
-msgstr "Kontoen finst ikkje lenger. Vil du gjenskape han?"
+msgstr "Kontoen finst ikkje lenger. Vil du skape han på nytt?"
 
 #: app/scripts/views/sign_up.js:293
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
@@ -92,7 +92,7 @@ msgstr "Passordet er endra"
 
 #: app/scripts/views/settings/client_disconnect.js:17
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr "Det var ikkje kjekt å høyre. Du bør byte passord på Firefox-kontoen din, og søkje opp informasjon frå produsenten av eininga om korleis du fjernslettar data."
+msgstr "Det var ikkje kjekt å høyre. Du bør byte passord på Firefox-kontoen din, og sjå etter informasjon frå produsenten av eininga di om korleis du fjernslettar data."
 
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
@@ -104,7 +104,7 @@ msgstr "Nett-økt, %(userAgent)s"
 
 #: app/scripts/views/settings/clients.js:66 app/scripts/lib/strings.js:43
 msgid "Web Session"
-msgstr "Webøkt"
+msgstr "Nett-økt"
 
 #: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
@@ -160,23 +160,23 @@ msgstr "Tilbakestill passordet"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
-msgstr "Opna Gmail"
+msgstr "Opne Gmail"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:25
 msgid "Open Hotmail"
-msgstr "Opna Hotmail"
+msgstr "Opne Hotmail"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:31
 msgid "Open Yahoo"
-msgstr "Opna Yahoo"
+msgstr "Opne Yahoo"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:37
 msgid "Open Outlook"
-msgstr "Opna Outlook"
+msgstr "Opne Outlook"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:43
 msgid "Open Restmail"
-msgstr "Opna Restmail"
+msgstr "Opne Restmail"
 
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
@@ -229,11 +229,11 @@ msgstr "Lenka du trykte på for å stadfesta e-postadressa di har gått ut."
 
 #: app/scripts/lib/auth-errors.js:21 app/scripts/lib/sms-errors.js:17
 msgid "You've tried too many times. Try again later."
-msgstr "Du har prøvd for mange gongar. Prøv igjen seinare."
+msgstr "Du har prøvd for mange gongar. Prøv på nytt seinare."
 
 #: app/scripts/lib/auth-errors.js:25
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr "Du har prøvd for mange gongar. Prøv igjen om %(retryAfterLocalized)s."
+msgstr "Du har prøvd for mange gongar. Prøv på nytt om %(retryAfterLocalized)s."
 
 #: app/scripts/lib/auth-errors.js:35 app/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
