@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-08-05 19:39+0000\n"
+"PO-Revision-Date: 2017-08-14 20:00+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -97,7 +97,7 @@ msgstr "Je nam žel to słyšeć. Wy měł hesło swojeho konta Firefox změnić
 
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "Je nam žel to słyšeć. Jeli to bě grat, kotremuž woprawdźe njedowěrjeće, wy měł hesło swojeho konta Firefox a hesła, kotrež su w Fiefox składowane, změnić."
+msgstr "Je nam žel to słyšeć. Jeli to bě grat, kotremuž woprawdźe njedowěrjeće, wy měł hesło swojeho konta Firefox a hesła, kotrež su w Firefox składowane, změnić."
 
 #: app/scripts/views/settings/clients.js:64
 msgid "Web Session, %(userAgent)s"
