@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-08-15 15:50+0000\n"
+"PO-Revision-Date: 2017-08-15 15:56+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -52,7 +52,7 @@ msgstr "Firefox Sync resumiráse nun momentu"
 
 #: app/scripts/views/ready.js:41
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "Completa la configuración introduciendo la contraseña nueva nos otros preseos Firefox de to."
 
 #: app/scripts/views/ready.js:45 app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -100,7 +100,7 @@ msgstr "Sentimos oyer eso. Si esti foi un preséu nel que nun t'enfotabes muncho
 
 #: app/scripts/views/settings/clients.js:64
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "Sesión web, %(userAgent)s"
 
 #: app/scripts/views/settings/clients.js:66 app/scripts/lib/strings.js:43
 msgid "Web Session"
@@ -108,7 +108,7 @@ msgstr "Sesión web"
 
 #: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:75
 msgid "first sync %(translatedTimeAgo)s"
@@ -144,11 +144,11 @@ msgstr "Anovóse'l nome p'amosar"
 
 #: app/scripts/views/settings/emails.js:138 app/scripts/views/settings/emails.js:151
 msgid "Verification email sent"
-msgstr ""
+msgstr "Unvióse'l corréu de verificación"
 
 #: app/scripts/views/settings/emails.js:166
 msgid "Primary email set to %(email)s"
-msgstr ""
+msgstr "Afitóse'l corréu primariu a %(email)s"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -208,11 +208,11 @@ msgstr "Preferencies"
 
 #: app/scripts/models/sync-engines.js:65
 msgid "Addresses"
-msgstr ""
+msgstr "Direiciones"
 
 #: app/scripts/models/sync-engines.js:72
 msgid "Credit cards"
-msgstr ""
+msgstr "Tarxetes de creitu"
 
 #: app/scripts/models/reliers/sync.js:59
 msgid "Firefox Sync"
@@ -305,7 +305,7 @@ msgstr "Códigu d'autorización non válidu"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Númberu telefónicu non válidu"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
@@ -349,7 +349,7 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:179
 msgid "Invalid signin code"
-msgstr ""
+msgstr "Códigu non válidu d'aniciu de sesión"
 
 #: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
 msgid "Server busy, try again soon"
@@ -365,7 +365,7 @@ msgstr "Sistema non disponible, volvi tentalo ceo"
 
 #: app/scripts/lib/auth-errors.js:196
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Encaboxóse l'intentu d'aniciu de sesión"
 
 #: app/scripts/lib/auth-errors.js:200
 msgid "Session expired. Sign in to continue."
@@ -497,11 +497,11 @@ msgstr "Configuración non válida"
 
 #: app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "¿Quixesti dicir <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
-msgstr ""
+msgstr "Volvi tentalo más sero, por favor"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -573,7 +573,7 @@ msgstr "Los recursos fallaron al cargar"
 
 #: app/scripts/lib/require-on-demand.js:43
 msgid "Unexpected resource error"
-msgstr ""
+msgstr "Fallu inesperáu de recursu"
 
 #: app/scripts/lib/require-on-demand.js:47
 msgid "Script error"
@@ -585,11 +585,11 @@ msgstr "SMS unviáu"
 
 #: app/scripts/lib/sms-errors.js:55
 msgid "Your number has been blocked"
-msgstr ""
+msgstr "Bloquióse'l to númberu"
 
 #: app/scripts/lib/sms-errors.js:79
 msgid "SMS not sent, please try again"
-msgstr ""
+msgstr "Nun s'unvió'l SMS, volvi tentalo"
 
 #: app/scripts/lib/strings.js:22
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
@@ -671,7 +671,7 @@ msgstr "Caducó l'enllaz que primiesti pa reafitar la to contraseña."
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
-msgstr ""
+msgstr "Recibir enllaz nuevu"
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -760,7 +760,7 @@ msgstr "¿Recordar contraseña? Anicia sesión"
 
 #: app/scripts/templates/connect_another_device.mustache:1
 msgid "Connect another device"
-msgstr ""
+msgstr "Coneutar otru preséu"
 
 #: app/scripts/templates/connect_another_device.mustache:2 app/scripts/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
@@ -800,7 +800,7 @@ msgstr "¿Por qué se rique?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr ""
+msgstr "Ríquense les cookies y l'almacenamientu llocal"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
@@ -832,7 +832,7 @@ msgstr "Siguiendo, tas acordies colos <a id=\"fxa-tos\" href=\"/legal/terms\">t�
 
 #: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
 msgid "Enter your email"
-msgstr ""
+msgstr "Introduz el to corréu"
 
 #: app/scripts/templates/index.mustache:2 app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in_password.mustache:2
 #: app/scripts/templates/sign_up.mustache:2 app/scripts/templates/sign_up_password.mustache:2
@@ -845,7 +845,7 @@ msgstr "Corréu"
 
 #: app/scripts/templates/index.mustache:7
 msgid "Next"
-msgstr ""
+msgstr "Siguiente"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -962,7 +962,7 @@ msgstr "Crear una cuenta"
 
 #: app/scripts/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr ""
+msgstr "Perdón, bloquiemos la to cuenta."
 
 #: app/scripts/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
@@ -1318,13 +1318,13 @@ msgstr "Usar cuenta de Firefox"
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:91
 msgctxt "submit button"
 msgid "Sign in"
-msgstr ""
+msgstr "Aniciar sesión"
 
 #. header text
 #: app/scripts/views/sign_in.js:94
 msgctxt "header text"
 msgid "Sign in"
-msgstr ""
+msgstr "Aniciu de sesión"
 
 #~ msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
 #~ msgstr "¿Quixesti dicir <span tabindex=\"1\">%(escapedDomain)s</span>?"
