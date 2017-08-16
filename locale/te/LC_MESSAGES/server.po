@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-08-16 09:11+0000\n"
+"PO-Revision-Date: 2017-08-16 09:15+0000\n"
 "Last-Translator: Sahithi <sahithi.thinker@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -369,7 +369,7 @@ msgstr "%(country)s (అంచనా)"
 
 #: lib/senders/email.js:297
 msgid "Verify your Firefox Account"
-msgstr "మీ ఫైర్ఫాక్సు ఖాతాను నిర్ధారించండి"
+msgstr "మీ Firefox ఖాతాను నిర్ధారించండి"
 
 #: lib/senders/email.js:326
 msgid "Confirm your email and start to sync!"
@@ -393,15 +393,15 @@ msgstr "Firefox ఖాతా సంకేతపదం రీసెట్ చే�
 
 #: lib/senders/email.js:591
 msgid "Your Firefox Account password has been changed"
-msgstr "మీ ఫైర్ఫాక్స్ ఖాతా పాస్వర్డ్ మార్చబడింది"
+msgstr "మీ Firefox ఖాతా సంకేతపదం మార్చబడింది"
 
 #: lib/senders/email.js:630
 msgid "Your Firefox Account password has been reset"
-msgstr "మీ ఫైర్ఫాక్స్ ఖాతా పాస్వర్డ్ రీసెట్ అయింది"
+msgstr "మీ Firefox ఖాతా సంకేతపదం రీసెట్ అయింది"
 
 #: lib/senders/email.js:664
 msgid "Firefox Account password reset required"
-msgstr "మీ ఫైర్ఫాక్స్ ఖాతా పాస్వర్డ్ రీసెట్ అవసరం"
+msgstr "మీ Firefox ఖాతా సంకేతపదం రీసెట్ అవసరం"
 
 #: lib/senders/email.js:738
 msgid "Firefox Account verified"
@@ -453,7 +453,7 @@ msgstr "మేరు <strong>చాలా పాత బ్రౌజర్</stron
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr "ఫైర్ఫాక్స్ ఖాతాలకి Javascript అవసరం."
+msgstr "Firefox ఖాతాలకి Javascript అవసరం."
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
@@ -461,7 +461,7 @@ msgstr "గోప్యతా నోటీసు"
 
 #: server/templates/pages/src/privacy.html:3 server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
-msgstr "ఫైర్ఫాక్స్ క్లౌడ్ సేవలు"
+msgstr "Firefox క్లౌడ్ సేవలు"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
