@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-08-16 08:50+0000\n"
+"PO-Revision-Date: 2017-08-16 09:01+0000\n"
 "Last-Translator: Sahithi <sahithi.thinker@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -601,7 +601,7 @@ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-fire
 
 #: app/scripts/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr "మొజిల్లా మరియు ఫైర్ఫాక్స్ ల తాజా వార్తలు పొందండి."
+msgstr "Mozilla మరియు Firefoxల తాజా వార్తలు పొందండి."
 
 #: app/scripts/lib/strings.js:37
 msgid "%(city)s, %(country)s (estimated)"
@@ -847,7 +847,7 @@ msgstr ""
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
-msgstr "ఫైర్ఫాక్స్ క్లౌడ్ సేవలు"
+msgstr "Firefox క్లౌడ్ సేవలు"
 
 #: app/scripts/templates/legal.mustache:2
 msgid "Legal"
@@ -868,16 +868,16 @@ msgstr "పూర్తి సింక్ అనుభవం."
 #: app/scripts/templates/marketing_snippet.mustache:2 app/scripts/templates/marketing_snippet.mustache:3 app/scripts/templates/marketing_snippet.mustache:11
 #: app/scripts/templates/marketing_snippet.mustache:15 app/scripts/templates/marketing_snippet.mustache:19
 msgid "Download Firefox for iOS!"
-msgstr "ఇఓయస్ కోసం ఫైర్ఫాక్స్ డౌన్లోడ్ చేయండి!"
+msgstr "iOS కొరకు Firefoxను దింపుకోండి!"
 
 #: app/scripts/templates/marketing_snippet.mustache:6 app/scripts/templates/marketing_snippet.mustache:7 app/scripts/templates/marketing_snippet.mustache:12
 #: app/scripts/templates/marketing_snippet.mustache:17 app/scripts/templates/marketing_snippet.mustache:20
 msgid "Download Firefox for Android."
-msgstr "ఆండ్రాయిడ్ కోసం ఫైర్ఫాక్స్ డౌన్లోడ్ చేయండి."
+msgstr "Android కోసం Firefoxను దింపుకోండి."
 
 #: app/scripts/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr "మొబైల్ పరికరాల కోసం Firefox దించుకోండి."
+msgstr "మొబైల్ పరికరాల కోసం Firefoxను దించుకోండి."
 
 #: app/scripts/templates/permissions.mustache:1
 msgid "Request for permission"
@@ -1004,11 +1004,11 @@ msgstr "కొనసాగించు"
 
 #: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4 app/scripts/templates/sign_up_password.mustache:1 app/scripts/templates/sign_up_password.mustache:4
 msgid "Create a Firefox Account"
-msgstr "ఒక ఫైర్ఫాక్స్ ఖాతా సృష్టించు"
+msgstr "ను Firefox ఖాతా సృష్టించండి"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr "మే సింక్ డేటా తరలించడానికి ఒక కొత్త ఫైర్ఫాక్స్ &nbsp;ఖాతాను తెరవండి."
+msgstr "మే సింక్ డేటా తరలించడానికి ఒక కొత్త Firefox &nbsp; ఖాతాను తెరవండి."
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
@@ -1016,11 +1016,11 @@ msgstr "మీ పొడిగింతల డేటా కోసం చూస�
 
 #: app/scripts/templates/sign_up.mustache:13 app/scripts/templates/sign_up_password.mustache:6
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr "ఒక బలమైన, ఏకైక పాస్వర్డ్ను మీ ఫైర్ఫాక్స్ లోకి చొరబాటు నుండి సురక్షితంగా ఉంచుతాయి."
+msgstr "ఒక బలమైన, ఏకైక సంకేతపదం మీ Firefox డేటాను చొరబాటుదారుల నుండి సురక్షితంగా ఉంచుతుంది."
 
 #: app/scripts/templates/sign_up.mustache:15 app/scripts/templates/sign_up_password.mustache:9
 msgid "Receive the monthly Firefox newsletter"
-msgstr "నెలసరి ఫైర్‌ఫాక్స్ న్యూస్‌లెటర్ అందుకోండి"
+msgstr "నెలసరి Firefox న్యూస్‌లెటర్ అందుకోండి"
 
 #: app/scripts/templates/sign_up.mustache:17 app/scripts/templates/sign_up_password.mustache:11
 msgid "Create account"
@@ -1226,7 +1226,7 @@ msgstr "కమ్యూనికేషన్ ప్రాధాన్యతల�
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
-msgstr "నెలసరి ఫైర్‌ఫాక్స్ న్యూస్‌లెటర్ అందుకోండి."
+msgstr "నెలసరి Firefox న్యూస్‌లెటర్ అందుకోండి."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
@@ -1254,7 +1254,7 @@ msgstr "మీరు మీ ఖాతా తొలగించాలనుకు
 
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr "మీ ఖాతా మేనేజింగ్ మీరు ఫైఫాక్స్లో కనిపించడానికి ఇష్ట పేరును ఎంచుకోండి."
+msgstr "మీ ఖాతాను నిర్వహించినప్పుడు, మీ Firefoxలో కనిపించాలనుకుంటున్న పేరును ఎంచుకోండి."
 
 #: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
@@ -1310,7 +1310,7 @@ msgstr "OPenID వాడండి"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr "ఫైర్ఫాక్స్ ఖాతా వాడు"
+msgstr "Firefox ఖాతా వాడు"
 
 #. submit button
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:91
