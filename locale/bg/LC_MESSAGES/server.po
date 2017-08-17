@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-08-07 13:07+0000\n"
+"PO-Revision-Date: 2017-08-17 20:35+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -247,11 +247,11 @@ msgstr "Ако е така, ето кода за упълномощаване:"
 
 #: lib/senders/templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr "Ако ли пък не – ни помогнете да отблъснем натрапниците ни ги <a %(reportSignInLinkAttributes)s>докладвайте.</a>"
+msgstr "Ако ли пък не – ни помогнете да отблъснем натрапниците като ни ги <a %(reportSignInLinkAttributes)s>докладвате.</a>"
 
 #: lib/senders/templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
-msgstr "Ако ли пък не – ни помогнете да отблъснем натрапниците ни ги докладвайте."
+msgstr "Ако ли пък не – ни помогнете да отблъснем натрапниците като ни ги докладвате."
 
 #: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:842
 msgid "Hello again."
