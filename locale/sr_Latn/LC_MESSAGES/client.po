@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-07-28 10:21+0000\n"
+"POT-Creation-Date: 2017-08-18 16:08+0000\n"
+"PO-Revision-Date: 2017-08-14 09:27+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
@@ -82,11 +82,11 @@ msgstr "Sada ste spremni da koristite %(serviceName)s"
 msgid "Account verified"
 msgstr "Nalog je potvrđen"
 
-#: app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:163
+#: app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:164
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Nepoznat nalog. <a href=\"/signup\">Prijavi se</a>"
 
-#: app/scripts/views/sign_in.js:160
+#: app/scripts/views/sign_in.js:161
 msgid ""
 "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous "
 "Add-ons account email address to access your Add-ons data."
@@ -95,11 +95,11 @@ msgstr ""
 "prethodnu adresu e-pošte za dodatke da biste pristupili vašim podacima o "
 "dodacima."
 
-#: app/scripts/views/sign_up.js:53
+#: app/scripts/views/sign_up.js:55
 msgid "Account no longer exists. Recreate it?"
 msgstr "Nalog više ne postoji. Ponovo ga napraviti?"
 
-#: app/scripts/views/sign_up.js:293
+#: app/scripts/views/sign_up.js:315
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Nalog već postoji. <a href=\"/signin\">Prijavi se</a>"
 
@@ -127,31 +127,31 @@ msgstr ""
 "promenite lozinku vašeg Firefox naloga i da promenite sve lozinke koje ste "
 "sačuvali u Firefox-u."
 
-#: app/scripts/views/settings/clients.js:64
+#: app/scripts/views/settings/clients.js:73
 msgid "Web Session, %(userAgent)s"
 msgstr "Veb sesija, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:66 app/scripts/lib/strings.js:43
+#: app/scripts/views/settings/clients.js:75 app/scripts/lib/strings.js:43
 msgid "Web Session"
 msgstr "Veb sesije"
 
-#: app/scripts/views/settings/clients.js:69
+#: app/scripts/views/settings/clients.js:78
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:75
+#: app/scripts/views/settings/clients.js:84
 msgid "first sync %(translatedTimeAgo)s"
 msgstr "prva sinhronizacija %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:78
+#: app/scripts/views/settings/clients.js:87
 msgid "last sync %(translatedTimeAgo)s"
 msgstr "poslednja sinhronizacija %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:84
+#: app/scripts/views/settings/clients.js:93
 msgid "last active %(translatedTimeAgo)s"
 msgstr "poslednji put aktivan %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:88
+#: app/scripts/views/settings/clients.js:97
 msgid "last sync time unknown"
 msgstr "vreme poslednje sinhronizacije nepoznato"
 
@@ -178,7 +178,7 @@ msgstr "Verifikaciona e-pošta poslata"
 
 #: app/scripts/views/settings/emails.js:166
 msgid "Primary email set to %(email)s"
-msgstr ""
+msgstr "Kao primarna adresa je postavljena %(email)s"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43
 #: app/scripts/lib/auth-errors.js:113
@@ -546,6 +546,8 @@ msgstr "Neispravna konfiguracija"
 msgid ""
 "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 msgstr ""
+"Da li ste mislili <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</"
+"span>?"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
@@ -727,7 +729,7 @@ msgstr ""
 "a>"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2
-#: app/scripts/templates/sign_up.mustache:19
+#: app/scripts/templates/sign_up.mustache:22
 msgid "Choose what to sync"
 msgstr "Odaberite šta želite da uskladite"
 
@@ -784,6 +786,7 @@ msgid "New password"
 msgstr "Nova lozinka"
 
 #: app/scripts/templates/complete_reset_password.mustache:14
+#: app/scripts/templates/sign_up.mustache:15
 msgid "Repeat password"
 msgstr "Ponovite lozinku"
 
@@ -954,7 +957,7 @@ msgstr "Zaboravili ste lozinku?"
 #: app/scripts/templates/force_auth.mustache:6
 #: app/scripts/templates/index.mustache:6
 #: app/scripts/templates/sign_in.mustache:20
-#: app/scripts/templates/sign_up.mustache:14
+#: app/scripts/templates/sign_up.mustache:17
 #: app/scripts/templates/sign_up_password.mustache:8
 msgid ""
 "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms"
@@ -968,7 +971,7 @@ msgstr ""
 #: app/scripts/templates/index.mustache:1
 #: app/scripts/templates/index.mustache:4
 msgid "Enter your email"
-msgstr ""
+msgstr "Unesite vašu adresu"
 
 #: app/scripts/templates/index.mustache:2
 #: app/scripts/templates/reset_password.mustache:2
@@ -1142,7 +1145,7 @@ msgstr "Napravi nalog"
 
 #: app/scripts/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr ""
+msgstr "Žao nam je. Zaključali smo vaš&nbsp;nalog."
 
 #: app/scripts/templates/sign_in_bounced.mustache:2
 msgid ""
@@ -1213,23 +1216,23 @@ msgstr ""
 "Tražite vaše podatke o dodacima? Napravite Firefox nalog sa vašom starom "
 "adresom e-pošte za dodatke."
 
-#: app/scripts/templates/sign_up.mustache:13
+#: app/scripts/templates/sign_up.mustache:14
 #: app/scripts/templates/sign_up_password.mustache:6
 msgid ""
 "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "Jaka i jedinstvena lozinka će čuvati vaše podatke sigurnim od uljeza."
 
-#: app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/sign_up.mustache:18
 #: app/scripts/templates/sign_up_password.mustache:9
 msgid "Receive the monthly Firefox newsletter"
 msgstr "Primajte mesečni Firefox bilten"
 
-#: app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/sign_up.mustache:20
 #: app/scripts/templates/sign_up_password.mustache:11
 msgid "Create account"
 msgstr "Napravi nalog"
 
-#: app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/sign_up.mustache:25
 msgid "Have an account? Sign in"
 msgstr "Imate nalog? Prijavite se"
 
@@ -1593,13 +1596,13 @@ msgid "Use Firefox Account"
 msgstr "Koristi Firefox Account"
 
 #. submit button
-#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:91
+#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
 msgctxt "submit button"
 msgid "Sign in"
 msgstr "Prijavi se"
 
 #. header text
-#: app/scripts/views/sign_in.js:94
+#: app/scripts/views/sign_in.js:95
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Prijavi se"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-04 16:09+0000\n"
+"POT-Creation-Date: 2017-08-18 16:08+0000\n"
 "PO-Revision-Date: 2017-05-05 06:19+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,328 +14,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1413953192.0\n"
-
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:845
-msgid "Still there?"
-msgstr "এখনও এখানে?"
-
-#: lib/senders/templates/_pending.txt:2
-msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
-msgstr "কিছুক্ষণ আগে আপনি Firefox Account তৈরি করেছেন, কিন্তু যাচাই করা হয়নি। আপনার অ্যাকাউন্ট সক্রিয় করতে নিচের লিঙ্কে ক্লিক করুন।"
-
-#: lib/senders/templates/_pending.txt:3
-msgid ""
-"You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
-"href='%(iosUrl)s'>iOS</a>."
-msgstr "আপনি Firefox Account আপনার প্রথম ডিভাইসের সাথে সফলভাবে সংযুক্ত করেছেন।  Android ও iOS এর জন্য Firefox সহ আপনার অন্যান্য ডিভাইসে Sync হতে এখন আপনি সাইন ইন করতে পারবেন ।"
-
-#: lib/senders/templates/_pending.txt:4
-msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
-msgstr "আপনি Firefox Account এ আপনার প্রথম ডিভাইসের সাথে সফলভাবে সংযুক্ত হয়েছেন। Sync কে সর্বোচ্চ কার্যকর করতে, যেকোনো Android এর জন্য Firefox অথবা iOS এর জন্য Firefox এ সংযোগ করুন।"
-
-#: lib/senders/templates/_pending.txt:5 lib/senders/templates/post_verify.html:4
-msgid "Connect another device"
-msgstr "অন্য ডিভাইসে সংযোগ করুন"
-
-#: lib/senders/templates/_pending.txt:6
-msgid "Sign in to Sync"
-msgstr "Sync এ সাইন ইন করুন"
-
-#: lib/senders/templates/new_device_login.html:1 lib/senders/templates/password_changed.html:1 lib/senders/templates/password_reset.html:1 lib/senders/templates/password_reset_required.html:1
-#: lib/senders/templates/post_remove_secondary.html:1 lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1
-#: lib/senders/templates/post_verify_secondary_email.html:1 lib/senders/templates/recovery.html:1 lib/senders/templates/unblock_code.html:1 lib/senders/templates/verification_reminder_first.html:1
-#: lib/senders/templates/verification_reminder_second.html:1 lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_secondary.html:1
-#: lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
-#: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
-msgid "Firefox Accounts"
-msgstr "Firefox Accounts"
-
-#: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:698
-msgid "New sign-in to Firefox"
-msgstr "Firefox এ নতুন সাইন-ইন"
-
-#: lib/senders/templates/new_device_login.html:3 lib/senders/templates/new_device_login.txt:2 lib/senders/templates/password_changed.html:4 lib/senders/templates/password_changed.txt:3
-#: lib/senders/templates/recovery.html:4 lib/senders/templates/recovery.txt:3 lib/senders/templates/unblock_code.html:3 lib/senders/templates/unblock_code.txt:2
-#: lib/senders/templates/verify_login.html:4 lib/senders/templates/verify_login.txt:3 lib/senders/templates/verify_secondary.html:4 lib/senders/templates/verify_secondary.txt:3
-#: lib/senders/templates/verify_sync.html:4 lib/senders/templates/verify_sync.txt:3
-msgid "IP address: %(ip)s"
-msgstr "IP ঠিকানা: %(ip)s"
-
-#: lib/senders/templates/new_device_login.html:4 lib/senders/templates/verify_secondary.html:7
-msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr "এটি একটি স্বয়ংক্রিয় ইমেইল। যদি আপনি এই পদক্ষেপ অনুমোদন না করে থাকেন, তাহলে <a %(passwordChangeLinkAttributes)s>অনুগ্রহ করে পাসওয়ার্ড পরিবর্তন করুন।</a>"
-
-#: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5 lib/senders/templates/post_remove_secondary.html:6
-#: lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/post_verify_secondary_email.html:6 lib/senders/templates/recovery.html:7
-#: lib/senders/templates/verification_reminder_first.html:6 lib/senders/templates/verification_reminder_second.html:6 lib/senders/templates/verify.html:6 lib/senders/templates/verify_secondary.html:8
-#: lib/senders/templates/verify_sync.html:8
-msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr "আরও তথ্যের জন্য, দেখুন <a %(supportLinkAttributes)s>Mozilla Support</a>।"
-
-#: lib/senders/templates/new_device_login.html:6 lib/senders/templates/new_device_login.txt:5 lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6
-#: lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5 lib/senders/templates/password_reset_required.html:10 lib/senders/templates/password_reset_required.txt:9
-#: lib/senders/templates/post_remove_secondary.html:7 lib/senders/templates/post_remove_secondary.txt:6 lib/senders/templates/post_verify.html:7 lib/senders/templates/post_verify.txt:6
-#: lib/senders/templates/post_verify_secondary.html:7 lib/senders/templates/post_verify_secondary.txt:6 lib/senders/templates/post_verify_secondary_email.html:7 lib/senders/templates/recovery.html:8
-#: lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6 lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verification_reminder_first.html:7
-#: lib/senders/templates/verification_reminder_first.txt:6 lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verification_reminder_second.txt:6
-#: lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6 lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6
-#: lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:6 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
-msgid "Mozilla Privacy Policy"
-msgstr "Mozilla গোপনীয়তা নীতি"
-
-#: lib/senders/templates/new_device_login.txt:3
-msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr "এটি একটি সংক্রিয় ইমেইল; যদি আপনার Firefox Account এ নতুন কোন ডিভাইস যুক্ত না করে থাকেন, তাহলে এখনই আপনার পার্সওয়ার্ড %(passwordChangeLink)s এ পরিবর্তন করুন"
-
-#: lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4 lib/senders/templates/post_remove_secondary.txt:5
-#: lib/senders/templates/post_verify.txt:5 lib/senders/templates/post_verify_secondary.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:5
-#: lib/senders/templates/verification_reminder_second.txt:5 lib/senders/templates/verify.txt:5 lib/senders/templates/verify_sync.txt:7
-msgid "For more information, please visit %(supportUrl)s"
-msgstr "আরও তথ্যের জন্য, ভিজিট করুন %(supportUrl)s"
-
-#: lib/senders/templates/password_changed.html:2 lib/senders/templates/password_changed.txt:1
-msgid "Password changed successfully"
-msgstr "সফলভাবে পাসওয়ার্ড পরিবর্তন হয়েছে"
-
-#: lib/senders/templates/password_changed.html:3 lib/senders/templates/password_changed.txt:2
-msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr "ডিভাইসটি থেকে আপনার Firefox অ্যাকাউন্টের পার্সওয়ার্ড সফল ভাবে পরিবর্তিত হয়েছে:"
-
-#: lib/senders/templates/password_changed.html:5
-msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "এটা একটি স্বয়ংক্রিয় ইমেইল; যদি এই পদক্ষেপটি অনুমোদন না করে থাকেন; তাহলে <a %(resetLinkAttributes)s>অনুগ্রহ করে পাসওয়ার্ডটি পরিবর্তন করুন</a>।"
-
-#: lib/senders/templates/password_changed.txt:4
-msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr "এটা একটি স্বয়ংক্রিয় ইমেইল; যদি আপনি আপনার Firefox Account এর পাসওয়ার্ড পরিবর্তন না করে থাকেন, তাহলে আপনি এখনই %(passwordChangeLink)s এ আপনার পাসওয়ার্ড পরিবর্তন করুন"
-
-#: lib/senders/templates/password_reset.html:2
-msgid "Your password has been reset"
-msgstr "আপনার পাসওয়ার্ড রিসেট হয়েছে"
-
-#: lib/senders/templates/password_reset.html:3
-msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr "আপনার Firefox Account এর পাসওয়ার্ড পরিবর্তন হয়েছে। যদি আপনি এটা পরিবর্তন না করে থাকেন, অনুগ্রহ করে এখনই <a %(resetLinkAttributes)s> পাসওয়ার্ডটি রিসেট করুন</a>।"
-
-#: lib/senders/templates/password_reset.html:4 lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5
-#: lib/senders/templates/post_verify.txt:4 lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/post_verify_secondary.txt:4
-#: lib/senders/templates/post_verify_secondary_email.html:5 lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:5
-#: lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.html:5 lib/senders/templates/verification_reminder_second.txt:4
-#: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4 lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
-msgid "This is an automated email; if you received it in error, no action is required."
-msgstr "এটি একটি স্বয়ংক্রিয় ইমেইল; যদি কোন ত্রুটির কারণে আপনি এটি পেয়ে থাকেন, কিছু করার প্রয়োজন নেই।"
-
-#: lib/senders/templates/password_reset.txt:1
-msgid "Password reset successfully"
-msgstr "সফলভাবে পাসওয়ার্ড রিসেট হয়েছে"
-
-#: lib/senders/templates/password_reset.txt:2
-msgid "Your Firefox Account password has been successfully reset."
-msgstr "আপনার Firefox Account এর পাসওয়ার্ড সফলভাবে পরিবর্তন হয়েছে।"
-
-#: lib/senders/templates/password_reset.txt:3
-msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr "এটা একটি স্বয়ংক্রিয় ইমেইল; যদি আপনি আপনার Firefox Account এর পাসওয়ার্ড পরিবর্তন না করে থাকেন, তাহলে আপনি এখনই %(passwordChangeLink)s এ আপনার পাসওয়ার্ড পরিবর্তন করুন"
-
-#: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
-msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-msgstr "আমরা আপনার Firefox Account এ সন্দেহভাজন কার্যকলাপ চিহ্নিত হয়েছে। আপনার অ্যাকাউন্টটি চুরি হতে পারে।"
-
-#: lib/senders/templates/password_reset_required.html:3 lib/senders/templates/password_reset_required.txt:2
-msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-msgstr "আপনার Firefox Account এ পরবর্তী অননুমোদিত প্রবেশ প্রতিরোধ করতে, আমরা আপনার পাসওয়ার্ড রিসেট করেছি এবাং সতর্কতা হিসেবে আপনাকে জানাচ্ছি।"
-
-#: lib/senders/templates/password_reset_required.html:4 lib/senders/templates/password_reset_required.txt:3
-msgid "What should you do?"
-msgstr "আপনার কি করা উচিৎ?"
-
-#: lib/senders/templates/password_reset_required.html:5 lib/senders/templates/password_reset_required.txt:4
-msgid "First, change your Firefox Account password."
-msgstr "প্রথমত, আপনার Firefox Account এর পাসওয়ার্ড পরিবর্তন করুন।"
-
-#: lib/senders/templates/password_reset_required.html:6 lib/senders/templates/password_reset_required.txt:5
-msgid ""
-"Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
-msgstr "দ্বিতীয়ত, যদি Firefox ওয়েবসাইট পাসওয়ার্ডগুলো জমা থাকে, সেসব পাসওয়ার্ডও পরিবর্তন করা উচিৎ। আক্রমণকারীর পাসওয়ার্ডগুলোর এক্সেস থাকতে পারে, তাই অ্যাকাউন্টে সন্দেহজনক কাজগুলো যাচাই করতে হবে।"
-
-#: lib/senders/templates/password_reset_required.html:7 lib/senders/templates/password_reset_required.txt:6
-msgid "Learn how to see what passwords Firefox is storing for you."
-msgstr "দেখুন কিভাবে Firefox আপনার জন্য পাসওয়ার্ড সংরক্ষণ করছে।"
-
-#: lib/senders/templates/password_reset_required.html:8 lib/senders/templates/password_reset_required.txt:7
-msgid "Best,"
-msgstr "সর্বোত্তম,"
-
-#: lib/senders/templates/password_reset_required.html:9 lib/senders/templates/password_reset_required.txt:8
-msgid "The Firefox Accounts team"
-msgstr "Firefox Account টিম"
-
-#: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
-msgid "Secondary email removed"
-msgstr ""
-
-#: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
-msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr ""
-
-#: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
-msgid "Manage account"
-msgstr "অ্যাকাউন্ট ব্যবস্থাপনা"
-
-#: lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_verify_secondary.txt:3
-msgid "Manage account:"
-msgstr "অ্যাকাউন্ট ব্যবস্থাপনা:"
-
-#: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
-msgid "Account verified!"
-msgstr "যাচাইকৃত একাউন্ট!"
-
-#: lib/senders/templates/post_verify.html:3
-msgid ""
-"You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
-"%(iosLinkAttributes)s>iOS</a>."
-msgstr ""
-"আপনি সফলভাবে  Firefox Account এর সাথে আপনার প্রথম ডিভাইসটি সংযুক্ত করেছেন। এখন আপনি অন্য ডিভাইস হতে সিঙ্কে সাইন ইন করতে পারেন, এমন কি  <a %(androidLinkAttributes)s>Android</a> বা <a "
-"%(iosLinkAttributes)s>iOS</a> এর জন্য Firefox হতেও।"
-
-#: lib/senders/templates/post_verify.txt:2
-msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-msgstr "আপনি সফলভাবে Firefox Account এ আপনার প্রথম ডিভাইসে সংযুক্ত। এখন আপনার যেকোনো ডিভাইসের সাথে sync এর জন্য সাইন ইন করতে পারেন, যা Android এবং iOS এর জন্য Firefox অন্তর্ভুক্ত।"
-
-#: lib/senders/templates/post_verify.txt:3
-msgid "Sign in to Sync:"
-msgstr "সিঙ্ক করতে সাইন ইন করুন:"
-
-#: lib/senders/templates/post_verify_secondary.html:2 lib/senders/templates/post_verify_secondary.txt:1 lib/senders/templates/post_verify_secondary_email.html:2
-msgid "Secondary email added"
-msgstr "সেকেন্ডারি ইমেইল যুক্ত হয়েছে"
-
-#: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2 lib/senders/templates/post_verify_secondary_email.html:3
-msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr "আপনি সফলভাবে আপনার Firefox Account এ  %(secondaryEmail)s কে সেকেন্ডারি ইমেইল হিসেবে ভেরিফাই করেছেন। নিরাপত্তা নোটিফিকেশন এবং সাইন-ইন নিশ্চিতকরণ বার্তা এখন থেকে উভয় ইমেইল ঠিকানায় পাঠানো হবে।"
-
-#: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
-msgid "Forgot your password?"
-msgstr "পাসওয়ার্ড ভুলে গেছেন?"
-
-#: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
-msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
-msgstr "আপনার Firefox একাউন্টের জন্যে আগামী এক ঘন্টার মধ্যে বাটনটি ক্লিক করে একটি নতুন পাসওয়ার্ড নির্ধারণ করুন। নিম্নোক্ত ডিভাইস থেকে অনুরোধটি এসেছে:"
-
-#: lib/senders/templates/recovery.html:5 lib/senders/templates/recovery.txt:4
-msgid "Reset password"
-msgstr "রিসেট পাসওয়ার্ড"
-
-#: lib/senders/templates/sms.installFirefox.txt:1
-msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr ""
-
-#: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1
-msgid "Is this you signing in?"
-msgstr "আপনিই কি সাইন ইন করছেন?"
-
-#: lib/senders/templates/unblock_code.html:4 lib/senders/templates/unblock_code.txt:3
-msgid "If yes, here is the authorization code you need:"
-msgstr "যদি হ্যাঁ হয়, তাহলে এখানে অনুমোদন কোড রয়েছে যা আপনার প্রয়োজন:"
-
-#: lib/senders/templates/unblock_code.html:5
-msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr "যদি না হয়, অামাদের সাহায্য করুন অবৈধ অনুপ্রবেশকারী ঠেকাতে এবং <a %(reportSignInLinkAttributes)s>আমাদের তা রিপোর্ট করুন।</a>"
-
-#: lib/senders/templates/unblock_code.txt:4
-msgid "If no, help us fend off intruders and report it to us."
-msgstr "যদি না হয়, অামাদের সাহায্য করুন অবৈধ অনুপ্রবেশকারী ঠেকাতে এবং আমাদের তা রিপোর্ট করুন।"
-
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:842
-msgid "Hello again."
-msgstr "পুনরায় স্বাগতম।"
-
-#: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
-msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
-msgstr ""
-"কিছু দিন আগে আপনি Firefox Account খুলেছেন, কিন্তু এখনও যাচাই করেনি। যাচাইকৃত অ্যাকাউন্ট আপনাকে আপনার ট্যাব, বুকমার্ক, পাসওয়ার্ড এবং ইতিহাসে যেকোন স্থান থেকে প্রবেশ করতে দিবে। আপনার অ্যাকাউন্টটি সক্রিয় করতে শুধু "
-"ইমেইল ঠিকানাটি নিশ্চিত করুন।"
-
-#: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verify.html:4
-msgid "Activate now"
-msgstr "এখনই সক্রিয় করুন"
-
-#: lib/senders/templates/verification_reminder_first.html:8 lib/senders/templates/verification_reminder_second.html:8 lib/senders/templates/verify.html:8 lib/senders/templates/verify_sync.html:10
-msgid "Verify Email"
-msgstr "ইমেল যাচাই করুন"
-
-#: lib/senders/templates/verification_reminder_first.html:9 lib/senders/templates/verification_reminder_second.html:9 lib/senders/templates/verify.html:9 lib/senders/templates/verify_sync.html:11
-msgid "Verify your email to finish your Firefox Account registration"
-msgstr "আপনার Firefox Account নিবন্ধন সম্পূর্ণ করতে আপনার ইমেইল যাচাই করুন"
-
-#: lib/senders/templates/verification_reminder_first.txt:3 lib/senders/templates/verification_reminder_second.txt:3 lib/senders/templates/verify.txt:3
-msgid "Activate now:"
-msgstr "এখনই সক্রিয় করুন:"
-
-#: lib/senders/templates/verification_reminder_second.html:3 lib/senders/templates/verification_reminder_second.txt:2
-msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-msgstr "সপ্তাহ আগে আপনি Firefox Account তৈরি করেছিলেন, কিন্তু যাচাই করেননি। আমরা আপনার সম্পর্কে উদ্বিগ্ন। অ্যাকাউন্টটি সক্রিয় করার জন্য ইমেইল ঠিকানাটি নিশ্চিত করুন এবং আপনি ঠিক আছেন কি না আমাদের জানান।"
-
-#: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
-msgid "Welcome!"
-msgstr "স্বাগতম!"
-
-#: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:2
-msgid "Please activate your account by confirming this email address."
-msgstr "এই ইমেইল ঠিকানাটি নিশ্চিতকরণের মাধ্যমে অনুগ্রহ করে আপনার অ্যাকাউন্ট সক্রিয় করুন।"
-
-#: lib/senders/templates/verify_login.html:3 lib/senders/templates/verify_login.txt:2
-msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "নিরাপত্তা যোগ করতে, ডিভাইসটি সিঙ্ক হতে অনুগ্রহ করে সাইন-ইন করুন:"
-
-#: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
-msgid "Confirm sign-in"
-msgstr "সাইন-ইন নিশ্চিত করুন"
-
-#: lib/senders/templates/verify_login.html:6
-msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr "যদি সন্দেহ করেন আপনার অ্যাকাউন্ট অন্য কেউ প্রবেশের চেষ্টা করছে, <a %(passwordChangeLinkAttributes)s>অনুগ্রহ করে পাসওয়ার্ড পরিবর্তন করুন</a>।"
-
-#: lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_secondary.txt:5
-msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr "যদি সন্দেহ করেন আপনার অ্যাকাউন্টে অন্য কেউ প্রবেশের চেষ্টা করছে, অনুগ্রহ করে পাসওয়ার্ড পরিবর্তন করুন।"
-
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
-msgid "Verify secondary email"
-msgstr "সেকেন্ডারি ইমেইল ভেরিফাই করুন"
-
-#: lib/senders/templates/verify_secondary.html:3 lib/senders/templates/verify_secondary.txt:2
-msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr "Firefox Account হতে %(email)s কে সেকেন্ডারি ইমেইল ঠিকানা হিসেবে ব্যবহারের অনুরোধ করা হয়েছে:"
-
-#: lib/senders/templates/verify_secondary.html:5 lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
-msgid "Verify email "
-msgstr "ইমেইল যাচাই করুন "
-
-#: lib/senders/templates/verify_secondary.html:6
-msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr "একবার ভেরিফাই হয়ে গেলে, আপনার ঠিকানাটি নিরাপত্তা নোটিফিকেশন এবং নিশ্চিতকরণ বার্তাগুলো পাওয়া শুরু করবে।"
-
-#: lib/senders/templates/verify_secondary.txt:4
-msgid "Verify email: "
-msgstr "ভেরিফাই ইমেইল:"
-
-#: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
-msgid "Ready, set, sync"
-msgstr "প্রস্তুত, সেট, সিঙ্ক"
-
-#: lib/senders/templates/verify_sync.html:3 lib/senders/templates/verify_sync.txt:2
-msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr "নিশ্চিত করুন আপনি ইমেইলটি পেয়েছেন, তাহলে আমরা আপনার সব ডিভাইসে Firefox ইন্সটল এবং সিঙ্ক করতে সাহায্য করতে পারবো:"
-
-#: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
-msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr "একবার নিশ্চিত করলে, আমরা আপনার অন্তঃত একটি ডিভাইসে Firefox ইন্সটল ও কানেক্ট করতে সহায়তা করতে পারবো।"
 
 #: lib/senders/email.js:162
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -361,7 +39,7 @@ msgstr "%(stateCode)s, %(country)s (আনুমানিক)"
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (আনুমানিক)"
 
-#: lib/senders/email.js:297
+#: lib/senders/email.js:302
 msgid "Verify your Firefox Account"
 msgstr "আপনার Firefox Account যাচাই করুন"
 
@@ -369,45 +47,62 @@ msgstr "আপনার Firefox Account যাচাই করুন"
 msgid "Confirm your email and start to sync!"
 msgstr "আপনার ইমেইল নিশ্চিত করুন এবং সিঙ্ক শুরু করুন!"
 
-#: lib/senders/email.js:384
+#: lib/senders/email.js:383
 msgid "Firefox Account authorization code"
 msgstr "Firefox Account অনুমোদন কোড"
 
-#: lib/senders/email.js:437
+#: lib/senders/email.js:433
 msgid "Confirm new sign-in to Firefox"
 msgstr "Firefox-এ নতুন সাইন-ইন নিশ্চিত করুন"
 
-#: lib/senders/email.js:494
+#: lib/senders/email.js:487
 msgid "Verify email for Firefox Accounts"
 msgstr "Firefox Account এর জন্য ইমেইল ভেরিফাই করুন"
 
-#: lib/senders/email.js:550
+#: lib/senders/email.js:540
 msgid "Reset your Firefox Account password"
 msgstr "আপনার Firefox Account পাসওয়ার্ড পরিবর্তন করুন"
 
-#: lib/senders/email.js:591
+#: lib/senders/email.js:578
 msgid "Your Firefox Account password has been changed"
 msgstr "আপনার Firefox Account পাসওয়ার্ড পরিবর্তন করা হয়েছে"
 
-#: lib/senders/email.js:630
+#: lib/senders/email.js:614
 msgid "Your Firefox Account password has been reset"
 msgstr "আপনার Firefox Account পাসওয়ার্ড রিসেট করা হয়েছে"
 
-#: lib/senders/email.js:664
+#: lib/senders/email.js:645
 msgid "Firefox Account password reset required"
 msgstr "আপনার Firefox Account পাসওয়ার্ড রিসেট প্রয়োজন"
 
-#: lib/senders/email.js:738
+#: lib/senders/email.js:676
+msgid "New sign-in to Firefox"
+msgstr "Firefox এ নতুন সাইন-ইন"
+
+#: lib/senders/email.js:713
 msgid "Firefox Account verified"
 msgstr "যাচাইকৃত Firefox Account"
 
-#: lib/senders/email.js:777
+#: lib/senders/email.js:749
 msgid "Secondary Firefox Account email added"
 msgstr "সেকেন্ডার Firefox Account ইমেইল যোগ হয়েছে"
 
-#: lib/senders/email.js:816
+#: lib/senders/email.js:785
 msgid "Secondary Firefox Account email removed"
 msgstr ""
+
+#: lib/senders/email.js:811
+msgid "Hello again."
+msgstr "পুনরায় স্বাগতম।"
+
+#: lib/senders/email.js:814
+msgid "Still there?"
+msgstr "এখনও এখানে?"
+
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
+msgid "Firefox Accounts"
+msgstr "Firefox Accounts"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -460,6 +155,213 @@ msgstr "Firefox ক্লাউড সেবা সমূহ"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "সেবার শর্ত সমূহ"
+
+#~ msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
+#~ msgstr "কিছুক্ষণ আগে আপনি Firefox Account তৈরি করেছেন, কিন্তু যাচাই করা হয়নি। আপনার অ্যাকাউন্ট সক্রিয় করতে নিচের লিঙ্কে ক্লিক করুন।"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
+#~ "href='%(iosUrl)s'>iOS</a>."
+#~ msgstr "আপনি Firefox Account আপনার প্রথম ডিভাইসের সাথে সফলভাবে সংযুক্ত করেছেন।  Android ও iOS এর জন্য Firefox সহ আপনার অন্যান্য ডিভাইসে Sync হতে এখন আপনি সাইন ইন করতে পারবেন ।"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+#~ "iOS</a>."
+#~ msgstr "আপনি Firefox Account এ আপনার প্রথম ডিভাইসের সাথে সফলভাবে সংযুক্ত হয়েছেন। Sync কে সর্বোচ্চ কার্যকর করতে, যেকোনো Android এর জন্য Firefox অথবা iOS এর জন্য Firefox এ সংযোগ করুন।"
+
+#~ msgid "Connect another device"
+#~ msgstr "অন্য ডিভাইসে সংযোগ করুন"
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "Sync এ সাইন ইন করুন"
+
+#~ msgid "IP address: %(ip)s"
+#~ msgstr "IP ঠিকানা: %(ip)s"
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
+#~ msgstr "এটি একটি স্বয়ংক্রিয় ইমেইল। যদি আপনি এই পদক্ষেপ অনুমোদন না করে থাকেন, তাহলে <a %(passwordChangeLinkAttributes)s>অনুগ্রহ করে পাসওয়ার্ড পরিবর্তন করুন।</a>"
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+#~ msgstr "আরও তথ্যের জন্য, দেখুন <a %(supportLinkAttributes)s>Mozilla Support</a>।"
+
+#~ msgid "Mozilla Privacy Policy"
+#~ msgstr "Mozilla গোপনীয়তা নীতি"
+
+#~ msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "এটি একটি সংক্রিয় ইমেইল; যদি আপনার Firefox Account এ নতুন কোন ডিভাইস যুক্ত না করে থাকেন, তাহলে এখনই আপনার পার্সওয়ার্ড %(passwordChangeLink)s এ পরিবর্তন করুন"
+
+#~ msgid "For more information, please visit %(supportUrl)s"
+#~ msgstr "আরও তথ্যের জন্য, ভিজিট করুন %(supportUrl)s"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "সফলভাবে পাসওয়ার্ড পরিবর্তন হয়েছে"
+
+#~ msgid "Your Firefox Account password was successfully changed from the following device:"
+#~ msgstr "ডিভাইসটি থেকে আপনার Firefox অ্যাকাউন্টের পার্সওয়ার্ড সফল ভাবে পরিবর্তিত হয়েছে:"
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
+#~ msgstr "এটা একটি স্বয়ংক্রিয় ইমেইল; যদি এই পদক্ষেপটি অনুমোদন না করে থাকেন; তাহলে <a %(resetLinkAttributes)s>অনুগ্রহ করে পাসওয়ার্ডটি পরিবর্তন করুন</a>।"
+
+#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "এটা একটি স্বয়ংক্রিয় ইমেইল; যদি আপনি আপনার Firefox Account এর পাসওয়ার্ড পরিবর্তন না করে থাকেন, তাহলে আপনি এখনই %(passwordChangeLink)s এ আপনার পাসওয়ার্ড পরিবর্তন করুন"
+
+#~ msgid "Your password has been reset"
+#~ msgstr "আপনার পাসওয়ার্ড রিসেট হয়েছে"
+
+#~ msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
+#~ msgstr "আপনার Firefox Account এর পাসওয়ার্ড পরিবর্তন হয়েছে। যদি আপনি এটা পরিবর্তন না করে থাকেন, অনুগ্রহ করে এখনই <a %(resetLinkAttributes)s> পাসওয়ার্ডটি রিসেট করুন</a>।"
+
+#~ msgid "This is an automated email; if you received it in error, no action is required."
+#~ msgstr "এটি একটি স্বয়ংক্রিয় ইমেইল; যদি কোন ত্রুটির কারণে আপনি এটি পেয়ে থাকেন, কিছু করার প্রয়োজন নেই।"
+
+#~ msgid "Password reset successfully"
+#~ msgstr "সফলভাবে পাসওয়ার্ড রিসেট হয়েছে"
+
+#~ msgid "Your Firefox Account password has been successfully reset."
+#~ msgstr "আপনার Firefox Account এর পাসওয়ার্ড সফলভাবে পরিবর্তন হয়েছে।"
+
+#~ msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "এটা একটি স্বয়ংক্রিয় ইমেইল; যদি আপনি আপনার Firefox Account এর পাসওয়ার্ড পরিবর্তন না করে থাকেন, তাহলে আপনি এখনই %(passwordChangeLink)s এ আপনার পাসওয়ার্ড পরিবর্তন করুন"
+
+#~ msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
+#~ msgstr "আমরা আপনার Firefox Account এ সন্দেহভাজন কার্যকলাপ চিহ্নিত হয়েছে। আপনার অ্যাকাউন্টটি চুরি হতে পারে।"
+
+#~ msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
+#~ msgstr "আপনার Firefox Account এ পরবর্তী অননুমোদিত প্রবেশ প্রতিরোধ করতে, আমরা আপনার পাসওয়ার্ড রিসেট করেছি এবাং সতর্কতা হিসেবে আপনাকে জানাচ্ছি।"
+
+#~ msgid "What should you do?"
+#~ msgstr "আপনার কি করা উচিৎ?"
+
+#~ msgid "First, change your Firefox Account password."
+#~ msgstr "প্রথমত, আপনার Firefox Account এর পাসওয়ার্ড পরিবর্তন করুন।"
+
+#~ msgid ""
+#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
+#~ "activity."
+#~ msgstr "দ্বিতীয়ত, যদি Firefox ওয়েবসাইট পাসওয়ার্ডগুলো জমা থাকে, সেসব পাসওয়ার্ডও পরিবর্তন করা উচিৎ। আক্রমণকারীর পাসওয়ার্ডগুলোর এক্সেস থাকতে পারে, তাই অ্যাকাউন্টে সন্দেহজনক কাজগুলো যাচাই করতে হবে।"
+
+#~ msgid "Learn how to see what passwords Firefox is storing for you."
+#~ msgstr "দেখুন কিভাবে Firefox আপনার জন্য পাসওয়ার্ড সংরক্ষণ করছে।"
+
+#~ msgid "Best,"
+#~ msgstr "সর্বোত্তম,"
+
+#~ msgid "The Firefox Accounts team"
+#~ msgstr "Firefox Account টিম"
+
+#~ msgid "Manage account"
+#~ msgstr "অ্যাকাউন্ট ব্যবস্থাপনা"
+
+#~ msgid "Manage account:"
+#~ msgstr "অ্যাকাউন্ট ব্যবস্থাপনা:"
+
+#~ msgid "Account verified!"
+#~ msgstr "যাচাইকৃত একাউন্ট!"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
+#~ "%(iosLinkAttributes)s>iOS</a>."
+#~ msgstr ""
+#~ "আপনি সফলভাবে  Firefox Account এর সাথে আপনার প্রথম ডিভাইসটি সংযুক্ত করেছেন। এখন আপনি অন্য ডিভাইস হতে সিঙ্কে সাইন ইন করতে পারেন, এমন কি  <a %(androidLinkAttributes)s>Android</a> বা <a "
+#~ "%(iosLinkAttributes)s>iOS</a> এর জন্য Firefox হতেও।"
+
+#~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
+#~ msgstr "আপনি সফলভাবে Firefox Account এ আপনার প্রথম ডিভাইসে সংযুক্ত। এখন আপনার যেকোনো ডিভাইসের সাথে sync এর জন্য সাইন ইন করতে পারেন, যা Android এবং iOS এর জন্য Firefox অন্তর্ভুক্ত।"
+
+#~ msgid "Sign in to Sync:"
+#~ msgstr "সিঙ্ক করতে সাইন ইন করুন:"
+
+#~ msgid "Secondary email added"
+#~ msgstr "সেকেন্ডারি ইমেইল যুক্ত হয়েছে"
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr "আপনি সফলভাবে আপনার Firefox Account এ  %(secondaryEmail)s কে সেকেন্ডারি ইমেইল হিসেবে ভেরিফাই করেছেন। নিরাপত্তা নোটিফিকেশন এবং সাইন-ইন নিশ্চিতকরণ বার্তা এখন থেকে উভয় ইমেইল ঠিকানায় পাঠানো হবে।"
+
+#~ msgid "Forgot your password?"
+#~ msgstr "পাসওয়ার্ড ভুলে গেছেন?"
+
+#~ msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
+#~ msgstr "আপনার Firefox একাউন্টের জন্যে আগামী এক ঘন্টার মধ্যে বাটনটি ক্লিক করে একটি নতুন পাসওয়ার্ড নির্ধারণ করুন। নিম্নোক্ত ডিভাইস থেকে অনুরোধটি এসেছে:"
+
+#~ msgid "Reset password"
+#~ msgstr "রিসেট পাসওয়ার্ড"
+
+#~ msgid "Is this you signing in?"
+#~ msgstr "আপনিই কি সাইন ইন করছেন?"
+
+#~ msgid "If yes, here is the authorization code you need:"
+#~ msgstr "যদি হ্যাঁ হয়, তাহলে এখানে অনুমোদন কোড রয়েছে যা আপনার প্রয়োজন:"
+
+#~ msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
+#~ msgstr "যদি না হয়, অামাদের সাহায্য করুন অবৈধ অনুপ্রবেশকারী ঠেকাতে এবং <a %(reportSignInLinkAttributes)s>আমাদের তা রিপোর্ট করুন।</a>"
+
+#~ msgid "If no, help us fend off intruders and report it to us."
+#~ msgstr "যদি না হয়, অামাদের সাহায্য করুন অবৈধ অনুপ্রবেশকারী ঠেকাতে এবং আমাদের তা রিপোর্ট করুন।"
+
+#~ msgid ""
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
+#~ msgstr ""
+#~ "কিছু দিন আগে আপনি Firefox Account খুলেছেন, কিন্তু এখনও যাচাই করেনি। যাচাইকৃত অ্যাকাউন্ট আপনাকে আপনার ট্যাব, বুকমার্ক, পাসওয়ার্ড এবং ইতিহাসে যেকোন স্থান থেকে প্রবেশ করতে দিবে। আপনার অ্যাকাউন্টটি সক্রিয় করতে শুধু "
+#~ "ইমেইল ঠিকানাটি নিশ্চিত করুন।"
+
+#~ msgid "Activate now"
+#~ msgstr "এখনই সক্রিয় করুন"
+
+#~ msgid "Verify Email"
+#~ msgstr "ইমেল যাচাই করুন"
+
+#~ msgid "Verify your email to finish your Firefox Account registration"
+#~ msgstr "আপনার Firefox Account নিবন্ধন সম্পূর্ণ করতে আপনার ইমেইল যাচাই করুন"
+
+#~ msgid "Activate now:"
+#~ msgstr "এখনই সক্রিয় করুন:"
+
+#~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr "সপ্তাহ আগে আপনি Firefox Account তৈরি করেছিলেন, কিন্তু যাচাই করেননি। আমরা আপনার সম্পর্কে উদ্বিগ্ন। অ্যাকাউন্টটি সক্রিয় করার জন্য ইমেইল ঠিকানাটি নিশ্চিত করুন এবং আপনি ঠিক আছেন কি না আমাদের জানান।"
+
+#~ msgid "Welcome!"
+#~ msgstr "স্বাগতম!"
+
+#~ msgid "Please activate your account by confirming this email address."
+#~ msgstr "এই ইমেইল ঠিকানাটি নিশ্চিতকরণের মাধ্যমে অনুগ্রহ করে আপনার অ্যাকাউন্ট সক্রিয় করুন।"
+
+#~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
+#~ msgstr "নিরাপত্তা যোগ করতে, ডিভাইসটি সিঙ্ক হতে অনুগ্রহ করে সাইন-ইন করুন:"
+
+#~ msgid "Confirm sign-in"
+#~ msgstr "সাইন-ইন নিশ্চিত করুন"
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "যদি সন্দেহ করেন আপনার অ্যাকাউন্ট অন্য কেউ প্রবেশের চেষ্টা করছে, <a %(passwordChangeLinkAttributes)s>অনুগ্রহ করে পাসওয়ার্ড পরিবর্তন করুন</a>।"
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, please change your password."
+#~ msgstr "যদি সন্দেহ করেন আপনার অ্যাকাউন্টে অন্য কেউ প্রবেশের চেষ্টা করছে, অনুগ্রহ করে পাসওয়ার্ড পরিবর্তন করুন।"
+
+#~ msgid "Verify secondary email"
+#~ msgstr "সেকেন্ডারি ইমেইল ভেরিফাই করুন"
+
+#~ msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
+#~ msgstr "Firefox Account হতে %(email)s কে সেকেন্ডারি ইমেইল ঠিকানা হিসেবে ব্যবহারের অনুরোধ করা হয়েছে:"
+
+#~ msgid "Verify email "
+#~ msgstr "ইমেইল যাচাই করুন "
+
+#~ msgid "Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "একবার ভেরিফাই হয়ে গেলে, আপনার ঠিকানাটি নিরাপত্তা নোটিফিকেশন এবং নিশ্চিতকরণ বার্তাগুলো পাওয়া শুরু করবে।"
+
+#~ msgid "Verify email: "
+#~ msgstr "ভেরিফাই ইমেইল:"
+
+#~ msgid "Ready, set, sync"
+#~ msgstr "প্রস্তুত, সেট, সিঙ্ক"
+
+#~ msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
+#~ msgstr "নিশ্চিত করুন আপনি ইমেইলটি পেয়েছেন, তাহলে আমরা আপনার সব ডিভাইসে Firefox ইন্সটল এবং সিঙ্ক করতে সাহায্য করতে পারবো:"
+
+#~ msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
+#~ msgstr "একবার নিশ্চিত করলে, আমরা আপনার অন্তঃত একটি ডিভাইসে Firefox ইন্সটল ও কানেক্ট করতে সহায়তা করতে পারবো।"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "আপনার অনুরোধানুযায়ী, এই নিন আপনার মোবাইল ডিভাইসে Firefox ইনস্টল করার লিংক: %(link)s"

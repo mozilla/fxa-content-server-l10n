@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-04 16:09+0000\n"
+"POT-Creation-Date: 2017-08-18 16:08+0000\n"
 "PO-Revision-Date: 2017-08-04 18:11+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,334 +13,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
-
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:845
-msgid "Still there?"
-msgstr "Framleis der?"
-
-#: lib/senders/templates/_pending.txt:2
-msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
-msgstr "For litt sidan oppretta du ein Firefox-konto, men du stadfesta han aldri. Trykk på lenka nedanfor for å aktivera kontoen din."
-
-#: lib/senders/templates/_pending.txt:3
-msgid ""
-"You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
-"href='%(iosUrl)s'>iOS</a>."
-msgstr ""
-"Du har no kopla til den fyrste eininga di til Firefox-kontoen din. No kan du logga inn på Sync frå dei andre einingane dine, inkludert Firefox for <a href='%(androidUrl)s'>Android</a> og <a "
-"href='%(iosUrl)s'>iOS</a>."
-
-#: lib/senders/templates/_pending.txt:4
-msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
-msgstr ""
-"Du har kopla til den fyrste eininga di til Firefox-kontoen din. For å få det meste ut av Sync, kopla til <a href='%(androidUrl)s'>Firefox for Android</a> eller <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
-
-#: lib/senders/templates/_pending.txt:5 lib/senders/templates/post_verify.html:4
-msgid "Connect another device"
-msgstr "Kopla til ei anna eining"
-
-#: lib/senders/templates/_pending.txt:6
-msgid "Sign in to Sync"
-msgstr "Logg inn på Sync"
-
-#: lib/senders/templates/new_device_login.html:1 lib/senders/templates/password_changed.html:1 lib/senders/templates/password_reset.html:1 lib/senders/templates/password_reset_required.html:1
-#: lib/senders/templates/post_remove_secondary.html:1 lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1
-#: lib/senders/templates/post_verify_secondary_email.html:1 lib/senders/templates/recovery.html:1 lib/senders/templates/unblock_code.html:1 lib/senders/templates/verification_reminder_first.html:1
-#: lib/senders/templates/verification_reminder_second.html:1 lib/senders/templates/verify.html:1 lib/senders/templates/verify_login.html:1 lib/senders/templates/verify_secondary.html:1
-#: lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
-#: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
-msgid "Firefox Accounts"
-msgstr "Firefox-kontoar"
-
-#: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:698
-msgid "New sign-in to Firefox"
-msgstr "Ny innlogging på Firefox"
-
-#: lib/senders/templates/new_device_login.html:3 lib/senders/templates/new_device_login.txt:2 lib/senders/templates/password_changed.html:4 lib/senders/templates/password_changed.txt:3
-#: lib/senders/templates/recovery.html:4 lib/senders/templates/recovery.txt:3 lib/senders/templates/unblock_code.html:3 lib/senders/templates/unblock_code.txt:2
-#: lib/senders/templates/verify_login.html:4 lib/senders/templates/verify_login.txt:3 lib/senders/templates/verify_secondary.html:4 lib/senders/templates/verify_secondary.txt:3
-#: lib/senders/templates/verify_sync.html:4 lib/senders/templates/verify_sync.txt:3
-msgid "IP address: %(ip)s"
-msgstr "IP-adresse: %(ip)s"
-
-#: lib/senders/templates/new_device_login.html:4 lib/senders/templates/verify_secondary.html:7
-msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr "Dette er ein automatisk e-post. Om du ikkje godkjende denne handlinga må du <a %(passwordChangeLinkAttributes)s>endra passordet ditt.</a>"
-
-#: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5 lib/senders/templates/post_remove_secondary.html:6
-#: lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/post_verify_secondary_email.html:6 lib/senders/templates/recovery.html:7
-#: lib/senders/templates/verification_reminder_first.html:6 lib/senders/templates/verification_reminder_second.html:6 lib/senders/templates/verify.html:6 lib/senders/templates/verify_secondary.html:8
-#: lib/senders/templates/verify_sync.html:8
-msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr "For meir informasjon, gå til <a %(supportLinkAttributes)s>Mozilla Support</a>."
-
-#: lib/senders/templates/new_device_login.html:6 lib/senders/templates/new_device_login.txt:5 lib/senders/templates/password_changed.html:7 lib/senders/templates/password_changed.txt:6
-#: lib/senders/templates/password_reset.html:6 lib/senders/templates/password_reset.txt:5 lib/senders/templates/password_reset_required.html:10 lib/senders/templates/password_reset_required.txt:9
-#: lib/senders/templates/post_remove_secondary.html:7 lib/senders/templates/post_remove_secondary.txt:6 lib/senders/templates/post_verify.html:7 lib/senders/templates/post_verify.txt:6
-#: lib/senders/templates/post_verify_secondary.html:7 lib/senders/templates/post_verify_secondary.txt:6 lib/senders/templates/post_verify_secondary_email.html:7 lib/senders/templates/recovery.html:8
-#: lib/senders/templates/recovery.txt:7 lib/senders/templates/unblock_code.html:6 lib/senders/templates/unblock_code.txt:5 lib/senders/templates/verification_reminder_first.html:7
-#: lib/senders/templates/verification_reminder_first.txt:6 lib/senders/templates/verification_reminder_second.html:7 lib/senders/templates/verification_reminder_second.txt:6
-#: lib/senders/templates/verify.html:7 lib/senders/templates/verify.txt:6 lib/senders/templates/verify_login.html:7 lib/senders/templates/verify_login.txt:6
-#: lib/senders/templates/verify_secondary.html:9 lib/senders/templates/verify_secondary.txt:6 lib/senders/templates/verify_sync.html:9 lib/senders/templates/verify_sync.txt:8
-msgid "Mozilla Privacy Policy"
-msgstr "Mozilla personvernpraksis"
-
-#: lib/senders/templates/new_device_login.txt:3
-msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr "Dette er ei automatiskt e-postmelding: Om du ikkje la til ei ny eining i Firefox-kontoen din, bør du endra passordet ditt med ein gong på %(passwordChangeLink)s"
-
-#: lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4 lib/senders/templates/post_remove_secondary.txt:5
-#: lib/senders/templates/post_verify.txt:5 lib/senders/templates/post_verify_secondary.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:5
-#: lib/senders/templates/verification_reminder_second.txt:5 lib/senders/templates/verify.txt:5 lib/senders/templates/verify_sync.txt:7
-msgid "For more information, please visit %(supportUrl)s"
-msgstr "For meir informasjon, gå til %(supportUrl)s"
-
-#: lib/senders/templates/password_changed.html:2 lib/senders/templates/password_changed.txt:1
-msgid "Password changed successfully"
-msgstr "Passordet er endra"
-
-#: lib/senders/templates/password_changed.html:3 lib/senders/templates/password_changed.txt:2
-msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr "Passordet ditt er endra frå følgjande eining:"
-
-#: lib/senders/templates/password_changed.html:5
-msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "Dette er ein automatisk e-post: Om du ikkje godkjende denne handlinga <a %(resetLinkAttributes)s>ver snill og tilbakestill passordet ditt</a>."
-
-#: lib/senders/templates/password_changed.txt:4
-msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr "Dette er ei automatisk e-postmelding. Om du ikkje endra passordet ditt for Firefox-kontoen din, bør du tilbakestilla det med ein gong på %(resetLink)s"
-
-#: lib/senders/templates/password_reset.html:2
-msgid "Your password has been reset"
-msgstr "Passordet ditt er tilbakestilt"
-
-#: lib/senders/templates/password_reset.html:3
-msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr "Passordet for Firefox-kontoen din er endra. Om du ikkje endra det, <a %(resetLinkAttributes)s>tilbakestill passordet no</a> now."
-
-#: lib/senders/templates/password_reset.html:4 lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5
-#: lib/senders/templates/post_verify.txt:4 lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/post_verify_secondary_email.html:5
-#: lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_first.txt:4
-#: lib/senders/templates/verification_reminder_second.html:5 lib/senders/templates/verification_reminder_second.txt:4 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
-#: lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
-msgid "This is an automated email; if you received it in error, no action is required."
-msgstr "Dette er ei automatisk e-postmelding: Dersom du har motteke denne e-posten ved en feil, treng du ikkje å gjera noko."
-
-#: lib/senders/templates/password_reset.txt:1
-msgid "Password reset successfully"
-msgstr "Passordet er tilbakestilt"
-
-#: lib/senders/templates/password_reset.txt:2
-msgid "Your Firefox Account password has been successfully reset."
-msgstr "Passordet for Firefox-kontoen din er tilbakestilt."
-
-#: lib/senders/templates/password_reset.txt:3
-msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr "Dette er ei automatisk e-postmelding. Om du ikkje tilbakestilte pasordet ditt for Firefox-kontoen din, bør du tilbakestilla det med ein gong på %(resetLink)s"
-
-#: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
-msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-msgstr "Vi har oppdaga mistenkeleg aktivitet på Firefox-kontoen din. Kontoen din kan ha vorte kompromittert."
-
-#: lib/senders/templates/password_reset_required.html:3 lib/senders/templates/password_reset_required.txt:2
-msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-msgstr "For å hindra vidare uautorisert tilgang til Firefox-kontoen din, har vi tilbakestilt passordet, og informerer deg no om dette for å vera på den sikre sida."
-
-#: lib/senders/templates/password_reset_required.html:4 lib/senders/templates/password_reset_required.txt:3
-msgid "What should you do?"
-msgstr "Kva bør du gjera?"
-
-#: lib/senders/templates/password_reset_required.html:5 lib/senders/templates/password_reset_required.txt:4
-msgid "First, change your Firefox Account password."
-msgstr "Fyrst endrar du passordet for Firefox-kontoen din."
-
-#: lib/senders/templates/password_reset_required.html:6 lib/senders/templates/password_reset_required.txt:5
-msgid ""
-"Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
-msgstr ""
-"Deretter, om Firefox lagrar passord for nettsider, bør du òg endra desse passorda. Angriparar kan få tilgang til desse passorda, og du bør derfor kontrollera desse kontoane for mistenkjeleg "
-"aktivitet."
-
-#: lib/senders/templates/password_reset_required.html:7 lib/senders/templates/password_reset_required.txt:6
-msgid "Learn how to see what passwords Firefox is storing for you."
-msgstr "Lær deg kva for passord Firefox lagrar for deg."
-
-#: lib/senders/templates/password_reset_required.html:8 lib/senders/templates/password_reset_required.txt:7
-msgid "Best,"
-msgstr "Venleg helsing"
-
-#: lib/senders/templates/password_reset_required.html:9 lib/senders/templates/password_reset_required.txt:8
-msgid "The Firefox Accounts team"
-msgstr "Firefox-kontoteamet"
-
-#: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
-msgid "Secondary email removed"
-msgstr "Sekundær e-postadesse fjerna"
-
-#: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
-msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr "Du har vellykka fjerna %(secondaryEmail)s som sekundær e-postadresse i Firefox-kontoen din. Tryggingsvarsel og stadfestingar av innlogging vert ikkje lenger leverte til denne adressa."
-
-#: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
-msgid "Manage account"
-msgstr "Handsam kontoen"
-
-#: lib/senders/templates/post_remove_secondary.txt:3 lib/senders/templates/post_verify_secondary.txt:3
-msgid "Manage account:"
-msgstr "Handsam kontoen:"
-
-#: lib/senders/templates/post_verify.html:2 lib/senders/templates/post_verify.txt:1
-msgid "Account verified!"
-msgstr "Kontoen er stadfesta!"
-
-#: lib/senders/templates/post_verify.html:3
-msgid ""
-"You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
-"%(iosLinkAttributes)s>iOS</a>."
-msgstr ""
-"Du har kopla den fyrste eininga di til Firefox-kontoen din. Du kan no logga inn på Sync frå dei andre eininganre dine, inkludertFirefox for <a %(androidLinkAttributes)s>Android</a> og <a "
-"%(iosLinkAttributes)s>iOS</a>."
-
-#: lib/senders/templates/post_verify.txt:2
-msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-msgstr "Du har kopla den fyrste eininga di til Firefox-kontoen din. No kan du logga inn på Sync frå dei andre einingane dine, inkludert Firefox for Android og iOS."
-
-#: lib/senders/templates/post_verify.txt:3
-msgid "Sign in to Sync:"
-msgstr "Logg inn på Sync:"
-
-#: lib/senders/templates/post_verify_secondary.html:2 lib/senders/templates/post_verify_secondary.txt:1 lib/senders/templates/post_verify_secondary_email.html:2
-msgid "Secondary email added"
-msgstr "Sekundær e-post lagt til"
-
-#: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2 lib/senders/templates/post_verify_secondary_email.html:3
-msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr "Du har stadfesta %(secondaryEmail)s som ei sekundær e-postadresse for Firefox-kontoen din. Tryggingsmeldingar og inloggningsstadfestingar vil no bli levert til begge e-postadressene."
-
-#: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
-msgid "Forgot your password?"
-msgstr "Gløymt passordet ditt?"
-
-#: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
-msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
-msgstr "Trykk på knappen innan neste time for å velje eit nytt passord for Firefox-kontoen din. Førespurnaden kom frå følgjande eining:"
-
-#: lib/senders/templates/recovery.html:5 lib/senders/templates/recovery.txt:4
-msgid "Reset password"
-msgstr "Tilbakestill passordet"
-
-#: lib/senders/templates/sms.installFirefox.txt:1
-msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr "Takk for at du vel Firefox! Du kan installere Firefox for mobil her: %(link)s"
-
-#: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1
-msgid "Is this you signing in?"
-msgstr "Er det du som loggar inn?"
-
-#: lib/senders/templates/unblock_code.html:4 lib/senders/templates/unblock_code.txt:3
-msgid "If yes, here is the authorization code you need:"
-msgstr "Dersom ja, her er godkjenningskoden du treng:"
-
-#: lib/senders/templates/unblock_code.html:5
-msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr "Dersom nei, hjelp oss med å avverja inntrengarar <a %(reportSignInLinkAttributes)s=\"\">rapporter dette til oss.</a>"
-
-#: lib/senders/templates/unblock_code.txt:4
-msgid "If no, help us fend off intruders and report it to us."
-msgstr "Dersom nei, hjelp oss med å avverja inntrengarar og raporter dette til oss."
-
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:842
-msgid "Hello again."
-msgstr "Hei igjen."
-
-#: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
-msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-" email address to activate your account."
-msgstr ""
-"For nokre dagar sidan laga du ein Firefox-konto, men du stadfesta han aldri. Ein stadfesta konto lar deg opna faner, bokmerke, passord og historikk på alle einingar som er kopla til han. Stadfest "
-"denne e-postadreessa for å aktivera kontoen din."
-
-#: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verify.html:4
-msgid "Activate now"
-msgstr "Aktiver no"
-
-#: lib/senders/templates/verification_reminder_first.html:8 lib/senders/templates/verification_reminder_second.html:8 lib/senders/templates/verify.html:8 lib/senders/templates/verify_sync.html:10
-msgid "Verify Email"
-msgstr "Stadfest e-post"
-
-#: lib/senders/templates/verification_reminder_first.html:9 lib/senders/templates/verification_reminder_second.html:9 lib/senders/templates/verify.html:9 lib/senders/templates/verify_sync.html:11
-msgid "Verify your email to finish your Firefox Account registration"
-msgstr "Stadfest e-postadressa di for å fullføra registreringa av Firefox-kontoen din"
-
-#: lib/senders/templates/verification_reminder_first.txt:3 lib/senders/templates/verification_reminder_second.txt:3 lib/senders/templates/verify.txt:3
-msgid "Activate now:"
-msgstr "Aktiver no:"
-
-#: lib/senders/templates/verification_reminder_second.html:3 lib/senders/templates/verification_reminder_second.txt:2
-msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-msgstr "For ei veke sidan laga du ein Firefox-konto, men du stadfesta han aldri. Vi er bekymra for deg. Stadfest denne e-postadressa for å aktivera kontoen din, slik at vi veit at du har det bra."
-
-#: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
-msgid "Welcome!"
-msgstr "Velkomen!"
-
-#: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:2
-msgid "Please activate your account by confirming this email address."
-msgstr "Aktiver kontoen din ved å stadfesta denne e-postadressa."
-
-#: lib/senders/templates/verify_login.html:3 lib/senders/templates/verify_login.txt:2
-msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "For ekstra sikkerheit, stadfest denne innlogginga for å starta synkroniseringa med denne eininga:"
-
-#: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
-msgid "Confirm sign-in"
-msgstr "Stadfest innlogging"
-
-#: lib/senders/templates/verify_login.html:6
-msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr "Om du mistenkjer at nokon prøver å få tilgang til kontoen din, <a %(passwordChangeLinkAttributes)s>må du endra passordet ditt</a>."
-
-#: lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_secondary.txt:5
-msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr "Om du mistenkjer at nokon prøver å få tilgang til kontoen din, må du endra passordet ditt."
-
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
-msgid "Verify secondary email"
-msgstr "Stadfest sekundær e-post"
-
-#: lib/senders/templates/verify_secondary.html:3 lib/senders/templates/verify_secondary.txt:2
-msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr "Ein førespurnad om å bruke %(email)s som sekundær e-postadresse har kome frå følgjande Firefox-konto:"
-
-#: lib/senders/templates/verify_secondary.html:5 lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
-msgid "Verify email "
-msgstr "Stadfest e-post "
-
-#: lib/senders/templates/verify_secondary.html:6
-msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr "Når e-postadressa er stadfesta, vil ho byrje å ta imot tryggingsmeldingar og stadfestingar."
-
-#: lib/senders/templates/verify_secondary.txt:4
-msgid "Verify email: "
-msgstr "Stadfest e-post: "
-
-#: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
-msgid "Ready, set, sync"
-msgstr "Klar, ferdig, synk"
-
-#: lib/senders/templates/verify_sync.html:3 lib/senders/templates/verify_sync.txt:2
-msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr "Stadfest at du har fått denne e-postmeldinga og vi vil hjelpa deg med å installera og synkronisera Firefox på alle einingane dine og byrjar med:"
-
-#: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
-msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr "Når stadfesta hjelper vi deg med å installera og kopla til Firefox på minst ei anna eining."
 
 #: lib/senders/email.js:162
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -366,7 +38,7 @@ msgstr "%(stateCode)s, %(country)s (berekna)"
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (estimert)"
 
-#: lib/senders/email.js:297
+#: lib/senders/email.js:302
 msgid "Verify your Firefox Account"
 msgstr "Stadfest Firefox-kontoen din"
 
@@ -374,45 +46,62 @@ msgstr "Stadfest Firefox-kontoen din"
 msgid "Confirm your email and start to sync!"
 msgstr "Stadfest e-postadressa di og byrja å synkronisera!"
 
-#: lib/senders/email.js:384
+#: lib/senders/email.js:383
 msgid "Firefox Account authorization code"
 msgstr "Firefox-konto godkjenningskode"
 
-#: lib/senders/email.js:437
+#: lib/senders/email.js:433
 msgid "Confirm new sign-in to Firefox"
 msgstr "Stadfest ny innlogging på Firefox"
 
-#: lib/senders/email.js:494
+#: lib/senders/email.js:487
 msgid "Verify email for Firefox Accounts"
 msgstr "Stadfest e-post for Firefox-kontoar"
 
-#: lib/senders/email.js:550
+#: lib/senders/email.js:540
 msgid "Reset your Firefox Account password"
 msgstr "Tilbakestill passordet for Firefox-kontoen din"
 
-#: lib/senders/email.js:591
+#: lib/senders/email.js:578
 msgid "Your Firefox Account password has been changed"
 msgstr "Passordet for Firefox-kontoen din er endra"
 
-#: lib/senders/email.js:630
+#: lib/senders/email.js:614
 msgid "Your Firefox Account password has been reset"
 msgstr "Passordet til Firefox-kontoen din er endra"
 
-#: lib/senders/email.js:664
+#: lib/senders/email.js:645
 msgid "Firefox Account password reset required"
 msgstr "Tilbakestilling av passord for Firefox-kontoen er påkravd"
 
-#: lib/senders/email.js:738
+#: lib/senders/email.js:676
+msgid "New sign-in to Firefox"
+msgstr "Ny innlogging på Firefox"
+
+#: lib/senders/email.js:713
 msgid "Firefox Account verified"
 msgstr "Firefox-konto stadfesta"
 
-#: lib/senders/email.js:777
+#: lib/senders/email.js:749
 msgid "Secondary Firefox Account email added"
 msgstr "Sekundær e-post for Firefox-konto lagt til"
 
-#: lib/senders/email.js:816
+#: lib/senders/email.js:785
 msgid "Secondary Firefox Account email removed"
 msgstr "Sekundær e-postadresse i Firefox-kontoen fjerna"
+
+#: lib/senders/email.js:811
+msgid "Hello again."
+msgstr "Hei igjen."
+
+#: lib/senders/email.js:814
+msgid "Still there?"
+msgstr "Framleis der?"
+
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
+msgid "Firefox Accounts"
+msgstr "Firefox-kontoar"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -465,6 +154,228 @@ msgstr "Firefox skytenester"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Tenestevilkår"
+
+#~ msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
+#~ msgstr "For litt sidan oppretta du ein Firefox-konto, men du stadfesta han aldri. Trykk på lenka nedanfor for å aktivera kontoen din."
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
+#~ "href='%(iosUrl)s'>iOS</a>."
+#~ msgstr ""
+#~ "Du har no kopla til den fyrste eininga di til Firefox-kontoen din. No kan du logga inn på Sync frå dei andre einingane dine, inkludert Firefox for <a href='%(androidUrl)s'>Android</a> og <a "
+#~ "href='%(iosUrl)s'>iOS</a>."
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+#~ "iOS</a>."
+#~ msgstr ""
+#~ "Du har kopla til den fyrste eininga di til Firefox-kontoen din. For å få det meste ut av Sync, kopla til <a href='%(androidUrl)s'>Firefox for Android</a> eller <a href='%(iosUrl)s'>Firefox for "
+#~ "iOS</a>."
+
+#~ msgid "Connect another device"
+#~ msgstr "Kopla til ei anna eining"
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "Logg inn på Sync"
+
+#~ msgid "IP address: %(ip)s"
+#~ msgstr "IP-adresse: %(ip)s"
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
+#~ msgstr "Dette er ein automatisk e-post. Om du ikkje godkjende denne handlinga må du <a %(passwordChangeLinkAttributes)s>endra passordet ditt.</a>"
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+#~ msgstr "For meir informasjon, gå til <a %(supportLinkAttributes)s>Mozilla Support</a>."
+
+#~ msgid "Mozilla Privacy Policy"
+#~ msgstr "Mozilla personvernpraksis"
+
+#~ msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "Dette er ei automatiskt e-postmelding: Om du ikkje la til ei ny eining i Firefox-kontoen din, bør du endra passordet ditt med ein gong på %(passwordChangeLink)s"
+
+#~ msgid "For more information, please visit %(supportUrl)s"
+#~ msgstr "For meir informasjon, gå til %(supportUrl)s"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "Passordet er endra"
+
+#~ msgid "Your Firefox Account password was successfully changed from the following device:"
+#~ msgstr "Passordet ditt er endra frå følgjande eining:"
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
+#~ msgstr "Dette er ein automatisk e-post: Om du ikkje godkjende denne handlinga <a %(resetLinkAttributes)s>ver snill og tilbakestill passordet ditt</a>."
+
+#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "Dette er ei automatisk e-postmelding. Om du ikkje endra passordet ditt for Firefox-kontoen din, bør du tilbakestilla det med ein gong på %(resetLink)s"
+
+#~ msgid "Your password has been reset"
+#~ msgstr "Passordet ditt er tilbakestilt"
+
+#~ msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
+#~ msgstr "Passordet for Firefox-kontoen din er endra. Om du ikkje endra det, <a %(resetLinkAttributes)s>tilbakestill passordet no</a> now."
+
+#~ msgid "This is an automated email; if you received it in error, no action is required."
+#~ msgstr "Dette er ei automatisk e-postmelding: Dersom du har motteke denne e-posten ved en feil, treng du ikkje å gjera noko."
+
+#~ msgid "Password reset successfully"
+#~ msgstr "Passordet er tilbakestilt"
+
+#~ msgid "Your Firefox Account password has been successfully reset."
+#~ msgstr "Passordet for Firefox-kontoen din er tilbakestilt."
+
+#~ msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "Dette er ei automatisk e-postmelding. Om du ikkje tilbakestilte pasordet ditt for Firefox-kontoen din, bør du tilbakestilla det med ein gong på %(resetLink)s"
+
+#~ msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
+#~ msgstr "Vi har oppdaga mistenkeleg aktivitet på Firefox-kontoen din. Kontoen din kan ha vorte kompromittert."
+
+#~ msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
+#~ msgstr "For å hindra vidare uautorisert tilgang til Firefox-kontoen din, har vi tilbakestilt passordet, og informerer deg no om dette for å vera på den sikre sida."
+
+#~ msgid "What should you do?"
+#~ msgstr "Kva bør du gjera?"
+
+#~ msgid "First, change your Firefox Account password."
+#~ msgstr "Fyrst endrar du passordet for Firefox-kontoen din."
+
+#~ msgid ""
+#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
+#~ "activity."
+#~ msgstr ""
+#~ "Deretter, om Firefox lagrar passord for nettsider, bør du òg endra desse passorda. Angriparar kan få tilgang til desse passorda, og du bør derfor kontrollera desse kontoane for mistenkjeleg "
+#~ "aktivitet."
+
+#~ msgid "Learn how to see what passwords Firefox is storing for you."
+#~ msgstr "Lær deg kva for passord Firefox lagrar for deg."
+
+#~ msgid "Best,"
+#~ msgstr "Venleg helsing"
+
+#~ msgid "The Firefox Accounts team"
+#~ msgstr "Firefox-kontoteamet"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "Sekundær e-postadesse fjerna"
+
+#~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+#~ msgstr "Du har vellykka fjerna %(secondaryEmail)s som sekundær e-postadresse i Firefox-kontoen din. Tryggingsvarsel og stadfestingar av innlogging vert ikkje lenger leverte til denne adressa."
+
+#~ msgid "Manage account"
+#~ msgstr "Handsam kontoen"
+
+#~ msgid "Manage account:"
+#~ msgstr "Handsam kontoen:"
+
+#~ msgid "Account verified!"
+#~ msgstr "Kontoen er stadfesta!"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
+#~ "%(iosLinkAttributes)s>iOS</a>."
+#~ msgstr ""
+#~ "Du har kopla den fyrste eininga di til Firefox-kontoen din. Du kan no logga inn på Sync frå dei andre eininganre dine, inkludertFirefox for <a %(androidLinkAttributes)s>Android</a> og <a "
+#~ "%(iosLinkAttributes)s>iOS</a>."
+
+#~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
+#~ msgstr "Du har kopla den fyrste eininga di til Firefox-kontoen din. No kan du logga inn på Sync frå dei andre einingane dine, inkludert Firefox for Android og iOS."
+
+#~ msgid "Sign in to Sync:"
+#~ msgstr "Logg inn på Sync:"
+
+#~ msgid "Secondary email added"
+#~ msgstr "Sekundær e-post lagt til"
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr "Du har stadfesta %(secondaryEmail)s som ei sekundær e-postadresse for Firefox-kontoen din. Tryggingsmeldingar og inloggningsstadfestingar vil no bli levert til begge e-postadressene."
+
+#~ msgid "Forgot your password?"
+#~ msgstr "Gløymt passordet ditt?"
+
+#~ msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
+#~ msgstr "Trykk på knappen innan neste time for å velje eit nytt passord for Firefox-kontoen din. Førespurnaden kom frå følgjande eining:"
+
+#~ msgid "Reset password"
+#~ msgstr "Tilbakestill passordet"
+
+#~ msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
+#~ msgstr "Takk for at du vel Firefox! Du kan installere Firefox for mobil her: %(link)s"
+
+#~ msgid "Is this you signing in?"
+#~ msgstr "Er det du som loggar inn?"
+
+#~ msgid "If yes, here is the authorization code you need:"
+#~ msgstr "Dersom ja, her er godkjenningskoden du treng:"
+
+#~ msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
+#~ msgstr "Dersom nei, hjelp oss med å avverja inntrengarar <a %(reportSignInLinkAttributes)s=\"\">rapporter dette til oss.</a>"
+
+#~ msgid "If no, help us fend off intruders and report it to us."
+#~ msgstr "Dersom nei, hjelp oss med å avverja inntrengarar og raporter dette til oss."
+
+#~ msgid ""
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
+#~ msgstr ""
+#~ "For nokre dagar sidan laga du ein Firefox-konto, men du stadfesta han aldri. Ein stadfesta konto lar deg opna faner, bokmerke, passord og historikk på alle einingar som er kopla til han. "
+#~ "Stadfest denne e-postadreessa for å aktivera kontoen din."
+
+#~ msgid "Activate now"
+#~ msgstr "Aktiver no"
+
+#~ msgid "Verify Email"
+#~ msgstr "Stadfest e-post"
+
+#~ msgid "Verify your email to finish your Firefox Account registration"
+#~ msgstr "Stadfest e-postadressa di for å fullføra registreringa av Firefox-kontoen din"
+
+#~ msgid "Activate now:"
+#~ msgstr "Aktiver no:"
+
+#~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr "For ei veke sidan laga du ein Firefox-konto, men du stadfesta han aldri. Vi er bekymra for deg. Stadfest denne e-postadressa for å aktivera kontoen din, slik at vi veit at du har det bra."
+
+#~ msgid "Welcome!"
+#~ msgstr "Velkomen!"
+
+#~ msgid "Please activate your account by confirming this email address."
+#~ msgstr "Aktiver kontoen din ved å stadfesta denne e-postadressa."
+
+#~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
+#~ msgstr "For ekstra sikkerheit, stadfest denne innlogginga for å starta synkroniseringa med denne eininga:"
+
+#~ msgid "Confirm sign-in"
+#~ msgstr "Stadfest innlogging"
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Om du mistenkjer at nokon prøver å få tilgang til kontoen din, <a %(passwordChangeLinkAttributes)s>må du endra passordet ditt</a>."
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, please change your password."
+#~ msgstr "Om du mistenkjer at nokon prøver å få tilgang til kontoen din, må du endra passordet ditt."
+
+#~ msgid "Verify secondary email"
+#~ msgstr "Stadfest sekundær e-post"
+
+#~ msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
+#~ msgstr "Ein førespurnad om å bruke %(email)s som sekundær e-postadresse har kome frå følgjande Firefox-konto:"
+
+#~ msgid "Verify email "
+#~ msgstr "Stadfest e-post "
+
+#~ msgid "Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "Når e-postadressa er stadfesta, vil ho byrje å ta imot tryggingsmeldingar og stadfestingar."
+
+#~ msgid "Verify email: "
+#~ msgstr "Stadfest e-post: "
+
+#~ msgid "Ready, set, sync"
+#~ msgstr "Klar, ferdig, synk"
+
+#~ msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
+#~ msgstr "Stadfest at du har fått denne e-postmeldinga og vi vil hjelpa deg med å installera og synkronisera Firefox på alle einingane dine og byrjar med:"
+
+#~ msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
+#~ msgstr "Når stadfesta hjelper vi deg med å installera og kopla til Firefox på minst ei anna eining."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Som førespurd, her er ein lenke for å installera Firefox på mobileininga di: %(link)s"
