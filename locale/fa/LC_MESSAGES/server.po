@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -417,6 +417,19 @@ msgstr "رایانامه دوم حساب‌کاربری فایرفاکس افز�
 msgid "Secondary Firefox Account email removed"
 msgstr "رایانهٔ دوم برای حساب فایرفاکس حذف شد"
 
+#: lib/senders/email.js:811
+msgid "Hello again."
+msgstr "دوباره سلام."
+
+#: lib/senders/email.js:814
+msgid "Still there?"
+msgstr "هنوز اینجایی؟"
+
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
+msgid "Firefox Accounts"
+msgstr "حساب‌های فایرفاکس"
+
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
 msgstr "صفحه پیدا نشد"
@@ -469,8 +482,220 @@ msgstr "سرویس‌های ابری فایرفاکس"
 msgid "Terms of Service"
 msgstr "قوانین استفاده از سرویس"
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
+#~ msgstr "مدتی پیش شما یک حساب فایرفاکس ساختید، ولی هیچ وقت آن را تایید نکردید. روی لینک زیر کلیک کنید تا آن را فعال کنید."
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
+#~ "href='%(iosUrl)s'>iOS</a>."
+#~ msgstr ""
+#~ "شما با موفقیت اولین دستگاه را به حساب فایرفاکس خود متصل کردید. حالا می‌توانید از سایر دستگاه‌های خود، شامل فایرفاکس برای <a href='%(androidUrl)s'>اندروید</a> و <a href='%(iosUrl)s'>iOS</a> به "
+#~ "هم‌گام‌سازی متصل شوید."
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+#~ "iOS</a>."
+#~ msgstr ""
+#~ "شما با موفقیت اولین دستگاه را به حساب فایرفاکس خود متصل کردید. برای استفاده کامل از هم‌گام‌سازی، هر دستگاه <a href='%(androidUrl)s'>فایرفاکس برای اندروید</a> یا <a href='%(iosUrl)s'>فایرفاکس برای "
+#~ "iOS</a> را هم متصل کنید."
+
+#~ msgid "Connect another device"
+#~ msgstr "اتصال یک دستگاه دیگر"
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "ورود به هم‌گام‌سازی"
+
+#~ msgid "IP address: %(ip)s"
+#~ msgstr "آدرس IP: %(ip)s"
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
+#~ msgstr "این یک پست‌الکترونیکی خودکار است؛ اگر شما اجازه این کار را نداده‌اید، <a %(passwordChangeLinkAttributes)s>لطفا گذرواژه خود را تغییر دهید.</a>"
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+#~ msgstr "برای اطلاعات بیشتر،‌لطفا به <a %(supportLinkAttributes)s>پشتیبانی موزیلا</a> مراجعه کنید."
+
+#~ msgid "Mozilla Privacy Policy"
+#~ msgstr "سیاست‌های حریم‌خصوصی موزیلا"
+
+#~ msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "این یک رایانامه خودکار است؛ اگر شما یک دستگاه جدید به حساب فایرفاکس خود اضافه نکرده‌اید، شما باید به سرعت گذرواژه خود را از طریق %(passwordChangeLink)s تغییر دهید"
+
+#~ msgid "For more information, please visit %(supportUrl)s"
+#~ msgstr "برای اطلاعات بیشتر لطفا به %(supportUrl)s نگاهی بندازید"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "گذرواژه با موفقیت تغییر کرد"
+
+#~ msgid "Your Firefox Account password was successfully changed from the following device:"
+#~ msgstr "گذرواژه حساب فایرفاکس شما به طور موفقیت آمیز از طریق دستگاه مقابل تغییر کرد:"
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
+#~ msgstr "این یک پست‌الکترونیکی خودکار است؛ اگر شما این درخواست را نداشته‌اید، پس <a %(resetLinkAttributes)s>لطفا گذرواژه خود را مجددا تنظیم کنید</a>."
+
+#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "این یک رایانامه خودکار است؛ اگر شما گذرواژه خود را برای حساب فایرفاکس تغییر نداده‌اید، باید هر چه سریع‌تر آن را از طریق %(resetLink)s بازنشانی کنید"
+
+#~ msgid "Your password has been reset"
+#~ msgstr "گذرواژه شما مجددا تنظیم شد"
+
+#~ msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
+#~ msgstr "گذرواژه حساب فایرفاکس شما تغییر کرد. اگر شما تغییرش نداده‌اید، لطفا همین حالا <a %(resetLinkAttributes)s>گذرواژه خود را مجددا تنظیم کنید</a>."
+
+#~ msgid "This is an automated email; if you received it in error, no action is required."
+#~ msgstr "این ایمیل به صورت خودکار ارسال شده؛ اگر اشتباها آن را دریافت کرده‌اید، نیاز به انجام کار خاصی نیست."
+
+#~ msgid "Password reset successfully"
+#~ msgstr "بازنشانی گذرواژه موفقیت‌آمیز بود"
+
+#~ msgid "Your Firefox Account password has been successfully reset."
+#~ msgstr "حساب فایرفاکس شما با موفقیت بازنشانی شد."
+
+#~ msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "این یک رایانامه خودکار است؛ اگر شما گذرواژه خود را برای حساب فایرفاکس بازنشانی نکرده‌اید، باید هر چه سریع‌تر از طریق %(resetLink)s بازنشانی کنید"
+
+#~ msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
+#~ msgstr "ما فعالیت های مشکوکی را در حساب فایرفاکس شما تشخیص داده‌ایم.ممکن است حساب کاربری شما در معرض خطر باشد."
+
+#~ msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
+#~ msgstr "برای جلوگیری از دسترسی های تایید نشده آینده به حساب کاربری فایرفاکس شما، می می‌توانیم کلمه عبور شما را از نو تعیین کنیم و آن‌هارا برای احتیاط به اطلاع شما برسانیم."
+
+#~ msgid "What should you do?"
+#~ msgstr "چه‌کاری باید انجام دهید؟"
+
+#~ msgid "First, change your Firefox Account password."
+#~ msgstr "نخست، کلمه عبور حساب‌ کاربری فایرفاکس خود را تغییر دهید."
+
+#~ msgid ""
+#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
+#~ "activity."
+#~ msgstr ""
+#~ "سپس،اگر کلمه عبور فایرفاکس شما در پایگاه‌اینترنتی ذخیره شده است، شما باید آن موارد را هم تغییر دهید، حمله‌کننده ممکن است به آن کلمات عبور دسترسی داشته باشد پس شما بایستی آن حساب‌های کاربری را برای "
+#~ "فعالیت های مشکوک بررسی کنید."
+
+#~ msgid "Learn how to see what passwords Firefox is storing for you."
+#~ msgstr "بدانید چگونه فایرفاکس کلمات عبور را برای شما ذخیره می‌کند."
+
+#~ msgid "Best,"
+#~ msgstr "بهترین ها،"
+
+#~ msgid "The Firefox Accounts team"
+#~ msgstr "تیم حساب‌کاربری فایرفاکس"
+
+#~ msgid "Manage account"
+#~ msgstr "مدیریت حساب‌کاربری"
+
+#~ msgid "Manage account:"
+#~ msgstr "مدیریت حساب‌کاربری:"
+
+#~ msgid "Account verified!"
+#~ msgstr "حساب تایید شد!"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
+#~ "%(iosLinkAttributes)s>iOS</a>."
+#~ msgstr ""
+#~ "شما با موفقیت اولین دستگاه خود را به حساب فایرفاکس خود متصل کردید. حالا شما می‌توانید از دستگاه‌های دیگر خود، شامل فایرفاکس برای <a %(androidLinkAttributes)s>اندروید</a> و <a "
+#~ "%(iosLinkAttributes)s>iOS</a>، به «همگام‌سازی» متصل شوید."
+
+#~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
+#~ msgstr "شما با موفقیت اولین دستگاه خود را به حساب فایرفاکس خود متصل کردید. حالا شما می‌توانید به هم‌گام‌سازی در دستگاه‌های دیگر خود، شامل فایرفاکس برای اندروید و iOS، وارد شوید."
+
+#~ msgid "Sign in to Sync:"
+#~ msgstr "ورود به هم‌گام‌سازی:"
+
+#~ msgid "Secondary email added"
+#~ msgstr "رایانامه دوم افزوده شد"
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "شما با موفقیت %(secondaryEmail)s را به عنوان رایانامه دوم حساب‌کاربری فایرفاکس خود تایید کردید. اکنون اطلاعیه‌های امنیتی و تاییدیه‌های ورود به هر دو نشانی رایانامه ارسال خواهد شد."
+
+#~ msgid "Forgot your password?"
+#~ msgstr "گذرواژه خود را فراموش کرده‌اید؟"
+
+#~ msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
+#~ msgstr "تا یک ساعت دیگر بر روی دکمه کلیک کنید تا گذرواژه‌ای جدید برای حساب فایرفاکس خود تعیین کنید. درخواست از دستگاه مقابل ارسال شده است:"
+
+#~ msgid "Reset password"
+#~ msgstr "بازنشانی گذرواژه"
+
+#~ msgid "Is this you signing in?"
+#~ msgstr "این شما هستید که وارد می‌شوید؟"
+
+#~ msgid "If yes, here is the authorization code you need:"
+#~ msgstr "اگر بله، این کد تایید هویتی است که لازم دارید:"
+
+#~ msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
+#~ msgstr "اگر خیر، به ما کمک کنید تا مزاحمان را پیدا کنیم و <a %(reportSignInLinkAttributes)s>این حرکت را به ما گزارش کنید.</a>"
+
+#~ msgid "If no, help us fend off intruders and report it to us."
+#~ msgstr "اگر خیر، به ما کمک کنید تا مزاحمان را پیدا کنیم و این فعالیت‌ها را به ما گزارش کنید."
+
+#~ msgid ""
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
+#~ msgstr ""
+#~ "چند روز پیش شما یک حساب فایرفاکس ساختید، ولی هیچگاه تاییدش نکردید. یک حساب تایید شده به شما امکان می‌دهد تا به زبانه‌ها، نشانک‌ها، گذرواژه‌ها و تاریخچه خود بر روی هر دستگاه متصل به آن، دسترسی داشته "
+#~ "باشید. به راحتی با ثبت این آدرس پست‌الکترونیکی حساب خود را تایید کنید."
+
+#~ msgid "Activate now"
+#~ msgstr "هم‌اکنون فعال‌سازی شود"
+
+#~ msgid "Verify Email"
+#~ msgstr "تایید پست‌الکترونیکی"
+
+#~ msgid "Verify your email to finish your Firefox Account registration"
+#~ msgstr "پست‌الکترونیکی خود را برای تکمیل عضویت در حساب فایرفاکس تایید کنید"
+
+#~ msgid "Activate now:"
+#~ msgstr "حالا فعال کن:"
+
+#~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr ""
+#~ "یک هفته پیش شما یک حساب‌ کاربری فایرفاکس ایجاد‌کرده‌اید،ولی هرگز آن را تایید‌ نکرده‌اید. ما در مورد شما نگران هستیم. تایید این پست‌الکترونیکی برای فعال شدن حساب‌کاربری شما باعث می‌شود ما بدانیم شما "
+#~ "مشکلی ندارید."
+
+#~ msgid "Welcome!"
+#~ msgstr "خوش‌آمدید!"
+
+#~ msgid "Please activate your account by confirming this email address."
+#~ msgstr "لطفا حساب خود را با تایید این پست‌الکترونیکی فعال کنید."
+
+#~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
+#~ msgstr "برای امنیت بیشتر، لطفا این ورود را برای شروع همگام‌سازی با این دستگاه تایید کنید:"
+
+#~ msgid "Confirm sign-in"
+#~ msgstr "تایید ورود"
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "اگر شما مشکوک هستید که فرد دیگری قصد ورود به حساب‌کاربری شما را دارد،<a %(passwordChangeLinkAttributes)s>کلمه عبور خود را تغییر دهید</a>."
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, please change your password."
+#~ msgstr "اگر شما مشکوک هستید که فرد دیگری قصد ورود به حساب‌کاربری شما را دارد، لطفا کلمه عبور خود را تغییر دهید."
+
+#~ msgid "Verify secondary email"
+#~ msgstr "تایید رایانامه دوم"
+
+#~ msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
+#~ msgstr "درخواستی برای استفاده از %(email)s به عنوان نشانی دوم رایانامه، از طرف حساب کاربری فایرفاکس زیر ساخته شده است:"
+
+#~ msgid "Verify email "
+#~ msgstr "تایید ایمیل "
+
+#~ msgid "Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "پس از تایید، این نشانی اطلاعیه‌های امنیتی و تاییده‌ها را دریافت خواهد کرد."
+
+#~ msgid "Verify email: "
+#~ msgstr "تایید رایانامه: "
+
+#~ msgid "Ready, set, sync"
+#~ msgstr "آماده، درجا، همگام‌سازی"
+
+#~ msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
+#~ msgstr "تایید کنید که این ایمیل را دریافت کرده‌اید و پس از آن ما به شما کمک خواهیم کرد تا فایرفاکس را در تمام دستگاه‌های خود نصب و همگام‌سازی کنید، با شروع از:"
+
+#~ msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
+#~ msgstr "پس از تایید، ما ه شما کمک می‌کنیم تا فایرفاکس را حداقل در یک دستگاه دیگر نصب و متصل کنید."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "همان‌طور که درخواست دادید، این پیوندی است که از طریق آن می‌توانید فایرفاکس را بر روی دستگاه موبایل خود نصب کنید: %(link)s"
