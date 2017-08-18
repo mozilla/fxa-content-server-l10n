@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-08-14 07:36+0000\n"
+"PO-Revision-Date: 2017-08-18 06:21+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -534,7 +534,7 @@ msgstr "Невалиден параметър на OAuth: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
-msgstr "Неоторизиран"
+msgstr "Неуполномощен"
 
 #: app/scripts/lib/oauth-errors.js:66
 msgid "Forbidden"
@@ -913,7 +913,7 @@ msgstr "Вашата сметка е готова!"
 
 #: app/scripts/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr "Докладване на неоторизиран достъп?"
+msgstr "Докладване на неупълномощен достъп?"
 
 #: app/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
@@ -997,11 +997,11 @@ msgstr "Разрешете това вписване"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr "Проверете вашата поща за удостоверяващ код, изпратен до %(email)s."
+msgstr "Проверете вашата поща за упълномощаващ код, изпратен до %(email)s."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr "Въвеждане на код за упълномощаване"
+msgstr "Код за упълномощаване"
 
 #: app/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"

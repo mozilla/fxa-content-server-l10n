@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-08-17 20:35+0000\n"
+"PO-Revision-Date: 2017-08-18 06:22+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -70,7 +70,7 @@ msgstr "IP адрес: %(ip)s"
 
 #: lib/senders/templates/new_device_login.html:4 lib/senders/templates/verify_secondary.html:7
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr "Това писмо е изпратено автоматично. Ако вие не сте упълномощили това действие, тогава <a %(passwordChangeLinkAttributes)s>моля, сменете своята паролата.</a>"
+msgstr "Това писмо е изпратено автоматично. Ако вие не сте упълномощили това действие, тогава <a %(passwordChangeLinkAttributes)s>моля, сменете вашата парола.</a>"
 
 #: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5 lib/senders/templates/post_remove_secondary.html:6
 #: lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/post_verify_secondary_email.html:6 lib/senders/templates/recovery.html:7
@@ -110,7 +110,7 @@ msgstr "Вашата парола за Firefox Account беше успешно �
 
 #: lib/senders/templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "Това писмо е изпратено автоматично. Ако вие не сте упълномощили това действие, тогава <a %(resetLinkAttributes)s>моля, сменете своята паролата.</a>."
+msgstr "Това писмо е изпратено автоматично. Ако вие не сте упълномощили това действие, тогава <a %(resetLinkAttributes)s>моля, сменете вашата парола.</a>."
 
 #: lib/senders/templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
@@ -150,7 +150,7 @@ msgstr "Установихме подозрителна активност с в
 
 #: lib/senders/templates/password_reset_required.html:3 lib/senders/templates/password_reset_required.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-msgstr "За да предотврати по-нататъшен неоторизиран достъп до вашия Firefox Account като предпазна мярка анулирахме паролата и ви уведомяваме за това."
+msgstr "За да предотврати по-нататъшен неупълномощен достъп до вашия Firefox Account като предпазна мярка анулирахме паролата и ви уведомяваме за това."
 
 #: lib/senders/templates/password_reset_required.html:4 lib/senders/templates/password_reset_required.txt:3
 msgid "What should you do?"
@@ -375,7 +375,7 @@ msgstr "Потвърдете своя имейл и започнете синх�
 
 #: lib/senders/email.js:384
 msgid "Firefox Account authorization code"
-msgstr "Код за упълномощаване във Firefox Account"
+msgstr "Код за упълномощаване за Firefox Account"
 
 #: lib/senders/email.js:437
 msgid "Confirm new sign-in to Firefox"
