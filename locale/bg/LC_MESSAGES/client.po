@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 16:09+0000\n"
-"PO-Revision-Date: 2017-08-18 06:21+0000\n"
+"PO-Revision-Date: 2017-08-18 06:48+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -534,7 +534,7 @@ msgstr "Невалиден параметър на OAuth: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
-msgstr "Неуполномощен"
+msgstr "Неупълномощен"
 
 #: app/scripts/lib/oauth-errors.js:66
 msgid "Forbidden"
