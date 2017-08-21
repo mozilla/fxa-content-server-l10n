@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 13:41+0000\n"
-"PO-Revision-Date: 2017-08-21 07:10+0000\n"
+"PO-Revision-Date: 2017-08-21 07:50+0000\n"
 "Last-Translator: julenx <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -335,11 +335,11 @@ msgstr "Behin berretsita, Firefox gutxienez beste gailu batean instalatzen eta k
 
 #: lib/senders/email.js:162
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
-msgstr ""
+msgstr "%(uaBrowser)s %(uaOS)s %(uaOSVersion)s sistema eragilean"
 
 #: lib/senders/email.js:165
 msgid "%(uaBrowser)s on %(uaOS)s"
-msgstr ""
+msgstr "%(uaBrowser)s %(uaOS)s sistema eragilean"
 
 #: lib/senders/email.js:192
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
@@ -363,19 +363,19 @@ msgstr "Egiaztatu zure Firefox kontua"
 
 #: lib/senders/email.js:326
 msgid "Confirm your email and start to sync!"
-msgstr ""
+msgstr "Berretsi zure helbide elektronikoa eta hasi sinkronizatzen!"
 
 #: lib/senders/email.js:383
 msgid "Firefox Account authorization code"
-msgstr ""
+msgstr "Firefox kontuaren egiaztapen-kodea"
 
 #: lib/senders/email.js:433
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
+msgstr "Berretsi Firefoxerako saio-hasiera berria"
 
 #: lib/senders/email.js:487
 msgid "Verify email for Firefox Accounts"
-msgstr ""
+msgstr "Egiaztatu Firefox konturako helbide elektronikoa"
 
 #: lib/senders/email.js:540
 msgid "Reset your Firefox Account password"
@@ -391,11 +391,11 @@ msgstr "Zure Firefox kontuaren pasahitza berrezarria egin da"
 
 #: lib/senders/email.js:645
 msgid "Firefox Account password reset required"
-msgstr ""
+msgstr "Firefox kontuan pasahitza berrezarri behar da"
 
 #: lib/senders/email.js:676
 msgid "New sign-in to Firefox"
-msgstr "Saio-hasiera berria Firefox-en"
+msgstr "Saio-hasiera berria Firefoxen"
 
 #: lib/senders/email.js:713
 msgid "Firefox Account verified"
@@ -403,11 +403,11 @@ msgstr "Firefox kontua egiaztatuta"
 
 #: lib/senders/email.js:749
 msgid "Secondary Firefox Account email added"
-msgstr ""
+msgstr "Firefox kontuaren helbide elektroniko alternatiboa gehituta"
 
 #: lib/senders/email.js:785
 msgid "Secondary Firefox Account email removed"
-msgstr ""
+msgstr "Firefox kontuaren helbide elektroniko alternatiboa kenduta"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
