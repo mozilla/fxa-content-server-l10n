@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-04 16:09+0000\n"
+"POT-Creation-Date: 2017-08-21 13:41+0000\n"
 "PO-Revision-Date: 2017-04-29 06:02+0000\n"
 "Last-Translator: Amin Mahmudian <amin.mahmudian@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1423490268.0\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:845
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:814
 msgid "Still there?"
 msgstr "هنوز اینجایی؟"
 
@@ -57,7 +57,7 @@ msgid "Firefox Accounts"
 msgstr "حساب‌های فایرفاکس"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:698
+#: lib/senders/email.js:676
 msgid "New sign-in to Firefox"
 msgstr "حالا به فایرفاکس وارد شوید"
 
@@ -125,10 +125,10 @@ msgid "Your Firefox Account password has changed. If you did not change it, plea
 msgstr "گذرواژه حساب فایرفاکس شما تغییر کرد. اگر شما تغییرش نداده‌اید، لطفا همین حالا <a %(resetLinkAttributes)s>گذرواژه خود را مجددا تنظیم کنید</a>."
 
 #: lib/senders/templates/password_reset.html:4 lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5
-#: lib/senders/templates/post_verify.txt:4 lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/post_verify_secondary.txt:4
-#: lib/senders/templates/post_verify_secondary_email.html:5 lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:5
-#: lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.html:5 lib/senders/templates/verification_reminder_second.txt:4
-#: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4 lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
+#: lib/senders/templates/post_verify.txt:4 lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/post_verify_secondary_email.html:5
+#: lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_first.txt:4
+#: lib/senders/templates/verification_reminder_second.html:5 lib/senders/templates/verification_reminder_second.txt:4 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
+#: lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "این ایمیل به صورت خودکار ارسال شده؛ اگر اشتباها آن را دریافت کرده‌اید، نیاز به انجام کار خاصی نیست."
 
@@ -184,7 +184,7 @@ msgid "Secondary email removed"
 msgstr ""
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
-msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 msgstr ""
 
 #: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
@@ -220,8 +220,8 @@ msgid "Secondary email added"
 msgstr "رایانامه دوم افزوده شد"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2 lib/senders/templates/post_verify_secondary_email.html:3
-msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr "شما با موفقیت %(secondaryEmail)s را به عنوان رایانامه دوم حساب‌کاربری فایرفاکس خود تایید کردید. اکنون اطلاعیه‌های امنیتی و تاییدیه‌های ورود به هر دو نشانی رایانامه ارسال خواهد شد."
+msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+msgstr ""
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Forgot your password?"
@@ -255,7 +255,7 @@ msgstr "اگر خیر، به ما کمک کنید تا مزاحمان را پی�
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "اگر خیر، به ما کمک کنید تا مزاحمان را پیدا کنیم و این فعالیت‌ها را به ما گزارش کنید."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:842
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:811
 msgid "Hello again."
 msgstr "دوباره سلام."
 
@@ -369,7 +369,7 @@ msgstr "%(stateCode)s، %(country)s (تخمینی)"
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (تخمینی)"
 
-#: lib/senders/email.js:297
+#: lib/senders/email.js:302
 msgid "Verify your Firefox Account"
 msgstr "حساب فایرفاکس خود را تایید کنید"
 
@@ -377,43 +377,43 @@ msgstr "حساب فایرفاکس خود را تایید کنید"
 msgid "Confirm your email and start to sync!"
 msgstr "ایمیل خود را تایید و شروع به همگام‌سازی کنید!"
 
-#: lib/senders/email.js:384
+#: lib/senders/email.js:383
 msgid "Firefox Account authorization code"
 msgstr "کد تایید فعالیت حساب فایرفاکس"
 
-#: lib/senders/email.js:437
+#: lib/senders/email.js:433
 msgid "Confirm new sign-in to Firefox"
 msgstr "تایید ورود جدید به فایرفاکس"
 
-#: lib/senders/email.js:494
+#: lib/senders/email.js:487
 msgid "Verify email for Firefox Accounts"
 msgstr "تایید رایانامه برای حساب‌های کاربری فایرفاکس"
 
-#: lib/senders/email.js:550
+#: lib/senders/email.js:540
 msgid "Reset your Firefox Account password"
 msgstr "گذرواژه‌ی حساب فایرفاکس خود را بازنشانی کنید"
 
-#: lib/senders/email.js:591
+#: lib/senders/email.js:578
 msgid "Your Firefox Account password has been changed"
 msgstr "گذرواژه حساب فایرفاکس شما تغییر کرده است"
 
-#: lib/senders/email.js:630
+#: lib/senders/email.js:614
 msgid "Your Firefox Account password has been reset"
 msgstr "گذرواژه حساب فایرفاکس شما بازنشانی شده است"
 
-#: lib/senders/email.js:664
+#: lib/senders/email.js:645
 msgid "Firefox Account password reset required"
 msgstr "نیاز به تعیین مجدد حساب‌کاربری فایرفاکس می‌ باشد"
 
-#: lib/senders/email.js:738
+#: lib/senders/email.js:713
 msgid "Firefox Account verified"
 msgstr "حساب فایرفاکس تایید شد"
 
-#: lib/senders/email.js:777
+#: lib/senders/email.js:749
 msgid "Secondary Firefox Account email added"
 msgstr "رایانامه دوم حساب‌کاربری فایرفاکس افزوده شد"
 
-#: lib/senders/email.js:816
+#: lib/senders/email.js:785
 msgid "Secondary Firefox Account email removed"
 msgstr ""
 
@@ -468,6 +468,10 @@ msgstr "سرویس‌های ابری فایرفاکس"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "قوانین استفاده از سرویس"
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr "شما با موفقیت %(secondaryEmail)s را به عنوان رایانامه دوم حساب‌کاربری فایرفاکس خود تایید کردید. اکنون اطلاعیه‌های امنیتی و تاییدیه‌های ورود به هر دو نشانی رایانامه ارسال خواهد شد."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "همان‌طور که درخواست دادید، این پیوندی است که از طریق آن می‌توانید فایرفاکس را بر روی دستگاه موبایل خود نصب کنید: %(link)s"

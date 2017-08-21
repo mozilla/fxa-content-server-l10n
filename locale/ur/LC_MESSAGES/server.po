@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-04 16:09+0000\n"
+"POT-Creation-Date: 2017-08-21 13:41+0000\n"
 "PO-Revision-Date: 2017-06-30 12:54+0000\n"
 "Last-Translator: meetadeel <meetadeel@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:845
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:814
 msgid "Still there?"
 msgstr "ابھی تک موجود ہے؟"
 
@@ -52,7 +52,7 @@ msgid "Firefox Accounts"
 msgstr "Firefox اکاؤنٹس"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:698
+#: lib/senders/email.js:676
 msgid "New sign-in to Firefox"
 msgstr "Firefox میں نیا سائن ان"
 
@@ -120,10 +120,10 @@ msgid "Your Firefox Account password has changed. If you did not change it, plea
 msgstr ""
 
 #: lib/senders/templates/password_reset.html:4 lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5
-#: lib/senders/templates/post_verify.txt:4 lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/post_verify_secondary.txt:4
-#: lib/senders/templates/post_verify_secondary_email.html:5 lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:5
-#: lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.html:5 lib/senders/templates/verification_reminder_second.txt:4
-#: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4 lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
+#: lib/senders/templates/post_verify.txt:4 lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/post_verify_secondary_email.html:5
+#: lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_first.txt:4
+#: lib/senders/templates/verification_reminder_second.html:5 lib/senders/templates/verification_reminder_second.txt:4 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
+#: lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr ""
 
@@ -177,7 +177,7 @@ msgid "Secondary email removed"
 msgstr ""
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
-msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 msgstr ""
 
 #: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
@@ -211,8 +211,8 @@ msgid "Secondary email added"
 msgstr "ثانوی ای میل شامل کر دی گئی"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2 lib/senders/templates/post_verify_secondary_email.html:3
-msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr "آپ نے کامیابی سے %(secondaryEmail)s کی ثانوی ایمیل کے طور پر اپنے Firefox اکائونٹ میں تصدیق کر دی ہے۔ سلامتی اطلاع نامے اور ساِئن ان کی تصدیق دونوں ای میل پتہ پر بھیج دیے جائیں گے۔"
+msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+msgstr ""
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Forgot your password?"
@@ -246,7 +246,7 @@ msgstr ""
 msgid "If no, help us fend off intruders and report it to us."
 msgstr ""
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:842
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:811
 msgid "Hello again."
 msgstr ""
 
@@ -356,7 +356,7 @@ msgstr ""
 msgid "%(country)s (estimated)"
 msgstr ""
 
-#: lib/senders/email.js:297
+#: lib/senders/email.js:302
 msgid "Verify your Firefox Account"
 msgstr "اپنے Firefox اکاؤنٹ کی تصدیق"
 
@@ -364,43 +364,43 @@ msgstr "اپنے Firefox اکاؤنٹ کی تصدیق"
 msgid "Confirm your email and start to sync!"
 msgstr "اپنی ای میل کی تصدیق کریں اور ہمہ وقت سازی کرنا شروع کریں!"
 
-#: lib/senders/email.js:384
+#: lib/senders/email.js:383
 msgid "Firefox Account authorization code"
 msgstr ""
 
-#: lib/senders/email.js:437
+#: lib/senders/email.js:433
 msgid "Confirm new sign-in to Firefox"
 msgstr "Firefox میں نئے سائن ان کی تصدیق کریں"
 
-#: lib/senders/email.js:494
+#: lib/senders/email.js:487
 msgid "Verify email for Firefox Accounts"
 msgstr "Firefox اکائوبٹس کے لیئے ای میل کی تصدیق کریں"
 
-#: lib/senders/email.js:550
+#: lib/senders/email.js:540
 msgid "Reset your Firefox Account password"
 msgstr "اپنےFirefox اکاؤنٹ کا پاس ورڈ پھر سیٹ کریں"
 
-#: lib/senders/email.js:591
+#: lib/senders/email.js:578
 msgid "Your Firefox Account password has been changed"
 msgstr "آپ کے Firefox اکاؤنٹ کا پاس ورڈ تبدیل کر دیا گیا ہے"
 
-#: lib/senders/email.js:630
+#: lib/senders/email.js:614
 msgid "Your Firefox Account password has been reset"
 msgstr "آپ کے Firefox اکاؤنٹ کا پاس ورڈ پھر سیٹ کر دیا گیا ہے"
 
-#: lib/senders/email.js:664
+#: lib/senders/email.js:645
 msgid "Firefox Account password reset required"
 msgstr ""
 
-#: lib/senders/email.js:738
+#: lib/senders/email.js:713
 msgid "Firefox Account verified"
 msgstr ""
 
-#: lib/senders/email.js:777
+#: lib/senders/email.js:749
 msgid "Secondary Firefox Account email added"
 msgstr ""
 
-#: lib/senders/email.js:816
+#: lib/senders/email.js:785
 msgid "Secondary Firefox Account email removed"
 msgstr ""
 
@@ -455,6 +455,10 @@ msgstr ""
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "خدمت کی شرائط"
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr "آپ نے کامیابی سے %(secondaryEmail)s کی ثانوی ایمیل کے طور پر اپنے Firefox اکائونٹ میں تصدیق کر دی ہے۔ سلامتی اطلاع نامے اور ساِئن ان کی تصدیق دونوں ای میل پتہ پر بھیج دیے جائیں گے۔"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "جیسے کہ درخواست کی گئی، یہاں ایک ربط ہے جس کے زریعے آپ Firefox اپنے موبائل آلہ پر تنصیب کر سکتے ہیں: %(link)s"
