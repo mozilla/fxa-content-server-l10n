@@ -8,12 +8,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2017-08-04 16:09+0000\n"
+"POT-Creation-Date: 2017-08-21 13:41+0000\n"
 
 #: lib/senders/templates/_pending.txt:1
 #: lib/senders/templates/verification_reminder_second.html:2
 #: lib/senders/templates/verification_reminder_second.txt:1
-#: lib/senders/email.js:845
+#: lib/senders/email.js:814
 msgid "Still there?"
 msgstr ""
 
@@ -76,7 +76,7 @@ msgstr ""
 #: lib/senders/templates/new_device_login.txt:1
 #: lib/senders/templates/verify_login.html:2
 #: lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:698
+#: lib/senders/email.js:676
 msgid "New sign-in to Firefox"
 msgstr ""
 
@@ -303,7 +303,7 @@ msgstr ""
 #: lib/senders/templates/post_remove_secondary.html:3
 #: lib/senders/templates/post_remove_secondary.txt:2
 msgid ""
-"You have successfully removed %(secondaryEmail)s as a secondary email to "
+"You have successfully removed %(secondaryEmail)s as a secondary email from "
 "your Firefox Account. Security notifications and sign-in confirmations will "
 "no longer be delivered to this address."
 msgstr ""
@@ -352,7 +352,7 @@ msgstr ""
 #: lib/senders/templates/post_verify_secondary.txt:2
 #: lib/senders/templates/post_verify_secondary_email.html:3
 msgid ""
-"You have successfully verified %(secondaryEmail)s as a secondary email to "
+"You have successfully verified %(secondaryEmail)s as a secondary email for "
 "your Firefox Account. Security notifications and sign-in confirmations will "
 "now be delivered to both email addresses."
 msgstr ""
@@ -402,7 +402,7 @@ msgstr ""
 
 #: lib/senders/templates/verification_reminder_first.html:2
 #: lib/senders/templates/verification_reminder_first.txt:1
-#: lib/senders/email.js:842
+#: lib/senders/email.js:811
 msgid "Hello again."
 msgstr ""
 
@@ -555,7 +555,7 @@ msgstr ""
 msgid "%(country)s (estimated)"
 msgstr ""
 
-#: lib/senders/email.js:297
+#: lib/senders/email.js:302
 msgid "Verify your Firefox Account"
 msgstr ""
 
@@ -563,43 +563,43 @@ msgstr ""
 msgid "Confirm your email and start to sync!"
 msgstr ""
 
-#: lib/senders/email.js:384
+#: lib/senders/email.js:383
 msgid "Firefox Account authorization code"
 msgstr ""
 
-#: lib/senders/email.js:437
+#: lib/senders/email.js:433
 msgid "Confirm new sign-in to Firefox"
 msgstr ""
 
-#: lib/senders/email.js:494
+#: lib/senders/email.js:487
 msgid "Verify email for Firefox Accounts"
 msgstr ""
 
-#: lib/senders/email.js:550
+#: lib/senders/email.js:540
 msgid "Reset your Firefox Account password"
 msgstr ""
 
-#: lib/senders/email.js:591
+#: lib/senders/email.js:578
 msgid "Your Firefox Account password has been changed"
 msgstr ""
 
-#: lib/senders/email.js:630
+#: lib/senders/email.js:614
 msgid "Your Firefox Account password has been reset"
 msgstr ""
 
-#: lib/senders/email.js:664
+#: lib/senders/email.js:645
 msgid "Firefox Account password reset required"
 msgstr ""
 
-#: lib/senders/email.js:738
+#: lib/senders/email.js:713
 msgid "Firefox Account verified"
 msgstr ""
 
-#: lib/senders/email.js:777
+#: lib/senders/email.js:749
 msgid "Secondary Firefox Account email added"
 msgstr ""
 
-#: lib/senders/email.js:816
+#: lib/senders/email.js:785
 msgid "Secondary Firefox Account email removed"
 msgstr ""
 
