@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 13:41+0000\n"
-"PO-Revision-Date: 2017-08-08 23:05+0000\n"
+"PO-Revision-Date: 2017-08-21 07:10+0000\n"
 "Last-Translator: julenx <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -392,6 +392,10 @@ msgstr "Zure Firefox kontuaren pasahitza berrezarria egin da"
 #: lib/senders/email.js:645
 msgid "Firefox Account password reset required"
 msgstr ""
+
+#: lib/senders/email.js:676
+msgid "New sign-in to Firefox"
+msgstr "Saio-hasiera berria Firefox-en"
 
 #: lib/senders/email.js:713
 msgid "Firefox Account verified"

@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-21 13:41+0000\n"
-"PO-Revision-Date: 2017-08-05 22:49+0000\n"
+"POT-Creation-Date: 2017-08-21 15:32+0000\n"
+"PO-Revision-Date: 2017-08-19 15:08+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -446,7 +446,7 @@ msgstr "ამჟამად სისტემა დატვირთულ�
 
 #: server/templates/pages/src/index.html:2 server/templates/pages/src/privacy.html:5 server/templates/pages/src/terms.html:5
 msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr "თქვენ სარგებლობთ <strong>მოძველებული</strong> ბრაუზერით. გთხოვთ, <a href=\"http://browsehappy.com/\">განაახლოთ</a> წარმადობის გასაუმჯობესებლად."
+msgstr "თქვენ სარგებლობთ <strong>მოძველებული</strong> ბრაუზერით. გთხოვთ <a href=\"http://browsehappy.com/\">განაახლოთ</a> წარმადობის გასაუმჯობესებლად."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."

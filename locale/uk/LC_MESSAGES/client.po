@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-21 13:41+0000\n"
-"PO-Revision-Date: 2017-08-05 19:12+0000\n"
-"Last-Translator: Tymur Faradzhev <faradzhev.timur@gmail.com>\n"
+"POT-Creation-Date: 2017-08-21 15:32+0000\n"
+"PO-Revision-Date: 2017-08-19 13:20+0000\n"
+"Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -95,11 +95,11 @@ msgstr "Пароль успішно змінено"
 
 #: app/scripts/views/settings/client_disconnect.js:17
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr "Нам шкода чути про це. Ви повинні змінити пароль облікового запису Firefox і знайти інформацію від виробника пристрою про віддалене стирання даних."
+msgstr "Нам шкода чути про це. Вам варто змінити пароль облікового запису Firefox і знайти інформацію від виробника пристрою про віддалене стирання даних."
 
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "Нам шкода чути про це. Якщо це пристрій, якому ви дійсно не довіряєте, ви маєте змінити пароль облікового запису Firefox і змінити паролі, що зберігаються в Firefox."
+msgstr "Нам шкода чути про це. Якщо це пристрій, якому ви дійсно не довіряєте, вам варто змінити пароль облікового запису Firefox і всі паролі, що зберігаються в Firefox."
 
 #: app/scripts/views/settings/clients.js:73
 msgid "Web Session, %(userAgent)s"
@@ -969,7 +969,7 @@ msgstr "Створити обліковий запис"
 
 #: app/scripts/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr "Вибачте. Але ми заблокували ваш&nbsp;обліковий запис."
+msgstr "Вибачте. Ми заблокували ваш обліковий запис."
 
 #: app/scripts/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
@@ -977,15 +977,15 @@ msgstr "Електронний лист із підтвердженням, як�
 
 #: app/scripts/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr "Якщо це дійсно ваша поштова скринька, <a %(escapedSupportLinkAttrs)s>дайте нам знати</a> і ми допоможемо розблокувати ваш обліковий запис."
+msgstr "Якщо це дійсна адреса електронної пошти, <a %(escapedSupportLinkAttrs)s>повідомте нас</a> і ми допоможемо розблокувати ваш обліковий запис."
 
 #: app/scripts/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr "Ця скринька вам більше не належить? Створіть новий обліковий запис"
+msgstr "Ця адреса електронної пошти вам більше не належить? Створіть новий обліковий запис"
 
 #: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:12
 msgid "Mistyped email?"
-msgstr "Невірно ввели адресу?"
+msgstr "Помилились при введенні адреси електронної пошти?"
 
 #: app/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1092,7 +1092,7 @@ msgstr "Служба синхронізації це не постійне ре�
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr "Ви повинні встановити Firefox і синхронізувати принаймні два пристрої для захисту від втрати даних, якщо їх потрібно відновити, а ви забули ваш пароль."
+msgstr "Вам варто встановити Firefox і синхронізувати принаймні два пристрої для захисту від втрати даних, якщо їх потрібно відновити, а ви забули ваш пароль."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
