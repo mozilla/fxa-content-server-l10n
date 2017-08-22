@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-22 16:30+0000\n"
+"PO-Revision-Date: 2017-08-22 16:39+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -1099,6 +1099,8 @@ msgstr "Dërgoje"
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"Shërbim SMS i vlefshëm vetëm për disa vende. Mund të aplikohen tarifa SMS-sh &amp; të dhënash. Marrësi i synuar i email-it ose SMS-së duhet të ketë rënë dakord. <a "
+"%(escapedLearnMoreAttributes)s>Mësoni më tepër</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
@@ -1110,11 +1112,11 @@ msgstr "Instalojeni Firefox-in te telefoni juaj dhe bëni hyrjen që të plotës
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Lidhja e aplikacionit u dërgua te %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Numër&nbsp;i&nbsp;shkruar&nbsp;keq?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:3
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Lidhja e aplikacionit u ridërgua te %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Numër&nbsp;i&nbsp;shkruar&nbsp;keq?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1126,15 +1128,18 @@ msgstr "S’mbërriti? Kërkoni ridërgim"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr ""
+msgstr "Pse të njëkohësohen shumë pajisje njëherësh?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
 msgstr ""
+"Shërbimi Sync s’është përbën një kopjeruajtje të përhershme, është thjesht një rrugë e sigurt për të shpërngulur nga një pajisje juaja në një tjetër tuajën faqerojtës, historik dhe fjalëkalime që "
+"keni ruajtur."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr ""
+"Për mbrojtje kundër humbjes së të dhënave tuaja, do të duhej ta instaloni Firefox-in dhe të bëni njëkohësimin në të paktën dy pajisje, nëse ju duhet ta riktheni, por harroni fjalëkalimin tuaj."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1243,7 +1248,7 @@ msgstr "sesioni i tanishëm"
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
-msgstr ""
+msgstr "Shfuqizoje"
 
 #: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
@@ -1323,7 +1328,7 @@ msgstr "lypset verifikim"
 
 #: app/scripts/templates/settings/emails.mustache:10 app/scripts/templates/settings/emails.mustache:13
 msgid "Make primary"
-msgstr ""
+msgstr "Kaloje si parësor"
 
 #: app/scripts/templates/settings/emails.mustache:12 app/scripts/templates/settings/emails.mustache:15
 msgid "Remove"
@@ -1331,7 +1336,7 @@ msgstr "Hiqe"
 
 #: app/scripts/templates/settings/emails.mustache:16
 msgid "Not in inbox or spam folder? Resend?"
-msgstr ""
+msgstr "S’gjendet te dosja e të marrëve apo e të padëshiruarave? Të ridërgohet?"
 
 #: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
@@ -1343,7 +1348,7 @@ msgstr "Ç’moshë keni?"
 
 #: app/scripts/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr ""
+msgstr "Po kërkoni për Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Fillojani këtu</a>"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
