@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-18 16:08+0000\n"
-"PO-Revision-Date: 2017-08-19 13:22+0000\n"
+"PO-Revision-Date: 2017-08-23 10:24+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -33,8 +33,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Ви успішно підключили свій перший пристрій до облікового запису Firefox. Щоб зробити синхронізацію повноцінною, під'єднайте будь-який пристрій з Firefox для <a href='%(androidUrl)s'>Android</a> чи "
 "<a href='%(iosUrl)s'>iOS</a>."
@@ -185,7 +185,7 @@ msgstr "Альтернативну електронну пошту видале�
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr ""
+msgstr "Ви успішно вилучили додаткову адресу %(secondaryEmail)s з вашого облікового запису Firefox. Сповіщення безпеки та підтвердження входу більше не будуть надсилатися на цю адресу."
 
 #: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
 msgid "Manage account"
@@ -204,8 +204,8 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
-"Ви успішно під'єднали свій перший пристрій до облікового запису Firefox. Тепер ви можете увійти в синхронізацію з інших пристроїв, в тому числі з Firefox для <a %(androidLinkAttributes)s>Android</"
-"a> та <a %(iosLinkAttributes)s>iOS</a>."
+"Ви успішно під'єднали свій перший пристрій до облікового запису Firefox. Тепер ви можете увійти в синхронізацію з інших пристроїв, в тому числі з Firefox для <a %(androidLinkAttributes)s>Android</a>"
+" та <a %(iosLinkAttributes)s>iOS</a>."
 
 #: lib/senders/templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
@@ -221,7 +221,7 @@ msgstr "Альтернативну електронну пошту додано"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2 lib/senders/templates/post_verify_secondary_email.html:3
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr ""
+msgstr "Ви успішно підтвердили додаткову адресу %(secondaryEmail)s для вашого облікового запису Firefox. Сповіщення безпеки та підтвердження входу тепер будуть надсилатися на обидві адреси."
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Forgot your password?"
@@ -261,8 +261,8 @@ msgstr "Вітаємо знову."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 "Кілька днів тому ви створили обліковий запис Firefox, але досі не затвердили його. Затверджений обліковий запис дозволяє вам отримувати доступ до своїх вкладок, закладок, паролів та історії на будь-"
 "якому пристрої, під'єднаному до нього. Для активації свого облікового запису, просто підтвердіть цю адресу електронної пошти."
