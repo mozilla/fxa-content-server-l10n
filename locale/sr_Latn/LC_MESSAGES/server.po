@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-05-01 18:46+0000\n"
-"Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
+"POT-Creation-Date: 2017-08-25 16:09+0000\n"
+"PO-Revision-Date: 2017-08-23 21:27+0000\n"
+"Last-Translator: Marko Kostić (Marko Kostić) <marko.m.kostic@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
 "MIME-Version: 1.0\n"
@@ -328,7 +328,7 @@ msgstr "Tim Firefox naloga"
 #: lib/senders/templates/post_remove_secondary.html:2
 #: lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
-msgstr ""
+msgstr "Uklonjena je sekundarna adresa e-pošte"
 
 #: lib/senders/templates/post_remove_secondary.html:3
 #: lib/senders/templates/post_remove_secondary.txt:2
