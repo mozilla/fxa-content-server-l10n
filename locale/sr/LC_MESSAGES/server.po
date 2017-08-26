@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-23 21:27+0000\n"
-"Last-Translator: Марко Костић (Marko Kostić) <marko.m.kostic@gmail.com>\n"
+"PO-Revision-Date: 2017-08-26 11:10+0000\n"
+"Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
@@ -183,7 +183,7 @@ msgstr "Уклоњена је секундарна адреса е-поште"
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr ""
+msgstr "Успешно сте уклонили %(secondaryEmail)s, секундарну адресу вашег Firefox налога. Безбедносна обавештења и потврде пријаве се неће више слати на ову адресу."
 
 #: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
 msgid "Manage account"
@@ -219,7 +219,7 @@ msgstr "Секундарна адреса додата"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2 lib/senders/templates/post_verify_secondary_email.html:3
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr ""
+msgstr "Успешно сте верификовали %(secondaryEmail)s као секундарну адресу за ваш Firefox налог. Безбедносна обавештења и потврде пријаве ће се сада слати на обе адресе."
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Forgot your password?"
@@ -235,7 +235,7 @@ msgstr "Ресетуј лозинку"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr ""
+msgstr "Хвала вам што сте изабрали Firefox! Можете инсталирати Firefox и на мобилном телефону одавде: %(link)s"
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1
 msgid "Is this you signing in?"
@@ -411,7 +411,7 @@ msgstr "Секундарна адреса Firefox налога додата"
 
 #: lib/senders/email.js:785
 msgid "Secondary Firefox Account email removed"
-msgstr ""
+msgstr "Секундарна адреса Firefox налога уклоњена"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
