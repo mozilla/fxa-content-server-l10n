@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-26 09:38+0000\n"
+"PO-Revision-Date: 2017-08-27 05:27+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -183,7 +183,7 @@ msgstr "Екіншілік эл. пошта адресі өшірілді"
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr ""
+msgstr "Сіз Firefox тіркелгіңізден %(secondaryEmail)s адресін екіншілік адресі ретінде сәтті өшірдіңіз. Қауіпсіздік ескертулері және кіру хабарламалары ол адреске енді жіберілмейтін болады."
 
 #: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
 msgid "Manage account"
@@ -219,7 +219,7 @@ msgstr "Екіншілік эл. пошта адресі қосылған"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2 lib/senders/templates/post_verify_secondary_email.html:3
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr ""
+msgstr "Сіз Firefox тіркелгіңіз үшін %(secondaryEmail)s адресін екіншілік адресі ретінде сәтті растадыңыз. Қауіпсіздік ескертулері және кіру хабарламалары енді екі адреске де жіберілетін болады."
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Forgot your password?"
@@ -235,7 +235,7 @@ msgstr "Парольді тастау"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr ""
+msgstr "Firefox-ты таңдағаныңыз үшін рахмет! Мобильді Firefox-ты бұл жерден орната аласыз: %(link)s"
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1
 msgid "Is this you signing in?"
@@ -413,7 +413,7 @@ msgstr "Firefox тіркелгісінің екіншілік эл. пошта �
 
 #: lib/senders/email.js:785
 msgid "Secondary Firefox Account email removed"
-msgstr ""
+msgstr "Firefox тіркелгісінің екіншілік эл. пошта адресі өшірілді"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"

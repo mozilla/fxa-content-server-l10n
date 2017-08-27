@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-26 09:38+0000\n"
+"PO-Revision-Date: 2017-08-27 05:24+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -962,19 +962,19 @@ msgstr "Тіркелгіні жасау"
 
 #: app/scripts/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr ""
+msgstr "Кешіріңіз. Біз сіздің тіркелгіңізді&nbsp;блоктадық."
 
 #: app/scripts/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr ""
+msgstr "%(email)s адресіне жіберілген растау хаты қайтарылды, сондықтан біз сіздің Firefox деректерін қорғау мақсатында тіркелгіңізді блоктадық."
 
 #: app/scripts/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr ""
+msgstr "Егер ол дұрыс эл. пошта адресі болса, <a %(escapedSupportLinkAttrs)s>бізге хабарлаңыз</a>, тіркелгіңіздің блоктауын алып тастауға көмектесе аламыз."
 
 #: app/scripts/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr ""
+msgstr "Ол эл. пошта адресіне енді ие емессіз бе? Жаңа тіркелгіні жасаңыз"
 
 #: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:12
 msgid "Mistyped email?"
