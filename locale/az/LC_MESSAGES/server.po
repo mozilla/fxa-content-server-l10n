@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-05 08:13+0000\n"
+"PO-Revision-Date: 2017-08-27 08:55+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: az\n"
@@ -33,8 +33,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "İlk cihazınızı müvəffəqiyyətlə Fiefox Hesabınıza qoşdunuz. Sync-dən daha yaxşı faydalanmaq üçün hər hansı bir <a href='%(androidUrl)s'>Android üçün Firefox</a> və ya <a href='%(iosUrl)s'>iOS üçün "
 "Firefox</a> qoşun."
@@ -185,7 +185,7 @@ msgstr "İkinci e-poçt silindi"
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr ""
+msgstr "İkinci e-poçtunuz %(secondaryEmail)s Firefox Hesabınızdan silindi. Təhlükəsizlik bildirişləri və daxil olma təsdiqləmələri artıq bu hesaba göndərilməyəcək."
 
 #: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
 msgid "Manage account"
@@ -221,7 +221,7 @@ msgstr "İkinci e-poçt əlavə edildi"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2 lib/senders/templates/post_verify_secondary_email.html:3
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr ""
+msgstr "İkinci e-poçtunuz %(secondaryEmail)s Firefox Hesabınıza əlavə edildi. Təhlükəsizlik bildirişləri və daxil olma təsdiqləmələri artıq hər iki hesaba göndəriləcək."
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Forgot your password?"
@@ -261,8 +261,8 @@ msgstr "Təkrar salam."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 "Bir neçə gün əvvəl Firefox Hesabı yaratdınız, amma aktivləşdirməmisiniz. Təsdiqlənmiş hesab ona qoşulu bütün cihazlarda vərəq, əlfəcin, parol və tarixçənizi əlçatan edir. Hesabınızı aktivləşdirmək "
 "üçün sadəcə bu e-poçt ünvanını təsdiqləyin."
@@ -470,8 +470,7 @@ msgstr "İstifadə Şərtləri"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "Firefox Hesabınızın ikinci e-poçtu %(secondaryEmail)s hesabınızdan silindi. Təhlükəsizlik bildirişləri və daxil-olma təsdiqləmələri artıq bu ünvana çatdırılmayacaq."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "%(secondaryEmail)s ünvanını Firefox Hesabınızın ikinci e-poçtu olaraq təsdiqlədiniz. Təhlükəsizlik bildirişləri və daxil-olma təsdiqləmələri artıq hər iki e-poçt ünvanına çatdırılacaq."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -556,8 +555,8 @@ msgstr "İstifadə Şərtləri"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Bir neçə gün əvvəl Firefox Hesabı yaratdınız, amma aktivləşdirməmisiniz. Sizin üçün narahatıq. Firefox Windows, Mac, Linux, Android və iOS üçün mövcuddur. Bunların arasında Firefox parol, "
-#~ "əlfəcin və tarixçənizi sinxronlaşdıra bilərsiniz. Bu e-poçt ünvanını təsdiqləyərək hesabı aktiv edin və sağ-salamat olduğunuzu bildirin."
+#~ "Bir neçə gün əvvəl Firefox Hesabı yaratdınız, amma aktivləşdirməmisiniz. Sizin üçün narahatıq. Firefox Windows, Mac, Linux, Android və iOS üçün mövcuddur. Bunların arasında Firefox parol, əlfəcin və"
+#~ " tarixçənizi sinxronlaşdıra bilərsiniz. Bu e-poçt ünvanını təsdiqləyərək hesabı aktiv edin və sağ-salamat olduğunuzu bildirin."
 
 #~ msgid "env"
 #~ msgstr "env"
