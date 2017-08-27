@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-27 20:29+0000\n"
+"PO-Revision-Date: 2017-08-27 20:58+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -185,7 +185,7 @@ msgstr "Sekundárna e-mailová adresa bola odstránená"
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr ""
+msgstr "Úspešne ste odstránili %(secondaryEmail)s ako sekundárnu e-mailovú adresu z vášho účtu Firefox. Bezpečnostné upozornenia a potvrdenia prihlásenia už nebudú odosielané na túto adresu."
 
 #: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4 lib/senders/templates/post_verify_secondary_email.html:4
 msgid "Manage account"
@@ -221,7 +221,7 @@ msgstr "Sekundárna e-mailová adresa bola pridaná"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2 lib/senders/templates/post_verify_secondary_email.html:3
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr ""
+msgstr "Úspešne ste overili %(secondaryEmail)s ako sekundárnu e-mailovú adresu z vášho účtu Firefox. Bezpečnostné upozornenia a potvrdenia prihlásenia budú odteraz odosielané na obe adresy."
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Forgot your password?"
