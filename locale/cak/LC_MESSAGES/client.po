@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-27 16:08+0000\n"
+"PO-Revision-Date: 2017-08-27 16:22+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -52,23 +52,23 @@ msgstr "Firefox Sync xtitikïr wakami chanin"
 
 #: app/scripts/views/ready.js:41
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "Tatz'aqatisaj ri runuk'ulem rik'in natz'ib'aj ri k'ak'a' ewan tzij pa ri ch'aqa' chik awokisaxel richin Firerox."
 
 #: app/scripts/views/ready.js:45 app/scripts/templates/connect_another_device.mustache:4
 msgid "Email verified"
-msgstr ""
+msgstr "Taqoya'l jikib'an"
 
 #: app/scripts/views/ready.js:50
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "Xjikib'äx rutikirisaxik molojri'ïl"
 
 #: app/scripts/views/ready.js:51 app/scripts/views/ready.js:56 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
-msgstr ""
+msgstr "Wakami yatikïr chik nawokisaj %(serviceName)s"
 
 #: app/scripts/views/ready.js:55
 msgid "Account verified"
-msgstr ""
+msgstr "Jikib'an rub'i' taqoya'l"
 
 #: app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:164
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
