@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-21 20:16+0000\n"
+"PO-Revision-Date: 2017-08-27 20:30+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -77,7 +77,7 @@ msgstr "Neznámy účet. <a href=\"/signup\">Zaregistrujte sa</a>"
 
 #: app/scripts/views/sign_in.js:161
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr "Neznámy účet Firefoxu. Pre prístup k údajom Doplnkov sa <a href=\"/signup\">zaregistrujte</a> pomocou e-mailovej adresy predchádzajúceho účtu Doplnkov."
+msgstr "Neznámy účet Firefox. Pre prístup k údajom Doplnkov sa <a href=\"/signup\">zaregistrujte</a> pomocou e-mailovej adresy predchádzajúceho účtu Doplnkov."
 
 #: app/scripts/views/sign_up.js:55
 msgid "Account no longer exists. Recreate it?"
@@ -93,11 +93,11 @@ msgstr "Heslo bolo úspešne zmenené"
 
 #: app/scripts/views/settings/client_disconnect.js:17
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr "To je nám ľúto. Mali by ste si zmeniť vaše heslo k účtu Firefox Account a prípadne od výrobcu vášho zariadenia získať informácie o vymazaní vašich údajov na diaľku."
+msgstr "To je nám ľúto. Mali by ste si zmeniť vaše heslo k účtu Firefox a prípadne od výrobcu vášho zariadenia získať informácie o vymazaní vašich údajov na diaľku."
 
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "To je nám ľúto. Ak ide naozaj o podozrivé zariadenie, mali by ste zmeniť vaše heslo k účtu Firefox Account a taktiež všetky heslá uložené vo Firefoxe."
+msgstr "To je nám ľúto. Ak ide naozaj o podozrivé zariadenie, mali by ste zmeniť vaše heslo k účtu Firefox a taktiež všetky heslá uložené vo Firefoxe."
 
 #: app/scripts/views/settings/clients.js:73
 msgid "Web Session, %(userAgent)s"
@@ -149,7 +149,7 @@ msgstr "Overovací e-mail bol odoslaný"
 
 #: app/scripts/views/settings/emails.js:166
 msgid "Primary email set to %(email)s"
-msgstr ""
+msgstr "Primárna e-mailová adresa bola nastavená na %(email)s"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -805,7 +805,7 @@ msgstr "Cookies a lokálne úložisko sú požadované."
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Aby ste mohli používať Firefox Accounts, povoľte prosím cookies a lokálne úložisko. Vďaka tomu si vás budeme môcť zapamätať medzi jednotlivými reláciami."
+msgstr "Aby ste mohli používať účet Firefox, povoľte prosím cookies a lokálne úložisko. Vďaka tomu si vás budeme môcť zapamätať medzi jednotlivými reláciami."
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -939,7 +939,7 @@ msgstr "Spustiť obnovu"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr "Účty Firefox Account"
+msgstr "Účty Firefox"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
@@ -947,7 +947,7 @@ msgstr "Odhlásiť sa"
 
 #: app/scripts/templates/sign_in.mustache:4
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-msgstr "Hľadáte údaje Doplnkov? <a href=\"/signup\">Zaregistrujte si</a> účet Firefox Account pomocou e-mailovej adresy bývalého účtu Doplnkov."
+msgstr "Hľadáte údaje Doplnkov? <a href=\"/signup\">Zaregistrujte si</a> účet Firefox pomocou e-mailovej adresy bývalého účtu Doplnkov."
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
@@ -1003,7 +1003,7 @@ msgstr "Zadajte autorizačný kód"
 
 #: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4 app/scripts/templates/sign_up_password.mustache:1 app/scripts/templates/sign_up_password.mustache:4
 msgid "Create a Firefox Account"
-msgstr "Vytvorenie účtu Firefox Account"
+msgstr "Vytvorenie účtu Firefox"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -1011,7 +1011,7 @@ msgstr "Presuňte svoje synchronizované údaje vytvorením nového účtu Firef
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr "Hľadáte údaje Doplnkov? Zaregistrujte si účet Firefox Account pomocou e-mailovej adresy bývalého účtu Doplnkov."
+msgstr "Hľadáte údaje Doplnkov? Zaregistrujte si účet Firefox pomocou e-mailovej adresy bývalého účtu Doplnkov."
 
 #: app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up_password.mustache:6
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
@@ -1275,7 +1275,7 @@ msgstr "vyžaduje sa overenie"
 
 #: app/scripts/templates/settings/emails.mustache:10 app/scripts/templates/settings/emails.mustache:13
 msgid "Make primary"
-msgstr ""
+msgstr "Nastaviť ako primárnu adresu"
 
 #: app/scripts/templates/settings/emails.mustache:12 app/scripts/templates/settings/emails.mustache:15
 msgid "Remove"
@@ -1311,7 +1311,7 @@ msgstr "Použiť OpenID"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr "Použiť konto Firefox Account"
+msgstr "Použiť účet Firefox"
 
 #. submit button
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
