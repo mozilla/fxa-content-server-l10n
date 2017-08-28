@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-27 16:57+0000\n"
+"PO-Revision-Date: 2017-08-28 17:45+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -80,15 +80,15 @@ msgstr "Man etaman ta ruwäch Rub'i' Rutaqoya'l Firefox. <a href=\"/signup\">Tat
 
 #: app/scripts/views/sign_up.js:55
 msgid "Account no longer exists. Recreate it?"
-msgstr ""
+msgstr "Man k'o ta chik ri rub'i' taqoya'l. ¿La nanük' chik?"
 
 #: app/scripts/views/sign_up.js:315
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-msgstr ""
+msgstr "K'o chik ri rub'i' taqoya'l. <a href=\"/signin\">Tatz'ib'aj awi'</a>"
 
 #: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Xjal ütz ri ewan tzij"
 
 #: app/scripts/views/settings/client_disconnect.js:17
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
