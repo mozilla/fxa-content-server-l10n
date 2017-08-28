@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-28 18:28+0000\n"
+"PO-Revision-Date: 2017-08-28 18:46+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -125,104 +125,104 @@ msgstr "Ruk'isib'äl tzijon %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:97
 msgid "last sync time unknown"
-msgstr ""
+msgstr "man etaman ta ruk'isib'äl ramaj ximon"
 
 #: app/scripts/views/settings/communication_preferences.js:118
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "Ütz xtz'ib'äx"
 
 #: app/scripts/views/settings/communication_preferences.js:119
 msgid "Unsubscribed successfully"
-msgstr ""
+msgstr "Man ütz ta xtz'ib'äx"
 
 #: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
-msgstr ""
+msgstr "Xyuj ütz ri rub'i' taqoya'l"
 
 #: app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
-msgstr ""
+msgstr "Tik'ut pe ri b'i'aj xk'ex"
 
 #: app/scripts/views/settings/emails.js:138 app/scripts/views/settings/emails.js:151
 msgid "Verification email sent"
-msgstr ""
+msgstr "Xtaq ri rutzijol jikib'anïk"
 
 #: app/scripts/views/settings/emails.js:166
 msgid "Primary email set to %(email)s"
-msgstr ""
+msgstr "Xtaq ri nab'ey taqoya'l pa %(email)s"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "Xq'eleb'ëx ri ataqoya'l ruma jikinem"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:44
 msgid "Reset password"
-msgstr ""
+msgstr "Titzolïx ewan tzij"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
-msgstr ""
+msgstr "Tijaq Gmail"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:25
 msgid "Open Hotmail"
-msgstr ""
+msgstr "Tijaq Hotmail"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:31
 msgid "Open Yahoo"
-msgstr ""
+msgstr "Tijaq Yahoo"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:37
 msgid "Open Outlook"
-msgstr ""
+msgstr "Tijaq Outlook"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:43
 msgid "Open Restmail"
-msgstr ""
+msgstr "Tijaq Restmail"
 
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
-msgstr ""
+msgstr "Taqoya'l taqon chik"
 
 #: app/scripts/models/sync-engines.js:33
 msgid "Open tabs"
-msgstr ""
+msgstr "Kejaq taq ruwi'"
 
 #: app/scripts/models/sync-engines.js:38
 msgid "Bookmarks"
-msgstr ""
+msgstr "Taq yaketal"
 
 #: app/scripts/models/sync-engines.js:43
 msgid "Add-ons"
-msgstr ""
+msgstr "Taq tz'aqat"
 
 #: app/scripts/models/sync-engines.js:48
 msgid "Passwords"
-msgstr ""
+msgstr "Ewan taq tzij"
 
 #: app/scripts/models/sync-engines.js:53
 msgid "History"
-msgstr ""
+msgstr "Natab'äl"
 
 #: app/scripts/models/sync-engines.js:58
 msgid "Preferences"
-msgstr ""
+msgstr "Taq ajowab'äl"
 
 #: app/scripts/models/sync-engines.js:65
 msgid "Addresses"
-msgstr ""
+msgstr "Taq ochochib'äl"
 
 #: app/scripts/models/sync-engines.js:72
 msgid "Credit cards"
-msgstr ""
+msgstr "Taq ch'utit'im pwäq"
 
 #: app/scripts/models/reliers/sync.js:59
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox Sync"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:35
 msgid "Unexpected error"
-msgstr ""
+msgstr "Man oyob'en ta re sachoj"
 
 #: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:5
 msgid "The link you clicked to verify your email is expired."
