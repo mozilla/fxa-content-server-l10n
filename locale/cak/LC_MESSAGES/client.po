@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-28 21:31+0000\n"
+"PO-Revision-Date: 2017-08-28 21:47+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -322,35 +322,35 @@ msgstr "K'a nimakol titzolïx pe ri ataqoya'l"
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "K'a nimakol titzolïx pe ri ataqoya'l. ¿La jun sachoj re taqoya'l re'?"
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "Man tikirel ta nitaq ri taqoya'l"
 
 #: app/scripts/lib/auth-errors.js:151
 msgid "This email was already verified by another user"
-msgstr ""
+msgstr "Xjikib'äx yan re taqoya'l re' ruma jun chik winäq"
 
 #: app/scripts/lib/auth-errors.js:155
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "Ri ruka'n taqoya'l k'o chi jun wi chuwäch ri rub'i'a' ataqoya'l"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "Nab'ey rub'i' taqoya'l, rajowaxik richin nitikirisäx molojri'ïl"
 
 #: app/scripts/lib/auth-errors.js:171
 msgid "Address in use by another account"
-msgstr ""
+msgstr "Ochochib'äl okisan ruma jun chik rub'i' taqoya'l"
 
 #: app/scripts/lib/auth-errors.js:175
 msgid "Primary account email required for reset"
-msgstr ""
+msgstr "Nab'ey rub'i' taqoya'l, rajowaxik richin nitzolïx"
 
 #: app/scripts/lib/auth-errors.js:179
 msgid "Invalid signin code"
-msgstr ""
+msgstr "Me'okel rub'itz'ib' rutikirisaxik molojri'ïl"
 
 #: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
 msgid "Server busy, try again soon"
