@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-28 17:45+0000\n"
+"PO-Revision-Date: 2017-08-28 18:07+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -92,19 +92,20 @@ msgstr "Xjal ütz ri ewan tzij"
 
 #: app/scripts/views/settings/client_disconnect.js:17
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr ""
+msgstr "Niqamäy niqak'axaj re re'. K'atzinel najäl ewan rutzij ri ataqoya'l richin Firefox chuqa' takanoj rutzijol ri b'anöy richin ri awokisaxel richin nayüj chi näj ri taq atzij."
 
 #: app/scripts/views/settings/client_disconnect.js:19
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr ""
+"Niqamäy niqak'axaj re re'. We kan man akuqub'an ta chik ak'u'x chi rij ri okisaxel, k'atzinel najäl ri ewan atzij pa ri ataqoya'l richin Firefox, chuqa' ke'ajala' ri ewan taq tzij eyakon pa Firefox."
 
 #: app/scripts/views/settings/clients.js:73
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "Ajk'amaya'l Molojri'ïl, %(userAgent)s"
 
 #: app/scripts/views/settings/clients.js:75 app/scripts/lib/strings.js:43
 msgid "Web Session"
-msgstr ""
+msgstr "Ajk'amaya'l Molojri'ïl"
 
 #: app/scripts/views/settings/clients.js:78
 msgid "%(translatedTimeAgo)s"
