@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-28 18:46+0000\n"
+"PO-Revision-Date: 2017-08-28 20:09+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -226,19 +226,19 @@ msgstr "Man oyob'en ta re sachoj"
 
 #: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:5
 msgid "The link you clicked to verify your email is expired."
-msgstr ""
+msgstr "Ri ximonel xapïtz nujikib'a' chi xk'is ruq'ijul ri ataqoya'l."
 
 #: app/scripts/lib/auth-errors.js:21 app/scripts/lib/sms-errors.js:17
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "K'ïy chik mul atojtob'en. Tatojtob'ej chik pa jun mej."
 
 #: app/scripts/lib/auth-errors.js:25
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "K'ïy chik mul atojtob'en. Tatojtob'ej chik pa jun mej %(retryAfterLocalized)s."
 
 #: app/scripts/lib/auth-errors.js:35 app/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
-msgstr ""
+msgstr "Man okel ta wachib'äl"
 
 #: app/scripts/lib/auth-errors.js:39
 msgid "Invalid timestamp in request signature"
