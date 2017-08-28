@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-28 21:47+0000\n"
+"PO-Revision-Date: 2017-08-28 23:49+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -354,7 +354,7 @@ msgstr "Me'okel rub'itz'ib' rutikirisaxik molojri'ïl"
 
 #: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Tajin nisamäj ri ruk'u'x samaj, tatojtob'ej na chik"
 
 #: app/scripts/lib/auth-errors.js:188
 msgid "This endpoint is no longer supported"
