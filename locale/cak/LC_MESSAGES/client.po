@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-28 18:07+0000\n"
+"PO-Revision-Date: 2017-08-28 18:28+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -109,19 +109,19 @@ msgstr "Ajk'amaya'l Molojri'ïl"
 
 #: app/scripts/views/settings/clients.js:78
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:84
 msgid "first sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "nab'ey ximoj %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:87
 msgid "last sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "ruk'isib'äl ximoj %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:93
 msgid "last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Ruk'isib'äl tzijon %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:97
 msgid "last sync time unknown"
