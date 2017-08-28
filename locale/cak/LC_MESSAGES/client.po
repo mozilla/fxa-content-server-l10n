@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-28 21:08+0000\n"
+"PO-Revision-Date: 2017-08-28 21:31+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -290,35 +290,35 @@ msgstr "Me'oke rujuch' k'utunïk"
 
 #: app/scripts/lib/auth-errors.js:87
 msgid "Missing content-length header"
-msgstr ""
+msgstr "Nrajo' na rujub'i'aj rupam runimilem"
 
 #: app/scripts/lib/auth-errors.js:91
 msgid "Request body too large"
-msgstr ""
+msgstr "Tik'utüx jun ch'akulal yalan nïm"
 
 #: app/scripts/lib/auth-errors.js:109
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "Xq'at ri k'utunïk ruma ri jikomal"
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:384
 msgid "Invalid authorization code"
-msgstr ""
+msgstr "Me'okel rub'itz'ib' ya'oj q'ij"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Me'okel rajilab'al oyonib'äl"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "Man tikirel ta nitaq re amaq' re'"
 
 #: app/scripts/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "Man tikirel ta xtaq jun rutzijol pa re ajilab'äl re'"
 
 #: app/scripts/lib/auth-errors.js:138
 msgid "Your email was just returned"
-msgstr ""
+msgstr "K'a nimakol titzolïx pe ri ataqoya'l"
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
