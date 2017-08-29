@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-29 18:10+0000\n"
+"PO-Revision-Date: 2017-08-29 18:23+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -642,19 +642,19 @@ msgstr "Man nitikïr ta nutz'ük ri rub'i' taqoya'l"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr ""
+msgstr "K'o chi nawojqaj rub'eyal juna' richin nanük' jun rub'i' Firefox&nbsp;Account."
 
 #: app/scripts/templates/cannot_create_account.mustache:4 app/scripts/templates/cookies_disabled.mustache:3
 msgid "Learn more"
-msgstr ""
+msgstr "Tetamäx ch'aqa' chik"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
-msgstr ""
+msgstr "%(escapedEmail)s tz'ib'an chik. <a %(escapedBackLinkParams)s>¿La man ütz ta xatz'ib'aj ri taqoya'l?</a>"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:22
 msgid "Choose what to sync"
-msgstr ""
+msgstr "Tacha' achike naxïm"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Save settings"
