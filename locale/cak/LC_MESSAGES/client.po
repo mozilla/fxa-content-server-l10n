@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-29 23:31+0000\n"
+"PO-Revision-Date: 2017-08-29 23:45+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -686,7 +686,7 @@ msgstr "Titz'ib'äx ri k'ak'a' ewan atzij"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-msgstr "Toq xtatäq ri k'ak'a' ewan atzij, xkesachri taq rutzij Sync, ri man e k'o ta chupam jun chi ke ri taq awokisaxel."
+msgstr "Toq xtatäq ri k'ak'a' ewan atzij, xkesach ri taq rutzij Sync, ri man e k'o ta chupam jun chi ke ri taq awokisaxel."
 
 #: app/scripts/templates/complete_reset_password.mustache:10 app/scripts/templates/reset_password.mustache:6
 msgid "Learn how Sync works."
@@ -901,47 +901,47 @@ msgstr "Tiq'at"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr ""
+msgstr "Ri taq rutzijol rub'i' taqoya'l chuqa' xketaq pa %(secondaryEmailVerified)s"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
-msgstr ""
+msgstr "¡Ütz chik ri rub'i' ataqoya'l!"
 
 #: app/scripts/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "¿La niya' kitzijol ri man ya'on ta q'ij chi ke richin nikitikirisaj molojri'ïl?"
 
 #: app/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr ""
+msgstr "Xak'ül jun taqoya'l chi k'o xrajo' xok pan ataqoya'l. ¿La nawajo' naya' retal chi man ütz ta re samaj re'?"
 
 #: app/scripts/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr ""
+msgstr "Tiya' rutzijol re samaj re'"
 
 #: app/scripts/templates/report_sign_in.mustache:7 app/scripts/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr ""
+msgstr "¿Achike ruma nik'ulwachitäj re'?"
 
 #: app/scripts/templates/reset_password.mustache:1 app/scripts/templates/reset_password.mustache:4
 msgid "Reset account"
-msgstr ""
+msgstr "Titzolïx rub'i' taqoya'l"
 
 #: app/scripts/templates/reset_password.mustache:5
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "Toq xtatzolij ri ewan atzij, xkesach ri taq rutzij Sync, ri man e k'o ta chupam jun chi ke ri taq awokisaxel."
 
 #: app/scripts/templates/reset_password.mustache:9
 msgid "Begin reset"
-msgstr ""
+msgstr "Titikirisäx nitzolïx"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Firefox Accounts"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
-msgstr ""
+msgstr "Titz'apïx molojri'ïl"
 
 #: app/scripts/templates/sign_in.mustache:4
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
