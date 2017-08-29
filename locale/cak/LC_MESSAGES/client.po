@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-29 20:49+0000\n"
+"PO-Revision-Date: 2017-08-29 21:13+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -706,27 +706,27 @@ msgstr "Titaq ri k'ak'a' ewan atzij"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Sign-in already confirmed"
-msgstr ""
+msgstr "Xjikib'äx yan rutikirisaxik molojri'ïl"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
-msgstr ""
+msgstr "Xk'is ruq'ijul ri ruximonel jikib'anïk"
 
 #: app/scripts/templates/complete_sign_up.mustache:6
 msgid "Click here to receive a new verification link"
-msgstr ""
+msgstr "Tapitz'a' wawe' richin nak'ül jun k'ak'a' ruximonel jikib'anïk"
 
 #: app/scripts/templates/complete_sign_up.mustache:12
 msgid "Verification error"
-msgstr ""
+msgstr "Xsach toq njikib'äx"
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
-msgstr ""
+msgstr "Tajikib'a' rub'i' ataqoya'l"
 
 #: app/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "Tijikib'äx re rutikirisaxik molojri'ïl re'"
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
