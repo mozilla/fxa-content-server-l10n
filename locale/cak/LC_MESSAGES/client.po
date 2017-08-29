@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-29 00:46+0000\n"
+"PO-Revision-Date: 2017-08-29 13:22+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -462,75 +462,75 @@ msgstr "Xsach ri ichinil pa ri rutoken tikirisaxik chik: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:355
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "Me'okel rub'anikil tzij: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:359
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "Tajin nisach rub'anikil tzij: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:372 app/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "Chi ri ruximonel jikib'anïk xokisäx yan, xa xe tikirel nokisäx jun mul."
 
 #: app/scripts/lib/auth-errors.js:376
 msgid "This is a required field"
-msgstr ""
+msgstr "Re re' jun k'atzinel k'ojlib'äl"
 
 #: app/scripts/lib/auth-errors.js:380
 msgid "Authorization code required"
-msgstr ""
+msgstr "Rajowaxik ri ya'oj q'ij b'itz'ib'"
 
 #: app/scripts/lib/auth-errors.js:388 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
-msgstr ""
+msgstr "Yujun ximonel"
 
 #: app/scripts/lib/auth-errors.js:411
 msgid "Phone number required"
-msgstr ""
+msgstr "Rajowaxik rajilab'al oyonib'äl"
 
 #: app/scripts/lib/config-loader.js:87
 msgid "Missing configuration"
-msgstr ""
+msgstr "Xsach nuk'ulem"
 
 #: app/scripts/lib/config-loader.js:91
 msgid "Invalid configuration"
-msgstr ""
+msgstr "Me'okel nuk'ulem"
 
 #: app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "¿Achike xawajo' xab'ij <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
-msgstr ""
+msgstr "Tatojtob'ej pa jun mej"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
-msgstr ""
+msgstr "Me'etaman winäq"
 
 #: app/scripts/lib/oauth-errors.js:30
 msgid "Incorrect redirect_uri"
-msgstr ""
+msgstr "Me'ütz redirect_uri"
 
 #: app/scripts/lib/oauth-errors.js:34
 msgid "Invalid assertion"
-msgstr ""
+msgstr "Me'okel rub'ixikil"
 
 #: app/scripts/lib/oauth-errors.js:38
 msgid "Unknown code"
-msgstr ""
+msgstr "Me'etaman b'itz'ib'"
 
 #: app/scripts/lib/oauth-errors.js:42
 msgid "Incorrect code"
-msgstr ""
+msgstr "Me'ütz b'itz'ib'"
 
 #: app/scripts/lib/oauth-errors.js:46
 msgid "Expired code"
-msgstr ""
+msgstr "Xk'is ruq'ijul b'itz'ib'"
 
 #: app/scripts/lib/oauth-errors.js:54 app/scripts/lib/oauth-errors.js:76
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Me'okel OAuth ko'öl etab'äl: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
