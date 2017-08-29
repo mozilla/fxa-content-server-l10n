@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-29 13:22+0000\n"
+"PO-Revision-Date: 2017-08-29 13:38+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -534,43 +534,43 @@ msgstr "Me'okel OAuth ko'öl etab'äl: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
-msgstr ""
+msgstr "Man xya' ta q'ij"
 
 #: app/scripts/lib/oauth-errors.js:66
 msgid "Forbidden"
-msgstr ""
+msgstr "Xajan"
 
 #: app/scripts/lib/oauth-errors.js:88
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "Man ütz xe'el jujun wachinäq. Tatz'apij ri ruwi' richin natojtob'ej chik."
 
 #: app/scripts/lib/oauth-errors.js:104
 msgid "no message"
-msgstr ""
+msgstr "majun rutzijol"
 
 #: app/scripts/lib/oauth-errors.js:108
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Xsach OAuth ko'öl etab'äl: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
-msgstr ""
+msgstr "Me'okel Jaqb'äl"
 
 #: app/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
-msgstr ""
+msgstr "Me'okel ko'öl etab'äl pa ruch'akulal k'utunïk: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:31
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "Man nuk'äm ta ri' ri ya'öl wachib'äl"
 
 #: app/scripts/lib/profile-errors.js:35
 msgid "Image processing error"
-msgstr ""
+msgstr "Xsach toq nisamajïx ri wachib'äl"
 
 #: app/scripts/lib/require-on-demand.js:39
 msgid "Resources failed to load"
-msgstr ""
+msgstr "Xsach toq yesamajïx taq tob'äl"
 
 #: app/scripts/lib/require-on-demand.js:43
 msgid "Unexpected resource error"
