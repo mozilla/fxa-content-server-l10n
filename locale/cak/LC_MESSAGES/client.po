@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-29 20:31+0000\n"
+"PO-Revision-Date: 2017-08-29 20:49+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -682,27 +682,27 @@ msgstr "K'a k'o na taq tz'ib' nrajo' ri ximonel xapïtz' ruma ri' toq rik'in jub
 
 #: app/scripts/templates/complete_reset_password.mustache:8
 msgid "Enter new password"
-msgstr ""
+msgstr "Titz'ib'äx ri k'ak'a' ewan atzij"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "Toq xtatäq ri k'ak'a' ewan atzij, xkesachri taq rutzij Sync, ri man e k'o ta chupam jun chi ke ri taq awokisaxel."
 
 #: app/scripts/templates/complete_reset_password.mustache:10 app/scripts/templates/reset_password.mustache:6
 msgid "Learn how Sync works."
-msgstr ""
+msgstr "Tawetamaj rub'eyal nisamäj ri Sync."
 
 #: app/scripts/templates/complete_reset_password.mustache:12 app/scripts/templates/settings/change_password.mustache:6
 msgid "New password"
-msgstr ""
+msgstr "K'ak'a' ewan tzij"
 
 #: app/scripts/templates/complete_reset_password.mustache:14 app/scripts/templates/sign_up.mustache:15
 msgid "Repeat password"
-msgstr ""
+msgstr "Tikamulüx ewan tzij"
 
 #: app/scripts/templates/complete_reset_password.mustache:15
 msgid "Submit new password"
-msgstr ""
+msgstr "Titaq ri k'ak'a' ewan atzij"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Sign-in already confirmed"
