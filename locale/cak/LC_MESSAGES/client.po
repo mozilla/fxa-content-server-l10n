@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-28 23:49+0000\n"
+"PO-Revision-Date: 2017-08-29 00:09+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -358,35 +358,35 @@ msgstr "Tajin nisamäj ri ruk'u'x samaj, tatojtob'ej na chik"
 
 #: app/scripts/lib/auth-errors.js:188
 msgid "This endpoint is no longer supported"
-msgstr ""
+msgstr "Re k'ischuq' re man ruk'amon ta chik ri'"
 
 #: app/scripts/lib/auth-errors.js:192 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Man wachel ta ri q'inoj, k'a xtatojtob'ej chik"
 
 #: app/scripts/lib/auth-errors.js:196
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Titojtob'ëx chik molojri'ïl xq'at"
 
 #: app/scripts/lib/auth-errors.js:200
 msgid "Session expired. Sign in to continue."
-msgstr ""
+msgstr "Xk'is molojri'ïl. Tatikirisaj richin yasamäj qa."
 
 #: app/scripts/lib/auth-errors.js:204
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "K'a e chupül na ri taq kaxlanwey"
 
 #: app/scripts/lib/auth-errors.js:208
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Man nikik'äm ta ki' ri taq ewan tzij"
 
 #: app/scripts/lib/auth-errors.js:212
 msgid "Working…"
-msgstr ""
+msgstr "Tajin nisamäj…"
 
 #: app/scripts/lib/auth-errors.js:216
 msgid "Could not get Privacy Notice"
-msgstr ""
+msgstr "Man xk'ulutäj ta ri Rutzijol Ichinanem"
 
 #: app/scripts/lib/auth-errors.js:220
 msgid "Could not get Terms of Service"
