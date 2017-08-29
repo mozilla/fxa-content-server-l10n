@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-29 00:28+0000\n"
+"PO-Revision-Date: 2017-08-29 00:46+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -442,23 +442,23 @@ msgstr "Ri taq runimilem wachib'äl k'o chi man xa xe ta ruk'wan 100x100px"
 
 #: app/scripts/lib/auth-errors.js:317
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "Ri tz'ib'anïk b'i'aj xtitaq na pa Firefox richin iOS"
 
 #: app/scripts/lib/auth-errors.js:328
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "K'o chi natz'ib'aj ajuna' richin natz'ib'aj awi'"
 
 #: app/scripts/lib/auth-errors.js:343
 msgid "Account no longer exists."
-msgstr ""
+msgstr "Man k'o ta chik ri rub'i' taqoya'l."
 
 #: app/scripts/lib/auth-errors.js:347
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "Me'okel ri ichinil pa ri rutoken tikirisaxik chik: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:351
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "Xsach ri ichinil pa ri rutoken tikirisaxik chik: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:355
 msgid "Invalid data attribute: %(property)s"
