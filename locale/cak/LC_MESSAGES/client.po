@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-29 00:09+0000\n"
+"PO-Revision-Date: 2017-08-29 00:28+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -390,55 +390,55 @@ msgstr "Man xk'ulutäj ta ri Rutzijol Ichinanem"
 
 #: app/scripts/lib/auth-errors.js:220
 msgid "Could not get Terms of Service"
-msgstr ""
+msgstr "Man xk'ulutäj ta ri Rojqanem Samaj"
 
 #: app/scripts/lib/auth-errors.js:224
 msgid "Your new password must be different"
-msgstr ""
+msgstr "K'o chi junwi ri k'ak'a' ewan atzij"
 
 #: app/scripts/lib/auth-errors.js:228 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
-msgstr ""
+msgstr "K'o chi man xa xe ta tuk'waj 8 taq tz'ib'"
 
 #: app/scripts/lib/auth-errors.js:232
 msgid "Valid password required"
-msgstr ""
+msgstr "Ütz ewan tzij najowäx"
 
 #: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:274 app/scripts/lib/auth-errors.js:290
 msgid "Valid email required"
-msgstr ""
+msgstr "Ütz taqoya'l najowäx"
 
 #: app/scripts/lib/auth-errors.js:247
 msgid "A usable image was not found"
-msgstr ""
+msgstr "Man xilitäj ta jun okel wachib'äl"
 
 #: app/scripts/lib/auth-errors.js:251
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "Man tikirel ta xtikirisäx elesäy wachib'äl"
 
 #: app/scripts/lib/auth-errors.js:255
 msgid "Valid URL required"
-msgstr ""
+msgstr "Ütz URL najowäx"
 
 #: app/scripts/lib/auth-errors.js:270
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "K'a nimakol titzolïx pe ri ataqoya'l richin jikib'anïk. ¿La jun sachoj re taqoya'l re'?"
 
 #: app/scripts/lib/auth-errors.js:278
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "Tatz'ib'aj jun ütz rochochib'al taqoya'l. firefox.com man nusüj ta taqoya'l."
 
 #: app/scripts/lib/auth-errors.js:286
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Ri taq rub'i' rutaqoya'l Firefox xa xe tikirel yeya' pa jun IFRAME pa ya'on q'ij chi ke taq ruxaq k'amaya'l"
 
 #: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Itzelan ri ruximonel jikib'anïk"
 
 #: app/scripts/lib/auth-errors.js:313
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "Ri taq runimilem wachib'äl k'o chi man xa xe ta ruk'wan 100x100px"
 
 #: app/scripts/lib/auth-errors.js:317
 msgid "Signup is coming soon to Firefox for iOS"
