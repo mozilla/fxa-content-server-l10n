@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-29 18:23+0000\n"
+"PO-Revision-Date: 2017-08-29 18:48+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -658,7 +658,7 @@ msgstr "Tacha' achike naxïm"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Save settings"
-msgstr ""
+msgstr "Keyak taq nuk'ulem"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
