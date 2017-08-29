@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-29 21:48+0000\n"
+"PO-Revision-Date: 2017-08-29 22:22+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -739,51 +739,51 @@ msgstr "Tab'enik'oj pan ataqoya'l ri ruximonel rujikib'anik rutikirisaxik molojr
 #: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
-msgstr ""
+msgstr "¿La man k'o ta pan taqob'äl o pa ruyakwuj seq'tzijol? Titaq chik"
 
 #: app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/sign_in_bounced.mustache:6 app/scripts/templates/tos.mustache:3
 msgid "Back"
-msgstr ""
+msgstr "Chi rij"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr ""
+msgstr "Xtaq ri taqoya'l richin nitzolïx"
 
 #: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "Tapitz'a' pa ruwi' ri ximonel xqatäq chawe pa %(email)s ri ramaj wakami richin natz'ük jun k'ak'a' ewan tzij."
 
 #: app/scripts/templates/confirm_reset_password.mustache:4 app/scripts/templates/confirm_reset_password.mustache:6 app/scripts/templates/reset_password.mustache:10
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "¿La nanataj ri ewan tzij? Titikirisäx molojri'ïl"
 
 #: app/scripts/templates/connect_another_device.mustache:1
 msgid "Connect another device"
-msgstr ""
+msgstr "Tokisäx jun chik okisaxel"
 
 #: app/scripts/templates/connect_another_device.mustache:2 app/scripts/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
-msgstr ""
+msgstr "Okisan re Firefox re'"
 
 #: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
-msgstr ""
+msgstr "Xojtikïr"
 
 #: app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign in to this Firefox to complete set-up"
-msgstr ""
+msgstr "Titikirisäx molojri'ïl pa re Firefox re' richin nitz'aqatisäx runuk'ulem"
 
 #: app/scripts/templates/connect_another_device.mustache:7
 msgid "Sign in &rarr;"
-msgstr ""
+msgstr "Titikirisäx molojri'ïl &rarr;"
 
 #: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Titikirisäx molojri'ïl pa Firefox pa jun chik okisaxel richin nitz'aqatisäx runuk'ulem"
 
 #: app/scripts/templates/connect_another_device.mustache:13
 msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr ""
+msgstr "Kejaq ri taq nuk'ulem richin nacha' Titikirisäx molojri'ïl pa Firefox richin nitz'aqatisäx runuk'ulem"
 
 #: app/scripts/templates/connect_another_device.mustache:15
 msgid "Sign in to Firefox for Android to complete set-up"
