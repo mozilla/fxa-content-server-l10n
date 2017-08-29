@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-06-27 19:01+0000\n"
-"Last-Translator: mcmartin <mcmartin@gmx.ch>\n"
+"PO-Revision-Date: 2017-08-29 19:30+0000\n"
+"Last-Translator: Gion-Andri Cantieni <gion-andri@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
 "MIME-Version: 1.0\n"
@@ -114,19 +114,19 @@ msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:84
 msgid "first sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "emprima sincronisaziun: %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:87
 msgid "last sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "ultima sincronisaziun: %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:93
 msgid "last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "ultima activitad %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:97
 msgid "last sync time unknown"
-msgstr ""
+msgstr "temp da l'ultima sincronisaziun betg enconuschent"
 
 #: app/scripts/views/settings/communication_preferences.js:118
 msgid "Subscribed successfully"
@@ -146,11 +146,11 @@ msgstr "Actualisà il num per visualisar"
 
 #: app/scripts/views/settings/emails.js:138 app/scripts/views/settings/emails.js:151
 msgid "Verification email sent"
-msgstr ""
+msgstr "Tramess l'e-mail da verificaziun"
 
 #: app/scripts/views/settings/emails.js:166
 msgid "Primary email set to %(email)s"
-msgstr ""
+msgstr "L'adressa d'e-mail principala è %(email)s"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -210,11 +210,11 @@ msgstr "Preferenzas"
 
 #: app/scripts/models/sync-engines.js:65
 msgid "Addresses"
-msgstr ""
+msgstr "Adressas"
 
 #: app/scripts/models/sync-engines.js:72
 msgid "Credit cards"
-msgstr ""
+msgstr "Cartas da credit"
 
 #: app/scripts/models/reliers/sync.js:59
 msgid "Firefox Sync"
@@ -319,39 +319,39 @@ msgstr "Impussibel da trametter il messadi a quest numer"
 
 #: app/scripts/lib/auth-errors.js:138
 msgid "Your email was just returned"
-msgstr ""
+msgstr "Tes e-mail è gist vegnì returnà"
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Tes e-mail è gist vegnì returnà. È l'adressa correcta?"
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "Impussibel da spedir l'e-mail"
 
 #: app/scripts/lib/auth-errors.js:151
 msgid "This email was already verified by another user"
-msgstr ""
+msgstr "Questa adressa d'e-mail è gia vegnida verifitgada dad in auter utilisader"
 
 #: app/scripts/lib/auth-errors.js:155
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "L'adressa d'e-mail alternativa sto esser differenta da l'adressa da tes conto"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "L'adressa principala dal conto è necessaria per s'annunziar"
 
 #: app/scripts/lib/auth-errors.js:171
 msgid "Address in use by another account"
-msgstr ""
+msgstr "L'adressa vegn duvrada dad in auter conto"
 
 #: app/scripts/lib/auth-errors.js:175
 msgid "Primary account email required for reset"
-msgstr ""
+msgstr "L'adressa principala dal conto è necessaria per la reinizialisaziun"
 
 #: app/scripts/lib/auth-errors.js:179
 msgid "Invalid signin code"
-msgstr ""
+msgstr "Code d'annunzia nunvalid"
 
 #: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
 msgid "Server busy, try again soon"
@@ -499,7 +499,7 @@ msgstr "Configuraziun nunvalida"
 
 #: app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "Has ti manegià <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
@@ -594,12 +594,10 @@ msgid "SMS not sent, please try again"
 msgstr "SMS n'è betg vegnì tramess, emprova p.pl. pli tard anc ina giada"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Cun cuntinuar accepteschas ti il <a id=\"service-tos\" href=\"%(termsUri)s\">Contract da licenza</a> ed las <a id=\"service-pp\" href=\"%(privacyUri)s\">Infurmaziuns davart la protecziun da datas</"
-"a> da %(serviceName)s (%(serviceUri)s)."
+"Cun cuntinuar accepteschas ti il <a id=\"service-tos\" href=\"%(termsUri)s\">Contract da licenza</a> ed las <a id=\"service-pp\" href=\"%(privacyUri)s\">Infurmaziuns davart la protecziun da "
+"datas</a> da %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -655,7 +653,7 @@ msgstr "Dapli infurmaziuns"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
-msgstr ""
+msgstr "%(escapedEmail)s è gia registrà. <a %(escapedBackLinkParams)s>Sbagl da tippar?</a>"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:22
 msgid "Choose what to sync"
@@ -675,7 +673,7 @@ msgstr "La colliaziun che ti has cliccà per redefinir tes pled-clav è scrudada
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
-msgstr ""
+msgstr "Ma trametter ina nova colliaziun"
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -735,16 +733,16 @@ msgstr "Conferma questa annunzia"
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Controllescha tes e-mails per chattar la colliaziun da verificaziun tramessa a %(escapedEmail)s"
 
 #: app/scripts/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-msgstr ""
+msgstr "Controllescha tes e-mails per chattar la colliaziun per l'annunzia, tramessa a %(email)s"
 
 #: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
-msgstr ""
+msgstr "Betg en la posta entrada u en l'ordinatur da spam? Trametter anc ina giada"
 
 #: app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/sign_in_bounced.mustache:6 app/scripts/templates/tos.mustache:3
 msgid "Back"
@@ -804,7 +802,7 @@ msgstr "Pertge è quai necessari?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr ""
+msgstr "Cookies e memoria locala èn necessaris"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
@@ -838,7 +836,7 @@ msgstr ""
 
 #: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
 msgid "Enter your email"
-msgstr ""
+msgstr "Endatescha tia adressa d'e-mail"
 
 #: app/scripts/templates/index.mustache:2 app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in_password.mustache:2
 #: app/scripts/templates/sign_up.mustache:2 app/scripts/templates/sign_up_password.mustache:2
@@ -908,7 +906,7 @@ msgstr "Interrumper"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr ""
+msgstr "Las communicaziuns dal conto vegnan ussa era tramessas a %(secondaryEmailVerified)s"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
@@ -968,19 +966,19 @@ msgstr "Crear in conto"
 
 #: app/scripts/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr ""
+msgstr "Deplorablamain è tes conto bloccà."
 
 #: app/scripts/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr ""
+msgstr "L'e-mail da verificaziun tramess a %(email)s è vegnì returnà e nus avain bloccà tes conto per proteger tias datas da Firefox."
 
 #: app/scripts/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr ""
+msgstr "Sche questa adressa d'e-mail è valida, <a %(escapedSupportLinkAttrs)s>ans fa a savair</a> e nus ta pudain gidar a debloccar tes conto."
 
 #: app/scripts/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr ""
+msgstr "Quai n'è betg pli ti'adressa d'e-mail? Creescha in nov conto"
 
 #: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:12
 msgid "Mistyped email?"
@@ -1431,11 +1429,9 @@ msgstr ""
 #~ msgstr "Has ti in conto cun ina autra adressa d'e-mail? <a href=\"%(signinUri)s\">T'annunzia</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
-#~ msgstr ""
-#~ "Firefox è disponibel per <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> e <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ msgstr "Firefox è disponibel per <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> e <a href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Delete"
 #~ msgstr "Stizzar"
@@ -1477,8 +1473,7 @@ msgstr ""
 #~ msgstr "Tramess l'e-mail per debloccar"
 
 #~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
-#~ msgstr ""
-#~ "Per motivs da segirezza è tes conto vegnì bloccà. Per exequir acziuns sin tes conto stos ti verifitgar danovamain tes conto cun cliccar sin la collaziun da verificaziun tramessa a %(email)s"
+#~ msgstr "Per motivs da segirezza è tes conto vegnì bloccà. Per exequir acziuns sin tes conto stos ti verifitgar danovamain tes conto cun cliccar sin la collaziun da verificaziun tramessa a %(email)s"
 
 #~ msgid "Signup has been disabled"
 #~ msgstr "La registraziun è vegnida deactivada"
@@ -1509,8 +1504,8 @@ msgstr ""
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr ""
-#~ "Redefinir tes pled-clav vegn a stizzar tias datas da navigar da noss servers. Tut las datas sin tes apparats na vegnan betg midadas. Cumenza il process da redefinir entras endatar tia adressa "
-#~ "dad e-mail sutvart."
+#~ "Redefinir tes pled-clav vegn a stizzar tias datas da navigar da noss servers. Tut las datas sin tes apparats na vegnan betg midadas. Cumenza il process da redefinir entras endatar tia adressa dad "
+#~ "e-mail sutvart."
 
 #~ msgid "a day"
 #~ msgstr "in di"
@@ -1567,8 +1562,8 @@ msgstr ""
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Per utilisar in conto da Firefox stos ti activar ils cookies en tes navigatur. Cookies èn pitschnsa parts da datas memorisadas en tes navigatur che porschan funcziunalidad sco reconuscher tai "
-#~ "tar tia proxima visita."
+#~ "Per utilisar in conto da Firefox stos ti activar ils cookies en tes navigatur. Cookies èn pitschnsa parts da datas memorisadas en tes navigatur che porschan funcziunalidad sco reconuscher tai tar "
+#~ "tia proxima visita."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox vegn prest per iOS!"
@@ -1716,8 +1711,8 @@ msgstr ""
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Cun cuntinuar acceptesch jau il <a id=\"fxa-tos\" href=\"/legal/terms\">Contract da licenza</a> las <a id=\"fxa-pp\" href=\"/legal/privacy\">Directivas per protecziun da datas</a> dals "
-#~ "servetschs da cloud da Firefox."
+#~ "Cun cuntinuar acceptesch jau il <a id=\"fxa-tos\" href=\"/legal/terms\">Contract da licenza</a> las <a id=\"fxa-pp\" href=\"/legal/privacy\">Directivas per protecziun da datas</a> dals servetschs da"
+#~ " cloud da Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Abunar novitads e tips davart Firefox"
