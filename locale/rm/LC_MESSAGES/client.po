@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-29 19:30+0000\n"
+"PO-Revision-Date: 2017-08-29 19:35+0000\n"
 "Last-Translator: Gion-Andri Cantieni <gion-andri@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
@@ -77,7 +77,7 @@ msgstr "Conto nunenconuschent. <a href=\"/signup\">S'annunziar</a>"
 
 #: app/scripts/views/sign_in.js:161
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr "Conto da Firefox nunenconuschent. <a href=\"/signup\">T'annunzia</a> cun tia adressa d'e-mail dal conto dad «Add-ons» per acceder tias datas dad «Add-ons»."
+msgstr "Conto da Firefox nunenconuschent. <a href=\"/signup\">T'annunzia</a> cun tia adressa dad e-mail dal conto dad «Add-ons» per acceder tias datas dad «Add-ons»."
 
 #: app/scripts/views/sign_up.js:55
 msgid "Account no longer exists. Recreate it?"
@@ -150,7 +150,7 @@ msgstr "Tramess l'e-mail da verificaziun"
 
 #: app/scripts/views/settings/emails.js:166
 msgid "Primary email set to %(email)s"
-msgstr "L'adressa d'e-mail principala è %(email)s"
+msgstr "L'adressa dad e-mail principala è %(email)s"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -331,11 +331,11 @@ msgstr "Impussibel da spedir l'e-mail"
 
 #: app/scripts/lib/auth-errors.js:151
 msgid "This email was already verified by another user"
-msgstr "Questa adressa d'e-mail è gia vegnida verifitgada dad in auter utilisader"
+msgstr "Questa adressa dad e-mail è gia vegnida verifitgada dad in auter utilisader"
 
 #: app/scripts/lib/auth-errors.js:155
 msgid "Secondary email must be different than your account email"
-msgstr "L'adressa d'e-mail alternativa sto esser differenta da l'adressa da tes conto"
+msgstr "L'adressa dad e-mail alternativa sto esser differenta da l'adressa da tes conto"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
@@ -836,7 +836,7 @@ msgstr ""
 
 #: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
 msgid "Enter your email"
-msgstr "Endatescha tia adressa d'e-mail"
+msgstr "Endatescha tia adressa dad e-mail"
 
 #: app/scripts/templates/index.mustache:2 app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in_password.mustache:2
 #: app/scripts/templates/sign_up.mustache:2 app/scripts/templates/sign_up_password.mustache:2
@@ -974,15 +974,15 @@ msgstr "L'e-mail da verificaziun tramess a %(email)s è vegnì returnà e nus av
 
 #: app/scripts/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr "Sche questa adressa d'e-mail è valida, <a %(escapedSupportLinkAttrs)s>ans fa a savair</a> e nus ta pudain gidar a debloccar tes conto."
+msgstr "Sche questa adressa dad e-mail è valida, <a %(escapedSupportLinkAttrs)s>ans fa a savair</a> e nus ta pudain gidar a debloccar tes conto."
 
 #: app/scripts/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr "Quai n'è betg pli ti'adressa d'e-mail? Creescha in nov conto"
+msgstr "Quai n'è betg pli ti'adressa dad e-mail? Creescha in nov conto"
 
 #: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:12
 msgid "Mistyped email?"
-msgstr ""
+msgstr "Betg endatà endretg l'adressa dad e-mail?"
 
 #: app/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -998,7 +998,7 @@ msgstr "Autorisar questa annunzia"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "Controllescha tes e-mails per chattar il code d'autorisaziun tramess a %(email)s."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1014,7 +1014,7 @@ msgstr "Migrar tias datas da sync cun crear in nov conto&nbsp;da&nbsp;Firefox."
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr "Tschertgas ti las datas da tes supplements? Ta registrescha per in conto da Firefox cun l'adressa d'e-mail da tes vegl conto da supplements."
+msgstr "Tschertgas ti las datas da tes supplements? Ta registrescha per in conto da Firefox cun l'adressa dad e-mail da tes vegl conto da supplements."
 
 #: app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up_password.mustache:6
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
@@ -1034,7 +1034,7 @@ msgstr "Has ti in conto? T'annunzia"
 
 #: app/scripts/templates/sign_up_password.mustache:7
 msgid "Verify password"
-msgstr ""
+msgstr "Confermar il pled-clav"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
@@ -1052,6 +1052,8 @@ msgstr "Trametter"
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"Il servetsch dad SMS è mo disponibel en tscherts pajais. Eventualmain custan ils SMS e la transmissiun da datas. Il destinatur da l'e-mail u dal SMS sto esser d'accord. <a "
+"%(escapedLearnMoreAttributes)s>Ulteriuras infurmaziuns</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
@@ -1063,11 +1065,11 @@ msgstr "Installescha Firefox sin tes telefonin e t'annunzia per cumplettar l'ins
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Tramess ina colliaziun a l'applicaziun a %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Cuntegna il numer in sbagl?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:3
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Tramess anc ina giada ina colliaziun a l'applicaziun a %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Cuntegna il numer in sbagl?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1079,15 +1081,17 @@ msgstr "Betg arrivà? Trametter anc ina giada"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr ""
+msgstr "Pertge sincronisar differents apparats?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
 msgstr ""
+"Il servetsch da sincronisaziun na serva betg a la segirada da datas permanenta. Igl è dentant ina metoda segira per transmetter segnapaginas, la cronologia e pleds-clav tranter ils apparats che ti "
+"possedas."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
+msgstr "Ti duessas installar Firefox e sincronisar almain dus apparats per evitar che ti perdias datas en cas che ti las stos restaurar, ma has emblidà tes pled-clav."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1196,7 +1200,7 @@ msgstr "sesida actuala"
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
-msgstr ""
+msgstr "Revocar"
 
 #: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
@@ -1260,31 +1264,31 @@ msgstr "Tscherna il num che ti vuls ch'el cumpara en Firefox e sche ti administr
 
 #: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
-msgstr ""
+msgstr "Adressa dad e-mail secundara"
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-msgstr ""
+msgstr "In'adressa dad e-mail secundara è in'adressa supplementara per retschaiver avis da segirezza e confermar la sincronisaziun da novs apparats."
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
-msgstr ""
+msgstr "verifitgà"
 
 #: app/scripts/templates/settings/emails.mustache:9
 msgid "verification required"
-msgstr ""
+msgstr "verificaziun obligatorica"
 
 #: app/scripts/templates/settings/emails.mustache:10 app/scripts/templates/settings/emails.mustache:13
 msgid "Make primary"
-msgstr ""
+msgstr "Definir sco adressa principala"
 
 #: app/scripts/templates/settings/emails.mustache:12 app/scripts/templates/settings/emails.mustache:15
 msgid "Remove"
-msgstr ""
+msgstr "Allontanar"
 
 #: app/scripts/templates/settings/emails.mustache:16
 msgid "Not in inbox or spam folder? Resend?"
-msgstr ""
+msgstr "Betg da chattar en la posta entrada u en l'ordinatur da spam? Anc ina giada trametter?"
 
 #: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
@@ -1296,7 +1300,7 @@ msgstr "Quant vegl es ti?"
 
 #: app/scripts/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr ""
+msgstr "Ti tschertgas Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Cumenza qua</a>"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
@@ -1318,13 +1322,13 @@ msgstr "Utilisar il conto da Firefox"
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
 msgctxt "submit button"
 msgid "Sign in"
-msgstr ""
+msgstr "S'annunziar"
 
 #. header text
 #: app/scripts/views/sign_in.js:95
 msgctxt "header text"
 msgid "Sign in"
-msgstr ""
+msgstr "S'annunziar"
 
 #~ msgid "Next"
 #~ msgstr "Enavant"
