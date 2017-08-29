@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-29 21:13+0000\n"
+"PO-Revision-Date: 2017-08-29 21:48+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -730,11 +730,11 @@ msgstr "Tijikib'äx re rutikirisaxik molojri'ïl re'"
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Tanik'oj ri ruximonel jikib'anïk xtaq&nbsp;pan ataqoya'l chi re %(escapedEmail)s"
 
 #: app/scripts/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-msgstr ""
+msgstr "Tab'enik'oj pan ataqoya'l ri ruximonel rujikib'anik rutikirisaxik molojri'ïl taqon chi re %(email)s"
 
 #: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
