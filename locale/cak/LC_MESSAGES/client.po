@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-29 22:27+0000\n"
+"PO-Revision-Date: 2017-08-29 22:50+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -799,39 +799,39 @@ msgstr "¿Achike ruma rajowaxik re re'?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr ""
+msgstr "E k'atzinel taq kaxlanwey chuqa' aj wawe' yakoj"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr ""
+msgstr "Ketzij taq kaxlanwey chuqa' aj wawe' yakoj pa ri okik'amaya'l richin nib'an okem pa Firefox Accounts. We ke ri', xkesamajïx jalajöj taq samaj achi'el yatkinataj chi kikojol ri taq molojri'ïl."
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "Titojtob'ëx chik"
 
 #: app/scripts/templates/force_auth.mustache:1
 msgid "Sign in to continue"
-msgstr ""
+msgstr "Titikirisäx molojri'ïl richin ri samaj"
 
 #: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_in_password.mustache:5
 #: app/scripts/templates/sign_up.mustache:12 app/scripts/templates/sign_up_password.mustache:5 app/scripts/templates/settings/change_password.mustache:1
 #: app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
-msgstr ""
+msgstr "Ewan tzij"
 
 #: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_in_password.mustache:8
 #: app/scripts/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
-msgstr ""
+msgstr "¿La xmestäx ri ewan tzij?"
 
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:17
 #: app/scripts/templates/sign_up_password.mustache:8
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr ""
+msgstr "Pa rub'eyal, rat nawojqaj ri <a id=\"fxa-tos\" href=\"/legal/terms\">Rojqanem Samaj</a> chuqa' <a id=\"fxa-pp\" href=\"/legal/privacy\">Rutzijol Ichinanem</a> richin ri taq samaj pa rusutz' Firefox."
 
 #: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
 msgid "Enter your email"
-msgstr ""
+msgstr "Tatz'ib'aj ri ataqoya'l"
 
 #: app/scripts/templates/index.mustache:2 app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in_password.mustache:2
 #: app/scripts/templates/sign_up.mustache:2 app/scripts/templates/sign_up_password.mustache:2
