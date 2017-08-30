@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-30 22:49+0000\n"
+"PO-Revision-Date: 2017-08-30 23:06+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -1253,72 +1253,72 @@ msgstr "¿La kan nawajo' nayüj el ri rub'i' ataqoya'l? Man xkatikïr ta chik xt
 
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr ""
+msgstr "Tacha' ri b'i'aj nawajo' chi yatz'ët pa Firefox chuqa' toq nanuk'samajij ri rub'i' ataqoya'l."
 
 #: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
-msgstr ""
+msgstr "Ruka'n taqoya'l"
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-msgstr ""
+msgstr "Jun ruka'n taqoya'l, jun rutz'aqat ochochib'äl richin nik'ul rutzijol jikomal chuqa' richin yejikib'äx k'ak'a' taq okisaxel yexim."
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
-msgstr ""
+msgstr "jikib'an"
 
 #: app/scripts/templates/settings/emails.mustache:9
 msgid "verification required"
-msgstr ""
+msgstr "nrajo' rujikib'axik"
 
 #: app/scripts/templates/settings/emails.mustache:10 app/scripts/templates/settings/emails.mustache:13
 msgid "Make primary"
-msgstr ""
+msgstr "Tichap achi'el nab'ey"
 
 #: app/scripts/templates/settings/emails.mustache:12 app/scripts/templates/settings/emails.mustache:15
 msgid "Remove"
-msgstr ""
+msgstr "Telesäx el"
 
 #: app/scripts/templates/settings/emails.mustache:16
 msgid "Not in inbox or spam folder? Resend?"
-msgstr ""
+msgstr "¿La man k'o ta pan taqob'äl o pa ruyakwuj seq'tzijol? ¿La nitaq chik?"
 
 #: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
-msgstr ""
+msgstr "Titz'aqatisäx"
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
-msgstr ""
+msgstr "¿Janipe' ajuna'?"
 
 #: app/scripts/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr ""
+msgstr "¿La nakanoj ri Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Tatikirisaj wawe'</a>"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Titikirisäx molojri'ïl pa Sync"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-msgstr ""
+msgstr "Tacha' ri rub'i' taqoya'l nawajo' nawokisaj richin ye'axïm ri taq ruwi', taq yaketal, taq ewan tzij chuqa' ch'aqa' chik."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
-msgstr ""
+msgstr "Tokisäx OpenID"
 
 #: app/scripts/templates/openid/start.mustache:4
 msgid "Use Firefox Account"
-msgstr ""
+msgstr "Tokisäx Rutaqoya'l Firefox"
 
 #. submit button
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
 msgctxt "submit button"
 msgid "Sign in"
-msgstr ""
+msgstr "Titikirisäx molojri'ïl"
 
 #. header text
 #: app/scripts/views/sign_in.js:95
 msgctxt "header text"
 msgid "Sign in"
-msgstr ""
+msgstr "Titikirisäx molojri'ïl"
