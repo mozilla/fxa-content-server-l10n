@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-30 22:28+0000\n"
+"PO-Revision-Date: 2017-08-30 22:49+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -1169,87 +1169,87 @@ msgstr "Tichup"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
-msgstr ""
+msgstr "Ütz chi chupuj"
 
 #: app/scripts/templates/settings/clients.mustache:2
 msgid "Devices & apps"
-msgstr ""
+msgstr "Taq okisaxel & taq chokoy"
 
 #: app/scripts/templates/settings/clients.mustache:3 app/scripts/templates/partial/show-password.mustache:1
 msgid "Show"
-msgstr ""
+msgstr "Tik'ut pe"
 
 #: app/scripts/templates/settings/clients.mustache:6
 msgid "current device"
-msgstr ""
+msgstr "okisaxel k'o wakami"
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
-msgstr ""
+msgstr "Tichup…"
 
 #: app/scripts/templates/settings/clients.mustache:11
 msgid "current session"
-msgstr ""
+msgstr "molojri'ïl k'o wakami"
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
-msgstr ""
+msgstr "Tiyuj"
 
 #: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "Firefox richin iOS"
 
 #: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
 msgid "none connected"
-msgstr ""
+msgstr "majun okinäq"
 
 #: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
-msgstr ""
+msgstr "Tiqasäx"
 
 #: app/scripts/templates/settings/clients.mustache:22
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Firefox richin Android"
 
 #: app/scripts/templates/settings/clients.mustache:26
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "¿La k'a k'o taq ch'akulal nrajo' o ekamulun?"
 
 #: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20
 msgid "Refresh"
-msgstr ""
+msgstr "Titzolïx"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
-msgstr ""
+msgstr "Taq rajowanel tzijob'äl"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
-msgstr ""
+msgstr "Tik'ul ik' ik' ri ko'öl ruwuj tzijol richin Firefox."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Email preferences"
-msgstr ""
+msgstr "Taq rajowanel taqoya'l"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:10
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Tiq'at rutz'ib'axik b'i'aj"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:12
 msgid "Subscribe"
-msgstr ""
+msgstr "Titz'ib'äx nub'i'"
 
 #: app/scripts/templates/settings/delete_account.mustache:1 app/scripts/templates/settings/delete_account.mustache:5
 msgid "Delete account"
-msgstr ""
+msgstr "Tiyuj rub'i' taqoya'l"
 
 #: app/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete…"
-msgstr ""
+msgstr "Tiyuj…"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
-msgstr ""
+msgstr "¿La kan nawajo' nayüj el ri rub'i' ataqoya'l? Man xkatikïr ta chik xtatzolij pe."
 
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
