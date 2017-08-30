@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-30 21:09+0000\n"
+"PO-Revision-Date: 2017-08-30 21:30+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -1001,47 +1001,47 @@ msgstr "Titz'ib'äx rub'itz'ib' ya'oj q'ij"
 
 #: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4 app/scripts/templates/sign_up_password.mustache:1 app/scripts/templates/sign_up_password.mustache:4
 msgid "Create a Firefox Account"
-msgstr ""
+msgstr "Titz'uk jun Rub'i' Rutaqoya'l Firefox"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-msgstr ""
+msgstr "Ke'aq'axaj ri ximon taq atzij rik'in natz'ük jun k'ak'a' rub'i' Firefox&nbsp;Account."
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "¿La ye'akanoj taq rutzij taq atz'aqat? Tatz'ib'aj ab'i' richin jun Firefox Account rik'in ri ojer kib'i' kitaqoya'l taq tz'aqat."
 
 #: app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up_password.mustache:6
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr ""
+msgstr "Jun yonil, nïm ewan atzij xkeruköl ri taq atzij richin Firefox chi kiwäch ri nachanela'."
 
 #: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/sign_up_password.mustache:9
 msgid "Receive the monthly Firefox newsletter"
-msgstr ""
+msgstr "Tik'ul ik' ik' ri ko'öl ruwuj tzijol richin Firefox"
 
 #: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:11
 msgid "Create account"
-msgstr ""
+msgstr "Titz'uk rub'i' taqoya'l"
 
 #: app/scripts/templates/sign_up.mustache:25
 msgid "Have an account? Sign in"
-msgstr ""
+msgstr "¿La k'o chik jun rub'i' ataqoya'l? Tatikirisaj molojri'ïl"
 
 #: app/scripts/templates/sign_up_password.mustache:7
 msgid "Verify password"
-msgstr ""
+msgstr "Tinik'öx ewan tzij"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Jumul tataqa' ri Firefox pan awoyonib'al chuqa' tatikirisaj molojri'ïl richin natz'aqatisaj runuk'ulem"
 
 #: app/scripts/templates/sms_send.mustache:5
 msgid "Mobile phone number"
-msgstr ""
+msgstr "Rajilab'al k'wayel oyonib'ä"
 
 #: app/scripts/templates/sms_send.mustache:6
 msgid "Send"
-msgstr ""
+msgstr "Titaq"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
