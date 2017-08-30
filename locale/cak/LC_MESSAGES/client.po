@@ -969,7 +969,7 @@ msgstr "Xtzolïx ri rutaqoya'l jikib'anïk xtaq pa %(email)s chuqa' xqaq'ät ri 
 
 #: app/scripts/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr "We re re' jun okel rochochib'al taqoya'l, <a%(escapedSupportLinkAttrs)s>tab'ij pe chi qe</a> richin yatqato' chi man niq'at ta chik ri rub'i' ataqoya'l."
+msgstr "We re re' jun okel rochochib'al taqoya'l, <a %(escapedSupportLinkAttrs)s>tab'ij pe chi qe</a> richin yatqato' chi man niq'at ta chik ri rub'i' ataqoya'l."
 
 #: app/scripts/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
