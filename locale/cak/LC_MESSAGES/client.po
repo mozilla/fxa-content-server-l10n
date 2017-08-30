@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-30 21:30+0000\n"
+"PO-Revision-Date: 2017-08-30 21:49+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -1047,34 +1047,36 @@ msgstr "Titaq"
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"Ri SMS samaj okel xa pa jujun taq amaq'. Rik'in jub'a' ko kajil ri SMS &amp; chuqa' ri taq tzij. Ri k'ulb'anel rutzij taqoya'l o SMS k'o chi xuya' q'ij. <a %(escapedLearnMoreAttributes)s>Tetamäx "
+"ch'aqa' chik</a>"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid "Maybe later"
-msgstr ""
+msgstr "Jumul chik na"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Tayaka' ri Firefox pa ri k'wayel awoyonib'al chuqa' tatikirisaj molojri'ïl richin natz'aqatisaj runuk'ulem"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Xtaq ri ruximonel chokoy chi re %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>¿La sachoj&nbsp;ri ajilab'äl?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:3
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Titaq chik ri ruximonel chokoy chi re %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>¿La sachoj&nbsp;ri ajilab'äl?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "We man tajin ta ye'ak'ül ri rutzijol ri rucholajem tzij, yatikïr chuqa' naqasaj ri chokoy."
 
 #: app/scripts/templates/sms_sent.mustache:8
 msgid "Didn't arrive? Resend"
-msgstr ""
+msgstr "¿La man xapon ta? Titaq chik"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr ""
+msgstr "¿Achike ruma yexim jalajöj taq okisaxel?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
