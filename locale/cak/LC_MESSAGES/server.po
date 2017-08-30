@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-28 18:53+0000\n"
+"PO-Revision-Date: 2017-08-30 23:21+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -20,27 +20,31 @@ msgstr "¿La k'a at k'o chi ri'?"
 
 #: lib/senders/templates/_pending.txt:2
 msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
-msgstr ""
+msgstr "K'o chik q'ij xatz'ük jun rub'i' rutaqoya'l Firefox, po majub'ey xjikib'äx. Tapitz'a' ri ximonel k'o ikim richin natzïj."
 
 #: lib/senders/templates/_pending.txt:3
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
+"Ütz xawokisaj ri nab'ey awokisaxel pa ri Rutaqoya'l Firefox. Wakami yatikïr natikirisaj molojri'ïl pa Sync chi kipam ri ch'aqa' chik taq awokisaxel, ke ri' chuqa' ri Firefox richin <a "
+"href='%(androidUrl)s'>Android</a> chuqa' <a href='%(iosUrl)s'>iOS</a>."
 
 #: lib/senders/templates/_pending.txt:4
 msgid ""
 "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 "iOS</a>."
 msgstr ""
+"Ütz xawokisaj ri nab'ey awokisaxel pa ri Rutaqoya'l Firefox. Richin nawïl k'ïy rutzil ri Sync, ke'awokisaj xab'achike <a href='%(androidUrl)s'>Firefox richin Android</a> o <a "
+"href='%(iosUrl)s'>Firefox richin iOS</a>."
 
 #: lib/senders/templates/_pending.txt:5 lib/senders/templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "Tokisäx jun chik okisaxel"
 
 #: lib/senders/templates/_pending.txt:6
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Titikirisäx molojri'ïl pa Sync"
 
 #: lib/senders/templates/new_device_login.html:1 lib/senders/templates/password_changed.html:1 lib/senders/templates/password_reset.html:1 lib/senders/templates/password_reset_required.html:1
 #: lib/senders/templates/post_remove_secondary.html:1 lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1
@@ -49,7 +53,7 @@ msgstr ""
 #: lib/senders/templates/verify_sync.html:1 server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
 #: server/templates/pages/src/index.html:1 server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Firefox Accounts"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
 #: lib/senders/email.js:676
