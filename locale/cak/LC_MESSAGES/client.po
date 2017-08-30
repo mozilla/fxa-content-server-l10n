@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-29 23:45+0000\n"
+"PO-Revision-Date: 2017-08-30 00:50+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -945,19 +945,19 @@ msgstr "Titz'apïx molojri'ïl"
 
 #: app/scripts/templates/sign_in.mustache:4
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "¿La ye'akanoj taq rutzij taq atz'aqat? <a href=\"/signup\">Tatz'ib'aj ab'i'</a> richin jun Firefox Account rik'in ri ojer kib'i' kitaqoya'l taq tz'aqat."
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr ""
+msgstr "Ke'aq'axaj ri ximon taq atzij rik'in natikirisaj molojri'ïl pa ri rub'i' Firefox&nbsp;Account."
 
 #: app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:12
 msgid "Use a different account"
-msgstr ""
+msgstr "Tokisäx jun chik rub'i' taqoya'l"
 
 #: app/scripts/templates/sign_in.mustache:18
 msgid "Create an account"
-msgstr ""
+msgstr "Titz'uk jun rub'i' taqoya'l"
 
 #: app/scripts/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
