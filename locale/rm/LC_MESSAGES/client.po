@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-29 19:35+0000\n"
+"PO-Revision-Date: 2017-08-30 17:06+0000\n"
 "Last-Translator: Gion-Andri Cantieni <gion-andri@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
@@ -1264,11 +1264,11 @@ msgstr "Tscherna il num che ti vuls ch'el cumpara en Firefox e sche ti administr
 
 #: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
-msgstr "Adressa dad e-mail secundara"
+msgstr "Adressa dad e-mail alternativa"
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-msgstr "In'adressa dad e-mail secundara è in'adressa supplementara per retschaiver avis da segirezza e confermar la sincronisaziun da novs apparats."
+msgstr "In'adressa dad e-mail alternativa è in'adressa supplementara per retschaiver avis da segirezza e confermar la sincronisaziun da novs apparats."
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
