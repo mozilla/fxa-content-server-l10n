@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-30 21:49+0000\n"
+"PO-Revision-Date: 2017-08-30 22:10+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -1080,44 +1080,44 @@ msgstr "¿Achike ruma yexim jalajöj taq okisaxel?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr ""
+msgstr "Ri Sync samaj, man jun ta mekamel chi ruwachib'al jikomal, xa jun relik ütz rub'anikil richin yeq'axäx taq yaketal, natab'äl chuqa' ewan taq tzij chi kiwa ri taq awokisaxel."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
+msgstr "Ütz ta nayäk ri Firefox richin ye'axïm man xa xe ta ka'i' taq okisaxel richin nachajij awi' chuwäch ri sachoj taq tzij we nawajo' nab'än ruk'ojlem po namestaj ri ewan tzij."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
-msgstr ""
+msgstr "Xik'o pa nuwi'"
 
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2 app/scripts/templates/settings/emails.mustache:3
 msgid "Change…"
-msgstr ""
+msgstr "Tijalwachïx…"
 
 #: app/scripts/templates/settings/avatar.mustache:4 app/scripts/templates/settings/display_name.mustache:4 app/scripts/templates/settings/emails.mustache:5
 msgid "Add…"
-msgstr ""
+msgstr "Titz'aqatisäx…"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
-msgstr ""
+msgstr "Telesäx wachib'äl"
 
 #: app/scripts/templates/settings/avatar_change.mustache:1
 msgid "Upload"
-msgstr ""
+msgstr "Tijotob'äx"
 
 #: app/scripts/templates/settings/avatar_change.mustache:2
 msgid "Camera"
-msgstr ""
+msgstr "Elesab'äl wachib'äl"
 
 #: app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Clear"
-msgstr ""
+msgstr "Tijosq'ïx"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:22
 msgid "Done"
-msgstr ""
+msgstr "Xk'is"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
