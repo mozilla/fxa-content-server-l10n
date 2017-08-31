@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-31 00:47+0000\n"
+"PO-Revision-Date: 2017-08-31 01:10+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -69,7 +69,7 @@ msgstr "IP ochochib'äl: %(ip)s"
 
 #: lib/senders/templates/new_device_login.html:4 lib/senders/templates/verify_secondary.html:7
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
-msgstr "Ya'on q'ij chi re ri taqoya'l; we man aya'on ta q'ij, niqachilab'ej chawe chi <a %(passwordChangeLinkAttributes)s>tajala' ri ewan atzij.</a>"
+msgstr "Ruyonil nitaq re taqoya'l re'; we man aya'on ta q'ij, niqachilab'ej chawe chi <a %(passwordChangeLinkAttributes)s>tajala' ri ewan atzij.</a>"
 
 #: lib/senders/templates/new_device_login.html:5 lib/senders/templates/password_changed.html:6 lib/senders/templates/password_reset.html:5 lib/senders/templates/post_remove_secondary.html:6
 #: lib/senders/templates/post_verify.html:6 lib/senders/templates/post_verify_secondary.html:6 lib/senders/templates/post_verify_secondary_email.html:6 lib/senders/templates/recovery.html:7
@@ -91,7 +91,7 @@ msgstr "Ichinan Runa'oj Mozilla"
 
 #: lib/senders/templates/new_device_login.txt:3
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr "Utzicholon re jun taqoya'l re'; we man xatz'aqatisaj ta jun k'ak'a' okisaxel pa ri Ataqoya'l richin Firefox, niqachilab'ej chawe chi tajala' ri ewan atzij pa %(passwordChangeLink)s"
+msgstr "Ruyonil nitaq re taqoya'l re'; we man xatz'aqatisaj ta jun k'ak'a' okisaxel pa ri Ataqoya'l richin Firefox, niqachilab'ej chawe chi tajala' ri ewan atzij pa %(passwordChangeLink)s"
 
 #: lib/senders/templates/new_device_login.txt:4 lib/senders/templates/password_changed.txt:5 lib/senders/templates/password_reset.txt:4 lib/senders/templates/post_remove_secondary.txt:5
 #: lib/senders/templates/post_verify.txt:5 lib/senders/templates/post_verify_secondary.txt:5 lib/senders/templates/recovery.txt:6 lib/senders/templates/verification_reminder_first.txt:5
@@ -109,19 +109,19 @@ msgstr "Ütz xjal ri ewan rutzij Ataqoya'l richin Firefox pa re jun okisaxel re'
 
 #: lib/senders/templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "Ya'on q'ij chi re ri taqoya'l; we man aya'on ta q'ij, niqachilab'ej chawe chi <a %(resetLinkAttributes)s>tatzolij ri ewan atzij</a>."
+msgstr "Ruyonil nitaq re taqoya'l re'; we man aya'on ta q'ij, niqachilab'ej chawe chi <a %(resetLinkAttributes)s>tatzolij ri ewan atzij</a>."
 
 #: lib/senders/templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Ruyonil nitaq re taqoya'l re'; we man ajalon ta ri ewan rutzij Ataqoya'l richin Firefox, ütz ta natzolixtayij pa %(resetLink)s"
 
 #: lib/senders/templates/password_reset.html:2
 msgid "Your password has been reset"
-msgstr ""
+msgstr "Xtzolïx ri ewan atzij"
 
 #: lib/senders/templates/password_reset.html:3
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+msgstr "Xjal ri ewan rutzij ri Ataqoya'l richin Firefox. We man xajäl ta, <a %(resetLinkAttributes)s>tatzolij ri ewan atzij</a> wakami."
 
 #: lib/senders/templates/password_reset.html:4 lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5
 #: lib/senders/templates/post_verify.txt:4 lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/post_verify_secondary_email.html:5
@@ -129,31 +129,31 @@ msgstr ""
 #: lib/senders/templates/verification_reminder_second.html:5 lib/senders/templates/verification_reminder_second.txt:4 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
 #: lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
-msgstr ""
+msgstr "Ruyonil nitaq re taqoya'l re'; we xak'ül ruma jun sachoj, majun achike tab'ana'."
 
 #: lib/senders/templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Xtzolïx ütz ri ewan tzij"
 
 #: lib/senders/templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr ""
+msgstr "Ütz xtzolïx ri ewan rutzij Ataqoya'l richin Firefox."
 
 #: lib/senders/templates/password_reset.txt:3
 msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Ruyonil nitaq re taqoya'l re'; we man atzolin ta ri ewan rutzij Ataqoya'l richin Firefox, ütz ta natzolixtayij pa %(resetLink)s"
 
 #: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-msgstr ""
+msgstr "Xqatz'ët chi q'ab'an tzij chi rij ri samaj pan Ataqoya'l richin Firefox. Rik'in jub'a' xq'eleb'ëx ri ataqoya'l."
 
 #: lib/senders/templates/password_reset_required.html:3 lib/senders/templates/password_reset_required.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-msgstr ""
+msgstr "Richin nichajïx okem pa Ataqoya'l richin Firefox toq man aya'on ta q'ij, xqatzolij ri ewan atzij ruma ri' toq niqaya' rutzijol chawe achi'el jun retal chajinïk."
 
 #: lib/senders/templates/password_reset_required.html:4 lib/senders/templates/password_reset_required.txt:3
 msgid "What should you do?"
-msgstr ""
+msgstr "¿Achike ta k'a k'o chi nab'än?"
 
 #: lib/senders/templates/password_reset_required.html:5 lib/senders/templates/password_reset_required.txt:4
 msgid "First, change your Firefox Account password."
