@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-01 17:59+0000\n"
-"PO-Revision-Date: 2017-09-01 18:14+0000\n"
+"PO-Revision-Date: 2017-09-01 18:13+0000\n"
 "Last-Translator: Rok Žerdin <rok.zerdin1990@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -634,7 +634,7 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:51
 msgid "Why is more than one device required?"
-msgstr "Zakaj je zahtevana več kot ena naprava?"
+msgstr ""
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
