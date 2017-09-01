@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-08-31 01:27+0000\n"
+"PO-Revision-Date: 2017-09-01 15:44+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -205,26 +205,28 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
 msgstr ""
+"Ütz xawokisaj ri nab'ey awokisaxel pa ri Ataqoya'l richin Firefox. Wakami ütz natikirisaj molojri'ïl pa Sync kik'in ch'aqa' chik taq okisaxel, achi'el Firefox richin <a %(androidLinkAttributes)s "
+">Android</a> chuqa' <a %(iosLinkAttributes)s>iOS</a>."
 
 #: lib/senders/templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-msgstr ""
+msgstr "Ütz xawokisaj ri nab'ey awokisaxel pa ri Ataqoya'l Firefox. Wakami yatikïr natikirisaj molojri'ïl pa Sync chi kipam ri ch'aqa' chik taq awokisaxel, achi'el Firefox richin Android chuqa' iOS."
 
 #: lib/senders/templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr ""
+msgstr "Titikirisäx molojri'ïl pa Sync:"
 
 #: lib/senders/templates/post_verify_secondary.html:2 lib/senders/templates/post_verify_secondary.txt:1 lib/senders/templates/post_verify_secondary_email.html:2
 msgid "Secondary email added"
-msgstr ""
+msgstr "Xtz'aqatisäx ri ruka'n taqoya'l"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2 lib/senders/templates/post_verify_secondary_email.html:3
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr ""
+msgstr "Ütz xajikib'a' %(secondaryEmail)s achi'el ruka'n taqoya'l pa ri Ataqoya'l Firefox. Xketaq el pa ri taq taqoya'l ri taq rutzijol jikomal chuqa' kijikib'anik kitikirisaxik molojri'ïl."
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:1
 msgid "Forgot your password?"
-msgstr ""
+msgstr "¿La xamestäx ri ewan atzij?"
 
 #: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
