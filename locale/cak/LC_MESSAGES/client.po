@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-01 17:59+0000\n"
-"PO-Revision-Date: 2017-09-01 18:37+0000\n"
+"PO-Revision-Date: 2017-09-01 21:31+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -72,11 +72,11 @@ msgstr "Jikib'an rub'i' taqoya'l"
 
 #: app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:164
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr "Man etaman ta ruwäch rub'i' taqoya'l. <a href=\"/signup\">Tatz'ib'aj ab'i'</a>"
+msgstr "Achike la rub'i' taqoya'l. <a href=\"/signup\">Tatz'ib'aj ab'i'</a>"
 
 #: app/scripts/views/sign_in.js:161
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr "Man etaman ta ruwäch Rub'i' Rutaqoya'l Firefox. <a href=\"/signup\">Tatz'ib'aj ab'i'</a> akuchi' nawokisaj ri jun kan ataqoya'l richin ri rutaqoya'l Tz'aqat richin yatok pa ri taq rutzij Tz'aqat."
+msgstr "Achike la Rub'i' Rutaqoya'l Firefox. <a href=\"/signup\">Tatz'ib'aj ab'i'</a> akuchi' nawokisaj ri jun kan ataqoya'l richin ri rutaqoya'l Tz'aqat richin yatok pa ri taq rutzij Tz'aqat."
 
 #: app/scripts/views/sign_up.js:55
 msgid "Account no longer exists. Recreate it?"
