@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-09-01 16:10+0000\n"
+"PO-Revision-Date: 2017-09-01 16:25+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -265,8 +265,8 @@ msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
 " email address to activate your account."
 msgstr ""
-"Ke la' kan xanük' jun Ataqoya'l richin Firefox, xa xechi man xajikib'a' ta. Jun jikib'an taqoya'l nuya' q'ij chawe yatok pa taq ruwi', yaketal, taq ewan tzij chuqa' natab'äl pa xab'achike okisanel "
-"okisan chupam. Xa xe k'o chi najikib'a' re rochochib'al taqoya'l re' richin natz'ïk ri ataqoya'l."
+"K'o yan chik q'ij tanük' jun Ataqoya'l richin Firefox, xa xe chi man xajikib'a' ta. Jun jikib'an taqoya'l nuya' q'ij chawe yatok pa taq ruwi', yaketal, taq ewan tzij chuqa' natab'äl pa xab'achike "
+"okisanel okisan chupam. Xa xe k'o chi najikib'a' re rochochib'al taqoya'l re' richin natz'ïj ri ataqoya'l."
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verify.html:4
 msgid "Activate now"
@@ -278,39 +278,41 @@ msgstr "Tinik'öx Taqoya'l"
 
 #: lib/senders/templates/verification_reminder_first.html:9 lib/senders/templates/verification_reminder_second.html:9 lib/senders/templates/verify.html:9 lib/senders/templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
-msgstr ""
+msgstr "Tajikib'a' ri ataqoya'l richin nak'ïs rutz'ib'axik ri Ataqoya'l richin Firefox"
 
 #: lib/senders/templates/verification_reminder_first.txt:3 lib/senders/templates/verification_reminder_second.txt:3 lib/senders/templates/verify.txt:3
 msgid "Activate now:"
-msgstr ""
+msgstr "Titzij wakami:"
 
 #: lib/senders/templates/verification_reminder_second.html:3 lib/senders/templates/verification_reminder_second.txt:2
 msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 msgstr ""
+"Jun chik wuqq'ij tanuk' jun Ataqoya'l richin Firefox, xa xe chi man xajikib'a' ta. Yatqamäy. Tajikib'a' ri rochochib'al taqoya'l ri' richin natz'ïj ri ataqoya'l chuqa' richin niqetamaj chi ütz "
+"ab'anon."
 
 #: lib/senders/templates/verify.html:2 lib/senders/templates/verify.txt:1
 msgid "Welcome!"
-msgstr ""
+msgstr "¡Ütz apetik!"
 
 #: lib/senders/templates/verify.html:3 lib/senders/templates/verify.txt:2
 msgid "Please activate your account by confirming this email address."
-msgstr ""
+msgstr "Tab'ana' utzil tatzija' ri ataqoya'l rik'in najikib'a' rochochib'al re taqoya'l re'."
 
 #: lib/senders/templates/verify_login.html:3 lib/senders/templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "Richin jikonem, tajikib'a' rutikirisaxik molojri'ïl richin nachäp ximojri'ïl pa re okisaxel re':"
 
 #: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "Tijikib'äx rutikirisaxik molojri'ïl"
 
 #: lib/senders/templates/verify_login.html:6
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "We nana'ojij chi k'o najowan nok pa ataqoya'l, <a %(passwordChangeLinkAttributes)s>tajala' ri ewan atzij</a>."
 
 #: lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_secondary.txt:5
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr ""
+msgstr "We nana'ojij chi k'o najowan nok pa ataqoya'l, tajala' ri ewan atzij."
 
 #: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
 msgid "Verify secondary email"
