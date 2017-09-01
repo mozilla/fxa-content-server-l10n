@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-09-01 17:04+0000\n"
+"PO-Revision-Date: 2017-09-01 17:28+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -396,76 +396,76 @@ msgstr "Tatzolij ri ewan rutzij Ataqoya'l richin Firefox"
 
 #: lib/senders/email.js:578
 msgid "Your Firefox Account password has been changed"
-msgstr ""
+msgstr "Xjal ri ewan rutzij Ataqoya'l richin Firefox"
 
 #: lib/senders/email.js:614
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "Xtzolïx ri ewan rutzij Ataqoya'l richin Firefox"
 
 #: lib/senders/email.js:645
 msgid "Firefox Account password reset required"
-msgstr ""
+msgstr "Najowäx nitzolïx ewan rutzij Ataqoya'l richin Firefox"
 
 #: lib/senders/email.js:713
 msgid "Firefox Account verified"
-msgstr ""
+msgstr "Xjikib'äx Ataqoya'l richin Firefox"
 
 #: lib/senders/email.js:749
 msgid "Secondary Firefox Account email added"
-msgstr ""
+msgstr "Xtz'aqatisäx jun ruka'n taqoya'l pa Rutaqoya'l Firefox"
 
 #: lib/senders/email.js:785
 msgid "Secondary Firefox Account email removed"
-msgstr ""
+msgstr "Xelesäx ri ruka'n taqoya'l pa Rutaqoya'l Firefox"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "Man xilitäj ta ruxaq"
 
 #: server/templates/pages/src/404.html:3
 msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
-msgstr ""
+msgstr "Man xilitäj ta ri ruxaq xak'utuj. Xapon yan rutzijol qik'in chuqa' xtiqanük' xab'achike ximonel xk'apitäj."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
-msgstr ""
+msgstr "Tikirib'äl"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"
-msgstr ""
+msgstr "Sachoj 500"
 
 #: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr ""
+msgstr "¡K'ayew!, xk'ulwachitäj jun k'ayewal. Xya' yan rutzijol chi qe ruma ri' toq tajin niqab'än rutzil."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "Sachoj 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Tajin nisamäj ri ruk'u'x samaj, tatojtob'ej na chik"
 
 #: server/templates/pages/src/503.html:3
 msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
-msgstr ""
+msgstr "K'ïy yojkanon qichin ruma ri' toq tajin yojsamäj chi ri q'inoj nisamäj achi'el rub'anon pe."
 
 #: server/templates/pages/src/index.html:2 server/templates/pages/src/privacy.html:5 server/templates/pages/src/terms.html:5
 msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr ""
+msgstr "Tajin nawokisaj jun <strong>ri'j</strong> okik'amaya'l. Tak'exa' <a href=\"http://browsehappy.com/\">ri awokik'amaya'l</a> ke ri' nawutzilaj awetamab'al."
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "K'atzinel JavaScript chi re ri Firefox Accounts."
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Rutzijol Ichinanem"
 
 #: server/templates/pages/src/privacy.html:3 server/templates/pages/src/terms.html:3
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "Taq samaj pa rusutz' Firefox"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
-msgstr ""
+msgstr "Taq Rojqanem Samaj"
