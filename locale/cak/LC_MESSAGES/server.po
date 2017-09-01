@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-09-01 15:44+0000\n"
+"PO-Revision-Date: 2017-09-01 16:10+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -230,49 +230,51 @@ msgstr "¿La xamestäx ri ewan atzij?"
 
 #: lib/senders/templates/recovery.html:3 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
-msgstr ""
+msgstr "K'o jun ramaj chawe chi napït ri pitz'b'äl richin nanük' jun k'ak'a' ewan rutzij Ataqoya'l richin Firefox. Chupam re okisaxel re' k'utun pe:"
 
 #: lib/senders/templates/recovery.html:5 lib/senders/templates/recovery.txt:4
 msgid "Reset password"
-msgstr ""
+msgstr "Titzolïx ewan tzij"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr ""
+msgstr "¡Matyox ruma acha'on ri Firefox! Yatikïr chuqa' nayäk Firefox richin oyonib'äl wawe': %(link)s"
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1
 msgid "Is this you signing in?"
-msgstr ""
+msgstr "¿La ja rat yatajowan natikirisaj molojri'ïl?"
 
 #: lib/senders/templates/unblock_code.html:4 lib/senders/templates/unblock_code.txt:3
 msgid "If yes, here is the authorization code you need:"
-msgstr ""
+msgstr "We ke ri', ja re' ri rub'itz'ib' ya'oj q'ij nik'atzin chawe:"
 
 #: lib/senders/templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr ""
+msgstr "We man ke ta ri', kojato' richin niqato' qi' chi kiwäch ri nachanela' chuqa' <a %(reportSignInLinkAttributes)s>ke'asujuj pe.</a>"
 
 #: lib/senders/templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "We man ke ta ri', kojato' richin niqato' qi' chi kiwa ri nachanela' chuqa' ke'asujuj pe."
 
 #: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:811
 msgid "Hello again."
-msgstr ""
+msgstr "Ïx ütz."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
 "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
 " email address to activate your account."
 msgstr ""
+"Ke la' kan xanük' jun Ataqoya'l richin Firefox, xa xechi man xajikib'a' ta. Jun jikib'an taqoya'l nuya' q'ij chawe yatok pa taq ruwi', yaketal, taq ewan tzij chuqa' natab'äl pa xab'achike okisanel "
+"okisan chupam. Xa xe k'o chi najikib'a' re rochochib'al taqoya'l re' richin natz'ïk ri ataqoya'l."
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verify.html:4
 msgid "Activate now"
-msgstr ""
+msgstr "Titzij wakami"
 
 #: lib/senders/templates/verification_reminder_first.html:8 lib/senders/templates/verification_reminder_second.html:8 lib/senders/templates/verify.html:8 lib/senders/templates/verify_sync.html:10
 msgid "Verify Email"
-msgstr ""
+msgstr "Tinik'öx Taqoya'l"
 
 #: lib/senders/templates/verification_reminder_first.html:9 lib/senders/templates/verification_reminder_second.html:9 lib/senders/templates/verify.html:9 lib/senders/templates/verify_sync.html:11
 msgid "Verify your email to finish your Firefox Account registration"
