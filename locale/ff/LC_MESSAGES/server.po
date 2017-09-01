@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-21 15:32+0000\n"
+"POT-Creation-Date: 2017-09-01 16:08+0000\n"
 "PO-Revision-Date: 2017-01-12 10:09+0000\n"
 "Last-Translator: ibrahima.sarr <ibrahima.sarr@pulaagu.com>\n"
 "Language-Team: FULAH LOCALIZATION\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1425732953.0\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:814
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:745
 msgid "Still there?"
 msgstr "Aɗa ɗoo tawo?"
 
@@ -57,7 +57,7 @@ msgid "Firefox Accounts"
 msgstr "Konte Firefox"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:676
+#: lib/senders/email.js:624
 msgid "New sign-in to Firefox"
 msgstr "Ceŋagol kesol e Firefox"
 
@@ -125,10 +125,10 @@ msgid "Your Firefox Account password has changed. If you did not change it, plea
 msgstr "Finnde maa Konte Firefox waylaama. So a waylaano nde, tiiɗno <a %(resetLinkAttributes)s>firlit finnde maa</a> jooni."
 
 #: lib/senders/templates/password_reset.html:4 lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5
-#: lib/senders/templates/post_verify.txt:4 lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/post_verify_secondary_email.html:5
-#: lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_first.txt:4
-#: lib/senders/templates/verification_reminder_second.html:5 lib/senders/templates/verification_reminder_second.txt:4 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
-#: lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
+#: lib/senders/templates/post_verify.txt:4 lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/post_verify_secondary.txt:4
+#: lib/senders/templates/post_verify_secondary_email.html:5 lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:5
+#: lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.html:5 lib/senders/templates/verification_reminder_second.txt:4
+#: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4 lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Ɗuum ko iimeel jaajo; so a heɓiimo e juumre, alaa ko pot-ɗaa waɗde hay baɗte."
 
@@ -253,7 +253,7 @@ msgstr "So wonaa een, wallu min surde wujjittooɓe tee <a %(reportSignInLinkAttr
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "So wonaa aan wallu-min falaade wijjittooɓe tee jaŋtano min."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:811
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:742
 msgid "Hello again."
 msgstr "A salminaama dadi."
 
@@ -365,51 +365,51 @@ msgstr "%(stateCode)s, %(country)s (e ko hiisaa)"
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (e ko hiisaa)"
 
-#: lib/senders/email.js:302
+#: lib/senders/email.js:307
 msgid "Verify your Firefox Account"
 msgstr "Ƴeewto Konte Firefox maa"
 
-#: lib/senders/email.js:326
+#: lib/senders/email.js:329
 msgid "Confirm your email and start to sync!"
 msgstr "Teeŋtin iimeel maa kisa puɗɗo-ɗaa syncude!"
 
-#: lib/senders/email.js:383
+#: lib/senders/email.js:375
 msgid "Firefox Account authorization code"
 msgstr "Kod jamirgol Konte Firefox"
 
-#: lib/senders/email.js:433
+#: lib/senders/email.js:417
 msgid "Confirm new sign-in to Firefox"
 msgstr "Teeŋtin ceŋagol kesol e Firefox"
 
-#: lib/senders/email.js:487
+#: lib/senders/email.js:464
 msgid "Verify email for Firefox Accounts"
 msgstr ""
 
-#: lib/senders/email.js:540
+#: lib/senders/email.js:511
 msgid "Reset your Firefox Account password"
 msgstr "Firlit finnde Konte Firefox maa"
 
-#: lib/senders/email.js:578
+#: lib/senders/email.js:543
 msgid "Your Firefox Account password has been changed"
 msgstr "Finnde Konte Firefox maa waylaama"
 
-#: lib/senders/email.js:614
+#: lib/senders/email.js:573
 msgid "Your Firefox Account password has been reset"
 msgstr "Finnde Konte Firefox maa firlitaama"
 
-#: lib/senders/email.js:645
+#: lib/senders/email.js:599
 msgid "Firefox Account password reset required"
 msgstr "Finnde Konte Firefox ena waɗɗii"
 
-#: lib/senders/email.js:713
+#: lib/senders/email.js:656
 msgid "Firefox Account verified"
 msgstr "Konte Firefox ƴeewtaama"
 
-#: lib/senders/email.js:749
+#: lib/senders/email.js:687
 msgid "Secondary Firefox Account email added"
 msgstr ""
 
-#: lib/senders/email.js:785
+#: lib/senders/email.js:717
 msgid "Secondary Firefox Account email removed"
 msgstr ""
 
