@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-21 15:32+0000\n"
+"POT-Creation-Date: 2017-09-01 17:59+0000\n"
 "PO-Revision-Date: 2017-08-18 16:30+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,7 +103,7 @@ msgstr "متاسفیم که این اتفاق پیش آمده. اگر این و�
 msgid "Web Session, %(userAgent)s"
 msgstr "نشست وب، %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:75 app/scripts/lib/strings.js:43
+#: app/scripts/views/settings/clients.js:75
 msgid "Web Session"
 msgstr "نشست وب"
 
@@ -624,9 +624,21 @@ msgstr "آدرس IP: %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "برای امنیت بیشتر، لطفا این ورود را تایید کنید تا همگام‌سازی با این دستگاه آغاز شود:"
 
-#: app/scripts/lib/strings.js:49 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4 app/scripts/templates/sign_in_password.mustache:6
+#: app/scripts/lib/strings.js:46 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4 app/scripts/templates/sign_in_password.mustache:6
 msgid "Sign in"
 msgstr "ورود"
+
+#: app/scripts/lib/strings.js:49
+msgid "Signin confirmed"
+msgstr ""
+
+#: app/scripts/lib/strings.js:50
+msgid "Still adding devices?"
+msgstr ""
+
+#: app/scripts/lib/strings.js:51
+msgid "Why is more than one device required?"
+msgstr ""
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"

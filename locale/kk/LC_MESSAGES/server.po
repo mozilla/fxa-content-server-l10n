@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: fxa-server\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-21 15:32+0000\n"
+"POT-Creation-Date: 2017-09-01 17:59+0000\n"
 "PO-Revision-Date: 2017-08-27 05:27+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:814
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:745
 msgid "Still there?"
 msgstr "Әлі осындасыз ба?"
 
@@ -32,8 +32,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-"iOS</a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
+"a>."
 msgstr ""
 "Сіз өз Firefox тіркелгіңізге бірінші құрылғыны сәтті байланыстырдыңыз. Синхрондаудан көбірек алу үшін, <a href='%(androidUrl)s'>Android үшін Firefox</a> немесе <a href='%(iosUrl)s'>iOS үшін Firefox-"
 "ты</a> байланыстырыңыз."
@@ -56,7 +56,7 @@ msgid "Firefox Accounts"
 msgstr "Firefox тіркелгілері"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:676
+#: lib/senders/email.js:624
 msgid "New sign-in to Firefox"
 msgstr "Firefox-қа жаңа кіру"
 
@@ -124,10 +124,10 @@ msgid "Your Firefox Account password has changed. If you did not change it, plea
 msgstr "Сіздің Firefox тіркелгіңіздің паролі өзгертілген. Егер сіз оны өзгертпеген болсаңыз, онда дәл қазір <a %(resetLinkAttributes)s>пароліңізді тастаңыз</a>."
 
 #: lib/senders/templates/password_reset.html:4 lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5
-#: lib/senders/templates/post_verify.txt:4 lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/post_verify_secondary_email.html:5
-#: lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_first.txt:4
-#: lib/senders/templates/verification_reminder_second.html:5 lib/senders/templates/verification_reminder_second.txt:4 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
-#: lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
+#: lib/senders/templates/post_verify.txt:4 lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/post_verify_secondary.txt:4
+#: lib/senders/templates/post_verify_secondary_email.html:5 lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:5
+#: lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.html:5 lib/senders/templates/verification_reminder_second.txt:4
+#: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4 lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Бұл автоматтандырылған эл. пошта хаты; осыны алғаныңыз қате деп ойласаңыз, еш әрекетті жасау керек емес."
 
@@ -253,14 +253,14 @@ msgstr "Жоқ болса, алаяқтылармен күресуге көме�
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Жоқ болса, алаяқтылармен күресуге көмектесу үшін ол туралы бізге хабарлаңыз."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:811
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:742
 msgid "Hello again."
 msgstr "Қайтадан, сәлем."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-" email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+"this email address to activate your account."
 msgstr ""
 "Бірнеше күн бұрын сіз Firefox тіркелгісін жасағансыз, бірақ, оны растамағансыз. Расталған тіркелгі арқылы оған байланысқан әр құрылғыдағы беттер, бетбелгілер, парольдер және шолу тарихына қатынауға "
 "мүмкіндік береді. Тіркелгіні белсендіру үшін бұл эл. пошта адресін растау жеткілікті."
@@ -367,51 +367,51 @@ msgstr "%(stateCode)s, %(country)s (шамамен)"
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (шамамен)"
 
-#: lib/senders/email.js:302
+#: lib/senders/email.js:307
 msgid "Verify your Firefox Account"
 msgstr "Firefox тіркелгіңізді растаңыз"
 
-#: lib/senders/email.js:326
+#: lib/senders/email.js:329
 msgid "Confirm your email and start to sync!"
 msgstr "Эл. пошта адресіңізді растап, синхрондауды бастаңыз!"
 
-#: lib/senders/email.js:383
+#: lib/senders/email.js:375
 msgid "Firefox Account authorization code"
 msgstr "Firefox тіркелгісі авторизация коды"
 
-#: lib/senders/email.js:433
+#: lib/senders/email.js:417
 msgid "Confirm new sign-in to Firefox"
 msgstr "Firefox-қа жаңа кіруді растаңыз"
 
-#: lib/senders/email.js:487
+#: lib/senders/email.js:464
 msgid "Verify email for Firefox Accounts"
 msgstr "Firefox тіркелгілері үшін эл. поштаны растаңыз"
 
-#: lib/senders/email.js:540
+#: lib/senders/email.js:511
 msgid "Reset your Firefox Account password"
 msgstr "Firefox тіркелгі паролін тастау"
 
-#: lib/senders/email.js:578
+#: lib/senders/email.js:543
 msgid "Your Firefox Account password has been changed"
 msgstr "Сіздің Firefox тіркелгісі паролі өзгертілді"
 
-#: lib/senders/email.js:614
+#: lib/senders/email.js:573
 msgid "Your Firefox Account password has been reset"
 msgstr "Сіздің Firefox тіркелгісі паролі тасталды"
 
-#: lib/senders/email.js:645
+#: lib/senders/email.js:599
 msgid "Firefox Account password reset required"
 msgstr "Firefox тіркелгісінің паролін тастау керек"
 
-#: lib/senders/email.js:713
+#: lib/senders/email.js:656
 msgid "Firefox Account verified"
 msgstr "Firefox тіркелгісі расталды"
 
-#: lib/senders/email.js:749
+#: lib/senders/email.js:687
 msgid "Secondary Firefox Account email added"
 msgstr "Firefox тіркелгісінің екіншілік эл. пошта адресі қосылды"
 
-#: lib/senders/email.js:785
+#: lib/senders/email.js:717
 msgid "Secondary Firefox Account email removed"
 msgstr "Firefox тіркелгісінің екіншілік эл. пошта адресі өшірілді"
 
@@ -467,17 +467,19 @@ msgstr "Firefox бұлттық қызметтері"
 msgid "Terms of Service"
 msgstr "Қолдану шарттары"
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
-#~ "Сіз сәтті түрде %(secondaryEmail)s адресін Firefox тіркелгісінің екіншілік эл. пошта адресін ретінде растадыңыз. Қауіпсіздік ескертулер және кіруге растаулар енді эл. пошта адрестерінің екеуіге де "
-#~ "жеткізілетін болады."
+#~ "Сіз сәтті түрде %(secondaryEmail)s адресін Firefox тіркелгісінің екіншілік эл. пошта адресін ретінде растадыңыз. Қауіпсіздік ескертулер және кіруге растаулар енді эл. пошта адрестерінің екеуіге "
+#~ "де жеткізілетін болады."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Сұралғандай, Firefox-ты өз мобильді құрылғыңызға орнату сілтемесі: %(link)s"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 #~ msgstr ""
-#~ "Сіз өзіңіздің Firefox тіркелгіңізге төмендегі орналасулардың біреуінен соңғы 60 күнде кіргенсіз бе? Егер сіз осы орналасуларды танымасаңыз, басқа адам сіздің Firefox тіркелгіңізге қатынағаны мүмкін."
+#~ "Сіз өзіңіздің Firefox тіркелгіңізге төмендегі орналасулардың біреуінен соңғы 60 күнде кіргенсіз бе? Егер сіз осы орналасуларды танымасаңыз, басқа адам сіздің Firefox тіркелгіңізге қатынағаны "
+#~ "мүмкін."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Күн мен уақыты:"
@@ -552,8 +554,8 @@ msgstr "Қолдану шарттары"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Бір апта бұрын сіз Firefox тіркелгісін жасағансыз, бірақ, оны растамағансыз. Біз сіз туралы уайымдаймыз. Firefox Windows, Mac, Linux, Android және iOS үшін қолжетерлік. Олардың барлығының арасында "
-#~ "Firefox парольдерін, бетбелгілер және шолу тарихын синхрондай аласыз. Тіркелгіні белсендіру үшін бұл эл. пошта адресін растаңыз."
+#~ "Бір апта бұрын сіз Firefox тіркелгісін жасағансыз, бірақ, оны растамағансыз. Біз сіз туралы уайымдаймыз. Firefox Windows, Mac, Linux, Android және iOS үшін қолжетерлік. Олардың барлығының "
+#~ "арасында Firefox парольдерін, бетбелгілер және шолу тарихын синхрондай аласыз. Тіркелгіні белсендіру үшін бұл эл. пошта адресін растаңыз."
 
 #~ msgid "env"
 #~ msgstr "env"

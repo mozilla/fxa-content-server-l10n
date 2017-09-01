@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-21 15:32+0000\n"
+"POT-Creation-Date: 2017-09-01 17:59+0000\n"
 "PO-Revision-Date: 2017-08-14 22:19+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
@@ -103,7 +103,7 @@ msgstr "Det var tråkigt att höra. Om detta var en enhet som du verkligen inte 
 msgid "Web Session, %(userAgent)s"
 msgstr "Webbsession, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:75 app/scripts/lib/strings.js:43
+#: app/scripts/views/settings/clients.js:75
 msgid "Web Session"
 msgstr "Webbsession"
 
@@ -624,9 +624,21 @@ msgstr "IP-adress: %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "För extra säkerhet, vänligen bekräfta denna inloggning för att börja synkronisera med den här enheten:"
 
-#: app/scripts/lib/strings.js:49 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4 app/scripts/templates/sign_in_password.mustache:6
+#: app/scripts/lib/strings.js:46 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4 app/scripts/templates/sign_in_password.mustache:6
 msgid "Sign in"
 msgstr "Logga in"
+
+#: app/scripts/lib/strings.js:49
+msgid "Signin confirmed"
+msgstr ""
+
+#: app/scripts/lib/strings.js:50
+msgid "Still adding devices?"
+msgstr ""
+
+#: app/scripts/lib/strings.js:51
+msgid "Why is more than one device required?"
+msgstr ""
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
