@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-21 15:32+0000\n"
-"PO-Revision-Date: 2017-09-01 16:46+0000\n"
+"PO-Revision-Date: 2017-09-01 17:04+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -344,55 +344,55 @@ msgstr "Tajikib'a' chi xak'ül re taqoya'l re' richin yatqato' richin nayäk chu
 
 #: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "Toq xajikib'a' yan, yatqato' richin nayäk chuqa' nawokisaxj ri Firefox pa jun chik rutz'aqat okisaxel."
 
 #: lib/senders/email.js:162
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
-msgstr ""
+msgstr "%(uaBrowser)s pa %(uaOS)s %(uaOSVersion)s"
 
 #: lib/senders/email.js:165
 msgid "%(uaBrowser)s on %(uaOS)s"
-msgstr ""
+msgstr "%(uaBrowser)s pa %(uaOS)s"
 
 #: lib/senders/email.js:192
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(stateCode)s, %(country)s (q'ijun)"
 
 #: lib/senders/email.js:194
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (q'ijun)"
 
 #: lib/senders/email.js:196
 msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(stateCode)s, %(country)s (q'ijun)"
 
 #: lib/senders/email.js:198
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (q'ijun)"
 
 #: lib/senders/email.js:302
 msgid "Verify your Firefox Account"
-msgstr ""
+msgstr "Tanik'oj ri Ataqoya'l richin Firefox"
 
 #: lib/senders/email.js:326
 msgid "Confirm your email and start to sync!"
-msgstr ""
+msgstr "¡Tajikib'a' ri ataqoya'l richin natikirisaj ri ximojri'ïl!"
 
 #: lib/senders/email.js:383
 msgid "Firefox Account authorization code"
-msgstr ""
+msgstr "Rub'itz'i' ya'oj ruq'ij ri Taqoya'l richin Firefox"
 
 #: lib/senders/email.js:433
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
+msgstr "Tijikib'äx ri K'ak'a' rutikirisaxik molojri'ïl pa Firefox"
 
 #: lib/senders/email.js:487
 msgid "Verify email for Firefox Accounts"
-msgstr ""
+msgstr "Tinik'öx taqoya'l pa Rutaqoya'l Firefox"
 
 #: lib/senders/email.js:540
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "Tatzolij ri ewan rutzij Ataqoya'l richin Firefox"
 
 #: lib/senders/email.js:578
 msgid "Your Firefox Account password has been changed"
