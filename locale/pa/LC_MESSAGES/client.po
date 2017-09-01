@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-21 15:32+0000\n"
+"POT-Creation-Date: 2017-09-01 17:59+0000\n"
 "PO-Revision-Date: 2015-10-13 12:01+0000\n"
 "Last-Translator: Matjaž <m@owca.info>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,7 +102,7 @@ msgstr ""
 msgid "Web Session, %(userAgent)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:75 app/scripts/lib/strings.js:43
+#: app/scripts/views/settings/clients.js:75
 msgid "Web Session"
 msgstr ""
 
@@ -621,9 +621,21 @@ msgstr ""
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr ""
 
-#: app/scripts/lib/strings.js:49 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4 app/scripts/templates/sign_in_password.mustache:6
+#: app/scripts/lib/strings.js:46 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4 app/scripts/templates/sign_in_password.mustache:6
 msgid "Sign in"
 msgstr "ਸਾਈਨ ਇਨ"
+
+#: app/scripts/lib/strings.js:49
+msgid "Signin confirmed"
+msgstr ""
+
+#: app/scripts/lib/strings.js:50
+msgid "Still adding devices?"
+msgstr ""
+
+#: app/scripts/lib/strings.js:51
+msgid "Why is more than one device required?"
+msgstr ""
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
