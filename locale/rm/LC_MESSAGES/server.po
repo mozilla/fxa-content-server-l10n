@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-01 17:59+0000\n"
-"PO-Revision-Date: 2017-09-02 12:30+0000\n"
+"PO-Revision-Date: 2017-09-02 12:33+0000\n"
 "Last-Translator: mcmartin <mcmartin@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
@@ -350,23 +350,23 @@ msgstr "%(uaBrowser)s sin %(uaOS)s %(uaOSVersion)s"
 
 #: lib/senders/email.js:165
 msgid "%(uaBrowser)s on %(uaOS)s"
-msgstr ""
+msgstr "%(uaBrowser)s sin %(uaOS)s"
 
 #: lib/senders/email.js:192
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(stateCode)s, %(country)s (approximativ)"
 
 #: lib/senders/email.js:194
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (approximativ)"
 
 #: lib/senders/email.js:196
 msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(stateCode)s, %(country)s (approximativ)"
 
 #: lib/senders/email.js:198
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (approximativ)"
 
 #: lib/senders/email.js:307
 msgid "Verify your Firefox Account"
@@ -374,19 +374,19 @@ msgstr "Verifitgar tes conto da Firefox"
 
 #: lib/senders/email.js:329
 msgid "Confirm your email and start to sync!"
-msgstr ""
+msgstr "Conferma tia adressa dad e-mail e cumenza a sincronisar."
 
 #: lib/senders/email.js:375
 msgid "Firefox Account authorization code"
-msgstr ""
+msgstr "Code d'autorisaziun per tes conto da Firefox"
 
 #: lib/senders/email.js:417
 msgid "Confirm new sign-in to Firefox"
-msgstr ""
+msgstr "Conferma ina nova annunzia tar Firefox"
 
 #: lib/senders/email.js:464
 msgid "Verify email for Firefox Accounts"
-msgstr ""
+msgstr "Verifitgar l'adressa dad e-mail per il conto da Firefox"
 
 #: lib/senders/email.js:511
 msgid "Reset your Firefox Account password"
@@ -402,19 +402,19 @@ msgstr "Il pled-clav per tes conto da Firefox è vegnì redefinì"
 
 #: lib/senders/email.js:599
 msgid "Firefox Account password reset required"
-msgstr ""
+msgstr "Necessari da reinizialisar il pled-clav da tes conto da Firefox"
 
 #: lib/senders/email.js:656
 msgid "Firefox Account verified"
-msgstr ""
+msgstr "Verifitgà il conto da Firefox"
 
 #: lib/senders/email.js:687
 msgid "Secondary Firefox Account email added"
-msgstr ""
+msgstr "Agiuntà ina adressa dad e-mail alternativa al conto da Firefox"
 
 #: lib/senders/email.js:717
 msgid "Secondary Firefox Account email removed"
-msgstr ""
+msgstr "Allontanà ina adressa dad e-mail alternativa dal conto da Firefox"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
