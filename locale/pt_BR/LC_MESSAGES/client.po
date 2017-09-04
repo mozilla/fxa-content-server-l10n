@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-01 17:59+0000\n"
-"PO-Revision-Date: 2017-09-01 19:55+0000\n"
+"PO-Revision-Date: 2017-09-04 09:57+0000\n"
 "Last-Translator: Maykon Chagas <mchagas@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -125,7 +125,7 @@ msgstr "última atividade %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:97
 msgid "last sync time unknown"
-msgstr "último tempo de sincronização desconhecido"
+msgstr "última sincronização desconhecida"
 
 #: app/scripts/views/settings/communication_preferences.js:118
 msgid "Subscribed successfully"
@@ -1293,7 +1293,7 @@ msgstr "Remover"
 
 #: app/scripts/templates/settings/emails.mustache:16
 msgid "Not in inbox or spam folder? Resend?"
-msgstr "Não está em sua caixa de entrada ou pasta de spam? Reenviar?"
+msgstr "Não está na sua caixa de entrada ou pasta de spam? Reenviar?"
 
 #: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
