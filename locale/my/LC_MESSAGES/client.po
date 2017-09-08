@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-01 17:59+0000\n"
+"POT-Creation-Date: 2017-09-08 16:08+0000\n"
 "PO-Revision-Date: 2017-02-12 06:51+0000\n"
 "Last-Translator: La Min Ko (လမင်းကို) <lminko.lmk@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,10 +13,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
-
-#: app/scripts/views/complete_sign_up.js:174 app/scripts/models/auth_brokers/web.js:22
-msgid "Account verified successfully"
-msgstr "အကောင့်ကို အောင်မြင်စွာ အတည်ပြုပြီးပါပြီ"
 
 #: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:40
 msgid "Password reset"
@@ -142,11 +138,15 @@ msgstr "အကောင့်ဖယ်ရှားခြင်း အောင�
 msgid "Display name updated"
 msgstr "ပြသမည့်အမည်ကို မွမ်းမံပြီးပြီ"
 
-#: app/scripts/views/settings/emails.js:138 app/scripts/views/settings/emails.js:151
+#: app/scripts/views/settings/emails.js:114
+msgid "Secondary email removed"
+msgstr ""
+
+#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
 msgid "Verification email sent"
 msgstr ""
 
-#: app/scripts/views/settings/emails.js:166
+#: app/scripts/views/settings/emails.js:169
 msgid "Primary email set to %(email)s"
 msgstr ""
 
@@ -181,6 +181,10 @@ msgstr "Restmail ကို ဖွင့်ပါ"
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "အီးမေးလ်ကို ပြန်ပို့ထားသည်"
+
+#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23
+msgid "Account verified successfully"
+msgstr "အကောင့်ကို အောင်မြင်စွာ အတည်ပြုပြီးပါပြီ"
 
 #: app/scripts/models/sync-engines.js:33
 msgid "Open tabs"

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-01 17:59+0000\n"
+"POT-Creation-Date: 2017-09-08 16:08+0000\n"
 "PO-Revision-Date: 2017-09-02 12:10+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,10 +14,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1422140392.0\n"
-
-#: app/scripts/views/complete_sign_up.js:174 app/scripts/models/auth_brokers/web.js:22
-msgid "Account verified successfully"
-msgstr "Konto verifisert"
 
 #: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:40
 msgid "Password reset"
@@ -143,11 +139,15 @@ msgstr "Kontoen er nå slettet"
 msgid "Display name updated"
 msgstr "Visningsnavn oppdatert"
 
-#: app/scripts/views/settings/emails.js:138 app/scripts/views/settings/emails.js:151
+#: app/scripts/views/settings/emails.js:114
+msgid "Secondary email removed"
+msgstr ""
+
+#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
 msgid "Verification email sent"
 msgstr "Bekreftelsesmelding sendt"
 
-#: app/scripts/views/settings/emails.js:166
+#: app/scripts/views/settings/emails.js:169
 msgid "Primary email set to %(email)s"
 msgstr "Primær e-postadresse satt til %(email)s"
 
@@ -182,6 +182,10 @@ msgstr "Åpne Restmail"
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "E-post sendt på nytt"
+
+#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23
+msgid "Account verified successfully"
+msgstr "Konto verifisert"
 
 #: app/scripts/models/sync-engines.js:33
 msgid "Open tabs"
@@ -595,7 +599,9 @@ msgid "SMS not sent, please try again"
 msgstr "SMS ikke sendt, prøv igjen"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Ved å fortsette, aksepterer du <a id=\"service-tos\" href=\"%(termsUri)s\">tjenestevilkårene</a> og <a id=\"service-pp\" href=\"%(privacyUri)s\">personvernsbestemmelser</a> for %(serviceName)s "
 "(%(serviceUri)s)."
@@ -1399,18 +1405,18 @@ msgstr "Logg inn"
 #~ msgstr "Hvorfor synkronisere to (eller flere!) enheter?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Med Sync kan du dele bokmerker, historikk og passord, du lagrer i Firefox på én enhet, med Firefox på andre enheter. Logg inn på Firefox på din telefon eller nettbrett, og alt hva du har lagret på "
-#~ "Firefox for PC vil dukke opp."
+#~ "Med Sync kan du dele bokmerker, historikk og passord, du lagrer i Firefox på én enhet, med Firefox på andre enheter. Logg inn på Firefox på din telefon eller nettbrett, og alt hva du har lagret "
+#~ "på Firefox for PC vil dukke opp."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync er ikke beregnet som en permanent backup – tjenesten deler kun hva som lagres lokalt. Hvis du nullstiller ditt passord, og dine data ikke er lagret på minst én annen enhet, kan du miste alle "
-#~ "data, som er lagret med ditt gamle passord."
+#~ "Sync er ikke beregnet som en permanent backup – tjenesten deler kun hva som lagres lokalt. Hvis du nullstiller ditt passord, og dine data ikke er lagret på minst én annen enhet, kan du miste "
+#~ "alle data, som er lagret med ditt gamle passord."
 
 #~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
 #~ msgstr "Ser du etter Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Kom i gang her</a>"
@@ -1497,8 +1503,8 @@ msgstr "Logg inn"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "For å bruke Firefox-konti må du aktiver informasjonskapsler i nettleseren din. Informasjonskapsler er små biter av data som er lagret i nettleseren din, som gir funksjonalitet som å huske deg mellom"
-#~ " øktene."
+#~ "For å bruke Firefox-konti må du aktiver informasjonskapsler i nettleseren din. Informasjonskapsler er små biter av data som er lagret i nettleseren din, som gir funksjonalitet som å huske deg "
+#~ "mellom øktene."
 
 #~ msgid "1991"
 #~ msgstr "1991"

@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-01 17:59+0000\n"
-"PO-Revision-Date: 2017-08-23 21:27+0000\n"
-"Last-Translator: Marko Kostić (Marko Kostić) <marko.m.kostic@gmail.com>\n"
+"POT-Creation-Date: 2017-09-08 16:08+0000\n"
+"PO-Revision-Date: 2017-09-02 12:10+0000\n"
+"Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
 "MIME-Version: 1.0\n"
@@ -15,11 +15,6 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1438059120.0\n"
-
-#: app/scripts/views/complete_sign_up.js:174
-#: app/scripts/models/auth_brokers/web.js:22
-msgid "Account verified successfully"
-msgstr "Nalog je uspešno potvrđen"
 
 #: app/scripts/views/confirm_reset_password.js:160
 #: app/scripts/views/ready.js:40
@@ -171,12 +166,16 @@ msgstr "Nalog uspešno obrisan"
 msgid "Display name updated"
 msgstr "Prikaži ažurirano ime"
 
-#: app/scripts/views/settings/emails.js:138
-#: app/scripts/views/settings/emails.js:151
+#: app/scripts/views/settings/emails.js:114
+msgid "Secondary email removed"
+msgstr ""
+
+#: app/scripts/views/settings/emails.js:141
+#: app/scripts/views/settings/emails.js:154
 msgid "Verification email sent"
 msgstr "Verifikaciona e-pošta poslata"
 
-#: app/scripts/views/settings/emails.js:166
+#: app/scripts/views/settings/emails.js:169
 msgid "Primary email set to %(email)s"
 msgstr "Kao primarna adresa je postavljena %(email)s"
 
@@ -212,6 +211,11 @@ msgstr "Otvori Restmail"
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "E-pošta je ponovo poslata"
+
+#: app/scripts/views/behaviors/settings.js:16
+#: app/scripts/models/auth_brokers/web.js:23
+msgid "Account verified successfully"
+msgstr "Nalog je uspešno potvrđen"
 
 #: app/scripts/models/sync-engines.js:33
 msgid "Open tabs"
@@ -692,15 +696,15 @@ msgstr "Prijavi se"
 
 #: app/scripts/lib/strings.js:49
 msgid "Signin confirmed"
-msgstr ""
+msgstr "Prijava potvrđena"
 
 #: app/scripts/lib/strings.js:50
 msgid "Still adding devices?"
-msgstr ""
+msgstr "I dalje dodajete uređaje?"
 
 #: app/scripts/lib/strings.js:51
 msgid "Why is more than one device required?"
-msgstr ""
+msgstr "Zašto je više od jednog uređaja potrebno?"
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"

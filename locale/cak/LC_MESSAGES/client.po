@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-01 17:59+0000\n"
+"POT-Creation-Date: 2017-09-08 16:08+0000\n"
 "PO-Revision-Date: 2017-09-01 21:31+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,10 +13,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
-
-#: app/scripts/views/complete_sign_up.js:174 app/scripts/models/auth_brokers/web.js:22
-msgid "Account verified successfully"
-msgstr "Ütz xjikib'äx ri rub'i'aj taqoya'l"
 
 #: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:40
 msgid "Password reset"
@@ -143,11 +139,15 @@ msgstr "Xyuj ütz ri rub'i' taqoya'l"
 msgid "Display name updated"
 msgstr "Tik'ut pe ri b'i'aj xk'ex"
 
-#: app/scripts/views/settings/emails.js:138 app/scripts/views/settings/emails.js:151
+#: app/scripts/views/settings/emails.js:114
+msgid "Secondary email removed"
+msgstr ""
+
+#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
 msgid "Verification email sent"
 msgstr "Xtaq ri rutzijol jikib'anïk"
 
-#: app/scripts/views/settings/emails.js:166
+#: app/scripts/views/settings/emails.js:169
 msgid "Primary email set to %(email)s"
 msgstr "Xtaq ri nab'ey taqoya'l pa %(email)s"
 
@@ -182,6 +182,10 @@ msgstr "Tijaq Restmail"
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "Taqoya'l taqon chik"
+
+#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23
+msgid "Account verified successfully"
+msgstr "Ütz xjikib'äx ri rub'i'aj taqoya'l"
 
 #: app/scripts/models/sync-engines.js:33
 msgid "Open tabs"
@@ -593,8 +597,12 @@ msgid "SMS not sent, please try again"
 msgstr "Man xtaq ta SMS, tatojtob'ej chik"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Pa rub'eyal, rat nawojqaj ri <a id=\"service-tos\" href=\"%(termsUri)s\">Rojqanem Samaj</a> chuqa'<a id=\"service-pp\" href=\"%(privacyUri)s\">Rutzijol Ichinanem</a> richin %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Pa rub'eyal, rat nawojqaj ri <a id=\"service-tos\" href=\"%(termsUri)s\">Rojqanem Samaj</a> chuqa'<a id=\"service-pp\" href=\"%(privacyUri)s\">Rutzijol Ichinanem</a> richin %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -839,7 +847,8 @@ msgstr "¿La xmestäx ri ewan tzij?"
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:17
 #: app/scripts/templates/sign_up_password.mustache:8
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Pa rub'eyal, rat nawojqaj ri <a id=\"fxa-tos\" href=\"/legal/terms\">Rojqanem Samaj</a> chuqa' <a id=\"fxa-pp\" href=\"/legal/privacy\">Rutzijol Ichinanem</a> richin ri taq samaj pa rusutz' Firefox."
+msgstr ""
+"Pa rub'eyal, rat nawojqaj ri <a id=\"fxa-tos\" href=\"/legal/terms\">Rojqanem Samaj</a> chuqa' <a id=\"fxa-pp\" href=\"/legal/privacy\">Rutzijol Ichinanem</a> richin ri taq samaj pa rusutz' Firefox."
 
 #: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
 msgid "Enter your email"
