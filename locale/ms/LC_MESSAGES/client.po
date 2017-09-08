@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-01 17:59+0000\n"
-"PO-Revision-Date: 2017-09-02 01:02+0000\n"
+"PO-Revision-Date: 2017-09-08 06:47+0000\n"
 "Last-Translator: manxmensch <manxmensch@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ms\n"
@@ -132,7 +132,7 @@ msgstr "Langganan berjaya"
 
 #: app/scripts/views/settings/communication_preferences.js:119
 msgid "Unsubscribed successfully"
-msgstr "Nyahlanggan berjaya"
+msgstr "Berjaya membatalkan langganan"
 
 #: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
@@ -1244,7 +1244,7 @@ msgstr "Keutamaan emel"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:10
 msgid "Unsubscribe"
-msgstr "Nyahlanggan"
+msgstr "Batal langganan"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:12
 msgid "Subscribe"
