@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-01 17:59+0000\n"
-"PO-Revision-Date: 2017-09-02 14:36+0000\n"
+"PO-Revision-Date: 2017-09-14 04:00+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -1004,7 +1004,7 @@ msgstr "Merci pour votre vigilance"
 
 #: app/scripts/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr "Notre équipe a été informée. Les signalements comme celui-ci nous aide à repousser les intrus."
+msgstr "Notre équipe a été informée. Les signalements comme celui-ci nous aident à repousser les intrus."
 
 #: app/scripts/templates/sign_in_unblock.mustache:1 app/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
@@ -1091,7 +1091,7 @@ msgstr "Si vous ne recevez pas de message, vous pouvez également télécharger 
 
 #: app/scripts/templates/sms_sent.mustache:8
 msgid "Didn't arrive? Resend"
-msgstr "Pas reçu ? Renvoyer"
+msgstr "Rien reçu ? Renvoyer"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
