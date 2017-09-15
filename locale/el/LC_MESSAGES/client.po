@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-01 17:59+0000\n"
+"POT-Creation-Date: 2017-09-15 16:08+0000\n"
 "PO-Revision-Date: 2017-09-02 11:26+0000\n"
 "Last-Translator: Jim Spentzos <jamesspentzos@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,10 +13,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
-
-#: app/scripts/views/complete_sign_up.js:174 app/scripts/models/auth_brokers/web.js:22
-msgid "Account verified successfully"
-msgstr "Επιτυχής επαλήθευση λογαριασμού"
 
 #: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:40
 msgid "Password reset"
@@ -102,31 +98,31 @@ msgstr ""
 "Λυπούμαστε που το ακούμε αυτό. Αν αυτή δεν είναι μια αξιόπιστη συσκευή, θα πρέπει να αλλάξετε τον κωδικό πρόσβασης του Λογαριασμού Firefox σας και να αλλάξετε τυχόν κωδικούς πρόσβασης που "
 "αποθηκεύσατε στο Firefox."
 
-#: app/scripts/views/settings/clients.js:73
+#: app/scripts/views/settings/clients.js:75
 msgid "Web Session, %(userAgent)s"
 msgstr "Διαδικτυακή συνεδρία, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:75
+#: app/scripts/views/settings/clients.js:77
 msgid "Web Session"
 msgstr "Διαδικτυακή συνεδρία"
 
-#: app/scripts/views/settings/clients.js:78
+#: app/scripts/views/settings/clients.js:80
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:84
+#: app/scripts/views/settings/clients.js:86
 msgid "first sync %(translatedTimeAgo)s"
 msgstr "πρώτος συγχρονισμός: %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:87
+#: app/scripts/views/settings/clients.js:89
 msgid "last sync %(translatedTimeAgo)s"
 msgstr "τελευταίος συγχρονισμός: %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:93
+#: app/scripts/views/settings/clients.js:95
 msgid "last active %(translatedTimeAgo)s"
 msgstr "τελευταία δραστηριότητα %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:97
+#: app/scripts/views/settings/clients.js:99
 msgid "last sync time unknown"
 msgstr "τελευταίος συγχρονισμός: άγνωστος χρόνος"
 
@@ -146,11 +142,15 @@ msgstr "Ο λογαριασμός διαγράφηκε επιτυχώς"
 msgid "Display name updated"
 msgstr "Το εμφανιζόμενο όνομα άλλαξε"
 
-#: app/scripts/views/settings/emails.js:138 app/scripts/views/settings/emails.js:151
+#: app/scripts/views/settings/emails.js:114
+msgid "Secondary email removed"
+msgstr ""
+
+#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
 msgid "Verification email sent"
 msgstr "Απεστάλη e-mail επαλήθευσης"
 
-#: app/scripts/views/settings/emails.js:166
+#: app/scripts/views/settings/emails.js:169
 msgid "Primary email set to %(email)s"
 msgstr "Το πρωτεύον e-mail ορίστηκε σε %(email)s"
 
@@ -185,6 +185,10 @@ msgstr "Άνοιγμα Restmail"
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "Το email εστάλη ξανά"
+
+#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23
+msgid "Account verified successfully"
+msgstr "Επιτυχής επαλήθευση λογαριασμού"
 
 #: app/scripts/models/sync-engines.js:33
 msgid "Open tabs"
@@ -596,7 +600,9 @@ msgid "SMS not sent, please try again"
 msgstr "Το SMS δεν απεστάλη, παρακαλώ δοκιμάστε ξανά"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Προχωρώντας, συμφωνείτε με <a id=\"service-tos\" href=\"%(termsUri)s\">τους Όρους Χρήσης</a> και <a id=\"service-pp\" href=\"%(privacyUri)s\">την Πολιτική Απορρήτου</a> της υπηρεσίας "
 "%(serviceName)s(%(serviceUri)s)."
@@ -628,18 +634,6 @@ msgstr "Για επιπρόσθετη ασφάλεια, επιβεβαιώστε
 #: app/scripts/lib/strings.js:46 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4 app/scripts/templates/sign_in_password.mustache:6
 msgid "Sign in"
 msgstr "Είσοδος"
-
-#: app/scripts/lib/strings.js:49
-msgid "Signin confirmed"
-msgstr "Η σύνδεση επιβεβαιώθηκε"
-
-#: app/scripts/lib/strings.js:50
-msgid "Still adding devices?"
-msgstr "Προσθέτετε ακόμη συσκευές;"
-
-#: app/scripts/lib/strings.js:51
-msgid "Why is more than one device required?"
-msgstr "Γιατί απαιτούνται περισσότερες από μία συσκευές;"
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
@@ -782,37 +776,46 @@ msgstr "Σύνδεση μιας άλλης συσκευής"
 msgid "This Firefox is connected"
 msgstr "Αυτό το Firefox έχει συνδεθεί"
 
-#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
+#: app/scripts/templates/connect_another_device.mustache:6
+msgid "Signin confirmed"
+msgstr "Η σύνδεση επιβεβαιώθηκε"
+
+#: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
 msgstr "Επιτυχία"
 
-#: app/scripts/templates/connect_another_device.mustache:6
+#: app/scripts/templates/connect_another_device.mustache:9
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Συνδεθείτε σε αυτό το Firefox για ολοκλήρωση ρύθμισης"
 
-#: app/scripts/templates/connect_another_device.mustache:7
+#: app/scripts/templates/connect_another_device.mustache:10
 msgid "Sign in &rarr;"
 msgstr "Είσοδος &rarr;"
 
-#: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
+#: app/scripts/templates/connect_another_device.mustache:12 app/scripts/templates/connect_another_device.mustache:16 app/scripts/templates/connect_another_device.mustache:26
+#: app/scripts/templates/sms_send.mustache:4
+msgid "Still adding devices?"
+msgstr "Προσθέτετε ακόμη συσκευές;"
+
+#: app/scripts/templates/connect_another_device.mustache:14 app/scripts/templates/connect_another_device.mustache:18 app/scripts/templates/connect_another_device.mustache:28
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Συνδεθείτε στο Firefox σε μια άλλη συσκευή για να ολοκληρώσετε τη ρύθμιση"
 
-#: app/scripts/templates/connect_another_device.mustache:13
+#: app/scripts/templates/connect_another_device.mustache:20
 msgid "Open settings and select Sign in to Firefox to complete set-up"
 msgstr "Ανοίξτε τις ρυθμίσεις και επιλέξτε Σύνδεση στο Firefox για να ολοκληρώσετε τη ρύθμιση"
 
-#: app/scripts/templates/connect_another_device.mustache:15
+#: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
 msgstr "Συνδεθείτε στο Firefox για Android για ολοκλήρωση ρύθμισης"
 
-#: app/scripts/templates/connect_another_device.mustache:17
+#: app/scripts/templates/connect_another_device.mustache:24
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "Συνδεθείτε στο Firefox για iOS για ολοκλήρωση ρύθμισης"
 
-#: app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
-msgid "Why is this required?"
-msgstr "Γιατί απαιτείται αυτό;"
+#: app/scripts/templates/connect_another_device.mustache:30 app/scripts/templates/sms_send.mustache:10
+msgid "Why is more than one device required?"
+msgstr "Γιατί απαιτούνται περισσότερες από μία συσκευές;"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
@@ -844,9 +847,10 @@ msgid "Forgot password?"
 msgstr "Ξεχάσατε τον κωδικό σας;"
 
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:17
-#: app/scripts/templates/sign_up_password.mustache:8
+#: app/scripts/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Συνεχίζοντας, συμφωνείτε με τους <a id=\"fxa-tos\" href=\"/legal/terms\">Όρους Υπηρεσίας</a> και τη <a id=\"fxa-pp\" href=\"/legal/privacy\">Σημείωση Απορρήτου</a> των υπηρεσιών cloud του Firefox."
+msgstr ""
+"Συνεχίζοντας, συμφωνείτε με τους <a id=\"fxa-tos\" href=\"/legal/terms\">Όρους Υπηρεσίας</a> και τη <a id=\"fxa-pp\" href=\"/legal/privacy\">Σημείωση Απορρήτου</a> των υπηρεσιών cloud του Firefox."
 
 #: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
 msgid "Enter your email"
@@ -994,7 +998,7 @@ msgstr "Αν αυτή είναι μια έγκυρη διεύθυνση e-mail, 
 msgid "No longer own that email? Create a new account"
 msgstr "Δεν είστε πλέον κάτοχος αυτού του e-mail; Δημιουργήστε ένα νέο λογαριασμό"
 
-#: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:12
+#: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
 msgstr "Λάθος e-mail;"
 
@@ -1034,11 +1038,11 @@ msgstr "Ψάχνετε τα δεδομένα προσθέτων σας; Δημι
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "Ένας ισχυρός, μοναδικός κωδικός πρόσβασης θα διατηρήσει τα δεδομένα του Firefox σας ασφαλή από εισβολείς."
 
-#: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/sign_up_password.mustache:9
+#: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/sign_up_password.mustache:8
 msgid "Receive the monthly Firefox newsletter"
 msgstr "Λήψη του μηνιαίου Firefox newsletter"
 
-#: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:11
+#: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10
 msgid "Create account"
 msgstr "Δημιουργία λογαριασμού"
 
@@ -1046,30 +1050,26 @@ msgstr "Δημιουργία λογαριασμού"
 msgid "Have an account? Sign in"
 msgstr "Έχετε λογαριασμό; Είσοδος"
 
-#: app/scripts/templates/sign_up_password.mustache:7
-msgid "Verify password"
-msgstr "Επαλήθευση κωδικού πρόσβασης"
-
-#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
+#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:6
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr "Στείλτε το Firefox απευθείας στο smartphone σας και συνδεθείτε για να ολοκληρώσετε τη ρύθμιση"
 
-#: app/scripts/templates/sms_send.mustache:5
+#: app/scripts/templates/sms_send.mustache:7
 msgid "Mobile phone number"
 msgstr "Αριθμός κινητού τηλεφώνου"
 
-#: app/scripts/templates/sms_send.mustache:6
+#: app/scripts/templates/sms_send.mustache:8
 msgid "Send"
 msgstr "Αποστολή"
 
-#: app/scripts/templates/sms_send.mustache:7
+#: app/scripts/templates/sms_send.mustache:9
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
 "Η υπηρεσία SMS είναι διαθέσιμη μόνο σε συγκεκριμένες χώρες. Ενδέχεται να υπάρξει χρέωση SMS &amp; δεδομένων. Ο παραλήπτης του e-mail ή του SMS πρέπει να έχει συναινέσει. <a "
 "%(escapedLearnMoreAttributes)s>Μάθετε περισσότερα</a>"
 
-#: app/scripts/templates/sms_send.mustache:9
+#: app/scripts/templates/sms_send.mustache:11
 msgid "Maybe later"
 msgstr "Ίσως αργότερα"
 
@@ -1104,8 +1104,8 @@ msgstr "Η υπηρεσία Sync δεν αποτελεί μόνο αντίγρα
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr ""
-"Πρέπει να εγκαταστήσετε το Firefox και να συγχρονίσετε τουλάχιστον δύο συσκευές για να αποτρέψετε την απώλεια δεδομένων, στην περίπτωση όπου χρειαστεί να τα επαναφέρετε αλλά έχετε ξεχάσει τον κωδικό"
-" πρόσβασής σας."
+"Πρέπει να εγκαταστήσετε το Firefox και να συγχρονίσετε τουλάχιστον δύο συσκευές για να αποτρέψετε την απώλεια δεδομένων, στην περίπτωση όπου χρειαστεί να τα επαναφέρετε αλλά έχετε ξεχάσει τον "
+"κωδικό πρόσβασής σας."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1344,6 +1344,12 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr "Είσοδος"
 
+#~ msgid "Why is this required?"
+#~ msgstr "Γιατί απαιτείται αυτό;"
+
+#~ msgid "Verify password"
+#~ msgstr "Επαλήθευση κωδικού πρόσβασης"
+
 #~ msgid "Next"
 #~ msgstr "Επόμενο"
 
@@ -1405,19 +1411,19 @@ msgstr "Είσοδος"
 #~ msgstr "Γιατί να συγχρονίσω δύο (ή περισσότερες!) συσκευές;"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Το Sync σάς επιτρέπει να μοιράζεστε τους σελιδοδείκτες, το ιστορικό και τους κωδικούς πρόσβασης που αποθηκεύετε στο Firefox σε μια συσκευή με το Firefox σε άλλες συσκευές. Συνδεθείτε στο Firefox στο"
-#~ " τηλέφωνο ή το tablet σας και θα εμφανιστεί ό,τι έχετε αποθηκεύσει στο Firefox του υπολογιστή σας."
+#~ "Το Sync σάς επιτρέπει να μοιράζεστε τους σελιδοδείκτες, το ιστορικό και τους κωδικούς πρόσβασης που αποθηκεύετε στο Firefox σε μια συσκευή με το Firefox σε άλλες συσκευές. Συνδεθείτε στο Firefox "
+#~ "στο τηλέφωνο ή το tablet σας και θα εμφανιστεί ό,τι έχετε αποθηκεύσει στο Firefox του υπολογιστή σας."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Το Sync δεν έχει σχεδιαστεί ως υπηρεσία μόνιμων αντιγράφων ασφαλείας – απλά μοιράζει τα δεδομένα που έχουν αποθηκευτεί τοπικά. Αν επαναφέρετε τον κωδικό πρόσβασής σας και τα δεδομένα σας δεν είναι "
-#~ "αποθηκευμένα σε μια τουλάχιστον συσκευή, ενδέχεται να χάσετε όλες τις πληροφορίες που έχουν συσχετιστεί με τον παλιό κωδικό πρόσβασης. Γι' αυτό, είναι καλό να κάνετε εγκατάσταση του Firefox και "
-#~ "χρήση του Sync σε περισσότερες από μία συσκευές."
+#~ "Το Sync δεν έχει σχεδιαστεί ως υπηρεσία μόνιμων αντιγράφων ασφαλείας – απλά μοιράζει τα δεδομένα που έχουν αποθηκευτεί τοπικά. Αν επαναφέρετε τον κωδικό πρόσβασής σας και τα δεδομένα σας δεν "
+#~ "είναι αποθηκευμένα σε μια τουλάχιστον συσκευή, ενδέχεται να χάσετε όλες τις πληροφορίες που έχουν συσχετιστεί με τον παλιό κωδικό πρόσβασης. Γι' αυτό, είναι καλό να κάνετε εγκατάσταση του "
+#~ "Firefox και χρήση του Sync σε περισσότερες από μία συσκευές."
 
 #~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
 #~ msgstr "Ψάχνετε για το Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Ξεκινήστε εδώ</a>"
