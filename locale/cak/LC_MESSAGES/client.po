@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-01 17:59+0000\n"
+"POT-Creation-Date: 2017-09-15 16:08+0000\n"
 "PO-Revision-Date: 2017-09-01 21:31+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,10 +13,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
-
-#: app/scripts/views/complete_sign_up.js:174 app/scripts/models/auth_brokers/web.js:22
-msgid "Account verified successfully"
-msgstr "Ütz xjikib'äx ri rub'i'aj taqoya'l"
 
 #: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:40
 msgid "Password reset"
@@ -99,31 +95,31 @@ msgid "We're sorry to hear about this. If this was a device you really don't tru
 msgstr ""
 "Niqamäy niqak'axaj re re'. We kan man akuqub'an ta chik ak'u'x chi rij ri okisaxel, k'atzinel najäl ri ewan atzij pa ri ataqoya'l richin Firefox, chuqa' ke'ajala' ri ewan taq tzij eyakon pa Firefox."
 
-#: app/scripts/views/settings/clients.js:73
+#: app/scripts/views/settings/clients.js:75
 msgid "Web Session, %(userAgent)s"
 msgstr "Ajk'amaya'l Molojri'ïl, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:75
+#: app/scripts/views/settings/clients.js:77
 msgid "Web Session"
 msgstr "Ajk'amaya'l Molojri'ïl"
 
-#: app/scripts/views/settings/clients.js:78
+#: app/scripts/views/settings/clients.js:80
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:84
+#: app/scripts/views/settings/clients.js:86
 msgid "first sync %(translatedTimeAgo)s"
 msgstr "nab'ey ximoj %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:87
+#: app/scripts/views/settings/clients.js:89
 msgid "last sync %(translatedTimeAgo)s"
 msgstr "ruk'isib'äl ximoj %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:93
+#: app/scripts/views/settings/clients.js:95
 msgid "last active %(translatedTimeAgo)s"
 msgstr "Ruk'isib'äl tzijon %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:97
+#: app/scripts/views/settings/clients.js:99
 msgid "last sync time unknown"
 msgstr "man etaman ta ruk'isib'äl ramaj ximon"
 
@@ -143,11 +139,15 @@ msgstr "Xyuj ütz ri rub'i' taqoya'l"
 msgid "Display name updated"
 msgstr "Tik'ut pe ri b'i'aj xk'ex"
 
-#: app/scripts/views/settings/emails.js:138 app/scripts/views/settings/emails.js:151
+#: app/scripts/views/settings/emails.js:114
+msgid "Secondary email removed"
+msgstr ""
+
+#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
 msgid "Verification email sent"
 msgstr "Xtaq ri rutzijol jikib'anïk"
 
-#: app/scripts/views/settings/emails.js:166
+#: app/scripts/views/settings/emails.js:169
 msgid "Primary email set to %(email)s"
 msgstr "Xtaq ri nab'ey taqoya'l pa %(email)s"
 
@@ -182,6 +182,10 @@ msgstr "Tijaq Restmail"
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "Taqoya'l taqon chik"
+
+#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23
+msgid "Account verified successfully"
+msgstr "Ütz xjikib'äx ri rub'i'aj taqoya'l"
 
 #: app/scripts/models/sync-engines.js:33
 msgid "Open tabs"
@@ -593,8 +597,12 @@ msgid "SMS not sent, please try again"
 msgstr "Man xtaq ta SMS, tatojtob'ej chik"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Pa rub'eyal, rat nawojqaj ri <a id=\"service-tos\" href=\"%(termsUri)s\">Rojqanem Samaj</a> chuqa'<a id=\"service-pp\" href=\"%(privacyUri)s\">Rutzijol Ichinanem</a> richin %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Pa rub'eyal, rat nawojqaj ri <a id=\"service-tos\" href=\"%(termsUri)s\">Rojqanem Samaj</a> chuqa'<a id=\"service-pp\" href=\"%(privacyUri)s\">Rutzijol Ichinanem</a> richin %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -623,18 +631,6 @@ msgstr "Richin jikonem, tajikib'a' rutikirisaxik molojri'ïl richin nachäp ximo
 #: app/scripts/lib/strings.js:46 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4 app/scripts/templates/sign_in_password.mustache:6
 msgid "Sign in"
 msgstr "Titikirisäx molojri'ïl"
-
-#: app/scripts/lib/strings.js:49
-msgid "Signin confirmed"
-msgstr "Xjikib'äx rutikirisaxik molojri'ïl"
-
-#: app/scripts/lib/strings.js:50
-msgid "Still adding devices?"
-msgstr "¿La k'a tajin yerutz'aqatisaj okisaxel?"
-
-#: app/scripts/lib/strings.js:51
-msgid "Why is more than one device required?"
-msgstr "¿Achike ruma man xa xe ta jun okisaxel najowäx?"
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
@@ -777,37 +773,46 @@ msgstr "Tokisäx jun chik okisaxel"
 msgid "This Firefox is connected"
 msgstr "Okisan re Firefox re'"
 
-#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
+#: app/scripts/templates/connect_another_device.mustache:6
+msgid "Signin confirmed"
+msgstr "Xjikib'äx rutikirisaxik molojri'ïl"
+
+#: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
 msgstr "Xojtikïr"
 
-#: app/scripts/templates/connect_another_device.mustache:6
+#: app/scripts/templates/connect_another_device.mustache:9
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Titikirisäx molojri'ïl pa re Firefox re' richin nitz'aqatisäx runuk'ulem"
 
-#: app/scripts/templates/connect_another_device.mustache:7
+#: app/scripts/templates/connect_another_device.mustache:10
 msgid "Sign in &rarr;"
 msgstr "Titikirisäx molojri'ïl &rarr;"
 
-#: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
+#: app/scripts/templates/connect_another_device.mustache:12 app/scripts/templates/connect_another_device.mustache:16 app/scripts/templates/connect_another_device.mustache:26
+#: app/scripts/templates/sms_send.mustache:4
+msgid "Still adding devices?"
+msgstr "¿La k'a tajin yerutz'aqatisaj okisaxel?"
+
+#: app/scripts/templates/connect_another_device.mustache:14 app/scripts/templates/connect_another_device.mustache:18 app/scripts/templates/connect_another_device.mustache:28
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Titikirisäx molojri'ïl pa Firefox pa jun chik okisaxel richin nitz'aqatisäx runuk'ulem"
 
-#: app/scripts/templates/connect_another_device.mustache:13
+#: app/scripts/templates/connect_another_device.mustache:20
 msgid "Open settings and select Sign in to Firefox to complete set-up"
 msgstr "Kejaq ri taq nuk'ulem richin nacha' Titikirisäx molojri'ïl pa Firefox richin nitz'aqatisäx runuk'ulem"
 
-#: app/scripts/templates/connect_another_device.mustache:15
+#: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
 msgstr "Titikirisäx molojri'ïl pa Firefox richin Android richin nitz'aqatisäx runuk'ulem"
 
-#: app/scripts/templates/connect_another_device.mustache:17
+#: app/scripts/templates/connect_another_device.mustache:24
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "Titikirisäx molojri'ïl pa Firefox richin iOS richin nitz'aqatisäx runuk'ulem"
 
-#: app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
-msgid "Why is this required?"
-msgstr "¿Achike ruma rajowaxik re re'?"
+#: app/scripts/templates/connect_another_device.mustache:30 app/scripts/templates/sms_send.mustache:10
+msgid "Why is more than one device required?"
+msgstr "¿Achike ruma man xa xe ta jun okisaxel najowäx?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
@@ -837,9 +842,10 @@ msgid "Forgot password?"
 msgstr "¿La xmestäx ri ewan tzij?"
 
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:17
-#: app/scripts/templates/sign_up_password.mustache:8
+#: app/scripts/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Pa rub'eyal, rat nawojqaj ri <a id=\"fxa-tos\" href=\"/legal/terms\">Rojqanem Samaj</a> chuqa' <a id=\"fxa-pp\" href=\"/legal/privacy\">Rutzijol Ichinanem</a> richin ri taq samaj pa rusutz' Firefox."
+msgstr ""
+"Pa rub'eyal, rat nawojqaj ri <a id=\"fxa-tos\" href=\"/legal/terms\">Rojqanem Samaj</a> chuqa' <a id=\"fxa-pp\" href=\"/legal/privacy\">Rutzijol Ichinanem</a> richin ri taq samaj pa rusutz' Firefox."
 
 #: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
 msgid "Enter your email"
@@ -987,7 +993,7 @@ msgstr "We re re' jun okel rochochib'al taqoya'l, <a %(escapedSupportLinkAttrs)s
 msgid "No longer own that email? Create a new account"
 msgstr "¿La man awichin ta chik re taqoya'l re'? Tatz'uku' jun k'ak'a' rub'i' taqoya'l"
 
-#: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:12
+#: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
 msgstr "¿La sachoj re taqoya'l re'?"
 
@@ -1027,11 +1033,11 @@ msgstr "¿La ye'akanoj taq rutzij taq atz'aqat? Tatz'ib'aj ab'i' richin jun Fire
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "Jun yonil, nïm ewan atzij xkeruköl ri taq atzij richin Firefox chi kiwäch ri nachanela'."
 
-#: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/sign_up_password.mustache:9
+#: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/sign_up_password.mustache:8
 msgid "Receive the monthly Firefox newsletter"
 msgstr "Tik'ul ik' ik' ri ko'öl ruwuj tzijol richin Firefox"
 
-#: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:11
+#: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10
 msgid "Create account"
 msgstr "Titz'uk rub'i' taqoya'l"
 
@@ -1039,30 +1045,26 @@ msgstr "Titz'uk rub'i' taqoya'l"
 msgid "Have an account? Sign in"
 msgstr "¿La k'o chik jun rub'i' ataqoya'l? Tatikirisaj molojri'ïl"
 
-#: app/scripts/templates/sign_up_password.mustache:7
-msgid "Verify password"
-msgstr "Tinik'öx ewan tzij"
-
-#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
+#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:6
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr "Jumul tataqa' ri Firefox pan awoyonib'al chuqa' tatikirisaj molojri'ïl richin natz'aqatisaj runuk'ulem"
 
-#: app/scripts/templates/sms_send.mustache:5
+#: app/scripts/templates/sms_send.mustache:7
 msgid "Mobile phone number"
 msgstr "Rajilab'al k'wayel oyonib'ä"
 
-#: app/scripts/templates/sms_send.mustache:6
+#: app/scripts/templates/sms_send.mustache:8
 msgid "Send"
 msgstr "Titaq"
 
-#: app/scripts/templates/sms_send.mustache:7
+#: app/scripts/templates/sms_send.mustache:9
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
 "Ri SMS samaj okel xa pa jujun taq amaq'. Rik'in jub'a' ko kajil ri SMS &amp; chuqa' ri taq tzij. Ri k'ulb'anel rutzij taqoya'l o SMS k'o chi xuya' q'ij. <a %(escapedLearnMoreAttributes)s>Tetamäx "
 "ch'aqa' chik</a>"
 
-#: app/scripts/templates/sms_send.mustache:9
+#: app/scripts/templates/sms_send.mustache:11
 msgid "Maybe later"
 msgstr "Jumul chik na"
 
@@ -1334,3 +1336,9 @@ msgstr "Titikirisäx molojri'ïl"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Titikirisäx molojri'ïl"
+
+#~ msgid "Why is this required?"
+#~ msgstr "¿Achike ruma rajowaxik re re'?"
+
+#~ msgid "Verify password"
+#~ msgstr "Tinik'öx ewan tzij"

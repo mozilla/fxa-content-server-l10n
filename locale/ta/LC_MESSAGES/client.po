@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-01 17:59+0000\n"
+"POT-Creation-Date: 2017-09-15 16:08+0000\n"
 "PO-Revision-Date: 2017-07-08 14:23+0000\n"
 "Last-Translator: Mohammed Ammar <ksmammar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,10 +14,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1428936110.0\n"
-
-#: app/scripts/views/complete_sign_up.js:174 app/scripts/models/auth_brokers/web.js:22
-msgid "Account verified successfully"
-msgstr "கணக்கு வெற்றிகரமாக சரிபார்க்கப்பட்டது"
 
 #: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:40
 msgid "Password reset"
@@ -99,31 +95,31 @@ msgstr "கேட்பதற்கு சங்கடமாக உள்ளத�
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "கேட்பதற்கு சங்கடமாக உள்ளது. நீங்கள் நம்பக்கூடிய சாதனமாக இல்லையெனில்  உங்கள் பயர்பாஃசு கணக்கின் கடவுச்சொல்லை கணடிப்பாக மாற்றுவதுடன் பயர்பாஃசில் சேமித்த கடவுச்சொற்களையும் மாற்றவும்."
 
-#: app/scripts/views/settings/clients.js:73
+#: app/scripts/views/settings/clients.js:75
 msgid "Web Session, %(userAgent)s"
 msgstr "வலை அமர்வு, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:75
+#: app/scripts/views/settings/clients.js:77
 msgid "Web Session"
 msgstr "வலை அமர்வு"
 
-#: app/scripts/views/settings/clients.js:78
+#: app/scripts/views/settings/clients.js:80
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:84
+#: app/scripts/views/settings/clients.js:86
 msgid "first sync %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:87
+#: app/scripts/views/settings/clients.js:89
 msgid "last sync %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:93
+#: app/scripts/views/settings/clients.js:95
 msgid "last active %(translatedTimeAgo)s"
 msgstr "கடைசியாக கண்டது %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:97
+#: app/scripts/views/settings/clients.js:99
 msgid "last sync time unknown"
 msgstr ""
 
@@ -143,11 +139,15 @@ msgstr "கணக்கு வெற்றிகரமாக நீக்கப�
 msgid "Display name updated"
 msgstr "காட்சி பெயர் புதுப்பிக்கப்பட்டது"
 
-#: app/scripts/views/settings/emails.js:138 app/scripts/views/settings/emails.js:151
+#: app/scripts/views/settings/emails.js:114
+msgid "Secondary email removed"
+msgstr ""
+
+#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
 msgid "Verification email sent"
 msgstr "சரிபார்த்தல் மின்னஞ்சல் அனுப்பப்பட்டது"
 
-#: app/scripts/views/settings/emails.js:166
+#: app/scripts/views/settings/emails.js:169
 msgid "Primary email set to %(email)s"
 msgstr ""
 
@@ -182,6 +182,10 @@ msgstr "ரெஸ்ட்மடலைத் திற"
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "மின்னஞ்சல் மீண்டும் அனுப்பப்பட்டது"
+
+#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23
+msgid "Account verified successfully"
+msgstr "கணக்கு வெற்றிகரமாக சரிபார்க்கப்பட்டது"
 
 #: app/scripts/models/sync-engines.js:33
 msgid "Open tabs"
@@ -626,18 +630,6 @@ msgstr "கூடுதல் பாதுகாப்புக்காக, இ
 msgid "Sign in"
 msgstr "உள்நுழை"
 
-#: app/scripts/lib/strings.js:49
-msgid "Signin confirmed"
-msgstr ""
-
-#: app/scripts/lib/strings.js:50
-msgid "Still adding devices?"
-msgstr ""
-
-#: app/scripts/lib/strings.js:51
-msgid "Why is more than one device required?"
-msgstr ""
-
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
 msgstr "மோசமான கோரிக்கை"
@@ -779,36 +771,45 @@ msgstr "மற்றொரு சாதனத்தை இணை"
 msgid "This Firefox is connected"
 msgstr "இந்தப் பயர்பாஃசு இணைந்தது"
 
-#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
+#: app/scripts/templates/connect_another_device.mustache:6
+msgid "Signin confirmed"
+msgstr ""
+
+#: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
 msgstr "வெற்றி"
 
-#: app/scripts/templates/connect_another_device.mustache:6
+#: app/scripts/templates/connect_another_device.mustache:9
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "அமைவை முடிக்க பயர்பாஃசில் உள்நுழைக"
 
-#: app/scripts/templates/connect_another_device.mustache:7
+#: app/scripts/templates/connect_another_device.mustache:10
 msgid "Sign in &rarr;"
 msgstr "&rarr; உள்நுழை"
 
-#: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
+#: app/scripts/templates/connect_another_device.mustache:12 app/scripts/templates/connect_another_device.mustache:16 app/scripts/templates/connect_another_device.mustache:26
+#: app/scripts/templates/sms_send.mustache:4
+msgid "Still adding devices?"
+msgstr ""
+
+#: app/scripts/templates/connect_another_device.mustache:14 app/scripts/templates/connect_another_device.mustache:18 app/scripts/templates/connect_another_device.mustache:28
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr ""
 
-#: app/scripts/templates/connect_another_device.mustache:13
+#: app/scripts/templates/connect_another_device.mustache:20
 msgid "Open settings and select Sign in to Firefox to complete set-up"
 msgstr ""
 
-#: app/scripts/templates/connect_another_device.mustache:15
+#: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
 msgstr ""
 
-#: app/scripts/templates/connect_another_device.mustache:17
+#: app/scripts/templates/connect_another_device.mustache:24
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr ""
 
-#: app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
-msgid "Why is this required?"
+#: app/scripts/templates/connect_another_device.mustache:30 app/scripts/templates/sms_send.mustache:10
+msgid "Why is more than one device required?"
 msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:1
@@ -839,7 +840,7 @@ msgid "Forgot password?"
 msgstr "கடவுச்சொல்லை மறந்துவிட்டீர்களா?"
 
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:17
-#: app/scripts/templates/sign_up_password.mustache:8
+#: app/scripts/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr "தொடர்வதன் மூலம், பயர்பாக்ஸ் முகில்கணிமச் சேவைகளின் <a id=\"fxa-tos\" href=\"/legal/terms\">விதிமுறைகளையும்</a> தனியுரிமை <a id=\"fxa-pp\" href=\"/legal/privacy\">அறிகைளையும்</a> ஒப்புக்குகொள்கிறோம்."
 
@@ -989,7 +990,7 @@ msgstr ""
 msgid "No longer own that email? Create a new account"
 msgstr ""
 
-#: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:12
+#: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
 msgstr ""
 
@@ -1029,11 +1030,11 @@ msgstr ""
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "உங்கள் பயர்பாக்ஸ் தகவல்களை எவரும் ஊடுருவாமல் பாதுகாக்க வலுவான தனித்த கடவுச்சொல்லை வைத்திருக்கவும்."
 
-#: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/sign_up_password.mustache:9
+#: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/sign_up_password.mustache:8
 msgid "Receive the monthly Firefox newsletter"
 msgstr ""
 
-#: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:11
+#: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10
 msgid "Create account"
 msgstr "கணக்கை உருவாக்கு"
 
@@ -1041,28 +1042,24 @@ msgstr "கணக்கை உருவாக்கு"
 msgid "Have an account? Sign in"
 msgstr "ஒரு கணக்கு உள்ளதா? உள்நுழையவும்"
 
-#: app/scripts/templates/sign_up_password.mustache:7
-msgid "Verify password"
-msgstr ""
-
-#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
+#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:6
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr ""
 
-#: app/scripts/templates/sms_send.mustache:5
+#: app/scripts/templates/sms_send.mustache:7
 msgid "Mobile phone number"
 msgstr ""
 
-#: app/scripts/templates/sms_send.mustache:6
+#: app/scripts/templates/sms_send.mustache:8
 msgid "Send"
 msgstr ""
 
-#: app/scripts/templates/sms_send.mustache:7
+#: app/scripts/templates/sms_send.mustache:9
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
 
-#: app/scripts/templates/sms_send.mustache:9
+#: app/scripts/templates/sms_send.mustache:11
 msgid "Maybe later"
 msgstr ""
 

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-01 17:59+0000\n"
+"POT-Creation-Date: 2017-09-15 16:08+0000\n"
 "PO-Revision-Date: 2017-09-01 22:06+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
@@ -13,10 +13,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
-
-#: app/scripts/views/complete_sign_up.js:174 app/scripts/models/auth_brokers/web.js:22
-msgid "Account verified successfully"
-msgstr "Pomyślnie zweryfikowano konto"
 
 #: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:40
 msgid "Password reset"
@@ -98,31 +94,31 @@ msgstr "Przykro nam o tym słyszeć. Należy zmienić hasło konta Firefoksa i�
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Przykro nam o tym słyszeć. Jeśli nie ufasz już temu urządzeniu, to należy zmienić hasło konta Firefoksa i wszystkie hasła zachowane w Firefoksie."
 
-#: app/scripts/views/settings/clients.js:73
+#: app/scripts/views/settings/clients.js:75
 msgid "Web Session, %(userAgent)s"
 msgstr "Sesja, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:75
+#: app/scripts/views/settings/clients.js:77
 msgid "Web Session"
 msgstr "Sesja"
 
-#: app/scripts/views/settings/clients.js:78
+#: app/scripts/views/settings/clients.js:80
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:84
+#: app/scripts/views/settings/clients.js:86
 msgid "first sync %(translatedTimeAgo)s"
 msgstr "pierwsza synchronizacja: %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:87
+#: app/scripts/views/settings/clients.js:89
 msgid "last sync %(translatedTimeAgo)s"
 msgstr "ostatnia synchronizacja: %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:93
+#: app/scripts/views/settings/clients.js:95
 msgid "last active %(translatedTimeAgo)s"
 msgstr "ostatnia aktywność: %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:97
+#: app/scripts/views/settings/clients.js:99
 msgid "last sync time unknown"
 msgstr "czas ostatniej synchronizacji jest nieznany"
 
@@ -142,11 +138,15 @@ msgstr "Pomyślnie usunięto konto"
 msgid "Display name updated"
 msgstr "Zaktualizowano wyświetlaną nazwę"
 
-#: app/scripts/views/settings/emails.js:138 app/scripts/views/settings/emails.js:151
+#: app/scripts/views/settings/emails.js:114
+msgid "Secondary email removed"
+msgstr ""
+
+#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
 msgid "Verification email sent"
 msgstr "Wysłano wiadomość weryfikacyjną"
 
-#: app/scripts/views/settings/emails.js:166
+#: app/scripts/views/settings/emails.js:169
 msgid "Primary email set to %(email)s"
 msgstr "Ustawiono %(email)s jako główny adres e-mail"
 
@@ -181,6 +181,10 @@ msgstr "Otwórz Restmail"
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "Ponownie wysłano wiadomość e-mail"
+
+#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23
+msgid "Account verified successfully"
+msgstr "Pomyślnie zweryfikowano konto"
 
 #: app/scripts/models/sync-engines.js:33
 msgid "Open tabs"
@@ -592,7 +596,9 @@ msgid "SMS not sent, please try again"
 msgstr "Nie wysłano wiadomości SMS, proszę spróbować ponownie"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Kontynuując, wyrażasz zgodę na <a id=\"service-tos\" href=\"%(termsUri)s\">Regulamin usługi</a> oraz <a id=\"service-pp\" href=\"%(privacyUri)s\">Zasady ochrony prywatności</a> usługi "
 "%(serviceName)s (%(serviceUri)s)."
@@ -624,18 +630,6 @@ msgstr "W celu zwiększenia bezpieczeństwa, proszę potwierdzić to logowanie,
 #: app/scripts/lib/strings.js:46 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4 app/scripts/templates/sign_in_password.mustache:6
 msgid "Sign in"
 msgstr "Zaloguj"
-
-#: app/scripts/lib/strings.js:49
-msgid "Signin confirmed"
-msgstr "Potwierdzono logowanie"
-
-#: app/scripts/lib/strings.js:50
-msgid "Still adding devices?"
-msgstr "Dodać więcej urządzeń?"
-
-#: app/scripts/lib/strings.js:51
-msgid "Why is more than one device required?"
-msgstr "Dlaczego wymagane jest więcej niż jedno urządzenie?"
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
@@ -778,37 +772,46 @@ msgstr "Połącz inne urządzenie"
 msgid "This Firefox is connected"
 msgstr "Ten Firefox jest połączony"
 
-#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
+#: app/scripts/templates/connect_another_device.mustache:6
+msgid "Signin confirmed"
+msgstr "Potwierdzono logowanie"
+
+#: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
 msgstr "Powodzenie"
 
-#: app/scripts/templates/connect_another_device.mustache:6
+#: app/scripts/templates/connect_another_device.mustache:9
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Zaloguj się do tego Firefoksa, aby dokończyć ustawianie"
 
-#: app/scripts/templates/connect_another_device.mustache:7
+#: app/scripts/templates/connect_another_device.mustache:10
 msgid "Sign in &rarr;"
 msgstr "Zaloguj się &rarr;"
 
-#: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
+#: app/scripts/templates/connect_another_device.mustache:12 app/scripts/templates/connect_another_device.mustache:16 app/scripts/templates/connect_another_device.mustache:26
+#: app/scripts/templates/sms_send.mustache:4
+msgid "Still adding devices?"
+msgstr "Dodać więcej urządzeń?"
+
+#: app/scripts/templates/connect_another_device.mustache:14 app/scripts/templates/connect_another_device.mustache:18 app/scripts/templates/connect_another_device.mustache:28
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Zaloguj się do Firefoksa na innym urządzeniu, aby dokończyć ustawianie"
 
-#: app/scripts/templates/connect_another_device.mustache:13
+#: app/scripts/templates/connect_another_device.mustache:20
 msgid "Open settings and select Sign in to Firefox to complete set-up"
 msgstr "Otwórz ustawienia i wybierz „Zaloguj się do Firefoksa”, aby dokończyć ustawianie"
 
-#: app/scripts/templates/connect_another_device.mustache:15
+#: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
 msgstr "Zaloguj się do Firefoksa na Androida, aby dokończyć ustawianie"
 
-#: app/scripts/templates/connect_another_device.mustache:17
+#: app/scripts/templates/connect_another_device.mustache:24
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "Zaloguj się do Firefoksa na iOS, aby dokończyć ustawianie"
 
-#: app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
-msgid "Why is this required?"
-msgstr "Dlaczego jest to wymagane?"
+#: app/scripts/templates/connect_another_device.mustache:30 app/scripts/templates/sms_send.mustache:10
+msgid "Why is more than one device required?"
+msgstr "Dlaczego wymagane jest więcej niż jedno urządzenie?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
@@ -840,7 +843,7 @@ msgid "Forgot password?"
 msgstr "Nie pamiętasz hasła?"
 
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:17
-#: app/scripts/templates/sign_up_password.mustache:8
+#: app/scripts/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr "Kontynuując, wyrażasz zgodę na <a id=\"fxa-tos\" href=\"/legal/terms\">Regulamin usługi</a> oraz <a id=\"fxa-pp\" href=\"/legal/privacy\">Zasady ochrony prywatności</a> usług Firefox cloud."
 
@@ -990,7 +993,7 @@ msgstr "Jeśli to prawidłowy adres e-mail, to <a %(escapedSupportLinkAttrs)s>da
 msgid "No longer own that email? Create a new account"
 msgstr "Ten adres e-mail zmienił właściciela? Utwórz nowe konto"
 
-#: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:12
+#: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
 msgstr "Błąd w adresie e-mail?"
 
@@ -1030,11 +1033,11 @@ msgstr "Szukasz danych dodatków? Zarejestruj konto Firefoksa za pomocą adresu 
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "Silne, unikalne hasło ochroni dane użytkownika Firefoksa przed włamywaczami."
 
-#: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/sign_up_password.mustache:9
+#: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/sign_up_password.mustache:8
 msgid "Receive the monthly Firefox newsletter"
 msgstr "Chcę otrzymywać comiesięczny newsletter Firefoksa"
 
-#: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:11
+#: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10
 msgid "Create account"
 msgstr "Utwórz konto"
 
@@ -1042,30 +1045,26 @@ msgstr "Utwórz konto"
 msgid "Have an account? Sign in"
 msgstr "Już posiadasz konto? Zaloguj się"
 
-#: app/scripts/templates/sign_up_password.mustache:7
-msgid "Verify password"
-msgstr "Zweryfikuj hasło"
-
-#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
+#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:6
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr "Wyślij Firefoksa bezpośrednio do telefonu i zaloguj się, aby dokończyć ustawianie"
 
-#: app/scripts/templates/sms_send.mustache:5
+#: app/scripts/templates/sms_send.mustache:7
 msgid "Mobile phone number"
 msgstr "Numer telefonu komórkowego"
 
-#: app/scripts/templates/sms_send.mustache:6
+#: app/scripts/templates/sms_send.mustache:8
 msgid "Send"
 msgstr "Wyślij"
 
-#: app/scripts/templates/sms_send.mustache:7
+#: app/scripts/templates/sms_send.mustache:9
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
 "Usługa wiadomości SMS jest dostępna tylko w wybranych krajach. Mogą zostać pobrane opłaty za wiadomości SMS i transmisję danych. Odbiorca docelowy wiadomości e-mail lub SMS musi wyrażać zgodę. <a "
 "%(escapedLearnMoreAttributes)s>Więcej informacji</a>"
 
-#: app/scripts/templates/sms_send.mustache:9
+#: app/scripts/templates/sms_send.mustache:11
 msgid "Maybe later"
 msgstr "Może później"
 
@@ -1338,6 +1337,12 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr "Zaloguj się"
 
+#~ msgid "Why is this required?"
+#~ msgstr "Dlaczego jest to wymagane?"
+
+#~ msgid "Verify password"
+#~ msgstr "Zweryfikuj hasło"
+
 #~ msgid "Next"
 #~ msgstr "Dalej"
 
@@ -1399,8 +1404,8 @@ msgstr "Zaloguj się"
 #~ msgstr "Dlaczego synchronizować dwa urządzenia (lub więcej!)?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
 #~ "Synchronizacja umożliwia współdzielenie zakładek, historii i haseł zachowywanych w Firefoksie na jednym urządzeniu z Firefoksem na innych urządzeniach. Zaloguj się do Firefoksa na telefonie lub "
 #~ "tablecie, a pojawi się na nim wszystko, co zachowano w Firefoksie na komputerze."
@@ -1424,8 +1429,8 @@ msgstr "Zaloguj się"
 #~ msgid ""
 #~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr ""
-#~ "Usługa wiadomości SMS jest dostępna tylko dla numerów telefonów w Stanach Zjednoczonych. Mogą zostać pobrane opłaty za wiadomości SMS i transmisję danych. Odbiorca docelowy wiadomości e-mail lub SMS"
-#~ " musi wyrażać zgodę. <a %(escapedLearnMoreAttributes)s>Więcej informacji</a>"
+#~ "Usługa wiadomości SMS jest dostępna tylko dla numerów telefonów w Stanach Zjednoczonych. Mogą zostać pobrane opłaty za wiadomości SMS i transmisję danych. Odbiorca docelowy wiadomości e-mail lub "
+#~ "SMS musi wyrażać zgodę. <a %(escapedLearnMoreAttributes)s>Więcej informacji</a>"
 
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "Dzięki wsparciu <a href=\"https://www.gravatar.com\">Gravatar</a>"

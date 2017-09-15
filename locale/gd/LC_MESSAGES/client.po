@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-01 17:59+0000\n"
+"POT-Creation-Date: 2017-09-15 16:08+0000\n"
 "PO-Revision-Date: 2017-08-11 11:15+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,10 +13,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3;\n"
 "X-Generator: Pontoon\n"
-
-#: app/scripts/views/complete_sign_up.js:174 app/scripts/models/auth_brokers/web.js:22
-msgid "Account verified successfully"
-msgstr "Chaidh an cunntas dhearbhadh"
 
 #: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:40
 msgid "Password reset"
@@ -103,31 +99,31 @@ msgstr ""
 "Tha sinn duilich an naidheachd seo a chluinntinn. Mas e uidheam a bha ann anns nach robh earbsa agad, bu chòir dhut facal-faire a’ chunntais Firefox agad atharrachadh agus gach facal-faire a "
 "shàbhail thu ann am Fireox atharrachadh."
 
-#: app/scripts/views/settings/clients.js:73
+#: app/scripts/views/settings/clients.js:75
 msgid "Web Session, %(userAgent)s"
 msgstr "Seisean-lìn, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:75
+#: app/scripts/views/settings/clients.js:77
 msgid "Web Session"
 msgstr "Seisean-lìn"
 
-#: app/scripts/views/settings/clients.js:78
+#: app/scripts/views/settings/clients.js:80
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:84
+#: app/scripts/views/settings/clients.js:86
 msgid "first sync %(translatedTimeAgo)s"
 msgstr "ciad sioncronachadh %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:87
+#: app/scripts/views/settings/clients.js:89
 msgid "last sync %(translatedTimeAgo)s"
 msgstr "sioncronachadh mu dheireadh %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:93
+#: app/scripts/views/settings/clients.js:95
 msgid "last active %(translatedTimeAgo)s"
 msgstr "gnìomhachd mu dheireadh %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:97
+#: app/scripts/views/settings/clients.js:99
 msgid "last sync time unknown"
 msgstr "chan eil fhios cuin a chaidh a shioncronachadh turas mu dheireadh"
 
@@ -147,11 +143,15 @@ msgstr "Chaidh an cunntas a sguabadh às"
 msgid "Display name updated"
 msgstr "Chaidh an t-ainm-taisbeanaidh ùrachadh"
 
-#: app/scripts/views/settings/emails.js:138 app/scripts/views/settings/emails.js:151
+#: app/scripts/views/settings/emails.js:114
+msgid "Secondary email removed"
+msgstr ""
+
+#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
 msgid "Verification email sent"
 msgstr "Chaidh am post-d dearbhaidh a chur"
 
-#: app/scripts/views/settings/emails.js:166
+#: app/scripts/views/settings/emails.js:169
 msgid "Primary email set to %(email)s"
 msgstr "’S e %(email)s am prìomh phost-d a-nis"
 
@@ -186,6 +186,10 @@ msgstr "Fosgail Restmail"
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "Chaidh am post-d a chur a-rithist"
+
+#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23
+msgid "Account verified successfully"
+msgstr "Chaidh an cunntas dhearbhadh"
 
 #: app/scripts/models/sync-engines.js:33
 msgid "Open tabs"
@@ -632,18 +636,6 @@ msgstr "Airson tèarainteachd a bharrachd, dearbh an clàradh a-steach a thòise
 msgid "Sign in"
 msgstr "Clàraich a-steach"
 
-#: app/scripts/lib/strings.js:49
-msgid "Signin confirmed"
-msgstr ""
-
-#: app/scripts/lib/strings.js:50
-msgid "Still adding devices?"
-msgstr ""
-
-#: app/scripts/lib/strings.js:51
-msgid "Why is more than one device required?"
-msgstr ""
-
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
 msgstr "Droch-iarrtas"
@@ -786,37 +778,46 @@ msgstr "Ceangail ri uidheam eile"
 msgid "This Firefox is connected"
 msgstr ""
 
-#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
+#: app/scripts/templates/connect_another_device.mustache:6
+msgid "Signin confirmed"
+msgstr ""
+
+#: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
 msgstr "Soirbheas"
 
-#: app/scripts/templates/connect_another_device.mustache:6
+#: app/scripts/templates/connect_another_device.mustache:9
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Clàraich a-steach dhan Firefox seo a choileanadh an t-suidheachaidh"
 
-#: app/scripts/templates/connect_another_device.mustache:7
+#: app/scripts/templates/connect_another_device.mustache:10
 msgid "Sign in &rarr;"
 msgstr "Clàraich a-steach &rarr;"
 
-#: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
+#: app/scripts/templates/connect_another_device.mustache:12 app/scripts/templates/connect_another_device.mustache:16 app/scripts/templates/connect_another_device.mustache:26
+#: app/scripts/templates/sms_send.mustache:4
+msgid "Still adding devices?"
+msgstr ""
+
+#: app/scripts/templates/connect_another_device.mustache:14 app/scripts/templates/connect_another_device.mustache:18 app/scripts/templates/connect_another_device.mustache:28
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Clàraich a-steach gu Firefox air uidheam eile a choileanadh an t-suidheachaidh"
 
-#: app/scripts/templates/connect_another_device.mustache:13
+#: app/scripts/templates/connect_another_device.mustache:20
 msgid "Open settings and select Sign in to Firefox to complete set-up"
 msgstr "Fosgail na roghainnean is tagh “Clàraich a-steach gu Firefox” a choileanadh an t-suidheachaidh"
 
-#: app/scripts/templates/connect_another_device.mustache:15
+#: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
 msgstr "Clàraich a-steach gu Firefox airson Android a choileanadh an t-suidheachaidh"
 
-#: app/scripts/templates/connect_another_device.mustache:17
+#: app/scripts/templates/connect_another_device.mustache:24
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "Clàraich a-steach gu Firefox airson iOS a choileanadh an t-suidheachaidh"
 
-#: app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
-msgid "Why is this required?"
-msgstr "Carson a tha agam ri seo a dhèanamh?"
+#: app/scripts/templates/connect_another_device.mustache:30 app/scripts/templates/sms_send.mustache:10
+msgid "Why is more than one device required?"
+msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
@@ -848,7 +849,7 @@ msgid "Forgot password?"
 msgstr "Na dhìochuimhnich thu am facal-faire agad?"
 
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:17
-#: app/scripts/templates/sign_up_password.mustache:8
+#: app/scripts/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
 "Ma leanas tu air adhart, bidh thu ag aontachadh ri <a id=\"fxa-tos\" href=\"/legal/terms\">teirmichean na seirbheise</a> agus <a id=\"fxa-pp\" href=\"/legal/privacy\">aithris na prìobhaideachd</a> "
@@ -1000,7 +1001,7 @@ msgstr ""
 msgid "No longer own that email? Create a new account"
 msgstr ""
 
-#: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:12
+#: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
 msgstr ""
 
@@ -1040,11 +1041,11 @@ msgstr "An tòir dàta nan tuilleadan agad? Clàraich airson cunntas Firefox lei
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "Cumaidh facal-faire làidir àraidh an dàta Firefox agad sàbhailte o luchd-ionnsaigh."
 
-#: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/sign_up_password.mustache:9
+#: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/sign_up_password.mustache:8
 msgid "Receive the monthly Firefox newsletter"
 msgstr ""
 
-#: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:11
+#: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10
 msgid "Create account"
 msgstr "Cruthaich cunntas"
 
@@ -1052,28 +1053,24 @@ msgstr "Cruthaich cunntas"
 msgid "Have an account? Sign in"
 msgstr "A bheil cunntas agad? Clàraich a-steach"
 
-#: app/scripts/templates/sign_up_password.mustache:7
-msgid "Verify password"
-msgstr ""
-
-#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
+#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:6
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr ""
 
-#: app/scripts/templates/sms_send.mustache:5
+#: app/scripts/templates/sms_send.mustache:7
 msgid "Mobile phone number"
 msgstr ""
 
-#: app/scripts/templates/sms_send.mustache:6
+#: app/scripts/templates/sms_send.mustache:8
 msgid "Send"
 msgstr ""
 
-#: app/scripts/templates/sms_send.mustache:7
+#: app/scripts/templates/sms_send.mustache:9
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
 
-#: app/scripts/templates/sms_send.mustache:9
+#: app/scripts/templates/sms_send.mustache:11
 msgid "Maybe later"
 msgstr ""
 
@@ -1345,6 +1342,9 @@ msgstr ""
 msgctxt "header text"
 msgid "Sign in"
 msgstr ""
+
+#~ msgid "Why is this required?"
+#~ msgstr "Carson a tha agam ri seo a dhèanamh?"
 
 #~ msgid "Next"
 #~ msgstr "Air adhart"

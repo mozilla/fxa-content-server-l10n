@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-01 17:59+0000\n"
+"POT-Creation-Date: 2017-09-15 16:08+0000\n"
 "PO-Revision-Date: 2017-01-22 14:26+0000\n"
 "Last-Translator: ibrahima.sarr <ibrahima.sarr@pulaagu.com>\n"
 "Language-Team: FULAH LOCALIZATION\n"
@@ -14,10 +14,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1426092424.0\n"
-
-#: app/scripts/views/complete_sign_up.js:174 app/scripts/models/auth_brokers/web.js:22
-msgid "Account verified successfully"
-msgstr "Konte ƴeewtoraama no haaniri"
 
 #: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:40
 msgid "Password reset"
@@ -99,31 +95,31 @@ msgstr "Ɗum deh welaani nanade. Wadde aɗa foti waylude finnde maa Konte Firefo
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Ɗum deh welaani nande. So ɗum ko kaɓirgol ngol a hoolaaki e jaati, pot-ɗaa ko waylude finnde maa Konte Firefox, e finndeeji danndaaɗi e Firefox fof."
 
-#: app/scripts/views/settings/clients.js:73
+#: app/scripts/views/settings/clients.js:75
 msgid "Web Session, %(userAgent)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:75
+#: app/scripts/views/settings/clients.js:77
 msgid "Web Session"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:78
+#: app/scripts/views/settings/clients.js:80
 msgid "%(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:84
+#: app/scripts/views/settings/clients.js:86
 msgid "first sync %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:87
+#: app/scripts/views/settings/clients.js:89
 msgid "last sync %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:93
+#: app/scripts/views/settings/clients.js:95
 msgid "last active %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:97
+#: app/scripts/views/settings/clients.js:99
 msgid "last sync time unknown"
 msgstr ""
 
@@ -143,11 +139,15 @@ msgstr "Konte momtiraama no haanirta"
 msgid "Display name updated"
 msgstr "Innde jaytino hesɗitinaama"
 
-#: app/scripts/views/settings/emails.js:138 app/scripts/views/settings/emails.js:151
+#: app/scripts/views/settings/emails.js:114
+msgid "Secondary email removed"
+msgstr ""
+
+#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
 msgid "Verification email sent"
 msgstr ""
 
-#: app/scripts/views/settings/emails.js:166
+#: app/scripts/views/settings/emails.js:169
 msgid "Primary email set to %(email)s"
 msgstr ""
 
@@ -182,6 +182,10 @@ msgstr "Uddit Restmail"
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
 msgstr "Iimeel neltiraama"
+
+#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23
+msgid "Account verified successfully"
+msgstr "Konte ƴeewtoraama no haaniri"
 
 #: app/scripts/models/sync-engines.js:33
 msgid "Open tabs"
@@ -627,18 +631,6 @@ msgstr "Ngam ɓeydude kisal, tiiɗno teeŋtin ngol ceŋagol ngam fuɗɗaade sync
 msgid "Sign in"
 msgstr "Seŋo"
 
-#: app/scripts/lib/strings.js:49
-msgid "Signin confirmed"
-msgstr ""
-
-#: app/scripts/lib/strings.js:50
-msgid "Still adding devices?"
-msgstr ""
-
-#: app/scripts/lib/strings.js:51
-msgid "Why is more than one device required?"
-msgstr ""
-
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
 msgstr "Ɗaɓɓitannde Moƴƴaa"
@@ -780,37 +772,46 @@ msgstr "Seŋ kaɓirgol goɗngol"
 msgid "This Firefox is connected"
 msgstr ""
 
-#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
+#: app/scripts/templates/connect_another_device.mustache:6
+msgid "Signin confirmed"
+msgstr ""
+
+#: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
 msgstr "Moƴƴii"
 
-#: app/scripts/templates/connect_another_device.mustache:6
+#: app/scripts/templates/connect_another_device.mustache:9
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Seŋo e Firefox ngam timminde teeltagol"
 
-#: app/scripts/templates/connect_another_device.mustache:7
+#: app/scripts/templates/connect_another_device.mustache:10
 msgid "Sign in &rarr;"
 msgstr "Seŋo &rarr;"
 
-#: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
+#: app/scripts/templates/connect_another_device.mustache:12 app/scripts/templates/connect_another_device.mustache:16 app/scripts/templates/connect_another_device.mustache:26
+#: app/scripts/templates/sms_send.mustache:4
+msgid "Still adding devices?"
+msgstr ""
+
+#: app/scripts/templates/connect_another_device.mustache:14 app/scripts/templates/connect_another_device.mustache:18 app/scripts/templates/connect_another_device.mustache:28
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Seŋo e Firefox e kaɓirgol goɗngol ngam timminde teeltagol"
 
-#: app/scripts/templates/connect_another_device.mustache:13
+#: app/scripts/templates/connect_another_device.mustache:20
 msgid "Open settings and select Sign in to Firefox to complete set-up"
 msgstr "Uddit teelte kisa labo-ɗaa Seŋo e Firefox ngam timminde teeltagol"
 
-#: app/scripts/templates/connect_another_device.mustache:15
+#: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
 msgstr "Seŋo e Firefox mo Android ngam timminde teeltagol"
 
-#: app/scripts/templates/connect_another_device.mustache:17
+#: app/scripts/templates/connect_another_device.mustache:24
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "Seŋo e Firefox mo iOS ngam timminde teeltagol"
 
-#: app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
-msgid "Why is this required?"
-msgstr "Hol ko waɗi ena waɗɗii?"
+#: app/scripts/templates/connect_another_device.mustache:30 app/scripts/templates/sms_send.mustache:10
+msgid "Why is more than one device required?"
+msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
@@ -840,7 +841,7 @@ msgid "Forgot password?"
 msgstr "A yejjit finnde ndee?"
 
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:17
-#: app/scripts/templates/sign_up_password.mustache:8
+#: app/scripts/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr "Ɓennude ɗoo firti ko a jaɓii ɗooftaade <a id=\"fxa-tos\" href=\"/legal/terms\">Sarɗiiji Carwe</a> e <a id=\"fxa-pp\" href=\"/legal/privacy\">Tintinol Suturo</a> mo carwe ruulde Firefox."
 
@@ -990,7 +991,7 @@ msgstr ""
 msgid "No longer own that email? Create a new account"
 msgstr ""
 
-#: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:12
+#: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
 msgstr ""
 
@@ -1030,11 +1031,11 @@ msgstr "Aɗa yiyloo kaɓe Ɓeyditte maa? Seŋo e Konte Firefox huutoraade ñiiɓ
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "Finnde tekkunde, heeriinde maa sur keɓe maa Firefox e wujjittooɓe."
 
-#: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/sign_up_password.mustache:9
+#: app/scripts/templates/sign_up.mustache:18 app/scripts/templates/sign_up_password.mustache:8
 msgid "Receive the monthly Firefox newsletter"
 msgstr ""
 
-#: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:11
+#: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10
 msgid "Create account"
 msgstr "Sos konte"
 
@@ -1042,28 +1043,24 @@ msgstr "Sos konte"
 msgid "Have an account? Sign in"
 msgstr "Aɗa jogii konnte? Seŋo"
 
-#: app/scripts/templates/sign_up_password.mustache:7
-msgid "Verify password"
-msgstr ""
-
-#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4
+#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:6
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr ""
 
-#: app/scripts/templates/sms_send.mustache:5
+#: app/scripts/templates/sms_send.mustache:7
 msgid "Mobile phone number"
 msgstr ""
 
-#: app/scripts/templates/sms_send.mustache:6
+#: app/scripts/templates/sms_send.mustache:8
 msgid "Send"
 msgstr ""
 
-#: app/scripts/templates/sms_send.mustache:7
+#: app/scripts/templates/sms_send.mustache:9
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
 
-#: app/scripts/templates/sms_send.mustache:9
+#: app/scripts/templates/sms_send.mustache:11
 msgid "Maybe later"
 msgstr ""
 
@@ -1335,6 +1332,9 @@ msgstr ""
 msgctxt "header text"
 msgid "Sign in"
 msgstr ""
+
+#~ msgid "Why is this required?"
+#~ msgstr "Hol ko waɗi ena waɗɗii?"
 
 #~ msgid "Next"
 #~ msgstr "Yeeso"
