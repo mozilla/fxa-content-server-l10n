@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-15 16:08+0000\n"
-"PO-Revision-Date: 2017-09-19 01:50+0000\n"
+"PO-Revision-Date: 2017-09-19 02:04+0000\n"
 "Last-Translator: Rodrigo Guerra <rodmguerra@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -339,67 +339,67 @@ msgstr "Iste email ha ja essite verificate per altere usator"
 
 #: app/scripts/lib/auth-errors.js:155
 msgid "Secondary email must be different than your account email"
-msgstr "Le adresse email secundari debe esser differente del email de tu conto"
+msgstr "Le adresse email secundari debe esser differente del adresse email de tu conto"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "Le adresse email primari del conto es necessari pro authenticar se"
 
 #: app/scripts/lib/auth-errors.js:171
 msgid "Address in use by another account"
-msgstr ""
+msgstr "Adresse in uso per altere conto"
 
 #: app/scripts/lib/auth-errors.js:175
 msgid "Primary account email required for reset"
-msgstr ""
+msgstr "Le adresse email primari del conto es necessari pro remontar"
 
 #: app/scripts/lib/auth-errors.js:179
 msgid "Invalid signin code"
-msgstr ""
+msgstr "Codice de authentication invalide"
 
 #: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Servitor occupate, retenta plus tarde"
 
 #: app/scripts/lib/auth-errors.js:188
 msgid "This endpoint is no longer supported"
-msgstr ""
+msgstr "Iste extremitate non es plus admittite"
 
 #: app/scripts/lib/auth-errors.js:192 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "Systema indisponibile, retenta plus tarde"
 
 #: app/scripts/lib/auth-errors.js:196
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Tentativa de authentication cancellate"
 
 #: app/scripts/lib/auth-errors.js:200
 msgid "Session expired. Sign in to continue."
-msgstr ""
+msgstr "Session expirate. Authentica te pro continuar."
 
 #: app/scripts/lib/auth-errors.js:204
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "Le cookies es ancora inactive"
 
 #: app/scripts/lib/auth-errors.js:208
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Le contrasignos non se corresponde"
 
 #: app/scripts/lib/auth-errors.js:212
 msgid "Working…"
-msgstr ""
+msgstr "In curso…"
 
 #: app/scripts/lib/auth-errors.js:216
 msgid "Could not get Privacy Notice"
-msgstr ""
+msgstr "Il non esseva possibile trovar le advertentia de privacitate"
 
 #: app/scripts/lib/auth-errors.js:220
 msgid "Could not get Terms of Service"
-msgstr ""
+msgstr "Il non esseva possibile trovar le terminos del servicio"
 
 #: app/scripts/lib/auth-errors.js:224
 msgid "Your new password must be different"
-msgstr ""
+msgstr "Tu nove contrasigno debe esser differente"
 
 #: app/scripts/lib/auth-errors.js:228 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
@@ -627,7 +627,7 @@ msgstr ""
 
 #: app/scripts/lib/strings.js:46 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4 app/scripts/templates/sign_in_password.mustache:6
 msgid "Sign in"
-msgstr ""
+msgstr "Authenticar se"
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
@@ -760,7 +760,7 @@ msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:4 app/scripts/templates/confirm_reset_password.mustache:6 app/scripts/templates/reset_password.mustache:10
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "Memora le contrasigno? Authentica te"
 
 #: app/scripts/templates/connect_another_device.mustache:1
 msgid "Connect another device"
@@ -780,11 +780,11 @@ msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:9
 msgid "Sign in to this Firefox to complete set-up"
-msgstr ""
+msgstr "Authentica te a iste Firefox pro completar le configuration"
 
 #: app/scripts/templates/connect_another_device.mustache:10
 msgid "Sign in &rarr;"
-msgstr ""
+msgstr "Authenticar se &rarr;"
 
 #: app/scripts/templates/connect_another_device.mustache:12 app/scripts/templates/connect_another_device.mustache:16 app/scripts/templates/connect_another_device.mustache:26
 #: app/scripts/templates/sms_send.mustache:4
@@ -793,19 +793,19 @@ msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:14 app/scripts/templates/connect_another_device.mustache:18 app/scripts/templates/connect_another_device.mustache:28
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Authenticate a Firefox in altere apparato pro completar le configuration"
 
 #: app/scripts/templates/connect_another_device.mustache:20
 msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr ""
+msgstr "Aperi le parametros e selectiona Authenticar se pro completar le configuration"
 
 #: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
+msgstr "Authentica te a Firefox pro Android pro completar le configuration"
 
 #: app/scripts/templates/connect_another_device.mustache:24
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
+msgstr "Authentica te a Firefox pro iOS pro completar le configuration"
 
 #: app/scripts/templates/connect_another_device.mustache:30 app/scripts/templates/sms_send.mustache:10
 msgid "Why is more than one device required?"
@@ -825,7 +825,7 @@ msgstr ""
 
 #: app/scripts/templates/force_auth.mustache:1
 msgid "Sign in to continue"
-msgstr ""
+msgstr "Authentica te pro continuar"
 
 #: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_in_password.mustache:5
 #: app/scripts/templates/sign_up.mustache:12 app/scripts/templates/sign_up_password.mustache:5 app/scripts/templates/settings/change_password.mustache:1
@@ -1039,11 +1039,11 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:25
 msgid "Have an account? Sign in"
-msgstr ""
+msgstr "Ha tu un conto? Authentica te"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:6
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Invia FIrefox directemente a tu telephono e authentica te pro completar le configuration"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid "Mobile phone number"
@@ -1064,7 +1064,7 @@ msgstr ""
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Installa FIrefox in tu telephono e authentica te pro completar le configuration"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
@@ -1137,7 +1137,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr ""
+msgstr "Un vice terminate, usa tu nove contrasigno pro authenticar te in tote tu apparatos."
 
 #: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
@@ -1305,7 +1305,7 @@ msgstr ""
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr ""
+msgstr "Connecter se a Sync"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
@@ -1323,10 +1323,10 @@ msgstr ""
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
 msgctxt "submit button"
 msgid "Sign in"
-msgstr ""
+msgstr "Authenticar se"
 
 #. header text
 #: app/scripts/views/sign_in.js:95
 msgctxt "header text"
 msgid "Sign in"
-msgstr ""
+msgstr "Authenticar se"
