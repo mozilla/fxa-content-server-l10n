@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-15 16:08+0000\n"
-"PO-Revision-Date: 2017-09-19 02:29+0000\n"
+"PO-Revision-Date: 2017-09-19 02:36+0000\n"
 "Last-Translator: Rodrigo Guerra <rodmguerra@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -111,7 +111,7 @@ msgstr "Isto es un email automatic; si tu non autorisa iste action, tunc <a %(re
 
 #: lib/senders/templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Isto es un email automatic; si tu non ha cambiate le contrasigno de tu conto Firefox, tu deberea remontar lo immediatemente in %(resetLink)s"
 
 #: lib/senders/templates/password_reset.html:2
 msgid "Your password has been reset"
@@ -119,7 +119,7 @@ msgstr "Tu contrasigno ha essite remontate"
 
 #: lib/senders/templates/password_reset.html:3
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+msgstr "Le contrasigno de tu conto Firefox ha essite cambiate. Si tu non lo cambia, per favor <a %(resetLinkAttributes)s>remonta tu contrasigno</a> ora."
 
 #: lib/senders/templates/password_reset.html:4 lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5
 #: lib/senders/templates/post_verify.txt:4 lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/post_verify_secondary_email.html:5
@@ -139,7 +139,7 @@ msgstr "Le contrasigno de tu conto Firefox ha essite remontate con successo."
 
 #: lib/senders/templates/password_reset.txt:3
 msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr ""
+msgstr "Isto es un email automatic; si tu non ha remontate le contrasigno de tu conto Firefox, tu deberea remontar lo immediatemente in %(resetLink)s"
 
 #: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
@@ -147,7 +147,7 @@ msgstr ""
 
 #: lib/senders/templates/password_reset_required.html:3 lib/senders/templates/password_reset_required.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-msgstr ""
+msgstr "Pro impedir futur accessos non autorisate a tu conto Firefox, nos ha remontate tu contrasigno e te notifica per precaution."
 
 #: lib/senders/templates/password_reset_required.html:4 lib/senders/templates/password_reset_required.txt:3
 msgid "What should you do?"
@@ -390,11 +390,11 @@ msgstr ""
 
 #: lib/senders/email.js:573
 msgid "Your Firefox Account password has been reset"
-msgstr ""
+msgstr "Tu conto Firefox ha essite remontate"
 
 #: lib/senders/email.js:599
 msgid "Firefox Account password reset required"
-msgstr ""
+msgstr "Il es necessari remontar le contrasigno del conto Firefox"
 
 #: lib/senders/email.js:656
 msgid "Firefox Account verified"
