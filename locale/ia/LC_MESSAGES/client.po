@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-15 16:08+0000\n"
-"PO-Revision-Date: 2017-09-19 02:04+0000\n"
+"PO-Revision-Date: 2017-09-19 02:27+0000\n"
 "Last-Translator: Rodrigo Guerra <rodmguerra@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -667,11 +667,11 @@ msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
-msgstr ""
+msgstr "Ligamine pro remontar le contrasigno expirate"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
-msgstr ""
+msgstr "Le ligamine su re qual tu ha cliccate pro remontar tu contrasigno ha expirate."
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
@@ -679,7 +679,7 @@ msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
-msgstr ""
+msgstr "Ligamine pro remontar le contrasigno damnate"
 
 #: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:10 app/scripts/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
@@ -752,7 +752,7 @@ msgstr ""
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr ""
+msgstr "Email de remontar inviate"
 
 #: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
@@ -939,15 +939,15 @@ msgstr ""
 
 #: app/scripts/templates/reset_password.mustache:1 app/scripts/templates/reset_password.mustache:4
 msgid "Reset account"
-msgstr ""
+msgstr "Remontar le conto"
 
 #: app/scripts/templates/reset_password.mustache:5
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "Quando tu remonta tu contrasigno, tu perdera tote le datos de Sync que non es in un de tu apparatos."
 
 #: app/scripts/templates/reset_password.mustache:9
 msgid "Begin reset"
-msgstr ""
+msgstr "Comenciar remontar"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
@@ -1305,7 +1305,7 @@ msgstr ""
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
-msgstr "Connecter se a Sync"
+msgstr "Authenticar se a Sync"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."

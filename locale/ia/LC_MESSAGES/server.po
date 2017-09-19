@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-15 16:08+0000\n"
-"PO-Revision-Date: 2017-09-19 02:08+0000\n"
+"PO-Revision-Date: 2017-09-19 02:29+0000\n"
 "Last-Translator: Rodrigo Guerra <rodmguerra@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -27,7 +27,7 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Tu connecteva con successo tu prime apparato a tu conto Firefox. Ora tu pote connecter te a Sync de tu altere apparatos, includente Firefox pro <a href='%(androidUrl)s'>Android</a> e <a "
+"Tu connecteva con successo tu prime apparato a tu conto Firefox. Ora tu pote authenticar te a Sync de tu altere apparatos, includente Firefox pro <a href='%(androidUrl)s'>Android</a> e <a "
 "href='%(iosUrl)s'>iOS</a>."
 
 #: lib/senders/templates/_pending.txt:4
@@ -42,7 +42,7 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:6
 msgid "Sign in to Sync"
-msgstr "Connecter se a Sync"
+msgstr "Authenticar se a Sync"
 
 #: lib/senders/templates/new_device_login.html:1 lib/senders/templates/password_changed.html:1 lib/senders/templates/password_reset.html:1 lib/senders/templates/password_reset_required.html:1
 #: lib/senders/templates/post_remove_secondary.html:1 lib/senders/templates/post_verify.html:1 lib/senders/templates/post_verify_secondary.html:1
@@ -107,7 +107,7 @@ msgstr ""
 
 #: lib/senders/templates/password_changed.html:5
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr ""
+msgstr "Isto es un email automatic; si tu non autorisa iste action, tunc <a %(resetLinkAttributes)s>per favor remonta tu contrasigno</a>."
 
 #: lib/senders/templates/password_changed.txt:4
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
@@ -115,7 +115,7 @@ msgstr ""
 
 #: lib/senders/templates/password_reset.html:2
 msgid "Your password has been reset"
-msgstr ""
+msgstr "Tu contrasigno ha essite remontate"
 
 #: lib/senders/templates/password_reset.html:3
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
@@ -131,11 +131,11 @@ msgstr ""
 
 #: lib/senders/templates/password_reset.txt:1
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Contrasigno remontate con successo"
 
 #: lib/senders/templates/password_reset.txt:2
 msgid "Your Firefox Account password has been successfully reset."
-msgstr ""
+msgstr "Le contrasigno de tu conto Firefox ha essite remontate con successo."
 
 #: lib/senders/templates/password_reset.txt:3
 msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
@@ -208,7 +208,7 @@ msgstr "Tu ha connectite con successo tu prime apparato a tu conto Firefox. Ora 
 
 #: lib/senders/templates/post_verify.txt:3
 msgid "Sign in to Sync:"
-msgstr "Connecter se a Sync:"
+msgstr "Authenticar se a Sync:"
 
 #: lib/senders/templates/post_verify_secondary.html:2 lib/senders/templates/post_verify_secondary.txt:1 lib/senders/templates/post_verify_secondary_email.html:2
 msgid "Secondary email added"
@@ -228,7 +228,7 @@ msgstr ""
 
 #: lib/senders/templates/recovery.html:5 lib/senders/templates/recovery.txt:4
 msgid "Reset password"
-msgstr ""
+msgstr "Remontar le contrasigno"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
@@ -382,7 +382,7 @@ msgstr ""
 
 #: lib/senders/email.js:511
 msgid "Reset your Firefox Account password"
-msgstr ""
+msgstr "Remontar le contrasigno de tu conto Firefox"
 
 #: lib/senders/email.js:543
 msgid "Your Firefox Account password has been changed"
