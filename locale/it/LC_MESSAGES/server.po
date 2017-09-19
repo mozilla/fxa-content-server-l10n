@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-15 16:08+0000\n"
-"PO-Revision-Date: 2017-08-25 14:50+0000\n"
-"Last-Translator: Francesco Lodolo <francesco.lodolo@mozillaitalia.org>\n"
+"PO-Revision-Date: 2017-08-05 09:14+0000\n"
+"Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -422,7 +422,7 @@ msgstr "Email secondaria per l’account Firefox aggiunta correttamente"
 
 #: lib/senders/email.js:717
 msgid "Secondary Firefox Account email removed"
-msgstr ""
+msgstr "Indirizzo email secondario rimosso"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
