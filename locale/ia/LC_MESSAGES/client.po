@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-15 16:08+0000\n"
-"PO-Revision-Date: 2017-09-19 01:30+0000\n"
+"PO-Revision-Date: 2017-09-19 01:50+0000\n"
 "Last-Translator: Rodrigo Guerra <rodmguerra@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -114,51 +114,51 @@ msgstr "prime synchronisation %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:89
 msgid "last sync %(translatedTimeAgo)s"
-msgstr ""
+msgstr "ultime synchronisation %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:95
 msgid "last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "ultime activitate %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:99
 msgid "last sync time unknown"
-msgstr ""
+msgstr "ultime synchronisation incognite"
 
 #: app/scripts/views/settings/communication_preferences.js:118
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "Subscribite con successo"
 
 #: app/scripts/views/settings/communication_preferences.js:119
 msgid "Unsubscribed successfully"
-msgstr ""
+msgstr "Subscription cancellate con successo"
 
 #: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
-msgstr ""
+msgstr "Conto delite con successo"
 
 #: app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
-msgstr ""
+msgstr "Nomine a monstrar actualisate"
 
 #: app/scripts/views/settings/emails.js:114
 msgid "Secondary email removed"
-msgstr ""
+msgstr "Adresse email secundari removite"
 
 #: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
 msgid "Verification email sent"
-msgstr ""
+msgstr "Email de verification inviate"
 
 #: app/scripts/views/settings/emails.js:169
 msgid "Primary email set to %(email)s"
-msgstr ""
+msgstr "Adresse email primari definite como %(email)s"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "Tu conto ha essite blocate per rationes de securitate"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:44
 msgid "Reset password"
-msgstr ""
+msgstr "Remontar le contrasigno"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
@@ -182,23 +182,23 @@ msgstr "Aperir Restmail"
 
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
-msgstr ""
+msgstr "Email reinviate"
 
 #: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23
 msgid "Account verified successfully"
-msgstr ""
+msgstr "Conto verificate con successo"
 
 #: app/scripts/models/sync-engines.js:33
 msgid "Open tabs"
-msgstr "Aperir schedas"
+msgstr "Schedas aperite"
 
 #: app/scripts/models/sync-engines.js:38
 msgid "Bookmarks"
-msgstr "Marcatores"
+msgstr "Paginas marcate"
 
 #: app/scripts/models/sync-engines.js:43
 msgid "Add-ons"
-msgstr "Complementos"
+msgstr "Additivos"
 
 #: app/scripts/models/sync-engines.js:48
 msgid "Passwords"
@@ -227,35 +227,35 @@ msgstr "Firefox Sync"
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:35
 msgid "Unexpected error"
-msgstr "Error inattendite"
+msgstr "Error inexpectate"
 
 #: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:5
 msgid "The link you clicked to verify your email is expired."
-msgstr ""
+msgstr "Le ligamine sur le qual tu ha cliccate pro verificar tu email es expirate."
 
 #: app/scripts/lib/auth-errors.js:21 app/scripts/lib/sms-errors.js:17
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "Tu ha tentate troppo de vices. Retenta plus tarde."
 
 #: app/scripts/lib/auth-errors.js:25
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "Tu ha tentate troppo de vices. Retenta %(retryAfterLocalized)s."
 
 #: app/scripts/lib/auth-errors.js:35 app/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
-msgstr ""
+msgstr "Token invalide"
 
 #: app/scripts/lib/auth-errors.js:39
 msgid "Invalid timestamp in request signature"
-msgstr ""
+msgstr "Marca temporal invalide in le signatura del requesta"
 
 #: app/scripts/lib/auth-errors.js:43
 msgid "Invalid nonce in request signature"
-msgstr ""
+msgstr "Nonce invalide in le signatura del requesta"
 
 #: app/scripts/lib/auth-errors.js:47 app/scripts/lib/auth-errors.js:159 app/scripts/lib/auth-errors.js:163
 msgid "Account already exists"
-msgstr ""
+msgstr "Iste conto ja existe"
 
 #: app/scripts/lib/auth-errors.js:51
 msgid "Unknown account"
@@ -263,83 +263,83 @@ msgstr "Conto incognite"
 
 #: app/scripts/lib/auth-errors.js:55
 msgid "Incorrect email case"
-msgstr "Casse del adresse incorrecte"
+msgstr "Majusculas e minusculas incorrecte in le email"
 
 #: app/scripts/lib/auth-errors.js:59
 msgid "Incorrect password"
-msgstr ""
+msgstr "Contrasigno incorrecte"
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
-msgstr ""
+msgstr "Conto non verificate"
 
 #: app/scripts/lib/auth-errors.js:67
 msgid "Invalid verification code"
-msgstr ""
+msgstr "Codice de verification invalide"
 
 #: app/scripts/lib/auth-errors.js:71
 msgid "Invalid JSON in request body"
-msgstr ""
+msgstr "JSON invalide in le corpore del requesta"
 
 #: app/scripts/lib/auth-errors.js:75
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "Parametro invalide: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:79
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "Parametro mancante: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:83
 msgid "Invalid request signature"
-msgstr ""
+msgstr "Signatura de requesta invalide"
 
 #: app/scripts/lib/auth-errors.js:87
 msgid "Missing content-length header"
-msgstr ""
+msgstr "Capite content-length mancante"
 
 #: app/scripts/lib/auth-errors.js:91
 msgid "Request body too large"
-msgstr ""
+msgstr "Corpore de requesta troppo grande"
 
 #: app/scripts/lib/auth-errors.js:109
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "Le requesta ha essite blocate pro rationes de securitate"
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:384
 msgid "Invalid authorization code"
-msgstr ""
+msgstr "Codice de autorisation invalide"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Numero de telephono invalide"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "Il non se pote inviar a iste pais"
 
 #: app/scripts/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "Il non esseva possibile inviar un message a iste numero"
 
 #: app/scripts/lib/auth-errors.js:138
 msgid "Your email was just returned"
-msgstr ""
+msgstr "Tu email ha retornate con falta"
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Tu email ha retornate con falta. Alcun manco in le scriptura?"
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "Incapace de livrar le email"
 
 #: app/scripts/lib/auth-errors.js:151
 msgid "This email was already verified by another user"
-msgstr ""
+msgstr "Iste email ha ja essite verificate per altere usator"
 
 #: app/scripts/lib/auth-errors.js:155
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "Le adresse email secundari debe esser differente del email de tu conto"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
