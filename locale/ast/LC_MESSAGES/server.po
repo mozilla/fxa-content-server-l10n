@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-15 16:08+0000\n"
-"PO-Revision-Date: 2017-08-15 15:59+0000\n"
+"PO-Revision-Date: 2017-09-22 11:10+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -32,8 +32,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr "Coneutesti con ésitu'l to primer preséu a la cuenta de Firefox. P'aprovechar al máximu Sync, coneuta <a href='%(androidUrl)s'>Firefox p'Android</a> o <a href='%(iosUrl)s'>Firefox pa iOS</a>."
 
 #: lib/senders/templates/_pending.txt:5 lib/senders/templates/post_verify.html:4
@@ -122,10 +122,10 @@ msgid "Your Firefox Account password has changed. If you did not change it, plea
 msgstr "Camudóse la contraseña de la to cuenta Firefox, Si nun la camudesti, por favor <a %(resetLinkAttributes)s>reanicia la to contraseña</a> agora."
 
 #: lib/senders/templates/password_reset.html:4 lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5
-#: lib/senders/templates/post_verify.txt:4 lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/post_verify_secondary.txt:4
-#: lib/senders/templates/post_verify_secondary_email.html:5 lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:5
-#: lib/senders/templates/verification_reminder_first.txt:4 lib/senders/templates/verification_reminder_second.html:5 lib/senders/templates/verification_reminder_second.txt:4
-#: lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4 lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
+#: lib/senders/templates/post_verify.txt:4 lib/senders/templates/post_verify_secondary.html:5 lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/post_verify_secondary_email.html:5
+#: lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:5 lib/senders/templates/verification_reminder_first.txt:4
+#: lib/senders/templates/verification_reminder_second.html:5 lib/senders/templates/verification_reminder_second.txt:4 lib/senders/templates/verify.html:5 lib/senders/templates/verify.txt:4
+#: lib/senders/templates/verify_sync.html:7 lib/senders/templates/verify_sync.txt:6
 msgid "This is an automated email; if you received it in error, no action is required."
 msgstr "Esto ye un corréu automatizáu. Si lu recibes por error, nun se rique aición dala."
 
@@ -258,8 +258,8 @@ msgstr "Hola de nueves."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 "Hai dellos díes creasti una cuenta de Firefox pero enxamás nun la verifiquesti. Una cuenta verificada déxate acceder a les tos llingüetes, marcadores, contraseñes ya hisotria en cualesquier preséu "
 "coneutáu con ello. Namái confirma esta direición p'activar la to cuenta."
@@ -314,11 +314,11 @@ msgstr ""
 
 #: lib/senders/templates/verify_secondary.html:3 lib/senders/templates/verify_secondary.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr ""
+msgstr "Féxose una solicitú pa usar %(email)s como cuenta secundaria de corréu dende la cuenta de Firefox de darréu:"
 
 #: lib/senders/templates/verify_secondary.html:5 lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
 msgid "Verify email "
-msgstr ""
+msgstr "Verificar corréu "
 
 #: lib/senders/templates/verify_secondary.html:6
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
@@ -326,7 +326,7 @@ msgstr ""
 
 #: lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
-msgstr ""
+msgstr "Verificar corréu: "
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -469,8 +469,7 @@ msgstr "Términos del Serviciu"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 #~ msgstr ""
-#~ "¿Aniciesti sesión na to cuenta de Firefox dende cualesquiera de los allugamientos de darréu nos caberos 60 díes? Si nun los reconoces, daquién más quiciabes tenga accesu a la to cuenta de "
-#~ "Firefox."
+#~ "¿Aniciesti sesión na to cuenta de Firefox dende cualesquiera de los allugamientos de darréu nos caberos 60 díes? Si nun los reconoces, daquién más quiciabes tenga accesu a la to cuenta de Firefox."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Data y hora:"
