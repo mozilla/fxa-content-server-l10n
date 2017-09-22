@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-15 16:08+0000\n"
-"PO-Revision-Date: 2017-09-02 12:10+0000\n"
-"Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
+"POT-Creation-Date: 2017-09-22 16:09+0000\n"
+"PO-Revision-Date: 2017-09-15 22:28+0000\n"
+"Last-Translator: Marko Kostić (Marko Kostić) <marko.m.kostic@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
 "MIME-Version: 1.0\n"
@@ -168,7 +168,7 @@ msgstr "Prikaži ažurirano ime"
 
 #: app/scripts/views/settings/emails.js:114
 msgid "Secondary email removed"
-msgstr ""
+msgstr "Sekundarna adresa e-pošte je uklonjena"
 
 #: app/scripts/views/settings/emails.js:141
 #: app/scripts/views/settings/emails.js:154
