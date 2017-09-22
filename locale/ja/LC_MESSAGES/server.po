@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-15 16:08+0000\n"
+"POT-Creation-Date: 2017-09-22 16:09+0000\n"
 "PO-Revision-Date: 2017-08-21 15:39+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1423120631.0\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:745
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:747
 msgid "Still there?"
 msgstr "まだお使いになりますか？"
 
@@ -54,7 +54,7 @@ msgid "Firefox Accounts"
 msgstr "Firefox アカウント"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:624
+#: lib/senders/email.js:626
 msgid "New sign-in to Firefox"
 msgstr "Firefox への新規ログイン"
 
@@ -250,7 +250,7 @@ msgstr "もし違うなら、侵入者を防ぐため <a %(reportSignInLinkAttri
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "もし違うなら、侵入者を防ぐため問題を報告してください。"
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:742
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:744
 msgid "Hello again."
 msgstr "お帰りなさい。"
 
@@ -340,75 +340,75 @@ msgstr "このメールを受信したことを確認してください。他の
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "確認が完了したら、他の少なくともひとつの端末に Firefox をインストールし、それを接続する方法を紹介します。"
 
-#: lib/senders/email.js:162
+#: lib/senders/email.js:164
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s / %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:165
+#: lib/senders/email.js:167
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s / %(uaOS)s"
 
-#: lib/senders/email.js:192
+#: lib/senders/email.js:194
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s、%(stateCode)s、%(country)s (おおよその位置)"
 
-#: lib/senders/email.js:194
+#: lib/senders/email.js:196
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(country)s、%(city)s (おおよその位置)"
 
-#: lib/senders/email.js:196
+#: lib/senders/email.js:198
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s、%(country)s (おおよその位置)"
 
-#: lib/senders/email.js:198
+#: lib/senders/email.js:200
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (おおよその位置)"
 
-#: lib/senders/email.js:307
+#: lib/senders/email.js:309
 msgid "Verify your Firefox Account"
 msgstr "Firefox アカウントを確認"
 
-#: lib/senders/email.js:329
+#: lib/senders/email.js:331
 msgid "Confirm your email and start to sync!"
 msgstr "メールアドレスを確認して同期を開始しましょう！"
 
-#: lib/senders/email.js:375
+#: lib/senders/email.js:377
 msgid "Firefox Account authorization code"
 msgstr "Firefox アカウント認証コード"
 
-#: lib/senders/email.js:417
+#: lib/senders/email.js:419
 msgid "Confirm new sign-in to Firefox"
 msgstr "Firefox への新規ログインを確認"
 
-#: lib/senders/email.js:464
+#: lib/senders/email.js:466
 msgid "Verify email for Firefox Accounts"
 msgstr "Firefox アカウント用メールアドレスを確認"
 
-#: lib/senders/email.js:511
+#: lib/senders/email.js:513
 msgid "Reset your Firefox Account password"
 msgstr "Firefox アカウントのパスワードをリセット"
 
-#: lib/senders/email.js:543
+#: lib/senders/email.js:545
 msgid "Your Firefox Account password has been changed"
 msgstr "Firefox アカウントのパスワードが変更されました"
 
-#: lib/senders/email.js:573
+#: lib/senders/email.js:575
 msgid "Your Firefox Account password has been reset"
 msgstr "Firefox アカウントのパスワードがリセットされました"
 
-#: lib/senders/email.js:599
+#: lib/senders/email.js:601
 msgid "Firefox Account password reset required"
 msgstr "Firefox アカウントのパスワードリセット要求を受けました"
 
-#: lib/senders/email.js:656
+#: lib/senders/email.js:658
 msgid "Firefox Account verified"
 msgstr "Firefox アカウントが確認されました"
 
-#: lib/senders/email.js:687
+#: lib/senders/email.js:689
 msgid "Secondary Firefox Account email added"
 msgstr "Firefox アカウントに予備アドレスが追加されました"
 
-#: lib/senders/email.js:717
+#: lib/senders/email.js:719
 msgid "Secondary Firefox Account email removed"
 msgstr "Firefox アカウントの予備アドレスが削除されました"
 

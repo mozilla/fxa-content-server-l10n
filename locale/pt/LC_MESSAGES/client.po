@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-15 16:08+0000\n"
-"PO-Revision-Date: 2017-09-01 20:15+0000\n"
-"Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
+"POT-Creation-Date: 2017-09-22 16:09+0000\n"
+"PO-Revision-Date: 2017-09-15 21:33+0000\n"
+"Last-Translator: mincemeat72 <mincemeat72@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -143,7 +143,7 @@ msgstr "Nome de apresentação atualizado"
 
 #: app/scripts/views/settings/emails.js:114
 msgid "Secondary email removed"
-msgstr ""
+msgstr "Email secundário removido"
 
 #: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
 msgid "Verification email sent"

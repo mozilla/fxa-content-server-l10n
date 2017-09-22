@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-15 16:08+0000\n"
+"POT-Creation-Date: 2017-09-22 16:09+0000\n"
 "PO-Revision-Date: 2017-08-21 19:55+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444481614.0\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:745
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:747
 msgid "Still there?"
 msgstr "Sćo hyšći how?"
 
@@ -56,7 +56,7 @@ msgid "Firefox Accounts"
 msgstr "Konta Firefox"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:624
+#: lib/senders/email.js:626
 msgid "New sign-in to Firefox"
 msgstr "Nowe pśizjawjenje pla Firefox"
 
@@ -255,7 +255,7 @@ msgstr "Joli nic, pomagajśo nam zadobywarje wótwoboraś a <a %(reportSignInLin
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Jolic nic, pomagajśo nam zadobywarje wótwoboraś a dajśo nam to k wěsći."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:742
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:744
 msgid "Hello again."
 msgstr "Witaj hyšći raz."
 
@@ -345,75 +345,75 @@ msgstr "Wobkšuśćo, až sćo toś tu mejlku dostał a buźomy wam pomagaś, Fi
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Gaž jo wobkšuśona, buźomy wam pomagaś, Firefox na nanejmjenjej jadnom drugem rěźe instalěrowaś a zwězaś."
 
-#: lib/senders/email.js:162
+#: lib/senders/email.js:164
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s na %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:165
+#: lib/senders/email.js:167
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s na %(uaOS)s"
 
-#: lib/senders/email.js:192
+#: lib/senders/email.js:194
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (licone)"
 
-#: lib/senders/email.js:194
+#: lib/senders/email.js:196
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (licone)"
 
-#: lib/senders/email.js:196
+#: lib/senders/email.js:198
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (licone)"
 
-#: lib/senders/email.js:198
+#: lib/senders/email.js:200
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (licony)"
 
-#: lib/senders/email.js:307
+#: lib/senders/email.js:309
 msgid "Verify your Firefox Account"
 msgstr "Wobkšuśćo swójo konto Firefox"
 
-#: lib/senders/email.js:329
+#: lib/senders/email.js:331
 msgid "Confirm your email and start to sync!"
 msgstr "Wobkšuśćo swóju e-mail a zachopśo synchronizěrowaś!"
 
-#: lib/senders/email.js:375
+#: lib/senders/email.js:377
 msgid "Firefox Account authorization code"
 msgstr "Awtorizěrowański kod konta Firefox"
 
-#: lib/senders/email.js:417
+#: lib/senders/email.js:419
 msgid "Confirm new sign-in to Firefox"
 msgstr "Nowe pśizjawjenje pla Firefox wobkšuśiś"
 
-#: lib/senders/email.js:464
+#: lib/senders/email.js:466
 msgid "Verify email for Firefox Accounts"
 msgstr "E-mailowu adresu za Firefox Accounts wobkšuśiś"
 
-#: lib/senders/email.js:511
+#: lib/senders/email.js:513
 msgid "Reset your Firefox Account password"
 msgstr "Stajśo gronidło swójogo konta Firefox slědk"
 
-#: lib/senders/email.js:543
+#: lib/senders/email.js:545
 msgid "Your Firefox Account password has been changed"
 msgstr "Gronidło wašogo konta Firefox jo se změniło"
 
-#: lib/senders/email.js:573
+#: lib/senders/email.js:575
 msgid "Your Firefox Account password has been reset"
 msgstr "Gronidło wašogo konta Firefox jo se slědk stajiło"
 
-#: lib/senders/email.js:599
+#: lib/senders/email.js:601
 msgid "Firefox Account password reset required"
 msgstr "Gronidło konta Firefox musy se slědk stajiś"
 
-#: lib/senders/email.js:656
+#: lib/senders/email.js:658
 msgid "Firefox Account verified"
 msgstr "Konto Firefox wobkšuśone"
 
-#: lib/senders/email.js:687
+#: lib/senders/email.js:689
 msgid "Secondary Firefox Account email added"
 msgstr "Druga e-mailowa adresa konta Firefox jo se pśidała"
 
-#: lib/senders/email.js:717
+#: lib/senders/email.js:719
 msgid "Secondary Firefox Account email removed"
 msgstr "Sekundarna e-mailowa adresa za konto Firefox jo se wótwónoźeła"
 

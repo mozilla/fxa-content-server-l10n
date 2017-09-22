@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-15 16:08+0000\n"
+"POT-Creation-Date: 2017-09-22 16:09+0000\n"
 "PO-Revision-Date: 2017-07-18 04:50+0000\n"
 "Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:745
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:747
 msgid "Still there?"
 msgstr "இருக்கிறீர்களா?"
 
@@ -52,7 +52,7 @@ msgid "Firefox Accounts"
 msgstr "பயர்பாஃசு கணக்குகள்"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:624
+#: lib/senders/email.js:626
 msgid "New sign-in to Firefox"
 msgstr ""
 
@@ -246,7 +246,7 @@ msgstr "இல்லையெனில், எங்களை ஊடுருப
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "இல்லையெனில், ஊடுருவல்களைத் தடுக்கவும் எங்களுக்கு அதை அறிவிக்கவும் உதவுங்கள்."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:742
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:744
 msgid "Hello again."
 msgstr "வணக்கம் வாங்க."
 
@@ -332,75 +332,75 @@ msgstr "மின்னஞ்சல் பெற்றுள்ளதை உற�
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "உறுதிப்படுத்தியப் பின், பயர்பாஃசை மற்றொரு சாதனத்தில் நிறுவி இணைக்க உதவுவோம்."
 
-#: lib/senders/email.js:162
+#: lib/senders/email.js:164
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaOS)s %(uaOSVersion)s இயங்குதள பதிப்பில் %(uaBrowser)s"
 
-#: lib/senders/email.js:165
+#: lib/senders/email.js:167
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaOS)s இயங்குதளத்திலுள்ள %(uaBrowser)s"
 
-#: lib/senders/email.js:192
+#: lib/senders/email.js:194
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (கணக்கிட்டப்படி)"
 
-#: lib/senders/email.js:194
+#: lib/senders/email.js:196
 msgid "%(city)s, %(country)s (estimated)"
 msgstr ""
 
-#: lib/senders/email.js:196
+#: lib/senders/email.js:198
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (கணக்கிடப்பட்டது)"
 
-#: lib/senders/email.js:198
+#: lib/senders/email.js:200
 msgid "%(country)s (estimated)"
 msgstr ""
 
-#: lib/senders/email.js:307
+#: lib/senders/email.js:309
 msgid "Verify your Firefox Account"
 msgstr "உன்னுடைய பயர்பாஃசு கணக்கை உறுதி செய்"
 
-#: lib/senders/email.js:329
+#: lib/senders/email.js:331
 msgid "Confirm your email and start to sync!"
 msgstr "உங்கள் மின்னஞ்சலை உறுதிப்படுத்தி ஒத்திசைக்க தொடங்குங்கள்!"
 
-#: lib/senders/email.js:375
+#: lib/senders/email.js:377
 msgid "Firefox Account authorization code"
 msgstr "பயர்பாஃசு கணக்கின் அங்கீகாரக் குறியீடு"
 
-#: lib/senders/email.js:417
+#: lib/senders/email.js:419
 msgid "Confirm new sign-in to Firefox"
 msgstr ""
 
-#: lib/senders/email.js:464
+#: lib/senders/email.js:466
 msgid "Verify email for Firefox Accounts"
 msgstr "பயர்பாஃசு கணக்குகிற்கான மின்னஞ்சலைச் சரிபார்க்கவும்"
 
-#: lib/senders/email.js:511
+#: lib/senders/email.js:513
 msgid "Reset your Firefox Account password"
 msgstr ""
 
-#: lib/senders/email.js:543
+#: lib/senders/email.js:545
 msgid "Your Firefox Account password has been changed"
 msgstr ""
 
-#: lib/senders/email.js:573
+#: lib/senders/email.js:575
 msgid "Your Firefox Account password has been reset"
 msgstr ""
 
-#: lib/senders/email.js:599
+#: lib/senders/email.js:601
 msgid "Firefox Account password reset required"
 msgstr ""
 
-#: lib/senders/email.js:656
+#: lib/senders/email.js:658
 msgid "Firefox Account verified"
 msgstr "பயர்பாஃசு கணக்கு சரிபார்க்கப்பட்டது"
 
-#: lib/senders/email.js:687
+#: lib/senders/email.js:689
 msgid "Secondary Firefox Account email added"
 msgstr "இரண்டாம்நிலை பயர்பாஃசு கணக்கின் மின்னஞ்சல் சேர்க்கப்பட்டது"
 
-#: lib/senders/email.js:717
+#: lib/senders/email.js:719
 msgid "Secondary Firefox Account email removed"
 msgstr ""
 
