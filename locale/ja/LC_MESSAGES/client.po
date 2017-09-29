@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-29 16:08+0000\n"
-"PO-Revision-Date: 2017-09-29 16:50+0000\n"
+"PO-Revision-Date: 2017-09-29 16:55+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1241,11 +1241,11 @@ msgstr "コミュニケーション設定"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "We may send you emails related to your Firefox Account."
-msgstr "あなたの Firefox アカウントに関するメールをお送りする場合があります。"
+msgstr "Mozilla からあなたの Firefox アカウントに関するメールをお送りする場合があります。"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "また、あなたは Mozilla と Firefox に関する最新情報を受け取るかどうか選択することもできます。"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:9
 msgid "Email preferences"
