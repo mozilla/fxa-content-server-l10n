@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-15 16:08+0000\n"
-"PO-Revision-Date: 2017-09-02 12:10+0000\n"
-"Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
+"POT-Creation-Date: 2017-09-29 16:08+0000\n"
+"PO-Revision-Date: 2017-09-15 22:28+0000\n"
+"Last-Translator: Marko Kostić (Marko Kostić) <marko.m.kostic@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
 "MIME-Version: 1.0\n"
@@ -168,7 +168,7 @@ msgstr "Prikaži ažurirano ime"
 
 #: app/scripts/views/settings/emails.js:114
 msgid "Secondary email removed"
-msgstr ""
+msgstr "Sekundarna adresa e-pošte je uklonjena"
 
 #: app/scripts/views/settings/emails.js:141
 #: app/scripts/views/settings/emails.js:154
@@ -1073,7 +1073,7 @@ msgstr "Prihvati"
 #: app/scripts/templates/settings/change_password.mustache:9
 #: app/scripts/templates/settings/client_disconnect.mustache:9
 #: app/scripts/templates/settings/communication_preferences.mustache:5
-#: app/scripts/templates/settings/communication_preferences.mustache:13
+#: app/scripts/templates/settings/communication_preferences.mustache:14
 #: app/scripts/templates/settings/delete_account.mustache:6
 #: app/scripts/templates/settings/display_name.mustache:8
 #: app/scripts/templates/settings/emails.mustache:25
@@ -1239,9 +1239,8 @@ msgid ""
 msgstr "Jaka i jedinstvena lozinka će čuvati vaše podatke sigurnim od uljeza."
 
 #: app/scripts/templates/sign_up.mustache:18
-#: app/scripts/templates/sign_up_password.mustache:8
-msgid "Receive the monthly Firefox newsletter"
-msgstr "Primajte mesečni Firefox bilten"
+msgid "Get the latest news about Mozilla and Firefox"
+msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:20
 #: app/scripts/templates/sign_up_password.mustache:10
@@ -1251,6 +1250,10 @@ msgstr "Napravi nalog"
 #: app/scripts/templates/sign_up.mustache:25
 msgid "Have an account? Sign in"
 msgstr "Imate nalog? Prijavite se"
+
+#: app/scripts/templates/sign_up_password.mustache:8
+msgid "Receive the monthly Firefox newsletter"
+msgstr "Primajte mesečni Firefox bilten"
 
 #: app/scripts/templates/sms_send.mustache:1
 #: app/scripts/templates/sms_send.mustache:6
@@ -1498,18 +1501,24 @@ msgid "Communication preferences"
 msgstr "Postavke komunikacije"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
-msgid "Receive the monthly Firefox newsletter."
-msgstr "Primajte mesečni Firefox bilten."
+msgid "We may send you emails related to your Firefox Account."
+msgstr ""
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
+msgid ""
+"Additionally, you can choose whether to receive the latest news about "
+"Mozilla and Firefox."
+msgstr ""
+
+#: app/scripts/templates/settings/communication_preferences.mustache:9
 msgid "Email preferences"
 msgstr "Postavke e-pošte"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:10
+#: app/scripts/templates/settings/communication_preferences.mustache:11
 msgid "Unsubscribe"
 msgstr "Otkaži pretplatu"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:12
+#: app/scripts/templates/settings/communication_preferences.mustache:13
 msgid "Subscribe"
 msgstr "Pretplati se"
 
@@ -1618,6 +1627,9 @@ msgstr "Prijavi se"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Prijavi se"
+
+#~ msgid "Receive the monthly Firefox newsletter."
+#~ msgstr "Primajte mesečni Firefox bilten."
 
 #~ msgid "Why is this required?"
 #~ msgstr "Zašto je ovo potrebno?"
