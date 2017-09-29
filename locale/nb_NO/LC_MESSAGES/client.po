@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-29 16:08+0000\n"
-"PO-Revision-Date: 2017-09-29 22:28+0000\n"
+"PO-Revision-Date: 2017-09-29 22:37+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -1245,7 +1245,7 @@ msgstr "Vi kan sende deg e-post relatert til din Firefox-konto."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "I tillegg kan du velge om du vil motta de siste nyhetene om Mozilla og Firefox."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:9
 msgid "Email preferences"
