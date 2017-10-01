@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-29 16:08+0000\n"
-"PO-Revision-Date: 2017-06-30 23:35+0000\n"
+"PO-Revision-Date: 2017-10-01 10:39+0000\n"
 "Last-Translator: nuttapong2539 <nuttapong2539@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -26,12 +26,13 @@ msgstr "คุณได้สร้างบัญชี Firefox มาสัก
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
-msgstr "คุณเชื่อมต่ออุปกรณ์แรกเข้ากับบัญชี Firefox สำเร็จแล้ว ตอนนี้คุณสามารถลงชื่อเข้าใช้ Sync จากอุปกรณ์อื่น ซึ่งรวมถึง Firefox สำหรับ <a href='%(androidUrl)s'>Android</a> และ <a href='%(iosUrl)s'>iOS</a>"
+msgstr ""
+"คุณเชื่อมต่ออุปกรณ์แรกเข้ากับบัญชี Firefox สำเร็จแล้ว ตอนนี้คุณสามารถลงชื่อเข้าใช้ Sync จากอุปกรณ์อื่น ซึ่งรวมถึง Firefox สำหรับ <a href='%(androidUrl)s'>Android</a> และ <a href='%(iosUrl)s'>iOS</a>"
 
 #: lib/senders/templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr "คุณเชื่อมต่อกับอุปกรณ์แรกกับบัญชี Firefox สำเร็จแล้ว เพื่อที่จะใช้งานส่วนมากใน Sync เชื่อมต่อกับ <a href='%(androidUrl)s'>Firefox for Android</a> หรือ <a href='%(iosUrl)s'>Firefox for iOS</a>"
 
 #: lib/senders/templates/_pending.txt:5 lib/senders/templates/post_verify.html:4
@@ -173,11 +174,11 @@ msgstr "ทีมบัญชี Firefox"
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
-msgstr ""
+msgstr "อีเมลสำรองถูกลบแล้ว"
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr ""
+msgstr "คุณได้ลบ %(secondaryEmail)s จากอีเมลสำรองจากบัญชี Firefox ของคุณสำเร็จแล้ว การแจ้งเตือนความปลอดภัยและการยืนยันการลงชื่อเข้าใช้จะไม่มีการส่งไปยังที่อยู่นี้อีก"
 
 #: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4
 msgid "Manage account"
@@ -195,7 +196,9 @@ msgstr "ตรวจสอบบัญชีแล้ว!"
 msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 "%(iosLinkAttributes)s>iOS</a>."
-msgstr "คุณได้เชื่อมต่ออุปกรณ์แรกเข้ากับบัญชี Firefox เรียบร้อยแล้ว ตอนนี้คุณสามารถลงชื่อเข้า Sync จากอุปกรณ์อื่นรวมถึง Firefox สำหรับ <a %(androidLinkAttributes)s>Android</a> และ <a %(iosLinkAttributes)s>iOS</a>"
+msgstr ""
+"คุณได้เชื่อมต่ออุปกรณ์แรกเข้ากับบัญชี Firefox เรียบร้อยแล้ว ตอนนี้คุณสามารถลงชื่อเข้า Sync จากอุปกรณ์อื่นรวมถึง Firefox สำหรับ <a %(androidLinkAttributes)s>Android</a> และ <a "
+"%(iosLinkAttributes)s>iOS</a>"
 
 #: lib/senders/templates/post_verify.txt:2
 msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
@@ -211,7 +214,7 @@ msgstr "เพิ่มอีเมลสำรองแล้ว"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr ""
+msgstr "คุณได้ยืนยัน %(secondaryEmail)s เป็นอีเมลสำรองสำหรับบัญชี Firefox ของคุณสำเร็จแล้ว ตอนนี้การแจ้งเตือนความปลอดภัยและการยืนยันการลงชื่อเข้าใช้จะส่งไปยังอีเมลทั้งสอง"
 
 #: lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/verify_login.txt:5
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
@@ -231,7 +234,7 @@ msgstr "ตั้งรหัสผ่านใหม่"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr ""
+msgstr "ขอบคุณที่เลือก Firefox! คุณสามารถติดตั้ง Firefox สำหรับอุปกรณ์พกพาได้ที่นี่: %(link)s"
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1
 msgid "Is this you signing in?"
@@ -255,9 +258,11 @@ msgstr "สวัสดีอีกครั้ง"
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
-msgstr "เมื่อไม่กี่วันมานี้คุณสร้างบัญชี Firefox แต่ยังไม่ได้ตรวจสอบ การตรวจสอบบัญชีทำให้คุณเข้าถึงแท็บ ที่คั่นหน้า รหัสผ่าน และประวัติของคุณบนอุปกรณ์ใด ๆ ที่เชื่อมต่อกับบัญชี เพียงยืนยันที่อยู่อีเมลนี้เพื่อเปิดใช้งานบัญชีของคุณ"
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
+msgstr ""
+"เมื่อไม่กี่วันมานี้คุณสร้างบัญชี Firefox แต่ยังไม่ได้ตรวจสอบ การตรวจสอบบัญชีทำให้คุณเข้าถึงแท็บ ที่คั่นหน้า รหัสผ่าน และประวัติของคุณบนอุปกรณ์ใด ๆ ที่เชื่อมต่อกับบัญชี "
+"เพียงยืนยันที่อยู่อีเมลนี้เพื่อเปิดใช้งานบัญชีของคุณ"
 
 #: lib/senders/templates/verification_reminder_first.html:4 lib/senders/templates/verification_reminder_second.html:4 lib/senders/templates/verify.html:4
 msgid "Activate now"
@@ -401,7 +406,7 @@ msgstr "อีเมลสำรองของ Firefox Account ได้ถู�
 
 #: lib/senders/email.js:721
 msgid "Secondary Firefox Account email removed"
-msgstr ""
+msgstr "อีเมลสำรองของบัญชี Firefox ถูกลบแล้ว"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -455,8 +460,7 @@ msgstr "บริการกลุ่มเมฆ Firefox"
 msgid "Terms of Service"
 msgstr "เงื่อนไขการให้บริการ"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "คุณยืนยันว่า %(secondaryEmail)s เป็นอีเมลสำรองของ Firefox Account ของคุณเรียบร้อยแล้ว การแจ้งเตือนด้านความปลอดภัยและการยืนยันการลงชื่อเข้าใช้จะถูกส่งไปยังอีเมลทั้งสองที่"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
