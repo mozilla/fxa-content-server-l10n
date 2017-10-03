@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-29 16:08+0000\n"
-"PO-Revision-Date: 2017-10-03 11:10+0000\n"
+"PO-Revision-Date: 2017-10-03 11:17+0000\n"
 "Last-Translator: Slimane Amiri <slimane.amiri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -1235,11 +1235,11 @@ msgstr "Ismenyifen n teywalt"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "We may send you emails related to your Firefox Account."
-msgstr ""
+msgstr "Yezmer ad k-in-azen imaylen yerzan amiḍan-ik Firefox."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Tzemreḍ ad tferneḍ tuzna n issalen γef Mozilla d Firefox."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:9
 msgid "Email preferences"
