@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-29 16:08+0000\n"
-"PO-Revision-Date: 2017-09-30 16:31+0000\n"
+"PO-Revision-Date: 2017-10-03 15:23+0000\n"
 "Last-Translator: Benny Chandra <bennychandra@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -1242,7 +1242,7 @@ msgstr "Kami mungkin mengirimkan surel terkait dengan Firefox Account Anda."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Selain itu, Anda dapat memilih untuk menerima berita terkini tentang Mozilla dan Firefox."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:9
 msgid "Email preferences"
