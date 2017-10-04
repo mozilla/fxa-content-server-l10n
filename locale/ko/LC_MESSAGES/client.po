@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-29 16:08+0000\n"
-"PO-Revision-Date: 2017-10-04 23:30+0000\n"
+"PO-Revision-Date: 2017-10-04 23:38+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -974,23 +974,23 @@ msgstr "계정 생성"
 
 #: app/scripts/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr ""
+msgstr "죄송합니다. 계정이 잠겼습니다."
 
 #: app/scripts/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr ""
+msgstr "%(email)s로 전송한 인증 메일이 반송되어서 사용자의 Firefox 데이터를 보호하기 위해 계정을 잠궜습니다."
 
 #: app/scripts/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr ""
+msgstr "만약 이메일이 올바른 경우라면 <a %(escapedSupportLinkAttrs)s>알려주시면</a> 계정의 잠금을 해제할 수 있습니다."
 
 #: app/scripts/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr ""
+msgstr "더 이상 사용하고 있는 이메일이 아닌가요? 새 계정 만들기"
 
 #: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
-msgstr ""
+msgstr "이메일을 잘못 입력했나요?"
 
 #: app/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1006,7 +1006,7 @@ msgstr "이 로그인 승인"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "%(email)s로 보낸 인증 코드를 확인하세요."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1030,7 +1030,7 @@ msgstr "강력하고, 고유한 암호를 사용하시면 침입자로 부터 �
 
 #: app/scripts/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
-msgstr ""
+msgstr "Mozilla와 Firefox에 대한 소식을 받기"
 
 #: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10
 msgid "Create account"
@@ -1071,11 +1071,11 @@ msgstr "스마트폰에 Firefox를 설치하고 로그인 하여 설치 완료"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "앱 링크를 %(escapedPhoneNumber)s로 전송하였습니다. <a %(escapedBackLinkAttrs)s>잘못 입력했나요?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:3
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "앱 링크를 다시 %(escapedPhoneNumber)s로 전송하였습니다. <a %(escapedBackLinkAttrs)s>잘못 입력했나요?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1087,15 +1087,15 @@ msgstr "도착하지 않았나요? 다시 전송"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr ""
+msgstr "왜 여러 개의 기기를 동기화하나요?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr ""
+msgstr "Sync는 영구 백업 서비스가 아닌, 당신의 북마크와 기록과 비밀번호를 안전하고 간단하게 당신의 기기와 공유하는 방법입니다."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
+msgstr "비밀번호를 잃어버렸을 때 데이터를 다시 복구하기 위해서는 최소한 두개의 기기에 FIrefox를 설치하고 동기화를 사용해야 합니다."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1204,7 +1204,7 @@ msgstr "현재 세션"
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
-msgstr ""
+msgstr "취소"
 
 #: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
@@ -1236,11 +1236,11 @@ msgstr "통신 설정"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "We may send you emails related to your Firefox Account."
-msgstr ""
+msgstr "Firefox 계정과 관련한 이메일을 보낼 수 있습니다."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "추가로, Mozilla와 Firefox에 관한 소식도 받으실 수 있습니다."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:9
 msgid "Email preferences"
@@ -1288,7 +1288,7 @@ msgstr "인증 필요"
 
 #: app/scripts/templates/settings/emails.mustache:10 app/scripts/templates/settings/emails.mustache:13
 msgid "Make primary"
-msgstr ""
+msgstr "주 이메일로 사용"
 
 #: app/scripts/templates/settings/emails.mustache:12 app/scripts/templates/settings/emails.mustache:15
 msgid "Remove"
@@ -1296,7 +1296,7 @@ msgstr "삭제"
 
 #: app/scripts/templates/settings/emails.mustache:16
 msgid "Not in inbox or spam folder? Resend?"
-msgstr ""
+msgstr "메일함과 스팸메일함에도 없나요? 다시 받으시겠어요?"
 
 #: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
