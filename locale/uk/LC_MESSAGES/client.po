@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-29 16:08+0000\n"
-"PO-Revision-Date: 2017-10-03 14:02+0000\n"
+"PO-Revision-Date: 2017-10-04 07:01+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -1030,7 +1030,7 @@ msgstr "Шукаєте свої дані сайту додатків? Зареє
 
 #: app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up_password.mustache:6
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr "Сильний, унікальний пароль захистить дані вашого Firefox від зловмисників."
+msgstr "Надійний, унікальний пароль захистить ваші дані від зловмисників."
 
 #: app/scripts/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
