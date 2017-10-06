@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-29 16:08+0000\n"
-"PO-Revision-Date: 2017-08-05 14:39+0000\n"
-"Last-Translator: ahmad <ahmad@farghal.net>\n"
+"PO-Revision-Date: 2017-10-06 22:30+0000\n"
+"Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -140,15 +140,15 @@ msgstr "حُدّث اسم الحساب"
 
 #: app/scripts/views/settings/emails.js:114
 msgid "Secondary email removed"
-msgstr ""
+msgstr "حُذفَ البريد الثانوي"
 
 #: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
 msgid "Verification email sent"
-msgstr ""
+msgstr "أُرسِلَت رسالة التأكيد"
 
 #: app/scripts/views/settings/emails.js:169
 msgid "Primary email set to %(email)s"
-msgstr ""
+msgstr "البريد الإلكتروني الأولي %(email)s"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -212,11 +212,11 @@ msgstr "تفضيلاتي"
 
 #: app/scripts/models/sync-engines.js:65
 msgid "Addresses"
-msgstr ""
+msgstr "العناوين"
 
 #: app/scripts/models/sync-engines.js:72
 msgid "Credit cards"
-msgstr ""
+msgstr "بطاقات الائتمان"
 
 #: app/scripts/models/reliers/sync.js:59
 msgid "Firefox Sync"
@@ -333,27 +333,27 @@ msgstr "تعذّر توصيل البريد"
 
 #: app/scripts/lib/auth-errors.js:151
 msgid "This email was already verified by another user"
-msgstr ""
+msgstr "سبق أن أكّد هذا البريد الإلكتروني مستخدم آخر"
 
 #: app/scripts/lib/auth-errors.js:155
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "يجب أن يكون البريد الثانوي مختلفًا عن بريد الحساب"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "بريد الحساب الأوليّ مطلوب للولوج"
 
 #: app/scripts/lib/auth-errors.js:171
 msgid "Address in use by another account"
-msgstr ""
+msgstr "العنوان مستخدم في حساب آخر"
 
 #: app/scripts/lib/auth-errors.js:175
 msgid "Primary account email required for reset"
-msgstr ""
+msgstr "بريد الحساب الأوليّ مطلوب للتصفير"
 
 #: app/scripts/lib/auth-errors.js:179
 msgid "Invalid signin code"
-msgstr ""
+msgstr "رمز الولوج غير صالح"
 
 #: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
 msgid "Server busy, try again soon"
@@ -473,7 +473,7 @@ msgstr "خاصية بيانات مفقودة: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:372 app/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "سبق استخدام رابط التحقق، و لا يمكن استخدامه إلا مرة واحدة."
 
 #: app/scripts/lib/auth-errors.js:376
 msgid "This is a required field"
@@ -485,7 +485,7 @@ msgstr "رمز التخويل مطلوب"
 
 #: app/scripts/lib/auth-errors.js:388 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
-msgstr ""
+msgstr "الرابط معطوب"
 
 #: app/scripts/lib/auth-errors.js:411
 msgid "Phone number required"
@@ -493,19 +493,19 @@ msgstr "رقم الهاتف مطلوب"
 
 #: app/scripts/lib/config-loader.js:87
 msgid "Missing configuration"
-msgstr ""
+msgstr "الضبط مفقود"
 
 #: app/scripts/lib/config-loader.js:91
 msgid "Invalid configuration"
-msgstr ""
+msgstr "الضبط غير صالح"
 
 #: app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "هل تقصد <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>؟"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
-msgstr ""
+msgstr "رجاء أعد المحاولة في وقت لاحق"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -573,11 +573,11 @@ msgstr "فشل في معالجة الصورة"
 
 #: app/scripts/lib/require-on-demand.js:39
 msgid "Resources failed to load"
-msgstr ""
+msgstr "فشل تحميل الموارد"
 
 #: app/scripts/lib/require-on-demand.js:43
 msgid "Unexpected resource error"
-msgstr ""
+msgstr "خطأ موارد غير متوقع"
 
 #: app/scripts/lib/require-on-demand.js:47
 msgid "Script error"
@@ -585,15 +585,15 @@ msgstr "خطأ نصّ برمجي"
 
 #: app/scripts/lib/sms-errors.js:23
 msgid "SMS sent"
-msgstr ""
+msgstr "أرسلت الرسالة النصية القصيرة"
 
 #: app/scripts/lib/sms-errors.js:55
 msgid "Your number has been blocked"
-msgstr ""
+msgstr "حُجِبَ رقمك"
 
 #: app/scripts/lib/sms-errors.js:79
 msgid "SMS not sent, please try again"
-msgstr ""
+msgstr "لم تُرسَل الرسالة النصية القصيرة، الرجاء المحاولة مرة أخرى"
 
 #: app/scripts/lib/strings.js:22
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
@@ -653,7 +653,7 @@ msgstr "اطّلع على المزيد"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
-msgstr ""
+msgstr "البريد %(escapedEmail)s مسجل بالفعل. <a %(escapedBackLinkParams)s>هل هناك خطأ في كتابته؟</a>"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:22
 msgid "Choose what to sync"
@@ -673,7 +673,7 @@ msgstr "انتهت مُدة صلاحية الرابط الذي قمت بالنق
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
-msgstr ""
+msgstr "استلم رابطًا جديدًا"
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -709,7 +709,7 @@ msgstr "أرسِل كلمة السرّ الجّديدة"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
 msgid "Sign-in already confirmed"
-msgstr ""
+msgstr "سبق تأكيد الولوج"
 
 #: app/scripts/templates/complete_sign_up.mustache:4
 msgid "Verification link expired"
@@ -733,16 +733,16 @@ msgstr "أكّد تسجيل الدخول هذا"
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "راجع بريدك الإلكتروني لتجد رابط التأكيد المرسل إلى %(escapedEmail)s"
 
 #: app/scripts/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-msgstr ""
+msgstr "راجع بريدك الإلكتروني لتجد رابط تأكيد الولوج المرسل إلى %(email)s"
 
 #: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
-msgstr ""
+msgstr "ليس في صندوق الوارد أو مجلد السخام؟ أعد إرساله"
 
 #: app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/sign_in_bounced.mustache:6 app/scripts/templates/tos.mustache:3
 msgid "Back"
@@ -766,11 +766,11 @@ msgstr "أوصِل جهازا آخر"
 
 #: app/scripts/templates/connect_another_device.mustache:2 app/scripts/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
-msgstr ""
+msgstr "فَيَرفُكس هذا متصل"
 
 #: app/scripts/templates/connect_another_device.mustache:6
 msgid "Signin confirmed"
-msgstr ""
+msgstr "أُكِّد الولوج"
 
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
@@ -778,16 +778,16 @@ msgstr "تم"
 
 #: app/scripts/templates/connect_another_device.mustache:9
 msgid "Sign in to this Firefox to complete set-up"
-msgstr ""
+msgstr "لج إلى فَيَرفُكس هذا لإكمال الإعداد"
 
 #: app/scripts/templates/connect_another_device.mustache:10
 msgid "Sign in &rarr;"
-msgstr ""
+msgstr "لج &larr;"
 
 #: app/scripts/templates/connect_another_device.mustache:12 app/scripts/templates/connect_another_device.mustache:16 app/scripts/templates/connect_another_device.mustache:26
 #: app/scripts/templates/sms_send.mustache:4
 msgid "Still adding devices?"
-msgstr ""
+msgstr "هل ما زلت تضيف أجهزة؟"
 
 #: app/scripts/templates/connect_another_device.mustache:14 app/scripts/templates/connect_another_device.mustache:18 app/scripts/templates/connect_another_device.mustache:28
 msgid "Sign in to Firefox on another device to complete set-up"
@@ -795,23 +795,23 @@ msgstr "لج إلى فَيَرفُكس من جهاز آخر لإكمال الإ�
 
 #: app/scripts/templates/connect_another_device.mustache:20
 msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr ""
+msgstr "افتح الإعدادات وحدد «لج إلى فَيَرفُكس» لإكمال الإعداد"
 
 #: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
+msgstr "لج إلى فَيَرفُكس أندرويد لإكمال الإعداد"
 
 #: app/scripts/templates/connect_another_device.mustache:24
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
+msgstr "لج إلى فَيَرفُكس لـiOS لإكمال الإعداد"
 
 #: app/scripts/templates/connect_another_device.mustache:30 app/scripts/templates/sms_send.mustache:10
 msgid "Why is more than one device required?"
-msgstr ""
+msgstr "لماذا يتطلب أكثر من جهاز واحد؟"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr ""
+msgstr "الكعكات و التخزين المحلي مطلوبة"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
@@ -856,7 +856,7 @@ msgstr "البريد الإلكتروني"
 
 #: app/scripts/templates/index.mustache:7 app/scripts/templates/sign_in_unblock.mustache:5
 msgid "Continue"
-msgstr ""
+msgstr "استمر"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -913,7 +913,7 @@ msgstr "ألغِ"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr ""
+msgstr "ستُرسل إخطارات الحساب إلى %(secondaryEmailVerified)s أيضًا من الآن فصاعدا"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
@@ -921,23 +921,23 @@ msgstr "حسابك مفعّل!"
 
 #: app/scripts/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "أتريد الإبلاغ عن ولوج غير مصرح به؟"
 
 #: app/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr ""
+msgstr "وصلتك رسالة بريد إلكتروني عن محاولة وصول إلى حسابك. هل تود الإبلاغ عنها كمشبوهة؟"
 
 #: app/scripts/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr ""
+msgstr "أبلغ عن النشاط"
 
 #: app/scripts/templates/report_sign_in.mustache:7 app/scripts/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr ""
+msgstr "لماذا يحدث هذا؟"
 
 #: app/scripts/templates/reset_password.mustache:1 app/scripts/templates/reset_password.mustache:4
 msgid "Reset account"
-msgstr ""
+msgstr "صفّر الحساب"
 
 #: app/scripts/templates/reset_password.mustache:5
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
