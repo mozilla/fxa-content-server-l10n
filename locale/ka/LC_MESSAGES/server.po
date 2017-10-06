@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-29 16:08+0000\n"
+"POT-Creation-Date: 2017-10-06 16:08+0000\n"
 "PO-Revision-Date: 2017-08-23 20:59+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:749
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:761
 msgid "Still there?"
 msgstr "ისევ აქ ხართ?"
 
@@ -56,7 +56,7 @@ msgid "Firefox Accounts"
 msgstr "Firefox ანგარიშები"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:626
+#: lib/senders/email.js:638
 msgid "New sign-in to Firefox"
 msgstr "ახალი შემოსვლა Firefox ანგარიშზე"
 
@@ -257,7 +257,7 @@ msgstr "თუ არა, დაგვეხმარეთ დამრღვ�
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "თუ არა, დაგვეხმარეთ დამრღვევების გამოვლენასა და მოგერიებაში და გამოგზავნეთ მოხსენება."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:746
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:758
 msgid "Hello again."
 msgstr "კვლავ მოგესალმებით."
 
@@ -341,75 +341,75 @@ msgstr "დაადასტურეთ, რომ მიიღეთ ეს �
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "დამოწმებისთანავე, დაგეხმარებით Firefox-ის დაყენებასა დაკავშირებაში, სულ მცირე კიდევ ერთ მოწყობილობაზე."
 
-#: lib/senders/email.js:164
+#: lib/senders/email.js:166
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s %(uaOS)s %(uaOSVersion)s-ზე"
 
-#: lib/senders/email.js:167
+#: lib/senders/email.js:169
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s %(uaOS)s-ზე"
 
-#: lib/senders/email.js:194
+#: lib/senders/email.js:196
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (მიახლოებით)"
 
-#: lib/senders/email.js:196
+#: lib/senders/email.js:198
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (მიახლოებით)"
 
-#: lib/senders/email.js:198
+#: lib/senders/email.js:200
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (მიახლოებით)"
 
-#: lib/senders/email.js:200
+#: lib/senders/email.js:202
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (მიახლოებით)"
 
-#: lib/senders/email.js:309
+#: lib/senders/email.js:321
 msgid "Verify your Firefox Account"
 msgstr "Firefox ანგარიშის დამოწმება"
 
-#: lib/senders/email.js:331
+#: lib/senders/email.js:343
 msgid "Confirm your email and start to sync!"
 msgstr "დაამოწმეთ ელფოსტის მისამართი და დაიწყეთ დასინქრონება!"
 
-#: lib/senders/email.js:377
+#: lib/senders/email.js:389
 msgid "Firefox Account authorization code"
 msgstr "Firefox ანგარიშის დაშვების კოდი"
 
-#: lib/senders/email.js:419
+#: lib/senders/email.js:431
 msgid "Confirm new sign-in to Firefox"
 msgstr "Firefox-ში ახალი შესვლის დადასტურება"
 
-#: lib/senders/email.js:466
+#: lib/senders/email.js:478
 msgid "Verify email for Firefox Accounts"
 msgstr "ელფოსტის დამოწმება Firefox ანგარიშისთვის"
 
-#: lib/senders/email.js:513
+#: lib/senders/email.js:525
 msgid "Reset your Firefox Account password"
 msgstr "Firefox ანგარიშის პაროლის აღდგენა"
 
-#: lib/senders/email.js:545
+#: lib/senders/email.js:557
 msgid "Your Firefox Account password has been changed"
 msgstr "თქვენი Firefox ანგარიშის აპროლი შეიცვალა"
 
-#: lib/senders/email.js:575
+#: lib/senders/email.js:587
 msgid "Your Firefox Account password has been reset"
 msgstr "თქვენი Firefox ანგარიშის აპროლი აღდგა"
 
-#: lib/senders/email.js:601
+#: lib/senders/email.js:613
 msgid "Firefox Account password reset required"
 msgstr "საჭიროა Firefox ანგარიშის პაროლის ჩამოგდება"
 
-#: lib/senders/email.js:658
+#: lib/senders/email.js:670
 msgid "Firefox Account verified"
 msgstr "Firefox ანგარიში დამოწმებულია"
 
-#: lib/senders/email.js:689
+#: lib/senders/email.js:701
 msgid "Secondary Firefox Account email added"
 msgstr "Firefox ანგარიშის ელფოსტის დამატებითი მისამართი დამახსოვრებულია"
 
-#: lib/senders/email.js:721
+#: lib/senders/email.js:733
 msgid "Secondary Firefox Account email removed"
 msgstr "Firefox ანგარიშის დამატებითი ელფოსტა ამოღებულია"
 
