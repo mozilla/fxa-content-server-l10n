@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-29 16:08+0000\n"
-"PO-Revision-Date: 2017-10-06 22:51+0000\n"
+"PO-Revision-Date: 2017-10-06 22:59+0000\n"
 "Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -1029,7 +1029,7 @@ msgstr "اِستخدام كلمة سرّ قوية و فريدة سوف يحمي 
 
 #: app/scripts/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
-msgstr ""
+msgstr "احصل على آخر أخبار موزيلا و فَيَرفُكس"
 
 #: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10
 msgid "Create account"
@@ -1059,6 +1059,8 @@ msgstr "أرسِل"
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"خدمة الرسائل القصيرة متوفرة فقط في بعض البلدان. قد تُطبق أسعار الرسائل القصيرة و البيانات. يجب أن تكون الجهة المقصودة للبريد الإلكتروني أو الرسائل القصيرة قد وافقت على استلامها. <a "
+"%(escapedLearnMoreAttributes)s>اطلع على المزيد</a>"
 
 #: app/scripts/templates/sms_send.mustache:11
 msgid "Maybe later"
@@ -1066,19 +1068,19 @@ msgstr "ربما لاحقا"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "نصّب فَيَرفُكس على هاتفك الذكي ولج لإكمال الإعداد"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "أُرسِل رابط التطبيق إلى %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>هل هناك خطأ في كتابة الرقم؟</a>"
 
 #: app/scripts/templates/sms_sent.mustache:3
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "أُرسِل رابط التطبيق إلى %(escapedPhoneNumber)s مرة أخرى. <a %(escapedBackLinkAttrs)s>هل هناك خطأ في كتابة الرقم؟</a>"
 
 #: app/scripts/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "إن كانت لا تصلك الرسالة النصية، فيمكنك أيضا تنزيل التطبيقات يدويًا."
 
 #: app/scripts/templates/sms_sent.mustache:8
 msgid "Didn't arrive? Resend"
@@ -1086,15 +1088,15 @@ msgstr "لم يصل؟ أعِد الإرسال"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr ""
+msgstr "لماذا نستحسن مزامنة عدة أجهرة؟"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr ""
+msgstr "خدمة المزامنة ليست نسخة احتياطية دائمة، و لكنها ببساطة طريقة آمنة لنقل العلامات المحفوظة و التأريخ و كلمات السر بين أجهزتك."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
+msgstr "يفضل أن تنصّب فِيَرفُكس على عدة أجهزة مع مزامنة اثنين منها على الأقل لحماية بياناتك من الضياع إن احتجت إلى استعادتها دون أن تتذكر كلمة سرك."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1329,13 +1331,13 @@ msgstr "استخدام حساب فَيَرفُكس"
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
 msgctxt "submit button"
 msgid "Sign in"
-msgstr ""
+msgstr "لج"
 
 #. header text
 #: app/scripts/views/sign_in.js:95
 msgctxt "header text"
 msgid "Sign in"
-msgstr ""
+msgstr "لج"
 
 #~ msgid "Why is this required?"
 #~ msgstr "لماذا مطلوب؟"
