@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-29 16:08+0000\n"
-"PO-Revision-Date: 2017-10-06 22:30+0000\n"
+"PO-Revision-Date: 2017-10-06 22:51+0000\n"
 "Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -957,7 +957,7 @@ msgstr "تسجيل الخروج"
 
 #: app/scripts/templates/sign_in.mustache:4
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "أتبحث عن بيانات إضافاتك؟ <a href=\"/signup\">سجّل</a> للحصول على حساب فَيَرفُكس باستخدام عنوان بريدك الإلكتروني الذي كنت تستخدمه مع حساب الإضافات القديم."
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
@@ -973,39 +973,39 @@ msgstr "أنشئ حسابًا"
 
 #: app/scripts/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr ""
+msgstr "معذرة. لقد أقفلنا حسابك."
 
 #: app/scripts/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr ""
+msgstr "رُفضت رسالة التأكيد التي أرسلناها إلى %(email)s، و قد أقفلنا حسابك لحماية بيانات فَيَرفُكس الخاصة بك."
 
 #: app/scripts/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr ""
+msgstr "إن كان هذا البريد الإلكتروني صالحًا، <a %(escapedSupportLinkAttrs)s>أبلغنا</a> وسنستطيع مساعدتك في فتحه مرة أخرى."
 
 #: app/scripts/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr ""
+msgstr "لم تعد تملك هذا البريد الإلكتروني؟ أنشئ حسابًا جديدًا"
 
 #: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
-msgstr ""
+msgstr "هل هناك خطأ في كتابة البريد الإلكتروني؟"
 
 #: app/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
-msgstr ""
+msgstr "نشكرك على يقظتك"
 
 #: app/scripts/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr ""
+msgstr "أُعلم فريقنا. التقارير مثل هذا تساعدنا على درء المتسللين."
 
 #: app/scripts/templates/sign_in_unblock.mustache:1 app/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
-msgstr ""
+msgstr "ائذن بهذا الولوج"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "راجع بريدك الإلكتروني لتجد رمز التخويل المرسل إلى %(email)s."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1021,7 +1021,7 @@ msgstr "رحّل بيانات المزامنة الخاصة بك عن طريق �
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "أتبحث عن بيانات إضافاتك؟ سجّل للحصول على حساب فَيَرفُكس باستخدام عنوان بريدك الإلكتروني الذي كنت تستخدمه مع حساب الإضافات القديم."
 
 #: app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up_password.mustache:6
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
@@ -1037,23 +1037,23 @@ msgstr "أنشئ حسابًا"
 
 #: app/scripts/templates/sign_up.mustache:25
 msgid "Have an account? Sign in"
-msgstr ""
+msgstr "لديك حساب؟ لج"
 
 #: app/scripts/templates/sign_up_password.mustache:8
 msgid "Receive the monthly Firefox newsletter"
-msgstr ""
+msgstr "الاشتراك في نشرة فَيَرفُكس الإخبارية الشهرية"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:6
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "أرسل فَيَرفُكس مباشرةً إلى هاتفك الذكي و لِج لإكمال الإعداد"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid "Mobile phone number"
-msgstr ""
+msgstr "رقم الهاتف المحمول"
 
 #: app/scripts/templates/sms_send.mustache:8
 msgid "Send"
-msgstr ""
+msgstr "أرسِل"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid ""
@@ -1062,7 +1062,7 @@ msgstr ""
 
 #: app/scripts/templates/sms_send.mustache:11
 msgid "Maybe later"
-msgstr ""
+msgstr "ربما لاحقا"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1098,16 +1098,16 @@ msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
-msgstr ""
+msgstr "فهمت"
 
 #: app/scripts/templates/settings/avatar.mustache:2 app/scripts/templates/settings/change_password.mustache:2 app/scripts/templates/settings/communication_preferences.mustache:4
 #: app/scripts/templates/settings/display_name.mustache:2 app/scripts/templates/settings/emails.mustache:3
 msgid "Change…"
-msgstr ""
+msgstr "غيّر…"
 
 #: app/scripts/templates/settings/avatar.mustache:4 app/scripts/templates/settings/display_name.mustache:4 app/scripts/templates/settings/emails.mustache:5
 msgid "Add…"
-msgstr ""
+msgstr "أضِف…"
 
 #: app/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
@@ -1147,31 +1147,31 @@ msgstr "كلمة السرّ القديمة"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
-msgstr ""
+msgstr "أتريد قطع المزامنة؟"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr ""
+msgstr "ستبقى بيانات تصفحك على %(deviceName)s، لكنها لن تتزامن مع حسابك."
 
 #: app/scripts/templates/settings/client_disconnect.mustache:3
 msgid "Suspicious device"
-msgstr ""
+msgstr "جهاز مشبوه"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:4
 msgid "Lost or stolen device"
-msgstr ""
+msgstr "جهار مفقود أو مسروق"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:5
 msgid "Old or replaced device"
-msgstr ""
+msgstr "جهاز قديم أو مستبدل"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:6
 msgid "Duplicate device"
-msgstr ""
+msgstr "كرر الجهاز"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:7
 msgid "Rather not say"
-msgstr ""
+msgstr "أفضّل ألا أقول"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:13
 msgid "Disconnect"
@@ -1179,11 +1179,11 @@ msgstr "اقطع الاتصال"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
-msgstr ""
+msgstr "نجح قطع الاتصال"
 
 #: app/scripts/templates/settings/clients.mustache:2
 msgid "Devices & apps"
-msgstr ""
+msgstr "الأجهزة و التطبيقات"
 
 #: app/scripts/templates/settings/clients.mustache:3 app/scripts/templates/partial/show-password.mustache:1
 msgid "Show"
@@ -1195,35 +1195,35 @@ msgstr "الجهاز الحالي"
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
-msgstr ""
+msgstr "اقطع الاتصال…"
 
 #: app/scripts/templates/settings/clients.mustache:11
 msgid "current session"
-msgstr ""
+msgstr "الجلسة الحالية"
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
-msgstr ""
+msgstr "انقض"
 
 #: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "فَيَرفُكس ل‍ iOS"
 
 #: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
 msgid "none connected"
-msgstr ""
+msgstr "لا شيء متصل"
 
 #: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
-msgstr ""
+msgstr "نزّل"
 
 #: app/scripts/templates/settings/clients.mustache:22
 msgid "Firefox for Android"
-msgstr ""
+msgstr "فَيَرفُكس لأندرويد"
 
 #: app/scripts/templates/settings/clients.mustache:26
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "عناصر مفقودة أو مكررة؟"
 
 #: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20
 msgid "Refresh"
@@ -1259,7 +1259,7 @@ msgstr "احذف الحساب"
 
 #: app/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete…"
-msgstr ""
+msgstr "احذف…"
 
 #: app/scripts/templates/settings/delete_account.mustache:3
 msgid "Are you sure you want to delete your account? This action cannot be undone."
@@ -1271,31 +1271,31 @@ msgstr "اختر الاسم الذي تفضل أن يظهر لك في فَيَر
 
 #: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
-msgstr ""
+msgstr "البريد الثانوي"
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-msgstr ""
+msgstr "البريد الإلكتروني الثانوي هو عنوان إضافي لتلقي إشعارات الأمان وتأكيد أجهزة التزامن الجديدة."
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
-msgstr ""
+msgstr "مؤكّد"
 
 #: app/scripts/templates/settings/emails.mustache:9
 msgid "verification required"
-msgstr ""
+msgstr "التأكيد مطلوب"
 
 #: app/scripts/templates/settings/emails.mustache:10 app/scripts/templates/settings/emails.mustache:13
 msgid "Make primary"
-msgstr ""
+msgstr "اجعله الأوليّ"
 
 #: app/scripts/templates/settings/emails.mustache:12 app/scripts/templates/settings/emails.mustache:15
 msgid "Remove"
-msgstr ""
+msgstr "أزِل"
 
 #: app/scripts/templates/settings/emails.mustache:16
 msgid "Not in inbox or spam folder? Resend?"
-msgstr ""
+msgstr "ليست في صندوق الوارد أو مجلد السخام؟ هل تودّ إعادة أرسالها؟"
 
 #: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
@@ -1307,7 +1307,7 @@ msgstr "كم هو عُمرك؟"
 
 #: app/scripts/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr ""
+msgstr "أتبحث عن تزامُن فَيَرفُكس؟ <a %(escapedSyncSuggestionAttrs)s>ابدأ هنا</a>"
 
 #: app/scripts/templates/openid/start.mustache:1
 msgid "Sign in to Sync"
