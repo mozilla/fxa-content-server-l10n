@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-29 16:08+0000\n"
-"PO-Revision-Date: 2017-09-18 09:09+0000\n"
+"POT-Creation-Date: 2017-10-06 16:08+0000\n"
+"PO-Revision-Date: 2017-10-02 09:10+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -1036,7 +1036,7 @@ msgstr "In sterk, unyk wachtwurd hâldt jo Firefox-gegevens feilich tsjin ynkrin
 
 #: app/scripts/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
-msgstr ""
+msgstr "Untfang it lêste nijs oer Mozilla en Firefox"
 
 #: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10
 msgid "Create account"
@@ -1244,11 +1244,11 @@ msgstr "Kommunikaasjefoarkarren"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "We may send you emails related to your Firefox Account."
-msgstr ""
+msgstr "Wy kinne jo e-mails stjoere mei betrekking ta jo Firefox-account."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Dêrneist kinne jo kieze oft jo it lêste nijs oer Mozilla en Firefox ûntfange wolle."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:9
 msgid "Email preferences"

@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-29 16:08+0000\n"
-"PO-Revision-Date: 2017-09-15 22:28+0000\n"
-"Last-Translator: Marko Kostić (Marko Kostić) <marko.m.kostic@gmail.com>\n"
+"POT-Creation-Date: 2017-10-06 16:08+0000\n"
+"PO-Revision-Date: 2017-09-30 23:13+0000\n"
+"Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
 "MIME-Version: 1.0\n"
@@ -1240,7 +1240,7 @@ msgstr "Jaka i jedinstvena lozinka će čuvati vaše podatke sigurnim od uljeza.
 
 #: app/scripts/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
-msgstr ""
+msgstr "Saznajte najnovije vesti o Mozilla-i i Firefox-u"
 
 #: app/scripts/templates/sign_up.mustache:20
 #: app/scripts/templates/sign_up_password.mustache:10
@@ -1502,13 +1502,15 @@ msgstr "Postavke komunikacije"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "We may send you emails related to your Firefox Account."
-msgstr ""
+msgstr "Možda vam budemo slali poruke vezane za vaš Firefox nalog."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid ""
 "Additionally, you can choose whether to receive the latest news about "
 "Mozilla and Firefox."
 msgstr ""
+"Dodano, možete izabrati da li želite da dobijate najnovije vesti o Mozilla-i "
+"i Firefox-u."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:9
 msgid "Email preferences"
