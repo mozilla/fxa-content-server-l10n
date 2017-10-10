@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-29 16:08+0000\n"
-"PO-Revision-Date: 2017-10-10 16:51+0000\n"
+"PO-Revision-Date: 2017-10-10 17:09+0000\n"
 "Last-Translator: Uccen Marzuq <merzouk.ouchene@laposte.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -261,7 +261,7 @@ msgstr "Amiḍan arussin"
 
 #: app/scripts/lib/auth-errors.js:55
 msgid "Incorrect email case"
-msgstr "Amasal n yimayl mačči d ameɣtu"
+msgstr "Amasal n imayl mačči d ameɣtu"
 
 #: app/scripts/lib/auth-errors.js:59
 msgid "Incorrect password"
@@ -341,7 +341,7 @@ msgstr "Imayl wis sin ilaq ad imgarad d imayl inek n umiḍan"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
-msgstr "Imay inek agejdan ittwasra akken ad teqneḍ"
+msgstr "Imayl inek agejdan ittwasra akken ad teqneḍ"
 
 #: app/scripts/lib/auth-errors.js:171
 msgid "Address in use by another account"
@@ -349,7 +349,7 @@ msgstr "Tansa-yagi tettwaseqdec deg umiḍan nniḍen"
 
 #: app/scripts/lib/auth-errors.js:175
 msgid "Primary account email required for reset"
-msgstr "Imay inek agejdan ittwasra akken iwennez"
+msgstr "Imayl inek agejdan ittwasra akken iwennez"
 
 #: app/scripts/lib/auth-errors.js:179
 msgid "Invalid signin code"
@@ -357,11 +357,11 @@ msgstr "Tangal n unekcum d tarameγtut"
 
 #: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
 msgid "Server busy, try again soon"
-msgstr "Aqeddac ur yestuffi ara, ɛered tikelt nniḍen ticki"
+msgstr "Aqeddac ur yestuffi ara, ɛreḍ tikelt nniḍen ticki"
 
 #: app/scripts/lib/auth-errors.js:188
 msgid "This endpoint is no longer supported"
-msgstr "Asebdad agi ur ittisefrak ara"
+msgstr "Asebdad-agi ur ittisefrak ara"
 
 #: app/scripts/lib/auth-errors.js:192 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
