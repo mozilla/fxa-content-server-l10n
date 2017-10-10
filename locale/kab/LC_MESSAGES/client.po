@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-29 16:08+0000\n"
-"PO-Revision-Date: 2017-10-09 18:30+0000\n"
+"PO-Revision-Date: 2017-10-10 14:30+0000\n"
 "Last-Translator: Uccen Marzuq <merzouk.ouchene@laposte.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -148,7 +148,7 @@ msgstr "Imayl n usenqed ittwazen"
 
 #: app/scripts/views/settings/emails.js:169
 msgid "Primary email set to %(email)s"
-msgstr "Sbadu imay amezwaru ar %(email)s"
+msgstr "Sbadu imayl amezwaru ar %(email)s"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
