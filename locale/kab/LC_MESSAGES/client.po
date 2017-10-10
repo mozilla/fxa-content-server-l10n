@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-29 16:08+0000\n"
-"PO-Revision-Date: 2017-10-10 17:09+0000\n"
+"PO-Revision-Date: 2017-10-10 17:21+0000\n"
 "Last-Translator: Uccen Marzuq <merzouk.ouchene@laposte.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -369,7 +369,7 @@ msgstr "Ulac anagraw, ɛreḍ tikelt nniḍen ticki"
 
 #: app/scripts/lib/auth-errors.js:196
 msgid "Login attempt cancelled"
-msgstr "Aɛraḍ n unelcum yettwasefsex"
+msgstr "Aɛraḍ n unekcum yettwasefsex"
 
 #: app/scripts/lib/auth-errors.js:200
 msgid "Session expired. Sign in to continue."
@@ -397,7 +397,7 @@ msgstr "Ur izmir ara ad d-yawi tiwtilin n useqdec"
 
 #: app/scripts/lib/auth-errors.js:224
 msgid "Your new password must be different"
-msgstr "Yessefk awal inek uffir ad yili akken nniden"
+msgstr "Yessefk awal inek uffir ad yili akken nniḍen"
 
 #: app/scripts/lib/auth-errors.js:228 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
@@ -405,7 +405,7 @@ msgstr "Yessefk ad yili ma drus 8 n isekkilen"
 
 #: app/scripts/lib/auth-errors.js:232
 msgid "Valid password required"
-msgstr "Awal uffir ameqtu yettwasra"
+msgstr "Awal uffir ameɣtu yettwasra"
 
 #: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:274 app/scripts/lib/auth-errors.js:290
 msgid "Valid email required"
@@ -413,7 +413,7 @@ msgstr "Imayl ameɣtu yettwasra"
 
 #: app/scripts/lib/auth-errors.js:247
 msgid "A usable image was not found"
-msgstr "Tugna yettwasqedcen ula-itt"
+msgstr "Tugna yettwasqedcen ulac-itt"
 
 #: app/scripts/lib/auth-errors.js:251
 msgid "Could not initialize camera"
@@ -477,7 +477,7 @@ msgstr "Aseɣwen n usentem yettwaseqdec yakan, udiɣ tzemreḍ kan ad tesqedce�
 
 #: app/scripts/lib/auth-errors.js:376
 msgid "This is a required field"
-msgstr "Urti agi yettwasra"
+msgstr "Urti-agi yettwasra"
 
 #: app/scripts/lib/auth-errors.js:380
 msgid "Authorization code required"
@@ -485,7 +485,7 @@ msgstr "Tangalt n tsiregt tettwasra"
 
 #: app/scripts/lib/auth-errors.js:388 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
-msgstr "Aseqwen yexṣeṛ"
+msgstr "Aseɣwen yexṣeṛ"
 
 #: app/scripts/lib/auth-errors.js:411
 msgid "Phone number required"
@@ -501,7 +501,7 @@ msgstr "Tawila mačči d tameɣtut"
 
 #: app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-msgstr "Tebɣiḍ ad tiniḍ <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
+msgstr "Tebɣiḍ ad d-tiniḍ <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
