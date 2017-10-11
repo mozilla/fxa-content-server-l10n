@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-29 16:08+0000\n"
-"PO-Revision-Date: 2017-10-11 16:48+0000\n"
+"PO-Revision-Date: 2017-10-11 17:05+0000\n"
 "Last-Translator: Uccen Marzuq <merzouk.ouchene@laposte.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -669,7 +669,7 @@ msgstr "Wennez aseɣwen n wawal uffir aqbuṛ"
 
 #: app/scripts/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
-msgstr "Aseɣwen fiɣef tsiteḍ akken ad twennzeḍ awal inek uffir yezri."
+msgstr "Aseɣwen ɣef i tsiteḍ akken ad twennzeḍ awal inek uffir yezri."
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
