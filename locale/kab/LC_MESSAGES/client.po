@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-29 16:08+0000\n"
-"PO-Revision-Date: 2017-10-11 17:05+0000\n"
+"PO-Revision-Date: 2017-10-11 17:52+0000\n"
 "Last-Translator: Uccen Marzuq <merzouk.ouchene@laposte.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -681,7 +681,7 @@ msgstr "Wennez aseɣwen n wawal uffir ixeṣṛen"
 
 #: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:10 app/scripts/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "Aseqwen fiɣef id tsiteḍ ur immid ara, ahat d amsaɣ inek n tirawt. Ma ulac aqilif, nɣel aseɣwen akken iwata sakin ɛreḍ tikelt nniḍen."
+msgstr "Aseɣwen fiɣef i tsiteḍ ur immid ara, ahat d amsaɣ inek n tirawt. Ma ulac aɣilif, nɣel aseɣwen akken iwata sakin ɛreḍ tikelt nniḍen."
 
 #: app/scripts/templates/complete_reset_password.mustache:8
 msgid "Enter new password"
@@ -689,7 +689,7 @@ msgstr "Sekcem awal uffir amaynut"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-msgstr "Ticki tuzneḍ-d awal inek uffir amaynut, Ak-ṛuḥen akk isefka ur nelli ara ɣef ibenkan inek."
+msgstr "Ticki tuzneḍ-d awal inek uffir amaynut, Ad k-ṛuḥen akk isefka ur nelli ara ɣef ibenkan inek."
 
 #: app/scripts/templates/complete_reset_password.mustache:10 app/scripts/templates/reset_password.mustache:6
 msgid "Learn how Sync works."
@@ -701,7 +701,7 @@ msgstr "Awal uffir amaynut"
 
 #: app/scripts/templates/complete_reset_password.mustache:14 app/scripts/templates/sign_up.mustache:15
 msgid "Repeat password"
-msgstr "Sekcem tikelt nniden awal uffir"
+msgstr "Sekcem tikelt nniḍen awal uffir"
 
 #: app/scripts/templates/complete_reset_password.mustache:15
 msgid "Submit new password"
@@ -729,15 +729,15 @@ msgstr "Sentem amiḍan inek"
 
 #: app/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
-msgstr "Sentem tuqqna agi"
+msgstr "Sentem tuqqna-agi"
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr "Wali tabbaṭ inek n imayl akken ad tkecmeḍ aseγwen n usenqed&nbsp;itwaznen γer %(escapedEmail)s"
+msgstr "Wali tabbaṭ inek n imayl akken ad tkecmeḍ aseɣwen n usenqed&nbsp;ittwaznen γer %(escapedEmail)s"
 
 #: app/scripts/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-msgstr "Wali tabbaṭ inek n imayl akken ad tkecmeḍ γer useγwen n tuqna γer %(email)s"
+msgstr "Wali tabbaṭ inek n imayl akken ad tkecmeḍ ɣer useɣwen n tuqna ɣer %(email)s"
 
 #: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
@@ -754,7 +754,7 @@ msgstr "Wennez imayl yettwaznen"
 
 #: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-msgstr "Sit ɣef useqwen i k-d-nuzen ɣer %(email)s akka di kra n usrag akken ad ternuḍ awal uffir amaynut."
+msgstr "Sit ɣef useɣwen i k-d-nuzen ɣer %(email)s akka di kra n usrag akken ad ternuḍ awal uffir amaynut."
 
 #: app/scripts/templates/confirm_reset_password.mustache:4 app/scripts/templates/confirm_reset_password.mustache:6 app/scripts/templates/reset_password.mustache:10
 msgid "Remember password? Sign in"
@@ -795,7 +795,7 @@ msgstr "Kcem ar Firefox deg ibenk nniḍen akken ad tkemleḍ asebded"
 
 #: app/scripts/templates/connect_another_device.mustache:20
 msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr "Ldi iɣewwaṛen sakin fren Qqen s Firefox akken ad fakeḍ tawila"
+msgstr "Ldi iɣewwaṛen sakin fren Qqen s Firefox akken ad tfakeḍ tawila"
 
 #: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -815,7 +815,7 @@ msgstr "Inagan n tuqqna akked usekles adigan ttwasran"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Ma ulac aɣilif rmed inagan n tuqqna akked usekles adigan deg iminig inek akke ad tkecmeḍ ɣer Imiḍanen Firefox. Ma tegi-ḍ aya, tamahil am cfawat ɣef tɣimit inek ad teddu."
+msgstr "Ma ulac aɣilif rmed inagan n tuqqna akked usekles adigan deg iminig inek akken ad tkecmeḍ ɣer Imiḍanen Firefox. Ma tegi-ḍ aya, tamahil am cfawat ɣef tɣimit inek ad teddu."
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -823,7 +823,7 @@ msgstr "Ɛreḍ tikelt nniḍen"
 
 #: app/scripts/templates/force_auth.mustache:1
 msgid "Sign in to continue"
-msgstr "Kcem akken ad tkemmled"
+msgstr "Kcem akken ad tkemmleḍ"
 
 #: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_in_password.mustache:5
 #: app/scripts/templates/sign_up.mustache:12 app/scripts/templates/sign_up_password.mustache:5 app/scripts/templates/settings/change_password.mustache:1
@@ -839,7 +839,7 @@ msgstr "Tettuḍ awal uffir?"
 #: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:17
 #: app/scripts/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "Ma tkemleḍ, ad tqebleḍ <a id=\"fxa-tos\" href=\"/legal/terms\"> tiwtilin n useqdec</a> akkeda <a id=\"fxa-pp\" href=\"/legal/privacy\">tsertit tabaḍnit</a> n imeẓla n usigna Firefox."
+msgstr "Ma tkemleḍ, ad tqebleḍ <a id=\"fxa-tos\" href=\"/legal/terms\"> tiwtilin n useqdec</a> akked <a id=\"fxa-pp\" href=\"/legal/privacy\">tsertit tabaḍnit</a> n imeẓla n usigna Firefox."
 
 #: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
 msgid "Enter your email"
@@ -898,7 +898,7 @@ msgstr "Suter tasiregt"
 
 #: app/scripts/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr "%(serviceName)s yebɣa talɣut agi seg umiḍan inek:"
+msgstr "%(serviceName)s yebɣa talɣut-agi seg umiḍan inek:"
 
 #: app/scripts/templates/permissions.mustache:3
 msgid "Accept"
@@ -913,7 +913,7 @@ msgstr "Sefsex"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr "Ilγa  n umiḍan adettwaznenet tura daγen γer %(secondaryEmailVerified)s"
+msgstr "Ilγa  n umiḍan ad ttwaznent tura daɣen ɣer %(secondaryEmailVerified)s"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
@@ -925,7 +925,7 @@ msgstr "Azen-d tuqqna ur nettwasireg ara?"
 
 #: app/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr "Tremseḍ-d imayl ɣer uɛṛaḍ n unekcum ɣer umidan inek. Tebɣid ad tazneḍ armud amzun d awraḍ n takerḍa?"
+msgstr "Tremseḍ-d imayl ɣer uɛṛaḍ n unekcum ɣer umiḍan inek. Tebɣiḍ ad tazneḍ armud amzun d awraḍ n takerḍa?"
 
 #: app/scripts/templates/report_sign_in.mustache:6
 msgid "Report activity"
@@ -941,7 +941,7 @@ msgstr "Wennez tikelt nniden amiḍan"
 
 #: app/scripts/templates/reset_password.mustache:5
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
-msgstr "Ticki yettuwennez wawal inek uffir, Ak-ṛuḥen akk isefka ur nelli ara ɣef ibenkan inek."
+msgstr "Ticki yettuwennez wawal inek uffir, Ad k-ṛuḥen akk isefka ur nelli ara ɣef ibenkan inek."
 
 #: app/scripts/templates/reset_password.mustache:9
 msgid "Begin reset"
@@ -957,7 +957,7 @@ msgstr "Ffeɣ"
 
 #: app/scripts/templates/sign_in.mustache:4
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-msgstr "Tettnadiḍ ad tkecmeḍ ar isefka inek ɣef usmel n Izegrar? <a href=\"/signup\">Rnu amiḍan Firefox</a> s tensa imayl yettwasqedcen ɣef usmel n Izegrar."
+msgstr "Tettnadiḍ ad tkecmeḍ ar isefka inek ɣef usmel n Izegrar? <a href=\"/signup\">Rnu amiḍan Firefox</a> s tansa imayl yettwasqedcen ɣef usmel n Izegrar."
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
