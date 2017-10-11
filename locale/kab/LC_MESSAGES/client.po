@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-29 16:08+0000\n"
-"PO-Revision-Date: 2017-10-11 17:52+0000\n"
+"PO-Revision-Date: 2017-10-11 17:58+0000\n"
 "Last-Translator: Uccen Marzuq <merzouk.ouchene@laposte.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -981,11 +981,11 @@ msgstr "Asentem n imayl i nuzen γer %(email)s yuγal-d u nsewḥel amiḍan-ik 
 
 #: app/scripts/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr "Ma yella imayl-agi d ameγtu, <a %(escapedSupportLinkAttrs)s>Ini-aγ-d</a> sakin ad nekkes asewḥel n umiḍan."
+msgstr "Ma yella imayl-agi d ameɣtu, <a %(escapedSupportLinkAttrs)s>Ini-aɣ-d</a> sakin ad nekkes asewḥel n umiḍan."
 
 #: app/scripts/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr "Ur tesεiḍ ara imay-agi tura? Rnu yiwen d amaynut"
+msgstr "Ur tesεiḍ ara imayl-agi tura? Rnu yiwen d amaynut"
 
 #: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
@@ -993,11 +993,11 @@ msgstr "Tucḍa deg imayl?"
 
 #: app/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
-msgstr "Tanemmirt imi tetɛassaḍ"
+msgstr "Tanemmirt imi tettɛassaḍ"
 
 #: app/scripts/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr "Tarbaɛt nneɣ teẓra. Ayen iɣ-d-yettwammalen am agi aɣ-d-imudd afus akken ad nerr ẓeṛb i yir imdanen."
+msgstr "Tarbaɛt-nneɣ teẓra. Ayen iɣ-d-yettwammalen am wagi aɣ-d-imudd afus akken ad nerr ẓeṛb i yir imdanen."
 
 #: app/scripts/templates/sign_in_unblock.mustache:1 app/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
@@ -1005,7 +1005,7 @@ msgstr "Sireg asesteb agi"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr "Wali tabbaṭ inek n imayl akken ad tkecmeḍ γer tengalt n unekcum ittwarzan γer %(email)s."
+msgstr "Wali tabbaṭ inek n imayl akken ad tkecmeḍ ɣer tengalt n unekcum ittwaznen ɣer %(email)s."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1021,7 +1021,7 @@ msgstr "Rnu amiḍan n Firefox akken ad tawiḍ isefka yinek n umatwi aniɣeṛ 
 
 #: app/scripts/templates/sign_up.mustache:8
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-msgstr "Tettnadiḍ ad tkecmeḍ ar isefka inek ɣef usmel n Izegrar?  Rnu amiḍan Firefox s tensa imayl yettwasqedcen ɣef usmel n Izegrar."
+msgstr "Tettnadiḍ ad tkecmeḍ ar isefka inek ɣef usmel n Izegrar?  Rnu amiḍan Firefox s tansa imayl yettwasqedcen ɣef usmel n Izegrar."
 
 #: app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up_password.mustache:6
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
@@ -1045,7 +1045,7 @@ msgstr "Rmes yal aggur tabratt n telɣut n Firefox."
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:6
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr "Azen Firefox srid γeṛ tiliγṛi inek sakin qqen akken ad tkemleḍ asbeded"
+msgstr "Azen Firefox srid ɣeṛ tiliγṛi inek sakin qqen akken ad tkemleḍ asbeded"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid "Mobile phone number"
