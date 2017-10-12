@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-29 16:08+0000\n"
-"PO-Revision-Date: 2017-10-11 17:58+0000\n"
+"PO-Revision-Date: 2017-10-12 16:31+0000\n"
 "Last-Translator: Uccen Marzuq <merzouk.ouchene@laposte.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -1058,7 +1058,7 @@ msgstr "Azen"
 #: app/scripts/templates/sms_send.mustache:9
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr "Ameẓlu SMS illa kan di kra n tmura. izmer ahat kra n laxlaṣ γef isefka n SMS&amp;. imdanen i remsen imayl neɣ SMS ilaq ad qeblen aya. <a %(escapedLearnMoreAttributes)s>Issin ugar</a>"
+msgstr "Ameẓlu SMS illa kan di kra n tmura. izmer ahat kra n laxlaṣ ɣef isefka n SMS&amp;. imdanen i remsen imayl neɣ SMS ilaq ad qeblen aya. <a %(escapedLearnMoreAttributes)s>Issin ugar</a>"
 
 #: app/scripts/templates/sms_send.mustache:11
 msgid "Maybe later"
@@ -1066,7 +1066,7 @@ msgstr "Ahat ticki"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr "Sebded Firefox ɣeṛ tiliγṛi-ik sakin qqen akken ad tkemleḍ asbeded"
+msgstr "Sebded Firefox ɣeṛ tiliɣṛi-ik sakin qqen akken ad tkemleḍ asbeded"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
@@ -1078,7 +1078,7 @@ msgstr "Aseɣwen n usnas yettwazen ar %(escapedPhoneNumber)s. <a %(escapedBackLi
 
 #: app/scripts/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr "Ma yella ur k-id-yiweḍ ara aḍris n izen, Tzemreḍ daγen ad d-saliḍ isnasen s ufus."
+msgstr "Ma yella ur k-id-yewweḍ ara aḍris n izen, Tzemreḍ daɣen ad d-saliḍ isnasen s ufus."
 
 #: app/scripts/templates/sms_sent.mustache:8
 msgid "Didn't arrive? Resend"
