@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-29 16:08+0000\n"
-"PO-Revision-Date: 2017-10-12 16:31+0000\n"
+"PO-Revision-Date: 2017-10-12 16:43+0000\n"
 "Last-Translator: Uccen Marzuq <merzouk.ouchene@laposte.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -1082,19 +1082,19 @@ msgstr "Ma yella ur k-id-yewweḍ ara aḍris n izen, Tzemreḍ daɣen ad d-sali
 
 #: app/scripts/templates/sms_sent.mustache:8
 msgid "Didn't arrive? Resend"
-msgstr "Ur d-yebbid ara? Azen tikelt nniḍen"
+msgstr "Ur d-yebbiḍ ara? Azen tikelt nniḍen"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr "Ayγer illaq ad mtawiγ aṭas n ibenkan?"
+msgstr "Ayɣer illaq ad mtawiγ aṭas n ibenkan?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr "Amtawi mačči d asekles s wudem izgan, d ttawil kan akken ad tazneḍ ticraḍ inek n isebtar, amazray inek akked awalen ffiren gar ibenkan i tesεiḍ."
+msgstr "Amtawi mačči d asekles s wudem izgan, d ttawil kan akken ad tazneḍ ticraḍ inek n isebtar, amazray inek akked awalen uffiren gar ibenkan i tesεiḍ."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr "Ilaq ad tesbedeḍ Firefox sakin mtawi ma drs sin ibenkan akken ad tḥarzeḍ iman-ik ur k-ttruḥun ara isefka inek asm'ara ad k-iruḥ awal uffir."
+msgstr "Ilaq ad tesbedeḍ Firefox sakin mtawi ma drus sin ibenkan akken ad tḥarzeḍ iman-ik ur k-ttruḥun ara isefka inek asm'ara ad k-iruḥ wawal uffir."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1139,11 +1139,11 @@ msgstr "Snifel"
 
 #: app/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "Ticki tfekeḍ, seqdec awal uffir amaynut akken ad tkecmeḍ ɣer ibenkan inek imeṛṛa."
+msgstr "Ticki tfakeḍ, seqdec awal uffir amaynut akken ad tkecmeḍ ɣer ibenkan inek imeṛṛa."
 
 #: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
-msgstr "Awal uffir abquṛ"
+msgstr "Awal uffir aqbuṛ"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
@@ -1235,11 +1235,11 @@ msgstr "Ismenyifen n teywalt"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "We may send you emails related to your Firefox Account."
-msgstr "Yezmer ad k-in-azen imaylen yerzan amiḍan-ik Firefox."
+msgstr "Yezmer ad aken-nazen imaylen yerzan amiḍan-ik Firefox."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-msgstr "Tzemreḍ ad tferneḍ tuzna n issalen γef Mozilla d Firefox."
+msgstr "Tzemreḍ ad tferneḍ tuzna n issalen ɣef Mozilla d Firefox."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:9
 msgid "Email preferences"
@@ -1287,7 +1287,7 @@ msgstr "isra asenqed"
 
 #: app/scripts/templates/settings/emails.mustache:10 app/scripts/templates/settings/emails.mustache:13
 msgid "Make primary"
-msgstr "Err tansa agi d tamezwarut"
+msgstr "Err tansa-agi d tamezwarut"
 
 #: app/scripts/templates/settings/emails.mustache:12 app/scripts/templates/settings/emails.mustache:15
 msgid "Remove"
@@ -1295,7 +1295,7 @@ msgstr "Kkes"
 
 #: app/scripts/templates/settings/emails.mustache:16
 msgid "Not in inbox or spam folder? Resend?"
-msgstr "Mačči deg tebbaṭ n unekcum neγ afaylu n ispamen? Ales tuzna?"
+msgstr "Mačči deg tebbaṭ n unekcum neɣ afaylu n ispamen? Ales tuzna?"
 
 #: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
