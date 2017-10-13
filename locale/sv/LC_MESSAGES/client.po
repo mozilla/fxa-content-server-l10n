@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-29 16:08+0000\n"
-"PO-Revision-Date: 2017-09-16 07:55+0000\n"
+"POT-Creation-Date: 2017-10-13 16:09+0000\n"
+"PO-Revision-Date: 2017-10-01 18:02+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
@@ -1034,7 +1034,7 @@ msgstr "Ett starkt och unikt lösenord kommer att skydda din Firefox-data från 
 
 #: app/scripts/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
-msgstr ""
+msgstr "Få de senaste nyheterna om Mozilla och Firefox"
 
 #: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10
 msgid "Create account"
@@ -1241,11 +1241,11 @@ msgstr "Kommunikationsinställningar"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "We may send you emails related to your Firefox Account."
-msgstr ""
+msgstr "Vi kan skicka e-postmeddelanden relaterade till ditt Firefox-konto."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Dessutom kan du välja om du vill få de senaste nyheterna om Mozilla och Firefox."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:9
 msgid "Email preferences"
