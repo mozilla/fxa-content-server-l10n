@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-29 16:08+0000\n"
-"PO-Revision-Date: 2017-09-29 16:56+0000\n"
+"PO-Revision-Date: 2017-10-13 16:35+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -623,7 +623,7 @@ msgstr "IP მისამართი: %(ip)s"
 
 #: app/scripts/lib/strings.js:40
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "დამატებითი უსაფრთხოებისთვის, გთხოვთ დაამოწმოთ ეს შესვლა, ამ მოწყობილობასთან სინქრონიზაციის დასაწყებად:"
+msgstr "დამატებითი უსაფრთხოებისთვის, გთხოვთ დაამოწმოთ ეს შესვლა, მოცემულ მოწყობილობასთან სინქრონიზაციის დასაწყებად:"
 
 #: app/scripts/lib/strings.js:46 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4 app/scripts/templates/sign_in_password.mustache:6
 msgid "Sign in"
