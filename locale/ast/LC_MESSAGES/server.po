@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-09-22 11:10+0000\n"
+"PO-Revision-Date: 2017-10-16 16:35+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -32,8 +32,8 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr "Coneutesti con ésitu'l to primer preséu a la cuenta de Firefox. P'aprovechar al máximu Sync, coneuta <a href='%(androidUrl)s'>Firefox p'Android</a> o <a href='%(iosUrl)s'>Firefox pa iOS</a>."
 
 #: lib/senders/templates/_pending.txt:5 lib/senders/templates/post_verify.html:4
@@ -261,8 +261,8 @@ msgstr "Hola de nueves."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 "Hai dellos díes creasti una cuenta de Firefox pero enxamás nun la verifiquesti. Una cuenta verificada déxate acceder a les tos llingüetes, marcadores, contraseñes ya hisotria en cualesquier preséu "
 "coneutáu con ello. Namái confirma esta direición p'activar la to cuenta."
@@ -329,7 +329,7 @@ msgstr "Verificar corréu: "
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
-msgstr ""
+msgstr "3... 2... 1... Syncroniza"
 
 #: lib/senders/templates/verify_sync.html:3 lib/senders/templates/verify_sync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
@@ -468,8 +468,7 @@ msgstr "Términos del Serviciu"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 #~ msgstr ""
-#~ "¿Aniciesti sesión na to cuenta de Firefox dende cualesquiera de los allugamientos de darréu nos caberos 60 díes? Si nun los reconoces, daquién más quiciabes tenga accesu a la to cuenta de "
-#~ "Firefox."
+#~ "¿Aniciesti sesión na to cuenta de Firefox dende cualesquiera de los allugamientos de darréu nos caberos 60 díes? Si nun los reconoces, daquién más quiciabes tenga accesu a la to cuenta de Firefox."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Data y hora:"
