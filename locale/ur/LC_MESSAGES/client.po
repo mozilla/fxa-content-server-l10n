@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-08-02 16:26+0000\n"
-"Last-Translator: meetadeel <meetadeel@gmail.com>\n"
+"PO-Revision-Date: 2017-10-16 11:48+0000\n"
+"Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
 "MIME-Version: 1.0\n"
@@ -523,9 +523,7 @@ msgid "SMS not sent, please try again"
 msgstr "SMS ارسال نہیں کیا گیا، براہ مہربانی دوبارہ کوشش کریں"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
@@ -1318,7 +1316,7 @@ msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
-msgstr ""
+msgstr "نیا ربط وصول کریں"
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
@@ -1331,7 +1329,7 @@ msgstr ""
 #: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
-msgstr ""
+msgstr "داخلی بکس یا اسپیم پوشہ میں نہیں ہے؟ دوبارہ بھیجیں"
 
 #: app/scripts/templates/connect_another_device.mustache:6
 msgid "Signin confirmed"
@@ -1340,19 +1338,19 @@ msgstr ""
 #: app/scripts/templates/connect_another_device.mustache:12 app/scripts/templates/connect_another_device.mustache:16 app/scripts/templates/connect_another_device.mustache:26
 #: app/scripts/templates/sms_send.mustache:4
 msgid "Still adding devices?"
-msgstr ""
+msgstr "ابھی بھی آلات شامل کر رہے ہیں؟"
 
 #: app/scripts/templates/connect_another_device.mustache:30 app/scripts/templates/sms_send.mustache:10
 msgid "Why is more than one device required?"
-msgstr ""
+msgstr "ایک سے زائد آلہ کی ضرورت کیوں ہے؟"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr ""
+msgstr "مقامی ذخیرہ اور کوکیاں درکار ہیں"
 
 #: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
 msgid "Enter your email"
-msgstr ""
+msgstr "اپنی ای میل داخل کریں"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
@@ -1360,7 +1358,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr ""
+msgstr "معاف کیجیئے۔ ہم نے آپ کا &nbsp; اکائونٹ بند کر دیا ہے۔"
 
 #: app/scripts/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
@@ -1413,7 +1411,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
-msgstr ""
+msgstr "منسوخ کریں"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "We may send you emails related to your Firefox Account."
@@ -1425,7 +1423,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
-msgstr ""
+msgstr "ثانوی ای میل"
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
@@ -1441,7 +1439,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:10 app/scripts/templates/settings/emails.mustache:13
 msgid "Make primary"
-msgstr ""
+msgstr "بنیادی بنائیں"
 
 #: app/scripts/templates/settings/emails.mustache:12 app/scripts/templates/settings/emails.mustache:15
 msgid "Remove"
@@ -1449,7 +1447,7 @@ msgstr "ہٹائیں"
 
 #: app/scripts/templates/settings/emails.mustache:16
 msgid "Not in inbox or spam folder? Resend?"
-msgstr ""
+msgstr "داخلی بکس یا اسپیم پوشہ میں نہیں ہے؟ دوبارہ بھیجیں؟"
 
 #: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
@@ -1475,7 +1473,7 @@ msgstr "سائن ان"
 #: app/scripts/views/sign_in.js:90
 msgctxt "button text"
 msgid "Sign in"
-msgstr ""
+msgstr "سائن ان کریں"
 
 #~ msgid "Didn't arrive and not in spam folder? Resend?"
 #~ msgstr "موصول نہیں ہوئی اور اسپیم فولڈر میں موجود نہیں ہے؟ دوبارہ ارسال کریں؟"
