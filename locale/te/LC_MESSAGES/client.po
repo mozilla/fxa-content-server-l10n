@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-29 16:08+0000\n"
+"POT-Creation-Date: 2017-10-16 09:06+0000\n"
 "PO-Revision-Date: 2017-10-10 08:54+0000\n"
 "Last-Translator: Sahithi <sahithi.thinker@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,11 +14,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:40
+#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:186 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
+#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23
+msgid "Account verified successfully"
+msgstr "ఖాతా విజయవంతంగా తనిఖీ చేయబడింది"
+
+#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:39 app/scripts/views/ready.js:40
 msgid "Password reset"
 msgstr "పాస్‌వర్డ్ రీసెట్"
 
-#: app/scripts/views/confirm_reset_password.js:180
+#: app/scripts/views/confirm_reset_password.js:188 app/scripts/views/confirm_reset_password.js:180
 msgid "Password reset successfully. Sign in to continue."
 msgstr "పాస్వర్డ్ విజయవంతంగా రీసెట్ చేయబడింది. కొనసాగడానికి సైన్ ఇన్ అవ్వండి."
 
@@ -38,51 +43,55 @@ msgstr "చూపించే పేరు"
 msgid "Account picture"
 msgstr "ఖాతా చిత్రం"
 
-#: app/scripts/views/ready.js:35
+#: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35
 msgid "Welcome back"
 msgstr "తిరిగి స్వాగతం"
 
-#: app/scripts/views/ready.js:36
+#: app/scripts/views/ready.js:35 app/scripts/views/ready.js:36
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync కొంతసేపట్లో ప్రారంభం అవుతుంది"
 
-#: app/scripts/views/ready.js:41
+#: app/scripts/views/ready.js:40 app/scripts/views/ready.js:41
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "మీ ఇతర పరికరాలలో కొత్త పాస్‌వర్డ్ నమోదు చేసి ఏర్పాటు పూర్తి చేయండి."
 
-#: app/scripts/views/ready.js:45 app/scripts/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "ఈమెయిలు తనిఖీ చేయబడింది"
-
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50
 msgid "Sign-in confirmed"
 msgstr "సైన్ ఇన్ ధ్రువీకరించారు"
 
-#: app/scripts/views/ready.js:51 app/scripts/views/ready.js:56 app/scripts/templates/ready.mustache:3
+#: app/scripts/views/ready.js:46 app/scripts/views/ready.js:51 app/scripts/templates/ready.mustache:3 app/scripts/views/ready.js:56
 msgid "You are now ready to use %(serviceName)s"
 msgstr "మీరు ఇప్పుడు %(serviceName)s ఉపయోగించడానికి సిద్ధంగా ఉన్నారు"
 
-#: app/scripts/views/ready.js:55
+#: app/scripts/views/ready.js:50 app/scripts/views/ready.js:55
 msgid "Account verified"
 msgstr "ఖాతా నిర్ధారణ అయ్యింది"
 
-#: app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:164
+#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177 app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:164
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "తెలియని ఖాతా. <a href=\"/signup\">సైన్ అప్</a>"
 
-#: app/scripts/views/sign_in.js:161
+#: app/scripts/views/sign_in.js:174 app/scripts/views/sign_in.js:161
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "గుర్తుతెలియని Firefox ఖాతా. మీ ఆడ్-ఆన్స్ డాటా పొందుటకు మీ మునుపటి ఆడ్-ఆన్స్ ఖాతాతో <a href=\"/signup\">సైన్-అప్</a> అవ్వండి."
 
-#: app/scripts/views/sign_up.js:55
+#: app/scripts/views/sign_up.js:61 app/scripts/views/sign_up.js:55
 msgid "Account no longer exists. Recreate it?"
 msgstr "ఖాతా ఇకపై చెల్లదు. దీన్ని తిరిగి సృష్టించండి?"
 
-#: app/scripts/views/sign_up.js:315
+#: app/scripts/views/sign_up.js:374 app/scripts/views/sign_up.js:315
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "ఖాతా ఇప్పటికే ఉనికిలో ఉంది. <a href=\"/signin\">ప్రవేశించండి</a>"
 
-#: app/scripts/views/settings/change_password.js:50
+#: app/scripts/views/sms_sent.js:24
+msgid "App link resent to %(phoneNumber)s"
+msgstr "యాప్ లంకె %(phoneNumber)sకి మళ్ళీ పంపబడింది"
+
+#: app/scripts/views/settings/avatar_gravatar.js:93
+msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
+msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a>సౌజన్యం"
+
+#: app/scripts/views/settings/change_password.js:52 app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
 msgstr "పాస్వర్డ్ విజయవంతంగా మార్పుబడినది"
 
@@ -94,61 +103,33 @@ msgstr "దీని గురిన్చి తెలుసుకొని ఛ
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "దీని గురిన్చి తెలుసుకొని ఛిన్తిస్తున్నమ్. మీరు ఒకవెల ఈ పరికరాని నమ్మకపొతె, మీ ఫైర్ఫాక్స్ ఖాత యొక్క పాస్వర్డ్ మర్చుకొవలెను మరియు  ఫైర్ఫాక్స్ లో సేవ్ చేయబడిన పాస్వర్డ్లను మార్చoడీ."
 
-#: app/scripts/views/settings/clients.js:75
+#: app/scripts/views/settings/clients.js:63 app/scripts/views/settings/clients.js:75
 msgid "Web Session, %(userAgent)s"
 msgstr "జాల సెషన్, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:77
-msgid "Web Session"
-msgstr "వెబ్ సెషన్"
-
-#: app/scripts/views/settings/clients.js:80
+#: app/scripts/views/settings/clients.js:65 app/scripts/views/settings/clients.js:80
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:86
-msgid "first sync %(translatedTimeAgo)s"
-msgstr ""
-
-#: app/scripts/views/settings/clients.js:89
-msgid "last sync %(translatedTimeAgo)s"
-msgstr ""
-
-#: app/scripts/views/settings/clients.js:95
-msgid "last active %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:68
+msgid "Last active %(translatedTimeAgo)s"
 msgstr "చివరిసారి క్రియాశీలం %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:99
-msgid "last sync time unknown"
-msgstr ""
-
-#: app/scripts/views/settings/communication_preferences.js:118
+#: app/scripts/views/settings/communication_preferences.js:104 app/scripts/views/settings/communication_preferences.js:118
 msgid "Subscribed successfully"
 msgstr "విజయవంతంగా సబ్స్క్రైబ్ అయ్యారు"
 
-#: app/scripts/views/settings/communication_preferences.js:119
+#: app/scripts/views/settings/communication_preferences.js:105 app/scripts/views/settings/communication_preferences.js:119
 msgid "Unsubscribed successfully"
 msgstr "విజయవంతంగా అన్సబ్స్క్రైబ్ అయ్యారు"
 
-#: app/scripts/views/settings/delete_account.js:43
+#: app/scripts/views/settings/delete_account.js:45 app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
 msgstr "ఖాతా విజయవంతంగా తొలగించబడింది"
 
-#: app/scripts/views/settings/display_name.js:64
+#: app/scripts/views/settings/display_name.js:66 app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
 msgstr "చూపించే పేరు తాజాకరించబడింది"
-
-#: app/scripts/views/settings/emails.js:114
-msgid "Secondary email removed"
-msgstr "రెండవ ఇమెయిల్ తొలగించబడింది"
-
-#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
-msgid "Verification email sent"
-msgstr "ధృవీకరణ ఇమెయిల్ పంపబడింది"
-
-#: app/scripts/views/settings/emails.js:169
-msgid "Primary email set to %(email)s"
-msgstr ""
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -182,43 +163,7 @@ msgstr "Restmail ను తెరువు"
 msgid "Email resent"
 msgstr "ఈమయిల్ తిరిగి పంపబడినది"
 
-#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23
-msgid "Account verified successfully"
-msgstr "ఖాతా విజయవంతంగా తనిఖీ చేయబడింది"
-
-#: app/scripts/models/sync-engines.js:33
-msgid "Open tabs"
-msgstr "తెరిచివున్న ట్యాబులు"
-
-#: app/scripts/models/sync-engines.js:38
-msgid "Bookmarks"
-msgstr "ఇష్టాంశాలు"
-
-#: app/scripts/models/sync-engines.js:43
-msgid "Add-ons"
-msgstr "ఆడ్-ఆన్స్"
-
-#: app/scripts/models/sync-engines.js:48
-msgid "Passwords"
-msgstr "సంకేతపదాలు"
-
-#: app/scripts/models/sync-engines.js:53
-msgid "History"
-msgstr "చరిత్ర"
-
-#: app/scripts/models/sync-engines.js:58
-msgid "Preferences"
-msgstr "అభిరుచులు"
-
-#: app/scripts/models/sync-engines.js:65
-msgid "Addresses"
-msgstr "చిరునామాలు"
-
-#: app/scripts/models/sync-engines.js:72
-msgid "Credit cards"
-msgstr "క్రెడిట్ కార్డులు"
-
-#: app/scripts/models/reliers/sync.js:59
+#: app/scripts/models/reliers/sync.js:51 app/scripts/models/reliers/sync.js:59
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
@@ -303,7 +248,7 @@ msgstr "అభ్యర్థన శరీరం చాలా పెద్ద"
 msgid "The request was blocked for security reasons"
 msgstr "అభ్యర్థన భద్రతా కారణాల వల్ల నిరోధించబడింది"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:384
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347 app/scripts/lib/auth-errors.js:384
 msgid "Invalid authorization code"
 msgstr "చెల్లని ధృవీకరణ కోడ్"
 
@@ -331,163 +276,145 @@ msgstr "మీ ఈమెయిలు వెనక్కి తిరిగొచ
 msgid "Unable to deliver email"
 msgstr "ఈమెయిలును పంపించలేకపోయాం"
 
-#: app/scripts/lib/auth-errors.js:151
-msgid "This email was already verified by another user"
-msgstr "ఈ ఇమెయిల్ ఇప్పటికే మరొక వినియోగదారునిచే ధృవీకరించబడింది"
-
-#: app/scripts/lib/auth-errors.js:155
-msgid "Secondary email must be different than your account email"
-msgstr "సెకండరీ ఇమెయిల్ మీ ఖాతా ఇమెయిల్ కంటే భిన్నంగా ఉండాలి"
-
-#: app/scripts/lib/auth-errors.js:167
-msgid "Primary account email required for sign-in"
-msgstr "సైన్ ఇన్ చేయడానికి ప్రాథమిక ఖాతా ఇమెయిల్ అవసరం"
-
-#: app/scripts/lib/auth-errors.js:171
-msgid "Address in use by another account"
-msgstr "ఈ చిరునామా మరొక ఖాతా వాడుకలో ఉంది"
-
-#: app/scripts/lib/auth-errors.js:175
-msgid "Primary account email required for reset"
-msgstr "రీసెట్ చేయడానికి ప్రాథమిక ఖాతా ఇమెయిల్ అవసరం"
-
-#: app/scripts/lib/auth-errors.js:179
-msgid "Invalid signin code"
-msgstr "చెల్లని ప్రవేశ కోడ్"
-
-#: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
+#: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327 app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
 msgid "Server busy, try again soon"
 msgstr "సర్వర్ బిజీగా ఉంది, త్వరలో మళ్లీ ప్రయత్నించండి"
 
-#: app/scripts/lib/auth-errors.js:188
+#: app/scripts/lib/auth-errors.js:154 app/scripts/lib/auth-errors.js:188
 msgid "This endpoint is no longer supported"
 msgstr "ఈ తుది స్థానం ఇకపై మద్దతు ఇవ్వబడదు"
 
-#: app/scripts/lib/auth-errors.js:192 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/auth-errors.js:158 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
+#: app/scripts/lib/auth-errors.js:192
 msgid "System unavailable, try again soon"
 msgstr "వ్యవస్థ అందుబాటులో లేవు, త్వరలో మళ్లీ ప్రయత్నించండి"
 
-#: app/scripts/lib/auth-errors.js:196
+#: app/scripts/lib/auth-errors.js:162 app/scripts/lib/auth-errors.js:196
 msgid "Login attempt cancelled"
 msgstr "ప్రవేశ ప్రయత్నం రద్దుచెయ్యబడింది"
 
-#: app/scripts/lib/auth-errors.js:200
+#: app/scripts/lib/auth-errors.js:166 app/scripts/lib/auth-errors.js:200
 msgid "Session expired. Sign in to continue."
 msgstr "సెషన్ ముగిసిపోయింది. కొనసాగడానికి సైన్ అవండి."
 
-#: app/scripts/lib/auth-errors.js:204
+#: app/scripts/lib/auth-errors.js:170 app/scripts/lib/auth-errors.js:204
 msgid "Cookies are still disabled"
 msgstr "కుకీలు ఇప్పటికీ డిసేబుల్ అయిఉన్నవి"
 
-#: app/scripts/lib/auth-errors.js:208
+#: app/scripts/lib/auth-errors.js:174 app/scripts/lib/auth-errors.js:208
 msgid "Passwords do not match"
 msgstr "గుప్త పదములు సరి పోవట్లేదు"
 
-#: app/scripts/lib/auth-errors.js:212
+#: app/scripts/lib/auth-errors.js:178 app/scripts/lib/auth-errors.js:212
 msgid "Working…"
 msgstr "పని జరుగుతోంది..."
 
-#: app/scripts/lib/auth-errors.js:216
+#: app/scripts/lib/auth-errors.js:182 app/scripts/lib/auth-errors.js:216
 msgid "Could not get Privacy Notice"
 msgstr "గోప్యతా నోటీసు పొందడం సాధ్యం కాలేదు"
 
-#: app/scripts/lib/auth-errors.js:220
+#: app/scripts/lib/auth-errors.js:186 app/scripts/lib/auth-errors.js:220
 msgid "Could not get Terms of Service"
 msgstr "సేవా నిబంధనలు పొందుటకు కాలేదు"
 
-#: app/scripts/lib/auth-errors.js:224
+#: app/scripts/lib/auth-errors.js:190 app/scripts/lib/auth-errors.js:224
 msgid "Your new password must be different"
 msgstr "మీ కొత్త పాస్వర్డ్ భిన్నంగా ఉండాలి"
 
-#: app/scripts/lib/auth-errors.js:228 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
+#: app/scripts/lib/auth-errors.js:194 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7 app/scripts/lib/auth-errors.js:228
 msgid "Must be at least 8 characters"
 msgstr "కనీసం 8 అక్షరాల పొడవు ఉండాలి"
 
-#: app/scripts/lib/auth-errors.js:232
+#: app/scripts/lib/auth-errors.js:198 app/scripts/lib/auth-errors.js:232
 msgid "Valid password required"
 msgstr "చెల్లుబాటు అయ్యే పాస్వర్డ్ అవసరం"
 
-#: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:274 app/scripts/lib/auth-errors.js:290
+#: app/scripts/lib/auth-errors.js:202 app/scripts/lib/auth-errors.js:240 app/scripts/lib/auth-errors.js:256 app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:274
+#: app/scripts/lib/auth-errors.js:290
 msgid "Valid email required"
 msgstr "చెల్లుబాటు అయ్యే ఇమెయిల్ అవసరం"
 
-#: app/scripts/lib/auth-errors.js:247
+#: app/scripts/lib/auth-errors.js:213 app/scripts/lib/auth-errors.js:247
 msgid "A usable image was not found"
 msgstr "ఒక ఉపయోగపడే చిత్రం దొరకలేదు"
 
-#: app/scripts/lib/auth-errors.js:251
+#: app/scripts/lib/auth-errors.js:217 app/scripts/lib/auth-errors.js:251
 msgid "Could not initialize camera"
 msgstr "కెమెరా ప్రారంభించడం సాధ్యం కాలేదు"
 
-#: app/scripts/lib/auth-errors.js:255
+#: app/scripts/lib/auth-errors.js:221 app/scripts/lib/auth-errors.js:255
 msgid "Valid URL required"
 msgstr "చెల్లుబాటు అయ్యే URL అవసరం"
 
-#: app/scripts/lib/auth-errors.js:270
+#: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:270
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "మీ ధృవీకరణ ఇమెయిల్ తిరిగి. ఇమెయిల్ తప్పుగా టైప్ చేసారా?"
 
-#: app/scripts/lib/auth-errors.js:278
+#: app/scripts/lib/auth-errors.js:244 app/scripts/lib/auth-errors.js:278
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "ఒక చెల్లుబాటు అయ్యే ఇమెయిల్ చిరునామాను నమోదు చేయండి. firefox.com ఇమెయిల్ అందించడం లేదు."
 
-#: app/scripts/lib/auth-errors.js:286
+#: app/scripts/lib/auth-errors.js:252 app/scripts/lib/auth-errors.js:286
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "ఫైర్ఫాక్స్ ఖాతాలను ఆమోదం సైట్లలో ఒక iframe లోకి ఉంచవచ్చు"
 
-#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:9
+#: app/scripts/lib/auth-errors.js:271 app/scripts/templates/complete_sign_up.mustache:9 app/scripts/lib/auth-errors.js:305
 msgid "Verification link damaged"
 msgstr "ధృవీకరణ లింక్ దెబ్బతింది"
 
-#: app/scripts/lib/auth-errors.js:313
+#: app/scripts/lib/auth-errors.js:279 app/scripts/lib/auth-errors.js:313
 msgid "The image dimensions must be at least 100x100px"
 msgstr "చిత్రం కొలతలు 100x100px కనీసం ఉండాలి"
 
-#: app/scripts/lib/auth-errors.js:317
+#: app/scripts/lib/auth-errors.js:283 app/scripts/lib/auth-errors.js:317
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "సైన్ అప్ ఫైర్ఫాక్స్ iOS కోసం త్వరలో వస్తోంది"
 
-#: app/scripts/lib/auth-errors.js:328
+#: app/scripts/lib/auth-errors.js:294 app/scripts/lib/auth-errors.js:328
 msgid "You must enter your age to sign up"
 msgstr "మీరు సైన్ అప్ మీ వయస్సు నమోదు చేయాలి"
 
-#: app/scripts/lib/auth-errors.js:343
+#: app/scripts/lib/auth-errors.js:298
+msgid "No Gravatar found"
+msgstr "గ్రావతార్ దొరకలేదు"
+
+#: app/scripts/lib/auth-errors.js:306 app/scripts/lib/auth-errors.js:343
 msgid "Account no longer exists."
 msgstr "ఖాతా ఇకపై ఉనికిలో లేదు."
 
-#: app/scripts/lib/auth-errors.js:347
+#: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:347
 msgid "Invalid property in resume token: %(property)s"
 msgstr "పునఃప్రారంభం టోకెన్లోని చెల్లని ప్రాపర్టీ: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:351
+#: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:351
 msgid "Missing property in resume token: %(property)s"
 msgstr "పునఃప్రారంభం టోకెన్ ప్రాపర్టీ లేనివి: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:355
+#: app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:355
 msgid "Invalid data attribute: %(property)s"
 msgstr "చెల్లని డేటా ఎట్ట్రిబ్యూట్: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:359
+#: app/scripts/lib/auth-errors.js:322 app/scripts/lib/auth-errors.js:359
 msgid "Missing data attribute: %(property)s"
 msgstr "చెల్లని డేటా ఎట్ట్రిబ్యూట్: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:372 app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/lib/auth-errors.js:335 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/lib/auth-errors.js:372
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "ఆ నిర్ధారణ లింక్ ను ఇప్పటికే ఉపయోగించబడినది, మరియు ఒకసారి మాత్రమే ఉపయోగించవచ్చు."
 
-#: app/scripts/lib/auth-errors.js:376
+#: app/scripts/lib/auth-errors.js:339 app/scripts/lib/auth-errors.js:376
 msgid "This is a required field"
 msgstr "ఇది తప్పనిసరి ఖాళీ"
 
-#: app/scripts/lib/auth-errors.js:380
+#: app/scripts/lib/auth-errors.js:343 app/scripts/lib/auth-errors.js:380
 msgid "Authorization code required"
 msgstr "ధృవీకరణ కోడ్ అవసరం"
 
-#: app/scripts/lib/auth-errors.js:388 app/scripts/templates/report_sign_in.mustache:1
+#: app/scripts/lib/auth-errors.js:351 app/scripts/templates/report_sign_in.mustache:1 app/scripts/lib/auth-errors.js:388
 msgid "Link damaged"
 msgstr "లింకు పడైనది"
 
-#: app/scripts/lib/auth-errors.js:411
+#: app/scripts/lib/auth-errors.js:374 app/scripts/lib/auth-errors.js:411
 msgid "Phone number required"
 msgstr "ఫోను నెంబరు తప్పనిసరి"
 
@@ -500,8 +427,8 @@ msgid "Invalid configuration"
 msgstr "ఆకృతీకరణలు సరిఅయినవి కాదు"
 
 #: app/scripts/lib/mailcheck.js:25
-msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-msgstr ""
+msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
+msgstr "అంటే మీరు అనేది <span tabindex=\"1\">%(escapedDomain)s</span>?"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
@@ -596,7 +523,9 @@ msgid "SMS not sent, please try again"
 msgstr "SMS పంపబడలేదు, దయచేసి మళ్ళీ ప్రయత్నించండి"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr "కొనసాగింతే, మీరు మా <a id=\"service-tos\" href=\"%(termsUri)s\">సేవా షరతులు</a> మరియు <a id=\"service-pp\" href=\"%(privacyUri)s\">గోప్యతా నోటీసు</a> యొక్క %(serviceName)s(%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:30
@@ -623,9 +552,9 @@ msgstr "IP చిరునామా: %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "అదనపు భద్రత కోసం, ఈ పరికరంతో సింక్ ప్రారంభించడానికి సైన్ ఇన్ నిర్ధారించుకోండి:"
 
-#: app/scripts/lib/strings.js:46 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4 app/scripts/templates/sign_in_password.mustache:6
-msgid "Sign in"
-msgstr "సైన్ ఇన్"
+#: app/scripts/lib/strings.js:43 app/scripts/views/settings/clients.js:77
+msgid "Web Session"
+msgstr "వెబ్ సెషన్"
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
@@ -647,21 +576,54 @@ msgstr "ఖాతా సృష్టించడం వీలుపడుటల�
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr "మీరు ఒక ఫైర్ఫాక్స్ &nbsp ఖాతాసృష్టించడానికి నిర్దిష్ట వయస్సు అవసరాలను పూర్తిచేయాలి."
 
-#: app/scripts/templates/cannot_create_account.mustache:4 app/scripts/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "మరింత తెలుసుకోండి"
+#: app/scripts/templates/cannot_create_account.mustache:4
+msgid "Learn more."
+msgstr "ఇంకా తెలుసుకోండి."
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
-msgstr ""
+msgid "%(email)s created"
+msgstr "%(email)s సృష్టించబడినవి"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23 app/scripts/templates/sign_up.mustache:22
 msgid "Choose what to sync"
 msgstr "ఏమి సింక్ చేయాలో ఎంచుకోండి"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:5
+#: app/scripts/templates/choose_what_to_sync.mustache:3 app/scripts/models/sync-engines.js:33
+msgid "Open tabs"
+msgstr "తెరిచివున్న ట్యాబులు"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:5 app/scripts/models/sync-engines.js:38
+msgid "Bookmarks"
+msgstr "ఇష్టాంశాలు"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:7 app/scripts/models/sync-engines.js:43
+msgid "Add-ons"
+msgstr "ఆడ్-ఆన్స్"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:9 app/scripts/models/sync-engines.js:48
+msgid "Passwords"
+msgstr "సంకేతపదాలు"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:11 app/scripts/models/sync-engines.js:53
+msgid "History"
+msgstr "చరిత్ర"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:13 app/scripts/models/sync-engines.js:58
+msgid "Preferences"
+msgstr "అభిరుచులు"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:15
+msgid "Add-ons and Preferences do not currently sync on mobile devices."
+msgstr "అనుబంధాలను మరియు ప్రాధాన్యతలు ప్రస్తుతం మొబైల్ పరికరాల్లో సింక్ కాలేదు."
+
+#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Save settings"
 msgstr "సెట్టింగులను సేవ్ చేయండి"
+
+#: app/scripts/templates/choose_what_to_sync.mustache:17 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
+#: app/scripts/templates/sign_in_bounced.mustache:6
+msgid "Back"
+msgstr "వెనక్కి"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -672,8 +634,8 @@ msgid "The link you clicked to reset your password is expired."
 msgstr "మీరు మీ పాస్వర్డ్ను రీసెట్ క్లిక్ చేసిన లింక్ గడువు ముగిసింది."
 
 #: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Receive new link"
-msgstr "కొత్త లంకును స్వీకరించండి"
+msgid "Click here to receive a new reset link"
+msgstr "ఒక కొత్త రీసెట్ లింక్ అందుకుంటారు ఇక్కడ క్లిక్ చేయండి"
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -731,32 +693,33 @@ msgstr "మీ ఖాతాను నిర్ధారించండి"
 msgid "Confirm this sign-in"
 msgstr "ఈ ప్రవేశాన్ని నిర్ధారించండి"
 
-#: app/scripts/templates/confirm.mustache:5
-msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr "పంపిన ధృవీకరణ లింక్ కోసం మీ ఇమెయిల్ను తనిఖీ చేయండి & nbsp; కు%(escapedEmail)s"
+#: app/scripts/templates/confirm.mustache:5 app/scripts/templates/confirm_reset_password.mustache:2
+msgid "Email Sent"
+msgstr "ఈ మేయిల్ పంపబడింది"
 
-#: app/scripts/templates/confirm.mustache:7
-msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-msgstr "%(email)s లకు పంపిన సైన్-ఇన్ నిర్ధారణ లింక్ కోసం మీ ఇమెయిల్ను తనిఖీ చేయండి"
+#: app/scripts/templates/confirm.mustache:6
+msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+msgstr "ఒక ధృవీకరణ లింకు &nbsp; %(escapedEmail)sకు పంపబడినది"
 
-#: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
+#: app/scripts/templates/confirm.mustache:8
+msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+msgstr "మీ ఫైర్ఫాక్స్ డేటాను రక్షించడానికి, మేకు మేము ఒక నిర్ధారణ లింక్ ఇమెయిల్ %(email)s చేసాము"
+
+#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
-msgid "Not in inbox or spam folder? Resend"
-msgstr "ఇన్బాక్స్ లేదు స్పామ్ ఫోల్డర్లో లేదు? రీసెండ్"
-
-#: app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/sign_in_bounced.mustache:6 app/scripts/templates/tos.mustache:3
-msgid "Back"
-msgstr "వెనక్కి"
+msgid "Didn't arrive and not in spam folder? Resend"
+msgstr "ఇంకా చేరలేదా మరియు స్పామ్ ఫోల్డర్ లో లేదా? తిరిగి పంపండి"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
 msgstr "రీసెట్ ఇమెయిల్ పంపబడింది"
 
-#: app/scripts/templates/confirm_reset_password.mustache:2
+#: app/scripts/templates/confirm_reset_password.mustache:3 app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
 msgstr "మేము ఒక కొత్త పాస్వర్డ్ సృష్టించడానికి ఒక గంటలోపు మీకు ఇమెయిల్ %(email)s చేసిన లింక్పై క్లిక్ చేయండి."
 
-#: app/scripts/templates/confirm_reset_password.mustache:4 app/scripts/templates/confirm_reset_password.mustache:6 app/scripts/templates/reset_password.mustache:10
+#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7 app/scripts/templates/confirm_reset_password.mustache:4
+#: app/scripts/templates/confirm_reset_password.mustache:6 app/scripts/templates/reset_password.mustache:10
 msgid "Remember password? Sign in"
 msgstr "సంకేతపదం గుర్తుందా? ప్రవేశించండి"
 
@@ -764,58 +727,59 @@ msgstr "సంకేతపదం గుర్తుందా? ప్రవేశ
 msgid "Connect another device"
 msgstr "మరొక పరికరాన్ని అనుసంధానించండి"
 
-#: app/scripts/templates/connect_another_device.mustache:2 app/scripts/templates/sms_send.mustache:2
-msgid "This Firefox is connected"
-msgstr "ఈ Firefox సంధానమయ్యింది"
+#: app/scripts/templates/connect_another_device.mustache:2
+msgid "This device is connected"
+msgstr "ఈ పరికరం అనుసంధానమయ్యింది"
 
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr "సైన్ ఇన్ ధ్రువీకరించారు"
+#: app/scripts/templates/connect_another_device.mustache:4 app/scripts/views/ready.js:45
+msgid "Email verified"
+msgstr "ఈమెయిలు తనిఖీ చేయబడింది"
 
-#: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
+#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:3
+#: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
 msgstr "విజయవంతం అయింది"
 
-#: app/scripts/templates/connect_another_device.mustache:9
+#: app/scripts/templates/connect_another_device.mustache:6 app/scripts/templates/connect_another_device.mustache:9
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "అమర్పును పూర్తిచెయ్యడానికి Firefox లోనికి ప్రవేశించండి"
 
-#: app/scripts/templates/connect_another_device.mustache:10
+#: app/scripts/templates/connect_another_device.mustache:7 app/scripts/templates/connect_another_device.mustache:10
 msgid "Sign in &rarr;"
 msgstr "ప్రవేశించు &rarr;"
 
-#: app/scripts/templates/connect_another_device.mustache:12 app/scripts/templates/connect_another_device.mustache:16 app/scripts/templates/connect_another_device.mustache:26
-#: app/scripts/templates/sms_send.mustache:4
-msgid "Still adding devices?"
-msgstr "ఇప్పటికీ పరికరాలను జోడించాలా?"
-
+#: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
 #: app/scripts/templates/connect_another_device.mustache:14 app/scripts/templates/connect_another_device.mustache:18 app/scripts/templates/connect_another_device.mustache:28
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "అమర్పును పూర్తి చెయ్యడానికి వేరే పరికరంలో Firefox లోనికి ప్రవేశించండి"
 
-#: app/scripts/templates/connect_another_device.mustache:20
+#: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:20
 msgid "Open settings and select Sign in to Firefox to complete set-up"
 msgstr "సెట్టింగులను తెరచి మరియు సైన్ ఇన్ ఎంపిక చేసి Firefox ఏర్పాటు పూర్తి చేయి"
 
-#: app/scripts/templates/connect_another_device.mustache:22
+#: app/scripts/templates/connect_another_device.mustache:15 app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
 msgstr "అమర్పును పూర్తిచెయ్యడానికి Firefox for Androidలో ప్రవేశించండి"
 
-#: app/scripts/templates/connect_another_device.mustache:24
+#: app/scripts/templates/connect_another_device.mustache:17 app/scripts/templates/connect_another_device.mustache:24
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "అమర్పును పూర్తిచెయ్యడానికి Firefox for iOS లోనికి ప్రవేశించండి"
 
-#: app/scripts/templates/connect_another_device.mustache:30 app/scripts/templates/sms_send.mustache:10
-msgid "Why is more than one device required?"
-msgstr "ఎందుకు ఒకటి కంటే ఎక్కువ పరికరాలు అవసరం?"
+#: app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
+msgid "Why is this required?"
+msgstr "ఇది ఎందుకు కావాలి?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required"
-msgstr "కుకీలు మరియు స్థానిక నిల్వ అవసరం"
+msgid "Cookies and local storage are required."
+msgstr "కుకీలు మరియు లోకల్ స్టోరేజ్ అవసరం."
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
 msgstr "ఫైర్ఫాక్స్ అకౌంట్స్ యాక్సెస్ మీ బ్రౌజర్లో కుక్కీలను మరియు స్థానిక నిల్వ ఎనేబుల్ చెయ్యండి. అలా చేయడం వంటి సెషన్ల మధ్య గుర్తుంచుకోవాల్సిన కార్యాచరణను ప్రారంభించడానికి ఉంటుంది."
+
+#: app/scripts/templates/cookies_disabled.mustache:3 app/scripts/templates/cannot_create_account.mustache:4
+msgid "Learn more"
+msgstr "మరింత తెలుసుకోండి"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -825,38 +789,26 @@ msgstr "తిరిగి ప్రయత్నించు"
 msgid "Sign in to continue"
 msgstr "కొనసాగడానికి సైన్ ఇన్ అవ్వండి"
 
-#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_in_password.mustache:5
-#: app/scripts/templates/sign_up.mustache:12 app/scripts/templates/sign_up_password.mustache:5 app/scripts/templates/settings/change_password.mustache:1
-#: app/scripts/templates/settings/delete_account.mustache:4
+#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_up.mustache:15
+#: app/scripts/templates/settings/change_password.mustache:1 app/scripts/templates/settings/delete_account.mustache:4 app/scripts/templates/sign_in_password.mustache:5
+#: app/scripts/templates/sign_up.mustache:12 app/scripts/templates/sign_up_password.mustache:5
 msgid "Password"
 msgstr "సంకేతపదం"
 
+#: app/scripts/templates/force_auth.mustache:5 app/scripts/lib/strings.js:46 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4
+#: app/scripts/templates/sign_in_password.mustache:6
+msgid "Sign in"
+msgstr "సైన్ ఇన్"
+
+#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:18 app/scripts/templates/settings/change_password.mustache:5
 #: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_in_password.mustache:8
-#: app/scripts/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "సంకేతపదం మరిచిపోయారా?"
 
-#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:17
-#: app/scripts/templates/sign_up_password.mustache:7
+#: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:18 app/scripts/templates/force_auth.mustache:6
+#: app/scripts/templates/index.mustache:6 app/scripts/templates/sign_up.mustache:17 app/scripts/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr "కొనసాగడానికి, మేరు ఫైర్ఫాక్స్ క్లౌడ్ సేవల యొక్క <a id=\"fxa-tos\" href=\"/legal/terms\">సేవా షరతులు</a> మరియు <a id=\"fxa-pp\" href=\"/legal/privacy\">గోప్యతా నోటీసు</a> కు అంగీకరిచాలి."
-
-#: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
-msgid "Enter your email"
-msgstr "మీ ఈమెయిల్ ప్రవేశపెట్టండి"
-
-#: app/scripts/templates/index.mustache:2 app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in_password.mustache:2
-#: app/scripts/templates/sign_up.mustache:2 app/scripts/templates/sign_up_password.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "%(serviceName)s కు కొనసాగు"
-
-#: app/scripts/templates/index.mustache:5 app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:11
-msgid "Email"
-msgstr "ఈమెయిలు"
-
-#: app/scripts/templates/index.mustache:7 app/scripts/templates/sign_in_unblock.mustache:5
-msgid "Continue"
-msgstr "కొనసాగించు"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -892,28 +844,29 @@ msgstr "Android కోసం Firefoxను దింపుకోండి."
 msgid "Download Firefox for mobile devices."
 msgstr "మొబైల్ పరికరాల కోసం Firefoxను దించుకోండి."
 
-#: app/scripts/templates/permissions.mustache:1
+#: app/scripts/templates/permissions.mustache:1 app/scripts/templates/settings/gravatar_permissions.mustache:1
 msgid "Request for permission"
 msgstr "అనుమతి కోసం అభ్యర్ధించు"
 
-#: app/scripts/templates/permissions.mustache:2
+#: app/scripts/templates/permissions.mustache:2 app/scripts/templates/settings/gravatar_permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
 msgstr "%(serviceName)s మీ ఖాతా నుండి కింది సమాచారాన్ని కోరుకుంటున్నారు:"
 
-#: app/scripts/templates/permissions.mustache:3
+#: app/scripts/templates/permissions.mustache:3 app/scripts/templates/settings/gravatar_permissions.mustache:4
 msgid "Accept"
 msgstr "అంగీకరించు"
 
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
-#: app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9 app/scripts/templates/settings/communication_preferences.mustache:5
-#: app/scripts/templates/settings/communication_preferences.mustache:14 app/scripts/templates/settings/delete_account.mustache:6 app/scripts/templates/settings/display_name.mustache:8
+#: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9
+#: app/scripts/templates/settings/communication_preferences.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6
+#: app/scripts/templates/settings/display_name.mustache:8 app/scripts/templates/settings/gravatar_permissions.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:14
 #: app/scripts/templates/settings/emails.mustache:25
 msgid "Cancel"
 msgstr "రద్దు"
 
-#: app/scripts/templates/ready.mustache:5
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr "ఖాతా నోటిఫికేషన్లు కూడా ఇప్పుడు %(secondaryEmailVerified)s కు పంపబడతాయి"
+#: app/scripts/templates/ready.mustache:4
+msgid "Proceed"
+msgstr "కొనసాగండి"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
@@ -939,13 +892,27 @@ msgstr "ఇలా ఎందుకు జరుగుతోంది?"
 msgid "Reset account"
 msgstr "ఖాతాని పునఃఅమర్చు"
 
+#: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_up.mustache:2 app/scripts/templates/index.mustache:2
+#: app/scripts/templates/sign_in_password.mustache:2 app/scripts/templates/sign_up_password.mustache:2
+msgid "Continue to %(serviceName)s"
+msgstr "%(serviceName)s కు కొనసాగు"
+
 #: app/scripts/templates/reset_password.mustache:5
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "మీరు మీ పాస్వర్డ్ను రీసెట్ చేసినప్పుడు, మీరు మీ పరికరాల్లో ఒకటి న కాదని ఏ సమకాలీకరణ డేటా కోల్పోతారు."
 
+#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
+#: app/scripts/templates/index.mustache:5 app/scripts/templates/sign_up.mustache:11
+msgid "Email"
+msgstr "ఈమెయిలు"
+
 #: app/scripts/templates/reset_password.mustache:9
 msgid "Begin reset"
 msgstr "రీసెట్ ను ప్రారంభించు"
+
+#: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
+msgid "Remember password? Sign in."
+msgstr "సంకేతపదం గుర్తుందా? ప్రవేశించండి."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
@@ -963,33 +930,13 @@ msgstr "మీ పొడిగింతల డేటా కోసం చూస�
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr "మీ సింక్ డేటాను తరలించడానికి మీ యొక్క ఫైర్ఫాక్స్ &nbsp;ఖాతా కి సైన్ ఇన్ అవ్వండి."
 
-#: app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:12
+#: app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:12 app/scripts/templates/sign_in.mustache:9
 msgid "Use a different account"
 msgstr "వేరే ఖాతాను ఉపయోగించండి"
 
-#: app/scripts/templates/sign_in.mustache:18
+#: app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_in.mustache:18
 msgid "Create an account"
 msgstr "ఒక ఖాతా సృష్టించు"
-
-#: app/scripts/templates/sign_in_bounced.mustache:1
-msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr "క్షమించాలి. మేము మీ &nbsp;ఖాతాకు తాళం వేసాము."
-
-#: app/scripts/templates/sign_in_bounced.mustache:2
-msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr ""
-
-#: app/scripts/templates/sign_in_bounced.mustache:3
-msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr ""
-
-#: app/scripts/templates/sign_in_bounced.mustache:5
-msgid "No longer own that email? Create a new account"
-msgstr ""
-
-#: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:11
-msgid "Mistyped email?"
-msgstr ""
 
 #: app/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1004,97 +951,108 @@ msgid "Authorize this sign-in"
 msgstr "ఇది అధికారిక సైన్-ఇన్"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
-msgid "Check your email for the authorization code sent to %(email)s."
-msgstr "%(email)s లకు పంపబడిన అధికార సంకేతానికి మీ ఇమెయిల్ను తనిఖీ చేయండి."
+msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
+msgstr "మీ Firefox డేటాను రక్షించడానికి, ఒక అధీకృత కోడ్ మీ %(email)s వద్ద వేచి ఉంది."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
 msgstr "ధృవీకరణ కోడ్ ఎంటర్ చేయండి"
+
+#: app/scripts/templates/sign_in_unblock.mustache:5 app/scripts/templates/index.mustache:7
+msgid "Continue"
+msgstr "కొనసాగించు"
 
 #: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4 app/scripts/templates/sign_up_password.mustache:1 app/scripts/templates/sign_up_password.mustache:4
 msgid "Create a Firefox Account"
 msgstr "Firefox ఖాతాను సృష్టించండి"
 
 #: app/scripts/templates/sign_up.mustache:6
+msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
+msgstr "Firefox Sync కోసం చూస్తున్నారా? <a href=\"%(escapedSyncSuggestionUrl)s\">ఇక్కడ ప్రారంభించండి</a>"
+
+#: app/scripts/templates/sign_up.mustache:8 app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr "మే సింక్ డేటా తరలించడానికి ఒక కొత్త Firefox &nbsp; ఖాతాను తెరవండి."
 
-#: app/scripts/templates/sign_up.mustache:8
+#: app/scripts/templates/sign_up.mustache:10 app/scripts/templates/sign_up.mustache:8
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr "మీ పొడిగింతల డేటా కోసం చూస్తున్నారా? మీ పాత పొడిగింతలున్న ఖాతా యొక్క ఇమెయిల్ చిరునామాతో ఒక Firefox ఖాతాలో చేరండి."
 
-#: app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up_password.mustache:6
+#: app/scripts/templates/sign_up.mustache:17 app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up_password.mustache:6
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "ఒక బలమైన, ఏకైక సంకేతపదం మీ Firefox డేటాను చొరబాటుదారుల నుండి సురక్షితంగా ఉంచుతుంది."
 
-#: app/scripts/templates/sign_up.mustache:18
-msgid "Get the latest news about Mozilla and Firefox"
-msgstr ""
-
-#: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10
-msgid "Create account"
-msgstr "ఖాతా సృష్టించు"
-
-#: app/scripts/templates/sign_up.mustache:25
-msgid "Have an account? Sign in"
-msgstr "ఖాతా ఉందా? ప్రవేశించండి"
-
-#: app/scripts/templates/sign_up_password.mustache:8
+#: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/sign_up_password.mustache:8
 msgid "Receive the monthly Firefox newsletter"
 msgstr "నెలసరి Firefox న్యూస్‌లెటర్ అందుకోండి"
 
-#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:6
+#: app/scripts/templates/sign_up.mustache:21 app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10
+msgid "Create account"
+msgstr "ఖాతా సృష్టించు"
+
+#: app/scripts/templates/sign_up.mustache:26 app/scripts/templates/sign_up.mustache:25
+msgid "Have an account? Sign in"
+msgstr "ఖాతా ఉందా? ప్రవేశించండి"
+
+#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4 app/scripts/templates/sms_send.mustache:6
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr "అమర్పును పూర్రిచెయ్యడానికి Firefoxను నేరుగా మీ స్మార్టుఫోనుకి పంపించి, ప్రవేశించండి"
 
-#: app/scripts/templates/sms_send.mustache:7
+#: app/scripts/templates/sms_send.mustache:2 app/scripts/templates/connect_another_device.mustache:2
+msgid "This Firefox is connected"
+msgstr "ఈ Firefox సంధానమయ్యింది"
+
+#: app/scripts/templates/sms_send.mustache:5 app/scripts/templates/sms_send.mustache:7
 msgid "Mobile phone number"
 msgstr "మొబైలు ఫోను నెంబరు"
 
-#: app/scripts/templates/sms_send.mustache:8
+#: app/scripts/templates/sms_send.mustache:6 app/scripts/templates/sms_send.mustache:8
 msgid "Send"
 msgstr "పంపించు"
 
-#: app/scripts/templates/sms_send.mustache:9
+#: app/scripts/templates/sms_send.mustache:7
 msgid ""
-"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr "కొన్ని దేశాల్లో SMS సేవ అందుబాటులో ఉంటుంది. SMS &amp; డేటా రేట్లు వర్తించవచ్చు. ఇమెయిల్ లేదా SMS యొక్క గ్రహీత సమ్మతించాలి. <a %(escapedLearnMoreAttributes)s>మరింత తెలుసుకోండి</a>"
+"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+msgstr "SMS సేవ కేవలం అమెరికా ఫోను నెంబర్లకు మాత్రమే అందుబాటులో ఉంది. SMS &amp; డేటా చార్జీలు వర్తిస్తాయి. ఈమెయిలు లేదా SMS అందుకునేవారు ఒప్పుకొనివుండాలి. <a %(escapedLearnMoreAttributes)s>ఇంకా తెలుసుకోండి</a>"
 
-#: app/scripts/templates/sms_send.mustache:11
+#: app/scripts/templates/sms_send.mustache:9 app/scripts/templates/sms_send.mustache:11
 msgid "Maybe later"
 msgstr "బహుశా తర్వాత"
 
-#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
+#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
 msgstr "అమర్పును పూర్తిచెయ్యడానికి Firefoxని మీ స్మార్టుఫోనులో స్థాపించుకుని, ప్రవేశించండి"
 
 #: app/scripts/templates/sms_sent.mustache:2
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "అనువర్తన లింక్ %(escapedPhoneNumber)sకి పంపబడింది. <a %(escapedBackLinkAttrs)s>తప్పుడు&nbsp;సంఖ్య?</a>"
+msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+msgstr "అప్ లింక్ %(escapedPhoneNumber)sకి పంపించాము. <a %(escapedBackLinkAttrs)s>నెంబర్ తప్పుగా నొక్కారా?</a>"
 
-#: app/scripts/templates/sms_sent.mustache:3
-msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
-
-#: app/scripts/templates/sms_sent.mustache:7
+#: app/scripts/templates/sms_sent.mustache:5 app/scripts/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
 msgstr "మీకు పాఠ్య సందేశం అందకపోతుంటే, మీరు ఆప్స్‌ని మానవీయంగా కూడా దింపుకోవచ్చు."
 
-#: app/scripts/templates/sms_sent.mustache:8
+#: app/scripts/templates/sms_sent.mustache:6 app/scripts/templates/sms_sent.mustache:8
 msgid "Didn't arrive? Resend"
 msgstr "అందలేదా? తిరిగి పంపు"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
-msgid "Why sync multiple devices?"
-msgstr "బహుళ పరికరాల సమకాలీకరణ ఎందుకు?"
+msgid "Why Sync two (or more!) devices?"
+msgstr "రెండు (లేదా మరిన్ని!) పరికరాలను ఎందుకు సింక్ చేసుకోవాలి?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
-msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr "Sync సేవ శాశ్వత బ్యాకప్ కాదు, ఇది మీ స్వంత పరికరాల మధ్య సేవ్ చేసిన బుక్మార్క్లను, చరిత్ర మరియు పాస్వర్డ్లను బదిలీ చేయడానికి సురక్షితమైన మార్గం."
+msgid ""
+"Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+"Firefox for desktop will appear."
+msgstr ""
+"సమకాలీకరణ మీరు ఒక పరికరం యొక్క Firefox లో నిల్వ చేసిన బుక్మార్క్లు, చరిత్ర మరియు పాస్వర్డ్లను మీ ఇతర పరికరాల్లో Firefox కు భాగస్వామ్యం చేస్తుంది. మీ ఫోన్ లేదా టాబ్లెట్ లో Firefox కు సైన్ ఇన్ చేస్తే మీరు Firefox యొక్క డెస్క్టాప్ లో సేవ్ చేసిన ప్రతిదీ కనిపిస్తుంది."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
-msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
+msgid ""
+"Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
+"information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 msgstr ""
+"సమకాలీకరణ శాశ్వత బ్యాకప్ వలె రూపొందించబడినది కాదు - కేవలం స్థానికంగా సేవ్ చేయబడినవి భాగస్వామ్యం చేస్తుంది. మీరు మీ పాస్వర్డ్ను రీసెట్ చేస్తే మీ డేటాను కనీసం ఒక ఇతర పరికరంలో నిల్వ చేయకపోతే, మీరు పాత పాస్వర్డ్ తో సంబంధించిన మొత్తం సమాచారం కోల్పోతారు. అందుకే మీరు Firefox "
+"ఇన్స్టాల్ చేసి ఒకటి కంటే ఎక్కువ పరికరాలలో సమకాలీకరణ ఉపయోగించవలెను."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1122,10 +1080,15 @@ msgid "Camera"
 msgstr "కెమేరా"
 
 #: app/scripts/templates/settings/avatar_change.mustache:3
+msgid "Gravatar"
+msgstr "గ్రావతార్"
+
+#: app/scripts/templates/settings/avatar_change.mustache:4 app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Clear"
 msgstr "క్లియర్"
 
-#: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:22
+#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:26 app/scripts/templates/settings/avatar_change.mustache:5
+#: app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:22
 msgid "Done"
 msgstr "పూర్తయింది"
 
@@ -1136,6 +1099,10 @@ msgstr "మీ చిత్రాన్ని తగినంత రొటేట
 #: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:7
 msgid "Change"
 msgstr "మార్చు"
+
+#: app/scripts/templates/settings/avatar_gravatar.mustache:2
+msgid "Save"
+msgstr "సేవ్"
 
 #: app/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
@@ -1173,7 +1140,8 @@ msgstr "నకలీ పరికరము"
 msgid "Rather not say"
 msgstr "చెప్పకూడదని అనుకుంటున్నాను"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:13
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:14
+#: app/scripts/templates/settings/clients.mustache:13
 msgid "Disconnect"
 msgstr "డిస్కనెక్ట్"
 
@@ -1189,43 +1157,41 @@ msgstr "పరికరాలు & అనువర్తనాలు"
 msgid "Show"
 msgstr "చూపించు"
 
-#: app/scripts/templates/settings/clients.mustache:6
+#: app/scripts/templates/settings/clients.mustache:5 app/scripts/templates/settings/clients.mustache:6
 msgid "current device"
 msgstr "ప్రస్తుత పరికరం"
 
-#: app/scripts/templates/settings/clients.mustache:8
+#: app/scripts/templates/settings/clients.mustache:7 app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
 msgstr "అనుసంధానాన్ని తీసివేయి…"
 
-#: app/scripts/templates/settings/clients.mustache:11
+#: app/scripts/templates/settings/clients.mustache:9 app/scripts/templates/settings/clients.mustache:11
 msgid "current session"
 msgstr "ప్రస్తుత సెషన్"
 
-#: app/scripts/templates/settings/clients.mustache:16
-msgid "Revoke"
-msgstr ""
-
-#: app/scripts/templates/settings/clients.mustache:19
+#: app/scripts/templates/settings/clients.mustache:17 app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
 msgstr "iOS కోసం Firefox"
 
-#: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
+#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:20
+#: app/scripts/templates/settings/clients.mustache:23
 msgid "none connected"
 msgstr "ఏమీ అనుసంధానమయి లేవు"
 
-#: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
+#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22 app/scripts/templates/settings/clients.mustache:21
+#: app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
 msgstr "దిగుమతి చేయండి"
 
-#: app/scripts/templates/settings/clients.mustache:22
+#: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:22
 msgid "Firefox for Android"
 msgstr "Android కోసం Firefox"
 
-#: app/scripts/templates/settings/clients.mustache:26
+#: app/scripts/templates/settings/clients.mustache:24 app/scripts/templates/settings/clients.mustache:26
 msgid "Missing or duplicate items?"
 msgstr "తప్పినవి లేదా నకిలీ అంశాలు?"
 
-#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20
+#: app/scripts/templates/settings/clients.mustache:25 app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20
 msgid "Refresh"
 msgstr "రిఫ్రెష్"
 
@@ -1234,22 +1200,18 @@ msgid "Communication preferences"
 msgstr "కమ్యూనికేషన్ ప్రాధాన్యతలు"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
-msgid "We may send you emails related to your Firefox Account."
-msgstr ""
+msgid "Receive the monthly Firefox newsletter."
+msgstr "నెలసరి Firefox న్యూస్‌లెటర్ అందుకోండి."
 
-#: app/scripts/templates/settings/communication_preferences.mustache:8
-msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-msgstr ""
-
-#: app/scripts/templates/settings/communication_preferences.mustache:9
+#: app/scripts/templates/settings/communication_preferences.mustache:8 app/scripts/templates/settings/communication_preferences.mustache:9
 msgid "Email preferences"
 msgstr "ఇమెయిల్ ప్రాధాన్యతలను"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:11
+#: app/scripts/templates/settings/communication_preferences.mustache:10 app/scripts/templates/settings/communication_preferences.mustache:11
 msgid "Unsubscribe"
 msgstr "చందా విరమించు"
 
-#: app/scripts/templates/settings/communication_preferences.mustache:13
+#: app/scripts/templates/settings/communication_preferences.mustache:12 app/scripts/templates/settings/communication_preferences.mustache:13
 msgid "Subscribe"
 msgstr "చందాచేరు"
 
@@ -1268,6 +1230,201 @@ msgstr "మీరు మీ ఖాతా తొలగించాలనుకు
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "మీ ఖాతాను నిర్వహించినప్పుడు, మీ Firefoxలో కనిపించాలనుకుంటున్న పేరును ఎంచుకోండి."
+
+#: app/scripts/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you?"
+msgstr "మీ వయస్సు ఎంత?"
+
+#: app/scripts/templates/openid/start.mustache:1
+msgid "Sign in to Sync"
+msgstr "సింక్ కు సైన్ ఇన్ అవ్వు"
+
+#: app/scripts/templates/openid/start.mustache:2
+msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
+msgstr "మీరు మీ టాబ్లు, బుక్మార్క్లు, పాస్వర్డ్లు మరియు మరింత సమకాలీకరించడానికి ఉపయోగించాలనుకుంటే ఖాతాను ఎంచుకోండి."
+
+#: app/scripts/templates/openid/start.mustache:3
+msgid "Use OpenID"
+msgstr "OPenID వాడండి"
+
+#: app/scripts/templates/openid/start.mustache:4
+msgid "Use Firefox Account"
+msgstr "Firefox ఖాతా వాడు"
+
+#: app/scripts/views/settings/clients.js:86
+msgid "first sync %(translatedTimeAgo)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:89
+msgid "last sync %(translatedTimeAgo)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:95
+msgid "last active %(translatedTimeAgo)s"
+msgstr "చివరిసారి క్రియాశీలం %(translatedTimeAgo)s"
+
+#: app/scripts/views/settings/clients.js:99
+msgid "last sync time unknown"
+msgstr ""
+
+#: app/scripts/views/settings/emails.js:114
+msgid "Secondary email removed"
+msgstr "రెండవ ఇమెయిల్ తొలగించబడింది"
+
+#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
+msgid "Verification email sent"
+msgstr "ధృవీకరణ ఇమెయిల్ పంపబడింది"
+
+#: app/scripts/views/settings/emails.js:169
+msgid "Primary email set to %(email)s"
+msgstr ""
+
+#: app/scripts/models/sync-engines.js:65
+msgid "Addresses"
+msgstr "చిరునామాలు"
+
+#: app/scripts/models/sync-engines.js:72
+msgid "Credit cards"
+msgstr "క్రెడిట్ కార్డులు"
+
+#: app/scripts/lib/auth-errors.js:151
+msgid "This email was already verified by another user"
+msgstr "ఈ ఇమెయిల్ ఇప్పటికే మరొక వినియోగదారునిచే ధృవీకరించబడింది"
+
+#: app/scripts/lib/auth-errors.js:155
+msgid "Secondary email must be different than your account email"
+msgstr "సెకండరీ ఇమెయిల్ మీ ఖాతా ఇమెయిల్ కంటే భిన్నంగా ఉండాలి"
+
+#: app/scripts/lib/auth-errors.js:167
+msgid "Primary account email required for sign-in"
+msgstr "సైన్ ఇన్ చేయడానికి ప్రాథమిక ఖాతా ఇమెయిల్ అవసరం"
+
+#: app/scripts/lib/auth-errors.js:171
+msgid "Address in use by another account"
+msgstr "ఈ చిరునామా మరొక ఖాతా వాడుకలో ఉంది"
+
+#: app/scripts/lib/auth-errors.js:175
+msgid "Primary account email required for reset"
+msgstr "రీసెట్ చేయడానికి ప్రాథమిక ఖాతా ఇమెయిల్ అవసరం"
+
+#: app/scripts/lib/auth-errors.js:179
+msgid "Invalid signin code"
+msgstr "చెల్లని ప్రవేశ కోడ్"
+
+#: app/scripts/lib/mailcheck.js:25
+msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
+msgstr ""
+
+#: app/scripts/templates/choose_what_to_sync.mustache:1
+msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
+msgstr ""
+
+#: app/scripts/templates/complete_reset_password.mustache:3
+msgid "Receive new link"
+msgstr "కొత్త లంకును స్వీకరించండి"
+
+#: app/scripts/templates/confirm.mustache:5
+msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+msgstr "పంపిన ధృవీకరణ లింక్ కోసం మీ ఇమెయిల్ను తనిఖీ చేయండి & nbsp; కు%(escapedEmail)s"
+
+#: app/scripts/templates/confirm.mustache:7
+msgid "Check your email for the sign-in confirmation link sent to %(email)s"
+msgstr "%(email)s లకు పంపిన సైన్-ఇన్ నిర్ధారణ లింక్ కోసం మీ ఇమెయిల్ను తనిఖీ చేయండి"
+
+#: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
+#: app/scripts/templates/sign_in_unblock.mustache:9
+msgid "Not in inbox or spam folder? Resend"
+msgstr "ఇన్బాక్స్ లేదు స్పామ్ ఫోల్డర్లో లేదు? రీసెండ్"
+
+#: app/scripts/templates/connect_another_device.mustache:6
+msgid "Signin confirmed"
+msgstr "సైన్ ఇన్ ధ్రువీకరించారు"
+
+#: app/scripts/templates/connect_another_device.mustache:12 app/scripts/templates/connect_another_device.mustache:16 app/scripts/templates/connect_another_device.mustache:26
+#: app/scripts/templates/sms_send.mustache:4
+msgid "Still adding devices?"
+msgstr "ఇప్పటికీ పరికరాలను జోడించాలా?"
+
+#: app/scripts/templates/connect_another_device.mustache:30 app/scripts/templates/sms_send.mustache:10
+msgid "Why is more than one device required?"
+msgstr "ఎందుకు ఒకటి కంటే ఎక్కువ పరికరాలు అవసరం?"
+
+#: app/scripts/templates/cookies_disabled.mustache:1
+msgid "Cookies and local storage are required"
+msgstr "కుకీలు మరియు స్థానిక నిల్వ అవసరం"
+
+#: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
+msgid "Enter your email"
+msgstr "మీ ఈమెయిల్ ప్రవేశపెట్టండి"
+
+#: app/scripts/templates/ready.mustache:5
+msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
+msgstr "ఖాతా నోటిఫికేషన్లు కూడా ఇప్పుడు %(secondaryEmailVerified)s కు పంపబడతాయి"
+
+#: app/scripts/templates/sign_in_bounced.mustache:1
+msgid "Sorry. We’ve locked your&nbsp;account."
+msgstr "క్షమించాలి. మేము మీ &nbsp;ఖాతాకు తాళం వేసాము."
+
+#: app/scripts/templates/sign_in_bounced.mustache:2
+msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
+msgstr ""
+
+#: app/scripts/templates/sign_in_bounced.mustache:3
+msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
+msgstr ""
+
+#: app/scripts/templates/sign_in_bounced.mustache:5
+msgid "No longer own that email? Create a new account"
+msgstr ""
+
+#: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:11
+msgid "Mistyped email?"
+msgstr ""
+
+#: app/scripts/templates/sign_in_unblock.mustache:3
+msgid "Check your email for the authorization code sent to %(email)s."
+msgstr "%(email)s లకు పంపబడిన అధికార సంకేతానికి మీ ఇమెయిల్ను తనిఖీ చేయండి."
+
+#: app/scripts/templates/sign_up.mustache:18
+msgid "Get the latest news about Mozilla and Firefox"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:9
+msgid ""
+"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+msgstr "కొన్ని దేశాల్లో SMS సేవ అందుబాటులో ఉంటుంది. SMS &amp; డేటా రేట్లు వర్తించవచ్చు. ఇమెయిల్ లేదా SMS యొక్క గ్రహీత సమ్మతించాలి. <a %(escapedLearnMoreAttributes)s>మరింత తెలుసుకోండి</a>"
+
+#: app/scripts/templates/sms_sent.mustache:2
+msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+msgstr "అనువర్తన లింక్ %(escapedPhoneNumber)sకి పంపబడింది. <a %(escapedBackLinkAttrs)s>తప్పుడు&nbsp;సంఖ్య?</a>"
+
+#: app/scripts/templates/sms_sent.mustache:3
+msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+msgstr ""
+
+#: app/scripts/templates/why_connect_another_device.mustache:1
+msgid "Why sync multiple devices?"
+msgstr "బహుళ పరికరాల సమకాలీకరణ ఎందుకు?"
+
+#: app/scripts/templates/why_connect_another_device.mustache:2
+msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
+msgstr "Sync సేవ శాశ్వత బ్యాకప్ కాదు, ఇది మీ స్వంత పరికరాల మధ్య సేవ్ చేసిన బుక్మార్క్లను, చరిత్ర మరియు పాస్వర్డ్లను బదిలీ చేయడానికి సురక్షితమైన మార్గం."
+
+#: app/scripts/templates/why_connect_another_device.mustache:3
+msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
+msgstr ""
+
+#: app/scripts/templates/settings/clients.mustache:16
+msgid "Revoke"
+msgstr ""
+
+#: app/scripts/templates/settings/communication_preferences.mustache:7
+msgid "We may send you emails related to your Firefox Account."
+msgstr ""
+
+#: app/scripts/templates/settings/communication_preferences.mustache:8
+msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
+msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
@@ -1301,29 +1458,9 @@ msgstr ""
 msgid "Add"
 msgstr "చేర్చు"
 
-#: app/scripts/templates/partial/coppa-age-input.mustache:1
-msgid "How old are you?"
-msgstr "మీ వయస్సు ఎంత?"
-
 #: app/scripts/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
 msgstr "Firefox Sync కోసం వెతుకుతున్నారా? <a %(escapedSyncSuggestionAttrs)s>ఇక్కడ ప్రారంభించండి</a>"
-
-#: app/scripts/templates/openid/start.mustache:1
-msgid "Sign in to Sync"
-msgstr "సింక్ కు సైన్ ఇన్ అవ్వు"
-
-#: app/scripts/templates/openid/start.mustache:2
-msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-msgstr "మీరు మీ టాబ్లు, బుక్మార్క్లు, పాస్వర్డ్లు మరియు మరింత సమకాలీకరించడానికి ఉపయోగించాలనుకుంటే ఖాతాను ఎంచుకోండి."
-
-#: app/scripts/templates/openid/start.mustache:3
-msgid "Use OpenID"
-msgstr "OPenID వాడండి"
-
-#: app/scripts/templates/openid/start.mustache:4
-msgid "Use Firefox Account"
-msgstr "Firefox ఖాతా వాడు"
 
 #. submit button
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
@@ -1332,108 +1469,22 @@ msgid "Sign in"
 msgstr "ప్రవేశించు"
 
 #. header text
-#: app/scripts/views/sign_in.js:95
+#: app/scripts/views/sign_in.js:93
 msgctxt "header text"
 msgid "Sign in"
 msgstr "ప్రవేశం"
 
-#~ msgid "Receive the monthly Firefox newsletter."
-#~ msgstr "నెలసరి Firefox న్యూస్‌లెటర్ అందుకోండి."
-
-#~ msgid "Why is this required?"
-#~ msgstr "ఇది ఎందుకు కావాలి?"
+#. button text
+#: app/scripts/views/sign_in.js:90
+msgctxt "button text"
+msgid "Sign in"
+msgstr ""
 
 #~ msgid "Next"
 #~ msgstr "తరువాత"
 
-#~ msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-#~ msgstr "అంటే మీరు అనేది <span tabindex=\"1\">%(escapedDomain)s</span>?"
-
-#~ msgid "App link resent to %(phoneNumber)s"
-#~ msgstr "యాప్ లంకె %(phoneNumber)sకి మళ్ళీ పంపబడింది"
-
 #~ msgid "started syncing %(translatedTimeAgo)s"
 #~ msgstr "సమకాలీకరణ ప్రారంభమైంది %(translatedTimeAgo)s"
-
-#~ msgid "%(email)s created"
-#~ msgstr "%(email)s సృష్టించబడినవి"
-
-#~ msgid "Email Sent"
-#~ msgstr "ఈ మేయిల్ పంపబడింది"
-
-#~ msgid "Learn more."
-#~ msgstr "ఇంకా తెలుసుకోండి."
-
-#~ msgid "Click here to receive a new reset link"
-#~ msgstr "ఒక కొత్త రీసెట్ లింక్ అందుకుంటారు ఇక్కడ క్లిక్ చేయండి"
-
-#~ msgid "Didn't arrive and not in spam folder? Resend"
-#~ msgstr "ఇంకా చేరలేదా మరియు స్పామ్ ఫోల్డర్ లో లేదా? తిరిగి పంపండి"
-
-#~ msgid "Cookies and local storage are required."
-#~ msgstr "కుకీలు మరియు లోకల్ స్టోరేజ్ అవసరం."
-
-#~ msgid "Remember password? Sign in."
-#~ msgstr "సంకేతపదం గుర్తుందా? ప్రవేశించండి."
-
-#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-#~ msgstr "అప్ లింక్ %(escapedPhoneNumber)sకి పంపించాము. <a %(escapedBackLinkAttrs)s>నెంబర్ తప్పుగా నొక్కారా?</a>"
-
-#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
-#~ msgstr "అనుబంధాలను మరియు ప్రాధాన్యతలు ప్రస్తుతం మొబైల్ పరికరాల్లో సింక్ కాలేదు."
-
-#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-#~ msgstr "ఒక ధృవీకరణ లింకు &nbsp; %(escapedEmail)sకు పంపబడినది"
-
-#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-#~ msgstr "మీ ఫైర్ఫాక్స్ డేటాను రక్షించడానికి, మేకు మేము ఒక నిర్ధారణ లింక్ ఇమెయిల్ %(email)s చేసాము"
-
-#~ msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-#~ msgstr "మీ Firefox డేటాను రక్షించడానికి, ఒక అధీకృత కోడ్ మీ %(email)s వద్ద వేచి ఉంది."
-
-#~ msgid "Why Sync two (or more!) devices?"
-#~ msgstr "రెండు (లేదా మరిన్ని!) పరికరాలను ఎందుకు సింక్ చేసుకోవాలి?"
-
-#~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
-#~ msgstr ""
-#~ "సమకాలీకరణ మీరు ఒక పరికరం యొక్క Firefox లో నిల్వ చేసిన బుక్మార్క్లు, చరిత్ర మరియు పాస్వర్డ్లను మీ ఇతర పరికరాల్లో Firefox కు భాగస్వామ్యం చేస్తుంది. మీ ఫోన్ లేదా టాబ్లెట్ లో Firefox కు సైన్ ఇన్ చేస్తే "
-#~ "మీరు Firefox యొక్క డెస్క్టాప్ లో సేవ్ చేసిన ప్రతిదీ కనిపిస్తుంది."
-
-#~ msgid ""
-#~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
-#~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
-#~ msgstr ""
-#~ "సమకాలీకరణ శాశ్వత బ్యాకప్ వలె రూపొందించబడినది కాదు - కేవలం స్థానికంగా సేవ్ చేయబడినవి భాగస్వామ్యం చేస్తుంది. మీరు మీ పాస్వర్డ్ను రీసెట్ చేస్తే మీ డేటాను కనీసం ఒక ఇతర పరికరంలో నిల్వ చేయకపోతే, మీరు పాత "
-#~ "పాస్వర్డ్ తో సంబంధించిన మొత్తం సమాచారం కోల్పోతారు. అందుకే మీరు Firefox ఇన్స్టాల్ చేసి ఒకటి కంటే ఎక్కువ పరికరాలలో సమకాలీకరణ ఉపయోగించవలెను."
-
-#~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-#~ msgstr "Firefox Sync కోసం చూస్తున్నారా? <a href=\"%(escapedSyncSuggestionUrl)s\">ఇక్కడ ప్రారంభించండి</a>"
-
-#~ msgid "Last active %(translatedTimeAgo)s"
-#~ msgstr "చివరిసారి క్రియాశీలం %(translatedTimeAgo)s"
-
-#~ msgid "This device is connected"
-#~ msgstr "ఈ పరికరం అనుసంధానమయ్యింది"
-
-#~ msgid ""
-#~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-#~ msgstr ""
-#~ "SMS సేవ కేవలం అమెరికా ఫోను నెంబర్లకు మాత్రమే అందుబాటులో ఉంది. SMS &amp; డేటా చార్జీలు వర్తిస్తాయి. ఈమెయిలు లేదా SMS అందుకునేవారు ఒప్పుకొనివుండాలి. <a %(escapedLearnMoreAttributes)s>ఇంకా "
-#~ "తెలుసుకోండి</a>"
-
-#~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-#~ msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a>సౌజన్యం"
-
-#~ msgid "No Gravatar found"
-#~ msgstr "గ్రావతార్ దొరకలేదు"
-
-#~ msgid "Gravatar"
-#~ msgstr "గ్రావతార్"
-
-#~ msgid "Save"
-#~ msgstr "సేవ్"
 
 #~ msgid "8 characters minimum, but longer if you plan to sync passwords."
 #~ msgstr "8 అక్షరాలు కనీస, కానీ మీరు పాస్వర్డ్లను సమకాలీకరిస్తుంది కుంటే ఇక."
@@ -1446,9 +1497,6 @@ msgstr "ప్రవేశం"
 
 #~ msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
 #~ msgstr "సంకేతపదము సరికాదు. మీరు ఎంటర్ చేసిన వాటిని డబుల్ చెక్ చేసి, ప్రదర్శించు బటన్ ను నొక్కి ఉంచండి."
-
-#~ msgid "Proceed"
-#~ msgstr "కొనసాగండి"
 
 #~ msgid "Duplicate Device"
 #~ msgstr "నకలీ పరికరము"
@@ -1498,20 +1546,19 @@ msgstr "ప్రవేశం"
 #~ msgid "Sync preferences"
 #~ msgstr "Sync అభిరుచులు"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr ""
-#~ "ఫైర్‌ఫాక్స్ సింక్ కోసం చూస్తున్నారా? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">ఇక్కడ "
-#~ "మొదలుపెట్టండి</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr "ఫైర్‌ఫాక్స్ సింక్ కోసం చూస్తున్నారా? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">ఇక్కడ మొదలుపెట్టండి</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "వేరొక ఈమయిల్ తో ఖాతా ఉన్నదా? <a href=\"%(signinUri)s\">సైన్ ఇన్ అవండి</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "ఫైర్ఫాక్స్ <a href=\"%(linkWindows)s\">విండోస్</a>, <a href=\"%(linkOSX)s\">ఓయస్ ఎక్స్</a>, <a href=\"%(linkAndroid)s\">ఆండ్రాయిడ్</a>,<a href=\"%(linkIOS)s\">ఐఓయస్</a>, <a "
-#~ "href=\"%(linkLinux)s\">లినక్స్</a> కి లభిస్తుంది."
+#~ "ఫైర్ఫాక్స్ <a href=\"%(linkWindows)s\">విండోస్</a>, <a href=\"%(linkOSX)s\">ఓయస్ ఎక్స్</a>, <a href=\"%(linkAndroid)s\">ఆండ్రాయిడ్</a>,<a href=\"%(linkIOS)s\">ఐఓయస్</a>, <a href=\"%(linkLinux)s\">లినక్స్</a> కి "
+#~ "లభిస్తుంది."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "చివరిసారి క్రియాశీలం: %(translatedTimeAgo)s"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-29 16:08+0000\n"
+"POT-Creation-Date: 2017-10-16 09:06+0000\n"
 "PO-Revision-Date: 2017-09-12 07:19+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1426228038.0\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:749
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:761
 msgid "Still there?"
 msgstr "Още ли сте тук?"
 
@@ -57,7 +57,7 @@ msgid "Firefox Accounts"
 msgstr "Firefox Accounts"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:626
+#: lib/senders/email.js:638
 msgid "New sign-in to Firefox"
 msgstr "Ново вписване във Firefox"
 
@@ -256,7 +256,7 @@ msgstr "Ако ли пък не – ни помогнете да отблъсн�
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Ако ли пък не – ни помогнете да отблъснем натрапниците като ни ги докладвате."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:746
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:758
 msgid "Hello again."
 msgstr "Здравейте отново."
 
@@ -340,75 +340,75 @@ msgstr "Потвърдете, че сте получили това писмо �
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "След като бъде потвърден ще ви помогнем да инсталирате и свържете Firefox на поне още едно устройство."
 
-#: lib/senders/email.js:164
+#: lib/senders/email.js:166
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s на %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:167
+#: lib/senders/email.js:169
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s на %(uaOS)s"
 
-#: lib/senders/email.js:194
+#: lib/senders/email.js:196
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (приблизително)"
 
-#: lib/senders/email.js:196
+#: lib/senders/email.js:198
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (приблизително)"
 
-#: lib/senders/email.js:198
+#: lib/senders/email.js:200
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (приблизително)"
 
-#: lib/senders/email.js:200
+#: lib/senders/email.js:202
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (приблизително)"
 
-#: lib/senders/email.js:309
+#: lib/senders/email.js:321
 msgid "Verify your Firefox Account"
 msgstr "Препотвърждаване на Firefox Account"
 
-#: lib/senders/email.js:331
+#: lib/senders/email.js:343
 msgid "Confirm your email and start to sync!"
 msgstr "Потвърдете своя имейл и започнете синхронизиране!"
 
-#: lib/senders/email.js:377
+#: lib/senders/email.js:389
 msgid "Firefox Account authorization code"
 msgstr "Код за упълномощаване за Firefox Account"
 
-#: lib/senders/email.js:419
+#: lib/senders/email.js:431
 msgid "Confirm new sign-in to Firefox"
 msgstr "Потвърждение на вписване във Firefox"
 
-#: lib/senders/email.js:466
+#: lib/senders/email.js:478
 msgid "Verify email for Firefox Accounts"
 msgstr "Потвърждаване имейл за Firefox Account"
 
-#: lib/senders/email.js:513
+#: lib/senders/email.js:525
 msgid "Reset your Firefox Account password"
 msgstr "Нулиране на парола за Firefox Account"
 
-#: lib/senders/email.js:545
+#: lib/senders/email.js:557
 msgid "Your Firefox Account password has been changed"
 msgstr "Паролата ви за Firefox Account беше сменена"
 
-#: lib/senders/email.js:575
+#: lib/senders/email.js:587
 msgid "Your Firefox Account password has been reset"
 msgstr "Паролата ви за Firefox Account беше нулирана"
 
-#: lib/senders/email.js:601
+#: lib/senders/email.js:613
 msgid "Firefox Account password reset required"
 msgstr "Необходимо е нулиране на паролата за Firefox Account"
 
-#: lib/senders/email.js:658
+#: lib/senders/email.js:670
 msgid "Firefox Account verified"
 msgstr "Потвърден Firefox Account"
 
-#: lib/senders/email.js:689
+#: lib/senders/email.js:701
 msgid "Secondary Firefox Account email added"
 msgstr "Добавен алтернативен ел. адрес към Firefox Account"
 
-#: lib/senders/email.js:721
+#: lib/senders/email.js:733
 msgid "Secondary Firefox Account email removed"
 msgstr "Алтернативен ел. адрес за Firefox Account е премахнат"
 

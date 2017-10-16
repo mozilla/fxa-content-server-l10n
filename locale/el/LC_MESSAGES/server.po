@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-29 16:08+0000\n"
+"POT-Creation-Date: 2017-10-16 09:06+0000\n"
 "PO-Revision-Date: 2017-08-26 08:46+0000\n"
 "Last-Translator: Jim Spentzos <jamesspentzos@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:749
+#: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:761
 msgid "Still there?"
 msgstr "Ακόμη εκεί;"
 
@@ -56,7 +56,7 @@ msgid "Firefox Accounts"
 msgstr "Λογαριασμοί Firefox"
 
 #: lib/senders/templates/new_device_login.html:2 lib/senders/templates/new_device_login.txt:1 lib/senders/templates/verify_login.html:2 lib/senders/templates/verify_login.txt:1
-#: lib/senders/email.js:626
+#: lib/senders/email.js:638
 msgid "New sign-in to Firefox"
 msgstr "Νέα είσοδος στο Firefox"
 
@@ -261,7 +261,7 @@ msgstr "Αν όχι, βοηθήστε μας να εμποδίσουμε του�
 msgid "If no, help us fend off intruders and report it to us."
 msgstr "Αν όχι, βοηθήστε μας να εμποδίσουμε τους εισβολείς και αναφέρετέ το σε εμάς."
 
-#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:746
+#: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:758
 msgid "Hello again."
 msgstr "Γεια σας και πάλι."
 
@@ -347,75 +347,75 @@ msgstr "Επιβεβαιώστε ότι έχετε λάβει αυτό το emai
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
 msgstr "Μόλις γίνει επιβεβαίωση, θα σάς βοηθήσουμε να εγκαταστήσετε και να συνδέσετε το Firefox σε τουλάχιστον μια άλλη συσκευή."
 
-#: lib/senders/email.js:164
+#: lib/senders/email.js:166
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s σε %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:167
+#: lib/senders/email.js:169
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s σε %(uaOS)s"
 
-#: lib/senders/email.js:194
+#: lib/senders/email.js:196
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (εκτίμηση)"
 
-#: lib/senders/email.js:196
+#: lib/senders/email.js:198
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (εκτίμηση)"
 
-#: lib/senders/email.js:198
+#: lib/senders/email.js:200
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (εκτίμηση)"
 
-#: lib/senders/email.js:200
+#: lib/senders/email.js:202
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (εκτίμηση)"
 
-#: lib/senders/email.js:309
+#: lib/senders/email.js:321
 msgid "Verify your Firefox Account"
 msgstr "Επαλήθευση του Λογαριασμού Firefox σας"
 
-#: lib/senders/email.js:331
+#: lib/senders/email.js:343
 msgid "Confirm your email and start to sync!"
 msgstr "Επιβεβαιώστε το email σας και ξεκινήστε το συγχρονισμό!"
 
-#: lib/senders/email.js:377
+#: lib/senders/email.js:389
 msgid "Firefox Account authorization code"
 msgstr "Κωδικός εξουσιοδότησης Λογαριασμού Firefox"
 
-#: lib/senders/email.js:419
+#: lib/senders/email.js:431
 msgid "Confirm new sign-in to Firefox"
 msgstr "Επιβεβαίωση νέας εισόδου στο Firefox"
 
-#: lib/senders/email.js:466
+#: lib/senders/email.js:478
 msgid "Verify email for Firefox Accounts"
 msgstr "Επαλήθευση e-mail για λογαριασμούς Firefox"
 
-#: lib/senders/email.js:513
+#: lib/senders/email.js:525
 msgid "Reset your Firefox Account password"
 msgstr "Επαναφορά του κωδικού πρόσβασης του Λογαριασμού Firefox σας"
 
-#: lib/senders/email.js:545
+#: lib/senders/email.js:557
 msgid "Your Firefox Account password has been changed"
 msgstr "Ο κωδικός πρόσβασης του Λογαριασμού Firefox σας έχει αλλάξει"
 
-#: lib/senders/email.js:575
+#: lib/senders/email.js:587
 msgid "Your Firefox Account password has been reset"
 msgstr "Ο κωδικός πρόσβασης του Λογαριασμού Firefox σας έχει επαναφερθεί"
 
-#: lib/senders/email.js:601
+#: lib/senders/email.js:613
 msgid "Firefox Account password reset required"
 msgstr "Απαιτείται επαναφορά του κωδικού πρόσβασης του Λογαριασμού Firefox"
 
-#: lib/senders/email.js:658
+#: lib/senders/email.js:670
 msgid "Firefox Account verified"
 msgstr "Ο Λογαριασμός Firefox επαληθεύτηκε"
 
-#: lib/senders/email.js:689
+#: lib/senders/email.js:701
 msgid "Secondary Firefox Account email added"
 msgstr "Προστέθηκε δευτερεύον e-mail λογαριασμών Firefox"
 
-#: lib/senders/email.js:721
+#: lib/senders/email.js:733
 msgid "Secondary Firefox Account email removed"
 msgstr "Το δευτερεύον e-mail του λογαριασμού Firefox αφαιρέθηκε"
 
