@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-10-16 10:53+0000\n"
+"PO-Revision-Date: 2017-10-16 10:54+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -870,7 +870,7 @@ msgstr "Proceder"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
-msgstr ""
+msgstr "Tu conto es preste!"
 
 #: app/scripts/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -904,7 +904,7 @@ msgstr "Quando tu remonta tu contrasigno, tu perdera tote le datos de Sync que n
 #: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
 #: app/scripts/templates/index.mustache:5 app/scripts/templates/sign_up.mustache:11
 msgid "Email"
-msgstr ""
+msgstr "E-posta"
 
 #: app/scripts/templates/reset_password.mustache:9
 msgid "Begin reset"
@@ -912,11 +912,11 @@ msgstr "Comenciar remontar"
 
 #: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "Memora tu le contrasigno? Authentica te."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Contos de Firefox"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
