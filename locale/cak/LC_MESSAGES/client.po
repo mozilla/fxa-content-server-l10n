@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-10-17 20:50+0000\n"
+"PO-Revision-Date: 2017-10-17 20:56+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -1052,6 +1052,8 @@ msgid ""
 "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 msgstr ""
+"Man wachib'en ta ri Sync achi'el jun junelïk jikomal wachib'äl – xa xe jun rub'anikil richin nikomonïx ri ayakon. We natikirisaj chik ri ewan atzij chuqa' man eyakon ta ri taq atzij pa xa xe jun "
+"okisaxel, tikirel nisach ri etamab'äl ruximon ri' rik'in ri ojer ewan tzij. Ruma ri' toq k'o ta chi nayäk qa ri Firefox chuqa' nawokisaj ri Sync pa k'ïy taq okisaxel."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1080,7 +1082,7 @@ msgstr "Elesab'äl wachib'äl"
 
 #: app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Gravatar"
-msgstr ""
+msgstr "Gravatar"
 
 #: app/scripts/templates/settings/avatar_change.mustache:4 app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Clear"
@@ -1101,7 +1103,7 @@ msgstr "Tijalwachïx"
 
 #: app/scripts/templates/settings/avatar_gravatar.mustache:2
 msgid "Save"
-msgstr ""
+msgstr "Tiyak"
 
 #: app/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
@@ -1479,7 +1481,7 @@ msgstr "Titikirisäx molojri'ïl"
 #: app/scripts/views/sign_in.js:90
 msgctxt "button text"
 msgid "Sign in"
-msgstr ""
+msgstr "Titikirisäx molojri'ïl"
 
 #~ msgid "Verify password"
 #~ msgstr "Tinik'öx ewan tzij"
