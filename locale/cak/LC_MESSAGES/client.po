@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-10-17 20:31+0000\n"
+"PO-Revision-Date: 2017-10-17 20:50+0000\n"
 "Last-Translator: Juan Esteban Ajsivinac Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -694,20 +694,20 @@ msgstr "Tijikib'äx re rutikirisaxik molojri'ïl re'"
 
 #: app/scripts/templates/confirm.mustache:5 app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email Sent"
-msgstr ""
+msgstr "Xtaq ri Taqoya'l"
 
 #: app/scripts/templates/confirm.mustache:6
 msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Xtaq jun jikib'anïk ximonel&nbsp;chi re %(escapedEmail)s"
 
 #: app/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr ""
+msgstr "Richin nichajïx jeb'ël ri awetamab'al richin Firefox, xqatäq jun jikib'anïk ximonel chawe pa %(email)s"
 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive and not in spam folder? Resend"
-msgstr ""
+msgstr "¿La man ak'ulun ta chuqa' man k'o ta pa seq'tzijol yakwuj? Titaq chik"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -728,7 +728,7 @@ msgstr "Tokisäx jun chik okisaxel"
 
 #: app/scripts/templates/connect_another_device.mustache:2
 msgid "This device is connected"
-msgstr ""
+msgstr "Okinäq re okisaxel re'"
 
 #: app/scripts/templates/connect_another_device.mustache:4 app/scripts/views/ready.js:45
 msgid "Email verified"
@@ -770,7 +770,7 @@ msgstr "¿Achike ruma rajowaxik re re'?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
-msgstr ""
+msgstr "E k'atzinel ri taq kaxlanwey chuqa' ri aj wawe' yakoj etamab'äl."
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
@@ -865,7 +865,7 @@ msgstr "Tiq'at"
 
 #: app/scripts/templates/ready.mustache:4
 msgid "Proceed"
-msgstr ""
+msgstr "Tisamajïx chik el"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
@@ -911,7 +911,7 @@ msgstr "Titikirisäx nitzolïx"
 
 #: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
 msgid "Remember password? Sign in."
-msgstr ""
+msgstr "¿La nanataj ri ewan tzij? Titikirisäx molojri'ïl."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
@@ -951,7 +951,7 @@ msgstr "Tiya' q'ij chi re ri rutikirisaxik molojri'ïl"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr ""
+msgstr "Richin nichajïx ri awetamab'al richin Firefox, xqatäq jun b'itz'ib' richin ya'öl q'ij chawe pan %(email)s."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -967,7 +967,7 @@ msgstr "Titz'uk jun Rub'i' Rutaqoya'l Firefox"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-msgstr ""
+msgstr "¿La nakanoj ri Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Tatikirisaj wawe'</a>"
 
 #: app/scripts/templates/sign_up.mustache:8 app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
@@ -1013,6 +1013,7 @@ msgstr "Titaq"
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"Ri SMS samaj xa xe okel pan oyonib'äl richin U.S. SMS &amp; rik'in jub'a' k'o kajil. Ri ruk'ulunel taqoya'l o SMS k'o chi nuya' q'ij. <a %(escapedLearnMoreAttributes)s>Tetamäx ch'aqa' chik</a>"
 
 #: app/scripts/templates/sms_send.mustache:9 app/scripts/templates/sms_send.mustache:11
 msgid "Maybe later"
@@ -1024,7 +1025,7 @@ msgstr "Tayaka' ri Firefox pa ri k'wayel awoyonib'al chuqa' tatikirisaj molojri'
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr ""
+msgstr "Xtaq ri ruximonel chokoy chi re %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>¿La sachoj ri ajilab'äl?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:5 app/scripts/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1036,13 +1037,15 @@ msgstr "¿La man xapon ta? Titaq chik"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why Sync two (or more!) devices?"
-msgstr ""
+msgstr "¿Achike ruma toq yexim ka'i' (o ch'aqa' chik!) taq okisaxel?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
 "Firefox for desktop will appear."
 msgstr ""
+"Ri Sync nuya' q'ij chawe ye'akomonij pa ch'aqa' chik taq okisaxel ri taq yaketal, natab'äl chuqa' taq ewan tzij ri ye'ayäk pa jun okisaxel rik'in Firefox. Tatikirisaj molojri'ïl pa Firefox pan "
+"awoyonib'al o na'onel kematz'ib' richin nib'eq'alajin pe ronojel ri ayakon pa ri ajch'atal Firefox."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
