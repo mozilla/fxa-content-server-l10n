@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-10-18 11:16+0000\n"
+"PO-Revision-Date: 2017-10-18 15:11+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -1078,16 +1078,16 @@ msgstr "Camera"
 
 #: app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Gravatar"
-msgstr ""
+msgstr "Gravatar"
 
 #: app/scripts/templates/settings/avatar_change.mustache:4 app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Clear"
-msgstr ""
+msgstr "Clarar"
 
 #: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:26 app/scripts/templates/settings/avatar_change.mustache:5
 #: app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:22
 msgid "Done"
-msgstr ""
+msgstr "Facte"
 
 #: app/scripts/templates/settings/avatar_crop.mustache:1
 msgid "Position and rotate your picture as needed"
@@ -1095,11 +1095,11 @@ msgstr ""
 
 #: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:7
 msgid "Change"
-msgstr ""
+msgstr "Cambiar"
 
 #: app/scripts/templates/settings/avatar_gravatar.mustache:2
 msgid "Save"
-msgstr ""
+msgstr "Salvar"
 
 #: app/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
@@ -1107,11 +1107,11 @@ msgstr "Un vice terminate, usa tu nove contrasigno pro authenticar te in tote tu
 
 #: app/scripts/templates/settings/change_password.mustache:4
 msgid "Old password"
-msgstr ""
+msgstr "Vetere contrasigno"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync?"
-msgstr ""
+msgstr "Disconnecter se de Sync?"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
@@ -1140,7 +1140,7 @@ msgstr ""
 #: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:14
 #: app/scripts/templates/settings/clients.mustache:13
 msgid "Disconnect"
-msgstr ""
+msgstr "Disconnecter"
 
 #: app/scripts/templates/settings/client_disconnect.mustache:10
 msgid "Disconnection Successful"
@@ -1152,23 +1152,23 @@ msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:3 app/scripts/templates/partial/show-password.mustache:1
 msgid "Show"
-msgstr ""
+msgstr "Monstrar"
 
 #: app/scripts/templates/settings/clients.mustache:5 app/scripts/templates/settings/clients.mustache:6
 msgid "current device"
-msgstr ""
+msgstr "apparato actual"
 
 #: app/scripts/templates/settings/clients.mustache:7 app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
-msgstr ""
+msgstr "Disconnexion…"
 
 #: app/scripts/templates/settings/clients.mustache:9 app/scripts/templates/settings/clients.mustache:11
 msgid "current session"
-msgstr ""
+msgstr "session actual"
 
 #: app/scripts/templates/settings/clients.mustache:17 app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "Firefox pro iOS"
 
 #: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:20
 #: app/scripts/templates/settings/clients.mustache:23
@@ -1178,11 +1178,11 @@ msgstr ""
 #: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22 app/scripts/templates/settings/clients.mustache:21
 #: app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
-msgstr ""
+msgstr "Discargar"
 
 #: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:22
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Firefox pro Android"
 
 #: app/scripts/templates/settings/clients.mustache:24 app/scripts/templates/settings/clients.mustache:26
 msgid "Missing or duplicate items?"
@@ -1190,11 +1190,11 @@ msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:25 app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20
 msgid "Refresh"
-msgstr ""
+msgstr "Refrescar"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:3
 msgid "Communication preferences"
-msgstr ""
+msgstr "Preferentias de communication"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "Receive the monthly Firefox newsletter."
@@ -1210,11 +1210,11 @@ msgstr ""
 
 #: app/scripts/templates/settings/communication_preferences.mustache:12 app/scripts/templates/settings/communication_preferences.mustache:13
 msgid "Subscribe"
-msgstr ""
+msgstr "Subscriber"
 
 #: app/scripts/templates/settings/delete_account.mustache:1 app/scripts/templates/settings/delete_account.mustache:5
 msgid "Delete account"
-msgstr ""
+msgstr "Deler le conto"
 
 #: app/scripts/templates/settings/delete_account.mustache:2
 msgid "Delete…"
@@ -1318,7 +1318,7 @@ msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
-msgstr ""
+msgstr "Recipe un nove ligamine"
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
@@ -1335,7 +1335,7 @@ msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:6
 msgid "Signin confirmed"
-msgstr ""
+msgstr "Authentication confirmate"
 
 #: app/scripts/templates/connect_another_device.mustache:12 app/scripts/templates/connect_another_device.mustache:16 app/scripts/templates/connect_another_device.mustache:26
 #: app/scripts/templates/sms_send.mustache:4
@@ -1352,7 +1352,7 @@ msgstr ""
 
 #: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
 msgid "Enter your email"
-msgstr ""
+msgstr "Insere tu e-posta"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
@@ -1433,7 +1433,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
-msgstr ""
+msgstr "verificate"
 
 #: app/scripts/templates/settings/emails.mustache:9
 msgid "verification required"
@@ -1445,19 +1445,19 @@ msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:12 app/scripts/templates/settings/emails.mustache:15
 msgid "Remove"
-msgstr ""
+msgstr "Remover"
 
 #: app/scripts/templates/settings/emails.mustache:16
 msgid "Not in inbox or spam folder? Resend?"
-msgstr ""
+msgstr "Non in le cassa de entrata, ni in le plica del spam? Reinviar?"
 
 #: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
-msgstr ""
+msgstr "Adder"
 
 #: app/scripts/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr ""
+msgstr "Desira tu probar Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Comencia ci</a>"
 
 #. submit button
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
@@ -1475,4 +1475,4 @@ msgstr "Authenticar se"
 #: app/scripts/views/sign_in.js:90
 msgctxt "button text"
 msgid "Sign in"
-msgstr ""
+msgstr "Authenticar se"
