@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-10-18 15:26+0000\n"
+"PO-Revision-Date: 2017-10-18 16:01+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:1 lib/senders/templates/verification_reminder_second.html:2 lib/senders/templates/verification_reminder_second.txt:1 lib/senders/email.js:761
 msgid "Still there?"
-msgstr ""
+msgstr "Ancora ci?"
 
 #: lib/senders/templates/_pending.txt:2
 msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
@@ -38,7 +38,7 @@ msgstr ""
 
 #: lib/senders/templates/_pending.txt:5 lib/senders/templates/post_verify.html:4
 msgid "Connect another device"
-msgstr ""
+msgstr "Connecte un altere apparato"
 
 #: lib/senders/templates/_pending.txt:6
 msgid "Sign in to Sync"
@@ -167,7 +167,7 @@ msgstr ""
 
 #: lib/senders/templates/password_reset_required.html:8 lib/senders/templates/password_reset_required.txt:7
 msgid "Best,"
-msgstr ""
+msgstr "Cordialmente,"
 
 #: lib/senders/templates/password_reset_required.html:9 lib/senders/templates/password_reset_required.txt:8
 msgid "The Firefox Accounts team"
@@ -255,7 +255,7 @@ msgstr ""
 
 #: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:758
 msgid "Hello again."
-msgstr ""
+msgstr "Holla de novo."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
@@ -277,7 +277,7 @@ msgstr ""
 
 #: lib/senders/templates/verification_reminder_first.txt:3 lib/senders/templates/verification_reminder_second.txt:3 lib/senders/templates/verify.txt:3
 msgid "Activate now:"
-msgstr ""
+msgstr "Activar subito:"
 
 #: lib/senders/templates/verification_reminder_second.html:3 lib/senders/templates/verification_reminder_second.txt:2
 msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
@@ -401,15 +401,15 @@ msgstr "Conto Firefox verificate"
 
 #: lib/senders/email.js:701
 msgid "Secondary Firefox Account email added"
-msgstr ""
+msgstr "E-posta secundari de conto Firefox addite"
 
 #: lib/senders/email.js:733
 msgid "Secondary Firefox Account email removed"
-msgstr ""
+msgstr "E-posta secundari de conto Firefox removite"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr ""
+msgstr "Pagina non trovate"
 
 #: server/templates/pages/src/404.html:3
 msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
@@ -445,7 +445,7 @@ msgstr ""
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr ""
+msgstr "Le conto Firefox necessita JavaScript."
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:4
 msgid "Privacy Notice"
