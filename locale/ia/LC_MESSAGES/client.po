@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-10-18 10:28+0000\n"
+"PO-Revision-Date: 2017-10-18 11:13+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -812,7 +812,7 @@ msgstr ""
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
-msgstr ""
+msgstr "Servicios nube de Firefox"
 
 #: app/scripts/templates/legal.mustache:2
 msgid "Legal"
@@ -828,7 +828,7 @@ msgstr "Advertentia de confidentialitate"
 
 #: app/scripts/templates/marketing_snippet.mustache:1 app/scripts/templates/marketing_snippet.mustache:5 app/scripts/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
-msgstr ""
+msgstr "Le plen experientia de Sync."
 
 #: app/scripts/templates/marketing_snippet.mustache:2 app/scripts/templates/marketing_snippet.mustache:3 app/scripts/templates/marketing_snippet.mustache:11
 #: app/scripts/templates/marketing_snippet.mustache:15 app/scripts/templates/marketing_snippet.mustache:19
@@ -850,7 +850,7 @@ msgstr "Requesta de permission"
 
 #: app/scripts/templates/permissions.mustache:2 app/scripts/templates/settings/gravatar_permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr ""
+msgstr "%(serviceName)s vole the sequente informationes ex tu conto:"
 
 #: app/scripts/templates/permissions.mustache:3 app/scripts/templates/settings/gravatar_permissions.mustache:4
 msgid "Accept"
@@ -874,7 +874,7 @@ msgstr "Tu conto es preste!"
 
 #: app/scripts/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "Reporta tu un authentication non autorisate?"
 
 #: app/scripts/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
@@ -895,7 +895,7 @@ msgstr "Remontar le conto"
 #: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_up.mustache:2 app/scripts/templates/index.mustache:2
 #: app/scripts/templates/sign_in_password.mustache:2 app/scripts/templates/sign_up_password.mustache:2
 msgid "Continue to %(serviceName)s"
-msgstr ""
+msgstr "Tu continuara a %(serviceName)s"
 
 #: app/scripts/templates/reset_password.mustache:5
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
@@ -920,39 +920,39 @@ msgstr "Contos de Firefox"
 
 #: app/scripts/templates/settings.mustache:2
 msgid "Sign out"
-msgstr ""
+msgstr "Disconnexion"
 
 #: app/scripts/templates/sign_in.mustache:4
 msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-msgstr ""
+msgstr "Cerca tu, tu additivos? <a href=\"/signup\">Authentica te</a> pro un conto Firefox con tu adresse e-posta del conto del vetere additivos."
 
 #: app/scripts/templates/sign_in.mustache:6
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-msgstr ""
+msgstr "Transfere tu datos synchronisate authenticante te in tu conto&nbsp;Firefox."
 
 #: app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:12 app/scripts/templates/sign_in.mustache:9
 msgid "Use a different account"
-msgstr ""
+msgstr "Usa un conto differente"
 
 #: app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_in.mustache:18
 msgid "Create an account"
-msgstr ""
+msgstr "Crea un conto"
 
 #: app/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
-msgstr ""
+msgstr "Gratias pro tu vigilantia"
 
 #: app/scripts/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr ""
+msgstr "Nostre equipa recipeva tu nota. Iste reportos nos adjuta a luctar contra le intrusos."
 
 #: app/scripts/templates/sign_in_unblock.mustache:1 app/scripts/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
-msgstr ""
+msgstr "Autorisa iste authentication"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr ""
+msgstr "Pro un melior protection de tu datos, il ha un codice de autorisation que te attende a %(email)s."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
