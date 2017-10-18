@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-10-16 10:54+0000\n"
+"PO-Revision-Date: 2017-10-18 10:28+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -558,11 +558,11 @@ msgstr "Session web"
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "Mal requesta"
 
 #: app/scripts/templates/500.mustache:1
 msgid "500 Error"
-msgstr ""
+msgstr "Error 500"
 
 #: app/scripts/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
@@ -687,11 +687,11 @@ msgstr ""
 
 #: app/scripts/templates/confirm.mustache:1
 msgid "Confirm your account"
-msgstr ""
+msgstr "Confirma tu conto"
 
 #: app/scripts/templates/confirm.mustache:3
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "Confirma iste authentication"
 
 #: app/scripts/templates/confirm.mustache:5 app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Email Sent"
@@ -793,7 +793,7 @@ msgstr "Authentica te pro continuar"
 #: app/scripts/templates/settings/change_password.mustache:1 app/scripts/templates/settings/delete_account.mustache:4 app/scripts/templates/sign_in_password.mustache:5
 #: app/scripts/templates/sign_up.mustache:12 app/scripts/templates/sign_up_password.mustache:5
 msgid "Password"
-msgstr ""
+msgstr "Contrasigno"
 
 #: app/scripts/templates/force_auth.mustache:5 app/scripts/lib/strings.js:46 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4
 #: app/scripts/templates/sign_in_password.mustache:6
@@ -846,7 +846,7 @@ msgstr "Discarga Firefox pro apparatos mobile."
 
 #: app/scripts/templates/permissions.mustache:1 app/scripts/templates/settings/gravatar_permissions.mustache:1
 msgid "Request for permission"
-msgstr ""
+msgstr "Requesta de permission"
 
 #: app/scripts/templates/permissions.mustache:2 app/scripts/templates/settings/gravatar_permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
@@ -882,11 +882,11 @@ msgstr ""
 
 #: app/scripts/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr ""
+msgstr "Reporto de activitate"
 
 #: app/scripts/templates/report_sign_in.mustache:7 app/scripts/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr ""
+msgstr "Que occurre?"
 
 #: app/scripts/templates/reset_password.mustache:1 app/scripts/templates/reset_password.mustache:4
 msgid "Reset account"
