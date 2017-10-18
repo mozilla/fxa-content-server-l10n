@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-10-18 11:13+0000\n"
+"PO-Revision-Date: 2017-10-18 11:16+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -956,15 +956,15 @@ msgstr "Pro un melior protection de tu datos, il ha un codice de autorisation qu
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "Insere le codice de autorisation"
 
 #: app/scripts/templates/sign_in_unblock.mustache:5 app/scripts/templates/index.mustache:7
 msgid "Continue"
-msgstr ""
+msgstr "Continuar"
 
 #: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4 app/scripts/templates/sign_up_password.mustache:1 app/scripts/templates/sign_up_password.mustache:4
 msgid "Create a Firefox Account"
-msgstr ""
+msgstr "Crear un conto Firefox"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
@@ -988,7 +988,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:21 app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10
 msgid "Create account"
-msgstr ""
+msgstr "Crear un conto"
 
 #: app/scripts/templates/sign_up.mustache:26 app/scripts/templates/sign_up.mustache:25
 msgid "Have an account? Sign in"
@@ -1000,15 +1000,15 @@ msgstr "Invia FIrefox directemente a tu telephono e authentica te pro completar 
 
 #: app/scripts/templates/sms_send.mustache:2 app/scripts/templates/connect_another_device.mustache:2
 msgid "This Firefox is connected"
-msgstr ""
+msgstr "Iste Firefox es connexe"
 
 #: app/scripts/templates/sms_send.mustache:5 app/scripts/templates/sms_send.mustache:7
 msgid "Mobile phone number"
-msgstr ""
+msgstr "Numero de telephono mobile"
 
 #: app/scripts/templates/sms_send.mustache:6 app/scripts/templates/sms_send.mustache:8
 msgid "Send"
-msgstr ""
+msgstr "Inviar"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
@@ -1017,7 +1017,7 @@ msgstr ""
 
 #: app/scripts/templates/sms_send.mustache:9 app/scripts/templates/sms_send.mustache:11
 msgid "Maybe later"
-msgstr ""
+msgstr "Forsan un altere vice"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1066,15 +1066,15 @@ msgstr ""
 
 #: app/scripts/templates/settings/avatar_camera.mustache:1
 msgid "Take picture"
-msgstr ""
+msgstr "Prende un photo"
 
 #: app/scripts/templates/settings/avatar_change.mustache:1
 msgid "Upload"
-msgstr ""
+msgstr "Carga"
 
 #: app/scripts/templates/settings/avatar_change.mustache:2
 msgid "Camera"
-msgstr ""
+msgstr "Camera"
 
 #: app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Gravatar"
