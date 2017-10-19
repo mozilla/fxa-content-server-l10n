@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-10-18 17:33+0000\n"
+"PO-Revision-Date: 2017-10-19 08:09+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -755,7 +755,7 @@ msgstr "შედით Firefox-ში მეორე მოწყობილ�
 
 #: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:20
 msgid "Open settings and select Sign in to Firefox to complete set-up"
-msgstr "გახსენით პარამეტრები და აირჩიეთ \"Firefox ანგარიშზე შესვლა\" გამართვის დასასრულებლად"
+msgstr "გახსენით პარამეტრები და აირჩიეთ „Firefox ანგარიშზე შესვლა“ გამართვის დასასრულებლად"
 
 #: app/scripts/templates/connect_another_device.mustache:15 app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
