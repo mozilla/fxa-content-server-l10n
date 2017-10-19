@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-09-14 10:12+0000\n"
-"Last-Translator: Omshivaprakash H L <omshivaprakash@gmail.com>\n"
+"PO-Revision-Date: 2017-10-19 17:51+0000\n"
+"Last-Translator: Yogi (ಯೋಗಿ) <csyogech@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kn\n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgstr ""
 
 #: app/scripts/views/permissions.js:26
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName)s (ಬೇಕಾಗಿದೆ)"
 
 #: app/scripts/views/permissions.js:32
 msgid "Email address"
@@ -41,7 +41,7 @@ msgstr "ತೋರಿಸುವ ಹೆಸರು"
 
 #: app/scripts/views/permissions.js:41 app/scripts/templates/settings/avatar.mustache:1
 msgid "Account picture"
-msgstr ""
+msgstr "ಖಾತೆಯ ಚಿತ್ರ"
 
 #: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35
 msgid "Welcome back"
@@ -57,7 +57,7 @@ msgstr ""
 
 #: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "ಸೈನ್-ಇನ್ ಖಾತ್ರಿಯಾಗಿದೆ"
 
 #: app/scripts/views/ready.js:46 app/scripts/views/ready.js:51 app/scripts/templates/ready.mustache:3 app/scripts/views/ready.js:56
 msgid "You are now ready to use %(serviceName)s"
@@ -65,11 +65,11 @@ msgstr ""
 
 #: app/scripts/views/ready.js:50 app/scripts/views/ready.js:55
 msgid "Account verified"
-msgstr ""
+msgstr "ಖಾತೆ ದೃಢಪಡಿಸಲಾಗಿದೆ"
 
 #: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177 app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:164
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "ಗೊತ್ತಿಲ್ಲದ ಖಾತೆ. <a href=\"/signup\">ಸೈನ್ ಅಪ್ ಆಗಿ</a>"
 
 #: app/scripts/views/sign_in.js:174 app/scripts/views/sign_in.js:161
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
@@ -93,7 +93,7 @@ msgstr ""
 
 #: app/scripts/views/settings/change_password.js:52 app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
-msgstr ""
+msgstr "ಗುಪ್ತಪದದ ಯಶಸ್ವಿಯಾಗಿ ಬದಲಿಸಲಾಗಿದೆ"
 
 #: app/scripts/views/settings/client_disconnect.js:17
 msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
@@ -109,68 +109,68 @@ msgstr ""
 
 #: app/scripts/views/settings/clients.js:65 app/scripts/views/settings/clients.js:80
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "ಕೊನೆಯದಾಗಿ ಸಕ್ರಿಯವಾಗಿದ್ದು %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/communication_preferences.js:104 app/scripts/views/settings/communication_preferences.js:118
 msgid "Subscribed successfully"
-msgstr ""
+msgstr "ಯಶಸ್ವಿಯಾಗಿ ಚಂದದಾರರಾಗಿದ್ದೀರಿ"
 
 #: app/scripts/views/settings/communication_preferences.js:105 app/scripts/views/settings/communication_preferences.js:119
 msgid "Unsubscribed successfully"
-msgstr ""
+msgstr "ಯಶಸ್ವಿಯಾಗಿ ಚಂದದಾರದಿಂದ ಹೊರಬಂದಿರಿ"
 
 #: app/scripts/views/settings/delete_account.js:45 app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
-msgstr ""
+msgstr "ಯಶಸ್ವಿಯಾಗಿ ಖಾತೆಯನ್ನು ಅಳಿಸಲಾಗಿದೆ"
 
 #: app/scripts/views/settings/display_name.js:66 app/scripts/views/settings/display_name.js:64
 msgid "Display name updated"
-msgstr ""
+msgstr "ಕಾಣಿಸುವ ಹೆಸರನ್ನು ಪರಿಷ್ಕರಿಸಲಾಗಿದೆ"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಸುರಕ್ಷತೆಯ ಕಾರಣಗಳಿಂದ ಬೀಗ ಹಾಕಲಾಗಿದೆ"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:44
 msgid "Reset password"
-msgstr ""
+msgstr "ಗುಪ್ತಪದವನ್ನು ಬದಲಿಸಿ"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:19
 msgid "Open Gmail"
-msgstr ""
+msgstr "ಜಿಮೇಲ್ ತೆರೆಯಿರಿ"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:25
 msgid "Open Hotmail"
-msgstr ""
+msgstr "ಹಾಟ್‍ಮೇಲ್ ತೆರೆಯಿರಿ"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:31
 msgid "Open Yahoo"
-msgstr ""
+msgstr "ಯಾವೂ ತೆರೆಯಿರಿ"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:37
 msgid "Open Outlook"
-msgstr ""
+msgstr "ಔಟ್ಲುಕ್ ತೆರೆಯಿರಿ"
 
 #: app/scripts/views/mixins/open-webmail-mixin.js:43
 msgid "Open Restmail"
-msgstr ""
+msgstr "ರೆಸ್ಟ್‌ಮೇಲ್ ತೆರೆಯಿರಿ"
 
 #: app/scripts/views/mixins/resend-mixin.js:40
 msgid "Email resent"
-msgstr ""
+msgstr "ಮಿಂಚಂಚೆಯನ್ನು ಮರಳಿ ಕಳುಹಿಸಲಾಗಿದೆ"
 
 #: app/scripts/models/reliers/sync.js:51 app/scripts/models/reliers/sync.js:59
 msgid "Firefox Sync"
-msgstr ""
+msgstr "ಫೈರ್ಫಾಕ್ಸ್ ಸಿಂಕ್"
 
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:35
 msgid "Unexpected error"
-msgstr ""
+msgstr "ಅನಪೇಕ್ಷಿತ ದೋಷ"
 
 #: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:5
 msgid "The link you clicked to verify your email is expired."
@@ -186,23 +186,23 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:35 app/scripts/lib/oauth-errors.js:50
 msgid "Invalid token"
-msgstr ""
+msgstr "ಅಮಾನ್ಯವಾದ ಟೋಕನ್"
 
 #: app/scripts/lib/auth-errors.js:39
 msgid "Invalid timestamp in request signature"
-msgstr ""
+msgstr "ಕೋರಿಕೆ ಸಹಿಯಲ್ಲಿ ಅಮಾನ್ಯವಾದ ಸಮಯಗುರುತು"
 
 #: app/scripts/lib/auth-errors.js:43
 msgid "Invalid nonce in request signature"
-msgstr ""
+msgstr "ಕೋರಿಕೆ ಸಹಿಯಲ್ಲಿ ಅಮಾನ್ಯವಾದ nonce"
 
 #: app/scripts/lib/auth-errors.js:47 app/scripts/lib/auth-errors.js:159 app/scripts/lib/auth-errors.js:163
 msgid "Account already exists"
-msgstr ""
+msgstr "ಖಾತೆಯು ಈಗಾಗಲೆ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ"
 
 #: app/scripts/lib/auth-errors.js:51
 msgid "Unknown account"
-msgstr ""
+msgstr "ಗೊತ್ತಿಲ್ಲದ ಖಾತೆ"
 
 #: app/scripts/lib/auth-errors.js:55
 msgid "Incorrect email case"
@@ -210,15 +210,15 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:59
 msgid "Incorrect password"
-msgstr ""
+msgstr "ತಪ್ಪಾದ ಪ್ರವೇಶಪದ"
 
 #: app/scripts/lib/auth-errors.js:63
 msgid "Unverified account"
-msgstr ""
+msgstr "ದೃಢಪಡಿಸದಿರುವ ಖಾತೆ"
 
 #: app/scripts/lib/auth-errors.js:67
 msgid "Invalid verification code"
-msgstr ""
+msgstr "ಧೃಡಪಡಿಸುವ ಕೋಡ್ ಅಮಾನ್ಯವಾಗಿದೆ"
 
 #: app/scripts/lib/auth-errors.js:71
 msgid "Invalid JSON in request body"
@@ -523,9 +523,7 @@ msgid "SMS not sent, please try again"
 msgstr ""
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
