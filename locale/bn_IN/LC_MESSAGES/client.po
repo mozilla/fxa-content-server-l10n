@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2016-11-08 05:49+0000\n"
+"PO-Revision-Date: 2017-10-19 18:44+0000\n"
 "Last-Translator: Ayan Choudhury <ping2ayan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_IN\n"
@@ -54,7 +54,7 @@ msgstr "Firefox Sync কিছুক্ষণের জন্য বন্ধ �
 
 #: app/scripts/views/ready.js:40 app/scripts/views/ready.js:41
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "আপনার অন্য Firefox ডিভাইসে নতুন পাসওয়ার্ড প্রবেশ করিয়ে সেট আপ সম্পূর্ণ করুন।"
 
 #: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50
 msgid "Sign-in confirmed"
@@ -74,7 +74,7 @@ msgstr "অপরিচিত অ্যাকাউন্ট। <a href=\"/signu
 
 #: app/scripts/views/sign_in.js:174 app/scripts/views/sign_in.js:161
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-msgstr ""
+msgstr "অজানা Firefox অ্যাকাউন্ট। আপনার পূর্ববর্তী অ্যাড-অন অ্যাকাউন্টের ইমেইল ঠিকানা ব্যবহার করে <a href=\"/signup\">সাইন আপ</a> করুন আপনার অ্যাড-অন ডাটা অ্যাক্সেস করার জন্য।"
 
 #: app/scripts/views/sign_up.js:61 app/scripts/views/sign_up.js:55
 msgid "Account no longer exists. Recreate it?"
@@ -86,7 +86,7 @@ msgstr "অ্যাকাউন্ট ইতিমধ্যেই আছে। 
 
 #: app/scripts/views/sms_sent.js:24
 msgid "App link resent to %(phoneNumber)s"
-msgstr ""
+msgstr "অ্যাপের লিঙ্ক পুনরায় পাঠানো হয়েছে %(phoneNumber)s এ"
 
 #: app/scripts/views/settings/avatar_gravatar.js:93
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
@@ -106,11 +106,11 @@ msgstr "আমরা এটা শোনাতে দুঃখিত। যদ�
 
 #: app/scripts/views/settings/clients.js:63 app/scripts/views/settings/clients.js:75
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "ওয়েব সেশন, %(userAgent)s"
 
 #: app/scripts/views/settings/clients.js:65 app/scripts/views/settings/clients.js:80
 msgid "%(translatedTimeAgo)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s"
@@ -255,27 +255,27 @@ msgstr "অবৈধ অথোরাইজেশন কোড"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr ""
+msgstr "অবৈধ ফোন নম্বর"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "এই দেশে পাঠানো যাবেনা"
 
 #: app/scripts/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "এই নম্বরে ম্যাসেজ করা যাবেনা"
 
 #: app/scripts/lib/auth-errors.js:138
 msgid "Your email was just returned"
-msgstr ""
+msgstr "আপনার ইমেইল এইমাত্র ফেরত পাঠানো হয়েছে"
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "আপনার ইমেইল এইমাত্র ফেরত পাঠানো হয়েছে। ইমেইল ভুল টাইপ করেছেন?"
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "ইমেইল ডেলিভার করতে ব্যর্থ"
 
 #: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327 app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
 msgid "Server busy, try again soon"
@@ -292,7 +292,7 @@ msgstr "সিস্টেম অনুপলব্ধ, কিছুক্ষণ
 
 #: app/scripts/lib/auth-errors.js:162 app/scripts/lib/auth-errors.js:196
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "লগইনের চেষ্টা বাতিল করা হয়েছে"
 
 #: app/scripts/lib/auth-errors.js:166 app/scripts/lib/auth-errors.js:200
 msgid "Session expired. Sign in to continue."
@@ -417,7 +417,7 @@ msgstr "লিংক ক্ষতিগ্রস্ত"
 
 #: app/scripts/lib/auth-errors.js:374 app/scripts/lib/auth-errors.js:411
 msgid "Phone number required"
-msgstr ""
+msgstr "ফোন নম্বর প্রয়োজন"
 
 #: app/scripts/lib/config-loader.js:87
 msgid "Missing configuration"
@@ -433,7 +433,7 @@ msgstr "আপনি কি <span tabindex=\"1\"> %(escapedDomain)s </span> এ�
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
-msgstr ""
+msgstr "অনুগ্রহ করে আবার পরে চেষ্টা করুন"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -501,35 +501,31 @@ msgstr "ইমেজ প্রসেসিং ত্রুটি"
 
 #: app/scripts/lib/require-on-demand.js:39
 msgid "Resources failed to load"
-msgstr ""
+msgstr "রিসোর্স লোড হতে ব্যর্থ"
 
 #: app/scripts/lib/require-on-demand.js:43
 msgid "Unexpected resource error"
-msgstr ""
+msgstr "অপ্রত্যাশিত রিসোর্স ত্রুটি"
 
 #: app/scripts/lib/require-on-demand.js:47
 msgid "Script error"
-msgstr ""
+msgstr "স্ক্রিপ্ট ত্রুটি"
 
 #: app/scripts/lib/sms-errors.js:23
 msgid "SMS sent"
-msgstr ""
+msgstr "SMS পাঠানো হয়েছে"
 
 #: app/scripts/lib/sms-errors.js:55
 msgid "Your number has been blocked"
-msgstr ""
+msgstr "আপনার নম্বর নিষিদ্ধ করা হয়েছে"
 
 #: app/scripts/lib/sms-errors.js:79
 msgid "SMS not sent, please try again"
-msgstr ""
+msgstr "SMS পাঠানো হয়নি, অনুগ্রহ করে আবার চেষ্টা করুন"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"এগিয়ে যাওয়ার মাধ্যমে আপনি সম্মত হন <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)।"
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "এগিয়ে যাওয়ার মাধ্যমে আপনি সম্মত হন <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)।"
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -557,7 +553,7 @@ msgstr "অতিরিক্ত নিরাপত্তার জন্য, �
 
 #: app/scripts/lib/strings.js:43 app/scripts/views/settings/clients.js:77
 msgid "Web Session"
-msgstr ""
+msgstr "ওয়েব সেশন"
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
@@ -585,7 +581,7 @@ msgstr "আরো জানুন।"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(email)s created"
-msgstr ""
+msgstr "%(email)s তৈরি করা হয়েছে"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23 app/scripts/templates/sign_up.mustache:22
 msgid "Choose what to sync"
@@ -711,7 +707,7 @@ msgstr "আপনার Firefox তথ্য রক্ষা করার জন
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive and not in spam folder? Resend"
-msgstr ""
+msgstr "আসেনি এবং স্প্যাম ফোল্ডারে নেই? আবার পাঠান"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -728,15 +724,15 @@ msgstr "পাসওয়ার্ড মনে আছে? প্রবেশ �
 
 #: app/scripts/templates/connect_another_device.mustache:1
 msgid "Connect another device"
-msgstr ""
+msgstr "অন্য ডিভাইস সংযোগ করুন"
 
 #: app/scripts/templates/connect_another_device.mustache:2
 msgid "This device is connected"
-msgstr ""
+msgstr "এই ডিভাইসটি সংযুক্ত"
 
 #: app/scripts/templates/connect_another_device.mustache:4 app/scripts/views/ready.js:45
 msgid "Email verified"
-msgstr ""
+msgstr "ইমেইল যাচাই হয়েছে"
 
 #: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:3
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/sms_sent.mustache:5
@@ -811,8 +807,7 @@ msgstr "পাসওয়ার্ড ভুলে গেছেন?"
 #: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:18 app/scripts/templates/force_auth.mustache:6
 #: app/scripts/templates/index.mustache:6 app/scripts/templates/sign_up.mustache:17 app/scripts/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr ""
-"এগিয়ে যেতে হলে, আপনাকে সম্মত হতে হবে <a id=\"fxa-tos\" href=\"/legal/terms\">Firefox Cloud service এর শর্তাবলী</a> এবং <a id=\"fxa-pp\" href=\"/legal/privacy\">গোপনীয়তা</a> সম্পর্কিত তথ্যাদির সঙ্গে।"
+msgstr "এগিয়ে যেতে হলে, আপনাকে সম্মত হতে হবে <a id=\"fxa-tos\" href=\"/legal/terms\">Firefox Cloud service এর শর্তাবলী</a> এবং <a id=\"fxa-pp\" href=\"/legal/privacy\">গোপনীয়তা</a> সম্পর্কিত তথ্যাদির সঙ্গে।"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -1586,7 +1581,8 @@ msgstr ""
 #~ msgid ""
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
-#~ msgstr "দয়া করে আপনার ব্রাউজারের কুকিজগুলো সক্রিয় করুন যা Firefox অ্যাকাউন্টের প্রয়োজন। কুকিজ হল ছোটো তথ্যের টুকরো যা আপনার ব্রাউজারে সংরক্ষিত থাকে যা আপনাকে সেশনের মধ্যে মনে রাখার কার্যকারিতা প্রদান করে।"
+#~ msgstr ""
+#~ "দয়া করে আপনার ব্রাউজারের কুকিজগুলো সক্রিয় করুন যা Firefox অ্যাকাউন্টের প্রয়োজন। কুকিজ হল ছোটো তথ্যের টুকরো যা আপনার ব্রাউজারে সংরক্ষিত থাকে যা আপনাকে সেশনের মধ্যে মনে রাখার কার্যকারিতা প্রদান করে।"
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox খুবই শীঘ্রই আসছে iOS-এ!"
