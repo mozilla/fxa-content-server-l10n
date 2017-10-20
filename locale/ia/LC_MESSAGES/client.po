@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-10-20 11:50+0000\n"
+"PO-Revision-Date: 2017-10-20 12:11+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -85,11 +85,11 @@ msgstr "Le conto ja existe. <a href=\"/signin\">Authentica te</a>"
 
 #: app/scripts/views/sms_sent.js:24
 msgid "App link resent to %(phoneNumber)s"
-msgstr ""
+msgstr "Ligamine de discargamento reinviate a %(phoneNumber)s"
 
 #: app/scripts/views/settings/avatar_gravatar.js:93
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr ""
+msgstr "Per le cortesia de <a href=\"https://www.gravatar.com\">Gravatar</a>"
 
 #: app/scripts/views/settings/change_password.js:52 app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
@@ -115,7 +115,7 @@ msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:68
 msgid "Last active %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Ultime activitate: %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/communication_preferences.js:104 app/scripts/views/settings/communication_preferences.js:118
 msgid "Subscribed successfully"
@@ -386,23 +386,23 @@ msgstr "Ce conto non existe plus."
 
 #: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:347
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "Proprietate invalide in jeton de reprisa: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:351
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "Proprietate mancante in jeton de reprisa: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:355
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "Attributo datos invalide: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:322 app/scripts/lib/auth-errors.js:359
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "Attributo datos mancante: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:335 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/lib/auth-errors.js:372
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "Ille ligamine de confirmation era ja usate, e pote ser usate solo un vice."
 
 #: app/scripts/lib/auth-errors.js:339 app/scripts/lib/auth-errors.js:376
 msgid "This is a required field"
@@ -434,7 +434,7 @@ msgstr "Intende tu <span tabindex=\"1\">%(escapedDomain)s</span>?"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
-msgstr ""
+msgstr "Per favor retenta plus tarde"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -462,7 +462,7 @@ msgstr "Codice expirate"
 
 #: app/scripts/lib/oauth-errors.js:54 app/scripts/lib/oauth-errors.js:76
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Parametro OAuth invalide: %(param)s"
 
 #: app/scripts/lib/oauth-errors.js:62 app/scripts/lib/profile-errors.js:19
 msgid "Unauthorized"
@@ -474,7 +474,7 @@ msgstr "Non consentite"
 
 #: app/scripts/lib/oauth-errors.js:88
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "Alco falleva. Per favor claude iste scheda e retenta."
 
 #: app/scripts/lib/oauth-errors.js:104
 msgid "no message"
@@ -482,7 +482,7 @@ msgstr "sin messages"
 
 #: app/scripts/lib/oauth-errors.js:108
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Parametro OAuth mancante: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:23
 msgid "Invalid Token"
@@ -490,27 +490,27 @@ msgstr "Token non valide"
 
 #: app/scripts/lib/profile-errors.js:27
 msgid "Invalid parameter in request body: %(param)s"
-msgstr ""
+msgstr "Parametro invalide in le corpore del requesta: %(param)s"
 
 #: app/scripts/lib/profile-errors.js:31
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "Providitor de imagine non gerite"
 
 #: app/scripts/lib/profile-errors.js:35
 msgid "Image processing error"
-msgstr ""
+msgstr "Error de processo imagine"
 
 #: app/scripts/lib/require-on-demand.js:39
 msgid "Resources failed to load"
-msgstr ""
+msgstr "Cargamento de ressource fallite"
 
 #: app/scripts/lib/require-on-demand.js:43
 msgid "Unexpected resource error"
-msgstr ""
+msgstr "Error de ressource inattendite"
 
 #: app/scripts/lib/require-on-demand.js:47
 msgid "Script error"
-msgstr ""
+msgstr "Error de script"
 
 #: app/scripts/lib/sms-errors.js:23
 msgid "SMS sent"
