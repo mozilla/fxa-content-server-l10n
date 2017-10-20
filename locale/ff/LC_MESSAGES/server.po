@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-16 09:06+0000\n"
+"POT-Creation-Date: 2017-10-20 16:08+0000\n"
 "PO-Revision-Date: 2017-01-12 10:09+0000\n"
 "Last-Translator: ibrahima.sarr <ibrahima.sarr@pulaagu.com>\n"
 "Language-Team: FULAH LOCALIZATION\n"
@@ -308,7 +308,7 @@ msgstr "Teeŋtin ceŋagol"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "So aɗa tuumi won etotooɗo naatde e konte maa, <a %(passwordChangeLinkAttributes)s>tiiɗno waylu finnde maa</a>."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:478
 msgid "Verify secondary email"
 msgstr ""
 
@@ -379,10 +379,6 @@ msgstr "Kod jamirgol Konte Firefox"
 #: lib/senders/email.js:431
 msgid "Confirm new sign-in to Firefox"
 msgstr "Teeŋtin ceŋagol kesol e Firefox"
-
-#: lib/senders/email.js:478
-msgid "Verify email for Firefox Accounts"
-msgstr ""
 
 #: lib/senders/email.js:525
 msgid "Reset your Firefox Account password"

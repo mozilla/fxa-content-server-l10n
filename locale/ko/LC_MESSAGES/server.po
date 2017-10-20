@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-16 09:06+0000\n"
+"POT-Creation-Date: 2017-10-20 16:08+0000\n"
 "PO-Revision-Date: 2017-10-04 23:40+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -308,7 +308,7 @@ msgstr "로그인 확인"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "만약 누군가가 당신의 계정에 접근 시도를 했다고 의심이 된다면, <a %(passwordChangeLinkAttributes)s>비밀번호를 변경해주세요</a>."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:478
 msgid "Verify secondary email"
 msgstr "보조 이메일 인증"
 
@@ -379,10 +379,6 @@ msgstr "Firefox 계정 인증 코드"
 #: lib/senders/email.js:431
 msgid "Confirm new sign-in to Firefox"
 msgstr "Firefox 새로운 로그인 확인"
-
-#: lib/senders/email.js:478
-msgid "Verify email for Firefox Accounts"
-msgstr "Firefox 계정을 위한 이메일 확인"
 
 #: lib/senders/email.js:525
 msgid "Reset your Firefox Account password"
@@ -463,6 +459,9 @@ msgstr "Firefox 클라우드 서비스"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "서비스 약관"
+
+#~ msgid "Verify email for Firefox Accounts"
+#~ msgstr "Firefox 계정을 위한 이메일 확인"
 
 #~ msgid ""
 #~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-16 09:06+0000\n"
+"POT-Creation-Date: 2017-10-20 16:08+0000\n"
 "PO-Revision-Date: 2017-08-22 16:50+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -311,7 +311,7 @@ msgstr "Ripohoni hyrjen"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Nëse dyshoni se dikush po rreket të arrijë të hyjë në llogarinë tuaj, <a %(passwordChangeLinkAttributes)s>ju lutemi, ndërroni fjalëkalimin tuaj</a>."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:478
 msgid "Verify secondary email"
 msgstr "Verifikoni email-in dytësor"
 
@@ -382,10 +382,6 @@ msgstr "Kod autorizimi Llogarie Firefox-i"
 #: lib/senders/email.js:431
 msgid "Confirm new sign-in to Firefox"
 msgstr "Ripohoni hyrjen e re te Firefox-i"
-
-#: lib/senders/email.js:478
-msgid "Verify email for Firefox Accounts"
-msgstr "Verifikoni email-in për Llogari Firefox"
 
 #: lib/senders/email.js:525
 msgid "Reset your Firefox Account password"
@@ -466,6 +462,9 @@ msgstr "Shërbime reje nga Firefox-i"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Kushte Shërbimi"
+
+#~ msgid "Verify email for Firefox Accounts"
+#~ msgstr "Verifikoni email-in për Llogari Firefox"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Siç u kërkua, ja ku është një lidhje për të instaluar Firefox-in në pajisjen tuaj celulare: %(link)s"

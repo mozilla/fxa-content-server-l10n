@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-16 09:06+0000\n"
+"POT-Creation-Date: 2017-10-20 16:08+0000\n"
 "PO-Revision-Date: 2017-04-28 22:42+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -312,7 +312,7 @@ msgstr "Confirmă autentificarea"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Dacă suspectezi că cineva încearcă să obțină acces la contul tău, <a %(passwordChangeLinkAttributes)s>te rugăm să îți schimbi parola</a>."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:478
 msgid "Verify secondary email"
 msgstr "Verifică e-mailul secundar"
 
@@ -383,10 +383,6 @@ msgstr "Cod de autorizare pentru contul Firefox"
 #: lib/senders/email.js:431
 msgid "Confirm new sign-in to Firefox"
 msgstr "Confirmă autentificarea nouă în Firefox"
-
-#: lib/senders/email.js:478
-msgid "Verify email for Firefox Accounts"
-msgstr "Verifică e-mailul pentru Conturi Firefox"
 
 #: lib/senders/email.js:525
 msgid "Reset your Firefox Account password"
@@ -467,6 +463,9 @@ msgstr "Servicii cloud Firefox"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Termeni de utilizare a serviciului"
+
+#~ msgid "Verify email for Firefox Accounts"
+#~ msgstr "Verifică e-mailul pentru Conturi Firefox"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Așa cum ai cerut, aici se află un link pentru a instala Firefox pe dispozitivul mobil: %(link)s"

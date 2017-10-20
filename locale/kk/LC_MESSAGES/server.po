@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fxa-server\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-16 09:06+0000\n"
+"POT-Creation-Date: 2017-10-20 16:08+0000\n"
 "PO-Revision-Date: 2017-08-27 05:27+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
@@ -310,7 +310,7 @@ msgstr "Кіруді растау"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Егер сіздің тіркелгіңізге біреу қолың жеткізгісі келіп жүр деген күмәніңіз бар болса, <a %(passwordChangeLinkAttributes)s>пароліңізді өзгертіңіз</a>."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:478
 msgid "Verify secondary email"
 msgstr "Екіншілік эл. поштаны растау"
 
@@ -381,10 +381,6 @@ msgstr "Firefox тіркелгісі авторизация коды"
 #: lib/senders/email.js:431
 msgid "Confirm new sign-in to Firefox"
 msgstr "Firefox-қа жаңа кіруді растаңыз"
-
-#: lib/senders/email.js:478
-msgid "Verify email for Firefox Accounts"
-msgstr "Firefox тіркелгілері үшін эл. поштаны растаңыз"
 
 #: lib/senders/email.js:525
 msgid "Reset your Firefox Account password"
@@ -465,6 +461,9 @@ msgstr "Firefox бұлттық қызметтері"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Қолдану шарттары"
+
+#~ msgid "Verify email for Firefox Accounts"
+#~ msgstr "Firefox тіркелгілері үшін эл. поштаны растаңыз"
 
 #~ msgid ""
 #~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."

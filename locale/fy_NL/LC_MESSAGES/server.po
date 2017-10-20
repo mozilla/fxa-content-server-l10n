@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-16 09:06+0000\n"
+"POT-Creation-Date: 2017-10-20 16:08+0000\n"
 "PO-Revision-Date: 2017-08-28 11:43+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -313,7 +313,7 @@ msgstr "Oanmelding befêstigje"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "As jo tinke dat ien tagong ta jo account probearret te krijen, <a %(passwordChangeLinkAttributes)s>wizigje dan jo wachtwurd</a>."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:478
 msgid "Verify secondary email"
 msgstr "Sekundêr e-mailadres ferifiearje"
 
@@ -384,10 +384,6 @@ msgstr "Firefox Account-autorisaasjekoade"
 #: lib/senders/email.js:431
 msgid "Confirm new sign-in to Firefox"
 msgstr "Befêstigje nije oanmelding by Firefox"
-
-#: lib/senders/email.js:478
-msgid "Verify email for Firefox Accounts"
-msgstr "E-mailadres foar Firefox Accounts ferifiearje"
 
 #: lib/senders/email.js:525
 msgid "Reset your Firefox Account password"
@@ -468,6 +464,9 @@ msgstr "Firefox-cloudtsjinsten"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Servicebetingsten"
+
+#~ msgid "Verify email for Firefox Accounts"
+#~ msgstr "E-mailadres foar Firefox Accounts ferifiearje"
 
 #~ msgid ""
 #~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."

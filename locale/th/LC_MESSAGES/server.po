@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-16 09:06+0000\n"
+"POT-Creation-Date: 2017-10-20 16:08+0000\n"
 "PO-Revision-Date: 2017-10-01 10:39+0000\n"
 "Last-Translator: nuttapong2539 <nuttapong2539@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -299,7 +299,7 @@ msgstr "ยืนยันการลงชื่อเข้า"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "ถ้าคุณสงสัยว่ามีใครพยายามเข้าถึงบัญชีของคุณ  <a %(passwordChangeLinkAttributes)s>โปรดเปลี่ยนรหัสผ่านของคุณ</a>"
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:478
 msgid "Verify secondary email"
 msgstr "ยืนยันอีเมลสำรอง"
 
@@ -370,10 +370,6 @@ msgstr "รหัสอนุญาตของบัญชี Firefox"
 #: lib/senders/email.js:431
 msgid "Confirm new sign-in to Firefox"
 msgstr "ยืนยันการลงชื่อเข้า Firefox"
-
-#: lib/senders/email.js:478
-msgid "Verify email for Firefox Accounts"
-msgstr "ยืนยันความถูกต้อง Firefox Accounts ของคุณ"
 
 #: lib/senders/email.js:525
 msgid "Reset your Firefox Account password"
@@ -454,6 +450,9 @@ msgstr "บริการกลุ่มเมฆ Firefox"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "เงื่อนไขการให้บริการ"
+
+#~ msgid "Verify email for Firefox Accounts"
+#~ msgstr "ยืนยันความถูกต้อง Firefox Accounts ของคุณ"
 
 #~ msgid ""
 #~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
