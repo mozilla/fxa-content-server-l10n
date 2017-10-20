@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-10-18 15:56+0000\n"
+"PO-Revision-Date: 2017-10-20 11:50+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -338,15 +338,15 @@ msgstr "Il es necessari un adresse de e-posta valide"
 
 #: app/scripts/lib/auth-errors.js:213 app/scripts/lib/auth-errors.js:247
 msgid "A usable image was not found"
-msgstr ""
+msgstr "Imagine utile non trovate"
 
 #: app/scripts/lib/auth-errors.js:217 app/scripts/lib/auth-errors.js:251
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "Impossibile initialisar le camera"
 
 #: app/scripts/lib/auth-errors.js:221 app/scripts/lib/auth-errors.js:255
 msgid "Valid URL required"
-msgstr ""
+msgstr "Il necessita URL valide"
 
 #: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:270
 msgid "Your verification email was just returned. Mistyped email?"
@@ -362,11 +362,11 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:271 app/scripts/templates/complete_sign_up.mustache:9 app/scripts/lib/auth-errors.js:305
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Ligamine de verification damnificate"
 
 #: app/scripts/lib/auth-errors.js:279 app/scripts/lib/auth-errors.js:313
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "Le dimensiones del imagine debe ser al minus de 100x100px"
 
 #: app/scripts/lib/auth-errors.js:283 app/scripts/lib/auth-errors.js:317
 msgid "Signup is coming soon to Firefox for iOS"
@@ -374,11 +374,11 @@ msgstr ""
 
 #: app/scripts/lib/auth-errors.js:294 app/scripts/lib/auth-errors.js:328
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "Tu debe inserer tu etate pro authenticar te"
 
 #: app/scripts/lib/auth-errors.js:298
 msgid "No Gravatar found"
-msgstr ""
+msgstr "Nulle Gravatar trovate"
 
 #: app/scripts/lib/auth-errors.js:306 app/scripts/lib/auth-errors.js:343
 msgid "Account no longer exists."
