@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-16 09:06+0000\n"
+"POT-Creation-Date: 2017-10-20 16:08+0000\n"
 "PO-Revision-Date: 2017-09-01 22:07+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
@@ -307,7 +307,7 @@ msgstr "Potwierdź logowanie"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Jeśli istnieją podejrzenia, że ktoś próbuje uzyskać dostęp do konta, to <a %(passwordChangeLinkAttributes)s>prosimy zmienić hasło</a>."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:478
 msgid "Verify secondary email"
 msgstr "Zweryfikuj drugi adres e-mail"
 
@@ -378,10 +378,6 @@ msgstr "Kod upoważnienia konta Firefoksa"
 #: lib/senders/email.js:431
 msgid "Confirm new sign-in to Firefox"
 msgstr "Potwierdź nowe logowanie do Firefoksa"
-
-#: lib/senders/email.js:478
-msgid "Verify email for Firefox Accounts"
-msgstr "Zweryfikuj adres e-mail dla konta Firefoksa"
 
 #: lib/senders/email.js:525
 msgid "Reset your Firefox Account password"
@@ -462,6 +458,9 @@ msgstr "Usługi Firefox cloud"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Regulamin usługi"
+
+#~ msgid "Verify email for Firefox Accounts"
+#~ msgstr "Zweryfikuj adres e-mail dla konta Firefoksa"
 
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "Pomyślnie usunięto drugi adres e-mail %(secondaryEmail)s z konta Firefoksa. Powiadomienia bezpieczeństwa i potwierdzenia logowania nie będą już wysyłane na ten adres."

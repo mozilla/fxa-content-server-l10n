@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-16 09:06+0000\n"
+"POT-Creation-Date: 2017-10-20 16:08+0000\n"
 "PO-Revision-Date: 2017-10-16 13:50+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,16 +15,11 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1426858693.0\n"
 
-#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:186 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
-#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23
-msgid "Account verified successfully"
-msgstr "Сметката е потвърдена успешно"
-
-#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:39 app/scripts/views/ready.js:40
+#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:40
 msgid "Password reset"
 msgstr "Паролата е анулирана"
 
-#: app/scripts/views/confirm_reset_password.js:188 app/scripts/views/confirm_reset_password.js:180
+#: app/scripts/views/confirm_reset_password.js:180
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Паролата е нулирана успешно. Впишете се, за да продължите."
 
@@ -44,55 +39,51 @@ msgstr "Наименование"
 msgid "Account picture"
 msgstr "Профилна снимка"
 
-#: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35
+#: app/scripts/views/ready.js:35
 msgid "Welcome back"
 msgstr "Добре дошли отново"
 
-#: app/scripts/views/ready.js:35 app/scripts/views/ready.js:36
+#: app/scripts/views/ready.js:36
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync ще продължи веднага"
 
-#: app/scripts/views/ready.js:40 app/scripts/views/ready.js:41
+#: app/scripts/views/ready.js:41
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Завършете настройката като въведете новата парола на друго устройство с Firefox."
 
-#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:45 app/scripts/templates/connect_another_device.mustache:4
+msgid "Email verified"
+msgstr "Имейлът е потвърден"
+
+#: app/scripts/views/ready.js:50
 msgid "Sign-in confirmed"
 msgstr "Вписването е потвърдено"
 
-#: app/scripts/views/ready.js:46 app/scripts/views/ready.js:51 app/scripts/templates/ready.mustache:3 app/scripts/views/ready.js:56
+#: app/scripts/views/ready.js:51 app/scripts/views/ready.js:56 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Вече можете да използвате %(serviceName)s"
 
-#: app/scripts/views/ready.js:50 app/scripts/views/ready.js:55
+#: app/scripts/views/ready.js:55
 msgid "Account verified"
 msgstr "Сметката е потвърдена"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177 app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:164
+#: app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:163
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Непозната сметка. <a href=\"/signup\">Регистриране</a>"
 
-#: app/scripts/views/sign_in.js:174 app/scripts/views/sign_in.js:161
+#: app/scripts/views/sign_in.js:160
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "Непознат Firefox Account. <a href=\"/signup\">Впишете се</a> с електронния си адрес от стария профил в Добавки, за да получите достъп до данните си в Добавки."
 
-#: app/scripts/views/sign_up.js:61 app/scripts/views/sign_up.js:55
+#: app/scripts/views/sign_up.js:54
 msgid "Account no longer exists. Recreate it?"
 msgstr "Сметката вече не съществува. Създаване наново?"
 
-#: app/scripts/views/sign_up.js:374 app/scripts/views/sign_up.js:315
+#: app/scripts/views/sign_up.js:314
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "Сметката съществува. <a href=\"/signin\">Вписване</a>"
 
-#: app/scripts/views/sms_sent.js:24
-msgid "App link resent to %(phoneNumber)s"
-msgstr "Препратката отново е изпратена до %(phoneNumber)s"
-
-#: app/scripts/views/settings/avatar_gravatar.js:93
-msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr "Благодарение на <a href=\"https://www.gravatar.com\">Gravatar</a>"
-
-#: app/scripts/views/settings/change_password.js:52 app/scripts/views/settings/change_password.js:50
+#: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
 msgstr "Паролата е сменена успешно"
 
@@ -104,33 +95,57 @@ msgstr "Много съжаляваме. Сменете паролата на с
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "Много съжаляваме. Ако на това устройство наистина не вярвате по-добре сменете паролата на своя Firefox Account и всички запазени пароли във Firefox."
 
-#: app/scripts/views/settings/clients.js:63 app/scripts/views/settings/clients.js:75
+#: app/scripts/views/settings/clients.js:75
 msgid "Web Session, %(userAgent)s"
 msgstr "Уебсесия, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:65 app/scripts/views/settings/clients.js:80
+#: app/scripts/views/settings/clients.js:77
+msgid "Web Session"
+msgstr "Уеб сесия"
+
+#: app/scripts/views/settings/clients.js:80
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:68
-msgid "Last active %(translatedTimeAgo)s"
-msgstr "Последна активност %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:86
+msgid "first sync %(translatedTimeAgo)s"
+msgstr "първа синхронизация %(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/communication_preferences.js:104 app/scripts/views/settings/communication_preferences.js:118
+#: app/scripts/views/settings/clients.js:89
+msgid "last sync %(translatedTimeAgo)s"
+msgstr "последна синхронизация %(translatedTimeAgo)s"
+
+#: app/scripts/views/settings/clients.js:95
+msgid "last active %(translatedTimeAgo)s"
+msgstr "последно действие %(translatedTimeAgo)s"
+
+#: app/scripts/views/settings/clients.js:99
+msgid "last sync time unknown"
+msgstr "последна синхронизация неизвестно кога"
+
+#: app/scripts/views/settings/communication_preferences.js:117
 msgid "Subscribed successfully"
 msgstr "Успешно се абонирахте"
 
-#: app/scripts/views/settings/communication_preferences.js:105 app/scripts/views/settings/communication_preferences.js:119
-msgid "Unsubscribed successfully"
-msgstr "Успешно отменихте абонамента"
-
-#: app/scripts/views/settings/delete_account.js:45 app/scripts/views/settings/delete_account.js:43
+#: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
 msgstr "Сметката е успешно изтрита"
 
-#: app/scripts/views/settings/display_name.js:66 app/scripts/views/settings/display_name.js:64
+#: app/scripts/views/settings/display_name.js:56
 msgid "Display name updated"
 msgstr "Наименованието е обновено"
+
+#: app/scripts/views/settings/emails.js:114
+msgid "Secondary email removed"
+msgstr "Алтернативният адрес на ел. поща е премахнат"
+
+#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
+msgid "Verification email sent"
+msgstr "Писмото за потвърждение е изпратено"
+
+#: app/scripts/views/settings/emails.js:169
+msgid "Primary email set to %(email)s"
+msgstr "Основният имейл е зададен на %(email)s"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -164,7 +179,43 @@ msgstr "Отваряне на Restmail"
 msgid "Email resent"
 msgstr "Изпращане наново на мейл"
 
-#: app/scripts/models/reliers/sync.js:51 app/scripts/models/reliers/sync.js:59
+#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23
+msgid "Account verified successfully"
+msgstr "Сметката е потвърдена успешно"
+
+#: app/scripts/models/sync-engines.js:33
+msgid "Open tabs"
+msgstr "Отворени раздели"
+
+#: app/scripts/models/sync-engines.js:38
+msgid "Bookmarks"
+msgstr "Отметки"
+
+#: app/scripts/models/sync-engines.js:43
+msgid "Add-ons"
+msgstr "Добавки"
+
+#: app/scripts/models/sync-engines.js:48
+msgid "Passwords"
+msgstr "Пароли"
+
+#: app/scripts/models/sync-engines.js:53
+msgid "History"
+msgstr "История"
+
+#: app/scripts/models/sync-engines.js:58
+msgid "Preferences"
+msgstr "Настройки"
+
+#: app/scripts/models/sync-engines.js:65
+msgid "Addresses"
+msgstr "Адреси"
+
+#: app/scripts/models/sync-engines.js:72
+msgid "Credit cards"
+msgstr "Кредитни карти"
+
+#: app/scripts/models/reliers/sync.js:59
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
@@ -249,7 +300,7 @@ msgstr "Тялото на заявката е твърде голямо"
 msgid "The request was blocked for security reasons"
 msgstr "Заявката беше блокирана от съображения за сигурност"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347 app/scripts/lib/auth-errors.js:384
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:384
 msgid "Invalid authorization code"
 msgstr "Грешен код за упълномощаване"
 
@@ -277,145 +328,163 @@ msgstr "Писмо е върнато. Може би адресът на ел. п
 msgid "Unable to deliver email"
 msgstr "Писмото не може да бъде доставено"
 
-#: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327 app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
+#: app/scripts/lib/auth-errors.js:151
+msgid "This email was already verified by another user"
+msgstr "Това писмо вече е потвърдено от друг потребител"
+
+#: app/scripts/lib/auth-errors.js:155
+msgid "Secondary email must be different than your account email"
+msgstr "Допълнителният имейл трябва да е различен от имейла на сметката"
+
+#: app/scripts/lib/auth-errors.js:167
+msgid "Primary account email required for sign-in"
+msgstr "За вход е необходим основния имейл на сметката"
+
+#: app/scripts/lib/auth-errors.js:171
+msgid "Address in use by another account"
+msgstr "Адресът се използва от друга сметка"
+
+#: app/scripts/lib/auth-errors.js:175
+msgid "Primary account email required for reset"
+msgstr "За промяна е необходим основния имейл на сметката"
+
+#: app/scripts/lib/auth-errors.js:179
+msgid "Invalid signin code"
+msgstr "Невалиден код за вписване"
+
+#: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
 msgid "Server busy, try again soon"
 msgstr "Сървърът е зает, опитайте по-късно"
 
-#: app/scripts/lib/auth-errors.js:154 app/scripts/lib/auth-errors.js:188
+#: app/scripts/lib/auth-errors.js:188
 msgid "This endpoint is no longer supported"
 msgstr "Тази крайна точка вече не се поддържа"
 
-#: app/scripts/lib/auth-errors.js:158 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
-#: app/scripts/lib/auth-errors.js:192
+#: app/scripts/lib/auth-errors.js:192 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "Услугата е недостъпна, опитайте по-късно"
 
-#: app/scripts/lib/auth-errors.js:162 app/scripts/lib/auth-errors.js:196
+#: app/scripts/lib/auth-errors.js:196
 msgid "Login attempt cancelled"
 msgstr "Опитът за вписване е отказан"
 
-#: app/scripts/lib/auth-errors.js:166 app/scripts/lib/auth-errors.js:200
+#: app/scripts/lib/auth-errors.js:200
 msgid "Session expired. Sign in to continue."
 msgstr "Сесията е изтекла. Впишете се, за да продължите."
 
-#: app/scripts/lib/auth-errors.js:170 app/scripts/lib/auth-errors.js:204
+#: app/scripts/lib/auth-errors.js:204
 msgid "Cookies are still disabled"
 msgstr "Бисквитките все още са изключени"
 
-#: app/scripts/lib/auth-errors.js:174 app/scripts/lib/auth-errors.js:208
+#: app/scripts/lib/auth-errors.js:208
 msgid "Passwords do not match"
 msgstr "Паролите не съвпадат"
 
-#: app/scripts/lib/auth-errors.js:178 app/scripts/lib/auth-errors.js:212
+#: app/scripts/lib/auth-errors.js:212
 msgid "Working…"
 msgstr "Обработване…"
 
-#: app/scripts/lib/auth-errors.js:182 app/scripts/lib/auth-errors.js:216
+#: app/scripts/lib/auth-errors.js:216
 msgid "Could not get Privacy Notice"
 msgstr "Не можа да се вземе политиката за лични данни"
 
-#: app/scripts/lib/auth-errors.js:186 app/scripts/lib/auth-errors.js:220
+#: app/scripts/lib/auth-errors.js:220
 msgid "Could not get Terms of Service"
 msgstr "Не можаха да се вземат условията на услугата"
 
-#: app/scripts/lib/auth-errors.js:190 app/scripts/lib/auth-errors.js:224
+#: app/scripts/lib/auth-errors.js:224
 msgid "Your new password must be different"
 msgstr "Вашата нова парола трябва да е различна"
 
-#: app/scripts/lib/auth-errors.js:194 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7 app/scripts/lib/auth-errors.js:228
+#: app/scripts/lib/auth-errors.js:228 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "Трябва да е поне 8 символа"
 
-#: app/scripts/lib/auth-errors.js:198 app/scripts/lib/auth-errors.js:232
+#: app/scripts/lib/auth-errors.js:232
 msgid "Valid password required"
 msgstr "Необходима е валидна парола"
 
-#: app/scripts/lib/auth-errors.js:202 app/scripts/lib/auth-errors.js:240 app/scripts/lib/auth-errors.js:256 app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:274
-#: app/scripts/lib/auth-errors.js:290
+#: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:274 app/scripts/lib/auth-errors.js:290
 msgid "Valid email required"
 msgstr "Необходим е валиден адрес на ел. поща"
 
-#: app/scripts/lib/auth-errors.js:213 app/scripts/lib/auth-errors.js:247
+#: app/scripts/lib/auth-errors.js:247
 msgid "A usable image was not found"
 msgstr "Не може да бъде намерено използваемо изображение"
 
-#: app/scripts/lib/auth-errors.js:217 app/scripts/lib/auth-errors.js:251
+#: app/scripts/lib/auth-errors.js:251
 msgid "Could not initialize camera"
 msgstr "Камерата не може да бъде инициализирана"
 
-#: app/scripts/lib/auth-errors.js:221 app/scripts/lib/auth-errors.js:255
+#: app/scripts/lib/auth-errors.js:255
 msgid "Valid URL required"
 msgstr "Необходим е валиден URL"
 
-#: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:270
+#: app/scripts/lib/auth-errors.js:270
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Потвърждаващото писмо е върнато. Може би адресът на ел. поща е сгрешен?"
 
-#: app/scripts/lib/auth-errors.js:244 app/scripts/lib/auth-errors.js:278
+#: app/scripts/lib/auth-errors.js:278
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Въведете валиден адрес на ел. поща. firefox.com не предлага адреси на ел. поща."
 
-#: app/scripts/lib/auth-errors.js:252 app/scripts/lib/auth-errors.js:286
+#: app/scripts/lib/auth-errors.js:286
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox Accounts може да бъде вграждан в IFRAME само от одобрени страници"
 
-#: app/scripts/lib/auth-errors.js:271 app/scripts/templates/complete_sign_up.mustache:9 app/scripts/lib/auth-errors.js:305
+#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
 msgstr "Връзката за потвърждаване е повредена"
 
-#: app/scripts/lib/auth-errors.js:279 app/scripts/lib/auth-errors.js:313
+#: app/scripts/lib/auth-errors.js:313
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Размерите на изображението трябва да са най-малко 100x100px"
 
-#: app/scripts/lib/auth-errors.js:283 app/scripts/lib/auth-errors.js:317
+#: app/scripts/lib/auth-errors.js:317
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Регистрацията скоро ще бъде отворена за Firefox за iOS"
 
-#: app/scripts/lib/auth-errors.js:294 app/scripts/lib/auth-errors.js:328
+#: app/scripts/lib/auth-errors.js:328
 msgid "You must enter your age to sign up"
 msgstr "Трябва да въведете възрастта си, за да се регистрирате"
 
-#: app/scripts/lib/auth-errors.js:298
-msgid "No Gravatar found"
-msgstr "Не е намерен Gravatar"
-
-#: app/scripts/lib/auth-errors.js:306 app/scripts/lib/auth-errors.js:343
+#: app/scripts/lib/auth-errors.js:343
 msgid "Account no longer exists."
 msgstr "Сметката вече не съществува."
 
-#: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:347
+#: app/scripts/lib/auth-errors.js:347
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Невалидна част в токен за продължаване: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:351
+#: app/scripts/lib/auth-errors.js:351
 msgid "Missing property in resume token: %(property)s"
 msgstr "Липсваща част от токен за продължаване: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:355
+#: app/scripts/lib/auth-errors.js:355
 msgid "Invalid data attribute: %(property)s"
 msgstr "Невалиден атрибут за данни: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:322 app/scripts/lib/auth-errors.js:359
+#: app/scripts/lib/auth-errors.js:359
 msgid "Missing data attribute: %(property)s"
 msgstr "Липсващ атрибут за данни: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:335 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/lib/auth-errors.js:372
+#: app/scripts/lib/auth-errors.js:372 app/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Тази препратка за потвърждаване вече е използвана и не може да бъде отваряна повторно."
 
-#: app/scripts/lib/auth-errors.js:339 app/scripts/lib/auth-errors.js:376
+#: app/scripts/lib/auth-errors.js:376
 msgid "This is a required field"
 msgstr "Това е задължително поле"
 
-#: app/scripts/lib/auth-errors.js:343 app/scripts/lib/auth-errors.js:380
+#: app/scripts/lib/auth-errors.js:380
 msgid "Authorization code required"
 msgstr "Необходим е код за упълномощаване"
 
-#: app/scripts/lib/auth-errors.js:351 app/scripts/templates/report_sign_in.mustache:1 app/scripts/lib/auth-errors.js:388
+#: app/scripts/lib/auth-errors.js:388 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Препратката е повредена"
 
-#: app/scripts/lib/auth-errors.js:374 app/scripts/lib/auth-errors.js:411
+#: app/scripts/lib/auth-errors.js:411
 msgid "Phone number required"
 msgstr "Телефонният номер е задължителен"
 
@@ -428,8 +497,8 @@ msgid "Invalid configuration"
 msgstr "Неправилна настройка"
 
 #: app/scripts/lib/mailcheck.js:25
-msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-msgstr "Може би имахте предвид <span tabindex=\"1\">%(escapedDomain)s</span>?"
+msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
+msgstr "Може би имате предвид <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
@@ -524,7 +593,9 @@ msgid "SMS not sent, please try again"
 msgstr "SMS-ът не е изпратен, моля, опитайте отново"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Продължавайки, вие се съгласявате с <a id=\"service-tos\" href=\"%(termsUri)s\">Условията на услугата</a> и <a id=\"service-pp\" href=\"%(privacyUri)s\">Политиката за личните данни</a> на "
 "%(serviceName)s (%(serviceUri)s)."
@@ -553,9 +624,9 @@ msgstr "IP адрес: %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "За по-голяма сигурност, моля потвърдете вписването, за да започнете синхронизиране на устройството:"
 
-#: app/scripts/lib/strings.js:43 app/scripts/views/settings/clients.js:77
-msgid "Web Session"
-msgstr "Уеб сесия"
+#: app/scripts/lib/strings.js:46 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4 app/scripts/templates/sign_in_password.mustache:6
+msgid "Sign in"
+msgstr "Вписване"
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
@@ -577,54 +648,21 @@ msgstr "Не може да бъде създадена сметка"
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr "Трябва да отговаряте на определени възрастови изисквания, за да създадете Firefox&nbsp;Account."
 
-#: app/scripts/templates/cannot_create_account.mustache:4
-msgid "Learn more."
-msgstr "Научете повече."
+#: app/scripts/templates/cannot_create_account.mustache:4 app/scripts/templates/cookies_disabled.mustache:3
+msgid "Learn more"
+msgstr "Ноучете повече"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-msgid "%(email)s created"
-msgstr "%(email)s създаден"
+msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
+msgstr "%(escapedEmail)s е регистриран. <a %(escapedBackLinkParams)s>Грешен имейл?</a>"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23 app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:22
 msgid "Choose what to sync"
 msgstr "Изберете какво да бъде синхронизирано"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:3 app/scripts/models/sync-engines.js:33
-msgid "Open tabs"
-msgstr "Отворени раздели"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:5 app/scripts/models/sync-engines.js:38
-msgid "Bookmarks"
-msgstr "Отметки"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:7 app/scripts/models/sync-engines.js:43
-msgid "Add-ons"
-msgstr "Добавки"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:9 app/scripts/models/sync-engines.js:48
-msgid "Passwords"
-msgstr "Пароли"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:11 app/scripts/models/sync-engines.js:53
-msgid "History"
-msgstr "История"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:13 app/scripts/models/sync-engines.js:58
-msgid "Preferences"
-msgstr "Настройки"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:15
-msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr "Добавките и настройките понастоящем не се синхронизират с мобилни устройства."
-
-#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/choose_what_to_sync.mustache:5
+#: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Save settings"
 msgstr "Запазване на настройките"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:17 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
-#: app/scripts/templates/sign_in_bounced.mustache:6
-msgid "Back"
-msgstr "Назад"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -635,8 +673,8 @@ msgid "The link you clicked to reset your password is expired."
 msgstr "Връзката за нулиране на парола, която посетихте е с изтекла давност."
 
 #: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Click here to receive a new reset link"
-msgstr "Натиснете тук, за да получите нова връзка за нулиране"
+msgid "Receive new link"
+msgstr "Получаване на нова препратка"
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -694,33 +732,32 @@ msgstr "Потвърдете своята сметка"
 msgid "Confirm this sign-in"
 msgstr "Потвърждаване"
 
-#: app/scripts/templates/confirm.mustache:5 app/scripts/templates/confirm_reset_password.mustache:2
-msgid "Email Sent"
-msgstr "Писмото е изпратено"
+#: app/scripts/templates/confirm.mustache:5
+msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+msgstr "Проверете вашата поща за потвърждение, изпратено до %(escapedEmail)s"
 
-#: app/scripts/templates/confirm.mustache:6
-msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr "Изпратена е връзка за потвърждаване&nbsp;до %(escapedEmail)s"
+#: app/scripts/templates/confirm.mustache:7
+msgid "Check your email for the sign-in confirmation link sent to %(email)s"
+msgstr "Проверете вашата поща за потвърждение на вписването, изпратено до %(email)s"
 
-#: app/scripts/templates/confirm.mustache:8
-msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr "За да защитим по-добре данните ви във Firefox, изпратихме връзка за потвърждаване на %(email)s"
-
-#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
+#: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
-msgid "Didn't arrive and not in spam folder? Resend"
-msgstr "Още я няма, даже и в нежеланата поща? Повторно изпращане"
+msgid "Not in inbox or spam folder? Resend"
+msgstr "Няма го във входящи или нежелана поща? Повторно изпращане"
+
+#: app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/sign_in_bounced.mustache:6 app/scripts/templates/tos.mustache:3
+msgid "Back"
+msgstr "Назад"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
 msgstr "Изпратено е писмо за нулиране"
 
-#: app/scripts/templates/confirm_reset_password.mustache:3 app/scripts/templates/confirm_reset_password.mustache:2
+#: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
 msgstr "Посетете препратката, която ви изпратихме на %(email)s в следващия час, за да създадете нова парола."
 
-#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7 app/scripts/templates/confirm_reset_password.mustache:4
-#: app/scripts/templates/confirm_reset_password.mustache:6 app/scripts/templates/reset_password.mustache:10
+#: app/scripts/templates/confirm_reset_password.mustache:4 app/scripts/templates/confirm_reset_password.mustache:6 app/scripts/templates/reset_password.mustache:10
 msgid "Remember password? Sign in"
 msgstr "Помните паролата си? Впишете се"
 
@@ -728,59 +765,58 @@ msgstr "Помните паролата си? Впишете се"
 msgid "Connect another device"
 msgstr "Свържете друго устройство"
 
-#: app/scripts/templates/connect_another_device.mustache:2
-msgid "This device is connected"
-msgstr "Това устройство е свързано"
+#: app/scripts/templates/connect_another_device.mustache:2 app/scripts/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
+msgstr "Този Firefox е свързан"
 
-#: app/scripts/templates/connect_another_device.mustache:4 app/scripts/views/ready.js:45
-msgid "Email verified"
-msgstr "Имейлът е потвърден"
+#: app/scripts/templates/connect_another_device.mustache:6
+msgid "Signin confirmed"
+msgstr "Вписването е потвърдено"
 
-#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:3
-#: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/sms_sent.mustache:5
+#: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
 msgstr "Успех"
 
-#: app/scripts/templates/connect_another_device.mustache:6 app/scripts/templates/connect_another_device.mustache:9
+#: app/scripts/templates/connect_another_device.mustache:9
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "За да завършите настройката се впишете в този Firefox"
 
-#: app/scripts/templates/connect_another_device.mustache:7 app/scripts/templates/connect_another_device.mustache:10
+#: app/scripts/templates/connect_another_device.mustache:10
 msgid "Sign in &rarr;"
 msgstr "Вписване &rarr;"
 
-#: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
+#: app/scripts/templates/connect_another_device.mustache:12 app/scripts/templates/connect_another_device.mustache:16 app/scripts/templates/connect_another_device.mustache:26
+#: app/scripts/templates/sms_send.mustache:4
+msgid "Still adding devices?"
+msgstr "Добавяте ли още устройства?"
+
 #: app/scripts/templates/connect_another_device.mustache:14 app/scripts/templates/connect_another_device.mustache:18 app/scripts/templates/connect_another_device.mustache:28
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "За да завършите настройката се впишете във Firefox от друго устройство"
 
-#: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:20
+#: app/scripts/templates/connect_another_device.mustache:20
 msgid "Open settings and select Sign in to Firefox to complete set-up"
 msgstr "За да завършите настройката отворете настройките и изберете Вписване"
 
-#: app/scripts/templates/connect_another_device.mustache:15 app/scripts/templates/connect_another_device.mustache:22
+#: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
 msgstr "За да завършите настройката се впишете във Firefox за Android"
 
-#: app/scripts/templates/connect_another_device.mustache:17 app/scripts/templates/connect_another_device.mustache:24
+#: app/scripts/templates/connect_another_device.mustache:24
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "За да завършите настройката се впишете във Firefox за iOS"
 
-#: app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
-msgid "Why is this required?"
-msgstr "Защо е необходимо това?"
+#: app/scripts/templates/connect_another_device.mustache:30 app/scripts/templates/sms_send.mustache:10
+msgid "Why is more than one device required?"
+msgstr "Защо се изисква повече от едно устройство?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required."
-msgstr "Бисквитките и локалното хранилище са задължителни."
+msgid "Cookies and local storage are required"
+msgstr "Бисквитките и местното хранилище са задължителни"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
 msgstr "За да използвате Firefox Accounts, моля, разрешете използването на бисквитки и локално хранилище от четеца. Различни функции зависят от това като например да бъдете запомнени между сесиите."
-
-#: app/scripts/templates/cookies_disabled.mustache:3 app/scripts/templates/cannot_create_account.mustache:4
-msgid "Learn more"
-msgstr "Ноучете повече"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -790,28 +826,40 @@ msgstr "Нов опит"
 msgid "Sign in to continue"
 msgstr "Впишете се, за да продължите"
 
-#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_up.mustache:15
-#: app/scripts/templates/settings/change_password.mustache:1 app/scripts/templates/settings/delete_account.mustache:4 app/scripts/templates/sign_in_password.mustache:5
-#: app/scripts/templates/sign_up.mustache:12 app/scripts/templates/sign_up_password.mustache:5
+#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_in_password.mustache:5
+#: app/scripts/templates/sign_up.mustache:12 app/scripts/templates/sign_up_password.mustache:5 app/scripts/templates/settings/change_password.mustache:1
+#: app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "Парола"
 
-#: app/scripts/templates/force_auth.mustache:5 app/scripts/lib/strings.js:46 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4
-#: app/scripts/templates/sign_in_password.mustache:6
-msgid "Sign in"
-msgstr "Вписване"
-
-#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:18 app/scripts/templates/settings/change_password.mustache:5
 #: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_in_password.mustache:8
+#: app/scripts/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "Забравили сте паролата си?"
 
-#: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:18 app/scripts/templates/force_auth.mustache:6
-#: app/scripts/templates/index.mustache:6 app/scripts/templates/sign_up.mustache:17 app/scripts/templates/sign_up_password.mustache:7
+#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
 msgstr ""
 "Продължавайки, вие се съгласявате с <a id=\"fxa-tos\" href=\"/legal/terms\">Условията на услугата</a> и <a id=\"fxa-pp\" href=\"/legal/privacy\">Политиката за личните данни</a> на облачната услуга "
 "на Firefox."
+
+#: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
+msgid "Enter your email"
+msgstr "Въведете вашия имейл"
+
+#: app/scripts/templates/index.mustache:2 app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in_password.mustache:2
+#: app/scripts/templates/sign_up.mustache:2 app/scripts/templates/sign_up_password.mustache:2
+msgid "Continue to %(serviceName)s"
+msgstr "Продължаване към %(serviceName)s"
+
+#: app/scripts/templates/index.mustache:5 app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:11
+msgid "Email"
+msgstr "Ел. поща"
+
+#: app/scripts/templates/index.mustache:7 app/scripts/templates/sign_in_unblock.mustache:5
+msgid "Continue"
+msgstr "Продължаване"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -847,29 +895,28 @@ msgstr "Изтегляне на Firefox за Android."
 msgid "Download Firefox for mobile devices."
 msgstr "Изтеглете Firefox за мобилни устройства."
 
-#: app/scripts/templates/permissions.mustache:1 app/scripts/templates/settings/gravatar_permissions.mustache:1
+#: app/scripts/templates/permissions.mustache:1
 msgid "Request for permission"
 msgstr "Искане на разрешение"
 
-#: app/scripts/templates/permissions.mustache:2 app/scripts/templates/settings/gravatar_permissions.mustache:2
+#: app/scripts/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
 msgstr "%(serviceName)s иска достъп до следната информация от вашата сметка:"
 
-#: app/scripts/templates/permissions.mustache:3 app/scripts/templates/settings/gravatar_permissions.mustache:4
+#: app/scripts/templates/permissions.mustache:3
 msgid "Accept"
 msgstr "Приемане"
 
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
-#: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9
-#: app/scripts/templates/settings/communication_preferences.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6
-#: app/scripts/templates/settings/display_name.mustache:8 app/scripts/templates/settings/gravatar_permissions.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:14
+#: app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9 app/scripts/templates/settings/communication_preferences.mustache:5
+#: app/scripts/templates/settings/communication_preferences.mustache:10 app/scripts/templates/settings/delete_account.mustache:6 app/scripts/templates/settings/display_name.mustache:8
 #: app/scripts/templates/settings/emails.mustache:25
 msgid "Cancel"
 msgstr "Отказ"
 
-#: app/scripts/templates/ready.mustache:4
-msgid "Proceed"
-msgstr "Продължаване"
+#: app/scripts/templates/ready.mustache:5
+msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
+msgstr "Известия свързани със сметката ще бъдат изпращани и до %(secondaryEmailVerified)s"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
@@ -895,27 +942,13 @@ msgstr "Защо се случва това?"
 msgid "Reset account"
 msgstr "Нулиране на профила"
 
-#: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_up.mustache:2 app/scripts/templates/index.mustache:2
-#: app/scripts/templates/sign_in_password.mustache:2 app/scripts/templates/sign_up_password.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "Продължаване към %(serviceName)s"
-
 #: app/scripts/templates/reset_password.mustache:5
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "Когато нулирате паролата си, ще загубите всички данни в Sync, които не са на някое от устройствата ви."
 
-#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
-#: app/scripts/templates/index.mustache:5 app/scripts/templates/sign_up.mustache:11
-msgid "Email"
-msgstr "Ел. поща"
-
 #: app/scripts/templates/reset_password.mustache:9
 msgid "Begin reset"
 msgstr "Започване на анулирането"
-
-#: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
-msgid "Remember password? Sign in."
-msgstr "Помните паролата? Вписване."
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
@@ -933,13 +966,33 @@ msgstr "Не намирате данните си от Добавки? <a href=\
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr "Прехвърлете синхронизираните данни като се впишете във вашия Firefox&nbsp;Account."
 
-#: app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:12 app/scripts/templates/sign_in.mustache:9
+#: app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:12
 msgid "Use a different account"
 msgstr "Вход с друга сметка"
 
-#: app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_in.mustache:18
+#: app/scripts/templates/sign_in.mustache:18
 msgid "Create an account"
 msgstr "Създаване на сметка"
+
+#: app/scripts/templates/sign_in_bounced.mustache:1
+msgid "Sorry. We’ve locked your&nbsp;account."
+msgstr "Съжаляваме. Заключили сме вашата&nbsp;сметка."
+
+#: app/scripts/templates/sign_in_bounced.mustache:2
+msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
+msgstr "Потвърждаващото писмо, изпратено до %(email)s е върнато и като резултат заключихме вашата сметка, за да защитим вашите данни от Firefox."
+
+#: app/scripts/templates/sign_in_bounced.mustache:3
+msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
+msgstr "Ако адресът е работещ <a %(escapedSupportLinkAttrs)s>уведомете ни</a> и ще ви помогнем да отключите сметката си."
+
+#: app/scripts/templates/sign_in_bounced.mustache:5
+msgid "No longer own that email? Create a new account"
+msgstr "Вече не притежавате този имейл? Създайте нова сметка"
+
+#: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:11
+msgid "Mistyped email?"
+msgstr "Сгрешен имейл?"
 
 #: app/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -954,111 +1007,99 @@ msgid "Authorize this sign-in"
 msgstr "Разрешете това вписване"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
-msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr "За по-добра защита на вашите данни във Firefox на %(email)s е изпратен код за упълномощаване."
+msgid "Check your email for the authorization code sent to %(email)s."
+msgstr "Проверете вашата поща за упълномощаващ код, изпратен до %(email)s."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
 msgstr "Код за упълномощаване"
-
-#: app/scripts/templates/sign_in_unblock.mustache:5 app/scripts/templates/index.mustache:7
-msgid "Continue"
-msgstr "Продължаване"
 
 #: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4 app/scripts/templates/sign_up_password.mustache:1 app/scripts/templates/sign_up_password.mustache:4
 msgid "Create a Firefox Account"
 msgstr "Създаване на Firefox Account"
 
 #: app/scripts/templates/sign_up.mustache:6
-msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-msgstr "Търсите Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Започнете оттук</a>"
-
-#: app/scripts/templates/sign_up.mustache:8 app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr "Прехвърлете синхронизираните данни като създадете нов Firefox&nbsp;Account."
 
-#: app/scripts/templates/sign_up.mustache:10 app/scripts/templates/sign_up.mustache:8
+#: app/scripts/templates/sign_up.mustache:8
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr "Не намирате данните си от Добавки? Регистрирайте Firefox Account с електронния си адрес от стария профил в Добавки."
 
-#: app/scripts/templates/sign_up.mustache:17 app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up_password.mustache:6
+#: app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up_password.mustache:6
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "Силна и уникална парола ще държи вашите лични данни в безопасност от нарушители."
 
-#: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/sign_up_password.mustache:8
-msgid "Receive the monthly Firefox newsletter"
-msgstr "Получавайте месечния бюлетин на Firefox."
+#: app/scripts/templates/sign_up.mustache:18
+msgid "Get the latest news about Mozilla and Firefox"
+msgstr "Получавайте последните новини за Mozilla и Firefox"
 
-#: app/scripts/templates/sign_up.mustache:21 app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10
+#: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10
 msgid "Create account"
 msgstr "Създаване на сметка"
 
-#: app/scripts/templates/sign_up.mustache:26 app/scripts/templates/sign_up.mustache:25
+#: app/scripts/templates/sign_up.mustache:25
 msgid "Have an account? Sign in"
 msgstr "Имате сметка? Впишете се"
 
-#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4 app/scripts/templates/sms_send.mustache:6
+#: app/scripts/templates/sign_up_password.mustache:8
+msgid "Receive the monthly Firefox newsletter"
+msgstr "Получавайте месечния бюлетин на Firefox."
+
+#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:6
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr "Директно изпратете Firefox от мобилния си телефон и се впишете, за да завършите настройката"
 
-#: app/scripts/templates/sms_send.mustache:2 app/scripts/templates/connect_another_device.mustache:2
-msgid "This Firefox is connected"
-msgstr "Този Firefox е свързан"
-
-#: app/scripts/templates/sms_send.mustache:5 app/scripts/templates/sms_send.mustache:7
+#: app/scripts/templates/sms_send.mustache:7
 msgid "Mobile phone number"
 msgstr "Номер на мобилен телефон"
 
-#: app/scripts/templates/sms_send.mustache:6 app/scripts/templates/sms_send.mustache:8
+#: app/scripts/templates/sms_send.mustache:8
 msgid "Send"
 msgstr "Изпращане"
 
-#: app/scripts/templates/sms_send.mustache:7
+#: app/scripts/templates/sms_send.mustache:9
 msgid ""
-"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-"Услугата с SMS е достъпна само за телефонни номера от U.S. SMS-ите и данните може да бъдат таксувани. Получателят, за който е предназначен SMS-ът трябва да е съгласен. <a "
+"Услугата през SMS е достъпна само в някои държави. SMS-ът и мобилните данни може да бъдат таксувани. Предназначеният получател на писмото или SMS-ът трябва да е дал своето съгласие. <a "
 "%(escapedLearnMoreAttributes)s>Научете повече</a>"
 
-#: app/scripts/templates/sms_send.mustache:9 app/scripts/templates/sms_send.mustache:11
+#: app/scripts/templates/sms_send.mustache:11
 msgid "Maybe later"
 msgstr "Може би друг път"
 
-#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4 app/scripts/templates/sms_sent.mustache:6
+#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
 msgstr "Инсталирайте Firefox на мобилния си телефон и се впишете, за да завършите настройката"
 
 #: app/scripts/templates/sms_sent.mustache:2
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr "Препратка е изпратена до %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Грешен номер?</a>"
+msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+msgstr "Препратка е изпратена до %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Грешен&nbsp;номер?</a>"
 
-#: app/scripts/templates/sms_sent.mustache:5 app/scripts/templates/sms_sent.mustache:7
+#: app/scripts/templates/sms_sent.mustache:3
+msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+msgstr "Препратка е изпратена до %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Грешен&nbsp;номер?</a>"
+
+#: app/scripts/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
 msgstr "Ако не сте получили текстово съобщение може и ръчно да изтеглите приложението."
 
-#: app/scripts/templates/sms_sent.mustache:6 app/scripts/templates/sms_sent.mustache:8
+#: app/scripts/templates/sms_sent.mustache:8
 msgid "Didn't arrive? Resend"
 msgstr "Още я няма? Повторно изпращане"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
-msgid "Why Sync two (or more!) devices?"
-msgstr "Защо да синхронизирате две (или повече) устройства?"
+msgid "Why sync multiple devices?"
+msgstr "Защо да синхронизирам няколко устройство?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
-msgid ""
-"Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-"Firefox for desktop will appear."
-msgstr ""
-"С помощта на Sync може да споделяте отметки, история и запазените от Firefox пароли в едно устройство на други. Впишете се във Firefox на своя телефон или таблет и всичко запазено във Firefox от "
-"настолния компютър ще се появи."
+msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
+msgstr "Услугата Sync не е способ съхранение на архивни копия, а е сигурен начин за пренасяне на запазените отметки, история и пароли между вашите устройства."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
-msgid ""
-"Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
-"information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
-msgstr ""
-"Sync няма за цел да пази архивно копие на данните ви, а е метод за споделяне. Ако смените паролата си без да имате информацията на поне още едно устройство е възможно да загубите всичко свързано със"
-" старата парола. За това е добре да имате инсталиран Firefox с настроен Sync на повече от едно устройство."
+msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
+msgstr "Трябва да инсталирате Firefox най-малко на две устройства, за да се предпазите от загуба на информация в случай, че искате да я възстановите, но сте забравили вашата паролата."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1086,15 +1127,11 @@ msgid "Camera"
 msgstr "Камера"
 
 #: app/scripts/templates/settings/avatar_change.mustache:3
-msgid "Gravatar"
-msgstr "Gravatar"
-
-#: app/scripts/templates/settings/avatar_change.mustache:4 app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Clear"
 msgstr "Изчистване"
 
-#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:26 app/scripts/templates/settings/avatar_change.mustache:5
-#: app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:22
+#: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/communication_preferences.mustache:12
+#: app/scripts/templates/settings/emails.mustache:22
 msgid "Done"
 msgstr "Готово"
 
@@ -1105,10 +1142,6 @@ msgstr "Ако е необходимо наместете и завъртете 
 #: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:7
 msgid "Change"
 msgstr "Промяна"
-
-#: app/scripts/templates/settings/avatar_gravatar.mustache:2
-msgid "Save"
-msgstr "Запазване"
 
 #: app/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
@@ -1146,8 +1179,7 @@ msgstr "Дублиращо се устройство"
 msgid "Rather not say"
 msgstr "Предпочитам да не казвам"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:14
-#: app/scripts/templates/settings/clients.mustache:13
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:13
 msgid "Disconnect"
 msgstr "Изключване"
 
@@ -1163,41 +1195,43 @@ msgstr "Устройства и приложения"
 msgid "Show"
 msgstr "Показване"
 
-#: app/scripts/templates/settings/clients.mustache:5 app/scripts/templates/settings/clients.mustache:6
+#: app/scripts/templates/settings/clients.mustache:6
 msgid "current device"
 msgstr "текущо устройство"
 
-#: app/scripts/templates/settings/clients.mustache:7 app/scripts/templates/settings/clients.mustache:8
+#: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
 msgstr "Изключване…"
 
-#: app/scripts/templates/settings/clients.mustache:9 app/scripts/templates/settings/clients.mustache:11
+#: app/scripts/templates/settings/clients.mustache:11
 msgid "current session"
 msgstr "текуща сесия"
 
-#: app/scripts/templates/settings/clients.mustache:17 app/scripts/templates/settings/clients.mustache:19
+#: app/scripts/templates/settings/clients.mustache:16
+msgid "Revoke"
+msgstr "Анулиране"
+
+#: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
 msgstr "Firefox за iOS"
 
-#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:20
-#: app/scripts/templates/settings/clients.mustache:23
+#: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
 msgid "none connected"
 msgstr "няма свързано"
 
-#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22 app/scripts/templates/settings/clients.mustache:21
-#: app/scripts/templates/settings/clients.mustache:24
+#: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
 msgstr "Изтегляне"
 
-#: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:22
+#: app/scripts/templates/settings/clients.mustache:22
 msgid "Firefox for Android"
 msgstr "Firefox за Android"
 
-#: app/scripts/templates/settings/clients.mustache:24 app/scripts/templates/settings/clients.mustache:26
+#: app/scripts/templates/settings/clients.mustache:26
 msgid "Missing or duplicate items?"
 msgstr "Липсващи или дублиращи се елементи?"
 
-#: app/scripts/templates/settings/clients.mustache:25 app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20
+#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20
 msgid "Refresh"
 msgstr "Опресняване"
 
@@ -1206,20 +1240,20 @@ msgid "Communication preferences"
 msgstr "Предпочитания за комуникация"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
-msgid "Receive the monthly Firefox newsletter."
-msgstr "Получавайте месечния бюлетин на Firefox."
+msgid "We may send you emails related to your Firefox Account."
+msgstr "Възможно е да ви изпращаме поща свързана с вашия Firefox Account."
 
-#: app/scripts/templates/settings/communication_preferences.mustache:8 app/scripts/templates/settings/communication_preferences.mustache:9
-msgid "Email preferences"
-msgstr "Настройки на пощата"
+#: app/scripts/templates/settings/communication_preferences.mustache:8
+msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
+msgstr "Освен това можете да изберете дали да получавате последните новини за Mozilla и Firefox."
 
-#: app/scripts/templates/settings/communication_preferences.mustache:10 app/scripts/templates/settings/communication_preferences.mustache:11
-msgid "Unsubscribe"
-msgstr "Отписване"
-
-#: app/scripts/templates/settings/communication_preferences.mustache:12 app/scripts/templates/settings/communication_preferences.mustache:13
+#: app/scripts/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
 msgstr "Абониране"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:11
+msgid "Manage Subscriptions"
+msgstr ""
 
 #: app/scripts/templates/settings/delete_account.mustache:1 app/scripts/templates/settings/delete_account.mustache:5
 msgid "Delete account"
@@ -1236,203 +1270,6 @@ msgstr "Сигурни ли сте, че искате да изтриете св
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "Изберете наименование, което бихте искали да се показва при управлението на сметката."
-
-#: app/scripts/templates/partial/coppa-age-input.mustache:1
-msgid "How old are you?"
-msgstr "На колко години сте?"
-
-#: app/scripts/templates/openid/start.mustache:1
-msgid "Sign in to Sync"
-msgstr "Впишете се в Sync"
-
-#: app/scripts/templates/openid/start.mustache:2
-msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-msgstr "Изберете регистрацията, която искате да използвате за синхронизиране на вашите раздели, отметки, пароли и други."
-
-#: app/scripts/templates/openid/start.mustache:3
-msgid "Use OpenID"
-msgstr "Вход с OpenID"
-
-#: app/scripts/templates/openid/start.mustache:4
-msgid "Use Firefox Account"
-msgstr "Използване на Firefox Account"
-
-#: app/scripts/views/settings/clients.js:86
-msgid "first sync %(translatedTimeAgo)s"
-msgstr "първа синхронизация %(translatedTimeAgo)s"
-
-#: app/scripts/views/settings/clients.js:89
-msgid "last sync %(translatedTimeAgo)s"
-msgstr "последна синхронизация %(translatedTimeAgo)s"
-
-#: app/scripts/views/settings/clients.js:95
-msgid "last active %(translatedTimeAgo)s"
-msgstr "последно действие %(translatedTimeAgo)s"
-
-#: app/scripts/views/settings/clients.js:99
-msgid "last sync time unknown"
-msgstr "последна синхронизация неизвестно кога"
-
-#: app/scripts/views/settings/emails.js:114
-msgid "Secondary email removed"
-msgstr "Алтернативният адрес на ел. поща е премахнат"
-
-#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
-msgid "Verification email sent"
-msgstr "Писмото за потвърждение е изпратено"
-
-#: app/scripts/views/settings/emails.js:169
-msgid "Primary email set to %(email)s"
-msgstr "Основният имейл е зададен на %(email)s"
-
-#: app/scripts/models/sync-engines.js:65
-msgid "Addresses"
-msgstr "Адреси"
-
-#: app/scripts/models/sync-engines.js:72
-msgid "Credit cards"
-msgstr "Кредитни карти"
-
-#: app/scripts/lib/auth-errors.js:151
-msgid "This email was already verified by another user"
-msgstr "Това писмо вече е потвърдено от друг потребител"
-
-#: app/scripts/lib/auth-errors.js:155
-msgid "Secondary email must be different than your account email"
-msgstr "Допълнителният имейл трябва да е различен от имейла на сметката"
-
-#: app/scripts/lib/auth-errors.js:167
-msgid "Primary account email required for sign-in"
-msgstr "За вход е необходим основния имейл на сметката"
-
-#: app/scripts/lib/auth-errors.js:171
-msgid "Address in use by another account"
-msgstr "Адресът се използва от друга сметка"
-
-#: app/scripts/lib/auth-errors.js:175
-msgid "Primary account email required for reset"
-msgstr "За промяна е необходим основния имейл на сметката"
-
-#: app/scripts/lib/auth-errors.js:179
-msgid "Invalid signin code"
-msgstr "Невалиден код за вписване"
-
-#: app/scripts/lib/mailcheck.js:25
-msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-msgstr "Може би имате предвид <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:1
-msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
-msgstr "%(escapedEmail)s е регистриран. <a %(escapedBackLinkParams)s>Грешен имейл?</a>"
-
-#: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Receive new link"
-msgstr "Получаване на нова препратка"
-
-#: app/scripts/templates/confirm.mustache:5
-msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr "Проверете вашата поща за потвърждение, изпратено до %(escapedEmail)s"
-
-#: app/scripts/templates/confirm.mustache:7
-msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-msgstr "Проверете вашата поща за потвърждение на вписването, изпратено до %(email)s"
-
-#: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
-#: app/scripts/templates/sign_in_unblock.mustache:9
-msgid "Not in inbox or spam folder? Resend"
-msgstr "Няма го във входящи или нежелана поща? Повторно изпращане"
-
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr "Вписването е потвърдено"
-
-#: app/scripts/templates/connect_another_device.mustache:12 app/scripts/templates/connect_another_device.mustache:16 app/scripts/templates/connect_another_device.mustache:26
-#: app/scripts/templates/sms_send.mustache:4
-msgid "Still adding devices?"
-msgstr "Добавяте ли още устройства?"
-
-#: app/scripts/templates/connect_another_device.mustache:30 app/scripts/templates/sms_send.mustache:10
-msgid "Why is more than one device required?"
-msgstr "Защо се изисква повече от едно устройство?"
-
-#: app/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required"
-msgstr "Бисквитките и местното хранилище са задължителни"
-
-#: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
-msgid "Enter your email"
-msgstr "Въведете вашия имейл"
-
-#: app/scripts/templates/ready.mustache:5
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr "Известия свързани със сметката ще бъдат изпращани и до %(secondaryEmailVerified)s"
-
-#: app/scripts/templates/sign_in_bounced.mustache:1
-msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr "Съжаляваме. Заключили сме вашата&nbsp;сметка."
-
-#: app/scripts/templates/sign_in_bounced.mustache:2
-msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr "Потвърждаващото писмо, изпратено до %(email)s е върнато и като резултат заключихме вашата сметка, за да защитим вашите данни от Firefox."
-
-#: app/scripts/templates/sign_in_bounced.mustache:3
-msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr "Ако адресът е работещ <a %(escapedSupportLinkAttrs)s>уведомете ни</a> и ще ви помогнем да отключите сметката си."
-
-#: app/scripts/templates/sign_in_bounced.mustache:5
-msgid "No longer own that email? Create a new account"
-msgstr "Вече не притежавате този имейл? Създайте нова сметка"
-
-#: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:11
-msgid "Mistyped email?"
-msgstr "Сгрешен имейл?"
-
-#: app/scripts/templates/sign_in_unblock.mustache:3
-msgid "Check your email for the authorization code sent to %(email)s."
-msgstr "Проверете вашата поща за упълномощаващ код, изпратен до %(email)s."
-
-#: app/scripts/templates/sign_up.mustache:18
-msgid "Get the latest news about Mozilla and Firefox"
-msgstr "Получавайте последните новини за Mozilla и Firefox"
-
-#: app/scripts/templates/sms_send.mustache:9
-msgid ""
-"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
-"Услугата през SMS е достъпна само в някои държави. SMS-ът и мобилните данни може да бъдат таксувани. Предназначеният получател на писмото или SMS-ът трябва да е дал своето съгласие. <a "
-"%(escapedLearnMoreAttributes)s>Научете повече</a>"
-
-#: app/scripts/templates/sms_sent.mustache:2
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "Препратка е изпратена до %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Грешен&nbsp;номер?</a>"
-
-#: app/scripts/templates/sms_sent.mustache:3
-msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr "Препратка е изпратена до %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Грешен&nbsp;номер?</a>"
-
-#: app/scripts/templates/why_connect_another_device.mustache:1
-msgid "Why sync multiple devices?"
-msgstr "Защо да синхронизирам няколко устройство?"
-
-#: app/scripts/templates/why_connect_another_device.mustache:2
-msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr "Услугата Sync не е способ съхранение на архивни копия, а е сигурен начин за пренасяне на запазените отметки, история и пароли между вашите устройства."
-
-#: app/scripts/templates/why_connect_another_device.mustache:3
-msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr "Трябва да инсталирате Firefox най-малко на две устройства, за да се предпазите от загуба на информация в случай, че искате да я възстановите, но сте забравили вашата паролата."
-
-#: app/scripts/templates/settings/clients.mustache:16
-msgid "Revoke"
-msgstr "Анулиране"
-
-#: app/scripts/templates/settings/communication_preferences.mustache:7
-msgid "We may send you emails related to your Firefox Account."
-msgstr "Възможно е да ви изпращаме поща свързана с вашия Firefox Account."
-
-#: app/scripts/templates/settings/communication_preferences.mustache:8
-msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-msgstr "Освен това можете да изберете дали да получавате последните новини за Mozilla и Firefox."
 
 #: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
@@ -1466,27 +1303,149 @@ msgstr "Няма го във входящи или нежелана поща? П
 msgid "Add"
 msgstr "Добавяне"
 
+#: app/scripts/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you?"
+msgstr "На колко години сте?"
+
 #: app/scripts/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
 msgstr "Търсите Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Започнете от тук</a>"
 
+#: app/scripts/templates/openid/start.mustache:1
+msgid "Sign in to Sync"
+msgstr "Впишете се в Sync"
+
+#: app/scripts/templates/openid/start.mustache:2
+msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
+msgstr "Изберете регистрацията, която искате да използвате за синхронизиране на вашите раздели, отметки, пароли и други."
+
+#: app/scripts/templates/openid/start.mustache:3
+msgid "Use OpenID"
+msgstr "Вход с OpenID"
+
+#: app/scripts/templates/openid/start.mustache:4
+msgid "Use Firefox Account"
+msgstr "Използване на Firefox Account"
+
 #. submit button
-#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
+#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:91
 msgctxt "submit button"
 msgid "Sign in"
 msgstr "Вписване"
 
 #. header text
-#: app/scripts/views/sign_in.js:93
+#: app/scripts/views/sign_in.js:94
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Вписване"
 
-#. button text
-#: app/scripts/views/sign_in.js:90
-msgctxt "button text"
-msgid "Sign in"
-msgstr "Вписване"
+#~ msgid "App link resent to %(phoneNumber)s"
+#~ msgstr "Препратката отново е изпратена до %(phoneNumber)s"
+
+#~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
+#~ msgstr "Благодарение на <a href=\"https://www.gravatar.com\">Gravatar</a>"
+
+#~ msgid "Last active %(translatedTimeAgo)s"
+#~ msgstr "Последна активност %(translatedTimeAgo)s"
+
+#~ msgid "Unsubscribed successfully"
+#~ msgstr "Успешно отменихте абонамента"
+
+#~ msgid "No Gravatar found"
+#~ msgstr "Не е намерен Gravatar"
+
+#~ msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
+#~ msgstr "Може би имахте предвид <span tabindex=\"1\">%(escapedDomain)s</span>?"
+
+#~ msgid "Learn more."
+#~ msgstr "Научете повече."
+
+#~ msgid "%(email)s created"
+#~ msgstr "%(email)s създаден"
+
+#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
+#~ msgstr "Добавките и настройките понастоящем не се синхронизират с мобилни устройства."
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "Натиснете тук, за да получите нова връзка за нулиране"
+
+#~ msgid "Email Sent"
+#~ msgstr "Писмото е изпратено"
+
+#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Изпратена е връзка за потвърждаване&nbsp;до %(escapedEmail)s"
+
+#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+#~ msgstr "За да защитим по-добре данните ви във Firefox, изпратихме връзка за потвърждаване на %(email)s"
+
+#~ msgid "Didn't arrive and not in spam folder? Resend"
+#~ msgstr "Още я няма, даже и в нежеланата поща? Повторно изпращане"
+
+#~ msgid "This device is connected"
+#~ msgstr "Това устройство е свързано"
+
+#~ msgid "Why is this required?"
+#~ msgstr "Защо е необходимо това?"
+
+#~ msgid "Cookies and local storage are required."
+#~ msgstr "Бисквитките и локалното хранилище са задължителни."
+
+#~ msgid "Proceed"
+#~ msgstr "Продължаване"
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "Помните паролата? Вписване."
+
+#~ msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
+#~ msgstr "За по-добра защита на вашите данни във Firefox на %(email)s е изпратен код за упълномощаване."
+
+#~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
+#~ msgstr "Търсите Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Започнете оттук</a>"
+
+#~ msgid ""
+#~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "Услугата с SMS е достъпна само за телефонни номера от U.S. SMS-ите и данните може да бъдат таксувани. Получателят, за който е предназначен SMS-ът трябва да е съгласен. <a "
+#~ "%(escapedLearnMoreAttributes)s>Научете повече</a>"
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+#~ msgstr "Препратка е изпратена до %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Грешен номер?</a>"
+
+#~ msgid "Why Sync two (or more!) devices?"
+#~ msgstr "Защо да синхронизирате две (или повече) устройства?"
+
+#~ msgid ""
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
+#~ msgstr ""
+#~ "С помощта на Sync може да споделяте отметки, история и запазените от Firefox пароли в едно устройство на други. Впишете се във Firefox на своя телефон или таблет и всичко запазено във Firefox от "
+#~ "настолния компютър ще се появи."
+
+#~ msgid ""
+#~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
+#~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+#~ msgstr ""
+#~ "Sync няма за цел да пази архивно копие на данните ви, а е метод за споделяне. Ако смените паролата си без да имате информацията на поне още едно устройство е възможно да загубите всичко свързано "
+#~ "със старата парола. За това е добре да имате инсталиран Firefox с настроен Sync на повече от едно устройство."
+
+#~ msgid "Gravatar"
+#~ msgstr "Gravatar"
+
+#~ msgid "Save"
+#~ msgstr "Запазване"
+
+#~ msgid "Receive the monthly Firefox newsletter."
+#~ msgstr "Получавайте месечния бюлетин на Firefox."
+
+#~ msgid "Email preferences"
+#~ msgstr "Настройки на пощата"
+
+#~ msgid "Unsubscribe"
+#~ msgstr "Отписване"
+
+#~ msgctxt "button text"
+#~ msgid "Sign in"
+#~ msgstr "Вписване"
 
 #~ msgid "Verify password"
 #~ msgstr "Потвърждение на паролата"
@@ -1566,16 +1525,19 @@ msgstr "Вписване"
 #~ msgid "Sync preferences"
 #~ msgstr "Настройки на Sync"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Търсите Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Започнете от тук</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Имате регистрация с друг имейл? <a href=\"%(signinUri)s\">Впишете се</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "Има Firefox за <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> и <a href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Има Firefox за <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> и <a href=\"%(linkLinux)s"
+#~ "\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Последно действие %(translatedTimeAgo)s"
@@ -1680,7 +1642,8 @@ msgstr "Вписване"
 #~ msgstr "Писмото за отключване е изпратено"
 
 #~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
-#~ msgstr "От съображения за сигурност вашият Firefox Account беше заключен. За да извършите действия на ниво сметка, моля посетете връзката за повторно потвърждаване на сметката изпратена до %(email)s"
+#~ msgstr ""
+#~ "От съображения за сигурност вашият Firefox Account беше заключен. За да извършите действия на ниво сметка, моля посетете връзката за повторно потвърждаване на сметката изпратена до %(email)s"
 
 #~ msgid "Signup has been disabled"
 #~ msgstr "Регистрация е забранена"
@@ -1717,8 +1680,8 @@ msgstr "Вписване"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr ""
-#~ "Анулирането на паролата ще изтрие данните за браузването от нашите сървъри. Всички данни на вашите устройства ще останат незасегнати. Започнете процеса на анулиране с въвеждането на вашия имейл по-"
-#~ "долу."
+#~ "Анулирането на паролата ще изтрие данните за браузването от нашите сървъри. Всички данни на вашите устройства ще останат незасегнати. Започнете процеса на анулиране с въвеждането на вашия имейл "
+#~ "по-долу."
 
 #~ msgid "Age is required"
 #~ msgstr "Възрастта ви е необходима"
@@ -1876,7 +1839,9 @@ msgstr "Вписване"
 #~ msgstr "Вече имате профил? Вписване."
 
 #~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Продължавайки, се съгласявате с <a id=\"fxa-tos\" href=\"/legal/terms\">условията на услугата</a> и<a id=\"fxa-pp\" href=\"/legal/privacy\">политиката за лични данни</a> на облачните услуги на Firefox."
+#~ msgstr ""
+#~ "Продължавайки, се съгласявате с <a id=\"fxa-tos\" href=\"/legal/terms\">условията на услугата</a> и<a id=\"fxa-pp\" href=\"/legal/privacy\">политиката за лични данни</a> на облачните услуги на "
+#~ "Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Абонирайте се за новини и съвети за Firefox"

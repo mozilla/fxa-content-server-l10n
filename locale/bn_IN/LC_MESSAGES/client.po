@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-16 09:06+0000\n"
+"POT-Creation-Date: 2017-10-20 16:08+0000\n"
 "PO-Revision-Date: 2017-10-19 18:44+0000\n"
 "Last-Translator: Ayan Choudhury <ping2ayan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,16 +15,11 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1432443511.0\n"
 
-#: app/scripts/views/complete_reset_password.js:132 app/scripts/views/complete_sign_up.js:186 app/scripts/views/confirm.js:126 app/scripts/views/confirm_reset_password.js:170
-#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23
-msgid "Account verified successfully"
-msgstr "অ্যাকাউন্ট সফলভাবে যাচাই করা হয়েছে"
-
-#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:39 app/scripts/views/ready.js:40
+#: app/scripts/views/confirm_reset_password.js:160 app/scripts/views/ready.js:40
 msgid "Password reset"
 msgstr "পাসওয়ার্ড পুনরায় সেট হয়েছে"
 
-#: app/scripts/views/confirm_reset_password.js:188 app/scripts/views/confirm_reset_password.js:180
+#: app/scripts/views/confirm_reset_password.js:180
 msgid "Password reset successfully. Sign in to continue."
 msgstr "পাসওয়ার্ড সফলভাবে রিসেট করা হয়েছে। চালিয়ে যেতে সাইন ইন করুন।"
 
@@ -44,55 +39,51 @@ msgstr "নাম প্রদর্শন করুন"
 msgid "Account picture"
 msgstr "অ্যাকাউন্টের ছবি"
 
-#: app/scripts/views/ready.js:34 app/scripts/views/ready.js:35
+#: app/scripts/views/ready.js:35
 msgid "Welcome back"
 msgstr "পুনরায় স্বাগতম"
 
-#: app/scripts/views/ready.js:35 app/scripts/views/ready.js:36
+#: app/scripts/views/ready.js:36
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync কিছুক্ষণের জন্য বন্ধ হবে"
 
-#: app/scripts/views/ready.js:40 app/scripts/views/ready.js:41
+#: app/scripts/views/ready.js:41
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "আপনার অন্য Firefox ডিভাইসে নতুন পাসওয়ার্ড প্রবেশ করিয়ে সেট আপ সম্পূর্ণ করুন।"
 
-#: app/scripts/views/ready.js:45 app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:45 app/scripts/templates/connect_another_device.mustache:4
+msgid "Email verified"
+msgstr "ইমেইল যাচাই হয়েছে"
+
+#: app/scripts/views/ready.js:50
 msgid "Sign-in confirmed"
 msgstr "সাইন-ইন নিশ্চিত হয়েছে"
 
-#: app/scripts/views/ready.js:46 app/scripts/views/ready.js:51 app/scripts/templates/ready.mustache:3 app/scripts/views/ready.js:56
+#: app/scripts/views/ready.js:51 app/scripts/views/ready.js:56 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "আপনি এখন %(serviceName)s ব্যবহার করতে তৈরি।"
 
-#: app/scripts/views/ready.js:50 app/scripts/views/ready.js:55
+#: app/scripts/views/ready.js:55
 msgid "Account verified"
 msgstr "অ্যাকাউন্ট যাচাইকরণ হয়েছে"
 
-#: app/scripts/views/reset_password.js:73 app/scripts/views/sign_in.js:177 app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:164
+#: app/scripts/views/reset_password.js:79 app/scripts/views/sign_in.js:163
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "অপরিচিত অ্যাকাউন্ট। <a href=\"/signup\">সাইন আপ</a>"
 
-#: app/scripts/views/sign_in.js:174 app/scripts/views/sign_in.js:161
+#: app/scripts/views/sign_in.js:160
 msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
 msgstr "অজানা Firefox অ্যাকাউন্ট। আপনার পূর্ববর্তী অ্যাড-অন অ্যাকাউন্টের ইমেইল ঠিকানা ব্যবহার করে <a href=\"/signup\">সাইন আপ</a> করুন আপনার অ্যাড-অন ডাটা অ্যাক্সেস করার জন্য।"
 
-#: app/scripts/views/sign_up.js:61 app/scripts/views/sign_up.js:55
+#: app/scripts/views/sign_up.js:54
 msgid "Account no longer exists. Recreate it?"
 msgstr "অ্যাকাউন্টের আর অস্থিত্ব নেই। পুনরায় তৈরি করবেন?"
 
-#: app/scripts/views/sign_up.js:374 app/scripts/views/sign_up.js:315
+#: app/scripts/views/sign_up.js:314
 msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 msgstr "অ্যাকাউন্ট ইতিমধ্যেই আছে। <a href=\"/signin\">সাইন ইন</a>"
 
-#: app/scripts/views/sms_sent.js:24
-msgid "App link resent to %(phoneNumber)s"
-msgstr "অ্যাপের লিঙ্ক পুনরায় পাঠানো হয়েছে %(phoneNumber)s এ"
-
-#: app/scripts/views/settings/avatar_gravatar.js:93
-msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> এর সৌজন্যে"
-
-#: app/scripts/views/settings/change_password.js:52 app/scripts/views/settings/change_password.js:50
+#: app/scripts/views/settings/change_password.js:50
 msgid "Password changed successfully"
 msgstr "সফলভাবে পাসওয়ার্ড বদল করা হয়েছে"
 
@@ -104,33 +95,57 @@ msgstr "আমরা এটা শোনাতে দুঃখিত। আপ�
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "আমরা এটা শোনাতে দুঃখিত। যদি এটাই সেই ডিভাইস হয়ে থাকে যাকে আপনি একদম বিশ্বাস করেননা, আপনার Firefox অ্যাকাউন্টের পাসওয়ার্ড বদলানো উচিত, এবং Firefox-এ সংরক্ষিত যেকোনো পাসওয়ার্ড বদল করুন।"
 
-#: app/scripts/views/settings/clients.js:63 app/scripts/views/settings/clients.js:75
+#: app/scripts/views/settings/clients.js:75
 msgid "Web Session, %(userAgent)s"
 msgstr "ওয়েব সেশন, %(userAgent)s"
 
-#: app/scripts/views/settings/clients.js:65 app/scripts/views/settings/clients.js:80
+#: app/scripts/views/settings/clients.js:77
+msgid "Web Session"
+msgstr "ওয়েব সেশন"
+
+#: app/scripts/views/settings/clients.js:80
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:68
-msgid "Last active %(translatedTimeAgo)s"
-msgstr "শেষ সক্রিয় %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:86
+msgid "first sync %(translatedTimeAgo)s"
+msgstr ""
 
-#: app/scripts/views/settings/communication_preferences.js:104 app/scripts/views/settings/communication_preferences.js:118
+#: app/scripts/views/settings/clients.js:89
+msgid "last sync %(translatedTimeAgo)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:95
+msgid "last active %(translatedTimeAgo)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:99
+msgid "last sync time unknown"
+msgstr ""
+
+#: app/scripts/views/settings/communication_preferences.js:117
 msgid "Subscribed successfully"
 msgstr "সফলভাবে সাবস্ক্রাইব হয়েছে"
 
-#: app/scripts/views/settings/communication_preferences.js:105 app/scripts/views/settings/communication_preferences.js:119
-msgid "Unsubscribed successfully"
-msgstr "সফলভাবে আনসাবস্ক্রাইব হয়েছে"
-
-#: app/scripts/views/settings/delete_account.js:45 app/scripts/views/settings/delete_account.js:43
+#: app/scripts/views/settings/delete_account.js:43
 msgid "Account deleted successfully"
 msgstr "অ্যাকাউন্ট সফলভাবে মুছে ফেলা হয়েছে।"
 
-#: app/scripts/views/settings/display_name.js:66 app/scripts/views/settings/display_name.js:64
+#: app/scripts/views/settings/display_name.js:56
 msgid "Display name updated"
 msgstr "পরিদর্শনের নাম আপডেট করা হয়েছে"
+
+#: app/scripts/views/settings/emails.js:114
+msgid "Secondary email removed"
+msgstr ""
+
+#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
+msgid "Verification email sent"
+msgstr ""
+
+#: app/scripts/views/settings/emails.js:169
+msgid "Primary email set to %(email)s"
+msgstr ""
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -164,7 +179,43 @@ msgstr "Restmail খুলুন"
 msgid "Email resent"
 msgstr "ইমেইল পুনরায় পাঠানো হয়েছে।"
 
-#: app/scripts/models/reliers/sync.js:51 app/scripts/models/reliers/sync.js:59
+#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23
+msgid "Account verified successfully"
+msgstr "অ্যাকাউন্ট সফলভাবে যাচাই করা হয়েছে"
+
+#: app/scripts/models/sync-engines.js:33
+msgid "Open tabs"
+msgstr "ট্যাব খুলুন"
+
+#: app/scripts/models/sync-engines.js:38
+msgid "Bookmarks"
+msgstr "বুকমার্কসমূহ"
+
+#: app/scripts/models/sync-engines.js:43
+msgid "Add-ons"
+msgstr "অ্যাড-অন"
+
+#: app/scripts/models/sync-engines.js:48
+msgid "Passwords"
+msgstr "পাসওয়ার্ড"
+
+#: app/scripts/models/sync-engines.js:53
+msgid "History"
+msgstr "ইতিহাস"
+
+#: app/scripts/models/sync-engines.js:58
+msgid "Preferences"
+msgstr "পছন্দসমূহ"
+
+#: app/scripts/models/sync-engines.js:65
+msgid "Addresses"
+msgstr ""
+
+#: app/scripts/models/sync-engines.js:72
+msgid "Credit cards"
+msgstr ""
+
+#: app/scripts/models/reliers/sync.js:59
 msgid "Firefox Sync"
 msgstr "Firefox সিঙ্ক"
 
@@ -249,7 +300,7 @@ msgstr "আবেদন বডি খুব বড়ো"
 msgid "The request was blocked for security reasons"
 msgstr "নিরাপত্তার কারণে আপনার আবেদন ব্লক করা হয়েছে"
 
-#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:347 app/scripts/lib/auth-errors.js:384
+#: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:384
 msgid "Invalid authorization code"
 msgstr "অবৈধ অথোরাইজেশন কোড"
 
@@ -277,145 +328,163 @@ msgstr "আপনার ইমেইল এইমাত্র ফেরত প�
 msgid "Unable to deliver email"
 msgstr "ইমেইল ডেলিভার করতে ব্যর্থ"
 
-#: app/scripts/lib/auth-errors.js:150 app/scripts/lib/auth-errors.js:327 app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
+#: app/scripts/lib/auth-errors.js:151
+msgid "This email was already verified by another user"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:155
+msgid "Secondary email must be different than your account email"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:167
+msgid "Primary account email required for sign-in"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:171
+msgid "Address in use by another account"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:175
+msgid "Primary account email required for reset"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:179
+msgid "Invalid signin code"
+msgstr ""
+
+#: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
 msgid "Server busy, try again soon"
 msgstr "সার্ভার ব্যস্ত, কিছুক্ষণের মধ্যে আবার চেষ্টা করুন"
 
-#: app/scripts/lib/auth-errors.js:154 app/scripts/lib/auth-errors.js:188
+#: app/scripts/lib/auth-errors.js:188
 msgid "This endpoint is no longer supported"
 msgstr "এই endpoint আর সমর্থিত নয়"
 
-#: app/scripts/lib/auth-errors.js:158 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
-#: app/scripts/lib/auth-errors.js:192
+#: app/scripts/lib/auth-errors.js:192 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
 msgstr "সিস্টেম অনুপলব্ধ, কিছুক্ষণের মধ্যে আবার চেষ্টা করুন"
 
-#: app/scripts/lib/auth-errors.js:162 app/scripts/lib/auth-errors.js:196
+#: app/scripts/lib/auth-errors.js:196
 msgid "Login attempt cancelled"
 msgstr "লগইনের চেষ্টা বাতিল করা হয়েছে"
 
-#: app/scripts/lib/auth-errors.js:166 app/scripts/lib/auth-errors.js:200
+#: app/scripts/lib/auth-errors.js:200
 msgid "Session expired. Sign in to continue."
 msgstr "সেশনের মেয়াদ শেষ। অবিরত থাকতে সাইন-ইন করুন।"
 
-#: app/scripts/lib/auth-errors.js:170 app/scripts/lib/auth-errors.js:204
+#: app/scripts/lib/auth-errors.js:204
 msgid "Cookies are still disabled"
 msgstr "কুকিজগুলো এখনো অক্ষম।"
 
-#: app/scripts/lib/auth-errors.js:174 app/scripts/lib/auth-errors.js:208
+#: app/scripts/lib/auth-errors.js:208
 msgid "Passwords do not match"
 msgstr "পাসওয়ার্ড মিলছে না"
 
-#: app/scripts/lib/auth-errors.js:178 app/scripts/lib/auth-errors.js:212
+#: app/scripts/lib/auth-errors.js:212
 msgid "Working…"
 msgstr "কাজ চলছে..."
 
-#: app/scripts/lib/auth-errors.js:182 app/scripts/lib/auth-errors.js:216
+#: app/scripts/lib/auth-errors.js:216
 msgid "Could not get Privacy Notice"
 msgstr "গোপনীয়তার বিজ্ঞপ্তি পাওয়া যাচ্ছে না"
 
-#: app/scripts/lib/auth-errors.js:186 app/scripts/lib/auth-errors.js:220
+#: app/scripts/lib/auth-errors.js:220
 msgid "Could not get Terms of Service"
 msgstr "পরিষেবার শর্তাবলী পাওয়া যাচ্ছে না"
 
-#: app/scripts/lib/auth-errors.js:190 app/scripts/lib/auth-errors.js:224
+#: app/scripts/lib/auth-errors.js:224
 msgid "Your new password must be different"
 msgstr "আপনার নতুন পাসওয়ার্ড অবশ্যই আলাদা হতে হবে।"
 
-#: app/scripts/lib/auth-errors.js:194 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7 app/scripts/lib/auth-errors.js:228
+#: app/scripts/lib/auth-errors.js:228 app/scripts/templates/complete_reset_password.mustache:13 app/scripts/templates/settings/change_password.mustache:7
 msgid "Must be at least 8 characters"
 msgstr "কমপক্ষে 8 অক্ষর হতেই হবে।"
 
-#: app/scripts/lib/auth-errors.js:198 app/scripts/lib/auth-errors.js:232
+#: app/scripts/lib/auth-errors.js:232
 msgid "Valid password required"
 msgstr "যাচিত পাসওয়ার্ড প্রয়োজন"
 
-#: app/scripts/lib/auth-errors.js:202 app/scripts/lib/auth-errors.js:240 app/scripts/lib/auth-errors.js:256 app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:274
-#: app/scripts/lib/auth-errors.js:290
+#: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:274 app/scripts/lib/auth-errors.js:290
 msgid "Valid email required"
 msgstr "যাচিত ইমেইল প্রয়োজন।"
 
-#: app/scripts/lib/auth-errors.js:213 app/scripts/lib/auth-errors.js:247
+#: app/scripts/lib/auth-errors.js:247
 msgid "A usable image was not found"
 msgstr "একটি ব্যবহারযোগ্য ছবি খুঁজে পাওয়া যায়নি"
 
-#: app/scripts/lib/auth-errors.js:217 app/scripts/lib/auth-errors.js:251
+#: app/scripts/lib/auth-errors.js:251
 msgid "Could not initialize camera"
 msgstr "ক্যামেরা চালু করা যাচ্ছে না"
 
-#: app/scripts/lib/auth-errors.js:221 app/scripts/lib/auth-errors.js:255
+#: app/scripts/lib/auth-errors.js:255
 msgid "Valid URL required"
 msgstr "বৈধ URL প্রয়োজন"
 
-#: app/scripts/lib/auth-errors.js:236 app/scripts/lib/auth-errors.js:270
+#: app/scripts/lib/auth-errors.js:270
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "আপনার যাচাইকরণ মেইল এইমাত্র ফেরত এসেছে। ইমেইল ভুল টাইপ হয়েছে?"
 
-#: app/scripts/lib/auth-errors.js:244 app/scripts/lib/auth-errors.js:278
+#: app/scripts/lib/auth-errors.js:278
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "একটি বৈধ ইমেইল ঠিকানা প্রবেশ করান। firefox.com ইমেইল অফার করে না।"
 
-#: app/scripts/lib/auth-errors.js:252 app/scripts/lib/auth-errors.js:286
+#: app/scripts/lib/auth-errors.js:286
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox অ্যাকাউন্ট শুধুমাত্র একটি পর্যালোচিত সাইটে IFRAME-ই রাখা যায়"
 
-#: app/scripts/lib/auth-errors.js:271 app/scripts/templates/complete_sign_up.mustache:9 app/scripts/lib/auth-errors.js:305
+#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
 msgstr "যাচাই করবার লিঙ্ক নষ্ট হয়ে গেছে।"
 
-#: app/scripts/lib/auth-errors.js:279 app/scripts/lib/auth-errors.js:313
+#: app/scripts/lib/auth-errors.js:313
 msgid "The image dimensions must be at least 100x100px"
 msgstr "ছবির দিক মাত্রা অবশ্যই কমপক্ষে 100 x 100 px হতে হবে"
 
-#: app/scripts/lib/auth-errors.js:283 app/scripts/lib/auth-errors.js:317
+#: app/scripts/lib/auth-errors.js:317
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Firefox for iOS-এর জন্য শীঘ্রই সাইন আপ আসছে"
 
-#: app/scripts/lib/auth-errors.js:294 app/scripts/lib/auth-errors.js:328
+#: app/scripts/lib/auth-errors.js:328
 msgid "You must enter your age to sign up"
 msgstr "আপনাকে সাইন আপ করার জন্য আপনার বয়স দিতেই হবে"
 
-#: app/scripts/lib/auth-errors.js:298
-msgid "No Gravatar found"
-msgstr "কোন Gravatar পাওয়া যায়নি"
-
-#: app/scripts/lib/auth-errors.js:306 app/scripts/lib/auth-errors.js:343
+#: app/scripts/lib/auth-errors.js:343
 msgid "Account no longer exists."
 msgstr "অ্যাকাউন্ট আর উপস্থিত নেই।"
 
-#: app/scripts/lib/auth-errors.js:310 app/scripts/lib/auth-errors.js:347
+#: app/scripts/lib/auth-errors.js:347
 msgid "Invalid property in resume token: %(property)s"
 msgstr "নমুনায় অবৈধ বৈশিষ্ট্য: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:314 app/scripts/lib/auth-errors.js:351
+#: app/scripts/lib/auth-errors.js:351
 msgid "Missing property in resume token: %(property)s"
 msgstr "নমুনায় লুপ্ত বৈশিষ্ট্য: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:318 app/scripts/lib/auth-errors.js:355
+#: app/scripts/lib/auth-errors.js:355
 msgid "Invalid data attribute: %(property)s"
 msgstr "অবৈধ ডেটা অ্যাট্রিবিউট: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:322 app/scripts/lib/auth-errors.js:359
+#: app/scripts/lib/auth-errors.js:359
 msgid "Missing data attribute: %(property)s"
 msgstr "তথ্য বৈশিষ্ট্য নিখোঁজ: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:335 app/scripts/templates/complete_sign_up.mustache:2 app/scripts/lib/auth-errors.js:372
+#: app/scripts/lib/auth-errors.js:372 app/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "ওই নিশ্চিতকরণ লিঙ্কটি ইতিমধ্যে ব্যবহৃত, এবং একবারই ব্যবহার করা যাবে।"
 
-#: app/scripts/lib/auth-errors.js:339 app/scripts/lib/auth-errors.js:376
+#: app/scripts/lib/auth-errors.js:376
 msgid "This is a required field"
 msgstr "এটি একটি প্রয়োজনীয় ক্ষেত্র"
 
-#: app/scripts/lib/auth-errors.js:343 app/scripts/lib/auth-errors.js:380
+#: app/scripts/lib/auth-errors.js:380
 msgid "Authorization code required"
 msgstr "অনুমোদন কোড প্রয়োজন"
 
-#: app/scripts/lib/auth-errors.js:351 app/scripts/templates/report_sign_in.mustache:1 app/scripts/lib/auth-errors.js:388
+#: app/scripts/lib/auth-errors.js:388 app/scripts/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "লিংক ক্ষতিগ্রস্ত"
 
-#: app/scripts/lib/auth-errors.js:374 app/scripts/lib/auth-errors.js:411
+#: app/scripts/lib/auth-errors.js:411
 msgid "Phone number required"
 msgstr "ফোন নম্বর প্রয়োজন"
 
@@ -428,8 +497,8 @@ msgid "Invalid configuration"
 msgstr "ভুল কনফিগারেশন"
 
 #: app/scripts/lib/mailcheck.js:25
-msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-msgstr "আপনি কি <span tabindex=\"1\"> %(escapedDomain)s </span> এটা মানে করতে চেয়েছিলেন?"
+msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
+msgstr ""
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
@@ -524,8 +593,12 @@ msgid "SMS not sent, please try again"
 msgstr "SMS পাঠানো হয়নি, অনুগ্রহ করে আবার চেষ্টা করুন"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "এগিয়ে যাওয়ার মাধ্যমে আপনি সম্মত হন <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)।"
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"এগিয়ে যাওয়ার মাধ্যমে আপনি সম্মত হন <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)।"
 
 #: app/scripts/lib/strings.js:30
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -551,9 +624,9 @@ msgstr "IP ঠিকানা: %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "অতিরিক্ত নিরাপত্তার জন্য, এই ডিভাইস এর সাথে সিঙ্ক শুরু করতে সাইন-ইন দয়া করে নিশ্চিত করুন:"
 
-#: app/scripts/lib/strings.js:43 app/scripts/views/settings/clients.js:77
-msgid "Web Session"
-msgstr "ওয়েব সেশন"
+#: app/scripts/lib/strings.js:46 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4 app/scripts/templates/sign_in_password.mustache:6
+msgid "Sign in"
+msgstr "সাইন ইন"
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
@@ -575,54 +648,21 @@ msgstr "অ্যাকাউন্ট তৈরি করা যাচ্ছে
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 msgstr "আপনাকে Firefox&nbsp; অ্যাকাউন্ট তৈরি করতে নির্দিষ্ট বয়সের প্রয়োজনীয়তা পূরণ করতে হবে।"
 
-#: app/scripts/templates/cannot_create_account.mustache:4
-msgid "Learn more."
-msgstr "আরো জানুন।"
+#: app/scripts/templates/cannot_create_account.mustache:4 app/scripts/templates/cookies_disabled.mustache:3
+msgid "Learn more"
+msgstr "আরো জানুন"
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
-msgid "%(email)s created"
-msgstr "%(email)s তৈরি করা হয়েছে"
+msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
+msgstr ""
 
-#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:23 app/scripts/templates/sign_up.mustache:22
+#: app/scripts/templates/choose_what_to_sync.mustache:2 app/scripts/templates/sign_up.mustache:22
 msgid "Choose what to sync"
 msgstr "চয়ন করুন কি সিঙ্ক করতে হবে"
 
-#: app/scripts/templates/choose_what_to_sync.mustache:3 app/scripts/models/sync-engines.js:33
-msgid "Open tabs"
-msgstr "ট্যাব খুলুন"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:5 app/scripts/models/sync-engines.js:38
-msgid "Bookmarks"
-msgstr "বুকমার্কসমূহ"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:7 app/scripts/models/sync-engines.js:43
-msgid "Add-ons"
-msgstr "অ্যাড-অন"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:9 app/scripts/models/sync-engines.js:48
-msgid "Passwords"
-msgstr "পাসওয়ার্ড"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:11 app/scripts/models/sync-engines.js:53
-msgid "History"
-msgstr "ইতিহাস"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:13 app/scripts/models/sync-engines.js:58
-msgid "Preferences"
-msgstr "পছন্দসমূহ"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:15
-msgid "Add-ons and Preferences do not currently sync on mobile devices."
-msgstr "অ্যাড-অন এবং পছন্দসমূহ বর্তমানে মোবাইল ডিভাইসে সিঙ্ক করে না।"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:16 app/scripts/templates/choose_what_to_sync.mustache:5
+#: app/scripts/templates/choose_what_to_sync.mustache:5
 msgid "Save settings"
 msgstr "সেটিংস্‌গুলি সেভ করুন"
-
-#: app/scripts/templates/choose_what_to_sync.mustache:17 app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/tos.mustache:3
-#: app/scripts/templates/sign_in_bounced.mustache:6
-msgid "Back"
-msgstr "পিছনে যান।"
 
 #: app/scripts/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -633,8 +673,8 @@ msgid "The link you clicked to reset your password is expired."
 msgstr "আপনি আপনার পাসওয়ার্ড পুনরায় সেট করবার জন্য যে লিঙ্কটায় চাপ দিয়েছেন সেই লিঙ্কটার মেয়াদ শেষ হয়ে গেছে।"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Click here to receive a new reset link"
-msgstr "এখানে চাপ দিন একটা নতুন রিসেট করবার জন্য লিঙ্ক পেতে।"
+msgid "Receive new link"
+msgstr ""
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -692,33 +732,32 @@ msgstr "আপনার অ্যাকাউন্টকে নিশ্চি�
 msgid "Confirm this sign-in"
 msgstr "সাইন-ইন নিশ্চিত করুন"
 
-#: app/scripts/templates/confirm.mustache:5 app/scripts/templates/confirm_reset_password.mustache:2
-msgid "Email Sent"
-msgstr "ইমেইল পাঠানো হয়েছে"
+#: app/scripts/templates/confirm.mustache:5
+msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
-#: app/scripts/templates/confirm.mustache:6
-msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr "একটা যাচাইকরণ লিঙ্ক পাঠানো হয়েছে &nbsp; থেকে %(escapedEmail)s-এ"
+#: app/scripts/templates/confirm.mustache:7
+msgid "Check your email for the sign-in confirmation link sent to %(email)s"
+msgstr ""
 
-#: app/scripts/templates/confirm.mustache:8
-msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-msgstr "আপনার Firefox তথ্য রক্ষা করার জন্য, আমরা একটি কনফার্মেশন লিঙ্ক ইমেল করেছি %(email)s"
-
-#: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
+#: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
-msgid "Didn't arrive and not in spam folder? Resend"
-msgstr "আসেনি এবং স্প্যাম ফোল্ডারে নেই? আবার পাঠান"
+msgid "Not in inbox or spam folder? Resend"
+msgstr ""
+
+#: app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/sign_in_bounced.mustache:6 app/scripts/templates/tos.mustache:3
+msgid "Back"
+msgstr "পিছনে যান।"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
 msgstr "রিসেট করার ইমেইল পাঠানো হয়েছে।"
 
-#: app/scripts/templates/confirm_reset_password.mustache:3 app/scripts/templates/confirm_reset_password.mustache:2
+#: app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
 msgstr "পরবর্তী ঘন্টার মধ্যে একটি নতুন পাসওয়ার্ড তৈরি করতে আমরা আপনাকে %(email)s এ ইমেল করেছি লিঙ্কটি ক্লিক করুন।"
 
-#: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7 app/scripts/templates/confirm_reset_password.mustache:4
-#: app/scripts/templates/confirm_reset_password.mustache:6 app/scripts/templates/reset_password.mustache:10
+#: app/scripts/templates/confirm_reset_password.mustache:4 app/scripts/templates/confirm_reset_password.mustache:6 app/scripts/templates/reset_password.mustache:10
 msgid "Remember password? Sign in"
 msgstr "পাসওয়ার্ড মনে আছে? প্রবেশ করুন"
 
@@ -726,59 +765,58 @@ msgstr "পাসওয়ার্ড মনে আছে? প্রবেশ �
 msgid "Connect another device"
 msgstr "অন্য ডিভাইস সংযোগ করুন"
 
-#: app/scripts/templates/connect_another_device.mustache:2
-msgid "This device is connected"
-msgstr "এই ডিভাইসটি সংযুক্ত"
+#: app/scripts/templates/connect_another_device.mustache:2 app/scripts/templates/sms_send.mustache:2
+msgid "This Firefox is connected"
+msgstr ""
 
-#: app/scripts/templates/connect_another_device.mustache:4 app/scripts/views/ready.js:45
-msgid "Email verified"
-msgstr "ইমেইল যাচাই হয়েছে"
+#: app/scripts/templates/connect_another_device.mustache:6
+msgid "Signin confirmed"
+msgstr ""
 
-#: app/scripts/templates/connect_another_device.mustache:5 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:3
-#: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/sms_sent.mustache:5
+#: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
 msgstr "সাফল্য"
 
-#: app/scripts/templates/connect_another_device.mustache:6 app/scripts/templates/connect_another_device.mustache:9
+#: app/scripts/templates/connect_another_device.mustache:9
 msgid "Sign in to this Firefox to complete set-up"
 msgstr ""
 
-#: app/scripts/templates/connect_another_device.mustache:7 app/scripts/templates/connect_another_device.mustache:10
+#: app/scripts/templates/connect_another_device.mustache:10
 msgid "Sign in &rarr;"
 msgstr ""
 
-#: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
+#: app/scripts/templates/connect_another_device.mustache:12 app/scripts/templates/connect_another_device.mustache:16 app/scripts/templates/connect_another_device.mustache:26
+#: app/scripts/templates/sms_send.mustache:4
+msgid "Still adding devices?"
+msgstr ""
+
 #: app/scripts/templates/connect_another_device.mustache:14 app/scripts/templates/connect_another_device.mustache:18 app/scripts/templates/connect_another_device.mustache:28
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr ""
 
-#: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:20
+#: app/scripts/templates/connect_another_device.mustache:20
 msgid "Open settings and select Sign in to Firefox to complete set-up"
 msgstr ""
 
-#: app/scripts/templates/connect_another_device.mustache:15 app/scripts/templates/connect_another_device.mustache:22
+#: app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
 msgstr ""
 
-#: app/scripts/templates/connect_another_device.mustache:17 app/scripts/templates/connect_another_device.mustache:24
+#: app/scripts/templates/connect_another_device.mustache:24
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr ""
 
-#: app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
-msgid "Why is this required?"
+#: app/scripts/templates/connect_another_device.mustache:30 app/scripts/templates/sms_send.mustache:10
+msgid "Why is more than one device required?"
 msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required."
-msgstr "কুকিজ এবং স্থানীয় স্টোরেজ প্রয়োজন হয়।"
+msgid "Cookies and local storage are required"
+msgstr ""
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
 msgstr "Firefox অ্যাকাউন্ট অ্যাক্সেস করতে আপনার ব্রাউজারে কুকিজ এবং স্থানীয় স্টোরেজ সক্রিয় করুন। এগুলি করলে ব্রাউজারের বৈশিষ্ট্য সক্রিয় হবে যেমন আপনাকে সেশনের মধ্যে মনে রাখবে।"
-
-#: app/scripts/templates/cookies_disabled.mustache:3 app/scripts/templates/cannot_create_account.mustache:4
-msgid "Learn more"
-msgstr "আরো জানুন"
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -788,26 +826,39 @@ msgstr "আবার চেষ্টা করুন।"
 msgid "Sign in to continue"
 msgstr "অবিরত থাকতে সাইন ইন করুন।"
 
-#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_up.mustache:15
-#: app/scripts/templates/settings/change_password.mustache:1 app/scripts/templates/settings/delete_account.mustache:4 app/scripts/templates/sign_in_password.mustache:5
-#: app/scripts/templates/sign_up.mustache:12 app/scripts/templates/sign_up_password.mustache:5
+#: app/scripts/templates/force_auth.mustache:3 app/scripts/templates/sign_in.mustache:8 app/scripts/templates/sign_in.mustache:16 app/scripts/templates/sign_in_password.mustache:5
+#: app/scripts/templates/sign_up.mustache:12 app/scripts/templates/sign_up_password.mustache:5 app/scripts/templates/settings/change_password.mustache:1
+#: app/scripts/templates/settings/delete_account.mustache:4
 msgid "Password"
 msgstr "পাসওয়ার্ড"
 
-#: app/scripts/templates/force_auth.mustache:5 app/scripts/lib/strings.js:46 app/scripts/templates/sign_in_password.mustache:1 app/scripts/templates/sign_in_password.mustache:4
-#: app/scripts/templates/sign_in_password.mustache:6
-msgid "Sign in"
-msgstr "সাইন ইন"
-
-#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:18 app/scripts/templates/settings/change_password.mustache:5
 #: app/scripts/templates/force_auth.mustache:5 app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_in_password.mustache:8
+#: app/scripts/templates/settings/change_password.mustache:5
 msgid "Forgot password?"
 msgstr "পাসওয়ার্ড ভুলে গেছেন?"
 
-#: app/scripts/templates/force_auth.mustache:7 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:18 app/scripts/templates/force_auth.mustache:6
-#: app/scripts/templates/index.mustache:6 app/scripts/templates/sign_up.mustache:17 app/scripts/templates/sign_up_password.mustache:7
+#: app/scripts/templates/force_auth.mustache:6 app/scripts/templates/index.mustache:6 app/scripts/templates/sign_in.mustache:20 app/scripts/templates/sign_up.mustache:17
+#: app/scripts/templates/sign_up_password.mustache:7
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a> of Firefox cloud services."
-msgstr "এগিয়ে যেতে হলে, আপনাকে সম্মত হতে হবে <a id=\"fxa-tos\" href=\"/legal/terms\">Firefox Cloud service এর শর্তাবলী</a> এবং <a id=\"fxa-pp\" href=\"/legal/privacy\">গোপনীয়তা</a> সম্পর্কিত তথ্যাদির সঙ্গে।"
+msgstr ""
+"এগিয়ে যেতে হলে, আপনাকে সম্মত হতে হবে <a id=\"fxa-tos\" href=\"/legal/terms\">Firefox Cloud service এর শর্তাবলী</a> এবং <a id=\"fxa-pp\" href=\"/legal/privacy\">গোপনীয়তা</a> সম্পর্কিত তথ্যাদির সঙ্গে।"
+
+#: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
+msgid "Enter your email"
+msgstr ""
+
+#: app/scripts/templates/index.mustache:2 app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in_password.mustache:2
+#: app/scripts/templates/sign_up.mustache:2 app/scripts/templates/sign_up_password.mustache:2
+msgid "Continue to %(serviceName)s"
+msgstr "%(serviceName)সমূহতে চালিয়ে যান"
+
+#: app/scripts/templates/index.mustache:5 app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:11
+msgid "Email"
+msgstr "ইমেইল"
+
+#: app/scripts/templates/index.mustache:7 app/scripts/templates/sign_in_unblock.mustache:5
+msgid "Continue"
+msgstr "চালু রাখুন"
 
 #: app/scripts/templates/legal.mustache:1 app/scripts/templates/pp.mustache:1 app/scripts/templates/tos.mustache:1
 msgid "Firefox cloud services"
@@ -843,29 +894,28 @@ msgstr "Firefox for Android ডাউনলোড করুন।"
 msgid "Download Firefox for mobile devices."
 msgstr "মোবাইল ডিভাইসের জন্য Firefox ডাউনলোড করুন।"
 
-#: app/scripts/templates/permissions.mustache:1 app/scripts/templates/settings/gravatar_permissions.mustache:1
+#: app/scripts/templates/permissions.mustache:1
 msgid "Request for permission"
 msgstr "অনুমতির জন্য অনুরোধ"
 
-#: app/scripts/templates/permissions.mustache:2 app/scripts/templates/settings/gravatar_permissions.mustache:2
+#: app/scripts/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
 msgstr "%(serviceName)s আপনার অ্যাকাউন্ট থেকে নিম্নলিখিত তথ্য চায়:"
 
-#: app/scripts/templates/permissions.mustache:3 app/scripts/templates/settings/gravatar_permissions.mustache:4
+#: app/scripts/templates/permissions.mustache:3
 msgid "Accept"
 msgstr "স্বীকার করুন"
 
 #: app/scripts/templates/permissions.mustache:4 app/scripts/templates/settings/avatar_camera.mustache:2 app/scripts/templates/settings/avatar_crop.mustache:3
-#: app/scripts/templates/settings/avatar_gravatar.mustache:3 app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9
-#: app/scripts/templates/settings/communication_preferences.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:13 app/scripts/templates/settings/delete_account.mustache:6
-#: app/scripts/templates/settings/display_name.mustache:8 app/scripts/templates/settings/gravatar_permissions.mustache:5 app/scripts/templates/settings/communication_preferences.mustache:14
+#: app/scripts/templates/settings/change_password.mustache:9 app/scripts/templates/settings/client_disconnect.mustache:9 app/scripts/templates/settings/communication_preferences.mustache:5
+#: app/scripts/templates/settings/communication_preferences.mustache:10 app/scripts/templates/settings/delete_account.mustache:6 app/scripts/templates/settings/display_name.mustache:8
 #: app/scripts/templates/settings/emails.mustache:25
 msgid "Cancel"
 msgstr "বাতিল করুন"
 
-#: app/scripts/templates/ready.mustache:4
-msgid "Proceed"
-msgstr "এগিয়ে যান"
+#: app/scripts/templates/ready.mustache:5
+msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
+msgstr ""
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
@@ -891,27 +941,13 @@ msgstr "এটা কেন হচ্ছে?"
 msgid "Reset account"
 msgstr ""
 
-#: app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_up.mustache:2 app/scripts/templates/index.mustache:2
-#: app/scripts/templates/sign_in_password.mustache:2 app/scripts/templates/sign_up_password.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "%(serviceName)সমূহতে চালিয়ে যান"
-
 #: app/scripts/templates/reset_password.mustache:5
 msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
 msgstr "যখন আপনি আপনার পাসওয়ার্ড রিসেট করেন, আপনি আপনার ডিভাইসের কোন না কোন সিঙ্ক ডেটা হারাবেন।"
 
-#: app/scripts/templates/reset_password.mustache:8 app/scripts/templates/sign_in.mustache:15 app/scripts/templates/sign_up.mustache:13 app/scripts/templates/settings/gravatar_permissions.mustache:3
-#: app/scripts/templates/index.mustache:5 app/scripts/templates/sign_up.mustache:11
-msgid "Email"
-msgstr "ইমেইল"
-
 #: app/scripts/templates/reset_password.mustache:9
 msgid "Begin reset"
 msgstr ""
-
-#: app/scripts/templates/reset_password.mustache:10 app/scripts/templates/reset_password.mustache:12
-msgid "Remember password? Sign in."
-msgstr "পাসওয়ার্ড মনে আছে? সাইন-ইন করুন।"
 
 #: app/scripts/templates/settings.mustache:1
 msgid "Firefox Accounts"
@@ -929,13 +965,33 @@ msgstr ""
 msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
 msgstr "আপনার Firefox &nbsp অ্যাকাউন্ট সাইন ইন করে আপনার সিঙ্ক ডেটা স্থানান্তর করুন।"
 
-#: app/scripts/templates/sign_in.mustache:10 app/scripts/templates/sign_in.mustache:12 app/scripts/templates/sign_in.mustache:9
+#: app/scripts/templates/sign_in.mustache:9 app/scripts/templates/sign_in.mustache:12
 msgid "Use a different account"
 msgstr "আলাদা একটি অ্যাকাউন্ট ব্যবহার করুন"
 
-#: app/scripts/templates/sign_in.mustache:19 app/scripts/templates/sign_in.mustache:18
+#: app/scripts/templates/sign_in.mustache:18
 msgid "Create an account"
 msgstr "একটি অ্যাকাউন্ট তৈরি করুন।"
+
+#: app/scripts/templates/sign_in_bounced.mustache:1
+msgid "Sorry. We’ve locked your&nbsp;account."
+msgstr ""
+
+#: app/scripts/templates/sign_in_bounced.mustache:2
+msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
+msgstr ""
+
+#: app/scripts/templates/sign_in_bounced.mustache:3
+msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
+msgstr ""
+
+#: app/scripts/templates/sign_in_bounced.mustache:5
+msgid "No longer own that email? Create a new account"
+msgstr ""
+
+#: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:11
+msgid "Mistyped email?"
+msgstr ""
 
 #: app/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -950,104 +1006,96 @@ msgid "Authorize this sign-in"
 msgstr "এই সাইন-ইন করার অনুমতি দিন"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
-msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-msgstr "আপনার Firefox তথ্য রক্ষা করার জন্য, একটি অনুমোদিত কোড আপনার জন্য অপেক্ষা করছে %(email)s-এ।"
+msgid "Check your email for the authorization code sent to %(email)s."
+msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
 msgstr "অনুমোদন কোড টি দিন"
-
-#: app/scripts/templates/sign_in_unblock.mustache:5 app/scripts/templates/index.mustache:7
-msgid "Continue"
-msgstr "চালু রাখুন"
 
 #: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4 app/scripts/templates/sign_up_password.mustache:1 app/scripts/templates/sign_up_password.mustache:4
 msgid "Create a Firefox Account"
 msgstr "একটি Firefox অ্যাকাউন্ট তৈরি করুন।"
 
 #: app/scripts/templates/sign_up.mustache:6
-msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-msgstr "Firefox সিঙ্কের জন্য দেখছেন? <a href=\"%(escapedSyncSuggestionUrl)s\">এখানে শুরু করুন</a>"
-
-#: app/scripts/templates/sign_up.mustache:8 app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
 msgstr "একটি নতুন Firefox &nbsp; অ্যাকাউন্ট খুলে আপনার সিঙ্ক ডেটা স্থানান্তর করুন।"
 
-#: app/scripts/templates/sign_up.mustache:10 app/scripts/templates/sign_up.mustache:8
+#: app/scripts/templates/sign_up.mustache:8
 msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
 msgstr ""
 
-#: app/scripts/templates/sign_up.mustache:17 app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up_password.mustache:6
+#: app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up_password.mustache:6
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
 msgstr "একটা শক্তিশালী, স্বতন্ত্র পাসওয়ার্ড আপনার Firefox তথ্য কে সুরক্ষিত রাখবে অনধিকারপ্রবেশকারী দের থেকে।"
 
-#: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/sign_up_password.mustache:8
-msgid "Receive the monthly Firefox newsletter"
+#: app/scripts/templates/sign_up.mustache:18
+msgid "Get the latest news about Mozilla and Firefox"
 msgstr ""
 
-#: app/scripts/templates/sign_up.mustache:21 app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10
+#: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10
 msgid "Create account"
 msgstr "অ্যাকাউন্ট তৈরি করুন"
 
-#: app/scripts/templates/sign_up.mustache:26 app/scripts/templates/sign_up.mustache:25
+#: app/scripts/templates/sign_up.mustache:25
 msgid "Have an account? Sign in"
 msgstr "অ্যাকাউন্ট আছে? সাইন ইন করুন"
 
-#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:4 app/scripts/templates/sms_send.mustache:6
+#: app/scripts/templates/sign_up_password.mustache:8
+msgid "Receive the monthly Firefox newsletter"
+msgstr ""
+
+#: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:6
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 msgstr ""
 
-#: app/scripts/templates/sms_send.mustache:2 app/scripts/templates/connect_another_device.mustache:2
-msgid "This Firefox is connected"
-msgstr ""
-
-#: app/scripts/templates/sms_send.mustache:5 app/scripts/templates/sms_send.mustache:7
+#: app/scripts/templates/sms_send.mustache:7
 msgid "Mobile phone number"
 msgstr ""
 
-#: app/scripts/templates/sms_send.mustache:6 app/scripts/templates/sms_send.mustache:8
+#: app/scripts/templates/sms_send.mustache:8
 msgid "Send"
 msgstr ""
 
-#: app/scripts/templates/sms_send.mustache:7
+#: app/scripts/templates/sms_send.mustache:9
 msgid ""
-"SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
 
-#: app/scripts/templates/sms_send.mustache:9 app/scripts/templates/sms_send.mustache:11
+#: app/scripts/templates/sms_send.mustache:11
 msgid "Maybe later"
 msgstr ""
 
-#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4 app/scripts/templates/sms_sent.mustache:6
+#: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
 msgstr ""
 
 #: app/scripts/templates/sms_sent.mustache:2
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
 msgstr ""
 
-#: app/scripts/templates/sms_sent.mustache:5 app/scripts/templates/sms_sent.mustache:7
+#: app/scripts/templates/sms_sent.mustache:3
+msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+msgstr ""
+
+#: app/scripts/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
 msgstr ""
 
-#: app/scripts/templates/sms_sent.mustache:6 app/scripts/templates/sms_sent.mustache:8
+#: app/scripts/templates/sms_sent.mustache:8
 msgid "Didn't arrive? Resend"
 msgstr "যায়নি? আবার পাঠান"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
-msgid "Why Sync two (or more!) devices?"
+msgid "Why sync multiple devices?"
 msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
-msgid ""
-"Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-"Firefox for desktop will appear."
+msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
 msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
-msgid ""
-"Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
-"information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
@@ -1076,15 +1124,11 @@ msgid "Camera"
 msgstr "ক্যামেরা"
 
 #: app/scripts/templates/settings/avatar_change.mustache:3
-msgid "Gravatar"
-msgstr "গ্র্যাভ্যাতার"
-
-#: app/scripts/templates/settings/avatar_change.mustache:4 app/scripts/templates/settings/avatar_change.mustache:3
 msgid "Clear"
 msgstr "মুছে ফেলুন"
 
-#: app/scripts/templates/settings/avatar_change.mustache:6 app/scripts/templates/settings/clients.mustache:26 app/scripts/templates/settings/avatar_change.mustache:5
-#: app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/emails.mustache:22
+#: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/communication_preferences.mustache:12
+#: app/scripts/templates/settings/emails.mustache:22
 msgid "Done"
 msgstr "সমাপ্ত"
 
@@ -1095,10 +1139,6 @@ msgstr "আপনার ছবি প্রয়োজন মতোন পজি�
 #: app/scripts/templates/settings/avatar_crop.mustache:2 app/scripts/templates/settings/change_password.mustache:8 app/scripts/templates/settings/display_name.mustache:7
 msgid "Change"
 msgstr "পাল্টান"
-
-#: app/scripts/templates/settings/avatar_gravatar.mustache:2
-msgid "Save"
-msgstr "সংরক্ষণ করুন"
 
 #: app/scripts/templates/settings/change_password.mustache:3
 msgid "Once you're finished, use your new password to sign in on all of your devices."
@@ -1136,8 +1176,7 @@ msgstr ""
 msgid "Rather not say"
 msgstr "না বলাই ভালো"
 
-#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:11 app/scripts/templates/settings/clients.mustache:14
-#: app/scripts/templates/settings/clients.mustache:13
+#: app/scripts/templates/settings/client_disconnect.mustache:8 app/scripts/templates/settings/clients.mustache:13
 msgid "Disconnect"
 msgstr "বিচ্ছিন্ন করা"
 
@@ -1153,41 +1192,43 @@ msgstr "ডিভাইস এবং অ্যাপ"
 msgid "Show"
 msgstr "দেখান"
 
-#: app/scripts/templates/settings/clients.mustache:5 app/scripts/templates/settings/clients.mustache:6
+#: app/scripts/templates/settings/clients.mustache:6
 msgid "current device"
 msgstr "বর্তমান ডিভাইস"
 
-#: app/scripts/templates/settings/clients.mustache:7 app/scripts/templates/settings/clients.mustache:8
+#: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
 msgstr "বিযুক্ত করুন…"
 
-#: app/scripts/templates/settings/clients.mustache:9 app/scripts/templates/settings/clients.mustache:11
+#: app/scripts/templates/settings/clients.mustache:11
 msgid "current session"
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:17 app/scripts/templates/settings/clients.mustache:19
+#: app/scripts/templates/settings/clients.mustache:16
+msgid "Revoke"
+msgstr ""
+
+#: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
 msgstr "iOS-র জন্য Firefox"
 
-#: app/scripts/templates/settings/clients.mustache:18 app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:20
-#: app/scripts/templates/settings/clients.mustache:23
+#: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
 msgid "none connected"
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:19 app/scripts/templates/settings/clients.mustache:22 app/scripts/templates/settings/clients.mustache:21
-#: app/scripts/templates/settings/clients.mustache:24
+#: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
 msgstr ""
 
-#: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:22
+#: app/scripts/templates/settings/clients.mustache:22
 msgid "Firefox for Android"
 msgstr "Android-র জন্য Firefox"
 
-#: app/scripts/templates/settings/clients.mustache:24 app/scripts/templates/settings/clients.mustache:26
+#: app/scripts/templates/settings/clients.mustache:26
 msgid "Missing or duplicate items?"
 msgstr "হারিয়ে যাওয়া বা অনুরূপ উপাদান?"
 
-#: app/scripts/templates/settings/clients.mustache:25 app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20
+#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20
 msgid "Refresh"
 msgstr "রিফ্রেশ"
 
@@ -1196,20 +1237,20 @@ msgid "Communication preferences"
 msgstr "যোগাযোগের অগ্রাধিকারসমূহ"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
-msgid "Receive the monthly Firefox newsletter."
-msgstr "মাসিক Firefox নিউজলেটার গ্রহন করুন।"
+msgid "We may send you emails related to your Firefox Account."
+msgstr ""
 
-#: app/scripts/templates/settings/communication_preferences.mustache:8 app/scripts/templates/settings/communication_preferences.mustache:9
-msgid "Email preferences"
-msgstr "ইমেইলের পছন্দসমূহ"
+#: app/scripts/templates/settings/communication_preferences.mustache:8
+msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
+msgstr ""
 
-#: app/scripts/templates/settings/communication_preferences.mustache:10 app/scripts/templates/settings/communication_preferences.mustache:11
-msgid "Unsubscribe"
-msgstr "আনসাবস্ক্রাইব"
-
-#: app/scripts/templates/settings/communication_preferences.mustache:12 app/scripts/templates/settings/communication_preferences.mustache:13
+#: app/scripts/templates/settings/communication_preferences.mustache:9
 msgid "Subscribe"
 msgstr "সাবস্ক্রাইব"
+
+#: app/scripts/templates/settings/communication_preferences.mustache:11
+msgid "Manage Subscriptions"
+msgstr ""
 
 #: app/scripts/templates/settings/delete_account.mustache:1 app/scripts/templates/settings/delete_account.mustache:5
 msgid "Delete account"
@@ -1226,201 +1267,6 @@ msgstr "আপনি কি নিশ্চিত যে আপনি আপন�
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "আপনি আপনার অ্যাকাউন্ট পরিচালনার সময় Firefox এ যে নাম প্রদর্শিত করতে চান তা চয়ন করুন।"
-
-#: app/scripts/templates/partial/coppa-age-input.mustache:1
-msgid "How old are you?"
-msgstr "আপনার বয়স কত?"
-
-#: app/scripts/templates/openid/start.mustache:1
-msgid "Sign in to Sync"
-msgstr "সিঙ্ক করতে সাইন ইন করুন"
-
-#: app/scripts/templates/openid/start.mustache:2
-msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-msgstr "আপনার ট্যাগ, বুকমার্ক, পাসওয়ার্ড এবং আরও কিছু সিঙ্ক করার জন্য আপনার পছন্দের অ্যাকাউন্ট টি নির্বাচন করুন।"
-
-#: app/scripts/templates/openid/start.mustache:3
-msgid "Use OpenID"
-msgstr "ব্যবহার করুন OpenID"
-
-#: app/scripts/templates/openid/start.mustache:4
-msgid "Use Firefox Account"
-msgstr "Firefox অ্যাকাউন্ট ব্যবহার করুন"
-
-#: app/scripts/views/settings/clients.js:86
-msgid "first sync %(translatedTimeAgo)s"
-msgstr ""
-
-#: app/scripts/views/settings/clients.js:89
-msgid "last sync %(translatedTimeAgo)s"
-msgstr ""
-
-#: app/scripts/views/settings/clients.js:95
-msgid "last active %(translatedTimeAgo)s"
-msgstr ""
-
-#: app/scripts/views/settings/clients.js:99
-msgid "last sync time unknown"
-msgstr ""
-
-#: app/scripts/views/settings/emails.js:114
-msgid "Secondary email removed"
-msgstr ""
-
-#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
-msgid "Verification email sent"
-msgstr ""
-
-#: app/scripts/views/settings/emails.js:169
-msgid "Primary email set to %(email)s"
-msgstr ""
-
-#: app/scripts/models/sync-engines.js:65
-msgid "Addresses"
-msgstr ""
-
-#: app/scripts/models/sync-engines.js:72
-msgid "Credit cards"
-msgstr ""
-
-#: app/scripts/lib/auth-errors.js:151
-msgid "This email was already verified by another user"
-msgstr ""
-
-#: app/scripts/lib/auth-errors.js:155
-msgid "Secondary email must be different than your account email"
-msgstr ""
-
-#: app/scripts/lib/auth-errors.js:167
-msgid "Primary account email required for sign-in"
-msgstr ""
-
-#: app/scripts/lib/auth-errors.js:171
-msgid "Address in use by another account"
-msgstr ""
-
-#: app/scripts/lib/auth-errors.js:175
-msgid "Primary account email required for reset"
-msgstr ""
-
-#: app/scripts/lib/auth-errors.js:179
-msgid "Invalid signin code"
-msgstr ""
-
-#: app/scripts/lib/mailcheck.js:25
-msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-msgstr ""
-
-#: app/scripts/templates/choose_what_to_sync.mustache:1
-msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
-msgstr ""
-
-#: app/scripts/templates/complete_reset_password.mustache:3
-msgid "Receive new link"
-msgstr ""
-
-#: app/scripts/templates/confirm.mustache:5
-msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
-
-#: app/scripts/templates/confirm.mustache:7
-msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-msgstr ""
-
-#: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
-#: app/scripts/templates/sign_in_unblock.mustache:9
-msgid "Not in inbox or spam folder? Resend"
-msgstr ""
-
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr ""
-
-#: app/scripts/templates/connect_another_device.mustache:12 app/scripts/templates/connect_another_device.mustache:16 app/scripts/templates/connect_another_device.mustache:26
-#: app/scripts/templates/sms_send.mustache:4
-msgid "Still adding devices?"
-msgstr ""
-
-#: app/scripts/templates/connect_another_device.mustache:30 app/scripts/templates/sms_send.mustache:10
-msgid "Why is more than one device required?"
-msgstr ""
-
-#: app/scripts/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required"
-msgstr ""
-
-#: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
-msgid "Enter your email"
-msgstr ""
-
-#: app/scripts/templates/ready.mustache:5
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr ""
-
-#: app/scripts/templates/sign_in_bounced.mustache:1
-msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr ""
-
-#: app/scripts/templates/sign_in_bounced.mustache:2
-msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr ""
-
-#: app/scripts/templates/sign_in_bounced.mustache:3
-msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr ""
-
-#: app/scripts/templates/sign_in_bounced.mustache:5
-msgid "No longer own that email? Create a new account"
-msgstr ""
-
-#: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:11
-msgid "Mistyped email?"
-msgstr ""
-
-#: app/scripts/templates/sign_in_unblock.mustache:3
-msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
-
-#: app/scripts/templates/sign_up.mustache:18
-msgid "Get the latest news about Mozilla and Firefox"
-msgstr ""
-
-#: app/scripts/templates/sms_send.mustache:9
-msgid ""
-"SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
-
-#: app/scripts/templates/sms_sent.mustache:2
-msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
-
-#: app/scripts/templates/sms_sent.mustache:3
-msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
-
-#: app/scripts/templates/why_connect_another_device.mustache:1
-msgid "Why sync multiple devices?"
-msgstr ""
-
-#: app/scripts/templates/why_connect_another_device.mustache:2
-msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr ""
-
-#: app/scripts/templates/why_connect_another_device.mustache:3
-msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
-
-#: app/scripts/templates/settings/clients.mustache:16
-msgid "Revoke"
-msgstr ""
-
-#: app/scripts/templates/settings/communication_preferences.mustache:7
-msgid "We may send you emails related to your Firefox Account."
-msgstr ""
-
-#: app/scripts/templates/settings/communication_preferences.mustache:8
-msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
@@ -1454,27 +1300,116 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
+#: app/scripts/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you?"
+msgstr "আপনার বয়স কত?"
+
 #: app/scripts/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
 msgstr ""
 
+#: app/scripts/templates/openid/start.mustache:1
+msgid "Sign in to Sync"
+msgstr "সিঙ্ক করতে সাইন ইন করুন"
+
+#: app/scripts/templates/openid/start.mustache:2
+msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
+msgstr "আপনার ট্যাগ, বুকমার্ক, পাসওয়ার্ড এবং আরও কিছু সিঙ্ক করার জন্য আপনার পছন্দের অ্যাকাউন্ট টি নির্বাচন করুন।"
+
+#: app/scripts/templates/openid/start.mustache:3
+msgid "Use OpenID"
+msgstr "ব্যবহার করুন OpenID"
+
+#: app/scripts/templates/openid/start.mustache:4
+msgid "Use Firefox Account"
+msgstr "Firefox অ্যাকাউন্ট ব্যবহার করুন"
+
 #. submit button
-#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
+#: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:91
 msgctxt "submit button"
 msgid "Sign in"
 msgstr ""
 
 #. header text
-#: app/scripts/views/sign_in.js:93
+#: app/scripts/views/sign_in.js:94
 msgctxt "header text"
 msgid "Sign in"
 msgstr ""
 
-#. button text
-#: app/scripts/views/sign_in.js:90
-msgctxt "button text"
-msgid "Sign in"
-msgstr ""
+#~ msgid "App link resent to %(phoneNumber)s"
+#~ msgstr "অ্যাপের লিঙ্ক পুনরায় পাঠানো হয়েছে %(phoneNumber)s এ"
+
+#~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
+#~ msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a> এর সৌজন্যে"
+
+#~ msgid "Last active %(translatedTimeAgo)s"
+#~ msgstr "শেষ সক্রিয় %(translatedTimeAgo)s"
+
+#~ msgid "Unsubscribed successfully"
+#~ msgstr "সফলভাবে আনসাবস্ক্রাইব হয়েছে"
+
+#~ msgid "No Gravatar found"
+#~ msgstr "কোন Gravatar পাওয়া যায়নি"
+
+#~ msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
+#~ msgstr "আপনি কি <span tabindex=\"1\"> %(escapedDomain)s </span> এটা মানে করতে চেয়েছিলেন?"
+
+#~ msgid "Learn more."
+#~ msgstr "আরো জানুন।"
+
+#~ msgid "%(email)s created"
+#~ msgstr "%(email)s তৈরি করা হয়েছে"
+
+#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
+#~ msgstr "অ্যাড-অন এবং পছন্দসমূহ বর্তমানে মোবাইল ডিভাইসে সিঙ্ক করে না।"
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "এখানে চাপ দিন একটা নতুন রিসেট করবার জন্য লিঙ্ক পেতে।"
+
+#~ msgid "Email Sent"
+#~ msgstr "ইমেইল পাঠানো হয়েছে"
+
+#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "একটা যাচাইকরণ লিঙ্ক পাঠানো হয়েছে &nbsp; থেকে %(escapedEmail)s-এ"
+
+#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+#~ msgstr "আপনার Firefox তথ্য রক্ষা করার জন্য, আমরা একটি কনফার্মেশন লিঙ্ক ইমেল করেছি %(email)s"
+
+#~ msgid "Didn't arrive and not in spam folder? Resend"
+#~ msgstr "আসেনি এবং স্প্যাম ফোল্ডারে নেই? আবার পাঠান"
+
+#~ msgid "This device is connected"
+#~ msgstr "এই ডিভাইসটি সংযুক্ত"
+
+#~ msgid "Cookies and local storage are required."
+#~ msgstr "কুকিজ এবং স্থানীয় স্টোরেজ প্রয়োজন হয়।"
+
+#~ msgid "Proceed"
+#~ msgstr "এগিয়ে যান"
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "পাসওয়ার্ড মনে আছে? সাইন-ইন করুন।"
+
+#~ msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
+#~ msgstr "আপনার Firefox তথ্য রক্ষা করার জন্য, একটি অনুমোদিত কোড আপনার জন্য অপেক্ষা করছে %(email)s-এ।"
+
+#~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
+#~ msgstr "Firefox সিঙ্কের জন্য দেখছেন? <a href=\"%(escapedSyncSuggestionUrl)s\">এখানে শুরু করুন</a>"
+
+#~ msgid "Gravatar"
+#~ msgstr "গ্র্যাভ্যাতার"
+
+#~ msgid "Save"
+#~ msgstr "সংরক্ষণ করুন"
+
+#~ msgid "Receive the monthly Firefox newsletter."
+#~ msgstr "মাসিক Firefox নিউজলেটার গ্রহন করুন।"
+
+#~ msgid "Email preferences"
+#~ msgstr "ইমেইলের পছন্দসমূহ"
+
+#~ msgid "Unsubscribe"
+#~ msgstr "আনসাবস্ক্রাইব"
 
 #~ msgid "Next"
 #~ msgstr "তারপরে"
@@ -1581,8 +1516,7 @@ msgstr ""
 #~ msgid ""
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
-#~ msgstr ""
-#~ "দয়া করে আপনার ব্রাউজারের কুকিজগুলো সক্রিয় করুন যা Firefox অ্যাকাউন্টের প্রয়োজন। কুকিজ হল ছোটো তথ্যের টুকরো যা আপনার ব্রাউজারে সংরক্ষিত থাকে যা আপনাকে সেশনের মধ্যে মনে রাখার কার্যকারিতা প্রদান করে।"
+#~ msgstr "দয়া করে আপনার ব্রাউজারের কুকিজগুলো সক্রিয় করুন যা Firefox অ্যাকাউন্টের প্রয়োজন। কুকিজ হল ছোটো তথ্যের টুকরো যা আপনার ব্রাউজারে সংরক্ষিত থাকে যা আপনাকে সেশনের মধ্যে মনে রাখার কার্যকারিতা প্রদান করে।"
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox খুবই শীঘ্রই আসছে iOS-এ!"

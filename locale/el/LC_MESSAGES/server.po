@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-16 09:06+0000\n"
+"POT-Creation-Date: 2017-10-20 16:08+0000\n"
 "PO-Revision-Date: 2017-08-26 08:46+0000\n"
 "Last-Translator: Jim Spentzos <jamesspentzos@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -315,7 +315,7 @@ msgstr "Επιβεβαίωση εισόδου"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Αν υποπτεύεστε ότι κάποιος προσπαθεί να αποκτήσει πρόσβαση στο λογαριασμό σας, <a %(passwordChangeLinkAttributes)s>παρακαλώ αλλάξτε τον κωδικό πρόσβασής σας</a>."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:478
 msgid "Verify secondary email"
 msgstr "Επαλήθευση δευτερεύοντος e-mail"
 
@@ -386,10 +386,6 @@ msgstr "Κωδικός εξουσιοδότησης Λογαριασμού Firef
 #: lib/senders/email.js:431
 msgid "Confirm new sign-in to Firefox"
 msgstr "Επιβεβαίωση νέας εισόδου στο Firefox"
-
-#: lib/senders/email.js:478
-msgid "Verify email for Firefox Accounts"
-msgstr "Επαλήθευση e-mail για λογαριασμούς Firefox"
 
 #: lib/senders/email.js:525
 msgid "Reset your Firefox Account password"
@@ -471,6 +467,9 @@ msgstr "Υπηρεσίες νέφους του Firefox"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Όροι Υπηρεσίας"
+
+#~ msgid "Verify email for Firefox Accounts"
+#~ msgstr "Επαλήθευση e-mail για λογαριασμούς Firefox"
 
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr ""

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-16 09:06+0000\n"
+"POT-Creation-Date: 2017-10-20 16:08+0000\n"
 "PO-Revision-Date: 2017-08-22 19:55+0000\n"
 "Last-Translator: lcom_flip <lcom_flip@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -311,7 +311,7 @@ msgstr "Confirmar identificação"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Se suspeitar que alguém está tentando obter acesso a sua conta, <a %(passwordChangeLinkAttributes)s=\"\">por favor, altere sua senha</a>."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:478
 msgid "Verify secondary email"
 msgstr "Verificar e-mail secundário"
 
@@ -382,10 +382,6 @@ msgstr "Código de autorização da Conta Firefox"
 #: lib/senders/email.js:431
 msgid "Confirm new sign-in to Firefox"
 msgstr "Confirmar nova identificação no Firefox"
-
-#: lib/senders/email.js:478
-msgid "Verify email for Firefox Accounts"
-msgstr "Verificar e-mail para contas Firefox"
 
 #: lib/senders/email.js:525
 msgid "Reset your Firefox Account password"
@@ -466,6 +462,9 @@ msgstr "Serviços na nuvem do Firefox"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Termos do serviço"
+
+#~ msgid "Verify email for Firefox Accounts"
+#~ msgstr "Verificar e-mail para contas Firefox"
 
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "Você removeu com sucesso o e-mail secundário %(secondaryEmail)s da sua Conta Firefox. Notificações de segurança e confirmações de acesso não serão entregues a este endereço."

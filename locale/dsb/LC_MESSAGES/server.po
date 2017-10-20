@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-16 09:06+0000\n"
+"POT-Creation-Date: 2017-10-20 16:08+0000\n"
 "PO-Revision-Date: 2017-08-21 19:55+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -312,7 +312,7 @@ msgstr "Pśizjawjenje wobkšuśiś"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Jolic měniśo, až něchten wopytujo, pśistup na wašo konto dostaś, <a %(passwordChangeLinkAttributes)s>změńśo pšosym swójo gronidło</a>."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:478
 msgid "Verify secondary email"
 msgstr "Drugu e-mailowu adresu wobkšuśiś"
 
@@ -383,10 +383,6 @@ msgstr "Awtorizěrowański kod konta Firefox"
 #: lib/senders/email.js:431
 msgid "Confirm new sign-in to Firefox"
 msgstr "Nowe pśizjawjenje pla Firefox wobkšuśiś"
-
-#: lib/senders/email.js:478
-msgid "Verify email for Firefox Accounts"
-msgstr "E-mailowu adresu za Firefox Accounts wobkšuśiś"
 
 #: lib/senders/email.js:525
 msgid "Reset your Firefox Account password"
@@ -467,6 +463,9 @@ msgstr "Mrokowsłužby Firefox"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Wužywańske wuměnenja"
+
+#~ msgid "Verify email for Firefox Accounts"
+#~ msgstr "E-mailowu adresu za Firefox Accounts wobkšuśiś"
 
 #~ msgid ""
 #~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."

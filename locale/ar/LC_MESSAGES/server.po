@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-16 09:06+0000\n"
+"POT-Creation-Date: 2017-10-20 16:08+0000\n"
 "PO-Revision-Date: 2017-10-14 15:56+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -302,7 +302,7 @@ msgstr "أكّد تسجيل الدخول"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "إذا كنت تظن أن شخصا أخر يحاول الوصول إلي حسابك، فرجاءً <a %(passwordChangeLinkAttributes)s>غير كلمة السرّ الخاصة بك</a>."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:478
 msgid "Verify secondary email"
 msgstr "أكّد البريد الثانوي"
 
@@ -373,10 +373,6 @@ msgstr "رمز التخويل لحسابَ فَيَرفُكس"
 #: lib/senders/email.js:431
 msgid "Confirm new sign-in to Firefox"
 msgstr "أكّد تسجيل دخولك الجديد لفَيَرفٌكس"
-
-#: lib/senders/email.js:478
-msgid "Verify email for Firefox Accounts"
-msgstr "أكّد البريد الإلكتروني لحسابات فَيَرفُكس"
 
 #: lib/senders/email.js:525
 msgid "Reset your Firefox Account password"
@@ -457,6 +453,9 @@ msgstr "خدمات فَيَرفُكس السّحابيّة"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "شروط الخدمة"
+
+#~ msgid "Verify email for Firefox Accounts"
+#~ msgstr "أكّد البريد الإلكتروني لحسابات فَيَرفُكس"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 #~ msgstr "هل سجلت الدخول لحساب فَيَرفُكس الخاص بك بأي من الأماكن التالية في 60 يوم الأخيرة؟ إذا كنت لا تعترف بأي من هذه الأماكن فأن هناك شخص ما حصل علي حساب فَيَرفُكس الخاص بك."

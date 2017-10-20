@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-16 09:06+0000\n"
+"POT-Creation-Date: 2017-10-20 16:08+0000\n"
 "PO-Revision-Date: 2017-08-26 11:10+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -179,7 +179,8 @@ msgstr ""
 #: lib/senders/templates/password_changed.txt:5
 #: lib/senders/templates/password_reset.txt:4
 #: lib/senders/templates/post_remove_secondary.txt:5
-#: lib/senders/templates/post_verify.txt:5 lib/senders/templates/recovery.txt:6
+#: lib/senders/templates/post_verify.txt:5
+#: lib/senders/templates/recovery.txt:6
 #: lib/senders/templates/verification_reminder_first.txt:5
 #: lib/senders/templates/verification_reminder_second.txt:5
 #: lib/senders/templates/verify.txt:5
@@ -533,7 +534,7 @@ msgstr ""
 "%(passwordChangeLinkAttributes)s>molimo vas da promenite lozinku</a>."
 
 #: lib/senders/templates/verify_secondary.html:2
-#: lib/senders/templates/verify_secondary.txt:1
+#: lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:478
 msgid "Verify secondary email"
 msgstr "Verifikuj sekundarnu adresu"
 
@@ -626,10 +627,6 @@ msgstr "Autorazicioni kod Firefox naloga"
 #: lib/senders/email.js:431
 msgid "Confirm new sign-in to Firefox"
 msgstr "Potvrdi novu Firefox prijavu"
-
-#: lib/senders/email.js:478
-msgid "Verify email for Firefox Accounts"
-msgstr "Verifikujte adresu za Firefox naloge"
 
 #: lib/senders/email.js:525
 msgid "Reset your Firefox Account password"
@@ -732,6 +729,9 @@ msgstr "Firefox cloud servisi"
 #: server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Uslovi korišćenja"
+
+#~ msgid "Verify email for Firefox Accounts"
+#~ msgstr "Verifikujte adresu za Firefox naloge"
 
 #~ msgid ""
 #~ "You have successfully verified %(secondaryEmail)s as a secondary email to "

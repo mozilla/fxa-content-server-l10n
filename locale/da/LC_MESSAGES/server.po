@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-16 09:06+0000\n"
+"POT-Creation-Date: 2017-10-20 16:08+0000\n"
 "PO-Revision-Date: 2017-08-21 19:55+0000\n"
 "Last-Translator: Joergen <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
@@ -308,7 +308,7 @@ msgstr "Bekræft login"
 msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
 msgstr "Hvis du har mistanke om, at nogen forsøger at få adgang til din konto, så <a %(passwordChangeLinkAttributes)s>skift din adgangskode</a>."
 
-#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1
+#: lib/senders/templates/verify_secondary.html:2 lib/senders/templates/verify_secondary.txt:1 lib/senders/email.js:478
 msgid "Verify secondary email"
 msgstr "Bekræft sekundær mailadresse"
 
@@ -379,10 +379,6 @@ msgstr "Godkendelseskode til Firefox-konto"
 #: lib/senders/email.js:431
 msgid "Confirm new sign-in to Firefox"
 msgstr "Bekræft nyt login til Firefox"
-
-#: lib/senders/email.js:478
-msgid "Verify email for Firefox Accounts"
-msgstr "Bekræft mailadresse til Firefox-konti"
 
 #: lib/senders/email.js:525
 msgid "Reset your Firefox Account password"
@@ -463,6 +459,9 @@ msgstr "Firefox Cloud Services"
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:4
 msgid "Terms of Service"
 msgstr "Tjenestevilkår"
+
+#~ msgid "Verify email for Firefox Accounts"
+#~ msgstr "Bekræft mailadresse til Firefox-konti"
 
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "Du har fjernet %(secondaryEmail)s som sekundær mailadresse til din Firefox-konto. Sikkerhedsmeddelelser og login-bekræftelser vil ikke længere blive sendt til denne mailadresse."
