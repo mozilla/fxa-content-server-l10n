@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-10-22 21:34+0000\n"
-"Last-Translator: Melo46 <melo@carmu.com>\n"
+"PO-Revision-Date: 2017-10-22 16:48+0000\n"
+"Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
 "MIME-Version: 1.0\n"
@@ -241,23 +241,23 @@ msgstr "Remontar le contrasigno"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr ""
+msgstr "Gratias pro seliger Firefox! Tu pote installar Firefox pro mobile hic: %(link)s"
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1
 msgid "Is this you signing in?"
-msgstr ""
+msgstr "Es tu qui te authentica?"
 
 #: lib/senders/templates/unblock_code.html:4 lib/senders/templates/unblock_code.txt:3
 msgid "If yes, here is the authorization code you need:"
-msgstr ""
+msgstr "In tal caso, ecce le codice de autorisation que tu require:"
 
 #: lib/senders/templates/unblock_code.html:5
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr ""
+msgstr "Si non, adjuta nos a parar le intrusos e <a %(reportSignInLinkAttributes)s>reporta lo a nos.</a>"
 
 #: lib/senders/templates/unblock_code.txt:4
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "Si non, adjuta nos a parar le intrusos e reporta lo a nos."
 
 #: lib/senders/templates/verification_reminder_first.html:2 lib/senders/templates/verification_reminder_first.txt:1 lib/senders/email.js:758
 msgid "Hello again."
