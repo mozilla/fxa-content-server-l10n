@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-10-07 07:42+0000\n"
-"Last-Translator: Mahtab <mahtab.ceh@gmail.com>\n"
+"PO-Revision-Date: 2017-10-22 19:11+0000\n"
+"Last-Translator: Dhiraj Kumar Singh <singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
 "MIME-Version: 1.0\n"
@@ -526,9 +526,7 @@ msgid "SMS not sent, please try again"
 msgstr "SMS नहीं भेजा गया, कृपया पुन: प्रयास करें"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr "कार्यवाही आगे बढ़ा के, आप स्वीकृत करते हैं <a id=\"service-tos\" href=\"%(termsUri)s\">सेवा की शर्तें</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">निजी सूचना</a> of %(serviceName)s (%(serviceUri)s)."
 
 #: app/scripts/lib/strings.js:30
@@ -711,7 +709,7 @@ msgstr ""
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive and not in spam folder? Resend"
-msgstr ""
+msgstr "नहीं पहुँचा और स्पैम फ़ोल्डर में नहीं है? पुन: भेजें"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -732,7 +730,7 @@ msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:2
 msgid "This device is connected"
-msgstr ""
+msgstr "यह उपकरण सम्बद्ध है"
 
 #: app/scripts/templates/connect_another_device.mustache:4 app/scripts/views/ready.js:45
 msgid "Email verified"
@@ -1618,7 +1616,9 @@ msgstr ""
 #~ msgid ""
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
-#~ msgstr "कृपया फ़ायरफ़ॉक्स खातों के लिए आवश्यक कुकीज़ को अपने ब्राउज़र में अधिकार दें. कुकीज़ आपके ब्राउज़र में संग्रहित विवरण के छोटे टुकड़े होते हैं जोकि आपको फ़ायरफ़ॉक्स सत्रों के बीच में याद रखने जैसी कार्यात्मकता प्रदान करते हैं."
+#~ msgstr ""
+#~ "कृपया फ़ायरफ़ॉक्स खातों के लिए आवश्यक कुकीज़ को अपने ब्राउज़र में अधिकार दें. कुकीज़ आपके ब्राउज़र में संग्रहित विवरण के छोटे टुकड़े होते हैं जोकि आपको फ़ायरफ़ॉक्स सत्रों के बीच में याद रखने जैसी "
+#~ "कार्यात्मकता प्रदान करते हैं."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "फ़ायरफ़ॉक्स जल्द आ रहा है iOS पर!"
@@ -1753,7 +1753,8 @@ msgstr ""
 #~ msgstr "अपना ईमेल प्रविष्ट करें reset&nbsp;करने के लिए अपने खाता कूटशब्द."
 
 #~ msgid "For security reasons, resetting your password will erase your Sync data from our servers. A new Sync backup will be created from your local browsing data."
-#~ msgstr "सुरक्षा कारणों से, अपना कूटशब्द पुनः तैयार करने पर आपका साथ किया हुआ डेटा हमारे सर्वेरों से मिटा दिया जाएगा. आपके स्थानीय ब्राउज़िंग डेटा से एक नया साथ किया हुआ बैकअप का निर्माण कर दिया जाएगा."
+#~ msgstr ""
+#~ "सुरक्षा कारणों से, अपना कूटशब्द पुनः तैयार करने पर आपका साथ किया हुआ डेटा हमारे सर्वेरों से मिटा दिया जाएगा. आपके स्थानीय ब्राउज़िंग डेटा से एक नया साथ किया हुआ बैकअप का निर्माण कर दिया जाएगा."
 
 #~ msgid "You are signed in as"
 #~ msgstr "आप निम्न के रूप में साइन इन हैं"
