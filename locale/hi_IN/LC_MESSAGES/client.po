@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-10-22 19:11+0000\n"
+"PO-Revision-Date: 2017-10-22 19:29+0000\n"
 "Last-Translator: Dhiraj Kumar Singh <singhdhiraj255@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -88,7 +88,7 @@ msgstr "खाता पहले से मौजूद है. <a href=\"/sign
 
 #: app/scripts/views/sms_sent.js:24
 msgid "App link resent to %(phoneNumber)s"
-msgstr ""
+msgstr "एप्प लिंक %(phoneNumber)s पर पुनः भेजा गया"
 
 #: app/scripts/views/settings/avatar_gravatar.js:93
 msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
@@ -431,7 +431,7 @@ msgstr "अवैध विन्यास"
 
 #: app/scripts/lib/mailcheck.js:25
 msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-msgstr ""
+msgstr "क्या आपका मतलब <span tabindex=\"1\">%(escapedDomain)s</span> है?"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
@@ -752,7 +752,7 @@ msgstr ""
 #: app/scripts/templates/connect_another_device.mustache:9 app/scripts/templates/connect_another_device.mustache:11 app/scripts/templates/connect_another_device.mustache:19
 #: app/scripts/templates/connect_another_device.mustache:14 app/scripts/templates/connect_another_device.mustache:18 app/scripts/templates/connect_another_device.mustache:28
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "सेट-अप पूर्ण करने के लिए अन्य उपकरण पर Firefox में साइन इन करें"
 
 #: app/scripts/templates/connect_another_device.mustache:13 app/scripts/templates/connect_another_device.mustache:20
 msgid "Open settings and select Sign in to Firefox to complete set-up"
@@ -760,19 +760,19 @@ msgstr ""
 
 #: app/scripts/templates/connect_another_device.mustache:15 app/scripts/templates/connect_another_device.mustache:22
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
+msgstr "सेट-अप पूर्ण करने हेतु एंड्राइड के लिए Firefox में साइन इन करें"
 
 #: app/scripts/templates/connect_another_device.mustache:17 app/scripts/templates/connect_another_device.mustache:24
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
+msgstr "सेट-अप पूर्ण करने हेतु iOS के लिए Firefox में साइन इन करें"
 
 #: app/scripts/templates/connect_another_device.mustache:21 app/scripts/templates/sms_send.mustache:8
 msgid "Why is this required?"
-msgstr ""
+msgstr "यह आवश्यक क्यों है?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
-msgstr ""
+msgstr "कुकीज़ और स्थानीय भंडारण की आवश्यकता है."
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
@@ -985,7 +985,7 @@ msgstr "एक मजबूत, अद्वितीय पासवर्ड �
 
 #: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/sign_up_password.mustache:8
 msgid "Receive the monthly Firefox newsletter"
-msgstr ""
+msgstr "मासिक Firefox समाचार पत्र प्राप्त करें"
 
 #: app/scripts/templates/sign_up.mustache:21 app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10
 msgid "Create account"
@@ -1022,7 +1022,7 @@ msgstr "शायद बाद में"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "अपने स्मार्टफ़ोन पर Firefox संस्थापित करें और सेट-अप को पूरा करने के लिए साइन इन करें"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
@@ -1332,24 +1332,24 @@ msgstr ""
 #: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
-msgstr ""
+msgstr "इनबॉक्स या स्पैम फ़ोल्डर में नहीं? पुन: भेजें"
 
 #: app/scripts/templates/connect_another_device.mustache:6
 msgid "Signin confirmed"
-msgstr ""
+msgstr "साइन इन की पुष्टि हो गई"
 
 #: app/scripts/templates/connect_another_device.mustache:12 app/scripts/templates/connect_another_device.mustache:16 app/scripts/templates/connect_another_device.mustache:26
 #: app/scripts/templates/sms_send.mustache:4
 msgid "Still adding devices?"
-msgstr ""
+msgstr "अभी भी उपकरण जोड़ रहे हैं?"
 
 #: app/scripts/templates/connect_another_device.mustache:30 app/scripts/templates/sms_send.mustache:10
 msgid "Why is more than one device required?"
-msgstr ""
+msgstr "क्यों एक से अधिक उपकरण की आवश्यकता है?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr ""
+msgstr "कुकीज़ और स्थानीय भंडारण की आवश्यकता है"
 
 #: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
 msgid "Enter your email"
@@ -1361,7 +1361,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr ""
+msgstr "माफ़ कीजिये. हमने आपके&nbsp;खाते को अवरोधित कर दिया है."
 
 #: app/scripts/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
@@ -1373,11 +1373,11 @@ msgstr ""
 
 #: app/scripts/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr ""
+msgstr "वो ईमेल अब नहीं है? एक नया खाता बनायें"
 
 #: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
-msgstr ""
+msgstr "गलत लिखा गया ईमेल?"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1385,7 +1385,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
-msgstr ""
+msgstr "Mozilla और Firefox के विषय में नवीनतम समाचार प्राप्त करें"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid ""
@@ -1402,7 +1402,7 @@ msgstr ""
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr ""
+msgstr "विभिन्न उपकरणों हेतु संकालन क्यों?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
@@ -1438,7 +1438,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:9
 msgid "verification required"
-msgstr ""
+msgstr "सत्यापन आवश्यक"
 
 #: app/scripts/templates/settings/emails.mustache:10 app/scripts/templates/settings/emails.mustache:13
 msgid "Make primary"
@@ -1450,7 +1450,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:16
 msgid "Not in inbox or spam folder? Resend?"
-msgstr ""
+msgstr "इनबॉक्स या स्पैम फ़ोल्डर में नहीं? पुन: भेजें?"
 
 #: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
@@ -1458,7 +1458,7 @@ msgstr "जोड़िये"
 
 #: app/scripts/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr ""
+msgstr "Firefox संकालन करना चाहते हैं? <a %(escapedSyncSuggestionAttrs)s>यहाँ शुरू करें</a>"
 
 #. submit button
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
@@ -1476,7 +1476,7 @@ msgstr "साइन इन"
 #: app/scripts/views/sign_in.js:90
 msgctxt "button text"
 msgid "Sign in"
-msgstr ""
+msgstr "साइन इन"
 
 #~ msgid "Next"
 #~ msgstr "अगला"
