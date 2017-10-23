@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-10-23 09:27+0000\n"
+"PO-Revision-Date: 2017-10-23 09:46+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -576,7 +576,7 @@ msgstr "Impossibile crear le conto"
 
 #: app/scripts/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr ""
+msgstr "Tu debe satisfacer certe requisitos de etate pro crear un conto de Firefox."
 
 #: app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more."
@@ -645,7 +645,7 @@ msgstr "Ligamine pro remontar le contrasigno damnate"
 
 #: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:10 app/scripts/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr ""
+msgstr "Il manca characteres al ligamine cliccate, forsan tu cliente e-mail lo ha corrumpite. Copia ben le adresse, e retenta."
 
 #: app/scripts/templates/complete_reset_password.mustache:8
 msgid "Enter new password"
@@ -653,7 +653,7 @@ msgstr "Insere le nove contrasigno"
 
 #: app/scripts/templates/complete_reset_password.mustache:9
 msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-msgstr ""
+msgstr "Si tu submitte le nove contrasigno, tu perdera tote le datos de Sync non presente sur un de tu dispositivos."
 
 #: app/scripts/templates/complete_reset_password.mustache:10 app/scripts/templates/reset_password.mustache:6
 msgid "Learn how Sync works."
@@ -718,7 +718,7 @@ msgstr "Email de remontar inviate"
 
 #: app/scripts/templates/confirm_reset_password.mustache:3 app/scripts/templates/confirm_reset_password.mustache:2
 msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "Clicca in le proxime hora sur le ligamine que nos te ha inviate a %(email)s, pro crear un nove contrasigno."
 
 #: app/scripts/templates/confirm_reset_password.mustache:5 app/scripts/templates/confirm_reset_password.mustache:7 app/scripts/templates/confirm_reset_password.mustache:4
 #: app/scripts/templates/confirm_reset_password.mustache:6 app/scripts/templates/reset_password.mustache:10
@@ -773,11 +773,11 @@ msgstr "Proque illo es requirite?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required."
-msgstr ""
+msgstr "Le cookies e le immagazinage local es requirite."
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr ""
+msgstr "Per favor, activa le cookies e le local immagazinage in tu navigator pro acceder al contos Firefox. Isto activara functionalitates como rememorar te inter le sessiones."
 
 #: app/scripts/templates/cookies_disabled.mustache:3 app/scripts/templates/cannot_create_account.mustache:4
 msgid "Learn more"
@@ -1342,15 +1342,15 @@ msgstr "Authentication confirmate"
 #: app/scripts/templates/connect_another_device.mustache:12 app/scripts/templates/connect_another_device.mustache:16 app/scripts/templates/connect_another_device.mustache:26
 #: app/scripts/templates/sms_send.mustache:4
 msgid "Still adding devices?"
-msgstr ""
+msgstr "Adder altere dispositivos?"
 
 #: app/scripts/templates/connect_another_device.mustache:30 app/scripts/templates/sms_send.mustache:10
 msgid "Why is more than one device required?"
-msgstr ""
+msgstr "Proque es requirite plus de un dispositivo?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr ""
+msgstr "Cookies e local immagazinage es requirite"
 
 #: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
 msgid "Enter your email"
@@ -1358,7 +1358,7 @@ msgstr "Insere tu e-posta"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr ""
+msgstr "Le notificationes del conto essera ora inviate etiam a %(secondaryEmailVerified)s"
 
 #: app/scripts/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
@@ -1366,15 +1366,15 @@ msgstr "Conto blocate, nos regretta."
 
 #: app/scripts/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr ""
+msgstr "Le message de confirmation que nos ha inviate a %(email)s era declinate, e nos ha blocate tu conto a fin de proteger tu datos Firefox."
 
 #: app/scripts/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr ""
+msgstr "Si isto es un adresse e-mail valide, <a %(escapedSupportLinkAttrs)s>dice nos lo</a> e nos pote adjutar a disblocar tu conto."
 
 #: app/scripts/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr ""
+msgstr "Non possede tu plus iste adresse de e-mail? Crea un nove conto"
 
 #: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
@@ -1382,11 +1382,11 @@ msgstr "E-posta mal inserite?"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "Controla tu e-mail pro le codice de autorisation inviate a %(email)s."
 
 #: app/scripts/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
-msgstr ""
+msgstr "Recipe le ultime novas re Mozilla e Firefox"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid ""
