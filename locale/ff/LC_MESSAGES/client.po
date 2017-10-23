@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-10-23 17:31+0000\n"
+"PO-Revision-Date: 2017-10-23 18:50+0000\n"
 "Last-Translator: gueyeamas <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -292,7 +292,7 @@ msgstr "Yuɓɓo heɓotaako, eto ɗoo e yeeso"
 
 #: app/scripts/lib/auth-errors.js:162 app/scripts/lib/auth-errors.js:196
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Etogol seŋaade haaytii"
 
 #: app/scripts/lib/auth-errors.js:166 app/scripts/lib/auth-errors.js:200
 msgid "Session expired. Sign in to continue."
