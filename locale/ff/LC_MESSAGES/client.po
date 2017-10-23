@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-10-23 19:48+0000\n"
+"PO-Revision-Date: 2017-10-23 20:10+0000\n"
 "Last-Translator: gueyeamas <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -1387,7 +1387,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
-msgstr ""
+msgstr "Heɓ kabaruuji cakkitiiɗi paytuɗi e Moɗilla e Firefox"
 
 #: app/scripts/templates/sms_send.mustache:9
 msgid ""
@@ -1448,7 +1448,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:12 app/scripts/templates/settings/emails.mustache:15
 msgid "Remove"
-msgstr ""
+msgstr "Ittu"
 
 #: app/scripts/templates/settings/emails.mustache:16
 msgid "Not in inbox or spam folder? Resend?"
@@ -1456,29 +1456,29 @@ msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
-msgstr ""
+msgstr "Ɓeydu"
 
 #: app/scripts/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr ""
+msgstr "Ngonɗaa ko e yiylaade jahdingol Firefox? <a %(escapedSyncSuggestionAttrs)s>Fuɗɗo ɗoo </a>"
 
 #. submit button
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
 msgctxt "submit button"
 msgid "Sign in"
-msgstr ""
+msgstr "Seŋo"
 
 #. header text
 #: app/scripts/views/sign_in.js:93
 msgctxt "header text"
 msgid "Sign in"
-msgstr ""
+msgstr "Seŋo"
 
 #. button text
 #: app/scripts/views/sign_in.js:90
 msgctxt "button text"
 msgid "Sign in"
-msgstr ""
+msgstr "Seŋo"
 
 #~ msgid "Next"
 #~ msgstr "Yeeso"
