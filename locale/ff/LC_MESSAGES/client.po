@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-10-23 19:19+0000\n"
+"PO-Revision-Date: 2017-10-23 19:48+0000\n"
 "Last-Translator: gueyeamas <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -1343,11 +1343,11 @@ msgstr ""
 #: app/scripts/templates/connect_another_device.mustache:12 app/scripts/templates/connect_another_device.mustache:16 app/scripts/templates/connect_another_device.mustache:26
 #: app/scripts/templates/sms_send.mustache:4
 msgid "Still adding devices?"
-msgstr ""
+msgstr "Aɗa jokki ɓeydude masiŋon?"
 
 #: app/scripts/templates/connect_another_device.mustache:30 app/scripts/templates/sms_send.mustache:10
 msgid "Why is more than one device required?"
-msgstr ""
+msgstr "Ko waɗi ko ɓuri masiŋel gootel ina naamndaa?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
@@ -1355,11 +1355,11 @@ msgstr ""
 
 #: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
 msgid "Enter your email"
-msgstr ""
+msgstr "Naatnu iimeel maa"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr ""
+msgstr "Tintine konte maa nelde jooni e %(secondaryEmailVerified)s"
 
 #: app/scripts/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
@@ -1375,7 +1375,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr ""
+msgstr "A nattii jeyde oo iimeel? Sos konte kese"
 
 #: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
