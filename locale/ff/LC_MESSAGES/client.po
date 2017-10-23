@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-10-22 18:20+0000\n"
+"PO-Revision-Date: 2017-10-23 17:31+0000\n"
 "Last-Translator: gueyeamas <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
 "Language: ff\n"
@@ -433,7 +433,7 @@ msgstr "Njiɗno-ɗaa wiyde ko <span tabindex=\"1\">%(escapedDomain)s</span>?"
 
 #: app/scripts/lib/marketing-email-errors.js:41
 msgid "Please try again later"
-msgstr ""
+msgstr "Eto kadi so ɓooyii njaafoɗaa"
 
 #: app/scripts/lib/oauth-errors.js:26
 msgid "Unknown client"
@@ -521,7 +521,7 @@ msgstr ""
 
 #: app/scripts/lib/sms-errors.js:79
 msgid "SMS not sent, please try again"
-msgstr ""
+msgstr "SMS neldaaka, eto goɗngol njaafoɗa"
 
 #: app/scripts/lib/strings.js:22
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
@@ -553,7 +553,7 @@ msgstr "Ngam ɓeydude kisal, tiiɗno teeŋtin ngol ceŋagol ngam fuɗɗaade sync
 
 #: app/scripts/lib/strings.js:43 app/scripts/views/settings/clients.js:77
 msgid "Web Session"
-msgstr ""
+msgstr "Rogere Geese"
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
