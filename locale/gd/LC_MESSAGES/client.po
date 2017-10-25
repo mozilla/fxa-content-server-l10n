@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-08-11 11:15+0000\n"
+"PO-Revision-Date: 2017-10-25 20:54+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gd\n"
@@ -528,9 +528,7 @@ msgid "SMS not sent, please try again"
 msgstr "Cha deach an SMS a chur, feuch ris a-rithist"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Ma leanas tu air adhart, bidh thu ag aontachadh ri <a id=\"service-tos\" href=\"%(termsUri)s\">teirmichean na seirbheise</a> agus <a id=\"service-pp\" href=\"%(privacyUri)s\">aithris na "
 "prìobhaideachd</a> aig %(serviceName)s (%(serviceUri)s)."
@@ -996,7 +994,7 @@ msgstr "Cumaidh facal-faire làidir àraidh an dàta Firefox agad sàbhailte o l
 
 #: app/scripts/templates/sign_up.mustache:19 app/scripts/templates/sign_up_password.mustache:8
 msgid "Receive the monthly Firefox newsletter"
-msgstr ""
+msgstr "Faigh cuairt-litir mhìosail Firefox"
 
 #: app/scripts/templates/sign_up.mustache:21 app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10
 msgid "Create account"
@@ -1020,7 +1018,7 @@ msgstr ""
 
 #: app/scripts/templates/sms_send.mustache:6 app/scripts/templates/sms_send.mustache:8
 msgid "Send"
-msgstr ""
+msgstr "Cuir"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid ""
@@ -1029,7 +1027,7 @@ msgstr ""
 
 #: app/scripts/templates/sms_send.mustache:9 app/scripts/templates/sms_send.mustache:11
 msgid "Maybe later"
-msgstr ""
+msgstr "Uaireigin eile ’s dòcha"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:4 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1442,7 +1440,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
-msgstr ""
+msgstr "Post-d eile"
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
@@ -1450,11 +1448,11 @@ msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
-msgstr ""
+msgstr "air a dhearbhadh"
 
 #: app/scripts/templates/settings/emails.mustache:9
 msgid "verification required"
-msgstr ""
+msgstr "feum air dearbhadh"
 
 #: app/scripts/templates/settings/emails.mustache:10 app/scripts/templates/settings/emails.mustache:13
 msgid "Make primary"
@@ -1480,19 +1478,19 @@ msgstr ""
 #: app/scripts/views/force_auth.js:153 app/scripts/views/sign_in.js:92
 msgctxt "submit button"
 msgid "Sign in"
-msgstr ""
+msgstr "Clàraich a-steach"
 
 #. header text
 #: app/scripts/views/sign_in.js:93
 msgctxt "header text"
 msgid "Sign in"
-msgstr ""
+msgstr "Clàraich a-steach"
 
 #. button text
 #: app/scripts/views/sign_in.js:90
 msgctxt "button text"
 msgid "Sign in"
-msgstr ""
+msgstr "Clàraich a-steach"
 
 #~ msgid "Next"
 #~ msgstr "Air adhart"
@@ -1555,11 +1553,11 @@ msgstr ""
 #~ msgstr "A bheil cunntas agad fo phost-d eile? <a href=\"%(signinUri)s\">Clàraich a-steach</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Tha Firefox ri fhaighinn air <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> agus <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Tha Firefox ri fhaighinn air <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> agus <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Delete"
 #~ msgstr "Sguab às"
@@ -1602,8 +1600,8 @@ msgstr ""
 
 #~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
 #~ msgstr ""
-#~ "Chaidh an cunntas agad a ghlasadh ri linn adhbharan tèarainteachd. Mus urrainn dhut an cunntas a stiùireadh, feumaidh tu an cunntas agad a dhearbhadh a-rithist slighe ceangal dearbhaidh a chaidh "
-#~ "a chur gu %(email)s"
+#~ "Chaidh an cunntas agad a ghlasadh ri linn adhbharan tèarainteachd. Mus urrainn dhut an cunntas a stiùireadh, feumaidh tu an cunntas agad a dhearbhadh a-rithist slighe ceangal dearbhaidh a chaidh a "
+#~ "chur gu %(email)s"
 
 #~ msgid "Signup has been disabled"
 #~ msgstr "Chaidh Signup a chur à comas"
@@ -1634,8 +1632,8 @@ msgstr ""
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr ""
-#~ "Ma nì thu ath-shuidheachadh an fhacail-fhaire agad, thèid an dàta brabhsaidh agad a sguabadh às na frithealaichean againn. Bidh an dàta air na h-uidheaman agad fhathast. Sa chiad dol a-mach, "
-#~ "cuir am post-d a-steach gu h-ìosal a thòiseachadh air an ath-shuidheachadh."
+#~ "Ma nì thu ath-shuidheachadh an fhacail-fhaire agad, thèid an dàta brabhsaidh agad a sguabadh às na frithealaichean againn. Bidh an dàta air na h-uidheaman agad fhathast. Sa chiad dol a-mach, cuir am"
+#~ " post-d a-steach gu h-ìosal a thòiseachadh air an ath-shuidheachadh."
 
 #~ msgid "Age is required"
 #~ msgstr "Tha feum air d’ aois"
@@ -1653,5 +1651,5 @@ msgstr ""
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Tha cunntasan Firefox feumach air briosgaidean agus feumaidh tu an cur an comas sa bhrabhsair. ’S pìosan beaga de dhàta a tha ann am briosgaidean a bheir comasan dhan bhrabhsair agad, can do "
-#~ "chumail an cuimhne eadar dà sheisean."
+#~ "Tha cunntasan Firefox feumach air briosgaidean agus feumaidh tu an cur an comas sa bhrabhsair. ’S pìosan beaga de dhàta a tha ann am briosgaidean a bheir comasan dhan bhrabhsair agad, can do chumail"
+#~ " an cuimhne eadar dà sheisean."
