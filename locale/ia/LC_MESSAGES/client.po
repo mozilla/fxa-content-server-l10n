@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-10-22 15:36+0000\n"
+"PO-Revision-Date: 2017-10-22 15:35+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -1018,6 +1018,8 @@ msgstr "Inviar"
 msgid ""
 "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"Le servicio SMS es disponibile solmente pro numeros de telephono statounitese. Eventual costos de SMS e de datos pote esser incassate. Le destinatario intendite del e-mail o SMS debe haber "
+"consentite. <a %(escapedLearnMoreAttributes)s>Leger plus</a>"
 
 #: app/scripts/templates/sms_send.mustache:9 app/scripts/templates/sms_send.mustache:11
 msgid "Maybe later"
@@ -1029,7 +1031,7 @@ msgstr "Installa FIrefox in tu telephono e authentica te pro completar le config
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr ""
+msgstr "Ligamine al app inviate a %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Numero incorrecte?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:5 app/scripts/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1056,6 +1058,8 @@ msgid ""
 "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 msgstr ""
+"Sync non es concipite como copia de reserva permanente. Illo tracta solmente lo que tu ha salveguardate in tu dispositivo. Si tu reinitialisa tu contrasigno e tu datos non ha essite immagazinate sur"
+" al minus un altere dispositivo, tu poterea perder tote le informationes associate al contrasigno ancian. Pro isto, es melior installar Firefox e usar Sync sur plus de un dispositivo."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1232,7 +1236,7 @@ msgstr "Desira tu vermente deler tu conto? Iste action non potera ser disfacite.
 
 #: app/scripts/templates/settings/display_name.mustache:5
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr ""
+msgstr "Elige le nomine que tu vole facer apparer in Firefox e quando tu gere tu conto."
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1244,7 +1248,7 @@ msgstr "Authenticar se a Sync"
 
 #: app/scripts/templates/openid/start.mustache:2
 msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-msgstr ""
+msgstr "Elige le conto a usar pro synchronisar tu schedas, marcapaginas, contrasignos e plus."
 
 #: app/scripts/templates/openid/start.mustache:3
 msgid "Use OpenID"
@@ -1320,7 +1324,7 @@ msgstr "Intende tu <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span
 
 #: app/scripts/templates/choose_what_to_sync.mustache:1
 msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
-msgstr ""
+msgstr "%(escapedEmail)s registrate. <a %(escapedBackLinkParams)s>Adresse de e-mail incorrecte?</a>"
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
@@ -1328,11 +1332,11 @@ msgstr "Recipe un nove ligamine"
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Recipe tu e-mail pro le ligamine de verification inviate&nbsp;a %(escapedEmail)s"
 
 #: app/scripts/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-msgstr ""
+msgstr "Recipe tu e-mail pro le ligamine de confirmation de authentication inviate a %(email)s"
 
 #: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
@@ -1396,14 +1400,16 @@ msgstr "Recipe le ultime novas re Mozilla e Firefox"
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"Le servicio SMS es solmente disponibile in certe paises. Costos de SMS e de datos pote esser incassate. Le destinatario intendite del message de e-mail o SMS debe haber consentite. <a "
+"%(escapedLearnMoreAttributes)s>Leger plus</a>"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Ligamine al app inviate a %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Numero&nbsp;incorrecte?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:3
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Ligamine al app reinviate a %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Numero&nbsp;incorrecte?</a>"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1411,11 +1417,11 @@ msgstr "Proque synchronisar plure apparatos?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr ""
+msgstr "Le servicio Sync non es un copia de reserva permanente, ma un maniera simple e secur de transferer le marcapaginas, chronologia e contrasignos inter tu dispositivos."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
+msgstr "Tu deberea installar Firefox e synchronisar al minus duo dispositivos pro proteger contra le perdita de tu datos in caso que es necessari restaurar los ma tu ha oblidate tu contrasigno."
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
@@ -1423,11 +1429,11 @@ msgstr "Revocar"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "We may send you emails related to your Firefox Account."
-msgstr ""
+msgstr "Nos pote inviar te messages de e-mail concernente tu conto de Firefox."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "In ultra, tu pote optar pro reciper actualitates sur Mozilla e Firefox."
 
 #: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
