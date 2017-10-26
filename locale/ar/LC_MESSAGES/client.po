@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-10-16 14:48+0000\n"
+"PO-Revision-Date: 2017-10-26 17:15+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -697,7 +697,7 @@ msgstr "أُرسِل بريد الإلكتروني"
 
 #: app/scripts/templates/confirm.mustache:6
 msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "أرسلنا رابط تأكيد إلى %(escapedEmail)s"
 
 #: app/scripts/templates/confirm.mustache:8
 msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
@@ -966,7 +966,7 @@ msgstr "أنشئ حسابَ فَيَرفُكس"
 
 #: app/scripts/templates/sign_up.mustache:6
 msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-msgstr ""
+msgstr "هل تبحث عن «تزامُن فَيَرفُكس»؟ <a href=\"%(escapedSyncSuggestionUrl)s\">ابدأ من هنا</a>"
 
 #: app/scripts/templates/sign_up.mustache:8 app/scripts/templates/sign_up.mustache:6
 msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
