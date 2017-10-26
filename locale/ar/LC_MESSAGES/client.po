@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-16 09:06+0000\n"
-"PO-Revision-Date: 2017-10-26 17:15+0000\n"
+"PO-Revision-Date: 2017-10-26 18:06+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -706,7 +706,7 @@ msgstr "لمزيد من الحماية لبياناتك، أُرسِل رابط 
 #: app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm.mustache:13 app/scripts/templates/confirm_reset_password.mustache:9 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 msgid "Didn't arrive and not in spam folder? Resend"
-msgstr ""
+msgstr "لم تصل وليست في مجلد السخام؟ أعِد إرسالها"
 
 #: app/scripts/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -1023,7 +1023,7 @@ msgstr "نصّب فَيَرفُكس على هاتفك الذكي ولج لإكم
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-msgstr ""
+msgstr "أُرسل رابط التطبيق إلى %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>أأخطأت في كتابة الرقم؟</a>"
 
 #: app/scripts/templates/sms_sent.mustache:5 app/scripts/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
@@ -1042,12 +1042,16 @@ msgid ""
 "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
 "Firefox for desktop will appear."
 msgstr ""
+"يتيح لك «تزامُن» مشاركة العلامات، والتأريخ وكلمات السر التي تحفظها في فَيَرفُكس على جهاز معين مع الأجهزة الأخرى التي عليها فَيَرفُكس. لِج إلى فَيَرفُكس على هاتفك أو اللوحي وسترى كل ما حفظته على نسخة"
+" فَيَرفُكس لسطح المكتب عليه."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid ""
 "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 msgstr ""
+"لم يُصمّم «تزامُن» ليكون نسخة احتياطية دائمة، بل فقط لمشاركة ما حفظته بين الأجهزة. إن صفّرت كلمة السر ولم تكن بياناتك مخزنة على جهاز واحد على الأقل، فقد تفقد كل المعلومات المرتبطة بكلمة السر "
+"القديمة. لهذا السبب قد ترغب بتثبيت فَيَرفُكس على أكثر من جهاز واحد واستخدام «تزامُن» فيهم."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
