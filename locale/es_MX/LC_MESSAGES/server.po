@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-27 16:09+0000\n"
-"PO-Revision-Date: 2017-10-27 17:45+0000\n"
+"PO-Revision-Date: 2017-10-27 18:03+0000\n"
 "Last-Translator: Elisa X. <ee.sf2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_MX\n"
@@ -332,7 +332,7 @@ msgstr "Una vez verificado este dispositivo, será posible realizar cambios a la
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "This is an automated email;if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Este es un correo electrónico automático; si lo recibiste por error o no lo autorizaste, entonces <a %(passwordChangeLinkAttributes)s>cambia tu contraseña</a>."
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
