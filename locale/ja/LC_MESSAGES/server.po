@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-27 16:09+0000\n"
-"PO-Revision-Date: 2017-10-27 17:10+0000\n"
+"PO-Revision-Date: 2017-10-27 17:12+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -319,7 +319,7 @@ msgstr "確認が済むと、予備アドレスの追加などのアカウント
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "This is an automated email;if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "これは自動送信メールです。あなたがこの操作を許可していない場合は、<a %(passwordChangeLinkAttributes)s>パスワードを変更してください</a>。"
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
