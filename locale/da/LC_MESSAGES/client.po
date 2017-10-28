@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-27 16:09+0000\n"
-"PO-Revision-Date: 2017-10-28 18:03+0000\n"
+"PO-Revision-Date: 2017-10-28 20:25+0000\n"
 "Last-Translator: Joergen <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
@@ -117,15 +117,15 @@ msgstr "seneste synkronisering %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:91
 msgid "last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "seneste synkronisering for mere end %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:98
 msgid "last active %(translatedTimeAgo)s"
-msgstr "sidst aktiv %(translatedTimeAgo)s"
+msgstr "sidst aktiv for %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:99
 msgid "last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "sidst aktiv for mere end %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:104
 msgid "last sync time unknown"
