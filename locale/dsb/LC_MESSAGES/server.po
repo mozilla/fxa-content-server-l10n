@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-27 16:09+0000\n"
-"PO-Revision-Date: 2017-10-28 16:29+0000\n"
+"PO-Revision-Date: 2017-10-28 16:32+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -331,7 +331,7 @@ msgstr "Gaž su wobkšuśone, su kontowe změny móžne, kaž na pśikład pśid
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "This is an automated email;if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "To jo awtomatiska mejlka; jolic sćo ju womólnje dostał, jolic njejsćo toś tu akciju awtorizěrował, <a %(passwordChangeLinkAttributes)s>změńśo pšosym swójo gronidło</a>."
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
