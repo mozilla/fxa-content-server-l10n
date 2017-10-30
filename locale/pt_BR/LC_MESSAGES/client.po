@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-27 16:09+0000\n"
-"PO-Revision-Date: 2017-10-28 17:20+0000\n"
+"PO-Revision-Date: 2017-10-30 02:49+0000\n"
 "Last-Translator: Maykon Chagas <mchagas@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -744,7 +744,7 @@ msgstr "Confira em seu e-mail o link de verificação enviado&nbsp;para %(escape
 
 #: app/scripts/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-msgstr "Confira seu e-mail para o link de confirmação de cadastro enviada para %(email)s"
+msgstr "Confira em seu e-mail o link de confirmação de cadastro enviada para %(email)s"
 
 #: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16
