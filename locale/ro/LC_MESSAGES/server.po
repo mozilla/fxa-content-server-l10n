@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-27 16:09+0000\n"
-"PO-Revision-Date: 2017-04-28 22:42+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"PO-Revision-Date: 2017-10-30 19:58+0000\n"
+"Last-Translator: Jobava <jobaval10n@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -28,13 +28,13 @@ msgid ""
 "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 "href='%(iosUrl)s'>iOS</a>."
 msgstr ""
-"Ai conectat cu succes primul tău dispozitiv la contul Firefox. Acum poți să te autentifici pentru Sincronizare de pe alte dispozitive, inclusiv Firefox pentru <a href='%(androidUrl)s'>Android</a> "
-"și <a href='%(iosUrl)s'>iOS</a>."
+"Ai conectat cu succes primul tău dispozitiv la contul Firefox. Acum poți să te autentifici pentru Sincronizare de pe alte dispozitive, inclusiv Firefox pentru <a href='%(androidUrl)s'>Android</a> și"
+" <a href='%(iosUrl)s'>iOS</a>."
 
 #: lib/senders/templates/_pending.txt:4
 msgid ""
-"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for iOS</"
-"a>."
+"You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+"iOS</a>."
 msgstr ""
 "Ai conectat cu succes primul tău dispozitiv la contul Firefox. Pentru a profita la maxim de Sincronizare, conectează-te de pe <a href='%(androidUrl)s'>Firefox pentru Android</a> sau <a "
 "href='%(iosUrl)s'>Firefox pentru iOS</a>."
@@ -181,11 +181,13 @@ msgstr "Echipa din spatele Conturi Firefox"
 
 #: lib/senders/templates/post_remove_secondary.html:2 lib/senders/templates/post_remove_secondary.txt:1
 msgid "Secondary email removed"
-msgstr ""
+msgstr "Adresa de e-mail secundară eliminată"
 
 #: lib/senders/templates/post_remove_secondary.html:3 lib/senders/templates/post_remove_secondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 msgstr ""
+"Ai eliminat cu succes %(secondaryEmail)s ca e-mail secundar din cadrul notificărilor și confirmărilor de securitate Firefox Account. Nu vei mai primi notificări de securitate și confirmări de "
+"autentificare pe această adresă de e-mail."
 
 #: lib/senders/templates/post_remove_secondary.html:4 lib/senders/templates/post_verify_secondary.html:4
 msgid "Manage account"
@@ -221,7 +223,7 @@ msgstr "E-mail secundar adăugat"
 
 #: lib/senders/templates/post_verify_secondary.html:3 lib/senders/templates/post_verify_secondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr ""
+msgstr "Ai verificat cu succes %(secondaryEmail)s ca e-mail secundar pentru Firefox Account. De acum vei primi notificări de securitate și confirmări de autentificare și pe această adresă."
 
 #: lib/senders/templates/post_verify_secondary.txt:4 lib/senders/templates/verify_login.txt:5 lib/senders/templates/verify_primary.txt:5
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
@@ -241,7 +243,7 @@ msgstr "Resetează parola"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr ""
+msgstr "Mulțumim că ai ales Firefox! Poți instala Firefox pentru mobil aici: %(link)s"
 
 #: lib/senders/templates/unblock_code.html:2 lib/senders/templates/unblock_code.txt:1
 msgid "Is this you signing in?"
@@ -265,8 +267,8 @@ msgstr "Bună din nou."
 
 #: lib/senders/templates/verification_reminder_first.html:3 lib/senders/templates/verification_reminder_first.txt:2
 msgid ""
-"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-"this email address to activate your account."
+"A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+" email address to activate your account."
 msgstr ""
 "Ai creat un cont Firefox Account acum câteva zile, dar nu l-ai verificat niciodată. Un cont verificat îți permite să accesezi filele, semnele de carte, parolele și istoricul de pe orice dispozitiv "
 "conectat la acesta. Pur și simplu confirmă această adresă de e-mail pentru a activa contul tău."
@@ -315,11 +317,11 @@ msgstr "Dacă suspectezi că cineva încearcă să obțină acces la contul tău
 
 #: lib/senders/templates/verify_primary.html:2 lib/senders/templates/verify_primary.txt:1 lib/senders/email.js:478
 msgid "Verify primary email"
-msgstr ""
+msgstr "Verifică adresa de e-mail principal"
 
 #: lib/senders/templates/verify_primary.html:3 lib/senders/templates/verify_primary.txt:2
 msgid "A request to perform an account change has been made from the following device:"
-msgstr ""
+msgstr "Am trimis o cerere de modificare a contului tău pe următorul dispozitiv:"
 
 #: lib/senders/templates/verify_primary.html:5 lib/senders/templates/verify_secondary.html:5 lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
 msgid "Verify email "
@@ -327,11 +329,11 @@ msgstr "Verifică e-mailul "
 
 #: lib/senders/templates/verify_primary.html:6
 msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-msgstr ""
+msgstr "Odată verificat acest dispozitiv, vei putea face modificări ale contului de pe acest dispozitiv, precum adăugarea unei adrese de e-mail secundare."
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "This is an automated email;if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Acesta este un mesaj automat. Dacă l-ai primit din greșeală sau nu ai autorizat această acțiune, atunci <a %(passwordChangeLinkAttributes)s>te rugăm să-ți modifici parola</a>."
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
@@ -343,11 +345,11 @@ msgstr "Verifică e-mailul secundar"
 
 #: lib/senders/templates/verify_secondary.html:3 lib/senders/templates/verify_secondary.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr ""
+msgstr "Am trimis o solicitare ca să facem %(email)s adresă de e-mail secundar pentru următorul cont Firefox:"
 
 #: lib/senders/templates/verify_secondary.html:6
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "Odată verificată, adresa va primi notificări de securitate și confirmări."
 
 #: lib/senders/templates/verify_sync.html:2 lib/senders/templates/verify_sync.txt:1
 msgid "Ready, set, sync"
@@ -359,7 +361,7 @@ msgstr "Confirmă că ai primit acest e-mail, iar noi te vom ajuta să instalezi
 
 #: lib/senders/templates/verify_sync.html:6 lib/senders/templates/verify_sync.txt:5
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "Odată confirmat, te vom ajuta să instalezi și să te conectezi la Firefox de pe cel puțin un alt dispozitiv."
 
 #: lib/senders/email.js:168
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -427,7 +429,7 @@ msgstr "E-mail secundat pentru contul Firefox adăugat"
 
 #: lib/senders/email.js:780
 msgid "Secondary Firefox Account email removed"
-msgstr ""
+msgstr "Am eliminat adresa de e-mail secundară pentru contul Firefox"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -567,8 +569,8 @@ msgstr "Termeni de utilizare a serviciului"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Acum o săptămână ai creat un cont Firefox Account, dar nu l-ai verificat niciodată. Ne facem griji pentru tine. Firefox este disponibil pentru Windows, Mac, Linux, Android și iOS. Poți "
-#~ "sincroniza parolele de Firefox, semnele de carte și istoricul pentru toate acestea. Confirmă această adresă de e-mail pentru a activa contul și pentru a ne anunța că ești în regulă."
+#~ "Acum o săptămână ai creat un cont Firefox Account, dar nu l-ai verificat niciodată. Ne facem griji pentru tine. Firefox este disponibil pentru Windows, Mac, Linux, Android și iOS. Poți sincroniza "
+#~ "parolele de Firefox, semnele de carte și istoricul pentru toate acestea. Confirmă această adresă de e-mail pentru a activa contul și pentru a ne anunța că ești în regulă."
 
 #~ msgid "env"
 #~ msgstr "env"
