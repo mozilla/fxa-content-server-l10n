@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-27 16:09+0000\n"
-"PO-Revision-Date: 2017-10-30 13:53+0000\n"
+"PO-Revision-Date: 2017-10-31 06:28+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -317,7 +317,7 @@ msgstr "Verifiser primær e-post"
 
 #: lib/senders/templates/verify_primary.html:3 lib/senders/templates/verify_primary.txt:2
 msgid "A request to perform an account change has been made from the following device:"
-msgstr ""
+msgstr "En forespørsel om å utføre en kontoendring er gjort fra følgende enhet:"
 
 #: lib/senders/templates/verify_primary.html:5 lib/senders/templates/verify_secondary.html:5 lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
 msgid "Verify email "
@@ -325,11 +325,11 @@ msgstr "Bekreft e-post "
 
 #: lib/senders/templates/verify_primary.html:6
 msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-msgstr ""
+msgstr "Når bekreftet, vil endringer i kontoen som å legge til en sekundær e-post, bli mulig fra denne enheten."
 
 #: lib/senders/templates/verify_primary.html:7
 msgid "This is an automated email;if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Denne e-post er sendt automatisk;hvis du mottok den ved en feil, eller hvis du ikke godkjente denne handlingen, så bør du bytte <a %(passwordChangeLinkAttributes)s>ditt passord</a>."
 
 #: lib/senders/templates/verify_primary.txt:4 lib/senders/templates/verify_secondary.txt:4
 msgid "Verify email: "
