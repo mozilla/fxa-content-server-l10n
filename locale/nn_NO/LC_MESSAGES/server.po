@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-27 16:09+0000\n"
-"PO-Revision-Date: 2017-10-31 15:19+0000\n"
+"PO-Revision-Date: 2017-11-01 17:43+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -300,7 +300,7 @@ msgstr "Aktiver kontoen din ved å stadfesta denne e-postadressa."
 
 #: lib/senders/templates/verify_login.html:3 lib/senders/templates/verify_login.txt:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "For ekstra sikkerheit, stadfest denne innlogginga for å starta synkroniseringa med denne eininga:"
+msgstr "For ekstra sikkerheit, stadfest denne innlogginga for å starte synkronisering med denne eininga:"
 
 #: lib/senders/templates/verify_login.html:5 lib/senders/templates/verify_login.txt:4
 msgid "Confirm sign-in"
