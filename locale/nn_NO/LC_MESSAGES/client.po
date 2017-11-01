@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-27 16:09+0000\n"
-"PO-Revision-Date: 2017-10-31 15:14+0000\n"
+"PO-Revision-Date: 2017-11-01 15:43+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -1029,7 +1029,7 @@ msgstr "Ser du etter utvidingsdata? Registrer ein Firefox-konto med den gamle e-
 
 #: app/scripts/templates/sign_up.mustache:14 app/scripts/templates/sign_up_password.mustache:6
 msgid "A strong, unique password will keep your Firefox data safe from intruders."
-msgstr "Eit sterkt, unikt passord vil halde dine Firefox-data trygge frå inntrengarar."
+msgstr "Eit sterkt, unikt passord vil halde Firefox-dataa dine trygge frå inntrengarar."
 
 #: app/scripts/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
