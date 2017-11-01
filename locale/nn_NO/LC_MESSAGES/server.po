@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-27 16:09+0000\n"
-"PO-Revision-Date: 2017-11-01 17:43+0000\n"
+"PO-Revision-Date: 2017-11-01 18:11+0000\n"
 "Last-Translator: Bjørn I. <bjorn.svindseth@online.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -368,7 +368,7 @@ msgstr "%(uaBrowser)s på %(uaOS)s"
 
 #: lib/senders/email.js:198
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr "%(city)s, %(stateCode)s, %(country)s (berekna)"
+msgstr "%(city)s, %(stateCode)s, %(country)s (estimert)"
 
 #: lib/senders/email.js:200
 msgid "%(city)s, %(country)s (estimated)"
@@ -376,7 +376,7 @@ msgstr "%(city)s, %(country)s (estimert)"
 
 #: lib/senders/email.js:202
 msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr "%(stateCode)s, %(country)s (berekna)"
+msgstr "%(stateCode)s, %(country)s (estimert)"
 
 #: lib/senders/email.js:204
 msgid "%(country)s (estimated)"
