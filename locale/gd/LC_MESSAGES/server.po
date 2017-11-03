@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-27 16:09+0000\n"
-"PO-Revision-Date: 2017-11-03 15:23+0000\n"
+"PO-Revision-Date: 2017-11-03 15:37+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gd\n"
@@ -153,7 +153,7 @@ msgstr ""
 
 #: lib/senders/templates/password_reset_required.html:4 lib/senders/templates/password_reset_required.txt:3
 msgid "What should you do?"
-msgstr ""
+msgstr "Dè nì mi?"
 
 #: lib/senders/templates/password_reset_required.html:5 lib/senders/templates/password_reset_required.txt:4
 msgid "First, change your Firefox Account password."
@@ -318,7 +318,7 @@ msgstr ""
 
 #: lib/senders/templates/verify_primary.html:5 lib/senders/templates/verify_secondary.html:5 lib/senders/templates/verify_sync.html:5 lib/senders/templates/verify_sync.txt:4
 msgid "Verify email "
-msgstr ""
+msgstr "Dearbh am post-d "
 
 #: lib/senders/templates/verify_primary.html:6
 msgid "Once verified, account changes like adding a secondary email will become possible from this device."
@@ -358,27 +358,27 @@ msgstr ""
 
 #: lib/senders/email.js:168
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
-msgstr ""
+msgstr "%(uaBrowser)s air %(uaOS)s %(uaOSVersion)s"
 
 #: lib/senders/email.js:171
 msgid "%(uaBrowser)s on %(uaOS)s"
-msgstr ""
+msgstr "%(uaBrowser)s air %(uaOS)s"
 
 #: lib/senders/email.js:198
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(stateCode)s, %(country)s (tuairmeas)"
 
 #: lib/senders/email.js:200
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (tuairmeas)"
 
 #: lib/senders/email.js:202
 msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(stateCode)s, %(country)s (tuairmeas)"
 
 #: lib/senders/email.js:204
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (tuairmeas)"
 
 #: lib/senders/email.js:323
 msgid "Verify your Firefox Account"

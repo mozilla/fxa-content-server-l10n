@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-27 16:09+0000\n"
-"PO-Revision-Date: 2017-11-03 15:31+0000\n"
+"PO-Revision-Date: 2017-11-03 15:36+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gd\n"
@@ -1092,11 +1092,11 @@ msgstr "Chaidh an ceangal ris an aplacaid a chur gu %(escapedPhoneNumber)s. <a %
 
 #: app/scripts/templates/sms_sent.mustache:3
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Chaidh an ceangal ris an aplacaid a chur gu %(escapedPhoneNumber)s às ùr. <a %(escapedBackLinkAttrs)s>An robh mearachd san àireamh?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:7
 msgid "If you are not receiving the text message, you can also download the apps manually."
-msgstr ""
+msgstr "Mur eil thu a’ faighinn an SMS, is urrainn dhut an aplacaid a luchdadh a-nuas thu fhèin cuideachd."
 
 #: app/scripts/templates/sms_sent.mustache:8
 msgid "Didn't arrive? Resend"
@@ -1104,15 +1104,18 @@ msgstr "Nach d’fhuair thu e? Cuir às ùr e"
 
 #: app/scripts/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr ""
+msgstr "Carson a shioncronaichinn iomadh uidheam?"
 
 #: app/scripts/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
 msgstr ""
+"Chan eil gleus lethbhreacan-glèidhidh buan a tha ann an seirbheis an t-sioncronachaidh ach dìreach dòigh thèarainte airson comharran-lìn, an eachdraidh is faclan-faire a ghluasad mun cuairt nan "
+"uidheaman agad."
 
 #: app/scripts/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr ""
+"Bu chòir dhut Firefox a stàladh is co-dhiù dà uidheam a shioncronachadh mar dhìon an aghaidh call dàta, can nam biodh agad aiseag a dhèanamh ’s tu air am facal-faire agad a dhìochuimhneachadh."
 
 #: app/scripts/templates/why_connect_another_device.mustache:4 app/scripts/templates/settings/client_disconnect.mustache:11
 msgid "Got it"
@@ -1218,11 +1221,11 @@ msgstr "Dì-cheangail…"
 
 #: app/scripts/templates/settings/clients.mustache:11
 msgid "current session"
-msgstr ""
+msgstr "an seisean làithreach"
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
-msgstr ""
+msgstr "Thoir air falbh"
 
 #: app/scripts/templates/settings/clients.mustache:19
 msgid "Firefox for iOS"
@@ -1254,7 +1257,7 @@ msgstr "Roghainnean conaltraidh"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:7
 msgid "We may send you emails related to your Firefox Account."
-msgstr ""
+msgstr "Dh’fhaoidte gun cuir sinn puist-d thugad a thaobh a’ chunntais Firefox agad."
 
 #: app/scripts/templates/settings/communication_preferences.mustache:8
 msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
@@ -1306,7 +1309,7 @@ msgstr ""
 
 #: app/scripts/templates/settings/emails.mustache:12 app/scripts/templates/settings/emails.mustache:15
 msgid "Remove"
-msgstr ""
+msgstr "Thoir air falbh"
 
 #: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
