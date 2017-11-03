@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-27 16:09+0000\n"
+"POT-Creation-Date: 2017-11-03 16:09+0000\n"
 "PO-Revision-Date: 2017-10-27 09:40+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,7 +54,7 @@ msgstr "اپنے دیگر Firefox آلات پر نیا پاسورڈ ڈال دا�
 msgid "Email verified"
 msgstr "تصدیق شدہ ای میل"
 
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:50 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "سائن ان تصدیق شدہ"
 
@@ -138,7 +138,7 @@ msgstr "کامیابی سے رکنیت سازی کی گئی"
 msgid "Account deleted successfully"
 msgstr "اکاؤنٹ کامیابی سے حزف کر دیا گیا ہے"
 
-#: app/scripts/views/settings/display_name.js:56
+#: app/scripts/views/settings/display_name.js:57
 msgid "Display name updated"
 msgstr ""
 
@@ -774,10 +774,6 @@ msgstr "اہک اور آلہ جوڑیں"
 msgid "This Firefox is connected"
 msgstr "یہ Firefox جڑا ہوا ہے"
 
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr ""
-
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
 msgstr "کامیابی"
@@ -1066,10 +1062,6 @@ msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
 
-#: app/scripts/templates/sms_send.mustache:11
-msgid "Maybe later"
-msgstr "‏‏شاید بعد میں"
-
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
 msgstr ""
@@ -1335,6 +1327,9 @@ msgstr "سائن ان"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "سائن ان"
+
+#~ msgid "Maybe later"
+#~ msgstr "‏‏شاید بعد میں"
 
 #~ msgid "App link resent to %(phoneNumber)s"
 #~ msgstr "ایب کا ربط %(phoneNumber)s پردوبارہ ارسال کر دیا گیا ہے"

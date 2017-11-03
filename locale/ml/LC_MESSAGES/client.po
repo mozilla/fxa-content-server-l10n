@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-27 16:09+0000\n"
+"POT-Creation-Date: 2017-11-03 16:09+0000\n"
 "PO-Revision-Date: 2017-06-21 10:52+0000\n"
 "Last-Translator: Anivar Aravind <anivar.aravind@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,7 +54,7 @@ msgstr "നിങ്ങളുടെ മറ്റേ ഫയർഫോക്സി�
 msgid "Email verified"
 msgstr ""
 
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:50 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "സൈൻ-ഇൻ സ്ഥിരീകരിച്ചു"
 
@@ -138,7 +138,7 @@ msgstr "വിജയകരമായി സബ്സ്ക്രൈബ് ചെ�
 msgid "Account deleted successfully"
 msgstr "അക്കൗണ്ട് വിജയകരമായി നീക്കം ചെയ്തു"
 
-#: app/scripts/views/settings/display_name.js:56
+#: app/scripts/views/settings/display_name.js:57
 msgid "Display name updated"
 msgstr ""
 
@@ -774,10 +774,6 @@ msgstr ""
 msgid "This Firefox is connected"
 msgstr ""
 
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr ""
-
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
 msgstr ""
@@ -1064,10 +1060,6 @@ msgstr ""
 #: app/scripts/templates/sms_send.mustache:9
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
-
-#: app/scripts/templates/sms_send.mustache:11
-msgid "Maybe later"
 msgstr ""
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6

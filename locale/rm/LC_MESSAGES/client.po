@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-27 16:09+0000\n"
+"POT-Creation-Date: 2017-11-03 16:09+0000\n"
 "PO-Revision-Date: 2017-09-30 15:04+0000\n"
 "Last-Translator: Gion-Andri Cantieni <gion-andri@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,7 +55,7 @@ msgstr "Cumplettar l'installaziun entras endatar il nov pled-clav en tes auters 
 msgid "Email verified"
 msgstr "Verifitgà l'adressa dad e-mail"
 
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:50 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "Confermà l'annunzia"
 
@@ -140,7 +140,7 @@ msgstr "Abunnà cun success"
 msgid "Account deleted successfully"
 msgstr "Stizzà cun success il conto"
 
-#: app/scripts/views/settings/display_name.js:56
+#: app/scripts/views/settings/display_name.js:57
 msgid "Display name updated"
 msgstr "Actualisà il num per visualisar"
 
@@ -778,10 +778,6 @@ msgstr "Connectar in auter apparat"
 msgid "This Firefox is connected"
 msgstr "Quest Firefox è connectà"
 
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr "Confermà l'annunzia"
-
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
 msgstr "Success"
@@ -1074,10 +1070,6 @@ msgstr ""
 "Il servetsch dad SMS è mo disponibel en tscherts pajais. Eventualmain custan ils SMS e la transmissiun da datas. Il destinatur da l'e-mail u dal SMS sto esser d'accord. <a "
 "%(escapedLearnMoreAttributes)s>Ulteriuras infurmaziuns</a>"
 
-#: app/scripts/templates/sms_send.mustache:11
-msgid "Maybe later"
-msgstr "Forsa pli tard"
-
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
 msgstr "Installescha Firefox sin tes telefonin e t'annunzia per cumplettar l'installaziun"
@@ -1345,6 +1337,12 @@ msgstr "S'annunziar"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "S'annunziar"
+
+#~ msgid "Signin confirmed"
+#~ msgstr "Confermà l'annunzia"
+
+#~ msgid "Maybe later"
+#~ msgstr "Forsa pli tard"
 
 #~ msgid "App link resent to %(phoneNumber)s"
 #~ msgstr "La colliaziun da l'applicaziun è vegnida tramessa anc ina giada a %(phoneNumber)s"
