@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-27 16:09+0000\n"
-"PO-Revision-Date: 2017-10-25 20:54+0000\n"
+"PO-Revision-Date: 2017-11-03 15:31+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gd\n"
@@ -113,7 +113,7 @@ msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:83
 msgid "over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "nas fhaide na %(translatedTimeAgo)s air ais"
 
 #: app/scripts/views/settings/clients.js:90
 msgid "last sync %(translatedTimeAgo)s"
@@ -121,7 +121,7 @@ msgstr "sioncronachadh mu dheireadh %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:91
 msgid "last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "sioncronachadh mu dheireadh nas fhaide na %(translatedTimeAgo)s air ais"
 
 #: app/scripts/views/settings/clients.js:98
 msgid "last active %(translatedTimeAgo)s"
@@ -129,7 +129,7 @@ msgstr "gnìomhachd mu dheireadh %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:99
 msgid "last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "gnìomhachd mu dheireadh nas fhaide na %(translatedTimeAgo)s air ais"
 
 #: app/scripts/views/settings/clients.js:104
 msgid "last sync time unknown"
@@ -149,7 +149,7 @@ msgstr "Chaidh an t-ainm-taisbeanaidh ùrachadh"
 
 #: app/scripts/views/settings/emails.js:114
 msgid "Secondary email removed"
-msgstr ""
+msgstr "Chaidh an dàrna post-d a thoirt air falbh"
 
 #: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
 msgid "Verification email sent"
@@ -605,9 +605,7 @@ msgid "SMS not sent, please try again"
 msgstr "Cha deach an SMS a chur, feuch ris a-rithist"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Ma leanas tu air adhart, bidh thu ag aontachadh ri <a id=\"service-tos\" href=\"%(termsUri)s\">teirmichean na seirbheise</a> agus <a id=\"service-pp\" href=\"%(privacyUri)s\">aithris na "
 "prìobhaideachd</a> aig %(serviceName)s (%(serviceUri)s)."
@@ -686,7 +684,7 @@ msgstr "Bhriog thu air ceangal a dh’fhalbh an ùine air gus am facal-faire aga
 
 #: app/scripts/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
-msgstr ""
+msgstr "Faigh ceangal ùr"
 
 #: app/scripts/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -747,16 +745,16 @@ msgstr "Dearbh an clàradh a-steach seo"
 
 #: app/scripts/templates/confirm.mustache:5
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Thoir sùil air a’ phost-d agad airson a’ cheangail dearbhaidh a chaidh a gus gu %(escapedEmail)s"
 
 #: app/scripts/templates/confirm.mustache:7
 msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-msgstr ""
+msgstr "Thoir sùil air a’ phost-d agad airson ceangal dearbhadh clàraidh a-steach a chuir sinn gu %(email)s"
 
 #: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16
 msgid "Not in inbox or spam folder? Resend"
-msgstr ""
+msgstr "Nach eil e sa bhogsa a-steach no pasgan an spama? Cuir às ùr"
 
 #: app/scripts/templates/confirm.mustache:12 app/scripts/templates/pp.mustache:3 app/scripts/templates/sign_in_bounced.mustache:6 app/scripts/templates/tos.mustache:3
 msgid "Back"
@@ -780,11 +778,11 @@ msgstr "Ceangail ri uidheam eile"
 
 #: app/scripts/templates/connect_another_device.mustache:2 app/scripts/templates/sms_send.mustache:2
 msgid "This Firefox is connected"
-msgstr ""
+msgstr "Tha am Firefox seo ceangailte ris"
 
 #: app/scripts/templates/connect_another_device.mustache:6
 msgid "Signin confirmed"
-msgstr ""
+msgstr "Clàradh a-steach air a dhearbhadh"
 
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
@@ -801,7 +799,7 @@ msgstr "Clàraich a-steach &rarr;"
 #: app/scripts/templates/connect_another_device.mustache:12 app/scripts/templates/connect_another_device.mustache:16 app/scripts/templates/connect_another_device.mustache:26
 #: app/scripts/templates/sms_send.mustache:4
 msgid "Still adding devices?"
-msgstr ""
+msgstr "A’ cur uidheam ris fhathast?"
 
 #: app/scripts/templates/connect_another_device.mustache:14 app/scripts/templates/connect_another_device.mustache:18 app/scripts/templates/connect_another_device.mustache:28
 msgid "Sign in to Firefox on another device to complete set-up"
@@ -821,11 +819,11 @@ msgstr "Clàraich a-steach gu Firefox airson iOS a choileanadh an t-suidheachaid
 
 #: app/scripts/templates/connect_another_device.mustache:30 app/scripts/templates/sms_send.mustache:10
 msgid "Why is more than one device required?"
-msgstr ""
+msgstr "Carson a tha feum air barrachd air aon uidheam?"
 
 #: app/scripts/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr ""
+msgstr "Tha feum air briosgaidean is stòras ionadail"
 
 #: app/scripts/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
@@ -861,7 +859,7 @@ msgstr ""
 
 #: app/scripts/templates/index.mustache:1 app/scripts/templates/index.mustache:4
 msgid "Enter your email"
-msgstr ""
+msgstr "Cuir a-steach am post-d agad"
 
 #: app/scripts/templates/index.mustache:2 app/scripts/templates/reset_password.mustache:2 app/scripts/templates/sign_in.mustache:1 app/scripts/templates/sign_in_password.mustache:2
 #: app/scripts/templates/sign_up.mustache:2 app/scripts/templates/sign_up_password.mustache:2
@@ -931,7 +929,7 @@ msgstr "Sguir dheth"
 
 #: app/scripts/templates/ready.mustache:5
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr ""
+msgstr "Thèid brathan mun chunntas a chur gu %(secondaryEmailVerified)s o seo a-mach cuideachd"
 
 #: app/scripts/templates/ready.mustache:7
 msgid "Your account is ready!"
@@ -991,23 +989,23 @@ msgstr "Cruthaich cunntas"
 
 #: app/scripts/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr ""
+msgstr "Tha sinn duilich ach ghlais sinn an cunntas agad."
 
 #: app/scripts/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr ""
+msgstr "Chuir sinn post-d dearbhaidh gu %(email)s ach chaidh a thilleadh agus ghlais sinn an cunntas agad gus an dàta Firefox agad a dhìon."
 
 #: app/scripts/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr ""
+msgstr "Mas e seòladh puist-d dligheach a tha seo, <a %(escapedSupportLinkAttrs)s>innis dhuinn</a> is cuidichidh sinn thu a’ toirt dheth a’ ghlas a-rithist."
 
 #: app/scripts/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr ""
+msgstr "Nach eil am post-d ud agad tuilleadh? Cruthaich cunntas ùr"
 
 #: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
-msgstr ""
+msgstr "An robh mearachd-litreachaidh sa phost-d?"
 
 #: app/scripts/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1023,7 +1021,7 @@ msgstr "Ceadaich an clàradh a-steach seo"
 
 #: app/scripts/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "Thoir sùil air a’ phost-d agad airson a’ chòd dearbhadh a chuir sinn gu %(email)s."
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1047,7 +1045,7 @@ msgstr "Cumaidh facal-faire làidir àraidh an dàta Firefox agad sàbhailte o l
 
 #: app/scripts/templates/sign_up.mustache:18
 msgid "Get the latest news about Mozilla and Firefox"
-msgstr ""
+msgstr "Faigh na naidheachdan as ùire mu Mozilla is Firefox"
 
 #: app/scripts/templates/sign_up.mustache:20 app/scripts/templates/sign_up_password.mustache:10
 msgid "Create account"
@@ -1063,11 +1061,11 @@ msgstr "Faigh cuairt-litir mhìosail Firefox"
 
 #: app/scripts/templates/sms_send.mustache:1 app/scripts/templates/sms_send.mustache:6
 msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Cuir Firefox calg-dhìreach dhan fhòn tapaidh agad is clàraich a-steach a choileanadh an t-suidheachaidh"
 
 #: app/scripts/templates/sms_send.mustache:7
 msgid "Mobile phone number"
-msgstr ""
+msgstr "Àireamh fòn-làimhe"
 
 #: app/scripts/templates/sms_send.mustache:8
 msgid "Send"
@@ -1077,6 +1075,8 @@ msgstr "Cuir"
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
+"Chan eil an t-seirbheis SMS ri fhaighinn ach ann an cuid a dhùthchannan. Dh’fhaoidte gun èirich cosgaisean SMS ⁊ dàta. Feumaidh faightear a’ phuist-d no SMS a bhith air aontachadh. <a "
+"%(escapedLearnMoreAttributes)s>Barrachd fiosrachaidh</a>"
 
 #: app/scripts/templates/sms_send.mustache:11
 msgid "Maybe later"
@@ -1084,11 +1084,11 @@ msgstr "Uaireigin eile ’s dòcha"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
-msgstr ""
+msgstr "Stàlaich Firefox air an fhòn tapaidh agad is clàraich a-steach a choileanadh an t-suidheachaidh"
 
 #: app/scripts/templates/sms_sent.mustache:2
 msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-msgstr ""
+msgstr "Chaidh an ceangal ris an aplacaid a chur gu %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>An robh mearachd san àireamh?</a>"
 
 #: app/scripts/templates/sms_sent.mustache:3
 msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
@@ -1412,8 +1412,8 @@ msgstr "Clàraich a-steach"
 #~ msgstr "Carson a dhèanainn sioncronachadh?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
 #~ "Ma nì thu sioncronachadh, gheibh thu na comharran-lìn, an eachdraidh agus na faclan-faire a shàbhail thu an am Firefox air an dàrna uidheam ann am Firefox air uidheam eile. Clàraich a-steach gu "
 #~ "Firefox air an fhòn no tablaid agad agus bidh gach rud a shàbhail thu ann am Firefox air an desktop ri do làimh."
@@ -1422,9 +1422,9 @@ msgstr "Clàraich a-steach"
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Chan e gleus airson lethbhreacan-glèidhidh a tha ann an gleus an t-sioncronachaidh, cha dèan e ach sioncronachadh an dàta a shàbhail thu gu h-ionadail. Ma dh’ath-shuidhicheas tu am facal-faire "
-#~ "agad agus mur eil an dàta ’ga stòradh air co-dhiù aon uidheam eile, dh’fhaoidte gun caill thu am fiosrachadh air fad a tha co-cheangailte ris an t-seann fhacal-fhaire. Leis a sin, b’ fheairrde "
-#~ "dhut Firefox agus gleus an t-sioncronachaidh a stàladh air barrachd air aon uidheam."
+#~ "Chan e gleus airson lethbhreacan-glèidhidh a tha ann an gleus an t-sioncronachaidh, cha dèan e ach sioncronachadh an dàta a shàbhail thu gu h-ionadail. Ma dh’ath-shuidhicheas tu am facal-faire agad "
+#~ "agus mur eil an dàta ’ga stòradh air co-dhiù aon uidheam eile, dh’fhaoidte gun caill thu am fiosrachadh air fad a tha co-cheangailte ris an t-seann fhacal-fhaire. Leis a sin, b’ fheairrde dhut "
+#~ "Firefox agus gleus an t-sioncronachaidh a stàladh air barrachd air aon uidheam."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -1509,11 +1509,11 @@ msgstr "Clàraich a-steach"
 #~ msgstr "A bheil cunntas agad fo phost-d eile? <a href=\"%(signinUri)s\">Clàraich a-steach</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Tha Firefox ri fhaighinn air <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> agus <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Tha Firefox ri fhaighinn air <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> agus <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Delete"
 #~ msgstr "Sguab às"
@@ -1556,8 +1556,8 @@ msgstr "Clàraich a-steach"
 
 #~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
 #~ msgstr ""
-#~ "Chaidh an cunntas agad a ghlasadh ri linn adhbharan tèarainteachd. Mus urrainn dhut an cunntas a stiùireadh, feumaidh tu an cunntas agad a dhearbhadh a-rithist slighe ceangal dearbhaidh a chaidh "
-#~ "a chur gu %(email)s"
+#~ "Chaidh an cunntas agad a ghlasadh ri linn adhbharan tèarainteachd. Mus urrainn dhut an cunntas a stiùireadh, feumaidh tu an cunntas agad a dhearbhadh a-rithist slighe ceangal dearbhaidh a chaidh a "
+#~ "chur gu %(email)s"
 
 #~ msgid "Signup has been disabled"
 #~ msgstr "Chaidh Signup a chur à comas"
@@ -1588,8 +1588,8 @@ msgstr "Clàraich a-steach"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr ""
-#~ "Ma nì thu ath-shuidheachadh an fhacail-fhaire agad, thèid an dàta brabhsaidh agad a sguabadh às na frithealaichean againn. Bidh an dàta air na h-uidheaman agad fhathast. Sa chiad dol a-mach, "
-#~ "cuir am post-d a-steach gu h-ìosal a thòiseachadh air an ath-shuidheachadh."
+#~ "Ma nì thu ath-shuidheachadh an fhacail-fhaire agad, thèid an dàta brabhsaidh agad a sguabadh às na frithealaichean againn. Bidh an dàta air na h-uidheaman agad fhathast. Sa chiad dol a-mach, cuir am"
+#~ " post-d a-steach gu h-ìosal a thòiseachadh air an ath-shuidheachadh."
 
 #~ msgid "Age is required"
 #~ msgstr "Tha feum air d’ aois"
@@ -1607,5 +1607,5 @@ msgstr "Clàraich a-steach"
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Tha cunntasan Firefox feumach air briosgaidean agus feumaidh tu an cur an comas sa bhrabhsair. ’S pìosan beaga de dhàta a tha ann am briosgaidean a bheir comasan dhan bhrabhsair agad, can do "
-#~ "chumail an cuimhne eadar dà sheisean."
+#~ "Tha cunntasan Firefox feumach air briosgaidean agus feumaidh tu an cur an comas sa bhrabhsair. ’S pìosan beaga de dhàta a tha ann am briosgaidean a bheir comasan dhan bhrabhsair agad, can do chumail"
+#~ " an cuimhne eadar dà sheisean."
