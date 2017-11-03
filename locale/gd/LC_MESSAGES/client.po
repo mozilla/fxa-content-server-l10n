@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-27 16:09+0000\n"
-"PO-Revision-Date: 2017-11-03 15:54+0000\n"
+"PO-Revision-Date: 2017-11-03 16:17+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gd\n"
@@ -149,7 +149,7 @@ msgstr "Chaidh an t-ainm-taisbeanaidh ùrachadh"
 
 #: app/scripts/views/settings/emails.js:114
 msgid "Secondary email removed"
-msgstr "Chaidh an dàrna post-d a thoirt air falbh"
+msgstr "Chaidh am post-d dàrnach a thoirt air falbh"
 
 #: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
 msgid "Verification email sent"
@@ -1289,11 +1289,11 @@ msgstr "Tagh an t-ainm a nochdas ann am Firefox agus nuair a stiùireas tu an cu
 
 #: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
 msgid "Secondary email"
-msgstr "Post-d eile"
+msgstr "Post-d dàrnach"
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-msgstr "Tha dàrna post-d ’na sheòladh a bharrachd airson brathan tèarainteachd agus airson dearbhadh gu bheil thu airson uidheam ùr a shioncronachadh."
+msgstr "Tha post-d dàrnach ’na sheòladh a bharrachd airson brathan tèarainteachd agus airson dearbhadh gu bheil thu airson uidheam ùr a shioncronachadh."
 
 #: app/scripts/templates/settings/emails.mustache:7
 msgid "verified"
