@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-27 16:09+0000\n"
+"POT-Creation-Date: 2017-11-03 16:09+0000\n"
 "PO-Revision-Date: 2017-10-01 10:36+0000\n"
 "Last-Translator: nuttapong2539 <nuttapong2539@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,7 +54,7 @@ msgstr "ตั้งค่าให้สมบูรณ์ โดยการ�
 msgid "Email verified"
 msgstr "อีเมลได้รับการยืนยันแล้ว"
 
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:50 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "ยืนยันการลงชื่อเข้าแล้ว"
 
@@ -138,7 +138,7 @@ msgstr "ได้บอกรับเรียบร้อยแล้ว"
 msgid "Account deleted successfully"
 msgstr "ได้ลบบัญชีเรียบร้อยแล้ว"
 
-#: app/scripts/views/settings/display_name.js:56
+#: app/scripts/views/settings/display_name.js:57
 msgid "Display name updated"
 msgstr "ปรับปรุงชื่อที่ใช้แสดงแล้ว"
 
@@ -775,10 +775,6 @@ msgstr "เชื่อมต่ออุปกรณ์อื่น"
 msgid "This Firefox is connected"
 msgstr "Firefox นี้เชื่อมต่อแล้ว"
 
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr ""
-
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
 msgstr "สำเร็จ"
@@ -1067,10 +1063,6 @@ msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr "บริการ SMS ใช้ได้เฉพาะบางประเทศ อาจจะมีค่าใช้จ่าย SMS และข้อมูล ต้องได้รับความยินยอมจากผู้รับอีเมล์หรือ SMS <a %(escapedLearnMoreAttributes)s>เรียนรู้เพิ่มเติม</a>"
 
-#: app/scripts/templates/sms_send.mustache:11
-msgid "Maybe later"
-msgstr "ไว้ภายหลัง"
-
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
 msgstr "ติดตั้ง Firefox บนสมาร์ทโฟนของคุณ และลงชื่อเข้าใช้เพื่อตั้งค่าให้เสร็จสมบูรณ์"
@@ -1336,6 +1328,9 @@ msgstr "ลงชื่อเข้า"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "ลงชื่อเข้า"
+
+#~ msgid "Maybe later"
+#~ msgstr "ไว้ภายหลัง"
 
 #~ msgid "App link resent to %(phoneNumber)s"
 #~ msgstr "ลิงก์แอปถูกส่งไปยัง %(phoneNumber)s"

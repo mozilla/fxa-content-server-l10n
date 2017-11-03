@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-27 16:09+0000\n"
+"POT-Creation-Date: 2017-11-03 16:09+0000\n"
 "PO-Revision-Date: 2017-10-14 16:25+0000\n"
 "Last-Translator: Jinkyu Yi <jincreator@jincreator.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,7 +55,7 @@ msgstr "다른 Firefox 장치에서 암호를 입력해 설정을 완료하세�
 msgid "Email verified"
 msgstr "이메일 인증됨"
 
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:50 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "로그인 확인"
 
@@ -139,7 +139,7 @@ msgstr "구독 성공"
 msgid "Account deleted successfully"
 msgstr "계정이 성공적으로 삭제됨"
 
-#: app/scripts/views/settings/display_name.js:56
+#: app/scripts/views/settings/display_name.js:57
 msgid "Display name updated"
 msgstr "표시 이름 갱신됨"
 
@@ -777,10 +777,6 @@ msgstr "다른 장치에 연결"
 msgid "This Firefox is connected"
 msgstr "이 Firefox는 연결되었습니다"
 
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr "로그인 확인됨"
-
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
 msgstr "성공"
@@ -1070,10 +1066,6 @@ msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr "SMS 서비스는 특정 국가에서만 사용가능합니다. SMS와 데이터 요금이 적용될 수 있습니다. 이메일 또는 SMS 수신자가 동의해야합니다. <a %(escapedLearnMoreAttributes)s>자세히 알아보기</a>"
 
-#: app/scripts/templates/sms_send.mustache:11
-msgid "Maybe later"
-msgstr "나중에요"
-
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
 msgstr "스마트폰에 Firefox를 설치하고 로그인 하여 설치 완료"
@@ -1339,6 +1331,12 @@ msgstr "로그인"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "로그인"
+
+#~ msgid "Signin confirmed"
+#~ msgstr "로그인 확인됨"
+
+#~ msgid "Maybe later"
+#~ msgstr "나중에요"
 
 #~ msgid "App link resent to %(phoneNumber)s"
 #~ msgstr "%(phoneNumber)s로 앱 링크 재전송"

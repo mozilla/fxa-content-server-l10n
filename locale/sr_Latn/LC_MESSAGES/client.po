@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-27 16:09+0000\n"
-"PO-Revision-Date: 2017-10-20 09:58+0000\n"
+"POT-Creation-Date: 2017-11-03 16:09+0000\n"
+"PO-Revision-Date: 2017-11-03 07:08+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
@@ -65,6 +65,7 @@ msgid "Email verified"
 msgstr "Adresa e-pošte je potvrđena"
 
 #: app/scripts/views/ready.js:50
+#: app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "Prijava potvrđena"
 
@@ -136,7 +137,7 @@ msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:83
 msgid "over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "preko %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:90
 msgid "last sync %(translatedTimeAgo)s"
@@ -144,7 +145,7 @@ msgstr "poslednja sinhronizacija %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:91
 msgid "last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "poslednja sinhronizacija pre %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:98
 msgid "last active %(translatedTimeAgo)s"
@@ -152,7 +153,7 @@ msgstr "poslednji put aktivan %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:99
 msgid "last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "poslednja aktivnost pre %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:104
 msgid "last sync time unknown"
@@ -166,7 +167,7 @@ msgstr "Uspešna pretplata"
 msgid "Account deleted successfully"
 msgstr "Nalog uspešno obrisan"
 
-#: app/scripts/views/settings/display_name.js:56
+#: app/scripts/views/settings/display_name.js:57
 msgid "Display name updated"
 msgstr "Prikaži ažurirano ime"
 
@@ -881,10 +882,6 @@ msgstr "Poveži drugi uređaj"
 msgid "This Firefox is connected"
 msgstr "Ovaj Firefox je povezan"
 
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr "Prijava potvrđena"
-
 #: app/scripts/templates/connect_another_device.mustache:8
 #: app/scripts/templates/ready.mustache:1
 #: app/scripts/templates/sms_send.mustache:3
@@ -1285,10 +1282,6 @@ msgstr ""
 "naplatiti. Primalac e-pošte ili SMS poruke mora biti saglasan sa time. <a "
 "%(escapedLearnMoreAttributes)s>Saznajte više</a>"
 
-#: app/scripts/templates/sms_send.mustache:11
-msgid "Maybe later"
-msgstr "Možda kasnije"
-
 #: app/scripts/templates/sms_sent.mustache:1
 #: app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1524,7 +1517,7 @@ msgstr "Pretplati se"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:11
 msgid "Manage Subscriptions"
-msgstr ""
+msgstr "Upravljajte pretplatama"
 
 #: app/scripts/templates/settings/delete_account.mustache:1
 #: app/scripts/templates/settings/delete_account.mustache:5
@@ -1627,6 +1620,12 @@ msgstr "Prijavi se"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Prijavi se"
+
+#~ msgid "Signin confirmed"
+#~ msgstr "Prijava potvrđena"
+
+#~ msgid "Maybe later"
+#~ msgstr "Možda kasnije"
 
 #~ msgid "App link resent to %(phoneNumber)s"
 #~ msgstr "Veza do aplikacije ponovo poslata na %(phoneNumber)s"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-27 16:09+0000\n"
+"POT-Creation-Date: 2017-11-03 16:09+0000\n"
 "PO-Revision-Date: 2017-10-10 08:54+0000\n"
 "Last-Translator: Sahithi <sahithi.thinker@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,7 +54,7 @@ msgstr "మీ ఇతర పరికరాలలో కొత్త పాస�
 msgid "Email verified"
 msgstr "ఈమెయిలు తనిఖీ చేయబడింది"
 
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:50 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "సైన్ ఇన్ ధ్రువీకరించారు"
 
@@ -138,7 +138,7 @@ msgstr "విజయవంతంగా సబ్స్క్రైబ్ అయ�
 msgid "Account deleted successfully"
 msgstr "ఖాతా విజయవంతంగా తొలగించబడింది"
 
-#: app/scripts/views/settings/display_name.js:56
+#: app/scripts/views/settings/display_name.js:57
 msgid "Display name updated"
 msgstr "చూపించే పేరు తాజాకరించబడింది"
 
@@ -774,10 +774,6 @@ msgstr "మరొక పరికరాన్ని అనుసంధాని�
 msgid "This Firefox is connected"
 msgstr "ఈ Firefox సంధానమయ్యింది"
 
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr "సైన్ ఇన్ ధ్రువీకరించారు"
-
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
 msgstr "విజయవంతం అయింది"
@@ -1066,10 +1062,6 @@ msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr "కొన్ని దేశాల్లో SMS సేవ అందుబాటులో ఉంటుంది. SMS &amp; డేటా రేట్లు వర్తించవచ్చు. ఇమెయిల్ లేదా SMS యొక్క గ్రహీత సమ్మతించాలి. <a %(escapedLearnMoreAttributes)s>మరింత తెలుసుకోండి</a>"
 
-#: app/scripts/templates/sms_send.mustache:11
-msgid "Maybe later"
-msgstr "బహుశా తర్వాత"
-
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
 msgstr "అమర్పును పూర్తిచెయ్యడానికి Firefoxని మీ స్మార్టుఫోనులో స్థాపించుకుని, ప్రవేశించండి"
@@ -1335,6 +1327,12 @@ msgstr "ప్రవేశించు"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "ప్రవేశం"
+
+#~ msgid "Signin confirmed"
+#~ msgstr "సైన్ ఇన్ ధ్రువీకరించారు"
+
+#~ msgid "Maybe later"
+#~ msgstr "బహుశా తర్వాత"
 
 #~ msgid "App link resent to %(phoneNumber)s"
 #~ msgstr "యాప్ లంకె %(phoneNumber)sకి మళ్ళీ పంపబడింది"

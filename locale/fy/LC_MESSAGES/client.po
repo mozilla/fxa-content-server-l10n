@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-27 16:09+0000\n"
-"PO-Revision-Date: 2017-10-16 10:48+0000\n"
+"POT-Creation-Date: 2017-11-03 16:09+0000\n"
+"PO-Revision-Date: 2017-10-30 11:01+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -55,7 +55,7 @@ msgstr "Foltôgje de ynstallaasje troch it nije wachtwurd op jo oare Firefox-app
 msgid "Email verified"
 msgstr "E-mailadres ferifiearre"
 
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:50 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "Oanmelding befêstige"
 
@@ -109,7 +109,7 @@ msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:83
 msgid "over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "oer %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:90
 msgid "last sync %(translatedTimeAgo)s"
@@ -117,7 +117,7 @@ msgstr "lêste syngronisaasje: %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:91
 msgid "last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "lêste syngronisaasje: mear as %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:98
 msgid "last active %(translatedTimeAgo)s"
@@ -125,7 +125,7 @@ msgstr "lêst aktyf: %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:99
 msgid "last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "lêst aktyf: mear as %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:104
 msgid "last sync time unknown"
@@ -139,7 +139,7 @@ msgstr "Ynskriuwen slagge"
 msgid "Account deleted successfully"
 msgstr "Account mei sukses fuortsmiten"
 
-#: app/scripts/views/settings/display_name.js:56
+#: app/scripts/views/settings/display_name.js:57
 msgid "Display name updated"
 msgstr "Werjeftenamme bywurke"
 
@@ -777,10 +777,6 @@ msgstr "Oar apparaat keppelje"
 msgid "This Firefox is connected"
 msgstr "Dizze Firefox is ferbûn"
 
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr "Oanmelding befêstige"
-
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
 msgstr "Slagge"
@@ -1073,10 +1069,6 @@ msgstr ""
 "De sms-tsjinst is allinnich yn bepaalde lannen beskikber. Mooglik binne der kosten foar sms en gegevens fan tapassing. De beëage ûntfanger fan it e-mail- of sms-berjocht moat hjirmei akkoard gien "
 "wêze. <a %(escapedLearnMoreAttributes)s>Mear ynfo</a>"
 
-#: app/scripts/templates/sms_send.mustache:11
-msgid "Maybe later"
-msgstr "Miskien letter"
-
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
 msgstr "Ynstallearje Firefox op jo snoadfoan en meld jo oan om it ynstellen te foltôgjen"
@@ -1261,7 +1253,7 @@ msgstr "Ynskriuwe"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:11
 msgid "Manage Subscriptions"
-msgstr ""
+msgstr "Abonneminten beheare"
 
 #: app/scripts/templates/settings/delete_account.mustache:1 app/scripts/templates/settings/delete_account.mustache:5
 msgid "Delete account"
@@ -1342,6 +1334,12 @@ msgstr "Oanmelde"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Oanmelde"
+
+#~ msgid "Signin confirmed"
+#~ msgstr "Oanmelding befêstige"
+
+#~ msgid "Maybe later"
+#~ msgstr "Miskien letter"
 
 #~ msgid "App link resent to %(phoneNumber)s"
 #~ msgstr "App-keppeling ferstjoerd nei %(phoneNumber)s"

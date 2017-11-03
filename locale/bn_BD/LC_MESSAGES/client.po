@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-27 16:09+0000\n"
+"POT-Creation-Date: 2017-11-03 16:09+0000\n"
 "PO-Revision-Date: 2017-09-20 14:14+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,7 +55,7 @@ msgstr "আপনার ভিন্ন Firefox ডিভাইসে নতু�
 msgid "Email verified"
 msgstr "ইমেইল যাচাই সম্পূর্ণ"
 
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:50 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "সাইন-ইন নিশ্চিত"
 
@@ -139,7 +139,7 @@ msgstr "সফলভাবে সাবসক্রাইব হয়েছে"
 msgid "Account deleted successfully"
 msgstr "অ্যাকাউন্ট সফলভাবে মুছে ফেলা হয়েছে"
 
-#: app/scripts/views/settings/display_name.js:56
+#: app/scripts/views/settings/display_name.js:57
 msgid "Display name updated"
 msgstr "প্রদর্শননীয় নাম হালনাগাদ করা হয়েছে"
 
@@ -776,10 +776,6 @@ msgstr "অন্য ডিভাইসে সংযোগ করুন"
 msgid "This Firefox is connected"
 msgstr "এই Firefox টি সংযুক্ত"
 
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr "সাইন-ইন নিশ্চিত"
-
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
 msgstr "সফল"
@@ -1068,10 +1064,6 @@ msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr "SMS সেবা কেবলমাত্র কিছু দেশের জন্য বিদ্যমান। SMS&amp; ডাটা রেট প্রযোজ্য হবে। ইমেইল বা SMS এর অভিপ্রেত গ্রাহক অবশ্যই সম্মত হতে হবে। <a %(escapedLearnMoreAttributes)s>আরও জানুন</a>"
 
-#: app/scripts/templates/sms_send.mustache:11
-msgid "Maybe later"
-msgstr "পরে হতে পারে"
-
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
 msgstr "আপনার স্মার্টফোনে Firefox ইনস্টল করুন আর সাইন করে সেটাপ সম্পন্ন করুন"
@@ -1337,6 +1329,12 @@ msgstr "সাইন ইন"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "সাইন ইন"
+
+#~ msgid "Signin confirmed"
+#~ msgstr "সাইন-ইন নিশ্চিত"
+
+#~ msgid "Maybe later"
+#~ msgstr "পরে হতে পারে"
 
 #~ msgid "App link resent to %(phoneNumber)s"
 #~ msgstr "অ্যাপ লিঙ্ক %(phoneNumber)s নম্বরে পাঠানো হয়েছে"

@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-27 16:09+0000\n"
-"PO-Revision-Date: 2017-10-16 10:54+0000\n"
-"Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
+"POT-Creation-Date: 2017-11-03 16:09+0000\n"
+"PO-Revision-Date: 2017-10-27 19:16+0000\n"
+"Last-Translator: albertdcastro <albertdcastro@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -54,7 +54,7 @@ msgstr "Complete a configuração ao digitar a sua nova palavra-passe nos seus o
 msgid "Email verified"
 msgstr "Email verificado"
 
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:50 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "Início de sessão confirmado"
 
@@ -111,7 +111,7 @@ msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:83
 msgid "over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "terminado %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:90
 msgid "last sync %(translatedTimeAgo)s"
@@ -119,7 +119,7 @@ msgstr "última sincronização %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:91
 msgid "last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "a última sincronização terminou %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:98
 msgid "last active %(translatedTimeAgo)s"
@@ -127,7 +127,7 @@ msgstr "última vez ativo %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:99
 msgid "last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "o último ativo terminou %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:104
 msgid "last sync time unknown"
@@ -141,7 +141,7 @@ msgstr "Subscrição efetuada com sucesso"
 msgid "Account deleted successfully"
 msgstr "Conta apagada com sucesso"
 
-#: app/scripts/views/settings/display_name.js:56
+#: app/scripts/views/settings/display_name.js:57
 msgid "Display name updated"
 msgstr "Nome de apresentação atualizado"
 
@@ -779,10 +779,6 @@ msgstr "Ligar outro dispositivo"
 msgid "This Firefox is connected"
 msgstr "Este Firefox está ligado"
 
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr "Início de sessão confirmado"
-
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
 msgstr "Sucesso"
@@ -1075,10 +1071,6 @@ msgstr ""
 "Serviço SMS apenas disponível em certos países. Taxas de SMS e dados podem ser aplicadas. O destinatário intendido do email ou SMS deve ter consentido. <a %(escapedLearnMoreAttributes)s>Saber mais</"
 "a>"
 
-#: app/scripts/templates/sms_send.mustache:11
-msgid "Maybe later"
-msgstr "Talvez mais tarde"
-
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
 msgstr "Instale o Firefox no seu smartphone e registe-se para completar a configuração"
@@ -1263,7 +1255,7 @@ msgstr "Subscrever"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:11
 msgid "Manage Subscriptions"
-msgstr ""
+msgstr "Gerir subscrições"
 
 #: app/scripts/templates/settings/delete_account.mustache:1 app/scripts/templates/settings/delete_account.mustache:5
 msgid "Delete account"
@@ -1344,6 +1336,12 @@ msgstr "Iniciar sessão"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Iniciar sessão"
+
+#~ msgid "Signin confirmed"
+#~ msgstr "Início de sessão confirmado"
+
+#~ msgid "Maybe later"
+#~ msgstr "Talvez mais tarde"
 
 #~ msgid "App link resent to %(phoneNumber)s"
 #~ msgstr "Ligação de aplicação reenviada para %(phoneNumber)s"

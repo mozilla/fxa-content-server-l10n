@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-27 16:09+0000\n"
-"PO-Revision-Date: 2017-10-16 15:26+0000\n"
+"POT-Creation-Date: 2017-11-03 16:09+0000\n"
+"PO-Revision-Date: 2017-10-29 17:57+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
@@ -55,7 +55,7 @@ msgstr "Slutför konfigurationen genom att ange det nya lösenordet på dina and
 msgid "Email verified"
 msgstr "E-post verifierad"
 
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:50 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "Inloggning bekräftad"
 
@@ -109,7 +109,7 @@ msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:83
 msgid "over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "över %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:90
 msgid "last sync %(translatedTimeAgo)s"
@@ -117,7 +117,7 @@ msgstr "senaste synk %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:91
 msgid "last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "senaste synk över %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:98
 msgid "last active %(translatedTimeAgo)s"
@@ -125,7 +125,7 @@ msgstr "senast aktiv %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:99
 msgid "last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "senast aktiv över %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:104
 msgid "last sync time unknown"
@@ -139,7 +139,7 @@ msgstr "Prenumeration startad"
 msgid "Account deleted successfully"
 msgstr "Kontot har tagits bort"
 
-#: app/scripts/views/settings/display_name.js:56
+#: app/scripts/views/settings/display_name.js:57
 msgid "Display name updated"
 msgstr "Visningsnamn uppdaterad"
 
@@ -777,10 +777,6 @@ msgstr "Anslut en annan enhet"
 msgid "This Firefox is connected"
 msgstr "Firefox är ansluten"
 
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr "Inloggning bekräftad"
-
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
 msgstr "Klart"
@@ -1070,10 +1066,6 @@ msgid ""
 msgstr ""
 "SMS-tjänsten är endast tillgänglig i vissa länder. SMS &amp; datapriser kan tillämpas. Den avsedda mottagaren av e-post eller SMS måste ha samtyckt. <a %(escapedLearnMoreAttributes)s>Läs mer</a>"
 
-#: app/scripts/templates/sms_send.mustache:11
-msgid "Maybe later"
-msgstr "Kanske senare"
-
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
 msgstr "Installera Firefox på din smartphone och logga in för att slutföra konfigurationen"
@@ -1258,7 +1250,7 @@ msgstr "Prenumerera"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:11
 msgid "Manage Subscriptions"
-msgstr ""
+msgstr "Hantera prenumerationer"
 
 #: app/scripts/templates/settings/delete_account.mustache:1 app/scripts/templates/settings/delete_account.mustache:5
 msgid "Delete account"
@@ -1339,6 +1331,12 @@ msgstr "Logga in"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Logga in"
+
+#~ msgid "Signin confirmed"
+#~ msgstr "Inloggning bekräftad"
+
+#~ msgid "Maybe later"
+#~ msgstr "Kanske senare"
 
 #~ msgid "App link resent to %(phoneNumber)s"
 #~ msgstr "Applänk skickad åter till %(phoneNumber)s"

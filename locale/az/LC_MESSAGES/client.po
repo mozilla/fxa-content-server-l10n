@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-27 16:09+0000\n"
+"POT-Creation-Date: 2017-11-03 16:09+0000\n"
 "PO-Revision-Date: 2017-10-18 21:15+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,7 +55,7 @@ msgstr "Digər Firefox cihazlarınızda yeni parolu daxil etməklə qurulumu tam
 msgid "Email verified"
 msgstr "E-poçt təsdiqlənib"
 
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:50 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "Daxil olma təsdiqləndi"
 
@@ -139,7 +139,7 @@ msgstr "Uğurla abunə olundu"
 msgid "Account deleted successfully"
 msgstr "Hesab uğurla silindi"
 
-#: app/scripts/views/settings/display_name.js:56
+#: app/scripts/views/settings/display_name.js:57
 msgid "Display name updated"
 msgstr "Görüntülənmə adı yeniləndi"
 
@@ -777,10 +777,6 @@ msgstr "Başqa cihazı qoş"
 msgid "This Firefox is connected"
 msgstr "Firefox qoşuludur"
 
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr "Daxil olma təsdiqləndi"
-
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
 msgstr "Uğurlu"
@@ -1070,10 +1066,6 @@ msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr "SMS xidməti ancaq müəyyən ölkələrdə aktivdir. SMS və data qiymətləri tətbiq edilə bilər. E-poçt və ya SMS alıcısının icazəsi olmalıdır. <a %(escapedLearnMoreAttributes)s>Ətraflı Öyrən</a>"
 
-#: app/scripts/templates/sms_send.mustache:11
-msgid "Maybe later"
-msgstr "Bəlkə sonra"
-
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
 msgstr "Tam quraşdırma üçün Firefox-u mobil cihazınızda da qurun və daxil olun"
@@ -1339,6 +1331,12 @@ msgstr "Daxil ol"
 msgctxt "header text"
 msgid "Sign in"
 msgstr "Daxil ol"
+
+#~ msgid "Signin confirmed"
+#~ msgstr "Daxil olma təsdiqləndi"
+
+#~ msgid "Maybe later"
+#~ msgstr "Bəlkə sonra"
 
 #~ msgid "App link resent to %(phoneNumber)s"
 #~ msgstr "Tətbiq keçidi %(phoneNumber)s üçün təkrar göndərildi"
