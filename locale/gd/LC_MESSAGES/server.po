@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-27 16:09+0000\n"
-"PO-Revision-Date: 2017-11-03 15:37+0000\n"
+"PO-Revision-Date: 2017-11-03 15:56+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gd\n"
@@ -121,7 +121,7 @@ msgstr "Chaidh am facal-faire agad ath-shuidheachadh"
 
 #: lib/senders/templates/password_reset.html:3
 msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-msgstr ""
+msgstr "Chaidh facal-faire a’ chunntais Firefox agad atharrachadh. Mur tusa a dh’atharraich e, <a %(resetLinkAttributes)s>ath-shuidhich am facal-faire agad</a> an-dràsta."
 
 #: lib/senders/templates/password_reset.html:4 lib/senders/templates/post_remove_secondary.html:5 lib/senders/templates/post_remove_secondary.txt:4 lib/senders/templates/post_verify.html:5
 #: lib/senders/templates/post_verify.txt:4 lib/senders/templates/recovery.html:6 lib/senders/templates/recovery.txt:5 lib/senders/templates/verification_reminder_first.html:5
@@ -145,7 +145,7 @@ msgstr "Seo post-d fèin-obrachail; mur an do rinn thusa ath-suidheachadh facal-
 
 #: lib/senders/templates/password_reset_required.html:2 lib/senders/templates/password_reset_required.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-msgstr ""
+msgstr "Mhothaich sinn do ghnìomhachd amharasach sa chunntas Firefox agad. Dh’fhaoidte gun do bhris cuideigin a-steach air a’ chunntas agad."
 
 #: lib/senders/templates/password_reset_required.html:3 lib/senders/templates/password_reset_required.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
