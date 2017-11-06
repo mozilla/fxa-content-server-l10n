@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-27 16:09+0000\n"
-"PO-Revision-Date: 2017-10-30 16:44+0000\n"
+"PO-Revision-Date: 2017-11-06 16:09+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -109,7 +109,7 @@ msgstr "%(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:83
 msgid "over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "en az %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:90
 msgid "last sync %(translatedTimeAgo)s"
@@ -117,15 +117,15 @@ msgstr "son eşitleme %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:91
 msgid "last sync over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "son eşitleme en az %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:98
 msgid "last active %(translatedTimeAgo)s"
-msgstr "son etkinlik: %(translatedTimeAgo)s"
+msgstr "son etkinlik %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:99
 msgid "last active over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "son etkinlik en az %(translatedTimeAgo)s"
 
 #: app/scripts/views/settings/clients.js:104
 msgid "last sync time unknown"
