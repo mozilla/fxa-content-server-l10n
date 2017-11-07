@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-27 16:09+0000\n"
-"PO-Revision-Date: 2017-07-08 14:23+0000\n"
-"Last-Translator: Mohammed Ammar <ksmammar@gmail.com>\n"
+"PO-Revision-Date: 2017-11-07 11:49+0000\n"
+"Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
@@ -145,7 +145,7 @@ msgstr "காட்சி பெயர் புதுப்பிக்கப�
 
 #: app/scripts/views/settings/emails.js:114
 msgid "Secondary email removed"
-msgstr ""
+msgstr "இரண்டாம் நிலை மின்னஞ்சல் நீககப்பட்டது"
 
 #: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
 msgid "Verification email sent"
@@ -282,15 +282,15 @@ msgstr "செல்லாத பரிசோதனை குறியேடு 
 
 #: app/scripts/lib/auth-errors.js:71
 msgid "Invalid JSON in request body"
-msgstr ""
+msgstr "கோரிக்கை தொகுதியில் தவறான JSON உள்ளது"
 
 #: app/scripts/lib/auth-errors.js:75
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "தவறான அளவுரு: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:79
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "தவறிய அளவுரு: %(param)s"
 
 #: app/scripts/lib/auth-errors.js:83
 msgid "Invalid request signature"
@@ -298,7 +298,7 @@ msgstr "செல்லாத கோரிக்கை கையொப்பம�
 
 #: app/scripts/lib/auth-errors.js:87
 msgid "Missing content-length header"
-msgstr ""
+msgstr "உள்ளடக்கத்தில் தலைப்பின் நீளம் இல்லை"
 
 #: app/scripts/lib/auth-errors.js:91
 msgid "Request body too large"
@@ -306,31 +306,31 @@ msgstr "மிக பெரிய கோரிக்கை கட்டமைப
 
 #: app/scripts/lib/auth-errors.js:109
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "பாதுகாப்பு காரணங்களுக்காக கோரிக்கை தடுக்கப்பட்டது"
 
 #: app/scripts/lib/auth-errors.js:117 app/scripts/lib/auth-errors.js:384
 msgid "Invalid authorization code"
-msgstr ""
+msgstr "செல்லாத பரிசோதனை குறியீடு"
 
 #: app/scripts/lib/auth-errors.js:121 app/scripts/lib/sms-errors.js:16
 msgid "Invalid phone number"
-msgstr ""
+msgstr "செல்லாத கைபேசி எண்"
 
 #: app/scripts/lib/auth-errors.js:125
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "இந்த நாட்டிற்கு அனுப்ப முடியாது"
 
 #: app/scripts/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "இந்த எண்ணிற்கு செய்தி அனுப்ப முடியாது"
 
 #: app/scripts/lib/auth-errors.js:138
 msgid "Your email was just returned"
-msgstr ""
+msgstr "உங்கள் மின்னஞ்சல் திரும்பி விட்டது"
 
 #: app/scripts/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "உங்கள் மின்னஞ்சல் திரும்பி விட்டது. தவறான முகவரியா?"
 
 #: app/scripts/lib/auth-errors.js:146
 msgid "Unable to deliver email"
@@ -338,23 +338,23 @@ msgstr "மின்னஞ்சலை வழங்க இயலவில்ல�
 
 #: app/scripts/lib/auth-errors.js:151
 msgid "This email was already verified by another user"
-msgstr ""
+msgstr "இந்த முகவரி ஏற்கனவே மற்றொரு பயனரால் சரிபார்க்கப்பட்டது"
 
 #: app/scripts/lib/auth-errors.js:155
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "இரண்டாவது மின்னஞ்சல் உங்கள் முதன்மை மின்னஞ்சலிலிருந்து வேறுபட்டதாக இருக்க வேண்டும்"
 
 #: app/scripts/lib/auth-errors.js:167
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "புகுபதிய முதன்மை கணக்கு மின்னஞ்சல் தேவை"
 
 #: app/scripts/lib/auth-errors.js:171
 msgid "Address in use by another account"
-msgstr ""
+msgstr "முகவரி மற்றொரு கணக்கில் பயன்பாட்டிலுள்ளது"
 
 #: app/scripts/lib/auth-errors.js:175
 msgid "Primary account email required for reset"
-msgstr ""
+msgstr "மீட்டமைக்க முதன்மை கணக்கின் முகவரி தேவை"
 
 #: app/scripts/lib/auth-errors.js:179
 msgid "Invalid signin code"
@@ -362,31 +362,31 @@ msgstr "செல்லாத உள்நுழைவு குறியீட�
 
 #: app/scripts/lib/auth-errors.js:184 app/scripts/lib/auth-errors.js:364
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "சேவகன் வேலை நிமித்தமாக உள்ளது, மீண்டும் முயற்சி"
 
 #: app/scripts/lib/auth-errors.js:188
 msgid "This endpoint is no longer supported"
-msgstr ""
+msgstr "இறுதிப்புள்ளி இனி துணைபுரியாது"
 
 #: app/scripts/lib/auth-errors.js:192 app/scripts/lib/marketing-email-errors.js:25 app/scripts/lib/marketing-email-errors.js:79 app/scripts/lib/oauth-errors.js:80 app/scripts/lib/profile-errors.js:43
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "கணினி கிடைக்கவில்லை, மிண்டும் முயர்சிக்கவும்"
 
 #: app/scripts/lib/auth-errors.js:196
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "புகுபதியும் முயற்சி இரத்துசெய்யப்பட்டது"
 
 #: app/scripts/lib/auth-errors.js:200
 msgid "Session expired. Sign in to continue."
-msgstr ""
+msgstr "அமர்வு காலாவதியானது. தொடர்வதற்கு உள்நுழையவும்."
 
 #: app/scripts/lib/auth-errors.js:204
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "நினைவிகள் இன்னமும் முடக்கத்தில் உள்ளன"
 
 #: app/scripts/lib/auth-errors.js:208
 msgid "Passwords do not match"
-msgstr ""
+msgstr "கடவுச்சொற்கள் பொருந்தவில்லை"
 
 #: app/scripts/lib/auth-errors.js:212
 msgid "Working…"
@@ -430,15 +430,15 @@ msgstr "செல்லுபடியாகும் உரலி தேவை"
 
 #: app/scripts/lib/auth-errors.js:270
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr ""
+msgstr "உங்கள் சரிபார்ப்பு மின்னஞ்சல் திரும்பியது. உள்ளிட்ட மின்னஞ்சல் முகவரி தவறா?"
 
 #: app/scripts/lib/auth-errors.js:278
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "ஒரு சரியான மின்னஞ்சல் முகவரியை உள்ளிடவும். firefox.com மின்னஞ்சல் சேவையை வழங்கவில்லை."
 
 #: app/scripts/lib/auth-errors.js:286
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "பயர்பாக்ஸ் கணக்குகள் IFRAME மட்டும் அனுமதிக்கப்பட்ட தளங்களில் பயன்படுத்தலாம்"
 
 #: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:9
 msgid "Verification link damaged"
@@ -446,15 +446,15 @@ msgstr "சரிபார்ப்பு இணைப்பு சேதமா�
 
 #: app/scripts/lib/auth-errors.js:313
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "படத்தின் பரிமாணங்கள் குறைந்தது 100x100px இருக்க வேண்டும்"
 
 #: app/scripts/lib/auth-errors.js:317
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "புகுபதிவு முறை iOS பயர்பாக்ஸ் செயலியில் விரைவில் கிடைக்கும்"
 
 #: app/scripts/lib/auth-errors.js:328
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "நீங்கள் புகுபதிவு செய்ய, வயதை உள்ளிட வேண்டும்"
 
 #: app/scripts/lib/auth-errors.js:343
 msgid "Account no longer exists."
@@ -601,9 +601,7 @@ msgid "SMS not sent, please try again"
 msgstr "குறுந்செய்தி செல்லவில்லை, மீண்டும் முயற்சி"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
