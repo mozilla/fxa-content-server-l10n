@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-27 16:09+0000\n"
-"PO-Revision-Date: 2017-11-07 11:49+0000\n"
+"PO-Revision-Date: 2017-11-07 11:53+0000\n"
 "Last-Translator: Arun Kumar|அருண் குமார் <thangam.arunx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
@@ -462,19 +462,19 @@ msgstr "கணக்கு இனி இருக்காது."
 
 #: app/scripts/lib/auth-errors.js:347
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "மீண்ட ஞாபகக் குறியின் பண்பு செல்லாதது: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:351
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "மீண்ட ஞாபகக் குறியில் பண்பைக் காணவில்லை: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:355
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "தவறான தரவு பண்பு: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:359
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "தரவு பண்பு காணவில்லை: %(property)s"
 
 #: app/scripts/lib/auth-errors.js:372 app/scripts/templates/complete_sign_up.mustache:2
 msgid "That confirmation link was already used, and can only be used once."
