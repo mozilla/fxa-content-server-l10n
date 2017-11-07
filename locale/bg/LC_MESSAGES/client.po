@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-27 16:09+0000\n"
-"PO-Revision-Date: 2017-10-30 15:40+0000\n"
+"PO-Revision-Date: 2017-11-07 10:16+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -826,7 +826,7 @@ msgstr "За да използвате Firefox Accounts, моля, разреш�
 
 #: app/scripts/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr "Нов опит"
+msgstr "Повторен опит"
 
 #: app/scripts/templates/force_auth.mustache:1
 msgid "Sign in to continue"
