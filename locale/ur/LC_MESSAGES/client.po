@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-27 16:09+0000\n"
-"PO-Revision-Date: 2017-10-27 09:40+0000\n"
+"PO-Revision-Date: 2017-11-07 06:39+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -220,7 +220,7 @@ msgstr "پتے"
 
 #: app/scripts/models/sync-engines.js:72
 msgid "Credit cards"
-msgstr ""
+msgstr "کریڈٹ کارڈز"
 
 #: app/scripts/models/reliers/sync.js:59
 msgid "Firefox Sync"
@@ -600,9 +600,7 @@ msgid "SMS not sent, please try again"
 msgstr "SMS ارسال نہیں کیا گیا، براہ مہربانی دوبارہ کوشش کریں"
 
 #: app/scripts/lib/strings.js:22
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
@@ -635,7 +633,7 @@ msgstr "سائن ان کریں"
 
 #: app/scripts/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "بری درخواست"
 
 #: app/scripts/templates/500.mustache:1
 msgid "500 Error"
@@ -776,7 +774,7 @@ msgstr "یہ Firefox جڑا ہوا ہے"
 
 #: app/scripts/templates/connect_another_device.mustache:6
 msgid "Signin confirmed"
-msgstr ""
+msgstr "سائن ان تصدیق شدہ"
 
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
@@ -991,7 +989,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr ""
+msgstr "اس ای میل کے مالک نہیں؟ ایک نیا اکاؤنٹ بنائیں"
 
 #: app/scripts/templates/sign_in_password.mustache:7 app/scripts/templates/sign_up_password.mustache:11
 msgid "Mistyped email?"
@@ -1015,7 +1013,7 @@ msgstr ""
 
 #: app/scripts/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "اختیار دہی کوڈ داخل کریں"
 
 #: app/scripts/templates/sign_up.mustache:1 app/scripts/templates/sign_up.mustache:4 app/scripts/templates/sign_up_password.mustache:1 app/scripts/templates/sign_up_password.mustache:4
 msgid "Create a Firefox Account"
