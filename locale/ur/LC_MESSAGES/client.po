@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-27 16:09+0000\n"
+"POT-Creation-Date: 2017-11-10 16:09+0000\n"
 "PO-Revision-Date: 2017-11-07 06:39+0000\n"
 "Last-Translator: um.qshi <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,19 +50,31 @@ msgstr "Firefox ہم وقرت سے لمحہ بھر میں دوبارہ شروع 
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "اپنے دیگر Firefox آلات پر نیا پاسورڈ ڈال داخل کرکے سیٹ اپ مکمل کرے۔"
 
-#: app/scripts/views/ready.js:45 app/scripts/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "تصدیق شدہ ای میل"
+#: app/scripts/views/ready.js:44
+msgid "You are now ready to make changes to your Firefox Account."
+msgstr ""
 
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:46
+msgid "Primary email verified"
+msgstr ""
+
+#: app/scripts/views/ready.js:49
+msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
+msgstr ""
+
+#: app/scripts/views/ready.js:51
+msgid "Secondary email verified"
+msgstr ""
+
+#: app/scripts/views/ready.js:56 app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "سائن ان تصدیق شدہ"
 
-#: app/scripts/views/ready.js:51 app/scripts/views/ready.js:56 app/scripts/templates/ready.mustache:3
+#: app/scripts/views/ready.js:57 app/scripts/views/ready.js:62 app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "آپ %(serviceName)s استعمال کرنے کے لئے تیار ہے"
 
-#: app/scripts/views/ready.js:55
+#: app/scripts/views/ready.js:61
 msgid "Account verified"
 msgstr "اکاؤنٹ توثیق شدہ"
 
@@ -94,40 +106,88 @@ msgstr ""
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 msgstr "ہمیں اس بارے میں سن کر افسوس ہوا۔اگر اس آلہ پر آپ کو بلکلی بھروسہ نہیں۔ آپ کو اپنے Firefox اکائونٹ کا پاسورڈ اور کوئی بھی پاسوورڈ جو Firefox میں محفوظ ہیں ان کو تبدیل کریں۔"
 
-#: app/scripts/views/settings/clients.js:75
-msgid "Web Session, %(userAgent)s"
-msgstr "یب سیشن، %(userAgent)s"
+#: app/scripts/views/settings/clients.js:41
+msgid "Last sync %(translatedTimeAgo)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:77
-msgid "Web Session"
-msgstr "ویب سیشن"
+#: app/scripts/views/settings/clients.js:42
+msgid "Last sync over %(translatedTimeAgo)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:82
+#: app/scripts/views/settings/clients.js:45
+msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:46
+msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:49
+msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:50
+msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:55
+msgid "Last active %(translatedTimeAgo)s"
+msgstr "آخری مرتبہ فعال %(translatedTimeAgo)s"
+
+#: app/scripts/views/settings/clients.js:56
+msgid "Last active over %(translatedTimeAgo)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:59
+msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:60
+msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:63
+msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:64
+msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:83
-msgid "over %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:70
+msgid "Over %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:90
-msgid "last sync %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:73
+msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:91
-msgid "last sync over %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:74
+msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:98
-msgid "last active %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:77
+msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:99
-msgid "last active over %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:78
+msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:104
-msgid "last sync time unknown"
+#: app/scripts/views/settings/clients.js:114
+msgid "Web Session, %(userAgent)s"
+msgstr "یب سیشن، %(userAgent)s"
+
+#: app/scripts/views/settings/clients.js:116
+msgid "Web Session"
+msgstr "ویب سیشن"
+
+#: app/scripts/views/settings/clients.js:131
+msgid "Last sync time unknown"
 msgstr ""
 
 #: app/scripts/views/settings/communication_preferences.js:117
@@ -138,21 +198,29 @@ msgstr "کامیابی سے رکنیت سازی کی گئی"
 msgid "Account deleted successfully"
 msgstr "اکاؤنٹ کامیابی سے حزف کر دیا گیا ہے"
 
-#: app/scripts/views/settings/display_name.js:56
+#: app/scripts/views/settings/display_name.js:57
 msgid "Display name updated"
 msgstr ""
 
-#: app/scripts/views/settings/emails.js:114
+#: app/scripts/views/settings/emails.js:100
 msgid "Secondary email removed"
 msgstr ""
 
-#: app/scripts/views/settings/emails.js:141 app/scripts/views/settings/emails.js:154
+#: app/scripts/views/settings/emails.js:127 app/scripts/views/settings/emails.js:140 app/scripts/views/mixins/upgrade-session-mixin.js:74
 msgid "Verification email sent"
 msgstr "تصدیقی ای میل ارسال کر دی گئی"
 
-#: app/scripts/views/settings/emails.js:169
+#: app/scripts/views/settings/emails.js:155
 msgid "Primary email set to %(email)s"
 msgstr ""
+
+#: app/scripts/views/settings/emails.js:167
+msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
+msgstr ""
+
+#: app/scripts/views/settings/emails.js:169 app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
+msgid "Secondary email"
+msgstr "ثانوی ای میل"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43 app/scripts/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -186,7 +254,11 @@ msgstr "Restmail کھولیں"
 msgid "Email resent"
 msgstr "ایمیل دوبارہ ارسال کر دی گئی ہے"
 
-#: app/scripts/views/behaviors/settings.js:16 app/scripts/models/auth_brokers/web.js:23
+#: app/scripts/views/mixins/upgrade-session-mixin.js:62 app/scripts/models/auth_brokers/base.js:72
+msgid "Primary email verified successfully"
+msgstr ""
+
+#: app/scripts/views/behaviors/settings.js:31 app/scripts/models/auth_brokers/web.js:23
 msgid "Account verified successfully"
 msgstr "اکاؤنٹ کامیابی سے تصدیق کردہ"
 
@@ -226,12 +298,16 @@ msgstr "کریڈٹ کارڈز"
 msgid "Firefox Sync"
 msgstr "Firefox ہمہ وقت سازی"
 
+#: app/scripts/models/auth_brokers/base.js:76
+msgid "Secondary email verified successfully"
+msgstr ""
+
 #: app/scripts/lib/auth-errors.js:19 app/scripts/lib/marketing-email-errors.js:17 app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39 app/scripts/lib/profile-errors.js:47
 #: app/scripts/lib/require-on-demand.js:35
 msgid "Unexpected error"
 msgstr "غير متوقع نقص"
 
-#: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:5
+#: app/scripts/lib/auth-errors.js:20 app/scripts/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
 msgstr "ربط جس پر آپ نے ای میل کی تصدیق کے لیئے کلک کیا ہے وہ زائدالمدت ہے۔"
 
@@ -439,7 +515,7 @@ msgstr "ایک جائز ای میل پتا داخل کریں ۔ firefox.com ای
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "فائر فاکس کا اکاؤنٹ صرف تصدیق کردہ ویب سائٹس کے IFRAME میں ہی رکھا جاسکتا ہے"
 
-#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:9
+#: app/scripts/lib/auth-errors.js:305 app/scripts/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "تصدیق کنندہ ربط کو نقصان پہنچا ہے"
 
@@ -475,7 +551,7 @@ msgstr ""
 msgid "Missing data attribute: %(property)s"
 msgstr ""
 
-#: app/scripts/lib/auth-errors.js:372 app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/lib/auth-errors.js:372 app/scripts/lib/auth-errors.js:426 app/scripts/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "وہ تصدیقی ربط پہلے ہی استعمال کیا جا چکا تھا اور صرف ایک بار استعمال کیا جا سکتا ہے۔"
 
@@ -600,7 +676,9 @@ msgid "SMS not sent, please try again"
 msgstr "SMS ارسال نہیں کیا گیا، براہ مہربانی دوبارہ کوشش کریں"
 
 #: app/scripts/lib/strings.js:22
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 
 #: app/scripts/lib/strings.js:30
@@ -683,7 +761,7 @@ msgstr "نیا ربط وصول کریں"
 msgid "Reset password link damaged"
 msgstr ""
 
-#: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:10 app/scripts/templates/report_sign_in.mustache:2
+#: app/scripts/templates/complete_reset_password.mustache:6 app/scripts/templates/complete_sign_up.mustache:12 app/scripts/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
 msgstr ""
 
@@ -712,18 +790,22 @@ msgid "Submit new password"
 msgstr "نیا پاس ورڈ جمع کروائیں"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
+msgid "Primary email already confirmed"
+msgstr ""
+
+#: app/scripts/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
 msgstr "سائن ان کی پہلے سے تصدیق ہوئی ہے"
 
-#: app/scripts/templates/complete_sign_up.mustache:4
+#: app/scripts/templates/complete_sign_up.mustache:6
 msgid "Verification link expired"
 msgstr "تصدیق کنندہ ربط درکار ہے"
 
-#: app/scripts/templates/complete_sign_up.mustache:6
+#: app/scripts/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new verification link"
 msgstr "ایک نیا تصدیقی ربط حاصل کرنے کے لئے یہاں کلک کریں"
 
-#: app/scripts/templates/complete_sign_up.mustache:12
+#: app/scripts/templates/complete_sign_up.mustache:14
 msgid "Verification error"
 msgstr "تصدیقی عمل میں مسئلہ"
 
@@ -744,7 +826,7 @@ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
 msgstr ""
 
 #: app/scripts/templates/confirm.mustache:10 app/scripts/templates/confirm.mustache:11 app/scripts/templates/confirm_reset_password.mustache:8 app/scripts/templates/sign_in_unblock.mustache:6
-#: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16
+#: app/scripts/templates/sign_in_unblock.mustache:9 app/scripts/templates/settings/emails.mustache:16 app/scripts/templates/settings/upgrade_session.mustache:5
 msgid "Not in inbox or spam folder? Resend"
 msgstr "داخلی بکس یا اسپیم پوشہ میں نہیں ہے؟ دوبارہ بھیجیں"
 
@@ -772,9 +854,9 @@ msgstr "اہک اور آلہ جوڑیں"
 msgid "This Firefox is connected"
 msgstr "یہ Firefox جڑا ہوا ہے"
 
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr "سائن ان تصدیق شدہ"
+#: app/scripts/templates/connect_another_device.mustache:4
+msgid "Email verified"
+msgstr "تصدیق شدہ ای میل"
 
 #: app/scripts/templates/connect_another_device.mustache:8 app/scripts/templates/ready.mustache:1 app/scripts/templates/sms_send.mustache:3 app/scripts/templates/sms_sent.mustache:5
 msgid "Success"
@@ -915,11 +997,7 @@ msgstr "قبول کریں"
 msgid "Cancel"
 msgstr "منسوخ کریں"
 
-#: app/scripts/templates/ready.mustache:5
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr ""
-
-#: app/scripts/templates/ready.mustache:7
+#: app/scripts/templates/ready.mustache:6
 msgid "Your account is ready!"
 msgstr "آپ کا اکاؤنٹ کے لئے تیار ہے!"
 
@@ -1055,7 +1133,7 @@ msgstr ""
 msgid "Mobile phone number"
 msgstr "موبائل فون نمبر"
 
-#: app/scripts/templates/sms_send.mustache:8
+#: app/scripts/templates/sms_send.mustache:8 app/scripts/templates/settings/upgrade_session.mustache:4
 msgid "Send"
 msgstr "ارسال کریں"
 
@@ -1063,10 +1141,6 @@ msgstr "ارسال کریں"
 msgid ""
 "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 msgstr ""
-
-#: app/scripts/templates/sms_send.mustache:11
-msgid "Maybe later"
-msgstr "‏‏شاید بعد میں"
 
 #: app/scripts/templates/sms_sent.mustache:1 app/scripts/templates/sms_sent.mustache:6
 msgid "Install Firefox on your smartphone and sign in to complete set-up"
@@ -1130,7 +1204,7 @@ msgid "Clear"
 msgstr "صاف کریں"
 
 #: app/scripts/templates/settings/avatar_change.mustache:5 app/scripts/templates/settings/clients.mustache:28 app/scripts/templates/settings/communication_preferences.mustache:12
-#: app/scripts/templates/settings/emails.mustache:22
+#: app/scripts/templates/settings/emails.mustache:22 app/scripts/templates/settings/upgrade_session.mustache:7
 msgid "Done"
 msgstr "ہوگیا"
 
@@ -1195,16 +1269,16 @@ msgid "Show"
 msgstr "دکھائیں"
 
 #: app/scripts/templates/settings/clients.mustache:6
-msgid "current device"
-msgstr "موجودہ آلہ"
+msgid "Current device"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
 msgstr "منقطع کریں…"
 
 #: app/scripts/templates/settings/clients.mustache:11
-msgid "current session"
-msgstr "موجودہ سیشن"
+msgid "Current session"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
@@ -1215,8 +1289,8 @@ msgid "Firefox for iOS"
 msgstr "Firefox برائے iOS"
 
 #: app/scripts/templates/settings/clients.mustache:20 app/scripts/templates/settings/clients.mustache:23
-msgid "none connected"
-msgstr "کوئی بھی نہیں جڑا ہوا"
+msgid "None connected"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:21 app/scripts/templates/settings/clients.mustache:24
 msgid "Download"
@@ -1230,7 +1304,7 @@ msgstr "Firefox برائے Android"
 msgid "Missing or duplicate items?"
 msgstr "لاپتہ یا مثنی اشیاء؟"
 
-#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20
+#: app/scripts/templates/settings/clients.mustache:27 app/scripts/templates/settings/emails.mustache:20 app/scripts/templates/settings/upgrade_session.mustache:6
 msgid "Refresh"
 msgstr "تازہ کریں"
 
@@ -1270,10 +1344,6 @@ msgstr "کیا آپ کو یقین ہے کہ آپ اپنا اکاؤنٹ حذف ک
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
 msgstr "نام کا انتخاب کریں جو آپ Firefox اور اکائونٹ بندرستگی کے وقت دکھانا چاہتے ہیں۔"
 
-#: app/scripts/templates/settings/emails.mustache:2 app/scripts/templates/settings/emails.mustache:19
-msgid "Secondary email"
-msgstr "ثانوی ای میل"
-
 #: app/scripts/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
 msgstr ""
@@ -1297,6 +1367,14 @@ msgstr "ہٹائیں"
 #: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
 msgstr "اظافہ کریں"
+
+#: app/scripts/templates/settings/upgrade_session.mustache:2
+msgid "Unlock…"
+msgstr ""
+
+#: app/scripts/templates/settings/upgrade_session.mustache:3
+msgid "verify to unlock section"
+msgstr ""
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1334,11 +1412,23 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr "سائن ان"
 
+#~ msgid "Signin confirmed"
+#~ msgstr "سائن ان تصدیق شدہ"
+
+#~ msgid "Maybe later"
+#~ msgstr "‏‏شاید بعد میں"
+
+#~ msgid "current device"
+#~ msgstr "موجودہ آلہ"
+
+#~ msgid "current session"
+#~ msgstr "موجودہ سیشن"
+
+#~ msgid "none connected"
+#~ msgstr "کوئی بھی نہیں جڑا ہوا"
+
 #~ msgid "App link resent to %(phoneNumber)s"
 #~ msgstr "ایب کا ربط %(phoneNumber)s پردوبارہ ارسال کر دیا گیا ہے"
-
-#~ msgid "Last active %(translatedTimeAgo)s"
-#~ msgstr "آخری مرتبہ فعال %(translatedTimeAgo)s"
 
 #~ msgid "Unsubscribed successfully"
 #~ msgstr "کامیابی سے رکنیت سازی ختم کی گئی"

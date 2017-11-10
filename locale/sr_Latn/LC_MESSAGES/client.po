@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-27 16:09+0000\n"
-"PO-Revision-Date: 2017-10-20 09:58+0000\n"
+"POT-Creation-Date: 2017-11-10 16:09+0000\n"
+"PO-Revision-Date: 2017-11-03 07:08+0000\n"
 "Last-Translator: Marko Andrejić <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
@@ -59,21 +59,34 @@ msgstr ""
 "Završite podešavanje tako što ćete uneti novu lozinku na vašim ostalim "
 "Firefox uređajima."
 
-#: app/scripts/views/ready.js:45
-#: app/scripts/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "Adresa e-pošte je potvrđena"
+#: app/scripts/views/ready.js:44
+msgid "You are now ready to make changes to your Firefox Account."
+msgstr ""
 
-#: app/scripts/views/ready.js:50
+#: app/scripts/views/ready.js:46
+msgid "Primary email verified"
+msgstr ""
+
+#: app/scripts/views/ready.js:49
+msgid ""
+"Account notifications will now also be sent to %(secondaryEmailVerified)s."
+msgstr ""
+
+#: app/scripts/views/ready.js:51
+msgid "Secondary email verified"
+msgstr ""
+
+#: app/scripts/views/ready.js:56
+#: app/scripts/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
 msgstr "Prijava potvrđena"
 
-#: app/scripts/views/ready.js:51 app/scripts/views/ready.js:56
+#: app/scripts/views/ready.js:57 app/scripts/views/ready.js:62
 #: app/scripts/templates/ready.mustache:3
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Sada ste spremni da koristite %(serviceName)s"
 
-#: app/scripts/views/ready.js:55
+#: app/scripts/views/ready.js:61
 msgid "Account verified"
 msgstr "Nalog je potvrđen"
 
@@ -122,41 +135,101 @@ msgstr ""
 "promenite lozinku vašeg Firefox naloga i da promenite sve lozinke koje ste "
 "sačuvali u Firefox-u."
 
-#: app/scripts/views/settings/clients.js:75
-msgid "Web Session, %(userAgent)s"
-msgstr "Veb sesija, %(userAgent)s"
+#: app/scripts/views/settings/clients.js:41
+msgid "Last sync %(translatedTimeAgo)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:77
-msgid "Web Session"
-msgstr "Veb sesije"
+#: app/scripts/views/settings/clients.js:42
+msgid "Last sync over %(translatedTimeAgo)s"
+msgstr ""
 
-#: app/scripts/views/settings/clients.js:82
+#: app/scripts/views/settings/clients.js:45
+msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:46
+msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:49
+msgid ""
+"Last sync %(translatedTimeAgo)s near %(translatedCity)s, "
+"%(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:50
+msgid ""
+"Last sync over %(translatedTimeAgo)s near %(translatedCity)s, "
+"%(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:55
+msgid "Last active %(translatedTimeAgo)s"
+msgstr "Poslednja aktivnost %(translatedTimeAgo)s"
+
+#: app/scripts/views/settings/clients.js:56
+msgid "Last active over %(translatedTimeAgo)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:59
+msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:60
+msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:63
+msgid ""
+"Last active %(translatedTimeAgo)s near %(translatedCity)s, "
+"%(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:64
+msgid ""
+"Last active over %(translatedTimeAgo)s near %(translatedCity)s, "
+"%(translatedState)s, %(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:69
 msgid "%(translatedTimeAgo)s"
 msgstr "%(translatedTimeAgo)s"
 
-#: app/scripts/views/settings/clients.js:83
-msgid "over %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:70
+msgid "Over %(translatedTimeAgo)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:90
-msgid "last sync %(translatedTimeAgo)s"
-msgstr "poslednja sinhronizacija %(translatedTimeAgo)s"
-
-#: app/scripts/views/settings/clients.js:91
-msgid "last sync over %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:73
+msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:98
-msgid "last active %(translatedTimeAgo)s"
-msgstr "poslednji put aktivan %(translatedTimeAgo)s"
-
-#: app/scripts/views/settings/clients.js:99
-msgid "last active over %(translatedTimeAgo)s"
+#: app/scripts/views/settings/clients.js:74
+msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
 msgstr ""
 
-#: app/scripts/views/settings/clients.js:104
-msgid "last sync time unknown"
-msgstr "vreme poslednje sinhronizacije nepoznato"
+#: app/scripts/views/settings/clients.js:77
+msgid ""
+"%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, "
+"%(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:78
+msgid ""
+"Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, "
+"%(translatedCountry)s"
+msgstr ""
+
+#: app/scripts/views/settings/clients.js:114
+msgid "Web Session, %(userAgent)s"
+msgstr "Veb sesija, %(userAgent)s"
+
+#: app/scripts/views/settings/clients.js:116
+msgid "Web Session"
+msgstr "Veb sesije"
+
+#: app/scripts/views/settings/clients.js:131
+msgid "Last sync time unknown"
+msgstr ""
 
 #: app/scripts/views/settings/communication_preferences.js:117
 msgid "Subscribed successfully"
@@ -166,22 +239,35 @@ msgstr "Uspešna pretplata"
 msgid "Account deleted successfully"
 msgstr "Nalog uspešno obrisan"
 
-#: app/scripts/views/settings/display_name.js:56
+#: app/scripts/views/settings/display_name.js:57
 msgid "Display name updated"
 msgstr "Prikaži ažurirano ime"
 
-#: app/scripts/views/settings/emails.js:114
+#: app/scripts/views/settings/emails.js:100
 msgid "Secondary email removed"
 msgstr "Sekundarna adresa e-pošte je uklonjena"
 
-#: app/scripts/views/settings/emails.js:141
-#: app/scripts/views/settings/emails.js:154
+#: app/scripts/views/settings/emails.js:127
+#: app/scripts/views/settings/emails.js:140
+#: app/scripts/views/mixins/upgrade-session-mixin.js:74
 msgid "Verification email sent"
 msgstr "Verifikaciona e-pošta poslata"
 
-#: app/scripts/views/settings/emails.js:169
+#: app/scripts/views/settings/emails.js:155
 msgid "Primary email set to %(email)s"
 msgstr "Kao primarna adresa je postavljena %(email)s"
+
+#: app/scripts/views/settings/emails.js:167
+msgid ""
+"A secondary email is an additional address for receiving security notices "
+"and confirming new Sync devices"
+msgstr ""
+
+#: app/scripts/views/settings/emails.js:169
+#: app/scripts/templates/settings/emails.mustache:2
+#: app/scripts/templates/settings/emails.mustache:19
+msgid "Secondary email"
+msgstr "Sekundarna adresa"
 
 #: app/scripts/views/mixins/account-reset-mixin.js:43
 #: app/scripts/lib/auth-errors.js:113
@@ -216,7 +302,12 @@ msgstr "Otvori Restmail"
 msgid "Email resent"
 msgstr "E-pošta je ponovo poslata"
 
-#: app/scripts/views/behaviors/settings.js:16
+#: app/scripts/views/mixins/upgrade-session-mixin.js:62
+#: app/scripts/models/auth_brokers/base.js:72
+msgid "Primary email verified successfully"
+msgstr ""
+
+#: app/scripts/views/behaviors/settings.js:31
 #: app/scripts/models/auth_brokers/web.js:23
 msgid "Account verified successfully"
 msgstr "Nalog je uspešno potvrđen"
@@ -257,6 +348,10 @@ msgstr "Kreditne kartice"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
+#: app/scripts/models/auth_brokers/base.js:76
+msgid "Secondary email verified successfully"
+msgstr ""
+
 #: app/scripts/lib/auth-errors.js:19
 #: app/scripts/lib/marketing-email-errors.js:17
 #: app/scripts/lib/oauth-errors.js:20 app/scripts/lib/profile-errors.js:39
@@ -266,7 +361,7 @@ msgid "Unexpected error"
 msgstr "Neočekivana greška"
 
 #: app/scripts/lib/auth-errors.js:20
-#: app/scripts/templates/complete_sign_up.mustache:5
+#: app/scripts/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
 msgstr "Veza koju ste kliknuli za potvrdu e-pošte je istekla."
 
@@ -484,7 +579,7 @@ msgstr ""
 "Firefox nalozi mogu biti postavljeni samo u IFRAME-u na odobrenim sajtovima"
 
 #: app/scripts/lib/auth-errors.js:305
-#: app/scripts/templates/complete_sign_up.mustache:9
+#: app/scripts/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Veza za potvrdu je oštećena"
 
@@ -520,8 +615,8 @@ msgstr "Neispravna osobina podatka: %(property)s"
 msgid "Missing data attribute: %(property)s"
 msgstr "Nedostaje osobina podatka: %(property)s"
 
-#: app/scripts/lib/auth-errors.js:372
-#: app/scripts/templates/complete_sign_up.mustache:2
+#: app/scripts/lib/auth-errors.js:372 app/scripts/lib/auth-errors.js:426
+#: app/scripts/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Ova potvrdna veza je već iskorišćena, može se iskoristiti samo jednom."
 
@@ -762,7 +857,7 @@ msgid "Reset password link damaged"
 msgstr "Veza za resetovanje lozinke je oštećena"
 
 #: app/scripts/templates/complete_reset_password.mustache:6
-#: app/scripts/templates/complete_sign_up.mustache:10
+#: app/scripts/templates/complete_sign_up.mustache:12
 #: app/scripts/templates/report_sign_in.mustache:2
 msgid ""
 "The link you clicked was missing characters, and may have been broken by "
@@ -803,18 +898,22 @@ msgid "Submit new password"
 msgstr "Pošalji novu lozinku"
 
 #: app/scripts/templates/complete_sign_up.mustache:1
+msgid "Primary email already confirmed"
+msgstr ""
+
+#: app/scripts/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
 msgstr "Prijava je već potvrđena"
 
-#: app/scripts/templates/complete_sign_up.mustache:4
+#: app/scripts/templates/complete_sign_up.mustache:6
 msgid "Verification link expired"
 msgstr "Veza za potvrdu je istekla"
 
-#: app/scripts/templates/complete_sign_up.mustache:6
+#: app/scripts/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new verification link"
 msgstr "Kliknite ovde da biste primili novu vezu za potvrdu"
 
-#: app/scripts/templates/complete_sign_up.mustache:12
+#: app/scripts/templates/complete_sign_up.mustache:14
 msgid "Verification error"
 msgstr "Greška u verifikaciji"
 
@@ -844,6 +943,7 @@ msgstr ""
 #: app/scripts/templates/sign_in_unblock.mustache:6
 #: app/scripts/templates/sign_in_unblock.mustache:9
 #: app/scripts/templates/settings/emails.mustache:16
+#: app/scripts/templates/settings/upgrade_session.mustache:5
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Nije u sandučetu ili u neželjenoj pošti? Pošalji ponovo"
 
@@ -881,9 +981,9 @@ msgstr "Poveži drugi uređaj"
 msgid "This Firefox is connected"
 msgstr "Ovaj Firefox je povezan"
 
-#: app/scripts/templates/connect_another_device.mustache:6
-msgid "Signin confirmed"
-msgstr "Prijava potvrđena"
+#: app/scripts/templates/connect_another_device.mustache:4
+msgid "Email verified"
+msgstr "Adresa e-pošte je potvrđena"
 
 #: app/scripts/templates/connect_another_device.mustache:8
 #: app/scripts/templates/ready.mustache:1
@@ -1085,13 +1185,7 @@ msgstr "Prihvati"
 msgid "Cancel"
 msgstr "Otkaži"
 
-#: app/scripts/templates/ready.mustache:5
-msgid ""
-"Account notifications will now also be sent to %(secondaryEmailVerified)s"
-msgstr ""
-"Obaveštenja naloga će se sada takođe slati i na %(secondaryEmailVerified)s"
-
-#: app/scripts/templates/ready.mustache:7
+#: app/scripts/templates/ready.mustache:6
 msgid "Your account is ready!"
 msgstr "Vaš nalog je spreman!"
 
@@ -1272,6 +1366,7 @@ msgid "Mobile phone number"
 msgstr "Broj mobilnog telefona"
 
 #: app/scripts/templates/sms_send.mustache:8
+#: app/scripts/templates/settings/upgrade_session.mustache:4
 msgid "Send"
 msgstr "Pošalji"
 
@@ -1284,10 +1379,6 @@ msgstr ""
 "SMS usluga je moguća samo u određenim državama. SMS &amp; usluge se mogu "
 "naplatiti. Primalac e-pošte ili SMS poruke mora biti saglasan sa time. <a "
 "%(escapedLearnMoreAttributes)s>Saznajte više</a>"
-
-#: app/scripts/templates/sms_send.mustache:11
-msgid "Maybe later"
-msgstr "Možda kasnije"
 
 #: app/scripts/templates/sms_sent.mustache:1
 #: app/scripts/templates/sms_sent.mustache:6
@@ -1384,6 +1475,7 @@ msgstr "Očisti"
 #: app/scripts/templates/settings/clients.mustache:28
 #: app/scripts/templates/settings/communication_preferences.mustache:12
 #: app/scripts/templates/settings/emails.mustache:22
+#: app/scripts/templates/settings/upgrade_session.mustache:7
 msgid "Done"
 msgstr "Gotovo"
 
@@ -1460,16 +1552,16 @@ msgid "Show"
 msgstr "Prikaži"
 
 #: app/scripts/templates/settings/clients.mustache:6
-msgid "current device"
-msgstr "trenutni uređaj"
+msgid "Current device"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:8
 msgid "Disconnect…"
 msgstr "Prekini vezu…"
 
 #: app/scripts/templates/settings/clients.mustache:11
-msgid "current session"
-msgstr "trenutna sesija"
+msgid "Current session"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:16
 msgid "Revoke"
@@ -1481,8 +1573,8 @@ msgstr "Firefox za iOS"
 
 #: app/scripts/templates/settings/clients.mustache:20
 #: app/scripts/templates/settings/clients.mustache:23
-msgid "none connected"
-msgstr "nije povezano"
+msgid "None connected"
+msgstr ""
 
 #: app/scripts/templates/settings/clients.mustache:21
 #: app/scripts/templates/settings/clients.mustache:24
@@ -1499,6 +1591,7 @@ msgstr "Stavke nedostaju ili ima duplikata?"
 
 #: app/scripts/templates/settings/clients.mustache:27
 #: app/scripts/templates/settings/emails.mustache:20
+#: app/scripts/templates/settings/upgrade_session.mustache:6
 msgid "Refresh"
 msgstr "Osveži"
 
@@ -1524,7 +1617,7 @@ msgstr "Pretplati se"
 
 #: app/scripts/templates/settings/communication_preferences.mustache:11
 msgid "Manage Subscriptions"
-msgstr ""
+msgstr "Upravljajte pretplatama"
 
 #: app/scripts/templates/settings/delete_account.mustache:1
 #: app/scripts/templates/settings/delete_account.mustache:5
@@ -1549,11 +1642,6 @@ msgid ""
 msgstr ""
 "Izaberite ime koje biste voleli da se prikazuje na Firefox-u i tokom "
 "podešavanja naloga."
-
-#: app/scripts/templates/settings/emails.mustache:2
-#: app/scripts/templates/settings/emails.mustache:19
-msgid "Secondary email"
-msgstr "Sekundarna adresa"
 
 #: app/scripts/templates/settings/emails.mustache:6
 msgid ""
@@ -1584,6 +1672,14 @@ msgstr "Ukloni"
 #: app/scripts/templates/settings/emails.mustache:24
 msgid "Add"
 msgstr "Dodaj"
+
+#: app/scripts/templates/settings/upgrade_session.mustache:2
+msgid "Unlock…"
+msgstr ""
+
+#: app/scripts/templates/settings/upgrade_session.mustache:3
+msgid "verify to unlock section"
+msgstr ""
 
 #: app/scripts/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1628,14 +1724,49 @@ msgctxt "header text"
 msgid "Sign in"
 msgstr "Prijavi se"
 
+#~ msgid "over %(translatedTimeAgo)s"
+#~ msgstr "preko %(translatedTimeAgo)s"
+
+#~ msgid "last sync %(translatedTimeAgo)s"
+#~ msgstr "poslednja sinhronizacija %(translatedTimeAgo)s"
+
+#~ msgid "last sync over %(translatedTimeAgo)s"
+#~ msgstr "poslednja sinhronizacija pre %(translatedTimeAgo)s"
+
+#~ msgid "last active %(translatedTimeAgo)s"
+#~ msgstr "poslednji put aktivan %(translatedTimeAgo)s"
+
+#~ msgid "last active over %(translatedTimeAgo)s"
+#~ msgstr "poslednja aktivnost pre %(translatedTimeAgo)s"
+
+#~ msgid "last sync time unknown"
+#~ msgstr "vreme poslednje sinhronizacije nepoznato"
+
+#~ msgid "Signin confirmed"
+#~ msgstr "Prijava potvrđena"
+
+#~ msgid ""
+#~ "Account notifications will now also be sent to %(secondaryEmailVerified)s"
+#~ msgstr ""
+#~ "Obaveštenja naloga će se sada takođe slati i na %(secondaryEmailVerified)s"
+
+#~ msgid "Maybe later"
+#~ msgstr "Možda kasnije"
+
+#~ msgid "current device"
+#~ msgstr "trenutni uređaj"
+
+#~ msgid "current session"
+#~ msgstr "trenutna sesija"
+
+#~ msgid "none connected"
+#~ msgstr "nije povezano"
+
 #~ msgid "App link resent to %(phoneNumber)s"
 #~ msgstr "Veza do aplikacije ponovo poslata na %(phoneNumber)s"
 
 #~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
 #~ msgstr "Ljubaznost <a href=\"https://www.gravatar.com\">Gravatar-a</a>"
-
-#~ msgid "Last active %(translatedTimeAgo)s"
-#~ msgstr "Poslednja aktivnost %(translatedTimeAgo)s"
 
 #~ msgid "Unsubscribed successfully"
 #~ msgstr "Pretplata je otkazana"
